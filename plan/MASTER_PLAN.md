@@ -730,9 +730,9 @@ AGENTS.md 및 Codex의 화면·도구 동작은 문제와 개선을 보여주는
 다음 항목은 제공된 기획 원문에서 확정되지 않았다. 후속 결정이 있기 전까지
 사실처럼 기술하거나 임의 배정하지 않는다.
 
-1. **원문 누락 확인:** 보완 원문은 34절 금지사항의 11번 항목 중
-   “각 Chapter가 서로 독립된 기능 소개처럼”에서 끝난다. 이어지는 문구나
-   후속 요구사항이 있으면 추가 반영한다.
+1. **원문 체크리스트 잔여분 확인:** 가장 최근에 받은 원문은 51절 자체
+   검증 Checklist의 “AGENTS.md의 초기 성공” 항목 중간에서 끝난다.
+   이후 Checklist 항목이나 마무리 문구가 추가로 제공되면 반영한다.
 2. **실제 사례와 단일 교육용 repository:** 동일한 예제로 교육을 관통하는
    것을 우선하되, 사용할 코드베이스와 사례를 정한다. 사례 사용 허가와
    민감 정보 처리도 확인한다.
@@ -1006,7 +1006,347 @@ Harness Engineering과 Loop Engineering처럼 업계에서 용어 사용이 완�
 8. AI가 모든 개발 업무를 대신할 수 있다는 메시지
 9. AI 결과를 검증 없이 신뢰하도록 유도하는 내용
 10. 최신 기능을 확인하지 않고 단정하는 내용
-11. 원문이 “각 Chapter가 서로 독립된 기능 소개처럼”에서 잘려 뒤 문장이
-    확인되지 않았다. 의도상 독립 기능 소개로 분절하지 않는다는 방향은
-    이 문서의 다른 Storyline 원칙으로 보존하며, 원문 후속 문구는 추가
-    제공 시 확인한다.
+11. 각 Chapter가 서로 독립된 기능 소개처럼 보이는 구성
+12. Problem 없이 Solution부터 소개하는 구성
+13. 처음부터 완성된 Harness Architecture를 보여주고 외우게 하는 방식
+14. Skill/Subagent/Memory를 단순히 “고급 기능”으로 나열하는 방식
+15. 교육을 위해 실제로 발생하지 않은 제작 과정의 문제를 실제 사례처럼 꾸미는 것
+16. 교육생 직접 실습을 전제로 하는 구성
+17. 6시간을 채우기 위해 불필요하게 이론을 늘리는 것
+18. 현재 기획에 없는 새로운 핵심 메시지를 근거 없이 추가하는 것
+19. 이후 작업 편의를 위해 MASTER_PLAN의 핵심 내용을 임의로 축약하는 것
+20. Slide 수를 맞추기 위해 Story의 중요한 연결 과정을 삭제하는 것
+
+## 23. 교육에서 특히 피해야 할 오해
+
+다음 오해가 생기지 않도록 필요한 시점에 명시적으로 바로잡는다.
+
+1. **“Prompt Engineering은 이제 필요 없다.”**
+   Prompt Engineering은 Task를 명확하게 전달하는 기본 기술이다. 반복적인
+   Context와 Workflow가 늘면 Prompt만으로 해결하기 어려운 문제가 생기며,
+   해결 범위가 Context → Harness → Loop로 확장된다.
+2. **“AGENTS.md를 크게 만들면 AI가 프로젝트를 더 잘 이해한다.”**
+   항상 그렇지 않다. 관련성과 제공 시점이 중요하므로 공통 핵심 정보와
+   Task별 정보를 구분한다.
+3. **“Context Engineering은 문서를 많이 넣는 것이다.”**
+   핵심은 어떤 정보를 어떤 작업에서 어떤 시점에 어떤 Agent에게 제공할지
+   설계하는 것이다.
+4. **“Subagent를 많이 쓰면 더 좋은 결과가 나온다.”**
+   역할 분리, Context isolation, parallel investigation이 실제로 필요할 때
+   사용한다. 불필요한 분리는 coordination overhead, 중복 조사, 결과 통합
+   비용과 추가 Context를 만든다.
+5. **“Memory는 많이 저장할수록 좋다.”**
+   오래되거나 잘못된 정보를 유지할 수 있으므로 재사용 가치, 최신성,
+   신뢰성과 Scope를 관리한다.
+6. **“Harness를 구축하면 문제가 해결된다.”**
+   Harness도 software system이다. 프로젝트 변경으로 낡을 수 있고 잘못된
+   Rule, Skill, Memory가 Agent 성능을 떨어뜨릴 수 있으므로 관찰과 개선이
+   필요하다.
+7. **“Loop Engineering은 Agent를 계속 자동 실행하는 것이다.”**
+   이 교육에서의 Loop Engineering은 단순 반복 실행이 아니라
+   `Execution → Feedback → Learning → System Improvement`다.
+8. **“Agent가 Build/Test를 실행했으므로 코드는 안전하다.”**
+   어떤 Verification을 수행할지 정의하는 일은 중요한 Engineering 판단이다.
+   Test가 있다는 사실만으로 필요한 Test coverage가 보장되지는 않는다.
+
+## 24. 질문형 Chapter 전환
+
+가능하면 강사가 해결책을 바로 말하기보다 질문을 던져 교육생이 다음 단계의
+필요를 먼저 느끼게 한다. 다음 문구는 Slide 제목이나 Chapter transition으로
+활용할 수 있다.
+
+| 전환 | 질문 |
+| --- | --- |
+| Chatbot → Prompt Engineering | “같은 모델인데 왜 사람마다 결과가 이렇게 다를까?” |
+| Prompt → Context | “그런데 왜 우리는 매번 같은 설명을 하고 있을까?” |
+| 초기 AGENTS.md → Context 분리 | “그러면 모든 것을 AGENTS.md에 넣으면 되는 걸까?” |
+| Context → Harness | “AI가 프로젝트를 잘 이해하면 항상 같은 방식으로 잘 일할까?” |
+| Skill → Subagent | “하나의 Agent가 이 모든 역할을 동시에 수행해야 할까?” |
+| Context → Memory | “지난번에 이미 알아낸 사실을 왜 또 조사하고 있을까?” |
+| Harness → Loop | “이렇게 만든 Harness가 6개월 뒤에도 여전히 맞을까?” |
+| Loop Engineering | “Agent가 같은 실수를 세 번째 반복했다면 문제는 Agent에게 있을까, 아니면 우리가 만든 시스템에 있을까?” |
+
+## 25. Demo에서 실패를 다루는 원칙
+
+성공 Demo만 보여주지 않는다. Story상 의미 있는 실패를 보여주되, Agent를
+조롱하거나 AI가 멍청하다는 것을 보여주는 Entertainment로 사용하지 않는다.
+각 실패는 `Failure → Cause → Engineering Response`를 이해시키는 재료다.
+
+계획 가능한 실패 예시는 다음과 같다.
+
+1. 모호한 Prompt로 Agent가 예상과 다른 범위까지 수정한다.
+2. Context가 부족해 프로젝트 규칙을 모르고 잘못 가정한다.
+3. AGENTS.md가 과도하게 커져 필요한 Rule과 불필요한 Rule이 뒤섞인다.
+4. Verification을 생략해 코드 수정은 되었지만 Test가 실패한다.
+5. 오래된 Skill이 변경된 Build command 대신 과거 command를 사용한다.
+6. 오래된 Memory가 현재 Architecture와 맞지 않는 정보를 제공한다.
+7. 같은 Failure가 반복되어 Harness 개선의 필요성이 드러난다.
+
+실제 Demo에서 어떤 실패를 재현할지는 교육용 Repository와 환경을 설계할
+때 결정한다. 실패는 재현 가능성과 설명 가치를 검토하고, 원인과 대응을
+보여줄 수 있을 때 사용한다.
+
+## 26. 같은 문제를 서로 다른 Maturity에서 비교
+
+가능하면 같은 개발 문제를 AI 활용 성숙도에 따라 반복해서 보여준다. 예를
+들어 “특정 입력에서 이미지 처리 결과가 잘못된다”는 문제를 다음과 같이
+다룰 수 있다.
+
+| 비교 단계 | 업무 방식 |
+| --- | --- |
+| Level 1 | 개발자가 관련 코드를 찾아 ChatGPT에 붙여넣고 질문한다. |
+| Level 2 | 좋은 Prompt에 문제, 환경, 제약, 검증 조건을 넣는다. |
+| Level 3 | Codex가 repository에서 관련 코드와 test를 직접 조사한다. |
+| Level 4 | Project Context와 Skill을 사용해 정해진 Workflow로 조사·수정·검증한다. |
+| Level 5 | 실행 중 반복 Failure가 Harness 개선으로 이어지고 다음 Task에 반영된다. |
+
+이 Level 1–5는 하나의 문제를 점점 성숙한 방식으로 다루는 Demo용 비교
+축이다. 교육생 분포를 설명하는 Level 0–4 표(2.1절)와 같은 분류 체계로
+단정하거나 서로 일대일 대응시키지 않는다. 목적은 기술 목록이 아니라
+업무 방식의 변화를 보여주는 것이다.
+
+## 27. 교육용 Demo Repository 요구사항
+
+별도 설계 단계에서 교육용 Demo Repository를 만든다. MASTER_PLAN 단계에서는
+이 Repository를 구현하거나 구조를 추가하지 않는다. 후보 Repository는
+다음 요건을 만족하는 방향으로 설계한다.
+
+1. 개발자가 직관적으로 이해할 수 있다.
+2. 복잡한 Domain 지식이 필요하지 않다.
+3. Repository exploration을 보여줄 수 있도록 여러 파일과 Module 관계가 있다.
+4. Build와 Test가 존재한다.
+5. 의도적인 Bug를 넣을 수 있다.
+6. Performance 또는 Refactoring 사례를 만들 수 있다.
+7. 프로젝트 Rule을 적용할 수 있다.
+8. AGENTS.md의 장점을 보여줄 수 있다.
+9. Context가 늘면서 생기는 문제를 설명할 수 있다.
+10. Skill로 분리할 자연스러운 반복 작업이 있다.
+11. Subagent의 역할 분리가 자연스러운 복합 작업이 있다.
+12. Memory가 필요한 반복 학습 사례를 만들 수 있다.
+13. Harness가 낡는 상황을 보여줄 수 있다.
+14. Loop Engineering으로 개선할 반복 Failure가 있다.
+15. 6시간 교육에서 계속 사용할 수 있는 동일한 프로젝트다.
+
+교육생들의 기술 배경이 다양하므로 특정 고급 Domain 지식 없이는 이해할 수
+없는 프로젝트를 피한다. 일부 개발자가 CUDA/GPU 경험이 있더라도 교육생
+전체가 같은 전문성을 가진다고 가정하지 않는다.
+
+## 28. 교육자료 Repository와 Demo Repository 구분
+
+다음 두 Repository 개념을 혼동하지 않는다.
+
+**A. `ai-dev-training` — 교육자료 제작 Repository**
+
+기획 원본, Curriculum, Storyline, References, Slide contents, Speaker notes,
+Demo plans와 지시가 있을 때의 최종 PPT 등을 관리한다.
+
+**B. 교육용 Demo Repository — 시연할 Software Project**
+
+교육 중 실제 Codex 행동을 보여주기 위한 Software Project다. `ai-dev-training`
+안의 `demos/`에 둘지 별도 Repository로 분리할지는 이후 설계 단계에서
+결정한다.
+
+교육자료 Repository 자체의 발전 과정은 Harness Engineering의 Meta Example로
+쓸 수 있지만, A와 B의 Story를 억지로 동일하게 만들 필요는 없다.
+
+## 29. 제작 과정 기록의 후속 계획
+
+가능하면 설계 변경을 `Decision`, `Problem`, `Change`, `Result`,
+`Potential Training Example` 관점으로 기록해 나중에 교육 사례로 쓸 수 있는지
+판단한다.
+
+`plan/DECISIONS.md`는 향후 별도 설계 단계에서 만들 수 있다. 현재 MASTER_PLAN
+작성 단계에서는 이 파일이나 다른 추가 Memory/Skill/Subagent 시스템을
+생성하지 않는다. 실제 제작 과정에서 문제가 생겼을 때 필요한 구조를
+추가한다.
+
+## 30. 향후 Source of Truth 계층
+
+향후 문서가 늘어날 경우 다음 계층을 사용할 수 있다.
+
+1. **MASTER_PLAN.md:** 교육 목적, 철학, Story, Audience와 핵심 방향을 정의하는
+   가장 높은 수준의 Source of Truth.
+2. **INVARIANTS.md:** 향후 작업에서 깨뜨리면 안 되는 조건을 MASTER_PLAN에서
+   추출해 보존한다.
+3. **DECISIONS.md:** 새 결정과 결정 이유를 기록한다. MASTER_PLAN을 몰래
+   변경하는 용도로 사용하지 않는다.
+4. **Curriculum / Story / Demo / Slide 문서:** 위 기준을 실행하는 하위 산출물.
+
+하위 문서가 상위 문서와 충돌하면 상위 문서를 따른다. INVARIANTS.md와
+DECISIONS.md는 향후 필요가 확정될 때 별도로 설계하며 현재 만들지 않는다.
+
+## 31. 기획 변경 정책
+
+“이 방식이 더 좋아 보인다”는 이유만으로 MASTER_PLAN을 조용히 변경하지
+않는다. 계획 변경이 필요하다고 판단하면 먼저 다음을 제안한다.
+
+- **PROPOSAL:** 바꾸려는 내용
+- **REASON:** 변경이 필요한 이유
+- **IMPACT:** 영향을 받는 Story, Slide, Demo 등
+
+사용자 승인 전에는 기존 MASTER_PLAN을 유지한다. 특히 다음 기준은 임의로
+변경하지 않는다.
+
+- 6시간 교육과 개발자 대상
+- AI 활용 수준 편차와 역량 균질화라는 최우선 목표
+- 교육생 직접 실습 없음, Demo·사례·Insight 중심
+- Chatbot → Prompt → Context → Harness → Loop의 큰 흐름
+- Problem → Improvement → New Problem이라는 Storytelling
+- 하나의 프로젝트가 진화하는 방식
+- 초급자와 숙련자가 동시에 가치를 얻는 원칙
+- Verification 강조
+- Harness가 끝이 아니라 Loop로 발전하는 구조
+
+## 32. 용어 정의와 Research 요구사항
+
+후속 Research에서 다음 용어의 정의와 근거를 확인한다.
+
+- Prompt Engineering
+- Context Engineering
+- Harness Engineering
+- Loop Engineering
+- Agent
+- Subagent
+- Skill
+- Memory
+- Tool
+- AGENTS.md
+- Progressive Disclosure
+- Lost in the Middle
+
+이 문서는 교육 Story에서 필요한 의미를 기술하지만 업계 전체가 같은 정의를
+사용한다고 단정하지 않는다. Harness Engineering과 Loop Engineering은
+교육에서 사용하는 Operational Definition을 명확히 할 필요가 있다. 향후
+정의는 OpenAI 공식 자료, 원 논문, 신뢰할 수 있는 기술 자료와 실제 Agent
+Engineering 사례를 조사해 보강한다.
+
+## 33. 예상 Slide 규모와 밀도
+
+현재 예상 규모는 약 60–70장이다. Slide 수 자체는 목표가 아니며 Demo와 화면
+전환에 따라 실제 발표 파일의 장수는 달라질 수 있다.
+
+- Story 흐름에 맞는 분리를 우선하고 한 장에 많은 내용을 압축하지 않는다.
+- Slide 수를 채우려고 내용을 의미 없이 쪼개지 않는다.
+- 반대로 Slide 수를 맞추려고 Story의 중요한 연결 과정을 삭제하지 않는다.
+- 최종 Slide Map 단계에서 6시간 발표 속도와 Demo 시간을 고려해 다시
+  계산한다.
+
+## 34. Slide와 Speaker Notes의 역할 구분
+
+화면에 보여줄 내용과 강사가 말할 내용을 구분한다.
+
+**Slide**에는 핵심 메시지, Diagram, Before/After, Prompt, Screenshot, 결과와
+Insight를 둔다.
+
+**Speaker Notes**에는 왜 이 사례를 보여주는지, 앞 Chapter와 어떻게
+연결되는지, 어떤 오해를 막아야 하는지, Demo에서 무엇을 강조할지, 다음
+Problem으로 어떻게 넘어갈지를 기록한다.
+
+슬라이드 자체를 긴 문서처럼 만들지 않는다.
+
+## 35. 교육 종료 시 수준별로 남아야 할 변화
+
+**초급 개발자**는 “AI에게 에러를 질문하는 것만이 AI 활용이 아니다”를
+이해하고, Codex가 repository를 직접 조사할 수 있다는 점, 바로 고쳐달라고
+하기보다 먼저 조사하게 할 수 있다는 점, Build/Test를 실행하고 결과를
+검증해야 한다는 점, 반복 프로젝트 지시를 AGENTS.md 등의 Context로 관리할
+수 있다는 점까지 자연스럽게 이해해야 한다.
+
+**중급 개발자**는 Prompt에 모든 것을 넣는 방식의 한계, Context를 구조화해
+필요할 때 제공하는 이유, 반복 Workflow를 Skill/Harness로 발전시키는 방식을
+가져간다.
+
+**숙련 개발자**는 Context isolation과 Subagent 설계, Memory lifecycle 관리,
+Harness 품질 평가, 반복 Failure를 System Improvement로 전환하는 방법에
+관한 질문을 갖고 돌아간다.
+
+## 36. 교육의 마지막 메시지
+
+교육은 “ChatGPT/Codex 기능을 많이 알게 되었다”로 끝내지 않는다. 교육생이
+자신의 사고 범위를 다음 순서로 넓히게 한다.
+
+`AI에게 무엇을 물어볼까? → AI에게 어떤 문제 해결 과정을 맡길까? → AI에게
+어떤 Context가 필요한가? → AI가 안정적으로 일하려면 어떤 환경이 필요한가?
+→ 이 시스템은 경험을 통해 어떻게 더 좋아질 수 있는가?`
+
+최종 진화는 다음처럼 정리할 수 있다.
+
+`Question → Task → Context → System → Feedback Loop`
+
+또는 교육 전체의 Story로:
+
+`Chatbot → Prompt Engineering → Context Engineering → Harness Engineering
+→ Loop Engineering → AI-Native Development`
+
+## 37. 최종 Meta Insight
+
+처음부터 복잡한 AI 시스템을 구축하는 것이 목적이 아니다. 현재 방식에서
+실제 Failure와 Friction이 발생할 때 문제를 해결하는 최소한의 구조를
+추가한다.
+
+> Best Practice를 모두 먼저 설치하는 것이 아니라, 현재 Failure와 Friction을
+> 관찰하고 필요한 Engineering을 추가한다.
+
+이것은 교육의 Storytelling 방식이자 Harness/Loop Engineering의 핵심
+철학이다.
+
+## 38. 원문에서 요구한 Section Coverage
+
+아래 표는 원문에서 MASTER_PLAN에 포함하라고 요구한 최소 주제가 이 문서의
+어느 절에서 다뤄지는지 연결한다. 이 표는 기획을 요약해 대체하지 않으며,
+상세 내용은 지정된 각 절을 기준으로 한다.
+
+| 원문 요구 주제 | 본 문서의 위치 |
+| --- | --- |
+| Training Overview | 1절 |
+| Primary Objective | 3.1절 |
+| Audience | 2.1절 |
+| Training Constraints | 1.2–1.3, 8.1, 22절 |
+| Learning Outcomes | 3.2, 35절 |
+| Core Narrative | 4–5절 |
+| Maturity Model | 2.1–2.3, 20, 26절 |
+| Stage 0 — Chatbot | 5.1절 |
+| Stage 1 — Prompt Engineering | 5.2, 13.1절 |
+| Stage 2 — Context Engineering | 5.3, 13.2절 |
+| Stage 3 — Harness Engineering | 5.4, 13.3절 |
+| Skills | 5.4, 8.2, 27절 |
+| Subagents | 5.5절 |
+| Memory | 5.6절 |
+| Harness Architecture | 5.7, 13.3절 |
+| Harness Technical Debt | 5.8, 14절 |
+| Stage 4 — Loop Engineering | 5.9, 14절 |
+| AI-Native Development | 5.10, 36절 |
+| Task Execution Pattern | 6.1절 |
+| Verification Philosophy | 6.2–6.4절 |
+| Demo Philosophy | 8, 25절 |
+| Demo Repository Requirements | 27–28절 |
+| Difficulty Strategy | 2, 26, 35절 |
+| Storytelling Rules | 4, 12, 17, 24절 |
+| Insight Messages | 7, 18, 36–37절 |
+| Developer Responsibility | 15절 |
+| Research Requirements | 0.2, 21, 32절 |
+| Meta Example | 16, 29, 37절 |
+| Anti-Patterns / Prohibited Directions | 22–25절 |
+| Source-of-Truth Policy | 0, 30절 |
+| Change Policy | 31절 |
+| Final Takeaway | 35–37절 |
+
+## 39. MASTER_PLAN 자체 검토
+
+제공된 자체 검증 Checklist에서 확인할 수 있었던 첫 11개 항목을 이 문서와
+대조했다.
+
+- [x] 총 6시간 교육 조건이 명시되어 있다.
+- [x] 개발자 대상 교육임이 명확하다.
+- [x] 교육생의 AI 활용 수준 편차가 반영되어 있다.
+- [x] 현장 출장이 많아 심화 학습 시간이 부족한 사용자가 고려되어 있다.
+- [x] AI 활용 역량 균질화가 최우선 목표다.
+- [x] 교육생 직접 실습이 없다는 조건이 있다.
+- [x] Demo, 사례와 Insight 중심으로 구성한다.
+- [x] Chatbot → Prompt → Context → Harness → Loop 흐름이 보존되어 있다.
+- [x] 단계별 개념이 앞 단계의 Problem에서 자연스럽게 등장한다.
+- [x] Prompt Engineering을 부정하지 않는다.
+- [x] AGENTS.md 도입이 처음에는 효과적으로 동작한 뒤 한계가 나타난다.
+
+첨부 원문은 51절 Checklist의 11번째 항목 중간에서 끝나 나머지 검증
+항목은 확인할 수 없다. 추가 항목을 받으면 자체 검토를 이어간다.
