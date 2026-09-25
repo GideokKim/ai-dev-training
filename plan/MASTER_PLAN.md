@@ -352,7 +352,9 @@ Context를 정리해 알려줘도 AI가 일하는 방식은 매 작업마다 달
 `AI에게 지식을 제공 → AI가 일하는 방법과 환경을 설계`
 
 Skills는 필요한 작업에 필요한 절차와 지침을 선택적으로 제공하는 예로
-소개한다. 예시 구조는 다음과 같다.
+소개한다. 반복 Workflow를 매번 설명하거나 불안정하게 수행하는 문제를
+해결하고, 필요한 절차를 반복해서 사용할 수 있게 한다. 예시 구조는 다음과
+같다.
 
 ```text
 skills/
@@ -577,8 +579,8 @@ Harness 자체를 개선한다.
 
 ### 6.2 완료 판단
 
-AI가 “수정했습니다”라고 말한 것은 작업 완료의 증거가 아니다. 생성된 변경은
-필요한 검증을 거쳐야 한다.
+`Generated ≠ Done`. AI가 “수정했습니다”라고 말한 것은 작업 완료의 증거가
+아니다. 생성된 변경은 필요한 검증을 거쳐야 한다.
 
 `Generated → Build → Test → (필요 시 Benchmark) → Review → Done`
 
@@ -730,26 +732,23 @@ AGENTS.md 및 Codex의 화면·도구 동작은 문제와 개선을 보여주는
 다음 항목은 제공된 기획 원문에서 확정되지 않았다. 후속 결정이 있기 전까지
 사실처럼 기술하거나 임의 배정하지 않는다.
 
-1. **원문 체크리스트 잔여분 확인:** 가장 최근에 받은 원문은 51절 자체
-   검증 Checklist의 “AGENTS.md의 초기 성공” 항목 중간에서 끝난다.
-   이후 Checklist 항목이나 마무리 문구가 추가로 제공되면 반영한다.
-2. **실제 사례와 단일 교육용 repository:** 동일한 예제로 교육을 관통하는
+1. **실제 사례와 단일 교육용 repository:** 동일한 예제로 교육을 관통하는
    것을 우선하되, 사용할 코드베이스와 사례를 정한다. 사례 사용 허가와
    민감 정보 처리도 확인한다.
-3. **Live Demo 환경:** 사용할 Codex 환경, 계정·권한 조건, 화면 흐름,
+2. **Live Demo 환경:** 사용할 Codex 환경, 계정·권한 조건, 화면 흐름,
    네트워크 의존성 및 장애 시 대체 화면을 정한다.
-4. **단계별 산출물:** 각 Story 단계의 세션 제목, 상세 학습 포인트,
+3. **단계별 산출물:** 각 Story 단계의 세션 제목, 상세 학습 포인트,
    구체적인 전환 문구를 설계한다.
-5. **현재 제품 기능 검증:** 교육 시점에 사용할 ChatGPT/Codex 기능과 UI를
+4. **현재 제품 기능 검증:** 교육 시점에 사용할 ChatGPT/Codex 기능과 UI를
    공식 자료로 확인한다.
-6. **연구 근거:** Lost in the Middle 등 설명에 사용할 일차 자료와 적용
+5. **연구 근거:** Lost in the Middle 등 설명에 사용할 일차 자료와 적용
    한계를 확인한다.
-7. **검증 예시:** build, test, benchmark, review 예시를 보여줄 실제
+6. **검증 예시:** build, test, benchmark, review 예시를 보여줄 실제
    프로젝트의 명령과 완료 기준을 정한다.
-8. **교육자료 제작 Meta Example의 사용 범위:** 제작 repository의 실제
+7. **교육자료 제작 Meta Example의 사용 범위:** 제작 repository의 실제
    문제와 개선을 기록하고 사례로 사용할지 구체화한다. 처음부터 교육용으로
    인위적인 Harness를 만들지 않는다.
-9. **PPT 제작:** 최종 PPT는 별도 지시가 있을 때 진행한다.
+8. **PPT 제작:** 최종 PPT는 별도 지시가 있을 때 진행한다.
 
 ## 11. 6시간 교육의 권장 큰 구조
 
@@ -1246,6 +1245,18 @@ Problem으로 어떻게 넘어갈지를 기록한다.
 
 ## 35. 교육 종료 시 수준별로 남아야 할 변화
 
+다음 Persona는 공통 Story 안에서 서로 다른 가치를 얻는 관점을 구체화한다.
+이 Persona들을 별도 교육 과정으로 분리하지 않는다.
+
+**Persona A — Chatbot User:** ChatGPT에 질문만 하고 Codex 경험이 거의 없으며
+별도 AI 학습 시간이 부족한 개발자.
+
+**Persona B — Practical Codex User:** Codex로 코드를 수정하고 Prompt와
+AGENTS.md를 사용해봤지만 구조적인 Harness는 아직 없는 개발자.
+
+**Persona C — Advanced Agent User:** Agent, Skill, Context 관리 경험이 있고
+이미 높은 수준의 AI 활용 역량을 보유한 개발자.
+
 **초급 개발자**는 “AI에게 에러를 질문하는 것만이 AI 활용이 아니다”를
 이해하고, Codex가 repository를 직접 조사할 수 있다는 점, 바로 고쳐달라고
 하기보다 먼저 조사하게 할 수 있다는 점, Build/Test를 실행하고 결과를
@@ -1259,6 +1270,18 @@ Problem으로 어떻게 넘어갈지를 기록한다.
 **숙련 개발자**는 Context isolation과 Subagent 설계, Memory lifecycle 관리,
 Harness 품질 평가, 반복 Failure를 System Improvement로 전환하는 방법에
 관한 질문을 갖고 돌아간다.
+
+Persona A는 최소한 ChatGPT/Codex의 차이, repository 조사, 명확한 지시,
+선행 조사, Build/Test 검증과 AGENTS.md라는 다음 단계를 얻어야 한다.
+Persona B는 Context relevance, AGENTS.md 비대화, Progressive Disclosure,
+Skill, Subagent 사용 시점, Context와 Memory의 차이, Harness 관점을 얻어야
+한다. Persona C는 Harness Technical Debt, stale Context/Skill/Memory,
+Harness Evaluation, 반복 Failure 개선, 두 종류의 Loop 구분과 AI Development
+Environment 자체를 Engineering 대상으로 보는 관점을 얻어야 한다.
+
+어느 Persona가 6시간의 상당 부분에서 가치를 얻지 못하는 구조라면 Curriculum
+단계에서 보완한다. 이 문제를 해결하려고 Story 순서를 깨거나 고급 내용을
+앞에 억지로 배치하지 않는다.
 
 ## 36. 교육의 마지막 메시지
 
@@ -1333,20 +1356,188 @@ Harness 품질 평가, 반복 Failure를 System Improvement로 전환하는 방�
 
 ## 39. MASTER_PLAN 자체 검토
 
-제공된 자체 검증 Checklist에서 확인할 수 있었던 첫 11개 항목을 이 문서와
+제공된 전체 Checklist를 기준으로 MASTER_PLAN을 다시 읽고 다음 항목을
 대조했다.
 
-- [x] 총 6시간 교육 조건이 명시되어 있다.
-- [x] 개발자 대상 교육임이 명확하다.
+- [x] 총 6시간 교육이라는 조건이 있다.
+- [x] 개발자 대상이라는 점이 명확하다.
 - [x] 교육생의 AI 활용 수준 편차가 반영되어 있다.
-- [x] 현장 출장이 많아 심화 학습 시간이 부족한 사용자가 고려되어 있다.
+- [x] 현장 출장으로 별도 심화 학습 시간이 부족한 사용자를 고려한다.
 - [x] AI 활용 역량 균질화가 최우선 목표다.
 - [x] 교육생 직접 실습이 없다는 조건이 있다.
-- [x] Demo, 사례와 Insight 중심으로 구성한다.
-- [x] Chatbot → Prompt → Context → Harness → Loop 흐름이 보존되어 있다.
-- [x] 단계별 개념이 앞 단계의 Problem에서 자연스럽게 등장한다.
-- [x] Prompt Engineering을 부정하지 않는다.
-- [x] AGENTS.md 도입이 처음에는 효과적으로 동작한 뒤 한계가 나타난다.
+- [x] 강의, 사례, Before/After, Demo와 Insight 중심이다.
+- [x] Chatbot → Prompt → Context → Harness → Loop → AI-Native 흐름이 있다.
+- [x] 각 단계는 앞 단계의 문제를 해결하기 위해 등장한다.
+- [x] Attempt → Works → Problem → Why → Improvement → New Problem → Improvement가 있다.
+- [x] Prompt Engineering을 낡거나 불필요한 기술처럼 설명하지 않는다.
+- [x] Goal / Context / Constraints / Process / Verification 구조가 보존되어 있다.
+- [x] 반복 Prompt 지시가 Context Engineering으로 이어진다.
+- [x] AGENTS.md의 초기 장점을 먼저 설명한다.
+- [x] AGENTS.md에 모든 것을 넣을 때의 문제를 설명한다.
+- [x] Context overload와 relevance 문제가 Context 분리의 이유다.
+- [x] Lost in the Middle을 과장하지 않고 근거 확인 대상으로 둔다.
+- [x] AGENTS.md가 모든 정보의 저장소에서 Router로 발전한다.
+- [x] Progressive Disclosure를 Context 흐름 안에서 설명한다.
+- [x] Context를 잘 줘도 Agent 작업 방식의 일관성 문제가 남는다.
+- [x] 이 문제가 Harness Engineering의 필요성으로 이어진다.
+- [x] Skill은 반복 Workflow를 일관되게 제공하는 맥락에서 등장한다.
+- [x] Skill을 단순한 고급 기능 목록으로 소개하지 않는다.
+- [x] Subagent는 Context explosion과 역할 복잡성을 줄이기 위해 등장한다.
+- [x] Subagent를 많이 만들수록 좋다는 메시지가 없다.
+- [x] Context와 Memory의 역할을 구분한다.
+- [x] Memory는 같은 지식을 반복 조사하는 문제에서 등장한다.
+- [x] Memory의 최신성, 신뢰성, 재사용 가치와 Scope를 고려한다.
+- [x] Context / Skills / Memory / Subagents / Tools가 Harness 구조에 연결된다.
+- [x] Harness를 단순 Tool 사용법으로 축소하지 않는다.
+- [x] Harness 자체가 Technical Debt가 될 수 있음을 설명한다.
+- [x] AGENTS.md, Skill, Memory가 stale해질 수 있음을 설명한다.
+- [x] Harness 노후화가 Loop Engineering의 필요성으로 연결된다.
+- [x] Loop Engineering은 단순 반복 실행으로 설명되지 않는다.
+- [x] Execute → Verify → Observe → Evaluate → Learn → Improve 피드백 구조가 있다.
+- [x] Product Loop와 Harness Improvement Loop를 구분한다.
+- [x] 반복 Failure가 Harness 개선으로 연결된다.
+- [x] Investigate → Plan → Implement → Verify → Review가 기본 Pattern이다.
+- [x] Task Execution Pattern과 Engineering Maturity Story를 구분한다.
+- [x] Generated ≠ Done이라는 Verification 관점이 있다.
+- [x] Build / Test / 필요 시 Benchmark / Review를 강조한다.
+- [x] 같은 Demo Repository를 교육 전체에서 진화시키는 원칙이 있다.
+- [x] Demo가 기능 자랑이 아니라 Story의 질문에 답한다.
+- [x] 실패 Demo가 Engineering Insight를 전달한다.
+- [x] 초급자, 중급자, 숙련자가 같은 Story에서 가치를 얻도록 설계한다.
+- [x] 교육자료 제작 프로젝트를 Meta Example로 활용할 가능성을 기록한다.
+- [x] Meta Example을 위해 가짜 문제를 만들지 않는다.
+- [x] 개발자의 Goal / Judgment / Verification / Responsibility를 유지한다.
+- [x] 모든 개발 판단을 AI에게 맡기라는 메시지가 없다.
+- [x] 현재 Codex 기능은 최신 공식 자료로 확인해야 한다.
+- [x] Harness / Loop 등의 용어를 업계 공통 정의라고 근거 없이 단정하지 않는다.
+- [x] 최종 변화가 Question → Task → Context → System → Feedback Loop로 표현된다.
+- [x] Failure/Friction이 생길 때 필요한 최소 Engineering을 추가한다.
 
-첨부 원문은 51절 Checklist의 11번째 항목 중간에서 끝나 나머지 검증
-항목은 확인할 수 없다. 추가 항목을 받으면 자체 검토를 이어간다.
+## 40. 핵심 Narrative Chain 검토
+
+각 단계의 원인과 다음 단계가 필요한 이유는 다음 연결을 따라 검토한다.
+
+| 단계 | 남아 있는 문제 또는 질문 | 다음 단계가 제공하는 변화 |
+| --- | --- | --- |
+| Chatbot | 개발자가 Context를 직접 모아 복사하고 질문·답변만 한다. | Codex가 repository를 직접 탐색한다. |
+| Codex 사용 | 목표와 제약이 모호하면 결과 범위와 검증이 흔들린다. | Prompt에 Goal / Context / Constraints / Process / Verification을 준다. |
+| 반복 Prompt | Project Rule과 Workflow를 매번 다시 설명한다. | Context Engineering으로 공통 정보를 재사용한다. |
+| 초기 AGENTS.md | 공통 Context를 repository 수준에서 관리하면 반복 설명이 줄어든다. | AGENTS.md를 통해 공통 지침을 재사용한다. |
+| AGENTS.md 비대화 | 관련성 저하, 과잉 Context, 충돌과 유지관리 문제가 생긴다. | Context 분리와 Progressive Disclosure를 사용한다. |
+| Context 분리 | Agent가 정보를 이해해도 작업 절차와 검증 순서는 달라질 수 있다. | Harness가 Process와 Environment를 설계한다. |
+| Skills | 같은 Workflow를 반복해서 설명하고 일관성 없이 실행하는 일이 문제가 된다. | 반복 절차를 재사용 가능한 형태로 제공한다. |
+| Subagents | 한 Agent가 여러 역할과 Context를 동시에 맡으면 역할 복잡성과 Context 부담이 커진다. | 역할과 조사 범위를 분리한다. |
+| Memory | 재사용 가치가 있는 사실을 매 Task마다 다시 조사한다. | 유효한 정보를 세션과 Task 사이에서 재사용한다. |
+| Harness 구조 | 앞 단계에서 도입한 Context, Process, Tools와 Verification을 어떤 System으로 볼 수 있는가? | 필요한 구성요소를 하나의 개발 작업 환경으로 연결해 보여준다. |
+| Harness | 프로젝트가 바뀌면 Instruction, Skill, Memory가 stale해질 수 있다. | Loop Engineering이 실행과 실패에서 피드백을 얻는다. |
+| Loop Engineering | Product와 Harness의 결과를 관찰하고 개선한다. | AI-Native Development로 업무 방식과 시스템 설계를 확장한다. |
+
+이 연결에서 다음 기술을 소개하기 전에 앞 문제를 먼저 제시한다. 연결 이유를
+설명할 수 없는 단계는 Curriculum 단계에서 재검토한다.
+
+## 41. 수준별 Value 검토 기준
+
+Persona가 6시간 중 긴 구간 동안 가치를 얻지 못하는지 Curriculum 단계에서
+확인한다. 서로 다른 Persona의 가치를 위해 Story 순서를 깨거나 고급 내용을
+앞에 억지로 배치하지 않는다.
+
+| Persona | 출발점 | 교육에서 가져가야 할 것 |
+| --- | --- | --- |
+| Chatbot User | ChatGPT에 질문만 하고 Codex 경험이 거의 없으며 별도 AI 학습 시간이 부족하다. | ChatGPT/Codex 역할 차이, repository 조사, 좋은 지시, 먼저 조사하는 습관, Build/Test 검증, AGENTS.md라는 다음 단계 |
+| Practical Codex User | Codex로 수정해 보고 Prompt와 AGENTS.md를 써봤지만 구조적인 Harness는 없다. | Context relevance, AGENTS.md 비대화, Progressive Disclosure, Skill, Subagent 사용 시점, Context와 Memory 차이, Harness 관점 |
+| Advanced Agent User | Agent, Skill, Context 관리 경험이 있고 AI 활용 역량이 높다. | Harness Technical Debt, stale Context/Skill/Memory, Harness Evaluation, 반복 Failure의 System 개선, 두 Loop 구분 |
+
+## 42. 기술 도입 전 Problem 문장 검토
+
+각 주요 기술은 “We introduced ______ because ______ became a problem.”을
+자연스럽게 완성할 수 있어야 한다.
+
+| 기술 | 문제와 연결하는 문장 |
+| --- | --- |
+| Prompt Engineering | 원하는 범위, 결과와 검증을 모호한 지시만으로 전달하기 어려워져 도입한다. |
+| Context Engineering / AGENTS.md | 같은 Project Rule과 Workflow를 매 Prompt마다 설명하는 일이 문제가 되어 도입한다. |
+| Context 분리 | 하나의 AGENTS.md에 모든 정보를 넣으면서 관련성, 충돌과 관리 문제가 생겨 도입한다. |
+| Skills | 같은 Workflow를 반복해서 설명하고 일관성 없이 실행하는 일이 문제가 되어 도입한다. |
+| Subagents | 한 Agent가 모든 역할과 Context를 맡는 일이 문제가 되어 도입한다. |
+| Memory | 재사용 가치가 있는 Project 지식을 계속 다시 발견하는 일이 문제가 되어 도입한다. |
+| Loop Engineering | Harness가 stale해지고 반복 Failure가 System을 개선하지 못하는 일이 문제가 되어 도입한다. |
+
+이유를 설명하지 못하는 기술은 Story에서 등장하는 위치를 다시 검토한다.
+
+## 43. 기술적 깊이의 세 Layer
+
+각 개념을 다음 세 Layer로 설명할 수 있도록 설계한다.
+
+1. **Intuition:** 처음 듣는 개발자도 이해할 수 있는 직관적인 설명. 예를
+   들어 Context Engineering은 “AI가 지금 이 일을 하기 위해 무엇을 알아야
+   하는가?”라는 질문으로 시작한다.
+2. **Practical Engineering:** 실제 Codex 작업에서 적용하는 방법. 예로
+   AGENTS.md, Context file, Skill, Task-specific instruction을 든다.
+3. **Deeper Insight:** 숙련자가 생각할 Engineering 문제. 예로 Context
+   relevance, isolation, stale Context, retrieval strategy, coordination
+   overhead, Memory lifecycle을 다룬다.
+
+모든 개념을 Layer 3까지 깊게 다룰 필요는 없지만 주요 Chapter가 초급 설명만
+하고 끝나지 않도록 한다. 반대로 Layer 3이 Layer 1을 이해하기 어렵게
+만들어서는 안 된다.
+
+## 44. Demo와 이론의 비율
+
+6시간이 이론 강의만으로 흐르지 않도록 각 주요 Engineering 단계에 가능한 한
+하나 이상의 시각적 사례 또는 Demo를 연결한다.
+
+- `Concept → Short Example → Demo / Visual Evidence → Insight`
+- `Problem Demo → Why → Engineering Concept → Improved Demo → Insight`
+
+Repository exploration, Prompt 차이, AGENTS.md 전후, Context 분리, Skill,
+Subagent, Memory, Build/Test Verification, 반복 Failure와 Harness 개선은
+가능하면 실제 Codex 화면이나 준비된 결과로 보여준다. Demo가 Story를
+방해하지 않도록 개수와 순서는 향후 Demo Architecture 단계에서 우선순위를
+정한다.
+
+## 45. Slide 작성 전 Gate와 현재 단계의 경계
+
+MASTER_PLAN 완료만으로 Slide를 작성하지 않는다. Slide 초안 작성도 별도
+지시 전에는 시작하지 않는다. 최종 Slide 작성 전 최소 다음 산출물을 검토한다.
+
+1. `MASTER_PLAN.md`
+2. `MASTER_PLAN_COVERAGE.md`
+3. `INVARIANTS.md`
+4. `DECISIONS.md`
+5. `RESEARCH_PLAN.md`와 Research 결과
+6. `CURRICULUM.md`
+7. `STORYLINE.md`
+8. `DEMO_ARCHITECTURE.md`
+9. `SLIDE_MAP.md`
+
+이 Gate는 Slide를 만들면서 기획이 Slide 편의에 맞춰 바뀌는 일을 방지한다.
+현재 STEP 01의 범위는 기획을 Source of Truth로 고정하고 Coverage를 추적하는
+것이다. 다음 작업은 별도로 지시받기 전까지 시작하지 않는다.
+
+현재 단계에서 하지 않는 일:
+
+- PPT, Slide, Speaker Notes 작성
+- Demo Repository 구현 또는 교육용 코드 작성
+- Skill, Subagent, Memory 시스템, Harness 또는 Loop 자동화 구현
+- Screenshot 제작 또는 이미지 생성
+- 최신 자료의 본격 Research
+- Curriculum 세부 시간 확정
+
+## 46. STEP 01 완료 조건
+
+STEP 01은 다음 조건이 충족되면 완료된 것으로 본다.
+
+1. `plan/MASTER_PLAN.md`가 존재한다.
+2. MASTER_PLAN이 현재까지 제공된 기획의 핵심을 충분한 상세도로 보존한다.
+3. `plan/MASTER_PLAN_COVERAGE.md`가 존재한다.
+4. Coverage Matrix에 `MISSING`이 없다. `PARTIAL`이 있으면 이유를 기록한다.
+5. Narrative Chain이 논리적으로 연결된다.
+6. Chatbot → Prompt → Context → Harness → Loop 흐름이 변형되지 않았다.
+7. Problem → Improvement → New Problem이라는 Story 원칙이 보존된다.
+8. AI 활용 역량 균질화가 최우선 목표로 남아 있다.
+9. 직접 실습 없음이 명시되어 있다.
+10. 초급자, 중급자, 숙련자 모두의 가치가 정의되어 있다.
+11. Slide나 Harness를 미리 구현하지 않았다.
+
+완료 후 현재 단계의 결과를 보고하고 멈춘다. STEP 02를 자동으로 시작하지
+않는다. Commit은 사용자가 별도로 요청한 경우에만 수행한다.
