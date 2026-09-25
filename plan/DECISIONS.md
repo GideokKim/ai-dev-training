@@ -304,7 +304,10 @@ Other Dependencies:
 Current official OpenAI sources and the intended training environment.
 
 Current candidates:
-None recorded.
+- `references/product/CAPABILITY_MATRIX.md` and the linked official Source IDs in
+  `references/sources/SOURCES.md` document current product support by surface.
+  This does not establish feature availability in the target training account or
+  workspace; OQ-003/OQ-005 remain open.
 
 Do not assume:
 Do not assume current support for Desktop/App, CLI, IDE, AGENTS.md, Skills,
@@ -328,7 +331,11 @@ Other Dependencies:
 Find the original paper or a reliable technical source and review its scope.
 
 Current candidates:
-None recorded.
+- `SRC-0201`–`SRC-0204` and the linked records in
+  `references/research/lost-in-the-middle.md` and
+  `references/research/long-context.md` provide scoped historical and repository
+  QA evidence. They do not establish current Codex behavior; preserve the study
+  conditions and decide final teaching wording before use.
 
 Do not assume:
 Do not turn a bounded research result into an absolute rule about every model
@@ -452,7 +459,13 @@ Review official, academic, and industry usage where available, then identify
 the training-specific operational definitions.
 
 Current candidates:
-None recorded.
+- Harness: `CLM-0030` and `references/TERMINOLOGY.md` contain candidate course
+  wording supported within bounded scopes by `SRC-0137`, `SRC-0206`, and
+  `SRC-0218`.
+- Loop: `CLM-0021` and `references/TERMINOLOGY.md` contain candidate course
+  wording; `SRC-0224` is an official workflow example and `SRC-0227` records
+  vendor usage, not a universal definition.
+- These are Research candidates only; no final wording has been accepted.
 
 Do not assume:
 Do not assume one universally accepted definition or treat a course-specific
