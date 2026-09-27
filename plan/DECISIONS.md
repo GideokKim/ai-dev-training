@@ -207,7 +207,8 @@ During Demo Architecture design, before implementing the software Demo.
 
 Other Dependencies:
 Review audience accessibility, repository suitability, and any usage or data
-permissions.
+permissions. After selection, assess feasibility for the grouped Anchor and
+supporting Story Beat candidates rather than assuming every Beat needs a Demo.
 
 Current candidates:
 None recorded.
@@ -254,6 +255,9 @@ During Demo Architecture and rehearsal planning.
 
 Other Dependencies:
 Verify the then-current Codex environment and required account access.
+For selected Beat candidates, compare Live, recorded, and captured / visual
+presentation with a reliable fallback; do not choose a format before the
+target environment and rehearsal needs are known.
 
 Current candidates:
 None recorded.
@@ -267,7 +271,8 @@ mix will be available.
 Priority: NEAR-TERM
 Priority Rationale: Resolve during Curriculum design before finalizing chapter timings and downstream Slide Map.
 Depends On: OQ-001 and OQ-003 for Demo duration; OQ-011 for final term-dependent wording.
-Blocks: Final detailed Curriculum timing and Slide Map; it does not block independent Research.
+Blocks: User review of the detailed Curriculum timing before treating it as
+accepted, and the later Slide Map; it does not block independent Research.
 
 Why it matters:
 The broad 360-minute structure is set, but session titles, transitions, and
@@ -280,11 +285,12 @@ Other Dependencies:
 Use the approved Story and estimate Demo durations.
 
 Current candidates:
-The broad Part timing in MASTER_PLAN §11.
+The 360-minute section and delivery-mode schedule in CURRICULUM.md, recorded
+as PROPOSED in DEC-0007 and awaiting user review.
 
 Do not assume:
 Do not change the 360-minute net total or remove a core Story connection to
-fit a draft schedule.
+fit a draft schedule. Do not treat estimated Demo minutes as rehearsed runtime.
 
 ### OQ-005 — Verify current ChatGPT and Codex product facts
 
@@ -356,7 +362,9 @@ When to decide:
 During Demo design, after selecting the repository and examples.
 
 Other Dependencies:
-Repository commands, expected results, and a repeatable Demo state.
+Repository commands, expected results, and a repeatable Demo state. Map the
+checks to the selected Story Beats after choosing the repository; do not infer
+commands or passing results from the Story draft.
 
 Current candidates:
 None recorded.
@@ -405,7 +413,10 @@ During Loop Engineering research and Demo design.
 
 Other Dependencies:
 Observed failures, their causes, recurrence, and a way to evaluate whether an
-improvement helped.
+improvement helped. During Demo Architecture, identify a fair, reproducible
+Project change that can make an existing workflow stale, if the selected
+repository supports one; otherwise keep the case labeled as controlled or
+visual and do not invent an observed recurrence.
 
 Current candidates:
 None recorded.
@@ -514,7 +525,10 @@ Review the actual project history and whether an event clarifies the core
 training Story.
 
 Current candidates:
-None recorded.
+The planning repository's Source-of-Truth documents and routing guidance for
+ACT 2; possible later examples from recurring Curriculum review for ACT 3 or
+an evaluated correction for ACT 4. These are META EXAMPLE CANDIDATES only;
+their timeline, recurrence, and effect have not been audited as evidence.
 
 Do not assume:
 Do not invent project failures, complexity, or improvement history.
@@ -949,3 +963,370 @@ None
 
 Superseded By:
 None
+
+### DEC-0007 — Allocate the detailed curriculum within the six-hour baseline
+
+Status:
+PROPOSED
+
+Date:
+2026-09-25
+
+Context:
+OQ-004 asks for a section-level Curriculum and time allocation. MASTER_PLAN
+§11 sets a broad 360-minute baseline by Part, while STEP 04 §§91–100 requires
+section-level timing and a split across lecture, demo, case, reflection, and
+transition.
+
+Problem:
+The broad ACT durations do not yet show how the six hours will be taught or
+whether each instructional segment has enough time for its learning movement.
+Actual Demo runtime also depends on later repository and environment choices.
+
+Decision:
+PROPOSE using the existing ACT allocation of 40 / 55 / 70 / 85 / 80 / 30
+minutes for ACT 0–5. Divide it into 21 sections of 10–25 minutes and allocate
+the current 360-minute draft as Lecture 130, Demo 73, Case 83, Reflection 36,
+and Transition 38 minutes. Treat all values as a Curriculum estimate pending
+explicit user review and Demo Architecture; do not change the net total or
+remove a core Story connection to accommodate runtime variation.
+
+Rationale:
+The allocation preserves the established Part baseline and 360-minute
+constraint while giving the less familiar Harness and Loop transitions
+substantial time. Section-sized changes and varied teaching modes also
+support the no-lab delivery and learner attention requirements.
+
+Alternatives:
+- Keep only the broad ACT totals and defer all section and mode allocation:
+  simpler, but it does not satisfy the current Curriculum gate.
+- Shift substantial time from early Acts to Harness and Loop: could add
+  advanced depth, but would reduce early practical value and risk the shared
+  audience objective.
+
+Trade-offs:
+
+Gains:
+The Curriculum has a concrete schedule that can be audited and refined.
+
+Costs:
+Demo and transition estimates precede repository selection and rehearsal.
+
+New risks:
+An actual Demo may take longer than its current instructional allocation.
+Rebalance the section's presentation modes during Demo Architecture while
+keeping 360 net minutes and the causal Story.
+
+Related Invariants:
+- INV-IDENTITY-001
+- INV-AUDIENCE-001
+- INV-OBJECTIVE-001
+- INV-DELIVERY-001
+- INV-NARRATIVE-001
+- INV-NARRATIVE-002
+- INV-DIFFICULTY-001
+- INV-DIFFICULTY-002
+- INV-LEARNING-001
+- INV-LEARNING-003
+
+Affected Artifacts:
+- plan/CURRICULUM.md
+- plan/CURRICULUM_MATRIX.md
+- plan/LEARNING_JOURNEY.md
+- Future Demo Architecture and Slide Map
+
+Evidence:
+- USER: STEP 04 §§91–100 requires the fixed 360-minute total, section-level
+  allocation, mode accounting, persona review, and pacing checks.
+- USER: STEP 04 §§111–130 requires compression/expansion review, learner
+  walkthroughs, practical transfer, final timing, product independence, and
+  completion validation; the Curriculum is COMPLETE WITH OPEN QUESTIONS.
+- MASTER_PLAN: §11 supplies the broad ACT baseline and §§12–14 establish
+  continuous Demo evolution and the Prompt/Context/Harness/Loop progression.
+- TODO: Demo runtime evidence and explicit user review of this proposed
+  schedule remain open.
+
+Training Relevance:
+TBD
+
+Reason:
+The allocation decision itself is not automatically a learner-facing case.
+
+Follow-up:
+Curriculum timing, narrative continuity, ownership, agency, redundancy,
+complexity, Research placement, Demo dependency, time-risk, scorecard,
+compression, audience, transfer, and completion audits have been recorded
+through STEP 04 §130. The final table has no change from the initial ACT and
+delivery-mode baseline. Confirm actual Demo runtime during Demo Architecture.
+Keep this decision PROPOSED until the user reviews the schedule.
+
+Supersedes:
+None
+
+Superseded By:
+None
+
+Approval:
+Pending user review. This proposal does not change MASTER_PLAN.md or a HARD
+invariant.
+
+### DEC-0008 — Center Anchor Demo candidates on Story transitions
+
+Status:
+PROPOSED
+
+Date:
+2026-09-25
+
+Context:
+
+The six-hour Curriculum needs concrete examples that reveal its Engineering
+Story without making product feature coverage the organizing principle.
+Repository, account, product surface, and Demo runtime are still undecided.
+
+Problem:
+
+A separate Anchor Demo for every product mechanism could consume the schedule,
+repeat concepts, and make the Curriculum depend on particular interfaces or
+account features.
+
+Decision:
+
+PROPOSE four conditional Anchor Demo candidates at the main narrative
+transitions:
+
+1. ACT 0 — Read-only repository exploration.
+2. ACT 2 — Repeated Prompt context to reusable Project guidance, followed by
+   a bounded context-growth / routing case.
+3. ACT 3 — One repeatable workflow with visible verification.
+4. ACT 4 — A labeled stale-artifact failure, cause analysis, scoped change,
+   rerun, and bounded evaluation.
+
+Keep Subagents and Memory as supporting or visual candidates rather than
+Anchor Demo dependencies. Place Lost in the Middle as brief supporting
+evidence for Context relevance, not as a standalone feature or Research
+chapter. Prefer one evolving Demo repository where suitable, but do not select
+or implement it here. Keep static, recorded, or conceptual fallbacks available.
+
+Rationale:
+
+The candidates demonstrate four causal changes in the shared Story. Supporting
+mechanisms can add advanced value without requiring equal runtime or depending
+on target feature availability. This preserves Demo density while protecting
+the 360-minute baseline and product independence.
+
+Alternatives:
+- Use one Anchor Demo for every major product mechanism: each feature could
+  receive an isolated demonstration, but the course could become a feature
+  tour, increase repetition, and overrun the Story.
+- Use only one continuous live Demo: this could provide one through-line, but
+  a single environment or runtime failure could obscure multiple transitions
+  and not every mechanism belongs in one live scenario.
+
+Trade-offs:
+
+Gains:
+
+The Anchor candidates align to learner problems and have explicit fallback
+paths. Supporting examples can remain short and product-independent.
+
+Costs:
+
+The actual continuous repository, product surface, and recording/live mix
+remain undecided.
+
+New risks:
+
+The four candidates may need to be consolidated or adjusted after repository
+selection and rehearsal. Do not claim an observed failure or successful
+improvement until evidence exists.
+
+Related Invariants:
+
+- INV-NARRATIVE-001
+- INV-NARRATIVE-002
+- INV-DELIVERY-001
+- INV-DEMO-001
+- INV-DEMO-002
+- INV-DEMO-003
+- INV-DEMO-004
+- INV-LEARNING-001
+
+Affected Artifacts:
+
+- plan/CURRICULUM.md
+- plan/CURRICULUM_MATRIX.md
+- plan/LEARNING_JOURNEY.md
+- Future Demo Architecture and Slide Map
+
+Evidence:
+
+- USER: STEP 04 Demo-candidate and density instructions in §§41–81; §§121–130
+  require candidate, product-independence, and decision audits.
+- MASTER_PLAN: §§5, 25, 27, and 44 require problem-driven Demos, authentic or
+  labeled failure cases, an evolving software repository, and Story-led
+  visual/Demo placement.
+- RESEARCH: references/CLAIMS.md keeps product-feature access conditional and
+  Lost in the Middle bounded to its evidence scope.
+- TODO: Repository, account access, exact product behavior, and Demo runtime
+  have not been selected or rehearsed.
+
+Training Relevance:
+
+YES
+
+Reason:
+
+The selection and fallback logic can help learners distinguish an
+Engineering Story from a product-feature tour.
+
+Follow-up:
+
+Validate each candidate against the selected repository, current official
+product documentation, target account, observed or clearly controlled case,
+runtime, and fallback during Demo Architecture. Keep this Decision PROPOSED
+until the user reviews the proposed Demo architecture.
+
+Supersedes:
+
+None
+
+Superseded By:
+
+None
+
+Approval:
+
+Pending user review. This proposal does not change MASTER_PLAN.md or a HARD
+invariant.
+
+### DEC-0009 — Frame maturity as problem scope, not a required ladder
+
+Status:
+ACCEPTED
+
+Date:
+2026-09-26
+
+## Context
+
+The Story moves from a familiar chatbot workflow toward a system that can
+support more complex and recurring agent-assisted work. A linear retelling
+could make learners think they must adopt every later mechanism.
+
+## Problem
+
+Learners have different starting points and projects have different needs.
+The course needs to preserve a shared evolution Story without ranking learners
+or recommending an oversized Harness.
+
+## Decision
+
+Treat each later stage as a response to a broader or recurring problem scope,
+not as a universally better state or a required implementation step. Seed
+task-sized choices through Prompt, Context, role separation, Memory, and
+feedback examples, then recall `Minimum Effective Harness` as the course
+heuristic: the smallest system that addresses real recurring friction. Keep
+the final synthesis within the approved Curriculum and do not add minutes or
+mandatory components.
+
+## Rationale
+
+This lets a learner stop at a stage that already solves the problem they
+actually have, while experienced users can examine wider reliability and
+maintenance concerns. It protects the common Story and makes minimality part
+of the engineering judgment rather than an afterthought.
+
+## Alternatives Considered
+
+### Alternative A
+
+Present every stage as a target learners should eventually implement.
+
+Advantages:
+
+Provides a simple linear roadmap.
+
+Disadvantages:
+
+Turns a problem-driven model into an adoption ladder and encourages
+unnecessary components.
+
+### Alternative B
+
+Mention Minimum Effective Harness only once at the end.
+
+Advantages:
+
+Keeps early sections shorter.
+
+Disadvantages:
+
+Does not prevent earlier mechanisms from sounding mandatory as they are
+introduced.
+
+## Trade-offs
+
+Gains:
+
+The Story gives beginners permission to take a small next step and gives
+experienced learners a reason to remove or maintain unneeded mechanisms.
+
+Costs:
+
+The presenter must distinguish an optional next step from a promised universal
+benefit throughout the six-hour narrative.
+
+New risks:
+
+The heuristic could be mistaken for an official product term or fixed
+architecture unless it is labeled as a course Engineering heuristic.
+
+## Related Invariants
+
+- INV-MATURITY-001
+- INV-MATURITY-005
+- INV-LOOP-001
+- INV-DIFFICULTY-001
+- INV-LEARNING-003
+
+## Affected Artifacts
+
+- plan/STORY_ARCHITECTURE.md
+- plan/STORY_BEATS.md
+- plan/TRANSITIONS.md
+- Existing treatment in plan/CURRICULUM.md; no timing change
+
+## Evidence
+
+- USER: STEP 05 §§91–100, especially §§93–96 and §99
+- MASTER_PLAN: §§2.2–2.3, 5.2–5.9, and 35
+- CURRICULUM: ACT 4 Minimum Effective Harness and ACT 5 advanced-value synthesis
+
+## Training Relevance
+
+YES
+
+Reason:
+
+Choosing only the structure needed by real work is part of the engineering
+judgment this course teaches.
+
+## Follow-up
+
+Keep the heuristic visible in Story and final synthesis. Revisit its visual
+presentation during Slide Map work without adding a required implementation
+or changing the six-hour allocation.
+
+## Supersedes
+
+None
+
+## Superseded By
+
+None
+
+## Approval
+
+Accepted from the user's explicit STEP 05 Story direction. This decision is
+consistent with the current MASTER_PLAN and does not change a HARD invariant.
