@@ -194,28 +194,37 @@ resolve a question by guessing.
 ### OQ-001 — Select and place the software Demo repository
 
 Priority: NEAR-TERM
-Priority Rationale: Set before Demo Architecture chooses and implements the software Demo.
+Priority Rationale: Repository direction and location are selected; assess implementation suitability in STEP 07.
 Depends On: None
-Blocks: Software Demo repository selection and architecture; project-specific work in OQ-002, OQ-007, and OQ-008.
+Blocks: Implementing the selected Demo repository; project-specific verification examples remain under OQ-007.
 
 Why it matters:
-The same repository is preferred across the Story, but its domain, language,
-source, and location are not selected.
+The same repository is preferred across the Story. Its source, language,
+domain, separate-repository placement, and local sibling path are selected;
+implementation suitability and later states still require evidence.
 
 When to decide:
-During Demo Architecture design, before implementing the software Demo.
+Repository direction and location: resolved by DEC-0011 and DEC-0012.
+Assess and implement the selected direction during STEP 07.
 
 Other Dependencies:
 Review audience accessibility, repository suitability, and any usage or data
 permissions. After selection, assess feasibility for the grouped Anchor and
 supporting Story Beat candidates rather than assuming every Beat needs a Demo.
 
-Current candidates:
-None recorded.
+Current direction:
+RESOLVED by DEC-0011 and DEC-0012: a separate, purpose-built
+`ai-dev-training-demo` repository at `../ai-dev-training-demo` relative to
+`ai-dev-training`, currently resolving to
+`/Users/noah/workspace/education/ai-dev-training-demo`; Python; and a
+synthetic grayscale image-processing CLI. Exact implementation choices and
+results remain for STEP 07. The earlier telemetry proposal in DEC-0010 is
+superseded and was not selected.
 
 Do not assume:
-Do not assume a language, domain, source repository, or that the software
-Demo belongs inside demos/ rather than in a separate repository.
+Do not infer exact module layout, runtime, commands, or behavior before
+implementation. Do not add C++ Demo code; C++ Vision transfer is a teaching
+bridge for future Curriculum/Slides.
 
 ### OQ-002 — Choose real cases and confirm permission to use them
 
@@ -242,7 +251,7 @@ Do not assume an internal repository or incident can be shown.
 ### OQ-003 — Define the live Demo environment and fallbacks
 
 Priority: NEAR-TERM
-Priority Rationale: Resolve before fixing the Live Demo scope and rehearsing the chosen environment.
+Priority Rationale: Environment and delivery direction are selected; verify current product/account details before product-dependent rehearsal.
 Depends On: None; confirm the intended account, product surface, and access when planning the Demo.
 Blocks: Live Demo scope and rehearsal. It does not block recording or fallback planning.
 
@@ -251,20 +260,28 @@ Live Demos depend on product access, account permissions, screen flow,
 network availability, and reliable fallback material.
 
 When to decide:
-During Demo Architecture and rehearsal planning.
+Planning direction resolved during STEP 06. Verify current access and
+account-specific behavior before rehearsal under OQ-005.
 
 Other Dependencies:
 Verify the then-current Codex environment and required account access.
-For selected Beat candidates, compare Live, recorded, and captured / visual
-presentation with a reliable fallback; do not choose a format before the
-target environment and rehearsal needs are known.
+For selected Beat candidates, validate the user's HYBRID Anchor strategy and
+prepared captures/fallbacks in the selected environment. Supporting Demos
+may be RECORDED, CAPTURED, or VISUAL.
 
-Current candidates:
-None recorded.
+Current direction:
+RESOLVED for STEP 06 planning by DEC-0011: primary implementation and
+validation environment is macOS with the currently used Codex Desktop;
+design the repository to be as OS-independent as practical. Anchor Demos
+use a HYBRID strategy with prepared captures, expected results, and fallback
+paths. Supporting Demos may be RECORDED, CAPTURED, or VISUAL. The ACT 4
+Harness Improvement Loop is not Live-only. Current account/surface behavior,
+permissions, and product-feature support remain unverified under OQ-005 and
+must be checked before relying on them.
 
 Do not assume:
-Do not assume which Codex product surface, account tier, or live/recorded Demo
-mix will be available.
+Do not assume the selected environment establishes current product-feature
+availability, classroom network conditions, or successful Live behavior.
 
 ### OQ-004 — Design the detailed Curriculum and time allocation
 
@@ -350,7 +367,7 @@ or task.
 ### OQ-007 — Set project-specific verification examples
 
 Priority: NEAR-TERM
-Priority Rationale: Resolve after choosing the software Demo repository and before specifying its verification Demo.
+Priority Rationale: Resolve project-specific examples after the repository direction is selected and before Demo rehearsal.
 Depends On: OQ-001.
 Blocks: Repeatable project-specific Build, Test, Benchmark, Review, and completion examples.
 
@@ -508,17 +525,18 @@ a Meta Example.
 
 ### OQ-013 — Assess whether real project history supports a Meta Example
 
-Priority: LATER
-Priority Rationale: Assess when Storyline and Demo planning can judge the relevance of actual project history.
+Priority: OPTIONAL
+Priority Rationale: STEP 06 audited the available history and will not use it as a Meta Example. Reassess only if later authentic events create a relevant candidate.
 Depends On: None; actual recorded history is the prerequisite, not another Open Question.
-Blocks: Using this repository as a factual Meta Example; it does not block the core training Story.
+Blocks: Any later use of this repository as a factual Meta Example until relevant history is recorded; it does not block the core training Story.
 
 Why it matters:
 The project may provide an authentic supporting example only if meaningful
 problems and responses actually occur.
 
 When to decide:
-When the training's Storyline and Demo plan are developed.
+The current-history assessment was completed during STEP 06. Reopen only
+after a later event is recorded and its relevance can be assessed.
 
 Other Dependencies:
 Review the actual project history and whether an event clarifies the core
@@ -527,8 +545,28 @@ training Story.
 Current candidates:
 The planning repository's Source-of-Truth documents and routing guidance for
 ACT 2; possible later examples from recurring Curriculum review for ACT 3 or
-an evaluated correction for ACT 4. These are META EXAMPLE CANDIDATES only;
-their timeline, recurrence, and effect have not been audited as evidence.
+an evaluated correction for ACT 4. These began as META EXAMPLE CANDIDATES;
+the STEP 06 audit below records what is and is not evidenced as of its date.
+
+STEP 06 history audit (2026-09-27):
+
+| Candidate | Status | Evidence and boundary |
+|---|---|---|
+| `AGENTS.md` became oversized. | NOT OBSERVED | The current router is 15 lines. No recorded event shows that an earlier version became difficult to use. |
+| Context separation and routing occurred. | OBSERVED | `AGENTS.md` routes work to separate plan documents, and this work follows that route. No recorded Context failure shows that the separation was necessary or improved outcomes. |
+| The same Instruction had to be repeated. | NOT OBSERVED | No repeated-task failure or recurrence record supports this claim. Sequential user-provided specification sections are not evidence of repeated Project instructions. |
+| Decisions had to be looked up repeatedly. | NOT OBSERVED | Decisions have stable IDs, but no repeated rediscovery event is recorded. |
+| Research Context became too large. | TOO EARLY | Research artifacts exist; no downstream Research-to-Slide work or observed Context problem is recorded. |
+| The same Review Prompt was repeatedly rewritten. | NOT OBSERVED | The staged audits have distinct scopes. No repeated rewrite of the same Review Prompt due to production friction is recorded. |
+| Distinct plan Review passes occurred. | OBSERVED | Curriculum, Story, and Demo readiness audits are present as separate reviews. They were requested in stages; no repeated same-prompt friction or measured quality gain is recorded. |
+| Source-of-Truth Drift occurred. | NOT OBSERVED | The STEP 06 readiness review clarified candidate-spec ambiguities once; no contradiction with an accepted Invariant or recurring Drift is evidenced. |
+| A Skill, Subagent, or Memory became necessary. | TOO EARLY | No such production mechanism is established here, and no recorded recurring friction demonstrates its need. |
+| A Feedback Loop improved production quality. | TOO EARLY | A readiness review led to specification clarifications, but there is no implemented Demo, production Harness, or before/after quality evaluation. |
+
+Disposition: do not use `ai-dev-training` as a factual Meta Example in the
+current training plan. The audit is limited to the project history available
+through STEP 06; OQ-013 may be revisited if later work records a relevant,
+authentic event. This disposition does not change accepted DEC-0005.
 
 Do not assume:
 Do not invent project failures, complexity, or improvement history.
@@ -1182,10 +1220,9 @@ Engineering Story from a product-feature tour.
 
 Follow-up:
 
-Validate each candidate against the selected repository, current official
-product documentation, target account, observed or clearly controlled case,
-runtime, and fallback during Demo Architecture. Keep this Decision PROPOSED
-until the user reviews the proposed Demo architecture.
+DEC-0011 resolves the repository direction, primary environment, and HYBRID
+delivery default. The four Anchor roles in this proposal remain unapproved;
+review their selection against the repository Story and STEP 07 evidence.
 
 Supersedes:
 
@@ -1197,8 +1234,10 @@ None
 
 Approval:
 
-Pending user review. This proposal does not change MASTER_PLAN.md or a HARD
-invariant.
+Pending user review of the four proposed Anchor roles. The user's DEC-0011
+Decision resolves the repository, primary environment, and HYBRID delivery
+strategy but does not approve these role mappings. This proposal does not
+change MASTER_PLAN.md or a HARD invariant.
 
 ### DEC-0009 — Frame maturity as problem scope, not a required ladder
 
@@ -1330,3 +1369,593 @@ None
 
 Accepted from the user's explicit STEP 05 Story direction. This decision is
 consistent with the current MASTER_PLAN and does not change a HARD invariant.
+
+### DEC-0010 — Propose a separate Python telemetry Demo repository
+
+Status:
+SUPERSEDED
+
+Date:
+2026-09-27
+
+Context:
+
+STEP 06 requires one understandable software Project that can support
+repository exploration, a Bug fix, Performance work, Project Context,
+reusable work, Harness staleness, and a small Evaluation/Regression sequence.
+The project source, language, domain, location, and target Demo environment
+remain undecided in OQ-001/OQ-003.
+
+Problem:
+
+An existing repository may offer authentic structure but introduces
+unreviewed source, usage, company-data, and Story-fit questions. A
+purpose-built repository gives control over synthetic data and state
+transitions, but its domain and toolchain must remain understandable and
+reproducible.
+
+Decision:
+
+PROPOSE a purpose-built Python telemetry-data pipeline in a separate
+repository provisionally named `ai-dev-training-demo`. Use a small local
+synthetic dataset, multiple traceable processing modules, a boundary-condition
+Bug, a measured but not yet quantified Performance task, and a later
+Project Test-procedure change that leaves one previously correct reusable
+workflow stale. The current illustrative migration starts with
+`unittest`, then moves/reorganizes tests and adopts a pinned
+`pytest` development dependency; exact commands and failure behavior
+remain subject to a minimal Trial.
+
+For transition clarity, keep the boundary Bug correction (`STATE-00-FIXED`)
+separate from Project-instruction introduction, and keep the measured
+Performance change (`STATE-04-PERF`) separate from reusable-workflow
+introduction. Treat these as proposed state refinements, not observed Demo
+results or approved repository implementation.
+
+Retain the proposal only if a minimal Trial confirms that package setup,
+Build/Test, benchmark signal, and stale-workflow scenario can fit the
+Curriculum and classroom environment. Keep all exact commands, measurements,
+and Agent observations open until they are actually tested.
+
+Rationale:
+
+This candidate appears to offer a low domain-explanation cost and a
+deterministic local input/output path while supporting the continuous Story.
+A separate repository gives the Educational Demo Harness and its Git history
+clear boundaries from the Training Production Harness. Purpose-built states
+can be labeled as educationally designed rather than presented as real
+production history.
+
+Alternatives Considered:
+
+#### Alternative A — C++ image-processing CLI
+
+Advantages:
+
+Visible image results and an explicit CMake/CTest Build/Test sequence.
+
+Disadvantages:
+
+Compiler/generator setup, image/data selection, and C++ explanation may
+increase the Demo's cognitive and operational cost.
+
+#### Alternative B — TypeScript event-log CLI
+
+Advantages:
+
+Clear compilation, a multi-module source path, local text fixtures, and a
+Node test-runner option.
+
+Disadvantages:
+
+Node/TypeScript versioning and module/compiler configuration add setup and
+audience-familiarity assumptions that have not been validated.
+
+#### Alternative C — Existing or hybrid repository
+
+Advantages:
+
+May carry authentic project structure or a real workflow history.
+
+Disadvantages:
+
+No source, license, redistribution, modification, attribution, data, or
+company-policy review has been completed. Do not select it based on assumed
+permission or presumed Story fit.
+
+Trade-offs:
+
+Gains:
+
+- One synthetic local domain can serve functional and performance tasks
+  without external services or customer data.
+- A separate linear history can show intentionally designed educational
+  states without mixing training-material history with Demo history.
+- The proposal prioritizes readability and continuity over language-specific
+  teaching depth.
+
+Costs:
+
+- Python packaging still needs a pinned, prepared Build environment.
+- No repository, command, benchmark, Agent result, or time measurement has
+  been validated.
+- A user preference for another language or an existing internal example
+  could change the recommendation.
+
+New risks:
+
+- The chosen data pipeline may be too abstract or its performance change too
+  small to observe.
+- A controlled stale state may feel contrived unless its Project change and
+  earlier-correct workflow are transparent.
+- The selected Codex account or surface may not support a proposed
+  product-specific workflow mechanism.
+
+Related Invariants:
+
+- INV-IDENTITY-001
+- INV-DELIVERY-001
+- INV-NARRATIVE-001
+- INV-NARRATIVE-002
+- INV-DEMO-001
+- INV-DEMO-002
+- INV-DEMO-003
+- INV-DEMO-004
+- INV-VERIFY-001
+
+Affected Artifacts:
+
+- plan/DEMO_ARCHITECTURE.md
+- plan/DEMO_REPOSITORY_SPEC.md
+- plan/DEMO_MATRIX.md
+- plan/DEMO_RUNBOOK_SPEC.md
+- Future Educational Demo repository, only after approval
+
+Evidence:
+
+- USER: STEP 06 §§61–100 requires candidate comparison, a proposed direction,
+  trial boundaries, state/evaluation design, and a documented Gate.
+- USER: STEP 06 §§101–110 requires implementation-readiness, ambiguity,
+  failure-cause, verification, state-diff, scope-freeze, user-decision, and
+  handoff audits.
+- MASTER_PLAN: §8.2 and §§12–14 prefer an understandable continuous software
+  Demo and problem-driven Story without selecting its language or domain.
+- CURRICULUM: ACT 0–4 candidate Demo time allocations total 73 minutes;
+  actual runtime remains unvalidated.
+- RESEARCH: official technical references linked from
+  plan/DEMO_ARCHITECTURE.md describe candidate packaging/build/test tools;
+  they do not establish training-account or Agent behavior.
+- TODO: no user language/domain decision, candidate Trial, or Demo run exists.
+
+Training Relevance:
+
+TBD
+
+Reason:
+
+The proposal itself is not automatically a learner-facing Meta Example.
+Revisit only if the real selection and Trial history later provides a useful,
+documented teaching example.
+
+Follow-up:
+
+Historical follow-up at proposal time: request a language/domain/location and
+environment decision, then assess feasibility. This proposal is now
+SUPERSEDED by DEC-0011; do not use this follow-up as current direction. STEP 07
+validation follows DEC-0011/DEC-0012 after the user starts that step at the
+selected sibling path.
+
+Supersedes:
+
+None
+
+Superseded By:
+DEC-0011
+
+Approval:
+
+This proposal was superseded by the user's explicit STEP 06 direction in
+DEC-0011. Telemetry/log processing was not selected. Preserve this record as
+the prior candidate rationale; it does not change MASTER_PLAN.md, an ACCEPTED
+Decision, or a HARD Invariant. DEC-0007 and DEC-0008 retain their existing
+statuses.
+
+### DEC-0011 — Select a Python synthetic image-processing Demo repository
+
+Status:
+ACCEPTED
+
+Date:
+2026-09-27
+
+## Context
+
+STEP 06 needs one continuous, understandable software Project that supports
+the training's Prompt → Context → Harness → Loop Engineering evolution.
+The audience includes many C++ Vision developers, while the course is not
+intended to teach Python, C++, or Vision algorithms. DEC-0010 proposed a
+Python telemetry pipeline, but the user has now supplied a final repository,
+domain, environment, and delivery direction.
+
+## Problem
+
+Choose a Demo domain that feels familiar to the audience without making
+domain expertise, language mechanics, or algorithm details the lesson. Keep
+the Demo controlled and separate from the Training Production Harness, while
+preserving the existing problem-driven Story and bounded verification work.
+
+## Decision
+
+Use a separate purpose-built repository named `ai-dev-training-demo` with
+Python as its primary language and a synthetic local Image Processing CLI as
+its domain. The conceptual pipeline is input image → loader → normalize →
+filter → resize/transform → statistics → output. Determine exact modules and
+boundaries in STEP 07 from the Story and implementation needs.
+
+The repository should remain close to grayscale images, simple normalization
+and filters, resize/transform operations, and basic statistics. Avoid complex
+Computer Vision algorithms, Deep Learning inference, CUDA/GPU kernels,
+camera calibration, stereo, 3D reconstruction, complex OpenCV pipelines, and
+professional image-quality metrics. Use synthetic local images only; do not
+use company data, customer data, or personal information.
+
+Python is selected to reduce Code and Repository comprehension cost so the
+course can focus on Agent behavior, repository investigation, Prompt,
+Context, workflow, Verification, Harness, and Feedback Loop. This decision
+does not claim that Python is superior to C++ or more suitable for AI work.
+
+Keep dependencies minimal. Consider Python with NumPy as the initial
+dependency direction. Add OpenCV only if the Story has a demonstrated need
+and its API does not add undue cognitive load. Select any test dependency,
+including pytest if considered, based on Demo stability and readability;
+exact dependencies remain open until STEP 07.
+
+For performance, retain a workflow-centered case with a Vision-intuitive
+candidate such as unnecessary pixel-level repeated work, repeated allocation,
+duplicate normalization, or a redundant transformation. Choose the actual
+hot path only from implementation evidence. Teach Baseline → Investigate →
+Plan → Implement → Correctness Test → Benchmark → Compare, not Python,
+NumPy, or vectorization techniques.
+
+Use macOS with the currently used Codex Desktop for primary implementation
+and validation. Design for OS independence where practical; STEP 07 does not
+need to validate every OS. Use HYBRID delivery for Anchor Demos: attempt a
+validated Live path while preparing a capture, expected result, and fallback
+for every Story-critical case. ACT 4's Harness Improvement Loop is not
+Live-only. Supporting Demos may be RECORDED, CAPTURED, or VISUAL. This
+planning decision does not assert current product feature or account
+availability; verify those facts before relying on a product-specific path.
+
+Do not create the Demo repository or begin its implementation as part of this
+decision. DEC-0012 subsequently records the selected local sibling path. Keep
+the Training Production Harness and Educational Demo Harness separate.
+
+In future Curriculum and Slide work, provide short transfer bridges from
+Python patterns to C++ Vision practice: Python test runner (pytest if
+selected) ↔ GoogleTest/CTest; Python
+benchmark ↔ Google Benchmark or a project benchmark; Python modules ↔ `.cc` /
+`.h` and libraries/modules; project instructions ↔ CMake, compiler flags,
+coding conventions, and module constraints; performance workflow ↔ Release
+build → benchmark → profile → optimize → correctness test → regression; and
+Context routing ↔ architecture documents, module rules, algorithm
+constraints, and performance guides. These are teaching mappings only and
+do not require C++ code in the Demo repository.
+
+## Rationale
+
+Synthetic grayscale image operations give C++ Vision developers an intuitive
+domain while keeping each transformation visible and the data local. Python
+keeps source comprehension lighter so the training can foreground the AI
+Engineering Story rather than language instruction. The small pipeline can
+support repository exploration, bug investigation, Context, reusable
+verification, performance comparison, Harness staleness, and Loop evaluation
+without requiring advanced Vision knowledge. Future C++ transfer bridges
+connect the patterns to participants' work without changing the Demo's
+language or scope.
+
+## Alternatives Considered
+
+### Alternative A — Python telemetry/log-processing CLI (DEC-0010)
+
+Advantages:
+
+Deterministic synthetic input, concise Python source, and a pipeline shape
+could support the same engineering Story.
+
+Disadvantages:
+
+The domain has less immediate familiarity for the large C++ Vision audience
+and gives less intuitive visual continuity than image input and output.
+
+Disposition:
+
+Not selected; DEC-0010 is SUPERSEDED.
+
+### Alternative B — C++ synthetic image-processing CLI
+
+Advantages:
+
+The language and domain align directly with many attendees; CMake and C++
+test/benchmark practices could transfer directly.
+
+Disadvantages:
+
+C++ syntax and toolchain setup would increase comprehension and operational
+cost for a course whose subject is AI Engineering evolution.
+
+Disposition:
+
+Not selected as the primary Demo language. Transfer examples will connect
+Python patterns to C++ Vision practices without adding C++ Demo code.
+
+### Alternative C — Other Vision or image-processing stack
+
+Advantages:
+
+A richer domain or established library might resemble production work more
+closely.
+
+Disadvantages:
+
+Complex algorithms, dependencies, or professional metrics could make Vision
+the lesson and increase setup cost.
+
+Disposition:
+
+Use only if a concrete STEP 07 need shows the simpler Python pipeline cannot
+support the Story; evaluate changes through the project's decision process.
+
+### Alternative D — TypeScript event-log CLI
+
+Advantages:
+
+An explicit compiler and multi-module source path can make Build and
+repository exploration visible.
+
+Disadvantages:
+
+It is less familiar to the identified C++ Vision audience and provides less
+intuitive visual continuity than simple image input/output.
+
+Disposition:
+
+Not selected; it does not provide a Story advantage over the chosen direction.
+
+## Trade-offs
+
+Gains:
+
+- Familiar, visual data domain for the audience without making C++ or Vision
+  expertise a prerequisite.
+- Python keeps the course focus on investigation, Context, Verification,
+  Harness, and Loop.
+- Synthetic local inputs preserve state control and avoid company/customer
+  data and external-service dependencies.
+- C++ transfer remains visible in future teaching materials without
+  increasing Demo repository complexity.
+
+Costs:
+
+- The primary Demo language differs from the main language of many attendees.
+- Exact modules, image representation, dependencies, and test strategy remain
+  to be worked out in STEP 07.
+- A synthetic history must be transparently labeled as training-designed,
+  not authentic production history.
+
+New risks:
+
+- Even simple image operations may invite algorithm questions that distract
+  from the Story; keep the operations elementary and bounded.
+- Performance differences may be too small or unstable; do not select a hot
+  path or state a result without measurement.
+- OpenCV or other dependencies may increase setup and cognitive cost; add
+  them only when evidence supports the need.
+- Current Codex interface, account, permissions, and feature behavior may
+  differ by environment; verify before relying on a product-specific Demo.
+
+## Related Invariants
+
+- INV-AUDIENCE-001
+- INV-OBJECTIVE-001
+- INV-DELIVERY-001
+- INV-NARRATIVE-001
+- INV-NARRATIVE-002
+- INV-DEMO-001
+- INV-DEMO-002
+- INV-DEMO-003
+- INV-DEMO-004
+- INV-VERIFY-001
+
+## Affected Artifacts
+
+- plan/DECISIONS.md and OQ-001/OQ-003 resolution notes
+- plan/DEMO_ARCHITECTURE.md
+- plan/DEMO_REPOSITORY_SPEC.md
+- plan/DEMO_MATRIX.md
+- plan/DEMO_RUNBOOK_SPEC.md where its scope or status language depends on
+  the selected repository/environment
+- Future Curriculum and Slide material for C++ Vision transfer bridges
+- Future Educational Demo repository, after STEP 07 begins with the exact
+  filesystem path
+
+## Evidence
+
+- USER: explicit STEP 06 Decision supplied on 2026-09-27 in the current
+  conversation; it sets audience context, repository, language, domain,
+  complexity limits, dependency direction, performance teaching goal,
+  location timing, environment, delivery strategy, and required plan updates.
+- MASTER_PLAN: established six-hour developer course, no participant
+  exercises, continuous problem-driven AI Engineering Story, and emphasis on
+  Verification.
+- DEMO_ARCHITECTURE / DEMO_REPOSITORY_SPEC: existing STEP 06 candidates show
+  the Project must support continuous repository evolution; those candidate
+  assessments are planning judgments, not Trial evidence.
+- TODO: no implementation, Trial, benchmark, or product-account validation
+  has occurred for this selected direction.
+
+## Training Relevance
+
+YES
+
+Reason:
+
+The choice itself can show how to select a domain that is familiar to the
+audience while reducing language and domain complexity to preserve the
+training's actual learning goal. The C++ mappings support practical transfer
+without turning the Demo into a C++ or Vision lesson.
+
+## Follow-up
+
+DEC-0012 records the local sibling path selected after DEC-0011. At STEP 07
+start, create the separate repository there, then specify the smallest module
+structure that serves the Story, choose dependencies and a test approach
+based on stability/readability, define one bounded bug and a measurable
+performance candidate, and validate in macOS/Codex Desktop. Recheck current
+product behavior when a Demo relies on it. Do not validate all OSes as a
+STEP 07 requirement. Until STEP 07 is explicitly started, this record does
+not authorize repository creation, code, Trial, commit, or push.
+
+## Supersedes
+
+DEC-0010
+
+## Superseded By
+
+None
+
+## Approval
+
+Accepted by the user's explicit STEP 06 Decision on 2026-09-27. The decision
+implements the existing audience, delivery, narrative, Demo, and verification
+invariants. It does not change MASTER_PLAN.md or a HARD Invariant.
+
+### DEC-0012 — Place the Demo repository beside the training repository
+
+Status:
+ACCEPTED
+
+Date:
+2026-09-27
+
+## Context
+
+DEC-0011 selected a separate purpose-built `ai-dev-training-demo` repository
+and deferred its exact local path. The user accepted the recommendation to
+keep the two repositories adjacent in the current workspace.
+
+## Problem
+
+Choose a local checkout location that keeps the planning repository and the
+educational Demo easy to navigate while preserving their separate Git state.
+
+## Decision
+
+Place the Demo repository at `../ai-dev-training-demo`, relative to the
+`ai-dev-training` repository root. In the current workspace this resolves to
+`/Users/noah/workspace/education/ai-dev-training-demo`. Keep it as an
+independent Git repository, not a directory tracked inside `ai-dev-training`.
+This decision selects the local path only; the Demo repository and its remote
+are not created or configured until STEP 07 is explicitly started.
+
+Keep Demo specifications, Story mappings, and runbooks in `ai-dev-training`.
+When implementation begins, connect those plans to the Demo's actual Git
+state through explicit commit or tag references rather than copying the Demo
+repository into this one.
+
+## Rationale
+
+A sibling location keeps both checkouts convenient to inspect in one
+workspace. Independent Git histories preserve the boundary between the
+Training Production Harness and Educational Demo Harness and allow the Demo
+to use its own state transitions.
+
+## Alternatives Considered
+
+### Alternative A — Track the Demo under `ai-dev-training/demos/`
+
+Advantages:
+
+One checkout would contain both plans and Demo files.
+
+Disadvantages:
+
+The Demo would share the training repository's history and reset boundary,
+weakening the separation already selected in DEC-0011 and INV-DEMO-001.
+
+### Alternative B — Keep the separate repository elsewhere in the workspace
+
+Advantages:
+
+The repositories would remain independently versioned.
+
+Disadvantages:
+
+An unrelated location would make the Demo less convenient to find alongside
+the project that specifies and presents it.
+
+## Trade-offs
+
+Gains:
+
+- Side-by-side local access with independent Git histories.
+- A clear filesystem boundary between training-production and educational
+  Demo work.
+
+Costs:
+
+- Cross-repository changes cannot be committed atomically and need explicit
+  commit or tag references when their relationship matters.
+
+New risks:
+
+- The selected absolute path reflects the current workspace; another machine
+  may need an equivalent sibling location.
+
+## Related Invariants
+
+- INV-DEMO-001
+
+## Affected Artifacts
+
+- plan/DECISIONS.md and OQ-001
+- plan/DEMO_ARCHITECTURE.md
+- plan/DEMO_REPOSITORY_SPEC.md
+- plan/DEMO_MATRIX.md
+- plan/DEMO_RUNBOOK_SPEC.md where repository location is referenced
+- Future `ai-dev-training-demo` repository, only after STEP 07 starts
+
+## Evidence
+
+- USER: accepted the sibling-directory recommendation on 2026-09-27.
+- OBSERVATION: the current `ai-dev-training` checkout is at
+  `/Users/noah/workspace/education/ai-dev-training`.
+- DEC-0011: requires the Educational Demo Harness to remain separate from the
+  Training Production Harness.
+
+## Training Relevance
+
+NO
+
+Reason:
+
+This is a repository placement choice, not a learner-facing example.
+
+## Follow-up
+
+When STEP 07 is explicitly started, create the separate repository at the
+selected sibling path. Decide and configure its Git remote during that step;
+its remote URL is not selected here.
+
+## Supersedes
+
+None
+
+## Superseded By
+
+None
+
+## Approval
+
+Accepted by the user's explicit confirmation on 2026-09-27. This supplements
+DEC-0011 without changing the selected Demo, language, domain, environment,
+or delivery strategy.
