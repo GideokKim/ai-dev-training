@@ -193,13 +193,20 @@ Organization / Authors: OpenAI
 Source Type: OFFICIAL_DOC
 URL: https://learn.chatgpt.com/docs/agent-configuration/agents-md
 Published: Not shown
-Checked: 2026-09-25
+Checked: 2026-09-28
 Tier: 1
 Topics: AGENTS.md, nested instructions, context engineering
-Key Evidence: repository-level instructions and nested instruction discovery for Codex.
-Limitations: instruction length/performance threshold를 제공하지 않음.
+Key Evidence: Codex builds an instruction chain at run start. It checks the
+global Codex home, then the project root through the current working
+directory; it selects at most one instruction file per directory and
+combines the selected guidance from broader to narrower scope. The documented
+default combined-size limit is 32 KiB.
+Limitations: This documents the instruction mechanism, not target-account
+availability or a guaranteed behavior for this training's Desktop setup. The
+size limit is not a performance or quality threshold.
 Volatility: MEDIUM
-Notes: source of truth를 대체하는 파일이 아니라 repository instruction surface.
+Notes: An instruction surface; it does not replace the project's source of
+truth. Rechecked for STEP 07 STATE-01 planning.
 
 ### SRC-0111
 

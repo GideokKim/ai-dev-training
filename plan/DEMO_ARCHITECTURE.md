@@ -1,8 +1,8 @@
 # Demo Architecture
 
-> Status: **Direction and location accepted; STEP 06 planning complete with open questions**
+> Status: **Direction/location accepted; STATE-00 and STATE-00-FIXED implemented, verified, and recorded locally; STATE-01 plan defined; later states and Codex Desktop Anchor rehearsal pending**
 >
-> Date: 2026-09-27
+> Date: 2026-09-28
 >
 > This document turns the approved Story and Curriculum into a Demo design
 > proposal. Ratings and candidate outcomes below are planning judgments, not
@@ -185,7 +185,11 @@ regression, and Context routing to architecture/module/algorithm/performance
 guides. It does not require C++ code in the Demo repository.
 
 At STEP 06 completion, no Trial, repository, code, or performance
-measurement existed. Implementation and validation remain for STEP 07.
+measurement existed. STEP 07 has since created STATE-00 at the selected local
+sibling path, recorded bounded exploration and crop-fix Trials through Codex
+CLI, and created the verified `STATE-00-FIXED` state. Evidence is recorded in
+`plan/DEMO_REPOSITORY_SPEC.md` and `plan/DEMO_MATRIX.md`. No performance
+result or Codex Desktop Anchor validation is claimed.
 
 ## Demo State Evolution
 
@@ -349,18 +353,25 @@ No new OQ is created. Keep the existing OQs in
 
 ## Architecture Quality Audit
 
+The implementation-sensitive rows below reflect current STEP 07 status after
+the STATE-00 build. Tables explicitly labeled STEP 06 remain point-in-time
+planning audits.
+
 | Area | Result | Boundary |
 |---|---|---|
-| Story connection and continuous Project | PASS as selected planning direction | Repository is not yet implemented. |
-| Beginner readability and advanced insight | PASS as design intent | Validate the domain with a cold-read in STEP 07. |
-| Build, Test, Benchmark, Verification | NEEDS TRIAL | Commands, runtime, and measurable direction are not observed. |
+| Story connection and continuous Project | PARTIAL | STATE-00 and STATE-00-FIXED exist; TRIAL-001 exploration and TRIAL-002 crop fix were observed via CLI. Later states and connected Desktop Anchor trials remain pending. |
+| Beginner readability and advanced insight | NEEDS STEP 07 VALIDATION | Cold-read and projector review remain. |
+| Build, Test, Benchmark, Verification | PARTIAL | STATE-00 build, CLI, tests, and reset were checked; STATE-00-FIXED focused/full tests, crop smoke, and fresh-tag test reset passed. Benchmark and later-state checks remain unvalidated. |
 | Stale cause, evaluation, regression | PASS as a controlled scenario design | Do not describe recurrence or improvement as real without records. |
-| Reproducibility and fallback | PASS as requirements | Target environment, state IDs, reset commands, and captures remain TBD. |
-| Product capability fit | NEEDS ENVIRONMENT CHECK | Do not infer current account or feature support from the selected environment. |
+| Reproducibility and fallback | PARTIAL | STATE-00 and STATE-00-FIXED refs, environment, fixture, and Test reset are recorded; later-state commands and Desktop Demo captures remain TBD. |
+| Product capability fit | PARTIAL | TRIAL-001/002 are bounded Codex CLI observations; do not infer Desktop, account, or feature support from them. |
 | Claims and data integrity | PASS as constraints | Exact Demo evidence will be bounded by later runs. |
 
 ## Implementation Readiness Audit — STEP 06 §§101–110
 
+This is a point-in-time audit of readiness at STEP 06 close. Its statements
+that defer details to STEP 07 are historical; current STATE-00 outcomes are
+recorded in the architecture status and repository evidence sections.
 
 The following audit asks whether an implementation team can understand the
 candidate without inventing its Story. “Specified” means the design direction
@@ -393,9 +404,9 @@ is explicit; it does not mean the repository or behavior has been tested.
 
 | Audit | Result | Required control |
 |---|---|---|
-| Implementation ambiguity | Candidate causes, scope, sequence, and intended checks are named. Exact image representation, test approach, workload parameters, package versions, and product details remain TBD. | Resolve implementation details and validation evidence in STEP 07; do not invent measured values or Agent behavior. |
+| Implementation ambiguity | Initial image representation, package/build choices, runtime, and test approach are recorded for STATE-00. Benchmark workload and later-state details remain TBD; product details remain conditional. | Resolve remaining implementation details and validation evidence in STEP 07; do not invent measured values or Agent behavior. |
 | Failure causality | The primary stale-state cause is one outdated reusable Test workflow. | Keep current Project docs, `AGENTS.md`, runtime, dependencies, permissions, and environment correct; prove the old workflow worked before the Project change. |
-| Initial Bug verification | Failing crop-boundary regression → isolated behavior fix → passing focused and relevant checks. | Capture the assertion, exact command, diff, and pass from STATE-00 → STATE-00-FIXED. |
+| Initial Bug verification | TRIAL-002 reproduced the crop-boundary regression, made a one-line isolated fix, and passed focused/full tests plus a CLI smoke check; the change is recorded as STATE-00-FIXED. | Preserve the recorded Test, smoke, tag-reset, and diff evidence; Desktop behavior remains unvalidated. |
 | Performance verification | Baseline → bounded code change → correctness/output equality → repeated benchmark → comparison. | Keep Bug and Performance changes separate and record host, runtime, workload, procedure, and observations. |
 | Reusable workflow verification | Bounded task → versioned procedure → task-appropriate checks. | Keep a repository-owned procedure usable even if a product Skill is unavailable. |
 | Harness-change verification | Visible stale-workflow failure → evidence-based cause → workflow-only fix → same-task rerun → representative Evaluation and Regression. | Capture the same-task rerun and use EVAL-03/04 as adjacent-task checks; report omissions and limits rather than asserting success. |
@@ -430,16 +441,19 @@ minutes.
 ### Scope Freeze Candidate
 
 **Planning direction is frozen by DEC-0011/DEC-0012.** The initial STATE-00
-baseline remains a specification only; implementation and all actual Demo
-validation are reserved for STEP 07. Do not advance a state based on the
-planning proposal alone.
+baseline is implemented and reset-checked, with the planned crop defect
+visible in its regression test. TRIAL-002's bounded fix was revalidated,
+committed as `6dab644`, and tagged `STATE-00-FIXED`; the baseline tag is
+unchanged. Later states, benchmark behavior, stale workflow, Desktop Agent
+behavior, and current product support still need their own STEP 07
+implementation/validation evidence.
 
 ### STEP 07 Handoff Package Audit
 
 | Required handoff input | Current artifact / status |
 |---|---|
-| Demo Repository specification | `plan/DEMO_REPOSITORY_SPEC.md` — selected direction and candidate module responsibilities; implementation decisions remain for STEP 07. |
-| State Model or equivalent | Proposed state table and reproduction contract in `plan/DEMO_REPOSITORY_SPEC.md` — exact refs, reset commands, and observed results remain for implementation. |
+| Demo Repository specification | `plan/DEMO_REPOSITORY_SPEC.md` — selected direction, STATE-00 baseline, and verified STATE-00-FIXED evidence recorded; STATE-01 is planned. |
+| State Model or equivalent | State table and reproduction contract in `plan/DEMO_REPOSITORY_SPEC.md` — STATE-00/STATE-00-FIXED commit/tags and test resets recorded; later refs do not exist yet. |
 | Demo Architecture | `plan/DEMO_ARCHITECTURE.md` — candidate architecture and gates. |
 | Demo Matrix | `plan/DEMO_MATRIX.md` — timing and Beat mapping; state references must match this revision. |
 | Runbook specification | `plan/DEMO_RUNBOOK_SPEC.md` — schema only; no runnable Runbooks. |
@@ -447,10 +461,14 @@ planning proposal alone.
 | Product capability constraints | `references/CLAIMS.md` and `references/product/CAPABILITY_MATRIX.md`; current account/surface behavior remains conditional under OQ-005. |
 | Story Beat references | `plan/STORY_BEATS.md` and `plan/TRANSITIONS.md`, especially BEAT-002–007, 008–017, 020–022, 023–032, and 039–057. |
 
-**Handoff status at STEP 06 close:** the package records the accepted
+**Handoff status at STEP 06 close:** the package recorded the accepted
 repository direction, selected sibling path, Story rationale, proposed
-evolution, and later validation criteria. STEP 07 has not started. Do not
-redesign the Story when implementation begins.
+evolution, and later validation criteria. STEP 07 has since started; the
+STATE-00 and STATE-00-FIXED implementation and observed results, plus the
+STATE-01 repeated-context plan, are recorded in `plan/DEMO_REPOSITORY_SPEC.md`
+and `plan/DEMO_MATRIX.md`. STATE-01 implementation and product-dependent
+Desktop Agent trials remain pending. Do not redesign the Story as part of
+implementation.
 
 ## STEP 06 Completion Audit — §§111–120
 
@@ -616,8 +634,9 @@ STATE-00-FIXED → STATE-01 through STATE-07 (Context, reusable workflow,
 measured Performance, optional roles and knowledge, working Harness) →
 STATE-08/09 (documented Project Test change and visible stale-workflow
 failure) → STATE-10/11 (evidence-backed workflow repair, Evaluation, and
-Regression). State commits, reset commands, and actual outcomes do not exist
-yet; record them during STEP 07 implementation and validation.
+Regression). State commits, reset commands, and actual outcomes did not exist
+at that planning checkpoint; STATE-00 was subsequently implemented and
+reset-checked during STEP 07.
 
 #### 7. Anchor Demos
 
@@ -685,24 +704,34 @@ appears.
 #### 14. Open Questions
 
 At STEP 06 close, OQ-001's repository direction and local sibling path were
-resolved by DEC-0011/DEC-0012; implementation details remain for STEP 07.
+resolved by DEC-0011/DEC-0012, while implementation details remained for
+STEP 07. STATE-00 implementation details and evidence are now recorded in
+`plan/DEMO_REPOSITORY_SPEC.md`; later states remain open.
 OQ-003 is resolved for the planned environment/delivery strategy. Remaining
 questions include OQ-004 (Curriculum review/runtime refinement), OQ-005
-(current product and account checks), OQ-007 (project verification commands),
-OQ-008 (optional product mechanisms), OQ-009 (Evaluation evidence), OQ-011
-(course wording), and OQ-013 (future authentic Meta Example). OQ-002/OQ-014
-do not block the selected synthetic-local-data direction; revisit only if
-internal/company sources or claims are introduced.
+(current product and account checks), OQ-007 (later-state verification and
+benchmark examples), OQ-008 (optional product mechanisms), OQ-009 (Evaluation evidence),
+OQ-011 (course wording), and OQ-013 (future authentic Meta Example).
+OQ-002/OQ-014 do not block the selected synthetic-local-data direction;
+revisit only if internal/company sources or claims are introduced.
 
 #### 15. User Decisions Recorded
 
 | Decision | User-selected direction | Deferred check |
 |---|---|---|---|
-| Repository source, language, domain, and location | Separate purpose-built Python Synthetic Image Processing CLI with synthetic local data at `../ai-dev-training-demo`. | Implement the selected direction and validate module structure, commands, and environment during STEP 07. |
+| Repository source, language, domain, and location | Separate purpose-built Python Synthetic Image Processing CLI with synthetic local data at `../ai-dev-training-demo`. | STATE-00 package and module structure are recorded; later states, benchmark, and product/account verification remain in STEP 07. |
 | Rationale and audience transfer | Python lowers code/repository comprehension cost; C++ Vision practices appear as future Curriculum/Slide bridges, not Demo code. | Confirm final bridge presentation during Curriculum/Slide work. |
 | Implementation environment and delivery | macOS + current Codex Desktop; OS-independent design; Anchor HYBRID, ACT 4 not Live-only, supporting Demos may be RECORDED/CAPTURED/VISUAL. | Recheck current product/account support and rehearse paths during STEP 07. |
 
+#### 16. STEP 07 Readiness
 
+**STEP 07 IN PROGRESS — STATE-00-FIXED RECORDED; STATE-01 PLAN DEFINED.** The
+repository is at the DEC-0012 sibling path. `STATE-00-FIXED` is committed and
+tagged locally; no remote is configured, so it is not pushed. The next state
+is `STATE-01`, but its `AGENTS.md` has not been created. TRIAL-001/002 and
+state evidence are recorded in `plan/DEMO_MATRIX.md`. Codex Desktop/account
+behavior remains subject to OQ-005, and the Desktop Anchor rehearsal remains
+pending.
 
 ### §120 — Completion Condition Audit
 
@@ -745,7 +774,7 @@ resolved its direction gates. An unapproved role/design choice remains open.
 | 30 | Product capability matches STEP 03 Research. | STEP 07 VALIDATION — recheck current account/surface behavior under OQ-005. |
 | 31 | Training and Demo Harnesses are separate. | PASS — explicitly separate repositories and purposes. |
 | 32 | Meta Example is not asserted without evidence. | PASS — audit says NOT USED for STEP 06. |
-| 33 | Demo Repository is not yet implemented. | PASS — no educational repository or state commits created. |
+| 33 | Demo Repository had not yet been implemented at STEP 06 close. | PASS — no educational repository or state commits existed at that historical checkpoint. |
 | 34 | Slide Map is not created. | PASS — none created. |
 | 35 | PPT is not created. | PASS — none created. |
 
@@ -753,7 +782,7 @@ resolved its direction gates. An unapproved role/design choice remains open.
 are resolved; required planning artifacts and their boundaries are recorded.
 The overall STEP 06 planning status is **COMPLETE WITH OPEN QUESTIONS**.
 Anchor-role selection under DEC-0008 and implementation/validation items
-remain open. STEP 07 is not started.
+remained open at STEP 06 close; STEP 07 has since started as recorded above.
 
 ## STEP 06 Gate
 

@@ -1,14 +1,15 @@
 # Demo Repository Specification
 
-> Status: **Selected direction; implementation and Demo trials remain for STEP 07**
+> Status: **STATE-00 and STATE-00-FIXED implemented, verified, and recorded locally; STATE-01 plan defined; later states and Codex Desktop Anchor rehearsal remain pending**
 >
-> Date: 2026-09-27
+> Date: 2026-09-28
 >
-> This document specifies the selected Demo direction; it does not create the
-> repository or claim an Agent Demo trial. The selected local path is
+> This document records the plan and actual implementation evidence for
 > `../ai-dev-training-demo`, relative to the `ai-dev-training` repository
-> root. Current product capability and account behavior remain subject to
-> OQ-005.
+> root. TRIAL-001/002 and the `STATE-00-FIXED` revalidation are recorded in
+> `plan/DEMO_MATRIX.md`. CLI observations do not validate the selected Codex
+> Desktop environment. Current Desktop capability and account behavior
+> remain subject to OQ-005. No remote is configured for the Demo repository.
 
 ## Purpose
 
@@ -38,8 +39,11 @@ The conceptual pipeline is:
 → output`
 
 Keep the domain intuitive to Vision developers without making Vision
-algorithms the subject of the training. Exact module structure and data
-representation remain TBD for STEP 07.
+algorithms the subject of the training. STATE-00 uses the `graypipe` package,
+ASCII PGM (`P2`) input/output, and a local 4×3 synthetic fixture. Its actual
+module structure and data representation are recorded in the STATE-00
+implementation evidence below. Later-state additions remain TBD until
+implemented.
 
 ## Language
 
@@ -52,8 +56,10 @@ AI development.
 Keep dependencies minimal. Python + NumPy is the initial dependency
 direction. Add OpenCV only if a demonstrated Story need justifies it without
 adding undue API complexity. Choose test dependencies, including pytest if
-considered, based on stability and readability. Exact runtime versions,
-package/build choices, and dependencies remain for STEP 07.
+considered, based on stability and readability. STATE-00 uses Python 3.9.6,
+the standard-library `unittest` runner, no runtime dependencies, and a local
+setuptools wheel build; exact versions and evidence appear below. Later-state
+and classroom-preparation needs remain open.
 
 ## Why This Domain
 
@@ -78,7 +84,8 @@ than expand the course domain.
 Python is selected to make Code and Repository structure quicker to
 understand during a six-hour AI Engineering course. C++ Vision transfer is a
 future teaching bridge; C++ code is not required in this Demo repository.
-Implementation setup and packaging decisions remain open for STEP 07.
+STATE-00 setup and packaging choices are recorded below; later-state setup
+and classroom preparation remain open.
 
 ## C++ Vision Transfer Bridge
 
@@ -113,17 +120,17 @@ STEP 07 evidence shows that this shape cannot support the Story.
 Keep the Demo as an independent Git repository at `../ai-dev-training-demo`,
 relative to the `ai-dev-training` repository root. In the current workspace,
 the sibling path is `/Users/noah/workspace/education/ai-dev-training-demo`.
-This records the local checkout location only; it does not select a remote or
-authorize repository creation before STEP 07 starts.
+The repository was created there as part of STEP 07. This path decision does
+not select or configure a Git remote.
 
 ## Repository Architecture
 
-**Conceptual shape only; exact module structure is a STEP 07 decision.** The
-repository should remain a small Python CLI and include local synthetic
-image input/output, a few traceable processing stages, tests, benchmark
-support, Project documentation, and a reusable workflow introduced at the
-appropriate Story transition. The following are planning areas, not a final
-module or file layout:
+**Planning outline; see the STATE-00 implementation record below for the
+actual initial layout.** The repository should remain a small Python CLI and
+include local synthetic image input/output, a few traceable processing stages,
+tests, benchmark support, Project documentation, and a reusable workflow
+introduced at the appropriate Story transition. The following are planning
+areas, not a final layout for later states:
 
 ```text
 ai-dev-training-demo/
@@ -133,38 +140,57 @@ ai-dev-training-demo/
 ├── docs/
 │   ├── architecture.md     # introduced at STATE-02; exact name TBD
 │   └── testing.md          # introduced at STATE-02; exact name TBD
-├── src/                    # package/module layout TBD in STEP 07
+├── src/                    # STATE-00 layout recorded below; later additions TBD
 ├── tests/
 ├── benchmarks/
 ├── data/
-│   └── synthetic image inputs or generator; representation TBD
+│   └── STATE-00 uses data/sample.pgm; later benchmark input TBD
 └── workflows/
     └── performance-investigation.md  # introduced at STATE-04
 ```
 
-This tree is a conceptual outline, not a final module structure or a
-requirement to create every directory in STATE-00. Files that teach a later
-Harness or workflow concept are introduced at their planned Story transition.
+This tree is a conceptual outline, not a requirement to create every
+directory in STATE-00. Files that teach a later Harness or workflow concept
+are introduced at their planned Story transition.
 Do not create a workflow file, `AGENTS.md`, Skill, Memory record, Subagent
 configuration, or Evaluation framework in the initial state.
 
 ## Module Responsibilities
 
-Keep the conceptual processing stages easy to trace from local image input
-to output. Exact module names, boundaries, and responsibilities remain an
-implementation choice for STEP 07. Avoid abstractions added only to create
-more Context or Subagent examples.
+STATE-00 assigns image loading and P2 input/output to `loader.py`, declared
+range scaling to `normalize.py`, pixel inversion to `filters.py`, horizontal
+crop and nearest-neighbor resizing to `transform.py`, summary values to
+`statistics.py`, and stage ordering to `pipeline.py`. `cli.py` parses options
+and formats the summary. These boundaries were implemented and exercised by
+the recorded STATE-00 checks. Tests cover operation contracts and the local
+input-to-output path. Benchmark support must later compare baseline and
+changed implementations on the same deterministic local workload and verify
+output equivalence. Avoid abstractions added only to create more Context or
+Subagent examples.
 
 ## Entry Point
 
-Provide one concise CLI path through the synthetic image-processing pipeline.
-Choose the package name, supported options, and exact invocation in STEP 07;
-keep commands short enough to read on a projector.
+The initial package is `graypipe`, distributed as `ai-dev-training-demo`,
+with the `graypipe` console command and `python -m graypipe.cli` module entry
+point. It reads and writes local ASCII PGM (`P2`) grayscale images. The
+current options are `--input`, `--output`, optional `--crop X_START X_END`,
+optional `--resize WIDTH HEIGHT`, and optional `--invert`. Keep commands
+short enough to read on a projector.
 
 ## Build
 
-Choose a minimal Python package/build path with versions prepared before the
-classroom Demo. Record the exact command and environment during STEP 07.
+STATE-00 uses `pyproject.toml` with the `setuptools.build_meta` backend and
+pins `setuptools==58.0.4` and `wheel==0.37.0`. The wheel build command is:
+
+```sh
+python3 -m pip wheel --no-build-isolation --no-deps \
+  --wheel-dir /tmp/graypipe-wheel .
+```
+
+It built `ai_dev_training_demo-0.1.0-py3-none-any.whl` successfully on the
+recorded macOS/Python environment. Build tools must be prepared before class;
+no class-time package download is required.
+
 Keep setup local and predictable for the selected macOS/Codex Desktop
 validation path. Design for OS independence where practical, but validating
 Windows/WSL and Linux is not a STEP 07 requirement. Do not download packages
@@ -180,11 +206,23 @@ Candidate test layers:
   measured Performance change.
 - A separate small Harness Evaluation set described below.
 
-Choose the test framework and exact commands in STEP 07 based on stability,
-readability, and the selected local environment. Test output should identify
-the relevant failing check and expected/actual value clearly enough for a
-projected terminal view. Keep the reusable stale-workflow scenario distinct
-from a missing dependency or broken environment.
+STATE-00 uses standard-library `unittest` and adds no runtime or test-runner
+dependency. Run it with:
+
+```sh
+PYTHONPATH=src python3 -m unittest discover -s tests -v
+```
+
+The full baseline has 11 tests: 10 pass and one intentionally fails on
+the specified crop-boundary defect. The other 10 checks pass when run without
+that focused regression. Preserve the primary stale-Harness Story by
+introducing a justified Project test-layout or test-procedure change that
+leaves exactly one previously correct reusable workflow stale. The old
+workflow must fail visibly for the intended stale-artifact reason, not
+because of missing dependencies or a broken environment.
+
+Test output should identify the relevant failing check and expected/actual
+value clearly enough for a projected terminal view.
 
 ## Performance Scenario and Benchmark
 
@@ -233,7 +271,8 @@ range `[x_start, x_end)`. The implementation currently includes the pixel at
 `x_end`; the `test_crop_excludes_end_coordinate` test in
 `tests/test_transform.py` records the mismatch on a small synthetic grayscale
 image. This baseline failure is deliberate and remains unfixed until
-`STATE-00-FIXED`.
+`STATE-00-FIXED`. The subsequent correction and its verification are recorded
+in the STEP 07 state record below.
 
 At `STATE-00`, a focused regression check should expose the bounded defect.
 The single-purpose transition to `STATE-00-FIXED` changes only the relevant
@@ -444,14 +483,16 @@ tasks occurred again during the Harness evaluation.
 
 ## State Model
 
-All states remain proposed and unimplemented. Full per-state fields are in
-the table below; exact refs, commands, and reset evidence are STEP 07 outputs.
+STATE-00 is implemented at commit `22e7e2f` and tag `STATE-00`.
+`STATE-00-FIXED` is recorded at commit `6dab644` and its matching tag.
+STATE-01 is planned below; later states remain proposed and unimplemented.
+Full per-state fields are in the table and reset requirements follow it.
 
 | State | Purpose / code state | Project docs | Agent instruction / Harness | Expected Demo and transition |
 |---|---|---|---|---|
-| STATE-00 | Normal small baseline image-processing project with a candidate half-open crop-boundary Bug. | README and local input/output contract. | No `AGENTS.md`, Skill, Memory, Subagent, or evaluation layer. | Explore the repository and trace a path; inspect the bounded grayscale case. Transition: verify and correct the specified defect.
-| STATE-00-FIXED | Correct only the candidate crop-boundary behavior; no other product behavior changes. | Record the boundary contract and focused expected result. | Still no `AGENTS.md` or reusable workflow. | Verify failing check → fix → passing check. Transition: repeated Project facts become visible. |
-| STATE-01 | Product code unchanged from STATE-00-FIXED. | Existing project sources remain authoritative. | Add concise `AGENTS.md`. | Repeat a small task with less repeated Project explanation. Transition: facts accumulate. |
+| STATE-00 | Implemented baseline CLI at tag `STATE-00`; documented half-open crop contract has one focused, observed failure. | README, local P2 input/output contract, and Build/Test setup. | No `AGENTS.md`, Skill, Memory, Subagent, or evaluation layer. | Explore the repository and trace a path; inspect the small grayscale boundary case. Transition: correct the bounded defect. |
+| STATE-00-FIXED | Commit `6dab644`; changes only the half-open crop boundary. | Existing README and source contract remain authoritative. | Still no `AGENTS.md` or reusable workflow. | Focused/full Tests and CLI smoke pass. Transition: repeated Project facts become visible. |
+| STATE-01 | Product code unchanged from `STATE-00-FIXED`. | Existing project sources remain authoritative. | Proposed: add concise `AGENTS.md` after validating repeated-context candidates. | Repeat a small task with less repeated Project explanation; validate instruction discovery. Transition: facts accumulate. |
 | STATE-02 | Product code unchanged. | Add only verified Project facts to their natural sources. | Guidance starts routing to relevant facts. | Show Context growth as a labeled state, not a guaranteed model failure. Transition: relevance differs by task. |
 | STATE-03 | Product code unchanged. | Separate core instructions from task-specific docs. | Add explicit routes/progressive disclosure pattern. | Compare relevant and irrelevant context. Transition: consistency of process remains unsolved. |
 | STATE-04 | Product code remains at the verified baseline. | Add a maintained performance procedure with current Build/Test/Benchmark sources. | Add reusable workflow; product Skill is conditional. | Establish and record the baseline. Transition: apply the procedure to a measured hot path. |
@@ -483,22 +524,30 @@ dependency identifier, known result, and reset command in its Runbook entry.
 The candidate reset is to check out the recorded state ref in a fresh or
 disposable checkout, never to depend on manual edits made during the prior
 Demo. Exact refs, reset commands, dependency identifiers, and results are
-implementation outputs. Until implementation, state identifiers are logical
-labels rather than runnable references. A transition changes one principal
-concept; preparatory changes are documented rather than hidden.
+implementation outputs. STATE-00 now has a verified tag and reset command;
+later STATE identifiers remain logical labels until implemented. A
+transition changes one principal concept; preparatory changes are documented
+rather than hidden.
 
 ## Git State Strategy
 
 Use one linear Git history with one reviewable commit for each meaningful
-Project transition. Use state tags as Demo reset anchors and store exact refs
-and reset commands in each Runbook record. STATE-09 reuses STATE-08's commit
-and adds a captured execution record. Avoid a branch per state. The strategy
-remains subject to classroom reset stability.
+Project transition. STATE-00 uses commit
+`22e7e2f806de2419b0df649107bbae14dea082eb` and tag `STATE-00`.
+`STATE-00-FIXED` uses commit `6dab644ea53e899e6d65b70bc4383bd2901ded89`
+and tag `STATE-00-FIXED`. Continue using state tags as Demo reset anchors and
+store exact refs and reset commands in each Runbook record. STATE-09 reuses
+STATE-08's commit and adds a captured execution record. Avoid a branch per
+state. The strategy remains subject to classroom reset stability.
 
 Before each run, record state identifier, commit/tag, clean working-tree
 status, dependencies, known Test result, and benchmark input/state. Prepare
 the checkout before class; do not depend on a complicated mid-Demo branch
-operation. Exact reset commands remain TBD.
+operation. STATE-00 was reset with the disposable-worktree command recorded
+in its evidence section. The STATE-00-FIXED tag was checked out in a fresh
+detached worktree and its full Test suite passed. Exact refs and reset
+commands for later states remain TBD until those states exist. The Demo
+repository has no configured remote, so its local state refs are not pushed.
 
 Every Git history explanation must say that this is a training-designed
 Project evolution. Never make it appear to be production history.
@@ -520,17 +569,17 @@ Project evolution. Never make it appear to be production history.
 
 | Field | Current value |
 |---|---|
-| Primary OS / architecture | macOS; record the exact version and architecture during STEP 07 validation |
+| Primary OS / architecture | macOS 26.6.2 / arm64 |
 | Secondary supported environments | OS-independent design where practical; Windows/WSL and Linux implementation validation is not required at STEP 07 |
 | Codex interface / account / model | Current Codex Desktop is selected for primary work; account/model details and feature support remain to be verified under OQ-005 |
-| Language runtime | Python; exact supported version to be selected and recorded in STEP 07 |
-| Build tool/backend | TBD in STEP 07; prefer a minimal, pinned local setup |
-| Test framework | TBD in STEP 07; choose for stability and readability |
+| Language runtime | Python 3.9.6 (the validated runtime; broader versions are not validated) |
+| Build tool/backend | pip 21.2.4, setuptools 58.0.4, wheel 0.37.0; local wheel build succeeded |
+| Test framework | Python standard-library `unittest`; 10 baseline checks pass and the specified crop-contract test fails |
 | Benchmark tool | TBD in STEP 07; select for a clear, repeatable comparison |
 | Git | Required |
 | Network | None during core Demo is the goal; pre-provision any package tools |
 | External services / credentials | None |
-| Data | Synthetic local image; exact representation and fixture to be selected in STEP 07 |
+| Data | ASCII PGM (`P2`) fixture `data/sample.pgm`; SHA-256 `c0aac885c30fb17d92cbfa1936205fcf36b0f14598a65354ffec1f8a5bdc44ff` |
 | Setup / reset time | TBD after a clean-machine Trial and rehearsal |
 
 ## Constraints
@@ -560,36 +609,146 @@ Project evolution. Never make it appear to be production history.
 **Primary goal:** make Prompt → Context → Harness → Loop Engineering
 evolution observable in one understandable software Project.
 
+## STEP 07 Implementation Record — STATE-00
 
+**Status:** The STATE-00 baseline remains implemented and reset-checked.
+TRIAL-001 observed read-only repository exploration and TRIAL-002 observed a
+bounded crop fix through Codex CLI. That fix was then revalidated and recorded
+as `STATE-00-FIXED` in the following state record. STATE-01 has not started.
+The selected Desktop Anchor path, repeatability, and fallback remain pending.
+
+**Repository:** `/Users/noah/workspace/education/ai-dev-training-demo`, an
+independent Git repository. No remote is configured; the remote URL remains
+unselected.
+
+**Baseline design:** Python package `graypipe` with a console entry point;
+ASCII PGM input/output; standard-library processing and tests; no runtime
+dependencies. The pipeline loads an image, normalizes its declared range to
+255, optionally inverts, optionally crops/resizes, writes output, and reports
+basic statistics. The source tree contains no `AGENTS.md`, Skill, Subagent,
+Memory record, project workflow, or Evaluation framework.
+
+**Dependency observation:** DEC-0011 listed Python + NumPy as an initial
+direction to consider. STATE-00's small operations and tuple-based PGM path
+did not require NumPy, OpenCV, or an external test runner; the standard
+library keeps setup local and the initial source easier to inspect. Revisit
+additional dependencies only if a later measured workload needs them. This
+is an implementation choice within the accepted direction, not a change to
+the Story or an invariant.
+
+**Build:** On macOS 26.6.2 arm64 with Python 3.9.6, pip 21.2.4, setuptools
+58.0.4, and wheel 0.37.0, the documented wheel command succeeded and created
+`ai_dev_training_demo-0.1.0-py3-none-any.whl`. The wheel was installed from a
+local file without dependency downloads, and the installed `graypipe` command
+returned the expected JSON summary for the sample image. The output PGM
+contained the expected normalized pixel values. Two fresh same-source builds
+also succeeded. Their archive hashes differed
+(`99df35f5d186772f812f95ae4ffe2dd7a03a0d80081252ecc446e7cce39632b7` and
+`d49b82f9d4f94c20b53ccc5fa96897773bb1158f1a8f7f907a1d02cf063939a6`); every
+wheel member had matching size and CRC, while generated `.dist-info` ZIP
+timestamps differed. The Git state, not the wheel archive hash, identifies
+the source baseline; byte-for-byte reproducible wheel packaging is not
+established.
+
+**Tests:** `PYTHONPATH=src python3 -m unittest discover -s tests -v` ran 11
+tests. Ten passed. The single failure,
+`test_crop_excludes_end_coordinate`, observed `((2, 3, 4), (6, 7, 8))` where
+the half-open contract expects `((2, 3), (6, 7))`. This is the specified
+STATE-00 defect, not a hidden pass. The other ten tests passed separately.
+
+**Functional command:** `PYTHONPATH=src python3 -m graypipe.cli --input
+data/sample.pgm --output /tmp/graypipe-output.pgm` exited 0 and reported
+width 4, height 3, 12 pixels, minimum 0, maximum 255, and mean 131.75.
+
+**State reference and reset:** commit
+`22e7e2f806de2419b0df649107bbae14dea082eb`, tag `STATE-00`. The disposable
+reset command `git worktree add --detach
+/tmp/ai-dev-training-demo-state-00 STATE-00` restored a clean checkout. The
+known Test result and functional command matched the original checkout; the
+temporary worktree was then removed.
+
+**State Gate:**
+
+| Gate | Result | Evidence / limit |
+|---|---|---|
+| IMPLEMENTATION | PASS | Only the initial CLI, local fixture, tests, and minimum package metadata were added. |
+| FUNCTIONAL | PASS | Local CLI produced the expected 4×3 normalized PGM and summary. |
+| TEST | MATCHES EXPECTED BASELINE | Ten checks pass; the specified crop-boundary contract check fails visibly. |
+| DEMO | PASS for the baseline Project; TRIAL-001/002 PASS in Codex CLI | The local pipeline, bounded exploration, and isolated crop-fix run are observable. Codex Desktop/account behavior remains unvalidated; OQ-005 remains open. |
+| DIFF | N/A for initial state | STATE-00 is the first commit; its complete file set is recorded above. |
+| EVIDENCE | PASS | Commands, outputs, environment, fixture hash, commit/tag, and known failure are recorded. |
+| RESET | PASS | A disposable checkout reproduced the same known test result and CLI output. |
+
+TRIAL-001 did not modify Demo code. At TRIAL-002 close, its one-line fix was
+verified in an isolated worktree but had not yet advanced the original
+repository. Both bounded CLI observations remain recorded in
+`plan/DEMO_MATRIX.md`. No performance result, Codex Desktop behavior, or
+product-wide capability is claimed.
+
+## STEP 07 State Record — STATE-00-FIXED
+
+**Purpose:** Record only the verified crop-boundary correction after the
+STATE-00 bug baseline. No project instruction or Harness component is added.
+
+**Previous state:** `STATE-00`, commit
+`22e7e2f806de2419b0df649107bbae14dea082eb`; its tag remains unchanged.
+
+**Code state:** `src/graypipe/transform.py` now slices each row up to, but not
+including, `x_end`, implementing the documented `[x_start, x_end)` contract.
+This is the only changed file and the diff is one insertion/one deletion.
+No public API or dependency changed.
+
+**Project docs state:** Existing README and source contract remain unchanged;
+the README accurately describes the known failure at the historical
+STATE-00 baseline. No `AGENTS.md`, reusable workflow, or evaluation layer is
+present.
+
+**Instruction / Harness state:** unchanged from STATE-00; no `AGENTS.md`,
+Skill, Memory, Subagent, or workflow was introduced.
+
+**Verification:** On macOS 26.6.2 / arm64 with Python 3.9.6, the focused crop
+test passed 3/3, the full suite passed 11/11, and the CLI crop smoke test
+exited 0. The output was 2×3 with six pixels, mean 136.0, minimum 51,
+maximum 255, and decoded pixels `((51, 102), (255, 153), (51, 204))`.
+`git diff --check` passed. A fresh detached checkout of the tag passed all
+11 tests and was clean after verification. Exact commands and the Trial
+history are in `plan/DEMO_MATRIX.md`.
+
+**Git record:** commit `6dab644ea53e899e6d65b70bc4383bd2901ded89`,
+`fix(graypipe): exclude crop end coordinate`; lightweight tag
+`STATE-00-FIXED` points to that commit. The main worktree is clean. No remote
+is configured and no push was performed.
+
+**Expected Demo / transition:** Show the failing assertion at STATE-00,
+followed by the one-line fix and passing checks at STATE-00-FIXED. The next
+Story problem is repeated Project Context across otherwise well-specified
+tasks; introduce no `AGENTS.md` until STATE-01.
+
+**Reproduction:** Check out tag `STATE-00-FIXED` in a fresh detached
+worktree, then run `PYTHONPATH=src python3 -m unittest discover -s tests -v`.
+This exact tag reset was checked during this state recording and passed 11/11.
 
 ## Open Questions
 
-- OQ-001: repository language/domain/location are selected; exact module
-  structure, runtime, package setup, and implementation evidence remain for
-  STEP 07.
+- OQ-001: repository direction, local sibling path, and STATE-00 module
+  structure are implemented; later state details remain subject to actual
+  implementation evidence.
 - OQ-002/OQ-014: not required for the selected synthetic local repository;
   revisit only if the direction introduces external/internal sources or
   company-specific claims. Choose a license before public sharing.
 - OQ-003: primary environment and Hybrid/Supporting delivery direction are
   resolved by DEC-0011. OQ-005 retains current account, permission, interface,
   feature, and Live-path checks.
-- OQ-007: exact Build/Test/Benchmark commands, workload, results, and
-  project-specific verification examples remain for STEP 07.
+- OQ-007: STATE-00 package, Build, Test runner, commands, and baseline result
+  are recorded above. Benchmark method, workload, and later verification
+  examples remain open until their states are implemented and measured.
 - OQ-008: whether the target surface has a suitable reusable workflow,
   Skill, Subagent, or Memory mechanism.
 - OQ-009: fair recurrence representation and bounded evaluation criteria.
 - OQ-013: whether real history in the training repository supports an
   optional Meta Example.
 
-No later-state workflow, Skill, Subagent, Memory, benchmark result, or
-product-specific Agent behavior is specified as observed. This plan does not
-add instructional minutes. Anchor windows consume 40 minutes; supporting
-examples, verification visuals, and the recap remain inside the other 33
-minutes. Detailed reconciliation is in `plan/DEMO_MATRIX.md`.
-
-Setup performed before class is operational preparation, not instructional
-time. Any on-screen setup, execution, observation, interpretation, and
-transition during class must fit the current Curriculum section's Demo slot.
-Final timing depends on repository and rehearsal evidence. If a slot is at
-risk, move a Demo to Recorded/Captured, reduce a supporting example, or remove
-duplication before cutting a Story-critical explanation.
+No later-state workflow, Skill, Subagent, Memory, or benchmark result is
+created or claimed by this specification. The bounded TRIAL-001/002 CLI
+observations are recorded in `plan/DEMO_MATRIX.md` and are not generalized to
+Codex Desktop or other accounts.

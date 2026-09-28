@@ -194,18 +194,22 @@ resolve a question by guessing.
 ### OQ-001 — Select and place the software Demo repository
 
 Priority: NEAR-TERM
-Priority Rationale: Repository direction and location are selected; assess implementation suitability in STEP 07.
+Priority Rationale: Repository selection/location are resolved and STATE-00
+is implemented; use later state evidence for remaining choices.
 Depends On: None
-Blocks: Implementing the selected Demo repository; project-specific verification examples remain under OQ-007.
+Blocks: Later repository-state implementation as required; project-specific
+verification examples remain under OQ-007.
 
 Why it matters:
 The same repository is preferred across the Story. Its source, language,
-domain, separate-repository placement, and local sibling path are selected;
-implementation suitability and later states still require evidence.
+domain, separate-repository placement, and local sibling path are selected.
+STATE-00 now establishes an initial working baseline; later implementation
+choices must follow observed results.
 
 When to decide:
 Repository direction and location: resolved by DEC-0011 and DEC-0012.
-Assess and implement the selected direction during STEP 07.
+Initial implementation: recorded in the STATE-00 evidence section of
+`plan/DEMO_REPOSITORY_SPEC.md`. Later states remain for STEP 07.
 
 Other Dependencies:
 Review audience accessibility, repository suitability, and any usage or data
@@ -217,14 +221,16 @@ RESOLVED by DEC-0011 and DEC-0012: a separate, purpose-built
 `ai-dev-training-demo` repository at `../ai-dev-training-demo` relative to
 `ai-dev-training`, currently resolving to
 `/Users/noah/workspace/education/ai-dev-training-demo`; Python; and a
-synthetic grayscale image-processing CLI. Exact implementation choices and
-results remain for STEP 07. The earlier telemetry proposal in DEC-0010 is
+synthetic grayscale image-processing CLI. STATE-00 implements an initial
+`graypipe` package with ASCII PGM input/output; `STATE-00-FIXED` records its
+verified crop-boundary correction. Later state changes and choices remain
+subject to actual evidence. The earlier telemetry proposal in DEC-0010 is
 superseded and was not selected.
 
 Do not assume:
-Do not infer exact module layout, runtime, commands, or behavior before
-implementation. Do not add C++ Demo code; C++ Vision transfer is a teaching
-bridge for future Curriculum/Slides.
+Do not infer later-state changes, dependencies, or results before they are
+implemented and checked. Do not add C++ Demo code; C++ Vision transfer is a
+teaching bridge for future Curriculum/Slides.
 
 ### OQ-002 — Choose real cases and confirm permission to use them
 
@@ -367,7 +373,9 @@ or task.
 ### OQ-007 — Set project-specific verification examples
 
 Priority: NEAR-TERM
-Priority Rationale: Resolve project-specific examples after the repository direction is selected and before Demo rehearsal.
+Priority Rationale: STATE-00 commands and baseline outcomes are recorded;
+complete remaining Build/Test/Benchmark and Demo examples with later states
+and trials.
 Depends On: OQ-001.
 Blocks: Repeatable project-specific Build, Test, Benchmark, Review, and completion examples.
 
@@ -376,7 +384,8 @@ Build, Test, Benchmark, Review, and completion criteria depend on the chosen
 software project and task.
 
 When to decide:
-During Demo design, after selecting the repository and examples.
+Initial baseline: recorded during STEP 07 STATE-00. Resolve later examples
+after their states and Demo trials are implemented.
 
 Other Dependencies:
 Repository commands, expected results, and a repeatable Demo state. Map the
@@ -384,7 +393,16 @@ checks to the selected Story Beats after choosing the repository; do not infer
 commands or passing results from the Story draft.
 
 Current candidates:
-None recorded.
+- STATE-00 uses Python 3.9.6 on macOS 26.6.2 arm64, standard-library
+  `unittest`, no runtime dependencies, ASCII PGM (`P2`), and a setuptools
+  wheel build. Exact commands and actual results are recorded in
+  `plan/DEMO_REPOSITORY_SPEC.md`.
+- The full STATE-00 test run has one specified crop-boundary failure and ten
+  passing checks. Do not describe the suite as fully passing.
+- `STATE-00-FIXED` records that correction and passes the focused crop tests,
+  all 11 tests, the local CLI smoke check, and a fresh-tag full-test check.
+- Benchmark method/workload, performance result, and product-specific Agent
+  verification remain open until implemented and measured.
 
 Do not assume:
 Do not invent test commands, performance goals, or successful results.

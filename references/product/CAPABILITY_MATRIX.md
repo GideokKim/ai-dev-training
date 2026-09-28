@@ -1,6 +1,6 @@
 # Product Capability Matrix
 
-> Checked values reflect STEP 03 notes/reports as of 2026-09-25. “Official Support” is not company approval. “Demo Candidate” assumes a future demo repository and target account still need confirmation.
+> Most checked values reflect STEP 03 notes/reports as of 2026-09-25. `AGENTS.md` and nested instruction scope were rechecked against SRC-0110 on 2026-09-28. “Official Support” is not company approval. “Demo Candidate” assumes a future demo repository and target account still need confirmation.
 
 Classification: `YES` means the documented behavior is supported within the
 stated scope; `PARTIAL` means support depends on interface, account, setup,
@@ -20,8 +20,8 @@ conditional scope; unresolved target-workspace access is captured separately.
 | Build | PARTIAL | Same as command execution; depends on toolchain/setup/dependencies | SRC-0103, SRC-0105 | MEDIUM | MAYBE | HIGH |
 | Test | PARTIAL | Same as command execution; depends on repo test suite and environment | SRC-0103, SRC-0105, SRC-0139 | MEDIUM | MAYBE | HIGH |
 | Web search | PARTIAL | ChatGPT/Codex web search; not same as shell/cloud network | SRC-0115, SRC-0124 | HIGH | MAYBE | HIGH |
-| AGENTS.md | YES | Codex repository instruction discovery | SRC-0110 | HIGH | YES | MEDIUM |
-| Nested instructions | YES | Codex nested `AGENTS.md` discovery | SRC-0110 | HIGH | YES | MEDIUM |
+| AGENTS.md | YES | Codex run-start instruction chain includes global and repository guidance | SRC-0110 | HIGH | YES | MEDIUM |
+| Nested instructions | YES | Root-to-current-directory discovery; at most one selected instruction file per directory | SRC-0110 | HIGH | YES | MEDIUM |
 | Skills | YES | Codex/ChatGPT supported surfaces, subject to feature availability | SRC-0111, SRC-0117 | MEDIUM | MAYBE | HIGH |
 | Subagents | YES | Codex supported surfaces, subject to account/admin availability | SRC-0112 | MEDIUM | MAYBE | HIGH |
 | Parallel agents | PARTIAL | Subagents and parallel Desktop/Cloud/worktree workflows; task independence matters | SRC-0112, SRC-0123, SRC-0219 | MEDIUM | MAYBE | HIGH |

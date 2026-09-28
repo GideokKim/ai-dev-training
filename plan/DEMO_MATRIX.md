@@ -1,15 +1,19 @@
 # Demo Matrix
 
-> Status: **Selected planning direction; Demo implementation and trials remain pending**
+> Status: **STATE-00 and STATE-00-FIXED recorded and verified locally; TRIAL-001/002 observed via Codex CLI; STATE-01 planning complete; Codex Desktop Anchor rehearsal remains pending**
 >
-> Date: 2026-09-27
+> Date: 2026-09-28
 
 This matrix maps candidate Demos to Story Beats and the existing Curriculum
 Demo allocation. The rows are candidates; their presence does not mean the
 corresponding Story Demo has been run or validated. Repository
-language/domain/strategy are selected in DEC-0011; its local sibling path is
-selected in DEC-0012. Implementation and product-specific paths remain for
-STEP 07 under OQ-005.
+language/domain/strategy are selected in DEC-0011;
+its local sibling path is selected in DEC-0012. STATE-00 was implemented and
+reset-checked; its half-open crop correction is now recorded as
+`STATE-00-FIXED` after rerunning the required checks in the original repository.
+TRIAL-001 and TRIAL-002 remain bounded Codex CLI observations;
+Codex Desktop/account behavior and Live-path readiness remain subject to
+OQ-005.
 
 ## Feasibility Rating Key
 
@@ -17,6 +21,8 @@ STEP 07 under OQ-005.
   execution evidence exists yet.
 - **TRIAL REQUIRED:** the scenario appears designable, but setup, readability,
   benchmark stability, or exact workflow must be checked before selection.
+- **TRIAL OBSERVED:** one bounded run produced the recorded evidence; this is
+  not final Demo acceptance or evidence of repeatability.
 - **CONDITIONAL:** depends on target Codex surface/account, permission, or a
   mechanism not selected yet.
 - **BLOCKED:** cannot meet a Story-critical need under the current proposal.
@@ -35,21 +41,22 @@ not establish product support or successful Agent behavior.
 
 Ratings are STEP 06 planning estimates, not current capability claims. The
 selected implementation environment is macOS with the currently used Codex
-Desktop; recheck current product support and account behavior before a Trial.
-Every HIGH Anchor requires a current-state check, a rehearsed fallback, and a
-captured alternative. The current fallback column and the table below define
-those alternatives; no feature availability is assumed.
+Desktop. TRIAL-001 used Codex CLI 0.154.0 and does not validate Desktop or
+account behavior. Recheck those before a Desktop rehearsal. Every HIGH Anchor
+requires a current-state check, a rehearsed fallback, and a captured
+alternative. The current fallback column and the table below define those
+alternatives; no feature availability is assumed.
 
 ## Candidate Feasibility Matrix
 
 The feasibility rows below assess only the selected Python Synthetic Image
-Processing CLI. They are planning judgments, not implementation or product
-behavior evidence.
+Processing CLI. Most are planning judgments; the row labeled TRIAL OBSERVED
+records bounded implementation/product evidence and is not final acceptance.
 
 | Required scenario | Required | Selected direction | Difficulty / notes |
 |---|---:|---|---|
-| Repository exploration | Yes | PLAUSIBLE | Keep modules and call path small; exact structure is STEP 07 work. |
-| Initial bug | Yes | PLAUSIBLE | Candidate crop-boundary case; use a documented contract and regression check. |
+| Repository exploration | Yes | TRIAL OBSERVED (CLI) | TRIAL-001 met its bounded investigation criteria; Codex Desktop/account behavior and rehearsal remain unvalidated. |
+| Initial bug | Yes | TRIAL OBSERVED (CLI) | TRIAL-002's crop fix passed revalidation and is recorded at `STATE-00-FIXED`; target Desktop rehearsal remains unvalidated. |
 | Prompt constraints | Yes | PLAUSIBLE | Product code should not need special setup. |
 | AGENTS.md / Project instructions | Yes | CONDITIONAL | Current instruction discovery depends on product surface/account; verify under OQ-005. |
 | Context growth | Yes | PLAUSIBLE | Use a transparent state/diff; do not stage deterministic model failure. |
@@ -255,6 +262,315 @@ matches its specification before these checks. If results differ from the
 Story expectation, diagnose the difference before deciding whether to revise
 the Demo or its Story relationship.
 
+### TRIAL-001 — Read-only repository exploration
+
+**Date:** 2026-09-28 (Asia/Seoul).
+
+**Question:** Can Codex find the failing Test, relevant implementation, and
+call path without the Prompt naming files or the defect?
+
+**Repository:** `ai-dev-training-demo`, commit
+`22e7e2f806de2419b0df649107bbae14dea082eb`, tag `STATE-00`; clean working
+tree at start and after the Trial.
+**Interface / Product:** isolated non-interactive Codex CLI, version
+`0.154.0`, launched with `--ephemeral --sandbox read-only --ignore-user-config`.
+OS: macOS; OS version not captured. Model: not exposed in the run record.
+Network: Codex service interaction was used; no repository remote or external
+research was used. Permission: read-only sandbox; no approval prompt occurred.
+
+**Prompt:**
+
+> 현재 이 저장소에서 테스트 하나가 실패하고 있다. 실패 원인을 조사해줘.
+> 관련 구현과 호출 경로, 실패하는 테스트를 확인해서 왜 실패하는지
+> 설명해줘. 아직 코드는 수정하지 마.
+
+**Result:** PASS for this bounded CLI investigation. Codex found
+`tests/test_transform.py::test_crop_excludes_end_coordinate`, inspected the
+contract and implementation, reproduced the extra-column result, and traced
+`cli.main()` → `pipeline.process_image()` → `transform.crop()`. It explained
+that `[x_start, x_end)` excludes the end coordinate while the implementation
+uses `row[x_start : x_end + 1]`. It did not modify code and distinguished the
+observed behavior from an edge case where slicing at the image width masks the
+extra endpoint.
+
+**Files and commands observed:** The run discovered the test and source tree,
+then inspected `src/graypipe/transform.py`, `pipeline.py`, `cli.py`,
+`loader.py`, `statistics.py`, `tests/test_transform.py`,
+`tests/test_pipeline.py`, `setup.cfg`, `pyproject.toml`, and `README.md`.
+The full command reported 7 passing tests, the expected crop failure, and 3
+errors because the read-only sandbox could not create temporary directories.
+The focused command reported 2 passing tests and the expected crop failure.
+The repository working tree remained clean. **Classification of the three
+errors:** DEMO ENVIRONMENT FAILURE / LIMITATION; read-only permissions blocked
+temporary-directory creation. They are not Product, Demo Repository, or crop
+bugs, and are not evidence for repository exploration or the crop defect.
+They remain a possible Environment / Permission Meta Observation and are not
+added to the current Story.
+
+```sh
+PYTHONPATH=src .venv/bin/python -m unittest discover -s tests -v
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src .venv/bin/python -m unittest \
+  discover -s tests -p test_transform.py -v
+```
+
+**Time:** about 32 seconds from CLI launch to final response; not a separate
+user-perceived latency measurement. **Useful moments:** independent file
+discovery, a concise expected-versus-actual comparison, call-path tracing,
+and compliance with the no-edit instruction. **Waiting/friction:** the full
+suite's three environment errors and Xcode/temp-directory warnings were
+unrelated to the crop behavior. **Variance risk:** MEDIUM; one run is not a
+repeatability sample.
+
+**Do Not Claim:** this single run does not establish repeatability, Codex
+Desktop behavior, the user's Desktop account or permissions, overall Anchor
+delivery quality, or model identity. Codex Desktop and the prepared fallback
+still need a rehearsal. **Anchor assessment:** NEEDS RETRIAL in the selected
+Codex Desktop environment; `DEMO-01` remains a candidate for final acceptance.
+**Next-state readiness:** READY FOR BUG-FIX VALIDATION. The Trial itself made
+no code or state change; proceed only when the next user instruction arrives.
+
+### TRIAL-002 — Prompt-structured crop bug correction
+
+**Date:** 2026-09-28 (Asia/Seoul).
+
+**Question:** After repository investigation, can a task Prompt with explicit
+Goal, Constraints, Process, and Verification produce a scoped, verified code
+change?
+
+**Baseline and isolation:** `STATE-00`, commit
+`22e7e2f806de2419b0df649107bbae14dea082eb`. The run used a detached worktree
+at `/Users/noah/workspace/education/ai-dev-training-demo-trial-002`; the
+original `main` and `STATE-00` tag remained at the baseline commit.
+
+**Interface / Product:** isolated non-interactive Codex CLI `0.154.0`, launched
+with `--ephemeral --sandbox workspace-write --ignore-user-config`. OS: macOS;
+OS version not captured. Model: not exposed in the run record. Network:
+Codex service interaction was used; no repository remote or external research
+was used. Permission: writable sandbox for the isolated worktree; no approval
+prompt occurred. `TMPDIR` was set to a worktree-local temporary directory so
+tests could create their local outputs.
+
+**Prompt used:**
+
+```text
+Goal: Investigate and fix the failing crop-boundary test in this repository.
+Constraints: preserve the public crop contract [x_start, x_end); do not change
+unrelated APIs; add no dependencies; keep the change minimal.
+Process: first reproduce the current failure; inspect the related
+implementation and call path; before editing, send a concise user-visible
+change plan and then continue without waiting for approval; make only the
+necessary code change.
+Verification: run the focused crop test and the full test suite; run a CLI
+smoke test using the existing synthetic input if practical; inspect the final
+diff; report changed files and exact verification evidence.
+Do not reveal or assume a particular code expression in advance. Do not
+modify the STATE-00 tag, create a STATE-00-FIXED commit or tag, add project
+guidance or other Harness files, or modify anything outside this isolated
+worktree. Leave the reviewed change uncommitted for the state-recording
+decision.
+```
+
+**Investigation and visible plan checkpoint:** the Agent independently found
+and reproduced the failing crop test, checked the CLI-to-pipeline-to-crop
+call path, then stated before editing that it would change only the crop
+slice's ending boundary to preserve `[x_start, x_end)` and keep existing Tests
+and APIs. This was visible in the CLI event stream before the file-change
+event.
+
+**Implementation:** one tracked file changed:
+`src/graypipe/transform.py`. The row slice now ends at `x_end`, removing the
+extra endpoint pixel. No API, dependency, project guidance, or other file
+changed. The trial diff is one insertion/one deletion; it remains uncommitted
+in the isolated worktree.
+
+**Verification:** the focused Test passed 3/3. The full suite passed 11/11;
+setting `TMPDIR` inside the writable worktree avoided TRIAL-001's temporary
+directory errors. The CLI smoke test on `data/sample.pgm` with `--crop 1 3`
+exited 0, reported width 2 and height 3, and its output pixels were read back
+and checked as `((51, 102), (255, 153), (51, 204))`. `git diff --check`
+passed. The final diff contained exactly one file and one line change. The
+temporary CLI output and trial temp directory were removed after verification.
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m unittest \
+  discover -s tests -p test_transform.py -v
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src TMPDIR="$PWD/.trial-tmp" \
+  python3 -m unittest discover -s tests -v
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m graypipe.cli \
+  --input data/sample.pgm --output .trial-tmp/crop-smoke.pgm --crop 1 3
+```
+
+**Constraints:** PASS. The public half-open contract is preserved, the diff
+is limited to its implementation, no dependency was added, and only the
+isolated Trial worktree changed. **Result:** PASS for this one Codex CLI run.
+**Time:** about 60 seconds from CLI launch to final response; not a separate
+user-perceived latency measurement. **Variance risk:** MEDIUM; there is one
+write-capable run and no repeated or cross-model trial.
+
+**Prompt Engineering evidence:** this run showed the Agent following the
+explicit Goal / Constraints / Process / Verification request: reproduce first,
+inspect the cause, expose a short plan before editing, limit the diff, run
+focused and full checks, and inspect the output. It does not establish that
+this Prompt structure is superior across tasks or models.
+
+**Unexpected / environment findings:** the writable sandbox with a
+worktree-local `TMPDIR` completed the full suite without the three errors
+from TRIAL-001. Those prior errors remain classified as an environment
+limitation, not a crop or repository bug. The CLI also loaded user-level
+`readchk` / `sip` checks; its attempted cold-read handoff logged a transcript
+resolution warning and returned no independent verdict. A separate
+content-only cold read found the crop function consistent with its half-open
+docstring and noted unrelated questions about resize sampling and module
+scope; those are outside this Trial and no code was changed for them.
+
+**At Trial close:** `STATE-00-FIXED` was the proposed next state; this was one
+behavior-only correction and needed no intermediate state. The original
+baseline remained intact, and no fixed-state commit or tag had yet been
+created. **ACT 1 Demo assessment:** NEEDS RETRIAL in the selected Codex
+Desktop environment; this CLI result may support a capture but does not
+validate Desktop, screen readability, or a prepared fallback. **Next
+readiness at Trial close:** READY TO RECORD FIX STATE.
+
+### STATE-00-FIXED — Verified Repository State
+
+**Purpose:** Preserve the crop-boundary correction as the next state in the
+training-designed Project history, separate from the STATE-00 baseline and
+before any project instructions or Harness additions.
+
+**Baseline:** STATE-00 commit and tag remain
+`22e7e2f806de2419b0df649107bbae14dea082eb`. Before changing the original
+repository, the focused Test reproduced the expected failure: actual
+`((2, 3, 4), (6, 7, 8))`, expected `((2, 3), (6, 7))`.
+
+**Change:** one line in `src/graypipe/transform.py` now uses the exclusive
+`x_end` slice boundary. No other file, public API, dependency, or project
+instruction changed.
+
+**Verification environment:** macOS 26.6.2 / arm64; Python 3.9.6.
+
+| Check | Result |
+|---|---|
+| Focused crop test (`test_transform.py`) | PASS, 3/3 |
+| Full test suite | PASS, 11/11 |
+| CLI smoke on `data/sample.pgm`, crop `1 3` | PASS; exit 0, 2×3 image, 6 pixels, mean 136.0, min 51, max 255 |
+| Decoded output pixels | PASS; `((51, 102), (255, 153), (51, 204))` |
+| `git diff --check` | PASS |
+| Fresh detached checkout of the state tag, full test suite | PASS, 11/11; worktree clean after verification |
+
+**Git record:** commit `6dab644ea53e899e6d65b70bc4383bd2901ded89`, subject
+`fix(graypipe): exclude crop end coordinate`; lightweight tag
+`STATE-00-FIXED` points to that commit. The original `STATE-00` tag still
+points to its baseline commit. The Demo repository has no remote configured;
+this commit and tag are local and were not pushed.
+
+**Boundary:** this records one successful Codex CLI fix. It does not validate
+Codex Desktop, the training account, repeated runs, other models or operating
+systems, or final ACT 1 acceptance.
+
+### STATE-01 — Repeated Project Context and First-Success Plan
+
+#### Repeated Project Context Candidates
+
+The implemented repository supplies these verified facts that can be useful
+across more than one task:
+
+- Test command: `PYTHONPATH=src python3 -m unittest discover -s tests -v`;
+- local CLI smoke command and the synthetic `data/sample.pgm` fixture;
+- no runtime dependencies; build tools are separately prepared for packaging;
+- the local P2 data/output model and current CLI/statistics contracts;
+- keep changes task-scoped and preserve existing public behavior unless the
+  task explicitly changes it.
+
+The first four items are documented in the Demo README, CLI, tests, and
+package metadata. The final constraint is a proposed project rule grounded in
+the selected local-only, synthetic-data design and current API. It is not an
+observed model failure.
+
+#### Repeated Prompt Scenario
+
+| Task | Evidence status | Task-specific information | Project-persistent information repeated in the Prompt |
+|---|---|---|---|
+| A. Fix the half-open crop boundary | Actual TRIAL-002 Prompt and change | Reproduce the failing crop assertion, inspect its call path, exclude `x_end`, and report the result. | Preserve existing API, add no dependency, keep scope small, run project tests, and smoke-test with local synthetic data. |
+| B. Refactor `graypipe.statistics.image_statistics` for readability while preserving its current output | Illustrative Prompt comparison only; not run and not evidence of an observed need | Keep the six current fields and values unchanged; inspect before editing; use the focused statistics test and relevant integration check. | Use the project's `unittest` command, local synthetic fixture/CLI when output integration is relevant, no unjustified runtime dependency, and scoped edits. |
+
+Task B is a candidate teaching task, not a reported bug or production need.
+Confirm its value and scope before using it; do not imply that a failure or
+repeated real-world Prompt was observed. The task-specific goal and expected
+behavior stay in each Prompt. Stable repository facts are the potential
+instruction-file content.
+
+#### Trial Necessity
+
+Use the actual TRIAL-002 run for Task A and a captured/visual Task B Prompt
+comparison. A second live Agent run is not required to show which Project
+facts would be repeated; this Demo is not testing relative Agent performance.
+Do not claim that repetition was observed across two completed runs.
+
+#### Proposed STATE-01 `AGENTS.md` Shape
+
+Do not create this file in the current state. Keep the first version small:
+
+```markdown
+# Project
+Local grayscale image-processing CLI using synthetic ASCII PGM data.
+
+# Build / Run
+Use the prepared build and CLI commands documented in `README.md`.
+
+# Test
+`PYTHONPATH=src python3 -m unittest discover -s tests -v`
+Run a focused test when the task is narrow.
+
+# Core Constraints
+- Keep input and output data local and synthetic.
+- Preserve existing public behavior unless the task explicitly changes it.
+- Add a runtime dependency only when the task justifies it.
+- Keep changes scoped; verify changed behavior with relevant tests.
+```
+
+The exact text remains subject to STATE-01 implementation against the then
+current repository. It does not add benchmark, release, troubleshooting,
+architecture, Memory, or Skill guidance.
+
+#### First-Success Criteria
+
+STATE-01 succeeds only when all of the following are observed:
+
+1. `AGENTS.md` contains accurate facts for this repository only.
+2. The file is short and understandable.
+3. A task Prompt can omit some repeated Project context.
+4. In a real task, Codex discovers or uses the project instructions.
+5. At least one instruction is visible in actual behavior: a Build/Test
+   choice or an applicable project constraint.
+6. Task-specific goals, acceptance details, and constraints remain in the
+   Prompt.
+7. `AGENTS.md` does not attempt to contain all Project knowledge.
+
+Use Task B only if its scope is confirmed as useful. Compare the Prompt that
+repeats project setup with a shorter task-specific Prompt, then inspect the
+actual loaded instructions, relevant test command, output, and diff. This is a
+bounded first-success check, not proof of general performance improvement.
+
+#### Research / Product Check
+
+Current OpenAI documentation supports `AGENTS.md` as Codex instructions and
+documents global, repository, and nested discovery. At run start, Codex
+constructs an instruction chain from the global Codex home through the Git
+root to the current working directory, selecting at most one instruction file
+per directory and combining them root-to-working-directory. The documented
+default combined size limit is 32 KiB. This supports a concise root-level
+Demo instruction file; it does not guarantee availability or behavior in the
+selected Desktop account. The target Desktop path still requires a Trial.
+See `SRC-0110`; checked 2026-09-28.
+
+#### Next Readiness
+
+**READY TO IMPLEMENT STATE-01.** The crop fix is recorded as a separate
+state, repeated-context facts and a bounded first-success gate are defined,
+and the current official product scope is checked. This step has not created
+`AGENTS.md`, started STATE-01, or claimed instruction discovery in Codex
+Desktop. Wait for the next user instruction before implementation.
+
 Following STEP 07, every Demo receives one final acceptance status:
 
 | Final status | Acceptance meaning |
@@ -266,9 +582,10 @@ Following STEP 07, every Demo receives one final acceptance status:
 | VISUAL ONLY | A reviewed visual communicates the point more clearly than execution. |
 | REJECTED | Trial or review found insufficient teaching value or reproducibility; record the reason. |
 
-Until STEP 07 evidence exists, Matrix status remains CANDIDATE (or BLOCKED
-where a dependency prevents a Trial). These final labels must not be applied
-based on design alone.
+Until the evidence required for final STEP 07 acceptance is complete, Matrix
+status remains CANDIDATE (or BLOCKED where a dependency prevents a Trial).
+A single Trial record is not sufficient for final acceptance; these labels
+must not be applied based on design or one bounded run alone.
 
 ## Story-to-Demo Coverage Audit
 
@@ -307,17 +624,18 @@ that continuity natural, record evidence and follow DEC-0011 change control.
 | License / external usage | RESOLVED FOR CURRENT DATA SCOPE | Synthetic local data requires no external code/data permission; choose a license before sharing the repository. |
 | Primary OS and delivery direction | RESOLVED FOR PLANNING | macOS + current Codex Desktop; OS-independent design; Anchor HYBRID. Account/product behavior remains under OQ-005. |
 | Live/Recorded/Captured/Visual mix | PARTIALLY RESOLVED | Anchor HYBRID is accepted; supporting roles remain flexible. Validate current feature availability and fallback. |
-| Build, Test, Benchmark | PARTIALLY RESOLVED | Purpose and evidence controls are specified; exact commands, workload, and results await STEP 07. |
+| Build, Test, Benchmark | PARTIALLY RESOLVED | STATE-00 build/test commands and outcomes are recorded; benchmark method and results await the performance states. |
 | Skill / Subagent / Memory | OPEN / CONDITIONAL | OQ-005/OQ-008; no mechanism assumed. |
 | Stale scenario | PARTIALLY RESOLVED | One justified Test-layout/procedure change leaves one reusable workflow stale; exact change and visible failure need STEP 07. |
 | Evaluation / Regression | PARTIALLY RESOLVED | EVAL-01–04 and a bounded negative check proposed; validate tasks in the repository. |
-| State model / reset strategy | PARTIALLY RESOLVED | State transitions and a disposable-checkout strategy are specified; actual refs, reset commands, and results await implementation. |
+| State model / reset strategy | PARTIALLY RESOLVED | STATE-00 has a commit/tag and a verified disposable reset; later state refs and reset evidence remain open. |
 | Anchor selection / delivery / fallback | PARTIALLY RESOLVED | Four roles remain proposed under DEC-0008; HYBRID mode and prepared capture/expected result/fallback are accepted requirements. |
 | Meta Example | NOT USED IN STEP 06 | OQ-013 may be revisited only if later actual history supports it. |
 
-**STEP 06 planning gate:** COMPLETE WITH OPEN QUESTIONS. STEP 07 has not
-started. Implementation, Agent trials, and product/account checks remain
-open.
+**STEP 06 planning gate:** COMPLETE WITH OPEN QUESTIONS at that step's close.
+STEP 07 has since implemented and reset-checked STATE-00 and recorded
+TRIAL-001 through Codex CLI. The selected Codex Desktop/account path, repeated
+trial, timing rehearsal, and fallback check remain STEP 07 work under OQ-005.
 
 ## Demo Architecture Quality Audit
 
@@ -325,13 +643,13 @@ open.
 |---|---|---|
 | Every Demo has a Story question and Beat. | PASS as proposal | Candidate matrix references Story Beats. |
 | The design is not a feature showcase. | PASS | Product mechanisms are conditional and Story-led. |
-| One Project evolves through the Anchors. | PASS as proposal | Candidate continuity is explicit; candidate not built. |
+| One Project evolves through the Anchors. | PARTIAL | STATE-00 establishes the initial repository; later Story states and connected Agent Demo trials are not built or validated yet. |
 | Domain explanation is small and the screen is readable. | NEEDS STEP 07 VALIDATION | Keep operations elementary; cold-read and projector review remain. |
-| Build/Test and a meaningful benchmark exist. | PARTIAL | Purpose and evidence controls are specified; implementation and benchmark trial are pending. |
+| Build/Test and a meaningful benchmark exist. | PARTIAL | STATE-00 build and test commands/results are recorded; the benchmark method and measured comparison remain unvalidated. |
 | Stale cause, evaluation, and regression are inspectable. | PASS as controlled design | Exact workflow artifact and commands remain TBD. |
-| State, input, output, and fallback are reproducible. | PARTIAL | State strategy proposed; commit IDs, commands, and actual environment evidence remain for implementation. |
-| Product capability claims match the selected environment. | NEEDS CHECK | Recheck current account/surface behavior under OQ-005. |
-| Failures and successes are fairly represented. | PASS as constraints | No observed result is claimed. |
+| State, input, output, and fallback are reproducible. | PARTIAL | STATE-00 has a recorded commit/tag, fixture hash, runtime, and verified disposable reset; later states and Demo fallbacks remain unvalidated. |
+| Product capability claims match the selected environment. | PARTIAL | TRIAL-001 records one Codex CLI observation; Codex Desktop/account behavior remains under OQ-005. |
+| Failures and successes are fairly represented. | PASS | TRIAL-001 is bounded to one CLI run and labels its environment limits. |
 
 ## References
 
