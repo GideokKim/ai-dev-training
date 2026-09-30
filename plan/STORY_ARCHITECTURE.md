@@ -988,3 +988,67 @@ the applicable STRUCTURAL and HARD Invariants listed in the beats and in
 baseline for STEP 06. OQ-001–OQ-014 remain governed by `DECISIONS.md`; open
 Demo feasibility and evidence questions do not require altering the Story
 before Demo Architecture begins.
+
+## STEP 07 — Subagent and Memory Evidence Reconciliation
+
+**Checked:** 2026-09-30, after the STATE-04 and Trial-history review.
+
+Keep the Conceptual Curriculum Story and the Primary Demo repository as
+separate evidence layers:
+
+| Layer | Current treatment |
+|---|---|
+| Conceptual Curriculum Story | ACT 3 may explain that sufficiently complex work can create role/Context separation needs and that repeated, costly rediscovery can motivate retained knowledge. Subagents and Memory remain conditional engineering responses, not required maturity steps. |
+| Primary Demo repository at STATE-04 | The observed project is small. Candidate tasks A/B/C fit one Agent, so no Subagent is implemented or used. Trial history contains no qualifying, costly rediscovery of a Project fact that is missing from current Sources of Truth. No Memory artifact or product Memory mechanism is selected. |
+
+`DEC-0018` records the accepted Subagent decision. `DEMO-07` is
+**DEFERRED — NOT JUSTIFIED AT STATE-04**: it has no primary or supporting
+Live path. If a future project/task case makes the concept useful, show it as
+a visual or captured external/conceptual case. A useful teaching moment may
+be: “여기서 많은 팀이 Subagent를 떠올립니다. 하지만 이 Project에서는
+아직 필요하지 않았습니다.” This statement describes the current Demo
+evidence and must not be generalized to all projects.
+
+Memory is **NOT JUSTIFIED YET** for the primary repository. Keep the ACT 3
+Memory distinction and lifecycle as conceptual/visual teaching material only;
+do not imply that the Trial history demonstrated a repository Memory need or
+that a product Memory facility was used. Reassess only after actual repeated
+rediscovery meets the project-specific reuse, cost, source-availability,
+provenance, scope, and freshness conditions in `plan/DEMO_MATRIX.md`.
+
+This evidence update clarifies the Demo fit; it does not remove the
+conditional Curriculum concepts or change the six-hour structure,
+`MASTER_PLAN.md`, or an Invariant. The next primary Demo problem remains the
+planned Project Evolution leading to a stale performance Skill, after the
+STATE-04-PERF transition is completed and validated. No project change,
+Subagent state, Memory artifact, stale Harness, or Loop was created by this
+update.
+
+## STEP 07 — STATE-04-PERF Working Harness Success
+
+**Checked:** 2026-09-30, after the `image_statistics` change was re-investigated
+from STATE-04 and verified in the formal Demo repository.
+
+Preserve the bounded success beat before the next Engineering Problem:
+
+> “여기까지는 잘 동작합니다.”
+
+The Developer supplied a task-specific Goal; the Project supplied maintained
+Context; routing identified detailed Context; the repository-owned Skill
+supplied the repeatable performance procedure; and the benchmark plus Tests
+provided correctness and before/after evidence. The current Demo's
+`image_statistics` change passed focused and full tests, both benchmark
+correctness guards, the CLI smoke, and final diff review. This is evidence
+that the Harness supported this bounded task, not proof that one component
+alone caused the improvement or that every task needs the same components.
+
+No Subagent or Memory was required for this connected, source-local task.
+Keep their absence distinct from the conceptual Curriculum cases for
+sufficiently complex parallel work or costly cross-task rediscovery. Do not
+describe the working STATE-04 Harness as incomplete.
+
+Only after recognizing this success does the next primary Demo problem begin:
+investigate a real Project Evolution that could make the previously correct
+performance Skill stale. That change, stale Skill, Harness failure, Loop, and
+STATE-05 remain unimplemented pending the next instruction. This update does
+not change the six-hour course, `MASTER_PLAN.md`, or an Invariant.

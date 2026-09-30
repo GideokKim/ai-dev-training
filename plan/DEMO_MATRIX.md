@@ -1,8 +1,8 @@
 # Demo Matrix
 
-> Status: **STATE-00 and STATE-00-FIXED recorded and verified locally; TRIAL-001/002 observed via Codex CLI; STATE-01 planning complete; Codex Desktop Anchor rehearsal remains pending**
+> Status: **STATE-00 through STATE-04-PERF tagged locally; STATE-04 remains at `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`; STATE-04-PERF is `6153b81c0187dd7d82c88bd1817fb683c98eb431`; statistics change and required checks passed; TRIAL-008 PASS on Codex CLI 0.154.0; no remote push and no Demo remote; DEC-0018 defers Subagents and DEMO-07; Memory is not justified yet; Final Anchor and Desktop rehearsal pending**
 >
-> Date: 2026-09-28
+> Date: 2026-09-30
 
 This matrix maps candidate Demos to Story Beats and the existing Curriculum
 Demo allocation. The rows are candidates; their presence does not mean the
@@ -11,9 +11,14 @@ language/domain/strategy are selected in DEC-0011;
 its local sibling path is selected in DEC-0012. STATE-00 was implemented and
 reset-checked; its half-open crop correction is now recorded as
 `STATE-00-FIXED` after rerunning the required checks in the original repository.
-TRIAL-001 and TRIAL-002 remain bounded Codex CLI observations;
-Codex Desktop/account behavior and Live-path readiness remain subject to
-OQ-005.
+TRIAL-001, TRIAL-002, TRIAL-003, and TRIAL-004 are bounded Codex CLI
+observations.
+STATE-01 is recorded at commit `14baf81746a981d7cd96b7a014ea06f28c3dd6b4`
+and tag `STATE-01`. STATE-02 is recorded at commit
+`55c045523ed1409449d7eea5b0d873983fe101b6` and tag `STATE-02`; no remote
+push was performed, as instructed. Final presentation-interface/account
+behavior and Live-path readiness remain subject to OQ-003/OQ-005 and Final
+Demo Rehearsal.
 
 ## Feasibility Rating Key
 
@@ -39,13 +44,15 @@ not establish product support or successful Agent behavior.
 - **HIGH:** a Live or Recorded product interaction depends materially on the
   selected surface, account, permission, feature availability, or interface.
 
-Ratings are STEP 06 planning estimates, not current capability claims. The
-selected implementation environment is macOS with the currently used Codex
-Desktop. TRIAL-001 used Codex CLI 0.154.0 and does not validate Desktop or
-account behavior. Recheck those before a Desktop rehearsal. Every HIGH Anchor
-requires a current-state check, a rehearsed fallback, and a captured
-alternative. The current fallback column and the table below define those
-alternatives; no feature availability is assumed.
+Ratings are STEP 06 planning estimates, not current capability claims.
+DEC-0016 records macOS as the current development and partial automated-
+validation host; the learner audience is primarily Windows-based, with its
+exact environment still open under OQ-003. TRIAL-001 used Codex CLI 0.154.0
+and does not validate Desktop or account behavior. Recheck the actual
+presentation interface for the Final Anchor during Final Demo Rehearsal.
+Every HIGH Anchor requires a current-state check, a rehearsed fallback, and
+a captured alternative. The current fallback column and the table below
+define those alternatives; no feature availability is assumed.
 
 ## Candidate Feasibility Matrix
 
@@ -61,13 +68,13 @@ records bounded implementation/product evidence and is not final acceptance.
 | AGENTS.md / Project instructions | Yes | CONDITIONAL | Current instruction discovery depends on product surface/account; verify under OQ-005. |
 | Context growth | Yes | PLAUSIBLE | Use a transparent state/diff; do not stage deterministic model failure. |
 | Context routing | Yes | CONDITIONAL | Repository docs can route conceptually; Agent retrieval behavior needs environment check. |
-| Performance task | Yes | STEP 07 VALIDATION | Choose a real repeated pixel operation/allocation/normalization/transform case, not an invented result. |
-| Benchmark | Yes | STEP 07 VALIDATION | Same-machine repeatability and visible signal must be measured. |
-| Reusable workflow | Yes | CONDITIONAL | A repository procedure is fallback; product Skill depends on current support. |
-| Complex investigation | Yes | STEP 07 VALIDATION | Must remain one connected task with understandable roles. |
-| Subagent | No | CONDITIONAL | Supporting only; product surface and coordination cost matter. |
-| Durable project knowledge | Yes | PLAUSIBLE | A repository-owned, sourced image-workload fact can be shown. |
-| Product Memory / Memory staleness | No | CONDITIONAL | Distinguish product Memory from repository documentation. |
+| Performance task | Yes | IMPLEMENTED (DEC-0019) | STATE-04-PERF applies the re-investigated `image_statistics` row-reduction candidate; the original resize target in DEC-0015 is superseded for this product transition, while its resize benchmark remains an unchanged supporting check. |
+| Benchmark | Yes | BASELINE TOOL IMPLEMENTED | A deterministic standard-library tool is committed as a STATE-04 preparation commit, without a separate State tag. |
+| Reusable workflow | Yes | TRIAL-008 PASS (CLI) | Repository-owned Skill was discovered and explicitly loaded in Codex CLI 0.154.0; Desktop behavior remains unverified. |
+| Complex investigation | Yes | CANDIDATES REVIEWED | Candidates A/B/C are manageable by one Agent at STATE-04; revisit only after real task complexity changes. |
+| Subagent | No | DEFERRED — NOT JUSTIFIED AT STATE-04 | No primary or supporting Live anchor. Reconsider only if role/context separation value exceeds coordination cost for a real task. |
+| Durable project knowledge | Yes, conceptually | NOT JUSTIFIED YET IN THE PRIMARY REPOSITORY | No cross-task rediscovery candidate meets the Memory gate; use a visual or conceptual case if the distinction remains useful. |
+| Product Memory / Memory staleness | No | NOT SELECTED | Do not choose a product mechanism before a durable-knowledge need exists and target-surface behavior is verified. |
 | Working Harness | Yes | STEP 07 IMPLEMENTATION | Build the project-specific system gradually; do not assume every component. |
 | Project evolution | Yes | PLAUSIBLE | Choose one visible, justified change. |
 | Stale Harness | Yes | STEP 07 VALIDATION | Old artifact must have been correct before the Project change. |
@@ -78,9 +85,11 @@ records bounded implementation/product evidence and is not final acceptance.
 | Regression | Yes | PLAUSIBLE | Captured negative case is preferred over another Live run. |
 
 **Selection implication:** DEC-0011 resolves repository source, language,
-domain, environment, and delivery direction. Feasibility, implementation,
-and product-surface evidence remain for STEP 07; the selected direction is no
-longer a user-choice gate.
+domain, and delivery direction. DEC-0016 clarifies the environment roles:
+macOS is the current development/validation host, the learner environment is
+Windows-centric with specifics open, and the Demo remains OS-independent in
+design. Feasibility, implementation, and product-surface evidence remain for
+STEP 07; the selected direction is no longer a user-choice gate.
 
 ## Anchor Candidate Evaluation
 
@@ -97,10 +106,11 @@ Time** is the already allotted Curriculum Demo window, not measured runtime.
 | 4. Stale Harness investigation and Loop | HIGH | HIGH | HIGH | HIGH | HIGH: controlled timeline, diff, evaluation captures | 16 min across two ACT 4 slots | ANCHOR proposal |
 
 All Anchor Demos use HYBRID delivery: attempt the validated Live path and
-prepare a capture, expected result, and fallback. Anchor 3 demonstrates a
-reusable way of working; a product Skill is optional and used only after
-current support is verified. Anchor 4 is not Live-only because diagnosis is
-the teaching point and run variance remains a risk.
+prepare a capture, expected result, and fallback. Anchor 3 demonstrates the
+repository-owned reusable Skill selected by DEC-0017; verify discovery and
+loading on the selected surface before claiming that product behavior. Anchor
+4 is not Live-only because diagnosis is the teaching point and run variance
+remains a risk.
 
 ## Supporting Demo and Visual Case Evaluation
 
@@ -108,8 +118,8 @@ the teaching point and run variance remains a risk.
 |---|---|---:|---:|---|
 | Prompt Before/After | Shows Prompt value before repeated Project Context. | LOW | ACT 1's existing 8 Demo min | SUPPORTING, captured or short Live after Trial |
 | Context growth / relevance / routing | Shows why accumulating every fact is not the answer. | LOW–MEDIUM | ACT 2's existing 5 Demo min plus case/visual time | VISUAL + CAPTURED; do not force a Live failure |
-| Subagent role comparison | Makes role/context separation and coordination visible. | MEDIUM–HIGH | ACT 3's existing 5 Demo min | SUPPORTING, captured + visual unless short Live is proven stable |
-| Durable knowledge reuse | Shows why a verified Project fact may be worth retaining. | MEDIUM | ACT 3's existing 2 Demo min | SUPPORTING; prefer repository-owned fact; product Memory is conditional |
+| Subagent role comparison | Makes role/context separation and coordination visible. | MEDIUM–HIGH | ACT 3's existing 5 Demo min | DEFERRED — NOT JUSTIFIED AT STATE-04; if a future case remains useful, VISUAL or CAPTURED EXTERNAL / CONCEPTUAL; no primary or supporting Live |
+| Durable knowledge reuse | Shows why a verified Project fact may be worth retaining. | MEDIUM | ACT 3's existing 2 Demo min | No primary-repository instance yet; retain as a VISUAL or CAPTURED CONCEPTUAL CASE only if useful; product Memory remains unselected |
 | Verification / Harness reveal | Connects commands, environment, and checks after components emerge. | LOW–MEDIUM | ACT 3's existing 1 + 4 Demo min | VISUAL/captured; verification also remains inside Anchors 3 and 4 |
 | Git diff / review | Makes a scoped Harness change inspectable. | LOW | Inside Anchor 4 | EMBED in Anchor 4; not a separate Demo |
 | Regression | Shows an overbroad rule helping one task and burdening another. | LOW | Inside ACT 4's existing 4 Demo min or captured Case | CAPTURED supporting check; do not add a long Live run |
@@ -126,8 +136,8 @@ and Story relation only; it does not create diagrams or animation.
 | Visual ID | Purpose | Story Beat / ACT |
 |---|---|---|
 | VIS-01 | Show Context growth and routing as a relevance problem, not a line-count threshold. | BEAT-011–017 / ACT 2 |
-| VIS-02 | Compare one broad task with independent investigation roles and coordination cost. | BEAT-023–027 / ACT 3 |
-| VIS-03 | Show durable knowledge lifecycle and distinguish Memory sources. | BEAT-028–032, BEAT-054 / ACT 3 |
+| VIS-02 | Conceptually compare one broad task with independent investigation roles and coordination cost; do not depict this as an implementation in the primary Demo. | BEAT-023–027 / ACT 3 |
+| VIS-03 | Conceptually show the durable-knowledge lifecycle and distinguish Memory sources; no current primary-Demo Memory artifact is implied. | BEAT-028–032, BEAT-054 / ACT 3 |
 | VIS-04 | Reveal the bottom-up Harness after its elements have solved needs. | BEAT-035–036 / ACT 3 |
 | VIS-05 | Trace an observation to a cause hypothesis and the matching artifact layer. | BEAT-043–045 / ACT 4 |
 | VIS-06 | Show Harness technical debt after Project change. | BEAT-039–042 / ACT 4 |
@@ -152,8 +162,8 @@ implementation and feasibility evidence are reviewed. Story Beat references foll
 | DEMO-04B | ACT 4 | BEAT-043–049 | Is a task correction enough when the cause is reusable? | STATE-09 → STATE-11 | HYBRID | 11 min | HIGH | HIGH | HIGH | Reviewed cause trace, scoped diff, EVAL captures | CANDIDATE |
 | DEMO-05 | ACT 1 | BEAT-004–007 | Which task information makes a request actionable? | STATE-00 → STATE-00-FIXED | CAPTURED / short LIVE | 8 min | MEDIUM | LOW–MEDIUM | MEDIUM–HIGH | Side-by-side natural prompts and bounded result; failing-to-passing boundary evidence | CANDIDATE |
 | DEMO-06 | ACT 2 | BEAT-011–017 | Does every Project fact belong in core instructions? | STATE-01 → STATE-03 | VISUAL / CAPTURED | 5 min | LOW | LOW | MEDIUM–HIGH | Context map and curated diff | CANDIDATE |
-| DEMO-07 | ACT 3 | BEAT-023–027 | Must one Agent handle every investigation role? | STATE-04-PERF → STATE-05 | CAPTURED + VISUAL | 5 min | LOW | MEDIUM | MEDIUM | Role map and reviewed result snapshot | CANDIDATE |
-| DEMO-08 | ACT 3 | BEAT-028–032 | Which verified fact is worth retaining? | STATE-05 → STATE-06 | CAPTURED / short LIVE | 2 min | MEDIUM | MEDIUM | MEDIUM | Source, scope, and freshness record | CANDIDATE |
+| DEMO-07 | ACT 3 | BEAT-023–027 | Must one Agent handle every investigation role? | Future state only if actual project/task complexity crosses the role-separation gate | VISUAL or CAPTURED EXTERNAL / CONCEPTUAL | 5 min | LOW | MEDIUM | MEDIUM | Role map and reviewed conceptual case | DEFERRED — NOT JUSTIFIED AT STATE-04 |
+| DEMO-08 | ACT 3 | BEAT-028–032 | Which verified fact is worth retaining? | No primary-repository State selected; requires observed cross-task rediscovery | VISUAL / CAPTURED CONCEPTUAL | 2 min | LOW | LOW–MEDIUM | MEDIUM | Source, scope, provenance, and freshness visual | DEFERRED — NOT JUSTIFIED AT STATE-04 |
 | DEMO-09 | ACT 3 | BEAT-033–036 | What does a work system need to observe and verify? | STATE-03 → STATE-07 | VISUAL / CAPTURED | 5 min | LOW | LOW–MEDIUM | MEDIUM–HIGH | Tool-to-check map and bounded checks | CANDIDATE |
 | DEMO-10 | ACT 4 | BEAT-050–053 | Did the change improve only its target task? | STATE-10 → STATE-11 | CAPTURED / VISUAL | 2 min | LOW | LOW | HIGH | EVAL-02 vs EVAL-04 captured comparison | CANDIDATE |
 | DEMO-11 | ACT 4 | BEAT-054–057 | Could a smaller change fix the actual friction? | STATE-10 → STATE-11 | CAPTURED / VISUAL | 2 min | LOW | LOW | MEDIUM–HIGH | Small diff and explicit trade-off | CANDIDATE |
@@ -169,13 +179,13 @@ projects.
 |---|---|---|---|
 | DEMO-01 | HIGH | Current Codex Desktop/account behavior, repository access, and observable read-only investigation still need checking. | Recheck official product guidance and target account/surface before Trial; use the captured search/read/trace. |
 | DEMO-02 | HIGH | Agent use of repository project instructions depends on current behavior and setup. | Recheck current instruction behavior before Trial; use the before/after instruction files and reviewed trace. |
-| DEMO-03 | MEDIUM | The reusable repository procedure is the core; a product Skill is optional and conditional. | Recheck Skill availability only if used; use the reviewed procedure, checks, and benchmark capture. |
+| DEMO-03 | MEDIUM–HIGH | TRIAL-008 observed repository Skill discovery and load evidence on Codex CLI 0.154.0; Desktop behavior is unverified. | Use the reviewed Skill, checks, and benchmark capture; keep any claim scoped to the observed CLI run. |
 | DEMO-04A | HIGH | Current product interaction and permissions to inspect the Project change are not verified. | Recheck the target surface before Trial; use the current-doc versus stale-workflow capture. |
 | DEMO-04B | HIGH | Agent investigation and execution permissions may affect the Live path. | Recheck current surface, account, and permissions; use the captured cause trace, scoped diff, and evaluation outputs. |
 | DEMO-05 | LOW | The case compares task specifications and captured outcomes; it requires no named product feature. | Check the selected environment during Trial; use the side-by-side prompt and bounded result capture. |
 | DEMO-06 | LOW | Repository Context map and curated diff can be shown without a product-specific interaction. | Use the prepared visual and diff capture. |
-| DEMO-07 | HIGH | A Live Subagent illustration depends on current product support; it remains supporting and may be omitted. | Recheck before Live use; otherwise use the role map and reviewed result snapshot. |
-| DEMO-08 | MEDIUM | Repository-owned knowledge is the default; product Memory is optional. | Recheck product Memory only if selected; use the sourced, dated fact and its later-task refresh/retirement capture. |
+| DEMO-07 | LOW for a visual; HIGH for any future product interaction | No primary or supporting Live path is selected. A future role-separation case must first pass the repository/task complexity gate. | Keep deferred. If later justified, use a visual or captured external/conceptual case unless a new Trial validates a product surface. |
+| DEMO-08 | LOW for a conceptual visual; HIGH for any product mechanism | No project-specific fact currently justifies retention; product Memory is not selected. | Keep deferred in the primary repository. Reassess only after repeated, costly rediscovery of a sourced fact that is not readily available in maintained docs or code. |
 | DEMO-09 | LOW | The planned tool/check relationship is visual or captured; no specific integration is required. | Use the tool-to-check map and bounded check captures. |
 | DEMO-10 | LOW | The evaluation comparison is based on captured task evidence. | Use the recorded EVAL-02/EVAL-04 comparison. |
 | DEMO-11 | LOW | The trade-off is shown through a small captured change and explicit reasoning. | Use the reviewed diff and trade-off capture. |
@@ -490,25 +500,31 @@ observed model failure.
 
 | Task | Evidence status | Task-specific information | Project-persistent information repeated in the Prompt |
 |---|---|---|---|
-| A. Fix the half-open crop boundary | Actual TRIAL-002 Prompt and change | Reproduce the failing crop assertion, inspect its call path, exclude `x_end`, and report the result. | Preserve existing API, add no dependency, keep scope small, run project tests, and smoke-test with local synthetic data. |
-| B. Refactor `graypipe.statistics.image_statistics` for readability while preserving its current output | Illustrative Prompt comparison only; not run and not evidence of an observed need | Keep the six current fields and values unchanged; inspect before editing; use the focused statistics test and relevant integration check. | Use the project's `unittest` command, local synthetic fixture/CLI when output integration is relevant, no unjustified runtime dependency, and scoped edits. |
+| A. Fix the half-open crop boundary | Actual TRIAL-002 Prompt and change; already fixed in the STATE-00-FIXED starting state | Reproduce the failing crop assertion, inspect its call path, exclude `x_end`, and report the result. | Preserve existing API, add no dependency, keep scope small, run project tests, and smoke-test with local synthetic data. |
+| B. Refactor `graypipe.statistics.image_statistics` for readability | Rejected for TRIAL-003; repository inspection found no concrete readability defect or need | Preserve the six current output fields and values. | Use the project's `unittest` command and keep any edit scoped. |
+| C. Avoid the temporary flattened pixel list in `image_statistics` | Considered, not selected; the code creates an O(n) temporary list, but no measured workload or demonstrated performance need was found, and this would move into the later Performance Story | Preserve all six statistic values while evaluating a possible single-pass implementation. | Use relevant tests, avoid an unjustified dependency, and keep changes scoped. |
+| D. Clarify historical versus current crop-test status in `README.md` | Selected; run as TRIAL-003 in an isolated STATE-01 candidate worktree | Preserve the historical STATE-00 failure and accurately describe the current checked-out state. | Use the documented project test command and keep the diff scoped. |
 
-Task B is a candidate teaching task, not a reported bug or production need.
-Confirm its value and scope before using it; do not imply that a failure or
-repeated real-world Prompt was observed. The task-specific goal and expected
-behavior stay in each Prompt. Stable repository facts are the potential
-instruction-file content.
+Task B was not used: a readability-only refactor would invent a need. Task C
+is a source-grounded potential memory improvement, but its performance value
+has not been measured and it belongs with the later Performance Story. Task D
+was selected because the two Git states and crop-test outcomes are directly
+inspectable, the README currently describes the predecessor's failure without
+stating the current checkout's result, and the task is a small documentation
+change. The task-specific goal and expected behavior stay in the Prompt;
+stable repository facts are the potential instruction-file content.
 
 #### Trial Necessity
 
-Use the actual TRIAL-002 run for Task A and a captured/visual Task B Prompt
-comparison. A second live Agent run is not required to show which Project
-facts would be repeated; this Demo is not testing relative Agent performance.
-Do not claim that repetition was observed across two completed runs.
+TRIAL-002 remains the observed crop-fix example for Task A. TRIAL-003 was
+needed to check whether the newly added project instructions were discovered
+and used; it is not a performance comparison with TRIAL-002. The two runs used
+different tasks and do not establish repeated behavior across tasks, relative
+Agent performance, or a general improvement.
 
-#### Proposed STATE-01 `AGENTS.md` Shape
+#### STATE-01 Candidate `AGENTS.md` Shape
 
-Do not create this file in the current state. Keep the first version small:
+Keep the first version small and limited to stable project context:
 
 ```markdown
 # Project
@@ -519,37 +535,577 @@ Use the prepared build and CLI commands documented in `README.md`.
 
 # Test
 `PYTHONPATH=src python3 -m unittest discover -s tests -v`
-Run a focused test when the task is narrow.
+For a narrow change, run the relevant focused test and choose broader checks as needed.
 
 # Core Constraints
-- Keep input and output data local and synthetic.
-- Preserve existing public behavior unless the task explicitly changes it.
+- Preserve existing CLI and image-operation behavior unless the task changes it.
 - Add a runtime dependency only when the task justifies it.
-- Keep changes scoped; verify changed behavior with relevant tests.
+- Keep changes scoped and verify relevant behavior.
 ```
 
-The exact text remains subject to STATE-01 implementation against the then
-current repository. It does not add benchmark, release, troubleshooting,
-architecture, Memory, or Skill guidance.
+The Demo repository now contains this 15-line, 567-byte candidate at its root.
+It also keeps input and output local under Build / Run. It was checked against
+the current README, package metadata, CLI, and tests. It adds no benchmark,
+release, troubleshooting, architecture, Memory, Skill, Subagent, Loop, or
+future-state guidance. The candidate remains uncommitted and untagged.
 
 #### First-Success Criteria
 
-STATE-01 succeeds only when all of the following are observed:
+STATE-01 first-success criteria and TRIAL-003 evidence:
 
-1. `AGENTS.md` contains accurate facts for this repository only.
-2. The file is short and understandable.
-3. A task Prompt can omit some repeated Project context.
-4. In a real task, Codex discovers or uses the project instructions.
-5. At least one instruction is visible in actual behavior: a Build/Test
-   choice or an applicable project constraint.
-6. Task-specific goals, acceptance details, and constraints remain in the
-   Prompt.
-7. `AGENTS.md` does not attempt to contain all Project knowledge.
+1. **PASS:** `AGENTS.md` contains repository-specific facts checked against
+   the current files.
+2. **PASS:** the candidate is 15 lines / 567 bytes.
+3. **PASS:** the Trial Prompt omitted the project test command and other
+   persistent setup context.
+4. **OBSERVED, bounded:** the Codex CLI task inspected `AGENTS.md`; the CLI
+   did not expose a machine-readable instruction-chain trace.
+5. **PASS:** without the command in the Prompt, the Agent ran the documented
+   full test command; 11/11 passed. It changed only `README.md` in the Trial
+   worktree. The Prompt also constrained the file scope, so do not attribute
+   that scope by itself to `AGENTS.md`.
+6. **PASS:** the Prompt retained the documentation goal, historical/current
+   distinction, and documentation-only scope.
+7. **PASS:** the candidate does not prescribe future workflows or contain
+   general Project documentation.
 
-Use Task B only if its scope is confirmed as useful. Compare the Prompt that
-repeats project setup with a shorter task-specific Prompt, then inspect the
-actual loaded instructions, relevant test command, output, and diff. This is a
-bounded first-success check, not proof of general performance improvement.
+This is a bounded first-success check, not proof of general performance,
+accuracy, or improvement.
+
+#### TRIAL-003 — AGENTS.md First Success
+
+**Date:** 2026-09-28 (Asia/Seoul).
+
+**Question:** Can a task-focused Prompt omit recurring project setup while
+Codex uses concise repository instructions for a small, justified task?
+
+**Task selection:** Task A was already completed in STATE-00-FIXED and was
+not a new task. The proposed readability refactor had no evidenced need. A
+possible statistics-memory optimization was visible in code but unmeasured
+and belongs with the later Performance Story. Task D was selected because
+the checked-out crop behavior and historical failing baseline can be verified
+from Git and the test suite, and the README has no current-state result.
+
+**Baseline and isolation:** starting commit
+`6dab644ea53e899e6d65b70bc4383bd2901ded89`, tag `STATE-00-FIXED`, in detached
+worktree `/Users/noah/workspace/education/ai-dev-training-demo-trial-003`.
+The candidate `AGENTS.md` was copied into the isolated worktree. The parent
+Demo worktree and its product code were not used for Trial edits.
+
+**Interface / Product:** Codex CLI `0.154.0`, launched with
+`--ephemeral --sandbox workspace-write --ignore-user-config --json`. OS and
+model identity were not exposed in the run record. The CLI event stream did
+not provide a structured active-instruction-chain dump. Its task inspected
+and printed the root `AGENTS.md`; it then ran the exact project test command
+without that command appearing in the task Prompt. Personal `readchk`, `re0`,
+and `sip` skills also ran in this CLI environment, so this Trial does not
+isolate `AGENTS.md` as the only context source.
+
+**Prompt used:**
+
+```text
+README's Test section documents an intentionally failing crop-boundary baseline. Review the current repository state and the supporting files, then revise that section so future readers can distinguish the historical STATE-00 baseline from the state checked out here. Preserve the historical fact and make no claim unsupported by the repository.
+
+Task constraints: change README.md only. This is a documentation update; do not change runtime code, tests, dependencies, or Git history. Do not commit or tag.
+
+Expected result: a concise Test section that accurately describes both the historical baseline and the current checkout, plus the final diff and relevant verification evidence.
+```
+
+**Investigation:** Codex inspected `AGENTS.md`, `README.md`, the source and
+test tree, Git tags, and the previous crop implementation. It confirmed HEAD
+matched `STATE-00-FIXED` at `6dab644` and found the historical source used
+`x_end + 1` while the current implementation excludes `x_end`.
+
+**Implementation:** only `README.md` changed in the Trial worktree. It now
+labels the failing behavior as the historical `STATE-00` baseline and states
+that the current `STATE-00-FIXED` checkout excludes `x_end` and passes all 11
+tests. No source, tests, dependency metadata, commit, or tag changed. The
+README Trial edit is not part of the STATE-01 candidate.
+
+**Verification:** Codex ran
+`PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m unittest discover -s tests -v`;
+11/11 passed. It ran `git diff --check`; the Trial diff named only
+`README.md`. Before TRIAL-003, the candidate repository independently passed
+the full 11-test suite, the local CLI crop smoke check (`--crop 1 3` produced
+2×3 and pixels `((51, 102), (255, 153), (51, 204))`), and the untracked-file
+whitespace check. `pyproject.toml` and `setup.cfg` were unchanged; product
+behavior matched `STATE-00-FIXED`.
+
+**Result:** PASS for this bounded Codex CLI run. The best direct use evidence
+is that the task omitted the test command while the Agent ran the command
+specified in `AGENTS.md`. The Trial also used the project test guidance and
+kept its diff to the task-named README. Because the CLI did not expose a
+structured instruction-chain trace and personal skills also ran, this is
+evidence of use, not an isolated causal test of automatic instruction
+loading.
+
+**Project Context Used:** the README pointer for documented Build / Run
+commands was inspected but not needed. The `AGENTS.md` full test command was
+used. The local-data rule and runtime-dependency rule were not needed for
+this documentation-only change. Scope was explicitly task-specific in the
+Prompt, so it is not counted as independent evidence of that AGENTS rule.
+
+**Task-specific Context:** clarify the historical baseline versus current
+checkout in README's Test section, preserve the historical fact, change only
+`README.md`, make no product/dependency/history change, and report relevant
+verification.
+
+**Architecture Evidence:** the Prompt omitted repository setup and test
+commands while preserving the concrete task. The project-level test command
+came from `AGENTS.md` and was used; this demonstrates observed context
+separation for this run. TRIAL-003 and TRIAL-002 were different tasks and
+must not be compared as a performance or accuracy experiment.
+
+**Do Not Claim:** one CLI run does not prove that AGENTS.md makes Codex more
+intelligent, more accurate, or generally faster; does not establish
+repeatability or product-wide behavior; and does not validate Codex Desktop,
+the training account, screen readability, or a prepared Live fallback.
+
+**ACT 2 Anchor Assessment:** The CLI run does not validate a future Desktop
+presentation. Do not repeat every Engineering Trial in Desktop; if this
+Anchor is selected as the Final Anchor, revalidate it during Final Demo
+Rehearsal in the actual presentation interface.
+
+**STATE-01 Readiness:** READY TO RECORD STATE-01 after a separate explicit
+state-recording instruction. The candidate remains uncommitted and untagged;
+do not advance to STATE-02 in this Trial.
+
+#### STATE-01 — Recorded Project Instructions
+
+**Purpose:** Record the successful first use of concise Project instructions
+after the `STATE-00-FIXED` behavior-only correction.
+
+**Previous state:** `STATE-00-FIXED`, commit
+`6dab644ea53e899e6d65b70bc4383bd2901ded89`, tag `STATE-00-FIXED`.
+
+**Code state:** unchanged from `STATE-00-FIXED`; no source, test, package, or
+runtime-dependency files changed.
+
+**Project docs state:** The repository `README.md` was not changed. The
+README clarification made in the isolated TRIAL-003 worktree was a Trial task
+result and is not part of this state.
+
+**Instruction state:** Add only the root `AGENTS.md` containing the Project,
+Build / Run, Test, and Core Constraints sections. The file has 15 lines and
+567 bytes. It gives a local synthetic P2 project description, routes command
+details to the README, states the current test command, and gives concise
+behavior/dependency/scope rules.
+
+**Harness state:** No Skill, Subagent, Memory, workflow, Evaluation framework,
+or separate Context document was added.
+
+**Validation environment:** macOS 26.6.2 / arm64; Python 3.9.6.
+
+| Check | Result |
+|---|---|
+| Full test suite | PASS, 11/11 |
+| CLI smoke, `data/sample.pgm --crop 1 3` | PASS; 2×3, 6 pixels, mean 136.0, min 51, max 255; pixels `((51, 102), (255, 153), (51, 204))` |
+| `git diff --check` | PASS on the staged state diff |
+| Candidate whitespace | PASS; no trailing whitespace |
+| Runtime dependency metadata | Unchanged; `pyproject.toml` and `setup.cfg` unchanged |
+| Product behavior | Unchanged from `STATE-00-FIXED` |
+| State diff | One added file, `AGENTS.md`; no README Trial edit |
+
+**Git record:** commit `14baf81746a981d7cd96b7a014ea06f28c3dd6b4`, subject
+`docs(demo): add concise project instructions`; tag `STATE-01` points to that
+commit. Previous tags `STATE-00` and `STATE-00-FIXED` remain unchanged. The
+Demo repository has no remote; no push was performed. The working tree is
+clean.
+
+**Expected Demo / transition:** The bounded TRIAL-003 prompt omitted the
+reusable test command; Codex used the project command and retained a
+documentation-only Trial diff. This one CLI run is not evidence of improved
+accuracy/performance, repeatability, or Codex Desktop behavior. Transition to
+STATE-02 only after an explicit implementation instruction.
+
+**Reproduction:** Check out tag `STATE-01` in a fresh checkout and run
+`PYTHONPATH=src python3 -m unittest discover -s tests -v`. Run the local CLI
+crop smoke using `data/sample.pgm` and `--crop 1 3`; compare its output to the
+values above.
+
+#### STATE-02 Context Growth Plan
+
+**Purpose:** Show a natural next step after the first useful Project rule:
+more repository work prompts a Developer to add accurate, recurring context
+to `AGENTS.md`. The next question is whether all that context belongs in
+every Task. Do not create a failure or a token-count threshold.
+
+**Current state:** STATE-02, commit
+`55c045523ed1409449d7eea5b0d873983fe101b6`, tag `STATE-02`. STATE-01 remains
+unchanged at commit `14baf81746a981d7cd96b7a014ea06f28c3dd6b4` and tag
+`STATE-01`.
+The user's latest STEP 07 §§54–60 instruction selects growth in the root
+`AGENTS.md` before Context Separation. This refines the prior downstream plan
+that placed more detail in natural Project documents at STATE-02. The change
+is recorded as accepted `DEC-0013`; `MASTER_PLAN.md` and the Context relevance
+invariants are unchanged. Under the user's §§71–72 instruction, verified
+STATE-02 is recorded at commit `55c045523ed1409449d7eea5b0d873983fe101b6` and
+tag `STATE-02`. The commit contains only `AGENTS.md`; no remote push was made.
+
+**Verified Context candidates:**
+
+| Category | Candidate and evidence | Accurate now? | Reusable? | Relevant to every task? | Classification |
+|---|---|---:|---:|---:|---|
+| ARCHITECTURE | `process_image` loads P2, normalizes, optionally inverts, crops, resizes, saves, then summarizes; module responsibilities are visible in `pipeline.py` and the repository specification. | Yes | Yes, across pipeline and operation changes. | No; a packaging or unrelated documentation task may not need it. | Present in the always-loaded STATE-02 `AGENTS.md`; relevance is assessed below. |
+| IMAGE CONTRACT | P2 input/output; positive dimensions; max value 1–65535; exact declared pixel count; normalized processing output max 255; crop range `[x_start, x_end)`; positive resize dimensions and deterministic nearest-neighbor mapping. Evidence is in `loader.py`, `normalize.py`, `transform.py`, CLI help, and tests. | Yes | Yes for image I/O and transformation tasks. | No; exact crop/resize details are task-dependent. | Present in the always-loaded STATE-02 `AGENTS.md`; relevance is assessed below. |
+| TESTING | Standard-library `unittest`; module tests are under `tests/`; `test_pipeline.py` checks the local input-to-output path. `data/sample.pgm` is a synthetic 4×3 P2 image with max value 15. | Yes | Yes for code and verification tasks. | No; documentation-only changes may not need a test run or fixture details. | Present in the always-loaded STATE-02 `AGENTS.md`; relevance is assessed below. |
+| COMPATIBILITY | CLI JSON summary has `width`, `height`, `pixel_count`, `minimum`, `maximum`, and `mean`; `statistics.py` computes these and `cli.py` prints JSON. | Yes | Yes for CLI and pipeline changes. | Often, but not every task needs the output schema. | Present in the always-loaded STATE-02 `AGENTS.md`; relevance is assessed below. |
+| PERFORMANCE | `image_statistics` materializes a flattened pixel list; normalization and transformations also build tuple-backed image results. Evidence is visible in the current source, but no benchmark demonstrates a bottleneck. | Source observation is accurate; performance impact is unverified. | Potentially, for later measured optimization work. | No. | ON-DEMAND investigation candidate; do not state it as a proven hot path or add a benchmark workflow now. |
+| DOCUMENTATION | README is the current Build / Test / Run command source; `pyproject.toml` defines pinned build tools and package metadata. | Yes | Yes when updating setup or usage guidance. | Only for setup/documentation tasks. | ON-DEMAND source reference; STATE-01 already routes commands to README. |
+| WORKFLOW | Benchmark sequence and performance investigation steps. | Not a current Project fact; this is a procedure. | Reusable if selected and validated later. | No. | WORKFLOW; keep out of STATE-02 `AGENTS.md`. |
+
+**Context placement:** STATE-02 adds only the compact ARCHITECTURE, IMAGE
+CONTRACT, TESTING, and COMPATIBILITY candidates to the always-loaded
+`AGENTS.md`. Detailed implementation notes, exact fixture values, and
+unmeasured performance observations remain planning/on-demand candidates.
+No separate Context documents, benchmark procedure, Skills, Memory,
+Subagents, Loop, release, or troubleshooting catalog were added.
+
+**Implemented STATE-02 candidate:** `AGENTS.md` now contains a short
+processing-order/module note; a compact P2, normalization, crop, and resize
+contract; a pointer to the module-oriented tests and integration check; and
+the six CLI summary fields. The additions were checked against the sources in
+the table. The existing README was not copied, no source files were copied,
+and line count was not a target.
+
+**TRIAL-004 task:** A documentation-only task to clarify in the
+README Build section which pinned build tools must be prepared before running
+the existing wheel command. `pyproject.toml` pins `setuptools==58.0.4` and
+`wheel==0.37.0`; the README currently says to prepare the declared tools but
+does not name them. Task-specific Prompt used:
+
+```text
+Clarify the README Build section by naming the pinned build tools required by the existing wheel command. Use pyproject.toml as the source of truth. Change README.md only, preserve the command, and do not install packages or alter package metadata. Report relevant verification.
+```
+
+This task was source-grounded and small. The expanded image-processing
+architecture, crop/resize contracts, and fixture details were accurate but
+not required to identify build-tool versions. The Trial did not require the
+Agent to fail or run irrelevant tests. A diff check was appropriate for this
+documentation-only change.
+
+**Expected teaching point:** Good Project guidance can make recurring facts
+available without repeating them in a task Prompt. As it grows, accurate
+facts may still be irrelevant to the current task and require maintenance.
+This is a relevance and context-selection question, not evidence that growth
+causes model failure.
+
+**Lost in the Middle boundary:** This Demo does not test or demonstrate Lost
+in the Middle, a token threshold, model attention, or a performance/accuracy
+change. The trial observes task relevance and visible instruction use only.
+
+**STATE-02 gate:** The explicit implementation instruction was received, the
+candidate was validated, and TRIAL-004 completed. STATE-02 was recorded at
+commit `55c045523ed1409449d7eea5b0d873983fe101b6` and tag `STATE-02`. Context
+Separation and STATE-03 remain outside the STATE-02 change.
+
+#### STATE-02 — Growth and TRIAL-004 Result
+
+**Baseline and record:** STATE-01 at commit
+`14baf81746a981d7cd96b7a014ea06f28c3dd6b4` and tag `STATE-01` remains
+unchanged. Its root `AGENTS.md` was 15 lines / 567 bytes. STATE-02 is recorded
+at commit `55c045523ed1409449d7eea5b0d873983fe101b6` and tag `STATE-02`; the
+committed file is 32 lines / 1,303 bytes. The STATE-02 commit contains only
+`AGENTS.md`. Product code, README, and dependency metadata are unchanged.
+The Demo working tree is clean; no remote push was performed.
+
+**Repository validation:**
+
+| Check | Result |
+|---|---|
+| Full tests | PASS, 11/11 |
+| CLI smoke, `data/sample.pgm --crop 1 3` | PASS; 2×3, 6 pixels, mean 136.0, min 51, max 255 |
+| `git diff --check` | PASS |
+| State diff scope | Only `AGENTS.md` committed |
+| Product code / dependencies | Unchanged |
+
+**Context Classification after implementation:**
+
+| Classification | STATE-02 `AGENTS.md` content |
+|---|---|
+| ALWAYS-ON | Project purpose; local input/output and core behavior constraints; general Build/Run and full-test entry points. |
+| ON-DEMAND | Processing order; P2 and image-value contract; normalization, crop and resize semantics; test-module map and pipeline integration coverage; six CLI summary fields. These facts are present in the always-loaded file but were unnecessary to TRIAL-004. |
+| WORKFLOW | Focused-test-first and task-appropriate broader-check guidance. This is brief verification guidance, not a new reusable workflow artifact. |
+
+**TRIAL-004 task:**
+
+> Clarify the README Build section by naming the pinned build tools required
+> by the existing wheel command. Use pyproject.toml as the source of truth.
+> Change README.md only, preserve the command, and do not install packages or
+> alter package metadata. Report relevant verification.
+
+**Agent behavior:** Codex CLI `0.154.0` ran in an ephemeral temporary clone
+based on `STATE-01` with the STATE-02 `AGENTS.md` candidate. It inspected
+`README.md`, `pyproject.toml`, and `AGENTS.md`; it identified
+`setuptools==58.0.4` and `wheel==0.37.0` from `pyproject.toml`, then changed
+only the README Build section. It preserved the existing wheel command,
+installed no packages, left metadata unchanged, and passed `git diff --check`
+in the Trial checkout. The Trial README diff was discarded with that checkout.
+
+**Relevant Context:** The README pointer and scoped-change / verification
+constraints were consistent with the task. The prompt itself named README and
+`pyproject.toml` as the task boundary and source of truth, so this Trial does
+not establish that expanded context caused the successful result.
+
+**Irrelevant-but-Correct Context:** Processing order, P2 and pixel contracts,
+normalization, crop/resize behavior, test layout and fixture details, and CLI
+summary fields were not needed to identify the build-tool versions. The Agent
+read the expanded `AGENTS.md`, but no confusion or detour caused by these facts
+was observed.
+
+**Observed Problems:** None observed in the Agent's use of Project context.
+The Codex CLI emitted authentication errors for a configured external MCP
+integration, then continued and completed the task. This environment noise is
+not evidence of Project-context confusion.
+
+**Engineering Inference:** As the Project grows, placing accurate details
+with different task scopes in one always-loaded instruction file may raise
+maintenance and relevance costs. This Trial did not measure those costs or
+test whether separate files improve retrieval; that remains a STATE-03
+design question.
+
+**Claim Boundary:** This Trial does not demonstrate model degradation, lost
+information, Lost in the Middle, a token threshold, or improvement from file
+separation. It shows only that some accurate Project details were irrelevant
+to one bounded documentation task.
+
+**Context Architecture Question:** No, not all of this information needs to
+be always present for every task. Keep the small core always-on and assess
+task-specific detail for later separation; this is a design inference, not a
+measured benefit.
+
+**Readiness at the STATE-02 checkpoint:** **STATE-02 RECORDED LOCALLY.** No
+remote push was performed. STATE-03, Context files, Skills, and other Harness
+components were not part of the STATE-02 change.
+
+#### STATE-03 — STRUCTURED CONTEXT AND ROUTING TRIAL
+
+**Status:** STATE-03 is recorded at commit
+`f3e2e37b1454e28c5de4c44682ebd49378ebae4b` and tag `STATE-03`. It is based on
+STATE-02 and changes only root `AGENTS.md` and the three topic documents.
+Product code, tests, dependencies, and README are unchanged. No remote push
+was performed. `DEC-0014` is ACCEPTED.
+
+**STATE-02**
+
+| Item | Fixed evidence |
+|---|---|
+| Commit | `55c045523ed1409449d7eea5b0d873983fe101b6` |
+| Tag | `STATE-02` |
+| Validation | 11/11 tests, CLI smoke, and `git diff --check` passed before the state commit. |
+| Scope | Commit contains only root `AGENTS.md`; product code, README, tests, and dependencies are unchanged. |
+
+**Context Placement**
+
+Always-on core for root `AGENTS.md`:
+
+- Project purpose and synthetic, local-data constraint.
+- README as the source for Build / Run commands.
+- Full test entry point.
+- Preserve public behavior, avoid unjustified runtime dependencies, and verify
+  scoped changes.
+- Brief routing lines that point to detailed Context when a task needs it.
+
+On-demand details:
+
+| Context document | Facts moved from STATE-02 |
+|---|---|
+| `docs/architecture.md` | `process_image` order and the responsibilities of the processing and CLI/statistics modules; observable JSON summary fields. |
+| `docs/image-contracts.md` | P2 input/output, dimensions and pixel-count rules, normalization to 255, half-open crop range, and deterministic nearest-neighbor resize. |
+| `docs/testing.md` | Module-oriented test locations and the `test_pipeline.py` input-to-output integration coverage. |
+
+These are proposed boundaries. The implementation should keep each fact
+once, in its topic document, while preserving the small always-on pointers.
+
+Workflow:
+
+Keep only the existing brief focused-test / broader-check guidance if it
+remains useful. Do not create a Workflow document or Skill in STATE-03; a
+larger repeatable verification procedure belongs to a later workflow decision.
+
+**File Structure**
+
+Proposed three-file structure:
+
+```text
+docs/
+├── architecture.md
+├── image-contracts.md
+└── testing.md
+```
+
+Three documents are recommended because processing structure, image/CLI
+contracts, and test navigation answer distinct task questions. A two-file
+alternative would combine architecture with image contracts or combine
+testing with implementation detail, weakening those topic boundaries for
+little maintenance savings in this small repository. Keep each document
+short; do not create files merely to match this outline.
+
+**Router**
+
+Reduce the expanded STATE-02 facts in root `AGENTS.md` to the Always-on list
+and add concise task routing:
+
+- Pipeline order or module responsibility → `docs/architecture.md`.
+- P2, pixel, normalization, crop, resize, or output-contract behavior →
+  `docs/image-contracts.md`.
+- Test organization or integration-test coverage → `docs/testing.md`.
+
+README Build / Run commands continue to be sourced from `README.md`.
+The Router is an Engineering Pattern that helps Context discovery; it is not
+a claim that the Agent will always route perfectly.
+
+**Information Preservation**
+
+Before considering the state ready, compare each STATE-02 fact against its
+new location and current code/tests. Preserve the processing order; P2 and
+pixel constraints; normalization; half-open crop semantics; nearest-neighbor
+resize semantics; test mapping and integration coverage; and all six CLI
+summary fields. Keep source code and tests as evidence for current behavior.
+Do not silently broaden or reinterpret a contract.
+
+**Information Preservation Audit**
+
+| STATE-02 fact | STATE-03 location | Result |
+|---|---|---|
+| Project purpose and local synthetic data | Root `AGENTS.md` | Preserved. |
+| README as Build / Run source | Root `AGENTS.md` points to `README.md`; README itself is unchanged. | Preserved. |
+| Full-suite command and narrow-change verification guidance | Root `AGENTS.md`; focused test example in `docs/testing.md` | Preserved. |
+| Preserve behavior, justify runtime dependencies, scope and verify changes | Root `AGENTS.md` | Preserved. |
+| Processing order and module responsibilities | `docs/architecture.md` | Preserved. |
+| Six JSON summary fields and their source | `docs/architecture.md` | Preserved. |
+| P2 format, dimensions, max value, exact pixel count and pixel bounds | `docs/image-contracts.md` | Preserved from loader and `GrayImage` validation. |
+| Normalize declared input range to 255 | `docs/image-contracts.md` | Preserved, including integer rounding. |
+| Half-open crop range and bounds | `docs/image-contracts.md` | Preserved. |
+| Deterministic nearest-neighbor resize | `docs/image-contracts.md` | Preserved, with current coordinate selection behavior. |
+| Module-level test locations and pipeline integration coverage | `docs/testing.md` | Preserved. |
+
+No STATE-02 Project fact was intentionally removed. Source code and tests
+remain the evidence for current behavior.
+
+**Repository Validation**
+
+| Check | Result |
+|---|---|
+| Full tests | PASS, 11/11. |
+| CLI smoke | PASS. `--crop 1 3` produced width 2, height 3, pixel count 6, minimum 51, maximum 255, and mean 136.0. |
+| `git diff --check` | PASS. |
+| Product code / tests / dependencies | Unchanged. |
+| Changed paths | Only root `AGENTS.md` and `docs/architecture.md`, `docs/image-contracts.md`, `docs/testing.md`. |
+| Context integrity | PASS; every STATE-02 fact is mapped above. |
+
+The smoke output was `{"height": 3, "maximum": 255, "mean": 136.0,
+"minimum": 51, "pixel_count": 6, "width": 2}`. The output PGM was written
+inside a temporary directory and removed afterward.
+
+These are future acceptance criteria, not results from this planning step.
+
+**TRIAL-005A Prompt — relevant image contract:**
+
+> Using the current sample image, investigate which source columns are
+> selected when applying `--crop 1 3`, what output width results, and whether
+> the end coordinate is included. Base your explanation on the repository's
+> current contract and implementation. This is a read-only investigation: do
+> not change any files. Give the evidence you used.
+
+**TRIAL-005B Prompt — runtime dependencies:**
+
+> Does this project have any runtime dependencies? Explain how you reached
+> that conclusion and distinguish runtime requirements from tools needed only
+> to build or package it. This is a read-only investigation: do not change any
+> files. Give evidence. Do not modify files.
+
+Task B was selected from the user's preferred candidate in STEP 07 §87. It
+checks a concrete repository property and differs from the README Build edit
+used in TRIAL-004.
+
+**Claim Boundary**
+
+The planned structure demonstrates organizing Context by scope and making
+task-relevant sources discoverable. It does not claim better model
+performance, automatic perfect routing, Lost in the Middle mitigation, or a
+measured retrieval improvement.
+
+**Trial Environment and Results**
+
+Both prompts ran in separate temporary clones containing the STATE-03
+candidate, using Codex CLI 0.154.0 with `--ephemeral` and `--sandbox
+read-only`. After the initial combined output was truncated, both prompts
+were repeated to capture compact access traces. The architecture document was
+then shortened to avoid repeating image-contract details, and the final
+candidate was tried once more. Results below describe that final run; earlier
+runs returned the same answers and consistently read the relevant image
+contract only for TRIAL-005A, though optional test-context access varied.
+The final calls took approximately 25.8 seconds for TRIAL-005A and 27.9
+seconds for TRIAL-005B. No Trial changed files.
+
+| Observation | TRIAL-005A | TRIAL-005B |
+|---|---|---|
+| `AGENTS.md` read | Yes. | Yes. |
+| `docs/architecture.md` read | Yes. | Yes. |
+| `docs/image-contracts.md` read | Yes. | No. |
+| `docs/testing.md` read | Yes, in the final run only. | No. |
+| Source code read | `transform.py`, `pipeline.py`, `loader.py`, and `cli.py` were inspected; also ran an in-memory crop check that imported normalization and crop code. | All `src/graypipe` modules were inspected. |
+| Tests read | `test_transform.py` was opened and its focused 3-test suite was run; earlier runs did not read tests. | `rg` searched `src` and `tests`; no test module was opened as a whole. |
+| README read | Yes. | Yes. |
+| Package config read | No. | `pyproject.toml` and `setup.cfg`. |
+| Commands executed | File discovery; read of instructions, README, image/testing/architecture docs, sample, and relevant source; in-memory crop check; focused `test_transform.py` run. | File discovery; read of instructions, README, architecture and package config; import/process search across source and tests; source inspection. |
+| Answer correctness | Correct: source columns 1 and 2 (zero-based), output width 2, end coordinate excluded. | Correct: no third-party runtime dependency; Python 3.9+ and the standard library at runtime; pinned `setuptools` and `wheel` are build requirements, with `pip` used by the documented build command. |
+| Unnecessary context observed | `docs/architecture.md` and README were also read; architecture detail was not needed to answer the crop question. Test documentation and the focused test were relevant evidence. | `docs/architecture.md` and the full source package were read; the architecture document was not needed to inventory dependencies. `rg` also scanned tests. |
+| Unexpected routing | README contains a historical STATE-00 crop-defect note; the Agent noticed it did not match current code and did not rely on it. | The Agent read architecture even though the dependency question did not route there. |
+| Elapsed time | About 25.8 seconds. | About 27.9 seconds. |
+
+Both calls emitted a configured Nimble MCP authentication error, hook
+warnings, and a notice that Skill descriptions were shortened to fit the
+context budget; Codex continued and returned an answer. The result is CLI
+evidence, not a Codex Desktop observation.
+
+**What Was Actually Observed**
+
+Task-relevant access differed: TRIAL-005A read `docs/image-contracts.md`,
+while TRIAL-005B did not. Both read `docs/architecture.md`, so routing was
+selective for the image contract but not perfectly narrow. TRIAL-005A also
+read `docs/testing.md` and `tests/test_transform.py` in the final run, but
+not in its two earlier runs; TRIAL-005B did not read the testing document.
+This optional access varied across repeated invocations. These bounded CLI
+observations do not establish a general routing guarantee or a performance
+effect.
+
+**Claim Boundary**
+
+The candidate and Trials show a concise root instruction file pointing to
+topic-specific documents and one observed task-relevant access difference.
+They do not establish better model performance, token savings, automatic or
+perfect routing, Lost in the Middle mitigation, or consistent Codex Desktop
+behavior. The existing README's STATE-00 note remains unchanged; its historic
+scope should be clarified before it is used as a current-state claim.
+
+**DEC-0014 Decision**
+
+**ACCEPTED** by the user's explicit STEP 07 §92 instruction on 2026-09-29.
+The three short documents have distinct subjects, and the relevant
+image-contract document was read for the crop question but not for the
+dependency question. Both Trials also read `docs/architecture.md` more
+broadly than needed. Repeated runs showed variation in optional test-context
+access. This is a routing limitation to preserve in the teaching claim, not
+evidence that the topic boundaries should be collapsed. The structure is an
+Engineering Pattern for Context scope, maintenance, and discovery; it does not
+guarantee perfect selective loading.
+
+**ACT 2 Demo Assessment**
+
+Recommend **CAPTURED**, supported by a compact visual before/after Context map.
+The actual CLI traces can show that task-relevant image detail appeared only
+in the image task, while architecture detail was accessed in both. Keep
+Desktop behavior unvalidated; use a Desktop rehearsal before making a Desktop
+LIVE claim.
+
+**STATE-03 Record**
+
+**STATE-03 RECORDED LOCALLY.** Commit
+`f3e2e37b1454e28c5de4c44682ebd49378ebae4b`, tag `STATE-03`. Full tests
+passed 11/11; CLI smoke and `git diff --check` passed; product code, tests,
+dependencies, and README remained unchanged. No remote push was performed.
 
 #### Research / Product Check
 
@@ -565,11 +1121,16 @@ See `SRC-0110`; checked 2026-09-28.
 
 #### Next Readiness
 
-**READY TO IMPLEMENT STATE-01.** The crop fix is recorded as a separate
-state, repeated-context facts and a bounded first-success gate are defined,
-and the current official product scope is checked. This step has not created
-`AGENTS.md`, started STATE-01, or claimed instruction discovery in Codex
-Desktop. Wait for the next user instruction before implementation.
+**STATE-03 RECORDED; PERFORMANCE SCENARIO TRIAL COMPLETE.** The temporary
+comparison recommends resize source-column precomputation and establishes
+readiness to implement a benchmark baseline; no STATE-04 work is recorded.
+STATE-02 remains at commit `55c045523ed1409449d7eea5b0d873983fe101b6` and
+tag `STATE-02`. STATE-03 is at commit
+`f3e2e37b1454e28c5de4c44682ebd49378ebae4b` and tag `STATE-03`; its validation
+and Trial evidence are recorded above. `DEC-0014` is ACCEPTED. The Demo
+repository has no configured remote, so no push was performed. The selected
+Codex Desktop path and ACT 2 Anchor remain unvalidated; do not infer Desktop
+behavior from the CLI trials.
 
 Following STEP 07, every Demo receives one final acceptance status:
 
@@ -584,8 +1145,772 @@ Following STEP 07, every Demo receives one final acceptance status:
 
 Until the evidence required for final STEP 07 acceptance is complete, Matrix
 status remains CANDIDATE (or BLOCKED where a dependency prevents a Trial).
-A single Trial record is not sufficient for final acceptance; these labels
-must not be applied based on design or one bounded run alone.
+A single Trial record is not sufficient for final Demo acceptance.
+
+## STEP 07 — PERFORMANCE SCENARIO RESULT
+
+### STATE-03
+
+**Commit:** `f3e2e37b1454e28c5de4c44682ebd49378ebae4b`
+
+**Tag:** `STATE-03`
+
+**Trial date:** 2026-09-29
+
+**Validation:** Full suite 11/11 passed; the earlier STATE-03 record also
+contains the passing CLI smoke and `git diff --check`. The performance
+prototypes were isolated to a temporary worktree and reverted. At that
+checkpoint the Demo repository was at STATE-03; no optimization was committed
+and no remote push was performed. The later benchmark preparation commit is
+recorded in the Baseline Result below.
+
+### Candidate 1 — Stream `image_statistics`
+
+- **Location:** `src/graypipe/statistics.py`, `image_statistics`.
+- **Current behavior:** Flatten all rows into a temporary list, then compute
+  its length, minimum, maximum, and sum.
+- **Correctness impact:** A running count, sum, minimum, and maximum can return
+  the same six-field dictionary. The `GrayImage` contract guarantees at least
+  one pixel.
+- **Expected performance impact:** Remove an O(pixel count) reference list
+  and repeated list scans; a Python-level single pass may trade CPU time for
+  lower temporary allocation.
+- **Measurement:** Deterministic 1024×768 input (786,432 pixels), two calls
+  per sample, seven paired samples. Baseline median 14.985 ms/call, spread
+  0.972 ms (6.5%); prototype median 28.838 ms/call, spread 3.183 ms (11.0%).
+  The prototype was 92.4% slower (1.92× the elapsed time). This difference is
+  much larger than either sample spread.
+- **Allocation diagnostic:** `tracemalloc` peak for the operation only was
+  6,675,804 bytes for baseline and 416 bytes for the prototype. The input was
+  created before tracing; this is not process RSS.
+- **Prototype/correctness:** Moderate local diff; output exactly matched the
+  baseline on the synthetic input; `test_statistics.py` passed 1/1.
+- **Measurement feasibility:** High for a synthetic workload; `timeit` and
+  `tracemalloc` exposed time and temporary-allocation effects without extra
+  packages.
+- **Implementation/domain complexity:** Moderate accumulator bookkeeping;
+  low image-domain complexity, but more Python loop detail to explain.
+- **Teaching value:** Shows a real time-versus-temporary-memory trade-off, but
+  explaining the slower Python loop and allocation metric would distract from
+  a speed-improvement Story. Do not select as the primary performance Demo.
+
+Samples in milliseconds per call:
+
+- Baseline: `[15.574, 14.891, 14.850, 14.603, 14.985, 15.283, 15.031]`
+- Prototype: `[28.838, 29.743, 26.560, 29.708, 27.654, 28.616, 29.650]`
+
+### Candidate 2 — Hoist normalization constants
+
+- **Location:** `src/graypipe/normalize.py`, `normalize`.
+- **Current behavior:** Each pixel expression reads `image.max_value` and
+  calculates `image.max_value // 2` again.
+- **Correctness impact:** Cache `max_value` and the rounding term once, while
+  preserving the integer-rounding formula and result contract.
+- **Expected performance impact:** Avoid repeated property access and integer
+  division inside the pixel expression; expected to be a small, measurable
+  improvement.
+- **Measurement:** Deterministic 1024×768 input (786,432 pixels), max value
+  4095, one call per sample, seven paired samples. Baseline median 66.940
+  ms/call, spread 3.665 ms (5.5%); prototype median 50.021 ms/call, spread
+  2.032 ms (4.1%). Median elapsed time fell 25.3% (1.34× speedup), larger
+  than the observed sample spreads.
+- **Prototype/correctness:** Small local diff; output exactly matched the
+  baseline; `test_normalize.py` passed 2/2.
+- **Measurement feasibility:** High; a generated sub-megapixel image made the
+  operation measurable in a short repeated comparison.
+- **Implementation/domain complexity:** Low local change and low
+  image-domain complexity.
+- **Teaching value:** Clear repeated-work example, but the behavior is a
+  narrow Python implementation detail and offers less visible payoff than
+  the resize candidate.
+
+Samples in milliseconds per call:
+
+- Baseline: `[69.281, 69.957, 68.420, 66.903, 66.940, 66.911, 66.292]`
+- Prototype: `[50.323, 50.021, 50.058, 50.721, 49.886, 49.219, 48.689]`
+
+### Candidate 3 — Precompute resize source columns
+
+- **Location:** `src/graypipe/transform.py`, `resize_nearest`.
+- **Current behavior:** Recompute the same x-to-source-column multiply,
+  division, and clamp for every output row.
+- **Correctness impact:** Compute that mapping once per output column and reuse
+  it for each row; preserve the existing nearest-neighbor formula and output.
+- **Expected performance impact:** Replace per-output-pixel coordinate
+  arithmetic with a small lookup over the output width.
+- **Measurement:** Deterministic 640×480 source resized to 960×720 (691,200
+  output pixels), one call per sample, seven paired samples. Baseline median
+  148.827 ms/call, spread 8.492 ms (5.7%); prototype median 35.139 ms/call,
+  spread 3.061 ms (8.7%). Median elapsed time fell 76.4% (4.23× speedup).
+  The observed separation is much larger than either sample spread.
+- **Prototype/correctness:** Small local diff; output exactly matched the
+  baseline on the benchmark input and five additional source/output shape
+  pairs, including upscaling, downscaling, and one-pixel dimensions.
+  `test_transform.py` passed 3/3.
+- **Measurement feasibility:** High; a generated 640×480 image and 960×720
+  output gave a short, repeatable operation-level comparison.
+- **Implementation/domain complexity:** Low local change and low
+  image-domain complexity; the coordinate mapping remains unchanged.
+- **Teaching value:** Best fit: the repeated work is visible in one expression,
+  the optimization is a small cache of deterministic coordinates, and the
+  result can be compared without introducing image-processing theory.
+
+Samples in milliseconds per call:
+
+- Baseline: `[154.069, 148.277, 149.742, 145.578, 148.827, 145.822, 152.316]`
+- Prototype: `[36.049, 35.951, 33.403, 35.194, 32.988, 35.139, 34.775]`
+
+### Recommended Scenario
+
+Recommend **Candidate 3, precomputing resize source columns**. It has the
+clearest measured runtime reduction, preserves exact output over the tested
+shapes, requires only a small implementation change, and makes repeated work
+easy to see. These are one-host synthetic-workload results, not a claim about
+all images, machines, Python versions, or production workloads. Keep the
+statistics result as a rejected speed candidate with its memory trade-off;
+do not present it as a proven bottleneck or successful speed optimization.
+
+### Benchmark Design
+
+- **Input:** Programmatically generate pixel `(x, y)` as
+  `(17*x + 31*y + ((x*y) % 251)) % (max_value + 1)`, with max value 4095.
+  Statistics and normalization use 1024×768; resize uses 640×480 to
+  960×720. Input creation and `GrayImage` validation happen before operation
+  timing. No large fixture file is stored.
+- **Command:** `python3 benchmarks/benchmark_trial.py --case resize` (with
+  `--case statistics` or `--case normalize` for the other candidates).
+- **Metric:** `timeit.Timer` wall time per call, median, sample range, and
+  range as a percentage of the median. Baseline and prototype order alternated
+  across pairs. Functional output was compared before timing.
+- **Repeat strategy:** Seven paired samples per candidate; statistics used
+  two operations per sample and other candidates used one.
+- **Expected runtime:** A one-case command should take a few seconds on the
+  tested host, including input construction. The measured operations take
+  about 15–149 ms per baseline call; setup is excluded from operation timing.
+- **Variance:** The recorded sample ranges are 4.1–11.0% of each candidate's
+  median. The recommended resize effect is substantially larger than that
+  range, though additional host/build runs would be needed for broader claims.
+- **Environment:** Python 3.9.6; macOS 26.6.2; arm64 Apple Silicon.
+
+### Actual Measurements
+
+All values and the seven raw samples are recorded under each candidate.
+The benchmark uses standard-library `timeit` and `tracemalloc`, deterministic
+local data, and no network or external service. The Trial harness existed only
+in the temporary worktree and was removed after the comparison.
+
+### Correctness Evidence
+
+Each prototype's relevant existing module tests passed: statistics 1/1,
+normalization 2/2, and transform 3/3. The benchmark compared its full synthetic
+output exactly with the STATE-03 implementation. Resize also matched across
+five varied dimension pairs. After reverting every prototype, the complete
+STATE-03 test suite passed 11/11.
+
+### Dependency Decision
+
+No new dependency is needed. The temporary comparison uses Python's standard
+library; no benchmark package or reusable Skill was added.
+
+### Teaching Risk
+
+Keep the explanation on avoiding repeated coordinate calculation and on
+checking output before timing. Do not turn the Demo into a Python
+micro-optimization lesson or imply that one synthetic input predicts
+production performance. The candidate remains a recommendation pending its
+later baseline implementation and rehearsal.
+
+### Workflow Opportunity
+
+The scenario supports the sequence **Baseline → Investigate → Plan →
+Implement → Test → Benchmark → Compare**: the baseline source and output
+contract are inspectable, a measured repeated operation motivates a small
+plan, tests protect exact behavior, and the paired benchmark supports
+comparison. This Trial did not create the permanent benchmark tool or a
+reusable workflow artifact.
+
+### Readiness at Scenario-Selection Checkpoint
+
+The §94–100 checkpoint was **READY TO IMPLEMENT BENCHMARK BASELINE**. The
+following §§101–110 instruction authorized that work; its implementation and
+validation are recorded in the Baseline Result below.
+
+## STEP 07 — BENCHMARK BASELINE RESULT
+
+### Performance Decision
+
+At this original scenario-selection checkpoint, `DEC-0015` was ACCEPTED by
+the user's explicit STEP 07 §§101–110 instruction and selected
+`resize_nearest` performance investigation. The later §§191–200 instruction
+and DEC-0019 supersede that product-change target only; the resize benchmark
+remains an unchanged supporting check. The statistics allocation trade-off
+and normalization constant-hoisting remain in the historical research above.
+
+### Benchmark Implementation
+
+- **File:** `ai-dev-training-demo/benchmarks/benchmark_resize.py`.
+- **Command:** `PYTHONPATH=src python3 benchmarks/benchmark_resize.py`.
+- **Input:** Locally generated 640×480 grayscale image with max value 4095;
+  pixel `(x, y)` is `(17*x + 31*y + ((x*y) % 251)) % 4096`. Input SHA-256:
+  `8313459c55df7237ac1de8435086b9af01d9d28d5604d19310001160f3c3f827`.
+- **Operation:** Resize to 960×720; input creation, validation, correctness
+  check, and one warm-up call are outside the timed region.
+- **Method:** Python standard-library `timeit`, seven samples, one resize per
+  sample; report every sample, median, minimum-to-maximum range, spread, and
+  whole-invocation runtime.
+- **Correctness guard:** Check the deterministic input SHA-256, expected output
+  dimensions and max value, then compare the full output's two-byte
+  big-endian SHA-256 with the STATE-03 output fingerprint
+  `cf5a936c953a1cb873b4bc3f4632c50c1bb0e477a7af9f0b45ffec17018cb553`.
+  The script does not store or enforce a timing baseline.
+- **Output:** Print environment, input/output dimensions, correctness result,
+  fingerprint, samples, median, range, and invocation runtime in a short
+  readable report.
+- **Runtime dependencies:** None added. The script uses only Python standard
+  library modules and the existing `graypipe` package.
+
+The command and purpose are documented in the Demo `README.md`. The tool is a
+Project measurement instrument; it is not a reusable Harness procedure or
+Skill.
+
+### Repository Validation
+
+| Check | Result |
+|---|---|
+| Full test suite | PASS, 11/11 |
+| CLI smoke | PASS; 2×3 output, 6 pixels, mean 136.0, minimum 51, maximum 255 |
+| Benchmark correctness guard | PASS in all three independent invocations; identical SHA-256 in each |
+| Benchmark | PASS; seven samples and summary printed in each invocation |
+| `git diff --check` | PASS |
+| Product code and tests | Unchanged |
+| Dependency metadata | Unchanged; no package added |
+| CLI output contract | Unchanged |
+
+### Stability
+
+Environment for all invocations: CPython 3.9.6, macOS 26.6.2, arm64 Apple
+Silicon. Input generation and the correctness guard are included in
+invocation runtime but excluded from per-operation timing.
+
+| Invocation | Median (ms/call) | Range (ms/call) | Spread / median | Invocation runtime |
+|---:|---:|---:|---:|---:|
+| 1 | 141.1 | 140.4–144.6 | 3.0% | 1.23 s |
+| 2 | 147.6 | 141.2–158.5 | 11.7% | 1.28 s |
+| 3 | 149.3 | 146.5–153.8 | 4.8% | 1.30 s |
+
+Samples in invocation order (ms/call):
+
+- 1: `143.9, 140.8, 140.4, 141.1, 140.9, 144.5, 144.6`
+- 2: `145.9, 141.2, 143.2, 154.1, 158.5, 149.9, 147.6`
+- 3: `153.2, 146.5, 148.4, 149.3, 149.2, 153.8, 153.7`
+
+The median of the three invocation medians is **147.6 ms/call**. Those medians
+span 141.1–149.3 ms, an 8.2 ms range or 5.6% of the median. All invocations
+passed the same input and full-output fingerprint checks and finished in
+1.23–1.30 seconds. The baseline is stable enough to demonstrate this
+workload; small after-changes should not be presented as meaningful when
+they approach this observed variation.
+
+### State Decision
+
+Choose option **A**: record the benchmark as an untagged STATE-04 preparation
+commit, not as a separately named learner-facing State.
+
+- Preparation commit: `cef7a27697d38667530fe028e7c2a1ed4703714b`.
+- It changes only `benchmarks/benchmark_resize.py` and the Demo `README.md`.
+- Tag `STATE-03` remains at `f3e2e37b1454e28c5de4c44682ebd49378ebae4b`.
+- No STATE-04 tag or separate intermediate State was created. STATE-04
+  remains the reusable performance procedure; STATE-04-PERF remains the
+  later product-code optimization.
+- The Demo repository has no configured remote; nothing was pushed.
+
+The tool establishes measurement infrastructure but does not itself change
+the product's performance behavior or add the planned reusable workflow.
+Giving it a separate named State would split the existing Story without a
+new learner-facing maturity transition.
+
+### Proposed Performance Prompt
+
+The prompt below asks the Agent to investigate and does not reveal the
+prototype's selected optimization:
+
+```text
+Goal:
+Investigate whether `resize_nearest` has a measurable runtime improvement
+available while preserving its current output behavior.
+
+Constraints:
+- Preserve public image and CLI behavior.
+- Do not add runtime dependencies or change unrelated APIs.
+- Do not modify the benchmark input, checksum, or repetition settings.
+- Treat measurements as evidence for this input and environment only.
+- Do not trade correctness for speed or claim a result that the measurements
+  do not support.
+
+Process:
+1. Run `PYTHONPATH=src python3 benchmarks/benchmark_resize.py` before
+   editing. Record the environment, all samples, median, range, runtime, and
+   correctness result. If the guard fails, stop and report it.
+2. Inspect the implementation, relevant image contract, and tests. Identify
+   actual repeated or avoidable work and explain candidate changes.
+3. State a concise plan, then implement the smallest evidence-supported
+   change. Do not assume a particular optimization in advance.
+4. Run the focused resize tests and the full test suite.
+5. Run the same benchmark command after the change. Compare before/after
+   medians and sample ranges under the same environment and input.
+6. Run the CLI smoke command and `git diff --check`; review the final diff.
+
+Report:
+- What you investigated and changed.
+- Correctness evidence and any behavior risk.
+- Baseline and after samples, medians, ranges, and invocation runtimes.
+- The measured comparison and its limits.
+- The final diff scope and any remaining uncertainty.
+```
+
+### Repeated Workflow Elements
+
+| Element | Prompt evidence |
+|---|---|
+| Baseline | Run the fixed benchmark and preserve its full output before editing. |
+| Investigate | Inspect implementation, contract, and tests for real repeated work. |
+| Plan | Explain a concise evidence-based change before editing. |
+| Implement | Make the smallest justified change; do not prescribe the answer. |
+| Test | Run focused and full tests to protect behavior. |
+| Benchmark | Rerun the same command and input after the change. |
+| Compare | Compare medians, sample ranges, runtime, and correctness evidence. |
+| Review | Check CLI behavior, `git diff --check`, and final diff scope. |
+
+These steps are repeated workflow candidates for later Harness work; no
+reusable procedure or Skill was created in this step.
+
+### Skill Boundary
+
+The benchmark is project-owned measurement code, while the prompt is a
+task-level instruction that makes one workflow observable. Evidence from one
+performance scenario is not enough to justify a reusable Skill. The planned
+repository procedure remains a later STATE-04 Harness change; product Skill
+support stays conditional on a later need and current product verification.
+
+### Next Readiness
+
+**§§101–110 CHECKPOINT: READY FOR PERFORMANCE WORKFLOW TRIAL.** At that
+checkpoint, the benchmark preparation commit was recorded and its three
+independent invocations passed. The subsequent TRIAL-006 result is recorded
+below.
+
+## STEP 07 — TRIAL-006 PERFORMANCE WORKFLOW RESULT
+
+### Environment
+
+| Field | Observed value |
+|---|---|
+| Repository baseline | `cef7a27697d38667530fe028e7c2a1ed4703714b`, after tag `STATE-03` at `f3e2e37b1454e28c5de4c44682ebd49378ebae4b` |
+| Working directory | Detached writable worktree at `/tmp/ai-dev-training-demo-trial-006-20260929` |
+| Codex interface/version | Codex CLI 0.154.0 via `codex exec`; model `gpt-5.6-sol`. Installed Codex Desktop 26.924.22138 was not used for this Trial. |
+| Runtime / OS | Python 3.9.6; macOS 26.6.2; arm64 |
+| Execution mode | `workspace-write`, scoped to the isolated worktree; no push or original Demo repository edits |
+
+The first CLI launch used the configured `gpt-6-luna`, which this CLI/account
+combination rejected before an Agent turn. A second launch also stopped before
+the turn because `codex exec` did not accept the supplied approval flag. The
+same Prompt then ran unchanged with the catalog-supported `gpt-5.6-sol` model.
+Neither launch changed the worktree.
+
+### Prompt
+
+The exact §109 Prompt was used without edits:
+
+```text
+Goal:
+Investigate whether `resize_nearest` has a measurable runtime improvement
+available while preserving its current output behavior.
+
+Constraints:
+- Preserve public image and CLI behavior.
+- Do not add runtime dependencies or change unrelated APIs.
+- Do not modify the benchmark input, checksum, or repetition settings.
+- Treat measurements as evidence for this input and environment only.
+- Do not trade correctness for speed or claim a result that the measurements
+  do not support.
+
+Process:
+1. Run `PYTHONPATH=src python3 benchmarks/benchmark_resize.py` before
+   editing. Record the environment, all samples, median, range, runtime, and
+   correctness result. If the guard fails, stop and report it.
+2. Inspect the implementation, relevant image contract, and tests. Identify
+   actual repeated or avoidable work and explain candidate changes.
+3. State a concise plan, then implement the smallest evidence-supported
+   change. Do not assume a particular optimization in advance.
+4. Run the focused resize tests and the full test suite.
+5. Run the same benchmark command after the change. Compare before/after
+   medians and sample ranges under the same environment and input.
+6. Run the CLI smoke command and `git diff --check`; review the final diff.
+
+Report:
+- What you investigated and changed.
+- Correctness evidence and any behavior risk.
+- Baseline and after samples, medians, ranges, and invocation runtimes.
+- The measured comparison and its limits.
+- The final diff scope and any remaining uncertainty.
+```
+
+### Baseline
+
+The Agent ran the benchmark before its first source edit. The input and output
+SHA-256 guards passed.
+
+- **Samples:** `149.5, 144.0, 143.7, 143.6, 144.2, 147.9, 147.8 ms/call`
+- **Median:** 144.2 ms/call
+- **Range:** 143.6–149.5 ms/call
+- **Invocation runtime:** 1.27 s
+- **Correctness:** PASS; input SHA-256
+  `8313459c55df7237ac1de8435086b9af01d9d28d5604d19310001160f3c3f827`;
+  output SHA-256
+  `cf5a936c953a1cb873b4bc3f4632c50c1bb0e477a7af9f0b45ffec17018cb553`.
+
+### Investigation
+
+The Agent inspected root `AGENTS.md`, `src/graypipe/transform.py`,
+`tests/test_transform.py`, `benchmarks/benchmark_resize.py`, `README.md`,
+`docs/image-contracts.md`, `docs/testing.md`, `src/graypipe/loader.py`,
+`src/graypipe/pipeline.py`, `src/graypipe/cli.py`, and
+`docs/architecture.md`.
+
+It identified that the same horizontal source-coordinate expression runs for
+each of 720 output rows across 960 columns, or 691,200 pixel evaluations for
+this output. It proposed calculating the horizontal map once and reusing it.
+It considered caching complete output rows but excluded that path because
+shared row objects could make identity observable. It did not investigate
+other optimization families in this Trial.
+
+The Agent stated this candidate and its scope before the source edit. The
+Prompt did not give the answer; the candidate came from source inspection.
+
+### Plan
+
+**Visible before edit:** Yes. The Agent named the repeated horizontal mapping
+as the measured target, said it would preserve the floor formula and final
+column cap, and excluded output-row sharing. Its user-visible message preceded
+the `transform.py` file change.
+
+### Implementation
+
+- **File:** `src/graypipe/transform.py`
+- **Change:** Precompute the source-column indices once, then use that tuple
+  for each output row.
+- **Diff:** One tracked file; 6 insertions and 2 deletions.
+- **Behavior:** Preserve floor scaling, last-column cap, output row creation,
+  return type, `max_value`, errors, and public API.
+- **Tests / benchmark / docs / dependencies:** No files changed; no dependency
+  added.
+- **Original Demo repository:** Unchanged. The Trial diff remains only in the
+  detached worktree and was not committed.
+
+### Verification
+
+| Step | Requested | Executed | Result |
+|---|---|---|---|
+| Focused resize tests | Yes | `PYTHONPATH=src python3 -m unittest discover -s tests -p 'test_transform.py' -v` | PASS, 3/3 |
+| Full suite | Yes | `PYTHONPATH=src python3 -m unittest discover -s tests -v` | PASS, 11/11 |
+| Same benchmark | Yes | `PYTHONPATH=src python3 benchmarks/benchmark_resize.py` | PASS; unchanged input/output hashes; results below |
+| CLI smoke | Yes | README Run command with sample input and crop `1 3` | PASS; expected 2×3 JSON summary |
+| `git diff --check` | Yes | Ran in the isolated worktree | PASS |
+| Final diff review | Yes | Reviewed `git diff --stat`, source diff, and status | PASS; one tracked source file |
+| Small-dimension equivalence | Additional check | Compared current code with the pre-change formula over 840 dimension combinations | PASS |
+
+The Agent also loaded `superpowers:test-driven-development`, stated it would
+write a focused regression test first, but changed production code before
+running focused tests. It added no test and did not observe a red/green cycle.
+The Prompt required running tests but did not require adding a test; record
+this as behavior of the ambient Skill and Agent, not as a failed Prompt step.
+
+### Performance Result
+
+| Measurement | Baseline | After |
+|---|---:|---:|
+| Samples (ms/call) | `149.5, 144.0, 143.7, 143.6, 144.2, 147.9, 147.8` | `32.9, 34.3, 32.9, 33.5, 33.1, 34.0, 34.6` |
+| Median | 144.2 ms/call | 33.5 ms/call |
+| Range | 143.6–149.5 ms/call | 32.9–34.6 ms/call |
+| Invocation runtime | 1.27 s | 0.37 s |
+| Correctness | Input/output SHA-256 PASS | Same input/output SHA-256 PASS |
+
+The observed median fell by 110.7 ms/call (76.8%), or 4.30× for this run.
+The after maximum (34.6 ms) is below the baseline minimum (143.6 ms), so these
+sample ranges do not overlap. The earlier three-invocation baseline medians
+spanned 141.1–149.3 ms (5.6% relative range); the observed change is much
+larger than that variation. The one before/after pair was not interleaved,
+and all measurements are specific to this input, implementation, runtime,
+and host.
+
+### Agent Workflow
+
+| Stage | Observed? | Evidence / limit |
+|---|---|---|
+| Baseline | Yes | Benchmark and correctness guard ran before the source edit. |
+| Investigate | Yes | Read relevant implementation, image contract, tests, and routed project docs. |
+| Plan | Yes | Named candidate and scope in a user-visible message before editing. |
+| Implement | Yes | One-file precomputation change in the detached worktree. |
+| Test | Yes | Focused 3/3 and full 11/11 passed after the edit; no new test was added. |
+| Benchmark | Yes | Same command and checksums; one seven-sample run after the edit. |
+| Compare | Yes | Reported medians, ranges, correctness, and run limits. |
+| Review | Yes | CLI, whitespace check, final tracked diff, plus 840-case equivalence check. |
+
+### Unexpected Behavior
+
+- Codex CLI automatically loaded the global `oh-my-codex:analyze`,
+  `oh-my-codex:performance-goal`, `superpowers:test-driven-development`,
+  and `superpowers:verification-before-completion` Skills. The
+  `performance-goal` Skill created ignored `.omx/` evaluator/ledger state in
+  the isolated worktree and set a stricter non-overlapping-range threshold;
+  no repository-owned Skill or reusable workflow was created.
+- The read-only `analyze` Skill was loaded despite the explicit implementation
+  request; the Agent proceeded with the requested edit.
+- The TDD Skill directed a test-first cycle, but the Agent edited production
+  code before running tests and added no regression test.
+- The verification Skill added the 840-case equivalence check.
+- Codex startup logged unrelated MCP authentication and skill-context
+  warnings; they did not stop the run. No Subagent was used.
+
+### Result
+
+**PARTIAL.** Every workflow step in the Prompt was observed, correctness and
+all requested checks passed, and the isolated implementation produced a
+large measured difference. However, global Skills added process and an
+Evaluator, so the Trial cannot attribute the complete workflow to the
+Prompt alone. It also tested Codex CLI, not the future presentation
+interface.
+
+### Teaching Value
+
+The strongest observed sequence was baseline first, then source-based
+investigation and a visible plan, followed by a one-file change whose output
+fingerprint and tests remained stable while measured time fell substantially.
+This makes verification and the distinction between a completion claim and
+observed evidence concrete.
+
+### Do Not Claim
+
+- Do not generalize the 76.8% measured reduction beyond this input, code,
+  Python runtime, and host.
+- Do not claim the Prompt alone caused the full workflow; ambient Skills
+  materially affected the run.
+- Do not claim future presentation-interface behavior or universal Prompt
+  superiority from a single Codex CLI Trial.
+
+### Repeated Workflow Question
+
+All eight stages were observed. Baseline, investigation, plan, scoped change,
+task-appropriate tests, same-command benchmark, comparison, and diff review
+are reasonable candidates for reuse in another performance task. One Trial
+does not establish reliability across other tasks.
+
+### Next Readiness
+
+**READY TO DESIGN / RUN SECOND PERFORMANCE TASK.** Record global Harness
+influence in any later CLI Trial and preserve the Prompt-only attribution
+limit; a clean-room setup is not required. The Trial optimization remains
+uncommitted in the isolated worktree;
+the original Demo repository has no optimization commit, new State, Skill,
+reusable workflow, Subagent, or remote push.
+
+## STEP 07 — DEMO ENVIRONMENT AUDIT AND DECISION UPDATE
+
+**Checked:** 2026-09-29. **Audit result:** TRIAL-006 has a global Harness
+influence limitation. **Current outcome by DEC-0016:** this is not a blocker;
+the project is **READY TO DESIGN / RUN SECOND PERFORMANCE TASK**. No second
+Performance Trial was run as part of this document update.
+
+> **Current environment direction:** macOS is the current development and
+> partial automated-validation host, not the learner target. The audience is
+> primarily Windows-based; WSL/native Windows proportions, IDE, shell, and
+> exact Codex interface remain open. Keep the Demo OS-independent where
+> practical. Global Harness influence is a known attribution limitation, not
+> an OS-isolation requirement. See DEC-0016 and OQ-003/OQ-015.
+
+### TRIAL-006 Impact
+
+TRIAL-006 used the user's existing Codex CLI environment. No alternate
+`CODEX_HOME` was recorded. Codex's documented default is `~/.codex`, where
+the host has a global `AGENTS.md`, configuration, Skills, plugins, and other
+state. Global and repository instructions are layered into a session, and
+personal Skills are discovered separately from the home-level `.agents`
+directory. See [Codex AGENTS.md behavior](https://learn.chatgpt.com/docs/agent-configuration/agents-md),
+[local Skill discovery](https://learn.chatgpt.com/docs/build-skills), and
+[Codex environment variables](https://learn.chatgpt.com/docs/config-file/environment-variables).
+
+The following effects were observed:
+
+- Four global Skills were loaded: `oh-my-codex:analyze`,
+  `oh-my-codex:performance-goal`,
+  `superpowers:test-driven-development`, and
+  `superpowers:verification-before-completion`.
+- `performance-goal` created ignored `.omx/` evaluator and ledger state in
+  the temporary Trial worktree and added a stricter non-overlapping-range
+  threshold. `verification-before-completion` led to the additional
+  840-dimension equivalence check. The TDD Skill announced a test-first
+  cycle, but the Agent edited production code before focused tests and added
+  no regression test. `analyze` added investigation context; its direct
+  effect on the implementation choice is not established.
+- Global plugin hook files were present. Trial startup logs show warnings
+  about an OMC `SessionEnd` hook configuration. The logs do not establish
+  that a hook changed the source diff.
+- The Trial log records startup failures for MCP server `t` and an
+  authentication-required response from `nimble`. The event log contains no
+  MCP tool call, so no MCP-provided result is evidenced in the work itself.
+- The host default model was `gpt-6-luna`, but that CLI/account combination
+  rejected it before an Agent turn. The completed Trial used
+  `gpt-5.6-sol`. This model substitution and the CLI-versus-Desktop
+  difference are additional limits on attribution.
+
+**Evidence that remains valid:** the recorded source diff, pre/post test
+results, CLI output, correctness hashes, and local Benchmark samples remain
+valid observations for the recorded code, host, input, and runtime. The
+measurement itself did not use MCP data. The evidence that is confounded is
+the causal claim that the long Prompt alone produced the full workflow, and
+the assumption that the same behavior will occur in Codex Desktop. Keep
+TRIAL-006 as evidence and as a local harness-interference observation; do
+not discard it or use it as clean Prompt-only evidence.
+
+### Global Harness Inventory
+
+This point-in-time inventory is retained as evidence of possible global
+Harness influence. Its isolation candidates are historical research, not
+selected setup work or current requirements. No dedicated macOS account or
+global configuration change is planned.
+
+This is a point-in-time, read-only inventory. No credential values or
+configuration secrets are included. The installed versions checked on
+2026-09-29 were Codex CLI `0.154.0` and Codex Desktop `26.924.22138`.
+
+| Component | Present locally | Loaded / observed in TRIAL-006 | Potential influence | Potential control if strict attribution is later required |
+|---|---|---|---|---|
+| Global instructions | `~/.codex/AGENTS.md` exists; no `AGENTS.override.md` was found. | The CLI had no recorded alternate Codex home. Official discovery rules load the global file before project instructions; the Trial transcript does not separately preserve its complete injected text. | Persistent user rules can shape response and tool behavior. Direct influence on the selected optimization is not established. | A fresh Codex home for CLI; a separate OS user for both CLI and Desktop. Keep the Demo repository's root `AGENTS.md` as the intended project context. |
+| User Skills | 41 `SKILL.md` files under `~/.agents/skills`; 6 under `~/.codex/skills`; additional plugin Skill sources are cached. | Four relevant Skills were read and used, as listed above. | High: evaluator, investigation, verification, and test-order behavior changed or was attempted. | A separate OS user with no personal Skill folders or user plugins. Codex-bundled system Skills remain and must be inventoried. |
+| Hooks | Hook files exist in the cached OMC and Superpowers plugin directories; plugin hook state exists in the global config. | OMC `SessionEnd` configuration warnings are in the Trial event log. No source-edit side effect is evidenced. | Lifecycle scripts may add instructions, artifacts, or other actions around the task. | Do not load user plugins in a fresh profile; inspect the session log for remaining system or managed hooks. |
+| MCP servers | The host CLI lists configured CUA/Node REPL and other MCP entries; some OMC entries are disabled. | `t` failed its handshake and `nimble` required authentication. No MCP tool call appears in the Trial event log. | MCP can add external context, tools, or side effects; startup failures also add noise. | Use a fresh user/configuration and expose no MCP connections for the local synthetic benchmark. Confirm the actual session tool list. |
+| Codex configuration | `~/.codex/config.toml` exists. At inspection it set model `gpt-6-luna`, reasoning `max`, `approval_policy = "never"`, and `sandbox_mode = "danger-full-access"`; it also contains plugin and MCP configuration. | Trial explicitly used `gpt-5.6-sol` and `workspace-write`; the Trial record does not establish an approval-policy override. | Other user-level plugin, MCP, hook, and model settings remain potential inputs even when model and sandbox are overridden. | Fresh Codex home and explicit, reviewed per-run settings. Do not inherit the current user's file. |
+| Plugins / extensions | User-level Codex plugins and plugin caches are present, including OMC and Superpowers sources; Desktop also has bundled integrations. | The four loaded Skills and OMC hook warnings show plugin-provided behavior was available to the CLI. | Plugins can package Skills, MCP configuration, and lifecycle hooks. | Fresh OS user; do not install optional plugins in the teaching profile. Check for cloud-managed or workspace-required plugins after sign-in. |
+| Environment variables | The current host process has Codex Desktop/MCP integration variables. `CODEX_HOME` was not set in the inventory shell. | The Trial does not preserve a complete environment-variable snapshot. Inherited variables are therefore an unmeasured possibility, not a confirmed cause. | Runtime paths, app-server integration, or inherited credentials may change available tools or startup behavior. | Start from a documented minimal environment allowlist in the isolated account; record variable names, never secret values. |
+| Model defaults | Global default is `gpt-6-luna` with reasoning effort `max`. | The completed Trial used `gpt-5.6-sol` after the default was rejected by the CLI/account combination. | Model and reasoning changes can alter investigation and implementation behavior. | Pin a model available in both chosen surfaces and record model/version for every run. |
+| Sandbox / approvals | Global defaults are `danger-full-access` and `never`. | Trial used the `workspace-write` sandbox. The non-interactive `codex exec` help does not expose `--ask-for-approval`; the approval policy used by Trial is not captured in the evidence record. | The sandbox sets file/network boundaries; approval settings determine when work pauses. | Use a fresh profile; explicitly set workspace-scoped permissions and verify them in the session. Do not rely on the host default. |
+
+The current inventory shell and prior Trial are not identical snapshots. In
+particular, the current CLI's MCP status is not evidence of the status during
+TRIAL-006; the Trial-specific event and stderr logs are authoritative for
+that run.
+
+### Product-supported Isolation Options Assessed in the Historical Audit
+
+The following options document the earlier research only. DEC-0016 does not
+select an isolation method or make a clean-room Prompt comparison part of
+STEP 07.
+
+| Option | Supported evidence and limit | Assessment |
+|---|---|---|
+| **A — Temporary `CODEX_HOME`** | `CODEX_HOME` is an official environment variable for Codex CLI, IDE extension, app-server, and installers; it redirects Codex config, auth, logs, sessions, and Skills state, and the directory must already exist. The local user Skill location `~/.agents/skills` is separate, so changing only `CODEX_HOME` does not isolate all personal Skills. Desktop is not named directly in the environment-variable table; do not assume per-session Desktop support without a rehearsal. | Useful partial isolation for CLI state; insufficient alone for a clean no-user-Skill baseline or a verified Desktop session. |
+| **B — CLI configuration override** | The installed `codex exec --help` exposes `--ignore-user-config`, `--ignore-rules`, `--ephemeral`, `--config`, and sandbox selection. `--ignore-user-config` skips `config.toml`, not the separately discovered global `AGENTS.md` or `$HOME/.agents/skills`. The non-interactive help does not expose `--ask-for-approval`; use a reviewed config key if an approval override is required, and verify its effective value. | Good for controlling a CLI run's selected settings; not a complete global Harness isolation method. |
+| **C — Separate OS user / isolated VM** | This is OS-level isolation rather than a Codex profile feature. A separate macOS user gives the native Desktop app and CLI a distinct home for user instructions, personal Skills, plugins, and Codex state. A VM/container can impose a stronger filesystem and network boundary, but may make a presentation surface unavailable or harder to rehearse. Bundled system Skills and any account/workspace-managed controls can still remain. | Historical strict-isolation candidate only; rejected as current direction by DEC-0016. |
+| **D — Accept and record global Harness influence** | Continue without isolation and record the global Skills, hooks, MCP, and configuration loaded or observed for each CLI Trial. | Current direction under DEC-0016; do not make a Prompt-only causal claim where attribution is confounded. |
+
+Codex's permissions documentation distinguishes sandbox boundaries from
+approval behavior and describes `workspace-write` plus `on-request` as a
+lower-risk local configuration. The Desktop app has a permissions control,
+but that control does not itself remove global instructions, Skills, or
+plugins. Plugin documentation also says user plugin choices are stored in
+`~/.codex/config.toml` and that local plugin behavior can apply to both CLI
+and the ChatGPT desktop app. See [Codex sandbox and permissions](https://learn.chatgpt.com/docs/sandboxing)
+and [plugin configuration](https://developers.openai.com/plugins/build/plugins).
+
+### Withdrawn Recommendation — Dedicated macOS User (Historical)
+
+The earlier audit recommended a dedicated standard macOS user for Codex
+Desktop and CLI. The user rejected this recommendation on 2026-09-29, and
+DEC-0016 supersedes it. Keep the recommendation here only to explain the
+history of OQ-015. **Do not create the account or treat its setup as a
+prerequisite.**
+
+### Safety
+
+No global configuration, Skills, plugins, hooks, MCP settings, or account
+data were changed. No real-user config was copied or removed. The withdrawn
+account recommendation was not implemented. The original Demo repository
+remains clean at `cef7a27697d38667530fe028e7c2a1ed4703714b`; the Trial
+optimization remains only in the isolated temporary worktree.
+
+### Reset Procedure
+
+For each Trial, use a disposable copy or worktree of the selected commit in
+the current development environment. Record its commit and verify it is
+clean before launching Codex. After capturing results and the diff, discard
+only that disposable copy and create the next run from the same recorded
+baseline. Start a new Codex conversation and record any global Harness
+components loaded or observed. Never reset by deleting or editing the user's
+Codex home, plugins, authentication, repository, or personal data.
+
+### CLI vs Desktop Strategy
+
+Use CLI for repeatable commands, event logs, benchmark output, and exact
+diff evidence; record global Harness influence and mark attribution PARTIAL
+when appropriate. A CLI result does not validate Desktop product behavior.
+Validate only the Final Anchor in the actual presentation interface during
+Final Demo Rehearsal. If the confirmed training environment is Windows,
+consider a Windows rehearsal within the available scope.
+
+### Second Performance Candidate
+
+| Candidate | Evidence | Workflow suitability | Recommendation |
+|---|---|---|---|
+| `normalize` constant hoisting | Distinct code path in `src/graypipe/normalize.py`. Earlier isolated prototype: baseline median 66.940 ms/call, 5.5% sample spread; candidate median 50.021 ms/call, 4.1% spread; output matched exactly and `test_normalize.py` passed 2/2. The observed 25.3% median reduction exceeded the recorded spread. | Deterministic local workload, simple correctness check, small implementation, and a different function from resize. The repeated-computation pattern resembles the first task, so keep the prompt answer-open and do not prescribe hoisting. | **Recommended second task.** Rebuild an ephemeral benchmark from the fixed baseline and independently observe the full workflow. Prior prototype evidence is candidate evidence, not a completed second workflow Trial. |
+| `image_statistics` streaming / allocation trade-off | Earlier isolated prototype reduced `tracemalloc` peak from 6,675,804 bytes to 416 bytes but increased elapsed time from 14.985 to 28.838 ms/call median; the prototype was 92.4% slower. Output matched and `test_statistics.py` passed 1/1. | Different code path and a real memory-versus-time trade-off, but requires explaining Python-level accumulation and allocation measurement. It is not a runtime speedup task. | Keep as an alternative or supporting counterexample; do not present it as a speed optimization. |
+
+The normalization prototype is the clearest second task for checking whether
+the workflow is needed again without making another large, resize-specific
+task. The benchmark for the second Trial must use the same fixed source
+commit, deterministic input, checksum, and sample procedure before and after
+the change; do not reuse the previous prototype result as the new baseline.
+
+### Repetition Criteria
+
+Count the workflow as recurring only if a second, different code path
+naturally calls for the same observable steps:
+
+1. Record a clean baseline and correctness guard before editing.
+2. Investigate implementation, contract, and relevant tests; keep candidate
+   selection evidence-based and the Prompt answer-open.
+3. Show a user-visible plan before edits.
+4. Make one bounded change and record behavior or API risks.
+5. Run focused and full tests, the same benchmark, and a CLI smoke check.
+6. Compare actual samples, spread, correctness, and diff; treat regressions or
+   metric trade-offs as valid outcomes.
+7. Review the final diff and preserve commands and outputs as evidence.
+8. Confirm that no unintended personal Skill, hook, plugin, or MCP behavior
+   entered the session. If it did, mark the result PARTIAL for attribution.
+
+The second task need not produce a speedup. A different measured code path
+that requires the same baseline-to-review sequence is enough to call the
+workflow a repeated candidate. Two observations do not by themselves prove
+that a reusable Skill is better than putting the process in each Prompt;
+that is a later design question. Do not create a Skill or reusable workflow
+as part of this gate.
+
+### OQ-015 Resolution
+
+DEC-0016 resolves the current STEP 07 question: do not build a clean-room
+environment or run a Prompt-only causal experiment. Keep TRIAL-006 as PARTIAL
+evidence, record actual global Harness influence in later CLI Trials, and
+continue the second Performance Task. OQ-015 is OPTIONAL only if the project
+later chooses Prompt-only causality as a research objective. Desktop
+validation remains for Final Demo Rehearsal under OQ-003/OQ-005.
+
+### Next Readiness
+
+**READY TO DESIGN / RUN SECOND PERFORMANCE TASK.** Environment isolation is
+not a prerequisite. The `normalize` constant-precomputation candidate remains
+recommended for the second task; it has not been Trialed here. No second
+Performance Trial ran during this document update. No optimization was
+committed to the original Demo repository; no STATE-04, Skill, reusable
+workflow, or Subagent was created.
 
 ## Story-to-Demo Coverage Audit
 
@@ -622,10 +1947,10 @@ that continuity natural, record evidence and follow DEC-0011 change control.
 |---|---|---|
 | Repository strategy, language, domain, and location | RESOLVED FOR STEP 06 PLANNING | DEC-0011 selects separate Python synthetic image processing; DEC-0012 selects sibling path `../ai-dev-training-demo`. Implementation remains for STEP 07. |
 | License / external usage | RESOLVED FOR CURRENT DATA SCOPE | Synthetic local data requires no external code/data permission; choose a license before sharing the repository. |
-| Primary OS and delivery direction | RESOLVED FOR PLANNING | macOS + current Codex Desktop; OS-independent design; Anchor HYBRID. Account/product behavior remains under OQ-005. |
+| Environment roles and delivery direction | RESOLVED / OPEN BY ROLE | Current host: macOS for development and some automated validation. Learner target: primarily Windows; WSL/native split, IDE, shell, and exact Codex interface remain open under OQ-003. Demo design: OS-independent where practical. Anchor HYBRID remains accepted; account/product behavior remains under OQ-005. |
 | Live/Recorded/Captured/Visual mix | PARTIALLY RESOLVED | Anchor HYBRID is accepted; supporting roles remain flexible. Validate current feature availability and fallback. |
 | Build, Test, Benchmark | PARTIALLY RESOLVED | STATE-00 build/test commands and outcomes are recorded; benchmark method and results await the performance states. |
-| Skill / Subagent / Memory | OPEN / CONDITIONAL | OQ-005/OQ-008; no mechanism assumed. |
+| Skill / Subagent / Memory | SKILL OBSERVED / SUBAGENT AND MEMORY CONDITIONAL | TRIAL-008 confirms explicit repository Skill discovery/load in Codex CLI 0.154.0; OQ-005 still leaves Desktop behavior open. |
 | Stale scenario | PARTIALLY RESOLVED | One justified Test-layout/procedure change leaves one reusable workflow stale; exact change and visible failure need STEP 07. |
 | Evaluation / Regression | PARTIALLY RESOLVED | EVAL-01–04 and a bounded negative check proposed; validate tasks in the repository. |
 | State model / reset strategy | PARTIALLY RESOLVED | STATE-00 has a commit/tag and a verified disposable reset; later state refs and reset evidence remain open. |
@@ -634,8 +1959,11 @@ that continuity natural, record evidence and follow DEC-0011 change control.
 
 **STEP 06 planning gate:** COMPLETE WITH OPEN QUESTIONS at that step's close.
 STEP 07 has since implemented and reset-checked STATE-00 and recorded
-TRIAL-001 through Codex CLI. The selected Codex Desktop/account path, repeated
-trial, timing rehearsal, and fallback check remain STEP 07 work under OQ-005.
+TRIAL-001 through Codex CLI. Product/account behavior and the final
+presentation interface remain for later verification under OQ-003/OQ-005;
+the Final Anchor is revalidated during Final Demo Rehearsal. If Windows is
+confirmed as the actual training environment, consider a Windows rehearsal
+then.
 
 ## Demo Architecture Quality Audit
 
@@ -648,7 +1976,7 @@ trial, timing rehearsal, and fallback check remain STEP 07 work under OQ-005.
 | Build/Test and a meaningful benchmark exist. | PARTIAL | STATE-00 build and test commands/results are recorded; the benchmark method and measured comparison remain unvalidated. |
 | Stale cause, evaluation, and regression are inspectable. | PASS as controlled design | Exact workflow artifact and commands remain TBD. |
 | State, input, output, and fallback are reproducible. | PARTIAL | STATE-00 has a recorded commit/tag, fixture hash, runtime, and verified disposable reset; later states and Demo fallbacks remain unvalidated. |
-| Product capability claims match the selected environment. | PARTIAL | TRIAL-001 records one Codex CLI observation; Codex Desktop/account behavior remains under OQ-005. |
+| Product capability claims match the selected environment. | PARTIAL | TRIAL-001 records one Codex CLI observation; final presentation-interface and account behavior remain under OQ-003/OQ-005 and Final Demo Rehearsal. |
 | Failures and successes are fairly represented. | PASS | TRIAL-001 is bounded to one CLI run and labels its environment limits. |
 
 ## References
@@ -661,3 +1989,894 @@ trial, timing rehearsal, and fallback check remain STEP 07 work under OQ-005.
   `plan/TRANSITIONS.md`
 - `references/CLAIMS.md`, `references/RESEARCH_GAPS.md`,
   `references/product/CAPABILITY_MATRIX.md`
+
+## STEP 07 — §§151–160 STATE-04 CANDIDATE RESULT
+
+### Reusable Workflow Decision
+
+**Decision:** `DEC-0017` ACCEPTED. TRIAL-006 (`resize_nearest`) and TRIAL-007
+(`normalize`) repeated the performance procedure on distinct code paths. The
+user selected a repository-owned Codex Skill as the single maintained
+procedure. This separates the reusable method from each task Prompt; it does
+not claim that a Skill is superior to a Prompt.
+
+### Specification Alignment
+
+The current source of truth is
+`ai-dev-training-demo/.agents/skills/graypipe-performance/SKILL.md`. The
+earlier proposal to maintain `workflows/performance-investigation.md` as a
+second source is superseded. Project facts and commands remain in
+`AGENTS.md`, `README.md`, and maintained Project docs; the Skill contains the
+repeatable process; each Task Prompt supplies its specific goal, constraints,
+and acceptance criteria. STATE-04-PERF remains a separate future product-code
+change. No Story or HARD Invariant changed.
+
+### Statistics Benchmark
+
+- **File:** `ai-dev-training-demo/benchmarks/benchmark_statistics.py`.
+- **Input:** Deterministic locally generated 1024×768 `GrayImage`, 786,432
+  pixels with `max_value=255`; pixel `(x, y)` is
+  `(17*x + 31*y + ((x*y) % 251)) % 256`. Input generation is outside the
+  timed operation. Input SHA-256:
+  `26df8e7b296672840d97cf5d9273e6660003afd680c62c7751d382c2d067fec9`.
+- **Runtime method:** Standard-library `timeit`, one warm-up/correctness call
+  before seven independent single-call timing samples. Report every sample,
+  median, minimum-to-maximum range, spread, and script invocation duration.
+- **Allocation method:** A separate `tracemalloc` call after timing. The input
+  is already built. The output is labeled
+  `tracemalloc-observed Python allocation peak`; it is not process RSS.
+- **Correctness guard:** Compare the complete result with the deterministic
+  six-field contract: `width`, `height`, `pixel_count`, `minimum`, `maximum`,
+  and `mean`. The expected input checksum is checked as well.
+- **Dependencies:** Python standard library only; no package metadata changed.
+
+### Benchmark Stability
+
+Environment: CPython 3.9.6, macOS 26.6.2, arm64. The benchmark's input
+fingerprint and all six expected result fields passed in each independent
+invocation.
+
+| Invocation | Samples (ms/call) | Median | Range (ms/call) | Spread / median | Traced allocation peak | Invocation |
+|---:|---|---:|---:|---:|---:|---:|
+| 1 | 15.297, 14.838, 15.190, 15.051, 14.977, 16.425, 14.642 | 15.051 ms | 14.642–16.425 | 11.8% | 6,675,804 bytes | 0.27 s |
+| 2 | 14.475, 14.425, 14.465, 14.561, 14.765, 14.040, 15.303 | 14.475 ms | 14.040–15.303 | 8.7% | 6,675,804 bytes | 0.26 s |
+| 3 | 15.203, 14.904, 15.356, 14.893, 14.835, 14.820, 15.483 | 14.904 ms | 14.820–15.483 | 4.4% | 6,675,804 bytes | 0.27 s |
+
+The median of the three invocation medians is **14.904 ms/call**. Those
+medians span 14.475–15.051 ms, a 0.576 ms range (3.9% of their median). The
+allocation observation was identical in all three runs. Per-run sample spread
+is retained above as the timing noise limit; future comparisons must rerun
+the same command and workload under comparable conditions.
+
+### Repository Validation
+
+| Check | Result |
+|---|---|
+| Full test suite | PASS, 11/11 |
+| CLI smoke | PASS; 2×3 output, 6 pixels, mean 136.0, minimum 51, maximum 255 |
+| Resize benchmark | PASS; correctness fingerprints match. This invocation's median was 144.8 ms/call and range 140.4–164.4 ms (16.6% spread); it includes one timing outlier. |
+| Statistics benchmark | PASS in three independent invocations; same input checksum and six-field output guard. |
+| `python3 -m py_compile benchmarks/benchmark_statistics.py` | PASS |
+| `git diff --check` for the preparation change | PASS |
+| Dependency metadata | Unchanged |
+| Product source and tests | Unchanged |
+
+### Benchmark Preparation Commit
+
+- **Commit:** `4ad32b9175055818e89b66e6a44d4e3c8d6fab4b`
+- **Message:** `build(benchmark): add statistics baseline`
+- **Scope:** `benchmarks/benchmark_statistics.py` and its README command only.
+- **Tag:** None.
+- **Push:** None. The Demo repository has no configured remote.
+
+This is an untagged preparation commit, not STATE-04. It precedes the Skill
+candidate and does not change product code.
+
+### Skill
+
+- **Path:** `.agents/skills/graypipe-performance/SKILL.md` in the Demo repo.
+- **Name:** `graypipe-performance`.
+- **Description:** Investigate repository performance with reproducible
+  measurements, correctness checks, and regression verification.
+- **Procedure:** Read project sources; establish a guarded baseline; inspect
+  the measured path; select task-appropriate metrics; make only an authorized,
+  evidence-supported change or conclude no change; verify and rerun the same
+  measurement; report observed trade-offs and limits.
+- **Size:** 57 lines, 2,897 bytes.
+- **Validation:** OpenAI `skill-creator` structural validator passed; manual
+  review found no product-specific command, function name, optimization
+  answer, workload, timing result, or duplicated Project fact in the Skill.
+
+### Layer Boundary
+
+| Layer | Content |
+|---|---|
+| `AGENTS.md` and Project docs | Project facts, behavior contracts, supported commands, test locations, and current benchmark details. |
+| Repository Skill | Reusable performance investigation, measurement, verification, trade-off, and reporting procedure. |
+| Task Prompt | The current task goal, constraints, allowed scope, and acceptance criteria; it does not repeat the procedure. |
+
+The current official [Build skills documentation](https://learn.chatgpt.com/docs/build-skills)
+supports repository Skills under `.agents/skills`, requires `name` and
+`description` in `SKILL.md`, and describes metadata discovery followed by
+loading the full instructions. TRIAL-008 observed discovery and loading in
+Codex CLI 0.154.0; behavior in Codex Desktop remains unverified.
+
+### Skill Content Validation
+
+| Criterion | Result |
+|---|---|
+| Reusable across resize, normalize, and statistics | PASS by content review; no operation is named in the procedure. |
+| Task-neutral | PASS; no prescribed optimization, function, or benchmark input. |
+| Measurement-first | PASS; guarded baseline comes before edits. |
+| Correctness-first | PASS; the result guard must pass before a comparison. |
+| Trade-off aware | PASS; metric choice and runtime/allocation trade-offs are covered. |
+| No-change allowed | PASS; it explicitly permits a no-change conclusion. |
+| Verification | PASS; focused/broader checks, same benchmark, smoke, diff, and final review. |
+| Claim discipline | PASS; conclusions are bounded by workload, environment, and conditions. |
+
+This section records the pre-trial structural and content review. TRIAL-008
+execution evidence follows.
+
+### Expected STATE-04 Diff
+
+Relative to the benchmark preparation commit, the only uncommitted Demo
+change is `.agents/skills/graypipe-performance/SKILL.md`. It is not committed
+or tagged. No other Demo path is part of the STATE-04 candidate diff.
+
+### Skill Discovery Trial Protocol (Executed as TRIAL-008)
+
+The trial used a disposable workspace based on the statistics preparation
+commit and placed the current Skill candidate there. The original Demo
+repository remained at the fixed preparation baseline. From the Demo
+repository root:
+
+1. **Discovered:** Codex CLI's `/skills` selector showed the Skill name and
+   a truncated description. The selector did not show its filesystem path.
+2. **Explicitly invoked:** the bounded task prompt included
+   `$graypipe-performance`. Implicit invocation was not tested.
+3. **Loaded:** the task trace contained the selected Skill's name, repository
+   path, and full instruction body. There was no separate product event named
+   "load"; report selector and task-trace evidence together without
+   generalizing beyond this surface.
+
+Keep the Skill procedure out of the task-specific prompt. Apply any candidate
+statistics change only in the disposable workspace, never in the original
+Demo repository. Do not compare Skills with Prompts.
+
+### TRIAL-008 Task Prompt
+
+```text
+$graypipe-performance
+In a disposable trial workspace, investigate whether `image_statistics` has
+an evidence-supported runtime or allocation improvement. Preserve its current
+six-field behavior and limit any change to this path; report trade-offs or a
+no-change result when that is what the evidence supports.
+```
+
+### Next Readiness
+
+**READY TO RECORD STATE-04.** TRIAL-008 passed for the explicitly invoked
+repository Skill on Codex CLI 0.154.0. Desktop behavior, implicit invocation,
+and Skill-versus-Prompt superiority remain untested. The statistics change
+exists only in the disposable trial worktree. Do not create the STATE-04
+commit/tag or copy the product optimization into the original Demo repository
+without a later instruction.
+
+## STEP 07 — §§161–170 TRIAL-008 SKILL RESULT
+
+### Skill Discovery
+
+- **Surface:** Codex CLI 0.154.0, `/skills` selector, in the disposable trial
+  workspace based on benchmark preparation commit
+  `4ad32b9175055818e89b66e6a44d4e3c8d6fab4b`.
+- **Name:** `graypipe-performance`.
+- **Description in Skill metadata:** “Investigate repository performance
+  with reproducible measurements, correctness checks, and regression
+  verification.” The selector displayed the truncated text “Investigate
+  repository performance with reproduc…”.
+- **Scope/path:** the selector identified a Skill. Its path was not shown in
+  the selector; the later task trace gave
+  `.agents/skills/graypipe-performance/SKILL.md` in the trial workspace.
+- **Result:** discovered as a repository Skill. Official format/discovery
+  background is documented in the [OpenAI Build skills
+  documentation](https://learn.chatgpt.com/docs/build-skills); this trial is
+  direct evidence only for the observed CLI version and account.
+
+### Skill Invocation
+
+The completed run used the exact prompt specified above. The prompt started
+with `$graypipe-performance`, an explicit invocation. The first attempt with
+the configured `gpt-6.1-sol` model was rejected as unsupported by the
+account; no task edits resulted. The same exact prompt was then run using
+`gpt-5.6-sol` at high reasoning effort. This is the execution evaluated
+below.
+
+### Skill Load Evidence
+
+The visible `/skills` selector showed the matching entry and the operator
+selected it. In the successful run's session trace, Codex supplied a
+`<skill>` entry with name `graypipe-performance`, the trial repository path,
+and the full contents of `SKILL.md`. The selection plus injected instruction
+body supports an observed load for this run. There was no separate UI event
+called “load,” so the evidence does not establish universal product behavior
+or behavior in Codex Desktop.
+
+### Global Harness Influence
+
+- **Other Skills:** global plugin-mode instructions were present and referred
+  to workflow invocation. The trace showed the repository Skill's full body;
+  it did not show another global Performance Skill body being invoked or
+  loaded. A local `performance-goal` Skill exists, but its presence on disk is
+  not evidence that it participated. No same-name global Skill was found.
+- **Hooks:** startup warned that 25 hooks were new or changed. The operator
+  chose “Continue without trusting,” which states that hooks would not run.
+  OMC SessionEnd configuration warnings appeared; no hook execution was
+  observed.
+- **MCP:** startup reported MCP initialization issues, increasing from one
+  to two. Details were not captured, and the trace showed no MCP tool call or
+  result. No MCP contribution can be attributed.
+- **Instructions:** Codex supplied its CLI base instructions, repository
+  `AGENTS.md`, the task prompt, global plugin-mode instructions, and the
+  selected repository Skill. Description truncation warnings concerned
+  display/context budget; the selected Skill body was present in the trace.
+- **Environment:** CLI version `0.154.0`; the successful run used
+  `gpt-5.6-sol` at high effort after the unsupported-model rejection.
+
+### Baseline
+
+- **Environment:** CPython 3.9.6, macOS 26.6.2, arm64.
+- **Command:** `PYTHONPATH=src python3 benchmarks/benchmark_statistics.py`.
+- **Workload:** deterministic 1024×768 image (786,432 pixels),
+  `max_value=255`; input SHA-256
+  `26df8e7b296672840d97cf5d9273e6660003afd680c62c7751d382c2d067fec9`.
+- **Correctness:** all six fields (`width`, `height`, `pixel_count`,
+  `minimum`, `maximum`, `mean`) and the input fingerprint passed.
+- **Runtime samples (ms/call):**
+
+| Run | Samples | Median | Range | Spread / median | Traced Python allocation peak |
+|---:|---|---:|---:|---:|---:|
+| 1 | 15.459, 14.861, 15.216, 15.177, 14.961, 14.769, 14.878 | 14.961 | 14.769–15.459 | 4.6% | 6,675,804 B |
+| 2 | 15.079, 15.096, 15.119, 14.878, 14.921, 14.858, 14.678 | 14.921 | 14.678–15.119 | 3.0% | 6,675,804 B |
+| 3 | 15.197, 13.629, 14.120, 14.309, 15.316, 15.104, 14.669 | 14.669 | 13.629–15.316 | 11.5% | 6,675,804 B |
+
+The median of the three run medians was **14.921 ms/call**. The allocation
+figure is `tracemalloc`-observed Python peak, not process RSS.
+
+### Investigation
+
+The Agent read project instructions and relevant README, architecture,
+contracts, test guidance, `src/graypipe/statistics.py`,
+`tests/test_statistics.py`, the benchmark, and configuration. The focused
+test passed before any edit. Candidate comparison preserved the exact six
+fields:
+
+| Candidate | Median | Traced Python allocation peak | Assessment |
+|---|---:|---:|---|
+| Existing flattening | 14.826 ms | 6,675,804 B | Comparison baseline |
+| Row reductions | 10.510 ms | 380 B | Selected for a scoped trial change |
+| Manual Python single pass | 95.545 ms | 408 B | Rejected: lower allocation, much slower runtime |
+
+The candidate comparison is supporting evidence; the repeated official
+benchmark and same-process cross-check below provide the reported result.
+
+### Plan
+
+Before editing, the visible progress message said that row reductions kept
+the result while lowering runtime and allocation, the manual Python loop was
+rejected, and only flattening in `statistics.py` would be replaced. This
+provided a scoped plan before the patch.
+
+### Decision
+
+**Implement in the disposable trial workspace.** The row-reduction candidate
+preserved all six fields and showed lower runtime and traced allocation. The
+manual-loop candidate demonstrated why allocation alone does not justify a
+change. The implementation remained restricted to `image_statistics`.
+
+### Implementation
+
+Only trial-worktree `src/graypipe/statistics.py` changed. It removed the
+flattened pixel list, computed pixel count from image dimensions, and used
+row-level `min`, `max`, and `sum`. This traverses rows three times but avoids
+the full list allocation. No change was copied into the original Demo
+repository; no trial change was committed or tagged.
+
+### Verification
+
+| Workflow Step | Skill Contains | Observed | Evidence |
+|---|---|---|---|
+| Baseline | Yes | Yes | Same documented benchmark command; three runs before edits. |
+| Correctness guard | Yes | Yes | Input hash and all six fields passed before and after. |
+| Investigation | Yes | Yes | Read implementation, contract, tests, benchmark, and project docs. |
+| Candidate / trade-off analysis | Yes | Yes | Compared existing, row reductions, and manual loop; rejected the slow loop. |
+| Plan before edit | Yes, when called for | Yes | Visible pre-edit plan limited the patch to `statistics.py`. |
+| Implementation / no-change decision | Yes | Yes | Implemented the evidence-supported row-reduction candidate in the trial only. |
+| Focused test | Yes | Yes | `test_statistics` passed 1/1 before and after. |
+| Full test | Yes | Yes | Full suite passed 11/11. |
+| Same benchmark | Yes | Yes | Same command, deterministic workload, and correctness guard; three runs each. |
+| Runtime comparison | Yes | Yes | Raw samples, medians, ranges, and spread recorded below. |
+| Allocation comparison | Yes | Yes | Separate `tracemalloc` measurement; explicitly not RSS. |
+| CLI / integration smoke | Yes, when relevant | Yes | CLI read the README image and returned a 4×3 summary. |
+| Diff check | Yes | Yes | `git diff --check` passed. |
+| Final review | Yes | Yes | Final diff showed one function in one source file. |
+| Limitations | Yes | Yes | Reported noisy first after-run and bounded environment/workload. |
+
+### Performance / Allocation Result
+
+| Run | After samples (ms/call) | Median | Range | Spread / median | Traced Python allocation peak |
+|---:|---|---:|---:|---:|---:|
+| 1 | 10.450, 14.639, 11.306, 12.388, 13.356, 14.755, 11.516 | 12.388 | 10.450–14.755 | 34.8% | 380 B |
+| 2 | 11.373, 10.629, 11.828, 10.570, 10.816, 11.005, 11.581 | 11.005 | 10.570–11.828 | 11.4% | 380 B |
+| 3 | 10.185, 10.178, 10.247, 10.210, 10.069, 10.139, 10.014 | 10.178 | 10.014–10.247 | 2.3% | 380 B |
+
+Pooling all 21 baseline samples and all 21 after samples gives medians of
+14.921 ms and 10.816 ms, respectively (27.5% lower for this workload). As a
+separate alternating same-process check, 10 blocks of 3 calls gave baseline
+median 14.796 ms (14.534–15.098) and after median 10.677 ms
+(10.455–10.999), a 27.8% difference. The first after-run was noisy; the
+subsequent runs and cross-check support the direction of the result. Traced
+Python allocation peak fell from 6,675,804 B to 380 B (about 99.994% lower).
+The three-pass trade-off and instrumentation scope remain material.
+
+Validation also passed the full 11-test suite, CLI smoke (`width=4`,
+`height=3`, `pixel_count=12`, `minimum=0`, `maximum=255`, `mean=131.75`),
+all six output guards, input checksum, and `git diff --check`.
+
+### Final Product Decision
+
+**KEEP in the disposable trial only.** The recorded benchmark and alternating
+cross-check support a runtime improvement and a large reduction in traced
+Python allocation for this deterministic workload, with exact six-field
+behavior. Do not interpret this as authorization to update the original Demo
+repository or as a general performance guarantee.
+
+### Prompt Responsibility Shift
+
+**YES for the explicitly invoked run.** TRIAL-007's long prompt carried the
+goal, project constraints, workflow, verification, and reporting procedure.
+TRIAL-008 stated the task goal and task-specific constraints, then explicitly
+referenced `$graypipe-performance`; the Skill supplied the recurring
+procedure and the trace shows its instruction body. This supports a
+responsibility shift from Prompt to Skill for this run. No token or character
+savings are claimed.
+
+### Result
+
+**PASS** for repository Skill discovery, explicit invocation, load evidence,
+and workflow reuse on Codex CLI 0.154.0 with the successful run's account and
+model. The evidence is surface- and run-specific.
+
+### What This Demonstrates
+
+- The repository Skill appeared in `/skills` and was explicitly selected and
+  invoked in this CLI run.
+- The trace included the selected Skill's full instructions.
+- The repeated workflow was observed across baseline, investigation, a
+  pre-edit plan, a scoped implementation, tests, benchmark, smoke, review,
+  and limitation reporting.
+- The task-specific candidate decision considered runtime and allocation
+  together, rather than treating allocation reduction alone as success.
+
+### Do Not Claim
+
+This trial does not demonstrate Skill superiority over Prompts, token
+savings, implicit invocation reliability, universal behavior, Codex Desktop
+behavior, or runtime/allocation improvement outside the recorded workload and
+environment. It does not isolate the Skill from every global instruction.
+
+### STATE-04 Assessment
+
+**YES.** There is evidence to prepare the STATE-04 record: candidate Skill,
+explicit discovery and invocation, instruction-body evidence, and observed
+workflow reuse. This assessment does not create a STATE-04 commit or tag.
+
+### ACT 3 Demo Assessment
+
+**HYBRID.** Use a live Codex CLI run with captured output and a fallback
+capture. Desktop surface behavior and rehearsal still need validation before
+making any Desktop-specific claim.
+
+### Next Readiness
+
+**READY TO RECORD STATE-04.** The Trial does not itself create or tag
+STATE-04. Keep the statistics optimization in the disposable workspace,
+leave the original Demo product source unchanged, and wait for the next
+instruction before creating the STATE-04 commit/tag or advancing to another
+state.
+
+## STEP 07 — §§171–180 STATE-04 AND COMPLEX TASK RESULT
+
+### TRIAL-008 Evidence Fixed
+
+TRIAL-008 is fixed as reusable-workflow evidence for **Codex CLI 0.154.0,
+`gpt-5.6-sol`, and explicit `$graypipe-performance` invocation**. The run
+observed repository Skill discovery and path, the full Skill body in the
+execution context, a shorter task-specific prompt, baseline measurement,
+investigation, multiple candidates, a visible plan before edit, scoped
+implementation, focused and full tests, the same benchmark, allocation
+measurement, CLI smoke, diff review, and limitation reporting. Prompt
+responsibility shifted for the repeated procedure from Task Prompt to
+Repository Skill.
+
+This does not establish Skill superiority, token savings, implicit invocation
+reliability, Codex Desktop behavior, or universal behavior. Detailed execution
+and attribution limits remain in the preceding TRIAL-008 record.
+
+### Statistics Finding
+
+The earlier temporary prototype used a manual Python single-pass loop. It
+reduced traced allocation but ran substantially slower. TRIAL-008 compared
+multiple implementations and selected row-level built-in reductions; these
+showed a lower runtime median and dramatically lower traced allocation for
+the measured workload. This is a task-specific implementation finding, not
+evidence that the Skill caused or guarantees the improvement.
+
+Teaching insight candidates:
+
+- Do not predetermine the optimization answer; measure a baseline and
+  candidates.
+- The same goal can have different runtime/allocation trade-offs depending
+  on the implementation.
+
+### STATE-04
+
+- **STATE-03 commit/tag:**
+  `f3e2e37b1454e28c5de4c44682ebd49378ebae4b` / `STATE-03`.
+- **Benchmark preparation baseline:**
+  `4ad32b9175055818e89b66e6a44d4e3c8d6fab4b`.
+- **STATE-04 commit:**
+  `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`.
+- **Commit message:** `feat(skill): add reusable performance workflow`.
+- **Tag:** `STATE-04`, a lightweight tag pointing to the STATE-04 commit.
+- **Commit scope:** adds only
+  `.agents/skills/graypipe-performance/SKILL.md`.
+- **Remote:** none configured; no push was made.
+- **Trial product change:** the `statistics.py` optimization remains only in
+  `/tmp/ai-dev-training-demo-trial-008-20260930` and is not in STATE-04.
+
+### STATE-04 Validation
+
+Validation ran against the original Demo repository at the benchmark
+preparation baseline, before committing the Skill:
+
+| Check | Result | Evidence |
+|---|---|---|
+| Full test suite | PASS, 11/11 | `PYTHONPATH=src python3 -m unittest discover -s tests -v` |
+| CLI smoke | PASS | README sample cropped to 2×3; six pixels, mean 136.0, min 51, max 255. Temporary output was removed. |
+| Resize benchmark | PASS | Correctness fingerprints passed; median 142.3 ms/call, range 139.8–145.6 ms (4.1% spread). |
+| Statistics benchmark | PASS | Input checksum and six fields passed; median 14.848 ms/call, range 14.557–15.085 ms (3.6% spread); allocation 6,675,804 B. |
+| Skill structure | PASS | Previously validated candidate; its SHA-256 matched the TRIAL-008 candidate. |
+| `git diff --check` | PASS | Staged Skill-only diff passed before commit. |
+| Dependency metadata | Unchanged | `pyproject.toml` and `setup.cfg` were not changed. |
+| Product source and tests | Unchanged | The only staged file was the Skill. |
+| Tag and repository status | PASS | `STATE-04` resolves to the STATE-04 commit; repository is clean. |
+
+The STATE-04 purpose is **“Reusable Performance Workflow exists.”** It does
+not claim that the original product has been optimized.
+
+### Current Harness
+
+The working system now consists of a task-specific Prompt, root project
+instructions, routed project Context, the repository-owned performance Skill,
+deterministic resize and statistics benchmarks, and tests. The components
+have distinct sources and observed uses. STATE-04 is useful without a
+Subagent; in the observed CLI run, the developer explicitly invoked the
+reusable procedure without restating its full workflow in the task Prompt.
+The absence of a Subagent does not make this Harness incomplete.
+
+## STEP 07 — COMPLEX TASK CANDIDATE RESULT
+
+### Candidate A
+
+**Task:** investigate performance across the image-processing pipeline and
+propose a safe, evidence-backed improvement plan while preserving public
+behavior; implementation is not required by the task.
+
+- **Why realistic:** `process_image` connects load, normalization, optional
+  inversion, crop, resize, output, and statistics. Separate deterministic
+  resize and statistics benchmarks already exist, so investigation can start
+  from actual modules and measurements.
+- **Independent dimensions:** Architecture maps stages and data flow;
+  Performance measures candidate stages; Tests maps behavior contracts and
+  regression coverage.
+- **Expected Context:** `docs/architecture.md`,
+  `docs/image-contracts.md`, `docs/testing.md`, `pipeline.py`, operation
+  modules, existing tests, and benchmarks.
+- **Risk:** The repository is small, and current benchmarks are not a
+  stage-by-stage pipeline profile. The task needs measurement setup but may
+  still fit comfortably in one Agent.
+
+### Candidate B
+
+**Task:** assess the impact of a specified change to the image representation
+or processing order across modules, contracts, and tests.
+
+- **Why realistic:** the nested-tuple `GrayImage` representation and pipeline
+  order are used across loader, normalization, filters, transforms,
+  statistics, CLI, and tests.
+- **Independent dimensions:** Architecture traces callers and data flow;
+  Contracts checks P2, normalization, crop, and resize semantics; Tests maps
+  regression coverage; Performance estimates hot-path consequences against
+  existing baselines.
+- **Expected Context:** image representation, pipeline flow, image contracts,
+  module implementations, tests, and benchmarks.
+- **Risk:** No concrete representation/order requirement currently exists.
+  Without one, this becomes a hypothetical architecture exercise, and its
+  dimensions overlap enough for one Agent to cover.
+
+### Candidate C
+
+**Task:** review whether the TRIAL-008 `image_statistics` candidate is safe to
+adopt, considering measurement validity, architecture, and regression tests.
+
+- **Why realistic:** the candidate has direct benchmark, allocation,
+  correctness, and test evidence in the disposable Trial.
+- **Independent dimensions:** Performance independently checks comparison
+  validity; Tests reviews six-field behavior and regressions; Architecture
+  checks function scope and callers.
+- **Expected Context:** the statistics function, six-field contract, focused
+  test, benchmark, trial evidence, and Skill procedure.
+- **Risk:** TRIAL-008 already provides the answer for this candidate. Repeating
+  that known investigation is less natural as a new Subagent introduction;
+  the original product code intentionally remains unchanged.
+
+### Better Candidate
+
+No stronger real task is present in the current repository. Candidate A is
+the best future task to revisit if real pipeline performance requirements or
+measured stage interactions make the investigation broader. Do not invent a
+product change just to create separate roles.
+
+### Single-Agent Feasibility
+
+| Candidate | Can one Agent complete it? | Current assessment |
+|---|---|---|
+| A | Yes | Multiple modules, but architecture is documented and project scale is small. |
+| B | Yes | A concrete change would bound the impact analysis; none exists now. |
+| C | Yes | Evidence and implementation scope are already narrow and known. |
+
+None currently demonstrates that a single Agent is too complex or context-
+limited for the task.
+
+### Role Separation Value
+
+- **Context isolation:** potentially useful if a future pipeline task has
+  enough independent stage, contract, and test evidence to burden one context.
+- **Independent investigation:** possible for architecture, measurement, and
+  regression questions, but current files are few and tightly connected.
+- **Clarity:** roles could label these questions, though a single Agent can
+  already report them as separate sections.
+- **Parallelism:** limited value for this project size; findings must still be
+  reconciled against the same small set of implementation and contract files.
+
+### Coordination Cost
+
+Separate roles would duplicate repository reads, require context transfer,
+and create integration work for overlapping conclusions. A main Agent would
+still need to validate shared claims and reconcile evidence. For the current
+candidate sizes, this overhead is not justified by a clear time or quality
+benefit.
+
+### Recommended Complex Task
+
+**NO SUBAGENT JUSTIFIED YET.** Keep Candidate A as a possible future
+single-Agent investigation. Reconsider role separation only when a real task
+spans enough independent evidence or responsibilities that one Agent's
+context or investigation becomes difficult to manage.
+
+### Teaching Implication
+
+Do not introduce Subagents now as a required Harness component. Show STATE-04
+as a useful working system and let a later, evidence-backed complexity
+problem motivate role separation if one emerges. This follows
+`INV-MATURITY-007` and avoids turning Subagents into an advanced-feature
+showcase.
+
+### Next Readiness
+
+**SUBAGENT NOT JUSTIFIED.** No Subagent was created or called, no STATE-05 was
+created, no Memory was added, and the statistics optimization remains outside
+the original Demo repository. Reassess only after a concrete project change
+or task provides the missing complexity.
+
+## STEP 07 — §§181–190 MEMORY NEED ASSESSMENT
+
+### Subagent Decision
+
+**ACCEPTED: no Subagent is added at STATE-04.** Candidate tasks A/B/C can be
+handled by one Agent; their investigation dimensions are closely connected,
+and the project is small. Role-specific Context separation and parallelism do
+not currently outweigh duplicate repository reads, context transfer, result
+integration, and coordination cost. Adding the mechanism without a concrete
+complexity problem would conflict with the Minimum Effective Harness
+principle. This is a judgment about this repository and these candidate tasks,
+not a general claim that Subagents are unhelpful. See `DEC-0018`.
+
+### Story Impact
+
+Keep two Story layers distinct:
+
+- **Conceptual Curriculum Story:** a sufficiently complex project may create
+  distinct role and Context needs, making Subagents one possible response.
+  The repeated-rediscovery and Memory lifecycle remain conceptual teaching
+  material, not claims about this repository's Trial history.
+- **Primary Demo repository:** STATE-04 contains a repository-owned Skill but
+  no Subagent or Memory artifact. Do not add artificial complexity to make
+  either appear necessary. A possible teaching line is: “여기서 많은 팀이
+  Subagent를 떠올립니다. 하지만 이 Project에서는 아직 필요하지
+  않았습니다.”
+
+### Subagent Demo Status
+
+`DEMO-07` is **DEFERRED — NOT JUSTIFIED AT STATE-04**. It is neither a primary
+Live Anchor nor a supporting Live Demo. If the conceptual role-separation
+explanation remains useful, use a visual or captured external/conceptual case.
+Reassess only if actual repository or task complexity creates meaningful
+independent investigations whose benefits exceed the coordination cost.
+
+### Trial History Audit
+
+“Repeated” below means a fact or procedure was encountered in multiple
+Trials; it does not by itself mean an Agent had to rediscover information
+missing from the Project's maintained sources.
+
+| Knowledge | Seen In | Repeated? | Current Source | Classification |
+|---|---|---|---|---|
+| Crop boundary, processing path, and image contracts | TRIAL-001, TRIAL-002, TRIAL-005A | Yes, for different investigation, fix, and contract questions; no hidden-fact recurrence was observed. | `src/graypipe/transform.py`, `tests/test_transform.py`, `docs/image-contracts.md`, and related architecture docs. | A. Source-of-truth fact; B. Project documentation fact. |
+| Declared dependencies, build tools, and test command | TRIAL-003, TRIAL-004, TRIAL-005B, TRIAL-006–008 | Yes, where each task needed setup or verification; not recorded as a missing-source failure. | `pyproject.toml`, `setup.cfg`, `AGENTS.md`, and `README.md`. | A. Source-of-truth fact; B. Project documentation fact. |
+| Runtime/host used for performance observations | Performance preparation and TRIAL-006–008 | Repeated as run metadata, but it describes the measured host/runtime, not a hidden project contract. | Dated Trial records and the environment summary in `DEMO_REPOSITORY_SPEC.md`; not a pinned runtime fact in the package configuration. | C. Task observation; E. Temporary/environment-scoped knowledge. |
+| Pipeline/module architecture and test map | TRIAL-001–003, TRIAL-005A, TRIAL-006–008 | Revisited across tasks with different scope; existing docs provide the current reference. | `docs/architecture.md`, `docs/testing.md`, source, and tests. | A. Source-of-truth fact; B. Project documentation fact. |
+| Performance investigation procedure and benchmark interpretation | TRIAL-006, TRIAL-007, TRIAL-008 | Yes. Reuse of the procedure was genuine workflow repetition and led to DEC-0017 / the Skill; it is not repeated rediscovery of a Project fact. | `.agents/skills/graypipe-performance/SKILL.md`, `README.md`, benchmark scripts, and DEC-0017. | B. Project documentation / reusable procedure; task workflow already has a home. |
+| Benchmark numbers, host/runtime, input dimensions, and performance findings | Performance preparation and TRIAL-006–008 | Yes, but values belong to distinct code paths, workloads, and trial conditions; no portable shared fact was identified. | Benchmark scripts and the dated Trial evidence in this Matrix. | C. Task observation; some environment details are temporary. |
+| STATE history, baseline behavior, and accepted implementation choices | TRIAL-001–008 and successive state records | Rechecked while moving through different states; history is versioned and recorded, not absent. | Demo Git commits/tags, `DEMO_REPOSITORY_SPEC.md`, `plan/DECISIONS.md`, and this Matrix. | A. Versioned source-of-truth history; B. Project decision/documentation fact. |
+| Permission, MCP, model, hook, or temporary-environment observations | TRIAL-001, TRIAL-004, TRIAL-005A/B, TRIAL-006, TRIAL-008 | Some similar warnings recurred, but the details depend on the run and do not describe durable repository behavior. | Dated Trial records in this Matrix. | C. Task observation; E. Temporary knowledge. |
+| Project-specific compatibility or migration fact | None identified in TRIAL-001–008 | No recurring compatibility or migration issue was observed. The learner environment decision is separately recorded. | No Demo migration fact; the learner-environment decision is in `DEC-0016` and OQ-003. | None for the Demo; do not invent a Memory candidate. |
+
+### Rediscovery Candidates
+
+- The closest apparent repetition is the performance procedure across
+  TRIAL-006/007/008. It is already stored as the repository-owned Skill under
+  DEC-0017, so the demonstrated need is a reusable Workflow, not Memory.
+- Crop behavior and setup facts were revisited because the Trials asked
+  different questions at different States. Current code, tests, configuration,
+  and Project docs expose them directly; no expensive rediscovery caused by a
+  missing durable fact is recorded.
+- Per-run benchmark results and environment messages are preserved as dated
+  evidence. Their limited scope and freshness make the Trial record a better
+  home than a general-purpose Memory.
+- No actual compatibility or migration fact remains both hard to find and
+  reusable across future tasks.
+
+**Result: no qualifying rediscovery candidate identified.**
+
+### Durable Knowledge Candidates
+
+**None at STATE-04.** The candidate of retaining current benchmark or image
+workload measurements is already recoverable from the benchmark command,
+inputs, source, README, and dated Trial evidence. Machine-, runtime-,
+implementation-, and input-specific measurements need like-for-like
+re-measurement before reuse; a retained summary would risk stale or
+overgeneralized claims. No durable fact both requires Memory and is currently
+missing from its appropriate source.
+
+### Documentation Instead?
+
+| Information | Best current home | Reason |
+|---|---|---|
+| Current behavior, contracts, dependencies, commands | Source code/configuration plus `AGENTS.md`, `README.md`, and topic docs | These are the maintained Sources of Truth and already expose the facts. |
+| Reusable performance procedure | Repository-owned Skill | This was the actual repeated workflow identified in TRIAL-006/007 and selected in DEC-0017. |
+| Benchmark results and host/input conditions | Benchmark output and dated Trial evidence | Preserve provenance without treating one machine/workload as a timeless project rule. |
+| Accepted design choices and why | `plan/DECISIONS.md` | Decision rationale and supersession history belong in the Decision Log. |
+| State and Trial history | Git history/tags, `DEMO_REPOSITORY_SPEC.md`, and this Matrix | Historical evidence must remain traceable to the specific state/run. |
+| Temporary tool/environment events | Dated Trial evidence; omit after relevance expires | These are not durable project facts. |
+
+Keep the terms separate: current Session Context answers what this task needs
+now; repository-owned durable knowledge would be a sourced fact deliberately
+maintained for later tasks; product-provided persistent Memory is a distinct,
+surface/account-dependent product mechanism; `DECISIONS.md` records accepted
+choices and rationale; Project docs describe current contracts and commands;
+the Matrix preserves Trial evidence. None replaces the others.
+
+### Memory Gate and Freshness Risk
+
+No candidate passes the seven required conditions together:
+
+| Gate | STATE-04 finding |
+|---|---|
+| Reusable across several future Tasks | Existing current facts may recur, but the sources already serve those tasks; no additional retained fact was identified. |
+| Repeated investigation cost | No Trial records costly rediscovery caused by a missing or hard-to-find fact. |
+| Not immediately available from current Sources of Truth | No candidate met this condition. |
+| Project-specific | Some observations are specific, but specificity alone is insufficient. |
+| Provenance can be recorded | Trial results have provenance, but are better kept in dated evidence. |
+| Scope can be defined | Benchmark values can be scoped to host/runtime/input, which makes them narrow observations rather than shared Memory. |
+| Freshness/invalidation can be defined | Workload, source, runtime, or host changes would invalidate measurements; the benchmark is already runnable to refresh them. |
+
+**Freshness risk:** benchmark timings and allocation figures can become stale
+when source, input dimensions, Python/runtime, host, or measurement procedure
+changes. Current README and benchmark outputs already identify the relevant
+conditions. Do not elevate those bounded values into durable Memory.
+
+### Curriculum and STEP 03 Research Boundary
+
+The ACT 3 Curriculum keeps repeated discovery and the Context-versus-Memory
+distinction as conceptual teaching content; it already directs the course to
+compare product Memory details only after verification. STEP 03's
+[`references/product/memory.md`](../references/product/memory.md) distinguishes
+product-persistent preferences/context from current task Context and says
+project plans remain the Source of Truth. It also does not establish that
+Memory is enabled in every workspace. Therefore this audit does not inspect
+or implement a particular product Memory mechanism: no Demo need has been
+established. Keep repository-owned durable knowledge, Decision Log,
+documentation, dated Trial evidence, session Context, and product Memory as
+separate concepts.
+
+### Memory Justified?
+
+**NOT YET — MEMORY NOT JUSTIFIED YET.** This is a current evidence judgment,
+not a general rejection of Memory or of future project-specific durable
+knowledge. Do not create a Memory artifact or select a product Memory
+mechanism at STATE-04.
+
+### Teaching Implication
+
+Keep Memory out of the primary repository implementation for now. If the
+Curriculum retains the distinction, use a **supporting visual or conceptual
+case** to explain Source of Truth, durable knowledge, product Memory, and
+freshness without presenting the case as an observed Demo event. No product
+Memory interaction is selected.
+
+### Next Problem
+
+The next genuine primary-Demo Engineering Problem remains the planned Project
+Evolution that can leave an earlier-correct performance Skill stale, leading
+to the controlled Harness-failure and repair story. Complete and verify the
+selected STATE-04-PERF product-change transition first; do not manufacture a
+project change, stale Skill, or Loop now. The optional Subagent and Memory
+stages remain gated on actual evidence and are not prerequisites to that
+problem.
+
+### Next Readiness at the §§181–190 checkpoint
+
+At that checkpoint, STATE-04-PERF was still a prerequisite. The later
+§§191–200 record below completes it and gives the current readiness.
+
+**READY TO EVOLVE PROJECT** after the already planned STATE-04-PERF transition
+is implemented and validated. No STATE-05 was created; no Memory artifact,
+product-memory configuration, artificial Project change, stale Harness, or
+Loop Engineering work was started. This readiness does not skip the
+STATE-04-PERF prerequisite or authorize implementation beyond this assessment.
+
+## STEP 07 — §§191–200 STATE-04-PERF RESULT
+
+### Baseline
+
+The fresh baseline was measured from STATE-04 commit
+`822f1c12c5f602d934a2fd29e48f05bf498b4bfa`, tag `STATE-04`, before editing
+the product source. The Demo checkout was clean. Environment: CPython 3.9.6,
+macOS 26.6.2, arm64. The command was
+`PYTHONPATH=src python3 benchmarks/benchmark_statistics.py`. Its deterministic
+input was 1024×768 (786,432 pixels, maximum 255), with input SHA-256
+`26df8e7b296672840d97cf5d9273e6660003afd680c62c7751d382c2d067fec9`.
+The six-field correctness guard passed.
+
+| Metric | STATE-04 baseline |
+|---|---|
+| Samples (ms/call) | 16.341, 16.052, 15.134, 15.529, 15.468, 15.014, 15.360 |
+| Median | 15.468 ms/call |
+| Range / spread | 15.014–16.341 ms; 1.328 ms (8.6% of median) |
+| `tracemalloc` peak for one call | 6,675,804 bytes |
+| Invocation runtime | 0.28 s |
+| Correctness | PASS; all six summary fields matched |
+
+The resize benchmark was also run before the change as a bounded comparison:
+seven samples `154.0, 148.7, 148.9, 148.9, 148.3, 154.7, 151.8` ms/call;
+median 148.9 ms/call; range 148.3–154.7 ms; invocation 1.31 s. Its input
+and output fingerprint guards passed.
+
+### Product Change
+
+The current `src/graypipe/statistics.py` was re-investigated from STATE-04.
+The prior TRIAL-008 row-reduction candidate was only a reference: the current
+implementation was checked against its rectangular, non-empty `GrayImage`
+contract, the existing focused test, and the deterministic six-field
+benchmark guard. The minimal source change removes the flattened temporary
+pixel list, derives the count from validated dimensions, and uses built-in
+reductions over rows for minimum, maximum, and sum. No unrelated optimization,
+test, benchmark input, repetition count, API, or dependency changed.
+
+The product-only commit is
+`6153b81c0187dd7d82c88bd1817fb683c98eb431`
+(`perf(statistics): remove flattened pixel allocation`). The lightweight tag
+`STATE-04-PERF` points to it. `STATE-04` remains at its original commit.
+
+### Verification
+
+| Check | Result | Evidence |
+|---|---|---|
+| Focused statistics test | PASS, 1/1 | `PYTHONPATH=src python3 -m unittest discover -s tests -p 'test_statistics.py' -v` |
+| Full tests | PASS, 11/11 | `PYTHONPATH=src python3 -m unittest discover -s tests -v` |
+| Statistics benchmark | PASS | Input fingerprint and all six output fields matched before timing and in the allocation check. |
+| Resize benchmark | PASS | Input SHA-256 `8313459c55df7237ac1de8435086b9af01d9d28d5604d19310001160f3c3f827` and output SHA-256 `cf5a936c953a1cb873b4bc3f4632c50c1bb0e477a7af9f0b45ffec17018cb553` matched. |
+| CLI smoke | PASS | Sample crop returned width 2, height 3, 6 pixels, minimum 51, maximum 255, mean 136.0; output PGM pixels matched. |
+| Diff check | PASS | `git diff HEAD^ HEAD --check` passed. |
+| Final diff review | PASS | Product commit changes only `src/graypipe/statistics.py`, with 5 insertions and 5 deletions. |
+
+The CLI JSON summary was `{"height": 3, "maximum": 255, "mean": 136.0,
+"minimum": 51, "pixel_count": 6, "width": 2}`. The output file was checked
+for the expected 2×3 pixel values and the temporary output directory was
+removed. No dependency or interface change was found.
+
+### Performance Evidence
+
+The same statistics command, Python runtime, host, deterministic input,
+correctness guards, seven one-call samples, and separate `tracemalloc` call
+were used before and after. The post-change run was:
+
+| Metric | STATE-04-PERF |
+|---|---|
+| Samples (ms/call) | 10.910, 11.237, 10.234, 10.042, 11.204, 10.769, 10.581 |
+| Median | 10.769 ms/call |
+| Range / spread | 10.042–11.237 ms; 1.195 ms (11.1% of median) |
+| `tracemalloc` peak for one call | 380 bytes |
+| Invocation runtime | 0.24 s |
+| Correctness | PASS; input hash and all six fields matched |
+
+Against this newly measured STATE-04 baseline, the median was 4.699 ms/call
+lower (about 30.4% for this workload), and the traced Python allocation peak
+was 6,675,424 bytes lower (about 99.994%). The before and after timing ranges
+do not overlap. This is a measured result for this synthetic input and this
+machine/runtime, not a target borrowed from TRIAL-008 and not a general
+performance guarantee. The allocation number is a `tracemalloc`-observed
+Python allocation peak, not process RSS.
+
+The resize benchmark after the change passed the same fingerprint guards.
+Its seven samples were `152.6, 147.2, 145.6, 145.8, 156.0, 154.2, 158.3`
+ms/call; median 152.6 ms/call; range 145.6–158.3 ms; invocation 1.32 s. The
+before/after resize ranges overlap, and only one invocation was collected per
+state, so this check does not support a performance conclusion about resize.
+The changed source path is separate from resize.
+
+### Working Harness Success Audit
+
+| Question | Result | Evidence |
+|---|---|---|
+| 1. Did Project Context provide Project facts? | YES | Repository instructions, the image contract, the statistics source, and its test supplied the current behavior and constraints. |
+| 2. Did Context routing structure detailed Project Knowledge? | YES | Architecture, image-contract, and testing information have distinct maintained sources; the relevant statistics/test/benchmark path was identifiable. This is artifact evidence, not a claim about universal automatic retrieval. |
+| 3. Was the Performance Skill reusable? | YES | TRIAL-008 observed explicit discovery, loading, and reuse on Codex CLI 0.154.0; its surface and account limits still apply. |
+| 4. Did the benchmark provide before/after evidence? | YES | The same STATE-04 statistics benchmark was run before editing and after the product change with matching input hash and summary guard. |
+| 5. Did Tests verify correctness? | YES | Focused statistics test passed 1/1 and the full suite passed 11/11. |
+| 6. Did the Skill Trial produce a real candidate? | YES | TRIAL-008 compared implementations and identified row-level built-in reductions; the old Trial result was treated as a candidate, not as the new baseline or target. |
+| 7. Was the change verified in the formal repository? | YES | The STATE-04 checkout was re-investigated; the focused/full tests, benchmarks, CLI smoke, diff review, commit, and tag all completed. |
+
+**Working Harness Success.** The evidence supports that the current Harness
+helped produce and verify this bounded Product Change. It does not establish
+universal Skill behavior or attribution of every improvement to one Harness
+component. No Subagent or Memory was needed for this small, connected task:
+the code path and contracts were local, the workflow was reusable, and no
+costly cross-task rediscovery or independent parallel investigation emerged.
+
+### Minimum Effective Harness
+
+For this state, the effective system was a task-specific Goal, Project
+Context, Context routing, the repository-owned Performance Skill, deterministic
+benchmarks, and Tests. Each component supplied a different piece of the task
+or its verification. The observed evidence did not justify adding a Subagent
+or Memory; their absence does not make STATE-04 incomplete.
+
+### Teaching Point
+
+Preserve the success beat: **“여기까지는 잘 동작합니다.”** The developer set
+the task goal, repository sources supplied Project Context, routing helped
+locate detailed Context, the Skill supplied the repeatable procedure, and the
+benchmark plus Tests established an evidence-supported Product Change. Let
+learners recognize this working system before introducing a later Project
+Evolution problem.
+
+### Next Problem and Readiness
+
+The next investigation may ask what real Project Change could make a
+previously correct instruction stale. The next stage has not implemented a
+Project Evolution, stale Skill, Harness failure, Loop, or STATE-05. Reassess
+the problem and evidence in the next instruction.
+
+**READY TO DESIGN PROJECT EVOLUTION.**

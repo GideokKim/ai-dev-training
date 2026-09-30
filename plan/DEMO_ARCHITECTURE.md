@@ -1,12 +1,14 @@
 # Demo Architecture
 
-> Status: **Direction/location accepted; STATE-00 and STATE-00-FIXED implemented, verified, and recorded locally; STATE-01 plan defined; later states and Codex Desktop Anchor rehearsal pending**
+> Status: **STATE-00 through STATE-04-PERF implemented and recorded; STATE-04 remains tagged at `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`; STATE-04-PERF is tagged at `6153b81c0187dd7d82c88bd1817fb683c98eb431`; statistics change and required validation passed; TRIAL-008 PASS for explicit Skill use on Codex CLI 0.154.0; no remote push and no Demo remote; macOS remains the current development/partial validation host and learners are primarily Windows-based; exact learner interface and Desktop behavior remain open; DEC-0018 defers Subagents and DEMO-07; Memory is not justified yet; Final Anchor rehearsal pending**
 >
-> Date: 2026-09-28
+> Date: 2026-09-30
 >
 > This document turns the approved Story and Curriculum into a Demo design
-> proposal. Ratings and candidate outcomes below are planning judgments, not
-> measurements from a built or rehearsed Demo repository.
+> proposal. Most ratings and candidate outcomes below are planning judgments.
+> Candidate comparison measurements and the committed benchmark baseline are
+> recorded in `plan/DEMO_MATRIX.md`. The preparation commit is not a named
+> Demo state or a rehearsed classroom result.
 
 ## Purpose
 
@@ -29,11 +31,12 @@ bring laptops or perform exercises.
   `INV-DEMO-001–004`, `INV-VERIFY-001`, and
   `INV-RESPONSIBILITY-001`.
 - `plan/DECISIONS.md`: `DEC-0011` accepts the repository, language, domain,
-  primary implementation environment, and delivery direction; `DEC-0012`
-  selects its local sibling path. `DEC-0010` is
-  superseded. `DEC-0007` and `DEC-0008` retain their statuses. OQ-001/OQ-003
-  are resolved at the STEP 06 planning level; OQ-005 and other implementation
-  questions remain governed there.
+  and delivery direction; `DEC-0012` selects its local sibling path;
+  `DEC-0016` clarifies environment roles. `DEC-0010` is
+  superseded. `DEC-0007` and `DEC-0008` retain their statuses. OQ-001 and
+  repository/delivery planning are resolved; DEC-0016 keeps exact Windows
+  setup and the final presentation interface open under OQ-003. OQ-005 and
+  other implementation questions remain governed there.
 - `plan/CURRICULUM.md` and `plan/CURRICULUM_MATRIX.md: Demo roles
   and time allocations.
 - `plan/STORY_ARCHITECTURE.md`, `plan/STORY_BEATS.md`, and
@@ -121,9 +124,11 @@ C++ Vision developers; ratings remain unvalidated.
   comprehension cost low; synthetic local data supports controlled states.
 - **Risks:** Python differs from the primary language of many attendees, and
   even elementary image processing can distract if algorithm detail expands.
-- **Implementation questions:** exact module boundaries, image
-  representation, dependencies, Build/Test commands, and a measurable
-  performance case remain STEP 07 work. No result or timing is claimed.
+- **Implementation status:** STATE-00 records the module boundaries, image
+  representation, dependencies, and Build/Test commands. STEP 07 initially
+  selected the resize source-column coordinate case and committed its
+  benchmark baseline; §§191–200 selected the statistics row-reduction
+  candidate for STATE-04-PERF. Classroom rehearsal remains pending.
 - **Selection rationale:** familiar domain + lower code comprehension cost
   + continued focus on AI Engineering evolution.
 
@@ -193,11 +198,12 @@ result or Codex Desktop Anchor validation is claimed.
 
 ## Demo State Evolution
 
-Proposed linear path:
+Proposed path with evidence-gated optional States:
 
 `STATE-00 → STATE-00-FIXED → STATE-01 → STATE-02 → STATE-03 → STATE-04
-→ STATE-04-PERF → STATE-05 → STATE-06 → STATE-07 → STATE-08 → STATE-09
-→ STATE-10 → STATE-11`
+→ STATE-04-PERF → [STATE-05, if the Subagent gate passes]
+→ [STATE-06, if the durable-knowledge gate passes]
+→ STATE-07 → STATE-08 → STATE-09 → STATE-10 → STATE-11`
 
 The detailed code, Project documents, instructions, Harness state, purpose,
 transition, and reset expectations are in
@@ -205,6 +211,13 @@ transition, and reset expectations are in
 change. Git history may be used as transparent training evidence; it must be
 described as an educationally designed evolution, never as authentic
 production history.
+
+`STATE-05` and `STATE-06` are optional checkpoints, not required feature
+steps. The STATE-04 assessment does not pass either gate: do not create
+STATE-05 for Subagents or STATE-06 for Memory unless later evidence meets its
+respective criterion. Continue to STATE-07 with only justified Harness
+components when its acceptance conditions are met; do not create empty States
+to preserve the numbering.
 
 ## Stale Harness Scenario Comparison
 
@@ -214,7 +227,7 @@ production history.
 | B. Benchmark workflow stale | MEDIUM | MEDIUM | MEDIUM | HIGH | HIGH | HIGH | MEDIUM | LOW–MEDIUM | MEDIUM | HIGH | Supporting comparison; benchmark noise adds explanation |
 | C. Architecture/module knowledge stale | MEDIUM | MEDIUM | MEDIUM | MEDIUM | MEDIUM | MEDIUM | MEDIUM | MEDIUM | HIGH | MEDIUM | Lower priority; wrong-module cause needs context |
 | D. Project rule stale or overbroad | HIGH | HIGH | HIGH | MEDIUM | HIGH | HIGH | HIGH | MEDIUM | LOW–MEDIUM | HIGH | Strong regression case, not primary stale story |
-| E. Memory/durable knowledge stale | MEDIUM | MEDIUM | MEDIUM | HIGH | HIGH | MEDIUM | MEDIUM | LOW–MEDIUM | MEDIUM–HIGH | MEDIUM | Supporting visual/captured case; product and lifecycle boundaries add cost |
+| E. Memory/durable knowledge stale | MEDIUM | MEDIUM | MEDIUM | HIGH | HIGH | MEDIUM | MEDIUM | LOW–MEDIUM | MEDIUM–HIGH | MEDIUM | Deferred; no current primary-Demo fact passes the Memory gate. Revisit only if a real durable-knowledge need is established. |
 
 HIGH is favorable for every column except Implementation effort, where HIGH
 means more cost. Scores are provisional judgments, not Trial results.
@@ -340,10 +353,10 @@ duplication before cutting a Story-critical explanation.
 |---|---|---|
 | Repository language/domain/source/strategy/location | RESOLVED: Python synthetic image-processing CLI, separate purpose-built repository, local sibling path `../ai-dev-training-demo` | OQ-001 via DEC-0011/DEC-0012 |
 | Real/internal example and usage permission | NOT REQUIRED for selected synthetic local data; revisit only if direction changes | OQ-002, OQ-014 |
-| Primary OS and delivery strategy | RESOLVED for planning: macOS + current Codex Desktop, OS-independent design, Anchor HYBRID | OQ-003 via DEC-0011 |
+| Environment roles and delivery strategy | macOS is the current development/partial automated-validation host; target audience is primarily Windows-based, with specifics open; OS-independent design; Anchor HYBRID | DEC-0016; OQ-003/OQ-005 for learner details and final rehearsal |
 | Account, current product behavior, permissions, Live availability | OPEN for verification before product-dependent Demos | OQ-005 |
 | Build/Test/Benchmark commands and actual outcomes | Direction specified; commands/results await STEP 07 implementation and validation | OQ-007 |
-| Skill, Subagent, Memory product examples | OPEN / conditional on need and current target support | OQ-005, OQ-008 |
+| Repository-owned performance Skill | TRIAL-008 PASS for explicit discovery/loading in Codex CLI 0.154.0; Desktop behavior unverified. Subagent and Memory remain conditional. | OQ-005, OQ-008 |
 | Stale scenario, evaluation criteria, regression | PARTIALLY RESOLVED: candidates proposed; recurrence and effects need a fair controlled state or observed evidence | OQ-009 |
 | Operational Harness/Loop wording | Continue using approved Curriculum language; confirm scope before final teaching claims | OQ-011 |
 | Training repository as Meta Example | NOT USED in STEP 06; revisit only if later actual history is relevant | OQ-013 |
@@ -383,19 +396,19 @@ is explicit; it does not mean the repository or behavior has been tested.
 | 2 | Why this Domain and Language? | Simple synthetic grayscale processing is familiar to C++ Vision developers; Python reduces code/repository comprehension cost. | User-selected; this is not a claim that Python is better for AI. |
 | 3 | What is the initial architecture? | Conceptual path: input → loader → normalize → filter → resize/transform → statistics → output. | Exact module structure and dependency choices remain STEP 07 work. |
 | 4 | What Bug should exist? | Candidate half-open crop boundary includes `x_end` when it should be excluded. | Planning candidate; settle exact operation, contract, and fixture in STEP 07. |
-| 5 | What Performance bottleneck should exist? | Candidate repeated pixel work, repeated allocation, duplicate normalization, or redundant transformation. | Select the measurable hot path from implementation evidence; do not teach Python/NumPy optimization or vectorization. |
+| 5 | What Performance bottleneck should exist? | DEC-0015 originally selected repeated source-column coordinate computation in `resize_nearest`; DEC-0019 supersedes that product-change target with the re-investigated `image_statistics` row-reduction candidate for STATE-04-PERF. | Keep the optimization separate from the benchmark and reusable workflow; do not teach Python/NumPy optimization or vectorization. The resize benchmark remains an unchanged supporting check. |
 | 6 | What verifies correctness? | Boundary unit regression, normalization/aggregation unit checks, end-to-end integration, and output-equivalence checks. | Coverage direction specified; exact runnable commands and outcomes need Trial. |
 | 7 | What measures Performance? | Same host/runtime/input/procedure before and after; correctness first; repeated observations and a robust summary. | Method specified; workload size, repetitions, signal, and benchmark command need Trial. |
 | 8 | When does `AGENTS.md` appear? | At STATE-01, after repeated Project facts have made reuse valuable. | Specified; verify only stable, confirmed instructions enter it. |
-| 9 | Why and how does Context grow? | STATE-02 adds verified recurring input/output, Test, and processing facts to their natural Project sources; it does not manufacture token-count failure. | Examples specified; actual Project facts await implementation. |
+| 9 | Why and how does Context grow? | Per user direction and DEC-0013, STATE-02 adds a small, verified set of recurring architecture, image-contract, test, and compatibility facts to root `AGENTS.md` before Context Separation. It does not manufacture filler or model failure. | Candidate implemented, validated, and observed in TRIAL-004; evidence and claim limits are recorded in `plan/DEMO_MATRIX.md`. |
 | 10 | When is Context separated? | STATE-03 separates concise core rules from task-specific information and routes to maintained sources. | Story and mechanism specified; target-surface retrieval behavior is conditional. |
-| 11 | What repeatable Workflow may become a Skill? | `workflows/performance-investigation.md`: baseline, inspect, plan, implement, Test, benchmark, compare, review. | Repository procedure specified; product Skill is conditional on current support. |
-| 12 | What complex Task may use Subagents? | One performance investigation can split into independent architecture, measurement, and test questions, followed by main-agent synthesis. | Supporting scenario specified; keep optional and compare coordination cost. |
-| 13 | What Knowledge may be Durable? | A verified synthetic image workload limitation/provenance fact with source, scope, and refresh trigger. | Candidate specified; retain only if implementation yields a useful fact. |
+| 11 | What repeatable Workflow is selected? | `.agents/skills/graypipe-performance/SKILL.md`: baseline, inspect, plan, implement, Test, benchmark, compare, review. | DEC-0017 selects this as the sole repository-owned procedure; TRIAL-008 observed explicit discovery/loading on Codex CLI 0.154.0, while Desktop remains unverified. |
+| 12 | What complex Task may use Subagents? | One performance investigation can split into independent architecture, measurement, and test questions, followed by main-agent synthesis. | Candidate A/B/C review found no current need; DEC-0018 defers Subagents and DEMO-07 until a real task crosses the complexity gate. |
+| 13 | What Knowledge may be Durable? | A verified synthetic image workload limitation/provenance fact with source, scope, and refresh trigger. | The §§181–190 audit found the facts accessible in scripts/docs and no rediscovery cost; no Memory candidate currently qualifies. |
 | 14 | How does the Project evolve? | Correct a bounded image-operation Bug; add Context and a reusable procedure; optimize separately; later change the Test layout/procedure for a documented need. | Candidate transitions specified below; validate each change in STEP 07. |
-| 15 | Which Harness artifact becomes stale? | The formerly correct performance workflow retains a previous Test path/procedure after the Project change. | Keep exactly one stale artifact and demonstrate prior correctness/later staleness. |
-| 16 | How is Failure observed? | The stale workflow produces a visible failure for its outdated procedure. | Exact layout/runner and failure evidence are STEP 07 validation items. |
-| 17 | Which Layer is changed? | Repair the reusable workflow that contains the stale Test procedure; do not duplicate its command in `AGENTS.md`. | Cause-to-layer rule specified; observed evidence must support it. |
+| 15 | Which Harness artifact becomes stale? | The formerly correct repository-owned performance Skill retains a previous Test path/procedure after the Project change. | Keep exactly one stale artifact and demonstrate prior correctness/later staleness. |
+| 16 | How is Failure observed? | The stale Skill produces a visible failure for its outdated procedure. | Exact layout/runner and failure evidence are STEP 07 validation items. |
+| 17 | Which Layer is changed? | Repair the Skill that contains the stale Test procedure; do not duplicate its command in `AGENTS.md`. | Cause-to-layer rule specified; observed evidence must support it. |
 | 18 | What Evaluation is performed? | EVAL-01 bug fix, EVAL-02 performance, EVAL-03 small refactor, EVAL-04 docs-only task. | Tasks and evidence are specified in `DEMO_REPOSITORY_SPEC.md`; validate against the built Project. |
 | 19 | Which Regression is checked? | EVAL-03/04 should remain appropriately scoped and must not inherit an overbroad “always benchmark” rule. | Negative checks specified; capture results after the Harness change. |
 | 20 | How is every State restored? | Select its recorded commit/tag in a fresh or disposable checkout, prepare pinned dependencies, and confirm known Test/Benchmark inputs. | Restoration contract specified; actual refs, reset instructions, dependency identifiers, and known outcomes are implementation outputs. |
@@ -404,12 +417,12 @@ is explicit; it does not mean the repository or behavior has been tested.
 
 | Audit | Result | Required control |
 |---|---|---|
-| Implementation ambiguity | Initial image representation, package/build choices, runtime, and test approach are recorded for STATE-00. Benchmark workload and later-state details remain TBD; product details remain conditional. | Resolve remaining implementation details and validation evidence in STEP 07; do not invent measured values or Agent behavior. |
-| Failure causality | The primary stale-state cause is one outdated reusable Test workflow. | Keep current Project docs, `AGENTS.md`, runtime, dependencies, permissions, and environment correct; prove the old workflow worked before the Project change. |
+| Implementation ambiguity | STATE-00 implementation choices are recorded. The deterministic resize benchmark workload and three-invocation baseline are recorded in `plan/DEMO_MATRIX.md`; later-state and product details remain conditional. | Resolve later-state details and validate product-dependent behavior in STEP 07; do not invent Agent behavior. |
+| Failure causality | The primary stale-state cause is one outdated repository-owned Skill Test procedure. | Keep current Project docs, `AGENTS.md`, runtime, dependencies, permissions, and environment correct; prove the old Skill worked before the Project change. |
 | Initial Bug verification | TRIAL-002 reproduced the crop-boundary regression, made a one-line isolated fix, and passed focused/full tests plus a CLI smoke check; the change is recorded as STATE-00-FIXED. | Preserve the recorded Test, smoke, tag-reset, and diff evidence; Desktop behavior remains unvalidated. |
 | Performance verification | Baseline → bounded code change → correctness/output equality → repeated benchmark → comparison. | Keep Bug and Performance changes separate and record host, runtime, workload, procedure, and observations. |
-| Reusable workflow verification | Bounded task → versioned procedure → task-appropriate checks. | Keep a repository-owned procedure usable even if a product Skill is unavailable. |
-| Harness-change verification | Visible stale-workflow failure → evidence-based cause → workflow-only fix → same-task rerun → representative Evaluation and Regression. | Capture the same-task rerun and use EVAL-03/04 as adjacent-task checks; report omissions and limits rather than asserting success. |
+| Reusable workflow verification | Bounded task → repository-owned Skill → task-appropriate checks. | Confirm discovery/loading on the selected surface before claiming product-specific behavior. |
+| Harness-change verification | Visible stale-Skill failure → evidence-based cause → Skill-only fix → same-task rerun → representative Evaluation and Regression. | Capture the same-task rerun and use EVAL-03/04 as adjacent-task checks; report omissions and limits rather than asserting success. |
 
 ### State Transition and Story Integrity Review
 
@@ -420,16 +433,16 @@ diffs are deliberately separated:
 |---|---|---|
 | STATE-00 → STATE-00-FIXED | Fix only the bounded image-operation boundary Bug and its regression. | Separated from Harness changes. |
 | STATE-00-FIXED → STATE-01 | Add concise `AGENTS.md`; no Product code change. | Context reuse follows the Bug-fix success. |
-| STATE-01 → STATE-02 | Add verified recurring facts to their Project sources. | Context growth is labeled, not staged as model failure. |
-| STATE-02 → STATE-03 | Route core instructions to relevant detail. | Relevance responds to visible accumulation. |
-| STATE-03 → STATE-04 | Add the reusable performance procedure. | Process is separated from Project facts. |
-| STATE-04 → STATE-04-PERF | Optimize only the evidence-backed image-processing hot path and record evidence. | Product change is separate from adding the procedure. |
-| STATE-04-PERF → STATE-05 | Add optional role separation for an actually complex investigation. | Keep it supporting; omit if the Trial shows one Agent is sufficient. |
-| STATE-05 → STATE-06 | Add one sourced, scoped, freshness-aware durable fact. | Retain it only if real project work makes it useful. |
-| STATE-06 → STATE-07 | Assemble and verify only useful Harness components. | No feature checklist or unsupported product capability is required. |
-| STATE-07 → STATE-08 | Change the Project Test layout/procedure for a stated need. | The sole planned mismatch is the old reusable procedure. |
+| STATE-01 → STATE-02 | Add a small set of verified recurring facts to root `AGENTS.md`; keep product code and other Harness components unchanged. | Context growth is labeled and user-directed; do not stage model failure or token-count effects. |
+| STATE-02 → STATE-03 | Separate core instructions from on-demand Project detail and route to maintained sources. | Relevance responds to visible accumulation; no separation happens early. |
+| STATE-03 → STATE-04 | Add `.agents/skills/graypipe-performance/SKILL.md` as the sole reusable performance procedure. | Process is separated from Project facts and task-specific Prompts. |
+| STATE-04 → STATE-04-PERF | Apply the re-investigated `image_statistics` row-reduction change selected by DEC-0019 and record evidence. | Product change is separate from adding the Skill; the pre-existing resize benchmark remains a supporting check. |
+| STATE-04-PERF → STATE-05 | Conditional: add role separation only if an actual task crosses the complexity gate. | DEC-0018 says the current gate is not met; do not create STATE-05 now. |
+| STATE-05 / STATE-04-PERF → STATE-06 | Conditional: add one sourced, scoped, freshness-aware durable fact only after costly rediscovery is observed. | The §§181–190 audit finds no current Memory candidate; do not create STATE-06 now. |
+| Last justified State → STATE-07 | Assemble and verify only useful Harness components. | Optional STATE-05/06 are not prerequisites; no feature checklist or unsupported product capability is required. |
+| STATE-07 → STATE-08 | Change the Project Test layout/procedure for a stated need. | The sole planned mismatch is the old repository-owned Skill procedure. |
 | STATE-08 → STATE-09 | Execute the stale procedure and capture its failure; repository HEAD is unchanged. | Observed failure is distinct from a code defect or environment failure. |
-| STATE-09 → STATE-10 | Repair the implicated reusable workflow. | Change only the layer supported by evidence. |
+| STATE-09 → STATE-10 | Repair the implicated repository-owned Skill. | Change only the layer supported by evidence. |
 | STATE-10 → STATE-11 | Evaluate and check adjacent-task regressions. | Keep outcomes bounded and preserve failed/partial evidence. |
 
 The designed history remains an educational scenario, not production history.
@@ -444,7 +457,7 @@ minutes.
 baseline is implemented and reset-checked, with the planned crop defect
 visible in its regression test. TRIAL-002's bounded fix was revalidated,
 committed as `6dab644`, and tagged `STATE-00-FIXED`; the baseline tag is
-unchanged. Later states, benchmark behavior, stale workflow, Desktop Agent
+unchanged. Later states, benchmark behavior, stale Skill, Desktop Agent
 behavior, and current product support still need their own STEP 07
 implementation/validation evidence.
 
@@ -457,18 +470,23 @@ implementation/validation evidence.
 | Demo Architecture | `plan/DEMO_ARCHITECTURE.md` — candidate architecture and gates. |
 | Demo Matrix | `plan/DEMO_MATRIX.md` — timing and Beat mapping; state references must match this revision. |
 | Runbook specification | `plan/DEMO_RUNBOOK_SPEC.md` — schema only; no runnable Runbooks. |
-| Related accepted Decisions | `DEC-0011` accepts the repository/domain/environment/delivery direction; `DEC-0012` selects its sibling path; `DEC-0010` is SUPERSEDED. Anchor roles in `DEC-0008` remain PROPOSED. |
+| Related accepted Decisions | `DEC-0011` accepts the repository/domain/delivery direction; `DEC-0012` selects its sibling path; `DEC-0016` clarifies environment roles; `DEC-0010` is SUPERSEDED. Anchor roles in `DEC-0008` remain PROPOSED. |
 | Product capability constraints | `references/CLAIMS.md` and `references/product/CAPABILITY_MATRIX.md`; current account/surface behavior remains conditional under OQ-005. |
 | Story Beat references | `plan/STORY_BEATS.md` and `plan/TRANSITIONS.md`, especially BEAT-002–007, 008–017, 020–022, 023–032, and 039–057. |
 
 **Handoff status at STEP 06 close:** the package recorded the accepted
 repository direction, selected sibling path, Story rationale, proposed
 evolution, and later validation criteria. STEP 07 has since started; the
-STATE-00 and STATE-00-FIXED implementation and observed results, plus the
-STATE-01 repeated-context plan, are recorded in `plan/DEMO_REPOSITORY_SPEC.md`
-and `plan/DEMO_MATRIX.md`. STATE-01 implementation and product-dependent
-Desktop Agent trials remain pending. Do not redesign the Story as part of
-implementation.
+STATE-00 and STATE-00-FIXED implementation and observed results, STATE-01
+record, and the STATE-02 candidate/TRIAL-004 evidence are recorded in
+`plan/DEMO_REPOSITORY_SPEC.md` and `plan/DEMO_MATRIX.md`. STATE-02 is recorded
+at commit `55c045523ed1409449d7eea5b0d873983fe101b6` and tag `STATE-02`; it
+was not pushed. STATE-03 is recorded at commit
+`f3e2e37b1454e28c5de4c44682ebd49378ebae4b` and tag `STATE-03`; it was not
+pushed. `DEC-0014` is ACCEPTED. Performance candidate investigation and
+benchmark baseline preparation under STEP 07 §§94–110 are recorded in the
+Matrix, with `DEC-0015` accepted. Product-dependent Desktop Agent trials
+remain pending. Do not redesign the Story as part of implementation.
 
 ## STEP 06 Completion Audit — §§111–120
 
@@ -644,8 +662,8 @@ reset-checked during STEP 07.
 |---|---|---:|---|---|
 | DEMO-01: read-only repository exploration | HYBRID | 8 min | MEDIUM | Let the Agent find and trace relevant repository context; prepared capture and fallback required. |
 | DEMO-02: Project Context | HYBRID | 8 min | MEDIUM | Reuse verified project guidance rather than repeat it per task; prepared capture and fallback required. |
-| DEMO-03: reusable workflow | HYBRID | 8 min | MEDIUM–HIGH | Make a repeatable procedure and its Verification visible; product Skill stays optional. |
-| DEMO-04A/B: stale Harness and improvement Loop | HYBRID (not Live-only) | 16 min total | HIGH | Trace changed Project → stale workflow → cause → scoped repair → evaluation/regression; prepared capture and fallback required. |
+| DEMO-03: reusable workflow | HYBRID | 8 min | MEDIUM–HIGH | Make the repository-owned Skill procedure and its Verification visible; CLI discovery/loading passed in TRIAL-008, and Desktop rehearsal remains. |
+| DEMO-04A/B: stale Harness and improvement Loop | HYBRID (not Live-only) | 16 min total | HIGH | Trace changed Project → stale Skill → cause → scoped repair → evaluation/regression; prepared capture and fallback required. |
 
 Anchor roles remain proposed under DEC-0008; the HYBRID default and fallback
 requirement are accepted by DEC-0011. Supporting evidence is mapped
@@ -695,11 +713,12 @@ not present the actual planning activity as an evaluated quality gain.
 
 #### 13. Decisions
 
-`DEC-0011` accepts the user's repository, environment, and delivery choices;
-`DEC-0010` is SUPERSEDED. `DEC-0005` is unchanged; `DEC-0007` and `DEC-0008`
-retain their existing PROPOSED statuses. The Meta Example disposition is
-recorded under OQ-013 and can be revisited only if later authentic evidence
-appears.
+At the original STEP 06 decision point, `DEC-0011` accepted the user's
+repository, then-current environment, and delivery choices; DEC-0016 later
+clarifies the environment role. `DEC-0010` is SUPERSEDED. `DEC-0005` is
+unchanged; `DEC-0007` and `DEC-0008` retain their existing PROPOSED statuses.
+The Meta Example disposition is recorded under OQ-013 and can be revisited
+only if later authentic evidence appears.
 
 #### 14. Open Questions
 
@@ -710,7 +729,8 @@ STEP 07. STATE-00 implementation details and evidence are now recorded in
 OQ-003 is resolved for the planned environment/delivery strategy. Remaining
 questions include OQ-004 (Curriculum review/runtime refinement), OQ-005
 (current product and account checks), OQ-007 (later-state verification and
-benchmark examples), OQ-008 (optional product mechanisms), OQ-009 (Evaluation evidence),
+benchmark examples), OQ-008 (Skill discovery/loading and optional
+Subagent/Memory mechanisms), OQ-009 (Evaluation evidence),
 OQ-011 (course wording), and OQ-013 (future authentic Meta Example).
 OQ-002/OQ-014 do not block the selected synthetic-local-data direction;
 revisit only if internal/company sources or claims are introduced.
@@ -719,19 +739,57 @@ revisit only if internal/company sources or claims are introduced.
 
 | Decision | User-selected direction | Deferred check |
 |---|---|---|---|
-| Repository source, language, domain, and location | Separate purpose-built Python Synthetic Image Processing CLI with synthetic local data at `../ai-dev-training-demo`. | STATE-00 package and module structure are recorded; later states, benchmark, and product/account verification remain in STEP 07. |
+| Repository source, language, domain, and location | Separate purpose-built Python Synthetic Image Processing CLI with synthetic local data at `../ai-dev-training-demo`. | STATE-00 package and module structure and the benchmark preparation commit are recorded; later states and product/account verification remain in STEP 07. |
 | Rationale and audience transfer | Python lowers code/repository comprehension cost; C++ Vision practices appear as future Curriculum/Slide bridges, not Demo code. | Confirm final bridge presentation during Curriculum/Slide work. |
-| Implementation environment and delivery | macOS + current Codex Desktop; OS-independent design; Anchor HYBRID, ACT 4 not Live-only, supporting Demos may be RECORDED/CAPTURED/VISUAL. | Recheck current product/account support and rehearse paths during STEP 07. |
+| Environment roles and delivery | macOS is the current development/partial automated-validation host; learners are primarily Windows-based; exact WSL/native Windows, IDE, shell, and Codex interface remain open; Demo is OS-independent where practical. Anchor HYBRID, ACT 4 not Live-only, supporting Demos may be RECORDED/CAPTURED/VISUAL. | DEC-0016; confirm product/account support and Final Anchor presentation path under OQ-003/OQ-005. |
+| STATE-02 Context Growth order | Grow verified recurring Project context in root `AGENTS.md`; defer Context Separation to STATE-03. | Explicit user direction in STEP 07 §§54–60; recorded as DEC-0013. Select facts from repository evidence without filler or a line-count target. |
 
-#### 16. STEP 07 Readiness
+#### 16. STEP 07 Readiness — historical pre-STATE-04-PERF checkpoint
 
-**STEP 07 IN PROGRESS — STATE-00-FIXED RECORDED; STATE-01 PLAN DEFINED.** The
-repository is at the DEC-0012 sibling path. `STATE-00-FIXED` is committed and
-tagged locally; no remote is configured, so it is not pushed. The next state
-is `STATE-01`, but its `AGENTS.md` has not been created. TRIAL-001/002 and
-state evidence are recorded in `plan/DEMO_MATRIX.md`. Codex Desktop/account
-behavior remains subject to OQ-005, and the Desktop Anchor rehearsal remains
-pending.
+At this checkpoint, STEP 07 was in progress and TRIAL-006 was PARTIAL with its
+change isolated. The repository was at the DEC-0012 sibling path. `DEC-0015`
+selected repeated source-column coordinate computation in `resize_nearest`
+as the primary performance scenario; the later user instruction and DEC-0019
+supersede that target specifically for the STATE-04-PERF product change. The
+deterministic standard-library benchmark is committed after
+the STATE-03 tag as preparation commit
+`cef7a27697d38667530fe028e7c2a1ed4703714b`; it does not create a named State.
+TRIAL-006 ran in a detached worktree with Codex CLI 0.154.0 and model
+`gpt-5.6-sol`. The requested baseline/investigate/plan/implement/test/
+benchmark/compare/review sequence was observed and produced a 33.5 ms/call
+median after a 144.2 ms/call baseline, with matching correctness hashes.
+Global Skills also loaded and added an evaluator, so the Trial is PARTIAL and
+does not isolate the Prompt's effect. Its one-file diff remains uncommitted
+in `/tmp/ai-dev-training-demo-trial-006-20260929`; the original Demo
+repository has no performance change or STATE-04. The §§111–120 checkpoint
+was **READY TO DESIGN SECOND PERFORMANCE TASK**.
+`STATE-01` remains
+at commit `14baf81746a981d7cd96b7a014ea06f28c3dd6b4` and tag `STATE-01`.
+`STATE-02` is at commit `55c045523ed1409449d7eea5b0d873983fe101b6` and tag
+`STATE-02`; its 11 tests, CLI smoke, and diff check passed before commit.
+`STATE-03` is recorded at commit
+`f3e2e37b1454e28c5de4c44682ebd49378ebae4b` and tag `STATE-03`; its full
+tests, CLI smoke, and diff check passed before commit. No Demo remote is
+configured, so no push was performed. The STATE-02/03 evidence is in
+`plan/DEMO_MATRIX.md`; `DEC-0013`, `DEC-0014`, and `DEC-0015` are accepted.
+Performance candidate, benchmark, and TRIAL-006 evidence from STEP 07
+§§94–120 is recorded in the Matrix.
+Final presentation-interface/account behavior remains subject to OQ-003/OQ-005;
+the Final Anchor rehearsal is deferred to Final Demo Rehearsal.
+
+The §§121–130 environment audit and DEC-0016 update are recorded in
+`plan/DEMO_MATRIX.md`. TRIAL-006's local correctness and measurement evidence
+remains valid for the recorded host and workload; its Prompt-only attribution
+is PARTIAL because global Skills and plugin hooks were present. OQ-015 is
+resolved for current scope: global Harness influence is a known limitation,
+not a blocker. The project is **READY TO DESIGN / RUN SECOND PERFORMANCE
+TASK**; `normalize` constant precomputation remains the candidate. Record
+global Harness components loaded or observed in a future CLI Trial and mark
+attribution PARTIAL if needed. No dedicated macOS user, global configuration
+change, Skill, STATE-04, or second Trial was created/run during this document
+update. The Final Anchor is revalidated during Final Demo Rehearsal in the
+actual presentation interface under OQ-003/OQ-005; consider Windows if it is
+confirmed as the actual training environment.
 
 ### §120 — Completion Condition Audit
 
@@ -750,17 +808,17 @@ resolved its direction gates. An unapproved role/design choice remains open.
 | 6 | Initial Bug is defined. | PASS as candidate — crop-boundary defect specified; exact contract and observed test remain STEP 07 work. |
 | 7 | Performance scenario is defined. | PASS as candidate — repeated pixel work/allocation/duplicate normalization/redundant transform; select measurable case from implementation evidence. |
 | 8 | `AGENTS.md` first-success scenario is defined. | PASS — specified; product behavior needs Trial. |
-| 9 | Context growth has an actual reason. | PASS — specified as verified facts added at a controlled state; not a claim of observed model failure. |
+| 9 | Context growth has an actual reason. | PASS — the user-directed, repository-sourced STATE-02 candidate passed one bounded Codex CLI relevance Trial; no model failure or token threshold is claimed. |
 | 10 | Context-separation scenario is defined. | PASS — specified; retrieval behavior is conditional. |
-| 11 | Reusable-workflow scenario is defined. | PASS — repository procedure is specified; Skill remains optional. |
-| 12 | Subagent scenario is based on actual complexity. | STEP 07 VALIDATION — supporting only; omit if one Agent suffices. |
-| 13 | Durable-knowledge scenario is defined. | PASS — one sourced/scoped/freshness-aware fact; retain only if useful. |
-| 14 | Memory staleness arises through time. | PASS as optional design — dated workload fact and changed image workload; validate clarity later and keep it outside the primary stale-workflow chain. |
+| 11 | Reusable-workflow scenario is defined. | PASS — DEC-0017 selects the repository-owned Skill; TRIAL-008 observed explicit discovery/loading in Codex CLI 0.154.0, with Desktop still unverified. |
+| 12 | Subagent scenario is based on actual complexity. | PASS WITH CURRENT DEFERRAL — DEC-0018 finds one Agent sufficient at STATE-04; keep only a future visual/captured conceptual case if the gate later passes. |
+| 13 | Durable-knowledge scenario is defined. | CONDITIONAL — the current workload-fact candidate is already available from its sources and does not pass the Memory gate. |
+| 14 | Memory staleness arises through time. | DEFERRED — no Memory artifact or qualifying durable fact exists; any future staleness illustration remains outside the primary stale-workflow chain. |
 | 15 | A working Harness state exists. | STEP 07 IMPLEMENTATION — STATE-07 is specified but not built. |
 | 16 | Project evolution is defined. | PASS — specified sequence; plausibility requires Trial. |
 | 17 | Primary stale Harness scenario is clear. | PASS — specified; old command behavior needs Trial. |
-| 18 | Failure cause can be traced to evidence. | PASS — sole stale workflow is isolated by design; actual failure evidence needs Trial. |
-| 19 | Correct-layer change is possible. | PASS — update only the implicated reusable workflow. |
+| 18 | Failure cause can be traced to evidence. | PASS — sole stale Skill is isolated by design; actual failure evidence needs Trial. |
+| 19 | Correct-layer change is possible. | PASS — update only the implicated Skill. |
 | 20 | Evaluation task set is defined. | PASS — EVAL-01 through EVAL-04; outputs need Trial. |
 | 21 | Regression scenario is defined. | PASS — EVAL-03/04 check for overbroad rules; outcome needs Trial. |
 | 22 | Repository State Model exists. | PASS — proposed STATE-00 to STATE-11 table. |
@@ -803,3 +861,94 @@ items; do not imply these have been checked.
 
 This STEP does not create the Demo Repository, educational Git states,
 Slide Map, final slides, or PPT. It does not start STEP 07.
+
+## STEP 07 STATE-04 and Complex-Task Readiness — 2026-09-30
+
+DEC-0017 selects the repository-owned Codex Skill at
+`../ai-dev-training-demo/.agents/skills/graypipe-performance/SKILL.md` as the
+sole source for the repeated performance procedure. The older standalone
+workflow-document proposal is superseded. The Demo repository now has separate
+resize and statistics benchmark preparation commits after the STATE-03 tag;
+the statistics baseline is `4ad32b9175055818e89b66e6a44d4e3c8d6fab4b`.
+
+The Skill candidate is present and structurally validated in the Demo working
+tree above the benchmark preparation commit. TRIAL-008 passed for explicit
+discovery, invocation, instruction-body evidence, and workflow reuse in
+Codex CLI 0.154.0. The statistics optimization stayed in the disposable
+trial workspace. Detailed measurements, verification, and evidence limits
+are in `plan/DEMO_MATRIX.md`.
+
+**STATE-04:** commit `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`, tag
+`STATE-04`; the tag points to that commit. Required validation passed. No
+remote push was made and the Demo repository has no configured remote.
+
+**Complex-task readiness:** the current repository is deliberately small;
+candidate analyses are in `plan/DEMO_MATRIX.md`. No Subagent is justified yet.
+Codex Desktop behavior, product-code optimization, and later States remain
+open. STEP 07 §§181–190 now records this Subagent decision as `DEC-0018` and
+finds Memory **NOT JUSTIFIED YET** at STATE-04. The primary Demo Story fit is
+clarified in `plan/STORY_ARCHITECTURE.md`; its conceptual Curriculum Story is
+preserved. No `MASTER_PLAN.md` or HARD Invariant changes.
+
+## STEP 07 §§181–190 — Role Separation and Memory Readiness
+
+`DEC-0018` accepts **no Subagent at STATE-04**. Candidates A/B/C each fit a
+single Agent, and the current repository does not show enough role-specific
+Context or parallel investigation value to outweigh duplicate reads,
+coordination, handoff, and integration cost. `DEMO-07` is **DEFERRED — NOT
+JUSTIFIED AT STATE-04**: no primary or supporting Live Demo is selected. Keep
+only a visual or captured external/conceptual case as a future option if it
+still serves ACT 3.
+
+The Trial-history audit found repeated task-relevant reads of facts that are
+now accessible in source, configuration, project documentation, Git history,
+the repository-owned Skill, or dated Trial evidence. It did not find an
+expensive recurrence caused by an unavailable durable fact. The actual
+repeated item was the performance workflow, already given a repository-owned
+Skill by `DEC-0017`; benchmark observations remain tied to their code path,
+input, host, and runtime. Memory is **NOT JUSTIFIED YET**. Keep its source,
+scope, and lifecycle distinction in the conceptual/visual Curriculum Story;
+do not add an artifact or product Memory mechanism.
+
+The primary Demo can next continue toward the planned project-evolution and
+stale-Skill problem after STATE-04-PERF is implemented and validated. This
+readiness note does not create a new State, alter the six-hour Curriculum, or
+authorize a project change. Detailed audit evidence and candidate
+classifications are in `plan/DEMO_MATRIX.md`.
+
+## STEP 07 — §§191–200 STATE-04-PERF Result
+
+`DEC-0019` records the user's selection of the `image_statistics` candidate
+for the product transition and supersedes DEC-0015's earlier product-change
+target. The latter's resize benchmark and preparation history remain intact.
+The code was re-investigated from STATE-04 and the only product file changed
+was `src/graypipe/statistics.py`: the flattened pixel list was removed and
+row-level built-in reductions now compute the minimum, maximum, and sum.
+
+STATE-04 is commit/tag
+`822f1c12c5f602d934a2fd29e48f05bf498b4bfa` / `STATE-04`. The statistics
+benchmark was rerun before editing on CPython 3.9.6 / macOS 26.6.2 arm64 with
+the same deterministic 1024×768 input, checksum, seven samples, and six-field
+correctness guard used after the change. The baseline median was 15.468
+ms/call (range 15.014–16.341 ms); the `tracemalloc` peak was 6,675,804 bytes.
+After the change, the median was 10.769 ms/call (range 10.042–11.237 ms) and
+the peak was 380 bytes. All six fields and the input checksum matched. This
+bounded comparison is recorded with every sample and invocation time in
+`plan/DEMO_MATRIX.md`.
+
+Focused statistics test 1/1 and the full suite 11/11 passed. Both benchmark
+correctness guards and the CLI crop smoke passed. `git diff HEAD^ HEAD
+--check` passed and final review found only the intended statistics source
+change. Commit `6153b81c0187dd7d82c88bd1817fb683c98eb431`
+(`perf(statistics): remove flattened pixel allocation`) carries the product
+change; lightweight tag `STATE-04-PERF` points to it while `STATE-04` remains
+unchanged. No remote is configured and no push was made.
+
+This is **Working Harness Success** for the bounded task: Project Context,
+routing, the repository Skill, benchmarks, and tests together supported an
+evidence-backed Product Change. The evidence does not justify Subagents or
+Memory, and their absence does not make this Harness incomplete. Preserve the
+teaching beat “여기까지는 잘 동작합니다” before investigating what future
+Project Evolution could make a previously correct Skill stale. That Project
+Evolution, stale Skill, Harness failure, Loop, and STATE-05 have not been
+implemented.

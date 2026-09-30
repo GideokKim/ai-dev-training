@@ -1,15 +1,16 @@
 # Demo Repository Specification
 
-> Status: **STATE-00 and STATE-00-FIXED implemented, verified, and recorded locally; STATE-01 plan defined; later states and Codex Desktop Anchor rehearsal remain pending**
+> Status: **STATE-00 through STATE-04-PERF implemented and recorded; STATE-04 remains tagged at `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`; STATE-04-PERF is tagged at `6153b81c0187dd7d82c88bd1817fb683c98eb431`; statistics change and required validation passed; TRIAL-008 PASS in Codex CLI 0.154.0; no remote push and no Demo remote; learner environment remains primarily Windows-based, exact interface and Desktop behavior remain open; DEC-0018 defers Subagents and DEMO-07; Memory is not justified yet; Final Anchor rehearsal pending**
 >
-> Date: 2026-09-28
+> Date: 2026-09-30
 >
 > This document records the plan and actual implementation evidence for
 > `../ai-dev-training-demo`, relative to the `ai-dev-training` repository
-> root. TRIAL-001/002 and the `STATE-00-FIXED` revalidation are recorded in
-> `plan/DEMO_MATRIX.md`. CLI observations do not validate the selected Codex
-> Desktop environment. Current Desktop capability and account behavior
-> remain subject to OQ-005. No remote is configured for the Demo repository.
+> root. TRIAL-001/002/003/004 and the `STATE-00-FIXED` revalidation are recorded in
+> `plan/DEMO_MATRIX.md`. CLI observations do not validate a future Desktop
+> Anchor. The final presentation interface and account behavior remain subject
+> to OQ-003/OQ-005 and Final Demo Rehearsal. No remote is configured for the
+> Demo repository.
 
 ## Purpose
 
@@ -71,7 +72,8 @@ and classroom-preparation needs remain open.
 - Synthetic local inputs avoid external services, credentials, and data
   licensing dependencies.
 - A later justified test-layout or test-procedure change can leave one
-  previously correct reusable procedure stale, preserving the Loop Story.
+  previously correct repository-owned performance Skill stale, preserving
+  the Loop Story.
 
 Avoid complex Computer Vision algorithms, Deep Learning inference, CUDA/GPU
 kernels, camera calibration, stereo vision, 3D reconstruction, complex
@@ -128,7 +130,8 @@ not select or configure a Git remote.
 **Planning outline; see the STATE-00 implementation record below for the
 actual initial layout.** The repository should remain a small Python CLI and
 include local synthetic image input/output, a few traceable processing stages,
-tests, benchmark support, Project documentation, and a reusable workflow
+tests, benchmark support, Project documentation, and a repository-owned
+Codex Skill
 introduced at the appropriate Story transition. The following are planning
 areas, not a final layout for later states:
 
@@ -138,15 +141,18 @@ ai-dev-training-demo/
 ├── LICENSE                 # decide before sharing the Demo repository
 ├── .gitignore
 ├── docs/
-│   ├── architecture.md     # introduced at STATE-02; exact name TBD
-│   └── testing.md          # introduced at STATE-02; exact name TBD
+│   ├── architecture.md     # STATE-03 topic Context source; see DEC-0014
+│   ├── image-contracts.md  # STATE-03 topic Context source; see DEC-0014
+│   └── testing.md          # STATE-03 topic Context source; see DEC-0014
+├── .agents/
+│   └── skills/
+│       └── graypipe-performance/
+│           └── SKILL.md    # STATE-04 reusable performance procedure
 ├── src/                    # STATE-00 layout recorded below; later additions TBD
 ├── tests/
 ├── benchmarks/
-├── data/
-│   └── STATE-00 uses data/sample.pgm; later benchmark input TBD
-└── workflows/
-    └── performance-investigation.md  # introduced at STATE-04
+└── data/
+    └── STATE-00 uses data/sample.pgm; benchmark input is generated in memory
 ```
 
 This tree is a conceptual outline, not a requirement to create every
@@ -191,10 +197,12 @@ It built `ai_dev_training_demo-0.1.0-py3-none-any.whl` successfully on the
 recorded macOS/Python environment. Build tools must be prepared before class;
 no class-time package download is required.
 
-Keep setup local and predictable for the selected macOS/Codex Desktop
-validation path. Design for OS independence where practical, but validating
-Windows/WSL and Linux is not a STEP 07 requirement. Do not download packages
-during a class Demo; prepare dependencies beforehand if they are needed.
+Keep setup local, dependency-light, and transferable across the intended
+Windows-centric audience. The current macOS host may be used for development
+and automated validation. Do not make shell behavior or an OS-specific setup
+part of the Story. Exact Windows/WSL validation scope remains open under
+OQ-003; do not download packages during a class Demo, and prepare dependencies
+beforehand if they are needed.
 
 ## Test
 
@@ -226,11 +234,13 @@ value clearly enough for a projected terminal view.
 
 ## Performance Scenario and Benchmark
 
-**Candidate scenario, not a selected implementation:** remove unnecessary
-pixel-level repeated work, repeated allocation, duplicate normalization, or
-a redundant transformation. Select the actual hot path from code inspection
-and implementation evidence; do not insert an artificial slow path. The
-teaching goal is the workflow:
+**Original scenario (DEC-0015):** reduce repeated source-column coordinate
+computation in `resize_nearest`. The user later selected the verified
+`image_statistics` row-reduction candidate for the STATE-04-PERF product
+transition in DEC-0019, superseding DEC-0015's product-change target. The
+resize benchmark remains an unchanged supporting check; neither the earlier
+candidate findings nor the statistics alternative are erased from history.
+Do not insert an artificial slow path. The teaching goal is the workflow:
 
 `Baseline → Investigate → Plan → Implement → Correctness Test → Benchmark
 → Compare`
@@ -238,13 +248,17 @@ teaching goal is the workflow:
 The task is not Python optimization, NumPy optimization, or vectorization
 instruction. Keep the output functionally equivalent across the comparison.
 
-Use deterministic synthetic local image input large enough to expose a real
-candidate bottleneck but small enough for the Demo slot. Exact image
-dimensions, generator/fixture, operation, repetitions, command, and expected
-result are TBD for STEP 07. Record input provenance and a content hash so
-both states use identical data. Do not generate or download a benchmark input
-during class. Establish the baseline at STATE-04 and, only after verification,
-record a measured change at STATE-04-PERF.
+The standard-library-only `benchmarks/benchmark_resize.py` is implemented
+with deterministic in-memory 640×480 grayscale input (maximum value 4095),
+resized to 960×720. It records the input and expected output SHA-256 values,
+generates input outside the timed region, performs one warm-up, and reports
+seven samples, median, range, spread, and invocation runtime. The command is
+`PYTHONPATH=src python3 benchmarks/benchmark_resize.py`; see
+`plan/DEMO_MATRIX.md` for hashes, machine/runtime, three independent
+invocations, and observed stability. The preparation commit follows the
+STATE-03 tag and does not create a new State. At STATE-04, the reusable
+procedure will establish and record the baseline before a separately
+verified change at STATE-04-PERF.
 
 The benchmark record must include machine, runtime, input parameters,
 command, warm-up/repetition policy, individual observations, and a robust
@@ -298,14 +312,15 @@ full benchmark or never modifying a module.
 - STATE-00-FIXED changes only the boundary bug and its focused regression
   evidence; `AGENTS.md` and reusable guidance are still absent.
 - STATE-01 adds concise project instructions after the Story establishes
-  repeated Project context.
-- STATE-02 records only verified recurring facts in their natural Project
-  sources: the CLI/input-output contract in `README.md`, current Test command
-  in the test guide, and module responsibilities in the architecture guide.
-  `AGENTS.md` routes to these sources; do not inflate line counts as a
-  deterministic model failure.
-- STATE-03 keeps concise core guidance and routes task-relevant detail to
-  maintained documents.
+  repeated Project context. It is recorded at commit `14baf817` / tag
+  `STATE-01`.
+- STATE-02 grows `AGENTS.md` with a small, source-checked set of reusable
+  Project facts before separating Context. This sequence is selected by the
+  user's latest STEP 07 instruction and recorded in DEC-0013; it supersedes
+  the earlier downstream plan to add Project documents and a Router at
+  STATE-02. Do not manufacture filler, a model failure, or a line-count goal.
+- STATE-03 is the Context Separation transition: keep core rules
+  concise and route task-relevant detail to maintained Project sources.
 - Later tasks demonstrate selective retrieval rather than reading all
   available context.
 
@@ -314,38 +329,53 @@ OQ-005 and the chosen interface.
 
 ## Reusable Workflow
 
-The candidate repeatable task is a small performance investigation:
+TRIAL-006 (`resize_nearest`) and TRIAL-007 (`normalize`) observed the same
+performance procedure on distinct code paths. The accepted reusable workflow
+is a small performance investigation:
 
 `Baseline → inspect → plan → implement → functional test → benchmark
 → compare → review`
 
 Keep project facts (for example, current commands) separate from the
-repeatable work procedure. At STATE-04, add the versioned
-`workflows/performance-investigation.md` as the repository-owned
-procedure and source for Git-history comparison. Use a current Codex Skill or
-another product mechanism to invoke/reuse it only after checking official
-documentation and the target account. Otherwise, ask the Agent to consult the
-repository procedure. Do not require a specific Skill implementation to
-teach reusable workflow design.
+repeatable work procedure. At STATE-04, the sole repository-owned procedure
+is `.agents/skills/graypipe-performance/SKILL.md`, using the current Codex
+Skill format. Do not create a parallel `workflows/performance-investigation.md`
+or duplicate the procedure in another workflow document. Current OpenAI
+documentation describes Skills as reusable workflows and supports repository
+Skills under `.agents/skills`; it also describes name/description discovery
+followed by loading the full `SKILL.md`. TRIAL-008 observed repository Skill
+discovery and instruction loading in Codex CLI 0.154.0. Codex Desktop behavior
+remains unverified; details and evidence limits are in
+`plan/DEMO_MATRIX.md`.
 
-At STATE-04, the procedure establishes the baseline and verification
-sequence. Applying it to the selected measured bottleneck produces
-STATE-04-PERF; the workflow file itself does not change in that transition.
+This decision means the repeated procedure is separated from a task-specific
+Prompt. It does not claim that Skills are superior to Prompts. Keep repository
+facts and commands in `AGENTS.md`, `README.md`, and maintained Project docs;
+keep the repeatable procedure in the Skill; put the specific task goal,
+constraints, and acceptance criteria in the task Prompt.
+
+At STATE-04, the Skill establishes the baseline and verification sequence.
+Applying it to the selected measured bottleneck produces STATE-04-PERF; the
+Skill itself does not change in that transition.
 
 ## Subagent Scenario
 
-**Supporting candidate, not required for the primary Story:** divide one
-connected performance investigation into independent architecture,
-performance, and test questions. Main-agent synthesis must reconcile results
-and show coordination/integration cost. If the selected product surface,
-runtime, or screen complexity is unsuitable, use a recorded/captured result
-and role diagram.
+**Conditional conceptual candidate, deferred in the primary Demo by
+DEC-0018:** a sufficiently complex task could divide one connected
+performance investigation into independent architecture, performance, and
+test questions. Main-agent synthesis would reconcile results and show
+coordination/integration cost. Current candidates A/B/C are manageable by one
+Agent, so do not implement or present this as an observed primary-Demo event.
+If an actual future task crosses the complexity gate, use a visual or
+captured external/conceptual case unless a Trial validates the selected
+product surface.
 
 ## Durable Knowledge Scenario
 
-**Supporting candidate:** retain one verified Project fact with its source,
-scope, and freshness condition, then use it in a later task. Keep these
-distinct:
+**Conditional conceptual candidate; not justified yet at STATE-04:** retain
+one verified Project fact with its source, scope, and freshness condition,
+then use it in a later task only if a Trial establishes costly rediscovery
+that current Sources of Truth do not readily resolve. Keep these distinct:
 
 - Repository-owned durable Project documentation.
 - Any Codex/ChatGPT product Memory mechanism, if current and available.
@@ -355,24 +385,24 @@ Show where the knowledge came from and how it should be refreshed or retired.
 Do not imply product Memory is complete, universal, or a replacement for
 maintained Project documentation.
 
-One concrete candidate is the synthetic image workload's known limitation
-and refresh trigger: record the verified fixture/generator parameters and
-the runtime/toolchain context under which its comparison is meaningful;
-refresh the record when those inputs or the benchmark implementation change.
-Treat this as a candidate until implementation produces a fact worth
-retaining.
+The previously considered candidate was the synthetic image workload's
+parameters and refresh trigger. The §§181–190 audit found these recoverable
+from the benchmark scripts, README, and dated Trial evidence, and found no
+cross-task rediscovery cost. Do not retain them as Memory at this State.
 
-**Temporal staleness candidate:** at STATE-06, record the fact's source, scope,
-and actual verification date. For an optional later-task visual/captured case,
+**Conditional temporal staleness candidate:** only if a later Trial justifies
+a durable fact and its STATE-06 record is explicitly authorized, record the
+fact's source, scope, and actual verification date. For an optional later-task visual/captured case,
 show an explicitly later session after a separately identified change to the
 synthetic image workload or generator. Compare the dated note with the
 current Project evidence, then refresh or retire it. The interval and changed
 conditions make the freshness question visible; elapsed time alone does not
 make an unchanged fact false. Keep this supporting case separate from the
 primary STATE-08/09 stale-workflow Failure, whose sole stale artifact remains
-the reusable procedure. Do not imply product Memory behavior, create a second
+the repository-owned performance Skill. Do not imply product Memory behavior, create a second
 Live failure, or present the controlled timeline as production history. This
-candidate remains optional until a Trial shows it is natural and clear.
+candidate remains optional until a Trial shows it is natural and clear. No
+STATE-06 or Memory artifact is created by the current assessment.
 
 ## Harness Components
 
@@ -380,7 +410,7 @@ Introduce only the components that solve a visible need and only when the
 target product supports or can fairly illustrate them:
 
 - Instructions and routed Project Context.
-- A reusable performance procedure.
+- The repository-owned performance Skill.
 - Optional role separation.
 - Optional durable Project knowledge.
 - Available tools/environment and least-necessary permission.
@@ -393,9 +423,9 @@ This list is not a required product feature checklist.
 **Evolution candidate:** after a working Harness is demonstrated, make one
 documented Project Test-layout or Test-procedure change for a clear
 Project-level reason. Update the authoritative Project source, but leave
-exactly one previously correct reusable performance workflow stale. The
+exactly one previously correct repository-owned performance Skill stale. The
 documented need explains why the Project changed; the controlled history
-explains that the reusable procedure was outside the change scope and no
+explains that the reusable Skill was outside the change scope and no
 freshness check detected it. Keep that single Harness maintenance gap
 transparent; do not hide a rule from the Agent or present the designed
 history as a real incident.
@@ -403,7 +433,7 @@ history as a real incident.
 Choose the test framework and any additional dependency based on Demo
 stability and readability. The old/new layout, commands, and stale failure
 must be settled and verified in STEP 07. The failure must come from the stale
-procedure, not missing dependencies or a broken environment. Prefer this
+Skill procedure, not missing dependencies or a broken environment. Prefer this
 small, visible Test change over a build-system migration whose setup or
 terminology becomes the lesson.
 
@@ -432,8 +462,9 @@ Required evidence chain:
 10. Check that the correction did not overreach into unrelated tasks.
 
 Benchmark staleness, architecture knowledge, stale rules, and Memory
-staleness remain supporting candidates; they are not combined into the
-Primary Anchor.
+staleness remain conditional conceptual candidates, not current primary-Demo
+requirements. Memory staleness is deferred because no qualifying durable fact
+or Memory artifact exists. None is combined into the Primary Anchor.
 
 ## Evaluation Tasks
 
@@ -471,8 +502,8 @@ Performance optimization into one change:
 |---|---|---|---|
 | Initial Bug | STATE-00 | Focused regression exposes a candidate crop-boundary defect → change only that boundary behavior → focused regression and related Test checks pass. | Assertion, command, small diff, passing output → STATE-00-FIXED. |
 | Performance | STATE-04 | Record baseline → inspect and plan → optimize an evidence-backed repeated pixel operation/allocation/transformation → run correctness tests and compare identical output → repeat and summarize benchmark. | Input parameters, machine/runtime, observations, summary, output-equivalence evidence → STATE-04-PERF. |
-| Reusable workflow | STATE-04 | Follow the versioned performance procedure on a bounded task → observe whether it produces task-appropriate checks. | Workflow source, relevant Test output, benchmark record, and review; no fixed Agent wording required. |
-| Harness change | STATE-09 | Observe the stale workflow's nonzero failure → inspect current Project docs, reusable workflow, rules, dependencies, and environment → identify the stale workflow as the sole cause → update that artifact → rerun the same task and evaluate EVAL-03/04. | Failure output, cause evidence, scoped workflow diff, same-task rerun, EVAL-03/04 regression evidence → STATE-10/STATE-11. |
+| Reusable workflow | STATE-04 | Follow the repository-owned performance Skill on a bounded task → observe whether it produces task-appropriate checks. | Skill source, relevant Test output, benchmark record, and review; no fixed Agent wording required. |
+| Harness change | STATE-09 | Observe the stale Skill's nonzero failure → inspect current Project docs, Skill, rules, dependencies, and environment → identify the stale Skill as the sole cause → update that artifact → rerun the same task and evaluate EVAL-03/04. | Failure output, cause evidence, scoped Skill diff, same-task rerun, EVAL-03/04 regression evidence → STATE-10/STATE-11. |
 
 The EVAL-01/02 captures are produced at their named transitions and prove the
 separate Bug and Performance chains; they are not substitutes for evaluating
@@ -485,31 +516,56 @@ tasks occurred again during the Harness evaluation.
 
 STATE-00 is implemented at commit `22e7e2f` and tag `STATE-00`.
 `STATE-00-FIXED` is recorded at commit `6dab644` and its matching tag.
-STATE-01 is planned below; later states remain proposed and unimplemented.
+`STATE-01` is recorded at commit `14baf81746a981d7cd96b7a014ea06f28c3dd6b4`
+and tag `STATE-01`; its bounded Codex CLI first-success trial passed.
+`STATE-02` is recorded at commit
+`55c045523ed1409449d7eea5b0d873983fe101b6` and tag `STATE-02`. Its commit
+contains only root `AGENTS.md`; full tests, CLI smoke, and diff checks passed.
+TRIAL-004 passed as one bounded Codex CLI observation. STATE-03 and
+TRIAL-005A/005B are recorded in `plan/DEMO_MATRIX.md`. `DEC-0014` is ACCEPTED.
+STATE-03 is at commit `f3e2e37b1454e28c5de4c44682ebd49378ebae4b` and tag
+`STATE-03`; no remote push was performed. Later states remain proposed.
 Full per-state fields are in the table and reset requirements follow it.
+
+The resize benchmark tool is recorded at commit
+`cef7a27697d38667530fe028e7c2a1ed4703714b`, after the `STATE-03` tag. The
+statistics benchmark and its README entry are recorded in the separate
+preparation commit `4ad32b9175055818e89b66e6a44d4e3c8d6fab4b`.
+Neither is a separate State. STATE-04 is the reusable performance Skill,
+recorded in commit `822f1c12c5f602d934a2fd29e48f05bf498b4bfa` and tag
+`STATE-04`; as of this State checkpoint, STATE-04-PERF remained the later
+product optimization and the Trial's statistics change was still in its
+disposable workspace. The later §§191–200 record below advances the product
+to STATE-04-PERF. No Demo remote is configured, so no commit was pushed.
 
 | State | Purpose / code state | Project docs | Agent instruction / Harness | Expected Demo and transition |
 |---|---|---|---|---|
 | STATE-00 | Implemented baseline CLI at tag `STATE-00`; documented half-open crop contract has one focused, observed failure. | README, local P2 input/output contract, and Build/Test setup. | No `AGENTS.md`, Skill, Memory, Subagent, or evaluation layer. | Explore the repository and trace a path; inspect the small grayscale boundary case. Transition: correct the bounded defect. |
 | STATE-00-FIXED | Commit `6dab644`; changes only the half-open crop boundary. | Existing README and source contract remain authoritative. | Still no `AGENTS.md` or reusable workflow. | Focused/full Tests and CLI smoke pass. Transition: repeated Project facts become visible. |
-| STATE-01 | Product code unchanged from `STATE-00-FIXED`. | Existing project sources remain authoritative. | Proposed: add concise `AGENTS.md` after validating repeated-context candidates. | Repeat a small task with less repeated Project explanation; validate instruction discovery. Transition: facts accumulate. |
-| STATE-02 | Product code unchanged. | Add only verified Project facts to their natural sources. | Guidance starts routing to relevant facts. | Show Context growth as a labeled state, not a guaranteed model failure. Transition: relevance differs by task. |
-| STATE-03 | Product code unchanged. | Separate core instructions from task-specific docs. | Add explicit routes/progressive disclosure pattern. | Compare relevant and irrelevant context. Transition: consistency of process remains unsolved. |
-| STATE-04 | Product code remains at the verified baseline. | Add a maintained performance procedure with current Build/Test/Benchmark sources. | Add reusable workflow; product Skill is conditional. | Establish and record the baseline. Transition: apply the procedure to a measured hot path. |
-| STATE-04-PERF | Change only the measured repeated pixel work/allocation/transformation candidate; preserve output. | Record input parameters, commands, host/runtime, and comparison. | No Harness artifact changes in this transition. | Verify correctness, then compare baseline and optimized benchmark. Transition: broader task complexity may justify role separation. |
-| STATE-05 | Product code unchanged from STATE-04-PERF. | Document role boundaries if useful. | Optional role separation artifact/config. | Supporting role comparison. Transition: useful facts may be rediscovered. |
-| STATE-06 | Product code unchanged. | Add one sourced, scoped, freshness-aware durable fact. | Repository knowledge is distinct from product Memory. | Reuse and refresh one fact. Transition: assemble proven useful components. |
+| STATE-01 | Product code unchanged from `STATE-00-FIXED`; commit `14baf81746a981d7cd96b7a014ea06f28c3dd6b4`, tag `STATE-01`. | Existing README and source contracts remain authoritative; the README Trial edit was not included. | Add only concise root `AGENTS.md`; TRIAL-003 passed in one isolated Codex CLI run. No other Harness component. | A README task Prompt omitted the test command; Codex used the command from `AGENTS.md`. Desktop behavior remains unvalidated. Transition: context grows. |
+| STATE-02 | Product code remains unchanged from `STATE-01`; commit `55c045523ed1409449d7eea5b0d873983fe101b6` and tag `STATE-02`. Required checks passed. | No Demo Project documentation changed. | Commit contains only root `AGENTS.md` with verified Architecture, Image Contract, Testing, and Compatibility facts, per DEC-0013. No Context separation, Workflow, or Skill. | TRIAL-004 completed in a temporary Codex CLI checkout; the build-documentation task did not need image/pipeline/test/CLI details. No push. |
+| STATE-03 design | Baseline is recorded STATE-02; product code, tests, and dependencies remain unchanged. | The accepted topic documents organize the STATE-02 details by topic. | Small always-on root `AGENTS.md` plus task Router, per accepted `DEC-0014`. | TRIAL-005A/005B observed selective image-contract access with broader architecture reads and repeated-run variance. See `plan/DEMO_MATRIX.md`. |
+| STATE-03 | Commit `f3e2e37b1454e28c5de4c44682ebd49378ebae4b`, tag `STATE-03`; product code, tests, dependencies, and README unchanged. | `docs/architecture.md`, `docs/image-contracts.md`, and `docs/testing.md`. | Separate always-on rules from routed Context. `DEC-0014` is ACCEPTED. | Context routing evidence recorded. Transition: consistency of process remains unsolved. |
+| STATE-04 | Commit `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`, tag `STATE-04`; product code, tests, dependencies, and benchmark inputs unchanged. | Keep current Build/Test/Benchmark facts in maintained Project sources. | Commit adds only `.agents/skills/graypipe-performance/SKILL.md` as the sole repository-owned reusable procedure; do not duplicate it in a workflow document. | Full tests 11/11, CLI smoke, resize/statistics benchmark guards, `git diff --check`, and structure validation pass. No remote push. Transition: apply the procedure to a measured hot path. |
+| STATE-04-PERF | DEC-0019 changes only `image_statistics`: remove the flattened temporary pixel list and use row-level built-in reductions; preserve output. | Record input parameters, commands, host/runtime, samples, allocation peak, and comparison. | No Harness artifact changes in this transition. | Focused/full tests, statistics and resize benchmark guards, CLI smoke, and diff review pass; tag `STATE-04-PERF`. Transition: investigate a real Project Evolution that may stale a correct Skill. |
+| STATE-05 | Conditional only; product code remains unchanged from STATE-04-PERF. | Document role boundaries only if a real task establishes independent roles. | Optional role separation artifact/config; currently deferred by DEC-0018 because Subagents are not justified at STATE-04. | Reassess only after actual task complexity crosses the role-separation gate; otherwise do not create this state to demonstrate a feature. |
+| STATE-06 | Conditional only; no Memory artifact is currently justified. | Add a sourced, scoped, freshness-aware durable fact only if a later Trial establishes costly cross-task rediscovery. | Repository documentation remains distinct from product Memory. | Reuse and refresh one qualifying fact only after it passes the seven-part gate; otherwise keep the distinction conceptual and omit an implementation state. |
 | STATE-07 | Known-correct baseline and performance change; current workflows and checks agree. | Current commands and verification are documented. | Working Harness; each included component has a reason. | Demonstrate a bounded working task. Transition: Project changes. |
-| STATE-08 | Project Test layout or procedure changes once for a documented need. | Authoritative Test source and current Project procedure are updated. | Leave one earlier-correct reusable workflow stale, visibly and transparently. | Introduce the Project change. Transition: a later task can encounter stale information. |
-| STATE-09 | Same Project commit as STATE-08; the stale procedure produces a visible failure in the prepared environment. | Project source of truth is current and agrees with its Test layout/procedure. | Only the reusable performance workflow is stale; other rules, dependencies, and environment are current. | Show the controlled failure and its output; investigate cause. Transition: repair the implicated workflow. |
-| STATE-10 | Project code remains unchanged from STATE-09 when the evidence identifies only a stale workflow. | Current Project docs remain authoritative. | Repair only the implicated reusable artifact; remove needless duplication. | Rerun the same task and inspect the scoped diff. Transition: validate the system change. |
+| STATE-08 | Project Test layout or procedure changes once for a documented need. | Authoritative Test source and current Project procedure are updated. | Leave the earlier-correct repository-owned performance Skill as the one stale artifact, visibly and transparently. | Introduce the Project change. Transition: a later task can encounter stale information. |
+| STATE-09 | Same Project commit as STATE-08; the stale Skill produces a visible failure in the prepared environment. | Project source of truth is current and agrees with its Test layout/procedure. | Only the repository-owned performance Skill is stale; other rules, dependencies, and environment are current. | Show the controlled failure and its output; investigate cause. Transition: repair the implicated Skill. |
+| STATE-10 | Project code remains unchanged from STATE-09 when the evidence identifies only a stale Skill. | Current Project docs remain authoritative. | Repair only the implicated Skill; remove needless duplication. | Rerun the same task and inspect the scoped diff. Transition: validate the system change. |
 | STATE-11 | Final proposed stable code state. | Current docs, commands, and expected outputs agree. | Evaluation and regression cases are ready. | Rerun the same stale-workflow task, then EVAL-03/04; retain EVAL-01/02 as evidence for their separate chains. |
+
+`STATE-05` and `STATE-06` are conditional states, not mandatory feature steps.
+The current Trial audit does not pass either gate. Do not create these states
+now; continue from the last justified State only when the next State's own
+acceptance conditions are met. Never add an empty State to preserve numbering.
 
 Each state record must include Purpose, Code State, Project Docs State,
 Instruction State, Harness State, Expected Demo, Transition from Previous,
 and Reproduction. The transition audit separates the initial bug fix
 (`STATE-00-FIXED`) from `AGENTS.md` introduction, and the product performance
-change (`STATE-04-PERF`) from reusable workflow addition. The stale-state
+change (`STATE-04-PERF`) from reusable Skill addition. The stale-state
 transition changes the Project Test procedure once; the subsequent observed
 failure changes no Project code or environment. STATE-09 is restored by
 checking out the STATE-08 Project commit in a clean disposable checkout and
@@ -555,10 +611,15 @@ Project evolution. Never make it appear to be production history.
 ## Cross-platform Requirements
 
 - Prefer source-level compatibility with macOS, Windows/WSL, and Linux.
-- Use macOS with the currently used Codex Desktop as the primary
-  implementation and validation environment.
-- Keep the design OS-independent where practical; STEP 07 does not require
-  actual validation on every OS.
+- Use the current macOS host for development and suitable automated
+  validation; this is not the target learner environment.
+- The learner audience is primarily Windows-based. Keep WSL/native Windows
+  proportions, IDE, shell, and exact Codex interface open under OQ-003 until
+  confirmed.
+- Keep the Demo design OS-independent where practical. A full OS validation
+  matrix is not required now; recheck the Final Anchor in the actual
+  presentation interface during Final Demo Rehearsal and consider Windows if
+  confirmed as the training environment.
 - Pin or record the language runtime and any package/build/test versions used
   in a run.
 - Do not make shell behavior, path separators, locale, or line endings the
@@ -569,13 +630,14 @@ Project evolution. Never make it appear to be production history.
 
 | Field | Current value |
 |---|---|
-| Primary OS / architecture | macOS 26.6.2 / arm64 |
-| Secondary supported environments | OS-independent design where practical; Windows/WSL and Linux implementation validation is not required at STEP 07 |
-| Codex interface / account / model | Current Codex Desktop is selected for primary work; account/model details and feature support remain to be verified under OQ-005 |
+| Recorded development / validation host | macOS 26.6.2 / arm64; benchmark values describe this host only |
+| Learner target environment | Primarily Windows; WSL/native split, IDE, shell, and exact Codex interface remain open under OQ-003 |
+| Demo portability | OS-independent design where practical; exact Windows/WSL and Linux validation scope remains open for Final Demo Rehearsal |
+| Codex interface / account / model | CLI was used for Trials; final presentation interface, account/model details, and feature support remain to be verified under OQ-003/OQ-005 |
 | Language runtime | Python 3.9.6 (the validated runtime; broader versions are not validated) |
 | Build tool/backend | pip 21.2.4, setuptools 58.0.4, wheel 0.37.0; local wheel build succeeded |
-| Test framework | Python standard-library `unittest`; 10 baseline checks pass and the specified crop-contract test fails |
-| Benchmark tool | TBD in STEP 07; select for a clear, repeatable comparison |
+| Test framework | Python standard-library `unittest`; the current STATE-03 baseline passes all 11 tests |
+| Benchmark tool | `benchmarks/benchmark_resize.py`; standard library only; three independent invocations passed; details in `plan/DEMO_MATRIX.md` |
 | Git | Required |
 | Network | None during core Demo is the goal; pre-provision any package tools |
 | External services / credentials | None |
@@ -736,19 +798,76 @@ This exact tag reset was checked during this state recording and passed 11/11.
 - OQ-002/OQ-014: not required for the selected synthetic local repository;
   revisit only if the direction introduces external/internal sources or
   company-specific claims. Choose a license before public sharing.
-- OQ-003: primary environment and Hybrid/Supporting delivery direction are
-  resolved by DEC-0011. OQ-005 retains current account, permission, interface,
-  feature, and Live-path checks.
+- OQ-003: DEC-0016 sets macOS as the current development/partial validation
+  host and the learner environment as primarily Windows-based. WSL/native
+  proportions, IDE, shell, and exact Codex interface remain open. OQ-005
+  retains account, permission, product-feature, and Live-path checks; the
+  Final Anchor is revalidated during Final Demo Rehearsal.
 - OQ-007: STATE-00 package, Build, Test runner, commands, and baseline result
   are recorded above. Benchmark method, workload, and later verification
   examples remain open until their states are implemented and measured.
-- OQ-008: whether the target surface has a suitable reusable workflow,
-  Skill, Subagent, or Memory mechanism.
+- OQ-008: DEC-0017 selects a repository-owned Codex Skill for the performance
+  workflow; TRIAL-008 observed explicit discovery, invocation, instruction
+  loading, and workflow reuse in Codex CLI 0.154.0. Codex Desktop behavior
+  remains unverified. DEC-0018 defers Subagents at STATE-04; the §§181–190
+  audit finds Memory not justified yet. Revisit either only if later task
+  evidence passes its gate.
 - OQ-009: fair recurrence representation and bounded evaluation criteria.
 - OQ-013: whether real history in the training repository supports an
   optional Meta Example.
 
-No later-state workflow, Skill, Subagent, Memory, or benchmark result is
-created or claimed by this specification. The bounded TRIAL-001/002 CLI
-observations are recorded in `plan/DEMO_MATRIX.md` and are not generalized to
-Codex Desktop or other accounts.
+The repository-owned performance Skill was recorded in local commit
+`822f1c12c5f602d934a2fd29e48f05bf498b4bfa` and tag `STATE-04`. At that State,
+TRIAL-008 had passed on Codex CLI 0.154.0 in a disposable workspace, and its
+statistics optimization had not yet been copied to the original Demo. The
+statistics baseline was committed separately from the Skill. DEC-0018 defers
+Subagents; the Trial-history audit finds Memory not justified yet. The
+bounded TRIAL-001/002 CLI observations are not generalized to Codex Desktop
+or other accounts.
+
+## STEP 07 — §§191–200 STATE-04-PERF Implementation Record
+
+The user selected the TRIAL-008 `image_statistics` candidate for the formal
+STATE-04-PERF transition. DEC-0019 records that direction and supersedes only
+DEC-0015's earlier product-change target; the resize benchmark and its
+preparation history remain intact. The implementation was re-investigated
+from STATE-04 rather than copied without review.
+
+**Product change:** `src/graypipe/statistics.py` removes the flattened pixel
+list, derives `pixel_count` from the validated dimensions, and applies
+row-level built-in reductions for minimum, maximum, and sum. The public
+function, six summary fields, CLI output, input contract, dependencies,
+benchmark inputs, and repetition counts remain unchanged.
+
+**Baseline:** STATE-04 commit/tag `822f1c12c5f602d934a2fd29e48f05bf498b4bfa` /
+`STATE-04`. On CPython 3.9.6 / macOS 26.6.2 arm64, the statistics benchmark
+used a deterministic 1024×768 image (786,432 pixels, max 255), input SHA-256
+`26df8e7b296672840d97cf5d9273e6660003afd680c62c7751d382c2d067fec9`, and
+seven one-call samples. The six-field correctness guard passed. Samples were
+16.341, 16.052, 15.134, 15.529, 15.468, 15.014, and 15.360 ms/call; median
+15.468 ms/call; range 15.014–16.341 ms; traced Python allocation peak
+6,675,804 bytes; invocation 0.28 s.
+
+**After:** the same command, input, host/runtime, repetitions, and guards
+passed. Samples were 10.910, 11.237, 10.234, 10.042, 11.204, 10.769, and
+10.581 ms/call; median 10.769 ms/call; range 10.042–11.237 ms; traced Python
+allocation peak 380 bytes; invocation 0.24 s. The observed median difference
+was −4.699 ms/call (about 30.4% for this workload); the traced allocation
+peak decreased by 6,675,424 bytes (about 99.994%). These values describe this
+measurement only; the allocation peak is not process RSS, and no TRIAL-008
+percentage was reused as a target.
+
+**Verification:** the focused statistics test passed 1/1; the full suite
+passed 11/11; the statistics benchmark verified its input fingerprint and all
+six fields; the resize benchmark verified its input and output fingerprints;
+the CLI sample crop returned 2×3, six pixels, mean 136.0, minimum 51, maximum
+255 and matching output pixels; `git diff HEAD^ HEAD --check` passed; final
+review found only the intended source file changed. The resize medians were
+148.9 ms/call before and 152.6 ms/call after, with overlapping one-invocation
+ranges; no resize performance conclusion is drawn.
+
+**Git:** product-only commit `6153b81c0187dd7d82c88bd1817fb683c98eb431`,
+`perf(statistics): remove flattened pixel allocation`; lightweight tag
+`STATE-04-PERF` points to it. `STATE-04` remains at its original commit. No
+remote is configured and no push was made. Complete individual samples,
+commands, audit, and claim boundaries are in `plan/DEMO_MATRIX.md`.
