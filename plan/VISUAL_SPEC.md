@@ -287,4 +287,3 @@ Visual direction과 기본 토큰, 형식, 가독성 기준, Evidence Grammar,
 남는다.
 
 **Next readiness: READY FOR SLIDE-TO-TEMPLATE MAPPING.**
-
