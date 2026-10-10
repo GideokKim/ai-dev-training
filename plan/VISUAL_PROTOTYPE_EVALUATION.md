@@ -122,3 +122,80 @@ templates or 27 variants.
 **READY FOR PROTOTYPE REVIEW**, with Windows PowerPoint, target-font,
 projection, and S72 reveal checks still open. This result does not authorize
 the final 80-slide deck or Speaker Notes.
+
+## V2 Evaluation — 2026-10-11
+
+**Status: PARTIAL.** V2 contains S14, S16, S35, S45, S56, S67, S72, and S73
+in the approved order. The seven original slide parts remain byte-identical
+to V1. S16 adds the previously unvalidated T06-A investigation/code-diff
+layout. No Slide Map, Claim Freeze, Product State, Trial, Demo Repository,
+time, or Story content changed.
+
+### Slide-by-Slide Result
+
+| Slide | V2 visual and evidence review | Result |
+|---|---|---|
+| S14 | The prompt comparison remains primary and its C++ inset remains subordinate. No product claim is added. | PASS |
+| S16 | TRIAL-002's baseline failure, observed call path, half-open contract, edit-before plan, and isolated one-line change are legible. The source excerpt is labeled as reflowed text, not a screenshot. Code is 18 pt. | PASS in the local render; target projection remains unverified. |
+| S35 | The A/B document-access matrix remains readable and keeps the routing, token, and performance limits explicit. | PASS |
+| S45 | The benchmark comparison and bounded checks remain legible; causal scope is unchanged. | PASS |
+| S56 | A dashed frame and repeated CONCEPTUAL labels distinguish the hypothetical case from Product history. | PASS |
+| S67 | The double-line OBSERVED META frame, Trial ID, and partial-attribution label remain distinct from Product evidence. | PASS |
+| S72 | The static R1–R5 sequence and separate R6 area are readable. A speaker-led operation cue is documented; a timed 20-minute rehearsal was not performed. | PARTIAL |
+| S73 | Chatbot → Prompt → Context → Harness → Loop remains one connected teaching model. | PASS |
+
+### Render, Typography, and Layout
+
+- Rendered all 8 slides with LibreOffice Development 26.8 to 1921 × 1080 PNGs
+  and inspected the individual slides and montage in
+  `prototype/preview/v2/`.
+- The V2 PowerPoint canvas is 13.333 × 7.5 inches (16:9). Shape bounds are
+  within the canvas. Visual inspection found no clipping or overlap in the
+  available local render. S16's Before code line initially wrapped; widening
+  its paired panels fixed that issue, and the final render keeps both changed
+  lines on one line.
+- S16 code uses 18 pt Consolas metadata. Host fontconfig lookup reports
+  Verdana for Latin Malgun Gothic, Nanum Gothic for Korean Malgun Gothic, and
+  Andale Mono for Consolas. These are local substitutions, not Windows font
+  validation.
+- S16 text/background contrast ratios calculated from the specified colors:
+  primary 16.29:1, teal 7.08:1, red 5.79:1, green 5.76:1, and amber 5.81:1.
+- Windows PowerPoint compatibility and room projection remain UNVERIFIED.
+
+### Evidence Grammar and Operation
+
+- S16 and S35/S45 use OBSERVED_PRODUCT labels with Trial/State scope.
+- S56 retains the dashed CONCEPTUAL frame; S67 retains the double-line
+  OBSERVED_META frame. Labels and frame styles carry the distinction; color
+  alone is not used.
+- S16 shows actual code from the STATE-00 baseline and TRIAL-002 isolated
+  diff. The CLI → pipeline → crop() call path and recorded 2-column expected
+  versus 3-column observed result are traceable to the existing Trial record.
+  No simulated terminal capture or fabricated test output is shown.
+- S72 remains static. The documented speaker-led cue sequence is R1 0–1,
+  R2 1–2, R3 2–4, R4 4–5, R5 5–7, then R6 Reflection 7–9, Transition 9–13,
+  and Q&A 13–20. It follows the approved 7 + 2 + 4 + 7 minute allocation.
+
+### Template Coverage and Reuse
+
+The eight slides exercise six template families: T03-C, T04-A, T04-C, T06-A,
+T07-B, T08-A, and T11-A. T06-A is now visually sampled; T06-B and T06-C are
+not. T01, T02, T05, T09, and T10 still have no prototype slide. The sample
+does not validate all 11 templates or 27 layout variants. Repeated visual
+tokens are apparent, but shared-template authoring and 80-slide change cost
+remain unverified.
+
+### Remaining Issues
+
+- **P0:** Windows PowerPoint and projection validation for the eight-slide
+  file remains required before full-deck expansion.
+- **P1:** S35 path-size projection check, S72 timed operation rehearsal, and
+  shared-template/change-cost validation remain open.
+- **P2:** S72 auxiliary timing-tag size, the 0.44-inch top content position,
+  and the prototype-only badge remain for target-environment or final-deck
+  review.
+
+The prototype PPTX remains editable native text and shapes. No Speaker Notes
+content was authored. V1 and its previews remain unchanged. The Demo
+Repository remains unchanged. See
+`plan/VISUAL_PROTOTYPE_V2_RESULT.md` for the completion-gate report.
