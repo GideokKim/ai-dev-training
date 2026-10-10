@@ -389,4 +389,3 @@ Component는 Template 안에 조합할 수 있는 설명 단위다. Component를
 정의했으며, 전체 80장 Template ID 배정은 다음 단계에 남겼다.
 
 **Next readiness: READY FOR SLIDE-TO-TEMPLATE MAPPING.**
-

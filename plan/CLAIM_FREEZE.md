@@ -1,6 +1,7 @@
 # STEP 08 — CLAIM / EVIDENCE FREEZE RESULT
 
-Checked: 2026-10-06  
+Checked: 2026-10-06
+
 Related decision: [DEC-0023 — Freeze STEP 08 claims and course operational definitions](DECISIONS.md)
 
 This freeze audits claims in the approved 80-Slide Map. Claim status is
