@@ -1,9 +1,11 @@
 # Detailed Story Architecture
 
-> Status: STEP 05 COMPLETE WITH OPEN QUESTIONS through §120; this Story is the
-> baseline for STEP 06. Demo success, repository fit, current product
-> availability, and observed outcomes remain unverified. Proposed timing and
-> Demo candidates retain their existing Decision status.
+> Status: STEP 07 Story alignment and user gate resolution recorded through
+> 2026-10-02. DEC-0007 is ACCEPTED with the 360-minute mode totals. The primary
+> Product evidence ends at STATE-04-PERF; ACT 4 separates a conceptual
+> stale-Harness case from an observed Training Production Meta Case. Older
+> STEP 05/06 gates below are historical where their pending assumptions
+> conflict with this current alignment.
 
 ## Purpose
 
@@ -13,11 +15,11 @@ preserves each Act's cause and effect so the Slide Map can group events without
 inventing a new narrative. It is not a list of Slide titles, final slide
 wording, Demo implementation, Speaker Notes, or a PPT.
 
-The learner follows one ordinary software developer and one evolving software
-project. At each stage, a reasonable approach first helps. Repetition, greater
-scope, or a project change then reveals a new friction. The next Engineering
-step answers that friction without making the previous step look foolish or
-useless.
+The learner follows one ordinary software developer through an evolving
+primary Product project. At each stage, a reasonable approach first helps.
+Repetition, greater scope, or a project change then reveals a new friction.
+Separately labeled conceptual and observed Meta cases support teaching without
+extending the primary Product history.
 
 ## Story Principle
 
@@ -48,16 +50,19 @@ The Story does not frame the developer as incompetent or careless.
 
 ## Project Evolution
 
-The same illustrative project grows in demands over time:
+The primary Product Demo follows its verified repository states:
 
-`Small and understandable → recurring tasks → reusable project rules →
-multiple workflows → distinct investigation roles → project knowledge worth
-retaining and maintaining → project change`
+`STATE-00 baseline + known crop bug → STATE-00-FIXED verified correction →
+STATE-01 small root AGENTS.md → STATE-02 accurate but mixed-scope Context →
+STATE-03 structured Context + routing → Benchmark preparation → STATE-04
+repository-owned reusable Performance Skill → STATE-04-PERF verified,
+evidence-based Product Change`
 
-The demo repository, domain, language, actual events, and exact checks remain
-open under the existing OQs. Examples in this Story are scenarios to validate
-or label as illustrative; they are not claims about an already selected or
-observed project.
+This observed Product history ends at `STATE-04-PERF`. The later Subagent and
+Memory reviews are project-specific decision evidence, not new Product states.
+Subagents and Memory remain conditional teaching choices. ACT 4's stale
+workflow path is a separate conceptual controlled case; its observed Meta Case
+comes from Training Production Trial history, not this Product repository.
 
 ### Coupled Evolution
 
@@ -69,23 +74,27 @@ review, and accountability throughout.
 
 ## Six-Act Event Architecture
 
-The Act durations below are the current Curriculum proposal. `DEC-0007` is
-still `PROPOSED`; these values are not treated here as user-approved timing.
+The ACT durations below are approved in DEC-0007 and remain
+40 / 55 / 70 / 85 / 80 / 30 minutes. Aggregate mode totals are Lecture 130,
+Demo 73, Case 83, Reflection 20, Transition 22, and Q&A/Discussion 32 minutes.
+STEP 08 will place Q&A near major transitions and the close, and reconcile
+section-level Reflection and Transition placement. This Story table does not
+assign Q&A to individual sections or Slides.
 
 | Act | Story event | Initial approach and first value | Friction that earns the next step | Exit question |
 |---|---|---|---|---|
 | ACT 0 — 40 min | A familiar chatbot workflow meets a repository-wide question. The agent investigates available repository context and produces a useful bounded explanation. | Copying a small error or code fragment to ChatGPT is fast and useful. Repository exploration can move part of context gathering to an agent, subject to the selected surface and permissions. | The agent can inspect code but does not infer every unstated goal, boundary, or completion condition. | “같은 AI를 사용하는데 왜 사람마다 결과가 다를까?” |
 | ACT 1 — 55 min | Repository access reveals a task-intent gap. The developer specifies a filter-performance task, investigates before editing, and sees a bounded prompt success. | Task-specific Goal, Context, Constraints, Process, and Verification make the requested work reviewable; investigation first is a reliable default, not a requirement for long planning on every small task. | Good task prompts still repeat build, test, API, and style information across Bug Fix, Performance, and Refactoring tasks. | “왜 나는 Project에 대해 똑같은 설명을 계속 하고 있지?” |
 | ACT 2 — 70 min | Repeated Prompt context motivates `AGENTS.md`. Show its first bounded success before it grows; separate information by scope, treat `AGENTS.md` as a course-level Router pattern, and disclose only task-relevant context. | Reusable project rules and shorter task Prompts are a useful first improvement. Context Engineering then becomes information architecture: what stays core, where details live, and how a task can find them. | A relevant Context design still answers “what does the agent need to know?” It does not define “how should this work be performed?” | “Agent가 Project를 잘 이해하면 항상 같은 방식으로 잘 일할까?” |
-| ACT 3 — 85 min | In the same Performance task, show varying procedures despite organized Context. Distinguish project knowledge from Workflow, reveal repeated procedure Prompts, introduce a reusable Workflow or supported Skill, and show its bounded success. Expand complexity into role separation, conditional Subagents, Context Isolation, bounded success, and overuse costs. Repeated discovery motivates Memory; show what is worth retaining, cross-task reuse, and the Create → Validate → Scope → Retrieve → Refresh → Update/Retire lifecycle. Continue through Tools and structural Verification, then let the Harness emerge, reveal a conceptual architecture, and show its bounded success before Project change. | Workflow reuse, role separation, Memory, Tools, and Verification address specific frictions; product mechanisms remain conditional and are not a mandatory checklist. | A useful Harness may become stale as the Project changes over time. | “잘 만든 Harness가 Project 변화 뒤에도 계속 맞을까?” |
-| ACT 4 — 80 min | After Harness success, time passes and the Project changes. A stale workflow causes one task failure, which the developer corrects locally; later tasks repeat the failure. Treat recurrence as a signal: observe execution, form a cause hypothesis, change the right layer, rerun, evaluate representative tasks, and check regression. Reveal and distinguish the Product Loop and Harness Improvement Loop, then compare manual, assisted, and automated feedback. Revisit Memory, Skills, and Subagents as maintainable Harness parts; derive Minimum Effective Harness from recurring friction. A verified history of this training repository may serve as an optional supporting example. | A local correction can solve one task, while recurring failure may require a change to the system shaping later tasks. Automation is one possible implementation level, not the definition or goal of a Loop. | A broad change can introduce rule bloat or harm another task; one passing check does not prove full quality. | “지금 자신의 업무에서 다음으로 바꿀 수 있는 것은 무엇인가?” |
+| ACT 3 — 85 min | Use a labeled teaching model to expose process variation, then trace the recurring procedure in TRIAL-006/007 to the repository-owned Skill and its observed CLI use in TRIAL-008 and bounded STATE-04-PERF success. Audit whether current tasks justify Subagents; the review finds no, so present role separation as conditional. Audit Trial history for costly repeated discovery; no durable Memory candidate is justified. Connect the actual Project Context, routing, Skill, Benchmark, Tests, tools, and task Prompt boundary, then reveal the designed working environment and show the verified STATE-04-PERF result. | Minimum Effective Harness is an observed decision: the bounded Product change succeeds without Subagent or Memory. These are conditional mechanisms, not components to collect. | The working Harness is successful for this tested scope; a separate conceptual example asks how Project change could make an otherwise correct workflow stale. | “잘 만든 Harness가 Project 변화 뒤에도 계속 맞을까?” |
+| ACT 4 — 80 min | Preserve two independent evidence paths. DEMO-04A is a labeled conceptual stale-Harness case: Project change → stale reusable workflow → friction → observation → cause hypothesis → scoped change → evaluation and regression check. DEMO-04B is the observed Meta timeline TRIAL-006 → DEC-0016 → TRIAL-007/008, showing a bounded change to Trial evaluation/reporting rules. Connect both through Execution → Observation → Cause → System Change → Re-evaluation, without claiming the conceptual case caused the Meta event. Recall the actual Minimum Effective Harness and distinguish Product Loop from Harness Improvement Loop. | Loop is feedback-based system improvement; automation and any particular mechanism remain optional. Evidence may be conceptual, observed, or partial, and its status must remain visible. | A passing check is bounded; a system change can overfit or affect another valid task. | “지금 자신의 업무에서 다음으로 바꿀 수 있는 것은 무엇인가?” |
 | ACT 5 — 30 min | Recap the evolution and name the course's AI-Native Development teaching model. Make developer responsibility, Verification, the default task workflow, and the four Engineering layers visible as compact payoffs. Offer beginner and advanced perspectives within one Story, the seven Curriculum takeaways, and a private closing reflection. | The maturity path offers options without requiring every learner to adopt every mechanism. | A single adoption prescription would not fit the full range of learner starting points. | “현재 AI에게 어디까지 맡기고 있으며, 그 다음 단계에서 가장 먼저 바꿀 수 있는 것은 무엇인가?” |
 
-The added ACT 4 Beats elaborate the existing Curriculum sections for the Loop,
+The ACT 4 Beats elaborate the existing Curriculum sections for the Loop,
 automation levels, cause analysis, and improving Context, Memory, Skills, and
-delegation. They do not add minutes to the 80-minute Act. The repository meta
-example is optional and should be omitted if it does not fit the existing
-allocation or lacks evidence. ACT 5's responsibility, Verification, task
+delegation. They do not add minutes to the 80-minute Act. The observed Meta
+example is supporting and remains subordinate to the Product Story. ACT 5's
+responsibility, Verification, task
 workflow, layer diagnosis, audience perspectives, takeaways, and reflection
 are concise retrospective payoffs inside its existing two 15-minute sections;
 they do not add minutes or new product demonstrations. If compression is
@@ -158,56 +167,70 @@ when it can find it, not maximizing context volume.
 
 ## Act 3 — Harness Engineering
 
-**Starting State:** Context is better organized, but recurring Performance
-tasks still vary in baseline, implementation, tests, and comparison.
+**Starting State:** Project Context is better organized. A labeled model poses
+process variation; TRIAL-006/007 record a recurring Performance procedure
+before the repository-owned Skill and its bounded evidence are shown.
 
-**Key Events:** A repeated procedure motivates a reusable workflow or
-supported Skill. Greater task complexity creates role and context-isolation
-questions; Subagents remain conditional and their coordination costs visible.
-Repeated discovery motivates retained knowledge and its lifecycle. Tools and
-Verification are connected to a workflow. The previously motivated parts
-form a conceptual Harness, which supports a bounded task.
+**Key Events:** A repository-owned Performance Skill supports a bounded task.
+The Story then asks whether the current work justifies Subagents; the audited
+Project tasks do not, because their independent Context needs are weak and
+coordination overhead outweighs a demonstrated benefit. A Trial-history audit
+classifies source facts, maintained documentation, reusable workflow, and
+scoped observations; it finds no durable Memory candidate. The conditional
+Subagent and Memory models remain available for different projects where
+independent investigation or costly, reusable rediscovery is real. Tools and
+Verification join the actual Project Context, routing, Skill, Benchmark,
+Tests, and task Prompt boundary. The Harness is revealed as the designed
+Project-level working environment, not a component checklist.
 
-**Success:** The learner sees a designed work system combine only the
-information, methods, roles, tools, environment, and checks needed by its
-tasks.
+**Success:** The observed `STATE-04-PERF` product change passes the focused and
+full Tests, Benchmark correctness guards, CLI smoke check, and diff review.
+This is a Working Harness Success with no Subagent or Memory. The ACT 3 payoff
+is Minimum Effective Harness: the smallest evidenced system was sufficient
+for this bounded task.
 
-**New Friction:** Time and project change can make an artifact that once helped
-the Agent stale.
+**New Friction:** The demonstrated Harness remains successful in its tested
+scope. A separate conceptual case asks how later Project change could make a
+previously correct artifact stale; it is not the next state in the Product
+Demo history.
 
-**Turning Point:** The whole work environment becomes visible only after its
-parts have answered distinct problems.
+**Turning Point:** The system view emerges after its actual parts and
+conditional decisions have been examined.
 
-**Insight:** Reliable agent work asks not only what the Agent knows, but how
-the work is structured and checked.
+**Insight:** Reliable agent work depends on intentionally designed working
+conditions and checks; maturity is not the number of mechanisms installed.
 
 ## Act 4 — Loop Engineering
 
-**Starting State:** A Harness supports work under the Project assumptions it
-was designed for.
+**Starting State:** The Product Demo is complete at `STATE-04-PERF`. ACT 4
+keeps its conceptual teaching path separate from its observed production
+history.
 
-**Key Events:** A project change makes a workflow stale; one task is corrected
-locally, and a later task may repeat the failure. The developer observes
-before diagnosing, forms a cause hypothesis, changes the supported layer,
-reruns, evaluates representative work, and checks regression. Only after
-these parts appear does the course reveal the full Loop. The Story distinguishes
-Product and Harness loops; compares manual, assisted, and automated feedback;
-revisits Memory, Skills, and delegation maintenance; and introduces Minimum
-Effective Harness as a project heuristic. A training-repository meta example
-is optional and gated by verifiable history.
+**Key Events:** DEMO-04A uses a conceptual controlled case: a justified
+Project change leaves an old reusable workflow stale, exposing friction that
+can be observed, diagnosed, addressed at the supported layer, and evaluated
+with regression checks. It is not a Demo repository state or Trial. DEMO-04B
+uses the actual supporting Meta Case `TRIAL-006 → DEC-0016 → TRIAL-007 /
+TRIAL-008`: unexpected global-Harness presence limited attribution, evaluation
+and reporting rules changed, and later evidence was recorded with remaining
+partial limits. The two paths are not causally connected. The Story
+distinguishes Product and Harness Improvement Loops, compares feedback
+arrangements, treats Memory / Skill / delegation maintenance as conditional
+teaching models, and recalls Minimum Effective Harness.
 
-**Success:** A justified, evaluated change can improve the system for the
-tested scope and inform a later task.
+**Success:** Learners see a general feedback pattern grounded by one
+conceptual illustration and one separately bounded observed Meta timeline.
+Neither is presented as a measured Product or training-quality improvement.
 
 **New Friction:** One passing check is bounded evidence; changes can overfit,
 add irrelevant rules, or affect another valid task.
 
-**Turning Point:** Repeated friction is investigated as a possible signal to
-improve the system shaping future work, not proof that a Harness change is
-always needed.
+**Turning Point:** Execution, observation, cause analysis, system change, and
+re-evaluation form a feedback pattern. Repetition and automation alone are not
+a Loop.
 
-**Insight:** Loop Engineering is evidence-informed system improvement, not
-automatic repetition or guaranteed self-improvement.
+**Insight:** Loop Engineering uses evidence to judge whether a Product,
+Harness, or working method should change and what later evaluation can support.
 
 ## Act 5 — AI-Native Development
 
@@ -244,8 +267,8 @@ universal industry maturity standard.
 | Codex repository exploration | Agent investigates available repository context. | Access does not specify intent or success conditions. |
 | Prompt | Task intent, constraints, process, and verification are stated. | Project facts repeat across tasks. |
 | Context | Project information is reused, scoped, and routed. | Knowing the project does not standardize how work is performed. |
-| Harness | Workflow, optional roles, knowledge, tools, environment, and checks are designed around needs. | Project changes can make the system stale. |
-| Loop | Observed outcomes inform a cause analysis and an evaluated system change. | The developer still needs to choose goals, evidence, risks, and trade-offs. |
+| Harness | The observed Project uses Context, routing, a reusable Skill, Benchmark, Tests, tools, and a task Prompt boundary; Subagent and Memory are considered but not selected. | A separate conceptual case shows how Project change could make an artifact stale. |
+| Loop | A conceptual stale-Harness case and a separate observed Trial-evaluation Meta Case illustrate bounded feedback without causal conflation. | The developer still needs to choose goals, evidence, risks, and trade-offs. |
 | AI-Native Development | Developer designs agent work conditions and feedback while retaining responsibility. | Deliberate course close; no further maturity stage is prescribed. |
 
 The final synthesis can also be shown as `Question → Task → Context → System
@@ -339,14 +362,15 @@ experience, not as isolated outlines.
 |---|---|---|
 | Familiar ChatGPT use → repository-context cost → bounded Codex exploration → task-intent gap → Prompt success | BEAT-001–007 | PASS: the familiar approach is useful first; repository access then exposes a separate intent problem. |
 | Prompt success → repeated Project facts → useful `AGENTS.md` → accumulation and relevance → separation and routing success | BEAT-007–017 | PASS: the first reusable-context success precedes its scaling problem and a more relevant design. |
-| Organized Context → inconsistent process → reusable workflow / Skill → role complexity / Subagents → repeated discovery / Memory → Tools and Verification → Harness success | BEAT-018–037 | PASS: each mechanism answers a distinct friction, with product availability and outcome evidence conditional. |
-| Harness success → time and Project change → stale artifact → local recovery and possible recurrence → observation, cause, change, evaluation, regression → Loop → Minimum Effective Harness | BEAT-037–057 | PASS WITH DEMO GATE: the cause and recurrence must be observed or clearly labeled as controlled; the system change is evaluated before a benefit is claimed. |
+| Organized Context → reusable workflow / Skill → Subagent decision → Memory audit → Tools and Verification → Harness reveal → STATE-04-PERF | BEAT-018–037 | PASS: the observed path ends in Working Harness Success; Subagent and Memory remain conditional and are not added to the Product history. |
+| Product success → separate conceptual stale-Harness case; observed Trial history → evaluation/reporting change → Loop synthesis → Minimum Effective Harness | BEAT-037–059 | PASS: conceptual and observed Meta paths are labeled separately and share only the general feedback pattern. |
 | Loop synthesis → developer responsibility → shared layer map and audience next steps → seven takeaways → private reflection | BEAT-060–071 | PASS: the close recalls one shared Story and does not require feature adoption or public participation. |
 
-**Read-through result: PASS WITH EVIDENCE GATES.** No concept needs to be
-inserted ahead of its motivating friction. Repository selection, concrete
-outcomes, and any observed recurrence remain unresolved; the optional training
-repository example in BEAT-058–059 remains subordinate and evidence-gated.
+**Current STEP 07 read-through result: PASS WITH BOUNDED EVIDENCE.** The
+Product path ends at verified `STATE-04-PERF`. Subagent and Memory are
+conditional decisions, DEMO-04A is conceptual, and DEMO-04B is a subordinate
+observed Meta Case with partial attribution limits. No observed stale Product
+failure or Product Loop is claimed.
 
 ### Why Now Audit
 
@@ -357,12 +381,12 @@ Each mechanism appears after its distinct problem is visible.
 | Prompt Engineering | Codex can inspect repository context but cannot infer the developer's unstated task intent, constraints, or completion evidence. | BEAT-003–007 | PASS |
 | `AGENTS.md` | A clear Prompt works, then repeated Project facts create a reuse problem across tasks. | BEAT-007–010 | PASS |
 | Context separation and routing | Learners first see a useful `AGENTS.md`, its growth, and a task-relevance problem; separation answers that problem. | BEAT-010–017 | PASS |
-| Workflow / Skill | Relevant information is available, yet the same kind of work still varies and its procedure is repeated. | BEAT-017–022 | PASS |
-| Role separation / Subagents | Reusable workflow has helped a bounded task; a broader task now combines distinct investigations and Context. | BEAT-022–027 | PASS |
-| Memory / durable knowledge | Cross-task work reveals valuable facts being rediscovered; retaining all facts is explicitly not the answer. | BEAT-027–032 | PASS |
-| Harness architecture | Context, methods, roles, knowledge, tools, execution, and checks have already answered separate needs. | BEAT-033–037 | PASS |
-| Loop Engineering | A useful Harness has succeeded; time and Project change make an artifact stale, and possible recurrence earns system-level diagnosis. | BEAT-037–051 | PASS WITH DEMO GATE |
-| Minimum Effective Harness | The Story has shown both useful mechanisms and the costs of overbuilding; this heuristic summarizes fit to recurring friction. | BEAT-027, BEAT-053–057 | PASS |
+| Workflow / Skill | Relevant information is available. A labeled teaching model illustrates process variation; separate Trial records show a recurring Performance procedure and its reuse in a repository-owned Skill. | BEAT-017–022 | PASS |
+| Role separation / Subagents | The actual Project audit finds no need; a conditional model explains what independent investigations, specialization, isolation, or parallel work could justify delegation elsewhere. | BEAT-023–027 | PASS WITH BOUNDED EVIDENCE |
+| Memory / durable knowledge | Trial history is classified; no costly missing durable fact justifies Memory in the primary Project. A conditional retention gate and conceptual example preserve the general lesson. | BEAT-028–032 | PASS WITH BOUNDED EVIDENCE |
+| Harness architecture | The observed Project-level working environment combines Context, routing, Skill, Benchmark, Tests, tools, and task Prompt boundary; Subagent and Memory are absent by decision. | BEAT-033–037 | PASS |
+| Loop Engineering | After Product success, a separate conceptual stale-Harness path and an independent observed Trial-evaluation Meta Case show evidence-bounded feedback. | BEAT-038–051, 058–059 | PASS WITH EVIDENCE LABELS |
+| Minimum Effective Harness | The observed STATE-04-PERF success without Subagent or Memory is the ACT 3 payoff; the course heuristic is recalled in ACT 4/5. | BEAT-027, 037, 057, 068–071 | PASS |
 | AI-Native Development | The learner has seen the complete progression and can now interpret it as a course model while keeping developer responsibility. | BEAT-060–071 | PASS |
 
 ### Could We Stop Here? Audit
@@ -376,7 +400,7 @@ automatically better or a required implementation ladder.
 | Prompt Engineering | A small or one-off task may need only a clear request, suitable investigation, and task-appropriate verification. | BEAT-005–007 |
 | Reusable Project Context | Repeated Project facts may be the main friction; concise, relevant guidance can be a substantial improvement. | BEAT-009–017 |
 | Reusable workflow / basic Harness | A team with a recurring procedure can benefit from a repeatable workflow and checks without adding every other mechanism. | BEAT-020–022, BEAT-033–037 |
-| Role separation or Memory | Use only when task complexity or repeated rediscovery makes its benefit worth its coordination and maintenance cost. | BEAT-023–032 |
+| Role separation or Memory | Consider only when independent investigation or costly rediscovery has evidence; the current Project justified neither. | BEAT-023–032 |
 | Feedback Loop | It matters most when agent-assisted work and its Harness are operated over time and recurring evidence can guide maintenance. | BEAT-038–057 |
 
 **Result: PASS.** The Story presents higher stages as a broader scope of
@@ -393,14 +417,15 @@ heuristic, not an official product configuration or fixed component list.
 |---|---|---|
 | Prompt | Investigation and planning are useful defaults, not a long ritual for every small task. | BEAT-006–007 |
 | Context | Relevance and timing matter; not every Project needs elaborate routing or all available information. | BEAT-012–017 |
-| Subagents | One Agent remains suitable for a small, bounded task; role separation earns its cost only when useful. | BEAT-025–027 |
-| Memory | Retain only validated, scoped facts worth reusing; maintain or retire what becomes stale. | BEAT-028–032 |
+| Subagents | The actual candidate-task audit did not justify a Subagent; the conditional model gives evidence and cost criteria. | BEAT-023–027 |
+| Memory | Trial history yielded no qualifying durable candidate; a conditional retention gate covers reuse, provenance, scope, and freshness. | BEAT-028–032 |
+| ACT 3 payoff | STATE-04-PERF succeeds with Project Context, routing, Skill, Benchmark, Tests, tools, and task Prompt boundary; Subagent and Memory are not needed. | BEAT-035–037 |
 | Loop | Choose manual, assisted, or automated feedback to match the risk; not every failure needs automation. | BEAT-052–057 |
-| Synthesis | Recall the smallest system that addresses real recurring friction, then let learners choose a fitting next step. | BEAT-057, BEAT-068–071 |
+| ACT 4/5 callback | Recall the observed minimum system as a fit example, then let learners select their own next step. | BEAT-057, BEAT-068–071 |
 
-**Result: PASS.** The heuristic counters overengineering across the Story and
-is recalled without changing the seven approved Curriculum takeaways or
-adding time to ACT 5.
+**Result: PASS.** The heuristic first has an observed ACT 3 payoff and then
+returns in ACT 4/5, without changing the seven approved Curriculum takeaways
+or adding time to any Act.
 
 ### Story Rhythm Audit
 
@@ -410,10 +435,10 @@ than repeating a problem followed by a lecture.
 | Rhythm | Story examples | Function |
 |---|---|---|
 | SUCCESS | BEAT-001, 003, 007, 010, 022, 037 | Establishes that the current approach and its first improvement have real value. |
-| SURPRISE | BEAT-011–012, 038–040, 050 | Shows how scope, time, or an attempted correction can expose an unanticipated friction. |
+| SURPRISE | BEAT-011–012, 038–040, 050 | Shows Context growth and, in a separate conceptual case, how time or a local correction can expose maintenance friction. |
 | QUESTION | BEAT-018, 023–024, 040, 066 | Gives learners a reason to ask before naming the next mechanism. |
 | DISCOVERY | BEAT-019, 029, 043–045 | Distinguishes process from knowledge, current Context from Memory, and observation from cause. |
-| IMPROVEMENT | BEAT-045–049, 054–057 | Shows a scoped system response, rerun, evaluation, regression check, and fit-based maintenance. |
+| IMPROVEMENT | BEAT-045–049, 054–057 | Teaches a conceptual scoped response, evaluation, regression check, and conditional maintenance choices. |
 | PAYOFF | BEAT-035–037, 051–053, 060–071 | Reveals the Harness and Loop after their parts, then recalls the full journey. |
 | CALLBACK | BEAT-010–012 → 050; BEAT-005/007 → 034/047–049; BEAT-031 → 032/054 | Reuses earlier ideas to make the system feel continuous. |
 
@@ -427,33 +452,38 @@ Slide Map and rehearsal; this audit adds no sections or minutes.
 | Verification | Prompt names task-specific completion evidence. BEAT-005–007. | Harness workflow checks and bounded Harness result, then Loop evaluation and regression. BEAT-034–037, BEAT-047–049. | Verification expands with the system; it never becomes synonymous with an Agent's completion claim. |
 | Context bloat | `AGENTS.md` first helps and then accumulates information for different tasks. BEAT-009–012. | Failure-specific additions can recreate irrelevant Context during system improvement. BEAT-050–051. | Loop maintenance can repeat the earlier problem if the cause is answered with an indiscriminate rule. |
 | Context relevance | Separate and route the information a task needs. BEAT-012–017. | Subagents raise role-specific Context isolation; Loop diagnosis can improve the layer that caused the friction. BEAT-023–027, BEAT-043–046. | Relevance applies at task, role, and system-maintenance scope. |
-| Memory lifecycle | A retained fact helps when validated and scoped. BEAT-030–032. | Later Harness maintenance may refresh or retire Memory that no longer matches the Project. BEAT-054. | Reuse creates a freshness and ownership responsibility. |
-| Skill lifecycle | A repeated workflow gains a reusable form and bounded success. BEAT-020–022. | A missing or stale step is later diagnosed as workflow quality and repaired only when the case supports it. BEAT-043–047, BEAT-055. | Reuse is useful but must stay aligned with current tasks and evidence. |
+| Memory lifecycle | The current Project has no justified Memory candidate; conditional retention criteria are taught. BEAT-028–032. | A separate conceptual maintenance case refreshes or retires stale knowledge. BEAT-054. | Reuse creates a freshness and ownership responsibility; no Memory use is claimed for the Product Demo. |
+| Skill lifecycle | The repository-owned Skill supports the verified STATE-04-PERF change. BEAT-020–022, 037. | An incomplete Skill is a separate conceptual maintenance example. BEAT-055. | The observed Skill remains a success; do not imply that ACT 4 repaired or invalidated it. |
 | Repository to work environment | The developer brings an agent to available repository context. BEAT-003. | The learner sees the broader design of the Agent's working conditions and retains responsibility. BEAT-035–037, BEAT-060–062. | The Story grows from context access to system design without claiming the Agent owns engineering judgment. |
 
-**Result: PASS.** These callbacks connect the major changes; they are
-candidate teaching links, not claims that a specific unselected Demo has
-already occurred.
+**Result: PASS.** These callbacks connect the major changes. Product and Meta
+claims are made only where their observed paths are recorded; separate
+conceptual examples remain labeled as such.
 
-### Demo Candidate Extraction
+### Story Demo Role and Evidence Extraction
 
-The candidate index is derived from Story Beat labels and the four proposed
-Anchor candidates in `DEC-0008`. It helps plan later work; it does not select
-a Demo repository, product surface, or Live / captured format. `DEC-0008`
-remains `PROPOSED`.
+This index reflects the STEP 07 evidence alignment. It records each path's
+Story role and evidence boundary; it does not decide later Slide, Live, or
+captured presentation details.
 
-| Category | Candidate Beats | Use |
+| Story path | Beats | Use and evidence boundary |
 |---|---|---|
-| ANCHOR CANDIDATE | BEAT-003; BEAT-009–017; BEAT-020–022; BEAT-039–049 | Repository exploration; reusable Project guidance and relevance; workflow with verification; stale artifact through bounded Loop evaluation. These are four grouped candidates, not a requirement for one Demo per Beat. |
-| SUPPORTING CANDIDATE | BEAT-004–007; BEAT-023–027; BEAT-028–032; BEAT-054–056; BEAT-058–059 | Prompt comparison, role separation, retained knowledge, maintenance, and an optional history-backed meta example. |
-| VISUAL CANDIDATE | BEAT-011–017; BEAT-035–036; BEAT-043–045; BEAT-050–053; BEAT-060–070 | Context growth and routing, system/Loop diagrams, cause-to-layer map, automation choices, and final synthesis. |
+| Primary Product Demo | BEAT-003; BEAT-009–017; BEAT-020–022; BEAT-033–037 | Observed product evolution ends in Working Harness Success at `STATE-04-PERF`. |
+| Conditional teaching models | BEAT-023–032; BEAT-054–056 | Actual audits defer Subagent and Memory; role separation, retention, and maintenance remain conditional models. |
+| DEMO-04A conceptual case | BEAT-038–049 | Controlled stale-workflow teaching path; not Product repository or Trial history. |
+| DEMO-04B observed Meta Case | BEAT-058–059 | Supporting Training Production evaluation/reporting timeline; preserve attribution limits and subordinate role. |
+| Visual and recap material | BEAT-004–007; BEAT-011–017; BEAT-035–036; BEAT-043–045; BEAT-050–053; BEAT-060–070 | Prompt comparison, Context routing, system/Loop diagrams, cause-to-layer map, automation choices, and final synthesis. |
 | DO NOT DEMO | Beats marked `NONE`, especially BEAT-067–068 and BEAT-071 | Keep diagnostic questions and private audience reflection as explanation or reflection; do not invent a product interaction to fill time. |
 
-Product capability, reproduction, runtime, evidence, and fair fallback remain
-open under the existing OQs. No Demo architecture or implementation is
-created by this index.
+Exact product-surface availability outside the observed run and presentation
+format remain under the existing OQs. No Slide Map, Speaker Notes, PPT, or Demo
+repository change is created by this index.
 
 ### STEP 05 Interim Gate (§100)
+
+This is the pre-implementation gate recorded before STEP 06/07. Its pending
+repository and evidence statements are historical where they differ from the
+current alignment below.
 
 | Gate | Result | Evidence or remaining boundary |
 |---|---|---|
@@ -463,9 +493,9 @@ created by this index.
 | Chatbot → Codex → Prompt → Context → Harness → Loop | PASS | The top-level order remains protected; AI-Native Development is the retrospective close. |
 | `AGENTS.md` is useful before its limits appear | PASS | BEAT-009–010 success precedes accumulation and relevance. |
 | Separation follows Context success and growth | PASS | BEAT-010–017 carries initial benefit, accumulation, relevance, routing, and bounded success. |
-| Skill, Subagent, and Memory each follow their problem | PASS | Repetition, role/context complexity, and rediscovery precede the respective mechanism. |
+| Skill, Subagent, and Memory follow evidenced problems | PASS | The Skill follows workflow repetition; current task and Trial audits defer Subagent and Memory, while conditional models explain their decision gates. |
 | Harness reveal follows its component problems and success | PASS | BEAT-033–037 connects the parts before the architecture reveal and bounded task. |
-| Harness success precedes staleness; Loop follows possible recurrence | PASS WITH DEMO GATE | BEAT-037–051 preserves order; recurrence and attribution need observation or a labeled controlled case. |
+| Harness success precedes a separately labeled staleness case | PASS | `STATE-04-PERF` is observed success; BEAT-038–049 is explicitly conceptual; observed Meta evidence is separate in BEAT-058–059. |
 | Evaluation and regression follow a system change | PASS | BEAT-045–049 requires rerun, representative evaluation, and regression checking. |
 | Minimum Effective Harness guards against overengineering | PASS | Early cues and final recall are mapped above; no fixed feature list is prescribed. |
 | Beginners and advanced users share the Story | PASS | Audience Audit and BEAT-068–069 layer next steps without separate tracks. |
@@ -494,10 +524,10 @@ repository actions remain inside a Beat unless they change the Story state.
 |---|---|---|
 | BEAT-008 → 010 → 011 | Repeated Project facts motivate reusable guidance; its first success makes adding more guidance reasonable, which creates accumulation. | PASS: the solution's success contributes to the next friction. |
 | BEAT-014 → 017 → 018 | Separation and routing make relevant Context easier to find; after that success, repeated work procedures remain a distinct unresolved problem. | PASS: Context success is preserved before Process friction. |
-| BEAT-020 → 022 → 023 | Repeated steps motivate a reusable workflow; a bounded success is followed by a more complex task that may need distinct investigations. | PASS: increasing scope, not solution failure, earns the next question. |
-| BEAT-025 → 027 → 028 | Role separation can help a complex task, but the learner then sees its limits and a separate cross-task rediscovery problem. | PASS: success stays task-bounded; Memory answers a different friction. |
-| BEAT-030 → 037 → 038 | Retained knowledge, tools, and checks join a bounded Harness success; time and Project change then create a plausible maintenance question. | PASS: the Loop is not introduced before a useful Harness is shown. |
-| BEAT-039 → 051 | A local fix, possible recurrence, observation, hypothesis, scoped change, rerun, evaluation, and regression check accumulate before the Loop is named. | PASS WITH EVIDENCE GATE: recurrence and outcomes require observation or a labeled controlled case. |
+| BEAT-020 → 022 → 023 | Trial records establish procedure recurrence, TRIAL-008 observes repository Skill invocation, and STATE-04-PERF records bounded success before the project-specific role-need audit. | PASS: evidence roles are bounded and the audit finds Subagents are not justified in the current Project. |
+| BEAT-023 → 027 → 028 | A project-specific audit defers Subagents, conditional role separation remains teachable, and Trial history is separately audited for durable knowledge. | PASS: neither mechanism is asserted as a primary Product state. |
+| BEAT-030 → 037 → 038 | Conditional Memory criteria, tools, and checks lead to observed `STATE-04-PERF` success; a separate conceptual case then asks about later staleness. | PASS: no actual Product failure is inferred. |
+| BEAT-038 → 051 | The conceptual case shows a stale workflow, local recovery, controlled recurrence, analysis, change, evaluation, and regression before the Loop is named. | PASS: every event is labeled conceptual, not observed Product history. |
 
 The causal review checks that a new problem comes from scale, repetition,
 complexity, or change in the same evolving Project. It does not require every
@@ -516,27 +546,27 @@ guardrail.
 |---|---|---|
 | `TRANS-001`–`TRANS-003` — Chatbot → Codex → Prompt → Context | PASS: useful earlier methods remain useful; each next problem is distinct. | Repository surface and any displayed outcomes remain conditional. |
 | `TRANS-004`–`TRANS-006` — AGENTS.md → separation; Context → Harness; Workflow → Skill | PASS: initial success precedes accumulation or workflow friction. | Keep the Skills product mechanism conditional and use a conceptual fallback if unavailable. |
-| `TRANS-007`–`TRANS-009` — Single Agent → Subagent; rediscovery → Memory; components → Harness | PASS: mechanisms follow role, rediscovery, and integration problems. | Do not claim speed gains or imply the component list is mandatory. |
-| `TRANS-010`–`TRANS-012` — Harness staleness → debt → Loop → AI-Native | PASS WITH EVIDENCE GATE: recurrence motivates investigation and a bounded system response. | Failures, causes, outcomes, and any meta history remain illustrative or controlled until verified. |
+| `TRANS-007`–`TRANS-009` — delegation decision; Memory audit; actual Harness reveal | PASS: current audits justify neither Subagent nor Memory; conditional models remain. | Do not claim speed gains or imply the component list is mandatory. |
+| `TRANS-010`–`TRANS-012` — conceptual staleness + observed Meta feedback → Loop → AI-Native | PASS: both evidence paths and their limits are explicit. | Do not merge the two paths or claim Product-loop evidence. |
 
 **Result: PASS WITH EVIDENCE GATES.** No transition needs a new failure
 manufactured solely to justify the next concept. Preserve the earlier
 approach's initial success and show the problem before naming a response.
 
-### Failure Realism Audit
+### Failure and Scenario Evidence Audit
 
-| Candidate case | Realistic? | Reproducible now? | Teaching and fairness boundary |
+| Case | Story status | Teaching and evidence boundary |
 |---|---|---|---|
-| Project build/test command changes while a reusable workflow is stale | Plausible in normal development. | TODO until a Demo repository and state sequence are selected. | Show canonical current instructions and an ordinary task; do not hide files, permissions, or access to force failure. Label a constructed case. |
-| Formerly valid Memory conflicts with the current Project source | Plausible maintenance scenario. | TODO; no actual Memory behavior or project case is selected. | Compare against the canonical source; do not attribute the failure to Memory until observed. |
-| Performance Skill omits a baseline | Plausible workflow-quality issue. | TODO until an actual Skill or controlled case is built. | Show an incomplete comparison step, not an artificial command error. Claim no performance gain without measurements. |
-| All Subagents run for a small task | Plausible over-delegation scenario. | TODO until recorded or controlled. | Make duplicate work and coordination visible; quantify cost or latency only with evidence. |
-| Agent fails to run a Test correctly | Plausible diagnostic case. | TODO; the root cause is intentionally undetermined. | Use it to compare four diagnostic lenses; do not stage blocked access or claim one layer caused it without evidence. |
-| A later task repeats a stale-workflow correction | Plausible recurrence, but recurrence is a factual claim when presented as observed. | TODO until observed or explicitly reproduced in a controlled case. | Do not teach Loop as required from one event; retain uncertainty about cause. |
+| `DEMO-04A`: project change leaves a reusable workflow stale | Selected as a conceptual controlled case in BEAT-038–049. | It is not a Product State, Trial, or observed recurrence. A later Demo-design step may choose its visual or controlled presentation. |
+| A retained fact conflicts with the current Project source | Conceptual Memory-maintenance example in BEAT-054; no such primary-Demo event occurred. | Compare with the canonical source; do not claim actual Memory use or failure. |
+| A Performance Skill omits a baseline | Conceptual workflow-maintenance example in BEAT-055; the observed primary Skill remains a success. | Do not imply the primary Skill was incomplete or claim an unmeasured performance gain. |
+| A fixed Subagent set runs for a small task | Conceptual task-sizing model in BEAT-056; the actual audit deferred Subagents. | Explain possible duplication and coordination; claim no measured cost or latency. |
+| An Agent fails to run a Test correctly | Diagnostic teaching example in BEAT-066; no cause is asserted. | Use four diagnostic lenses without staging a product failure or inventing its cause. |
+| A later task repeats a stale-workflow correction | Part of the labeled conceptual recurrence in DEMO-04A, not observed primary-Product history. | Do not present the recurrence as a Trial or as evidence that a Product Loop occurred. |
 
-**Result: CONDITIONAL PASS.** The cases are plausible and teachable, but
-their reproduction and actual Demo evidence remain open under the existing
-OQs. No case may be presented as an observed project event prematurely.
+**Result: PASS WITH EVIDENCE LABELS.** The Story defines which examples are
+conceptual and which history is observed. Later Demo design may choose how to
+present a case, but must preserve its evidence type and claim limits.
 
 ### Success Realism Audit
 
@@ -562,9 +592,10 @@ recorded outcomes, a clearly labeled controlled scenario, or a visual case.
 | Demo observation | Specific agent action, failure, recurrence, or before/after result | Use actual logs / artifacts or label the state as controlled / illustrative; never invent history. |
 | Engineering heuristic | Minimum Effective Harness and task-sized mechanism choices | Label as a project heuristic; avoid universal thresholds or feature checklists. |
 
-**Result: PASS WITH GATES.** Related claims and research appear in
-`STORY_BEATS.md`; current product and concrete Demo claims remain conditional
-until their evidence is selected and checked.
+**Result: PASS WITH BOUNDED EVIDENCE.** The primary Product path and observed
+Meta timeline are tied to recorded evidence in `STORY_BEATS.md`. Product
+availability or behavior beyond the observed run remains conditional under
+`OQ-003` / `OQ-005`.
 
 ### Audience Audit
 
@@ -573,8 +604,8 @@ until their evidence is selected and checked.
 | ACT 0 | Starts from the familiar act of asking about an error and collecting code. | Examines the boundary between asking and delegating repository investigation. | Explain repository exploration plainly and condition it on surface / permission. |
 | ACT 1 | Uses an ordinary broad request to reveal missing task details. | Adds scope, trade-offs, completion evidence, and investigation-first reasoning. | Do not turn the opening into evaluation theory or make every task require long planning. |
 | ACT 2 | Shows why project rules are repeated, then why relevance matters. | Adds routing, scope, timing, and bounded long-context evidence. | Explain Context before specialist terms; do not prescribe an instruction-file size. |
-| ACT 3 | Separates what the Agent knows from how it works, then shows the parts accumulating for visible reasons. | Examines role/context isolation, coordination cost, Memory lifecycle, verification, and system fit. | Introduce product features conditionally; no component is a prerequisite. |
-| ACT 4 | Follows a stale instruction, observes a repeat, and sees a cause checked before a change. | Examines evaluation scope, regression, overfitting, maintenance, and feedback design. | Label constructed states, distinguish observation from hypothesis, and avoid universal improvement claims. |
+| ACT 3 | Follows the reusable Performance workflow, then audits whether Subagents or Memory solve a demonstrated Project problem; neither is justified here. | Examines conditional role/context isolation, retention criteria, verification, and system fit. | The actual Harness succeeds without Subagent or Memory; teach both as problem-specific choices. |
+| ACT 4 | Sees a labeled conceptual stale-Harness path and a separate observed Trial-evaluation Meta path. | Examines evaluation scope, regression, overfitting, maintenance, and feedback design. | Never present the conceptual path as actual history or Meta history as Product change. |
 | ACT 5 | Leaves with one small next step and no adoption mandate. | Leaves with Agent System Reliability questions and a system-level review lens. | Keep both perspectives in one shared Story; do not split learners into tracks. |
 
 **Result: PASS.** Each Act has an intuitive entry for beginners and an
@@ -598,9 +629,9 @@ The full Story compresses to this sentence without losing its direction:
 | ACT 4 | 현재 Failure를 고치는 것에서 Failure로 System을 개선하는 방식으로. |
 | ACT 5 | AI Tool 사용에서 AI-Native Development Mental Model로. |
 
-**Result: PASS.** The optional, evidence-gated training-repository example in
-BEAT-058–059 supports the core Story but is not a required main-story event.
-No other Beat falls outside the compressed narrative.
+**Result: PASS.** The subordinate observed Meta Case in BEAT-058–059 supports
+the core Story without extending the Product Demo or becoming a required
+Product event. No other Beat falls outside the compressed narrative.
 
 ### Story Expansion Test
 
@@ -612,12 +643,12 @@ summary.
 | Prompt → `AGENTS.md` | Prompt succeeds; repeated Project facts appear across later tasks before reusable guidance is introduced. | BEAT-007–009 | PASS |
 | `AGENTS.md` → Context separation | Initial reuse succeeds; rules accumulate; a small task exposes relevance and maintenance; separation and routing then help. | BEAT-009–017 | PASS |
 | Context → Skill | Organized Context is useful, but work procedure still varies and repeats before a Workflow / Skill is introduced. | BEAT-017–022 | PASS |
-| Skill → Subagent | Workflow succeeds; a multi-module performance concern and regression risk create role / Context complexity in one connected task. | BEAT-022–027 | PASS WITH REPOSITORY-FIT GATE |
-| Subagent → Memory | Role separation and its costs appear before repeated project knowledge is rediscovered across tasks. | BEAT-023–032 | PASS |
-| Harness → Loop | Harness succeeds; time passes and Project assumptions change; a stale artifact is locally corrected; possible recurrence precedes observation, cause, change, evaluation, and regression. | BEAT-037–051 | PASS WITH DEMO GATE |
+| Workflow → delegation decision | The reusable workflow succeeds; an audit then finds that current Project tasks fit one Agent, while a separate model defines when role separation could help. | BEAT-022–027 | PASS WITH BOUNDED EVIDENCE |
+| Subagent decision → Memory audit | After Subagents are deferred, Trial history is classified; it reveals no costly missing durable fact. A conditional retention gate follows. | BEAT-023–032 | PASS WITH BOUNDED EVIDENCE |
+| Harness → Loop | The Product Harness succeeds; a separate conceptual stale-workflow path and an independent observed Meta evaluation path feed a shared feedback model. | BEAT-037–059 | PASS WITH EVIDENCE LABELS |
 
-**Result: PASS WITH OPEN EVIDENCE GATES.** No listed transition is compressed
-to an unexplained jump.
+**Result: PASS WITH BOUNDED EVIDENCE.** No listed transition is compressed to
+an unexplained jump or treated as a Product event without evidence.
 
 ### Emotional and Cognitive Journey Audit
 
@@ -630,9 +661,9 @@ Expected reactions are recognition and insight, not staged drama.
 | “이건 내일부터 써먹겠다.” | Task specification and investigation-first workflow. BEAT-005–007. | PASS |
 | “매번 설명할 필요가 없네.” | Reused project guidance works before it grows. BEAT-009–010. | PASS WITH DEMO GATE |
 | “나도 비슷하게 다 넣고 있었는데.” | Accumulation makes relevance and maintenance visible. BEAT-011–016. | PASS; keep the example domain-neutral. |
-| “작업 방법 자체를 재사용할 수 있네.” | A repeated procedure becomes a Workflow / Skill candidate. BEAT-020–022. | PASS WITH PRODUCT GATE |
-| “복잡하면 역할을 나눌 수도 있구나.” | One connected multi-module task reveals independent investigations and handoff costs. BEAT-023–027. | PASS WITH REPOSITORY-FIT GATE |
-| “왜 같은 걸 계속 조사했는지 이해된다.” | A fact is rediscovered, retained, reused, and given a lifecycle. BEAT-028–032. | PASS WITH PRODUCT GATE |
+| “작업 방법 자체를 재사용할 수 있네.” | The repository-owned Performance Skill supports the observed recurring workflow and its checks. BEAT-020–022. | PASS FOR PRIMARY DEMO; broader product availability remains conditional |
+| “복잡해 보여도 역할을 나눌 필요가 있는지 따져야 하는구나.” | The actual candidate-task audit defers Subagents; a separate model names the conditions and costs for delegation. BEAT-023–027. | PASS WITH BOUNDED EVIDENCE |
+| “반복된 정보라고 모두 Memory에 넣을 필요는 없구나.” | Trial history is classified by source and purpose; no costly missing durable fact is found, then a conditional retention gate is taught. BEAT-028–032. | PASS WITH BOUNDED EVIDENCE |
 | “이게 하나의 System이구나.” | The Harness emerges after its parts have solved distinct problems. BEAT-033–037. | PASS |
 | “이것도 관리해야 하는구나.” | Project change makes a useful artifact potentially stale. BEAT-038–041. | PASS WITH DEMO GATE |
 | “실패 자체를 System 개선에 쓸 수 있네.” | Observation and cause hypothesis lead to scoped change and bounded evaluation. BEAT-042–051. | PASS WITH DEMO GATE |
@@ -642,32 +673,31 @@ Expected reactions are recognition and insight, not staged drama.
 
 | Risk | Audit and treatment | Result |
 |---|---|---|
-| Subagents appear because several unrelated tasks suddenly run at once. | BEAT-023 now connects architecture tracing, bottleneck measurement, tests, and documentation to one candidate multi-module performance change and its regression risk. Verify that an actual selected repository supports the chain before using it. | PASS WITH REPOSITORY-FIT GATE |
-| Memory appears after only one task. | BEAT-028–032 first establish useful Project facts being rediscovered across tasks and distinguish retention from current Context. | PASS |
-| Stale Harness appears without elapsed time or change. | BEAT-038 advances the same Project over time and changes project assumptions before the stale instruction scenario. | PASS |
-| A failure is arranged to force a feature. | Failure candidates are ordinary task / maintenance cases; observation, cause, and reproduction are evidence-gated. | PASS WITH DEMO GATE |
+| Subagents appear as an inevitable next feature. | BEAT-023 records the actual no-need audit; BEAT-024–026 teach a separate conditional role model. | PASS |
+| Memory appears because Trial information repeats. | BEAT-028 classifies Trial history and finds no missing durable candidate; BEAT-030–032 retain only a conditional teaching model. | PASS |
+| Stale Harness appears as later Product history. | BEAT-038–049 are the separately labeled conceptual DEMO-04A case; STATE-04-PERF remains the Product endpoint. | PASS |
+| The observed Meta Case is used to prove a Product change. | BEAT-058–059 keep TRIAL-006 → DEC-0016 → TRIAL-007/008 in Training Production evaluation/reporting. | PASS |
+| A failure is arranged to force a feature. | DEMO-04A and ACT 4 maintenance examples are labeled conceptual; the independent observed Meta Case preserves its attribution limits. | PASS WITH EVIDENCE LABELS |
 | The Story assumes GPU expertise. | The Story uses general software concerns: modules, call paths, bug fixes, performance, tests, benchmarks, build workflows, and architecture. A context-bloat example uses generic performance guidance, not a specialized algorithm. | PASS |
 
-### Single Repository Feasibility Check
+### Primary Product Evidence Boundary Check
 
-The Story is conceptually organized around one evolving Project, but no
-candidate repository has been selected. Actual feasibility therefore remains
-open under `OQ-001` and related Demo questions.
+STEP 06/07 selected and validated the sibling Demo repository. The primary
+Product Story ends at `STATE-04-PERF`; it does not extend into the ACT 4
+stale-Harness case.
 
-| Capability the primary Project should support | Story use | Current status |
+| Observed Product path | Story role | Boundary |
 |---|---|---|
-| Multiple files, modules, call path, architecture documentation | Repository exploration, role complexity, and safe change reasoning. | REQUIRED; TODO after repository selection. |
-| Build and Tests; a small Bug | Task specification, bounded workflow, and Verification. | REQUIRED; exact commands and cases are TODO. |
-| Performance task and repeatable Benchmark | Workflow success and measurement before/after a change. | REQUIRED if a suitable case exists; commands and realistic criteria are TODO. |
-| Reusable project rules and recurring Workflow | `AGENTS.md`, context routing, and Skill / Workflow candidates. | REQUIRED as a design capability; product implementation remains conditional. |
-| Composite investigation and durable Project knowledge | Role separation, Context isolation, rediscovery, and Memory lifecycle. | DESIRABLE; validate against real task complexity and repository evidence. |
-| A project or workflow change that makes an artifact stale | Harness maintenance and Loop trigger. | REQUIRED for the planned case; fair reproducibility is TODO. |
+| `STATE-00` → `STATE-00-FIXED` | Known crop bug and verified `Investigate → Plan → Implement → Verify → Review` correction. | Preserve the original baseline and fix evidence. |
+| `STATE-01` → `STATE-02` → `STATE-03` | Small root instructions, accurate but mixed-scope Context, then structured Context and routing. | No claim of perfect retrieval or measured efficiency. |
+| Benchmark preparation → `STATE-04` | Reusable, repository-owned Performance Skill. | A repeated workflow need, not Memory evidence. |
+| `STATE-04-PERF` | Skill-supported, evidence-based Product Change and Working Harness Success. | Bounded Tests, benchmark guards, CLI smoke, and diff review; no Subagent or Memory. |
+| `BEAT-038–049` / DEMO-04A | Conceptual controlled stale-Harness path. | No Product State, Trial, or observed recurrence. |
+| `BEAT-058–059` / DEMO-04B | Observed Training Production Meta Case. | Trial evaluation/reporting change; not Demo Product code or Skill repair. |
 
-**Result: CONDITIONALLY FEASIBLE.** Do not force every capability into a
-repository that does not naturally support it. If one Project cannot carry a
-supporting mechanism honestly, keep the primary Story continuous and use a
-clearly related visual or captured supporting case. Avoid unrelated projects
-for individual Acts.
+**Result: PASS.** The continuous Product Demo, conceptual teaching case, and
+observed Meta Case have distinct evidence labels and roles. No repository
+selection or post-STATE-04-PERF Product change is pending in this Story step.
 
 ### Story Fact and Model Labels; Research Conflict Recheck
 
@@ -677,15 +707,18 @@ planned scenario, an observation, or a course model.
 | Label | Use in this Story |
 |---|---|
 | FACT | A sourced, current product or research statement within its recorded scope. Product behavior remains conditional on the target surface and must be rechecked under `OQ-003` / `OQ-005`. |
-| DEMO ASSUMPTION | A controlled or illustrative repository state, such as a stale Build / Test workflow; never present it as observed project history. |
-| OBSERVATION | Reserve for an actual recorded Demo action or output; none is claimed by this Story draft. |
+| OBSERVED_PRODUCT | Recorded Demo repository states and Trial results through `STATE-04-PERF`; no post-endpoint Product state is claimed. |
+| OBSERVED_META | Recorded Training Production Trial-evaluation/reporting history; keep it supporting-only and bounded. |
+| CONCEPTUAL | DEMO-04A and its stale-workflow chain; never present it as observed Product or Trial history. |
+| DEMO ASSUMPTION | A controlled or illustrative scenario; label it and keep it outside recorded repository chronology. |
+| OBSERVATION | Reserve for an actual recorded action or output; report attribution limits and unknowns. |
 | TEACHING MODEL | The maturity sequence, Context Router pattern, Harness / Loop framing, and AI-Native Development are course operational models, not official product taxonomies. See `OQ-011`. |
 | HEURISTIC | Minimum Effective Harness is a project heuristic for sizing a response to real recurring friction, not a universal threshold or required configuration. |
 
 | Research-sensitive area | Story boundary checked | Result |
 |---|---|---|
 | `AGENTS.md` support and scope | Product documentation is cited for supported instruction discovery; the Story does not claim perfect understanding, replacement of `plan/` Source of Truth, or universal availability. | NO CONFLICT FOUND; recheck target environment. |
-| Skills | Reusable workflow is the Engineering need; exact product mechanism and availability stay conditional. | NO CONFLICT FOUND; `OQ-005` / `OQ-008` remain open. |
+| Skills | TRIAL-008 observed explicit repository-Skill discovery and invocation in Codex CLI 0.154.0; Codex Desktop and broader behavior remain unverified. | NO CONFLICT FOUND; `OQ-005` / `OQ-008` remain open. |
 | Subagents | Role separation is introduced before the feature; coordination, duplication, transfer, and integration costs are explicit; no speed promise. | NO CONFLICT FOUND; `OQ-005` / `OQ-008` remain open. |
 | Memory | Product Memory is separated from current Context and canonical project Source of Truth; durable-knowledge pattern remains broader than one product feature. | NO CONFLICT FOUND; `OQ-005` / `OQ-008` remain open. |
 | `Lost in the Middle` | Used only as bounded supporting evidence for studied long-context tasks; it does not establish a current Codex or `AGENTS.md` failure. | NO CONFLICT FOUND; preserve `OQ-006` limits. |
@@ -705,13 +738,13 @@ that product access or Demo outcomes are available.
 | `AGENTS.md` becomes the center of the course | PASS | It is one useful ACT 2 response with growth, relevance, and routing limits. |
 | Context Engineering becomes file-splitting technique | PASS | Relevance, timing, routing, and Progressive Disclosure lead the section. |
 | Harness becomes a feature checklist | PASS | The need for methods, tools, environment, and checks is established before the architecture reveal. |
-| Subagent becomes an advanced feature showcase | PASS | The connected role / Context problem and coordination costs precede the mechanism. |
+| Subagent becomes an advanced feature showcase | PASS | The actual no-need audit precedes a separate conditional role/Context model and its costs. |
 | Memory is confused with a product feature or Source of Truth | PASS | Current Context, durable knowledge, product Memory, and canonical project plans are distinguished. |
 | Loop is reduced to automation | PASS | Product Loop and Harness Improvement Loop are distinct; automation is a risk-shaped option. |
 | Beginner simplicity removes Harness / Loop insight | PASS | Shared story retains system design, evaluation, and maintenance with layered entry points. |
 | Advanced depth makes ACT 0 too technical | PASS | Advanced context-cost insight is an optional layer on a familiar opening. |
-| Failure is made unrealistic for a Demo | PASS WITH DEMO GATE | Candidate cases use ordinary work; reproduction and causal attribution remain TODO. |
-| Completed Harness appears too early | PASS | Full reveal follows Context, Workflow, roles, Memory, Tools, and Verification. |
+| Failure is made unrealistic for a Demo | PASS WITH EVIDENCE LABELS | DEMO-04A and ACT 4 maintenance examples are conceptual; the independent observed Meta Case preserves its attribution limits. |
+| Completed Harness appears too early | PASS | Full reveal follows Context, Workflow, conditional role/Memory models, Tools, and Verification. |
 | Product feature change would collapse the Story | PASS | The Engineering problem and product-independent fallbacks carry the narrative. |
 
 ### Story Beat Coverage Audit
@@ -724,8 +757,8 @@ current Story structure, not a Slide estimate.
 | ACT 0 — Chatbot and Repository Exploration | BEAT-001–003 | 3 | ChatGPT workflow, developer-supplied context, repository-level problem, bounded Codex investigation, first success. |
 | ACT 1 — Prompt as Task Specification | BEAT-004–007 | 4 | Intent gap, structured Prompt, investigate first, bounded Prompt success, repeated Project context. |
 | ACT 2 — Project Context and Relevance | BEAT-008–017 | 10 | `AGENTS.md` introduction and success, accumulation, relevance, bounded research, separation, Router, Progressive Disclosure, Context success. |
-| ACT 3 — Harness as a Designed Work System | BEAT-018–037 | 20 | Process inconsistency, workflow / Skill and success, composite task, roles / Subagents and trade-offs, rediscovery / Memory and lifecycle, Tools, structural Verification, bottom-up Harness emergence / reveal / success. |
-| ACT 4 — Loop and System Improvement | BEAT-038–059 | 22 | Time and Project change, stale workflow, local correction and possible repeat, technical debt, observation / cause / layer / change / rerun / evaluation / regression, bloat callback, Loop reveal and distinction, maintenance, Minimum Effective Harness, optional factual meta example. |
+| ACT 3 — Harness as a Designed Work System | BEAT-018–037 | 20 | Process inconsistency, workflow / Skill and success, actual Subagent decision and conditional model, Trial-history Memory audit and conditional lifecycle, Tools, Verification, Harness reveal, and observed Product success. |
+| ACT 4 — Loop and System Improvement | BEAT-038–059 | 22 | Labeled conceptual stale-workflow case and correction cycle, independent observed Meta evaluation/reporting history, shared feedback pattern, maintenance models, regression, bloat callback, and Minimum Effective Harness callback. |
 | ACT 5 — AI-Native Development and Learner Reflection | BEAT-060–071 | 12 | Full recap, course model, responsibility, Verification and task workflow payoffs, four-layer diagnosis, audience next steps, takeaways, private reflection. |
 | TOTAL | BEAT-001–071 | 71 | Each Beat records the requested schema; no target Beat count is imposed. |
 
@@ -757,11 +790,13 @@ always help, saying Memory remembers everything, or claiming a Loop makes AI
 self-improve. These phrases guide later Slides and Speaker Notes; neither is
 created here.
 
-## STEP 06 Demo Architecture Input Package
+## Historical STEP 06 Demo Architecture Input Package
 
-This handoff preserves the Story questions for Demo Architecture. It does not
-select a repository, build a Demo, or promote the proposed candidates to
-approved decisions.
+This was the pre-implementation handoff. STEP 06 later selected and validated
+`ai-dev-training-demo`; STEP 07 aligned the Story to the recorded outcomes.
+The candidate and open-gate text below is retained as design history only and
+is superseded where it conflicts with the current alignment recorded at the
+end of this document.
 
 ### A. Primary Demo Story Requirements
 
@@ -955,8 +990,9 @@ the applicable STRUCTURAL and HARD Invariants listed in the beats and in
 
 ## Open Items for Later Steps
 
-- Keep `DEC-0007` and `DEC-0008` in `PROPOSED`; do not infer user approval from
-  this Story draft.
+- DEC-0007 was ACCEPTED by the user's STEP 07 decision on 2026-10-02.
+  DEC-0008 remains PROPOSED; do not infer approval of its candidate Demo
+  placement principles.
 - Resolve the repository domain/language and Beat-level case feasibility under
   OQ-001/OQ-002; compare Live, recorded, and captured/visual approaches for
   selected candidates under OQ-003; verify current product behavior for the
@@ -972,7 +1008,7 @@ the applicable STRUCTURAL and HARD Invariants listed in the beats and in
   text, Demo repository implementation, Speaker Notes, and PPT are later
   deliverables and are not created here.
 
-## STEP 05 Final Gate (§110, §120)
+## Historical STEP 05 Final Gate (§110, §120)
 
 | Area | Result | Basis and remaining boundary |
 |---|---|---|
@@ -984,14 +1020,14 @@ the applicable STRUCTURAL and HARD Invariants listed in the beats and in
 | Product / Research | PASS WITH RECHECK | No conflict with current STEP 03 Research records was found; selected-surface facts must be checked again under OQ-003/OQ-005. |
 | Scope | PASS | No Demo repository, Slide Map, Speaker Notes, or PPT was created. STEP 06 has not been started. |
 
-**STEP 05 result: COMPLETE WITH OPEN QUESTIONS.** The Story is ready as a
-baseline for STEP 06. OQ-001–OQ-014 remain governed by `DECISIONS.md`; open
-Demo feasibility and evidence questions do not require altering the Story
-before Demo Architecture begins.
+**Historical STEP 05 result: COMPLETE WITH OPEN QUESTIONS.** This records the
+pre-Demo baseline and is not the current evidence status. STEP 06/07 resolutions
+and the current story gate are recorded below.
 
 ## STEP 07 — Subagent and Memory Evidence Reconciliation
 
-**Checked:** 2026-09-30, after the STATE-04 and Trial-history review.
+**Initial check:** 2026-09-30. The following STEP 07 alignment, checked
+2026-10-01, supersedes earlier forward-looking statements below.
 
 Keep the Conceptual Curriculum Story and the Primary Demo repository as
 separate evidence layers:
@@ -1018,16 +1054,16 @@ provenance, scope, and freshness conditions in `plan/DEMO_MATRIX.md`.
 
 This evidence update clarifies the Demo fit; it does not remove the
 conditional Curriculum concepts or change the six-hour structure,
-`MASTER_PLAN.md`, or an Invariant. The next primary Demo problem remains the
-planned Project Evolution leading to a stale performance Skill, after the
-STATE-04-PERF transition is completed and validated. No project change,
-Subagent state, Memory artifact, stale Harness, or Loop was created by this
-update.
+`MASTER_PLAN.md`, or an Invariant. The primary Product Demo is complete at
+`STATE-04-PERF`. The ACT 4 stale-workflow sequence is conceptual, while the
+TRIAL-006 → DEC-0016 → TRIAL-007/008 sequence is the separate observed Meta
+Case. No post-endpoint Product change, Subagent state, Memory artifact, stale
+Harness, or Product Loop was created.
 
 ## STEP 07 — STATE-04-PERF Working Harness Success
 
-**Checked:** 2026-09-30, after the `image_statistics` change was re-investigated
-from STATE-04 and verified in the formal Demo repository.
+**Checked:** 2026-09-30, then reconciled with the complete primary history on
+2026-10-01.
 
 Preserve the bounded success beat before the next Engineering Problem:
 
@@ -1047,8 +1083,56 @@ Keep their absence distinct from the conceptual Curriculum cases for
 sufficiently complex parallel work or costly cross-task rediscovery. Do not
 describe the working STATE-04 Harness as incomplete.
 
-Only after recognizing this success does the next primary Demo problem begin:
-investigate a real Project Evolution that could make the previously correct
-performance Skill stale. That change, stale Skill, Harness failure, Loop, and
-STATE-05 remain unimplemented pending the next instruction. This update does
-not change the six-hour course, `MASTER_PLAN.md`, or an Invariant.
+Only after recognizing this success does ACT 4 introduce a separate,
+explicitly conceptual stale-workflow teaching case. It is not a continuation
+of the primary Demo Git history. The observed Meta Case is independently
+sourced to the Training Production Trial history. This alignment does not
+change the six-hour course, `MASTER_PLAN.md`, or an Invariant.
+
+
+## STEP 07 — Final Story Evidence Alignment
+
+**Checked:** 2026-10-01 against `STATE-00` through `STATE-04-PERF`, the Trial
+history audit, DEC-0018, DEC-0021, and the approved Demo plan.
+
+### Evidence Paths
+
+| Evidence label | Path | Story use and limit |
+|---|---|---|
+| `OBSERVED_PRODUCT` | `STATE-00 → STATE-00-FIXED → STATE-01 → STATE-02 → STATE-03 → Benchmark preparation → STATE-04 → STATE-04-PERF` | Continuous primary Product Demo; ends in verified Working Harness Success. No later Subagent, Memory, stale Harness, or Loop state is implied. |
+| `CONCEPTUAL` | BEAT-038–049 / DEMO-04A | Controlled stale-Harness teaching case: change → stale workflow → friction → observation → cause → scoped system change → evaluation/regression. It is not Product history or Trial evidence. |
+| `OBSERVED_META` | `TRIAL-006 → DEC-0016 → TRIAL-007 → TRIAL-008` / DEMO-04B | Supporting Training Production evaluation/reporting feedback. Keep attribution and TRIAL-007 report/stderr limits visible; claim no measured quality improvement. |
+| `TEACHING_MODEL` | BEAT-018–019 process-variation comparison; conditional Subagent/Memory gates; Harness framing; shared Loop pattern | Explain a possible problem or mechanism without presenting it as observed Product history. |
+
+### Current Story Decisions
+
+- Subagent is a decision point. The current candidate tasks fit one Agent;
+  independent Context needs are weak and coordination overhead is not justified.
+  Teach delegation conditionally for genuine independent investigation,
+  specialization, isolation, or parallel work.
+- Trial history contains no justified durable Memory candidate. Teach Memory
+  only when repeated rediscovery is costly and knowledge has reusable scope,
+  provenance, and a freshness path.
+- Define Harness as the intentionally designed Project-level working
+  environment. In the observed Product Demo it consists of Project Context,
+  routing, a reusable repository-owned Performance Skill, Benchmark, Tests,
+  tools/environment, and a task Prompt boundary. Subagent and Memory were not
+  needed.
+- Minimum Effective Harness is an ACT 3 core payoff backed by
+  `STATE-04-PERF` and a callback in ACT 4/5.
+- ACT 4 keeps the conceptual stale-workflow case and observed Meta Case
+  independent. Their common teaching pattern is
+  `Execution → Observation → Cause → System Change → Re-evaluation`.
+
+### Curriculum and Invariant Check
+
+No Act order, six-hour duration, or approved Curriculum timing changed.
+The top-level `Prompt → Context → Harness → Loop` sequence remains intact;
+the distinction between task workflow and maturity progression is preserved.
+No Invariant or `MASTER_PLAN.md` change is required. Relevant protections are
+`INV-NARRATIVE-001–002`, `INV-MATURITY-005–010`, `INV-LOOP-001`,
+`INV-DEMO-003–004`, and `INV-VERIFY-001`.
+
+**Current Story alignment: PASS.** Use this section and the updated Beats /
+Transitions as the current STEP 07 Story source; treat older STEP 05/06
+candidate tables and open gates as historical records where superseded here.

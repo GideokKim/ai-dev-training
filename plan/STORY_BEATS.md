@@ -1,9 +1,9 @@
 # Story Beats
 
-> Status: STEP 05 COMPLETE WITH OPEN QUESTIONS through §120; baseline for STEP
-> 06. Beats describe changes in learner understanding; they
-> are not Slides. Scenario events and Demo outcomes remain illustrative until
-> validated against an actual project and environment.
+> Status: STEP 05 baseline aligned to STEP 07 evidence on 2026-10-01. The
+> observed Product path ends at `STATE-04-PERF`; Beat-level Evidence Type
+> distinguishes observed, conceptual, and teaching-model cases. Beats describe
+> changes in learner understanding; they are not Slides.
 
 ## Reading This File
 
@@ -796,6 +796,8 @@ timeline, events, and verification commands are not yet selected.
 
 - **Demo Potential:** SUPPORTING (labeled variation case).
 
+- **Evidence Type:** TEACHING_MODEL
+
 - **Evidence:** `CLM-0006`, `CLM-0029`, `CLM-0030` (candidate wording);
   `references/engineering/harness-engineering.md`.
 
@@ -806,8 +808,9 @@ timeline, events, and verification commands are not yet selected.
 - **Act:** ACT 3 — Harness as a Designed Work System
 - **Purpose:** Distinguish facts an Agent knows from a process it follows.
 
-- **Current State:** The agent can find the target module, performance rule,
-  and benchmark command, while the execution sequence still varies.
+- **Current State:** In the labeled teaching model, the agent can find the
+  target module, performance rule, and benchmark command, while the execution
+  sequence still varies.
 
 - **Trigger:** The learner asks whether knowing the project is the same as
   knowing how to perform this class of task.
@@ -825,43 +828,49 @@ timeline, events, and verification commands are not yet selected.
 
 - **Audience Question:** “작업 방법을 매번 처음부터 Prompt에 다시 써야 할까?”
 
-- **Engineering Response:** Show the developer repeating the same procedure
-  across Performance tasks.
+- **Engineering Response:** Distinguish the illustrative process-variation
+  case from the observed recurrence of a Performance procedure across
+  TRIAL-006 and TRIAL-007.
 
 - **New State:** Workflow is visible as a separate reusable design candidate.
 
-- **Next Friction:** The same ordered steps are typed into Task 1, Task 2, and
-  Task 3 Prompts.
+- **Next Friction:** A recurring procedure needs a maintained Project-level
+  home rather than another copied workflow description.
 
 - **Audience Layer:** ALL
 
 - **Demo Potential:** VISUAL.
 
+- **Evidence Type:** TEACHING_MODEL
+
 - **Evidence:** `CLM-0006`, `CLM-0029`;
   `references/engineering/harness-engineering.md`.
 
 - **Related Curriculum:** ACT 3 — Context → Harness problem; repeated workflow.
-### BEAT-020 — The same Performance procedure is repeated
+### BEAT-020 — A Performance procedure recurs across Trials
 
 - **Act:** ACT 3 — Harness as a Designed Work System
-- **Purpose:** Show the same Performance method being repeated across tasks.
+- **Purpose:** Show that a Performance procedure recurred across distinct
+  recorded task paths.
 
-- **Current State:** A Performance procedure has become visible, but remains
-  part of an individual task request.
+- **Current State:** The process-variation distinction is clear; Trial history
+  records the same observable performance-investigation procedure across
+  separate paths.
 
-- **Trigger:** The developer handles Performance Task 1, then Task 2, then
-  Task 3 over time.
+- **Trigger:** TRIAL-006 and TRIAL-007 apply the same observable procedure to
+  different performance targets; TRIAL-008 later tests the reusable Skill.
 
-- **Action:** Show the developer retyping instructions to measure a baseline,
-  investigate the target, analyze a bottleneck, plan a bounded change, test,
+- **Action:** Compare the recorded procedure across the Trial prompts and
+  reports: measure a baseline, investigate, plan a bounded change, test,
   benchmark, compare, and review.
 
-- **Result:** Project knowledge is reusable, while the work procedure is
-  still repeated in each Prompt.
+- **Result:** The procedure genuinely recurred across tasks and was selected
+  for a repository-owned Skill in DEC-0017. This is workflow repetition, not
+  repeated rediscovery of a missing Project fact.
 
-- **Interpretation:** This is deliberately parallel to the earlier Prompt →
-  Context transition: first the developer repeated Project knowledge; now
-  they repeat the Work Procedure.
+- **Interpretation:** Keep the distinction from the earlier Prompt → Context
+  transition: these Trials repeated a work procedure, while the Memory audit
+  found no costly missing Project fact.
 
 - **Audience Question:** “Project 지식을 재사용했던 것처럼 작업 방법도
   재사용할 수 없을까?”
@@ -869,45 +878,50 @@ timeline, events, and verification commands are not yet selected.
 - **Engineering Response:** Package or document the recurring procedure in a
   reusable form.
 
-- **New State:** The developer has a concrete, repeated workflow to reuse.
+- **New State:** A repository-owned reusable workflow has a recorded
+  rationale.
 
-- **Next Friction:** The reusable mechanism and its scope must be chosen and
-  verified for the actual environment.
+- **Next Friction:** The Skill's discovery, invocation, and bounded task
+  evidence must be checked on the selected environment.
 
 - **Audience Layer:** PRACTICAL
 
 - **Demo Potential:** SUPPORTING.
 
-- **Evidence:** `CLM-0006`, `CLM-0029`; `references/product/skills.md`;
-  `references/STORY_DEPENDENCIES.md` (Skills).
+- **Evidence Type:** OBSERVED_PRODUCT
 
-- **Related Curriculum:** ACT 3 — Repeated workflow and Skill candidate.
-### BEAT-021 — A reusable workflow answers the repetition
+- **Evidence:** TRIAL-006 and TRIAL-007; DEC-0017; Trial-history audit in
+  `plan/DEMO_MATRIX.md`.
+
+- **Related Curriculum:** ACT 3 — observed workflow and repository-owned
+  Performance Skill.
+### BEAT-021 — The repository-owned Skill holds the workflow
 
 - **Act:** ACT 3 — Harness as a Designed Work System
 - **Purpose:** Make the recurring procedure reusable after repetition becomes visible.
 
-- **Current State:** The same Performance procedure has been repeated across
-  several task prompts.
+- **Current State:** TRIAL-006 and TRIAL-007 repeated the observable procedure
+  across distinct performance tasks; DEC-0017 selects a repository-owned Skill.
 
 - **Trigger:** The developer wants to reuse the work method as a Project asset.
 
-- **Action:** Define a Performance workflow: Baseline, Investigate, Plan,
-  Implement, Correctness Test, Benchmark, Compare, and Review. Use a Codex
-  Skill only if its current documented behavior and availability fit the
-  selected training environment; a repository procedure is a fallback.
+- **Action:** Trace DEC-0017's choice to keep the recurring procedure in the
+  repository-owned Performance Skill. TRIAL-008 explicitly discovers and
+  invokes that Skill in Codex CLI 0.154.0.
 
-- **Result:** The task can select a reusable workflow rather than restating
-  every step in its Prompt.
+- **Result:** The observed CLI run selected the Skill and supplied its full
+  instructions to a shorter task-specific Prompt. This establishes the
+  recorded run only; it does not establish Skill superiority or Desktop
+  behavior.
 
-- **Interpretation:** The Engineering change is reusable procedure design.
-  A Skill is one possible Product mechanism, not the concept itself.
+- **Interpretation:** The Engineering idea is reusable procedure design; the
+  repository-owned Skill is the chosen implementation for this Demo.
 
 - **Audience Question:** “이 절차를 다시 사용할 때 실제 작업에서도 필요한
   단계가 드러나는가?”
 
-- **Engineering Response:** Run the same kind of Performance task with the
-  workflow and examine its evidence.
+- **Engineering Response:** Inspect the observed Skill invocation and its
+  bounded task evidence without attributing the result to the Skill alone.
 
 - **New State:** The developer can provide a method for work, alongside
   Project knowledge.
@@ -917,508 +931,528 @@ timeline, events, and verification commands are not yet selected.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** ANCHOR (candidate 3; product mechanism conditional).
+- **Demo Potential:** SUPPORTING (observed Skill path; CLI scope only).
 
-- **Evidence:** `CLM-0006`, `references/product/skills.md`;
-  `references/STORY_DEPENDENCIES.md` (Skills); `OQ-005`, `OQ-008`.
+- **Evidence Type:** OBSERVED_PRODUCT
 
-- **Related Curriculum:** ACT 3 — Repeated workflow and Skill candidate.
-### BEAT-022 — The repeated workflow succeeds in a bounded case
+- **Evidence:** DEC-0017; TRIAL-008 Skill discovery, explicit invocation, and
+  execution trace in `plan/DEMO_MATRIX.md`; OQ-005 for Desktop behavior.
+
+- **Related Curriculum:** ACT 3 — observed workflow and repository-owned
+  Performance Skill.
+### BEAT-022 — The Skill-supported product change passes bounded checks
 
 - **Act:** ACT 3 — Harness as a Designed Work System
 - **Purpose:** Demonstrate bounded value from a reusable performance workflow.
 
-- **Current State:** The Performance procedure is available as a reusable
-  workflow.
+- **Current State:** TRIAL-008 observed the repository-owned Skill in use;
+  STATE-04-PERF records the later evidence-based Product Change.
 
-- **Trigger:** The developer repeats a task of the same kind.
+- **Trigger:** Review the measured Product Change made after the Skill trial.
 
-- **Action:** In a controlled or observed case, inspect whether the agent
-  measures a baseline first, investigates, plans before edits, runs the
-  correctness test and benchmark, and compares before/after evidence.
+- **Action:** Trace the bounded STATE-04-PERF work: baseline, investigation,
+  plan, scoped implementation, correctness tests, benchmark comparison, CLI
+  smoke, and diff review.
 
-- **Result:** The desired bounded case makes those steps and their evidence
-  visible. Claim improved consistency only to the extent supported by
-  recorded runs and stated criteria; otherwise label the example
-  illustrative.
+- **Result:** The focused and full tests, benchmark correctness guards, CLI
+  smoke, and diff review passed. The Skill supported this observed workflow;
+  the evidence does not isolate it as the cause of the product improvement or
+  prove general consistency.
 
 - **Interpretation:** A reusable workflow can be valuable by itself. At this
   point, show the workflow insight rather than a completed Harness diagram.
 
-- **Audience Question:** “Task가 더 복잡해져도 한 절차만으로 충분할까?”
+- **Audience Question:** “이 범위의 작업에 역할 분리나 Memory가 더
+  필요했을까?”
 
-- **Engineering Response:** Expand to a pipeline task that requires several
-  distinct investigations.
+- **Engineering Response:** Audit the actual Project tasks and Trial history
+  before adding either mechanism.
 
 - **New State:** The developer sees work procedure as reusable Project
   knowledge while keeping verification visible.
 
-- **Next Friction:** A complex task combines independent Architecture,
-  Performance, Test, and Documentation questions.
+- **Next Friction:** Determine whether independent investigations justify
+  role separation in this Project.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** ANCHOR (candidate 3; evidence conditional).
+- **Demo Potential:** SUPPORTING (observed Product change; bounded evidence).
 
-- **Evidence:** `CLM-0006`, `CLM-0020`, `CLM-0029`;
-  `references/product/skills.md`; `references/engineering/verification.md`.
+- **Evidence Type:** OBSERVED_PRODUCT
 
-- **Related Curriculum:** ACT 3 — repeated workflow and Skill success.
-### BEAT-023 — Task complexity creates distinct investigation roles
+- **Evidence:** STATE-04-PERF; TRIAL-008; tests, benchmark correctness guards,
+  CLI smoke, and diff review in `plan/DEMO_MATRIX.md`; INV-VERIFY-001.
+
+- **Related Curriculum:** ACT 3 — observed workflow, verification, and
+  Minimum Effective Harness.
+### BEAT-023 — Task complexity becomes a delegation decision
 
 - **Act:** ACT 3 — Harness as a Designed Work System
-- **Purpose:** Let compound task complexity motivate distinct investigation roles.
+- **Purpose:** Evaluate whether the current Project needs role-separated Agent work.
 
-- **Current State:** A reusable Performance workflow helps with a bounded
-  task. As the same Project grows, a candidate performance concern now crosses
-  a multi-module call path and creates regression questions.
+- **Current State:** The repository-owned Performance Skill supports a bounded
+  task, and the actual project/task records are available for a role-need audit.
 
-- **Trigger:** A proposed optimization spans modules; understanding the
-  architecture, measuring the bottleneck, and checking existing behavior all
-  matter to a safe plan. Treat this as a Demo Assumption until a selected
-  repository supports the scenario.
+- **Trigger:** The learner asks whether a mature work system should add
+  Subagents as its next component.
 
-- **Action:** Show how one performance task creates related investigations:
-  Architecture traces the affected call path and module relationships;
-  Performance identifies and measures the bottleneck; Tests examine current
-  behavior and regression risk; existing documentation may constrain a safe
-  change. These are not unrelated tasks introduced solely to justify
-  delegation. One Agent initially performs the investigations in sequence.
+- **Action:** Review the actual candidate tasks A/B/C from the Project audit.
+  Each is feasible for one Agent; their evidence overlaps, independent Context
+  needs are weak, and coordination would add handoff and synthesis work without
+  a demonstrated benefit. The decision is recorded at STATE-04; this review
+  does not add a later Product State.
 
-- **Result:** The work entails many file reads, several kinds of Context, and
-  repeated shifts between investigation roles. Some questions depend on one
-  another; others may be investigated independently.
+- **Result:** The current primary Demo does not add or run a Subagent.
 
-- **Interpretation:** Complexity is not only a larger task. One agent is also
-  carrying several roles and kinds of Context. The candidate is valid only if
-  the chosen Project's code path and regression risks make those inquiries
-  relevant together.
+- **Interpretation:** This is a project-specific decision, not a claim that
+  Subagents are generally unnecessary. A larger task may justify role or
+  Context separation when independent investigation, specialization, isolation,
+  or parallel work is real and useful.
 
-- **Audience Question:** “Task를 나누는 것뿐 아니라 역할과 Context도 나눌
-  수 있을까?”
+- **Audience Question:** “이 작업에서 역할을 나눌 만큼 독립적인 조사가
+  실제로 필요한가?”
 
-- **Engineering Response:** Make role separation visible as an Engineering
-  problem before naming a product mechanism.
+- **Engineering Response:** Compare independent evidence needs with duplicate
+  work, Context transfer, coordination, and integration costs before choosing.
 
-- **New State:** The learner can describe role and Context load without
-  assuming a particular feature.
+- **New State:** Subagent use is a conditional decision point, not an automatic
+  maturity step or primary Demo event.
 
-- **Next Friction:** Some investigations can be separated, but their findings
-  still need deliberate handoff and integration.
+- **Next Friction:** A separate audit asks whether any Project fact is being
+  rediscovered at enough cost to justify durable Memory.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** SUPPORTING (complexity map).
+- **Demo Potential:** SUPPORTING (actual project decision review; no Subagent
+  execution).
 
-- **Evidence:** CLM-0007; references/product/subagents.md;
-  references/engineering/harness-engineering.md.
+- **Evidence Type:** OBSERVED_PRODUCT
 
-- **Related Curriculum:** ACT 3 — role/context complexity and Subagents.
-### BEAT-024 — Role separation is a design choice
+- **Evidence:** DEC-0018; `plan/DEMO_MATRIX.md` §§171–180;
+  references/product/subagents.md.
+
+- **Related Curriculum:** ACT 3 — conditional role/context separation.
+### BEAT-024 — Role separation has a decision threshold
 
 - **Act:** ACT 3 — Harness as a Designed Work System
-- **Purpose:** Make role separation understandable before naming Subagents.
+- **Purpose:** Explain when role separation may address a real work problem.
 
-- **Current State:** One agent is switching among Architecture, Performance,
-  Test, and Documentation investigations.
+- **Current State:** The actual Project review found no strong independent
+  investigation or Context-isolation need in its current candidate tasks.
 
-- **Trigger:** Some questions require distinct evidence, and some can be
-  investigated independently.
+- **Trigger:** Another Project or future task may present distinct inquiries
+  that one Agent would otherwise have to interleave.
 
-- **Action:** Show role boundaries and dependencies in plain language. Identify
-  what each investigation needs and what evidence must return to the person
-  integrating the work. Do this before introducing the Subagent product term.
+- **Action:** Map which investigations are independent, what scoped Context
+  each needs, what evidence must cross a handoff, and who integrates the
+  results. Compare that design with a single Agent before naming a mechanism.
 
-- **Result:** Role Separation is understandable as a way to manage
-  responsibilities and Context, with integration remaining part of the task.
+- **Result:** The learner can state evidence that would make role separation
+  useful without claiming that such a condition occurred in the primary Demo.
 
-- **Interpretation:** The problem and its engineering response can be
-  understood independently of whether a target product surface supports a
-  particular agent mechanism.
+- **Interpretation:** Role separation is an Engineering choice driven by
+  independence and Context needs; the product feature is secondary.
 
-- **Audience Question:** “이 역할별 조사를 실제 작업에서 어떻게 나눌 수
-  있을까?”
+- **Audience Question:** “어떤 조사들이 독립적이고, 결과를 합칠 비용은
+  무엇인가?”
 
-- **Engineering Response:** Introduce Subagents as one possible mechanism,
-  conditional on STEP 03 evidence and the selected training environment.
+- **Engineering Response:** Use the smallest division that resolves the
+  identified role or Context burden.
 
-- **New State:** The learner has a problem that a mechanism may address.
+- **New State:** A conditional design criterion is clear; the current Demo
+  remains a single-Agent path.
 
-- **Next Friction:** A mechanism must preserve useful context and return
-  findings that the Main Agent can integrate.
+- **Next Friction:** The learner needs to understand one possible mechanism
+  and its handoff costs.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** VISUAL (problem-first role map).
+- **Demo Potential:** VISUAL (conditional decision map).
 
-- **Evidence:** CLM-0007; references/product/subagents.md;
+- **Evidence Type:** TEACHING_MODEL
+
+- **Evidence:** CLM-0007; DEC-0018; references/product/subagents.md;
   references/STORY_DEPENDENCIES.md (Subagents).
 
 - **Related Curriculum:** ACT 3 — role/context complexity and Subagents.
-### BEAT-025 — Subagents isolate investigation Context
+### BEAT-025 — Subagents can isolate a justified investigation
 
 - **Act:** ACT 3 — Harness as a Designed Work System
-- **Purpose:** Introduce Subagents conditionally as one way to isolate investigation.
+- **Purpose:** Present Subagents as one conditional way to separate investigation Context.
 
-- **Current State:** Role boundaries are clear, but the work has not yet been
-  divided among separate agent investigations.
+- **Current State:** Role boundaries are a useful design option only when a
+  task has independent work worth separating; the primary Demo has not met
+  that condition.
 
-- **Trigger:** The developer wants Architecture, Performance, and Test
-  investigations to proceed within their own relevant scope.
+- **Trigger:** In a separate, sufficiently complex example, architecture,
+  performance, or test investigations may have distinct scopes and useful
+  parallel work.
 
-- **Action:** Show a conceptual Main Agent with Architecture, Performance, and
-  Test agents. Each investigates its area and returns evidence; the Main Agent
-  integrates the results and writes the overall change plan. Use an actual
-  Codex mechanism only if current research and target availability support it;
-  otherwise keep the diagram conceptual.
+- **Action:** Show a clearly labeled conceptual Main Agent and specialist
+  investigations. Each returns scoped findings and uncertainty; the Main
+  Agent integrates them. Include duplicate work, context loss, coordination,
+  and integration as design costs. Use a real product mechanism only after
+  current surface support is verified.
 
-- **Result:** Each investigation can focus on its relevant Context, and the
-  Main Agent may not need to hold every detail from the outset.
+- **Result:** Learners see what a role-scoped approach could solve and what it
+  must return, without attributing it to the primary Product Demo.
 
-- **Interpretation:** Context Isolation is a key design value. Concurrent work
-  may help in some cases, but speed alone is not the reason to separate roles.
+- **Interpretation:** Context isolation and useful independent work are the
+  reasons to consider delegation; agent count or unmeasured speed is not.
 
-- **Audience Question:** “각 역할이 필요한 Context에 집중하면서 결과를
-  어떻게 안전하게 합칠까?”
+- **Audience Question:** “역할마다 필요한 Context에 집중하면서 결과를
+  어떻게 검토하고 통합할까?”
 
-- **Engineering Response:** Make handoff content, uncertainty, and integration
-  explicit, while keeping duplication, context loss, coordination, and
-  integration cost visible.
+- **Engineering Response:** Make handoff evidence, uncertainty, ownership,
+  and integration explicit.
 
-- **New State:** The learner sees role-scoped investigation as an optional
-  Context-management approach with trade-offs.
+- **New State:** Subagents are understood as an optional mechanism with
+  benefits and costs.
 
-- **Next Friction:** The value of this arrangement must be judged by the work
-  it makes clearer, not by the number of agents or a speed claim.
+- **Next Friction:** A conceptual success case must not be mistaken for an
+  observed Demo result.
 
 - **Audience Layer:** ADVANCED
 
 - **Demo Potential:** SUPPORTING (conceptual diagram; product behavior
   conditional).
 
-- **Evidence:** CLM-0007; references/product/subagents.md;
+- **Evidence Type:** TEACHING_MODEL
+
+- **Evidence:** CLM-0007; DEC-0018; references/product/subagents.md;
   references/engineering/harness-engineering.md.
 
-- **Related Curriculum:** ACT 3 — role/context complexity and Subagents.
-### BEAT-026 — A bounded task benefits from clear roles
+- **Related Curriculum:** ACT 3 — conditional Subagent decision.
+### BEAT-026 — Define success before delegating
 
 - **Act:** ACT 3 — Harness as a Designed Work System
-- **Purpose:** Show bounded role-separated work with reviewable handoffs.
+- **Purpose:** Set a reviewable success criterion for a hypothetical role split.
 
-- **Current State:** A complex investigation has explicit role boundaries and
-  an integration point.
+- **Current State:** A conceptual complex-task example has explicit role
+  boundaries and an integration point; it is not a run in the primary Demo.
 
-- **Trigger:** The same pipeline task needs Architecture, Performance, and
-  Test evidence before a safe plan can be written.
+- **Trigger:** Learners need to judge whether a proposed division would make
+  work clearer rather than merely produce more Agent activity.
 
-- **Action:** Present the intended bounded scenario: each role investigates
-  its scope, returns relevant findings, and the Main Agent integrates them.
-  Keep it labeled as illustrative or controlled until a selected Demo records
-  the actual runs and results.
+- **Action:** In the conceptual example, define success as relevant findings
+  returned with sources, uncertainty, and clear handoff, followed by Main
+  Agent synthesis. Do not claim measured speed, quality, or resource savings.
 
-- **Result:** In this scenario, roles are clear, investigation Context is
-  separated, independent work is possible, and the Main Agent can focus on
-  integration.
+- **Result:** The example gives a testable criterion for a future real task;
+  no Subagent success is claimed for this Project.
 
-- **Interpretation:** The success criterion is useful division of work and
-  integration, not a claim that Subagents are faster or always improve
-  results.
+- **Interpretation:** Delegation earns its place through useful evidence and
+  manageable integration, not novelty or an assumed parallel speedup.
 
-- **Audience Question:** “이 구조가 유용했다면 다음 작업에도 역할을 더
-  나누는 것이 좋을까?”
+- **Audience Question:** “무엇이 달라져야 역할 분리가 유용했다고 말할 수
+  있을까?”
 
-- **Engineering Response:** Test the boundary with a small task where
-  coordination may exceed the investigation value.
+- **Engineering Response:** Evaluate the value of independent evidence against
+  handoff, duplication, and review cost.
 
-- **New State:** The learner understands a bounded reason to use role
-  separation while recognizing the evidence status of the example.
+- **New State:** The learner can judge a conditional design without promoting
+  it to the primary Demo path.
 
-- **Next Friction:** A successful complex-task example can tempt the developer
-  to delegate every task.
+- **Next Friction:** A Subagent arrangement should not be applied to tasks
+  whose work is small and connected.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** SUPPORTING (controlled or observed result required for
-  outcome claims).
+- **Demo Potential:** SUPPORTING (conceptual success criterion only).
 
-- **Evidence:** CLM-0007; INV-DEMO-003; references/product/subagents.md.
+- **Evidence Type:** CONCEPTUAL
 
-- **Related Curriculum:** ACT 3 — role/context complexity and Subagents.
-### BEAT-027 — More agents can make a small task worse
+- **Evidence:** CLM-0007; INV-DEMO-003; DEC-0018;
+  references/product/subagents.md.
+
+- **Related Curriculum:** ACT 3 — conditional Subagent decision.
+### BEAT-027 — A small connected task may not justify delegation
 
 - **Act:** ACT 3 — Harness as a Designed Work System
-- **Purpose:** Show that applying every agent role to a small task can add overhead.
+- **Purpose:** Keep delegation proportional to task complexity and evidence.
 
-- **Current State:** Role separation appeared useful for a task with several
-  distinct investigations.
+- **Current State:** A conceptual example showed when independent roles could
+  help; the current repository tasks are small or connected and fit one Agent.
 
-- **Trigger:** The developer starts assigning Architecture, Performance, Test,
-  Documentation, Security, and Review agents even to a small bug fix.
+- **Trigger:** A team may be tempted to assign every investigation role to
+  every task after seeing a successful conceptual example.
 
-- **Action:** Compare the small task's limited investigation needs with the
-  repeated setup, overlapping searches, coordination, result transfer, and
-  integration the extra roles create. Treat slower execution and added
-  token/compute use as possible outcomes unless measured.
+- **Action:** Contrast the actual Project audit with a hypothetical over-split
+  task. The audit found overlapping evidence, weak independent Context, and
+  coordination overhead; the hypothetical comparison explains possible
+  duplicate searches and integration work without asserting measured cost or
+  observed slow execution.
 
-- **Result:** Unnecessary agents can duplicate work, increase coordination and
-  integration cost, consume more resources, or make the task slower.
+- **Result:** DEC-0018 defers Subagents at STATE-04; no over-delegation failure
+  or Subagent execution is part of the primary Product history.
 
-- **Interpretation:** Agent count is not a measure of Harness maturity.
-  Complexity earns a place only when it addresses an actual problem.
+- **Interpretation:** The project-specific “not needed” decision is positive
+  Harness design evidence. It is not a general rule against delegation.
 
-- **Audience Question:** “Agent가 많을수록 Harness가 더 성숙한 것일까?”
+- **Audience Question:** “이 작업에 필요한 최소 역할 수는 몇 개일까?”
 
-- **Engineering Response:** Keep the smallest arrangement that serves the
-  observed task; connect this early insight to the later Minimum Effective
-  Harness heuristic without introducing a component checklist.
+- **Engineering Response:** Keep one Agent unless separate roles solve an
+  evidenced problem whose benefit exceeds their coordination cost.
 
-- **New State:** The learner sees delegation as a scoped choice with costs,
-  not a default.
+- **New State:** The learner sees restraint as an Engineering decision and is
+  ready to audit a distinct Memory question.
 
-- **Next Friction:** Even after a task ends, useful project facts may be
-  rediscovered instead of reused.
+- **Next Friction:** Candidate Project knowledge must be classified before
+  treating repeat investigation as a durable-memory problem.
 
 - **Audience Layer:** ADVANCED
 
-- **Demo Potential:** SUPPORTING (small-task comparison; outcome evidence
-  conditional).
+- **Demo Potential:** SUPPORTING (actual decision plus hypothetical contrast;
+  no measured comparison).
 
-- **Evidence:** CLM-0007, CLM-0022; references/product/subagents.md;
-  references/engineering/harness-engineering.md.
+- **Evidence Type:** OBSERVED_PRODUCT
 
-- **Related Curriculum:** ACT 3 — role/context complexity and Subagents; ACT 4
-  — Improve Context, Memory, Skills, and delegation.
-### BEAT-028 — Project facts are rediscovered across tasks
+- **Evidence:** DEC-0018; `plan/DEMO_MATRIX.md` §§171–180;
+  references/product/subagents.md.
+
+- **Related Curriculum:** ACT 3 — Subagent trade-offs and Minimum Effective
+  Harness.
+### BEAT-028 — Trial history does not show costly fact rediscovery
 
 - **Act:** ACT 3 — Harness as a Designed Work System
-- **Purpose:** Motivate retained knowledge through repeated project rediscovery.
+- **Purpose:** Audit whether primary Demo history justifies retaining durable Project knowledge.
 
-- **Current State:** The Project has complex investigations, and separate
-  roles do not by themselves preserve useful findings for later tasks.
+- **Current State:** The Subagent review found no need to add role separation;
+  a different question is whether repeated tasks lack reusable Project facts.
 
-- **Trigger:** Over time, several tasks encounter facts that are not always
-  quick to infer from source code.
+- **Trigger:** Trials revisit build, test, architecture, benchmark, and
+  environment information, but repetition alone does not establish a Memory
+  need.
 
-- **Action:** Show candidate findings: a test is flaky in a particular
-  environment; Module X is in migration and should not receive new features;
-  benchmarks are meaningful only in Release builds; API Y remains for external
-  compatibility. Show a later task investigating the same fact again.
+- **Action:** Classify the reviewed history by source and purpose: canonical
+  source/code and maintained docs hold Project facts; the repository Skill
+  holds the repeated Performance procedure; Trial observations are scoped to
+  task, host, runtime, and workload; temporary environment details are not
+  automatically durable knowledge. Check whether any missing, costly,
+  reusable fact was rediscovered.
 
-- **Result:** Each task may eventually find the needed information, but the
-  same Project knowledge can cost investigation time repeatedly.
+- **Result:** The audit identified no qualifying durable-knowledge candidate
+  missing from current Sources of Truth.
 
-- **Interpretation:** This is a knowledge-reuse friction, distinct from
-  Subagent coordination. Keep the examples illustrative unless the Demo
-  repository establishes them.
+- **Interpretation:** Repeated workflow belongs in a reusable Skill; it is not
+  evidence that Memory should store the same procedure or each Trial result.
 
-- **Audience Question:** “이미 알아낸 Project 사실을 왜 다음 Task에서 또
-  발견하고 있을까?”
+- **Audience Question:** “반복된 정보는 Project 사실, Workflow, 관찰 기록,
+  임시 환경 정보 중 무엇인가?”
 
-- **Engineering Response:** Distinguish information needed by the current task
-  from knowledge worth preserving for future tasks.
+- **Engineering Response:** Classify the information before choosing where,
+  whether, and for how long to retain it.
 
-- **New State:** The learner recognizes repeated discovery as a new problem
-  across task boundaries.
+- **New State:** Memory is not justified for the primary Demo at this point.
 
-- **Next Friction:** The existing Context design helps with information needed
-  now but does not answer what deserves retention.
+- **Next Friction:** The learner needs to distinguish information needed now
+  from durable knowledge worth reusing later.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** SUPPORTING (re-discovery case; illustrative unless
-  observed).
+- **Demo Potential:** SUPPORTING (actual Trial-history audit).
 
-- **Evidence:** CLM-0008; references/product/memory.md;
-  references/STORY_DEPENDENCIES.md (Memory).
+- **Evidence Type:** OBSERVED_PRODUCT
 
-- **Related Curriculum:** ACT 3 — repeated discovery, Context vs Memory.
+- **Evidence:** `plan/DEMO_MATRIX.md` §§181–200, 261–272;
+  `plan/DECISIONS.md` DEC-0018 and OQ-013.
+
+- **Related Curriculum:** ACT 3 — repeated discovery and Context vs Memory.
 ### BEAT-029 — Context and Memory answer different questions
 
 - **Act:** ACT 3 — Harness as a Designed Work System
-- **Purpose:** Separate information needed now from knowledge retained across tasks.
+- **Purpose:** Separate immediate task Context from knowledge retained across tasks.
 
-- **Current State:** Tasks repeatedly investigate useful facts, such as the
-  conditions under which the benchmark is meaningful.
+- **Current State:** Current project facts are available through source, tests,
+  architecture/testing documentation, and Context routing; Trial observations
+  have narrower task and environment scope.
 
-- **Trigger:** Task 1 investigates those conditions, Task 2 repeats the
-  investigation, and Task 3 does so again.
+- **Trigger:** A learner may infer that any repeated lookup means the Project
+  needs a Memory mechanism.
 
-- **Action:** Contrast Context Engineering's question, “What information is
-  needed now?”, with the new design question, “What is worth reusing later?”
-  Let the repeated investigation create the Memory question before presenting
-  a product feature.
+- **Action:** Contrast Context's “What does the agent need now?” with Memory's
+  “What reusable, verified knowledge is costly to rediscover later?” Apply
+  the distinction to the audited history: the repeated Performance procedure
+  has a Skill home; no qualifying durable fact is missing from its maintained
+  source.
 
-- **Result:** Current task Context and cross-task retention have different
-  scopes and purposes.
+- **Result:** The primary Demo has a clear Context/Memory distinction and no
+  Memory candidate justified by its Trial history.
 
-- **Interpretation:** Memory is a retention and reuse problem, not simply more
-  information in the current Context.
+- **Interpretation:** Memory is a problem-specific retention choice, not more
+  current Context, a product badge, or a replacement for canonical sources.
 
-- **Audience Question:** “지금 필요한 정보와 앞으로 다시 사용할 정보는
-  어떻게 구분할까?”
+- **Audience Question:** “지금 필요한 Context와 다음에도 남겨 둘 지식은
+  어떻게 다른가?”
 
-- **Engineering Response:** Design what may be retained, why it is useful, and
-  how its validity will be checked.
+- **Engineering Response:** Ask whether rediscovery is repeated and costly,
+  whether knowledge is reusable and scoped, and whether source, provenance,
+  and freshness can be maintained.
 
-- **New State:** The learner can state the problem that motivates Memory.
+- **New State:** Learners can explain both the distinction and why the current
+  Project does not cross the Memory gate.
 
-- **Next Friction:** The engineering pattern must remain distinct from a
-  particular product's persistent-memory behavior.
-
-- **Audience Layer:** PRACTICAL
-
-- **Demo Potential:** VISUAL (Context vs Memory question).
-
-- **Evidence:** CLM-0008; references/product/memory.md;
-  references/FEATURE_CONCEPT_MATRIX.md.
-
-- **Related Curriculum:** ACT 3 — repeated discovery, Context vs Memory.
-### BEAT-030 — Memory starts with what is worth retaining
-
-- **Act:** ACT 3 — Harness as a Designed Work System
-- **Purpose:** Choose candidate facts worth retaining before selecting a product mechanism.
-
-- **Current State:** The developer can distinguish immediate task Context from
-  information that may be useful across tasks.
-
-- **Trigger:** Repeated investigation makes reuse valuable enough to consider.
-
-- **Action:** Separate the Engineering Memory pattern from ChatGPT or Codex
-  product Memory and persistent mechanisms. Depending on verified capability
-  and project needs, candidate implementations may include durable project
-  documentation, repository knowledge, a structured memory file, or a
-  supported official persistent mechanism. Decide what to remember rather than
-  assuming that every fact should be stored.
-
-- **Result:** The developer has a retention design question and implementation
-  options, while the project's canonical Source of Truth remains authoritative.
-
-- **Interpretation:** The Story is about validated, scoped, reusable knowledge;
-  it does not promise that a product feature is available in every account or
-  environment.
-
-- **Audience Question:** “어떤 지식을 보존해야 다음 작업에 실제로 도움이
-  될까?”
-
-- **Engineering Response:** Carry one validated, reusable fact from Task A
-  into the appropriate Context for Task B.
-
-- **New State:** Memory is understood as an Engineering problem before it is a
-  named Product implementation.
-
-- **Next Friction:** Reuse must produce a bounded benefit without suggesting
-  human-like recall or unsupported product behavior.
+- **Next Friction:** A future candidate needs explicit retention and lifecycle
+  criteria before any mechanism is chosen.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** SUPPORTING (implementation conditional).
+- **Demo Potential:** VISUAL (audited source / workflow / observation map).
 
-- **Evidence:** CLM-0003, CLM-0008; references/product/memory.md;
-  references/FEATURE_CONCEPT_MATRIX.md; references/STORY_DEPENDENCIES.md
-  (Memory).
+- **Evidence Type:** OBSERVED_PRODUCT
 
-- **Related Curriculum:** ACT 3 — repeated discovery, Context vs Memory.
-### BEAT-031 — A retained fact helps the next Performance task
+- **Evidence:** CLM-0008; `plan/DEMO_MATRIX.md` §§261–272;
+  `plan/DECISIONS.md` OQ-013.
+
+- **Related Curriculum:** ACT 3 — Context vs Memory.
+### BEAT-030 — Durable knowledge must pass a retention gate
 
 - **Act:** ACT 3 — Harness as a Designed Work System
-- **Purpose:** Show bounded reuse of a retained fact in a later task.
+- **Purpose:** Give learners conditional criteria for considering Memory.
 
-- **Current State:** A candidate fact has been checked and retained in a
-  durable, appropriately scoped place.
+- **Current State:** The actual history contains no candidate that merits a
+  new Memory artifact or product Memory mechanism.
 
-- **Trigger:** Task B begins a new Performance investigation in the same
-  Project.
+- **Trigger:** Another project may face repeated rediscovery that is costly
+  and not already handled by a canonical source, documentation, or workflow.
 
-- **Action:** Carry forward the fact that the benchmark must use a Release
-  build. Show the agent finding and using that information in the relevant
-  Context instead of repeating the original investigation. Label the scenario
-  illustrative or controlled unless the selected Demo records this behavior.
+- **Action:** Teach a conditional gate: require project-specific reusable
+  knowledge, evidence of repeated rediscovery cost, an authoritative source
+  or provenance, a bounded scope, and a way to check freshness. Compare
+  documentation, repository knowledge, structured memory, or a supported
+  product mechanism only after the information need is justified.
 
-- **Result:** The scenario can show less repeated discovery, reuse of
-  Project-specific knowledge, a possible reduction in task-start investigation,
-  and support for more consistent task decisions. Do not claim measured time
-  savings without evidence.
+- **Result:** The learner can decide whether retention solves a real problem
+  before choosing a storage location or product capability.
 
-- **Interpretation:** The system preserves and makes reusable a validated
-  finding; the AI is not portrayed as remembering like a person.
+- **Interpretation:** Memory is not a maturity badge and “store more” is not
+  the goal. The project Source of Truth remains authoritative.
 
-- **Audience Question:** “이 정보는 어디에 보존하고, Task B에는 어떻게
-  제공해야 할까?”
+- **Audience Question:** “이 지식은 반복해서 다시 찾는 비용보다 유지 비용이
+  낮고, 출처와 최신성을 확인할 수 있는가?”
 
-- **Engineering Response:** Inspect the stored fact's scope, source, and
-  freshness before relying on it.
+- **Engineering Response:** Retain only a validated candidate with an owner,
+  scope, source, retrieval purpose, and refresh or retirement path.
 
-- **New State:** The learner sees the intended cross-task value of Memory.
+- **New State:** Memory is positioned as a conditional engineering choice.
 
-- **Next Friction:** A retained fact can outlive the condition that made it
-  true.
+- **Next Friction:** A hypothetical reuse example must remain separate from
+  the observed Product Demo.
+
+- **Audience Layer:** PRACTICAL
+
+- **Demo Potential:** VISUAL (conditional retention gate).
+
+- **Evidence Type:** TEACHING_MODEL
+
+- **Evidence:** CLM-0003, CLM-0008; INV-MATURITY-008;
+  references/product/memory.md; `plan/DECISIONS.md` OQ-013.
+
+- **Related Curriculum:** ACT 3 — durable knowledge and Memory lifecycle.
+### BEAT-031 — Show reuse only as a conditional example
+
+- **Act:** ACT 3 — Harness as a Designed Work System
+- **Purpose:** Illustrate how justified durable knowledge could support a later task.
+
+- **Current State:** A future Project may identify a fact that passes the
+  retention gate; the primary Demo did not retain or reuse such a fact.
+
+- **Trigger:** Learners need a concrete model of how a validated fact could
+  enter a later task's relevant Context.
+
+- **Action:** Use a clearly labeled conceptual example, such as a benchmark
+  condition with a verified source, scope, and freshness date. Show a later
+  task retrieving it and checking it against the source before use. Do not
+  present this as a recorded Trial, Memory feature, or measured time saving.
+
+- **Result:** The example explains a possible cross-task reuse path without
+  claiming that it occurred in the primary Project.
+
+- **Interpretation:** Knowledge is reusable only while its evidence and scope
+  still apply; source-backed documentation may be sufficient.
+
+- **Audience Question:** “다음 Task에서 이 사실을 어디서 찾고 어떻게
+  확인할까?”
+
+- **Engineering Response:** Verify the source and freshness before carrying
+  the candidate into task Context.
+
+- **New State:** Learners understand the possible value while retaining the
+  observed/illustrative boundary.
+
+- **Next Friction:** Any retained information has a lifecycle and can become
+  stale.
 
 - **Audience Layer:** ADVANCED
 
-- **Demo Potential:** SUPPORTING (controlled or observed result required for
-  outcome claims).
+- **Demo Potential:** SUPPORTING (conceptual example only).
+
+- **Evidence Type:** CONCEPTUAL
 
 - **Evidence:** CLM-0008; INV-DEMO-003; references/product/memory.md;
   references/engineering/harness-engineering.md.
 
-- **Related Curriculum:** ACT 3 — repeated discovery, Context vs Memory.
-### BEAT-032 — Memory has a lifecycle
+- **Related Curriculum:** ACT 3 — conditional Context vs Memory example.
+### BEAT-032 — Retained knowledge has a lifecycle
 
 - **Act:** ACT 3 — Harness as a Designed Work System
-- **Purpose:** Establish validation, scope, freshness, update, and retirement for Memory.
+- **Purpose:** Establish validation, scope, freshness, update, and retirement if knowledge is retained.
 
-- **Current State:** Retained knowledge can reduce re-discovery when it
-  remains relevant and accurate.
+- **Current State:** The primary Demo has no Memory artifact; the course still
+  needs to explain the maintenance obligations of a future justified choice.
 
-- **Trigger:** The developer considers saving more facts: a temporary task
-  detail, a durable Project rule, one error, an Architecture decision, or
-  flaky-test information.
+- **Trigger:** A candidate fact may be temporary, project-wide, inferred,
+  verified, or tied to one environment or Trial.
 
-- **Action:** Introduce the lifecycle Create → Validate → Scope → Retrieve →
-  Refresh → Update/Retire. Ask whether the information is verified or inferred,
-  where it applies, when it should be retrieved, whether it is still current,
-  and how to change or remove it. Do not ask beginners to memorize the stages.
+- **Action:** Teach the conditional lifecycle Create → Validate → Scope →
+  Retrieve → Refresh → Update/Retire. Ask where the fact came from, where it
+  applies, when it should be retrieved, whether it remains current, and how
+  it should be changed or removed.
 
-- **Result:** Memory is treated as a maintained Project asset with scope,
-  freshness, validation, update, and retirement.
+- **Result:** Memory is presented as maintained, scoped knowledge rather than
+  an unlimited store or canonical Source of Truth.
 
-- **Interpretation:** The key message is to manage what is worth remembering
-  and when to discard it. Retained knowledge can itself become technical debt.
+- **Interpretation:** The lifecycle is a teaching model; it does not claim
+  that this repository used a Memory facility or encountered stale Memory.
 
-- **Audience Question:** “무엇을 기억하고, 언제 다시 확인하거나 버려야 할까?”
+- **Audience Question:** “무엇을 남기며, 언제 다시 확인하거나 버려야 할까?”
 
-- **Engineering Response:** Continue from knowledge lifecycle to the tools and
-  checks that make development work actionable and verifiable.
+- **Engineering Response:** Apply the same source, scope, and freshness
+  discipline to any retained project fact.
 
-- **New State:** Learners recognize that Memory needs maintenance and is not
-  an unlimited store or the canonical Source of Truth.
+- **New State:** Learners can reason about Memory risk without treating its
+  adoption as a required step.
 
-- **Next Friction:** Context, workflow, roles, and durable knowledge still
-  need tools and verification to produce dependable development work.
+- **Next Friction:** Context, reusable workflow, tools, and checks must still
+  enable observable and verifiable development work.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** VISUAL (Memory lifecycle and staleness).
+- **Demo Potential:** VISUAL (conditional lifecycle model).
+
+- **Evidence Type:** TEACHING_MODEL
 
 - **Evidence:** CLM-0003, CLM-0008; INV-MATURITY-008;
   references/product/memory.md; references/engineering/harness-engineering.md.
 
-- **Related Curriculum:** ACT 3 — Repeated discovery, Context vs Memory.
+- **Related Curriculum:** ACT 3 — Context vs Memory; optional Memory lifecycle.
 ### BEAT-033 — Tools become part of the work system
 
 - **Act:** ACT 3 — Harness as a Designed Work System
 - **Purpose:** Connect work-system design to tools that enable observable actions.
 
-- **Current State:** The agent can use repository Context, recurring
-  Workflows, role separation, and durable knowledge.
+- **Current State:** The agent can use Project Context and routing, a reusable
+  Performance workflow, tools, and task-appropriate checks. Subagent and
+  Memory audits found no justified primary-Demo need.
 
 - **Trigger:** Software work must search, inspect, change, run, compare, and
   review artifacts; generating an answer alone does not complete the task.
 
-- **Action:** Revisit tools by the work they enable: Search; file read/edit;
-  Shell; Build; Test; Lint; Benchmark; Git diff; Documentation or Web; and
-  external tools when needed. Connect them to the environment in which the
-  agent acts and evidence is collected.
+- **Action:** Trace the tools used in the observed Demo: repository
+  search/read and edits, shell execution, focused/full Tests, Benchmark
+  correctness guards, CLI smoke, and diff review. Mention Build, Lint,
+  Documentation/Web, or external tools only as conditional categories when a
+  task needs them; they are not all part of the observed run.
 
 - **Result:** Tools are visible as part of the system that lets an agent
   investigate and act in a real development environment.
@@ -1444,6 +1478,8 @@ timeline, events, and verification commands are not yet selected.
 - **Evidence:** CLM-0016, CLM-0017; references/engineering/verification.md;
   current availability remains subject to OQ-003 and OQ-005.
 
+- **Evidence Type:** OBSERVED_PRODUCT
+
 - **Related Curriculum:** ACT 3 — Tools, verification, and Harness reveal.
 ### BEAT-034 — Verification becomes part of the workflow
 
@@ -1456,9 +1492,9 @@ timeline, events, and verification commands are not yet selected.
 - **Trigger:** A task-level request such as “run the tests after the change”
   repeats across Bug Fix and Performance work.
 
-- **Action:** Compare an early Prompt that asks for a test with reusable
-  Bug-Fix and Performance workflows that include the relevant correctness
-  tests, benchmark, comparison, and diff review.
+- **Action:** Compare task-level verification requests with the observed
+  Performance Skill and STATE-04-PERF evidence: focused/full Tests,
+  Benchmark correctness guards, CLI smoke, and diff review.
 
 - **Result:** Verification moves from a reminder in each Prompt into the
   repeatable work method, with evidence defined for the task.
@@ -1486,21 +1522,26 @@ timeline, events, and verification commands are not yet selected.
 - **Evidence:** CLM-0020, CLM-0029; INV-VERIFY-001;
   references/engineering/verification.md.
 
+- **Evidence Type:** OBSERVED_PRODUCT
+
 - **Related Curriculum:** ACT 3 — Tools, verification, and Harness reveal.
 ### BEAT-035 — The Harness emerges from solved frictions
 
 - **Act:** ACT 3 — Harness as a Designed Work System
 - **Purpose:** Name the broader work system after its parts have solved distinct frictions.
 
-- **Current State:** Project Context, reusable Workflow, optional role
-  separation, Memory, Tools, and Verification each answer a visible need.
+- **Current State:** The primary Demo has established Project Context and
+  routing, a repository-owned Performance Skill, Benchmark, Tests, tools, and
+  a task-specific Prompt boundary. Subagent and Memory are not part of its
+  STATE-04-PERF Harness.
 
 - **Trigger:** The learner asks what the developer has been designing across
   these changes.
 
-- **Action:** Trace the path from an agent with repository access, through
-  reusable Context and Workflows, to role-scoped investigations, durable
-  knowledge, tools, and checks.
+- **Action:** Trace the observed Product path through Project Context and
+  routing, the reusable Performance Skill, Benchmark, Tests, task-specific
+  Prompt boundaries, and Review. Name Subagent and Memory only as conditional
+  mechanisms that the actual Project audit did not justify.
 
 - **Result:** The developer recognizes that the work has expanded beyond
   writing a better Prompt into shaping the environment in which an agent
@@ -1526,6 +1567,8 @@ timeline, events, and verification commands are not yet selected.
 
 - **Demo Potential:** VISUAL.
 
+- **Evidence Type:** TEACHING_MODEL
+
 - **Evidence:** CLM-0016, CLM-0017, CLM-0030; OQ-011;
   references/engineering/harness-engineering.md.
 
@@ -1535,29 +1578,30 @@ timeline, events, and verification commands are not yet selected.
 - **Act:** ACT 3 — Harness as a Designed Work System
 - **Purpose:** Reveal how previously motivated components relate as a conceptual Harness.
 
-- **Current State:** The learner recognizes the need for an overall view but
-  has not yet seen how the parts relate.
+- **Current State:** The learner has seen the actual Project-level working
+  conditions but has not yet seen them related as one system.
 
 - **Trigger:** A retrospective can show how far the developer's work pattern
   has evolved from the beginning.
 
-- **Action:** Show this conceptual structure. Skills, Memory, Subagents, and
-  Tools remain optional according to project needs and verified availability:
+- **Action:** Show a system view grounded in the observed primary Demo:
 
       Developer
-          ↓
-      Main Agent
-       ├ Context
-       ├ Skills / Memory
-       ├ Subagents
-       └ Tools → Build / Test / Benchmark
-          ↓
-      Execution
-          ↓
-      Verification
+        └ Task Prompt / goal boundary
+             ↓
+           Agent
+        ├ Project Context
+        ├ Context routing
+        ├ repository-owned Performance Skill
+        └ Tools / Environment
+             ├ Tests
+             └ Benchmark
+             ↓
+           Execution → Verify → Review
 
-  Include Environment, Workflow, or Evaluation only where the research and
-  Curriculum call for them.
+  Treat this as a teaching diagram of the actual STATE-04-PERF setup, not a
+  universal architecture. Mark Subagent and Memory as considered but not
+  selected or needed for this bounded task.
 
 - **Result:** The learner can compare the beginning (Developer → ChatGPT →
   Answer) with the current pattern (Developer → Agent System → Execution →
@@ -1583,6 +1627,8 @@ timeline, events, and verification commands are not yet selected.
 - **Demo Potential:** VISUAL (conceptual system diagram and beginning/current
   comparison).
 
+- **Evidence Type:** OBSERVED_PRODUCT
+
 - **Evidence:** CLM-0016, CLM-0017, CLM-0030; OQ-011;
   references/engineering/harness-engineering.md.
 
@@ -1592,46 +1638,55 @@ timeline, events, and verification commands are not yet selected.
 - **Act:** ACT 3 — Harness as a Designed Work System
 - **Purpose:** Show a bounded task using the assembled Harness.
 
-- **Current State:** The learner has seen the system view but not yet watched
-  its parts support one development task.
+- **Current State:** The learner has seen the actual STATE-04-PERF system
+  view but not yet traced its evidence-backed result.
 
 - **Trigger:** The developer asks for an investigation and a safe improvement
   to a Performance problem.
 
-- **Action:** In a controlled or observed case, provide relevant Project
-  Context, a Performance Workflow, role separation where justified, validated
-  Project knowledge, available Build/Benchmark tools, and Verification. Show
-  the agent investigating, planning, implementing, testing, benchmarking, and
-  reviewing.
+- **Action:** Trace the observed primary evolution: STATE-00 baseline with a
+  known crop bug → STATE-00-FIXED Investigate → Plan → Implement → Verify →
+  Review → STATE-01 small root AGENTS.md → STATE-02 accurate but mixed-scope
+  Context growth → STATE-03 structured Context and routing → Benchmark
+  preparation → STATE-04 repository-owned reusable Performance Skill →
+  STATE-04-PERF Skill-supported, evidence-based Product Change. Show the
+  relevant Project Context, routing, task Prompt boundary, Skill, Benchmark,
+  Tests, and Review evidence. No Subagent or Memory was used or needed.
 
-- **Result:** The designed work system supports the task, while the developer
-  concentrates on the task goal, trade-offs, and decision points. Keep the
-  outcome bounded by recorded evidence or label it illustrative.
+- **Result:** STATE-04-PERF passed the focused and full Tests, both Benchmark
+  correctness guards, CLI smoke check, and final diff review. The working
+  Harness supported this bounded Product Change; the evidence does not isolate
+  any one component as its cause or prove universal quality.
 
-- **Interpretation:** Give the current Harness genuine value and a sense of
-  completeness before advancing the Story; do not claim universal quality or
-  measured speed gains.
+- **Interpretation:** This is OBSERVED_PRODUCT and a Working Harness Success,
+  not an incomplete state awaiting Subagents or Memory. The next ACT 4 stale
+  workflow is a separate conceptual case, not the next state in this Product
+  history.
 
 - **Audience Question:** “이제 꽤 완성된 것 같은데, Project가 바뀌어도 계속
   맞을까?”
 
-- **Engineering Response:** Let time pass and change Project assumptions.
+- **Engineering Response:** Move to a separate, labeled conceptual case to
+  examine how a justified later Project change could stale a reusable artifact.
 
 - **New State:** The learner understands why the system is useful in the
   conditions for which it was designed.
 
-- **Next Friction:** Project and tools evolve; system components may not be
-  updated at the same time.
+- **Next Friction:** To teach maintenance over time, introduce a clearly
+  separate conceptual case where a later Project change can make an old
+  workflow stale.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** SUPPORTING (bounded case; outcome evidence conditional).
+- **Demo Potential:** ANCHOR (observed Product Demo endpoint).
 
-- **Evidence:** CLM-0020, CLM-0029, CLM-0030; INV-DEMO-003;
-  references/engineering/verification.md; OQ-007 and OQ-008.
+- **Evidence Type:** OBSERVED_PRODUCT
 
-- **Related Curriculum:** ACT 3 — Tools, verification, and Harness reveal;
-  ACT 3 → ACT 4 handoff.
+- **Evidence:** STATE-00 → STATE-04-PERF in `plan/DEMO_MATRIX.md`;
+  `plan/DECISIONS.md` DEC-0018; INV-DEMO-003; INV-VERIFY-001.
+
+- **Related Curriculum:** ACT 3 — Tools, Verification, Harness reveal, and
+  Working Harness Success; ACT 3 → ACT 4 handoff.
 ## ACT 4 — Loop and System Improvement
 
 ### BEAT-038 — Time passes while the Project changes
@@ -1639,23 +1694,24 @@ timeline, events, and verification commands are not yet selected.
 - **Act:** ACT 4 — Loop and System Improvement
 - **Purpose:** Make elapsed time and project change visible before a stale failure.
 
-- **Current State:** The Harness has supported work under the Project
-  assumptions for which it was designed.
+- **Current State:** The actual Product Demo has ended successfully at
+  STATE-04-PERF. The following sequence is a separate conceptual controlled
+  case, not later history of that repository.
 
-- **Trigger:** The Story advances by weeks or months while the same software
-  Project continues to evolve.
+- **Trigger:** The instructor asks what could happen if a previously correct
+  Project changes while an old reusable workflow remains.
 
-- **Action:** Show Project changes such as a build-system migration, new test
-  commands, directory or dependency changes, a completed Architecture
-  migration, or a revised benchmark method. The code and canonical Project
-  documentation are brought up to date, but do not assume every Harness
-  component changes automatically.
+- **Action:** In a labeled conceptual scenario, show a justified Project
+  change such as a build-system migration or revised test command. Bring the
+  code and canonical Project documentation up to date, then leave one
+  previously correct workflow unchanged for the purpose of examining the
+  mismatch. Do not call this a Demo repository or Trial event.
 
-- **Result:** Project reality moves forward while some instructions, Skills,
-  Memory, tools, or Workflows may still describe the previous state.
+- **Result:** In the conceptual case, Project reality moves forward while one
+  still-used instruction or reusable workflow describes the previous state.
 
-- **Interpretation:** Time introduces a maintenance problem distinct from
-  handling a larger task.
+- **Interpretation:** This controlled teaching model isolates maintenance
+  risk; it does not imply that STATE-04-PERF became stale or failed.
 
 - **Audience Question:** “Project가 바뀌면 Agent가 따르는 System도 함께 바뀌었을까?”
 
@@ -1670,19 +1726,21 @@ timeline, events, and verification commands are not yet selected.
 
 - **Audience Layer:** ALL
 
-- **Demo Potential:** SUPPORTING (timeline; keep chronology illustrative).
+- **Demo Potential:** SUPPORTING (DEMO-04A conceptual visual).
 
-- **Evidence:** INV-MATURITY-010; plan/MASTER_PLAN.md §§5.8, 14;
-  references/engineering/harness-engineering.md.
+- **Evidence Type:** CONCEPTUAL
 
-- **Related Curriculum:** ACT 4 — Project change and stale Harness.
+- **Evidence:** DEC-0021; INV-MATURITY-010; plan/DEMO_MATRIX.md §§221–230;
+  plan/MASTER_PLAN.md §§5.8, 14.
+
+- **Related Curriculum:** ACT 4 — conceptual stale-Harness case.
 ### BEAT-039 — A stale workflow fails once and is corrected locally
 
 - **Act:** ACT 4 — Loop and System Improvement
 - **Purpose:** Resolve one stale-workflow failure locally without prematurely introducing Loop.
 
-- **Current State:** The Project has migrated from CMake/CTest to Bazel, while
-  an old Build or Test workflow remains.
+- **Current State:** In DEMO-04A's conceptual teaching Project, a migration
+  from CMake/CTest to Bazel leaves an old Build or Test workflow in place.
 
 - **Trigger:** A new task asks the agent to fix a bug and run the relevant
   tests.
@@ -1712,8 +1770,9 @@ timeline, events, and verification commands are not yet selected.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** ANCHOR candidate 4 (only if controlled or observed and
-  clearly labeled).
+- **Demo Potential:** SUPPORTING (DEMO-04A conceptual controlled case; no Product State).
+
+- **Evidence Type:** CONCEPTUAL
 
 - **Evidence:** INV-MATURITY-010, INV-DEMO-003;
   plan/MASTER_PLAN.md §§5.8, 25; references/engineering/harness-engineering.md.
@@ -1724,15 +1783,16 @@ timeline, events, and verification commands are not yet selected.
 - **Act:** ACT 4 — Loop and System Improvement
 - **Purpose:** Use a later recurrence to earn a system-level question.
 
-- **Current State:** The first task succeeded after a developer correction,
-  but the old workflow was not updated.
+- **Current State:** In the DEMO-04A conceptual sequence, the first task
+  succeeded after a developer correction, but the old workflow was not updated.
 
-- **Trigger:** A later task uses the same stale Test instruction; the
-  developer corrects it again, and a further task repeats the pattern.
+- **Trigger:** A later task in the same conceptual sequence uses the stale
+  Test instruction again; the developer corrects it, and a further task
+  repeats the pattern.
 
-- **Action:** Show Task 1, Task 2, and Task 3 as a controlled or observed
-  sequence: stale workflow, correction, completion; then the same workflow
-  returns. Preserve the evidence status of each run.
+- **Action:** Show three steps in this conceptual sequence: a stale workflow,
+  a local correction, then recurrence because the source workflow remains
+  unchanged. Do not present these as recorded Trial executions.
 
 - **Result:** Repeating a local correction can leave the source of the failure
   in place. The developer now has a reason to inspect the work system.
@@ -1754,8 +1814,9 @@ timeline, events, and verification commands are not yet selected.
 
 - **Audience Layer:** ADVANCED
 
-- **Demo Potential:** ANCHOR candidate 4 (repeated evidence required for an
-  observed claim).
+- **Demo Potential:** SUPPORTING (DEMO-04A conceptual recurrence; not observed Product history).
+
+- **Evidence Type:** CONCEPTUAL
 
 - **Evidence:** INV-MATURITY-010, INV-LOOP-001, INV-DEMO-003;
   plan/MASTER_PLAN.md §§5.8–5.9, 25.
@@ -1766,8 +1827,9 @@ timeline, events, and verification commands are not yet selected.
 - **Act:** ACT 4 — Loop and System Improvement
 - **Purpose:** Name Harness maintenance cost as a bounded technical-debt analogy.
 
-- **Current State:** Multiple tasks may repeat a correction because part of
-  the system still represents an earlier Project state.
+- **Current State:** In a conceptual maintenance case, multiple tasks may
+  repeat a correction because part of the system still represents an earlier
+  Project state.
 
 - **Trigger:** Inspection finds stale instructions, Skills, or Memory,
   outdated tool configuration, duplicate rules, or an obsolete Workflow.
@@ -1798,6 +1860,8 @@ timeline, events, and verification commands are not yet selected.
 
 - **Demo Potential:** SUPPORTING (analogy follows the concrete case).
 
+- **Evidence Type:** CONCEPTUAL
+
 - **Evidence:** INV-MATURITY-010, INV-LOOP-001;
   references/engineering/harness-engineering.md; plan/MASTER_PLAN.md §5.8.
 
@@ -1807,17 +1871,16 @@ timeline, events, and verification commands are not yet selected.
 - **Act:** ACT 4 — Loop and System Improvement
 - **Purpose:** Reframe recurrence as a reason to investigate the system.
 
-- **Current State:** The same stale Test workflow has required correction on
-  more than one task.
+- **Current State:** DEMO-04A's conceptual stale Test workflow has required
+  correction on more than one task.
 
 - **Trigger:** The developer notices that solving the immediate task has not
   prevented the same behavior from returning.
 
-- **Action:** Contrast the earlier view—Failure is an obstacle to remove from
-  the current task—with the expanded view—Failure is a task problem and a
-  possible signal that the system could improve. After correcting the old
-  test command with the current Bazel command, ask why the agent selected the
-  old command.
+- **Action:** In the labeled conceptual case, contrast Failure as an obstacle
+  to remove from the current task with Failure as a possible system signal.
+  After correcting the old test command with the current Bazel command, ask
+  why the agent selected the old command.
 
 - **Result:** The question changes from “What should the agent do now?” to
   “Why did our system make this behavior likely?”
@@ -1840,6 +1903,8 @@ timeline, events, and verification commands are not yet selected.
 - **Audience Layer:** PRACTICAL
 
 - **Demo Potential:** SUPPORTING (failure interpretation).
+
+- **Evidence Type:** CONCEPTUAL
 
 - **Evidence:** INV-LOOP-001; references/engineering/loop-engineering.md;
   references/engineering/agent-failure-modes.md.
@@ -1882,6 +1947,8 @@ timeline, events, and verification commands are not yet selected.
 
 - **Demo Potential:** SUPPORTING (trace and artifact comparison).
 
+- **Evidence Type:** CONCEPTUAL
+
 - **Evidence:** CLM-0020, CLM-0029; INV-LOOP-001;
   references/engineering/loop-engineering.md;
   references/engineering/verification.md.
@@ -1923,6 +1990,8 @@ timeline, events, and verification commands are not yet selected.
 - **Audience Layer:** ADVANCED
 
 - **Demo Potential:** VISUAL (Observation → Cause hypothesis).
+
+- **Evidence Type:** CONCEPTUAL
 
 - **Evidence:** INV-LOOP-001; references/engineering/loop-engineering.md;
   references/engineering/agent-failure-modes.md.
@@ -1969,6 +2038,8 @@ timeline, events, and verification commands are not yet selected.
 
 - **Demo Potential:** VISUAL (cause-to-layer map).
 
+- **Evidence Type:** CONCEPTUAL
+
 - **Evidence:** INV-LOOP-001; CLM-0020, CLM-0029;
   references/engineering/harness-engineering.md;
   references/engineering/loop-engineering.md.
@@ -2010,8 +2081,9 @@ timeline, events, and verification commands are not yet selected.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** ANCHOR candidate 4 (implementation and result evidence
-  conditional).
+- **Demo Potential:** SUPPORTING (DEMO-04A conceptual change sequence; no Product implementation).
+
+- **Evidence Type:** CONCEPTUAL
 
 - **Evidence:** INV-LOOP-001; references/engineering/loop-engineering.md;
   current Product capability remains conditional under OQ-003 and OQ-005.
@@ -2051,7 +2123,9 @@ timeline, events, and verification commands are not yet selected.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** ANCHOR candidate 4 (rerun evidence conditional).
+- **Demo Potential:** SUPPORTING (conceptual rerun evidence within DEMO-04A).
+
+- **Evidence Type:** CONCEPTUAL
 
 - **Evidence:** CLM-0020, CLM-0029; INV-LOOP-001;
   references/engineering/verification.md.
@@ -2094,6 +2168,8 @@ timeline, events, and verification commands are not yet selected.
 - **Audience Layer:** ADVANCED
 
 - **Demo Potential:** SUPPORTING (representative task evaluation).
+
+- **Evidence Type:** CONCEPTUAL
 
 - **Evidence:** CLM-0020, CLM-0029; INV-LOOP-001;
   references/engineering/verification.md.
@@ -2138,6 +2214,8 @@ timeline, events, and verification commands are not yet selected.
 - **Demo Potential:** SUPPORTING (illustrative regression case unless
   reproduced).
 
+- **Evidence Type:** CONCEPTUAL
+
 - **Evidence:** INV-LOOP-001, INV-LEARNING-003, INV-DEMO-003;
   references/engineering/verification.md;
   references/engineering/agent-failure-modes.md.
@@ -2181,6 +2259,8 @@ timeline, events, and verification commands are not yet selected.
 
 - **Demo Potential:** VISUAL (Context growth recalled as an illustrative
   comparison).
+
+- **Evidence Type:** TEACHING_MODEL
 
 - **Evidence:** INV-MATURITY-003, INV-LEARNING-003, INV-LOOP-001;
   references/engineering/harness-engineering.md;
@@ -2251,6 +2331,8 @@ timeline, events, and verification commands are not yet selected.
 
 - **Demo Potential:** VISUAL (final Loop architecture).
 
+- **Evidence Type:** TEACHING_MODEL
+
 - **Evidence:** CLM-0020, CLM-0021, CLM-0029; INV-LOOP-001;
   references/engineering/loop-engineering.md;
   references/engineering/verification.md.
@@ -2296,6 +2378,8 @@ timeline, events, and verification commands are not yet selected.
 - **Audience Layer:** ALL
 
 - **Demo Potential:** VISUAL (side-by-side loop comparison).
+
+- **Evidence Type:** TEACHING_MODEL
 
 - **Evidence:** `INV-LOOP-001`; `CLM-0020`, `CLM-0021`;
   `references/engineering/loop-engineering.md`.
@@ -2343,6 +2427,8 @@ timeline, events, and verification commands are not yet selected.
 
 - **Demo Potential:** VISUAL (manual / assisted / automated comparison).
 
+- **Evidence Type:** TEACHING_MODEL
+
 - **Evidence:** `INV-LOOP-001`; `CLM-0020`, `CLM-0021`;
   `references/engineering/loop-engineering.md`;
   `references/engineering/verification.md`.
@@ -2354,12 +2440,11 @@ timeline, events, and verification commands are not yet selected.
 - **Act:** ACT 4 — Loop and System Improvement
 - **Purpose:** Make stale Memory a concrete Harness improvement target.
 
-- **Current State:** Earlier Story Beats showed Memory as a separate,
-  reusable source of project knowledge with a lifecycle.
+- **Current State:** Memory was not selected or used in the primary
+  Product Demo; this maintenance scenario is conceptual.
 
-- **Trigger:** A formerly valid Memory says Module X is legacy and must not be
-  changed, while the current canonical Project source says its migration is
-  complete and the module is editable.
+- **Trigger:** In a separate conceptual case, a formerly valid retained
+  fact conflicts with the current canonical Project source.
 
 - **Action:** Observe the conflict between Memory and the current source,
   identify stale Memory as a cause hypothesis, validate the source of truth,
@@ -2388,6 +2473,8 @@ timeline, events, and verification commands are not yet selected.
 
 - **Demo Potential:** SUPPORTING (illustrative conflict unless reproduced).
 
+- **Evidence Type:** CONCEPTUAL
+
 - **Evidence:** `CLM-0008`; `INV-LOOP-001`;
   `references/TERMINOLOGY.md` (Memory);
   `references/engineering/loop-engineering.md`.
@@ -2399,11 +2486,12 @@ timeline, events, and verification commands are not yet selected.
 - **Act:** ACT 4 — Loop and System Improvement
 - **Purpose:** Improve workflow quality by completing the Performance Skill's evidence steps.
 
-- **Current State:** A Performance Skill offers a reusable workflow for
-  repeated work.
+- **Current State:** The actual `graypipe-performance` Skill supports
+  the verified STATE-04-PERF change; the following incomplete-Skill case is
+  a separate conceptual example.
 
-- **Trigger:** The Skill says Build → Modify → Benchmark but omits a baseline,
-  so the result cannot be compared with the pre-change state.
+- **Trigger:** In a hypothetical different Project, a reusable Skill
+  omits a needed baseline, preventing comparison with the pre-change state.
 
 - **Action:** Classify the missing comparison as a workflow-quality failure,
   not a command error. Revise the workflow to include Baseline → Investigate
@@ -2430,7 +2518,9 @@ timeline, events, and verification commands are not yet selected.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** SUPPORTING (controlled Skill comparison).
+- **Demo Potential:** SUPPORTING (conceptual Skill-maintenance example).
+
+- **Evidence Type:** CONCEPTUAL
 
 - **Evidence:** `CLM-0006`; `INV-LOOP-001`;
   `references/engineering/loop-engineering.md`;
@@ -2443,11 +2533,11 @@ timeline, events, and verification commands are not yet selected.
 - **Act:** ACT 4 — Loop and System Improvement
 - **Purpose:** Right-size Subagent use to task complexity.
 
-- **Current State:** Subagents have supported role-separated investigation
-  in a complex task, with coordination and integration costs.
+- **Current State:** The primary Project did not use Subagents; this is a
+  teaching model for reviewing an existing delegation design.
 
-- **Trigger:** The initial Harness starts Main, Architecture, Performance,
-  Test, Documentation, and Review agents even for a small change.
+- **Trigger:** A hypothetical Harness runs a fixed set of roles even
+  for a small change.
 
 - **Action:** Observe duplicated investigation, handoff work, and potentially
   added cost or latency. Compare the structure with task complexity and
@@ -2477,144 +2567,155 @@ timeline, events, and verification commands are not yet selected.
 
 - **Demo Potential:** SUPPORTING (illustrative task-size comparison).
 
+- **Evidence Type:** TEACHING_MODEL
+
 - **Evidence:** `CLM-0007`; `CLM-0022`; `INV-LOOP-001`;
   `references/engineering/loop-engineering.md`.
 
 - **Related Curriculum:** ACT 4 — Improve Context, Memory, Skills, and
   delegation.
-### BEAT-057 — Fit a Minimum Effective Harness to the recurring problem
+### BEAT-057 — Minimum Effective Harness fits the demonstrated problem
 
 - **Act:** ACT 4 — Loop and System Improvement
-- **Purpose:** Derive a minimum effective system from recurring friction, not feature count.
+- **Purpose:** Recall the observed minimum effective system and generalize it as a project heuristic.
 
-- **Current State:** Memory, Skills, and delegation can each be improved by
-  adding, changing, or removing structure.
+- **Current State:** ACT 3 showed STATE-04-PERF succeeding with Project
+  Context, routing, a repository-owned reusable Performance Skill, Benchmark,
+  Tests, and a task Prompt boundary; Subagent and Memory were not justified.
 
-- **Trigger:** The learner asks whether the best Harness is the one with the
-  most mechanisms.
+- **Trigger:** Learners may still mistake later maturity for adding more
+  mechanisms after seeing the Loop and its possible maintenance targets.
 
-- **Action:** Define Minimum Effective Harness as this project's teaching
-  heuristic: the smallest system that addresses recurring failures or
-  friction. Compare illustrative fits such as Prompt + `AGENTS.md` + tests
-  for a small project; Context routing + reusable workflow + verification
-  for recurring project work; and Subagents, Memory, Evaluation, or feedback
-  mechanisms only when a complex workflow needs them.
+- **Action:** Revisit the actual bounded Harness success, then state the
+  teaching heuristic: use the smallest system that addresses an evidenced
+  task or recurring friction. Mechanisms such as Subagents, Memory, Evaluation,
+  and automation remain conditional choices.
 
-- **Result:** Beginners can see that they need not build every mechanism at
-  once; experienced learners can ask whether their existing Harness is
-  overbuilt.
+- **Result:** Minimum Effective Harness is an ACT 3 evidence-backed payoff
+  and an ACT 4/5 callback, not merely a final generic tip.
 
-- **Interpretation:** Maturity is the ability to design a system that fits
-  the problem, not the number of components installed.
+- **Interpretation:** The observed Project succeeded without Subagent or
+  Memory; this does not imply those mechanisms are unnecessary in other work.
 
-- **Audience Question:** “우리에게 반복되는 어떤 문제를 해결하는 데
-  지금 필요한 최소 구조는 무엇일까?”
+- **Audience Question:** “실제 문제를 해결하는 데 필요한 최소 작업 환경은
+  무엇이며, 어떤 근거로 충분하다고 판단하는가?”
 
-- **Engineering Response:** If useful evidence exists, connect the model to
-  the actual evolution of this training repository as a supporting example.
+- **Engineering Response:** Tie every retained component to its role and
+  verification evidence; revisit it when the task or Project changes.
 
-- **New State:** The learner can reason from recurring friction to an
-  appropriately sized Harness.
+- **New State:** The learner can describe both a real bounded Harness and the
+  conditional rule for fitting another one.
 
-- **Next Friction:** A meta example is credible only when its repository
-  history and artifacts support the claimed sequence.
+- **Next Friction:** The observed Meta Case can support Loop reasoning only if
+  it remains distinct from the Product Demo and conceptual stale-Harness path.
 
 - **Audience Layer:** ALL
 
-- **Demo Potential:** VISUAL; optional supporting repository example.
+- **Demo Potential:** VISUAL (observed configuration plus course heuristic).
 
-- **Evidence:** `CLM-0022`; `INV-LOOP-001`;
-  `references/engineering/harness-engineering.md`.
+- **Evidence Type:** OBSERVED_PRODUCT
 
-- **Related Curriculum:** ACT 4 — Improve Context, Memory, Skills, and
-  delegation; Minimum Effective Harness heuristic.
-### BEAT-058 — Verify whether the training repository has a usable story
+- **Evidence:** STATE-04-PERF; DEC-0018; DEC-0021;
+  `plan/DEMO_MATRIX.md` §§191–230.
+
+- **Related Curriculum:** ACT 3 payoff; ACT 4 Minimum Effective Harness
+  callback; ACT 5 synthesis.
+### BEAT-058 — Trial evidence changes the production evaluation system
 
 - **Act:** ACT 4 — Loop and System Improvement
-- **Purpose:** Gate the training repository example on verifiable real history.
+- **Purpose:** Show an authentic, bounded feedback chain in training-production history.
 
-- **Current State:** The core evolving software Project has illustrated how
-  a Harness can grow in response to friction.
+- **Current State:** The Primary Product Demo ends at STATE-04-PERF, while a
+  separate production Trial has exposed a limit in how task outcomes can be
+  attributed.
 
-- **Trigger:** The actual `ai-dev-training` repository may also have a
-  meaningful, verifiable history of its own design changing over time.
+- **Trigger:** TRIAL-006 recorded useful correctness and benchmark results,
+  but global Harness components were present in the run context, so their
+  effect could not be isolated from Prompt-only attribution.
 
-- **Action:** Before teaching it, inspect the actual repository history and
-  artifacts. Use only milestones that demonstrably existed in sequence, such
-  as initial project guidance, later governance, research, or review
-  structures, if those changes are supported by the records.
+- **Action:** Trace the actual sequence TRIAL-006 → DEC-0016 → TRIAL-007 /
+  TRIAL-008. DEC-0016 retained TRIAL-006 as PARTIAL, accepted observed global
+  presence as an attribution limitation, and changed later Trial
+  recording/evaluation rules. Later CLI Trials recorded global influence; preserve TRIAL-007's
+  report/stderr discrepancy and the absence of an MCP task result.
 
-- **Result:** The instructor can decide whether a short meta example is
-  evidence-backed and relevant enough to include.
+- **Result:** The production evaluation and reporting system changed, and
+  subsequent Trial evidence was recorded under the updated rule, with the
+  remaining inventory gap still marked partial. No objective Trial-quality
+  improvement was measured.
 
-- **Interpretation:** The repository is a candidate teaching example, not
-  automatic proof of the Loop model. Do not infer past states from current
-  documents or invent failure, motivation, or chronology.
+- **Interpretation:** This is an observed Training Production Meta Case, not
+  a Demo Product change, `graypipe-performance` Skill repair, or proof that
+  the stale-Harness conceptual case caused the event.
 
-- **Audience Question:** “이 교육자료를 만든 Repository에도 확인 가능한
-  변화의 기록이 있는가?”
+- **Audience Question:** “실행 결과를 Prompt나 Code 변화에만 귀속할 수
+  없을 때 Trial 평가 규칙을 어떻게 바꿔야 할까?”
 
-- **Engineering Response:** If the evidence is sufficient, map only those
-  recorded changes to the Story; otherwise omit the meta example.
+- **Engineering Response:** Record the influence, limit causal claims, update
+  the evaluation/reporting system, and inspect later runs under the rule.
 
-- **New State:** The meta example has an explicit evidence gate before it can
-  be shown.
+- **New State:** Learners see a real but bounded system-feedback example with
+  explicit unresolved evidence limits.
 
-- **Next Friction:** Even real repository changes need a bounded explanation
-  of what they demonstrate and what they do not.
+- **Next Friction:** A true Meta Case could still distract from the continuous
+  Product Story unless its role and claims stay subordinate.
+
+- **Audience Layer:** ADVANCED
+
+- **Demo Potential:** SUPPORTING (DEMO-04B captured/visual timeline).
+
+- **Evidence Type:** OBSERVED_META
+
+- **Evidence:** `plan/DECISIONS.md` DEC-0016 and DEC-0021; TRIAL-006,
+  TRIAL-007, TRIAL-008 in `plan/DEMO_MATRIX.md` §§201–230 and the retained
+  trial records.
+
+- **Related Curriculum:** ACT 4 — observed Meta feedback case.
+### BEAT-059 — Keep the observed Meta Case subordinate
+
+- **Act:** ACT 4 — Loop and System Improvement
+- **Purpose:** Bound the Meta Case and return to the main learning Story.
+
+- **Current State:** The actual Trial timeline supports a change to Training
+  Production evaluation and reporting, with known partial evidence limits.
+
+- **Trigger:** Learners may mistake an authentic supporting example for the
+  primary software Demo or overstate what the later Trials proved.
+
+- **Action:** State the scope: the Product Demo remains STATE-00 →
+  STATE-04-PERF; the conceptual stale-Harness example is a separate teaching
+  path; the Meta Case shows observed evaluation/workflow feedback only.
+  Preserve the TRIAL-007 report/stderr discrepancy and avoid claiming
+  improvement in Trial quality, Product code, or Skill behavior.
+
+- **Result:** The class can use actual feedback evidence without merging
+  distinct histories or making unsupported causal claims.
+
+- **Interpretation:** Meta evidence supplements the core Story and cannot
+  replace its Product evolution or its conceptual maintenance model.
+
+- **Audience Question:** “이 기록이 실제로 뒷받침하는 변화는 무엇이며,
+  어떤 결론은 뒷받침하지 않는가?”
+
+- **Engineering Response:** Keep only bounded claims, then recap one shared
+  Prompt → Context → Harness → Loop progression.
+
+- **New State:** The evidence paths are ready for synthesis without causal
+  conflation.
+
+- **Next Friction:** The whole training could still appear to be disconnected
+  mechanism introductions unless the problem-driven progression is recapped.
 
 - **Audience Layer:** PRACTICAL
 
-- **Demo Potential:** SUPPORTING (optional; requires repository-history review).
+- **Demo Potential:** SUPPORTING (claim-boundary close to DEMO-04B).
 
-- **Evidence:** `CLM-0027`; `INV-DEMO-003`;
-  `references/STORY_DEPENDENCIES.md` (Demo honesty and project history).
+- **Evidence Type:** OBSERVED_META
 
-- **Related Curriculum:** ACT 4 — optional supporting example within the
-  system-improvement story; no additional time allocation.
-### BEAT-059 — Keep the meta example subordinate to the core Story
+- **Evidence:** DEC-0021; `plan/DEMO_MATRIX.md` §§221–230;
+  `INV-DEMO-003`.
 
-- **Act:** ACT 4 — Loop and System Improvement
-- **Purpose:** Keep any verified meta example supporting rather than replacing core Story.
-
-- **Current State:** Selected repository changes, if any, are backed by
-  actual commits and artifacts.
-
-- **Trigger:** A real meta example could still distract from or replace the
-  continuous software-project Demo Story.
-
-- **Action:** Map verified milestones only: initial guidance; documented
-  planning or context-loss concerns if recorded; governance or research
-  structures when they actually appeared; and later mechanisms only if their
-  introduction and use are verifiable. Keep the example brief and supporting.
-
-- **Result:** Learners can see that system structure may evolve in response
-  to documented needs while the core Demo remains the primary narrative.
-
-- **Interpretation:** The example illustrates this repository's history; it
-  does not prove that the same sequence is universal or that every mechanism
-  improved outcomes.
-
-- **Audience Question:** “실제 기록은 어떤 변화까지 보여 주며, 어떤
-  결론까지는 뒷받침하지 않는가?”
-
-- **Engineering Response:** Close the case and recap the full course
-  progression as one connected evolution.
-
-- **New State:** Any meta example remains evidence-bounded and subordinate.
-
-- **Next Friction:** Learners need to see the whole journey as one evolving
-  system rather than a collection of features.
-
-- **Audience Layer:** PRACTICAL
-
-- **Demo Potential:** SUPPORTING (optional; omit if evidence or time is insufficient).
-
-- **Evidence:** `CLM-0027`; `INV-DEMO-003`;
-  `references/STORY_DEPENDENCIES.md`.
-
-- **Related Curriculum:** ACT 4 — optional supporting example; ACT 5
-  transition to the full journey recap.
+- **Related Curriculum:** ACT 4 → ACT 5 handoff.
 ## ACT 5 — AI-Native Development and Learner Reflection
 
 ### BEAT-060 — Recap the complete evolution as one Story
@@ -2632,11 +2733,11 @@ timeline, events, and verification commands are not yet selected.
 - **Action:** Revisit the sequence: ChatGPT answer with manually gathered
   Context; Codex repository investigation with task-intent gaps; structured
   Prompts with repeated project facts; `AGENTS.md` and Context routing with
-  relevance concerns; Skills for recurring workflows; Subagents for role
-  complexity; Memory for repeated discovery; a designed Harness combining
-  relevant Context, Workflow, Tools, and Verification; growing system
-  complexity and maintenance; stale Harness after Project change; and Loop
-  improvement for future work.
+  relevance concerns; a reusable Skill for the observed recurring workflow;
+  actual audits that found no Subagent or Memory need; the resulting designed
+  Harness; then a separate conceptual stale-Harness case and an independent
+  observed Meta feedback path. Present role separation and durable knowledge
+  as conditional choices for tasks that meet their evidence gates.
 
 - **Result:** The learner sees each mechanism as a response to an earlier
   friction in one evolving development system.
@@ -2659,6 +2760,8 @@ timeline, events, and verification commands are not yet selected.
 - **Audience Layer:** ALL
 
 - **Demo Potential:** VISUAL (full evolution map).
+
+- **Evidence Type:** TEACHING_MODEL
 
 - **Evidence:** `INV-NARRATIVE-001`; `INV-NARRATIVE-002`;
   `plan/CURRICULUM.md` (Overall Narrative).

@@ -1,9 +1,10 @@
 # 6-Hour Curriculum
 
-> Status: STEP 04 COMPLETE WITH OPEN QUESTIONS through §130. The detailed time
-> allocation remains PROPOSED in DEC-0007 pending user review and later Demo
-> runtime evidence. Product and Demo dependencies remain explicitly open.
-> STEP 05 has not started.
+> Status: STEP 04 COMPLETE; STEP 07 schedule decision accepted on 2026-10-02
+> in DEC-0007. Approved mode totals are Lecture 130, Demo 73, Case 83,
+> Reflection 20, Transition 22, and Q&A/Discussion 32 minutes. STEP 08 will
+> place the Q&A pool and reconcile section-level mode splits. Product and
+> company-policy claims remain subject to the Final Content Freeze Gate.
 
 Related Invariants:
 INV-IDENTITY-001, INV-AUDIENCE-001, INV-OBJECTIVE-001,
@@ -105,20 +106,43 @@ controlled/illustrative scenario.
 
 ## Time Overview
 
-All values are net instructional minutes. L = Lecture, D = instructor Demo,
-C = Case / Before-After / visual case, R = private Reflection, T = Transition.
-Each section's mode values sum to its section duration. Reflection is not a
-hands-on activity or required learner contribution.
+All values are net instructional minutes. The approved ACT durations remain
+40 / 55 / 70 / 85 / 80 / 30 minutes. L = Lecture, D = instructor Demo,
+C = Case / Before-After / visual case, R = private Reflection, T = Transition,
+and Q = Q&A/Discussion.
 
-| Act | Time | L | D | C | R | T |
-|---|---:|---:|---:|---:|---:|---:|
-| ACT 0 — Chatbot Developer | 40 | 13 | 8 | 9 | 5 | 5 |
-| ACT 1 — Prompt Engineering | 55 | 19 | 8 | 17 | 6 | 5 |
-| ACT 2 — Context Engineering | 70 | 27 | 13 | 15 | 7 | 8 |
-| ACT 3 — Harness Engineering | 85 | 31 | 20 | 20 | 6 | 8 |
-| ACT 4 — Loop Engineering | 80 | 27 | 22 | 17 | 6 | 8 |
-| ACT 5 — AI-Native Development / Review | 30 | 13 | 2 | 5 | 6 | 4 |
-| **TOTAL** | **360** | **130** | **73** | **83** | **36** | **38** |
+| Act | Time |
+|---|---:|
+| ACT 0 — Chatbot Developer | 40 |
+| ACT 1 — Prompt Engineering | 55 |
+| ACT 2 — Context Engineering | 70 |
+| ACT 3 — Harness Engineering | 85 |
+| ACT 4 — Loop Engineering | 80 |
+| ACT 5 — AI-Native Development / Review | 30 |
+| **TOTAL** | **360** |
+
+### Approved Delivery-Mode Totals
+
+| Mode | Minutes |
+|---|---:|
+| Lecture | 130 |
+| Demo | 73 |
+| Case | 83 |
+| Private Reflection | 20 |
+| Transition | 22 |
+| Q&A/Discussion | 32 |
+| **TOTAL** | **360** |
+
+The 32-minute Q&A/Discussion pool will be placed near major model transitions
+and at the course close. STEP 08 determines its exact section placement and
+reconciles the Reflection and Transition placements. Q&A is not assigned as a
+single closing block, and no Slide-level times are created in STEP 07.
+Reflection remains private and requires no response or hands-on activity.
+
+The L/D/C/R/T values in the per-section tables below are the earlier working
+allocation. They are not the approved aggregate mode split after DEC-0007.
+STEP 08 will reconcile those section-level role estimates with the approved
+mode totals and Q&A pool while preserving the ACT durations and causal Story.
 
 The ACT allocation uses the broad schedule in MASTER_PLAN §11 as a baseline.
 Harness and Loop receive enough time for their less familiar system-level
@@ -223,9 +247,10 @@ evidence.
 **Purpose:** Extend context design to the work environment and process needed
 to support reliable, verifiable development work. Let components emerge from
 problems rather than installing a universal checklist.
-**Starting Problem:** Project context exists, but recurring workflows and
-verification have not been structured as a reusable work system; the developer
-must keep supplying or correcting the process.
+**Starting Problem:** Project context alone does not define a repeatable work
+process. Use a labeled process-variation model, then trace the recorded
+Performance procedure recurrence and its reusable Skill through bounded
+verification evidence.
 **Learning Objectives:** Distinguish “what information is needed?” from “what
 environment and process support the work?”; recognize reusable workflow,
 role separation, durable knowledge, tools, and verification as optional
@@ -233,10 +258,12 @@ mechanisms; explain that their value depends on an actual need.
 Possible mechanisms include Instructions, Context, Skills, Tools, Subagents,
 Memory, Verification, Workflow, and Environment. They are not a mandatory
 component checklist.
-**Demo Role:** Candidate Anchor Demo 3, a repeated workflow using a reusable
-mechanism and verification. Subagent and Memory examples remain supporting or
-visual candidates. Product-specific behavior and target availability must be
-checked before Demo design.
+**Demo Role:** The observed primary Product path ends at STATE-04-PERF with a
+reusable Performance Skill and bounded verification evidence. The Subagent and
+Memory audits are decision points; neither mechanism is used or needed in this
+Demo. Keep their conditional models as clearly labeled teaching material.
+Product-specific behavior and target availability must still be checked before
+Demo design.
 **Audience Value:** Beginners see a gradual path from Context to working
 methods. Practical users see workflow reuse and verification. Experienced
 users can examine role/context isolation, persistence lifecycle, coordination
@@ -248,28 +275,30 @@ Harness diagram appears only after its parts have solved visible problems.
 | Section | Min | L/D/C/R/T | Learning movement and teaching form |
 |---|---:|---:|---|
 | Context → Harness problem and bottom-up framing | 15 | 7/1/5/1/1 | Show inconsistent work despite organized context. Introduce a candidate course framing around environment and process, explicitly not a universal taxonomy. Build bottom-up from observed friction; do not lead with a completed architecture. |
-| Repeated workflow and Skill candidate | 20 | 5/8/4/1/2 | Distinguish a project fact such as a build command from the repeatable procedure for a performance task. Candidate Demo compares a Prompt with a reusable workflow and observes baseline, tests, benchmark, comparison, and verification. Use the current supported product mechanism only after verification. |
-| Role/context complexity and Subagents | 15 | 5/5/3/1/1 | Compare one agent doing architecture, performance, and test investigation with separated roles. Explain result integration, duplicated work, context transfer, coordination, and compute/token cost. Use a conceptual diagram if live support is unavailable. |
-| Repeated discovery, Context vs Memory | 15 | 7/2/3/1/2 | Ask why useful project facts are rediscovered. Distinguish “needed now” from “worth retaining,” then show a short Create → Validate → Scope → Retrieve → Refresh → Update/Retire lifecycle. Keep ChatGPT User Memory, Codex Product Memory, repository durable knowledge, and an engineering memory pattern distinct; none is a substitute for the project's Source of Truth. |
-| Tools, verification, and Harness reveal | 20 | 7/4/5/2/2 | Connect repository search, file operations, commands, environment, workflow, and checks to observation and action. Mention MCP or Plugins only if the Story needs them; do not give a feature tour. Revisit the task-level workflow and make verification part of repeatable work. Only now reveal the combined Harness diagram and summarize why it may feel sufficient before introducing staleness. |
+| Repeated workflow and repository-owned Performance Skill | 20 | 5/8/4/1/2 | Distinguish a project fact such as a build command from the observed reusable performance procedure. Follow the repository-owned Skill through baseline, tests, benchmark, comparison, and verification at STATE-04-PERF; broader product availability remains conditional. |
+| Role/context complexity and Subagents | 15 | 5/5/3/1/1 | Audit the actual candidate tasks: evidence overlaps, independent Context needs are weak, and one Agent is sufficient. Then use a separate conceptual comparison to explain when independent investigation, specialization, isolation, or parallel work could justify role separation and its handoff costs. No Subagent is used in the primary Demo. |
+| Trial-history audit, Context vs Memory | 15 | 7/2/3/1/2 | Classify repeated Trial information as canonical source facts, maintained documentation, reusable workflow, scoped observations, or temporary environment detail. The audit finds no costly missing durable-knowledge candidate. Teach “needed now” vs “worth retaining” and the conditional Create → Validate → Scope → Retrieve → Refresh → Update/Retire lifecycle; do not imply Memory was used. |
+| Tools, verification, and Harness reveal | 20 | 7/4/5/2/2 | Connect the observed Project Context, routing, reusable Skill, tools, Benchmark, Tests, and task Prompt boundary to bounded STATE-04-PERF evidence. Reveal Minimum Effective Harness as the ACT 3 payoff: this task succeeded without Subagent or Memory. Introduce the separately labeled conceptual staleness case only in ACT 4. |
 
 ## ACT 4 — Loop Engineering and System Improvement
 
 **Time:** 80 minutes
 **Purpose:** Turn recurring failure or friction into evidence for improving
 the system that shapes future agent work.
-**Starting Problem:** Project reality changes but no maintenance feedback keeps
-instructions, skills, memory, tools, or workflows current, so the developer
-may repeat the same correction across tasks.
+**Starting Problem:** A separate conceptual case asks how a justified Project
+change could leave a reusable workflow stale. Independently, observed Training
+Production Trial history shows that global Harness presence limited attribution
+and led to a change in evaluation/reporting rules. These are separate evidence
+paths; neither extends the primary Product Demo.
 **Learning Objectives:** Recognize Harness Technical Debt as a course analogy;
 separate one-task Product improvement from Harness Improvement; trace a
 failure through cause and hypothesis; evaluate a Harness change and check for
 regression; avoid equating automation with learning.
-**Demo Role:** Candidate Anchor Demo 4: stale instruction → failure → pause →
-cause analysis → Harness change → re-run → evaluation. Use only a real or
-controlled, clearly labeled and repeatable state. If no observed recurrence
-or reliable live environment exists, use a labeled visual case; do not invent
-project history or claim an unobserved improvement.
+**Demo Role:** DEMO-04A is a labeled conceptual controlled stale-workflow case;
+DEMO-04B is a subordinate observed Meta timeline, TRIAL-006 → DEC-0016 →
+TRIAL-007/008, about Training Production evaluation/reporting. Connect them
+only through the general feedback pattern. Do not present DEMO-04A as Product
+history, connect it causally to DEMO-04B, or claim objective quality gain.
 **Audience Value:** Beginners learn that repeated correction can signal a
 system problem. Practical users see a feedback pattern. Experienced users
 can examine evaluation scope, regression, overfitting, cost, and the minimum
@@ -283,10 +312,10 @@ model weights.
 
 | Section | Min | L/D/C/R/T | Learning movement and teaching form |
 |---|---:|---:|---|
-| Project change and stale Harness | 20 | 6/5/6/1/2 | Contrast an old build/test/workflow instruction with a changed project. Use Harness Technical Debt as a bounded engineering analogy. Show a repeated-failure scenario only as an illustrative case unless it is actually observed and recorded. |
-| Loop model, Product Loop, and automation levels | 15 | 8/2/2/1/2 | Define the course's feedback-driven improvement candidate. Contrast Task → Code → Test → Fix with Agent outcome → cause analysis → system improvement → next execution. Distinguish manual, assisted, and automated feedback without treating automation as the goal. |
-| Cause analysis, change, evaluation, and regression | 25 | 5/11/5/2/2 | Anchor Demo candidate: stop at stale-workflow failure, inspect the artifact, form a cause hypothesis, change the relevant element, rerun, evaluate, and check regression. A check pass is bounded evidence, not proof of every quality dimension. |
-| Improve Context, Memory, Skills, and delegation | 20 | 8/4/4/2/2 | Show that improvement may mean fixing routing, retiring stale knowledge, completing a Skill, reducing unnecessary Subagents, or revising verification—not automatically adding rules. Introduce Minimum Effective Harness as a project heuristic and close the system-improvement story. |
+| Project change and stale Harness | 20 | 6/5/6/1/2 | DEMO-04A is a conceptual controlled case: show a justified Project change and a previously correct reusable workflow that was not updated. The primary Product Demo remains successful at STATE-04-PERF; do not claim an observed stale failure. |
+| Loop model, Product Loop, and automation levels | 15 | 8/2/2/1/2 | Define the course feedback pattern and distinguish Task → Code → Test → Fix from system improvement for later work. Show DEMO-04A and DEMO-04B as independent paths; the shared pattern does not establish a causal link. Compare manual, assisted, and automated feedback without treating automation as the goal. |
+| Cause analysis, change, evaluation, and regression | 25 | 5/11/5/2/2 | Use DEMO-04A to teach observation, cause hypothesis, scoped change, rerun, evaluation, and regression as a conceptual case. Use DEMO-04B only to show the observed evaluation/reporting rule change and its evidence limits; it is not a Product Skill repair or measured quality gain. |
+| Improve Context, Memory, Skills, and delegation | 20 | 8/4/4/2/2 | Treat routing, stale knowledge, workflow quality, and role selection as conditional maintenance choices, not changes observed in the primary Project or Meta Case. Recall Minimum Effective Harness as a project heuristic; prefer the smallest change justified by evidence. |
 
 ## ACT 5 — AI-Native Development and Review
 
@@ -339,9 +368,10 @@ industry consensus or full automation.
 | ACT 5 | 30 |
 | **TOTAL** | **360** |
 
-Mode totals: Lecture 130 + Demo 73 + Case 83 + Reflection 36 + Transition
-38 = **360 minutes**. Section-level arithmetic is checked at the Curriculum
-gate. Breaks are excluded.
+Approved mode totals: Lecture 130 + Demo 73 + Case 83 + Reflection 20 +
+Transition 22 + Q&A/Discussion 32 = **360 minutes**. The earlier section-level
+mode split remains a working draft pending STEP 08 reconciliation. Breaks are
+excluded.
 
 ## Research Dependencies
 
@@ -363,10 +393,9 @@ gate. Breaks are excluded.
   cases can be used.
 - OQ-003 / OQ-005: Confirm the target Demo surface, account, feature access,
   and fallbacks. Product-specific Demo plans remain conditional.
-- OQ-004: The Curriculum quality and completion audit is recorded through
-  §130; DEC-0007 remains PROPOSED pending user review. Refine Demo runtime
-  estimates during Demo Architecture without changing the net total or
-  removing a core Story connection.
+- OQ-004: The aggregate schedule is ACCEPTED in DEC-0007. Reconcile the exact
+  Q&A placement and section-level mode split during STEP 08. Demo runtime
+  estimates remain subject to rehearsal under OQ-003/OQ-005.
 - OQ-006: Finalize research-dependent teaching wording while retaining the
   bounded scope of long-context evidence.
 - OQ-007: Select actual project build, test, benchmark, review commands and
@@ -415,11 +444,11 @@ historical intermediate result is followed by the final §§111–120 gate below
 | AI-Native Development is not defined as full automation. | PASS | ACT 5 preserves developer judgment and labels the framing as a course model. |
 | No Slide Map, Demo repository, or Speaker Notes were produced. | PASS | This gate contains Curriculum artifacts only. |
 
-Gate timing validation: 21 sections, each 10–25 minutes; ACT totals are
-40 + 55 + 70 + 85 + 80 + 30 = 360. Mode totals are Lecture 130, Demo 73,
-Case 83, Reflection 36, and Transition 38 minutes, also totaling 360.
-DEC-0007 records this detailed schedule as PROPOSED pending user review and
-Demo runtime evidence.
+Historical STEP 04 gate timing validation: 21 sections, each 10–25 minutes;
+ACT totals were 40 + 55 + 70 + 85 + 80 + 30 = 360. Its then-current mode
+totals were Lecture 130, Demo 73, Case 83, Reflection 36, and Transition 38.
+The user later replaced and accepted the aggregate mode totals in DEC-0007 on
+2026-10-02; the earlier values are retained here only as audit history.
 
 **Intermediate gate result:** The three Curriculum files existed and the
 structural and arithmetic checks passed at this point. The final STEP 04
@@ -743,17 +772,20 @@ inputs only; they do not specify a detailed event sequence or Slides.
 | Harness Technical Debt, Evaluation, and Regression are connected to Loop. | PASS | ACT 4 and the failure-to-improvement candidate cover all three with evidence limits. |
 | No Slide Map, Slide Content, Demo repository implementation, or Speaker Notes. | PASS | The deliverables remain Curriculum planning documents only. |
 
-**§120 gate result: PASS at the Curriculum design level.** DEC-0007 remains
-PROPOSED and open for user review; OQ-001–OQ-009, OQ-011, and OQ-014 retain
-their stated downstream product, repository, case, and runtime dependencies.
-Those boundaries are explicit and do not block the Curriculum-level gate.
+**§120 historical gate result: PASS at the Curriculum design level.** At
+STEP 04 close, DEC-0007 remained PROPOSED and OQ-001–OQ-009, OQ-011, and
+OQ-014 retained their stated downstream dependencies. The user later accepted
+DEC-0007's aggregate mode totals on 2026-10-02; remaining content checks are
+governed by DEC-0022 and do not block STEP 08 Slide Map work.
 
 ## STEP 04 §§121–130 Completion Audit
 
 ### §121 — Final Time Table
 
-Reflection and Transition are combined in the requested output. The existing
-separate totals remain Reflection 36 minutes and Transition 38 minutes.
+This is the historical STEP 04 output. At that checkpoint Reflection and
+Transition were combined in the requested table, while the earlier separate
+totals were Reflection 36 and Transition 38 minutes. DEC-0007 later replaced
+those aggregate mode totals with the user-approved STEP 07 allocation.
 
 | ACT | Title | Lecture | Case | Demo | Reflection / Transition | Total |
 |-----|-------|---------|------|------|-------------------------|-------|
@@ -765,16 +797,17 @@ separate totals remain Reflection 36 minutes and Transition 38 minutes.
 | ACT 5 | AI-Native Development and Review | 13 | 5 | 2 | 10 | 30 |
 | **TOTAL** |  | **130** | **83** | **73** | **74** | **360** |
 
-Previous Draft:
+Previous STEP 04 Draft:
 ACT totals 40 / 55 / 70 / 85 / 80 / 30 minutes; modes Lecture 130, Demo 73,
 Case 83, Reflection 36, Transition 38 minutes.
 
-Final:
+STEP 04 Combined-Column Output:
 ACT totals 40 / 55 / 70 / 85 / 80 / 30 minutes; the requested combined
 Reflection / Transition column is 74 minutes.
 
 Reason:
-No change from initial baseline.
+The combined column was retained for that STEP 04 audit only. It does not
+supersede the user-approved aggregate mode totals recorded in DEC-0007.
 
 ### §122 — Learning Journey Final Validation
 
@@ -789,7 +822,7 @@ from the later feedback Loop.
 | Question → Task Specification | A repository agent receives an underspecified request. | Goal, constraints, process, and completion evidence are implicit. | State the task and request investigation, planning, and verification. | The requested work and completion conditions are clearer. | Task quality starts with communicating the task, not finding a magic phrase. |
 | Repeated Prompt Context → Managed Project Context | Project rules recur across tasks. | Each task repeats build, test, style, and architecture details. | Reuse concise Project guidance, then examine scope and maintenance. | Repeated information can be carried by project context. | Separate task-specific instructions from recurring project knowledge. |
 | More Context → Relevant Context | A useful instruction file begins to accumulate unrelated or stale details. | More information does not ensure that the right detail reaches the right task. | Keep core guidance concise and route to relevant detail. | Learners can reason about scope, freshness, and retrieval instead of token volume alone. | Relevance and timing matter more than accumulation. |
-| Agent Instruction → Agent Environment / Harness | Project facts are available but recurring work is inconsistent. | Instructions alone do not make work steps and checks repeatable. | Add a reusable workflow first; consider roles, retained knowledge, tools, and checks only for visible needs. | Work steps and verification become observable parts of a designed work system. | Design how work is done as well as what the agent knows. |
+| Agent Instruction → Agent Environment / Harness | A labeled teaching model asks whether organized Project context makes work repeatable; recorded Trials show the Performance procedure recurring. | Instructions alone do not make work steps and checks reusable. | Trace the repository-owned Skill and bounded verification; consider roles and retained knowledge only when evidence supports them. | Work steps and verification become observable parts of the designed system; the actual Product path succeeds without Subagent or Memory. | Design how work is done as well as what the agent knows, and include only justified mechanisms. |
 | Task Correction → System Improvement | A local fix is followed by another stale or repeated failure. | Correcting the current task may leave the cause in the system untouched. | Analyze cause, change the relevant artifact, rerun, evaluate, and check regression. | Evidence can support keeping, refining, or reverting a system change. | Route recurring failure into a measured improvement loop. |
 | Tool Usage → AI-Native Development | The complete progression can look like a mandate to automate everything. | A feature-centered ending can obscure developer judgment and responsibility. | Revisit the whole engineering process and offer next steps suited to different practices. | Each learner can identify a next step while retaining responsibility. | AI-Native Development is this course's operational model, not full automation. |
 
@@ -864,7 +897,7 @@ Curriculum, evidence, Demo, product, security, and later-slide choices:
 |---|---|
 | OQ-001 / OQ-002 / OQ-007 | Select the evolving Demo repository and permitted cases; define project-specific verification only after selection. |
 | OQ-003 / OQ-005 / OQ-008 | Confirm target surface, access, current product behavior, and which feature examples are viable. |
-| OQ-004 | User review of proposed ACT/mode allocation; later Demo runtime refinement without changing 360 minutes or the causal Story. |
+| OQ-004 | Resolved by the 2026-10-02 user approval of DEC-0007; exact Q&A and section-level mode placement are STEP 08 work. |
 | OQ-006 / OQ-011 | Preserve research scope and decide final course wording for Context, Harness, and Loop. |
 | OQ-009 | Establish Loop recurrence and evaluation criteria from actual evidence. |
 | OQ-010 | Set Slide Map and final deck details after planning and Demo decisions; PPT still requires separate instruction. |
@@ -877,9 +910,10 @@ remain open with their existing dependencies and priorities.
 
 ### §128 — STEP 04 Decision Updates
 
-The 360-minute ACT allocation and delivery-mode estimate did not change from
-the initial baseline; DEC-0007 remains PROPOSED pending user review. A second
-material curriculum proposal records four conditional Anchor Demo candidates,
+The 360-minute ACT allocation remains unchanged. The aggregate delivery-mode
+totals were later updated and accepted in DEC-0007 on 2026-10-02; detailed
+section-level placements are assigned to STEP 08. A second material
+curriculum proposal records four conditional Anchor Demo candidates,
 keeps Subagents and Memory in supporting/visual roles, and places Lost in the
 Middle as supporting evidence rather than a standalone feature or Research
 chapter. See DEC-0008 in [DECISIONS.md](DECISIONS.md). No HARD or STRUCTURAL
@@ -887,8 +921,8 @@ invariant changed.
 
 ## STEP 04 Completion State
 
-**Status: COMPLETE WITH OPEN QUESTIONS.** The curriculum quality and completion
-checks pass. The remaining questions are explicitly recorded for their
-appropriate later work; none requires inventing product behavior, repository
-history, or Demo results to complete STEP 04. STEP 05 remains unstarted pending
-a separate user instruction.
+**Historical checkpoint: COMPLETE WITH OPEN QUESTIONS.** At STEP 04 completion,
+the curriculum quality and completion checks passed. The remaining questions
+were assigned to later work; none required inventing product behavior,
+repository history, or Demo results to complete STEP 04. STEP 05 was unstarted
+at that checkpoint and began later under separate user instruction.

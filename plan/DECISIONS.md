@@ -193,12 +193,15 @@ resolve a question by guessing.
 
 ### OQ-001 — Select and place the software Demo repository
 
+Current Status: RESOLVED FOR THE CURRENT DEMO PATH by DEC-0011/DEC-0012 and
+the recorded `STATE-00` through `STATE-04-PERF` evidence (2026-10-02).
 Priority: NEAR-TERM
-Priority Rationale: Repository selection/location are resolved and STATE-00
-is implemented; use later state evidence for remaining choices.
+Priority Rationale: Repository selection, sibling location, and the current
+Product State path are recorded; any future Product change needs its own
+evidence and authorization.
 Depends On: None
-Blocks: Later repository-state implementation as required; project-specific
-verification examples remain under OQ-007.
+Blocks: None for the current Product path. Future Product-state proposals
+remain subject to the project Decision and Change Control rules.
 
 Why it matters:
 The same repository is preferred across the Story. Its source, language,
@@ -207,9 +210,9 @@ STATE-00 now establishes an initial working baseline; later implementation
 choices must follow observed results.
 
 When to decide:
-Repository direction and location: resolved by DEC-0011 and DEC-0012.
-Initial implementation: recorded in the STATE-00 evidence section of
-`plan/DEMO_REPOSITORY_SPEC.md`. Later states remain for STEP 07.
+Repository direction and location were resolved by DEC-0011 and DEC-0012.
+The current Product path through `STATE-04-PERF` is recorded in
+`plan/DEMO_REPOSITORY_SPEC.md` and `plan/DEMO_MATRIX.md`.
 
 Other Dependencies:
 Review audience accessibility, repository suitability, and any usage or data
@@ -259,7 +262,9 @@ Do not assume an internal repository or incident can be shown.
 Priority: NEAR-TERM
 Priority Rationale: The current development host and portability direction are set; confirm the learner setup and final presentation surface before product-dependent rehearsal.
 Depends On: None; confirm the intended account, product surface, and access when planning the Demo.
-Blocks: Live Demo scope and rehearsal. It does not block recording or fallback planning.
+Blocks: Live Demo scope and rehearsal. It does not block STEP 08 Slide
+Architecture or Slide Map. Affected claims may remain PROVISIONAL or
+REQUIRES PRODUCT CHECK until Final Content Freeze.
 
 Why it matters:
 Live Demos depend on product access, account permissions, screen flow,
@@ -294,27 +299,34 @@ Do not assume:
 Do not assume Windows-specific environment details, current product-feature
 availability, classroom network conditions, or successful Live behavior.
 
-### OQ-004 — Design the detailed Curriculum and time allocation
+### OQ-004 — Review the detailed Curriculum and time allocation
 
+Current Status: PARTIALLY RESOLVED. The user approved the aggregate time
+allocation on 2026-10-02; exact Q&A placement and row-level mode reconciliation
+are assigned to STEP 08.
 Priority: NEAR-TERM
-Priority Rationale: Resolve during Curriculum design before finalizing chapter timings and downstream Slide Map.
-Depends On: OQ-001 and OQ-003 for Demo duration; OQ-011 for final term-dependent wording.
-Blocks: User review of the detailed Curriculum timing before treating it as
-accepted, and the later Slide Map; it does not block independent Research.
+Priority Rationale: The aggregate schedule is accepted; STEP 08 must complete
+the detailed placement and reconciliation.
+Depends On: OQ-003 for target Demo duration; OQ-011 for final term-dependent wording.
+Blocks: None for Slide Architecture or Slide Map. Actual Demo runtime remains
+an implementation/rehearsal check under OQ-003/OQ-005.
 
 Why it matters:
-The broad 360-minute structure is set, but session titles, transitions, and
-detailed lecture/Demo durations are not.
+The aggregate schedule is accepted in DEC-0007. Demo durations remain
+estimates rather than rehearsed runtime. The 32-minute Q&A/Discussion pool
+and the final Reflection/Transition placement will be reconciled in STEP 08.
 
 When to decide:
-During Curriculum design.
+The aggregate allocation was accepted on 2026-10-02. Reconcile the detailed
+Q&A, Reflection, and Transition placement during STEP 08.
 
 Other Dependencies:
-Use the approved Story and estimate Demo durations.
+Use the accepted Story and Demo evidence, and preserve the 360-minute net
+total while reviewing pacing.
 
 Current candidates:
-The 360-minute section and delivery-mode schedule in CURRICULUM.md, recorded
-as PROPOSED in DEC-0007 and awaiting user review.
+The accepted aggregate time and mode totals in CURRICULUM.md and DEC-0007;
+section-level Q&A placement remains a STEP 08 design task.
 
 Do not assume:
 Do not change the 360-minute net total or remove a core Story connection to
@@ -325,7 +337,10 @@ fit a draft schedule. Do not treat estimated Demo minutes as rehearsed runtime.
 Priority: BLOCKING
 Priority Rationale: Resolve before using any current product behavior as a fact or relying on it in a product-specific Demo.
 Depends On: OQ-003 for the target product surface and training environment.
-Blocks: Claims and Demos that depend on unverified current ChatGPT or Codex behavior. Independent Research may continue.
+Blocks: Finalizing claims and Demos that depend on unverified current
+ChatGPT/Codex behavior, and Final Content Freeze for those claims. Does not
+block STEP 08 Slide Map; affected claims may be PROVISIONAL or REQUIRES
+PRODUCT CHECK.
 
 Why it matters:
 Product features, interfaces, and support may change over time or vary by
@@ -352,7 +367,9 @@ Subagents, Memory, Worktree, Cloud, or other product behavior.
 Priority: BLOCKING
 Priority Rationale: Resolve before presenting a research-dependent claim as a teaching fact.
 Depends On: None; use the original paper or a reliable technical source.
-Blocks: The affected research-backed claims in Curriculum or Slides. Other Research may continue.
+Blocks: Finalizing affected research-backed claims as teaching facts and
+Final Content Freeze for those claims. Does not block STEP 08 Slide Map;
+affected claims may be PROVISIONAL.
 
 Why it matters:
 Lost in the Middle and other Context claims need evidence and appropriate
@@ -375,39 +392,49 @@ Do not assume:
 Do not turn a bounded research result into an absolute rule about every model
 or task.
 
+Current Status: RESOLVED FOR THE LIMITED SLIDE 29 CLAIM SCOPE by DEC-0023.
+The approved wording remains bounded to the cited studies and does not assert
+current Codex behavior. Broader or stronger claims require new research review.
+
 ### OQ-007 — Set project-specific verification examples
 
+Current Status: RESOLVED FOR THE CURRENT DEMO REPOSITORY SCOPE (2026-10-02).
+The recorded States and TRIAL-001–008 provide project-specific Build, Test,
+Benchmark, Review, and completion evidence. Product-surface and live rehearsal
+claims remain separately open under OQ-003/OQ-005.
 Priority: NEAR-TERM
-Priority Rationale: STATE-00 commands and baseline outcomes are recorded;
-complete remaining Build/Test/Benchmark and Demo examples with later states
-and trials.
+Priority Rationale: This question was resolved after later States and Trials
+recorded the project-specific workflow.
 Depends On: OQ-001.
-Blocks: Repeatable project-specific Build, Test, Benchmark, Review, and completion examples.
+Blocks: None for the current repository workflow/evidence. Product-surface
+claims and classroom rehearsal remain governed by OQ-003/OQ-005.
 
 Why it matters:
 Build, Test, Benchmark, Review, and completion criteria depend on the chosen
 software project and task.
 
 When to decide:
-Initial baseline: recorded during STEP 07 STATE-00. Resolve later examples
-after their states and Demo trials are implemented.
+Resolved during STEP 07 final audit after the current States and Trials were
+reviewed.
 
 Other Dependencies:
 Repository commands, expected results, and a repeatable Demo state. Map the
 checks to the selected Story Beats after choosing the repository; do not infer
 commands or passing results from the Story draft.
 
-Current candidates:
-- STATE-00 uses Python 3.9.6 on macOS 26.6.2 arm64, standard-library
-  `unittest`, no runtime dependencies, ASCII PGM (`P2`), and a setuptools
-  wheel build. Exact commands and actual results are recorded in
-  `plan/DEMO_REPOSITORY_SPEC.md`.
-- The full STATE-00 test run has one specified crop-boundary failure and ten
-  passing checks. Do not describe the suite as fully passing.
-- `STATE-00-FIXED` records that correction and passes the focused crop tests,
-  all 11 tests, the local CLI smoke check, and a fresh-tag full-test check.
-- Benchmark method/workload, performance result, and product-specific Agent
-  verification remain open until implemented and measured.
+Current evidence:
+- STATE-00 and STATE-00-FIXED record the initial Build/Test commands, the
+  known crop-boundary failure, its focused correction, and the passing
+  verification result.
+- STATE-04 and STATE-04-PERF record the repository Skill and bounded Product
+  optimization, including correctness guards, benchmarks, CLI smoke, and
+  review evidence.
+- TRIAL-001–008 record bounded CLI exploration, prompt, context, workflow,
+  performance, and verification observations. Their claim limits remain in
+  `plan/DEMO_MATRIX.md`.
+- Windows learner-shell behavior, target account/surface behavior, and live
+  rehearsal remain open under OQ-003/OQ-005; this resolution does not imply
+  cross-platform or Desktop validation.
 
 Do not assume:
 Do not invent test commands, performance goals, or successful results.
@@ -481,20 +508,24 @@ Do not assume:
 Do not invent a repetition threshold or claim an improvement worked without
 evidence.
 
-### OQ-010 — Set Slide Map, visual design, and final deck details
+### OQ-010 — Define Slide Map; defer visual and deck details
 
-Priority: LATER
-Priority Rationale: Resolve after the planning gate and the relevant Curriculum, Demo, and Research decisions.
-Depends On: OQ-004 and relevant outcomes from OQ-001, OQ-003, OQ-005, OQ-006, and OQ-011.
-Blocks: Final Slide Map and visual/deck design. PPT still requires the separate user instruction.
+Priority: NEAR-TERM
+Priority Rationale: STEP 07 resolved the planning gate and authorized STEP 08
+Slide Architecture and Slide Map work.
+Depends On: OQ-004's aggregate allocation is accepted; its detailed placement
+is part of STEP 08. Relevant content questions may be carried as claim
+statuses under DEC-0022.
+Blocks: None for STEP 08 Slide Architecture or Slide Map. Final visual design
+and PPT remain outside this scope; PPT still requires separate instruction.
 
 Why it matters:
 Slide count, layout, visual style, live/recorded transitions, and final deck
 format depend on the completed Story and Demo plan.
 
 When to decide:
-During Slide Map and subsequent slide-design work, after satisfying the
-planning gate.
+During STEP 08 Slide Architecture and Slide Map work. Keep final visual design
+and deck production for a separate instruction.
 
 Other Dependencies:
 Review the artifacts listed in MASTER_PLAN §45.
@@ -511,7 +542,9 @@ separate user instruction.
 Priority: BLOCKING
 Priority Rationale: Resolve before finalizing Harness or Loop definitions in Storyline or teaching Slides.
 Depends On: None; research inputs are listed under Other Dependencies.
-Blocks: Final operational term wording in Storyline and Slides. Other Research may continue.
+Blocks: Final operational term wording and Final Content Freeze for affected
+claims. Does not block STEP 08 Slide Map; affected wording may remain
+PROVISIONAL.
 
 Why it matters:
 The training needs bounded teaching definitions without implying universal
@@ -537,6 +570,9 @@ Current candidates:
 Do not assume:
 Do not assume one universally accepted definition or treat a course-specific
 definition as an official product term.
+
+Current Status: RESOLVED by DEC-0023. The four terms have approved definitions
+for this course only; their official or universal status is not claimed.
 
 ### OQ-012 — Decide whether this repository needs its own Skills, Subagents, or Memory
 
@@ -607,6 +643,25 @@ current training plan. The audit is limited to the project history available
 through STEP 06; OQ-013 may be revisited if later work records a relevant,
 authentic event. This disposition does not change accepted DEC-0005.
 
+STEP 07 history audit (2026-10-01; §§211–220):
+
+| Candidate | Status | Evidence and boundary |
+|---|---|---|
+| Demo domain selection (DEC-0010 → DEC-0011) | DESIGN FEEDBACK; INCOMPLETE LOOP | Audience familiarity informed the switch from telemetry to synthetic image processing. Later work exercised the selected repository, but learner transfer was not measured. |
+| Environment correction (DEC-0016) | OBSERVED, PARTIAL RE-EVALUATION | TRIAL-006 exposed global Harness influence and the user clarified the Windows-centered learner environment. Later CLI Trials recorded global influence; Windows/WSL audience behavior remains unvalidated. |
+| Global Harness influence and Trial evaluation | ACCEPTED AS A SUPPORTING META EXAMPLE | DEC-0021 accepts the TRIAL-006 → DEC-0016 → TRIAL-007 / TRIAL-008 timeline as an observed training-production evaluation/workflow Loop. TRIAL-007's report says no MCP warning while retained stderr contains a Nimble `AuthRequired` error; no MCP task result is shown. This is not a Demo Product or `graypipe-performance` Skill repair. |
+| Subagent / Memory deferral (DEC-0018) | SUPPORTING ARCHITECTURE-RESTRAINT CASE | Complexity and rediscovery audits did not justify either component; STATE-04-PERF later succeeded without them. This is not a recurring-failure correction or a general claim about their usefulness. |
+| Context routing (DEC-0014) | OBSERVED SAME-REPOSITORY ITERATION | STATE-03 reorganized Context; TRIAL-005A/B observed relevant image-contract retrieval in one task, broader architecture reads in both, and variable test-context access. The result supports bounded scope/discovery claims, not perfect routing or measured performance. |
+
+Current disposition: Candidate C supplies a factual, bounded feedback Loop
+for an **accepted supporting Meta Example** under DEC-0021, DEC-0005, and
+`INV-DEMO-003`. It does not prove measured training-quality improvement,
+create a Demo-repository stale Skill, or replace the Product Demo. ACT 4
+separates this observed Meta Case from the conceptual stale-Harness case; the
+approved evidence roles and claim boundaries are recorded in DEC-0021 and
+`plan/DEMO_MATRIX.md`. The STEP 06 disposition above remains as a dated
+historical assessment; it is not silently rewritten.
+
 Do not assume:
 Do not invent project failures, complexity, or improvement history.
 
@@ -615,7 +670,9 @@ Do not invent project failures, complexity, or improvement history.
 Priority: BLOCKING
 Priority Rationale: Resolve before making company-specific security claims or using internal/customer code or data in an AI product or Cloud Demo.
 Depends On: None; obtain the policy or user clarification listed under Other Dependencies.
-Blocks: Company-specific data-use guidance and affected internal/customer-data Demos. Generic Research may continue.
+Blocks: Company-specific data-use guidance, affected internal/customer-data
+Demos, and Final Content Freeze for affected claims. Does not block STEP 08
+Slide Map; affected claims may be marked REQUIRES COMPANY POLICY.
 
 Why it matters:
 The training may need to explain company-specific boundaries for data and
@@ -1104,9 +1161,12 @@ None
 ### DEC-0007 — Allocate the detailed curriculum within the six-hour baseline
 
 Status:
-PROPOSED
+ACCEPTED
 
 Date:
+2026-10-02
+
+Originally Proposed:
 2026-09-25
 
 Context:
@@ -1121,18 +1181,22 @@ whether each instructional segment has enough time for its learning movement.
 Actual Demo runtime also depends on later repository and environment choices.
 
 Decision:
-PROPOSE using the existing ACT allocation of 40 / 55 / 70 / 85 / 80 / 30
-minutes for ACT 0–5. Divide it into 21 sections of 10–25 minutes and allocate
-the current 360-minute draft as Lecture 130, Demo 73, Case 83, Reflection 36,
-and Transition 38 minutes. Treat all values as a Curriculum estimate pending
-explicit user review and Demo Architecture; do not change the net total or
-remove a core Story connection to accommodate runtime variation.
+Use the approved ACT allocation of 40 / 55 / 70 / 85 / 80 / 30 minutes for
+ACT 0–5 and keep the net instructional total at 360 minutes. The approved
+delivery-mode totals are Lecture 130, Demo 73, Case 83, Reflection 20,
+Transition 22, and Q&A/Discussion 32 minutes. Distribute Q&A/Discussion near
+major model transitions and at the course close; determine its exact
+section-level placement and reconcile the Reflection/Transition placement in
+STEP 08. Do not assign Slide-level minutes in STEP 07. Keep breaks outside the
+360-minute total; the company determines the final break schedule.
 
 Rationale:
-The allocation preserves the established Part baseline and 360-minute
-constraint while giving the less familiar Harness and Loop transitions
-substantial time. Section-sized changes and varied teaching modes also
-support the no-lab delivery and learner attention requirements.
+The allocation preserves the established ACT baseline, the 360-minute
+constraint, and the causal Story while adding dedicated discussion time for
+learners with different experience levels. Shorter private Reflection and
+Transition allocations retain their roles without requiring learner
+participation or hands-on work. Harness and Loop retain their existing ACT
+durations.
 
 Alternatives:
 - Keep only the broad ACT totals and defer all section and mode allocation:
@@ -1140,19 +1204,23 @@ Alternatives:
 - Shift substantial time from early Acts to Harness and Loop: could add
   advanced depth, but would reduce early practical value and risk the shared
   audience objective.
+- Place all Q&A/Discussion at the end: rejected because it would not support
+  questions around the major transitions in the Story.
 
 Trade-offs:
 
 Gains:
-The Curriculum has a concrete schedule that can be audited and refined.
+The Curriculum has approved aggregate mode totals and dedicated time for
+questions across experience levels.
 
 Costs:
-Demo and transition estimates precede repository selection and rehearsal.
+Reflection and Transition time are shorter; Q&A placement still requires
+section-level reconciliation in STEP 08.
 
 New risks:
 An actual Demo may take longer than its current instructional allocation.
-Rebalance the section's presentation modes during Demo Architecture while
-keeping 360 net minutes and the causal Story.
+Reconcile the mode breakdown during STEP 08 without changing 360 net minutes
+or the causal Story.
 
 Related Invariants:
 - INV-IDENTITY-001
@@ -1170,6 +1238,7 @@ Affected Artifacts:
 - plan/CURRICULUM.md
 - plan/CURRICULUM_MATRIX.md
 - plan/LEARNING_JOURNEY.md
+- plan/STORY_ARCHITECTURE.md
 - Future Demo Architecture and Slide Map
 
 Evidence:
@@ -1180,8 +1249,10 @@ Evidence:
   completion validation; the Curriculum is COMPLETE WITH OPEN QUESTIONS.
 - MASTER_PLAN: §11 supplies the broad ACT baseline and §§12–14 establish
   continuous Demo evolution and the Prompt/Context/Harness/Loop progression.
-- TODO: Demo runtime evidence and explicit user review of this proposed
-  schedule remain open.
+- USER: STEP 07 Final Audit resolution explicitly approves the aggregate mode
+  totals on 2026-10-02.
+- TODO: Demo runtime rehearsal and exact section-level Q&A placement remain
+  open; neither reopens approval of the aggregate schedule.
 
 Training Relevance:
 TBD
@@ -1193,9 +1264,11 @@ Follow-up:
 Curriculum timing, narrative continuity, ownership, agency, redundancy,
 complexity, Research placement, Demo dependency, time-risk, scorecard,
 compression, audience, transfer, and completion audits have been recorded
-through STEP 04 §130. The final table has no change from the initial ACT and
-delivery-mode baseline. Confirm actual Demo runtime during Demo Architecture.
-Keep this decision PROPOSED until the user reviews the schedule.
+through STEP 04 §130. Preserve the accepted ACT totals. During STEP 08,
+distribute the 32-minute Q&A/Discussion pool around major transitions and the
+course close, reconcile the Reflection/Transition placement, and keep the
+delivery-mode totals at 360 minutes. Confirm actual Demo runtime during
+rehearsal without changing the total or causal Story.
 
 Supersedes:
 None
@@ -1204,8 +1277,9 @@ Superseded By:
 None
 
 Approval:
-Pending user review. This proposal does not change MASTER_PLAN.md or a HARD
-invariant.
+Accepted by the user's STEP 07 Final Audit decision on 2026-10-02. This
+decision preserves the 360-minute HARD invariant and does not change
+MASTER_PLAN.md.
 
 ### DEC-0008 — Center Anchor Demo candidates on Story transitions
 
@@ -1656,8 +1730,9 @@ Approval:
 This proposal was superseded by the user's explicit STEP 06 direction in
 DEC-0011. Telemetry/log processing was not selected. Preserve this record as
 the prior candidate rationale; it does not change MASTER_PLAN.md, an ACCEPTED
-Decision, or a HARD Invariant. DEC-0007 and DEC-0008 retain their existing
-statuses.
+Decision, or a HARD Invariant. At the time of this proposal DEC-0007 and
+DEC-0008 retained their then-current statuses; see their current Decision
+records for subsequent updates.
 
 ### DEC-0011 — Select a Python synthetic image-processing Demo repository
 
@@ -3165,3 +3240,649 @@ None
 
 Accepted by the user's explicit STEP 07 §§191–200 instruction on 2026-09-30.
 All required verification passed before the product-only commit and tag.
+
+### DEC-0020 — Defer Project Evolution implementation pending a qualifying candidate
+
+Status:
+PROPOSED
+
+Date:
+2026-10-01
+
+## Context
+
+STATE-04-PERF now establishes a verified Working Harness Success. The
+STEP 07 §§201–210 instruction asks for a Project-side reason to precede any
+future staleness and for one clear old Harness artifact to map to that
+change. Five candidate types were compared against the current Demo source,
+Project docs, and `graypipe-performance` Skill.
+
+## Problem
+
+Decide whether the current Project supports an implementation-ready change
+that is independently reasonable as Product / Project work and can make one
+previously correct Harness artifact stale without manufacturing a Failure.
+
+## Decision
+
+**Proposal: do not implement Candidates A–E yet.** None currently satisfies
+both gates. The current Performance Skill does not hard-code benchmark
+filenames, test paths, test runners, or benchmark output schema; it discovers
+commands and test locations from Project sources. If those sources are
+updated with a valid Project change, the Skill can remain correct. Candidate
+B also lacks a present test-growth justification: the current suite has 11
+tests in six modules, including one pipeline integration test.
+
+Keep the accepted Harness-staleness Story direction as a design constraint,
+but require a better-supported candidate or additional Project evidence
+before implementation. Do not change Project code, Skills, instructions,
+benchmarks, tests, or Harness artifacts as part of this candidate review.
+
+## Rationale
+
+Candidate A has visible shared benchmark-reporting code but no recorded
+maintenance friction, and the generic Skill discovers the current README
+command. Candidate B has clear test-map references but current test volume
+does not justify restructuring, and the Skill discovers current test
+locations. Candidate C has no product request and affects several sources.
+Candidate D has no machine-readable consumer and the Skill does not pin a
+serialization format. Candidate E has a plausible cross-platform rationale,
+but exact learner shell/setup remains open under DEC-0016/OQ-003, while the
+Skill delegates commands to Project docs. Selecting one solely because it
+may cause staleness would reverse the required Project-first order.
+
+## Alternatives Considered
+
+### Alternative A — Implement the current test-layout scenario
+
+Advantages:
+
+- A deliberately invalidated test location or command could be easy to
+  diagnose and evaluate.
+
+Disadvantages:
+
+- Eleven tests across six modules do not establish a current need for a
+  directory or runner migration. The Skill itself remains dynamic and would
+  not naturally become stale.
+
+### Alternative B — Unify the benchmark commands now
+
+Advantages:
+
+- Two benchmark scripts share timing and report structure, so a common entry
+  point could reduce future maintenance.
+
+Disadvantages:
+
+- No current maintenance problem is recorded, and the Skill explicitly
+  discovers the current benchmark command from maintained Project sources.
+  It would not create the planned stale-Skill evidence.
+
+Other Candidates C–E and their artifact mappings are recorded in
+`plan/DEMO_MATRIX.md`; none currently clears both gates.
+
+## Trade-offs
+
+Gains:
+
+- Preserves the working STATE-04-PERF success and prevents an artificial
+  Project change or outdated artifact.
+- Makes the evidence gap explicit before any implementation or Failure Trial.
+
+Costs:
+
+- The stale-Harness transition is not ready to implement; a better candidate
+  or new Project evidence is needed.
+
+New risks:
+
+- A future candidate may change more than one artifact. Re-run the stale
+  mapping when an independently justified Project change is available.
+
+## Related Invariants
+
+- INV-NARRATIVE-002
+- INV-MATURITY-006
+- INV-MATURITY-010
+- INV-DEMO-001
+- INV-DEMO-002
+- INV-VERIFY-001
+
+## Affected Artifacts
+
+- `plan/DECISIONS.md`
+- `plan/DEMO_MATRIX.md`
+- `plan/DEMO_REPOSITORY_SPEC.md`
+
+## Evidence
+
+- USER: explicit STEP 07 §§201–210 instruction received 2026-10-01; requires
+  a Product-first change, evaluation of Candidates A–E, stale-artifact
+  mapping, and no Project or Harness implementation in this stage.
+- DEMO: STATE-04-PERF commit/tag
+  `6153b81c0187dd7d82c88bd1817fb683c98eb431` remains the clean baseline.
+- DEMO: current Test tree has 11 test methods in six modules: five focused
+  modules and one pipeline integration module.
+- DEMO: the repository Skill reads applicable project sources and discovers
+  current measurement commands, test locations, and broad checks; it contains
+  no hard-coded benchmark file, test file path, or test-runner command.
+- EVALUATION: the five-candidate matrix and conditional artifact states are
+  recorded in `plan/DEMO_MATRIX.md`. No candidate meets both gates without a
+  stale artifact being retained for the purpose of producing failure.
+- PLAN: the accepted stale-Harness Story direction is in
+  `plan/DEMO_ARCHITECTURE.md`; this proposal does not supersede it and does
+  not change `MASTER_PLAN.md` or an Invariant.
+
+## Training Relevance
+
+YES
+
+Reason:
+
+Rejecting an unsupported candidate protects the problem-driven Story and
+teaches that Harness staleness must follow a real Project change rather than
+be engineered first.
+
+## Follow-up
+
+Wait for a candidate with a concrete Project-side need. Before implementing
+it, confirm one previously correct stale artifact, maintain the other
+authoritative sources, and define a bounded evaluation/regression task. If
+the stale artifact is no longer the Performance Skill, obtain approval for
+that Story-level change before revising the accepted design.
+
+## Supersedes
+
+None
+
+## Superseded By
+
+None
+
+## Approval
+
+This is a PROPOSED assessment, not an approved Project change. It changes no
+MASTER_PLAN content, HARD Invariant, accepted State, or product artifact.
+Await the user's next instruction before implementation.
+
+### DEC-0021 — Accept split Loop Demo evidence roles
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-01
+
+## Context
+
+The STEP 06 history audit under OQ-013 found no sufficiently evidenced
+production feedback Loop. Since then, actual Demo Trials, environment
+correction, repository-state decisions, and the `STATE-04-PERF` working
+Harness success have been recorded. The §§201–210 search found no justified
+Product Evolution candidate that naturally makes the current Performance
+Skill stale.
+
+## Problem
+
+Decide whether Loop Engineering must be implemented as an additional Git
+state in the same software Demo repository, or whether actual Training
+Production history can support the Loop while preserving the continuous
+Product story and the prohibition on invented failures.
+
+## Decision
+
+**Separate ACT 4 Loop evidence into a conceptual stale-Harness case and a
+factual Evaluation / Workflow Meta Case.** Keep the Primary Product Demo
+continuous from `STATE-00` through its verified `STATE-04-PERF` endpoint. Use
+TRIAL-006 → DEC-0016 → TRIAL-007 / TRIAL-008 as an authentic, supporting-only
+example of a change to Training Production Trial-evaluation and reporting
+rules. Do not claim that the Demo Product or `graypipe-performance` Skill
+was changed or repaired.
+
+Use `DEMO-04A` for a short VISUAL or CAPTURED CONTROLLED EXAMPLE of a
+previously correct reusable workflow becoming stale after an independently
+justified Project change. Label it conceptual; it is neither Demo repository
+history nor Trial evidence. Use `DEMO-04B` for a captured timeline of
+Candidate C. Keep the real Meta Case secondary to the Primary Product Story
+and do not connect it causally to the conceptual case.
+
+Distinguish all three teaching evidence types: observed Product Demo,
+observed Meta Case, and conceptual controlled case. Use the same labels in
+future Slides and Speaker Notes. Preserve the 22-minute ACT 4 Demo budget;
+the internal slot estimate and the exact beat changes remain in
+`plan/DEMO_MATRIX.md` pending the next Story / Demo Architecture update.
+This Decision authorizes planning-document updates only, not Slides, a
+visual asset, PPT, a new Trial, a new stale Harness State, or further changes
+to the Demo repository.
+
+## Rationale
+
+TRIAL-006 provides a real execution and observed global Harness influence.
+The evaluation preserved correctness and benchmark observations but limited
+causal attribution because the configured global environment was not
+controlled. DEC-0016 made a system-level correction: retain the run as
+PARTIAL, accept global influence as a known limitation, and require later CLI
+Trials to record observed influences rather than blocking progress on a
+clean-room experiment. TRIAL-007's Prompt and result report a visible hook
+and Skills, and TRIAL-008 contains a separate global-influence audit.
+TRIAL-007's final report says no MCP warning, while its retained stderr
+contains a Nimble `AuthRequired` error; no MCP tool result is shown. This
+discrepancy makes the subsequent application of the reporting rule partial,
+not proof of a complete environment inventory. The history still supplies a
+bounded feedback chain without manufacturing a Product change.
+
+Candidate C's ACT 4 use is accepted as a supporting Meta Case because it
+changes how Training Production Trials are interpreted and how later Trial
+evidence is recorded. It does not demonstrate a stale-Skill fix or measured
+product / training-quality improvement. Candidate E supplies a real
+same-repository Context iteration but occurred earlier in the maturity Story
+and did not establish the planned post-Harness stale-Artifact Failure. The
+separate stale-Harness teaching example is therefore explicitly conceptual
+and controlled, not a reconstructed Demo-repository event.
+
+## Alternatives Considered
+
+### Alternative A — Require a Product-repository Loop State
+
+Advantages:
+
+- Keeps every central Demo transition in one Git history.
+- Could directly connect a changed Product contract to a stale repository
+  Harness artifact if an independently justified change is found.
+
+Disadvantages:
+
+- No candidate currently passes the independent Product-need and
+  traceable-staleness gates.
+- Selecting a test migration or other change only to force the planned
+  failure would invent a Project requirement.
+
+### Alternative B — Replace the shared Product Demo with the Meta Example
+
+Advantages:
+
+- Candidate C contains observed execution, system interpretation, and later
+  evidence-reporting changes.
+
+Disadvantages:
+
+- It would violate the accepted role of the Meta Example as supporting only,
+  displace the continuous Product story, and conflate Trial evaluation with
+  Demo Product behavior.
+
+## Trade-offs
+
+Gains:
+
+- Uses authentic history for a feedback Loop and keeps the successful Product
+  baseline honest.
+- Avoids an unsupported Product Evolution and false stale-Skill claim.
+- Gives ACT 4 separate, explicit labels for conceptual stale-state material
+  and observed evaluation-system changes.
+
+Costs:
+
+- The Meta Example is less concrete than editing a repository Skill in a
+  single Demo State and requires careful evidence framing.
+- The stale-Harness transition would remain conceptual/controlled unless a
+  future Product change satisfies the existing gate.
+
+New risks:
+
+- Learners may conflate the global environment with the repository-owned
+  Skill unless the changed layer is named explicitly.
+- Later Trials showing the revised reporting rule do not prove an objective
+  before/after gain in Trial quality or course-production quality.
+
+## Related Invariants
+
+- INV-LOOP-001
+- INV-MATURITY-010
+- INV-DEMO-001
+- INV-DEMO-002
+- INV-DEMO-003
+- INV-DEMO-004
+- INV-NARRATIVE-002
+
+## Affected Artifacts
+
+- `plan/DECISIONS.md` (OQ-013 evidence update)
+- `plan/DEMO_MATRIX.md`
+- `plan/DEMO_ARCHITECTURE.md`
+- `plan/DEMO_REPOSITORY_SPEC.md` and `plan/DEMO_RUNBOOK_SPEC.md` (evaluation
+  task labels and checks, aligned to §§221–230)
+- `plan/STORY_ARCHITECTURE.md` (next update: evidence-role labels and beat
+  transitions)
+- Future ACT 4 captured or visual materials, only after approval
+
+## Evidence
+
+- USER: explicit STEP 07 §§221–230 direction received 2026-10-01; approves
+  DEC-0021 as ACCEPTED, separates the conceptual stale-Harness case from the
+  observed Meta Case, and preserves `STATE-00` → `STATE-04-PERF` as the
+  Primary Product Demo.
+- DEMO: TRIAL-006 performance task and environment audit are recorded in
+  `plan/DEMO_MATRIX.md`; global Skills and plugin-hook warnings were observed,
+  and no MCP result is attributed.
+- USER / DECISION: DEC-0016 accepted the environment and attribution
+  correction on 2026-09-29, preserving TRIAL-006 as PARTIAL and requiring
+  later global-influence recording.
+- DEMO: TRIAL-007 prompt and result in the retained disposable-run evidence
+  explicitly record a UserPromptSubmit `analyze` hook and Skills. Its result
+  says no MCP use or warning, but retained stderr contains a Nimble
+  `AuthRequired` error; no MCP tool result is shown. Record the discrepancy
+  and do not claim complete reporting.
+- DEMO: TRIAL-008's recorded Global Harness Influence section lists global
+  instruction/Skill context, hook warnings, and MCP initialization issues;
+  no MCP tool result is attributed.
+- EVALUATION: §§211–220 criterion review in `plan/DEMO_MATRIX.md` rates
+  Candidate C as the strongest bounded chain and Candidate E as the
+  strongest same-repository supporting iteration.
+- INVARIANT: `INV-DEMO-003` and DEC-0005 permit only authentic supporting
+  Meta Examples; they do not permit this case to replace the Product story.
+
+## Training Relevance
+
+YES
+
+Reason:
+
+It shows that evaluation evidence can change how later work is interpreted
+and recorded, while keeping the limits of that change visible.
+
+## Follow-up
+
+Update Story and Demo Architecture records to preserve BEAT-037 through
+BEAT-059 while assigning the stale-Harness setup to a conceptual controlled
+case and the BEAT-058–059 supporting Meta slot to Candidate C. Keep the
+22-minute ACT 4 budget and the Trial-evaluation / Demo Product boundary.
+The user's evaluation mapping is recorded as EVAL-01 Bug, EVAL-02
+Performance, EVAL-03 documentation-only, and EVAL-04 small refactor. Do not
+implement a new Product State, stale Skill, visual asset, Trial, or PPT under
+this Decision.
+
+## Supersedes
+
+None
+
+## Superseded By
+
+None
+
+## Approval
+
+The user accepted the evidence-role direction in STEP 07 §§221–230 on
+2026-10-01. This Decision changes no `MASTER_PLAN.md` content, Invariant,
+accepted Demo State, or Demo Product artifact. The Story / Demo Architecture
+updates and all presentation assets remain a later step. Retain
+`INV-DEMO-001` continuity and `INV-DEMO-003`'s supporting-only factual Meta
+Example boundary.
+
+### DEC-0022 — Separate Slide Map readiness from final content freeze
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-02
+
+## Context
+
+STEP 07's final audit identified remaining product, research, terminology,
+environment, and company-policy questions. The user authorized STEP 08 to
+design the Slide Architecture and Slide Map while keeping those questions
+visible until content is frozen.
+
+## Problem
+
+Treating unresolved content questions as a Slide Map blocker would prevent
+structural planning even when uncertain claims can be labeled and validated
+later. Treating the map as final content would hide unresolved evidence and
+policy dependencies.
+
+## Decision
+
+Set the STEP 08 Slide Architecture and Slide Map gate to READY. OQ-003,
+OQ-005, OQ-006, OQ-011, and OQ-014 do not block the map; resolve their
+affected claims before Final Content Freeze. During STEP 08, mark only
+risk-bearing claims with an optional status: VALIDATED, PROVISIONAL,
+REQUIRES PRODUCT CHECK, REQUIRES COMPANY POLICY, CONCEPTUAL, OBSERVED
+PRODUCT, or OBSERVED META. Keep observed and conceptual evidence distinct.
+
+STEP 08 scope is the slide count and per-Section/Act count, key message,
+Story Beat, Demo placement, Evidence Type, beginner/advanced payoff, C++
+Vision bridge, and Q&A, Reflection, and Transition placement. It excludes
+PPT creation, final visual design, complete Speaker Notes, image creation,
+and Demo video production. Breaks remain outside the 360-minute total; STEP
+08 may recommend break points, while the company decides the event schedule.
+
+## Rationale
+
+The Slide Map can organize the approved Story and evidence without presenting
+uncertain material as settled fact. A separate content-freeze gate keeps
+product, research, terminology, and policy checks explicit at the point when
+claims become final.
+
+## Alternatives Considered
+
+### Alternative A
+
+Block the Slide Map until all content questions are resolved.
+
+Advantages:
+
+Fewer provisional claims appear in planning.
+
+Disadvantages:
+
+Delays structural design even when uncertainties do not affect the Story.
+
+### Alternative B
+
+Treat the Slide Map as final content.
+
+Advantages:
+
+Would avoid a separate freeze checkpoint.
+
+Disadvantages:
+
+Would obscure outstanding evidence and company-policy checks.
+
+## Trade-offs
+
+Gains:
+
+STEP 08 can proceed while claim validation remains traceable.
+
+Costs:
+
+Affected map entries may need revision before content freeze.
+
+New risks:
+
+Provisional labels must remain attached to the claims they qualify.
+
+## Related Invariants
+
+- INV-NARRATIVE-001
+- INV-NARRATIVE-002
+- INV-VERIFY-001
+- INV-DELIVERY-001
+
+## Affected Artifacts
+
+- plan/DECISIONS.md
+- plan/CURRICULUM.md
+- plan/CURRICULUM_MATRIX.md
+- plan/LEARNING_JOURNEY.md
+- plan/STORY_ARCHITECTURE.md
+- plan/DEMO_ARCHITECTURE.md
+- plan/DEMO_MATRIX.md
+- STEP 08 Slide Architecture and Slide Map
+
+## Evidence
+
+- USER: STEP 07 Final Audit decision pasted on 2026-10-02.
+
+## Training Relevance
+
+YES
+
+Reason:
+
+The gate distinction models how to plan structure while keeping uncertain
+claims, evidence types, and organizational policy visible.
+
+## Follow-up
+
+Proceed with STEP 08 only after its separate user instruction. Keep the map
+READY, carry unresolved claims with the approved optional statuses, and
+resolve the listed Open Questions before Final Content Freeze.
+
+## Supersedes
+
+None
+
+## Superseded By
+
+None
+
+## Approval
+
+Accepted by the user's STEP 07 Final Audit decision on 2026-10-02. This
+decision authorizes planning scope only; it does not authorize PPT creation
+or final slide production.
+
+### DEC-0023 — Freeze STEP 08 claims and course operational definitions
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-06
+
+## Context
+
+The 80-Slide Map passed its structure, time, and delivery-mode revision.
+Before visual design and content production, each core claim needs an
+approved evidence boundary. OQ-011 also needs course-specific definitions;
+OQ-006 needs a final research boundary for Slide 29.
+
+## Problem
+
+The map contains current product behavior, historical CLI trials, scoped
+benchmark measurements, research findings, and teaching models. Treating
+these as one evidence class would overstate current support or causality.
+
+## Decision
+
+Accept the claim boundaries in `plan/CLAIM_FREEZE.md`. Keep the 80-Slide Map,
+360-minute schedule, delivery-mode totals, Story, and Demo selection frozen.
+Mark the overall result FROZEN WITH OPEN ITEMS because target account/surface
+and selected-environment checks remain open. Do not change Story, slide
+count, time, or Demo scope through this claim audit.
+
+Resolve OQ-011 for this course with these operational definitions:
+
+- **Harness:** a deliberately designed working environment that helps an
+  Agent work reliably in a Project.
+- **Minimum Effective Harness:** a course heuristic to use only the
+  Context, Workflow, and Verification structure needed for the current
+  problem.
+- **Loop Engineering:** the feedback model `Execution → Observation →
+  Cause → System Change → Re-evaluation`.
+- **AI-Native Development:** this course's framing for deliberately
+  designing and operating Task boundaries, Project Context, Reusable
+  Workflow, Verification, and Feedback Loops while developers retain
+  responsibility.
+
+These are course models, not official OpenAI definitions or universal
+industry taxonomies.
+
+Resolve OQ-006 only for Slide 29's bounded message: “More Context is not
+automatically better.” Cite the reviewed research and do not generalize it
+to current Codex behavior or all tasks and models.
+
+## Rationale
+
+The bounded wording preserves the approved Story while distinguishing
+observed product behavior, historical trial evidence, academic findings,
+and course models. Keeping the remaining product and environment checks open
+prevents this freeze from implying account-wide or Desktop-wide validation.
+
+## Alternatives Considered
+
+### Alternative A
+
+Leave all course terms and Slide 29 research claims provisional.
+
+This would retain uncertainty that the user resolved with explicit
+course-specific wording and reviewed source boundaries.
+
+### Alternative B
+
+Present the terms as official or universal definitions and the research as
+current Codex evidence.
+
+Rejected because neither claim is supported by the cited sources or the
+user's instruction.
+
+## Trade-offs
+
+The course can now use stable operational definitions and a bounded research
+claim. Current client, account, Windows setup, and presentation-mode claims
+remain conditional until their target environment is checked.
+
+## Related Invariants
+
+- INV-NARRATIVE-001
+- INV-NARRATIVE-002
+- INV-LOOP-001
+- INV-RESEARCH-001
+- INV-RESEARCH-002
+- INV-RESEARCH-004
+- INV-VERIFY-001
+
+## Affected Artifacts
+
+- `plan/CLAIM_FREEZE.md`
+- `plan/DECISIONS.md`
+- `references/CLAIMS.md`
+- `references/TERMINOLOGY.md`
+- STEP 08 Slides 29, 50–53, 62, 65–77
+
+## Evidence
+
+- USER: STEP 08 §§131–140, received 2026-10-06; especially explicit
+  instructions in §§136–139 and operational definitions in §137.
+- OpenAI official product documentation checked 2026-10-06; source links are
+  retained in `plan/CLAIM_FREEZE.md`.
+- Primary research sources for the limited Slide 29 wording are linked in
+  `plan/CLAIM_FREEZE.md`.
+
+## Training Relevance
+
+YES. The decision demonstrates how claim wording, evidence class, and target
+environment boundaries are kept separate in a product-training project.
+
+## Follow-up
+
+Validate only the listed target-surface, account, and environment-dependent
+claims before relying on them in speaker guidance or a live demonstration.
+Reopen OQ-014 if internal/customer data or an external service is introduced.
+
+## Supersedes
+
+The open wording gates in OQ-006 and OQ-011, only for the limited claim
+scopes stated above.
+
+## Superseded By
+
+None
+
+## Approval
+
+Accepted by the user's explicit STEP 08 §137 definitions and §§131–140
+claim-freeze instruction on 2026-10-06.

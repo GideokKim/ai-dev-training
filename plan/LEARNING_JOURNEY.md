@@ -1,8 +1,8 @@
 # Learning Journey
 
-> Status: STEP 04 COMPLETE WITH OPEN QUESTIONS through §130. This document
-> tracks learner mental-model changes and provides a Curriculum-level handoff,
-> not a detailed Storyline or speaker script.
+> Status: STEP 04 COMPLETE; STEP 07 schedule decision accepted on 2026-10-02
+> in DEC-0007. This document tracks learner mental-model changes and provides
+> a Curriculum-level handoff, not a detailed Storyline or speaker script.
 
 Related Invariants:
 INV-OBJECTIVE-001, INV-AUDIENCE-001, INV-DELIVERY-001,
@@ -31,11 +31,18 @@ next step.
 | 2. Specify the task | 55 min | “A short request should be enough.” | “I can state the goal, context, constraints, process, and verification conditions.” | Vague request and Before/After case |
 | 3. Reuse project context | 35 min | “I repeat project rules in each task.” | “I can keep recurring project guidance with the project.” | AGENTS.md benefit |
 | 4. Design context relevance | 35 min | “I should put everything in the main instruction file.” | “I should route relevant information to the task that needs it.” | Context growth and routing |
-| 5. Design how work happens | 50 min | “If the agent understands the project, it will work consistently.” | “Reliable work may need reusable process, roles, tools, and checks.” | Workflow friction → Skill; complexity → Subagent |
-| 6. Manage durable knowledge and reveal the Harness | 35 min | “The agent can rediscover everything, and product features are the system.” | “Retained knowledge has a lifecycle; the Harness is a problem-shaped work system.” | Repeated discovery → Memory problem; verification and architecture reveal |
-| 7. Improve the system from feedback | 80 min | “I correct this task and move on.” | “I can use repeated failure to improve and re-evaluate the system.” | Stale Harness → cause analysis → change → evaluation |
+| 5. Design how work happens | 50 min | “Organized Context should make work repeatable.” | “The teaching model poses process variation; recorded Trials show a procedure recurring, while role separation remains conditional.” | Labeled variation model → TRIAL-006/007 procedure recurrence → repository Skill / Subagent audit |
+| 6. Audit durable knowledge and reveal the Harness | 35 min | “Repeated information must be retained, and more features make a stronger system.” | “Classify repeated information; retain knowledge only when it passes a need-based gate. Reveal the actual bounded Harness.” | Trial-history audit finds no Memory candidate; STATE-04-PERF Working Harness Success |
+| 7. Improve the system from feedback | 80 min | “A local correction may be enough.” | “Use evidence to inspect a cause, change a system, and re-evaluate within clear limits.” | Separate DEMO-04A conceptual staleness and DEMO-04B observed Meta feedback; synthesize their common pattern |
 | 8. Integrate and choose a next step | 30 min | “Everyone must adopt the whole system, or AI replaces developers.” | “I can take one next step while retaining engineering responsibility.” | Beginning/ending comparison and reflection |
 | **TOTAL** | **360 min** |  |  |  |
+
+Approved delivery-mode totals are Lecture 130, Demo 73, Case 83,
+Reflection 20, Transition 22, and Q&A/Discussion 32 minutes. The 32-minute
+Q&A pool will be placed near major transitions and at the course close;
+STEP 08 determines its exact placement and reconciles section-level
+Reflection and Transition roles. The ACT durations and learner journey above
+remain unchanged.
 
 ## Shift 1 — From Bringing Code to AI to Bringing an Agent to the Repository
 
@@ -126,31 +133,36 @@ process around agent work. Introduce Skill or another currently supported
 reusable workflow mechanism when a process repeats. Introduce Subagents only
 when role/context separation is worth coordination and integration costs. Do
 not present either as mandatory components.
-**Demo:** Candidate Anchor Demo 3: a repeatable workflow with checks.
-Subagent comparison is supporting and may be conceptual if product access is
-unavailable.
+**Demo:** The observed primary Product path reaches STATE-04-PERF with a
+reusable Performance Skill and bounded checks. The actual task audit defers
+Subagents; a separate conditional model explains when role separation could
+help. No Subagent is used in the Product Demo.
 **Insight:** “AI에게 지식만 주지 말고 일하는 방법과 환경을 설계하라.”
 **Audience Value:** Beginners see how project understanding differs from
 consistent task execution. Experienced users can assess workflow and
 delegation trade-offs.
 **Transition:** “이미 발견한 Project 지식을 다음 작업에서도 쓸 수 있을까?”
 
-## Shift 6 — From Re-Discovery to Managed Knowledge and an Emergent Harness
+## Shift 6 — From Repeated Information to Justified Retention and Harness
+Emergence
 
-**From:** Each task rediscovers useful facts, and every interesting product
-feature seems like another component to install.
-**To:** Decide which durable facts are worth retaining and reveal the combined
-work system only after its parts have answered problems.
-**Problem:** Rediscovery costs time; retained knowledge can become stale; tools
-and checks connect agent understanding to observable action.
-**Concept:** Distinguish current Context from Memory and repository Source of
-Truth. Teach a concise memory lifecycle. Connect tools, environment,
-verification, and repeatable workflow. Reveal the Harness after Context,
-workflow, role, persistence, execution, and checks have appeared. Product
-Memory availability and behavior remain conditional.
-**Demo:** Memory lifecycle and Harness architecture as visual cases; optional
-product demonstration only after current behavior and target availability are
-verified.
+**From:** Trial records contain repeated information, but repetition alone
+does not show that a costly, missing Project fact needs durable retention.
+**To:** Classify information by source and purpose, then retain it only when a
+specific knowledge gap passes a reuse, cost, scope, provenance, and freshness
+gate. Reveal the Harness from the needs demonstrated by the actual Product.
+**Problem:** Canonical facts, maintained documentation, reusable workflows,
+Trial observations, and temporary environment details have different homes.
+The audit finds no durable Memory candidate in the primary Demo history.
+**Concept:** Distinguish current Context from durable knowledge and repository
+Source of Truth. Teach the Memory lifecycle conditionally. Connect tools,
+environment, verification, and repeatable workflow. The observed Harness uses
+Project Context, routing, a repository-owned Skill, Benchmark, Tests, tools,
+and a task Prompt boundary; Subagent and Memory are not needed.
+**Demo:** Show the Trial-history classification and its no-candidate result;
+use visual material for the conditional Memory gate and lifecycle. Anchor the
+Harness view in the observed STATE-04-PERF setup, not an idealized component
+list.
 **Insight:** The Harness is an emergent response to identified work problems,
 not a feature checklist or a completed architecture to memorize.
 **Audience Value:** Newer users retain the simple distinction between what is
@@ -160,21 +172,26 @@ scope, verification, and system-design concerns.
 
 ## Shift 7 — From Repeated Correction to Feedback-Driven Improvement
 
-**From:** Correct an agent's stale instruction on the current task and assume
-the problem is over.
-**To:** Observe repeated friction, find its cause, make a scoped change, and
-evaluate what happens next.
-**Problem:** Project changes can leave instructions, workflows, Skills, or
-Memory behind; correcting one task may not improve the next.
+**From:** In DEMO-04A's conceptual case, one correction solves the immediate
+task while leaving the stale workflow unchanged. Separately, observed
+Training Production Trials expose a limit in attribution.
+**To:** Follow the shared feedback pattern while keeping those evidence paths
+independent: observe, analyze cause, change the relevant system, and
+re-evaluate within stated limits.
+**Problem:** The conceptual Project change can make a workflow stale. In the
+observed Meta history, global Harness presence limits attribution and prompts
+a change to Trial evaluation/reporting rules. Neither path proves that the
+other occurred.
 **Concept:** Distinguish a Product Loop from a Harness Improvement Loop.
 Improvement may be manual, assisted, or partly automated; automation alone is
-not Loop Engineering. Analyze the cause before adding a rule. Evaluate changes
-and consider regressions. “System learning” refers to Harness or durable
-knowledge improvements, not model-weight updates.
-**Demo:** Candidate Anchor Demo 4: stale artifact → observed failure → cause →
-change → rerun → evaluation. Only use a real or controlled, labeled state.
-Without observed recurrence or reliable execution, use a visual case and do
-not claim an unobserved improvement.
+not Loop Engineering. Analyze cause before changing a system. “System
+learning” refers to a justified system or knowledge change, not model-weight
+updates.
+**Demo:** Keep DEMO-04A as a labeled conceptual stale-workflow case. Present
+DEMO-04B as the observed timeline TRIAL-006 → DEC-0016 → TRIAL-007/008, with
+attribution limits, the report/stderr discrepancy, and no measured quality
+gain visible. Do not connect the cases causally or treat either as Product
+Demo continuation.
 **Insight:** “반복되는 Failure를 다음 Harness 개선으로 연결하라.” More
 components or more instructions do not automatically mean a better Harness.
 **Audience Value:** Beginners learn that repeated correction can indicate a
@@ -269,10 +286,10 @@ Demo fallback remain open under OQ-001–OQ-009, OQ-011, and OQ-014 in
 journey; they constrain what may be claimed or shown in later Demo planning.
 
 The course's operational Harness and Loop wording remains provisional pending
-OQ-011. Research-dependent claims must retain their limits. DEC-0007 remains
-PROPOSED pending user review; DEC-0008 proposes Demo placement principles.
-Downstream repository, product, and Demo dependencies are listed above and in
-DECISIONS.md.
+OQ-011. Research-dependent claims must retain their limits. DEC-0007 is
+ACCEPTED; DEC-0008 continues to govern its proposed Demo placement principles.
+OQ-003, OQ-005, OQ-006, OQ-011, and OQ-014 gate affected claims at Final
+Content Freeze, not the STEP 08 Slide Map, under DEC-0022.
 
 ## STEP 05 Handoff — ACT Architecture Inputs
 
@@ -358,23 +375,24 @@ Lecture / Demo / Case / Reflection / Transition order.
 
 ### ACT 3 — Harness Engineering as a Designed Work System
 
-- **Starting State:** Project guidance is more organized, but a recurring
-  workflow can still be performed differently from task to task.
+- **Starting State:** Project guidance is organized. A labeled teaching model
+  poses process variation; TRIAL-006/007 record the same observable procedure
+  across distinct performance tasks before its Skill reuse is examined.
 - **Starting Problem:** Instructions explain what the project is, but do not
   by themselves make the work process and its checks repeatable.
-- **Attempt:** Begin with a reusable workflow for one repeated task; consider
-  role separation or durable knowledge only when a visible problem calls for
-  it; connect available tools and checks.
+- **Attempt:** Follow the actual reusable Performance workflow and inspect
+  whether Subagent or Memory solves a demonstrated problem; connect the
+  selected Project tools and checks.
 - **Initial Improvement:** The workflow makes task steps and verification
   visible and reusable.
-- **Success:** A controlled or observed case shows the procedure and evidence
-  of its checks; exact product mechanism and environment remain conditional.
-- **New Problem:** Project changes may make instructions, workflows, or
-  retained facts stale.
-- **Next Improvement:** Observe recurring failure and feed evidence into a
-  scoped system improvement and evaluation.
-- **Key Demo:** Anchor candidate 3 — one reusable workflow with verification.
-  Subagents, Memory, and architecture remain supporting/visual cases.
+- **Success:** STATE-04-PERF is the observed bounded Working Harness Success;
+  the actual audits found no need for Subagent or Memory.
+- **New Problem:** A separate conceptual case models how Project change may
+  leave a reusable workflow stale.
+- **Next Improvement:** Use evidence to improve the system and evaluate the
+  result; keep conceptual and observed feedback paths separate.
+- **Key Demo:** STATE-04-PERF is the primary Product endpoint. DEMO-04A is a
+  conceptual stale-workflow case; DEMO-04B is a separate observed Meta case.
 - **Insight:** “AI에게 지식만 주지 말고 일하는 방법과 환경을 설계하라.”
 - **Transition Question:** “잘 만든 Harness가 Project 변화 뒤에도 계속 맞을까?”
 - **Time Budget:** 85 min — 31 / 20 / 20 / 6 / 8.
@@ -384,23 +402,27 @@ Lecture / Demo / Case / Reflection / Transition order.
 
 ### ACT 4 — Loop Engineering and System Improvement
 
-- **Starting State:** A work system has been assembled, but the project can
-  change while its instructions, workflows, or retained knowledge remain old.
-- **Starting Problem:** A local correction may get the current task unstuck
-  without changing what shapes the next task.
-- **Attempt:** Inspect a labeled stale-artifact failure, form a cause
-  hypothesis, change the relevant system element, rerun, evaluate, and check
-  for regression.
-- **Initial Improvement:** A scoped change may correct the identified cause
-  for the evaluated case.
-- **Success:** Evidence shows what changed and what the rerun established,
-  with limits; no unobserved recurrence or universal quality claim is made.
-- **New Problem:** A broad fix can create rule bloat or harm another task;
-  the same issue may recur if its cause was misunderstood.
-- **Next Improvement:** Retain, refine, or revert based on evaluation; use the
-  smallest change that addresses the observed friction.
-- **Key Demo:** Anchor candidate 4 — stale artifact → failure → cause →
-  system change → rerun → bounded evaluation and regression check.
+- **Starting State:** The primary Product path ended with a bounded success at
+  STATE-04-PERF. ACT 4 adds a conceptual maintenance case and a separate
+  observed Trial-evaluation history.
+- **Starting Problem:** DEMO-04A asks how one stale workflow could persist
+  after Project change. DEMO-04B records that global Harness influence limited
+  attribution in Training Production Trials.
+- **Attempt:** In the conceptual case, inspect the stale artifact, form a cause
+  hypothesis, make a scoped change, rerun, evaluate, and check regression. In
+  the observed Meta case, trace the evaluation/reporting rule change and its
+  later evidence limits.
+- **Initial Improvement:** DEMO-04A models a possible scoped correction.
+  DEMO-04B records a changed evaluation/reporting rule; it does not establish
+  improved Product behavior or Trial quality.
+- **Success:** The class can compare what each path supports without merging
+  their histories or claiming an unmeasured outcome.
+- **New Problem:** A broad conceptual fix can create bloat or harm another
+  task; Meta evidence can also remain partial after a rule change.
+- **Next Improvement:** Retain, refine, or revert a system change based on
+  evaluation; use the smallest change justified by evidence.
+- **Key Demo:** DEMO-04A conceptual stale-workflow path plus subordinate,
+  observed DEMO-04B Trial-evaluation timeline; no causal link between them.
 - **Insight:** “반복되는 Failure를 다음 Harness 개선으로 연결하라.”
 - **Transition Question:** “지금 자신의 업무에서 다음으로 바꿀 수 있는 것은 무엇인가?”
 - **Time Budget:** 80 min — 27 / 22 / 17 / 6 / 8.
@@ -446,8 +468,8 @@ the mental-model path that the eight Journey shifts develop together.
 | Question → Task Specification | Shift 2 | The agent receives a vague request. | Goal, boundaries, process, and completion evidence are unclear. | Specify the task and ask for investigation, planning, and verification. | The work request becomes clearer and more reviewable. | Clear task conditions matter more than a magic Prompt. |
 | Repeated Prompt Context → Managed Project Context | Shift 3 | Build, test, and project rules recur. | Repeating Project information makes every task Prompt carry the same background. | Put concise recurring guidance in a reusable Project location. | Common project context can be reused; its benefit can be examined before discussing limits. | Move repeated Project explanation out of every task. |
 | More Context → Relevant Context | Shift 4 | The initially helpful file accumulates unrelated, old, or conflicting details. | More context does not guarantee that the relevant detail reaches the current task. | Route from core guidance to task-relevant detail and manage freshness. | Learners can reason about relevance and retrieval without a universal size threshold. | Supply the right context at the right time. |
-| Agent Instruction → Agent Environment / Harness | Shifts 5–6 | Project knowledge is available but repeated work remains inconsistent. | Instructions alone do not make process, tools, roles, and checks reliable. | Add a reusable process, then reveal a problem-shaped system with optional mechanisms. | Work steps and checks can become visible and repeatable. | Engineer the work environment as needs emerge; do not install a feature checklist. |
-| Task Correction → System Improvement | Shift 7 | A project change makes a previously useful artifact stale, or the same correction recurs. | A local task correction may leave future agent work unchanged. | Analyze cause, make a scoped change, rerun, evaluate, and check regression. | Evidence can inform whether to keep, refine, or revert the change. | Feed recurring failure into a system improvement loop. |
+| Agent Instruction → Agent Environment / Harness | Shifts 5–6 | A labeled model asks whether organized Context makes work repeatable; TRIAL-006/007 show procedure recurrence. | Project facts and reusable work methods answer different questions; the actual Project had no justified Subagent or Memory need. | Follow the repository Skill, verification evidence, and actual component audit before revealing Harness. | STATE-04-PERF succeeds within scope without Subagent or Memory. | Engineer the working environment around demonstrated needs, not a feature checklist. |
+| Task Correction → System Improvement | Shift 7 | In DEMO-04A, a separate conceptual Project change makes a reusable workflow stale; independently, the observed Meta path encounters global Harness influence during Trial evaluation. | The conceptual path asks how to maintain a changed workflow; the observed path has bounded attribution for its Trial outcomes. | DEMO-04A models cause analysis, scoped change, rerun, evaluation, and regression checks. DEMO-04B records an evaluation and reporting-rule change followed by later Trials. | The paths share Execution → Observation → Cause → System Change → Re-evaluation, but remain independent and support different claims. | Feed observed or explicitly modeled friction into a system-improvement loop while keeping evidence status visible. |
 | Tool Usage → AI-Native Development | Shift 8 | Learners see the whole progression and may assume complete adoption is required. | A tool-focused ending can obscure developer judgment and responsibility. | Synthesize task, context, work environment, verification, and feedback; offer next steps by starting practice. | Each learner can identify an appropriate next step and retained responsibility. | AI-Native Development is the course's operational teaching model, not full automation. |
 
 **Result: PASS.** The Story survives a change in product interface because

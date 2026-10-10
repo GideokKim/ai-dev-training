@@ -1,6 +1,13 @@
 # Demo Matrix
 
-> Status: **STATE-00 through STATE-04-PERF tagged locally; STATE-04 remains at `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`; STATE-04-PERF is `6153b81c0187dd7d82c88bd1817fb683c98eb431`; statistics change and required checks passed; TRIAL-008 PASS on Codex CLI 0.154.0; no remote push and no Demo remote; DEC-0018 defers Subagents and DEMO-07; Memory is not justified yet; Final Anchor and Desktop rehearsal pending**
+> Status: **STEP 07 complete with open questions; DEC-0007's aggregate
+> schedule is accepted and DEC-0022 sets STEP 08 Slide Map readiness to READY
+> (2026-10-02). Observed Product path ends at STATE-04-PERF; DEC-0020 found
+> no justified Project Evolution and DEC-0021 separates conceptual DEMO-04A
+> from observed Meta DEMO-04B. Windows/Desktop rehearsal and current product
+> checks remain open for Final Content Freeze; Q&A and Reflection/Transition
+> placement is assigned to STEP 08. No new Product State or Trial added; the
+> Demo checkout has no remote.**
 >
 > Date: 2026-09-30
 
@@ -75,21 +82,22 @@ records bounded implementation/product evidence and is not final acceptance.
 | Subagent | No | DEFERRED — NOT JUSTIFIED AT STATE-04 | No primary or supporting Live anchor. Reconsider only if role/context separation value exceeds coordination cost for a real task. |
 | Durable project knowledge | Yes, conceptually | NOT JUSTIFIED YET IN THE PRIMARY REPOSITORY | No cross-task rediscovery candidate meets the Memory gate; use a visual or conceptual case if the distinction remains useful. |
 | Product Memory / Memory staleness | No | NOT SELECTED | Do not choose a product mechanism before a durable-knowledge need exists and target-surface behavior is verified. |
-| Working Harness | Yes | STEP 07 IMPLEMENTATION | Build the project-specific system gradually; do not assume every component. |
-| Project evolution | Yes | PLAUSIBLE | Choose one visible, justified change. |
-| Stale Harness | Yes | STEP 07 VALIDATION | Old artifact must have been correct before the Project change. |
-| Repeated failure | Yes | PLAUSIBLE | Use captured/controlled history when recurrence was not observed. |
-| Cause analysis | Yes | PLAUSIBLE | Current config, docs, instructions, workflow, and environment must be inspectable. |
-| Harness update | Yes | PLAUSIBLE | Correct the implicated layer and limit duplicate rules. |
-| Evaluation | Yes | STEP 07 VALIDATION | Evaluate the same task plus representative adjacent tasks. |
-| Regression | Yes | PLAUSIBLE | Captured negative case is preferred over another Live run. |
+| Working Harness | Yes | OBSERVED PRODUCT SUCCESS through `STATE-04-PERF` | The bounded statistics change passed recorded correctness and benchmark checks; do not attribute every result to one Harness component. |
+| Project evolution | Yes | NO IMPLEMENTATION-READY CANDIDATE | DEC-0020 found no independently justified change that naturally makes the current Skill stale. |
+| Stale Harness | Yes, as a Story concept | CONCEPTUAL ONLY in `DEMO-04A` | Label constructed before/after states as conceptual; no stale artifact or Product State exists. |
+| Repeated failure | Yes, if represented | NO PRODUCT FAILURE OBSERVED | Do not imply a recurring incident or failed Agent run; `DEMO-04A` is a controlled teaching model. |
+| Cause analysis | Yes, conceptually | DESIGNED, NOT TRIALED | Use the conceptual case to show how evidence would identify the affected layer; no actual failure cause is claimed. |
+| Harness update | Yes, conceptually | DESIGNED, NOT IMPLEMENTED | No repository Skill repair occurred. `DEMO-04B` records a Training Production evaluation/reporting change instead. |
+| Evaluation | Yes | PARTIAL EVIDENCE | `EVAL-01/02` have separate observed Bug and Performance evidence; `EVAL-03/04` are conceptual adjacent-task examples, not completed Trials. |
+| Regression | Yes | DESIGNED, NOT OBSERVED | Keep negative checks conceptual; no post-repair regression result exists. |
 
 **Selection implication:** DEC-0011 resolves repository source, language,
 domain, and delivery direction. DEC-0016 clarifies the environment roles:
 macOS is the current development/validation host, the learner environment is
 Windows-centric with specifics open, and the Demo remains OS-independent in
-design. Feasibility, implementation, and product-surface evidence remain for
-STEP 07; the selected direction is no longer a user-choice gate.
+design. The Product path is implemented through `STATE-04-PERF`; classroom
+acceptance and product-surface evidence remain conditional under OQ-003/OQ-005.
+The selected repository direction is no longer a user-choice gate.
 
 ## Anchor Candidate Evaluation
 
@@ -103,14 +111,14 @@ Time** is the already allotted Curriculum Demo window, not measured runtime.
 | 1. Read-only repository exploration | HIGH | HIGH | MEDIUM | HIGH | HIGH: captured search/read trace | 8 min | ANCHOR proposal |
 | 2. Repeated context to project guidance | HIGH | HIGH | MEDIUM | HIGH | HIGH: before/after docs and captured run | 8 min | ANCHOR proposal |
 | 3. Reusable workflow with verification | HIGH | MEDIUM–HIGH | MEDIUM–HIGH | HIGH | HIGH: reviewed run, workflow diff, recorded benchmark | 8 min | ANCHOR proposal |
-| 4. Stale Harness investigation and Loop | HIGH | HIGH | HIGH | HIGH | HIGH: controlled timeline, diff, evaluation captures | 16 min across two ACT 4 slots | ANCHOR proposal |
+| 4. Split conceptual-staleness and observed-feedback evidence | HIGH | LOW: no Live path required | LOW–MEDIUM | HIGH | HIGH: labeled controlled visual and captured history/evidence audit | 12 min across two ACT 4 slots | APPROVED EVIDENCE ROLES; delivery details pending |
 
-All Anchor Demos use HYBRID delivery: attempt the validated Live path and
-prepare a capture, expected result, and fallback. Anchor 3 demonstrates the
-repository-owned reusable Skill selected by DEC-0017; verify discovery and
-loading on the selected surface before claiming that product behavior. Anchor
-4 is not Live-only because diagnosis is the teaching point and run variance
-remains a risk.
+Anchor Demos use HYBRID delivery where an Agent interaction provides Story
+value. Anchor 3 demonstrates the repository-owned reusable Skill selected
+by DEC-0017; verify discovery and loading on the selected surface before
+claiming that product behavior. The accepted ACT 4 role split is not Live:
+`DEMO-04A` is conceptual and visual/captured, while `DEMO-04B` is a captured
+supporting Meta Case.
 
 ## Supporting Demo and Visual Case Evaluation
 
@@ -122,8 +130,8 @@ remains a risk.
 | Durable knowledge reuse | Shows why a verified Project fact may be worth retaining. | MEDIUM | ACT 3's existing 2 Demo min | No primary-repository instance yet; retain as a VISUAL or CAPTURED CONCEPTUAL CASE only if useful; product Memory remains unselected |
 | Verification / Harness reveal | Connects commands, environment, and checks after components emerge. | LOW–MEDIUM | ACT 3's existing 1 + 4 Demo min | VISUAL/captured; verification also remains inside Anchors 3 and 4 |
 | Git diff / review | Makes a scoped Harness change inspectable. | LOW | Inside Anchor 4 | EMBED in Anchor 4; not a separate Demo |
-| Regression | Shows an overbroad rule helping one task and burdening another. | LOW | Inside ACT 4's existing 4 Demo min or captured Case | CAPTURED supporting check; do not add a long Live run |
-| Training-repository Meta Example | Can make real production-Harness evolution concrete. | MEDIUM | TBD | NOT USED in STEP 06; OQ-013 may be revisited only if later actual history is relevant |
+| Regression | Shows an overbroad rule helping one task and burdening another. | LOW | Inside ACT 4's proposed 5-minute DEMO-10 or captured Case | CAPTURED supporting check; do not add a long Live run |
+| Training-repository Meta Example | Can make real production evaluation / workflow feedback concrete. | MEDIUM | ACT 4 DEMO-04B's proposed 8 min | ACCEPTED supporting-only under DEC-0021; keep it distinct from Product Demo behavior |
 
 Subagent and Memory are not Anchor dependencies. A mechanism may remain visual
 or omitted if it creates more cognitive or execution cost than Story value.
@@ -143,9 +151,9 @@ and Story relation only; it does not create diagrams or animation.
 | VIS-06 | Show Harness technical debt after Project change. | BEAT-039–042 / ACT 4 |
 | VIS-07 | Contrast Product Loop with Harness Improvement Loop. | BEAT-050–053 / ACT 4 |
 | VIS-08 | Illustrate Minimum Effective Harness as a course heuristic. | BEAT-056–057 / ACT 4 |
-| VIS-09 | Recap STATE-00 → STATE-11, including the named Bug-fix and Performance substates, and how the work system evolved. | BEAT-060–070 / ACT 5 |
+| VIS-09 | Recap the observed Product path `STATE-00 → STATE-04-PERF`, separating the benchmark-preparation commits from named States and the ACT 4 conceptual/Meta cases. | BEAT-060–070 / ACT 5 |
 | VIS-10 | Compare opening and ending mental models without implying full automation. | BEAT-069–071 / ACT 5 |
-| VIS-11 | Revisit the dated STATE-06 benchmark fact in a later session after its workload scope changes; verify the current source, then refresh or retire the fact. Keep separate from the primary stale-workflow chain. | BEAT-028–032, BEAT-054–057 / ACT 3 → ACT 4; optional existing ACT 4 Case time |
+| VIS-11 | If useful, illustrate a sourced fact's scope and freshness as a teaching model; no `STATE-06`, Memory artifact, or actual later reuse is claimed. Keep separate from the primary stale-workflow chain. | BEAT-028–032, BEAT-054–057 / ACT 3 → ACT 4; optional existing ACT 4 Case time |
 
 ## Candidate Demo Matrix
 
@@ -158,20 +166,21 @@ implementation and feasibility evidence are reviewed. Story Beat references foll
 | DEMO-01 | ACT 0 | BEAT-002–003 | Must the Developer find every relevant file first? | STATE-00 | HYBRID | 8 min | MEDIUM | MEDIUM | HIGH | Captured search/read/trace | CANDIDATE |
 | DEMO-02 | ACT 2 | BEAT-008–010 | Why repeat the same Project facts in every Task? | STATE-00-FIXED → STATE-01 | HYBRID | 8 min | MEDIUM | MEDIUM | HIGH | Before/after instructions and reviewed trace | CANDIDATE |
 | DEMO-03 | ACT 3 | BEAT-020–022 | Why repeat the same verification procedure? | STATE-03 → STATE-04 → STATE-04-PERF | HYBRID | 8 min | HIGH | MEDIUM–HIGH | HIGH | Procedure, captured checks, benchmark record | CANDIDATE |
-| DEMO-04A | ACT 4 | BEAT-039–042 | What changed in the Project and what stayed old? | STATE-07 → STATE-09 | HYBRID | 5 min | MEDIUM | MEDIUM | HIGH | Current-doc vs stale-workflow capture | CANDIDATE |
-| DEMO-04B | ACT 4 | BEAT-043–049 | Is a task correction enough when the cause is reusable? | STATE-09 → STATE-11 | HYBRID | 11 min | HIGH | HIGH | HIGH | Reviewed cause trace, scoped diff, EVAL captures | CANDIDATE |
+| DEMO-04A | ACT 4 | BEAT-038–046 | How can a correct reusable workflow become stale after the Project changes? | Conceptual controlled case; no Product State or Trial | VISUAL / CAPTURED CONTROLLED | 4 min | LOW | LOW | HIGH | Explicitly labeled current-source vs old-workflow sequence | APPROVED ROLE; detailed visual pending |
+| DEMO-04B | ACT 4 | BEAT-058–059 | What did observed Trial evidence change in the production system? | Training-production history; no Demo Product State | CAPTURED / VISUAL | 8 min | MEDIUM | LOW | HIGH | Dated timeline and claim-audit table | APPROVED SUPPORTING META ROLE |
 | DEMO-05 | ACT 1 | BEAT-004–007 | Which task information makes a request actionable? | STATE-00 → STATE-00-FIXED | CAPTURED / short LIVE | 8 min | MEDIUM | LOW–MEDIUM | MEDIUM–HIGH | Side-by-side natural prompts and bounded result; failing-to-passing boundary evidence | CANDIDATE |
 | DEMO-06 | ACT 2 | BEAT-011–017 | Does every Project fact belong in core instructions? | STATE-01 → STATE-03 | VISUAL / CAPTURED | 5 min | LOW | LOW | MEDIUM–HIGH | Context map and curated diff | CANDIDATE |
 | DEMO-07 | ACT 3 | BEAT-023–027 | Must one Agent handle every investigation role? | Future state only if actual project/task complexity crosses the role-separation gate | VISUAL or CAPTURED EXTERNAL / CONCEPTUAL | 5 min | LOW | MEDIUM | MEDIUM | Role map and reviewed conceptual case | DEFERRED — NOT JUSTIFIED AT STATE-04 |
 | DEMO-08 | ACT 3 | BEAT-028–032 | Which verified fact is worth retaining? | No primary-repository State selected; requires observed cross-task rediscovery | VISUAL / CAPTURED CONCEPTUAL | 2 min | LOW | LOW–MEDIUM | MEDIUM | Source, scope, provenance, and freshness visual | DEFERRED — NOT JUSTIFIED AT STATE-04 |
-| DEMO-09 | ACT 3 | BEAT-033–036 | What does a work system need to observe and verify? | STATE-03 → STATE-07 | VISUAL / CAPTURED | 5 min | LOW | LOW–MEDIUM | MEDIUM–HIGH | Tool-to-check map and bounded checks | CANDIDATE |
-| DEMO-10 | ACT 4 | BEAT-050–053 | Did the change improve only its target task? | STATE-10 → STATE-11 | CAPTURED / VISUAL | 2 min | LOW | LOW | HIGH | EVAL-02 vs EVAL-04 captured comparison | CANDIDATE |
-| DEMO-11 | ACT 4 | BEAT-054–057 | Could a smaller change fix the actual friction? | STATE-10 → STATE-11 | CAPTURED / VISUAL | 2 min | LOW | LOW | MEDIUM–HIGH | Small diff and explicit trade-off | CANDIDATE |
-| DEMO-12 | ACT 5 | BEAT-060–070 | What changed from the opening workflow? | STATE-00 → STATE-11 | VISUAL | 2 min | LOW | LOW | HIGH | Evolution timeline | CANDIDATE |
+| DEMO-09 | ACT 3 | BEAT-033–036 | What does a work system need to observe and verify? | STATE-03 → STATE-04-PERF | VISUAL / CAPTURED | 5 min | LOW | LOW–MEDIUM | MEDIUM–HIGH | Tool-to-check map and bounded checks | CANDIDATE |
+| DEMO-10 | ACT 4 | BEAT-047–049 | Does one passing task prove a safe system change? | Four-row evaluation set; no new Product State or task execution | VISUAL / CAPTURED conceptual matrix | 5 min | LOW | LOW | HIGH | EVAL-01/02 prior observed task references; EVAL-03/04 designed adjacent-task checks; no new outcome | CANDIDATE; visual scope reconciled per STEP 08 §181–190 |
+| DEMO-11 | ACT 4 | BEAT-054–057 | What is the smallest evidence-supported system response? | Conceptual synthesis; no new Product State | CAPTURED / VISUAL | 3 min | LOW | LOW | MEDIUM–HIGH | Layer-selection and maintenance-cost comparison | CANDIDATE |
+| DEMO-12 | ACT 5 | BEAT-060–070 | What changed from the opening workflow? | STATE-00 → STATE-04-PERF | VISUAL | 2 min | LOW | LOW | HIGH | Observed Product evolution timeline with conceptual and Meta paths clearly separated | CANDIDATE |
 
-The row times are proposed slots, not observed run lengths. Anchor Demo rows
-are segments of the same stale-Harness Story where specified, not unrelated
-projects.
+The row times are proposed slots, not observed run lengths. The primary
+Product rows use the same evolving repository. DEMO-04A is a conceptual case;
+DEMO-04B is separate Training Production history. Neither extends the Product
+State timeline.
 
 ### Product Volatility and Recheck Plan
 
@@ -180,21 +189,21 @@ projects.
 | DEMO-01 | HIGH | Current Codex Desktop/account behavior, repository access, and observable read-only investigation still need checking. | Recheck official product guidance and target account/surface before Trial; use the captured search/read/trace. |
 | DEMO-02 | HIGH | Agent use of repository project instructions depends on current behavior and setup. | Recheck current instruction behavior before Trial; use the before/after instruction files and reviewed trace. |
 | DEMO-03 | MEDIUM–HIGH | TRIAL-008 observed repository Skill discovery and load evidence on Codex CLI 0.154.0; Desktop behavior is unverified. | Use the reviewed Skill, checks, and benchmark capture; keep any claim scoped to the observed CLI run. |
-| DEMO-04A | HIGH | Current product interaction and permissions to inspect the Project change are not verified. | Recheck the target surface before Trial; use the current-doc versus stale-workflow capture. |
-| DEMO-04B | HIGH | Agent investigation and execution permissions may affect the Live path. | Recheck current surface, account, and permissions; use the captured cause trace, scoped diff, and evaluation outputs. |
+| DEMO-04A | LOW | No product surface is required; the scenario is constructed and must be labeled as conceptual/controlled. | Prepare a VISUAL or CAPTURED CONTROLLED EXAMPLE; do not present it as Demo history or Trial evidence. |
+| DEMO-04B | LOW | Historical CLI evidence and DEC-0016 are the sources; exact MCP-result use is not evidenced. | Use a captured timeline with CONFIRMED / PARTIAL / UNKNOWN claim labels, preserving the TRIAL-007 report/stderr discrepancy. |
 | DEMO-05 | LOW | The case compares task specifications and captured outcomes; it requires no named product feature. | Check the selected environment during Trial; use the side-by-side prompt and bounded result capture. |
 | DEMO-06 | LOW | Repository Context map and curated diff can be shown without a product-specific interaction. | Use the prepared visual and diff capture. |
 | DEMO-07 | LOW for a visual; HIGH for any future product interaction | No primary or supporting Live path is selected. A future role-separation case must first pass the repository/task complexity gate. | Keep deferred. If later justified, use a visual or captured external/conceptual case unless a new Trial validates a product surface. |
 | DEMO-08 | LOW for a conceptual visual; HIGH for any product mechanism | No project-specific fact currently justifies retention; product Memory is not selected. | Keep deferred in the primary repository. Reassess only after repeated, costly rediscovery of a sourced fact that is not readily available in maintained docs or code. |
 | DEMO-09 | LOW | The planned tool/check relationship is visual or captured; no specific integration is required. | Use the tool-to-check map and bounded check captures. |
-| DEMO-10 | LOW | The evaluation comparison is based on captured task evidence. | Use the recorded EVAL-02/EVAL-04 comparison. |
+| DEMO-10 | LOW | The five-minute visual uses a conceptual four-row Evaluation Set and references existing Product evidence only when kept in a separate frame. | Use EVAL-01/02 as prior evidence references; label EVAL-03/04 as designed without Trial outcomes. Do not imply a new task execution. |
 | DEMO-11 | LOW | The trade-off is shown through a small captured change and explicit reasoning. | Use the reviewed diff and trade-off capture. |
 | DEMO-12 | LOW | The retrospective is a static Project evolution visual. | Use the reviewed evolution timeline. |
 
-HIGH Anchor Demos are DEMO-01, DEMO-02, DEMO-04A, and DEMO-04B. A current
-state check is a STEP 07 prerequisite for their product-dependent path, not
-evidence that the path currently works. Their captured alternatives remain
-usable if product behavior, permissions, or timing differ.
+Story-critical Anchor roles are DEMO-01, DEMO-02, DEMO-04A, and DEMO-04B.
+Only product-dependent Live paths require current surface / permission
+checks. DEMO-04A and DEMO-04B use the approved visual / captured paths, with
+the claim boundaries shown in their fallback material.
 
 ## Demo Time Reconciliation
 
@@ -207,21 +216,27 @@ maps to it exactly and adds no instructional time:
 | ACT 1 | 8 | DEMO-05: 8 | 0 |
 | ACT 2 | 13 | DEMO-02: 8; DEMO-06: 5 | 0 |
 | ACT 3 | 20 | DEMO-03: 8; DEMO-07: 5; DEMO-08: 2; DEMO-09: 5 | 0 |
-| ACT 4 | 22 | DEMO-04A: 5; loop model/visual: 2; DEMO-04B: 11; DEMO-10: 2; DEMO-11: 2 | 0 |
+| ACT 4 | 22 | DEMO-04A: 4; loop model/visual: 2; DEMO-10: 5; DEMO-11: 3; DEMO-04B: 8 | 0 |
 | ACT 5 | 2 | DEMO-12: 2 | 0 |
 | **Total** | **73** | **73** | **0** |
 
-ACT 4 currently allocates four minutes to its final Harness-improvement
-segment. This table splits that slot into two minutes for a compact captured
-regression check and two minutes for a compact improvement/minimality
-comparison; preserve the Story purpose and reconcile the exact treatment
-inside that section's existing time. If this split is not feasible, show one
-of those cases visually in the Case budget rather than extending the Demo
-budget.
+Within ACT 3, the five-minute Subagent slot and two-minute Memory slot are
+visual decision and lifecycle explanations. Their product implementations
+remain deferred; the time is not an empty or additional Live Demo allocation.
+
+ACT 4's accepted evidence redesign keeps the total at 22 minutes while
+reallocating the existing slots: four minutes for the conceptual stale case,
+two for the Loop model, five for evaluation/regression, three for the
+minimum-change synthesis, and eight for the captured Meta Case. These are
+planning estimates; rehearsal must check density and accessibility. If a
+slot is too dense, trim supporting detail or use a visual/capture without
+removing a Story transition or extending the ACT budget.
 
 For Anchor 1–3, the eight-minute D slot is the total on-screen window,
 including setup, execution, observation, interpretation, and transition.
-Anchor 4 is split across the existing five- and eleven-minute ACT 4 D slots.
+The former 16-minute stale-state/correction anchor is replaced by the split
+evidence roles above; the observed Meta Case is placed after the Loop has
+been explained, at BEAT-058–059.
 Preparation before class is outside instructional time. Rehearsal must prove
 the windows are plausible; otherwise switch delivery mode or trim supporting
 material without removing a core Story transition.
@@ -241,11 +256,14 @@ Use the `Act` and `Story Beat` columns as the narrative order; Demo IDs are
 identifiers and do not set the teaching order. The proposed sequence remains:
 
 `DEMO-01 → DEMO-05 → DEMO-02 → DEMO-06 → DEMO-03 → DEMO-07/08/09
-→ DEMO-04A → DEMO-04B/10/11 + VIS-11 → DEMO-12`
+→ DEMO-04A → DEMO-10 → Loop model/visual → DEMO-11 → DEMO-04B + VIS-11
+→ DEMO-12`
 
 This keeps repository exploration before Prompt, repeated image-Project Context
 before routing, the reusable workflow before optional roles/retained knowledge
-and the Harness reveal, and the stale Harness before Loop evaluation.
+and the Harness reveal, the conceptual stale case before Loop evaluation,
+and the actual Meta Case after the Loop model so it supports rather than
+replaces the Product story.
 Product-feature availability does not move a Demo ahead of the Problem that
 motivates it. If rehearsal shows ACT 3 or ACT 4 is too dense, move supporting
 evidence to its already allocated Case/visual treatment; do not extend the
@@ -1912,24 +1930,95 @@ Performance Trial ran during this document update. No optimization was
 committed to the original Demo repository; no STATE-04, Skill, reusable
 workflow, or Subagent was created.
 
+## STEP 07 — TRIAL-007 NORMALIZATION PERFORMANCE RESULT
+
+**Date:** 2026-09-29. **Repository baseline:** commit
+`01622f86c1d9c54094a20adb0f436d12ee70cfd4`, the deterministic normalization
+benchmark preparation commit after `STATE-03`. **Isolation:** detached
+worktree at `/private/tmp/ai-dev-training-demo-trial-007-20260929`; the
+original Demo repository and all State tags remained unchanged. The trial
+worktree has one uncommitted change to `src/graypipe/normalize.py` and no
+commit or push.
+
+**Interface / environment:** Codex CLI; exact CLI version and model are not
+present in the retained final report. Python 3.9.6; macOS 26.6.2, build
+25G83; Darwin 25.6.0; arm64/T6050. The exact CPU marketing model was not
+captured. The candidate uses the 640×480, 307,200-pixel normalization
+benchmark with `max_value=4095` and the same input and output fingerprints
+before and after.
+
+**Task Prompt:** investigate an evidence-supported runtime improvement to
+normalization while preserving behavior; keep the benchmark input, checksum,
+correctness guard, and repetitions fixed; measure before editing; inspect
+source, contract, and tests; state a plan; implement a minimal change; run
+focused and full tests, the same benchmark, a CLI smoke check, `git diff
+--check`, and final review; record global Harness influences and do not claim
+Prompt-only causality. The full prompt and event evidence are retained in
+`/private/tmp/TRIAL-007-PROMPT.txt` and
+`/private/tmp/TRIAL-007-EVENTS.jsonl`.
+
+**Investigation and change:** the selected change hoisted `image.max_value`
+and its integer rounding offset out of the per-pixel loop. The final diff was
+3 insertions and 1 replacement in `src/graypipe/normalize.py`. A lookup-table
+candidate measured faster in exploratory runs but was rejected because it
+would add up to 65,536 entries of per-call time and memory; floating-point
+conversion and bypassing `GrayImage` validation were not selected.
+
+| Measurement | Baseline | After |
+|---|---:|---:|
+| Seven samples (ms/call) | 28.7, 27.9, 28.1, 27.2, 26.8, 27.5, 28.0 | 20.0, 18.7, 18.5, 18.4, 21.7, 18.5, 18.6 |
+| Median | 27.9 ms/call | 18.6 ms/call |
+| Range | 26.8–28.7 ms/call | 18.4–21.7 ms/call |
+| Benchmark invocation | 0.30 s | 0.22 s |
+| Input/output checksums | PASS | PASS; unchanged |
+
+The rounded medians differ by 9.3 ms/call (33.3%, about 1.50× throughput)
+for this input and environment; the sample ranges do not overlap. This is one
+before/after pair, was not interleaved, and the after-run spread was wider.
+Do not generalize it to other workloads, machines, runtimes, or models.
+
+**Verification:** focused normalization tests passed 2/2; the full suite
+passed 11/11; the CLI smoke output and PGM pixels matched the expected 4×3
+image; `git diff --check` passed. No benchmark file, dependency, or other
+tracked file changed in the trial worktree.
+
+**Observed global influence and result:** the report records a
+`UserPromptSubmit` hook routing `Investigate` to `oh-my-codex:analyze`, plus
+`oh-my-codex:analyze` and `superpowers:verification-before-completion` Skills.
+No Subagent was used. No evaluator is recorded in the retained Trial
+artifacts; this does not establish the absence of an unexposed external
+evaluator. The report says no MCP warning/use, but
+`/private/tmp/TRIAL-007-STDERR.txt` records a Nimble `AuthRequired` MCP
+startup error; the event record shows no MCP task result. Keep the inventory
+and attribution PARTIAL. The functional benchmark and verification passed,
+but the full workflow cannot be attributed to the Prompt alone.
+
+**Teaching use:** together with TRIAL-006, this is a second observed
+application of the same baseline → investigation → plan → scoped change →
+verification → remeasurement → review procedure on a different code path.
+It supports the recurrence rationale in DEC-0017. It does not establish
+Skill-versus-Prompt superiority, token savings, or a general performance
+claim. The trial change remained outside the original Demo repository and
+did not create a named State.
+
 ## Story-to-Demo Coverage Audit
 
 | Coverage class | Beats | Planned treatment |
 |---|---|---|
-| MUST OBSERVE | Repository exploration (BEAT-002–003); stale artifact through cause and evaluated change (BEAT-039–049). | Anchor 1 and Anchor 4, with prepared fallback. |
+| MUST OBSERVE | Repository exploration (BEAT-002–003) and the bounded Working Harness Success through `STATE-04-PERF`. | Product captures and Git/Trial evidence; ACT 4 does not claim an observed stale artifact or Product failure. |
 | GOOD TO OBSERVE | AGENTS.md first success; reusable workflow and verification. | Anchors 2 and 3; product mechanism is conditional. |
-| EXPLAIN / VISUALIZE | Context growth/routing, Subagent trade-offs, Memory lifecycle, Harness reveal, Product Loop vs Harness Loop, Minimum Effective Harness. | Visual, captured, or short supporting examples. |
-| Conditional / optional | Real training-repository Meta Example. | Exclude unless actual history is recorded and relevant. |
+| EXPLAIN / VISUALIZE | Context growth/routing, deferred Subagent and Memory decisions, conceptual stale-Harness case, Product Loop vs Harness Loop, Minimum Effective Harness. | Use bounded captures/visuals; keep conceptual, Product, and Meta evidence labels distinct. |
+| OBSERVED META CASE | Training Production evaluation/reporting change (`DEMO-04B`; `TRIAL-006` → `DEC-0016` → `TRIAL-007/008`). | Supporting-only captured timeline with the TRIAL-007 report/stderr discrepancy and partial attribution visible. |
 
 No Demo is added only to fill a Beat or show a product feature.
 
 ## Narrative Continuity Audit
 
-All proposed Anchors reuse the same synthetic image-processing Project,
-stable module names, command vocabulary, and sample task as it evolves. The
-same processing path should first be explored, later optimized, and eventually
-affected by a Project Test-procedure change. If implementation cannot make
-that continuity natural, record evidence and follow DEC-0011 change control.
+The observed Product Anchors reuse one synthetic image-processing Project,
+stable module names, and a bounded task path through `STATE-04-PERF`. No later
+Project Test-procedure change is part of the selected Product history. ACT 4
+keeps its conceptual stale-Harness illustration and observed Training
+Production Meta Case separate from that repository evolution.
 
 ## Cognitive Load and Screen Readability
 
@@ -1941,7 +2030,7 @@ that continuity natural, record evidence and follow DEC-0011 change control.
 - Use a diagram and captured output for complex Subagent coordination.
 - Do not display line counts as a deterministic model-quality threshold.
 
-## STEP 06 Question Status
+## Historical STEP 06 Question Status
 
 | Topic | Status | Remaining dependency |
 |---|---|---|
@@ -1951,8 +2040,8 @@ that continuity natural, record evidence and follow DEC-0011 change control.
 | Live/Recorded/Captured/Visual mix | PARTIALLY RESOLVED | Anchor HYBRID is accepted; supporting roles remain flexible. Validate current feature availability and fallback. |
 | Build, Test, Benchmark | PARTIALLY RESOLVED | STATE-00 build/test commands and outcomes are recorded; benchmark method and results await the performance states. |
 | Skill / Subagent / Memory | SKILL OBSERVED / SUBAGENT AND MEMORY CONDITIONAL | TRIAL-008 confirms explicit repository Skill discovery/load in Codex CLI 0.154.0; OQ-005 still leaves Desktop behavior open. |
-| Stale scenario | PARTIALLY RESOLVED | One justified Test-layout/procedure change leaves one reusable workflow stale; exact change and visible failure need STEP 07. |
-| Evaluation / Regression | PARTIALLY RESOLVED | EVAL-01–04 and a bounded negative check proposed; validate tasks in the repository. |
+| Stale scenario | SUPERSEDED PROPOSAL | The later DEC-0020/DEC-0021 review found no justified Product change; only the explicitly conceptual `DEMO-04A` remains selected. |
+| Evaluation / Regression | REVISED | `EVAL-01/02` are observed separate tasks; `EVAL-03/04` remain designed conceptual checks without Trial outcomes. |
 | State model / reset strategy | PARTIALLY RESOLVED | STATE-00 has a commit/tag and a verified disposable reset; later state refs and reset evidence remain open. |
 | Anchor selection / delivery / fallback | PARTIALLY RESOLVED | Four roles remain proposed under DEC-0008; HYBRID mode and prepared capture/expected result/fallback are accepted requirements. |
 | Meta Example | NOT USED IN STEP 06 | OQ-013 may be revisited only if later actual history supports it. |
@@ -2880,3 +2969,600 @@ Project Evolution, stale Skill, Harness failure, Loop, or STATE-05. Reassess
 the problem and evidence in the next instruction.
 
 **READY TO DESIGN PROJECT EVOLUTION.**
+
+## STEP 07 — §§201–210 PROJECT EVOLUTION CANDIDATE REVIEW
+
+### Current Baseline
+
+The current Product baseline is `STATE-04-PERF`, Demo commit/tag
+`6153b81c0187dd7d82c88bd1817fb683c98eb431` / `STATE-04-PERF`. Its working
+system is a task Prompt, Project Context, Context routing, the
+`graypipe-performance` Skill, benchmarks, Tests, and the optimized statistics
+implementation. The preceding state passed the focused statistics test,
+11/11 full tests, both benchmark correctness checks, the CLI smoke, and the
+diff check. The current Demo checkout is clean.
+
+This review is a design assessment only. No Project, Skill, instruction,
+benchmark, test, or Harness artifact was changed; no Failure Trial was run.
+Ratings below are judgments from the current repository and accepted plan,
+not Trial results.
+
+### Candidate Evaluation
+
+**Rating key:** High / Medium / Low describe fit for each criterion. For
+Implementation effort and Demo runtime, Low is favorable. “Single stale
+cause” asks whether the current Performance Skill itself would become stale
+without adding an artificial, separately outdated artifact.
+
+| Criterion | A. Benchmark interface | B. Test organization | C. CLI / pipeline | D. Benchmark contract | E. Packaging / execution |
+|---|---|---|---|---|---|
+| Product-side realism | Medium: two scripts duplicate some timing/report structure. | Low: current suite has only 11 tests in 6 modules. | Medium: a feature can be real, but no feature request is recorded. | Medium: a structured output can help automation. | Medium: the project already has a console entry point and a Windows-centered audience. |
+| Current project justification | Medium: duplication exists, but no maintenance problem is recorded. | Low: one integration test is not enough evidence for a directory migration. | Low: no new behavior is requested. | Low: there is no parser, CI, or automated comparison consumer. | Low–Medium: commands use `PYTHONPATH=src`, but exact learner shell/setup is still open. |
+| Audience clarity | High | High | Medium | Medium | Medium |
+| Domain neutrality | High | High | Medium | High | High |
+| Harness relevance | High | High | Medium | High | High |
+| Single stale cause for the current Skill | Low: Skill discovers the current command from Project sources. | Low: Skill does not pin test paths or a runner. | Low: many Project references change together. | Low: Skill does not prescribe an output schema. | Low: Skill delegates current commands to Project sources. |
+| Repeated failure potential | Low unless a separate old command is left behind. | Medium if an old exact command becomes invalid; not established by this tree. | Low–Medium; several facts could drift together. | Medium if an old parser/reporting contract is retained. | Medium if an old setup command is retained. |
+| Cause analysis quality | Medium | High for a specific old test path/command. | Low: many potential stale facts. | Medium | Medium |
+| Correct-layer fix quality | Medium | Medium: likely fix is a Project source or command, not this Skill. | Low–Medium: several sources may need repair. | Medium | Medium |
+| Evaluation potential | Medium | High | Medium | High | Medium |
+| Regression potential | Medium | High | Medium | High | Medium |
+| Cross-platform neutrality | High | High | High | High | Medium until the target setup is chosen. |
+| Implementation effort | Medium | Medium | High | Medium | High |
+| Demo runtime | Low | Low | Medium | Low–Medium | Medium–High |
+| Story continuity | High | High | Medium | High | Medium |
+
+### Candidate Details and Stale-Artifact Mapping
+
+| Candidate / artifact | CURRENTLY REFERENCES OLD STATE? | PROJECT SOURCE OF TRUTH CHANGED? | WOULD AGENT BE MISLED? |
+|---|---|---|---|
+| A / benchmark scripts | No now; the current two scripts still match the interface. | No now; a runner migration would change benchmark source and entry points. | No if the interface and README are updated together. |
+| A / `README.md` benchmark commands | No now; both documented commands run the current scripts. | No now; yes under the hypothetical runner migration. | Yes if the README command is left old; otherwise no. |
+| A / Performance Skill | **No.** It has no benchmark filename and says to discover the current command from Project sources. | No now; the Skill itself need not change for the runner migration. | No if the README is current. The Skill would not be the stale artifact. |
+| B / `AGENTS.md` test command | No now; it matches the current unittest tree. | No now; yes only if the Project adopts a test procedure the command no longer runs. | Yes if that command becomes invalid or silently discovers no tests; neither outcome has been observed. |
+| B / `docs/testing.md` test paths | No now; the six listed modules exist. | No now; yes under the hypothetical layout migration. | Yes if moved paths are not documented; no if updated. |
+| B / Performance Skill | **No.** It pins neither the test paths nor the unittest runner. | No now; the Skill can use updated Project sources. | No if its routed sources are current; it would not be the stale artifact. |
+| C / Architecture, image contract, CLI, tests | No now; they match current source. | No now; a feature/schema change would alter product code and may alter several contracts. | Possibly yes, with several stale sources and no single cause unless scope is tightly bounded. |
+| C / Performance Skill | No specific module or summary schema is fixed in it. | No now; the generic verification sequence remains usable. | Possibly through stale routed docs, but the Skill itself would not be shown stale by this candidate alone. |
+| D / benchmark output contract and README | No now; the human-readable output matches the current scripts. | No now; yes under a structured-output change. | Possibly if output meaning or fields change and the README/consumer contract is not updated. |
+| D / Performance Skill | **No.** It records correctness, samples, median, range, and limits, not a required serialization format. | No now; no Skill change is inherently required. | No if the human-readable report remains; otherwise the stale item would be the report contract, not necessarily the Skill. |
+| E / packaging, README, `AGENTS.md` commands | No now; current direct-source commands match the repository. | No now; yes if installation/execution becomes the supported path. | Possibly if an old command source is retained; exact Windows/WSL behavior is unverified. |
+| E / Performance Skill | **No.** It delegates project commands to the maintained instructions and docs. | No now; the Skill can read revised command sources. | No if those sources are updated; it would not be the stale artifact. |
+
+For every row, “No now” means no Project change has occurred in this stage.
+The YES/POSSIBLY conditions describe only what could happen if the
+hypothetical change were later approved and an old artifact were retained.
+
+### Recommended Evolution
+
+**Do not select A–E for implementation yet.** Candidate A has the clearest
+current maintenance rationale, and Candidate B has the clearest potential
+old-command diagnosis. Neither meets both gates: an independently sufficient
+Project reason and one well-supported stale artifact in the current
+Performance Skill. The Skill deliberately discovers benchmark and Test facts
+from current Project sources, so these changes do not naturally make that
+workflow stale. Leaving an out-of-date README, test map, or command merely to
+force a Failure would reverse the required order of reasoning.
+
+Candidate B is also premature at the observed project size: 11 tests across
+6 modules do not yet establish that test-layout migration is a real
+maintenance need. Candidate C has no recorded feature requirement and would
+touch several sources. Candidate D has no current machine-readable consumer.
+Candidate E has a plausible cross-platform rationale, but the learner's exact
+Windows/WSL and shell environment is still open; changing packaging would
+also risk making packaging the Demo's subject.
+
+### Why This Change Exists Without AI
+
+No Project change is approved or recommended from the current evidence. If a
+future candidate is reconsidered, its reason must stand without AI: for
+example, reduce actual benchmark maintenance, support a measured need to run
+unit and integration checks independently, deliver a requested CLI feature,
+serve a real automation consumer, or support a confirmed execution
+environment. “It makes the Harness fail” is not a Project reason.
+
+### Primary Stale Artifact
+
+**None established.** The current `graypipe-performance` Skill contains no
+benchmark filename, test-directory path, or fixed test-runner command. Under
+the proposed changes, it can continue by reading current Project sources.
+An old README, `AGENTS.md`, or test map could be stale if not maintained, but
+that would be a different primary artifact than the previously planned stale
+Skill. Changing that Story target requires an explicit decision; do not
+silently substitute it.
+
+### Expected Failure
+
+None is predicted or claimed. No old command has been run against a changed
+Project, and no Failure Trial was executed. Define an expected failure only
+after a valid Project change and a specific, previously correct artifact are
+selected.
+
+### Cause Clarity
+
+For A and D, the current Skill's generic discovery and reporting steps make
+the procedure likely to survive the Project change. For B and E, stale
+Project instructions could be isolated, but the Skill would still be current
+and the product-side need is not established strongly enough. C risks several
+simultaneous stale architecture, contract, and CLI facts. None currently
+provides both a justified Project change and a single, clear stale Skill cause.
+
+### Evaluation / Regression Potential
+
+Each candidate has a possible evaluation path only after its Project need is
+confirmed: run the new benchmark case through the unified runner; run focused
+and full suites after a justified test migration; compare behavior and summary
+fields for a requested CLI feature; validate machine-readable benchmark
+records with a real consumer; or install and invoke the package in confirmed
+target environments. These are candidate checks, not approved implementation
+plans or observed results.
+
+### Windows / Cross-platform Check
+
+Candidates A–D can remain platform-neutral if implemented with the existing
+Python standard library and local synthetic data. Candidate E directly
+touches command portability, but exact Windows/WSL, IDE, and shell choices
+remain open under DEC-0016/OQ-003. Do not claim Windows compatibility from the
+current macOS-only evidence.
+
+### Story Integrity
+
+The STATE-04-PERF working system remains a success. No candidate is selected
+to break it, no stale artifact or Failure is manufactured, and the
+Harness-to-Loop Story remains intact. A later Project Evolution must first
+have a Product-side justification independent of AI; only then should its
+effect on previously correct Harness material be assessed.
+
+### Next Readiness
+
+**NEEDS DIFFERENT CANDIDATE.** Keep the accepted stale-Harness Story direction
+as a planning constraint, but do not implement any A–E change until a
+candidate has a concrete Project-side need and a traceable single stale
+artifact. No Project Evolution, stale Harness, Failure Trial, Harness repair,
+or Loop Engineering was started.
+
+## STEP 07 — §§211–220 REAL LOOP EVIDENCE ASSESSMENT (HISTORICAL)
+
+**Checked:** 2026-10-01. This is the original history and architecture
+assessment. It does not change the Demo repository, create a stale artifact,
+or run a new Trial. Its proposed role split is superseded by the user's
+approval in §§221–230 below.
+
+### Primary Demo Status
+
+The primary Product Demo is strongly evidenced through `STATE-04-PERF`:
+the actual repository has tagged Git states from `STATE-00` through
+`STATE-04-PERF`; observed Trials cover exploration, a bounded Bug fix,
+Project Context, Context separation, repeated performance work, and an
+explicitly invoked repository Skill; the final statistics change was
+re-investigated in the formal checkout and passed focused/full Tests,
+correctness-guarded benchmarks, a CLI smoke, and diff review. The result is
+**Working Harness Success**, bounded to the recorded CLI, host, workload, and
+account evidence. It is not evidence of stale Harness failure or Loop
+improvement.
+
+### Same-Repository Loop Requirement
+
+**OPTIONAL for the Loop evidence; KEEP the Primary Demo continuous.** The
+Synthetic Image Processing CLI already carries the primary story through
+Working Harness Success. A real Loop example exists in the training
+production and Trial-evaluation history. Under `INV-DEMO-001` and
+`INV-DEMO-003`, it may only be a supporting Meta Example; it must not replace
+the shared Product story or be conflated with Demo-repository product
+behavior.
+
+### Candidate A — Demo Domain
+
+- **Loop shape:** the initial telemetry proposal was reconsidered after the
+  audience context identified many C++ Vision developers. The project domain
+  changed to a synthetic image-processing CLI to improve familiarity while
+  keeping Python and simple operations to reduce instructional overhead.
+- **Strength:** a real, traceable training-design correction with a durable
+  Decision record (DEC-0010 superseded by DEC-0011).
+- **Weakness:** this is audience-led curriculum / repository design, not an
+  Agent task failure or Harness correction. The later repository trials
+  establish that the selected project is workable, but audience transfer was
+  not measured with learners.
+- **Classification:** Project-design feedback; incomplete as a standalone
+  Loop Engineering Anchor.
+
+### Candidate B — Development and Learner Environment
+
+- **Loop shape:** the initial Demo plan recorded macOS / Codex Desktop;
+  TRIAL-006 then exposed global Harness influence in the actual CLI
+  environment, and the user clarified that the development host was not the
+  primarily Windows-based learner target. DEC-0016 separated development,
+  learner, and presentation environments and rejected a clean-room Trial as
+  a prerequisite. Later CLI Trials recorded global influences.
+- **Strength:** real correction of a planning assumption and a trial
+  requirement; it also prevents host-specific claims from being mistaken for
+  learner requirements.
+- **Weakness:** the correction followed explicit user environment direction
+  as well as Trial observations. Windows / WSL / IDE / shell behavior remains
+  unvalidated, so the audience-environment part has not been fully
+  re-evaluated.
+- **Classification:** Training and evaluation-environment architecture
+  correction; not a Product-code or repository-Skill failure. It overlaps
+  Candidate C and should not be counted as an independent second failure.
+
+### Candidate C — Global Harness Influence
+
+- **Loop shape:** TRIAL-006 executed the performance task; global Skills,
+  plugin-hook warnings, MCP startup events, and a model substitution were
+  observed. Evaluation found that correctness and measurements remained
+  useful, while Prompt-only causal attribution was not supported. The cause
+  was an uncontrolled ambient Agent environment, not a defect in the Demo
+  repository. DEC-0016 changed the evaluation rule: preserve the Trial as
+  PARTIAL, record global influences, and do not require clean-room isolation.
+  TRIAL-007's task Prompt explicitly required reporting observable global
+  influence; its result reported a UserPromptSubmit `analyze` hook and two
+  Skills, and stated no MCP use or warning. The retained stderr contains a
+  Nimble `AuthRequired` MCP error, but the event trace shows no MCP task
+  result. TRIAL-008 separately records global Skills, hook warnings, and MCP
+  initialization issues without attributing an MCP result.
+- **Strength:** the clearest Execution → Observation → Evaluation → Cause
+  → System Change → Re-evaluation chain in the available history. Later Trial
+  reports show the revised evidence boundary being applied, though the
+  TRIAL-007 stderr/report discrepancy means its global-factor inventory was
+  not complete.
+- **Weakness:** the changed system is Trial/evaluation policy in the training
+  production process. It did not repair the Demo Product, update
+  `graypipe-performance`, or demonstrate the exact stale-Skill scenario.
+  TRIAL-006 remains PARTIAL rather than a controlled attribution experiment.
+- **Classification:** an authentic evaluation/workflow feedback Loop and
+  Training Production Harness governance change; not a Demo Product Loop or
+  direct repository-Skill maintenance event.
+
+### Candidate D — Subagent / Memory
+
+- **Loop shape:** the complexity and Trial-history audits found the current
+  bounded repository tasks could be handled by one Agent, with no costly
+  cross-task rediscovery absent from maintained sources. DEC-0018 deferred
+  Subagents; the Memory audit found no qualifying durable fact. The later
+  `STATE-04-PERF` task succeeded with the minimum effective system and no
+  Subagent or Memory.
+- **Strength:** authentic evidence that Evaluation may simplify a proposed
+  architecture and that omission can be the correct system change.
+- **Weakness:** this is overengineering prevention and a bounded adequacy
+  check, not correction of a recurring failure. It does not establish that
+  Subagents or Memory are generally unnecessary.
+- **Classification:** Harness-architecture restraint supporting the Minimum
+  Effective Harness insight; secondary evidence, not the main Loop case.
+
+### Candidate E — Context Routing
+
+- **Loop shape:** TRIAL-004 showed that a build-documentation task did not
+  need image, pipeline, test-layout, or CLI-summary detail. STATE-03 then
+  separated core instructions from topic documents and added routes. In
+  TRIAL-005A/B, the image contract was read for the image task and not for the
+  dependency task; both tasks read the broader architecture document, and
+  optional test-context access varied. DEC-0014 therefore retained the
+  Context structure while limiting its claim to scope, maintenance, and
+  discovery rather than perfect automatic routing or measured performance.
+- **Strength:** this is a real Context-system change and re-evaluation in the
+  same Demo repository, with observable task-specific access differences.
+- **Weakness:** no task failure or repeated costly friction was observed, and
+  the route was not perfectly selective. The correction concerns claim
+  boundaries, not a later Harness repair. It belongs earlier in the Story as
+  Context Engineering and is not the strongest post-Harness ACT 4 Anchor.
+- **Classification:** observed Context / Harness design iteration; useful
+  supporting evidence for bounded system evaluation.
+
+### Additional Candidate
+
+No separate sixth candidate was established. The recorded history search
+found the five candidates above; claims beyond their evidence remain
+unconfirmed.
+
+### Loop Criteria
+
+**Legend:** YES = directly observed and recorded; PARTIAL = some stages or
+their re-evaluation remain bounded; NO = not evidenced as a full Loop. The
+candidate labels do not imply that every case was an Agent failure.
+
+| Candidate | Execution | Observation | Evaluation | Cause | System Change | Re-evaluation | Loop fit |
+|---|---|---|---|---|---|---|---|
+| A — Domain | PARTIAL: design process, not a Trial | YES: audience familiarity requirement | PARTIAL: reasoned trade-off, no learner measure | YES: weaker familiarity / visual transfer was the stated concern | YES: DEC-0011 selected the image domain | PARTIAL: project feasibility was later exercised; audience transfer was not measured | Design feedback, incomplete |
+| B — Environment | YES: TRIAL-006 ran in the configured CLI environment | YES: global influence and learner-host distinction | YES: attribution and target roles were reviewed | YES: host, learner, and presentation roles had been conflated | YES: DEC-0016 changed the environment/evaluation direction | PARTIAL: later Trials recorded influence; Windows target behavior remains open | Strong, overlaps C |
+| C — Global Harness | YES: TRIAL-006 through later CLI Trials | YES: loaded Skills/hooks and startup events recorded | YES: evidence kept, attribution limited | YES: global environment was an uncontrolled factor | YES: DEC-0016 changed evidence and recording rules | PARTIAL: TRIAL-007/008 record global influence, but TRIAL-007's report conflicts with its MCP stderr | Strongest bounded loop |
+| D — Subagent / Memory | YES: complexity audit and bounded task execution | YES: role and rediscovery need not observed | YES: mechanisms did not clear evidence gates | YES: tasks were small/connected; sources available | YES: DEC-0018 deferred additions; Memory not justified | YES, bounded: STATE-04-PERF succeeded without them | Architecture restraint, not failure repair |
+| E — Context Routing | YES: TRIAL-004 and TRIAL-005A/B | YES: scoped access differed; broad reads and variability remained | YES: routing claim bounded | PARTIAL: scope fit is clear; no failure cause established | YES: STATE-03 reorganized Context sources | YES: TRIAL-005A/B evaluated the resulting structure | Strong same-repository iteration, earlier Story stage |
+
+### Recommended Real Loop Case
+
+**Candidate C — Global Harness Influence.** It has the clearest evidence
+chain and a visible downstream process change, with an incomplete TRIAL-007
+MCP inventory that must remain visible. Use Candidate E as a short,
+same-repository supporting callback for Context iteration, and
+Candidate D only if ACT 4 needs an example where evaluation argues against
+adding complexity. Do not combine their events into one claimed incident.
+
+### Is It Harness Engineering?
+
+Candidate C is an **Evaluation / Workflow system change** in the training
+production process. It addresses how Trial outcomes are interpreted and how
+later Trial evidence is recorded. In the broad course sense it is a
+Harness-governance feedback Loop, but it is not a change to the Demo's
+repository-owned Skill, Project code, or learner-facing Agent environment.
+Name the changed layer precisely; do not claim that `graypipe-performance`
+became stale or was repaired.
+
+### Proposed Teaching Structure
+
+Keep three evidence layers separate:
+
+1. **Primary Product Demo:** `STATE-00 → STATE-04-PERF` shows continuous
+   repository evolution and the working Harness result.
+2. **Real Meta Case:** use a short captured timeline of TRIAL-006 → DEC-0016
+   → TRIAL-007 / TRIAL-008 to show the actual change in evaluation and
+   reporting rules. Label it as training-production history and show the
+   TRIAL-007 report/stderr discrepancy as an evidence limit, not as proven
+   MCP influence on the task result.
+3. **Stale-Harness concept:** if ACT 4 still needs a stale artifact before
+   the Loop reveal, use an explicitly conceptual or controlled visual. Do
+   not portray it as an observed Demo-repository change or as the cause of
+   Candidate C.
+
+This structure lets the class see a real system feedback Loop without
+manufacturing the product evolution that the §§201–210 review could not
+justify.
+
+### Story Architecture Impact — Historical §221–230 Assessment
+
+At this checkpoint, the evidence-role change was still pending the user's
+follow-up direction. The subsequent §§231–240 work reconciled
+`STORY_ARCHITECTURE.md`, `STORY_BEATS.md`, `TRANSITIONS.md`, Curriculum, and
+Demo mappings to preserve Harness success before Loop Engineering, the
+Product-versus-Harness Loop distinction, and developer responsibility. The
+current selected paths are conceptual DEMO-04A and observed Meta DEMO-04B;
+their evidence boundaries are recorded below and in the current architecture.
+
+### Demo Architecture Impact — Historical §221–230 Assessment
+
+The user's §§231–240 follow-up accepted this evidence split and reconciled
+the detailed Demo mapping. The ACT 4 allocation remains 22 minutes:
+DEMO-04A 4 minutes, Loop visual 2, DEMO-10 5, DEMO-11 3, and DEMO-04B 8.
+The primary Product Demo remains at `STATE-04-PERF`; no Product State, stale
+Skill, or Failure Trial was added. Candidate E remains an ACT 2 supporting
+reference, not an ACT 4 Product Loop event. This readiness checkpoint
+predates the 2026-10-02 user gate resolution. OQ-004's aggregate schedule
+review is now resolved by DEC-0007; exact Q&A and Reflection/Transition
+placement is STEP 08 work. Final surface and timing rehearsal remain governed
+by OQ-003/OQ-005.
+
+### Next Readiness
+
+**Readiness: STEP 07 STORY / DEMO ALIGNMENT COMPLETE.** The user's §§231–240
+instruction accepted and mapped the evidence roles in planning documents.
+No Project Evolution, stale Skill, Failure Trial, Harness repair, conceptual
+visual asset, or PPT was created. This checkpoint predates the 2026-10-02
+user gate resolution: OQ-004's aggregate schedule review was resolved by
+DEC-0007; OQ-003/OQ-005 remain open for target environment and
+product-dependent rehearsal.
+
+## STEP 07 — LOOP DEMO REDESIGN RESULT (§§221–230)
+
+**Checked:** 2026-10-01. **Decision:** `DEC-0021` ACCEPTED by the user's
+explicit direction in §221. This is a planning result. It does not create a
+Slide, Speaker Note, visual asset, PPT, Demo Product State, stale artifact,
+or Trial, and it does not modify `ai-dev-training-demo`.
+
+### DEC-0021
+
+**ACCEPTED.** ACT 4 uses two distinct evidence layers: a conceptual,
+controlled stale-Harness case and an observed evaluation/workflow feedback
+Meta Case. The main Product Story remains the verified `STATE-00` →
+`STATE-04-PERF` history. It has no fabricated Product Evolution or stale
+repository Skill.
+
+### Evidence Types
+
+| Type | Scope and example | Claim boundary |
+|---|---|---|
+| TYPE 1 — OBSERVED PRODUCT DEMO | Actual `ai-dev-training-demo` code, Trials, and Git States: repository exploration, `AGENTS.md`, Context routing, `graypipe-performance`, benchmark procedure, and the measured statistics optimization through `STATE-04-PERF`. | Shows a bounded, verified Product Demo and Working Harness Success. It does not show a stale Skill, post-Harness Product failure, or a Product Improvement Loop. |
+| TYPE 2 — OBSERVED META CASE | Actual training / Demo production history: `TRIAL-006` → `DEC-0016` → `TRIAL-007` → `TRIAL-008`. | Shows a bounded change to Trial evaluation and global-influence reporting. It is secondary, not a Demo Product or repository-owned Skill change. |
+| TYPE 3 — CONCEPTUAL CONTROLLED CASE | Constructed stale-Harness example: a justified Project test-command/layout change updates the canonical source while a formerly correct reusable workflow remains old. | A principle illustration only. It is not a historical `ai-dev-training-demo` change, a recorded Trial, or a claim that this failure occurred. Label it in the visual and later Speaker Notes. |
+
+Never merge the evidence types in one timeline without persistent labels.
+Use the same type labels in Slide captions and Speaker Notes so the audience
+can distinguish observed facts from the constructed case.
+
+### DEMO-04A
+
+- **Role:** short conceptual problem setup for Harness staleness.
+- **Scenario:** `BEFORE`, the canonical Project test entry and the reusable
+  workflow both use `OLD TEST ENTRY`. A separately justified Project need
+  changes its test organization; the canonical Project source then declares
+  `NEW TEST ENTRY`, while the reusable workflow retains `OLD TEST ENTRY`.
+  No specific Project need has been selected for the visual, so do not invent
+  one. Show the stale mismatch only. Whether the old entry fails, finds no
+  tests, or checks the wrong scope has not been established; do not depict an
+  execution or result. Keep the labels schematic and the entire case
+  CONCEPTUAL.
+- **Problem and cause:** a previously correct Harness artifact no longer
+  points at the current Project source. The Agent has not become “dumber”; a
+  system layer is stale. This is an intentionally constructed example, not
+  an observed Demo incident.
+- **Correct-layer comparison:** (A) a Task Prompt patch can unblock this
+  task while leaving the reusable old workflow; (B) adding a duplicate global
+  `AGENTS.md` rule can create overlap or conflict; (C) update the source
+  workflow that contains the stale procedure and remove a duplicate old
+  instruction if needed. Choose C only because the scenario establishes
+  that this workflow is the cause.
+- **Evaluation and regression:** in DEMO-04A, keep the case conceptual and
+  hand off to DEMO-10's four-row evaluation set. EVAL-01/02 refer to separate
+  observed Bug and Performance task chains; they are not rerun to evaluate
+  the conceptual Workflow change. EVAL-03 documentation-only and EVAL-04
+  small-refactor are designed adjacent-task checks with no Trial outcomes.
+  Make clear that no new execution or PASS/FAIL result is shown.
+- **Mode / time:** VISUAL or CAPTURED CONTROLLED EXAMPLE; no LIVE execution.
+  Estimated 4 minutes.
+- **Claim boundary:** visibly label all before/after states as constructed.
+  Do not call them `STATE-07`–`STATE-11`, a real Project migration, actual
+  Trial evidence, or a real Agent failure.
+
+### DEMO-04B
+
+`DEMO-04B` is a captured, observed Meta Case. It follows the conceptual case
+and the Loop explanation; it must not be presented as the cause or repair of
+that constructed stale workflow.
+
+| Phase | Actual history | Evidence boundary |
+|---|---|---|
+| Execution / expected observation | `TRIAL-006` ran a long performance-investigation Prompt on `resize_nearest` in Codex CLI. | Actual Trial; its correctness, code, and benchmark observations remain scoped to the recorded run. |
+| Observation | Four global Skills were loaded: `oh-my-codex:analyze`, `oh-my-codex:performance-goal`, `superpowers:test-driven-development`, and `superpowers:verification-before-completion`. Hook configuration warnings and MCP startup/authentication errors were logged. | Startup warnings and Skills are observed; do not infer that a hook ran or that an MCP result contributed. The event trace contains no MCP tool call. A model rejection/substitution is another environment factor. |
+| Evaluation | Local correctness and benchmark records remained useful, but the full workflow could not be attributed to the Task Prompt alone. | Keep `TRIAL-006` PARTIAL for Prompt-only causality; preserve its bounded measurements and results. |
+| Cause | The evaluation treated the repository and task as the main controlled target without representing all ambient global Harness influences in its attribution model. | This is a limit in Trial design/reporting, not a defect or stale artifact in the Demo Product. |
+| System change | `DEC-0016` separated development-host and learner-environment assumptions, retained `TRIAL-006` as PARTIAL, required later CLI Trials to record observed global influence, and rejected clean-room isolation as a prerequisite. | This is an accepted change in Training Production environment/evaluation governance. It did not update Product code or `graypipe-performance`. |
+| Re-evaluation | `TRIAL-007` required global-influence reporting and its report listed a hook and two Skills; `TRIAL-008` separately recorded explicit repository Skill discovery / invocation and global-influence observations. | The revised reporting was applied partially. `TRIAL-007` says no MCP warning, but retained stderr records Nimble `AuthRequired`; no MCP task result is evidenced. No before/after Trial-quality metric was measured. |
+
+The Trial-006 audit also records bounded Skill effects: `performance-goal`
+created ignored evaluator / ledger state and a stricter threshold;
+`verification-before-completion` led to an additional equivalence check;
+the TDD Skill announced a test-first cycle, but the Agent edited production
+code before focused tests and added no regression test. `analyze`'s direct
+effect on the implementation choice is not established. These observations
+show possible global influence without assigning every result to a Skill.
+
+- **Mode / time:** CAPTURED timeline plus a compact evidence audit; no LIVE
+  execution. Estimated 8 minutes.
+- **Claim boundary:** call this an observed Training Production
+  Evaluation / Workflow Loop and a supporting Meta Example. Do not claim a
+  Demo Product change, Skill repair, MCP result use, complete environment
+  inventory, or measured quality improvement.
+
+### Evidence Audit
+
+| Claim | Status | Supported wording / limit |
+|---|---|---|
+| `TRIAL-006` loaded Skills | CONFIRMED | Four names are listed in the environment audit: `analyze`, `performance-goal`, `test-driven-development`, and `verification-before-completion` under the recorded namespaces. Effects are bounded to the CLI run. |
+| `TRIAL-006` hook warnings | CONFIRMED warning; hook effect NOT OBSERVED | Startup logs show configuration/trust warnings. The recorded trust choice indicates hooks would not run; do not claim an executed hook changed the Trial. |
+| `TRIAL-006` MCP | CONFIRMED startup failures; result use NOT EVIDENCED | `t` handshake failure and Nimble authentication-required startup were logged; the event log contains no MCP tool call/result. Never say an MCP answer informed the task. |
+| `TRIAL-006` Prompt-only attribution | PARTIAL | Keep local correctness and measurement evidence; do not infer the outcome was caused by the Prompt alone. |
+| `DEC-0016` system change | CONFIRMED | Accepted Decision changed environment framing and how later CLI Trial influences should be recorded; clean-room isolation was not made a prerequisite. |
+| `TRIAL-007` revised reporting | PARTIAL | Its Prompt asked for influence reporting and the result listed a `UserPromptSubmit` `analyze` hook plus two Skills. The current retained summary does not establish that the inventory was complete. |
+| `TRIAL-007` MCP record | PARTIAL / UNKNOWN for task-result use | The report says no MCP warning/use, while `/private/tmp/TRIAL-007-STDERR.txt` records Nimble `AuthRequired`. No MCP task result appears in the available event record; whether an MCP output affected the task is not established. |
+| `TRIAL-008` repository Skill | CONFIRMED for this CLI run | `/skills` exposed `graypipe-performance`; the task explicitly invoked `$graypipe-performance`; the trace contained its instruction body. This is not a Desktop-wide claim. |
+| `TRIAL-008` global-influence record | PARTIAL | The recorded audit lists global instructions / Skills, hook warnings, and MCP initialization issues without attributing an MCP task result. It does not prove complete ambient capture or better Trial quality. |
+| Candidate C improved production / Trial quality | UNKNOWN / NOT MEASURED | The reporting/evaluation rule changed and later records applied it partially; no objective before/after quality metric is recorded. |
+
+### Loop Definition
+
+**Operational Definition candidate:** “개발자는 Agent 실행 결과와 실패·마찰을
+관찰하고, 원인과 반복 가능성을 근거에 맞게 판단한 뒤, 적절한 Product 또는
+작업 System layer를 개선하고, 같은 과제와 대표 과제를 다시 평가해 다음
+실행에 반영한다.”
+
+This retains the STEP 03 meaning: evidence-informed feedback, cause and
+repeatability judgment, an appropriate system change, and re-evaluation.
+The developer owns the judgment. Automation may help operate the feedback
+process, but automation, self-learning, autonomous Agent growth, and
+infinite repetition are not the definition. The Problem-specific Prompt
+patch in DEMO-04A is an immediate workaround; the durable improvement targets
+the reusable workflow because the controlled cause is located there. This
+candidate aligns with the Loop entry in `references/TERMINOLOGY.md` (CLM-0021)
+and `plan/MASTER_PLAN.md` §§5.9 and 14; final teaching wording remains under
+OQ-011 and is not presented as an official or universal definition.
+
+### Story Architecture Changes
+
+| Existing Story material | Approved evidence role change | Content retained |
+|---|---|---|
+| BEAT-037 — Working Harness success | Keep TYPE 1 as the actual Product endpoint at `STATE-04-PERF`. | The success and its bounded verification remain before any staleness problem. |
+| BEAT-038–049 — Project change, stale workflow, observation, cause, layer, rerun, evaluation, regression | Use TYPE 3 for the designed stale case and its controlled outcomes; label it conceptual at every transition. | Preserve Project change, stale artifact, wrong-layer alternatives, cause evidence, scoped Harness repair, same-task rerun, EVAL tasks, and regression. None is described as actual Demo history. |
+| BEAT-050–057 — Bloat risk, delayed Loop reveal, Product/Harness Loop distinction, maintenance, Minimum Effective Harness | Keep their order and teaching purpose; evaluate the system response before generalizing from it. | No new feature checklist, automatic loop, or guaranteed-improvement claim. |
+| BEAT-058–059 — Meta Example entry and bounded payoff | Upgrade the prior conditional candidate to TYPE 2, using Candidate C as a supporting case after the Loop has been explained. | Keep the claim limits and core software Product Demo primary. |
+| TRANS-010–012 — Harness staleness → Loop → AI-Native | Keep the problem-first transition. Add explicit evidence labels and keep the conceptual case separate from Candidate C's actual production history. | No beat is deleted; the evidence role changes, not the learning sequence. |
+
+`plan/STORY_ARCHITECTURE.md`, `STORY_BEATS.md`, and `TRANSITIONS.md` have
+not yet been edited in this result. Their next update should implement these
+role labels without removing or compressing the established beats.
+
+### Demo Architecture Changes
+
+Replace the former `DEMO-04A/B` single-repository `STATE-07 → STATE-11`
+failure/repair proposal with:
+
+1. `DEMO-04A` — conceptual controlled visual/capture, BEAT-038–046; no
+   `ai-dev-training-demo` State, Trial, stale Skill, or Live run.
+2. `DEMO-10` — a five-minute visual / captured conceptual evaluation matrix,
+   BEAT-047–049; include all four evaluation task types. Keep EVAL-01/02's
+   prior observed Product evidence in a separate solid frame if referenced;
+   EVAL-03/04 remain designed cases without Trial outcomes. Do not imply a
+   new execution or evaluation result.
+3. Existing Loop model / visual — BEAT-050–053; preserve Product Loop vs
+   Harness Improvement Loop and the manual / assisted / automated distinction.
+4. `DEMO-11` — captured layer/minimality and upkeep-cost synthesis,
+   BEAT-054–057; no new product state.
+5. `DEMO-04B` — captured Candidate C Meta Case, BEAT-058–059; actual
+   training-production evidence, supporting only.
+
+The evaluation labels now follow this step: EVAL-03 is documentation-only
+and EVAL-04 is the small refactor. `DEMO_REPOSITORY_SPEC.md` and
+`DEMO_RUNBOOK_SPEC.md` have been aligned; no corresponding Product State or
+code was created.
+
+### STEP 08 — S64 / DEMO-10 visual scope reconciliation
+
+S64 keeps EVAL-01 through EVAL-04 in the approved four-row conceptual
+evaluation set. EVAL-01 and EVAL-02 have prior OBSERVED_PRODUCT evidence in
+their own State chains; that evidence is a reference, not a rerun or outcome
+of DEMO-10 or the conceptual DEMO-04A case. EVAL-03 and EVAL-04 are designed
+adjacent-task checks with no completed Trial, Product State, or PASS/FAIL
+result. The five-minute DEMO-10 slot is a static visual explanation, not an
+execution of all four tasks. Keep any historical Product evidence in a
+separate solid frame from the conceptual matrix.
+
+### Time Budget
+
+The design remains inside ACT 4's existing 22-minute Demo allocation:
+
+| Slot | Minutes |
+|---|---:|
+| DEMO-04A conceptual case | 4 |
+| Loop model / visual | 2 |
+| DEMO-10 evaluation and regression | 5 |
+| DEMO-11 layer and minimality synthesis | 3 |
+| DEMO-04B observed Meta Case | 8 |
+| **Total** | **22** |
+
+This is an internal reallocation, not additional instruction time. All five
+slots are planning estimates and require rehearsal; DEMO-04A and DEMO-04B
+remain visual/captured so run variance does not consume the ACT budget.
+
+### Teaching Payoff
+
+- **Prompt:** a task-specific correction can unblock one execution without
+  updating a reusable procedure.
+- **Context:** current Project sources and task-relevant instructions must
+  be distinguished from an old workflow artifact.
+- **Harness:** reusable instructions and workflows can help repeated work,
+  but they must be maintained at the layer supported by the cause.
+- **Loop:** observe evidence, assess cause and recurrence, improve the
+  appropriate system, rerun representative tasks, and check regression.
+
+The Product Demo provides concrete, observed progress through a working
+Harness. The conceptual case makes future staleness legible; the Meta Case
+shows that evaluation and reporting rules can themselves change in response
+to evidence. Together they recover Prompt → Context → Harness → Loop without
+making any of the three evidence types look interchangeable.
+
+### Next Readiness
+
+**STEP 07 STORY / DEMO ALIGNMENT COMPLETE.** DEC-0021 is accepted; the
+evidence types, 04A/04B roles, beat mapping, EVAL task labels, claim audit,
+and 22-minute allocation are mapped across the current Story and Demo
+records. No Slides, visual assets, PPT, new stale Harness State, Trial, or
+Demo repository change was made in this step.
+
+## STEP 07 USER GATE RESOLUTION — 2026-10-02
+
+DEC-0007 is ACCEPTED with the approved 360-minute mode totals: Lecture 130,
+Demo 73, Case 83, Reflection 20, Transition 22, and Q&A/Discussion 32.
+DEC-0022 establishes a separate Final Content Freeze Gate. STEP 08 Slide
+Architecture and Slide Map are READY; OQ-003, OQ-005, OQ-006, OQ-011, and
+OQ-014 do not block the map. Label affected claims where needed, and resolve
+those questions before Final Content Freeze. STEP 08 owns exact Q&A,
+Reflection, and Transition placement. No slide-level timing, PPT, final
+design, complete Speaker Notes, image, or Demo video is created by this gate
+resolution.

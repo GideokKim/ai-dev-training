@@ -1,6 +1,12 @@
 # Demo Repository Specification
 
-> Status: **STATE-00 through STATE-04-PERF implemented and recorded; STATE-04 remains tagged at `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`; STATE-04-PERF is tagged at `6153b81c0187dd7d82c88bd1817fb683c98eb431`; statistics change and required validation passed; TRIAL-008 PASS in Codex CLI 0.154.0; no remote push and no Demo remote; learner environment remains primarily Windows-based, exact interface and Desktop behavior remain open; DEC-0018 defers Subagents and DEMO-07; Memory is not justified yet; Final Anchor rehearsal pending**
+> Status: **STEP 07 complete with open questions; DEC-0007's aggregate
+> schedule is accepted and DEC-0022 sets STEP 08 Slide Map readiness to READY
+> (2026-10-02). The observed Product path ends at STATE-04-PERF; DEC-0020
+> found no justified Project Evolution and DEC-0021 selects separate
+> conceptual/observed ACT 4 paths. Windows/Desktop rehearsal and current
+> product checks remain open for Final Content Freeze; Q&A and
+> Reflection/Transition placement is STEP 08 work. No Demo remote.**
 >
 > Date: 2026-09-30
 >
@@ -17,8 +23,22 @@
 Specify one compact software Project that can make the six-hour training's
 continuous Story observable. The Project should support repository
 exploration, a bounded bug fix, a performance task, project guidance, a
-reusable work procedure, project evolution, Harness staleness, and
-evaluation/regression checks without making its domain the lesson.
+reusable work procedure, and a verified Working Harness Success without
+making its domain the lesson. ACT 4 uses a conceptual stale-Harness case and
+a separate observed Training Production Meta Case; neither extends the
+Product State history.
+
+## Current STEP 07 Direction
+
+The observed Product path is `STATE-00 → STATE-00-FIXED → STATE-01 →
+STATE-02 → STATE-03 → STATE-04 → STATE-04-PERF`. Benchmark-preparation
+commits are evidence prerequisites, not named States. DEC-0020 found no
+implementation-ready Project change; DEC-0021 keeps the Primary Product Demo
+at `STATE-04-PERF`, uses `DEMO-04A` only as a conceptual controlled stale-
+Harness case, and uses `DEMO-04B` as a separate observed evaluation/reporting
+Meta Case. Do not implement or present `STATE-05` and later proposals as
+Product history. The prior detailed state proposal is retained below as
+historical design material only.
 
 ## Audience
 
@@ -390,19 +410,16 @@ parameters and refresh trigger. The §§181–190 audit found these recoverable
 from the benchmark scripts, README, and dated Trial evidence, and found no
 cross-task rediscovery cost. Do not retain them as Memory at this State.
 
-**Conditional temporal staleness candidate:** only if a later Trial justifies
-a durable fact and its STATE-06 record is explicitly authorized, record the
-fact's source, scope, and actual verification date. For an optional later-task visual/captured case,
-show an explicitly later session after a separately identified change to the
-synthetic image workload or generator. Compare the dated note with the
-current Project evidence, then refresh or retire it. The interval and changed
-conditions make the freshness question visible; elapsed time alone does not
-make an unchanged fact false. Keep this supporting case separate from the
-primary STATE-08/09 stale-workflow Failure, whose sole stale artifact remains
-the repository-owned performance Skill. Do not imply product Memory behavior, create a second
-Live failure, or present the controlled timeline as production history. This
-candidate remains optional until a Trial shows it is natural and clear. No
-STATE-06 or Memory artifact is created by the current assessment.
+**Former optional temporal-staleness proposal; not selected for the current
+Story:** an earlier design considered a later, explicitly authorized durable
+fact with a source, scope, and verification date, followed by a separately
+identified change to the synthetic workload or generator. A conceptual visual
+could compare the dated note with current Project evidence and discuss whether
+to refresh or retire it; elapsed time alone does not make an unchanged fact
+false. This remains outside the selected ACT 4 evidence paths and does not
+create a `STATE-06`, Memory artifact, Trial, or Product event. Do not connect
+it to the superseded `STATE-08/09` stale-workflow proposal or imply product
+Memory behavior or production history.
 
 ## Harness Components
 
@@ -418,7 +435,12 @@ target product supports or can fairly illustrate them:
 
 This list is not a required product feature checklist.
 
-## Project Evolution
+## Former Project Evolution Proposal — Historical
+
+**Current status:** DEC-0020 found no implementation-ready Product change.
+The stale-workflow idea remains only as conceptual DEMO-04A under DEC-0021.
+The following product-change proposal is retained as design history and is
+not an implementation instruction.
 
 **Evolution candidate:** after a working Harness is demonstrated, make one
 documented Project Test-layout or Test-procedure change for a clear
@@ -437,29 +459,41 @@ Skill procedure, not missing dependencies or a broken environment. Prefer this
 small, visible Test change over a build-system migration whose setup or
 terminology becomes the lesson.
 
-## Stale Harness Scenario
+## DEMO-04A — Conceptual Stale Harness Case
 
-Candidate A is the primary proposal: a formerly correct reusable Test
-procedure runs an old command or test location after a documented Project
-change.
+This is a constructed teaching case, not an event in `ai-dev-training-demo`
+or a result from a Trial. Keep every before/after state visibly labeled
+CONCEPTUAL. The primary Product history ends successfully at
+`STATE-04-PERF`.
 
-Required evidence chain:
+The case models a formerly correct reusable Test procedure becoming stale
+after a separately justified Project change. For the visual, use schematic
+labels `OLD TEST ENTRY` → `NEW TEST ENTRY`; do not invent a command, test
+layout, or Project reason.
 
-1. Show the artifact was correct for the earlier state.
-2. Show the Project changed and its current source-of-truth documents say so.
-3. Show the reusable artifact was not updated.
-4. Use a natural task; do not prompt the Agent to fail.
-5. If recurrence was not observed, label captured tasks as a designed
-   controlled history, not real incidents.
-6. Allow a task-level correction, then explain why it does not repair the
-   reusable artifact.
-7. Inspect repository instructions, current Project docs, reusable
-   procedure, and environment before forming a cause hypothesis.
-8. Update the implicated artifact layer. Avoid duplicating the same command
-   in `AGENTS.md` if the stale component lives in the reusable
-   workflow.
-9. Rerun the same task and use the representative Evaluation set.
-10. Check that the correction did not overreach into unrelated tasks.
+Conceptual sequence:
+
+1. Establish that the two entries matched in the earlier hypothetical state.
+2. State that an independent Project need justifies a test-organization
+   change. The specific reason remains TODO unless a valid example is later
+   selected; never change the Project merely to create staleness.
+3. Show the canonical Project source declaring the new entry while the
+   reusable workflow still names the old entry.
+4. Show only that the workflow is stale. No old entry has been run against a
+   changed Project, so failure, missing tests, and wrong-scope verification
+   are all unestablished outcomes.
+5. Keep every state visibly labeled CONCEPTUAL. Do not create a real-looking
+   terminal, Trial, Git State, or Product history.
+6. Compare a task-level workaround with updating the source workflow; explain
+   the latter only as the conceptual response to the stipulated stale layer.
+7. Keep EVAL-01/02 prior observed Product references separate from the
+   conceptual frame. EVAL-03/04 are designed adjacent-task checks without
+   Trial outcomes.
+8. Do not claim a real failure, repair, rerun, or successful regression.
+
+Any later concrete Runner example requires a technical plausibility check
+before it can replace these schematic labels. No specific failure mode is
+approved by this conceptual sequence.
 
 Benchmark staleness, architecture knowledge, stale rules, and Memory
 staleness remain conditional conceptual candidates, not current primary-Demo
@@ -475,8 +509,8 @@ benchmark:
 |---|---|---|
 | EVAL-01 | Bug fix, `STATE-00` → `STATE-00-FIXED` | Investigate first; show the failing boundary regression, scoped fix, and passing regression. Preserve the observed evidence for later Harness evaluation. |
 | EVAL-02 | Performance task, `STATE-04` → `STATE-04-PERF` | Record a baseline, preserve functional output, use the performance procedure, and compare measured results. Preserve the observed evidence for later Harness evaluation. |
-| EVAL-03 | Small refactor at `STATE-11` | Stay within scope, run relevant checks, and avoid an unnecessary full benchmark. |
-| EVAL-04 | Documentation-only change at `STATE-11` | Avoid an unnecessary Build or benchmark; use only checks warranted by the change. |
+| EVAL-03 | Conceptual documentation-only adjacent task in DEMO-04A / DEMO-10 | Illustrate avoiding an unnecessary Build or benchmark; this is not a completed Trial. |
+| EVAL-04 | Conceptual small-refactor adjacent task in DEMO-04A / DEMO-10 | Illustrate scoped checks without a required full benchmark; this is not a completed Trial. |
 
 Assess outcome evidence and appropriate choices, not a required sentence or
 one exact tool sequence.
@@ -503,14 +537,12 @@ Performance optimization into one change:
 | Initial Bug | STATE-00 | Focused regression exposes a candidate crop-boundary defect → change only that boundary behavior → focused regression and related Test checks pass. | Assertion, command, small diff, passing output → STATE-00-FIXED. |
 | Performance | STATE-04 | Record baseline → inspect and plan → optimize an evidence-backed repeated pixel operation/allocation/transformation → run correctness tests and compare identical output → repeat and summarize benchmark. | Input parameters, machine/runtime, observations, summary, output-equivalence evidence → STATE-04-PERF. |
 | Reusable workflow | STATE-04 | Follow the repository-owned performance Skill on a bounded task → observe whether it produces task-appropriate checks. | Skill source, relevant Test output, benchmark record, and review; no fixed Agent wording required. |
-| Harness change | STATE-09 | Observe the stale Skill's nonzero failure → inspect current Project docs, Skill, rules, dependencies, and environment → identify the stale Skill as the sole cause → update that artifact → rerun the same task and evaluate EVAL-03/04. | Failure output, cause evidence, scoped Skill diff, same-task rerun, EVAL-03/04 regression evidence → STATE-10/STATE-11. |
+| DEMO-04A conceptual case | No Product State | Stipulate an independently justified Project-source change and stale reusable procedure → show the schematic mismatch → identify the implicated layer → reason through a scoped correction and same-task check → discuss EVAL-03/04 as designed regression checks. | Clearly labeled conceptual states and bounded check design; no actual correction, rerun, failure, Trial, Skill repair, or Product State is claimed. |
 
-The EVAL-01/02 captures are produced at their named transitions and prove the
-separate Bug and Performance chains; they are not substitutes for evaluating
-the later Harness change. At STATE-11, rerun the same stale-workflow task
-after the procedure is repaired, then review EVAL-03/04 as the adjacent-task
-and scope regression checks. Do not imply that earlier Bug or Performance
-tasks occurred again during the Harness evaluation.
+EVAL-01/02 are recorded Bug and Performance evidence. EVAL-03/04 are designed
+adjacent-task examples for the conceptual case, not completed Trial results.
+Do not imply that earlier Bug or Performance tasks occurred again during
+DEMO-04A.
 
 ## State Model
 
@@ -524,8 +556,8 @@ contains only root `AGENTS.md`; full tests, CLI smoke, and diff checks passed.
 TRIAL-004 passed as one bounded Codex CLI observation. STATE-03 and
 TRIAL-005A/005B are recorded in `plan/DEMO_MATRIX.md`. `DEC-0014` is ACCEPTED.
 STATE-03 is at commit `f3e2e37b1454e28c5de4c44682ebd49378ebae4b` and tag
-`STATE-03`; no remote push was performed. Later states remain proposed.
-Full per-state fields are in the table and reset requirements follow it.
+`STATE-03`; no remote push was performed. The later STATE-04 and
+STATE-04-PERF records below complete the current Product path.
 
 The resize benchmark tool is recorded at commit
 `cef7a27697d38667530fe028e7c2a1ed4703714b`, after the `STATE-03` tag. The
@@ -538,6 +570,10 @@ product optimization and the Trial's statistics change was still in its
 disposable workspace. The later §§191–200 record below advances the product
 to STATE-04-PERF. No Demo remote is configured, so no commit was pushed.
 
+**Historical proposal boundary:** the STATE-05 through STATE-11 rows in the
+following table preserve the former STEP 06 design. They were superseded by
+DEC-0020/DEC-0021 and are not part of the current Product State plan.
+
 | State | Purpose / code state | Project docs | Agent instruction / Harness | Expected Demo and transition |
 |---|---|---|---|---|
 | STATE-00 | Implemented baseline CLI at tag `STATE-00`; documented half-open crop contract has one focused, observed failure. | README, local P2 input/output contract, and Build/Test setup. | No `AGENTS.md`, Skill, Memory, Subagent, or evaluation layer. | Explore the repository and trace a path; inspect the small grayscale boundary case. Transition: correct the bounded defect. |
@@ -547,7 +583,7 @@ to STATE-04-PERF. No Demo remote is configured, so no commit was pushed.
 | STATE-03 design | Baseline is recorded STATE-02; product code, tests, and dependencies remain unchanged. | The accepted topic documents organize the STATE-02 details by topic. | Small always-on root `AGENTS.md` plus task Router, per accepted `DEC-0014`. | TRIAL-005A/005B observed selective image-contract access with broader architecture reads and repeated-run variance. See `plan/DEMO_MATRIX.md`. |
 | STATE-03 | Commit `f3e2e37b1454e28c5de4c44682ebd49378ebae4b`, tag `STATE-03`; product code, tests, dependencies, and README unchanged. | `docs/architecture.md`, `docs/image-contracts.md`, and `docs/testing.md`. | Separate always-on rules from routed Context. `DEC-0014` is ACCEPTED. | Context routing evidence recorded. Transition: consistency of process remains unsolved. |
 | STATE-04 | Commit `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`, tag `STATE-04`; product code, tests, dependencies, and benchmark inputs unchanged. | Keep current Build/Test/Benchmark facts in maintained Project sources. | Commit adds only `.agents/skills/graypipe-performance/SKILL.md` as the sole repository-owned reusable procedure; do not duplicate it in a workflow document. | Full tests 11/11, CLI smoke, resize/statistics benchmark guards, `git diff --check`, and structure validation pass. No remote push. Transition: apply the procedure to a measured hot path. |
-| STATE-04-PERF | DEC-0019 changes only `image_statistics`: remove the flattened temporary pixel list and use row-level built-in reductions; preserve output. | Record input parameters, commands, host/runtime, samples, allocation peak, and comparison. | No Harness artifact changes in this transition. | Focused/full tests, statistics and resize benchmark guards, CLI smoke, and diff review pass; tag `STATE-04-PERF`. Transition: investigate a real Project Evolution that may stale a correct Skill. |
+| STATE-04-PERF | DEC-0019 changes only `image_statistics`: remove the flattened temporary pixel list and use row-level built-in reductions; preserve output. | Record input parameters, commands, host/runtime, samples, allocation peak, and comparison. | No Harness artifact changes in this transition. | Focused/full tests, statistics and resize benchmark guards, CLI smoke, and diff review pass; tag `STATE-04-PERF`. The Product story ends with Working Harness Success. |
 | STATE-05 | Conditional only; product code remains unchanged from STATE-04-PERF. | Document role boundaries only if a real task establishes independent roles. | Optional role separation artifact/config; currently deferred by DEC-0018 because Subagents are not justified at STATE-04. | Reassess only after actual task complexity crosses the role-separation gate; otherwise do not create this state to demonstrate a feature. |
 | STATE-06 | Conditional only; no Memory artifact is currently justified. | Add a sourced, scoped, freshness-aware durable fact only if a later Trial establishes costly cross-task rediscovery. | Repository documentation remains distinct from product Memory. | Reuse and refresh one qualifying fact only after it passes the seven-part gate; otherwise keep the distinction conceptual and omit an implementation state. |
 | STATE-07 | Known-correct baseline and performance change; current workflows and checks agree. | Current commands and verification are documented. | Working Harness; each included component has a reason. | Demonstrate a bounded working task. Transition: Project changes. |
@@ -556,21 +592,16 @@ to STATE-04-PERF. No Demo remote is configured, so no commit was pushed.
 | STATE-10 | Project code remains unchanged from STATE-09 when the evidence identifies only a stale Skill. | Current Project docs remain authoritative. | Repair only the implicated Skill; remove needless duplication. | Rerun the same task and inspect the scoped diff. Transition: validate the system change. |
 | STATE-11 | Final proposed stable code state. | Current docs, commands, and expected outputs agree. | Evaluation and regression cases are ready. | Rerun the same stale-workflow task, then EVAL-03/04; retain EVAL-01/02 as evidence for their separate chains. |
 
-`STATE-05` and `STATE-06` are conditional states, not mandatory feature steps.
-The current Trial audit does not pass either gate. Do not create these states
-now; continue from the last justified State only when the next State's own
-acceptance conditions are met. Never add an empty State to preserve numbering.
+Rows after `STATE-04-PERF` are historical proposals only. DEC-0018 defers
+Subagents and no Memory candidate passed its evidence gate. The approved
+ACT 4 concepts create no Product State or repository change.
 
-Each state record must include Purpose, Code State, Project Docs State,
-Instruction State, Harness State, Expected Demo, Transition from Previous,
-and Reproduction. The transition audit separates the initial bug fix
-(`STATE-00-FIXED`) from `AGENTS.md` introduction, and the product performance
-change (`STATE-04-PERF`) from reusable Skill addition. The stale-state
-transition changes the Project Test procedure once; the subsequent observed
-failure changes no Project code or environment. STATE-09 is restored by
-checking out the STATE-08 Project commit in a clean disposable checkout and
-rerunning the recorded task against the still-stale procedure; its observed
-failure is a run record, not a new Project commit.
+Each recorded State includes its code, Project documents, instruction/Harness
+change, Demo purpose, transition, and reproduction evidence. The transition
+audit separates the initial bug fix (`STATE-00-FIXED`) from `AGENTS.md`
+introduction, and the product performance change (`STATE-04-PERF`) from the
+reusable Skill. DEMO-04A is a conceptual illustration and has no repository
+reset or State tag.
 
 For every row, Reproduction means: select that state's commit/tag, restore a
 clean working tree from a fresh or disposable checkout, use the recorded
@@ -580,10 +611,9 @@ dependency identifier, known result, and reset command in its Runbook entry.
 The candidate reset is to check out the recorded state ref in a fresh or
 disposable checkout, never to depend on manual edits made during the prior
 Demo. Exact refs, reset commands, dependency identifiers, and results are
-implementation outputs. STATE-00 now has a verified tag and reset command;
-later STATE identifiers remain logical labels until implemented. A
-transition changes one principal concept; preparatory changes are documented
-rather than hidden.
+implementation outputs. STATE-00 and STATE-00-FIXED have verified tag/reset
+evidence; no later Product State is currently planned. A transition changes
+one principal concept; benchmark preparation remains documented separately.
 
 ## Git State Strategy
 
@@ -591,18 +621,19 @@ Use one linear Git history with one reviewable commit for each meaningful
 Project transition. STATE-00 uses commit
 `22e7e2f806de2419b0df649107bbae14dea082eb` and tag `STATE-00`.
 `STATE-00-FIXED` uses commit `6dab644ea53e899e6d65b70bc4383bd2901ded89`
-and tag `STATE-00-FIXED`. Continue using state tags as Demo reset anchors and
-store exact refs and reset commands in each Runbook record. STATE-09 reuses
-STATE-08's commit and adds a captured execution record. Avoid a branch per
-state. The strategy remains subject to classroom reset stability.
+and tag `STATE-00-FIXED`. The current named Product States end at
+`STATE-04-PERF`; use their tags as reset anchors and keep benchmark-preparation
+commits distinct. DEMO-04A/04B do not create repository commits or tags.
+Avoid a branch per state. The strategy remains subject to classroom reset
+stability.
 
 Before each run, record state identifier, commit/tag, clean working-tree
 status, dependencies, known Test result, and benchmark input/state. Prepare
 the checkout before class; do not depend on a complicated mid-Demo branch
 operation. STATE-00 was reset with the disposable-worktree command recorded
 in its evidence section. The STATE-00-FIXED tag was checked out in a fresh
-detached worktree and its full Test suite passed. Exact refs and reset
-commands for later states remain TBD until those states exist. The Demo
+detached worktree and its full Test suite passed. Remaining learner-environment
+and product-surface rehearsal is tracked under OQ-003/OQ-005. The Demo
 repository has no configured remote, so its local state refs are not pushed.
 
 Every Git history explanation must say that this is a training-designed
@@ -871,3 +902,23 @@ ranges; no resize performance conclusion is drawn.
 `STATE-04-PERF` points to it. `STATE-04` remains at its original commit. No
 remote is configured and no push was made. Complete individual samples,
 commands, audit, and claim boundaries are in `plan/DEMO_MATRIX.md`.
+
+## STEP 07 — §§201–210 Project Evolution Candidate Gate
+
+The working baseline remains STATE-04-PERF. Candidate A–E were assessed in
+`plan/DEMO_MATRIX.md` against independent Project value, current repository
+justification, and the ability to produce one clear stale Harness artifact.
+No candidate is ready to implement. In particular, the current performance
+Skill discovers benchmark and test commands from Project sources; it does not
+pin benchmark filenames, test paths, or a runner. A correctly maintained
+Project source would therefore let it adapt to the proposed A, B, D, or E
+changes rather than make the Skill stale.
+
+The existing test-layout/test-procedure scenario remains a conditional Story
+direction, not authorization to reorganize the current 11-test suite. A
+future candidate must first have a Product-side reason independent of AI and
+then identify one previously correct artifact whose old content could
+mislead the Agent. Do not retain outdated documentation or manufacture a
+Failure simply to meet that condition. DEC-0020 records this assessment as a
+proposal; no Project Evolution, stale artifact, Failure Trial, Harness
+repair, or Loop work has started.

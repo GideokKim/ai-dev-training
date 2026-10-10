@@ -1,9 +1,9 @@
 # Story Transitions
 
-> Status: STEP 05 COMPLETE WITH OPEN QUESTIONS through §120; baseline for
-> STEP 06.
-> the current STEP 04 Curriculum. These transitions carry causal questions
-> between events; they are not chapter titles or final slide copy.
+> Status: STEP 05 baseline aligned to STEP 07 evidence on 2026-10-01. These
+> transitions carry causal questions between events; they are not chapter
+> titles or final slide copy. The observed Product path ends at
+> `STATE-04-PERF`; conceptual and Meta evidence paths remain separate.
 
 ## Transition Rule
 
@@ -37,30 +37,30 @@ guardrail. They may be refined later without changing the protected
 | Context separation → Router (BEAT-014 → 015) | Core guidance and task-specific references now have different scopes and possible locations. | The agent needs a way to discover a relevant source. | “Agent가 지금 필요한 정보를 어떻게 발견할까?” | Keep concise core context and point from it to relevant sources. | “Context Router” is the course's Engineering pattern, not an established official Product Pattern. |
 | Router → Progressive Disclosure (BEAT-015 → 016) | `AGENTS.md` provides an entry point to project knowledge. | Bug Fix and Performance tasks need different information at different times. | “Task가 바뀌면 필요한 Context도 어떻게 달라질까?” | Show core Build/Test guidance first, then add Performance guidance and benchmark steps when the task needs them. | Keep the general teaching pattern separate from the product-specific Skills loading behavior. |
 | Progressive Disclosure → Context success (BEAT-016 → 017) | Task-relevant Context is routed in stages. | Routes and references also need to be maintained and checked. | “이 Context 구조를 여러 Task에서 쓰면 무엇이 좋아지는가?” | Show the bounded workflow across multiple tasks before introducing a Process problem. | Present reduced irrelevant context as the case outcome; do not claim universal output improvement. |
-| Context success → Process friction (BEAT-017 → 018) | Prompts are concise, core rules remain, and task-specific Context can be found. | The same Performance task still follows different procedures. | “Project에 대해 알아야 할 것을 다 알려줬는데 왜 작업 방법은 매번 달라질까?” | Compare multiple labeled executions of the same task type. | Context organization is not claimed to cause procedural consistency. |
-| Process variation → Knowledge vs Process (BEAT-018 → 019) | Performance executions differ in baseline, edit scope, tests, and benchmark use. | The learner may confuse missing Project knowledge with a missing procedure. | “정보를 아는 것과 일하는 방법을 아는 것은 같은가?” | Distinguish task Context from the ordered Performance workflow. | Treat Run A/B/C as illustrative unless reproduced and recorded. |
-| Knowledge/Process distinction → repeated procedure (BEAT-019 → 020) | The needed Context and the desired task sequence are now distinct. | The same ordered steps are typed into each Performance Prompt. | “작업 방법도 재사용할 수 없을까?” | Show repeated procedure text across Task 1, Task 2, and Task 3. | Do not jump to a Skill name before repetition is visible. |
-| Repeated procedure → reusable workflow (BEAT-020 → 021) | The developer repeatedly specifies the same baseline, investigation, plan, change, and checks. | The workflow is not yet a Project asset. | “같은 절차를 매번 Prompt에 쓰지 않고 제공할 수 있을까?” | Define one repeatable Performance workflow; use a supported Skill if available or a repository procedure fallback. | The reusable workflow is the Engineering idea; the Product feature is conditional. |
-| Reusable workflow → bounded success (BEAT-021 → 022) | A Performance procedure now exists in a reusable form. | The learner needs to see its steps and checks in use. | “다시 실행했을 때 Baseline·Plan·Test·Benchmark·비교가 드러나는가?” | Examine a bounded run and its verification evidence. | Claim consistency only to the extent supported by recorded runs and criteria; keep the full Harness diagram for later. |
-| Workflow success → complexity expansion (BEAT-022 → 023) | A reusable Performance workflow helps with one class of task. | A candidate performance issue crosses a multi-module call path and brings architecture, benchmark, test, and possible documentation constraints into one safe-change decision. | “하나의 Performance 절차로 이 복합 Task도 충분할까?” | Expand the same Project's task complexity and show why its call path and regression risk create distinct investigations. | Keep the same evolving Project; treat the case as a Demo Assumption until a selected repository supports it; do not portray workflow success as failure. |
-| Complexity → Role Separation problem (BEAT-023 → 024) | One agent switches among investigation roles and kinds of Context; some questions may be independent. | Learners need to see role separation as an Engineering problem before hearing a product feature name. | “Task를 나누는 것뿐 아니라 역할과 Context도 나눌 수 있을까?” | Map role boundaries, dependencies, required Context, and evidence handoff in plain language. | Do not name Subagents before the Role Separation problem is clear. |
-| Role Separation → Subagent mechanism (BEAT-024 → 025) | Role boundaries and integration needs are visible as a design problem. | The developer needs a possible way to perform separate investigations. | “이 역할별 조사를 실제 작업에서 어떻게 나눌 수 있을까?” | Introduce Subagents as one conditional mechanism and distinguish the conceptual diagram from current Product behavior. | Follow STEP 03 evidence and target-surface availability; otherwise use a conceptual fallback. |
-| Subagent structure → bounded success (BEAT-025 → 026) | Main Agent and role-scoped investigations can isolate relevant Context and return evidence for integration. | The learner needs to see what would count as success without an unsupported speed claim. | “각 역할이 필요한 Context에 집중하면서 결과를 어떻게 안전하게 합칠까?” | Show clear roles, independent investigation where possible, useful handoff, and Main Agent integration. | Keep the case controlled or illustrative until selected Demo evidence exists; include context loss, duplication, coordination, and integration costs. |
-| Bounded Subagent success → overuse (BEAT-026 → 027) | Role separation appears useful for a complex task when each role has a clear purpose. | The developer may generalize the success to every task. | “이 구조가 유용했다면 다음 작업에도 역할을 더 나누는 것이 좋을까?” | Contrast the complex investigation with a small bug fix and show possible coordination overhead. | Do not claim measured slowness or cost unless recorded; agent count is not maturity. |
-| Subagent overuse → repeated discovery (BEAT-027 → 028) | More roles can add work when the task does not justify them. | Across tasks, useful project facts are still rediscovered. | “이미 알아낸 Project 사실을 왜 다음 Task에서 또 발견하고 있을까?” | Move from role coordination to a separate cross-task knowledge-reuse friction. | Keep candidate history illustrative unless the Demo repository establishes it. |
-| Re-discovery → Context vs Memory question (BEAT-028 → 029) | Similar facts may be investigated again in later tasks. | Current Context answers what is needed now, but not what is worth keeping for later. | “지금 필요한 정보와 앞으로 다시 사용할 정보는 어떻게 구분할까?” | Let repeated benchmark-condition research motivate a distinct retention question. | Do not present Memory as more information in the current Context or introduce a product mechanism first. |
-| Context/Memory distinction → retention design (BEAT-029 → 030) | Immediate Context and cross-task retention have different purposes. | A useful fact may be worth retaining, but a product's persistent mechanism is not yet selected or verified. | “어떤 지식을 보존해야 다음 작업에 실제로 도움이 될까?” | Separate the Engineering Memory pattern from product Memory and identify implementation options conditionally. | The Project's canonical Source of Truth remains authoritative; do not imply feature availability. |
-| Memory design → bounded reuse (BEAT-030 → 031) | The developer has identified a candidate fact and possible durable locations. | The learner needs to see how validated knowledge may help a later task. | “이 정보는 어디에 보존하고, Task B에는 어떻게 제공해야 할까?” | Carry the Release-build benchmark condition from Task A into Task B's relevant Context. | Label the outcome controlled or illustrative until recorded; do not anthropomorphize AI memory or claim unmeasured time savings. |
-| Memory reuse → lifecycle and staleness (BEAT-031 → 032) | A retained fact can prevent repeating its original investigation while it remains accurate. | The fact may become false after the Project changes. | “프로젝트가 바뀌어 기억이 틀리면 어떻게 발견하고 고칠까?” | Show validation, scope, freshness, update, and retirement with a formerly valid migration note. | Treat staleness as illustrative or observed according to evidence; do not jump straight to Loop Engineering. |
-| Memory lifecycle → tools in the work system (BEAT-032 → 033) | Memory now has validation, scope, retrieval, freshness, update, and retirement concerns. | Context, workflow, role separation, and retained knowledge still need actions in a development environment. | “Agent가 답변한 뒤 실제 변경과 확인은 무엇으로 할까?” | Revisit search, file operations, Shell, Build, Test, Lint, Benchmark, Git diff, documentation, and external tools as task capabilities. | Connect tools to work and evidence; keep availability conditional and avoid a product-feature tour. |
+| Context success → Process friction (BEAT-017 → 018) | Prompts are concise, core rules remain, and task-specific Context can be found. | A teaching model asks whether organized Context alone makes a work process repeatable. | “Project에 대해 알아야 할 것을 다 알려줬는데 왜 작업 방법은 매번 달라질까?” | Introduce the clearly labeled process-variation model, then distinguish it from actual workflow recurrence in TRIAL-006/007. | Do not imply that the Demo Product had observed process failures or that Context caused the variation. |
+| Process variation → Knowledge vs Process (BEAT-018 → 019) | A labeled teaching model contrasts different process paths. | The learner may confuse missing Project knowledge with a missing procedure. | “정보를 아는 것과 일하는 방법은 같은가?” | Distinguish task Context from the ordered Performance workflow. | Run A/B/C are a TEACHING_MODEL, not recorded Product executions. |
+| Knowledge/Process distinction → repeated procedure (BEAT-019 → 020) | The Context/workflow distinction is clear; TRIAL-006 and TRIAL-007 applied the same observable procedure to different performance targets. | The recurring workflow needs one maintained Project-level home. | “반복되는 작업 절차를 어떻게 재사용할까?” | Use the Trial record and DEC-0017 to show workflow repetition leading to a repository-owned Skill. | Do not claim that identical prompts or tasks were repeated. |
+| Repeated procedure → repository-owned Skill (BEAT-020 → 021) | The procedure recurred across distinct Trial paths, and DEC-0017 selected a repository-owned Skill. | The selected CLI run must establish discovery and invocation for its own environment. | “선택한 환경에서 이 Workflow를 실제로 불러올 수 있는가?” | Show TRIAL-008's explicit Skill discovery and invocation on Codex CLI 0.154.0. | This is bounded CLI evidence, not universal behavior or a Skill-superiority claim. |
+| Repository-owned Skill → bounded Product change (BEAT-021 → 022) | TRIAL-008 shows the Skill in the execution context for a real performance task. | The learner needs bounded Product and verification evidence without assuming causality. | “변경과 검증 기록이 실제로 무엇을 뒷받침하는가?” | Trace STATE-04-PERF and its tests, benchmark guards, CLI smoke, and diff review. | Do not isolate the Skill as the cause of the measured improvement or claim general consistency. |
+| Workflow success → role-need audit (BEAT-022 → 023) | A reusable repository-owned Performance Skill supports bounded work. | Should the current Project add roles to its system? | “이 작업에 역할을 나눌 만큼 독립적인 조사가 필요한가?” | Review the actual candidate tasks and compare independent Context needs with handoff and integration cost. | The current audit does not justify Subagents; do not turn the decision into a later Product state. |
+| Role-need audit → conditional role-separation model (BEAT-023 → 024) | Candidate tasks A/B/C fit one Agent; evidence overlaps and independent Context needs are weak. | Another task could have independent investigations or specialization needs. | “어떤 증거가 역할 분리를 정당화할까?” | Map independent work, role-specific Context, dependencies, and handoffs as a conditional model. | Keep the current Product path single-Agent; Subagent is not the inevitable next stage. |
+| Role-separation model → optional Subagent mechanism (BEAT-024 → 025) | The criteria and costs of division are visible before a product term is used. | Learners need one possible mechanism for a justified split. | “필요한 경우 역할별 조사를 어떻게 분리할 수 있을까?” | Show a conceptual Main Agent and scoped investigations, then verify product-surface support before any real mechanism claim. | Keep the diagram conceptual; the primary Product Demo did not run Subagents. |
+| Conditional Subagent model → reviewable success criterion (BEAT-025 → 026) | A role-scoped design could return separate evidence for integration. | A learner may mistake conceptual suitability for an observed result. | “무엇이 달라져야 역할 분리가 유용했다고 볼 수 있을까?” | Define useful, sourced findings, uncertainty, and integration as the criterion. | Do not claim Subagent success, speed, or quality improvement in the primary Demo. |
+| Conditional success criterion → project-specific no decision (BEAT-026 → 027) | The hypothetical design has a criterion but has not been run in the Product Demo. | The current project may not satisfy the division gate. | “이 Project에서는 역할을 나누는 편익이 비용보다 큰가?” | Return to the actual task audit: one Agent is sufficient for current connected tasks. | DEC-0018 defers Subagents at STATE-04; do not imply an observed over-delegation failure. |
+| Subagent decision → Trial-history knowledge audit (BEAT-027 → 028) | Subagent use was not justified by current Project tasks. | Repeated information in Trials may be a fact, a workflow, a task observation, or temporary environment detail. | “반복된 정보는 어떤 종류이며 다시 찾는 비용은 실제로 컸나?” | Classify the actual Trial history before considering Memory. | The audit found no costly missing durable fact; do not manufacture rediscovery. |
+| Trial-history audit → Context vs Memory (BEAT-028 → 029) | Project facts, reusable procedure, and scoped Trial observations have different homes. | Learners may equate any repeated lookup with a Memory need. | “지금 필요한 Context와 다음에도 남겨 둘 지식은 어떻게 다른가?” | Compare immediate task Context with verified, costly-to-rediscover reusable knowledge. | The primary Project has no Memory candidate; the repeated Performance procedure belongs in its Skill. |
+| Context/Memory distinction → conditional retention gate (BEAT-029 → 030) | The current audit found no candidate for persistent retention. | A future project may face a costly, repeated rediscovery problem. | “어떤 조건이라면 이 사실을 보존할 가치가 있을까?” | Check reuse, cost, source/provenance, scope, freshness, and maintenance before choosing storage. | Memory remains optional; product feature availability and canonical Source of Truth stay distinct. |
+| Retention gate → conceptual reuse example (BEAT-030 → 031) | A future fact could meet the retention criteria. | Learners need to see the possible path into a later task. | “다음 Task에서 이 사실을 어디서 찾고 어떻게 확인할까?” | Use a labeled conceptual example with a source and freshness check. | Do not present a stored/reused fact or time saving as observed in this Project. |
+| Conceptual reuse → lifecycle (BEAT-031 → 032) | A conceptual example shows possible cross-task reuse, not actual Product history. | A retained fact may lose freshness or scope. | “무엇을 남기며 언제 다시 확인하거나 버릴까?” | Teach validation, scope, retrieval, refresh, update, and retirement conditionally. | No Memory facility or stale Memory event is claimed for the primary Demo. |
+| Conditional Memory model → tools in the work system (BEAT-032 → 033) | Memory lifecycle is one optional teaching model; the actual Project has Context, routing, and workflow. | Software work still needs observable actions and evidence. | “Agent가 답변한 뒤 실제 변경과 확인은 무엇으로 할까?” | Connect available tools to search, changes, tests, benchmark, diff, and review. | Keep Memory and Subagents out of the actual Harness diagram unless evidence justifies them. |
 | Tools → structural Verification (BEAT-033 → 034) | The agent can search, inspect, edit, and execute within its environment. | Tool use alone does not establish that work is correct or complete. | “검증을 매번 기억해 요청하지 않아도 Workflow에 포함할 수 있을까?” | Compare a Prompt reminder with repeatable task workflows that include checks and review. | Preserve the “Generated ≠ Done” insight and task-level Verification. |
 | Verification → Harness emerges (BEAT-034 → 035) | Reusable work methods now include tools and explicit checks. | Learners need a name for the larger system being assembled. | “우리는 Prompt를 넘어 어떤 전체 작업 환경을 설계하고 있는가?” | Trace the previously motivated parts before naming the course's Harness model. | Keep Harness wording provisional under OQ-011; do not lead with the completed architecture. |
-| Harness emerges → architecture reveal (BEAT-035 → 036) | The developer recognizes the shift from Prompt writing to shaping an agent work environment. | The learner may still not see how the parts relate or how the work pattern evolved. | “좋은 AI Model을 쓰는 것과 좋은 AI 개발 System을 만드는 것은 같은 문제인가?” | Show a product-independent conceptual diagram and compare the beginning and current work patterns. | Treat the diagram as a course model, with optional components and conditional product behavior. |
-| Architecture reveal → Harness success (BEAT-036 → 037) | The assembled system is visible as Context, optional mechanisms, Tools, Execution, and Verification. | A diagram alone does not show whether those parts support a real task. | “이 System은 Performance Task에서 어떻게 함께 작동할까?” | Show one bounded performance task through investigation, plan, implementation, tests, benchmark, and review. | Label the scenario controlled or illustrative until recorded; avoid universal quality or speed claims. |
-| Harness success → time passes (BEAT-037 → 038) | The Harness supports a task under the Project assumptions for which it was designed. | The learner may assume that the system remains current without maintenance. | “Project가 바뀌면 Agent가 따르는 System도 함께 바뀌었을까?” | Advance the same Project by weeks or months and show changes that may outpace its Harness artifacts. | Keep the same evolving Project; do not imply automatic synchronization. |
-| Time passes → stale workflow (BEAT-038 → 039) | Project code and canonical documentation have changed, while some system components may still reflect the old state. | A task can follow an obsolete Build or Test workflow. | “이번 Task에서 옛 Workflow가 사용되면 어떤 일이 생길까?” | Show one clearly labeled CMake/CTest-to-Bazel mismatch and a developer correction. | Treat it as illustrative or controlled unless observed; resolve this task locally and do not introduce Loop from one event. |
-| Local correction → repeated failure (BEAT-039 → 040) | The current task was recovered, but the durable workflow was not updated. | A later task may repeat the same mistake and require the same correction. | “이번 Task를 바로잡았는데 다음 Task도 달라질까?” | Show recurrence across later tasks with evidence status preserved. | Do not claim a real repeated failure without observation; use a controlled case when needed. |
-| Repeated failure → Harness Technical Debt (BEAT-040 → 041) | The same correction can recur because an obsolete system artifact remains. | The learner needs to inspect what in the Harness has fallen behind. | “세 번째 같은 실수가 발생했다면 현재 Task만 고치는 것이 맞을까?” | Identify stale instructions, Skills, Memory, tool setup, duplicate rules, or an obsolete Workflow; compare their maintenance with Product Code. | Present Harness Technical Debt as a bounded Engineering analogy, not official Product terminology or a universal taxonomy. |
+| Harness emerges → actual system view (BEAT-035 → 036) | The working environment is defined as a designed Project-level system. | The learner needs to see how actual Project elements relate. | “Prompt를 넘어 이 Agent가 일할 환경은 어떻게 설계되었나?” | Show Project Context, routing, repository Skill, Benchmark, Tests, tools/environment, and task Prompt boundary. | Identify the diagram as an evidence-based teaching view, not a universal component list. |
+| System view → `STATE-04-PERF` Working Harness Success (BEAT-036 → 037) | The actual system view is grounded in the Demo repository. | A diagram alone does not show whether it supported a task. | “이 System은 실제 Performance Task에서 어떻게 함께 작동했나?” | Trace the observed state path through the verified Product Change and review evidence. | The observed result passes recorded checks; no Subagent or Memory was used or required. |
+| Working Harness Success → conceptual time shift (BEAT-037 → 038) | The Product Demo succeeds at `STATE-04-PERF` within its tested scope. | Learners may assume a successful system stays current automatically. | “Project가 바뀌면 Agent가 따르는 System도 함께 바뀔까?” | Start DEMO-04A as a separate conceptual case where a later Project change could stale an artifact. | Do not describe a subsequent Product state or imply that STATE-04-PERF became stale. |
+| Conceptual time shift → conceptual stale workflow (BEAT-038 → 039) | A separate teaching scenario advances a Project while preserving one old workflow. | The workflow may direct a task to an obsolete command. | “이번 Task에서 옛 Workflow를 따르면 어떤 일이 생길까?” | Show the controlled mismatch and correct one task locally. | Label the whole event CONCEPTUAL; it is not observed repository chronology. |
+| Conceptual local correction → conceptual recurrence (BEAT-039 → 040) | One controlled task is recovered but the hypothetical durable workflow is unchanged. | A later task in the same controlled scenario may repeat the friction. | “이번 Task를 바로잡았는데 다음 Task도 달라질까?” | Show recurrence only inside the labeled controlled case. | No observed stale-workflow recurrence is claimed. |
+| Conceptual recurrence → Harness maintenance question (BEAT-040 → 041) | A controlled scenario repeats a correction because an old artifact remains. | Learners need a bounded name for system-maintenance cost. | “AI가 일하는 System도 유지보수 대상 아닌가?” | Use Harness Technical Debt as an engineering analogy. | The label is not official product terminology or a claim about the Demo repository. |
 | Harness debt → Failure as Signal (BEAT-041 → 042) | Repeated corrections point to a Harness that may represent an earlier Project state. | The developer can keep treating each Failure as a local obstacle or investigate what made it likely. | “이 실패를 이번 Task에서 없애는 것과 System을 개선할 Signal로 보는 것은 어떻게 다를까?” | Reframe recurrence as a reason to investigate the system that shaped behavior. | A Failure is a signal, not proof that the Harness caused it or must change. |
 | Failure signal → Observation (BEAT-042 → 043) | The developer asks why the same command keeps appearing. | The actual command, Context, Skill, Memory, Environment, and prior runs must be inspected. | “Agent가 무엇을 읽고 어떤 순서로 old command를 선택했을까?” | Observe the execution trace and compare it with current Project guidance. | Do not change the Harness before establishing what happened. |
 | Observation → Cause hypothesis (BEAT-043 → 044) | The old command came from a stale Test Skill, while the Project README contains a current Bazel command. | Similar failures can have different causes, and observation alone is not diagnosis. | “이 Failure의 원인은 확인된 사실인가, 아직 가설인가?” | Compare instruction, Skill, routing, Environment, agent judgment, and task-specific explanations. | Distinguish observed facts from hypotheses and keep causality evidence-bounded. |
@@ -77,9 +77,9 @@ guardrail. They may be refined later without changing the protected
 | Memory maintenance → Skill maintenance (BEAT-054 → 055) | A stale Memory can be validated, updated, or retired. | Reusable Skills can also preserve incomplete procedures. | “Skill이 에러 없이 실행되어도 성과를 비교하지 못하면 충분한가?” | Add baseline, comparison, correctness, and regression checks to the Performance workflow. | Treat this as workflow quality; do not claim measured performance gains. |
 | Skill maintenance → Subagent maintenance (BEAT-055 → 056) | The Skill's procedure is improved to make comparison and checks possible. | A fixed delegation structure may remain active even when tasks do not need it. | “작은 Task에도 모든 Subagent를 실행해야 할까?” | Classify work by complexity and keep only the roles that contribute useful evidence. | Do not claim cost or latency changes unless they are measured. |
 | Subagent maintenance → Minimum Effective Harness (BEAT-056 → 057) | Delegation can expand or contract with task complexity. | Learners may equate maturity with adding more components. | “현재 반복되는 문제를 해결하는 데 필요한 최소 Harness는 무엇인가?” | Name Minimum Effective Harness as a project heuristic and fit mechanisms to recurring friction. | Do not present examples as a required feature checklist or official taxonomy. |
-| Minimum Effective Harness → meta entry (BEAT-057 → 058) | The learner has a problem-shaped way to size a Harness. | The training repository may or may not have a sufficiently clear history to illustrate its own evolution. | “이 교육자료 Repository에도 확인 가능한 변화의 기록이 있는가?” | Review actual commits and artifacts before deciding whether to use the repository as a supporting example. | Keep this example conditional; never infer or fabricate past states. |
-| Meta entry → bounded meta payoff (BEAT-058 → 059) | Any candidate repository milestones have been checked against the records. | Real changes do not by themselves prove their motivation or effectiveness. | “기록으로 확인되는 사실과 여기서 주장할 수 없는 것은 무엇인가?” | Map only supported milestones, explain what they illustrate, and keep the core software Demo primary. | Omit the example if evidence or available time is insufficient. If omitted, continue directly from BEAT-057 to BEAT-060. |
-| Meta example or Minimum Effective Harness → full recap (BEAT-059 → 060; optional BEAT-057 → 060) | The Loop and its maintainable parts have been explored; any meta example remains bounded. | The course could still feel like a set of separate mechanisms. | “어떤 문제 때문에 각 단계가 필요해졌고, 다음 변화는 무엇을 해결했나?” | Recap the full Chatbot → Prompt → Context → Harness → Loop journey as one evolving Story. | Preserve problem-before-solution and the same-project narrative; meta material is supporting only. |
+| Minimum Effective Harness → observed Meta Case (BEAT-057 → 058) | The observed Product succeeded with only its justified components. | A distinct real feedback case may show how evaluation/reporting rules change. | “실제 Trial Evidence가 Training Production의 평가 방식을 어떻게 바꾸었나?” | Trace TRIAL-006 → DEC-0016 → TRIAL-007/008 as DEMO-04B. | This is a supporting observed Meta Case, not a continuation or cause of DEMO-04A. |
+| Observed Meta timeline → claim boundary (BEAT-058 → 059) | The actual timeline changed Trial-evaluation and reporting practice. | Evidence remains partial and could be overstated. | “이 기록이 뒷받침하는 것과 뒷받침하지 않는 것은 무엇인가?” | Preserve the TRIAL-007 report/stderr discrepancy and no-MCP-result limit; bound all claims. | Do not claim measured quality improvement, Product code change, or stale Skill repair. |
+| Separate evidence paths → full recap (BEAT-059 → 060) | The conceptual stale case, observed Product path, and observed Meta Case have separate roles. | Learners may still perceive disconnected mechanisms. | “어떤 문제 때문에 각 단계가 필요했으며 어떤 경계가 남았나?” | Recap the single Prompt → Context → Harness → Loop Story and its evidence types. | Keep the top-level progression; do not merge the two ACT 4 paths. |
 | Full evolution recap → AI-Native model (BEAT-060 → 061) | The learner can see the full path and its motivating frictions. | The learner needs a concise name for the resulting change in development practice. | “처음과 지금, Developer가 하는 일은 어떻게 달라졌을까?” | Compare the opening and ending work patterns and present the STEP 03 teaching model. | Label AI-Native Development as this course's model, not universal consensus or full automation. |
 | AI-Native model → developer responsibility (BEAT-061 → 062) | The developer now designs tasks and agent work systems while work can be delegated. | Expanded delegation could be mistaken for surrendering judgment or accountability. | “AI가 더 많은 일을 맡아도 개발자가 계속 책임지는 것은 무엇인가?” | Name goal, trade-off, risk, verification, review, and accountability as developer responsibilities. | Do not imply coding skills are obsolete or treat role tendencies as a rigid division. |
 | Developer responsibility → Verification payoff (BEAT-062 → 063) | The developer retains goals, judgment, verification criteria, risk decisions, review, and accountability. | An Agent's completion statement may still be mistaken for evidence. | “Agent가 끝났다고 말한 것과 완료를 확인할 수 있는 근거는 어떻게 다른가?” | Trace Verification from Prompt request through Context, reusable Harness workflow, and Loop evaluation. | Preserve Generated ≠ Done; Benchmark remains conditional on the task. |
@@ -207,9 +207,9 @@ work sequence, appropriate tools, roles, or checks.
 **Audience Question:** “Agent가 Project를 잘 이해하면 항상 같은 방식으로
 잘 일할까?”
 
-**Reveal:** First show repeated workflow friction and the need to structure
-how work is performed; name Harness only after its parts have earned their
-place.
+**Reveal:** Use BEAT-018/019's labeled teaching model to pose process variation;
+then show the observed procedure recurrence in TRIAL-006/007. Name Harness
+only after its parts have earned their place.
 
 **Key Phrase:** “무엇을 알아야 하는지와 어떻게 일해야 하는지는 같은
 질문일까?”
@@ -219,183 +219,207 @@ place.
 **Evidence:** `CLM-0030`; `OQ-011`;
 `references/engineering/harness-engineering.md`.
 
-### TRANS-006 — Repeated Workflow → Skill
+### TRANS-006 — Repeated Workflow → Repository-owned Skill
 
-**From State:** The developer has identified a repeated procedure for a
-Performance or other recurring task.
+**From State:** TRIAL-006 and TRIAL-007 apply the same observable Performance
+procedure to different targets; DEC-0017 selects a repository-owned Skill.
 
-**Success:** A clear sequence can help structure one demonstrated run.
+**Success:** The procedure recurred across two distinct paths, giving the
+Skill a recorded workflow-reuse rationale.
 
-**New Friction:** Re-entering the same procedure in each Prompt adds
-repetition and may omit steps or checks.
+**New Friction:** The selected product surface still needs to show that the
+repository Skill is discovered and invoked in the intended training run.
 
-**Audience Question:** “같은 작업 방법을 매번 Prompt에 다시 쓰지 않고
-재사용할 수 있을까?”
+**Audience Question:** “선택한 환경에서 이 반복 절차를 재사용할 수
+있는가?”
 
-**Reveal:** Make the Engineering idea of a reusable workflow visible first;
-introduce a supported Skill only if the chosen product surface permits it.
+**Reveal:** Show DEC-0017's repository-owned Skill choice, then use TRIAL-008
+to show explicit discovery and invocation on Codex CLI 0.154.0.
 
-**Key Phrase:** “반복되는 작업 방법을 Project에서 다시 쓸 수 있는 형태로
-둘 수 있을까?”
+**Key Phrase:** “반복된 작업 절차를 Project 안의 재사용 가능한 형태로
+관리할 수 있을까?”
 
-**Do Not Say:** “모든 반복 작업은 반드시 Skill이어야 하고 Skill은 언제나
-동일한 결과를 보장한다.”
+**Do Not Say:** “모든 반복 작업은 Skill이어야 하며 어느 제품 환경에서나
+동일하게 발견되고 같은 결과를 보장한다.”
 
-**Evidence:** `CLM-0006`; `OQ-008`; `references/TERMINOLOGY.md` (Skill);
-`references/product/CAPABILITY_MATRIX.md`.
+**Evidence:** DEC-0017; TRIAL-006/007 procedure recurrence; TRIAL-008 explicit
+discovery/invocation on Codex CLI 0.154.0; Desktop behavior remains under
+OQ-005.
 
-### TRANS-007 — Single Agent → Subagent
+### TRANS-007 — Task complexity → delegation decision
 
-**From State:** A simple task can be handled by one Agent, while a more
-complex task brings several kinds of investigation and context together.
+**From State:** A repository-owned reusable Performance workflow supports a
+bounded task. The actual candidate-task audit is available for review.
 
-**Success:** One Agent remains a reasonable choice for bounded tasks.
+**Success:** Current candidates fit one Agent; their evidence overlaps,
+independent Context needs are weak, and expected coordination work is not
+justified by a demonstrated benefit.
 
-**New Friction:** On a complex task, one Agent may have to switch among
-independent roles or carry too much unrelated investigation context.
+**New Friction:** A different task could contain independent investigations,
+role specialization, Context isolation, or useful parallel work.
 
-**Audience Question:** “복잡한 조사에서 역할과 Context를 어떻게 나눌 수
-있을까?”
+**Audience Question:** “어떤 증거가 역할 분리를 정당화하며 결과를 합칠
+비용은 무엇인가?”
 
-**Reveal:** Consider role separation and context isolation; show Subagents as
-one conditional mechanism, including handoff and coordination costs.
+**Reveal:** Show Subagents as one conditional mechanism through a conceptual
+role map. Consider it only when its independent evidence value exceeds
+handoff, duplication, coordination, and integration costs.
 
-**Key Phrase:** “역할을 나누면 무엇이 쉬워지고, 결과를 합치는 비용은
-무엇일까?”
+**Key Phrase:** “Subagent는 다음 단계가 아니라 Task가 요구할 때 선택하는
+도구다.”
 
-**Do Not Say:** “Subagent를 많이 실행하면 항상 더 빠르고 정확하다.”
+**Do Not Say:** “복합적으로 보이는 Task는 반드시 Subagent가 필요하다” or
+“현재 Demo에서 Subagent가 사용되었다.”
 
-**Evidence:** `CLM-0007`; `OQ-003`, `OQ-005`, `OQ-008`;
-`references/product/CAPABILITY_MATRIX.md`.
+**Evidence:** `OBSERVED_PRODUCT` decision in DEC-0018 and
+`plan/DEMO_MATRIX.md` §§171–180; `TEACHING_MODEL` in BEAT-024–026.
 
-### TRANS-008 — Repeated Rediscovery → Memory
+**Related Invariants:** `INV-MATURITY-007`, `INV-DEMO-003–004`.
+### TRANS-008 — Trial-history audit → Memory decision
 
-**From State:** Each task receives relevant immediate Context, and the Agent
-can investigate Project facts when needed.
+**From State:** Current Project Context and routing serve bounded tasks; the
+Trial record contains repeated project, workflow, environment, and benchmark
+information that needs classification.
 
-**Success:** The current task can proceed with verified information.
+**Success:** Project facts have source/code or maintained-document homes; the
+repeated Performance procedure has a repository Skill; Trial observations are
+scoped to task, host, runtime, and workload.
 
-**New Friction:** The same useful fact is rediscovered across later tasks.
+**New Friction:** No costly rediscovery of a reusable Project fact missing
+from its maintained Source of Truth is evidenced.
 
-**Audience Question:** “이미 확인한 Project 지식을 왜 다음 Task에서 또
-조사하고 있을까?”
+**Audience Question:** “이 정보는 Context, Source of Truth, Workflow, Trial
+Observation, temporary detail, 아니면 Durable Knowledge인가?”
 
-**Reveal:** Separate current Context from information worth retaining across
-tasks; explain Memory lifecycle, scope, validation, freshness, and retirement.
+**Reveal:** Explain Memory conditionally: consider it only when costly repeated
+rediscovery and reusable scoped knowledge are supported by provenance and a
+freshness path. The primary Project has no justified Memory candidate.
 
-**Key Phrase:** “이번 Task에 필요한 정보와 다음에도 남겨 둘 지식은 같은가?”
+**Key Phrase:** “Memory는 반복해서 비싸게 다시 찾는 유효한 지식이 있을 때
+고려한다.”
 
-**Do Not Say:** “Memory는 모든 것을 기억하며 Project Source of Truth를
-대신한다.”
+**Do Not Say:** “Trial에서 같은 정보를 봤으니 Memory가 필요하다” or
+“Memory는 Source of Truth를 대신한다.”
 
-**Evidence:** `CLM-0008`; `OQ-003`, `OQ-005`, `OQ-008`;
-`references/TERMINOLOGY.md` (Memory).
+**Evidence:** `OBSERVED_PRODUCT` history audit in `plan/DEMO_MATRIX.md`
+§§181–200, 261–272 and OQ-013; conditional lifecycle in BEAT-030–032.
 
-### TRANS-009 — Components → Harness
+**Related Invariants:** `INV-MATURITY-008`, `INV-DEMO-003`.
+### TRANS-009 — Actual components → Harness reveal
 
-**From State:** Workflow, optional roles, Memory, tools, environment, and
-Verification have each appeared as responses to separate frictions.
+**From State:** The primary Product path has Project Context, routing, a
+repository-owned Performance Skill, Benchmark, Tests, tools/environment, and
+a task Prompt boundary.
 
-**Success:** Each selected element has a visible task-related purpose.
+**Success:** Those elements have distinct, evidence-backed roles. Subagent and
+Memory were reviewed and were not needed for the bounded task.
 
-**New Friction:** A collection of mechanisms does not yet show how they work
-together around a real task or why each belongs in the system.
+**New Friction:** Learners need a system view without turning it into a fixed
+feature count.
 
-**Audience Question:** “필요에 따라 더해진 요소들을 하나의 작업 System으로
-어떻게 볼 수 있을까?”
+**Audience Question:** “Agent가 안정적으로 일하도록 Project 수준에서 어떤
+작업 환경을 설계했는가?”
 
-**Reveal:** Draw a conceptual, problem-shaped work system and show one bounded
-task with conditional product mechanisms.
+**Reveal:** Define Harness as an intentionally designed Project-level working
+environment. Show the observed components after their frictions and roles are
+visible; mark Subagent and Memory as optional and absent from this Product
+Demo.
 
-**Key Phrase:** “각 기능 이름보다 Agent가 일할 조건과 확인 방법을 함께
-설계할 수 있을까?”
+**Key Phrase:** “Harness는 보유한 기능의 수가 아니라 Agent의 작업 조건과
+검증 방법을 설계하는 일이다.”
 
-**Do Not Say:** “모든 Harness는 같은 정식 구성요소를 가져야 한다.”
+**Do Not Say:** “모든 Harness는 AGENTS, Skill, Subagent, Memory, Tools를
+다 가져야 한다.”
 
-**Evidence:** `CLM-0030`; `OQ-011`;
-`references/engineering/harness-engineering.md`.
+**Evidence:** `OBSERVED_PRODUCT` at STATE-04-PERF; `TEACHING_MODEL` wording
+under OQ-011; `INV-MATURITY-005`, `INV-MATURITY-009`.
+### TRANS-010 — Working Harness Success → conceptual staleness
 
-### TRANS-010 — Harness → Harness Technical Debt
+**From State:** The continuous Product Demo has ended at verified
+`STATE-04-PERF`.
 
-**From State:** A bounded task has succeeded under the Project and Workflow
-assumptions for which the Harness was designed.
+**Success:** The bounded Skill-supported Product Change passed the recorded
+focused and full Tests, Benchmark correctness guards, CLI smoke check, and
+diff review. It did not use Subagent or Memory.
 
-**Success:** The system supported that task within the demonstrated scope.
+**New Friction:** A successful system may not remain aligned after a later
+Project change. This is a question for a separate teaching case, not an
+observed change in the Demo repository.
 
-**New Friction:** Project commands, architecture, or knowledge can change
-while reusable instructions, Skills, or Memory remain unchanged.
-
-**Audience Question:** “Project가 바뀐 뒤에도 Agent의 작업 System은 계속
+**Audience Question:** “Project가 바뀐 뒤에도 Agent의 작업 환경은 계속
 현재 상태와 맞을까?”
 
-**Reveal:** Advance the Project timeline and show a plausible stale artifact;
-use Harness Technical Debt only as a bounded engineering analogy.
+**Reveal:** Introduce DEMO-04A as a labeled conceptual controlled example of a
+previously correct workflow becoming stale after an independently justified
+Project change.
 
-**Key Phrase:** “코드가 바뀌었는데 Workflow가 예전 상태를 말하면 어떤 일이
-생길까?”
+**Key Phrase:** “여기까지는 잘 동작합니다. 이제 별도의 개념 사례로 유지보수
+문제를 살펴봅니다.”
 
-**Do Not Say:** “Harness에는 공식 Technical Debt 분류가 있고, 낡은 Rule은
-항상 Failure를 일으킨다.”
+**Do Not Say:** “STATE-04-PERF 뒤에 Demo Product가 바뀌어 Skill이 실패했다.”
 
-**Evidence:** `CLM-0022`, `CLM-0030`; `OQ-001`, `OQ-007`, `OQ-009`;
-`references/engineering/harness-engineering.md`.
+**Evidence:** `OBSERVED_PRODUCT` at STATE-04-PERF; `CONCEPTUAL` in DEC-0021
+and BEAT-038–049.
 
-### TRANS-011 — Harness Failure → Loop Engineering
+**Related Invariants:** `INV-MATURITY-010`, `INV-DEMO-003`.
+### TRANS-011 — Feedback evidence → Loop Engineering
 
-**From State:** A stale workflow has caused one task failure, and the
-developer has corrected that task locally.
+**From State:** DEMO-04A presents a conceptual stale-workflow path through
+observation, cause analysis, a scoped system change, evaluation, and regression
+checking. Separately, DEMO-04B presents actual Training Production Trial
+history: TRIAL-006 → DEC-0016 → TRIAL-007 / TRIAL-008.
 
-**Success:** The current task can recover without immediately changing every
-durable instruction.
+**Success:** The two paths expose a shared teaching pattern:
+`Execution → Observation → Cause → System Change → Re-evaluation`.
 
-**New Friction:** A later task may repeat the same correction because the
-system that shaped it was not changed.
+**New Friction:** The common pattern could be mistaken for automatic repetition,
+model self-learning, or evidence that the conceptual case caused the observed
+Meta decision.
 
-**Audience Question:** “같은 Failure가 다시 나타난다면 이번 Task만 고치는
-것으로 충분할까?”
+**Audience Question:** “서로 다른 Feedback 사례에서 무엇이 공통이고, 각
+사례가 실제로 증명하는 범위는 어디까지인가?”
 
-**Reveal:** Observe execution, separate fact from cause hypothesis, change a
-supported layer, rerun, evaluate representative tasks, and check regression.
-Distinguish Product Loop from Harness Improvement Loop and keep automation
-optional.
+**Reveal:** Name feedback-driven system improvement after the steps appear.
+Distinguish Product Loop from Harness Improvement Loop. Preserve each path's
+evidence class and causal boundary.
 
-**Key Phrase:** “실패를 관찰하고 원인을 확인해 다음 실행의 System을 개선할
-수 있을까?”
+**Key Phrase:** “Loop는 실행을 반복하는 것만이 아니라 관찰을 통해 다음
+System 결정을 평가하는 구조다.”
 
-**Do Not Say:** “한 번의 실패가 Harness 원인을 증명하거나 Agent가 스스로
-계속 학습하게 만든다.”
+**Do Not Say:** “실제 Trial이 stale Product Skill을 고쳤다” or “한 번의
+성공으로 System 품질 개선이 증명됐다.”
 
-**Evidence:** `CLM-0020`, `CLM-0021`, `CLM-0029`; `OQ-009`;
-`references/engineering/loop-engineering.md`;
-`INV-LOOP-001`.
+**Evidence:** `CONCEPTUAL` DEMO-04A and `OBSERVED_META` DEMO-04B under
+DEC-0021; `INV-LOOP-001`; `plan/DEMO_MATRIX.md` §§221–230.
 
+**Related Invariants:** `INV-LOOP-001`, `INV-DEMO-003–004`,
+`INV-VERIFY-001`.
 ### TRANS-012 — Loop → AI-Native Development
 
-**From State:** The learner has seen task outcomes feed a bounded, evaluated
-change to Product Code or the system shaping later Agent work.
+**From State:** The learner has seen the observed Product success, a separate
+conceptual maintenance case, and a bounded observed Meta feedback case.
 
-**Success:** Feedback can inform an appropriate next task or system decision.
+**Success:** The Story connects them through evidence-informed system
+improvement while preserving what each path does and does not support.
 
-**New Friction:** The learner may mistake greater delegation or automation
+**New Friction:** The learner may mistake increasing delegation or automation
 for transferring engineering judgment and accountability.
 
 **Audience Question:** “시스템이 더 많은 일을 지원해도 Developer가 계속
 책임지는 것은 무엇인가?”
 
-**Reveal:** Recap the whole problem-driven Story and name AI-Native Development
-as this course's operational teaching model: developers design agent work
-environments and feedback systems while retaining goals, judgment,
-verification, and responsibility.
+**Reveal:** Recap the single problem-driven Story as this course's operational
+AI-Native Development model: developers design agent work environments and
+feedback while retaining goals, judgment, verification, and responsibility.
 
 **Key Phrase:** “AI를 사용하는 데서 AI가 일할 System을 설계하는 데로 관점이
 어떻게 넓어졌을까?”
 
 **Do Not Say:** “AI-Native는 업계가 합의한 최종 성숙도이거나 개발자의
-코딩 역량이 더는 필요 없다는 뜻이다.”
+책임을 AI로 옮긴다는 뜻이다.”
 
-**Evidence:** `CLM-0023`, `CLM-0024`; `OQ-011`;
-`references/engineering/ai-native-development.md`;
-`references/TERMINOLOGY.md` (AI-Native Development).
+**Evidence:** `INV-NARRATIVE-001–002`, `INV-LOOP-001`, `INV-DEMO-003`;
+BEAT-060–071; the split evidence roles in DEC-0021.
 
 ## Transition Quality Audit
 
@@ -409,11 +433,12 @@ preserve the causal handoff and presenter guardrails.
 | Does the new friction arise from scale, repetition, complexity, or project change? | PASS | Each major transition records the event that makes the next problem visible. |
 | Can learners feel the need before hearing the next term? | PASS | Each TRANS record places an audience question before the Engineering reveal. |
 | Is the proposed response a plausible option rather than the only possible fix? | PASS | Product mechanisms are conditional; conceptual fallbacks remain available. |
-| Is the failure fair and recognizable rather than staged to ridicule an Agent? | PASS WITH DEMO GATE | Scenarios use ordinary tasks; actual reproductions and surface setup remain unresolved. |
+| Is the failure fair and recognizable rather than staged to ridicule an Agent? | PASS WITH EVIDENCE LABELS | DEMO-04A is conceptual; the separate observed Meta path retains its recorded scope and attribution limits. |
 | Is a failure being invented solely to justify the next technology? | PASS | No transition requires a fabricated observation; hypothetical states stay labeled. |
 
-**Overall: PASS WITH EVIDENCE GATES.** Product behavior, failure
-reproducibility, and observed outcomes are not implied by this audit.
+**Overall: PASS WITH EVIDENCE LABELS.** Observed Product and Meta outcomes
+remain bounded to their records. Demo packaging and the selected presentation
+surface still need their own checks; DEMO-04A remains conceptual.
 
 ## ACT Handoffs
 
@@ -445,24 +470,33 @@ first reusable guidance provided value.
 
 **Ask:** “Agent가 Project를 잘 이해하면 항상 같은 방식으로 잘 일할까?”
 
-**Next event:** Show a repeated procedure whose execution or checks are not
-yet made reusable. Move from knowledge to the work method and environment.
+**Next event:** Distinguish the labeled process-variation teaching model from
+the observed recurrence across TRIAL-006/007, then follow DEC-0017 and
+TRIAL-008 to the repository-owned Skill. Move from Project knowledge to the
+reusable work method and environment.
 
 ### ACT 3 → ACT 4
 
-**Carry forward:** A work system can combine only those context, workflow,
-role, knowledge, tool, environment, and check elements that answer visible
-needs.
+**Carry forward:** `STATE-04-PERF` is a bounded, verified Product success. The
+actual Harness used Project Context, routing, a reusable Performance Skill,
+Benchmark, Tests, tools/environment, and a task Prompt boundary; it did not
+need Subagent or Memory.
 
-**Ask:** “잘 만든 Harness가 Project 변화 뒤에도 계속 맞을까?”
+**Ask:** “Project 변화 뒤에도 이전에 잘 맞던 Workflow가 계속 맞을까?”
 
-**Next event:** Let time pass, resolve the first stale-workflow failure locally, then show its recurrence. Observe before diagnosing, make a scoped change, evaluate and check regression, revisit Context bloat, and reveal the full Loop only after its parts are visible.
+**Next event:** Start DEMO-04A as a separate, labeled conceptual controlled
+case. Show stale-workflow friction, observation, cause, scoped change,
+evaluation, and regression without adding a Product State or implying a real
+Demo-repository failure. Later show DEMO-04B as a distinct observed Trial
+history path.
 
 ### ACT 4 → ACT 5
 
-**Carry forward:** A bounded, evidence-informed change can improve the system
-for the evaluated scope; uncertainty and regression risk remain. The developer
-still owns the goal, judgment, risk, verification criteria, and review.
+**Carry forward:** The conceptual stale-Harness case and observed Meta Case
+share a feedback pattern, but remain separate histories with different
+Evidence Types. No measured Product or training-quality improvement is
+claimed. The developer still owns the goal, judgment, risk, verification
+criteria, and review.
 
 **Ask:** “지금 자신의 업무에서 다음으로 바꿀 수 있는 것은 무엇인가?”
 

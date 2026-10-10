@@ -1,6 +1,12 @@
 # Demo Architecture
 
-> Status: **STATE-00 through STATE-04-PERF implemented and recorded; STATE-04 remains tagged at `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`; STATE-04-PERF is tagged at `6153b81c0187dd7d82c88bd1817fb683c98eb431`; statistics change and required validation passed; TRIAL-008 PASS for explicit Skill use on Codex CLI 0.154.0; no remote push and no Demo remote; macOS remains the current development/partial validation host and learners are primarily Windows-based; exact learner interface and Desktop behavior remain open; DEC-0018 defers Subagents and DEMO-07; Memory is not justified yet; Final Anchor rehearsal pending**
+> Status: **STEP 07 complete with open questions; DEC-0007 schedule accepted
+> and DEC-0022 sets STEP 08 Slide Map readiness to READY (2026-10-02).
+> Product path ends at STATE-04-PERF; DEC-0020/DEC-0021 govern the
+> no-Product-Evolution outcome and separate conceptual/observed ACT 4 paths.
+> Windows/Desktop rehearsal and current product checks remain open for Final
+> Content Freeze; exact Q&A and Reflection/Transition placement is STEP 08
+> work. No Demo remote.**
 >
 > Date: 2026-09-30
 >
@@ -33,7 +39,8 @@ bring laptops or perform exercises.
 - `plan/DECISIONS.md`: `DEC-0011` accepts the repository, language, domain,
   and delivery direction; `DEC-0012` selects its local sibling path;
   `DEC-0016` clarifies environment roles. `DEC-0010` is
-  superseded. `DEC-0007` and `DEC-0008` retain their statuses. OQ-001 and
+  superseded. DEC-0007 is ACCEPTED as of 2026-10-02; DEC-0008 retains its
+  status. OQ-001 and
   repository/delivery planning are resolved; DEC-0016 keeps exact Windows
   setup and the final presentation interface open under OQ-003. OQ-005 and
   other implementation questions remain governed there.
@@ -196,30 +203,27 @@ CLI, and created the verified `STATE-00-FIXED` state. Evidence is recorded in
 `plan/DEMO_REPOSITORY_SPEC.md` and `plan/DEMO_MATRIX.md`. No performance
 result or Codex Desktop Anchor validation is claimed.
 
-## Demo State Evolution
+## Current Demo State Evolution
 
-Proposed path with evidence-gated optional States:
+The observed Product path is `STATE-00 → STATE-00-FIXED → STATE-01 →
+STATE-02 → STATE-03 → STATE-04 → STATE-04-PERF`. Benchmark preparation
+commits are recorded evidence, not named States. `STATE-04-PERF` is the
+Working Harness Success and the final Product endpoint for STEP 07.
 
-`STATE-00 → STATE-00-FIXED → STATE-01 → STATE-02 → STATE-03 → STATE-04
-→ STATE-04-PERF → [STATE-05, if the Subagent gate passes]
-→ [STATE-06, if the durable-knowledge gate passes]
-→ STATE-07 → STATE-08 → STATE-09 → STATE-10 → STATE-11`
+After that endpoint, ACT 4 uses two separate paths: DEMO-04A is a conceptual
+controlled stale-Harness case; DEMO-04B is an observed Training Production
+evaluation/reporting Meta Case. Neither changes the Demo repository or adds
+a Product State. DEC-0020/DEC-0021 supersede the earlier proposed STATE-05
+through STATE-11 Product sequence; any older references below are historical
+design records, not an implementation plan. Git history remains a
+training-designed evolution, never authentic production history.
 
-The detailed code, Project documents, instructions, Harness state, purpose,
-transition, and reset expectations are in
-`plan/DEMO_REPOSITORY_SPEC.md`. Each transition introduces one meaningful
-change. Git history may be used as transparent training evidence; it must be
-described as an educationally designed evolution, never as authentic
-production history.
+## Historical Stale Harness Scenario Comparison
 
-`STATE-05` and `STATE-06` are optional checkpoints, not required feature
-steps. The STATE-04 assessment does not pass either gate: do not create
-STATE-05 for Subagents or STATE-06 for Memory unless later evidence meets its
-respective criterion. Continue to STATE-07 with only justified Harness
-components when its acceptance conditions are met; do not create empty States
-to preserve the numbering.
-
-## Stale Harness Scenario Comparison
+This comparison predates the final Project Evolution candidate gate. It does
+not authorize a Product change or State. DEC-0020 found no qualified Project
+change; only the explicitly conceptual DEMO-04A case remains in the current
+Story.
 
 | Candidate | Audience clarity | Reproducibility | Cause clarity | Harness relevance | Loop relevance | Evaluation quality | Regression quality | Live stability | Implementation effort | Story continuity | Disposition |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
@@ -270,17 +274,18 @@ scenario.
 
 ## Anchor Demo Candidates
 
-These four Story-transition Anchor roles remain **PROPOSED** under
-`DEC-0008`. DEC-0011 accepts HYBRID as the default delivery strategy for
-Anchor Demos; exact Live actions, captures, and role selection remain subject
-to STEP 07 validation.
+The first three Product Anchor delivery paths remain candidates. The ACT 4
+evidence roles are accepted under DEC-0021, with visual/captured delivery and
+no Live Product failure. Final surface choice and rehearsal remain open.
+DEC-0011's HYBRID default applies to Product Anchors where Live behavior is
+validated.
 
 | Anchor | Story question | Starting/ending state | Proposed mode | Live value | Execution risk | Curriculum Demo allocation |
 |---|---|---|---|---:|---:|---:|
 | 1. Repository exploration | Must the Developer find every relevant file before asking? | STATE-00; read-only search and trace | HYBRID | HIGH | MEDIUM | 8 min, ACT 0 |
 | 2. Project Context | Why repeat Project facts in every Task? | STATE-00-FIXED → STATE-01; same task before/after | HYBRID | HIGH | MEDIUM | 8 min, ACT 2 |
 | 3. Reusable workflow | Why repeat the steps and checks for a recurring task? | STATE-03 → STATE-04 → STATE-04-PERF; bounded performance workflow | HYBRID | MEDIUM–HIGH | MEDIUM–HIGH | 8 min, ACT 3 |
-| 4. Harness Improvement Loop | Is a Task correction enough when the same Failure recurs? | STATE-09 → STATE-11; cause, scoped update, evaluation | HYBRID (not Live-only) | HIGH | HIGH | 16 min across ACT 4's 5 + 11 min slots |
+| 4. Harness Improvement Loop | How should a stale reusable procedure be diagnosed and evaluated? | DEMO-04A conceptual case plus separate DEMO-04B observed Meta Case | VISUAL / CAPTURED; no Live Product failure | HIGH | LOW–MEDIUM | 22 min, ACT 4 |
 
 “Live value” and “execution risk” are estimates before Trial, not validation.
 An Anchor may be recorded or hybrid; Anchor count does not prescribe Live
@@ -409,7 +414,7 @@ is explicit; it does not mean the repository or behavior has been tested.
 | 15 | Which Harness artifact becomes stale? | The formerly correct repository-owned performance Skill retains a previous Test path/procedure after the Project change. | Keep exactly one stale artifact and demonstrate prior correctness/later staleness. |
 | 16 | How is Failure observed? | The stale Skill produces a visible failure for its outdated procedure. | Exact layout/runner and failure evidence are STEP 07 validation items. |
 | 17 | Which Layer is changed? | Repair the Skill that contains the stale Test procedure; do not duplicate its command in `AGENTS.md`. | Cause-to-layer rule specified; observed evidence must support it. |
-| 18 | What Evaluation is performed? | EVAL-01 bug fix, EVAL-02 performance, EVAL-03 small refactor, EVAL-04 docs-only task. | Tasks and evidence are specified in `DEMO_REPOSITORY_SPEC.md`; validate against the built Project. |
+| 18 | What Evaluation is performed? | EVAL-01 bug fix, EVAL-02 performance, EVAL-03 docs-only task, EVAL-04 small refactor. | Tasks and evidence are specified in `DEMO_REPOSITORY_SPEC.md`; validate against the built Project. |
 | 19 | Which Regression is checked? | EVAL-03/04 should remain appropriately scoped and must not inherit an overbroad “always benchmark” rule. | Negative checks specified; capture results after the Harness change. |
 | 20 | How is every State restored? | Select its recorded commit/tag in a fresh or disposable checkout, prepare pinned dependencies, and confirm known Test/Benchmark inputs. | Restoration contract specified; actual refs, reset instructions, dependency identifiers, and known outcomes are implementation outputs. |
 
@@ -424,7 +429,11 @@ is explicit; it does not mean the repository or behavior has been tested.
 | Reusable workflow verification | Bounded task → repository-owned Skill → task-appropriate checks. | Confirm discovery/loading on the selected surface before claiming product-specific behavior. |
 | Harness-change verification | Visible stale-Skill failure → evidence-based cause → Skill-only fix → same-task rerun → representative Evaluation and Regression. | Capture the same-task rerun and use EVAL-03/04 as adjacent-task checks; report omissions and limits rather than asserting success. |
 
-### State Transition and Story Integrity Review
+### Historical STEP06 State Transition and Story Integrity Review
+
+This readiness review predates STATE-04-PERF and DEC-0021. Its STATE-05
+through STATE-11 transitions are superseded proposal history; the current
+Product and ACT 4 paths are recorded in the STEP07 sections below.
 
 The detailed state table is in `plan/DEMO_REPOSITORY_SPEC.md`. The main
 diffs are deliberately separated:
@@ -437,13 +446,8 @@ diffs are deliberately separated:
 | STATE-02 → STATE-03 | Separate core instructions from on-demand Project detail and route to maintained sources. | Relevance responds to visible accumulation; no separation happens early. |
 | STATE-03 → STATE-04 | Add `.agents/skills/graypipe-performance/SKILL.md` as the sole reusable performance procedure. | Process is separated from Project facts and task-specific Prompts. |
 | STATE-04 → STATE-04-PERF | Apply the re-investigated `image_statistics` row-reduction change selected by DEC-0019 and record evidence. | Product change is separate from adding the Skill; the pre-existing resize benchmark remains a supporting check. |
-| STATE-04-PERF → STATE-05 | Conditional: add role separation only if an actual task crosses the complexity gate. | DEC-0018 says the current gate is not met; do not create STATE-05 now. |
-| STATE-05 / STATE-04-PERF → STATE-06 | Conditional: add one sourced, scoped, freshness-aware durable fact only after costly rediscovery is observed. | The §§181–190 audit finds no current Memory candidate; do not create STATE-06 now. |
-| Last justified State → STATE-07 | Assemble and verify only useful Harness components. | Optional STATE-05/06 are not prerequisites; no feature checklist or unsupported product capability is required. |
-| STATE-07 → STATE-08 | Change the Project Test layout/procedure for a stated need. | The sole planned mismatch is the old repository-owned Skill procedure. |
-| STATE-08 → STATE-09 | Execute the stale procedure and capture its failure; repository HEAD is unchanged. | Observed failure is distinct from a code defect or environment failure. |
-| STATE-09 → STATE-10 | Repair the implicated repository-owned Skill. | Change only the layer supported by evidence. |
-| STATE-10 → STATE-11 | Evaluate and check adjacent-task regressions. | Keep outcomes bounded and preserve failed/partial evidence. |
+| Former STATE-04-PERF → STATE-05/06 | Earlier conditional role-separation and durable-knowledge proposals. | Superseded as Product States; DEC-0018 defers Subagents and Memory is not justified. |
+| Former STATE-07 → STATE-11 | Earlier proposed stale-Workflow Product change, failure, repair, and regression sequence. | Superseded by DEC-0020/DEC-0021; only conceptual DEMO-04A and observed Meta DEMO-04B remain. |
 
 The designed history remains an educational scenario, not production history.
 Do not add fake rules, hide project instructions, force an Agent error, or
@@ -645,7 +649,7 @@ representation, dependencies, and setup were intentionally left to STEP 07;
 the implemented STATE-00 choices are recorded in
 `plan/DEMO_REPOSITORY_SPEC.md`.
 
-#### 6. State Model
+#### 6. State Model (Historical STEP 06 Snapshot)
 
 At STEP 06 close, the proposed sequence was STATE-00 (candidate image-operation boundary Bug) →
 STATE-00-FIXED → STATE-01 through STATE-07 (Context, reusable workflow,
@@ -691,7 +695,7 @@ as training-designed, not real project history.
 #### 10. Evaluation / Regression
 
 Use EVAL-01 bug-fix evidence, EVAL-02 performance baseline and comparison,
-EVAL-03 scoped refactor, and EVAL-04 documentation-only task. After the
+EVAL-04 scoped refactor, and EVAL-03 documentation-only task. After the
 workflow repair, rerun the same task and use EVAL-03/04 to check against an
 overbroad rule such as always running the full benchmark. No outcome is
 claimed until captured.
@@ -715,8 +719,10 @@ not present the actual planning activity as an evaluated quality gain.
 
 At the original STEP 06 decision point, `DEC-0011` accepted the user's
 repository, then-current environment, and delivery choices; DEC-0016 later
-clarifies the environment role. `DEC-0010` is SUPERSEDED. `DEC-0005` is
-unchanged; `DEC-0007` and `DEC-0008` retain their existing PROPOSED statuses.
+clarifies the environment role. DEC-0010 is SUPERSEDED. DEC-0005 is
+unchanged. At STEP 06 close, DEC-0007 and DEC-0008 retained their then-current
+PROPOSED statuses; DEC-0007 was accepted by the user on 2026-10-02, while
+DEC-0008 remains PROPOSED.
 The Meta Example disposition is recorded under OQ-013 and can be revisited
 only if later authentic evidence appears.
 
@@ -726,9 +732,11 @@ At STEP 06 close, OQ-001's repository direction and local sibling path were
 resolved by DEC-0011/DEC-0012, while implementation details remained for
 STEP 07. STATE-00 implementation details and evidence are now recorded in
 `plan/DEMO_REPOSITORY_SPEC.md`; later states remain open.
-OQ-003 is resolved for the planned environment/delivery strategy. Remaining
-questions include OQ-004 (Curriculum review/runtime refinement), OQ-005
-(current product and account checks), OQ-007 (later-state verification and
+OQ-003 is resolved for the planned environment/delivery strategy; exact
+learner setup and presentation-surface checks remain open. OQ-004's aggregate
+Curriculum approval is resolved by DEC-0007; Q&A and mode placement is STEP 08
+work. Remaining questions include OQ-005 (current product and account checks),
+OQ-007 (later-state verification and
 benchmark examples), OQ-008 (Skill discovery/loading and optional
 Subagent/Memory mechanisms), OQ-009 (Evaluation evidence),
 OQ-011 (course wording), and OQ-013 (future authentic Meta Example).
@@ -791,7 +799,7 @@ update. The Final Anchor is revalidated during Final Demo Rehearsal in the
 actual presentation interface under OQ-003/OQ-005; consider Windows if it is
 confirmed as the actual training environment.
 
-### §120 — Completion Condition Audit
+### §120 — Completion Condition Audit (Historical STEP06 Snapshot)
 
 `PASS — specified` means the planning artifact is present, not that a Demo
 was executed. STEP 07 validation items prevent implementation readiness, but
@@ -952,3 +960,108 @@ teaching beat “여기까지는 잘 동작합니다” before investigating wha
 Project Evolution could make a previously correct Skill stale. That Project
 Evolution, stale Skill, Harness failure, Loop, and STATE-05 have not been
 implemented.
+
+## STEP 07 — §§211–220 LOOP EVIDENCE ARCHITECTURE REVIEW (HISTORICAL)
+
+**Checked:** 2026-10-01.
+
+**Status at that review: PROPOSED; not approved or implemented.** The full
+evidence assessment is in `plan/DEMO_MATRIX.md`. The user later accepted the
+evidence-role split in §§221–230; the current direction is recorded below.
+
+### Primary Demo Role
+
+Keep `ai-dev-training-demo` as the continuous Product Demo through its
+verified `STATE-04-PERF` Working Harness Success. Do not add another Product
+state to create a Loop or a stale Skill. Candidate E's STATE-03 Context
+reorganization and TRIAL-005A/B access observations remain factual
+same-repository evidence for Context iteration, not a post-Harness stale
+workflow failure.
+
+### Proposed ACT 4 Evidence Roles
+
+| Existing anchor | Proposed evidence role | Boundary |
+|---|---|---|
+| DEMO-04A — changed Project vs old workflow | A short visual explicitly labeled conceptual / controlled, if a stale-Harness transition remains necessary. | Do not claim a real Demo-repository change, stale Skill, Agent failure, or recurring incident. No asset is created in this assessment. |
+| DEMO-04B — Loop and evaluation | A captured, supporting Meta Example of TRIAL-006 → DEC-0016 → TRIAL-007 / TRIAL-008. | This demonstrates a change in Trial-evaluation and reporting policy, not a Demo Product or repository-owned Skill repair. Later application is partial: TRIAL-007's report says no MCP warning while retained stderr contains a Nimble `AuthRequired` error. No objective Trial-quality improvement was measured. |
+
+Keep the current ACT 4 time allocation unless a later approved Story review
+requires a change. The proposed evidence split preserves the primary Product
+Story and keeps actual training-production history factual under DEC-0005 and
+`INV-DEMO-003`.
+
+### Story and Invariant Impact
+
+No edit to `STORY_ARCHITECTURE.md`, `MASTER_PLAN.md`, or `INVARIANTS.md` is
+made here. Any adoption changes the evidence role of the proposed ACT 4
+Anchor and therefore remains subject to review against `INV-DEMO-001`,
+`INV-DEMO-002`, `INV-DEMO-003`, `INV-MATURITY-010`, and `INV-LOOP-001`.
+Keep the accepted order: show Harness success, make the stale-Harness issue
+explicitly conceptual if no real Product change qualifies, then use the real
+Meta Example to show evidence-informed system change and bounded
+re-evaluation.
+
+### Readiness
+
+**Readiness at the time: READY TO REDESIGN LOOP DEMO.** This historical
+proposal status was superseded by DEC-0021 ACCEPTED. No Product state, visual,
+or Demo artifact was changed in that earlier assessment.
+
+## STEP 07 — §§221–230 ACCEPTED HIGH-LEVEL LOOP DEMO DIRECTION
+
+**Decision:** `DEC-0021` ACCEPTED. Detailed teaching evidence, audit, beat
+mapping, and internal 22-minute allocation are recorded in
+`plan/DEMO_MATRIX.md` §§221–230.
+
+### Primary Product Story
+
+Keep the observed Product Demo continuous through `STATE-00` →
+`STATE-04-PERF`. This remains the only Product progression in the primary
+Demo. Do not implement `STATE-05` or add a stale repository Skill, synthetic
+Product Evolution, or Failure Trial.
+
+### Accepted ACT 4 Evidence Roles
+
+| Slot | Accepted role | Mode and boundary |
+|---|---|---|
+| DEMO-04A | TYPE 3 conceptual controlled stale-Harness case. | Short VISUAL or CAPTURED CONTROLLED EXAMPLE; no LIVE run, Product State, or actual-history claim. |
+| DEMO-04B | TYPE 2 observed Training Production evaluation/workflow Meta Case: TRIAL-006 → DEC-0016 → TRIAL-007 → TRIAL-008. | CAPTURED / VISUAL; supporting only. Preserve the partial attribution and TRIAL-007 MCP report/stderr discrepancy. |
+| Product Demo through STATE-04-PERF | TYPE 1 observed Product Demo. | Existing repository implementation, Trial and Git-state evidence; no Loop/staleness claim. |
+
+The earlier single-repository `STATE-07 → STATE-11` ACT 4 proposal is
+superseded as the selected teaching path. Its speculative states remain
+non-implemented design history and must not be represented as actual events.
+
+### Story and Detailed Architecture Work
+
+The subsequent §§231–240 update reconciled BEAT-037 through BEAT-059 and the
+problem-first sequence across the Story, Transition, Curriculum, and Demo
+records. BEAT-038–049 use the TYPE 3 conceptual case, BEAT-050–057 preserve
+the Loop and maintenance model, and BEAT-058–059 use TYPE 2 Meta evidence.
+The detailed Anchor and State tables above are historical where labeled; the
+current evidence roles and time mapping are in `plan/DEMO_MATRIX.md`.
+
+### ACT 4 Demo Allocation
+
+| Slot | Estimated minutes |
+|---|---:|
+| DEMO-04A conceptual case | 4 |
+| Loop model / visual | 2 |
+| DEMO-10 evaluation and regression | 5 |
+| DEMO-11 layer and minimality synthesis | 3 |
+| DEMO-04B observed Meta Case | 8 |
+| **ACT 4 total** | **22** |
+
+This reallocates existing ACT 4 Demo time and adds no instruction time.
+Rehearse readability and density before finalizing these estimates.
+
+### Readiness
+
+**STEP 07 COMPLETE WITH OPEN QUESTIONS; STEP 08 SLIDE MAP READY.** The
+2026-10-02 user decision accepts DEC-0007's aggregate schedule and DEC-0022's
+separate Final Content Freeze Gate. OQ-003/OQ-005/OQ-006/OQ-011/OQ-014 do not
+block structural Slide Map work; dependent claims remain provisional until
+their checks are complete. Exact Q&A and Reflection/Transition placement is
+STEP 08 work. This readiness does not authorize PPT, final visual design,
+complete Speaker Notes, image creation, Demo videos, a new Trial, or further
+Demo Product change.

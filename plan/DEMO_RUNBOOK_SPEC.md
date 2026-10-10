@@ -246,14 +246,14 @@ when possible, then inspect the small evaluation set:
   show the regression check.
 - **EVAL-02 Performance:** establish a baseline; preserve functional output;
   run the current benchmark procedure; compare measured results.
-- **EVAL-03 Small Refactor:** stay in scope, use relevant checks, and avoid an
-  unnecessary full benchmark.
-- **EVAL-04 Documentation-only:** avoid unnecessary Build/Benchmark work and
+- **EVAL-03 Documentation-only:** avoid unnecessary Build/Benchmark work and
   choose only checks justified by the change.
+- **EVAL-04 Small Refactor:** stay in scope, use relevant checks, and avoid an
+  unnecessary full benchmark.
 
 If an overbroad rule such as “always run the full benchmark” is used as a
 captured negative case, show that it may satisfy EVAL-02 while adding
-unnecessary work to EVAL-04. This supports a bounded regression lesson; it
+unnecessary work to EVAL-03. This supports a bounded regression lesson; it
 does not prove that all rules are harmful.
 
 ## Trial Record

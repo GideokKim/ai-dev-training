@@ -50,7 +50,7 @@ Research Priority는 조사 순서를 뜻하며 Training Risk와 별도다. 기�
 | CLM-0027 | Candidate demo failures A–I have been observed in this project. | PROJECT HISTORY | NONE | SRC-0003 | Demo honesty | UNVERIFIED | HIGH | P1 |
 | CLM-0028 | SWE-Bench Pro leaderboard claims can be used without version/source qualification. | BENCHMARK CLAIM | MEDIUM | SRC-0209, SRC-0210, SRC-0143 | Benchmark caveat | CONFLICTED | HIGH | P3 |
 | CLM-0029 | Codex can run available project verification commands when the selected environment and permissions allow; the observed check does not prove every aspect of correctness. | PRODUCT BEHAVIOR / HEURISTIC | HIGH | SRC-0103, SRC-0105, SRC-0139, SRC-0140 | Verification | VERIFIED | HIGH | P0 |
-| CLM-0030 | Candidate course definition: Harness Engineering extends task instructions and current Context into a designed agent work system; this is not a universal taxonomy. | TEACHING MODEL | MEDIUM | SRC-0001, SRC-0137, SRC-0206, SRC-0218 | Harness Engineering | PARTIAL | HIGH | P0 |
+| CLM-0030 | This course uses Harness as a deliberately designed working environment that helps an Agent work reliably in a Project; this is not a universal taxonomy. | TEACHING MODEL | MEDIUM | SRC-0001, SRC-0137, SRC-0206, SRC-0218 | Harness Engineering | PARTIAL | HIGH | P0 |
 
 ## Story-Critical Claim Gate
 
@@ -66,10 +66,10 @@ supported; it does not mean the training account or Demo has been verified.
 | CLM-0007 | PASS WITH SCOPE | `SRC-0112` documents separate Subagent threads and costs; target workspace availability remains unresolved. | Use a conceptual delegation diagram. |
 | CLM-0008 | PASS WITH SCOPE | `SRC-0113` documents product Memory; keep it separate from project Source of Truth and current Context. Target workspace behavior remains unresolved. | Teach the distinction with `plan/` and a diagram; do not depend on a Memory feature Demo. |
 | CLM-0016, CLM-0017 | PASS WITH SCOPE | `SRC-0206`, `SRC-0137`, and `SRC-0218` support bounded model/scaffold and Harness claims; they do not prove universal causal improvement. | Use a product-independent model/system/checks diagram. |
-| CLM-0021, CLM-0022 | PASS AS TRAINING MODEL / HEURISTIC, WITH OQ-011 WORDING GATE | `MASTER_PLAN` establishes the course usage; related product and research sources are examples, not universal definitions. Final Harness/Loop wording remains open under OQ-011. | Label the course definition/heuristic; avoid unsupported numeric thresholds or fabricated failures; do not finalize terms before OQ-011. |
+| CLM-0021, CLM-0022 | PASS AS TRAINING MODEL / HEURISTIC by DEC-0023 | The accepted operational wording is course-specific. Product and research sources are examples, not universal definitions. | Label the course model/heuristic; avoid unsupported numeric thresholds or fabricated failures. |
 | CLM-0023 | PASS AS TRAINING MODEL | Use the approved course framing; external terminology is not a universal maturity standard. | Label it “이 교육에서 사용하는 Model.” |
 | CLM-0029 | PASS WITH SCOPE | Official guidance supports command execution and evidence-based checks; actual checks depend on repository, environment, and permissions. | Use a labeled illustrative check/diff; do not claim full correctness from a command pass. |
-| CLM-0030 | HOLD — OQ-011 wording | The entry in `TERMINOLOGY.md` is a candidate operational definition; sources support bounded system/scaffold usage but not a universal taxonomy. | Use a product-independent system diagram and keep the term wording provisional until OQ-011 is resolved. |
+| CLM-0030 | PASS AS THIS COURSE'S TEACHING MODEL by DEC-0023; external/universal usage remains PARTIAL | The user approved bounded operational wording; cited sources do not establish a universal taxonomy. | Use a product-independent system diagram and label the definition as this course's model. |
 
 ## P0 Claim Final Audit
 
@@ -92,11 +92,13 @@ explicit fallback; none is promoted to an unqualified product guarantee.
 | CLM-0022 — “Minimum Effective Harness” is a project heuristic | SRC-0001, SRC-0218 | 1, 2 | HIGH | VERIFIED | Harness → Loop | Label it as a heuristic; avoid unsupported numeric thresholds or fabricated failures. |
 | CLM-0023 — AI-Native Development is this course's operational model | SRC-0136, SRC-0225, SRC-0226, SRC-0227, SRC-0001 | 1, 2, 3 | HIGH | VERIFIED | AI-Native Development | Label it “이 교육에서 사용하는 Model”; do not present it as universal industry consensus. |
 | CLM-0029 — Codex can run available project checks under environment/permission conditions | SRC-0103, SRC-0105, SRC-0139, SRC-0140 | 1 | HIGH | VERIFIED | Verification throughout the Story | Use a labeled illustrative check/diff; state what it verifies and do not claim full correctness. |
-| CLM-0030 — Candidate course definition of Harness Engineering | SRC-0001, SRC-0137, SRC-0206, SRC-0218 | 1, 2 | MEDIUM | PARTIAL | Harness | Use a product-independent system diagram and keep the wording provisional until OQ-011 is resolved. |
+| CLM-0030 — Course operational model for Harness Engineering | SRC-0001, SRC-0137, SRC-0206, SRC-0218, DEC-0023 | 1, 2 | MEDIUM | PARTIAL | Harness | Use a product-independent system diagram and label the definition as this course's model; do not imply a universal taxonomy. |
 
 ## Teaching Suitability of Major Findings
 
-These are Research-stage candidates, not approved Curriculum or Slide decisions.
+This table preserves the STEP 03 Research-stage suitability assessment. Current
+Slide wording and approval status are governed by `plan/CLAIM_FREEZE.md` and
+DEC-0023; they supersede the candidate wording where applicable.
 
 | Claim ID | Teaching Value | Complexity | Audience Relevance | Story Fit | Slide Candidate | Demo Candidate |
 |----------|---------------|------------|--------------------|-----------|-----------------|----------------|
