@@ -3886,3 +3886,142 @@ None
 
 Accepted by the user's explicit STEP 08 §137 definitions and §§131–140
 claim-freeze instruction on 2026-10-06.
+
+### DEC-0024 — Conditionally freeze the Visual System for production
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-11
+
+## Context
+
+The V1/V2 visual prototypes were reviewed before planning the 80-slide deck.
+V2 added S16 / T06-A and locally exercised seven Layout Variants across six
+Template families. Windows PowerPoint, actual projection, S72's timed
+operation, and the remaining Template Variants have not been validated.
+
+## Problem
+
+The project needs a production baseline without treating a partial sample as
+proof that all 11 Templates and 27 Variants work. Requiring prototypes for
+every unrepresented Variant may add work without evidence of a structural
+defect; proceeding without first-use checks could spread a layout problem.
+
+## Decision
+
+Select **A — CONDITIONAL FREEZE**. Use the current Visual Spec, Template
+Architecture, and Slide-to-Template Map as the production baseline, with the
+scoped statuses and per-Template first-use validation gates in
+plan/VISUAL_TEMPLATE_FREEZE.md.
+
+- Keep sampled Variants conditionally frozen only within their demonstrated
+  scope. Keep every untested Template or Variant PROVISIONAL until its first
+  concrete Slide is reviewed.
+- If a first implementation reveals structural, density, evidence-boundary,
+  or legibility problems, stop extending that Variant, resolve the problem,
+  and revalidate before reusing it.
+- Use a static S72 with speaker-led highlighting as the production default.
+  Require a timed 20-minute rehearsal before final delivery; the existing
+  operation cue is not complete Speaker Notes.
+- Keep Windows PowerPoint and target-screen compatibility UNVERIFIED until
+  the final-delivery validation in §§227–228 of the user's instruction is
+  completed. Check it earlier when the target PC is available to reduce
+  rework.
+- Do not change the approved Slide Map, Claims, Story, slide count, time,
+  Delivery Modes, Demo selection, or Demo Repository.
+
+This gate timing applies the user's current instruction that Windows
+validation is a final-delivery gate. The earlier P0-01 recommendation in
+VISUAL_PROTOTYPE_REVIEW.md remains in the historical review and remains
+OPEN; this decision does not claim that Windows compatibility is verified.
+
+## Rationale
+
+The eight-slide V2 rendered locally without observed clipping or overlap.
+S16/T06-A is locally legible, and Product, Conceptual, Meta, and Teaching
+Model boundaries remain distinguishable. The architecture and mapping define
+the remaining Templates, and no unresolved structural failure has been
+observed in the sampled Slides. Conditional first-use validation is therefore
+supported; it does not turn missing evidence into a PASS.
+
+## Alternatives Considered
+
+### Alternative A — Conditional freeze
+
+Use the current visual system as the baseline, validate untested Variants on
+their first Slide, and keep target-environment validation as a delivery gate.
+Selected because the tested sample shows no reason for a broad redesign.
+
+### Alternative B — Require more prototypes before proceeding
+
+This would test more Variants earlier, but current evidence identifies gaps,
+not a demonstrated structural failure that requires a larger prototype set
+before the next planning stage.
+
+### Alternative C — Block
+
+Not selected because the existing system supports the next planning stage
+and no current evidence shows that the 80-slide design is infeasible.
+
+## Trade-offs
+
+This decision lets the project continue with a bounded design baseline while
+preserving explicit validation gates. It carries rework risk if Windows font
+substitution, projection, an untested Variant, or shared-style propagation
+reveals a structural issue. Early target-PC review is recommended when
+available; final delivery still requires the complete gate.
+
+## Related Invariants
+
+- INV-VERIFY-001
+- INV-DIFFICULTY-003
+- INV-NARRATIVE-001
+- INV-SOT-003
+
+## Affected Artifacts
+
+- plan/VISUAL_TEMPLATE_FREEZE.md
+- plan/VISUAL_SPEC.md
+- plan/SLIDE_TEMPLATE_ARCHITECTURE.md
+- plan/SLIDE_TEMPLATE_MAP.md
+- plan/VISUAL_PROTOTYPE_REVIEW.md
+- Future Speaker Notes Architecture and final 80-slide production
+
+## Evidence
+
+- plan/VISUAL_PROTOTYPE_EVALUATION.md, V2 section.
+- plan/VISUAL_PROTOTYPE_REVIEW.md, including the preserved V1 review and
+  additive V2 disposition.
+- plan/VISUAL_PROTOTYPE_V2_RESULT.md.
+- V2 PPTX and local renders in prototype/preview/v2/.
+- User instruction STEP 08 §§221–230, received 2026-10-11.
+
+## Training Relevance
+
+YES. The decision demonstrates how a partial prototype can support a
+conditional design baseline while preserving evidence limits and validation
+gates.
+
+## Follow-up
+
+Proceed to Speaker Notes Architecture. Validate each provisional Template
+when it is first implemented. Complete Windows / target-screen review,
+product-surface and Live Demo checks where used, and the S72 timed rehearsal
+before final delivery.
+
+## Supersedes
+
+None. Clarifies the current validation-gate timing from the user's
+STEP 08 §§227–228 instruction; historical review findings remain preserved.
+
+## Superseded By
+
+None
+
+## Approval
+
+Accepted under the user's explicit STEP 08 §§221–230 request to assess the
+evidence, select a freeze level, and record the result. This approval does
+not authorize the final 80-slide PPT or complete Speaker Notes.
