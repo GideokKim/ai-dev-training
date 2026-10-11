@@ -146,8 +146,8 @@ T01, T02, T05, T09, T10 및 미검증 Variant는 현재 PROVISIONAL로 둔다.
 |---|---:|---|
 | Case | 7분 | R1–R5를 순서대로 가리키며 Project 변화, 관찰, 원인 가설, Layer 선택, 재검증을 구분 |
 | Reflection | 2분 | 질문을 남기고 개인 성찰 시간을 둠 |
-| Transition | 4분 | Engineering Pattern을 다음 Story로 연결 |
 | Q&A | 7분 | 전체 모델을 계속 보이며 질문을 받음 |
+| Transition | 4분 | Engineering Pattern을 다음 Story로 연결 |
 
 현재 operation cue는 완성 Speaker Notes가 아니다. 20분 timed rehearsal은
 미수행이며 S72 운영은 PARTIAL이다. 최종 발표 전 리허설에서 시간이 맞지

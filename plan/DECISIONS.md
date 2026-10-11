@@ -4140,3 +4140,167 @@ None
 Accepted under the user's STEP 08 §§251–260 instruction to resolve the order
 and align the plan documents, consistent with the explicit operating sequences
 in §§246 and 248. This does not authorize full Notes or PPT production.
+
+### DEC-0026 — Freeze speaker notes standard and sequence ACT production
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-11
+
+## Context
+
+The project has an approved 80-slide Map, a conditional Visual System and
+Template freeze, a Speaker Notes Architecture, and seven evaluated Pilot Notes.
+The next planning gate must establish whether those materials are sufficient
+to begin production, preserve the unresolved validation boundaries, and give
+the 80-slide work a controlled ACT-by-ACT order.
+
+## Problem
+
+Without a frozen Notes schema and a production sequence, later work could
+change fields, Story timing, Evidence boundaries, or unverified product and
+presentation assumptions while expanding from seven Pilot Slides to eighty.
+
+## Decision
+
+- Use the 19 fields in `SPEAKER_NOTES_ARCHITECTURE.md` as the Notes production
+  schema, preserving the defined `N/A`, `TBD`, and Validation Status meanings.
+- Keep the approved 80-slide schedule, per-Slide Mode splits, and DEC-0025
+  sequences for S54 and S72 unchanged.
+- Produce the final deck in order: ACT 0 S01–S09; ACT 1 S10–S21; ACT 2
+  S22–S36; ACT 3 S37–S54; ACT 4 S55–S72; ACT 5 S73–S80.
+- Complete Slide Content, Speaker Notes, Template application, Evidence
+  connection, rendering, quality review, revision, and a Git checkpoint for an
+  ACT before moving to the next ACT.
+- Treat ACT 0 as ready to begin. Keep product-surface-specific work in S04–S06
+  provisional until it uses only bounded TRIAL-001 evidence or passes the
+  relevant current product and target-environment check.
+- Keep S16, S35, and S67 fallback at PLANNED until final presentation media is
+  selected and verified. Keep the S72 timed 20-minute rehearsal UNVERIFIED.
+- Keep Windows PowerPoint, target account/surface, Live Demo environment, and
+  unresolved Variant checks as their stated production or final-delivery gates.
+
+This decision sets implementation order and status handling. It does not
+authorize or record production of ACT 0, the 80-slide PPT, or the remaining
+Speaker Notes.
+
+## Rationale
+
+The 19-field Architecture and seven Pilot records show a usable Notes pattern,
+while the Pilot Evaluation explicitly leaves pacing, final media, and target
+environment checks open. The V2 prototype validates editable slide structure
+and local rendering only; it does not establish Windows compatibility or all
+Template Variants. ACT-by-ACT work limits the scope of each review and makes
+the next checkpoint depend on evidence from the ACT just completed.
+
+The selected readiness allows work to start using the approved bounded
+evidence. It keeps unverified product or environment claims provisional and
+preserves separate final-delivery gates instead of treating prototype results
+as broader validation.
+
+## Alternatives Considered
+
+### Alternative A — Begin ACT 0 under a conditional gate
+
+Advantages:
+
+- Starts production from the approved Map and existing evidence.
+- Keeps unresolved surface and run details visible at Slide level.
+- Makes each ACT reviewable before later work begins.
+
+Disadvantages:
+
+- Some operation details and Template Variants need checks during production.
+
+### Alternative B — Require every product and Windows check before ACT 0
+
+Advantages:
+
+- Resolves more delivery uncertainty before the first production artifact.
+
+Disadvantages:
+
+- Delays work that can use already bounded teaching and Trial evidence.
+- Treats final-delivery validation as a blanket prerequisite even where a
+  Slide does not depend on that unresolved environment fact.
+
+## Trade-offs
+
+Gains:
+
+- Preserves the schedule, Story, claim boundaries, and evidence status while
+  enabling staged implementation.
+
+Costs:
+
+- Requires explicit provisional status and repeated scope checks during ACT
+  reviews.
+
+New risks:
+
+- A later product, target-font, or Template check can require revision to an
+  already-produced Slide. The ACT checkpoint and revision loop must record it.
+
+## Related Invariants
+
+- INV-DELIVERY-001
+- INV-NARRATIVE-001
+- INV-VERIFY-001
+- INV-SOT-003
+
+## Affected Artifacts
+
+- plan/SPEAKER_NOTES_FREEZE.md
+- plan/PRODUCTION_PLAN.md
+- plan/VISUAL_TEMPLATE_FREEZE.md — align S72 Mode row order with DEC-0025
+- plan/DECISIONS.md
+- Future ACT production artifacts and Git checkpoints
+
+## Evidence
+
+- USER: STEP 08 §§261–270, including the 19-field scope, fixed time and Mode
+  totals, high-risk Slide boundaries, fallback/rehearsal gates, ACT order, and
+  production readiness criteria.
+- plan/SPEAKER_NOTES_ARCHITECTURE.md: Notes schema and scope rules.
+- plan/SPEAKER_NOTES_PILOT.md and
+  plan/SPEAKER_NOTES_PILOT_EVALUATION.md: seven draft records, evaluation,
+  and open rehearsal/media checks.
+- plan/SLIDE_MAP.md: 80 Slides, ACT and Mode totals, and per-Slide allocation.
+- plan/VISUAL_TEMPLATE_FREEZE.md and V2 evaluation: conditional system status
+  and bounded prototype coverage.
+- plan/DECISIONS.md, DEC-0025: S54 and S72 operating sequences.
+
+## Training Relevance
+
+YES
+
+Reason:
+
+The production sequence applies the course's evidence, verification, and
+incremental system-improvement principles to development of the training deck.
+
+## Follow-up
+
+Begin ACT 0 only when separately instructed to create its deliverables. Keep
+S04–S06 limited to TRIAL-001 evidence unless current product and target
+environment checks are completed. For each ACT, preserve provisional states,
+review its rendered results, and checkpoint it before starting the next ACT.
+Complete the Windows, product-surface, fallback, and S72 rehearsal gates before
+final delivery.
+
+## Supersedes
+
+None. This decision defines the production stage that follows DEC-0025 and
+preserves the earlier conditional Visual freeze in DEC-0024.
+
+## Superseded By
+
+None
+
+## Approval
+
+Accepted under the user's explicit STEP 08 §§261–270 instruction to freeze the
+Speaker Notes standard, assess ACT 0 readiness, and set the sequential
+production strategy. No ACT deliverable was produced by this decision.
