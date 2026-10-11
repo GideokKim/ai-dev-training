@@ -236,8 +236,9 @@ Teaching Model이며 자동 학습을 의미하지 않는다.
 5. Benchmark / Regression 확인
 6. 성찰과 Discussion
 
-Delivery Mode의 순서는 Case 7분, Reflection 2분, Transition 4분,
-Q&A 7분으로 유지한다. GPU Architecture 또는 Toolchain 변경은
+Delivery Mode의 순서는 Case 7분, Reflection 2분, Q&A 7분, Transition
+4분으로 유지한다. Q&A 뒤에 AI-Native Development로의 Transition을 두어
+다음 ACT로 마무리한다. GPU Architecture 또는 Toolchain 변경은
 CONCEPTUAL인 예시임을 계속 표시한다. 특정 Windows, CUDA, Hardware 설정을
 검증된 절차로 채워 넣지 않는다.
 

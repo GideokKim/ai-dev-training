@@ -2,7 +2,7 @@
 
 Date: 2026-10-11
 
-Status: DRAFT — seven pilot records; delivery rehearsal and final media selection remain open.
+Status: DRAFT — seven pilot records; S54/S72 operation order is aligned by DEC-0025. Delivery rehearsal and final media selection remain open.
 
 Authority: SLIDE_MAP.md, SPEAKER_NOTES_ARCHITECTURE.md, CLAIM_FREEZE.md and their referenced evidence. These notes do not change the approved Slide Map, Story, claims, total time, or Demo Repository.
 
@@ -42,7 +42,7 @@ Advanced Insight: 공개 계약, 실패 재현, 호출 경로, 변경 범위, �
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-05 / CAPTURED. WATCH FOR: 실패 재현, 편집 전 계획, 한 줄 diff. SHOW: 승인된 TRIAL-002 기록/캡처가 선택되면 그 구간만 보여 준다. Required environment: 최종 발표 PC와 선택된 media는 TBD. Start cue: 실패 test가 보이는 지점. Stop cue: 한 줄 diff와 검증 상태를 보인 뒤, 4분 종료 전에 닫는다. 실제 캡처 선택·검토 상태는 TBD; 지금 확인된 V2 이미지는 PROTOTYPE COPY다.
+Demo Operation: DEMO-05 / CAPTURED. WATCH FOR: 실패 재현, 편집 전 계획, 한 줄 diff. SHOW: 승인된 TRIAL-002 기록/캡처가 선택되면 그 구간만 보여 준다. Required environment: 최종 발표 PC와 선택된 media는 TBD. Start cue: 실패 test가 보이는 지점. Stop cue: 한 줄 diff와 검증 상태를 보인 뒤, 4분 종료 전에 닫는다. Fallback status: PLANNED — plan/DEMO_MATRIX.md의 TRIAL-002 기록이 있으며 prototype/preview/v2/S16.png는 재구성된 설명 도식이다. 실제 Terminal 캡처가 아니다.
 
 Audience Interaction: 질문은 청중이 결과를 먼저 추측하도록 하는 수사 질문이다. 응답이나 실습을 요구하지 않는다.
 
@@ -50,7 +50,7 @@ Transition: “이 변경이 맞다는 것은 무엇으로 확인했을까요?�
 
 Time Management: 호출 경로 설명을 한 문장으로 제한한다. 시간이 모자라면 보조 로그를 생략하고 계약, 한 줄 diff, 검증 결과를 보존한다.
 
-Fallback: 최종 승인 캡처가 없거나 표시되지 않으면 수치를 외워 재현하지 않는다. 승인된 TRIAL-002 기록에서 계약과 diff만 읽어 주고, 캡처 fallback 선정은 TBD로 남긴다.
+Fallback: 최종 승인 캡처가 없거나 표시되지 않으면 수치를 외워 재현하지 않는다. plan/DEMO_MATRIX.md의 TRIAL-002 기록에서 계약, diff, test 결과를 사용한다. 이 source-record fallback은 준비 계획이 있는 상태(PLANNED)이며, 발표용으로 선택된 asset과 대상 화면 검증은 TBD다. prototype/preview/v2/S16.png는 실제 캡처로 제시하지 않는다.
 
 Validation Status: DRAFT — Trial 근거 대조 완료; 실제 발표 read-through, media 선택, 대상 화면 검증 미완료.
 
@@ -88,7 +88,7 @@ Advanced Insight: architecture.md의 공통 접근과 testing.md의 실행 간 �
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-06 / CAPTURED. WATCH FOR: A/B 표에서 image-contracts.md의 차이와 architecture.md의 공통 접근. SHOW: 검토된 TRIAL-005A/B access matrix. Required environment: 최종 발표 화면 TBD. Start cue: 서로 다른 Task 이름만 보이는 상태. Stop cue: 1분 내 표 공개 후 Case 해석으로 넘어간다. 캡처된 matrix는 Trial 결과를 요약한 것이며 Live access log가 아니다.
+Demo Operation: DEMO-06 / CAPTURED. WATCH FOR: A/B 표에서 image-contracts.md의 차이와 architecture.md의 공통 접근. SHOW: 검토된 TRIAL-005A/B access matrix. Required environment: 최종 발표 화면 TBD. Start cue: 서로 다른 Task 이름만 보이는 상태. Stop cue: 1분 내 표 공개 후 Case 해석으로 넘어간다. Fallback status: PLANNED — plan/DEMO_MATRIX.md의 TRIAL-005A/B access records가 있으며 prototype/preview/v2/S35.png는 그 내용을 요약한 재구성 matrix이지 실제 access log 캡처가 아니다.
 
 Audience Interaction: Reflection 2분은 개인 생각이며 답변 제출을 요구하지 않는다. Q&A 1분은 질문을 받을 수 있지만 침묵이면 준비된 transition 문장으로 마친다. Wait time은 rehearsal 전까지 TBD.
 
@@ -96,7 +96,7 @@ Transition: “Context는 정리됐지만 반복되는 절차도 정리됐을까
 
 Time Management: 1분 Demo에서 문서명을 모두 읽지 않는다. 시간이 모자라면 고급 해석과 추가 질문을 줄이고, matrix의 차이와 세 가지 미입증 항목은 남긴다.
 
-Fallback: 최종 선택 캡처가 없으면 Demo 시간을 늘리거나 접근을 재연하지 않는다. 승인된 Trial 기록과 matrix에서 A/B 차이만 설명한다. 이 fallback의 발표용 자료 선택은 TBD이며 prototype preview만으로 준비 완료 처리하지 않는다.
+Fallback: 최종 선택 캡처가 없으면 Demo 시간을 늘리거나 접근을 재연하지 않는다. plan/DEMO_MATRIX.md의 TRIAL-005A/B 기록과 prototype/preview/v2/S35.png에 요약된 matrix를 바탕으로 A/B 차이만 설명한다. 이 source-record/재구성 도식 경로는 PLANNED이며, 발표용 asset 선택과 대상 화면 검증은 TBD다. 이미지를 실제 access log로 표현하지 않는다.
 
 Validation Status: DRAFT — Trial 기록 및 matrix 대조 완료; 7분 운영, projection readability, 발표용 최종 캡처/fallback 미검증.
 
@@ -166,7 +166,7 @@ Speaker Flow:
 
 1. **REFLECTION (0:00–3:00):** 질문을 화면에 둔다. “답을 적거나 공유하지 않아도 됩니다. 반복되는 마찰 하나를 마음속으로 골라 보세요.” 침묵을 허용한다.
 2. **Q&A / DISCUSSION (3:00–8:00):** 청중이 질문하면 마찰의 종류와 필요한 최소 구조를 논의한다. 반복 Project 사실 → Context, 반복 절차 → Workflow, 독립적인 병렬 조사 → Subagent 검토, 비용 큰 재발견 → Memory 검토, 확인 필요 → Tests/Benchmark/Review 순으로 선택 기준을 짚는다. 어떤 기능도 필수 구성으로 제시하지 않는다.
-3. **TRANSITION (8:00–10:00):** “지금 잘 동작하는 Harness도 Project가 바뀐 뒤 계속 맞을까요?”라고 묻고, 다음의 개념 사례임을 예고한다.
+3. **TRANSITION (8:00–10:00):** “잘 동작하는 Harness도 Project가 바뀐 뒤 계속 맞을까요?”라고 묻는다. S55에서 STATE-04-PERF의 성공 상태를 보존한 뒤 S56에서 별도의 개념 사례를 연다고 안내한다.
 
 Evidence / Source: BEAT-035–038, STATE-04-PERF, DEC-0018, DEC-0021. TEACHING_MODEL. STATE-04-PERF는 Subagent와 Memory가 없어도 이 bounded 작업이 성공한 사례다. 이 사실을 모든 작업에서의 불필요성으로 일반화하지 않는다.
 
@@ -268,7 +268,7 @@ Advanced Insight: 실행 기록의 tool/skill presence와 실제 인과효과는
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-04B / CAPTURED. WATCH FOR: Trial timeline, 네 global Skills, partial attribution label. SHOW: 최종 선택된 승인 캡처가 있을 때만 해당 기록을 표시한다. Required environment: 발표 PC 및 selected capture TBD. Start cue: OBSERVED META CASE frame. Stop cue: partial attribution을 명시한 뒤 2분 내 마친다. V2 preview는 PROTOTYPE COPY이며 최종 capture가 아니다.
+Demo Operation: DEMO-04B / CAPTURED. WATCH FOR: Trial timeline, 네 global Skills, partial attribution label. SHOW: 최종 선택된 승인 캡처가 있을 때만 해당 기록을 표시한다. Required environment: 발표 PC 및 selected capture TBD. Start cue: OBSERVED META CASE frame. Stop cue: partial attribution을 명시한 뒤 2분 내 마친다. Fallback status: PLANNED — plan/DEMO_MATRIX.md의 TRIAL-006 기록이 있으며 prototype/preview/v2/S67.png는 그 기록을 요약한 재구성 도식이다. 실제 CLI screenshot이 아니다.
 
 Audience Interaction: 질문은 관찰과 원인 추론을 구분하기 위한 것이다. 응답을 요구하지 않는다.
 
@@ -276,7 +276,7 @@ Transition: “이 결과를 Task Prompt만의 효과라고 말할 수 있을까
 
 Time Management: 환경 한계만 설명한다. 네 Skills의 기능이나 후속 결과를 이 장에서 해설하지 않는다.
 
-Fallback: 최종 승인 캡처가 준비되지 않으면 Trial 원문에서 실행 조건과 partial attribution만 짧게 인용한다. global 영향의 결과를 추측하거나 경고를 성공/실패로 바꾸어 말하지 않는다. 캡처 선정은 TBD.
+Fallback: 최종 승인 캡처가 준비되지 않으면 plan/DEMO_MATRIX.md의 TRIAL-006 기록에서 실행 조건과 partial attribution만 짧게 인용한다. 이 source-record/재구성 도식 경로는 PLANNED이며, 발표용 asset 선택과 대상 화면 검증은 TBD다. global 영향의 결과를 추측하거나 경고를 성공/실패로 바꾸어 말하지 않는다. prototype/preview/v2/S67.png를 실제 CLI 캡처로 제시하지 않는다.
 
 Validation Status: DRAFT — Trial record와 attribution 경계 대조 완료; 최종 media 선택 및 실제 발표 운영 미완료.
 
@@ -321,12 +321,12 @@ C++ Vision Bridge: 중심 연결. 도구 이름이나 설정 목록보다 변화
 
 Demo Operation: N/A — 정적 teaching visual이며 Live/recorded Product Demo가 아니다. Highlight 순서는 R1 → R5 → Reflection → Q&A → Transition이다. 실제 GPU/hardware 화면을 붙이지 않는다.
 
-Audience Interaction: Reflection은 응답 없는 개인 생각 시간이다. Q&A는 초급과 고급 질문 모두 허용하고, wait time은 rehearsal 전까지 TBD. 질문이 없으면 “무엇이 바뀌었나 / 무엇을 확인하나 / 어느 Layer인가”를 강사가 짧게 되짚는다. 발언을 강제하지 않는다.
+Audience Interaction: Reflection은 응답 없는 개인 생각 시간이다. Q&A는 초급과 고급 질문 모두 허용하고, wait time은 rehearsal 전까지 TBD. 청중 질문이 없으면 fallback question으로 “초급 관점에서는 Project가 바뀐 뒤 무엇부터 확인할까요?”, “숙련 관점에서는 benchmark가 대표 작업을 반영하는지 어떻게 확인할까요?”를 제시한다. 답변을 강제하지 않는다.
 
 Transition: “지금까지의 단계를 하나의 problem-driven Story로 되짚어 보겠습니다.” — S73.
 
-Time Management: 구간은 Case 7 + Reflection 2 + Q&A 7 + Transition 4 = 20분이다. Q&A는 16분에 닫고 4분 handoff를 보장한다. 지연 시 R1–R5를 짧게 말하되 원인 경계와 검증, 마지막 handoff를 삭제하지 않는다.
+Time Management: 구간은 Case 7 + Reflection 2 + Q&A 7 + Transition 4 = 20분이다. Cutoff cue: “질문은 여기까지 받고, 이제 핵심 모델을 다음 장으로 연결하겠습니다.” 16:00에 Q&A를 닫아 4분 handoff를 보장한다. 앞 구간이 늦어지면 부수 설명을 줄이고 R3의 사실/가설 경계와 R5 verification을 남긴다. 20:00에 끝낸다.
 
-Fallback: 화면을 사용할 수 없으면 각 R1–R5를 말로 설명하고, 개념 사례라는 boundary를 반복한다. 질문이 없으면 정해진 cue로 진행한다. 이 운영은 실제 20분 rehearsal로 검증되지 않았고 Windows/교육장 대체화면도 TBD다.
+Fallback: 화면을 사용할 수 없으면 각 R1–R5를 말로 설명하고, 개념 사례라는 boundary를 반복한다. Q&A에 질문이 없으면 위 두 fallback question을 강사가 짧게 던진 뒤 응답을 강제하지 않고 16:00 cutoff cue로 넘어간다. 이 운영은 실제 20분 rehearsal로 검증되지 않았고 Windows/교육장 대체화면도 TBD다.
 
-Validation Status: DRAFT — Flow 및 20분 산술 확인 완료; 실제 20분 rehearsal, audience Q&A, projection/target PC, fallback 미검증. 이번 Pilot 지시의 Q&A 9–16분 → Transition 16–20분 순서를 사용했다. 기존 Slide Map 및 VISUAL_SPEC.md의 순서와 충돌은 평가 문서에 기록한다.
+Validation Status: DRAFT — Flow 및 20분 산술 확인 완료; DEC-0025에 따라 Q&A 9–16분 → Transition 16–20분으로 관련 문서를 정렬했다. 실제 20분 rehearsal, audience Q&A, projection/target PC, fallback은 UNVERIFIED다.

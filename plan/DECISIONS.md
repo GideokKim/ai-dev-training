@@ -4025,3 +4025,118 @@ None
 Accepted under the user's explicit STEP 08 §§221–230 request to assess the
 evidence, select a freeze level, and record the result. This approval does
 not authorize the final 80-slide PPT or complete Speaker Notes.
+
+### DEC-0025 — Place S54 and S72 transitions after discussion
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-11
+
+## Context
+
+The consolidated Slide Map recorded the S54 and S72 Mode allocations in an
+order that disagreed with the Speaker Notes Architecture and the later Pilot
+operating cues. The Pilot revision gate asked to trace the accepted Story and
+Transition roles, choose one sequence, and align the affected planning
+documents without changing any duration or aggregate.
+
+## Problem
+
+S54 closes ACT 3 and opens the move into the conceptual ACT 4 case. S72 closes
+the ACT 4 teaching model and hands off to ACT 5. Placing Q&A after either
+Transition would put discussion after its narrative handoff and leave the
+last allocated minutes without a clean next-Act cue.
+
+## Decision
+
+Use these presenter operating sequences:
+
+- S54: Reflection 3 minutes → Q&A 5 minutes → Transition 2 minutes.
+- S72: Case 7 minutes → Reflection 2 minutes → Q&A 7 minutes →
+  Transition 4 minutes.
+
+The Transition is the last Mode on each Slide. At S54 it opens the
+Working Harness callback on S55, which preserves the successful STATE-04-PERF
+endpoint before S56 begins the separate conceptual stale-workflow case. At
+S72 it closes ACT 4 with the TRANS-012 handoff to S73.
+
+Only the ordering of the existing Mode allocations is clarified. Slide IDs,
+titles, Evidence, Claims, Templates, per-Slide time, ACT totals, aggregate Mode
+totals, Story beats, and Demo selections remain unchanged.
+
+## Rationale
+
+The user's earlier Pilot instructions explicitly gave the S54 and S72
+sequences above. The Speaker Notes Architecture also placed Q&A before the
+Transition. The approved Story makes each Transition a handoff to the next
+beat or ACT, while the accepted curriculum places Q&A around major Story
+transitions rather than after the course has already moved on. The final
+Transition therefore gives the audience one clear closing cue without
+removing or shifting any Q&A time.
+
+## Alternatives Considered
+
+- Keep the Slide Map's previous textual order. Rejected because it conflicts
+  with the explicit Pilot operating order and leaves Q&A after the handoff.
+- Move or reduce Q&A. Rejected because the aggregate schedule and per-Slide
+  allocations are fixed.
+
+## Trade-offs
+
+This resolves presenter sequence and gives the next ACT a clear handoff.
+Actual pacing and audience interaction are still unverified until rehearsal.
+
+## Related Invariants
+
+- INV-NARRATIVE-001
+- INV-DELIVERY-001
+- INV-VERIFY-001
+
+## Affected Artifacts
+
+- plan/SLIDE_MAP.md
+- plan/SPEAKER_NOTES_ARCHITECTURE.md
+- plan/SPEAKER_NOTES_PILOT.md
+- plan/SPEAKER_NOTES_PILOT_EVALUATION.md
+- plan/VISUAL_SPEC.md
+- plan/SLIDE_TEMPLATE_MAP.md
+
+## Evidence
+
+- User-provided STEP 08 §246: S54 Reflection → Q&A → Transition.
+- User-provided STEP 08 §248: S72 Case → Reflection → Q&A → Transition.
+- User-provided STEP 08 §§251–260: audit, select, align, and validate the
+  operational sequence while preserving all time allocations.
+- plan/SLIDE_MAP.md, S54 and S72 Story roles and Transition cues.
+- plan/SPEAKER_NOTES_ARCHITECTURE.md, §7 Interaction Rules.
+- plan/CURRICULUM.md, DEC-0007 Q&A placement and ACT handoffs.
+- plan/TRANSITIONS.md, TRANS-010 and TRANS-012.
+- DEC-0024: static S72 and a timed rehearsal remain required; this Decision
+  does not claim that rehearsal has occurred.
+
+## Training Relevance
+
+YES. The sequence preserves the difference between discussion time and the
+final Story handoff, with no change to the fixed schedule.
+
+## Follow-up
+
+Keep the S72 rehearsal gate UNVERIFIED until a timed 20-minute rehearsal
+records all four cutoffs, its no-question fallback, and the S73 handoff.
+Do not treat this order decision as evidence that the pacing works in delivery.
+
+## Supersedes
+
+None. It clarifies only the S54 and S72 Mode order in the Slide Map.
+
+## Superseded By
+
+None
+
+## Approval
+
+Accepted under the user's STEP 08 §§251–260 instruction to resolve the order
+and align the plan documents, consistent with the explicit operating sequences
+in §§246 and 248. This does not authorize full Notes or PPT production.

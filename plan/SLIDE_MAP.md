@@ -1398,7 +1398,7 @@ ACT별 Mode 대조:
 - **Speaker Intent:** 참여자 노트북 실습은 요구하지 않는다. 짧은 토론이나 답변 요청 대신, 개인 성찰을 선택적으로 안내하고 답변을 요구하지 않는다. 잘 동작한 Harness를 실패한 설계로 재해석하지 않는다.
 - **Transition:** 지금은 잘 동작하는 Harness도 Project가 바뀐 뒤 계속 맞을까?
 - **Estimated Time:** 10분
-- **Delivery Mode Allocation:** Reflection 3분 + Transition 2분 + Q&A 5분 = 10분
+- **Delivery Mode Allocation:** Reflection 3분 + Q&A 5분 + Transition 2분 = 10분
 - **Evidence / Decision References:** BEAT-035, BEAT-038, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0021, INV-MATURITY-010, BEAT-036, BEAT-037
 
 ### ACT 4
@@ -1832,7 +1832,7 @@ ACT별 Mode 대조:
 - **Speaker Intent:** ACT 4에서 Harness를 계속 키우는 것이 Loop의 목적은 아니라는 점을 정리하고 ACT 5로 넘긴다.
 - **Transition:** 지금까지의 단계를 하나의 문제-driven Story로 되짚는다.
 - **Estimated Time:** 20분
-- **Delivery Mode Allocation:** Case 7분 + Reflection 2분 + Transition 4분 + Q&A 7분 = 20분
+- **Delivery Mode Allocation:** Case 7분 + Reflection 2분 + Q&A 7분 + Transition 4분 = 20분
 - **Evidence / Decision References:** BEAT-059, TRANS-012, DEC-0021, INV-DEMO-003
 
 ### ACT 5

@@ -192,8 +192,8 @@ Reflection, Q&A 또는 토론이 배정된 Slide에는 다음을 적는다.
 
 | Slide | Mode Split | 진행 조건 |
 |---|---|---|
-| S54 | Reflection 3분 · Q&A 5분 · Transition 2분 | 개인 성찰을 먼저 둔다. 공유 답변을 요구하지 않고, 정해진 Q&A와 전환 시간은 별도로 지킨다. |
-| S72 | Case 7분 · Reflection 2분 · Q&A 7분 · Transition 4분 | Case를 R1–R5 순서로 안내하고, 개인 성찰과 Q&A를 구분해 운영한다. |
+| S54 | Reflection 3분 · Q&A 5분 · Transition 2분 | 순서: Reflection → Q&A → Transition. 개인 성찰을 먼저 두고 Q&A를 받은 뒤, Transition을 마지막에 배치한다. 공유 답변을 요구하지 않는다. |
+| S72 | Case 7분 · Reflection 2분 · Q&A 7분 · Transition 4분 | 순서: Case → Reflection → Q&A → Transition. Case를 R1–R5 순서로 안내하고, 개인 성찰과 Q&A를 구분한 뒤 ACT 5로 전환한다. |
 | S80 | Q&A 4분 · Closing Transition 2분 | Q&A를 4분에 마감하고 2분 동안 승인된 핵심 모델로 종료한다. |
 
 전체 Reflection 20분, Q&A 32분, Transition 22분은 각 Slide 배분과 함께

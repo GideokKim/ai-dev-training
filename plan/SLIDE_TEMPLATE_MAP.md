@@ -290,7 +290,7 @@ Speaker Notes.
 | R3 | 2–4 min; Case | Confirmed facts beside a separately labeled cause hypothesis. | Correct Layer and verification. | Ask which fact supports or weakens the hypothesis. |
 | R4 | 4–5 min; Case | The cause-matched change Layer. | Verification result. | Select only the relevant layer; do not enumerate unverified tools. |
 | R5 | 5–7 min; Case | Benchmark / regression conditions to revisit; no invented result. | Discussion prompts. | Ask what changed in the verification conditions. |
-| R6 | 7–20 min; Reflection 2, Transition 4, Q&A 7 | Keep the five-step flow visible; show the discussion prompt outside the flow so it does not become a sixth workflow step. | None. | Let participants select a relevant layer; do not ask them to perform a lab or claim a universal fix. |
+| R6 | 7–20 min; Reflection 2, Q&A 7, Transition 4 | Keep the five-step flow visible; show the discussion prompt outside the flow so it does not become a sixth workflow step. | None. | Let participants select a relevant layer; do not ask them to perform a lab or claim a universal fix. Put the final transition after Q&A. |
 
 ## 9. C++ Vision Bridge
 
