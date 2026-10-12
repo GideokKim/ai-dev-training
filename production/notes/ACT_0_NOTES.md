@@ -1,8 +1,13 @@
 # ACT 0 — Speaker Notes
 
-Status: DRAFT — operational cues for S01–S09, checked against the approved
-Slide Map and the 19-field Notes schema. Pacing, target presentation behavior,
-and the DEMO-01 environment have not been rehearsed.
+Status: REVISED — S01–S09 operational cues follow the approved Slide Map and
+19-field Notes schema. Typography and S04–S06 static operation cues are revised.
+The nine-slide Korean-visible preview set was rendered from the revised PPTX via
+Keynote PDF and macOS PDFKit, then visually checked. Keynote reported missing
+fonts; the deck requests Malgun Gothic and Consolas. Fontconfig on this Mac
+matches those names to Nanum Gothic and Andale Mono, but the exact substitutions
+used by Keynote are unconfirmed. Timed delivery, Windows PowerPoint, and room
+projection remain unverified.
 
 Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`,
 `plan/SPEAKER_NOTES_ARCHITECTURE.md`, `plan/SPEAKER_NOTES_FREEZE.md`,
@@ -171,7 +176,7 @@ Advanced Insight: 답변뿐 아니라 파일 발견과 호출 경로 추적을 �
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-01 / WATCH. 기본 자료는 TRIAL-001 기록에 기반한 정적 setup이다. 현재 제품 UI를 그리거나 Live/Hybrid 경로를 실행하지 않는다. WATCH FOR는 Test, Implementation, Call path이며 결과는 빈 상태로 둔다. HYBRID 실행은 발표 계정·surface와 runbook을 확인한 뒤에만 활성화한다.
+Demo Operation: DEMO-01 / WATCH. 기본 경로는 정적 발표다. S04에서 Test, Implementation, Call path의 관찰 기준을 보여 주고 결과 영역은 비워 둔 뒤 S05로 이동한다. 자료는 `production/ACT_0.pptx`의 S04–S06과 `production/preview/act0/S04.png`–`S06.png`다. PNG는 PPT의 정적 렌더이며 실제 CLI 캡처가 아니다. 현재 Desktop·교육 계정 surface와 Live/Hybrid는 미검증이므로 지금 활성화하지 않는다. 향후 활성화하려면 대상 계정·surface, read-only 실행 조건, runbook, 기대 관찰 결과와 복귀 cue를 발표 환경에서 먼저 확인한다.
 
 Audience Interaction: 응답을 요구하지 않는다. 세 관찰 항목을 청중이 마음속으로 따라오게 한다.
 
@@ -179,9 +184,9 @@ Transition: “실제 기록에서 어떤 Test와 경로가 발견됐을까요?�
 
 Time Management: 2분 안에 질문과 세 Watch For를 제시하고 Trial 환경의 범위를 한 문장으로 제한한다.
 
-Fallback: 화면이 불가능하면 세 관찰 기준만 말로 제시한다. 현재 CLI 또는 Desktop UI를 재현하지 않는다.
+Fallback: READY — `production/ACT_0.pptx`의 S04 정적 슬라이드와 `production/preview/act0/S04.png`를 기본 발표 자료로 사용한다. 두 파일은 수정된 PPTX의 최종 로컬 렌더 결과다. 화면 공유가 모두 불가능하면 Test → Implementation → Call path를 말로 제시하고 S05의 기록 근거로 이동한다. Live CLI/Desktop을 즉석에서 열지 않는다. Windows·발표 PC·교육장 표시는 미검증이다.
 
-Validation Status: PROVISIONAL — T05-A 첫 구현은 검토함; 현재 제품 surface, 교육 계정, Live/Hybrid 경로와 target display는 미검증.
+Validation Status: REVIEWED — LOCAL STATIC PATH CONFIRMED — PPTX S04와 한글 표시 PNG를 확인함. 시간 리허설, 현재 제품 surface·교육 계정, Windows PowerPoint와 room readability는 UNVERIFIED.
 
 ## S05 — Agent가 Test와 호출 경로를 찾았다
 
@@ -193,7 +198,7 @@ ACT / Section: ACT 0 / 0D
 
 Allocated Time: 8 minutes
 
-Mode Split: Demo 8 minutes (HYBRID in the Slide Map; captured-evidence baseline until the presentation environment is verified)
+Mode Split: Demo 8 minutes (정적 TRIAL-001 기록·재구성 도식 기본 경로; HYBRID는 발표 환경 검증 전까지 비활성)
 
 Primary Message: TRIAL-001 한 번의 읽기 전용 CLI 조사에서 Agent가 실패 Test, 구현 파일, 계약과 호출 경로를 찾아냈다.
 
@@ -201,11 +206,11 @@ Opening Question: “지정하지 않은 파일과 호출 경로를 실제로 �
 
 Speaker Flow:
 
-1. **OPEN (0:00–1:00):** 결과 요약이 TRIAL-001의 재구성 도식임을 먼저 밝힌다. 실제 CLI screenshot처럼 제시하지 않는다.
+1. **OPEN (0:00–1:00):** 기록 근거를 사용한 정적 발표임을 밝히고, S05는 TRIAL-001을 재구성한 도식이며 실제 CLI screenshot이 아님을 말한다.
 2. **SHOW (1:00–3:00):** `tests/test_transform.py::test_crop_excludes_end_coordinate`를 가리킨다.
 3. **TRACE (3:00–5:00):** `cli.main()` → `pipeline.process_image()` → `transform.crop()` 경로를 따라간다.
 4. **INTERPRET (5:00–7:00):** 계약 `[x_start, x_end)`와 관찰된 `row[x_start : x_end + 1]` 구현의 차이를 설명한다. 수정은 아직 하지 않았다고 말한다.
-5. **SCOPE (7:00–8:00):** 이번 관찰은 단일 read-only CLI run이라고 한정하고 S06에서 결과와 환경 오류를 분리한다고 예고한다.
+5. **SCOPE / HANDOFF (7:00–8:00):** 관찰은 단일 read-only CLI run에 한정됨을 다시 말하고 S06에서 결과와 환경 오류를 분리한다. 기본 경로에서는 이 마지막 1분에 Trial 결과를 요약해 handoff한다. 향후 별도 검증 후 Live를 허용해도 7:00에 hard stop하고 기록된 정적 경로로 복귀한다.
 
 Evidence / Source: TRIAL-001, DEMO-01, STATE-00, CLM-0002, CLM-0009. 실패 Test 발견, 계약·구현 확인, 호출 경로 추적, extra-column 결과 설명, no-edit 준수는 해당 단일 run 기록에 있다.
 
@@ -217,17 +222,17 @@ Advanced Insight: 찾은 경로와 설명은 그 run에서 확인된 범위다. 
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-01 / Evidence. CAPTURED 기록과 재구성 도식을 기본으로 사용한다. 화면 Label: `RECONSTRUCTED DIAGRAM · TRIAL-001 RECORD`, `OBSERVED PRODUCT · CODEX CLI 0.154.0 · READ-ONLY`. 실제 터미널 캡처가 없으면 도식을 screenshot처럼 꾸미지 않는다. HYBRID는 발표 환경 확인 전까지 비활성이다.
+Demo Operation: DEMO-01 / 기본 경로는 `production/ACT_0.pptx` S05 또는 `production/preview/act0/S05.png`의 정적 evidence다. 근거는 `plan/DEMO_MATRIX.md`의 TRIAL-001 기록이며, 현재 산출물의 도식은 해당 기록의 재구성이다. Label `RECONSTRUCTED DIAGRAM · TRIAL-001 RECORD`와 `OBSERVED PRODUCT · CODEX CLI 0.154.0 · READ-ONLY`를 유지한다. 원본 터미널 캡처는 없으며 도식을 실제 캡처로 제시하지 않는다. Live/Hybrid는 현재 발표 계정·surface와 실행 조건이 확인되지 않아 비활성이다. 향후 검증을 거쳐 허용된 Live가 기대 결과를 보이지 않거나 권한·setup이 다르면 즉시 중단하고 “현재 환경에서는 이 과정을 확인할 수 없어, 기록된 TRIAL-001로 돌아가겠습니다.”라고 말한 뒤 S05 정적 도식으로 복귀한다. 복귀는 약 15초를 예상하되 실제 운영 시간은 리허설 전까지 미검증이다.
 
 Audience Interaction: 청중은 S04의 세 Watch For를 확인한다. 중간 응답이나 실습을 요구하지 않는다.
 
 Transition: 발견 사실을 다음 장에서 Repository 관찰과 실행 환경 제한으로 나눈다.
 
-Time Management: 8분을 Test, path, contract, scope 순서로 쓴다. 전체 로그·파일 목록·코드 수정을 읽지 않는다. 마지막 1분을 S06 handoff에 남긴다.
+Time Management: 8분 배분은 유지한다: 0:00–1:00 범위와 재구성 표시, 1:00–3:00 Test, 3:00–5:00 path, 5:00–7:00 contract/구현 차이, 7:00–8:00 single-run 경계와 S06 handoff. 전체 로그·파일 목록·코드 수정은 보여 주지 않는다. Live를 향후 검증해 허용해도 7:00을 hard stop으로 삼고 총 8분을 넘기지 않는다.
 
-Fallback: 선택·검증된 capture가 없으면 TRIAL-001의 기록에서 Test, path, contract를 도식으로 재구성한다. `RECONSTRUCTED DIAGRAM`을 보이고 실제 Terminal screenshot으로 주장하지 않는다. 준비된 기록은 승인된 발표 media 자체가 아니므로 fallback은 아직 PLANNED다.
+Fallback: READY — 기본 발표는 `production/ACT_0.pptx` S05와 `production/preview/act0/S05.png`의 정적 근거를 사용한다. 도식은 TRIAL-001 검증 기록을 재구성한 것이며 실제 terminal screenshot이 아니다. 현재 Live/HYBRID는 활성화하지 않는다. 향후 별도 검증 후 Live를 허용했을 때 권한, setup 또는 예상 관찰이 맞지 않으면 즉시 중단하고 “현재 환경에서는 이 과정을 확인할 수 없어, 기록된 TRIAL-001로 돌아가겠습니다.”라고 말한 뒤 S05 정적 도식으로 복귀한다. 전환은 약 15초로 예상하지만 리허설 전까지 UNVERIFIED. Windows·발표 PC·교육장 적합성은 미검증이다.
 
-Validation Status: PROVISIONAL — TRIAL-001 facts와 T07-A first implementation 대조 완료; 최종 media 선택, Hybrid activation, 발표 PC와 target-scale 가독성 미완료.
+Validation Status: REVIEWED — LOCAL STATIC PATH CONFIRMED — Trial 기록, 재구성 표시, 수정 PPTX와 최종 S05 PNG를 확인함. 실제 CLI capture는 없으며 Live/HYBRID, 교육 계정/surface, Windows, room readability 및 8분 리허설은 UNVERIFIED.
 
 ## S06 — 관찰 결과와 실행 제한을 분리한다
 
@@ -262,7 +267,7 @@ Advanced Insight: 실제 결함 징후, 권한·환경 오류, 미측정 사항�
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-01 / WHAT HAPPENED. 정적 evidence 요약만 사용한다. 실행이나 새 테스트를 하지 않는다. Observation과 Environment limitation은 다른 frame과 명시적 label로 분리한다.
+Demo Operation: DEMO-01 / WHAT HAPPENED. `production/ACT_0.pptx` S06 또는 `production/preview/act0/S06.png`로 관찰과 환경 제한을 정적으로 설명한다. 0:00–0:45 두 frame, 0:45–2:15 Repository observation, 2:15–3:30 environment limitation, 3:30–5:00 원인 경계와 S07 전이를 운영한다. 실행·새 테스트는 하지 않는다. Observation과 Environment limitation은 서로 다른 frame과 label로 유지한다.
 
 Audience Interaction: 질문은 결과 해석을 위한 Case cue다. 응답을 받거나 환경 오류를 해결하게 하지 않는다.
 
@@ -270,9 +275,9 @@ Transition: “Context를 찾는 주체가 바뀌면 무엇이 달라질까요?�
 
 Time Management: Repo observation과 environment limitation에 시간을 나눠 쓴다. 원인 경계를 줄여 말하더라도 3 errors를 crop 결함으로 부르지 않는다.
 
-Fallback: 화면을 사용할 수 없으면 두 구분을 말로 설명하고 기록된 숫자만 사용한다. 기억에 의존해 다른 결과를 만들지 않는다.
+Fallback: READY — 기본 발표는 `production/ACT_0.pptx` S06과 `production/preview/act0/S06.png`의 정적 화면을 사용한다. 화면이 안 보이면 TRIAL-001의 기록된 숫자와 Repository observation / environment limitation 두 범주만 말로 설명하고 새 결과를 보태지 않는다. S05에서 복귀한 경우 약 15초 뒤 S06으로 이어가며, 5분 Case time과 다음 Slide handoff를 지킨다. 전환 시간은 리허설 전까지 UNVERIFIED. Windows와 room visibility는 UNVERIFIED.
 
-Validation Status: PROVISIONAL — Trial record 및 T07-A first implementation 대조 완료; 최종 target display와 발표 속도 미검증.
+Validation Status: REVIEWED — LOCAL STATIC PATH CONFIRMED — 수정 PPTX와 최종 한글 표시 S06 PNG를 확인함. 5분 운영 리허설, Windows PowerPoint 및 room readability는 UNVERIFIED.
 
 ## S07 — 코드를 AI에게 가져가는 대신 AI를 Repository로 데려간다
 
