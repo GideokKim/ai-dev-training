@@ -33,6 +33,8 @@ for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
  if(existsSync(file))Object.assign(factories,(await import(pathToFileURL(file).href)).slides);
 }
+// Apply the user-approved illustration pilot after the original factories.
+Object.assign(factories,await (await import('./illustrations.mjs')).loadIllustrationSlides(ROOT));
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -47,7 +49,8 @@ await fs.mkdir(buildDir,{recursive:true});await fs.mkdir(outDir,{recursive:true}
 const record={buildId:stamp,slideIds:ids,outputDirectory:outDir,notesCoverage:0,artifacts:[]};
 const decks=[{name:'AI_Dev_Training_Full',ids}];
 if(process.argv.includes('--release')){
- for(let act=0;act<6;act++)decks.push({name:`ACT_${act}`,ids:ids.filter(id=>map[id].ACT===`ACT ${act}`)});
+ const selectedActs=process.argv.find(a=>a.startsWith('--release-acts='))?.slice(15).split(',').map(Number)??[0,1,2,3,4,5];
+ for(const act of selectedActs)decks.push({name:`ACT_${act}`,ids:ids.filter(id=>map[id].ACT===`ACT ${act}`)});
 }
 const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_Dev_Training_Full.pptx');
 for(const deck of decks){

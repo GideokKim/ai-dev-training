@@ -50,6 +50,7 @@ Time Management: Lecture 1분 후 4분간 침묵을 허용한다. 발표자가 �
 Fallback: 청중 반응이 없어도 기다린 뒤 다음 장으로 간다. 개인 경험을 말하게 하지 않는다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+
 ## S02 — 작은 질문에는 Chatbot이 유용하다
 
 Slide ID: S02
@@ -93,6 +94,7 @@ Time Management: 다섯 단계의 순서를 짚고 작은 질문에서의 장점
 Fallback: 정적 코드 예시와 다섯 단계 흐름을 설명한다. 실제 ChatGPT 대화나 즉석 제품 화면으로 대체하지 않는다. 새 제작본의 PNG 경로는 `production/preview/act0/S02.png`; 통합 렌더 검토 후 사용한다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+
 ## S03 — 질문이 커지면 Context를 모으는 일이 생긴다
 
 Slide ID: S03
@@ -136,6 +138,7 @@ Time Management: 문제를 세 개 이내의 관계로 설명한다. 파일 목�
 Fallback: 도식이 보이지 않으면 CLI 입력, 처리 흐름, 연산 구현의 세 관계와 테스트·계약 질문을 말로 연결한다. 이 사례를 특정 Trial의 실제 실패로 표현하지 않는다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+
 ## S04 — 파일명을 주지 않으면 Agent는 어디부터 볼까?
 
 Slide ID: S04
@@ -179,6 +182,7 @@ Time Management: 2분 안에 질문과 세 Watch For를 제시하고 Trial 환�
 Fallback: 정적 기본 경로 — `production/ACT_0.pptx` S04 또는 `production/preview/act0/S04.png`. 새 제작본 렌더 검토는 통합 단계에서 수행한다. 화면 사용이 불가능하면 세 관찰 항목을 말로 제시하고 S05 기록 설명으로 이동한다. Live CLI/Desktop을 즉석에서 열지 않는다. Windows·발표 PC·교육장 표시는 UNVERIFIED.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+
 ## S05 — Agent가 Test와 호출 경로를 찾았다
 
 Slide ID: S05
@@ -224,6 +228,7 @@ Time Management: Demo 8분 유지. 1분 출처, 2분 배열, 2분 Test/호출 �
 Fallback: 승인된 정적 도식 — `production/ACT_0.pptx` S05와 `production/preview/act0/S05.png`를 사용한다. 새 제작본 삽입·렌더 대조는 통합 단계에서 수행한다. 원본 Trial 캡처나 Live 결과로 표현하지 않는다. 발표용 시각 방향은 사용자 승인 완료이며 Windows·교육장·실제 운영 검증은 별도다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+
 ## S06 — 관찰 결과와 실행 제한을 분리한다
 
 Slide ID: S06
@@ -268,6 +273,7 @@ Time Management: Repo observation과 environment limitation에 시간을 나눠 
 Fallback: 정적 기본 경로 — `production/ACT_0.pptx` S06 또는 `production/preview/act0/S06.png`. 새 제작본 렌더 검토는 통합 단계에서 수행한다. 화면을 사용할 수 없으면 기록된 숫자와 코드 문제/환경 제한 두 범주만 말로 설명한다. S05에서 이어지는 복귀 cue: “기록된 결과에서, 코드 문제와 실행 제한을 나눠 보겠습니다.” 운영 시간·Windows·room visibility는 UNVERIFIED.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+
 ## S07 — 코드를 AI에게 가져가는 대신 AI를 Repository로 데려간다
 
 Slide ID: S07
@@ -286,11 +292,11 @@ Opening Question: “Context 수집의 일부를 누가 맡을 수 있는가?”
 
 Speaker Flow:
 
-1. **CALL BACK (0:00–0:45):** 위쪽 Repository → 개발자 선택·복사 → AI 관계로 S02를 짧게 회수한다.
-2. **TRANSFER (0:45–2:00):** 아래쪽 개발자 조사 요청 → Agent ↔ Repository로 시선을 옮긴다. 바뀌는 것은 Context를 찾는 주체의 일부이며 목표와 검증 책임을 전부 넘긴다는 뜻이 아니다.
+1. **CALL BACK (0:00–0:45):** 왼쪽 Repository → 개발자 선택·복사 → AI 관계로 S02를 짧게 회수한다.
+2. **TRANSFER (0:45–2:00):** 오른쪽 개발자 조사 요청 → Agent ↔ Repository로 시선을 옮긴다. 바뀌는 것은 Context를 찾는 주체의 일부이며 목표와 검증 책임을 전부 넘긴다는 뜻이 아니다.
 3. **TRANSFER / TRANSITION (2:00–3:00):** 필요하면 큰 C++ 저장소에서도 모듈·테스트·계약을 찾는 상황을 한 문장으로 연결한다. Repository 접근이 원하는 Task를 정하지는 않는다는 S08 질문으로 이동한다.
 
-Evidence / Source: DEMO-01 / TRIAL-001 단일 CLI 관찰; BEAT-003, CLM-0002, CLM-0009. 본문은 Context 수집 역할을 비교하는 TEACHING_MODEL이며 하단에 연결된 과거 관찰의 범위를 별도로 표시한다.
+Evidence / Source: DEMO-01 / TRIAL-001 단일 CLI 관찰; BEAT-003, CLM-0002, CLM-0009. 본문은 Context 수집 역할을 비교하는 TEACHING_MODEL이며 하단에 연결된 과거 관찰의 범위를 별도로 표시한다. 삽화 출처: prototype/image-illustration-pilot/assets/S07.png, built-in image_gen, 2026-10-18. 생성 프롬프트: prototype/image-illustration-pilot/PROMPTS.md. 실제 화면·현장 사진·관찰 자료가 아니다.
 
 Claim Boundary: 이 관찰은 CLI 한 번에 한정되며 제품의 보편적 성능·반복성 주장이 아니다. Repository 접근이 Task 의도나 성공을 자동으로 정한다는 뜻이 아니다.
 
@@ -300,17 +306,18 @@ Advanced Insight: Context 수집 책임의 일부와 Task 목표·판단 책임�
 
 C++ Vision Bridge: CONTEXTUAL speaker cue — 큰 저장소의 모듈·테스트·계약을 찾는 상황을 필요할 때 한 문장으로 연결한다. 화면에 도구·빌드·hardware 목록을 추가하지 않는다.
 
-Demo Operation: DEMO-01 bounded callback. 본문 화살표는 교육 모델이고 새 제품 동작 관찰이 아니다. S05에서 본 단일 CLI 기록을 근거로 한 가능성을 설명하며 새 UI나 실행을 보여 주지 않는다.
+Demo Operation: DEMO-01 bounded callback. 본문 삽화는 교육 모델이고 새 제품 동작 관찰이 아니다. S05에서 본 단일 CLI 기록을 근거로 한 가능성을 설명하며 새 UI나 실행을 보여 주지 않는다.
 
 Audience Interaction: 별도 질의 없음. 청중이 Mental Shift를 비교해 볼 수 있도록 잠시 시선을 둔다.
 
 Transition: “Repository 접근과 Task 의도는 같은가?”라고 물으며 S08에 간다.
 
-Time Management: 위·아래 관계의 변화에 집중한다. Trial 상세와 수치를 반복하지 않는다. C++ 연결은 선택적인 한 문장이며 3분 안에 S08로 이동한다.
+Time Management: 좌·우 관계의 변화에 집중한다. Trial 상세와 수치를 반복하지 않는다. C++ 연결은 선택적인 한 문장이며 3분 안에 S08로 이동한다.
 
-Fallback: Trial record를 표시할 수 없으면 Mental Shift만 Teaching Model로 설명한다. 제품 전반의 사실처럼 말하지 않는다.
+Fallback: Trial record를 표시할 수 없으면 Mental Shift만 Teaching Model로 설명한다. 제품 전반의 사실처럼 말하지 않는다. 정적 파일: production/preview/act0/S07.png 및 production/preview/full/S07.png.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — 사용자 승인 삽화를 전체 제작본에 반영했다. PPT/Notes/PNG 대조와 S72 잘림 재검토 결과는 production/evaluation/FULL_DECK_IMAGE_INTEGRATION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+
 ## S08 — Repository 접근과 Task 의도는 별개다
 
 Slide ID: S08
@@ -354,6 +361,7 @@ Time Management: Access와 Intent 두 축만 설명하고 ACT 1의 구조나 목
 Fallback: 화면 도식이 보이지 않으면 두 책임의 차이를 말로 한 번 설명하고 S09로 간다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+
 ## S09 — Repository를 보면 내가 원하는 것까지 알까?
 
 Slide ID: S09

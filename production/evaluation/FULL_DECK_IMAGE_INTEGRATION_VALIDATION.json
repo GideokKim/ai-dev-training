@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-18",
+  "baselineCommit": "fee00a2",
+  "decision": "DEC-0028",
+  "slideCount": 80,
+  "actCounts": [
+    9,
+    12,
+    15,
+    18,
+    18,
+    8
+  ],
+  "actMinutes": [
+    40.0,
+    55.0,
+    70.0,
+    85.0,
+    80.0,
+    30.0
+  ],
+  "modeMinutes": {
+    "Lecture": 130.0,
+    "Demo": 73.0,
+    "Case": 83.0,
+    "Reflection": 20.0,
+    "Transition": 22.0,
+    "Q&A": 32.0
+  },
+  "totalMinutes": 360.0,
+  "changedSlideContentGeometry": [
+    "S07",
+    "S37",
+    "S53",
+    "S72"
+  ],
+  "unchangedSlideContentGeometry": 76,
+  "changedPreviewImages": [
+    "S07",
+    "S37",
+    "S53",
+    "S72"
+  ],
+  "unchangedPreviewImages": 76,
+  "sourceOfTruthFieldsUnchanged": true,
+  "notesRecords": 80,
+  "notesFields": 19,
+  "changedNotes": [
+    "S07",
+    "S37",
+    "S53",
+    "S72"
+  ],
+  "aggregateAndEmbeddedNotesMatch": true,
+  "nativeS45ChartDataPreserved": true,
+  "actAndFullPreviewMatch": true,
+  "previewDimensions": [
+    1920,
+    1080
+  ],
+  "s72Repair": {
+    "finalQuestion": {
+      "y": 565,
+      "height": 40,
+      "fontPx": 27
+    },
+    "claimFooter": {
+      "y": 650,
+      "height": 30,
+      "fontPx": 19
+    },
+    "questionGroupsShiftY": -6,
+    "localVisualReview": "PASS",
+    "timedRehearsal": "UNVERIFIED"
+  },
+  "finalizer": {
+    "ACT_0": {
+      "package": "PASS",
+      "geometry": "PASS",
+      "import": "PASS",
+      "nativeChartValidation": true,
+      "layoutFindings": 0
+    },
+    "AI_Dev_Training_Full": {
+      "package": "PASS",
+      "geometry": "PASS",
+      "import": "PASS",
+      "nativeChartValidation": true,
+      "layoutFindings": 0
+    },
+    "ACT_4": {
+      "package": "PASS",
+      "geometry": "PASS",
+      "import": "PASS",
+      "nativeChartValidation": true,
+      "layoutFindings": 0
+    },
+    "ACT_3": {
+      "package": "PASS",
+      "geometry": "PASS",
+      "import": "PASS",
+      "nativeChartValidation": true,
+      "layoutFindings": 0
+    }
+  },
+  "packages": [
+    {
+      "file": "production/AI_Dev_Training_Full.pptx",
+      "slides": 80,
+      "sha256": "f249a3287f4eb659b068bb24b4287b6f3d27c4d93c18a1bd92a2b156a943c2db",
+      "embeddedNotesMatch": true,
+      "updated": true
+    },
+    {
+      "file": "production/ACT_0.pptx",
+      "slides": 9,
+      "sha256": "96eef0db2fff87d829ddfc634d83b8eb7fe5081f95774fc29acc3249864dad13",
+      "embeddedNotesMatch": true,
+      "updated": true
+    },
+    {
+      "file": "production/ACT_1.pptx",
+      "slides": 12,
+      "sha256": "93426ddfec21fe3e2563e2c1fad7276478cffeed6ea5dae441da55afdde4621d",
+      "embeddedNotesMatch": true,
+      "updated": false
+    },
+    {
+      "file": "production/ACT_2.pptx",
+      "slides": 15,
+      "sha256": "1014e62f167f77a2a2b6f1ae68ce7158e497612799170a30346c22d61a830f2d",
+      "embeddedNotesMatch": true,
+      "updated": false
+    },
+    {
+      "file": "production/ACT_3.pptx",
+      "slides": 18,
+      "sha256": "56357bea564f7caf06f000c360c0459ed0271a4f1c8d5d49ce382d5d54dc3cfa",
+      "embeddedNotesMatch": true,
+      "updated": true
+    },
+    {
+      "file": "production/ACT_4.pptx",
+      "slides": 18,
+      "sha256": "51d55468039c48fa8b305d1df42dd1178f0e1a5251c2c40d44e986bd805533f9",
+      "embeddedNotesMatch": true,
+      "updated": true
+    },
+    {
+      "file": "production/ACT_5.pptx",
+      "slides": 8,
+      "sha256": "ec08cc6b8588b85b4915d81b1e2ebfe07f8d73b95e30a8247d962064f2e446f0",
+      "embeddedNotesMatch": true,
+      "updated": false
+    }
+  ],
+  "targetWindowsPowerPoint": "UNVERIFIED",
+  "roomProjection": "UNVERIFIED",
+  "targetFonts": "UNVERIFIED",
+  "newTrialRun": false,
+  "demoRepositoryChanged": false
+}

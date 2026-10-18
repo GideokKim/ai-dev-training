@@ -1049,64 +1049,47 @@ REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 �
 
 ## S72 — Project와 환경이 바뀌면 검증도 다시 본다
 
-**Slide ID:**
-S72
+Slide ID: S72
 
-**Working Title:**
-Project와 환경이 바뀌면 검증도 다시 본다
+Working Title: Project와 환경이 바뀌면 검증도 다시 본다
 
-**ACT / Section:**
-ACT 4 / 4G  C++ VISION TRANSFER  /  4H DISCUSSION & TRANSITION
+ACT / Section: ACT 4 / 4G  C++ VISION TRANSFER  /  4H DISCUSSION & TRANSITION
 
-**Allocated Time:**
-20 minutes
+Allocated Time: 20 minutes
 
-**Mode Split:**
-Case 7분 + Reflection 2분 + Q&A 7분 + Transition 4분
+Mode Split: Case 7분 + Reflection 2분 + Q&A 7분 + Transition 4분
 
-**Primary Message:**
-Project나 환경이 바뀌면 기존 performance 가정과 verification 절차가 여전히 맞는지 다시 확인한다. 반복되는 마찰은 관찰하고 원인을 찾아 관련 layer를 바꾼 뒤 benchmark와 regression으로 확인한다.
+Primary Message: Project나 환경이 바뀌면 기존 performance 가정과 verification 절차가 여전히 맞는지 다시 확인한다. 반복되는 마찰은 관찰하고 원인을 찾아 관련 layer를 바꾼 뒤 benchmark와 regression으로 확인한다.
 
-**Opening Question:**
-“같은 문제가 두 번째로 생기면 다시 Prompt를 고칠까, System을 살펴볼까?”
+Opening Question: “같은 문제가 두 번째로 생기면 다시 Prompt를 고칠까, System을 살펴볼까?”
 
-**Speaker Flow:**
+Speaker Flow:
+
 1. (0:00–2:00 / Case) GPU·빌드·측정 조건이 달라진 상황을 가정한다. 실제 C++ 사건이나 구체적 버전 조합을 주장하지 않는다.
-2. (2:00–4:30 / Case) 첫 두 행을 가리킨다. 기존 판단이 어떤 조건에서 맞았는지, 입력과 실행 조건이 비교 가능한지 묻는다. 관찰된 성능 저하나 숫자를 만들지 않는다.
-3. (4:30–7:00 / Case) 기능 계약 행에서 성능과 함께 다시 확인할 동작 범위를 살핀다. 반복 신호→원인 Layer 조사→관련 시스템 변경→Benchmark/Regression 재확인으로 연결한다.
+2. (2:00–4:30 / Case) 그림의 입력·코드·장치와 기존 가정·측정 조건 질문을 가리킨다. 기존 판단이 어떤 조건에서 맞았는지, 입력과 실행 조건이 비교 가능한지 묻는다. 관찰된 성능 저하나 숫자를 만들지 않는다.
+3. (4:30–7:00 / Case) 출력 그림과 기능 계약 질문에서 성능과 함께 다시 확인할 동작 범위를 살핀다. 반복 신호→원인 Layer 조사→관련 시스템 변경→Benchmark/Regression 재확인으로 연결한다.
 4. (7:00–9:00 / Reflection) 하단 질문을 가리켜 자기 업무의 반복 마찰 하나를 마음속으로 떠올리게 한다. 기록·답변·발표는 요구하지 않는다.
 5. (9:00–16:00 / Q&A) 질문을 받는다. 질문이 없으면 아래 Fallback 질문을 하나씩 골라 강사가 짧게 해설한다. 새로운 기술 사례나 제품 설정 강의를 열지 않는다.
-6. (16:00–20:00 / Transition) 16분에 질문을 마감한다. 가정→측정 조건→기능 계약 세 행을 전체 Story의 Context→Harness→Loop와 연결하고 S73의 여정 회수로 이동한다.
+6. (16:00–20:00 / Transition) 16분에 질문을 마감한다. 가정→측정 조건→기능 계약 세 질문을 전체 Story의 Context→Harness→Loop와 연결하고 S73의 여정 회수로 이동한다.
 
-**Evidence / Source:**
-BEAT-059 / TRANS-012  ·  teaching transfer, not observed C++ incident
+Evidence / Source: BEAT-059 / TRANS-012  ·  teaching transfer, not observed C++ incident 삽화 출처: prototype/image-illustration-pilot/assets/S72.png, built-in image_gen, 2026-10-18. 생성 프롬프트: prototype/image-illustration-pilot/PROMPTS.md. 실제 화면·현장 사진·관찰 자료가 아니다.
 
-**Claim Boundary:**
-COURSE MODEL / C++ VISION TRANSFER. Toolchain, CUDA/GPU architecture, build/benchmark configuration은 hypothetical teaching context이며 실제 Demo history가 아니다. 구체적인 Windows/shell/IDE/hardware setup을 주장하지 않는다.
+Claim Boundary: COURSE MODEL / C++ VISION TRANSFER. Toolchain, CUDA/GPU architecture, build/benchmark configuration은 hypothetical teaching context이며 실제 Demo history가 아니다. 구체적인 Windows/shell/IDE/hardware setup을 주장하지 않는다.
 
-**Beginner Explanation:**
-같은 문제가 반복되면 Prompt 외에도 Project와 workflow를 살핀다.
+Beginner Explanation: 같은 문제가 반복되면 Prompt 외에도 Project와 workflow를 살핀다.
 
-**Advanced Insight:**
-Project/environment 변화가 verification assumptions에 미치는 영향을 평가한다.
+Advanced Insight: Project/environment 변화가 verification assumptions에 미치는 영향을 평가한다.
 
-**C++ Vision Bridge:**
-Primary bridge. 변화한 조건에서 기존 tuning 가정과 benchmark/regression 조건을 다시 확인하는 engineering pattern만 전한다.
+C++ Vision Bridge: Primary bridge. 변화한 조건에서 기존 tuning 가정과 benchmark/regression 조건을 다시 확인하는 engineering pattern만 전한다.
 
-**Demo Operation:**
-정적 화면과 speaker-led highlighting을 사용한다. 화면에는 세 확인 대상과 성찰 질문을 두고, 20분 운영표는 Notes에만 둔다. Live 프로젝트·제품 실행·애니메이션 의존 없음.
+Demo Operation: 정적 화면과 speaker-led highlighting을 사용한다. 화면에는 세 확인 대상과 성찰 질문을 두고, 20분 운영표는 Notes에만 둔다. Live 프로젝트·제품 실행·애니메이션 의존 없음. 정적 삽화의 입력→처리 코드→실행 장치→출력을 차례로 가리킨다. 황색 장치·설정 표시는 검토할 조건의 변화이며 실패 원인이 확정됐다는 뜻이 아니다.
 
-**Audience Interaction:**
-7–9분 개인 Reflection은 답변·공유 없이 진행한다. 9–16분 Q&A에서는 실제 회사 환경의 검증되지 않은 해결책을 단정하지 않고 어떤 조건을 확인해야 하는지로 답한다.
+Audience Interaction: 7–9분 개인 Reflection은 답변·공유 없이 진행한다. 9–16분 Q&A에서는 실제 회사 환경의 검증되지 않은 해결책을 단정하지 않고 어떤 조건을 확인해야 하는지로 답한다.
 
-**Transition:**
-“이제 기능이 아니라, 처음의 문제에서 Loop까지 이어진 Story를 다시 연결해 보겠습니다.” ACT 5 S73으로 넘긴다.
+Transition: “이제 기능이 아니라, 처음의 문제에서 Loop까지 이어진 Story를 다시 연결해 보겠습니다.” ACT 5 S73으로 넘긴다.
 
-**Time Management:**
-0–7 Case 7분, 7–9 Reflection 2분, 9–16 Q&A 7분, 16–20 Transition 4분으로 20분을 유지한다. Cutoff cue: “이 질문은 여기까지 정리하고, 이제 처음 문제부터 지금의 Loop까지 연결해 보겠습니다.” 실제 20분 리허설은 수행하지 않았다.
+Time Management: 0–7 Case 7분, 7–9 Reflection 2분, 9–16 Q&A 7분, 16–20 Transition 4분으로 20분을 유지한다. Cutoff cue: “이 질문은 여기까지 정리하고, 이제 처음 문제부터 지금의 Loop까지 연결해 보겠습니다.” 실제 20분 리허설은 수행하지 않았다. 0–2분 전체 그림/변경 표식, 2–4:30분 입력·코드·장치의 가정과 비교 조건, 4:30–7분 출력·기능 계약을 설명한다. 이후 7–9분 Reflection, 9–16분 Q&A, 16–20분 Transition을 유지한다.
 
-**Fallback:**
-정적 PPT/PNG를 기본 경로로 사용한다. Q&A가 없으면 ①“예전 Benchmark와 비교하기 전에 어떤 조건을 맞춰야 할까요?” ②“성능이 달라졌을 때 기능 계약은 무엇으로 다시 확인할까요?” ③“두 번째로 같은 문제가 생기면 Prompt 외에 무엇을 살펴볼까요?” 중 하나씩 선택한다. 응답을 요구하지 않고 기존 세 행의 질문 안에서 강사가 짧게 해설한다.
+Fallback: 정적 PPT/PNG를 기본 경로로 사용한다. Q&A가 없으면 ①“예전 Benchmark와 비교하기 전에 어떤 조건을 맞춰야 할까요?” ②“성능이 달라졌을 때 기능 계약은 무엇으로 다시 확인할까요?” ③“두 번째로 같은 문제가 생기면 Prompt 외에 무엇을 살펴볼까요?” 중 하나씩 선택한다. 응답을 요구하지 않고 기존 세 질문의 범위에서 강사가 짧게 해설한다. 정적 파일: production/preview/act4/S72.png 및 production/preview/full/S72.png.
 
-**Validation Status:**
-REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — 사용자 승인 삽화를 전체 제작본에 반영했다. PPT/Notes/PNG 대조와 S72 잘림 재검토 결과는 production/evaluation/FULL_DECK_IMAGE_INTEGRATION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.

@@ -22,13 +22,13 @@ Opening Question: “Task가 달라도 왜 같은 작업 방법을 계속 쓰고
 
 Speaker Flow:
 
-1. (0:00–2:00) 서로 다른 두 Task goal을 나란히 보여준다.
+1. (0:00–2:00) 처음 30초에 그림으로 작업 대상을 확인한다. 왼쪽은 크기 변경, 오른쪽은 선언된 max_value를 255로 스케일하는 값 범위 변환이다. 0→0, 2048→128, 4095→255를 설명할 수 있지만 화질 개선으로 표현하지 않는다. 이어 두 Task goal을 비교한다.
 2. (2:00–4:00) 두 기록에 반복된 baseline, 조사, 계획, 변경, test, benchmark, 비교, review를 강조한다.
 3. (4:00–5:00) 반복 관찰과 원인 귀속을 분리하고 Prompt-only attribution이 PARTIAL임을 밝힌다.
 
-Evidence / Source: TRIAL-006 (`resize_nearest`), TRIAL-007 (`normalize`), BEAT-018/020. Codex CLI 기록 실행의 workflow 비교.
+Evidence / Source: TRIAL-006 (`resize_nearest`), TRIAL-007 (`normalize`), BEAT-018/020. Codex CLI 기록 실행의 workflow 비교. 함수 계약 참고: Demo STATE-04의 src/graypipe/transform.py 및 normalize.py. 삽화 출처: prototype/image-illustration-pilot/assets/S37.png, built-in image_gen, 2026-10-18. 생성 프롬프트: prototype/image-illustration-pilot/PROMPTS.md. 실제 화면·현장 사진·관찰 자료가 아니다.
 
-Claim Boundary: 유사한 절차가 관찰됐지만 Prompt만의 효과로 귀속하지 않는다. 개별 성능 결과는 해당 코드·입력·환경에 한정한다.
+Claim Boundary: 유사한 절차가 관찰됐지만 Prompt만의 효과로 귀속하지 않는다. 개별 성능 결과는 해당 코드·입력·환경에 한정한다. 그림은 기능 설명용 개념 예시이며 Trial의 입력·출력 파일이나 최적화 전후 결과가 아니다.
 
 Beginner Explanation: 서로 다른 작업에서도 조사하고 확인하는 순서가 반복될 수 있다.
 
@@ -36,7 +36,7 @@ Advanced Insight: Task별 목표와 지속해서 재사용할 절차를 구분�
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: TRIAL-006/007을 요약한 정적 재구성 도식을 사용한다. 새로운 실행이나 실제 터미널 화면이라고 말하지 않는다.
+Demo Operation: 위는 기능 설명용 AI 삽화, 아래는 TRIAL-006/007 기록에서 확인한 반복 절차 요약이다. 같은 grayscale tile을 크기만 달리하거나 동일 크기로 배치해 작업의 차이를 설명한다. 새로운 실행이나 실제 터미널 화면이라고 말하지 않는다.
 
 Audience Interaction: 두 Task의 공통 절차를 잠시 관찰하게 한다. 공개 답변은 요구하지 않는다.
 
@@ -44,9 +44,9 @@ Transition: “Project 지식과 작업 절차는 각각 어떤 질문에 답할
 
 Time Management: Case 5분을 두 Task 비교, 공통 절차, attribution 한계 순으로 쓴다. 수치 설명으로 확장하지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S37 또는 `production/preview/act3/S37.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: 정적 발표 경로는 production/preview/act3/S37.png와 production/preview/full/S37.png다. 같은 그림을 가리키며 원래 질문과 Claim 경계를 설명한다. 설명용 삽화를 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — 사용자 승인 삽화를 전체 제작본에 반영했다. PPT/Notes/PNG 대조와 S72 잘림 재검토 결과는 production/evaluation/FULL_DECK_IMAGE_INTEGRATION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S38 — Project 사실과 작업 절차는 다르다
 
@@ -731,11 +731,11 @@ Opening Question: “우리 Repository에서는 무엇이 Project Context이고 
 
 Speaker Flow:
 
-1. (0:00–1:00) Python Demo와 C++ Vision의 공통 질문이 표의 중심임을 안내한다.
-2. (1:00–3:30) 기준 조건, 조사 경로, 확인 방법의 세 행을 따라 입력/계약에서 빌드·알고리즘·하드웨어 조건으로, Python 경로에서 해당 모듈 측정으로, 동작 계약/테스트에서 회귀·통합 검증으로 연결한다.
+1. (0:00–1:00) 가정적 Vision 업무 장면임을 밝히고, 입력·처리·결과를 가리키며 Python Demo와 C++ Vision의 공통 질문을 안내한다.
+2. (1:00–3:30) 기준 조건, 조사 경로, 확인 방법의 세 질문을 따라 입력/계약에서 빌드·알고리즘·하드웨어 조건으로, Python 경로에서 해당 모듈 측정으로, 동작 계약/테스트에서 회귀·통합 검증으로 연결한다.
 3. (3:30–5:00) baseline → profile → change → regression check를 공통 패턴으로 회수한다. 구체 도구는 팀 표준 확인 후 선택하며 화면을 도구 목록 강의로 확장하지 않는다.
 
-Evidence / Source: BEAT-036, CLM-0016/0017/0030, OQ-011. TEACHING_MODEL.
+Evidence / Source: BEAT-036, CLM-0016/0017/0030, OQ-011. TEACHING_MODEL. 삽화 출처: prototype/image-illustration-pilot/assets/S53.png, built-in image_gen, 2026-10-18. 생성 프롬프트: prototype/image-illustration-pilot/PROMPTS.md. 실제 화면·현장 사진·관찰 자료가 아니다.
 
 Claim Boundary: 교육용 전이 예다. C++ Demo를 구현하거나 팀별 실제 도구 규칙을 검증한 것이 아니다.
 
@@ -745,7 +745,7 @@ Advanced Insight: Build mode, hardware assumptions, module contracts, and regres
 
 C++ Vision Bridge: PRIMARY — Python `unittest` → GoogleTest/CTest or integration checks; benchmark script → benchmark/profiler; Project Context → build, algorithm, hardware constraints. Team standards must be checked before choosing tools.
 
-Demo Operation: N/A.
+Demo Operation: N/A. 그림은 가정적 Vision 업무의 Lecture용 삽화다. 입력·처리·결과를 가리키며 기준 조건, 조사 위치, 검증 범위를 연결한다.
 
 Audience Interaction: 청중이 자사 Project의 Context와 Workflow를 구분할 질문을 제시한다. 답변을 요구하지 않는다.
 
@@ -753,9 +753,9 @@ Transition: “현재 업무에서 어떤 구조가 실제로 필요한지 되�
 
 Time Management: 5분 동안 도구 이름보다 패턴 대응을 중심으로 설명한다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S53 또는 `production/preview/act3/S53.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: 정적 발표 경로는 production/preview/act3/S53.png와 production/preview/full/S53.png다. 같은 그림을 가리키며 원래 질문과 Claim 경계를 설명한다. 설명용 삽화를 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — 사용자 승인 삽화를 전체 제작본에 반영했다. PPT/Notes/PNG 대조와 S72 잘림 재검토 결과는 production/evaluation/FULL_DECK_IMAGE_INTEGRATION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S54 — 필요한 구조부터 질문하기
 
