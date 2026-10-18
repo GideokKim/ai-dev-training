@@ -1,5 +1,16 @@
 # STEP 08 — Visual Specification
 
+## 2026-10-18 — Approved Presentation Revision
+
+DEC-0027 applies the accepted S05/S23/S45/S57 pilot approach to all 80 slides.
+Keep this palette, fonts, evidence grammar, and template roles. Use source
+excerpts, actual code/data comparisons, and editable explanatory diagrams.
+Remove production directions from audience screens; keep operational detail
+in Notes. A compact solid, dashed, or double rule can carry the respective
+Product, Conceptual, or Meta frame when the body provides the clear structure.
+Do not reproduce the same boxed card layout on unrelated slide roles.
+
+
 Date: 2026-10-09
 
 Status: COMPLETE WITH OPEN ITEMS

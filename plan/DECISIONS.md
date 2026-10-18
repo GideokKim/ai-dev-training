@@ -4304,3 +4304,110 @@ None
 Accepted under the user's explicit STEP 08 §§261–270 instruction to freeze the
 Speaker Notes standard, assess ACT 0 readiness, and set the sequential
 production strategy. No ACT deliverable was produced by this decision.
+
+
+### DEC-0027 — Apply the presentation revision pilot across the full deck
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-18
+
+## Context
+
+The user reviewed the original deck and accepted the four-slide presentation
+revision pilot at commit `596d76e` (S05, S23, S45, S57). The course narrative
+and evidence boundaries remain approved. The user now explicitly requests
+application to all 80 slides, full rendered review, and commit/push.
+
+## Problem
+
+The original deck often exposes production instructions, repeats evidence
+metadata, and names mechanisms without showing the concrete artifact or
+comparison. DEMO-04A also leaves its independent Project-change rationale
+unspecified, making the stale-workflow distinction hard to explain.
+
+## Decision
+
+- Apply the accepted pilot's audience-facing approach across S01–S80: concrete
+  source excerpts, bounded code/diff, quantitative comparisons, clear diagrams,
+  and concise questions. Keep source details and operational instructions in
+  the aligned Notes. Keep essential evidence labels and limits on screen.
+- Retain the 80 Slide IDs, titles, Story/ACT/Section/Beat/Demo mapping, approved
+  360-minute time and Mode allocations, and Claim Freeze boundaries.
+- Accept the S57 hypothetical setting: a need to verify module interactions
+  expands the Project's official verification scope from unit tests to unit
+  plus integration tests; a reusable Workflow still directs unit tests only.
+  S56 starts with aligned unit-test scope. S57 exposes only the instruction
+  mismatch. S58–65 continue as a conceptual investigation/evaluation model.
+- This setting is not a graypipe migration, current Skill behavior, real Agent
+  failure, missed-test observation, or PASS/FAIL result. Do not invent commands,
+  logs, test counts, timings, or a new Trial. Preserve DEMO-04A/04B separation.
+- Align the six ACT PPTX files, integrated PPTX, Notes, previews, and fallback
+  provenance to the new presentation version. Keep prior evaluations as history.
+- Keep Windows PowerPoint, actual target fonts, room projection, selected
+  product/account surface, and timed rehearsal as independent unverified gates.
+
+## Rationale
+
+The pilot makes the problem, source material, and comparison visible while
+retaining the explanation's evidence limits. The accepted S57 setting gives
+an independent reason for changing verification scope without fabricating an
+observed Product State. The user's explicit approval resolves its proposed
+status and authorizes full-deck production.
+
+## Alternatives
+
+- Keep the original card-heavy slides: retains artifacts but leaves the
+  confirmed audience-readability and concreteness problems unresolved.
+- Apply only the four pilot slides: does not satisfy the full-deck request and
+  leaves inconsistent presentation quality across the course.
+- Replace the conceptual case with a new real Trial: outside this authorized
+  scope and unnecessary to explain the approved teaching model.
+
+## Trade-offs
+
+The revision requires slide-specific layouts and Notes synchronization.
+Concise screens move technical detail into Notes, so essential boundaries must
+remain visible and the exact underlying evidence must remain traceable.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-IDENTITY-002, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-DEMO-003, INV-SOT-003.
+
+## Affected Artifacts
+
+plan/SLIDE_MAP.md, plan/SLIDE_TEMPLATE_MAP.md, plan/VISUAL_SPEC.md,
+plan/VISUAL_PROTOTYPE_PLAN.md, plan/CLAIM_FREEZE.md, plan/DEMO_MATRIX.md,
+plan/DEMO_ARCHITECTURE.md, demos/runbooks/demo-04a.md, production PPTX,
+Notes, previews, validation and handoff documents.
+
+## Evidence
+
+User instruction: accept the four-slide pilot direction, confirm S57's
+hypothetical setting, apply across all 80 slides, preserve Story/evidence
+scope, review all renders, and commit/push. The accepted pilot is preserved in
+prototype/presentation-revision-pilot/ at commit `596d76e`.
+
+## Training Relevance
+
+YES — production quality and claim accuracy require different checks; a
+hypothetical teaching example can be concretized without becoming evidence.
+
+## Follow-up
+
+Complete full rendered review and source/Notes/time consistency checks. Run
+the independent Windows, room, product-surface and rehearsal gates before
+classroom delivery. No protected Claim expansion is authorized.
+
+## Supersedes
+
+The provisional S57 setting in the pilot review and the old requirement to
+leave its conceptual Project-change rationale unspecified. Other existing
+Decisions, including DEC-0021's evidence split, remain applicable.
+
+## Approval
+
+Explicit user approval in the 2026-10-18 request following the four-slide pilot.

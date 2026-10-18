@@ -28,7 +28,7 @@ N/A — no Product State or Trial
 
 Playback uses local offline PNGs rendered from the current integrated deck. The target Windows PC, education Codex account/surface, permissions, and room are not selected or verified. Historical Trial environments apply only to their recorded runs.
 
-Historical source scope: DEC-0021; plan/DEMO_MATRIX.md DEMO-04A.
+Historical source scope: DEC-0021; DEC-0027; plan/DEMO_MATRIX.md DEMO-04A.
 
 ## Repository Commit / Tag
 
@@ -48,7 +48,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-CONCEPTUAL label; Project source uses NEW TEST ENTRY while workflow retains OLD TEST ENTRY; no execution result.
+CONCEPTUAL label; S56 begins with aligned unit-test instructions. S57 assumes module interactions now need verification, so the official Project scope is unit + integration tests while the reusable Workflow directs unit tests only. Compare instructions, not execution results (DEC-0027).
 
 ## Success Criteria
 
@@ -62,7 +62,7 @@ Constructed state comparison only; no actual command or result.
 
 Open the listed PNGs offline and confirm Slide ID, label, and readable content. Every fallback is a 1920×1080 static render of the integrated PPTX, not a raw terminal screenshot, recording, or new Trial. Check SHA-256 in `FALLBACK_MANIFEST.md`. This validates only local static playback.
 
-Evidence limit: No actual migration, command failure, Agent failure, Trial, or STATE-07+. Do not invent a reason for the Project change.
+Evidence limit: No actual migration, command failure, Agent failure, Trial, or STATE-07+. Use only the approved hypothetical reason: module interactions need verification. Do not add an actual migration, runner command, missed-test observation or PASS/FAIL result.
 
 ## Estimated Time
 
@@ -110,11 +110,11 @@ S57 → S58: distinguish task workaround from system problem.
 
 ## Evidence
 
-DEC-0021; plan/DEMO_MATRIX.md DEMO-04A.
+DEC-0021; DEC-0027; plan/DEMO_MATRIX.md DEMO-04A.
 
 ## Do Not Claim
 
-No actual migration, command failure, Agent failure, Trial, or STATE-07+. Do not invent a reason for the Project change.
+No actual migration, command failure, Agent failure, Trial, or STATE-07+. Use only the approved hypothetical reason: module interactions need verification. Do not add an actual migration, runner command, missed-test observation or PASS/FAIL result.
 
 ## Trial / Run Record
 

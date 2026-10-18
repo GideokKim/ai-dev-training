@@ -1,5 +1,10 @@
 # Presentation Revision Pilot
 
+> 후속 결정 (2026-10-18): 사용자가 네 장의 발표용 방향을 80장에 적용하고
+> S57의 가상 설정을 확정했다. DEC-0027이 현재 승인 상태이며, 아래
+> `READY FOR USER REVIEW` / `PROPOSED` 표현은 최초 시안 검토 당시의 기록이다.
+> 현재 산출물과 검토 결과는 `production/evaluation/FULL_DECK_PRESENTATION_REVISION.md`를 따른다.
+
 Date: 2026-10-18
 
 Status: READY FOR USER REVIEW

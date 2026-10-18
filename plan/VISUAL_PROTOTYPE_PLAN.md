@@ -73,6 +73,12 @@ imply that the Python Demo verifies a C++ project.
 
 ## 4. DEMO-04A Runner Case
 
+Current clarification (2026-10-18, DEC-0027): the user has now accepted the
+hypothetical unit → unit + integration verification-scope change and retained
+unit-only Workflow direction. The earlier prototype rationale below is
+historical; its TODO is resolved as a conceptual setting only. No actual
+runner command, execution or PASS/FAIL result has been established.
+
 DEC-0020 found no independently justified Project change among the reviewed
 candidates that would naturally stale the current repository Skill.
 DEC-0021 retains the stale-Workflow idea only as a conceptual controlled

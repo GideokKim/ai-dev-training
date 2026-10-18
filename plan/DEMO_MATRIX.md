@@ -1,5 +1,17 @@
 # Demo Matrix
 
+## 2026-10-18 — Current DEMO-04A Setting (DEC-0027)
+
+The user accepted the S57 pilot's hypothetical setting. S56 starts with the
+Project and reusable Workflow both directing unit tests. A need to verify
+module interactions expands the official Project scope to unit plus
+integration tests; the Workflow still directs unit tests only. S57 shows the
+instruction-scope mismatch, not execution or a PASS/FAIL result. S58–65 remain
+conceptual. No command, runner implementation, actual missed test, Trial or
+Product State is asserted. Historical decisions and observed evidence below
+remain preserved; this clarification supersedes only the unspecified reason.
+
+
 > Status: **STEP 07 complete with open questions; DEC-0007's aggregate
 > schedule is accepted and DEC-0022 sets STEP 08 Slide Map readiness to READY
 > (2026-10-02). Observed Product path ends at STATE-04-PERF; DEC-0020 found

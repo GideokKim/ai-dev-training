@@ -1,5 +1,15 @@
 # Demo Architecture
 
+## 2026-10-18 — DEMO-04A Clarification (DEC-0027)
+
+The approved hypothetical setting is a legitimate need to verify module
+interactions: Project verification expands from unit tests to unit plus
+integration tests, but the reusable Workflow retains the unit-only direction.
+This setting concretizes the existing conceptual role. It is not an observed
+graypipe change, current Skill behavior, Agent run or test outcome. No exact
+runner command is selected. The existing Demo sequence and durations remain.
+
+
 > Status: **STEP 07 complete with open questions; DEC-0007 schedule accepted
 > and DEC-0022 sets STEP 08 Slide Map readiness to READY (2026-10-02).
 > Product path ends at STATE-04-PERF; DEC-0020/DEC-0021 govern the

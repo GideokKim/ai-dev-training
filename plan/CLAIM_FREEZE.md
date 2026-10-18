@@ -1,5 +1,15 @@
 # STEP 08 — CLAIM / EVIDENCE FREEZE RESULT
 
+## 2026-10-18 — S57 Conceptual Setting Clarification
+
+Under DEC-0027 the user accepted a hypothetical Project need to verify module
+interactions: the official scope expands from unit tests to unit plus
+integration tests, while a reusable Workflow still directs only unit tests.
+This remains CONCEPTUAL across S56–65. It adds no observed migration, Agent
+failure, missing test, runner result, Product State or new Trial. The frozen
+historical evidence and all numerical/inference limits below are unchanged.
+
+
 Checked: 2026-10-06
 
 Related decision: [DEC-0023 — Freeze STEP 08 claims and course operational definitions](DECISIONS.md)

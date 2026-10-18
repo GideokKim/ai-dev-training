@@ -240,7 +240,7 @@ No RECORDED or LIVE slot is introduced.
 | DEMO-01 | S04 WATCH; S05 EVIDENCE; S06 WHAT HAPPENED / result limit; S07 callback. | HYBRID, 8 min on S05. | S06 may use the approved captured search/read/trace fallback. Do not count it as another Demo slot or imply the temporary-directory limitation was a product failure. |
 | DEMO-02 | S22 frames the repeated-fact problem; S23 STATE evidence; S24 TRIAL-003 result and attribution limit. A dedicated WATCH FOR result card is not separately specified. | HYBRID, 8 min: S23 4 + S24 4. | Use the approved before/after instructions and reviewed trace. Keep personal/global Skill influence visible in the result boundary. |
 | DEMO-03 | S40 WATCH / open question; S41 TRIAL-008 discovery and explicit invocation EVIDENCE; S42 WHAT HAPPENED / Prompt-structure comparison. S43–45 are bounded case follow-through, not extra Demo minutes. | HYBRID, 8 min: S41 5 + S42 3. | The observed path is Codex CLI 0.154.0. Desktop behavior, implicit invocation, superiority, token saving, and speed improvement remain unclaimed. |
-| DEMO-04A | S56 WATCH / starting condition; S57 conceptual change and schematic mismatch; S58–65 continue the conceptual case outside its 4-minute Demo slot. | VISUAL conceptual case, 4 min: S56 2 + S57 2. | Keep CONCEPTUAL visible. Use OLD TEST ENTRY → NEW TEST ENTRY; validate a concrete Runner example only if one is later selected. No actual failure or Product State. |
+| DEMO-04A | S56 WATCH / starting condition; S57 conceptual change and schematic mismatch; S58–65 continue the conceptual case outside its 4-minute Demo slot. | VISUAL conceptual case, 4 min: S56 2 + S57 2. | Keep CONCEPTUAL visible. DEC-0027: official unit + integration scope versus reusable unit-only direction. No actual failure, command, or Product State. |
 | DEMO-04B | S67 timeline entry; S68 TRIAL-006 EVIDENCE and attribution; S69 DEC-0016 change. S70–71 are the follow-up and synthesis outside the 8-minute Demo slot. | CAPTURED, 8 min: S67 2 + S68 4 + S69 2. | Use the approved dated timeline and claim audit. Preserve TRIAL-007 report/stderr discrepancy and all PARTIAL / UNKNOWN boundaries. |
 | DEMO-05 | S15 WATCH; S16 TRIAL-002 investigation/change EVIDENCE; S17 checks/result. | CAPTURED, 8 min: S16 4 + S17 4. | Use side-by-side prompt and bounded result capture; no full Prompt or log. |
 | DEMO-06 | S27 TRIAL-004 evidence; S32 STATE-03 structure; S33 TRIAL-005A/B WATCH; S34–35 observed access and comparison. | VISUAL / CAPTURED, 5 min: S27 2 + S32 2 + S35 1. | Use the approved Context map and curated diff. S34 is Case time. Do not imply perfect routing, token savings, or measured performance improvement. |
@@ -371,9 +371,9 @@ Slide Map’s environment and claim limits.
   REQUIRES PRODUCT CHECK in the Claim Freeze and Slide Map.
 - Exact captures, screen crops, and fallback files remain to be selected or
   rehearsed from the existing Demo evidence; this map does not create them.
-- DEMO-04A remains schematic as OLD TEST ENTRY → NEW TEST ENTRY. No specific
-  Runner command, failure, or wrong-scope result is established; keep those
-  details open unless a technically valid conceptual example is later chosen.
+- DEMO-04A uses DEC-0027's approved hypothetical unit → unit + integration
+  scope change with a unit-only reusable direction. No specific Runner command,
+  Agent execution, failure or actual wrong-scope result is established.
 - S66 and S72 state times are approximate reveal cues. Validate legibility
   and pacing during a future prototype without changing the approved Slide
   times or Delivery Mode totals.

@@ -1465,7 +1465,7 @@ ACT별 Mode 대조:
 - **Evidence Type:** CONCEPTUAL
 - **Claim Status:** FROZEN — 80장 구조·Story·시간·Demo 범위; CONCEPTUAL CASE — DEMO-04A 범위; 가상 사례다. 실제 Repository migration이나 Codex failure로 표현하지 않는다.
 - **Visual Concept:** `PROJECT SOURCE`가 새 절차로 이동하는 동안 `REUSABLE WORKFLOW`는 이전 위치에 남는 간극을 그린다.
-- **Demo / Case Connection:** Project의 test organization 또는 runner가 변경된 가상 예시. 정확한 command나 layout은 아직 고정하지 않는다.
+- **Demo / Case Connection:** DEC-0027의 승인된 가상 설정: 모듈 연결 동작을 검증할 필요로 공식 기준은 단위+통합 테스트로 넓어졌지만 재사용 Workflow에는 단위 테스트 지시만 남는다. 정확한 command, 실제 실행 결과, Product State는 정의하지 않는다.
 - **Beginner Payoff:** Agent가 따르는 지침이 Project의 현재 상태와 일치하는지 확인한다.
 - **Advanced Payoff:** 상태 변화와 stale artifact의 위치를 구별한다.
 - **C++ Vision Bridge:** 없음.
