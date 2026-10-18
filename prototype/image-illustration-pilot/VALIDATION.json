@@ -1,0 +1,58 @@
+{
+  "ids": [
+    "S07",
+    "S37",
+    "S53",
+    "S72"
+  ],
+  "scope": "Four-slide review copy; production artifacts unchanged",
+  "notes": {
+    "S07": {
+      "fieldCount": 19,
+      "embeddedMatch": true,
+      "images": 1
+    },
+    "S37": {
+      "fieldCount": 19,
+      "embeddedMatch": true,
+      "images": 4
+    },
+    "S53": {
+      "fieldCount": 19,
+      "embeddedMatch": true,
+      "images": 1
+    },
+    "S72": {
+      "fieldCount": 19,
+      "embeddedMatch": true,
+      "images": 1
+    }
+  },
+  "preview": {
+    "S07": [
+      1920,
+      1080
+    ],
+    "S37": [
+      1920,
+      1080
+    ],
+    "S53": [
+      1920,
+      1080
+    ],
+    "S72": [
+      1920,
+      1080
+    ]
+  },
+  "time": {
+    "S07": "Lecture 3",
+    "S37": "Case 5",
+    "S53": "Lecture 5",
+    "S72": "Case 7; Reflection 2; Q&A 7; Transition 4",
+    "selectedMinutes": 33
+  },
+  "finalSha256": "74581ba034ab0c443ee8bbcf790cbe73f355e5d18ab8c40d1ebebf6c9672cd04",
+  "productionSha256": "9f5e9276a6c197122c31af1fab1dfd22761650355fcacda8d34e70eebaf7fdbd"
+}
