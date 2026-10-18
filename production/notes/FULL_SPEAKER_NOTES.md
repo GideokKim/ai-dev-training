@@ -110,10 +110,10 @@ Opening Question: “여러 파일에 걸친 질문을 하려면 무엇을 먼�
 Speaker Flow:
 
 1. **OPEN (0:00–1:00):** “CLI 결과가 기대와 다른데 어디서부터 볼까?”라는 개념 사례로 질문의 범위를 넓힌다.
-2. **SHOW (1:00–2:30):** CLI → 처리 흐름 → 이미지 연산 관계를 따라간 뒤 아래의 테스트와 계약 질문을 짚는다. 실제 제품 호출 기록을 그대로 그린 화면이라고 하지 않는다.
+2. **SHOW (1:00–2:30):** 사람이 여러 자료를 골라 모으는 삽화를 가리킨다. 오른쪽 구현·호출 경로(CLI → 처리 흐름 → 연산), 테스트, 계약의 세 질문을 차례로 짚는다. 실제 제품 호출 기록을 그대로 그린 화면이라고 하지 않는다.
 3. **INTERPRET (2:30–4:00):** 개발자가 관련 파일과 조건을 찾아 대화로 옮겨야 할 수 있음을 설명한다. 아직 Agent가 이를 대신한다는 답을 제시하지 않고 S04의 관찰 질문으로 이동한다.
 
-Evidence / Source: BEAT-002, CLM-0004, CLM-0009. TEACHING_MODEL / CONCEPTUAL.
+Evidence / Source: BEAT-002, CLM-0004, CLM-0009. TEACHING_MODEL / CONCEPTUAL. 삽화: assets/slide-illustrations/S03-context-collection.png, built-in image_gen, 2026-10-18. 생성 프롬프트: assets/slide-illustrations/PROMPTS.md. 실제 인물·작업 장면·제품 실행 자료가 아니다.
 
 Claim Boundary: 이 상황은 ACT 0의 문제 모델이다. 특정 Trial의 실제 실패나 모든 Repository 업무에서 반복되는 비용으로 주장하지 않는다.
 
@@ -131,9 +131,9 @@ Transition: “파일명을 알려주지 않아도 Agent가 필요한 경로를 
 
 Time Management: 문제를 세 개 이내의 관계로 설명한다. 파일 목록을 늘리거나 해결책을 먼저 공개하지 않는다.
 
-Fallback: 도식이 보이지 않으면 CLI 입력, 처리 흐름, 연산 구현의 세 관계와 테스트·계약 질문을 말로 연결한다. 이 사례를 특정 Trial의 실제 실패로 표현하지 않는다.
+Fallback: production/preview/full/S03.png 또는 production/preview/act0/S03.png를 사용한다. 삽화가 보이지 않으면 CLI 입력, 처리 흐름, 연산 구현의 세 관계와 테스트·계약 질문을 말로 연결한다. 이 사례를 특정 Trial의 실제 실패로 표현하지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — 승인된 전체 이미지 후보의 반영과 로컬 렌더링 결과는 production/evaluation/FULL_DECK_IMAGE_EXPANSION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S04 — 파일명을 주지 않으면 Agent는 어디부터 볼까?
 
@@ -2520,65 +2520,48 @@ REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 �
 
 ## S57 — Project는 바뀌고 Workflow는 남았다
 
-**Slide ID:**
-S57
+Slide ID: S57
 
-**Working Title:**
-Project는 바뀌고 Workflow는 남았다
+Working Title: Project는 바뀌고 Workflow는 남았다
 
-**ACT / Section:**
-ACT 4 / 4B  CONCEPTUAL STALE HARNESS / DEMO-04A
+ACT / Section: ACT 4 / 4B  CONCEPTUAL STALE HARNESS / DEMO-04A
 
-**Allocated Time:**
-4 minutes
+Allocated Time: 4 minutes
 
-**Mode Split:**
-Demo 2분 (VISUAL) + Case 2분
+Mode Split: Demo 2분 (VISUAL) + Case 2분
 
-**Primary Message:**
-모듈 연결 동작까지 검증해야 하는 가상 프로젝트에서 공식 기준은 단위+통합 테스트로 넓어졌지만 재사용 Workflow에는 단위 테스트 지시가 남아 있다. 이는 지시 범위의 차이다.
+Primary Message: 모듈 연결 동작까지 검증해야 하는 가상 프로젝트에서 공식 기준은 단위+통합 테스트로 넓어졌지만 재사용 Workflow에는 단위 테스트 지시가 남아 있다. 이는 지시 범위의 차이다.
 
-**Opening Question:**
-“다음 Task에서 old workflow를 따르면 누가 틀린 걸까?”
+Opening Question: “다음 Task에서 old workflow를 따르면 누가 틀린 걸까?”
 
-**Speaker Flow:**
+Speaker Flow:
+
 1. (0:00–1:00 / Demo) 실제 Trial과 별개인 가상 사례임을 밝힌다. 모듈 연결 동작까지 검증할 필요가 생겨 공식 범위에 통합 테스트를 추가한 사례다.
-2. (1:00–2:00 / Demo) 왼쪽 현재 기준의 단위+통합 테스트와 오른쪽 재사용 Workflow의 단위 테스트 지시를 대조한다.
+2. (1:00–2:00 / Demo) 왼쪽 A/B 각각의 박스와 둘 사이 연결까지 감싼 통합 범위를 가리킨다. 오른쪽에는 같은 모듈과 연결이 있지만 재사용 지시는 단위 테스트만 요구한다. 두 그림은 실행 결과가 아니라 지시 범위의 차이다.
 3. (2:00–3:00 / Case) Project의 요구 변화와 재사용 지침의 미갱신을 구분한다.
 4. (3:00–4:00 / Case) Agent가 실제로 무엇을 실행했는지 아직 보여주지 않았음을 짧게 알리고, 다음 요청을 보정해도 재사용 지침이 남는 질문으로 넘긴다.
 
-**Evidence / Source:**
-DEMO-04A / DEC-0021 / BEAT-038–039 / CONCEPTUAL. 단위+통합 테스트 가상 설정은 발표용 Pilot에 대한 최신 사용자 승인으로 확정됐다. 실제 Repository 이력이나 Trial 근거가 추가된 것은 아니다.
+Evidence / Source: DEMO-04A / DEC-0021 / BEAT-038–039 / CONCEPTUAL. 단위+통합 테스트 가상 설정은 발표용 Pilot에 대한 최신 사용자 승인으로 확정됐다. 실제 Repository 이력이나 Trial 근거가 추가된 것은 아니다. 편집 가능한 native 범위 도식: production/source/presentation-revision/test-scope-visual.mjs. 모듈 A/B는 사례를 설명하는 일반 표기이며 실제 graypipe 모듈을 식별하지 않는다.
 
-**Claim Boundary:**
-승인된 가상 설정이다. 실제 Repository migration, 기존 graypipe Skill, Agent 실행, 테스트 누락 또는 PASS/FAIL 결과를 뜻하지 않는다. 지시의 범위를 비교하며 실제 실행 결과는 보여주지 않는다.
+Claim Boundary: 승인된 가상 설정이다. 실제 Repository migration, 기존 graypipe Skill, Agent 실행, 테스트 누락 또는 PASS/FAIL 결과를 뜻하지 않는다. 지시의 범위를 비교하며 실제 실행 결과는 보여주지 않는다.
 
-**Beginner Explanation:**
-Agent가 따르는 지침이 Project의 현재 절차와 맞는지 살핀다.
+Beginner Explanation: Agent가 따르는 지침이 Project의 현재 절차와 맞는지 살핀다.
 
-**Advanced Insight:**
-Project source의 변화와 stale artifact의 위치를 분리해 본다.
+Advanced Insight: Project source의 변화와 stale artifact의 위치를 분리해 본다.
 
-**C++ Vision Bridge:**
-없음.
+C++ Vision Bridge: 없음.
 
-**Demo Operation:**
-production/ACT_4.pptx의 S57와 production/preview/act4/S57.png 개념 도식을 사용한다. 구체적 명령·Runner 구현·테스트 수·실행 캡처를 추가하지 않는다. 현재 기준과 이전 Workflow 지시를 차례로 가리킨다.
+Demo Operation: production/ACT_4.pptx의 S57와 production/preview/act4/S57.png 개념 도식을 사용한다. 구체적 명령·Runner 구현·테스트 수·실행 캡처를 추가하지 않는다. 각 모듈의 범위→왼쪽의 연결을 포함한 통합 범위→오른쪽에 남은 단위 테스트 지시를 차례로 가리킨다. 모듈의 실제 테스트가 실행됐거나 통합 테스트를 누락했다고 말하지 않는다.
 
-**Audience Interaction:**
-무엇이 바뀌었고 무엇이 남았는지 잠시 비교한다. Agent 탓이나 특정 실패를 가정하지 않는다.
+Audience Interaction: 무엇이 바뀌었고 무엇이 남았는지 잠시 비교한다. Agent 탓이나 특정 실패를 가정하지 않는다.
 
-**Transition:**
-“이번 요청에 통합 테스트도 확인해 달라고 쓰면, 다음 작업이 읽을 Workflow까지 바뀔까요?” S58로 이동한다.
+Transition: “이번 요청에 통합 테스트도 확인해 달라고 쓰면, 다음 작업이 읽을 Workflow까지 바뀔까요?” S58로 이동한다.
 
-**Time Management:**
-Demo 2분은 도식 공개에, Case 2분은 stale 간극을 해석하는 데 쓴다.
+Time Management: Demo 2분은 도식 공개에, Case 2분은 stale 간극을 해석하는 데 쓴다.
 
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S57와 production/preview/act4/S57.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S57와 production/preview/act4/S57.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
 
-**Validation Status:**
-REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — 승인된 전체 이미지 후보의 반영과 로컬 렌더링 결과는 production/evaluation/FULL_DECK_IMAGE_EXPANSION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S58 — Task 해결과 System 문제는 다르다
 
@@ -3547,64 +3530,47 @@ REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 �
 
 ## S74 — 하나의 Repository가 문제에 대응해 진화했다
 
-**Slide ID:**
-S74
+Slide ID: S74
 
-**Working Title:**
-하나의 Repository가 문제에 대응해 진화했다
+Working Title: 하나의 Repository가 문제에 대응해 진화했다
 
-**ACT / Section:**
-ACT 5 / 5A  PRIMARY DEMO EVOLUTION
+ACT / Section: ACT 5 / 5A  PRIMARY DEMO EVOLUTION
 
-**Allocated Time:**
-3 minutes
+Allocated Time: 3 minutes
 
-**Mode Split:**
-Lecture 1분 + Demo 2분 (VISUAL)
+Mode Split: Lecture 1분 + Demo 2분 (VISUAL)
 
-**Primary Message:**
-각 State는 해당 문제에 대응해 기록된 Engineering history다. State 순서는 기능 성숙도 등급이 아니다.
+Primary Message: 각 State는 해당 문제에 대응해 기록된 Engineering history다. State 순서는 기능 성숙도 등급이 아니다.
 
-**Opening Question:**
-“이 Repository는 어떤 문제를 만나며 바뀌었나?”
+Opening Question: “이 Repository는 어떤 문제를 만나며 바뀌었나?”
 
-**Speaker Flow:**
+Speaker Flow:
+
 1. (0:00–1:00 / Lecture) 일곱 이름을 위쪽 왼쪽부터 오른쪽, 다음 아래쪽 왼쪽부터 읽는다. State는 당시 문제에 대응한 이력임을 말한다.
-2. (1:00–2:30 / VISUAL Demo) crop 문제→수정→프로젝트 지침→Context 증가→상세 정보 연결→재사용 Workflow→검증된 제품 변경을 짧게 회수한다.
+2. (1:00–2:30 / VISUAL Demo) 아래 세 발췌(S16 crop 수정, S32 상세 문서 분리, S45 같은 조건의 성능 비교)를 가리키며 위의 일곱 State 변화와 연결한다. 작은 그림은 기억을 회수하는 용도이며 코드·경로·수치를 다시 읽는 시간이 아니다.
 3. (2:30–3:00 / VISUAL Demo) STATE-04-PERF의 bounded endpoint에서 닫는다. Benchmark 준비 commit은 추가 State가 아니다.
 
-**Evidence / Source:**
-OBSERVED_PRODUCT · `ai-dev-training-demo`의 named Git State/tag 기록과 DEMO-12. State 순서는 STATE-00 → STATE-00-FIXED → STATE-01 → STATE-02 → STATE-03 → STATE-04 → STATE-04-PERF다.
+Evidence / Source: OBSERVED_PRODUCT · `ai-dev-training-demo`의 named Git State/tag 기록과 DEMO-12. State 순서는 STATE-00 → STATE-00-FIXED → STATE-01 → STATE-02 → STATE-03 → STATE-04 → STATE-04-PERF다. 발췌 원본: assets/slide-illustrations/recap/S16-source.png, S32-source.png, S45-source.png (기존 production PNG와 동일). S16은 TRIAL-002 diff 재구성, S32는 STATE-02→03 문구 발췌, S45는 STATE-04→04-PERF 단일 코드·입력·환경 비교다. SHA-256과 native crop 범위: assets/slide-illustrations/ASSET_MANIFEST.json.
 
-**Claim Boundary:**
-기록된 State와 Demo evidence 범위에 한정한다. Benchmark preparation commits는 supporting history이며 별도 State가 아니다. Subagent, Memory, stale Harness 또는 Loop를 Product State로 표시하지 않는다.
+Claim Boundary: 기록된 State와 Demo evidence 범위에 한정한다. Benchmark preparation commits는 supporting history이며 별도 State가 아니다. Subagent, Memory, stale Harness 또는 Loop를 Product State로 표시하지 않는다. 세 그림은 기존 발표자료 발췌이며 원본 실행 캡처가 아니다. S32로 Routing 우월성·토큰 절감을 주장하지 않고, S45는 tracemalloc 피크와 이 환경의 코드 변경 결과로 한정하며 RSS·Harness 단독 인과성으로 확대하지 않는다.
 
-**Beginner Explanation:**
-변화가 기능 수를 늘리기 위한 것이 아니라 당시 확인된 문제에 대응했다는 점을 본다.
+Beginner Explanation: 변화가 기능 수를 늘리기 위한 것이 아니라 당시 확인된 문제에 대응했다는 점을 본다.
 
-**Advanced Insight:**
-Product State와 Conceptual 또는 Observed Meta 사례를 구분하고 bounded Product endpoint를 읽는다.
+Advanced Insight: Product State와 Conceptual 또는 Observed Meta 사례를 구분하고 bounded Product endpoint를 읽는다.
 
-**C++ Vision Bridge:**
-N/A.
+C++ Vision Bridge: N/A.
 
-**Demo Operation:**
-DEMO-12 · VISUAL, 2분. 실제 Product State/tag를 요약한 static timeline이다. 새 Trial·repository 실행·추가 state는 없다. Benchmark preparation은 별도 State로 그리지 않는다.
+Demo Operation: DEMO-12 · VISUAL, 2분. 실제 Product State/tag를 요약한 static timeline이다. 새 Trial·repository 실행·추가 state는 없다. Benchmark preparation은 별도 State로 그리지 않는다. 세 발췌와 seven-State rail을 함께 사용하되 개별 Trial을 새로 실행하거나 재설명하지 않는다.
 
-**Audience Interaction:**
-질문에 맞춰 각 State 아래 한 문구를 함께 훑는다. 평가 점수나 성숙도 단계로 읽지 않게 안내한다.
+Audience Interaction: 질문에 맞춰 각 State 아래 한 문구를 함께 훑는다. 평가 점수나 성숙도 단계로 읽지 않게 안내한다.
 
-**Transition:**
-“그러면 이 작업에서 Subagent와 Memory는 왜 없었을까요?” S75로 전환한다.
+Transition: “그러면 이 작업에서 Subagent와 Memory는 왜 없었을까요?” S75로 전환한다.
 
-**Time Management:**
-Lecture 1분 + VISUAL Demo 2분 = 3분. 세부 Trial을 재설명하지 않는다.
+Time Management: Lecture 1분 + VISUAL Demo 2분 = 3분. 세부 Trial을 재설명하지 않는다.
 
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S74와 production/preview/act5/S74.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S74와 production/preview/act5/S74.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
 
-**Validation Status:**
-REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — 승인된 전체 이미지 후보의 반영과 로컬 렌더링 결과는 production/evaluation/FULL_DECK_IMAGE_EXPANSION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S75 — 필요성이 입증되지 않은 것은 보류했다
 

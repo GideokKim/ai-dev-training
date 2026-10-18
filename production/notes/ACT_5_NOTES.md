@@ -69,64 +69,47 @@ REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 �
 
 ## S74 — 하나의 Repository가 문제에 대응해 진화했다
 
-**Slide ID:**
-S74
+Slide ID: S74
 
-**Working Title:**
-하나의 Repository가 문제에 대응해 진화했다
+Working Title: 하나의 Repository가 문제에 대응해 진화했다
 
-**ACT / Section:**
-ACT 5 / 5A  PRIMARY DEMO EVOLUTION
+ACT / Section: ACT 5 / 5A  PRIMARY DEMO EVOLUTION
 
-**Allocated Time:**
-3 minutes
+Allocated Time: 3 minutes
 
-**Mode Split:**
-Lecture 1분 + Demo 2분 (VISUAL)
+Mode Split: Lecture 1분 + Demo 2분 (VISUAL)
 
-**Primary Message:**
-각 State는 해당 문제에 대응해 기록된 Engineering history다. State 순서는 기능 성숙도 등급이 아니다.
+Primary Message: 각 State는 해당 문제에 대응해 기록된 Engineering history다. State 순서는 기능 성숙도 등급이 아니다.
 
-**Opening Question:**
-“이 Repository는 어떤 문제를 만나며 바뀌었나?”
+Opening Question: “이 Repository는 어떤 문제를 만나며 바뀌었나?”
 
-**Speaker Flow:**
+Speaker Flow:
+
 1. (0:00–1:00 / Lecture) 일곱 이름을 위쪽 왼쪽부터 오른쪽, 다음 아래쪽 왼쪽부터 읽는다. State는 당시 문제에 대응한 이력임을 말한다.
-2. (1:00–2:30 / VISUAL Demo) crop 문제→수정→프로젝트 지침→Context 증가→상세 정보 연결→재사용 Workflow→검증된 제품 변경을 짧게 회수한다.
+2. (1:00–2:30 / VISUAL Demo) 아래 세 발췌(S16 crop 수정, S32 상세 문서 분리, S45 같은 조건의 성능 비교)를 가리키며 위의 일곱 State 변화와 연결한다. 작은 그림은 기억을 회수하는 용도이며 코드·경로·수치를 다시 읽는 시간이 아니다.
 3. (2:30–3:00 / VISUAL Demo) STATE-04-PERF의 bounded endpoint에서 닫는다. Benchmark 준비 commit은 추가 State가 아니다.
 
-**Evidence / Source:**
-OBSERVED_PRODUCT · `ai-dev-training-demo`의 named Git State/tag 기록과 DEMO-12. State 순서는 STATE-00 → STATE-00-FIXED → STATE-01 → STATE-02 → STATE-03 → STATE-04 → STATE-04-PERF다.
+Evidence / Source: OBSERVED_PRODUCT · `ai-dev-training-demo`의 named Git State/tag 기록과 DEMO-12. State 순서는 STATE-00 → STATE-00-FIXED → STATE-01 → STATE-02 → STATE-03 → STATE-04 → STATE-04-PERF다. 발췌 원본: assets/slide-illustrations/recap/S16-source.png, S32-source.png, S45-source.png (기존 production PNG와 동일). S16은 TRIAL-002 diff 재구성, S32는 STATE-02→03 문구 발췌, S45는 STATE-04→04-PERF 단일 코드·입력·환경 비교다. SHA-256과 native crop 범위: assets/slide-illustrations/ASSET_MANIFEST.json.
 
-**Claim Boundary:**
-기록된 State와 Demo evidence 범위에 한정한다. Benchmark preparation commits는 supporting history이며 별도 State가 아니다. Subagent, Memory, stale Harness 또는 Loop를 Product State로 표시하지 않는다.
+Claim Boundary: 기록된 State와 Demo evidence 범위에 한정한다. Benchmark preparation commits는 supporting history이며 별도 State가 아니다. Subagent, Memory, stale Harness 또는 Loop를 Product State로 표시하지 않는다. 세 그림은 기존 발표자료 발췌이며 원본 실행 캡처가 아니다. S32로 Routing 우월성·토큰 절감을 주장하지 않고, S45는 tracemalloc 피크와 이 환경의 코드 변경 결과로 한정하며 RSS·Harness 단독 인과성으로 확대하지 않는다.
 
-**Beginner Explanation:**
-변화가 기능 수를 늘리기 위한 것이 아니라 당시 확인된 문제에 대응했다는 점을 본다.
+Beginner Explanation: 변화가 기능 수를 늘리기 위한 것이 아니라 당시 확인된 문제에 대응했다는 점을 본다.
 
-**Advanced Insight:**
-Product State와 Conceptual 또는 Observed Meta 사례를 구분하고 bounded Product endpoint를 읽는다.
+Advanced Insight: Product State와 Conceptual 또는 Observed Meta 사례를 구분하고 bounded Product endpoint를 읽는다.
 
-**C++ Vision Bridge:**
-N/A.
+C++ Vision Bridge: N/A.
 
-**Demo Operation:**
-DEMO-12 · VISUAL, 2분. 실제 Product State/tag를 요약한 static timeline이다. 새 Trial·repository 실행·추가 state는 없다. Benchmark preparation은 별도 State로 그리지 않는다.
+Demo Operation: DEMO-12 · VISUAL, 2분. 실제 Product State/tag를 요약한 static timeline이다. 새 Trial·repository 실행·추가 state는 없다. Benchmark preparation은 별도 State로 그리지 않는다. 세 발췌와 seven-State rail을 함께 사용하되 개별 Trial을 새로 실행하거나 재설명하지 않는다.
 
-**Audience Interaction:**
-질문에 맞춰 각 State 아래 한 문구를 함께 훑는다. 평가 점수나 성숙도 단계로 읽지 않게 안내한다.
+Audience Interaction: 질문에 맞춰 각 State 아래 한 문구를 함께 훑는다. 평가 점수나 성숙도 단계로 읽지 않게 안내한다.
 
-**Transition:**
-“그러면 이 작업에서 Subagent와 Memory는 왜 없었을까요?” S75로 전환한다.
+Transition: “그러면 이 작업에서 Subagent와 Memory는 왜 없었을까요?” S75로 전환한다.
 
-**Time Management:**
-Lecture 1분 + VISUAL Demo 2분 = 3분. 세부 Trial을 재설명하지 않는다.
+Time Management: Lecture 1분 + VISUAL Demo 2분 = 3분. 세부 Trial을 재설명하지 않는다.
 
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S74와 production/preview/act5/S74.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S74와 production/preview/act5/S74.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
 
-**Validation Status:**
-REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — 승인된 전체 이미지 후보의 반영과 로컬 렌더링 결과는 production/evaluation/FULL_DECK_IMAGE_EXPANSION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S75 — 필요성이 입증되지 않은 것은 보류했다
 

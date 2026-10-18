@@ -7,11 +7,11 @@ Status: READY for local offline static slide-render playback only. This is not a
 - Fallback render verification date: 2026-10-18 (Asia/Seoul).
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `9f5e9276a6c197122c31af1fab1dfd22761650355fcacda8d34e70eebaf7fdbd`
+- Source SHA-256: `0057dcd01379fbfd5c20623c866a5e118acf5a81de9b70908357f619c4e8708c`
 - Renderer: Artifact Tool reimport of the finalized PPTX, rasterized at 1920×1080.
 - Host: macOS 26.6.2 (25G83).
 - Full preview inventory: 80 files (`S01.png`–`S80.png`), each 1920×1080; montage 1920×5400.
-- Current version applies the accepted DEC-0027 presentation revision to all 80 slides and aligns the six ACT source decks and Notes. Earlier render provenance remains in Git history.
+- Current version applies DEC-0027 and the DEC-0028/DEC-0029 illustration revisions, retaining all 80 slides and aligned ACT decks/Notes. Earlier render provenance remains in Git history.
 - Every image below is a rendered slide, not a terminal screenshot, video recording, or newly run Trial.
 
 ## Runbook to Fallback Mapping
@@ -54,7 +54,7 @@ Status: READY for local offline static slide-render playback only. This is not a
 | S50 | `production/preview/full/S50.png` | 1920×1080 | `466230d0455f01782aabc3032ef54cff615821afc8d81dbca3edee06bd4a0304` |
 | S51 | `production/preview/full/S51.png` | 1920×1080 | `50ee77bb7e983ded76a38d346e3d427d345db4cfe6869b4bab49d7a3fc458938` |
 | S56 | `production/preview/full/S56.png` | 1920×1080 | `b5bf84f981460c198a4bdc1d4288ffe955c613fdb504a4c32f80b48121639eeb` |
-| S57 | `production/preview/full/S57.png` | 1920×1080 | `481740d7c33c3747db1d2bd6d6285a4aa58361c06ba26632ef82636959c52644` |
+| S57 | `production/preview/full/S57.png` | 1920×1080 | `4bca0183c2d17a116a1394bdca76ca66e3d0cbe76156d512b769decef68d2833` |
 | S59 | `production/preview/full/S59.png` | 1920×1080 | `f86db26896c45e153ad377d393aaff45124115b41de08dee6f74bc3909b856d9` |
 | S60 | `production/preview/full/S60.png` | 1920×1080 | `4fc7b3d5bcaf71f74dcca317c50c703e7f243bc92c422f05fd165f4c43d24ea0` |
 | S64 | `production/preview/full/S64.png` | 1920×1080 | `ff767a80b05cf4765277c978a3a2225a93ecb545801d2cf8dd2c128159a32bef` |
@@ -63,7 +63,7 @@ Status: READY for local offline static slide-render playback only. This is not a
 | S68 | `production/preview/full/S68.png` | 1920×1080 | `e1878bf61f48886636f50e07c418984ed225e25a9127e10e5fe8fe4df6d05fd8` |
 | S69 | `production/preview/full/S69.png` | 1920×1080 | `803798f3090257629e3cc56221cd181658af64235a6db9e8bdbbf11b824bfaa6` |
 | S73 | `production/preview/full/S73.png` | 1920×1080 | `0c7999fc23bd76236c114fc153bbdd1b708212c0f3852abc0f31b1054251c1ef` |
-| S74 | `production/preview/full/S74.png` | 1920×1080 | `1da4d910946f364044c6b5a7785ddbb0a8dafcfe0a98f89bec5c770eb96cb9a1` |
+| S74 | `production/preview/full/S74.png` | 1920×1080 | `0a8622e338a7433fc57d439d1a1f9397b94036f98f5915138100350d386924c4` |
 
 ## Playback Boundary
 

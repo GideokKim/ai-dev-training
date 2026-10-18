@@ -3,6 +3,8 @@
 These modules reproduce the audience-facing revision accepted in DEC-0027.
 DEC-0028 adds the approved S07/S37/S53/S72 teaching illustrations and the S72
 text-box repair. The original pilot remains a historical review artifact.
+DEC-0029 completes the remaining approved candidates S03/S57/S74. S41 retains
+its labeled reconstruction because no original execution capture is available.
 They use `@oai/artifact-tool`; text, diagrams and the S45 chart remain native
 PowerPoint elements. Comparison rows are editable text and rule objects, not
 flattened images. Content authority stays in `plan/`, and Notes are
@@ -11,7 +13,9 @@ read from the six `production/notes/ACT_*_NOTES.md` files.
 - `helpers.mjs`: shared palette, typography, evidence rules and native elements.
 - `pilot.mjs`: approved S05/S23/S45/S57 layouts.
 - `act01.mjs`, `act23.mjs`, `act45.mjs`: slide-specific compositions.
-- `illustrations.mjs`: the four production illustration layouts, applied last.
+- `illustrations.mjs`: four illustration layouts applied after the originals.
+- `additional-visuals.mjs`: S03 scene and S74 source-slide excerpts.
+- `test-scope-visual.mjs`: S57 native module and integration-scope diagram.
 - `build.mjs`: draft/release export, package validation and exact-file rendering.
 
 Use the bundled Codex runtime. Set `RUNTIME_NODE_MODULES`, `RUNTIME_PYTHON`,
@@ -23,7 +27,13 @@ and `CODE_PREVIEW_FONT`; these do not change the designated PPTX typefaces.
 Run `build.mjs --release` for the full deck and six ACT files. A draft can be
 limited with `--ids=S01,S02`. Use `--release --release-acts=0,3,4` to export the
 full deck and only the affected ACTs for this illustration revision.
+The subsequent S03/S57/S74 revision uses `--release --release-acts=0,4,5`.
 Each build uses a fresh directory; the script
 does not overwrite production deliverables. After source, render and package
 review, copy the verified release files and PNGs into production. Windows,
 classroom readability and rehearsal require separate validation.
+
+Additional assets, exact prompt, source-render hashes and native crop windows
+are preserved under `assets/slide-illustrations/`. The S74 excerpts reuse
+frozen renders of the existing S16/S32/S45 teaching material. They are not raw
+execution screenshots, and the original S45 chart stays editable in its slide.

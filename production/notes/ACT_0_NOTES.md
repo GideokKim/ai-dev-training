@@ -114,10 +114,10 @@ Opening Question: “여러 파일에 걸친 질문을 하려면 무엇을 먼�
 Speaker Flow:
 
 1. **OPEN (0:00–1:00):** “CLI 결과가 기대와 다른데 어디서부터 볼까?”라는 개념 사례로 질문의 범위를 넓힌다.
-2. **SHOW (1:00–2:30):** CLI → 처리 흐름 → 이미지 연산 관계를 따라간 뒤 아래의 테스트와 계약 질문을 짚는다. 실제 제품 호출 기록을 그대로 그린 화면이라고 하지 않는다.
+2. **SHOW (1:00–2:30):** 사람이 여러 자료를 골라 모으는 삽화를 가리킨다. 오른쪽 구현·호출 경로(CLI → 처리 흐름 → 연산), 테스트, 계약의 세 질문을 차례로 짚는다. 실제 제품 호출 기록을 그대로 그린 화면이라고 하지 않는다.
 3. **INTERPRET (2:30–4:00):** 개발자가 관련 파일과 조건을 찾아 대화로 옮겨야 할 수 있음을 설명한다. 아직 Agent가 이를 대신한다는 답을 제시하지 않고 S04의 관찰 질문으로 이동한다.
 
-Evidence / Source: BEAT-002, CLM-0004, CLM-0009. TEACHING_MODEL / CONCEPTUAL.
+Evidence / Source: BEAT-002, CLM-0004, CLM-0009. TEACHING_MODEL / CONCEPTUAL. 삽화: assets/slide-illustrations/S03-context-collection.png, built-in image_gen, 2026-10-18. 생성 프롬프트: assets/slide-illustrations/PROMPTS.md. 실제 인물·작업 장면·제품 실행 자료가 아니다.
 
 Claim Boundary: 이 상황은 ACT 0의 문제 모델이다. 특정 Trial의 실제 실패나 모든 Repository 업무에서 반복되는 비용으로 주장하지 않는다.
 
@@ -135,9 +135,9 @@ Transition: “파일명을 알려주지 않아도 Agent가 필요한 경로를 
 
 Time Management: 문제를 세 개 이내의 관계로 설명한다. 파일 목록을 늘리거나 해결책을 먼저 공개하지 않는다.
 
-Fallback: 도식이 보이지 않으면 CLI 입력, 처리 흐름, 연산 구현의 세 관계와 테스트·계약 질문을 말로 연결한다. 이 사례를 특정 Trial의 실제 실패로 표현하지 않는다.
+Fallback: production/preview/full/S03.png 또는 production/preview/act0/S03.png를 사용한다. 삽화가 보이지 않으면 CLI 입력, 처리 흐름, 연산 구현의 세 관계와 테스트·계약 질문을 말로 연결한다. 이 사례를 특정 Trial의 실제 실패로 표현하지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — 승인된 전체 이미지 후보의 반영과 로컬 렌더링 결과는 production/evaluation/FULL_DECK_IMAGE_EXPANSION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S04 — 파일명을 주지 않으면 Agent는 어디부터 볼까?
 

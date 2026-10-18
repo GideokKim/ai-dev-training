@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-18",
+  "baselineCommit": "93d4912",
+  "decision": "DEC-0029",
+  "slideCount": 80,
+  "actCounts": [
+    9,
+    12,
+    15,
+    18,
+    18,
+    8
+  ],
+  "actMinutes": [
+    40.0,
+    55.0,
+    70.0,
+    85.0,
+    80.0,
+    30.0
+  ],
+  "modeMinutes": {
+    "Lecture": 130.0,
+    "Demo": 73.0,
+    "Case": 83.0,
+    "Reflection": 20.0,
+    "Transition": 22.0,
+    "Q&A": 32.0
+  },
+  "totalMinutes": 360.0,
+  "changedSlideContentGeometry": [
+    "S03",
+    "S57",
+    "S74"
+  ],
+  "unchangedSlideContentGeometry": 77,
+  "changedPreviewImages": [
+    "S03",
+    "S57",
+    "S74"
+  ],
+  "unchangedPreviewImages": 77,
+  "sourceOfTruthFieldsUnchanged": true,
+  "notesRecords": 80,
+  "notesFields": 19,
+  "changedNotes": [
+    "S03",
+    "S57",
+    "S74"
+  ],
+  "aggregateAndEmbeddedNotesMatch": true,
+  "nativeS45ChartDataPreserved": true,
+  "actAndFullPreviewMatch": true,
+  "previewDimensions": [
+    1920,
+    1080
+  ],
+  "priorIllustrationsAndS72RepairRetained": true,
+  "existingMediaContentComparedByHash": true,
+  "approvedCandidates": [
+    "S03",
+    "S07",
+    "S37",
+    "S53",
+    "S57",
+    "S72",
+    "S74"
+  ],
+  "conditionalS41": {
+    "originalCaptureAvailable": false,
+    "action": "retain clearly labeled reconstruction"
+  },
+  "newGeneratedImages": [
+    "S03"
+  ],
+  "nativeDiagramAdded": [
+    "S57"
+  ],
+  "sourceExcerptAdded": [
+    "S74"
+  ],
+  "finalizer": {
+    "ACT_0": {
+      "package": "PASS",
+      "geometry": "PASS",
+      "import": "PASS",
+      "nativeChartValidation": true,
+      "layoutFindings": 0
+    },
+    "AI_Dev_Training_Full": {
+      "package": "PASS",
+      "geometry": "PASS",
+      "import": "PASS",
+      "nativeChartValidation": true,
+      "layoutFindings": 0
+    },
+    "ACT_5": {
+      "package": "PASS",
+      "geometry": "PASS",
+      "import": "PASS",
+      "nativeChartValidation": true,
+      "layoutFindings": 0
+    },
+    "ACT_4": {
+      "package": "PASS",
+      "geometry": "PASS",
+      "import": "PASS",
+      "nativeChartValidation": true,
+      "layoutFindings": 0
+    }
+  },
+  "packages": [
+    {
+      "file": "production/AI_Dev_Training_Full.pptx",
+      "slides": 80,
+      "sha256": "0057dcd01379fbfd5c20623c866a5e118acf5a81de9b70908357f619c4e8708c",
+      "embeddedNotesMatch": true,
+      "updated": true
+    },
+    {
+      "file": "production/ACT_0.pptx",
+      "slides": 9,
+      "sha256": "761129f8e7e9113e27e3f56caa510a454b71208a223c22e8a661d0c075ef29fe",
+      "embeddedNotesMatch": true,
+      "updated": true
+    },
+    {
+      "file": "production/ACT_1.pptx",
+      "slides": 12,
+      "sha256": "93426ddfec21fe3e2563e2c1fad7276478cffeed6ea5dae441da55afdde4621d",
+      "embeddedNotesMatch": true,
+      "updated": false
+    },
+    {
+      "file": "production/ACT_2.pptx",
+      "slides": 15,
+      "sha256": "1014e62f167f77a2a2b6f1ae68ce7158e497612799170a30346c22d61a830f2d",
+      "embeddedNotesMatch": true,
+      "updated": false
+    },
+    {
+      "file": "production/ACT_3.pptx",
+      "slides": 18,
+      "sha256": "56357bea564f7caf06f000c360c0459ed0271a4f1c8d5d49ce382d5d54dc3cfa",
+      "embeddedNotesMatch": true,
+      "updated": false
+    },
+    {
+      "file": "production/ACT_4.pptx",
+      "slides": 18,
+      "sha256": "d6f76d2adc01da8b50ae5a3c663c98655658af6445ef693799492eeaebb12500",
+      "embeddedNotesMatch": true,
+      "updated": true
+    },
+    {
+      "file": "production/ACT_5.pptx",
+      "slides": 8,
+      "sha256": "00833b265283494cb016f8f38d4727645d33eb085facc6e6e14e92d075746d36",
+      "embeddedNotesMatch": true,
+      "updated": true
+    }
+  ],
+  "targetWindowsPowerPoint": "UNVERIFIED",
+  "roomProjection": "UNVERIFIED",
+  "targetFonts": "UNVERIFIED",
+  "newTrialRun": false,
+  "demoRepositoryChanged": false
+}

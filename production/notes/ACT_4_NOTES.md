@@ -130,65 +130,48 @@ REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 �
 
 ## S57 — Project는 바뀌고 Workflow는 남았다
 
-**Slide ID:**
-S57
+Slide ID: S57
 
-**Working Title:**
-Project는 바뀌고 Workflow는 남았다
+Working Title: Project는 바뀌고 Workflow는 남았다
 
-**ACT / Section:**
-ACT 4 / 4B  CONCEPTUAL STALE HARNESS / DEMO-04A
+ACT / Section: ACT 4 / 4B  CONCEPTUAL STALE HARNESS / DEMO-04A
 
-**Allocated Time:**
-4 minutes
+Allocated Time: 4 minutes
 
-**Mode Split:**
-Demo 2분 (VISUAL) + Case 2분
+Mode Split: Demo 2분 (VISUAL) + Case 2분
 
-**Primary Message:**
-모듈 연결 동작까지 검증해야 하는 가상 프로젝트에서 공식 기준은 단위+통합 테스트로 넓어졌지만 재사용 Workflow에는 단위 테스트 지시가 남아 있다. 이는 지시 범위의 차이다.
+Primary Message: 모듈 연결 동작까지 검증해야 하는 가상 프로젝트에서 공식 기준은 단위+통합 테스트로 넓어졌지만 재사용 Workflow에는 단위 테스트 지시가 남아 있다. 이는 지시 범위의 차이다.
 
-**Opening Question:**
-“다음 Task에서 old workflow를 따르면 누가 틀린 걸까?”
+Opening Question: “다음 Task에서 old workflow를 따르면 누가 틀린 걸까?”
 
-**Speaker Flow:**
+Speaker Flow:
+
 1. (0:00–1:00 / Demo) 실제 Trial과 별개인 가상 사례임을 밝힌다. 모듈 연결 동작까지 검증할 필요가 생겨 공식 범위에 통합 테스트를 추가한 사례다.
-2. (1:00–2:00 / Demo) 왼쪽 현재 기준의 단위+통합 테스트와 오른쪽 재사용 Workflow의 단위 테스트 지시를 대조한다.
+2. (1:00–2:00 / Demo) 왼쪽 A/B 각각의 박스와 둘 사이 연결까지 감싼 통합 범위를 가리킨다. 오른쪽에는 같은 모듈과 연결이 있지만 재사용 지시는 단위 테스트만 요구한다. 두 그림은 실행 결과가 아니라 지시 범위의 차이다.
 3. (2:00–3:00 / Case) Project의 요구 변화와 재사용 지침의 미갱신을 구분한다.
 4. (3:00–4:00 / Case) Agent가 실제로 무엇을 실행했는지 아직 보여주지 않았음을 짧게 알리고, 다음 요청을 보정해도 재사용 지침이 남는 질문으로 넘긴다.
 
-**Evidence / Source:**
-DEMO-04A / DEC-0021 / BEAT-038–039 / CONCEPTUAL. 단위+통합 테스트 가상 설정은 발표용 Pilot에 대한 최신 사용자 승인으로 확정됐다. 실제 Repository 이력이나 Trial 근거가 추가된 것은 아니다.
+Evidence / Source: DEMO-04A / DEC-0021 / BEAT-038–039 / CONCEPTUAL. 단위+통합 테스트 가상 설정은 발표용 Pilot에 대한 최신 사용자 승인으로 확정됐다. 실제 Repository 이력이나 Trial 근거가 추가된 것은 아니다. 편집 가능한 native 범위 도식: production/source/presentation-revision/test-scope-visual.mjs. 모듈 A/B는 사례를 설명하는 일반 표기이며 실제 graypipe 모듈을 식별하지 않는다.
 
-**Claim Boundary:**
-승인된 가상 설정이다. 실제 Repository migration, 기존 graypipe Skill, Agent 실행, 테스트 누락 또는 PASS/FAIL 결과를 뜻하지 않는다. 지시의 범위를 비교하며 실제 실행 결과는 보여주지 않는다.
+Claim Boundary: 승인된 가상 설정이다. 실제 Repository migration, 기존 graypipe Skill, Agent 실행, 테스트 누락 또는 PASS/FAIL 결과를 뜻하지 않는다. 지시의 범위를 비교하며 실제 실행 결과는 보여주지 않는다.
 
-**Beginner Explanation:**
-Agent가 따르는 지침이 Project의 현재 절차와 맞는지 살핀다.
+Beginner Explanation: Agent가 따르는 지침이 Project의 현재 절차와 맞는지 살핀다.
 
-**Advanced Insight:**
-Project source의 변화와 stale artifact의 위치를 분리해 본다.
+Advanced Insight: Project source의 변화와 stale artifact의 위치를 분리해 본다.
 
-**C++ Vision Bridge:**
-없음.
+C++ Vision Bridge: 없음.
 
-**Demo Operation:**
-production/ACT_4.pptx의 S57와 production/preview/act4/S57.png 개념 도식을 사용한다. 구체적 명령·Runner 구현·테스트 수·실행 캡처를 추가하지 않는다. 현재 기준과 이전 Workflow 지시를 차례로 가리킨다.
+Demo Operation: production/ACT_4.pptx의 S57와 production/preview/act4/S57.png 개념 도식을 사용한다. 구체적 명령·Runner 구현·테스트 수·실행 캡처를 추가하지 않는다. 각 모듈의 범위→왼쪽의 연결을 포함한 통합 범위→오른쪽에 남은 단위 테스트 지시를 차례로 가리킨다. 모듈의 실제 테스트가 실행됐거나 통합 테스트를 누락했다고 말하지 않는다.
 
-**Audience Interaction:**
-무엇이 바뀌었고 무엇이 남았는지 잠시 비교한다. Agent 탓이나 특정 실패를 가정하지 않는다.
+Audience Interaction: 무엇이 바뀌었고 무엇이 남았는지 잠시 비교한다. Agent 탓이나 특정 실패를 가정하지 않는다.
 
-**Transition:**
-“이번 요청에 통합 테스트도 확인해 달라고 쓰면, 다음 작업이 읽을 Workflow까지 바뀔까요?” S58로 이동한다.
+Transition: “이번 요청에 통합 테스트도 확인해 달라고 쓰면, 다음 작업이 읽을 Workflow까지 바뀔까요?” S58로 이동한다.
 
-**Time Management:**
-Demo 2분은 도식 공개에, Case 2분은 stale 간극을 해석하는 데 쓴다.
+Time Management: Demo 2분은 도식 공개에, Case 2분은 stale 간극을 해석하는 데 쓴다.
 
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S57와 production/preview/act4/S57.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S57와 production/preview/act4/S57.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
 
-**Validation Status:**
-REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — 승인된 전체 이미지 후보의 반영과 로컬 렌더링 결과는 production/evaluation/FULL_DECK_IMAGE_EXPANSION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S58 — Task 해결과 System 문제는 다르다
 

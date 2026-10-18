@@ -56,7 +56,12 @@ Follow the six-hour mental-model evolution without implying automation.
 
 ## Expected Output
 
-Static story and State recap.
+Static story and State recap. S74 includes excerpts of the existing S16 crop
+diff diagram, S32 routing text and S45 recorded-data chart. The seven-State
+rail and the excerpts have separate regions; captions name the actual State
+ranges. These are existing teaching-slide renders, not raw execution captures
+or newly measured results. Use the excerpts for recall rather than rereading
+the small code or chart labels.
 
 ## Verification
 

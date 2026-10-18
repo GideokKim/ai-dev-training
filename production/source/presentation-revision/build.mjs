@@ -35,6 +35,7 @@ for(const name of ['act01','act23','act45','pilot']){
 }
 // Apply the user-approved illustration pilot after the original factories.
 Object.assign(factories,await (await import('./illustrations.mjs')).loadIllustrationSlides(ROOT));
+Object.assign(factories,await (await import('./additional-visuals.mjs')).loadAdditionalVisuals(ROOT));
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
