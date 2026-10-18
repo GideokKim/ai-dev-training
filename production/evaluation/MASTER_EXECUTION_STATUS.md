@@ -36,7 +36,7 @@ The initial Training tree was clean at `f611a25`; the live origin/main check mat
 | ME-05 | Inspect Demo fallback path and State preservation | PASS for local static fallback only | 80 full previews exist at 1920×1080; montage is 1920×1600. 29 PNGs referenced by runbooks are manifest-listed with SHA-256. Visuals are static slide renders, not raw CLI captures or new Trials. Windows/product/live transition is not approved. |
 | ME-06 | Create bounded runbooks from existing evidence | PASS, static path only | `demos/runbooks/` includes DEMO-01–DEMO-12 (DEMO-04 is split into 04A/04B), LOOP-VISUAL, README, and `FALLBACK_MANIFEST.md`. Unknown historical prompts and target-specific product facts remain N/A/TBD/UNVERIFIED. |
 | ME-07 | Prepare user validation checklist and handoff | PASS | `USER_VALIDATION_CHECKLIST.md`, `FINAL_HANDOFF.md`, and this status record are prepared; user-only gates are explicit. |
-| ME-08 | Validate changes, commit verified artifacts, push existing origin/main | IN PROGRESS | Geometry fix committed as `8b082b95b58a6dc48a42f251ea1e013c2c013414`. Documentation checkpoint and push verification remain pending. |
+| ME-08 | Validate changes, commit verified artifacts, push existing origin/main | PASS | Geometry and documentation commits were pushed to the existing `origin/main`; post-push `git ls-remote` matched `4132d626d12fa6b22550e3ac6d7b5e7389b093a8`. The final status-record commit is also pushed; its SHA is reported in the final task result. |
 
 ## Render Provenance and Current PPTX
 

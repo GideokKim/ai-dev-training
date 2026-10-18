@@ -55,7 +55,7 @@ Execution evidence: `production/evaluation/MASTER_EXECUTION_STATUS.md`.
 
 ## Git Checkpoint
 
-Training repository: existing `main` branch and existing `origin` only; force push prohibited. Geometry-only commit: `8b082b95b58a6dc48a42f251ea1e013c2c013414`. The final documentation checkpoint is the commit containing this handoff in Git history. The existing `origin/main` will be rechecked against final HEAD after push; this checkpoint does not approve classroom deployment or external delivery.
+Training repository: existing `main` branch and existing `origin` only; force push prohibited. Geometry-only commit: `8b082b95b58a6dc48a42f251ea1e013c2c013414`. Runbooks and handoff commit: `4132d626d12fa6b22550e3ac6d7b5e7389b093a8`. That push succeeded and `origin/main` matched its SHA after push. The final status-record commit containing this handoff is also pushed; its SHA is reported in the final task result. Git checkpointing does not approve classroom deployment or external delivery.
 
 ## Use Before Validation
 
