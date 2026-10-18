@@ -5,6 +5,8 @@ DEC-0028 adds the approved S07/S37/S53/S72 teaching illustrations and the S72
 text-box repair. The original pilot remains a historical review artifact.
 DEC-0029 completes the remaining approved candidates S03/S57/S74. S41 retains
 its labeled reconstruction because no original execution capture is available.
+DEC-0030 applies the fourteen approved presentation improvements to 32 slides,
+keeping all source mappings, time allocations and evidence boundaries.
 They use `@oai/artifact-tool`; text, diagrams and the S45 chart remain native
 PowerPoint elements. Comparison rows are editable text and rule objects, not
 flattened images. Content authority stays in `plan/`, and Notes are
@@ -16,6 +18,9 @@ read from the six `production/notes/ACT_*_NOTES.md` files.
 - `illustrations.mjs`: four illustration layouts applied after the originals.
 - `additional-visuals.mjs`: S03 scene and S74 source-slide excerpts.
 - `test-scope-visual.mjs`: S57 native module and integration-scope diagram.
+- `polish-early.mjs`, `polish-harness.mjs`, `polish-late.mjs`: approved reading
+  hierarchy, bilingual excerpts, distinct slide roles and evidence labels.
+- `polish-visuals.mjs`: S72 question hierarchy and S74 directed State rail.
 - `build.mjs`: draft/release export, package validation and exact-file rendering.
 
 Use the bundled Codex runtime. Set `RUNTIME_NODE_MODULES`, `RUNTIME_PYTHON`,
