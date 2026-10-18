@@ -4504,3 +4504,96 @@ surface and timed rehearsal as independent UNVERIFIED gates.
 
 Explicit user approval to integrate all four images, preserve course and claim
 scope, repair S72, render, commit and push.
+
+
+### DEC-0029 — Complete the approved slide image candidates
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-18
+
+## Context
+
+The user requested every previously recommended image placement. The earlier
+review listed S03, S07, S37, S53, S57, S72 and S74, plus a conditional S41
+original-capture option. DEC-0028 already integrated S07/S37/S53/S72.
+
+## Problem
+
+S03 still describes manual context collection without a work scene, S57's
+test-scope comparison lacks a module-connection picture, and S74's State names
+do not visually recall the earlier artifacts. The S41 option requires an
+original capture that must not be fabricated.
+
+## Decision
+
+- Complete S03 with a generated teaching illustration of a person gathering
+  implementation, test and contract context. Retain the question and friction;
+  do not reveal the Agent solution before S04.
+- Add native editable module/scope diagrams to S57's approved comparison:
+  official unit plus integration scope versus reusable unit-only instructions.
+  Keep the DEC-0027 hypothetical setting and no-execution-result boundary.
+- Add native crops of the existing S16/S32/S45 slide renders to S74. Preserve
+  all seven named States, their order and one-phrase meanings. Separate the
+  excerpts from the rail and label their actual State references so column
+  alignment does not imply an incorrect one-to-one mapping.
+- Keep S07/S37/S53/S72 as already approved, including the S72 clipping repair.
+- Retain the clearly labeled S41 reconstruction: no original CLI screenshot
+  or recording was found in the training assets, Demo, prototype or production
+  inventory. Render previews are not original execution captures.
+- Preserve 80 slides, 360 minutes, titles, ACT/Section/Beat/Demo relationships,
+  time/Mode allocations, Evidence Types and frozen Claim boundaries. Align
+  affected ACT 0/4/5 files, Notes, previews and fallback provenance.
+
+## Rationale
+
+The three remaining visuals address the exact purposes identified in the
+earlier recommendation. Scene art explains human work, editable scope diagrams
+make the hypothetical comparison concrete, and source excerpts recall actual
+teaching artifacts without adding evidence or product claims.
+
+## Alternatives
+
+- Add images to all 80 slides: exceeds the selected candidate set and can
+  reduce space for existing evidence.
+- Generate a fictional S41 terminal screenshot: fails the source condition.
+- Generate new benchmark results or a real test run: unnecessary and outside
+  the approved visual-production scope.
+
+## Trade-offs
+
+S74 excerpt text is a visual reminder, not material to reread at distance.
+Native captions and Notes carry source identity and scope. Image source files
+and crop metadata add a small asset dependency to the production build.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001, INV-DEMO-003, INV-SOT-003.
+
+## Affected Artifacts
+
+Production integrated and ACT 0/4/5 PPTX, Notes, previews, production source,
+assets/slide-illustrations, fallback manifest and DEMO-12 operating description.
+
+## Evidence
+
+Explicit user request to apply all earlier recommended image placements.
+Earlier recommendation recovered from the same conversation. Asset provenance
+and exact prompt: assets/slide-illustrations/PROMPTS.md and ASSET_MANIFEST.json.
+Local result: production/evaluation/FULL_DECK_IMAGE_EXPANSION.md.
+
+## Training Relevance
+
+YES — improving visual explanation requires distinguishing an illustration,
+an observed source artifact and an unavailable original capture.
+
+## Follow-up
+
+Keep the S41 original-capture option conditional and retain all independent
+Windows, font, room, product/account and rehearsal gates as UNVERIFIED.
+
+## Approval
+
+Explicit user approval to apply the full previously recommended candidate set.
