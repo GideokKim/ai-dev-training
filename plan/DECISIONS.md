@@ -4597,3 +4597,88 @@ Windows, font, room, product/account and rehearsal gates as UNVERIFIED.
 ## Approval
 
 Explicit user approval to apply the full previously recommended candidate set.
+
+### DEC-0030 — Apply the approved full-deck presentation polish
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-18
+
+## Context
+
+The user reviewed the image-expanded 80-slide deck and requested an independent
+audit before changes. The audit identified fourteen presentation improvements;
+the user then explicitly instructed the project to proceed.
+
+## Problem
+
+Some images dominate their teaching questions, adjacent slides repeat similar
+compositions, and a few source excerpts or evidence labels need clearer reading
+order. These are presentation issues within the approved course architecture.
+
+## Decision
+
+- Apply all fourteen reviewed improvements: S37 procedure hierarchy, S48 scoped
+  Memory conclusion, S72 spacing, S10–14 progression, S66 case-to-loop cues,
+  S53 transfer mapping, S74 State reading order, S23/S43 bilingual hierarchy,
+  S21/25, S30/31 and S38/39 role differentiation, S64 evidence status, S70
+  terminology, S67–71 Meta sequence, S73–79 closing roles and S29 qualitative
+  research-task structure.
+- Reuse approved illustrations and native editable diagrams. Preserve original
+  English excerpts; add only concise Korean meanings and presentation cues.
+- Keep observed records, conceptual cases and teaching models separate. Past
+  Trial references in S64 are not new evaluation results. Do not add numerical
+  research results, execution captures, Trials or current-product claims.
+- Preserve all 80 slide IDs, titles, ACT/Section/Beat/Demo mappings, 360 minutes,
+  each time/Mode allocation, Evidence Types and frozen Claim boundaries.
+- Align the full deck, six ACT packages, Notes, previews and fallback hashes.
+  Keep S52's deliberate double-line OBSERVED_META frame.
+
+## Rationale
+
+The changes make existing decisions easier to see and explain. They address
+specific audit findings without changing the approved maturity story or
+strengthening its evidence.
+
+## Alternatives
+
+- Retain the current layouts: leaves the reviewed presentation issues open.
+- Rebuild the story or shorten the course: outside the accepted revision.
+- Add new product experiments or generated screenshots: unnecessary and outside
+  the approved evidence boundary.
+
+## Trade-offs
+
+The revised screen cues need presenter familiarization. Local visual and
+package checks do not establish classroom readability or timed operation.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001, INV-DEMO-003, INV-SOT-003.
+
+## Affected Artifacts
+
+Production integrated and ACT PPTX, Notes, previews, presentation source,
+fallback manifest and production evaluation.
+
+## Evidence
+
+The independent 80-slide visual review and the user's subsequent instruction
+to proceed with its fourteen recommendations. Implementation and validation:
+production/evaluation/FULL_DECK_PRESENTATION_POLISH.md.
+
+## Training Relevance
+
+YES — a presentation can improve while its planning intent and evidence scope
+remain stable and traceable.
+
+## Follow-up
+
+Windows PowerPoint, target fonts, room projection, product/account operation
+and timed rehearsal remain separate UNVERIFIED gates.
+
+## Approval
+
+Explicit user instruction to proceed after reviewing the fourteen-item list.
