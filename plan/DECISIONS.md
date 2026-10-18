@@ -4411,3 +4411,96 @@ Decisions, including DEC-0021's evidence split, remain applicable.
 ## Approval
 
 Explicit user approval in the 2026-10-18 request following the four-slide pilot.
+
+
+### DEC-0028 — Integrate the approved teaching illustrations into production
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-18
+
+## Context
+
+The user reviewed the S07/S37/S53/S72 illustration pilot at `fee00a2`, approved
+integration into the full 80-slide PPTX, and requested another S72 clipping
+review, rendered validation, commit and push.
+
+## Problem
+
+The approved pictures exist only in a four-slide review copy. Production PPTX,
+ACT files, Notes and previews must use the same approved visual explanation.
+S72's final question and claim-footer text boxes have insufficient vertical
+slack for substitute font metrics.
+
+## Decision
+
+- Apply the approved illustrations to S07, S37, S53 and S72 in the integrated
+  PPTX and corresponding ACT 0/3/4 files. Keep native editable text, shapes,
+  Notes and the existing S45 chart.
+- Keep the 80 Slide IDs, titles, Story/Section/Beat/Demo mapping, 360 minutes,
+  Mode allocations, Evidence Types and Claim Freeze boundaries.
+- Keep all four images labeled as generated teaching illustrations. S37's
+  picture explains resize versus value-range conversion; the repeated
+  procedure below it summarizes the historical Trials. The picture is not
+  a Trial input/output, optimization result, or Prompt-only causal evidence.
+- Keep S53/S72 as hypothetical C++ Vision transfer models. Highlighted hardware
+  conditions do not establish a real incident, failure cause or measured result.
+- Increase only S72's final-question and claim-footer box heights, raise its
+  three question groups slightly, and re-render the exact final package.
+- Align the four production Notes, embedded Notes, static fallback paths and
+  previews. Preserve S72's prepared Q&A questions and its Case 7 / Reflection 2 /
+  Q&A 7 / Transition 4 sequence.
+
+## Rationale
+
+The user has approved the explanatory image direction. Integrating it into
+production makes the reviewable version the actual teaching deck. More line
+height and spacing address S72's reported clipping while retaining text and
+font sizes. Explicit image provenance prevents the illustrations from being
+mistaken for observed Product or Meta evidence.
+
+## Alternatives
+
+- Retain only the pilot: leaves the approved pictures outside the actual deck.
+- Rebuild the pictures or add new visual scenes: unnecessary for integration.
+- Shrink or remove claim text: loses readability or evidence boundaries.
+
+## Trade-offs
+
+The picture artwork is raster content; text, labels and arrows remain editable.
+Production layouts now depend on the preserved pilot image assets. Local
+rendering cannot settle target-machine font or projection behavior.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001, INV-DEMO-003, INV-SOT-003.
+
+## Affected Artifacts
+
+Production integrated PPTX, ACT 0/3/4 PPTX, corresponding Markdown/embedded
+Notes, previews, production layout source, and integration evaluation.
+
+## Evidence
+
+The user's explicit integration request and S72 clipping report. Approved
+pilot: `prototype/image-illustration-pilot/`, commit `fee00a2`. Generated image
+provenance and prompts remain in that directory. Local validation is recorded
+in `production/evaluation/FULL_DECK_IMAGE_INTEGRATION.md`.
+
+## Training Relevance
+
+YES — visual explanations can become clearer without expanding evidence or
+claim scope. Text-box geometry and target-environment rendering are separate
+checks from source content correctness.
+
+## Follow-up
+
+Retain Windows PowerPoint, actual fonts, room projection, product/account
+surface and timed rehearsal as independent UNVERIFIED gates.
+
+## Approval
+
+Explicit user approval to integrate all four images, preserve course and claim
+scope, repair S72, render, commit and push.
