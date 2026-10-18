@@ -1,12 +1,53 @@
 # Final Handoff — AI Developer Training
 
-## Status
+## Current Release — Accepted Presentation Revision
+
+Date: 2026-10-18. Decision: DEC-0027. Baseline: `596d76e`.
+
+**Local production and rendered review: COMPLETE. Target-environment delivery: UNVERIFIED.**
+
+The integrated deck and all six ACT files now use the accepted presentation
+revision. The complete 80-slide narrative, titles, IDs, time/mode allocations,
+and evidence/claim boundaries are retained. S57 uses the explicitly accepted
+unit plus integration versus unit-only hypothetical setting.
+
+| Artifact | Current SHA-256 / result |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `9f5e9276a6c197122c31af1fab1dfd22761650355fcacda8d34e70eebaf7fdbd` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `3c4ac90e9137b12be29ad5152376fe37c58209bf8efe320f455982d08b510c13` |
+| Full PNGs | 80 × 1920×1080; individually reviewed |
+| ACT PNGs | 80; identical to their corresponding integrated-deck PNGs |
+| `production/preview/full/montage.png` | 1920×5400; `a676a8b17d2fbe54f8c25d0939d3c2a570c3286aff7c131dcabeceeb037b17ff` |
+
+Current renderer: Artifact Tool reimport of the finalized exact PPTX package.
+Native text/shape objects and the S45 chart are editable. All 80 embedded Notes
+match the 19-field Markdown records. This is not Windows PowerPoint validation.
+
+Current evidence: [revision review](FULL_DECK_PRESENTATION_REVISION.md),
+[validation record](FULL_DECK_PRESENTATION_REVISION_VALIDATION.json), and
+`demos/runbooks/FALLBACK_MANIFEST.md`.
+
+Open gates: target Windows/PowerPoint fonts and Slide Show, classroom display,
+product/account/Live path, and timed rehearsal (including S72). Use the static
+fallback by default until its Live gate is explicitly completed. No Demo code,
+State tag, current-product trial, or external delivery was changed/performed.
+
+The earlier Notes status enumeration issue is resolved in this revision. The
+unconfirmed RepoQA venue remains bounded to the existing Research record.
+Follow [USER_VALIDATION_CHECKLIST](USER_VALIDATION_CHECKLIST.md) before delivery.
+
+## Historical Handoff — Before DEC-0027
+
+Everything below records the prior release. Its hashes, renderer, and limited
+S73/S77 geometry edits do not describe the current artifacts above.
+
+#### Status
 
 **PARTIAL — READY FOR USER VALIDATION**
 
 자동화 가능한 로컬 검토·수정·문서화와 저장소 checkpoint가 완료되면 이 문서의 Git 정보를 보완한다. Windows PowerPoint, 실제 교육용 Codex 계정/surface, 교육장 장비, 전체 시간 리허설은 아직 확인되지 않았다. 외부 전달은 수행하지 않았다.
 
-## Release Candidate
+#### Release Candidate
 
 | Artifact | Path | SHA-256 / result |
 |---|---|---|
@@ -19,7 +60,7 @@
 
 Renderer: Keynote 14.4 PDF export followed by macOS Quartz/CoreGraphics rasterization at 1920×1080. Host: macOS 26.6.2 (25G83). The temporary PDF and rendering scripts are not release artifacts. The preview was regenerated from the listed integrated-deck hash; Windows PowerPoint compatibility is not inferred from this render.
 
-## Local Work Completed
+#### Local Work Completed
 
 - Reviewed the complete 80-slide render and integrated deck. Corrected only the integrated-deck geometry on S73 and S77 to bring the card row/callout within the established safe area. Updated those two PNGs and the montage. ACT source PPTX files, slide wording, notes, story, evidence, claims, IDs, timings, and modes remain unchanged.
 - Checked the Office package: 373 ZIP entries; CRC check passed; 373 XML/relationship parts parsed; no missing internal relationship targets. `python-pptx` opened the deck with 80 slides at 16:9.
@@ -30,17 +71,17 @@ Renderer: Keynote 14.4 PDF export followed by macOS Quartz/CoreGraphics rasteriz
 - Built a SHA-256 fallback manifest for 29 slide renders used by the runbooks. The fallback status is limited to local static playback. Raw terminal captures are not implied or fabricated.
 - Ran the Demo repository's existing test suite read-only: 11 tests passed. Demo HEAD, branch, tags, no-remote configuration, and clean working tree were checked; the Demo repository was not modified.
 
-## Known Local Layout Corrections
+#### Known Local Layout Corrections
 
 - S73's five-card recap and connectors were positioned inside the existing safe area; right edge is approximately 12.46 inches on a 13⅓-inch slide.
 - S77's callout was moved left inside the same safe area; right edge is approximately 12.45 inches.
 - These are geometry-only repairs in `production/AI_Dev_Training_Full.pptx`. Local Mac rendering and ACT source comparisons passed. This does not establish Windows rendering or room-distance readability.
 
-## Demo State Preservation
+#### Demo State Preservation
 
 The Demo repository remains read-only at `/Users/noah/workspace/education/ai-dev-training-demo`. Existing tags remain present: `STATE-00`, `STATE-00-FIXED`, `STATE-01`, `STATE-02`, `STATE-03`, `STATE-04`, `STATE-04-PERF`. No remote was added and no tag was moved.
 
-## Open User Gates
+#### Open User Gates
 
 1. Open/save/reopen/Slide Show the exact candidate on the target Windows PowerPoint build; inspect fonts, Korean, code, Notes, margins, and the focused Slide list in the validation checklist.
 2. Select and verify the actual education Codex account/surface and permissions. Keep Live/Hybrid disabled until its target-specific path and fallback are rehearsed.
@@ -53,10 +94,10 @@ Detailed steps and evidence fields: `production/evaluation/USER_VALIDATION_CHECK
 Runbooks and fallback files: `demos/runbooks/README.md` and `demos/runbooks/FALLBACK_MANIFEST.md`.
 Execution evidence: `production/evaluation/MASTER_EXECUTION_STATUS.md`.
 
-## Git Checkpoint
+#### Git Checkpoint
 
 Training repository: existing `main` branch and existing `origin` only; force push prohibited. Geometry-only commit: `8b082b95b58a6dc48a42f251ea1e013c2c013414`. Runbooks and handoff commit: `4132d626d12fa6b22550e3ac6d7b5e7389b093a8`. That push succeeded and `origin/main` matched its SHA after push. The final status-record commit containing this handoff is also pushed; its SHA is reported in the final task result. Git checkpointing does not approve classroom deployment or external delivery.
 
-## Use Before Validation
+#### Use Before Validation
 
 Use the integrated PPTX for the full presentation. For an offline fallback, open the PNGs listed by the runbook and manifest. Explain only the Evidence and Claim boundary written in that runbook. If a target environment differs or a source cannot be opened, stop the Live path and return to the static slide fallback; do not generate new evidence during class.

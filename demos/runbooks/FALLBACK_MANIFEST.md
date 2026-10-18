@@ -7,11 +7,11 @@ Status: READY for local offline static slide-render playback only. This is not a
 - Fallback render verification date: 2026-10-18 (Asia/Seoul).
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `c5e744e36d610e52179ff4f1f6979255a093b3794f83e6fa5b84dfa5cadcf19d`
-- Renderer: Keynote 14.4 PDF export followed by macOS Quartz/CoreGraphics rasterization at 1920×1080.
+- Source SHA-256: `9f5e9276a6c197122c31af1fab1dfd22761650355fcacda8d34e70eebaf7fdbd`
+- Renderer: Artifact Tool reimport of the finalized PPTX, rasterized at 1920×1080.
 - Host: macOS 26.6.2 (25G83).
-- Full preview inventory: 80 files (`S01.png`–`S80.png`), each 1920×1080; montage 1920×1600.
-- Only S73 and S77 geometry were adjusted in the integrated deck and corresponding previews. Slide text, notes, Trial evidence, and ACT source decks were preserved.
+- Full preview inventory: 80 files (`S01.png`–`S80.png`), each 1920×1080; montage 1920×5400.
+- Current version applies the accepted DEC-0027 presentation revision to all 80 slides and aligns the six ACT source decks and Notes. Earlier render provenance remains in Git history.
 - Every image below is a rendered slide, not a terminal screenshot, video recording, or newly run Trial.
 
 ## Runbook to Fallback Mapping
@@ -35,35 +35,35 @@ Status: READY for local offline static slide-render playback only. This is not a
 
 | Slide | Local path | Dimensions | SHA-256 |
 |---|---|---:|---|
-| S04 | `production/preview/full/S04.png` | 1920×1080 | `f9df5a648b6766f62279df7f497ffe22e0f88ddf34ac6c8b2485d2c7e008dc06` |
-| S05 | `production/preview/full/S05.png` | 1920×1080 | `87ef25e970ab53c617c46503cc1924a305fb60b4d1112d313ce782a7120eb452` |
-| S06 | `production/preview/full/S06.png` | 1920×1080 | `c5f28bbef32f47d2742ca77d322efbc9797b8235de8d458c0b728b50a74ab1ab` |
-| S16 | `production/preview/full/S16.png` | 1920×1080 | `12e6279b16ea4c0b7e393b7642a5a9b1dd6fe7f132a49fd052d83023f9ea5c5b` |
-| S17 | `production/preview/full/S17.png` | 1920×1080 | `ace6210667cb897a5d2114d3c4d3c186e94fe9350000113d489586e4c6f58324` |
-| S22 | `production/preview/full/S22.png` | 1920×1080 | `48f10e6263d08abd4facbfdb64bcf96f6f1cb9a1856f621b54bfcfd9c1713e7c` |
-| S23 | `production/preview/full/S23.png` | 1920×1080 | `339ae6853173cd72c08784f64b179b7f536824d9f9e243bc61ba2411532d40ef` |
-| S24 | `production/preview/full/S24.png` | 1920×1080 | `8858a6a36773c6db5126f361ac4320443168ed7fb3879306c58ae832416cfde0` |
-| S27 | `production/preview/full/S27.png` | 1920×1080 | `a682c32fc02e66f18ff0ef422ad4cc48231b498bca75bfdf38128603e4c055f7` |
-| S32 | `production/preview/full/S32.png` | 1920×1080 | `4efd536af22ae278a3884526c7f49381ccb7afa777ae74bf5b98bc95d6309d41` |
-| S35 | `production/preview/full/S35.png` | 1920×1080 | `608968217c24a9620ba11ae17e9988fd27bebde8530fd8df0afb1be1ceb8844b` |
-| S41 | `production/preview/full/S41.png` | 1920×1080 | `c61115499bf2906addf9a628078130c3aa204f66750470b684c91d82cf501ef3` |
-| S42 | `production/preview/full/S42.png` | 1920×1080 | `b31d5f0ee72ce329072ca232f888fe635c582b21b97370a6d4ff493e96c6f67b` |
-| S46 | `production/preview/full/S46.png` | 1920×1080 | `880620fee96c8e4c355d8e4539bf6b3db6617e6d5805e49ab4a27a3694e6b75f` |
-| S47 | `production/preview/full/S47.png` | 1920×1080 | `8b90ea588fc57f25e0ebe47bf04b5469a244bb1e4633aa3cb54b652c0a500a00` |
-| S48 | `production/preview/full/S48.png` | 1920×1080 | `722a8473fd061ee80928ae01db6fbd4d6e6b6f654f731e7422ad12d7dd80da00` |
-| S50 | `production/preview/full/S50.png` | 1920×1080 | `22691acd4fedfa16161f448a80e35f6526ba67b7830381ac1c64f5608a74aefe` |
-| S51 | `production/preview/full/S51.png` | 1920×1080 | `588b18560332a6c5443e9132df820cd124935f160c190faca0cfad77e913a992` |
-| S56 | `production/preview/full/S56.png` | 1920×1080 | `decf95961cbd8e475db41304682db159030cd62a7b28ffc19ff8aad8a0460371` |
-| S57 | `production/preview/full/S57.png` | 1920×1080 | `6cda2b28417a0fdc0ed64c7382f242c0d4cc841e35160f06d8b11b4562e8e282` |
-| S59 | `production/preview/full/S59.png` | 1920×1080 | `a94c50d60ed21349ca916dd523dc959a72d3902bb70ba468096d70aa7db4e856` |
-| S60 | `production/preview/full/S60.png` | 1920×1080 | `4e2ba2353e4a226f2ff64cdb8121942a8f5a60d7a014b6e293652736206fe0f4` |
-| S64 | `production/preview/full/S64.png` | 1920×1080 | `15e78c1a212ba165e8b8a4ab34898d6d18d174ea3ce363e1863cf24bb60c9f26` |
-| S66 | `production/preview/full/S66.png` | 1920×1080 | `759e791f122b76b3ab23327d891045a856278f76997fcdfc69de18460ed41cdb` |
-| S67 | `production/preview/full/S67.png` | 1920×1080 | `1d197fc20f0b945f8b17a4bf108f516ae58582d365d3cda780cefb05134f156c` |
-| S68 | `production/preview/full/S68.png` | 1920×1080 | `fa5a5342cc03d291690f2732395fd31d0e64d9ab28a301a44eeb9e5a5a382ffa` |
-| S69 | `production/preview/full/S69.png` | 1920×1080 | `e93db7efefa7ab07a83f095be6573919f8a2f1aa1ba0d0daca9e456aae5421cd` |
-| S73 | `production/preview/full/S73.png` | 1920×1080 | `ae7466663aad459d7ecd21703b5097a6174ac5ee555d6e235125d3168c441c3a` |
-| S74 | `production/preview/full/S74.png` | 1920×1080 | `c298c24c0c1d165f58ffe49d4c960d18bd0669a80f59603d0ff7adee98662196` |
+| S04 | `production/preview/full/S04.png` | 1920×1080 | `8555b17ba39092de3a5a2975df68c5cdf2f1620ed0b1cca57dcbbff8b7be70b9` |
+| S05 | `production/preview/full/S05.png` | 1920×1080 | `4781bdcf7b2c665fb30f9d77f682ba4250f2933670cd2d138175f5007933fb30` |
+| S06 | `production/preview/full/S06.png` | 1920×1080 | `c0a9f23ebca3d64da0bf1768a9c65aa9087c4535add153149af13c7464c8327e` |
+| S16 | `production/preview/full/S16.png` | 1920×1080 | `cb61a596aab987e46a2ca55da3074248d9c56ff77777fab3e97aa2f5da87e054` |
+| S17 | `production/preview/full/S17.png` | 1920×1080 | `cbda77653b0db290a14791d524c8c010aa35d8064141d3231ec39601394bfaad` |
+| S22 | `production/preview/full/S22.png` | 1920×1080 | `add70c1ce688be530d57e4f5e3d64d38a06e5904dd1eaadb5a9538a5933bb4e7` |
+| S23 | `production/preview/full/S23.png` | 1920×1080 | `d1b3ab945b59afe293887f3abf55bd8ecff99d205cd4b2401b1f292916101197` |
+| S24 | `production/preview/full/S24.png` | 1920×1080 | `9eaa92ddc77a8c9e55d28cd8991dd5c12a66a15a8044f062069df9f84faca68b` |
+| S27 | `production/preview/full/S27.png` | 1920×1080 | `2b97ba4d177141c0dde633836d2ccf6781346892bcfb41e05265f8796d3a59be` |
+| S32 | `production/preview/full/S32.png` | 1920×1080 | `cbd441b787ac8e0d2d138eb63f165361f6ebf482aef7b5b9a75bba57a886e038` |
+| S35 | `production/preview/full/S35.png` | 1920×1080 | `9883e40cebc3ea4adcade97a81f6d3679a9b380405815e333f57bbd44f2eeea6` |
+| S41 | `production/preview/full/S41.png` | 1920×1080 | `b5d510148cb69a584d2b2d2e999fe6af887bc842641a10c17de1a5b11bee603f` |
+| S42 | `production/preview/full/S42.png` | 1920×1080 | `d2fb2b3b23e4d2159a10071fea55d39a9a193d772f280d760d8e242bf28f6fa3` |
+| S46 | `production/preview/full/S46.png` | 1920×1080 | `f3a42071888f35571728b9f0899e14b2732556cd292e2aad7119dd986751ead8` |
+| S47 | `production/preview/full/S47.png` | 1920×1080 | `b3c21f73199097b91d6f46b46caaa7a1b5619f71082b409f529ee602bf7e40a3` |
+| S48 | `production/preview/full/S48.png` | 1920×1080 | `ddedd6bd9453322e552ef9ac0990d3cbff51799532732b5b2c4df356ca6569af` |
+| S50 | `production/preview/full/S50.png` | 1920×1080 | `466230d0455f01782aabc3032ef54cff615821afc8d81dbca3edee06bd4a0304` |
+| S51 | `production/preview/full/S51.png` | 1920×1080 | `50ee77bb7e983ded76a38d346e3d427d345db4cfe6869b4bab49d7a3fc458938` |
+| S56 | `production/preview/full/S56.png` | 1920×1080 | `b5bf84f981460c198a4bdc1d4288ffe955c613fdb504a4c32f80b48121639eeb` |
+| S57 | `production/preview/full/S57.png` | 1920×1080 | `481740d7c33c3747db1d2bd6d6285a4aa58361c06ba26632ef82636959c52644` |
+| S59 | `production/preview/full/S59.png` | 1920×1080 | `f86db26896c45e153ad377d393aaff45124115b41de08dee6f74bc3909b856d9` |
+| S60 | `production/preview/full/S60.png` | 1920×1080 | `4fc7b3d5bcaf71f74dcca317c50c703e7f243bc92c422f05fd165f4c43d24ea0` |
+| S64 | `production/preview/full/S64.png` | 1920×1080 | `ff767a80b05cf4765277c978a3a2225a93ecb545801d2cf8dd2c128159a32bef` |
+| S66 | `production/preview/full/S66.png` | 1920×1080 | `3cd53780c90b2c262ac11f420631b1a6f0b19e46f82b1a0294c73e4c1dfab892` |
+| S67 | `production/preview/full/S67.png` | 1920×1080 | `11adbf8b60875cde73b94c7724e98d68a579512da140d5d48b73cb781971c4b7` |
+| S68 | `production/preview/full/S68.png` | 1920×1080 | `e1878bf61f48886636f50e07c418984ed225e25a9127e10e5fe8fe4df6d05fd8` |
+| S69 | `production/preview/full/S69.png` | 1920×1080 | `803798f3090257629e3cc56221cd181658af64235a6db9e8bdbbf11b824bfaa6` |
+| S73 | `production/preview/full/S73.png` | 1920×1080 | `0c7999fc23bd76236c114fc153bbdd1b708212c0f3852abc0f31b1054251c1ef` |
+| S74 | `production/preview/full/S74.png` | 1920×1080 | `1da4d910946f364044c6b5a7785ddbb0a8dafcfe0a98f89bec5c770eb96cb9a1` |
 
 ## Playback Boundary
 

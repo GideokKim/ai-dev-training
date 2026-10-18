@@ -1,5 +1,9 @@
 # MASTER EXECUTION STATUS
 
+> Historical execution record. The subsequent user-approved full presentation
+> revision is documented in [FULL_DECK_PRESENTATION_REVISION.md](FULL_DECK_PRESENTATION_REVISION.md).
+> Current artifact hashes and render provenance are in [FINAL_HANDOFF.md](FINAL_HANDOFF.md).
+
 Execution date: 2026-10-18 (Asia/Seoul)
 Final status: PARTIAL — READY FOR USER VALIDATION
 Execution instruction: `/Users/noah/.codex/.chatgpt-projects/g-p-6ab92b90659c81919e6e26458b9ab357/MASTER_EXECUTION.md`

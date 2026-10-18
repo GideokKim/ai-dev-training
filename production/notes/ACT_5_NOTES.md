@@ -1,10 +1,10 @@
 # ACT 5 — Speaker Notes
 
-Status: REVIEWED — S73–S80 use the approved 19-field schema. Local visual review is recorded in production/evaluation/ACT_5_EVALUATION.md. Windows PowerPoint, target-PC fonts, room projection, and timed delivery remain unverified.
+Status: REVIEWED — accepted presentation revision. Source, screen cues, and operation guidance are aligned. Exact-file render and embedded-Notes results are recorded in the integrated revision evaluation. Windows, room, account, and timed rehearsal remain UNVERIFIED.
 
 Authority: plan/SLIDE_MAP.md, plan/SLIDE_TEMPLATE_MAP.md, plan/VISUAL_SPEC.md, plan/VISUAL_TEMPLATE_FREEZE.md, plan/SPEAKER_NOTES_ARCHITECTURE.md, plan/SPEAKER_NOTES_FREEZE.md, plan/PRODUCTION_PLAN.md, plan/CLAIM_FREEZE.md, plan/DEMO_MATRIX.md, and plan/DECISIONS.md.
 
-All eight slides use the approved 19-field schema. Embedded PowerPoint Notes match the Markdown records.
+All eight slides use the approved 19-field schema. The revision builder reads these records for embedded PowerPoint Notes; parity must be checked on the final export.
 
 ## S73 — 여섯 시간의 Story를 한 장으로
 
@@ -30,9 +30,9 @@ Chatbot은 답을 구하고, Prompt는 Task를 구체화하며, Context는 필�
 “나는 지금 AI를 어떤 방식으로 사용하고 있을까?”
 
 **Speaker Flow:**
-1. (0:00–0:30) 질문을 던지고 다섯 단계가 놓인 흐름을 전체로 보여준다.
-2. (0:30–2:45) 각 단계의 한 문장 역할을 차례로 짚는다: 답을 구하기, Task를 구체화하기, Project 지식 제공하기, 작업 환경 설계하기, Feedback으로 System 개선하기.
-3. (2:45–4:00) 단계가 앞 단계를 대체하지 않는다고 정리하고 하나의 Repository에서 보인 실제 변화로 넘긴다.
+1. (0:00–0:30 / Lecture) 처음의 질문으로 돌아가 다섯 방식을 한눈에 보여준다.
+2. (0:30–2:45 / Lecture) 각 행의 행동만 회수한다: 답을 구하기, 이번 작업 구체화, 프로젝트 지식 제공, 일하는 환경 설계, 피드백으로 시스템 수정. 새 용어를 덧붙이지 않는다.
+3. (2:45–4:00 / Lecture) 앞의 방식이 사라지지 않고 문제에 맞는 대응이 더해졌다고 정리한다. S74 실제 Repository 이력→S75 선택 기준→S76 책임을 거쳐 S77에서 AI-Native 운영 모델을 회수한다.
 
 **Evidence / Source:**
 TEACHING_MODEL · BEAT-060 · 앞선 ACT의 Story callback. 새 Demo는 실행하지 않는다.
@@ -50,7 +50,7 @@ TEACHING_MODEL · BEAT-060 · 앞선 ACT의 Story callback. 새 Demo는 실행�
 기존 Vision 사례를 선택적으로 회상할 수 있다. 새 C++ 기술 사례는 추가하지 않는다.
 
 **Demo Operation:**
-추가 실행 없음. 앞선 사례를 한 문장씩 연결하는 static diagram만 사용한다.
+다섯 개 행동 행을 차례로 가리킨다. 새로운 실행이나 상태를 추가하지 않는다. S77의 정의를 바로 다음 장에서 설명한다고 예고하지 않는다.
 
 **Audience Interaction:**
 Opening question을 띄우고 개인적으로 떠올리게 한다. 답변이나 현재 수준 발표를 요구하지 않는다.
@@ -62,11 +62,10 @@ Opening question을 띄우고 개인적으로 떠올리게 한다. 답변이나 
 총 4분, Lecture 4분. 각 단계 설명을 한 문장에 제한하고 앞선 ACT 내용을 다시 강의하지 않는다.
 
 **Fallback:**
-정적 vector diagram으로 진행한다. 애니메이션 또는 Live Demo가 필요하지 않다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S73와 production/preview/act5/S73.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
 
 **Validation Status:**
-LOCAL REVIEW COMPLETE — 5-step teaching diagram is legible and the non-ladder boundary is clear. Presenter pacing, Windows PowerPoint, and room projection remain unverified.
-
+REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S74 — 하나의 Repository가 문제에 대응해 진화했다
 
@@ -92,9 +91,9 @@ Lecture 1분 + Demo 2분 (VISUAL)
 “이 Repository는 어떤 문제를 만나며 바뀌었나?”
 
 **Speaker Flow:**
-1. (0:00–1:00) State rail을 왼쪽부터 읽고, 각 변화가 특정 문제에 대응해 기록됐다고 설명한다.
-2. (1:00–2:30) 두 번째 줄의 짧은 labels를 보며 bug fix, project context, routing, reusable workflow, bounded product change를 구분한다.
-3. (2:30–3:00) 마지막 STATE-04-PERF를 bounded Working Harness Success로 닫고, benchmark-preparation commits는 named States가 아니라고 덧붙인다.
+1. (0:00–1:00 / Lecture) 일곱 이름을 위쪽 왼쪽부터 오른쪽, 다음 아래쪽 왼쪽부터 읽는다. State는 당시 문제에 대응한 이력임을 말한다.
+2. (1:00–2:30 / VISUAL Demo) crop 문제→수정→프로젝트 지침→Context 증가→상세 정보 연결→재사용 Workflow→검증된 제품 변경을 짧게 회수한다.
+3. (2:30–3:00 / VISUAL Demo) STATE-04-PERF의 bounded endpoint에서 닫는다. Benchmark 준비 commit은 추가 State가 아니다.
 
 **Evidence / Source:**
 OBSERVED_PRODUCT · `ai-dev-training-demo`의 named Git State/tag 기록과 DEMO-12. State 순서는 STATE-00 → STATE-00-FIXED → STATE-01 → STATE-02 → STATE-03 → STATE-04 → STATE-04-PERF다.
@@ -124,11 +123,10 @@ DEMO-12 · VISUAL, 2분. 실제 Product State/tag를 요약한 static timeline�
 Lecture 1분 + VISUAL Demo 2분 = 3분. 세부 Trial을 재설명하지 않는다.
 
 **Fallback:**
-READY — 이 static vector timeline 자체가 기본 presentation path다. 외부 실행은 필요하지 않다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S74와 production/preview/act5/S74.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
 
 **Validation Status:**
-LOCAL REVIEW COMPLETE — all seven named States and bounded endpoint are legible; supporting benchmark history is not a State. Windows PowerPoint and room projection remain unverified.
-
+REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S75 — 필요성이 입증되지 않은 것은 보류했다
 
@@ -154,9 +152,9 @@ Lecture 2분
 “왜 현재 Demo의 최종 그림에 Subagent와 Memory가 없을까?”
 
 **Speaker Flow:**
-1. (0:00–0:30) 실제로 사용한 요소와 이번 사례에서 정당화되지 않은 요소를 시각적으로 나눠 보여준다.
-2. (0:30–1:20) STATE-04-PERF의 bounded 성공과 DEC-0018의 범위를 설명한다.
-3. (1:20–2:00) “More features ≠ More mature”와 “Less is always better도 아니다”를 짚고 기준을 남긴다.
+1. (0:00–0:30 / Lecture) 이번 작업에서 쓴 왼쪽 요소와 보류한 오른쪽 요소를 비교한다.
+2. (0:30–1:20 / Lecture) STATE-04-PERF와 DEC-0018의 bounded 범위에서 Subagent·Memory 추가의 이득이 충분히 정당화되지 않았다고 설명한다.
+3. (1:20–2:00 / Lecture) “현재 문제가 필요로 하는 만큼 설계한다”는 기준을 남긴다. 기능 수가 많거나 적다는 이유만으로 성숙도를 판단하지 않는다.
 
 **Evidence / Source:**
 OBSERVED_PRODUCT / TEACHING_MODEL · STATE-04-PERF와 DEC-0018. 사용한 요소: task Prompt, Project Context/routing, reusable Skill/workflow, Tests와 benchmark. 이번 bounded task에서 Subagent와 Memory는 사용되지 않았다.
@@ -186,11 +184,10 @@ OBSERVED_PRODUCT / TEACHING_MODEL · STATE-04-PERF와 DEC-0018. 사용한 요소
 Lecture 2분. 구성요소를 다시 강의하지 않고 판단 근거와 범위에 집중한다.
 
 **Fallback:**
-정적 2-panel evidence/model visual을 사용한다. 실행 기록이나 feature-count score는 사용하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S75와 production/preview/act5/S75.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
 
 **Validation Status:**
-LOCAL REVIEW COMPLETE — observed task components are separated from Subagent/Memory non-use; this remains task-bounded. Windows PowerPoint and room projection remain unverified.
-
+REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S76 — 위임이 늘어도 개발자 책임은 남는다
 
@@ -216,9 +213,9 @@ Agent는 조사·생성·변경·실행·비교를 도울 수 있다. 개발자�
 “AI가 더 많은 일을 맡아도 개발자가 계속 책임지는 것은 무엇인가?”
 
 **Speaker Flow:**
-1. (0:00–0:40) Agent가 지원할 수 있는 행동 다섯 가지를 보여준다.
-2. (0:40–2:20) Goal, Judgment, Verification, Responsibility를 중심으로 네 질문을 설명한다.
-3. (2:20–3:00) 역할을 절대적으로 나누는 규칙이 아니라 결과 판단과 책임이 개발자에게 남는다는 점으로 닫는다.
+1. (0:00–0:40 / Lecture) AI가 도울 수 있는 행동은 상단 한 문장으로만 읽는다.
+2. (0:40–2:20 / Lecture) 네 질문을 차례로 짚는다: 해결할 목표, 적절한 선택, 확인 근거, 완료 수용 여부.
+3. (2:20–3:00 / Lecture) 역할의 절대적 분업이 아니라 개발자의 판단과 책임을 강조하고 S77의 운영 모델로 연결한다.
 
 **Evidence / Source:**
 TEACHING_MODEL · BEAT-061–062. 새 Product feature나 책임 handoff evidence는 없다.
@@ -248,11 +245,10 @@ N/A — 별도 실행 없음. 정적 role/responsibility diagram.
 Lecture 3분. 다섯 Agent 행동을 상세 제품 기능처럼 설명하지 않는다.
 
 **Fallback:**
-정적 diagram으로 진행하며 발표자가 각 responsibility card를 차례로 가리킨다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S76와 production/preview/act5/S76.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
 
 **Validation Status:**
-LOCAL REVIEW COMPLETE — support actions and developer responsibilities are distinct; no absolute role split is implied. Windows PowerPoint and room projection remain unverified.
-
+REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S77 — AI-Native Development는 이 교육의 운영 모델
 
@@ -278,9 +274,9 @@ Lecture 3분
 “AI에게 일을 많이 맡기면 AI-Native일까?”
 
 **Speaker Flow:**
-1. (0:00–0:30) 사용량 자체가 이 교육의 기준인지 묻는다.
-2. (0:30–2:20) 다섯 구성요소를 하나의 working system 모델로 보여준다.
-3. (2:20–3:00) 이는 이 교육의 framing이며 모든 task에 모든 component가 반드시 필요한 것은 아니라고 한정한다.
+1. (0:00–0:30 / Lecture) 이 과정이 AI가 일할 조건과 결과 확인 경로를 설계하는 방식에 AI-Native Development라는 운영 모델 이름을 붙였음을 밝힌다.
+2. (0:30–2:20 / Lecture) 작업 경계, 프로젝트 지식·절차, 검증·피드백 세 행에서 각각 Task Boundary, Project Context/Reusable Workflow, Verification/Feedback Loop가 맡는 질문을 연결한다.
+3. (2:20–3:00 / Lecture) 모든 Task에 모든 요소를 의무적으로 넣으라는 보편 정의가 아님을 한정하고 자신의 반복 마찰을 찾는 S78로 이동한다.
 
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0023의 course-specific operational framing.
@@ -310,11 +306,10 @@ Opening question을 남긴 뒤 course model의 범위를 확인한다. 공식 �
 Lecture 3분. AI 사용량과 설계된 work system의 차이만 설명한다.
 
 **Fallback:**
-정적 component model로 진행한다. 용어가 추가 정의로 확장되지 않게 DEC-0023 문구를 따른다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S77와 production/preview/act5/S77.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
 
 **Validation Status:**
-LOCAL REVIEW COMPLETE — course-specific operational model and non-universal scope are visible. Windows PowerPoint and room projection remain unverified.
-
+REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S78 — 어느 Layer에서 마찰이 반복되는가?
 
@@ -340,8 +335,9 @@ Task, Context, Workflow, Verification, Repeated Failure Loop 중 현재 가장 �
 “내 Repository에서 다음 주에 하나만 바꾼다면?”
 
 **Speaker Flow:**
-1. (0:00–1:00) C++ Vision transfer example을 보여주고 실제 project procedure가 아니라 pattern transfer임을 밝힌다.
-2. (1:00–5:00) 다섯 선택지를 같은 수준으로 소개한다. 현재 가장 큰 반복 마찰을 생각하게 하고 S79 개인 Reflection으로 넘긴다.
+1. (0:00–1:00 / Case) C++ Vision의 병목 범위, 빌드 조건·계약·하드웨어 가정, 분석·측정 절차를 업무에 비춰 보는 교육용 예시라고 밝힌다. 실제 프로젝트 사건이 아니다.
+2. (1:00–3:00 / Transition) 다섯 행의 증상 질문을 읽으며 현재 자기 업무와 가까운 것이 있는지 마음속으로 떠올리게 한다. 같은 수준의 선택지이며 반드시 위에서부터 도입하는 순서가 아니다.
+3. (3:00–5:00 / Transition) Task/Context/Workflow/Verification/Feedback의 새 개념 설명은 하지 않고 S79의 개인 성찰 세 질문으로 좁혀 준다.
 
 **Evidence / Source:**
 TEACHING_MODEL · C++ Vision engineering-pattern transfer. 실제 C++ Project, hardware, toolchain 또는 benchmark 결과는 사용하지 않는다.
@@ -359,7 +355,7 @@ TEACHING_MODEL · C++ Vision engineering-pattern transfer. 실제 C++ Project, h
 Primary bridge. 예시: 성능 병목 조사 Task; build mode/algorithm contract/hardware assumptions Context; profile → change → benchmark → regression Workflow; tests + benchmark Verification; 반복 이슈가 다시 생기면 관련 System 수정. 실제 project procedure가 아닌 pattern transfer.
 
 **Demo Operation:**
-N/A — 별도 Demo 없음. Case 1분은 transfer model 설명, Transition 4분은 S79 개인 Reflection으로 초점을 이동하는 cue다.
+새 Demo가 없다. 왼쪽 Layer 이름보다 오른쪽 반복되는 마찰을 먼저 읽고, 선택지들은 같은 높이의 적용 후보임을 유지한다.
 
 **Audience Interaction:**
 선택지를 강사 주도로 비교한다. 청중에게 선택 발표, 투표, 실습, 제출을 요구하지 않는다.
@@ -371,11 +367,10 @@ N/A — 별도 Demo 없음. Case 1분은 transfer model 설명, Transition 4분�
 Case 1분 + Transition 4분 = 5분. Transition 동안 새 사례를 열지 않고 reflection handoff만 수행한다.
 
 **Fallback:**
-정적 5-option matrix를 사용한다. 특정 C++ toolchain이나 hardware 설명으로 확장하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S78와 production/preview/act5/S78.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
 
 **Validation Status:**
-LOCAL REVIEW COMPLETE — five transfer options use equal visual weight; C++ example is labeled a pattern transfer. Target project applicability and room projection remain unverified.
-
+REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S79 — 다음 작은 행동을 개인적으로 고른다
 
@@ -401,9 +396,9 @@ Lecture 2분 + Reflection 2분
 “내가 AI와 개발하는 방식에서 다음에 바꿀 수 있는 것은 무엇인가?”
 
 **Speaker Flow:**
-1. (0:00–1:00) S78의 다섯 선택지는 순서가 아니라는 점을 짧게 회수한다.
-2. (1:00–2:00) 화면의 질문 세 가지를 차례로 소개한다.
-3. (2:00–4:00) 두 분 동안 개인적으로 생각할 시간을 둔다. 답, 기록, 발표, 제출을 요구하지 않는다.
+1. (0:00–1:00 / Lecture) S78에서 떠올린 반복 마찰을 이어 간다.
+2. (1:00–2:00 / Lecture) 화면의 반복 설명, 재탐색하는 프로젝트 사실, 두 번째 실패의 수정 위치 세 질문을 차례로 읽는다.
+3. (2:00–4:00 / Reflection) 두 분 동안 조용히 개인적으로 생각할 시간을 둔다. 답변·기록·발표·제출을 요구하지 않는다. 시간 뒤 S80 질문 시간으로 넘어간다.
 
 **Evidence / Source:**
 TEACHING_MODEL · 승인된 private reflection prompt. 개인 업무에 대한 새 관찰 근거는 수집하지 않는다.
@@ -433,11 +428,10 @@ N/A — 별도 Demo 없음.
 Lecture 2분 + Reflection 2분 = 4분. Reflection은 2분에 종료하고 Q&A와 섞지 않는다.
 
 **Fallback:**
-응답이나 기록이 없어도 문제 없이 진행한다. 질문이 끝나면 정해진 시간대로 종료한다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S79와 production/preview/act5/S79.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
 
 **Validation Status:**
-LOCAL REVIEW COMPLETE — private reflection boundary and no-response requirement are legible. Two-minute live pacing and room projection remain unverified.
-
+REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S80 — Q&A와 교육 마무리
 
@@ -463,9 +457,9 @@ Goal, Judgment, Verification, Responsibility를 유지하면서 AI가 일할 환
 “남은 질문은 무엇인가?”
 
 **Speaker Flow:**
-1. (0:00–4:00) Q&A를 진행한다. 질문이 없으면 준비된 FAQ 또는 개발 업무 적용 질문 “내 업무에서 먼저 살펴볼 layer는 무엇인가?”를 사용한다.
-2. (4:00–6:00) Q&A를 종료하고 마지막 model과 closing line을 보여준다.
-3. 종료 cue: “AI를 더 많이 쓰기보다, AI가 잘 일할 환경을 설계합니다.”
+1. (0:00–4:00 / Q&A) 상단의 “내 업무에서 무엇부터 바꿀까요?”를 가리키고 질문을 받는다. 질문이 없으면 “반복 설명을 줄이려면 Task와 Project Context 중 무엇을 살필까요?” 또는 “결과 확인 기준을 먼저 정한다면 어떤 업무부터 볼까요?”를 사용해 앞의 교육 모델 안에서 짧게 정리한다.
+2. (4:00–6:00 / Closing Transition) 질문을 마감하고 중앙의 “AI가 잘 일할 환경을 설계한다”로 마무리한다. 하단 Question→Task→Context→System→Feedback Loop를 짧게 회수한다.
+3. 종료 cue: “목표·판단·검증·책임을 유지하면서, AI가 잘 일할 환경을 설계합시다.”
 
 **Evidence / Source:**
 TEACHING_MODEL · BEAT-070–071. 새로운 Product claim이나 기술 개념은 추가하지 않는다.
@@ -483,7 +477,7 @@ Goal, Judgment, Verification, Responsibility를 유지하며 System의 Feedback 
 N/A.
 
 **Demo Operation:**
-N/A — Q&A와 closing visual만 사용한다.
+추가 실행 없음. Q&A 운영 지시와 시간표는 Notes에만 두고 화면에는 질문과 마지막 한 문장을 남긴다.
 
 **Audience Interaction:**
 Q&A 4분. 질문이 없으면 FAQ 또는 개발 업무 적용 질문 하나를 사용하며 새로운 강의 topic을 열지 않는다.
@@ -495,7 +489,7 @@ Q&A 4분. 질문이 없으면 FAQ 또는 개발 업무 적용 질문 하나를 �
 Q&A 4분 + Closing Transition 2분 = 6분. Q&A는 4분에 마감하고 추가 질문을 이유로 시간을 늘리지 않는다.
 
 **Fallback:**
-질문이 없으면 준비된 FAQ 또는 “내 업무에서 먼저 살펴볼 layer는 무엇인가?”를 묻는다. 답이 없어도 closing visual로 바로 전환한다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S80와 production/preview/act5/S80.png를 사용한다. 원본 실행 캡처 또는 새로운 Trial 결과로 표현하지 않는다. 로컬 렌더링 검토 결과는 통합 평가 문서에 기록한다.
 
 **Validation Status:**
-LOCAL REVIEW COMPLETE — Q&A fallback, 4+2 time split, closing statement, and final model are legible. Windows PowerPoint and room projection remain unverified.
+REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.

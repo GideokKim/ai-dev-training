@@ -1,13 +1,8 @@
 # ACT 0 — Speaker Notes
 
-Status: REVISED — S01–S09 operational cues follow the approved Slide Map and
-19-field Notes schema. Typography and S04–S06 static operation cues are revised.
-The nine-slide Korean-visible preview set was rendered from the revised PPTX via
-Keynote PDF and macOS PDFKit, then visually checked. Keynote reported missing
-fonts; the deck requests Malgun Gothic and Consolas. Fontconfig on this Mac
-matches those names to Nanum Gothic and Andale Mono, but the exact substitutions
-used by Keynote are unconfirmed. Timed delivery, Windows PowerPoint, and room
-projection remain unverified.
+Status: REVIEWED — accepted presentation revision. Source, screen cues, and operation guidance are aligned. Exact-file render and embedded-Notes results are recorded in the integrated revision evaluation. Windows, room, account, and timed rehearsal remain UNVERIFIED.
+
+Validation history: 이전 제작본의 local Mac Keynote 렌더·구조 검토 기록은 Git history와 기존 ACT 평가 문서에 보존한다. 이전 제작본의 PASS를 새 수정본의 검증 완료로 승계하지 않는다.
 
 Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`,
 `plan/SPEAKER_NOTES_ARCHITECTURE.md`, `plan/SPEAKER_NOTES_FREEZE.md`,
@@ -31,8 +26,8 @@ Opening Question: “나는 지금 AI에게 무엇을 맡기고 있는가?”
 
 Speaker Flow:
 
-1. **OPEN (0:00–1:00):** 화면의 질문을 읽고 이 시간은 사용 수준을 평가하는 자리가 아니라고 말한다.
-2. **REFLECTION (1:00–5:00):** 아래의 넓은 업무 범위 중 지금 익숙한 지점을 조용히 떠올리게 한다. 응답을 받거나 경험을 비교하지 않는다.
+1. **OPEN (0:00–1:00):** 화면의 질문을 읽고 사용 수준을 평가하는 자리가 아니라고 말한다. 최근 맡겼던 일 하나만 떠올리면 충분하다.
+2. **REFLECTION (1:00–5:00):** 오류 설명, 코드 조사, 결과 확인 중 익숙한 경험을 조용히 떠올리게 한다. 오른쪽 업무 범위는 생각을 돕는 예시일 뿐 순위가 아니다. 응답이나 비교를 요구하지 않는다.
 
 Evidence / Source: BEAT-001, CLM-0001, CLM-0002. TEACHING_MODEL.
 
@@ -54,8 +49,7 @@ Time Management: Lecture 1분 후 4분간 침묵을 허용한다. 발표자가 �
 
 Fallback: 청중 반응이 없어도 기다린 뒤 다음 장으로 간다. 개인 경험을 말하게 하지 않는다.
 
-Validation Status: DRAFT — Map, schema, local render 대조 완료; 실제 발표 속도와 교육장 가독성은 미검증.
-
+Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 ## S02 — 작은 질문에는 Chatbot이 유용하다
 
 Slide ID: S02
@@ -74,11 +68,11 @@ Opening Question: “코드 일부나 오류를 ChatGPT에 물어본 적이 있�
 
 Speaker Flow:
 
-1. **OPEN (0:00–1:00):** 익숙한 오류 질문을 떠올리게 한다. 이 사용법을 부족하거나 잘못된 방식으로 부르지 않는다.
-2. **EXPLAIN (1:00–3:30):** `Code / Error → Copy → Ask → Copy Answer → IDE` 흐름을 따라가며 사람이 필요한 맥락을 골라 전달하는 점을 짚는다.
-3. **INTERPRET (3:30–5:00):** 작은 질문에 이 흐름이 유용할 수 있음을 인정하고, 질문 범위가 여러 파일을 가로지를 때를 다음 장의 문제로 남긴다.
+1. **OPEN (0:00–1:00):** 화면의 두 줄 slice 예시를 보여 준다. 실제 ChatGPT 대화가 아니라 작은 코드 질문을 설명하기 위한 예시라고 알린다.
+2. **EXPLAIN (1:00–3:30):** `row[1:3]`에서 index 1과 2의 값 `[2, 3]`을 짚고, 코드·오류 → 복사 → 질문 → 답 확인 → IDE 복귀 순서를 따라간다. 이처럼 필요한 Context를 사람이 골라 전달하는 방식을 인정한다.
+3. **INTERPRET (3:30–5:00):** 작은 코드 조각의 뜻을 이해하는 데 유용할 수 있음을 말한다. 여러 파일을 가로지르는 질문으로 범위가 커질 때의 문제를 S03에 남긴다.
 
-Evidence / Source: BEAT-001, CLM-0001, CLM-0002. TEACHING_MODEL / CONCEPTUAL 예시.
+Evidence / Source: BEAT-001, CLM-0001, CLM-0002. TEACHING_MODEL / CONCEPTUAL. `row = [1, 2, 3, 4]`, `row[1:3]` → `[2, 3]`는 화면 설명용 코드 예시이며 실제 ChatGPT 응답이나 새 Trial 기록이 아니다.
 
 Claim Boundary: 일반적인 예시이며 특정 제품 기능, 정확도, 성능 또는 다른 방식보다 우월하다는 주장으로 말하지 않는다.
 
@@ -96,10 +90,9 @@ Transition: 질문이 여러 파일·구현 경로로 커지면 무엇을 먼저
 
 Time Management: 다섯 단계의 순서를 짚고 작은 질문에서의 장점을 먼저 말한다. 상세 Prompt 작성법은 다음 ACT에서 다룰 문제이므로 설명하지 않는다.
 
-Fallback: 발표자가 실제 사례를 준비하지 못해도 도식의 일반적인 오류 질문 흐름만 설명한다. 제품 화면을 즉석에서 만들지 않는다.
+Fallback: 정적 코드 예시와 다섯 단계 흐름을 설명한다. 실제 ChatGPT 대화나 즉석 제품 화면으로 대체하지 않는다. 새 제작본의 PNG 경로는 `production/preview/act0/S02.png`; 통합 렌더 검토 후 사용한다.
 
-Validation Status: DRAFT — Map 역할과 교육 모델 대조 완료; 청중 이해도와 발표 속도는 미검증.
-
+Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 ## S03 — 질문이 커지면 Context를 모으는 일이 생긴다
 
 Slide ID: S03
@@ -118,9 +111,9 @@ Opening Question: “여러 파일에 걸친 질문을 하려면 무엇을 먼�
 
 Speaker Flow:
 
-1. **OPEN (0:00–1:00):** 단일 오류 설명에서 여러 파일에 걸친 Repository 질문으로 범위를 넓힌다.
-2. **SHOW (1:00–2:30):** `Test`, `Implementation`, `Call path`, `Contract` 노드를 가리킨다. 이는 개념 도식이며 Trial에서 이미 발생한 문제라고 하지 않는다.
-3. **INTERPRET (2:30–4:00):** 개발자가 연결된 정보를 찾아 대화에 옮기는 수고를 설명하고, 아직 Agent가 이를 대신한다는 해답은 보여주지 않는다.
+1. **OPEN (0:00–1:00):** “CLI 결과가 기대와 다른데 어디서부터 볼까?”라는 개념 사례로 질문의 범위를 넓힌다.
+2. **SHOW (1:00–2:30):** CLI → 처리 흐름 → 이미지 연산 관계를 따라간 뒤 아래의 테스트와 계약 질문을 짚는다. 실제 제품 호출 기록을 그대로 그린 화면이라고 하지 않는다.
+3. **INTERPRET (2:30–4:00):** 개발자가 관련 파일과 조건을 찾아 대화로 옮겨야 할 수 있음을 설명한다. 아직 Agent가 이를 대신한다는 답을 제시하지 않고 S04의 관찰 질문으로 이동한다.
 
 Evidence / Source: BEAT-002, CLM-0004, CLM-0009. TEACHING_MODEL / CONCEPTUAL.
 
@@ -140,10 +133,9 @@ Transition: “파일명을 알려주지 않아도 Agent가 필요한 경로를 
 
 Time Management: 문제를 세 개 이내의 관계로 설명한다. 파일 목록을 늘리거나 해결책을 먼저 공개하지 않는다.
 
-Fallback: 도식이 보이지 않으면 Test, Implementation, Call path를 말로만 연결한다. 실제 Trial로 표현하지 않는다.
+Fallback: 도식이 보이지 않으면 CLI 입력, 처리 흐름, 연산 구현의 세 관계와 테스트·계약 질문을 말로 연결한다. 이 사례를 특정 Trial의 실제 실패로 표현하지 않는다.
 
-Validation Status: DRAFT — 개념 경계 및 T02-A 첫 구현 확인; 현장 가독성과 시간은 미검증.
-
+Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 ## S04 — 파일명을 주지 않으면 Agent는 어디부터 볼까?
 
 Slide ID: S04
@@ -162,9 +154,9 @@ Opening Question: “Agent가 Test, 구현, 호출 경로를 어떻게 찾는가
 
 Speaker Flow:
 
-1. **OPEN (0:00–0:30):** 이번 관찰의 질문을 제시한다.
-2. **SET WATCH FOR (0:30–1:30):** failing Test, 관련 구현, call path 세 가지를 차례로 읽는다. 결과 영역은 비워 둔다.
-3. **SCOPE (1:30–2:00):** 기준 자료가 Codex CLI 0.154.0의 read-only TRIAL-001 기록임을 알리고 S05로 넘긴다.
+1. **OPEN (0:00–0:30):** 화면의 실제 TRIAL-001 요청 발췌에서 파일명을 지정하지 않았고 코드를 수정하지 말라고 한 점을 짚는다.
+2. **SET WATCH FOR (0:30–1:30):** 실패 테스트, 관련 구현, 제품 호출 경로의 세 관찰 대상을 차례로 가리킨다. 결과를 미리 알려 주지 않는다.
+3. **SCOPE (1:30–2:00):** Codex CLI 0.154.0의 과거 읽기 전용 기록을 볼 것이라고 알린 뒤 S05로 넘긴다.
 
 Evidence / Source: DEMO-01, STATE-00, TRIAL-001, BEAT-003, OQ-003, OQ-005. 이 장은 Trial setup이며 관찰 결과를 아직 공개하지 않는다.
 
@@ -176,7 +168,7 @@ Advanced Insight: 답변뿐 아니라 파일 발견과 호출 경로 추적을 �
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-01 / WATCH. 기본 경로는 정적 발표다. S04에서 Test, Implementation, Call path의 관찰 기준을 보여 주고 결과 영역은 비워 둔 뒤 S05로 이동한다. 자료는 `production/ACT_0.pptx`의 S04–S06과 `production/preview/act0/S04.png`–`S06.png`다. PNG는 PPT의 정적 렌더이며 실제 CLI 캡처가 아니다. 현재 Desktop·교육 계정 surface와 Live/Hybrid는 미검증이므로 지금 활성화하지 않는다. 향후 활성화하려면 대상 계정·surface, read-only 실행 조건, runbook, 기대 관찰 결과와 복귀 cue를 발표 환경에서 먼저 확인한다.
+Demo Operation: DEMO-01 / WATCH. 기본 경로는 `production/ACT_0.pptx` S04–S06의 정적 발표다. S04에서 실제 요청 발췌와 세 관찰 대상을 설명하고 S05로 이동한다. PNG는 PPT의 재구성 도식 렌더이며 CLI 캡처가 아니다. 현재 Desktop·교육 계정·Live/HYBRID는 미검증이므로 활성화하지 않는다. 향후 대상 계정·surface, 읽기 전용 조건, runbook, 기대 관찰과 복귀 cue를 발표 환경에서 확인한 뒤에만 검토한다.
 
 Audience Interaction: 응답을 요구하지 않는다. 세 관찰 항목을 청중이 마음속으로 따라오게 한다.
 
@@ -184,10 +176,9 @@ Transition: “실제 기록에서 어떤 Test와 경로가 발견됐을까요?�
 
 Time Management: 2분 안에 질문과 세 Watch For를 제시하고 Trial 환경의 범위를 한 문장으로 제한한다.
 
-Fallback: READY — `production/ACT_0.pptx`의 S04 정적 슬라이드와 `production/preview/act0/S04.png`를 기본 발표 자료로 사용한다. 두 파일은 수정된 PPTX의 최종 로컬 렌더 결과다. 화면 공유가 모두 불가능하면 Test → Implementation → Call path를 말로 제시하고 S05의 기록 근거로 이동한다. Live CLI/Desktop을 즉석에서 열지 않는다. Windows·발표 PC·교육장 표시는 미검증이다.
+Fallback: 정적 기본 경로 — `production/ACT_0.pptx` S04 또는 `production/preview/act0/S04.png`. 새 제작본 렌더 검토는 통합 단계에서 수행한다. 화면 사용이 불가능하면 세 관찰 항목을 말로 제시하고 S05 기록 설명으로 이동한다. Live CLI/Desktop을 즉석에서 열지 않는다. Windows·발표 PC·교육장 표시는 UNVERIFIED.
 
-Validation Status: REVIEWED — LOCAL STATIC PATH CONFIRMED — PPTX S04와 한글 표시 PNG를 확인함. 시간 리허설, 현재 제품 surface·교육 계정, Windows PowerPoint와 room readability는 UNVERIFIED.
-
+Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 ## S05 — Agent가 Test와 호출 경로를 찾았다
 
 Slide ID: S05
@@ -206,15 +197,15 @@ Opening Question: “지정하지 않은 파일과 호출 경로를 실제로 �
 
 Speaker Flow:
 
-1. **OPEN (0:00–1:00):** 기록 근거를 사용한 정적 발표임을 밝히고, S05는 TRIAL-001을 재구성한 도식이며 실제 CLI screenshot이 아님을 말한다.
-2. **SHOW (1:00–3:00):** `tests/test_transform.py::test_crop_excludes_end_coordinate`를 가리킨다.
-3. **TRACE (3:00–5:00):** `cli.main()` → `pipeline.process_image()` → `transform.crop()` 경로를 따라간다.
-4. **INTERPRET (5:00–7:00):** 계약 `[x_start, x_end)`와 관찰된 `row[x_start : x_end + 1]` 구현의 차이를 설명한다. 수정은 아직 하지 않았다고 말한다.
-5. **SCOPE / HANDOFF (7:00–8:00):** 관찰은 단일 read-only CLI run에 한정됨을 다시 말하고 S06에서 결과와 환경 오류를 분리한다. 기본 경로에서는 이 마지막 1분에 Trial 결과를 요약해 handoff한다. 향후 별도 검증 후 Live를 허용해도 7:00에 hard stop하고 기록된 정적 경로로 복귀한다.
+1. (0:00–1:00) TRIAL-001 기록과 STATE-00 테스트를 재구성한 화면임을 밝힌다. 입력의 숫자는 픽셀 값이며 색은 영역 구분용이다.
+2. (1:00–3:00) `crop(image, 1, 3)`의 끝 좌표 제외 계약을 짚고 입력, 기대 두 열, 구현에 포함된 세 번째 열을 차례로 가리킨다. 결과 tuple은 원본 소스에 근거한 정적 재구성이다.
+3. (3:00–5:00) 실패 테스트명과 `cli.main → pipeline.process_image → transform.crop` 호출 경로를 연결한다. 오른쪽 01–03은 설명 순서이며 Agent의 실제 파일 접근 시각 순서가 아니다.
+4. (5:00–7:00) `row[x_start : x_end + 1]`에서 끝 좌표를 포함하게 되는 지점을 짚는다. 코드를 고치거나 새 Test를 실행하지 않는다.
+5. (7:00–8:00) 읽기 전용 단일 CLI 조사 범위를 확인하고 S06의 관찰과 환경 한계 분리로 넘어간다.
 
-Evidence / Source: TRIAL-001, DEMO-01, STATE-00, CLM-0002, CLM-0009. 실패 Test 발견, 계약·구현 확인, 호출 경로 추적, extra-column 결과 설명, no-edit 준수는 해당 단일 run 기록에 있다.
+Evidence / Source: TRIAL-001, DEMO-01, STATE-00, CLM-0002, CLM-0009. `plan/DEMO_MATRIX.md` TRIAL-001; Demo tag STATE-00 `22e7e2f806de2419b0df649107bbae14dea082eb`: `tests/test_transform.py:9–14`, `src/graypipe/transform.py:7–13`. 입력 ((1,2,3,4),(5,6,7,8)); 기대 ((2,3),(6,7)); 코드에 따른 결과 ((2,3,4),(6,7,8)). 마지막 배열은 새 실행 기록이 아닌 정적 재구성이다.
 
-Claim Boundary: Codex CLI 0.154.0의 단일 read-only 조사다. 반복성, Codex Desktop, 교육 계정, 현재 제품 기능 또는 보편적인 탐색 능력을 입증하지 않는다. 도식은 TRIAL-001 기록을 재구성한 설명이며 원본 screenshot이 아니다.
+Claim Boundary: Codex CLI 0.154.0의 단일 읽기 전용 조사. 코드 수정 없음. 테스트 배열·구현에 따른 도식이며 screenshot이 아니다. 호출 화살표는 제품 호출 관계이고 Agent 접근 순서가 아니다. README에 기존 결함 안내가 있으므로 아무 힌트 없이 독자 발견했다고 말하지 않는다. 현재 Desktop, 계정, 반복 재현성과 보편적 탐색 능력은 미검증이다.
 
 Beginner Explanation: 파일명을 미리 주지 않은 한 번의 조사에서 실패 Test와 관련 구현·호출 경로가 찾아졌다.
 
@@ -222,18 +213,17 @@ Advanced Insight: 찾은 경로와 설명은 그 run에서 확인된 범위다. 
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-01 / 기본 경로는 `production/ACT_0.pptx` S05 또는 `production/preview/act0/S05.png`의 정적 evidence다. 근거는 `plan/DEMO_MATRIX.md`의 TRIAL-001 기록이며, 현재 산출물의 도식은 해당 기록의 재구성이다. Label `RECONSTRUCTED DIAGRAM · TRIAL-001 RECORD`와 `OBSERVED PRODUCT · CODEX CLI 0.154.0 · READ-ONLY`를 유지한다. 원본 터미널 캡처는 없으며 도식을 실제 캡처로 제시하지 않는다. Live/Hybrid는 현재 발표 계정·surface와 실행 조건이 확인되지 않아 비활성이다. 향후 검증을 거쳐 허용된 Live가 기대 결과를 보이지 않거나 권한·setup이 다르면 즉시 중단하고 “현재 환경에서는 이 과정을 확인할 수 없어, 기록된 TRIAL-001로 돌아가겠습니다.”라고 말한 뒤 S05 정적 도식으로 복귀한다. 복귀는 약 15초를 예상하되 실제 운영 시간은 리허설 전까지 미검증이다.
+Demo Operation: 정적 자료만 사용한다. `production/ACT_0.pptx` S05 / `production/preview/act0/S05.png`의 입력 → 기대/구현 결과 → 실패 Test/호출 경로/구현 순서로 가리킨다. Live/HYBRID는 비활성. 기존 DEMO-01 원본 기록은 `demos/runbooks/demo-01.md` 및 `plan/DEMO_MATRIX.md`. 마지막 1분에는 S06 handoff로 이동한다.
 
 Audience Interaction: 청중은 S04의 세 Watch For를 확인한다. 중간 응답이나 실습을 요구하지 않는다.
 
 Transition: 발견 사실을 다음 장에서 Repository 관찰과 실행 환경 제한으로 나눈다.
 
-Time Management: 8분 배분은 유지한다: 0:00–1:00 범위와 재구성 표시, 1:00–3:00 Test, 3:00–5:00 path, 5:00–7:00 contract/구현 차이, 7:00–8:00 single-run 경계와 S06 handoff. 전체 로그·파일 목록·코드 수정은 보여 주지 않는다. Live를 향후 검증해 허용해도 7:00을 hard stop으로 삼고 총 8분을 넘기지 않는다.
+Time Management: Demo 8분 유지. 1분 출처, 2분 배열, 2분 Test/호출 경로, 2분 구현 차이, 1분 범위와 전환. 초과 시 파일 경로 반복 설명을 줄인다. 새 실행 또는 수정은 하지 않는다.
 
-Fallback: READY — 기본 발표는 `production/ACT_0.pptx` S05와 `production/preview/act0/S05.png`의 정적 근거를 사용한다. 도식은 TRIAL-001 검증 기록을 재구성한 것이며 실제 terminal screenshot이 아니다. 현재 Live/HYBRID는 활성화하지 않는다. 향후 별도 검증 후 Live를 허용했을 때 권한, setup 또는 예상 관찰이 맞지 않으면 즉시 중단하고 “현재 환경에서는 이 과정을 확인할 수 없어, 기록된 TRIAL-001로 돌아가겠습니다.”라고 말한 뒤 S05 정적 도식으로 복귀한다. 전환은 약 15초로 예상하지만 리허설 전까지 UNVERIFIED. Windows·발표 PC·교육장 적합성은 미검증이다.
+Fallback: 승인된 정적 도식 — `production/ACT_0.pptx` S05와 `production/preview/act0/S05.png`를 사용한다. 새 제작본 삽입·렌더 대조는 통합 단계에서 수행한다. 원본 Trial 캡처나 Live 결과로 표현하지 않는다. 발표용 시각 방향은 사용자 승인 완료이며 Windows·교육장·실제 운영 검증은 별도다.
 
-Validation Status: REVIEWED — LOCAL STATIC PATH CONFIRMED — Trial 기록, 재구성 표시, 수정 PPTX와 최종 S05 PNG를 확인함. 실제 CLI capture는 없으며 Live/HYBRID, 교육 계정/surface, Windows, room readability 및 8분 리허설은 UNVERIFIED.
-
+Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 ## S06 — 관찰 결과와 실행 제한을 분리한다
 
 Slide ID: S06
@@ -252,10 +242,10 @@ Opening Question: “어떤 결과가 Repository 관찰이고, 어떤 결과가 
 
 Speaker Flow:
 
-1. **OPEN (0:00–0:45):** 두 칸을 한 번에 보여 주되 Repository observation과 environment limitation을 서로 다른 질문으로 읽는다.
-2. **SHOW (0:45–2:15):** 관찰 칸에서 실패 Test, 계약/구현 차이, 코드 미수정을 짚는다.
-3. **SHOW (2:15–3:30):** 환경 칸에서 read-only sandbox가 임시 디렉터리 생성 3건을 막은 것을 짚는다.
-4. **INTERPRET / TRANSFER (3:30–5:00):** 환경 오류를 Crop 또는 Repository 결함으로 분류하지 않고 “관찰 사실과 실행 조건을 나눠 본다”로 마무리한다.
+1. **OPEN (0:00–0:45):** 왼쪽 “코드에서 확인한 문제”와 오른쪽 “실행 환경에서 생긴 제한”을 서로 다른 원인으로 읽는다.
+2. **SHOW (0:45–2:15):** 왼쪽에서 한 열이 더 포함된 crop 동작과 테스트·호출 경로·계약의 연결을 짚는다. 조사 결과이며 코드는 그대로였음을 말한다.
+3. **SHOW (2:15–3:30):** 오른쪽에서 읽기 전용 권한으로 임시 디렉터리 생성이 막힌 세 오류를 설명한다. crop 결함의 세 추가 증거가 아니다.
+4. **INTERPRET / TRANSFER (3:30–5:00):** 아래의 전체 기록 7개 통과 + crop 실패 + 환경 오류 3건을 확인하고 관찰 사실과 실행 조건을 분리하는 판단으로 마무리한다.
 
 Evidence / Source: TRIAL-001의 full suite 기록: 7 passing tests, 기대한 crop failure, 임시 디렉터리를 만들 수 없어 발생한 3 errors. Focused command 기록: 2 passing tests와 같은 crop failure. Working tree는 변경되지 않았다.
 
@@ -267,7 +257,7 @@ Advanced Insight: 실제 결함 징후, 권한·환경 오류, 미측정 사항�
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-01 / WHAT HAPPENED. `production/ACT_0.pptx` S06 또는 `production/preview/act0/S06.png`로 관찰과 환경 제한을 정적으로 설명한다. 0:00–0:45 두 frame, 0:45–2:15 Repository observation, 2:15–3:30 environment limitation, 3:30–5:00 원인 경계와 S07 전이를 운영한다. 실행·새 테스트는 하지 않는다. Observation과 Environment limitation은 서로 다른 frame과 label로 유지한다.
+Demo Operation: DEMO-01 / WHAT HAPPENED. `production/ACT_0.pptx` S06의 흰 관찰 영역과 amber 환경 제한 영역을 순서대로 설명한다. 0:00–0:45 구분, 0:45–2:15 crop 관찰, 2:15–3:30 환경, 3:30–5:00 기록의 범위와 전환이다. 새 테스트나 제품 실행은 하지 않는다.
 
 Audience Interaction: 질문은 결과 해석을 위한 Case cue다. 응답을 받거나 환경 오류를 해결하게 하지 않는다.
 
@@ -275,10 +265,9 @@ Transition: “Context를 찾는 주체가 바뀌면 무엇이 달라질까요?�
 
 Time Management: Repo observation과 environment limitation에 시간을 나눠 쓴다. 원인 경계를 줄여 말하더라도 3 errors를 crop 결함으로 부르지 않는다.
 
-Fallback: READY — 기본 발표는 `production/ACT_0.pptx` S06과 `production/preview/act0/S06.png`의 정적 화면을 사용한다. 화면이 안 보이면 TRIAL-001의 기록된 숫자와 Repository observation / environment limitation 두 범주만 말로 설명하고 새 결과를 보태지 않는다. S05에서 복귀한 경우 약 15초 뒤 S06으로 이어가며, 5분 Case time과 다음 Slide handoff를 지킨다. 전환 시간은 리허설 전까지 UNVERIFIED. Windows와 room visibility는 UNVERIFIED.
+Fallback: 정적 기본 경로 — `production/ACT_0.pptx` S06 또는 `production/preview/act0/S06.png`. 새 제작본 렌더 검토는 통합 단계에서 수행한다. 화면을 사용할 수 없으면 기록된 숫자와 코드 문제/환경 제한 두 범주만 말로 설명한다. S05에서 이어지는 복귀 cue: “기록된 결과에서, 코드 문제와 실행 제한을 나눠 보겠습니다.” 운영 시간·Windows·room visibility는 UNVERIFIED.
 
-Validation Status: REVIEWED — LOCAL STATIC PATH CONFIRMED — 수정 PPTX와 최종 한글 표시 S06 PNG를 확인함. 5분 운영 리허설, Windows PowerPoint 및 room readability는 UNVERIFIED.
-
+Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 ## S07 — 코드를 AI에게 가져가는 대신 AI를 Repository로 데려간다
 
 Slide ID: S07
@@ -297,11 +286,11 @@ Opening Question: “Context 수집의 일부를 누가 맡을 수 있는가?”
 
 Speaker Flow:
 
-1. **CALL BACK (0:00–0:45):** S02의 copy-code-to-chat 흐름을 짧게 되짚는다.
-2. **TRANSFER (0:45–2:00):** 분리된 Teaching Model에서 `Bring code to AI` → `Bring AI to repository`로 시선을 옮긴다. 역할 변화는 Context를 찾는 주체에 한정한다.
-3. **C++ INSET / TRANSITION (2:00–3:00):** 별도 C++ inset에 large repository, modules, build config, tests, contracts를 놓고 Repository 접근과 Task 목표가 다름을 S08로 넘긴다.
+1. **CALL BACK (0:00–0:45):** 위쪽 Repository → 개발자 선택·복사 → AI 관계로 S02를 짧게 회수한다.
+2. **TRANSFER (0:45–2:00):** 아래쪽 개발자 조사 요청 → Agent ↔ Repository로 시선을 옮긴다. 바뀌는 것은 Context를 찾는 주체의 일부이며 목표와 검증 책임을 전부 넘긴다는 뜻이 아니다.
+3. **TRANSFER / TRANSITION (2:00–3:00):** 필요하면 큰 C++ 저장소에서도 모듈·테스트·계약을 찾는 상황을 한 문장으로 연결한다. Repository 접근이 원하는 Task를 정하지는 않는다는 S08 질문으로 이동한다.
 
-Evidence / Source: DEMO-01 / TRIAL-001 단일 CLI 관찰; BEAT-003, CLM-0002, CLM-0009. Product observation과 TEACHING_MODEL은 별도 영역으로 둔다.
+Evidence / Source: DEMO-01 / TRIAL-001 단일 CLI 관찰; BEAT-003, CLM-0002, CLM-0009. 본문은 Context 수집 역할을 비교하는 TEACHING_MODEL이며 하단에 연결된 과거 관찰의 범위를 별도로 표시한다.
 
 Claim Boundary: 이 관찰은 CLI 한 번에 한정되며 제품의 보편적 성능·반복성 주장이 아니다. Repository 접근이 Task 의도나 성공을 자동으로 정한다는 뜻이 아니다.
 
@@ -309,20 +298,19 @@ Beginner Explanation: 관련 코드를 모두 복사하기보다 Repository 조�
 
 Advanced Insight: Context 수집 책임의 일부와 Task 목표·판단 책임을 분리한다.
 
-C++ Vision Bridge: CONTEXTUAL inset — large repository / modules / build config / tests / contracts. 도구나 hardware 목록으로 확장하지 않는다.
+C++ Vision Bridge: CONTEXTUAL speaker cue — 큰 저장소의 모듈·테스트·계약을 찾는 상황을 필요할 때 한 문장으로 연결한다. 화면에 도구·빌드·hardware 목록을 추가하지 않는다.
 
-Demo Operation: DEMO-01 bounded callback. 실제 Product UI가 아니라 Trial record에서 요약한 `OBSERVED PRODUCT` inset을 사용하고 Teaching Model과 합치지 않는다.
+Demo Operation: DEMO-01 bounded callback. 본문 화살표는 교육 모델이고 새 제품 동작 관찰이 아니다. S05에서 본 단일 CLI 기록을 근거로 한 가능성을 설명하며 새 UI나 실행을 보여 주지 않는다.
 
 Audience Interaction: 별도 질의 없음. 청중이 Mental Shift를 비교해 볼 수 있도록 잠시 시선을 둔다.
 
 Transition: “Repository 접근과 Task 의도는 같은가?”라고 물으며 S08에 간다.
 
-Time Management: Model, Evidence inset, C++ bridge를 각자 한 영역에 둔다. Trial 세부를 다시 설명하지 않는다.
+Time Management: 위·아래 관계의 변화에 집중한다. Trial 상세와 수치를 반복하지 않는다. C++ 연결은 선택적인 한 문장이며 3분 안에 S08로 이동한다.
 
 Fallback: Trial record를 표시할 수 없으면 Mental Shift만 Teaching Model로 설명한다. 제품 전반의 사실처럼 말하지 않는다.
 
-Validation Status: DRAFT — Trial과 Teaching Model의 분리, T04-B first implementation 및 C++ inset 확인; projection/target display 미검증.
-
+Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 ## S08 — Repository 접근과 Task 의도는 별개다
 
 Slide ID: S08
@@ -341,9 +329,9 @@ Opening Question: “Repository를 볼 수 있으면 원하는 작업도 알게 
 
 Speaker Flow:
 
-1. **OPEN (0:00–0:30):** Repository access와 Task intent를 각각의 영역으로 보여 준다.
-2. **EXPLAIN (0:30–1:30):** 접근 가능한 코드·정보가 목표 선택을 대신하지 않는다는 구분을 말한다.
-3. **TRANSFER (1:30–2:00):** “무엇을 원하는지 전달하는 문제는 남아 있다”라고 하고 답을 청중에게 넘긴다.
+1. **OPEN (0:00–0:30):** 왼쪽 “볼 수 있는 것”과 오른쪽 “정해야 하는 것”을 분리한다.
+2. **EXPLAIN (0:30–1:30):** 파일·구현·테스트가 보여도 원하는 변화, 허용 범위, 완료 판단은 별도로 전달해야 한다는 구분만 설명한다.
+3. **TRANSFER (1:30–2:00):** 가운데 ≠를 짚고 “코드가 보여도 원하는 일은 따로 전달해야 한다”로 마친다. ACT 1의 구체적인 요청 구조는 아직 소개하지 않는다.
 
 Evidence / Source: BEAT-003 next friction, DEMO-01 callback, TRIAL-001; CLM-0002, CLM-0009. TEACHING_MODEL.
 
@@ -365,8 +353,7 @@ Time Management: Access와 Intent 두 축만 설명하고 ACT 1의 구조나 목
 
 Fallback: 화면 도식이 보이지 않으면 두 책임의 차이를 말로 한 번 설명하고 S09로 간다.
 
-Validation Status: DRAFT — Map 역할, T02-A first implementation, claim boundary 확인; 실제 발표 속도 미검증.
-
+Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 ## S09 — Repository를 보면 내가 원하는 것까지 알까?
 
 Slide ID: S09
@@ -385,8 +372,8 @@ Opening Question: “Repository를 볼 수 있으면 내가 원하는 것까지 
 
 Speaker Flow:
 
-1. **DISCUSS / TRANSITION (0:00–3:00):** 질문을 남기고 Repository access가 제공하는 것과 아직 모르는 것을 떠올릴 시간을 준다. 대답을 미리 보여주지 않는다.
-2. **Q&A (3:00–6:00):** 질문을 받는다. 질문이 없으면 같은 질문을 한 번 더 남기고 시간 후 ACT 1의 Prompt 문제로 handoff한다.
+1. **DISCUSS / TRANSITION (0:00–3:00):** “지금 이 저장소에 어떤 일을 맡기고 싶은가?”와 “그 원하는 결과까지 코드에 적혀 있는가?”를 차례로 읽는다. 답이나 다음 단계의 체크리스트를 제시하지 않는다.
+2. **Q&A (3:00–6:00):** 자발적인 질문을 받는다. 질문이 없으면 두 질문을 그대로 남긴 뒤 ACT 1의 모호한 요청으로 이동한다.
 
 Evidence / Source: BEAT-003 → BEAT-004, TRANSITIONS.md의 승인된 ACT handoff, DEMO-01 callback, CLM-0002, CLM-0009. TEACHING_MODEL.
 
@@ -408,4 +395,4 @@ Time Management: Slide Map의 순서를 유지해 Transition 3분 뒤 Q&A 3분�
 
 Fallback: 질문이 없으면 Opening Question을 그대로 남기고 종료 cue로 ACT 1에 넘긴다. 강사가 질문에 답을 보태지 않는다.
 
-Validation Status: DRAFT — 6분 / Mode split과 T01-B first implementation 확인; Q&A 운영·발표 시간·교육장 환경은 미검증.
+Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
