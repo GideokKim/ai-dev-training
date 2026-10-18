@@ -1,0 +1,25 @@
+{
+  "final_sha256": "a7d2481c214fac90d5a96bcabf53d924e6b0a3be2762e032f9a57e165851863b",
+  "slide_ids": [
+    "S05",
+    "S23",
+    "S45",
+    "S57"
+  ],
+  "package_integrity": "pass",
+  "layout_findings": 0,
+  "native_chart_count": 1,
+  "native_picture_count": 0,
+  "embedded_notes_count": 4,
+  "notes_fields_per_slide": 19,
+  "preview_dimensions": [
+    1920,
+    1080
+  ],
+  "render_source": "Exact finalized PPTX imported and rendered with Artifact Tool",
+  "powerpoint_windows": "UNVERIFIED",
+  "room_readability": "UNVERIFIED",
+  "rehearsal": "UNVERIFIED",
+  "user_direction_approval": "PENDING",
+  "s57_specific_setting": "PROPOSED"
+}
