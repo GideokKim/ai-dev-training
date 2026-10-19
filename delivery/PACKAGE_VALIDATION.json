@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-19",
+  "package": "AI_Dev_Training_Presenter_2026-10-19",
+  "archive": "delivery/AI_Dev_Training_Presenter_2026-10-19.zip",
+  "archiveSha256": "483d77d578a519ace83f38f63e9a4922203e27ed591197504ab180d2e2648f10",
+  "archiveBytes": 51802767,
+  "payloadFiles": 354,
+  "zipEntries": 355,
+  "crcAndPayloadHashes": "PASS",
+  "relativeHtmlFilesAndAnchors": "PASS",
+  "markdownSourceLinkClosure": "PASS",
+  "sourceArtifactHashesMatchReviewedRelease": true,
+  "embeddedAndMarkdownNotesMatch": true,
+  "counts": {
+    "pptx": 7,
+    "notes": 7,
+    "fullSlidePngs": 80,
+    "actSlidePngs": 80,
+    "slideHtmlPages": 80,
+    "runbookPaths": 14,
+    "sourceMarkdown": 48,
+    "payloadFiles": 354,
+    "htmlLinksChecked": 2171,
+    "sourceLinksChecked": 119,
+    "externalLinksNotFetched": 25
+  },
+  "sourcePptxUnchanged": true,
+  "sourceNotesUnchanged": true,
+  "userGates": {
+    "localFileIntegrity": "PASS",
+    "relativeHtmlLinks": "PASS",
+    "targetWindowsPowerPoint": "UNVERIFIED",
+    "targetFonts": "UNVERIFIED",
+    "actualPcOfflinePlayback": "UNVERIFIED",
+    "roomProjection": "UNVERIFIED",
+    "productAccountLive": "UNVERIFIED",
+    "timedRehearsal": "UNVERIFIED",
+    "externalDelivery": "NOT PERFORMED"
+  }
+}
