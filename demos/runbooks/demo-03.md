@@ -96,7 +96,7 @@ Show S41–S42 static summaries; do not show long Prompt text or fake terminal U
 
 Fallback readiness: READY for local static slide-render playback only. Raw Trial source captures are not implied or created.
 
-Captured Alternative provenance: static slide render generated/rechecked 2026-10-18 from the integrated PPTX; see `production/evaluation/FINAL_HANDOFF.md` for source PPTX hash and render details. This is not a raw terminal screenshot, recording, or new Trial output.
+Captured Alternative provenance: DEC-0030 integrated-deck static render; file identity and fallback paths rechecked on 2026-10-19. See `FALLBACK_MANIFEST.md` and `production/evaluation/FINAL_HANDOFF.md` for the exact PPTX hash and recorded rendering scope. This file check is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 

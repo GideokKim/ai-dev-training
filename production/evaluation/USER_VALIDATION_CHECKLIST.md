@@ -1,47 +1,108 @@
 # 사용자 검증 체크리스트
 
-상태: USER REQUIRED — 아래 실환경 확인은 현재 실행에서 수행하지 않았다.
+갱신 기준일: 2026-10-19 (Asia/Seoul). 대상 Git 후보: `a252c49`.
+
+상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
+아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
+승인을 구분한다.
 
 대상 후보:
 
-- 통합 덱: `production/AI_Dev_Training_Full.pptx`
-- SHA-256: `c5e744e36d610e52179ff4f1f6979255a093b3794f83e6fa5b84dfa5cadcf19d`
-- 전체 정적 렌더: `production/preview/full/S01.png`–`S80.png`
-- 오프라인 Demo 대안: `demos/runbooks/FALLBACK_MANIFEST.md`
+- 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
+- PPTX SHA-256: `ef6c5b69a03bf7c243b144f5f7dded018d72dc84cbb657bff044e812557a17d6`
+- 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
+- Notes SHA-256: `c1167e05e9fcd3153ddf59df96c294f185491ae623bdfd43c628ad5b438eabe1`
+- 전체 정적 렌더: `production/preview/full/S01.png`–`S80.png`, [montage](../preview/full/montage.png)
+- 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-검증자: ____________________  날짜: ____________________
-Windows PC / PowerPoint 빌드: ____________________
-교육장 / 화면 비율: ____________________
-교육 계정 / Codex surface: ____________________
+두 파일의 해시는 이번 문서 갱신 시 실제 파일에서 확인했다. 다음은 최신
+[발표용 개선 보고서](FULL_DECK_PRESENTATION_POLISH.md)와
+[검증 JSON](FULL_DECK_PRESENTATION_POLISH_VALIDATION.json)에 이미 기록된
+로컬 완료 범위다. 이번 갱신에서 렌더·package 검사를 재실행하지 않았다.
 
-각 항목에 PASS / FAIL / UNVERIFIED를 표시하고, 확인 날짜와 증거 경로를 남긴다. 실패가 있으면 해당 Slide와 환경을 기록하고, 보호된 Story·Claim·시간·Mode·Demo State를 바꾸지 않은 국소 수정 제안만 작성한다.
+| 기존 로컬 확인 | 보고서에 기록된 결과 |
+|---|---|
+| 통합본 및 여섯 ACT PPTX | Package / geometry / reference-font policy / first-party import 검사 통과, layout finding 0개 |
+| 전체 80장 최종 PNG | 개별 시각 검토 완료, 새 P0/P1 및 의미 있는 P2 없음; ACT와 통합 PNG 일치 |
+| 구조·시간 | 80장 / 순수 교육 360분, Slide ID·ACT·시간·Mode·Claim 경계 보존 |
+| Notes | 80개·장별 19필드 유지, Markdown·통합 및 ACT 내장 Notes 일치 |
+| 승인된 발표용 개선 | DEC-0030의 14개 개선안, 32장 화면과 해당 Notes Cue 정렬; 나머지 48장 보존 |
+| Fallback 자료 | 최종 PPTX 및 등록 PNG 해시·미리보기 갱신 |
 
-## 1. Windows PowerPoint
+과거 후보의 “S73/S77 카드 행·callout geometry만 수정” 기록은 그 시점의
+이력이다. 현재 후보의 화면·수정 범위는 최신 보고서와 이 체크리스트를 따른다.
+지정 서체는 Malgun Gothic / Consolas이며 로컬 렌더는 Apple SD Gothic Neo /
+Menlo alias를 사용했다. 로컬 결과는 실제 발표 PC의 글꼴 선택·대체를 검증하지 않는다.
 
-- [ ] 통합 PPTX가 복구 경고 없이 열린다.
+검증자 / 확인 날짜·시간·시간대: ____________________
+발표 PC 제조사·모델 / OS·빌드: ____________________
+Windows PowerPoint 버전·빌드 / 32·64비트: ____________________
+지정 글꼴 설치 버전 / 실제 대체 글꼴: ____________________
+교육장·프로젝터 / 출력 해상도·배율·화면 비율: ____________________
+운영 선택(정적 PPT/PNG 기본, Live/Hybrid 선택 여부): ____________________
+Live/Hybrid 선택 시 계정 범위·Codex surface·제품 버전: ____________________
+
+| 실환경 확인 범위 | 현재 상태 |
+|---|---|
+| 실제 발표 PC / Windows PowerPoint 열기·저장·Slide Show | UNVERIFIED |
+| 발표 PC의 글꼴·줄바꿈 | UNVERIFIED |
+| 교육장 투사·좌석 거리 가독성 | UNVERIFIED |
+| 현재 제품·계정·권한 / 선택한 Live·Hybrid 동작 | UNVERIFIED |
+| 실제 발표 PC에서 네트워크를 끈 정적 자료 재생·복귀 | UNVERIFIED |
+| 전체 시간·S54·S72·무질문 상황 실측 리허설 | UNVERIFIED |
+| 최종 전달 승인 및 외부 전달 | UNVERIFIED |
+
+각 체크박스는 실제 확인 후 표시하고 PASS / FAIL / UNVERIFIED와 증거를
+남긴다. 증거 없이 PASS로 바꾸지 않는다. 아래 필드로 항목별 기록을 남기거나
+같은 필드를 갖춘 별도 기록에 연결한다. 증거는 Repository 또는 전달 묶음을
+기준으로 한 상대 경로로 적는다.
+
+| 항목 번호 | 판정 | 검증자 / 날짜·시간 | 기기 / OS·앱 버전 | Slide / 파일 | 문제·재현 조건 | 증거 경로 |
+|---|---|---|---|---|---|---|
+| __________ | UNVERIFIED | __________ | __________ | __________ | __________ | __________ |
+
+실패가 있으면 해당 Slide와 환경을 기록하고, 보호된 Story·Claim·시간·Mode·
+Demo State를 바꾸지 않는 국소 수정안을 작성한다. 기준 문서는
+[MASTER_PLAN](../../plan/MASTER_PLAN.md), [INVARIANTS](../../plan/INVARIANTS.md),
+[DECISIONS](../../plan/DECISIONS.md)다.
+
+## 1. Windows PowerPoint와 발표 PC — UNVERIFIED
+
+- [ ] 대상 해시의 통합 PPTX가 실제 발표 PC에서 복구 경고 없이 열린다.
 - [ ] 임시 사본에 저장한 뒤 닫고 다시 열어도 80장이 유지된다.
 - [ ] Slide ID와 순서가 S01–S80으로 유지된다.
-- [ ] Slide Show 모드에서 화면 비율·전환·정적 도형이 정상이다.
-- [ ] Speaker Notes 80개가 예상 Slide에 연결되어 읽힌다.
+- [ ] Slide Show 모드에서 화면 비율·전환·정적 도형·S45 native chart가 정상이다.
+- [ ] Speaker Notes 80개가 예상 Slide에 연결되고 발표자 보기에서 읽힌다.
 - [ ] 사용 글꼴과 실제 대체 글꼴을 기록했다.
 - [ ] 한글 줄바꿈, 영문/한글 혼합, 코드, Citation, Evidence label을 확인했다.
-- [ ] S73 카드 행과 S77 callout이 안전 여백 안에 있다.
+- [ ] S72 왼쪽 장면→오른쪽 세 질문→하단 성찰 질문 순서가 읽히며 겹침·잘림이 없다.
+- [ ] S74 번호·화살표가 상단 왼쪽→오른쪽, 하단 오른쪽→왼쪽으로 이어지고 아래 회상 발췌와 구분된다.
+- [ ] S10–14, S21/25, S30/31, S38/39의 장별 역할과 S67–71, S73–79의 흐름이 최신 Notes와 맞는다.
+- [ ] S23/S43 한국어 의미·원문, S37 절차, S48 결론, S53 연결, S64 근거 상태, S70 진단 설명이 읽힌다.
 - [ ] 확인 증거(화면 캡처 또는 점검 기록) 경로: ____________________
 
-집중 확인 Slide: S05, S16, S35, S45, S54, S56, S64, S67, S72, S73, S77, S80.
+전체 80장을 확인하되 S05, S09–14, S16, S23, S29, S35, S37, S43,
+S45, S48, S53–56, S64, S66–80을 집중 확인한다. 전환은 S09→10,
+S21→22, S36→37, S54→55, S55→56, S66→67, S72→73, S79→80을 점검한다.
 
 결과 / 문제 Slide / 증거:
 
 ____________________________________________________________________
 
-## 2. 교육용 Codex surface와 계정
+## 2. 운영 경로와 선택적 제품·계정 확인 — UNVERIFIED
 
-- [ ] 실제 교육 계정 및 사용할 Codex surface를 선택했다.
-- [ ] 현재 제품 버전·접근 권한·workspace/repository 접근 범위를 기록했다.
-- [ ] 현재 공식 자료와 실제 계정 동작이 필요한 기능에 대해 재확인했다.
-- [ ] Live/Hybrid를 쓸 경우 허용 모드와 작업 디렉터리를 별도로 확인했다.
-- [ ] 발표 시작 전 Live 조건이 맞지 않을 때의 정적 fallback을 열어봤다.
-- [ ] Live/Hybrid를 활성화하지 않는 경우에도 정적 경로만으로 Story가 전달된다.
+정적 PPT/PNG와 준비된 과거 기록이 기본 운영 경로다. 과거 Trial을 그 범위로
+설명하기 위해 현재 계정에서 같은 동작을 재현할 필요는 없다. Live/Hybrid를
+선택하거나 현재 제품 동작을 직접 주장할 때 해당 조건을 확인한다. 사용하지
+않는 경로는 운영 선택에 “미사용”을 기록하되, 실제 계정·Live 검증 상태는
+UNVERIFIED로 유지한다.
+
+- [ ] 정적 기본 경로만으로 Story가 전달되며 현재 제품 실행을 요구하지 않음을 확인했다.
+- [ ] Live/Hybrid를 쓸 경우 사용할 계정·surface·제품 버전·접근 권한·workspace/repository 범위를 기록했다.
+- [ ] Live/Hybrid 또는 현재 제품 기능에 의존하는 설명은 최신 공식 자료와 해당 계정의 실제 동작으로 확인했다.
+- [ ] Live/Hybrid를 쓸 경우 허용 모드·작업 디렉터리·시작 State·중단 조건을 확인했다.
+- [ ] Live/Hybrid를 쓸 경우 네트워크·인증 실패 시 정적 fallback 복귀와 다음 Slide 전환을 리허설했다.
+- [ ] 회사·고객 데이터 또는 회사 서비스를 사용할 경우에만 해당 사용·공개 정책과 권한을 확인했다.
 
 기록할 점: TRIAL-001 및 TRIAL-008은 Codex CLI 0.154.0에서 관찰된 범위다. 이 기록은 현재 Desktop/교육 계정의 동작을 대신하지 않는다. 확인되지 않은 기능은 `UNVERIFIED`로 남긴다.
 
@@ -49,65 +110,85 @@ Surface / version / account scope / permission mode / evidence path:
 
 ____________________________________________________________________
 
-## 3. 오프라인 Demo fallback
+## 3. 실제 발표 PC의 오프라인 Demo fallback — UNVERIFIED
 
-- [ ] 각 runbook에 나열된 PNG를 네트워크 없이 열었다.
-- [ ] `demos/runbooks/FALLBACK_MANIFEST.md`의 파일 SHA-256이 일치한다.
+- [ ] 발표 PC로 전달한 PPTX·Notes가 위 대상 해시와 일치한다.
+- [ ] 전달한 PNG의 SHA-256이 fallback manifest의 해당 항목과 일치한다.
+- [ ] 발표 PC에서 네트워크를 끈 뒤 각 runbook에 나열된 PNG와 필요한 Notes를 열었다.
 - [ ] S05의 재구성 도식을 raw terminal screenshot으로 오해하지 않도록 label을 확인했다.
 - [ ] S16 code/diff, S35 access matrix, S67 Meta timeline의 근거 경계를 확인했다.
-- [ ] S64에서 EVAL-03/04가 설계된 확인 항목이며 결과가 없음을 확인했다.
+- [ ] S64 네 행이 개념 평가 설계이며 EVAL-01/02는 과거 관찰 참고, EVAL-03/04는 설계 사례이고 변경 뒤 새 평가 결과가 없음을 확인했다.
 - [ ] S66 Teaching Model과 S67 Observed Meta frame이 구분된다.
-- [ ] fallback에서 다음 Slide로 넘어가는 cue가 작동한다.
+- [ ] S74 일곱 State와 아래 세 발췌를 회상 자료로 설명하며 새 Trial·추가 State로 표현하지 않았다.
+- [ ] 자료를 열지 못할 때 runbook의 복구 cue와 다음 Slide 전환을 실제 발표 PC에서 확인했다.
 - [ ] Live 실행을 시도하지 않고 정적 경로만으로 예정 시간에 맞춰 진행할 수 있다.
 
 결과 / 파일 / 증거:
 
 ____________________________________________________________________
 
-## 4. 교육장·프로젝터
+## 4. 교육장·프로젝터 — UNVERIFIED
 
 - [ ] 실제 화면에서 16:9와 전체 안전 여백이 유지된다.
 - [ ] 뒤쪽 좌석에서 제목, 핵심 diagram, Korean body, code, Citation, Evidence label을 읽을 수 있다.
 - [ ] 화면 밝기·대비·프로젝터 scaling이 적절하다.
 - [ ] S05 Evidence metadata와 S09 질문을 실제 거리에서 읽을 수 있다.
-- [ ] S73/S77의 오른쪽 끝 요소가 화면에서 잘리지 않는다.
-- [ ] 테스트 사진 또는 기록 경로: ____________________
+- [ ] S72 세 질문·하단 성찰 질문과 S74 State 번호·방향·native 캡션을 실제 거리에서 구분할 수 있다.
+- [ ] S74 작은 발췌는 회상용으로 사용하고 세부 코드·수치를 뒤쪽 좌석에서 다시 읽도록 요구하지 않는다.
+- [ ] S73–79를 포함한 최신 전체 화면의 가장자리 요소가 잘리지 않는다.
+- [ ] 촬영 위치·기기·출력 설정·날짜·Slide와 테스트 사진 또는 기록 경로를 남겼다: ____________________
 
-## 5. 강사 시간 리허설
+## 5. 강사 시간 리허설 — UNVERIFIED
 
-실제 리허설 전에는 시간 적합성을 PASS 처리하지 않는다. 실제 시작/종료 시간을 기록한다.
+실제 리허설 전에는 시간 적합성을 PASS 처리하지 않는다. 실제 시작/종료와
+각 구간의 실측 시간을 기록한다. 청중은 노트북·실습·필수 응답·공유를 요구받지 않는다.
 
 - [ ] 전체 360분을 리허설했다. 휴식 및 setup 시간을 교육 시간에 섞지 않았다.
 - [ ] ACT 시간: ACT 0 40분 / ACT 1 55분 / ACT 2 70분 / ACT 3 85분 / ACT 4 80분 / ACT 5 30분.
 - [ ] Mode 합계: Lecture 130 / Demo 73 / Case 83 / Reflection 20 / Transition 22 / Q&A 32분.
-- [ ] S54 순서: Reflection 3 → Q&A 5 → Transition 2분.
-- [ ] S72 순서: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
-- [ ] S72에서 청중 질문이 없을 때의 Fallback Question과 시간 Cutoff를 사용했다.
-- [ ] 각 Live/Hybrid 후보에서 fallback 복귀와 다음 Slide 전환을 리허설했다.
+- [ ] S54 순서: Reflection 3 → Q&A 5 → Transition 2분. 3분에 질문을 열고 8분에 마감하여 10분에 전환했다.
+- [ ] S54 무질문 상황에서는 “이 반복은 Context, Workflow, Coordination, 기억 중 무엇에 가까운가?”를 사용하고 마지막 전환 질문을 지켰다.
+- [ ] S72 순서: Case 7 → Reflection 2 → Q&A 7 → Transition 4분. 정적 화면으로 전체 20분을 실제 운영했다.
+- [ ] S72 왼쪽 조건 변화→오른쪽 01 기존 가정·02 측정 조건·03 기능 계약→하단 성찰 질문의 지목 Cue를 사용했다.
+- [ ] S72 무질문 상황에서 아래 준비 질문을 강사가 짧게 해설하고, 응답을 요구하지 않고 16분에 질문을 마감했다.
+- [ ] S09/S21 및 마지막 S80도 질문이 없는 상황의 Notes fallback으로 진행했다.
+- [ ] Live/Hybrid를 선택한 경우 중단·정적 fallback 복귀·다음 Slide 전환의 시간을 기록했다.
 - [ ] 초과·축소 구간과 적용한 Cutoff를 기록했다.
 
-ACT별 실측 / S54·S72 결과 / 근거 경로:
+S72 준비 질문: “예전 Benchmark와 비교하기 전에 어떤 조건을 맞춰야 할까요?”,
+“성능이 달라졌을 때 기능 계약은 무엇으로 다시 확인할까요?”, “두 번째로 같은
+문제가 생기면 Prompt 외에 무엇을 살펴볼까요?” 기존 세 질문의 범위에서
+하나씩 사용하며 새 기술 사례나 제품 설정 강의를 열지 않는다.
+
+S72 Cutoff: “이 질문은 여기까지 정리하고, 이제 처음 문제부터 지금의 Loop까지
+연결해 보겠습니다.” 16–20분 Transition 뒤 S73으로 이동한다.
+
+전체 시작·종료 / ACT별 실측 / S54·S72 및 무질문 결과 / 근거 경로:
 
 ____________________________________________________________________
 
-## 6. Claim·Evidence 보호
+## 6. Claim·Evidence 보호 — UNVERIFIED
 
 - [ ] 실제 관찰, Observed Meta, Conceptual, Teaching Model, Research 경계를 유지했다.
 - [ ] 측정하지 않은 token 절감·성능 향상·품질 개선을 추가하지 않았다.
-- [ ] 실제 수행하지 않은 EVAL-03/04를 PASS/FAIL로 말하지 않았다.
+- [ ] S64의 과거 관찰 참고와 평가 설계를 구분하고 새 EVAL-03/04 결과를 PASS/FAIL로 말하지 않았다.
 - [ ] 현재 Desktop 동작을 과거 CLI Trial의 결과로 표현하지 않았다.
-- [ ] S73/S77 geometry 외에 Story·Claim·Slide ID·시간·Mode를 바꾸지 않았다.
+- [ ] S72 조건 변화는 가상 교육 맥락이며 실제 C++ 사건이나 확정된 실패 원인으로 표현하지 않았다.
+- [ ] S74 State는 기록된 문제 대응 이력이며 성숙도 등급·Product Loop로 표현하지 않았다.
+- [ ] DEC-0030으로 승인된 현재 화면·Notes Cue를 기준으로 Story·Claim·Slide ID·ACT·시간·Mode·Demo State를 유지했다.
 - [ ] 보호 변경 필요 시 `PROPOSAL / REASON / EVIDENCE / IMPACT / CONFLICT / RECOMMENDATION`을 작성하고 승인 전 적용하지 않았다.
 
-## 7. 최종 전달 승인
+## 7. 최종 전달 승인 — UNVERIFIED
 
-- [ ] Windows, 제품 계정, 교육장, 리허설 Gate가 모두 통과했다.
-- [ ] 최종 PPTX와 Evidence 자료의 exact filename/hash를 확인했다.
-- [ ] 전달 대상·경로와 공개 범위를 정했다.
-- [ ] 외부 전달은 별도 명시 승인을 받은 뒤 수행한다.
+- [ ] 선택한 운영 경로에 필요한 Windows·발표 PC 글꼴·교육장·오프라인 재생·시간 리허설 Gate의 증거를 확인했다.
+- [ ] Live/Hybrid 또는 현재 제품 동작에 의존하는 경우 제품·계정·권한·Live 복귀 Gate의 증거도 확인했다.
+- [ ] 최종 PPTX·Notes·Evidence 자료의 정확한 파일명과 해시를 기록했다.
+- [ ] 미사용 경로·남은 UNVERIFIED 항목과 승인 범위를 기록했다.
+- [ ] 전달 대상·경로·공개 범위를 정하고 최종 전달 명시 승인을 받았다.
+- [ ] 외부 전달은 해당 승인을 받은 뒤 수행하고 전달 일시·파일·대상·증거를 기록했다.
 
-최종 판정: PASS / PARTIAL / FAIL / UNVERIFIED
+최종 판정: **UNVERIFIED** (확인 후 PASS / PARTIAL / FAIL / UNVERIFIED 기록)
 
-검증자 메모 및 승인 범위:
+검증자 / 승인자·일시 / 승인 범위 / 전달 증거 경로:
 
 ____________________________________________________________________

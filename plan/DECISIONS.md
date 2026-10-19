@@ -4682,3 +4682,87 @@ and timed rehearsal remain separate UNVERIFIED gates.
 ## Approval
 
 Explicit user instruction to proceed after reviewing the fourteen-item list.
+
+### DEC-0031 — Package the current presenter materials for user validation
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-19
+
+## Context
+
+DEC-0030 completed the current 80-slide presentation and local review. The
+user requested updated handoff/checklist documents, anticipated questions and
+answers, and an offline presenter bundle, followed by commit and push.
+
+## Problem
+
+The handoff and checklist still identify older PPTX releases. Presenter
+materials are spread across the repository, and both integrated and ACT
+preview paths are referenced by the existing Notes.
+
+## Decision
+
+- Identify the existing `a252c49` presentation artifacts by exact SHA-256.
+  Refresh the current handoff, checklist and entry documentation.
+- Add presenter Q&A using approved Slide, Claim and Trial scope. Do not add
+  unverified current-product instructions, new research claims or course time.
+- Create one dated offline ZIP with the integrated and ACT decks, all Notes,
+  full and ACT previews, runbooks, current handoff/checklist, Q&A and linked
+  reference documents. Provide a browser entry page and readable HTML copies.
+- Preserve repository-relative paths, list payload hashes in a manifest, and
+  keep the ZIP hash in a separate sidecar to avoid self-referential hashes.
+- Label the result as local materials packaged for user validation. Leave
+  target Windows/fonts, classroom, product/account, Live path and timed
+  rehearsal UNVERIFIED. Static presentation remains the default.
+- Keep PPTX, Notes, Slide Map, Claim Freeze, course timing and Demo repository
+  unchanged. Do not run a Trial, claim a rehearsal, or distribute externally.
+
+## Rationale
+
+An exact, portable handoff prevents the presenter from using an old candidate
+or losing offline fallback paths. User-only checks stay visible and separate
+from package integrity and documentation work.
+
+## Alternatives
+
+- Send only the main PPTX: omits Notes, Q&A and offline fallback references.
+- Copy the entire checkout: adds source code, unrelated prototypes and local
+  history that the presenter does not need.
+- Mark delivery complete after packaging: lacks target-environment evidence.
+
+## Trade-offs
+
+Full and ACT preview files duplicate some bytes but preserve existing paths
+without modifying Notes or relying on Windows symbolic-link support. HTML
+copies are generated views; Markdown and the approved plans remain authority.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001, INV-SOT-003.
+
+## Affected Artifacts
+
+Current handoff/checklist, presenter Q&A, runbook provenance, repository entry,
+delivery ZIP/manifest, packaging source and package validation record.
+
+## Evidence
+
+Explicit user instruction to finish these preparation tasks and commit/push,
+while leaving physical environment checks and rehearsal to the user.
+
+## Training Relevance
+
+YES — release identity, readable source links and validation boundaries are
+part of an evidence-based engineering handoff.
+
+## Follow-up
+
+The presenter completes the pending real-environment and rehearsal checklist.
+Any current Live demonstration needs its own verified account/path and fallback.
+
+## Approval
+
+Explicit user authorization for documentation, Q&A and presenter packaging.

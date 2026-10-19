@@ -1,8 +1,10 @@
 # MASTER EXECUTION STATUS
 
-> Historical execution record. The subsequent user-approved full presentation
-> revision is documented in [FULL_DECK_PRESENTATION_REVISION.md](FULL_DECK_PRESENTATION_REVISION.md).
-> Current artifact hashes and render provenance are in [FINAL_HANDOFF.md](FINAL_HANDOFF.md).
+> Historical execution record; the execution results and checkpoint below describe an earlier release.
+> Current presentation: DEC-0030, `a252c49`. Current packaging: DEC-0031.
+> Use [FINAL_HANDOFF.md](FINAL_HANDOFF.md) for current artifact hashes and
+> [USER_VALIDATION_CHECKLIST.md](USER_VALIDATION_CHECKLIST.md) for pending user checks.
+> This historical record does not mark Windows, classroom or rehearsal PASS.
 
 Execution date: 2026-10-18 (Asia/Seoul)
 Final status: PARTIAL — READY FOR USER VALIDATION

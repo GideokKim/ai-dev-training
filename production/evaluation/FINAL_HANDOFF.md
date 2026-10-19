@@ -1,103 +1,110 @@
-# Final Handoff — AI Developer Training
+# 최종 전달 안내 — AI 개발자 교육
 
-## Current Release — Accepted Presentation Revision
+갱신일: 2026-10-19 (Asia/Seoul). 자료 구성: DEC-0031.
+발표자료 기준: `a252c49` / DEC-0030. 이후 문서·묶음 구성은 발표자료 변경과 구분한다.
 
-Date: 2026-10-18. Decision: DEC-0027. Baseline: `596d76e`.
+**로컬 발표자료 제작·검토 완료 / 발표자용 묶음 준비 / 실환경·리허설 UNVERIFIED.**
 
-**Local production and rendered review: COMPLETE. Target-environment delivery: UNVERIFIED.**
+이 문서는 현재 후보와 남은 사용자 확인 항목의 시작점이다. 패키징 완료를
+현장 발표 승인, Live 시연 검증 또는 청중에게 전달 완료로 해석하지 않는다.
 
-The integrated deck and all six ACT files now use the accepted presentation
-revision. The complete 80-slide narrative, titles, IDs, time/mode allocations,
-and evidence/claim boundaries are retained. S57 uses the explicitly accepted
-unit plus integration versus unit-only hypothetical setting.
+## 1. 무엇을 열면 되는가
 
-| Artifact | Current SHA-256 / result |
+1. 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-19.zip`을 내려받아
+   **전체 압축을 푼다**. ZIP 안에서 PPT만 바로 실행하지 않는다.
+2. 압축 해제한 폴더의 `START_HERE.html`을 브라우저에서 연다. 서버·인터넷·
+   별도 프로그램 설치 없이 자료 탐색 페이지를 사용할 수 있다.
+3. 전체 교육에는 [통합 PPT](../AI_Dev_Training_Full.pptx)를 사용한다.
+   ACT 파일은 구간 연습·별도 열람용이며 통합본과 순서·화면·Notes가 대응한다.
+4. [발표자 Notes](../notes/FULL_SPEAKER_NOTES.md),
+   [예상 질문·답변](../presenter/EXPECTED_QA.md),
+   [사용자 확인 체크리스트](USER_VALIDATION_CHECKLIST.md)를 함께 확인한다.
+   묶음에는 각 Markdown의 읽기용 HTML도 들어 있다.
+
+현재 묶음은 **강사용 준비 자료**다. 청중 배포 대상·경로·범위는 미확정이며,
+이번 작업에서 이메일·클라우드 업로드 등 외부 전달은 수행하지 않았다.
+
+## 2. 정확한 현재 후보
+
+| 항목 | 경로 / SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `9f5e9276a6c197122c31af1fab1dfd22761650355fcacda8d34e70eebaf7fdbd` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `3c4ac90e9137b12be29ad5152376fe37c58209bf8efe320f455982d08b510c13` |
-| Full PNGs | 80 × 1920×1080; individually reviewed |
-| ACT PNGs | 80; identical to their corresponding integrated-deck PNGs |
-| `production/preview/full/montage.png` | 1920×5400; `a676a8b17d2fbe54f8c25d0939d3c2a570c3286aff7c131dcabeceeb037b17ff` |
+| 통합 PPT | `production/AI_Dev_Training_Full.pptx` |
+| PPT SHA-256 | `ef6c5b69a03bf7c243b144f5f7dded018d72dc84cbb657bff044e812557a17d6` |
+| 통합 Notes | `production/notes/FULL_SPEAKER_NOTES.md` |
+| Notes SHA-256 | `c1167e05e9fcd3153ddf59df96c294f185491ae623bdfd43c628ad5b438eabe1` |
+| 전체 montage SHA-256 | `29dbc39cd08765e631753d292c7479c032fd725466b12972f10e44b8a3428e54` |
+| 묶음별 파일 목록·크기·SHA-256 | 저장소의 `delivery/PACKAGE_MANIFEST.json`; ZIP 내부의 `PACKAGE_MANIFEST.json` |
+| ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-19.zip.sha256` |
 
-Current renderer: Artifact Tool reimport of the finalized exact PPTX package.
-Native text/shape objects and the S45 chart are editable. All 80 embedded Notes
-match the 19-field Markdown records. This is not Windows PowerPoint validation.
+Manifest에는 개별 payload 파일의 hash를 기록한다. Manifest 자신과 ZIP의 hash는
+자기참조를 피하기 위해 payload에 포함하지 않는다. ZIP의 hash는 외부 sidecar에서
+확인한다. 문서의 기준 해시와 실제 발표 파일이 다르면 점검 결과를 승계하지 않는다.
 
-Current evidence: [revision review](FULL_DECK_PRESENTATION_REVISION.md),
-[validation record](FULL_DECK_PRESENTATION_REVISION_VALIDATION.json), and
-`demos/runbooks/FALLBACK_MANIFEST.md`.
+## 3. 포함 자료와 보존 범위
 
-Open gates: target Windows/PowerPoint fonts and Slide Show, classroom display,
-product/account/Live path, and timed rehearsal (including S72). Use the static
-fallback by default until its Live gate is explicitly completed. No Demo code,
-State tag, current-product trial, or external delivery was changed/performed.
+- 통합 80장 PPT와 ACT 0–5 PPT 6개. Native text/shape/diagram 및 S45 chart 편집 가능.
+- 통합 Notes와 ACT Notes 6개. 80개 레코드, 각 19개 필드, PPT 내부 Notes와 일치.
+- 통합 PNG 80개와 ACT PNG 80개, 전체/ACT montage. 기존 Notes의 두 경로를 모두 보존.
+- DEMO-01–12 진행 지침(DEMO-04A/04B 분리), LOOP-VISUAL, fallback manifest.
+- 최신 체크리스트·이 전달 안내·25개 예상 질문과 답변.
+- 근거 범위 확인에 필요한 기획·연구 문서와 그 내부 링크 대상. 과거 날짜의
+  Source/Trial 문서는 역사적 근거이며 현재 제품 동작·회사 허용 정책을 보증하지 않는다.
+- 브라우저 시작 화면, 문서 HTML, Slide별 미리보기와 Notes 바로가기.
 
-The earlier Notes status enumeration issue is resolved in this revision. The
-unconfirmed RepoQA venue remains bounded to the existing Research record.
-Follow [USER_VALIDATION_CHECKLIST](USER_VALIDATION_CHECKLIST.md) before delivery.
+교육은 80장 / 순수 360분이다. ACT 시간은 40/55/70/85/80/30분,
+Mode는 Lecture 130 / Demo 73 / Case 83 / Reflection 20 / Transition 22 /
+Q&A 32분이다. 예상 Q&A는 기존 질문 시간에 사용할 예비 답변이며 시간을 추가하지 않는다.
+휴식·점심·장비 준비는 순수 교육 시간에 포함하지 않는다.
 
-## Historical Handoff — Before DEC-0027
+이번 준비에서 PPT·기존 Notes·Slide Map·Claim Freeze·Demo 코드와 State/tag는
+변경하지 않았다. Demo 저장소 자체, `.git`, 제작 코드, 설정·인증 파일, 원본 실행 로그,
+과거 prototype PPT와 캐시는 묶음에 넣지 않는다. 일부 역사적 근거에 기록된 로컬 경로는
+과거 실행 메타데이터이며 발표 기기에서 실행할 경로가 아니다.
 
-Everything below records the prior release. Its hashes, renderer, and limited
-S73/S77 geometry edits do not describe the current artifacts above.
+## 4. Demo 기본 경로
 
-#### Status
+기본은 **기존 기록을 설명하는 정적 PPT/PNG**다. 원본 터미널 캡처나 실행 영상이 아니다.
+[데모 안내](../../demos/runbooks/README.md)에서 시작하고, 문제가 생기면
+[FALLBACK_MANIFEST](../../demos/runbooks/FALLBACK_MANIFEST.md)의 정적 화면으로 돌아간다.
+묶음 시작 화면에는 Demo별 화면과 지침 링크가 있다.
 
-**PARTIAL — READY FOR USER VALIDATION**
+- 과거 Trial은 Codex CLI 0.154.0에서 관찰된 범위로 설명한다. 현재 Desktop·교육 계정의
+  기능이나 동일한 재현 결과로 확대하지 않는다.
+- S55는 관찰된 제품 결과, S56–65는 가상 사례, S66은 교육 모델, S67–71은 실제 제작 Meta 기록이다.
+- S64의 EVAL-01/02는 과거 관찰 참고이며, EVAL-03/04는 설계 사례다. 네 작업 모두
+  Workflow 변경 뒤 새 평가 결과가 없고 PASS/FAIL을 만들지 않는다.
+- S45/S68의 수치는 기록된 코드·입력·환경 범위다. Harness/Skill/Prompt의 단독 효과가 아니다.
+- Live/Hybrid는 현재 비활성이다. 추가할 때 대상 계정·제품·권한·실행 경로·복귀 절차와
+  시간 제한을 따로 확인한다. 정적 설명만 할 때 Live 검증 완료를 요구하거나 주장하지 않는다.
 
-자동화 가능한 로컬 검토·수정·문서화와 저장소 checkpoint가 완료되면 이 문서의 Git 정보를 보완한다. Windows PowerPoint, 실제 교육용 Codex 계정/surface, 교육장 장비, 전체 시간 리허설은 아직 확인되지 않았다. 외부 전달은 수행하지 않았다.
+## 5. 확인된 범위와 남은 사용자 확인
 
-#### Release Candidate
-
-| Artifact | Path | SHA-256 / result |
+| 항목 | 현재 상태 | 필요한 다음 근거 |
 |---|---|---|
-| Integrated deck | `production/AI_Dev_Training_Full.pptx` | `c5e744e36d610e52179ff4f1f6979255a093b3794f83e6fa5b84dfa5cadcf19d` |
-| Full speaker notes | `production/notes/FULL_SPEAKER_NOTES.md` | `96a28847d6f6f9d3f95ed25753d3e94b055653aa4c883f28c7761a445bdfbb1e` |
-| Full preview inventory | `production/preview/full/S01.png`–`S80.png` | 80 files; each 1920×1080 |
-| Montage | `production/preview/full/montage.png` | `43d3cb8b7abacd7aaa1d5aa8770c71c2dca73cac64b03e4d3b6e899c55829eab`; 1920×1600 |
-| S73 render | `production/preview/full/S73.png` | `ae7466663aad459d7ecd21703b5097a6174ac5ee555d6e235125d3168c441c3a` |
-| S77 render | `production/preview/full/S77.png` | `f0dd0398f123cdfb6492e6f9c074a26d1b19039ba0134ccf834b434ff03ba7f2` |
+| DEC-0030 PPTX 구조·로컬 렌더·80장 개별 검토 | COMPLETE, 로컬 범위 | 기존 검토 기록 보존 |
+| 이번 파일 복사·ZIP 무결성·내부 링크·hash 정합성 | LOCAL PACKAGE CHECK | 패키지 생성·확인 기록 참조 |
+| 발표 PC / Windows PowerPoint / 글꼴 / 발표자 모드 | UNVERIFIED | 대상 장비에서 열기·저장·재열기·발표 모드 확인 |
+| 발표 기기에서 오프라인 열기·fallback 복귀 | UNVERIFIED | 실제 기기에서 파일 열기와 다음 화면 전환 |
+| 교육장·프로젝터·뒤쪽 좌석 가독성 | UNVERIFIED | 실제 화면·거리에서 점검 |
+| 현재 제품·계정·Live/Hybrid 경로 | UNVERIFIED, 사용할 때 확인 | 선택한 환경과 동작·권한·복귀 기록 |
+| 전체 360분 및 S54/S72 운영 | UNVERIFIED | 강사 직접 시간 측정 리허설 |
+| 최종 배포 대상·경로·공개 범위·승인 | UNVERIFIED | 사용자 결정 및 명시 승인 |
 
-Renderer: Keynote 14.4 PDF export followed by macOS Quartz/CoreGraphics rasterization at 1920×1080. Host: macOS 26.6.2 (25G83). The temporary PDF and rendering scripts are not release artifacts. The preview was regenerated from the listed integrated-deck hash; Windows PowerPoint compatibility is not inferred from this render.
+S54: Reflection 3 → Q&A 5 → Transition 2분.
+S72: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
+청중 질문이 없는 상황의 대체 질문과 cutoff도 실제로 연습한다.
 
-#### Local Work Completed
+실환경·리허설 확인은 [체크리스트](USER_VALIDATION_CHECKLIST.md)에 장비·버전·날짜·
+문제 Slide·근거 경로와 함께 기록한다. 새 파일로 바뀌면 영향받는 확인을 다시 수행한다.
 
-- Reviewed the complete 80-slide render and integrated deck. Corrected only the integrated-deck geometry on S73 and S77 to bring the card row/callout within the established safe area. Updated those two PNGs and the montage. ACT source PPTX files, slide wording, notes, story, evidence, claims, IDs, timings, and modes remain unchanged.
-- Checked the Office package: 373 ZIP entries; CRC check passed; 373 XML/relationship parts parsed; no missing internal relationship targets. `python-pptx` opened the deck with 80 slides at 16:9.
-- Compared integrated slide text and embedded notes against ACT 0–5 source PPTX files: all 80 records matched. No ACT source deck was edited.
-- Reconciled `plan/SLIDE_MAP.md`: 80 slides; ACT counts 9/12/15/18/18/8; ACT minutes 40/55/70/85/80/30; total 360. Mode totals match Lecture 130, Demo 73, Case 83, Reflection 20, Transition 22, Q&A 32. Each slide's mode total equals its allocation.
-- Confirmed 80 Notes records with all 19 fields present and non-empty, and full Markdown/embedded-note content aligned. Two source issues are preserved and disclosed: 26 Validation Status fields in S55–S80 are freeform rather than the frozen status enumeration; S29's Research source retains a TODO about the RepoQA venue. Neither was silently rewritten.
-- Added one operational runbook for each numbered Demo path (DEMO-04 split into DEMO-04A and DEMO-04B) and for LOOP-VISUAL. The runbooks use existing plan/Trial/state evidence only and point to static fallbacks; they do not execute an Agent or create a new Trial.
-- Built a SHA-256 fallback manifest for 29 slide renders used by the runbooks. The fallback status is limited to local static playback. Raw terminal captures are not implied or fabricated.
-- Ran the Demo repository's existing test suite read-only: 11 tests passed. Demo HEAD, branch, tags, no-remote configuration, and clean working tree were checked; the Demo repository was not modified.
+## 6. 근거와 이력
 
-#### Known Local Layout Corrections
+- [현재 전체 검토](FULL_DECK_PRESENTATION_POLISH.md)와 [검증 기록](FULL_DECK_PRESENTATION_POLISH_VALIDATION.json)
+- [패키징 결과](PRESENTER_PACKAGE_RESULT.md)
+- [Slide Map](../../plan/SLIDE_MAP.md), [Claim Freeze](../../plan/CLAIM_FREEZE.md),
+  [결정 이력](../../plan/DECISIONS.md)
+- 이 문서의 이전 DEC-0027/그 이전 전달 기록은 Git `a252c49`의 같은 경로에 보존된다.
+  그 기록의 이전 해시·렌더러·S73/S77 수정 설명은 현재 후보를 설명하지 않는다.
 
-- S73's five-card recap and connectors were positioned inside the existing safe area; right edge is approximately 12.46 inches on a 13⅓-inch slide.
-- S77's callout was moved left inside the same safe area; right edge is approximately 12.45 inches.
-- These are geometry-only repairs in `production/AI_Dev_Training_Full.pptx`. Local Mac rendering and ACT source comparisons passed. This does not establish Windows rendering or room-distance readability.
-
-#### Demo State Preservation
-
-The Demo repository remains read-only at `/Users/noah/workspace/education/ai-dev-training-demo`. Existing tags remain present: `STATE-00`, `STATE-00-FIXED`, `STATE-01`, `STATE-02`, `STATE-03`, `STATE-04`, `STATE-04-PERF`. No remote was added and no tag was moved.
-
-#### Open User Gates
-
-1. Open/save/reopen/Slide Show the exact candidate on the target Windows PowerPoint build; inspect fonts, Korean, code, Notes, margins, and the focused Slide list in the validation checklist.
-2. Select and verify the actual education Codex account/surface and permissions. Keep Live/Hybrid disabled until its target-specific path and fallback are rehearsed.
-3. Test the deck and fallback on the actual room display/projector.
-4. Rehearse the full 360-minute schedule, including S54 order and S72's 20-minute operation. Timings remain unverified until measured.
-5. Review the two Notes-schema/open-source items if they affect production. Do not infer or invent missing source facts.
-6. Obtain explicit approval for any protected plan change or external delivery.
-
-Detailed steps and evidence fields: `production/evaluation/USER_VALIDATION_CHECKLIST.md`.
-Runbooks and fallback files: `demos/runbooks/README.md` and `demos/runbooks/FALLBACK_MANIFEST.md`.
-Execution evidence: `production/evaluation/MASTER_EXECUTION_STATUS.md`.
-
-#### Git Checkpoint
-
-Training repository: existing `main` branch and existing `origin` only; force push prohibited. Geometry-only commit: `8b082b95b58a6dc48a42f251ea1e013c2c013414`. Runbooks and handoff commit: `4132d626d12fa6b22550e3ac6d7b5e7389b093a8`. That push succeeded and `origin/main` matched its SHA after push. The final status-record commit containing this handoff is also pushed; its SHA is reported in the final task result. Git checkpointing does not approve classroom deployment or external delivery.
-
-#### Use Before Validation
-
-Use the integrated PPTX for the full presentation. For an offline fallback, open the PNGs listed by the runbook and manifest. Explain only the Evidence and Claim boundary written in that runbook. If a target environment differs or a source cannot be opened, stop the Live path and return to the static slide fallback; do not generate new evidence during class.
+패키징 기준은 DEC-0031이며 기존 `origin/main`에 기록한다. 저장소 push는
+현장 검증 통과나 청중 대상 전달 완료를 뜻하지 않는다.

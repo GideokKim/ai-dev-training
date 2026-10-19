@@ -4,7 +4,8 @@ Status: READY for local offline static slide-render playback only. This is not a
 
 ## Provenance
 
-- Fallback render verification date: 2026-10-18 (Asia/Seoul).
+- Last rendering review: 2026-10-19 (Asia/Seoul), DEC-0030; see `production/evaluation/FULL_DECK_PRESENTATION_POLISH.md`.
+- Packaging file-identity/path check: 2026-10-19. Target-PC offline playback and rehearsal remain UNVERIFIED.
 
 - Source: `production/AI_Dev_Training_Full.pptx`
 - Source SHA-256: `ef6c5b69a03bf7c243b144f5f7dded018d72dc84cbb657bff044e812557a17d6`
