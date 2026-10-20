@@ -7,6 +7,8 @@ DEC-0029 completes the remaining approved candidates S03/S57/S74. S41 retains
 its labeled reconstruction because no original execution capture is available.
 DEC-0030 applies the fourteen approved presentation improvements to 32 slides,
 keeping all source mappings, time allocations and evidence boundaries.
+DEC-0032 improves the reviewed adjacent-slide handoffs and private closing
+reflection through the same factories, preserving all protected fields.
 They use `@oai/artifact-tool`; text, diagrams and the S45 chart remain native
 PowerPoint elements. Comparison rows are editable text and rule objects, not
 flattened images. Content authority stays in `plan/`, and Notes are

@@ -96,7 +96,7 @@ export const slides = {
   },
   S09: (p, H) => {
     const { C, text, line } = H;
-    const s = H.frame(p, 'S09', 'Repository를 보면 내가 원하는 것까지 알까?', 'ACT 0 · 다음 질문', '함께 생각해 보기 · 교육 모델', '현재 맡기고 싶은 일을 떠올려 보세요. 질문과 경험 공유는 자발적으로 진행합니다.');
+    const s = H.frame(p, 'S09', 'Repository를 보면 내가 원하는 것까지 알까?', 'ACT 0 · 내 작업에 적용할 질문', '함께 생각해 보기 · 교육 모델', '현재 맡기고 싶은 일을 떠올려 보세요. 질문과 경험 공유는 자발적으로 진행합니다.');
     text(s, '지금 이 저장소에\n어떤 일을 맡기고 싶으신가요?', 64, 245, 1010, 144, 45, C.ink, true);
     text(s, '?', 1080, 250, 130, 140, 112, C.teal, true);
     line(s, 64, 445, 1152);
@@ -115,7 +115,7 @@ export const slides = {
   },
   S11: (p, H) => {
     const { C, text, line, rect } = H;
-    const s = H.frame(p, 'S11', '요청만으로는 의도가 보이지 않는다', 'ACT 1 · 요청에 남아 있는 결정', '교육용 구성 사례 · TRIAL-002의 실제 Prompt가 아님', '짧은 요청을 비난하거나 이 요청이 특정 실패를 만들었다고 주장하지 않습니다.', 'CONCEPTUAL');
+    const s = H.frame(p, 'S11', '요청만으로는 의도가 보이지 않는다', 'ACT 1 · 앞서 본 crop 사례로 좁히기', '교육용 구성 사례 · TRIAL-002의 실제 Prompt가 아님', '짧은 요청을 비난하거나 이 요청이 특정 실패를 만들었다고 주장하지 않습니다.', 'CONCEPTUAL');
     text(s, '“crop test 고쳐줘”', 64, 228, 1152, 74, 50, C.ink, true);
     text(s, '테스트를 바꿀까?', 64, 344, 546, 58, 38, C.teal, true);
     text(s, '구현을 바꿀까?', 704, 344, 512, 58, 38, C.teal, true);
@@ -134,6 +134,7 @@ export const slides = {
   S13: (p, H) => {
     const { C, text, rect, line } = H;
     const s = H.frame(p, 'S13', 'Task Specification의 다섯 책임', 'ACT 1 · 작업을 구체화하는 틀', '이 과정의 교육 모델 · 공식 OpenAI 분류나 모든 작업에 대한 법칙이 아님', '다섯 항목은 서로 분리된 기능이 아니라 하나의 작업 요청에 담는 책임입니다.');
+    text(s, '앞의 질문을 묶고, 필요한 맥락과 작업 과정을 명시한다', 64, 164, 1152, 30, 23, C.sub);
     rect(s, 64, 226, 1152, 354, C.white, C.line, 1);
     const items = [['목표', 'Goal', '어떤 결과를 바꿀까?'], ['맥락', 'Context', '이 작업에 필요한 사실은?'], ['제약', 'Constraints', '무엇을 보존할까?'], ['과정', 'Process', '어떤 순서·경계를 지킬까?'], ['검증', 'Verification', '무엇으로 완료를 확인할까?']];
     items.forEach((a, i) => { const y = 242 + i * 65; text(s, a[0], 88, y, 145, 45, 31, C.teal, true); text(s, a[1], 253, y, 263, 45, 28, C.sub); text(s, a[2], 570, y, 618, 45, 31, C.ink); if (i < 4) line(s, 88, y + 53, 1100); });
@@ -159,12 +160,12 @@ export const slides = {
   },
   S15: (p, H) => {
     const { C, text, line, arrow } = H;
-    const s = H.frame(p, 'S15', '먼저 무엇을 하는지 보자', 'ACT 1 · 수정 전 행동 관찰', 'TRIAL-002 관찰 기준 · 2026-09-28 · Codex CLI 0.154.0 · macOS', '단일 과거 CLI 기록을 살펴봅니다. 현재 Desktop 실행이나 반복성을 입증하지 않습니다.', 'OBSERVED_PRODUCT');
-    text(s, '“이 요청을 받으면 수정부터 시작할까?”', 64, 240, 1152, 65, 40, C.ink, true);
+    const s = H.frame(p, 'S15', '먼저 무엇을 하는지 보자', 'ACT 1 · TRIAL-002 관찰 시작', 'TRIAL-002 관찰 기준 · 2026-09-28 · Codex CLI 0.154.0 · macOS', '단일 과거 CLI 기록을 살펴봅니다. 현재 Desktop 실행이나 반복성을 입증하지 않습니다.', 'OBSERVED_PRODUCT');
+    text(s, '“실제 기록에서는 수정 전에 무엇을 했을까?”', 64, 240, 1152, 65, 40, C.ink, true);
     const items = [['재현', '실패 확인'], ['조사', '근거 연결'], ['계획', '수정 전 설명'], ['수정', '최소 변경'], ['검증', '결과 확인']];
     items.forEach((a, i) => { const x = 64 + i * 234; text(s, String(i + 1).padStart(2, '0'), x, 357, 185, 36, 28, C.sub); text(s, a[0], x, 405, 185, 50, 35, i === 2 ? C.teal : C.ink, true); text(s, a[1], x, 474, 185, 40, 28, C.sub); if (i < 4) arrow(s, x + 186, 424, 25, 17); });
     line(s, 64, 548, 1152);
-    text(s, '다음 두 장에서 요청한 흐름과 기록된 행동을 대조한다.', 64, 558, 1152, 39, 28, C.teal, true);
+    text(s, '다음 두 장에서 TRIAL-002의 요청 흐름과 행동을 대조한다.', 64, 558, 1152, 39, 28, C.teal, true);
     return s;
   },
   S16: (p, H) => {
@@ -216,7 +217,7 @@ export const slides = {
   S20: (p, H) => {
     const { C, text, line } = H;
     const s = H.frame(p, 'S20', '이번 Task인가,\n계속 유지할 Project 정보인가?', 'ACT 1 · 반복해서 쓰는 정보 돌아보기', '생각해 보기 · 이 과정의 교육 모델', '1분 동안 개인적으로 생각한 뒤 2분간 자발적인 질문을 받습니다.');
-    text(s, '최근 요청에 썼던 문장 하나를 떠올려 보세요.', 64, 233, 1152, 53, 33, C.ink, true);
+    text(s, '테스트·보존 조건처럼, 반복해서 쓴 문장을 떠올려 보세요.', 64, 233, 1152, 53, 33, C.ink, true);
     text(s, '이번 작업에만?', 64, 355, 542, 60, 38, C.teal, true);
     text(s, '다음 작업에도?', 704, 355, 512, 60, 38, C.teal, true);
     line(s, 64, 485, 542, C.line, 2); line(s, 704, 485, 512, C.line, 2);

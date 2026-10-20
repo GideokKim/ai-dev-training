@@ -6,6 +6,8 @@ Authority: plan/SLIDE_MAP.md, plan/SLIDE_TEMPLATE_MAP.md, plan/VISUAL_SPEC.md, p
 
 All eight slides use the approved 19-field schema. The revision builder reads these records for embedded PowerPoint Notes; parity must be checked on the final export.
 
+Continuity revision: DEC-0032 (2026-10-20). Current handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
+
 ## S73 — 여섯 시간의 Story를 한 장으로
 
 **Slide ID:**
@@ -58,7 +60,7 @@ TEACHING_MODEL · BEAT-060 · 앞선 ACT의 Story callback. 새 Demo는 실행�
 Opening question을 띄우고 개인적으로 떠올리게 한다. 답변이나 현재 수준 발표를 요구하지 않는다.
 
 **Transition:**
-“이 흐름이 하나의 Repository에서는 어떤 변화로 기록됐을까요?” S74로 넘긴다.
+“전체 교육 모델 가운데, 하나의 Repository에서 실제로 확인한 변화만 다시 보겠습니다.” S74로 넘긴다.
 
 **Time Management:**
 총 4분, Lecture 4분. 각 단계 설명을 한 문장에 제한하고 앞선 ACT 내용을 다시 강의하지 않는다.
@@ -87,7 +89,7 @@ Opening Question: “이 Repository는 어떤 문제를 만나며 바뀌었나?�
 
 Speaker Flow:
 
-1. (0:00–1:00 / Lecture) 일곱 이름을 번호·화살표 순서로 읽는다. 상단 왼쪽에서 오른쪽으로, 다음 하단 오른쪽에서 왼쪽으로 이동한다. State는 당시 문제에 대응한 이력임을 말한다.
+1. (0:00–1:00 / Lecture) 전체 교육 모델 가운데 실제 Product 이력만 회수하는 장임을 안내한다. 일곱 이름을 번호·화살표 순서로 읽고, 상단 왼쪽에서 오른쪽으로, 다음 하단 오른쪽에서 왼쪽으로 이동한다. State는 당시 문제에 대응한 이력임을 말한다.
 2. (1:00–2:30 / VISUAL Demo) 아래 세 발췌(S16 crop 수정, S32 상세 문서 분리, S45 같은 조건의 성능 비교)를 가리키며 위의 일곱 State 변화와 연결한다. 작은 그림은 기억을 회수하는 용도이며 코드·경로·수치를 다시 읽는 시간이 아니다.
 3. (2:30–3:00 / VISUAL Demo) STATE-04-PERF의 bounded endpoint에서 닫는다. Benchmark 준비 commit은 추가 State가 아니다.
 
@@ -167,7 +169,7 @@ OBSERVED_PRODUCT / TEACHING_MODEL · STATE-04-PERF와 DEC-0018. 사용한 요소
 차이를 보고 “Use what the problem justifies”라는 기준을 가져간다. 도구 선택 답변이나 투표는 요구하지 않는다.
 
 **Transition:**
-“AI에게 더 많은 일을 맡겨도 개발자에게 남는 책임은 무엇일까요?” S76으로 이동한다.
+“필요한 구성요소를 선택한 뒤에도, 그 결과가 충분한지 판단하는 책임은 남습니다. 무엇을 확인하고 완료를 수용해야 할까요?” S76으로 이동한다.
 
 **Time Management:**
 Lecture 2분. 구성요소를 다시 강의하지 않고 판단 근거와 범위에 집중한다.
@@ -202,7 +204,7 @@ Agent는 조사·생성·변경·실행·비교를 도울 수 있다. 개발자�
 “AI가 더 많은 일을 맡아도 개발자가 계속 책임지는 것은 무엇인가?”
 
 **Speaker Flow:**
-1. (0:00–0:40 / Lecture) AI가 도울 수 있는 행동은 상단 한 문장으로만 읽는다.
+1. (0:00–0:40 / Lecture) S75의 구성요소 선택에서 결과를 수용하는 판단으로 이어 간다. AI가 도울 수 있는 행동은 상단 한 문장으로만 읽는다.
 2. (0:40–2:20 / Lecture) 네 질문을 차례로 짚는다: 해결할 목표, 적절한 선택, 확인 근거, 완료 수용 여부.
 3. (2:20–3:00 / Lecture) 역할의 절대적 분업이 아니라 개발자의 판단과 책임을 강조하고 S77의 운영 모델로 연결한다.
 
@@ -330,7 +332,7 @@ Task, Context, Workflow, Verification, Repeated Failure Loop 중 현재 가장 �
 **Speaker Flow:**
 1. (0:00–1:00 / Case) C++ Vision의 병목 범위, 빌드 조건·계약·하드웨어 가정, 분석·측정 절차를 업무에 비춰 보는 교육용 예시라고 밝힌다. 실제 프로젝트 사건이 아니다.
 2. (1:00–3:00 / Transition) 다섯 행의 증상 질문을 읽으며 현재 자기 업무와 가까운 것이 있는지 마음속으로 떠올리게 한다. 같은 수준의 선택지이며 반드시 위에서부터 도입하는 순서가 아니다.
-3. (3:00–5:00 / Transition) Task/Context/Workflow/Verification/Feedback의 새 개념 설명은 하지 않고 S79의 개인 성찰 세 질문으로 좁혀 준다.
+3. (3:00–5:00 / Transition) 떠올린 마찰 한 곳을 다음 작업의 작은 행동 하나로 좁히겠다고 안내하고 S79의 세 질문으로 연결한다. Task/Context/Workflow/Verification/Feedback의 새 개념 설명은 하지 않는다.
 
 화면 진행: 자기 업무의 반복 마찰 한 곳을 고르는 적용 질문에 집중한다. 모든 Layer를 도입하라는 체크리스트로 읽지 않고 현재 문제와 가장 가까운 한 곳만 고르게 한다.
 
@@ -356,7 +358,7 @@ Primary bridge. 예시: 성능 병목 조사 Task; build mode/algorithm contract
 선택지를 강사 주도로 비교한다. 청중에게 선택 발표, 투표, 실습, 제출을 요구하지 않는다.
 
 **Transition:**
-“마지막으로, 각자 업무에서 반복되는 마찰을 개인적으로 생각해 봅시다.” S79로 이동한다.
+“방금 떠올린 한 곳에서, 다음 작업 때 다르게 해 볼 작은 행동 하나를 마음속으로 골라 봅시다.” S79로 이동한다.
 
 **Time Management:**
 Case 1분 + Transition 4분 = 5분. Transition 동안 새 사례를 열지 않고 reflection handoff만 수행한다.
@@ -388,12 +390,12 @@ Lecture 2분 + Reflection 2분
 반복해서 적는 설명, AI가 다시 찾는 Project 사실, 반복되는 실패에서 고칠 System layer 가운데 한 가지를 생각한다.
 
 **Opening Question:**
-“내가 AI와 개발하는 방식에서 다음에 바꿀 수 있는 것은 무엇인가?”
+“방금 떠올린 마찰에서, 다음 작업 때 다르게 해 볼 작은 행동 하나는 무엇인가?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) S78에서 떠올린 반복 마찰을 이어 간다.
-2. (1:00–2:00 / Lecture) 화면의 반복 설명, 재탐색하는 프로젝트 사실, 두 번째 실패의 수정 위치 세 질문을 차례로 읽는다.
-3. (2:00–4:00 / Reflection) 두 분 동안 조용히 개인적으로 생각할 시간을 둔다. 답변·기록·발표·제출을 요구하지 않는다. 시간 뒤 S80 질문 시간으로 넘어간다.
+1. (0:00–1:00 / Lecture) S78에서 떠올린 반복 마찰 한 곳을 이어 받아, 다음 작업에서 다르게 해 볼 작은 행동 하나를 고르는 시간이라고 안내한다.
+2. (1:00–2:00 / Lecture) 화면의 반복 설명 하나를 줄이는 방법, 다시 찾는 프로젝트 사실 하나를 둘 곳, 같은 실패 때 먼저 확인할 Layer의 세 질문을 읽는다. 자신과 가까운 질문 하나를 바탕으로 다음 행동을 떠올리게 한다.
+3. (2:00–4:00 / Reflection) 두 분 동안 다음 행동 하나를 조용히 개인적으로 고를 시간을 둔다. 답변·기록·발표·제출을 요구하지 않는다. 시간 뒤 S80 질문 시간으로 넘어간다.
 
 화면 진행: 이번 장은 개인적인 선택을 위한 침묵을 허용한다. 앞의 여정·State·모델을 다시 강의하지 않고 작은 다음 행동 하나를 생각하게 한다. 답변·공유·공개 약속은 요구하지 않는다.
 
@@ -416,7 +418,7 @@ TEACHING_MODEL · 승인된 private reflection prompt. 개인 업무에 대한 �
 N/A — 별도 Demo 없음.
 
 **Audience Interaction:**
-공유하지 않는 개인 성찰로 진행한다. 응답을 받기 위해 기다리지 않는다. 2분 뒤 바로 S80으로 이동한다.
+떠올린 마찰에 맞는 다음 행동 하나를 마음속으로 고르는 개인 성찰로 진행한다. 공유나 실천 약속을 요구하지 않고 응답을 받기 위해 기다리지 않는다. 2분 뒤 바로 S80으로 이동한다.
 
 **Transition:**
 “이제 질문을 받고, 마지막 공통 모델로 마무리하겠습니다.” S80으로 넘긴다.

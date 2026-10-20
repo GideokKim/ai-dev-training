@@ -4,6 +4,8 @@ Status: REVIEWED — accepted presentation revision. Source, screen cues, and op
 
 Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`, `plan/VISUAL_SPEC.md`, `plan/VISUAL_TEMPLATE_FREEZE.md`, `plan/SPEAKER_NOTES_ARCHITECTURE.md`, `plan/SPEAKER_NOTES_FREEZE.md`, `plan/PRODUCTION_PLAN.md`, `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, `plan/DEMO_RUNBOOK_SPEC.md`, and `plan/DECISIONS.md`.
 
+Continuity revision: DEC-0032 (2026-10-20). Current handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
+
 ## S37 — 서로 다른 Performance Task, 반복되는 절차
 
 Slide ID: S37
@@ -24,7 +26,7 @@ Speaker Flow:
 
 1. (0:00–2:00) 처음 30초에 그림으로 작업 대상을 확인한다. 왼쪽은 크기 변경, 오른쪽은 선언된 max_value를 255로 스케일하는 값 범위 변환이다. 0→0, 2048→128, 4095→255를 설명할 수 있지만 화질 개선으로 표현하지 않는다. 이어 두 Task goal을 비교한다.
 2. (2:00–4:00) 두 기록에 반복된 baseline, 조사, 계획, 변경, test, benchmark, 비교, review를 강조한다.
-3. (4:00–5:00) 반복 관찰과 원인 귀속을 분리하고 Prompt-only attribution이 PARTIAL임을 밝힌다.
+3. (4:00–5:00) 반복 관찰과 원인 귀속을 분리하고 Prompt-only attribution이 PARTIAL임을 밝힌다. 앞 ACT에서 남긴 질문을 회수해, 서로 다른 목표에서도 같은 조사·검증 절차가 다시 쓰였다는 점을 다음 설계 문제로 삼는다.
 
 화면 진행: 상단 두 그림은 목표 차이만 짧게 확인한다. 이후 중앙의 공통 절차를 Baseline부터 Review까지 차례로 가리키며 두 Task에서 반복된 부분을 본다. 그림은 실제 입출력이나 성능 전후 비교가 아니다.
 
@@ -88,7 +90,7 @@ Demo Operation: N/A.
 
 Audience Interaction: 세 질문과 항목을 조용히 따라오게 한다. 분류 실습은 요구하지 않는다.
 
-Transition: “작업 방법도 Repository가 재사용할 수 있을까?”
+Transition: “이 세 책임을 normalize 성능 조사 하나에 함께 적용해보겠습니다.”
 
 Time Management: 4분 동안 세 질문의 책임만 구분한다. Harness 전체 정의는 아직 제시하지 않는다.
 
@@ -110,11 +112,11 @@ Mode Split: Lecture 5 minutes
 
 Primary Message: Task Prompt는 현재 목표, Project Context는 사실과 제약, Reusable Workflow는 특정 작업을 수행하는 방법을 담는다.
 
-Opening Question: “현재 목표, Project 사실, 반복 절차는 어디에 속하는가?”
+Opening Question: “normalize 성능 조사 하나에 적용하면, 현재 목표와 Project 사실, 반복 절차는 각각 무엇일까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 첫 행의 normalize 성능 조사로 이번 Task 목표를 설명한다.
+1. (0:00–1:00) 앞 장에서 나눈 세 책임을 normalize 성능 조사라는 한 Task에 함께 적용한다. 첫 행을 이번 Task의 목표로 읽고, 아래 두 행은 그 목표를 수행할 때 지킬 사실과 재사용할 절차로 연결한다.
 2. (1:00–2:30) 둘째 행에서 기존 이미지 동작과 공개 계약은 작업 중 지켜야 할 Project Context임을 짚는다.
 3. (2:30–4:00) 셋째 행의 baseline → 조사 → 검증 → 비교를 재사용 Workflow와 연결한다.
 4. (4:00–5:00) 세 책임의 위치가 Prompt 밖일 수 있다는 것과 책임이 같다는 것을 구분한다.
@@ -224,7 +226,7 @@ Demo Operation: 기본 경로는 재구성된 TRIAL-008 기록이다. 실제 Cod
 
 Audience Interaction: 발견, 명시적 호출, 본문 확인의 세 단계를 따라오게 한다. 조작을 요구하지 않는다.
 
-Transition: “호출한 뒤 작업 Prompt에서는 무엇이 달라졌을까?”
+Transition: “다음에는 normalize와 image_statistics의 요청을 비교하겠습니다. 목표가 다른 두 Task에서 공통 절차를 어디에 두었는지 보겠습니다.”
 
 Time Management: 발견 1.5분, 호출·본문 근거 1.5분, 범위 제한 1분. 실시간 제품 설명을 추가하지 않는다.
 
@@ -246,11 +248,11 @@ Mode Split: Demo 3 minutes (HYBRID planned; activation unverified) + Case 3 minu
 
 Primary Message: TRIAL-007의 긴 Prompt가 포함하던 절차를 TRIAL-008에서는 명시적으로 호출한 Skill에 맡기고 Prompt에는 목표와 Task별 제약을 남겼다.
 
-Opening Question: “같은 작업 절차를 매번 Prompt에 길게 적어야 할까?”
+Opening Question: “목표가 다른 두 성능 Task에서도, 공통 절차를 둔 위치는 어떻게 달랐을까?”
 
 Speaker Flow:
 
-1. (0:00–1:30) TRIAL-007의 goal, 제약, 긴 procedure를 요약한다.
+1. (0:00–1:30) normalize와 image_statistics는 목표가 다른 Task이므로 성능 결과를 맞대는 장이 아님을 밝힌다. 두 요청에서 공통 절차를 어디에 두었는지에 초점을 맞추고, TRIAL-007의 goal, 제약, 긴 procedure를 요약한다.
 2. (1:30–3:00) TRIAL-008의 goal, Task별 제약, 명시적 Skill 호출을 비교한다.
 3. (3:00–5:00) 양쪽에 반복된 baseline, 조사, test, benchmark, compare, review를 잇는다.
 4. (5:00–6:00) 책임 위치 변화만 관찰됐고 토큰 절감은 측정되지 않았다고 정리한다.
@@ -389,7 +391,7 @@ Speaker Flow:
 1. (0:00–1:00) 이전 장의 후보 선택을 회수한다. 정식 STATE-04 baseline에서 변경한 결과이며 TRIAL-008의 후보 수치를 재사용한 것이 아님을 밝힌다.
 2. (1:00–2:30) 0에서 시작하는 실행 시간 막대를 변경 전 15.468 → 변경 후 10.769 ms/call 순서로 가리킨다. 동일 입력에서 상태별 7회 one-call 측정의 중앙값이다.
 3. (2:30–3:30) Python 할당 피크 6,675,804 → 380 bytes를 보여준다. 평탄화 임시 리스트 제거와 연결하되 프로세스 전체 메모리(RSS)나 일반 성능 보장으로 확대하지 않는다.
-4. (3:30–5:00) 집중 Test 1/1, 전체 11/11, CLI와 입력/결과 guard 통과를 확인한다. 이 결과가 Harness/Skill 단독 인과효과를 입증하지 않음을 말하고 Subagent 필요성 질문으로 넘긴다.
+4. (3:30–5:00) 집중 Test 1/1, 전체 11/11, CLI와 입력/결과 guard 통과를 확인한다. 이 결과가 Harness/Skill 단독 인과효과를 입증하지 않음을 말한다. 이 확인된 결과를 기준으로 다음 구간에서는 추가 구조가 필요했는지 점검하며, 먼저 Agent를 더 나눌 근거가 있었는지 묻는다.
 
 Evidence / Source: `plan/DEMO_MATRIX.md` STEP 07 §§191–200, STATE-04 → STATE-04-PERF; `plan/CLAIM_FREEZE.md` §8; DEC-0019. Baseline `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`, result `6153b81c0187dd7d82c88bd1817fb683c98eb431`; `image_statistics`; deterministic synthetic 1024×768, 786,432 pixels, max255; CPython3.9.6 / macOS26.6.2 arm64; same input fingerprint, seven one-call samples per state. Median 15.468→10.769 ms/call; separate tracemalloc call peak 6,675,804→380 bytes; six-field result guard, focused1/1, full11/11, CLI smoke PASS. TRIAL-008 is candidate history only.
 
@@ -405,7 +407,7 @@ Demo Operation: `production/ACT_3.pptx`의 S45 및 `production/preview/act3/S45.
 
 Audience Interaction: Case로 측정 조건과 verification을 짚고 일반화하지 않도록 안내한다.
 
-Transition: “이 결과를 위해 Subagent도 필요했을까?”
+Transition: “검증된 결과를 기준으로, Agent를 더 나눌 필요도 있었는지 점검해보겠습니다.”
 
 Time Management: 5분을 metric 2.5분, test/CLI guards 1.5분, attribution limit 1분으로 나눈다.
 
@@ -427,11 +429,11 @@ Mode Split: Demo 3 minutes (VISUAL) + Q&A 1 minute
 
 Primary Message: 현재 performance 작업은 하나의 Agent가 처리할 수 있었고 별도 Context의 병렬화 이득이 작아 Subagent를 정당화하지 않았다.
 
-Opening Question: “성능 작업을 여러 Agent로 나누는 게 이 사례에 도움이 됐을까?”
+Opening Question: “이미 확인한 결과에 이르기 위해, 여러 Agent로 일을 나누는 추가 구조도 필요했을까?”
 
 Speaker Flow:
 
-1. (0:00–1:00 / Demo) 조사 → 변경 → 검증을 왼쪽부터 가리킨다. 뒤 단계가 앞 결과를 사용하는 현재 성능 Task의 의존 관계다.
+1. (0:00–1:00 / Demo) 앞 장에서 검증한 성능 Task로 돌아와 추가 구조의 필요성을 점검한다고 밝힌다. Subagent는 일을 다른 Agent에 나누는 선택이라는 뜻으로 짧게 설명하고, 조사 → 변경 → 검증을 왼쪽부터 가리킨다. 뒤 단계가 앞 결과를 사용하는 현재 Task의 의존 관계다.
 2. (1:00–3:00 / Demo) 작업 독립성, 병렬 이득, 결과 통합 비용을 기준으로 이번 사례에서 Subagent 추가 근거가 부족했음을 설명한다.
 3. (3:00–4:00 / Q&A) 질문이 없으면 ‘어느 단계를 독립 실행할 수 있었나?’를 묻는다. 일반적 Subagent 불필요 주장으로 확장하지 않는다.
 
@@ -477,7 +479,7 @@ Speaker Flow:
 
 1. (0:00–1:00 / Lecture) 실제 Demo가 아닌 조건부 C++ 조사 예시라고 먼저 밝힌다.
 2. (1:00–3:00 / Demo) 성능 경로, 빌드 환경, 테스트 구조 조사가 서로 결과를 기다리지 않아도 된다는 가정을 비교한다. 세 화살표가 모이는 하단에서 결과 형식, 전달 지점, 합칠 책임을 시작 전에 정할 필요를 짚는다.
-3. (3:00–4:00 / Q&A) 질문이 없으면 ‘결과를 합칠 책임자는 누구인가?’를 묻는다. 작업과 Context가 강하게 연결되거나 조정 비용이 크면 보류한다고 닫는다.
+3. (3:00–4:00 / Q&A) 질문이 없으면 ‘결과를 합칠 책임자는 누구인가?’를 묻는다. 작업과 Context가 강하게 연결되거나 조정 비용이 크면 보류한다고 닫는다. 추가 구조의 필요성 점검을 이어가되, 다음에는 일을 나누는 문제에서 지식을 별도로 보존할 필요로 질문을 바꾼다.
 
 Evidence / Source: BEAT-023–025, DEC-0018. TEACHING_MODEL; hypothetical C++ case.
 
@@ -493,7 +495,7 @@ Demo Operation: Conceptual decision visual. Subagent 제품 실행이나 지원 
 
 Audience Interaction: Q&A 1분. 질문이 없으면 “결과를 합칠 책임자는 누구인가?”를 fallback 질문으로 사용한다.
 
-Transition: “반복 절차 말고, 다시 찾기 어려운 지식도 남길 필요가 있었을까?”
+Transition: “Agent를 나눌 필요를 봤으니, 이번에는 다음 작업을 위해 지식을 별도로 남길 필요도 있었는지 점검해보겠습니다.”
 
 Time Management: 세 조건, 보류 신호, 가정 예시를 각 한 번만 다룬다.
 
@@ -515,11 +517,11 @@ Mode Split: Demo 2 minutes (VISUAL) + Case 2 minutes
 
 Primary Message: 현재 Demo의 계약·명령·구조·절차·Trial 기록은 각각 유지 중인 Source of Truth에 있었고, 별도 Memory 후보는 발견되지 않았다.
 
-Opening Question: “다음 작업에서 다시 발견하기 어려운 지식은 무엇일까?”
+Opening Question: “다음 작업을 위해, 기존 출처와 별도로 보존할 지식도 있었을까?”
 
 Speaker Flow:
 
-1. (0:00–2:00 / Demo) 네 행의 질문을 실제 유지 위치에 연결한다. crop 계약은 코드/계약 문서, 모듈 순서는 architecture, 조사 절차는 Skill, 측정 결과는 날짜 있는 Trial/Git 기록이다.
+1. (0:00–2:00 / Demo) 앞의 Agent 분리 검토에 이어, 이번에는 지식을 별도로 남길 필요를 점검한다고 밝힌다. 먼저 기존 출처를 찾으며 네 행의 질문을 실제 유지 위치에 연결한다. crop 계약은 코드/계약 문서, 모듈 순서는 architecture, 조사 절차는 Skill, 측정 결과는 날짜 있는 Trial/Git 기록이다.
 2. (2:00–3:00 / Case) 현재 Demo에서 별도 Memory로 남길 후보를 찾지 못한 제한된 감사 결과임을 밝힌다.
 3. (3:00–4:00 / Case) 새 기록을 만들기 전에 기존 출처를 먼저 찾는다는 질문을 다음 판단 기준으로 연결한다.
 

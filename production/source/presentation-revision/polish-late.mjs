@@ -41,7 +41,7 @@ export const slides={
  },
  S66:(p,H)=>{const {C,text,line,arrow,rect}=H;
   const s=frame(p,H,'S66','Feedback을 System Change와\nEvaluation으로 잇기','ACT 4 · 이 교육의 Loop 모델','DEC-0023 · 교육용 운영 모델','모델의 자동 학습이나 실제 Product Loop를 관찰했다는 뜻은 아니다.','TEACHING_MODEL');
-  text(s,'앞선 단위 / 통합 테스트 가상 사례를 따라가면',64,215,1152,42,29,C.sub);
+  text(s,'앞선 가상 사례의 판단을 다섯 단계로 묶으면',64,215,1152,42,29,C.sub);
   const items=[
    ['실행','무엇을 했나?','가상 Task\n현재 기준은\n단위 + 통합'],
    ['관찰','무엇이 보였나?','지침은 단위만\n검증 범위가 다름'],
@@ -62,7 +62,7 @@ export const slides={
   return s;
  },
  S67:(p,H)=>{const {C,text,line,arrow,rect}=H;
-  const s=frame(p,H,'S67','실제 제작 기록: TRIAL-006','ACT 4 · OBSERVED META / 교육자료 제작 기록','TRIAL-006 · 과거 Codex CLI 조사 기록의 재구성','앞의 가상 Workflow와 별개 사건이다. 제품 코드·Demo Skill의 수정 사례가 아니다.','OBSERVED_META');
+  const s=frame(p,H,'S67','실제 제작 기록: TRIAL-006','ACT 4 · OBSERVED META / Trial 평가·보고 기준','TRIAL-006 · 과거 Codex CLI 조사 기록의 재구성','앞의 가상 Workflow와 별개 사건이다. 제품 코드·Demo Skill의 수정 사례가 아니다.','OBSERVED_META');
   text(s,'성능 조사에 Prompt 밖의 환경도 함께 관여했다.',64,215,1152,52,34,C.teal,true);
   const events=[['작업 요청','성능 개선 작업'],['함께 관찰된 조건','Global Skill 관여\n시작 경고도 기록'],['결과 해석의 질문','Prompt만의 효과?\n귀속은 PARTIAL']];
   events.forEach((a,i)=>{const x=64+i*398;
@@ -199,8 +199,8 @@ export const slides={
  },
  S79:(p,H)=>{const {C,text,line}=H;
   const s=frame(p,H,'S79','다음 작은 행동을 개인적으로 고른다','ACT 5 · 잠시 생각해 보기','BEAT-070–071 · 개인 성찰','마음속으로 떠올리는 시간이다. 기록·발표·제출은 요구하지 않는다.');
-  text(s,'다음 작은 행동 하나를, 마음속으로만.',64,205,1152,50,34,C.teal,true);
-  const items=[['01','내가 반복해서 적는 설명은 무엇인가?'],['02','AI가 반복해서 다시 찾는 프로젝트 사실은 무엇인가?'],['03','같은 실패가 또 생긴다면 어디를 고칠 것인가?']];
+  text(s,'떠올린 마찰에서, 작은 행동 하나를 마음속으로.',64,205,1152,50,34,C.teal,true);
+  const items=[['01','반복 설명 하나를 다음 작업에서는 어떻게 줄일까?'],['02','AI가 다시 찾는 프로젝트 사실 하나를 어디에 둘까?'],['03','같은 실패가 또 생기면 어느 Layer부터 확인할까?']];
   items.forEach((a,i)=>{const y=299+i*91;line(s,64,y,1152,C.line,1);
    text(s,a[0],64,y+18,80,44,25,C.sub,true,H.CODE);
    text(s,a[1],176,y+16,1040,53,31,C.ink,true);

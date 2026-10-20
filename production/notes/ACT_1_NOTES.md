@@ -6,6 +6,8 @@ Validation history: 이전 제작본의 local Mac Keynote 렌더·구조 검토 
 
 Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`, `plan/VISUAL_SPEC.md`, `plan/VISUAL_TEMPLATE_FREEZE.md`, `plan/SPEAKER_NOTES_ARCHITECTURE.md`, `plan/SPEAKER_NOTES_FREEZE.md`, `plan/PRODUCTION_PLAN.md`, `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, `plan/DEMO_RUNBOOK_SPEC.md`, and `plan/DECISIONS.md`.
 
+Continuity revision: DEC-0032 (2026-10-20). Current handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
+
 ## S10 — Task에는 무엇이 아직 정해지지 않았을까?
 
 Slide ID: S10
@@ -26,7 +28,7 @@ Speaker Flow:
 
 1. (0:00–2:00) S09의 열린 질문을 회수하고 “같은 Repository를 보고 있다”는 조건을 고정한다.
 2. (2:00–5:00) “filter 성능 개선해줘”와 오른쪽의 무엇을 바꿀지·보존할지·완료로 볼지 세 질문을 차례로 가리킨다. 특정 답을 채우지 않는다.
-3. (5:00–7:00) Repository 접근만으로 남은 결정을 정할 수 있는지 질문하며 S11로 넘긴다. 실제 제품 실패 사례나 관찰 결과로 말하지 않는다.
+3. (5:00–7:00) Repository 접근만으로 남은 결정을 정할 수 있는지 질문한다. 남은 결정을 더 구체적으로 보기 위해 앞서 조사한 crop 사례로 좁히겠다고 S11을 예고한다. 실제 제품 실패 사례나 관찰 결과로 말하지 않는다.
 
 화면 진행: 이 장은 빈 조건을 발견하는 데 쓴다. 오른쪽 세 질문을 하나씩 짚으며 답은 채우지 않는다. 다음 장의 테스트/구현 두 해석을 여기서 미리 비교하지 않는다.
 
@@ -44,7 +46,7 @@ Demo Operation: N/A.
 
 Audience Interaction: Case 질문을 따라가며 무엇이 비어 있는지 생각하게 한다. 공개 답변이나 실습은 요구하지 않는다.
 
-Transition: 어떤 Task 정보가 빠졌는지 약한 요청 비교로 확인한다.
+Transition: “남은 결정을 더 분명히 보기 위해, 앞서 조사한 crop 사례로 좁혀 보겠습니다.”라고 S11의 교육용 요청 예시로 이동한다.
 
 Time Management: 7분을 질문과 세 개의 미정 경계에 쓴다. 새 Prompt 체크리스트나 해결책을 미리 소개하지 않는다.
 
@@ -66,13 +68,13 @@ Mode Split: Case 4 minutes
 
 Primary Message: Repository를 볼 수 있어도 바꿀 범위와 완료 조건까지 알 수 있는 것은 아니다.
 
-Opening Question: “Agent 입장에서 무엇을 결정해야 할까?”
+Opening Question: “앞서 본 crop을 고쳐 달라는 요청에는 어떤 결정이 남아 있을까?”
 
 Speaker Flow:
 
-1. (0:00–0:45) “crop test 고쳐줘”를 읽고 교육용 구성 요청임을 밝힌다.
+1. (0:00–0:45) 앞서 조사한 crop으로 사례를 좁힌다고 알린 뒤 “crop test 고쳐줘”를 읽는다. 이는 교육용 구성 요청이며 실제 Trial Prompt가 아님을 밝힌다.
 2. (0:45–3:00) 테스트와 구현 중 무엇을 바꾸라는 뜻인지 두 질문을 비교한다. 이어 목표의 세부·보존 조건·수정 범위·확인 근거·완료 조건을 짚는다.
-3. (3:00–4:00) 특정 답을 제시하지 않고 남은 결정의 주체를 S12로 넘긴다.
+3. (3:00–4:00) 남은 결정들을 짚고, 다음 장에서는 이를 개발자가 답할 질문으로 바꿔 보겠다고 S12로 넘긴다. 특정 답은 제시하지 않는다.
 
 화면 진행: 이 장은 같은 요청의 두 해석에 집중한다. 왼쪽 테스트 변경과 오른쪽 구현 변경을 비교한 뒤, 아래 미정 정보를 짚는다. S10의 세 질문을 다시 강의하지 않는다.
 
@@ -90,7 +92,7 @@ Demo Operation: N/A.
 
 Audience Interaction: 두 해석과 아직 정해지지 않은 정보를 청중이 생각하도록 짧게 멈춘다. 공개 답이나 정답 분류를 요구하지 않는다.
 
-Transition: Slide 12에서 같은 요청을 개발자 결정 관점으로 해부한다.
+Transition: “Agent에게 남아 있던 결정을 개발자가 답할 질문으로 바꿔 보겠습니다.”라고 S12로 간다.
 
 Time Management: 4분 안에 한 요청과 다섯 빈칸만 다룬다. 빈칸의 정답이나 해결책은 제시하지 않는다.
 
@@ -112,11 +114,11 @@ Mode Split: Case 3 minutes + Reflection 1 minute
 
 Primary Message: Prompt의 실용적 가치는 문장 장식보다 Task ambiguity reduction에 있다.
 
-Opening Question: “무엇을 바꾸고, 무엇을 유지하며, 어디까지 바꿔도 되는가?”
+Opening Question: “이 요청을 보내기 전에 개발자인 나는 무엇을 정해야 할까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) “무엇을 바꿀까?”와 “무엇을 유지할까?”를 짚는다.
+1. (0:00–1:00) S11에서 남은 결정을 개발자의 질문으로 읽는다. “무엇을 바꿀까?”와 “무엇을 유지할까?”를 짚는다.
 2. (1:00–3:00) 허용 범위, 확인 근거, 완료 판단의 세 질문을 이어 읽는다. 이는 답이 아닌 개발자 판단 질문이다.
 3. (3:00–4:00) 각자 익숙한 요청 하나를 떠올리는 조용한 Reflection으로 마친다. 요청문 작성이나 결과 공유를 시키지 않는다.
 
@@ -136,7 +138,7 @@ Demo Operation: N/A.
 
 Audience Interaction: 마지막 1분은 비공개 Reflection이다. 말하기, 노트북, Prompt 작성은 요구하지 않는다.
 
-Transition: Slide 13에서 질문들을 실용적인 Task Specification 구조로 묶는다.
+Transition: “앞의 질문을 묶고, 필요한 사실과 작업 순서를 함께 명시하는 틀로 정리해 보겠습니다.”라고 S13의 Task Specification으로 이동한다.
 
 Time Management: Case 3분 후 Reflection 1분을 분리한다. 답을 제공하거나 공개 응답을 받지 않는다.
 
@@ -158,15 +160,15 @@ Mode Split: Lecture 4 minutes
 
 Primary Message: Goal, Context, Constraints, Process, Verification은 작업을 구체화하는 교육용 틀이다.
 
-Opening Question: “Agent가 작업을 검토 가능하게 수행하려면 무엇을 알아야 할까?”
+Opening Question: “앞의 질문을 작업 요청에 담으려면 어떤 책임으로 정리할 수 있을까?”
 
 Speaker Flow:
 
-1. (0:00–0:45) Task Specification을 이 과정의 작업 구체화 모델로 소개한다.
-2. (0:45–3:15) 하나의 패널에서 목표·맥락·제약·과정·검증을 위에서 아래로 짚는다. 각 행의 오른쪽 질문이 어떤 미정을 줄이는지 한 문장씩 설명한다.
+1. (0:00–0:45) 화면 안내처럼 앞의 질문을 묶고 필요한 맥락과 작업 과정을 명시하는 이 과정의 모델로 Task Specification을 소개한다.
+2. (0:45–3:15) 하나의 패널에서 목표·맥락·제약·과정·검증을 위에서 아래로 짚는다. 앞 장의 보존·허용 범위 질문은 제약으로, 확인 근거·완료 질문은 검증으로 묶어 읽는다. 작업에 필요한 사실은 맥락으로, 지킬 순서와 경계는 과정으로 함께 명시한다. 각 행이 어떤 미정을 줄이는지 한 문장씩 설명한다.
 3. (3:15–4:00) 다섯 책임을 모두 길게 적으라는 뜻이 아니라 작업에 필요한 경계를 검토할 틀이라고 정리하고 S14로 간다.
 
-화면 진행: 이 장은 한 작업 요청에 다섯 책임을 묶는 구조를 보여준다. 왼쪽 Task Specification에서 오른쪽 행으로 이동하며 S12의 질문을 구조로 정리한다.
+화면 진행: 이 장은 한 작업 요청에 다섯 책임을 묶는 구조를 보여준다. S12의 다섯 질문과 일대일 대응하는 표가 아니라 질문을 재구성하고 맥락·과정을 명시한 틀이다. 상단 안내 → 왼쪽 Task Specification → 오른쪽 행 순서로 읽는다.
 
 Evidence / Source: BEAT-005, CLM-0029, OQ-001, OQ-007. TEACHING_MODEL / CONCEPTUAL.
 
@@ -229,7 +231,7 @@ Demo Operation: N/A — the comparison is conceptual and is not the exact Trial-
 
 Audience Interaction: 마지막 Case 3분에는 두 요청에서 새로 명시된 책임을 마음속으로 비교한다. 발표 응답은 요구하지 않는다.
 
-Transition: “이 요청을 받은 Agent는 수정부터 시작할까?”라는 질문으로 Trial 관찰에 들어간다.
+Transition: “여기까지는 교육용 구성 예시였습니다. 이제 과거 TRIAL-002에서 요청한 흐름과 기록된 행동을 살펴보겠습니다.”라고 실제 기록의 관찰 기준으로 이동한다.
 
 Time Management: After는 네 줄의 비교 축으로 한정한다. 전체 Trial Prompt나 코드 지시를 화면에 복사하지 않는다. 시간이 부족하면 C++ inset을 생략한다.
 
@@ -251,13 +253,13 @@ Mode Split: Lecture 2 minutes
 
 Primary Message: 이 한 번의 관찰에서는 재현, 조사, 계획, 수정, 검증 순서를 확인할 수 있다.
 
-Opening Question: “이 요청을 받은 Agent가 수정부터 시작할까?”
+Opening Question: “TRIAL-002 실제 기록에서는 수정 전에 무엇을 했을까?”
 
 Speaker Flow:
 
-1. (0:00–0:35) “이 요청을 받으면 수정부터 시작할까?”를 제시한다.
-2. (0:35–1:35) 재현 → 조사 → 계획 → 수정 → 검증의 다섯 관찰 단계를 가리킨다. 화면은 WATCH 기준이며 결과를 미리 읽어 주는 요약이 아니다.
-3. (1:35–2:00) 단일 과거 CLI 기록의 행동을 다음 두 장에서 대조한다고 알리고 S16으로 이동한다.
+1. (0:00–0:35) S14의 교육용 구성 예시에서 과거 TRIAL-002 기록으로 전환했음을 밝힌다. “실제 기록에서는 수정 전에 무엇을 했을까?”를 제시한다. S14 화면의 요청을 그대로 실행한 것으로 설명하지 않는다.
+2. (0:35–1:35) TRIAL-002에서 요청한 재현 → 조사 → 계획 → 수정 → 검증의 다섯 관찰 단계를 가리킨다. 화면은 WATCH 기준이며 결과를 미리 읽어 주는 요약이 아니다.
+3. (1:35–2:00) 다음 두 장에서 이 단일 과거 CLI 기록의 요청 흐름과 행동을 대조한다고 알리고 S16으로 이동한다.
 
 Evidence / Source: BEAT-006, TRIAL-002, INV-MATURITY-011. OBSERVED_PRODUCT; one historical Codex CLI run only.
 
@@ -433,7 +435,7 @@ Speaker Flow:
 1. (0:00–1:00) 표가 특정 테스트의 만능 효과를 뜻하지 않는다고 소개한다. 실제 TRIAL-002는 집중·전체 테스트, CLI smoke, diff를 확인했다는 하단 출처를 짚는다.
 2. (1:00–3:00) 확인 방법 → 말할 수 있는 범위의 다섯 행을 설명한다. 성능 측정 행은 교육 모델이며 TRIAL-002에서 benchmark를 실행하지 않았다고 밝힌다.
 3. (3:00–4:00) C++의 Release 실행, API/ABI, 대상 데이터도 어떤 주장을 확인할지에 맞춰 고르는 경계로 연결한다.
-4. (4:00–5:00) 익숙한 Check가 뒷받침하는 Claim을 개인적으로 떠올리는 Reflection으로 마친다.
+4. (4:00–5:00) 익숙한 Check가 뒷받침하는 Claim을 개인적으로 떠올린다. 그 검증 방법을 다음 작업에서도 다시 설명할지 생각하는 Reflection으로 마친다.
 
 Evidence / Source: BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027. Actual checks are separate from the TEACHING_MODEL mapping.
 
@@ -449,7 +451,7 @@ Demo Operation: TRIAL-002 evidence callback outside the 8-minute Demo slot. 본�
 
 Audience Interaction: 마지막 1분은 각자가 익숙한 Check와 그 Check가 뒷받침하는 Claim을 조용히 생각한다. 결과 발표는 요구하지 않는다.
 
-Transition: 다음 작업에도 반복할 정보를 청중이 구분하도록 질문을 연다.
+Transition: “방금 정한 테스트 명령과 보존 조건은 다음 작업에도 필요할 수 있습니다. 이 설명을 매번 다시 적어야 할까요?”라고 검증 지침의 재사용에서 S20의 정보 수명 질문으로 연결한다.
 
 Time Management: Lecture 4분과 Reflection 1분을 분리한다. Advanced C++ examples are optional under time pressure; keep the scope labels.
 
@@ -470,11 +472,11 @@ Mode Split: Reflection 1 minute + Q&A 2 minutes
 
 Primary Message: 두 종류의 정보를 구분할 필요가 있음을 먼저 인식한다.
 
-Opening Question: “매번 Prompt에 반복해서 쓰는 내용 중 이번 Task에만 필요한 것은 무엇이고, Project가 계속 유지해야 할 것은 무엇인가?”
+Opening Question: “테스트·보존 조건처럼 반복해서 쓰는 문장은 이번 작업에만 필요할까, 다음 작업에도 필요할까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 최근 요청에 썼던 문장 하나를 떠올리고 “이번 작업에만?”과 “다음 작업에도?” 중 어디에 해당할지 개인적으로 생각한다. 화면의 두 영역은 비워 둔다.
+1. (0:00–1:00) S19에서 검증 방법을 골랐다는 점을 회수하고, 테스트·보존 조건처럼 최근 요청에 반복해서 썼던 문장 하나를 떠올리게 한다. “이번 작업에만?”과 “다음 작업에도?” 중 어디에 해당할지 개인적으로 생각한다. 화면의 두 영역은 비워 두고 문장의 분류를 대신 정하지 않는다.
 2. (1:00–3:00) 자발적인 Q&A를 받는다. 답이나 분류 기준을 미리 공개하지 않는다. 침묵도 정상 진행이다.
 3. (3:00) S21에서 후보 예시를 함께 확인하겠다고 전환한다.
 

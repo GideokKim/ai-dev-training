@@ -4766,3 +4766,97 @@ Any current Live demonstration needs its own verified account/path and fallback.
 ## Approval
 
 Explicit user authorization for documentation, Q&A and presenter packaging.
+
+### DEC-0032 — Align slide handoffs with the approved course story
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-20
+
+## Context
+
+An independent review compared all 79 adjacent slide connections in the
+current 80-slide deck with its rendered screens and Speaker Notes. The user
+approved improving the whole presentation while retaining the story flow.
+
+## Problem
+
+Several handoffs rely on unstated presenter explanations. The S36 exit
+question asks why procedures differ, although S36 and S37 show the same
+procedure recurring. Other gaps concern example changes, the transition
+from verification to reusable information, optional Harness components,
+the actual Meta case, and the final personal action.
+
+## Decision
+
+- Improve the reviewed handoffs in existing slide objects and Speaker Notes.
+  Use brief audience cues to explain the next slide's purpose. Preserve
+  connections that already work rather than rewriting every slide.
+- Align S36 with the observed repetition of procedures. Do not invent
+  process-variation failures. Distinguish constructed Prompt examples from
+  historical Trial requests and executions.
+- Present Subagent and Memory as reviews of whether additional structure
+  is justified. Keep the current Demo's decision not to add them.
+- Identify the actual Meta case's change target as Trial evaluation and
+  reporting. Keep it separate from the conceptual stale Workflow case and
+  the observed Product path ending at STATE-04-PERF.
+- Narrow the closing reflection from identifying friction to choosing one
+  small personal action, without requiring records, sharing or submission.
+- Align the official Slide Map's Transition fields and downstream operating
+  cues with the approved wording. Preserve all other source fields, slide
+  IDs, titles, order, Story/Section/Demo mappings, 360 minutes, per-slide
+  Mode allocations, Evidence Types and frozen Claim boundaries.
+- Render and review the full deck and ACT packages, align embedded and
+  Markdown Notes, and refresh presenter-package provenance and hashes.
+
+## Rationale
+
+Clear handoffs make the existing problem-driven progression easier to
+follow. The changes address the reviewed discontinuities without adding
+new course content, evidence or product claims.
+
+## Alternatives
+
+- Keep the current presentation: leaves the identified handoff gaps.
+- Reorder slides or redesign the course: unnecessary for these issues.
+- Add new Trials or product demonstrations: outside this revision.
+
+## Trade-offs
+
+The presenter must become familiar with the revised cues. Brief screen
+changes still require local rendering and visual inspection. They do not
+establish timed pacing or target-environment compatibility.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001, INV-DEMO-003,
+INV-SOT-003.
+
+## Affected Artifacts
+
+Slide Map Transition fields, Story transition operating cues, production
+source, integrated and ACT PPTX, Notes, previews, revision evaluation,
+fallback provenance, handoff/checklist and offline presenter bundle.
+
+## Evidence
+
+The current ACT-by-ACT continuity review and the user's explicit approval:
+"흐름을 잃지말고 전체 개선해."
+
+## Training Relevance
+
+YES — improve the presentation while preserving its planning authority
+and distinguishing observed records from teaching interpretations.
+
+## Follow-up
+
+Windows PowerPoint, target fonts, classroom projection, current account
+and Live environment, and timed rehearsal remain UNVERIFIED. Preserve the
+Demo repository, Product code and existing State tags.
+
+## Approval
+
+Explicit user instruction to improve the whole deck after the continuity
+review. Existing authorization to checkpoint completed changes continues.

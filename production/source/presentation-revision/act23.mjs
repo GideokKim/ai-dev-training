@@ -87,7 +87,7 @@ S28:make('S28','정보의 범위와 제공 시점','ACT 2 · 언제 필요한 �
     rs.forEach((r,i)=>{const y=232+i*116;line(s,64,y,1152);text(s,r[0],64,y+18,475,42,30,C.ink,true);text(s,r[1],557,y+18,659,42,29,C.teal);text(s,r[2],64,y+70,475,28,19,C.sub,true);});
   }),
 
-S29:make('S29','Long Context 연구가 말해주는 범위','ACT 2 · 연구가 답한 질문',
+S29:make('S29','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 양을 다시 묻는 연구',
   'Liu et al., Lost in the Middle, TACL 2024 · RepoQA, 2024',
   '특정 모델·과제의 결과 · 현재 Codex의 Repository coding 한계를 입증하지 않음','RESEARCH',
   (s,{C,text,line,rect})=>{
@@ -186,7 +186,7 @@ S36:make('S36','지식은 정리됐지만 절차는 반복된다','ACT 2 · 다�
     line(s,64,289,520,C.teal,3);line(s,704,289,512,C.teal,3);
     text(s,'현재 목표는 Prompt에\n공통 사실은 Project Context에\n상세 정보는 Routing으로',64,327,540,158,30,C.ink);
     text(s,'먼저 측정하고\n조사한 뒤 변경하고\n같은 조건으로 확인해줘',704,327,512,158,31,C.ink,true);
-    text(s,'이 반복도 Context만의 문제일까?',64,548,1152,44,34,C.teal,true);
+    text(s,'같은 작업 절차도 다시 써야 할까?',64,548,1152,44,34,C.teal,true);
   }),
 
 S37:make('S37','서로 다른 Performance Task,\n반복되는 절차','ACT 3 · 작업 방법도 반복된다',
@@ -300,7 +300,7 @@ S44:make('S44','측정으로 후보를 고르다','ACT 3 · 시간과 메모리�
     text(s,'더 나음 → 선택',942,484,274,45,29,C.teal,true);
   }),
 
-S46:make('S46','이 작업에 Subagent가 필요했을까?','ACT 3 · 현재 Task의 분리 가능성',
+S46:make('S46','이 작업에 Subagent가 필요했을까?','ACT 3 · 추가 구조의 필요성 점검',
   'DEC-0018 · 현재 성능 작업에 대한 판단과 교육용 작업 구조',
   '현재 사례에서 추가하지 않았다는 결과 · 일반적으로 Subagent가 불필요하다는 뜻은 아님','TEACHING_MODEL',
   (s,{C,text,flow,line})=>{
@@ -321,7 +321,7 @@ S47:make('S47','Subagent를 고려할 조건','ACT 3 · 독립 조사와 결과 
     rect(s,64,539,1152,51,C.pale);text(s,'시작 전에 정할 것: 결과 형식 · 전달 지점 · 합칠 책임',86,546,1108,37,28,C.ink,true);
   }),
 
-S48:make('S48','무엇이 다시 찾기 어려운 지식인가?','ACT 3 · 이미 있는 기록부터 확인하기',
+S48:make('S48','무엇이 다시 찾기 어려운 지식인가?','ACT 3 · 별도 지식 보존의 필요성 점검',
   '현재 Demo Repository의 지식 분류와 Memory 후보 점검',
   '별도 Memory로 남길 지속적 지식 후보는 찾지 못함 · 제품 Memory 동작 주장은 아님','TEACHING_MODEL',
   (s,{C,text,line,arrow})=>{

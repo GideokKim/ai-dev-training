@@ -1,8 +1,8 @@
 # Full Speaker Notes — AI Developer Training
 
-Status: REVIEWED — the accepted presentation revision preserves the 80-slide, 360-minute Source of Truth. Per-slide screen cues and evidence boundaries are aligned with the revised native slide objects. Local render and embedded-Notes parity results are recorded in `production/evaluation/FULL_DECK_PRESENTATION_REVISION.md`. Windows PowerPoint, room projection, product/account operation, and timed rehearsal remain UNVERIFIED.
+Status: DEC-0032 continuity revision — the approved 80-slide, 360-minute course story and evidence boundaries are preserved. Current screen/Notes alignment and local render review are recorded in `production/evaluation/FULL_DECK_CONTINUITY_REVISION.md`. Windows PowerPoint, room projection, current product/account operation and timed rehearsal remain UNVERIFIED.
 
-Authority: `plan/SLIDE_MAP.md`, `plan/CLAIM_FREEZE.md`, `plan/SPEAKER_NOTES_FREEZE.md`, and DEC-0027 through DEC-0030.
+Authority: `plan/SLIDE_MAP.md`, `plan/CLAIM_FREEZE.md`, `plan/SPEAKER_NOTES_FREEZE.md`, and DEC-0027 through DEC-0032.
 
 ## S01 — AI에게 지금 무엇을 맡기고 있는가?
 
@@ -334,7 +334,7 @@ Speaker Flow:
 
 1. **OPEN (0:00–0:30):** 왼쪽 “볼 수 있는 것”과 오른쪽 “정해야 하는 것”을 분리한다.
 2. **EXPLAIN (0:30–1:30):** 파일·구현·테스트가 보여도 원하는 변화, 허용 범위, 완료 판단은 별도로 전달해야 한다는 구분만 설명한다.
-3. **TRANSFER (1:30–2:00):** 가운데 ≠를 짚고 “코드가 보여도 원하는 일은 따로 전달해야 한다”로 마친다. ACT 1의 구체적인 요청 구조는 아직 소개하지 않는다.
+3. **TRANSFER (1:30–2:00):** 가운데 ≠를 짚고 “코드가 보여도 원하는 일은 따로 전달해야 한다”로 정리한다. 이어 이 구분을 각자가 맡기고 싶은 작업에 대입할 질문을 남긴다. ACT 1의 구체적인 요청 구조는 아직 소개하지 않는다.
 
 Evidence / Source: BEAT-003 next friction, DEMO-01 callback, TRIAL-001; CLM-0002, CLM-0009. TEACHING_MODEL.
 
@@ -350,7 +350,7 @@ Demo Operation: N/A — DEMO-01 성공 뒤 남는 문제를 설명한다.
 
 Audience Interaction: Opening question은 수사 질문이다. 짧은 강의 시간에 답변을 요구하지 않는다.
 
-Transition: “그렇다면 Repository를 보면 내가 원하는 것까지 알까요?”라고 S09의 논의 질문을 연다.
+Transition: “이 구분을 여러분이 지금 맡기고 싶은 일에 대입해 보겠습니다.”라고 S09의 개인 적용 질문을 연다.
 
 Time Management: Access와 Intent 두 축만 설명하고 ACT 1의 구조나 목록은 소개하지 않는다.
 
@@ -372,11 +372,11 @@ Mode Split: Transition 3 minutes + Q&A 3 minutes
 
 Primary Message: Repository를 볼 수 있다는 사실만으로 Task의 의도가 정해지지는 않는다.
 
-Opening Question: “Repository를 볼 수 있으면 내가 원하는 것까지 알 수 있을까?”
+Opening Question: “내가 지금 맡기고 싶은 일의 원하는 결과까지 코드에 적혀 있을까?”
 
 Speaker Flow:
 
-1. **DISCUSS / TRANSITION (0:00–3:00):** “지금 이 저장소에 어떤 일을 맡기고 싶은가?”와 “그 원하는 결과까지 코드에 적혀 있는가?”를 차례로 읽는다. 답이나 다음 단계의 체크리스트를 제시하지 않는다.
+1. **DISCUSS / TRANSITION (0:00–3:00):** 화면 상단의 “내 작업에 적용할 질문”을 짚고, 각자가 지금 맡기고 싶은 일 하나를 떠올리게 한다. “지금 이 저장소에 어떤 일을 맡기고 싶은가?”와 “그 원하는 결과까지 코드에 적혀 있는가?”를 차례로 읽는다. S08의 구분을 자기 작업에 대입하며 답이나 다음 단계의 체크리스트를 제시하지 않는다.
 2. **Q&A (3:00–6:00):** 자발적인 질문을 받는다. 질문이 없으면 두 질문을 그대로 남긴 뒤 ACT 1의 모호한 요청으로 이동한다.
 
 Evidence / Source: BEAT-003 → BEAT-004, TRANSITIONS.md의 승인된 ACT handoff, DEMO-01 callback, CLM-0002, CLM-0009. TEACHING_MODEL.
@@ -393,7 +393,7 @@ Demo Operation: N/A — 신규 Demo 또는 제품 기능 설명은 없다.
 
 Audience Interaction: Q&A 3분은 선택적 질문 시간이다. 답변이나 공유를 강제하지 않는다. 침묵은 정상적인 결과로 둔다.
 
-Transition: `Chatbot → Prompt`로 다음 ACT에 handoff한다. ACT 1의 내부 구조는 소개하지 않는다.
+Transition: “방금 떠올린 원하는 결과를 작업 요청으로 전달하려면 무엇이 더 필요할까요?”라는 질문으로 `Chatbot → Prompt`를 handoff한다. ACT 1의 내부 구조는 소개하지 않는다.
 
 Time Management: Slide Map의 순서를 유지해 Transition 3분 뒤 Q&A 3분을 둔다. Q&A를 늘려 ACT 전체 시간을 옮기지 않는다.
 
@@ -421,7 +421,7 @@ Speaker Flow:
 
 1. (0:00–2:00) S09의 열린 질문을 회수하고 “같은 Repository를 보고 있다”는 조건을 고정한다.
 2. (2:00–5:00) “filter 성능 개선해줘”와 오른쪽의 무엇을 바꿀지·보존할지·완료로 볼지 세 질문을 차례로 가리킨다. 특정 답을 채우지 않는다.
-3. (5:00–7:00) Repository 접근만으로 남은 결정을 정할 수 있는지 질문하며 S11로 넘긴다. 실제 제품 실패 사례나 관찰 결과로 말하지 않는다.
+3. (5:00–7:00) Repository 접근만으로 남은 결정을 정할 수 있는지 질문한다. 남은 결정을 더 구체적으로 보기 위해 앞서 조사한 crop 사례로 좁히겠다고 S11을 예고한다. 실제 제품 실패 사례나 관찰 결과로 말하지 않는다.
 
 화면 진행: 이 장은 빈 조건을 발견하는 데 쓴다. 오른쪽 세 질문을 하나씩 짚으며 답은 채우지 않는다. 다음 장의 테스트/구현 두 해석을 여기서 미리 비교하지 않는다.
 
@@ -439,7 +439,7 @@ Demo Operation: N/A.
 
 Audience Interaction: Case 질문을 따라가며 무엇이 비어 있는지 생각하게 한다. 공개 답변이나 실습은 요구하지 않는다.
 
-Transition: 어떤 Task 정보가 빠졌는지 약한 요청 비교로 확인한다.
+Transition: “남은 결정을 더 분명히 보기 위해, 앞서 조사한 crop 사례로 좁혀 보겠습니다.”라고 S11의 교육용 요청 예시로 이동한다.
 
 Time Management: 7분을 질문과 세 개의 미정 경계에 쓴다. 새 Prompt 체크리스트나 해결책을 미리 소개하지 않는다.
 
@@ -461,13 +461,13 @@ Mode Split: Case 4 minutes
 
 Primary Message: Repository를 볼 수 있어도 바꿀 범위와 완료 조건까지 알 수 있는 것은 아니다.
 
-Opening Question: “Agent 입장에서 무엇을 결정해야 할까?”
+Opening Question: “앞서 본 crop을 고쳐 달라는 요청에는 어떤 결정이 남아 있을까?”
 
 Speaker Flow:
 
-1. (0:00–0:45) “crop test 고쳐줘”를 읽고 교육용 구성 요청임을 밝힌다.
+1. (0:00–0:45) 앞서 조사한 crop으로 사례를 좁힌다고 알린 뒤 “crop test 고쳐줘”를 읽는다. 이는 교육용 구성 요청이며 실제 Trial Prompt가 아님을 밝힌다.
 2. (0:45–3:00) 테스트와 구현 중 무엇을 바꾸라는 뜻인지 두 질문을 비교한다. 이어 목표의 세부·보존 조건·수정 범위·확인 근거·완료 조건을 짚는다.
-3. (3:00–4:00) 특정 답을 제시하지 않고 남은 결정의 주체를 S12로 넘긴다.
+3. (3:00–4:00) 남은 결정들을 짚고, 다음 장에서는 이를 개발자가 답할 질문으로 바꿔 보겠다고 S12로 넘긴다. 특정 답은 제시하지 않는다.
 
 화면 진행: 이 장은 같은 요청의 두 해석에 집중한다. 왼쪽 테스트 변경과 오른쪽 구현 변경을 비교한 뒤, 아래 미정 정보를 짚는다. S10의 세 질문을 다시 강의하지 않는다.
 
@@ -485,7 +485,7 @@ Demo Operation: N/A.
 
 Audience Interaction: 두 해석과 아직 정해지지 않은 정보를 청중이 생각하도록 짧게 멈춘다. 공개 답이나 정답 분류를 요구하지 않는다.
 
-Transition: Slide 12에서 같은 요청을 개발자 결정 관점으로 해부한다.
+Transition: “Agent에게 남아 있던 결정을 개발자가 답할 질문으로 바꿔 보겠습니다.”라고 S12로 간다.
 
 Time Management: 4분 안에 한 요청과 다섯 빈칸만 다룬다. 빈칸의 정답이나 해결책은 제시하지 않는다.
 
@@ -507,11 +507,11 @@ Mode Split: Case 3 minutes + Reflection 1 minute
 
 Primary Message: Prompt의 실용적 가치는 문장 장식보다 Task ambiguity reduction에 있다.
 
-Opening Question: “무엇을 바꾸고, 무엇을 유지하며, 어디까지 바꿔도 되는가?”
+Opening Question: “이 요청을 보내기 전에 개발자인 나는 무엇을 정해야 할까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) “무엇을 바꿀까?”와 “무엇을 유지할까?”를 짚는다.
+1. (0:00–1:00) S11에서 남은 결정을 개발자의 질문으로 읽는다. “무엇을 바꿀까?”와 “무엇을 유지할까?”를 짚는다.
 2. (1:00–3:00) 허용 범위, 확인 근거, 완료 판단의 세 질문을 이어 읽는다. 이는 답이 아닌 개발자 판단 질문이다.
 3. (3:00–4:00) 각자 익숙한 요청 하나를 떠올리는 조용한 Reflection으로 마친다. 요청문 작성이나 결과 공유를 시키지 않는다.
 
@@ -531,7 +531,7 @@ Demo Operation: N/A.
 
 Audience Interaction: 마지막 1분은 비공개 Reflection이다. 말하기, 노트북, Prompt 작성은 요구하지 않는다.
 
-Transition: Slide 13에서 질문들을 실용적인 Task Specification 구조로 묶는다.
+Transition: “앞의 질문을 묶고, 필요한 사실과 작업 순서를 함께 명시하는 틀로 정리해 보겠습니다.”라고 S13의 Task Specification으로 이동한다.
 
 Time Management: Case 3분 후 Reflection 1분을 분리한다. 답을 제공하거나 공개 응답을 받지 않는다.
 
@@ -553,15 +553,15 @@ Mode Split: Lecture 4 minutes
 
 Primary Message: Goal, Context, Constraints, Process, Verification은 작업을 구체화하는 교육용 틀이다.
 
-Opening Question: “Agent가 작업을 검토 가능하게 수행하려면 무엇을 알아야 할까?”
+Opening Question: “앞의 질문을 작업 요청에 담으려면 어떤 책임으로 정리할 수 있을까?”
 
 Speaker Flow:
 
-1. (0:00–0:45) Task Specification을 이 과정의 작업 구체화 모델로 소개한다.
-2. (0:45–3:15) 하나의 패널에서 목표·맥락·제약·과정·검증을 위에서 아래로 짚는다. 각 행의 오른쪽 질문이 어떤 미정을 줄이는지 한 문장씩 설명한다.
+1. (0:00–0:45) 화면 안내처럼 앞의 질문을 묶고 필요한 맥락과 작업 과정을 명시하는 이 과정의 모델로 Task Specification을 소개한다.
+2. (0:45–3:15) 하나의 패널에서 목표·맥락·제약·과정·검증을 위에서 아래로 짚는다. 앞 장의 보존·허용 범위 질문은 제약으로, 확인 근거·완료 질문은 검증으로 묶어 읽는다. 작업에 필요한 사실은 맥락으로, 지킬 순서와 경계는 과정으로 함께 명시한다. 각 행이 어떤 미정을 줄이는지 한 문장씩 설명한다.
 3. (3:15–4:00) 다섯 책임을 모두 길게 적으라는 뜻이 아니라 작업에 필요한 경계를 검토할 틀이라고 정리하고 S14로 간다.
 
-화면 진행: 이 장은 한 작업 요청에 다섯 책임을 묶는 구조를 보여준다. 왼쪽 Task Specification에서 오른쪽 행으로 이동하며 S12의 질문을 구조로 정리한다.
+화면 진행: 이 장은 한 작업 요청에 다섯 책임을 묶는 구조를 보여준다. S12의 다섯 질문과 일대일 대응하는 표가 아니라 질문을 재구성하고 맥락·과정을 명시한 틀이다. 상단 안내 → 왼쪽 Task Specification → 오른쪽 행 순서로 읽는다.
 
 Evidence / Source: BEAT-005, CLM-0029, OQ-001, OQ-007. TEACHING_MODEL / CONCEPTUAL.
 
@@ -624,7 +624,7 @@ Demo Operation: N/A — the comparison is conceptual and is not the exact Trial-
 
 Audience Interaction: 마지막 Case 3분에는 두 요청에서 새로 명시된 책임을 마음속으로 비교한다. 발표 응답은 요구하지 않는다.
 
-Transition: “이 요청을 받은 Agent는 수정부터 시작할까?”라는 질문으로 Trial 관찰에 들어간다.
+Transition: “여기까지는 교육용 구성 예시였습니다. 이제 과거 TRIAL-002에서 요청한 흐름과 기록된 행동을 살펴보겠습니다.”라고 실제 기록의 관찰 기준으로 이동한다.
 
 Time Management: After는 네 줄의 비교 축으로 한정한다. 전체 Trial Prompt나 코드 지시를 화면에 복사하지 않는다. 시간이 부족하면 C++ inset을 생략한다.
 
@@ -646,13 +646,13 @@ Mode Split: Lecture 2 minutes
 
 Primary Message: 이 한 번의 관찰에서는 재현, 조사, 계획, 수정, 검증 순서를 확인할 수 있다.
 
-Opening Question: “이 요청을 받은 Agent가 수정부터 시작할까?”
+Opening Question: “TRIAL-002 실제 기록에서는 수정 전에 무엇을 했을까?”
 
 Speaker Flow:
 
-1. (0:00–0:35) “이 요청을 받으면 수정부터 시작할까?”를 제시한다.
-2. (0:35–1:35) 재현 → 조사 → 계획 → 수정 → 검증의 다섯 관찰 단계를 가리킨다. 화면은 WATCH 기준이며 결과를 미리 읽어 주는 요약이 아니다.
-3. (1:35–2:00) 단일 과거 CLI 기록의 행동을 다음 두 장에서 대조한다고 알리고 S16으로 이동한다.
+1. (0:00–0:35) S14의 교육용 구성 예시에서 과거 TRIAL-002 기록으로 전환했음을 밝힌다. “실제 기록에서는 수정 전에 무엇을 했을까?”를 제시한다. S14 화면의 요청을 그대로 실행한 것으로 설명하지 않는다.
+2. (0:35–1:35) TRIAL-002에서 요청한 재현 → 조사 → 계획 → 수정 → 검증의 다섯 관찰 단계를 가리킨다. 화면은 WATCH 기준이며 결과를 미리 읽어 주는 요약이 아니다.
+3. (1:35–2:00) 다음 두 장에서 이 단일 과거 CLI 기록의 요청 흐름과 행동을 대조한다고 알리고 S16으로 이동한다.
 
 Evidence / Source: BEAT-006, TRIAL-002, INV-MATURITY-011. OBSERVED_PRODUCT; one historical Codex CLI run only.
 
@@ -832,7 +832,7 @@ Speaker Flow:
 1. (0:00–1:00) 표가 특정 테스트의 만능 효과를 뜻하지 않는다고 소개한다. 실제 TRIAL-002는 집중·전체 테스트, CLI smoke, diff를 확인했다는 하단 출처를 짚는다.
 2. (1:00–3:00) 확인 방법 → 말할 수 있는 범위의 다섯 행을 설명한다. 성능 측정 행은 교육 모델이며 TRIAL-002에서 benchmark를 실행하지 않았다고 밝힌다.
 3. (3:00–4:00) C++의 Release 실행, API/ABI, 대상 데이터도 어떤 주장을 확인할지에 맞춰 고르는 경계로 연결한다.
-4. (4:00–5:00) 익숙한 Check가 뒷받침하는 Claim을 개인적으로 떠올리는 Reflection으로 마친다.
+4. (4:00–5:00) 익숙한 Check가 뒷받침하는 Claim을 개인적으로 떠올린다. 그 검증 방법을 다음 작업에서도 다시 설명할지 생각하는 Reflection으로 마친다.
 
 Evidence / Source: BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027. Actual checks are separate from the TEACHING_MODEL mapping.
 
@@ -848,7 +848,7 @@ Demo Operation: TRIAL-002 evidence callback outside the 8-minute Demo slot. 본�
 
 Audience Interaction: 마지막 1분은 각자가 익숙한 Check와 그 Check가 뒷받침하는 Claim을 조용히 생각한다. 결과 발표는 요구하지 않는다.
 
-Transition: 다음 작업에도 반복할 정보를 청중이 구분하도록 질문을 연다.
+Transition: “방금 정한 테스트 명령과 보존 조건은 다음 작업에도 필요할 수 있습니다. 이 설명을 매번 다시 적어야 할까요?”라고 검증 지침의 재사용에서 S20의 정보 수명 질문으로 연결한다.
 
 Time Management: Lecture 4분과 Reflection 1분을 분리한다. Advanced C++ examples are optional under time pressure; keep the scope labels.
 
@@ -870,11 +870,11 @@ Mode Split: Reflection 1 minute + Q&A 2 minutes
 
 Primary Message: 두 종류의 정보를 구분할 필요가 있음을 먼저 인식한다.
 
-Opening Question: “매번 Prompt에 반복해서 쓰는 내용 중 이번 Task에만 필요한 것은 무엇이고, Project가 계속 유지해야 할 것은 무엇인가?”
+Opening Question: “테스트·보존 조건처럼 반복해서 쓰는 문장은 이번 작업에만 필요할까, 다음 작업에도 필요할까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 최근 요청에 썼던 문장 하나를 떠올리고 “이번 작업에만?”과 “다음 작업에도?” 중 어디에 해당할지 개인적으로 생각한다. 화면의 두 영역은 비워 둔다.
+1. (0:00–1:00) S19에서 검증 방법을 골랐다는 점을 회수하고, 테스트·보존 조건처럼 최근 요청에 반복해서 썼던 문장 하나를 떠올리게 한다. “이번 작업에만?”과 “다음 작업에도?” 중 어디에 해당할지 개인적으로 생각한다. 화면의 두 영역은 비워 두고 문장의 분류를 대신 정하지 않는다.
 2. (1:00–3:00) 자발적인 Q&A를 받는다. 답이나 분류 기준을 미리 공개하지 않는다. 침묵도 정상 진행이다.
 3. (3:00) S21에서 후보 예시를 함께 확인하겠다고 전환한다.
 
@@ -1235,7 +1235,7 @@ Speaker Flow:
 
 1. (0:00–1:00) 세 행이 이 과정에서 쓰는 정보 설계 모델임을 밝힌다.
 2. (1:00–3:00) 기본 안내, 질문에 따른 상세, 특정 작업의 수행 방법을 순서대로 가리킨다. 각 행의 구체 예시를 하나씩 설명한다.
-3. (3:00–4:00) 성능 조사 절차 예가 STATE-02에 저장돼 있었다는 뜻은 아니라고 한정한다. Context 양만으로 충분한지 연구 질문으로 넘어간다.
+3. (3:00–4:00) 성능 조사 절차 예가 STATE-02에 저장돼 있었다는 뜻은 아니라고 한정한다. 방금은 정보의 범위와 제공 시점을 나눴고, 다음에는 ‘Context 양만 늘리면 충분할까?’를 연구의 제한된 범위 안에서 살펴본다고 예고한다.
 
 Evidence / Source: BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005. TEACHING_MODEL / CONCEPTUAL.
 
@@ -1251,7 +1251,7 @@ Demo Operation: N/A.
 
 Audience Interaction: Ask the audience to notice that information has different scopes; no category-writing exercise is required.
 
-Transition: “Context window가 크면 모든 정보가 똑같이 활용될까?”
+Transition: “필요한 때 찾게 하는 대신 모두 넣어두면 충분할까? 이 질문을 Long Context 연구의 범위 안에서 보겠습니다.”
 
 Time Management: Four minutes, one minute per bucket plus the boundary. Do not present this as a product feature taxonomy.
 
@@ -1273,13 +1273,13 @@ Mode Split: Lecture 4 minutes
 
 Primary Message: Research in specific models and tasks supports a bounded caution: more context is not automatically better, and relevance or information position can matter under some conditions.
 
-Opening Question: “Context window가 크면 모든 정보가 똑같이 활용될까?”
+Opening Question: “정보의 범위와 시점을 나눠봤는데, Context 양만 늘리면 충분할까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) ‘더 많은 Context가 항상 더 좋은 것은 아니다’의 적용 범위를 특정 모델·과제에 한정한다.
+1. (0:00–1:00) 앞 장의 정보 분류에서 잠시 물러나 ‘양만 늘리면 충분한가?’라는 질문을 보는 목적을 밝힌다. ‘더 많은 Context가 항상 더 좋은 것은 아니다’의 적용 범위를 특정 모델·과제에 한정한다.
 2. (1:00–3:00) 왼쪽 Lost in the Middle의 여러 문서 질문 답변/key-value 검색, 오른쪽 RepoQA의 50개 Repository 코드 검색을 비교한다. 논문이 답한 질문과 승인된 핵심 결론만 말한다. 수치 그래프나 현재 Codex 성능 추정은 추가하지 않는다.
-3. (3:00–4:00) 화면 하단의 두 출처와 Notes의 원문 링크를 안내한다. 이 Demo의 현재 Codex Repository coding을 직접 시험한 연구가 아님을 명시한다.
+3. (3:00–4:00) 화면 하단의 두 출처와 Notes의 원문 링크를 안내한다. 이 Demo의 현재 Codex Repository coding을 직접 시험한 연구가 아님을 명시한다. 연구 소개를 마치고, 이번 Task에 필요한 상세 정보와 그 위치를 설계하는 질문으로 돌아간다.
 
 화면 진행: 왼쪽은 관련 정보의 위치를 바꾸는 질적 과제 구조, 오른쪽은 Repository에서 관련 코드를 찾는 과제 구조다. 칠해진 블록은 정보 위치 표시이며 점수·성능·현재 Codex 결과를 뜻하지 않는다. 수치 그래프처럼 해석하지 않는다.
 
@@ -1297,7 +1297,7 @@ Demo Operation: N/A. This is a research summary, not a deterministic product dem
 
 Audience Interaction: Use the opening question to invite a short mental prediction, then answer within the cited scope.
 
-Transition: “필요한 정보를 Task에 맞춰 어떻게 찾게 할까?”
+Transition: “이 연구가 Demo의 Routing을 검증한 것은 아닙니다. 이제 Task에 필요한 상세 정보를 어디서 찾게 할지 설계로 돌아가겠습니다.”
 
 Time Management: Keep the paper descriptions concise and reserve the final minute for the transfer boundary.
 
@@ -1319,13 +1319,13 @@ Mode Split: Lecture 3 minutes
 
 Primary Message: Context design asks what information a Task needs and when it should be available, rather than placing every detail in one place.
 
-Opening Question: “모든 정보를 한 곳에 넣지 않고 필요한 정보에 도달할 수 있을까?”
+Opening Question: “Task가 필요한 상세 정보에 도달하는 경로는 어떻게 설계할까?”
 
 Speaker Flow:
 
 1. (0:00–1:00) Move from the question of context amount to the question of relevance and timing.
 2. (1:00–2:00) Show `Task → Core Context → Relevant Detail when needed` as a course diagram.
-3. (2:00–3:00) Give one short C++ example and reserve STATE-03 for the next sequence.
+3. (2:00–3:00) Give one short C++ example and reserve STATE-03 for the next sequence. 이 장에서는 찾아가는 경로를 보았고, 다음 장에서는 그 출발점인 Core에 무엇을 남길지 정한다고 마무리한다.
 
 화면 진행: 현재 Task 질문에서 출발해 Core의 안내를 거쳐 상세 정보로 이동한다. 이 장의 초점은 어디로 찾아갈지이며, 다음 장에서 Core에 무엇을 남길지 정한다.
 
@@ -1343,7 +1343,7 @@ Demo Operation: N/A — STATE-03 results are reserved for the following section.
 
 Audience Interaction: Let the routing question sit for a moment; do not reveal the Trial result.
 
-Transition: “무엇을 항상 읽고, 무엇을 필요할 때 찾게 할까?”
+Transition: “경로를 봤으니, 이제 그 출발점인 Core에 무엇을 남길지 정해보겠습니다.”
 
 Time Management: Keep this to one diagram and one brief C++ example. No product-specific implementation details.
 
@@ -1365,11 +1365,11 @@ Mode Split: Lecture 4 minutes
 
 Primary Message: Root/Core Context can be a starting point that points toward detail, rather than an encyclopedia of all Project knowledge.
 
-Opening Question: “무엇을 항상 읽고, 무엇을 필요할 때 찾게 할까?”
+Opening Question: “그 경로의 출발점인 Core에는 무엇을 남길까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 왼쪽 기본 안내의 목적, 상시 제약, 상세 정보 위치를 읽는 순서대로 가리킨다.
+1. (0:00–1:00) 앞 장에서 본 탐색 경로의 출발점에 초점을 맞춘다. 왼쪽 기본 안내에 남길 목적, 상시 제약, 상세 정보 위치를 읽는 순서대로 가리킨다.
 2. (1:00–2:30) 오른쪽 architecture, image contracts, testing으로 이어지는 관계를 설명한다. 화살표는 교육용 정보 설계 관계다.
 3. (2:30–4:00) C++에서는 build/test 진입점과 기본 제약에서 해당 알고리즘 계약·하드웨어 조건으로 안내할 수 있음을 짧게 연결한다. Routing 성능 효과는 주장하지 않는다.
 
@@ -1550,8 +1550,8 @@ Opening Question: “Task별 차이를 관찰한 것만으로 완벽한 Routing�
 Speaker Flow:
 
 1. (0:00–1:00 / Demo) 강조한 첫 행에서 A는 image-contracts.md를 읽고 B는 읽지 않았음을 가리킨다.
-2. (1:00–3:00 / Demo) architecture는 둘 다 읽었고 testing은 A의 최종 실행에서만 읽었다고 확인한다. B는 설정·README·source도 확인했다. A의 더 넓은 읽기와 실행 간 변동도 남아 있다.
-3. (3:00–4:00 / Lecture) 완벽한 Routing 미입증, 토큰 절약·성능 개선 미측정을 분명히 말한다.
+2. (1:00–3:00 / Case) architecture는 둘 다 읽었고 testing은 A의 최종 실행에서만 읽었다고 확인한다. B는 설정·README·source도 확인했다. A의 더 넓은 읽기와 실행 간 변동도 남아 있다.
+3. (3:00–4:00 / Case) 완벽한 Routing 미입증, 토큰 절약·성능 개선 미측정을 분명히 말한다.
 4. (4:00–6:00 / Reflection) 이 비교로 말할 수 있는 사실과 없는 효과를 조용히 구분해 보게 한다.
 5. (6:00–7:00 / Q&A) 질문 하나를 받거나 준비된 질문을 던진다. 파일 접근 차이라는 관찰로 닫는다.
 
@@ -1597,7 +1597,7 @@ Speaker Flow:
 
 1. (0:00–2:00 / Transition) 왼쪽의 현재 목표, 공통 사실, 상세 정보 위치를 순서대로 회수한다.
 2. (2:00–4:00 / Transition) 오른쪽 ‘먼저 측정하고, 조사한 뒤 변경하고, 같은 조건으로 확인’이라는 반복 절차를 보여준다. Context 선택을 완전히 해결했다는 뜻은 아니라고 밝힌다.
-3. (4:00–10:00 / Q&A) ‘이 반복도 Context만의 문제일까?’로 질문을 받는다. 질문이 없으면 사실과 절차의 책임 차이를 짚고 ‘Agent가 Project를 알아도 왜 작업 방법은 달라질까?’를 던진다. 마지막 짧은 handoff도 이 6분 안에 포함한다.
+3. (4:00–10:00 / Q&A) ‘같은 작업 절차도 다시 써야 할까?’로 질문을 받는다. 질문이 없으면 사실과 절차의 책임 차이를 짚고 ‘Project 지식과 별개로 같은 조사·검증 절차도 매번 다시 적어야 할까?’를 던진다. 두 Task의 공통 절차를 다음 관찰 대상으로 삼는다. 마지막 짧은 handoff도 이 6분 안에 포함한다.
 
 Evidence / Source: BEAT-017–018, TRANS-005, TRIAL-006/007 as context for the upcoming problem. OBSERVED_PRODUCT for repeated prompt structure with PARTIAL attribution; TEACHING_MODEL for the three responsibilities and the transition question.
 
@@ -1613,7 +1613,7 @@ Demo Operation: N/A — use the concise recorded prompt-structure summary; no li
 
 Audience Interaction: 0–4분 Transition 뒤 4–10분 Q&A를 운영한다. 공개 응답은 선택이며 질문이 없으면 사실과 절차의 차이를 묻는 준비 질문을 사용한다. 별도 실습은 없다.
 
-Transition: “Agent가 Project를 알아도 왜 작업 방법은 달라질까?”
+Transition: “Project 지식과 별개로 같은 조사·검증 절차도 매번 다시 적어야 할까? 다음 두 성능 Task의 기록에서 반복된 부분을 보겠습니다.”
 
 Time Management: Transition 4분 → Q&A 6분, 총 10분을 유지한다. 마지막 handoff 문구도 Q&A 종료 전에 포함하며 추가 Transition 시간을 만들지 않는다. 답변이 길어지면 다음 질문을 받지 않고 ACT 3로 이동한다.
 
@@ -1641,7 +1641,7 @@ Speaker Flow:
 
 1. (0:00–2:00) 처음 30초에 그림으로 작업 대상을 확인한다. 왼쪽은 크기 변경, 오른쪽은 선언된 max_value를 255로 스케일하는 값 범위 변환이다. 0→0, 2048→128, 4095→255를 설명할 수 있지만 화질 개선으로 표현하지 않는다. 이어 두 Task goal을 비교한다.
 2. (2:00–4:00) 두 기록에 반복된 baseline, 조사, 계획, 변경, test, benchmark, 비교, review를 강조한다.
-3. (4:00–5:00) 반복 관찰과 원인 귀속을 분리하고 Prompt-only attribution이 PARTIAL임을 밝힌다.
+3. (4:00–5:00) 반복 관찰과 원인 귀속을 분리하고 Prompt-only attribution이 PARTIAL임을 밝힌다. 앞 ACT에서 남긴 질문을 회수해, 서로 다른 목표에서도 같은 조사·검증 절차가 다시 쓰였다는 점을 다음 설계 문제로 삼는다.
 
 화면 진행: 상단 두 그림은 목표 차이만 짧게 확인한다. 이후 중앙의 공통 절차를 Baseline부터 Review까지 차례로 가리키며 두 Task에서 반복된 부분을 본다. 그림은 실제 입출력이나 성능 전후 비교가 아니다.
 
@@ -1705,7 +1705,7 @@ Demo Operation: N/A.
 
 Audience Interaction: 세 질문과 항목을 조용히 따라오게 한다. 분류 실습은 요구하지 않는다.
 
-Transition: “작업 방법도 Repository가 재사용할 수 있을까?”
+Transition: “이 세 책임을 normalize 성능 조사 하나에 함께 적용해보겠습니다.”
 
 Time Management: 4분 동안 세 질문의 책임만 구분한다. Harness 전체 정의는 아직 제시하지 않는다.
 
@@ -1727,11 +1727,11 @@ Mode Split: Lecture 5 minutes
 
 Primary Message: Task Prompt는 현재 목표, Project Context는 사실과 제약, Reusable Workflow는 특정 작업을 수행하는 방법을 담는다.
 
-Opening Question: “현재 목표, Project 사실, 반복 절차는 어디에 속하는가?”
+Opening Question: “normalize 성능 조사 하나에 적용하면, 현재 목표와 Project 사실, 반복 절차는 각각 무엇일까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 첫 행의 normalize 성능 조사로 이번 Task 목표를 설명한다.
+1. (0:00–1:00) 앞 장에서 나눈 세 책임을 normalize 성능 조사라는 한 Task에 함께 적용한다. 첫 행을 이번 Task의 목표로 읽고, 아래 두 행은 그 목표를 수행할 때 지킬 사실과 재사용할 절차로 연결한다.
 2. (1:00–2:30) 둘째 행에서 기존 이미지 동작과 공개 계약은 작업 중 지켜야 할 Project Context임을 짚는다.
 3. (2:30–4:00) 셋째 행의 baseline → 조사 → 검증 → 비교를 재사용 Workflow와 연결한다.
 4. (4:00–5:00) 세 책임의 위치가 Prompt 밖일 수 있다는 것과 책임이 같다는 것을 구분한다.
@@ -1841,7 +1841,7 @@ Demo Operation: 기본 경로는 재구성된 TRIAL-008 기록이다. 실제 Cod
 
 Audience Interaction: 발견, 명시적 호출, 본문 확인의 세 단계를 따라오게 한다. 조작을 요구하지 않는다.
 
-Transition: “호출한 뒤 작업 Prompt에서는 무엇이 달라졌을까?”
+Transition: “다음에는 normalize와 image_statistics의 요청을 비교하겠습니다. 목표가 다른 두 Task에서 공통 절차를 어디에 두었는지 보겠습니다.”
 
 Time Management: 발견 1.5분, 호출·본문 근거 1.5분, 범위 제한 1분. 실시간 제품 설명을 추가하지 않는다.
 
@@ -1863,11 +1863,11 @@ Mode Split: Demo 3 minutes (HYBRID planned; activation unverified) + Case 3 minu
 
 Primary Message: TRIAL-007의 긴 Prompt가 포함하던 절차를 TRIAL-008에서는 명시적으로 호출한 Skill에 맡기고 Prompt에는 목표와 Task별 제약을 남겼다.
 
-Opening Question: “같은 작업 절차를 매번 Prompt에 길게 적어야 할까?”
+Opening Question: “목표가 다른 두 성능 Task에서도, 공통 절차를 둔 위치는 어떻게 달랐을까?”
 
 Speaker Flow:
 
-1. (0:00–1:30) TRIAL-007의 goal, 제약, 긴 procedure를 요약한다.
+1. (0:00–1:30) normalize와 image_statistics는 목표가 다른 Task이므로 성능 결과를 맞대는 장이 아님을 밝힌다. 두 요청에서 공통 절차를 어디에 두었는지에 초점을 맞추고, TRIAL-007의 goal, 제약, 긴 procedure를 요약한다.
 2. (1:30–3:00) TRIAL-008의 goal, Task별 제약, 명시적 Skill 호출을 비교한다.
 3. (3:00–5:00) 양쪽에 반복된 baseline, 조사, test, benchmark, compare, review를 잇는다.
 4. (5:00–6:00) 책임 위치 변화만 관찰됐고 토큰 절감은 측정되지 않았다고 정리한다.
@@ -2006,7 +2006,7 @@ Speaker Flow:
 1. (0:00–1:00) 이전 장의 후보 선택을 회수한다. 정식 STATE-04 baseline에서 변경한 결과이며 TRIAL-008의 후보 수치를 재사용한 것이 아님을 밝힌다.
 2. (1:00–2:30) 0에서 시작하는 실행 시간 막대를 변경 전 15.468 → 변경 후 10.769 ms/call 순서로 가리킨다. 동일 입력에서 상태별 7회 one-call 측정의 중앙값이다.
 3. (2:30–3:30) Python 할당 피크 6,675,804 → 380 bytes를 보여준다. 평탄화 임시 리스트 제거와 연결하되 프로세스 전체 메모리(RSS)나 일반 성능 보장으로 확대하지 않는다.
-4. (3:30–5:00) 집중 Test 1/1, 전체 11/11, CLI와 입력/결과 guard 통과를 확인한다. 이 결과가 Harness/Skill 단독 인과효과를 입증하지 않음을 말하고 Subagent 필요성 질문으로 넘긴다.
+4. (3:30–5:00) 집중 Test 1/1, 전체 11/11, CLI와 입력/결과 guard 통과를 확인한다. 이 결과가 Harness/Skill 단독 인과효과를 입증하지 않음을 말한다. 이 확인된 결과를 기준으로 다음 구간에서는 추가 구조가 필요했는지 점검하며, 먼저 Agent를 더 나눌 근거가 있었는지 묻는다.
 
 Evidence / Source: `plan/DEMO_MATRIX.md` STEP 07 §§191–200, STATE-04 → STATE-04-PERF; `plan/CLAIM_FREEZE.md` §8; DEC-0019. Baseline `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`, result `6153b81c0187dd7d82c88bd1817fb683c98eb431`; `image_statistics`; deterministic synthetic 1024×768, 786,432 pixels, max255; CPython3.9.6 / macOS26.6.2 arm64; same input fingerprint, seven one-call samples per state. Median 15.468→10.769 ms/call; separate tracemalloc call peak 6,675,804→380 bytes; six-field result guard, focused1/1, full11/11, CLI smoke PASS. TRIAL-008 is candidate history only.
 
@@ -2022,7 +2022,7 @@ Demo Operation: `production/ACT_3.pptx`의 S45 및 `production/preview/act3/S45.
 
 Audience Interaction: Case로 측정 조건과 verification을 짚고 일반화하지 않도록 안내한다.
 
-Transition: “이 결과를 위해 Subagent도 필요했을까?”
+Transition: “검증된 결과를 기준으로, Agent를 더 나눌 필요도 있었는지 점검해보겠습니다.”
 
 Time Management: 5분을 metric 2.5분, test/CLI guards 1.5분, attribution limit 1분으로 나눈다.
 
@@ -2044,11 +2044,11 @@ Mode Split: Demo 3 minutes (VISUAL) + Q&A 1 minute
 
 Primary Message: 현재 performance 작업은 하나의 Agent가 처리할 수 있었고 별도 Context의 병렬화 이득이 작아 Subagent를 정당화하지 않았다.
 
-Opening Question: “성능 작업을 여러 Agent로 나누는 게 이 사례에 도움이 됐을까?”
+Opening Question: “이미 확인한 결과에 이르기 위해, 여러 Agent로 일을 나누는 추가 구조도 필요했을까?”
 
 Speaker Flow:
 
-1. (0:00–1:00 / Demo) 조사 → 변경 → 검증을 왼쪽부터 가리킨다. 뒤 단계가 앞 결과를 사용하는 현재 성능 Task의 의존 관계다.
+1. (0:00–1:00 / Demo) 앞 장에서 검증한 성능 Task로 돌아와 추가 구조의 필요성을 점검한다고 밝힌다. Subagent는 일을 다른 Agent에 나누는 선택이라는 뜻으로 짧게 설명하고, 조사 → 변경 → 검증을 왼쪽부터 가리킨다. 뒤 단계가 앞 결과를 사용하는 현재 Task의 의존 관계다.
 2. (1:00–3:00 / Demo) 작업 독립성, 병렬 이득, 결과 통합 비용을 기준으로 이번 사례에서 Subagent 추가 근거가 부족했음을 설명한다.
 3. (3:00–4:00 / Q&A) 질문이 없으면 ‘어느 단계를 독립 실행할 수 있었나?’를 묻는다. 일반적 Subagent 불필요 주장으로 확장하지 않는다.
 
@@ -2094,7 +2094,7 @@ Speaker Flow:
 
 1. (0:00–1:00 / Lecture) 실제 Demo가 아닌 조건부 C++ 조사 예시라고 먼저 밝힌다.
 2. (1:00–3:00 / Demo) 성능 경로, 빌드 환경, 테스트 구조 조사가 서로 결과를 기다리지 않아도 된다는 가정을 비교한다. 세 화살표가 모이는 하단에서 결과 형식, 전달 지점, 합칠 책임을 시작 전에 정할 필요를 짚는다.
-3. (3:00–4:00 / Q&A) 질문이 없으면 ‘결과를 합칠 책임자는 누구인가?’를 묻는다. 작업과 Context가 강하게 연결되거나 조정 비용이 크면 보류한다고 닫는다.
+3. (3:00–4:00 / Q&A) 질문이 없으면 ‘결과를 합칠 책임자는 누구인가?’를 묻는다. 작업과 Context가 강하게 연결되거나 조정 비용이 크면 보류한다고 닫는다. 추가 구조의 필요성 점검을 이어가되, 다음에는 일을 나누는 문제에서 지식을 별도로 보존할 필요로 질문을 바꾼다.
 
 Evidence / Source: BEAT-023–025, DEC-0018. TEACHING_MODEL; hypothetical C++ case.
 
@@ -2110,7 +2110,7 @@ Demo Operation: Conceptual decision visual. Subagent 제품 실행이나 지원 
 
 Audience Interaction: Q&A 1분. 질문이 없으면 “결과를 합칠 책임자는 누구인가?”를 fallback 질문으로 사용한다.
 
-Transition: “반복 절차 말고, 다시 찾기 어려운 지식도 남길 필요가 있었을까?”
+Transition: “Agent를 나눌 필요를 봤으니, 이번에는 다음 작업을 위해 지식을 별도로 남길 필요도 있었는지 점검해보겠습니다.”
 
 Time Management: 세 조건, 보류 신호, 가정 예시를 각 한 번만 다룬다.
 
@@ -2132,11 +2132,11 @@ Mode Split: Demo 2 minutes (VISUAL) + Case 2 minutes
 
 Primary Message: 현재 Demo의 계약·명령·구조·절차·Trial 기록은 각각 유지 중인 Source of Truth에 있었고, 별도 Memory 후보는 발견되지 않았다.
 
-Opening Question: “다음 작업에서 다시 발견하기 어려운 지식은 무엇일까?”
+Opening Question: “다음 작업을 위해, 기존 출처와 별도로 보존할 지식도 있었을까?”
 
 Speaker Flow:
 
-1. (0:00–2:00 / Demo) 네 행의 질문을 실제 유지 위치에 연결한다. crop 계약은 코드/계약 문서, 모듈 순서는 architecture, 조사 절차는 Skill, 측정 결과는 날짜 있는 Trial/Git 기록이다.
+1. (0:00–2:00 / Demo) 앞의 Agent 분리 검토에 이어, 이번에는 지식을 별도로 남길 필요를 점검한다고 밝힌다. 먼저 기존 출처를 찾으며 네 행의 질문을 실제 유지 위치에 연결한다. crop 계약은 코드/계약 문서, 모듈 순서는 architecture, 조사 절차는 Skill, 측정 결과는 날짜 있는 Trial/Git 기록이다.
 2. (2:00–3:00 / Case) 현재 Demo에서 별도 Memory로 남길 후보를 찾지 못한 제한된 감사 결과임을 밝힌다.
 3. (3:00–4:00 / Case) 새 기록을 만들기 전에 기존 출처를 먼저 찾는다는 질문을 다음 판단 기준으로 연결한다.
 
@@ -2480,7 +2480,7 @@ STATE-04-PERF의 기록된 task, 코드 경로, 입력, runtime, host 및 검증
 1분 Reflection: “성공한 현재 상태도 Project 변화 뒤 다시 확인해야 할까?” 개인 생각만 하고 응답을 요구하지 않는다.
 
 **Transition:**
-Project가 정당한 이유로 바뀌면 작업 Workflow도 함께 바뀔까?
+“이 실제 성공은 기준점으로 남기고, 별개의 가상 사례에서 Project와 Workflow가 어떻게 어긋날 수 있는지 보겠습니다.” S56으로 이동한다.
 
 **Time Management:**
 Lecture 3분 + Reflection 1분. 기존 ACT 3 설명을 다시 길게 열지 않는다.
@@ -2515,7 +2515,7 @@ Demo 2분 (VISUAL)
 “지금 맞는 Project Workflow는 계속 맞을까?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / VISUAL Demo) 실제 graypipe 이력과 별개인 가상 사례임을 먼저 말한다.
+1. (0:00–0:30 / VISUAL Demo) S55의 실제 성공을 기준점으로 남기고, 여기서부터 실제 graypipe 이력과 별개인 가상 사례를 시작한다고 말한다.
 2. (0:30–1:30 / VISUAL Demo) 왼쪽 프로젝트 기준과 오른쪽 재사용 지침이 모두 단위 테스트를 가리키는 모습을 비교한다.
 3. (1:30–2:00 / VISUAL Demo) 당시 기준에는 일치하는 절차였다는 출발점을 남긴다. 다음 장의 변경을 미리 설명하지 않는다.
 
@@ -2708,7 +2708,7 @@ Context, workflow, toolchain 또는 test environment 중 원인이 있는 layer�
 A/B/C의 효과 범위를 소리 없이 비교하게 한다. 원인이 정해졌다고 일반화하지 않는다.
 
 **Transition:**
-보이는 실패 지점과 실제 원인 Layer는 항상 같을까?
+“앞에서는 원인이 확인됐을 때의 대응을 봤습니다. 이제 그 원인을 어떻게 확인할지 보겠습니다.” S60으로 이동한다.
 
 **Time Management:**
 CAPTURED 2분. Visual matrix만 설명하고 새 Product 근거를 추가하지 않는다.
@@ -2743,7 +2743,7 @@ Lecture 1분 + Demo 1분 (CAPTURED)
 “실패가 보인 Layer와 원인이 있는 Layer는 항상 같을까?”
 
 **Speaker Flow:**
-1. (0:00–0:45 / Lecture) “요청한 검증이 충분한가?”라는 증상만으로 원인을 정할 수 없다고 설명한다.
+1. (0:00–0:45 / Lecture) S59의 선택은 원인 확인을 전제로 했음을 짚고, 이제 그 전제를 확인하는 방법을 본다고 안내한다. “요청한 검증이 충분한가?”라는 증상만으로 원인을 정할 수 없다고 설명한다.
 2. (0:45–1:00 / Lecture) 현재 기준, 작업 절차, 실행 조건, 코드 동작을 다른 조사 대상으로 분리한다.
 3. (1:00–2:00 / CAPTURED Demo) 오른쪽의 Context, Workflow, 환경·권한, 제품 코드 질문을 차례로 가리킨다. 어느 하나를 원인으로 확정하지 않는다.
 
@@ -3076,7 +3076,7 @@ DEMO-04A  ·  conceptual regression / maintenance model
 누적 규칙이 낳을 수 있는 bloat, conflict, narrow fit을 같이 본다.
 
 **Transition:**
-관찰·원인·변경·평가가 연결될 때 이를 어떤 Engineering 관점으로 볼까?
+“지금까지 따로 본 관찰·원인 판단·변경·평가를, 다음 작업까지 이어지는 하나의 운영 순서로 묶겠습니다.” S66으로 이동한다.
 
 **Time Management:**
 Lecture 4분. 통계적 ML overfitting과 동일시하거나 보편 법칙으로 말하지 않는다.
@@ -3108,10 +3108,10 @@ Lecture 9분 + Demo 2분 (VISUAL)
 실행 결과와 반복되는 마찰을 관찰하고 원인과 재발 가능성을 판단한 뒤 적절한 System을 바꾸고 결과를 다시 평가할 때 Feedback은 System Improvement로 이어진다.
 
 **Opening Question:**
-“Feedback이 언제 Engineering이 되는가?”
+“앞에서 나누어 본 판단을 어떤 순서로 이어야 다음 작업도 달라질까?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 실행과 관찰의 질문을 구분한다. 앞의 가상 사례에서 지시 범위 비교가 실행 결과와 다름을 짚는다.
+1. (0:00–2:00 / Lecture) 앞에서 따로 본 판단을 다섯 단계 운영 순서로 통합한다고 안내한다. 실행과 관찰의 질문을 구분하고, 가상 사례의 지시 범위 비교가 실행 결과와 다름을 짚는다.
 2. (2:00–5:00 / Lecture) 원인 판단에는 실행 경로·선택한 지침 등 추가 확인이 필요함을 S61의 논리로 회수한다.
 3. (5:00–7:00 / Lecture) 시스템 변경은 원인 Layer를 바꾸는 일이며, Prompt 보정과 재사용 Workflow 갱신의 범위가 다름을 회수한다.
 4. (7:00–9:00 / Lecture) 같은 작업과 다른 대표 작업의 재평가가 답하는 질문을 비교한다. 새 결과는 제시하지 않는다.
@@ -3141,7 +3141,7 @@ DEC-0023  ·  course operational model  ·  no product loop
 “Feedback은 어느 순간 System change가 되는가?”를 생각하게 하고, 응답 제출은 요구하지 않는다.
 
 **Transition:**
-표기를 바꾸어 실제 교육 제작 기록에서의 별도 Loop를 살펴본다.
+“이번에는 실제 교육 제작 기록에서 Trial의 평가·보고 기준을 살펴보겠습니다. 어떤 관찰이 그 기준을 돌아보게 했는지부터 보겠습니다.” S67로 이동한다.
 
 **Time Management:**
 Lecture 9분, 마지막 VISUAL Demo 2분. R1–R5는 approximate reveal cue이며 전체가 항상 표시되는 정적 도식으로 진행 가능.
@@ -3173,14 +3173,14 @@ Demo 2분 (CAPTURED)
 TRIAL-006은 Codex CLI에서 수행한 실제 성능 조사다. Global Skills와 시작 경고가 함께 관찰되어 Prompt-only attribution은 PARTIAL이다.
 
 **Opening Question:**
-“이번에는 실제 제작 과정에서 무슨 일이 있었나?”
+“실제 제작 과정에서 Trial의 평가·보고 기준을 돌아보게 한 관찰은 무엇이었나?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / CAPTURED Demo) OBSERVED META 표식과 이중선을 가리키며 앞의 가상 사례를 닫고 실제 교육 제작 기록으로 전환한다.
+1. (0:00–0:30 / CAPTURED Demo) OBSERVED META 표식과 이중선을 가리키며 앞의 가상 사례를 닫고 실제 교육 제작 기록으로 전환한다. 이번에 살펴볼 System은 Trial의 평가·보고 기준이라고 안내하고, 그 기준을 돌아보게 한 TRIAL-006의 관찰부터 연다.
 2. (0:30–1:15 / CAPTURED Demo) 성능 작업 요청, Global Skill이 관여한 실행 환경, Prompt만의 효과로 분리하기 어려운 결과 해석의 세 영역을 짚는다.
 3. (1:15–2:00 / CAPTURED Demo) PARTIAL은 결과가 없다는 뜻이 아니라 원인 귀속의 한계라고 열고 다음 장에서 두 질문을 나눈다.
 
-화면 진행: 이 장은 실제 사건을 여는 화면이다. TRIAL-006 요청과 함께 관찰된 Global Skill/시작 경고를 먼저 짚고, 인과 해석의 두 질문은 다음 장으로 넘긴다. 앞의 가상 stale 사례와 별개임을 이중선과 표식으로 확인한다.
+화면 진행: 상단의 Trial 평가·보고 기준은 이번 실제 사례에서 살펴볼 대상을 안내한다. 이 장은 실제 사건을 여는 화면으로, TRIAL-006 요청과 함께 관찰된 Global Skill/시작 경고를 먼저 짚고 인과 해석의 두 질문은 다음 장으로 넘긴다. 앞의 가상 stale 사례와 별개임을 이중선과 표식으로 확인한다.
 
 **Evidence / Source:**
 TRIAL-006  ·  DEC-0016  ·  TRIAL-007/008
@@ -3239,7 +3239,7 @@ resize_nearest 측정은 기록된 코드·입력·runtime·host 범위에서 �
 “측정 결과가 유효해도 원인을 Prompt 하나로 좁힐 수 있을까?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / CAPTURED Demo) 왼쪽 “측정 결과는 유효한가?”와 오른쪽 “무엇이 결과를 만들었나?”를 독립된 질문으로 읽는다.
+1. (0:00–1:00 / CAPTURED Demo) 이번 수치는 S45의 image_statistics Benchmark와 별개인 TRIAL-006 resize_nearest 기록임을 먼저 짚는다. 왼쪽 “측정 결과는 유효한가?”와 오른쪽 “무엇이 결과를 만들었나?”를 독립된 질문으로 읽는다.
 2. (1:00–2:00 / CAPTURED Demo) input/output hash와 같은 조건의 7회 one-call 측정 기록을 확인한다. 144.2→33.5 ms/call median은 작은 보조정보다. 합성 640×480 gray(max4095)→960×720, CPython 3.9.6, macOS 26.6.2 arm64 범위를 말한다.
 3. (2:00–3:15 / CAPTURED Demo) performance-goal Global Skill이 evaluator·ledger·threshold에 관여한 기록을 설명한다. 수치 변화의 직접 원인이라고 단정하지 않는다.
 4. (3:15–4:00 / CAPTURED Demo) Hook 경고와 효과, MCP 시작 오류와 작업 결과를 구분하고, 결과와 원인 해석을 별도로 기록해야 한다고 닫는다.
@@ -3457,7 +3457,7 @@ Loop의 system change는 평가·보고 거버넌스일 수 있으나 outcome은
 Changed/Unknown 두 칸을 비교하며 Meta case를 정리한다.
 
 **Transition:**
-이 원리를 C++ Vision Project에 옮기면 무엇을 확인할까?
+“평가 체계를 바꾼 뒤에도 확인할 것이 남았습니다. 이 원리를 C++ Vision 업무로 옮겨, 환경이 달라졌을 때 검증 조건을 어떻게 다시 볼지 생각해 보겠습니다.” S72로 이동한다.
 
 **Time Management:**
 Lecture 1분 + Case 2분. preceding slides를 다시 풀어 설명하지 않는다.
@@ -3486,7 +3486,7 @@ Opening Question: “같은 문제가 두 번째로 생기면 다시 Prompt를 �
 
 Speaker Flow:
 
-1. (0:00–2:00 / Case) GPU·빌드·측정 조건이 달라진 상황을 가정한다. 실제 C++ 사건이나 구체적 버전 조합을 주장하지 않는다.
+1. (0:00–2:00 / Case) 앞의 평가 원리를 업무의 검증 조건에 적용해 본다고 안내하고 GPU·빌드·측정 조건이 달라진 상황을 가정한다. 실제 C++ 사건이나 구체적 버전 조합을 주장하지 않는다.
 2. (2:00–4:30 / Case) 그림의 입력·코드·장치와 기존 가정·측정 조건 질문을 가리킨다. 기존 판단이 어떤 조건에서 맞았는지, 입력과 실행 조건이 비교 가능한지 묻는다. 관찰된 성능 저하나 숫자를 만들지 않는다.
 3. (4:30–7:00 / Case) 출력 그림과 기능 계약 질문에서 성능과 함께 다시 확인할 동작 범위를 살핀다. 반복 신호→원인 Layer 조사→관련 시스템 변경→Benchmark/Regression 재확인으로 연결한다.
 4. (7:00–9:00 / Reflection) 하단 질문을 가리켜 자기 업무의 반복 마찰 하나를 마음속으로 떠올리게 한다. 기록·답변·발표는 요구하지 않는다.
@@ -3509,7 +3509,7 @@ Demo Operation: 정적 화면과 speaker-led highlighting을 사용한다. 화�
 
 Audience Interaction: 7–9분 개인 Reflection은 답변·공유 없이 진행한다. 9–16분 Q&A에서는 실제 회사 환경의 검증되지 않은 해결책을 단정하지 않고 어떤 조건을 확인해야 하는지로 답한다.
 
-Transition: “이제 기능이 아니라, 처음의 문제에서 Loop까지 이어진 Story를 다시 연결해 보겠습니다.” ACT 5 S73으로 넘긴다.
+Transition: “이제 처음의 질문부터 Task·Context·Harness·Loop까지, 어떤 문제에 대응해 왔는지 전체 Story를 다시 연결하겠습니다.” ACT 5 S73으로 넘긴다.
 
 Time Management: 0–7 Case 7분, 7–9 Reflection 2분, 9–16 Q&A 7분, 16–20 Transition 4분으로 20분을 유지한다. Cutoff cue: “이 질문은 여기까지 정리하고, 이제 처음 문제부터 지금의 Loop까지 연결해 보겠습니다.” 실제 20분 리허설은 수행하지 않았다. 0–2분 전체 그림/변경 표식, 2–4:30분 입력·코드·장치의 가정과 비교 조건, 4:30–7분 출력·기능 계약을 설명한다. 이후 7–9분 Reflection, 9–16분 Q&A, 16–20분 Transition을 유지한다.
 
@@ -3569,7 +3569,7 @@ TEACHING_MODEL · BEAT-060 · 앞선 ACT의 Story callback. 새 Demo는 실행�
 Opening question을 띄우고 개인적으로 떠올리게 한다. 답변이나 현재 수준 발표를 요구하지 않는다.
 
 **Transition:**
-“이 흐름이 하나의 Repository에서는 어떤 변화로 기록됐을까요?” S74로 넘긴다.
+“전체 교육 모델 가운데, 하나의 Repository에서 실제로 확인한 변화만 다시 보겠습니다.” S74로 넘긴다.
 
 **Time Management:**
 총 4분, Lecture 4분. 각 단계 설명을 한 문장에 제한하고 앞선 ACT 내용을 다시 강의하지 않는다.
@@ -3598,7 +3598,7 @@ Opening Question: “이 Repository는 어떤 문제를 만나며 바뀌었나?�
 
 Speaker Flow:
 
-1. (0:00–1:00 / Lecture) 일곱 이름을 번호·화살표 순서로 읽는다. 상단 왼쪽에서 오른쪽으로, 다음 하단 오른쪽에서 왼쪽으로 이동한다. State는 당시 문제에 대응한 이력임을 말한다.
+1. (0:00–1:00 / Lecture) 전체 교육 모델 가운데 실제 Product 이력만 회수하는 장임을 안내한다. 일곱 이름을 번호·화살표 순서로 읽고, 상단 왼쪽에서 오른쪽으로, 다음 하단 오른쪽에서 왼쪽으로 이동한다. State는 당시 문제에 대응한 이력임을 말한다.
 2. (1:00–2:30 / VISUAL Demo) 아래 세 발췌(S16 crop 수정, S32 상세 문서 분리, S45 같은 조건의 성능 비교)를 가리키며 위의 일곱 State 변화와 연결한다. 작은 그림은 기억을 회수하는 용도이며 코드·경로·수치를 다시 읽는 시간이 아니다.
 3. (2:30–3:00 / VISUAL Demo) STATE-04-PERF의 bounded endpoint에서 닫는다. Benchmark 준비 commit은 추가 State가 아니다.
 
@@ -3678,7 +3678,7 @@ OBSERVED_PRODUCT / TEACHING_MODEL · STATE-04-PERF와 DEC-0018. 사용한 요소
 차이를 보고 “Use what the problem justifies”라는 기준을 가져간다. 도구 선택 답변이나 투표는 요구하지 않는다.
 
 **Transition:**
-“AI에게 더 많은 일을 맡겨도 개발자에게 남는 책임은 무엇일까요?” S76으로 이동한다.
+“필요한 구성요소를 선택한 뒤에도, 그 결과가 충분한지 판단하는 책임은 남습니다. 무엇을 확인하고 완료를 수용해야 할까요?” S76으로 이동한다.
 
 **Time Management:**
 Lecture 2분. 구성요소를 다시 강의하지 않고 판단 근거와 범위에 집중한다.
@@ -3713,7 +3713,7 @@ Agent는 조사·생성·변경·실행·비교를 도울 수 있다. 개발자�
 “AI가 더 많은 일을 맡아도 개발자가 계속 책임지는 것은 무엇인가?”
 
 **Speaker Flow:**
-1. (0:00–0:40 / Lecture) AI가 도울 수 있는 행동은 상단 한 문장으로만 읽는다.
+1. (0:00–0:40 / Lecture) S75의 구성요소 선택에서 결과를 수용하는 판단으로 이어 간다. AI가 도울 수 있는 행동은 상단 한 문장으로만 읽는다.
 2. (0:40–2:20 / Lecture) 네 질문을 차례로 짚는다: 해결할 목표, 적절한 선택, 확인 근거, 완료 수용 여부.
 3. (2:20–3:00 / Lecture) 역할의 절대적 분업이 아니라 개발자의 판단과 책임을 강조하고 S77의 운영 모델로 연결한다.
 
@@ -3841,7 +3841,7 @@ Task, Context, Workflow, Verification, Repeated Failure Loop 중 현재 가장 �
 **Speaker Flow:**
 1. (0:00–1:00 / Case) C++ Vision의 병목 범위, 빌드 조건·계약·하드웨어 가정, 분석·측정 절차를 업무에 비춰 보는 교육용 예시라고 밝힌다. 실제 프로젝트 사건이 아니다.
 2. (1:00–3:00 / Transition) 다섯 행의 증상 질문을 읽으며 현재 자기 업무와 가까운 것이 있는지 마음속으로 떠올리게 한다. 같은 수준의 선택지이며 반드시 위에서부터 도입하는 순서가 아니다.
-3. (3:00–5:00 / Transition) Task/Context/Workflow/Verification/Feedback의 새 개념 설명은 하지 않고 S79의 개인 성찰 세 질문으로 좁혀 준다.
+3. (3:00–5:00 / Transition) 떠올린 마찰 한 곳을 다음 작업의 작은 행동 하나로 좁히겠다고 안내하고 S79의 세 질문으로 연결한다. Task/Context/Workflow/Verification/Feedback의 새 개념 설명은 하지 않는다.
 
 화면 진행: 자기 업무의 반복 마찰 한 곳을 고르는 적용 질문에 집중한다. 모든 Layer를 도입하라는 체크리스트로 읽지 않고 현재 문제와 가장 가까운 한 곳만 고르게 한다.
 
@@ -3867,7 +3867,7 @@ Primary bridge. 예시: 성능 병목 조사 Task; build mode/algorithm contract
 선택지를 강사 주도로 비교한다. 청중에게 선택 발표, 투표, 실습, 제출을 요구하지 않는다.
 
 **Transition:**
-“마지막으로, 각자 업무에서 반복되는 마찰을 개인적으로 생각해 봅시다.” S79로 이동한다.
+“방금 떠올린 한 곳에서, 다음 작업 때 다르게 해 볼 작은 행동 하나를 마음속으로 골라 봅시다.” S79로 이동한다.
 
 **Time Management:**
 Case 1분 + Transition 4분 = 5분. Transition 동안 새 사례를 열지 않고 reflection handoff만 수행한다.
@@ -3899,12 +3899,12 @@ Lecture 2분 + Reflection 2분
 반복해서 적는 설명, AI가 다시 찾는 Project 사실, 반복되는 실패에서 고칠 System layer 가운데 한 가지를 생각한다.
 
 **Opening Question:**
-“내가 AI와 개발하는 방식에서 다음에 바꿀 수 있는 것은 무엇인가?”
+“방금 떠올린 마찰에서, 다음 작업 때 다르게 해 볼 작은 행동 하나는 무엇인가?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) S78에서 떠올린 반복 마찰을 이어 간다.
-2. (1:00–2:00 / Lecture) 화면의 반복 설명, 재탐색하는 프로젝트 사실, 두 번째 실패의 수정 위치 세 질문을 차례로 읽는다.
-3. (2:00–4:00 / Reflection) 두 분 동안 조용히 개인적으로 생각할 시간을 둔다. 답변·기록·발표·제출을 요구하지 않는다. 시간 뒤 S80 질문 시간으로 넘어간다.
+1. (0:00–1:00 / Lecture) S78에서 떠올린 반복 마찰 한 곳을 이어 받아, 다음 작업에서 다르게 해 볼 작은 행동 하나를 고르는 시간이라고 안내한다.
+2. (1:00–2:00 / Lecture) 화면의 반복 설명 하나를 줄이는 방법, 다시 찾는 프로젝트 사실 하나를 둘 곳, 같은 실패 때 먼저 확인할 Layer의 세 질문을 읽는다. 자신과 가까운 질문 하나를 바탕으로 다음 행동을 떠올리게 한다.
+3. (2:00–4:00 / Reflection) 두 분 동안 다음 행동 하나를 조용히 개인적으로 고를 시간을 둔다. 답변·기록·발표·제출을 요구하지 않는다. 시간 뒤 S80 질문 시간으로 넘어간다.
 
 화면 진행: 이번 장은 개인적인 선택을 위한 침묵을 허용한다. 앞의 여정·State·모델을 다시 강의하지 않고 작은 다음 행동 하나를 생각하게 한다. 답변·공유·공개 약속은 요구하지 않는다.
 
@@ -3927,7 +3927,7 @@ TEACHING_MODEL · 승인된 private reflection prompt. 개인 업무에 대한 �
 N/A — 별도 Demo 없음.
 
 **Audience Interaction:**
-공유하지 않는 개인 성찰로 진행한다. 응답을 받기 위해 기다리지 않는다. 2분 뒤 바로 S80으로 이동한다.
+떠올린 마찰에 맞는 다음 행동 하나를 마음속으로 고르는 개인 성찰로 진행한다. 공유나 실천 약속을 요구하지 않고 응답을 받기 위해 기다리지 않는다. 2분 뒤 바로 S80으로 이동한다.
 
 **Transition:**
 “이제 질문을 받고, 마지막 공통 모델로 마무리하겠습니다.” S80으로 넘긴다.

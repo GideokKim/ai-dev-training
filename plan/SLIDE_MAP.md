@@ -278,7 +278,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** Context 탐색과 목표·판단 책임을 서로 다른 역할로 본다.
 - **C++ Vision Bridge:** 없음
 - **Speaker Intent:** 초급자는 다음에 시도할 행동을, 숙련자는 Context와 의도의 경계를 가져가도록 한 화면에 연결한다.
-- **Transition:** 청중에게 남은 문제를 스스로 답해보게 한다.
+- **Transition:** “이 구분을 여러분이 지금 맡기고 싶은 일에 대입해 보겠습니다.”라고 S09의 개인 적용 질문을 연다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005
@@ -302,7 +302,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 정보 접근성과 Task specification을 분리해 생각한다.
 - **C++ Vision Bridge:** 없음
 - **Speaker Intent:** 답을 먼저 알려주지 않고 짧은 대화로 다음 문제를 청중이 예상하게 한다.
-- **Transition:** ACT 1의 구체적인 Task 조건 문제로 넘어간다.
+- **Transition:** “방금 떠올린 원하는 결과를 작업 요청으로 전달하려면 무엇이 더 필요할까요?”라는 질문으로 `Chatbot → Prompt`를 handoff한다. ACT 1의 내부 구조는 소개하지 않는다.
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Transition 3분 + Q&A 3분 = 6분
 - **Evidence / Decision References:** BEAT-003, BEAT-004, DEMO-01, CLM-0002, CLM-0009, OQ-003, OQ-005
@@ -328,7 +328,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 코드 접근, Task 목표, 제약, 완료 증거를 구분한다.
 - **C++ Vision Bridge:** 없음
 - **Speaker Intent:** ACT 0의 질문을 실제 개발 요청의 빈 조건으로 전환하되, Codex의 결함 사례처럼 말하지 않는다.
-- **Transition:** 어떤 Task 정보가 빠졌는지 약한 요청 비교로 확인한다.
+- **Transition:** “남은 결정을 더 분명히 보기 위해, 앞서 조사한 crop 사례로 좁혀 보겠습니다.”라고 S11의 교육용 요청 예시로 이동한다.
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Case 7분 = 7분
 - **Evidence / Decision References:** BEAT-004, TRIAL-001, CLM-0002
@@ -352,7 +352,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 저장소 접근 권한과 작업 의도 전달은 별개의 문제임을 확인한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** 빠진 정보를 지적하기보다, Agent에게 남겨진 결정을 청중이 먼저 알아차리게 한다.
-- **Transition:** Slide 12에서 같은 요청을 개발자 결정 관점으로 해부한다.
+- **Transition:** “Agent에게 남아 있던 결정을 개발자가 답할 질문으로 바꿔 보겠습니다.”라고 S12로 간다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** BEAT-004, CLM-0002
@@ -376,7 +376,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 작업 경계와 완료 증거를 어디까지 고정할지 본다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** 잠시 각자 익숙한 요청을 떠올리는 비공개 Reflection을 진행한다. 발언이나 실습은 요구하지 않는다.
-- **Transition:** Slide 13에서 질문들을 실용적인 Task Specification 구조로 묶는다.
+- **Transition:** “앞의 질문을 묶고, 필요한 사실과 작업 순서를 함께 명시하는 틀로 정리해 보겠습니다.”라고 S13의 Task Specification으로 이동한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 3분 + Reflection 1분 = 4분
 - **Evidence / Decision References:** BEAT-004, CLM-0002
@@ -425,7 +425,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 작업 범위, 사전 계획, 허용된 변경을 검토 가능한 경계로 다룬다.
 - **C++ Vision Bridge:** 짧은 inset으로 Release build, public API/ABI, hardware constraint, test/benchmark 예를 든다. 도구 목록 강의는 하지 않는다.
 - **Speaker Intent:** After의 단어 수가 아니라 금지된 변경과 완료 증거가 어떻게 명시됐는지 짚는다.
-- **Transition:** “이 요청을 받은 Agent는 수정부터 시작할까?”라는 질문으로 Trial 관찰에 들어간다.
+- **Transition:** “여기까지는 교육용 구성 예시였습니다. 이제 과거 TRIAL-002에서 요청한 흐름과 기록된 행동을 살펴보겠습니다.”라고 실제 기록의 관찰 기준으로 이동한다.
 - **Estimated Time:** 9분
 - **Delivery Mode Allocation:** Lecture 6분 + Case 3분 = 9분
 - **Evidence / Decision References:** BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007
@@ -545,7 +545,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** C++ 프로젝트에는 GoogleTest/CTest, Release build, Google Benchmark/profiler, public API/ABI 확인 등을 상황에 맞게 연결할 수 있다.
 - **C++ Vision Bridge:** 위 예시를 짧은 inset으로 둔다. Python Demo를 C++ 도구 설명으로 전환하지 않는다.
 - **Speaker Intent:** 도구 이름보다 `Goal → Constraint → Verification`의 전이를 강조한다.
-- **Transition:** 다음 작업에도 반복할 정보를 청중이 구분하도록 질문을 연다.
+- **Transition:** “방금 정한 테스트 명령과 보존 조건은 다음 작업에도 필요할 수 있습니다. 이 설명을 매번 다시 적어야 할까요?”라고 검증 지침의 재사용에서 S20의 정보 수명 질문으로 연결한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 4분 + Reflection 1분 = 5분
 - **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027
@@ -763,7 +763,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 사실, Task별 세부정보, 절차를 구별하고 어디서 유지할지 생각한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** 분류표를 암기 목록으로 만들지 않고, 관련성과 제공 시점을 생각하게 한다.
-- **Transition:** Slide 29에서 Context 길이와 정보 위치에 관한 연구 범위를 제한적으로 살펴본다.
+- **Transition:** “필요한 때 찾게 하는 대신 모두 넣어두면 충분할까? 이 질문을 Long Context 연구의 범위 안에서 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005
@@ -787,7 +787,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 연구 결과의 대상·조건과 현재 제품 주장을 분리한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** “Context가 길면 무조건 실패한다”가 아니라 위치와 관련성에 대한 제한적 주의로 설명한다.
-- **Transition:** “필요한 정보를 Task에 맞춰 어떻게 찾게 할까?”
+- **Transition:** “이 연구가 Demo의 Routing을 검증한 것은 아닙니다. 이제 Task에 필요한 상세 정보를 어디서 찾게 할지 설계로 돌아가겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-013, OQ-006, CLM-0014, CLM-0015
@@ -811,7 +811,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 관련 문서로 연결하는 방식의 발견성·유지 비용을 다음 문제로 본다.
 - **C++ Vision Bridge:** 작은 예 하나로 일반 Project 제약과 Task별 CMake 또는 알고리즘 계약을 구분한다. CMake·hardware 항목을 나열하지 않고 세부 Bridge는 다음 구간에 이어간다.
 - **Speaker Intent:** “더 많은 Context”에서 “Task에 필요한 Context를 찾게 하는 방법”으로 질문을 바꾼다.
-- **Transition:** Slide 31에서 STATE-03을 통해 “Agent가 Task에 맞는 상세 Context를 어떻게 찾고 받는가?”를 연다.
+- **Transition:** “경로를 봤으니, 이제 그 출발점인 Core에 무엇을 남길지 정해보겠습니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015
@@ -955,7 +955,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** Context와 workflow의 역할을 구분하고 다음 설계 문제를 찾는다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** 질문과 Discussion으로 ACT 2를 마무리한다. Hands-on이나 필수 답변은 요구하지 않는다.
-- **Transition:** “Agent가 Project를 알아도 왜 작업 방법은 달라질까?”
+- **Transition:** “Project 지식과 별개로 같은 조사·검증 절차도 매번 다시 적어야 할까? 다음 두 성능 Task의 기록에서 반복된 부분을 보겠습니다.”
 - **Estimated Time:** 10분
 - **Delivery Mode Allocation:** Transition 4분 + Q&A 6분 = 10분
 - **Evidence / Decision References:** BEAT-017, BEAT-018, TRANS-005, TRIAL-006, CLM-0003, CLM-0005, CLM-0014, CLM-0006, CLM-0029, CLM-0030
@@ -1005,7 +1005,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 추가 Project 정보가 해결하지 못하는 workflow 문제를 구분한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** Workflow를 가능한 Project asset으로 보게 하되, 곧바로 Skill 사용법을 설명하지 않는다.
-- **Transition:** “작업 방법도 Repository가 재사용할 수 있을까?”
+- **Transition:** “이 세 책임을 normalize 성능 조사 하나에 함께 적용해보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-019, TRIAL-006, CLM-0006, CLM-0029
@@ -1077,7 +1077,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 발견과 명시적 호출을 구분하고, 확인된 인터페이스 범위도 구분한다.
 - **C++ Vision Bridge:** 없음. 이 장에서 억지로 연결하지 않는다.
 - **Speaker Intent:** 기능 사용법 강의가 아니라, 반복 절차가 어디에 놓이기 시작했는지 보여준다.
-- **Transition:** 호출한 뒤 작업 프롬프트에서는 무엇이 달라졌을까?
+- **Transition:** “다음에는 normalize와 image_statistics의 요청을 비교하겠습니다. 목표가 다른 두 Task에서 공통 절차를 어디에 두었는지 보겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Demo 5분 (HYBRID) = 5분
 - **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005
@@ -1180,7 +1180,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 원인에 대한 주장과 시스템을 사용해 검증한 관찰 결과를 분리한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** 명시적인 성공 장면은 보여주되, 성능 변화의 인과를 Harness에 귀속하지 않는다.
-- **Transition:** 이 결과를 위해 Subagent도 필요했을까?
+- **Transition:** “검증된 결과를 기준으로, Agent를 더 나눌 필요도 있었는지 점검해보겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** BEAT-022, BEAT-037, STATE-04-PERF, STATE-04, TRIAL-008, INV-VERIFY-001, STATE-00, DEC-0018, INV-DEMO-003
@@ -1228,7 +1228,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** Subagent 도입 전 Context 경계와 결과 통합 비용을 설계한다.
 - **C++ Vision Bridge:** 성능·빌드·테스트 조사가 서로 독립적일 수 있는 경우만 예시로 든다.
 - **Speaker Intent:** 기능 소개 없이 의사결정 기준을 전달한다.
-- **Transition:** 반복 절차 말고, 다시 찾기 어려운 지식도 남길 필요가 있었을까?
+- **Transition:** “Agent를 나눌 필요를 봤으니, 이번에는 다음 작업을 위해 지식을 별도로 남길 필요도 있었는지 점검해보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Demo 2분 (VISUAL) + Q&A 1분 = 4분
 - **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025
@@ -1422,7 +1422,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 이후 사례와 실제 Product history의 증거 경계를 분리한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** Loop 도입을 위해 성공을 실패였던 것처럼 다시 해석하지 않는다.
-- **Transition:** Project가 정당한 이유로 바뀌면, 작업 Workflow도 함께 바뀔까?
+- **Transition:** “이 실제 성공은 기준점으로 남기고, 별개의 가상 사례에서 Project와 Workflow가 어떻게 어긋날 수 있는지 보겠습니다.” S56으로 이동한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 3분 + Reflection 1분 = 4분
 - **Evidence / Decision References:** BEAT-037, BEAT-038, STATE-04-PERF, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0021, INV-MATURITY-010
@@ -1518,7 +1518,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 원인이 지지하는 가장 좁은 Layer를 선택하고 중복 지침을 살핀다.
 - **C++ Vision Bridge:** Project 지침, Skill/Workflow, toolchain 또는 test 환경 중 원인에 해당하는 Layer를 확인한다.
 - **Speaker Intent:** 세 번째 선택지를 무조건 정답으로 제시하지 않는다. 이 가상 사례가 Workflow 원인을 설정했기 때문에 해당 선택이 맞는다는 인과를 보여준다.
-- **Transition:** 그런데 보이는 실패 지점과 실제 원인 Layer는 항상 같을까?
+- **Transition:** “앞에서는 원인이 확인됐을 때의 대응을 봤습니다. 이제 그 원인을 어떻게 확인할지 보겠습니다.” S60으로 이동한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Demo 2분 (CAPTURED) = 2분
 - **Evidence / Decision References:** BEAT-044, BEAT-045, DEMO-04A, INV-LOOP-001, CLM-0020, CLM-0029
@@ -1662,7 +1662,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 대표 작업에서의 효과와 비용을 평가하고 obsolete rule을 정리한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** 실패를 무조건 일반 규칙으로 바꾸는 것이 Loop의 목적이라는 오해를 막는다.
-- **Transition:** 관찰·원인·변경·평가가 연결될 때 이를 어떤 Engineering 관점으로 볼까?
+- **Transition:** “지금까지 따로 본 관찰·원인 판단·변경·평가를, 다음 작업까지 이어지는 하나의 운영 순서로 묶겠습니다.” S66으로 이동한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-050, DEMO-04A, INV-MATURITY-003, INV-LEARNING-003, INV-LOOP-001
@@ -1686,7 +1686,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 자동화 수준과 별개로 Cause 판단, 재발 여부, 변경 대상, 평가를 설계한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** Loop를 자동 반복, Agent self-learning, 무한 실행, 규칙 누적으로 설명하지 않는다. 이 장은 개념 경로의 종합이다.
-- **Transition:** 이제 시각 표기를 바꾸어 실제 교육 제작 기록에서의 별도 Loop 경로를 살펴본다.
+- **Transition:** “이번에는 실제 교육 제작 기록에서 Trial의 평가·보고 기준을 살펴보겠습니다. 어떤 관찰이 그 기준을 돌아보게 했는지부터 보겠습니다.” S67로 이동한다.
 - **Estimated Time:** 11분
 - **Delivery Mode Allocation:** Lecture 9분 + Demo 2분 (VISUAL) = 11분
 - **Evidence / Decision References:** BEAT-040, BEAT-051, DEMO-04A, OQ-011, INV-MATURITY-010, INV-LOOP-001, INV-DEMO-003, CLM-0020, CLM-0021, CLM-0029, BEAT-052
@@ -1806,7 +1806,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** Loop의 System Change가 Product code뿐 아니라 Evaluation/Workflow governance일 수도 있음을 본다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** “평가 방식이 완벽해졌다”거나 “품질이 향상됐다”고 말하지 않는다.
-- **Transition:** 비슷한 피드백 원리를 C++ Vision Project에 옮기면 무엇을 볼까?
+- **Transition:** “평가 체계를 바꾼 뒤에도 확인할 것이 남았습니다. 이 원리를 C++ Vision 업무로 옮겨, 환경이 달라졌을 때 검증 조건을 어떻게 다시 볼지 생각해 보겠습니다.” S72로 이동한다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 2분 = 3분
 - **Evidence / Decision References:** BEAT-058, DEMO-04B, TRIAL-006, DEC-0016, TRIAL-007, DEMO-04A, DEC-0021, TRIAL-008, INV-DEMO-003, BEAT-059
@@ -1830,7 +1830,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** Project와 환경 변화가 Verification system에 미치는 영향도 평가한다.
 - **C++ Vision Bridge:** 이번 장의 중심. 목록보다 “변화 후 검증 조건을 다시 확인한다”는 패턴에 집중한다.
 - **Speaker Intent:** ACT 4에서 Harness를 계속 키우는 것이 Loop의 목적은 아니라는 점을 정리하고 ACT 5로 넘긴다.
-- **Transition:** 지금까지의 단계를 하나의 문제-driven Story로 되짚는다.
+- **Transition:** “이제 처음의 질문부터 Task·Context·Harness·Loop까지, 어떤 문제에 대응해 왔는지 전체 Story를 다시 연결하겠습니다.” ACT 5 S73으로 넘긴다.
 - **Estimated Time:** 20분
 - **Delivery Mode Allocation:** Case 7분 + Reflection 2분 + Q&A 7분 + Transition 4분 = 20분
 - **Evidence / Decision References:** BEAT-059, TRANS-012, DEC-0021, INV-DEMO-003
@@ -1856,7 +1856,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 각 Engineering 단계가 어떤 문제를 해결했는지 시스템 관점에서 설명한다.
 - **C++ Vision Bridge:** 단계별 설명에 기존 Vision 사례를 선택적으로 회상한다. 새로운 기술 사례는 추가하지 않는다.
 - **Speaker Intent:** 기능 이름을 나열하지 말고, 앞 단계의 한계가 다음 문제를 만들었던 흐름을 보여준다.
-- **Transition:** 이 진화가 하나의 Repository에서 어떻게 나타났는지 돌아본다.
+- **Transition:** “전체 교육 모델 가운데, 하나의 Repository에서 실제로 확인한 변화만 다시 보겠습니다.” S74로 넘긴다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-060, INV-NARRATIVE-001, INV-NARRATIVE-002
@@ -1904,7 +1904,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 각 구성요소의 비용과 이득을 실제 문제에 맞춰 판단한다.
 - **C++ Vision Bridge:** 필요하면 자신의 Repository 구성요소를 같은 질문으로 검토한다.
 - **Speaker Intent:** “Use what the problem justifies”라는 기준을 유지한다.
-- **Transition:** AI에게 일을 맡겨도 개발자가 계속 책임지는 것은 무엇인가?
+- **Transition:** “필요한 구성요소를 선택한 뒤에도, 그 결과가 충분한지 판단하는 책임은 남습니다. 무엇을 확인하고 완료를 수용해야 할까요?” S76으로 이동한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-057, BEAT-060, STATE-04-PERF, DEC-0018, DEC-0021, INV-NARRATIVE-001, INV-NARRATIVE-002
@@ -1976,7 +1976,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 반복 비용, 위험, verification surface에 따라 투자 대상을 고른다.
 - **C++ Vision Bridge:** 중심 예시. Python 산출물 복사가 아니라 engineering pattern transfer를 강조한다.
 - **Speaker Intent:** 선택·발표·제출을 요구하지 않는다.
-- **Transition:** 마지막으로 각자 업무에서 반복되는 마찰을 생각해 본다.
+- **Transition:** “방금 떠올린 한 곳에서, 다음 작업 때 다르게 해 볼 작은 행동 하나를 마음속으로 골라 봅시다.” S79로 이동한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 1분 + Transition 4분 = 5분
 - **Evidence / Decision References:** BEAT-068, INV-AUDIENCE-001, INV-DIFFICULTY-001, INV-LOOP-001, INV-RESPONSIBILITY-001, BEAT-069

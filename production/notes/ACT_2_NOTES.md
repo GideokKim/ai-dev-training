@@ -4,6 +4,8 @@ Status: REVIEWED — accepted presentation revision. Source, screen cues, and op
 
 Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`, `plan/VISUAL_SPEC.md`, `plan/VISUAL_TEMPLATE_FREEZE.md`, `plan/SPEAKER_NOTES_ARCHITECTURE.md`, `plan/SPEAKER_NOTES_FREEZE.md`, `plan/PRODUCTION_PLAN.md`, `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, `plan/DEMO_RUNBOOK_SPEC.md`, and `plan/DECISIONS.md`.
 
+Continuity revision: DEC-0032 (2026-10-20). Current handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
+
 ## S22 — 다른 Task에 같은 설명이 반복된다
 
 Slide ID: S22
@@ -292,7 +294,7 @@ Speaker Flow:
 
 1. (0:00–1:00) 세 행이 이 과정에서 쓰는 정보 설계 모델임을 밝힌다.
 2. (1:00–3:00) 기본 안내, 질문에 따른 상세, 특정 작업의 수행 방법을 순서대로 가리킨다. 각 행의 구체 예시를 하나씩 설명한다.
-3. (3:00–4:00) 성능 조사 절차 예가 STATE-02에 저장돼 있었다는 뜻은 아니라고 한정한다. Context 양만으로 충분한지 연구 질문으로 넘어간다.
+3. (3:00–4:00) 성능 조사 절차 예가 STATE-02에 저장돼 있었다는 뜻은 아니라고 한정한다. 방금은 정보의 범위와 제공 시점을 나눴고, 다음에는 ‘Context 양만 늘리면 충분할까?’를 연구의 제한된 범위 안에서 살펴본다고 예고한다.
 
 Evidence / Source: BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005. TEACHING_MODEL / CONCEPTUAL.
 
@@ -308,7 +310,7 @@ Demo Operation: N/A.
 
 Audience Interaction: Ask the audience to notice that information has different scopes; no category-writing exercise is required.
 
-Transition: “Context window가 크면 모든 정보가 똑같이 활용될까?”
+Transition: “필요한 때 찾게 하는 대신 모두 넣어두면 충분할까? 이 질문을 Long Context 연구의 범위 안에서 보겠습니다.”
 
 Time Management: Four minutes, one minute per bucket plus the boundary. Do not present this as a product feature taxonomy.
 
@@ -330,13 +332,13 @@ Mode Split: Lecture 4 minutes
 
 Primary Message: Research in specific models and tasks supports a bounded caution: more context is not automatically better, and relevance or information position can matter under some conditions.
 
-Opening Question: “Context window가 크면 모든 정보가 똑같이 활용될까?”
+Opening Question: “정보의 범위와 시점을 나눠봤는데, Context 양만 늘리면 충분할까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) ‘더 많은 Context가 항상 더 좋은 것은 아니다’의 적용 범위를 특정 모델·과제에 한정한다.
+1. (0:00–1:00) 앞 장의 정보 분류에서 잠시 물러나 ‘양만 늘리면 충분한가?’라는 질문을 보는 목적을 밝힌다. ‘더 많은 Context가 항상 더 좋은 것은 아니다’의 적용 범위를 특정 모델·과제에 한정한다.
 2. (1:00–3:00) 왼쪽 Lost in the Middle의 여러 문서 질문 답변/key-value 검색, 오른쪽 RepoQA의 50개 Repository 코드 검색을 비교한다. 논문이 답한 질문과 승인된 핵심 결론만 말한다. 수치 그래프나 현재 Codex 성능 추정은 추가하지 않는다.
-3. (3:00–4:00) 화면 하단의 두 출처와 Notes의 원문 링크를 안내한다. 이 Demo의 현재 Codex Repository coding을 직접 시험한 연구가 아님을 명시한다.
+3. (3:00–4:00) 화면 하단의 두 출처와 Notes의 원문 링크를 안내한다. 이 Demo의 현재 Codex Repository coding을 직접 시험한 연구가 아님을 명시한다. 연구 소개를 마치고, 이번 Task에 필요한 상세 정보와 그 위치를 설계하는 질문으로 돌아간다.
 
 화면 진행: 왼쪽은 관련 정보의 위치를 바꾸는 질적 과제 구조, 오른쪽은 Repository에서 관련 코드를 찾는 과제 구조다. 칠해진 블록은 정보 위치 표시이며 점수·성능·현재 Codex 결과를 뜻하지 않는다. 수치 그래프처럼 해석하지 않는다.
 
@@ -354,7 +356,7 @@ Demo Operation: N/A. This is a research summary, not a deterministic product dem
 
 Audience Interaction: Use the opening question to invite a short mental prediction, then answer within the cited scope.
 
-Transition: “필요한 정보를 Task에 맞춰 어떻게 찾게 할까?”
+Transition: “이 연구가 Demo의 Routing을 검증한 것은 아닙니다. 이제 Task에 필요한 상세 정보를 어디서 찾게 할지 설계로 돌아가겠습니다.”
 
 Time Management: Keep the paper descriptions concise and reserve the final minute for the transfer boundary.
 
@@ -376,13 +378,13 @@ Mode Split: Lecture 3 minutes
 
 Primary Message: Context design asks what information a Task needs and when it should be available, rather than placing every detail in one place.
 
-Opening Question: “모든 정보를 한 곳에 넣지 않고 필요한 정보에 도달할 수 있을까?”
+Opening Question: “Task가 필요한 상세 정보에 도달하는 경로는 어떻게 설계할까?”
 
 Speaker Flow:
 
 1. (0:00–1:00) Move from the question of context amount to the question of relevance and timing.
 2. (1:00–2:00) Show `Task → Core Context → Relevant Detail when needed` as a course diagram.
-3. (2:00–3:00) Give one short C++ example and reserve STATE-03 for the next sequence.
+3. (2:00–3:00) Give one short C++ example and reserve STATE-03 for the next sequence. 이 장에서는 찾아가는 경로를 보았고, 다음 장에서는 그 출발점인 Core에 무엇을 남길지 정한다고 마무리한다.
 
 화면 진행: 현재 Task 질문에서 출발해 Core의 안내를 거쳐 상세 정보로 이동한다. 이 장의 초점은 어디로 찾아갈지이며, 다음 장에서 Core에 무엇을 남길지 정한다.
 
@@ -400,7 +402,7 @@ Demo Operation: N/A — STATE-03 results are reserved for the following section.
 
 Audience Interaction: Let the routing question sit for a moment; do not reveal the Trial result.
 
-Transition: “무엇을 항상 읽고, 무엇을 필요할 때 찾게 할까?”
+Transition: “경로를 봤으니, 이제 그 출발점인 Core에 무엇을 남길지 정해보겠습니다.”
 
 Time Management: Keep this to one diagram and one brief C++ example. No product-specific implementation details.
 
@@ -422,11 +424,11 @@ Mode Split: Lecture 4 minutes
 
 Primary Message: Root/Core Context can be a starting point that points toward detail, rather than an encyclopedia of all Project knowledge.
 
-Opening Question: “무엇을 항상 읽고, 무엇을 필요할 때 찾게 할까?”
+Opening Question: “그 경로의 출발점인 Core에는 무엇을 남길까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 왼쪽 기본 안내의 목적, 상시 제약, 상세 정보 위치를 읽는 순서대로 가리킨다.
+1. (0:00–1:00) 앞 장에서 본 탐색 경로의 출발점에 초점을 맞춘다. 왼쪽 기본 안내에 남길 목적, 상시 제약, 상세 정보 위치를 읽는 순서대로 가리킨다.
 2. (1:00–2:30) 오른쪽 architecture, image contracts, testing으로 이어지는 관계를 설명한다. 화살표는 교육용 정보 설계 관계다.
 3. (2:30–4:00) C++에서는 build/test 진입점과 기본 제약에서 해당 알고리즘 계약·하드웨어 조건으로 안내할 수 있음을 짧게 연결한다. Routing 성능 효과는 주장하지 않는다.
 
@@ -607,8 +609,8 @@ Opening Question: “Task별 차이를 관찰한 것만으로 완벽한 Routing�
 Speaker Flow:
 
 1. (0:00–1:00 / Demo) 강조한 첫 행에서 A는 image-contracts.md를 읽고 B는 읽지 않았음을 가리킨다.
-2. (1:00–3:00 / Demo) architecture는 둘 다 읽었고 testing은 A의 최종 실행에서만 읽었다고 확인한다. B는 설정·README·source도 확인했다. A의 더 넓은 읽기와 실행 간 변동도 남아 있다.
-3. (3:00–4:00 / Lecture) 완벽한 Routing 미입증, 토큰 절약·성능 개선 미측정을 분명히 말한다.
+2. (1:00–3:00 / Case) architecture는 둘 다 읽었고 testing은 A의 최종 실행에서만 읽었다고 확인한다. B는 설정·README·source도 확인했다. A의 더 넓은 읽기와 실행 간 변동도 남아 있다.
+3. (3:00–4:00 / Case) 완벽한 Routing 미입증, 토큰 절약·성능 개선 미측정을 분명히 말한다.
 4. (4:00–6:00 / Reflection) 이 비교로 말할 수 있는 사실과 없는 효과를 조용히 구분해 보게 한다.
 5. (6:00–7:00 / Q&A) 질문 하나를 받거나 준비된 질문을 던진다. 파일 접근 차이라는 관찰로 닫는다.
 
@@ -654,7 +656,7 @@ Speaker Flow:
 
 1. (0:00–2:00 / Transition) 왼쪽의 현재 목표, 공통 사실, 상세 정보 위치를 순서대로 회수한다.
 2. (2:00–4:00 / Transition) 오른쪽 ‘먼저 측정하고, 조사한 뒤 변경하고, 같은 조건으로 확인’이라는 반복 절차를 보여준다. Context 선택을 완전히 해결했다는 뜻은 아니라고 밝힌다.
-3. (4:00–10:00 / Q&A) ‘이 반복도 Context만의 문제일까?’로 질문을 받는다. 질문이 없으면 사실과 절차의 책임 차이를 짚고 ‘Agent가 Project를 알아도 왜 작업 방법은 달라질까?’를 던진다. 마지막 짧은 handoff도 이 6분 안에 포함한다.
+3. (4:00–10:00 / Q&A) ‘같은 작업 절차도 다시 써야 할까?’로 질문을 받는다. 질문이 없으면 사실과 절차의 책임 차이를 짚고 ‘Project 지식과 별개로 같은 조사·검증 절차도 매번 다시 적어야 할까?’를 던진다. 두 Task의 공통 절차를 다음 관찰 대상으로 삼는다. 마지막 짧은 handoff도 이 6분 안에 포함한다.
 
 Evidence / Source: BEAT-017–018, TRANS-005, TRIAL-006/007 as context for the upcoming problem. OBSERVED_PRODUCT for repeated prompt structure with PARTIAL attribution; TEACHING_MODEL for the three responsibilities and the transition question.
 
@@ -670,7 +672,7 @@ Demo Operation: N/A — use the concise recorded prompt-structure summary; no li
 
 Audience Interaction: 0–4분 Transition 뒤 4–10분 Q&A를 운영한다. 공개 응답은 선택이며 질문이 없으면 사실과 절차의 차이를 묻는 준비 질문을 사용한다. 별도 실습은 없다.
 
-Transition: “Agent가 Project를 알아도 왜 작업 방법은 달라질까?”
+Transition: “Project 지식과 별개로 같은 조사·검증 절차도 매번 다시 적어야 할까? 다음 두 성능 Task의 기록에서 반복된 부분을 보겠습니다.”
 
 Time Management: Transition 4분 → Q&A 6분, 총 10분을 유지한다. 마지막 handoff 문구도 Q&A 종료 전에 포함하며 추가 Transition 시간을 만들지 않는다. 답변이 길어지면 다음 질문을 받지 않고 ACT 3로 이동한다.
 

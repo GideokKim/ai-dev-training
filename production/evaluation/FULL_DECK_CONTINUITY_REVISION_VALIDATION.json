@@ -1,0 +1,378 @@
+{
+  "date": "2026-10-20",
+  "baselineCommit": "0ae43cc",
+  "decision": "DEC-0032",
+  "slideCount": 80,
+  "adjacentConnectionsReviewed": 79,
+  "actCounts": [
+    9,
+    12,
+    15,
+    18,
+    18,
+    8
+  ],
+  "actMinutes": [
+    40.0,
+    55.0,
+    70.0,
+    85.0,
+    80.0,
+    30.0
+  ],
+  "modeMinutes": {
+    "Lecture": 130.0,
+    "Demo": 73.0,
+    "Case": 83.0,
+    "Reflection": 20.0,
+    "Transition": 22.0,
+    "Q&A": 32.0
+  },
+  "totalMinutes": 360.0,
+  "changedSlideImages": [
+    "S09",
+    "S11",
+    "S13",
+    "S15",
+    "S20",
+    "S29",
+    "S30",
+    "S31",
+    "S36",
+    "S46",
+    "S48",
+    "S66",
+    "S67",
+    "S79"
+  ],
+  "unchangedSlideImages": 66,
+  "changedNotesFields": {
+    "S08": [
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S09": [
+      "Opening Question",
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S10": [
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S11": [
+      "Opening Question",
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S12": [
+      "Opening Question",
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S13": [
+      "Opening Question",
+      "Speaker Flow"
+    ],
+    "S14": [
+      "Transition"
+    ],
+    "S15": [
+      "Opening Question",
+      "Speaker Flow"
+    ],
+    "S19": [
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S20": [
+      "Opening Question",
+      "Speaker Flow"
+    ],
+    "S28": [
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S29": [
+      "Opening Question",
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S30": [
+      "Opening Question",
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S31": [
+      "Opening Question",
+      "Speaker Flow"
+    ],
+    "S35": [
+      "Speaker Flow"
+    ],
+    "S36": [
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S37": [
+      "Speaker Flow"
+    ],
+    "S38": [
+      "Transition"
+    ],
+    "S39": [
+      "Opening Question",
+      "Speaker Flow"
+    ],
+    "S41": [
+      "Transition"
+    ],
+    "S42": [
+      "Opening Question",
+      "Speaker Flow"
+    ],
+    "S45": [
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S46": [
+      "Opening Question",
+      "Speaker Flow"
+    ],
+    "S47": [
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S48": [
+      "Opening Question",
+      "Speaker Flow"
+    ],
+    "S55": [
+      "Transition"
+    ],
+    "S56": [
+      "Speaker Flow"
+    ],
+    "S59": [
+      "Transition"
+    ],
+    "S60": [
+      "Speaker Flow"
+    ],
+    "S65": [
+      "Transition"
+    ],
+    "S66": [
+      "Opening Question",
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S67": [
+      "Opening Question",
+      "Speaker Flow"
+    ],
+    "S68": [
+      "Speaker Flow"
+    ],
+    "S71": [
+      "Transition"
+    ],
+    "S72": [
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S73": [
+      "Transition"
+    ],
+    "S74": [
+      "Speaker Flow"
+    ],
+    "S75": [
+      "Transition"
+    ],
+    "S76": [
+      "Speaker Flow"
+    ],
+    "S78": [
+      "Speaker Flow",
+      "Transition"
+    ],
+    "S79": [
+      "Opening Question",
+      "Speaker Flow",
+      "Audience Interaction"
+    ]
+  },
+  "notesRecords": 80,
+  "notesFields": 19,
+  "aggregateAndEmbeddedNotesMatch": true,
+  "changedMapTransitionFields": [
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S14",
+    "S19",
+    "S28",
+    "S29",
+    "S30",
+    "S36",
+    "S38",
+    "S41",
+    "S45",
+    "S47",
+    "S55",
+    "S59",
+    "S65",
+    "S66",
+    "S71",
+    "S72",
+    "S73",
+    "S75",
+    "S78"
+  ],
+  "allOtherMapFieldsPreserved": true,
+  "protectedSourcesByteIdentical": [
+    "plan/MASTER_PLAN.md",
+    "plan/INVARIANTS.md",
+    "plan/CLAIM_FREEZE.md",
+    "plan/SLIDE_TEMPLATE_MAP.md",
+    "plan/VISUAL_SPEC.md",
+    "plan/CURRICULUM.md",
+    "plan/STORY_BEATS.md"
+  ],
+  "nativeS45ChartDataPreserved": true,
+  "actAndFullPreviewMatch": true,
+  "previewDimensions": [
+    1920,
+    1080
+  ],
+  "packages": [
+    {
+      "file": "production/AI_Dev_Training_Full.pptx",
+      "slides": 80,
+      "sha256": "847b1486e810c19a22722a938661b9a7aaa56f860d893989c712e63c881610b1",
+      "embeddedNotesMatch": true
+    },
+    {
+      "file": "production/ACT_0.pptx",
+      "slides": 9,
+      "sha256": "788d6762ee88ddf27cf10f6e254827d2f2cdd38debc05bf2f935c7caa9509ca3",
+      "embeddedNotesMatch": true
+    },
+    {
+      "file": "production/ACT_1.pptx",
+      "slides": 12,
+      "sha256": "e456bd8a2712de1098f01bc6e669f070d9a05bc86603fd4290b4c0b321743bd0",
+      "embeddedNotesMatch": true
+    },
+    {
+      "file": "production/ACT_2.pptx",
+      "slides": 15,
+      "sha256": "305735dac7e655cb4588a76acff7c1787a61ea964e18e099c79ff57fe13731d4",
+      "embeddedNotesMatch": true
+    },
+    {
+      "file": "production/ACT_3.pptx",
+      "slides": 18,
+      "sha256": "999c80840c1dc9d5284fd0759bcdd70f14ccc3a66ab8492e8e23f02168f4862b",
+      "embeddedNotesMatch": true
+    },
+    {
+      "file": "production/ACT_4.pptx",
+      "slides": 18,
+      "sha256": "272254fdae0aa953615fad59856173d503ba73f552598da0ae5f4e91622c386a",
+      "embeddedNotesMatch": true
+    },
+    {
+      "file": "production/ACT_5.pptx",
+      "slides": 8,
+      "sha256": "f664db55765a4cbf4ab41f52b462dda0322bdeb5f7cd57c586b823f5040d78ff",
+      "embeddedNotesMatch": true
+    }
+  ],
+  "newProductClaims": false,
+  "newGeneratedImages": [],
+  "newTrialRun": false,
+  "demoRepositoryChanged": false,
+  "targetWindowsPowerPoint": "UNVERIFIED",
+  "targetFonts": "UNVERIFIED",
+  "roomProjection": "UNVERIFIED",
+  "timedRehearsal": "UNVERIFIED",
+  "productAccountEnvironment": "UNVERIFIED",
+  "finalizer": {
+    "ACT_1": {
+      "package": "PASS",
+      "geometry": true,
+      "import": true,
+      "nativeChartValidation": true,
+      "layoutFindings": 0,
+      "sha256": "e456bd8a2712de1098f01bc6e669f070d9a05bc86603fd4290b4c0b321743bd0"
+    },
+    "ACT_0": {
+      "package": "PASS",
+      "geometry": true,
+      "import": true,
+      "nativeChartValidation": true,
+      "layoutFindings": 0,
+      "sha256": "788d6762ee88ddf27cf10f6e254827d2f2cdd38debc05bf2f935c7caa9509ca3"
+    },
+    "ACT_2": {
+      "package": "PASS",
+      "geometry": true,
+      "import": true,
+      "nativeChartValidation": true,
+      "layoutFindings": 0,
+      "sha256": "305735dac7e655cb4588a76acff7c1787a61ea964e18e099c79ff57fe13731d4"
+    },
+    "AI_Dev_Training_Full": {
+      "package": "PASS",
+      "geometry": true,
+      "import": true,
+      "nativeChartValidation": true,
+      "layoutFindings": 0,
+      "sha256": "847b1486e810c19a22722a938661b9a7aaa56f860d893989c712e63c881610b1"
+    },
+    "ACT_5": {
+      "package": "PASS",
+      "geometry": true,
+      "import": true,
+      "nativeChartValidation": true,
+      "layoutFindings": 0,
+      "sha256": "f664db55765a4cbf4ab41f52b462dda0322bdeb5f7cd57c586b823f5040d78ff"
+    },
+    "ACT_4": {
+      "package": "PASS",
+      "geometry": true,
+      "import": true,
+      "nativeChartValidation": true,
+      "layoutFindings": 0,
+      "sha256": "272254fdae0aa953615fad59856173d503ba73f552598da0ae5f4e91622c386a"
+    },
+    "ACT_3": {
+      "package": "PASS",
+      "geometry": true,
+      "import": true,
+      "nativeChartValidation": true,
+      "layoutFindings": 0,
+      "sha256": "999c80840c1dc9d5284fd0759bcdd70f14ccc3a66ab8492e8e23f02168f4862b"
+    }
+  },
+  "localVisualReview": {
+    "status": "COMPLETE",
+    "individualPngsReviewed": 80,
+    "reviewRanges": [
+      "S01–S26",
+      "S27–S54",
+      "S55–S80"
+    ],
+    "allAdjacentConnectionsReviewed": 79,
+    "changedSlidesComparedWithBaseline": 14,
+    "newP0": 0,
+    "newP1": 0,
+    "newP2": 0,
+    "scope": "Local static renders and current Notes, not target PowerPoint or rehearsal"
+  },
+  "embeddedMediaHashesPreserved": true
+}

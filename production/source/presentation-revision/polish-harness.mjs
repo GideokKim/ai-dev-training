@@ -92,7 +92,7 @@ export async function loadHarnessPolishSlides(root) {
    return s;
   },
   S48(p){
-   const s=make(p,'S48','무엇이 다시 찾기 어려운 지식인가?','ACT 3 · 이미 있는 기록부터 확인하기',
+   const s=make(p,'S48','무엇이 다시 찾기 어려운 지식인가?','ACT 3 · 별도 지식 보존의 필요성 점검',
     '현재 Demo Repository의 지식 분류와 Memory 후보 점검',
     '별도 Memory로 남길 지속적 지식 후보는 찾지 못함 · 제품 Memory 동작 주장은 아님');
    text(s,'이번 사례에서는\n별도 Memory 후보를 찾지 못했다',64,201,1152,94,34,C.teal,true);

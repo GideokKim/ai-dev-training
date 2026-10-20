@@ -24,7 +24,7 @@ S10:make('S10','Task에는 무엇이 아직 정해지지 않았을까?','ACT 1 �
       text(s,'?',1163,y+31,53,43,31,C.teal,true);
     });
   }),
-S11:make('S11','요청만으로는 의도가 보이지 않는다','ACT 1 · 요청에 남아 있는 결정',
+S11:make('S11','요청만으로는 의도가 보이지 않는다','ACT 1 · 앞서 본 crop 사례로 좁히기',
   '교육용 구성 사례 · TRIAL-002의 실제 Prompt가 아님',
   '짧은 요청을 비난하거나 이 요청이 특정 실패를 만들었다고 주장하지 않습니다.','CONCEPTUAL',
   (s,{C,text,line,rect,arrow})=>{
@@ -58,6 +58,7 @@ S13:make('S13','Task Specification의 다섯 책임','ACT 1 · 작업을 구체�
   '이 과정의 교육 모델 · 공식 OpenAI 분류나 모든 작업에 대한 법칙이 아님',
   '다섯 항목은 서로 분리된 기능이 아니라 하나의 작업 요청에 담는 책임입니다.','TEACHING_MODEL',
   (s,{C,text,rect,line})=>{
+    text(s,'앞의 질문을 묶고, 필요한 맥락과 작업 과정을 명시한다',64,164,1152,30,23,C.sub);
     rect(s,64,204,1152,388,C.white,C.line,1);
     rect(s,64,204,322,388,C.pale);
     text(s,'하나의\nTask\nSpecification',88,268,274,176,36,C.teal,true);
@@ -131,7 +132,7 @@ S25:make('S25','Task Prompt와 Project Context','ACT 2 · 정보의 범위와 �
     text(s,'다음 작업에서는 목표가 달라짐',80,547,484,36,25,C.sub,true);
     text(s,'여러 작업에서 다시 참고',720,547,480,36,27,C.teal,true);
   }),
-S29:make('S29','Long Context 연구가 말해주는 범위','ACT 2 · 연구가 답한 질문',
+S29:make('S29','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 양을 다시 묻는 연구',
   'Liu et al., Lost in the Middle, TACL 2024 · RepoQA, 2024',
   '특정 모델·과제의 결과 · 현재 Codex의 Repository coding 한계를 입증하지 않음','RESEARCH',
   (s,{C,text,line,rect,arrow})=>{
@@ -155,7 +156,7 @@ S29:make('S29','Long Context 연구가 말해주는 범위','ACT 2 · 연구가 
     text(s,'aclanthology.org/2024.tacl-1.9/',64,577,550,27,19,C.sub,false,'Consolas');
     text(s,'arxiv.org/abs/2406.06025',704,577,512,27,19,C.sub,false,'Consolas');
   }),
-S30:make('S30','필요한 상세 정보로 가는 길','ACT 2 · Context를 찾게 하는 설계',
+S30:make('S30','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상세 정보의 탐색 경로',
   '교육용 Routing 모델 · 실제 문서 접근 결과는 다음 구간에서 확인',
   '검색 성능 향상이나 토큰 절약을 입증한 그림이 아님','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{
@@ -164,7 +165,7 @@ S30:make('S30','필요한 상세 정보로 가는 길','ACT 2 · Context를 찾�
     rs.forEach((r,i)=>{line(s,r.x,318,r.w,i===0?C.ink:C.teal,3);text(s,r.head,r.x,342,r.w,45,30,C.ink,true);text(s,r.body,r.x,418,r.w,82,28,C.sub);if(i<2)arrow(s,r.x+r.w+20,374,35,23);});
     text(s,'C++ 예: 공통 제약을 확인한 뒤, 해당 알고리즘의 계약으로',64,552,1152,37,26,C.sub);
   }),
-S31:make('S31','Core Context에서 상세 정보로 가는 길','ACT 2 · 기본 안내와 상세 정보',
+S31:make('S31','Core Context에서 상세 정보로 가는 길','ACT 2 · Core에 남길 기본 안내',
   '교육용 정보 설계 · Root/Core는 상세 정보의 출발점',
   'C++ 예: build/test 진입점과 기본 제약 → 알고리즘 계약·하드웨어 조건','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{

@@ -6,6 +6,8 @@ Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`, `plan/VISUAL_SPEC.
 
 All 18 slides use the approved 19-field schema. The revision builder reads these records for embedded PowerPoint Notes; parity must be checked on the final export.
 
+Continuity revision: DEC-0032 (2026-10-20). Current handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
+
 ## S55 — 여기까지는 잘 동작했다
 
 **Slide ID:**
@@ -56,7 +58,7 @@ STATE-04-PERF의 기록된 task, 코드 경로, 입력, runtime, host 및 검증
 1분 Reflection: “성공한 현재 상태도 Project 변화 뒤 다시 확인해야 할까?” 개인 생각만 하고 응답을 요구하지 않는다.
 
 **Transition:**
-Project가 정당한 이유로 바뀌면 작업 Workflow도 함께 바뀔까?
+“이 실제 성공은 기준점으로 남기고, 별개의 가상 사례에서 Project와 Workflow가 어떻게 어긋날 수 있는지 보겠습니다.” S56으로 이동한다.
 
 **Time Management:**
 Lecture 3분 + Reflection 1분. 기존 ACT 3 설명을 다시 길게 열지 않는다.
@@ -91,7 +93,7 @@ Demo 2분 (VISUAL)
 “지금 맞는 Project Workflow는 계속 맞을까?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / VISUAL Demo) 실제 graypipe 이력과 별개인 가상 사례임을 먼저 말한다.
+1. (0:00–0:30 / VISUAL Demo) S55의 실제 성공을 기준점으로 남기고, 여기서부터 실제 graypipe 이력과 별개인 가상 사례를 시작한다고 말한다.
 2. (0:30–1:30 / VISUAL Demo) 왼쪽 프로젝트 기준과 오른쪽 재사용 지침이 모두 단위 테스트를 가리키는 모습을 비교한다.
 3. (1:30–2:00 / VISUAL Demo) 당시 기준에는 일치하는 절차였다는 출발점을 남긴다. 다음 장의 변경을 미리 설명하지 않는다.
 
@@ -284,7 +286,7 @@ Context, workflow, toolchain 또는 test environment 중 원인이 있는 layer�
 A/B/C의 효과 범위를 소리 없이 비교하게 한다. 원인이 정해졌다고 일반화하지 않는다.
 
 **Transition:**
-보이는 실패 지점과 실제 원인 Layer는 항상 같을까?
+“앞에서는 원인이 확인됐을 때의 대응을 봤습니다. 이제 그 원인을 어떻게 확인할지 보겠습니다.” S60으로 이동한다.
 
 **Time Management:**
 CAPTURED 2분. Visual matrix만 설명하고 새 Product 근거를 추가하지 않는다.
@@ -319,7 +321,7 @@ Lecture 1분 + Demo 1분 (CAPTURED)
 “실패가 보인 Layer와 원인이 있는 Layer는 항상 같을까?”
 
 **Speaker Flow:**
-1. (0:00–0:45 / Lecture) “요청한 검증이 충분한가?”라는 증상만으로 원인을 정할 수 없다고 설명한다.
+1. (0:00–0:45 / Lecture) S59의 선택은 원인 확인을 전제로 했음을 짚고, 이제 그 전제를 확인하는 방법을 본다고 안내한다. “요청한 검증이 충분한가?”라는 증상만으로 원인을 정할 수 없다고 설명한다.
 2. (0:45–1:00 / Lecture) 현재 기준, 작업 절차, 실행 조건, 코드 동작을 다른 조사 대상으로 분리한다.
 3. (1:00–2:00 / CAPTURED Demo) 오른쪽의 Context, Workflow, 환경·권한, 제품 코드 질문을 차례로 가리킨다. 어느 하나를 원인으로 확정하지 않는다.
 
@@ -652,7 +654,7 @@ DEMO-04A  ·  conceptual regression / maintenance model
 누적 규칙이 낳을 수 있는 bloat, conflict, narrow fit을 같이 본다.
 
 **Transition:**
-관찰·원인·변경·평가가 연결될 때 이를 어떤 Engineering 관점으로 볼까?
+“지금까지 따로 본 관찰·원인 판단·변경·평가를, 다음 작업까지 이어지는 하나의 운영 순서로 묶겠습니다.” S66으로 이동한다.
 
 **Time Management:**
 Lecture 4분. 통계적 ML overfitting과 동일시하거나 보편 법칙으로 말하지 않는다.
@@ -684,10 +686,10 @@ Lecture 9분 + Demo 2분 (VISUAL)
 실행 결과와 반복되는 마찰을 관찰하고 원인과 재발 가능성을 판단한 뒤 적절한 System을 바꾸고 결과를 다시 평가할 때 Feedback은 System Improvement로 이어진다.
 
 **Opening Question:**
-“Feedback이 언제 Engineering이 되는가?”
+“앞에서 나누어 본 판단을 어떤 순서로 이어야 다음 작업도 달라질까?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 실행과 관찰의 질문을 구분한다. 앞의 가상 사례에서 지시 범위 비교가 실행 결과와 다름을 짚는다.
+1. (0:00–2:00 / Lecture) 앞에서 따로 본 판단을 다섯 단계 운영 순서로 통합한다고 안내한다. 실행과 관찰의 질문을 구분하고, 가상 사례의 지시 범위 비교가 실행 결과와 다름을 짚는다.
 2. (2:00–5:00 / Lecture) 원인 판단에는 실행 경로·선택한 지침 등 추가 확인이 필요함을 S61의 논리로 회수한다.
 3. (5:00–7:00 / Lecture) 시스템 변경은 원인 Layer를 바꾸는 일이며, Prompt 보정과 재사용 Workflow 갱신의 범위가 다름을 회수한다.
 4. (7:00–9:00 / Lecture) 같은 작업과 다른 대표 작업의 재평가가 답하는 질문을 비교한다. 새 결과는 제시하지 않는다.
@@ -717,7 +719,7 @@ DEC-0023  ·  course operational model  ·  no product loop
 “Feedback은 어느 순간 System change가 되는가?”를 생각하게 하고, 응답 제출은 요구하지 않는다.
 
 **Transition:**
-표기를 바꾸어 실제 교육 제작 기록에서의 별도 Loop를 살펴본다.
+“이번에는 실제 교육 제작 기록에서 Trial의 평가·보고 기준을 살펴보겠습니다. 어떤 관찰이 그 기준을 돌아보게 했는지부터 보겠습니다.” S67로 이동한다.
 
 **Time Management:**
 Lecture 9분, 마지막 VISUAL Demo 2분. R1–R5는 approximate reveal cue이며 전체가 항상 표시되는 정적 도식으로 진행 가능.
@@ -749,14 +751,14 @@ Demo 2분 (CAPTURED)
 TRIAL-006은 Codex CLI에서 수행한 실제 성능 조사다. Global Skills와 시작 경고가 함께 관찰되어 Prompt-only attribution은 PARTIAL이다.
 
 **Opening Question:**
-“이번에는 실제 제작 과정에서 무슨 일이 있었나?”
+“실제 제작 과정에서 Trial의 평가·보고 기준을 돌아보게 한 관찰은 무엇이었나?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / CAPTURED Demo) OBSERVED META 표식과 이중선을 가리키며 앞의 가상 사례를 닫고 실제 교육 제작 기록으로 전환한다.
+1. (0:00–0:30 / CAPTURED Demo) OBSERVED META 표식과 이중선을 가리키며 앞의 가상 사례를 닫고 실제 교육 제작 기록으로 전환한다. 이번에 살펴볼 System은 Trial의 평가·보고 기준이라고 안내하고, 그 기준을 돌아보게 한 TRIAL-006의 관찰부터 연다.
 2. (0:30–1:15 / CAPTURED Demo) 성능 작업 요청, Global Skill이 관여한 실행 환경, Prompt만의 효과로 분리하기 어려운 결과 해석의 세 영역을 짚는다.
 3. (1:15–2:00 / CAPTURED Demo) PARTIAL은 결과가 없다는 뜻이 아니라 원인 귀속의 한계라고 열고 다음 장에서 두 질문을 나눈다.
 
-화면 진행: 이 장은 실제 사건을 여는 화면이다. TRIAL-006 요청과 함께 관찰된 Global Skill/시작 경고를 먼저 짚고, 인과 해석의 두 질문은 다음 장으로 넘긴다. 앞의 가상 stale 사례와 별개임을 이중선과 표식으로 확인한다.
+화면 진행: 상단의 Trial 평가·보고 기준은 이번 실제 사례에서 살펴볼 대상을 안내한다. 이 장은 실제 사건을 여는 화면으로, TRIAL-006 요청과 함께 관찰된 Global Skill/시작 경고를 먼저 짚고 인과 해석의 두 질문은 다음 장으로 넘긴다. 앞의 가상 stale 사례와 별개임을 이중선과 표식으로 확인한다.
 
 **Evidence / Source:**
 TRIAL-006  ·  DEC-0016  ·  TRIAL-007/008
@@ -815,7 +817,7 @@ resize_nearest 측정은 기록된 코드·입력·runtime·host 범위에서 �
 “측정 결과가 유효해도 원인을 Prompt 하나로 좁힐 수 있을까?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / CAPTURED Demo) 왼쪽 “측정 결과는 유효한가?”와 오른쪽 “무엇이 결과를 만들었나?”를 독립된 질문으로 읽는다.
+1. (0:00–1:00 / CAPTURED Demo) 이번 수치는 S45의 image_statistics Benchmark와 별개인 TRIAL-006 resize_nearest 기록임을 먼저 짚는다. 왼쪽 “측정 결과는 유효한가?”와 오른쪽 “무엇이 결과를 만들었나?”를 독립된 질문으로 읽는다.
 2. (1:00–2:00 / CAPTURED Demo) input/output hash와 같은 조건의 7회 one-call 측정 기록을 확인한다. 144.2→33.5 ms/call median은 작은 보조정보다. 합성 640×480 gray(max4095)→960×720, CPython 3.9.6, macOS 26.6.2 arm64 범위를 말한다.
 3. (2:00–3:15 / CAPTURED Demo) performance-goal Global Skill이 evaluator·ledger·threshold에 관여한 기록을 설명한다. 수치 변화의 직접 원인이라고 단정하지 않는다.
 4. (3:15–4:00 / CAPTURED Demo) Hook 경고와 효과, MCP 시작 오류와 작업 결과를 구분하고, 결과와 원인 해석을 별도로 기록해야 한다고 닫는다.
@@ -1033,7 +1035,7 @@ Loop의 system change는 평가·보고 거버넌스일 수 있으나 outcome은
 Changed/Unknown 두 칸을 비교하며 Meta case를 정리한다.
 
 **Transition:**
-이 원리를 C++ Vision Project에 옮기면 무엇을 확인할까?
+“평가 체계를 바꾼 뒤에도 확인할 것이 남았습니다. 이 원리를 C++ Vision 업무로 옮겨, 환경이 달라졌을 때 검증 조건을 어떻게 다시 볼지 생각해 보겠습니다.” S72로 이동한다.
 
 **Time Management:**
 Lecture 1분 + Case 2분. preceding slides를 다시 풀어 설명하지 않는다.
@@ -1062,7 +1064,7 @@ Opening Question: “같은 문제가 두 번째로 생기면 다시 Prompt를 �
 
 Speaker Flow:
 
-1. (0:00–2:00 / Case) GPU·빌드·측정 조건이 달라진 상황을 가정한다. 실제 C++ 사건이나 구체적 버전 조합을 주장하지 않는다.
+1. (0:00–2:00 / Case) 앞의 평가 원리를 업무의 검증 조건에 적용해 본다고 안내하고 GPU·빌드·측정 조건이 달라진 상황을 가정한다. 실제 C++ 사건이나 구체적 버전 조합을 주장하지 않는다.
 2. (2:00–4:30 / Case) 그림의 입력·코드·장치와 기존 가정·측정 조건 질문을 가리킨다. 기존 판단이 어떤 조건에서 맞았는지, 입력과 실행 조건이 비교 가능한지 묻는다. 관찰된 성능 저하나 숫자를 만들지 않는다.
 3. (4:30–7:00 / Case) 출력 그림과 기능 계약 질문에서 성능과 함께 다시 확인할 동작 범위를 살핀다. 반복 신호→원인 Layer 조사→관련 시스템 변경→Benchmark/Regression 재확인으로 연결한다.
 4. (7:00–9:00 / Reflection) 하단 질문을 가리켜 자기 업무의 반복 마찰 하나를 마음속으로 떠올리게 한다. 기록·답변·발표는 요구하지 않는다.
@@ -1085,7 +1087,7 @@ Demo Operation: 정적 화면과 speaker-led highlighting을 사용한다. 화�
 
 Audience Interaction: 7–9분 개인 Reflection은 답변·공유 없이 진행한다. 9–16분 Q&A에서는 실제 회사 환경의 검증되지 않은 해결책을 단정하지 않고 어떤 조건을 확인해야 하는지로 답한다.
 
-Transition: “이제 기능이 아니라, 처음의 문제에서 Loop까지 이어진 Story를 다시 연결해 보겠습니다.” ACT 5 S73으로 넘긴다.
+Transition: “이제 처음의 질문부터 Task·Context·Harness·Loop까지, 어떤 문제에 대응해 왔는지 전체 Story를 다시 연결하겠습니다.” ACT 5 S73으로 넘긴다.
 
 Time Management: 0–7 Case 7분, 7–9 Reflection 2분, 9–16 Q&A 7분, 16–20 Transition 4분으로 20분을 유지한다. Cutoff cue: “이 질문은 여기까지 정리하고, 이제 처음 문제부터 지금의 Loop까지 연결해 보겠습니다.” 실제 20분 리허설은 수행하지 않았다. 0–2분 전체 그림/변경 표식, 2–4:30분 입력·코드·장치의 가정과 비교 조건, 4:30–7분 출력·기능 계약을 설명한다. 이후 7–9분 Reflection, 9–16분 Q&A, 16–20분 Transition을 유지한다.
 

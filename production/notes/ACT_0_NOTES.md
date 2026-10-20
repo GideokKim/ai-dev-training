@@ -8,6 +8,8 @@ Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`,
 `plan/SPEAKER_NOTES_ARCHITECTURE.md`, `plan/SPEAKER_NOTES_FREEZE.md`,
 `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, and `plan/DECISIONS.md`.
 
+Continuity revision: DEC-0032 (2026-10-20). Current handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
+
 ## S01 — AI에게 지금 무엇을 맡기고 있는가?
 
 Slide ID: S01
@@ -338,7 +340,7 @@ Speaker Flow:
 
 1. **OPEN (0:00–0:30):** 왼쪽 “볼 수 있는 것”과 오른쪽 “정해야 하는 것”을 분리한다.
 2. **EXPLAIN (0:30–1:30):** 파일·구현·테스트가 보여도 원하는 변화, 허용 범위, 완료 판단은 별도로 전달해야 한다는 구분만 설명한다.
-3. **TRANSFER (1:30–2:00):** 가운데 ≠를 짚고 “코드가 보여도 원하는 일은 따로 전달해야 한다”로 마친다. ACT 1의 구체적인 요청 구조는 아직 소개하지 않는다.
+3. **TRANSFER (1:30–2:00):** 가운데 ≠를 짚고 “코드가 보여도 원하는 일은 따로 전달해야 한다”로 정리한다. 이어 이 구분을 각자가 맡기고 싶은 작업에 대입할 질문을 남긴다. ACT 1의 구체적인 요청 구조는 아직 소개하지 않는다.
 
 Evidence / Source: BEAT-003 next friction, DEMO-01 callback, TRIAL-001; CLM-0002, CLM-0009. TEACHING_MODEL.
 
@@ -354,7 +356,7 @@ Demo Operation: N/A — DEMO-01 성공 뒤 남는 문제를 설명한다.
 
 Audience Interaction: Opening question은 수사 질문이다. 짧은 강의 시간에 답변을 요구하지 않는다.
 
-Transition: “그렇다면 Repository를 보면 내가 원하는 것까지 알까요?”라고 S09의 논의 질문을 연다.
+Transition: “이 구분을 여러분이 지금 맡기고 싶은 일에 대입해 보겠습니다.”라고 S09의 개인 적용 질문을 연다.
 
 Time Management: Access와 Intent 두 축만 설명하고 ACT 1의 구조나 목록은 소개하지 않는다.
 
@@ -376,11 +378,11 @@ Mode Split: Transition 3 minutes + Q&A 3 minutes
 
 Primary Message: Repository를 볼 수 있다는 사실만으로 Task의 의도가 정해지지는 않는다.
 
-Opening Question: “Repository를 볼 수 있으면 내가 원하는 것까지 알 수 있을까?”
+Opening Question: “내가 지금 맡기고 싶은 일의 원하는 결과까지 코드에 적혀 있을까?”
 
 Speaker Flow:
 
-1. **DISCUSS / TRANSITION (0:00–3:00):** “지금 이 저장소에 어떤 일을 맡기고 싶은가?”와 “그 원하는 결과까지 코드에 적혀 있는가?”를 차례로 읽는다. 답이나 다음 단계의 체크리스트를 제시하지 않는다.
+1. **DISCUSS / TRANSITION (0:00–3:00):** 화면 상단의 “내 작업에 적용할 질문”을 짚고, 각자가 지금 맡기고 싶은 일 하나를 떠올리게 한다. “지금 이 저장소에 어떤 일을 맡기고 싶은가?”와 “그 원하는 결과까지 코드에 적혀 있는가?”를 차례로 읽는다. S08의 구분을 자기 작업에 대입하며 답이나 다음 단계의 체크리스트를 제시하지 않는다.
 2. **Q&A (3:00–6:00):** 자발적인 질문을 받는다. 질문이 없으면 두 질문을 그대로 남긴 뒤 ACT 1의 모호한 요청으로 이동한다.
 
 Evidence / Source: BEAT-003 → BEAT-004, TRANSITIONS.md의 승인된 ACT handoff, DEMO-01 callback, CLM-0002, CLM-0009. TEACHING_MODEL.
@@ -397,7 +399,7 @@ Demo Operation: N/A — 신규 Demo 또는 제품 기능 설명은 없다.
 
 Audience Interaction: Q&A 3분은 선택적 질문 시간이다. 답변이나 공유를 강제하지 않는다. 침묵은 정상적인 결과로 둔다.
 
-Transition: `Chatbot → Prompt`로 다음 ACT에 handoff한다. ACT 1의 내부 구조는 소개하지 않는다.
+Transition: “방금 떠올린 원하는 결과를 작업 요청으로 전달하려면 무엇이 더 필요할까요?”라는 질문으로 `Chatbot → Prompt`를 handoff한다. ACT 1의 내부 구조는 소개하지 않는다.
 
 Time Management: Slide Map의 순서를 유지해 Transition 3분 뒤 Q&A 3분을 둔다. Q&A를 늘려 ACT 전체 시간을 옮기지 않는다.
 
