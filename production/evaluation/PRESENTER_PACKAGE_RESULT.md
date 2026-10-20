@@ -1,22 +1,21 @@
 # 발표자 자료 묶음 준비 결과
 
-날짜: 2026-10-19 (Asia/Seoul). 결정: DEC-0031.
-발표자료 기준: `a252c49` / DEC-0030.
+날짜: 2026-10-20 (Asia/Seoul). 결정: DEC-0032; 묶음 정책 DEC-0031 유지.
+발표자료 기준: `9bc4144` / DEC-0032.
 
 상태: **로컬 자료 준비 완료 / 실환경·리허설 UNVERIFIED.**
 
 ## 수행 내용
 
 - 현재 PPT·Notes 해시로 체크리스트와 최종 전달 안내를 갱신했다.
-- 체크리스트의 이전 S73/S77 제한 설명을 최신 32장 개선 범위와 구분했다.
+- 체크리스트의 현재 후보와 로컬 검토 범위를 최신 흐름 개선 결과에 정렬했다.
 - 예상 질문 25개를 6개 ACT에 연결했다. 20–40초는 편집 목표이며 실제 발화
   실측 결과가 아니다. 기존 360분과 Q&A 32분에 시간을 추가하지 않는다.
 - 80장 PPT와 ACT 0–5 PPT, Notes, full/ACT PNG 각 80개, montage, 진행 지침,
   Q&A·체크리스트·전달 안내와 연결된 근거 문서를 하나의 ZIP으로 구성했다.
 - ZIP 안에 START_HERE.html과 문서 HTML, 80개 Slide별 미리보기 페이지를 넣었다.
   상대 경로를 유지하며 Notes의 full/act fallback 경로를 모두 포함한다.
-- Demo 지침의 현재 자료 출처를 DEC-0030과 연결하고 DEMO-12의 오래된
-  '통합본만 geometry 변경' 문구를 최신 State/발췌 설명과 정렬했다.
+- Demo 지침의 정적 자료 출처를 DEC-0032의 현재 통합본 및 fallback 해시와 연결했다.
 
 ## 파일 확인 범위
 
@@ -24,10 +23,11 @@
 내부 Markdown 링크의 대상 문서까지 포함하고 생성 HTML의 상대 파일·anchor를 확인했다.
 이 확인은 실제 발표 PC 브라우저·PowerPoint·프로젝터에서 열어본 결과가 아니다.
 
-- PPT 7개는 기존 DEC-0030 검증 기록의 해시와 동일하다.
+- PPT 7개는 DEC-0032 흐름 개선 검증 기록의 해시와 동일하다.
 - 통합·ACT Markdown Notes와 7개 PPT 내부 Notes를 다시 대조했다.
-- 기획·제작 원본·PPT·Notes·PNG의 보호 파일 203개 해시가 작업 시작 시점과 동일하다.
-- 기존 Notes·Slide Map·Claim Freeze·PPT·160개 Slide PNG를 수정하지 않았다.
+- MASTER_PLAN·INVARIANTS·Claim Freeze·Template Mapping 등 보호 원본을 유지했다.
+- 묶음 생성 단계에서는 검토된 PPT·Notes·Slide Map·PNG를 추가로 수정하지 않았다.
+  흐름 개선 자체는 화면 14장·Notes 41개·Slide Map 전환 24개이며 세부 비교를 보존했다.
 - ACT 장수 9/12/15/18/18/8, 시간 40/55/70/85/80/30, 전체 360분 유지.
 - Mode Lecture 130 / Demo 73 / Case 83 / Reflection 20 / Transition 22 / Q&A 32분 유지.
 - 새 제품 기능·가격·현재 계정 동작·연구 결과를 주장하지 않는다. 새 Trial·Demo 실행 없음.

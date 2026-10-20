@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일: 2026-10-19 (Asia/Seoul). 대상 Git 후보: `a252c49`.
+갱신 기준일: 2026-10-20 (Asia/Seoul). 대상 Git 후보: `9bc4144`.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,16 +9,16 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `ef6c5b69a03bf7c243b144f5f7dded018d72dc84cbb657bff044e812557a17d6`
+- PPTX SHA-256: `847b1486e810c19a22722a938661b9a7aaa56f860d893989c712e63c881610b1`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `c1167e05e9fcd3153ddf59df96c294f185491ae623bdfd43c628ad5b438eabe1`
+- Notes SHA-256: `024466b676b8d93e8f9abee1157968782429d68e38d6f08fb03945a920dc276f`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S80.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
 두 파일의 해시는 이번 문서 갱신 시 실제 파일에서 확인했다. 다음은 최신
-[발표용 개선 보고서](FULL_DECK_PRESENTATION_POLISH.md)와
-[검증 JSON](FULL_DECK_PRESENTATION_POLISH_VALIDATION.json)에 이미 기록된
-로컬 완료 범위다. 이번 갱신에서 렌더·package 검사를 재실행하지 않았다.
+[발표용 개선 보고서](FULL_DECK_CONTINUITY_REVISION.md)와
+[검증 JSON](FULL_DECK_CONTINUITY_REVISION_VALIDATION.json)에 이미 기록된
+로컬 완료 범위다. 이번 흐름 개선에서 통합·ACT 전체 렌더와 package 검사를 재실행했다.
 
 | 기존 로컬 확인 | 보고서에 기록된 결과 |
 |---|---|
@@ -26,7 +26,7 @@
 | 전체 80장 최종 PNG | 개별 시각 검토 완료, 새 P0/P1 및 의미 있는 P2 없음; ACT와 통합 PNG 일치 |
 | 구조·시간 | 80장 / 순수 교육 360분, Slide ID·ACT·시간·Mode·Claim 경계 보존 |
 | Notes | 80개·장별 19필드 유지, Markdown·통합 및 ACT 내장 Notes 일치 |
-| 승인된 발표용 개선 | DEC-0030의 14개 개선안, 32장 화면과 해당 Notes Cue 정렬; 나머지 48장 보존 |
+| 승인된 발표용 개선 | DEC-0032 화면 14장·Notes 41개·전환 24개 정렬; 나머지 66장 화면 보존 |
 | Fallback 자료 | 최종 PPTX 및 등록 PNG 해시·미리보기 갱신 |
 
 과거 후보의 “S73/S77 카드 행·callout geometry만 수정” 기록은 그 시점의
@@ -175,7 +175,7 @@ ____________________________________________________________________
 - [ ] 현재 Desktop 동작을 과거 CLI Trial의 결과로 표현하지 않았다.
 - [ ] S72 조건 변화는 가상 교육 맥락이며 실제 C++ 사건이나 확정된 실패 원인으로 표현하지 않았다.
 - [ ] S74 State는 기록된 문제 대응 이력이며 성숙도 등급·Product Loop로 표현하지 않았다.
-- [ ] DEC-0030으로 승인된 현재 화면·Notes Cue를 기준으로 Story·Claim·Slide ID·ACT·시간·Mode·Demo State를 유지했다.
+- [ ] DEC-0032로 정렬한 현재 화면·Notes Cue를 기준으로 Story·Claim·Slide ID·ACT·시간·Mode·Demo State를 유지했다.
 - [ ] 보호 변경 필요 시 `PROPOSAL / REASON / EVIDENCE / IMPACT / CONFLICT / RECOMMENDATION`을 작성하고 승인 전 적용하지 않았다.
 
 ## 7. 최종 전달 승인 — UNVERIFIED

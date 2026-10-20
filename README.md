@@ -9,14 +9,14 @@
 ## 현재 상태
 
 80장 통합 PPT, ACT 0–5 PPT, 발표자 Notes와 로컬 렌더 검토가 완료됐다.
-현재 발표자료는 `a252c49` / DEC-0030이며, DEC-0031에서 전달 문서·예상 Q&A와
-발표자용 오프라인 묶음을 준비했다. 실환경·리허설은 아직 UNVERIFIED다.
+현재 발표자료는 `9bc4144` / DEC-0032이며 전체 연결 흐름을 개선했다.
+기존 전달 문서·예상 Q&A와 발표자용 오프라인 묶음도 현재 후보에 정렬했다. 실환경·리허설은 아직 UNVERIFIED다.
 
 - [발표자용 자료 묶음](delivery/README.md)
 - [현재 전달 안내와 후보 해시](production/evaluation/FINAL_HANDOFF.md)
 - [예상 질문·답변](production/presenter/EXPECTED_QA.md)
 - [사용자 실환경·리허설 체크리스트](production/evaluation/USER_VALIDATION_CHECKLIST.md)
-- [현재 전체 검토](production/evaluation/FULL_DECK_PRESENTATION_POLISH.md)
+- [현재 전체 검토](production/evaluation/FULL_DECK_CONTINUITY_REVISION.md)
 
 기본 시연은 기록에 근거한 정적 PPT/PNG다. 현재 계정·제품의 Live 동작으로
 표현하지 않는다. 교육은 순수 360분이며 휴식은 별도다.

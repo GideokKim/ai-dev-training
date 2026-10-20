@@ -1,9 +1,9 @@
 {
-  "date": "2026-10-19",
-  "package": "AI_Dev_Training_Presenter_2026-10-19",
-  "archive": "delivery/AI_Dev_Training_Presenter_2026-10-19.zip",
-  "archiveSha256": "483d77d578a519ace83f38f63e9a4922203e27ed591197504ab180d2e2648f10",
-  "archiveBytes": 51802767,
+  "date": "2026-10-20",
+  "package": "AI_Dev_Training_Presenter_2026-10-20",
+  "archive": "delivery/AI_Dev_Training_Presenter_2026-10-20.zip",
+  "archiveSha256": "018e5ef7f5bce81efa8cdada12b21e332b92e754b82701ab17aa7da541044ed9",
+  "archiveBytes": 51265422,
   "payloadFiles": 354,
   "zipEntries": 355,
   "crcAndPayloadHashes": "PASS",
@@ -20,7 +20,7 @@
     "runbookPaths": 14,
     "sourceMarkdown": 48,
     "payloadFiles": 354,
-    "htmlLinksChecked": 2171,
+    "htmlLinksChecked": 2184,
     "sourceLinksChecked": 119,
     "externalLinksNotFetched": 25
   },

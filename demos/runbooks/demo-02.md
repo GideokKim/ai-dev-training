@@ -96,7 +96,7 @@ Show static S22–S24; explicitly retain the global-Skills attribution boundary.
 
 Fallback readiness: READY for local static slide-render playback only. Raw Trial source captures are not implied or created.
 
-Captured Alternative provenance: DEC-0030 integrated-deck static render; file identity and fallback paths rechecked on 2026-10-19. See `FALLBACK_MANIFEST.md` and `production/evaluation/FINAL_HANDOFF.md` for the exact PPTX hash and recorded rendering scope. This file check is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
+Captured Alternative provenance: DEC-0032 integrated-deck static render; file identity and fallback paths rechecked on 2026-10-20. See `FALLBACK_MANIFEST.md` and `production/evaluation/FINAL_HANDOFF.md` for the exact PPTX hash and recorded rendering scope. This file check is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 

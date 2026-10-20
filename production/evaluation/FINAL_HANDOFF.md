@@ -1,7 +1,7 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일: 2026-10-19 (Asia/Seoul). 자료 구성: DEC-0031.
-발표자료 기준: `a252c49` / DEC-0030. 이후 문서·묶음 구성은 발표자료 변경과 구분한다.
+갱신일: 2026-10-20 (Asia/Seoul). 자료 구성: DEC-0032 (기존 DEC-0031 묶음 갱신).
+발표자료 기준: `9bc4144` / DEC-0032. 이후 문서·묶음 구성은 발표자료 변경과 구분한다.
 
 **로컬 발표자료 제작·검토 완료 / 발표자용 묶음 준비 / 실환경·리허설 UNVERIFIED.**
 
@@ -10,7 +10,7 @@
 
 ## 1. 무엇을 열면 되는가
 
-1. 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-19.zip`을 내려받아
+1. 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-20.zip`을 내려받아
    **전체 압축을 푼다**. ZIP 안에서 PPT만 바로 실행하지 않는다.
 2. 압축 해제한 폴더의 `START_HERE.html`을 브라우저에서 연다. 서버·인터넷·
    별도 프로그램 설치 없이 자료 탐색 페이지를 사용할 수 있다.
@@ -29,12 +29,12 @@
 | 항목 | 경로 / SHA-256 |
 |---|---|
 | 통합 PPT | `production/AI_Dev_Training_Full.pptx` |
-| PPT SHA-256 | `ef6c5b69a03bf7c243b144f5f7dded018d72dc84cbb657bff044e812557a17d6` |
+| PPT SHA-256 | `847b1486e810c19a22722a938661b9a7aaa56f860d893989c712e63c881610b1` |
 | 통합 Notes | `production/notes/FULL_SPEAKER_NOTES.md` |
-| Notes SHA-256 | `c1167e05e9fcd3153ddf59df96c294f185491ae623bdfd43c628ad5b438eabe1` |
-| 전체 montage SHA-256 | `29dbc39cd08765e631753d292c7479c032fd725466b12972f10e44b8a3428e54` |
+| Notes SHA-256 | `024466b676b8d93e8f9abee1157968782429d68e38d6f08fb03945a920dc276f` |
+| 전체 montage SHA-256 | `4ebf25e520cbd2f737e28949f648abe36d106c866cb5b427262edeafd7c4d02b` |
 | 묶음별 파일 목록·크기·SHA-256 | 저장소의 `delivery/PACKAGE_MANIFEST.json`; ZIP 내부의 `PACKAGE_MANIFEST.json` |
-| ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-19.zip.sha256` |
+| ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-20.zip.sha256` |
 
 Manifest에는 개별 payload 파일의 hash를 기록한다. Manifest 자신과 ZIP의 hash는
 자기참조를 피하기 위해 payload에 포함하지 않는다. ZIP의 hash는 외부 sidecar에서
@@ -56,8 +56,9 @@ Mode는 Lecture 130 / Demo 73 / Case 83 / Reflection 20 / Transition 22 /
 Q&A 32분이다. 예상 Q&A는 기존 질문 시간에 사용할 예비 답변이며 시간을 추가하지 않는다.
 휴식·점심·장비 준비는 순수 교육 시간에 포함하지 않는다.
 
-이번 준비에서 PPT·기존 Notes·Slide Map·Claim Freeze·Demo 코드와 State/tag는
-변경하지 않았다. Demo 저장소 자체, `.git`, 제작 코드, 설정·인증 파일, 원본 실행 로그,
+DEC-0032에서 화면 14장·Notes 41개와 Slide Map의 Transition 24개를 정렬했다.
+80장·시간·Mode·Claim Freeze·Demo 코드와 State/tag는 유지했다. 묶음 생성 단계는
+검토된 PPT·Notes를 추가로 변경하지 않는다. Demo 저장소 자체, `.git`, 제작 코드, 설정·인증 파일, 원본 실행 로그,
 과거 prototype PPT와 캐시는 묶음에 넣지 않는다. 일부 역사적 근거에 기록된 로컬 경로는
 과거 실행 메타데이터이며 발표 기기에서 실행할 경로가 아니다.
 
@@ -81,7 +82,7 @@ Q&A 32분이다. 예상 Q&A는 기존 질문 시간에 사용할 예비 답변�
 
 | 항목 | 현재 상태 | 필요한 다음 근거 |
 |---|---|---|
-| DEC-0030 PPTX 구조·로컬 렌더·80장 개별 검토 | COMPLETE, 로컬 범위 | 기존 검토 기록 보존 |
+| DEC-0032 PPTX 구조·로컬 렌더·80장 개별 검토 | COMPLETE, 로컬 범위 | 기존 검토 기록 보존 |
 | 이번 파일 복사·ZIP 무결성·내부 링크·hash 정합성 | LOCAL PACKAGE CHECK | 패키지 생성·확인 기록 참조 |
 | 발표 PC / Windows PowerPoint / 글꼴 / 발표자 모드 | UNVERIFIED | 대상 장비에서 열기·저장·재열기·발표 모드 확인 |
 | 발표 기기에서 오프라인 열기·fallback 복귀 | UNVERIFIED | 실제 기기에서 파일 열기와 다음 화면 전환 |
@@ -99,12 +100,12 @@ S72: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
 
 ## 6. 근거와 이력
 
-- [현재 전체 검토](FULL_DECK_PRESENTATION_POLISH.md)와 [검증 기록](FULL_DECK_PRESENTATION_POLISH_VALIDATION.json)
+- [현재 전체 검토](FULL_DECK_CONTINUITY_REVISION.md)와 [검증 기록](FULL_DECK_CONTINUITY_REVISION_VALIDATION.json)
 - [패키징 결과](PRESENTER_PACKAGE_RESULT.md)
 - [Slide Map](../../plan/SLIDE_MAP.md), [Claim Freeze](../../plan/CLAIM_FREEZE.md),
   [결정 이력](../../plan/DECISIONS.md)
 - 이 문서의 이전 DEC-0027/그 이전 전달 기록은 Git `a252c49`의 같은 경로에 보존된다.
   그 기록의 이전 해시·렌더러·S73/S77 수정 설명은 현재 후보를 설명하지 않는다.
 
-패키징 기준은 DEC-0031이며 기존 `origin/main`에 기록한다. 저장소 push는
+현재 자료 기준은 DEC-0032, 기존 패키징 정책은 DEC-0031이며 기존 `origin/main`에 기록한다. 저장소 push는
 현장 검증 통과나 청중 대상 전달 완료를 뜻하지 않는다.
