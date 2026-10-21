@@ -20,4 +20,3 @@ Composition: landscape 4:3, single character waist up, centered and large, centr
 Style: polished editorial illustration, clean fine charcoal #17212B outlines, light cool-gray #F4F6F8 / #DDE6EA fill, deep-teal #0B6172 accents, minimal soft shading, readable at a small slide size. Fully transparent background.
 Text: absolutely none. No letters, words, numbers, code, logos, product UI, graphs, arrows, clocks or tokens. Leave cards completely blank; all exact labels, branching paths and token/time conceptual graphics will be editable PowerPoint objects outside the image.
 Constraints: only one robot, three blank cards, no other agents, no cloned characters, no fake logs, no screenshots, no metrics, no trophies, no success checkmark, no red failure sign, no holographic spectacle, no server rack, no human. This is a fictional teaching illustration, not observed behavior or a claim about an actual AI product.
-
