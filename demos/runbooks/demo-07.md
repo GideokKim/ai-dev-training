@@ -2,7 +2,7 @@
 
 Planning Status: DEFERRED — not justified at STATE-04
 
-Final Validation Status: VISUAL ONLY — local static fallback reviewed; no current-product run was performed.
+Final Validation Status: READY — DEC-0036 local static files, displayed IDs, dimensions and SHA-256 were checked after final rendering. Current-product, target Windows/room and rehearsal gates remain UNVERIFIED; no new Trial was run.
 
 Story Beat: BEAT-023–027
 
@@ -28,7 +28,7 @@ N/A — no Product State selected
 
 Playback uses local offline PNGs rendered from the current integrated deck. The target Windows PC, education Codex account/surface, permissions, and room are not selected or verified. Historical Trial environments apply only to their recorded runs.
 
-Historical source scope: DEC-0018/0019; Slide Map S46–47.
+Historical source scope: DEC-0018/0019; Slide Map S47–48.
 
 ## Repository Commit / Tag
 
@@ -66,9 +66,9 @@ Evidence limit: No current interface support, speed/quality gain, parallelism be
 
 ## Estimated Time
 
-5m: S46 Demo 3m + S47 Demo 2m; Q&A minute portions are separate.
+5m: S47 Demo 3m + S48 Demo 2m; Q&A minute portions are separate.
 
-Phase plan: S46 3m → S47 2m.
+Phase plan: S47 3m → S48 2m.
 
 Time Risk: LOW
 
@@ -90,13 +90,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S46.png`, `production/preview/full/S47.png`
+Default is the offline static presentation. Open: `production/preview/full/S47.png`, `production/preview/full/S48.png`
 
-S46–S47 PNG; do not open a product Subagent pane.
+S47–S48 PNG; do not open a product Subagent pane.
 
-Fallback readiness: READY for local static slide-render playback only. Raw Trial source captures are not implied or created.
+Fallback readiness: UNVERIFIED for the DEC-0036 re-render until local file identity and playback paths are rechecked. The approved static fallback plan is preserved; raw Trial captures are not implied or created.
 
-Captured Alternative provenance: DEC-0033 integrated-deck static render; file identity and fallback paths rechecked on 2026-10-21. See `FALLBACK_MANIFEST.md` and `production/evaluation/FINAL_HANDOFF.md` for the exact PPTX hash and recorded rendering scope. This file check is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
+Captured Alternative provenance: DEC-0036 current slide numbering. Post-migration PPTX/PNG identity and fallback hashes must be checked in FALLBACK_MANIFEST.md and production/evaluation/CODEX_ENTRY_INSERTION.md. DEC-0033/DEC-0035 rendering records remain historical evidence. This alignment is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -106,11 +106,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S47 → S48: move from role choice to durable knowledge.
+S48 → S49: move from role choice to durable knowledge.
 
 ## Evidence
 
-DEC-0018/0019; Slide Map S46–47.
+DEC-0018/0019; Slide Map S47–48.
 
 ## Do Not Claim
 

@@ -30,11 +30,11 @@ S05:(p,H)=>{
 
  return s;
 },
-S23:(p,H)=>{
+S24:(p,H)=>{
  const {C,FONT,CODE,text,rect,line,pixels}=H;
  const frame=(id,act,title,source,boundary,concept=false)=>H.frame(p,id,title,act,source,boundary,concept?'CONCEPTUAL':'OBSERVED_PRODUCT');
 
- const s=frame('S23','ACT 2  ·  Project Context','작은 Project Context의 첫 기록',
+ const s=frame('S24','ACT 2  ·  Project Context','작은 Project Context의 첫 기록',
  'OBSERVED PRODUCT  |  STATE-01 · AGENTS.md 실제 원문 발췌',
  '파일의 내용과 기록 위치를 보여주는 장 · Agent의 활용 관찰은 다음 장에서 확인');
  text(s,'반복해서 설명하던 내용을 저장소에 남겼다',64,170,1152,43,32,C.teal,true);
@@ -55,11 +55,11 @@ S23:(p,H)=>{
 
  return s;
 },
-S45:(p,H)=>{
+S46:(p,H)=>{
  const {C,FONT,CODE,text,rect,line,pixels}=H;
  const frame=(id,act,title,source,boundary,concept=false)=>H.frame(p,id,title,act,source,boundary,concept?'CONCEPTUAL':'OBSERVED_PRODUCT');
 
- const s=frame('S45','ACT 3  ·  Harness로 조사하고 검증하기','Working Harness Success',
+ const s=frame('S46','ACT 3  ·  Harness로 조사하고 검증하기','Working Harness Success',
  'STATE-04 → STATE-04-PERF  |  image_statistics · 합성 1024×768 · CPython 3.9.6 / macOS arm64',
  '동일 입력·상태별 7회 측정 · 이 환경의 코드 변경 결과이며 Harness 단독 효과는 입증하지 않음');
  text(s,'결과가 맞는지 확인하고, 같은 조건에서 비교했다',64,165,1152,43,32,C.teal,true);
@@ -88,11 +88,11 @@ S45:(p,H)=>{
 
  return s;
 },
-S57:(p,H)=>{
+S58:(p,H)=>{
  const {C,FONT,CODE,text,rect,line,pixels}=H;
  const frame=(id,act,title,source,boundary,concept=false)=>H.frame(p,id,title,act,source,boundary,concept?'CONCEPTUAL':'OBSERVED_PRODUCT');
 
- const s=frame('S57','ACT 4  ·  CONCEPTUAL / 가상 사례','Project는 바뀌고 Workflow는 남았다',
+ const s=frame('S58','ACT 4  ·  CONCEPTUAL / 가상 사례','Project는 바뀌고 Workflow는 남았다',
  'DEMO-04A  |  가상 설정 · 실제 Repository 변경 이력이 아님',
  '두 지침의 범위를 비교하는 장 · Agent 실행, 테스트 누락 또는 PASS / FAIL 결과를 뜻하지 않음',true);
  text(s,'가정: 모듈 연결 동작도 검증해야 하는 프로젝트가 됐다',64,169,1152,44,30,C.ink);

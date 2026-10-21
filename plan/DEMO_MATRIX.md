@@ -1,12 +1,14 @@
 # Demo Matrix
 
+> **현재 기준: DEC-0036 / 81장 (2026-10-21).** 새 S08을 삽입하고 종전 S08–S80을 S09–S81로 이동했다. 총 360분과 ACT·Mode 합계, 기존 Beat·Section·Demo·Trial·State ID는 유지한다. [번호 대조·문서 범위](SLIDE_ID_MIGRATION.md). 과거 프로토타입 경로와 명시된 80장 이력은 당시 번호를 보존한다.
+
 ## 2026-10-18 — Current DEMO-04A Setting (DEC-0027)
 
-The user accepted the S57 pilot's hypothetical setting. S56 starts with the
+The user accepted the original 80-slide S57 pilot's hypothetical setting (current S58). S57 starts with the
 Project and reusable Workflow both directing unit tests. A need to verify
 module interactions expands the official Project scope to unit plus
-integration tests; the Workflow still directs unit tests only. S57 shows the
-instruction-scope mismatch, not execution or a PASS/FAIL result. S58–65 remain
+integration tests; the Workflow still directs unit tests only. S58 shows the
+instruction-scope mismatch, not execution or a PASS/FAIL result. S59–66 remain
 conceptual. No command, runner implementation, actual missed test, Trial or
 Product State is asserted. Historical decisions and observed evidence below
 remain preserved; this clarification supersedes only the unspecified reason.
@@ -3514,9 +3516,9 @@ and EVAL-04 is the small refactor. `DEMO_REPOSITORY_SPEC.md` and
 `DEMO_RUNBOOK_SPEC.md` have been aligned; no corresponding Product State or
 code was created.
 
-### STEP 08 — S64 / DEMO-10 visual scope reconciliation
+### STEP 08 — S65 / DEMO-10 visual scope reconciliation
 
-S64 keeps EVAL-01 through EVAL-04 in the approved four-row conceptual
+S65 keeps EVAL-01 through EVAL-04 in the approved four-row conceptual
 evaluation set. EVAL-01 and EVAL-02 have prior OBSERVED_PRODUCT evidence in
 their own State chains; that evidence is a reference, not a rerun or outcome
 of DEMO-10 or the conceptual DEMO-04A case. EVAL-03 and EVAL-04 are designed

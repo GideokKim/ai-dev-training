@@ -51,6 +51,7 @@ Research Priority는 조사 순서를 뜻하며 Training Risk와 별도다. 기�
 | CLM-0028 | SWE-Bench Pro leaderboard claims can be used without version/source qualification. | BENCHMARK CLAIM | MEDIUM | SRC-0209, SRC-0210, SRC-0143 | Benchmark caveat | CONFLICTED | HIGH | P3 |
 | CLM-0029 | Codex can run available project verification commands when the selected environment and permissions allow; the observed check does not prove every aspect of correctness. | PRODUCT BEHAVIOR / HEURISTIC | HIGH | SRC-0103, SRC-0105, SRC-0139, SRC-0140 | Verification | VERIFIED | HIGH | P0 |
 | CLM-0030 | This course uses Harness as a deliberately designed working environment that helps an Agent work reliably in a Project; this is not a universal taxonomy. | TEACHING MODEL | MEDIUM | SRC-0001, SRC-0137, SRC-0206, SRC-0218 | Harness Engineering | PARTIAL | HIGH | P0 |
+| CLM-0031 | OpenAI Quickstart directs software-development work with codebase context and developer tools to Codex through the ChatGPT dropdown. This course follows that route; exact target UI and account availability remain unverified. | PRODUCT BEHAVIOR / DOCUMENTATION | HIGH | SRC-0228, SRC-0229 | Current S08 / DEC-0036 | VERIFIED | HIGH | P1 |
 
 ## Story-Critical Claim Gate
 
@@ -117,3 +118,11 @@ DEC-0023; they supersede the candidate wording where applicable.
 | CLM-0023 | HIGH | MEDIUM | BASIC | AI-Native Development | YES | NO |
 | CLM-0029 | HIGH | LOW | BASIC | Verification throughout the Story | YES | MAYBE |
 | CLM-0030 | HIGH | MEDIUM | PRACTICAL | Harness Engineering | MAYBE | MAYBE — conceptual only |
+
+## 2026-10-21 — Codex Entry Scope Addendum
+
+CLM-0031 verifies the official documented route, not a live execution in the
+training account. The current S08 is an editable reconstruction. The top-left
+placement follows the user's environment description. Preserve the target
+product/account gate, and do not turn the course's Codex path into a claim that
+other ChatGPT surfaces cannot access files or repository context.

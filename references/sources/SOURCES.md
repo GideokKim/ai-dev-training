@@ -1150,6 +1150,36 @@ Limitations: Vendor explainer; not a standard or academic definition.
 Volatility: MEDIUM
 Notes: Do not treat as consensus.
 
+### SRC-0228
+
+Title: ChatGPT Quickstart — app setup
+Organization / Authors: OpenAI
+Source Type: OFFICIAL_DOC
+URL: https://learn.chatgpt.com/docs/quickstart?setup=app
+Published: Not shown
+Checked: 2026-10-21
+Tier: 1
+Topics: ChatGPT desktop app, Codex entry, codebase context
+Key Evidence: The software-development path with codebase context and developer tools selects Codex from the ChatGPT dropdown.
+Limitations: Documentation verification only. Exact top-left placement is the user's environment description; the target app/account and presentation environment remain UNVERIFIED. This does not establish exclusive repository or file access by Codex.
+Volatility: HIGH
+Notes: CLM-0031; DEC-0036; current S08 uses a labeled editable reconstruction, not a captured app screen.
+
+### SRC-0229
+
+Title: ChatGPT desktop app
+Organization / Authors: OpenAI
+Source Type: OFFICIAL_DOC
+URL: https://learn.chatgpt.com/docs/app
+Published: Not shown
+Checked: 2026-10-21
+Tier: 1
+Topics: ChatGPT, Codex, local project work
+Key Evidence: Describes the desktop app and its task surfaces; supports the course-specific Codex entry explanation together with SRC-0228.
+Limitations: Local target UI, account permissions and live operation have not been validated. ChatGPT Work can also use local files, so avoid an exclusive file-access claim.
+Volatility: HIGH
+Notes: CLM-0031; pair the documented route with the presentation-environment gate.
+
 ## Claim / Research Topic Cross-Reference
 
 핵심 Claim에서 역으로 원본 자료와 조사 분야를 찾기 위한 index다. 세부 제한과
@@ -1175,3 +1205,4 @@ Notes: Do not treat as consensus.
 | CLM-0027 | SRC-0003 | Demo honesty and project history |
 | CLM-0028 | SRC-0143, SRC-0209, SRC-0210 | SWE-Bench Pro source/version conflict |
 | CLM-0029 | SRC-0103, SRC-0105, SRC-0139, SRC-0140 | Verification capability and evaluation |
+| CLM-0031 | SRC-0228, SRC-0229 | Documented ChatGPT dropdown to Codex development path; target UI remains unverified |

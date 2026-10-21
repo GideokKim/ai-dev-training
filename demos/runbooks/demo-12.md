@@ -2,7 +2,7 @@
 
 Planning Status: CANDIDATE — ACT 5 visual recap
 
-Final Validation Status: VISUAL ONLY — local static fallback reviewed; no current-product run was performed.
+Final Validation Status: READY — DEC-0036 local static files, displayed IDs, dimensions and SHA-256 were checked after final rendering. Current-product, target Windows/room and rehearsal gates remain UNVERIFIED; no new Trial was run.
 
 Story Beat: BEAT-060–070
 
@@ -28,7 +28,7 @@ STATE-00 → STATE-04-PERF; conceptual/Meta paths separate
 
 Playback uses local offline PNGs rendered from the current integrated deck. The target Windows PC, education Codex account/surface, permissions, and room are not selected or verified. Historical Trial environments apply only to their recorded runs.
 
-Historical source scope: Existing State history; DEC-0020/0021; Slide Map S73–74.
+Historical source scope: Existing State history; DEC-0020/0021; Slide Map S74–75.
 
 ## Repository Commit / Tag
 
@@ -56,8 +56,8 @@ Follow the six-hour mental-model evolution without implying automation.
 
 ## Expected Output
 
-Static story and State recap. S74 includes excerpts of the existing S16 crop
-diff diagram, S32 routing text and S45 recorded-data chart. The seven-State
+Static story and State recap. S75 includes excerpts of the existing S17 crop
+diff diagram, S33 routing text and S46 recorded-data chart. The seven-State
 rail and the excerpts have separate regions; captions name the actual State
 ranges. These are existing teaching-slide renders, not raw execution captures
 or newly measured results. Use the excerpts for recall rather than rereading
@@ -71,9 +71,9 @@ Evidence limit: No universal maturity path, complete automation, or new Trial.
 
 ## Estimated Time
 
-2m: S74 Demo allocation. S73 Lecture 4m is separate.
+2m: S75 Demo allocation. S74 Lecture 4m is separate.
 
-Phase plan: S74 2m.
+Phase plan: S75 2m.
 
 Time Risk: LOW
 
@@ -95,13 +95,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S73.png`, `production/preview/full/S74.png`
+Default is the offline static presentation. Open: `production/preview/full/S74.png`, `production/preview/full/S75.png`
 
-Use S73–S74 PNGs from the DEC-0033 release. Full and ACT 5 previews match. Read S74 State numbers 01–07 along the arrows: top left to right, then bottom right to left. Its excerpts recall earlier teaching slides rather than raw execution captures.
+Use current S74–S75 PNGs after the DEC-0036 rendering checks. Full/ACT 5 parity requires the post-migration validation record. Read S75 State numbers 01–07 along the arrows: top left to right, then bottom right to left. Its excerpts recall earlier teaching slides rather than raw execution captures.
 
-Fallback readiness: READY for local static slide-render playback only. Raw Trial source captures are not implied or created.
+Fallback readiness: UNVERIFIED for the DEC-0036 re-render until local file identity and playback paths are rechecked. The approved static fallback plan is preserved; raw Trial captures are not implied or created.
 
-Captured Alternative provenance: DEC-0033 integrated-deck static render; file identity and fallback paths rechecked on 2026-10-21. See `FALLBACK_MANIFEST.md` and `production/evaluation/FINAL_HANDOFF.md` for the exact PPTX hash and recorded rendering scope. This file check is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
+Captured Alternative provenance: DEC-0036 current slide numbering. Post-migration PPTX/PNG identity and fallback hashes must be checked in FALLBACK_MANIFEST.md and production/evaluation/CODEX_ENTRY_INSERTION.md. DEC-0033/DEC-0035 rendering records remain historical evidence. This alignment is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -111,11 +111,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S74 → S75: reflect on deliberately deferred components.
+S75 → S76: reflect on deliberately deferred components.
 
 ## Evidence
 
-Existing State history; DEC-0020/0021; Slide Map S73–74.
+Existing State history; DEC-0020/0021; Slide Map S74–75.
 
 ## Do Not Claim
 

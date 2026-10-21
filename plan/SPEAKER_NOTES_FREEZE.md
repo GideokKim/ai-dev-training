@@ -1,5 +1,7 @@
 # STEP 08 — Speaker Notes Freeze
 
+> **현재 기준: DEC-0036 / 81장 (2026-10-21).** 새 S08을 삽입하고 종전 S08–S80을 S09–S81로 이동했다. 총 360분과 ACT·Mode 합계, 기존 Beat·Section·Demo·Trial·State ID는 유지한다. [번호 대조·문서 범위](SLIDE_ID_MIGRATION.md). 과거 프로토타입 경로와 명시된 80장 이력은 당시 번호를 보존한다.
+
 Date: 2026-10-11
 
 Status: CONDITIONALLY FROZEN
@@ -10,7 +12,7 @@ Related decision: DEC-0026
 
 ## 1. Purpose and Authority
 
-이 문서는 승인된 80장 PPT의 Notes 제작 기준을 동결한다. 새로운 강의 내용,
+이 문서는 승인된 81장 PPT의 Notes 제작 기준을 동결한다. 새로운 강의 내용,
 Slide 역할, Story, Evidence, Claim 또는 시간 배분을 설계하지 않는다.
 
 - Slide ID, Story, Evidence reference, Slide별 시간과 Mode: `SLIDE_MAP.md`
@@ -77,13 +79,13 @@ Architecture에서 지정한 상태를 유지한다: `NOT STARTED`, `DRAFT`,
 
 | ACT | Slide range | Slide count | Time |
 |---|---|---:|---:|
-| ACT 0 | S01–S09 | 9 | 40분 |
-| ACT 1 | S10–S21 | 12 | 55분 |
-| ACT 2 | S22–S36 | 15 | 70분 |
-| ACT 3 | S37–S54 | 18 | 85분 |
-| ACT 4 | S55–S72 | 18 | 80분 |
-| ACT 5 | S73–S80 | 8 | 30분 |
-| **전체** | **S01–S80** | **80** | **360분** |
+| ACT 0 | S01–S10 | 10 | 40분 |
+| ACT 1 | S11–S22 | 12 | 55분 |
+| ACT 2 | S23–S37 | 15 | 70분 |
+| ACT 3 | S38–S55 | 18 | 85분 |
+| ACT 4 | S56–S73 | 18 | 80분 |
+| ACT 5 | S74–S81 | 8 | 30분 |
+| **전체** | **S01–S81** | **81** | **360분** |
 
 | Mode | 시간 |
 |---|---:|
@@ -100,15 +102,18 @@ Architecture에서 지정한 상태를 유지한다: `NOT STARTED`, `DRAFT`,
 
 ## 4. High-risk Slide Boundaries
 
+DEC-0036 추가 경계: S08의 Codex 메뉴는 공식자료 기반 재구성이며 현재 UI·발표 계정·Windows는 UNVERIFIED다. S09는 정보 접근과 사람의 최종 책임을 구분하며 AI의 판단·제안 자체를 부정하지 않는다. S07 2분/S08 1분/S09 2분, Section 0E 5분을 적용한다.
+
+
 | Slide | 동결할 진행 순서 / 근거 | 반드시 유지할 경계 |
 |---|---|---|
-| S16 | TRIAL-002의 crop 수정과 실제 기록된 check를 연결 | Crop은 `[x_start, x_end)` 계약이며 `row[x_start:x_end]`가 구현이다. 단일 CLI Trial 범위다. |
-| S35 | TRIAL-005A/B의 Task별 문서 접근을 비교 | 관찰된 접근 차이와 해석을 분리한다. Perfect routing은 입증되지 않았고 token 절감·성능 향상은 측정되지 않았다. |
-| S45 | STATE-04 → STATE-04-PERF의 benchmark와 verification | 값은 기록된 workload·환경에 한정한다. Harness를 단독 원인으로 돌리지 않고 `tracemalloc` peak를 RSS로 말하지 않는다. |
-| S54 | Reflection 3분 → Q&A 5분 → Transition 2분 | 총 10분. Transition이 다음 Story로 마지막 handoff를 한다. DEC-0025. |
-| S55–S56 | S55 Observed Product → S56 Conceptual Case | STATE-04-PERF endpoint와 구성된 stale-workflow 사례를 섞지 않는다. S56은 Demo Repository의 실제 사건이 아니다. |
-| S66–S67 | S66 Teaching Model → S67 Observed Meta | S66은 과정의 개념 모델, S67은 TRIAL-006의 제작 기록이다. Product code 사건이나 완전한 인과 귀속으로 바꾸지 않는다. |
-| S72 | Case 7분 → Reflection 2분 → Q&A 7분 → Transition 4분 | 정적 시각물과 Speaker-led highlighting을 기본으로 한다. 가상 C++ 사례는 실제 GPU/제품 Trial이 아니며 20분 rehearsal은 UNVERIFIED다. |
+| S17 | TRIAL-002의 crop 수정과 실제 기록된 check를 연결 | Crop은 `[x_start, x_end)` 계약이며 `row[x_start:x_end]`가 구현이다. 단일 CLI Trial 범위다. |
+| S36 | TRIAL-005A/B의 Task별 문서 접근을 비교 | 관찰된 접근 차이와 해석을 분리한다. Perfect routing은 입증되지 않았고 token 절감·성능 향상은 측정되지 않았다. |
+| S46 | STATE-04 → STATE-04-PERF의 benchmark와 verification | 값은 기록된 workload·환경에 한정한다. Harness를 단독 원인으로 돌리지 않고 `tracemalloc` peak를 RSS로 말하지 않는다. |
+| S55 | Reflection 3분 → Q&A 5분 → Transition 2분 | 총 10분. Transition이 다음 Story로 마지막 handoff를 한다. DEC-0025. |
+| S56–S57 | S56 Observed Product → S57 Conceptual Case | STATE-04-PERF endpoint와 구성된 stale-workflow 사례를 섞지 않는다. S57은 Demo Repository의 실제 사건이 아니다. |
+| S67–S68 | S67 Teaching Model → S68 Observed Meta | S67은 과정의 개념 모델, S68은 TRIAL-006의 제작 기록이다. Product code 사건이나 완전한 인과 귀속으로 바꾸지 않는다. |
+| S73 | Case 7분 → Reflection 2분 → Q&A 7분 → Transition 4분 | 정적 시각물과 Speaker-led highlighting을 기본으로 한다. 가상 C++ 사례는 실제 GPU/제품 Trial이 아니며 20분 rehearsal은 UNVERIFIED다. |
 
 ## 5. Evidence, Claim, and Product Gate
 
@@ -126,22 +131,22 @@ Architecture에서 지정한 상태를 유지한다: `NOT STARTED`, `DRAFT`,
 
 ## 6. Fallback Gate
 
-S16, S35, S67의 fallback 상태는 현재 모두 `PLANNED`다.
+S17, S36, S68의 fallback 상태는 현재 모두 `PLANNED`다.
 
 | Slide | 사용 가능한 기록 | 현재 상태 |
 |---|---|---|
-| S16 | `DEMO_MATRIX.md`의 TRIAL-002 기록; `prototype/preview/v2/S16.png` | PLANNED. PNG는 재구성된 prototype copy이며 실제 Trial screenshot이 아니다. |
-| S35 | TRIAL-005A/B 기록; `prototype/preview/v2/S35.png` | PLANNED. PNG는 재구성된 접근 matrix이며 raw access log가 아니다. |
-| S67 | TRIAL-006 기록; `prototype/preview/v2/S67.png` | PLANNED. PNG는 재구성된 timeline이며 CLI screenshot이 아니다. |
+| S17 | `DEMO_MATRIX.md`의 TRIAL-002 기록; `prototype/preview/v2/S16.png` | PLANNED. PNG는 재구성된 prototype copy이며 실제 Trial screenshot이 아니다. |
+| S36 | TRIAL-005A/B 기록; `prototype/preview/v2/S35.png` | PLANNED. PNG는 재구성된 접근 matrix이며 raw access log가 아니다. |
+| S68 | TRIAL-006 기록; `prototype/preview/v2/S67.png` | PLANNED. PNG는 재구성된 timeline이며 CLI screenshot이 아니다. |
 
 선택된 최종 자료의 파일·경로·내용을 확인하기 전에는 어느 것도 `READY`로
 올리지 않는다. 기록, prototype copy, raw capture는 서로 구분해 표기한다.
 Fallback이 없거나 검증되지 않은 HYBRID Demo는 최종 발표용으로 승인하지
 않는다. 실행 실패 시 대체 경로를 실제 발표 흐름 안에서 확인한다.
 
-## 7. S72 Rehearsal Gate
+## 7. S73 Rehearsal Gate
 
-S72는 Case 0–7분, Reflection 7–9분, Q&A 9–16분, Transition 16–20분이다.
+S73는 Case 0–7분, Reflection 7–9분, Q&A 9–16분, Transition 16–20분이다.
 질문이 없는 경우의 fallback question과 16분 cutoff cue는 Pilot에 기록돼
 있다. 실제 timed rehearsal, 청중 Q&A, 운영 속도 검증은 수행되지 않았으므로
 `UNVERIFIED`로 유지한다. 운영 Cue는 완성 Notes나 검증 완료 판정이 아니다.
@@ -154,8 +159,8 @@ S72는 Case 0–7분, Reflection 7–9분, Q&A 9–16분, Transition 16–20분�
 - 실제 교육 계정과 선택한 Codex 제품 표면의 current-state 확인.
 - Live Demo 실행 경로와 Fallback의 실제 점검 및 rehearsal.
 - 대상 화면에서 Safe Area, citation, Evidence frame 확인.
-- S72의 timed 20분 rehearsal.
-- 선택된 최종 S16/S35/S67 자료의 파일과 내용 확인.
+- S73의 timed 20분 rehearsal.
+- 선택된 최종 S17/S36/S68 자료의 파일과 내용 확인.
 
 Mac / LibreOffice 렌더링은 Windows 검증을 대신하지 않는다. 최종 Gate의
 증거가 기록되기 전에는 관련 항목을 UNVERIFIED로 둔다.
@@ -172,13 +177,13 @@ Notes는 Slide Map, Claim Freeze, 승인된 Decision, Demo evidence를 구현한
 - Notes Architecture에 정의된 schema: 19 fields.
 - Pilot: 7개 Slide이며 각 Notes는 19 fields를 포함한다.
 - Pilot 검토: `COMPLETE WITH OPEN ITEMS`; 이는 문서 검토이지 rehearsal이 아니다.
-- S54/S72 순서: DEC-0025와 일치.
-- 80 Slides, ACT별 40/55/70/85/80/30분, Mode별 130/73/83/20/22/32분 유지.
+- S55/S73 순서: DEC-0025와 일치.
+- 81 Slides, ACT별 40/55/70/85/80/30분, Mode별 130/73/83/20/22/32분 유지.
 - 미검증 제품·Windows·fallback·rehearsal Gate는 미해결로 유지.
 
 ## 11. Next Readiness
 
 **READY TO USE AS THE SPEAKER NOTES PRODUCTION STANDARD.**
 
-이 준비 상태는 schema와 운영 기준의 사용을 허용한다. 80개 Notes가 작성·검토됐거나,
+이 준비 상태는 schema와 운영 기준의 사용을 허용한다. 81개 Notes가 작성·검토됐거나,
 PPT·제품 표면·Fallback·Windows·실제 발표가 검증됐다는 뜻은 아니다.

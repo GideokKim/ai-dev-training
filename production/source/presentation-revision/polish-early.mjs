@@ -7,7 +7,7 @@ const make=(id,title,act,source,boundary,type,draw)=>(p,H)=>{
 };
 
 export const slides={
-S10:make('S10','Task에는 무엇이 아직 정해지지 않았을까?','ACT 1 · 모호한 작업 요청',
+S11:make('S11','Task에는 무엇이 아직 정해지지 않았을까?','ACT 1 · 모호한 작업 요청',
   '교육용 구성 사례 · 실제 Agent 실패나 Trial 결과가 아님',
   'Repository는 열려 있어도 작업의 목표·보존 조건·완료 기준이 자동으로 정해지지는 않습니다.','CONCEPTUAL',
   (s,{C,text,rect,line,arrow})=>{
@@ -24,7 +24,7 @@ S10:make('S10','Task에는 무엇이 아직 정해지지 않았을까?','ACT 1 �
       text(s,'?',1163,y+31,53,43,31,C.teal,true);
     });
   }),
-S11:make('S11','요청만으로는 의도가 보이지 않는다','ACT 1 · 앞서 본 crop 사례로 좁히기',
+S12:make('S12','요청만으로는 의도가 보이지 않는다','ACT 1 · 앞서 본 crop 사례로 좁히기',
   '교육용 구성 사례 · TRIAL-002의 실제 Prompt가 아님',
   '짧은 요청을 비난하거나 이 요청이 특정 실패를 만들었다고 주장하지 않습니다.','CONCEPTUAL',
   (s,{C,text,line,rect,arrow})=>{
@@ -38,7 +38,7 @@ S11:make('S11','요청만으로는 의도가 보이지 않는다','ACT 1 · 앞�
     text(s,'아직 정해지지 않은 정보',64,498,1152,37,27,C.sub,true);
     ['목표의 세부','보존 조건','수정 범위','확인 근거','완료 조건'].forEach((v,i)=>text(s,`${v} ?`,64+234*i,549,214,37,27,C.ink));
   }),
-S12:make('S12','개발자가 정해야 하는 경계','ACT 1 · 요청을 보내기 전의 질문',
+S13:make('S13','개발자가 정해야 하는 경계','ACT 1 · 요청을 보내기 전의 질문',
   '이 과정의 질문 틀 · 정답을 제시하는 분류 시험이 아님',
   '마지막 1분은 익숙한 작업 하나를 조용히 떠올려 보세요.','CONCEPTUAL',
   (s,{C,text,line,rect})=>{
@@ -54,7 +54,7 @@ S12:make('S12','개발자가 정해야 하는 경계','ACT 1 · 요청을 보내
     text(s,'05',84,530,65,42,25,C.teal,true);
     text(s,'언제 완료라고 할까?',169,525,1023,52,36,C.teal,true);
   }),
-S13:make('S13','Task Specification의 다섯 책임','ACT 1 · 작업을 구체화하는 틀',
+S14:make('S14','Task Specification의 다섯 책임','ACT 1 · 작업을 구체화하는 틀',
   '이 과정의 교육 모델 · 공식 OpenAI 분류나 모든 작업에 대한 법칙이 아님',
   '다섯 항목은 서로 분리된 기능이 아니라 하나의 작업 요청에 담는 책임입니다.','TEACHING_MODEL',
   (s,{C,text,rect,line})=>{
@@ -65,7 +65,7 @@ S13:make('S13','Task Specification의 다섯 책임','ACT 1 · 작업을 구체�
     const rs=[['목표 · Goal','어떤 결과를 바꿀까?'],['맥락 · Context','이 작업에 필요한 사실은?'],['제약 · Constraints','무엇을 보존할까?'],['과정 · Process','어떤 순서·경계를 지킬까?'],['검증 · Verification','무엇으로 완료를 확인할까?']];
     rs.forEach((r,i)=>{const y=218+i*72;text(s,r[0],416,y,312,45,27,C.teal,true);text(s,r[1],755,y,437,45,28,C.ink);if(i<4)line(s,416,y+57,776);});
   }),
-S14:make('S14','더 긴 Prompt보다 분명한 경계','ACT 1 · 같은 요청을 구체화하기',
+S15:make('S15','더 긴 Prompt보다 분명한 경계','ACT 1 · 같은 요청을 구체화하기',
   '교육용 Before / After · 실제 Trial Prompt나 우월성 비교 실험이 아님',
   'C++ 적용도 작업 경계를 정하는 예시입니다. 특정 Windows·빌드 환경을 검증한 것은 아닙니다.','CONCEPTUAL',
   (s,{C,text,rect,line,arrow})=>{
@@ -78,7 +78,7 @@ S14:make('S14','더 긴 Prompt보다 분명한 경계','ACT 1 · 같은 요청�
     rect(s,64,553,1152,46,C.pale);
     text(s,'C++에도: 출력·API/ABI 보존 범위와 Release 검증 조건을 먼저 정한다.',80,559,1120,35,27,C.teal);
   }),
-S21:make('S21','반복하는 설명을 두 범주로 나누기','ACT 1 · 정보의 수명과 범위',
+S22:make('S22','반복하는 설명을 두 범주로 나누기','ACT 1 · 정보의 수명과 범위',
   '교육용 후보 예시 · 모든 프로젝트에 적용되는 유일한 분류가 아님',
   '다음 질문: Project 정보를 왜 매번 Prompt에 다시 적고 있을까요?','CONCEPTUAL',
   (s,{C,text,line,rect})=>{
@@ -92,7 +92,7 @@ S21:make('S21','반복하는 설명을 두 범주로 나누기','ACT 1 · 정보
     });
     text(s,'정보마다 필요한 기간과 적용 범위가 다르다.',64,555,1152,39,30,C.teal,true);
   }),
-S23:make('S23','작은 Project Context의 첫 기록','ACT 2  ·  Project Context',
+S24:make('S24','작은 Project Context의 첫 기록','ACT 2  ·  Project Context',
   'OBSERVED PRODUCT  |  STATE-01 · AGENTS.md 실제 원문 발췌',
   '파일의 내용과 기록 위치를 보여주는 장 · Agent의 활용 관찰은 다음 장에서 확인','OBSERVED_PRODUCT',
   (s,{C,text,line,CODE})=>{
@@ -115,7 +115,7 @@ S23:make('S23','작은 Project Context의 첫 기록','ACT 2  ·  Project Contex
       text(s,r[2],310,y+37,906,35,27,C.teal,true);
     });
   }),
-S25:make('S25','Task Prompt와 Project Context','ACT 2 · 정보의 범위와 수명',
+S26:make('S26','Task Prompt와 Project Context','ACT 2 · 정보의 범위와 수명',
   '교육용 구분 · 현재 목표와 지속되는 프로젝트 사실',
   'C++에서도 프로젝트 공통 제약과 이번 알고리즘 변경 조건은 범위가 다를 수 있다','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{
@@ -132,7 +132,7 @@ S25:make('S25','Task Prompt와 Project Context','ACT 2 · 정보의 범위와 �
     text(s,'다음 작업에서는 목표가 달라짐',80,547,484,36,25,C.sub,true);
     text(s,'여러 작업에서 다시 참고',720,547,480,36,27,C.teal,true);
   }),
-S29:make('S29','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 양을 다시 묻는 연구',
+S30:make('S30','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 양을 다시 묻는 연구',
   'Liu et al., Lost in the Middle, TACL 2024 · RepoQA, 2024',
   '특정 모델·과제의 결과 · 현재 Codex의 Repository coding 한계를 입증하지 않음','RESEARCH',
   (s,{C,text,line,rect,arrow})=>{
@@ -156,7 +156,7 @@ S29:make('S29','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 
     text(s,'aclanthology.org/2024.tacl-1.9/',64,577,550,27,19,C.sub,false,'Consolas');
     text(s,'arxiv.org/abs/2406.06025',704,577,512,27,19,C.sub,false,'Consolas');
   }),
-S30:make('S30','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상세 정보의 탐색 경로',
+S31:make('S31','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상세 정보의 탐색 경로',
   '교육용 Routing 모델 · 실제 문서 접근 결과는 다음 구간에서 확인',
   '검색 성능 향상이나 토큰 절약을 입증한 그림이 아님','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{
@@ -165,7 +165,7 @@ S30:make('S30','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상�
     rs.forEach((r,i)=>{line(s,r.x,318,r.w,i===0?C.ink:C.teal,3);text(s,r.head,r.x,342,r.w,45,30,C.ink,true);text(s,r.body,r.x,418,r.w,82,28,C.sub);if(i<2)arrow(s,r.x+r.w+20,374,35,23);});
     text(s,'C++ 예: 공통 제약을 확인한 뒤, 해당 알고리즘의 계약으로',64,552,1152,37,26,C.sub);
   }),
-S31:make('S31','Core Context에서 상세 정보로 가는 길','ACT 2 · Core에 남길 기본 안내',
+S32:make('S32','Core Context에서 상세 정보로 가는 길','ACT 2 · Core에 남길 기본 안내',
   '교육용 정보 설계 · Root/Core는 상세 정보의 출발점',
   'C++ 예: build/test 진입점과 기본 제약 → 알고리즘 계약·하드웨어 조건','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{

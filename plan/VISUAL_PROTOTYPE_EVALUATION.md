@@ -1,5 +1,7 @@
 # STEP 08 — Visual Prototype Evaluation
 
+> **Historical Working Draft — 80장 판본.** 아래 원본 Slide ID, 프로토타입·Pilot 수, 실제 파일 경로와 당시 평가 결과를 보존한다. 현재 공식 Map은 DEC-0036의 81장 판본이며, 종전 S08–S80의 현재 번호는 S09–S81이다. 현재 번호는 [SLIDE_ID_MIGRATION.md](SLIDE_ID_MIGRATION.md)로 대조한다. 이 문서의 과거 판정을 새 판본의 검증 결과로 확대하지 않는다.
+
 Date: 2026-10-10
 
 Status: PARTIAL

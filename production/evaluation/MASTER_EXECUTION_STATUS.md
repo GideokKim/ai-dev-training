@@ -1,5 +1,8 @@
 # MASTER EXECUTION STATUS
 
+> Historical record — 이 문서는 DEC-0036 이전 80장 판의 번호와 검증 결과를 보존한다. 현재 81장 판과의 대응은 [Slide ID Migration](../../plan/SLIDE_ID_MIGRATION.md)을 따른다. 과거 PASS는 현재 파일의 재검증을 뜻하지 않는다.
+
+
 > Historical execution record; the execution results and checkpoint below describe an earlier release.
 > Current presentation: DEC-0030, `a252c49`. Current packaging: DEC-0031.
 > Use [FINAL_HANDOFF.md](FINAL_HANDOFF.md) for current artifact hashes and

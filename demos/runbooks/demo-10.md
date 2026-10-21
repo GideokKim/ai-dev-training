@@ -2,7 +2,7 @@
 
 Planning Status: CANDIDATE — conceptual evaluation matrix
 
-Final Validation Status: VISUAL ONLY — local static fallback reviewed; no current-product run was performed.
+Final Validation Status: READY — DEC-0036 local static files, displayed IDs, dimensions and SHA-256 were checked after final rendering. Current-product, target Windows/room and rehearsal gates remain UNVERIFIED; no new Trial was run.
 
 Story Beat: BEAT-047–049
 
@@ -28,7 +28,7 @@ N/A — no new Product State/task execution
 
 Playback uses local offline PNGs rendered from the current integrated deck. The target Windows PC, education Codex account/surface, permissions, and room are not selected or verified. Historical Trial environments apply only to their recorded runs.
 
-Historical source scope: Demo Matrix evaluation scope and Slide Map S64.
+Historical source scope: Demo Matrix evaluation scope and Slide Map S65.
 
 ## Repository Commit / Tag
 
@@ -56,7 +56,7 @@ Distinguish prior evidence from evaluation design.
 
 ## Expected Output
 
-S64 four-row conceptual matrix, no execution.
+S65 four-row conceptual matrix, no execution.
 
 ## Verification
 
@@ -66,9 +66,9 @@ Evidence limit: Do not say EVAL-03/04 ran or passed/failed; do not merge their d
 
 ## Estimated Time
 
-5m S64 Demo slot.
+5m S65 Demo slot.
 
-Phase plan: S64 5m; internal phase split not established.
+Phase plan: S65 5m; internal phase split not established.
 
 Time Risk: LOW
 
@@ -90,13 +90,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S64.png`
+Default is the offline static presentation. Open: `production/preview/full/S65.png`
 
-Use S64.png; keep observed and designed frames separate.
+Use S65.png; keep observed and designed frames separate.
 
-Fallback readiness: READY for local static slide-render playback only. Raw Trial source captures are not implied or created.
+Fallback readiness: UNVERIFIED for the DEC-0036 re-render until local file identity and playback paths are rechecked. The approved static fallback plan is preserved; raw Trial captures are not implied or created.
 
-Captured Alternative provenance: DEC-0033 integrated-deck static render; file identity and fallback paths rechecked on 2026-10-21. See `FALLBACK_MANIFEST.md` and `production/evaluation/FINAL_HANDOFF.md` for the exact PPTX hash and recorded rendering scope. This file check is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
+Captured Alternative provenance: DEC-0036 current slide numbering. Post-migration PPTX/PNG identity and fallback hashes must be checked in FALLBACK_MANIFEST.md and production/evaluation/CODEX_ENTRY_INSERTION.md. DEC-0033/DEC-0035 rendering records remain historical evidence. This alignment is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -106,11 +106,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S64 → S65: connect representative checks to overfitting risk.
+S65 → S66: connect representative checks to overfitting risk.
 
 ## Evidence
 
-Demo Matrix evaluation scope and Slide Map S64.
+Demo Matrix evaluation scope and Slide Map S65.
 
 ## Do Not Claim
 

@@ -1,6 +1,6 @@
 # ACT 0 — Speaker Notes
 
-Status: REVIEWED — accepted presentation revision. Source, screen cues, and operation guidance are aligned. Exact-file render and embedded-Notes results are recorded in the integrated revision evaluation. Windows, room, account, and timed rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0036의 81장 번호와 운영 지침을 정렬했다. 신규 제작본의 렌더·내장 Notes 대조는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 별도로 기록한다. 기존 80장판의 PASS를 승계하지 않는다. Windows, room, account, and timed rehearsal remain UNVERIFIED.
 
 Validation history: 이전 제작본의 local Mac Keynote 렌더·구조 검토 기록은 Git history와 기존 ACT 평가 문서에 보존한다. 이전 제작본의 PASS를 새 수정본의 검증 완료로 승계하지 않는다.
 
@@ -12,7 +12,7 @@ Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`,
 `plan/SPEAKER_NOTES_ARCHITECTURE.md`, `plan/SPEAKER_NOTES_FREEZE.md`,
 `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, and `plan/DECISIONS.md`.
 
-Continuity revision: DEC-0032 (2026-10-20). Current handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
+Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historical handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
 
 ## S01 — AI에게 지금 무엇을 맡기고 있는가?
 
@@ -293,9 +293,11 @@ Working Title: 코드를 AI에게 가져가는 대신 AI를 Repository로 데려
 
 ACT / Section: ACT 0 / 0E
 
-Allocated Time: 3 minutes
+Allocated Time: 2 minutes
 
-Mode Split: Lecture 3 minutes
+
+Mode Split: Lecture 2 minutes
+
 
 Primary Message: Repository 조사는 개발자가 코드를 일일이 전달하는 대신 Agent가 사용 가능한 Context를 찾도록 할 수 있다.
 
@@ -303,10 +305,11 @@ Opening Question: “Context 수집의 일부를 누가 맡을 수 있는가?”
 
 Speaker Flow:
 
-1. **CALL BACK (0:00–0:30):** 왼쪽 Repository → 개발자 선택·복사 → AI 관계로 S02를 짧게 회수한다.
-2. **TRANSFER (0:30–1:30):** 오른쪽 개발자 조사 요청 → Agent ↔ Repository로 시선을 옮긴다. 바뀌는 것은 Context를 찾는 주체의 일부이며 목표와 검증 책임을 전부 넘긴다는 뜻이 아니다.
-3. **ACCESS BOUNDARY (1:30–2:15):** Repository를 연결하거나 자료를 전달하기 전에 승인된 도구·계정, 입력 가능한 자료와 허용된 접근 권한 범위를 먼저 확인한다고 설명한다. 회사의 실제 허용·금지 목록과 승인 절차는 이 자료에서 확정하지 않았으므로 해당 조직의 정책을 확인해야 한다. 새로운 제품 설정이나 정책 목록을 가르치지 않는다.
-4. **TRANSFER / TRANSITION (2:15–3:00):** 필요하면 큰 C++ 저장소에서도 모듈·테스트·계약을 찾는 상황을 한 문장으로만 연결한다. Repository 접근이 원하는 Task를 정하지는 않는다는 S08 질문으로 이동한다.
+1. **CALL BACK (0:00–0:20):** 왼쪽 Repository → 개발자 선택·복사 → AI 관계로 S02를 짧게 회수한다.
+2. **TRANSFER (0:20–1:00):** 오른쪽 개발자 조사 요청 → Agent ↔ Repository로 시선을 옮긴다. 바뀌는 것은 Context를 찾는 주체의 일부이며 목표와 검증 책임을 전부 넘긴다는 뜻이 아니다. C++ 연결은 필요할 때 한 문장만 사용한다.
+3. **ACCESS BOUNDARY (1:00–1:45):** Repository를 연결하거나 자료를 전달하기 전에 승인된 도구·계정, 입력 가능한 자료와 허용된 접근 권한 범위를 먼저 확인한다고 설명한다. 회사의 실제 허용·금지 목록과 승인 절차는 이 자료에서 확정하지 않았으므로 해당 조직의 정책을 확인해야 한다. 새로운 제품 설정이나 정책 목록을 가르치지 않는다.
+4. **ENTRY QUESTION (1:45–2:00):** “그렇다면 Repository 작업은 어디서 시작할까요?”라고 물으며 새 S08의 Codex 진입 경로로 이동한다. 접근 권한과 Task 의도의 구분은 S09에서 회수한다.
+
 
 Evidence / Source: DEMO-01 / TRIAL-001 단일 CLI 관찰; BEAT-003, CLM-0002, CLM-0009. 본문은 Context 수집 역할을 비교하는 TEACHING_MODEL이며 하단에 연결된 과거 관찰의 범위를 별도로 표시한다. 삽화 출처: prototype/image-illustration-pilot/assets/S07.png, built-in image_gen, 2026-10-18. 생성 프롬프트: prototype/image-illustration-pilot/PROMPTS.md. 실제 화면·현장 사진·관찰 자료가 아니다.
 
@@ -322,17 +325,64 @@ Demo Operation: DEMO-01 bounded callback. 본문 삽화는 교육 모델이고 �
 
 Audience Interaction: 별도 질의 없음. 청중이 Mental Shift를 비교해 볼 수 있도록 잠시 시선을 둔다.
 
-Transition: “Repository 접근과 Task 의도는 같은가?”라고 물으며 S08에 간다.
+Transition: “Repository 작업은 어디서 시작할까요?”라고 물으며 S08의 ChatGPT → Codex 진입 경로로 간다.
 
-Time Management: 좌·우 관계의 변화에 집중한다. Trial 상세와 수치를 반복하지 않는다. 기존 관계 재설명과 선택적 C++ 해설을 줄여 접근 범위 확인 45초를 배치한다. C++ 연결은 선택적인 한 문장에 한정하고 Lecture 3분 안에 S08로 이동한다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+
+Time Management: Lecture 2분. S02 회수 20초, 좌·우 관계 40초, 승인된 도구·계정·자료·접근 범위 확인 45초, S08 연결 15초다. 접근 경계 45초는 줄이지 않고 관계 재설명·선택적 C++ 해설을 압축한다. 기존 S07의 Lecture 3분 중 1분을 신규 S08에 배정하며 ACT 0 40분과 전체 Mode를 유지한다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+
 
 Fallback: Trial record를 표시할 수 없으면 Mental Shift만 Teaching Model로 설명한다. 제품 전반의 사실처럼 말하지 않는다. 정적 파일: production/preview/act0/S07.png 및 production/preview/full/S07.png.
 
-Validation Status: REVIEWED — 사용자 승인 삽화를 전체 제작본에 반영했다. PPT/Notes/PNG 대조와 S72 잘림 재검토 결과는 production/evaluation/FULL_DECK_IMAGE_INTEGRATION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0036의 시간·전환 지침이다. 과거 80장판의 삽화·당시 S72(현재 S73) 잘림 검토는 production/evaluation/FULL_DECK_IMAGE_INTEGRATION.md에 보존한다. 새 제작본의 PPT/Notes/PNG 대조는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S08 — Repository 접근과 Task 의도는 별개다
+## S08 — Repository 작업은 Codex에서 시작한다
 
 Slide ID: S08
+
+Working Title: Repository 작업은 Codex에서 시작한다
+
+ACT / Section: ACT 0 / 0E
+
+Allocated Time: 1 minute
+
+Mode Split: Lecture 1 minute
+
+Primary Message: 이 교육에서 Repository를 조사하는 개발 작업은 ChatGPT 데스크톱 앱의 ChatGPT 메뉴에서 Codex를 선택해 시작한다.
+
+Opening Question: “Repository 작업을 맡기려면 어디로 들어갈까?”
+
+Speaker Flow:
+
+1. **LOCATE (0:00–0:15):** 재구성 UI의 좌측 상단 ChatGPT 메뉴를 가리킨다. 사용자 지정 위치를 보여 주는 교육용 도식이며 실제 계정의 실행 캡처가 아님을 짧게 밝힌다.
+2. **SELECT (0:15–0:30):** 메뉴의 Codex를 가리킨다. 이 교육에서 코드베이스 조사와 개발 작업을 시작하는 표면을 연결한다.
+3. **REPOSITORY (0:30–0:45):** 허용된 Repository 폴더를 선택하는 흐름을 가리킨다. 앞 장에서 확인한 도구·계정·자료·권한 범위 안의 폴더만 대상이며 실제 선택이나 Live 실행을 하지 않는다.
+4. **ASK (0:45–1:00):** “먼저 조사해줘”라는 요청으로 S04의 조사 태도를 회수한다. “들어가는 곳을 알았으니, 무엇을 볼 수 있고 누가 최종 결정할지 나눠 보겠습니다”라며 S09로 간다.
+
+Evidence / Source: BEAT-003에 연결한 사용자 승인 진입 가교; DEC-0036; SRC-0228 (Quickstart), SRC-0229 (App), CLM-0031 (공식 문서의 전환 경로, 대상 UI·계정 UNVERIFIED). 공식 자료 [ChatGPT quickstart](https://learn.chatgpt.com/docs/quickstart?setup=app), [ChatGPT app](https://learn.chatgpt.com/docs/app), 확인 2026-10-21. Quickstart는 코드베이스 Context·개발 도구가 필요한 소프트웨어 개발에서 ChatGPT dropdown의 Codex 선택을 안내한다. 좌측 상단 위치는 사용자의 명시적 UI 요구다. 화면 구성은 공식 자료 기반 UI 재구성이며 실제 Screenshot이 아니다. 로컬 앱 직접 확인은 도구 안전 제약으로 수행하지 못해 UNVERIFIED다.
+
+Claim Boundary: 이 교육의 개발 작업 진입 경로를 안내한다. 모든 Repository 접근에 Codex만 가능하다는 보편적 주장이 아니다. ChatGPT의 다른 작업 표면에서도 파일 접근이 가능한 경우가 있으며 제품·계정·권한에 따라 다르다. 과거 CLI TRIAL-001을 현재 Desktop 동작의 검증 근거로 사용하지 않는다. 현재 대상 계정·Windows·정확한 메뉴와 폴더 선택 동작은 실제 환경 확인 전까지 UNVERIFIED다.
+
+Beginner Explanation: 작은 코드 질문을 하던 대화에서 Repository 조사로 옮길 때, 이 교육에서는 Codex를 선택하는 진입점을 사용한다.
+
+Advanced Insight: 제품 표면의 선택, Repository 접근 권한, 이번 Task의 의도는 서로 다른 경계다. 이 장은 진입 경로만 연결하며 제품별 접근 성능이나 독점적 기능을 주장하지 않는다.
+
+C++ Vision Bridge: N/A. 언어·IDE별 설정을 추가하지 않는다.
+
+Demo Operation: N/A — 공식 자료를 토대로 재구성한 정적 UI 도식이다. 실제 제품 조작·새 Trial·현장 실습은 없다. 대상 계정의 기능이 확인되지 않았으므로 Live 경로로 전환하지 않는다.
+
+Audience Interaction: 위치를 함께 보는 1분 안내다. 청중에게 계정 로그인·폴더 선택·응답을 요구하지 않는다.
+
+Transition: “Repository 안을 함께 볼 수 있어도, 어떤 결과를 받아들일지는 누가 정할까요?”라는 질문으로 S09에 간다.
+
+Time Management: Lecture 1분. 메뉴 위치 15초, Codex 선택 15초, 허용 폴더 15초, 조사 요청·S09 연결 15초다. S07에서 이관한 1분이며 ACT 0 40분·전체 360분·Lecture 130분을 유지한다. 설정 tutorial을 추가하지 않는다.
+
+Fallback: 제작 완료 후 production/preview/act0/S08.png 또는 production/preview/full/S08.png의 정적 재구성 도식을 사용한다. 새 PNG와 PPT의 일치는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 확인하기 전까지 미검증이다. 화면을 열 수 없으면 “이 교육에서는 ChatGPT 메뉴에서 Codex를 선택해 허용된 저장소 조사를 시작합니다”라고 말하고 S09로 간다. 즉석 계정 시연으로 대체하지 않는다.
+
+Validation Status: ALIGNED — 사용자 요청·공식 자료와 Notes를 정렬했다. 실제 Screenshot, 현재 계정의 제품 재현, Windows 호환성, 교육장 투사와 시간 리허설을 검증한 결과가 아니다. 새 PPT/PNG·내장 Notes 대조는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 별도로 기록한다.
+
+## S09 — Repository 접근과 Task 의도는 별개다
+
+Slide ID: S09
 
 Working Title: Repository 접근과 Task 의도는 별개다
 
@@ -348,17 +398,23 @@ Opening Question: “Repository를 볼 수 있으면 원하는 작업도 알게 
 
 Speaker Flow:
 
-1. **OPEN (0:00–0:30):** 왼쪽 “볼 수 있는 것”과 오른쪽 “정해야 하는 것”을 분리한다.
-2. **EXPLAIN (0:30–1:30):** 파일·구현·테스트가 보여도 원하는 변화, 허용 범위, 완료 판단은 별도로 전달해야 한다는 구분만 설명한다.
-3. **TRANSFER (1:30–2:00):** 가운데 ≠를 짚고 “코드가 보여도 원하는 일은 따로 전달해야 한다”로 정리한다. 이어 이 구분을 각자가 맡기고 싶은 작업에 대입할 질문을 남긴다. ACT 1의 구체적인 요청 구조는 아직 소개하지 않는다.
+1. **OPEN (0:00–0:20):** 왼쪽 “볼 수 있는 것”과 오른쪽 “최종 정해야 하는 것”을 나눈다. 바로 앞 S08은 진입 경로, 이 장은 역할과 책임의 구분이다.
+2. **SHARED ACCESS (0:20–0:50):** 왼쪽 사람+AI Agent 아이콘과 허용된 파일·구현·테스트를 가리킨다. 사람도 Agent도 접근 권한과 제공된 도구 범위 안에서 이 정보를 살필 수 있다는 뜻이다.
+3. **HUMAN RESPONSIBILITY (0:50–1:30):** 오른쪽 사람 아이콘과 원하는 결과·허용 범위·완료 수용을 짚는다. Agent는 선택지와 근거를 제안할 수 있지만 최종 목표와 변경 승인·수용 책임은 사람에게 둔다.
+4. **TRANSFER (1:30–2:00):** “코드를 함께 볼 수 있어도, 맡길 일과 받아들일 결과는 사람이 정한다”로 묶는다. 이 구분을 각자 작업에 대입할 S10 질문으로 이동하며 ACT 1의 요청 구조는 미리 설명하지 않는다.
 
-Evidence / Source: BEAT-003 next friction, DEMO-01 callback, TRIAL-001; CLM-0002, CLM-0009. TEACHING_MODEL.
 
-Claim Boundary: Mental Model이며 모든 제품·환경의 기능 설명이 아니다. Prompt 구조나 완료 조건의 구체 항목은 ACT 1에서 미리 설명하지 않는다.
+Evidence / Source: BEAT-003 next friction, DEMO-01 callback, TRIAL-001; CLM-0002, CLM-0009; DEC-0036. TEACHING_MODEL. 사람·AI Agent 픽토그램: assets/slide-illustrations/human-agent-icons.png, image_gen 교육용 이미지이며 실제 사람 사진·제품 UI·관찰 결과가 아니다.
 
-Beginner Explanation: Agent가 Repository를 읽을 수 있어도 원하는 결과는 개발자가 말해야 한다.
 
-Advanced Insight: Context access와 objective/acceptance responsibility는 별도 경계다.
+Claim Boundary: Mental Model이며 모든 제품·환경의 기능 설명이 아니다. “볼 수 있다”는 허용된 자료·접근 범위 안의 조사 가능성을 뜻하며 무제한 접근을 보증하지 않는다. 사람의 최종 결정은 이 교육의 목표·범위·수용 책임 원칙이다. AI가 판단·추론·제안을 전혀 못한다는 뜻이 아니다. Prompt 구조나 완료 조건의 구체 항목은 ACT 1에서 미리 설명하지 않는다.
+
+
+Beginner Explanation: 사람과 Agent가 같은 파일을 살필 수 있어도, 원하는 결과와 받아들일 변경은 사람이 최종 정한다.
+
+
+Advanced Insight: Context access와 objective/acceptance responsibility는 별도 경계다. Agent의 제안·근거와 사람의 최종 승인 책임을 구분한다.
+
 
 C++ Vision Bridge: N/A.
 
@@ -366,17 +422,19 @@ Demo Operation: N/A — DEMO-01 성공 뒤 남는 문제를 설명한다.
 
 Audience Interaction: Opening question은 수사 질문이다. 짧은 강의 시간에 답변을 요구하지 않는다.
 
-Transition: “이 구분을 여러분이 지금 맡기고 싶은 일에 대입해 보겠습니다.”라고 S09의 개인 적용 질문을 연다.
+Transition: “이 구분을 여러분이 지금 맡기고 싶은 일에 대입해 보겠습니다.”라고 S10의 개인 적용 질문을 연다.
 
-Time Management: Access와 Intent 두 축만 설명하고 ACT 1의 구조나 목록은 소개하지 않는다.
+Time Management: Lecture 2분. 구분 20초, 사람+Agent의 허용 정보 접근 30초, 사람의 최종 책임 40초, 정리·S10 연결 30초다. Access와 Intent 두 축만 설명하고 ACT 1의 구조나 목록은 소개하지 않는다.
 
-Fallback: 화면 도식이 보이지 않으면 두 책임의 차이를 말로 한 번 설명하고 S09로 간다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Fallback: 화면 도식이 보이지 않으면 “자료는 함께 살펴보고, 목표·허용 범위·완료 수용은 사람이 최종 정합니다”라고 설명하고 S10으로 간다. Agent의 제안 가능성을 부정하지 않는다. 정적 경로는 production/preview/act0/S09.png 및 production/preview/full/S09.png이며 새 파일 일치는 후속 렌더 대조 전까지 미검증이다.
 
-## S09 — Repository를 보면 내가 원하는 것까지 알까?
 
-Slide ID: S09
+Validation Status: ALIGNED — DEC-0036에 따라 사람·Agent 접근과 사람의 최종 책임을 구분했다. 새 PPT/PNG·내장 Notes 대조는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 기록한다. Windows PowerPoint, 실제 계정·권한, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+
+## S10 — Repository를 보면 내가 원하는 것까지 알까?
+
+Slide ID: S10
 
 Working Title: Repository를 보면 내가 원하는 것까지 알까?
 
@@ -392,7 +450,7 @@ Opening Question: “내가 지금 맡기고 싶은 일의 원하는 결과까�
 
 Speaker Flow:
 
-1. **DISCUSS / TRANSITION (0:00–3:00):** 화면 상단의 “내 작업에 적용할 질문”을 짚고, 각자가 지금 맡기고 싶은 일 하나를 떠올리게 한다. “지금 이 저장소에 어떤 일을 맡기고 싶은가?”와 “그 원하는 결과까지 코드에 적혀 있는가?”를 차례로 읽는다. S08의 구분을 자기 작업에 대입하며 답이나 다음 단계의 체크리스트를 제시하지 않는다.
+1. **DISCUSS / TRANSITION (0:00–3:00):** 화면 상단의 “내 작업에 적용할 질문”을 짚고, 각자가 지금 맡기고 싶은 일 하나를 떠올리게 한다. “지금 이 저장소에 어떤 일을 맡기고 싶은가?”와 “그 원하는 결과까지 코드에 적혀 있는가?”를 차례로 읽는다. S09의 구분을 자기 작업에 대입하며 답이나 다음 단계의 체크리스트를 제시하지 않는다.
 2. **Q&A (3:00–6:00):** 자발적인 질문을 받는다. 질문이 없으면 두 질문을 그대로 남긴 뒤 ACT 1의 모호한 요청으로 이동한다.
 
 Evidence / Source: BEAT-003 → BEAT-004, TRANSITIONS.md의 승인된 ACT handoff, DEMO-01 callback, CLM-0002, CLM-0009. TEACHING_MODEL.

@@ -1,5 +1,8 @@
 # 발표자 자료 묶음 준비 결과
 
+> Historical record — 이 문서는 DEC-0036 이전 80장 판의 번호와 검증 결과를 보존한다. 현재 81장 판과의 대응은 [Slide ID Migration](../../plan/SLIDE_ID_MIGRATION.md)을 따른다. 과거 PASS는 현재 파일의 재검증을 뜻하지 않는다.
+
+
 날짜: 2026-10-21 (Asia/Seoul). 결정: DEC-0033; 묶음 정책 DEC-0031 유지.
 발표자료 기준: `adba817` / DEC-0033.
 

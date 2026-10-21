@@ -1,0 +1,170 @@
+{
+  "baselineCommit": "6748990",
+  "decision": "DEC-0036",
+  "slideCount": 81,
+  "actCounts": [
+    10,
+    12,
+    15,
+    18,
+    18,
+    8
+  ],
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 55,
+    "ACT 2": 70,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 130,
+    "Reflection": 20,
+    "Case": 83,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "totalMinutes": 360,
+  "notesRecords": 81,
+  "notesFields": 19,
+  "markdownEmbeddedNotesParity": true,
+  "fullActPreviewParity": true,
+  "packages": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "slides": 81,
+      "sha256": "c48051596d20e4cf157f9ea8c71e11be2f38aa71b8b00babcbb0f400a9fe73db",
+      "bytes": 11570349,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "layoutGeometry": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": [
+        "S46"
+      ],
+      "path": "production/AI_Dev_Training_Full.pptx"
+    },
+    {
+      "name": "ACT_0",
+      "slides": 10,
+      "sha256": "ead83102a0d3a41d6576109ee542b4285b3780b44eeb69e5d93da09d2a369d7f",
+      "bytes": 4831309,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "layoutGeometry": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": [],
+      "path": "production/ACT_0.pptx"
+    },
+    {
+      "name": "ACT_1",
+      "slides": 12,
+      "sha256": "ca67923ff50cec4b67a68a4041facaf186c2ba4f3e2234211dcb2c8c540ed418",
+      "bytes": 101460,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "layoutGeometry": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": [],
+      "path": "production/ACT_1.pptx"
+    },
+    {
+      "name": "ACT_2",
+      "slides": 15,
+      "sha256": "1d7954ae8722e1686edb8cf9d2148379ae96ffa1f550bf1b9d304d274d5a5611",
+      "bytes": 120681,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "layoutGeometry": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": [],
+      "path": "production/ACT_2.pptx"
+    },
+    {
+      "name": "ACT_3",
+      "slides": 18,
+      "sha256": "a4f27ba5fab3c197ad74f93df50aada91985a698c4073bf3bd8bfb78d58397d1",
+      "bytes": 4756894,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "layoutGeometry": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": [
+        "S46"
+      ],
+      "path": "production/ACT_3.pptx"
+    },
+    {
+      "name": "ACT_4",
+      "slides": 18,
+      "sha256": "20061d742d8335d00eb4d753169decbd9f6f5f9c54efadeb89f50eb056574b37",
+      "bytes": 1380250,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "layoutGeometry": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": [],
+      "path": "production/ACT_4.pptx"
+    },
+    {
+      "name": "ACT_5",
+      "slides": 8,
+      "sha256": "ae2e5357cb75797edf2df170eff627f45843a35e5cdb273c173d5f6bd8317913",
+      "bytes": 539510,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "layoutGeometry": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": [],
+      "path": "production/ACT_5.pptx"
+    }
+  ],
+  "protectedSourceMapFieldsPreserved": true,
+  "nativeChartDataUnchanged": true,
+  "xmlNormalizedDiffOldSlideIds": [],
+  "windowsPowerPoint": "UNVERIFIED",
+  "targetUiAccountPermissions": "UNVERIFIED",
+  "roomProjection": "UNVERIFIED",
+  "timedRehearsal": "UNVERIFIED",
+  "presenterBundle": "UNCHANGED / PAUSED",
+  "renderCount": 162,
+  "montageCount": 7,
+  "notesSha256": "194119000f930cb96fe7733c8001c87fdbc53c03d66a6d1c533e18f624e704fb",
+  "fullMontageSha256": "a58444b85e829036ea5d88ad092d542fae76896285bcbc1d3ecd7370c44f1b2e",
+  "visualReview": {
+    "allActContactSheets": true,
+    "newSlides": [
+      "S08",
+      "S09"
+    ],
+    "enlargedBoundaryAndRiskSlides": [
+      "S22",
+      "S23",
+      "S37",
+      "S38",
+      "S46",
+      "S55"
+    ],
+    "result": "PASS within local rendered scope",
+    "newClippingOverlapIssues": []
+  },
+  "historicalValidationFiles": "Unchanged JSON; historical Markdown bodies retained with version banners",
+  "staticFallback": "READY for local static files only",
+  "generatedRoleAsset": "assets/slide-illustrations/human-agent-icons.png",
+  "productClaim": "CLM-0031: documented route only; exact target UI/account UNVERIFIED",
+  "renderBuilds": {
+    "AI_Dev_Training_Full": "entry-final-02",
+    "ACT_0": "entry-final-02",
+    "ACT_1_to_5": "entry-final-01",
+    "all81PngPixelsIdenticalBetweenBuilds": true
+  },
+  "fullMontageDimensions": [
+    1920,
+    5670
+  ],
+  "markdownLocalLinkCount": 324,
+  "missingMarkdownLocalLinks": [],
+  "staticFallbackFilesVerified": 29
+}

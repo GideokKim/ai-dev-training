@@ -13,13 +13,14 @@ These runbooks use approved Story and Demo evidence. They do not create a new Tr
 ## Inventory
 
 - DEMO-01 through DEMO-12: one runbook per Demo ID.
-- LOOP-VISUAL: approved teaching-model visual in S66.
+- LOOP-VISUAL: approved teaching-model visual in S67.
 - `FALLBACK_MANIFEST.md`: local PNG paths, SHA-256, provenance, and readiness scope.
-- Current static release: `adba817` / DEC-0033 / 2026-10-21. See
-  [the current revision review](../../production/evaluation/LEGACY_PRIORITY_REVISION.md)
-  and [validation record](../../production/evaluation/LEGACY_PRIORITY_REVISION_VALIDATION.json).
-  Four teaching bridges and M relation labels preserve the 80-slide/360-minute
-  course and Mode allocation; labels do not certify a complete legacy module.
-  Second-priority additions remain deferred.
+- Current numbering: DEC-0036 / 2026-10-21, 81 slides / 360 minutes. See
+  [the current insertion review](../../production/evaluation/CODEX_ENTRY_INSERTION.md)
+  and [the numbering migration](../../plan/SLIDE_ID_MIGRATION.md).
+  Rendering identity and fallback hashes were verified locally after the
+  DEC-0036 final render. READY covers local static files only. Earlier DEC-0033/DEC-0035 release checks are historical results.
+  M relation labels do not certify a complete legacy module; second-priority
+  additions remain deferred. Presenter bundles are paused by user instruction.
 
 The static fallback does not mean a historical Trial was reproduced or a current product surface is ready. Windows PowerPoint, target account, room/projector, and instructor rehearsal remain USER REQUIRED.

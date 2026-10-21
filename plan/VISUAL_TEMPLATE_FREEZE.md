@@ -1,5 +1,7 @@
 # STEP 08 — Visual Template Conditional Freeze
 
+> **현재 기준: DEC-0036 / 81장 (2026-10-21).** 새 S08을 삽입하고 종전 S08–S80을 S09–S81로 이동했다. 총 360분과 ACT·Mode 합계, 기존 Beat·Section·Demo·Trial·State ID는 유지한다. [번호 대조·문서 범위](SLIDE_ID_MIGRATION.md). 과거 프로토타입 경로와 명시된 80장 이력은 당시 번호를 보존한다.
+
 Date: 2026-10-11
 
 Status: CONDITIONALLY FROZEN
@@ -10,7 +12,7 @@ Related decision: DEC-0024
 
 ## 1. Authority and Boundary
 
-이 문서는 80장 PPT 제작에 사용할 Visual System과 Template을 조건부로
+이 문서는 81장 PPT 제작에 사용할 Visual System과 Template을 조건부로
 동결한다. 승인된 Slide Map, Claim Boundary, Slide 수, Story, ACT 시간,
 Delivery Mode, Demo 선택은 바꾸지 않는다.
 
@@ -21,7 +23,7 @@ Delivery Mode, Demo 선택은 바꾸지 않는다.
 - Prototype 근거: VISUAL_PROTOTYPE_EVALUATION.md,
   VISUAL_PROTOTYPE_REVIEW.md, VISUAL_PROTOTYPE_V2_RESULT.md, V2 PPTX와
   prototype/preview/v2/.
-- 이 문서의 freeze는 제작 기준과 검증 Gate를 정한다. 최종 80장 PPT,
+- 이 문서의 freeze는 제작 기준과 검증 Gate를 정한다. 최종 81장 PPT,
   Speaker Notes 본문, 제품 Claim 또는 Demo Repository를 만들거나 변경하지
   않는다.
 
@@ -34,7 +36,7 @@ Delivery Mode, Demo 선택은 바꾸지 않는다.
 | PROVISIONAL | 구조는 정의되어 있으나 실제 구현 근거가 부족하다. 첫 Slide 구현에서 검증한다. |
 | BLOCKED | 필요한 검증 또는 결정이 끝나기 전에는 사용할 수 없다. |
 
-## 3. Prototype Evidence
+## 3. Prototype Evidence — 80장 판본의 실제 V2 기록
 
 ### 확인된 사실
 
@@ -82,23 +84,27 @@ Local render 또는 구조 검사 결과를 위 항목의 PASS로 해석하지 �
 
 ## 4. Visual System Freeze
 
+Evidence 열의 S 번호는 실제 V2 프로토타입의 80장 판본 번호다. 현재 제작 대상 번호는 나머지 열과 번호 대조 문서를 따른다.
+
 | 항목 | Freeze Status | Evidence | Remaining Risk | Validation Gate |
 |---|---|---|---|---|
 | 16:9 Format | FROZEN | V2는 13.333 × 7.5 in이며 8장 모두 1921 × 1080으로 렌더됨 | 대상 PowerPoint에서 파일이 열리는지는 미확인 | 최종 Windows PowerPoint 열기 및 발표 모드 확인 |
-| Grid / Safe Margin | CONDITIONALLY FROZEN | V2 local render에서 잘림·겹침 없음; 기존 Grid와 visual hierarchy 유지 | 일부 상단 내용은 약 0.44 in에 시작해 0.50 in 기준보다 안쪽 여백이 작음; 실제 투사 가장자리 미확인 | Windows 화면과 교육장 투사에서 Safe Area 및 전체 80장 대표 레이아웃 확인 |
+| Grid / Safe Margin | CONDITIONALLY FROZEN | V2 local render에서 잘림·겹침 없음; 기존 Grid와 visual hierarchy 유지 | 일부 상단 내용은 약 0.44 in에 시작해 0.50 in 기준보다 안쪽 여백이 작음; 실제 투사 가장자리 미확인 | Windows 화면과 교육장 투사에서 Safe Area 및 전체 81장 대표 레이아웃 확인 |
 | Color Tokens | CONDITIONALLY FROZEN | V2의 밝은 중립 배경, Accent 및 Evidence frame이 일관됨; S16 대비 계산은 이전 기록에 있음 | 전체 Template와 실제 투사 환경의 대비를 검사하지 않음 | 각 Template 첫 구현과 Windows 발표 크기에서 대비 확인; 상태는 색 외 Label·Frame으로도 표현 |
 | Typography hierarchy | CONDITIONALLY FROZEN for size hierarchy; PROVISIONAL for font rendering | VISUAL_SPEC 크기 기준을 사용; S16 코드는 18 pt이고 local render에서 읽힘 | Malgun Gothic, Consolas의 대상 PC 설치·대체 글꼴과 혼합 줄바꿈 미확인 | Windows target font 확인; 한글·영문·코드와 citation을 발표 크기로 검토 |
 | Evidence Grammar | CONDITIONALLY FROZEN | S16/S35/S45 Product, S56 Conceptual, S67 Meta, S14/S72/S73 Teaching Model을 Label·Frame과 함께 확인 | Research Claim-and-Source layout인 T09는 실제 prototype에 없음 | T09 첫 구현에서 연구 조건·Claim·Citation이 함께 읽히는지 확인 |
 | State Rail | CONDITIONALLY FROZEN | S45에서 실제 STATE-04 → STATE-04-PERF 비교와 State 식별자를 확인 | CMP-STATE의 공유 Rail이 다른 구조에서 재사용되는지는 검증하지 않음 | Rail 첫 구현에서 실제 Git State만 포함하고 ID·순서를 보존하는지 확인 |
 | Demo Grammar | PROVISIONAL | VISUAL_SPEC의 WATCH FOR → EVIDENCE → WHAT HAPPENED 규칙은 정의됨 | T05 Demo Watch / Trial Setup을 포함한 완성된 setup/result pair는 V2에서 검증되지 않음 | T05 첫 구현에서 관찰 전 Setup과 관찰 후 Evidence가 분리되는지 확인 |
 | C++ Bridge Grammar | CONDITIONALLY FROZEN | S14 Supporting inset과 S72 Primary transfer diagram을 local render에서 확인 | Contextual annotation 및 다른 Host Template에서의 밀도·재사용 미확인 | PRIMARY / SUPPORTING / CONTEXTUAL 첫 적용을 각각 density rule과 대조 |
-| Code / Diff Rule | CONDITIONALLY FROZEN for T06-A; PROVISIONAL for T06-B/C | S16 T06-A가 18 pt, 4줄 excerpt, Before/After, 경계 계약, 근거를 보여 줌 | Verification Scorecard T06-B와 Check-to-Claim T06-C는 미검증 | S17 및 최초 T06-C 구현에서 실제 수행한 check만 연결하고 3–12줄 규칙 확인 |
+| Code / Diff Rule | CONDITIONALLY FROZEN for T06-A; PROVISIONAL for T06-B/C | S16 T06-A가 18 pt, 4줄 excerpt, Before/After, 경계 계약, 근거를 보여 줌 | Verification Scorecard T06-B와 Check-to-Claim T06-C는 미검증 | S18 및 최초 T06-C 구현에서 실제 수행한 check만 연결하고 3–12줄 규칙 확인 |
 | Citation Rule | CONDITIONALLY FROZEN | S16 source line과 S67 Trial/Decision source가 local render에서 보임 | T09 인용 배치 및 target-size 가독성은 미확인 | Claim 옆 Source, 연구 범위, 날짜/버전 및 14 pt 이상 기준을 Windows에서 확인 |
 
 이 표에서 Freeze Status는 각 시각 규칙의 현재 적용 상태다. 현재 prototype에
 없거나 미검증인 Variant까지 검증 완료로 확장하지 않는다.
 
 ## 5. Template Coverage
+
+Prototype Coverage 열은 80장 판본의 실제 V2 ID를 보존한다. 현재 S08의 T03-C 배정은 기존 family/variant를 재사용하며 이 표의 과거 샘플 검증 범위를 확대하지 않는다.
 
 V2는 11개 Template 중 6개 Template family의 7개 Variant를 샘플링했다.
 전체 registry는 11개 Template, 27개 Variant다. 아래 Coverage는 V2에서
@@ -111,7 +117,7 @@ V2는 11개 Template 중 6개 Template family의 7개 Variant를 샘플링했다
 | T03 | S72, S73 | T03-C만 (1/3) | CMP-CPP, CMP-LOOP, CMP-CLAIM, CMP-WORKFLOW | CONDITIONALLY FROZEN for T03-C; family remains PROVISIONAL | T03-A/B 및 다른 Diagram 밀도·variant 조합 미검증 |
 | T04 | S14, S35 | T04-A, T04-C (2/3) | CMP-CLAIM, CMP-CPP, CMP-TRIAL, CMP-EVIDENCE | CONDITIONALLY FROZEN for T04-A/C; family remains PROVISIONAL | T04-B 미검증; 두 열 비교를 넘어서는 배치의 확장성 미확인 |
 | T05 | 없음 | 0/1 | 없음 | PROVISIONAL | 관찰 전 WATCH FOR와 결과 화면의 분리 미검증 |
-| T06 | S16 | T06-A만 (1/3) | CMP-TRIAL, CMP-DIFF, CMP-EVIDENCE | CONDITIONALLY FROZEN for T06-A; family remains PROVISIONAL | T06-B/C 미검증; S16은 후속 S17의 검증 결과를 대체하지 않음 |
+| T06 | S16 | T06-A만 (1/3) | CMP-TRIAL, CMP-DIFF, CMP-EVIDENCE | CONDITIONALLY FROZEN for T06-A; family remains PROVISIONAL | T06-B/C 미검증; S17은 후속 S18의 검증 결과를 대체하지 않음 |
 | T07 | S45 | T07-B만 (1/3) | CMP-STATE, CMP-EVIDENCE, CMP-BENCHMARK, CMP-CLAIM; CMP-WORKFLOW optional | CONDITIONALLY FROZEN for T07-B; family remains PROVISIONAL | T07-A/C와 다른 State Evidence 구조 미검증 |
 | T08 | S56 | T08-A만 (1/3) | CMP-CLAIM, persistent CONCEPTUAL frame | CONDITIONALLY FROZEN for T08-A; family remains PROVISIONAL | T08-B 평가 Matrix와 T08-C Cause/Response 미검증 |
 | T09 | 없음 | 0/1 | 없음 | PROVISIONAL | Research Claim, 조건, 인용을 함께 놓는 전용 화면 미구현 |
@@ -131,12 +137,12 @@ T08-A, T11-A. 미확인 20개 Variant는 다음과 같다.
 ### Unverified Template 처리 규칙
 
 T01, T02, T05, T09, T10 및 미검증 Variant는 현재 PROVISIONAL로 둔다.
-이 미검증 자체만으로 80장 작업 전 별도 Prototype이 반드시 필요하다고
+이 미검증 자체만으로 81장 작업 전 별도 Prototype이 반드시 필요하다고
 판정하지 않는다. 첫 Slide에 적용할 때 해당 Template의 구조, 밀도, Claim
 경계, Visual Spec 적합성을 검증한다. 문제가 발견되면 그 Variant의 확장을
 멈추고 수정한 뒤 재검증한다.
 
-## 6. S72 Operation Gate
+## 6. S73 Operation Gate
 
 **제작 기본안: 정적 Slide + Speaker-led highlighting.**
 
@@ -150,7 +156,7 @@ T01, T02, T05, T09, T10 및 미검증 Variant는 현재 PROVISIONAL로 둔다.
 | Transition | 4분 | Engineering Pattern을 다음 Story로 연결 |
 
 현재 operation cue는 완성 Speaker Notes가 아니다. 20분 timed rehearsal은
-미수행이며 S72 운영은 PARTIAL이다. 최종 발표 전 리허설에서 시간이 맞지
+미수행이며 S73 운영은 PARTIAL이다. 최종 발표 전 리허설에서 시간이 맞지
 않거나 R1–R5의 경계가 읽히지 않으면 cue를 조정하고 다시 검토한다.
 리허설 근거 없이 Native Animation을 필수로 추가하지 않는다.
 
@@ -165,7 +171,7 @@ LibreOffice local render로 대체하지 않는다.
 1. V2 prototype을 열고 발표 모드로 실행한다.
 2. 실제 선택된 글꼴과 대체 글꼴을 기록한다.
 3. 한글·영문 혼합 제목, 본문, citation의 줄바꿈을 확인한다.
-4. S16 Code / Diff와 파일 경로의 줄바꿈 및 가독성을 확인한다.
+4. S17 Code / Diff와 파일 경로의 줄바꿈 및 가독성을 확인한다.
 5. Shape 정렬, 겹침, Evidence Frame과 색 외 구분을 확인한다.
 6. 16:9 화면 비율과 전체 Slide의 Safe Area를 확인한다.
 7. 발표 크기에서 citation, metadata, footer의 가독성을 확인한다.
@@ -180,11 +186,11 @@ LibreOffice local render로 대체하지 않는다.
 
 ## 8. Full Production Readiness
 
-### 80장 제작 시작 전
+### 81장 제작 시작 전
 
 | 필수 조건 | 현재 상태 |
 |---|---|
-| 80장 Slide Map 및 시간 | 완료; 이번 결정에서 수정하지 않음 |
+| 81장 Slide Map 및 시간 | 완료; 이번 결정에서 수정하지 않음 |
 | Claim Boundary | 완료; CLAIM_FREEZE.md가 계속 권위 문서 |
 | Visual Spec | 존재; 본 문서의 조건부 상태를 따름 |
 | 11개 Template / 27개 Variant Mapping | 존재; 미검증 Variant는 명시적 PROVISIONAL |
@@ -202,7 +208,7 @@ LibreOffice local render로 대체하지 않는다.
 - 실제 발표 화면의 비율, Safe Area, 코드·citation 가독성 확인.
 - 현재 제품 Claim을 넣는 경우 target account / surface 확인.
 - Live Demo를 쓰는 경우 실행 경로와 Fallback을 실제로 리허설.
-- S72 전체 20분 timed rehearsal.
+- S73 전체 20분 timed rehearsal.
 - 첫 적용 때 검증한 모든 Template의 최종 Slide 구현 대조.
 
 ## 9. Remaining Risks and Validation Gates
@@ -210,10 +216,10 @@ LibreOffice local render로 대체하지 않는다.
 | Priority | Risk | Required action |
 |---|---|---|
 | P0-01 | Windows PowerPoint 및 target presentation 환경은 UNVERIFIED | 위 §7의 최종 배포 Gate를 통과; 가능하면 제작 중 조기 확인 |
-| P1-01 | S35 경로 텍스트의 projection-scale 가독성 미확인 | Windows 발표 크기에서 검토; 필요하면 Map의 Evidence를 삭제하지 않고 표현 조정 |
-| P1-02 | S72 20분 운영 미리허설 | 최종 배포 전 Mode 시간을 보존해 timed rehearsal |
+| P1-01 | S36 경로 텍스트의 projection-scale 가독성 미확인 | Windows 발표 크기에서 검토; 필요하면 Map의 Evidence를 삭제하지 않고 표현 조정 |
+| P1-02 | S73 20분 운영 미리허설 | 최종 배포 전 Mode 시간을 보존해 timed rehearsal |
 | P1-03 | Shared-template authoring 및 style-change propagation 미검증 | 실제 제작 도구를 정한 뒤 공통 style 한 곳 변경이 대표 Slide에 반영되는지 확인 |
-| P2-01 | S72 보조 time label은 13.5 pt | Windows 및 projection 검토에서 필요할 때 조정 |
+| P2-01 | S73 보조 time label은 13.5 pt | Windows 및 projection 검토에서 필요할 때 조정 |
 | P2-02 | 일부 상단 영역은 0.44 in에서 시작 | 실제 교육장 Safe Area 확인; 화면 가장자리 문제가 있을 때만 조정 |
 | P2-03 | PROTOTYPE COPY badge는 prototype에 남음 | 최종 교육용 Slide에서 제거 |
 
@@ -227,15 +233,15 @@ DECISIONS.md의 Change Control을 따른다.
 
 근거:
 
-- S14/S16/S35/S45/S56/S67/S72/S73에서 여섯 Template family와 일곱
+- S15/S17/S36/S46/S57/S68/S73/S74에서 여섯 Template family와 일곱
   Variant를 실제로 확인했다.
 - local render에서 주요 메시지와 네 Evidence Type 경계가 읽혔고, 새
   구조적 결함이나 광범위한 재설계 사유가 발견되지 않았다.
-- S16이 Code/Diff의 T06-A 간극을 닫았지만 T06-B/C를 검증하지 않았다는
+- S17이 Code/Diff의 T06-A 간극을 닫았지만 T06-B/C를 검증하지 않았다는
   한계도 분리해서 기록했다.
 - 나머지 Template 구조와 Mapping은 이미 정의되어 있다. 첫 사용 시
   검증하는 조건부 적용이 현재 근거에 맞다.
-- Windows, Projection, S72 rehearsal, 모든 Template 구현, 공통 Style
+- Windows, Projection, S73 rehearsal, 모든 Template 구현, 공통 Style
   재사용은 PASS가 아니다. 각 Gate를 해소하기 전 배포하지 않는다.
 
 선택하지 않은 대안:
@@ -251,7 +257,7 @@ DECISIONS.md의 Change Control을 따른다.
 
 **READY FOR SPEAKER NOTES ARCHITECTURE.**
 
-이는 다음 기획 단계 진입 준비를 뜻한다. 80장 PPT 제작, 완성 Speaker Notes,
+이는 다음 기획 단계 진입 준비를 뜻한다. 81장 PPT 제작, 완성 Speaker Notes,
 Windows 호환성, 교육장 투사 또는 Live Demo 완료를 뜻하지 않는다.
 
 ## 11. Updated Documents

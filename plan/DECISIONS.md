@@ -5248,3 +5248,132 @@ rehearsal remain UNVERIFIED. No new Trial or bundle is authorized here.
 Explicit user request to revise S05 and S06 while continuing the approved
 course flow. The requested meaning is expressed without expanding the
 historical evidence or claiming an unperformed tool comparison.
+
+
+---
+
+# DEC-0036 — Insert the Codex entry path and migrate current slide IDs
+
+## Status
+
+ACCEPTED
+
+## Date
+
+2026-10-21
+
+## Context
+
+The approved 80-slide course reaches a mental shift on S07: bring AI to the
+Repository. The user requests a concrete desktop entry step before the
+former S08 distinction between Repository access and Task intent. The user
+also requests person and Agent icons to clarify shared visibility and human
+final responsibility. This explicit instruction authorizes the one-slide
+addition and the downstream current-ID migration.
+
+## Problem
+
+The existing transition does not show where a learner selects Codex in the
+ChatGPT desktop app. Adding that step without a migration could desynchronize
+Slide Map, templates, Notes, PPTs and current delivery references. A universal
+claim that only Codex can access files would exceed the documented scope.
+
+## Decision
+
+- Insert S08, "Repository work starts in Codex", between existing S07 and
+  the former S08. Use ACT 0 / Section 0E / BEAT-003 / T03-C.
+- Keep S01-S07. Shift the former S08-S80 once to S09-S81. Keep all existing
+  Beat, Section, Demo, Trial, State and Decision IDs unchanged.
+- Set the current course to 81 slides: ACT counts 10/12/15/18/18/8 and ranges
+  S01-S10, S11-S22, S23-S37, S38-S55, S56-S73 and S74-S81.
+- Preserve 360 net minutes, ACT times 40/55/70/85/80/30 and modes Lecture130,
+  Demo73, Case83, Reflection20, Transition22 and Q&A32. Divide the former
+  S07 Lecture three minutes into S07 two minutes plus S08 one minute. Keep
+  the new S09 at Lecture two minutes, preserving Section 0E at five minutes.
+- Show ChatGPT menu > Codex > project Repository folder, then request an
+  investigation. Treat this as the development path selected for this course,
+  not a universal restriction on other ChatGPT file-access features.
+- Treat the menu as an official-source reconstruction. The top-left position
+  is the user's UI specification; current local UI, target account and
+  Windows behavior remain UNVERIFIED and REQUIRES PRODUCT CHECK.
+- On S09 distinguish what a person and an authorized AI Agent may inspect
+  from goals, allowed scope and final acceptance for which the person retains
+  decision authority and responsibility. AI may investigate and propose.
+- Preserve historical 80-slide prototype and Pilot files, actual asset paths and
+  previous Decision bodies. Mark their version and link a full migration
+  table. Update current references, official Map, templates and Notes.
+- Defer presenter bundle regeneration as already requested. Do not alter the
+  Demo repository, run a new Trial or broaden existing evidence claims.
+
+## Rationale
+
+A short product entry step connects the mental model to the learner's next
+action. Reusing T03-C preserves the existing 11-template, 27-variant system.
+Reassigning one Lecture minute retains the approved six-hour curriculum and
+keeps the subsequent access-versus-intent question necessary. Explicit
+historical versioning preserves the provenance of validated evidence.
+
+## Alternatives
+
+- Keep the entry explanation in Notes only: does not satisfy the requested
+  new slide and visible product selection.
+- Duplicate the old S08 ID or use S07A: contradicts the requested sequential
+  renumbering and leaves production references ambiguous.
+- Add course time: unnecessary because the existing 0E allocation can carry
+  a one-minute entry explanation.
+- Claim Codex is the only possible file-access surface: unsupported because
+  other ChatGPT workflows, including Work, can provide file access.
+- Rewrite historical prototype IDs and previous Decisions: destroys the link
+  to actual recorded artifacts and validation scope.
+
+## Trade-offs
+
+The migration touches current planning and production references across the
+course. Historical IDs need an explicit version label and lookup table.
+The one-minute entry description cannot replace target-account setup or a
+Windows product check. The new graphical responsibility boundary remains a
+teaching model, not an assessment of Agent reasoning capacity.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-LEARNING-003, INV-VERIFY-001,
+INV-RESPONSIBILITY-001, INV-DEMO-003, INV-SOT-003, INV-RESEARCH-001.
+
+## Affected Artifacts
+
+Current Slide Map, Template Map, Claim Freeze, visual and Notes standards,
+production plan, current transition/Demo references, ACT/full PPTs and Notes,
+current previews and delivery checklists. Add plan/SLIDE_ID_MIGRATION.md.
+Historical prototype and Pilot artifacts retain original IDs and content.
+
+## Evidence
+
+Explicit user instruction to insert one slide after S07, describe the
+ChatGPT desktop app's top-left ChatGPT/Codex selection, migrate later slide
+numbers and align foundation documents. OpenAI Quickstart and App docs were
+retrieved on 2026-10-21:
+https://learn.chatgpt.com/docs/quickstart?setup=app
+https://learn.chatgpt.com/docs/app
+Recorded as SRC-0228, SRC-0229 and the scoped claim CLM-0031.
+The Quickstart describes choosing Codex from the ChatGPT dropdown for
+codebase context and developer tools. Current local UI inspection is not
+verified. No actual screenshot or new Product Trial is established.
+
+## Training Relevance
+
+YES — connect a Repository investigation mental model to a concrete product
+entry while separating documented features, observed behavior and human
+acceptance responsibility.
+
+## Follow-up
+
+Validate 81 unique slide IDs, current references, 19-field Notes, unchanged
+ACT/Mode/Section totals, rendering and historical-path preservation. Keep
+Windows PowerPoint, target fonts, room projection, current account/Live
+behavior and timed rehearsal as separate UNVERIFIED gates. Do not regenerate
+the presenter bundle until the user resumes that work.
+
+## Approval
+
+Explicit user instruction on 2026-10-21 authorizes the insertion, role icons,
+sequential renumbering and all related foundation-document alignment.

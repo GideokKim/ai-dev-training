@@ -6,7 +6,7 @@ import { slides as testScopeSlides } from './test-scope-visual.mjs';
 
 export async function loadAdditionalVisuals(root) {
  const assetDir=path.join(root,'assets/slide-illustrations');
- const files={S03:'S03-context-collection.png',S16:'recap/S16-source.png',S32:'recap/S32-source.png',S45:'recap/S45-source.png'};
+ const files={S03:'S03-context-collection.png',S17:'recap/S16-source.png',S33:'recap/S32-source.png',S46:'recap/S45-source.png'};
  const bytes=Object.fromEntries(await Promise.all(Object.entries(files).map(async ([id,file])=>[id,new Uint8Array(await fs.readFile(path.join(assetDir,file)))])));
  const {C,text,line}=H;
  return {
@@ -30,9 +30,9 @@ export async function loadAdditionalVisuals(root) {
    text(s,'질문에 옮길 자료는?',850,558,366,38,27,C.ink,true);
    return s;
   },
-  S74(p){
-   const s=H.frame(p,'S74','하나의 Repository가 문제에 대응해 진화했다','ACT 5 · 확인된 제품 변화',
-    'DEMO-12 · 실제 Git State 이력 · S16 / S32 / S45 발표자료 발췌',
+  S75(p){
+   const s=H.frame(p,'S75','하나의 Repository가 문제에 대응해 진화했다','ACT 5 · 확인된 제품 변화',
+    'DEMO-12 · 실제 Git State 이력 · S17 / S33 / S46 발표자료 발췌',
     '원본 실행 화면 아님 · 성능은 해당 코드·입력·환경 범위 · State는 성숙도 등급이나 Product Loop가 아님','OBSERVED_PRODUCT');
    s.shapes.items.at(-1).position={left:64,top:650,width:1152,height:30};
    const items=[['STATE-00','crop 경계 문제'],['STATE-00-FIXED','계약에 맞게 수정'],['STATE-01','프로젝트 지침'],['STATE-02','Context 증가'],['STATE-03','상세 정보로 연결'],['STATE-04','재사용 Workflow'],['STATE-04-PERF','검증된 제품 변경']];
@@ -46,7 +46,7 @@ export async function loadAdditionalVisuals(root) {
    text(s,'앞서 본 근거 다시 보기',64,355,1152,26,19,C.sub,true);
    // These are frozen source-slide PNGs with editable native PowerPoint crops.
    // They recall earlier evidence; they are not new screenshots or measurements.
-   const excerpts=[['S16','crop 계약 수정','STATE-00 → STATE-00-FIXED',64,440,440],['S32','상세 문서로 분리','STATE-02 → STATE-03',456,425,365],['S45','같은 조건의 성능 비교','STATE-04 → STATE-04-PERF',848,360,540]];
+   const excerpts=[['S17','crop 계약 수정','STATE-00 → STATE-00-FIXED',64,440,440],['S33','상세 문서로 분리','STATE-02 → STATE-03',456,425,365],['S46','같은 조건의 성능 비교','STATE-04 → STATE-04-PERF',848,360,540]];
    for(const [id,caption,states,x,sourceY,sourceHeight] of excerpts){
     const width=368,height=width*sourceHeight/1728;
     s.images.add({blob:bytes[id],contentType:'image/png',alt:`Excerpt of existing ${id} teaching slide, not a raw execution capture; provenance in Notes and asset manifest`,fit:'contain',position:{left:x,top:386+(115-height)/2,width,height},crop:{left:96/1920,right:96/1920,top:sourceY/1080,bottom:(1080-sourceY-sourceHeight)/1080}});

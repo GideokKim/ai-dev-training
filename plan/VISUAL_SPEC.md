@@ -1,6 +1,8 @@
 # STEP 08 — Visual Specification
 
-## 2026-10-18 — Approved Presentation Revision
+> **현재 기준: DEC-0036 / 81장 (2026-10-21).** 새 S08을 삽입하고 종전 S08–S80을 S09–S81로 이동했다. 총 360분과 ACT·Mode 합계, 기존 Beat·Section·Demo·Trial·State ID는 유지한다. [번호 대조·문서 범위](SLIDE_ID_MIGRATION.md). 과거 프로토타입 경로와 명시된 80장 이력은 당시 번호를 보존한다.
+
+## 2026-10-18 — Approved Presentation Revision (80장 이력)
 
 DEC-0027 applies the accepted S05/S23/S45/S57 pilot approach to all 80 slides.
 Keep this palette, fonts, evidence grammar, and template roles. Use source
@@ -17,7 +19,7 @@ Status: COMPLETE WITH OPEN ITEMS
 
 ## 1. Purpose and Authority
 
-이 문서는 승인된 80장 Slide Map에 적용할 시각 설계 기준이다. Slide의
+이 문서는 승인된 81장 Slide Map에 적용할 시각 설계 기준이다. Slide의
 순서, 제목, 역할, 주장, Evidence, Demo, 시간 또는 Delivery Mode를
 변경하지 않는다.
 
@@ -181,21 +183,24 @@ Evidence Type은 프레임, 선 모양, 명시적인 Label, Source 표기를 함
 
 ### Slide 경계에서 반드시 유지할 구분
 
-- S55는 STATE-04-PERF의 OBSERVED_PRODUCT 근거로 표시한다. 승인된 Test,
+- S56는 STATE-04-PERF의 OBSERVED_PRODUCT 근거로 표시한다. 승인된 Test,
   benchmark 또는 상태 범위만 사용한다.
-- S56–66은 DEMO-04A의 CONCEPTUAL / TEACHING_MODEL 영역이다. 이 사례의
+- S57–67은 DEMO-04A의 CONCEPTUAL / TEACHING_MODEL 영역이다. 이 사례의
   Project 변경, 실패, 원인, 수정, EVAL 결과가 실제 Demo Repository에서
   발생한 것처럼 그리지 않는다.
-- S67–71은 교육 제작 과정의 OBSERVED_META 기록이다. DEMO-04A와 다른
+- S68–72은 교육 제작 과정의 OBSERVED_META 기록이다. DEMO-04A와 다른
   프레임 및 시간선으로 전환한다. Product Git State나 Product 실패로
   표시하지 않는다.
-- S52처럼 Evidence와 Teaching Model이 함께 있는 경우, 관찰 조각과
+- S53처럼 Evidence와 Teaching Model이 함께 있는 경우, 관찰 조각과
   일반화한 도식을 각각 구별한다. 한 프레임이 두 종류의 근거인 것처럼
   합치지 않는다.
-- S29는 승인된 연구 범위와 인용을 그대로 유지한다. 특정 Codex의 보편적
+- S30는 승인된 연구 범위와 인용을 그대로 유지한다. 특정 Codex의 보편적
   Context 한계나 Context routing의 성능 효과로 확장하지 않는다.
 
 ## 7. Demo, Code, Diagram Rules
+
+DEC-0036의 S08은 T03-C의 3단계 연결 도식으로 ChatGPT 메뉴 → Codex → Repository 폴더를 보여 준다. 실제 Screenshot이 아닌 공식자료 기반 재구성임을 표기하고 현재 대상 UI 검증을 남긴다. S09는 볼 수 있는 것에 사람+AI Agent, 최종 결정·책임에 사람 아이콘을 배치한다. 두 아이콘은 역할 설명용이며 제품 실측 Evidence가 아니다.
+
 
 - Demo에서는 WATCH FOR → EVIDENCE → WHAT HAPPENED의 질문 순서를 따른다.
 - Demo 화면에 보여주는 정보는 해당 질문에 필요한 Repository 경로, 문서
@@ -217,7 +222,7 @@ Evidence Type은 프레임, 선 모양, 명시적인 Label, Source 표기를 함
 시간별 Speaker Notes 또는 Slide 추가를 뜻하지 않는다. 추후 제작 시
 애니메이션과 수동 단계 전환 중 방법을 선택할 수 있다.
 
-### S54 — 필요한 구조부터 질문하기 (10분)
+### S55 — 필요한 구조부터 질문하기 (10분)
 
 1. Reflection 3분: 어떤 마찰이 반복되는지 묻는 질문만 먼저 보여준다.
 2. Q&A 5분: 반복되는 Project 사실, 반복 절차, 독립 조사, 재발견 비용,
@@ -228,7 +233,7 @@ Evidence Type은 프레임, 선 모양, 명시적인 Label, Source 표기를 함
 
 화면 상태가 바뀌어도 Slide ID와 승인된 10분 분배는 그대로 둔다.
 
-### S66 — Feedback을 System Change와 Evaluation으로 잇기 (11분)
+### S67 — Feedback을 System Change와 Evaluation으로 잇기 (11분)
 
 Execution → Observation → Cause → System Change → Re-evaluation을 한
 단계씩 공개한다. 마지막에는 전체 흐름과 System으로 되돌아가는 선을
@@ -236,7 +241,7 @@ Execution → Observation → Cause → System Change → Re-evaluation을 한
 Demo 상태에서는 완성된 모델을 화면에 둔다. 이 도식은 이 과정의
 Teaching Model이며 자동 학습을 의미하지 않는다.
 
-### S72 — Project와 환경이 바뀌면 검증도 다시 본다 (20분)
+### S73 — Project와 환경이 바뀌면 검증도 다시 본다 (20분)
 
 전체 흐름을 항상 보이게 두고 현재 단계만 강조한다.
 
@@ -303,7 +308,10 @@ Visual direction과 기본 토큰, 형식, 가독성 기준, Evidence Grammar,
 
 ## DEC-0033 — Legacy Module Connection Footer
 
-사용자 승인(2026-10-21)에 따라 S01–S80 하단에 작은 `M 연계` 메타데이터를 둔다.
+현재 번호 범위는 DEC-0036에 따라 81장으로 정렬한다. DEC-0033 당시 80장
+승인·검토 기록은 Decision 원문과 Git 이력에 보존한다.
+
+사용자 승인(2026-10-21)에 따라 S01–S81 하단에 작은 `M 연계` 메타데이터를 둔다.
 이는 관련 교수 내용·원칙의 연결이며 M1–M9 전체 모듈의 이수를 뜻하지 않는다.
 직접 연결이 없는 장은 `M 연계 · 신규 확장`으로 표시한다.
 
@@ -314,4 +322,4 @@ Visual direction과 기본 토큰, 형식, 가독성 기준, Evidence Grammar,
   같은 정보 위계 안에서 소폭 조정한다.
 - 슬라이드별 라벨·판정 범위는 `production/evaluation/LEGACY_MODULE_MAP.md`와
   `production/source/presentation-revision/legacy-module-map.json`에 기록한다.
-- 제목·본문·Evidence Grammar·80장·360분·Mode 및 조건부 동결의 실환경 검증 Gate는 유지한다.
+- 제목·본문·Evidence Grammar·81장·360분·Mode 및 조건부 동결의 실환경 검증 Gate는 유지한다.

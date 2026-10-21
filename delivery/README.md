@@ -1,49 +1,27 @@
-# 발표자용 오프라인 자료 묶음
+# 발표자용 오프라인 자료 묶음 — 과거 80장판 보관
 
-[발표자료 ZIP 내려받기](AI_Dev_Training_Presenter_2026-10-21.zip)
+**사용자 지시로 묶음 자료 생성·갱신을 중단한다.** 현재 제작 기준은 DEC-0036의 **81장 / 360분**이며 최신 자료는 [통합 PPT](../production/AI_Dev_Training_Full.pptx), [통합 Notes](../production/notes/FULL_SPEAKER_NOTES.md), [최종 전달 안내](../production/evaluation/FINAL_HANDOFF.md)를 따른다. 이번 작업에서 ZIP·HTML·package manifest를 생성하거나 바꾸지 않는다.
 
-ZIP 전체를 압축 해제한 뒤 **START_HERE.html**을 여세요. 통합 PPT, ACT별 PPT,
-발표자 Notes, 예상 질문 25개, 미리보기와 Demo 진행 지침으로 이동할 수 있습니다.
-읽기용 HTML은 인터넷·서버 없이 열리며 실제 발표는 PowerPoint에서 진행합니다.
+기존 [2026-10-21 ZIP](AI_Dev_Training_Presenter_2026-10-21.zip)은 `adba817` / DEC-0033의 **80장판 역사적 스냅샷**이다. S01–S06 후속 수정, 신규 S08, 현재 S09의 사람·Agent 역할 구분과 81장 번호는 포함하지 않는다. 과거 묶음을 최신 발표자료로 사용하지 않는다. 과거 자료를 열람할 때만 전체를 압축 해제하고 START_HERE.html을 연다.
 
-현재 상태: **로컬 발표자료·묶음 검증 완료 / 실환경·리허설 UNVERIFIED.**
-강사용 준비 묶음이며 청중 배포나 현장 검증 완료를 뜻하지 않습니다.
+## 보존된 묶음의 범위
 
-- 발표자료: `adba817` / DEC-0033. 묶음 기준: DEC-0033 (DEC-0031 정책 유지) / 2026-10-21.
-- 80장 / 순수 360분. 휴식·점심·장비 준비는 별도입니다.
-- 묶음 대상은 통합·ACT PPT 7개, Notes 7개, 통합 및 ACT PNG 각 80개와 montage입니다.
-- S07·S14·S18·S19 본문·Notes 보강과 80장 M 연계 표시를 반영했습니다.
-  M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아닙니다. 2순위 보강은 보류했습니다.
-- 기본 Demo는 과거 기록에 근거한 정적 설명입니다. Live/Hybrid는 확인 전 비활성입니다.
-- 기획·연구 출처는 날짜와 범위를 유지한 보관 문서입니다. 외부 링크 열기는 인터넷이 필요합니다.
+- DEC-0033 / 2026-10-21, 당시 80장 / 순수 360분.
+- 통합·ACT PPT 7개, Notes 7개, 당시 통합·ACT PNG 각 80개와 montage.
+- 당시 S07·S14·S18·S19 보강과 M 연계 표시가 포함된다. 이는 원 모듈 전체 충족이 아니다.
+- payload 362개·ZIP entry 363개. CRC·추출 hash·내부 링크·Notes 정합성은 당시 로컬 검사 결과다.
+- Windows PowerPoint, 실제 발표 PC 글꼴, 교육장 투사, 계정·제품·Live/Hybrid와 시간 리허설은 별도 UNVERIFIED다.
 
-[전달 안내](../production/evaluation/FINAL_HANDOFF.md) ·
-[사용자 체크리스트](../production/evaluation/USER_VALIDATION_CHECKLIST.md) ·
-[예상 질문·답변](../production/presenter/EXPECTED_QA.md) ·
-[현재 보강 검토](../production/evaluation/LEGACY_PRIORITY_REVISION.md) ·
-[검증 기록](../production/evaluation/LEGACY_PRIORITY_REVISION_VALIDATION.json)
+## 보관물의 파일 확인
 
-## 파일 확인
+- [당시 파일별 목록·크기·SHA-256](PACKAGE_MANIFEST.json)
+- [당시 ZIP SHA-256](AI_Dev_Training_Presenter_2026-10-21.zip.sha256)
+- [당시 파일·링크·압축 검사](PACKAGE_VALIDATION.json)
+- [2026-10-20 ZIP](AI_Dev_Training_Presenter_2026-10-20.zip)
+- [2026-10-19 ZIP](AI_Dev_Training_Presenter_2026-10-19.zip)
 
-- [파일별 목록·크기·SHA-256](PACKAGE_MANIFEST.json)
-- [ZIP SHA-256](AI_Dev_Training_Presenter_2026-10-21.zip.sha256)
-- [파일·링크·압축 확인 결과](PACKAGE_VALIDATION.json)
+Manifest 자신과 ZIP hash는 자기참조를 피하기 위해 payload manifest에서 제외한다. ZIP의 identity는 sidecar, 개별 payload는 당시 manifest와 대조한다. 이 값들을 현재 81장 산출물의 검증 근거로 승계하지 않는다.
 
-현재 묶음은 payload 362개·ZIP entry 363개입니다. CRC·추출 hash·내부 링크·
-Notes 정합성 검증을 통과했습니다. ZIP 자체 hash는 외부 sidecar에서 확인합니다.
-Manifest 자신의 hash와 ZIP hash는 payload manifest에서 제외합니다.
-ZIP은 원본 옆 `.zip.sha256`으로 확인하며, 압축 해제 후 개별 파일은 manifest와
-대조합니다. 자료가 수정되면 묶음을 다시 생성하고 실제 발표 PC에서 영향 범위를 재확인합니다.
+## 재생성 정책
 
-## 재생성
-
-제작자는 `production/source/delivery/build.mjs`를 bundled Node runtime으로 실행합니다.
-`RUNTIME_NODE_MODULES`, 검토된 발표자료의 commit인 `PRESENTATION_ARTIFACT_COMMIT`,
-저장소 밖 `DELIVERY_WORK_DIR`를 지정합니다. 현재 commit 값은 `adba817`입니다.
-생성 스크립트는 기존 PPT·Notes를 수정하지 않으며, 명시된 발표자료와 연결된
-문서만 복사합니다. `.git`, 설정·인증 파일, 원본 로그, 제작 코드 및 Demo 저장소는
-ZIP에 넣지 않습니다. 실행 후 hash·CRC·상대 링크와 발표자료 기준 일치를 확인합니다.
-
-이전 [2026-10-20 ZIP](AI_Dev_Training_Presenter_2026-10-20.zip)과
-[2026-10-19 ZIP](AI_Dev_Training_Presenter_2026-10-19.zip)은 역사적 묶음으로 보존합니다.
-현재 발표에는 위 2026-10-21 최신 ZIP을 사용하고 실제 발표 PC에서 영향 범위를 확인합니다.
+현재 재생성하지 않는다. 사용자의 새 묶음 생성 지시가 있을 때만 현재 발표자료·Notes·runbook·문서·미리보기와 hash를 먼저 검토하고 기존 `production/source/delivery/build.mjs` 절차를 재평가한다. 당시 `PRESENTATION_ARTIFACT_COMMIT=adba817` 값은 과거 스냅샷용이며 최신 값으로 사용하지 않는다. `.git`, 설정·인증 파일, 원본 로그, 제작 코드 및 Demo 저장소는 포함하지 않는다. 새 묶음이 나중에 승인되더라도 실제 발표 PC의 재생과 실환경 Gate는 별도로 확인한다.

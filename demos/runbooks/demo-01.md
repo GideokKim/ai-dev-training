@@ -2,7 +2,7 @@
 
 Planning Status: CANDIDATE — Anchor candidate
 
-Final Validation Status: VISUAL ONLY — local static fallback reviewed; no current-product run was performed.
+Final Validation Status: READY — DEC-0036 local static files, displayed IDs, dimensions and SHA-256 were checked after final rendering. Current-product, target Windows/room and rehearsal gates remain UNVERIFIED; no new Trial was run.
 
 Story Beat: BEAT-002–003
 
@@ -94,9 +94,9 @@ Default is the offline static presentation. Open: `production/preview/full/S04.p
 
 Show S04→S05→S06 and retain `RECONSTRUCTED DIAGRAM` / `OBSERVED PRODUCT · CODEX CLI 0.154.0 · READ-ONLY` labels.
 
-Fallback readiness: READY for local static slide-render playback only. Raw Trial source captures are not implied or created.
+Fallback readiness: UNVERIFIED for the DEC-0036 re-render until local file identity and playback paths are rechecked. The approved static fallback plan is preserved; raw Trial captures are not implied or created.
 
-Captured Alternative provenance: DEC-0035 integrated-deck static render; S05–S06 were revised while the other 78 full-slide PNGs remain byte-identical. File identity and fallback paths were rechecked on 2026-10-21. See `FALLBACK_MANIFEST.md` and `production/evaluation/FINAL_HANDOFF.md` for the exact PPTX hash and recorded rendering scope. This file check is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
+Captured Alternative provenance: DEC-0036 current slide numbering. Post-migration PPTX/PNG identity and fallback hashes must be checked in FALLBACK_MANIFEST.md and production/evaluation/CODEX_ENTRY_INSERTION.md. DEC-0033/DEC-0035 rendering records remain historical evidence. This alignment is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 

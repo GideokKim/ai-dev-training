@@ -2,7 +2,7 @@
 
 Planning Status: CANDIDATE — supporting visual/captured record
 
-Final Validation Status: VISUAL ONLY — local static fallback reviewed; no current-product run was performed.
+Final Validation Status: READY — DEC-0036 local static files, displayed IDs, dimensions and SHA-256 were checked after final rendering. Current-product, target Windows/room and rehearsal gates remain UNVERIFIED; no new Trial was run.
 
 Story Beat: BEAT-011–017
 
@@ -48,7 +48,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-Task-dependent document access; S35 explicitly says perfect routing, token saving, and performance improvement were not measured.
+Task-dependent document access; S36 explicitly says perfect routing, token saving, and performance improvement were not measured.
 
 ## Success Criteria
 
@@ -66,9 +66,9 @@ Evidence limit: No perfect routing, token saving, or performance gain; Progressi
 
 ## Estimated Time
 
-5m total: S27 Demo 2m + S32 Demo 2m + S35 Demo 1m.
+5m total: S28 Demo 2m + S33 Demo 2m + S36 Demo 1m.
 
-Phase plan: S27 2m → S32 2m → S35 1m.
+Phase plan: S28 2m → S33 2m → S36 1m.
 
 Time Risk: LOW
 
@@ -90,13 +90,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S27.png`, `production/preview/full/S32.png`, `production/preview/full/S35.png`
+Default is the offline static presentation. Open: `production/preview/full/S28.png`, `production/preview/full/S33.png`, `production/preview/full/S36.png`
 
-Use S27/S32/S35 PNGs in Story order; S35 is a selected observation summary, not raw tool log.
+Use S28/S33/S36 PNGs in Story order; S36 is a selected observation summary, not raw tool log.
 
-Fallback readiness: READY for local static slide-render playback only. Raw Trial source captures are not implied or created.
+Fallback readiness: UNVERIFIED for the DEC-0036 re-render until local file identity and playback paths are rechecked. The approved static fallback plan is preserved; raw Trial captures are not implied or created.
 
-Captured Alternative provenance: DEC-0033 integrated-deck static render; file identity and fallback paths rechecked on 2026-10-21. See `FALLBACK_MANIFEST.md` and `production/evaluation/FINAL_HANDOFF.md` for the exact PPTX hash and recorded rendering scope. This file check is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
+Captured Alternative provenance: DEC-0036 current slide numbering. Post-migration PPTX/PNG identity and fallback hashes must be checked in FALLBACK_MANIFEST.md and production/evaluation/CODEX_ENTRY_INSERTION.md. DEC-0033/DEC-0035 rendering records remain historical evidence. This alignment is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -106,7 +106,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S35 → S36: procedure repetition remains after context organization.
+S36 → S37: procedure repetition remains after context organization.
 
 ## Evidence
 

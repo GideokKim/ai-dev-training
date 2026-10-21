@@ -39,3 +39,9 @@ OS preview, plan/role, admin controls, Git provider support, network policy가 �
 ## Sources
 
 SRC-0102, SRC-0103, SRC-0104, SRC-0105, SRC-0106, SRC-0123, SRC-0134, SRC-0135
+
+## 2026-10-21 — DEC-0036 Codex Entry Addendum
+
+- **CLM-0031 / SRC-0228, SRC-0229:** OpenAI의 [Quickstart](https://learn.chatgpt.com/docs/quickstart?setup=app)는 codebase context와 developer tools를 사용하는 개발 작업에서 ChatGPT dropdown의 Codex 선택을 안내한다. [앱 안내](https://learn.chatgpt.com/docs/app)와 함께 확인했다.
+- 현재 S08은 이 교육의 Repository 조사 경로를 설명하는 편집 가능한 재구성 도식이다. 좌측 상단이라는 위치는 사용자가 설명한 환경을 따른다. 실제 화면·계정·권한·발표 환경은 **UNVERIFIED**다.
+- ChatGPT Work의 로컬 파일 접근도 구분한다. “Codex만 파일이나 Repository를 볼 수 있다”는 일반적인 배타적 주장은 하지 않는다. 이전 STEP 03의 관찰 날짜와 실행 표면 기록은 보존한다.

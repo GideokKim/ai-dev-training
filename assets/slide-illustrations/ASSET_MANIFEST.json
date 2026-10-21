@@ -9,68 +9,6 @@
     "status": "HISTORICAL_ASSET_REPLACED_IN_PRODUCTION_2026-10-21",
     "replacement": "Native parallel Context diagram in production/source/presentation-revision/act0-opening.mjs"
   },
-  "S57": {
-    "method": "native PowerPoint text and shapes",
-    "source": "production/source/presentation-revision/test-scope-visual.mjs",
-    "evidenceRole": "CONCEPTUAL instruction-scope diagram; no actual test run"
-  },
-  "S74": [
-    {
-      "sourceSlide": "S16",
-      "file": "recap/S16-source.png",
-      "original": "production/preview/full/S16.png",
-      "sha256": "cb61a596aab987e46a2ca55da3074248d9c56ff77777fab3e97aa2f5da87e054",
-      "sourceDimensions": [
-        1920,
-        1080
-      ],
-      "nativeCropXYWH": [
-        96,
-        440,
-        1728,
-        440
-      ],
-      "evidenceRole": "Excerpt of an existing teaching slide; not a raw execution capture"
-    },
-    {
-      "sourceSlide": "S32",
-      "file": "recap/S32-source.png",
-      "original": "production/preview/full/S32.png",
-      "sha256": "cbd441b787ac8e0d2d138eb63f165361f6ebf482aef7b5b9a75bba57a886e038",
-      "sourceDimensions": [
-        1920,
-        1080
-      ],
-      "nativeCropXYWH": [
-        96,
-        425,
-        1728,
-        365
-      ],
-      "evidenceRole": "Excerpt of an existing teaching slide; not a raw execution capture"
-    },
-    {
-      "sourceSlide": "S45",
-      "file": "recap/S45-source.png",
-      "original": "production/preview/full/S45.png",
-      "sha256": "b3385d7ddfcd4ed0728f55c72eb86288a8941b38cd8523b91f0fa9ddce080788",
-      "sourceDimensions": [
-        1920,
-        1080
-      ],
-      "nativeCropXYWH": [
-        96,
-        360,
-        1728,
-        540
-      ],
-      "evidenceRole": "Excerpt of an existing teaching slide; not a raw execution capture"
-    }
-  ],
-  "S41": {
-    "status": "CONDITION_NOT_MET",
-    "reason": "No original CLI screenshot or recording found in training assets/demos/prototype/production; retain labeled reconstruction"
-  },
   "S01": {
     "date": "2026-10-21",
     "file": "S01-cases.png",
@@ -92,5 +30,89 @@
       "illustrativeFailed": 1
     },
     "historicalTrialFramework": "Python unittest"
+  },
+  "slideNumbering": "Current owner IDs follow DEC-0036 (81 slides); capture filenames and captured IDs remain historical.",
+  "S58": {
+    "method": "native PowerPoint text and shapes",
+    "source": "production/source/presentation-revision/test-scope-visual.mjs",
+    "evidenceRole": "CONCEPTUAL instruction-scope diagram; no actual test run"
+  },
+  "S75": [
+    {
+      "sourceSlide": "S17",
+      "file": "recap/S16-source.png",
+      "sha256": "cb61a596aab987e46a2ca55da3074248d9c56ff77777fab3e97aa2f5da87e054",
+      "sourceDimensions": [
+        1920,
+        1080
+      ],
+      "nativeCropXYWH": [
+        96,
+        440,
+        1728,
+        440
+      ],
+      "evidenceRole": "Excerpt of an existing teaching slide; not a raw execution capture",
+      "capturedSourceSlide": "S16",
+      "originalAtCapture": "production/preview/full/S16.png"
+    },
+    {
+      "sourceSlide": "S33",
+      "file": "recap/S32-source.png",
+      "sha256": "cbd441b787ac8e0d2d138eb63f165361f6ebf482aef7b5b9a75bba57a886e038",
+      "sourceDimensions": [
+        1920,
+        1080
+      ],
+      "nativeCropXYWH": [
+        96,
+        425,
+        1728,
+        365
+      ],
+      "evidenceRole": "Excerpt of an existing teaching slide; not a raw execution capture",
+      "capturedSourceSlide": "S32",
+      "originalAtCapture": "production/preview/full/S32.png"
+    },
+    {
+      "sourceSlide": "S46",
+      "file": "recap/S45-source.png",
+      "sha256": "b3385d7ddfcd4ed0728f55c72eb86288a8941b38cd8523b91f0fa9ddce080788",
+      "sourceDimensions": [
+        1920,
+        1080
+      ],
+      "nativeCropXYWH": [
+        96,
+        360,
+        1728,
+        540
+      ],
+      "evidenceRole": "Excerpt of an existing teaching slide; not a raw execution capture",
+      "capturedSourceSlide": "S45",
+      "originalAtCapture": "production/preview/full/S45.png"
+    }
+  ],
+  "S42": {
+    "status": "CONDITION_NOT_MET",
+    "reason": "No original CLI screenshot or recording found in training assets/demos/prototype/production; retain labeled reconstruction"
+  },
+  "S08": {
+    "date": "2026-10-21",
+    "method": "native editable reconstruction",
+    "source": "production/source/presentation-revision/product-entry.mjs",
+    "officialSources": [
+      "https://learn.chatgpt.com/docs/quickstart?setup=app",
+      "https://learn.chatgpt.com/docs/app"
+    ],
+    "evidenceRole": "Official-documentation entry path; not a screenshot or current target-account validation"
+  },
+  "S09": {
+    "date": "2026-10-21",
+    "file": "human-agent-icons.png",
+    "method": "built-in imagegen; native PowerPoint crops",
+    "sha256": "75e871e11d57e35d64522bb4257e4677035e02192b81680f8d230fb237a78a5c",
+    "prompt": "assets/slide-illustrations/CODEX_ENTRY_SOURCES.md",
+    "evidenceRole": "Human/AI-agent teaching role pictograms; no product capture or cognitive-capability claim"
   }
 }

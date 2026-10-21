@@ -28,7 +28,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d\d) — ([\s\S]*?)(?=^#### S\d\d|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==80)throw new Error('Expected 80 source records.');
+if(Object.keys(map).length!==81)throw new Error('Expected 81 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -42,9 +42,10 @@ for(const name of ['polish-early','polish-late'])Object.assign(factories,(await 
 Object.assign(factories,await (await import('./polish-harness.mjs')).loadHarnessPolishSlides(ROOT));
 Object.assign(factories,await (await import('./polish-visuals.mjs')).loadVisualPolishSlides(ROOT));
 Object.assign(factories,await (await import('./act0-opening.mjs')).loadAct0OpeningSlides(ROOT));
+Object.assign(factories,await (await import('./product-entry.mjs')).loadProductEntrySlides(ROOT));
 Object.assign(factories,priorityFactories(factories,H));
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
-if(moduleMap.slides.length!==80)throw new Error('Expected 80 legacy module mappings.');
+if(moduleMap.slides.length!==81)throw new Error('Expected 81 legacy module mappings.');
 const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));
 const notes={};
 for(let act=0;act<6;act++){
@@ -77,7 +78,7 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>id==='S45'?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>id==='S46'?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,
