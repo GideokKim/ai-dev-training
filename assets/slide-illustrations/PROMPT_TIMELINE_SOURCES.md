@@ -8,7 +8,7 @@ Decision: DEC-0038. Date: 2026-10-21 (Asia/Seoul).
 - Method: built-in imagegen, transparent background.
 - The SAME fictional Agent image is intentionally reused on S11–S13, as requested. It identifies one agent across conceptual alternatives, not simultaneous subagents or measured repeated runs.
 - Blank cards and deliberation pose are teaching illustrations. No actual product interface, thought trace, execution failure or inability to ask clarification is implied.
-- Token/time curves are native editable qualitative diagrams. There are no numeric axes, counts, ratios, measured durations or exponential-law claims. Retrying and re-exploring can add work; the illustrated rising shape is conceptual only.
+- Historical DEC-0038 token/time curves were native editable qualitative diagrams. DEC-0040 replaces only S11's curve/arrow graphics with generated raster images; labels remain native text. Current assets and exact prompts: [S11 resource graph sources](S11_RESOURCE_GRAPH_SOURCES.md). There are no numeric axes, counts, ratios, measured durations or exponential-law claims. Retrying and re-exploring can add work; the illustrated rising shape is conceptual only.
 - The prompts are reconstructed teaching examples, not actual TRIAL-002 prompts. Additional goal/preserve/scope/evidence/done information highlights an intended branch; it does not guarantee deterministic output or correctness.
 
 ## Exact Image Prompt

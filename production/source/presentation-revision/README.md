@@ -15,6 +15,11 @@ verification. Both changes live in `act01.mjs`; the total remains 82 slides
 and 360 minutes. Rebuild the full deck and ACT 1 with `--release
 --release-acts=1`; leave other ACT packages untouched.
 
+DEC-0040 replaces only S11's native token/time curve and arrow graphics
+with two transparent imagegen PNGs in `prompt-timelines.mjs`. Labels and
+all other content stay native and unchanged; the images remain qualitative
+with no measurements. Rebuild Full + ACT 1 for this revision.
+
 These modules reproduce the audience-facing revision accepted in DEC-0027.
 DEC-0028 adds the approved S07/S39/S55/S74 teaching illustrations and the S74
 text-box repair. The original pilot remains a historical review artifact.

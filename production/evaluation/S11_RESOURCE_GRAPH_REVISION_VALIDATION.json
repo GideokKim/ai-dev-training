@@ -1,0 +1,110 @@
+{
+  "decision": "DEC-0040",
+  "baselineCommit": "79fef49",
+  "slides": 82,
+  "totalMinutes": 360,
+  "actCounts": {
+    "ACT 0": 10,
+    "ACT 1": 13,
+    "ACT 2": 15,
+    "ACT 3": 18,
+    "ACT 4": 18,
+    "ACT 5": 8
+  },
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 55,
+    "ACT 2": 70,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 130,
+    "Reflection": 20,
+    "Case": 83,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "changedSlides": [
+    "S11"
+  ],
+  "unchangedMapProtectedFields": true,
+  "unchangedOtherMapNotesRecords": 81,
+  "notesRecords": 82,
+  "notesFields": 19,
+  "fullActMarkdownAndEmbeddedNotesParity": true,
+  "unchangedOtherVisualStructuresMediaAndPngs": 81,
+  "unchangedOtherActPackages": [
+    0,
+    2,
+    3,
+    4,
+    5
+  ],
+  "exactPackagePngCount": 95,
+  "fullActPngParityCount": 13,
+  "changedFinalPngMatchesReviewedDraft": true,
+  "s11PictureCount": 3,
+  "s11NativeCurvePaths": 0,
+  "rasterGraphImages": 2,
+  "nativeChartDataPreserved": true,
+  "packages": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slides": 82,
+      "sha256": "d21a2759048632dc19aea8755a019215ce414958b37ce279d99515df0602f8e9",
+      "bytes": 15258803,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyImport": true
+    },
+    {
+      "path": "production/ACT_1.pptx",
+      "slides": 13,
+      "sha256": "87d695cce0769278f1be1c02dda7702cb7bf0490f1522581344c277e4eea66bd",
+      "bytes": 3802363,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyImport": true
+    }
+  ],
+  "newTrial": "NONE",
+  "demoRepository": "UNCHANGED",
+  "presenterBundle": "PAUSED / UNCHANGED",
+  "windowsRoomProductTimedRehearsal": "UNVERIFIED",
+  "s11UnchangedOtherNativeShapes": 31,
+  "s11NativeCurveAndArrowObjectsRemoved": 4,
+  "notesSha256": "e6590b558b0ff2f64e046d17fb397cfb9eaafce8779f6d4db874cbdff51dcbb8",
+  "fullMontageSha256": "a31576c3aebc43e3b5f3b8e9a8199a49c481b19ee075f6b575017a9e5b3b4bb6",
+  "resourceGraphAssets": [
+    {
+      "path": "assets/slide-illustrations/S11-token-growth.png",
+      "sha256": "ffc791c203a2a7e5e3baab09d1fb1f175c2f71205489375381d81a830a7b3a5d",
+      "dimensions": [
+        2199,
+        715
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "method": "built-in imagegen"
+    },
+    {
+      "path": "assets/slide-illustrations/S11-time-growth.png",
+      "sha256": "434356387439372adcb7bf78834b8842dbea5fb037267ce67fb0891065415063",
+      "dimensions": [
+        2038,
+        771
+      ],
+      "mode": "RGBA",
+      "transparent": true,
+      "method": "built-in imagegen"
+    }
+  ],
+  "staticFallbackFilesVerified": 29,
+  "staticFallbackPngChanges": 0,
+  "visualReview": "S11 enlarged and independently reviewed; no new clipping or overlap within local scope"
+}

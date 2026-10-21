@@ -5659,3 +5659,75 @@ Windows, target product/account/room and timed rehearsal stay UNVERIFIED.
 
 The user's explicit S17/S18 request authorizes this bounded layout and
 handoff refinement without extending the existing evidence claims.
+
+
+# DEC-0040 — Use raster illustrations for S11 resource growth curves
+
+## Status
+
+ACCEPTED
+
+## Date
+
+2026-10-21
+
+## Context
+
+The user requests images in place of S11's editable token-consumption and
+work-time curves.
+
+## Problem
+
+The current native curves do not match the requested image treatment.
+Replacing their format must preserve the qualitative teaching boundary.
+
+## Decision
+
+Use two built-in-generated transparent PNG illustrations for the curves
+and their arrow tips: S11-token-growth.png and S11-time-growth.png. Keep the
+native text labels, existing placement, Prompt, Agent, questions, footer,
+Case 7 minutes, 82 slides and 360 minutes unchanged. Add source provenance
+and align only the affected S11 planning and Notes record.
+
+## Rationale
+
+Raster curve illustrations satisfy the requested presentation format while
+retaining the existing explanation of possible re-exploration costs.
+
+## Alternatives
+
+Keep native curves: does not satisfy the request. Add measured axes or
+numbers: unsupported by the evidence and unnecessary for this teaching case.
+
+## Trade-offs
+
+The curves are editable as images, but their paths are not native graph
+objects. Text labels remain editable and the source assets are retained.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001, INV-SOT-003.
+
+## Affected Artifacts
+
+S11 Map, ACT 1 / Full Notes, raster assets and provenance, slide source,
+ACT 1 / integrated PPTs, previews and current artifact identities.
+
+## Evidence
+
+Explicit user instruction on 2026-10-21. The previous qualitative concept
+and its claim boundary remain as approved in DEC-0038. No new measurement.
+
+## Training Relevance
+
+YES — preserve the distinction between a teaching illustration and measured
+resource use while applying the requested visual treatment.
+
+## Follow-up
+
+Render S11, check text and image placement, and compare unaffected slide
+content, Notes parity, current hashes and the unchanged time budget.
+
+## Approval
+
+The explicit user request authorizes this bounded image-format change.

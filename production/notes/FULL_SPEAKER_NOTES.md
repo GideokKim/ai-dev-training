@@ -1,10 +1,10 @@
 # Full Speaker Notes — AI Developer Training
 
-Status: REVIEWED — DEC-0039에서 S17 실제 Prompt 발췌·번역과 세로 번호 대응, S18의 조사·계획·수정 연결을 정렬했다. 82장 / 360분과 기존 ACT·Mode·근거 범위를 유지한다. 최신 로컬 제작 검토는 production/evaluation/PROMPT_FLOW_REVISION.md를 따른다. Windows, room, current product/account, and timed rehearsal remain UNVERIFIED.
+Status: REVIEWED — DEC-0040에서 S11 비용 곡선·화살표를 PNG 이미지로 교체했다. 최신 제작 검토는 production/evaluation/S11_RESOURCE_GRAPH_REVISION.md를 따른다. DEC-0039의 S17/S18 정렬, 82장/360분 및 기존 ACT·Mode·근거 범위를 유지한다. Windows, room, current product/account, and timed rehearsal remain UNVERIFIED.
 
 S10 revision: DEC-0037 (2026-10-21). 제조 검사 Task의 파이프라인 도식과 기존 질문·6분 운영을 정렬했다. 현재 검토: `production/evaluation/S10_INSPECTION_PIPELINE_REVISION.md`.
 
-Authority: `plan/SLIDE_MAP.md`, `plan/CLAIM_FREEZE.md`, `plan/SPEAKER_NOTES_FREEZE.md`, `plan/SLIDE_ID_MIGRATION_82.md`, and DEC-0027 through DEC-0039.
+Authority: `plan/SLIDE_MAP.md`, `plan/CLAIM_FREEZE.md`, `plan/SPEAKER_NOTES_FREEZE.md`, `plan/SLIDE_ID_MIGRATION_82.md`, and DEC-0027 through DEC-0040.
 
 하단의 M 연계 표시는 구 강의의 관련 내용·원칙을 가리키며 모듈 전체 이수를 뜻하지 않는다. 장별 범위는 `production/evaluation/LEGACY_MODULE_MAP.md`를 참조한다. 기존 80장 검토 문서는 당시 번호의 역사적 근거로 유지하며 현재 번호는 82장 Migration 표로 연결한다.
 
@@ -492,10 +492,10 @@ Speaker Flow:
 
 1. **REQUEST (0:00–1:30):** S10의 제조 검사 Task 질문을 회수하고, 프롬프트 입력창 형태의 “filter 성능 개선해줘”를 읽는다. 현재 제품의 실제 대화창·실행 기록이 아니라 재구성한 교육용 요청임을 밝힌다.
 2. **UNSET DECISIONS (1:30–4:00):** 오른쪽의 바꿀 것·보존할 것·완료 근거와 “무엇을 바꿀까?”, “무엇을 그대로 지킬까?”, “무엇을 보면 끝났다고 할까?” 세 질문을 순서대로 가리킨다. Agent 삽화는 답할 정보가 남아 있는 상태를 상징한다. 답을 채우거나 Agent가 판단 능력이 없다고 설명하지 않는다.
-3. **COST CONCEPT (4:00–5:30):** 탐색·재시도가 길어질 때 토큰 소모와 작업 시간도 커질 수 있다는 개념 표시를 짚는다. 실제 수치·증가 배율·기하급수 법칙·측정 곡선으로 읽지 않는다. 실제 Agent는 필요한 정보를 먼저 되물을 수도 있다.
+3. **COST CONCEPT (4:00–5:30):** 탐색·재시도가 길어질 때 토큰 소모와 작업 시간도 커질 수 있다는 두 PNG 개념 삽화를 짚는다. 실제 수치·증가 배율·기하급수 법칙·측정 곡선으로 읽지 않는다. 실제 Agent는 필요한 정보를 먼저 되물을 수도 있다.
 4. **NARROW THE CASE (5:30–7:00):** Repository 접근만으로 세 결정을 정할 수 있는지 묻고, 앞서 조사한 crop 사례로 S12에 연결한다. 특정 제품의 실패·속도·토큰 사용 결과로 말하지 않는다.
 
-Evidence / Source: BEAT-004, TRIAL-001 callback, CLM-0002, DEC-0038. TEACHING_MODEL / CONCEPTUAL. 프롬프트창은 재구성이고 AI Agent 그림은 AI 생성 교육용 삽화다. 비용 표시는 정성적 개념도이며 실제 Trial·현재 제품 실행·토큰/시간 측정값이 아니다. 삽화: assets/slide-illustrations/task-choice-agent.png (built-in imagegen, 투명 배경). 같은 Agent를 세 장에서 의도적으로 반복한다. 생성 프롬프트·출처·표현 경계: assets/slide-illustrations/PROMPT_TIMELINE_SOURCES.md.
+Evidence / Source: BEAT-004, TRIAL-001 callback, CLM-0002, DEC-0038, DEC-0040. TEACHING_MODEL / CONCEPTUAL. 프롬프트창은 재구성이고 AI Agent 그림은 AI 생성 교육용 삽화다. 비용 표시는 정성적 개념도이며 실제 Trial·현재 제품 실행·토큰/시간 측정값이 아니다. 삽화: assets/slide-illustrations/task-choice-agent.png (built-in imagegen, 투명 배경). 같은 Agent를 세 장에서 의도적으로 반복한다. 생성 프롬프트·출처·표현 경계: assets/slide-illustrations/PROMPT_TIMELINE_SOURCES.md. 토큰 소모·작업 시간 곡선과 끝 화살표는 편집 가능한 그래프 객체 대신 assets/slide-illustrations/S11-token-growth.png 및 S11-time-growth.png의 투명 PNG 삽화로 표시한다. 텍스트 label은 native text로 유지한다. 두 그래프 이미지의 생성 방식·정확한 프롬프트·표현 경계: assets/slide-illustrations/S11_RESOURCE_GRAPH_SOURCES.md.
 
 Claim Boundary: 미정인 요청이 특정 실행 실패나 토큰·시간의 기하급수적 증가를 반드시 만든다고 주장하지 않는다. 그림은 실제 내부 추론·로그·작업 정지 기록이 아니다. Agent는 가능한 선택을 제안하거나 먼저 질문할 수 있다. 오른쪽 세 질문의 답과 다음 Task Specification 해답은 이 장에서 미리 제공하지 않는다.
 
@@ -513,9 +513,9 @@ Transition: “남은 결정을 더 분명히 보기 위해, 앞서 조사한 cr
 
 Time Management: Case 7분 유지. 요청 1분30초, 오른쪽 미정 질문 2분30초, 비용 개념 1분30초, 다음 사례 연결 1분30초로 제한한다. 곡선·토큰 단가·제품 내부 추론 강의를 추가하지 않는다. 실측 발표 시간은 UNVERIFIED다.
 
-Fallback: 정적 기본 경로 — production/ACT_1.pptx S11 또는 production/preview/act1/S11.png를 사용한다. 비용 그림을 측정 그래프나 실제 멈춘 Agent 화면으로 대체하지 않는다. 새 렌더·내장 Notes/PNG 정합성은 production/evaluation/PROMPT_TIMELINE_REVISION.md에서 확인한다.
+Fallback: 정적 기본 경로 — production/ACT_1.pptx S11 또는 production/preview/act1/S11.png를 사용한다. 비용 그림을 측정 그래프나 실제 멈춘 Agent 화면으로 대체하지 않는다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/S11_RESOURCE_GRAPH_REVISION.md를 따른다.
 
-Validation Status: ALIGNED — DEC-0038에 따라 요청·빈 결정·생성 삽화·비용 개념의 범위를 정렬했다. 실제 렌더·내장 Notes 대조는 production/evaluation/PROMPT_TIMELINE_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — DEC-0040의 생성 PNG와 비용 개념·배치·근거 경계를 대조했다. 최종 PPT·내장 Notes·렌더 정합성은 production/evaluation/S11_RESOURCE_GRAPH_REVISION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S12 — 요청만으로는 의도가 보이지 않는다
 

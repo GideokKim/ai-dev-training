@@ -122,7 +122,23 @@
     "sha256": "8a18cab9f89ea1e7a73f4c749b3bd7b88432561305d943a21df03c7f6a4571a8",
     "prompt": "assets/slide-illustrations/PROMPT_TIMELINE_SOURCES.md",
     "evidenceRole": "CONCEPTUAL teaching illustration; not a real execution, measured branching or product failure",
-    "nativeObjects": "Editable prompt reconstruction and qualitative curves / alternative timelines / intended-path emphasis; no quantitative cost or deterministic-success claim"
+    "nativeObjects": "Editable prompt reconstruction and labels; qualitative token/time curve+arrow graphics are raster PNGs from DEC-0040. No quantitative cost claim.",
+    "resourceGraphs": [
+      {
+        "file": "S11-token-growth.png",
+        "method": "built-in imagegen, transparent PNG",
+        "sha256": "ffc791c203a2a7e5e3baab09d1fb1f175c2f71205489375381d81a830a7b3a5d",
+        "prompt": "assets/slide-illustrations/S11_RESOURCE_GRAPH_SOURCES.md",
+        "evidenceRole": "CONCEPTUAL qualitative illustration; no measured rate or exponential law"
+      },
+      {
+        "file": "S11-time-growth.png",
+        "method": "built-in imagegen, transparent PNG",
+        "sha256": "434356387439372adcb7bf78834b8842dbea5fb037267ce67fb0891065415063",
+        "prompt": "assets/slide-illustrations/S11_RESOURCE_GRAPH_SOURCES.md",
+        "evidenceRole": "CONCEPTUAL qualitative illustration; no measured rate or exponential law"
+      }
+    ]
   },
   "S12": {
     "date": "2026-10-21",

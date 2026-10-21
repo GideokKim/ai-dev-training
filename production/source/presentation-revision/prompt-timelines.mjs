@@ -5,6 +5,8 @@ import * as H from './helpers.mjs';
 
 export async function loadPromptTimelineSlides(root) {
   const agent = new Uint8Array(await fs.readFile(path.join(root, 'assets/slide-illustrations/task-choice-agent.png')));
+  const tokenCurve = new Uint8Array(await fs.readFile(path.join(root, 'assets/slide-illustrations/S11-token-growth.png')));
+  const timeCurve = new Uint8Array(await fs.readFile(path.join(root, 'assets/slide-illustrations/S11-time-growth.png')));
   const {C, FONT, text, rect, line, arrow} = H;
   const picture = (s,x,y,w,h) => s.images.add({blob:agent,contentType:'image/png',fit:'contain',alt:'The same fictional AI agent considering ambiguous task options',position:{left:x,top:y,width:w,height:h}});
   const dot = (s,x,y,d,color) => s.shapes.add({geometry:'ellipse',position:{left:x,top:y,width:d,height:d},fill:color,line:{fill:'none',width:0}});
@@ -38,10 +40,9 @@ export async function loadPromptTimelineSlides(root) {
       text(s,item[1],x+158,y+i*gap+39,w-158,28,22,color);
     });
   };
-  const cost = (s,x,label) => {
+  const cost = (s,x,label,blob) => {
     text(s,label,x,542,128,33,25,C.warn,true);
-    pathShape(s,x+126,529,162,58,[{moveTo:{x:0,y:56}},{cubicBezTo:{x1:80,y1:56,x2:139,y2:55,x:160,y:3}}],C.warn,3,'solid','Qualitative resource growth, no measured scale');
-    text(s,'↑',x+278,521,28,30,23,C.warn,true);
+    s.images.add({blob,contentType:'image/png',fit:'contain',alt:label+'의 정성적 증가를 표현한 AI 생성 개념 이미지. 측정값 없음.',position:{left:x+126,top:529,width:162,height:58}});
   };
   return {
     S11(p){
@@ -61,7 +62,7 @@ export async function loadPromptTimelineSlides(root) {
         line(s,796,y+78,420,C.line,1.5);
       });
       text(s,'재탐색·재시도가 길어질 수 있다',64,488,690,34,26,C.warn,true);
-      cost(s,64,'토큰 소모');cost(s,408,'작업 시간');
+      cost(s,64,'토큰 소모',tokenCurve);cost(s,408,'작업 시간',timeCurve);
       return s;
     },
     S12(p){
