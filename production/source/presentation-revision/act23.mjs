@@ -106,11 +106,33 @@ S37:make('S37','정확하지만 이번 작업에는 불필요한 정보','ACT 2 
   }),
 
 S38:make('S38','정보의 범위와 제공 시점','ACT 2 · 언제 필요한 정보인가',
-  '교육용 분류 모델 · OpenAI의 공식 기능 분류가 아님',
-  '성능 조사 절차는 설명을 위한 예시이며 STATE-02에 저장돼 있었다는 뜻이 아님','TEACHING_MODEL',
-  (s,{C,text,line,rect})=>{
-    const rs=[['항상 알아야 할 안내','프로젝트 목적 · 기본 제약','ALWAYS-ON'],['질문에 따라 찾아볼 상세','crop 계약 · 모듈 구조','ON-DEMAND'],['이런 일을 수행하는 방법','변경 전 측정 → 조사 → 검증','WORKFLOW']];
-    rs.forEach((r,i)=>{const y=232+i*116;line(s,64,y,1152);text(s,r[0],64,y+18,475,42,30,C.ink,true);text(s,r[1],557,y+18,659,42,29,C.teal);text(s,r[2],64,y+70,475,28,19,C.sub,true);});
+  '교육용 정보 설계 모델 · OpenAI의 공식 분류·제품 기능이 아님',
+  '성능 조사 절차는 설명용 예시 · 실제 저장·실행 기록이나 성능 효과를 뜻하지 않음','TEACHING_MODEL',
+  (s,{C,text,line,rect,arrow})=>{
+    text(s,'정보는 언제 필요하고, 작업은 어떤 절차로 수행할까?',64,180,1152,43,30,C.teal,true);
+    const vertical=(x,y,h)=>s.shapes.add({geometry:'line',position:{left:x,top:y,width:0,height:h},fill:'none',line:{fill:C.teal,width:2}});
+    const task=(label,x,y,w=104,h=48)=>{rect(s,x,y,w,h,C.white,C.line,1);text(s,label,x,y+6,w,h-12,label.includes('\n')?21:23,C.ink,true,undefined,'center');};
+    const xs=[64,464,864];
+    ['항상 필요한 정보','작업에 따라 찾아볼 상세','반복되는 작업 절차'].forEach((t,i)=>{
+      text(s,t,xs[i],253,352,39,28,C.ink,true);line(s,xs[i],309,352,C.line,1);
+    });
+    ['README\n수정','crop\n수정','성능\n조사'].forEach((t,i)=>{task(t,64+i*124,345,104,56);vertical(116+i*124,401,14);});
+    line(s,116,415,248,C.teal,2);vertical(240,415,22);
+    rect(s,64,437,352,92,C.pale,C.teal,1.5);
+    text(s,'목적 · 기본 제약\n범위 준수 · 관련 검증',84,445,312,76,25,C.ink,true,undefined,'center');
+    task('README\n수정',464,345,104,56);arrow(s,582,364,28,19);
+    rect(s,624,349,192,48,C.pale,C.teal,1.5);text(s,'빌드 안내',624,355,192,36,25,C.teal,true,undefined,'center');
+    task('crop\n수정',464,450,104,56);arrow(s,582,469,28,19);
+    rect(s,624,454,192,48,C.white,C.line,1.5);text(s,'이미지 명세',624,460,192,36,25,C.ink,true,undefined,'center');
+    task('성능 조사 A',864,345,164);task('성능 조사 B',1052,345,164);
+    vertical(946,393,22);vertical(1134,393,22);line(s,946,415,188,C.teal,2);vertical(1040,415,22);
+    rect(s,864,437,352,92,C.white,C.teal,1.5);
+    text(s,'변경 전\n측정',880,447,94,72,24,C.ink,true,undefined,'center');
+    arrow(s,986,475,20,16);text(s,'조사',1016,463,72,40,25,C.teal,true,undefined,'center');
+    arrow(s,1096,475,20,16);text(s,'검증',1128,463,72,40,25,C.teal,true,undefined,'center');
+    text(s,'여러 작업에 공통 적용',64,555,352,34,24,C.teal,true);
+    text(s,'해당 작업에 맞춰 상세 확인',464,555,352,34,24,C.teal,true);
+    text(s,'같은 종류의 작업마다 재사용',864,555,352,34,24,C.teal,true);
   }),
 
 S39:make('S39','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 양을 다시 묻는 연구',

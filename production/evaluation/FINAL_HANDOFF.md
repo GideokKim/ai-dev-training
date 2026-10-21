@@ -1,7 +1,9 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일: 2026-10-21 (Asia/Seoul). 현재 번호 기준: DEC-0043, 90장. 최신 내용 수정: DEC-0050.
-S37 우측은 이제 AGENTS.md 내부 지침·정보를 비교한다. README 안내 참조·범위/검증 지침은 관련 영역에, 이미지 처리 상세는 불필요 영역에 둔다. 왼쪽 실제 Prompt와 다른89장·시간·근거 경계를 유지했다. 검토: [S37 AGENTS.md 기준 교정](S37_AGENTS_CONTEXT_REVISION.md).
+갱신일: 2026-10-21 (Asia/Seoul). 현재 번호 기준: DEC-0043, 90장. 최신 내용 수정: DEC-0051.
+S38은 기본 안내를 공통 참고하는 관계, 작업에 맞는 상세를 찾는 관계, 동종 작업에서 절차를 재사용하는 관계를 세 native 도식으로 구분했다. S37→S38→S39 흐름과 교육용 모델 경계, 다른89장·시간을 유지했다. 검토: [S38 도식](S38_CONTEXT_MODEL_REVISION.md).
+
+이전 S37 우측은 AGENTS.md 내부 지침·정보를 비교한다. README 안내 참조·범위/검증 지침은 관련 영역에, 이미지 처리 상세는 불필요 영역에 둔다. 왼쪽 실제 Prompt와 다른89장·시간·근거 경계를 유지했다. 검토: [S37 AGENTS.md 기준 교정](S37_AGENTS_CONTEXT_REVISION.md).
 
 이전 DEC-0049의 S37은 실제 README 요청을 Prompt 창으로 보여주고, 직접 필요한 Context는 청록 실선·면으로, 정확하지만 불필요한 상세는 회색 점선으로 구분했다. Agent의 AGENTS.md 접근·혼란/실패 없음·성능 미측정 경계와 다른89장·시간을 유지했다. 검토: [S37 수정](S37_CONTEXT_RELEVANCE_REVISION.md).
 
@@ -45,15 +47,15 @@ S01–10은 내용·번호·시간을 보존한다. 과거 Codex 진입·S10 검
 
 ## 2. 정확한 현재 후보
 
-아래 hash는 DEC-0050의 실제90장 파일에서 계산했다. S37의 AGENTS.md 내부 분류·왼쪽 Prompt 보존, Full/ACT2 최종 렌더와90개 내장 Notes 대조는 `S37_AGENTS_CONTEXT_REVISION.md`에 기록한다. 다른89장은 보존했다. 이전 사용 라벨·S17·기법8장 추가 기록은 당시 판본의 이력이다. 실환경 검증은 포함하지 않는다.
+아래 hash는 DEC-0051의 실제90장 파일에서 계산했다. S38 세 관계 도식과 S37-S39 연결, Full/ACT2 최종 렌더와90개 내장 Notes 대조는 `S38_CONTEXT_MODEL_REVISION.md`에 기록한다. 다른89장은 보존했다. 이전 사용 라벨·S17·기법8장 추가 기록은 당시 판본의 이력이다. 실환경 검증은 포함하지 않는다.
 
 | 항목 | 경로 / SHA-256 |
 |---|---|
 | 통합 PPT | `production/AI_Dev_Training_Full.pptx` |
-| PPT SHA-256 | `ad26fc0cd592ea17ca66abd35edde1f3d516c7450e2b1cb090d38a5f4b682b78` |
+| PPT SHA-256 | `56f5b844db5d2e2dc3b4299c871c52db77eefc05eb798bf10b4c95e81364d361` |
 | 통합 Notes | `production/notes/FULL_SPEAKER_NOTES.md` |
-| Notes SHA-256 | `f2c8ea9e65754eb905a8092ffe952516f130d6428d3dcc73984bdc04ca454fe5` |
-| 전체 montage SHA-256 | `87fe179fa04d6a43f3f388e8845d1e81d1a40de0bed0aded5f64fde505324726` |
+| Notes SHA-256 | `e12e7521431e89f47094542d0032648081d9bc32f48d251137552f842889ea0c` |
+| 전체 montage SHA-256 | `7ac20c27d592f04ecfd9a5022022abd9ca74c6ed278cef6dbb92916301bbc5f6` |
 | 묶음별 파일 목록·크기·SHA-256 | 저장소의 `delivery/PACKAGE_MANIFEST.json`; ZIP 내부의 `PACKAGE_MANIFEST.json` |
 | ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-21.zip.sha256` |
 
@@ -129,6 +131,7 @@ S18 검토용 결과 인계, S19 계약 위반을 구별하는 검사를 기존 
 
 | 항목 | 현재 상태 | 필요한 다음 근거 |
 |---|---|---|
+| DEC-0051 S38 기본 안내·상세·절차 도식 | COMPLETE, 로컬 범위 | S38_CONTEXT_MODEL_REVISION.md 및 검증 JSON |
 | DEC-0050 S37 AGENTS.md 내부 기준 교정 | COMPLETE, 로컬 범위 | S37_AGENTS_CONTEXT_REVISION.md 및 검증 JSON |
 | DEC-0049 S37 요청창·Context 관련성 구분 | COMPLETE, 로컬 범위 | S37_CONTEXT_RELEVANCE_REVISION.md 및 검증 JSON |
 | DEC-0048 S36 시점·정보 축적 도식 | COMPLETE, 로컬 범위 | S36_CONTEXT_GROWTH_REVISION.md 및 검증 JSON |
@@ -158,7 +161,8 @@ S82: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
 
 ## 6. 근거와 이력
 
-- [현재 S37 AGENTS.md 내부 기준 교정](S37_AGENTS_CONTEXT_REVISION.md)
+- [현재 S38 범위·시점·절차 도식](S38_CONTEXT_MODEL_REVISION.md)
+- [이전 S37 AGENTS.md 내부 기준 교정](S37_AGENTS_CONTEXT_REVISION.md)
 - [이전 S37 요청창·Context 관련성](S37_CONTEXT_RELEVANCE_REVISION.md)
 - [이전 S36 프로젝트 진행·정보 축적](S36_CONTEXT_GROWTH_REVISION.md)
 - [이전 S35 요청/Context 위치 연결](S35_CONTEXT_PLACEMENT_REVISION.md)

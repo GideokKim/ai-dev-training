@@ -6510,3 +6510,77 @@ YES — distinguish relevance among facts and guidance within one Context file.
 Verify unchanged left Prompt, other89 slides, all per-slide budgets and
 source/Notes parity. Keep no-confusion/no-failure boundaries and unverified
 Windows, room, product/account and rehearsal gates.
+
+
+# DEC-0051 — Diagram S38 guidance, detail and reusable procedure
+
+## Status
+
+ACCEPTED — explicit user request to connect S38 with S37 visually.
+
+## Date
+
+2026-10-21
+
+## Context
+
+S37 distinguishes relevant guidance and unrelated detail inside AGENTS.md.
+S38 must generalize the difference in a diagram understandable on its own.
+
+## Problem
+
+Distinguish common guidance, task-dependent detail and reusable procedure
+without making them a rigid product taxonomy or claiming measured benefits.
+
+## Decision
+
+Replace the three text rows with three native relationship diagrams.
+Several task types share common project guidance. README and crop requests
+point to different relevant details. Two illustrative performance tasks
+share one pre-change measurement, investigation and verification procedure.
+Preserve the title,4minute Lecture, all90 slides and368minutes. Align Notes
+and the Map while retaining the next Long Context research question.
+
+## Rationale
+
+Shared scope, selective detail and procedural reuse become different visible
+relationships. The audience can infer their purposes without repository access.
+
+## Alternatives
+
+Keep the text table: insufficient for the requested visual explanation.
+Show a linear three-step process: inaccurate because these are not stages.
+Introduce Skill mechanisms now: exceeds this slide's role and story position.
+
+## Trade-offs
+
+The diagrams are a teaching model. The first two concern information scope
+and timing; the last concerns the responsibility of a work method. A workflow
+can itself be consulted on demand. These views are not mutually exclusive.
+The routing arrows and performance examples are not observed execution.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-002, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S38 source and Map, ACT2/Full Notes, Full/ACT2 PPTX, previews and current
+handoff identities.
+
+## Evidence
+
+User direction, approved S38 teaching role, S37/TRIAL-004 relevance boundary
+and retained course planning. No new Trial, product check or Demo code change.
+
+## Training Relevance
+
+YES — distinguish what is generally true, which detail matters now and how
+a kind of work should be performed.
+
+## Follow-up
+
+Review S37-S39 continuity, diagrams and Notes parity. Preserve other89 slides
+and all per-slide budgets. Do not claim automatic routing, token savings,
+performance improvement or a procedure actually stored in STATE-02.
+Keep Windows, room, product/account and rehearsal UNVERIFIED.

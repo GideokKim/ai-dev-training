@@ -50,6 +50,11 @@ Build/Run README pointer and scope/verification guidance versus image details.
 The specific versions are not guidance-file contents. Preserve the existing
 left Prompt and rebuild Full/ACT2 only; other89 slides and budgets stay fixed.
 
+DEC-0051 replaces S38 text rows in `act23.mjs` with three native diagrams:
+shared guidance, task-dependent detail and reusable procedure. These are
+teaching relationships, not observed routing or stored workflow results.
+Rebuild Full/ACT2 only; preserve the other89 slides and all budgets.
+
 ## Historical implementation notes
 
 # Presentation revision source

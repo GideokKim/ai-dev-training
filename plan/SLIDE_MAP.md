@@ -1000,16 +1000,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 2 — Context growth, relevance, and research caveat.; ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. OpenAI의 공식 분류 체계로 표현하지 않는다.
-- **Visual Concept:** `ALWAYS-ON`, `ON-DEMAND`, `WORKFLOW` 세 영역에 Project 기본 제약, 이미지 계약/세부 구조, 성능 조사 절차를 예로 배치한다.
+- **Visual Concept:** native 세 열 도식. 왼쪽은 README 수정/crop 수정/성능 조사가 공통 목적·제약·범위 준수·관련 검증 안내를 함께 참고한다. 가운데는 README 수정→빌드 안내와 crop 수정→이미지 명세로 질문에 맞는 상세가 달라지는 예를 보여준다. 오른쪽은 성능 조사 A/B라는 교육용 작업 예가 하나의 변경 전 측정→조사→검증 절차로 합쳐진다. 세 열 사이를 순차 단계로 연결하지 않고 각 열의 공통 적용/선택적 확인/동종 작업 재사용 역할을 명시한다.
 - **Demo / Case Connection:** STATE-02의 분류 결과를 참조하되, 성능 조사 절차가 STATE-02에 실제로 저장됐다고 말하지 않는다.
 - **Beginner Payoff:** 모든 세부사항이 항상 필요한 것은 아님을 이해한다.
 - **Advanced Payoff:** 사실, Task별 세부정보, 절차를 구별하고 어디서 유지할지 생각한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 분류표를 암기 목록으로 만들지 않고, 관련성과 제공 시점을 생각하게 한다.
+- **Speaker Intent:** S37의 AGENTS.md 안에서 관련성이 달랐다는 관찰을 회수하고 기본 안내·질문별 상세·반복 절차를 구분한다. 앞의 두 도식은 정보의 범위와 제공 시점이고, 마지막은 수행 방법의 책임이다. 상호배타적 제품 분류가 아니며 절차도 필요할 때 찾아 쓸 수 있다. 가운데 연결은 실제 자동 Routing 관찰이 아니고 성능 절차는 당시 저장·실행 기록이 아니다. 마지막은 모든 정보를 늘 넣으면 충분한가라는 S39 연구 질문으로 넘긴다.
 - **Transition:** “필요한 때 찾게 하는 대신 모두 넣어두면 충분할까? 이 질문을 Long Context 연구의 범위 안에서 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005
+- **Evidence / Decision References:** BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051
 
 #### S39 — Long Context 연구가 말해주는 범위
 

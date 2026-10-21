@@ -8,7 +8,9 @@
 
 ## 현재 상태
 
-최신 수정은 DEC-0050의 S37 우측 분류 기준 교정이다. 두 Context 영역을 AGENTS.md 내부 지침·정보로 정렬했다. [수정 S37](production/preview/full/S37.png), [검토 기록](production/evaluation/S37_AGENTS_CONTEXT_REVISION.md).
+최신 수정은 DEC-0051의 S38 기본 안내·작업별 상세·재사용 절차 도식이다. [수정 S38](production/preview/full/S38.png), [검토 기록](production/evaluation/S38_CONTEXT_MODEL_REVISION.md).
+
+이전 수정은 DEC-0050의 S37 우측 분류 기준 교정이다. 두 Context 영역을 AGENTS.md 내부 지침·정보로 정렬했다. [수정 S37](production/preview/full/S37.png), [검토 기록](production/evaluation/S37_AGENTS_CONTEXT_REVISION.md).
 
 이전 수정은 DEC-0049의 S37 실제 요청창·청록 실선/회색 점선 Context 구분이다. [수정 S37](production/preview/full/S37.png), [검토 기록](production/evaluation/S37_CONTEXT_RELEVANCE_REVISION.md).
 

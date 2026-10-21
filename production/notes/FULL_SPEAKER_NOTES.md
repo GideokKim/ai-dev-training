@@ -1,6 +1,6 @@
 # Full Speaker Notes — AI Developer Training
 
-Status: ALIGNED — DEC-0050 grounds S37 relevance in AGENTS.md contents; DEC-0049 preserves the actual request; DEC-0048 preserves S36 document growth; DEC-0047 preserves S35 information destinations; DEC-0046 preserves S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S37_AGENTS_CONTEXT_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0051 diagrams S38 scope, timing and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 preserves S36 document growth; DEC-0047 preserves S35 information destinations; DEC-0046 preserves S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S38_CONTEXT_MODEL_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
 
 Authority: plan/MASTER_PLAN.md, plan/INVARIANTS.md, plan/SLIDE_MAP.md, plan/CLAIM_FREEZE.md, plan/SPEAKER_NOTES_FREEZE.md, plan/SLIDE_ID_MIGRATION_90.md and DEC-0043. Original80/81/82-slide audits remain historical. The small M footer marks bounded teaching links, not full module completion.
 
@@ -1785,13 +1785,17 @@ Opening Question: “무엇은 항상 필요하고, 무엇은 Task에 따라 찾
 
 Speaker Flow:
 
-1. (0:00–1:00) 세 행이 이 과정에서 쓰는 정보 설계 모델임을 밝힌다.
-2. (1:00–3:00) 기본 안내, 질문에 따른 상세, 특정 작업의 수행 방법을 순서대로 가리킨다. 각 행의 구체 예시를 하나씩 설명한다.
-3. (3:00–4:00) 성능 조사 절차 예가 STATE-02에 저장돼 있었다는 뜻은 아니라고 한정한다. 방금은 정보의 범위와 제공 시점을 나눴고, 다음에는 ‘Context 양만 늘리면 충분할까?’를 연구의 제한된 범위 안에서 살펴본다고 예고한다.
+1. (0:00–0:30) S37에서는 AGENTS.md의 정확한 내용 중 이번 README 작업에 필요한 지침과 불필요한 상세가 함께 있었다고 회수한다. 지금은 실제 Trial의 추가 결과가 아니라 정보의 범위·제공 시점과 수행 방법을 생각하는 교육용 도식임을 밝힌다.
+2. (0:30–1:30) 왼쪽 README 수정/crop 수정/성능 조사에서 연결선을 따라 공통 안내로 내려간다. 프로젝트 목적·기본 제약·범위 준수·관련 검증처럼 여러 작업에서 참고할 기본 안내다. 실제 AGENTS.md 전체가 모든 작업에 필요하다는 뜻은 아니다.
+3. (1:30–2:30) 가운데 README 수정은 빌드 안내, crop 수정은 이미지 명세로 향하는 화살표를 비교한다. 질문이 바뀌면 필요한 상세도 바뀐다는 배치 예이며 실제 자동 선택·검색 성공을 관찰한 결과가 아니다. 파일 위치나 제품 Routing 조작을 새로 가르치지 않는다.
+4. (2:30–3:30) 오른쪽 두 성능 조사 예가 같은 변경 전 측정→조사→검증 절차를 함께 쓰는 모습을 가리킨다. 사실의 내용과 일을 수행하는 방법은 책임이 다르다. 성능 조사 A/B는 교육용 작업 예이며 실제 TRIAL-006/007의 화면이나 당시 저장된 Skill이 아니다. Skill·Harness 기능 설명과 실제 재사용 결과는 후속 ACT에 남긴다.
+5. (3:30–4:00) 앞의 두 도식은 정보의 범위·제공 시점, 마지막은 수행 절차의 책임이며 서로 배타적인 제품 분류가 아니라고 정리한다. 재사용 절차도 작업에 따라 찾아 쓸 수 있다. ‘필요한 때 찾는 대신 모두 넣어두면 충분할까?’를 질문하고 S39의 제한된 Long Context 연구 근거로 넘긴다.
 
-Evidence / Source: BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005. TEACHING_MODEL / CONCEPTUAL.
+화면 진행: 공통 안내를 함께 쓰는 관계 → 요청별로 다른 상세를 찾는 관계 → 동종 작업이 하나의 절차를 재사용하는 관계. 세 열 사이에 발전 단계나 순서를 뜻하는 화살표는 없다. 전체가 native 편집 도식이며 실제 제품 UI·실행 캡처가 아니다.
 
-Claim Boundary: Always-on / On-demand / Workflow is a course model, not an official OpenAI classification. Do not claim token savings or improved performance.
+Evidence / Source: BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051. TEACHING_MODEL / CONCEPTUAL. S37/TRIAL-004의 관련성 관찰을 회수한 설계 모델이다. 도식의 작업별 상세 연결과 성능 절차는 설명용 구성이고 새 Product 관찰·Trial이 아니다.
+
+Claim Boundary: Always-on / On-demand / Workflow is a course model, not an official OpenAI classification or a mutually exclusive product taxonomy. The first two views describe information scope/timing; the third describes a reusable work method, which can also be consulted on demand. The arrows do not prove perfect automatic routing. The performance procedure was not stored or executed in STATE-02. Do not claim token savings or improved performance.
 
 Beginner Explanation: Some facts apply broadly; details matter for a smaller set of Tasks; a work procedure says how to approach a class of work.
 
@@ -1805,11 +1809,11 @@ Audience Interaction: Ask the audience to notice that information has different 
 
 Transition: “필요한 때 찾게 하는 대신 모두 넣어두면 충분할까? 이 질문을 Long Context 연구의 범위 안에서 보겠습니다.”
 
-Time Management: Four minutes, one minute per bucket plus the boundary. Do not present this as a product feature taxonomy.
+Time Management: S37 회수30초, 공통 안내1분, 요청별 상세1분, 재사용 절차1분, 경계·S39 연결30초로 Lecture4분을 유지한다. 제품 기능이나 Skill 호출 설명으로 확장하지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S38 또는 `production/preview/act2/S38.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S38 또는 production/preview/act2/S38.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S38_CONTEXT_MODEL_REVISION.md와 검증 JSON을 따른다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0051의 기본 안내/상세 정보/재사용 절차 도식과 S37→S38→S39 연결을 반영했다. 최종 렌더·Notes parity는 production/evaluation/S38_CONTEXT_MODEL_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S39 — Long Context 연구가 말해주는 범위
 
