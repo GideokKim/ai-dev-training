@@ -61,6 +61,12 @@ unproved present-day Codex/Routing claims. Primary papers are rechecked and
 SRC-0204 is narrowed to description-to-function retrieval. Rebuild Full/ACT2
 only; preserve the other89 slides and every per-slide budget.
 
+DEC-0053 updates S40 in `polish-early.mjs` with a native task-to-guidance-to-
+detail diagram. Use the recorded STATE-03 filenames and crop specification,
+while labeling the request and path as a teaching reconstruction rather than
+observed read order or automatic routing success. Rebuild Full/ACT2 only;
+preserve the other89 slides, S40 Lecture3 and all per-slide budgets.
+
 ## Historical implementation notes
 
 # Presentation revision source

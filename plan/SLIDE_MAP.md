@@ -1048,16 +1048,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. Routing으로 성능 향상이나 Token 절약이 입증됐다고 주장하지 않는다.
-- **Visual Concept:** `Task → Core Context → Relevant Detail when needed`.
+- **Visual Concept:** 작업 요청→AGENTS.md의 문서 안내→필요한 상세 문서의 native3노드 도식. 왼쪽 crop 끝 좌표 질문, 가운데 이미지 동작/crop은 docs/image-contracts.md를 보라는 안내, 오른쪽 crop 좌표의 반개구간 명세를 연결한다. 요청과 안내는 교육용 구성/요약이고 실제 읽기 순서가 아님을 명시한다. 하단에서 AGENTS.md가 상세 위치를 안내하는 역할을 회수하고 C++ 알고리즘 명세에도 같은 패턴을 연결한다.
 - **Demo / Case Connection:** STATE-03 결과는 다음 구간에 남기고, 이 장에서는 질문과 개념만 제시한다.
 - **Beginner Payoff:** Project 안내와 Task별 상세 정보가 다른 역할을 할 수 있음을 본다.
 - **Advanced Payoff:** 관련 문서로 연결하는 방식의 발견성·유지 비용을 다음 문제로 본다.
 - **C++ Vision Bridge:** 작은 예 하나로 일반 Project 제약과 Task별 CMake 또는 알고리즘 계약을 구분한다. CMake·hardware 항목을 나열하지 않고 세부 Bridge는 다음 구간에 이어간다.
-- **Speaker Intent:** “더 많은 Context”에서 “Task에 필요한 Context를 찾게 하는 방법”으로 질문을 바꾼다.
+- **Speaker Intent:** S39의 근거 활용 확인 질문을 받아 필요한 상세의 위치를 안내하는 설계로 돌아온다. 한 작업 요청이 AGENTS.md의 안내를 거쳐 문서 안의 명세에 이르는 관계를 보여준다. 도식은 실제 자동 읽기 순서·필요 문서만 선택한 결과가 아니며 Routing 우월성·토큰 절감·성능 효과를 주장하지 않는다. S41은 Core에 남길 내용, S42는 실제 문서 분리 기록으로 역할을 유지한다.
 - **Transition:** “경로를 봤으니, 이제 그 출발점인 Core에 무엇을 남길지 정해보겠습니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
-- **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015
+- **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0053
 
 #### S41 — Core Context에서 상세 정보로 가는 길
 

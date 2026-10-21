@@ -1,7 +1,9 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일: 2026-10-22 (Asia/Seoul). 현재 번호 기준: DEC-0043, 90장. 최신 내용 수정: DEC-0052.
-S39는 두 연구가 평가한 과제를 native 도식으로 보여주고 각 관찰과 현재 Codex의 미입증 범위를 구분한다. S38→S39→S40 흐름과 다른89장·시간을 유지했다. 검토: [S39 연구 범위](S39_RESEARCH_SCOPE_REVISION.md).
+갱신일: 2026-10-22 (Asia/Seoul). 현재 번호 기준: DEC-0043, 90장. 최신 내용 수정: DEC-0053.
+S40은 작업 요청→AGENTS.md의 문서 안내→crop 상세 명세를 native 도식으로 연결했다. 실제 읽기 순서가 아닌 교육용 설계이며 S39→S40→S41 흐름과 다른89장·시간을 유지했다. 검토: [S40 탐색 경로](S40_CONTEXT_PATH_REVISION.md).
+
+이전 S39는 두 연구가 평가한 과제를 native 도식으로 보여주고 각 관찰과 현재 Codex의 미입증 범위를 구분한다. S38→S39→S40 흐름과 다른89장·시간을 유지했다. 검토: [S39 연구 범위](S39_RESEARCH_SCOPE_REVISION.md).
 
 이전 S38은 기본 안내를 공통 참고하는 관계, 작업에 맞는 상세를 찾는 관계, 동종 작업에서 절차를 재사용하는 관계를 세 native 도식으로 구분했다. S37→S38→S39 흐름과 교육용 모델 경계, 다른89장·시간을 유지했다. 검토: [S38 도식](S38_CONTEXT_MODEL_REVISION.md).
 
@@ -49,15 +51,15 @@ S01–10은 내용·번호·시간을 보존한다. 과거 Codex 진입·S10 검
 
 ## 2. 정확한 현재 후보
 
-아래 hash는 DEC-0052의 실제90장 파일에서 계산했다. S39 연구 과제·관찰·현재 Codex 적용 한계, Full/ACT2 최종 렌더와90개 내장 Notes 대조는 `S39_RESEARCH_SCOPE_REVISION.md`에 기록한다. 다른89장은 보존했다. 이전 사용 라벨·S17·기법8장 추가 기록은 당시 판본의 이력이다. 실환경 검증은 포함하지 않는다.
+아래 hash는 DEC-0053의 실제90장 파일에서 계산했다. S40 요청/안내/상세 명세 관계, Full/ACT2 최종 렌더와90개 내장 Notes 대조는 `S40_CONTEXT_PATH_REVISION.md`에 기록한다. 다른89장은 보존했다. 이전 사용 라벨·S17·기법8장 추가 기록은 당시 판본의 이력이다. 실환경 검증은 포함하지 않는다.
 
 | 항목 | 경로 / SHA-256 |
 |---|---|
 | 통합 PPT | `production/AI_Dev_Training_Full.pptx` |
-| PPT SHA-256 | `49db44dab475514e7cc72046989e0e38f8732d406bca5b5aeeb0125a3018468d` |
+| PPT SHA-256 | `5b3716179d4d6c1ea9d2a0eae661e1fce778340f1663f4f759caf646f2b6eaee` |
 | 통합 Notes | `production/notes/FULL_SPEAKER_NOTES.md` |
-| Notes SHA-256 | `68d0986294114595fa3ef25deb5a47f4459e615a85a54490a92e375c2090d4e0` |
-| 전체 montage SHA-256 | `c3c4e600ae1b94378014f65f75c5ea9dad42a9d2fb8fcaef9596f8be0d4a39d1` |
+| Notes SHA-256 | `9ead319afd990875c09f16a89fb53775618ed9cf2a4dbda2021bab8c428f9c8f` |
+| 전체 montage SHA-256 | `92b409b4f6e10b79265f85587d7a3a2bcb2fa602471eb4890b555fdf9d53ccf0` |
 | 묶음별 파일 목록·크기·SHA-256 | 저장소의 `delivery/PACKAGE_MANIFEST.json`; ZIP 내부의 `PACKAGE_MANIFEST.json` |
 | ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-21.zip.sha256` |
 
@@ -133,6 +135,7 @@ S18 검토용 결과 인계, S19 계약 위반을 구별하는 검사를 기존 
 
 | 항목 | 현재 상태 | 필요한 다음 근거 |
 |---|---|---|
+| DEC-0053 S40 요청·AGENTS.md 안내·상세 명세 | COMPLETE, 로컬 범위 | S40_CONTEXT_PATH_REVISION.md 및 검증 JSON |
 | DEC-0052 S39 연구 과제·관찰·전이 한계 | COMPLETE, 로컬 범위 | S39_RESEARCH_SCOPE_REVISION.md 및 검증 JSON |
 | DEC-0051 S38 기본 안내·상세·절차 도식 | COMPLETE, 로컬 범위 | S38_CONTEXT_MODEL_REVISION.md 및 검증 JSON |
 | DEC-0050 S37 AGENTS.md 내부 기준 교정 | COMPLETE, 로컬 범위 | S37_AGENTS_CONTEXT_REVISION.md 및 검증 JSON |

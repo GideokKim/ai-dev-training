@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일: 2026-10-22 (Asia/Seoul). 현재 번호 후보: DEC-0043, 90장. 최신 내용 수정은 DEC-0052의 S39 연구 과제·관찰·현재 Codex 적용 한계 도식이다. 신규 S22–S29와 기존 S22–S82 → S30–S90을 반영한다. 기존 ZIP은 DEC-0033 자료로 보존한다. 아래 해시는 현재 DEC-0052 파일의 식별자이며 로컬 구조·전체 렌더·Notes 대조를 완료했다.
+갱신 기준일: 2026-10-22 (Asia/Seoul). 현재 번호 후보: DEC-0043, 90장. 최신 내용 수정은 DEC-0053의 S40 요청·AGENTS.md 안내·상세 명세 도식이다. 신규 S22–S29와 기존 S22–S82 → S30–S90을 반영한다. 기존 ZIP은 DEC-0033 자료로 보존한다. 아래 해시는 현재 DEC-0053 파일의 식별자이며 로컬 구조·전체 렌더·Notes 대조를 완료했다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,13 +9,13 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `49db44dab475514e7cc72046989e0e38f8732d406bca5b5aeeb0125a3018468d`
+- PPTX SHA-256: `5b3716179d4d6c1ea9d2a0eae661e1fce778340f1663f4f759caf646f2b6eaee`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `68d0986294114595fa3ef25deb5a47f4459e615a85a54490a92e375c2090d4e0`
+- Notes SHA-256: `9ead319afd990875c09f16a89fb53775618ed9cf2a4dbda2021bab8c428f9c8f`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S90.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-위 PPTX·Notes hash는 DEC-0052의 실제90장 파일에서 계산했다. [현재 S39 연구 범위 검토](S39_RESEARCH_SCOPE_REVISION.md)를 따른다. [이전 S38 도식 검토](S38_CONTEXT_MODEL_REVISION.md)를 따른다. [이전 S37 AGENTS.md 기준 검토](S37_AGENTS_CONTEXT_REVISION.md)를 따른다. [이전 S37 검토](S37_CONTEXT_RELEVANCE_REVISION.md)를 따른다. [이전 S36 검토](S36_CONTEXT_GROWTH_REVISION.md)를 따른다. [이전 S35 검토](S35_CONTEXT_PLACEMENT_REVISION.md)를 따른다. [이전 S34 검토](S34_GUIDANCE_REVISION.md)를 따른다. [이전 사용 라벨 수정 검토](PROMPT_USAGE_LABEL_REVISION.md)를 따른다. [이전 S17 수정·89장 보존 검토](S17_REQUEST_ACTION_REVISION.md)를 따른다. 로컬에서 PPT 구조·전체 렌더·90개 내장 Notes와 ACT/Full PNG 동일성을 확인했다. 이는 아래 실환경·리허설 항목의 PASS를 뜻하지 않는다. [이전 기법8장·90장 통합 검토](PROMPT_ENGINEERING_ADDITION_RESULT.md)와 [현재 번호 이행표](../../plan/SLIDE_ID_MIGRATION_90.md)를 기준으로 하고, 이전82장 요청 설계·S21·시간선 검토는 역사적 기록으로 보존한다.
+위 PPTX·Notes hash는 DEC-0053의 실제90장 파일에서 계산했다. [현재 S40 탐색 경로 검토](S40_CONTEXT_PATH_REVISION.md)를 따른다. [이전 S39 연구 범위 검토](S39_RESEARCH_SCOPE_REVISION.md)를 따른다. [이전 S38 도식 검토](S38_CONTEXT_MODEL_REVISION.md)를 따른다. [이전 S37 AGENTS.md 기준 검토](S37_AGENTS_CONTEXT_REVISION.md)를 따른다. [이전 S37 검토](S37_CONTEXT_RELEVANCE_REVISION.md)를 따른다. [이전 S36 검토](S36_CONTEXT_GROWTH_REVISION.md)를 따른다. [이전 S35 검토](S35_CONTEXT_PLACEMENT_REVISION.md)를 따른다. [이전 S34 검토](S34_GUIDANCE_REVISION.md)를 따른다. [이전 사용 라벨 수정 검토](PROMPT_USAGE_LABEL_REVISION.md)를 따른다. [이전 S17 수정·89장 보존 검토](S17_REQUEST_ACTION_REVISION.md)를 따른다. 로컬에서 PPT 구조·전체 렌더·90개 내장 Notes와 ACT/Full PNG 동일성을 확인했다. 이는 아래 실환경·리허설 항목의 PASS를 뜻하지 않는다. [이전 기법8장·90장 통합 검토](PROMPT_ENGINEERING_ADDITION_RESULT.md)와 [현재 번호 이행표](../../plan/SLIDE_ID_MIGRATION_90.md)를 기준으로 하고, 이전82장 요청 설계·S21·시간선 검토는 역사적 기록으로 보존한다.
 
 이전 DEC-0033–0035의 80장 렌더·구조·Notes 검토는 해당 평가 문서와 Git history의 역사적 근거다. 이전 ZIP은 payload 362개·entry 363개였으며 당시 CRC·hash·내부 링크·Notes 정합성을 확인했다. 이번에는 묶음을 갱신하지 않는다. M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아니다. 2순위 보강은 보류한다.
 

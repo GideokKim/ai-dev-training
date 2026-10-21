@@ -1,0 +1,69 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-22",
+  "decision": "DEC-0053",
+  "baseline": "8dfae82",
+  "changedSlide": "S40",
+  "slideCount": 90,
+  "totalMinutes": 368,
+  "act2Slides": 15,
+  "act2Minutes": 70,
+  "S40Minutes": 3,
+  "S40Mode": "Lecture 3",
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 70,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 137,
+    "Reflection": 20,
+    "Case": 84,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "nativeRoutingStages": 3,
+  "nativeRoutingArrows": 2,
+  "requestGuidanceDetailDistinguished": true,
+  "actualState03FilenamesAndCropSpecification": true,
+  "reconstructedRequestAndGuidance": true,
+  "teachingModelNotObservedReadOrder": true,
+  "newPerformanceClaim": false,
+  "actualProductScreenshot": false,
+  "unchangedOtherSlidePngs": 89,
+  "unchangedOtherNotesRecords": 89,
+  "fullAct2PngParity": 15,
+  "notesRecords": 90,
+  "fieldsPerNotes": 19,
+  "renderedSlidePngs": 105,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 90,
+      "sha256": "5b3716179d4d6c1ea9d2a0eae661e1fce778340f1663f4f759caf646f2b6eaee"
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slideCount": 15,
+      "sha256": "35cbbed19a0ca405448e7d1d3b89ff493d411c6c1b0ab57e6cfb31a4f708fc36"
+    }
+  ],
+  "fullPptSha256": "5b3716179d4d6c1ea9d2a0eae661e1fce778340f1663f4f759caf646f2b6eaee",
+  "fullNotesSha256": "9ead319afd990875c09f16a89fb53775618ed9cf2a4dbda2021bab8c428f9c8f",
+  "fullMontageSha256": "92b409b4f6e10b79265f85587d7a3a2bcb2fa602471eb4890b555fdf9d53ccf0",
+  "otherActPackagesUnchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "presenterBundleRegenerated": false,
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "fallbackPngsUnchanged": 29,
+  "encodedFontPolicyPassed": true,
+  "nativeTargetFontRendering": "UNVERIFIED",
+  "currentOutputLinksExist": true,
+  "currentArtifactIdentitiesMatch": true
+}

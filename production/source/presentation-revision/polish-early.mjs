@@ -187,13 +187,30 @@ S39:make('S39','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 
     text(s,'현재 Codex의 실패율·보편 한계·Routing 개선 효과',320,566,896,32,24,C.ink);
   }),
 S40:make('S40','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상세 정보의 탐색 경로',
-  '교육용 Routing 모델 · 실제 문서 접근 결과는 다음 구간에서 확인',
-  '검색 성능 향상이나 토큰 절약을 입증한 그림이 아님','TEACHING_MODEL',
+  '교육용 탐색 모델 · 저장된 명세 기반 재구성 · 실제 읽기 순서가 아님',
+  '자동 탐색 성공·성능 향상·토큰 절약을 입증한 그림이 아님','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{
-    text(s,'어떤 질문에서 어떤 상세 정보가 필요할까?',64,222,1152,44,32,C.teal,true);
-    const rs=[{x:64,w:310,head:'Task',body:'지금 해결할 질문'},{x:449,w:337,head:'Core Context',body:'프로젝트 안내와\n찾아갈 위치'},{x:862,w:354,head:'관련 상세 정보',body:'질문에 필요한\n계약 · 구조 · 테스트'}];
-    rs.forEach((r,i)=>{line(s,r.x,318,r.w,i===0?C.ink:C.teal,3);text(s,r.head,r.x,342,r.w,45,30,C.ink,true);text(s,r.body,r.x,418,r.w,82,28,C.sub);if(i<2)arrow(s,r.x+r.w+20,374,35,23);});
-    text(s,'C++ 예: 공통 제약을 확인한 뒤, 해당 알고리즘의 계약으로',64,552,1152,37,26,C.sub);
+    text(s,'필요한 근거까지 가는 길은 어디에 안내할까?',64,184,1152,44,30,C.teal,true);
+    text(s,'01  작업 요청',64,256,300,36,26,C.ink,true);
+    text(s,'02  기본 안내',444,256,376,36,26,C.ink,true);
+    text(s,'03  관련 상세 문서',900,256,316,36,26,C.ink,true);
+    rect(s,64,302,300,214,C.white,C.line,1.5);
+    text(s,'crop 끝 좌표가\n포함되는지\n명세를 확인해줘.',84,326,260,126,29,C.ink,true);
+    text(s,'지금 해결할 질문',84,472,260,30,23,C.sub);
+    arrow(s,386,394,30,22);
+    rect(s,444,302,376,214,C.pale,C.teal,1.5);
+    text(s,'AGENTS.md',466,317,332,38,29,C.teal,true,'Consolas');
+    text(s,'이미지 동작 · crop →',466,373,332,33,26,C.ink,true);
+    text(s,'docs/image-contracts.md',466,414,332,34,24,C.teal,true,'Consolas');
+    text(s,'관련 상세의 위치 안내',466,472,332,30,23,C.sub);
+    arrow(s,842,394,30,22);
+    rect(s,900,302,316,214,C.white,C.line,1.5);
+    text(s,'docs/\nimage-contracts.md',920,317,276,60,24,C.teal,true,'Consolas');
+    text(s,'crop 좌표 명세',920,392,276,36,28,C.ink,true);
+    text(s,'[x_start, x_end)',920,438,276,34,25,C.ink,true,'Consolas');
+    text(s,'시작 포함 · 끝 제외',920,478,276,29,23,C.sub);
+    text(s,'AGENTS.md가 필요한 상세 문서의 위치를 안내한다',64,532,1152,37,29,C.teal,true);
+    text(s,'C++도 같은 흐름: 공통 제약 확인 → 해당 알고리즘 명세',64,575,1152,29,23,C.sub);
   }),
 S41:make('S41','Core Context에서 상세 정보로 가는 길','ACT 2 · Core에 남길 기본 안내',
   '교육용 정보 설계 · Root/Core는 상세 정보의 출발점',

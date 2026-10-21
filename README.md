@@ -8,7 +8,9 @@
 
 ## 현재 상태
 
-최신 수정은 DEC-0052의 S39 연구별 과제·관찰·현재 Codex 적용 한계 도식이다. [수정 S39](production/preview/full/S39.png), [검토 기록](production/evaluation/S39_RESEARCH_SCOPE_REVISION.md).
+최신 수정은 DEC-0053의 S40 작업 요청→AGENTS.md 안내→상세 명세 탐색 도식이다. [수정 S40](production/preview/full/S40.png), [검토 기록](production/evaluation/S40_CONTEXT_PATH_REVISION.md).
+
+이전 수정은 DEC-0052의 S39 연구별 과제·관찰·현재 Codex 적용 한계 도식이다. [수정 S39](production/preview/full/S39.png), [검토 기록](production/evaluation/S39_RESEARCH_SCOPE_REVISION.md).
 
 이전 수정은 DEC-0051의 S38 기본 안내·작업별 상세·재사용 절차 도식이다. [수정 S38](production/preview/full/S38.png), [검토 기록](production/evaluation/S38_CONTEXT_MODEL_REVISION.md).
 

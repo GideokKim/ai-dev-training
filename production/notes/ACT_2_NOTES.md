@@ -1,6 +1,6 @@
 # ACT 2 — Speaker Notes
 
-Status: ALIGNED — DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 common guidance, task detail and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 S36, DEC-0047 S35 and DEC-0046 S34 remain preserved. Numbering: DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/S39_RESEARCH_SCOPE_REVISION.md. The prior addition validation remains historical. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0053 diagrams S40 task request, AGENTS.md guidance and relevant detail; DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 common guidance, task detail and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 S36, DEC-0047 S35 and DEC-0046 S34 remain preserved. Numbering: DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/S40_CONTEXT_PATH_REVISION.md. The prior addition validation remains historical. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
 
 Historical alignment status: ALIGNED — DEC-0038의 82장 번호와 운영 지침을 정렬했다. 신규 제작본의 렌더·내장 Notes 대조는 production/evaluation/PROMPT_TIMELINE_REVISION.md에서 별도로 기록한다. 기존 81장판의 PASS를 승계하지 않는다. Windows, room, account, and timed rehearsal remain UNVERIFIED.
 
@@ -389,39 +389,37 @@ Allocated Time: 3 minutes
 
 Mode Split: Lecture 3 minutes
 
-Primary Message: Context design asks what information a Task needs and when it should be available, rather than placing every detail in one place.
+Primary Message: 필요한 상세 정보의 위치를 Project 안내에서 알려줄 수 있다. 작업 요청을 보고 AGENTS.md의 안내를 거쳐 관련 문서의 명세를 확인하는 관계를 설계한다.
 
-Opening Question: “Task가 필요한 상세 정보에 도달하는 경로는 어떻게 설계할까?”
+Opening Question: “필요한 근거를 찾아 활용했는지 확인해야 한다면, 그 근거까지 가는 길은 어디에 안내할까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00) Move from the question of context amount to the question of relevance and timing.
-2. (1:00–2:00) Show `Task → Core Context → Relevant Detail when needed` as a course diagram.
-3. (2:00–3:00) Give one short C++ example and reserve STATE-03 for the next sequence. 이 장에서는 찾아가는 경로를 보았고, 다음 장에서는 그 출발점인 Core에 무엇을 남길지 정한다고 마무리한다.
+1. (0:00–0:30) S39의 연구가 현재 Codex나 Routing 효과를 입증한 것은 아님을 유지하고 정보 설계로 돌아온다. ‘많이 넣기’ 다음 질문으로 필요한 상세의 위치를 어디서 알려줄지 제시한다.
+2. (0:30–2:10) 왼쪽 교육용 crop 끝 좌표 요청을 읽고, 가운데 AGENTS.md의 ‘이미지 동작/crop은 docs/image-contracts.md 참조’ 안내를 따라 오른쪽 문서의 crop 명세를 짚는다. 화면의 `[x_start, x_end)`는 시작 열 포함·끝 좌표 제외를 뜻한다. 가운데는 위치 안내, 오른쪽은 답에 필요한 명세다. Prompt 문장과 안내 요약은 설명용 구성이며 실제 Trial 원문이나 Agent의 읽기 순서를 재현한 것이 아니다.
+3. (2:10–3:00) 하단의 ‘AGENTS.md가 필요한 상세 문서의 위치를 안내한다’를 회수한다. C++에서도 공통 제약을 확인하고 해당 알고리즘 명세로 이동하는 같은 패턴을 쓸 수 있다고 짧게 연결한다. 구체적인 CMake/hardware/IDE 명령은 넣지 않는다. 다음 장은 출발점인 Core에 무엇을 남길지 정한다고 넘긴다.
 
-화면 진행: 현재 Task 질문에서 출발해 Core의 안내를 거쳐 상세 정보로 이동한다. 이 장의 초점은 어디로 찾아갈지이며, 다음 장에서 Core에 무엇을 남길지 정한다.
+Evidence / Source: TEACHING_MODEL / CONCEPTUAL. BEAT-014, STATE-03, CLM-0003/0005/0014/0015, DEC-0053. Historical Demo tag STATE-03 at f3e2e37b1454e28c5de4c44682ebd49378ebae4b: AGENTS.md17–20의 Context Routing에서 이미지 동작/crop→docs/image-contracts.md를 안내한다. 같은 tag의 docs/image-contracts.md20–24가 half-open crop 명세를 기록한다. plan/DEMO_MATRIX.md의 STATE-03 및 TRIAL-005A/B는 후속 구조·관찰 근거다. 문서명과 명세는 보존 기록을 참조하지만 화면의 요청/안내는 요약·재구성이다. 새 Trial은 실행하지 않았다.
 
-Evidence / Source: BEAT-014, STATE-03 as the upcoming example, CLM-0003, CLM-0005, CLM-0014, CLM-0015. TEACHING_MODEL / CONCEPTUAL.
+Claim Boundary: 화살표는 설계한 문서 안내 관계다. 실제 읽기 순서, 필요한 문서만 읽는 자동 검색, 항상 같은 경로의 선택, AGENTS.md 단독 인과성을 뜻하지 않는다. TRIAL-005A/B의 접근 결과를 이 장에서 성공으로 제시하지 않는다. 현재 Codex Desktop 동작, 완벽한 Routing, 성능·정확도·속도 향상, 토큰 절약, Lost in the Middle 완화는 주장하지 않는다.
 
-Claim Boundary: This is a routing question, not evidence of performance improvement, token savings, or a product's automatic retrieval behavior.
+Beginner Explanation: 작업 요청에는 궁금한 것을 쓰고, AGENTS.md에는 어느 상세 문서를 볼지 안내한다. 구체적인 답에 필요한 규칙은 그 문서의 명세에서 확인한다.
 
-Beginner Explanation: A short starting point can direct a reader toward more detail when a Task needs it.
+Advanced Insight: 위치 안내와 상세 명세를 분리하면 발견성·유지 비용을 설계할 수 있다. 실제로 무엇을 읽고 활용했는지는 별도 관찰·검증 문제이며 이 도식만으로 성공을 보장하지 않는다.
 
-Advanced Insight: Discovery and maintenance remain design concerns; this slide does not claim perfect retrieval.
+C++ Vision Bridge: 같은 설계 패턴으로 공통 Project 제약을 확인한 뒤 해당 알고리즘 명세에 도달하는 예를 짧게 연결한다. Python Demo의 문서가 C++ 실행 근거라는 뜻이 아니며 환경 명령·도구·hardware 목록을 추가하지 않는다.
 
-C++ Vision Bridge: Distinguish a general Project constraint from a Task-specific CMake or algorithm contract. Do not list tools, hardware, or environment commands.
+Demo Operation: N/A. 하나의 native 교육용 안내 관계도다. 실제 STATE-03 문서 분리 구조와 TRIAL-005 접근 기록은 뒤 구간에 남긴다.
 
-Demo Operation: N/A — STATE-03 results are reserved for the following section.
-
-Audience Interaction: Let the routing question sit for a moment; do not reveal the Trial result.
+Audience Interaction: 작업 질문, 위치 안내, 상세 명세를 순서대로 가리켜 각자의 역할을 구분한다. 새 실습이나 토론 시간을 추가하지 않는다.
 
 Transition: “경로를 봤으니, 이제 그 출발점인 Core에 무엇을 남길지 정해보겠습니다.”
 
-Time Management: Keep this to one diagram and one brief C++ example. No product-specific implementation details.
+Time Management: 도입30초, 관계도100초, C++ 패턴과 다음 질문50초로3분을 유지한다. 시간이 부족하면 C++ 설명을 줄이고 작업 질문·안내·명세의 구분과 실제 읽기 순서가 아니라는 경계를 남긴다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S40 또는 `production/preview/act2/S40.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S40 또는 production/preview/act2/S40.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S40_CONTEXT_PATH_REVISION.md와 검증 JSON을 따른다. 실제 실행 Screenshot이나 현재 제품의 탐색 결과로 표현하지 않는다.
 
-Validation Status: REVIEWED — DEC-0030에서 승인한 화면 강조와 운영 Cue를 정렬했다. 최종 PPT/Notes/PNG 대조와 렌더 검토 결과는 production/evaluation/FULL_DECK_PRESENTATION_POLISH.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 제품·계정, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0053의 요청/AGENTS.md 안내/상세 명세 도식과 S39→S40→S41 연결을 반영했다. 최종 렌더·Notes parity는 production/evaluation/S40_CONTEXT_PATH_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S41 — Core Context에서 상세 정보로 가는 길
 

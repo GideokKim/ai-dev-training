@@ -6661,3 +6661,80 @@ YES — distinguish a study's task, finding and justified transfer to work.
 
 Verify S38-S40 continuity, readable diagrams, all90 Notes and unchanged89
 slides. Keep Windows, room, product/account and rehearsal UNVERIFIED.
+
+
+# DEC-0053 — Connect S40 requests to guidance and detail
+
+## Status
+
+ACCEPTED — explicit user request to continue S39 with a visible routing path.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S39 distinguishes research findings from a work question about evidence use.
+S40 returns to designing where a task can find relevant detailed information.
+
+## Problem
+
+The abstract Task/Core/Detail labels do not show what the request asks,
+what AGENTS.md provides or what the target document contributes.
+
+## Decision
+
+Show one native request-to-guidance-to-detail example. A crop boundary
+question connects to AGENTS.md's image-behavior reference, then to the
+half-open range specification in docs/image-contracts.md. Reconstruct the
+request and guidance summary; label the path as a teaching model rather
+than an observed reading sequence. Keep the C++ bridge at pattern level.
+Retain the title,90slides,368minutes, S40 Lecture3 and all existing budgets.
+Align the Map, template row, Notes, Full/ACT2 and current artifact identities.
+
+## Rationale
+
+The audience can distinguish the question, the document pointer and the
+relevant specification without inspecting this repository. One example
+leaves S41's Core-content decision and S42's recorded reorganization intact.
+
+## Alternatives
+
+Keep generic labels: insufficient for independent slide comprehension.
+List every detail document: adds density and repeats the following slide.
+Present the arrows as a recorded agent sequence: exceeds the evidence.
+
+## Trade-offs
+
+STATE-03 supplies actual filenames and a retained crop specification.
+The diagram and request are teaching reconstructions, not a new Trial.
+A document pointer does not prove automatic, exclusive or successful
+retrieval, measured performance benefits, token savings or causality.
+The C++ transfer is an engineering pattern, not a C++ execution result.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-002, INV-MATURITY-004,
+INV-RESEARCH-004, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S40 source, Slide Map and template row, ACT2/Full Notes, Full/ACT2 PPTX,
+previews and current handoff identities. Preserve earlier review history.
+
+## Evidence
+
+User direction; approved S40 teaching role; STATE-03 at f3e2e37, AGENTS.md
+Context Routing and docs/image-contracts.md Crop specification. The later
+TRIAL-005A/B observation stays distinct. No new Trial or Demo code change.
+
+## Training Relevance
+
+YES — separate a task question, project guidance and detailed specification.
+
+## Follow-up
+
+Review S39-S41 continuity, native diagram and Notes parity. Preserve other89
+slides and every per-slide budget. Keep Windows, room, product/account and
+rehearsal UNVERIFIED. Do not regenerate the presenter bundle.
