@@ -1,7 +1,9 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일: 2026-10-21 (Asia/Seoul). 현재 번호 기준: DEC-0043, 90장. 최신 내용 수정: DEC-0047.
-S35는 작업별 요청 예와 프로젝트 정보를 각각 테두리로 묶고 프롬프트창·AGENTS.md 문서 이미지로 화살표 연결했다. 기존 범위·수명 비교와 다른89장·시간·근거 범위를 유지했다. 검토: [S35 수정](S35_CONTEXT_PLACEMENT_REVISION.md).
+갱신일: 2026-10-21 (Asia/Seoul). 현재 번호 기준: DEC-0043, 90장. 최신 내용 수정: DEC-0048.
+S36은 프로젝트 초기/현재 프로젝트와 AGENTS.md 정보 축적 도식으로 바꿨다. 상태 번호와 줄 수·용량은 Notes·근거 문서에만 남기고 실제 정보 네 유형과 관련성 질문을 유지했다. 검토: [S36 수정](S36_CONTEXT_GROWTH_REVISION.md). 다른89장·시간·근거 범위는 보존했다.
+
+이전 S35는 작업별 요청 예와 프로젝트 정보를 각각 테두리로 묶고 프롬프트창·AGENTS.md 문서 이미지로 화살표 연결했다. 기존 범위·수명 비교와 다른89장·시간·근거 범위를 유지했다. 검토: [S35 수정](S35_CONTEXT_PLACEMENT_REVISION.md).
 
 이전 S34는 실제 요청을 Prompt 창으로 표시하고 테스트 명령 미포함 설명을 창 밖 주석으로 분리했다. AGENTS.md의 테스트 지침을 실제 사용한 관찰을 강조한다. 검토: [S34 수정](S34_GUIDANCE_REVISION.md). 다른89장과 시간·근거 범위를 유지했다.
 
@@ -39,15 +41,15 @@ S01–10은 내용·번호·시간을 보존한다. 과거 Codex 진입·S10 검
 
 ## 2. 정확한 현재 후보
 
-아래 hash는 DEC-0047의 실제90장 파일에서 계산했다. S35 예시/화살표/전달·저장 위치, Full/ACT2 최종 렌더와90개 내장 Notes 대조는 `S35_CONTEXT_PLACEMENT_REVISION.md`에 기록한다. 다른89장은 보존했다. 이전 사용 라벨·S17·기법8장 추가 기록은 당시 판본의 이력이다. 실환경 검증은 포함하지 않는다.
+아래 hash는 DEC-0048의 실제90장 파일에서 계산했다. S36의 시점·정보 축적·관련성 질문, Full/ACT2 최종 렌더와90개 내장 Notes 대조는 `S36_CONTEXT_GROWTH_REVISION.md`에 기록한다. 다른89장은 보존했다. 이전 사용 라벨·S17·기법8장 추가 기록은 당시 판본의 이력이다. 실환경 검증은 포함하지 않는다.
 
 | 항목 | 경로 / SHA-256 |
 |---|---|
 | 통합 PPT | `production/AI_Dev_Training_Full.pptx` |
-| PPT SHA-256 | `32f29f3450193a43832439e1a7f1609eb423ab60fd0c29cbadbb2036803f97c3` |
+| PPT SHA-256 | `e8e68ea3ca590c8540868a760f794daf4423d7a265d2f0d196a567b8cb06e475` |
 | 통합 Notes | `production/notes/FULL_SPEAKER_NOTES.md` |
-| Notes SHA-256 | `b63ec536ebdc82e24f8ef02078046e508e08fcf7d0bca4a9d7ec5d899cd20d7b` |
-| 전체 montage SHA-256 | `3bd40d4c154dcb422c9bb73d978fdbc3b827dfcd83b95c691878724c7fcfe616` |
+| Notes SHA-256 | `c45463bb9ffb3c6ff70877d8a54efd26c7ac736e1b696bf444d8714e9dfde002` |
+| 전체 montage SHA-256 | `3a751c4a6cffdd2c33ca661d4b8132847e08fd771f38e4692fdae63b116e67ee` |
 | 묶음별 파일 목록·크기·SHA-256 | 저장소의 `delivery/PACKAGE_MANIFEST.json`; ZIP 내부의 `PACKAGE_MANIFEST.json` |
 | ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-21.zip.sha256` |
 
@@ -123,6 +125,7 @@ S18 검토용 결과 인계, S19 계약 위반을 구별하는 검사를 기존 
 
 | 항목 | 현재 상태 | 필요한 다음 근거 |
 |---|---|---|
+| DEC-0048 S36 시점·정보 축적 도식 | COMPLETE, 로컬 범위 | S36_CONTEXT_GROWTH_REVISION.md 및 검증 JSON |
 | DEC-0047 S35 예시·대상 이미지·화살표 연결 | COMPLETE, 로컬 범위 | S35_CONTEXT_PLACEMENT_REVISION.md 및 검증 JSON |
 | DEC-0046 S34 요청/주석 구분·지침 사용 관찰 | COMPLETE, 로컬 범위 | S34_GUIDANCE_REVISION.md 및 검증 JSON |
 | 이전 DEC-0045 사용 상황 라벨·82장 보존 | COMPLETE, 당시 로컬 범위 | PROMPT_USAGE_LABEL_REVISION.md 및 검증 JSON |
@@ -149,7 +152,8 @@ S82: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
 
 ## 6. 근거와 이력
 
-- [현재 S35 요청/Context 위치 연결](S35_CONTEXT_PLACEMENT_REVISION.md)
+- [현재 S36 프로젝트 진행·정보 축적](S36_CONTEXT_GROWTH_REVISION.md)
+- [이전 S35 요청/Context 위치 연결](S35_CONTEXT_PLACEMENT_REVISION.md)
 - [이전 S34 요청/주석 구분·지침 사용 관찰](S34_GUIDANCE_REVISION.md)
 
 - [현재 사용 상황 라벨 수정](PROMPT_USAGE_LABEL_REVISION.md)

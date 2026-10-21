@@ -1,0 +1,47 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-21",
+  "decision": "DEC-0048",
+  "baseline": "e24ce4a",
+  "changedSlide": "S36",
+  "slideCount": 90,
+  "totalMinutes": 368,
+  "act2Slides": 15,
+  "act2Minutes": 70,
+  "S36Minutes": 4,
+  "S36Mode": "Case",
+  "nativeProgressionArrow": 1,
+  "generatedIllustrations": 1,
+  "audienceFacingPhases": true,
+  "visibleStateIds": false,
+  "visibleSizeMetrics": false,
+  "elapsedDurationClaim": false,
+  "actualDocumentScreenshot": false,
+  "unchangedOtherSlidePngs": 89,
+  "unchangedOtherNotesRecords": 89,
+  "fullAct2PngParity": 15,
+  "notesRecords": 90,
+  "fieldsPerNotes": 19,
+  "renderedSlidePngs": 105,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 90,
+      "sha256": "e8e68ea3ca590c8540868a760f794daf4423d7a265d2f0d196a567b8cb06e475"
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slideCount": 15,
+      "sha256": "37a327c2d19f68a1ac1becf59505c2e1657b8ee749a673b1f75bedd6fbf225ac"
+    }
+  ],
+  "fullPptSha256": "e8e68ea3ca590c8540868a760f794daf4423d7a265d2f0d196a567b8cb06e475",
+  "fullNotesSha256": "c45463bb9ffb3c6ff70877d8a54efd26c7ac736e1b696bf444d8714e9dfde002",
+  "fullMontageSha256": "3a751c4a6cffdd2c33ca661d4b8132847e08fd771f38e4692fdae63b116e67ee",
+  "otherActPackagesUnchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "presenterBundleRegenerated": false,
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED"
+}

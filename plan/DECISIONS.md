@@ -6292,3 +6292,75 @@ YES — show the relationship between information scope and its placement.
 
 Review the exact-package S35 render and S34-S36 continuity. Preserve other89
 slide images and Notes. Keep Windows, room and rehearsal UNVERIFIED.
+
+
+# DEC-0048 — Show S36 Context growth in audience-facing project phases
+
+## Status
+
+ACCEPTED — explicit user feedback on S36 comprehension and growth visuals.
+
+## Date
+
+2026-10-21
+
+## Context
+
+The audience sees the slides without browsing the repository. STATE labels
+and line/byte counts did not explain the growth of project guidance.
+
+## Problem
+
+Show accumulated AGENTS.md information over project progression while
+retaining the two recorded states and the limits of that evidence.
+
+## Decision
+
+Label the two document phases as project beginning and current project.
+Connect them with project progression. Use a generated illustration of
+one same-width document with gray retained information and teal additions.
+Remove visible State IDs and size metrics. Keep the four actual added
+information types, the relevance question and the four-minute Case budget.
+Current project means the Story stage represented by STATE-02, not current
+Demo HEAD. Preserve State IDs and exact size metadata in Notes and sources.
+
+## Rationale
+
+The phase labels work without repository knowledge. Added sections show
+accumulation directly without treating file size as a performance metric.
+
+## Alternatives
+
+Keep State labels and explain them: unnecessary audience overhead.
+Show a numeric size chart: not the requested qualitative presentation.
+Claim a long measured period: unsupported by the retained records.
+
+## Trade-offs
+
+The document illustration conveys qualitative growth, not an exact ratio
+or an actual screenshot. Its simplified lines do not reproduce source text.
+Native headings, examples and the time-flow arrow remain editable.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-002, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S36 active source, illustration and provenance, Slide Map, ACT2/Full Notes,
+Full/ACT2 PPTX, previews and current handoff identities.
+
+## Evidence
+
+User instruction, STATE-01/STATE-02 AGENTS.md and DEMO_MATRIX. No new Trial,
+elapsed-time measurement, performance result or Demo repository change.
+
+## Training Relevance
+
+YES — accumulated information raises the next question of Task relevance.
+
+## Follow-up
+
+Review S35-S37 continuity and exact-package renders. Preserve other89 slides,
+all time/Mode allocations and the boundary that growth did not prove failure.
+Keep Windows, room, product/account and rehearsal UNVERIFIED.

@@ -8,7 +8,9 @@
 
 ## 현재 상태
 
-최신 수정은 DEC-0047의 S35 예시 테두리·프롬프트창/AGENTS.md 문서·화살표 연결이다. [수정 S35](production/preview/full/S35.png), [검토 기록](production/evaluation/S35_CONTEXT_PLACEMENT_REVISION.md).
+최신 수정은 DEC-0048의 S36 프로젝트 초기/현재 프로젝트 비교와 AGENTS.md 정보 축적 도식이다. [수정 S36](production/preview/full/S36.png), [검토 기록](production/evaluation/S36_CONTEXT_GROWTH_REVISION.md).
+
+이전 수정은 DEC-0047의 S35 예시 테두리·프롬프트창/AGENTS.md 문서·화살표 연결이다. [수정 S35](production/preview/full/S35.png), [검토 기록](production/evaluation/S35_CONTEXT_PLACEMENT_REVISION.md).
 
 이전 수정은 DEC-0046의 S34 요청/주석 분리·지침 사용 관찰 강조다. [수정 S34](production/preview/full/S34.png), [검토 기록](production/evaluation/S34_GUIDANCE_REVISION.md).
 

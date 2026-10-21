@@ -34,6 +34,12 @@ illustrations. Assets and prompts live in
 `assets/slide-illustrations/task-context/`. Rebuild Full and ACT2 only.
 Preserve the other89 slides, Notes records and all per-slide budgets.
 
+DEC-0048 updates S36 in `act23.mjs`: audience-facing project phases and
+qualitative document growth replace State IDs and visible size metrics.
+The original State mapping and counts remain in Notes and source records.
+Asset and prompt: `assets/slide-illustrations/context-growth/README.md`.
+Rebuild Full and ACT2 only, preserving other89 slides and all budgets.
+
 ## Historical implementation notes
 
 # Presentation revision source

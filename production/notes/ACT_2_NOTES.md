@@ -1,6 +1,6 @@
 # ACT 2 — Speaker Notes
 
-Status: ALIGNED — DEC-0047 connects S35 task examples to a prompt-window illustration and reusable project facts to an AGENTS.md illustration; DEC-0046 S34 remains preserved. Numbering: DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/S35_CONTEXT_PLACEMENT_REVISION.md. The prior addition validation remains historical. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0048 visualizes S36 document growth with audience-facing project phases; DEC-0047 S35 and DEC-0046 S34 remain preserved. Numbering: DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/S36_CONTEXT_GROWTH_REVISION.md. The prior addition validation remains historical. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
 
 Historical alignment status: ALIGNED — DEC-0038의 82장 번호와 운영 지침을 정렬했다. 신규 제작본의 렌더·내장 Notes 대조는 production/evaluation/PROMPT_TIMELINE_REVISION.md에서 별도로 기록한다. 기존 81장판의 PASS를 승계하지 않는다. Windows, room, account, and timed rehearsal remain UNVERIFIED.
 
@@ -203,19 +203,22 @@ Allocated Time: 4 minutes
 
 Mode Split: Case 4 minutes
 
-Primary Message: STATE-02 grew from 15 lines / 567 bytes to 32 lines / 1,303 bytes as the Project recorded more details; growth alone is not evidence of failure.
+Primary Message: 프로젝트가 진행되며 AGENTS.md에 필요한 정보가 더해졌다. 정보가 늘어난 사실 자체를 실패로 판단하지 않고 이번 Task에서 모두 필요한지 묻는다.
 
 Opening Question: “정확한 Project 정보라면 모든 Task에 늘 넣어도 될까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) STATE-01의 목적·실행·테스트·기본 제약에서 출발한다. 15줄/567 bytes와 32줄/1,303 bytes는 상태를 식별하는 크기 정보다.
-2. (1:00–3:00) STATE-02에 더해진 처리 순서, 이미지 계약, 테스트 구조, CLI 출력의 실제 항목을 가리킨다. 처리 순서의 말줄임표는 선택적 invert/crop/resize 등의 중간 단계를 생략했다는 뜻이다.
-3. (3:00–4:00) 크기 자체의 성능 의미를 부여하지 않고 ‘이번 Task에도 필요할까?’로 다음 장을 연다.
+1. (0:00–1:00) 왼쪽 ‘프로젝트 초기’와 짧은 AGENTS.md를 가리킨다. 목적·실행·테스트·기본 제약처럼 처음의 공통 안내가 담겨 있었다. 저장소 State 번호나 줄 수를 외우게 하지 않는다.
+2. (1:00–2:00) ‘프로젝트 진행’ 화살표를 따라 오른쪽 ‘현재 프로젝트’로 이동한다. 같은 폭의 문서에 기존 회색 정보가 남고 아래 청록색 정보가 더해진 모습을 짚는다. ‘현재’는 이야기의 이 시점이며 Demo HEAD라는 뜻이 아니다. 날짜·몇 달 등 경과 기간이나 자연 증가율은 말하지 않는다.
+3. (2:00–3:00) 새로 기록한 실제 정보 네 가지를 확인한다. 처리 순서는 load → normalize → 선택적 invert/crop/resize → write이고, 화면은 중간 단계를 생략했다. 이미지 명세는 crop의 반열린 범위 [x_start, x_end) 등이며, 테스트 구조는 tests/test_pipeline.py 등의 모듈·입출력 검사다. CLI 출력은 width/height/pixel_count/minimum/maximum/mean 필드다. 화면에서 코드·경로 전체를 해설하지 않는다.
+4. (3:00–4:00) ‘이번 작업에도 모두 필요할까?’를 질문한다. 정확한 정보가 추가됐지만 증가 자체가 Agent 오류를 일으켰다는 관찰은 아니다. S37의 작은 README 작업에서 관련성을 확인한다.
 
-Evidence / Source: STATE-01 and STATE-02, BEAT-011, CLM-0014, CLM-0015. OBSERVED_PRODUCT; counts describe these recorded states only.
+화면 진행: 초기 문서 → 프로젝트 진행 → 길어진 같은 문서 → 새 정보 네 유형 → 이번 Task의 관련성 질문. 문서 길이는 정보 축적의 생성 도식이며 실제 스크린샷이나 정확한 비율 비교가 아니다.
 
-Claim Boundary: Do not label the growth as a failure threshold, claim that it caused an error, or imply that the content was inaccurate.
+Evidence / Source: STATE-01 and STATE-02, BEAT-011, CLM-0014, CLM-0015, DEC-0048. OBSERVED_PRODUCT: 실제 AGENTS.md 전후 내용은 plan/DEMO_MATRIX.md와 보존 State tag를 따른다. 원본 메타데이터는15줄/567bytes와32줄/1,303bytes이며 화면에는 표시하지 않는다. STATE-02는55c045523ed1409449d7eea5b0d873983fe101b6이다. 생성 도식·프롬프트: assets/slide-illustrations/context-growth/README.md.
+
+Claim Boundary: Do not label the growth as a failure threshold, claim that it caused an error, or imply that the content was inaccurate. The visual summarizes recorded document changes; its length is qualitative, no elapsed duration was measured, and current project means this Story stage, not the latest repository HEAD. It is a generated teaching diagram, not a document capture.
 
 Beginner Explanation: More documented facts create a follow-up question: does each Task need all of them?
 
@@ -223,17 +226,17 @@ Advanced Insight: Maintenance cost and stale information are review consideratio
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: Use the two recorded state summaries; no live repository interaction is planned.
+Demo Operation: Use the static before/after document-content reconstruction. No live repository interaction, new Trial or elapsed-time experiment is planned.
 
 Audience Interaction: Treat the slide as a case question. Allow a short pause without requiring a public answer.
 
 Transition: “작은 README Task에서 어떤 정보가 실제로 필요했을까?”
 
-Time Management: 크기 식별은 짧게 끝내고 추가된 실제 정보 네 항목에 시간을 쓴다. 마지막 1분에는 관련성 질문으로 이동하며 문서 크기의 인과 효과를 만들지 않는다.
+Time Management: 초기 안내1분, 프로젝트 진행과 누적 모습1분, 새 정보 네 유형1분, 관련성 질문1분으로 Case4분을 유지한다. 숫자·용량 해설과 기간 추측을 하지 않고 문서 크기의 인과 효과를 만들지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S36 또는 `production/preview/act2/S36.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S36 또는 production/preview/act2/S36.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S36_CONTEXT_GROWTH_REVISION.md와 검증 JSON을 따른다. 실제 문서 캡처나 현재 제품 실행으로 표현하지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0048의 청중용 시점 이름과 AGENTS.md 정보 축적 도식을 반영했다. 최종 렌더·Notes parity는 production/evaluation/S36_CONTEXT_GROWTH_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S37 — 정확하지만 이번 Task에는 불필요한 정보
 

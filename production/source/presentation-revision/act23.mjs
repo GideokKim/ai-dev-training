@@ -1,4 +1,6 @@
 // ACT 2–3 presentation revision. S33 and S55 use the approved pilot.
+import {readFileSync} from 'node:fs';
+const contextGrowthImage=new Uint8Array(readFileSync(new URL('../../../assets/slide-illustrations/context-growth/agents-growth.png',import.meta.url)));
 const make=(id,title,act,source,boundary,type,draw)=>(p,H)=>{
   const s=H.frame(p,id,title,act,source,boundary,type);
   draw(s,H);
@@ -61,18 +63,24 @@ S35:make('S35','Task Prompt와 Project Context','ACT 2 · 정보의 범위와 �
   }),
 
 S36:make('S36','정확한 정보도 계속 늘어난다','ACT 2 · Context가 쌓이는 과정',
-  'STATE-01 → STATE-02 · 실제 AGENTS.md 상태 비교',
-  '문서 크기는 상태 식별 정보 · Context 증가가 실패를 일으켰다는 근거는 아님','OBSERVED_PRODUCT',
-  (s,{C,text,rect,line,arrow})=>{
-    text(s,'STATE-01',64,231,310,34,24,C.sub,true,'Consolas');
-    text(s,'목적 · 실행 · 테스트\n기본 제약',64,283,310,98,31,C.ink,true);
-    text(s,'15줄 · 567 bytes',64,414,310,36,25,C.sub);
-    arrow(s,388,323,50,27);
-    text(s,'STATE-02에 추가된 실제 정보',484,231,732,38,29,C.teal,true);
-    const rows=[['처리 순서','load → normalize → … → write'],['이미지 계약','crop: [x_start, x_end)'],['테스트 구조','tests/test_pipeline.py'],['CLI 출력','width · height · pixel_count …']];
-    rows.forEach((r,i)=>{const y=288+i*57;line(s,484,y,732);text(s,r[0],484,y+10,192,37,25,C.teal,true);text(s,r[1],715,y+10,501,37,25,C.ink,false,'Consolas');});
-    text(s,'32줄 · 1,303 bytes',484,532,732,35,25,C.sub);
-    text(s,'이번 Task에도 필요할까?',64,548,390,40,28,C.teal,true);
+  '실제 AGENTS.md 전후 내용을 바탕으로 재구성 · 문서는 교육용 생성 도식',
+  '이야기 속 두 시점 비교 · 정보 증가가 실패를 일으켰다는 관찰은 아님','OBSERVED_PRODUCT',
+  (s,{C,text,line,arrow,CODE})=>{
+    text(s,'프로젝트 초기',64,197,300,43,31,C.sub,true);
+    text(s,'현재 프로젝트',428,197,350,43,31,C.teal,true);
+    s.images.add({blob:contextGrowthImage,contentType:'image/png',fit:'contain',
+      alt:'교육용 생성 도식. 같은 폭의 초기 AGENTS.md와 기존 회색 정보 아래 청록색 새 정보가 늘어난 문서를 비교한다. 실제 문서 캡처나 정량 비교가 아님.',
+      position:{left:64,top:238,width:554,height:342},
+      crop:{left:317/1942,right:312/1942,top:0,bottom:0}});
+    text(s,'AGENTS.md',84,301,155,28,22,C.ink,true,CODE,'center');
+    text(s,'AGENTS.md',449,301,155,28,22,C.ink,true,CODE,'center');
+    text(s,'프로젝트 진행',270,344,150,30,23,C.sub,true,undefined,'center');
+    arrow(s,307,389,68,28);
+    text(s,'목적 · 실행 · 테스트\n기본 제약',64,475,320,84,27,C.ink,true);
+    text(s,'새로 기록한 정보',744,266,472,39,28,C.teal,true);
+    const rows=[['처리 순서','load → … → write'],['이미지 명세','crop의 경계 규칙'],['테스트 구조','모듈별 · 입출력 검사'],['CLI 출력','크기 · 통계 필드']];
+    rows.forEach((r,i)=>{const y=321+i*55;line(s,744,y,472);text(s,r[0],744,y+8,164,37,25,C.teal,true);text(s,r[1],926,y+8,290,37,24,C.ink);});
+    text(s,'이번 작업에도 모두 필요할까?',744,553,472,39,28,C.teal,true);
   }),
 
 S37:make('S37','정확하지만 이번 Task에는 불필요한 정보','ACT 2 · 관련성을 확인하기',

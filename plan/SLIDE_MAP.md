@@ -945,15 +945,15 @@ ACT별 Mode 대조:
 - **ACT:** ACT 2
 - **Section:** 2D
 - **Working Title:** 정확한 정보도 계속 늘어난다
-- **Primary Role:** STATE-01에서 STATE-02로의 Context 증가를 보여준다.
+- **Primary Role:** 프로젝트 초기에서 이야기의 현재 시점까지 AGENTS.md에 정보가 누적된 모습을 보여준다. 내부 근거 연결은 STATE-01/STATE-02를 유지한다.
 - **Audience Question:** “정확한 Project 정보라면 모든 Task에 늘 넣어도 될까?”
 - **Core Message:** Context가 늘어난 사실만으로 실패를 뜻하지 않는다. 다음 질문은 각 Task에서의 관련성이다.
 - **Story Beat:** BEAT-011 — Context accumulates as Project needs grow
 - **Curriculum Trace:** ACT 2 — context accumulation and growth scenario.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT STATE.
-- **Visual Concept:** `15 lines / 567 bytes → 32 lines / 1,303 bytes`; 처리 순서, 이미지 계약, Test 구조, CLI 필드처럼 추가된 정보 유형을 보여준다.
-- **Demo / Case Connection:** STATE-01과 STATE-02의 실제 repository 상태 비교. 숫자는 상태 식별용이며 실패 임계치로 표현하지 않는다.
+- **Visual Concept:** 화면의 두 시점을 ‘프로젝트 초기’와 ‘현재 프로젝트’로 표시한다. 같은 폭의 짧은/길어진 AGENTS.md 생성 도식과 ‘프로젝트 진행’ 화살표로 정보 축적을 보여준다. 기존 정보는 회색, 추가 정보는 청록색이다. 오른쪽에 처리 순서·이미지 명세·테스트 구조·CLI 출력을 요약하고 관련성 질문으로 끝낸다. STATE ID·줄 수·byte 수·경과 기간은 화면에 표시하지 않는다. 길이와 색은 설명용이며 실제 문서 캡처·정량 그래프가 아니다.
+- **Demo / Case Connection:** STATE-01과 STATE-02의 실제 AGENTS.md 내용 비교를 청중용 시간 흐름으로 재구성한다. ‘현재’는 이 Story 시점이며 Demo 저장소의 최신 HEAD가 아니다. 기간 측정이나 장기 운영을 관찰한 기록으로 표현하지 않는다. 원본 줄 수·용량은 Notes·근거 문서에만 보존한다.
 - **Beginner Payoff:** 늘어난 내용 자체보다 이번 일에 필요한지를 묻는다.
 - **Advanced Payoff:** 유지 비용, 오래된 정보, 범위 혼합 가능성을 검토한다.
 - **C++ Vision Bridge:** 없음.
@@ -961,7 +961,7 @@ ACT별 Mode 대조:
 - **Transition:** Slide 37에서 작은 문서 Task가 실제로 어떤 정보를 필요로 했는지 본다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
-- **Evidence / Decision References:** BEAT-011, STATE-01, STATE-02, CLM-0014, CLM-0015
+- **Evidence / Decision References:** BEAT-011, STATE-01, STATE-02, CLM-0014, CLM-0015, DEC-0048
 
 #### S37 — 정확하지만 이번 Task에는 불필요한 정보
 
