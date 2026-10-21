@@ -49,7 +49,7 @@ ACT 0/1과 통합 Notes의 네 레코드를 정렬했다. 80개 레코드와 19�
 선택 참고로 명시하고 큰 Engineering Pattern 전이는 S53에 유지한다.
 
 Slide Map은 네 장의 Core Message·Visual Concept·Speaker Intent에 보강 내용을
-덧붙였다. ID·Title·Section·Beat/Demo·Evidence Type·시간·Mode·Transition은 유지했다.
+덧붙이고, S18/S19의 C++ Vision Bridge를 Notes의 선택 참고로 정렬했다. ID·Title·Section·Beat/Demo·Evidence Type·시간·Mode·Transition은 유지했다.
 Visual Spec은 기존 본문을 보존하고 사용자 승인 M footer 규칙만 덧붙였다.
 MASTER_PLAN·INVARIANTS·CLAIM_FREEZE·CURRICULUM·Template Mapping·Story Beats는
 baseline과 동일하다. 보완 전 [Legacy 대조 감사](LEGACY_M1_M9_COVERAGE_AUDIT.md)는

@@ -519,7 +519,7 @@ ACT별 Mode 대조:
 - **Demo / Case Connection:** Trial에서 실제 수행한 확인과 성능 주장을 위한 조건부 benchmark를 구분한다.
 - **Beginner Payoff:** 코드가 나왔다는 사실만으로 완료라고 판단하지 않는다.
 - **Advanced Payoff:** 주장에 맞는 검증 근거를 선택한다.
-- **C++ Vision Bridge:** Slide 19의 검증 범위 inset에서 다룬다.
+- **C++ Vision Bridge:** S19 Notes의 선택적 C++ 검증 범위 참고로 연결한다. S19 화면 inset은 계약 비교로 대체했으며 주요 Engineering Pattern 전이는 S53에서 유지한다.
 - **Speaker Intent:** 모든 작업에 모든 검사를 요구하지 않고, 주장과 위험에 맞는 확인을 연결한다. 기존 Lecture 3분 안에서 결과 인계 예시에 90초를 사용하고, 조건부 성능 측정과 S19의 확인 범위 질문을 보존한다.
 - **Transition:** Slide 19에서 각 Check가 뒷받침하는 범위를 비교한다.
 - **Estimated Time:** 3분
@@ -543,7 +543,7 @@ ACT별 Mode 대조:
 - **Demo / Case Connection:** TRIAL-002의 tests, CLI smoke, diff 확인을 실제 예로 두고, benchmark는 필요한 경우의 예로 표시한다.
 - **Beginner Payoff:** 검사 결과가 무엇을 말해주는지 과장하지 않는다.
 - **Advanced Payoff:** C++ 프로젝트에는 GoogleTest/CTest, Release build, Google Benchmark/profiler, public API/ABI 확인 등을 상황에 맞게 연결할 수 있다.
-- **C++ Vision Bridge:** 위 예시를 짧은 inset으로 둔다. Python Demo를 C++ 도구 설명으로 전환하지 않는다.
+- **C++ Vision Bridge:** Notes 전용 선택 참고로 Release build·API/ABI·대상 입력의 검증 범위를 연결한다. 화면의 C++ inset은 crop 계약 비교로 대체하며, Python Demo를 C++ 도구 강의로 전환하지 않는다.
 - **Speaker Intent:** 도구 이름보다 `Goal → Constraint → Verification`의 전이를 강조한다. Lecture 4분 중 90초를 검사가 계약 위반을 구별하는지 해설하는 데 쓰고 Reflection 1분을 보존한다. 비어 있지 않음 검사를 항상 무의미하다고 부르거나 한 기대값 비교로 모든 입력의 정확성을 보장하지 않는다.
 - **Transition:** “방금 정한 테스트 명령과 보존 조건은 다음 작업에도 필요할 수 있습니다. 이 설명을 매번 다시 적어야 할까요?”라고 검증 지침의 재사용에서 S20의 정보 수명 질문으로 연결한다.
 - **Estimated Time:** 5분
