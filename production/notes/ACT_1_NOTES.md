@@ -1,6 +1,6 @@
 # ACT 1 — Speaker Notes
 
-Status: ALIGNED — DEC-0043 adds eight practical method slides after S21. Current ACT1 S11–S31 has21slides/63minutes; total90slides/368minutes. All original slide allocations and claims are preserved. Exact-package/render/Notes review is recorded in production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Windows/room/product/rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0044 refines S17 request-to-observation evidence; DEC-0043 adds eight practical method slides after S21. Current ACT1 S11–S31 has21slides/63minutes; total90slides/368minutes. All original slide allocations and claims are preserved. Latest exact-package/render/Notes review: production/evaluation/S17_REQUEST_ACTION_REVISION.md. The prior addition result is historical. Windows/room/product/rehearsal remain UNVERIFIED.
 
 Validation history: 이전 제작본의 local Mac Keynote 렌더·구조 검토 기록은 Git history와 기존 ACT 평가 문서에 보존한다. 이전 제작본의 PASS를 새 수정본의 검증 완료로 승계하지 않는다.
 
@@ -275,11 +275,11 @@ Fallback: 정적 기본 경로 — `production/ACT_1.pptx` S16 또는 `productio
 
 Validation Status: ALIGNED — DEC-0042의 요청 설계·사례 연결·쉬운 용어를 정렬했다. 최종 PPT·내장 Notes·렌더 검토는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
-## S17 — 먼저 무엇을 하는지 보자
+## S17 — 요청한 과정은 기록에도 남았을까?
 
 Slide ID: S17
 
-Working Title: 먼저 무엇을 하는지 보자
+Working Title: 요청한 과정은 기록에도 남았을까?
 
 ACT / Section: ACT 1 / 1D
 
@@ -287,37 +287,40 @@ Allocated Time: 2 minutes
 
 Mode Split: Lecture 2 minutes
 
-Primary Message: 이 한 번의 관찰에서는 재현, 조사, 계획, 수정, 검증 순서를 확인할 수 있다.
+Primary Message: 실제 요청과 관찰 기록을 대응시켜, 부탁한 작업 과정이 어디에 나타났는지 확인한다.
 
-Opening Question: “실제로 전달한 Process·Verification 지시와 기록된 행동이 연결되는가?”
+Opening Question: “실제로 요청한 재현·조사·수정 전 계획은 기록에 어떻게 남았을까?”
 
 Speaker Flow:
 
-1. (0:00–0:30) “여기까지는 교육용 요청 예시였다. 이제 실제로 전달한 지시와 기록된 작업 과정을 보겠다”고 S16과 구분한다. 좌측은 TRIAL-002 실제 Prompt의 핵심 지시 발췌·번역이며 당시 입력창 Screenshot이나 전체 원문이 아니다.
-2. (0:30–1:35) 좌측 01–05와 우측 같은 번호를 순서대로 짚는다. Process의 먼저 실패 재현, 관련 구현·호출 경로 조사, 수정 전 짧은 계획 알림과 승인 대기 없이 계속, 필요한 코드만 변경이 관찰 기준이다. Verification은 관련 테스트 묶음·프로젝트 전체 테스트, 가능한 CLI 샘플 실행, 변경 내용 확인과 정확한 근거 보고다. 절차 자체를 새로 가르치기보다 요청한 내용과 외부 행동을 대응시킬 기준으로 읽는다. 아직 결과·통과 수치는 공개하지 않는다.
-3. (1:35–2:00) 조사·보존 조건·최소 변경 요청이 실제 diff와 어떻게 연결됐는지 S18에서 확인하겠다고 넘긴다. 번호 대응이 내부 사고나 Prompt 단독 인과성의 증거는 아니라고 구분한다.
+1. (0:00–0:15) S16은 교육용 요청 예시였고, 이제 별도의 실제 TRIAL-002 요청과 관찰 기록을 대조한다고 구분한다. 좌측은 실제 핵심 지시 발췌·번역, 우측은 관찰 기록 요약이다. 터미널 캡처나 계획 발언 원문으로 소개하지 않는다.
+2. (0:15–0:45 / 01) “먼저 실패를 재현”하라는 지시 옆에서 실패 crop 테스트를 찾아 재현했다는 Trial 기록을 확인한다. 화면의 test_crop_excludes_end_coordinate는 TRIAL-001 및 STATE-00 테스트 코드로 식별한 대상이다. TRIAL-002 원문 실패 로그가 남아 있다는 뜻이 아니다. 재현 명령·실패 출력이나 원자료에 없는 수치를 만들지 않는다.
+3. (0:45–1:10 / 02) 관련 구현과 호출 경로 조사 지시를, CLI-to-pipeline-to-crop을 확인했다는 관찰과 대응시킨다. cli.main / pipeline.process_image / transform.crop는 실제 제품의 호출 관계이며 Agent의 파일 읽기 순서나 내부 사고 경로가 아니다.
+4. (1:10–1:40 / 03) 편집 전에 짧은 계획을 알리라는 지시와, 파일 변경 이벤트보다 앞서 끝 좌표 명세·기존 테스트·API 보존 계획을 보고했다는 기록을 대조한다. 실제 Prompt는 계획 뒤 승인 대기 없이 계속하라고 했으므로 승인 대기를 새 절차로 추가하지 않는다. 계획 발언 원문과 원시 이벤트 시각은 미확인이라 당시 발언을 따옴표로 만들어 보여주지 않는다.
+5. (1:40–2:00) 화면 하단의 04 최소 수정 내용은 S18, 05 확인·보고 결과는 S19로 남겼음을 가리킨다. “그 조사와 계획 뒤 실제로 무엇을 바꿨을까요?”로 넘어간다. 여기서는 slice diff·너비 변화·테스트 통과 수치를 설명하지 않는다.
 
-Evidence / Source: BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039. OBSERVED_PRODUCT; one historical Codex CLI run only. Actual Prompt and visible actions: `plan/DEMO_MATRIX.md`, TRIAL-002 / Prompt used, Investigation and visible plan checkpoint, Implementation, Verification. 좌측은 핵심 지시의 발췌·번역이며 S16의 교육용 Prompt가 아니다. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
+Evidence / Source: OBSERVED_PRODUCT. plan/DEMO_MATRIX.md의 TRIAL-002 / Prompt used(395–413행), Investigation and visible plan checkpoint(415–420행)가 실제 요청과 관찰 요약의 근거다. 정확한 테스트명·호출 기호는 같은 문서 TRIAL-001(330–332행) 및 ai-dev-training-demo의 STATE-00 tests/test_transform.py11, src/graypipe/cli.py, src/graypipe/pipeline.py, src/graypipe/transform.py를 읽기 전용으로 대조했다. 행 번호는 DEC-0044 작성 시점의 locator다. DEC-0044는 교육 표현 수정이며 새 실험 근거가 아니다.
 
-Claim Boundary: TRIAL-002는 2026-09-28 macOS Codex CLI 0.154.0의 단일 실행 기록이다. 핵심 지시와 기록에서 관찰한 외부 행동을 대응시킨다. 내부 사고, 지시의 단독 인과성, 결정론적 준수, Prompt 우월성, Desktop, 계정, 반복성 또는 다른 모델을 증명하지 않는다. 지면에서 생략한 상태 태그·격리·미커밋 보존 등 전체 제약은 원본 Prompt에 유지한다.
+Claim Boundary: TRIAL-002는2026-09-28 macOS Codex CLI0.154.0의 단일 실행이다. 우측은 보존된 관찰 요약이며 최초 재현 명령 원문·실패 출력 원문·계획 발언 원문·원시 CLI 이벤트 파일/시각은 미확인이다. Verification 절의 명령을 최초 재현 명령으로 옮기지 않는다. 대상 코드 식별자를 원문 로그 발췌로 표현하지 않는다. S16 예시의 실행 결과, Prompt 단독 효과·우월성·결정론적 준수·반복성·현재 Desktop/계정·다른 모델의 근거로 확대하지 않는다. 상태 태그·격리·미커밋 보존 등 전체 제약은 원본 Prompt에 유지한다.
 
-Beginner Explanation: 왼쪽 지시와 같은 번호의 외부 행동을 대조한다. 여기서 조사·확인은 새 절차 수업이 아니라 실제 요청의 Process·Verification을 확인할 기준이다.
+Beginner Explanation: 왼쪽은 실제로 무엇을 해 달라고 했는지, 오른쪽은 남아 있는 기록으로 무엇을 확인할 수 있는지다. 같은 단어를 되풀이하지 않고 테스트 대상, 제품 호출 경로, 수정 전 보고의 외부 근거를 찾는다.
 
-Advanced Insight: Compare requested instructions with observable recorded events. Matching the two does not expose hidden reasoning or establish Prompt-only causality.
+Advanced Insight: Compare instructions with documented observation summaries. A recorded correspondence supports this single run; it neither reveals hidden reasoning nor isolates prompt causality. Preserve the distinction between a documented observation summary and a raw event quotation.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-05 / CAPTURED RECORD-BASED WATCH. Lecture 2분 동안 실제 Prompt의 핵심 지시 발췌·번역과 01–05 관찰 기준만 대조한다. S18에서 조사·계획·수정, S19에서 검증 근거를 확인한다. 현재 Desktop surface, 실제 입력창 캡처 또는 새 실행을 보여 주지 않는다.
+Demo Operation: DEMO-05의 정적 도입으로 Lecture2분을 사용한다. 좌우01–03을 같은 번호로 짚고, 04 실제 diff는 S18, 05 실제 검증 결과는 S19에서 확인한다. 실제 Prompt 발췌·번역과 관찰 요약의 구분을 화면에서 유지한다. 새 Trial·현재 Desktop 실행·터미널/계획 원문 캡처를 보여주지 않는다.
 
-Audience Interaction: 같은 번호의 Prompt 지시와 관찰 기준을 차례로 따라오게 한다. 실습·응답을 요구하지 않는다.
+Audience Interaction: 요청 문장과 오른쪽 근거를 한 행씩 따라오게 한다. 실습·공개 응답을 요구하지 않는다.
 
-Transition: “요청한 조사와 보존 조건은 실제 04 수정에 어떻게 반영됐을까?”를 묻고 S18에서 02 조사·03 계획과 실제 diff를 대조한다.
+Transition: “요청한 과정이 기록에 남은 것을 확인했습니다. 이 조사와 계획 뒤 실제로 무엇을 바꿨는지 04 최소 수정 내용을 보겠습니다.”라고 S18로 이동한다. 05 확인·보고 결과는 S19에서 확인한다.
 
-Time Management: Lecture2분 안에 실제 Prompt 발췌·번역과 번호 대응을 확인한다. Process·Verification을 새 작업 절차 강의로 펼치지 않고 결과·수치는 S18–S19에 남긴다.
+Time Management: 0:00–0:15 출처 구분, 0:15–0:45 재현, 0:45–1:10 호출 관계, 1:10–1:40 편집 전 계획, 1:40–2:00 다음 결과 연결. Lecture2분을 유지한다. 지시 전문 낭독·일반 디버깅 강의·S18 코드 diff·S19 결과 수치 설명을 추가하지 않는다. 실측 리허설은 UNVERIFIED다.
 
-Fallback: 정적 기본 경로 — `production/ACT_1.pptx` S17 또는 `production/preview/act1/S17.png`를 사용한다. 요청 예시·기록·교육 모델의 기존 범위를 유지한다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다.
+Fallback: production/ACT_1.pptx S17 또는 production/preview/act1/S17.png의 정적 대응 표를 사용한다. 원시 CLI 이벤트 파일이 없어도 확인된 관찰 요약이라는 한계를 밝히고 진행한다. 상세한 변경·검증은 기존 S18/S19로 이어 간다. 최종 로컬 검토는 production/evaluation/S17_REQUEST_ACTION_REVISION.md를 따른다.
 
-Validation Status: ALIGNED — DEC-0042의 요청 설계·사례 연결·쉬운 용어를 정렬했다. 최종 PPT·내장 Notes·렌더 검토는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0044에 따라 실제 지시와 관찰 요약의 대응·S18/S19 연결을 정렬했다. 최종 PPT/내장 Notes/PNG 대조와 렌더링 결과는 production/evaluation/S17_REQUEST_ACTION_REVISION.md에서 기록한다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
+
 
 ## S18 — 조사에서 한 줄 변경까지
 

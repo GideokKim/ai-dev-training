@@ -481,29 +481,29 @@ ACT별 Mode 대조:
 - **Delivery Mode Allocation:** Lecture 6분 + Case 3분 = 9분
 - **Evidence / Decision References:** BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007, DEC-0042
 
-#### S17 — 먼저 무엇을 하는지 보자
+#### S17 — 요청한 과정은 기록에도 남았을까?
 
 - **Slide ID:** S17
 - **ACT:** ACT 1
 - **Section:** 1D
-- **Working Title:** 먼저 무엇을 하는지 보자
-- **Primary Role:** TRIAL-002에서 관찰할 행동 순서를 안내한다.
-- **Audience Question:** “실제로 전달한 Process·Verification 지시와 기록된 행동이 연결되는가?”
-- **Core Message:** 이 한 번의 관찰에서는 재현, 조사, 계획, 수정, 검증 순서를 확인할 수 있다.
+- **Working Title:** 요청한 과정은 기록에도 남았을까?
+- **Primary Role:** 실제 요청 문장과 관찰된 수정 전 행동을 세 쌍으로 대조하고 S18·S19의 결과 확인을 준비한다.
+- **Audience Question:** “실제로 요청한 재현·조사·수정 전 계획은 기록에 어떻게 남았을까?”
+- **Core Message:** 이 실행의 과정 지시를 실패 재현, 제품 호출 경로 확인, 파일 변경보다 앞선 계획 보고의 관찰 기록과 대조할 수 있다.
 - **Story Beat:** BEAT-006 — Investigate before changing code
 - **Curriculum Trace:** ACT 1 — Investigation-first workflow and Prompt's value.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT — Codex CLI의 단일 TRIAL-002 실행에 한정한다.
-- **Visual Concept:** 좌측 Prompt 입력창에는 실제 TRIAL-002의 Goal·Constraints와 Process·Verification 핵심 지시를 발췌·번역해 놓는다. 다섯 지시에 01–05를 붙이고, 우측에는 같은 번호·색·행 정렬로 재현 / 조사 / 계획 / 수정 / 검증을 세로로 나열한다. 우측에는 화살표를 쓰지 않는다. 전체 Prompt 원문이나 실행 로그로 위장하지 않는다.
-- **Demo / Case Connection:** TRIAL-002 실제 요청의 Process·Verification과 기록에서 볼 외부 행동을 대응시킨 WATCH 기준. S18 조사·보존·최소 diff, S19 요청한 확인·보고를 실제 기록으로 확인한다. 내부 사고·Prompt 단독 인과성·현재 Desktop 근거로 확대하지 않는다.
-- **Beginner Payoff:** 수정 전에 관찰할 수 있는 행동을 안다.
-- **Advanced Payoff:** 요청한 절차와 실제 실행 증거를 구분해 본다.
+- **Visual Concept:** 좌측 실제 Prompt의 핵심 과정 지시 발췌·번역과 우측 관찰 기록 요약을 01–03의 같은 번호·행으로 짝짓는다. 우측에는 재현된 crop 테스트명, 확인한 제품 호출 경로, 파일 변경 이벤트보다 앞선 계획 보고를 표시한다. 테스트명·호출 기호는 TRIAL-001/STATE-00 코드와 대조한 대상 식별자이며 TRIAL-002 원문 로그 인용이 아니다. 04 최소 수정 내용은 S18, 05 확인·보고 결과는 S19라는 하단 연결만 남긴다. 가짜 명령·실패 출력·계획 발언을 만들지 않고 실제 diff·너비·통과 수치는 반복하지 않는다.
+- **Demo / Case Connection:** DEMO-05의 도입에서 실제 TRIAL-002 요청과 관찰된 수정 전 과정을 대조한다. 관찰 요약은 DEMO_MATRIX의 Investigation and visible plan checkpoint를 따른다. S18은 실제 변경, S19는 실제 검증 결과를 이어 확인한다.
+- **Beginner Payoff:** 요청에 적은 작업 방식을 실제 외부 행동 기록에서 확인할 수 있음을 본다.
+- **Advanced Payoff:** 요청·관찰 요약·대상 코드 식별자와 명령 원문·실행 출력의 근거 수준을 구분한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 기존 좌측 실제 Prompt 핵심 지시 발췌·번역과 우측 화살표 없는 01–05 대응을 보존한다. 재현·조사·계획·수정은 실제 요청의 Process, 확인·보고는 Verification을 사례에서 볼 기준이다. 일반 작업 절차를 새로 가르치지 않고 결과·수치는 S18–S19에 남긴다. S16의 교육용 요청을 실제로 실행한 결과로 설명하지 않는다.
-- **Transition:** “요청한 조사와 보존 조건은 실제 04 수정에 어떻게 반영됐을까?”를 묻고 S18에서 02 조사·03 계획과 실제 diff를 대조한다.
+- **Speaker Intent:** 01 재현 요청과 실패 테스트 재현 기록, 02 조사 요청과 제품 호출 경로 확인, 03 편집 전 계획 요청과 파일 변경 전 계획 보고를 대응시킨다. 우측은 관찰 요약이며 원시 CLI 로그·실제 계획 문장 원문이 아님을 밝힌다. 구현 diff·너비 변화·테스트 통과 수치는 S18·S19에 남기고, 같은 요청이 모든 실행에서 준수되거나 Prompt가 단독 원인이라고 설명하지 않는다.
+- **Transition:** “요청한 과정이 기록에 남은 것을 확인했습니다. 이 조사와 계획 뒤 실제로 무엇을 바꿨는지 04 최소 수정 내용을 보겠습니다.”라고 S18로 이동한다. 05 확인·보고 결과는 S19에서 확인한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039, DEC-0042
+- **Evidence / Decision References:** BEAT-006, TRIAL-002, TRIAL-001, STATE-00, INV-MATURITY-011, DEC-0039, DEC-0042, DEC-0044
 
 #### S18 — 조사에서 한 줄 변경까지
 

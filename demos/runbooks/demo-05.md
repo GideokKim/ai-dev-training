@@ -126,3 +126,13 @@ No general correctness, current Desktop behavior, or all-input guarantee. S18 is
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0039 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.
+
+
+## DEC-0044 — Request and process observation introduction
+
+Before the8 Demo minutes on S18/S19, use S17 for2 Lecture minutes. Compare
+three actual translated instructions with observed process summaries. Target
+test and call symbols are code-checked identifiers, not raw CLI excerpts.
+The initial reproduction command/output and plan utterance are unverified;
+do not invent them or reuse post-edit verification commands as reproduction.
+S18 owns the actual edit/width change; S19 owns check results.

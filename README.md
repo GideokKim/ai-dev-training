@@ -8,6 +8,8 @@
 
 ## 현재 상태
 
+최신 수정은 DEC-0044의 S17 요청·관찰 기록 대응이다. 다른89장과 시간·근거 범위를 유지했다. [수정 S17](production/preview/full/S17.png), [검토 기록](production/evaluation/S17_REQUEST_ACTION_REVISION.md).
+
 현재 번호 구성은 **90장 / DEC-0043**이다. S21 뒤 실무 Prompt 방법 8장을 S22–S29로 추가하고 기존 S22–S82는 S30–S90으로 이동한다.
 기존 S01–S21, Story·Trial·State·근거 경계와 승인된 시각물은 보존한다.
 기존 장별 시간을 유지하고 신규 Lecture 7분·Case 1분을 추가해 ACT 1 63분·전체 368분으로 확장한다. 새 PPT·전체 렌더·90개 내장 Notes의 로컬 정합성 검토를 완료했다.

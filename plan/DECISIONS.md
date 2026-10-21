@@ -6009,3 +6009,80 @@ The user authorizes content selection and slide addition, then explicitly
 states that existing slides must always be retained and time may increase.
 This approves the new90-slide /368-minute architecture without reducing any
 prior allocation. No Trial or empirical claim changes.
+
+
+# DEC-0044 — Match S17 requests to observed process records
+
+## Status
+
+ACCEPTED — explicit user instruction to revise S17 and align its Notes.
+
+## Date
+
+2026-10-21
+
+## Context
+
+S17 repeated its actual request as generic action labels. The user could not
+identify its independent role between the teaching example on S16 and the
+recorded edit/check results on S18-S19.
+
+## Problem
+
+A request beside synonymous procedure labels does not show what the Agent
+actually did. Raw first-reproduction output and the exact plan utterance
+are not available in the retained sources; fabricating them would exceed
+the evidence boundary.
+
+## Decision
+
+Pair three translated actual request excerpts with the retained observation
+summary: failing crop-test reproduction, product call-path investigation,
+and a visible plan reported before the file-change event. Cross-check target
+identifiers against TRIAL-001 and STATE-00 source; label them as identifiers,
+not raw CLI excerpts. Preserve 01-03 and link 04 edit details to S18 and 05
+verification results to S19. Keep S17 at Lecture2 minutes, T05-A,90 slides
+and368 total minutes. Add no Trial, new command execution or effect claim.
+
+## Rationale
+
+Concrete observed targets and event order let the audience compare a
+request with recorded external behavior. Reserving the diff, width change
+and pass counts for S18-S19 gives each slide a separate role.
+
+## Alternatives
+
+Keep the previous five labels: rejected because they duplicate the request.
+Reconstruct realistic raw logs or a quoted plan: rejected because the raw
+text is unverified. Remove S17: not selected; preserve the existing slide.
+
+## Trade-offs
+
+The right side remains an explicitly labeled observation summary rather
+than raw execution footage. Three pairs fit the existing two-minute slot;
+complete request constraints and source limitations remain in Notes.
+
+## Related Invariants
+
+INV-VERIFY-001, INV-NARRATIVE-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S17 factory, Slide/Template Maps, Claim clarification, ACT1 and Full Notes,
+Full/ACT1 PPTX and previews, current handoff identities and review document.
+
+## Evidence
+
+User request; DEMO_MATRIX TRIAL-002 Prompt used and Investigation and visible
+plan checkpoint. Target identifiers: TRIAL-001 and the STATE-00 test/call
+source. No current-product or repeated-run check was performed.
+
+## Training Relevance
+
+YES — process instructions can be checked against observable work records.
+
+## Follow-up
+
+Render the exact final Full and ACT1 packages, inspect S16-S19 continuity,
+compare unchanged89 slide renders/Notes, and retain Windows/room/current
+account and timed rehearsal as UNVERIFIED.

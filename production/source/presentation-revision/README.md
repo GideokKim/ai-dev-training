@@ -19,6 +19,11 @@ The prior implementation notes below describe their own historical editions.
 Current authority: `plan/SLIDE_MAP.md`, `plan/PROMPT_ENGINEERING_ADDITION.md`,
 `plan/SLIDE_ID_MIGRATION_90.md`, and DEC-0043.
 
+DEC-0044 refines S17 into three actual request/observed-process pairs.
+The right side is a retained observation summary with source-checked target
+identifiers, not raw CLI quotes. Keep S18 edit detail and S19 check results
+separate. Rebuild Full and ACT1 only; preserve all other slides and times.
+
 ## Historical implementation notes
 
 # Presentation revision source

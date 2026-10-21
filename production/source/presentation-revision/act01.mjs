@@ -207,30 +207,40 @@ export const slides = {
   },
   S17: (p, H) => {
     const { C, text, rect, line } = H;
-    const s = H.frame(p, 'S17', '먼저 무엇을 하는지 보자', 'ACT 1 · 요청의 과정·검증을 실제 기록으로 확인', 'TRIAL-002 관찰 기준 · 2026-09-28 · Codex CLI 0.154.0 · macOS', 'S16 예시를 실행한 결과가 아닙니다. 과거 CLI 단일 기록이며 현재 Desktop·반복성은 미검증입니다.', 'OBSERVED_PRODUCT');
-    const prompt = rect(s, 64, 184, 682, 414, C.white, C.line, 1.5);
-    prompt.borderRadius = 12;
-    text(s, '실제 Prompt · 핵심 지시 발췌·번역', 84, 195, 642, 29, 24, C.sub, true);
-    line(s, 84, 235, 642);
-    text(s, '목표  crop 경계 실패를 조사하고 고친다.', 84, 245, 642, 29, 25, C.ink, true);
-    text(s, '제약  [x_start, x_end) 보존 · 최소 변경', 84, 276, 642, 28, 24, C.sub);
-    text(s, '         무관한 API 변경·의존성 추가 없음', 84, 304, 642, 27, 24, C.sub);
-    text(s, '요청과 대조할 작업 흐름', 794, 194, 422, 36, 29, C.ink, true);
-    text(s, '과정·검증 지시를 같은 번호로 대조', 794, 244, 422, 31, 24, C.teal);
-    const items = [
-      ['먼저 현재 실패를 재현한다.', '재현'],
-      ['관련 구현과 호출 경로를 조사한다.', '조사'],
-      ['수정 전, 짧은 변경 계획을 알린다.', '계획'],
-      ['필요한 코드만 최소한으로 수정한다.', '수정'],
-      ['crop 관련·전체 테스트를 실행한다.\nCLI 샘플(가능하면)·변경 확인·근거 보고.', '검증·보고'],
+    const s = H.frame(p, 'S17', '요청한 과정은 기록에도 남았을까?',
+      'ACT 1 · 실제 요청과 관찰된 행동의 대응',
+      'TRIAL-002 · 요청 발췌·번역 / 관찰 기록 요약 · 2026-09-28 · Codex CLI 0.154.0',
+      '원문 로그 캡처 아님 · S16 예시의 실행 결과 아님 · 단일 CLI 관찰이며 Prompt 단독 효과는 미입증',
+      'OBSERVED_PRODUCT');
+    rect(s, 64, 174, 546, 368, C.white, C.line, 1);
+    rect(s, 646, 174, 570, 368, C.pale, C.line, 1);
+    text(s, '실제로 보낸 요청 · 발췌·번역', 84, 184, 506, 34, 26, C.ink, true);
+    text(s, '관찰된 행동 · 기록 요약', 666, 184, 530, 34, 26, C.teal, true);
+    text(s, '과정에 관한 핵심 지시 세 가지', 84, 218, 506, 25, 20, C.sub);
+    text(s, '기록 요약과 대상 코드의 식별자를 대조', 666, 218, 530, 25, 20, C.sub);
+    const requests = [
+      '먼저 현재 실패를\n재현해줘.',
+      '관련 구현과 호출 경로를\n조사해줘.',
+      '수정 전 짧은 계획을 알리고,\n승인 대기 없이 계속해줘.'
     ];
-    items.forEach((a, i) => {
-      const y = 335 + i * 51, n = String(i + 1).padStart(2, '0');
-      text(s, n, 84, y, 42, 29, 24, C.teal, true);
-      text(s, a[0], 136, y, 590, i === 4 ? 53 : 34, 24, C.ink, true);
-      text(s, n, 794, y - 2, 49, 42, 33, C.teal, true);
-      text(s, a[1], 855, y - 3, 361, 42, 35, C.ink, true);
+    requests.forEach((request, i) => {
+      const y = 254 + i * 100, n = String(i + 1).padStart(2, '0');
+      text(s, n, 84, y, 36, 35, 27, C.teal, true);
+      text(s, request, 132, y - 1, 458, 72, 27, C.ink, true);
+      text(s, n, 666, y, 31, 35, 27, C.teal, true);
+      if (i < 2) {
+        line(s, 84, y + 83, 506);
+        line(s, 666, y + 83, 530);
+      }
     });
+    text(s, '실패한 crop 테스트를 찾아 재현', 710, 254, 486, 35, 25, C.ink, true);
+    text(s, 'test_crop_excludes_end_coordinate', 710, 294, 486, 29, 24, C.sub, false, H.CODE);
+    text(s, 'cli.main · pipeline.process_image', 710, 354, 486, 32, 24, C.ink, true, H.CODE);
+    text(s, 'transform.crop까지 제품 호출 경로 확인', 710, 394, 486, 29, 24, C.sub);
+    text(s, '파일 수정 이벤트보다 먼저 계획 보고', 710, 454, 486, 35, 25, C.ink, true);
+    text(s, '끝 좌표 명세·기존 Test·API 보존 계획', 710, 494, 486, 29, 24, C.sub);
+    text(s, '04 최소 수정 내용  ·  S18', 64, 559, 546, 41, 27, C.teal, true);
+    text(s, '05 확인·보고 결과  ·  S19', 646, 559, 570, 41, 27, C.teal, true);
     return s;
   },
   S18: (p, H) => {

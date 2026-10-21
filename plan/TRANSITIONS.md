@@ -38,7 +38,7 @@ repetition, not an observed variation failure.
 | S12 → S13 | Add the five missing fields to show the intended path among the same alternatives. | Teaching example only; no deterministic execution or PASS guarantee. |
 | S13 → S14 | Generalize the concrete fields into developer questions, then retain private Reflection. | The example is authorized before the general model; do not repeat it as a second solution lecture. |
 | S14 → S15 | Group the decisions and make relevant facts and process explicit. | The two sets of five are not a one-to-one taxonomy. |
-| S16 → S17 | Move from a constructed request to historical TRIAL-002 observation. | Do not imply the example was the executed Prompt. |
+| S16 → S17 | Move from a constructed request to three actual request/observed-process pairs from TRIAL-002. | The right side is a retained observation summary; target identifiers are code-checked. Do not imply S16 was executed or show invented raw logs. |
 | S21 → S22 | Move from requested completion evidence to practical ways of expressing a task request. | Keep the accepted verification example; the new request examples are conceptual and add no Trial. |
 | S22 → S29 | Follow eight bounded request methods from input boundaries through evidence-based revision feedback. | Official recommendations support the examples; no universal recipe, hidden-reasoning demand or measured benefit is claimed. |
 | S29 → S30 | Ask which request conditions remain useful in the next task. | Task/Project classification remains a teaching model and motivates recurring Project Context. |
@@ -566,3 +566,11 @@ ACT 5's existing 30 minutes.
 - Transitions retain the single evolving project and shared audience Story.
 - Product-independent fallbacks preserve the underlying insight when a
   product feature or target account is unavailable.
+
+
+## DEC-0044 — S17 to edit and verification evidence
+
+S17 pairs01 reproduction,02 product call-path investigation and03 pre-edit
+plan with scoped observed records. Its bottom handoff reserves04 edit detail
+for S18 and05 verification outcomes for S19. Keep S18/S19 screens and time
+unchanged; do not repeat their diff, width or pass-count payload on S17.

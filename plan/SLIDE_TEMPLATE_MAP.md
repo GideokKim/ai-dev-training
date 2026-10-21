@@ -129,7 +129,7 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S14 — 개발자가 정해야 하는 경계 | T02-A | — | — | C+T | — | Single state | — | V09 |
 | S15 — Task Specification의 다섯 책임 | T03-A | — | — | T | — | Single state | — | V10 |
 | S16 — 더 긴 Prompt보다 분명한 경계 | T04-A | — | CMP-CLAIM, CMP-CPP | C+T | — | Single state | Supporting | V02, V08 |
-| S17 — 먼저 무엇을 하는지 보자 | T05-A | CMP-TRIAL | CMP-CLAIM | P; actual Prompt instruction excerpts translated, not a full transcript | DEMO-05 WATCH; left Prompt 01–05 matches right vertical numbered actions without arrows; Lecture 2 min | Single state | — | V02 |
+| S17 — 요청한 과정은 기록에도 남았을까? | T05-A | CMP-TRIAL, CMP-EVIDENCE | CMP-CLAIM | P; actual request excerpts translated; observations summarized, target identifiers cross-checked against recorded code | DEMO-05 introduction; three paired request/observation rows 01–03; 04 edit detail on S18 and 05 result on S19; Lecture 2 min | Single state | — | V02, V03, V04 |
 | S18 — 조사에서 한 줄 변경까지 | T06-A | CMP-TRIAL | CMP-DIFF, CMP-EVIDENCE | P | DEMO-05 EVIDENCE/process; recall 02 investigation / 03 plan before 04 edit; same crop diff; CAPTURED, 4 min | Single state | — | V03, V04 |
 | S19 — 변경 결과와 확인 증거 | T06-B | CMP-TRIAL, CMP-EVIDENCE | CMP-DIFF | P | DEMO-05 WHAT HAPPENED/result; CAPTURED, 4 min | Single state | — | V02, V04 |
 | S20 — Generated ≠ Done | T06-C | CMP-EVIDENCE | CMP-CLAIM | P+T; separate the recorded checks from the model | TRIAL-002 verification callback; Lecture | Single state | — | V01, V05 |
@@ -213,7 +213,7 @@ the main table remain authoritative.
 | Component ID | Slide count | Slide IDs |
 |---|---:|---|
 | CMP-STATE | 6 | S33, S36, S42, S55, S65, S84 |
-| CMP-EVIDENCE | 33 | S05, S06, S07, S18, S19, S20, S21, S33, S34, S36, S37, S42, S44, S45, S46, S47, S51, S52, S54, S55, S56, S58, S60, S61, S62, S65, S77, S78, S79, S80, S81, S84, S85 |
+| CMP-EVIDENCE | 34 | S05, S06, S07, S17, S18, S19, S20, S21, S33, S34, S36, S37, S42, S44, S45, S46, S47, S51, S52, S54, S55, S56, S58, S60, S61, S62, S65, S77, S78, S79, S80, S81, S84, S85 |
 | CMP-TRIAL | 19 | S04, S05, S06, S17, S18, S19, S33, S34, S37, S43, S44, S45, S47, S50, S51, S52, S54, S78, S80 |
 | CMP-DIFF | 2 | S18, S19 |
 | CMP-BENCHMARK | 2 | S54, S55 |
@@ -254,7 +254,7 @@ No RECORDED or LIVE slot is introduced.
 | DEMO-03 | S50 WATCH / open question; S51 TRIAL-008 discovery and explicit invocation EVIDENCE; S52 WHAT HAPPENED / Prompt-structure comparison. S53–55 are bounded case follow-through, not extra Demo minutes. | HYBRID, 8 min: S51 5 + S52 3. | The observed path is Codex CLI 0.154.0. Desktop behavior, implicit invocation, superiority, token saving, and speed improvement remain unclaimed. |
 | DEMO-04A | S66 WATCH / starting condition; S67 conceptual change and schematic mismatch; S68–75 continue the conceptual case outside its 4-minute Demo slot. | VISUAL conceptual case, 4 min: S66 2 + S67 2. | Keep CONCEPTUAL visible. DEC-0027: official unit + integration scope versus reusable unit-only direction. No actual failure, command, or Product State. |
 | DEMO-04B | S77 timeline entry; S78 TRIAL-006 EVIDENCE and attribution; S79 DEC-0016 change. S80–81 are the follow-up and synthesis outside the 8-minute Demo slot. | CAPTURED, 8 min: S77 2 + S78 4 + S79 2. | Use the approved dated timeline and claim audit. Preserve TRIAL-007 report/stderr discrepancy and all PARTIAL / UNKNOWN boundaries. |
-| DEMO-05 | S17 WATCH maps actual Prompt instruction excerpts to numbered observable actions; S18 investigation/plan/edit EVIDENCE; S19 verification/result. | CAPTURED, 8 min: S18 4 + S19 4. | Prompt excerpts are labeled translation; do not show a full Prompt/log or claim access to hidden thought. S17 Lecture 2 min stays outside the Demo slot. |
+| DEMO-05 | S17 introduction pairs three actual request excerpts with observed process-record summaries; S18 investigation/plan/edit EVIDENCE; S19 verification/result. | CAPTURED, 8 min: S18 4 + S19 4. | Prompt excerpts are labeled translation; do not show a full Prompt/log or claim access to hidden thought. S17 Lecture 2 min stays outside the Demo slot. |
 | DEMO-06 | S37 TRIAL-004 evidence; S42 STATE-03 structure; S43 TRIAL-005A/B WATCH; S44–45 observed access and comparison. | VISUAL / CAPTURED, 5 min: S37 2 + S42 2 + S45 1. | Use the approved Context map and curated diff. S44 is Case time. Do not imply perfect routing, token savings, or measured performance improvement. |
 | DEMO-07 | S56 frames the current task and its bounded result; S57 gives a conditional conceptual case, not observed product evidence. | VISUAL, 5 min: S56 3 + S57 2. | No product interaction or independent subagent result is selected. Keep the current-task decision local to this task. |
 | DEMO-08 | S58 asks which knowledge might justify persistence and classifies the current Demo’s knowledge. | VISUAL, 2 min on S58. | No product Memory behavior or selected Memory candidate. S59 is the criteria callback, not extra Demo time. |
@@ -430,3 +430,8 @@ than being resolved by invented product behavior or evidence.
 **Next readiness:** READY FOR VISUAL PROTOTYPE. The mapped prototype set
 covers five of the eleven Templates; the uncovered Template and Variant gaps
 are recorded in plan/VISUAL_PROTOTYPE_PLAN.md.
+
+
+## DEC-0044 — S17 request-to-observation introduction
+
+Keep T05-A and its three-focus setup. S17 uses three paired native rows of actual request excerpts and scoped process observations before the edit/results on S18–S19. CMP-EVIDENCE makes the observed summary source explicit. No Trial screenshot, fabricated command, new result or new Template/Variant is added.

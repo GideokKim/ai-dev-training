@@ -1,0 +1,73 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "decision": "DEC-0044",
+  "baseline": "dc149ca",
+  "date": "2026-10-21",
+  "slideCount": 90,
+  "totalMinutes": 368,
+  "actSlideCounts": {
+    "ACT 0": 10,
+    "ACT 1": 21,
+    "ACT 2": 15,
+    "ACT 3": 18,
+    "ACT 4": 18,
+    "ACT 5": 8
+  },
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 70,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 137,
+    "Reflection": 20,
+    "Case": 84,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "S17Minutes": 2,
+  "S17Mode": "Lecture",
+  "renderedSlidePngs": 111,
+  "unchangedFullSlidePngs": 89,
+  "unchangedNotesRecords": 89,
+  "notesRecords": 90,
+  "fieldsPerNotes": 19,
+  "fullAct1PngParity": 21,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 90,
+      "sha256": "bcdbf4255b9a00d72886fefa131b895361598f2aea68b58d2d6032c22ecd5646"
+    },
+    {
+      "path": "production/ACT_1.pptx",
+      "slideCount": 21,
+      "sha256": "bbf50613a930d018b8ac27a1a23db4cf9bbaf431b7a13e96b48570822b9f9c23"
+    }
+  ],
+  "changedBaselineArtifacts": [
+    "production/AI_Dev_Training_Full.pptx",
+    "production/ACT_1.pptx",
+    "production/preview/full/montage.png",
+    "production/preview/full/S17.png",
+    "production/preview/act1/montage.png",
+    "production/preview/act1/S17.png",
+    "production/notes/ACT_1_NOTES.md",
+    "production/notes/FULL_SPEAKER_NOTES.md"
+  ],
+  "otherActPackagesUnchanged": true,
+  "newTrial": false,
+  "demoRepositoryUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "windowsPowerPoint": "UNVERIFIED",
+  "targetFontsRoomProductAccount": "UNVERIFIED",
+  "timedRehearsal": "UNVERIFIED",
+  "fullNotesSha256": "358a10b46367718b154b2715aa3ea8c7b41515158774bd696b9e98a976c7c29b",
+  "fullMontageSha256": "485b0b1b8c1697c30720db77002f6e33000d782fd89e36fa3e73405fd884b3b8",
+  "fullPptSha256": "bcdbf4255b9a00d72886fefa131b895361598f2aea68b58d2d6032c22ecd5646",
+  "fallbackPngsUnchanged": 29
+}

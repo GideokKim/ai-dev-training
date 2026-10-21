@@ -343,3 +343,14 @@ independent correctness evidence. Do not claim CoT magic, guaranteed
 compliance, token savings or performance gains. The existing Trial and
 current-product/account gates remain unchanged. Current old S22–S82 map to
 S30–S90; time extends8 minutes without reducing any original allocation.
+
+
+## DEC-0044 — S17 process-observation scope
+
+S17 pairs actual translated TRIAL-002 request excerpts with the retained
+process-observation summary. Test and product call-path identifiers are
+cross-checked against TRIAL-001 and STATE-00 code, not presented as raw
+TRIAL-002 log quotations or an Agent file-reading order. First-reproduction
+command/output, the plan utterance and raw event timestamps remain
+unverified. Keep detailed edit/width results on S18 and check outcomes on
+S19. No new run, causal claim or current Desktop validation is added.
