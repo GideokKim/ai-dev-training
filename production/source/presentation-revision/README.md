@@ -1,3 +1,26 @@
+# Presentation revision source — current 90-slide edition
+
+DEC-0043 inserts eight practical Prompt Engineering recipes after S21.
+New S22–S29 are conceptual, source-backed request examples, not Trial runs.
+Old S22–S82 become S30–S90, including the native chart S47 → S55.
+Current ACT counts: 10/21/15/18/18/8. Timing is recorded in the current Map.
+The current factories retain the accepted Light Engineering Workbench design.
+Historical source images and their filenames keep the original captured IDs.
+
+`prompt-techniques.mjs` defines the eight added recipes and native layouts.
+`build.mjs` loads them after the shifted existing factories. The 90-record
+Map and module map are validated before authoring. Rebuild Full and ACT1–5
+with `--release --release-acts=1,2,3,4,5`; preserve the ACT 0 package.
+Use the existing bundled runtime, fonts and private work-directory procedure.
+Deliver only reviewed final files and exact-package previews to production.
+Bundle ZIP/HTML generation remains paused.
+
+The prior implementation notes below describe their own historical editions.
+Current authority: `plan/SLIDE_MAP.md`, `plan/PROMPT_ENGINEERING_ADDITION.md`,
+`plan/SLIDE_ID_MIGRATION_90.md`, and DEC-0043.
+
+## Historical implementation notes
+
 # Presentation revision source
 
 Current sequence: **82 slides**, DEC-0038. S11/S12 use prompt-window and

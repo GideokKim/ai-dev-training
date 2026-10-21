@@ -4,7 +4,7 @@ import path from 'node:path';
 import * as H from './helpers.mjs';
 
 export async function loadHarnessPolishSlides(root) {
- const files={S39:'S37.png',S55:'S53.png'};
+ const files={S47:'S37.png',S63:'S53.png'};
  const bytes=Object.fromEntries(await Promise.all(Object.entries(files).map(async ([id,file])=>[
   id,new Uint8Array(await fs.readFile(path.join(root,'prototype/image-illustration-pilot/assets',file)))
  ])));
@@ -21,11 +21,11 @@ export async function loadHarnessPolishSlides(root) {
   fit:'contain',position:{left:x,top:y,width:w,height:h},crop:{left,top,right,bottom}
  });
  return {
-  S39(p){
-   const s=make(p,'S39','서로 다른 Performance Task,\n반복되는 절차','ACT 3 · 작업 방법도 반복된다',
+  S47(p){
+   const s=make(p,'S47','서로 다른 Performance Task,\n반복되는 절차','ACT 3 · 작업 방법도 반복된다',
     'TRIAL-006 / TRIAL-007 · 반복 절차는 기록 요약 · 위 그림은 AI 생성 설명용 삽화',
     'Global Harness 영향이 있어 Prompt만의 효과로 귀속하지 않음 · 그림은 최적화 전후 결과가 아님','OBSERVED_PRODUCT');
-   const tile=(x,y,size)=>illustration(s,'S39',x,y,size,size,274/887,(887-592)/887,952/1774,(1774-1270)/1774);
+   const tile=(x,y,size)=>illustration(s,'S47',x,y,size,size,274/887,(887-592)/887,952/1774,(1774-1270)/1774);
    text(s,'A · 이미지 크기 변경',64,209,550,36,27,C.teal,true);
    text(s,'B · 픽셀값 범위 변환',670,209,546,36,27,C.teal,true);
    tile(76,276,63);tile(201,254,104);arrow(s,153,295,32,18);
@@ -40,8 +40,8 @@ export async function loadHarnessPolishSlides(root) {
    text(s,'Test → Benchmark → 비교 → Review',64,518,1152,56,38,C.ink,true);
    return s;
   },
-  S40(p){
-   const s=make(p,'S40','Project 사실과 작업 절차는 다르다','ACT 3 · 알아야 할 것과 따라야 할 방법',
+  S48(p){
+   const s=make(p,'S48','Project 사실과 작업 절차는 다르다','ACT 3 · 알아야 할 것과 따라야 할 방법',
     '교육용 구분 · TRIAL-006/007의 반복 절차에서 출발',
     'Project 정보를 더 주는 것만으로 반복되는 절차의 유지 문제가 해결되지는 않는다');
    text(s,'무엇이 참인가?',64,221,550,46,34,C.teal,true);
@@ -57,12 +57,12 @@ export async function loadHarnessPolishSlides(root) {
    text(s,'현재 목표는 Task Prompt에',586,539,630,43,29,C.teal,true);
    return s;
   },
-  S41(p){
-   const s=make(p,'S41','Task, Context, Workflow의 역할','ACT 3 · 세 가지 책임을 나누기',
+  S49(p){
+   const s=make(p,'S49','Task, Context, Workflow의 역할','ACT 3 · 세 가지 책임을 나누기',
     '교육용 책임 구분 · 현재 목표 / 프로젝트 사실 / 반복 절차',
     'Prompt 밖에 둘 수 있는 정보라도 유지해야 할 책임은 서로 다르다');
    // Apply the three layers to one already introduced Task, rather than repeat
-   // S40's example-classification exercise.
+   // S48's example-classification exercise.
    rect(s,64,215,1152,104,C.pale);
    text(s,'Task Prompt',86,226,326,39,28,C.teal,true);
    text(s,'지금 무엇을 바꿀까?',86,269,326,34,25,C.sub);
@@ -77,8 +77,8 @@ export async function loadHarnessPolishSlides(root) {
    text(s,'baseline → 조사 → 검증 → 비교',448,514,768,47,30,C.ink,true);
    return s;
   },
-  S45(p){
-   const s=make(p,'S45','답을 담지 않는 Workflow','ACT 3 · 절차와 과제별 판단',
+  S53(p){
+   const s=make(p,'S53','답을 담지 않는 Workflow','ACT 3 · 절차와 과제별 판단',
     'STATE-04의 SKILL.md 원문 일부 + 교육용 책임 구분',
     '특정 최적화 답·알고리즘·Trial 수치를 Skill의 정답으로 넣지 않았다','OBSERVED_PRODUCT');
    text(s,'변경 전에, 재현 가능한 기준부터',64,217,1152,45,32,C.teal,true);
@@ -92,8 +92,8 @@ export async function loadHarnessPolishSlides(root) {
    text(s,'절차는 재사용하고, 답은 이번 근거로 결정한다',64,555,1152,41,30,C.ink,true);
    return s;
   },
-  S50(p){
-   const s=make(p,'S50','무엇이 다시 찾기 어려운 지식인가?','ACT 3 · 별도 지식 보존의 필요성 점검',
+  S58(p){
+   const s=make(p,'S58','무엇이 다시 찾기 어려운 지식인가?','ACT 3 · 별도 지식 보존의 필요성 점검',
     '현재 Demo Repository의 지식 분류와 Memory 후보 점검',
     '별도 Memory로 남길 지속적 지식 후보는 찾지 못함 · 제품 Memory 동작 주장은 아님');
    text(s,'이번 사례에서는\n별도 Memory 후보를 찾지 못했다',64,201,1152,94,34,C.teal,true);
@@ -112,12 +112,12 @@ export async function loadHarnessPolishSlides(root) {
    text(s,'새 기록을 만들기 전에, 원래 출처를 먼저 찾는다',64,565,1152,37,28,C.ink,true);
    return s;
   },
-  S55(p){
-   const s=make(p,'S55','Engineering Pattern은 C++에도 전이된다','ACT 3 · 도구를 넘어 같은 판단을 적용하기',
+  S63(p){
+   const s=make(p,'S63','Engineering Pattern은 C++에도 전이된다','ACT 3 · 도구를 넘어 같은 판단을 적용하기',
     'C++ Vision 전이를 위한 교육용 예시 · AI 생성 설명용 삽화',
     '실제 C++ Demo·회사 장비·측정 결과가 아닙니다. 도구·빌드·하드웨어 조건은 프로젝트별 확인 필요');
    text(s,'Python Demo에서 확인한 질문을 C++ Vision 업무로',64,161,1152,37,28,C.teal,true);
-   illustration(s,'S55',197.5,202,885,204,0.08,0.12);
+   illustration(s,'S63',197.5,202,885,204,0.08,0.12);
    // The camera and source image together form the input stage. Numbered
    // captions link the four pictured objects to the three verification roles.
    text(s,'01  입력',211,406,427,31,22,C.teal,true,H.FONT,'center');

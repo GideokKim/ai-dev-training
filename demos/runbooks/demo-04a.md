@@ -1,8 +1,10 @@
 # DEMO-04A — Conceptual Stale Workflow Case
 
+> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+
 Planning Status: APPROVED ROLE — conceptual controlled case
 
-Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-038–046
 
@@ -48,7 +50,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-CONCEPTUAL label; S58 begins with aligned unit-test instructions. S59 assumes module interactions now need verification, so the official Project scope is unit + integration tests while the reusable Workflow directs unit tests only. Compare instructions, not execution results (DEC-0027).
+CONCEPTUAL label; S66 begins with aligned unit-test instructions. S67 assumes module interactions now need verification, so the official Project scope is unit + integration tests while the reusable Workflow directs unit tests only. Compare instructions, not execution results (DEC-0027).
 
 ## Success Criteria
 
@@ -66,9 +68,9 @@ Evidence limit: No actual migration, command failure, Agent failure, Trial, or S
 
 ## Estimated Time
 
-4m: S58 2m + S59 2m.
+4m: S66 2m + S67 2m.
 
-Phase plan: S58 2m → S59 2m.
+Phase plan: S66 2m → S67 2m.
 
 Time Risk: LOW
 
@@ -90,9 +92,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S58.png`, `production/preview/full/S59.png`
+Default is the offline static presentation. Open: `production/preview/full/S66.png`, `production/preview/full/S67.png`
 
-Show S58–S59 static conceptual frames; keep the constructed-case label visible.
+Show S66–S67 static conceptual frames; keep the constructed-case label visible.
 
 Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
@@ -106,7 +108,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S59 → S60: distinguish task workaround from system problem.
+S67 → S68: distinguish task workaround from system problem.
 
 ## Evidence
 

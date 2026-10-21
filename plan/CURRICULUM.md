@@ -1,5 +1,9 @@
 # 6-Hour Curriculum
 
+> **현재 기준: DEC-0043 / 90장·368분 (2026-10-21).** 사용자 승인으로 기존82장 내용·장별 시간은 유지하고 S21 뒤에 실무 Prompt 기법8장·8분을 추가했다. 신규 S22–S29 뒤 기존 S22–S82는 S30–S90으로 이동한다. ACT1은21장/63분이며 ACT0/2/3/4/5 시간은40/70/85/80/30분이다. [90장 이행·승인 범위](SLIDE_ID_MIGRATION_90.md). 기존360분 기획·과거 판본·Trial·Asset 경로는 역사적 근거로 보존한다.
+
+**Current schedule override:** ACT1 adds8 minutes for eight practical methods. Current ACT times40/63/70/85/80/30, total368. Original360-minute STEP04 design and its audits below remain historical. All original slide allocations are preserved; new methods use Lecture7 and Case1.
+
 > Status: STEP 04 COMPLETE; STEP 07 schedule decision accepted on 2026-10-02
 > in DEC-0007. Approved mode totals are Lecture 130, Demo 73, Case 83,
 > Reflection 20, Transition 22, and Q&A/Discussion 32 minutes. STEP 08 will
@@ -203,7 +207,8 @@ workflow, and explicit completion criteria.
 Prompts remain important as the system grows.
 **Transition:** “그런데 왜 우리는 매번 같은 Project 설명을 반복할까?”
 
-**Current 82-slide teaching connection (DEC-0042):** S11–S23 retain their
+**Historical DEC-0042 connection,82-slide edition:**
+ S11–S23 retain their
 13 slides / 55 minutes and all slide-level allocations. The through-line is
 “원하는 변화, 지켜야 할 조건, 완료를 판단할 근거를 요청에 담는다.”
 S14 asks what the developer must decide, S15 generalizes the five request

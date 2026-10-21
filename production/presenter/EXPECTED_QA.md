@@ -1,8 +1,8 @@
 # 발표자용 예상 질문과 답변
 
 이 문서는 발표 중 질문이 나왔을 때 골라 쓰는 **예비 답변**이다. 25문항을
-차례로 설명하는 추가 강의가 아니다. 승인된 82장·순수 교육 360분과 그 안의
-Q&A 총 32분을 유지한다. S82은 Q&A 4분 뒤 마무리 2분으로 종료한다.
+차례로 설명하는 추가 강의가 아니다. 승인된 90장·순수 교육 368분과 그 안의
+Q&A 총 32분을 유지한다. S90은 Q&A 4분 뒤 마무리 2분으로 종료한다.
 시간 안에 다루기 어려운 질문은 확인할 조건과 남은 질문을 정리하고 닫는다.
 
 각 본문은 약 20–40초 답변을 목표로 작성했다. 이는 편집 기준이며 실제 발화
@@ -41,7 +41,7 @@ S08은 공식 자료 기반의 재구성 도식이며 대상 계정의 실제 �
 목표와 바꾸면 안 되는 범위를 말하며, 완료 판단에 필요한 근거를 확인하는 것입니다.
 다음 업무에서는 이 중 현재 가장 자주 빠지는 한 가지부터 적용하면 됩니다.
 
-**참고:** S01, S04–06, S15, S20–21, S81 ·
+**참고:** S01, S04–06, S15, S20–21, S89 ·
 [교육 방식과 수준별 목표](../../plan/MASTER_PLAN.md) ·
 [직접 실습 없음](../../plan/INVARIANTS.md)
 
@@ -78,7 +78,7 @@ Repository는 현재 코드가 어떻게 동작하는지 조사할 근거를 줍
 어떻게 개선할지에 관한 이야기입니다. 처음에는 Prompt로 조사와 검증을 요청하고,
 절차가 반복되면 재사용하며, 그 절차에 문제가 쌓이면 피드백으로 고칠 수 있습니다.
 
-**참고:** S15–20, S41, S68, S75 ·
+**참고:** S15–20, S49, S76, S83 ·
 [MASTER_PLAN §6.1](../../plan/MASTER_PLAN.md) ·
 [두 흐름의 구분](../../plan/INVARIANTS.md)
 
@@ -107,7 +107,7 @@ Task에 두고, 상세 계약이나 구조는 유지할 문서로 연결할 수 
 큰 규칙집을 만들기보다 실제로 반복되는 설명을 확인한 뒤 작은 공통 진입점을
 만드는 방식입니다.
 
-**참고:** S22–27, S32–34 · [STATE-01·STATE-03 기록](../../plan/DEMO_MATRIX.md) ·
+**참고:** S30–35, S40–42 · [STATE-01·STATE-03 기록](../../plan/DEMO_MATRIX.md) ·
 [DEC-0013·DEC-0014](../../plan/DECISIONS.md)
 
 ### 08. AGENTS.md가 몇 줄을 넘으면 분리해야 하나요?
@@ -118,7 +118,7 @@ Task에 두고, 상세 계약이나 구조는 유지할 문서로 연결할 수 
 유지하고, 상세 정보는 필요한 시점에 열 수 있게 나눕니다. 파일 개수를 늘리는
 것이 목적은 아닙니다.
 
-**참고:** S28–34 · [Context 성장과 분리 기록](../../plan/DEMO_MATRIX.md) ·
+**참고:** S36–42 · [Context 성장과 분리 기록](../../plan/DEMO_MATRIX.md) ·
 [Context 관련 불변 조건](../../plan/INVARIANTS.md)
 
 ### 09. Router로 나누면 필요한 문서만 읽고 토큰도 줄어드나요?
@@ -132,13 +132,13 @@ image-contracts 문서를 읽었고, TRIAL-005B의 의존성 질문은 읽지 �
 **말하지 않을 주장:** 완벽한 선택 로딩, 토큰 절감, 성능 향상, 현재 Desktop에서의
 동일한 동작이 입증됐다고 말하지 않는다.
 
-**참고:** S33–37 · [TRIAL-005A/B 접근 기록](../../plan/DEMO_MATRIX.md) ·
+**참고:** S41–45 · [TRIAL-005A/B 접근 기록](../../plan/DEMO_MATRIX.md) ·
 [CLAIM_FREEZE §11](../../plan/CLAIM_FREEZE.md)
 
 ### 10. Context window가 크면 긴 문서를 전부 넣어도 괜찮지 않나요?
 
 크기만으로 모든 정보가 모든 작업에서 똑같이 활용된다고 보기는 어렵습니다.
-S31의 연구는 특정 모델과 과제에서 정보의 관련성·위치·검색이 중요할 수 있다는
+S39의 연구는 특정 모델과 과제에서 정보의 관련성·위치·검색이 중요할 수 있다는
 범위로 소개했습니다. 여러 문서 질문 답변과 key-value 검색, Repository 코드 검색을
 다룬 연구이며, 이 Demo의 현재 Codex 개발 작업을 직접 시험한 결과는 아닙니다.
 필요한 정보와 출처를 분명히 하는 판단으로 가져가면 됩니다.
@@ -146,8 +146,8 @@ S31의 연구는 특정 모델과 과제에서 정보의 관련성·위치·검�
 **말하지 않을 주장:** 긴 Context가 항상 성능을 떨어뜨리거나 현재 Codex에 보편적인
 Lost-in-the-Middle 한계가 있다고 말하지 않는다.
 
-**참고:** S30–32 · [연구 범위와 원문 출처](../../plan/CLAIM_FREEZE.md) ·
-[S31 발표 노트](../notes/FULL_SPEAKER_NOTES.md)
+**참고:** S38–40 · [연구 범위와 원문 출처](../../plan/CLAIM_FREEZE.md) ·
+[S39 발표 노트](../notes/FULL_SPEAKER_NOTES.md)
 
 ## ACT 3 · 재사용할 절차와 필요한 만큼의 Harness
 
@@ -159,7 +159,7 @@ Lost-in-the-Middle 한계가 있다고 말하지 않는다.
 Task에, 출력 계약은 프로젝트 문서에, baseline부터 검증과 비교까지의 반복 절차는
 Workflow에 둘 수 있습니다. 이 셋은 교육용 책임 구분입니다.
 
-**참고:** S39–45 · [Task·Context·Workflow 노트](../notes/FULL_SPEAKER_NOTES.md) ·
+**참고:** S47–53 · [Task·Context·Workflow 노트](../notes/FULL_SPEAKER_NOTES.md) ·
 [DEC-0017](../../plan/DECISIONS.md)
 
 ### 12. Skill을 만들면 좋은 답과 일관된 결과가 보장되나요?
@@ -173,7 +173,7 @@ Skill 발견, 명시적 호출과 본문 로딩을 확인했습니다. 어떤 �
 **말하지 않을 주장:** Skill이 Prompt보다 우월하거나, 더 좋은 최적화 답·속도 향상·
 토큰 절감을 보장한다고 말하지 않는다.
 
-**참고:** S42–46 · [TRIAL-008 발견·호출·로딩 기록](../../plan/DEMO_MATRIX.md) ·
+**참고:** S50–54 · [TRIAL-008 발견·호출·로딩 기록](../../plan/DEMO_MATRIX.md) ·
 [DEC-0017](../../plan/DECISIONS.md)
 
 ### 13. 제 계정에서도 같은 Skill·Subagent·Memory를 쓸 수 있나요? 요금이나 메뉴는요?
@@ -184,7 +184,7 @@ Codex CLI 0.154.0의 명시적 호출 기록이며, 현재 Desktop이나 모든 
 먼저 실제 사용할 계정과 CLI·Desktop 등의 표면을 정하고, 공식 안내와 그 환경의
 동작을 함께 확인해야 구체적으로 답할 수 있습니다.
 
-**참고:** S04–06, S42–44, S48–51, S54 ·
+**참고:** S04–06, S50–52, S56–59, S62 ·
 [제품·계정 확인 경계](../../plan/CLAIM_FREEZE.md) ·
 [TRIAL-008의 관찰 범위](../../plan/DEMO_MATRIX.md)
 
@@ -196,12 +196,12 @@ Codex CLI 0.154.0의 명시적 호출 기록이며, 현재 Desktop이나 모든 
 정책과 승인 범위를 확인해야 합니다. 이 자료에는 해당 회사 정책에 관한 확인
 근거가 없으므로 여기서 허용 여부를 단정할 수 없습니다.
 
-**참고:** S54, S78 · [합성 로컬 Demo 선택: DEC-0011](../../plan/DECISIONS.md) ·
+**참고:** S62, S86 · [합성 로컬 Demo 선택: DEC-0011](../../plan/DECISIONS.md) ·
 [회사 정책 경계와 OQ-014](../../plan/CLAIM_FREEZE.md)
 
-### 15. S47의 30.4%는 Harness 덕분에 빨라졌다는 뜻인가요?
+### 15. S55의 30.4%는 Harness 덕분에 빨라졌다는 뜻인가요?
 
-S47에서는 같은 합성 입력과 환경에서 image_statistics의 코드 변경 전후를
+S55에서는 같은 합성 입력과 환경에서 image_statistics의 코드 변경 전후를
 비교했습니다. 상태별 7회 측정의 중앙값이 15.468에서 10.769 ms/call로 줄어,
 그 조건에서 약 30.4% 낮았습니다. 이는 특정 코드 경로의 관찰 결과입니다.
 Harness나 Skill만의 인과효과를 분리한 실험이 아니므로 다른 입력·환경의 성능이나
@@ -215,12 +215,12 @@ focused 1/1, 전체 11/11, CLI smoke와 benchmark guards를 통과한 기록입�
 이는 Python 할당 피크이며 프로세스 전체 메모리인 RSS가 아닙니다.
 
 **말하지 않을 주장:** “Harness가 30.4% 빠르게 만들었다”, “모든 입력에서 같은
-향상이 난다”, “프로세스 메모리가 380 bytes다”라고 말하지 않는다. S46의 후보
-비교를 S47의 정식 상태 전후 측정과 섞지 않는다.
+향상이 난다”, “프로세스 메모리가 380 bytes다”라고 말하지 않는다. S54의 후보
+비교를 S55의 정식 상태 전후 측정과 섞지 않는다.
 
-**참고:** S46–47 · [정식 STATE-04-PERF 측정 원본](../../plan/DEMO_MATRIX.md) ·
+**참고:** S54–55 · [정식 STATE-04-PERF 측정 원본](../../plan/DEMO_MATRIX.md) ·
 [CLAIM_FREEZE §8](../../plan/CLAIM_FREEZE.md) ·
-[S47 발표 노트](../notes/FULL_SPEAKER_NOTES.md)
+[S55 발표 노트](../notes/FULL_SPEAKER_NOTES.md)
 
 ### 16. Subagent를 여러 개 쓰면 더 잘 되거나 빨라지지 않나요?
 
@@ -230,7 +230,7 @@ focused 1/1, 전체 11/11, CLI smoke와 benchmark guards를 통과한 기록입�
 Subagent 도입이 정당화되지 않았습니다. 실제 복잡성이 생겼을 때 역할 분리의
 이익과 조정 비용을 함께 비교하는 것이 기준입니다.
 
-**참고:** S48–49, S52, S77 · [DEC-0018](../../plan/DECISIONS.md) ·
+**참고:** S56–57, S60, S85 · [DEC-0018](../../plan/DECISIONS.md) ·
 [복잡 작업 후보 검토](../../plan/DEMO_MATRIX.md)
 
 ### 17. 프로젝트 정보를 전부 Memory에 넣으면 재조사하지 않아도 되지 않나요?
@@ -244,7 +244,7 @@ Subagent 도입이 정당화되지 않았습니다. 실제 복잡성이 생겼�
 **더 묻는 경우:** 여기서의 보류는 이 프로젝트의 필요성 판단입니다. 제품의 지속
 Memory가 모든 계정에 존재하거나 같은 범위로 동작한다는 주장은 아닙니다.
 
-**참고:** S50–52, S77 · [Memory 필요성 감사](../../plan/DEMO_MATRIX.md) ·
+**참고:** S58–60, S85 · [Memory 필요성 감사](../../plan/DEMO_MATRIX.md) ·
 [Context와 Memory 구분](../../plan/INVARIANTS.md)
 
 ### 18. Python Demo를 C++·Vision 업무에 어떻게 적용하나요?
@@ -255,13 +255,13 @@ Memory가 모든 계정에 존재하거나 같은 범위로 동작한다는 주�
 장치 조건을 함께 볼 수 있습니다. 오늘 자료는 그 전이 예이며 실제 Windows·C++·
 GPU 환경에서 실행을 검증한 Demo는 아닙니다.
 
-**참고:** S16, S21, S27, S32–34, S55, S74, S80 ·
+**참고:** S16, S21, S35, S40–42, S63, S82, S88 ·
 [C++ 전이 노트](../notes/FULL_SPEAKER_NOTES.md) ·
 [환경별 확인 경계](../../plan/CLAIM_FREEZE.md)
 
 ## ACT 4 · 관찰, 원인, 변경, 재평가
 
-### 19. S58–67의 오래된 Workflow 문제는 Demo에서 실제로 일어난 일인가요?
+### 19. S66–75의 오래된 Workflow 문제는 Demo에서 실제로 일어난 일인가요?
 
 이 구간은 명시적으로 구분한 개념 사례입니다. 처음에는 프로젝트 기준과 Workflow가
 모두 단위 테스트를 가리킵니다. 이후 프로젝트의 검증 범위는 단위와 통합 테스트로
@@ -272,9 +272,9 @@ GPU 환경에서 실행을 검증한 Demo는 아닙니다.
 **말하지 않을 주장:** 실제 migration, Agent의 테스트 누락, 오래된 graypipe Skill의
 수정·복구, 새 Trial이나 Product State가 발생했다고 말하지 않는다.
 
-**참고:** S58–67 · [현재 DEMO-04A 설정](../../plan/DEMO_MATRIX.md) ·
+**참고:** S66–75 · [현재 DEMO-04A 설정](../../plan/DEMO_MATRIX.md) ·
 [개념 사례 경계](../../plan/CLAIM_FREEZE.md) ·
-[S58–67 발표 노트](../notes/FULL_SPEAKER_NOTES.md)
+[S66–75 발표 노트](../notes/FULL_SPEAKER_NOTES.md)
 
 ### 20. AI가 실패할 때마다 AGENTS.md나 Skill에 규칙을 하나씩 추가하면 되나요?
 
@@ -284,15 +284,15 @@ GPU 환경에서 실행을 검증한 Demo는 아닙니다.
 뒷받침하는 범위를 바꿉니다. 전역 규칙을 계속 더하면 중복·충돌이나 다른 작업의
 불필요한 절차를 만들 수 있습니다.
 
-**더 묻는 경우:** S61의 Workflow 수정 선택은 Workflow 원인이 확인된 경우의
+**더 묻는 경우:** S69의 Workflow 수정 선택은 Workflow 원인이 확인된 경우의
 논리입니다. 실제 문제의 원인을 조사하기 전에 적용할 고정 정답은 아닙니다.
 
-**참고:** S60–64, S67 · [원인과 변경 Layer 노트](../notes/FULL_SPEAKER_NOTES.md) ·
+**참고:** S68–72, S75 · [원인과 변경 Layer 노트](../notes/FULL_SPEAKER_NOTES.md) ·
 [Loop의 범위](../../plan/INVARIANTS.md)
 
-### 21. S66의 네 대표 작업을 돌려서 변경이 안전하다고 확인한 건가요?
+### 21. S74의 네 대표 작업을 돌려서 변경이 안전하다고 확인한 건가요?
 
-S66는 무엇을 평가할지 설명하는 정적 구성입니다. EVAL-01의 버그 수정과
+S74는 무엇을 평가할지 설명하는 정적 구성입니다. EVAL-01의 버그 수정과
 EVAL-02의 성능 작업에는 별도 과거 Product 기록이 있지만, 이번 가상 Workflow
 변경 뒤의 결과는 아닙니다. EVAL-03의 문서 작업과 EVAL-04의 작은 리팩터링은
 실행 결과가 없는 설계 사례입니다. 핵심은 작업 수보다 변경이 닿는 사용 방식과
@@ -301,8 +301,8 @@ EVAL-02의 성능 작업에는 별도 과거 Product 기록이 있지만, 이번
 **말하지 않을 주장:** 네 작업의 변경 후 PASS/FAIL, 새 Trial 또는 평가 완료를
 말하지 않는다. 과거 EVAL-01/02 참고를 새 Workflow 평가 결과로 쓰지 않는다.
 
-**참고:** S65–67 · [S66 / DEMO-10 범위 조정 원본](../../plan/DEMO_MATRIX.md) ·
-[S66 발표 노트](../notes/FULL_SPEAKER_NOTES.md)
+**참고:** S73–75 · [S74 / DEMO-10 범위 조정 원본](../../plan/DEMO_MATRIX.md) ·
+[S74 발표 노트](../notes/FULL_SPEAKER_NOTES.md)
 
 ### 22. Loop Engineering은 AI가 계속 재시도하거나 스스로 학습한다는 뜻인가요?
 
@@ -312,10 +312,10 @@ EVAL-02의 성능 작업에는 별도 과거 Product 기록이 있지만, 이번
 작용했는지 다시 봐야 합니다. 이 정의가 자동 실행, 모델 자체의 학습이나 끝없는
 반복을 포함하는 것은 아닙니다.
 
-**참고:** S60–68 · [교육용 정의: CLAIM_FREEZE §7](../../plan/CLAIM_FREEZE.md) ·
+**참고:** S68–76 · [교육용 정의: CLAIM_FREEZE §7](../../plan/CLAIM_FREEZE.md) ·
 [DEC-0023](../../plan/DECISIONS.md)
 
-### 23. 그러면 S69–73의 실제 Meta Loop에서는 무엇이 바뀌었나요?
+### 23. 그러면 S77–81의 실제 Meta Loop에서는 무엇이 바뀌었나요?
 
 실제 기록은 TRIAL-006의 전역 환경 영향 관찰이 DEC-0016의 평가·보고 기준
 변경으로 이어지고, TRIAL-007/008에서 후속 기록에 부분 적용된 흐름입니다.
@@ -331,7 +331,7 @@ TRIAL-008의 전역 영향 목록도 부분적입니다. 이 불일치와 남은
 **말하지 않을 주장:** Demo Product 코드나 Repository Skill을 고쳤다거나, 환경
 영향을 완전히 파악했거나, Trial·교육 품질 향상을 측정했다고 말하지 않는다.
 
-**참고:** S69–73 · [실제 Meta 근거와 DEC-0021](../../plan/DECISIONS.md) ·
+**참고:** S77–81 · [실제 Meta 근거와 DEC-0021](../../plan/DECISIONS.md) ·
 [TRIAL-006/007/008 원본 기록](../../plan/DEMO_MATRIX.md) ·
 [CLAIM_FREEZE §9](../../plan/CLAIM_FREEZE.md)
 
@@ -349,7 +349,7 @@ Minimum Effective Harness는 현재 문제에 필요한 Context·Workflow·Verif
 지식·절차, 검증과 피드백을 의도적으로 설계·운영한다는 모델로 사용합니다.
 공식 OpenAI 정의나 업계 공통 분류로 제시하지 않습니다.
 
-**참고:** S52–56, S75–77, S79–81 ·
+**참고:** S60–64, S83–85, S87–89 ·
 [DEC-0009·DEC-0023](../../plan/DECISIONS.md) ·
 [교육용 정의](../../plan/CLAIM_FREEZE.md)
 
@@ -361,7 +361,7 @@ Minimum Effective Harness는 현재 문제에 필요한 Context·Workflow·Verif
 AI가 잘 일할 조건과 확인 경로를 설계하면서 그 결과의 책임을 유지하는 것이
 중요합니다. 위임 범위와 수용 기준도 함께 정해야 합니다.
 
-**참고:** S78–82 · [개발자 책임과 마무리 노트](../notes/FULL_SPEAKER_NOTES.md) ·
+**참고:** S86–90 · [개발자 책임과 마무리 노트](../notes/FULL_SPEAKER_NOTES.md) ·
 [MASTER_PLAN §15](../../plan/MASTER_PLAN.md)
 
 ## 확인이 필요한 질문을 닫는 문장
@@ -376,6 +376,6 @@ AI가 잘 일할 조건과 확인 경로를 설계하면서 그 결과의 책임
 > “목표와 유지할 계약, 실제 build/test 진입점, 입력·장치·실행 조건을 먼저 알아야
 > 어떤 검증으로 답할지 정할 수 있습니다.”
 
-시간 마감 시에는 [S82 Notes](../notes/FULL_SPEAKER_NOTES.md)의 Q&A 4분과
+시간 마감 시에는 [S90 Notes](../notes/FULL_SPEAKER_NOTES.md)의 Q&A 4분과
 마무리 2분을 지킨다. 확인되지 않은 답을 채워 넣거나 새 강의 주제를 열지 않고,
 남은 질문과 확인할 조건을 짧게 정리한 뒤 교육을 마친다.

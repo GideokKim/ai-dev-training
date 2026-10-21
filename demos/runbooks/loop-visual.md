@@ -1,8 +1,10 @@
 # LOOP-VISUAL — Product Loop and Harness Improvement Loop
 
+> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+
 Planning Status: APPROVED TEACHING MODEL visual
 
-Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-050–053
 
@@ -56,7 +58,7 @@ Explain the two loops and the developer decision boundary.
 
 ## Expected Output
 
-S68 teaching model only.
+S76 teaching model only.
 
 ## Verification
 
@@ -68,7 +70,7 @@ Evidence limit: No self-learning, automatic improvement, infinite loop, or guara
 
 2m visual allocation; Lecture 9m is separate.
 
-Phase plan: S68 Demo 2m.
+Phase plan: S76 Demo 2m.
 
 Time Risk: LOW
 
@@ -90,9 +92,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S68.png`
+Default is the offline static presentation. Open: `production/preview/full/S76.png`
 
-Use S68.png; do not reuse S69 Observed Meta frame.
+Use S76.png; do not reuse S77 Observed Meta frame.
 
 Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
@@ -106,7 +108,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S68 → S69: switch explicitly from Teaching Model to Observed Meta evidence.
+S76 → S77: switch explicitly from Teaching Model to Observed Meta evidence.
 
 ## Evidence
 

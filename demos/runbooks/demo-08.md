@@ -1,8 +1,10 @@
 # DEMO-08 — Durable Knowledge Decision Visual
 
+> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+
 Planning Status: DEFERRED — no primary-repository Memory instance
 
-Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-028–032
 
@@ -56,7 +58,7 @@ Judge durable knowledge by repeated rediscovery cost without assuming a product 
 
 ## Expected Output
 
-S50 static source/knowledge map.
+S58 static source/knowledge map.
 
 ## Verification
 
@@ -66,9 +68,9 @@ Evidence limit: No Product Memory use or cross-task reuse is claimed.
 
 ## Estimated Time
 
-2m S50 Demo; S51 Lecture is separate.
+2m S58 Demo; S59 Lecture is separate.
 
-Phase plan: S50 2m.
+Phase plan: S58 2m.
 
 Time Risk: LOW
 
@@ -90,9 +92,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S50.png`
+Default is the offline static presentation. Open: `production/preview/full/S58.png`
 
-Use S50.png; do not open or simulate a product Memory tool.
+Use S58.png; do not open or simulate a product Memory tool.
 
 Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
@@ -106,7 +108,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S50 → S51: formalize the rediscovery-cost criterion.
+S58 → S59: formalize the rediscovery-cost criterion.
 
 ## Evidence
 

@@ -238,7 +238,7 @@
         "M2"
       ],
       "scope": "principle",
-      "rationale": "이번 요청에만 필요한 정보와 다음 작업에도 유지할 정보의 수명·재사용 범위를 나눈다. 공통 Context 재사용 원리를 확장한다.",
+      "rationale": "제목과 태그로 지시와 분석 자료의 경계를 표시한다. 교육용 Prompt 기법의 해당 원리 연결이며 원모듈 전체 이수·CoT/ToT 성과를 뜻하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2"
     },
@@ -248,7 +248,7 @@
         "M2"
       ],
       "scope": "principle",
-      "rationale": "일회성 목표와 여러 작업에서 재사용할 프로젝트 제약·테스트 정보를 구분한다.",
+      "rationale": "설명만으로 부족할 때 입력과 원하는 결과를 함께 준다. 교육용 Prompt 기법의 해당 원리 연결이며 원모듈 전체 이수·CoT/ToT 성과를 뜻하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2"
     },
@@ -257,8 +257,8 @@
       "modules": [
         "M2"
       ],
-      "scope": "direct",
-      "rationale": "버그 수정·성능 조사·README 수정에서 같은 환경·테스트·보존 제약을 반복해 설명하는 상황으로 공통 Context 재사용의 필요를 보여준다.",
+      "scope": "principle",
+      "rationale": "받고 싶은 항목과 길이를 요청에 적는다. 교육용 Prompt 기법의 해당 원리 연결이며 원모듈 전체 이수·CoT/ToT 성과를 뜻하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2"
     },
@@ -267,8 +267,8 @@
       "modules": [
         "M2"
       ],
-      "scope": "direct",
-      "rationale": "프로젝트 목적·실행 방법·테스트 명령·기본 제약을 지속 Project Context에 둔다. 팀 공통 환경과 규칙의 재사용을 구체화한다.",
+      "scope": "principle",
+      "rationale": "결론에 자료 위치를 붙이고, 확인하지 못한 것은 남긴다. 교육용 Prompt 기법의 해당 원리 연결이며 원모듈 전체 이수·CoT/ToT 성과를 뜻하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2"
     },
@@ -278,12 +278,92 @@
         "M2"
       ],
       "scope": "principle",
-      "rationale": "AGENTS.md의 지속 지침을 찾아 기록된 테스트 명령을 사용한 단일 관찰이다. 공통 Context 활용과 연결하며 독립적 효과나 템플릿 우월성을 주장하지 않는다.",
+      "rationale": "조사할 사실과 답을 받아야 할 결정을 구분한다. 교육용 Prompt 기법의 해당 원리 연결이며 원모듈 전체 이수·CoT/ToT 성과를 뜻하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2"
     },
     {
       "slideId": "S27",
+      "modules": [
+        "M2"
+      ],
+      "scope": "principle",
+      "rationale": "다음 결정을 할 수 있는 작은 결과부터 요청한다. 교육용 Prompt 기법의 해당 원리 연결이며 원모듈 전체 이수·CoT/ToT 성과를 뜻하지 않는다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · M2"
+    },
+    {
+      "slideId": "S28",
+      "modules": [
+        "M2"
+      ],
+      "scope": "principle",
+      "rationale": "무엇을 찾을지와 어떤 근거로 보고할지를 지정한다. 교육용 Prompt 기법의 해당 원리 연결이며 원모듈 전체 이수·CoT/ToT 성과를 뜻하지 않는다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · M2"
+    },
+    {
+      "slideId": "S29",
+      "modules": [
+        "M2"
+      ],
+      "scope": "principle",
+      "rationale": "어긋난 지점과 원하는 변경, 유지할 조건을 적는다. 교육용 Prompt 기법의 해당 원리 연결이며 원모듈 전체 이수·CoT/ToT 성과를 뜻하지 않는다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · M2"
+    },
+    {
+      "slideId": "S30",
+      "modules": [
+        "M2"
+      ],
+      "scope": "principle",
+      "rationale": "이번 요청에만 필요한 정보와 다음 작업에도 유지할 정보의 수명·재사용 범위를 나눈다. 공통 Context 재사용 원리를 확장한다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · M2"
+    },
+    {
+      "slideId": "S31",
+      "modules": [
+        "M2"
+      ],
+      "scope": "principle",
+      "rationale": "일회성 목표와 여러 작업에서 재사용할 프로젝트 제약·테스트 정보를 구분한다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · M2"
+    },
+    {
+      "slideId": "S32",
+      "modules": [
+        "M2"
+      ],
+      "scope": "direct",
+      "rationale": "버그 수정·성능 조사·README 수정에서 같은 환경·테스트·보존 제약을 반복해 설명하는 상황으로 공통 Context 재사용의 필요를 보여준다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · M2"
+    },
+    {
+      "slideId": "S33",
+      "modules": [
+        "M2"
+      ],
+      "scope": "direct",
+      "rationale": "프로젝트 목적·실행 방법·테스트 명령·기본 제약을 지속 Project Context에 둔다. 팀 공통 환경과 규칙의 재사용을 구체화한다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · M2"
+    },
+    {
+      "slideId": "S34",
+      "modules": [
+        "M2"
+      ],
+      "scope": "principle",
+      "rationale": "AGENTS.md의 지속 지침을 찾아 기록된 테스트 명령을 사용한 단일 관찰이다. 공통 Context 활용과 연결하며 독립적 효과나 템플릿 우월성을 주장하지 않는다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · M2"
+    },
+    {
+      "slideId": "S35",
       "modules": [
         "M2"
       ],
@@ -293,7 +373,7 @@
       "footerLabel": "M 연계 · M2"
     },
     {
-      "slideId": "S28",
+      "slideId": "S36",
       "modules": [],
       "scope": "new_extension",
       "rationale": "Context의 양이 증가할 때 각 정보의 필요성을 묻는 현행 Context Engineering 확장이다. 원자료의 고정 Context 예시만으로 이 문제를 가르쳤다고 보지 않는다.",
@@ -301,7 +381,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S29",
+      "slideId": "S37",
       "modules": [],
       "scope": "new_extension",
       "rationale": "정확성·관련성·관찰된 결과를 구별하는 Context 선택 사례다. README 업무가 등장해도 문서 작성법이나 원모듈의 별도 교수 내용으로 세지 않는다.",
@@ -309,7 +389,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S30",
+      "slideId": "S38",
       "modules": [],
       "scope": "new_extension",
       "rationale": "Always-on·On-demand·Workflow의 범위와 제공 시점을 나누는 현행 정보 설계 모델이다.",
@@ -317,7 +397,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S31",
+      "slideId": "S39",
       "modules": [],
       "scope": "new_extension",
       "rationale": "Long Context 연구의 과제·조건·제한된 결론을 소개한다. AI 리서치·자료 선별·보고서 작성 방법인 M3를 가르치는 장이 아니다.",
@@ -325,7 +405,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S32",
+      "slideId": "S40",
       "modules": [],
       "scope": "new_extension",
       "rationale": "Task에서 Core Context를 거쳐 관련 상세 정보로 가는 Routing 모델이다. 공통 Context가 언급된다는 이유만으로 원모듈 교수 내용으로 계산하지 않는다.",
@@ -333,7 +413,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S33",
+      "slideId": "S41",
       "modules": [],
       "scope": "new_extension",
       "rationale": "Core의 기본 안내와 architecture·contracts·testing 상세 문서의 탐색 경로를 설계한다. 아키텍처 설계나 사람의 온보딩 자료 작성 수업은 아니다.",
@@ -341,7 +421,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S34",
+      "slideId": "S42",
       "modules": [],
       "scope": "new_extension",
       "rationale": "상세 정보를 문서별로 이동하고 링크를 두는 실제 Context Routing 구조 변화다. 제품 시스템의 책임 분해·아키텍처 생성과 구분한다.",
@@ -349,7 +429,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S35",
+      "slideId": "S43",
       "modules": [],
       "scope": "new_extension",
       "rationale": "서로 다른 Task가 어떤 상세 문서에 접근할지 관찰하는 질문이다. 현행 Routing 관찰 설계에 해당한다.",
@@ -357,7 +437,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S36",
+      "slideId": "S44",
       "modules": [
         "M2",
         "M6"
@@ -368,7 +448,7 @@
       "footerLabel": "M 연계 · M2 · M6"
     },
     {
-      "slideId": "S37",
+      "slideId": "S45",
       "modules": [],
       "scope": "new_extension",
       "rationale": "Task별 상세 문서 접근과 변동을 비교한다. Routing 관찰이며 원자료의 학습·생산성·프롬프트 기법 효과 비교가 아니다.",
@@ -376,7 +456,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S38",
+      "slideId": "S46",
       "modules": [
         "M2",
         "M8"
@@ -387,7 +467,7 @@
       "footerLabel": "M 연계 · M2 · M8"
     },
     {
-      "slideId": "S39",
+      "slideId": "S47",
       "modules": [
         "M2",
         "M5",
@@ -399,7 +479,7 @@
       "footerLabel": "M 연계 · M2 · M5 · M8"
     },
     {
-      "slideId": "S40",
+      "slideId": "S48",
       "modules": [
         "M2",
         "M8"
@@ -410,7 +490,7 @@
       "footerLabel": "M 연계 · M2 · M8"
     },
     {
-      "slideId": "S41",
+      "slideId": "S49",
       "modules": [
         "M2",
         "M8"
@@ -421,7 +501,7 @@
       "footerLabel": "M 연계 · M2 · M8"
     },
     {
-      "slideId": "S42",
+      "slideId": "S50",
       "modules": [
         "M2",
         "M8"
@@ -432,7 +512,7 @@
       "footerLabel": "M 연계 · M2 · M8"
     },
     {
-      "slideId": "S43",
+      "slideId": "S51",
       "modules": [],
       "scope": "new_extension",
       "rationale": "과거 Codex CLI에서 Repository Skill을 발견하고 명시적으로 호출한 경로를 보여준다. 원자료의 IDE 설치나 prompting 방법으로 환산하지 않는다.",
@@ -440,7 +520,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S44",
+      "slideId": "S52",
       "modules": [
         "M2",
         "M8"
@@ -451,7 +531,7 @@
       "footerLabel": "M 연계 · M2 · M8"
     },
     {
-      "slideId": "S45",
+      "slideId": "S53",
       "modules": [
         "M2",
         "M5"
@@ -462,7 +542,7 @@
       "footerLabel": "M 연계 · M2 · M5"
     },
     {
-      "slideId": "S46",
+      "slideId": "S54",
       "modules": [
         "M2",
         "M5",
@@ -474,7 +554,7 @@
       "footerLabel": "M 연계 · M2 · M5 · M9"
     },
     {
-      "slideId": "S47",
+      "slideId": "S55",
       "modules": [
         "M5"
       ],
@@ -484,7 +564,7 @@
       "footerLabel": "M 연계 · M5"
     },
     {
-      "slideId": "S48",
+      "slideId": "S56",
       "modules": [],
       "scope": "new_extension",
       "rationale": "연결된 현재 작업에서 별도 Subagent를 정당화할 독립성·병렬 이득·통합 비용을 검토한다. 원자료의 제품 스레드 설계나 시스템 대안 비교가 아니다.",
@@ -492,7 +572,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S49",
+      "slideId": "S57",
       "modules": [
         "M2"
       ],
@@ -502,7 +582,7 @@
       "footerLabel": "M 연계 · M2"
     },
     {
-      "slideId": "S50",
+      "slideId": "S58",
       "modules": [],
       "scope": "new_extension",
       "rationale": "기존 출처와 별도 Memory 후보를 구분하며 이번 Demo에 추가 Memory를 두지 않은 이유를 점검한다. 학습·온보딩 방법은 아니다.",
@@ -510,7 +590,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S51",
+      "slideId": "S59",
       "modules": [],
       "scope": "new_extension",
       "rationale": "재발견 비용·재사용성·출처·갱신 조건으로 Memory 필요성을 판단한다. 외부 리서치나 R&D 결정의 재평가 방법으로 확대하지 않는다.",
@@ -518,7 +598,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S52",
+      "slideId": "S60",
       "modules": [],
       "scope": "new_extension",
       "rationale": "현재 문제에 실제로 필요했던 Task·Context·Workflow·Verification 구성을 Minimum Effective Harness로 결산한다. 원자료에 없는 Agent 작업 환경 설계 모델이다.",
@@ -526,7 +606,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S53",
+      "slideId": "S61",
       "modules": [],
       "scope": "new_extension",
       "rationale": "Harness를 개발자와 Agent의 작업 환경 설계로 정의한다. 제품 시스템 아키텍처와 별도인 현행 운영 모델이다.",
@@ -534,7 +614,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S54",
+      "slideId": "S62",
       "modules": [
         "M2",
         "M6"
@@ -545,7 +625,7 @@
       "footerLabel": "M 연계 · M2 · M6"
     },
     {
-      "slideId": "S55",
+      "slideId": "S63",
       "modules": [
         "M5",
         "M6"
@@ -562,7 +642,7 @@
       "footerLabel": "M 연계 · M5 · M6"
     },
     {
-      "slideId": "S56",
+      "slideId": "S64",
       "modules": [
         "M2",
         "M8"
@@ -573,7 +653,7 @@
       "footerLabel": "M 연계 · M2 · M8"
     },
     {
-      "slideId": "S57",
+      "slideId": "S65",
       "modules": [
         "M5",
         "M6"
@@ -584,7 +664,7 @@
       "footerLabel": "M 연계 · M5 · M6"
     },
     {
-      "slideId": "S58",
+      "slideId": "S66",
       "modules": [
         "M6"
       ],
@@ -594,7 +674,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S59",
+      "slideId": "S67",
       "modules": [
         "M6"
       ],
@@ -604,7 +684,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S60",
+      "slideId": "S68",
       "modules": [
         "M2",
         "M6"
@@ -615,7 +695,7 @@
       "footerLabel": "M 연계 · M2 · M6"
     },
     {
-      "slideId": "S61",
+      "slideId": "S69",
       "modules": [
         "M6"
       ],
@@ -625,7 +705,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S62",
+      "slideId": "S70",
       "modules": [
         "M6"
       ],
@@ -635,7 +715,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S63",
+      "slideId": "S71",
       "modules": [
         "M6"
       ],
@@ -645,7 +725,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S64",
+      "slideId": "S72",
       "modules": [
         "M5",
         "M6"
@@ -656,7 +736,7 @@
       "footerLabel": "M 연계 · M5 · M6"
     },
     {
-      "slideId": "S65",
+      "slideId": "S73",
       "modules": [
         "M6"
       ],
@@ -666,7 +746,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S66",
+      "slideId": "S74",
       "modules": [
         "M6"
       ],
@@ -676,7 +756,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S67",
+      "slideId": "S75",
       "modules": [],
       "scope": "new_extension",
       "rationale": "규칙 누적·충돌·특정 Task 편향으로 Harness가 과도하게 좁아질 수 있다는 현행 유지관리 모델이다. 생산성 지표나 제품 테스트 방법과 동일하게 세지 않는다.",
@@ -684,7 +764,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S68",
+      "slideId": "S76",
       "modules": [
         "M2",
         "M6"
@@ -695,7 +775,7 @@
       "footerLabel": "M 연계 · M2 · M6"
     },
     {
-      "slideId": "S69",
+      "slideId": "S77",
       "modules": [
         "M6"
       ],
@@ -705,7 +785,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S70",
+      "slideId": "S78",
       "modules": [
         "M5",
         "M6"
@@ -716,7 +796,7 @@
       "footerLabel": "M 연계 · M5 · M6"
     },
     {
-      "slideId": "S71",
+      "slideId": "S79",
       "modules": [],
       "scope": "new_extension",
       "rationale": "실제 제작 과정에서 Trial 평가·보고 기준을 바꾼 Meta 사례다. ADR 필드 작성이나 AI 리서치 보고서 작성 교육은 아니다.",
@@ -724,7 +804,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S72",
+      "slideId": "S80",
       "modules": [
         "M6"
       ],
@@ -734,7 +814,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S73",
+      "slideId": "S81",
       "modules": [
         "M6"
       ],
@@ -744,7 +824,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S74",
+      "slideId": "S82",
       "modules": [
         "M5",
         "M6"
@@ -755,7 +835,7 @@
       "footerLabel": "M 연계 · M5 · M6"
     },
     {
-      "slideId": "S75",
+      "slideId": "S83",
       "modules": [
         "M1",
         "M2"
@@ -766,7 +846,7 @@
       "footerLabel": "M 연계 · M1 · M2"
     },
     {
-      "slideId": "S76",
+      "slideId": "S84",
       "modules": [
         "M5",
         "M6"
@@ -777,7 +857,7 @@
       "footerLabel": "M 연계 · M5 · M6"
     },
     {
-      "slideId": "S77",
+      "slideId": "S85",
       "modules": [
         "M8",
         "M9"
@@ -788,7 +868,7 @@
       "footerLabel": "M 연계 · M8 · M9"
     },
     {
-      "slideId": "S78",
+      "slideId": "S86",
       "modules": [
         "M1",
         "M2",
@@ -803,7 +883,7 @@
       "footerLabel": "M 연계 · M1 · M2 · M4 · M5 · M6 · M9"
     },
     {
-      "slideId": "S79",
+      "slideId": "S87",
       "modules": [],
       "scope": "new_extension",
       "rationale": "Task Boundary·지식/절차·검증/피드백을 함께 설계하는 AI-Native Development의 현행 운영 모델이다. 원자료의 업무별 사용법과 구분한다.",
@@ -811,7 +891,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S80",
+      "slideId": "S88",
       "modules": [
         "M2",
         "M8"
@@ -822,7 +902,7 @@
       "footerLabel": "M 연계 · M2 · M8"
     },
     {
-      "slideId": "S81",
+      "slideId": "S89",
       "modules": [
         "M1",
         "M8"
@@ -833,7 +913,7 @@
       "footerLabel": "M 연계 · M1 · M8"
     },
     {
-      "slideId": "S82",
+      "slideId": "S90",
       "modules": [
         "M1"
       ],

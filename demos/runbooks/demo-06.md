@@ -1,8 +1,10 @@
 # DEMO-06 — Context Relevance and Routing
 
+> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+
 Planning Status: CANDIDATE — supporting visual/captured record
 
-Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-011–017
 
@@ -48,7 +50,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-Task-dependent document access; S37 explicitly says perfect routing, token saving, and performance improvement were not measured.
+Task-dependent document access; S45 explicitly says perfect routing, token saving, and performance improvement were not measured.
 
 ## Success Criteria
 
@@ -66,9 +68,9 @@ Evidence limit: No perfect routing, token saving, or performance gain; Progressi
 
 ## Estimated Time
 
-5m total: S29 Demo 2m + S34 Demo 2m + S37 Demo 1m.
+5m total: S37 Demo 2m + S42 Demo 2m + S45 Demo 1m.
 
-Phase plan: S29 2m → S34 2m → S37 1m.
+Phase plan: S37 2m → S42 2m → S45 1m.
 
 Time Risk: LOW
 
@@ -90,9 +92,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S29.png`, `production/preview/full/S34.png`, `production/preview/full/S37.png`
+Default is the offline static presentation. Open: `production/preview/full/S37.png`, `production/preview/full/S42.png`, `production/preview/full/S45.png`
 
-Use S29/S34/S37 PNGs in Story order; S37 is a selected observation summary, not raw tool log.
+Use S37/S42/S45 PNGs in Story order; S45 is a selected observation summary, not raw tool log.
 
 Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
@@ -106,7 +108,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S37 → S38: procedure repetition remains after context organization.
+S45 → S46: procedure repetition remains after context organization.
 
 ## Evidence
 

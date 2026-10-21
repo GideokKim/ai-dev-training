@@ -1206,3 +1206,118 @@ Notes: CLM-0031; pair the documented route with the presentation-environment gat
 | CLM-0028 | SRC-0143, SRC-0209, SRC-0210 | SWE-Bench Pro source/version conflict |
 | CLM-0029 | SRC-0103, SRC-0105, SRC-0139, SRC-0140 | Verification capability and evaluation |
 | CLM-0031 | SRC-0228, SRC-0229 | Documented ChatGPT dropdown to Codex development path; target UI remains unverified |
+
+## 2026-10-21 — Prompt Engineering Sources Addendum
+
+These entries record official documentation inspected on the checked date.
+They support bounded recommendations, not new performance measurements or
+observed execution of the added teaching examples.
+
+### SRC-0230
+
+Title: Prompt engineering
+Organization / Authors: OpenAI
+Source Type: OFFICIAL_DOC
+URL: https://developers.openai.com/api/docs/guides/prompt-engineering
+Published: Not shown
+Checked: 2026-10-21
+Tier: 1
+Topics: Delimiters, examples, relevant context, coding responsibilities
+Sections / Selectors: Message formatting with Markdown and XML; Few-shot learning; Include relevant context information; Coding
+Key Evidence: Documents prompt boundaries, input/output examples, relevant source material and explicit workflow responsibilities.
+Limitations: API documentation adapted to teaching requests; no universal efficacy or role-based accuracy guarantee. Delimiters alone are not a security boundary. C++ crop prompts are conceptual and not TRIAL-002 observations.
+Volatility: HIGH
+Notes: CLM-0032, CLM-0033, CLM-0035, CLM-0038; detailed scope in product/PROMPT_ENGINEERING_2026-10-21.md.
+
+### SRC-0231
+
+Title: Reasoning best practices
+Organization / Authors: OpenAI
+Source Type: OFFICIAL_DOC
+URL: https://developers.openai.com/api/docs/guides/reasoning-best-practices
+Published: Not shown
+Checked: 2026-10-21
+Tier: 1
+Topics: Clear instructions, delimiters, zero-shot/few-shot, reasoning boundaries
+Sections / Selectors: How to prompt reasoning models effectively
+Key Evidence: Recommends direct instructions, clear sections and trying zero-shot before closely aligned examples; says chain-of-thought prompting can be unnecessary or harmful for reasoning models.
+Limitations: Use the named prompting section only. Older model-family and vision-support descriptions on this page must not become current 2026 capability claims. No measured result for the teaching examples.
+Volatility: HIGH
+Notes: CLM-0032, CLM-0033, CLM-0037; distinguish reviewable task plans from requests for internal reasoning disclosure.
+
+### SRC-0232
+
+Title: Best practices
+Organization / Authors: OpenAI / ChatGPT Learn
+Source Type: OFFICIAL_DOC
+URL: https://learn.chatgpt.com/guides/best-practices
+Published: Not shown
+Checked: 2026-10-21
+Tier: 1
+Topics: Planning, clarification, focused checks, code review
+Sections / Selectors: Plan first for difficult tasks; Improve reliability with testing and review
+Key Evidence: Recommends planning or interviewing for difficult/ambiguous tasks, relevant checks and review of changes.
+Limitations: Documented guidance only. Tools, environment and permissions determine actual execution; a review does not prove complete correctness.
+Volatility: HIGH
+Notes: CLM-0036, CLM-0037, CLM-0038; https://developers.openai.com/codex/learn/best-practices redirected to this canonical URL when inspected.
+
+### SRC-0233
+
+Title: Structured model outputs
+Organization / Authors: OpenAI
+Source Type: OFFICIAL_DOC
+URL: https://developers.openai.com/api/docs/guides/structured-outputs
+Published: Not shown
+Checked: 2026-10-21
+Tier: 1
+Topics: API JSON Schema, structured output, format/content distinction
+Sections / Selectors: Structured model outputs; Handling user-generated input; Handling mistakes
+Key Evidence: Describes API schema-conforming outputs and warns that structured outputs can still contain mistakes or fabricate fields for incompatible input unless handling is specified.
+Limitations: This API mechanism is not activated merely by asking for JSON in a chat. Schema adherence does not establish factual correctness; no target account implementation was executed.
+Volatility: HIGH
+Notes: CLM-0034; teach as an API boundary alongside a plain-language output-format request.
+
+### SRC-0234
+
+Title: Prompting
+Organization / Authors: OpenAI / ChatGPT Learn
+Source Type: OFFICIAL_DOC
+URL: https://learn.chatgpt.com/docs/prompting
+Published: Not shown
+Checked: 2026-10-21
+Tier: 1
+Topics: Output format, source grounding, unknowns, focused review, follow-up refinement
+Sections / Selectors: Prompting overview; Set boundaries that prevent real problems; Make the result ready to use; Improve the result with follow-up messages; Prompting Codex; Iterate on UI with live updates; Review a GitHub pull request
+Key Evidence: Recommends useful output constraints, source-only boundaries with missing information flagged, explicit review focus and small specific follow-up requests.
+Limitations: Practical guidance, not a universal causal performance result. Adapting UI iteration or review examples to C++ crop is conceptual; follow-up messages do not establish improvement without evidence.
+Volatility: HIGH
+Notes: CLM-0034, CLM-0035, CLM-0037, CLM-0038, CLM-0039; no new Trial or efficacy statistic.
+
+### SRC-0235
+
+Title: Using GPT-6
+Organization / Authors: OpenAI
+Source Type: OFFICIAL_DOC
+URL: https://developers.openai.com/api/docs/guides/latest-model
+Published: Not shown
+Checked: 2026-10-21
+Tier: 1
+Topics: Material clarification, autonomy, bounded verification, model-dependent prompts
+Sections / Selectors: Prompting best practices; Initiative and follow-through; Testing and verification
+Key Evidence: Provides starting prompts for task follow-through and clarification and recommends verification appropriate to the change.
+Limitations: Guidance addresses observed GPT-6 Astra behavior and says to evaluate it with the selected model and workload. Do not generalize current model settings or performance claims to all models or account surfaces.
+Volatility: HIGH
+Notes: CLM-0036, CLM-0038; instructional adaptation only, not observed success of the course examples.
+
+### Added claim cross-reference
+
+| Claim ID | Key Source IDs | Research Topic |
+|----------|----------------|----------------|
+| CLM-0032 | SRC-0230, SRC-0231 | Prompt delimiters and their limits |
+| CLM-0033 | SRC-0230, SRC-0231 | Aligned examples; zero-shot before few-shot when suitable |
+| CLM-0034 | SRC-0233, SRC-0234 | Output contracts and API Structured Outputs boundary |
+| CLM-0035 | SRC-0230, SRC-0234 | Supplied-source grounding and unknowns |
+| CLM-0036 | SRC-0232, SRC-0235 | Material clarification and calibrated autonomy |
+| CLM-0037 | SRC-0232, SRC-0234, SRC-0231 | Reviewable task decomposition and reasoning boundary |
+| CLM-0038 | SRC-0232, SRC-0234, SRC-0235, SRC-0230 | Criteria-focused review and role as a perspective |
+| CLM-0039 | SRC-0234 | Concrete feedback and scoped follow-up refinement |

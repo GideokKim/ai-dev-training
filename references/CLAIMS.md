@@ -126,3 +126,24 @@ training account. The current S08 is an editable reconstruction. The top-left
 placement follows the user's environment description. Preserve the target
 product/account gate, and do not turn the course's Codex path into a claim that
 other ChatGPT surfaces cannot access files or repository context.
+
+## 2026-10-21 — Prompt Engineering Methods Addendum
+
+The claims below verify documented recommendations only. They do not verify
+universal efficacy, superiority over another technique, successful execution
+of a teaching Prompt, or availability in the target training account. The
+eight added C++ crop examples are CONCEPTUAL / TEACHING ADAPTATION, not new
+TRIAL-002 inputs or observations. Detailed sections, usage and limits are in
+`product/PROMPT_ENGINEERING_2026-10-21.md`. Full Prompt evaluation remains
+in ACT 4.
+
+| Claim ID | Claim | Type | Confidence | Evidence | Training Use | Status | Training Risk | Priority |
+|----------|-------|------|------------|----------|--------------|--------|---------------|----------|
+| CLM-0032 | OpenAI recommends Markdown/XML delimiters to clarify logical boundaries in prompts; delimiters do not establish a correctness or security guarantee. | DOCUMENTED RECOMMENDATION | HIGH | SRC-0230, SRC-0231 | Current S22 / delimiters | VERIFIED | MEDIUM | P2 |
+| CLM-0033 | OpenAI documents input/output examples as a way to express a desired pattern; reasoning guidance recommends trying zero-shot first and adding closely aligned examples when needed. | DOCUMENTED RECOMMENDATION | HIGH | SRC-0230, SRC-0231 | Current S23 / few-shot | VERIFIED | MEDIUM | P2 |
+| CLM-0034 | OpenAI recommends specifying the needed output format; requesting JSON in chat differs from API Structured Outputs, and schema-conforming content can still contain mistakes. | DOCUMENTED RECOMMENDATION / PRODUCT BOUNDARY | HIGH | SRC-0233, SRC-0234 | Current S24 / output format | VERIFIED | HIGH | P2 |
+| CLM-0035 | OpenAI recommends supplying relevant context and can be instructed to use only supplied sources and flag missing information; this does not guarantee factual accuracy. | DOCUMENTED RECOMMENDATION | HIGH | SRC-0230, SRC-0234 | Current S25 / grounding and unknowns | VERIFIED | HIGH | P2 |
+| CLM-0036 | OpenAI recommends clarifying complex or ambiguous work and tuning autonomy when additional input could materially change the result; this is not a universal rule to ask about every detail. | DOCUMENTED RECOMMENDATION | HIGH | SRC-0232, SRC-0235 | Current S26 / material clarification | VERIFIED | MEDIUM | P2 |
+| CLM-0037 | OpenAI recommends planning before coding for difficult tasks and separately warns that internal chain-of-thought prompting can be unnecessary for reasoning models. | DOCUMENTED RECOMMENDATION | HIGH | SRC-0232, SRC-0234, SRC-0231 | Current S27 / task decomposition | VERIFIED | MEDIUM | P2 |
+| CLM-0038 | OpenAI documents focused review instructions, explicit coding responsibilities and relevant verification; the teaching role is a review perspective, with no verified guarantee of expertise, independence or correctness. | DOCUMENTED RECOMMENDATION | HIGH | SRC-0232, SRC-0234, SRC-0235, SRC-0230 | Current S28 / criteria-focused review | VERIFIED | HIGH | P2 |
+| CLM-0039 | OpenAI recommends reviewing an initial result and using specific follow-up prompts to refine it; repetition alone is not evidence of improvement. | DOCUMENTED RECOMMENDATION | HIGH | SRC-0234 | Current S29 / concrete feedback | VERIFIED | MEDIUM | P2 |

@@ -31,13 +31,13 @@
     },
     "historicalTrialFramework": "Python unittest"
   },
-  "slideNumbering": "Current owner IDs follow DEC-0038 (82 slides); captured source IDs and bitmap filenames remain historical.",
-  "S59": {
+  "slideNumbering": "Current owner IDs follow DEC-0043 (90 slides); captured source IDs and bitmap filenames remain historical.",
+  "S67": {
     "method": "native PowerPoint text and shapes",
     "source": "production/source/presentation-revision/test-scope-visual.mjs",
     "evidenceRole": "CONCEPTUAL instruction-scope diagram; no actual test run"
   },
-  "S76": [
+  "S84": [
     {
       "sourceSlide": "S18",
       "file": "recap/S16-source.png",
@@ -57,7 +57,7 @@
       "originalAtCapture": "production/preview/full/S16.png"
     },
     {
-      "sourceSlide": "S34",
+      "sourceSlide": "S42",
       "file": "recap/S32-source.png",
       "sha256": "cbd441b787ac8e0d2d138eb63f165361f6ebf482aef7b5b9a75bba57a886e038",
       "sourceDimensions": [
@@ -75,7 +75,7 @@
       "originalAtCapture": "production/preview/full/S32.png"
     },
     {
-      "sourceSlide": "S47",
+      "sourceSlide": "S55",
       "file": "recap/S45-source.png",
       "sha256": "b3385d7ddfcd4ed0728f55c72eb86288a8941b38cd8523b91f0fa9ddce080788",
       "sourceDimensions": [
@@ -93,7 +93,7 @@
       "originalAtCapture": "production/preview/full/S45.png"
     }
   ],
-  "S43": {
+  "S51": {
     "status": "CONDITION_NOT_MET",
     "reason": "No original CLI screenshot or recording found in training assets/demos/prototype/production; retain labeled reconstruction"
   },

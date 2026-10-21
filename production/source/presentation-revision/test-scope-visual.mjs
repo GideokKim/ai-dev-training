@@ -1,10 +1,10 @@
 // Editable scope diagrams for the approved conceptual case in DEC-0027.
 export const slides={
-S59:(p,H)=>{
+S67:(p,H)=>{
  const {C,FONT,text,rect,line,arrow}=H;
  const s=p.slides.add();s.background.fill=C.bg;
  text(s,'ACT 4  ·  CONCEPTUAL / 가상 사례',64,48,1030,28,19,C.teal,true);
- text(s,'S59',1120,48,96,28,19,C.sub,false,FONT,'right');
+ text(s,'S67',1120,48,96,28,19,C.sub,false,FONT,'right');
  text(s,'Project는 바뀌고 Workflow는 남았다',64,84,1152,64,48,C.ink,true);
  text(s,'가정: 모듈 연결 동작도 검증해야 하는 프로젝트가 됐다',64,169,1152,44,30,C.ink);
 

@@ -1,8 +1,10 @@
 # DEMO-09 — Verification and System Map
 
+> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+
 Planning Status: CANDIDATE — supporting visual/captured record
 
-Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-033–036
 
@@ -66,9 +68,9 @@ Evidence limit: No general performance gain or claim that every Harness componen
 
 ## Estimated Time
 
-5m: S52 Demo 3m + S53 Demo 2m.
+5m: S60 Demo 3m + S61 Demo 2m.
 
-Phase plan: S52 3m → S53 2m.
+Phase plan: S60 3m → S61 2m.
 
 Time Risk: LOW
 
@@ -90,9 +92,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S52.png`, `production/preview/full/S53.png`
+Default is the offline static presentation. Open: `production/preview/full/S60.png`, `production/preview/full/S61.png`
 
-Use S52–S53 PNGs; these are static summaries, not a live validation result.
+Use S60–S61 PNGs; these are static summaries, not a live validation result.
 
 Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
@@ -106,7 +108,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S53 → S54: introduce outside-repository environment factors.
+S61 → S62: introduce outside-repository environment factors.
 
 ## Evidence
 

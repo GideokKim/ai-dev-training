@@ -1,6 +1,6 @@
 # ACT 1 — Speaker Notes
 
-Status: ALIGNED — DEC-0042에서 ACT 1을 요청 설계 → 실제 지시·행동·확인 근거 → 완료 조건 → 반복 Context로 연결했다. DEC-0041의 S21 vector·GoogleTest 예시와 기존 이미지·근거 범위, 82장/360분과 ACT 1 13장/55분을 유지한다. 최신 최종 PPT·렌더·Notes 대조는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다. Windows, room, current product/account, and timed rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0043 adds eight practical method slides after S21. Current ACT1 S11–S31 has21slides/63minutes; total90slides/368minutes. All original slide allocations and claims are preserved. Exact-package/render/Notes review is recorded in production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Windows/room/product/rehearsal remain UNVERIFIED.
 
 Validation history: 이전 제작본의 local Mac Keynote 렌더·구조 검토 기록은 Git history와 기존 ACT 평가 문서에 보존한다. 이전 제작본의 PASS를 새 수정본의 검증 완료로 승계하지 않는다.
 
@@ -440,7 +440,7 @@ Beginner Explanation: 완료를 판단할 수 있도록 변경 내용·확인 �
 
 Advanced Insight: Choose checks from the task’s risk and the exact claim being made; do not demand every check for every task.
 
-C++ Vision Bridge: 이 장에서는 새 C++ 예시를 추가하지 않는다. S21의 승인된 ON-SCREEN SUPPORTING vector·GoogleTest 도식으로 완료 조건과 검사 범위를 연결한다. 주요 C++ 패턴 전이는 S55에서 이어 간다. 도구 설치·실행 수업으로 확장하지 않는다.
+C++ Vision Bridge: 이 장에서는 새 C++ 예시를 추가하지 않는다. S21의 승인된 ON-SCREEN SUPPORTING vector·GoogleTest 도식으로 완료 조건과 검사 범위를 연결한다. 주요 C++ 패턴 전이는 S63에서 이어 간다. 도구 설치·실행 수업으로 확장하지 않는다.
 
 Demo Operation: TRIAL-002 verification callback only; DEMO-05의 8분 구간 밖이다. 새 관찰 카드나 새 실행 결과를 보여 주지 않고 하단 출처로 과거 확인 범위를 회수한다. 검토용 결과 인계는 기존 기록을 가리키는 강의용 정리이며 실제 PR 화면으로 표현하지 않는다. 본문은 교육 모델로 설명한다.
 
@@ -475,7 +475,7 @@ Speaker Flow:
 1. (0:00–0:30) “완료 조건에 어떤 검사와 기대값을 적어야 할까?”를 묻고 S20의 보고 요청을 회수한다. 좌측 표와 우측 도식은 요청할 확인 근거를 고르는 예시다. 실제 TRIAL-002는 Python unittest이며 우측은 교육용 C++ 표현이다.
 2. (0:30–2:30) 다섯 행을 요청에 담을 확인과 말할 수 있는 범위로 읽는다. 관련 테스트만 실행하면 해당 동작·조건, 프로젝트 전체 테스트 실행은 현재 suite의 회귀 범위, CLI 샘플 실행은 그 샘플의 통합 경로, 변경 내용 확인은 범위·의도치 않은 수정, 성능 측정은 지정 입력·환경을 뒷받침한다. 시험 도구 이름을 나열하거나 모든 요청에 모든 검사를 요구하지 않는다. Trial의 benchmark는 미실행이다.
 3. (2:30–4:00) 기존 DEC-0041의 입력 {1,2,3,4}, crop [1,3), 기대 {2,3}·2개와 잘못된 {2,3,4}·3개를 유지한다. “비어 있지 않음만 보라”는 `EXPECT_FALSE(actual.empty());`는 이 차이를 구별하지 못한다. 요청에 해당 입력의 기대 열·폭을 담고, `std::vector<int> expected{2,3};`를 둔 뒤 `EXPECT_EQ(actual.size(), 2u);`와 `EXPECT_EQ(actual, expected);`처럼 개수·값·순서를 비교하게 한다. vector 동등 비교가 길이도 보므로 size 행은 교육상 명시적 중복이다. assertion 수를 늘리는 기술이 아니라 완료 조건에 맞는 확인을 요청하는 예시다. 새 C++ 실행·PASS/FAIL은 없다.
-4. (4:00–5:00 / Reflection) 내가 요청할 완료 근거가 어떤 명세 위반을 구별할지 조용히 떠올린다. 작성·실습·답변을 요구하지 않는다. 그 확인 명령과 보존 조건이 다음 작업에도 필요할지 생각하며 S22로 연결한다.
+4. (4:00–5:00 / Reflection) 내가 요청할 완료 근거가 어떤 명세 위반을 구별할지 조용히 떠올린다. 작성·실습·답변을 요구하지 않는다. 요청의 표현 방법을 추가로 살펴본 뒤 반복 조건을 생각하게 한다.
 
 Evidence / Source: BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0041. Actual checks are separate from the TEACHING_MODEL mapping. 기존 crop 첫 행의 1·2·3·4와 기대 2·3을 native C++ vector 도식으로 재표현했다. Assertion과 vector 동등 비교의 의미: [GoogleTest Primer](https://google.github.io/googletest/primer.html), [Microsoft vector operators](https://learn.microsoft.com/en-us/cpp/standard-library/vector-operators?view=msvc-170). 기술 의미는 공식 문서에 한정하며 현재 Demo가 GoogleTest를 사용한다는 뜻이 아니다. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
@@ -485,13 +485,13 @@ Beginner Explanation: “테스트해줘”에서 멈추지 않고 이 입력에
 
 Advanced Insight: For std::vector<int>, equality compares length and corresponding element values in order; the explicit size check exposes the width requirement but is redundant with equality. Choose cases and assertions from the specification and risk instead of treating assertion count as coverage. Release build, API/ABI checks, regression cases and named-workload measurement remain optional patterns, not this Demo repository's tooling or completed validation.
 
-C++ Vision Bridge: ON-SCREEN SUPPORTING 예시: S02와 같은 native vector 원소 칸으로 기대 {2,3}와 잘못된 {2,3,4}를 표시하고 GoogleTest의 테스트러너 assertion 조건을 비교한다. 표준 C assert나 빌드 설정에 기대는 검증 예시가 아니며 GoogleTest 설치·사용법 강의로 확장하지 않는다. `expected` 지역변수로 비교 대상을 이름 붙인다. Release build·API/ABI·성능 측정 대응은 Notes의 선택 참고로만 남기고 주요 C++ 패턴 전이는 S55에 유지한다. No Windows, shell, IDE, hardware or new C++ execution is asserted.
+C++ Vision Bridge: ON-SCREEN SUPPORTING 예시: S02와 같은 native vector 원소 칸으로 기대 {2,3}와 잘못된 {2,3,4}를 표시하고 GoogleTest의 테스트러너 assertion 조건을 비교한다. 표준 C assert나 빌드 설정에 기대는 검증 예시가 아니며 GoogleTest 설치·사용법 강의로 확장하지 않는다. `expected` 지역변수로 비교 대상을 이름 붙인다. Release build·API/ABI·성능 측정 대응은 Notes의 선택 참고로만 남기고 주요 C++ 패턴 전이는 S63에 유지한다. No Windows, shell, IDE, hardware or new C++ execution is asserted.
 
 Demo Operation: TRIAL-002 evidence callback outside the 8-minute Demo slot. 좌측 표와 우측 vector·assertion 비교는 일반적인 check-to-claim 교육 모델이다. 하단 출처에는 실제 Trial에서 수행한 확인만 표시한다. 실제 Trial은 Python unittest이며 화면의 C++ 코드나 잘못된 vector를 새 실행 결과로 재생하지 않는다. Benchmark 미실행 경계를 유지하고 새 PASS/FAIL·성능 수치·실행 결과를 추가하지 않는다.
 
 Audience Interaction: 마지막 1분은 각자가 익숙한 Check와 그 조건이 확인하거나 놓칠 수 있는 명세 위반을 조용히 생각한다. 결과 발표나 테스트 작성은 요구하지 않는다.
 
-Transition: “이렇게 요청할 검사와 보존 조건을 정했지만, 테스트 명령과 같은 조건을 다음 작업에도 다시 쓰게 됩니다. 이번 Task에만 필요한 정보일까요?”라고 S22로 연결한다.
+Transition: “요청에 담을 내용은 정했습니다. 이제 상황에 맞게 전달하는 문장 도구를 보겠습니다.”라고 신규 S22로 이동한다. 기존 반복 Context 질문은 새8장 뒤의 S30–S31에서 회수한다.
 
 Time Management: Lecture4분(완료 조건 질문30초, 요청할 확인과 범위 표2분, 기존 vector·명세 assertion 비교90초)과 Reflection1분을 보존한다. 테스트 도구·초기화·assertion 수 자체의 강의로 확장하지 않는다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
 
@@ -499,9 +499,451 @@ Fallback: 정적 기본 경로 — `production/ACT_1.pptx` S21 또는 `productio
 
 Validation Status: ALIGNED — DEC-0042의 요청 설계·사례 연결·쉬운 용어를 정렬했다. 최종 PPT·내장 Notes·렌더 검토는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
-## S22 — 이번 Task인가, 계속 유지할 Project 정보인가?
+## S22 — 지시와 참고 자료의 구분
 
 Slide ID: S22
+
+Working Title: 지시와 참고 자료의 구분
+
+ACT / Section: ACT 1 / 1H — Practical Prompt Methods
+
+Allocated Time: 1 minute
+
+Mode Split: Lecture 1 minute
+
+Primary Message: 제목과 태그로 지시와 분석 자료의 경계를 표시한다.
+
+Opening Question: “로그·명세·요청이 섞여 있을 때, 요청을 어떻게 바꾸면 될까?”
+
+Speaker Flow:
+
+1. (0:00–0:15 ) 사용 상황을 한 문장으로 짚는다. 필요한 때 선택하는 문장 도구이며 모든 요청에 여덟 기법을 채울 필요는 없다고 연결한다.
+2. (0:15–0:45 ) 요청 전문을 낭독하지 않고 이 기법이 드러나는 두세 행만 가리킨다. 아래 문장은 복사해 자기 프로젝트 자료로 바꿔 사용할 교육용 예시다.
+
+```text
+# 요청
+crop 경계 오류의 원인 후보만 설명해줘.
+코드는 아직 수정하지 마.
+자료에 없는 내용은 미확인으로 표시해줘.
+
+# 참고 자료
+명세: crop [1,3)의 폭은 2
+로그 예: expected=2, actual=3
+```
+
+3. (0:45–1:00 ) 화면 하단의 핵심을 회수하고 한계를 짧게 짚는다. 다음은 입력과 기대 결과의 작은 예시의 활용 상황을 본다.
+
+Evidence / Source: CLM-0032; official documented recommendations checked 2026-10-21. https://developers.openai.com/api/docs/guides/prompt-engineering. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
+
+Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 구획은 읽을 경계를 알리는 수단입니다. 보안 격리나 자료의 진위를 보장하지 않습니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+
+Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
+
+C++ Vision Bridge: 기존 crop의 끝 좌표 제외 명세와 제조 검사 pipeline에 적용하는 개념 예시다. 실제 C++ 구현·실행·오류 정책이나 장비 조건은 추가로 확정하지 않는다.
+
+Demo Operation: N/A — static conceptual prompt example. No new Trial, model call, code change, benchmark or live surface demonstration.
+
+Audience Interaction: 요청 예시를 눈으로 확인하게 하고 핵심 부분만 가리킨다. 작성 실습·공개 답변·의무 응답을 요구하지 않는다.
+
+Transition: 다음은 입력과 기대 결과의 작은 예시의 활용 상황을 본다.
+
+Time Management: 1분 동안 핵심과 예시 두세 행만 짚는다. 전문·출처·주의점 전체 낭독은 하지 않는다. 사용자 승인으로 기존 장별 시간은 유지하고 소개8분을 추가했다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+
+Fallback: 정적 production/ACT_1.pptx S22 또는 production/preview/act1/S22.png. 교육용 요청·공식 권고·실제 Trial의 경계를 유지한다. 별도8장 검토용 파일은 보조 자료다.
+
+Validation Status: ALIGNED — DEC-0043. Exact final package, Notes and render checks are recorded in production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Windows PowerPoint, target fonts, room, current product/account and timed rehearsal remain UNVERIFIED.
+
+## S23 — 입력과 기대 결과의 작은 예시
+
+Slide ID: S23
+
+Working Title: 입력과 기대 결과의 작은 예시
+
+ACT / Section: ACT 1 / 1H — Practical Prompt Methods
+
+Allocated Time: 1 minute
+
+Mode Split: Case 1 minute
+
+Primary Message: 설명만으로 부족할 때 입력과 원하는 결과를 함께 준다.
+
+Opening Question: “범위·출력 패턴의 뜻이 엇갈릴 때, 요청을 어떻게 바꾸면 될까?”
+
+Speaker Flow:
+
+1. (0:00–0:15 ) 사용 상황을 한 문장으로 짚는다. 필요한 때 선택하는 문장 도구이며 모든 요청에 여덟 기법을 채울 필요는 없다고 연결한다.
+2. (0:15–0:45 ) 요청 전문을 낭독하지 않고 이 기법이 드러나는 두세 행만 가리킨다. 아래 문장은 복사해 자기 프로젝트 자료로 바꿔 사용할 교육용 예시다.
+
+```text
+crop 범위 설명을 아래 형식으로 작성해줘.
+입력 {1,2,3,4}에 대한 예시:
+[1,3) ⇒ {2,3}, 폭 2
+[0,1) ⇒ {1}, 폭 1
+
+같은 형식으로 [2,4)를 설명해줘.
+빈 범위·범위 초과 정책은 만들지 마.
+```
+
+3. (0:45–1:00 ) 화면 하단의 핵심을 회수하고 한계를 짧게 짚는다. 다음은 바로 검토할 수 있는 결과 형식의 활용 상황을 본다.
+
+Evidence / Source: CLM-0033; official documented recommendations checked 2026-10-21. https://developers.openai.com/api/docs/guides/prompt-engineering; https://developers.openai.com/api/docs/guides/reasoning-best-practices. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
+
+Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 예시와 명세를 일치시킵니다. 예시 몇 개가 모든 경계 조건의 명세를 대신하지 않습니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+
+Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
+
+C++ Vision Bridge: 기존 crop의 끝 좌표 제외 명세와 제조 검사 pipeline에 적용하는 개념 예시다. 실제 C++ 구현·실행·오류 정책이나 장비 조건은 추가로 확정하지 않는다.
+
+Demo Operation: N/A — static conceptual prompt example. No new Trial, model call, code change, benchmark or live surface demonstration.
+
+Audience Interaction: 요청 예시를 눈으로 확인하게 하고 핵심 부분만 가리킨다. 작성 실습·공개 답변·의무 응답을 요구하지 않는다.
+
+Transition: 다음은 바로 검토할 수 있는 결과 형식의 활용 상황을 본다.
+
+Time Management: 1분 동안 핵심과 예시 두세 행만 짚는다. 전문·출처·주의점 전체 낭독은 하지 않는다. 사용자 승인으로 기존 장별 시간은 유지하고 소개8분을 추가했다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+
+Fallback: 정적 production/ACT_1.pptx S23 또는 production/preview/act1/S23.png. 교육용 요청·공식 권고·실제 Trial의 경계를 유지한다. 별도8장 검토용 파일은 보조 자료다.
+
+Validation Status: ALIGNED — DEC-0043. Exact final package, Notes and render checks are recorded in production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Windows PowerPoint, target fonts, room, current product/account and timed rehearsal remain UNVERIFIED.
+
+## S24 — 바로 검토할 수 있는 결과 형식
+
+Slide ID: S24
+
+Working Title: 바로 검토할 수 있는 결과 형식
+
+ACT / Section: ACT 1 / 1H — Practical Prompt Methods
+
+Allocated Time: 1 minute
+
+Mode Split: Lecture 1 minute
+
+Primary Message: 받고 싶은 항목과 길이를 요청에 적는다.
+
+Opening Question: “장황한 답을 다시 가공하게 될 때, 요청을 어떻게 바꾸면 될까?”
+
+Speaker Flow:
+
+1. (0:00–0:15 ) 사용 상황을 한 문장으로 짚는다. 필요한 때 선택하는 문장 도구이며 모든 요청에 여덟 기법을 채울 필요는 없다고 연결한다.
+2. (0:15–0:45 ) 요청 전문을 낭독하지 않고 이 기법이 드러나는 두세 행만 가리킨다. 아래 문장은 복사해 자기 프로젝트 자료로 바꿔 사용할 교육용 예시다.
+
+```text
+crop 수정 결과를 다음 순서로 보고해줘.
+1. 변경 파일과 바꾼 이유
+2. 실제 실행한 확인 명령과 결과
+3. 실행하지 못한 확인과 이유
+4. 남은 위험과 확인이 필요한 결정
+각 항목은 두 문장 이내로 써줘.
+실행하지 않은 검사를 통과로 쓰지 마.
+```
+
+3. (0:45–1:00 ) 화면 하단의 핵심을 회수하고 한계를 짧게 짚는다. 다음은 근거가 있는 설명과 미확인의 구분의 활용 상황을 본다.
+
+Evidence / Source: CLM-0034; official documented recommendations checked 2026-10-21. https://learn.chatgpt.com/docs/prompting; https://developers.openai.com/api/docs/guides/structured-outputs. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
+
+Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 형식이 맞아도 내용은 확인해야 합니다. 채팅의 형식 요청은 API Structured Outputs와 별개입니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+
+Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
+
+C++ Vision Bridge: 기존 crop의 끝 좌표 제외 명세와 제조 검사 pipeline에 적용하는 개념 예시다. 실제 C++ 구현·실행·오류 정책이나 장비 조건은 추가로 확정하지 않는다.
+
+Demo Operation: N/A — static conceptual prompt example. No new Trial, model call, code change, benchmark or live surface demonstration.
+
+Audience Interaction: 요청 예시를 눈으로 확인하게 하고 핵심 부분만 가리킨다. 작성 실습·공개 답변·의무 응답을 요구하지 않는다.
+
+Transition: 다음은 근거가 있는 설명과 미확인의 구분의 활용 상황을 본다.
+
+Time Management: 1분 동안 핵심과 예시 두세 행만 짚는다. 전문·출처·주의점 전체 낭독은 하지 않는다. 사용자 승인으로 기존 장별 시간은 유지하고 소개8분을 추가했다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+
+Fallback: 정적 production/ACT_1.pptx S24 또는 production/preview/act1/S24.png. 교육용 요청·공식 권고·실제 Trial의 경계를 유지한다. 별도8장 검토용 파일은 보조 자료다.
+
+Validation Status: ALIGNED — DEC-0043. Exact final package, Notes and render checks are recorded in production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Windows PowerPoint, target fonts, room, current product/account and timed rehearsal remain UNVERIFIED.
+
+## S25 — 근거가 있는 설명과 미확인의 구분
+
+Slide ID: S25
+
+Working Title: 근거가 있는 설명과 미확인의 구분
+
+ACT / Section: ACT 1 / 1H — Practical Prompt Methods
+
+Allocated Time: 1 minute
+
+Mode Split: Lecture 1 minute
+
+Primary Message: 결론에 자료 위치를 붙이고, 확인하지 못한 것은 남긴다.
+
+Opening Question: “저장소 설명의 출처를 확인해야 할 때, 요청을 어떻게 바꾸면 될까?”
+
+Speaker Flow:
+
+1. (0:00–0:15 ) 사용 상황을 한 문장으로 짚는다. 필요한 때 선택하는 문장 도구이며 모든 요청에 여덟 기법을 채울 필요는 없다고 연결한다.
+2. (0:15–0:45 ) 요청 전문을 낭독하지 않고 이 기법이 드러나는 두세 행만 가리킨다. 아래 문장은 복사해 자기 프로젝트 자료로 바꿔 사용할 교육용 예시다.
+
+```text
+crop의 명세·구현·테스트를 찾아 비교해줘.
+결론마다 실제 파일·함수·줄을 붙여줘.
+다음 세 상태를 구분해줘.
+- 자료에서 확인
+- 코드로부터 추정
+- 아직 미확인
+근거가 충돌하면 차이를 먼저 알려줘.
+찾지 못한 정책은 관례로 채우지 마.
+```
+
+3. (0:45–1:00 ) 화면 하단의 핵심을 회수하고 한계를 짧게 짚는다. 다음은 결과를 바꾸는 결정에서 확인 질문의 활용 상황을 본다.
+
+Evidence / Source: CLM-0035; official documented recommendations checked 2026-10-21. https://developers.openai.com/api/docs/guides/prompt-engineering; https://learn.chatgpt.com/docs/prompting. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
+
+Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 파일·줄 인용도 실제 내용과 대조합니다. 인용이 있다는 사실만으로 정확성이 보장되지는 않습니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+
+Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
+
+C++ Vision Bridge: 기존 crop의 끝 좌표 제외 명세와 제조 검사 pipeline에 적용하는 개념 예시다. 실제 C++ 구현·실행·오류 정책이나 장비 조건은 추가로 확정하지 않는다.
+
+Demo Operation: N/A — static conceptual prompt example. No new Trial, model call, code change, benchmark or live surface demonstration.
+
+Audience Interaction: 요청 예시를 눈으로 확인하게 하고 핵심 부분만 가리킨다. 작성 실습·공개 답변·의무 응답을 요구하지 않는다.
+
+Transition: 다음은 결과를 바꾸는 결정에서 확인 질문의 활용 상황을 본다.
+
+Time Management: 1분 동안 핵심과 예시 두세 행만 짚는다. 전문·출처·주의점 전체 낭독은 하지 않는다. 사용자 승인으로 기존 장별 시간은 유지하고 소개8분을 추가했다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+
+Fallback: 정적 production/ACT_1.pptx S25 또는 production/preview/act1/S25.png. 교육용 요청·공식 권고·실제 Trial의 경계를 유지한다. 별도8장 검토용 파일은 보조 자료다.
+
+Validation Status: ALIGNED — DEC-0043. Exact final package, Notes and render checks are recorded in production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Windows PowerPoint, target fonts, room, current product/account and timed rehearsal remain UNVERIFIED.
+
+## S26 — 결과를 바꾸는 결정에서 확인 질문
+
+Slide ID: S26
+
+Working Title: 결과를 바꾸는 결정에서 확인 질문
+
+ACT / Section: ACT 1 / 1H — Practical Prompt Methods
+
+Allocated Time: 1 minute
+
+Mode Split: Lecture 1 minute
+
+Primary Message: 조사할 사실과 답을 받아야 할 결정을 구분한다.
+
+Opening Question: “정책을 사람이 선택해야 할 때, 요청을 어떻게 바꾸면 될까?”
+
+Speaker Flow:
+
+1. (0:00–0:15 ) 사용 상황을 한 문장으로 짚는다. 필요한 때 선택하는 문장 도구이며 모든 요청에 여덟 기법을 채울 필요는 없다고 연결한다.
+2. (0:15–0:45 ) 요청 전문을 낭독하지 않고 이 기법이 드러나는 두세 행만 가리킨다. 아래 문장은 복사해 자기 프로젝트 자료로 바꿔 사용할 교육용 예시다.
+
+```text
+빈 crop 범위의 처리 정책을 조사해줘.
+문서·테스트·호출부의 근거를 먼저 찾아줘.
+근거 없이 빈 결과와 오류 중 골라야 하면
+각 선택의 영향을 적고 질문해줘.
+그 결정에 의존하는 수정은 답변 뒤 진행해줘.
+그 선택과 무관한 조사는 계속해줘.
+```
+
+3. (0:45–1:00 ) 화면 하단의 핵심을 회수하고 한계를 짧게 짚는다. 다음은 큰 작업을 검토할 결과물로 나누기의 활용 상황을 본다.
+
+Evidence / Source: CLM-0036; official documented recommendations checked 2026-10-21. https://learn.chatgpt.com/guides/best-practices; https://developers.openai.com/api/docs/guides/latest-model. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
+
+Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 모든 세부를 질문으로 돌리지 않습니다. 답에 따라 결과가 달라지는 선택에 집중합니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+
+Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
+
+C++ Vision Bridge: 기존 crop의 끝 좌표 제외 명세와 제조 검사 pipeline에 적용하는 개념 예시다. 실제 C++ 구현·실행·오류 정책이나 장비 조건은 추가로 확정하지 않는다.
+
+Demo Operation: N/A — static conceptual prompt example. No new Trial, model call, code change, benchmark or live surface demonstration.
+
+Audience Interaction: 요청 예시를 눈으로 확인하게 하고 핵심 부분만 가리킨다. 작성 실습·공개 답변·의무 응답을 요구하지 않는다.
+
+Transition: 다음은 큰 작업을 검토할 결과물로 나누기의 활용 상황을 본다.
+
+Time Management: 1분 동안 핵심과 예시 두세 행만 짚는다. 전문·출처·주의점 전체 낭독은 하지 않는다. 사용자 승인으로 기존 장별 시간은 유지하고 소개8분을 추가했다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+
+Fallback: 정적 production/ACT_1.pptx S26 또는 production/preview/act1/S26.png. 교육용 요청·공식 권고·실제 Trial의 경계를 유지한다. 별도8장 검토용 파일은 보조 자료다.
+
+Validation Status: ALIGNED — DEC-0043. Exact final package, Notes and render checks are recorded in production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Windows PowerPoint, target fonts, room, current product/account and timed rehearsal remain UNVERIFIED.
+
+## S27 — 큰 작업을 검토할 결과물로 나누기
+
+Slide ID: S27
+
+Working Title: 큰 작업을 검토할 결과물로 나누기
+
+ACT / Section: ACT 1 / 1H — Practical Prompt Methods
+
+Allocated Time: 1 minute
+
+Mode Split: Lecture 1 minute
+
+Primary Message: 다음 결정을 할 수 있는 작은 결과부터 요청한다.
+
+Opening Question: “조사 결과에 따라 구현 범위가 달라질 때, 요청을 어떻게 바꾸면 될까?”
+
+Speaker Flow:
+
+1. (0:00–0:15 ) 사용 상황을 한 문장으로 짚는다. 필요한 때 선택하는 문장 도구이며 모든 요청에 여덟 기법을 채울 필요는 없다고 연결한다.
+2. (0:15–0:45 ) 요청 전문을 낭독하지 않고 이 기법이 드러나는 두세 행만 가리킨다. 아래 문장은 복사해 자기 프로젝트 자료로 바꿔 사용할 교육용 예시다.
+
+```text
+검사 pipeline에 ROI 설정을 연결하려 한다.
+이번에는 설정 입력에서 crop까지의 경로만
+조사하고, 변경 후보·미확인을 표로 정리해줘.
+코드는 아직 수정하지 마.
+
+그 결과를 보고 다음 요청에서
+파싱·유효성 확인 구현 범위를 정하겠다.
+```
+
+3. (0:45–1:00 ) 화면 하단의 핵심을 회수하고 한계를 짧게 짚는다. 다음은 기준을 지정한 코드 리뷰 요청의 활용 상황을 본다.
+
+Evidence / Source: CLM-0037; official documented recommendations checked 2026-10-21. https://learn.chatgpt.com/guides/best-practices; https://developers.openai.com/api/docs/guides/reasoning-best-practices. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
+
+Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 단계는 작업·산출물의 경계입니다. 숨은 사고 과정을 길게 출력하라는 요청이 아닙니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+
+Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
+
+C++ Vision Bridge: 기존 crop의 끝 좌표 제외 명세와 제조 검사 pipeline에 적용하는 개념 예시다. 실제 C++ 구현·실행·오류 정책이나 장비 조건은 추가로 확정하지 않는다.
+
+Demo Operation: N/A — static conceptual prompt example. No new Trial, model call, code change, benchmark or live surface demonstration.
+
+Audience Interaction: 요청 예시를 눈으로 확인하게 하고 핵심 부분만 가리킨다. 작성 실습·공개 답변·의무 응답을 요구하지 않는다.
+
+Transition: 다음은 기준을 지정한 코드 리뷰 요청의 활용 상황을 본다.
+
+Time Management: 1분 동안 핵심과 예시 두세 행만 짚는다. 전문·출처·주의점 전체 낭독은 하지 않는다. 사용자 승인으로 기존 장별 시간은 유지하고 소개8분을 추가했다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+
+Fallback: 정적 production/ACT_1.pptx S27 또는 production/preview/act1/S27.png. 교육용 요청·공식 권고·실제 Trial의 경계를 유지한다. 별도8장 검토용 파일은 보조 자료다.
+
+Validation Status: ALIGNED — DEC-0043. Exact final package, Notes and render checks are recorded in production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Windows PowerPoint, target fonts, room, current product/account and timed rehearsal remain UNVERIFIED.
+
+## S28 — 기준을 지정한 코드 리뷰 요청
+
+Slide ID: S28
+
+Working Title: 기준을 지정한 코드 리뷰 요청
+
+ACT / Section: ACT 1 / 1H — Practical Prompt Methods
+
+Allocated Time: 1 minute
+
+Mode Split: Lecture 1 minute
+
+Primary Message: 무엇을 찾을지와 어떤 근거로 보고할지를 지정한다.
+
+Opening Question: ““검토해줘”의 범위를 분명히 할 때, 요청을 어떻게 바꾸면 될까?”
+
+Speaker Flow:
+
+1. (0:00–0:15 ) 사용 상황을 한 문장으로 짚는다. 필요한 때 선택하는 문장 도구이며 모든 요청에 여덟 기법을 채울 필요는 없다고 연결한다.
+2. (0:15–0:45 ) 요청 전문을 낭독하지 않고 이 기법이 드러나는 두세 행만 가리킨다. 아래 문장은 복사해 자기 프로젝트 자료로 바꿔 사용할 교육용 예시다.
+
+```text
+crop 변경안을 코드 리뷰 관점에서 봐줘.
+검토 기준은 다음과 같아.
+1. 끝 좌표 제외 명세 보존
+2. 공개 API와 기존 오류 정책 보존
+3. 요청과 무관한 변경 없음
+위반마다 위치·근거·영향·수정 제안을 써줘.
+자료로 판단 못 하면 미확인으로 남겨줘.
+이번 요청에서는 코드를 바꾸지 마.
+```
+
+3. (0:45–1:00 ) 화면 하단의 핵심을 회수하고 한계를 짧게 짚는다. 다음은 구체적인 근거로 수정 방향 피드백의 활용 상황을 본다.
+
+Evidence / Source: CLM-0038; official documented recommendations checked 2026-10-21. https://learn.chatgpt.com/guides/best-practices; https://learn.chatgpt.com/docs/prompting. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
+
+Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 리뷰 답변도 누락할 수 있습니다. 필요한 실행 확인·변경 검토·사람의 완료 판단을 함께 사용합니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+
+Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
+
+C++ Vision Bridge: 기존 crop의 끝 좌표 제외 명세와 제조 검사 pipeline에 적용하는 개념 예시다. 실제 C++ 구현·실행·오류 정책이나 장비 조건은 추가로 확정하지 않는다.
+
+Demo Operation: N/A — static conceptual prompt example. No new Trial, model call, code change, benchmark or live surface demonstration.
+
+Audience Interaction: 요청 예시를 눈으로 확인하게 하고 핵심 부분만 가리킨다. 작성 실습·공개 답변·의무 응답을 요구하지 않는다.
+
+Transition: 다음은 구체적인 근거로 수정 방향 피드백의 활용 상황을 본다.
+
+Time Management: 1분 동안 핵심과 예시 두세 행만 짚는다. 전문·출처·주의점 전체 낭독은 하지 않는다. 사용자 승인으로 기존 장별 시간은 유지하고 소개8분을 추가했다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+
+Fallback: 정적 production/ACT_1.pptx S28 또는 production/preview/act1/S28.png. 교육용 요청·공식 권고·실제 Trial의 경계를 유지한다. 별도8장 검토용 파일은 보조 자료다.
+
+Validation Status: ALIGNED — DEC-0043. Exact final package, Notes and render checks are recorded in production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Windows PowerPoint, target fonts, room, current product/account and timed rehearsal remain UNVERIFIED.
+
+## S29 — 구체적인 근거로 수정 방향 피드백
+
+Slide ID: S29
+
+Working Title: 구체적인 근거로 수정 방향 피드백
+
+ACT / Section: ACT 1 / 1H — Practical Prompt Methods
+
+Allocated Time: 1 minute
+
+Mode Split: Lecture 1 minute
+
+Primary Message: 어긋난 지점과 원하는 변경, 유지할 조건을 적는다.
+
+Opening Question: “첫 제안의 일부가 의도와 다를 때, 요청을 어떻게 바꾸면 될까?”
+
+Speaker Flow:
+
+1. (0:00–0:15 ) 사용 상황을 한 문장으로 짚는다. 필요한 때 선택하는 문장 도구이며 모든 요청에 여덟 기법을 채울 필요는 없다고 연결한다.
+2. (0:15–0:45 ) 요청 전문을 낭독하지 않고 이 기법이 드러나는 두세 행만 가리킨다. 아래 문장은 복사해 자기 프로젝트 자료로 바꿔 사용할 교육용 예시다.
+
+```text
+앞선 “테스트 기대 폭을 3으로 바꾸자”는
+제안을 수정해줘. 원하는 명세는
+crop [1,3)에서 폭 2야.
+테스트 기대값은 유지하고,
+구현의 끝 좌표 처리만 다시 검토해줘.
+기존 API·의존성은 유지해줘.
+바꾼 제안과 미확인 사항만 보고해줘.
+```
+
+3. (0:45–1:00 ) 화면 하단의 핵심을 회수하고 한계를 짧게 짚는다. “이 조건 중 다음 작업에도 다시 적게 될 것은 무엇일까요?”라고 기존 S22–S23의 반복 Context 질문으로 연결한다. 현재 기존 두 장은 S30–S31이다.
+
+Evidence / Source: CLM-0039; official documented recommendations checked 2026-10-21. https://learn.chatgpt.com/docs/prompting. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
+
+Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 앞선 제안은 가상 예시입니다. 원하는 답만 반복시키지 말고 명세와 실제 근거로 방향을 고칩니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+
+Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
+
+C++ Vision Bridge: 기존 crop의 끝 좌표 제외 명세와 제조 검사 pipeline에 적용하는 개념 예시다. 실제 C++ 구현·실행·오류 정책이나 장비 조건은 추가로 확정하지 않는다.
+
+Demo Operation: N/A — static conceptual prompt example. No new Trial, model call, code change, benchmark or live surface demonstration.
+
+Audience Interaction: 요청 예시를 눈으로 확인하게 하고 핵심 부분만 가리킨다. 작성 실습·공개 답변·의무 응답을 요구하지 않는다.
+
+Transition: “이 조건 중 다음 작업에도 다시 적게 될 것은 무엇일까요?”라고 기존 S22–S23의 반복 Context 질문으로 연결한다. 현재 기존 두 장은 S30–S31이다.
+
+Time Management: 1분 동안 핵심과 예시 두세 행만 짚는다. 전문·출처·주의점 전체 낭독은 하지 않는다. 사용자 승인으로 기존 장별 시간은 유지하고 소개8분을 추가했다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+
+Fallback: 정적 production/ACT_1.pptx S29 또는 production/preview/act1/S29.png. 교육용 요청·공식 권고·실제 Trial의 경계를 유지한다. 별도8장 검토용 파일은 보조 자료다.
+
+Validation Status: ALIGNED — DEC-0043. Exact final package, Notes and render checks are recorded in production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Windows PowerPoint, target fonts, room, current product/account and timed rehearsal remain UNVERIFIED.
+
+## S30 — 이번 Task인가, 계속 유지할 Project 정보인가?
+
+Slide ID: S30
 
 Working Title: 이번 Task인가, 계속 유지할 Project 정보인가?
 
@@ -519,7 +961,7 @@ Speaker Flow:
 
 1. (0:00–1:00 / Reflection) S21에서 완료 근거를 요청에 담았다는 점을 회수한다. “이렇게 요청을 구체화했지만 테스트 명령과 보존 조건은 다음 작업에도 다시 쓰게 된다”고 반복 마찰을 제시하고, 익숙한 문장 하나가 이번 Task에만 필요한지 다음 작업에도 필요한지 생각하게 한다. 두 영역은 비워 둔다.
 2. (1:00–3:00 / Q&A) 자발적인 질문을 받는다. 분류의 정답이나 저장 방식·AGENTS.md를 미리 공개하지 않는다. 침묵도 정상 진행이다.
-3. (3:00) S23에서 정보의 수명·범위를 후보 예시로 비교하겠다고 넘긴다.
+3. (3:00) S31에서 정보의 수명·범위를 후보 예시로 비교하겠다고 넘긴다.
 
 Evidence / Source: BEAT-007 → BEAT-008 handoff, CLM-0029, CLM-0027, CLM-0003, CLM-0005. TEACHING_MODEL. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
@@ -535,17 +977,17 @@ Demo Operation: N/A.
 
 Audience Interaction: 순서: Reflection 1분 후 Q&A 2분. Reflection은 사적 생각 시간이고 공유는 자발적이다. 응답이 없으면 질문을 한 번 더 읽고 진행한다.
 
-Transition: “방금 떠올린 반복 문장을 이번 Task 정보와 계속 참고할 Project 정보의 후보로 나눠 보겠습니다.”라고 S23으로 이동한다.
+Transition: “방금 떠올린 반복 문장을 이번 Task 정보와 계속 참고할 Project 정보의 후보로 나눠 보겠습니다.”라고 S31으로 이동한다.
 
 Time Management: Reflection 1분, Q&A 2분을 보존한다. 긴 토론이나 개인 업무 공개를 요구하지 않는다.
 
-Fallback: 정적 기본 경로 — `production/ACT_1.pptx` S22 또는 `production/preview/act1/S22.png`를 사용한다. 요청 예시·기록·교육 모델의 기존 범위를 유지한다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다.
+Fallback: 정적 기본 경로 — `production/ACT_1.pptx` S30 또는 `production/preview/act1/S30.png`를 사용한다. 요청 예시·기록·교육 모델의 기존 범위를 유지한다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다.
 
 Validation Status: ALIGNED — DEC-0042의 요청 설계·사례 연결·쉬운 용어를 정렬했다. 최종 PPT·내장 Notes·렌더 검토는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
-## S23 — 반복하는 설명을 두 범주로 나누기
+## S31 — 반복하는 설명을 두 범주로 나누기
 
-Slide ID: S23
+Slide ID: S31
 
 Working Title: 반복하는 설명을 두 범주로 나누기
 
@@ -563,7 +1005,7 @@ Speaker Flow:
 
 1. (0:00–1:00 / Reflection) 앞 장에서 떠올린 반복 문장을 이번 Task 정보와 계속 참고할 Project 정보의 후보로 생각한다. 분류 시험이나 답안 작성은 아니다.
 2. (1:00–2:00 / Transition) crop 경계 수정·이번 README 수정은 현재 목표의 후보이고, 반복해서 사용할 테스트 명령·의존성 추가에 필요한 근거 같은 보존 조건은 여러 작업에서 참고할 후보임을 비교한다. 예시는 유일한 정답이나 실제 STATE-01 원문이 아니다.
-3. (2:00–4:00 / Transition) 원하는 변화·지킬 조건·완료 근거를 요청에 담는 원칙을 회수한다. 그중 같은 Project 사실과 확인 명령을 다음 작업에도 다시 적는다는 미해결 문제를 남긴다. Context의 위치·메커니즘을 먼저 답하지 않고 S24의 반복 장면이 필요하게 만든다.
+3. (2:00–4:00 / Transition) 원하는 변화·지킬 조건·완료 근거를 요청에 담는 원칙을 회수한다. 그중 같은 Project 사실과 확인 명령을 다음 작업에도 다시 적는다는 미해결 문제를 남긴다. Context의 위치·메커니즘을 먼저 답하지 않고 S32의 반복 장면이 필요하게 만든다.
 4. (4:00–6:00 / Q&A) 자발적인 질문을 받고 6분에 ACT 2로 간다. 질문이 없으면 반복 Project 설명이라는 마지막 질문을 한 번 읽고 정시에 넘긴다.
 
 Evidence / Source: BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005. TEACHING_MODEL / CONCEPTUAL. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
@@ -580,10 +1022,10 @@ Demo Operation: N/A.
 
 Audience Interaction: Reflection 1분 후 map 순서대로 ACT 2 Transition 3분, Q&A 2분. 예시는 후보로만 말하고, 자발적 응답을 받되 정답 분류를 평가하지 않는다.
 
-Transition: “요청은 구체화했지만, 같은 테스트 명령과 보존 조건은 다음 작업에도 다시 적게 됩니다. Project 설명을 왜 매번 Prompt에 다시 쓰고 있을까요?”라고 S24의 반복 Project Context 문제로 연결한다.
+Transition: “요청은 구체화했지만, 같은 테스트 명령과 보존 조건은 다음 작업에도 다시 적게 됩니다. Project 설명을 왜 매번 Prompt에 다시 쓰고 있을까요?”라고 S32의 반복 Project Context 문제로 연결한다.
 
 Time Management: 0–1분 Reflection, 1–4분 Transition, 4–6분 Q&A. 기존 Notes의 1–5분 전환/5–6분 Q&A 불일치를 승인된 Mode Split 1+3+2로 정렬한다. Project Context 해결책이나 AGENTS.md는 미리 공개하지 않는다.
 
-Fallback: 정적 기본 경로 — `production/ACT_1.pptx` S23 또는 `production/preview/act1/S23.png`를 사용한다. 요청 예시·기록·교육 모델의 기존 범위를 유지한다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다.
+Fallback: 정적 기본 경로 — `production/ACT_1.pptx` S31 또는 `production/preview/act1/S31.png`를 사용한다. 요청 예시·기록·교육 모델의 기존 범위를 유지한다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다.
 
 Validation Status: ALIGNED — DEC-0042의 요청 설계·사례 연결·쉬운 용어를 정렬했다. 최종 PPT·내장 Notes·렌더 검토는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.

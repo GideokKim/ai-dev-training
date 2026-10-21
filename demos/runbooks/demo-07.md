@@ -1,8 +1,10 @@
 # DEMO-07 — Subagent Decision Visual
 
+> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+
 Planning Status: DEFERRED — not justified at STATE-04
 
-Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-023–027
 
@@ -28,7 +30,7 @@ N/A — no Product State selected
 
 Playback uses local offline PNGs rendered from the current integrated deck. The target Windows PC, education Codex account/surface, permissions, and room are not selected or verified. Historical Trial environments apply only to their recorded runs.
 
-Historical source scope: DEC-0018/0019; Slide Map S48–49.
+Historical source scope: DEC-0018/0019; Slide Map S56–57.
 
 ## Repository Commit / Tag
 
@@ -66,9 +68,9 @@ Evidence limit: No current interface support, speed/quality gain, parallelism be
 
 ## Estimated Time
 
-5m: S48 Demo 3m + S49 Demo 2m; Q&A minute portions are separate.
+5m: S56 Demo 3m + S57 Demo 2m; Q&A minute portions are separate.
 
-Phase plan: S48 3m → S49 2m.
+Phase plan: S56 3m → S57 2m.
 
 Time Risk: LOW
 
@@ -90,9 +92,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S48.png`, `production/preview/full/S49.png`
+Default is the offline static presentation. Open: `production/preview/full/S56.png`, `production/preview/full/S57.png`
 
-S48–S49 PNG; do not open a product Subagent pane.
+S56–S57 PNG; do not open a product Subagent pane.
 
 Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
@@ -106,11 +108,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S49 → S50: move from role choice to durable knowledge.
+S57 → S58: move from role choice to durable knowledge.
 
 ## Evidence
 
-DEC-0018/0019; Slide Map S48–49.
+DEC-0018/0019; Slide Map S56–57.
 
 ## Do Not Claim
 

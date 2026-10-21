@@ -15,8 +15,8 @@ function frame(p,H,id,title,eyebrow,source,boundary,type='TEACHING_MODEL'){
 }
 
 export const slides={
- S66:(p,H)=>{const {C,text,line,rect}=H;
-  const s=frame(p,H,'S66','대표 작업으로 변경 범위를 확인하기','ACT 4 · CONCEPTUAL / 평가 설계','DEMO-10 · 네 작업 모두 이 Workflow 변경 후의 평가 결과는 없음','EVAL-01/02: 별도 과거 관찰 참고 · EVAL-03/04: 설계만 있음 · 새 실행·PASS/FAIL 없음','CONCEPTUAL');
+ S74:(p,H)=>{const {C,text,line,rect}=H;
+  const s=frame(p,H,'S74','대표 작업으로 변경 범위를 확인하기','ACT 4 · CONCEPTUAL / 평가 설계','DEMO-10 · 네 작업 모두 이 Workflow 변경 후의 평가 결과는 없음','EVAL-01/02: 별도 과거 관찰 참고 · EVAL-03/04: 설계만 있음 · 새 실행·PASS/FAIL 없음','CONCEPTUAL');
   text(s,'작업 수보다, 서로 다른 위험을 덮는가?',64,194,1152,48,33,C.ink,true);
   rect(s,64,252,1152,42,C.amber);
   text(s,'평가 설계 · 네 작업 모두 이 Workflow 변경 뒤의 실행 결과는 없음',80,257,1120,32,25,C.warn,true);
@@ -39,8 +39,8 @@ export const slides={
   });
   return s;
  },
- S68:(p,H)=>{const {C,text,line,arrow,rect}=H;
-  const s=frame(p,H,'S68','Feedback을 System Change와\nEvaluation으로 잇기','ACT 4 · 이 교육의 Loop 모델','DEC-0023 · 교육용 운영 모델','모델의 자동 학습이나 실제 Product Loop를 관찰했다는 뜻은 아니다.','TEACHING_MODEL');
+ S76:(p,H)=>{const {C,text,line,arrow,rect}=H;
+  const s=frame(p,H,'S76','Feedback을 System Change와\nEvaluation으로 잇기','ACT 4 · 이 교육의 Loop 모델','DEC-0023 · 교육용 운영 모델','모델의 자동 학습이나 실제 Product Loop를 관찰했다는 뜻은 아니다.','TEACHING_MODEL');
   text(s,'앞선 가상 사례의 판단을 다섯 단계로 묶으면',64,215,1152,42,29,C.sub);
   const items=[
    ['실행','무엇을 했나?','가상 Task\n현재 기준은\n단위 + 통합'],
@@ -61,8 +61,8 @@ export const slides={
   text(s,'다음 작업에도 영향을 주는 변경으로 연결한다.',64,561,1152,38,31,C.teal,true);
   return s;
  },
- S69:(p,H)=>{const {C,text,line,arrow,rect}=H;
-  const s=frame(p,H,'S69','실제 제작 기록: TRIAL-006','ACT 4 · OBSERVED META / Trial 평가·보고 기준','TRIAL-006 · 과거 Codex CLI 조사 기록의 재구성','앞의 가상 Workflow와 별개 사건이다. 제품 코드·Demo Skill의 수정 사례가 아니다.','OBSERVED_META');
+ S77:(p,H)=>{const {C,text,line,arrow,rect}=H;
+  const s=frame(p,H,'S77','실제 제작 기록: TRIAL-006','ACT 4 · OBSERVED META / Trial 평가·보고 기준','TRIAL-006 · 과거 Codex CLI 조사 기록의 재구성','앞의 가상 Workflow와 별개 사건이다. 제품 코드·Demo Skill의 수정 사례가 아니다.','OBSERVED_META');
   text(s,'성능 조사에 Prompt 밖의 환경도 함께 관여했다.',64,215,1152,52,34,C.teal,true);
   const events=[['작업 요청','성능 개선 작업'],['함께 관찰된 조건','Global Skill 관여\n시작 경고도 기록'],['결과 해석의 질문','Prompt만의 효과?\n귀속은 PARTIAL']];
   events.forEach((a,i)=>{const x=64+i*398;
@@ -75,8 +75,8 @@ export const slides={
   text(s,'좋은 결과가 있다는 것과 원인을 안다는 것은 별개다.',64,554,1152,40,29,C.sub);
   return s;
  },
- S70:(p,H)=>{const {C,text,line,rect}=H;
-  const s=frame(p,H,'S70','결과의 타당성과 원인 귀속은 별개다','ACT 4 · OBSERVED META / 두 가지 검증 질문','TRIAL-006 · resize_nearest · 7 one-call samples · 기록 재구성','기록된 합성 입력·CPython 3.9.6·macOS arm64의 결과. 현재 Desktop 또는 일반 효과가 아니다.','OBSERVED_META');
+ S78:(p,H)=>{const {C,text,line,rect}=H;
+  const s=frame(p,H,'S78','결과의 타당성과 원인 귀속은 별개다','ACT 4 · OBSERVED META / 두 가지 검증 질문','TRIAL-006 · resize_nearest · 7 one-call samples · 기록 재구성','기록된 합성 입력·CPython 3.9.6·macOS arm64의 결과. 현재 Desktop 또는 일반 효과가 아니다.','OBSERVED_META');
   text(s,'01',64,215,512,34,23,C.teal,true,H.CODE);
   text(s,'측정 결과는 유효한가?',64,263,512,52,33,C.teal,true);
   text(s,'02',704,215,512,34,23,C.warn,true,H.CODE);
@@ -89,8 +89,8 @@ export const slides={
   text(s,'결과에 대한 확인과, 원인에 대한 확신을 따로 기록한다.',64,555,1152,42,30,C.teal,true);
   return s;
  },
- S71:(p,H)=>{const {C,text,line,arrow}=H;
-  const s=frame(p,H,'S71','평가와 보고 규칙을 Evidence에 맞추다','ACT 4 · OBSERVED META / 실제 기록 방식 변경','TRIAL-006 → DEC-0016 · 평가·보고 기준을 요약한 도식','제품 코드·Demo Skill 수정이 아니며, 격리 환경에서 Prompt 효과를 검증한 것도 아니다.','OBSERVED_META');
+ S79:(p,H)=>{const {C,text,line,arrow}=H;
+  const s=frame(p,H,'S79','평가와 보고 규칙을 Evidence에 맞추다','ACT 4 · OBSERVED META / 실제 기록 방식 변경','TRIAL-006 → DEC-0016 · 평가·보고 기준을 요약한 도식','제품 코드·Demo Skill 수정이 아니며, 격리 환경에서 Prompt 효과를 검증한 것도 아니다.','OBSERVED_META');
   text(s,'DEC-0016 · 바뀐 것은 후속 Trial을 기록하는 기준',64,215,1152,52,33,C.teal,true);
   text(s,'기존 빈틈: 작업·Repository 중심으로 보고 주변 Harness 영향 설명이 부족했다.',64,280,1152,40,26,C.sub);
   const items=[['기존 결과 보존','TRIAL-006\nPARTIAL로 남김'],['진행 조건 명시','clean isolation을\n진행 조건으로 두지 않음'],['후속 기록 변경','관찰된 환경 영향을\n다음 Trial에 함께 기록']];
@@ -103,8 +103,8 @@ export const slides={
   text(s,'기록 대상: Skills · 경고 / 실행·사용 여부 · 결과를 설명할 수 있는 범위',64,553,1152,44,26,C.sub);
   return s;
  },
- S72:(p,H)=>{const {C,text,line,rect}=H;
-  const s=frame(p,H,'S72','후속 기록은 개선됐지만 완전하지 않았다','ACT 4 · OBSERVED META / 후속 기록 대조','TRIAL-007/008 · DEC-0016 · 원문 기록의 의미를 요약한 도식','MCP 작업 결과는 없음. 완전한 환경 목록이나 측정된 품질 향상을 뜻하지 않는다.','OBSERVED_META');
+ S80:(p,H)=>{const {C,text,line,rect}=H;
+  const s=frame(p,H,'S80','후속 기록은 개선됐지만 완전하지 않았다','ACT 4 · OBSERVED META / 후속 기록 대조','TRIAL-007/008 · DEC-0016 · 원문 기록의 의미를 요약한 도식','MCP 작업 결과는 없음. 완전한 환경 목록이나 측정된 품질 향상을 뜻하지 않는다.','OBSERVED_META');
   text(s,'TRIAL-007',64,216,544,42,29,C.teal,true);
   text(s,'보고와 원문을 대조',64,268,544,40,28,C.ink,true);
   line(s,64,322,544,C.teal,3);
@@ -123,8 +123,8 @@ export const slides={
   text(s,'Global influence',724,515,472,44,29,C.ink,true);
   return s;
  },
- S73:(p,H)=>{const {C,text,line,rect}=H;
-  const s=frame(p,H,'S73','실제 Meta Loop에서 바뀐 것','ACT 4 · OBSERVED META / 사례 회수','TRIAL-006 → DEC-0016 → TRIAL-007/008 · 실제 제작 기록','제품 코드의 개선이나 가상 stale Workflow의 복구 이력이 아니다.','OBSERVED_META');
+ S81:(p,H)=>{const {C,text,line,rect}=H;
+  const s=frame(p,H,'S81','실제 Meta Loop에서 바뀐 것','ACT 4 · OBSERVED META / 사례 회수','TRIAL-006 → DEC-0016 → TRIAL-007/008 · 실제 제작 기록','제품 코드의 개선이나 가상 stale Workflow의 복구 이력이 아니다.','OBSERVED_META');
   text(s,'바뀐 대상',64,221,1152,37,25,C.sub,true);
   text(s,'Trial을 평가하고 보고하는 기준',64,271,1152,60,40,C.teal,true);
   line(s,64,354,1152,C.teal,3);
@@ -137,8 +137,8 @@ export const slides={
   text(s,'Feedback은 평가 체계도 바꿀 수 있다. 변경 뒤의 결과는 다시 확인한다.',64,556,1152,40,28,C.teal,true);
   return s;
  },
- S75:(p,H)=>{const {C,text,line,arrow}=H;
-  const s=frame(p,H,'S75','여섯 시간의 Story를 한 장으로','ACT 5 · 전체 여정 회수','BEAT-060 · 이 교육의 문제 중심 진화 모델','앞의 방식을 버리거나, 모든 프로젝트가 같은 순서로 발전해야 한다는 뜻은 아니다.');
+ S83:(p,H)=>{const {C,text,line,arrow}=H;
+  const s=frame(p,H,'S83','여섯 시간의 Story를 한 장으로','ACT 5 · 전체 여정 회수','BEAT-060 · 이 교육의 문제 중심 진화 모델','앞의 방식을 버리거나, 모든 프로젝트가 같은 순서로 발전해야 한다는 뜻은 아니다.');
   text(s,'문제가 넓어질수록, 필요한 대응이 더해졌다.',64,202,1152,48,33,C.teal,true);
   const items=[['Chatbot','답을 구한다'],['Prompt','이번 작업을\n구체화한다'],['Context','프로젝트 지식을\n제공한다'],['Harness','일하는 환경을\n설계한다'],['Loop','피드백으로\n시스템을 고친다']];
   items.forEach((a,i)=>{const x=64+i*236;
@@ -151,8 +151,8 @@ export const slides={
   text(s,'지금 나는 AI를 어떤 방식으로 사용하고 있을까?',64,561,1152,39,30,C.ink,true);
   return s;
  },
- S77:(p,H)=>{const {C,text,line,rect}=H;
-  const s=frame(p,H,'S77','필요성이 입증되지 않은 것은 보류했다','ACT 5 · 이번 Demo의 선택 기준','STATE-04-PERF · DEC-0018 · 이번 작업의 선택을 회고','모든 프로젝트에서 Subagent·Memory가 불필요하거나 적을수록 좋다는 뜻은 아니다.','OBSERVED_PRODUCT / TEACHING_MODEL');
+ S85:(p,H)=>{const {C,text,line,rect}=H;
+  const s=frame(p,H,'S85','필요성이 입증되지 않은 것은 보류했다','ACT 5 · 이번 Demo의 선택 기준','STATE-04-PERF · DEC-0018 · 이번 작업의 선택을 회고','모든 프로젝트에서 Subagent·Memory가 불필요하거나 적을수록 좋다는 뜻은 아니다.','OBSERVED_PRODUCT / TEACHING_MODEL');
   text(s,'이 구성요소가 현재 문제에 필요한가?',64,211,1152,50,35,C.teal,true);
   text(s,'이번 문제에 필요했던 것',64,306,544,43,29,C.teal,true);
   text(s,'이번에는 정당화하지 못한 것',704,306,512,43,28,C.warn,true);
@@ -162,8 +162,8 @@ export const slides={
   text(s,'현재 문제가 필요로 하는 만큼 설계한다.',64,562,1152,38,30,C.teal,true);
   return s;
  },
- S78:(p,H)=>{const {C,text,line}=H;
-  const s=frame(p,H,'S78','위임이 늘어도 개발자 책임은 남는다','ACT 5 · 개발자의 판단','BEAT-061–062 · 이 교육의 책임 원칙','Agent와 개발자의 역할을 고정된 분업표로 제시하는 것은 아니다.');
+ S86:(p,H)=>{const {C,text,line}=H;
+  const s=frame(p,H,'S86','위임이 늘어도 개발자 책임은 남는다','ACT 5 · 개발자의 판단','BEAT-061–062 · 이 교육의 책임 원칙','Agent와 개발자의 역할을 고정된 분업표로 제시하는 것은 아니다.');
   text(s,'AI가 조사·생성·변경·실행·비교를 도와도',64,209,1152,48,32,C.sub);
   text(s,'결과를 수용하는 판단은 누가 하는가?',64,272,1152,54,36,C.teal,true);
   const items=[['목표','무엇을 해결할까?'],['판단','어떤 선택이\n적절할까?'],['검증','무엇으로\n확인할까?'],['책임','완료를\n수용해도 될까?']];
@@ -174,8 +174,8 @@ export const slides={
   text(s,'결과를 받는 일에는, 결과를 판단하는 책임이 함께 남는다.',64,562,1152,38,29,C.ink,true);
   return s;
  },
- S79:(p,H)=>{const {C,text,line,rect}=H;
-  const s=frame(p,H,'S79','AI-Native Development는\n이 교육의 운영 모델','ACT 5 · 일하는 환경을 설계한다','DEC-0023 · 과정에서 사용하는 운영 모델','공식·보편 정의가 아니며, 모든 Task에 모든 구성요소를 넣으라는 뜻은 아니다.');
+ S87:(p,H)=>{const {C,text,line,rect}=H;
+  const s=frame(p,H,'S87','AI-Native Development는\n이 교육의 운영 모델','ACT 5 · 일하는 환경을 설계한다','DEC-0023 · 과정에서 사용하는 운영 모델','공식·보편 정의가 아니며, 모든 Task에 모든 구성요소를 넣으라는 뜻은 아니다.');
   text(s,'AI가 일할 조건과, 결과를 확인할 경로를 설계한다.',64,218,1152,49,32,C.teal,true);
   const vals=[['작업 경계','무엇을 맡기고\n어디까지 바꿀까?'],['지식 · 절차','무엇을 알고\n어떤 방식으로 일할까?'],['검증 · 피드백','어떻게 확인하고\n다음 작업을 바꿀까?']];
   vals.forEach((a,i)=>{const x=64+i*398;
@@ -185,8 +185,8 @@ export const slides={
   });
   return s;
  },
- S80:(p,H)=>{const {C,text,line,rect}=H;
-  const s=frame(p,H,'S80','어느 Layer에서 마찰이 반복되는가?','ACT 5 · C++ VISION / 내 업무로 연결','BEAT-068–069 · 업무 적용을 위한 교육용 질문','같은 수준의 선택지다. 특정 C++ 프로젝트에서 검증된 절차나 필수 도입 순서가 아니다.');
+ S88:(p,H)=>{const {C,text,line,rect}=H;
+  const s=frame(p,H,'S88','어느 Layer에서 마찰이 반복되는가?','ACT 5 · C++ VISION / 내 업무로 연결','BEAT-068–069 · 업무 적용을 위한 교육용 질문','같은 수준의 선택지다. 특정 C++ 프로젝트에서 검증된 절차나 필수 도입 순서가 아니다.');
   text(s,'지금 내 업무와 가장 가까운 한 곳을 떠올려 본다.',64,189,1152,42,29,C.teal,true);
   const vals=[['A','Task','조사할 성능 병목의 범위가 흐리다'],['B','Context','빌드 조건·계약·하드웨어 가정을 반복 설명한다'],['C','Workflow','분석 → 변경 → 측정 → 회귀 확인을 매번 적는다'],['D','Verification','테스트와 Benchmark의 확인 기준이 모호하다'],['E','Feedback Loop','같은 문제가 다시 생겨도 관련 시스템을 안 바꾼다']];
   vals.forEach((a,i)=>{const y=255+i*65;line(s,64,y,1152);
@@ -197,8 +197,8 @@ export const slides={
   });
   return s;
  },
- S81:(p,H)=>{const {C,text,line}=H;
-  const s=frame(p,H,'S81','다음 작은 행동을 개인적으로 고른다','ACT 5 · 잠시 생각해 보기','BEAT-070–071 · 개인 성찰','마음속으로 떠올리는 시간이다. 기록·발표·제출은 요구하지 않는다.');
+ S89:(p,H)=>{const {C,text,line}=H;
+  const s=frame(p,H,'S89','다음 작은 행동을 개인적으로 고른다','ACT 5 · 잠시 생각해 보기','BEAT-070–071 · 개인 성찰','마음속으로 떠올리는 시간이다. 기록·발표·제출은 요구하지 않는다.');
   text(s,'떠올린 마찰에서, 작은 행동 하나를 마음속으로.',64,205,1152,50,34,C.teal,true);
   const items=[['01','반복 설명 하나를 다음 작업에서는 어떻게 줄일까?'],['02','AI가 다시 찾는 프로젝트 사실 하나를 어디에 둘까?'],['03','같은 실패가 또 생기면 어느 Layer부터 확인할까?']];
   items.forEach((a,i)=>{const y=299+i*91;line(s,64,y,1152,C.line,1);

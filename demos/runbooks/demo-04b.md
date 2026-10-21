@@ -1,8 +1,10 @@
 # DEMO-04B — Observed Training Production Meta Case
 
+> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+
 Planning Status: APPROVED SUPPORTING META ROLE
 
-Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-058–059
 
@@ -66,7 +68,7 @@ Evidence limit: No Product state change, MCP task-result use, full environment i
 
 ## Estimated Time
 
-8m: S69 2m + S70 4m + S71 Demo 2m.
+8m: S77 2m + S78 4m + S79 Demo 2m.
 
 Phase plan: 2m timeline → 4m attribution → 2m reporting boundary.
 
@@ -90,9 +92,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S69.png`, `production/preview/full/S70.png`, `production/preview/full/S71.png`
+Default is the offline static presentation. Open: `production/preview/full/S77.png`, `production/preview/full/S78.png`, `production/preview/full/S79.png`
 
-Show S69–S71; preserve the report/stderr discrepancy as unresolved.
+Show S77–S79; preserve the report/stderr discrepancy as unresolved.
 
 Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
@@ -106,7 +108,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S71 → S72: follow-up records improved but remained partial.
+S79 → S80: follow-up records improved but remained partial.
 
 ## Evidence
 

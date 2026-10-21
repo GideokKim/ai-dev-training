@@ -78,7 +78,7 @@ S16:make('S16','더 긴 Prompt보다 분명한 경계','ACT 1 · 같은 요청�
     rect(s,64,553,1152,46,C.pale);
     text(s,'C++에도: 출력·API/ABI 보존 범위와 Release 검증 조건을 먼저 정한다.',80,559,1120,35,27,C.teal);
   }),
-S23:make('S23','반복하는 설명을 두 범주로 나누기','ACT 1 · 정보의 수명과 범위',
+S31:make('S31','반복하는 설명을 두 범주로 나누기','ACT 1 · 정보의 수명과 범위',
   '교육용 후보 예시 · 모든 프로젝트에 적용되는 유일한 분류가 아님',
   '다음 질문: Project 정보를 왜 매번 Prompt에 다시 적고 있을까요?','CONCEPTUAL',
   (s,{C,text,line,rect})=>{
@@ -93,7 +93,7 @@ S23:make('S23','반복하는 설명을 두 범주로 나누기','ACT 1 · 정보
     });
     text(s,'다음 작업에도 필요한 설명은, 어디에 두면 좋을까?',64,555,1152,39,30,C.teal,true);
   }),
-S25:make('S25','작은 Project Context의 첫 기록','ACT 2  ·  Project Context',
+S33:make('S33','작은 Project Context의 첫 기록','ACT 2  ·  Project Context',
   'OBSERVED PRODUCT  |  STATE-01 · AGENTS.md 실제 원문 발췌',
   '파일의 내용과 기록 위치를 보여주는 장 · Agent의 활용 관찰은 다음 장에서 확인','OBSERVED_PRODUCT',
   (s,{C,text,line,CODE})=>{
@@ -116,7 +116,7 @@ S25:make('S25','작은 Project Context의 첫 기록','ACT 2  ·  Project Contex
       text(s,r[2],310,y+37,906,35,27,C.teal,true);
     });
   }),
-S27:make('S27','Task Prompt와 Project Context','ACT 2 · 정보의 범위와 수명',
+S35:make('S35','Task Prompt와 Project Context','ACT 2 · 정보의 범위와 수명',
   '교육용 구분 · 현재 목표와 지속되는 프로젝트 사실',
   'C++에서도 프로젝트 공통 제약과 이번 알고리즘 변경 조건은 범위가 다를 수 있다','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{
@@ -133,7 +133,7 @@ S27:make('S27','Task Prompt와 Project Context','ACT 2 · 정보의 범위와 �
     text(s,'다음 작업에서는 목표가 달라짐',80,547,484,36,25,C.sub,true);
     text(s,'여러 작업에서 다시 참고',720,547,480,36,27,C.teal,true);
   }),
-S31:make('S31','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 양을 다시 묻는 연구',
+S39:make('S39','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 양을 다시 묻는 연구',
   'Liu et al., Lost in the Middle, TACL 2024 · RepoQA, 2024',
   '특정 모델·과제의 결과 · 현재 Codex의 Repository coding 한계를 입증하지 않음','RESEARCH',
   (s,{C,text,line,rect,arrow})=>{
@@ -157,7 +157,7 @@ S31:make('S31','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 
     text(s,'aclanthology.org/2024.tacl-1.9/',64,577,550,27,19,C.sub,false,'Consolas');
     text(s,'arxiv.org/abs/2406.06025',704,577,512,27,19,C.sub,false,'Consolas');
   }),
-S32:make('S32','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상세 정보의 탐색 경로',
+S40:make('S40','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상세 정보의 탐색 경로',
   '교육용 Routing 모델 · 실제 문서 접근 결과는 다음 구간에서 확인',
   '검색 성능 향상이나 토큰 절약을 입증한 그림이 아님','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{
@@ -166,7 +166,7 @@ S32:make('S32','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상�
     rs.forEach((r,i)=>{line(s,r.x,318,r.w,i===0?C.ink:C.teal,3);text(s,r.head,r.x,342,r.w,45,30,C.ink,true);text(s,r.body,r.x,418,r.w,82,28,C.sub);if(i<2)arrow(s,r.x+r.w+20,374,35,23);});
     text(s,'C++ 예: 공통 제약을 확인한 뒤, 해당 알고리즘의 계약으로',64,552,1152,37,26,C.sub);
   }),
-S33:make('S33','Core Context에서 상세 정보로 가는 길','ACT 2 · Core에 남길 기본 안내',
+S41:make('S41','Core Context에서 상세 정보로 가는 길','ACT 2 · Core에 남길 기본 안내',
   '교육용 정보 설계 · Root/Core는 상세 정보의 출발점',
   'C++ 예: build/test 진입점과 기본 제약 → 알고리즘 계약·하드웨어 조건','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{

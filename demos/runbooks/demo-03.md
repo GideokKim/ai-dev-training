@@ -1,8 +1,10 @@
 # DEMO-03 — Reusable Verification Workflow
 
+> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+
 Planning Status: CANDIDATE — Anchor candidate
 
-Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-020–022
 
@@ -66,9 +68,9 @@ Evidence limit: No Desktop-wide support, Skill superiority, causal performance g
 
 ## Estimated Time
 
-8m: S43 Demo 5m + S44 Demo 3m. S44 Case and S46–47 are separate allocations.
+8m: S51 Demo 5m + S52 Demo 3m. S52 Case and S54–55 are separate allocations.
 
-Phase plan: S43 5m → S44 Demo portion 3m.
+Phase plan: S51 5m → S52 Demo portion 3m.
 
 Time Risk: HIGH
 
@@ -90,9 +92,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S43.png`, `production/preview/full/S44.png`
+Default is the offline static presentation. Open: `production/preview/full/S51.png`, `production/preview/full/S52.png`
 
-Show S43–S44 static summaries; do not show long Prompt text or fake terminal UI.
+Show S51–S52 static summaries; do not show long Prompt text or fake terminal UI.
 
 Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
@@ -106,7 +108,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S44 → S45: explain why the reusable procedure does not contain task answers.
+S52 → S53: explain why the reusable procedure does not contain task answers.
 
 ## Evidence
 

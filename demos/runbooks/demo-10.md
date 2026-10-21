@@ -1,8 +1,10 @@
 # DEMO-10 — Conceptual Evaluation Set
 
+> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+
 Planning Status: CANDIDATE — conceptual evaluation matrix
 
-Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-047–049
 
@@ -28,7 +30,7 @@ N/A — no new Product State/task execution
 
 Playback uses local offline PNGs rendered from the current integrated deck. The target Windows PC, education Codex account/surface, permissions, and room are not selected or verified. Historical Trial environments apply only to their recorded runs.
 
-Historical source scope: Demo Matrix evaluation scope and Slide Map S66.
+Historical source scope: Demo Matrix evaluation scope and Slide Map S74.
 
 ## Repository Commit / Tag
 
@@ -56,7 +58,7 @@ Distinguish prior evidence from evaluation design.
 
 ## Expected Output
 
-S66 four-row conceptual matrix, no execution.
+S74 four-row conceptual matrix, no execution.
 
 ## Verification
 
@@ -66,9 +68,9 @@ Evidence limit: Do not say EVAL-03/04 ran or passed/failed; do not merge their d
 
 ## Estimated Time
 
-5m S66 Demo slot.
+5m S74 Demo slot.
 
-Phase plan: S66 5m; internal phase split not established.
+Phase plan: S74 5m; internal phase split not established.
 
 Time Risk: LOW
 
@@ -90,9 +92,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S66.png`
+Default is the offline static presentation. Open: `production/preview/full/S74.png`
 
-Use S66.png; keep observed and designed frames separate.
+Use S74.png; keep observed and designed frames separate.
 
 Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
@@ -106,11 +108,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S66 → S67: connect representative checks to overfitting risk.
+S74 → S75: connect representative checks to overfitting risk.
 
 ## Evidence
 
-Demo Matrix evaluation scope and Slide Map S66.
+Demo Matrix evaluation scope and Slide Map S74.
 
 ## Do Not Claim
 

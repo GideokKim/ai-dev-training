@@ -1,0 +1,200 @@
+# ACT 1 — Practical Prompt Engineering Addition
+
+Date: 2026-10-21. Baseline: `0772b4b`. Decision: DEC-0043.
+Status: **INTEGRATED —90SLIDES/368MINUTES; ORIGINAL SLIDES AND TIMES PRESERVED**.
+
+## Request and Teaching Role
+
+사용자가 현재 S21 뒤에 실무 Prompt Engineering 기법을 소개하고 기존 S22–S23을 거쳐 ACT 2로 이동하도록 새 슬라이드 제작을 지시했다. 새 8장은 각자 사용 상황·바로 활용할 요청 예시·핵심·한계를 가진다. 강사는 핵심 문장과 예시의 두세 행만 짚으며, 슬라이드만 다시 보더라도 활용 방법을 알 수 있게 구성했다.
+
+삽입 전 기준은 82장/360분, ACT 1 S11–S23 13장/55분이었다. 사용자 승인으로 기존 장별 시간을 유지하고 새 8장·8분을 추가한다. 현재는 총90장/368분, ACT1 S11–S31 21장/63분이다. 신규 ID S22–S29 뒤 기존 S22–S82는 S30–S90이 된다. 이 번호는 DEC-0043의 현재 제작 기준이다. 새 PPT·렌더 검증 결과는 production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md에 기록한다.
+
+## Evidence and Selection
+
+공식 자료 본문에서 현재 권고되는 지시·자료 구획, 필요한 예시, 출력 형식, 관련 자료·누락 표시, 중요한 모호함의 질문, 작업 분리, 구체적 리뷰, 후속 수정 요청을 확인했다. 개발자 예시는 기존 crop 명세·검사 pipeline에 맞춰 각색했다.
+
+기존 Goal/Context/Constraints/Process/Verification 틀을 다시 소개하는 장은 추가하지 않았다. 내부 사고 과정을 길게 출력시키는 CoT 문구, 전문가 역할의 정확도 보장, 자기검토·다수결의 보편적 성과, API 설정을 채팅 명령처럼 쓰는 설명도 넣지 않았다. Prompt 비교 평가 프레임워크와 재사용 메커니즘은 이후 ACT의 역할로 보존한다.
+
+[출처·Claim·범위](../references/product/PROMPT_ENGINEERING_2026-10-21.md).
+
+## Time Decision — User Approved Extension
+
+기존6시간·ACT1 55분은 이전 기준이다. 시간 선택을 확인한 뒤 사용자가 기존 슬라이드를 언제나 유지하고 시간을 늘려도 된다고 승인했다. **B안을 채택**해 기존82장·장별 시간·Mode를 전부 보존하고 새8장·8분을 추가한다. 다음 A안은 채택하지 않은 제안 이력이다.
+
+### A — Rejected: compress existing explanation
+
+새 8장 각1분(7분 Lecture, 1분 Case)을 기존 중복 설명 시간에서 마련한다.
+
+| Existing Slide | Current | Proposed | Change |
+|---|---|---|---|
+| S14 | Case3 + Reflection1 =4 | Case2 + Reflection1 =3 | 질문 틀 설명1분 압축 |
+| S15 | Lecture4 | Lecture3 | 다섯 항목 설명1분 압축 |
+| S16 | Lecture6 + Case3 =9 | Lecture2 + Case3 =5 | 앞에서 본 질문·항목 재설명4분 압축 |
+| S20 | Lecture3 | Lecture2 | 결과 인계 설명1분 압축 |
+| S21 | Lecture4 + Reflection1 =5 | Lecture3 + Reflection1 =4 | 표의 반복 설명1분 압축 |
+
+총8분을 새 소개로 옮긴다. 기존 Demo8분·Reflection4분·Transition3분·Q&A4분과 전체 Mode130/73/83/20/22/32는 유지한다. Section1B 7,1C 5,1E 4로 조정하고 신규1H 8을 둔다. 그 외 Section1A7/1D10/1F5/1G9는 유지한다. 이는 실제 리허설 결과가 아닌 제안이다.
+
+### B — Accepted: retain existing slide times
+
+기존 장별 시간을 유지하고 새 소개8분을 더한다. ACT1은63분, 전체368분이 된다. Mode는 Lecture137/Demo73/Case84/Reflection20/Transition22/Q&A32다. 이는2026-10-21 사용자가 승인한 기존6시간 기준의 확장이다. MASTER_PLAN과 INV-IDENTITY-001에 승인 근거를 보존한다.
+
+## Layout and Readability
+
+기존 Light Engineering Workbench, 16:9, 지정 글꼴, 여백과 하단 M2 원리 연결을 재사용한다. Prompt는 native text이며 출처·주의점도 편집 가능하다. 이 구간의 요청·활용 설명을 위한 T03-A 변형 적용은 통합 시 Template Mapping에 기록한다. 새 Template family나 제품 화면을 만들지 않는다.
+
+## Approved Slide Content
+
+### S22 — 지시와 참고 자료의 구분
+
+- Method: Delimiters.
+- When: 로그·명세·요청이 섞여 있을 때.
+- Primary Message: 제목과 태그로 지시와 분석 자료의 경계를 표시한다.
+- Evidence: CLM-0032; documented recommendation + conceptual developer adaptation.
+- Claim Boundary: 구획은 읽을 경계를 알리는 수단입니다. 보안 격리나 자료의 진위를 보장하지 않습니다. 실제 TRIAL-002·새 실행·효과 측정 결과가 아니다.
+
+```text
+# 요청
+crop 경계 오류의 원인 후보만 설명해줘.
+코드는 아직 수정하지 마.
+자료에 없는 내용은 미확인으로 표시해줘.
+
+# 참고 자료
+명세: crop [1,3)의 폭은 2
+로그 예: expected=2, actual=3
+```
+
+### S23 — 입력과 기대 결과의 작은 예시
+
+- Method: Few-shot examples.
+- When: 범위·출력 패턴의 뜻이 엇갈릴 때.
+- Primary Message: 설명만으로 부족할 때 입력과 원하는 결과를 함께 준다.
+- Evidence: CLM-0033; documented recommendation + conceptual developer adaptation.
+- Claim Boundary: 예시와 명세를 일치시킵니다. 예시 몇 개가 모든 경계 조건의 명세를 대신하지 않습니다. 실제 TRIAL-002·새 실행·효과 측정 결과가 아니다.
+
+```text
+crop 범위 설명을 아래 형식으로 작성해줘.
+입력 {1,2,3,4}에 대한 예시:
+[1,3) ⇒ {2,3}, 폭 2
+[0,1) ⇒ {1}, 폭 1
+
+같은 형식으로 [2,4)를 설명해줘.
+빈 범위·범위 초과 정책은 만들지 마.
+```
+
+### S24 — 바로 검토할 수 있는 결과 형식
+
+- Method: Output format.
+- When: 장황한 답을 다시 가공하게 될 때.
+- Primary Message: 받고 싶은 항목과 길이를 요청에 적는다.
+- Evidence: CLM-0034; documented recommendation + conceptual developer adaptation.
+- Claim Boundary: 형식이 맞아도 내용은 확인해야 합니다. 채팅의 형식 요청은 API Structured Outputs와 별개입니다. 실제 TRIAL-002·새 실행·효과 측정 결과가 아니다.
+
+```text
+crop 수정 결과를 다음 순서로 보고해줘.
+1. 변경 파일과 바꾼 이유
+2. 실제 실행한 확인 명령과 결과
+3. 실행하지 못한 확인과 이유
+4. 남은 위험과 확인이 필요한 결정
+각 항목은 두 문장 이내로 써줘.
+실행하지 않은 검사를 통과로 쓰지 마.
+```
+
+### S25 — 근거가 있는 설명과 미확인의 구분
+
+- Method: Grounding.
+- When: 저장소 설명의 출처를 확인해야 할 때.
+- Primary Message: 결론에 자료 위치를 붙이고, 확인하지 못한 것은 남긴다.
+- Evidence: CLM-0035; documented recommendation + conceptual developer adaptation.
+- Claim Boundary: 파일·줄 인용도 실제 내용과 대조합니다. 인용이 있다는 사실만으로 정확성이 보장되지는 않습니다. 실제 TRIAL-002·새 실행·효과 측정 결과가 아니다.
+
+```text
+crop의 명세·구현·테스트를 찾아 비교해줘.
+결론마다 실제 파일·함수·줄을 붙여줘.
+다음 세 상태를 구분해줘.
+- 자료에서 확인
+- 코드로부터 추정
+- 아직 미확인
+근거가 충돌하면 차이를 먼저 알려줘.
+찾지 못한 정책은 관례로 채우지 마.
+```
+
+### S26 — 결과를 바꾸는 결정에서 확인 질문
+
+- Method: Clarification.
+- When: 정책을 사람이 선택해야 할 때.
+- Primary Message: 조사할 사실과 답을 받아야 할 결정을 구분한다.
+- Evidence: CLM-0036; documented recommendation + conceptual developer adaptation.
+- Claim Boundary: 모든 세부를 질문으로 돌리지 않습니다. 답에 따라 결과가 달라지는 선택에 집중합니다. 실제 TRIAL-002·새 실행·효과 측정 결과가 아니다.
+
+```text
+빈 crop 범위의 처리 정책을 조사해줘.
+문서·테스트·호출부의 근거를 먼저 찾아줘.
+근거 없이 빈 결과와 오류 중 골라야 하면
+각 선택의 영향을 적고 질문해줘.
+그 결정에 의존하는 수정은 답변 뒤 진행해줘.
+그 선택과 무관한 조사는 계속해줘.
+```
+
+### S27 — 큰 작업을 검토할 결과물로 나누기
+
+- Method: Task decomposition.
+- When: 조사 결과에 따라 구현 범위가 달라질 때.
+- Primary Message: 다음 결정을 할 수 있는 작은 결과부터 요청한다.
+- Evidence: CLM-0037; documented recommendation + conceptual developer adaptation.
+- Claim Boundary: 단계는 작업·산출물의 경계입니다. 숨은 사고 과정을 길게 출력하라는 요청이 아닙니다. 실제 TRIAL-002·새 실행·효과 측정 결과가 아니다.
+
+```text
+검사 pipeline에 ROI 설정을 연결하려 한다.
+이번에는 설정 입력에서 crop까지의 경로만
+조사하고, 변경 후보·미확인을 표로 정리해줘.
+코드는 아직 수정하지 마.
+
+그 결과를 보고 다음 요청에서
+파싱·유효성 확인 구현 범위를 정하겠다.
+```
+
+### S28 — 기준을 지정한 코드 리뷰 요청
+
+- Method: Criteria-focused review.
+- When: “검토해줘”의 범위를 분명히 할 때.
+- Primary Message: 무엇을 찾을지와 어떤 근거로 보고할지를 지정한다.
+- Evidence: CLM-0038; documented recommendation + conceptual developer adaptation.
+- Claim Boundary: 리뷰 답변도 누락할 수 있습니다. 필요한 실행 확인·변경 검토·사람의 완료 판단을 함께 사용합니다. 실제 TRIAL-002·새 실행·효과 측정 결과가 아니다.
+
+```text
+crop 변경안을 코드 리뷰 관점에서 봐줘.
+검토 기준은 다음과 같아.
+1. 끝 좌표 제외 명세 보존
+2. 공개 API와 기존 오류 정책 보존
+3. 요청과 무관한 변경 없음
+위반마다 위치·근거·영향·수정 제안을 써줘.
+자료로 판단 못 하면 미확인으로 남겨줘.
+이번 요청에서는 코드를 바꾸지 마.
+```
+
+### S29 — 구체적인 근거로 수정 방향 피드백
+
+- Method: Iterative refinement.
+- When: 첫 제안의 일부가 의도와 다를 때.
+- Primary Message: 어긋난 지점과 원하는 변경, 유지할 조건을 적는다.
+- Evidence: CLM-0039; documented recommendation + conceptual developer adaptation.
+- Claim Boundary: 앞선 제안은 가상 예시입니다. 원하는 답만 반복시키지 말고 명세와 실제 근거로 방향을 고칩니다. 실제 TRIAL-002·새 실행·효과 측정 결과가 아니다.
+
+```text
+앞선 “테스트 기대 폭을 3으로 바꾸자”는
+제안을 수정해줘. 원하는 명세는
+crop [1,3)에서 폭 2야.
+테스트 기대값은 유지하고,
+구현의 끝 좌표 처리만 다시 검토해줘.
+기존 API·의존성은 유지해줘.
+바꾼 제안과 미확인 사항만 보고해줘.
+```
+
+## Integration Readiness
+
+- 신규8장 검토용 PPT·Preview·19필드 Notes·출처 연결을 준비한다.
+- 기존82장 내용·장별 시간·Mode를 보존하고, 신규8장을 추가해 현재90장 Map과 Notes로 정렬한다.
+- 전체90장 번호·Map·Template Map·현재 참조·Notes·PPT·Preview를 함께 정렬하고 전체 렌더를 검토한다.
+- 실제 Trial/State/tag·Demo Repository·기존 이미지 pixels·과거 판본·묶음 ZIP/HTML은 변경하지 않는다.
+- Windows, 발표 PC 글꼴, 교육장, 현재 제품/계정, 실측 리허설은 UNVERIFIED다.

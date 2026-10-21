@@ -1,8 +1,10 @@
 # DEMO-12 — Observed Evolution Recap
 
+> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+
 Planning Status: CANDIDATE — ACT 5 visual recap
 
-Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-060–070
 
@@ -28,7 +30,7 @@ STATE-00 → STATE-04-PERF; conceptual/Meta paths separate
 
 Playback uses local offline PNGs rendered from the current integrated deck. The target Windows PC, education Codex account/surface, permissions, and room are not selected or verified. Historical Trial environments apply only to their recorded runs.
 
-Historical source scope: Existing State history; DEC-0020/0021; Slide Map S75–76.
+Historical source scope: Existing State history; DEC-0020/0021; Slide Map S83–84.
 
 ## Repository Commit / Tag
 
@@ -52,12 +54,12 @@ Keep seven named States/endpoint and do not treat supporting commits as States.
 
 ## Success Criteria
 
-Follow the six-hour mental-model evolution without implying automation.
+Follow the approved course mental-model evolution without implying automation.
 
 ## Expected Output
 
-Static story and State recap. S76 includes excerpts of the existing S18 crop
-diff diagram, S34 routing text and S47 recorded-data chart. The seven-State
+Static story and State recap. S84 includes excerpts of the existing S18 crop
+diff diagram, S42 routing text and S55 recorded-data chart. The seven-State
 rail and the excerpts have separate regions; captions name the actual State
 ranges. These are existing teaching-slide renders, not raw execution captures
 or newly measured results. Use the excerpts for recall rather than rereading
@@ -71,9 +73,9 @@ Evidence limit: No universal maturity path, complete automation, or new Trial.
 
 ## Estimated Time
 
-2m: S76 Demo allocation. S75 Lecture 4m is separate.
+2m: S84 Demo allocation. S83 Lecture 4m is separate.
 
-Phase plan: S76 2m.
+Phase plan: S84 2m.
 
 Time Risk: LOW
 
@@ -95,9 +97,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S75.png`, `production/preview/full/S76.png`
+Default is the offline static presentation. Open: `production/preview/full/S83.png`, `production/preview/full/S84.png`
 
-Use current S75–S76 PNGs after the DEC-0036 rendering checks. Full/ACT 5 parity requires the post-migration validation record. Read S76 State numbers 01–07 along the arrows: top left to right, then bottom right to left. Its excerpts recall earlier teaching slides rather than raw execution captures.
+Use current S83–S84 PNGs after the DEC-0036 rendering checks. Full/ACT 5 parity requires the post-migration validation record. Read S84 State numbers 01–07 along the arrows: top left to right, then bottom right to left. Its excerpts recall earlier teaching slides rather than raw execution captures.
 
 Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
@@ -111,11 +113,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S76 → S77: reflect on deliberately deferred components.
+S84 → S85: reflect on deliberately deferred components.
 
 ## Evidence
 
-Existing State history; DEC-0020/0021; Slide Map S75–76.
+Existing State history; DEC-0020/0021; Slide Map S83–84.
 
 ## Do Not Claim
 

@@ -1,6 +1,6 @@
 # STEP 08 — Visual Template Conditional Freeze
 
-> **현재 기준: DEC-0038 / 82장 (2026-10-21).** S11·S12의 요청·가능한 해석을 시각화하고 새 S13을 삽입했다. 종전 S13–S81은 S14–S82로 이동하며 S01–S12 번호는 유지한다. S12 Case 4분을 S12 2분 + S13 2분으로 나눠 360분·ACT/Mode/Section 총량을 보존한다. [82장 번호 대조·문서 범위](SLIDE_ID_MIGRATION_82.md). 과거 Prototype·Decision·실제 Asset 경로와 판본 번호는 보존한다.
+> **현재 번호 기준: DEC-0043 / 90장 (2026-10-21).** S01–S21은 유지하고 기존 S22–S82를 S30–S90으로 옮긴다. 신규 S22–S29는 실무 Prompt 방법 구간이다. ACT 장수는 10/21/15/18/18/8이다. 기존 장별 시간은 보존하고 신규 8분을 더해 ACT 1 63분·전체 368분으로 확장한다. Mode는 Lecture137/Demo73/Case84/Reflection20/Transition22/Q&A32분이다. [90장 번호 대조·문서 범위](SLIDE_ID_MIGRATION_90.md). 과거 Prototype·Decision·실제 Asset 경로·검증 결과의 당시 번호는 보존한다.
 
 Date: 2026-10-11
 
@@ -12,7 +12,7 @@ Related decision: DEC-0024
 
 ## 1. Authority and Boundary
 
-이 문서는 82장 PPT 제작에 사용할 Visual System과 Template을 조건부로
+이 문서는 90장 PPT 제작에 사용할 Visual System과 Template을 조건부로
 동결한다. 승인된 Slide Map, Claim Boundary, Slide 수, Story, ACT 시간,
 Delivery Mode, Demo 선택은 바꾸지 않는다.
 
@@ -23,7 +23,7 @@ Delivery Mode, Demo 선택은 바꾸지 않는다.
 - Prototype 근거: VISUAL_PROTOTYPE_EVALUATION.md,
   VISUAL_PROTOTYPE_REVIEW.md, VISUAL_PROTOTYPE_V2_RESULT.md, V2 PPTX와
   prototype/preview/v2/.
-- 이 문서의 freeze는 제작 기준과 검증 Gate를 정한다. 최종 82장 PPT,
+- 이 문서의 freeze는 제작 기준과 검증 Gate를 정한다. 최종 90장 PPT,
   Speaker Notes 본문, 제품 Claim 또는 Demo Repository를 만들거나 변경하지
   않는다.
 
@@ -89,7 +89,7 @@ Evidence 열의 S 번호는 실제 V2 프로토타입의 80장 판본 번호다.
 | 항목 | Freeze Status | Evidence | Remaining Risk | Validation Gate |
 |---|---|---|---|---|
 | 16:9 Format | FROZEN | V2는 13.333 × 7.5 in이며 8장 모두 1921 × 1080으로 렌더됨 | 대상 PowerPoint에서 파일이 열리는지는 미확인 | 최종 Windows PowerPoint 열기 및 발표 모드 확인 |
-| Grid / Safe Margin | CONDITIONALLY FROZEN | V2 local render에서 잘림·겹침 없음; 기존 Grid와 visual hierarchy 유지 | 일부 상단 내용은 약 0.44 in에 시작해 0.50 in 기준보다 안쪽 여백이 작음; 실제 투사 가장자리 미확인 | Windows 화면과 교육장 투사에서 Safe Area 및 전체 82장 대표 레이아웃 확인 |
+| Grid / Safe Margin | CONDITIONALLY FROZEN | V2 local render에서 잘림·겹침 없음; 기존 Grid와 visual hierarchy 유지 | 일부 상단 내용은 약 0.44 in에 시작해 0.50 in 기준보다 안쪽 여백이 작음; 실제 투사 가장자리 미확인 | Windows 화면과 교육장 투사에서 Safe Area 및 전체 90장 대표 레이아웃 확인 |
 | Color Tokens | CONDITIONALLY FROZEN | V2의 밝은 중립 배경, Accent 및 Evidence frame이 일관됨; S16 대비 계산은 이전 기록에 있음 | 전체 Template와 실제 투사 환경의 대비를 검사하지 않음 | 각 Template 첫 구현과 Windows 발표 크기에서 대비 확인; 상태는 색 외 Label·Frame으로도 표현 |
 | Typography hierarchy | CONDITIONALLY FROZEN for size hierarchy; PROVISIONAL for font rendering | VISUAL_SPEC 크기 기준을 사용; S16 코드는 18 pt이고 local render에서 읽힘 | Malgun Gothic, Consolas의 대상 PC 설치·대체 글꼴과 혼합 줄바꿈 미확인 | Windows target font 확인; 한글·영문·코드와 citation을 발표 크기로 검토 |
 | Evidence Grammar | CONDITIONALLY FROZEN | S16/S35/S45 Product, S56 Conceptual, S67 Meta, S14/S72/S73 Teaching Model을 Label·Frame과 함께 확인 | Research Claim-and-Source layout인 T09는 실제 prototype에 없음 | T09 첫 구현에서 연구 조건·Claim·Citation이 함께 읽히는지 확인 |
@@ -137,12 +137,12 @@ T08-A, T11-A. 미확인 20개 Variant는 다음과 같다.
 ### Unverified Template 처리 규칙
 
 T01, T02, T05, T09, T10 및 미검증 Variant는 현재 PROVISIONAL로 둔다.
-이 미검증 자체만으로 82장 작업 전 별도 Prototype이 반드시 필요하다고
+이 미검증 자체만으로 90장 작업 전 별도 Prototype이 반드시 필요하다고
 판정하지 않는다. 첫 Slide에 적용할 때 해당 Template의 구조, 밀도, Claim
 경계, Visual Spec 적합성을 검증한다. 문제가 발견되면 그 Variant의 확장을
 멈추고 수정한 뒤 재검증한다.
 
-## 6. S74 Operation Gate
+## 6. S82 Operation Gate
 
 **제작 기본안: 정적 Slide + Speaker-led highlighting.**
 
@@ -156,7 +156,7 @@ T01, T02, T05, T09, T10 및 미검증 Variant는 현재 PROVISIONAL로 둔다.
 | Transition | 4분 | Engineering Pattern을 다음 Story로 연결 |
 
 현재 operation cue는 완성 Speaker Notes가 아니다. 20분 timed rehearsal은
-미수행이며 S74 운영은 PARTIAL이다. 최종 발표 전 리허설에서 시간이 맞지
+미수행이며 S82 운영은 PARTIAL이다. 최종 발표 전 리허설에서 시간이 맞지
 않거나 R1–R5의 경계가 읽히지 않으면 cue를 조정하고 다시 검토한다.
 리허설 근거 없이 Native Animation을 필수로 추가하지 않는다.
 
@@ -186,11 +186,11 @@ LibreOffice local render로 대체하지 않는다.
 
 ## 8. Full Production Readiness
 
-### 82장 제작 시작 전
+### 90장 제작 시작 전
 
 | 필수 조건 | 현재 상태 |
 |---|---|
-| 82장 Slide Map 및 시간 | 완료; 이번 결정에서 수정하지 않음 |
+| 90장 Slide Map 및 시간 | 완료; 이번 결정에서 수정하지 않음 |
 | Claim Boundary | 완료; CLAIM_FREEZE.md가 계속 권위 문서 |
 | Visual Spec | 존재; 본 문서의 조건부 상태를 따름 |
 | 11개 Template / 27개 Variant Mapping | 존재; 미검증 Variant는 명시적 PROVISIONAL |
@@ -208,7 +208,7 @@ LibreOffice local render로 대체하지 않는다.
 - 실제 발표 화면의 비율, Safe Area, 코드·citation 가독성 확인.
 - 현재 제품 Claim을 넣는 경우 target account / surface 확인.
 - Live Demo를 쓰는 경우 실행 경로와 Fallback을 실제로 리허설.
-- S74 전체 20분 timed rehearsal.
+- S82 전체 20분 timed rehearsal.
 - 첫 적용 때 검증한 모든 Template의 최종 Slide 구현 대조.
 
 ## 9. Remaining Risks and Validation Gates
@@ -216,10 +216,10 @@ LibreOffice local render로 대체하지 않는다.
 | Priority | Risk | Required action |
 |---|---|---|
 | P0-01 | Windows PowerPoint 및 target presentation 환경은 UNVERIFIED | 위 §7의 최종 배포 Gate를 통과; 가능하면 제작 중 조기 확인 |
-| P1-01 | S37 경로 텍스트의 projection-scale 가독성 미확인 | Windows 발표 크기에서 검토; 필요하면 Map의 Evidence를 삭제하지 않고 표현 조정 |
-| P1-02 | S74 20분 운영 미리허설 | 최종 배포 전 Mode 시간을 보존해 timed rehearsal |
+| P1-01 | S45 경로 텍스트의 projection-scale 가독성 미확인 | Windows 발표 크기에서 검토; 필요하면 Map의 Evidence를 삭제하지 않고 표현 조정 |
+| P1-02 | S82 20분 운영 미리허설 | 최종 배포 전 Mode 시간을 보존해 timed rehearsal |
 | P1-03 | Shared-template authoring 및 style-change propagation 미검증 | 실제 제작 도구를 정한 뒤 공통 style 한 곳 변경이 대표 Slide에 반영되는지 확인 |
-| P2-01 | S74 보조 time label은 13.5 pt | Windows 및 projection 검토에서 필요할 때 조정 |
+| P2-01 | S82 보조 time label은 13.5 pt | Windows 및 projection 검토에서 필요할 때 조정 |
 | P2-02 | 일부 상단 영역은 0.44 in에서 시작 | 실제 교육장 Safe Area 확인; 화면 가장자리 문제가 있을 때만 조정 |
 | P2-03 | PROTOTYPE COPY badge는 prototype에 남음 | 최종 교육용 Slide에서 제거 |
 
@@ -233,7 +233,7 @@ DECISIONS.md의 Change Control을 따른다.
 
 근거:
 
-- S16/S18/S37/S47/S58/S69/S74/S75에서 여섯 Template family와 일곱
+- S16/S18/S45/S55/S66/S77/S82/S83에서 여섯 Template family와 일곱
   Variant를 실제로 확인했다.
 - local render에서 주요 메시지와 네 Evidence Type 경계가 읽혔고, 새
   구조적 결함이나 광범위한 재설계 사유가 발견되지 않았다.
@@ -241,7 +241,7 @@ DECISIONS.md의 Change Control을 따른다.
   한계도 분리해서 기록했다.
 - 나머지 Template 구조와 Mapping은 이미 정의되어 있다. 첫 사용 시
   검증하는 조건부 적용이 현재 근거에 맞다.
-- Windows, Projection, S74 rehearsal, 모든 Template 구현, 공통 Style
+- Windows, Projection, S82 rehearsal, 모든 Template 구현, 공통 Style
   재사용은 PASS가 아니다. 각 Gate를 해소하기 전 배포하지 않는다.
 
 선택하지 않은 대안:
@@ -257,7 +257,7 @@ DECISIONS.md의 Change Control을 따른다.
 
 **READY FOR SPEAKER NOTES ARCHITECTURE.**
 
-이는 다음 기획 단계 진입 준비를 뜻한다. 82장 PPT 제작, 완성 Speaker Notes,
+이는 다음 기획 단계 진입 준비를 뜻한다. 90장 PPT 제작, 완성 Speaker Notes,
 Windows 호환성, 교육장 투사 또는 Live Demo 완료를 뜻하지 않는다.
 
 ## 11. Updated Documents

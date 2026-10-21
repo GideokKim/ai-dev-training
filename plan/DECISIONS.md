@@ -5913,3 +5913,99 @@ Windows, target product/account/room and timed rehearsal remain UNVERIFIED.
 
 The user's explicit ACT 1 refinement request authorizes these bounded
 connections and term explanations. No major role or time change is needed.
+
+
+# DEC-0043 — Add practical Prompt Engineering reference slides
+
+## Status
+
+ACCEPTED — the user approves preserving every original slide and extending time.
+
+## Date
+
+2026-10-21
+
+## Context
+
+The user authorizes practical Prompt Engineering slides after current S21,
+with each technique understandable from its own slide and briefly introduced
+before current S22-S23 hand off to ACT 2. Baseline is 0772b4b, 82 slides,
+360 minutes, ACT 1 13 slides and 55 minutes.
+
+## Problem
+
+The new reference slides need time. After being asked about allocation, the
+user explicitly instructed: preserve the existing slides at all times and
+allow the training duration to increase. This supersedes the old360-minute
+cap for this authorized addition.
+
+## Decision
+
+Prepare eight standalone conceptual examples: delimiters, few-shot examples,
+output format, grounding and unknowns, material clarification, task
+separation, focused review, and concrete feedback. Keep each slide's use
+case, copyable request, takeaway, source and limit visible.
+
+Insert new S22-S29 and move old S22-S82 to S30-S90. Preserve every original
+slide and allocated time/Mode. Add seven Lecture and one Case minute, making
+ACT 1 21 slides /63 minutes, and the course90 slides /368 minutes.
+Current totals: Lecture137, Demo73, Case84, Reflection20, Transition22,
+Q&A32. Keep old S22-S23 as the transition to ACT 2, now S30-S31.
+
+## Rationale
+
+Concrete request sentences make a brief introduction useful as a reference.
+The existing five-part request framework and historical Trial remain in
+their roles. Methods are documented starting points, not universal laws or
+measured improvements. Prompt evaluation and reusable systems remain later
+ACT topics.
+
+## Alternatives
+
+A: retain ACT 1 55 and total 360 minutes, moving eight minutes from repeated
+explanation into seven Lecture and one Case minute of method introduction.
+B: retain existing slide allocations and add eight minutes, making ACT 1
+63 and the total368. The user accepts B; do not shorten original slides.
+
+## Trade-offs
+
+One minute per example supports pointing out its key lines, not reading all
+text aloud. More slides increase navigation; standalone source-backed
+examples support later use. No actual rehearsal has established the pace.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-IDENTITY-002, INV-VERIFY-001,
+INV-RESPONSIBILITY-001, INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+Addition plan, documented claims and sources, eight-slide review snapshot,
+current Map, template mapping, numbering references, source factories,
+production notes, Full/ACT packages, previews and current artifact identities.
+Update MASTER_PLAN and INV-IDENTITY-001 with the explicit duration approval.
+
+## Evidence
+
+Explicit user request and official OpenAI sources checked 2026-10-21:
+SRC-0230 through SRC-0235, CLM-0032 through CLM-0039. No new Trial,
+C++ execution, model comparison, cost or performance measurement.
+
+## Training Relevance
+
+YES — practical ways to convey the existing desired change, preserved
+conditions and completion evidence, before recurring Project Context.
+
+## Follow-up
+
+Align the full slide architecture under the accepted time extension,
+render the exact final packages and review the new handoffs. Preserve old
+Trials, State tags, approved images and historical artifact paths. Keep
+Windows, target product/account/room and rehearsal UNVERIFIED.
+
+## Approval
+
+The user authorizes content selection and slide addition, then explicitly
+states that existing slides must always be retained and time may increase.
+This approves the new90-slide /368-minute architecture without reducing any
+prior allocation. No Trial or empirical claim changes.

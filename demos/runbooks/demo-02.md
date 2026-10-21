@@ -1,8 +1,10 @@
 # DEMO-02 — Reusable Project Context
 
+> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+
 Planning Status: CANDIDATE — Anchor candidate
 
-Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-008–010
 
@@ -66,9 +68,9 @@ Evidence limit: Does not prove AGENTS.md alone caused the result or current Desk
 
 ## Estimated Time
 
-8m: S25 4m + S26 4m; S24 is setup outside this slot.
+8m: S33 4m + S34 4m; S32 is setup outside this slot.
 
-Phase plan: S25 4m → S26 4m.
+Phase plan: S33 4m → S34 4m.
 
 Time Risk: MEDIUM
 
@@ -90,9 +92,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S24.png`, `production/preview/full/S25.png`, `production/preview/full/S26.png`
+Default is the offline static presentation. Open: `production/preview/full/S32.png`, `production/preview/full/S33.png`, `production/preview/full/S34.png`
 
-Show static S24–S26; explicitly retain the global-Skills attribution boundary.
+Show static S32–S34; explicitly retain the global-Skills attribution boundary.
 
 Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
@@ -106,7 +108,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S26 → S27: separate task request from Project context.
+S34 → S35: separate task request from Project context.
 
 ## Evidence
 

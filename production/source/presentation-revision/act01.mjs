@@ -281,9 +281,9 @@ export const slides = {
     text(s, 'C++에서도: Release 실행·API/ABI·대상 데이터에 맞춰 근거를 고른다.', 64, 559, 1152, 39, 28, C.teal);
     return s;
   },
-  S22: (p, H) => {
+  S30: (p, H) => {
     const { C, text, line } = H;
-    const s = H.frame(p, 'S22', '이번 Task인가,\n계속 유지할 Project 정보인가?', 'ACT 1 · 반복해서 쓰는 정보 돌아보기', '생각해 보기 · 이 과정의 교육 모델', '1분 동안 개인적으로 생각한 뒤 2분간 자발적인 질문을 받습니다.');
+    const s = H.frame(p, 'S30', '이번 Task인가,\n계속 유지할 Project 정보인가?', 'ACT 1 · 반복해서 쓰는 정보 돌아보기', '생각해 보기 · 이 과정의 교육 모델', '1분 동안 개인적으로 생각한 뒤 2분간 자발적인 질문을 받습니다.');
     text(s, '테스트 명령·보존 조건, 다음 요청에도 다시 쓰게 된다.', 64, 233, 1152, 53, 33, C.ink, true);
     text(s, '이번 작업에만?', 64, 355, 542, 60, 38, C.teal, true);
     text(s, '다음 작업에도?', 704, 355, 512, 60, 38, C.teal, true);
@@ -291,9 +291,9 @@ export const slides = {
     text(s, '어떤 정보가 계속 남아 있어야 할까요?', 64, 547, 1152, 44, 31, C.ink);
     return s;
   },
-  S23: (p, H) => {
+  S31: (p, H) => {
     const { C, text, line, rect } = H;
-    const s = H.frame(p, 'S23', '반복하는 설명을 두 범주로 나누기', 'ACT 1 · 정보의 수명과 범위', '교육용 후보 예시 · 모든 프로젝트에 적용되는 유일한 분류가 아님', '다음 질문: Project 정보를 왜 매번 Prompt에 다시 적고 있을까요?', 'CONCEPTUAL');
+    const s = H.frame(p, 'S31', '반복하는 설명을 두 범주로 나누기', 'ACT 1 · 정보의 수명과 범위', '교육용 후보 예시 · 모든 프로젝트에 적용되는 유일한 분류가 아님', '다음 질문: Project 정보를 왜 매번 Prompt에 다시 적고 있을까요?', 'CONCEPTUAL');
     text(s, '이번 Task', 64, 235, 542, 47, 35, C.teal, true);
     text(s, '계속 유지할 Project 정보', 704, 235, 512, 47, 33, C.teal, true);
     line(s, 64, 305, 542); line(s, 704, 305, 512);

@@ -1,8 +1,10 @@
 # DEMO-11 — Layer and Minimality Synthesis
 
+> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+
 Planning Status: CANDIDATE — conceptual synthesis
 
-Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-054–057
 
@@ -28,7 +30,7 @@ N/A — conceptual case; no Product State
 
 Playback uses local offline PNGs rendered from the current integrated deck. The target Windows PC, education Codex account/surface, permissions, and room are not selected or verified. Historical Trial environments apply only to their recorded runs.
 
-Historical source scope: DEC-0021; Slide Map S61–62.
+Historical source scope: DEC-0021; Slide Map S69–70.
 
 ## Repository Commit / Tag
 
@@ -66,9 +68,9 @@ Evidence limit: No actual Skill repair, observed failure cause, or executed regr
 
 ## Estimated Time
 
-3m: S61 Demo 2m + S62 Demo 1m.
+3m: S69 Demo 2m + S70 Demo 1m.
 
-Phase plan: S61 2m → S62 Demo portion 1m.
+Phase plan: S69 2m → S70 Demo portion 1m.
 
 Time Risk: LOW
 
@@ -90,9 +92,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S61.png`, `production/preview/full/S62.png`
+Default is the offline static presentation. Open: `production/preview/full/S69.png`, `production/preview/full/S70.png`
 
-Use S61–S62 PNGs and keep CONCEPTUAL labels visible.
+Use S69–S70 PNGs and keep CONCEPTUAL labels visible.
 
 Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
@@ -106,11 +108,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S62 → S63: compare failure point with cause hypothesis.
+S70 → S71: compare failure point with cause hypothesis.
 
 ## Evidence
 
-DEC-0021; Slide Map S61–62.
+DEC-0021; Slide Map S69–70.
 
 ## Do Not Claim
 

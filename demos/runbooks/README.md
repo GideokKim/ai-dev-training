@@ -13,13 +13,12 @@ These runbooks use approved Story and Demo evidence. They do not create a new Tr
 ## Inventory
 
 - DEMO-01 through DEMO-12: one runbook per Demo ID.
-- LOOP-VISUAL: approved teaching-model visual in S68.
+- LOOP-VISUAL: approved teaching-model visual in S76.
 - `FALLBACK_MANIFEST.md`: local PNG paths, SHA-256, provenance, and readiness scope.
-- Current numbering: DEC-0038 / 2026-10-21, 82 slides / 360 minutes. See
-  [the current prompt/timeline review](../../production/evaluation/PROMPT_TIMELINE_REVISION.md)
-  and [the numbering migration](../../plan/SLIDE_ID_MIGRATION_82.md).
-  Rendering identity and fallback hashes were rechecked on the finalized
-  DEC-0038 files. READY covers current local static files only.
+- Current numbering: DEC-0043 / 2026-10-21, 90 slides / 368 minutes.
+  See [the numbering migration](../../plan/SLIDE_ID_MIGRATION_90.md).
+  Final render identity,90 embedded Notes and29 fallback PNG hashes were
+  checked locally for DEC-0043. This approves only static playback files.
   M relation labels do not certify a complete legacy module; second-priority
   additions remain deferred. Presenter bundles are paused by user instruction.
 
