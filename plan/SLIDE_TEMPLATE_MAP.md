@@ -146,7 +146,7 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S31 — 반복하는 설명을 두 범주로 나누기 | T04-A | — | — | C+T | — | Single state | — | V10 |
 | S32 — 다른 Task에 같은 설명이 반복된다 | T02-B | — | CMP-WORKFLOW | T | DEMO-02 problem framing; no result yet | Single state | — | V09 |
 | S33 — 작은 Project Context의 첫 기록 | T07-C | CMP-STATE, CMP-EVIDENCE | CMP-TRIAL | P | DEMO-02 EVIDENCE/state; HYBRID, 4 min | Single state | — | V03, V05 |
-| S34 — 한 번의 사용에서 확인된 것 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-02 WHAT HAPPENED/result; HYBRID, 4 min | Single state | — | V02, V05 |
+| S34 — AGENTS.md의 지침대로 검증했다 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-02 WHAT HAPPENED/result; HYBRID, 4 min | Single state | — | V02, V05 |
 | S35 — Task Prompt와 Project Context | T03-B | — | CMP-CONTEXT-ROUTER, CMP-CPP | T | — | Single state | Supporting | V08 |
 | S36 — 정확한 정보도 계속 늘어난다 | T04-B | CMP-STATE, CMP-EVIDENCE | — | P | DEMO-06 state-growth evidence callback; Case, not extra Demo time | Single state | — | V03, V10 |
 | S37 — 정확하지만 이번 Task에는 불필요한 정보 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 TRIAL-004 evidence; CAPTURED, 2 min | Single state | — | V02, V05 |

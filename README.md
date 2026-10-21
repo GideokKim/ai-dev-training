@@ -8,7 +8,9 @@
 
 ## 현재 상태
 
-최신 수정은 DEC-0045의 사용 상황 라벨 분리다. [수정 S22](production/preview/full/S22.png), [검토 기록](production/evaluation/PROMPT_USAGE_LABEL_REVISION.md).
+최신 수정은 DEC-0046의 S34 요청/주석 분리·지침 사용 관찰 강조다. [수정 S34](production/preview/full/S34.png), [검토 기록](production/evaluation/S34_GUIDANCE_REVISION.md).
+
+이전 수정은 DEC-0045의 사용 상황 라벨 분리다. [수정 S22](production/preview/full/S22.png), [검토 기록](production/evaluation/PROMPT_USAGE_LABEL_REVISION.md).
 
 이전 수정은 DEC-0044의 S17 요청·관찰 기록 대응이다. 다른89장과 시간·근거 범위를 유지했다. [수정 S17](production/preview/full/S17.png), [검토 기록](production/evaluation/S17_REQUEST_ACTION_REVISION.md).
 

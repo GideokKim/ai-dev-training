@@ -123,3 +123,12 @@ Does not prove AGENTS.md alone caused the result or current Desktop retrieval.
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.
+
+
+## DEC-0046 — Prompt and guidance presentation
+
+S34 shows translated actual request excerpts in a native prompt window.
+The outside annotation states that no test command was supplied; it is not
+a task instruction. Verification evidence was requested. Emphasize observed
+use of the AGENTS.md test instruction, preserving11/11 and4 Demo minutes.
+Do not claim guaranteed enforcement or isolated AGENTS.md causality.

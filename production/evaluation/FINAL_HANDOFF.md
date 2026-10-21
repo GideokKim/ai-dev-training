@@ -1,6 +1,8 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일: 2026-10-21 (Asia/Seoul). 현재 번호 기준: DEC-0043, 90장. 최신 표현 수정: DEC-0045.
+갱신일: 2026-10-21 (Asia/Seoul). 현재 번호 기준: DEC-0043, 90장. 최신 내용 수정: DEC-0046.
+S34는 실제 요청을 Prompt 창으로 표시하고 테스트 명령 미포함 설명을 창 밖 주석으로 분리했다. AGENTS.md의 테스트 지침을 실제 사용한 관찰을 강조한다. 검토: [S34 수정](S34_GUIDANCE_REVISION.md). 다른89장과 시간·근거 범위를 유지했다.
+
 S22–S29의 “이럴 때 사용” 라벨을 상황 설명과 시각적으로 분리했다. Prompt·근거·시간과 다른82장 화면·Notes는 유지했다. 검토: [사용 라벨 수정](PROMPT_USAGE_LABEL_REVISION.md).
 
 S17은 실제 요청과 관찰 기록을 세 쌍으로 대조하고, S18 수정 내용·S19 확인 결과로 연결했다. 다른89장 화면과 Notes, 장별 시간은 보존했다. 검토: [S17 수정](S17_REQUEST_ACTION_REVISION.md).
@@ -35,15 +37,15 @@ S01–10은 내용·번호·시간을 보존한다. 과거 Codex 진입·S10 검
 
 ## 2. 정확한 현재 후보
 
-아래 hash는 DEC-0045의 실제90장 파일에서 계산했다. 사용 상황 라벨8개 수정·전체 렌더·내장 Notes 대조와 다른82장 보존은 `PROMPT_USAGE_LABEL_REVISION.md`에 기록한다. 이전 S17 수정·기법8장 통합 기록은 당시 판본 이력으로 보존한다. 실환경 검증은 포함하지 않는다.
+아래 hash는 DEC-0046의 실제90장 파일에서 계산했다. S34 요청/외부 주석/지침 사용 관찰, Full/ACT2 최종 렌더와90개 내장 Notes 대조는 `S34_GUIDANCE_REVISION.md`에 기록한다. 다른89장은 보존했다. 이전 사용 라벨·S17·기법8장 추가 기록은 당시 판본의 이력이다. 실환경 검증은 포함하지 않는다.
 
 | 항목 | 경로 / SHA-256 |
 |---|---|
 | 통합 PPT | `production/AI_Dev_Training_Full.pptx` |
-| PPT SHA-256 | `5aae0ec1a8ece1df42779c9d5d20a7eb6532ab1c024514b12e1ef8927e1a4de3` |
+| PPT SHA-256 | `018bdf033fea35179a9c8bf2d7d7e943599fa4a4cce3f4b032b3772df62483ef` |
 | 통합 Notes | `production/notes/FULL_SPEAKER_NOTES.md` |
-| Notes SHA-256 | `514ec2a842fe93a3032468694b13066858094cdd4f1b234d9ab57144143e3778` |
-| 전체 montage SHA-256 | `abdb2eab0bfc3a189684e390cb846de6f74ba4162f29b11090ddfaadf4a82ea7` |
+| Notes SHA-256 | `a650d2b0bbe4e7d11552fe504eba3559ccbccea5ec3cd2d4511328c93849c7e5` |
+| 전체 montage SHA-256 | `b70fb6258af2f0369aa2e069666ed44c15a022a2ced50390507c08d9dfa71614` |
 | 묶음별 파일 목록·크기·SHA-256 | 저장소의 `delivery/PACKAGE_MANIFEST.json`; ZIP 내부의 `PACKAGE_MANIFEST.json` |
 | ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-21.zip.sha256` |
 
@@ -119,7 +121,8 @@ S18 검토용 결과 인계, S19 계약 위반을 구별하는 검사를 기존 
 
 | 항목 | 현재 상태 | 필요한 다음 근거 |
 |---|---|---|
-| DEC-0045 사용 상황 라벨·82장 보존 | COMPLETE, 로컬 범위 | PROMPT_USAGE_LABEL_REVISION.md 및 검증 JSON |
+| DEC-0046 S34 요청/주석 구분·지침 사용 관찰 | COMPLETE, 로컬 범위 | S34_GUIDANCE_REVISION.md 및 검증 JSON |
+| 이전 DEC-0045 사용 상황 라벨·82장 보존 | COMPLETE, 당시 로컬 범위 | PROMPT_USAGE_LABEL_REVISION.md 및 검증 JSON |
 | 이전 DEC-0044 S17 요청·관찰 대응 및89장 보존 | COMPLETE, 당시 로컬 범위 | S17_REQUEST_ACTION_REVISION.md 및 검증 JSON |
 | 이전 DEC-0043 기법8장 추가·90장 번호·368분 정렬 | COMPLETE, 당시 로컬 범위 | PROMPT_ENGINEERING_ADDITION_RESULT.md 및 검증 JSON |
 | 이전 DEC-0042 82장 구조·렌더·Notes/PNG 정합성 및 ACT 1 연결 | COMPLETE, 당시 로컬 범위 | ACT_1_REQUEST_DESIGN_REVISION.md의 당시 산출물 hash |
@@ -142,6 +145,8 @@ S82: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
 문제 Slide·근거 경로와 함께 기록한다. 새 파일로 바뀌면 영향받는 확인을 다시 수행한다.
 
 ## 6. 근거와 이력
+
+- [현재 S34 요청/주석 구분·지침 사용 관찰](S34_GUIDANCE_REVISION.md)
 
 - [현재 사용 상황 라벨 수정](PROMPT_USAGE_LABEL_REVISION.md)
 

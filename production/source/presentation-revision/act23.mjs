@@ -23,21 +23,31 @@ S32:make('S32','다른 Task에 같은 설명이 반복된다','ACT 2 · 반복�
     text(s,'요청은 다른데, 아래 설명은 왜 계속 같을까?',64,549,1152,40,31,C.teal,true);
   }),
 
-S34:make('S34','한 번의 사용에서 확인된 것','ACT 2 · 지침을 활용한 관찰',
-  'TRIAL-003 · Codex CLI 기록을 재구성 · 전체 테스트 11/11 PASS',
-  'Personal/global Skills도 실행됨 · AGENTS.md만의 독립적인 효과로 해석하지 않음','OBSERVED_PRODUCT',
-  (s,{C,text,line,arrow})=>{
-    const xs=[64,466,868];
-    ['요청','읽은 파일','실행 기록'].forEach((t,i)=>{text(s,t,xs[i],232,348,34,26,C.teal,true);line(s,xs[i],280,348,C.teal,3);});
-    text(s,'README만 수정\n테스트 명령은 없음',64,302,348,94,32,C.ink,true);
-    text(s,'AGENTS.md',466,302,348,50,34,C.ink,true,'Consolas');
-    text(s,'기록된 테스트\n명령을 사용',466,371,348,80,28,C.ink);
-    text(s,'전체 테스트',868,302,348,48,32,C.ink,true);
-    text(s,'11 / 11',868,365,348,65,50,C.green,true);
-    text(s,'PASS',868,431,348,39,28,C.green,true);
-    arrow(s,416,335,30,23);arrow(s,818,335,30,23);
-    line(s,64,501,1152);
-    text(s,'README-only 범위는 작업 요청에도 명시돼 있었다',64,530,1152,42,29,C.ink,true);
+S34:make('S34','AGENTS.md의 지침대로 검증했다','ACT 2 · 프로젝트 작업 지침을 실제 실행에 적용',
+  'TRIAL-003 · 실제 요청 발췌·번역 / 실행 기록 요약 · Codex CLI 0.154.0',
+  'Skills도 실행 · README-only는 Prompt에도 명시 · AGENTS.md 단독 효과·강제 준수 보장은 미입증','OBSERVED_PRODUCT',
+  (s,{C,text,rect,line,arrow,CODE})=>{
+    text(s,'Task Prompt',64,177,448,36,26,C.teal,true);
+    text(s,'저장소의 작업 지침',576,177,328,36,26,C.teal,true);
+    text(s,'실행 기록',968,177,248,36,26,C.teal,true);
+    const prompt=rect(s,64,224,448,253,C.white,C.line,1.5);
+    prompt.borderRadius=12;
+    text(s,'실제 요청 · 핵심 발췌·번역',84,235,408,29,23,C.sub,true);
+    line(s,84,274,408);
+    text(s,'README의 Test 섹션을 고쳐줘.\n과거 STATE-00 실패와\n현재 checkout을 구분해줘.\n근거 없는 주장은 하지 마.\nREADME.md만 변경하고,\n최종 diff·검증 근거를 보고해줘.',84,283,408,181,24,C.ink);
+    text(s,'원문 밖 주석',64,489,448,25,20,C.sub,true);
+    text(s,'실제 요청에는 테스트 명령 미포함',64,518,448,30,24,C.sub);
+    rect(s,576,224,328,253,C.pale,C.teal,1.5);
+    text(s,'AGENTS.md',596,248,288,46,32,C.teal,true,CODE);
+    text(s,'프로젝트 작업 규칙',596,307,288,28,23,C.sub);
+    line(s,596,350,288);
+    text(s,'지정된 명령으로\n전체 테스트를 실행',596,366,288,70,25,C.ink,true);
+    text(s,'지침의 명령을 실제 사용',596,445,288,25,21,C.teal,true);
+    text(s,'전체 테스트',968,270,248,43,31,C.ink,true);
+    text(s,'11 / 11',968,333,248,67,50,C.green,true);
+    text(s,'PASS',968,414,248,39,29,C.green,true);
+    arrow(s,526,333,24,23);arrow(s,918,333,24,23);
+    text(s,'Prompt 밖의 테스트 지침을 실제 실행에 적용했다',64,565,1152,36,30,C.teal,true);
   }),
 
 S35:make('S35','Task Prompt와 Project Context','ACT 2 · 정보의 범위와 수명',

@@ -6153,3 +6153,73 @@ YES — a standalone reference slide should state its applicable situation.
 
 Render all eight labels and preserve the other82 slides. Keep Windows,
 room, product/account and timed rehearsal gates unchanged.
+
+
+# DEC-0046 — Separate S34 prompt text and observed instruction use
+
+## Status
+
+ACCEPTED — explicit user feedback on S34 wording and guidance emphasis.
+
+## Date
+
+2026-10-21
+
+## Context
+
+The request block mixed README-only with a statement that the test command
+was absent. The user interpreted the absence statement as an instruction.
+The AGENTS.md column also underemphasized its role as project work guidance.
+
+## Problem
+
+Separate the actual task request, editorial annotation and observed guidance
+use. The retained Trial cannot prove forced compliance or an isolated
+AGENTS.md effect.
+
+## Decision
+
+Use a native prompt window for translated actual request excerpts, including
+final diff and verification evidence. Place the test-command absence outside
+as an explicit annotation. Emphasize AGENTS.md as project work instructions
+and observed use of its test command. Preserve11/11, the four-minute Demo,
+90 slides and368 minutes. Retain the Skills and duplicated-scope limits;
+do not promote the observation into a guaranteed enforcement claim.
+
+## Rationale
+
+Readers can distinguish words sent to the Agent from explanatory notes.
+The project-rule card makes the recorded instruction use prominent.
+
+## Alternatives
+
+Keep the absence statement inside the prompt: rejected as misleading.
+Claim forced compliance: unsupported by the single-run evidence.
+
+## Trade-offs
+
+The prompt is a labeled excerpt; complete constraints stay in the Trial
+source. Only the used test instruction is highlighted, not every rule.
+
+## Related Invariants
+
+INV-VERIFY-001, INV-NARRATIVE-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S34 factory, Slide/Template Maps, ACT2/Full Notes, Full/ACT2 PPTX, previews,
+Demo02 fallback and current artifact identities.
+
+## Evidence
+
+User feedback; DEMO_MATRIX TRIAL-003 request, AGENTS inspection and command
+execution; STATE-01 AGENTS.md9. No new Trial or live check.
+
+## Training Relevance
+
+YES — distinguish current Task requests from reusable project instructions.
+
+## Follow-up
+
+Render S33-S35 continuity, preserve other89 slide renders and Notes,
+and keep Windows/room/account and timed rehearsal UNVERIFIED.

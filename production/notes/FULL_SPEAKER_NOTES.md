@@ -1,6 +1,6 @@
 # Full Speaker Notes — AI Developer Training
 
-Status: ALIGNED — DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/PROMPT_USAGE_LABEL_REVISION.md. The prior S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0046 refines S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S34_GUIDANCE_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
 
 Authority: plan/MASTER_PLAN.md, plan/INVARIANTS.md, plan/SLIDE_MAP.md, plan/CLAIM_FREEZE.md, plan/SPEAKER_NOTES_FREEZE.md, plan/SLIDE_ID_MIGRATION_90.md and DEC-0043. Original80/81/82-slide audits remain historical. The small M footer marks bounded teaching links, not full module completion.
 
@@ -1582,11 +1582,11 @@ Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pp
 
 Validation Status: REVIEWED — DEC-0030에서 승인한 화면 강조와 운영 Cue를 정렬했다. 최종 PPT/Notes/PNG 대조와 렌더 검토 결과는 production/evaluation/FULL_DECK_PRESENTATION_POLISH.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 제품·계정, 실제 시간 리허설은 UNVERIFIED.
 
-## S34 — 한 번의 사용에서 확인된 것
+## S34 — AGENTS.md의 지침대로 검증했다
 
 Slide ID: S34
 
-Working Title: 한 번의 사용에서 확인된 것
+Working Title: AGENTS.md의 지침대로 검증했다
 
 ACT / Section: ACT 2 / 2B
 
@@ -1594,37 +1594,38 @@ Allocated Time: 4 minutes
 
 Mode Split: Demo 4 minutes (HYBRID planned; activation unverified)
 
-Primary Message: In the recorded TRIAL-003 run, the agent inspected `AGENTS.md` and used the documented test command that was absent from the Task Prompt.
+Primary Message: 이번 기록에서는 Agent가 AGENTS.md의 테스트 지침을 실제 작업에 적용했다. 작업 Prompt에는 검증 근거 보고가 있었지만 테스트 실행 명령은 없었다.
 
-Opening Question: “Prompt에 없던 test command는 어디서 왔을까?”
+Opening Question: “Prompt에 다시 적지 않은 테스트 명령을 Agent는 어디에서 확인했을까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 왼쪽 요청에는 README-only 범위가 있었지만 전체 테스트 명령은 없었다고 짚는다.
-2. (1:00–3:00) 가운데 AGENTS.md 접근과 기록된 테스트 명령 사용을 오른쪽 11/11 PASS 기록에 연결한다. 화면은 Trial 기록을 요약한 설명 구조다.
-3. (3:00–4:00) Personal/global Skills도 실행됐으므로 AGENTS.md 단독 효과를 분리할 수 없다고 밝힌다. README-only 범위는 요청에도 있었다고 마무리한다.
+1. (0:00–1:00) 왼쪽 Prompt 창의 실제 요청 핵심 발췌·번역을 읽는다. README Test 절의 과거 STATE-00 실패와 현재 checkout을 구분하고, README.md만 변경하며 최종 diff·관련 검증 근거를 보고하라는 실제 요청이다. 아래 원문 밖 주석은 교육자의 설명이며 Agent에게 보낸 문장이 아니다. 검증 자체를 요청하지 않은 것이 아니라 구체 테스트 명령을 Prompt에 넣지 않은 것이다.
+2. (1:00–2:00) 가운데 AGENTS.md가 프로젝트 작업 지침이라는 역할을 강조한다. STATE-01 지침은 지정된 unittest 명령으로 테스트를 실행하라고 한다. TRIAL-003에서는 Agent가 루트 지침을 확인·출력한 뒤 그 프로젝트 테스트 명령을 실행했다. 파일을 읽었다는 사실에 더해 테스트 지침과 대응하는 실행 기록이 있음을 보여준다.
+3. (2:00–3:00) 오른쪽 전체11/11 PASS는 당시 관찰 결과다. 실제 실행은 지침의 PYTHONPATH=src python3 -m unittest discover -s tests -v 앞에 PYTHONDONTWRITEBYTECODE=1을 붙였다. 전체 command bytes가 동일하다거나 새 실행 결과라고 표현하지 않는다. 명령 옵션별 설명이나 입력 실습으로 확장하지 않는다.
+4. (3:00–4:00) 하단의 Prompt 밖 테스트 지침이 실제 실행에 적용됐다는 메시지를 회수한다. Personal/global Skills도 실행됐고 active instruction-chain dump가 없어 강제 준수 보장·AGENTS.md 단독 효과·모든 규칙 준수는 증명하지 않는다. README-only는 Prompt에도 있었으므로 독립적인 지침 효과로 세지 않는다. Task Prompt와 Project Context의 역할을 나누는 S35로 연결한다.
 
-Evidence / Source: TRIAL-003, STATE-01, DEMO-02. OBSERVED_PRODUCT; one recorded CLI run. Personal/global Skills also ran.
+Evidence / Source: TRIAL-003 / STATE-01 / DEMO-02 / OBSERVED_PRODUCT. plan/DEMO_MATRIX.md의 Interface/Product627–634행, 실제 Prompt636–644행, Verification657–672행, Project Context Used674–678행. 지침 명령은 ai-dev-training-demo STATE-01 AGENTS.md9행과 대조했다. 행 번호는 DEC-0046 작성 시점의 locator다. 원본 Trial·지침은 수정하지 않았다.
 
-Claim Boundary: This run does not isolate an independent causal effect of `AGENTS.md`, establish general superiority, or show that repository guidance alone determined file scope.
+Claim Boundary: 단일 CLI 실행의 테스트 지침 사용 관찰이다. 테스트 명령이 없었다는 주석은 실제 지시문이 아니며, 요청에는 최종 diff와 관련 검증 근거 보고가 있었다. AGENTS.md가 모든 지침 준수를 강제했다거나 단독 원인이었다고 주장하지 않는다. Personal readchk/re0/sip도 실행됐고 active instruction-chain trace가 없다. README-only는 Prompt와 중복된 제약이며 local-data/runtime-dependency 규칙은 이번 작업에서 필요하지 않았다. 현재 Desktop·계정·반복성·성능·정확도·토큰 절감 근거가 아니다.
 
-Beginner Explanation: The record shows one example where a Project test command was available outside the current Prompt and was used.
+Beginner Explanation: 실제 Prompt는 현재 README 작업을 요청한다. AGENTS.md는 프로젝트 작업 지침을 담고 있으며 이 기록에서는 그 테스트 지침의 명령을 사용했다. 검증 근거 요청과 구체 테스트 명령의 위치를 구분한다.
 
-Advanced Insight: Keep the observed action, other active instructions, and Task scope separate when interpreting causality.
+Advanced Insight: Observed use of the repository test instruction is supported. Enforcement, an isolated instruction-loading cause and attribution of README-only scope to AGENTS.md are not established by this run.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: Present the captured/reconstructed Trial record. Do not represent it as a current Desktop run or a live screenshot. HYBRID activation is UNVERIFIED.
+Demo Operation: 기존 DEMO-02의 Demo4분에 실제 요청 발췌·번역, 외부 주석, 지침 적용 관찰,11/11 결과를 순서대로 가리킨다. 화면은 기록 요약이며 실제 제품 입력창·터미널 캡처 또는 현재 Desktop 실행이 아니다. HYBRID 활성화는 UNVERIFIED이고 기본 경로는 정적 PPT/PNG다.
 
 Audience Interaction: Ask the opening question, pause briefly, then reveal the record. Do not require an answer.
 
 Transition: “이번 Task의 Prompt와 Project가 계속 유지할 Context는 어떻게 다른가?”
 
-Time Management: Use three minutes for the recorded sequence and one minute for the causal boundary. Do not elaborate on unrelated Trial details.
+Time Management: 1분 실제 요청과 외부 주석,1분 프로젝트 작업 지침,1분 테스트 실행·11/11 결과,1분 해석 한계와 S35 연결. Demo4분·기존 Mode는 유지하며 실측 리허설은 UNVERIFIED다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S34 또는 `production/preview/act2/S34.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: production/ACT_2.pptx S34 또는 production/preview/act2/S34.png를 정적 기본 경로로 사용한다. 실제 Prompt 발췌·번역과 원문 밖 주석을 구분한다. 로컬 렌더·내장 Notes 대조는 production/evaluation/S34_GUIDANCE_REVISION.md를 따른다. 원본 Trial 캡처나 새 실행을 만들지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0046의 실제 Prompt/외부 주석 분리와 관찰된 지침 준수 강조를 반영했다. 최종 PPT/Notes/PNG 검토는 production/evaluation/S34_GUIDANCE_REVISION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S35 — Task Prompt와 Project Context
 

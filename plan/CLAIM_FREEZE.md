@@ -354,3 +354,12 @@ TRIAL-002 log quotations or an Agent file-reading order. First-reproduction
 command/output, the plan utterance and raw event timestamps remain
 unverified. Keep detailed edit/width results on S18 and check outcomes on
 S19. No new run, causal claim or current Desktop validation is added.
+
+
+## DEC-0046 — S34 guidance-use emphasis
+
+Keep the actual request excerpt separate from the outside annotation that
+the request omitted a test command. Verification evidence was requested.
+Observed use of the AGENTS.md test instruction is supported; forced
+compliance, all-rule adherence and isolated causality are not. Personal
+skills also ran, and README-only was named in the Task Prompt.

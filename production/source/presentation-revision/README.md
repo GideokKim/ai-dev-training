@@ -24,6 +24,10 @@ The right side is a retained observation summary with source-checked target
 identifiers, not raw CLI quotes. Keep S18 edit detail and S19 check results
 separate. Rebuild Full and ACT1 only; preserve all other slides and times.
 
+DEC-0046 separates the S34 actual-request excerpt from its outside
+annotation and emphasizes observed use of AGENTS.md work instructions.
+Rebuild Full and ACT2 only; preserve other89 slides and all timing.
+
 ## Historical implementation notes
 
 # Presentation revision source

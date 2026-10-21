@@ -891,29 +891,29 @@ ACT별 Mode 대조:
 - **Delivery Mode Allocation:** Demo 4분 (HYBRID) = 4분
 - **Evidence / Decision References:** BEAT-009, STATE-01, CLM-0003, CLM-0005, OQ-003, OQ-005
 
-#### S34 — 한 번의 사용에서 확인된 것
+#### S34 — AGENTS.md의 지침대로 검증했다
 
 - **Slide ID:** S34
 - **ACT:** ACT 2
 - **Section:** 2B
-- **Working Title:** 한 번의 사용에서 확인된 것
+- **Working Title:** AGENTS.md의 지침대로 검증했다
 - **Primary Role:** TRIAL-003 결과와 인과 해석의 한계를 함께 보여준다.
 - **Audience Question:** “Prompt에 없던 test command는 어디서 왔을까?”
-- **Core Message:** 이 실행에서 Agent가 `AGENTS.md`를 살펴보고 그 안의 test command를 사용한 기록이 있다.
+- **Core Message:** 작업 요청에는 테스트 실행 명령이 없었지만, 이 실행에서 Agent가 AGENTS.md를 확인하고 그 테스트 지침의 명령으로 검증한 기록이 있다.
 - **Story Beat:** BEAT-010 — Reusable Project guidance succeeds at first
 - **Curriculum Trace:** ACT 2 — `AGENTS.md`'s first success.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. AGENTS.md만의 독립적인 인과 효과나 보편적 우월성을 주장하지 않는다.
-- **Visual Concept:** `Prompt에는 test command 없음` → `AGENTS.md 확인` → `기록된 명령 실행, 11/11 PASS`. README-only 변경은 작업 Prompt에도 범위가 명시됐음을 함께 표시한다.
+- **Visual Concept:** 왼쪽 native Prompt 창에는 실제 TRIAL-003 요청의 핵심 발췌·번역만 표시한다. 실제 요청에 테스트 명령이 없었다는 설명은 창 밖의 주석으로 분리한다. 가운데 AGENTS.md는 프로젝트 작업 지침으로 강조하고 지정된 명령으로 전체 테스트를 실행한다는 규칙을 요약한다. 오른쪽 전체11/11 PASS는 유지한다. README-only가 요청에도 명시됐고 Skills도 실행됐다는 한계는 보존한다.
 - **Demo / Case Connection:** 문서 수정 Task의 관찰된 실행. Personal/global Skills도 실행되어 AGENTS.md만의 효과로 분리할 수 없다.
 - **Beginner Payoff:** 반복 정보를 repository에 두는 방식의 첫 효용을 본다.
 - **Advanced Payoff:** 실제 관찰과 원인 귀속을 분리한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 성공 사례를 보여주되 Agent의 파일 범위 준수를 AGENTS.md만의 효과로 설명하지 않는다.
+- **Speaker Intent:** 실제 요청·원문 밖 주석·프로젝트 지침·관찰된 실행을 구분한다. 요청의 최종 diff와 관련 검증 근거 보고는 남기되 구체 테스트 명령은 없었다고 창 밖에서 설명한다. AGENTS.md의 테스트 지침을 실제 적용한 점을 강조하며 모든 규칙의 강제 준수·자동 로딩·단독 인과성을 주장하지 않는다.
 - **Transition:** “이번 Task의 Prompt와 Project가 계속 유지할 Context는 어떻게 다른가?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (HYBRID) = 4분
-- **Evidence / Decision References:** BEAT-010, TRIAL-003, CLM-0005
+- **Evidence / Decision References:** BEAT-010, TRIAL-003, STATE-01, CLM-0005, DEC-0046
 
 #### S35 — Task Prompt와 Project Context
 
