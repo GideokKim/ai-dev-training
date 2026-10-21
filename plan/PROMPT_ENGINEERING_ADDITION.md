@@ -41,6 +41,8 @@ Status: **INTEGRATED —90SLIDES/368MINUTES; ORIGINAL SLIDES AND TIMES PRESERVED
 
 ## Layout and Readability
 
+DEC-0045: S22–S29의 사용 상황은 옅은 배경의 **“이럴 때 사용”** 라벨과 별도 본문으로 나눈다. 상황 설명 자체는 유지하고 라벨·상황이 하나의 문장처럼 읽히지 않도록 간격·색·굵기를 구분한다.
+
 기존 Light Engineering Workbench, 16:9, 지정 글꼴, 여백과 하단 M2 원리 연결을 재사용한다. Prompt는 native text이며 출처·주의점도 편집 가능하다. 이 구간의 요청·활용 설명을 위한 T03-A 변형 적용은 통합 시 Template Mapping에 기록한다. 새 Template family나 제품 화면을 만들지 않는다.
 
 ## Approved Slide Content

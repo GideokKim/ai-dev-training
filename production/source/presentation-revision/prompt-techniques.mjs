@@ -71,7 +71,9 @@ export function promptTechniqueFactories(H){
  return Object.fromEntries(recipes.map((r,index)=>[r.id,(p)=>{
   const s=H.frame(p,r.id,r.title,`ACT 1 · 요청 문장 도구 ${index+1}/8 · ${r.method}`,
    r.source,r.limit,'CONCEPTUAL');
-  text(s,'언제  '+r.when,64,170,1152,36,27,C.sub);
+  rect(s,64,170,186,40,C.pale);
+  text(s,'이럴 때 사용',76,170,162,40,24,C.teal,true);
+  text(s,r.when,274,170,942,40,27,C.ink);
   rect(s,64,226,754,328,C.white,C.line,1);
   text(s,'요청 예시 · 교육용 구성',84,237,714,30,23,C.sub,true);
   line(s,84,277,714);

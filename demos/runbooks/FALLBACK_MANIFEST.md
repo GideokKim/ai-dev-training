@@ -6,7 +6,9 @@ Status: READY for DEC-0043 local static playback only. Finalized files, displaye
 
 ## Provenance
 
-- Current content check: DEC-0044 changes only S17. All29 fallback PNGs remain byte-identical; the source Full PPT hash was refreshed after final rendering. See production/evaluation/S17_REQUEST_ACTION_REVISION.md.
+- Current expression check: DEC-0045 separates the usage label on S22–S29. All29 fallback PNGs remain byte-identical; the source PPT identity is refreshed. See production/evaluation/PROMPT_USAGE_LABEL_REVISION.md.
+
+- Previous content check: DEC-0044 changes only S17. All29 fallback PNGs remain byte-identical; the source Full PPT hash was refreshed after final rendering. See production/evaluation/S17_REQUEST_ACTION_REVISION.md.
 
 - Previous content/numbering check: DEC-0043 adds eight conceptual request examples. All29 static fallback PNGs were reopened for dimensions/hash and matched to their integrated/ACT positions. Existing Trial/State evidence is unchanged. See production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md.
 
@@ -16,10 +18,10 @@ Status: READY for DEC-0043 local static playback only. Finalized files, displaye
 - Previous content check: 2026-10-21 (Asia/Seoul), DEC-0039. S17/S18 changed; the other 80 slide renders are byte-identical to the previous production. See production/evaluation/PROMPT_FLOW_REVISION.md.
 - Previous numbering alignment: 2026-10-21 (Asia/Seoul), DEC-0038. That release used82-slide IDs; final render, local path and file identity checks are complete. See production/evaluation/PROMPT_TIMELINE_REVISION.md and plan/SLIDE_ID_MIGRATION_82.md.
 - Previous numbering alignment: DEC-0036/0037 used 81 slides. Their reports and hashes are historical. The original DEC-0036 mapping remains in plan/SLIDE_ID_MIGRATION.md.
-- Current static file-identity/path check: 2026-10-21 for DEC-0044, after finalized-package rendering. Existing ZIP integrity describes the prior package; no bundle is regenerated. Target-PC offline playback and rehearsal remain UNVERIFIED.
+- Current static file-identity/path check: 2026-10-21 for DEC-0045, after finalized-package rendering. Existing ZIP integrity describes the prior package; no bundle is regenerated. Target-PC offline playback and rehearsal remain UNVERIFIED.
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Current source SHA-256: `bcdbf4255b9a00d72886fefa131b895361598f2aea68b58d2d6032c22ecd5646`
+- Current source SHA-256: `5aae0ec1a8ece1df42779c9d5d20a7eb6532ab1c024514b12e1ef8927e1a4de3`
 - Renderer: Artifact Tool reimport of the finalized PPTX, rasterized at 1920×1080.
 - Host: macOS 26.6.2 (25G83).
 - Current preview inventory:90 files (`S01.png`–`S90.png`), each1920×1080; montage1920×6210.

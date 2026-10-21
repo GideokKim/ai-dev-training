@@ -1,6 +1,6 @@
 # ACT 1 — Speaker Notes
 
-Status: ALIGNED — DEC-0044 refines S17 request-to-observation evidence; DEC-0043 adds eight practical method slides after S21. Current ACT1 S11–S31 has21slides/63minutes; total90slides/368minutes. All original slide allocations and claims are preserved. Latest exact-package/render/Notes review: production/evaluation/S17_REQUEST_ACTION_REVISION.md. The prior addition result is historical. Windows/room/product/rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0045 clarifies the eight usage labels; DEC-0044 refines S17 request-to-observation evidence; DEC-0043 adds eight practical method slides after S21. Current ACT1 S11–S31 has21slides/63minutes; total90slides/368minutes. All original slide allocations and claims are preserved. Latest exact-package/render/Notes review: production/evaluation/PROMPT_USAGE_LABEL_REVISION.md. The prior S17 and addition result is historical. Windows/room/product/rehearsal remain UNVERIFIED.
 
 Validation history: 이전 제작본의 local Mac Keynote 렌더·구조 검토 기록은 Git history와 기존 ACT 평가 문서에 보존한다. 이전 제작본의 PASS를 새 수정본의 검증 완료로 승계하지 않는다.
 
@@ -540,7 +540,7 @@ Evidence / Source: CLM-0032; official documented recommendations checked 2026-10
 
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 구획은 읽을 경계를 알리는 수단입니다. 보안 격리나 자료의 진위를 보장하지 않습니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
 
-Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
 Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
 
@@ -595,7 +595,7 @@ Evidence / Source: CLM-0033; official documented recommendations checked 2026-10
 
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 예시와 명세를 일치시킵니다. 예시 몇 개가 모든 경계 조건의 명세를 대신하지 않습니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
 
-Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
 Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
 
@@ -650,7 +650,7 @@ Evidence / Source: CLM-0034; official documented recommendations checked 2026-10
 
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 형식이 맞아도 내용은 확인해야 합니다. 채팅의 형식 요청은 API Structured Outputs와 별개입니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
 
-Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
 Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
 
@@ -706,7 +706,7 @@ Evidence / Source: CLM-0035; official documented recommendations checked 2026-10
 
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 파일·줄 인용도 실제 내용과 대조합니다. 인용이 있다는 사실만으로 정확성이 보장되지는 않습니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
 
-Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
 Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
 
@@ -760,7 +760,7 @@ Evidence / Source: CLM-0036; official documented recommendations checked 2026-10
 
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 모든 세부를 질문으로 돌리지 않습니다. 답에 따라 결과가 달라지는 선택에 집중합니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
 
-Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
 Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
 
@@ -815,7 +815,7 @@ Evidence / Source: CLM-0037; official documented recommendations checked 2026-10
 
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 단계는 작업·산출물의 경계입니다. 숨은 사고 과정을 길게 출력하라는 요청이 아닙니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
 
-Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
 Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
 
@@ -871,7 +871,7 @@ Evidence / Source: CLM-0038; official documented recommendations checked 2026-10
 
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 리뷰 답변도 누락할 수 있습니다. 필요한 실행 확인·변경 검토·사람의 완료 판단을 함께 사용합니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
 
-Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
 Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
 
@@ -926,7 +926,7 @@ Evidence / Source: CLM-0039; official documented recommendations checked 2026-10
 
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 앞선 제안은 가상 예시입니다. 원하는 답만 반복시키지 말고 명세와 실제 근거로 방향을 고칩니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
 
-Beginner Explanation: “언제”의 상황에서 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
+Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
 Advanced Insight: Treat the technique as a documented starting point. Check the selected model, workload, available tools, evidence and failure conditions before attributing an outcome to the prompt.
 

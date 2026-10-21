@@ -6086,3 +6086,70 @@ YES — process instructions can be checked against observable work records.
 Render the exact final Full and ACT1 packages, inspect S16-S19 continuity,
 compare unchanged89 slide renders/Notes, and retain Windows/room/current
 account and timed rehearsal as UNVERIFIED.
+
+
+# DEC-0045 — Distinguish the prompt-method usage label
+
+## Status
+
+ACCEPTED — user feedback identifies an unclear usage cue on S22.
+
+## Date
+
+2026-10-21
+
+## Context
+
+The shared S22-S29 layout concatenates a bare Korean when label and the
+usage condition into one text box. The user cannot immediately tell that
+this line explains when to use the technique.
+
+## Problem
+
+The label reads as part of an incomplete sentence instead of a category.
+The same ambiguity appears across all eight method slides.
+
+## Decision
+
+Use a separate pale badge reading "이럴 때 사용" with bold teal text, followed
+by the unchanged condition in a distinct text box. Apply the common fix to
+S22-S29 and align the eight Notes references. Preserve prompts, claims,
+source scope, layout content,90 slides and368 minutes.
+
+## Rationale
+
+Explicit wording and spatial separation identify the line as a usage cue
+without changing its teaching content.
+
+## Alternatives
+
+Punctuation alone retains a weak label. A separate full-width heading adds
+unnecessary height. Use the existing line and visual tokens.
+
+## Trade-offs
+
+The badge adds a small shape and splits one text box into two; the current
+condition text fits in the remaining width at the existing type size.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001.
+
+## Affected Artifacts
+
+Shared prompt-method factory, addition plan, eight Notes references,
+Full/ACT1 packages, previews and current delivery identities.
+
+## Evidence
+
+User annotation on the S22 usage-condition element and its shared factory.
+No new research, Trial, product claim or measurement is added.
+
+## Training Relevance
+
+YES — a standalone reference slide should state its applicable situation.
+
+## Follow-up
+
+Render all eight labels and preserve the other82 slides. Keep Windows,
+room, product/account and timed rehearsal gates unchanged.

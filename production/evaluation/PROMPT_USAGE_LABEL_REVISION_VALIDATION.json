@@ -1,0 +1,47 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-21",
+  "decision": "DEC-0045",
+  "baseline": "855ddef",
+  "changedSlides": [
+    "S22",
+    "S23",
+    "S24",
+    "S25",
+    "S26",
+    "S27",
+    "S28",
+    "S29"
+  ],
+  "label": "이럴 때 사용",
+  "unchangedUsageConditions": 8,
+  "unchangedOtherSlidePngs": 82,
+  "unchangedOtherNotesRecords": 82,
+  "changedNotesFields": "Beginner Explanation label reference only",
+  "slideMapUnchanged": true,
+  "slideCount": 90,
+  "totalMinutes": 368,
+  "act1Slides": 21,
+  "act1Minutes": 63,
+  "renderedSlidePngs": 111,
+  "fullAct1PngParity": 21,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 90,
+      "sha256": "5aae0ec1a8ece1df42779c9d5d20a7eb6532ab1c024514b12e1ef8927e1a4de3"
+    },
+    {
+      "path": "production/ACT_1.pptx",
+      "slideCount": 21,
+      "sha256": "e6bf9059c639ca30a0a19c027387ba74ebf097f866ec547c2f3e90044130520f"
+    }
+  ],
+  "fullPptSha256": "5aae0ec1a8ece1df42779c9d5d20a7eb6532ab1c024514b12e1ef8927e1a4de3",
+  "fullNotesSha256": "514ec2a842fe93a3032468694b13066858094cdd4f1b234d9ab57144143e3778",
+  "fullMontageSha256": "abdb2eab0bfc3a189684e390cb846de6f74ba4162f29b11090ddfaadf4a82ea7",
+  "demoRepositoryUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED"
+}
