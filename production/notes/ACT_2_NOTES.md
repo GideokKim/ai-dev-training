@@ -1,6 +1,6 @@
 # ACT 2 — Speaker Notes
 
-Status: ALIGNED — DEC-0049 shows S37 actual request and task-specific Context relevance; DEC-0048 S36, DEC-0047 S35 and DEC-0046 S34 remain preserved. Numbering: DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/S37_CONTEXT_RELEVANCE_REVISION.md. The prior addition validation remains historical. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0050 corrects S37 right-hand groups to AGENTS.md contents; DEC-0049 preserves the actual request; DEC-0048 S36, DEC-0047 S35 and DEC-0046 S34 remain preserved. Numbering: DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/S37_AGENTS_CONTEXT_REVISION.md. The prior addition validation remains historical. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
 
 Historical alignment status: ALIGNED — DEC-0038의 82장 번호와 운영 지침을 정렬했다. 신규 제작본의 렌더·내장 Notes 대조는 production/evaluation/PROMPT_TIMELINE_REVISION.md에서 별도로 기록한다. 기존 81장판의 PASS를 승계하지 않는다. Windows, room, account, and timed rehearsal remain UNVERIFIED.
 
@@ -250,21 +250,21 @@ Allocated Time: 4 minutes
 
 Mode Split: Demo 2 minutes (CAPTURED) + Reflection 2 minutes
 
-Primary Message: TRIAL-004 included Image context that was unnecessary for the README build-guidance Task, but no agent confusion or context-related failure was observed.
+Primary Message: AGENTS.md 안에도 이번 README 작업에 관련된 공통 지침과 불필요했던 이미지 상세가 함께 있었다. Agent 혼란이나 Context 관련 실패는 관찰되지 않았다.
 
 Opening Question: “README build 안내를 고치는 데 어떤 정보가 필요했을까?”
 
 Speaker Flow:
 
 1. (0:00–1:00 / Demo) S36의 ‘이번 작업에도 모두 필요할까?’를 회수하고 왼쪽 프롬프트창을 가리킨다. 실제 요청 발췌·번역은 README의 Build 안내에 빌드 도구·고정 버전을 적는 작업이다. 기준은 pyproject.toml이고 README.md만 바꾸며 기존 명령 유지·설치/메타데이터 변경 금지·관련 검증 보고를 요청했다. 교육용 새 Prompt를 실제 Trial 결과로 표현하지 않는다.
-2. (1:00–2:00 / Demo) 화살표를 따라 오른쪽 청록 실선 영역을 가리킨다. README의 현재 안내와 pyproject.toml의 빌드 도구·고정 버전이 직접 필요하다. 회색 점선 영역의 crop/resize 명세·처리 순서·테스트 구조·CLI 필드는 정확하지만 이번 버전 명시에는 불필요했다. Agent는 AGENTS.md도 읽었으며 이 정보로 인한 혼란·우회·Context 관련 실패는 관찰되지 않았다고 명시한다. ‘불필요’가 ‘읽지 않음’·‘잘못된 정보’·‘검증 불필요’라는 뜻은 아니다.
+2. (1:00–2:00 / Demo) 오른쪽 제목 ‘AGENTS.md에 적힌 내용’을 먼저 읽어 두 영역이 모두 같은 지침 파일의 내용임을 명시한다. 청록 영역은 Build / Run의 README 빌드·실행 안내 참조와 Core Constraints의 변경 범위 제한·관련 동작 검증이다. 회색 영역은 Architecture, Image Contract, Test 중 모듈·입출력 구조 설명, CLI Summary의 이미지 상세이며 이번 버전 명시에는 불필요했다. Test 전체나 요청된 검증을 불필요하다고 말하지 않는다. Agent는 AGENTS.md도 읽었고 혼란·우회·Context 관련 실패는 관찰되지 않았다. 지침이 요청과 일치했지만 성공의 독립 원인으로 입증된 것은 아니다.
 3. (2:00–4:00 / Reflection) 하단 메시지를 짚고 마지막2분을 개인 생각 시간으로 남긴다. 질문이 달라지면 어떤 Context가 필요해지는지 떠올리게 하되 답변·기록·실습을 요구하지 않는다. S38에서 정보의 범위·제공 시점을 정리한다.
 
-화면 진행: 프롬프트의 목표·기준 파일 → 직접 필요한 청록 영역 → 함께 있었던 회색 상세 → 관련성 질문. 실선·점선과 명시적 라벨로 색상 이외의 구분을 제공한다. 화면은 native 도식이고 실제 제품 UI나 실행 캡처가 아니다.
+화면 진행: 왼쪽 실제 요청 → 오른쪽 AGENTS.md 파일명 → 그 안의 관련 지침/불필요한 상세 → 이번 질문의 관련성. 구체적인 README-only와 pyproject.toml 기준은 Prompt에 있었고, 고정 버전값은 pyproject.toml에 있었다. 우측에는 이 외부 파일 내용이나 버전값을 AGENTS.md의 원문처럼 넣지 않는다. 실선·점선·라벨로 구분하며 화면은 native 재구성이다.
 
-Evidence / Source: TRIAL-004, BEAT-012, CLM-0014, CLM-0015, DEC-0049. OBSERVED_PRODUCT; Codex CLI0.154.0의 단일 문서 작업 기록. plan/DEMO_MATRIX.md TRIAL-004 actual task/Agent behavior/Relevant Context/Irrelevant-but-Correct Context를 대조했다. 실제 원문은 “Clarify the README Build section by naming the pinned build tools required by the existing wheel command. Use pyproject.toml as the source of truth. Change README.md only, preserve the command, and do not install packages or alter package metadata. Report relevant verification.”이다. 화면은 핵심 발췌·번역이며 전체 원문은 이 기록에 보존한다.
+Evidence / Source: TRIAL-004, BEAT-012, CLM-0014, CLM-0015, DEC-0049, DEC-0050. OBSERVED_PRODUCT; Codex CLI0.154.0의 단일 문서 작업 기록. plan/DEMO_MATRIX.md TRIAL-004 actual task/Agent behavior/Relevant Context/Irrelevant-but-Correct Context를 대조했다. 실제 원문은 “Clarify the README Build section by naming the pinned build tools required by the existing wheel command. Use pyproject.toml as the source of truth. Change README.md only, preserve the command, and do not install packages or alter package metadata. Report relevant verification.”이다. 화면은 핵심 발췌·번역이며 전체 원문은 이 기록에 보존한다. 우측 지침은 Demo STATE-02 AGENTS.md(55c045523ed1409449d7eea5b0d873983fe101b6)의 Build / Run, Core Constraints, Architecture, Image Contract, Test, CLI Summary와 대조했다. TRIAL-004 Relevant Context는 README pointer와 scoped-change/verification constraints를 관련 지침으로 기록한다.
 
-Claim Boundary: Presence of unnecessary context is not evidence that the model failed, became confused, or performed worse. No such failure was observed. The Agent read AGENTS.md, README.md and pyproject.toml. Gray means task-irrelevant detail, not unread or inaccurate information. Requested verification still applies. The Prompt already named the files and constraints, so success is not attributed solely to expanded Context. No performance or token benefit was measured, and historical CLI evidence is not a current Desktop check.
+Claim Boundary: Presence of unnecessary context is not evidence that the model failed, became confused, or performed worse. No such failure was observed. The Agent read AGENTS.md, README.md and pyproject.toml. Gray means task-irrelevant detail, not unread or inaccurate information. Requested verification still applies. Both right-hand groups summarize AGENTS.md content; the specific build-tool versions are not in that file. The full-test command is not presented as mandatory for this documentation change. The Prompt already named the files and constraints, so success is not attributed solely to expanded Context. No performance or token benefit was measured, and historical CLI evidence is not a current Desktop check.
 
 Beginner Explanation: Correct information can still be unrelated to the current Task.
 
@@ -280,9 +280,9 @@ Transition: “필요한 정보를 항상 한 번에 넣지 않는 방법은 무
 
 Time Management: Protect the two-minute Reflection. Explicitly state the absence of observed confusion before moving on.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S37 또는 production/preview/act2/S37.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S37_CONTEXT_RELEVANCE_REVISION.md와 검증 JSON을 따른다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S37 또는 production/preview/act2/S37.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S37_AGENTS_CONTEXT_REVISION.md와 검증 JSON을 따른다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
-Validation Status: ALIGNED — DEC-0049의 실제 요청창과 청록 실선/회색 점선 Context 구분을 반영했다. 최종 렌더·Notes parity는 production/evaluation/S37_CONTEXT_RELEVANCE_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0050에 따라 우측 두 영역을 AGENTS.md 내부 지침·정보 기준으로 수정하고 왼쪽 실제 요청을 보존했다. 최종 렌더·Notes parity는 production/evaluation/S37_AGENTS_CONTEXT_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S38 — 정보의 범위와 제공 시점
 

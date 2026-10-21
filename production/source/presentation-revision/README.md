@@ -45,6 +45,11 @@ prompt window and solid-teal/dashed-gray Context groups show task relevance.
 The gray group is not an unread/incorrect-information or failure claim.
 Rebuild Full and ACT2 only; preserve other89 slides and per-slide budgets.
 
+DEC-0050 corrects the S37 right-hand comparison to AGENTS.md contents:
+Build/Run README pointer and scope/verification guidance versus image details.
+The specific versions are not guidance-file contents. Preserve the existing
+left Prompt and rebuild Full/ACT2 only; other89 slides and budgets stay fixed.
+
 ## Historical implementation notes
 
 # Presentation revision source

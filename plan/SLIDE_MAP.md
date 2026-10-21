@@ -969,23 +969,23 @@ ACT별 Mode 대조:
 - **ACT:** ACT 2
 - **Section:** 2D
 - **Working Title:** 정확하지만 이번 작업에는 불필요한 정보
-- **Primary Role:** TRIAL-004에서 관련 Context와 비관련 Context를 비교한다.
+- **Primary Role:** TRIAL-004에서 읽은 AGENTS.md 안의 지침·정보를 이번 작업과의 관련성으로 나눈다.
 - **Audience Question:** “README build 안내를 고치는 데 어떤 정보가 필요했을까?”
 - **Core Message:** TRIAL-004에서는 필요한 정보와 무관한 정보가 함께 있었지만, Agent 혼란이나 Context 관련 실패는 관찰되지 않았다.
 - **Story Beat:** BEAT-012 — A small task receives unrelated Project Context
 - **Curriculum Trace:** ACT 2 — Context growth, relevance, and research caveat.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. Context 증가가 실패를 일으켰다는 주장을 하지 않는다.
-- **Visual Concept:** 왼쪽 native 프롬프트창에 TRIAL-004 실제 요청의 핵심 발췌·번역을 둔다. 빌드 도구·고정 버전 명시, pyproject.toml 기준, README-only, 기존 명령 유지, 설치·메타데이터 변경 금지, 관련 검증 보고를 보존한다. 오른쪽에서 이번 수정에 직접 필요한 README/빌드 설정은 청록색 실선·면으로, 정확하지만 불필요한 이미지 명세·처리 순서·테스트 구조·CLI 필드는 회색 점선으로 구분한다. 색 외에도 문구와 선 형태로 의미를 표시한다. 하단은 질문에 따른 관련성으로 회수하며 AGENTS.md도 읽었다는 관찰과 혼란·실패 없음·성능 미측정 경계를 유지한다.
+- **Visual Concept:** 왼쪽 실제 요청 프롬프트창은 유지한다. 오른쪽 제목은 ‘AGENTS.md에 적힌 내용’으로 명시한다. Build / Run의 README 빌드·실행 안내 참조와 Core Constraints의 변경 범위 제한·관련 동작 검증을 청록 실선으로 묶는다. Architecture/Image Contract/Test의 구조 설명/CLI Summary의 이미지 상세는 회색 점선으로 묶는다. README·pyproject.toml 자체나 고정 버전값을 AGENTS.md 내용으로 넣지 않는다. 색 외에도 문구와 선 형태로 구분하고, Agent가 AGENTS.md를 읽었으며 혼란·실패는 관찰되지 않았다는 경계를 유지한다.
 - **Demo / Case Connection:** README Build 안내에서 pinned build tools를 확인한 문서 Task. Agent 혼란 없음, Context 관련 실패 없음.
 - **Beginner Payoff:** 정확한 정보라도 현재 Task와 관련 있는지 따져본다.
 - **Advanced Payoff:** 무관한 Context의 존재와 실제로 관찰된 부정적 결과를 혼동하지 않는다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 먼저 요청의 대상·기준 파일을 읽고 그 요청에 필요한 Context를 가리킨다. 회색 영역은 정보가 틀리거나 읽지 않았다는 뜻이 아니다. 필요한 검증 지침과 이미지 테스트 구조의 불필요한 상세를 혼동하지 않게 한다. S36의 누적 정보 질문을 회수하고 S38의 범위·제공 시점으로 넘긴다. Model Failure나 성능 효과로 확대하지 않는다.
+- **Speaker Intent:** 프롬프트를 읽은 뒤 오른쪽의 두 영역이 모두 AGENTS.md 내부의 내용임을 먼저 짚는다. 필요한 프로젝트 지침과 이번 질문에 불필요했던 이미지 상세를 비교한다. 구체적인 README-only/pyproject.toml 기준은 실제 요청에, 버전값은 실제 빌드 설정에 있었음을 구분한다. 회색은 틀린 정보나 읽지 않은 정보라는 뜻이 아니다. S36의 누적 정보 질문을 회수하고 S38의 범위·제공 시점으로 넘기며 인과성·성능 주장으로 확대하지 않는다.
 - **Transition:** “필요한 정보를 항상 한 번에 넣지 않는 방법은 무엇일까?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 2분 (CAPTURED) + Reflection 2분 = 4분
-- **Evidence / Decision References:** BEAT-012, TRIAL-004, CLM-0014, CLM-0015, DEC-0049
+- **Evidence / Decision References:** BEAT-012, TRIAL-004, CLM-0014, CLM-0015, DEC-0049, DEC-0050
 
 #### S38 — 정보의 범위와 제공 시점
 

@@ -6371,6 +6371,8 @@ Keep Windows, room, product/account and rehearsal UNVERIFIED.
 ## Status
 
 ACCEPTED — explicit user request for a standalone S37 explanation.
+Right-hand content selection is corrected by DEC-0050; the request window
+and other approved scope remain valid.
 
 ## Date
 
@@ -6437,3 +6439,74 @@ YES — relevance depends on the task question even when information is correct.
 Review S36-S38 continuity and final exact-package renders. Preserve other89
 slides, all per-slide budgets and the absence of observed Context failure.
 Keep Windows, room, product/account and rehearsal UNVERIFIED.
+
+
+# DEC-0050 — Ground S37 relevance in AGENTS.md contents
+
+## Status
+
+ACCEPTED — explicit user correction of S37's right-hand comparison.
+
+## Date
+
+2026-10-21
+
+## Context
+
+DEC-0049 showed external README and pyproject.toml files in the relevant group.
+The user clarified that both groups must classify contents of AGENTS.md.
+
+## Problem
+
+Restore the comparison to one guidance file without inventing build versions
+or task-specific README-only instructions inside its general guidance.
+
+## Decision
+
+Keep the left actual-request window unchanged. Explicitly label the right
+side as AGENTS.md contents. Highlight its Build / Run README pointer and
+Core Constraints scope/verification guidance in teal. Keep Architecture,
+Image Contract, Test structure details and CLI Summary in the gray group.
+Preserve the solid/dashed visual distinction, four-minute Mode split,
+all90 slides and368minutes. Correct only the right-hand selection of DEC-0049.
+
+## Rationale
+
+The audience can compare relevance within the same growing guidance file
+introduced by S36, which is the intended Context Engineering example.
+
+## Alternatives
+
+Keep an external-file comparison: rejected by the user's clarification.
+Put version numbers in AGENTS.md: inaccurate to the retained source.
+Treat the entire Test section as unnecessary: overbroad for requested checks.
+
+## Trade-offs
+
+Selected guidance is translated and summarized, not a complete reproduction
+of AGENTS.md. Specific task scope and build versions remain in their original
+Prompt and build-setting sources. Matching guidance does not prove causality.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-002, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S37 source and Map, ACT2/Full Notes, Full/ACT2 PPTX, previews and current
+handoff identities. Preserve DEC-0049's historical review and prior files.
+
+## Evidence
+
+Explicit user correction, STATE-02 AGENTS.md at55c0455 and TRIAL-004 Relevant
+Context/Irrelevant-but-Correct Context. No new Trial or Demo code change.
+
+## Training Relevance
+
+YES — distinguish relevance among facts and guidance within one Context file.
+
+## Follow-up
+
+Verify unchanged left Prompt, other89 slides, all per-slide budgets and
+source/Notes parity. Keep no-confusion/no-failure boundaries and unverified
+Windows, room, product/account and rehearsal gates.
