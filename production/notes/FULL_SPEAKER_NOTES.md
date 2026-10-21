@@ -1,6 +1,6 @@
 # Full Speaker Notes — AI Developer Training
 
-Status: ALIGNED — DEC-0051 diagrams S38 scope, timing and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 preserves S36 document growth; DEC-0047 preserves S35 information destinations; DEC-0046 preserves S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S38_CONTEXT_MODEL_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 scope, timing and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 preserves S36 document growth; DEC-0047 preserves S35 information destinations; DEC-0046 preserves S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S39_RESEARCH_SCOPE_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
 
 Authority: plan/MASTER_PLAN.md, plan/INVARIANTS.md, plan/SLIDE_MAP.md, plan/CLAIM_FREEZE.md, plan/SPEAKER_NOTES_FREEZE.md, plan/SLIDE_ID_MIGRATION_90.md and DEC-0043. Original80/81/82-slide audits remain historical. The small M footer marks bounded teaching links, not full module completion.
 
@@ -1827,39 +1827,38 @@ Allocated Time: 4 minutes
 
 Mode Split: Lecture 4 minutes
 
-Primary Message: Research in specific models and tasks supports a bounded caution: more context is not automatically better, and relevance or information position can matter under some conditions.
+Primary Message: 두 연구가 확인한 과제·조건과 관찰을 먼저 읽는다. 특정 과제의 연구 관찰은 필요한 근거를 실제로 활용했는지 확인할 질문을 주지만, 현재 Codex의 보편 한계나 이 Demo의 Routing 효과를 입증하지 않는다.
 
-Opening Question: “정보의 범위와 시점을 나눠봤는데, Context 양만 늘리면 충분할까?”
+Opening Question: “앞에서 정보의 범위와 제공 시점을 나눴습니다. 대신 많은 정보를 한 번에 넣으면 필요한 근거도 잘 찾아 쓸까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 앞 장의 정보 분류에서 잠시 물러나 ‘양만 늘리면 충분한가?’라는 질문을 보는 목적을 밝힌다. ‘더 많은 Context가 항상 더 좋은 것은 아니다’의 적용 범위를 특정 모델·과제에 한정한다.
-2. (1:00–3:00) 왼쪽 Lost in the Middle의 여러 문서 질문 답변/key-value 검색, 오른쪽 RepoQA의 50개 Repository 코드 검색을 비교한다. 논문이 답한 질문과 승인된 핵심 결론만 말한다. 수치 그래프나 현재 Codex 성능 추정은 추가하지 않는다.
-3. (3:00–4:00) 화면 하단의 두 출처와 Notes의 원문 링크를 안내한다. 이 Demo의 현재 Codex Repository coding을 직접 시험한 연구가 아님을 명시한다. 연구 소개를 마치고, 이번 Task에 필요한 상세 정보와 그 위치를 설계하는 질문으로 돌아간다.
+1. (0:00–0:30) S38의 기본 안내/필요한 상세/반복 절차를 회수한 뒤 ‘양만 늘리면 충분한가?’로 질문을 좁힌다. 두 도식은 논문 과제의 재구성이며 실제 제품 실행 화면이 아님을 밝힌다.
+2. (0:30–1:45) 왼쪽 Lost in the Middle을 짚는다. 여러 문서의 질문 답변과 합성 key-value 검색에서 정답 근거의 위치를 바꾸어 비교했다. 앞/중간/뒤의 블록은 위치만 나타내며 실제 문서 수나 점수 그래프가 아니다. 일부 당시 모델·과제에서 중간 근거의 정답률이 낮아졌다고 설명한다. 모든 모델·과제가 같은 현상을 보인 것은 아니다.
+3. (1:45–3:00) 오른쪽 RepoQA는 기능 설명과 코드 입력을 보고 설명에 맞는 함수 코드를 반환한 뒤 정답 함수와 유사도를 비교하는 과제다. 50개 저장소/5개 언어/500개 과제가 포함됐고 주 실험의 코드 입력은 CodeLlama tokenizer 기준16K토큰이다. 전체 Prompt 길이나 현재 Codex 한도라는 뜻이 아니다. 모델·언어별 함수 찾기 성능 차이를 관찰했으며 저장소 수정·도구 검색·테스트 실행을 평가한 것은 아니다.
+4. (3:00–4:00) 하단의 ‘업무에 적용할 질문’과 ‘이 연구만으론 미입증’을 따로 가리킨다. 필요한 근거를 실제로 찾아 활용했는지 작업별로 확인하자는 것은 교육적 적용 질문이다. 현재 Codex 실패율·보편 한계·Routing 성능 개선은 이 연구로 확인하지 않았다. S40의 필요한 상세 정보에 도달하는 설계 질문으로 돌아간다.
 
-화면 진행: 왼쪽은 관련 정보의 위치를 바꾸는 질적 과제 구조, 오른쪽은 Repository에서 관련 코드를 찾는 과제 구조다. 칠해진 블록은 정보 위치 표시이며 점수·성능·현재 Codex 결과를 뜻하지 않는다. 수치 그래프처럼 해석하지 않는다.
+Evidence / Source: RESEARCH. CLM-0014/CLM-0015, SRC-0201/SRC-0204, DEC-0052. Liu et al., “Lost in the Middle: How Language Models Use Long Contexts,” TACL 2024,12:157–173, https://aclanthology.org/2024.tacl-1.9/ . RepoQA: Evaluating Long Context Code Understanding,2024, arXiv:2406.06025, https://arxiv.org/abs/2406.06025 ; primary task/setting: https://arxiv.org/html/2406.06025v1 ; official project/citation: https://evalplus.github.io/repoqa.html . The official citation names First Workshop on Long-Context Foundation Models @ ICML2024, not the ICML main conference. Primary records rechecked2026-10-22.
 
-Evidence / Source: RESEARCH. Liu et al., “Lost in the Middle: How Language Models Use Long Contexts,” TACL 2024, 12:157–173, https://aclanthology.org/2024.tacl-1.9/; RepoQA (2024), arXiv:2406.06025, https://arxiv.org/abs/2406.06025. RepoQA venue remains TODO in the source plan and is not invented here.
+Claim Boundary: 두 논문의 역사적 모델·과제·조건에 한정한다. 현재 Codex의 Repository coding 실패, 보편적인 중간 정보 무시, 토큰 임계값, 정보를 더 주면 항상 나빠짐, Routing의 우월성·토큰 절약·성능 향상을 주장하지 않는다. RepoQA는 Lost in the Middle의 위치별 곡선을 재현한 연구로 표현하지 않는다. 업무상 확인 질문은 현재 제품에서 측정된 효과가 아니다.
 
-Claim Boundary: Do not claim current Codex fails because of Lost in the Middle, create a context-length threshold, generalize results across all models/tasks, or invent numeric/curve data. Keep study conditions beside the conclusion.
+Beginner Explanation: 왼쪽은 ‘같은 근거가 어디에 있느냐’, 오른쪽은 ‘설명에 맞는 함수를 코드에서 찾느냐’를 평가했다. 넣은 정보량과 필요한 근거를 실제로 활용했는지는 별도로 확인한다.
 
-Beginner Explanation: A larger context window does not guarantee that every included detail is equally useful in every task.
-
-Advanced Insight: The cited work covers specific historical models and benchmark settings, including multi-document QA and synthetic retrieval; it does not establish a present-day Codex limitation.
+Advanced Insight: RepoQA의 고정된 코드 입력 조건과 함수 유사도 평가는 live agent의 탐색·수정·검증 전체와 다르다. Lost in the Middle에도 과제·모델별 차이가 있다. 연구 관찰, 업무상 설계 판단, 현재 제품의 검증을 분리한다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A. This is a research summary, not a deterministic product demonstration.
+Demo Operation: N/A. 논문 과제의 native 재구성 도식이며 실제 Trial/현재 Codex Screenshot이나 결정론적 실패 Demo가 아니다.
 
-Audience Interaction: Use the opening question to invite a short mental prediction, then answer within the cited scope.
+Audience Interaction: 첫 질문에 잠깐 예측하게 한 뒤 두 도식의 입력·조작·평가를 순서대로 짚는다. 새 토론 시간이나 실습을 추가하지 않는다.
 
 Transition: “이 연구가 Demo의 Routing을 검증한 것은 아닙니다. 이제 Task에 필요한 상세 정보를 어디서 찾게 할지 설계로 돌아가겠습니다.”
 
-Time Management: Keep the paper descriptions concise and reserve the final minute for the transfer boundary.
+Time Management: 도입30초, Lost in the Middle75초, RepoQA75초, 적용 범위60초로4분을 유지한다. 시간이 부족하면 데이터셋 세부 수와 채점 구현 설명을 생략하고 과제·관찰·현재 제품 미입증 경계를 남긴다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S39 또는 `production/preview/act2/S39.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S39 또는 production/preview/act2/S39.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S39_RESEARCH_SCOPE_REVISION.md와 검증 JSON을 따른다. 실제 실행 캡처나 현재 제품 결과로 표현하지 않는다.
 
-Validation Status: REVIEWED — DEC-0030에서 승인한 화면 강조와 운영 Cue를 정렬했다. 최종 PPT/Notes/PNG 대조와 렌더 검토 결과는 production/evaluation/FULL_DECK_PRESENTATION_POLISH.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 제품·계정, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0052의 연구별 과제 도식/관찰/현재 Codex 적용 범위와 S38→S39→S40 연결을 반영했다. 최종 렌더·Notes parity는 production/evaluation/S39_RESEARCH_SCOPE_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S40 — 필요한 상세 정보로 가는 길
 

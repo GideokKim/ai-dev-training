@@ -1024,16 +1024,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 2 — Context growth, relevance, and bounded `Lost in the Middle` evidence.
 - **Evidence Type:** RESEARCH
 - **Claim Status:** FROZEN WITH SCOPE — DEC-0023의 제한된 연구 주장. 인용과 연구 대상·조건을 유지하며 현재 Codex의 일반 한계로 확장하지 않는다.
-- **Visual Concept:** 연구가 다룬 조건에서 관련 정보의 위치별 결과를 간단히 표시하고, 결론 옆에 `특정 모델·과제·조건` 경계를 붙인다.
+- **Visual Concept:** 두 native 과제 도식을 병렬 배치한다. Lost in the Middle은 같은 근거를 앞/중간/뒤로 옮기는 위치 비교, RepoQA는 기능 설명+코드 입력→함수 코드 반환→정답 함수와 유사도 비교다. 각 도식 아래에 당시 일부 모델·과제의 중간 위치 정답률 저하와 모델·언어별 함수 찾기 성능 차이를 구분한다. 하단은 업무에 적용할 질문과 현재 Codex 실패율·보편 한계·Routing 효과 미입증을 별도 행으로 표시한다.
 - **Demo / Case Connection:** 결정론적 “중간 내용은 항상 실패” 시연은 하지 않는다.
 - **Beginner Payoff:** 긴 Context가 곧 동일한 활용을 보장한다고 가정하지 않는다.
 - **Advanced Payoff:** 연구 결과의 대상·조건과 현재 제품 주장을 분리한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** “Context가 길면 무조건 실패한다”가 아니라 위치와 관련성에 대한 제한적 주의로 설명한다.
+- **Speaker Intent:** S38의 정보 범위·시점 구분에서 모든 정보를 늘 넣으면 충분한가라는 질문을 회수한다. 두 연구가 실제로 평가한 과제와 조건을 먼저 설명한 뒤 연구별 관찰을 말한다. RepoQA의 16K는 주 평가의 코드 입력 조건이며 현재 Codex의 한도가 아니다. 연구에서 얻는 업무상 확인 질문과 현재 제품에 대해 미입증인 결론을 분리하고 S40의 상세 정보 탐색 설계로 돌아간다.
 - **Transition:** “이 연구가 Demo의 Routing을 검증한 것은 아닙니다. 이제 Task에 필요한 상세 정보를 어디서 찾게 할지 설계로 돌아가겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-013, OQ-006, CLM-0014, CLM-0015
+- **Evidence / Decision References:** BEAT-013, OQ-006, CLM-0014, CLM-0015, SRC-0201, SRC-0204, DEC-0052
 
 #### S40 — 필요한 상세 정보로 가는 길
 

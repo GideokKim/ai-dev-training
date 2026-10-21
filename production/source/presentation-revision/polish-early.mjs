@@ -152,28 +152,39 @@ S35:make('S35','Task Prompt와 Project Context','ACT 2 · 정보의 범위와 �
     text(s,'여러 작업에서 다시 참고',684,555,516,34,27,C.teal,true);
   }),
 S39:make('S39','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 양을 다시 묻는 연구',
-  'Liu et al., Lost in the Middle, TACL 2024 · RepoQA, 2024',
-  '특정 모델·과제의 결과 · 현재 Codex의 Repository coding 한계를 입증하지 않음','RESEARCH',
+  'Liu et al., TACL 2024: aclanthology.org/2024.tacl-1.9/ · RepoQA 2024: arxiv.org/abs/2406.06025',
+  '연구 과제의 재구성 · 현재 Codex의 Repository 작업을 직접 평가한 근거가 아님','RESEARCH',
   (s,{C,text,line,rect,arrow})=>{
-    text(s,'더 많은 Context가 항상 더 좋은 것은 아니다',64,195,1152,44,32,C.teal,true);
-    text(s,'Lost in the Middle',64,259,550,40,29,C.ink,true);
-    text(s,'RepoQA',704,259,512,40,29,C.ink,true);
-    text(s,'여러 문서의 질문 답변 · key-value 검색',64,306,550,32,24,C.sub);
-    text(s,'50개 Repository의 코드 검색 과제',704,306,512,32,24,C.sub);
-    text(s,'관련 정보의 위치를 달리하는 구성',64,351,550,32,24,C.sub,true);
-    [0,2,4].forEach((target,row)=>{for(let i=0;i<5;i++){
-      const x=64+i*107,y=398+row*30;
-      rect(s,x,y,96,19,i===target?C.teal:C.white,C.line,1);
-    }});
-    text(s,'질문',704,355,114,38,26,C.teal,true);
-    arrow(s,828,365,36,21);
-    rect(s,884,349,332,119,C.white,C.line,1);
-    text(s,'Repository의 코드',902,362,296,35,26,C.ink,true);
-    text(s,'관련 코드 찾기',902,410,296,35,26,C.teal,true);
-    text(s,'관련 정보의 위치가\n일부 조건에서 중요할 수 있다',64,499,550,70,28,C.ink,true);
-    text(s,'관련 코드 정보를\n선택하고 찾는 능력을 평가',704,499,512,70,28,C.ink,true);
-    text(s,'aclanthology.org/2024.tacl-1.9/',64,577,550,27,19,C.sub,false,'Consolas');
-    text(s,'arxiv.org/abs/2406.06025',704,577,512,27,19,C.sub,false,'Consolas');
+    text(s,'많은 정보를 넣으면, 필요한 근거도 잘 찾아 쓸까?',64,176,1152,43,30,C.teal,true);
+    text(s,'Lost in the Middle',64,237,550,39,29,C.ink,true);
+    text(s,'RepoQA',704,237,512,39,29,C.ink,true);
+    text(s,'문서 질문 답변 · 합성 key-value 검색',64,280,550,30,23,C.sub);
+    text(s,'정답 근거의 위치만 바꿔 비교',64,316,550,28,22,C.sub,true);
+    [0,2,4].forEach((target,row)=>{
+      const y=351+row*30;
+      text(s,['앞','중간','뒤'][row],64,y-2,64,28,22,C.sub,true);
+      for(let i=0;i<5;i++){
+        const x=142+i*86;
+        rect(s,x,y,78,24,i===target?C.pale:C.white,i===target?C.teal:C.line,i===target?1.5:1);
+        if(i===target)text(s,'근거',x,y,78,24,19,C.teal,true,undefined,'center');
+      }
+    });
+    text(s,'50개 저장소 · 설명에 맞는 함수 찾기\n주 평가: 코드 입력 16K 토큰',704,280,512,56,23,C.sub);
+    rect(s,704,346,146,88,C.white,C.line,1.5);
+    text(s,'기능 설명\n+ 코드 입력',712,359,130,62,23,C.ink,true,undefined,'center');
+    arrow(s,864,380,22,18);
+    rect(s,898,346,134,88,C.pale,C.teal,1.5);
+    text(s,'함수 코드\n반환',904,359,122,62,24,C.teal,true,undefined,'center');
+    arrow(s,1048,380,22,18);
+    rect(s,1082,346,134,88,C.white,C.line,1.5);
+    text(s,'정답 함수와\n유사도 비교',1088,359,122,62,23,C.ink,true,undefined,'center');
+    text(s,'일부 당시 모델·과제에서\n중간 근거에 대한 정답률 저하',64,448,550,64,25,C.ink,true);
+    text(s,'모델·언어별로\n함수 찾기 성능이 달랐음',704,448,512,64,25,C.ink,true);
+    line(s,64,521,1152,C.line,1);
+    text(s,'업무에 적용할 질문',64,529,230,31,22,C.teal,true);
+    text(s,'필요한 근거를 실제로 찾아 활용했는지 작업별로 확인',320,529,896,32,25,C.ink);
+    text(s,'이 연구만으론 미입증',64,566,230,31,22,C.warn,true);
+    text(s,'현재 Codex의 실패율·보편 한계·Routing 개선 효과',320,566,896,32,24,C.ink);
   }),
 S40:make('S40','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상세 정보의 탐색 경로',
   '교육용 Routing 모델 · 실제 문서 접근 결과는 다음 구간에서 확인',

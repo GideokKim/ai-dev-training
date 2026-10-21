@@ -6584,3 +6584,80 @@ Review S37-S39 continuity, diagrams and Notes parity. Preserve other89 slides
 and all per-slide budgets. Do not claim automatic routing, token savings,
 performance improvement or a procedure actually stored in STATE-02.
 Keep Windows, room, product/account and rehearsal UNVERIFIED.
+
+
+# DEC-0052 — Show S39 research tasks and bounded transfer
+
+## Status
+
+ACCEPTED — explicit user request to connect S39 with S38 visually.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S38 distinguishes common guidance, task-dependent details and procedure.
+S39 must show what the cited research actually tested before returning to
+S40's detail-routing design question.
+
+## Problem
+
+Study names and generic cautions alone hide the evaluated tasks and the
+boundary between historical findings and present-day Codex performance.
+
+## Decision
+
+Keep one S39 with parallel native task diagrams and one scoped finding each.
+Show position changes for Lost in the Middle and description/code input,
+function-code return and similarity scoring for RepoQA. Separate an applied
+work question from unproved current-Codex and Routing claims at the bottom.
+Recheck primary sources and narrow SRC-0204 to its actual function task.
+Retain90 slides,368minutes, S39 Lecture4 and every existing Slide ID/budget.
+Align the Map, Notes, Full/ACT2 packages and artifact identities.
+
+## Rationale
+
+The inputs and evaluation are visible before the findings, so each research
+claim is understandable without repository access. One page remains readable
+and supports S38's question without adding a new research-lecture section.
+
+## Alternatives
+
+Keep the generic summary: insufficient task clarity.
+Split into two slides: allowed, but unnecessary after local density review.
+Show numeric curves or current-Codex results: exceeds available evidence.
+
+## Trade-offs
+
+The diagrams are qualitative task reconstructions, not screenshots or score
+plots. RepoQA's16K code input is a historical main-experiment setting, not a
+Codex limit. The papers motivate a work question but do not validate this
+Demo's routing, token savings or product performance. The official RepoQA
+citation is an ICML2024 workshop, not the main conference.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-002, INV-RESEARCH-002,
+INV-RESEARCH-004, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S39 source and Map, ACT2/Full Notes, Full/ACT2 PPTX and previews, source
+registry and current handoff identities. Preserve earlier review records.
+
+## Evidence
+
+Explicit user direction; primary Lost in the Middle ACL paper and RepoQA
+paper/project checked2026-10-22. CLM-0014/0015 and SRC-0201/0204 retain their
+bounded research scope. No new Trial, product check or Demo code change.
+
+## Training Relevance
+
+YES — distinguish a study's task, finding and justified transfer to work.
+
+## Follow-up
+
+Verify S38-S40 continuity, readable diagrams, all90 Notes and unchanged89
+slides. Keep Windows, room, product/account and rehearsal UNVERIFIED.

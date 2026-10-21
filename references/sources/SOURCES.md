@@ -731,13 +731,13 @@ URL: https://aclanthology.org/2024.tacl-1.9/
 Published: 2024
 Venue / Archive: Transactions of the Association for Computational Linguistics (TACL), 12, 157–173.
 Archive ID: arXiv:2307.03172
-Checked: 2026-09-25
+Checked: 2026-10-22
 Tier: 2
 Topics: Lost in the middle, long context, context placement
-Key Evidence: multi-document QA/key-value retrieval performance often drops when relevant information is in the middle of long context.
+Key Evidence: moving relevant information between beginning, middle and end in multi-document QA and synthetic key-value retrieval showed lower middle-position accuracy in several studied models/settings.
 Limitations: Older models/tasks; does not prove all current models ignore middle context.
 Volatility: MEDIUM
-Notes: Scope claims tightly.
+Notes: Primary ACL record/PDF rechecked for DEC-0052. Position diagrams are qualitative task reconstructions, not measured current-Codex curves.
 
 ### SRC-0202
 
@@ -775,20 +775,20 @@ Notes: Supports not overclaiming context window size.
 
 ### SRC-0204
 
-Title: RepoQA
-Organization / Authors: RepoQA authors
+Title: RepoQA: Evaluating Long Context Code Understanding
+Organization / Authors: Liu et al. (RepoQA authors)
 Source Type: PAPER
 URL: https://arxiv.org/abs/2406.06025
 Published: 2024
 Archive ID: arXiv:2406.06025
-Venue: TODO — confirm venue from the primary record before citation.
-Checked: 2026-09-25
+Venue: First Workshop on Long-Context Foundation Models @ ICML2024, per the official project citation; not the ICML main conference.
+Checked: 2026-10-22
 Tier: 2
-Topics: Repository QA, codebase context
-Key Evidence: repository-level question answering requires selecting relevant files and facts from codebase context.
-Limitations: Benchmark setup differs from live workplace agent work.
+Topics: Long-context code understanding, description-to-function retrieval
+Key Evidence: Searching Needle Function supplies a natural-language function description and code context, asks for the matching function code and compares it with the reference using code similarity. The benchmark contains50 repositories,5 languages and500 tasks; the main experiment fixes code input at16K tokens under the CodeLlama tokenizer. Performance differs across models and languages.
+Limitations: This is not repository editing, tool-search, test execution, a context-length threshold or present-day Codex evaluation. The input setting and scoring do not establish a Routing benefit or a universal lost-in-the-middle effect.
 Volatility: MEDIUM
-Notes: Useful for context engineering.
+Notes: Primary task/setting https://arxiv.org/html/2406.06025v1 and official citation https://evalplus.github.io/repoqa.html rechecked for DEC-0052. Narrow the prior generic repository-QA description to the actual function-finding task. Omit inconsistent model-count summaries and do not infer current product performance.
 
 ### SRC-0205
 

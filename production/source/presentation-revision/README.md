@@ -55,6 +55,12 @@ shared guidance, task-dependent detail and reusable procedure. These are
 teaching relationships, not observed routing or stored workflow results.
 Rebuild Full/ACT2 only; preserve the other89 slides and all budgets.
 
+DEC-0052 updates S39 in `polish-early.mjs` with two native research-task
+diagrams. Separate the historical findings from an applied work question and
+unproved present-day Codex/Routing claims. Primary papers are rechecked and
+SRC-0204 is narrowed to description-to-function retrieval. Rebuild Full/ACT2
+only; preserve the other89 slides and every per-slide budget.
+
 ## Historical implementation notes
 
 # Presentation revision source
