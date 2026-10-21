@@ -1,10 +1,10 @@
 # Full Speaker Notes — AI Developer Training
 
-Status: REVIEWED — DEC-0040에서 S11 비용 곡선·화살표를 PNG 이미지로 교체했다. 최신 제작 검토는 production/evaluation/S11_RESOURCE_GRAPH_REVISION.md를 따른다. DEC-0039의 S17/S18 정렬, 82장/360분 및 기존 ACT·Mode·근거 범위를 유지한다. Windows, room, current product/account, and timed rehearsal remain UNVERIFIED.
+Status: REVIEWED — DEC-0041에서 S21 확인 방법·범위 표를 왼쪽으로 모으고 우측 vector와 명세 assertion 예시를 정렬했다. 최신 제작 검토는 production/evaluation/S21_ASSERTION_SPEC_REVISION.md를 따른다. 기존 S11 이미지·S17/S18 정렬, 82장/360분과 ACT·Mode·근거 범위를 유지한다. Windows, room, current product/account, and timed rehearsal remain UNVERIFIED.
 
 S10 revision: DEC-0037 (2026-10-21). 제조 검사 Task의 파이프라인 도식과 기존 질문·6분 운영을 정렬했다. 현재 검토: `production/evaluation/S10_INSPECTION_PIPELINE_REVISION.md`.
 
-Authority: `plan/SLIDE_MAP.md`, `plan/CLAIM_FREEZE.md`, `plan/SPEAKER_NOTES_FREEZE.md`, `plan/SLIDE_ID_MIGRATION_82.md`, and DEC-0027 through DEC-0040.
+Authority: `plan/SLIDE_MAP.md`, `plan/CLAIM_FREEZE.md`, `plan/SPEAKER_NOTES_FREEZE.md`, `plan/SLIDE_ID_MIGRATION_82.md`, and DEC-0027 through DEC-0041.
 
 하단의 M 연계 표시는 구 강의의 관련 내용·원칙을 가리키며 모듈 전체 이수를 뜻하지 않는다. 장별 범위는 `production/evaluation/LEGACY_MODULE_MAP.md`를 참조한다. 기존 80장 검토 문서는 당시 번호의 역사적 근거로 유지하며 현재 번호는 82장 Migration 표로 연결한다.
 
@@ -942,32 +942,32 @@ Opening Question: “이 Check로 무엇까지 말할 수 있는가?”
 
 Speaker Flow:
 
-1. (0:00–0:30) 표가 특정 테스트의 만능 효과를 뜻하지 않는다고 소개한다. 실제 TRIAL-002는 집중·전체 테스트, CLI smoke, diff를 확인했다는 하단 출처를 짚는다.
-2. (0:30–2:30) 확인 방법 → 말할 수 있는 범위의 다섯 행을 설명한다. 성능 측정 행은 교육 모델이며 TRIAL-002에서 benchmark를 실행하지 않았다고 밝힌다.
-3. (2:30–4:00) 같은 crop 사례에서 검사가 계약 위반을 구별하는지 비교한다. “결과가 비어 있지 않다”는 빈 결과를 찾을 수 있지만 끝 좌표를 잘못 포함한 3열 결과도 받아들일 수 있다. 이 조건만으로는 끝 좌표 제외 계약을 검증하기에 부족하다. “원본 열 1·2만 포함하고 출력 폭은 2다”처럼 해당 입력의 기대 결과를 비교해야 이 차이를 구별할 수 있다. 전자의 검사를 항상 무의미하다고 부르지 않으며, 후자의 검사 하나가 모든 입력의 정확성을 보장한다고도 말하지 않는다. 강의용 반례이고 새 실행 결과나 당시 테스트 assertion의 전사본이 아니다.
-4. (4:00–5:00) 익숙한 Check가 뒷받침하는 Claim을 개인적으로 떠올린다. 그 검증 방법을 다음 작업에서도 다시 설명할지 생각하는 Reflection으로 마친다.
+1. (0:00–0:30) 좌측 표가 특정 테스트의 만능 효과를 뜻하지 않는다고 소개한다. 실제 TRIAL-002는 집중·전체 테스트, CLI smoke, diff를 확인했다는 하단 출처를 짚는다. 오른쪽은 같은 crop 예시를 C++로 재표현한 교육용 도식이며 실제 C++ 실행 기록이 아니다.
+2. (0:30–2:30) 좌측 확인 방법과 말할 수 있는 범위의 다섯 행을 설명한다. 집중 Test는 해당 동작·조건, 전체 Test는 현재 suite의 회귀 범위, smoke는 샘플 통합 경로, diff는 변경 범위, 측정은 지정 입력·환경에서의 성능을 뒷받침한다. 성능 측정 행은 교육 모델이며 TRIAL-002에서 benchmark를 실행하지 않았다고 밝힌다.
+3. (2:30–4:00) 우측의 원본 첫 행 {1,2,3,4}와 crop [1,3)의 끝 좌표 제외 명세를 읽는다. 기대 vector는 {2,3}·2개이고, 끝 좌표를 포함한 잘못된 vector는 {2,3,4}·3개다. `EXPECT_FALSE(actual.empty());`는 둘 다 비어 있지 않으므로 이 차이를 구별하지 못하는 조건이다. `std::vector<int> expected{2,3};`를 둔 뒤 `EXPECT_EQ(actual.size(), 2u);`와 `EXPECT_EQ(actual, expected);`로 기대 개수·값·순서를 대조한다. vector 동등 비교가 길이도 검사하므로 size 행은 폭 조건을 눈에 보이게 나눈 교육상 중복이다. assertion을 많이 쓰는 것 자체보다 명세 위반을 구별하는 조건인지가 핵심이다. 이것은 조건의 논리적 비교이며 새 C++ 테스트의 PASS/FAIL 결과나 당시 assertion의 전사본이 아니다.
+4. (4:00–5:00) 익숙한 Check가 뒷받침하는 Claim과, 자기 테스트가 어떤 명세 위반을 놓칠 수 있는지 개인적으로 떠올린다. 그 검증 방법을 다음 작업에서도 다시 설명할지 생각하는 Reflection으로 마친다. 답변·코드 작성·실습은 요구하지 않는다.
 
-Evidence / Source: BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027. Actual checks are separate from the TEACHING_MODEL mapping.
+Evidence / Source: BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0041. Actual checks are separate from the TEACHING_MODEL mapping. 기존 crop 첫 행의 1·2·3·4와 기대 2·3을 native C++ vector 도식으로 재표현했다. Assertion과 vector 동등 비교의 의미: [GoogleTest Primer](https://google.github.io/googletest/primer.html), [Microsoft vector operators](https://learn.microsoft.com/en-us/cpp/standard-library/vector-operators?view=msvc-170). 기술 의미는 공식 문서에 한정하며 현재 Demo가 GoogleTest를 사용한다는 뜻이 아니다.
 
-Claim Boundary: Focused/full tests, CLI smoke, and diff review are actual TRIAL-002 checks. The mapping is a course model; benchmark was not run. No single check proves all correctness. 비어 있지 않음과 계약상 기대 열·폭의 비교는 기존 crop 사례를 이용한 교육용 반례이며 새 실행 결과, 당시 assertion 원문 또는 GoogleTest 사용법 교육이 아니다.
+Claim Boundary: Focused/full tests, CLI smoke, and diff review are actual TRIAL-002 checks. The mapping is a course model; benchmark was not run. No single check proves all correctness. 우측 vector와 GoogleTest assertion은 실제 Python unittest crop 사례를 설명하는 교육용 재표현이다. 새 C++ 실행·Trial·PASS/FAIL이나 당시 assertion 원문이 아니며 {2,3,4}는 명세 위반을 설명하는 반례다. 한 입력의 기대값 비교는 다른 입력·경계·플랫폼의 정확성이나 모든 누락 검출을 보장하지 않는다.
 
-Beginner Explanation: Focused test는 바뀐 동작을, 전체 Test는 기존 suite의 범위를, smoke는 sample 실행 경로를 확인한다.
+Beginner Explanation: 테스트가 있다는 사실만 보지 않고, 그 조건이 기대하는 개수와 원소를 실제로 비교하는지 확인한다. 비어 있지 않음은 빈 결과를 찾는 데 의미가 있지만, 추가 원소가 끼어든 이 오류는 놓칠 수 있다.
 
-Advanced Insight: For C++ projects, match Release build, API/ABI checks, regression tests, and measurement to the claim and risk. These are illustrative engineering patterns, not this Demo repository’s tooling.
+Advanced Insight: For std::vector<int>, equality compares length and corresponding element values in order; the explicit size check exposes the width requirement but is redundant with equality. Choose cases and assertions from the specification and risk instead of treating assertion count as coverage. Release build, API/ABI checks, regression cases and named-workload measurement remain optional patterns, not this Demo repository's tooling or completed validation.
 
-C++ Vision Bridge: NOTES-ONLY 선택적 참고: `build claim → Release build`; `compatibility claim → API / ABI review`; `performance claim → benchmark with named workload`. 화면의 C++ inset은 계약 비교 예시로 대체했으며 이 대응을 추가 강의하지 않는다. 주요 C++ 패턴 전이는 S55에 유지한다. No Windows, shell, IDE, or hardware setup is asserted.
+C++ Vision Bridge: ON-SCREEN SUPPORTING 예시: S02와 같은 native vector 원소 칸으로 기대 {2,3}와 잘못된 {2,3,4}를 표시하고 GoogleTest의 테스트러너 assertion 조건을 비교한다. 표준 C assert나 빌드 설정에 기대는 검증 예시가 아니며 GoogleTest 설치·사용법 강의로 확장하지 않는다. `expected` 지역변수로 비교 대상을 이름 붙인다. Release build·API/ABI·성능 측정 대응은 Notes의 선택 참고로만 남기고 주요 C++ 패턴 전이는 S55에 유지한다. No Windows, shell, IDE, hardware or new C++ execution is asserted.
 
-Demo Operation: TRIAL-002 evidence callback outside the 8-minute Demo slot. 본문 표와 검증 품질 반례는 일반적인 check-to-claim 교육 모델이다. 하단 출처에는 실제 Trial에서 수행한 확인만 따로 표시한다. Benchmark 미실행 경계를 유지하고 반례에 새 PASS/FAIL, 수치나 실행 결과를 추가하지 않는다.
+Demo Operation: TRIAL-002 evidence callback outside the 8-minute Demo slot. 좌측 표와 우측 vector·assertion 비교는 일반적인 check-to-claim 교육 모델이다. 하단 출처에는 실제 Trial에서 수행한 확인만 표시한다. 실제 Trial은 Python unittest이며 화면의 C++ 코드나 잘못된 vector를 새 실행 결과로 재생하지 않는다. Benchmark 미실행 경계를 유지하고 새 PASS/FAIL·성능 수치·실행 결과를 추가하지 않는다.
 
-Audience Interaction: 마지막 1분은 각자가 익숙한 Check와 그 Check가 뒷받침하는 Claim을 조용히 생각한다. 결과 발표는 요구하지 않는다.
+Audience Interaction: 마지막 1분은 각자가 익숙한 Check와 그 조건이 확인하거나 놓칠 수 있는 명세 위반을 조용히 생각한다. 결과 발표나 테스트 작성은 요구하지 않는다.
 
 Transition: “방금 정한 테스트 명령과 보존 조건은 다음 작업에도 필요할 수 있습니다. 이 설명을 매번 다시 적어야 할까요?”라고 검증 지침의 재사용에서 S22의 정보 수명 질문으로 연결한다.
 
-Time Management: Lecture 4분과 Reflection 1분을 분리한다. 소개 30초, Check 표 2분, 계약 위반을 구별하는 검사 비교 90초로 Lecture를 편성한다. C++ footer 해설 1분과 반복 소개 30초를 이 비교로 교체한다. C++ 대응은 선택적 참고로 남기고 별도 도구 강의 시간을 더하지 않는다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+Time Management: Lecture 4분과 Reflection 1분을 분리한다. 소개 30초, 좌측 Check 표 2분, 우측 vector·명세 assertion 비교 90초로 Lecture를 편성한다. 기존 시간이 바뀌지 않으며 C++ 초기화 생성자 설명·도구 설정·assertion 튜토리얼을 추가하지 않는다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
 
-Fallback: 정적 PPTX S21 또는 `production/preview/act1/S21.png`를 사용한다. 표의 일반적인 범위와 하단 Trial 출처를 구분한다. 새 렌더 검토는 통합 단계에서 수행한다.
+Fallback: 정적 PPTX S21 또는 `production/preview/act1/S21.png`를 사용한다. 좌측의 일반 범위, 우측 교육용 C++ 도식과 하단의 실제 Trial 출처를 구분한다. 최종 렌더·내장 Notes/PNG 대조는 production/evaluation/S21_ASSERTION_SPEC_REVISION.md를 따른다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — DEC-0041의 명세와 assertion 의미·vector 수치·범위와 운영 지침을 대조했다. 최종 PPT·내장 Notes·PNG 검토는 production/evaluation/S21_ASSERTION_SPEC_REVISION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S22 — 이번 Task인가, 계속 유지할 Project 정보인가?
 

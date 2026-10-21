@@ -1,18 +1,18 @@
 # Static Fallback Manifest
 
-Status: READY for DEC-0040 local static playback only. Finalized files, displayed IDs, dimensions, Notes/preview parity and hashes were checked after rendering. This is not current-product, raw-Trial, Windows or room approval.
+Status: READY for DEC-0041 local static playback only. Finalized files, displayed IDs, dimensions, Notes/preview parity and hashes were checked after rendering. This is not current-product, raw-Trial, Windows or room approval.
 
 ## Provenance
 
-- Current content check: DEC-0040 S11 raster-graph replacement. All 29 fallback PNGs below are unchanged from DEC-0039; current source-PPT hash was refreshed. See production/evaluation/S11_RESOURCE_GRAPH_REVISION.md.
+- Current content check: DEC-0041 S21 specification-assertion teaching diagram. All 29 fallback PNGs below remain byte-identical to DEC-0039/0040; current source-PPT hash was refreshed. See production/evaluation/S21_ASSERTION_SPEC_REVISION.md.
 
 - Previous content check: 2026-10-21 (Asia/Seoul), DEC-0039. S17/S18 changed; the other 80 slide renders are byte-identical to the previous production. See production/evaluation/PROMPT_FLOW_REVISION.md.
 - Current numbering alignment: 2026-10-21 (Asia/Seoul), DEC-0038. Current references are 82-slide IDs; final render, local path and file identity checks are complete. See production/evaluation/PROMPT_TIMELINE_REVISION.md and plan/SLIDE_ID_MIGRATION_82.md.
 - Previous numbering alignment: DEC-0036/0037 used 81 slides. Their reports and hashes are historical. The original DEC-0036 mapping remains in plan/SLIDE_ID_MIGRATION.md.
-- Current static file-identity/path check: 2026-10-21 for DEC-0040, after finalized-package rendering. Existing ZIP integrity describes the prior package; no bundle is regenerated. Target-PC offline playback and rehearsal remain UNVERIFIED.
+- Current static file-identity/path check: 2026-10-21 for DEC-0041, after finalized-package rendering. Existing ZIP integrity describes the prior package; no bundle is regenerated. Target-PC offline playback and rehearsal remain UNVERIFIED.
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Current source SHA-256: `d21a2759048632dc19aea8755a019215ce414958b37ce279d99515df0602f8e9`
+- Current source SHA-256: `5b4325dfa16cb401a2509ddc24a1788ba0893e219e9c6d86c469eb0cbdf63603`
 - Renderer: Artifact Tool reimport of the finalized PPTX, rasterized at 1920×1080.
 - Host: macOS 26.6.2 (25G83).
 - Full preview inventory: 82 files (`S01.png`–`S82.png`), each 1920×1080; montage 1920×5670.
@@ -38,7 +38,7 @@ Status: READY for DEC-0040 local static playback only. Finalized files, displaye
 
 ## Fallback File Integrity
 
-The hashes below were rechecked at DEC-0040; these 29 PNGs are unchanged from DEC-0039. READY covers the availability and identity of local static files only.
+The hashes below were rechecked at DEC-0041; these 29 PNGs are unchanged from DEC-0039/0040. READY covers the availability and identity of local static files only.
 
 | Slide | Local path | Dimensions | SHA-256 |
 |---|---|---:|---|

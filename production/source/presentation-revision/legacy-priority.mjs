@@ -47,17 +47,31 @@ export function priorityFactories(factories,H){
   },
   S21(p){
    const s=H.frame(p,'S21','Check마다 확인하는 범위','ACT 1 · 근거에 맞춰 말하기',
-    'TRIAL-002 실제 확인: 집중·전체 테스트 / CLI smoke / diff · 검사 비교는 교육용 재구성',
-    'Benchmark는 이 Trial에서 미실행. 검사 비교는 새 테스트 실행이나 PASS 결과가 아닙니다.');
-   text(s,'확인 방법',64,197,380,36,26,C.sub,true);
-   text(s,'말할 수 있는 범위',460,197,756,36,26,C.sub,true);
-   const rows=[['집중 테스트','바뀐 동작의 해당 테스트 조건'],['전체 테스트','현재 suite에 담긴 회귀 범위'],['CLI smoke','샘플 입력의 통합 실행 경로'],['diff 검토','변경 범위와 의도하지 않은 수정'],['성능 측정','측정한 입력·환경에서의 성능']];
-   rows.forEach((r,i)=>{const y=242+i*46;line(s,64,y,1152);text(s,r[0],64,y+4,340,38,27,i===4?C.warn:C.teal,true);text(s,r[1],460,y+4,756,38,27,C.ink);});
-   text(s,'4열 입력 · crop 1 3의 끝 좌표 계약을 확인한다면',64,486,1152,30,23,C.sub);
-   text(s,'비어 있지 않음',64,526,550,34,27,C.sub,true);
-   text(s,'잘못된 3열 결과도 만족할 수 있음',64,562,550,30,23,C.sub);
-   text(s,'원본 열 1·2, 폭 2',704,526,512,34,27,C.teal,true);
-   text(s,'끝 좌표 제외 계약을 직접 확인',704,562,512,30,23,C.teal);
+    'TRIAL-002 실제 확인: 집중·전체 테스트 / CLI smoke / diff · 우측은 C++ 교육용 도식',
+    '실제 Trial은 Python unittest입니다. Benchmark 미실행 · 우측은 새 실행·PASS 결과가 아닙니다.');
+   text(s,'확인 방법',64,197,178,36,25,C.sub,true);
+   text(s,'말할 수 있는 범위',252,197,356,36,25,C.sub,true);
+   const rows=[['집중 테스트','바뀐 동작의 해당 조건'],['전체 테스트','현재 suite의 회귀 범위'],['CLI smoke','샘플의 통합 실행 경로'],['diff 검토','변경 범위·의도치 않은 수정'],['성능 측정','측정한 입력·환경의 성능']];
+   rows.forEach((r,i)=>{const y=244+i*64;line(s,64,y,544);text(s,r[0],64,y+8,178,45,25,i===4?C.warn:C.teal,true);text(s,r[1],252,y+8,356,45,25,C.ink);});
+   text(s,'명세를 assert에 담아야 한다',668,190,548,36,28,C.teal,true);
+   text(s,'입력 {1, 2, 3, 4} · crop [1, 3)',668,232,548,30,24,C.sub,false,H.CODE);
+   const vector=(label,values,y,bad=false)=>{
+    text(s,label,668,y+6,153,38,23,bad?C.red:C.teal,true);
+    values.forEach((value,i)=>{
+     const x=838+i*64,extra=bad&&i===2;
+     rect(s,x,y,54,50,extra?C.redPale:C.white,extra?C.red:C.teal,2);
+     text(s,String(value),x,y,54,50,32,extra?C.red:C.teal,true,H.FONT,'center');
+    });
+    text(s,String(values.length)+'개',1060,y+6,156,38,26,bad?C.red:C.teal,true,H.FONT,'right');
+   };
+   vector('기대 expected',[2,3],276);
+   vector('잘못된 actual',[2,3,4],341,true);
+   text(s,'제외할 값 4가 있어도 비어 있지 않다',668,400,548,27,23,C.red);
+   text(s,'EXPECT_FALSE(actual.empty());',668,434,548,31,24,C.sub,false,H.CODE);
+   text(s,'이 조건만으로는 명세 위반을 놓친다',668,466,548,27,23,C.warn,true);
+   text(s,'개수·값·순서를 명세와 비교',668,503,548,28,24,C.teal,true);
+   text(s,'EXPECT_EQ(actual.size(), 2u);',668,535,548,29,24,C.teal,true,H.CODE);
+   text(s,'EXPECT_EQ(actual, expected);',668,566,548,28,24,C.teal,true,H.CODE);
    return s;
   }
  };

@@ -20,6 +20,12 @@ with two transparent imagegen PNGs in `prompt-timelines.mjs`. Labels and
 all other content stay native and unchanged; the images remain qualitative
 with no measurements. Rebuild Full + ACT 1 for this revision.
 
+DEC-0041 moves S21's five check/scope rows left and uses S02-style native
+vector cells on the right. GoogleTest assertion excerpts contrast a
+non-empty check with the specified size and expected vector. The example
+remains conceptual; the recorded Trial still used Python unittest. Source:
+`legacy-priority.mjs`. Rebuild Full + ACT 1 only; keep 82 slides/360 minutes.
+
 These modules reproduce the audience-facing revision accepted in DEC-0027.
 DEC-0028 adds the approved S07/S39/S55/S74 teaching illustrations and the S74
 text-box repair. The original pilot remains a historical review artifact.

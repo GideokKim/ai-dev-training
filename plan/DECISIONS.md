@@ -5731,3 +5731,90 @@ content, Notes parity, current hashes and the unchanged time budget.
 ## Approval
 
 The explicit user request authorizes this bounded image-format change.
+
+
+# DEC-0041 — Show specification assertions with the crop vector example
+
+## Status
+
+ACCEPTED
+
+## Date
+
+2026-10-21
+
+## Context
+
+The user requests a compact left Check-to-claim table and a right vector
+example resembling S02, making the role of strict specification checks clear.
+
+## Problem
+
+The previous lower text says a weak check can miss an error without showing
+which values differ or how an assertion can distinguish the specification.
+
+## Decision
+
+- Keep S21's five Check-to-claim meanings, title, core message, role,
+  T06-C, evidence boundary and Lecture 4 / Reflection 1 minutes.
+- Move the table left. On the right, use native vector cells for the
+  existing first-row crop example: input {1,2,3,4}, range [1,3), expected
+  {2,3} of size 2 and an erroneous {2,3,4} of size 3. Emphasize the extra 4.
+- Compare EXPECT_FALSE(actual.empty()) with a named expected vector,
+  EXPECT_EQ(actual.size(), 2u) and EXPECT_EQ(actual, expected). Use
+  GoogleTest test-runner assertions as teaching code, not a C++ execution.
+- Explain that vector equality already checks length, values and order;
+  the size row makes the width requirement explicit, not stronger by count.
+- Permit the bounded right-side SUPPORTING example within T06-C. Keep
+  82 slides, 360 minutes, all ACT/Mode totals and the S21-to-S22 handoff.
+- Align S21 Map, Template Mapping and nineteen-field ACT/Full Notes.
+  Add no Trial, test run, asset, Demo-state change or presenter bundle.
+
+## Rationale
+
+Visible expected and erroneous elements make the missed endpoint concrete.
+Assertions tied to the specification reveal what evidence the check provides
+without turning more assertions into a claim of general correctness.
+
+## Alternatives
+
+Keep the lower text: does not make the missed value visible. Reuse S02's
+constructor lesson: would divert from the ongoing crop specification.
+Show a new PASS/FAIL run: not required or supported by current evidence.
+
+## Trade-offs
+
+The right example uses more space than a footer inset. It stays a supporting
+verification example, with no new Template or C++ tooling lesson. One input
+illustrates the boundary but does not establish all-input coverage.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001, INV-SOT-003.
+
+## Affected Artifacts
+
+S21 Map and Template Mapping, ACT 1 / Full Notes, slide source,
+ACT 1 / integrated PPTs, previews and current artifact identities.
+
+## Evidence
+
+Explicit user instruction on 2026-10-21. Existing crop example and TRIAL-002
+verification boundary. GoogleTest Primer and Microsoft vector-operator
+reference support the assertion and equality semantics. No new execution.
+
+## Training Relevance
+
+YES — tie test evidence to the exact specification instead of equating a
+present or successful test with complete behavior validation.
+
+## Follow-up
+
+Render S21 and review S20-to-S22 continuity, assertion legibility,
+unchanged slide content, Notes parity and the existing time budget.
+Keep Windows, target product/room and actual timed rehearsal UNVERIFIED.
+
+## Approval
+
+The explicit S21 revision request authorizes this bounded composition and
+teaching-example change without extending the recorded Trial claims.

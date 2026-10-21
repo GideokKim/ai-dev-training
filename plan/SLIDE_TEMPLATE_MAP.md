@@ -133,7 +133,7 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S18 — 조사에서 한 줄 변경까지 | T06-A | CMP-TRIAL | CMP-DIFF, CMP-EVIDENCE | P | DEMO-05 EVIDENCE/process; recall 02 investigation / 03 plan before 04 edit; same crop diff; CAPTURED, 4 min | Single state | — | V03, V04 |
 | S19 — 변경 결과와 확인 증거 | T06-B | CMP-TRIAL, CMP-EVIDENCE | CMP-DIFF | P | DEMO-05 WHAT HAPPENED/result; CAPTURED, 4 min | Single state | — | V02, V04 |
 | S20 — Generated ≠ Done | T06-C | CMP-EVIDENCE | CMP-CLAIM | P+T; separate the recorded checks from the model | TRIAL-002 verification callback; Lecture | Single state | — | V01, V05 |
-| S21 — Check마다 확인하는 범위 | T06-C | CMP-EVIDENCE | CMP-CLAIM, CMP-CPP | P+T; actual checks and general check-to-claim model separated | TRIAL-002 evidence callback; Lecture/Reflection | Single state | Supporting | V01, V05, V08 |
+| S21 — Check마다 확인하는 범위 | T06-C | CMP-EVIDENCE | CMP-CLAIM, CMP-CPP | P+T; actual checks separated from the C++ teaching schematic | Left Check-to-claim table; right native vector cells and weak/specification assertions; Lecture 4 + Reflection 1 min | Single state | Supporting; DEC-0041 right-side example | V01, V05, V08 |
 | S22 — 이번 Task인가, 계속 유지할 Project 정보인가? | T01-B | — | — | T | — | Single state | — | V09 |
 | S23 — 반복하는 설명을 두 범주로 나누기 | T04-A | — | — | C+T | — | Single state | — | V10 |
 | S24 — 다른 Task에 같은 설명이 반복된다 | T02-B | — | CMP-WORKFLOW | T | DEMO-02 problem framing; no result yet | Single state | — | V09 |
@@ -309,6 +309,11 @@ in the count.
 | PRIMARY | S55, S74, S80 | Give the engineering-pattern transfer diagram prominent space within the host Template. Keep PYTHON DEMO → ENGINEERING PATTERN → C++ VISION as the visual center; do not turn it into a tool list or C++ implementation lesson. |
 | SUPPORTING | S16, S21, S27, S32–34 | Use a small inset or footer strip only. Preserve the host Slide’s main message and use one bounded transfer example. |
 | CONTEXTUAL | S07, S49, S52–54, S58, S61–62, S65–66, S75, S77, S79, S81 | Treat as a Speaker cue. Add a small annotation only when it improves the host Slide and fits its density limit; the C++ component does not need a visible rendering. |
+
+DEC-0041 permits S21's SUPPORTING C++ example in the right-side teaching
+area beside a compact Check-to-claim table. Its native vector cells and
+assertion excerpts explain the host Slide's verification message; this is
+not a new PRIMARY Bridge, Template, variant, C++ Trial or tool tutorial.
 
 S56 contains a contextual C++ Vision cue in SLIDE_MAP.md but has no CMP-CPP
 component assignment. It is therefore not part of the 23-Slide component

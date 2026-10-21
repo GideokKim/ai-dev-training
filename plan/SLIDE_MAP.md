@@ -591,16 +591,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; Trial의 실제 결과와 일반적인 검증 모델을 분리한다. TRIAL-002에서는 benchmark를 수행하지 않았다.
-- **Visual Concept:** Focused test—변경 동작, full test—알려진 회귀 범위, smoke—통합 경로, diff review—범위와 의도치 않은 변경, benchmark—성능 주장의 다섯 대응을 유지한다. C++ footer 해설·중복 소개 일부를 “비어 있지 않음”과 “원본 열 1·2, 출력 폭 2”의 검증 범위 비교로 교체한다. 반례는 강의용 재구성이며 새 실행 결과나 당시 assertion 원문이 아니다.
+- **Visual Concept:** 좌측에 Focused test—변경 동작, full test—알려진 회귀 범위, smoke—통합 경로, diff review—범위와 의도치 않은 변경, benchmark—성능 주장의 다섯 대응을 압축해 유지한다. 우측은 S02와 같은 native vector 원소 칸으로 입력 {1,2,3,4}, crop [1,3), 기대 {2,3}·2개와 끝 좌표를 잘못 포함한 결과 {2,3,4}·3개를 비교하고 추가된 4를 강조한다. `EXPECT_FALSE(actual.empty());`는 두 결과를 구별하지 못한다. 이름 붙인 `std::vector<int> expected{2,3};`와 `EXPECT_EQ(actual.size(), 2u);`, `EXPECT_EQ(actual, expected);`로 해당 입력의 명세를 개수·값·순서 조건에 옮긴다. 오른쪽은 C++ 교육용 재표현이며 새 실행 결과·당시 assertion 원문이 아니다. DEC-0041.
 - **Demo / Case Connection:** TRIAL-002의 tests, CLI smoke, diff 확인을 실제 예로 두고, benchmark는 필요한 경우의 예로 표시한다.
 - **Beginner Payoff:** 검사 결과가 무엇을 말해주는지 과장하지 않는다.
 - **Advanced Payoff:** C++ 프로젝트에는 GoogleTest/CTest, Release build, Google Benchmark/profiler, public API/ABI 확인 등을 상황에 맞게 연결할 수 있다.
-- **C++ Vision Bridge:** Notes 전용 선택 참고로 Release build·API/ABI·대상 입력의 검증 범위를 연결한다. 화면의 C++ inset은 crop 계약 비교로 대체하며, Python Demo를 C++ 도구 강의로 전환하지 않는다.
-- **Speaker Intent:** 도구 이름보다 `Goal → Constraint → Verification`의 전이를 강조한다. Lecture 4분 중 90초를 검사가 계약 위반을 구별하는지 해설하는 데 쓰고 Reflection 1분을 보존한다. 비어 있지 않음 검사를 항상 무의미하다고 부르거나 한 기대값 비교로 모든 입력의 정확성을 보장하지 않는다.
+- **C++ Vision Bridge:** 화면 우측의 SUPPORTING 예시로 기존 Python crop 첫 행을 C++ vector와 GoogleTest assertion 조건으로 재표현한다. S02의 원소 칸 표현을 재사용하되 초기화 생성자 설명을 반복하지 않는다. Release build·API/ABI·측정 조건 대응은 Notes의 선택 참고로 유지하며 Python Demo를 C++ 도구 강의로 전환하지 않는다.
+- **Speaker Intent:** 도구 이름이나 assertion 개수보다 명세 위반을 구별할 조건을 작성했는지 강조한다. Lecture 4분 중 90초를 기대 vector와 잘못된 vector 및 약한 조건·명세 조건 비교에 쓰고 Reflection 1분을 보존한다. vector 동등 비교가 이미 길이·값·순서를 확인하므로 size 행은 폭 조건을 드러내는 교육상 중복임을 구분한다. 비어 있지 않음 검사를 항상 무의미하다고 부르거나 한 기대값 비교로 모든 입력의 정확성을 보장하지 않는다.
 - **Transition:** “방금 정한 테스트 명령과 보존 조건은 다음 작업에도 필요할 수 있습니다. 이 설명을 매번 다시 적어야 할까요?”라고 검증 지침의 재사용에서 S22의 정보 수명 질문으로 연결한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 4분 + Reflection 1분 = 5분
-- **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027
+- **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0041
 
 #### S22 — 이번 Task인가, 계속 유지할 Project 정보인가?
 

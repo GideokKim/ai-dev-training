@@ -1,0 +1,105 @@
+{
+  "decision": "DEC-0041",
+  "baselineCommit": "e5596fd",
+  "slides": 82,
+  "totalMinutes": 360,
+  "actCounts": {
+    "ACT 0": 10,
+    "ACT 1": 13,
+    "ACT 2": 15,
+    "ACT 3": 18,
+    "ACT 4": 18,
+    "ACT 5": 8
+  },
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 55,
+    "ACT 2": 70,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 130,
+    "Reflection": 20,
+    "Case": 83,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "changedSlides": [
+    "S21"
+  ],
+  "unchangedMapProtectedFields": true,
+  "unchangedOtherMapNotesRecords": 81,
+  "notesRecords": 82,
+  "notesFields": 19,
+  "fullActMarkdownAndEmbeddedNotesParity": true,
+  "unchangedOtherVisualStructuresMediaAndPngs": 81,
+  "unchangedOtherActPackages": [
+    0,
+    2,
+    3,
+    4,
+    5
+  ],
+  "exactPackagePngCount": 95,
+  "fullActPngParityCount": 13,
+  "changedFinalPngMatchesReviewedDraft": true,
+  "assertionFixture": {
+    "source": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "range": "[1,3)",
+    "expected": [
+      2,
+      3
+    ],
+    "hypotheticalWrongResult": [
+      2,
+      3,
+      4
+    ]
+  },
+  "diagramMethod": "S02-style native vector cells and text",
+  "newCppExecution": "NONE",
+  "nativeChartDataPreserved": true,
+  "packages": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slides": 82,
+      "sha256": "5b4325dfa16cb401a2509ddc24a1788ba0893e219e9c6d86c469eb0cbdf63603",
+      "bytes": 15261570,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyImport": true
+    },
+    {
+      "path": "production/ACT_1.pptx",
+      "slides": 13,
+      "sha256": "28d9b30788d9b8b15abb549bb7eccc958f3288cc52e3ff3f9046719fe24bf976",
+      "bytes": 3805136,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyImport": true
+    }
+  ],
+  "newTrial": "NONE",
+  "demoRepository": "UNCHANGED",
+  "presenterBundle": "PAUSED / UNCHANGED",
+  "windowsRoomProductTimedRehearsal": "UNVERIFIED",
+  "notesSha256": "fbf9c7df6ac28fb1e3d0e46457f15c808d5ea0b944576d85276bdb8f40c19ca9",
+  "fullMontageSha256": "7263db8be1234973e49f1b247b181afb91d310fdd07e087a24b1422bb031ce92",
+  "staticFallbackFilesVerified": 29,
+  "staticFallbackPngChanges": 0,
+  "cppSources": [
+    "https://google.github.io/googletest/primer.html",
+    "https://learn.microsoft.com/en-us/cpp/standard-library/vector-operators?view=msvc-170"
+  ],
+  "visualReview": "S21 enlarged and independently reviewed; coordinate/value wording repaired; no new clipping or overlap within local scope"
+}
