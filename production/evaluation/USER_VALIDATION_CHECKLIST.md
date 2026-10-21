@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일: 2026-10-20 (Asia/Seoul). 대상 Git 후보: `9bc4144`.
+갱신 기준일: 2026-10-21 (Asia/Seoul). 대상 Git 후보: `adba817` / DEC-0033.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,16 +9,18 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `847b1486e810c19a22722a938661b9a7aaa56f860d893989c712e63c881610b1`
+- PPTX SHA-256: `0ee8e9ec3a7b825bda2fe035b914677353c3aeeb530b44a5946f168e3c438c9a`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `024466b676b8d93e8f9abee1157968782429d68e38d6f08fb03945a920dc276f`
+- Notes SHA-256: `78ccf816a7b3d738bc6009764f81be7fa38b6f005454d65082bf446fb0a88b3a`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S80.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
 두 파일의 해시는 이번 문서 갱신 시 실제 파일에서 확인했다. 다음은 최신
-[발표용 개선 보고서](FULL_DECK_CONTINUITY_REVISION.md)와
-[검증 JSON](FULL_DECK_CONTINUITY_REVISION_VALIDATION.json)에 이미 기록된
-로컬 완료 범위다. 이번 흐름 개선에서 통합·ACT 전체 렌더와 package 검사를 재실행했다.
+[발표용 보강 보고서](LEGACY_PRIORITY_REVISION.md)와
+[검증 JSON](LEGACY_PRIORITY_REVISION_VALIDATION.json)에 기록된 로컬 완료 범위다.
+이번 보강에서 통합·ACT 전체 렌더와 PPTX 구조 검사를 수행했다.
+오프라인 ZIP의 payload 362개·entry 363개, CRC·추출 hash·내부 링크·Notes 정합성을
+확인했다. 실제 발표 PC에서의 오프라인 재생은 여전히 UNVERIFIED다.
 
 | 기존 로컬 확인 | 보고서에 기록된 결과 |
 |---|---|
@@ -26,11 +28,13 @@
 | 전체 80장 최종 PNG | 개별 시각 검토 완료, 새 P0/P1 및 의미 있는 P2 없음; ACT와 통합 PNG 일치 |
 | 구조·시간 | 80장 / 순수 교육 360분, Slide ID·ACT·시간·Mode·Claim 경계 보존 |
 | Notes | 80개·장별 19필드 유지, Markdown·통합 및 ACT 내장 Notes 일치 |
-| 승인된 발표용 개선 | DEC-0032 화면 14장·Notes 41개·전환 24개 정렬; 나머지 66장 화면 보존 |
+| 승인된 발표용 보강 | DEC-0033 S07/S14/S18/S19 본문·Notes 네 장 보강, 80장 M 연계 표시; 나머지 76장 본문·이미지 내용 보존 |
 | Fallback 자료 | 최종 PPTX 및 등록 PNG 해시·미리보기 갱신 |
 
-과거 후보의 “S73/S77 카드 행·callout geometry만 수정” 기록은 그 시점의
-이력이다. 현재 후보의 화면·수정 범위는 최신 보고서와 이 체크리스트를 따른다.
+DEC-0032의 화면 14장·Notes 41개·전환 24개 정렬과 과거 후보의
+“S73/S77 카드 행·callout geometry만 수정” 기록은 각각 그 시점의 이력이다.
+이번 M 연계는 관련 내용·원칙을 뜻하며 원 모듈 전체 충족이 아니다.
+S31/S44/S79의 2순위 보강은 적용하지 않았으며 장별 시간·Mode를 유지했다. 현재 후보의 화면·수정 범위는 최신 보고서와 이 체크리스트를 따른다.
 지정 서체는 Malgun Gothic / Consolas이며 로컬 렌더는 Apple SD Gothic Neo /
 Menlo alias를 사용했다. 로컬 결과는 실제 발표 PC의 글꼴 선택·대체를 검증하지 않는다.
 
@@ -77,7 +81,8 @@ Demo State를 바꾸지 않는 국소 수정안을 작성한다. 기준 문서�
 - [ ] 한글 줄바꿈, 영문/한글 혼합, 코드, Citation, Evidence label을 확인했다.
 - [ ] S72 왼쪽 장면→오른쪽 세 질문→하단 성찰 질문 순서가 읽히며 겹침·잘림이 없다.
 - [ ] S74 번호·화살표가 상단 왼쪽→오른쪽, 하단 오른쪽→왼쪽으로 이어지고 아래 회상 발췌와 구분된다.
-- [ ] S10–14, S21/25, S30/31, S38/39의 장별 역할과 S67–71, S73–79의 흐름이 최신 Notes와 맞는다.
+- [ ] S07/S14/S18/S19 보강과 S10–14, S21/25, S30/31, S38/39의 장별 역할 및 S67–71, S73–79의 흐름이 최신 Notes와 맞는다.
+- [ ] 80장 하단 M 연계 표시가 Evidence/Boundary와 겹치지 않으며 모듈 전체 충족으로 읽히지 않는다.
 - [ ] S23/S43 한국어 의미·원문, S37 절차, S48 결론, S53 연결, S64 근거 상태, S70 진단 설명이 읽힌다.
 - [ ] 확인 증거(화면 캡처 또는 점검 기록) 경로: ____________________
 
@@ -146,6 +151,7 @@ ____________________________________________________________________
 - [ ] 전체 360분을 리허설했다. 휴식 및 setup 시간을 교육 시간에 섞지 않았다.
 - [ ] ACT 시간: ACT 0 40분 / ACT 1 55분 / ACT 2 70분 / ACT 3 85분 / ACT 4 80분 / ACT 5 30분.
 - [ ] Mode 합계: Lecture 130 / Demo 73 / Case 83 / Reflection 20 / Transition 22 / Q&A 32분.
+- [ ] S07의 접근 경계 45초, S14 Case의 완료 조건 90초, S18 결과 인계 90초, S19 Lecture의 검사 비교 90초가 기존 장별 시간 안에 들어가며 S19 Reflection 1분을 지켰다.
 - [ ] S54 순서: Reflection 3 → Q&A 5 → Transition 2분. 3분에 질문을 열고 8분에 마감하여 10분에 전환했다.
 - [ ] S54 무질문 상황에서는 “이 반복은 Context, Workflow, Coordination, 기억 중 무엇에 가까운가?”를 사용하고 마지막 전환 질문을 지켰다.
 - [ ] S72 순서: Case 7 → Reflection 2 → Q&A 7 → Transition 4분. 정적 화면으로 전체 20분을 실제 운영했다.
@@ -175,7 +181,8 @@ ____________________________________________________________________
 - [ ] 현재 Desktop 동작을 과거 CLI Trial의 결과로 표현하지 않았다.
 - [ ] S72 조건 변화는 가상 교육 맥락이며 실제 C++ 사건이나 확정된 실패 원인으로 표현하지 않았다.
 - [ ] S74 State는 기록된 문제 대응 이력이며 성숙도 등급·Product Loop로 표현하지 않았다.
-- [ ] DEC-0032로 정렬한 현재 화면·Notes Cue를 기준으로 Story·Claim·Slide ID·ACT·시간·Mode·Demo State를 유지했다.
+- [ ] DEC-0033의 현재 화면·Notes Cue를 기준으로 Story·Claim·Slide ID·ACT·시간·Mode·Demo State를 유지했다.
+- [ ] S07은 회사별 허용·금지 정책 확인 결과가 아니며 S14 완료 조건·S18 결과 인계·S19 검사 비교는 교육용 예시로 설명했다. 실제 Prompt/PR 원문이나 새 실행·PASS 결과로 표현하지 않았다.
 - [ ] 보호 변경 필요 시 `PROPOSAL / REASON / EVIDENCE / IMPACT / CONFLICT / RECOMMENDATION`을 작성하고 승인 전 적용하지 않았다.
 
 ## 7. 최종 전달 승인 — UNVERIFIED
