@@ -149,7 +149,7 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S34 — AGENTS.md의 지침대로 검증했다 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-02 WHAT HAPPENED/result; HYBRID, 4 min | Single state | — | V02, V05 |
 | S35 — Task Prompt와 Project Context | T03-B | — | CMP-CONTEXT-ROUTER, CMP-CPP | T | — | Single state | Supporting | V08 |
 | S36 — 정확한 정보도 계속 늘어난다 | T04-B | CMP-STATE, CMP-EVIDENCE | — | P | DEMO-06 state-growth evidence callback; Case, not extra Demo time | Single state | — | V03, V10 |
-| S37 — 정확하지만 이번 Task에는 불필요한 정보 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 TRIAL-004 evidence; CAPTURED, 2 min | Single state | — | V02, V05 |
+| S37 — 정확하지만 이번 작업에는 불필요한 정보 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 TRIAL-004 evidence; CAPTURED, 2 min | Single state | — | V02, V05 |
 | S38 — 정보의 범위와 제공 시점 | T03-B | CMP-CONTEXT-ROUTER | CMP-WORKFLOW | T | — | Single state | — | V05 |
 | S39 — Long Context 연구가 말해주는 범위 | T09-A | CMP-CLAIM | — | R | — | Single state | — | V02 |
 | S40 — 필요한 상세 정보로 가는 길 | T03-C | CMP-CONTEXT-ROUTER | CMP-CPP | T | — | Single state | Supporting | V08 |

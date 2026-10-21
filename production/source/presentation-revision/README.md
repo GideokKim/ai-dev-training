@@ -40,6 +40,11 @@ The original State mapping and counts remain in Notes and source records.
 Asset and prompt: `assets/slide-illustrations/context-growth/README.md`.
 Rebuild Full and ACT2 only, preserving other89 slides and all budgets.
 
+DEC-0049 updates S37 in `act23.mjs`: an actual-request excerpt in a native
+prompt window and solid-teal/dashed-gray Context groups show task relevance.
+The gray group is not an unread/incorrect-information or failure claim.
+Rebuild Full and ACT2 only; preserve other89 slides and per-slide budgets.
+
 ## Historical implementation notes
 
 # Presentation revision source

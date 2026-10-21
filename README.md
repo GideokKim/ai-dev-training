@@ -8,7 +8,9 @@
 
 ## 현재 상태
 
-최신 수정은 DEC-0048의 S36 프로젝트 초기/현재 프로젝트 비교와 AGENTS.md 정보 축적 도식이다. [수정 S36](production/preview/full/S36.png), [검토 기록](production/evaluation/S36_CONTEXT_GROWTH_REVISION.md).
+최신 수정은 DEC-0049의 S37 실제 요청창·청록 실선/회색 점선 Context 구분이다. [수정 S37](production/preview/full/S37.png), [검토 기록](production/evaluation/S37_CONTEXT_RELEVANCE_REVISION.md).
+
+이전 수정은 DEC-0048의 S36 프로젝트 초기/현재 프로젝트 비교와 AGENTS.md 정보 축적 도식이다. [수정 S36](production/preview/full/S36.png), [검토 기록](production/evaluation/S36_CONTEXT_GROWTH_REVISION.md).
 
 이전 수정은 DEC-0047의 S35 예시 테두리·프롬프트창/AGENTS.md 문서·화살표 연결이다. [수정 S35](production/preview/full/S35.png), [검토 기록](production/evaluation/S35_CONTEXT_PLACEMENT_REVISION.md).
 

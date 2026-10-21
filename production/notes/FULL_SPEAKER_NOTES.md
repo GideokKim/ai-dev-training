@@ -1,6 +1,6 @@
 # Full Speaker Notes — AI Developer Training
 
-Status: ALIGNED — DEC-0048 visualizes S36 document growth; DEC-0047 preserves S35 information destinations; DEC-0046 preserves S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S36_CONTEXT_GROWTH_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0049 visualizes S37 task-specific Context relevance; DEC-0048 preserves S36 document growth; DEC-0047 preserves S35 information destinations; DEC-0046 preserves S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S37_CONTEXT_RELEVANCE_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
 
 Authority: plan/MASTER_PLAN.md, plan/INVARIANTS.md, plan/SLIDE_MAP.md, plan/CLAIM_FREEZE.md, plan/SPEAKER_NOTES_FREEZE.md, plan/SLIDE_ID_MIGRATION_90.md and DEC-0043. Original80/81/82-slide audits remain historical. The small M footer marks bounded teaching links, not full module completion.
 
@@ -1721,11 +1721,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S36 또는 producti
 
 Validation Status: ALIGNED — DEC-0048의 청중용 시점 이름과 AGENTS.md 정보 축적 도식을 반영했다. 최종 렌더·Notes parity는 production/evaluation/S36_CONTEXT_GROWTH_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
 
-## S37 — 정확하지만 이번 Task에는 불필요한 정보
+## S37 — 정확하지만 이번 작업에는 불필요한 정보
 
 Slide ID: S37
 
-Working Title: 정확하지만 이번 Task에는 불필요한 정보
+Working Title: 정확하지만 이번 작업에는 불필요한 정보
 
 ACT / Section: ACT 2 / 2D
 
@@ -1739,13 +1739,15 @@ Opening Question: “README build 안내를 고치는 데 어떤 정보가 필�
 
 Speaker Flow:
 
-1. (0:00–1:00 / Demo) README의 build tools 안내를 고친 기록된 Task를 제시한다.
-2. (1:00–2:00 / Demo) 왼쪽 README/build 설정과 오른쪽 crop·resize 계약/pipeline 상세를 비교한다. Agent 혼란과 Context 관련 실패는 관찰되지 않았음을 먼저 밝힌다.
-3. (2:00–4:00 / Reflection) 정확한 정보와 이번 질문에 관련된 정보를 구분해 보게 한다. 공개 응답이나 작업은 요구하지 않는다.
+1. (0:00–1:00 / Demo) S36의 ‘이번 작업에도 모두 필요할까?’를 회수하고 왼쪽 프롬프트창을 가리킨다. 실제 요청 발췌·번역은 README의 Build 안내에 빌드 도구·고정 버전을 적는 작업이다. 기준은 pyproject.toml이고 README.md만 바꾸며 기존 명령 유지·설치/메타데이터 변경 금지·관련 검증 보고를 요청했다. 교육용 새 Prompt를 실제 Trial 결과로 표현하지 않는다.
+2. (1:00–2:00 / Demo) 화살표를 따라 오른쪽 청록 실선 영역을 가리킨다. README의 현재 안내와 pyproject.toml의 빌드 도구·고정 버전이 직접 필요하다. 회색 점선 영역의 crop/resize 명세·처리 순서·테스트 구조·CLI 필드는 정확하지만 이번 버전 명시에는 불필요했다. Agent는 AGENTS.md도 읽었으며 이 정보로 인한 혼란·우회·Context 관련 실패는 관찰되지 않았다고 명시한다. ‘불필요’가 ‘읽지 않음’·‘잘못된 정보’·‘검증 불필요’라는 뜻은 아니다.
+3. (2:00–4:00 / Reflection) 하단 메시지를 짚고 마지막2분을 개인 생각 시간으로 남긴다. 질문이 달라지면 어떤 Context가 필요해지는지 떠올리게 하되 답변·기록·실습을 요구하지 않는다. S38에서 정보의 범위·제공 시점을 정리한다.
 
-Evidence / Source: TRIAL-004, BEAT-012, CLM-0014, CLM-0015. OBSERVED_PRODUCT; CAPTURED record of one Task.
+화면 진행: 프롬프트의 목표·기준 파일 → 직접 필요한 청록 영역 → 함께 있었던 회색 상세 → 관련성 질문. 실선·점선과 명시적 라벨로 색상 이외의 구분을 제공한다. 화면은 native 도식이고 실제 제품 UI나 실행 캡처가 아니다.
 
-Claim Boundary: Presence of unnecessary context is not evidence that the model failed, became confused, or performed worse. No such failure was observed.
+Evidence / Source: TRIAL-004, BEAT-012, CLM-0014, CLM-0015, DEC-0049. OBSERVED_PRODUCT; Codex CLI0.154.0의 단일 문서 작업 기록. plan/DEMO_MATRIX.md TRIAL-004 actual task/Agent behavior/Relevant Context/Irrelevant-but-Correct Context를 대조했다. 실제 원문은 “Clarify the README Build section by naming the pinned build tools required by the existing wheel command. Use pyproject.toml as the source of truth. Change README.md only, preserve the command, and do not install packages or alter package metadata. Report relevant verification.”이다. 화면은 핵심 발췌·번역이며 전체 원문은 이 기록에 보존한다.
+
+Claim Boundary: Presence of unnecessary context is not evidence that the model failed, became confused, or performed worse. No such failure was observed. The Agent read AGENTS.md, README.md and pyproject.toml. Gray means task-irrelevant detail, not unread or inaccurate information. Requested verification still applies. The Prompt already named the files and constraints, so success is not attributed solely to expanded Context. No performance or token benefit was measured, and historical CLI evidence is not a current Desktop check.
 
 Beginner Explanation: Correct information can still be unrelated to the current Task.
 
@@ -1753,7 +1755,7 @@ Advanced Insight: Distinguish context relevance from outcome quality; this Trial
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: Show the captured/reconstructed Trial record for two minutes. Do not run a new Trial or simulate a failure.
+Demo Operation: Use the static native reconstruction of the recorded request and relevance comparison for two minutes. No raw execution screenshot or current live product is shown. Preserve the two-minute Reflection; do not run a new Trial or simulate a failure.
 
 Audience Interaction: Use the last two minutes for private reflection: which context was relevant to this Task? No response or written exercise is required.
 
@@ -1761,9 +1763,9 @@ Transition: “필요한 정보를 항상 한 번에 넣지 않는 방법은 무
 
 Time Management: Protect the two-minute Reflection. Explicitly state the absence of observed confusion before moving on.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S37 또는 `production/preview/act2/S37.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S37 또는 production/preview/act2/S37.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S37_CONTEXT_RELEVANCE_REVISION.md와 검증 JSON을 따른다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0049의 실제 요청창과 청록 실선/회색 점선 Context 구분을 반영했다. 최종 렌더·Notes parity는 production/evaluation/S37_CONTEXT_RELEVANCE_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S38 — 정보의 범위와 제공 시점
 

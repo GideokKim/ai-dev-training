@@ -83,18 +83,27 @@ S36:make('S36','정확한 정보도 계속 늘어난다','ACT 2 · Context가 �
     text(s,'이번 작업에도 모두 필요할까?',744,553,472,39,28,C.teal,true);
   }),
 
-S37:make('S37','정확하지만 이번 Task에는 불필요한 정보','ACT 2 · 관련성을 확인하기',
-  'TRIAL-004 · README의 build tools 안내를 명확히 하는 작업',
-  'Agent 혼란과 Context 관련 실패는 관찰되지 않았다','OBSERVED_PRODUCT',
-  (s,{C,text,rect,line})=>{
-    text(s,'작업: README의 빌드 도구 안내를 고친다',64,230,1152,44,32,C.ink,true);
-    text(s,'이번 질문과 직접 관련',64,308,520,38,28,C.teal,true);
-    text(s,'함께 있었지만 관련이 낮은 정보',704,308,512,38,28,C.sub,true);
-    line(s,64,362,520,C.teal,3);line(s,704,362,512);
-    rect(s,64,382,520,130,C.pale);
-    text(s,'README\npyproject.toml의 빌드 설정',88,400,472,94,30,C.ink,true);
-    text(s,'crop / resize 계약\n이미지 처리 pipeline 세부사항',704,400,512,94,29,C.sub);
-    text(s,'정확한 정보라도, 모든 질문에 필요한 것은 아니다',64,550,1152,39,30,C.teal,true);
+S37:make('S37','정확하지만 이번 작업에는 불필요한 정보','ACT 2 · 관련성을 확인하기',
+  'TRIAL-004 · Codex CLI 0.154.0 · 실제 요청 발췌·번역 / 관련성 재구성',
+  'AGENTS.md도 읽음 · 혼란·Context 관련 실패는 관찰되지 않음 · 성능 효과 미측정','OBSERVED_PRODUCT',
+  (s,{C,text,rect,line,arrow,CODE})=>{
+    text(s,'README 수정 요청',64,179,464,35,26,C.ink,true);
+    text(s,'함께 제공된 정보 중',612,179,604,35,26,C.sub,true);
+    const prompt=rect(s,64,228,464,310,C.white,C.line,1.5);prompt.borderRadius=12;
+    text(s,'Prompt · 실제 요청 발췌·번역',84,239,424,30,22,C.sub,true);
+    line(s,84,278,424);
+    text(s,'README의 Build 안내에\n빌드 도구·고정 버전을 적어줘.\npyproject.toml을 기준으로\nREADME.md만 바꿔줘.\n기존 명령은 유지하고\n패키지 설치·설정 변경은 하지 마.\n관련 검증 결과를 보고해줘.',84,287,424,236,25,C.ink);
+    arrow(s,552,294,36,25);
+    rect(s,612,228,604,151,C.pale,C.teal,2);
+    text(s,'이번 수정에 직접 필요',634,240,560,33,27,C.teal,true);
+    text(s,'README.md',634,291,252,32,25,C.ink,true,CODE);
+    text(s,'현재 Build 안내',916,291,278,32,24,C.ink);
+    text(s,'pyproject.toml',634,334,252,32,25,C.ink,true,CODE);
+    text(s,'빌드 도구 · 고정 버전',916,334,278,32,24,C.ink);
+    rect(s,612,408,604,130,C.bg,C.sub,1.5,'dash');
+    text(s,'정확하지만, 이번 수정에는 불필요',634,418,560,33,26,C.sub,true);
+    text(s,'crop · resize의 이미지 명세\n처리 순서 · 테스트 구조 · CLI 필드',634,461,560,64,25,C.sub);
+    text(s,'필요한 Context는 이번 작업의 질문에 따라 달라진다',64,559,1152,39,30,C.teal,true);
   }),
 
 S38:make('S38','정보의 범위와 제공 시점','ACT 2 · 언제 필요한 정보인가',

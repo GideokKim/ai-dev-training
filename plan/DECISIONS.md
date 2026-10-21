@@ -6364,3 +6364,76 @@ YES — accumulated information raises the next question of Task relevance.
 Review S35-S37 continuity and exact-package renders. Preserve other89 slides,
 all time/Mode allocations and the boundary that growth did not prove failure.
 Keep Windows, room, product/account and rehearsal UNVERIFIED.
+
+
+# DEC-0049 — Make S37 request and Context relevance self-contained
+
+## Status
+
+ACCEPTED — explicit user request for a standalone S37 explanation.
+
+## Date
+
+2026-10-21
+
+## Context
+
+S36 now shows project guidance accumulating over time. S37 must make the
+small README task and the relevance distinction understandable from the slide.
+
+## Problem
+
+Show the actual request as a prompt and separate needed Context from
+accurate but unrelated details without implying a reading exclusion or failure.
+
+## Decision
+
+Use a native prompt window for translated actual TRIAL-004 excerpts. Keep
+README-only, pyproject.toml authority, command preservation, no installation
+or metadata edits and verification reporting. Show README/build settings in
+a teal solid frame and image-processing details in a gray dashed frame.
+Use explicit relevance labels in addition to color. Replace Task with the
+plain Korean word for work in the title. Preserve4minutes, Demo2 plus
+Reflection2, all90 slides and368minutes.
+
+## Rationale
+
+The task itself supplies the reason one Context group matters and the
+other does not. The distinction remains meaningful without repository access.
+
+## Alternatives
+
+Keep a plain task heading: it does not show the actual request form.
+Use red failure marks: inaccurate because no Context failure was observed.
+Label the gray information unread: inaccurate because AGENTS.md was read.
+
+## Trade-offs
+
+The slide is a native reconstruction, not a product screenshot or full raw
+transcript. The complete request remains in Notes and the retained source.
+Test layout details are distinguished from the requested verification work.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-002, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S37 factory, Slide/Template Maps, ACT2/Full Notes, Full/ACT2 PPTX, previews
+and current handoff identities.
+
+## Evidence
+
+Explicit user feedback and DEMO_MATRIX TRIAL-004 actual Prompt, Agent behavior,
+relevant and irrelevant-but-correct Context. CLI0.154.0 is historical evidence.
+No new Trial, live check, measured benefit or Demo repository change.
+
+## Training Relevance
+
+YES — relevance depends on the task question even when information is correct.
+
+## Follow-up
+
+Review S36-S38 continuity and final exact-package renders. Preserve other89
+slides, all per-slide budgets and the absence of observed Context failure.
+Keep Windows, room, product/account and rehearsal UNVERIFIED.
