@@ -5,7 +5,9 @@
     "file": "S03-context-collection.png",
     "method": "built-in image_gen",
     "sha256": "356053d65b874c18c6cf32483a5048d04715b453b5e2d10927985fca82b51231",
-    "evidenceRole": "CONCEPTUAL teaching illustration; not a Trial capture"
+    "evidenceRole": "CONCEPTUAL teaching illustration; not a Trial capture",
+    "status": "HISTORICAL_ASSET_REPLACED_IN_PRODUCTION_2026-10-21",
+    "replacement": "Native parallel Context diagram in production/source/presentation-revision/act0-opening.mjs"
   },
   "S57": {
     "method": "native PowerPoint text and shapes",
@@ -68,5 +70,27 @@
   "S41": {
     "status": "CONDITION_NOT_MET",
     "reason": "No original CLI screenshot or recording found in training assets/demos/prototype/production; retain labeled reconstruction"
+  },
+  "S01": {
+    "date": "2026-10-21",
+    "file": "S01-cases.png",
+    "method": "built-in imagegen",
+    "sha256": "a6953b276b80f92bc28378984b0890472a7ae82dda4ba3b9a6c6c0b9857d614f",
+    "prompt": "prototype/act0-opening-revision/IMAGE_PROMPT.md",
+    "evidenceRole": "Three equal teaching examples; not a product capture or maturity ranking"
+  },
+  "S04": {
+    "date": "2026-10-21",
+    "file": "S04-google-test-mock.png",
+    "method": "built-in imagegen",
+    "sha256": "c1a298d4251e826f4b31d14b8c7d305f086a1e7caad4829fc70dbfc2db9c5622",
+    "prompt": "assets/slide-illustrations/S04_PROMPT.md",
+    "evidenceRole": "Fictional C++ GoogleTest teaching UI; not TRIAL-001 or any actual run",
+    "counts": {
+      "illustrativeTotal": 6,
+      "illustrativePassed": 5,
+      "illustrativeFailed": 1
+    },
+    "historicalTrialFramework": "Python unittest"
   }
 }

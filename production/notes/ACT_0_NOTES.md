@@ -4,6 +4,8 @@ Status: REVIEWED — accepted presentation revision. Source, screen cues, and op
 
 Validation history: 이전 제작본의 local Mac Keynote 렌더·구조 검토 기록은 Git history와 기존 ACT 평가 문서에 보존한다. 이전 제작본의 PASS를 새 수정본의 검증 완료로 승계하지 않는다.
 
+Opening revision: DEC-0034 (2026-10-21). S01–S04의 현재 화면·내장 Notes·PNG 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에 기록한다.
+
 Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`,
 `plan/SPEAKER_NOTES_ARCHITECTURE.md`, `plan/SPEAKER_NOTES_FREEZE.md`,
 `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, and `plan/DECISIONS.md`.
@@ -24,34 +26,34 @@ Mode Split: Lecture 1 minute + Reflection 4 minutes
 
 Primary Message: 자기 AI 활용을 평가하지 않고, 현재 맡기는 업무 범위를 돌아본다.
 
-Opening Question: “나는 지금 AI에게 무엇을 맡기고 있는가?”
+Opening Question: “나는 지금 AI에게 무엇을 맡기고 있는가?” 화면의 한 줄 안내처럼 최근 AI에 맡긴 일 하나를 떠올리게 한다.
 
-Speaker Flow:
+Speaker Flow: 1. **OPEN (0:00–0:15 / Lecture):** 기존 제목과 “최근 AI에 맡긴 일 하나를 떠올려보세요”를 읽는다. 사용 수준을 평가하는 자리가 아니며 익숙한 경험 하나면 충분하다고 말한다.
+2. **THREE CASES (0:15–0:45 / Lecture):** 같은 인물이 등장하는 세 장면을 각각 약 10초씩 가리킨다. “설명받기”에서는 코드 설명을 질문하는 장면, “조사맡기기”에서는 파일과 돋보기로 필요한 근거를 찾는 장면, “결과확인”에서는 변경 코드와 확인 근거를 함께 살피는 장면을 짧게 짚는다. 세 장면은 경험의 예시이며 서열이나 필수 발전 단계가 아니다.
+3. **INVITE (0:45–1:00 / Lecture):** 이 중 최근 자신의 경험과 가까운 일 하나만 조용히 떠올리면 된다고 안내한다. Prompt·Context·Harness·Loop의 이름이나 성숙도 설명을 덧붙이지 않는다.
+4. **REFLECTION (1:00–5:00):** 네 분의 개인 생각 시간을 보존한다. 응답·기록·공유·실천 약속을 요구하지 않고 예시 설명을 계속하지 않는다.
 
-1. **OPEN (0:00–1:00):** 화면의 질문을 읽고 사용 수준을 평가하는 자리가 아니라고 말한다. 최근 맡겼던 일 하나만 떠올리면 충분하다.
-2. **REFLECTION (1:00–5:00):** 오류 설명, 코드 조사, 결과 확인 중 익숙한 경험을 조용히 떠올리게 한다. 오른쪽 업무 범위는 생각을 돕는 예시일 뿐 순위가 아니다. 응답이나 비교를 요구하지 않는다.
+Evidence / Source: BEAT-001, CLM-0001, CLM-0002. TEACHING_MODEL. 삽화: `assets/slide-illustrations/S01-cases.png`, image_gen으로 만든 동일 인물의 세 교육용 장면이다. 생성 프롬프트: `prototype/act0-opening-revision/IMAGE_PROMPT.md`. 실제 제품 화면·회사 현장·관찰된 작업 결과가 아니다.
 
-Evidence / Source: BEAT-001, CLM-0001, CLM-0002. TEACHING_MODEL.
-
-Claim Boundary: 특정 AI 제품의 성능·우열 또는 개인의 숙련도를 평가하지 않는다. 질문과 업무 범위는 교육을 여는 모델이다.
+Claim Boundary: 특정 AI 제품의 성능·우열 또는 개인의 숙련도를 평가하지 않는다. 질문과 업무 범위는 교육을 여는 모델이다. 세 그림은 image_gen 교육용 삽화이며 실제 사용 화면이나 관찰 근거가 아니다. 설명·조사·결과 확인을 숙련도 순위 또는 모든 사람이 거쳐야 하는 단계로 제시하지 않는다.
 
 Beginner Explanation: 지금 자주 맡기는 작은 일 하나를 떠올리면 충분하다. 아직 해보지 않은 사용법을 아는 척할 필요는 없다.
 
-Advanced Insight: 서로 다른 출발점을 같은 문제 중심 Story에서 다룬다. 다음 단계 이름이나 고급 구성요소를 이 장에서 미리 설명하지 않는다.
+Advanced Insight: 서로 다른 출발점을 같은 문제 중심 Story에서 다룬다. 세 장면으로 익숙한 경험을 떠올리게 하며 다음 단계 이름이나 고급 구성요소를 이 장에서 미리 설명하지 않는다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A.
+Demo Operation: N/A. 삽화 세 장면을 강사가 가리키는 도입이다. 실제 제품 조작·새 Trial·실행 결과 시연이 아니다.
 
-Audience Interaction: Reflection은 개인적인 생각 시간이다. 답변·공유·실천 약속을 요구하지 않는다.
+Audience Interaction: Reflection은 개인적인 생각 시간이다. 답변·기록·공유·실천 약속을 요구하지 않는다. 세 사례 중 경험을 발표하거나 자신의 수준을 고르게 하지 않는다.
 
 Transition: 작은 코드나 오류를 질문하는 익숙한 방식부터 인정하며 S02로 간다.
 
-Time Management: Lecture 1분 후 4분간 침묵을 허용한다. 발표자가 예시를 길게 들거나 참석자에게 순서대로 묻지 않는다.
+Time Management: Lecture 1분 안에 세 장면을 각각 약 10초씩 짚고 1분에 설명을 멈춘다. Reflection 4분간 침묵을 허용한다. 강사의 예시 해설이나 청중 응답으로 생각 시간을 대체하지 않는다. 5분 배분은 유지하며 실제 발화·운영 시간은 아직 측정하지 않았다.
 
-Fallback: 청중 반응이 없어도 기다린 뒤 다음 장으로 간다. 개인 경험을 말하게 하지 않는다.
+Fallback: 공식 정적 경로 `production/ACT_0.pptx` S01 또는 `production/preview/act0/S01.png`를 사용한다. 이번 수정본과 PNG의 일치 여부는 제작 단계에서 확인한다. 청중 반응이 없어도 기다린 뒤 다음 장으로 간다. 실제 제품 화면이나 개인 경험 발표로 대체하지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0034에 따라 원문·Claim 경계와 제작용 화면/운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 실제 렌더링 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S02 — 작은 질문에는 Chatbot이 유용하다
 
@@ -67,35 +69,37 @@ Mode Split: Lecture 5 minutes
 
 Primary Message: 필요한 코드나 오류를 전달해 답을 받는 방식은 작은 질문에서 빠르고 유용할 수 있다.
 
-Opening Question: “코드 일부나 오류를 ChatGPT에 물어본 적이 있는가?”
+Opening Question: “괄호만 바꾸면 같은 원소가 만들어질까?” `std::vector<int>`의 두 초기화 표현을 작은 코드 질문으로 제시한다.
 
 Speaker Flow:
 
-1. **OPEN (0:00–1:00):** 화면의 두 줄 slice 예시를 보여 준다. 실제 ChatGPT 대화가 아니라 작은 코드 질문을 설명하기 위한 예시라고 알린다.
-2. **EXPLAIN (1:00–3:30):** `row[1:3]`에서 index 1과 2의 값 `[2, 3]`을 짚고, 코드·오류 → 복사 → 질문 → 답 확인 → IDE 복귀 순서를 따라간다. 이처럼 필요한 Context를 사람이 골라 전달하는 방식을 인정한다.
-3. **INTERPRET (3:30–5:00):** 작은 코드 조각의 뜻을 이해하는 데 유용할 수 있음을 말한다. 여러 파일을 가로지르는 질문으로 범위가 커질 때의 문제를 S03에 남긴다.
+1. **OPEN (0:00–0:45):** `std::vector<int> a(3, 1);`과 `std::vector<int> b{3, 1};`을 보여 준다. 같은 숫자라도 괄호가 다르면 어떤 의미가 되는지 묻는 교육용 예시임을 밝힌다. 실제 ChatGPT 대화나 컴파일 실행 화면이 아니다.
+2. **COMPARE (0:45–2:15):** 이 `int` 예제에서 `(count, value)`는 값 1인 원소 세 개, 즉 `1, 1, 1`을 만든다는 의미를 짚는다. `{initializer_list}`는 나열한 값 `3, 1`을 담아 원소 두 개라는 뜻이다. 원소 도식은 코드의 의미를 설명하며 실행 출력으로 제시하지 않는다. 생성자 선택 전반이나 중괄호의 보편적 우월성을 강의하지 않는다.
+3. **FOLLOW THE FLOW (2:15–4:15):** 연결된 세 노드에서 IDE의 “코드 선택·복사” → Chatbot의 “붙여넣고 질문” → IDE의 “답 확인·적용”을 각각 약 40초씩 짚는다. 필요한 코드와 질문의 범위를 사람이 고르고, 받은 설명이 원래 코드·요청과 맞는지 확인해 적용하는 흐름이다. 자동 IDE 연동이나 실제 코드 변경을 보여 주는 화면이 아니다.
+4. **INTERPRET (4:15–4:30):** 작은 코드 조각의 혼동을 풀 때 이 질문 방식이 유용할 수 있음을 인정한다.
+5. **TRANSITION (4:30–5:00):** 질문이 여러 파일과 구현 경로로 커지면 무엇부터 찾아 전달해야 하는지 S03으로 연결한다. 현재 방식을 잘못된 사용법으로 평가하지 않는다.
 
-Evidence / Source: BEAT-001, CLM-0001, CLM-0002. TEACHING_MODEL / CONCEPTUAL. `row = [1, 2, 3, 4]`, `row[1:3]` → `[2, 3]`는 화면 설명용 코드 예시이며 실제 ChatGPT 응답이나 새 Trial 기록이 아니다.
+Evidence / Source: BEAT-001, CLM-0001, CLM-0002. TEACHING_MODEL / CONCEPTUAL. `std::vector<int> a(3, 1);` → `1, 1, 1`(3개), `std::vector<int> b{3, 1};` → `3, 1`(2개)는 코드 의미를 설명하는 도식이며 실제 실행·ChatGPT 응답·새 Trial이 아니다. C++ 의미 확인: [Microsoft Learn — vector constructors](https://learn.microsoft.com/en-us/cpp/standard-library/vector-class?view=msvc-170#vector), [Microsoft Learn — Initializers](https://learn.microsoft.com/en-us/cpp/cpp/initializers?view=msvc-170), 확인 2026-10-21. IDE → Chatbot → IDE는 사람이 연결하는 교육용 native 도식이다.
 
-Claim Boundary: 일반적인 예시이며 특정 제품 기능, 정확도, 성능 또는 다른 방식보다 우월하다는 주장으로 말하지 않는다.
+Claim Boundary: 일반적인 활용 예시이며 특정 제품 기능·정확도·성능 또는 다른 방식보다 우월하다는 주장으로 말하지 않는다. 초기화 비교는 화면에 제시한 `std::vector<int>` 두 표현의 의미로 한정한다. 도식은 실제 컴파일·실행 결과나 ChatGPT 대화가 아니며, 모든 중괄호 초기화가 같은 생성자 선택을 한다고 일반화하지 않는다. 코드 선택·복사, 대화에 붙여넣고 질문, IDE에서 답 확인·적용은 사람이 잇는 흐름이며 자동 IDE 연동을 뜻하지 않는다.
 
-Beginner Explanation: 오류나 작은 코드 조각을 함께 보여 주고 설명을 받는 것은 자연스러운 시작점이다.
+Beginner Explanation: 괄호만 다른 짧은 코드도 뜻을 물어볼 만한 질문이다. 두 표현이 각각 어떤 원소를 만드는지 설명을 받고 원래 코드와 맞는지 확인할 수 있다.
 
-Advanced Insight: 흐름에 필요한 Context를 개발자가 직접 선택해 복사한다. 여기서는 그 수고가 항상 문제라고 단정하지 않는다.
+Advanced Insight: 익숙한 C++ 코드의 생성자 선택도 작은 질문의 대상이다. 이 장의 초점은 문법 강의보다 개발자가 필요한 Context를 선택·전달하고 답을 확인하는 흐름에 있다.
 
-C++ Vision Bridge: N/A.
+C++ Vision Bridge: 일반적인 C++ 코드 질문을 출발점으로 사용한다. 실제 Vision 처리·특정 IDE/컴파일러/Windows 빌드 조건·장비 실행을 추가하는 Demo가 아니다.
 
-Demo Operation: N/A.
+Demo Operation: N/A. 두 초기화 표현과 원소 도식, IDE → Chatbot → IDE의 연결된 native 흐름을 설명한다. 실제 대화·IDE 자동 연동·컴파일 실행·새 Trial은 없다.
 
-Audience Interaction: Opening question은 생각을 여는 질문이다. 손들기나 경험 발표를 요구하지 않는다.
+Audience Interaction: Opening question은 생각을 여는 질문이다. 코드 작성·실행·손들기·경험 발표나 답변을 요구하지 않는다.
 
 Transition: 질문이 여러 파일·구현 경로로 커지면 무엇을 먼저 찾아야 하는지 S03에서 묻는다.
 
-Time Management: 다섯 단계의 순서를 짚고 작은 질문에서의 장점을 먼저 말한다. 상세 Prompt 작성법은 다음 ACT에서 다룰 문제이므로 설명하지 않는다.
+Time Management: Lecture 5분 유지. 질문 45초, 초기화·원소 비교 90초, 연결된 세 노드 2분, 작은 질문의 가치 15초, S03 연결 30초로 운영한다. 상세 Prompt 작성법이나 C++ 초기화 문법 전반을 추가하지 않는다. 실제 발화 시간은 미측정이다.
 
-Fallback: 정적 코드 예시와 다섯 단계 흐름을 설명한다. 실제 ChatGPT 대화나 즉석 제품 화면으로 대체하지 않는다. 새 제작본의 PNG 경로는 `production/preview/act0/S02.png`; 통합 렌더 검토 후 사용한다.
+Fallback: 공식 정적 경로 `production/ACT_0.pptx` S02 또는 `production/preview/act0/S02.png`의 두 C++ 표현·원소 비교·연결된 세 노드를 설명한다. 이번 수정본과 PNG의 일치 여부는 제작 단계에서 확인한다. 실제 ChatGPT 대화나 즉석 제품 화면으로 대체하지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0034에 따라 원문·Claim 경계와 제작용 화면/운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 실제 렌더링 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S03 — 질문이 커지면 Context를 모으는 일이 생긴다
 
@@ -109,25 +113,26 @@ Allocated Time: 4 minutes
 
 Mode Split: Case 4 minutes
 
-Primary Message: Repository 수준 질문에서는 사람이 관련 구현, 호출 경로, 테스트와 계약을 찾아 대화에 옮기는 일이 생길 수 있다.
+Primary Message: Repository 수준 질문에서는 사람이 관련 구현, 호출 경로, 테스트 결과와 명세서 등 필요한 정보를 찾아 대화에 옮기는 일이 생길 수 있다.
 
-Opening Question: “여러 파일에 걸친 질문을 하려면 무엇을 먼저 찾아야 할까?”
+Opening Question: “디버깅할 때 우리는 어떤 정보를 살펴보고 있었을까?” 익숙한 Visual Studio 사용 상황을 떠올리게 한다.
 
 Speaker Flow:
 
-1. **OPEN (0:00–1:00):** “CLI 결과가 기대와 다른데 어디서부터 볼까?”라는 개념 사례로 질문의 범위를 넓힌다.
-2. **SHOW (1:00–2:30):** 사람이 여러 자료를 골라 모으는 삽화를 가리킨다. 오른쪽 구현·호출 경로(CLI → 처리 흐름 → 연산), 테스트, 계약의 세 질문을 차례로 짚는다. 실제 제품 호출 기록을 그대로 그린 화면이라고 하지 않는다.
-3. **INTERPRET (2:30–4:00):** 개발자가 관련 파일과 조건을 찾아 대화로 옮겨야 할 수 있음을 설명한다. 아직 Agent가 이를 대신한다는 답을 제시하지 않고 S04의 관찰 질문으로 이동한다.
+1. **OPEN (0:00–0:30):** 결과가 기대와 다를 때 여러 파일과 정보를 살펴보는 익숙한 상황으로 질문의 범위를 넓힌다. 실제 장애나 Trial 실패를 재현하는 화면이 아니다.
+2. **SHOW IN PARALLEL (0:30–2:30):** 2×3 병렬 도식의 “테스트 탐색기 / 호출 스택 / 소스·참조 / 지역 변수·조사식 / 출력·로그 / 명세서”를 각각 약 20초씩 가리킨다. 실패 조건·기대값/실제값, 여기까지 온 함수, 구현/호출부, 멈춘 시점의 값, 빌드/실행 메시지, 원래 기대한 동작과 조건이라는 서로 다른 정보를 짚는다. 명세서는 외부 문서도 포함하며 IDE 내부 창이라고 설명하지 않는다. 여섯 영역은 실제 조사 순서나 모든 업무의 필수 체크리스트가 아니다.
+3. **INTERPRET (2:30–3:30):** “이 정보 하나하나가 Context다”라는 핵심 메시지를 묶는다. 사람이 질문에 필요한 정보와 파일을 골라 대화로 옮기는 일이 생길 수 있음을 설명한다. Agent가 이를 대신한다는 해결책은 아직 공개하지 않는다.
+4. **TRANSITION (3:30–4:00):** “파일명을 알려주지 않아도 Agent가 필요한 경로를 찾을까?”라는 S04의 관찰 질문으로 이동한다.
 
-Evidence / Source: BEAT-002, CLM-0004, CLM-0009. TEACHING_MODEL / CONCEPTUAL. 삽화: assets/slide-illustrations/S03-context-collection.png, built-in image_gen, 2026-10-18. 생성 프롬프트: assets/slide-illustrations/PROMPTS.md. 실제 인물·작업 장면·제품 실행 자료가 아니다.
+Evidence / Source: BEAT-002, CLM-0004, CLM-0009. TEACHING_MODEL / CONCEPTUAL. Visual Studio 사용자가 디버깅 때 참고하는 정보 범주를 병렬로 재구성한 교육용 native 도식이다. 실제 IDE screenshot·특정 제품 버전의 UI·특정 Trial의 파일 접근 또는 실행 기록이 아니다. 종이 문서를 든 인물 삽화는 이 수정본에서 사용하지 않는다.
 
-Claim Boundary: 이 상황은 ACT 0의 문제 모델이다. 특정 Trial의 실제 실패나 모든 Repository 업무에서 반복되는 비용으로 주장하지 않는다.
+Claim Boundary: ACT 0의 문제 모델이다. 특정 Trial의 실제 실패·관찰 순서·모든 Repository 업무에서 반복되는 비용으로 주장하지 않는다. 여섯 정보 범주가 모두 동시에 필요하다고 일반화하지 않는다. 명세서는 기대 동작을 확인하는 문서라는 뜻이며 실제 회사 문서나 제품 UI를 재현하지 않는다.
 
-Beginner Explanation: 질문이 커질수록 관련 파일과 테스트를 찾는 일이 먼저 생길 수 있다.
+Beginner Explanation: 디버깅하면서 이미 보던 테스트 결과·코드·변수 값·명세서가 질문에 필요한 Context가 될 수 있다. 필요한 정보를 골라 묶는다는 점을 알아차리면 충분하다.
 
-Advanced Insight: 여러 파일 간 계약과 호출 경로를 Context로 모으는 일이 코드 생성 전의 별도 부담이 될 수 있다.
+Advanced Insight: 코드 외에도 런타임 상태, 기대 동작과 입력 조건을 Context로 모으는 일이 별도 부담이 될 수 있다. 병렬 정보 범주는 실제 호출 순서·고정된 조사 절차와 구분한다.
 
-C++ Vision Bridge: N/A.
+C++ Vision Bridge: C++/Visual Studio 사용자에게 익숙한 디버깅 정보 범주를 활용한다. 특정 메뉴·버전·빌드·하드웨어 조작 절차나 실제 C++ 실행을 입증하는 예시는 아니다.
 
 Demo Operation: N/A — 다음 장에서 관찰 기준을 제시한다.
 
@@ -135,11 +140,11 @@ Audience Interaction: 수사 질문이다. 응답이나 직접 파일 탐색을 
 
 Transition: “파일명을 알려주지 않아도 Agent가 필요한 경로를 찾을까?”라고 질문하며 S04의 관찰 기준으로 넘어간다.
 
-Time Management: 문제를 세 개 이내의 관계로 설명한다. 파일 목록을 늘리거나 해결책을 먼저 공개하지 않는다.
+Time Management: Case 4분 유지. 문제 질문 30초, 병렬 정보 여섯 범주 2분, Context로 묶는 의미 1분, S04 연결 30초로 운영한다. 각 범주의 도구 사용법을 강의하거나 Agent 해결책을 미리 공개하지 않는다.
 
-Fallback: production/preview/full/S03.png 또는 production/preview/act0/S03.png를 사용한다. 삽화가 보이지 않으면 CLI 입력, 처리 흐름, 연산 구현의 세 관계와 테스트·계약 질문을 말로 연결한다. 이 사례를 특정 Trial의 실제 실패로 표현하지 않는다.
+Fallback: `production/preview/full/S03.png` 또는 `production/preview/act0/S03.png`의 병렬 도식을 사용한다. 이번 수정본과 PNG의 일치 여부는 제작 단계에서 확인한다. 화면이 보이지 않으면 여섯 정보 범주가 각각 Context가 된다는 관계를 말로 묶는다. 특정 Trial의 실제 화면이나 실패로 표현하지 않는다.
 
-Validation Status: REVIEWED — 승인된 전체 이미지 후보의 반영과 로컬 렌더링 결과는 production/evaluation/FULL_DECK_IMAGE_EXPANSION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0034에 따라 원문·Claim 경계와 제작용 화면/운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 실제 렌더링 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S04 — 파일명을 주지 않으면 Agent는 어디부터 볼까?
 
@@ -159,31 +164,32 @@ Opening Question: “Agent가 Test, 구현, 호출 경로를 어떻게 찾는가
 
 Speaker Flow:
 
-1. **OPEN (0:00–0:30):** 화면의 실제 TRIAL-001 요청 발췌에서 파일명을 지정하지 않았고 코드를 수정하지 말라고 한 점을 짚는다.
-2. **SET WATCH FOR (0:30–1:30):** 실패 테스트, 관련 구현, 제품 호출 경로의 세 관찰 대상을 차례로 가리킨다. 결과를 미리 알려 주지 않는다.
-3. **SCOPE (1:30–2:00):** Codex CLI 0.154.0의 과거 읽기 전용 기록을 볼 것이라고 알린 뒤 S05로 넘긴다.
+1. **READ THE REQUEST (0:00–0:30):** 좌측 입력창 형태로 재구성한 TRIAL-001 요청 원문을 가리킨다. 파일명을 지정하지 않았고 아직 코드를 수정하지 말라고 했다는 점을 짚는다. 입력창은 실제 현재 제품 screenshot이 아니다.
+2. **SEPARATE THE ILLUSTRATION (0:30–1:00):** 우측은 C++ 청중이 익숙한 GoogleTest 형식으로 구성한 가상 UI이며, 여섯 항목 중 다섯 통과·하나 실패는 설명용 설정임을 알린다. TRIAL-001의 실제 runner는 Python `unittest`였고 이 가상 화면과 같은 실행 결과가 아니다. 가상 실패 행에서 실제 원인이나 코드 위치를 설명하지 않는다.
+3. **SET WATCH FOR (1:00–1:45):** 실패 테스트, 관련 구현, 제품 호출 경로의 세 관찰 대상을 차례로 가리킨다. 실제로 발견된 파일명·원인·수정안은 S05에 남긴다. 좌우 패널을 “이 Prompt를 실행해 이 결과가 나왔다”는 인과 화살표로 설명하지 않는다.
+4. **SCOPE (1:45–2:00):** Codex CLI 0.154.0의 과거 읽기 전용 기록을 볼 것이라고 한 문장으로 제한하고 S05로 넘긴다.
 
-Evidence / Source: DEMO-01, STATE-00, TRIAL-001, BEAT-003, OQ-003, OQ-005. 이 장은 Trial setup이며 관찰 결과를 아직 공개하지 않는다.
+Evidence / Source: DEMO-01, STATE-00, TRIAL-001, BEAT-003, OQ-003, OQ-005. `plan/DEMO_MATRIX.md` TRIAL-001의 요청 원문을 일반 입력창 형태로 재구성한다. 우측 GoogleTest 가상 UI(5개 통과·1개 실패)는 별도의 교육용 그림이며 실제 제품·실행·Trial 캡처가 아니다. 자산: `assets/slide-illustrations/S04-google-test-mock.png`; 생성 프롬프트: `assets/slide-illustrations/S04_PROMPT.md`. Read / Resize / Crop / Normalize / Statistics / Write의 여섯 항목과 Crop 실패는 가상 설정이다. TRIAL-001의 실제 Python `unittest` 전체 실행은 7개 통과·crop 실패 1건·읽기 전용 임시 디렉터리 환경 오류 3건이었다. 이 장은 setup이며 실제 발견 파일·원인·조사 결과는 S05에서 연다.
 
-Claim Boundary: 기록된 Trial은 격리된 비대화형 Codex CLI 0.154.0, macOS, `--sandbox read-only`, `--ignore-user-config` 조건에서 수행됐다. Codex Desktop, 교육 계정 또는 현재 제품 동작을 입증하지 않는다.
+Claim Boundary: 기록된 Trial은 격리된 비대화형 Codex CLI 0.154.0, macOS, `--sandbox read-only`, `--ignore-user-config` 조건에서 수행됐다. Codex Desktop·교육 계정·현재 제품 동작을 입증하지 않는다. 좌측 입력창은 실제 요청 원문의 재구성이고 우측 GoogleTest는 가상 UI다. 이 그림의 5 PASS/1 FAIL을 TRIAL-001의 실제 결과로 말하지 않으며, 실제 unittest의 환경 오류를 숨기거나 제품 결함으로 바꾸지 않는다. 실제 screenshot·새 Trial·C++ 실행은 없다.
 
-Beginner Explanation: 결과를 보기 전에 무엇을 관찰할지 정하면 단순히 답만 읽는 것보다 Demo를 따라가기 쉽다.
+Beginner Explanation: 익숙한 테스트 목록에서 실패 하나를 보는 문제 상황을 떠올리고, 실제 기록에서는 Agent가 무엇을 찾아냈는지 다음 장에서 확인한다. 그림의 가상 목록과 실제 Trial 근거를 구분한다.
 
 Advanced Insight: 답변뿐 아니라 파일 발견과 호출 경로 추적을 관찰 대상으로 둔다.
 
-C++ Vision Bridge: N/A.
+C++ Vision Bridge: GoogleTest 형식을 C++ 청중을 위한 가상 설명 그림에만 사용한다. 실제 Demo repository는 Python unittest이며 C++ 제품 State·실행·측정으로 전환하지 않는다.
 
-Demo Operation: DEMO-01 / WATCH. 기본 경로는 `production/ACT_0.pptx` S04–S06의 정적 발표다. S04에서 실제 요청 발췌와 세 관찰 대상을 설명하고 S05로 이동한다. PNG는 PPT의 재구성 도식 렌더이며 CLI 캡처가 아니다. 현재 Desktop·교육 계정·Live/HYBRID는 미검증이므로 활성화하지 않는다. 향후 대상 계정·surface, 읽기 전용 조건, runbook, 기대 관찰과 복귀 cue를 발표 환경에서 확인한 뒤에만 검토한다.
+Demo Operation: DEMO-01 / WATCH. 기본 경로는 `production/ACT_0.pptx` S04–S06의 정적 발표다. S04에서는 좌측 실제 요청의 재구성, 우측 가상 GoogleTest UI의 경계, 세 관찰 대상을 설명하고 S05로 이동한다. 정적 PNG는 PPT 렌더이며 CLI·현재 Desktop·실제 GoogleTest 캡처가 아니다. 현재 Desktop·교육 계정·Live/HYBRID는 미검증이므로 활성화하지 않는다. 향후 대상 계정·surface, 읽기 전용 조건, runbook, 기대 관찰과 복귀 cue를 발표 환경에서 확인한 뒤에만 검토한다.
 
 Audience Interaction: 응답을 요구하지 않는다. 세 관찰 항목을 청중이 마음속으로 따라오게 한다.
 
 Transition: “실제 기록에서 어떤 Test와 경로가 발견됐을까요?”라고 묻고 S05에서 근거를 연다.
 
-Time Management: 2분 안에 질문과 세 Watch For를 제시하고 Trial 환경의 범위를 한 문장으로 제한한다.
+Time Management: Lecture 2분 유지. 요청 30초, 실제/가상 화면 구분 30초, 세 Watch For 45초, 과거 CLI 범위와 S05 전환 15초로 운영한다. 테스트 framework 설명이나 실제 실패 원인 공개를 이 장에 추가하지 않는다.
 
-Fallback: 정적 기본 경로 — `production/ACT_0.pptx` S04 또는 `production/preview/act0/S04.png`. 새 제작본 렌더 검토는 통합 단계에서 수행한다. 화면 사용이 불가능하면 세 관찰 항목을 말로 제시하고 S05 기록 설명으로 이동한다. Live CLI/Desktop을 즉석에서 열지 않는다. Windows·발표 PC·교육장 표시는 UNVERIFIED.
+Fallback: 정적 기본 경로 — `production/ACT_0.pptx` S04 또는 `production/preview/act0/S04.png`. 이번 수정본과 PNG의 일치 여부는 제작 단계에서 확인한다. 화면 사용이 불가능하면 실제 요청의 조건과 세 관찰 항목을 말로 제시하고 S05 기록 설명으로 이동한다. 가상 GoogleTest 설정을 실제 Trial 결과로 대신 말하거나 Live CLI/Desktop을 즉석에서 열지 않는다. Windows·발표 PC·교육장 표시는 UNVERIFIED.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0034에 따라 원문·Claim 경계와 제작용 화면/운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 실제 렌더링 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S05 — Agent가 Test와 호출 경로를 찾았다
 

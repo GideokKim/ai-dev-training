@@ -104,12 +104,12 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 0 — familiar chatbot workflow and starting reflection.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 80장 구조·Story·시간·Demo 범위; 제품 기능 주장 없음
-- **Visual Concept:** Ask → Generate → Investigate → Change → Verify → Improve System의 간단한 활용 범위. Prompt, Context, Harness, Loop라는 답은 아직 펼치지 않는다.
+- **Visual Concept:** 같은 인물이 등장하는 세 교육용 삽화를 동등한 크기로 병렬 배치한다. “설명 받기 / 조사 맡기기 / 결과 확인”을 하나씩 짚고 최근 경험 하나를 떠올리게 한다. 숙련도 순서·필수 발전 단계로 연결하지 않으며 Prompt, Context, Harness, Loop라는 답은 아직 펼치지 않는다. DEC-0034.
 - **Demo / Case Connection:** 시작 질문만 제시
 - **Beginner Payoff:** 자신이 현재 익숙한 방식에서 출발해도 된다는 점을 확인한다.
 - **Advanced Payoff:** 각자의 출발점이 다르더라도 한 Story 안에서 다음 문제를 따라간다.
 - **C++ Vision Bridge:** 없음
-- **Speaker Intent:** 청중에게 수준을 매기지 않고 각자의 AI 사용 경험을 조용히 떠올리게 한다.
+- **Speaker Intent:** 1분 안에 세 장면을 각각 짧게 짚고, 청중에게 수준을 매기지 않은 채 개인 생각 시간 4분을 보존한다. AI 생성 교육용 삽화를 실제 제품 화면이나 관찰 결과로 설명하지 않는다.
 - **Transition:** 작은 코드나 오류를 질문하는 친숙한 Workflow를 인정한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 1분 + Reflection 4분 = 5분
@@ -128,12 +128,12 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 0 — familiar chatbot workflow and starting reflection.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 80장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 일반적인 활용 예시이며 제품 우열 주장 없음
-- **Visual Concept:** `Code / Error → Copy → Ask → Copy Answer → IDE`
+- **Visual Concept:** `std::vector<int> a(3, 1);` → `1, 1, 1`(3개)와 `std::vector<int> b{3, 1};` → `3, 1`(2개)를 비교한다. 아래의 연결된 native 흐름은 `IDE: 코드 선택·복사 → Chatbot: 붙여넣고 질문 → IDE: 답 확인·적용`이다. 원소 도식은 의미 설명이며 실행 로그·실제 ChatGPT 응답이 아니다. DEC-0034.
 - **Demo / Case Connection:** 짧은 오류 질문 사례
 - **Beginner Payoff:** 자신의 익숙한 사용법이 교육의 출발점으로 인정된다.
 - **Advanced Payoff:** 이 흐름에서 사람이 직접 선택하고 전달하는 Context를 알아차린다.
-- **C++ Vision Bridge:** 없음
-- **Speaker Intent:** 이 Workflow를 실수나 낡은 방식으로 취급하지 않고, 작은 문제에서의 장점을 먼저 인정한다.
+- **C++ Vision Bridge:** 일반적인 C++ 초기화 질문을 출발점으로 사용한다. Vision·특정 컴파일러/Windows 빌드·장비 실행을 추가하는 Demo는 아니다.
+- **Speaker Intent:** 괄호와 중괄호로 달라지는 이 `std::vector<int>` 예제의 의미를 짚되 문법 강의로 확장하지 않는다. 작은 질문의 가치를 먼저 인정하고, 사람이 필요한 Context를 골라 전달한 뒤 답을 확인하는 흐름으로 연결한다. C++ 의미 근거는 Microsoft Learn의 vector constructors와 Initializers이며 실제 컴파일·실행을 했다고 표현하지 않는다.
 - **Transition:** 질문이 여러 파일과 경계를 가로지르는 상황으로 확장한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
@@ -147,17 +147,17 @@ ACT별 Mode 대조:
 - **Working Title:** 질문이 커지면 Context를 모으는 일이 생긴다
 - **Primary Role:** Repository 범위 문제 제기
 - **Audience Question:** “여러 파일에 걸친 질문을 하려면 무엇을 먼저 찾아야 할까?”
-- **Core Message:** Repository 수준 질문에서는 사람이 관련 구현, 호출 경로, 테스트와 계약을 찾아 대화에 옮기는 일이 생길 수 있다.
+- **Core Message:** Repository 수준 질문에서는 사람이 관련 구현, 호출 경로, 테스트 결과와 명세서 등 필요한 정보를 찾아 대화에 옮기는 일이 생길 수 있다.
 - **Story Beat:** BEAT-002
 - **Curriculum Trace:** ACT 0 — project-level question and context collection friction.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 80장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 특정 Trial에서 발생한 문제로 주장하지 않음
-- **Visual Concept:** 여러 파일을 가로지르는 Repository 지도. 아직 Agent 해결책은 표시하지 않는다.
+- **Visual Concept:** Visual Studio 사용자에게 익숙한 정보 범주를 2×3 병렬 native 도식으로 보여 준다: 테스트 탐색기 / 호출 스택 / 소스·참조 / 지역 변수·조사식 / 출력·로그 / 명세서(외부 문서 포함). “이 정보 하나하나가 Context다”로 묶는다. 실제 UI 캡처·조사 순서·필수 체크리스트가 아니며 아직 Agent 해결책은 표시하지 않는다. 종이 문서를 든 인물 삽화는 사용하지 않는다. DEC-0034.
 - **Demo / Case Connection:** 다음 Demo의 문제 상황 설정
 - **Beginner Payoff:** 질문이 커질 때 수작업으로 Context를 모으는 부담을 알아차린다.
 - **Advanced Payoff:** 반복되는 수고가 코드 생성보다 Context 수집에서 발생할 수 있음을 본다.
-- **C++ Vision Bridge:** 없음
-- **Speaker Intent:** 익숙한 Chatbot 방식의 가치를 유지하면서, 다음 단계가 필요한 Friction을 드러낸다.
+- **C++ Vision Bridge:** C++/Visual Studio 사용자에게 익숙한 디버깅 정보 범주를 활용한다. 특정 메뉴·제품 버전·빌드·장비 조작이나 실제 C++ 실행을 입증하는 예시는 아니다.
+- **Speaker Intent:** 익숙한 Chatbot 방식의 가치를 유지하면서, 이미 살펴보는 테스트·코드·런타임 값·명세서가 각각 Context가 됨을 드러낸다. 필요한 정보를 골라 모으는 Friction을 설명하며 여섯 범주를 모두 요구하거나 Agent 해결책을 먼저 공개하지 않는다.
 - **Transition:** “파일명을 알려주지 않아도 Agent가 필요한 경로를 찾을까?”라는 Demo 질문으로 넘어간다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
@@ -175,13 +175,13 @@ ACT별 Mode 대조:
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 80장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; 현재 Codex Desktop·계정 동작은 **REQUIRES PRODUCT CHECK**. TRIAL-001은 Codex CLI 관찰만 뒷받침한다.
-- **Visual Concept:** `WATCH FOR`와 Search → Read → Trace 세 단계만 표시한다.
+- **Claim Status:** FROZEN — 80장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; 현재 Codex Desktop·계정 동작은 **REQUIRES PRODUCT CHECK**. TRIAL-001은 Codex CLI 관찰만 뒷받침한다. 실제 요청 원문을 재구성한 입력창과 우측의 교육용 GoogleTest 가상 UI를 구분한다. 가상 UI의 5개 통과·1개 실패는 실제 Trial 결과가 아니다.
+- **Visual Concept:** 좌측은 TRIAL-001 요청 원문을 일반 프롬프트 입력창 형태로 재구성한다. 우측은 `Read / Resize / Crop / Normalize / Statistics / Write` 중 Crop 하나가 실패하는 교육용 GoogleTest 가상 UI이며 `실제 TRIAL-001 아님`을 명시한다. 좌우를 실행 결과 화살표로 잇지 않는다. 아래에는 실패 테스트·관련 구현·호출 경로라는 세 관찰 항목을 유지하고, 실제 발견 파일과 원인은 S05에서 공개한다. DEC-0034.
 - **Demo / Case Connection:** DEMO-01 setup. STATE-00 / TRIAL-001; 읽기 전용 질문
 - **Beginner Payoff:** 무엇을 보고 판단하면 되는지 미리 안다.
 - **Advanced Payoff:** 답의 품질만 보지 않고 Context를 찾는 과정도 관찰한다.
-- **C++ Vision Bridge:** 없음
-- **Speaker Intent:** 먼저 관찰 기준을 정하고, 제품이 항상 같은 방식으로 동작한다는 기대를 만들지 않는다.
+- **C++ Vision Bridge:** GoogleTest 형식은 C++ 청중을 위한 가상 설명 그림에만 사용한다. 실제 TRIAL-001은 Python unittest였으며 C++ 제품 State·실행·측정으로 전환하지 않는다.
+- **Speaker Intent:** 먼저 실제 요청의 조건과 관찰 기준을 정한다. 입력창은 원문 재구성, GoogleTest는 별도 가상 UI임을 알리고, 실제 Trial의 결과·원인과 현재 제품 동작을 미리 단정하지 않는다.
 - **Transition:** 실행 또는 준비된 캡처에서 발견된 파일과 경로를 보여준다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분

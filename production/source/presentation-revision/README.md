@@ -10,6 +10,9 @@ keeping all source mappings, time allocations and evidence boundaries.
 DEC-0032 improves the reviewed adjacent-slide handoffs and private closing
 reflection through the same factories. DEC-0033 reinforces S07/S14/S18/S19
 and applies a bounded legacy-module connection footer to all 80 slides.
+DEC-0034 applies the approved S01 opening illustration, S02 C++ initialization
+comparison, S03 parallel debugging Context diagram and S04 prompt-input/fictional
+GoogleTest presentation. The historical Trial remains a Python unittest record.
 Slide identities, time allocations and evidence boundaries remain protected.
 They use `@oai/artifact-tool`; text, diagrams and the S45 chart remain native
 PowerPoint elements. Comparison rows are editable text and rule objects, not
@@ -27,6 +30,8 @@ read from the six `production/notes/ACT_*_NOTES.md` files.
 - `polish-visuals.mjs`: S72 question hierarchy and S74 directed State rail.
 - `legacy-priority.mjs`: the four approved teaching additions and safe-area footer.
 - `legacy-module-map.json`: all 80 footer labels and bounded module relations.
+- `act0-opening.mjs`: approved opening visuals; the GoogleTest image is a
+  labeled teaching mockup, not a Trial capture or current product UI.
 - `build.mjs`: draft/release export, package validation and exact-file rendering.
 
 Use the bundled Codex runtime. Set `RUNTIME_NODE_MODULES`, `RUNTIME_PYTHON`,

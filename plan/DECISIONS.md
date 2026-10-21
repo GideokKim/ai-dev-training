@@ -4982,3 +4982,141 @@ The deferred topics require a separate content decision before production.
 
 Explicit user approval on 2026-10-21 to implement the four first-priority
 bridges and M1-M9 relation labels while preserving 80 slides and 360 minutes.
+
+
+### DEC-0034 — Refine the opening visuals for the developer audience
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-21
+
+## Context
+
+The user reviewed the S01/S02 opening prototype and requested final adoption
+with a more instructive C++ initialization example. The next two slides also
+needed a more familiar debugging representation and a prompt-entry layout.
+The existing course story, 80 slide IDs, 360 minutes and observed Claim
+boundaries remain the production baseline.
+
+## Problem
+
+The former S01 text competed with the opening reflection. The simple S02
+initializer did not expose a useful source of confusion. The S03 paper-based
+illustration did not show the information a Visual Studio developer already
+checks while debugging. S04's prose needed a recognizable input surface, but
+using a GoogleTest illustration beside a historical Python Trial can blur
+the distinction between a teaching mockup and execution evidence.
+
+## Decision
+
+- Adopt S01's reviewed three-scene illustration with the editable captions
+  for asking for an explanation, assigning investigation and checking a
+  result. Keep the scenes equally weighted and preserve Lecture 1 minute
+  plus Reflection 4 minutes. They are experience examples, not a ranking.
+- Replace S02's simple initializer with `std::vector<int> a(3, 1);` and
+  `std::vector<int> b{3, 1};`. For these expressions, explain three elements
+  with value 1 versus the two listed elements 3 and 1. Keep the connected
+  IDE copy -> Chatbot question -> IDE answer-check/apply flow and Lecture
+  5 minutes. The native element diagrams explain semantics; they are not
+  compiler output, a ChatGPT response, a new Trial or automatic IDE linkage.
+- Replace S03's person-and-paper illustration with six parallel information
+  areas: Test Explorer, Call Stack, source/references, locals/watch values,
+  output/logs and the specification. Treat the specification as a possible
+  external document. Each area can supply Context; the diagram is neither
+  a required sequence nor a claim that every task needs every area.
+  Use the Korean term for specification in this slide instead of contract.
+  Preserve Case 4 minutes and leave the Agent answer for the next slide.
+- Show S04's exact TRIAL-001 request in a generic reconstructed input panel.
+  On the right, use a clearly labeled fictional GoogleTest UI with five
+  passing items and one failing Crop item. Do not join the panels with an
+  execution-result arrow. Keep the three observation targets: failing test,
+  relevant implementation and product call path. Preserve Lecture 2 minutes
+  and reveal the actual investigation findings in S05.
+- Preserve S04's historical OBSERVED_PRODUCT role for its request and Trial
+  setup. Label the right-hand GoogleTest picture as a separate teaching
+  mockup. The actual TRIAL-001 runner remains Python `unittest`, with seven
+  passing tests, one crop failure and three read-only environment errors
+  in the full run. The fictional five-pass/one-fail list does not replace
+  that record or establish a C++ run, current Desktop behavior or a fix.
+- Align only the affected Slide Map descriptions, S01-S04 Markdown and
+  embedded Notes, production visuals and rendered previews. Preserve
+  titles, IDs, Story/Section/Demo mappings, total and per-slide time/Mode,
+  the remaining 76 slides and the Demo repository. Keep existing M labels.
+- Do not build or refresh presenter bundles during this iteration. Record
+  production validation separately after rendering the exact updated file.
+
+## Rationale
+
+The opening now lets the speaker point to recognizable work, explain a small
+but meaningful C++ question and identify each familiar debugging information
+source as Context. The prompt UI supports the investigation question while
+visible source labels protect the difference between a historical request
+and a fictional C++ test-result illustration.
+
+## Alternatives
+
+- Keep the original text-heavy opening and simple initializer: leaves the
+  user's presentation and audience-fit concerns unresolved.
+- Present the GoogleTest picture as the historical Trial screen: contradicts
+  the recorded Python runner and hides its separate environment limitations.
+- Replace the Python Demo with a new C++ run: changes the continuous Project
+  and requires new implementation and evidence beyond this approved scope.
+- Expand C++ constructor or Visual Studio usage into tutorials: displaces the
+  existing opening story and time allocation.
+
+## Trade-offs
+
+The paired constructor example and six information areas require concise
+speaker cues. The two visual sources in S04 require visible labels and a
+short spoken distinction. The revised time plan preserves the approved
+allocation but does not establish real presentation pace before rehearsal.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-LEARNING-003, INV-VERIFY-001,
+INV-RESPONSIBILITY-001, INV-DEMO-003, INV-SOT-003.
+
+## Affected Artifacts
+
+S01-S04 Slide Map visual descriptions and Notes; the S04 visual-scope note
+in CLAIM_FREEZE; ACT 0 production source and assets; ACT 0 and integrated
+PPTX embedded Notes; changed previews; the opening revision evaluation.
+The previous two-slide prototype remains as a historical review artifact.
+
+## Evidence
+
+Explicit user approval on 2026-10-21 for the revised opening direction;
+prototype/act0-opening-revision/NOTES.md and the reviewed S01/S02 previews;
+plan/DEMO_MATRIX.md TRIAL-001 request, runner and recorded result;
+Microsoft Learn vector constructors and Initializers, checked 2026-10-21:
+
+- https://learn.microsoft.com/en-us/cpp/standard-library/vector-class?view=msvc-170#vector
+- https://learn.microsoft.com/en-us/cpp/cpp/initializers?view=msvc-170
+
+S01 asset: assets/slide-illustrations/S01-cases.png. Its generation prompt
+is preserved in prototype/act0-opening-revision/IMAGE_PROMPT.md.
+S04 asset: assets/slide-illustrations/S04-google-test-mock.png. Its exact
+prompt is recorded in assets/slide-illustrations/S04_PROMPT.md. These are
+teaching images, not historical product screenshots or execution evidence.
+
+## Training Relevance
+
+YES — use familiar developer information to open the Context question while
+separating a useful illustration from the evidence it does not establish.
+
+## Follow-up
+
+Render and review the affected slides, verify embedded/Markdown Notes and
+unchanged course timing, then record the observed local validation result in
+production/evaluation/ACT_0_OPENING_REVISION.md. Windows PowerPoint, target
+fonts, room projection, current account/Live behavior and timed rehearsal
+remain UNVERIFIED. No new Trial is authorized by this visual revision.
+
+## Approval
+
+Explicit user instruction to finalize the revised S02 initialization example
+and implement the S03/S04 visual changes while retaining the approved course
+flow and evidence boundaries. The prior request to avoid presenter bundles
+continues to apply.

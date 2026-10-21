@@ -96,6 +96,14 @@ Historical evidence remains distinct from current documentation:
 - TRIAL-006/007/008 remain historical September 2026 evidence. Later product
   documentation does not rewrite or strengthen what those runs observed.
 
+S04's DEC-0034 visual revision keeps two sources distinct: the historical
+TRIAL-001 request is shown in a reconstructed input panel, while the GoogleTest
+panel is a visibly labeled teaching mockup. Its five passing items and one
+failing item are fictional UI data, not the Trial's execution result. The
+actual Trial used Python `unittest`; its seven passes, one crop failure and
+three read-only temporary-directory errors remain unchanged in the historical
+record. Neither panel is a current Codex Desktop screenshot or a new run.
+
 ## 5. Windows / Environment Claims
 
 Freeze these engineering patterns for the C++ Vision bridges: state the task

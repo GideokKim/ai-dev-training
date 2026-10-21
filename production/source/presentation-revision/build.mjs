@@ -41,6 +41,7 @@ Object.assign(factories,await (await import('./additional-visuals.mjs')).loadAdd
 for(const name of ['polish-early','polish-late'])Object.assign(factories,(await import(`./${name}.mjs`)).slides);
 Object.assign(factories,await (await import('./polish-harness.mjs')).loadHarnessPolishSlides(ROOT));
 Object.assign(factories,await (await import('./polish-visuals.mjs')).loadVisualPolishSlides(ROOT));
+Object.assign(factories,await (await import('./act0-opening.mjs')).loadAct0OpeningSlides(ROOT));
 Object.assign(factories,priorityFactories(factories,H));
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
 if(moduleMap.slides.length!==80)throw new Error('Expected 80 legacy module mappings.');

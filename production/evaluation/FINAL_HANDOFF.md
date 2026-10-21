@@ -1,27 +1,26 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일: 2026-10-21 (Asia/Seoul). 자료 구성: DEC-0033 (기존 DEC-0031 묶음 정책 유지).
-발표자료 기준: `adba817` / DEC-0033. 이후 문서·묶음 구성은 발표자료 변경과 구분한다.
+갱신일: 2026-10-21 (Asia/Seoul). 최신 발표자료 기준: DEC-0034.
+S01–S04 도입 수정은 통합 PPT·ACT 0·Notes·미리보기에 반영했다.
+사용자 지시로 묶음 생성은 중단 중이며 기존 ZIP은 DEC-0033의 이전 자료다.
 
-**로컬 발표자료 제작·검토 완료 / 발표자용 묶음 준비 / 실환경·리허설 UNVERIFIED.**
+**최신 PPT 로컬 검토 완료 / 기존 묶음은 이전 버전 / 실환경·리허설 UNVERIFIED.**
 
 이 문서는 현재 후보와 남은 사용자 확인 항목의 시작점이다. 패키징 완료를
 현장 발표 승인, Live 시연 검증 또는 청중에게 전달 완료로 해석하지 않는다.
 
 ## 1. 무엇을 열면 되는가
 
-1. 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-21.zip`을 내려받아
-   **전체 압축을 푼다**. ZIP 안에서 PPT만 바로 실행하지 않는다.
-2. 압축 해제한 폴더의 `START_HERE.html`을 브라우저에서 연다. 서버·인터넷·
-   별도 프로그램 설치 없이 자료 탐색 페이지를 사용할 수 있다.
+1. 최신 내용은 저장소의 [통합 PPT](../AI_Dev_Training_Full.pptx)를 연다.
+2. 장별 화면은 `production/preview/full/`의 PNG와 montage에서 확인한다.
 3. 전체 교육에는 [통합 PPT](../AI_Dev_Training_Full.pptx)를 사용한다.
    ACT 파일은 구간 연습·별도 열람용이며 통합본과 순서·화면·Notes가 대응한다.
 4. [발표자 Notes](../notes/FULL_SPEAKER_NOTES.md),
    [예상 질문·답변](../presenter/EXPECTED_QA.md),
    [사용자 확인 체크리스트](USER_VALIDATION_CHECKLIST.md)를 함께 확인한다.
-   묶음에는 각 Markdown의 읽기용 HTML도 들어 있다.
+   기존 ZIP의 HTML·PPT·미리보기에는 이번 S01–S04 수정이 들어 있지 않다.
 
-현재 묶음은 **강사용 준비 자료**다. 청중 배포 대상·경로·범위는 미확정이며,
+기존 묶음은 DEC-0033 시점의 **강사용 준비 자료**다. 청중 배포 대상·경로·범위는 미확정이며,
 이번 작업에서 이메일·클라우드 업로드 등 외부 전달은 수행하지 않았다.
 
 ## 2. 정확한 현재 후보
@@ -29,14 +28,14 @@
 | 항목 | 경로 / SHA-256 |
 |---|---|
 | 통합 PPT | `production/AI_Dev_Training_Full.pptx` |
-| PPT SHA-256 | `0ee8e9ec3a7b825bda2fe035b914677353c3aeeb530b44a5946f168e3c438c9a` |
+| PPT SHA-256 | `0398dd997dc235808151b259ce8c9a2fa2373502e07bb7bff1991d6db48a5faf` |
 | 통합 Notes | `production/notes/FULL_SPEAKER_NOTES.md` |
-| Notes SHA-256 | `78ccf816a7b3d738bc6009764f81be7fa38b6f005454d65082bf446fb0a88b3a` |
-| 전체 montage SHA-256 | `4d84d8c025ee0be0b134d97053f19cba72604dd8f5c2470b433c8f56ee43ce99` |
+| Notes SHA-256 | `19fa60282522c7379af7fb2cbcff95eca66c12d7c611ecae8bc59e14459399b0` |
+| 전체 montage SHA-256 | `37658fda5b0eb08e5646567169f84731f63c7baa47f13dbc43d16be09cd98063` |
 | 묶음별 파일 목록·크기·SHA-256 | 저장소의 `delivery/PACKAGE_MANIFEST.json`; ZIP 내부의 `PACKAGE_MANIFEST.json` |
 | ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-21.zip.sha256` |
 
-현재 묶음은 payload 362개·ZIP entry 363개이며 CRC·추출 hash·내부 링크·
+이전 DEC-0033 묶음은 payload 362개·ZIP entry 363개이며 당시 CRC·추출 hash·내부 링크·
 Notes 정합성 검증을 통과했다. ZIP 크기·hash는 외부 validation/sidecar에서 확인한다.
 생성 전 기존 package manifest/validation은 이전 묶음의 결과이며 이번 후보에 승계하지 않는다.
 Manifest에는 개별 payload 파일의 hash를 기록한다. Manifest 자신과 ZIP의 hash는
@@ -58,6 +57,11 @@ Manifest에는 개별 payload 파일의 hash를 기록한다. Manifest 자신과
 Mode는 Lecture 130 / Demo 73 / Case 83 / Reflection 20 / Transition 22 /
 Q&A 32분이다. 예상 Q&A는 기존 질문 시간에 사용할 예비 답변이며 시간을 추가하지 않는다.
 휴식·점심·장비 준비는 순수 교육 시간에 포함하지 않는다.
+
+DEC-0034에서는 S01 사례 그림, S02 혼동하기 쉬운 C++ 초기화 비교,
+S03 병렬 Context 도식과 명세서 표현, S04 실제 요청 재구성·가상 GoogleTest
+그림을 반영했다. 나머지 76장 화면과 Notes는 보존했고 묶음은 갱신하지 않았다.
+현재 검토 기록은 `production/evaluation/ACT_0_OPENING_REVISION.md`다.
 
 DEC-0033에서는 S07 승인된 도구·계정·자료·접근 범위 확인, S14 구체 완료 조건,
 S18 검토용 결과 인계, S19 계약 위반을 구별하는 검사를 기존 설명 시간 안에 보강했다.
@@ -119,5 +123,5 @@ S72: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
   그 기록의 이전 해시·렌더러·S73/S77 수정 설명은 현재 후보를 설명하지 않는다.
 
 이전 2026-10-20 및 2026-10-19 ZIP은 역사적 묶음으로 보존한다.
-현재 자료 기준은 DEC-0033, 기존 패키징 정책은 DEC-0031이며 기존 `origin/main`에 기록한다. 저장소 push는
+현재 자료 기준은 DEC-0034, 기존 패키징 정책은 DEC-0031이며 묶음 생성은 보류한다. 기존 `origin/main`의 저장소 push는
 현장 검증 통과나 청중 대상 전달 완료를 뜻하지 않는다.

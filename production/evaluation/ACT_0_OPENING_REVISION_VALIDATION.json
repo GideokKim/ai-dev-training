@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-21",
+  "decision": "DEC-0034",
+  "changedSlides": [
+    "S01",
+    "S02",
+    "S03",
+    "S04"
+  ],
+  "deckValidation": {
+    "AI_Dev_Training_Full": {
+      "sha256": "0398dd997dc235808151b259ce8c9a2fa2373502e07bb7bff1991d6db48a5faf",
+      "slideCount": 80,
+      "package": "PASS",
+      "layout": "PASS",
+      "artifactImport": "PASS"
+    },
+    "ACT_0": {
+      "sha256": "722ad72054ce8b7f13d9be7c9878c519afa8b6bfa078ecd0701ac8b8fd997f3f",
+      "slideCount": 9,
+      "package": "PASS",
+      "layout": "PASS",
+      "artifactImport": "PASS"
+    }
+  },
+  "unchangedFullPreviews": 76,
+  "unchangedMarkdownNotes": 76,
+  "fullAct0PreviewMatches": 9,
+  "embeddedNotesMatches": {
+    "Full": 80,
+    "ACT0": 9
+  },
+  "protectedMappings": "UNCHANGED",
+  "S04ClaimClarification": "Historical boundary retained; fictional GoogleTest UI excluded from Trial evidence",
+  "actMinutes": [
+    40,
+    55,
+    70,
+    85,
+    80,
+    30
+  ],
+  "modeMinutes": {
+    "Lecture": 130,
+    "Demo": 73,
+    "Case": 83,
+    "Reflection": 20,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "totalMinutes": 360,
+  "newTrials": 0,
+  "windows": "UNVERIFIED",
+  "roomProjection": "UNVERIFIED",
+  "timedRehearsal": "UNVERIFIED",
+  "bundleRegenerated": false,
+  "productionCopies": "BYTE_IDENTICAL_TO_FINALIZED_OUTPUTS",
+  "reviewedOpeningRenders": "BYTE_IDENTICAL_TO_INDEPENDENTLY_REVIEWED_DRAFT",
+  "unchangedPreviewComparison": "SHA-256 matches for S05-S80"
+}

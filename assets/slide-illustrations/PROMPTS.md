@@ -2,6 +2,13 @@
 
 Date: 2026-10-18 (Asia/Seoul).
 
+Current opening revision: DEC-0034, 2026-10-21. The S03 person-and-paper
+asset below is historical; production now uses a native parallel Context
+diagram. The approved S01 asset is `S01-cases.png`, with its original prompt
+in `prototype/act0-opening-revision/IMAGE_PROMPT.md`. The S04 fictional
+GoogleTest image is `S04-google-test-mock.png`; its exact generation prompt
+and evidence limits are in `S04_PROMPT.md`. No image is a new Trial capture.
+
 ## S03 — Generated context-collection illustration
 
 Asset: `S03-context-collection.png`.
