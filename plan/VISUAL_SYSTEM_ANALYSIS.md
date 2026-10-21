@@ -1,5 +1,6 @@
 # STEP 08 — VISUAL SYSTEM ANALYSIS
 
+> 현재 82장 번호는 DEC-0038의 [새 이행표](SLIDE_ID_MIGRATION_82.md)를 따른다. 이 문서 본문의 원래 판본 번호·실제 경로·검증 결과는 보존한다.
 > **Historical Working Draft — 80장 판본.** 아래 원본 Slide ID, 프로토타입·Pilot 수, 실제 파일 경로와 당시 평가 결과를 보존한다. 현재 공식 Map은 DEC-0036의 81장 판본이며, 종전 S08–S80의 현재 번호는 S09–S81이다. 현재 번호는 [SLIDE_ID_MIGRATION.md](SLIDE_ID_MIGRATION.md)로 대조한다. 이 문서의 과거 판정을 새 판본의 검증 결과로 확대하지 않는다.
 
 Date: 2026-10-09

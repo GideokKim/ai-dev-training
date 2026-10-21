@@ -1,6 +1,6 @@
 # Story Transitions
 
-> **현재 기준: DEC-0036 / 81장 (2026-10-21).** 새 S08을 삽입하고 종전 S08–S80을 S09–S81로 이동했다. 총 360분과 ACT·Mode 합계, 기존 Beat·Section·Demo·Trial·State ID는 유지한다. [번호 대조·문서 범위](SLIDE_ID_MIGRATION.md). 과거 프로토타입 경로와 명시된 80장 이력은 당시 번호를 보존한다.
+> **현재 기준: DEC-0038 / 82장 (2026-10-21).** S11·S12의 요청·가능한 해석을 시각화하고 새 S13을 삽입했다. 종전 S13–S81은 S14–S82로 이동하며 S01–S12 번호는 유지한다. S12 Case 4분을 S12 2분 + S13 2분으로 나눠 360분·ACT/Mode/Section 총량을 보존한다. [82장 번호 대조·문서 범위](SLIDE_ID_MIGRATION_82.md). 과거 Prototype·Decision·실제 Asset 경로와 판본 번호는 보존한다.
 
 > Status: STEP 05 baseline aligned to STEP 07 evidence on 2026-10-01. These
 > transitions carry causal questions between events; they are not chapter
@@ -25,7 +25,7 @@ The 2026-10-20 user-approved continuity revision aligns presentation cues
 without changing Story Beats or evidence paths. Current literal handoffs
 are the Transition fields in `plan/SLIDE_MAP.md` and the matching production
 Notes. The Story-level map below retains its design history; it is not a
-transcript of every current slide. S37 → S38 introduces observed procedure
+transcript of every current slide. S38 → S39 introduces observed procedure
 repetition, not an observed variation failure.
 
 | Connection | Presentation purpose | Boundary |
@@ -35,23 +35,25 @@ repetition, not an observed variation failure.
 | S09 → S10 | Apply human decision ownership to a hypothetical inspection pipeline, then ask which task to request. | DEC-0037; dashed future connections are not missing repository functions or observed outcomes. |
 | S10 → S11 | Carry the desired inspection task into the question of what the request must specify. | Keep the existing generic filter/crop teaching requests; do not claim the full inspection pipeline is implemented later. |
 | S11 → S12 | Narrow the generic request to the previously investigated crop case. | Constructed requests are not actual Trial prompts. |
-| S13 → S14 | Group the decisions and make relevant facts and process explicit. | The two sets of five are not a one-to-one taxonomy. |
-| S15 → S16 | Move from a constructed request to historical TRIAL-002 observation. | Do not imply the example was the executed Prompt. |
-| S20 → S21 | Ask whether verification instructions and constraints recur. | Task/Project classification remains a teaching model. |
-| S29 → S30 → S31 | Ask about context amount, view bounded research, then return to relevant-detail design. | Research does not prove current Codex failure or Routing benefits. |
-| S31 → S32 | Move from the discovery route to what belongs in Core Context. | Preserve the distinct roles of the two screens. |
-| S37 → S38 | Ask whether the same procedure must be written again. | Repetition is observed; variation failure is not claimed. |
-| S39 → S40 | Apply the three responsibilities to one normalize task. | Reserve the Skill-reuse question for S41. |
-| S42 → S43 | Compare where a common procedure resides across distinct tasks. | Not a controlled same-task or Skill-superiority comparison. |
-| S46 → S47 → S49 | Review whether additional coordination or retained knowledge was justified. | Current Demo did not add Subagent or separate Memory. |
-| S56 → S57 | Close the observed Product endpoint and begin a separate fictional case. | Do not turn the fiction into Product history. |
-| S60 → S61 | Move from a cause-conditional response to how that cause is checked. | Symptoms alone do not establish a Workflow cause. |
-| S66 → S67 | Combine preceding judgments into the five-stage operating model. | No new execution, automatic learning or completed evaluation. |
-| S67 → S68 | Open the actual case about Trial evaluation and reporting. | Separate Meta history from the stale Workflow fiction. |
-| S72 → S73 → S74 | Transfer the principle to C++ questions, then recall the whole journey. | Hypothetical transfer; preserve S73 timing and operating phases. |
-| S74 → S75 | Review observed Product history within the broader teaching model. | Product history ends at STATE-04-PERF, without an observed Product Loop. |
-| S76 → S77 | Connect component selection to responsibility for accepting results. | No fixed human/Agent division table. |
-| S79 → S80 → S81 | Narrow one friction to one private small action, then take questions and close. | No submission, public commitment or mandatory activity. |
+| S12 → S13 | Add the five missing fields to show the intended path among the same alternatives. | Teaching example only; no deterministic execution or PASS guarantee. |
+| S13 → S14 | Generalize the concrete fields into developer questions, then retain private Reflection. | The example is authorized before the general model; do not repeat it as a second solution lecture. |
+| S14 → S15 | Group the decisions and make relevant facts and process explicit. | The two sets of five are not a one-to-one taxonomy. |
+| S16 → S17 | Move from a constructed request to historical TRIAL-002 observation. | Do not imply the example was the executed Prompt. |
+| S21 → S22 | Ask whether verification instructions and constraints recur. | Task/Project classification remains a teaching model. |
+| S30 → S31 → S32 | Ask about context amount, view bounded research, then return to relevant-detail design. | Research does not prove current Codex failure or Routing benefits. |
+| S32 → S33 | Move from the discovery route to what belongs in Core Context. | Preserve the distinct roles of the two screens. |
+| S38 → S39 | Ask whether the same procedure must be written again. | Repetition is observed; variation failure is not claimed. |
+| S40 → S41 | Apply the three responsibilities to one normalize task. | Reserve the Skill-reuse question for S42. |
+| S43 → S44 | Compare where a common procedure resides across distinct tasks. | Not a controlled same-task or Skill-superiority comparison. |
+| S47 → S48 → S50 | Review whether additional coordination or retained knowledge was justified. | Current Demo did not add Subagent or separate Memory. |
+| S57 → S58 | Close the observed Product endpoint and begin a separate fictional case. | Do not turn the fiction into Product history. |
+| S61 → S62 | Move from a cause-conditional response to how that cause is checked. | Symptoms alone do not establish a Workflow cause. |
+| S67 → S68 | Combine preceding judgments into the five-stage operating model. | No new execution, automatic learning or completed evaluation. |
+| S68 → S69 | Open the actual case about Trial evaluation and reporting. | Separate Meta history from the stale Workflow fiction. |
+| S73 → S74 → S75 | Transfer the principle to C++ questions, then recall the whole journey. | Hypothetical transfer; preserve S74 timing and operating phases. |
+| S75 → S76 | Review observed Product history within the broader teaching model. | Product history ends at STATE-04-PERF, without an observed Product Loop. |
+| S77 → S78 | Connect component selection to responsibility for accepting results. | No fixed human/Agent division table. |
+| S80 → S81 → S82 | Narrow one friction to one private small action, then take questions and close. | No submission, public commitment or mandatory activity. |
 
 ## Transition Map
 

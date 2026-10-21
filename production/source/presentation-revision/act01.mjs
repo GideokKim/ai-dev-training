@@ -171,25 +171,25 @@ export const slides = {
     ['목표의 세부', '보존 조건', '수정 범위', '확인 근거', '완료 조건'].forEach((v, i) => text(s, `${v} ?`, 64 + 234 * i, 539, 214, 42, 28, C.ink));
     return s;
   },
-  S13: (p, H) => {
+  S14: (p, H) => {
     const { C, text, line } = H;
-    const s = H.frame(p, 'S13', '개발자가 정해야 하는 경계', 'ACT 1 · 요청을 보내기 전의 질문', '이 과정의 질문 틀 · 정답을 제시하는 분류 시험이 아님', '마지막 1분은 익숙한 작업 하나를 조용히 떠올려 보세요.', 'CONCEPTUAL');
+    const s = H.frame(p, 'S14', '개발자가 정해야 하는 경계', 'ACT 1 · 요청을 보내기 전의 질문', '이 과정의 질문 틀 · 정답을 제시하는 분류 시험이 아님', '마지막 1분은 익숙한 작업 하나를 조용히 떠올려 보세요.', 'CONCEPTUAL');
     const questions = ['무엇을 바꿀까?', '무엇을 유지할까?', '어디까지 바꿔도 될까?', '무슨 근거로 확인할까?', '언제 완료라고 할까?'];
     questions.forEach((q, i) => { const y = 224 + i * 71; text(s, String(i + 1).padStart(2, '0'), 64, y, 80, 46, 28, C.teal, true); text(s, q, 170, y, 1046, 46, 35, C.ink, i === 0 || i === 4); if (i < 4) line(s, 170, y + 57, 1046); });
     return s;
   },
-  S14: (p, H) => {
+  S15: (p, H) => {
     const { C, text, rect, line } = H;
-    const s = H.frame(p, 'S14', 'Task Specification의 다섯 책임', 'ACT 1 · 작업을 구체화하는 틀', '이 과정의 교육 모델 · 공식 OpenAI 분류나 모든 작업에 대한 법칙이 아님', '다섯 항목은 서로 분리된 기능이 아니라 하나의 작업 요청에 담는 책임입니다.');
+    const s = H.frame(p, 'S15', 'Task Specification의 다섯 책임', 'ACT 1 · 작업을 구체화하는 틀', '이 과정의 교육 모델 · 공식 OpenAI 분류나 모든 작업에 대한 법칙이 아님', '다섯 항목은 서로 분리된 기능이 아니라 하나의 작업 요청에 담는 책임입니다.');
     text(s, '앞의 질문을 묶고, 필요한 맥락과 작업 과정을 명시한다', 64, 164, 1152, 30, 23, C.sub);
     rect(s, 64, 226, 1152, 354, C.white, C.line, 1);
     const items = [['목표', 'Goal', '어떤 결과를 바꿀까?'], ['맥락', 'Context', '이 작업에 필요한 사실은?'], ['제약', 'Constraints', '무엇을 보존할까?'], ['과정', 'Process', '어떤 순서·경계를 지킬까?'], ['검증', 'Verification', '무엇으로 완료를 확인할까?']];
     items.forEach((a, i) => { const y = 242 + i * 65; text(s, a[0], 88, y, 145, 45, 31, C.teal, true); text(s, a[1], 253, y, 263, 45, 28, C.sub); text(s, a[2], 570, y, 618, 45, 31, C.ink); if (i < 4) line(s, 88, y + 53, 1100); });
     return s;
   },
-  S15: (p, H) => {
+  S16: (p, H) => {
     const { C, text, rect, line, arrow } = H;
-    const s = H.frame(p, 'S15', '더 긴 Prompt보다 분명한 경계', 'ACT 1 · 같은 요청을 구체화하기', '교육용 Before / After · 실제 Trial Prompt나 우월성 비교 실험이 아님', 'C++ 적용도 작업 경계를 정하는 예시입니다. 특정 Windows·빌드 환경을 검증한 것은 아닙니다.', 'CONCEPTUAL');
+    const s = H.frame(p, 'S16', '더 긴 Prompt보다 분명한 경계', 'ACT 1 · 같은 요청을 구체화하기', '교육용 Before / After · 실제 Trial Prompt나 우월성 비교 실험이 아님', 'C++ 적용도 작업 경계를 정하는 예시입니다. 특정 Windows·빌드 환경을 검증한 것은 아닙니다.', 'CONCEPTUAL');
     text(s, '처음 요청', 64, 225, 316, 42, 28, C.sub, true);
     text(s, '“crop test\n고쳐줘.”', 64, 294, 300, 130, 42, C.ink, true);
     arrow(s, 390, 345, 45, 26);
@@ -205,9 +205,9 @@ export const slides = {
     text(s, 'C++에도: 출력·API/ABI 보존 범위와 Release 검증 조건을 먼저 정한다.', 80, 557, 1120, 38, 28, C.teal);
     return s;
   },
-  S16: (p, H) => {
+  S17: (p, H) => {
     const { C, text, line, arrow } = H;
-    const s = H.frame(p, 'S16', '먼저 무엇을 하는지 보자', 'ACT 1 · TRIAL-002 관찰 시작', 'TRIAL-002 관찰 기준 · 2026-09-28 · Codex CLI 0.154.0 · macOS', '단일 과거 CLI 기록을 살펴봅니다. 현재 Desktop 실행이나 반복성을 입증하지 않습니다.', 'OBSERVED_PRODUCT');
+    const s = H.frame(p, 'S17', '먼저 무엇을 하는지 보자', 'ACT 1 · TRIAL-002 관찰 시작', 'TRIAL-002 관찰 기준 · 2026-09-28 · Codex CLI 0.154.0 · macOS', '단일 과거 CLI 기록을 살펴봅니다. 현재 Desktop 실행이나 반복성을 입증하지 않습니다.', 'OBSERVED_PRODUCT');
     text(s, '“실제 기록에서는 수정 전에 무엇을 했을까?”', 64, 240, 1152, 65, 40, C.ink, true);
     const items = [['재현', '실패 확인'], ['조사', '근거 연결'], ['계획', '수정 전 설명'], ['수정', '최소 변경'], ['검증', '결과 확인']];
     items.forEach((a, i) => { const x = 64 + i * 234; text(s, String(i + 1).padStart(2, '0'), x, 357, 185, 36, 28, C.sub); text(s, a[0], x, 405, 185, 50, 35, i === 2 ? C.teal : C.ink, true); text(s, a[1], x, 474, 185, 40, 28, C.sub); if (i < 4) arrow(s, x + 186, 424, 25, 17); });
@@ -215,9 +215,9 @@ export const slides = {
     text(s, '다음 두 장에서 TRIAL-002의 요청 흐름과 행동을 대조한다.', 64, 558, 1152, 39, 28, C.teal, true);
     return s;
   },
-  S17: (p, H) => {
+  S18: (p, H) => {
     const { C, text, rect, line, arrow } = H;
-    const s = H.frame(p, 'S17', '조사에서 한 줄 변경까지', 'ACT 1 · 계약을 보존하는 최소 변경', 'TRIAL-002 · STATE-00 → STATE-00-FIXED · 실제 diff를 재구성한 도식', 'src/graypipe/transform.py · 단일 CLI 기록 · 실제 터미널 화면이 아님', 'OBSERVED_PRODUCT');
+    const s = H.frame(p, 'S18', '조사에서 한 줄 변경까지', 'ACT 1 · 계약을 보존하는 최소 변경', 'TRIAL-002 · STATE-00 → STATE-00-FIXED · 실제 diff를 재구성한 도식', 'src/graypipe/transform.py · 단일 CLI 기록 · 실제 터미널 화면이 아님', 'OBSERVED_PRODUCT');
     text(s, '실패 테스트 → 호출 경로 → 계약 확인 → 수정 전 계획', 64, 224, 1152, 46, 30, C.teal, true);
     text(s, '끝 좌표를 제외한다: [x_start, x_end)', 64, 292, 1152, 46, 32, C.ink, true);
     rect(s, 64, 371, 546, 123, C.redPale);
@@ -231,17 +231,17 @@ export const slides = {
     text(s, '너비 3 → 계약대로 너비 2', 534, 535, 682, 45, 32, C.ink, true);
     return s;
   },
-  S18: (p, H) => {
+  S19: (p, H) => {
     const { C, text, line } = H;
-    const s = H.frame(p, 'S18', '변경 결과와 확인 증거', 'ACT 1 · 수정 뒤 확인한 것', 'TRIAL-002 기록 요약 · 단일 Codex CLI 실행 · STATE-00-FIXED', '해당 테스트·입력·수정 범위의 확인입니다. 성능 benchmark는 수행하지 않았습니다.', 'OBSERVED_PRODUCT');
+    const s = H.frame(p, 'S19', '변경 결과와 확인 증거', 'ACT 1 · 수정 뒤 확인한 것', 'TRIAL-002 기록 요약 · 단일 Codex CLI 실행 · STATE-00-FIXED', '해당 테스트·입력·수정 범위의 확인입니다. 성능 benchmark는 수행하지 않았습니다.', 'OBSERVED_PRODUCT');
     const xs = [64, 460, 856];
     const groups = [['동작 확인', '3 / 3', 'crop 집중 테스트', '전체 suite 11 / 11 통과'], ['실행 확인', 'PASS', 'CLI smoke', '기록된 샘플의 실행 경로'], ['범위 확인', '1줄', '한 파일의 crop 구현', 'git diff --check 통과']];
     groups.forEach((a, i) => { const x = xs[i]; text(s, a[0], x, 231, 360, 44, 30, C.teal, true); line(s, x, 293, 360); text(s, a[1], x, 320, 360, 91, 59, C.green, true); text(s, a[2], x, 440, 360, 47, 28, C.ink, true); text(s, a[3], x, 515, 360, 65, 28, C.sub); });
     return s;
   },
-  S19: (p, H) => {
+  S20: (p, H) => {
     const { C, text, rect, arrow, line } = H;
-    const s = H.frame(p, 'S19', 'Generated ≠ Done', 'ACT 1 · 생성 뒤에 남는 판단', '교육 모델 · 관찰 예: TRIAL-002에서 테스트·CLI·diff를 확인', '검사는 주장과 위험에 맞춰 선택합니다. TRIAL-002에서 benchmark는 수행하지 않았습니다.');
+    const s = H.frame(p, 'S20', 'Generated ≠ Done', 'ACT 1 · 생성 뒤에 남는 판단', '교육 모델 · 관찰 예: TRIAL-002에서 테스트·CLI·diff를 확인', '검사는 주장과 위험에 맞춰 선택합니다. TRIAL-002에서 benchmark는 수행하지 않았습니다.');
     text(s, '코드가 나왔다', 64, 248, 380, 59, 40, C.ink, true);
     text(s, '완료라고 말할 수 있나?', 664, 248, 552, 59, 40, C.teal, true);
     arrow(s, 492, 262, 80, 31);
@@ -251,9 +251,9 @@ export const slides = {
     text(s, '“더 빨라졌다”고 말하려면 → 해당 조건의 성능 측정도 필요', 64, 553, 1152, 41, 29, C.warn, true);
     return s;
   },
-  S20: (p, H) => {
+  S21: (p, H) => {
     const { C, text, line } = H;
-    const s = H.frame(p, 'S20', 'Check마다 확인하는 범위', 'ACT 1 · 근거에 맞춰 말하기', '교육 모델 · TRIAL-002 실제 확인: 집중·전체 테스트 / CLI smoke / diff', 'Benchmark는 이 Trial에서 미실행. C++ 적용은 도구 사용법이 아닌 검증 범위의 예시입니다.');
+    const s = H.frame(p, 'S21', 'Check마다 확인하는 범위', 'ACT 1 · 근거에 맞춰 말하기', '교육 모델 · TRIAL-002 실제 확인: 집중·전체 테스트 / CLI smoke / diff', 'Benchmark는 이 Trial에서 미실행. C++ 적용은 도구 사용법이 아닌 검증 범위의 예시입니다.');
     text(s, '확인 방법', 64, 220, 380, 40, 28, C.sub, true);
     text(s, '말할 수 있는 범위', 460, 220, 756, 40, 28, C.sub, true);
     const items = [['집중 테스트', '바뀐 동작의 해당 테스트 조건'], ['전체 테스트', '현재 suite에 담긴 회귀 범위'], ['CLI smoke', '샘플 입력의 통합 실행 경로'], ['diff 검토', '변경 범위와 의도하지 않은 수정'], ['성능 측정', '측정한 입력·환경에서의 성능']];
@@ -261,9 +261,9 @@ export const slides = {
     text(s, 'C++에서도: Release 실행·API/ABI·대상 데이터에 맞춰 근거를 고른다.', 64, 559, 1152, 39, 28, C.teal);
     return s;
   },
-  S21: (p, H) => {
+  S22: (p, H) => {
     const { C, text, line } = H;
-    const s = H.frame(p, 'S21', '이번 Task인가,\n계속 유지할 Project 정보인가?', 'ACT 1 · 반복해서 쓰는 정보 돌아보기', '생각해 보기 · 이 과정의 교육 모델', '1분 동안 개인적으로 생각한 뒤 2분간 자발적인 질문을 받습니다.');
+    const s = H.frame(p, 'S22', '이번 Task인가,\n계속 유지할 Project 정보인가?', 'ACT 1 · 반복해서 쓰는 정보 돌아보기', '생각해 보기 · 이 과정의 교육 모델', '1분 동안 개인적으로 생각한 뒤 2분간 자발적인 질문을 받습니다.');
     text(s, '테스트·보존 조건처럼, 반복해서 쓴 문장을 떠올려 보세요.', 64, 233, 1152, 53, 33, C.ink, true);
     text(s, '이번 작업에만?', 64, 355, 542, 60, 38, C.teal, true);
     text(s, '다음 작업에도?', 704, 355, 512, 60, 38, C.teal, true);
@@ -271,9 +271,9 @@ export const slides = {
     text(s, '어떤 정보가 계속 남아 있어야 할까요?', 64, 547, 1152, 44, 31, C.ink);
     return s;
   },
-  S22: (p, H) => {
+  S23: (p, H) => {
     const { C, text, line, rect } = H;
-    const s = H.frame(p, 'S22', '반복하는 설명을 두 범주로 나누기', 'ACT 1 · 정보의 수명과 범위', '교육용 후보 예시 · 모든 프로젝트에 적용되는 유일한 분류가 아님', '다음 질문: Project 정보를 왜 매번 Prompt에 다시 적고 있을까요?', 'CONCEPTUAL');
+    const s = H.frame(p, 'S23', '반복하는 설명을 두 범주로 나누기', 'ACT 1 · 정보의 수명과 범위', '교육용 후보 예시 · 모든 프로젝트에 적용되는 유일한 분류가 아님', '다음 질문: Project 정보를 왜 매번 Prompt에 다시 적고 있을까요?', 'CONCEPTUAL');
     text(s, '이번 Task', 64, 235, 542, 47, 35, C.teal, true);
     text(s, '계속 유지할 Project 정보', 704, 235, 512, 47, 33, C.teal, true);
     line(s, 64, 305, 542); line(s, 704, 305, 512);

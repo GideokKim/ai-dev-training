@@ -2,7 +2,7 @@
 
 Planning Status: APPROVED ROLE — conceptual controlled case
 
-Final Validation Status: READY — DEC-0036 local static files, displayed IDs, dimensions and SHA-256 were checked after final rendering. Current-product, target Windows/room and rehearsal gates remain UNVERIFIED; no new Trial was run.
+Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-038–046
 
@@ -48,7 +48,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-CONCEPTUAL label; S57 begins with aligned unit-test instructions. S58 assumes module interactions now need verification, so the official Project scope is unit + integration tests while the reusable Workflow directs unit tests only. Compare instructions, not execution results (DEC-0027).
+CONCEPTUAL label; S58 begins with aligned unit-test instructions. S59 assumes module interactions now need verification, so the official Project scope is unit + integration tests while the reusable Workflow directs unit tests only. Compare instructions, not execution results (DEC-0027).
 
 ## Success Criteria
 
@@ -66,9 +66,9 @@ Evidence limit: No actual migration, command failure, Agent failure, Trial, or S
 
 ## Estimated Time
 
-4m: S57 2m + S58 2m.
+4m: S58 2m + S59 2m.
 
-Phase plan: S57 2m → S58 2m.
+Phase plan: S58 2m → S59 2m.
 
 Time Risk: LOW
 
@@ -90,13 +90,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S57.png`, `production/preview/full/S58.png`
+Default is the offline static presentation. Open: `production/preview/full/S58.png`, `production/preview/full/S59.png`
 
-Show S57–S58 static conceptual frames; keep the constructed-case label visible.
+Show S58–S59 static conceptual frames; keep the constructed-case label visible.
 
-Fallback readiness: UNVERIFIED for the DEC-0036 re-render until local file identity and playback paths are rechecked. The approved static fallback plan is preserved; raw Trial captures are not implied or created.
+Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
-Captured Alternative provenance: DEC-0036 current slide numbering. Post-migration PPTX/PNG identity and fallback hashes must be checked in FALLBACK_MANIFEST.md and production/evaluation/CODEX_ENTRY_INSERTION.md. DEC-0033/DEC-0035 rendering records remain historical evidence. This alignment is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
+Captured Alternative provenance: DEC-0038 current slide numbering. Check final PPTX/PNG identity and fallback hashes in FALLBACK_MANIFEST.md and production/evaluation/PROMPT_TIMELINE_REVISION.md after rendering. DEC-0033–0037 records remain historical. This is not a target-PC playback test, raw terminal screenshot, recording, new Trial or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -106,7 +106,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S58 → S59: distinguish task workaround from system problem.
+S59 → S60: distinguish task workaround from system problem.
 
 ## Evidence
 
@@ -118,6 +118,6 @@ No actual migration, command failure, Agent failure, Trial, or STATE-07+. Use on
 
 ## Trial / Run Record
 
-No new Trial or product execution was performed for this runbook. Local work checked the existing static fallback only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
+No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.

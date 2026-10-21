@@ -2,7 +2,7 @@
 
 Planning Status: APPROVED SUPPORTING META ROLE
 
-Final Validation Status: READY — DEC-0036 local static files, displayed IDs, dimensions and SHA-256 were checked after final rendering. Current-product, target Windows/room and rehearsal gates remain UNVERIFIED; no new Trial was run.
+Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-058–059
 
@@ -66,7 +66,7 @@ Evidence limit: No Product state change, MCP task-result use, full environment i
 
 ## Estimated Time
 
-8m: S68 2m + S69 4m + S70 Demo 2m.
+8m: S69 2m + S70 4m + S71 Demo 2m.
 
 Phase plan: 2m timeline → 4m attribution → 2m reporting boundary.
 
@@ -90,13 +90,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S68.png`, `production/preview/full/S69.png`, `production/preview/full/S70.png`
+Default is the offline static presentation. Open: `production/preview/full/S69.png`, `production/preview/full/S70.png`, `production/preview/full/S71.png`
 
-Show S68–S70; preserve the report/stderr discrepancy as unresolved.
+Show S69–S71; preserve the report/stderr discrepancy as unresolved.
 
-Fallback readiness: UNVERIFIED for the DEC-0036 re-render until local file identity and playback paths are rechecked. The approved static fallback plan is preserved; raw Trial captures are not implied or created.
+Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
-Captured Alternative provenance: DEC-0036 current slide numbering. Post-migration PPTX/PNG identity and fallback hashes must be checked in FALLBACK_MANIFEST.md and production/evaluation/CODEX_ENTRY_INSERTION.md. DEC-0033/DEC-0035 rendering records remain historical evidence. This alignment is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
+Captured Alternative provenance: DEC-0038 current slide numbering. Check final PPTX/PNG identity and fallback hashes in FALLBACK_MANIFEST.md and production/evaluation/PROMPT_TIMELINE_REVISION.md after rendering. DEC-0033–0037 records remain historical. This is not a target-PC playback test, raw terminal screenshot, recording, new Trial or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -106,7 +106,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S70 → S71: follow-up records improved but remained partial.
+S71 → S72: follow-up records improved but remained partial.
 
 ## Evidence
 
@@ -118,6 +118,6 @@ No Product state change, MCP task-result use, full environment inventory, Skill-
 
 ## Trial / Run Record
 
-No new Trial or product execution was performed for this runbook. Local work checked the existing static fallback only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
+No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.

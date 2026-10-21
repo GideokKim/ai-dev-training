@@ -1,6 +1,8 @@
 # Additional slide visuals
 
-> Historical asset record — 원 Slide ID는 당시 80장판을 보존한다. 현재 S57→S58 / S74→S75 / 발췌 S16/S32/S45→S17/S33/S46 대응은 [번호 이행표](../../plan/SLIDE_ID_MIGRATION.md)를 따른다. 원 프롬프트·실제 파일명은 유지한다. 신규 S08/S09 출처·아이콘은 [CODEX_ENTRY_SOURCES.md](CODEX_ENTRY_SOURCES.md)에 기록한다.
+> Historical asset record — 원 Slide ID는 당시 80장판을 보존한다. DEC-0036 당시 S57→S58 / S74→S75 / 발췌 S16/S32/S45→S17/S33/S46 대응은 [번호 이행표](../../plan/SLIDE_ID_MIGRATION.md)를 따른다. 원 프롬프트·실제 파일명은 유지한다. 신규 S08/S09 출처·아이콘은 [CODEX_ENTRY_SOURCES.md](CODEX_ENTRY_SOURCES.md)에 기록한다.
+
+현재 DEC-0038의 82장 번호는 [새 이행표](../../plan/SLIDE_ID_MIGRATION_82.md)를 따른다. 새 Agent·시간선 출처는 [PROMPT_TIMELINE_SOURCES.md](PROMPT_TIMELINE_SOURCES.md)에 기록한다.
 
 Date: 2026-10-18 (Asia/Seoul).
 

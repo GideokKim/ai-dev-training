@@ -1,8 +1,8 @@
 # 발표자용 오프라인 자료 묶음 — 과거 80장판 보관
 
-**사용자 지시로 묶음 자료 생성·갱신을 중단한다.** 현재 제작 기준은 DEC-0036의 **81장 / 360분**이며 최신 자료는 [통합 PPT](../production/AI_Dev_Training_Full.pptx), [통합 Notes](../production/notes/FULL_SPEAKER_NOTES.md), [최종 전달 안내](../production/evaluation/FINAL_HANDOFF.md)를 따른다. 이번 작업에서 ZIP·HTML·package manifest를 생성하거나 바꾸지 않는다.
+**사용자 지시로 묶음 자료 생성·갱신을 중단한다.** 현재 제작 기준은 DEC-0038의 **82장 / 360분**이며 최신 자료는 [통합 PPT](../production/AI_Dev_Training_Full.pptx), [통합 Notes](../production/notes/FULL_SPEAKER_NOTES.md), [최종 전달 안내](../production/evaluation/FINAL_HANDOFF.md)를 따른다. 이번 작업에서 ZIP·HTML·package manifest를 생성하거나 바꾸지 않는다.
 
-기존 [2026-10-21 ZIP](AI_Dev_Training_Presenter_2026-10-21.zip)은 `adba817` / DEC-0033의 **80장판 역사적 스냅샷**이다. S01–S06 후속 수정, 신규 S08, 현재 S09의 사람·Agent 역할 구분과 81장 번호는 포함하지 않는다. 과거 묶음을 최신 발표자료로 사용하지 않는다. 과거 자료를 열람할 때만 전체를 압축 해제하고 START_HERE.html을 연다.
+기존 [2026-10-21 ZIP](AI_Dev_Training_Presenter_2026-10-21.zip)은 `adba817` / DEC-0033의 **80장판 역사적 스냅샷**이다. S01–S06 후속 수정, 신규 S08, 현재 S09의 사람·Agent 역할 구분, S11–13의 Prompt/시간선 수정과 82장 번호는 포함하지 않는다. 과거 묶음을 최신 발표자료로 사용하지 않는다. 과거 자료를 열람할 때만 전체를 압축 해제하고 START_HERE.html을 연다.
 
 ## 보존된 묶음의 범위
 
@@ -20,7 +20,7 @@
 - [2026-10-20 ZIP](AI_Dev_Training_Presenter_2026-10-20.zip)
 - [2026-10-19 ZIP](AI_Dev_Training_Presenter_2026-10-19.zip)
 
-Manifest 자신과 ZIP hash는 자기참조를 피하기 위해 payload manifest에서 제외한다. ZIP의 identity는 sidecar, 개별 payload는 당시 manifest와 대조한다. 이 값들을 현재 81장 산출물의 검증 근거로 승계하지 않는다.
+Manifest 자신과 ZIP hash는 자기참조를 피하기 위해 payload manifest에서 제외한다. ZIP의 identity는 sidecar, 개별 payload는 당시 manifest와 대조한다. 이 값들을 현재 82장 산출물의 검증 근거로 승계하지 않는다.
 
 ## 재생성 정책
 

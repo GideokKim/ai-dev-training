@@ -5468,3 +5468,104 @@ Keep target Windows/room/product and timed rehearsal gates UNVERIFIED.
 
 The user's explicit S10 revision request authorizes this bounded layout and
 Task-context change. Historical evidence and core Story remain preserved.
+
+# DEC-0038 — Visualize prompt ambiguity and the intended task path
+
+## Status
+
+ACCEPTED
+
+## Date
+
+2026-10-21
+
+## Context
+
+The user requests Prompt window layouts for S11/S12, a shared AI Agent
+illustration, possible parallel task interpretations, and a new example
+slide showing the desired path after missing information is supplied.
+
+## Problem
+
+The current questions are abstract. A concrete branch comparison can make
+missing intent visible, but images of indecision, steep costs and a selected
+branch could otherwise look like measured failures, exponential laws,
+observed repeated runs or deterministic success guarantees.
+
+## Decision
+
+- Keep S11's three questions and seven Case minutes. Show its request in an
+  editable Prompt window, an AI-generated teaching Agent, and a qualitative
+  rising token/time concept without measured values, multipliers or formulas.
+- Show S12's request in the same input grammar. Draw three possible paths:
+  change tests, change implementation, or clarify first. Retain the five
+  missing fields: goal detail, preserve, scope, evidence and done.
+- Insert S13, “원하는 작업 경로를 Prompt에 담는다”, in ACT 1 / 1B /
+  BEAT-004 using T04-A. Supply the five fields in a short teaching Prompt and
+  highlight the desired implementation path in the same three-path diagram.
+  Keep verification necessary and do not guarantee determinism/correctness.
+- Split S12 Case4 into S12 Case2 plus S13 Case2. Preserve Section1B eight
+  minutes, ACT1 55 minutes, all ACT and Mode totals, and the net 360 minutes.
+- Keep current S01–S12 IDs; move old S13–S81 to S14–S82. ACT counts become
+  10/13/15/18/18/8, with 82 total slides. Keep all Beat/Section/Demo/Trial/State
+  IDs and historical prototype/asset paths stable.
+- Reuse the existing 11 Templates/27 Variants. Reuse the same Agent image for
+  the explicitly requested same-Agent comparison. Update current planning,
+  Notes, source, PPTs, previews and current handoff references.
+- Preserve prior Decision bodies,80/81-slide records and source provenance.
+  Do not change the Demo repository or create a presenter bundle/new Trial.
+
+## Rationale
+
+The first two slides establish remaining choices before the new concrete
+payoff. The following S14 generalizes the example into developer questions,
+then S15 presents the Task Specification model. The same visual branch
+positions make the difference attributable to communicated intent in this
+teaching example, without turning it into an experimental causal claim.
+
+## Alternatives
+
+- Keep the new information in Notes only: does not satisfy the new slide.
+- Add time: unnecessary because one Case interval can be split in place.
+- Assert exponential growth or deterministic selection: no measurement or
+  controlled repeat evidence supports these stronger claims.
+- Rewrite historical Slide IDs: would break provenance of actual artifacts.
+
+## Trade-offs
+
+The insertion renumbers current references across the course. A new mapping
+table links the 81-slide baseline to 82 slides. Historical snapshots keep their
+own IDs. The cost metaphor needs an explicit qualitative label and the
+highlighted branch needs an intended-path/verification boundary.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-RESPONSIBILITY-001, INV-DEMO-003, INV-SOT-003.
+
+## Affected Artifacts
+
+Current Slide Map, Template Map/Architecture, Claim Freeze, Visual Spec,
+Notes Architecture/Freeze, Production Plan, current transitions/Demo links,
+PPT/source/Notes/previews, current handoff/checklist and numbering lookup.
+
+## Evidence
+
+Explicit user instruction on 2026-10-21. Existing crop contract and Trial
+records bound the teaching Prompt; no new execution or measurement is added.
+
+## Training Relevance
+
+YES — make the practical purpose of communicated intent visible while
+separating a teaching alternative from observed Agent behavior.
+
+## Follow-up
+
+Validate 82 unique Slide IDs, 81 baseline mappings, nineteen-field Notes,
+ACT/Mode/Section totals, current paths, rendering and evidence boundaries.
+Windows, target account/room and timed rehearsal stay UNVERIFIED.
+
+## Approval
+
+The user explicitly requests the two revised slides and insertion after S12.
+This authorizes the bounded example and sequential numbering migration.

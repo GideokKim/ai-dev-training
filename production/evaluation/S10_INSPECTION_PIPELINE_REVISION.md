@@ -1,5 +1,7 @@
 # S10 — Inspection Pipeline Revision
 
+> Current-version router — 이 보고서의 번호·장수·파일·hash·검증 결과는 해당 Decision 당시의 역사적 판본이다. 현재 82장 번호는 [새 이행표](../../plan/SLIDE_ID_MIGRATION_82.md), 현재 제작 결과는 [Prompt·시간선 수정](PROMPT_TIMELINE_REVISION.md)을 따른다.
+
 Date: 2026-10-21 (Asia/Seoul). Decision: DEC-0037.
 Baseline: `c4f8bd6`. Status: **COMPLETE — LOCAL RENDER / DOCUMENT ALIGNMENT**.
 

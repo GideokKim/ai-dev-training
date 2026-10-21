@@ -2,7 +2,7 @@
 
 Planning Status: DEFERRED — not justified at STATE-04
 
-Final Validation Status: READY — DEC-0036 local static files, displayed IDs, dimensions and SHA-256 were checked after final rendering. Current-product, target Windows/room and rehearsal gates remain UNVERIFIED; no new Trial was run.
+Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-023–027
 
@@ -28,7 +28,7 @@ N/A — no Product State selected
 
 Playback uses local offline PNGs rendered from the current integrated deck. The target Windows PC, education Codex account/surface, permissions, and room are not selected or verified. Historical Trial environments apply only to their recorded runs.
 
-Historical source scope: DEC-0018/0019; Slide Map S47–48.
+Historical source scope: DEC-0018/0019; Slide Map S48–49.
 
 ## Repository Commit / Tag
 
@@ -66,9 +66,9 @@ Evidence limit: No current interface support, speed/quality gain, parallelism be
 
 ## Estimated Time
 
-5m: S47 Demo 3m + S48 Demo 2m; Q&A minute portions are separate.
+5m: S48 Demo 3m + S49 Demo 2m; Q&A minute portions are separate.
 
-Phase plan: S47 3m → S48 2m.
+Phase plan: S48 3m → S49 2m.
 
 Time Risk: LOW
 
@@ -90,13 +90,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S47.png`, `production/preview/full/S48.png`
+Default is the offline static presentation. Open: `production/preview/full/S48.png`, `production/preview/full/S49.png`
 
-S47–S48 PNG; do not open a product Subagent pane.
+S48–S49 PNG; do not open a product Subagent pane.
 
-Fallback readiness: UNVERIFIED for the DEC-0036 re-render until local file identity and playback paths are rechecked. The approved static fallback plan is preserved; raw Trial captures are not implied or created.
+Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
-Captured Alternative provenance: DEC-0036 current slide numbering. Post-migration PPTX/PNG identity and fallback hashes must be checked in FALLBACK_MANIFEST.md and production/evaluation/CODEX_ENTRY_INSERTION.md. DEC-0033/DEC-0035 rendering records remain historical evidence. This alignment is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
+Captured Alternative provenance: DEC-0038 current slide numbering. Check final PPTX/PNG identity and fallback hashes in FALLBACK_MANIFEST.md and production/evaluation/PROMPT_TIMELINE_REVISION.md after rendering. DEC-0033–0037 records remain historical. This is not a target-PC playback test, raw terminal screenshot, recording, new Trial or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -106,11 +106,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S48 → S49: move from role choice to durable knowledge.
+S49 → S50: move from role choice to durable knowledge.
 
 ## Evidence
 
-DEC-0018/0019; Slide Map S47–48.
+DEC-0018/0019; Slide Map S48–49.
 
 ## Do Not Claim
 
@@ -118,6 +118,6 @@ No current interface support, speed/quality gain, parallelism benefit, or primar
 
 ## Trial / Run Record
 
-No new Trial or product execution was performed for this runbook. Local work checked the existing static fallback only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
+No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.

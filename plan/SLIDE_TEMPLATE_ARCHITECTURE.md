@@ -1,6 +1,6 @@
 # STEP 08 — Slide Template Architecture
 
-> **현재 기준: DEC-0036 / 81장 (2026-10-21).** 새 S08을 삽입하고 종전 S08–S80을 S09–S81로 이동했다. 총 360분과 ACT·Mode 합계, 기존 Beat·Section·Demo·Trial·State ID는 유지한다. [번호 대조·문서 범위](SLIDE_ID_MIGRATION.md). 과거 프로토타입 경로와 명시된 80장 이력은 당시 번호를 보존한다.
+> **현재 기준: DEC-0038 / 82장 (2026-10-21).** S11·S12의 요청·가능한 해석을 시각화하고 새 S13을 삽입했다. 종전 S13–S81은 S14–S82로 이동하며 S01–S12 번호는 유지한다. S12 Case 4분을 S12 2분 + S13 2분으로 나눠 360분·ACT/Mode/Section 총량을 보존한다. [82장 번호 대조·문서 범위](SLIDE_ID_MIGRATION_82.md). 과거 Prototype·Decision·실제 Asset 경로와 판본 번호는 보존한다.
 
 Date: 2026-10-09
 
@@ -8,19 +8,19 @@ Status: READY FOR SLIDE-TO-TEMPLATE MAPPING
 
 ## 1. Purpose and Boundary
 
-이 문서는 plan/SLIDE_MAP.md의 81개 Slide 역할을 바탕으로 재사용할
+이 문서는 plan/SLIDE_MAP.md의 82개 Slide 역할을 바탕으로 재사용할
 Template와 Component의 설계 기준을 정한다. 현재 작업은 Template
 Architecture까지다.
 
 - 모든 Slide의 Template ID 배정은 하지 않는다.
-- 81장 수, 순서, ID, Story Beat, Demo ID, Section ID, Claim, 시간,
+- 82장 수, 순서, ID, Story Beat, Demo ID, Section ID, Claim, 시간,
   Delivery Mode를 바꾸지 않는다.
 - Template는 내용을 추가하거나 주장 강도를 바꾸는 근거가 아니다.
 - 최종 글꼴·색상·화면 기준은 plan/VISUAL_SPEC.md에 따른다.
 - 내용과 Evidence 경계는 plan/SLIDE_MAP.md와 plan/CLAIM_FREEZE.md를
   따른다.
 
-최초 80개 Slide를 역할·Evidence Type·Visual Concept 기준으로 검토했다. 현재 81장 판본에서는 DEC-0036의 S08을 기존 T03-C에 추가하며, 11개 Template·27개 Variant를 유지한다.
+최초 80개 Slide를 역할·Evidence Type·Visual Concept 기준으로 검토했다. 현재 82장 판본에서는 DEC-0036의 S08(T03-C)과 DEC-0038의 S13(T04-A)을 기존 variant에 추가하며, 11개 Template·27개 Variant를 유지한다.
 별도 C++ 전용 Template는 두지 않는다. C++ Vision은 Primary Role과
 상관없이 필요한 Template에 삽입할 수 있는 재사용 Bridge Component다.
 이에 따라 구별해야 할 근거 화면을 합치지 않고 11개 Template를 선택했다.
@@ -43,7 +43,7 @@ Evidence Type을 기준으로 하나씩 배정한다.
 - **Evidence Rule:** 청중 참여만을 위한 화면은 Teaching Model로 둔다.
   제품 주장을 시각화하려면 해당 주장에 맞는 Evidence Card를 별도로
   사용한다. 응답이나 실천 약속을 강제하지 않는다.
-- **Typical Slide IDs:** S01, S10, S21, S80, S81.
+- **Typical Slide IDs:** S01, S10, S22, S81, S82.
 
 ### T02 — Problem / Friction
 
@@ -57,7 +57,7 @@ Evidence Type을 기준으로 하나씩 배정한다.
 - **Evidence Rule:** 가정적 상황이면 CONCEPTUAL 표시를 유지한다. 실제
   실패라고 주장하는 경우에는 해당 State / Trial의 근거가 필요하다.
   해결책은 Map의 Story가 도입하기 전까지 보여주지 않는다.
-- **Typical Slide IDs:** S03, S09, S12, S23, S38.
+- **Typical Slide IDs:** S03, S09, S12, S24, S39.
 
 ### T03 — Mental Model / System Diagram
 
@@ -72,7 +72,7 @@ Evidence Type을 기준으로 하나씩 배정한다.
 - **Evidence Rule:** 개념도를 실제 제품 UI, 저장소 상태, 자동 동작으로
   위장하지 않는다. 실제 Trial 관찰이 모델 안에 함께 있으면 관찰 부분을
   별도 Evidence Card로 분리한다.
-- **Typical Slide IDs:** S14, S26, S29, S39–40, S52, S54, S74, S78.
+- **Typical Slide IDs:** S15, S27, S30, S40–41, S53, S55, S75, S79.
 
 ### T04 — Before / After / Comparison
 
@@ -88,7 +88,7 @@ Evidence Type을 기준으로 하나씩 배정한다.
 - **Evidence Rule:** 실제 전후 비교는 State / Trial ID와 범위를 표시한다.
   관찰된 차이를 인과 효과 또는 일반적 우월성으로 바꾸지 않는다.
   개념 비교에는 CONCEPTUAL 또는 Teaching Model 표시를 사용한다.
-- **Typical Slide IDs:** S15, S22, S27–28, S33, S36, S43.
+- **Typical Slide IDs:** S16, S23, S28–29, S34, S37, S44.
 
 ### T05 — Demo Watch / Trial Setup
 
@@ -102,7 +102,7 @@ Evidence Type을 기준으로 하나씩 배정한다.
 - **Evidence Rule:** 관찰 전 Setup과 관찰 후 Evidence를 한 장의 결과처럼
   합치지 않는다. 제품 표면이 미확정이면 미확정으로 표시하고 현재 UI를
   재현한 그림을 넣지 않는다.
-- **Typical Slide IDs:** S04, S16, S34, S41.
+- **Typical Slide IDs:** S04, S17, S35, S42.
 
 ### T06 — Code / Diff / Verification
 
@@ -119,7 +119,7 @@ Evidence Type을 기준으로 하나씩 배정한다.
 - **Evidence Rule:** 실제 코드와 결과만 관찰 사실로 표시한다. 예시
   코드라면 CONCEPTUAL / TEACHING MODEL로 구분한다. 수행하지 않은
   Benchmark, Test, PASS 수치를 만들지 않는다.
-- **Typical Slide IDs:** S17–20, S44–45.
+- **Typical Slide IDs:** S18–21, S45–46.
 
 ### T07 — Observed Product Evidence
 
@@ -136,7 +136,7 @@ Evidence Type을 기준으로 하나씩 배정한다.
   않는다. 성공이나 성능 효과를 주장할 때 CLAIM_FREEZE의 제한과
   승인된 측정 범위를 그대로 둔다. OBSERVED_META와 같은 Evidence
   Template을 사용하지 않는다.
-- **Typical Slide IDs:** S05–06, S24–25, S35, S42, S45–46, S56, S75.
+- **Typical Slide IDs:** S05–06, S25–26, S36, S43, S46–47, S57, S76.
 
 ### T08 — Conceptual Scenario / Evaluation
 
@@ -154,7 +154,7 @@ Evidence Type을 기준으로 하나씩 배정한다.
   보이게 만들지 않는다. DEMO-04A의 Project 변경, 실패, 원인, 수정,
   EVAL은 이 규칙을 적용한다. TEACHING_MODEL이 함께 있으면 두 역할을
   Label로 구분한다.
-- **Typical Slide IDs:** S57–66.
+- **Typical Slide IDs:** S58–67.
 
 ### T09 — Research / Source
 
@@ -168,8 +168,8 @@ Evidence Type을 기준으로 하나씩 배정한다.
 - **Density Limit:** 핵심 Claim 하나, 출처 최대 2개, Figure 또는
   수치 표시는 질문에 답하는 범위로 제한한다.
 - **Evidence Rule:** 연구 결과를 현재 Codex의 보편적 동작으로 바꾸지
-  않는다. Slide 30의 승인 문구, 연구 설정, 인용을 보존한다.
-- **Typical Slide IDs:** S30.
+  않는다. Slide 31의 승인 문구, 연구 설정, 인용을 보존한다.
+- **Typical Slide IDs:** S31.
 
 ### T10 — Decision / Trade-off
 
@@ -184,7 +184,7 @@ Evidence Type을 기준으로 하나씩 배정한다.
 - **Evidence Rule:** 실제 Trial 관찰, 교육적 판단, 미확정 대안을 서로
   구분한다. 한 프로젝트에서 채택하지 않은 구성요소를 모든 프로젝트에서
   불필요한 것으로 일반화하지 않는다.
-- **Typical Slide IDs:** S47–51, S76.
+- **Typical Slide IDs:** S48–52, S77.
 
 ### T11 — Observed Meta Timeline
 
@@ -200,7 +200,7 @@ Evidence Type을 기준으로 하나씩 배정한다.
 - **Evidence Rule:** Demo Product State Rail과 분리한다. 실제 Product 코드
   변경, Demo Skill 수정, 성공 원인, 품질 향상을 입증한 것처럼 표현하지
   않는다. Prompt-only attribution이 PARTIAL이면 그대로 유지한다.
-- **Typical Slide IDs:** S68–72. 다른 Slide에 OBSERVED_META가 포함될
+- **Typical Slide IDs:** S69–73. 다른 Slide에 OBSERVED_META가 포함될
   경우에도 이 Evidence Frame의 구분 규칙을 적용하되, 이 예시가
   Slide-to-Template 배정은 아니다.
 
@@ -217,8 +217,8 @@ Component는 Template 안에 조합할 수 있는 설명 단위다. Component를
 - **목적:** 실제 Demo Repository의 Git State 순서를 요약한다.
 - **표시 정보:** 승인된 State ID와 각 State의 짧은 변화 설명.
 - **시각적 구조:** 한 줄의 실제 Git State 진행선. 활성 State만 강조한다.
-- **재사용 위치:** Product State 전후 비교와 Story 회고. 예: S24,
-  S27, S33, S56, S75.
+- **재사용 위치:** Product State 전후 비교와 Story 회고. 예: S25,
+  S28, S34, S57, S76.
 - **금지 표현:** conceptual 상태, Trial ID, Decision ID를 Git State와
   같은 노드로 섞지 않는다. State를 새로 만들거나 생략하지 않는다.
 
@@ -377,9 +377,9 @@ Component는 Template 안에 조합할 수 있는 설명 단위다. Component를
   TEACHING_MODEL은 VISUAL_SPEC.md의 서로 다른 시각 Grammar를 유지한다.
 - 같은 화면에 둘 이상의 Evidence Type이 있으면 각 근거를 해당 Frame에
   따로 놓고 공통 Frame으로 합치지 않는다.
-- S56 Product 성공에서 S57–67 Conceptual Case로 이동할 때 Conceptual
+- S57 Product 성공에서 S58–68 Conceptual Case로 이동할 때 Conceptual
   Frame으로 분명히 전환한다.
-- S67의 CONCEPTUAL / TEACHING_MODEL에서 S68–72 OBSERVED_META로 이동할
+- S68의 CONCEPTUAL / TEACHING_MODEL에서 S69–73 OBSERVED_META로 이동할
   때 Meta 전용 시간선 Frame과 OBSERVED META Label을 사용한다.
 - 실제 Git State Rail에는 Git State만 둔다. Conceptual Evolution 또는
   Training Production Timeline을 같은 Rail에 넣지 않는다.
@@ -391,6 +391,16 @@ Component는 Template 안에 조합할 수 있는 설명 단위다. Component를
 
 11개 Template의 목적, 구조, 필수·선택 Component, 밀도, Evidence 규칙을
 정의했다. 공통 Component와 Fallback, 혼합 역할 및 Evidence 충돌 규칙도
-정의했으며, 전체 81장 Template ID 배정은 다음 단계에 남겼다.
+정의했으며, 전체 82장 Template ID 배정은 다음 단계에 남겼다.
 
 **Next readiness: READY FOR SLIDE-TO-TEMPLATE MAPPING.**
+
+## DEC-0038 — Prompt / Parallel-Path Variants
+
+S11/S12는 T02-A에서 입력창과 미정 경계를 보여준다. S11의 비용 기호는
+수치·배율·실측 축이 없는 정성 개념도이며 기하급수 법칙이나 실제 정지의 증거가
+아니다. S12의 동일 Agent 세 시간선은 가능한 해석 세 개이며 반복 실행 기록이 아니다.
+새 S13은 T04-A로 다섯 정보를 담은 Prompt와 같은 후보 시간선을 비교하고 원하는
+구현 경로를 강조한다. 다섯 필드는 Prompt 내부 정보이며 다섯 비교 행을 추가하는
+것이 아니다. 목표 경로의 선택과 검증된 실행 결과·결정성 보장을 구분한다.
+기존 11개 Template / 27개 Variant는 유지한다.

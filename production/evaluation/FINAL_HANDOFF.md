@@ -1,11 +1,11 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일: 2026-10-21 (Asia/Seoul). 최신 발표자료 기준: DEC-0037.
-S10은 제조 검사장비로 확장하는 가정의 파이프라인을 보여준다. 실선은 앞서 조사한 crop, 점선은 추가 정의·연결 범위이며 실제 함수 미구현을 뜻하지 않는다. 81장·360분과 나머지 80장 화면·Notes를 유지한다.
-S08 Codex 진입 가교를 추가하고 기존 S08–S80을 S09–S81로 이동한다. S07 2분+S08 1분으로 360분과 Mode를 유지하며 S09는 사람·Agent 접근과 사람의 최종 책임을 구분한다.
+갱신일: 2026-10-21 (Asia/Seoul). 최신 발표자료 기준: DEC-0038.
+S11/S12를 Prompt 입력창·동일 Agent의 가능한 선택·개념 비용 표시로 정렬하고, 새 S13에 미정 정보를 채운 목표 경로 예시를 추가한다. 기존 S13–81은 S14–82로 이동한다. S12 Case4를 2+2분으로 나눠 전체 360분과 ACT·Mode·Section 합계를 유지한다.
+S01–10은 내용·번호·시간을 보존한다. 과거 Codex 진입·S10 검사 Task 수정은 당시 보고서로 연결한다.
 사용자 지시로 묶음 생성은 중단 중이며 기존 ZIP은 DEC-0033의 이전 자료다.
 
-**81장 PPT·렌더·내장 Notes 로컬 정합성 확인 / 묶음 중단 / 실환경·리허설 UNVERIFIED.**
+**82장 PPT·전체 렌더·내장 Notes 로컬 정합성 확인 / 묶음 중단 / 실환경·리허설 UNVERIFIED.**
 
 이 문서는 현재 후보와 남은 사용자 확인 항목의 시작점이다. 패키징 완료를
 현장 발표 승인, Live 시연 검증 또는 청중에게 전달 완료로 해석하지 않는다.
@@ -19,22 +19,22 @@ S08 Codex 진입 가교를 추가하고 기존 S08–S80을 S09–S81로 이동�
 4. [발표자 Notes](../notes/FULL_SPEAKER_NOTES.md),
    [예상 질문·답변](../presenter/EXPECTED_QA.md),
    [사용자 확인 체크리스트](USER_VALIDATION_CHECKLIST.md)를 함께 확인한다.
-   기존 ZIP은 80장판이며 S01–S06 후속 수정과 신규 S08·81장 번호가 들어 있지 않다.
+   기존 ZIP은 80장판이며 S01–S06 후속 수정, 신규 S08과 이번 S11–13 수정·82장 번호가 들어 있지 않다.
 
 기존 묶음은 DEC-0033 시점의 **강사용 준비 자료**다. 청중 배포 대상·경로·범위는 미확정이며,
 이번 작업에서 이메일·클라우드 업로드 등 외부 전달은 수행하지 않았다.
 
 ## 2. 정확한 현재 후보
 
-아래 hash는 DEC-0037의 실제 81장 산출물에서 다시 계산했다. 현재 검토는 `S10_INSPECTION_PIPELINE_REVISION.md`, 이전 번호 이행은 `CODEX_ENTRY_INSERTION.md`에 기록한다. 실환경 검증은 포함하지 않는다.
+아래 hash는 DEC-0038의 실제 82장 파일에서 다시 계산했다. PPT 구조·전체 렌더·82개 내장 Notes 대조는 `PROMPT_TIMELINE_REVISION.md`에 기록한다. 실환경 검증은 포함하지 않는다.
 
 | 항목 | 경로 / SHA-256 |
 |---|---|
 | 통합 PPT | `production/AI_Dev_Training_Full.pptx` |
-| PPT SHA-256 | `5cc6a43f1e7efb26441eaf9c5ea681d4fff38f21633270a6b79bf7f5d73a94e8` |
+| PPT SHA-256 | `817ac52788b61c9379b174d97c7c3fcdb7c9168c388323a65d3090f46fe16833` |
 | 통합 Notes | `production/notes/FULL_SPEAKER_NOTES.md` |
-| Notes SHA-256 | `0e197f3dc2c4ca85b484e754ea115fac30ad75f65b7ede95f716c572fe5b899b` |
-| 전체 montage SHA-256 | `7463cd54ec6a5aa1bac3292de027cb3d7bea0e5df2e65f89f8507f9914b12c46` |
+| Notes SHA-256 | `756c7740cb2c01f5d9c05091520afb2e2792fa98468e27d07428001252c85a58` |
+| 전체 montage SHA-256 | `05112951911b092db92ce0b39ae0e396f3fdfd10fc4d2b190e00ff6dbccdb76d` |
 | 묶음별 파일 목록·크기·SHA-256 | 저장소의 `delivery/PACKAGE_MANIFEST.json`; ZIP 내부의 `PACKAGE_MANIFEST.json` |
 | ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-21.zip.sha256` |
 
@@ -47,21 +47,25 @@ Manifest에는 개별 payload 파일의 hash를 기록한다. Manifest 자신과
 
 ## 3. 포함 자료와 보존 범위
 
-- 통합 81장 PPT와 ACT 0–5 PPT 6개. Native text/shape/diagram 및 S46 chart 편집 가능.
-- 통합 Notes와 ACT Notes 6개. 81개 레코드, 각 19개 필드. PPT 내부 Notes 81개를 Markdown 레코드와 대조해 일치를 확인했다.
-- 통합 PNG 81개와 ACT PNG 81개, 전체/ACT montage. 기존 Notes의 두 경로를 모두 보존.
+- 통합 82장 PPT와 ACT 0–5 PPT 6개. Native text/shape/diagram 및 S47 chart 편집 가능.
+- 통합 Notes와 ACT Notes 6개. 82개 레코드, 각 19개 필드. PPT 내부 Notes 82개를 ACT/Full Markdown 레코드와 대조해 일치 확인했다.
+- 통합 PNG 82개와 ACT PNG 82개, 전체/ACT montage. 기존 Notes의 두 경로를 모두 보존.
 - DEMO-01–12 진행 지침(DEMO-04A/04B 분리), LOOP-VISUAL, fallback manifest.
 - 최신 체크리스트·이 전달 안내·25개 예상 질문과 답변.
 - 근거 범위 확인에 필요한 기획·연구 문서와 그 내부 링크 대상. 과거 날짜의
   Source/Trial 문서는 역사적 근거이며 현재 제품 동작·회사 허용 정책을 보증하지 않는다.
 - 기존 ZIP의 브라우저 시작 화면·문서 HTML·바로가기는 이전 80장판 보관물이다. 이번에는 갱신하지 않는다.
 
-교육은 81장 / 순수 360분이다. ACT 시간은 40/55/70/85/80/30분,
+교육은 82장 / 순수 360분이다. ACT 시간은 40/55/70/85/80/30분,
 Mode는 Lecture 130 / Demo 73 / Case 83 / Reflection 20 / Transition 22 /
 Q&A 32분이다. 예상 Q&A는 기존 질문 시간에 사용할 예비 답변이며 시간을 추가하지 않는다.
 휴식·점심·장비 준비는 순수 교육 시간에 포함하지 않는다.
 
+> Historical version note: 다음 문단은 당시 번호·장수의 기록이다. 현재 대응은 `plan/SLIDE_ID_MIGRATION_82.md`를 따른다.
+
 DEC-0036의 현재 기준은 신규 S08을 포함한 81장이다. ACT 범위는 S01–10 / S11–22 / S23–37 / S38–55 / S56–73 / S74–81이며 장수는 10/12/15/18/18/8이다. S08 UI는 공식 자료 기반 재구성으로 실제 Screenshot이 아니며 대상 계정·Windows 동작은 UNVERIFIED다. 새 제작 검토: `production/evaluation/CODEX_ENTRY_INSERTION.md`.
+
+> Historical version note: 다음 문단은 당시 번호·장수의 기록이다. 현재 대응은 `plan/SLIDE_ID_MIGRATION_82.md`를 따른다.
 
 다음 DEC-0033–0035 설명은 **당시 80장판·당시 Slide ID**의 역사적 기록이다. 현재 번호는 `plan/SLIDE_ID_MIGRATION.md`를 참조한다.
 
@@ -84,6 +88,8 @@ S18 검토용 결과 인계, S19 계약 위반을 구별하는 검사를 기존 
 과거 prototype PPT와 캐시는 묶음에 넣지 않는다. 일부 역사적 근거에 기록된 로컬 경로는
 과거 실행 메타데이터이며 발표 기기에서 실행할 경로가 아니다.
 
+현재 82장 ACT 범위: S01–10 / S11–23 / S24–38 / S39–56 / S57–74 / S75–82; 장수10/13/15/18/18/8. S11 비용과 S12–13 시간선은 교육용 개념이며 실제 실행·배율·결정성/성공 보장이 아니다.
+
 ## 4. Demo 기본 경로
 
 기본은 **기존 기록을 설명하는 정적 PPT/PNG**다. 원본 터미널 캡처나 실행 영상이 아니다.
@@ -93,10 +99,10 @@ S18 검토용 결과 인계, S19 계약 위반을 구별하는 검사를 기존 
 
 - 과거 Trial은 Codex CLI 0.154.0에서 관찰된 범위로 설명한다. 현재 Desktop·교육 계정의
   기능이나 동일한 재현 결과로 확대하지 않는다.
-- S56는 관찰된 제품 결과, S57–66는 가상 사례, S67은 교육 모델, S68–72은 실제 제작 Meta 기록이다.
-- S65의 EVAL-01/02는 과거 관찰 참고이며, EVAL-03/04는 설계 사례다. 네 작업 모두
+- S57는 관찰된 제품 결과, S58–67는 가상 사례, S68은 교육 모델, S69–73은 실제 제작 Meta 기록이다.
+- S66의 EVAL-01/02는 과거 관찰 참고이며, EVAL-03/04는 설계 사례다. 네 작업 모두
   Workflow 변경 뒤 새 평가 결과가 없고 PASS/FAIL을 만들지 않는다.
-- S46/S69의 수치는 기록된 코드·입력·환경 범위다. Harness/Skill/Prompt의 단독 효과가 아니다.
+- S47/S70의 수치는 기록된 코드·입력·환경 범위다. Harness/Skill/Prompt의 단독 효과가 아니다.
 - Live/Hybrid는 현재 비활성이다. 추가할 때 대상 계정·제품·권한·실행 경로·복귀 절차와
   시간 제한을 따로 확인한다. 정적 설명만 할 때 Live 검증 완료를 요구하거나 주장하지 않는다.
 
@@ -104,7 +110,8 @@ S18 검토용 결과 인계, S19 계약 위반을 구별하는 검사를 기존 
 
 | 항목 | 현재 상태 | 필요한 다음 근거 |
 |---|---|---|
-| DEC-0037 S10 도식·81장 구조·렌더·Notes/PNG 정합성 | COMPLETE, 로컬 범위 | S10_INSPECTION_PIPELINE_REVISION.md 및 현재 산출물 hash |
+| DEC-0038 82장 구조·렌더·Notes/PNG 정합성 | COMPLETE, 로컬 범위 | PROMPT_TIMELINE_REVISION.md 및 현재 산출물 hash |
+| DEC-0037 S10 도식·81장 구조·렌더 | COMPLETE, 당시 로컬 범위 | S10_INSPECTION_PIPELINE_REVISION.md의 역사적 판본 |
 | DEC-0036 신규 81장 번호 이행 | COMPLETE, 당시 로컬 범위 | CODEX_ENTRY_INSERTION.md의 역사적 판본 |
 | DEC-0033 PPTX 구조·로컬 렌더·80장 개별 검토 | COMPLETE, 로컬 범위 | LEGACY_PRIORITY_REVISION 검토·검증 기록 |
 | 이전 DEC-0033 ZIP 복사·무결성·내부 링크·hash 정합성 | LOCAL PACKAGE CHECK 완료 | payload 362개·entry 363개; 현재 manifest/validation 참조 |
@@ -112,11 +119,11 @@ S18 검토용 결과 인계, S19 계약 위반을 구별하는 검사를 기존 
 | 발표 기기에서 오프라인 열기·fallback 복귀 | UNVERIFIED | 실제 기기에서 파일 열기와 다음 화면 전환 |
 | 교육장·프로젝터·뒤쪽 좌석 가독성 | UNVERIFIED | 실제 화면·거리에서 점검 |
 | 현재 제품·계정·Live/Hybrid 경로 | UNVERIFIED, 사용할 때 확인 | 선택한 환경과 동작·권한·복귀 기록 |
-| 전체 360분 및 S55/S73 운영 | UNVERIFIED | 강사 직접 시간 측정 리허설 |
+| 전체 360분 및 S56/S74 운영 | UNVERIFIED | 강사 직접 시간 측정 리허설 |
 | 최종 배포 대상·경로·공개 범위·승인 | UNVERIFIED | 사용자 결정 및 명시 승인 |
 
-S55: Reflection 3 → Q&A 5 → Transition 2분.
-S73: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
+S56: Reflection 3 → Q&A 5 → Transition 2분.
+S74: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
 청중 질문이 없는 상황의 대체 질문과 cutoff도 실제로 연습한다.
 
 실환경·리허설 확인은 [체크리스트](USER_VALIDATION_CHECKLIST.md)에 장비·버전·날짜·
@@ -124,17 +131,18 @@ S73: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
 
 ## 6. 근거와 이력
 
-- [현재 S10 검사 파이프라인 수정](S10_INSPECTION_PIPELINE_REVISION.md)
+- [현재 Prompt/시간선 수정·82장 검토](PROMPT_TIMELINE_REVISION.md)
+- [이전 S10 검사 파이프라인 수정](S10_INSPECTION_PIPELINE_REVISION.md)
 - [이전 81장 삽입·전체 검토](CODEX_ENTRY_INSERTION.md)
 - [이전 80장 보강·전체 검토](LEGACY_PRIORITY_REVISION.md)와 [검증 기록](LEGACY_PRIORITY_REVISION_VALIDATION.json)
-- [81장 M 연결·판정](LEGACY_MODULE_MAP.md)
+- [82장 M 연결·판정](LEGACY_MODULE_MAP.md)
 - [이전 DEC-0032 연결 흐름 검토](FULL_DECK_CONTINUITY_REVISION.md)와 [당시 검증 기록](FULL_DECK_CONTINUITY_REVISION_VALIDATION.json)
 - [패키징 결과](PRESENTER_PACKAGE_RESULT.md)
 - [Slide Map](../../plan/SLIDE_MAP.md), [Claim Freeze](../../plan/CLAIM_FREEZE.md),
   [결정 이력](../../plan/DECISIONS.md)
 - 이 문서의 이전 DEC-0027/그 이전 전달 기록은 Git `a252c49`의 같은 경로에 보존된다.
-  그 기록의 이전 해시·렌더러·S73/S77 수정 설명은 현재 후보를 설명하지 않는다.
+  그 기록의 이전 해시·렌더러·S74/S78 수정 설명은 현재 후보를 설명하지 않는다.
 
 이전 2026-10-20 및 2026-10-19 ZIP은 역사적 묶음으로 보존한다.
-현재 자료 기준은 DEC-0037, 기존 패키징 정책은 DEC-0031이며 묶음 생성은 보류한다. 기존 `origin/main`의 저장소 push는
+현재 자료 기준은 DEC-0038, 기존 패키징 정책은 DEC-0031이며 묶음 생성은 보류한다. 기존 `origin/main`의 저장소 push는
 현장 검증 통과나 청중 대상 전달 완료를 뜻하지 않는다.

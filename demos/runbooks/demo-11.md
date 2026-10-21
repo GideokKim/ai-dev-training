@@ -2,7 +2,7 @@
 
 Planning Status: CANDIDATE — conceptual synthesis
 
-Final Validation Status: READY — DEC-0036 local static files, displayed IDs, dimensions and SHA-256 were checked after final rendering. Current-product, target Windows/room and rehearsal gates remain UNVERIFIED; no new Trial was run.
+Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-054–057
 
@@ -28,7 +28,7 @@ N/A — conceptual case; no Product State
 
 Playback uses local offline PNGs rendered from the current integrated deck. The target Windows PC, education Codex account/surface, permissions, and room are not selected or verified. Historical Trial environments apply only to their recorded runs.
 
-Historical source scope: DEC-0021; Slide Map S60–61.
+Historical source scope: DEC-0021; Slide Map S61–62.
 
 ## Repository Commit / Tag
 
@@ -66,9 +66,9 @@ Evidence limit: No actual Skill repair, observed failure cause, or executed regr
 
 ## Estimated Time
 
-3m: S60 Demo 2m + S61 Demo 1m.
+3m: S61 Demo 2m + S62 Demo 1m.
 
-Phase plan: S60 2m → S61 Demo portion 1m.
+Phase plan: S61 2m → S62 Demo portion 1m.
 
 Time Risk: LOW
 
@@ -90,13 +90,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S60.png`, `production/preview/full/S61.png`
+Default is the offline static presentation. Open: `production/preview/full/S61.png`, `production/preview/full/S62.png`
 
-Use S60–S61 PNGs and keep CONCEPTUAL labels visible.
+Use S61–S62 PNGs and keep CONCEPTUAL labels visible.
 
-Fallback readiness: UNVERIFIED for the DEC-0036 re-render until local file identity and playback paths are rechecked. The approved static fallback plan is preserved; raw Trial captures are not implied or created.
+Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
-Captured Alternative provenance: DEC-0036 current slide numbering. Post-migration PPTX/PNG identity and fallback hashes must be checked in FALLBACK_MANIFEST.md and production/evaluation/CODEX_ENTRY_INSERTION.md. DEC-0033/DEC-0035 rendering records remain historical evidence. This alignment is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
+Captured Alternative provenance: DEC-0038 current slide numbering. Check final PPTX/PNG identity and fallback hashes in FALLBACK_MANIFEST.md and production/evaluation/PROMPT_TIMELINE_REVISION.md after rendering. DEC-0033–0037 records remain historical. This is not a target-PC playback test, raw terminal screenshot, recording, new Trial or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -106,11 +106,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S61 → S62: compare failure point with cause hypothesis.
+S62 → S63: compare failure point with cause hypothesis.
 
 ## Evidence
 
-DEC-0021; Slide Map S60–61.
+DEC-0021; Slide Map S61–62.
 
 ## Do Not Claim
 
@@ -118,6 +118,6 @@ No actual Skill repair, observed failure cause, or executed regression result.
 
 ## Trial / Run Record
 
-No new Trial or product execution was performed for this runbook. Local work checked the existing static fallback only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
+No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.

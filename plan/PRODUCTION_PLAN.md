@@ -1,6 +1,6 @@
 # STEP 08 — ACT-by-ACT Production Plan
 
-> **현재 기준: DEC-0036 / 81장 (2026-10-21).** 새 S08을 삽입하고 종전 S08–S80을 S09–S81로 이동했다. 총 360분과 ACT·Mode 합계, 기존 Beat·Section·Demo·Trial·State ID는 유지한다. [번호 대조·문서 범위](SLIDE_ID_MIGRATION.md). 과거 프로토타입 경로와 명시된 80장 이력은 당시 번호를 보존한다.
+> **현재 기준: DEC-0038 / 82장 (2026-10-21).** S11·S12의 요청·가능한 해석을 시각화하고 새 S13을 삽입했다. 종전 S13–S81은 S14–S82로 이동하며 S01–S12 번호는 유지한다. S12 Case 4분을 S12 2분 + S13 2분으로 나눠 360분·ACT/Mode/Section 총량을 보존한다. [82장 번호 대조·문서 범위](SLIDE_ID_MIGRATION_82.md). 과거 Prototype·Decision·실제 Asset 경로와 판본 번호는 보존한다.
 
 Date: 2026-10-11
 
@@ -10,7 +10,7 @@ Related decision: DEC-0026
 
 ## 1. Purpose and Boundary
 
-이 문서는 승인된 81장 Slide Map, 조건부 Visual System, Template Mapping과
+이 문서는 승인된 82장 Slide Map, 조건부 Visual System, Template Mapping과
 Speaker Notes 기준에 따라 최종 교육자료를 ACT 단위로 제작하는 실행 순서를
 정한다. 이번 문서는 제작 계획이며 실제 Slide content, Notes 본문, PPT를
 생성하지 않는다.
@@ -22,13 +22,13 @@ Speaker Notes 기준에 따라 최종 교육자료를 ACT 단위로 제작하는
 
 | 선행 조건 | 판정 | 범위와 제한 |
 |---|---|---|
-| Slide Map | 충족 | S01–S81, Slide별 역할·근거·시간·Mode가 기록돼 있다. |
+| Slide Map | 충족 | S01–S82, Slide별 역할·근거·시간·Mode가 기록돼 있다. |
 | Claim Boundary | 충족 | `CLAIM_FREEZE.md`가 기준이며 제품·환경별 open check도 유지한다. |
 | Visual System | 조건부 충족 | `VISUAL_TEMPLATE_FREEZE.md` 기준을 사용한다. Windows와 target screen은 최종 delivery Gate다. |
 | Template Mapping | 충족 | 11개 Template과 27개 Variant가 Map에 있다. Prototype 미검증 Variant는 첫 적용 때 검증한다. |
 | Speaker Notes 구조 | 충족 | 19개 필드와 N/A/TBD 및 범위가 명시돼 있다. |
 | Pilot 정합성 | 조건부 충족 | 7개 Notes의 document review를 완료했다. 각 Notes는 DRAFT이며 pacing·media·실제 발표는 미검증이다. |
-| PPT 제작 방식 | 샘플 범위 충족 | 8장 편집 가능한 V2 prototype과 local render가 확인됐다. 81장 일괄 제작, Windows, projection, shared-style propagation은 검증하지 않았다. |
+| PPT 제작 방식 | 샘플 범위 충족 | 8장 편집 가능한 V2 prototype과 local render가 확인됐다. 82장 일괄 제작, Windows, projection, shared-style propagation은 검증하지 않았다. |
 
 ### Slide-level provisional handling
 
@@ -50,7 +50,7 @@ Speaker Notes 기준에 따라 최종 교육자료를 ACT 단위로 제작하는
 
 ## 3. ACT Production Order
 
-DEC-0036의 현재 제작 범위는 81장이다. S07 Lecture 3분을 S07 2분 + 신규 S08 1분으로 나누고 종전 S08–S80을 S09–S81로 이동한다. S08의 실제 UI·계정·Windows 확인은 제품 Gate에 남긴다. 이전 80장 제작·검증 기록은 해당 판본의 이력이며, 현재 81장 결과는 새 제작 및 렌더 검토 기록으로 별도 확인한다.
+DEC-0038의 현재 제작 범위는 82장이다. S01–S12는 번호를 유지하며 새 S13 뒤 종전 S13–S81을 S14–S82로 옮긴다. S12 Case4분을 2+2분으로 나눠 Section1B·ACT·Mode 총량을 보존한다. DEC-0036의 S08 삽입과 DEC-0037의 S10 도식은 유지한다. 이전80/81장 제작·검증 기록은 당시 판본 이력으로 남긴다.
 
 
 ACT는 다음 순서로 하나씩 진행한다. 각 단계는 해당 ACT의 1차 산출물을
@@ -59,12 +59,12 @@ ACT는 다음 순서로 하나씩 진행한다. 각 단계는 해당 ACT의 1차
 | 순서 | ACT | Slide range | Slide 수 | 시간 | 완료 후 |
 |---:|---|---|---:|---:|---|
 | 1 | ACT 0 | S01–S10 | 10 | 40분 | 검토 및 checkpoint 후 ACT 1 |
-| 2 | ACT 1 | S11–S22 | 12 | 55분 | 검토 및 checkpoint 후 ACT 2 |
-| 3 | ACT 2 | S23–S37 | 15 | 70분 | 검토 및 checkpoint 후 ACT 3 |
-| 4 | ACT 3 | S38–S55 | 18 | 85분 | 검토 및 checkpoint 후 ACT 4 |
-| 5 | ACT 4 | S56–S73 | 18 | 80분 | 검토 및 checkpoint 후 ACT 5 |
-| 6 | ACT 5 | S74–S81 | 8 | 30분 | 최종 delivery Gate 검토 |
-| **합계** |  | **S01–S81** | **81** | **360분** |  |
+| 2 | ACT 1 | S11–S23 | 13 | 55분 | 검토 및 checkpoint 후 ACT 2 |
+| 3 | ACT 2 | S24–S38 | 15 | 70분 | 검토 및 checkpoint 후 ACT 3 |
+| 4 | ACT 3 | S39–S56 | 18 | 85분 | 검토 및 checkpoint 후 ACT 4 |
+| 5 | ACT 4 | S57–S74 | 18 | 80분 | 검토 및 checkpoint 후 ACT 5 |
+| 6 | ACT 5 | S75–S82 | 8 | 30분 | 최종 delivery Gate 검토 |
+| **합계** |  | **S01–S82** | **82** | **360분** |  |
 
 ACT 시간은 `SLIDE_MAP.md`의 배정이며 break/setup을 포함하지 않는다.
 
@@ -100,7 +100,7 @@ ACT 시간은 `SLIDE_MAP.md`의 배정이며 break/setup을 포함하지 않는�
   `TEACHING_MODEL`을 하나의 증거 프레임으로 섞지 않는다.
 - Benchmark 값에는 workload와 환경 및 기록된 verification을 연결한다.
   Harness·Skill·Prompt가 단독 원인이라고 확대하지 않는다.
-- S17/S36/S68 fallback은 현재 `PLANNED`다. 선택된 최종 asset과 경로를 확인하기
+- S18/S37/S69 fallback은 현재 `PLANNED`다. 선택된 최종 asset과 경로를 확인하기
   전에는 `READY`로 바꾸지 않는다. HYBRID Demo에 검증된 Fallback이 없으면
   최종 운영을 승인하지 않는다.
 - 현재 계정, 제품 surface, permission, live path 또는 제품 동작을 포함하는
@@ -115,10 +115,10 @@ ACT 시간은 `SLIDE_MAP.md`의 배정이며 break/setup을 포함하지 않는�
 - 한글·영문·코드·경로·citation의 target-size 가독성과 16:9 Safe Area.
 - 실제 교육 계정과 사용 제품 surface, 권한, current product claims.
 - Live/Hybrid Demo의 실행 경로, 실패 대응 및 승인된 Fallback.
-- S17/S36/S68의 최종 자료 선택·파일·경로·내용 확인.
-- S73 전체 20분 rehearsal: Case 0–7, Reflection 7–9, Q&A 9–16,
+- S18/S37/S69의 최종 자료 선택·파일·경로·내용 확인.
+- S74 전체 20분 rehearsal: Case 0–7, Reflection 7–9, Q&A 9–16,
   Transition 16–20분과 cutoff·fallback.
-- 81장·ACT 시간·Mode 합계·Claim Boundary·Evidence 연결 최종 대조.
+- 82장·ACT 시간·Mode 합계·Claim Boundary·Evidence 연결 최종 대조.
 - 첫 적용에서 조건부/미검증 상태였던 Template과 Variant의 확정 검토.
 
 Mac 또는 LibreOffice local render는 Windows/교육장 확인을 대신하지 않는다.
@@ -130,21 +130,21 @@ Mac 또는 LibreOffice local render는 Windows/교육장 확인을 대신하지 
 |---|---|---|
 | 대상 Codex 계정과 제품 surface | OPEN | 특히 S04–S06의 현재 제품·Demo operation 표현 |
 | DEMO-01 선택 surface 및 Live/Hybrid 운영 경로 | OPEN | 기존 CLI 관찰과 현재 교육 환경을 구분하고 final fallback을 확인 |
-| S17/S36/S68 발표 fallback asset 선택 | PLANNED | 해당 Slide의 최종 presentation fallback 승인 |
+| S18/S37/S69 발표 fallback asset 선택 | PLANNED | 해당 Slide의 최종 presentation fallback 승인 |
 | Windows PowerPoint 및 실제 발표 PC | UNVERIFIED | 전체 PPT final delivery |
 | 11개 Template / 27개 Variant 전수 실제 구현 | PROVISIONAL until first use | 해당 Variant의 ACT 내 첫 적용 Gate |
 | Shared-template 수정 전파 방식 | UNVERIFIED | 대량 제작 시 일관성·수정 비용 |
-| S73 20분 timed rehearsal | UNVERIFIED | ACT 4/final delivery 운영 승인 |
+| S74 20분 timed rehearsal | UNVERIFIED | ACT 4/final delivery 운영 승인 |
 
 ## 8. Validation
 
-- Slide Map 기준: 81장, S01–S81.
+- Slide Map 기준: 82장, S01–S82.
 - ACT별 Slide/시간: 10/40, 12/55, 15/70, 18/85, 18/80, 8/30.
 - 전체 교육 시간: 360분.
 - Mode 합계: Lecture 130, Demo 73, Case 83, Reflection 20,
   Transition 22, Q&A 32분.
 - Slide별 Mode 합계는 `SLIDE_MAP.md`의 Estimated Time 기준으로 검증한다.
-- S55와 S73의 승인된 Mode 순서는 DEC-0025 및 `SPEAKER_NOTES_FREEZE.md`와 같다.
+- S56와 S74의 승인된 Mode 순서는 DEC-0025 및 `SPEAKER_NOTES_FREEZE.md`와 같다.
 - 해당 판정은 제작 준비 Gate다. ACT 0 또는 이후 PPT 제작이 이 문서에서
   수행된 것은 아니다.
 
@@ -153,6 +153,6 @@ Mac 또는 LibreOffice local render는 Windows/교육장 확인을 대신하지 
 **READY FOR ACT 0 PRODUCTION.**
 
 이는 다음 단계에서 ACT 0의 실제 산출물 제작을 시작할 수 있다는 뜻이다.
-이번 단계에서는 ACT 0 PPT, 81장 PPT 또는 전체 Notes를 만들지 않았다. ACT 0의
+이번 단계에서는 ACT 0 PPT, 82장 PPT 또는 전체 Notes를 만들지 않았다. ACT 0의
 S04–S06에 현재 제품 surface 또는 Live/Hybrid 설명을 포함하려면 관련
 `PROVISIONAL` Gate를 먼저 해결하거나, 기존 TRIAL-001의 범위만 사용한다.

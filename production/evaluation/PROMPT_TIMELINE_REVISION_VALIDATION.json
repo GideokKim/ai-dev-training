@@ -1,0 +1,168 @@
+{
+  "decision": "DEC-0038",
+  "baselineCommit": "8e4a15e",
+  "slideCount": 82,
+  "actCounts": {
+    "ACT 0": 10,
+    "ACT 1": 13,
+    "ACT 2": 15,
+    "ACT 3": 18,
+    "ACT 4": 18,
+    "ACT 5": 8
+  },
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 55,
+    "ACT 2": 70,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 130,
+    "Reflection": 20,
+    "Case": 83,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "totalMinutes": 360,
+  "section1B": "S12 Case2 + S13 Case2 + S14 Case3/Reflection1 = 8 minutes",
+  "redesignedSlideIds": [
+    "S11",
+    "S12"
+  ],
+  "insertedSlideId": "S13",
+  "migration": "old S13-S81 -> S14-S82",
+  "notesRecords": 82,
+  "notesFields": 19,
+  "actFullMarkdownAndEmbeddedNotesParity": true,
+  "unchangedPreviousVisualStructuresAndMediaCount": 79,
+  "act0NotesAndAll10RenderedSlidesUnchanged": true,
+  "nativeChartDataUnchanged": true,
+  "fullActPngParityCount": 82,
+  "renderedPngCount": 164,
+  "montageCount": 7,
+  "packages": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slides": 82,
+      "sha256": "817ac52788b61c9379b174d97c7c3fcdb7c9168c388323a65d3090f46fe16833",
+      "bytes": 14798443,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": [
+        "S47"
+      ]
+    },
+    {
+      "path": "production/ACT_0.pptx",
+      "slides": 10,
+      "sha256": "47914ebb88ae4a856827d1e7d93cb3706c4535634c2c58113f77f1c60ca4d132",
+      "bytes": 4836293,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": []
+    },
+    {
+      "path": "production/ACT_1.pptx",
+      "slides": 13,
+      "sha256": "41ef6e58472996546f5076012102656950f53a00c7e519a71b9907a24e1fb885",
+      "bytes": 3339344,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": []
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slides": 15,
+      "sha256": "e41bf70af461b68750cb2fb3700a848f2b94bae9cac674b7c243fa837386dad5",
+      "bytes": 120693,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": []
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slides": 18,
+      "sha256": "ef72c0cc4312b9b07a5c22a6479f1e185d81f33dbeeb220a9e7f4b7aaff3bd9e",
+      "bytes": 4756888,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": [
+        "S47"
+      ]
+    },
+    {
+      "path": "production/ACT_4.pptx",
+      "slides": 18,
+      "sha256": "ec7e9f760227c07a2227ef58da67c1dffe5e6237db4281edb41ff01acbc370e0",
+      "bytes": 1380247,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": []
+    },
+    {
+      "path": "production/ACT_5.pptx",
+      "slides": 8,
+      "sha256": "975628845266261f18e12efe03b94db823c7f6cd422d2dd79e21fd3cc56b5755",
+      "bytes": 539511,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyReimport": true,
+      "nativeChartOwners": []
+    }
+  ],
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProjection": "UNVERIFIED",
+  "timedRehearsal": "UNVERIFIED",
+  "conceptBoundary": "qualitative costs; possible interpretations; intended route, not deterministic success",
+  "demoRepository": "UNCHANGED",
+  "newTrial": "NONE",
+  "presenterBundle": "PAUSED / UNCHANGED",
+  "notesSha256": "756c7740cb2c01f5d9c05091520afb2e2792fa98468e27d07428001252c85a58",
+  "fullMontageSha256": "05112951911b092db92ce0b39ae0e396f3fdfd10fc4d2b190e00ff6dbccdb76d",
+  "fullMontageDimensions": [
+    1920,
+    5670
+  ],
+  "staticFallbackFilesVerified": 29,
+  "staticFallbackStatus": "READY for local static files only",
+  "visualReview": {
+    "allActContactSheets": true,
+    "redesignedAndNewSlidesEnlarged": [
+      "S11",
+      "S12",
+      "S13"
+    ],
+    "boundarySlidesEnlarged": [
+      "S38",
+      "S39",
+      "S47",
+      "S56",
+      "S57",
+      "S58",
+      "S68",
+      "S69"
+    ],
+    "clippingOverlap": "NONE FOUND within local render scope",
+    "threeReviewedDraftsMatchFinalPngBytes": true
+  },
+  "koreanSuffixReferenceAudit": "12 Map handoffs + 17 other current-plan references repaired; Notes/source crossrefs checked with ASCII boundaries",
+  "imageAsset": "assets/slide-illustrations/task-choice-agent.png",
+  "markdownLocalLinksChecked": 428,
+  "missingLocalLinks": []
+}

@@ -2,7 +2,7 @@
 
 Planning Status: CANDIDATE — ACT 5 visual recap
 
-Final Validation Status: READY — DEC-0036 local static files, displayed IDs, dimensions and SHA-256 were checked after final rendering. Current-product, target Windows/room and rehearsal gates remain UNVERIFIED; no new Trial was run.
+Final Validation Status: READY — DEC-0038 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-060–070
 
@@ -28,7 +28,7 @@ STATE-00 → STATE-04-PERF; conceptual/Meta paths separate
 
 Playback uses local offline PNGs rendered from the current integrated deck. The target Windows PC, education Codex account/surface, permissions, and room are not selected or verified. Historical Trial environments apply only to their recorded runs.
 
-Historical source scope: Existing State history; DEC-0020/0021; Slide Map S74–75.
+Historical source scope: Existing State history; DEC-0020/0021; Slide Map S75–76.
 
 ## Repository Commit / Tag
 
@@ -56,8 +56,8 @@ Follow the six-hour mental-model evolution without implying automation.
 
 ## Expected Output
 
-Static story and State recap. S75 includes excerpts of the existing S17 crop
-diff diagram, S33 routing text and S46 recorded-data chart. The seven-State
+Static story and State recap. S76 includes excerpts of the existing S18 crop
+diff diagram, S34 routing text and S47 recorded-data chart. The seven-State
 rail and the excerpts have separate regions; captions name the actual State
 ranges. These are existing teaching-slide renders, not raw execution captures
 or newly measured results. Use the excerpts for recall rather than rereading
@@ -71,9 +71,9 @@ Evidence limit: No universal maturity path, complete automation, or new Trial.
 
 ## Estimated Time
 
-2m: S75 Demo allocation. S74 Lecture 4m is separate.
+2m: S76 Demo allocation. S75 Lecture 4m is separate.
 
-Phase plan: S75 2m.
+Phase plan: S76 2m.
 
 Time Risk: LOW
 
@@ -95,13 +95,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S74.png`, `production/preview/full/S75.png`
+Default is the offline static presentation. Open: `production/preview/full/S75.png`, `production/preview/full/S76.png`
 
-Use current S74–S75 PNGs after the DEC-0036 rendering checks. Full/ACT 5 parity requires the post-migration validation record. Read S75 State numbers 01–07 along the arrows: top left to right, then bottom right to left. Its excerpts recall earlier teaching slides rather than raw execution captures.
+Use current S75–S76 PNGs after the DEC-0036 rendering checks. Full/ACT 5 parity requires the post-migration validation record. Read S76 State numbers 01–07 along the arrows: top left to right, then bottom right to left. Its excerpts recall earlier teaching slides rather than raw execution captures.
 
-Fallback readiness: UNVERIFIED for the DEC-0036 re-render until local file identity and playback paths are rechecked. The approved static fallback plan is preserved; raw Trial captures are not implied or created.
+Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
 
-Captured Alternative provenance: DEC-0036 current slide numbering. Post-migration PPTX/PNG identity and fallback hashes must be checked in FALLBACK_MANIFEST.md and production/evaluation/CODEX_ENTRY_INSERTION.md. DEC-0033/DEC-0035 rendering records remain historical evidence. This alignment is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
+Captured Alternative provenance: DEC-0038 current slide numbering. Check final PPTX/PNG identity and fallback hashes in FALLBACK_MANIFEST.md and production/evaluation/PROMPT_TIMELINE_REVISION.md after rendering. DEC-0033–0037 records remain historical. This is not a target-PC playback test, raw terminal screenshot, recording, new Trial or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -111,11 +111,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S75 → S76: reflect on deliberately deferred components.
+S76 → S77: reflect on deliberately deferred components.
 
 ## Evidence
 
-Existing State history; DEC-0020/0021; Slide Map S74–75.
+Existing State history; DEC-0020/0021; Slide Map S75–76.
 
 ## Do Not Claim
 
@@ -123,6 +123,6 @@ No universal maturity path, complete automation, or new Trial.
 
 ## Trial / Run Record
 
-No new Trial or product execution was performed for this runbook. Local work checked the existing static fallback only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
+No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.
