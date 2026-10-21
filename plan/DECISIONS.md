@@ -6223,3 +6223,72 @@ YES — distinguish current Task requests from reusable project instructions.
 
 Render S33-S35 continuity, preserve other89 slide renders and Notes,
 and keep Windows/room/account and timed rehearsal UNVERIFIED.
+
+
+# DEC-0047 — Visualize S35 task and project information placement
+
+## Status
+
+ACCEPTED — explicit user direction on S35 destinations and arrows.
+
+## Date
+
+2026-10-21
+
+## Context
+
+S35 already contrasts the scope and lifetime of current task requests with
+reusable project facts. Its text columns did not show where each goes.
+
+## Problem
+
+Make the prompt-window and Context-document destinations visible without
+turning teaching examples into observed requests or product screenshots.
+
+## Decision
+
+Enclose each column's examples. Connect the left examples to a generated
+prompt-window illustration and the right facts to a generated Markdown
+page labeled AGENTS.md. Retain the native text, borders, arrows, headings
+and lifetime comparison. Preserve S35's five-minute Lecture allocation,
+all90 slides and368 minutes. Align Notes and the source Map.
+
+## Rationale
+
+Each arrow makes the destination explicit while the bottom comparison
+retains the slide's original scope-and-lifetime purpose.
+
+## Alternatives
+
+Leave the two columns as text: insufficient for the requested distinction.
+Use real product UI: unnecessary for the conceptual message.
+Combine both task examples into one actual Prompt: misleading.
+
+## Trade-offs
+
+Generated silhouettes are decorative teaching illustrations. Core wording,
+file labels and arrows remain editable. AGENTS.md is an example Context
+location, not the only permitted location for all project knowledge.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-MATURITY-002.
+
+## Affected Artifacts
+
+S35 active factory, two illustrated assets and provenance, Slide Map,
+ACT2/Full Notes, Full/ACT2 PPTX, previews and current handoff identities.
+
+## Evidence
+
+Current S35 scope/lifetime examples, S32-S34 teaching continuity and explicit
+user feedback. No new Trial, UI check, measured benefit or Demo code change.
+
+## Training Relevance
+
+YES — show the relationship between information scope and its placement.
+
+## Follow-up
+
+Review the exact-package S35 render and S34-S36 continuity. Preserve other89
+slide images and Notes. Keep Windows, room and rehearsal UNVERIFIED.

@@ -928,16 +928,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 2 — Context Engineering Turning Point.; ACT 2 — `AGENTS.md`'s first success.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL.
-- **Visual Concept:** `TASK PROMPT: What do we want now?`와 `PROJECT CONTEXT: What is generally true here?` 두 층을 나눈다. Crop boundary 수정, 이번 README-only 범위, test entry, dependency policy를 예로 쓴다.
+- **Visual Concept:** 왼쪽의 작업별 요청 예(crop 수정 또는 이번 README-only)를 테두리로 묶어 화살표로 프롬프트창 도식에 연결한다. 오른쪽의 테스트 명령·의존성 정책을 별도 테두리로 묶어 화살표로 AGENTS.md 문서 도식에 연결한다. 하단의 목표 변화/여러 작업 재참고 비교를 유지한다. 두 이미지는 교육용 생성 도식이며 실제 제품 화면이나 실행 캡처가 아니다.
 - **Demo / Case Connection:** Slide 32–34의 반복 설명과 첫 재사용을 정리한다.
 - **Beginner Payoff:** 현재 작업의 지시와 반복되는 Project 사실을 구별한다.
 - **Advanced Payoff:** Context를 선택할 때 Scope와 Lifetime도 함께 본다.
 - **C++ Vision Bridge:** 전용 목록 없이, 일반 제약과 Task별 알고리즘 조건이 다른 범위일 수 있음을 짧게 언급한다.
-- **Speaker Intent:** Prompt Engineering의 효용을 유지하면서 Context 문제를 별도 질문으로 연다.
+- **Speaker Intent:** 현재 목표는 요청 창에, 반복되는 프로젝트 정보는 AGENTS.md 같은 Context 문서에 둔다는 위치와 수명 차이를 짚는다. 두 왼쪽 문구는 서로 다른 Task 예이며 하나의 실제 Prompt가 아니다. AGENTS.md는 저장 위치의 예시이며 모든 Context가 그 파일에만 있어야 한다는 뜻은 아니다.
 - **Transition:** “정확한 정보를 더 많이 넣으면 언제나 괜찮을까?”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
-- **Evidence / Decision References:** BEAT-009, TRANS-003, CLM-0003, CLM-0005, OQ-003, OQ-005, BEAT-010
+- **Evidence / Decision References:** BEAT-009, TRANS-003, CLM-0003, CLM-0005, OQ-003, OQ-005, BEAT-010, DEC-0047
 
 #### S36 — 정확한 정보도 계속 늘어난다
 

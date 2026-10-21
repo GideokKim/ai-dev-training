@@ -1,5 +1,9 @@
 // Approved presentation polish: distinguish each slide's audience task.
 // Original evidence wording and the exact STATE-01 excerpts remain intact.
+import {readFileSync} from 'node:fs';
+const taskContextAssets=Object.fromEntries(['prompt-window','markdown-document'].map(name=>[
+  name,new Uint8Array(readFileSync(new URL(`../../../assets/slide-illustrations/task-context/${name}.png`,import.meta.url)))
+]));
 const make=(id,title,act,source,boundary,type,draw)=>(p,H)=>{
   const s=H.frame(p,id,title,act,source,boundary,type);
   draw(s,H);
@@ -117,21 +121,35 @@ S33:make('S33','작은 Project Context의 첫 기록','ACT 2  ·  Project Contex
     });
   }),
 S35:make('S35','Task Prompt와 Project Context','ACT 2 · 정보의 범위와 수명',
-  '교육용 구분 · 현재 목표와 지속되는 프로젝트 사실',
+  '교육용 구분 · 창과 문서는 생성 도식이며 실제 제품 화면이 아님',
   'C++에서도 프로젝트 공통 제약과 이번 알고리즘 변경 조건은 범위가 다를 수 있다','TEACHING_MODEL',
-  (s,{C,text,line,rect,arrow})=>{
+  (s,{C,text,line,rect,arrow,CODE})=>{
     text(s,'방금 본 기록을 범위와 수명으로 읽어보면',64,208,1152,43,30,C.teal,true);
-    text(s,'Task Prompt',64,281,516,45,34,C.ink,true);
-    text(s,'Project Context',704,281,512,45,34,C.ink,true);
-    line(s,64,345,516);line(s,704,345,512,C.teal,3);
-    text(s,'지금 원하는 결과',64,363,516,36,26,C.sub,true);
-    text(s,'계속 참이어야 할 사실',704,363,512,36,26,C.teal,true);
-    text(s,'crop 경계 버그 수정\n이번에는 README만 변경',64,417,516,91,29,C.ink);
-    text(s,'프로젝트의 테스트 명령\n의존성 추가에는 작업상 근거 필요',704,417,512,91,28,C.ink);
-    rect(s,64,540,516,49,C.white,C.line,1);
-    rect(s,704,540,512,49,C.pale);
-    text(s,'다음 작업에서는 목표가 달라짐',80,547,484,36,25,C.sub,true);
-    text(s,'여러 작업에서 다시 참고',720,547,480,36,27,C.teal,true);
+    text(s,'Task Prompt',64,281,548,45,34,C.ink,true);
+    text(s,'Project Context',668,281,548,45,34,C.ink,true);
+    text(s,'지금 원하는 결과',64,335,548,34,26,C.sub,true);
+    text(s,'계속 참이어야 할 사실',668,335,548,34,26,C.teal,true);
+    rect(s,64,382,300,146,C.white,C.line,1.5);
+    rect(s,668,382,308,146,C.white,C.teal,1.5);
+    text(s,'작업별 요청 예',80,391,268,27,21,C.sub,true);
+    text(s,'crop 경계 버그 수정\n이번에는 README만 변경',80,429,268,77,24,C.ink);
+    text(s,'프로젝트의 테스트 명령\n의존성 추가에는\n작업상 근거 필요',684,398,276,112,24,C.ink);
+    arrow(s,381,440,29,23);arrow(s,994,440,29,23);
+    s.images.add({blob:taskContextAssets['prompt-window'],contentType:'image/png',fit:'contain',
+      alt:'교육용 생성 프롬프트창 도식. 실제 ChatGPT 또는 Codex 화면이 아님.',
+      position:{left:426,top:404,width:186,height:89},
+      crop:{left:47/1619,right:46/1619,top:123/971,bottom:125/971}});
+    text(s,'Prompt',444,437,150,30,24,C.teal,true,CODE,'center');
+    text(s,'프롬프트창',426,501,186,29,22,C.sub,true,undefined,'center');
+    s.images.add({blob:taskContextAssets['markdown-document'],contentType:'image/png',fit:'contain',
+      alt:'교육용 생성 Markdown 문서 도식. Project Context를 저장하는 AGENTS.md 예시.',
+      position:{left:1054,top:349,width:156,height:195},
+      crop:{left:95/1122,right:78/1122,top:105/1402,bottom:95/1402}});
+    text(s,'AGENTS.md',1065,432,134,29,22,C.teal,true,CODE,'center');
+    rect(s,64,552,548,41,C.white,C.line,1);
+    rect(s,668,552,548,41,C.pale);
+    text(s,'다음 작업에서는 목표가 달라짐',80,555,516,34,25,C.sub,true);
+    text(s,'여러 작업에서 다시 참고',684,555,516,34,27,C.teal,true);
   }),
 S39:make('S39','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 양을 다시 묻는 연구',
   'Liu et al., Lost in the Middle, TACL 2024 · RepoQA, 2024',

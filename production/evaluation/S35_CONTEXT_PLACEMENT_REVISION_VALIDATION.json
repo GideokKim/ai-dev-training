@@ -1,0 +1,45 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-21",
+  "decision": "DEC-0047",
+  "baseline": "d23d784",
+  "changedSlide": "S35",
+  "slideCount": 90,
+  "totalMinutes": 368,
+  "act2Slides": 15,
+  "act2Minutes": 70,
+  "S35Minutes": 5,
+  "S35Mode": "Lecture",
+  "nativeExampleBorders": 2,
+  "nativeDestinationArrows": 2,
+  "generatedIllustrations": 2,
+  "actualProductScreenshot": false,
+  "separateTaskExamplesLabeled": true,
+  "unchangedOtherSlidePngs": 89,
+  "unchangedOtherNotesRecords": 89,
+  "fullAct2PngParity": 15,
+  "notesRecords": 90,
+  "fieldsPerNotes": 19,
+  "renderedSlidePngs": 105,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 90,
+      "sha256": "32f29f3450193a43832439e1a7f1609eb423ab60fd0c29cbadbb2036803f97c3"
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slideCount": 15,
+      "sha256": "4ebc7b1337a2fce63e7271a6a1fe64cd54ee9291be3b7af1d95008601b942359"
+    }
+  ],
+  "fullPptSha256": "32f29f3450193a43832439e1a7f1609eb423ab60fd0c29cbadbb2036803f97c3",
+  "fullNotesSha256": "b63ec536ebdc82e24f8ef02078046e508e08fcf7d0bca4a9d7ec5d899cd20d7b",
+  "fullMontageSha256": "3bd40d4c154dcb422c9bb73d978fdbc3b827dfcd83b95c691878724c7fcfe616",
+  "otherActPackagesUnchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "presenterBundleRegenerated": false,
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED"
+}

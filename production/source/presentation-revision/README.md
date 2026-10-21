@@ -28,6 +28,12 @@ DEC-0046 separates the S34 actual-request excerpt from its outside
 annotation and emphasizes observed use of AGENTS.md work instructions.
 Rebuild Full and ACT2 only; preserve other89 slides and all timing.
 
+DEC-0047 updates the active S35 factory in `polish-early.mjs`: native
+example borders and arrows lead to generated prompt-window and Markdown
+illustrations. Assets and prompts live in
+`assets/slide-illustrations/task-context/`. Rebuild Full and ACT2 only.
+Preserve the other89 slides, Notes records and all per-slide budgets.
+
 ## Historical implementation notes
 
 # Presentation revision source

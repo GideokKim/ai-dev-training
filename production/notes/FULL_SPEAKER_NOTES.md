@@ -1,6 +1,6 @@
 # Full Speaker Notes — AI Developer Training
 
-Status: ALIGNED — DEC-0046 refines S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S34_GUIDANCE_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0047 visualizes S35 Task Prompt and Project Context destinations; DEC-0046 preserves S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S35_CONTEXT_PLACEMENT_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
 
 Authority: plan/MASTER_PLAN.md, plan/INVARIANTS.md, plan/SLIDE_MAP.md, plan/CLAIM_FREEZE.md, plan/SPEAKER_NOTES_FREEZE.md, plan/SLIDE_ID_MIGRATION_90.md and DEC-0043. Original80/81/82-slide audits remain historical. The small M footer marks bounded teaching links, not full module completion.
 
@@ -1645,15 +1645,16 @@ Opening Question: “이 정보는 언제까지 유효한가?”
 
 Speaker Flow:
 
-1. (0:00–1:00) ‘이번 작업이 끝나면?’이라는 질문으로 정보의 수명을 비교한다.
-2. (1:00–4:00) 왼쪽 crop 수정과 README-only 범위, 오른쪽 테스트 명령과 근거 기반 의존성 정책을 연결한다. Prompt는 현재 목표를 표현하는 데 계속 필요하다.
-3. (4:00–5:00) 어떤 사실이 다음 Task에도 유효한지 질문한다. C++에서도 공통 제약과 이번 알고리즘 변경 조건의 범위가 다를 수 있다는 짧은 예만 든다.
+1. (0:00–1:00) S34의 실제 기록을 회수하고, 이번 목표와 여러 작업에서 다시 사용할 정보의 범위·수명을 구분한다.
+2. (1:00–2:30) 왼쪽 테두리와 화살표를 따라 프롬프트창을 가리킨다. crop 수정과 이번 README-only는 서로 다른 작업별 요청 예다. 두 문장을 합친 실제 Prompt나 추가 Trial로 설명하지 않는다.
+3. (2:30–4:00) 오른쪽 테두리와 화살표를 따라 AGENTS.md 문서를 가리킨다. 테스트 명령과 근거 기반 의존성 정책은 여러 작업에서 다시 참고할 프로젝트 정보다. AGENTS.md는 저장 방식의 예시이며 모든 Context를 이 파일 하나에 넣으라는 뜻은 아니다.
+4. (4:00–5:00) 하단의 ‘다음 작업에서는 목표가 달라짐’과 ‘여러 작업에서 다시 참고’를 비교한다. C++의 공통 제약과 이번 알고리즘 변경 조건도 범위가 다를 수 있다는 짧은 예만 들고 S36의 정보 증가 질문으로 넘긴다.
 
-화면 진행: S34에서 본 기록을 회수한 뒤 두 열의 수명을 비교한다. 왼쪽은 다음 작업에서 바뀔 목표, 오른쪽은 여러 작업에서 다시 참고할 사실이다. S31의 분류 질문을 처음부터 반복하지 않는다.
+화면 진행: 두 열에서 각각 예시 테두리 → 화살표 → 저장·전달 위치를 짚고 하단의 수명 차이를 회수한다. 창과 문서는 교육용 생성 이미지이고 내용·화살표·파일명은 native 편집 요소다. 실제 제품 UI나 실행 캡처가 아니다.
 
-Evidence / Source: BEAT-009–010, TRANS-003, CLM-0003, CLM-0005. TEACHING_MODEL / CONCEPTUAL; examples summarize S32–S34.
+Evidence / Source: BEAT-009–010, TRANS-003, CLM-0003, CLM-0005, DEC-0047. TEACHING_MODEL / CONCEPTUAL; examples summarize S32–S34. Generated visual provenance and prompts: assets/slide-illustrations/task-context/README.md. No new Trial or product capture.
 
-Claim Boundary: This is a teaching model for scope and lifetime, not a formal OpenAI taxonomy or proof that one layer is always better.
+Claim Boundary: This is a teaching model for scope, lifetime and information placement, not a formal OpenAI taxonomy, an exclusive Context storage rule, observed UI or proof that one layer is always better. The prompt-window and Markdown images are generated teaching illustrations. Preserve the source Trial and its limits.
 
 Beginner Explanation: Put the current goal in the Task request and distinguish it from facts the Project keeps using.
 
@@ -1669,9 +1670,9 @@ Transition: “정확한 정보를 더 많이 넣으면 언제나 괜찮을까?�
 
 Time Management: Keep the model to two layers and four examples. Leave research and detailed routing for later slides.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S35 또는 `production/preview/act2/S35.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S35 또는 production/preview/act2/S35.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S35_CONTEXT_PLACEMENT_REVISION.md와 검증 JSON으로 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
-Validation Status: REVIEWED — DEC-0030에서 승인한 화면 강조와 운영 Cue를 정렬했다. 최종 PPT/Notes/PNG 대조와 렌더 검토 결과는 production/evaluation/FULL_DECK_PRESENTATION_POLISH.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 제품·계정, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0047의 예시 테두리·대상 이미지·화살표와 두 열의 수명 비교를 반영했다. 로컬 최종 렌더와 Notes parity는 production/evaluation/S35_CONTEXT_PLACEMENT_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S36 — 정확한 정보도 계속 늘어난다
 
