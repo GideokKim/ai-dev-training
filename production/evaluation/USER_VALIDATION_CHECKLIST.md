@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일: 2026-10-21 (Asia/Seoul). 대상 후보: DEC-0036 신규 S08 및 사람·Agent 역할 수정 81장 통합본. 기존 ZIP은 이전 DEC-0033 자료이며 이번에는 갱신하지 않는다.
+갱신 기준일: 2026-10-21 (Asia/Seoul). 대상 후보: DEC-0037 S10 검사 파이프라인 도식을 반영한 81장 통합본. 기존 ZIP은 이전 DEC-0033 자료이며 이번에는 갱신하지 않는다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,13 +9,13 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `c48051596d20e4cf157f9ea8c71e11be2f38aa71b8b00babcbb0f400a9fe73db`
+- PPTX SHA-256: `5cc6a43f1e7efb26441eaf9c5ea681d4fff38f21633270a6b79bf7f5d73a94e8`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `194119000f930cb96fe7733c8001c87fdbc53c03d66a6d1c533e18f624e704fb`
+- Notes SHA-256: `0e197f3dc2c4ca85b484e754ea115fac30ad75f65b7ede95f716c572fe5b899b`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S81.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-위 PPTX·Notes hash는 DEC-0036의 실제 81장 후보에서 다시 계산했다. PPT 구조·렌더·내장 Notes 81개 및 Full/ACT PNG 동일성은 로컬에서 확인했다. 이는 아래 실환경·리허설 항목의 PASS를 뜻하지 않는다. [현재 삽입 검토](CODEX_ENTRY_INSERTION.md)와 [번호 이행표](../../plan/SLIDE_ID_MIGRATION.md)를 따른다.
+위 PPTX·Notes hash는 DEC-0037의 실제 81장 후보에서 다시 계산했다. PPT 구조·렌더·내장 Notes 81개 및 Full/ACT PNG 동일성은 로컬에서 확인했다. 이는 아래 실환경·리허설 항목의 PASS를 뜻하지 않는다. [현재 S10 검토](S10_INSPECTION_PIPELINE_REVISION.md)와 [이전 삽입 검토](CODEX_ENTRY_INSERTION.md)와 [번호 이행표](../../plan/SLIDE_ID_MIGRATION.md)를 따른다.
 
 이전 DEC-0033–0035의 80장 렌더·구조·Notes 검토는 해당 평가 문서와 Git history의 역사적 근거다. 이전 ZIP은 payload 362개·entry 363개였으며 당시 CRC·hash·내부 링크·Notes 정합성을 확인했다. 이번에는 묶음을 갱신하지 않는다. M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아니다. 2순위 보강은 보류한다.
 
@@ -86,6 +86,7 @@ ____________________________________________________________________
 UNVERIFIED로 유지한다.
 
 - [ ] 정적 기본 경로만으로 Story가 전달되며 현재 제품 실행을 요구하지 않음을 확인했다.
+- [ ] S10의 점선이 가상의 검사 Task에서 추가로 정의·연결할 범위로 읽히고 실제 함수 미구현·정상 완료로 오해되지 않는지 확인했다.
 - [ ] S08의 ChatGPT 메뉴 → Codex → 허용 Repository 폴더 → 조사 요청 경로를 실제 대상 앱·계정에서 확인하거나 UNVERIFIED로 기록했다. 좌측 상단 위치와 선택 UI가 실제 제품과 다르면 그 차이를 기록했다.
 - [ ] S08을 공식 자료 기반 UI 재구성으로 설명하며 실제 Screenshot·현재 계정의 실행 증거로 표현하지 않았다. Codex만 모든 Repository 접근이 가능하다고 단정하지 않았다.
 - [ ] S09에서 허용된 자료는 사람·Agent가 함께 볼 수 있고 최종 목표·허용 범위·완료 수용은 사람이 책임진다고 설명했다. Agent의 제안·추론 가능성을 부정하지 않았다.

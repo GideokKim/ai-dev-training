@@ -1,6 +1,7 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일: 2026-10-21 (Asia/Seoul). 최신 발표자료 기준: DEC-0036.
+갱신일: 2026-10-21 (Asia/Seoul). 최신 발표자료 기준: DEC-0037.
+S10은 제조 검사장비로 확장하는 가정의 파이프라인을 보여준다. 실선은 앞서 조사한 crop, 점선은 추가 정의·연결 범위이며 실제 함수 미구현을 뜻하지 않는다. 81장·360분과 나머지 80장 화면·Notes를 유지한다.
 S08 Codex 진입 가교를 추가하고 기존 S08–S80을 S09–S81로 이동한다. S07 2분+S08 1분으로 360분과 Mode를 유지하며 S09는 사람·Agent 접근과 사람의 최종 책임을 구분한다.
 사용자 지시로 묶음 생성은 중단 중이며 기존 ZIP은 DEC-0033의 이전 자료다.
 
@@ -25,15 +26,15 @@ S08 Codex 진입 가교를 추가하고 기존 S08–S80을 S09–S81로 이동�
 
 ## 2. 정확한 현재 후보
 
-아래 hash는 DEC-0036의 실제 81장 산출물에서 다시 계산했다. PPT 구조·렌더·내장 Notes 대조는 `CODEX_ENTRY_INSERTION.md`에 기록한다. 실환경 검증은 포함하지 않는다.
+아래 hash는 DEC-0037의 실제 81장 산출물에서 다시 계산했다. 현재 검토는 `S10_INSPECTION_PIPELINE_REVISION.md`, 이전 번호 이행은 `CODEX_ENTRY_INSERTION.md`에 기록한다. 실환경 검증은 포함하지 않는다.
 
 | 항목 | 경로 / SHA-256 |
 |---|---|
 | 통합 PPT | `production/AI_Dev_Training_Full.pptx` |
-| PPT SHA-256 | `c48051596d20e4cf157f9ea8c71e11be2f38aa71b8b00babcbb0f400a9fe73db` |
+| PPT SHA-256 | `5cc6a43f1e7efb26441eaf9c5ea681d4fff38f21633270a6b79bf7f5d73a94e8` |
 | 통합 Notes | `production/notes/FULL_SPEAKER_NOTES.md` |
-| Notes SHA-256 | `194119000f930cb96fe7733c8001c87fdbc53c03d66a6d1c533e18f624e704fb` |
-| 전체 montage SHA-256 | `a58444b85e829036ea5d88ad092d542fae76896285bcbc1d3ecd7370c44f1b2e` |
+| Notes SHA-256 | `0e197f3dc2c4ca85b484e754ea115fac30ad75f65b7ede95f716c572fe5b899b` |
+| 전체 montage SHA-256 | `7463cd54ec6a5aa1bac3292de027cb3d7bea0e5df2e65f89f8507f9914b12c46` |
 | 묶음별 파일 목록·크기·SHA-256 | 저장소의 `delivery/PACKAGE_MANIFEST.json`; ZIP 내부의 `PACKAGE_MANIFEST.json` |
 | ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-21.zip.sha256` |
 
@@ -103,7 +104,8 @@ S18 검토용 결과 인계, S19 계약 위반을 구별하는 검사를 기존 
 
 | 항목 | 현재 상태 | 필요한 다음 근거 |
 |---|---|---|
-| DEC-0036 신규 81장 구조·렌더·Notes/PNG 정합성 | COMPLETE, 로컬 범위 | CODEX_ENTRY_INSERTION.md 및 실제 산출물 hash |
+| DEC-0037 S10 도식·81장 구조·렌더·Notes/PNG 정합성 | COMPLETE, 로컬 범위 | S10_INSPECTION_PIPELINE_REVISION.md 및 현재 산출물 hash |
+| DEC-0036 신규 81장 번호 이행 | COMPLETE, 당시 로컬 범위 | CODEX_ENTRY_INSERTION.md의 역사적 판본 |
 | DEC-0033 PPTX 구조·로컬 렌더·80장 개별 검토 | COMPLETE, 로컬 범위 | LEGACY_PRIORITY_REVISION 검토·검증 기록 |
 | 이전 DEC-0033 ZIP 복사·무결성·내부 링크·hash 정합성 | LOCAL PACKAGE CHECK 완료 | payload 362개·entry 363개; 현재 manifest/validation 참조 |
 | 발표 PC / Windows PowerPoint / 글꼴 / 발표자 모드 | UNVERIFIED | 대상 장비에서 열기·저장·재열기·발표 모드 확인 |
@@ -122,7 +124,8 @@ S73: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
 
 ## 6. 근거와 이력
 
-- [현재 81장 삽입·전체 검토](CODEX_ENTRY_INSERTION.md)
+- [현재 S10 검사 파이프라인 수정](S10_INSPECTION_PIPELINE_REVISION.md)
+- [이전 81장 삽입·전체 검토](CODEX_ENTRY_INSERTION.md)
 - [이전 80장 보강·전체 검토](LEGACY_PRIORITY_REVISION.md)와 [검증 기록](LEGACY_PRIORITY_REVISION_VALIDATION.json)
 - [81장 M 연결·판정](LEGACY_MODULE_MAP.md)
 - [이전 DEC-0032 연결 흐름 검토](FULL_DECK_CONTINUITY_REVISION.md)와 [당시 검증 기록](FULL_DECK_CONTINUITY_REVISION_VALIDATION.json)
@@ -133,5 +136,5 @@ S73: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
   그 기록의 이전 해시·렌더러·S73/S77 수정 설명은 현재 후보를 설명하지 않는다.
 
 이전 2026-10-20 및 2026-10-19 ZIP은 역사적 묶음으로 보존한다.
-현재 자료 기준은 DEC-0036, 기존 패키징 정책은 DEC-0031이며 묶음 생성은 보류한다. 기존 `origin/main`의 저장소 push는
+현재 자료 기준은 DEC-0037, 기존 패키징 정책은 DEC-0031이며 묶음 생성은 보류한다. 기존 `origin/main`의 저장소 push는
 현장 검증 통과나 청중 대상 전달 완료를 뜻하지 않는다.

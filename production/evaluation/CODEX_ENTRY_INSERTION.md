@@ -1,5 +1,7 @@
 # Codex Entry Slide Insertion & Numbering Migration
 
+> Historical DEC-0036 record — 이 문서의 PPT·Notes·hash는 S08 삽입 당시 판본이다. 현재 S10 도식 수정과 산출물 동일성은 [S10 검사 파이프라인 수정](S10_INSPECTION_PIPELINE_REVISION.md)을 따른다. 당시 검증 JSON과 본문은 보존한다.
+
 Date: 2026-10-21 (Asia/Seoul). Decision: DEC-0036.
 Baseline: `6748990` (80 slides). Current candidate: **81 slides / 360 minutes**.
 

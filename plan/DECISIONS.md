@@ -5377,3 +5377,94 @@ the presenter bundle until the user resumes that work.
 
 Explicit user instruction on 2026-10-21 authorizes the insertion, role icons,
 sequential renumbering and all related foundation-document alignment.
+
+# DEC-0037 — Ground S10 in a hypothetical inspection pipeline
+
+## Status
+
+ACCEPTED
+
+## Date
+
+2026-10-21
+
+## Context
+
+S10 closes ACT 0 by asking whether repository access reveals the desired
+Task. The user requests a manufacturing inspection pipeline after ROI crop
+so the audience can connect the question to its engineering work.
+
+## Problem
+
+A visual pipeline makes the desired future work concrete. However, the Demo
+repository already implements normalize, resize, statistics and their
+execution path from STATE-00. At S10, crop has been investigated in TRIAL-001
+but the TRIAL-002 fix has not been introduced. A literal claim that only crop
+exists or is fully verified would contradict the recorded Story.
+
+## Decision
+
+Use one native, editable six-node question-context diagram in S10:
+input image, ROI crop, normalization, resizing, statistics/features, and
+inspection decision. Mark existing crop and its input with solid outlines;
+mark the additional inspection-task definitions/connections with dashed
+outlines. Keep the last decision as a question mark with no pass/fail result.
+Label the manufacturing integration as a hypothetical teaching Task, not
+actual repository execution order or missing-function evidence. Preserve
+S10's title, two visible questions, role, Beat, Evidence Type and six minutes
+(Transition 3 plus Q&A 3). Keep 81 slides, 360 minutes and all other slides.
+Update the Map, T01-B contextual-diagram guidance, Claim Freeze, transitions,
+ACT/full Notes, official Full/ACT 0 PPT and previews, and release identities.
+Do not change the Demo repository or create a presenter bundle.
+
+## Rationale
+
+The existing crop investigation gives the audience a familiar starting point.
+Later normalization, resizing and statistics work provides continuity to
+Context and Harness discussions, while undefined inspection decisions make
+the Task-intent question concrete without teaching the ACT 1 solution early.
+
+## Alternatives
+
+- Leave only the abstract question: less concrete for manufacturing audiences.
+- Claim downstream functions are unimplemented: conflicts with actual code.
+- Mark crop as verified complete: removes the need for the next ACT's fix.
+- Demonstrate a working inspection classifier: unsupported by recorded evidence.
+
+## Trade-offs
+
+The future integration scope needs a visible label because its order is not
+the actual process_image call order. The six nodes are one background
+illustration, not six audience-response lenses or an algorithm lecture.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-RESPONSIBILITY-001, INV-DEMO-003, INV-SOT-003.
+
+## Affected Artifacts
+
+S10 source, Map/template guidance/Claim Freeze/transitions, ACT 0/full Notes,
+Full and ACT 0 PPTX/previews, current handoff/checklist and evaluation.
+
+## Evidence
+
+Explicit user request on 2026-10-21. Existing DEMO_REPOSITORY_SPEC module
+inventory and read-only inspection of pipeline.py/statistics.py. Existing
+TRIAL-001/002 and TRIAL-006/007/008 records; no new Trial or measurement.
+
+## Training Relevance
+
+YES — distinguish existing capabilities, a desired product integration,
+and the human decisions still required before asking an Agent to act.
+
+## Follow-up
+
+Render S10 and its S09/S11 neighbors; verify Notes parity, untouched slide
+content, 81-slide/360-minute budgets and current artifact identities.
+Keep target Windows/room/product and timed rehearsal gates UNVERIFIED.
+
+## Approval
+
+The user's explicit S10 revision request authorizes this bounded layout and
+Task-context change. Historical evidence and core Story remain preserved.

@@ -1,0 +1,84 @@
+{
+  "decision": "DEC-0037",
+  "baselineCommit": "c4f8bd6",
+  "slideCount": 81,
+  "actCounts": {
+    "ACT 0": 10,
+    "ACT 1": 12,
+    "ACT 2": 15,
+    "ACT 3": 18,
+    "ACT 4": 18,
+    "ACT 5": 8
+  },
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 55,
+    "ACT 2": 70,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 130,
+    "Reflection": 20,
+    "Case": 83,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "totalMinutes": 360,
+  "changedSlideIds": [
+    "S10"
+  ],
+  "protectedS10FieldsUnchanged": true,
+  "allOtherMapRecordsUnchanged": true,
+  "allOtherNotesRecordsUnchanged": true,
+  "unchangedSlideStructureCount": 80,
+  "unchangedRenderedPngCount": 89,
+  "renderedPngCount": 91,
+  "notesRecords": 81,
+  "notesFields": 19,
+  "actFullMarkdownAndEmbeddedParity": true,
+  "nativeChartDataUnchanged": true,
+  "fullActS10PngParity": true,
+  "packages": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slides": 81,
+      "sha256": "5cc6a43f1e7efb26441eaf9c5ea681d4fff38f21633270a6b79bf7f5d73a94e8",
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyReimport": true
+    },
+    {
+      "path": "production/ACT_0.pptx",
+      "slides": 10,
+      "sha256": "5e6143b8f11d978d16ef47231a89c4de4b859f8bec47e4ad151e09fa7fb9c88f",
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyReimport": true
+    }
+  ],
+  "renderEngine": "Artifact Tool reimport of finalized PPTX; local font aliases only",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProjection": "UNVERIFIED",
+  "timedRehearsal": "UNVERIFIED",
+  "demoRepository": "UNCHANGED",
+  "newTrial": "NONE",
+  "presenterBundle": "PAUSED / UNCHANGED",
+  "notesSha256": "0e197f3dc2c4ca85b484e754ea115fac30ad75f65b7ede95f716c572fe5b899b",
+  "fullMontageSha256": "7463cd54ec6a5aa1bac3292de027cb3d7bea0e5df2e65f89f8507f9914b12c46",
+  "S10PngSha256": "52c869a15e6e9533c0fb8b9f2a7f5125d7f865a1bcc819d96fb654ecfb2e371f",
+  "visualReview": {
+    "status": "PASS within local render scope",
+    "clippingOverlap": "NONE FOUND",
+    "evidenceBoundary": "TEACHING_MODEL; future inspection task connections, not missing repository functions",
+    "neighbors": "S09 human goal ownership / S11 underspecified request preserved",
+    "independentReview": true
+  },
+  "allFallbackPngsUnchanged": true,
+  "markdownLocalLinksChecked": 68,
+  "missingLocalLinks": []
+}

@@ -24,3 +24,5 @@ These runbooks use approved Story and Demo evidence. They do not create a new Tr
   additions remain deferred. Presenter bundles are paused by user instruction.
 
 The static fallback does not mean a historical Trial was reproduced or a current product surface is ready. Windows PowerPoint, target account, room/projector, and instructor rehearsal remain USER REQUIRED.
+
+S10의 DEC-0037 검사 파이프라인 도식은 질문 배경이며 새 Demo가 아니다. 현재 Full PPT identity는 FALLBACK_MANIFEST를 따른다. 기존 29개 fallback PNG는 byte-identical하게 유지했다.

@@ -1,14 +1,15 @@
 # Static Fallback Manifest
 
-Status: READY for DEC-0036 local static playback only. The finalized 81-slide package, rendered files, paths, dimensions and hashes were checked in this revision. This is not a current-product validation, raw Trial capture, or Windows/room approval.
+Status: READY for DEC-0037 local static playback only. The finalized 81-slide package, rendered files, paths, dimensions and hashes were checked in this revision. This is not a current-product validation, raw Trial capture, or Windows/room approval.
 
 ## Provenance
 
-- Current alignment: 2026-10-21 (Asia/Seoul), DEC-0036. Post-migration render, identity and Notes parity are recorded in production/evaluation/CODEX_ENTRY_INSERTION.md. Previous DEC-0035/DEC-0034/DEC-0033 review records remain historical evidence.
+- Current alignment: 2026-10-21 (Asia/Seoul), DEC-0037. S10 is a question-context revision outside the 29 fallback PNGs; their bytes, paths, dimensions and hashes remain identical to DEC-0036. Current review: production/evaluation/S10_INSPECTION_PIPELINE_REVISION.md.
+- Previous numbering alignment: DEC-0036. Post-migration render, identity and Notes parity are recorded in production/evaluation/CODEX_ENTRY_INSERTION.md. Previous DEC-0035/DEC-0034/DEC-0033 review records remain historical evidence.
 - Current static file-identity/path check: 2026-10-21 for DEC-0036, after final rendering. Existing ZIP integrity describes the prior package; no bundle is regenerated. Target-PC offline playback and rehearsal remain UNVERIFIED.
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Current source SHA-256: `c48051596d20e4cf157f9ea8c71e11be2f38aa71b8b00babcbb0f400a9fe73db`
+- Current source SHA-256: `5cc6a43f1e7efb26441eaf9c5ea681d4fff38f21633270a6b79bf7f5d73a94e8`
 - Renderer: Artifact Tool reimport of the finalized PPTX, rasterized at 1920×1080.
 - Host: macOS 26.6.2 (25G83).
 - Full preview inventory: 81 files (`S01.png`–`S81.png`), each 1920×1080; montage 1920×5670.

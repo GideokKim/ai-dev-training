@@ -78,7 +78,7 @@ structure, content regions, added required components, and density ceiling.
 | Variant | Layout structure and content regions | Added required components | Density limit |
 |---|---|---|---|
 | T01-A Opening Question | One large question; quiet margin for individual thought. | — | One question, up to three short cues. |
-| T01-B Reflection / Discussion | Question at top; optional response lenses below; leave visible pause space. | — | Up to three lenses at once; S55 may reveal its five existing candidates sequentially and retain them for recap. Do not supply the audience’s answer in advance. |
+| T01-B Reflection / Discussion | Question at top; optional response lenses below; leave visible pause space. | — | Up to three lenses at once; S55 may reveal its five existing candidates sequentially and retain them for recap. Do not supply the audience’s answer in advance. S10 may use one six-node inspection pipeline as question context; its nodes are not six response lenses or a new teaching section (DEC-0037). |
 | T01-C Q&A / Close | One Q&A or closing prompt; a small, fixed course-model footer if already in the Map. | — | One prompt and the existing close model only. |
 | T02-A Scope Friction | Current task → missing boundary/context → unanswered question. | — | One task and one main friction. S12–13 may show their five existing responsibility labels/questions as short blanks; do not add explanatory subcopy. |
 | T02-B Repeated Friction | Two or three tasks with only the repeated burden highlighted. | — | At most three task columns and four repeated facts/steps; no solution yet. |
@@ -122,7 +122,7 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S07 — 코드를 AI에게 가져가는 대신 AI를 Repository로 데려간다 | T04-B | CMP-EVIDENCE | CMP-CPP | P+T, in separate regions | DEMO-01 bounded callback; Lecture | Single state | Contextual | V01, V05, V08 |
 | S08 — Repository 작업은 Codex에서 시작한다 | T03-C | CMP-WORKFLOW, CMP-CLAIM | — | R+T; official-source menu reconstruction, not a screenshot | DEMO-01 entry path only; Lecture | Single state; three connected steps | — | V01, V05 |
 | S09 — Repository 접근과 Task 의도는 별개다 | T02-A | — | — | T | DEMO-01 remaining problem callback; Lecture | Single state | — | V09 |
-| S10 — Repository를 보면 내가 원하는 것까지 알까? | T01-B | — | — | T | DEMO-01 follow-up question; Transition/Q&A | Single state | — | V09 |
+| S10 — Repository를 보면 내가 원하는 것까지 알까? | T01-B | — | — | T; DEC-0037 hypothetical inspection pipeline, not execution evidence | DEMO-01 follow-up; one six-node context diagram, solid existing crop / dashed future connections; Transition/Q&A | Single state; no observed pass/fail | — | V09 |
 | S11 — Task에는 무엇이 아직 정해지지 않았을까? | T02-A | — | — | C+T | — | Single state | — | V09 |
 | S12 — 요청만으로는 의도가 보이지 않는다 | T02-A | — | — | C+T | — | Single state | — | V09 |
 | S13 — 개발자가 정해야 하는 경계 | T02-A | — | — | C+T | — | Single state | — | V09 |

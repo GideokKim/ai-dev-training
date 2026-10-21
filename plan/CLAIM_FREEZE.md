@@ -301,3 +301,19 @@ Visual System Design can proceed in parallel only for product-independent
 slides and diagrams. Keep the UI, Skills invocation, permission, and Windows
 setup views open until the target environment is checked. This report does
 not begin Visual System Design, Speaker Notes, or PPT production.
+
+## DEC-0037 — S10 Manufacturing Inspection Task Context (2026-10-21)
+
+S10은 TEACHING_MODEL이다. 제조 라인 검사장비로 확장한다는 가정 아래
+촬영 이미지 → ROI crop → 밝기 정규화 → 크기 맞춤 → 통계·특징 → 양불 판정을
+질문용 도식으로 사용한다. 실선 crop는 앞서 조사한 기존 구현이고 완료·정상
+검증을 뜻하지 않는다. 점선은 해당 검사 Task에 추가로 정의·연결할 범위다.
+
+실제 STATE-00부터 normalize/resize/statistics 함수와 실행 연결도 존재한다.
+이 도식의 순서·점선을 실제 process_image 순서나 함수의 미구현 상태로 설명하지
+않는다. 실제 graypipe 통계는 기본 픽셀 통계이며 도식의 막대가 측정한 히스토그램,
+결함 검출 결과 또는 양불 판정 결과라는 주장을 하지 않는다. 판정은 ?로 남긴다.
+
+S10의 제목·기존 질문·BEAT-003→004·TEACHING_MODEL·Transition3+Q&A3분,
+S11 이후의 요청 구체화·crop 수정·Context·성능·검증 범위 Story는 유지한다.
+새 Trial·Product State·제조 검사 구현을 추가하지 않는다.

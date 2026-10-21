@@ -98,12 +98,56 @@ export const slides = {
     return s;
   },
   S10: (p, H) => {
-    const { C, text, line } = H;
-    const s = H.frame(p, 'S10', 'Repository를 보면 내가 원하는 것까지 알까?', 'ACT 0 · 내 작업에 적용할 질문', '함께 생각해 보기 · 교육 모델', '현재 맡기고 싶은 일을 떠올려 보세요. 질문과 경험 공유는 자발적으로 진행합니다.');
-    text(s, '지금 이 저장소에\n어떤 일을 맡기고 싶으신가요?', 64, 245, 1010, 144, 45, C.ink, true);
-    text(s, '?', 1080, 250, 130, 140, 112, C.teal, true);
-    line(s, 64, 445, 1152);
-    text(s, '그 원하는 결과까지\n코드에 적혀 있을까요?', 64, 483, 1152, 96, 36, C.teal, true);
+    const { C, text, rect, line, arrow } = H;
+    const s = H.frame(p, 'S10', 'Repository를 보면 내가 원하는 것까지 알까?',
+      'ACT 0 · 제조 라인 검사 Task로 이어지는 질문',
+      '교육용 검사 Task 가정 · 점선은 추가 정의·연결 범위 · 실제 실행 결과 아님',
+      '실제 저장소에는 후속 함수도 있습니다. 도식은 실제 실행 순서나 함수의 미구현 상태를 재현하지 않습니다.');
+    text(s, '제조 라인 검사장비로 확장한다면?', 64, 170, 1152, 34, 27, C.ink, true);
+    text(s, '앞서 살펴본 기존 구현', 64, 215, 368, 32, 23, C.teal, true);
+    text(s, '검사 흐름으로 추가 정의·연결할 범위', 456, 215, 760, 32, 23, C.warn, true);
+    const xs = [64, 260, 456, 652, 848, 1044], w = 172;
+    const labels = [
+      ['촬영 이미지', 'Input'], ['ROI crop', '기존 구현 · 조사한 범위'],
+      ['밝기 정규화', 'Normalize'], ['크기 맞춤', 'Resize'],
+      ['통계·특징', 'Statistics'], ['양불 판정', '기준 미정']
+    ];
+    xs.forEach((x, i) => {
+      const planned = i >= 2;
+      rect(s, x, 258, w, 188, i === 1 ? C.pale : C.bg,
+        planned ? C.warn : i === 1 ? C.teal : C.line, planned ? 2 : 1.5, planned ? 'dash' : 'solid');
+      text(s, labels[i][0], x + 8, 383, w - 16, 34, 26, C.ink, true, H.FONT, 'center');
+      text(s, labels[i][1], x + 5, 419, w - 10, 23, i === 1 ? 18 : 20, planned ? C.sub : C.teal, false, H.FONT, 'center');
+      if (i < xs.length - 1) {
+        if (i === 0) arrow(s, x + w + 4, 328, 16, 13, C.teal);
+        else {
+          line(s, x + w + 3, 334, 13, C.warn, 2, 'dash');
+          arrow(s, x + w + 15, 329, 7, 10, C.warn);
+        }
+      }
+    });
+    const circle = (x, y, d, fill, stroke = 'none') => s.shapes.add({
+      geometry: 'ellipse', position: {left: x, top: y, width: d, height: d},
+      fill, line: {fill: stroke, width: stroke === 'none' ? 0 : 1.5}
+    });
+    // Schematic workpiece and ROI; no product image or measured pixel data.
+    rect(s, 88, 284, 124, 86, '#E2E7EB', C.sub, 1.5);
+    [[102,296],[177,296],[102,342],[177,342]].forEach(([x,y]) => circle(x,y,15,C.sub));
+    rect(s, 146, 289, 56, 66, 'none', C.teal, 3);
+    rect(s, 288, 281, 116, 90, '#E2E7EB', C.teal, 2);
+    circle(343, 297, 27, C.sub); circle(343, 338, 27, C.sub);
+    // Abstract processing symbols keep future outputs unspecified.
+    const shades = ['#3F4B56','#66727D','#9DA7B0','#D5DCE2'];
+    for (let j = 0; j < 4; j++) {
+      rect(s, 485 + j * 28, 290, 25, 75, shades[j]);
+    }
+    rect(s, 679, 298, 45, 45, 'none', C.sub, 2);
+    arrow(s, 733, 316, 18, 12, C.sub);
+    rect(s, 760, 279, 42, 81, 'none', C.sub, 2);
+    [25,53,77,45,20].forEach((h, j) => rect(s, 875 + j * 24, 366 - h, 15, h, '#82929E'));
+    text(s, '?', 1077, 274, 106, 96, 75, C.warn, true, H.FONT, 'center');
+    text(s, '지금 이 저장소에 어떤 일을 맡기고 싶으신가요?', 64, 479, 1152, 49, 35, C.ink, true);
+    text(s, '그 원하는 결과까지 코드에 적혀 있을까요?', 64, 540, 1152, 42, 31, C.teal, true);
     return s;
   },
   S11: (p, H) => {

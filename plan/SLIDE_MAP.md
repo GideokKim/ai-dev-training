@@ -323,17 +323,17 @@ ACT별 Mode 대조:
 - **Story Beat:** BEAT-003 → BEAT-004 전환
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.; ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 81장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 다음 ACT의 문제를 여는 교육 프레이밍
-- **Visual Concept:** Repository 아이콘은 보이지만 Task 목표 영역은 물음표로 남긴다. 청중의 “아니오”를 잠시 기다린다.
-- **Demo / Case Connection:** DEMO-01 후속 질문
+- **Claim Status:** FROZEN — 81장 구조·Story·시간·Demo 범위; TEACHING_MODEL; DEC-0037 제조 검사 Task 가정은 실제 저장소 실행 순서·미구현 상태·검증 결과가 아님
+- **Visual Concept:** 제조 라인 검사장비로 확장하는 교육용 검사 Task를 입력 이미지 → ROI crop → 밝기 정규화(Normalize) → 크기 맞춤(Resize) → 통계·특징(Statistics) → 양불 판정으로 그린다. 입력·기존 crop는 실선, 후속 검사 단계는 점선이며 “검사 흐름으로 추가 정의·연결할 범위”로 표시한다. crop는 “기존 구현·조사한 범위”로 제한하고 정상 완료·검증 완료를 표시하지 않는다. 마지막 판정은 ? / 기준 미정으로 열어 둔다. 기존 질문 두 개를 하단에 크게 유지한다. 실제 저장소에는 후속 함수도 존재하므로 이 도식은 실제 실행 순서나 함수 미구현 상태의 재현이 아니다. DEC-0037.
+- **Demo / Case Connection:** DEMO-01 후속 질문; 제조 검사장비로 확장하는 가상의 Task 맥락. 실제 Product State·Trial·양불 판정 결과를 추가하지 않는다.
 - **Beginner Payoff:** Agent에게 맡길 때 원하는 결과를 말해야 한다는 문제를 발견한다.
 - **Advanced Payoff:** 정보 접근성과 Task specification을 분리해 생각한다.
 - **C++ Vision Bridge:** 없음
-- **Speaker Intent:** 답을 먼저 알려주지 않고 짧은 대화로 다음 문제를 청중이 예상하게 한다.
+- **Speaker Intent:** 실선 crop와 점선의 후속 검사 범위를 약 1분 안에 짚어 원하는 검사 작업을 떠올리게 한다. 알고리즘 강의·완성된 요청·판정 기준을 먼저 제공하지 않는다. Normalize/Resize/Statistics는 뒤 ACT의 작업과 연결되는 배경이며 이 장에서 성능 개선이나 구현 완료를 주장하지 않는다.
 - **Transition:** “방금 떠올린 원하는 결과를 작업 요청으로 전달하려면 무엇이 더 필요할까요?”라는 질문으로 `Chatbot → Prompt`를 handoff한다. ACT 1의 내부 구조는 소개하지 않는다.
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Transition 3분 + Q&A 3분 = 6분
-- **Evidence / Decision References:** BEAT-003, BEAT-004, DEMO-01, CLM-0002, CLM-0009, OQ-003, OQ-005
+- **Evidence / Decision References:** BEAT-003, BEAT-004, DEMO-01, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0037; DEMO_REPOSITORY_SPEC의 초기 구현 범위와 실제 pipeline.py/statistics.py로 표현 경계 대조
 
 ### ACT 1
 

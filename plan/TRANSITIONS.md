@@ -32,7 +32,8 @@ repetition, not an observed variation failure.
 |---|---|---|
 | S07 → S08 | Move from bringing AI to the Repository to the actual Codex entry path. | Official-source menu reconstruction; target UI/account remains unverified. |
 | S08 → S09 | Move from shared Repository visibility to human final decisions and responsibility. | AI may investigate and propose; do not make an exclusive file-access claim. |
-| S09 → S10 | Apply the access/intent distinction to one's own task. | Voluntary reflection; no new result. |
+| S09 → S10 | Apply human decision ownership to a hypothetical inspection pipeline, then ask which task to request. | DEC-0037; dashed future connections are not missing repository functions or observed outcomes. |
+| S10 → S11 | Carry the desired inspection task into the question of what the request must specify. | Keep the existing generic filter/crop teaching requests; do not claim the full inspection pipeline is implemented later. |
 | S11 → S12 | Narrow the generic request to the previously investigated crop case. | Constructed requests are not actual Trial prompts. |
 | S13 → S14 | Group the decisions and make relevant facts and process explicit. | The two sets of five are not a one-to-one taxonomy. |
 | S15 → S16 | Move from a constructed request to historical TRIAL-002 observation. | Do not imply the example was the executed Prompt. |

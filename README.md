@@ -8,10 +8,11 @@
 
 ## 현재 상태
 
-현재 공식 구성은 **81장·360분 / DEC-0036**이다. S07 다음에 Codex 진입 경로를
+현재 공식 구성은 **81장·360분 / DEC-0037**이다. S07 다음에 Codex 진입 경로를
 안내하는 S08을 추가했고, 종전 S08–S80은 S09–S81로 한 칸씩 이동한다.
 S07 Lecture 3분을 S07 2분 + S08 1분으로 나눠 ACT별 시간과 Mode 총량을 유지한다.
 S09는 사람·AI Agent가 함께 볼 수 있는 정보와 사람이 최종 결정·책임지는 범위를 구분한다.
+S10은 제조 검사장비의 ROI crop 이후 작업을 교육용 파이프라인으로 보여준다. 실선은 앞서 조사한 crop, 점선은 해당 검사 Task에서 추가로 정의·연결할 범위이며 실제 함수 미구현을 뜻하지 않는다.
 기존 Story와 근거 범위, M1–M9 하단 연결 표시는 유지하며 2순위 보강은 보류한다.
 
 - [최신 통합 PowerPoint](production/AI_Dev_Training_Full.pptx)
@@ -19,7 +20,8 @@ S09는 사람·AI Agent가 함께 볼 수 있는 정보와 사람이 최종 결�
 - [전체 발표자 Notes](production/notes/FULL_SPEAKER_NOTES.md)
 - [공식 Slide Map](plan/SLIDE_MAP.md)
 - [80장 → 81장 번호 대조와 문서 범위](plan/SLIDE_ID_MIGRATION.md)
-- [현재 S08 추가·번호 정렬 검토](production/evaluation/CODEX_ENTRY_INSERTION.md)
+- [현재 S10 검사 파이프라인 검토](production/evaluation/S10_INSPECTION_PIPELINE_REVISION.md)
+- [이전 S08 추가·번호 정렬 검토](production/evaluation/CODEX_ENTRY_INSERTION.md)
 - [현재 전달 안내와 후보 해시](production/evaluation/FINAL_HANDOFF.md)
 - [예상 질문·답변](production/presenter/EXPECTED_QA.md)
 - [사용자 실환경·리허설 체크리스트](production/evaluation/USER_VALIDATION_CHECKLIST.md)

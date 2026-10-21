@@ -39,7 +39,7 @@ Evidence Type을 기준으로 하나씩 배정한다.
 - **Required Components:** Audience Question; 승인된 경우 Reflection,
   Discussion 또는 Q&A 상태.
 - **Optional Components:** 현재 ACT 표시; 질문 이해를 돕는 단순 도식.
-- **Density Limit:** 핵심 질문 1개와 보조 단서 최대 3개.
+- **Density Limit:** 핵심 질문 1개와 보조 단서 최대 3개. DEC-0037의 S10은 질문의 상황을 보여주는 6노드 검사 파이프라인 도식 한 개를 사용한다. 여섯 응답 관점·알고리즘 강의로 늘리지 않고 기존 질문·6분을 유지한다.
 - **Evidence Rule:** 청중 참여만을 위한 화면은 Teaching Model로 둔다.
   제품 주장을 시각화하려면 해당 주장에 맞는 Evidence Card를 별도로
   사용한다. 응답이나 실천 약속을 강제하지 않는다.

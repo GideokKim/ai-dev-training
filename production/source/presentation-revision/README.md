@@ -25,6 +25,10 @@ experiment or a change to the historical Trial.
 DEC-0036 authorizes this one-time renumbering and the S09 responsibility icons.
 It keeps 360 minutes by splitting the old S07 Lecture 3 into S07 Lecture 2
 and the new S08 Lecture 1. ACT slide counts are 10/12/15/18/18/8.
+DEC-0037 grounds S10 in a hypothetical manufacturing inspection pipeline.
+Solid crop marks the existing investigated scope; dashed downstream nodes
+mark future inspection-task definitions/connections, not missing functions.
+The original two questions and six-minute Transition/Q&A allocation remain.
 Other Story/Section/Demo/Trial identities and evidence boundaries remain
 protected. The new product-entry composition is owned by `product-entry.mjs`.
 They use `@oai/artifact-tool`; text, diagrams and the S46 chart remain native

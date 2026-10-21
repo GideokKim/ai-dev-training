@@ -8,6 +8,8 @@ Opening revision: DEC-0034 (2026-10-21). S01–S04의 현재 화면·내장 Note
 
 Context-scope revision: DEC-0035 (2026-10-21). S05–S06의 폭 비교·전달한 정보 범위와 실제 관찰 경계는 `production/evaluation/ACT_0_CONTEXT_SCOPE_REVISION.md`에 기록한다.
 
+S10 revision: DEC-0037 (2026-10-21). 제조 검사 Task의 파이프라인 도식과 기존 질문·6분 운영을 정렬했다. 현재 검토: `production/evaluation/S10_INSPECTION_PIPELINE_REVISION.md`.
+
 Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`,
 `plan/SPEAKER_NOTES_ARCHITECTURE.md`, `plan/SPEAKER_NOTES_FREEZE.md`,
 `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, and `plan/DECISIONS.md`.
@@ -446,31 +448,34 @@ Mode Split: Transition 3 minutes + Q&A 3 minutes
 
 Primary Message: Repository를 볼 수 있다는 사실만으로 Task의 의도가 정해지지는 않는다.
 
-Opening Question: “내가 지금 맡기고 싶은 일의 원하는 결과까지 코드에 적혀 있을까?”
+Opening Question: “지금 이 저장소에 어떤 일을 맡기고 싶으신가요?” 제조 라인 검사장비로 확장한다는 가정 아래 원하는 검사 작업을 떠올리게 한다.
 
 Speaker Flow:
 
-1. **DISCUSS / TRANSITION (0:00–3:00):** 화면 상단의 “내 작업에 적용할 질문”을 짚고, 각자가 지금 맡기고 싶은 일 하나를 떠올리게 한다. “지금 이 저장소에 어떤 일을 맡기고 싶은가?”와 “그 원하는 결과까지 코드에 적혀 있는가?”를 차례로 읽는다. S09의 구분을 자기 작업에 대입하며 답이나 다음 단계의 체크리스트를 제시하지 않는다.
-2. **Q&A (3:00–6:00):** 자발적인 질문을 받는다. 질문이 없으면 두 질문을 그대로 남긴 뒤 ACT 1의 모호한 요청으로 이동한다.
+1. **CALLBACK (0:00–0:25 / Transition):** S09에서 사람이 정할 목표·허용 범위·완료 수용을 남겼음을 짧게 회수한다. 화면의 제조 검사 Task는 교육용 가정이라고 말한다.
+2. **PIPELINE CONTEXT (0:25–1:15 / Transition):** 입력 이미지에서 관심 영역을 crop하는 실선을 가리키고 “앞서 조사한 기존 구현”이라고 말한다. 이후 점선의 밝기 정규화, 크기 맞춤, 통계·특징, 양불 판정을 한 번 훑는다. 점선은 이 검사 흐름에서 추가로 정의·연결할 범위이지 실제 저장소의 함수 미구현을 뜻하지 않는다. 각 알고리즘의 원리·판정 기준을 강의하거나 구현 결과로 보여주지 않는다.
+3. **TASK QUESTION (1:15–2:30 / Transition):** 하단의 “지금 이 저장소에 어떤 일을 맡기고 싶으신가요?”를 읽고 원하는 작업 하나를 조용히 떠올리게 한다. 판정 카드의 ?를 남겨 두며 정답이나 새 기능 목록을 제시하지 않는다.
+4. **HANDOFF (2:30–3:00 / Transition):** “그 원하는 결과까지 코드에 적혀 있을까요?”를 읽는다. 같은 Repository를 보더라도 원하는 검사는 별도로 전달해야 한다는 다음 문제를 남긴다. ACT 1의 다섯 책임을 먼저 펼치지 않는다.
+5. **Q&A (3:00–6:00):** 자발적인 질문을 받는다. 질문이 없으면 두 질문을 화면에 남기고, 종료 시 기존 Transition 문구로 S11의 모호한 요청에 연결한다.
 
-Evidence / Source: BEAT-003 → BEAT-004, TRANSITIONS.md의 승인된 ACT handoff, DEMO-01 callback, CLM-0002, CLM-0009. TEACHING_MODEL.
+Evidence / Source: BEAT-003 → BEAT-004, DEMO-01 callback, CLM-0002, CLM-0009, DEC-0037. TEACHING_MODEL. plan/DEMO_REPOSITORY_SPEC.md의 초기 모듈 범위 및 ai-dev-training-demo의 src/graypipe/pipeline.py·statistics.py와 대조했다. 실제 구현은 load→normalize→optional invert/crop/resize→save→statistics 경로이며 현재 도식과 동일한 제조 검사 순서가 아니다. 새로운 실행·Trial은 수행하지 않았다.
 
-Claim Boundary: 이 장은 다음 문제를 여는 Teaching Model이다. ACT 1의 다섯 Task Specification 책임이나 구체적 해답을 공개하지 않는다.
+Claim Boundary: 제조 검사장비로 확장하는 교육용 가정이다. 실제 저장소에는 normalize/resize/statistics도 구현돼 있으므로 점선을 함수 미구현으로 설명하지 않는다. crop의 실선도 정상·검증 완료를 뜻하지 않는다. TRIAL-001 조사 뒤 실제 crop 수정은 다음 ACT의 TRIAL-002에서 회수한다. 통계 카드의 막대는 추상 기호이며 측정 히스토그램·결함 검출·양불 판정 결과가 아니다. 판정 조건·알고리즘 정답이나 완성된 Task 요청을 이 장에서 제공하지 않는다.
 
-Beginner Explanation: Repository 접근이 생긴 뒤에도 원하는 결과를 설명할 문제는 남아 있다.
+Beginner Explanation: ROI crop 이후 검사에서 무엇을 더 하고 싶은지는 코드를 보는 것만으로 정해지지 않는다. 그림의 점선 중 어디까지 맡기고 싶은지 떠올리면 충분하다.
 
-Advanced Insight: 관찰 가능한 Context와 개발자가 정해야 할 의도를 구분하며 다음 Story 단계로 이동한다.
+Advanced Insight: 강사용 연결: ROI crop의 동작·보존 범위는 ACT 1, 좌표·밝기·크기 조건은 ACT 2, Normalize/Resize/Statistics의 반복 성능 조사는 ACT 3, 개별 단계와 연결 검증 범위·환경 변화는 ACT 4와 대응한다. 이 연결을 지금 미리 강의하지 않는다. 뒤 ACT가 이 가상의 제조 검사 파이프라인 전체를 실제로 구현·검증한다고 약속하지 않는다.
 
-C++ Vision Bridge: N/A.
+C++ Vision Bridge: N/A. 제조 검사 도메인은 질문의 배경이며 새로운 C++ 도구·하드웨어 검증이나 전용 Bridge를 추가하지 않는다.
 
-Demo Operation: N/A — 신규 Demo 또는 제품 기능 설명은 없다.
+Demo Operation: N/A. 편집 가능한 native 도식으로 질문을 여는 정적 화면이다. 검사장비 실행·신규 Demo·새 Trial을 시연하지 않는다.
 
-Audience Interaction: Q&A 3분은 선택적 질문 시간이다. 답변이나 공유를 강제하지 않는다. 침묵은 정상적인 결과로 둔다.
+Audience Interaction: Transition 3분에서 개인적으로 작업을 떠올리게 하고 Q&A 3분은 선택적 질문 시간으로 둔다. 답변·공유·코드 작성·알고리즘 설계를 강제하지 않는다.
 
 Transition: “방금 떠올린 원하는 결과를 작업 요청으로 전달하려면 무엇이 더 필요할까요?”라는 질문으로 `Chatbot → Prompt`를 handoff한다. ACT 1의 내부 구조는 소개하지 않는다.
 
-Time Management: Slide Map의 순서를 유지해 Transition 3분 뒤 Q&A 3분을 둔다. Q&A를 늘려 ACT 전체 시간을 옮기지 않는다.
+Time Management: Transition 3분 뒤 Q&A 3분 순서를 유지한다. 파이프라인 설명은 50초 정도로 제한하고 이름·실선/점선 범위만 짚는다. Q&A를 늘려 ACT 시간을 옮기지 않는다. 실제 운영 시간은 리허설 전까지 UNVERIFIED다.
 
-Fallback: 질문이 없으면 Opening Question을 그대로 남기고 종료 cue로 ACT 1에 넘긴다. 강사가 질문에 답을 보태지 않는다.
+Fallback: production/ACT_0.pptx S10 또는 production/preview/act0/S10.png의 동일 도식을 사용한다. 질문이 없으면 판정의 ?와 두 질문을 남긴 채 기존 Transition으로 S11에 넘긴다. 즉석 검사 알고리즘·실행 화면으로 대체하지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0037에 따라 교육용 파이프라인과 실제 구현 범위, 기존 질문·시간·Story 연결을 대조했다. 최종 PPT/내장 Notes/PNG 검토는 production/evaluation/S10_INSPECTION_PIPELINE_REVISION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·실측 리허설은 UNVERIFIED.
