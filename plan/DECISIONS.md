@@ -4860,3 +4860,125 @@ Demo repository, Product code and existing State tags.
 
 Explicit user instruction to improve the whole deck after the continuity
 review. Existing authorization to checkpoint completed changes continues.
+
+### DEC-0033 — Add the approved legacy bridges within the current course
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-21
+
+## Context
+
+A read-only audit compared the teaching content in the legacy M1-M9 summary
+with all 80 current slides and their Speaker Notes. The user reviewed which
+missing topics would improve the current Repository-centered story and
+explicitly approved four first-priority additions and module relation labels.
+
+## Problem
+
+The current story explains task boundaries and verification but leaves a few
+practical links implicit: checking allowed access before connecting a
+Repository, stating a concrete acceptance condition, handing a result to a
+human reviewer, and checking whether a test distinguishes a contract defect.
+Adding complete legacy modules would require a different course scope.
+
+## Decision
+
+- Add four teaching bridges to S07, S14, S18 and S19. Preserve the existing
+  80-slide order, titles, IDs, Story/Section/Demo mappings, 360 minutes,
+  per-slide time and Mode allocation, Primary Messages, Evidence Types and
+  frozen observed Claim boundaries.
+- In S07, use 45 seconds of the existing three-minute Lecture to explain
+  checking approved tools, accounts, input material and access permission
+  scope before connecting a Repository or passing material. Replace repeated
+  explanation and optional C++ elaboration. Actual company allow/deny lists
+  and approval procedures remain unconfirmed and must follow local policy.
+- In S14, replace 90 seconds of the existing three-minute Case with a
+  concrete acceptance condition: a four-column synthetic input, crop 1 3,
+  source columns 1 and 2 only, and output width 2. Keep Lecture 6 + Case 3.
+  This is a teaching reconstruction of the existing crop contract, not the
+  historical TRIAL-002 Prompt or a new execution result.
+- In S18, use 90 seconds of the existing three-minute Lecture for a short
+  review handoff: reason and change scope, verification evidence and result,
+  unverified points, and the human acceptance decision. Reuse the existing
+  crop records and replace the repeated list of checks. The format is a
+  teaching summary, not an actual PR, historical Agent answer or approval.
+- In S19, use 90 seconds inside Lecture 4 for a contract-check comparison.
+  A non-empty result check can detect an empty output but cannot distinguish
+  the existing extra-column defect. Compare the expected source columns
+  1 and 2 and width 2 for this input. Do not call the first check universally
+  meaningless or claim the second proves correctness for every input.
+  Replace optional C++ footer explanation and repeated introduction; retain
+  Reflection 1. Add no new execution or PASS/FAIL result.
+- Add consistent lower-screen M1-M9 relation labels across all 80 slides.
+  Labels identify related teaching content or principles, with no direct
+  relation indicated where appropriate. They do not certify full coverage
+  or completion of a legacy module. Preserve existing Claim/source scope.
+- Defer the second-priority additions: the S44 decision-summary format and
+  review condition, the S31 onboarding cue, and the S79 task-selection cue.
+  Do not add new images, product facts, Trials or Demo repository changes.
+- Update the four affected Notes and only the necessary Core Message,
+  Visual Concept and Speaker Intent fields in the Slide Map. Align the
+  integrated/ACT decks, embedded/Markdown Notes, previews and presenter
+  provenance after production changes. Preserve the original handoff causes.
+
+## Rationale
+
+The four additions make the current crop story more usable without a new
+top-level topic or demonstration. Each answers a different question:
+allowed access, a task's success condition, the evidence handed to a reviewer,
+and whether a check can distinguish the relevant defect.
+
+## Alternatives
+
+- Restore complete M4-M6 tutorials: requires architecture, C++ implementation,
+  testing tools and runtime evidence outside the current story and timing.
+- Add every proposed bridge at once: increases density and duplicates the
+  current Context, candidate-selection and personal-reflection explanations.
+- Add module labels alone: improves navigation but leaves the four practical
+  links implicit.
+
+## Trade-offs
+
+The additions replace existing explanation and optional elaboration. Their
+zero net time is a planning allocation, not an observed rehearsal result.
+The presenter must keep teaching examples separate from historical records.
+Module labels need to remain small enough to preserve reading order.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-LEARNING-003, INV-VERIFY-001,
+INV-RESPONSIBILITY-001, INV-DEMO-003, INV-SOT-003.
+
+## Affected Artifacts
+
+S07/S14/S18/S19 Slide Map fields and Speaker Notes; production source;
+all-slide module relation labels; integrated and ACT PPTX; embedded and
+Markdown Notes; previews; revision evaluation; fallback provenance;
+handoff/checklist and the offline presenter bundle.
+
+## Evidence
+
+production/evaluation/LEGACY_M1_M9_COVERAGE_AUDIT.md; current slide text,
+Speaker Notes and Slide Map time/Mode allocations; existing TRIAL-001,
+TRIAL-002 and crop contract records; explicit user approval on 2026-10-21
+for the four first-priority changes and all-slide module relation labels.
+
+## Training Relevance
+
+YES — strengthen the practical links between task definition, evidence and
+human review while preserving the approved problem-driven course story.
+
+## Follow-up
+
+Review local production renders and Notes alignment after the changes, then
+refresh package provenance. Actual timing, Windows PowerPoint, target fonts,
+classroom projection, current account and Live environment remain UNVERIFIED.
+The deferred topics require a separate content decision before production.
+
+## Approval
+
+Explicit user approval on 2026-10-21 to implement the four first-priority
+bridges and M1-M9 relation labels while preserving 80 slides and 360 minutes.

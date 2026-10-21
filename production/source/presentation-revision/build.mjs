@@ -6,6 +6,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
 import { createHash } from 'node:crypto';
 import * as H from './helpers.mjs';
+import {priorityFactories,addModuleFooter} from './legacy-priority.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
 const ROOT=process.env.TRAINING_REPO??path.resolve(here,'../../..');
@@ -40,6 +41,10 @@ Object.assign(factories,await (await import('./additional-visuals.mjs')).loadAdd
 for(const name of ['polish-early','polish-late'])Object.assign(factories,(await import(`./${name}.mjs`)).slides);
 Object.assign(factories,await (await import('./polish-harness.mjs')).loadHarnessPolishSlides(ROOT));
 Object.assign(factories,await (await import('./polish-visuals.mjs')).loadVisualPolishSlides(ROOT));
+Object.assign(factories,priorityFactories(factories,H));
+const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
+if(moduleMap.slides.length!==80)throw new Error('Expected 80 legacy module mappings.');
+const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -63,6 +68,7 @@ for(const deck of decks){
  for(const id of deck.ids){
   const before=p.slides.items.length;const s=factories[id](p,H);
   if(p.slides.items.length!==before+1)throw new Error('Each factory must add exactly one slide: '+id);
+  addModuleFooter(s,id,moduleRecords[id],H);
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
  }

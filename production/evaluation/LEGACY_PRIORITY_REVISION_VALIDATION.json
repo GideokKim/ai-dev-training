@@ -1,0 +1,2382 @@
+{
+  "date": "2026-10-21",
+  "decision": "DEC-0033",
+  "status": "PASS",
+  "baselineCommit": "5c265ae176652110f049bb36f9bbe4cd05841d24",
+  "validationScope": "Programmatic source/artifact preservation and package-content checks only; no rendering, application tests, visual review, rehearsal, target PowerPoint, or current-product execution is performed by this script.",
+  "slideCount": 80,
+  "actCounts": [
+    9,
+    12,
+    15,
+    18,
+    18,
+    8
+  ],
+  "actMinutes": [
+    40.0,
+    55.0,
+    70.0,
+    85.0,
+    80.0,
+    30.0
+  ],
+  "modeMinutes": {
+    "Lecture": 130.0,
+    "Demo": 73.0,
+    "Case": 83.0,
+    "Reflection": 20.0,
+    "Transition": 22.0,
+    "Q&A": 32.0
+  },
+  "totalMinutes": 360.0,
+  "approvedBodySlides": [
+    "S07",
+    "S14",
+    "S18",
+    "S19"
+  ],
+  "changedBodySlidesByDeck": {
+    "AI_Dev_Training_Full": [
+      "S07",
+      "S14",
+      "S18",
+      "S19"
+    ],
+    "ACT_0": [
+      "S07"
+    ],
+    "ACT_1": [
+      "S14",
+      "S18",
+      "S19"
+    ],
+    "ACT_2": [],
+    "ACT_3": [],
+    "ACT_4": [],
+    "ACT_5": []
+  },
+  "unchangedScreenTextExceptFooter": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S15",
+    "S16",
+    "S17",
+    "S20",
+    "S21",
+    "S22",
+    "S23",
+    "S24",
+    "S25",
+    "S26",
+    "S27",
+    "S28",
+    "S29",
+    "S30",
+    "S31",
+    "S32",
+    "S33",
+    "S34",
+    "S35",
+    "S36",
+    "S37",
+    "S38",
+    "S39",
+    "S40",
+    "S41",
+    "S42",
+    "S43",
+    "S44",
+    "S45",
+    "S46",
+    "S47",
+    "S48",
+    "S49",
+    "S50",
+    "S51",
+    "S52",
+    "S53",
+    "S54",
+    "S55",
+    "S56",
+    "S57",
+    "S58",
+    "S59",
+    "S60",
+    "S61",
+    "S62",
+    "S63",
+    "S64",
+    "S65",
+    "S66",
+    "S67",
+    "S68",
+    "S69",
+    "S70",
+    "S71",
+    "S72",
+    "S73",
+    "S74",
+    "S75",
+    "S76",
+    "S77",
+    "S78",
+    "S79",
+    "S80"
+  ],
+  "changedSlideImages": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20",
+    "S21",
+    "S22",
+    "S23",
+    "S24",
+    "S25",
+    "S26",
+    "S27",
+    "S28",
+    "S29",
+    "S30",
+    "S31",
+    "S32",
+    "S33",
+    "S34",
+    "S35",
+    "S36",
+    "S37",
+    "S38",
+    "S39",
+    "S40",
+    "S41",
+    "S42",
+    "S43",
+    "S44",
+    "S45",
+    "S46",
+    "S47",
+    "S48",
+    "S49",
+    "S50",
+    "S51",
+    "S52",
+    "S53",
+    "S54",
+    "S55",
+    "S56",
+    "S57",
+    "S58",
+    "S59",
+    "S60",
+    "S61",
+    "S62",
+    "S63",
+    "S64",
+    "S65",
+    "S66",
+    "S67",
+    "S68",
+    "S69",
+    "S70",
+    "S71",
+    "S72",
+    "S73",
+    "S74",
+    "S75",
+    "S76",
+    "S77",
+    "S78",
+    "S79",
+    "S80"
+  ],
+  "notesRecords": 80,
+  "notesFields": 19,
+  "changedNotesFields": {
+    "S07": [
+      "Speaker Flow",
+      "Claim Boundary",
+      "Time Management"
+    ],
+    "S14": [
+      "Speaker Flow",
+      "Claim Boundary",
+      "Audience Interaction",
+      "Time Management"
+    ],
+    "S18": [
+      "Speaker Flow",
+      "Claim Boundary",
+      "C++ Vision Bridge",
+      "Demo Operation",
+      "Time Management"
+    ],
+    "S19": [
+      "Speaker Flow",
+      "Claim Boundary",
+      "C++ Vision Bridge",
+      "Demo Operation",
+      "Time Management"
+    ]
+  },
+  "protectedNotesFieldsPreserved": [
+    "ACT / Section",
+    "Allocated Time",
+    "Mode Split",
+    "Primary Message",
+    "Slide ID",
+    "Transition",
+    "Working Title"
+  ],
+  "existingClaimBoundariesRetained": true,
+  "aggregateAndEmbeddedNotesMatch": true,
+  "changedMapFields": {
+    "S07": [
+      "Core Message",
+      "Visual Concept",
+      "Speaker Intent"
+    ],
+    "S14": [
+      "Core Message",
+      "Visual Concept",
+      "Speaker Intent"
+    ],
+    "S18": [
+      "Core Message",
+      "Visual Concept",
+      "Speaker Intent"
+    ],
+    "S19": [
+      "Core Message",
+      "Visual Concept",
+      "Speaker Intent"
+    ]
+  },
+  "allOtherMapFieldsPreserved": true,
+  "protectedSourcesByteIdentical": [
+    "plan/MASTER_PLAN.md",
+    "plan/INVARIANTS.md",
+    "plan/CLAIM_FREEZE.md",
+    "plan/CURRICULUM.md",
+    "plan/SLIDE_TEMPLATE_MAP.md",
+    "plan/STORY_BEATS.md"
+  ],
+  "visualSpecChange": "Existing content preserved; DEC-0033 footer rules appended",
+  "legacySourceSha256": "b29bdfbac8687024781af4a54f4cf26a999333a438798714402d33235746d9ea",
+  "moduleMapSha256": "f9b83c7b6464a72933147931faaac656cb8f0a78bc1e8ae4c62972e285d2b957",
+  "moduleMapRecords": 80,
+  "moduleRelationMeaning": "M 연계는 현재 화면에서 직접 가르치는 원모듈의 개별 내용 또는 명시적인 공통 원칙의 연결이다. 원모듈 전체 이수·완전 이관·원사례 구현·성과 보증을 뜻하지 않는다. 직접 교수 연결이 없는 현행 확장은 신규 확장으로 표시한다.",
+  "moduleFooterCounts": {
+    "full": 80,
+    "acts": 80,
+    "total": 160
+  },
+  "moduleFooterBoundsEmu": [
+    609600,
+    6229350,
+    10972800,
+    171450
+  ],
+  "moduleFooters": [
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S01",
+      "label": "M 연계 · M1",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S02",
+      "label": "M 연계 · M1",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S03",
+      "label": "M 연계 · M1 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S04",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S05",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S06",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S07",
+      "label": "M 연계 · M1",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S08",
+      "label": "M 연계 · M1 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S09",
+      "label": "M 연계 · M1 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S10",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S11",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S12",
+      "label": "M 연계 · M2 · M4",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S13",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S14",
+      "label": "M 연계 · M2 · M4 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S15",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S16",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S17",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S18",
+      "label": "M 연계 · M1 · M2 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S19",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S20",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S21",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S22",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S23",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S24",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S25",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S26",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S27",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S28",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S29",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S30",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S31",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S32",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S33",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S34",
+      "label": "M 연계 · M2 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S35",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S36",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S37",
+      "label": "M 연계 · M2 · M5 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S38",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S39",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S40",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S41",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S42",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S43",
+      "label": "M 연계 · M2 · M5",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S44",
+      "label": "M 연계 · M2 · M5 · M9",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S45",
+      "label": "M 연계 · M5",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S46",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S47",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S48",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S49",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S50",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S51",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S52",
+      "label": "M 연계 · M2 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S53",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S54",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S55",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S56",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S57",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S58",
+      "label": "M 연계 · M2 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S59",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S60",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S61",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S62",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S63",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S64",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S65",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S66",
+      "label": "M 연계 · M2 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S67",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S68",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S69",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S70",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S71",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S72",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S73",
+      "label": "M 연계 · M1 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S74",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S75",
+      "label": "M 연계 · M8 · M9",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S76",
+      "label": "M 연계 · M1 · M2 · M4 · M5 · M6 · M9",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S77",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S78",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S79",
+      "label": "M 연계 · M1 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "AI_Dev_Training_Full",
+      "slideId": "S80",
+      "label": "M 연계 · M1",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_0",
+      "slideId": "S01",
+      "label": "M 연계 · M1",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_0",
+      "slideId": "S02",
+      "label": "M 연계 · M1",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_0",
+      "slideId": "S03",
+      "label": "M 연계 · M1 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_0",
+      "slideId": "S04",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_0",
+      "slideId": "S05",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_0",
+      "slideId": "S06",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_0",
+      "slideId": "S07",
+      "label": "M 연계 · M1",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_0",
+      "slideId": "S08",
+      "label": "M 연계 · M1 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_0",
+      "slideId": "S09",
+      "label": "M 연계 · M1 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_1",
+      "slideId": "S10",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_1",
+      "slideId": "S11",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_1",
+      "slideId": "S12",
+      "label": "M 연계 · M2 · M4",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_1",
+      "slideId": "S13",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_1",
+      "slideId": "S14",
+      "label": "M 연계 · M2 · M4 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_1",
+      "slideId": "S15",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_1",
+      "slideId": "S16",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_1",
+      "slideId": "S17",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_1",
+      "slideId": "S18",
+      "label": "M 연계 · M1 · M2 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_1",
+      "slideId": "S19",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_1",
+      "slideId": "S20",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_1",
+      "slideId": "S21",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S22",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S23",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S24",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S25",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S26",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S27",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S28",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S29",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S30",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S31",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S32",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S33",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S34",
+      "label": "M 연계 · M2 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S35",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_2",
+      "slideId": "S36",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S37",
+      "label": "M 연계 · M2 · M5 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S38",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S39",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S40",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S41",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S42",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S43",
+      "label": "M 연계 · M2 · M5",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S44",
+      "label": "M 연계 · M2 · M5 · M9",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S45",
+      "label": "M 연계 · M5",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S46",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S47",
+      "label": "M 연계 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S48",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S49",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S50",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S51",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S52",
+      "label": "M 연계 · M2 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S53",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_3",
+      "slideId": "S54",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S55",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S56",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S57",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S58",
+      "label": "M 연계 · M2 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S59",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S60",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S61",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S62",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S63",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S64",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S65",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S66",
+      "label": "M 연계 · M2 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S67",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S68",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S69",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S70",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S71",
+      "label": "M 연계 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_4",
+      "slideId": "S72",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_5",
+      "slideId": "S73",
+      "label": "M 연계 · M1 · M2",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_5",
+      "slideId": "S74",
+      "label": "M 연계 · M5 · M6",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_5",
+      "slideId": "S75",
+      "label": "M 연계 · M8 · M9",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_5",
+      "slideId": "S76",
+      "label": "M 연계 · M1 · M2 · M4 · M5 · M6 · M9",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_5",
+      "slideId": "S77",
+      "label": "M 연계 · 신규 확장",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_5",
+      "slideId": "S78",
+      "label": "M 연계 · M2 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_5",
+      "slideId": "S79",
+      "label": "M 연계 · M1 · M8",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    },
+    {
+      "deck": "ACT_5",
+      "slideId": "S80",
+      "label": "M 연계 · M1",
+      "boundsEmu": [
+        609600,
+        6229350,
+        10972800,
+        171450
+      ]
+    }
+  ],
+  "nativeS45ChartDataPreserved": true,
+  "embeddedMediaHashesPreserved": true,
+  "imageGeometryException": "S07 only; embedded image bytes remain preserved",
+  "actAndFullPreviewMatch": true,
+  "previewDimensions": [
+    1920,
+    1080
+  ],
+  "packages": [
+    {
+      "file": "production/AI_Dev_Training_Full.pptx",
+      "slides": 80,
+      "sha256": "0ee8e9ec3a7b825bda2fe035b914677353c3aeeb530b44a5946f168e3c438c9a",
+      "embeddedNotesMatch": true,
+      "moduleFooterCount": 80,
+      "nativeChartOwnerSlideIds": [
+        "S45"
+      ],
+      "nativeChartDataPreserved": true,
+      "embeddedMediaHashesPreserved": true
+    },
+    {
+      "file": "production/ACT_0.pptx",
+      "slides": 9,
+      "sha256": "8ecb1177f92cdf7f797db22dd9f021804341e059f7f532ed28b5744e2aa23391",
+      "embeddedNotesMatch": true,
+      "moduleFooterCount": 9,
+      "nativeChartOwnerSlideIds": [],
+      "nativeChartDataPreserved": true,
+      "embeddedMediaHashesPreserved": true
+    },
+    {
+      "file": "production/ACT_1.pptx",
+      "slides": 12,
+      "sha256": "b4e6406afddaf5e2d14404d699f0fcc88533dde4fdf2ddc2e45aebb23658e2d8",
+      "embeddedNotesMatch": true,
+      "moduleFooterCount": 12,
+      "nativeChartOwnerSlideIds": [],
+      "nativeChartDataPreserved": true,
+      "embeddedMediaHashesPreserved": true
+    },
+    {
+      "file": "production/ACT_2.pptx",
+      "slides": 15,
+      "sha256": "8ea9b784cfc17b46f07fd9bad5e79bc6f880955a4307322273d1fe3e66cc1b82",
+      "embeddedNotesMatch": true,
+      "moduleFooterCount": 15,
+      "nativeChartOwnerSlideIds": [],
+      "nativeChartDataPreserved": true,
+      "embeddedMediaHashesPreserved": true
+    },
+    {
+      "file": "production/ACT_3.pptx",
+      "slides": 18,
+      "sha256": "88e7cc61e4639620dacd99d7797d986854b5840be0d471e3141f7747bc68450c",
+      "embeddedNotesMatch": true,
+      "moduleFooterCount": 18,
+      "nativeChartOwnerSlideIds": [
+        "S45"
+      ],
+      "nativeChartDataPreserved": true,
+      "embeddedMediaHashesPreserved": true
+    },
+    {
+      "file": "production/ACT_4.pptx",
+      "slides": 18,
+      "sha256": "d8105633b27a73c643e0b767dab1d2d485cc893b4d3de8eeeef4b0d49d7ff66b",
+      "embeddedNotesMatch": true,
+      "moduleFooterCount": 18,
+      "nativeChartOwnerSlideIds": [],
+      "nativeChartDataPreserved": true,
+      "embeddedMediaHashesPreserved": true
+    },
+    {
+      "file": "production/ACT_5.pptx",
+      "slides": 8,
+      "sha256": "ae5bc6219a0e4628921b46691a23987b651efc47387941dea492ebd599e41264",
+      "embeddedNotesMatch": true,
+      "moduleFooterCount": 8,
+      "nativeChartOwnerSlideIds": [],
+      "nativeChartDataPreserved": true,
+      "embeddedMediaHashesPreserved": true
+    }
+  ],
+  "demoRepository": {
+    "head": "afef3e0c66d3f7a29790c37034d5aad274ac5ce8",
+    "status": "",
+    "headAndStatusMatchBaseline": true
+  },
+  "trialsOrBenchmarksExecutedByValidator": false,
+  "localVisualReview": {
+    "status": "NOT_PERFORMED_BY_THIS_SCRIPT",
+    "individualPngsReviewed": 0,
+    "adjacentConnectionsReviewed": 0
+  },
+  "targetWindowsPowerPoint": "UNVERIFIED",
+  "targetFonts": "UNVERIFIED",
+  "roomProjection": "UNVERIFIED",
+  "timedRehearsal": "UNVERIFIED",
+  "productAccountEnvironment": "UNVERIFIED",
+  "independentLocalVisualReview": {
+    "status": "COMPLETE",
+    "individualSlideIds": [
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S22",
+      "S23",
+      "S24",
+      "S25",
+      "S26",
+      "S27",
+      "S28",
+      "S29",
+      "S30",
+      "S31",
+      "S32",
+      "S33",
+      "S34",
+      "S35",
+      "S36",
+      "S37",
+      "S38",
+      "S39",
+      "S40",
+      "S41",
+      "S42",
+      "S43",
+      "S44",
+      "S45",
+      "S46",
+      "S47",
+      "S48",
+      "S49",
+      "S50",
+      "S51",
+      "S52",
+      "S53",
+      "S54",
+      "S55",
+      "S56",
+      "S57",
+      "S58",
+      "S59",
+      "S60",
+      "S61",
+      "S62",
+      "S63",
+      "S64",
+      "S65",
+      "S66",
+      "S67",
+      "S68",
+      "S69",
+      "S70",
+      "S71",
+      "S72",
+      "S73",
+      "S74",
+      "S75",
+      "S76",
+      "S77",
+      "S78",
+      "S79",
+      "S80"
+    ],
+    "ranges": [
+      "S01–S26",
+      "S27–S54",
+      "S55–S80"
+    ],
+    "finalV2VerifiedIdenticalToReviewedV1Except": [
+      "S19"
+    ],
+    "S19FinalV2IndividuallyReviewed": true,
+    "newClippingOrOverlapFound": false,
+    "reviewScope": "Local Artifact Tool PNGs and Notes; no target PowerPoint, projection or timed rehearsal"
+  },
+  "finalizerPackages": [
+    {
+      "file": "production/AI_Dev_Training_Full.pptx",
+      "sha256": "0ee8e9ec3a7b825bda2fe035b914677353c3aeeb530b44a5946f168e3c438c9a",
+      "packageFindingCount": 0,
+      "layoutFindingCount": 0,
+      "fontPolicyPassed": true,
+      "firstPartyImportPassed": true,
+      "nativeChartValidation": {
+        "detectedOwnerSlides": [
+          45
+        ],
+        "detectedChartCount": 1,
+        "targetApplication": "portable",
+        "sourceChartOwnersExplicitlyDeclared": true,
+        "validatorRan": true,
+        "passed": true
+      }
+    },
+    {
+      "file": "production/ACT_0.pptx",
+      "sha256": "8ecb1177f92cdf7f797db22dd9f021804341e059f7f532ed28b5744e2aa23391",
+      "packageFindingCount": 0,
+      "layoutFindingCount": 0,
+      "fontPolicyPassed": true,
+      "firstPartyImportPassed": true,
+      "nativeChartValidation": {
+        "detectedOwnerSlides": [],
+        "detectedChartCount": 0,
+        "targetApplication": "portable",
+        "sourceChartOwnersExplicitlyDeclared": true,
+        "validatorRan": false,
+        "passed": true
+      }
+    },
+    {
+      "file": "production/ACT_1.pptx",
+      "sha256": "b4e6406afddaf5e2d14404d699f0fcc88533dde4fdf2ddc2e45aebb23658e2d8",
+      "packageFindingCount": 0,
+      "layoutFindingCount": 0,
+      "fontPolicyPassed": true,
+      "firstPartyImportPassed": true,
+      "nativeChartValidation": {
+        "detectedOwnerSlides": [],
+        "detectedChartCount": 0,
+        "targetApplication": "portable",
+        "sourceChartOwnersExplicitlyDeclared": true,
+        "validatorRan": false,
+        "passed": true
+      }
+    },
+    {
+      "file": "production/ACT_2.pptx",
+      "sha256": "8ea9b784cfc17b46f07fd9bad5e79bc6f880955a4307322273d1fe3e66cc1b82",
+      "packageFindingCount": 0,
+      "layoutFindingCount": 0,
+      "fontPolicyPassed": true,
+      "firstPartyImportPassed": true,
+      "nativeChartValidation": {
+        "detectedOwnerSlides": [],
+        "detectedChartCount": 0,
+        "targetApplication": "portable",
+        "sourceChartOwnersExplicitlyDeclared": true,
+        "validatorRan": false,
+        "passed": true
+      }
+    },
+    {
+      "file": "production/ACT_3.pptx",
+      "sha256": "88e7cc61e4639620dacd99d7797d986854b5840be0d471e3141f7747bc68450c",
+      "packageFindingCount": 0,
+      "layoutFindingCount": 0,
+      "fontPolicyPassed": true,
+      "firstPartyImportPassed": true,
+      "nativeChartValidation": {
+        "detectedOwnerSlides": [
+          9
+        ],
+        "detectedChartCount": 1,
+        "targetApplication": "portable",
+        "sourceChartOwnersExplicitlyDeclared": true,
+        "validatorRan": true,
+        "passed": true
+      }
+    },
+    {
+      "file": "production/ACT_4.pptx",
+      "sha256": "d8105633b27a73c643e0b767dab1d2d485cc893b4d3de8eeeef4b0d49d7ff66b",
+      "packageFindingCount": 0,
+      "layoutFindingCount": 0,
+      "fontPolicyPassed": true,
+      "firstPartyImportPassed": true,
+      "nativeChartValidation": {
+        "detectedOwnerSlides": [],
+        "detectedChartCount": 0,
+        "targetApplication": "portable",
+        "sourceChartOwnersExplicitlyDeclared": true,
+        "validatorRan": false,
+        "passed": true
+      }
+    },
+    {
+      "file": "production/ACT_5.pptx",
+      "sha256": "ae5bc6219a0e4628921b46691a23987b651efc47387941dea492ebd599e41264",
+      "packageFindingCount": 0,
+      "layoutFindingCount": 0,
+      "fontPolicyPassed": true,
+      "firstPartyImportPassed": true,
+      "nativeChartValidation": {
+        "detectedOwnerSlides": [],
+        "detectedChartCount": 0,
+        "targetApplication": "portable",
+        "sourceChartOwnersExplicitlyDeclared": true,
+        "validatorRan": false,
+        "passed": true
+      }
+    }
+  ]
+}

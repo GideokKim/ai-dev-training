@@ -243,17 +243,17 @@ ACT별 Mode 대조:
 - **Working Title:** 코드를 AI에게 가져가는 대신 AI를 Repository로 데려간다
 - **Primary Role:** Mental Shift 정리
 - **Audience Question:** “Context 수집의 일부를 누가 맡을 수 있는가?”
-- **Core Message:** Repository 조사는 개발자가 코드를 일일이 전달하는 대신 Agent가 사용 가능한 Context를 찾도록 할 수 있다.
+- **Core Message:** Repository 조사는 개발자가 코드를 일일이 전달하는 대신 Agent가 사용 가능한 Context를 찾도록 할 수 있다. 연결·자료 전달 전 승인된 도구·계정·자료·접근 권한 범위를 먼저 확인한다. 회사별 실제 허용·금지 정책은 여기서 확정하지 않는다.
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 80장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 관찰은 CLI 한 번에 한정되며 제품의 보편적 성능 주장이 아님
-- **Visual Concept:** `Bring code to AI → Bring AI to repository`. 작은 C++ Vision 인셋에 `large repository / modules / build config / tests / contracts`
+- **Visual Concept:** `Bring code to AI → Bring AI to repository` 관계 비교를 유지한다. 작은 C++ Vision 인셋의 `large repository / modules / build config / tests / contracts`는 선택적 연결로 한정하고, 기존 재설명 시간을 줄여 도구·계정·자료·접근 권한의 사전 확인을 Notes에서 짧게 안내한다.
 - **Demo / Case Connection:** DEMO-01 관찰 결과 회수
 - **Beginner Payoff:** 관련 파일을 모두 복사하기 전에 Repository 조사를 요청해볼 수 있다.
 - **Advanced Payoff:** Context 수집 책임의 이동과 목표 설정 책임을 구분한다.
 - **C++ Vision Bridge:** 있음 — 독립 장이 아니라 같은 Mental Shift의 인셋
-- **Speaker Intent:** 관찰한 변화가 “AI가 더 잘 코딩한다”가 아니라 “누가 Context를 찾는가”임을 강조한다.
+- **Speaker Intent:** 관찰한 변화가 “AI가 더 잘 코딩한다”가 아니라 “누가 Context를 찾는가”임을 강조한다. 기존 재설명과 선택적 C++ 해설 일부를 접근 범위 확인 45초로 교체하고, Repository 접근과 Task 의도를 구분하는 다음 질문으로 이어 간다.
 - **Transition:** Repository 접근과 Task 의도가 같은 것인지 살펴본다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
@@ -413,18 +413,18 @@ ACT별 Mode 대조:
 - **Working Title:** 더 긴 Prompt보다 분명한 경계
 - **Primary Role:** 약한 요청과 구조화된 요청을 간결하게 비교한다.
 - **Audience Question:** “두 요청에서 실제로 달라진 정보는 무엇인가?”
-- **Core Message:** 유용성은 Prompt의 길이보다 Goal과 제약, 과정, 검증 경계가 분명한 데서 나온다.
+- **Core Message:** 유용성은 Prompt의 길이보다 Goal과 제약, 과정, 검증 경계가 분명한 데서 나온다. 기존 crop 계약을 4열 입력·crop 1 3·원본 열 1·2/출력 폭 2의 구체 완료 조건으로 연결한다.
 - **Story Beat:** BEAT-005
 - **Curriculum Trace:** ACT 1 — Practical Prompt Checklist and Before/After.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 80장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. TRIAL-002가 약한 Prompt 대비 우월성을 실험했다는 뜻은 아니다.
 - **Visual Concept:** - Before: `crop test 고쳐줘.`
-  - After: Goal — failing crop boundary 조사 및 수정. Context — repository의 failing test. Constraints — public contract 유지, unrelated API 변경 금지, dependency 추가 금지. Process — reproduce → inspect → plan → minimal change. Verification — focused test, full suite, smoke if practical, diff review.
+  - After: Goal — failing crop boundary 조사 및 수정. Context — repository의 failing test. Constraints — public contract 유지, unrelated API 변경 금지, dependency 추가 금지. Process — reproduce → inspect → plan → minimal change. Verification — focused test, full suite, smoke if practical, diff review. 기존 Case 안에서 Given 4열 합성 입력 → When crop 1 3 → Then 원본 열 1·2, 출력 폭 2의 완료 조건을 교육용 예시로 연결한다. 당시 TRIAL-002 Prompt 원문이 아니다.
 - **Demo / Case Connection:** 실무 적용 예시. TRIAL-002 전체 Prompt를 작은 글씨로 싣지 않는다.
 - **Beginner Payoff:** 바로 재사용할 수 있는 요청 구성 원리를 본다.
 - **Advanced Payoff:** 작업 범위, 사전 계획, 허용된 변경을 검토 가능한 경계로 다룬다.
 - **C++ Vision Bridge:** 짧은 inset으로 Release build, public API/ABI, hardware constraint, test/benchmark 예를 든다. 도구 목록 강의는 하지 않는다.
-- **Speaker Intent:** After의 단어 수가 아니라 금지된 변경과 완료 증거가 어떻게 명시됐는지 짚는다.
+- **Speaker Intent:** After의 단어 수가 아니라 금지된 변경과 완료 증거가 어떻게 명시됐는지 짚는다. 기존 Case 3분 중 90초를 구체 완료 조건 해설로 교체하며, 일반 비교와 실제 Trial 관찰로 넘어가는 흐름을 유지한다.
 - **Transition:** “여기까지는 교육용 구성 예시였습니다. 이제 과거 TRIAL-002에서 요청한 흐름과 기록된 행동을 살펴보겠습니다.”라고 실제 기록의 관찰 기준으로 이동한다.
 - **Estimated Time:** 9분
 - **Delivery Mode Allocation:** Lecture 6분 + Case 3분 = 9분
@@ -510,17 +510,17 @@ ACT별 Mode 대조:
 - **Working Title:** Generated ≠ Done
 - **Primary Role:** 생성과 완료 판단 사이에 필요한 확인을 설명한다.
 - **Audience Question:** “어떤 Check가 어떤 Claim을 뒷받침하는가?”
-- **Core Message:** Task는 결과뿐 아니라 적절한 검증과 review를 포함해야 한다.
+- **Core Message:** Task는 결과뿐 아니라 적절한 검증과 review를 포함해야 한다. 변경 이유·범위, 검증 근거·결과, 미확인 사항, 사람의 수용 판단을 짧은 결과 인계로 연결한다.
 - **Story Beat:** BEAT-007; INV-VERIFY-001
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 80장 구조·Story·시간·Demo 범위; TEACHING_MODEL; OBSERVED PRODUCT는 TRIAL-002 결과에 한정하고, check와 claim의 관계는 일반 Engineering 모델로 구분한다.
-- **Visual Concept:** `Generate → ?` 아래에 Test, Smoke, Benchmark if needed, Diff review를 둔다.
+- **Visual Concept:** `Generate → ?`와 Test, Smoke, Benchmark if needed, Diff review의 판단 관계를 유지한다. 검증 근거의 재나열을 변경 이유·범위 / 검증 근거·결과 / 미확인 / 사람의 수용 판단 네 항목의 검토용 결과 인계 예시로 묶는다. 기존 crop 기록을 가리키는 강의용 정리이며 실제 PR이나 당시 답변 원문은 아니다.
 - **Demo / Case Connection:** Trial에서 실제 수행한 확인과 성능 주장을 위한 조건부 benchmark를 구분한다.
 - **Beginner Payoff:** 코드가 나왔다는 사실만으로 완료라고 판단하지 않는다.
 - **Advanced Payoff:** 주장에 맞는 검증 근거를 선택한다.
 - **C++ Vision Bridge:** Slide 19의 검증 범위 inset에서 다룬다.
-- **Speaker Intent:** 모든 작업에 모든 검사를 요구하지 않고, 주장과 위험에 맞는 확인을 연결한다.
+- **Speaker Intent:** 모든 작업에 모든 검사를 요구하지 않고, 주장과 위험에 맞는 확인을 연결한다. 기존 Lecture 3분 안에서 결과 인계 예시에 90초를 사용하고, 조건부 성능 측정과 S19의 확인 범위 질문을 보존한다.
 - **Transition:** Slide 19에서 각 Check가 뒷받침하는 범위를 비교한다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
@@ -534,17 +534,17 @@ ACT별 Mode 대조:
 - **Working Title:** Check마다 확인하는 범위
 - **Primary Role:** Check의 종류와 각 Check가 뒷받침하는 주장을 연결한다.
 - **Audience Question:** “이 Check로 무엇까지 말할 수 있는가?”
-- **Core Message:** Check 하나가 모든 정확성을 증명하지는 않는다.
+- **Core Message:** Check 하나가 모든 정확성을 증명하지는 않는다. 결과가 비어 있지 않다는 확인만으로 crop의 끝 좌표 제외 계약을 검증할 수 없으며, 해당 입력의 기대 열과 출력 폭을 비교해야 그 차이를 구별할 수 있다.
 - **Story Beat:** BEAT-007; INV-VERIFY-001
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 80장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; Trial의 실제 결과와 일반적인 검증 모델을 분리한다. TRIAL-002에서는 benchmark를 수행하지 않았다.
-- **Visual Concept:** Focused test—변경 동작, full test—알려진 회귀 범위, smoke—통합 경로, diff review—범위와 의도치 않은 변경, benchmark—성능 주장.
+- **Visual Concept:** Focused test—변경 동작, full test—알려진 회귀 범위, smoke—통합 경로, diff review—범위와 의도치 않은 변경, benchmark—성능 주장의 다섯 대응을 유지한다. C++ footer 해설·중복 소개 일부를 “비어 있지 않음”과 “원본 열 1·2, 출력 폭 2”의 검증 범위 비교로 교체한다. 반례는 강의용 재구성이며 새 실행 결과나 당시 assertion 원문이 아니다.
 - **Demo / Case Connection:** TRIAL-002의 tests, CLI smoke, diff 확인을 실제 예로 두고, benchmark는 필요한 경우의 예로 표시한다.
 - **Beginner Payoff:** 검사 결과가 무엇을 말해주는지 과장하지 않는다.
 - **Advanced Payoff:** C++ 프로젝트에는 GoogleTest/CTest, Release build, Google Benchmark/profiler, public API/ABI 확인 등을 상황에 맞게 연결할 수 있다.
 - **C++ Vision Bridge:** 위 예시를 짧은 inset으로 둔다. Python Demo를 C++ 도구 설명으로 전환하지 않는다.
-- **Speaker Intent:** 도구 이름보다 `Goal → Constraint → Verification`의 전이를 강조한다.
+- **Speaker Intent:** 도구 이름보다 `Goal → Constraint → Verification`의 전이를 강조한다. Lecture 4분 중 90초를 검사가 계약 위반을 구별하는지 해설하는 데 쓰고 Reflection 1분을 보존한다. 비어 있지 않음 검사를 항상 무의미하다고 부르거나 한 기대값 비교로 모든 입력의 정확성을 보장하지 않는다.
 - **Transition:** “방금 정한 테스트 명령과 보존 조건은 다음 작업에도 필요할 수 있습니다. 이 설명을 매번 다시 적어야 할까요?”라고 검증 지침의 재사용에서 S20의 정보 수명 질문으로 연결한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 4분 + Reflection 1분 = 5분

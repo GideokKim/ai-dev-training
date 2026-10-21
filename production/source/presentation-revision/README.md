@@ -8,7 +8,9 @@ its labeled reconstruction because no original execution capture is available.
 DEC-0030 applies the fourteen approved presentation improvements to 32 slides,
 keeping all source mappings, time allocations and evidence boundaries.
 DEC-0032 improves the reviewed adjacent-slide handoffs and private closing
-reflection through the same factories, preserving all protected fields.
+reflection through the same factories. DEC-0033 reinforces S07/S14/S18/S19
+and applies a bounded legacy-module connection footer to all 80 slides.
+Slide identities, time allocations and evidence boundaries remain protected.
 They use `@oai/artifact-tool`; text, diagrams and the S45 chart remain native
 PowerPoint elements. Comparison rows are editable text and rule objects, not
 flattened images. Content authority stays in `plan/`, and Notes are
@@ -23,6 +25,8 @@ read from the six `production/notes/ACT_*_NOTES.md` files.
 - `polish-early.mjs`, `polish-harness.mjs`, `polish-late.mjs`: approved reading
   hierarchy, bilingual excerpts, distinct slide roles and evidence labels.
 - `polish-visuals.mjs`: S72 question hierarchy and S74 directed State rail.
+- `legacy-priority.mjs`: the four approved teaching additions and safe-area footer.
+- `legacy-module-map.json`: all 80 footer labels and bounded module relations.
 - `build.mjs`: draft/release export, package validation and exact-file rendering.
 
 Use the bundled Codex runtime. Set `RUNTIME_NODE_MODULES`, `RUNTIME_PYTHON`,
@@ -44,3 +48,7 @@ Additional assets, exact prompt, source-render hashes and native crop windows
 are preserved under `assets/slide-illustrations/`. The S74 excerpts reuse
 frozen renders of the existing S16/S32/S45 teaching material. They are not raw
 execution screenshots, and the original S45 chart stays editable in its slide.
+
+DEC-0033 renders the full deck and every ACT because all footers change. The
+M labels identify related teaching content or principles; they do not claim
+completion of the original module. Unmatched slides say `신규 확장`.

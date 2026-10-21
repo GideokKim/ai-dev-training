@@ -294,13 +294,14 @@ Opening Question: “Context 수집의 일부를 누가 맡을 수 있는가?”
 
 Speaker Flow:
 
-1. **CALL BACK (0:00–0:45):** 왼쪽 Repository → 개발자 선택·복사 → AI 관계로 S02를 짧게 회수한다.
-2. **TRANSFER (0:45–2:00):** 오른쪽 개발자 조사 요청 → Agent ↔ Repository로 시선을 옮긴다. 바뀌는 것은 Context를 찾는 주체의 일부이며 목표와 검증 책임을 전부 넘긴다는 뜻이 아니다.
-3. **TRANSFER / TRANSITION (2:00–3:00):** 필요하면 큰 C++ 저장소에서도 모듈·테스트·계약을 찾는 상황을 한 문장으로 연결한다. Repository 접근이 원하는 Task를 정하지는 않는다는 S08 질문으로 이동한다.
+1. **CALL BACK (0:00–0:30):** 왼쪽 Repository → 개발자 선택·복사 → AI 관계로 S02를 짧게 회수한다.
+2. **TRANSFER (0:30–1:30):** 오른쪽 개발자 조사 요청 → Agent ↔ Repository로 시선을 옮긴다. 바뀌는 것은 Context를 찾는 주체의 일부이며 목표와 검증 책임을 전부 넘긴다는 뜻이 아니다.
+3. **ACCESS BOUNDARY (1:30–2:15):** Repository를 연결하거나 자료를 전달하기 전에 승인된 도구·계정, 입력 가능한 자료와 허용된 접근 권한 범위를 먼저 확인한다고 설명한다. 회사의 실제 허용·금지 목록과 승인 절차는 이 자료에서 확정하지 않았으므로 해당 조직의 정책을 확인해야 한다. 새로운 제품 설정이나 정책 목록을 가르치지 않는다.
+4. **TRANSFER / TRANSITION (2:15–3:00):** 필요하면 큰 C++ 저장소에서도 모듈·테스트·계약을 찾는 상황을 한 문장으로만 연결한다. Repository 접근이 원하는 Task를 정하지는 않는다는 S08 질문으로 이동한다.
 
 Evidence / Source: DEMO-01 / TRIAL-001 단일 CLI 관찰; BEAT-003, CLM-0002, CLM-0009. 본문은 Context 수집 역할을 비교하는 TEACHING_MODEL이며 하단에 연결된 과거 관찰의 범위를 별도로 표시한다. 삽화 출처: prototype/image-illustration-pilot/assets/S07.png, built-in image_gen, 2026-10-18. 생성 프롬프트: prototype/image-illustration-pilot/PROMPTS.md. 실제 화면·현장 사진·관찰 자료가 아니다.
 
-Claim Boundary: 이 관찰은 CLI 한 번에 한정되며 제품의 보편적 성능·반복성 주장이 아니다. Repository 접근이 Task 의도나 성공을 자동으로 정한다는 뜻이 아니다.
+Claim Boundary: 이 관찰은 CLI 한 번에 한정되며 제품의 보편적 성능·반복성 주장이 아니다. Repository 접근이 Task 의도나 성공을 자동으로 정한다는 뜻이 아니다. 도구·계정·자료·접근 권한의 사전 확인은 교육용 판단 지침이며 특정 회사의 허용·금지 정책이나 현재 제품의 보안 보장을 확인한 결과가 아니다.
 
 Beginner Explanation: 관련 코드를 모두 복사하기보다 Repository 조사를 요청할 수 있는 가능성을 본다.
 
@@ -314,7 +315,7 @@ Audience Interaction: 별도 질의 없음. 청중이 Mental Shift를 비교해 
 
 Transition: “Repository 접근과 Task 의도는 같은가?”라고 물으며 S08에 간다.
 
-Time Management: 좌·우 관계의 변화에 집중한다. Trial 상세와 수치를 반복하지 않는다. C++ 연결은 선택적인 한 문장이며 3분 안에 S08로 이동한다.
+Time Management: 좌·우 관계의 변화에 집중한다. Trial 상세와 수치를 반복하지 않는다. 기존 관계 재설명과 선택적 C++ 해설을 줄여 접근 범위 확인 45초를 배치한다. C++ 연결은 선택적인 한 문장에 한정하고 Lecture 3분 안에 S08로 이동한다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
 
 Fallback: Trial record를 표시할 수 없으면 Mental Shift만 Teaching Model로 설명한다. 제품 전반의 사실처럼 말하지 않는다. 정적 파일: production/preview/act0/S07.png 및 production/preview/full/S07.png.
 

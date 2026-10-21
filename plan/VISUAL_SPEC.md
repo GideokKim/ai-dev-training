@@ -299,3 +299,19 @@ Visual direction과 기본 토큰, 형식, 가독성 기준, Evidence Grammar,
 남는다.
 
 **Next readiness: READY FOR SLIDE-TO-TEMPLATE MAPPING.**
+
+
+## DEC-0033 — Legacy Module Connection Footer
+
+사용자 승인(2026-10-21)에 따라 S01–S80 하단에 작은 `M 연계` 메타데이터를 둔다.
+이는 관련 교수 내용·원칙의 연결이며 M1–M9 전체 모듈의 이수를 뜻하지 않는다.
+직접 연결이 없는 장은 `M 연계 · 신규 확장`으로 표시한다.
+
+- Footer 전용 12pt(1280×720 기준 16px), Secondary 색상, 오른쪽 정렬.
+- Footer는 1920×1080 기준 y=981–1008px 안에 두어 하단 Safe Margin 72px를 지킨다.
+- 기존 Evidence/Source와 Claim Boundary는 14pt 이상을 유지하고 별도 두 줄로 보존한다.
+  새 M 표시에 주장·해석 경계를 대신 담지 않는다. 기존 Main/Evidence 영역의 경계는
+  같은 정보 위계 안에서 소폭 조정한다.
+- 슬라이드별 라벨·판정 범위는 `production/evaluation/LEGACY_MODULE_MAP.md`와
+  `production/source/presentation-revision/legacy-module-map.json`에 기록한다.
+- 제목·본문·Evidence Grammar·80장·360분·Mode 및 조건부 동결의 실환경 검증 Gate는 유지한다.

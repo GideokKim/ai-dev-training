@@ -213,13 +213,14 @@ Speaker Flow:
 1. (0:00–2:00) 왼쪽의 짧은 요청을 읽고 같은 crop 작업을 비교한다고 고정한다.
 2. (2:00–5:00) 오른쪽에서 추가된 목표·맥락, 제약, 과정, 검증 정보를 순서대로 짚는다. 양쪽 모두 한국어 요청이며 영어라서 좋아졌다는 인상을 만들지 않는다.
 3. (5:00–6:00) 하단 C++ 연결에서 출력·API/ABI 보존 범위와 Release 검증 조건도 작업 전에 정할 수 있음을 짧게 말한다.
-4. (6:00–9:00) Case 질문으로 어떤 정보가 추가됐는지 비교한다. 실제 약한/강한 Prompt 비교 실험이 아니며 길이 자체의 효과를 입증하지 않는다고 유지한다.
+4. (6:00–7:30 / Case) 검증 행을 구체 완료 조건으로 읽는다: Given 열 index가 0·1·2·3인 4열 합성 이미지, When `crop 1 3`, Then 원본 열 1·2만 포함하고 출력 폭은 2다. `crop 1 3`은 교육용 범위 표기이며 전체 함수 signature를 뜻하지 않는다. S05의 계약을 요청에 명시하는 교육용 재구성이며 실제 TRIAL-002 Prompt 원문은 아니다.
+5. (7:30–9:00 / Case) 두 요청에서 어떤 정보가 추가됐는지 비교한다. 완료 조건이 드러났다는 점을 짚되 실제 약한/강한 Prompt 비교 실험이 아니며 길이 자체의 효과를 입증하지 않는다고 유지한다.
 
-화면 진행: 이 장은 실제로 더해진 정보의 비교다. 짧은 요청→추가한 네 행→하단 C++ 적용 순서로 가리킨다. 앞의 다섯 질문을 다시 나열하는 시간을 줄이고 보존 조건과 완료 근거가 드러난 위치를 짚는다.
+화면 진행: 이 장은 실제로 더해진 정보의 비교다. 짧은 요청→추가한 네 행→하단 C++ 적용 순서로 가리킨다. Case에서는 검증 행의 4열 입력·crop 범위·출력 폭을 연결한다. 앞의 다섯 질문을 다시 나열하는 시간을 줄이고 보존 조건과 완료 근거가 드러난 위치를 짚는다.
 
 Evidence / Source: BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007. TEACHING_MODEL / CONCEPTUAL.
 
-Claim Boundary: Before/After는 설명을 위한 개념 예시이며 Trial-002가 약한 Prompt와 구조화 Prompt의 우월성을 비교 검증했다는 뜻이 아니다.
+Claim Boundary: Before/After는 설명을 위한 개념 예시이며 Trial-002가 약한 Prompt와 구조화 Prompt의 우월성을 비교 검증했다는 뜻이 아니다. Given/When/Then 완료 조건은 기존 crop 계약을 설명하려고 구성한 예시이며 당시 Prompt 원문, 새 실행 결과 또는 시스템 요구 분석 전체 교육이 아니다.
 
 Beginner Explanation: 긴 문장을 쓰는 것보다 바꿀 결과와 지킬 조건, 확인 방법을 드러내는 것이 도움이 되는 질문 틀이다.
 
@@ -229,11 +230,11 @@ C++ Vision Bridge: SUPPORTING footer strip — 출력·API/ABI의 보존 범위�
 
 Demo Operation: N/A — the comparison is conceptual and is not the exact Trial-002 Prompt.
 
-Audience Interaction: 마지막 Case 3분에는 두 요청에서 새로 명시된 책임을 마음속으로 비교한다. 발표 응답은 요구하지 않는다.
+Audience Interaction: 마지막 Case 3분에는 구체 완료 조건을 90초 동안 따라 읽고, 나머지 90초에 두 요청에서 새로 명시된 책임을 마음속으로 비교한다. 작성 실습이나 발표 응답은 요구하지 않는다.
 
 Transition: “여기까지는 교육용 구성 예시였습니다. 이제 과거 TRIAL-002에서 요청한 흐름과 기록된 행동을 살펴보겠습니다.”라고 실제 기록의 관찰 기준으로 이동한다.
 
-Time Management: After는 네 줄의 비교 축으로 한정한다. 전체 Trial Prompt나 코드 지시를 화면에 복사하지 않는다. 시간이 부족하면 C++ inset을 생략한다.
+Time Management: After는 네 줄의 비교 축으로 한정한다. Lecture 6분과 Case 3분을 유지하며 기존 Case의 일반 비교 90초를 구체 완료 조건 해설로 교체한다. 전체 Trial Prompt나 코드 지시를 화면에 복사하지 않는다. 시간이 부족하면 C++ inset을 생략한다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
 
 Fallback: 정적 기본 경로 — 정적 비교 슬라이드 `production/ACT_1.pptx` S14 또는 `production/preview/act1/S14.png` 사용. Trial 결과로 대체하지 않는다. 새 제작본의 렌더·경로 대조는 통합 단계에서 수행한다.
 
@@ -389,27 +390,27 @@ Opening Question: “어떤 Check가 어떤 Claim을 뒷받침하는가?”
 Speaker Flow:
 
 1. (0:00–0:45) 왼쪽 “코드가 나왔다”에서 오른쪽 “완료라고 말할 수 있나?”로 시선을 옮긴다.
-2. (0:45–1:30) 가운데 동작 테스트·샘플 실행·변경 검토를 세 판단 근거로 설명한다. S17에서 본 관찰 사실은 하단 출처의 범위로만 회수한다.
-3. (1:30–2:30) 성능 개선을 주장하는 작업에는 해당 입력·환경의 측정도 필요할 수 있다고 설명한다. TRIAL-002에서 benchmark가 실행됐다는 뜻이 아니다.
-4. (2:30–3:00) 주장마다 필요한 근거가 다르다는 S19로 넘긴다.
+2. (0:45–2:15) 검토용 결과 인계의 네 항목을 crop 사례로 설명한다. 변경 이유·범위는 끝 좌표 제외 계약에 맞춘 crop 한 줄 수정, 검증 근거·결과는 S17의 집중·전체 테스트와 CLI·diff 기록 참조, 미확인은 이 수정의 성능을 측정하지 않았다는 점, 사람의 수용 판단은 이 범위와 근거로 변경을 받아들일지 개발자가 결정한다는 점이다. 동작 테스트·샘플 실행·변경 검토는 검증 근거 항목에 묶고 수치를 다시 나열하지 않는다. 이 네 항목은 기존 기록의 강의용 정리이며 실제 PR이나 당시 Agent 답변 원문이 아니다.
+3. (2:15–2:45) 성능 개선을 주장하는 작업에는 해당 입력·환경의 측정도 필요할 수 있다고 설명한다. TRIAL-002에서 benchmark가 실행됐다는 뜻이 아니다.
+4. (2:45–3:00) 주장마다 필요한 근거가 다르다는 S19로 넘긴다.
 
 Evidence / Source: BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027. OBSERVED_PRODUCT and separate TEACHING_MODEL.
 
-Claim Boundary: 본문의 생성→완료 판단 관계와 확인 방법은 이 과정의 TEACHING_MODEL이다. 하단 출처에서 회수하는 TRIAL-002의 관찰은 테스트·CLI·diff에 한정된다. Benchmark는 조건부 검증 예이며 TRIAL-002에서 수행하지 않았다.
+Claim Boundary: 본문의 생성→완료 판단 관계와 확인 방법은 이 과정의 TEACHING_MODEL이다. 하단 출처에서 회수하는 TRIAL-002의 관찰은 테스트·CLI·diff에 한정된다. Benchmark는 조건부 검증 예이며 TRIAL-002에서 수행하지 않았다. 검토용 결과 인계의 형식은 기존 기록을 설명하는 교육용 재구성이며 실제 PR, 당시 답변 원문 또는 사람의 승인 완료 기록이 아니다.
 
 Beginner Explanation: 코드가 생성됐다는 사실은 완료를 판단하는 한 가지 정보일 뿐이다.
 
 Advanced Insight: Choose checks from the task’s risk and the exact claim being made; do not demand every check for every task.
 
-C++ Vision Bridge: Slide 19 contains the approved Supporting C++ transfer inset. Do not duplicate it here.
+C++ Vision Bridge: C++ 대응은 S19 Notes의 선택적 참고로 남기며 S19 화면에는 C++ inset이 없다. 주요 C++ 패턴 전이는 S53에서 이어 간다. 이 장에서 중복 설명하지 않는다.
 
-Demo Operation: TRIAL-002 verification callback only; DEMO-05의 8분 구간 밖이다. 별도 관찰 카드나 새 결과를 보여 주지 않고 하단 출처로 과거 확인 범위를 회수한다. 본문은 교육 모델로 설명한다.
+Demo Operation: TRIAL-002 verification callback only; DEMO-05의 8분 구간 밖이다. 새 관찰 카드나 새 실행 결과를 보여 주지 않고 하단 출처로 과거 확인 범위를 회수한다. 검토용 결과 인계는 기존 기록을 가리키는 강의용 정리이며 실제 PR 화면으로 표현하지 않는다. 본문은 교육 모델로 설명한다.
 
 Audience Interaction: 별도 Q&A 시간은 배정되지 않았다. 청중에게 생각할 질문을 주고 다음 장에서 범위를 보여 준다.
 
 Transition: Slide 19에서 각 Check가 뒷받침하는 범위를 비교한다.
 
-Time Management: 세 분 안에 기록 사실과 Teaching Model을 분리한다. S17의 다섯 수치를 다시 읽지 않는다.
+Time Management: Lecture 3분을 유지한다. 생성·완료 질문 45초, 결과 인계 예시 90초, 조건부 성능 측정 30초, S19 연결 15초로 배분한다. 기존 검증 근거의 재나열과 반복 설명을 이 예시로 교체한다. 기록 사실과 Teaching Model을 분리하고 S17의 다섯 수치를 다시 읽지 않는다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
 
 Fallback: 정적 PPTX S18 또는 `production/preview/act1/S18.png`를 사용한다. 생성·완료의 관계는 교육 모델, TRIAL-002는 하단에 표시된 과거 관찰로 구분한다. 새 렌더 검토는 통합 단계에서 수행한다.
 
@@ -432,28 +433,28 @@ Opening Question: “이 Check로 무엇까지 말할 수 있는가?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 표가 특정 테스트의 만능 효과를 뜻하지 않는다고 소개한다. 실제 TRIAL-002는 집중·전체 테스트, CLI smoke, diff를 확인했다는 하단 출처를 짚는다.
-2. (1:00–3:00) 확인 방법 → 말할 수 있는 범위의 다섯 행을 설명한다. 성능 측정 행은 교육 모델이며 TRIAL-002에서 benchmark를 실행하지 않았다고 밝힌다.
-3. (3:00–4:00) C++의 Release 실행, API/ABI, 대상 데이터도 어떤 주장을 확인할지에 맞춰 고르는 경계로 연결한다.
+1. (0:00–0:30) 표가 특정 테스트의 만능 효과를 뜻하지 않는다고 소개한다. 실제 TRIAL-002는 집중·전체 테스트, CLI smoke, diff를 확인했다는 하단 출처를 짚는다.
+2. (0:30–2:30) 확인 방법 → 말할 수 있는 범위의 다섯 행을 설명한다. 성능 측정 행은 교육 모델이며 TRIAL-002에서 benchmark를 실행하지 않았다고 밝힌다.
+3. (2:30–4:00) 같은 crop 사례에서 검사가 계약 위반을 구별하는지 비교한다. “결과가 비어 있지 않다”는 빈 결과를 찾을 수 있지만 끝 좌표를 잘못 포함한 3열 결과도 받아들일 수 있다. 이 조건만으로는 끝 좌표 제외 계약을 검증하기에 부족하다. “원본 열 1·2만 포함하고 출력 폭은 2다”처럼 해당 입력의 기대 결과를 비교해야 이 차이를 구별할 수 있다. 전자의 검사를 항상 무의미하다고 부르지 않으며, 후자의 검사 하나가 모든 입력의 정확성을 보장한다고도 말하지 않는다. 강의용 반례이고 새 실행 결과나 당시 테스트 assertion의 전사본이 아니다.
 4. (4:00–5:00) 익숙한 Check가 뒷받침하는 Claim을 개인적으로 떠올린다. 그 검증 방법을 다음 작업에서도 다시 설명할지 생각하는 Reflection으로 마친다.
 
 Evidence / Source: BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027. Actual checks are separate from the TEACHING_MODEL mapping.
 
-Claim Boundary: Focused/full tests, CLI smoke, and diff review are actual TRIAL-002 checks. The mapping is a course model; benchmark was not run. No single check proves all correctness.
+Claim Boundary: Focused/full tests, CLI smoke, and diff review are actual TRIAL-002 checks. The mapping is a course model; benchmark was not run. No single check proves all correctness. 비어 있지 않음과 계약상 기대 열·폭의 비교는 기존 crop 사례를 이용한 교육용 반례이며 새 실행 결과, 당시 assertion 원문 또는 GoogleTest 사용법 교육이 아니다.
 
 Beginner Explanation: Focused test는 바뀐 동작을, 전체 Test는 기존 suite의 범위를, smoke는 sample 실행 경로를 확인한다.
 
 Advanced Insight: For C++ projects, match Release build, API/ABI checks, regression tests, and measurement to the claim and risk. These are illustrative engineering patterns, not this Demo repository’s tooling.
 
-C++ Vision Bridge: Supporting Bridge: `build claim → Release build`; `compatibility claim → API / ABI review`; `performance claim → benchmark with named workload`. No Windows, shell, IDE, or hardware setup is asserted.
+C++ Vision Bridge: NOTES-ONLY 선택적 참고: `build claim → Release build`; `compatibility claim → API / ABI review`; `performance claim → benchmark with named workload`. 화면의 C++ inset은 계약 비교 예시로 대체했으며 이 대응을 추가 강의하지 않는다. 주요 C++ 패턴 전이는 S53에 유지한다. No Windows, shell, IDE, or hardware setup is asserted.
 
-Demo Operation: TRIAL-002 evidence callback outside the 8-minute Demo slot. 본문 표는 일반적인 check-to-claim 교육 모델이다. 하단 출처에는 실제 Trial에서 수행한 확인만 따로 표시한다. Benchmark 미실행 경계를 유지하고 새 수치나 실행을 추가하지 않는다.
+Demo Operation: TRIAL-002 evidence callback outside the 8-minute Demo slot. 본문 표와 검증 품질 반례는 일반적인 check-to-claim 교육 모델이다. 하단 출처에는 실제 Trial에서 수행한 확인만 따로 표시한다. Benchmark 미실행 경계를 유지하고 반례에 새 PASS/FAIL, 수치나 실행 결과를 추가하지 않는다.
 
 Audience Interaction: 마지막 1분은 각자가 익숙한 Check와 그 Check가 뒷받침하는 Claim을 조용히 생각한다. 결과 발표는 요구하지 않는다.
 
 Transition: “방금 정한 테스트 명령과 보존 조건은 다음 작업에도 필요할 수 있습니다. 이 설명을 매번 다시 적어야 할까요?”라고 검증 지침의 재사용에서 S20의 정보 수명 질문으로 연결한다.
 
-Time Management: Lecture 4분과 Reflection 1분을 분리한다. Advanced C++ examples are optional under time pressure; keep the scope labels.
+Time Management: Lecture 4분과 Reflection 1분을 분리한다. 소개 30초, Check 표 2분, 계약 위반을 구별하는 검사 비교 90초로 Lecture를 편성한다. C++ footer 해설 1분과 반복 소개 30초를 이 비교로 교체한다. C++ 대응은 선택적 참고로 남기고 별도 도구 강의 시간을 더하지 않는다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
 
 Fallback: 정적 PPTX S19 또는 `production/preview/act1/S19.png`를 사용한다. 표의 일반적인 범위와 하단 Trial 출처를 구분한다. 새 렌더 검토는 통합 단계에서 수행한다.
 
