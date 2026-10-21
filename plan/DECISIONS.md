@@ -5818,3 +5818,98 @@ Keep Windows, target product/room and actual timed rehearsal UNVERIFIED.
 
 The explicit S21 revision request authorizes this bounded composition and
 teaching-example change without extending the recorded Trial claims.
+
+
+# DEC-0042 — Connect ACT 1 requests, recorded work and completion evidence
+
+## Status
+
+ACCEPTED
+
+## Date
+
+2026-10-21
+
+## Context
+
+The user requests clearer developer-facing Prompt Engineering continuity in
+ACT 1 after the accepted S17 mapping, S11 raster graphs and S21 vector case.
+The current baseline is d9ae395, not the stale e5596fd request-time snapshot.
+
+## Problem
+
+Longer process and testing explanations can read as separate lessons rather
+than Process and Verification information that belongs in the work request.
+
+## Decision
+
+- Keep the through-line: state the desired change, preserved conditions and
+  evidence needed for completion in the request.
+- Connect the filter example to familiar crop ambiguity; retain conceptual
+  parallel paths and qualitative token/time images without measured effects.
+- Separate S14's developer decisions, S15's five-item framework and S16's
+  concrete teaching-request sentences. Distinguish investigable repository
+  facts from human goals, constraints, priorities and acceptance criteria.
+- Preserve S17's numbered actual-Prompt mapping. Read S18's investigation,
+  preservation and minimal diff, then S19's recorded checks as responses to
+  the actual Process and Verification instructions. Do not identify the S16
+  teaching Prompt as the actual Trial input.
+- Reconnect S20's report and S21's accepted vector/assertion example to
+  requested completion evidence and human judgment. Preserve DEC-0041.
+- Explain relevant tests, project-wide tests, CLI sample execution and change
+  review in plain Korean before needed English labels. Preserve raw commands,
+  quotations and test counts. The actual targeted test_transform.py group
+  includes resize coverage; do not label its three tests as crop-only.
+- End with repeated test commands and preserved Project conditions to
+  motivate S24. Add no technique, Trial, performance or cost comparison.
+- Preserve 82 slides / 360 minutes, ACT 1's 13 slides / 55 minutes, titles,
+  roles, IDs, per-slide time/Mode, evidence scope and the approved images.
+
+## Rationale
+
+Request design stays visible when investigation, test conditions, reporting
+and acceptance evidence are traced back to what was requested. Distinct
+slide jobs reduce repetition while preserving the approved narrative.
+
+## Alternatives
+
+Add a technique or allocate more teaching time: unnecessary and outside the
+request. Reduce the original evidence or replace the S21 case: would discard
+accepted work. Claim Prompt superiority or resource savings: unsupported.
+
+## Trade-offs
+
+Some request excerpts need shorter Korean wording and line breaks. Notes
+retain fuller definitions and exact source boundaries; none of this makes
+one verified input proof of all behavior or turns a schematic into a run.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-RESPONSIBILITY-001, INV-DEMO-003, INV-SOT-003.
+
+## Affected Artifacts
+
+ACT 1 Slide Map, current curriculum/transition teaching guidance, ACT/Full
+Notes, slide sources, ACT 1 / integrated PPTs, previews and current identities.
+
+## Evidence
+
+Explicit user ACT 1 request, current files at d9ae395, actual TRIAL-002 Prompt
+and recorded work in DEMO_MATRIX.md, DEC-0038 through DEC-0041. No new run.
+
+## Training Relevance
+
+YES — connect requested intent, observable behavior, completion evidence and
+the discovery of recurring Project Context without changing the course.
+
+## Follow-up
+
+Render and review all thirteen ACT 1 slides, S10/S24 handoffs, Notes parity,
+protected fields, the unchanged budgets and historical evidence boundary.
+Windows, target product/account/room and timed rehearsal remain UNVERIFIED.
+
+## Approval
+
+The user's explicit ACT 1 refinement request authorizes these bounded
+connections and term explanations. No major role or time change is needed.

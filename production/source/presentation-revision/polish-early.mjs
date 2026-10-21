@@ -42,7 +42,7 @@ S14:make('S14','개발자가 정해야 하는 경계','ACT 1 · 요청을 보내
   '이 과정의 질문 틀 · 정답을 제시하는 분류 시험이 아님',
   '마지막 1분은 익숙한 작업 하나를 조용히 떠올려 보세요.','CONCEPTUAL',
   (s,{C,text,line,rect})=>{
-    text(s,'“crop test 고쳐줘”에 답하기 전에',64,209,1152,43,31,C.sub);
+    text(s,'이번 작업에서 사람이 정할 질문은?',64,209,1152,43,31,C.sub);
     const qs=[['무엇을 바꿀까?','무엇을 유지할까?'],['어디까지 바꿔도 될까?','무슨 근거로 확인할까?']];
     qs.forEach((r,j)=>r.forEach((q,i)=>{
       const x=64+i*612,y=281+j*108;
@@ -56,13 +56,13 @@ S14:make('S14','개발자가 정해야 하는 경계','ACT 1 · 요청을 보내
   }),
 S15:make('S15','Task Specification의 다섯 책임','ACT 1 · 작업을 구체화하는 틀',
   '이 과정의 교육 모델 · 공식 OpenAI 분류나 모든 작업에 대한 법칙이 아님',
-  '다섯 항목은 서로 분리된 기능이 아니라 하나의 작업 요청에 담는 책임입니다.','TEACHING_MODEL',
+  '저장소에서 확인할 사실은 조사하게 하고, 사람이 정할 목표·제약·완료 기준은 요청에 담습니다.','TEACHING_MODEL',
   (s,{C,text,rect,line})=>{
-    text(s,'앞의 질문을 묶고, 필요한 맥락과 작업 과정을 명시한다',64,164,1152,30,23,C.sub);
+    text(s,'앞의 질문을, 요청 문장의 다섯 항목으로 정리한다',64,164,1152,30,23,C.sub);
     rect(s,64,204,1152,388,C.white,C.line,1);
     rect(s,64,204,322,388,C.pale);
     text(s,'하나의\nTask\nSpecification',88,268,274,176,36,C.teal,true);
-    const rs=[['목표 · Goal','어떤 결과를 바꿀까?'],['맥락 · Context','이 작업에 필요한 사실은?'],['제약 · Constraints','무엇을 보존할까?'],['과정 · Process','어떤 순서·경계를 지킬까?'],['검증 · Verification','무엇으로 완료를 확인할까?']];
+    const rs=[['목표 · Goal','원하는 결과·우선순위'],['맥락 · Context','저장소에서 조사할 사실'],['제약 · Constraints','지킬 동작·변경 범위'],['과정 · Process','요청할 작업 순서·경계'],['검증 · Verification','요청할 확인·보고 내용']];
     rs.forEach((r,i)=>{const y=218+i*72;text(s,r[0],416,y,312,45,27,C.teal,true);text(s,r[1],755,y,437,45,28,C.ink);if(i<4)line(s,416,y+57,776);});
   }),
 S16:make('S16','더 긴 Prompt보다 분명한 경계','ACT 1 · 같은 요청을 구체화하기',
@@ -82,15 +82,16 @@ S23:make('S23','반복하는 설명을 두 범주로 나누기','ACT 1 · 정보
   '교육용 후보 예시 · 모든 프로젝트에 적용되는 유일한 분류가 아님',
   '다음 질문: Project 정보를 왜 매번 Prompt에 다시 적고 있을까요?','CONCEPTUAL',
   (s,{C,text,line,rect})=>{
+    text(s,'테스트 명령과 보존 조건을, 다음 요청에도 다시 쓴다면?',64,172,1152,32,26,C.sub);
     text(s,'이번 Task',64,223,542,46,34,C.teal,true);
     text(s,'계속 유지할 Project 정보',704,223,512,46,32,C.teal,true);
-    [['crop 경계 수정','이번에는 README만 수정'],['의존성 추가에는 작업상 근거 필요','프로젝트 테스트 명령']].forEach((r,i)=>{
+    [['crop 경계 수정','이번에는 README만 수정'],['의존성 추가에는 작업상 근거 필요','프로젝트 전체 테스트 명령']].forEach((r,i)=>{
       const x=i?704:64,w=i?512:542;
       rect(s,x,298,w,188,C.white,C.line,1);
       text(s,r.join('\n'),x+20,322,w-40,125,i?28:31,C.ink);
       text(s,i?'여러 작업에서 참고할 후보':'이번 목표에 적용할 후보',x,504,w,39,26,C.sub);
     });
-    text(s,'정보마다 필요한 기간과 적용 범위가 다르다.',64,555,1152,39,30,C.teal,true);
+    text(s,'다음 작업에도 필요한 설명은, 어디에 두면 좋을까?',64,555,1152,39,30,C.teal,true);
   }),
 S25:make('S25','작은 Project Context의 첫 기록','ACT 2  ·  Project Context',
   'OBSERVED PRODUCT  |  STATE-01 · AGENTS.md 실제 원문 발췌',

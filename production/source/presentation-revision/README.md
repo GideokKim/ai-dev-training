@@ -26,6 +26,15 @@ non-empty check with the specified size and expected vector. The example
 remains conceptual; the recorded Trial still used Python unittest. Source:
 `legacy-priority.mjs`. Rebuild Full + ACT 1 only; keep 82 slides/360 minutes.
 
+DEC-0042 clarifies ACT 1 as request design: desired change, preserved
+conditions and completion evidence. S14 asks the developer questions, S15
+organizes five request items, and S16 locates them in teaching sentences.
+S17–S19 trace the separate actual Trial request to recorded work and checks;
+S20/S21 recover those checks as requested completion evidence. S22/S23 end
+with recurring Project facts. Native layouts, approved images and S21 vector
+assertions remain; no Trial or measured improvement is added. Rebuild Full
+and ACT 1 only, retaining all 82 slides / 360 minutes and per-slide budgets.
+
 These modules reproduce the audience-facing revision accepted in DEC-0027.
 DEC-0028 adds the approved S07/S39/S55/S74 teaching illustrations and the S74
 text-box repair. The original pilot remains a historical review artifact.

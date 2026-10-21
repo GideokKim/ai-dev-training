@@ -1,0 +1,149 @@
+{
+  "decision": "DEC-0042",
+  "baselineCommit": "d9ae395",
+  "slides": 82,
+  "totalMinutes": 360,
+  "actCounts": {
+    "ACT 0": 10,
+    "ACT 1": 13,
+    "ACT 2": 15,
+    "ACT 3": 18,
+    "ACT 4": 18,
+    "ACT 5": 8
+  },
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 55,
+    "ACT 2": 70,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 130,
+    "Reflection": 20,
+    "Case": 83,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act1ModeMinutes": {
+    "Case": 17,
+    "Reflection": 4,
+    "Lecture": 19,
+    "Demo": 8,
+    "Q&A": 4,
+    "Transition": 3
+  },
+  "act1SlideMinutes": {
+    "S11": 7,
+    "S12": 2,
+    "S13": 2,
+    "S14": 4,
+    "S15": 4,
+    "S16": 9,
+    "S17": 2,
+    "S18": 4,
+    "S19": 4,
+    "S20": 3,
+    "S21": 5,
+    "S22": 3,
+    "S23": 6
+  },
+  "changedSlides": [
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20",
+    "S21",
+    "S22",
+    "S23"
+  ],
+  "protectedMapFieldsUnchanged": [
+    "Slide ID",
+    "ACT",
+    "Section",
+    "Working Title",
+    "Primary Role",
+    "Core Message",
+    "Story Beat",
+    "Evidence Type",
+    "Claim Status",
+    "Estimated Time",
+    "Delivery Mode Allocation"
+  ],
+  "unchangedOtherMapNotesRecords": 69,
+  "notesRecords": 82,
+  "notesFields": 19,
+  "protectedNotesFieldsUnchanged": [
+    "Primary Message",
+    "Allocated Time",
+    "Mode Split",
+    "Claim Boundary"
+  ],
+  "fullActMarkdownAndEmbeddedNotesParity": true,
+  "unchangedOtherVisualStructuresAndPngs": 69,
+  "approvedMediaUnchangedSlides": 82,
+  "unchangedOtherActPackages": [
+    0,
+    2,
+    3,
+    4,
+    5
+  ],
+  "exactPackagePngCount": 95,
+  "fullActPngParityCount": 13,
+  "nativeChartDataPreserved": true,
+  "packages": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slides": 82,
+      "sha256": "22ebf381e9bc6a1430bd54d859f0308954a850e4235c41b4ff40cc13d6f2e2a2",
+      "bytes": 15264332,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyImport": true
+    },
+    {
+      "path": "production/ACT_1.pptx",
+      "slides": 13,
+      "sha256": "aa2e13c14f387c2f15dc1debce742e38fa9f4b4ff165f9ca9b4c0b649bd2da0c",
+      "bytes": 3808085,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyImport": true
+    }
+  ],
+  "trialSourceRecord": "UNCHANGED",
+  "s16TeachingVsS17ActualPromptBoundary": true,
+  "trial002": {
+    "relatedTestGroup": "test_transform.py; includes resize",
+    "targeted": "3/3",
+    "full": "11/11",
+    "cliSample": "PASS",
+    "diff": "1 file, 1 line; git diff --check passed"
+  },
+  "newTrial": "NONE",
+  "newCppExecution": "NONE",
+  "newMeasuredImprovement": "NONE",
+  "demoRepository": "UNCHANGED / afef3e0 / clean",
+  "presenterBundle": "PAUSED / UNCHANGED",
+  "windowsRoomProductTimedRehearsal": "UNVERIFIED",
+  "notesSha256": "37e907f2e48abc68a487205c8c378d4851ed4888fc33da486860857be4c24ed6",
+  "fullMontageSha256": "553622567384298b5f97af261d231a8bc713eab31a5489e194d69a44a0d29af5",
+  "staticFallbackFilesVerified": 29,
+  "staticFallbackPngChanges": [
+    "S18",
+    "S19"
+  ],
+  "visualReview": "All13 ACT1 slides individually reviewed at1920x1080, including S10/S24 handoffs; independent review found no new clipping/overlap or P0/P1. Final S17 boundary rechecked. Other12 final renders match reviewed draft exactly.",
+  "localValidationScope": "Artifact package, local font alias renders, Notes and source/evidence alignment only"
+}

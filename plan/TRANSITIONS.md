@@ -184,12 +184,17 @@ Verification, and ask for investigation before changes when appropriate.
 ### TRANS-003 — Prompt → Context Engineering
 
 **From State:** A clear task Prompt can make one bounded task and its
-completion conditions easier to review.
+completion conditions easier to review. DEC-0042 keeps the central request:
+“원하는 변화, 지켜야 할 조건, 완료를 판단할 근거를 요청에 담는다.”
+Investigation order and requested verification/reporting belong to that
+request; they are not a separate testing course.
 
 **Success:** Prompt Engineering is useful and remains part of later work.
 
 **New Friction:** Similar Bug Fix, Performance, and Refactoring tasks repeat
-the same Build, Test, API, and Style facts.
+the same Build, Test, API, and Style facts. In S22–S24, recurring test
+commands and preserved conditions make that information-lifetime problem
+visible even after the current request has been clarified.
 
 **Audience Question:** “왜 Project에 대해 똑같은 설명을 매번 반복하고
 있을까?”
@@ -485,7 +490,8 @@ surface still need their own checks; DEMO-04A remains conceptual.
 **Carry forward:** Repository context can be investigated by an agent, within
 the selected surface and permissions.
 
-**Ask:** “같은 AI를 사용하는데 왜 사람마다 결과가 다를까?”
+**Ask:** “저장소를 보더라도 원하는 변화·지킬 조건·완료 근거까지
+자동으로 정해졌을까?”
 
 **Next event:** Reveal that repository visibility and task clarity solve
 different problems. The agent may see the code and still lack intent,
@@ -493,10 +499,14 @@ constraints, and the requested evidence of completion.
 
 ### ACT 1 → ACT 2
 
-**Carry forward:** A well-framed task is worth doing, and asking for
-investigation and verification makes the work more reviewable.
+**Carry forward:** A well-framed task is worth doing. Desired changes,
+preserved conditions, the investigation process, and requested verification
+evidence belong to the task request. S17–S19 connect the actual recorded
+request to observed work; S20–S21 bring the evidence back to human completion
+judgment. The historical Trial is not an execution of S16's teaching Prompt.
 
-**Ask:** “왜 우리는 매번 같은 Project 설명을 반복할까?”
+**Ask:** “요청은 구체화했지만 같은 테스트 명령과 보존 조건을 다음
+작업에도 다시 적는다. 왜 Project 설명을 매번 반복할까?”
 
 **Next event:** Separate task-specific request details from recurring project
 facts and let a small reusable guidance set work before exploring its limits.

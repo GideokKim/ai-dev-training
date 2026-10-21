@@ -207,22 +207,22 @@ export const slides = {
   },
   S17: (p, H) => {
     const { C, text, rect, line } = H;
-    const s = H.frame(p, 'S17', '먼저 무엇을 하는지 보자', 'ACT 1 · TRIAL-002 관찰 시작', 'TRIAL-002 관찰 기준 · 2026-09-28 · Codex CLI 0.154.0 · macOS', '단일 과거 CLI 기록을 살펴봅니다. 현재 Desktop 실행이나 반복성을 입증하지 않습니다.', 'OBSERVED_PRODUCT');
+    const s = H.frame(p, 'S17', '먼저 무엇을 하는지 보자', 'ACT 1 · 요청의 과정·검증을 실제 기록으로 확인', 'TRIAL-002 관찰 기준 · 2026-09-28 · Codex CLI 0.154.0 · macOS', 'S16 예시를 실행한 결과가 아닙니다. 과거 CLI 단일 기록이며 현재 Desktop·반복성은 미검증입니다.', 'OBSERVED_PRODUCT');
     const prompt = rect(s, 64, 184, 682, 414, C.white, C.line, 1.5);
     prompt.borderRadius = 12;
-    text(s, '입력한 Prompt · 핵심 지시 발췌·번역', 84, 195, 642, 29, 24, C.sub, true);
+    text(s, '실제 Prompt · 핵심 지시 발췌·번역', 84, 195, 642, 29, 24, C.sub, true);
     line(s, 84, 235, 642);
     text(s, '목표  crop 경계 실패를 조사하고 고친다.', 84, 245, 642, 29, 25, C.ink, true);
     text(s, '제약  [x_start, x_end) 보존 · 최소 변경', 84, 276, 642, 28, 24, C.sub);
     text(s, '         무관한 API 변경·의존성 추가 없음', 84, 304, 642, 27, 24, C.sub);
-    text(s, 'AI Agent 관찰 순서', 794, 194, 422, 36, 29, C.ink, true);
-    text(s, 'Prompt의 같은 번호와 대조', 794, 244, 422, 31, 25, C.teal);
+    text(s, '요청과 대조할 작업 흐름', 794, 194, 422, 36, 29, C.ink, true);
+    text(s, '과정·검증 지시를 같은 번호로 대조', 794, 244, 422, 31, 24, C.teal);
     const items = [
       ['먼저 현재 실패를 재현한다.', '재현'],
       ['관련 구현과 호출 경로를 조사한다.', '조사'],
       ['수정 전, 짧은 변경 계획을 알린다.', '계획'],
       ['필요한 코드만 최소한으로 수정한다.', '수정'],
-      ['집중·전체 Test, 가능하면 CLI smoke.\ndiff 확인 · 변경 파일과 검증 근거 보고.', '검증·보고'],
+      ['crop 관련·전체 테스트를 실행한다.\nCLI 샘플(가능하면)·변경 확인·근거 보고.', '검증·보고'],
     ];
     items.forEach((a, i) => {
       const y = 335 + i * 51, n = String(i + 1).padStart(2, '0');
@@ -235,8 +235,8 @@ export const slides = {
   },
   S18: (p, H) => {
     const { C, text, rect, line, arrow } = H;
-    const s = H.frame(p, 'S18', '조사에서 한 줄 변경까지', 'ACT 1 · 04 수정 · 앞서 확인한 명세를 지킨다', 'TRIAL-002 · STATE-00 → STATE-00-FIXED · 실제 diff를 재구성한 도식', 'src/graypipe/transform.py · 단일 CLI 기록 · 실제 터미널 화면이 아님', 'OBSERVED_PRODUCT');
-    text(s, '02 조사 · 03 계획에서 확인한 수정 범위', 64, 224, 1152, 46, 30, C.teal, true);
+    const s = H.frame(p, 'S18', '조사에서 한 줄 변경까지', 'ACT 1 · 요청한 보존 조건과 최소 변경을 대조', 'TRIAL-002 · STATE-00 → STATE-00-FIXED · 실제 diff를 재구성한 도식', 'src/graypipe/transform.py · 단일 CLI 기록 · 실제 터미널 화면이 아님', 'OBSERVED_PRODUCT');
+    text(s, '요청한 02 조사 · 03 계획 · 04 최소 수정', 64, 224, 1152, 46, 30, C.teal, true);
     text(s, '끝 좌표를 제외하는 명세: [x_start, x_end)', 64, 292, 1152, 46, 32, C.ink, true);
     rect(s, 64, 371, 546, 123, C.redPale);
     rect(s, 670, 371, 546, 123, C.pale);
@@ -247,14 +247,15 @@ export const slides = {
     arrow(s, 625, 426, 30, 24);
     text(s, 'crop(image, 1, 3)', 64, 535, 430, 45, 29, C.sub, false, H.CODE);
     text(s, '너비 3 → 명세대로 너비 2', 534, 535, 682, 45, 32, C.ink, true);
-    text(s, '다음은 05 검증·보고에서 변경 근거를 확인한다.', 64, 581, 1152, 24, 22, C.teal);
+    text(s, '다음은 요청한 05 확인·보고의 근거를 살펴본다.', 64, 581, 1152, 24, 22, C.teal);
     return s;
   },
   S19: (p, H) => {
     const { C, text, line } = H;
-    const s = H.frame(p, 'S19', '변경 결과와 확인 증거', 'ACT 1 · 수정 뒤 확인한 것', 'TRIAL-002 기록 요약 · 단일 Codex CLI 실행 · STATE-00-FIXED', '해당 테스트·입력·수정 범위의 확인입니다. 성능 benchmark는 수행하지 않았습니다.', 'OBSERVED_PRODUCT');
+    const s = H.frame(p, 'S19', '변경 결과와 확인 증거', 'ACT 1 · 요청한 확인·보고와 기록의 대응', 'TRIAL-002 기록 요약 · 단일 Codex CLI 실행 · STATE-00-FIXED', '해당 테스트·입력·수정 범위의 확인입니다. 성능 benchmark는 수행하지 않았습니다.', 'OBSERVED_PRODUCT');
     const xs = [64, 460, 856];
-    const groups = [['동작 확인', '3 / 3', 'crop 집중 테스트', '전체 suite 11 / 11 통과'], ['실행 확인', 'PASS', 'CLI smoke', '기록된 샘플의 실행 경로'], ['범위 확인', '1줄', '한 파일의 crop 구현', 'git diff --check 통과']];
+    text(s, '요청한 확인·보고에 어떤 근거가 남았을까?', 64, 180, 1152, 32, 26, C.sub);
+    const groups = [['관련 테스트 실행', '3 / 3', 'crop 관련 테스트 묶음', '프로젝트 전체 11 / 11 통과'], ['CLI 샘플 실행', 'PASS', 'CLI 샘플 실행 확인', '기록된 샘플의 실행 경로'], ['변경 내용 확인', '1줄', '한 파일의 crop 구현', 'git diff --check 통과']];
     groups.forEach((a, i) => { const x = xs[i]; text(s, a[0], x, 231, 360, 44, 30, C.teal, true); line(s, x, 293, 360); text(s, a[1], x, 320, 360, 91, 59, C.green, true); text(s, a[2], x, 440, 360, 47, 28, C.ink, true); text(s, a[3], x, 515, 360, 65, 28, C.sub); });
     return s;
   },
@@ -283,7 +284,7 @@ export const slides = {
   S22: (p, H) => {
     const { C, text, line } = H;
     const s = H.frame(p, 'S22', '이번 Task인가,\n계속 유지할 Project 정보인가?', 'ACT 1 · 반복해서 쓰는 정보 돌아보기', '생각해 보기 · 이 과정의 교육 모델', '1분 동안 개인적으로 생각한 뒤 2분간 자발적인 질문을 받습니다.');
-    text(s, '테스트·보존 조건처럼, 반복해서 쓴 문장을 떠올려 보세요.', 64, 233, 1152, 53, 33, C.ink, true);
+    text(s, '테스트 명령·보존 조건, 다음 요청에도 다시 쓰게 된다.', 64, 233, 1152, 53, 33, C.ink, true);
     text(s, '이번 작업에만?', 64, 355, 542, 60, 38, C.teal, true);
     text(s, '다음 작업에도?', 704, 355, 512, 60, 38, C.teal, true);
     line(s, 64, 485, 542, C.line, 2); line(s, 704, 485, 512, C.line, 2);

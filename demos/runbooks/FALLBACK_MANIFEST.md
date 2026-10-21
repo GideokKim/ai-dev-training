@@ -1,18 +1,19 @@
 # Static Fallback Manifest
 
-Status: READY for DEC-0041 local static playback only. Finalized files, displayed IDs, dimensions, Notes/preview parity and hashes were checked after rendering. This is not current-product, raw-Trial, Windows or room approval.
+Status: READY for DEC-0042 local static playback only. Finalized files, displayed IDs, dimensions, Notes/preview parity and hashes were checked after rendering. This is not current-product, raw-Trial, Windows or room approval.
 
 ## Provenance
 
-- Current content check: DEC-0041 S21 specification-assertion teaching diagram. All 29 fallback PNGs below remain byte-identical to DEC-0039/0040; current source-PPT hash was refreshed. See production/evaluation/S21_ASSERTION_SPEC_REVISION.md.
+- Current content check: DEC-0042 ACT 1 request-to-evidence connections. S18/S19 labels now connect the actual request to the diff and checks; the other 27 fallback PNGs remain unchanged. All 29 identities and current source-PPT hash were rechecked. See production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md.
+- Previous content check: DEC-0041 preserved the 29 fallback PNGs while refining S21; see production/evaluation/S21_ASSERTION_SPEC_REVISION.md.
 
 - Previous content check: 2026-10-21 (Asia/Seoul), DEC-0039. S17/S18 changed; the other 80 slide renders are byte-identical to the previous production. See production/evaluation/PROMPT_FLOW_REVISION.md.
 - Current numbering alignment: 2026-10-21 (Asia/Seoul), DEC-0038. Current references are 82-slide IDs; final render, local path and file identity checks are complete. See production/evaluation/PROMPT_TIMELINE_REVISION.md and plan/SLIDE_ID_MIGRATION_82.md.
 - Previous numbering alignment: DEC-0036/0037 used 81 slides. Their reports and hashes are historical. The original DEC-0036 mapping remains in plan/SLIDE_ID_MIGRATION.md.
-- Current static file-identity/path check: 2026-10-21 for DEC-0041, after finalized-package rendering. Existing ZIP integrity describes the prior package; no bundle is regenerated. Target-PC offline playback and rehearsal remain UNVERIFIED.
+- Current static file-identity/path check: 2026-10-21 for DEC-0042, after finalized-package rendering. Existing ZIP integrity describes the prior package; no bundle is regenerated. Target-PC offline playback and rehearsal remain UNVERIFIED.
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Current source SHA-256: `5b4325dfa16cb401a2509ddc24a1788ba0893e219e9c6d86c469eb0cbdf63603`
+- Current source SHA-256: `22ebf381e9bc6a1430bd54d859f0308954a850e4235c41b4ff40cc13d6f2e2a2`
 - Renderer: Artifact Tool reimport of the finalized PPTX, rasterized at 1920×1080.
 - Host: macOS 26.6.2 (25G83).
 - Full preview inventory: 82 files (`S01.png`–`S82.png`), each 1920×1080; montage 1920×5670.
@@ -38,15 +39,15 @@ Status: READY for DEC-0041 local static playback only. Finalized files, displaye
 
 ## Fallback File Integrity
 
-The hashes below were rechecked at DEC-0041; these 29 PNGs are unchanged from DEC-0039/0040. READY covers the availability and identity of local static files only.
+The hashes below were rechecked at DEC-0042; S18/S19 changed and the other 27 PNGs remain unchanged. READY covers the availability and identity of local static files only.
 
 | Slide | Local path | Dimensions | SHA-256 |
 |---|---|---:|---|
 | S04 | `production/preview/full/S04.png` | 1920×1080 | `2101e6b81bf3652bb64b80298308379de8f5b48a985443b66494c835a055d86f` |
 | S05 | `production/preview/full/S05.png` | 1920×1080 | `5255f7aca6a749113c406011bbd65b01453e9223105a1738c10fdc1982ae1925` |
 | S06 | `production/preview/full/S06.png` | 1920×1080 | `b8bec2cf56669b7a417db5969e8a72162867f6ad89b0bdf61264cb2ee95da577` |
-| S18 | `production/preview/full/S18.png` | 1920×1080 | `6ace09733ecafb6b4af2999f48e33c370ca3c19635c42afa2349a87c0c498997` |
-| S19 | `production/preview/full/S19.png` | 1920×1080 | `848b9b233b4ed529543305f686d721875bf707185d6e5f69f836b6bef355e699` |
+| S18 | `production/preview/full/S18.png` | 1920×1080 | `ae1f5b000362597f3f803587c282f549bbf3b84151a7532c33704bac4b0c4269` |
+| S19 | `production/preview/full/S19.png` | 1920×1080 | `d6cec7cd3452ada803289c47f9563d36d5473c4e1f9fa0b48fc2cbf3d892541e` |
 | S24 | `production/preview/full/S24.png` | 1920×1080 | `54f8b377a3d6c89547d9d71f0edc26269805d4546bd0e80a0daea2ac93da5ffc` |
 | S25 | `production/preview/full/S25.png` | 1920×1080 | `d8e293552e5c1af5788e136442a7e56a06f9c0c738b200998ead1fbdb68c5d49` |
 | S26 | `production/preview/full/S26.png` | 1920×1080 | `1af16b5db096e5df0342f793aecef483c17cd11476aa9253293b7d91d3ac27f1` |

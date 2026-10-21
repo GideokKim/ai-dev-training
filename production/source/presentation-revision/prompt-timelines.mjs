@@ -17,10 +17,12 @@ export async function loadPromptTimelineSlides(root) {
     line(s,x+18,y+47,w-36,C.line,1);
     if(full){
       text(s,'crop test 고쳐줘',x+20,y+57,w-40,31,26,C.ink,true);
-      rows.forEach((r,i)=>{
-        const yy=y+96+i*40;
+      let yy=y+96;
+      rows.forEach((r)=>{
+        const multiline=r[1].includes('\n'),rowHeight=multiline?60:34;
         text(s,r[0],x+20,yy,66,33,23,C.teal,true);
-        text(s,r[1],x+94,yy,w-114,33,23,C.ink);
+        text(s,r[1],x+94,yy,w-114,multiline?56:33,23,C.ink);
+        yy+=rowHeight;
       });
     } else text(s,rows,x+20,y+64,w-40,60,size,C.ink,true);
     text(s,'+',x+18,y+h-34,28,26,24,C.sub);
@@ -46,7 +48,7 @@ export async function loadPromptTimelineSlides(root) {
   };
   return {
     S11(p){
-      const s=H.frame(p,'S11','Task에는 무엇이 아직 정해지지 않았을까?','ACT 1 · 모호한 작업 요청',
+      const s=H.frame(p,'S11','Task에는 무엇이 아직 정해지지 않았을까?','ACT 1 · 요청에 남은 목표·조건·완료 근거',
         '교육용 구성 사례 · AI 생성 삽화 · 토큰/시간 곡선은 수치 없는 개념도',
         '실제 Agent 실패·측정 결과·기하급수 증가 법칙이 아닙니다. 필요한 정보를 되묻는 선택도 가능합니다.','CONCEPTUAL');
       text(s,'같은 Repository를 보고 있습니다.',64,188,1152,39,28,C.sub);
@@ -69,6 +71,7 @@ export async function loadPromptTimelineSlides(root) {
       const s=H.frame(p,'S12','요청만으로는 의도가 보이지 않는다','ACT 1 · 같은 Agent, 같은 요청, 가능한 해석',
         '교육용 병렬 시간선 · 실제 반복 실행·동시 Subagent·분기 확률을 관찰한 결과가 아님',
         '짧은 요청의 가능한 해석을 그렸습니다. 실제 TRIAL-002 Prompt나 특정 실패의 재현이 아닙니다.','CONCEPTUAL');
+      text(s,'같은 모호함을, 앞서 본 crop 사례로 좁혀 보자.',64,163,1152,30,23,C.sub);
       prompt(s,64,210,440,164,'crop test 고쳐줘',{size:33});
       picture(s,165,379,190,140);
       text(s,'같은 AI Agent · 같은 요청',64,516,440,30,25,C.teal,true,FONT,'center');
@@ -85,9 +88,9 @@ export async function loadPromptTimelineSlides(root) {
         '의도한 경로 표시는 실제 선택·정확성·성공을 보장하지 않습니다. 변경 뒤 검증은 계속 필요합니다.','CONCEPTUAL');
       prompt(s,64,206,550,332,[
         ['목표','crop(1, 3) → 열 1·2, 폭 2'],
-        ['보존','끝 좌표 제외 명세·Test 기대값'],
+        ['보존','끝 좌표 제외 명세·테스트 기대값'],
         ['범위','crop 구현만 최소 수정'],
-        ['확인','집중·전체 Test + CLI smoke + diff'],
+        ['확인','crop 관련 테스트만·프로젝트 전체 테스트\nCLI 샘플 실행·변경 내용 확인'],
         ['완료','결과·검증·미확인 사항 보고']
       ],{full:true});
       text(s,'사람이 원하는 경로를 명시',652,175,564,33,27,C.teal,true);
@@ -99,7 +102,7 @@ export async function loadPromptTimelineSlides(root) {
         ['추가 질문 후 진행','필요한 정보가 남으면 확인']
       ]});
       rect(s,64,550,1152,43,C.pale);
-      text(s,'추측할 선택을 줄이고, 원하는 경로를 명시한다.',80,553,1120,37,30,C.teal,true);
+      text(s,'원하는 변화·조건·완료 근거를 요청에 담는다.',80,553,1120,37,30,C.teal,true);
       return s;
     }
   };

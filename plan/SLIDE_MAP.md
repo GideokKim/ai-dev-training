@@ -351,15 +351,15 @@ ACT별 Mode 대조:
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; TEACHING_MODEL / CONCEPTUAL. Agent의 실제 실패·정지·반복 실행·토큰/시간 실측·기하급수 법칙을 주장하지 않는다.
 - **Visual Concept:** “filter 성능 개선해줘”를 native Prompt 입력창으로 표시한다. 동일 AI Agent가 남은 선택을 검토하는 AI 생성 교육용 삽화를 놓고 우측의 바꿀 것/보존할 것/완료 근거 세 질문은 세로 리스트로 유지한다. 하단의 토큰 소모·작업 시간 곡선과 끝 화살표는 편집 가능한 그래프 객체 대신 두 개의 투명 PNG 삽화로 삽입한다. 각 텍스트 label과 기존 배치는 유지한다. 이미지는 추가 탐색·재시도 비용을 설명하는 정성 개념도다. 수치·배율·함수·측정 축을 넣지 않고 기하급수적 증가 법칙이나 실제 Agent 정지를 주장하지 않는다. DEC-0038, DEC-0040.
-- **Demo / Case Connection:** ACT 1의 task-specification 문제 도입. 다음 Map 구간에서 약한 요청 비교를 이어간다.
+- **Demo / Case Connection:** filter 성능 요청의 미정 결정을 출발점으로, 같은 요청 모호함을 친숙한 crop 동작 명세로 좁혀 본다. 성능 비교 실험을 새로 시작하는 것이 아니다.
 - **Beginner Payoff:** Repository 접근이 명확한 결과 요청을 대신하지 않는다는 점을 가져간다.
 - **Advanced Payoff:** 코드 접근, Task 목표, 제약, 완료 증거를 구분한다.
 - **C++ Vision Bridge:** 없음
-- **Speaker Intent:** 입력창의 짧은 요청과 세 가지 미정 경계를 연결한다. 고민하는 Agent 삽화는 교육용 의인화이며 실제 내부 추론·기능 부재·Trial 실패를 뜻하지 않는다. 비용 그림은 재탐색이 길어질 수 있다는 정성 해석이며 확정적 비용 증가·절감 수치로 설명하지 않는다.
-- **Transition:** “남은 결정을 더 분명히 보기 위해, 앞서 조사한 crop 사례로 좁혀 보겠습니다.”라고 S12의 교육용 요청 예시로 이동한다.
+- **Speaker Intent:** ACT 1의 핵심을 원하는 변화·지킬 조건·완료 근거를 요청에 담는 것으로 고정한다. 미정 세 질문을 짚고, 같은 모호함을 이미 본 crop 사례로 구체화한다고 전환 이유를 밝힌다. 기존 Agent·토큰/시간 PNG는 정성 교육 삽화이며 측정·절감·기하급수 법칙·실제 정지 기록이 아니다.
+- **Transition:** “성능 요청에서 남은 결정을, 앞서 본 crop 사례로 좁혀 보겠습니다. 같은 모호함을 구체적으로 보기 위한 예시 전환입니다.”라고 S12로 이동한다.
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Case 7분 = 7분
-- **Evidence / Decision References:** BEAT-004, TRIAL-001 callback only, CLM-0002, DEC-0038, DEC-0040
+- **Evidence / Decision References:** BEAT-004, TRIAL-001 callback only, CLM-0002, DEC-0038, DEC-0040, DEC-0042
 
 #### S12 — 요청만으로는 의도가 보이지 않는다
 
@@ -375,15 +375,15 @@ ACT별 Mode 대조:
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; TEACHING_MODEL / CONCEPTUAL. 평행 시간선은 가능한 해석의 교육용 도식이며 실제 반복 실행 결과가 아니다.
 - **Visual Concept:** “crop test 고쳐줘”를 Prompt 입력창으로 표시한다. 동일 AI Agent에서 가능한 해석의 평행 시간선 세 개가 분기한다. 우측 세로 행은 “테스트를 바꿀까?”, “구현을 바꿀까?”, “먼저 물어볼까?”이며 이는 예시 선택지다. 하단의 목표의 세부/보존 조건/수정 범위/확인 근거/완료 조건은 아직 빈 정보로 유지한다. 실제 반복 실행 기록·확률·분산 측정처럼 표현하지 않는다. DEC-0038.
-- **Demo / Case Connection:** Demo Repository에 맞춘 구성 사례. 아직 빈칸은 채우지 않는다.
+- **Demo / Case Connection:** 앞서 조사한 crop 사례에 맞춘 교육용 요청이다. S11의 성능 목표를 실험하거나 실제 TRIAL-002 요청으로 바꾸지 않는다.
 - **Beginner Payoff:** 요청에서 무엇이 빠져 있는지 볼 수 있다.
 - **Advanced Payoff:** 저장소 접근 권한과 작업 의도 전달은 별개의 문제임을 확인한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 한 요청을 보더라도 사람이 명시하지 않은 의도가 남으면 서로 다른 해석·다음 행동이 가능함을 그림으로 보여 준다. 같은 Agent가 반드시 무작위로 행동한다거나 이 Prompt가 실제 실패를 일으켰다고 말하지 않는다.
-- **Transition:** “이 다섯 정보를 Prompt로 함께 전달했다면, 우리가 원하는 작업 경로는 어떻게 더 분명해질까요?”라고 새 S13의 구체 예시로 이동한다.
+- **Speaker Intent:** S11과 다른 예시를 갑자기 시작하지 않고 같은 요청 모호함을 crop에서 확인한다고 회수한다. 세 병렬 경로는 미정 의도의 가능한 해석이며 실제 반복 실험·동시 Subagent·분기 확률이 아니다.
+- **Transition:** “이 미정 정보를 요청에 담으면, 어떤 작업 경로를 원한다는 뜻인지 더 분명해질까요?”라고 S13의 교육용 구체화 예시로 이동한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
-- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038
+- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038, DEC-0042
 
 #### S13 — 원하는 작업 경로를 Prompt에 담는다
 
@@ -398,16 +398,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 1 — underspecified request → explicit intended path; next generalization and Task Specification.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 사용자 승인 교육용 예시. 목표 경로의 시각적 선택은 실제 실행 결과·성공·결정성 보장이 아니다.
-- **Visual Concept:** S12와 같은 Agent·세 시간선을 유지한다. 왼쪽 Prompt 입력창에 목표/보존/범위/확인/완료 다섯 정보를 짧게 채우고, 오른쪽의 구현 수정 목표 경로 한 개를 강조하며 다른 경로는 옅게 남긴다. “명시한 목표 경로 / 실행 후 검증 필요”를 표시한다. 다른 경로가 절대 발생하지 않는다거나 이미 구현·Test가 통과했다는 결과로 만들지 않는다.
+- **Visual Concept:** 기존 Prompt 입력창·동일 Agent·세 경로를 유지한다. 목표/보존/범위/확인/완료 정보를 채우고 사람이 의도한 구현 수정 경로를 강조한다. 확인 항목은 crop 관련 테스트만 실행·프로젝트 전체 테스트 실행·CLI 샘플 실행 확인·변경 내용 확인으로 풀어 설명하며 화면 공간에 맞춰 문장을 나눈다. 실제 선택·성공·정확성·결정성을 보장하는 그림이 아니다.
 - **Demo / Case Connection:** 기존 crop 계약·TRIAL-002를 떠올리는 교육용 요청 예시다. 실제 Trial Prompt나 재실행이 아니며 관찰 근거는 이후 Demo 구간에서 구분한다.
 - **Beginner Payoff:** 빠진 정보를 전달하는 것이 원하는 작업을 가리키는 데 어떤 역할을 하는지 볼 수 있다.
 - **Advanced Payoff:** 의도된 경로의 명시와 실행의 결정성·검증된 결과를 분리한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 구체 예시의 다섯 정보를 하나씩 짧게 짚고 선택된 경로를 사람이 원한 방향으로 읽는다. 강제 경로 고정·정확성 보장으로 설명하지 않는다. 다음 S14는 이 사례에서 일반 질문을 회수하고 S15에서 과정의 Task Specification 틀을 정리한다.
-- **Transition:** “방금 Prompt에 넣은 정보를, 다른 작업에서도 개발자가 답할 질문으로 바꿔 보겠습니다.”라고 S14의 다섯 질문과 개인 Reflection으로 이동한다.
+- **Speaker Intent:** 구체 요청의 확인·보고 사항도 Prompt에 담는 내용으로 읽는다. 첫 확인 용어를 쉬운 말로 설명한 뒤 S14는 다른 작업에서 사람이 답할 질문, S15는 다섯 항목, S16은 요청 문장 속 위치로 역할을 나눠 반복을 줄인다.
+- **Transition:** “이제 답을 다시 읽기보다, 다른 요청에서도 개발자가 먼저 결정할 질문을 정리해 보겠습니다.”라고 S14로 연결한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
-- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038; crop 명세는 기존 TRIAL-002와 일치하는 교육용 예시
+- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038; crop 명세는 기존 TRIAL-002와 일치하는 교육용 예시, DEC-0042
 
 #### S14 — 개발자가 정해야 하는 경계
 
@@ -416,22 +416,22 @@ ACT별 Mode 대조:
 - **Section:** 1B
 - **Working Title:** 개발자가 정해야 하는 경계
 - **Primary Role:** 모호한 요청에 남은 결정을 질문 형태로 드러낸다.
-- **Audience Question:** “무엇을 바꾸고, 무엇을 유지하며, 어디까지 바꿔도 되는가?”
+- **Audience Question:** “다른 요청을 보내기 전, 개발자인 나는 무엇을 결정해야 할까?”
 - **Core Message:** Prompt의 실용적 가치는 문장 장식보다 Task ambiguity reduction에 있다.
 - **Story Beat:** BEAT-004
 - **Curriculum Trace:** ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. 하나의 요청이 특정 실패를 반드시 만든다고 단정하지 않는다.
-- **Visual Concept:** `What should change? / What must not change? / How far? / What evidence? / When is it done?`를 다섯 질문으로 배열한다. 앞 S13의 구체 답을 다시 읽기보다 다른 작업에도 적용할 일반 질문으로 확장한다.
+- **Visual Concept:** 기존 다섯 질문 배열을 유지하되, S13의 crop 답을 다시 읽지 않고 다른 요청을 보내기 전 개발자가 결정할 목표·보존·허용 범위·근거·완료 기준으로 회수한다.
 - **Demo / Case Connection:** S12의 모호한 요청과 새 S13의 구체 예시에서 선택한 정보를 다섯 일반 질문으로 확장한다.
 - **Beginner Payoff:** 다른 작업의 구체적인 답을 정하기 전에 확인할 일반 질문을 얻는다.
 - **Advanced Payoff:** 작업 경계와 완료 증거를 어디까지 고정할지 본다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S13에서 본 한 작업의 구체 조건을 일반적인 다섯 판단 질문으로 정리한다. 앞의 답을 다시 길게 읽기보다 각자 익숙한 요청을 떠올리는 비공개 Reflection을 보존한다. 발언이나 실습은 요구하지 않는다.
-- **Transition:** “앞의 질문을 묶고, 필요한 사실과 작업 순서를 함께 명시하는 틀로 정리해 보겠습니다.”라고 S15의 Task Specification으로 이동한다.
+- **Speaker Intent:** 원하는 변화·우선순위·제약·완료 판단은 사람이 정하고, 저장소 구현·테스트 위치·현재 동작 같은 사실은 조사하도록 맡길 수 있음을 구분한다. 저장소에서 알 수 없는 외부 요구는 제공하되 모든 Context를 직접 작성하라는 인상을 피한다. Case3분과 사적 Reflection1분을 유지한다.
+- **Transition:** “사람이 정할 답과 저장소에서 조사할 사실을 구분해, 다섯 항목의 작업 요청으로 정리해 보겠습니다.”라고 S15로 이동한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 3분 + Reflection 1분 = 4분
-- **Evidence / Decision References:** BEAT-004, CLM-0002
+- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0042
 
 #### S15 — Task Specification의 다섯 책임
 
@@ -440,22 +440,22 @@ ACT별 Mode 대조:
 - **Section:** 1C
 - **Working Title:** Task Specification의 다섯 책임
 - **Primary Role:** 과정에서 사용할 Task Specification 모델을 소개한다.
-- **Audience Question:** “Agent가 작업을 검토 가능하게 수행하려면 무엇을 알아야 할까?”
+- **Audience Question:** “사람이 정할 답과 저장소에서 조사할 사실을 요청에 어떻게 담을까?”
 - **Core Message:** Goal, Context, Constraints, Process, Verification은 작업을 구체화하는 교육용 틀이다.
 - **Story Beat:** BEAT-005 — The task becomes a specification
 - **Curriculum Trace:** ACT 1 — Practical Prompt Checklist and Before/After.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. 공식 OpenAI 공식이나 제품 기능으로 표현하지 않는다.
-- **Visual Concept:** 다섯 개의 독립 카드 대신 하나의 `Task Specification` 안에 다섯 책임이 들어가는 구조.
+- **Visual Concept:** 기존 하나의 Task Specification 안의 Goal / Context / Constraints / Process / Verification 다섯 행을 유지한다. Context는 관련 사실·참고 위치와 저장소에서 조사할 내용을, Process와 Verification은 요청에 담을 진행·확인·보고 조건을 뜻하도록 짚는다.
 - **Demo / Case Connection:** 같은 crop task를 예로 삼되, 이 장에서는 항목의 역할만 보여준다.
 - **Beginner Payoff:** 요청에 담을 내용을 순서 있게 떠올릴 수 있다.
 - **Advanced Payoff:** Agent에게 맡길 판단과 개발자가 고정할 판단을 구별한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 체크리스트 암기를 가르치기보다 각각이 어떤 불확실성을 줄이는지 설명한다.
-- **Transition:** Slide 16에서 다섯 책임을 짧은 Before / After에 적용한다.
+- **Speaker Intent:** 새 기법이나 항목 암기 수업이 아니라 개발자가 정한 정보를 요청으로 정리하는 틀이다. 사람이 정할 목표·우선순위·제약·완료 근거와 Agent가 저장소에서 조사할 사실을 구분하고, S16에서는 실제 문장의 위치만 확인한다.
+- **Transition:** “이 다섯 항목이 실제 요청 문장의 어디에 들어가는지 보겠습니다.”라고 S16의 교육용 요청 예시로 이동한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-005, CLM-0029, OQ-001, OQ-007
+- **Evidence / Decision References:** BEAT-005, CLM-0029, OQ-001, OQ-007, DEC-0042
 
 #### S16 — 더 긴 Prompt보다 분명한 경계
 
@@ -464,23 +464,22 @@ ACT별 Mode 대조:
 - **Section:** 1C + 1F 통합
 - **Working Title:** 더 긴 Prompt보다 분명한 경계
 - **Primary Role:** 약한 요청과 구조화된 요청을 간결하게 비교한다.
-- **Audience Question:** “두 요청에서 실제로 달라진 정보는 무엇인가?”
+- **Audience Question:** “다섯 항목은 구체적인 요청 문장의 어디에서 드러나는가?”
 - **Core Message:** 유용성은 Prompt의 길이보다 Goal과 제약, 과정, 검증 경계가 분명한 데서 나온다. 기존 crop 계약을 4열 입력·crop 1 3·원본 열 1·2/출력 폭 2의 구체 완료 조건으로 연결한다.
 - **Story Beat:** BEAT-005
 - **Curriculum Trace:** ACT 1 — Practical Prompt Checklist and Before/After.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. TRIAL-002가 약한 Prompt 대비 우월성을 실험했다는 뜻은 아니다.
-- **Visual Concept:** - Before: `crop test 고쳐줘.`
-  - After: Goal — failing crop boundary 조사 및 수정. Context — repository의 failing test. Constraints — public contract 유지, unrelated API 변경 금지, dependency 추가 금지. Process — reproduce → inspect → plan → minimal change. Verification — focused test, full suite, smoke if practical, diff review. 기존 Case 안에서 Given 4열 합성 입력 → When crop 1 3 → Then 원본 열 1·2, 출력 폭 2의 완료 조건을 교육용 예시로 연결한다. 당시 TRIAL-002 Prompt 원문이 아니다.
+- **Visual Concept:** 짧은 요청과 교육용 구체 요청의 Before/After를 유지하고 Goal·Context·Constraints·Process·Verification이 실제 문장 어디에서 드러나는지 대응시킨다. 저장소의 실패 테스트·호출 경로는 조사하도록 요청하고, 끝 좌표 제외·허용 변경·확인할 기대 열/폭은 명시한다. 확인 행은 관련 테스트·프로젝트 전체 테스트·가능한 CLI 샘플 실행·변경 내용 확인으로 풀어 쓴다. 4열 입력·crop1 3·원본 열1·2/폭2의 기존 완료 조건을 유지하며 실제 TRIAL-002 Prompt 원문으로 표현하지 않는다.
 - **Demo / Case Connection:** 실무 적용 예시. TRIAL-002 전체 Prompt를 작은 글씨로 싣지 않는다.
 - **Beginner Payoff:** 바로 재사용할 수 있는 요청 구성 원리를 본다.
 - **Advanced Payoff:** 작업 범위, 사전 계획, 허용된 변경을 검토 가능한 경계로 다룬다.
 - **C++ Vision Bridge:** 짧은 inset으로 Release build, public API/ABI, hardware constraint, test/benchmark 예를 든다. 도구 목록 강의는 하지 않는다.
-- **Speaker Intent:** After의 단어 수가 아니라 금지된 변경과 완료 증거가 어떻게 명시됐는지 짚는다. 기존 Case 3분 중 90초를 구체 완료 조건 해설로 교체하며, 일반 비교와 실제 Trial 관찰로 넘어가는 흐름을 유지한다.
-- **Transition:** “여기까지는 교육용 구성 예시였습니다. 이제 과거 TRIAL-002에서 요청한 흐름과 기록된 행동을 살펴보겠습니다.”라고 실제 기록의 관찰 기준으로 이동한다.
+- **Speaker Intent:** S13의 답과 S15 항목 정의를 반복하기보다 요청 문장의 정보 위치를 짚는다. 조사 순서와 확인·보고 조건도 Prompt에 담을 내용이다. 저장소의 사실을 직접 전부 복사하지 않고 조사 대상을 가리킬 수 있음을 보인다. Lecture6분·Case3분을 유지하고 S17에서 교육용 예시와 실제 요청 발췌를 명확히 구분한다.
+- **Transition:** “여기까지는 교육용 요청 예시였습니다. 이제 실제 기록에서는 어떤 지시를 전달했고, 그 지시와 작업 과정이 어떻게 연결됐는지 보겠습니다.”라고 S17의 TRIAL-002 실제 Prompt 발췌·번역으로 이동한다.
 - **Estimated Time:** 9분
 - **Delivery Mode Allocation:** Lecture 6분 + Case 3분 = 9분
-- **Evidence / Decision References:** BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007
+- **Evidence / Decision References:** BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007, DEC-0042
 
 #### S17 — 먼저 무엇을 하는지 보자
 
@@ -489,22 +488,22 @@ ACT별 Mode 대조:
 - **Section:** 1D
 - **Working Title:** 먼저 무엇을 하는지 보자
 - **Primary Role:** TRIAL-002에서 관찰할 행동 순서를 안내한다.
-- **Audience Question:** “이 요청을 받은 Agent가 수정부터 시작할까?”
+- **Audience Question:** “실제로 전달한 Process·Verification 지시와 기록된 행동이 연결되는가?”
 - **Core Message:** 이 한 번의 관찰에서는 재현, 조사, 계획, 수정, 검증 순서를 확인할 수 있다.
 - **Story Beat:** BEAT-006 — Investigate before changing code
 - **Curriculum Trace:** ACT 1 — Investigation-first workflow and Prompt's value.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT — Codex CLI의 단일 TRIAL-002 실행에 한정한다.
 - **Visual Concept:** 좌측 Prompt 입력창에는 실제 TRIAL-002의 Goal·Constraints와 Process·Verification 핵심 지시를 발췌·번역해 놓는다. 다섯 지시에 01–05를 붙이고, 우측에는 같은 번호·색·행 정렬로 재현 / 조사 / 계획 / 수정 / 검증을 세로로 나열한다. 우측에는 화살표를 쓰지 않는다. 전체 Prompt 원문이나 실행 로그로 위장하지 않는다.
-- **Demo / Case Connection:** TRIAL-002 실제 Prompt의 지시와 기록에서 확인할 외부 행동을 대응시킨 WATCH 기준. S18에서 02 조사·03 계획과 04 수정, S19에서 05 검증을 확인한다. Codex Desktop 동작·내부 사고·Prompt 단독 인과성의 증거로 확대하지 않는다.
+- **Demo / Case Connection:** TRIAL-002 실제 요청의 Process·Verification과 기록에서 볼 외부 행동을 대응시킨 WATCH 기준. S18 조사·보존·최소 diff, S19 요청한 확인·보고를 실제 기록으로 확인한다. 내부 사고·Prompt 단독 인과성·현재 Desktop 근거로 확대하지 않는다.
 - **Beginner Payoff:** 수정 전에 관찰할 수 있는 행동을 안다.
 - **Advanced Payoff:** 요청한 절차와 실제 실행 증거를 구분해 본다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 먼저 실제 Prompt의 핵심 지시 발췌·번역임을 밝힌 뒤 좌측 01–05와 우측 같은 번호를 차례로 짚는다. 다섯 단계는 외부 행동을 확인할 기준이며, 결과·검증 수치는 다음 두 장에서 공개한다. S16의 교육용 구성 Prompt를 실제로 실행한 것으로 설명하지 않는다.
-- **Transition:** “02 조사와 03 계획을 거친 뒤 04 수정은 어떻게 했을까?”를 묻고 Slide 18의 한 줄 변경으로 이동한다.
+- **Speaker Intent:** 기존 좌측 실제 Prompt 핵심 지시 발췌·번역과 우측 화살표 없는 01–05 대응을 보존한다. 재현·조사·계획·수정은 실제 요청의 Process, 확인·보고는 Verification을 사례에서 볼 기준이다. 일반 작업 절차를 새로 가르치지 않고 결과·수치는 S18–S19에 남긴다. S16의 교육용 요청을 실제로 실행한 결과로 설명하지 않는다.
+- **Transition:** “요청한 조사와 보존 조건은 실제 04 수정에 어떻게 반영됐을까?”를 묻고 S18에서 02 조사·03 계획과 실제 diff를 대조한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039
+- **Evidence / Decision References:** BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039, DEC-0042
 
 #### S18 — 조사에서 한 줄 변경까지
 
@@ -513,22 +512,22 @@ ACT별 Mode 대조:
 - **Section:** 1D
 - **Working Title:** 조사에서 한 줄 변경까지
 - **Primary Role:** 조사 결과가 수정으로 이어진 흐름을 요약한다.
-- **Audience Question:** “수정 전에 어떤 근거를 확인했는가?”
+- **Audience Question:** “요청한 조사·보존 조건·최소 변경은 실제 diff에 어떻게 드러났을까?”
 - **Core Message:** failing test와 호출 경로를 확인한 뒤, half-open 범위 계약을 보존하는 최소 변경을 했다.
 - **Story Beat:** BEAT-006
 - **Curriculum Trace:** ACT 1 — Investigation-first workflow and Prompt's value.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT — 기록된 단일 CLI 실행에 한정한다.
-- **Visual Concept:** S17의 02 조사·03 계획에서 확인한 끝 좌표 제외 명세를 회수하고, 04 수정의 실제 한 줄 Before/After와 너비 3에서 2의 변화를 유지한다. 전체 diff는 싣지 않는다.
+- **Visual Concept:** 기존 crop Before/After 한 줄 diff와 너비3에서2의 변화를 유지한다. S17의 조사·수정 전 계획 및 끝 좌표 제외 보존 조건을 회수하고 실제 최소 변경이 요청 범위에 맞는지 대조한다.
 - **Demo / Case Connection:** Trial 기록에서 재현, 조사, edit 전 계획, 변경 한 줄만 추린다.
 - **Beginner Payoff:** 코드를 바꾸기 전에 원인과 기대 동작을 대조하는 이유를 본다.
 - **Advanced Payoff:** 명시된 public contract와 diff 범위가 맞는지 검토한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S17의 02 조사·03 계획과 04 수정 번호를 회수해 연결한다. 로그를 재생하지 않고 edit 전 계획과 실제 경계 수정이라는 두 증거만 강조한다. Prompt 지시가 내부 사고를 직접 발생시켰다는 인과성으로 설명하지 않는다.
-- **Transition:** “04 수정까지 확인했다. 이제 05 검증에서 어떤 근거를 남겼을까?”로 Slide 19의 확인 결과에 연결한다.
+- **Speaker Intent:** 실패 테스트·호출 경로 조사, 수정 전 계획, 명세 보존·최소 변경이라는 실제 요청과 실제 diff의 연결을 강조한다. 독립적인 디버깅·수정 절차 강의로 확장하지 않으며 Prompt 단독 인과성을 주장하지 않는다.
+- **Transition:** “요청한 최소 수정까지 확인했습니다. 이제 요청에 적은 05 확인·보고가 어떤 기록으로 남았는지 보겠습니다.”라고 S19로 이동한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED) = 4분
-- **Evidence / Decision References:** BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039
+- **Evidence / Decision References:** BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039, DEC-0042
 
 #### S19 — 변경 결과와 확인 증거
 
@@ -537,22 +536,22 @@ ACT별 Mode 대조:
 - **Section:** 1D
 - **Working Title:** 변경 결과와 확인 증거
 - **Primary Role:** TRIAL-002의 검증 결과를 한 화면에서 확인한다.
-- **Audience Question:** “생성된 변경을 어떤 확인이 뒷받침하는가?”
+- **Audience Question:** “요청한 확인·보고 사항은 어떤 검증 기록으로 남았을까?”
 - **Core Message:** 이 사례의 결과는 생성된 코드뿐 아니라 명시된 검증과 diff 확인을 거친 변경이다.
 - **Story Beat:** BEAT-007 — A clear Prompt succeeds on its own; INV-VERIFY-001
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT — 한 번의 Codex CLI 실행 결과다.
-- **Visual Concept:** Focused test `3/3`, full suite `11/11`, CLI smoke `PASS`, diff `1 file / 1 line`, `git diff --check PASS`를 간결한 scorecard로 표시한다.
+- **Visual Concept:** 기존 동작/실행/범위의 세 묶음과 관련 테스트3/3·전체11/11·CLI PASS·한 파일/한 줄·diff 확인 수치를 유지한다. 각 묶음을 S17의 확인·보고 지시에 대응시킨다. 실제 집중 실행은 test_transform.py 묶음으로 resize 보존 테스트도 포함하므로 crop 테스트만3개로 좁히지 않는다. 영어 명칭은 쉬운 설명 뒤에 두며 원자료 명령과 결과는 그대로 유지한다.
 - **Demo / Case Connection:** Trial의 실제 기록값.
 - **Beginner Payoff:** “완료”를 주장할 때 결과와 확인 증거가 함께 필요함을 본다.
 - **Advanced Payoff:** 각 증거를 해당 실행 범위에 한정해 평가한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 로그를 나열하지 않고 시험 결과, smoke, diff 세 범주로 묶는다.
-- **Transition:** 생성 자체와 완료 판단을 구분하는 Slide 20로 간다.
+- **Speaker Intent:** 테스트 용어와 결과를 별도로 나열하지 않고, 요청한 관련 테스트 묶음·프로젝트 전체 테스트·CLI 샘플 실행·변경 내용 확인이 기록에 어떻게 남았는지 본다. 성능·총 토큰·시간 개선 근거로 바꾸지 않고 미확인 사항과 사람의 완료 판단으로 연결한다.
+- **Transition:** “이 확인 결과와 아직 모르는 점을 받아야 사람이 완료 여부를 판단할 수 있습니다. 무엇을 보고해 달라고 요청해야 할까요?”라고 S20으로 연결한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED) = 4분
-- **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027
+- **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0042
 
 #### S20 — Generated ≠ Done
 
@@ -561,22 +560,22 @@ ACT별 Mode 대조:
 - **Section:** 1E
 - **Working Title:** Generated ≠ Done
 - **Primary Role:** 생성과 완료 판단 사이에 필요한 확인을 설명한다.
-- **Audience Question:** “어떤 Check가 어떤 Claim을 뒷받침하는가?”
+- **Audience Question:** “무엇을 확인·보고해 달라고 요청해야 완료를 판단할 수 있을까?”
 - **Core Message:** Task는 결과뿐 아니라 적절한 검증과 review를 포함해야 한다. 변경 이유·범위, 검증 근거·결과, 미확인 사항, 사람의 수용 판단을 짧은 결과 인계로 연결한다.
 - **Story Beat:** BEAT-007; INV-VERIFY-001
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; TEACHING_MODEL; OBSERVED PRODUCT는 TRIAL-002 결과에 한정하고, check와 claim의 관계는 일반 Engineering 모델로 구분한다.
-- **Visual Concept:** `Generate → ?`와 Test, Smoke, Benchmark if needed, Diff review의 판단 관계를 유지한다. 검증 근거의 재나열을 변경 이유·범위 / 검증 근거·결과 / 미확인 / 사람의 수용 판단 네 항목의 검토용 결과 인계 예시로 묶는다. 기존 crop 기록을 가리키는 강의용 정리이며 실제 PR이나 당시 답변 원문은 아니다.
+- **Visual Concept:** 기존 생성과 완료 판단의 대비 및 변경 이유·범위/확인 근거·결과/미확인 사항/사람의 수용 판단 네 항목을 유지한다. 앞의 기록을 받아 판단하려면 무엇을 확인·보고해 달라고 요청해야 하는지 회수하는 화면이다.
 - **Demo / Case Connection:** Trial에서 실제 수행한 확인과 성능 주장을 위한 조건부 benchmark를 구분한다.
 - **Beginner Payoff:** 코드가 나왔다는 사실만으로 완료라고 판단하지 않는다.
 - **Advanced Payoff:** 주장에 맞는 검증 근거를 선택한다.
 - **C++ Vision Bridge:** S21 Notes의 선택적 C++ 검증 범위 참고로 연결한다. S21 화면 inset은 계약 비교로 대체했으며 주요 Engineering Pattern 전이는 S54에서 유지한다.
-- **Speaker Intent:** 모든 작업에 모든 검사를 요구하지 않고, 주장과 위험에 맞는 확인을 연결한다. 기존 Lecture 3분 안에서 결과 인계 예시에 90초를 사용하고, 조건부 성능 측정과 S21의 확인 범위 질문을 보존한다.
-- **Transition:** Slide 21에서 각 Check가 뒷받침하는 범위를 비교한다.
+- **Speaker Intent:** Verification과 결과 보고도 작업 요청의 일부임을 중심에 둔다. 변경 내용·확인 결과·미확인을 받아 사람이 완료를 판단하며, 검사 이름을 따로 소개하는 수업으로 전환하지 않는다. S19의 통과 수치를 다시 읽지 않는다.
+- **Transition:** “완료를 판단할 근거를 요청할 때, 어떤 검사와 기대값까지 명시해야 할까요?”라고 S21의 명세 기반 완료 조건으로 이동한다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
-- **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027
+- **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0042
 
 #### S21 — Check마다 확인하는 범위
 
@@ -585,7 +584,7 @@ ACT별 Mode 대조:
 - **Section:** 1E + 1F 통합
 - **Working Title:** Check마다 확인하는 범위
 - **Primary Role:** Check의 종류와 각 Check가 뒷받침하는 주장을 연결한다.
-- **Audience Question:** “이 Check로 무엇까지 말할 수 있는가?”
+- **Audience Question:** “완료 조건에 어떤 검사와 기대값을 적어야 할까?”
 - **Core Message:** Check 하나가 모든 정확성을 증명하지는 않는다. 결과가 비어 있지 않다는 확인만으로 crop의 끝 좌표 제외 계약을 검증할 수 없으며, 해당 입력의 기대 열과 출력 폭을 비교해야 그 차이를 구별할 수 있다.
 - **Story Beat:** BEAT-007; INV-VERIFY-001
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.
@@ -596,11 +595,11 @@ ACT별 Mode 대조:
 - **Beginner Payoff:** 검사 결과가 무엇을 말해주는지 과장하지 않는다.
 - **Advanced Payoff:** C++ 프로젝트에는 GoogleTest/CTest, Release build, Google Benchmark/profiler, public API/ABI 확인 등을 상황에 맞게 연결할 수 있다.
 - **C++ Vision Bridge:** 화면 우측의 SUPPORTING 예시로 기존 Python crop 첫 행을 C++ vector와 GoogleTest assertion 조건으로 재표현한다. S02의 원소 칸 표현을 재사용하되 초기화 생성자 설명을 반복하지 않는다. Release build·API/ABI·측정 조건 대응은 Notes의 선택 참고로 유지하며 Python Demo를 C++ 도구 강의로 전환하지 않는다.
-- **Speaker Intent:** 도구 이름이나 assertion 개수보다 명세 위반을 구별할 조건을 작성했는지 강조한다. Lecture 4분 중 90초를 기대 vector와 잘못된 vector 및 약한 조건·명세 조건 비교에 쓰고 Reflection 1분을 보존한다. vector 동등 비교가 이미 길이·값·순서를 확인하므로 size 행은 폭 조건을 드러내는 교육상 중복임을 구분한다. 비어 있지 않음 검사를 항상 무의미하다고 부르거나 한 기대값 비교로 모든 입력의 정확성을 보장하지 않는다.
-- **Transition:** “방금 정한 테스트 명령과 보존 조건은 다음 작업에도 필요할 수 있습니다. 이 설명을 매번 다시 적어야 할까요?”라고 검증 지침의 재사용에서 S22의 정보 수명 질문으로 연결한다.
+- **Speaker Intent:** 기존 DEC-0041의 좌측 다섯 Check 범위와 우측 vector·GoogleTest 비교를 보존한다. 이 장을 명세 기반 완료 조건과 확인·보고 사항을 요청하는 구체 예로 읽는다. 비어 있지 않음과 기대 개수·값·순서의 차이는 assertion 수 자체가 아니라 구별할 명세 위반의 차이다. 실제 Python Trial·교육용 C++·새 실행/PASS 없음 경계와 Lecture4분/Reflection1분을 유지한다.
+- **Transition:** “이렇게 요청할 검사와 보존 조건을 정했지만, 테스트 명령과 같은 조건을 다음 작업에도 다시 쓰게 됩니다. 이번 Task에만 필요한 정보일까요?”라고 S22로 연결한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 4분 + Reflection 1분 = 5분
-- **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0041
+- **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0041, DEC-0042
 
 #### S22 — 이번 Task인가, 계속 유지할 Project 정보인가?
 
@@ -609,7 +608,7 @@ ACT별 Mode 대조:
 - **Section:** 1G 첫 장
 - **Working Title:** 이번 Task인가, 계속 유지할 Project 정보인가?
 - **Primary Role:** Task-specific 정보와 Project-persistent 정보의 구분을 시작한다.
-- **Audience Question:** “매번 Prompt에 반복해서 쓰는 내용 중 이번 Task에만 필요한 것은 무엇이고, Project가 계속 기억해야 할 것은 무엇인가?”
+- **Audience Question:** “잘 쓴 요청의 테스트 명령과 보존 조건을, 다음 작업에도 다시 적어야 할까?”
 - **Core Message:** 두 종류의 정보를 구분할 필요가 있음을 먼저 인식한다.
 - **Story Beat:** BEAT-007 → BEAT-008 handoff
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.; ACT 2 — repeated project context.
@@ -620,11 +619,11 @@ ACT별 Mode 대조:
 - **Beginner Payoff:** Task 요청과 계속 유지할 규칙이 다를 수 있음을 생각한다.
 - **Advanced Payoff:** 반복 정보를 어디에 두고 어떻게 관리할지 다음 ACT의 문제로 인식한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 청중이 먼저 분류해 보게 하되, 발언이나 실습은 요구하지 않는다. `AGENTS.md`와 Context routing은 아직 공개하지 않는다.
-- **Transition:** Slide 23에서 Reflection/Discussion을 회수하고 “왜 Project 설명을 매번 다시 쓰는가?”라는 ACT 2 질문으로 넘긴다.
+- **Speaker Intent:** 요청을 구체화했지만 같은 테스트 명령·보존 조건을 다음 작업에도 다시 쓰는 마찰을 회수한다. 두 빈 영역은 Task/Project의 수명·범위를 생각할 질문으로 유지하며 정답이나 저장 메커니즘을 미리 제시하지 않는다.
+- **Transition:** “방금 떠올린 반복 문장을 이번 Task 정보와 계속 참고할 Project 정보의 후보로 나눠 보겠습니다.”라고 S23으로 이동한다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Reflection 1분 + Q&A 2분 = 3분
-- **Evidence / Decision References:** BEAT-007, BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005
+- **Evidence / Decision References:** BEAT-007, BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042
 
 #### S23 — 반복하는 설명을 두 범주로 나누기
 
@@ -633,22 +632,22 @@ ACT별 Mode 대조:
 - **Section:** 1G 종료 및 ACT 2 전환
 - **Working Title:** 반복하는 설명을 두 범주로 나누기
 - **Primary Role:** Slide 22의 두 빈 Bucket을 예시로 회수한다.
-- **Audience Question:** “이번 Task에만 필요한 정보와 Project가 계속 유지할 정보는 무엇일까?”
+- **Audience Question:** “같은 Project 설명을 다음 요청에서도 왜 반복하게 될까?”
 - **Core Message:** Task 정보와 Project 정보는 수명과 적용 범위가 다르다.
 - **Story Beat:** BEAT-007 → BEAT-008; TRANS-003
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.; ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. 분류 시험이나 유일한 정답으로 제시하지 않는다.
-- **Visual Concept:** `crop boundary 수정`, `이번에는 README만 수정`은 `THIS TASK` 후보로, `runtime dependency 추가 금지`, `test command`는 `THIS PROJECT` 후보로 놓는다.
+- **Visual Concept:** 기존 이번 Task/계속 유지할 Project 두 Bucket을 유지한다. crop 경계 수정·이번 README 수정은 현재 목표 후보, 의존성 추가의 작업상 근거·프로젝트 테스트 명령은 여러 작업에서 참고할 후보로 놓는다. 동일한 확인 명령과 보존 조건이 다시 요청에 들어간다는 마찰로 S24에 넘긴다.
 - **Demo / Case Connection:** Slide 22에서 시작한 분류를 돕는 예시. 아직 `AGENTS.md`를 답으로 보여주지 않는다.
 - **Beginner Payoff:** 매번 쓰는 정보와 이번 요청만의 정보를 구별해 본다.
 - **Advanced Payoff:** 정보의 재사용 범위와 유지 기간을 검토한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 예시는 후보이며, 청중이 자신의 업무를 떠올리도록 한다.
-- **Transition:** “그런데 Project 정보를 왜 매번 Prompt에 다시 적고 있을까?”
+- **Speaker Intent:** 잘 작성한 요청도 반복되는 Project 설명 문제를 남긴다는 순서로 회수한다. 정보 수명·적용 범위의 후보 비교만 하고 AGENTS.md나 완전한 분류를 먼저 답하지 않는다. Reflection1분·Transition3분·Q&A2분을 보존한다.
+- **Transition:** “요청은 구체화했지만, 같은 테스트 명령과 보존 조건은 다음 작업에도 다시 적게 됩니다. Project 설명을 왜 매번 Prompt에 다시 쓰고 있을까요?”라고 S24의 반복 Project Context 문제로 연결한다.
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Reflection 1분 + Transition 3분 + Q&A 2분 = 6분
-- **Evidence / Decision References:** BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005
+- **Evidence / Decision References:** BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042
 
 ### ACT 2
 

@@ -2,7 +2,7 @@
 
 Planning Status: CANDIDATE — supporting captured case
 
-Final Validation Status: READY — DEC-0039 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0042 local static files, displayed IDs, dimensions, render parity and SHA-256 checked. Target Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
 
 Story Beat: BEAT-004–007
 
@@ -14,7 +14,8 @@ Delivery Mode: CAPTURED static fallback; short Live option disabled
 
 ## Purpose
 
-Show how explicit task boundary and verification make a code change inspectable.
+Connect the actual request's preservation, minimal-edit and verification
+instructions to the recorded diff and checks; use them as completion evidence.
 
 ## Audience Question
 
@@ -94,9 +95,9 @@ Default is the offline static presentation. Open: `production/preview/full/S18.p
 
 Use S18–S19 PNG; do not add fabricated test logs.
 
-Fallback readiness: READY for DEC-0039 local static files. S18/S19 paths, displayed IDs, dimensions and hashes were checked after rendering. Target-PC playback remains UNVERIFIED; raw Trial captures are not implied.
+Fallback readiness: READY for DEC-0042 local static files. S18/S19 paths, displayed IDs, dimensions and hashes were checked after rendering. Target-PC playback remains UNVERIFIED; raw Trial captures are not implied.
 
-Captured Alternative provenance: DEC-0039 content with DEC-0038 numbering. Current PPTX/PNG identity and fallback hashes are recorded in FALLBACK_MANIFEST.md and production/evaluation/PROMPT_FLOW_REVISION.md. DEC-0033–0038 records remain historical. This is not a target-PC playback test, raw terminal screenshot, recording, new Trial or rehearsal.
+Captured Alternative provenance: DEC-0042 request-to-evidence connections preserve DEC-0039 actual-Prompt mapping and DEC-0038 numbering. Current PPTX/PNG identity and fallback hashes are recorded in FALLBACK_MANIFEST.md and production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md. Earlier production records remain historical. This is not a target-PC playback test, raw terminal screenshot, recording, new Trial or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -106,7 +107,9 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S19 → S20: generated code is not done until checks are inspected.
+S19 → S20: request changed files, check evidence and unverified limits so a
+human can judge completion. S18/S19 match the actual TRIAL-002 request, not
+an execution of the teaching request on S16.
 
 ## Evidence
 

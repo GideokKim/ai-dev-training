@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일: 2026-10-21 (Asia/Seoul). 대상 후보: DEC-0041의 S21 표·vector·명세 assertion 정렬을 반영한 82장 통합본. DEC-0040의 S11 이미지 교체는 유지한다. DEC-0039의 S17/S18 정렬은 유지한다. DEC-0038의 시간선·신규 S13도 유지한다. 기존 ZIP은 이전 DEC-0033 자료이며 이번에는 갱신하지 않는다.
+갱신 기준일: 2026-10-21 (Asia/Seoul). 대상 후보: DEC-0042의 ACT 1 요청 설계·실제 기록·완료 근거 연결을 반영한 82장 통합본. S21의 DEC-0041 vector·명세 assertion을 유지한다. DEC-0040의 S11 이미지 교체는 유지한다. DEC-0039의 S17/S18 정렬은 유지한다. DEC-0038의 시간선·신규 S13도 유지한다. 기존 ZIP은 이전 DEC-0033 자료이며 이번에는 갱신하지 않는다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,13 +9,13 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `5b4325dfa16cb401a2509ddc24a1788ba0893e219e9c6d86c469eb0cbdf63603`
+- PPTX SHA-256: `22ebf381e9bc6a1430bd54d859f0308954a850e4235c41b4ff40cc13d6f2e2a2`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `fbf9c7df6ac28fb1e3d0e46457f15c808d5ea0b944576d85276bdb8f40c19ca9`
+- Notes SHA-256: `37e907f2e48abc68a487205c8c378d4851ed4888fc33da486860857be4c24ed6`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S82.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-위 PPTX·Notes hash는 DEC-0041의 실제 82장 후보에서 다시 계산했다. 로컬에서 PPT 구조·전체 렌더·82개 내장 Notes와 ACT/Full PNG 동일성을 확인했다. 이는 아래 실환경·리허설 항목의 PASS를 뜻하지 않는다. [현재 S21 명세 assertion 검토](S21_ASSERTION_SPEC_REVISION.md)와 [이전 S11 그래프 이미지 검토](S11_RESOURCE_GRAPH_REVISION.md)와 [이전 Prompt 지시·관찰 순서 검토](PROMPT_FLOW_REVISION.md)와 [이전 Prompt/시간선 검토](PROMPT_TIMELINE_REVISION.md)와 [이전 S10 검토](S10_INSPECTION_PIPELINE_REVISION.md)와 [이전 삽입 검토](CODEX_ENTRY_INSERTION.md)와 [번호 이행표](../../plan/SLIDE_ID_MIGRATION_82.md)를 따른다.
+위 PPTX·Notes hash는 DEC-0042의 실제 82장 후보에서 다시 계산했다. 로컬에서 PPT 구조·전체 렌더·82개 내장 Notes와 ACT/Full PNG 동일성을 확인했다. 이는 아래 실환경·리허설 항목의 PASS를 뜻하지 않는다. [현재 ACT 1 요청 설계·사례 연결 검토](ACT_1_REQUEST_DESIGN_REVISION.md)와 [이전 S21 명세 assertion 검토](S21_ASSERTION_SPEC_REVISION.md)와 [이전 S11 그래프 이미지 검토](S11_RESOURCE_GRAPH_REVISION.md)와 [이전 Prompt 지시·관찰 순서 검토](PROMPT_FLOW_REVISION.md)와 [이전 Prompt/시간선 검토](PROMPT_TIMELINE_REVISION.md)와 [이전 S10 검토](S10_INSPECTION_PIPELINE_REVISION.md)와 [이전 삽입 검토](CODEX_ENTRY_INSERTION.md)와 [번호 이행표](../../plan/SLIDE_ID_MIGRATION_82.md)를 따른다.
 
 이전 DEC-0033–0035의 80장 렌더·구조·Notes 검토는 해당 평가 문서와 Git history의 역사적 근거다. 이전 ZIP은 payload 362개·entry 363개였으며 당시 CRC·hash·내부 링크·Notes 정합성을 확인했다. 이번에는 묶음을 갱신하지 않는다. M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아니다. 2순위 보강은 보류한다.
 
@@ -172,7 +172,7 @@ ____________________________________________________________________
 - [ ] 현재 Desktop 동작을 과거 CLI Trial의 결과로 표현하지 않았다.
 - [ ] S74 조건 변화는 가상 교육 맥락이며 실제 C++ 사건이나 확정된 실패 원인으로 표현하지 않았다.
 - [ ] S76 State는 기록된 문제 대응 이력이며 성숙도 등급·Product Loop로 표현하지 않았다.
-- [ ] DEC-0041의 현재 화면·Notes Cue를 기준으로 Story·Claim·Slide ID·ACT·시간·Mode·Demo State를 유지했다.
+- [ ] DEC-0042의 현재 화면·Notes Cue를 기준으로 Story·Claim·Slide ID·ACT·시간·Mode·Demo State를 유지했다.
 - [ ] S07은 회사별 허용·금지 정책 확인 결과가 아니며 S16 완료 조건·S20 결과 인계·S21 검사 비교는 교육용 예시로 설명했다. 실제 Prompt/PR 원문이나 새 실행·PASS 결과로 표현하지 않았다.
 - [ ] 보호 변경 필요 시 `PROPOSAL / REASON / EVIDENCE / IMPACT / CONFLICT / RECOMMENDATION`을 작성하고 승인 전 적용하지 않았다.
 

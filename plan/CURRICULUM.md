@@ -203,6 +203,19 @@ workflow, and explicit completion criteria.
 Prompts remain important as the system grows.
 **Transition:** “그런데 왜 우리는 매번 같은 Project 설명을 반복할까?”
 
+**Current 82-slide teaching connection (DEC-0042):** S11–S23 retain their
+13 slides / 55 minutes and all slide-level allocations. The through-line is
+“원하는 변화, 지켜야 할 조건, 완료를 판단할 근거를 요청에 담는다.”
+S14 asks what the developer must decide, S15 generalizes the five request
+items, and S16 locates them in teaching-request sentences. Repository facts
+can be investigated; human goals, priorities, constraints and completion
+criteria still need to be stated. S17–S19 connect actual Prompt excerpts to
+the recorded actions and evidence, without treating the S16 teaching Prompt
+as the Trial input. S20–S21 recover the process and checks as requested
+completion evidence. S22–S23 leave repeated test commands and preserved
+Project conditions as the next problem. This clarifies the existing pattern
+rather than adding a method, a testing course or a comparison experiment.
+
 | Section | Min | L/D/C/R/T | Learning movement and teaching form |
 |---|---:|---:|---|
 | Same model, underspecified request | 15 | 5/0/7/2/1 | Compare plausible outcomes of a vague request: scope drift, missed constraints, skipped checks, or a mismatch with intent. Do not claim a single outcome is inevitable. |
