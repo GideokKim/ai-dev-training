@@ -206,20 +206,38 @@ export const slides = {
     return s;
   },
   S17: (p, H) => {
-    const { C, text, line, arrow } = H;
+    const { C, text, rect, line } = H;
     const s = H.frame(p, 'S17', '먼저 무엇을 하는지 보자', 'ACT 1 · TRIAL-002 관찰 시작', 'TRIAL-002 관찰 기준 · 2026-09-28 · Codex CLI 0.154.0 · macOS', '단일 과거 CLI 기록을 살펴봅니다. 현재 Desktop 실행이나 반복성을 입증하지 않습니다.', 'OBSERVED_PRODUCT');
-    text(s, '“실제 기록에서는 수정 전에 무엇을 했을까?”', 64, 240, 1152, 65, 40, C.ink, true);
-    const items = [['재현', '실패 확인'], ['조사', '근거 연결'], ['계획', '수정 전 설명'], ['수정', '최소 변경'], ['검증', '결과 확인']];
-    items.forEach((a, i) => { const x = 64 + i * 234; text(s, String(i + 1).padStart(2, '0'), x, 357, 185, 36, 28, C.sub); text(s, a[0], x, 405, 185, 50, 35, i === 2 ? C.teal : C.ink, true); text(s, a[1], x, 474, 185, 40, 28, C.sub); if (i < 4) arrow(s, x + 186, 424, 25, 17); });
-    line(s, 64, 548, 1152);
-    text(s, '다음 두 장에서 TRIAL-002의 요청 흐름과 행동을 대조한다.', 64, 558, 1152, 39, 28, C.teal, true);
+    const prompt = rect(s, 64, 184, 682, 414, C.white, C.line, 1.5);
+    prompt.borderRadius = 12;
+    text(s, '입력한 Prompt · 핵심 지시 발췌·번역', 84, 195, 642, 29, 24, C.sub, true);
+    line(s, 84, 235, 642);
+    text(s, '목표  crop 경계 실패를 조사하고 고친다.', 84, 245, 642, 29, 25, C.ink, true);
+    text(s, '제약  [x_start, x_end) 보존 · 최소 변경', 84, 276, 642, 28, 24, C.sub);
+    text(s, '         무관한 API 변경·의존성 추가 없음', 84, 304, 642, 27, 24, C.sub);
+    text(s, 'AI Agent 관찰 순서', 794, 194, 422, 36, 29, C.ink, true);
+    text(s, 'Prompt의 같은 번호와 대조', 794, 244, 422, 31, 25, C.teal);
+    const items = [
+      ['먼저 현재 실패를 재현한다.', '재현'],
+      ['관련 구현과 호출 경로를 조사한다.', '조사'],
+      ['수정 전, 짧은 변경 계획을 알린다.', '계획'],
+      ['필요한 코드만 최소한으로 수정한다.', '수정'],
+      ['집중·전체 Test, 가능하면 CLI smoke.\ndiff 확인 · 변경 파일과 검증 근거 보고.', '검증·보고'],
+    ];
+    items.forEach((a, i) => {
+      const y = 335 + i * 51, n = String(i + 1).padStart(2, '0');
+      text(s, n, 84, y, 42, 29, 24, C.teal, true);
+      text(s, a[0], 136, y, 590, i === 4 ? 53 : 34, 24, C.ink, true);
+      text(s, n, 794, y - 2, 49, 42, 33, C.teal, true);
+      text(s, a[1], 855, y - 3, 361, 42, 35, C.ink, true);
+    });
     return s;
   },
   S18: (p, H) => {
     const { C, text, rect, line, arrow } = H;
-    const s = H.frame(p, 'S18', '조사에서 한 줄 변경까지', 'ACT 1 · 계약을 보존하는 최소 변경', 'TRIAL-002 · STATE-00 → STATE-00-FIXED · 실제 diff를 재구성한 도식', 'src/graypipe/transform.py · 단일 CLI 기록 · 실제 터미널 화면이 아님', 'OBSERVED_PRODUCT');
-    text(s, '실패 테스트 → 호출 경로 → 계약 확인 → 수정 전 계획', 64, 224, 1152, 46, 30, C.teal, true);
-    text(s, '끝 좌표를 제외한다: [x_start, x_end)', 64, 292, 1152, 46, 32, C.ink, true);
+    const s = H.frame(p, 'S18', '조사에서 한 줄 변경까지', 'ACT 1 · 04 수정 · 앞서 확인한 명세를 지킨다', 'TRIAL-002 · STATE-00 → STATE-00-FIXED · 실제 diff를 재구성한 도식', 'src/graypipe/transform.py · 단일 CLI 기록 · 실제 터미널 화면이 아님', 'OBSERVED_PRODUCT');
+    text(s, '02 조사 · 03 계획에서 확인한 수정 범위', 64, 224, 1152, 46, 30, C.teal, true);
+    text(s, '끝 좌표를 제외하는 명세: [x_start, x_end)', 64, 292, 1152, 46, 32, C.ink, true);
     rect(s, 64, 371, 546, 123, C.redPale);
     rect(s, 670, 371, 546, 123, C.pale);
     text(s, '변경 전', 84, 383, 506, 35, 28, C.red, true);
@@ -228,7 +246,8 @@ export const slides = {
     text(s, 'row[x_start : x_end]', 690, 436, 506, 40, 28, C.teal, true, H.CODE);
     arrow(s, 625, 426, 30, 24);
     text(s, 'crop(image, 1, 3)', 64, 535, 430, 45, 29, C.sub, false, H.CODE);
-    text(s, '너비 3 → 계약대로 너비 2', 534, 535, 682, 45, 32, C.ink, true);
+    text(s, '너비 3 → 명세대로 너비 2', 534, 535, 682, 45, 32, C.ink, true);
+    text(s, '다음은 05 검증·보고에서 변경 근거를 확인한다.', 64, 581, 1152, 24, 22, C.teal);
     return s;
   },
   S19: (p, H) => {

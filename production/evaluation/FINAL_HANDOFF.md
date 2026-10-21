@@ -1,6 +1,7 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일: 2026-10-21 (Asia/Seoul). 최신 발표자료 기준: DEC-0038.
+갱신일: 2026-10-21 (Asia/Seoul). 최신 발표자료 기준: DEC-0039.
+S17의 실제 Prompt 지시와 세로 관찰 순서를 01–05로 대응시키고, S18은 조사·계획에서 최소 수정으로 이어지도록 정렬했다. 두 장의 시간·근거 범위와 다른 80장의 화면·Notes를 유지했다.
 S11/S12를 Prompt 입력창·동일 Agent의 가능한 선택·개념 비용 표시로 정렬하고, 새 S13에 미정 정보를 채운 목표 경로 예시를 추가한다. 기존 S13–81은 S14–82로 이동한다. S12 Case4를 2+2분으로 나눠 전체 360분과 ACT·Mode·Section 합계를 유지한다.
 S01–10은 내용·번호·시간을 보존한다. 과거 Codex 진입·S10 검사 Task 수정은 당시 보고서로 연결한다.
 사용자 지시로 묶음 생성은 중단 중이며 기존 ZIP은 DEC-0033의 이전 자료다.
@@ -26,15 +27,15 @@ S01–10은 내용·번호·시간을 보존한다. 과거 Codex 진입·S10 검
 
 ## 2. 정확한 현재 후보
 
-아래 hash는 DEC-0038의 실제 82장 파일에서 다시 계산했다. PPT 구조·전체 렌더·82개 내장 Notes 대조는 `PROMPT_TIMELINE_REVISION.md`에 기록한다. 실환경 검증은 포함하지 않는다.
+아래 hash는 DEC-0039의 실제 82장 파일에서 다시 계산했다. 최신 PPT 구조·전체 렌더·82개 내장 Notes 대조는 `PROMPT_FLOW_REVISION.md`에 기록한다. DEC-0038의 삽입·시간선 검토는 당시 기록으로 유지한다. 실환경 검증은 포함하지 않는다.
 
 | 항목 | 경로 / SHA-256 |
 |---|---|
 | 통합 PPT | `production/AI_Dev_Training_Full.pptx` |
-| PPT SHA-256 | `817ac52788b61c9379b174d97c7c3fcdb7c9168c388323a65d3090f46fe16833` |
+| PPT SHA-256 | `8b27e8e00015997e0358ba594ee13b149253264e2b34d8360be00cd4f0479230` |
 | 통합 Notes | `production/notes/FULL_SPEAKER_NOTES.md` |
-| Notes SHA-256 | `756c7740cb2c01f5d9c05091520afb2e2792fa98468e27d07428001252c85a58` |
-| 전체 montage SHA-256 | `05112951911b092db92ce0b39ae0e396f3fdfd10fc4d2b190e00ff6dbccdb76d` |
+| Notes SHA-256 | `280ea7dc1e60e8240119d518db0b54942fca03b616332f7ebc6b3ba1b8431f1e` |
+| 전체 montage SHA-256 | `3b05c9796651bbd2edb3ec8a9804fd1b1c20cb71787625066987246ca75f41f8` |
 | 묶음별 파일 목록·크기·SHA-256 | 저장소의 `delivery/PACKAGE_MANIFEST.json`; ZIP 내부의 `PACKAGE_MANIFEST.json` |
 | ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-21.zip.sha256` |
 
@@ -110,7 +111,7 @@ S18 검토용 결과 인계, S19 계약 위반을 구별하는 검사를 기존 
 
 | 항목 | 현재 상태 | 필요한 다음 근거 |
 |---|---|---|
-| DEC-0038 82장 구조·렌더·Notes/PNG 정합성 | COMPLETE, 로컬 범위 | PROMPT_TIMELINE_REVISION.md 및 현재 산출물 hash |
+| DEC-0039 82장 구조·렌더·Notes/PNG 정합성 | COMPLETE, 로컬 범위 | PROMPT_FLOW_REVISION.md 및 현재 산출물 hash |
 | DEC-0037 S10 도식·81장 구조·렌더 | COMPLETE, 당시 로컬 범위 | S10_INSPECTION_PIPELINE_REVISION.md의 역사적 판본 |
 | DEC-0036 신규 81장 번호 이행 | COMPLETE, 당시 로컬 범위 | CODEX_ENTRY_INSERTION.md의 역사적 판본 |
 | DEC-0033 PPTX 구조·로컬 렌더·80장 개별 검토 | COMPLETE, 로컬 범위 | LEGACY_PRIORITY_REVISION 검토·검증 기록 |
@@ -131,7 +132,8 @@ S74: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
 
 ## 6. 근거와 이력
 
-- [현재 Prompt/시간선 수정·82장 검토](PROMPT_TIMELINE_REVISION.md)
+- [현재 Prompt 지시·관찰 순서 수정 검토](PROMPT_FLOW_REVISION.md)
+- [이전 Prompt/시간선 수정·82장 검토](PROMPT_TIMELINE_REVISION.md)
 - [이전 S10 검사 파이프라인 수정](S10_INSPECTION_PIPELINE_REVISION.md)
 - [이전 81장 삽입·전체 검토](CODEX_ENTRY_INSERTION.md)
 - [이전 80장 보강·전체 검토](LEGACY_PRIORITY_REVISION.md)와 [검증 기록](LEGACY_PRIORITY_REVISION_VALIDATION.json)
@@ -144,5 +146,5 @@ S74: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
   그 기록의 이전 해시·렌더러·S74/S78 수정 설명은 현재 후보를 설명하지 않는다.
 
 이전 2026-10-20 및 2026-10-19 ZIP은 역사적 묶음으로 보존한다.
-현재 자료 기준은 DEC-0038, 기존 패키징 정책은 DEC-0031이며 묶음 생성은 보류한다. 기존 `origin/main`의 저장소 push는
+현재 자료 기준은 DEC-0039, 기존 패키징 정책은 DEC-0031이며 묶음 생성은 보류한다. 기존 `origin/main`의 저장소 push는
 현장 검증 통과나 청중 대상 전달 완료를 뜻하지 않는다.

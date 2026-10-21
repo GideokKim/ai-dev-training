@@ -5569,3 +5569,93 @@ Windows, target account/room and timed rehearsal stay UNVERIFIED.
 
 The user explicitly requests the two revised slides and insertion after S12.
 This authorizes the bounded example and sequential numbering migration.
+
+
+# DEC-0039 — Map prompt instructions to numbered observable actions
+
+## Status
+
+ACCEPTED
+
+## Date
+
+2026-10-21
+
+## Context
+
+The user requests a left Prompt input, a right vertical numbered workflow
+without arrows on S17, and a limited S18 adjustment to continue that flow.
+
+## Problem
+
+The previous horizontal workflow does not show which instructions the long
+Prompt asks the Agent to follow. A visible mapping must distinguish actual
+Prompt excerpts, observable behavior, and hidden reasoning or causal claims.
+
+## Decision
+
+- Keep S17's title, T05-A, WATCH role and Lecture 2 minutes. Use the actual
+  TRIAL-002 Goal/Constraints summary and five core instruction excerpts,
+  explicitly labeled as translated excerpts rather than a full transcript.
+- Align left instructions 01–05 with the same numbers and colors on the
+  right: reproduce, investigate, plan, edit and verify. Use vertical order
+  without arrows. Leave observed outcomes and check counts for S18–S19.
+- Retain S18's title, T06-A, four CAPTURED Demo minutes, actual crop diff,
+  end-exclusive specification and width 3-to-2 example. Recall S17's
+  investigation/plan numbers before edit, then hand off to verification.
+- Align the two current Map records, Template Mapping and nineteen-field
+  ACT/Full Notes. Preserve 82 slides, 360 minutes and all ACT/Mode totals.
+- Do not add an asset, Trial, product claim or presenter bundle. Do not
+  change the Demo repository, historical records or other slide content.
+
+## Rationale
+
+Shared numbers make each instruction-to-action relationship readable while
+keeping the Demo setup distinct from the following recorded change and
+verification evidence. The actual Prompt remains authoritative in the
+Trial record; on-slide excerpts support presentation readability.
+
+## Alternatives
+
+- Show the full original Prompt: its complete isolation and Git constraints
+  create unnecessary density for the two-minute WATCH setup.
+- Keep the horizontal arrows: does not provide the requested direct mapping.
+- Claim the mapping proves internal thought or Prompt-only causality:
+  unsupported by a single historical recorded CLI run.
+
+## Trade-offs
+
+The slide omits some original constraints. Mark the content as excerpts and
+retain a source pointer and the complete Prompt in the Trial record.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-MATURITY-011,
+INV-VERIFY-001, INV-DEMO-003, INV-SOT-003.
+
+## Affected Artifacts
+
+Current S17/S18 Map and Template Mapping, ACT 1 and Full Notes,
+ACT 1 and integrated PPTs, their previews, and current artifact identities.
+
+## Evidence
+
+Explicit user instruction on 2026-10-21. plan/DEMO_MATRIX.md TRIAL-002,
+including Prompt used, visible plan checkpoint, implementation and
+verification. No new execution or measurement.
+
+## Training Relevance
+
+YES — compare requested procedure with observable Agent actions and retain
+verification as a separate step after the minimal change.
+
+## Follow-up
+
+Render S17/S18 and compare S16–S19 continuity; check unchanged slide content,
+Notes parity, 82-slide/360-minute budgets and current artifact identities.
+Windows, target product/account/room and timed rehearsal stay UNVERIFIED.
+
+## Approval
+
+The user's explicit S17/S18 request authorizes this bounded layout and
+handoff refinement without extending the existing evidence claims.

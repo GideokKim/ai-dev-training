@@ -1,6 +1,6 @@
 # ACT 1 — Speaker Notes
 
-Status: ALIGNED — DEC-0038의 82장 번호와 운영 지침을 정렬했다. 신규 제작본의 렌더·내장 Notes 대조는 production/evaluation/PROMPT_TIMELINE_REVISION.md에서 별도로 기록한다. 기존 81장판의 PASS를 승계하지 않는다. Windows, room, account, and timed rehearsal remain UNVERIFIED.
+Status: REVIEWED — DEC-0039에서 S17 실제 Prompt 발췌·번역과 세로 번호 대응, S18의 조사·계획·수정 연결을 정렬했다. 82장 / 360분과 기존 ACT·Mode·근거 범위를 유지한다. 최신 로컬 제작 검토는 production/evaluation/PROMPT_FLOW_REVISION.md를 따른다. Windows, room, current product/account, and timed rehearsal remain UNVERIFIED.
 
 Validation history: 이전 제작본의 local Mac Keynote 렌더·구조 검토 기록은 Git history와 기존 ACT 평가 문서에 보존한다. 이전 제작본의 PASS를 새 수정본의 검증 완료로 승계하지 않는다.
 
@@ -295,35 +295,35 @@ Mode Split: Lecture 2 minutes
 
 Primary Message: 이 한 번의 관찰에서는 재현, 조사, 계획, 수정, 검증 순서를 확인할 수 있다.
 
-Opening Question: “TRIAL-002 실제 기록에서는 수정 전에 무엇을 했을까?”
+Opening Question: “Prompt에 적은 순서와 실제 기록의 행동이 맞을까?”
 
 Speaker Flow:
 
-1. (0:00–0:35) S16의 교육용 구성 예시에서 과거 TRIAL-002 기록으로 전환했음을 밝힌다. “실제 기록에서는 수정 전에 무엇을 했을까?”를 제시한다. S16 화면의 요청을 그대로 실행한 것으로 설명하지 않는다.
-2. (0:35–1:35) TRIAL-002에서 요청한 재현 → 조사 → 계획 → 수정 → 검증의 다섯 관찰 단계를 가리킨다. 화면은 WATCH 기준이며 결과를 미리 읽어 주는 요약이 아니다.
-3. (1:35–2:00) 다음 두 장에서 이 단일 과거 CLI 기록의 요청 흐름과 행동을 대조한다고 알리고 S18으로 이동한다.
+1. (0:00–0:30) S16의 교육용 구성 예시와 구분하고, 좌측 입력창이 실제 TRIAL-002 Prompt의 핵심 지시 발췌·번역임을 밝힌다. Goal·Constraints는 당시 요청의 목표와 보존 범위다. 원문 전체나 실제 입력창 Screenshot을 보여 주는 것은 아니다.
+2. (0:30–1:35) 좌측 지시의 번호와 우측 같은 번호를 한 행씩 짚는다. 01 먼저 실패 재현 / 재현, 02 관련 구현·호출 경로 확인 / 조사, 03 수정 전에 짧은 변경 계획을 알리고 승인 대기 없이 계속 / 계획, 04 필요한 코드만 최소 변경 / 수정, 05 집중·전체 Test, 가능한 CLI smoke, diff와 정확한 근거 보고 / 검증. 우측은 화살표 없는 세로 번호 순서다. 아직 성공 결과나 검사 수치를 읽지 않는다.
+3. (1:35–2:00) “02 조사와 03 계획을 거친 뒤 04 수정은 어떻게 했을까?”로 S18에 연결한다. 이 대응은 지시와 관찰 가능한 행동의 비교이며 Agent 내부 사고나 Prompt 단독 효과를 확인하는 것은 아니라고 구분한다.
 
-Evidence / Source: BEAT-006, TRIAL-002, INV-MATURITY-011. OBSERVED_PRODUCT; one historical Codex CLI run only.
+Evidence / Source: BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039. OBSERVED_PRODUCT; one historical Codex CLI run only. Actual Prompt and visible actions: `plan/DEMO_MATRIX.md`, TRIAL-002 / Prompt used, Investigation and visible plan checkpoint, Implementation, Verification. 좌측은 핵심 지시의 발췌·번역이며 S16의 교육용 Prompt가 아니다.
 
-Claim Boundary: TRIAL-002는 2026-09-28 macOS Codex CLI 0.154.0의 단일 실행 기록이다. Desktop, 계정, 반복성 또는 다른 모델을 증명하지 않는다.
+Claim Boundary: TRIAL-002는 2026-09-28 macOS Codex CLI 0.154.0의 단일 실행 기록이다. 핵심 지시와 기록에서 관찰한 외부 행동을 대응시킨다. 내부 사고, 지시의 단독 인과성, 결정론적 준수, Prompt 우월성, Desktop, 계정, 반복성 또는 다른 모델을 증명하지 않는다. 지면에서 생략한 상태 태그·격리·미커밋 보존 등 전체 제약은 원본 Prompt에 유지한다.
 
-Beginner Explanation: 코드 변경 전 어떤 행동을 먼저 살펴볼지 정하면 Demo를 따라가기 쉽다.
+Beginner Explanation: 왼쪽 Prompt에서 어떤 일을 요청했는지 읽고 같은 번호의 오른쪽 행동을 확인하면 긴 요청의 목적을 따라갈 수 있다.
 
-Advanced Insight: Keep requested workflow separate from the events evidenced in the recorded run.
+Advanced Insight: Compare requested instructions with observable recorded events. Matching the two does not expose hidden reasoning or establish Prompt-only causality.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-05 / CAPTURED RECORD-BASED WATCH. 2분 Lecture 동안 제품 실행을 재생하지 않는다. 요청한 재현·조사·계획·수정·검증을 관찰 기준으로 제시한다. Trial source: `plan/DEMO_MATRIX.md`, TRIAL-002. 현재 Desktop surface나 실제 터미널 캡처를 보여 주지 않는다.
+Demo Operation: DEMO-05 / CAPTURED RECORD-BASED WATCH. Lecture 2분 동안 실제 Prompt의 핵심 지시 발췌·번역과 01–05 관찰 기준만 대조한다. S18에서 조사·계획·수정, S19에서 검증 근거를 확인한다. 현재 Desktop surface, 실제 입력창 캡처 또는 새 실행을 보여 주지 않는다.
 
-Audience Interaction: 관찰 순서를 마음속으로 따라오게 한다. 응답이나 실습을 요구하지 않는다.
+Audience Interaction: 같은 번호의 Prompt 지시와 관찰 기준을 차례로 따라오게 한다. 실습·응답을 요구하지 않는다.
 
-Transition: Slide 18에서 조사와 변경의 핵심 장면을 보여준다.
+Transition: “02 조사와 03 계획을 거친 뒤 04 수정은 어떻게 했을까?”를 묻고 S18의 실제 한 줄 변경으로 이동한다.
 
-Time Management: 2분 안에 관찰 기준만 설명한다. Trial 결과를 앞당겨 보여 주거나 현재 제품 UI를 재현하지 않는다.
+Time Management: Lecture 2분 안에 번호 대응과 관찰 질문만 설명한다. 전체 Prompt를 낭독하지 않고 결과·검증 수치는 S18–S19로 남긴다.
 
-Fallback: 정적 기본 경로 — 정적 WATCH 슬라이드 `production/ACT_1.pptx` S17 또는 `production/preview/act1/S17.png` 사용. 라이브 실행은 이 단계에서 하지 않는다. 새 제작본의 렌더·경로 대조는 통합 단계에서 수행한다.
+Fallback: 정적 기본 경로 — `production/ACT_1.pptx` S17 또는 `production/preview/act1/S17.png`. 지시 발췌·번역과 관찰 기준을 사용하며 라이브 실행이나 원문 화면 재현으로 대체하지 않는다. 최종 PPT 내장 Notes·렌더 정합성은 production/evaluation/PROMPT_FLOW_REVISION.md를 따른다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — DEC-0039의 실제 Prompt 발췌·번역과 01–05 관찰 기준을 대조했다. 최종 PPT·내장 Notes·PNG 대조 결과는 production/evaluation/PROMPT_FLOW_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S18 — 조사에서 한 줄 변경까지
 
@@ -339,36 +339,36 @@ Mode Split: Demo 4 minutes (CAPTURED)
 
 Primary Message: failing test와 호출 경로를 확인한 뒤, half-open 범위 계약을 보존하는 최소 변경을 했다.
 
-Opening Question: “수정 전에 어떤 근거를 확인했는가?”
+Opening Question: “02 조사·03 계획은 어떤 04 수정으로 이어졌을까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 상단의 실패 테스트 → 호출 경로 → 계약 확인 → 수정 전 계획을 읽는다. 실패 테스트명은 `test_crop_excludes_end_coordinate`, 제품 호출 관계는 `cli.main → pipeline.process_image → transform.crop`이다.
-2. (1:00–2:00) `[x_start, x_end)`가 끝 좌표를 제외하는 계약임을 확인한다. S05의 `crop(image, 1, 3)` 예시를 짧게 회수한다.
-3. (2:00–3:15) 왼쪽 `row[x_start : x_end + 1]`에서 오른쪽 `row[x_start : x_end]`로 바뀐 실제 한 줄 diff를 가리킨다. 수정 전에 계획을 알린 기록이 있었다고 말한다.
-4. (3:15–4:00) 이 입력의 너비 3이 계약대로 2가 되는 변화로 정리한다. 정적 소스·diff 재구성이며 새 실행이나 screenshot이 아님을 유지하고 S19로 넘긴다.
+1. (0:00–1:00) S17의 02 조사·03 계획을 회수한다. 실패 테스트 `test_crop_excludes_end_coordinate`와 `cli.main → pipeline.process_image → transform.crop` 호출 경로를 확인한 기록이 있었고, 코드 수정 전에 짧은 계획을 알렸다고 설명한다.
+2. (1:00–2:00) `[x_start, x_end)`가 끝 좌표를 제외하는 명세임을 확인한다. S05의 `crop(image, 1, 3)` 예시를 짧게 회수한다.
+3. (2:00–3:15) 04 수정에 해당하는 왼쪽 `row[x_start : x_end + 1]`과 오른쪽 `row[x_start : x_end]`의 실제 한 줄 diff를 가리킨다. 전체 파일이나 새로운 해결 방식을 추가하지 않는다.
+4. (3:15–4:00) 이 입력의 너비 3이 명세대로 2가 되는 변화로 정리한다. 정적 소스·diff 재구성이며 새 실행이나 Screenshot이 아님을 유지한다. “04 수정까지 확인했다. 이제 05 검증에서 어떤 근거를 남겼을까?”로 S19에 넘긴다.
 
-Evidence / Source: BEAT-006, TRIAL-002, INV-MATURITY-011. OBSERVED_PRODUCT, one recorded CLI run.
+Evidence / Source: BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039. OBSERVED_PRODUCT, one recorded CLI run. S17의 번호를 회수하되 기존 한 줄 diff와 끝 좌표 제외 명세를 유지한다.
 
 Claim Boundary: 실제 변경은 `src/graypipe/transform.py`의 crop slice 한 줄이다. 이 기록은 한 번의 Codex CLI 실행에 한정되며 Prompt 우월성, Desktop 동작 또는 일반 성공률을 증명하지 않는다.
 
-Beginner Explanation: 실패한 Test와 기대 계약을 먼저 맞춘 뒤 꼭 필요한 한 줄만 바꿨다.
+Beginner Explanation: 실패한 Test와 기대 명세를 먼저 맞춘 뒤 꼭 필요한 한 줄만 바꿨다. S17의 02·03이 04 수정과 어떻게 연결되는지 본다.
 
 Advanced Insight: The code change matches the half-open public contract and is limited to the recorded diff; the plan checkpoint preceded editing.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-05 / CAPTURED historical evidence. `production/ACT_1.pptx` S18의 실제 diff 재구성 도식을 사용한다. 실패 테스트·호출 경로·계약·수정 전 계획 → Before/After slice → 너비 변화를 순서대로 가리킨다. source test ID: `test_crop_excludes_end_coordinate`. Source: TRIAL-002 record, STATE-00 및 STATE-00-FIXED의 `src/graypipe/transform.py`. 전체 파일이나 새 실행을 보여 주지 않는다.
+Demo Operation: DEMO-05 / CAPTURED historical evidence. `production/ACT_1.pptx` S18에서 S17의 02 조사·03 계획을 회수한 뒤 04 수정의 Before/After slice와 너비 변화를 가리킨다. source test ID: `test_crop_excludes_end_coordinate`. Source: TRIAL-002 record, STATE-00 및 STATE-00-FIXED의 `src/graypipe/transform.py`. 실제 diff의 재구성 도식이며 전체 파일이나 새 실행을 보여 주지 않는다.
 
 Audience Interaction: 변경 전에 확인한 근거를 청중이 화면 순서대로 따라오게 한다. 참가자의 코드 검토나 답변을 요구하지 않는다.
 
-Transition: Slide 19에서 변경 결과를 어떤 확인으로 뒷받침했는지 본다.
+Transition: “04 수정까지 확인했다. 이제 05 검증에서 어떤 근거를 남겼을까?”로 S19의 확인 결과에 연결한다.
 
 Time Management: 4분 Demo 구간 안에서 관찰과 변경을 요약한다. 전체 로그와 파일을 보여 주지 않고, 다음 장의 검증 시간을 침범하지 않는다.
 
-Fallback: 정적 기본 경로 — 정적 PPTX S18 또는 `production/preview/act1/S18.png` 사용. 시각 도식은 기록에서 재구성한 자료이며 원본 화면 캡처가 아니다. 실행 실패 상황은 없다: Live를 하지 않는다. 새 제작본의 렌더·경로 대조는 통합 단계에서 수행한다.
+Fallback: 정적 기본 경로 — 정적 PPTX S18 또는 `production/preview/act1/S18.png` 사용. 시각 도식은 기록에서 재구성한 자료이며 원본 화면 캡처가 아니다. 실행 실패 상황은 없다: Live를 하지 않는다. 최종 렌더·경로 대조는 production/evaluation/PROMPT_FLOW_REVISION.md를 따른다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — DEC-0039의 02 조사·03 계획에서 04 최소 수정으로 이어지는 연결과 기존 한 줄 diff를 대조했다. 최종 PPT·내장 Notes·PNG 대조 결과는 production/evaluation/PROMPT_FLOW_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
 ## S19 — 변경 결과와 확인 증거
 

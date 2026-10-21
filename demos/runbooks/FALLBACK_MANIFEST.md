@@ -1,15 +1,16 @@
 # Static Fallback Manifest
 
-Status: READY for DEC-0038 local static playback only. Finalized files, displayed IDs, dimensions, Notes/preview parity and hashes were checked after rendering. This is not current-product, raw-Trial, Windows or room approval.
+Status: READY for DEC-0039 local static playback only. Finalized files, displayed IDs, dimensions, Notes/preview parity and hashes were checked after rendering. This is not current-product, raw-Trial, Windows or room approval.
 
 ## Provenance
 
-- Current alignment: 2026-10-21 (Asia/Seoul), DEC-0038. Current references are 82-slide IDs; final render, local path and file identity checks are complete. See production/evaluation/PROMPT_TIMELINE_REVISION.md and plan/SLIDE_ID_MIGRATION_82.md.
+- Current content check: 2026-10-21 (Asia/Seoul), DEC-0039. S17/S18 changed; the other 80 slide renders are byte-identical to the previous production. See production/evaluation/PROMPT_FLOW_REVISION.md.
+- Current numbering alignment: 2026-10-21 (Asia/Seoul), DEC-0038. Current references are 82-slide IDs; final render, local path and file identity checks are complete. See production/evaluation/PROMPT_TIMELINE_REVISION.md and plan/SLIDE_ID_MIGRATION_82.md.
 - Previous numbering alignment: DEC-0036/0037 used 81 slides. Their reports and hashes are historical. The original DEC-0036 mapping remains in plan/SLIDE_ID_MIGRATION.md.
-- Current static file-identity/path check: 2026-10-21 for DEC-0038, after finalized-package rendering. Existing ZIP integrity describes the prior package; no bundle is regenerated. Target-PC offline playback and rehearsal remain UNVERIFIED.
+- Current static file-identity/path check: 2026-10-21 for DEC-0039, after finalized-package rendering. Existing ZIP integrity describes the prior package; no bundle is regenerated. Target-PC offline playback and rehearsal remain UNVERIFIED.
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Current source SHA-256: `817ac52788b61c9379b174d97c7c3fcdb7c9168c388323a65d3090f46fe16833`
+- Current source SHA-256: `8b27e8e00015997e0358ba594ee13b149253264e2b34d8360be00cd4f0479230`
 - Renderer: Artifact Tool reimport of the finalized PPTX, rasterized at 1920×1080.
 - Host: macOS 26.6.2 (25G83).
 - Full preview inventory: 82 files (`S01.png`–`S82.png`), each 1920×1080; montage 1920×5670.
@@ -35,14 +36,14 @@ Status: READY for DEC-0038 local static playback only. Finalized files, displaye
 
 ## Fallback File Integrity
 
-The hashes below were recalculated from the actual finalized DEC-0038 PNGs after rendering. READY covers the availability and identity of local static files only.
+The hashes below were recalculated from the finalized local files at DEC-0039, including the updated S18 render. READY covers the availability and identity of local static files only.
 
 | Slide | Local path | Dimensions | SHA-256 |
 |---|---|---:|---|
 | S04 | `production/preview/full/S04.png` | 1920×1080 | `2101e6b81bf3652bb64b80298308379de8f5b48a985443b66494c835a055d86f` |
 | S05 | `production/preview/full/S05.png` | 1920×1080 | `5255f7aca6a749113c406011bbd65b01453e9223105a1738c10fdc1982ae1925` |
 | S06 | `production/preview/full/S06.png` | 1920×1080 | `b8bec2cf56669b7a417db5969e8a72162867f6ad89b0bdf61264cb2ee95da577` |
-| S18 | `production/preview/full/S18.png` | 1920×1080 | `7595a338e4ce55bd2c3fd6a78019128621c4d439284c90ce8183fac2d97ef565` |
+| S18 | `production/preview/full/S18.png` | 1920×1080 | `6ace09733ecafb6b4af2999f48e33c370ca3c19635c42afa2349a87c0c498997` |
 | S19 | `production/preview/full/S19.png` | 1920×1080 | `848b9b233b4ed529543305f686d721875bf707185d6e5f69f836b6bef355e699` |
 | S24 | `production/preview/full/S24.png` | 1920×1080 | `54f8b377a3d6c89547d9d71f0edc26269805d4546bd0e80a0daea2ac93da5ffc` |
 | S25 | `production/preview/full/S25.png` | 1920×1080 | `d8e293552e5c1af5788e136442a7e56a06f9c0c738b200998ead1fbdb68c5d49` |

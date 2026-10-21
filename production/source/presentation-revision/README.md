@@ -8,6 +8,13 @@ follow the 82-slide sequence. Historical Decisions, prototypes and captured
 asset filenames retain their original IDs; `plan/SLIDE_ID_MIGRATION.md`
 provides the cross-version index.
 
+DEC-0039 refines S17 with translated excerpts of the actual TRIAL-002 Prompt
+matched to vertical numbered observable actions, without arrows. S18 recalls
+02 investigation / 03 plan before 04 minimal edit, then hands off to S19
+verification. Both changes live in `act01.mjs`; the total remains 82 slides
+and 360 minutes. Rebuild the full deck and ACT 1 with `--release
+--release-acts=1`; leave other ACT packages untouched.
+
 These modules reproduce the audience-facing revision accepted in DEC-0027.
 DEC-0028 adds the approved S07/S39/S55/S74 teaching illustrations and the S74
 text-box repair. The original pilot remains a historical review artifact.

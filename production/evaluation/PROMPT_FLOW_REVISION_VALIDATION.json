@@ -1,0 +1,103 @@
+{
+  "decision": "DEC-0039",
+  "baselineCommit": "8959639",
+  "slides": 82,
+  "totalMinutes": 360,
+  "actCounts": {
+    "ACT 0": 10,
+    "ACT 1": 13,
+    "ACT 2": 15,
+    "ACT 3": 18,
+    "ACT 4": 18,
+    "ACT 5": 8
+  },
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 55,
+    "ACT 2": 70,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 130,
+    "Reflection": 20,
+    "Case": 83,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "changedSlides": [
+    "S17",
+    "S18"
+  ],
+  "unchangedMapProtectedFields": true,
+  "unchangedOtherMapNotesRecords": 80,
+  "notesRecords": 82,
+  "notesFields": 19,
+  "fullActMarkdownAndEmbeddedNotesParity": true,
+  "unchangedOtherVisualStructuresMediaAndPngs": 80,
+  "unchangedOtherActPackages": [
+    0,
+    2,
+    3,
+    4,
+    5
+  ],
+  "exactPackagePngCount": 95,
+  "fullActPngParityCount": 13,
+  "changedFinalPngMatchesReviewedDraft": true,
+  "s17NumberedPairs": 5,
+  "s17Arrows": 0,
+  "nativeChartDataPreserved": true,
+  "packages": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slides": 82,
+      "sha256": "8b27e8e00015997e0358ba594ee13b149253264e2b34d8360be00cd4f0479230",
+      "bytes": 14800470,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyImport": true
+    },
+    {
+      "path": "production/ACT_1.pptx",
+      "slides": 13,
+      "sha256": "f0a9561f7023caf1463b1298038e75aca3deeef7305d0761c75599be5a6742bb",
+      "bytes": 3341311,
+      "notesParity": true,
+      "packageIntegrity": true,
+      "geometryAndFontPolicy": true,
+      "firstPartyImport": true
+    }
+  ],
+  "newTrial": "NONE",
+  "demoRepository": "UNCHANGED",
+  "presenterBundle": "PAUSED / UNCHANGED",
+  "windowsRoomProductTimedRehearsal": "UNVERIFIED",
+  "notesSha256": "280ea7dc1e60e8240119d518db0b54942fca03b616332f7ebc6b3ba1b8431f1e",
+  "fullMontageSha256": "3b05c9796651bbd2edb3ec8a9804fd1b1c20cb71787625066987246ca75f41f8",
+  "fullMontageDimensions": [
+    1920,
+    5670
+  ],
+  "staticFallbackFilesVerified": 29,
+  "staticFallbackStatus": "READY for local files only",
+  "visualReview": {
+    "slides": [
+      "S17",
+      "S18"
+    ],
+    "independentReview": "SCOPED PASS",
+    "continuity": [
+      "S16",
+      "S17",
+      "S18",
+      "S19"
+    ],
+    "clippingOrOverlap": "NONE FOUND within local render scope"
+  },
+  "currentDocumentLocalLinksChecked": 49,
+  "missingLocalLinks": 0
+}

@@ -495,16 +495,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 1 — Investigation-first workflow and Prompt's value.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT — Codex CLI의 단일 TRIAL-002 실행에 한정한다.
-- **Visual Concept:** `reproduce → investigate → plan → edit → verify` 다섯 단계만 보여준다.
-- **Demo / Case Connection:** TRIAL-002의 기록된 CLI 실행 흐름. Codex Desktop 동작의 증거로 확대하지 않는다.
+- **Visual Concept:** 좌측 Prompt 입력창에는 실제 TRIAL-002의 Goal·Constraints와 Process·Verification 핵심 지시를 발췌·번역해 놓는다. 다섯 지시에 01–05를 붙이고, 우측에는 같은 번호·색·행 정렬로 재현 / 조사 / 계획 / 수정 / 검증을 세로로 나열한다. 우측에는 화살표를 쓰지 않는다. 전체 Prompt 원문이나 실행 로그로 위장하지 않는다.
+- **Demo / Case Connection:** TRIAL-002 실제 Prompt의 지시와 기록에서 확인할 외부 행동을 대응시킨 WATCH 기준. S18에서 02 조사·03 계획과 04 수정, S19에서 05 검증을 확인한다. Codex Desktop 동작·내부 사고·Prompt 단독 인과성의 증거로 확대하지 않는다.
 - **Beginner Payoff:** 수정 전에 관찰할 수 있는 행동을 안다.
 - **Advanced Payoff:** 요청한 절차와 실제 실행 증거를 구분해 본다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 다섯 단계를 한꺼번에 설명하지 않고, 다음 두 장에서 관찰 결과를 요약한다.
-- **Transition:** Slide 18에서 조사와 변경의 핵심 장면을 보여준다.
+- **Speaker Intent:** 먼저 실제 Prompt의 핵심 지시 발췌·번역임을 밝힌 뒤 좌측 01–05와 우측 같은 번호를 차례로 짚는다. 다섯 단계는 외부 행동을 확인할 기준이며, 결과·검증 수치는 다음 두 장에서 공개한다. S16의 교육용 구성 Prompt를 실제로 실행한 것으로 설명하지 않는다.
+- **Transition:** “02 조사와 03 계획을 거친 뒤 04 수정은 어떻게 했을까?”를 묻고 Slide 18의 한 줄 변경으로 이동한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-006, TRIAL-002, INV-MATURITY-011
+- **Evidence / Decision References:** BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039
 
 #### S18 — 조사에서 한 줄 변경까지
 
@@ -519,16 +519,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 1 — Investigation-first workflow and Prompt's value.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 82장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT — 기록된 단일 CLI 실행에 한정한다.
-- **Visual Concept:** failing crop test → call path → `[x_start, x_end)` 경계와 endpoint 포함 오류 → 계획 표시 → 핵심 한 줄 수정. 전체 diff는 싣지 않는다.
+- **Visual Concept:** S17의 02 조사·03 계획에서 확인한 끝 좌표 제외 명세를 회수하고, 04 수정의 실제 한 줄 Before/After와 너비 3에서 2의 변화를 유지한다. 전체 diff는 싣지 않는다.
 - **Demo / Case Connection:** Trial 기록에서 재현, 조사, edit 전 계획, 변경 한 줄만 추린다.
 - **Beginner Payoff:** 코드를 바꾸기 전에 원인과 기대 동작을 대조하는 이유를 본다.
 - **Advanced Payoff:** 명시된 public contract와 diff 범위가 맞는지 검토한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 로그를 재생하지 않고, edit 전 계획과 경계 수정이라는 두 증거만 강조한다.
-- **Transition:** Slide 19에서 변경 결과를 어떤 확인으로 뒷받침했는지 본다.
+- **Speaker Intent:** S17의 02 조사·03 계획과 04 수정 번호를 회수해 연결한다. 로그를 재생하지 않고 edit 전 계획과 실제 경계 수정이라는 두 증거만 강조한다. Prompt 지시가 내부 사고를 직접 발생시켰다는 인과성으로 설명하지 않는다.
+- **Transition:** “04 수정까지 확인했다. 이제 05 검증에서 어떤 근거를 남겼을까?”로 Slide 19의 확인 결과에 연결한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED) = 4분
-- **Evidence / Decision References:** BEAT-006, TRIAL-002, INV-MATURITY-011
+- **Evidence / Decision References:** BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039
 
 #### S19 — 변경 결과와 확인 증거
 
