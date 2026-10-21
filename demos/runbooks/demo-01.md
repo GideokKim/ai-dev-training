@@ -48,7 +48,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-Recorded test → implementation → call path, crop contract mismatch, read-only limit. S05 is a reconstructed diagram. S04 shows the actual request in a reconstructed input panel; its right-side GoogleTest list is a fictional C++ teaching example. The historical Trial used Python unittest, not GoogleTest.
+Recorded test → implementation → call path, crop specification mismatch, read-only limit. S05 explicitly shows the first source row and intended width 2 versus included width 3. S06's code-only Chatbot question is a teaching assumption; it does not report a tool comparison or permission repair. S04 shows the actual request in a reconstructed input panel; its right-side GoogleTest list is a fictional C++ teaching example. The historical Trial used Python unittest, not GoogleTest.
 
 ## Success Criteria
 
@@ -96,7 +96,7 @@ Show S04→S05→S06 and retain `RECONSTRUCTED DIAGRAM` / `OBSERVED PRODUCT · C
 
 Fallback readiness: READY for local static slide-render playback only. Raw Trial source captures are not implied or created.
 
-Captured Alternative provenance: DEC-0034 integrated-deck static render; S04 was revised while S05–S06 PNG bytes remain unchanged. File identity and fallback paths were rechecked on 2026-10-21. See `FALLBACK_MANIFEST.md` and `production/evaluation/FINAL_HANDOFF.md` for the exact PPTX hash and recorded rendering scope. This file check is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
+Captured Alternative provenance: DEC-0035 integrated-deck static render; S05–S06 were revised while the other 78 full-slide PNGs remain byte-identical. File identity and fallback paths were rechecked on 2026-10-21. See `FALLBACK_MANIFEST.md` and `production/evaluation/FINAL_HANDOFF.md` for the exact PPTX hash and recorded rendering scope. This file check is not a target-PC playback test, raw terminal screenshot, recording, new Trial, or rehearsal.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 

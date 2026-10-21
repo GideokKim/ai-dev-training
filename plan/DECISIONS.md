@@ -5120,3 +5120,131 @@ Explicit user instruction to finalize the revised S02 initialization example
 and implement the S03/S04 visual changes while retaining the approved course
 flow and evidence boundaries. The prior request to avoid presenter bundles
 continues to apply.
+
+### DEC-0035 — Connect observed crop scope to the Context boundary
+
+Status:
+ACCEPTED
+
+Date:
+2026-10-21
+
+## Context
+
+DEC-0034 replaced S02's small code question with two valid C++ vector
+initialization expressions that produce different element counts and values.
+The user requested a clearer connection from that question to S05, followed
+by stronger emphasis in S06 on what code-only Context leaves out.
+The historical repository investigation remains TRIAL-001.
+
+## Problem
+
+S05's crop illustration needs to expose the intended-versus-included width
+without rewriting the Python defect as a C++ allocation incident. S06 also
+needs to make the missing runtime Context visible without inventing a
+Chatbot/Agent comparison or claiming that the Agent solved its permissions.
+
+## Decision
+
+- In S05, retain the title, OBSERVED_PRODUCT role, failed test, source and
+  product call path. Introduce the comparison as intended width versus the
+  number of columns actually included. For `crop(image, 1, 3)`, the
+  end-exclusive specification selects source columns 1 and 2: width two.
+  The existing `row[x_start : x_end + 1]` includes one extra column: width
+  three. Keep the source values and use only the first row of the original
+  two-row reconstruction, with an explicit excerpt label.
+- Connect S02 and S05 through the question of intended count versus actual
+  included elements. Both S02 vector initializations are valid. The bridge
+  does not turn the actual crop endpoint defect into a C++ allocator,
+  capacity, memory-allocation or buffer-overrun incident, or a new run.
+- In S06, add the explicit teaching assumption that only code and the
+  specification were selected for a Chatbot conversation. The left side
+  identifies the code/specification clues available for discussing the
+  width mismatch. Preserve the actual Trial label: cause explained, code
+  unchanged. The right side identifies execution logs and permission
+  information omitted by that assumption, alongside the actual read-only
+  temporary-directory restriction and its three environment errors.
+- Emphasize that copying code alone can omit execution-environment clues.
+  Separate this interpretation from the historical observation. Supplying
+  logs and permission information can also give a Chatbot analysis clues;
+  no comparative experiment established inability or product superiority.
+  The actual Agent observed its restriction and did not remove it.
+- Retain the historical full-suite result: seven passes, one crop failure
+  and three environment errors. They are different causes. Keep the
+  focused-run record, no-edit result, historical CLI/environment scope and
+  current Desktop/account limits intact.
+- Preserve 80 slides, 360 minutes, slide IDs, titles, Story/Section/Demo
+  mappings, Primary Messages, Evidence Types and existing Claim Statuses.
+  Keep S05 at Demo eight minutes and S06 at Case five minutes. Revise their
+  Markdown and embedded Notes, visuals and previews while preserving the
+  other 78 slide/Notes records. Do not run a new Trial or change the Demo
+  repository. Presenter bundle generation remains deferred.
+
+## Rationale
+
+The two revisions make adjacent slides answer different questions: which
+included range differs from the intended one, and which information is
+needed to distinguish a code defect from an execution restriction. Familiar
+C++ experience supports the first question without replacing the observed
+Python project. The second question explains Context selection without
+converting a hypothetical omission into an unsupported tool ranking.
+
+## Alternatives
+
+- Describe the crop case as incorrect allocation length: implies a memory
+  or allocation observation absent from TRIAL-001.
+- Replace S05 with a new C++ failure: breaks the continuous repository
+  evidence and requires implementation and validation beyond this scope.
+- State that Chatbot cannot solve the right-hand problem: the record contains
+  no Chatbot comparison, and additional runtime information can supply clues.
+- Say that Agent access fixes permissions: the actual read-only restriction
+  remained, and no code or permission change occurred.
+- Keep the former slides unchanged: leaves the user's requested S02 linkage
+  and missing-environment-Context point implicit.
+
+## Trade-offs
+
+The teaching bridge and the counterfactual assumption require short labels
+and precise speaker cues. Use existing explanation time rather than adding
+material. Preserved time allocation does not prove the actual presentation
+pace before a timed rehearsal.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-LEARNING-003, INV-VERIFY-001,
+INV-RESPONSIBILITY-001, INV-DEMO-003, INV-SOT-003.
+
+## Affected Artifacts
+
+S05-S06 Slide Map visual/interpretation fields; their ACT 0 and Full
+Speaker Notes; production source; ACT 0 and integrated PPTX; previews;
+claim-boundary clarification; the Context-scope revision evaluation.
+Historical TRIAL-001 source records and the Demo repository remain intact.
+
+## Evidence
+
+Explicit user instruction on 2026-10-21 to connect S05 to the revised S02
+example and emphasize the environment information missing from code-only
+Chatbot Context in S06. Existing sources: DEC-0034 S02 comparison;
+plan/DEMO_MATRIX.md TRIAL-001; STATE-00 source/test reconstruction;
+S05/S06 approved Slide Map, Notes and recorded full/focused suite results.
+There is no new C++ execution, Chatbot comparison or environment repair.
+
+## Training Relevance
+
+YES — show how a familiar question can connect to observed evidence while
+preserving the difference between missing information and proven inability.
+
+## Follow-up
+
+Render and review the affected slides, compare embedded/Markdown Notes and
+verify unchanged course allocation. Record actual local results in
+production/evaluation/ACT_0_CONTEXT_SCOPE_REVISION.md. Windows PowerPoint,
+target fonts, room projection, current account/Live behavior and timed
+rehearsal remain UNVERIFIED. No new Trial or bundle is authorized here.
+
+## Approval
+
+Explicit user request to revise S05 and S06 while continuing the approved
+course flow. The requested meaning is expressed without expanding the
+historical evidence or claiming an unperformed tool comparison.

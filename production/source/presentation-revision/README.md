@@ -13,6 +13,10 @@ and applies a bounded legacy-module connection footer to all 80 slides.
 DEC-0034 applies the approved S01 opening illustration, S02 C++ initialization
 comparison, S03 parallel debugging Context diagram and S04 prompt-input/fictional
 GoogleTest presentation. The historical Trial remains a Python unittest record.
+DEC-0035 connects S05 to the intended-versus-included width and distinguishes
+S06 code Context from unprovided execution-environment information. The
+counterfactual Chatbot framing is a teaching interpretation, not a comparison
+experiment or a change to the historical Trial.
 Slide identities, time allocations and evidence boundaries remain protected.
 They use `@oai/artifact-tool`; text, diagrams and the S45 chart remain native
 PowerPoint elements. Comparison rows are editable text and rule objects, not

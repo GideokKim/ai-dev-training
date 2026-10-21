@@ -4,15 +4,15 @@ Status: READY for local offline static slide-render playback only. This is not a
 
 ## Provenance
 
-- Last rendering review: 2026-10-21 (Asia/Seoul), DEC-0034; see `production/evaluation/ACT_0_OPENING_REVISION.md` and `production/evaluation/ACT_0_OPENING_REVISION_VALIDATION.json`. Prior DEC-0033 evidence remains in the legacy priority revision records.
+- Last rendering review: 2026-10-21 (Asia/Seoul), DEC-0035; see `production/evaluation/ACT_0_CONTEXT_SCOPE_REVISION.md` and `production/evaluation/ACT_0_CONTEXT_SCOPE_REVISION_VALIDATION.json`. Prior DEC-0034 opening and DEC-0033 legacy priority records remain historical evidence.
 - Static file-identity/path check: 2026-10-21. ZIP integrity is recorded separately after package generation. Target-PC offline playback and rehearsal remain UNVERIFIED.
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `0398dd997dc235808151b259ce8c9a2fa2373502e07bb7bff1991d6db48a5faf`
+- Source SHA-256: `656b278c1098f4383fd34c3ac7e4c281ef29c216e2a8bfc9729d38248612ba26`
 - Renderer: Artifact Tool reimport of the finalized PPTX, rasterized at 1920×1080.
 - Host: macOS 26.6.2 (25G83).
 - Full preview inventory: 80 files (`S01.png`–`S80.png`), each 1920×1080; montage 1920×5400.
-- Current version applies DEC-0027 and the DEC-0028/DEC-0029 illustration revisions and DEC-0030 presentation polish and DEC-0032 continuity revision, followed by DEC-0033 teaching bridges/module labels and DEC-0034 opening visuals. S04 uses a labeled fictional GoogleTest image; its historical Trial remains Python unittest. Presenter ZIPs were not regenerated. All 80 slides, 360 minutes, Mode allocation and aligned ACT decks/Notes remain preserved; module labels do not certify complete legacy-module coverage. Second-priority additions remain deferred. Earlier render provenance remains in Git history.
+- Current version applies DEC-0027 and the DEC-0028/DEC-0029 illustration revisions and DEC-0030 presentation polish and DEC-0032 continuity revision, followed by DEC-0033 teaching bridges/module labels and DEC-0034 opening visuals, followed by DEC-0035 S05/S06 width/Context-scope clarification. S04 uses a labeled fictional GoogleTest image; its historical Trial remains Python unittest. Presenter ZIPs were not regenerated. All 80 slides, 360 minutes, Mode allocation and aligned ACT decks/Notes remain preserved; module labels do not certify complete legacy-module coverage. Second-priority additions remain deferred. Earlier render provenance remains in Git history.
 - Every image below is a rendered slide, not a terminal screenshot, video recording, or newly run Trial.
 
 ## Runbook to Fallback Mapping
@@ -37,8 +37,8 @@ Status: READY for local offline static slide-render playback only. This is not a
 | Slide | Local path | Dimensions | SHA-256 |
 |---|---|---:|---|
 | S04 | `production/preview/full/S04.png` | 1920×1080 | `2101e6b81bf3652bb64b80298308379de8f5b48a985443b66494c835a055d86f` |
-| S05 | `production/preview/full/S05.png` | 1920×1080 | `b7517ad90e3e4f631a15647ae88ec07fa2bf824db262ed669485cc2c6f6411cf` |
-| S06 | `production/preview/full/S06.png` | 1920×1080 | `9ec22a897a2f08c0c075819fdeaa7ce263835c9cac121174a0b2f38f13693cf9` |
+| S05 | `production/preview/full/S05.png` | 1920×1080 | `5255f7aca6a749113c406011bbd65b01453e9223105a1738c10fdc1982ae1925` |
+| S06 | `production/preview/full/S06.png` | 1920×1080 | `b8bec2cf56669b7a417db5969e8a72162867f6ad89b0bdf61264cb2ee95da577` |
 | S16 | `production/preview/full/S16.png` | 1920×1080 | `ca7741a6193ff089c6e65d1f8d5fda6b9a015863c24a982a5c2e605238f2d66d` |
 | S17 | `production/preview/full/S17.png` | 1920×1080 | `100cbbcc4312e9b24c81c32fea6cab69e0805e81eae6b81d6849252e79a98c94` |
 | S22 | `production/preview/full/S22.png` | 1920×1080 | `df7ece2b7957e10862021869e66205820e30eebb2e3a673c96ffa7b2c42ef07e` |

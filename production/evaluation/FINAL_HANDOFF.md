@@ -1,7 +1,7 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일: 2026-10-21 (Asia/Seoul). 최신 발표자료 기준: DEC-0034.
-S01–S04 도입 수정은 통합 PPT·ACT 0·Notes·미리보기에 반영했다.
+갱신일: 2026-10-21 (Asia/Seoul). 최신 발표자료 기준: DEC-0035.
+S01–S04 도입 수정에 이어 S05 폭 비교·S06 Context 범위를 통합 PPT·ACT 0·Notes·미리보기에 반영했다.
 사용자 지시로 묶음 생성은 중단 중이며 기존 ZIP은 DEC-0033의 이전 자료다.
 
 **최신 PPT 로컬 검토 완료 / 기존 묶음은 이전 버전 / 실환경·리허설 UNVERIFIED.**
@@ -18,7 +18,7 @@ S01–S04 도입 수정은 통합 PPT·ACT 0·Notes·미리보기에 반영했�
 4. [발표자 Notes](../notes/FULL_SPEAKER_NOTES.md),
    [예상 질문·답변](../presenter/EXPECTED_QA.md),
    [사용자 확인 체크리스트](USER_VALIDATION_CHECKLIST.md)를 함께 확인한다.
-   기존 ZIP의 HTML·PPT·미리보기에는 이번 S01–S04 수정이 들어 있지 않다.
+   기존 ZIP의 HTML·PPT·미리보기에는 S01–S06 수정이 들어 있지 않다.
 
 기존 묶음은 DEC-0033 시점의 **강사용 준비 자료**다. 청중 배포 대상·경로·범위는 미확정이며,
 이번 작업에서 이메일·클라우드 업로드 등 외부 전달은 수행하지 않았다.
@@ -28,10 +28,10 @@ S01–S04 도입 수정은 통합 PPT·ACT 0·Notes·미리보기에 반영했�
 | 항목 | 경로 / SHA-256 |
 |---|---|
 | 통합 PPT | `production/AI_Dev_Training_Full.pptx` |
-| PPT SHA-256 | `0398dd997dc235808151b259ce8c9a2fa2373502e07bb7bff1991d6db48a5faf` |
+| PPT SHA-256 | `656b278c1098f4383fd34c3ac7e4c281ef29c216e2a8bfc9729d38248612ba26` |
 | 통합 Notes | `production/notes/FULL_SPEAKER_NOTES.md` |
-| Notes SHA-256 | `19fa60282522c7379af7fb2cbcff95eca66c12d7c611ecae8bc59e14459399b0` |
-| 전체 montage SHA-256 | `37658fda5b0eb08e5646567169f84731f63c7baa47f13dbc43d16be09cd98063` |
+| Notes SHA-256 | `831c66db02c87f573ccaa4c338b687d9e5899efbb3e49095e3db5cc600c51454` |
+| 전체 montage SHA-256 | `baf33d4bc73d34285f034784301ad3e212bc9bce5700f25beb7509deebc80689` |
 | 묶음별 파일 목록·크기·SHA-256 | 저장소의 `delivery/PACKAGE_MANIFEST.json`; ZIP 내부의 `PACKAGE_MANIFEST.json` |
 | ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-21.zip.sha256` |
 
@@ -57,6 +57,8 @@ Manifest에는 개별 payload 파일의 hash를 기록한다. Manifest 자신과
 Mode는 Lecture 130 / Demo 73 / Case 83 / Reflection 20 / Transition 22 /
 Q&A 32분이다. 예상 Q&A는 기존 질문 시간에 사용할 예비 답변이며 시간을 추가하지 않는다.
 휴식·점심·장비 준비는 순수 교육 시간에 포함하지 않는다.
+
+DEC-0035에서는 S05의 명세 폭 2/포함 폭 3 비교와 S06의 코드 Context/실행 환경 구분을 보강했다. 나머지 78장 화면·Notes와 80장·360분을 유지했다. 실제 관찰과 Chatbot 입력 범위의 교육용 가정을 구분하며 새 Trial·묶음은 만들지 않았다. 현재 검토 기록은 `production/evaluation/ACT_0_CONTEXT_SCOPE_REVISION.md`다.
 
 DEC-0034에서는 S01 사례 그림, S02 혼동하기 쉬운 C++ 초기화 비교,
 S03 병렬 Context 도식과 명세서 표현, S04 실제 요청 재구성·가상 GoogleTest
@@ -123,5 +125,5 @@ S72: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
   그 기록의 이전 해시·렌더러·S73/S77 수정 설명은 현재 후보를 설명하지 않는다.
 
 이전 2026-10-20 및 2026-10-19 ZIP은 역사적 묶음으로 보존한다.
-현재 자료 기준은 DEC-0034, 기존 패키징 정책은 DEC-0031이며 묶음 생성은 보류한다. 기존 `origin/main`의 저장소 push는
+현재 자료 기준은 DEC-0035, 기존 패키징 정책은 DEC-0031이며 묶음 생성은 보류한다. 기존 `origin/main`의 저장소 push는
 현장 검증 통과나 청중 대상 전달 완료를 뜻하지 않는다.

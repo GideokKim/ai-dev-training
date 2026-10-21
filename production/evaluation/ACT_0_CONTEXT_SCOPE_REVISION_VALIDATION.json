@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-21",
+  "decision": "DEC-0035",
+  "changedSlides": [
+    "S05",
+    "S06"
+  ],
+  "deckValidation": {
+    "AI_Dev_Training_Full": {
+      "sha256": "656b278c1098f4383fd34c3ac7e4c281ef29c216e2a8bfc9729d38248612ba26",
+      "slideCount": 80,
+      "package": "PASS",
+      "layout": "PASS",
+      "artifactImport": "PASS"
+    },
+    "ACT_0": {
+      "sha256": "a4522719e52060371eec8ea6e34811469feef8c417dd32f59c42e77cb2e242e3",
+      "slideCount": 9,
+      "package": "PASS",
+      "layout": "PASS",
+      "artifactImport": "PASS"
+    }
+  },
+  "unchangedFullPreviews": 78,
+  "unchangedMarkdownNotes": 78,
+  "fullAct0PreviewMatches": 9,
+  "reviewedDraftMatches": 2,
+  "embeddedNotesMatches": {
+    "Full": 80,
+    "ACT0": 9
+  },
+  "actMinutes": [
+    40,
+    55,
+    70,
+    85,
+    80,
+    30
+  ],
+  "modeMinutes": {
+    "Lecture": 130,
+    "Demo": 73,
+    "Case": 83,
+    "Reflection": 20,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "totalMinutes": 360,
+  "newTrials": 0,
+  "newImages": 0,
+  "scope": "Crop included width, not allocation capacity; counterfactual Context interpretation, not a Chatbot comparison",
+  "windows": "UNVERIFIED",
+  "roomProjection": "UNVERIFIED",
+  "timedRehearsal": "UNVERIFIED",
+  "bundleRegenerated": false,
+  "productionCopies": "BYTE_IDENTICAL_TO_FINALIZED_OUTPUTS"
+}

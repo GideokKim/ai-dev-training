@@ -104,6 +104,22 @@ actual Trial used Python `unittest`; its seven passes, one crop failure and
 three read-only temporary-directory errors remain unchanged in the historical
 record. Neither panel is a current Codex Desktop screenshot or a new run.
 
+DEC-0035 keeps S05-S06's historical OBSERVED_PRODUCT claims within TRIAL-001.
+S05 connects the intended-versus-included element count to S02 as a teaching
+bridge. The actual defect remains Python crop's extra endpoint: expected
+width two versus included width three. It does not establish a C++ allocator,
+capacity, memory-allocation or buffer-overrun incident; both S02 vector
+initializations are valid. S05's one-row diagram is an explicitly identified
+excerpt of the original two-row source/test reconstruction.
+
+S06's code/specification-only Chatbot scenario is a teaching interpretation,
+not an observed comparison or a general capability claim. If environment
+logs and permission information are supplied, a Chatbot may also have clues
+for analysis. The actual Trial observed the three read-only environment
+errors but neither changed code nor removed the permission restriction.
+Do not turn missing Context into a claim that Chatbot cannot solve the
+environment issue or that the Agent demonstrated superior repair ability.
+
 ## 5. Windows / Environment Claims
 
 Freeze these engineering patterns for the C++ Vision bridges: state the task

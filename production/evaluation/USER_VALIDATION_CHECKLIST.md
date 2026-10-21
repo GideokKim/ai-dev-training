@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일: 2026-10-21 (Asia/Seoul). 대상 후보: DEC-0034 S01–S04 수정 통합본. 기존 ZIP은 이전 DEC-0033 자료이며 이번에는 갱신하지 않는다.
+갱신 기준일: 2026-10-21 (Asia/Seoul). 대상 후보: DEC-0035 S05–S06 수정 통합본. 기존 ZIP은 이전 DEC-0033 자료이며 이번에는 갱신하지 않는다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,9 +9,9 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `0398dd997dc235808151b259ce8c9a2fa2373502e07bb7bff1991d6db48a5faf`
+- PPTX SHA-256: `656b278c1098f4383fd34c3ac7e4c281ef29c216e2a8bfc9729d38248612ba26`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `19fa60282522c7379af7fb2cbcff95eca66c12d7c611ecae8bc59e14459399b0`
+- Notes SHA-256: `831c66db02c87f573ccaa4c338b687d9e5899efbb3e49095e3db5cc600c51454`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S80.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
@@ -28,7 +28,7 @@
 | 전체 80장 최종 PNG | 개별 시각 검토 완료, 새 P0/P1 및 의미 있는 P2 없음; ACT와 통합 PNG 일치 |
 | 구조·시간 | 80장 / 순수 교육 360분, Slide ID·ACT·시간·Mode·Claim 경계 보존 |
 | Notes | 80개·장별 19필드 유지, Markdown·통합 및 ACT 내장 Notes 일치 |
-| 승인된 발표용 보강 | DEC-0034 S01–S04 도입 수정, 나머지 76장 화면·Notes 보존; 이전 DEC-0033 S07/S14/S18/S19 본문·Notes 네 장 보강, 80장 M 연계 표시; 나머지 76장 본문·이미지 내용 보존 |
+| 승인된 발표용 보강 | DEC-0035 S05 폭 비교·S06 누락된 환경 Context 구분, 나머지 78장 화면·Notes 보존; 이전 DEC-0034 S01–S04 도입 수정, 나머지 76장 화면·Notes 보존; 이전 DEC-0033 S07/S14/S18/S19 본문·Notes 네 장 보강, 80장 M 연계 표시; 나머지 76장 본문·이미지 내용 보존 |
 | Fallback 자료 | 최종 PPTX 및 등록 PNG 해시·미리보기 갱신 |
 
 DEC-0032의 화면 14장·Notes 41개·전환 24개 정렬과 과거 후보의
@@ -181,7 +181,7 @@ ____________________________________________________________________
 - [ ] 현재 Desktop 동작을 과거 CLI Trial의 결과로 표현하지 않았다.
 - [ ] S72 조건 변화는 가상 교육 맥락이며 실제 C++ 사건이나 확정된 실패 원인으로 표현하지 않았다.
 - [ ] S74 State는 기록된 문제 대응 이력이며 성숙도 등급·Product Loop로 표현하지 않았다.
-- [ ] DEC-0034의 현재 화면·Notes Cue를 기준으로 Story·Claim·Slide ID·ACT·시간·Mode·Demo State를 유지했다.
+- [ ] DEC-0035의 현재 화면·Notes Cue를 기준으로 Story·Claim·Slide ID·ACT·시간·Mode·Demo State를 유지했다.
 - [ ] S07은 회사별 허용·금지 정책 확인 결과가 아니며 S14 완료 조건·S18 결과 인계·S19 검사 비교는 교육용 예시로 설명했다. 실제 Prompt/PR 원문이나 새 실행·PASS 결과로 표현하지 않았다.
 - [ ] 보호 변경 필요 시 `PROPOSAL / REASON / EVIDENCE / IMPACT / CONFLICT / RECOMMENDATION`을 작성하고 승인 전 적용하지 않았다.
 

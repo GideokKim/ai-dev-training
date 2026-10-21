@@ -7,26 +7,26 @@ S05:(p,H)=>{
  const s=frame('S05','ACT 0  ·  Repository 탐색','Agent가 Test와 호출 경로를 찾았다',
  'TRIAL-001 기록·STATE-00 테스트 재구성  |  Codex CLI 0.154.0 · 읽기 전용',
  '실제 실행 화면이 아님 · 이 조사에서는 코드 수정 없음 · 현재 Desktop 동작 미검증');
- text(s,'crop(image, 1, 3)',64,165,560,43,34,C.teal,true,CODE);
- text(s,'끝 좌표 3은 포함하지 않는 계약',64,212,620,35,27,C.ink);
- text(s,'입력',64,270,72,40,24,C.sub,true);
- [0,1,2,3].forEach((v,i)=>text(s,String(v),156+i*70,255,66,28,21,C.sub,false,FONT,'center'));
- pixels(s,[[1,2,3,4],[5,6,7,8]],156,291,66,[C.white,C.pale,C.pale,C.white]);
- text(s,'열 index',446,255,132,28,20,C.sub);
- text(s,'기대',64,463,72,40,24,C.teal,true);
- pixels(s,[[2,3],[6,7]],156,458,50,[C.pale,C.pale]);
- text(s,'구현 결과',320,463,130,40,24,C.red,true);
- pixels(s,[[2,3,4],[6,7,8]],461,458,50,[C.pale,C.pale,C.redPale]);
- text(s,'한 열이 더 포함됨',461,570,205,26,22,C.red,true);
- rect(s,708,172,2,416,C.line);
- text(s,'조사에서 연결한 근거',752,172,460,36,28,C.ink,true);
- text(s,'01  실패 테스트',752,236,464,32,24,C.teal,true);
- text(s,'test_crop_excludes_\nend_coordinate',752,273,464,64,26,C.ink,false,CODE);
- text(s,'02  제품의 호출 경로',752,357,464,32,24,C.teal,true);
- text(s,'cli.main → process_image → crop',752,397,464,35,24,C.ink,false,CODE);
- text(s,'03  계약과 다른 구현',752,457,464,32,24,C.teal,true);
- text(s,'row[x_start : x_end + 1]',752,498,464,39,27,C.red,true,CODE);
- text(s,'계약: [x_start, x_end)',752,547,464,34,26,C.sub,false,CODE);
+ text(s,'의도한 폭과 실제로 포함된 열 수가 달랐다',64,168,1152,41,31,C.teal,true);
+ text(s,'crop(image, 1, 3)',64,227,620,40,30,C.ink,true,CODE);
+ text(s,'명세: 끝 좌표 3은 제외',64,273,620,31,25,C.sub);
+ text(s,'입력',64,350,72,35,24,C.sub,true);
+ [0,1,2,3].forEach((v,i)=>text(s,String(v),156+i*66,316,62,26,21,C.sub,false,FONT,'center'));
+ pixels(s,[[1,2,3,4]],156,347,62,[C.white,C.pale,C.pale,C.white]);
+ text(s,'첫 행만 표시',448,360,220,30,22,C.sub);
+ text(s,'명세 · 폭 2',64,435,280,37,28,C.teal,true);
+ text(s,'구현 · 폭 3',390,435,294,37,28,C.red,true);
+ pixels(s,[[2,3]],64,482,60,[C.pale,C.pale]);
+ pixels(s,[[2,3,4]],390,482,60,[C.pale,C.pale,C.redPale]);
+ text(s,'명세와 구현의 범위 불일치',64,559,620,34,27,C.teal,true);
+ rect(s,708,226,2,363,C.line);
+ text(s,'조사에서 연결한 근거',752,226,464,36,28,C.ink,true);
+ text(s,'01  실패 테스트',752,283,464,32,24,C.teal,true);
+ text(s,'test_crop_excludes_\nend_coordinate',752,319,464,64,26,C.ink,false,CODE);
+ text(s,'02  제품의 호출 경로',752,402,464,32,24,C.teal,true);
+ text(s,'cli.main → process_image → crop',752,440,464,35,24,C.ink,false,CODE);
+ text(s,'03  끝 좌표까지 포함한 구현',752,502,464,32,24,C.teal,true);
+ text(s,'row[x_start : x_end + 1]',752,546,464,40,27,C.red,true,CODE);
 
  return s;
 },

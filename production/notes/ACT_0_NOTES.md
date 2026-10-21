@@ -6,6 +6,8 @@ Validation history: 이전 제작본의 local Mac Keynote 렌더·구조 검토 
 
 Opening revision: DEC-0034 (2026-10-21). S01–S04의 현재 화면·내장 Notes·PNG 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에 기록한다.
 
+Context-scope revision: DEC-0035 (2026-10-21). S05–S06의 폭 비교·전달한 정보 범위와 실제 관찰 경계는 `production/evaluation/ACT_0_CONTEXT_SCOPE_REVISION.md`에 기록한다.
+
 Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`,
 `plan/SPEAKER_NOTES_ARCHITECTURE.md`, `plan/SPEAKER_NOTES_FREEZE.md`,
 `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, and `plan/DECISIONS.md`.
@@ -209,33 +211,33 @@ Opening Question: “지정하지 않은 파일과 호출 경로를 실제로 �
 
 Speaker Flow:
 
-1. (0:00–1:00) TRIAL-001 기록과 STATE-00 테스트를 재구성한 화면임을 밝힌다. 입력의 숫자는 픽셀 값이며 색은 영역 구분용이다.
-2. (1:00–3:00) `crop(image, 1, 3)`의 끝 좌표 제외 계약을 짚고 입력, 기대 두 열, 구현에 포함된 세 번째 열을 차례로 가리킨다. 결과 tuple은 원본 소스에 근거한 정적 재구성이다.
-3. (3:00–5:00) 실패 테스트명과 `cli.main → pipeline.process_image → transform.crop` 호출 경로를 연결한다. 오른쪽 01–03은 설명 순서이며 Agent의 실제 파일 접근 시각 순서가 아니다.
-4. (5:00–7:00) `row[x_start : x_end + 1]`에서 끝 좌표를 포함하게 되는 지점을 짚는다. 코드를 고치거나 새 Test를 실행하지 않는다.
-5. (7:00–8:00) 읽기 전용 단일 CLI 조사 범위를 확인하고 S06의 관찰과 환경 한계 분리로 넘어간다.
+1. (0:00–1:00) S02의 두 Vector 초기화는 모두 유효하지만 원소 수와 값이 다르다는 점을 짧게 회수한다. 이번에는 실제 crop 조사에서 “의도한 폭과 실제로 포함된 열 수가 달랐다”고 연결한다. C++ 메모리 할당 사고로 바꾸지 않는다. TRIAL-001 기록·STATE-00 소스에 따른 재구성이며, 화면은 원본 두 행 중 첫 행만 보여 준다고 밝힌다.
+2. (1:00–3:00) `crop(image, 1, 3)`의 명세는 끝 좌표 3을 제외한다. 첫 행 `1, 2, 3, 4`의 열 index 1·2를 선택하면 값 `2, 3`, 폭 2다. 구현이 포함한 값 `2, 3, 4`는 폭 3이므로 한 열이 더해졌음을 비교한다. 숫자는 픽셀 값이며 색은 영역 구분용이다.
+3. (3:00–5:00) 실패 테스트 `test_crop_excludes_end_coordinate`와 `cli.main → pipeline.process_image → transform.crop` 호출 관계를 연결한다. 짧은 화면 표기 `process_image → crop`는 같은 경로의 축약이다. 오른쪽 01–03은 강사의 설명 순서이며 Agent의 실제 파일 접근 시각 순서가 아니다.
+4. (5:00–7:00) `row[x_start : x_end + 1]`과 `[x_start, x_end)` 명세를 대조한다. 끝 좌표를 더 포함한 범위 문제이지, allocator·capacity·메모리 할당·버퍼 오버런이 관찰된 사건은 아니다. 코드를 고치거나 새 Test를 실행하지 않는다.
+5. (7:00–8:00) 읽기 전용 단일 CLI 조사의 범위를 확인한다. 이어 S06에서 코드에서 설명한 문제와 실행 환경에서 드러난 제한을 나눈다.
 
-Evidence / Source: TRIAL-001, DEMO-01, STATE-00, CLM-0002, CLM-0009. `plan/DEMO_MATRIX.md` TRIAL-001; Demo tag STATE-00 `22e7e2f806de2419b0df649107bbae14dea082eb`: `tests/test_transform.py:9–14`, `src/graypipe/transform.py:7–13`. 입력 ((1,2,3,4),(5,6,7,8)); 기대 ((2,3),(6,7)); 코드에 따른 결과 ((2,3,4),(6,7,8)). 마지막 배열은 새 실행 기록이 아닌 정적 재구성이다.
+Evidence / Source: TRIAL-001, DEMO-01, STATE-00, CLM-0002, CLM-0009. `plan/DEMO_MATRIX.md` TRIAL-001; Demo tag STATE-00 `22e7e2f806de2419b0df649107bbae14dea082eb`: `tests/test_transform.py:9–14`, `src/graypipe/transform.py:7–13`. 원본 입력 ((1,2,3,4),(5,6,7,8)); 기대 ((2,3),(6,7)); 코드에 따른 결과 ((2,3,4),(6,7,8)). 수정 화면은 두 행 중 첫 행만 발췌해 입력 1·2·3·4, 기대 2·3/폭 2, 구현 결과 2·3·4/폭 3을 표시한다. 새 실행 기록이 아닌 원본 소스·테스트에 따른 정적 재구성이다. S02와의 원소 수 연결은 DEC-0035의 교육용 해석이며 새로운 C++ Trial이 아니다.
 
-Claim Boundary: Codex CLI 0.154.0의 단일 읽기 전용 조사. 코드 수정 없음. 테스트 배열·구현에 따른 도식이며 screenshot이 아니다. 호출 화살표는 제품 호출 관계이고 Agent 접근 순서가 아니다. README에 기존 결함 안내가 있으므로 아무 힌트 없이 독자 발견했다고 말하지 않는다. 현재 Desktop, 계정, 반복 재현성과 보편적 탐색 능력은 미검증이다.
+Claim Boundary: Codex CLI 0.154.0의 단일 읽기 전용 조사이며 코드 수정은 없었다. 화면은 원본 두 행 중 첫 행을 발췌한 재구성으로 screenshot이 아니다. 호출 화살표는 제품 호출 관계이며 Agent 접근 순서가 아니다. README에 기존 결함 안내가 있으므로 아무 힌트 없이 독자 발견했다고 말하지 않는다. S02의 두 Vector 표현은 모두 유효하다. 연결하는 것은 의도한 크기와 실제 포함 원소를 확인한다는 판단이며 실제 allocator·capacity·메모리 할당 실패·버퍼 오버런·C++ 실행을 관찰했다는 주장이 아니다. 현재 Desktop·계정·반복 재현성·보편적 탐색 능력은 미검증이다.
 
-Beginner Explanation: 파일명을 미리 주지 않은 한 번의 조사에서 실패 Test와 관련 구현·호출 경로가 찾아졌다.
+Beginner Explanation: 끝 좌표를 포함하느냐에 따라 기대한 폭 2와 실제 포함 폭 3이 달라진다. Agent는 한 번의 조사에서 이 차이를 설명할 Test·구현·호출 경로를 찾아냈다.
 
-Advanced Insight: 찾은 경로와 설명은 그 run에서 확인된 범위다. 설명과 수정, 검증은 다른 단계이며 이 Trial에서는 코드를 바꾸지 않았다.
+Advanced Insight: S02의 생성자 의미 차이와 S05의 끝 좌표 포함 결함은 서로 다른 현상이다. 의도한 개수와 실제 포함 범위를 근거로 확인한다는 공통 질문만 연결한다. 설명·수정·검증은 별개이며 이 Trial에서는 코드를 바꾸지 않았다.
 
-C++ Vision Bridge: N/A.
+C++ Vision Bridge: S02의 `std::vector<int>` 초기화 비교를 원소 수·범위 확인의 교육용 연결로만 회수한다. 실제 Demo는 Python crop이며 C++ 메모리 할당·capacity·버퍼 오버런 사건이나 실행 근거로 바꾸지 않는다.
 
-Demo Operation: 정적 자료만 사용한다. `production/ACT_0.pptx` S05 / `production/preview/act0/S05.png`의 입력 → 기대/구현 결과 → 실패 Test/호출 경로/구현 순서로 가리킨다. Live/HYBRID는 비활성. 기존 DEMO-01 원본 기록은 `demos/runbooks/demo-01.md` 및 `plan/DEMO_MATRIX.md`. 마지막 1분에는 S06 handoff로 이동한다.
+Demo Operation: 정적 자료만 사용한다. `production/ACT_0.pptx` S05 / `production/preview/act0/S05.png`에서 원본 첫 행 발췌 → 끝 좌표 제외 명세 → 기대 폭 2/포함 폭 3 → 실패 Test·호출 경로·구현 순서로 가리킨다. Live/HYBRID는 비활성이다. 실제 DEMO-01 기록은 `demos/runbooks/demo-01.md` 및 `plan/DEMO_MATRIX.md`로 유지한다. 마지막 1분에는 S06의 코드 Context/환경 Context 구분으로 넘어간다.
 
 Audience Interaction: 청중은 S04의 세 Watch For를 확인한다. 중간 응답이나 실습을 요구하지 않는다.
 
-Transition: 발견 사실을 다음 장에서 Repository 관찰과 실행 환경 제한으로 나눈다.
+Transition: “이 범위 차이는 코드와 명세에서 설명할 단서가 있습니다. 그런데 실행 중의 오류도 같은 정보로 설명할 수 있을까요?”라고 묻고 S06으로 간다.
 
-Time Management: Demo 8분 유지. 1분 출처, 2분 배열, 2분 Test/호출 경로, 2분 구현 차이, 1분 범위와 전환. 초과 시 파일 경로 반복 설명을 줄인다. 새 실행 또는 수정은 하지 않는다.
+Time Management: Demo 8분 유지. S02 연결·출처 1분, 첫 행/폭 비교 2분, Test·호출 경로 2분, 구현과 명세 대조 2분, 관찰 범위·S06 전환 1분이다. 연결은 기존 출처 설명 일부를 대체하며 시간을 더하지 않는다. 초과 시 경로 반복을 줄인다. 새 실행·수정은 없다.
 
-Fallback: 승인된 정적 도식 — `production/ACT_0.pptx` S05와 `production/preview/act0/S05.png`를 사용한다. 새 제작본 삽입·렌더 대조는 통합 단계에서 수행한다. 원본 Trial 캡처나 Live 결과로 표현하지 않는다. 발표용 시각 방향은 사용자 승인 완료이며 Windows·교육장·실제 운영 검증은 별도다.
+Fallback: 정적 기본 경로 — `production/ACT_0.pptx` S05 또는 `production/preview/act0/S05.png`에서 첫 행 발췌·폭 2/3·Test·호출 경로를 설명한다. 이번 수정본의 삽입·렌더 대조는 제작 단계에서 확인한다. 원본 Trial 캡처·Live 결과·새 C++ 실행으로 표현하지 않는다. Windows·교육장·실제 운영 시간 검증은 별도다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0035에 따라 실제 관찰과 교육용 해석의 경계를 유지하며 화면·운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 렌더링 검토 결과는 `production/evaluation/ACT_0_CONTEXT_SCOPE_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S06 — 관찰 결과와 실행 제한을 분리한다
 
@@ -251,36 +253,37 @@ Mode Split: Case 5 minutes
 
 Primary Message: TRIAL-001은 Crop의 추가 열을 재현·설명했지만 코드는 수정하지 않았고, 임시 디렉터리를 만들지 못한 3건의 오류는 읽기 전용 환경 제한이었다.
 
-Opening Question: “어떤 결과가 Repository 관찰이고, 어떤 결과가 실행 환경 제한인가?”
+Opening Question: “Chatbot에 코드·명세만 골라 넣었다면, 실행 환경의 어떤 정보가 빠질까?” 실제 비교 실행 결과가 아니라 전달한 Context의 범위를 묻는 가정이다.
 
 Speaker Flow:
 
-1. **OPEN (0:00–0:45):** 왼쪽 “코드에서 확인한 문제”와 오른쪽 “실행 환경에서 생긴 제한”을 서로 다른 원인으로 읽는다.
-2. **SHOW (0:45–2:15):** 왼쪽에서 한 열이 더 포함된 crop 동작과 테스트·호출 경로·계약의 연결을 짚는다. 조사 결과이며 코드는 그대로였음을 말한다.
-3. **SHOW (2:15–3:30):** 오른쪽에서 읽기 전용 권한으로 임시 디렉터리 생성이 막힌 세 오류를 설명한다. crop 결함의 세 추가 증거가 아니다.
-4. **INTERPRET / TRANSFER (3:30–5:00):** 아래의 전체 기록 7개 통과 + crop 실패 + 환경 오류 3건을 확인하고 관찰 사실과 실행 조건을 분리하는 판단으로 마무리한다.
+1. **OPEN (0:00–0:45):** 상단 “Chatbot에 코드·명세만 골라 넣었다면?”을 가정으로 읽는다. Chatbot과 Agent를 실제로 비교한 실험이 아니라, 전달한 정보와 빠진 정보를 구분하는 교육용 해석임을 밝힌다.
+2. **CODE CONTEXT (0:45–2:00):** 왼쪽 “코드 Context로 논의할 수 있는 부분”에서 기대 폭 2와 포함 폭 3, 명세·테스트·구현의 비교를 짚는다. 실제 Trial은 그 원인을 설명했으며 코드는 수정하지 않았다는 사실을 유지한다. 관련 코드를 충분히 전달한 대화에서도 이런 원인 분석의 단서는 생길 수 있다는 가정이다.
+3. **ENVIRONMENT CONTEXT (2:00–3:15):** 오른쪽 “함께 전달하지 않은 실행 환경”에서 읽기 전용·임시 디렉터리 생성 제한과 환경 오류 3건을 짚는다. 코드만 입력했다는 가정에서는 실행 로그·권한 정보가 빠져 있으므로, 코드 문제와 같은 정보만으로 이 원인을 판단하기 어렵다고 설명한다. 세 오류를 crop 결함의 추가 증거로 세지 않는다.
+4. **BOUNDARY (3:15–4:15):** “코드만 옮기면, 실행 환경의 단서는 빠진다”를 강조한다. 환경 로그·권한 정보까지 전달하면 Chatbot에도 분석 단서가 생길 수 있다. 이번 Agent도 권한 제한을 해제하거나 코드를 수정하지 않았으므로, Chatbot의 불가능이나 Agent의 해결 우위를 주장하지 않는다.
+5. **RECAP / TRANSITION (4:15–5:00):** 실제 전체 기록 7개 통과 + crop 실패 1건 + 환경 오류 3건을 확인한다. 코드와 실행 환경을 모두 Context로 본 뒤 “누가 이 정보를 찾아 연결할 것인가?”라는 질문으로 S07에 간다.
 
-Evidence / Source: TRIAL-001의 full suite 기록: 7 passing tests, 기대한 crop failure, 임시 디렉터리를 만들 수 없어 발생한 3 errors. Focused command 기록: 2 passing tests와 같은 crop failure. Working tree는 변경되지 않았다.
+Evidence / Source: TRIAL-001의 full suite 기록은 7 passing tests + 기대한 crop failure 1건 + 읽기 전용 sandbox가 임시 디렉터리를 만들 수 없어 발생한 환경 errors 3건이다. Focused command는 2 passing tests와 같은 crop failure였다. Working tree는 변경되지 않았다. 근거 원본: `plan/DEMO_MATRIX.md` TRIAL-001. “Chatbot에 코드·명세만 입력했다면”이라는 가정과 전달/누락 Context의 비교는 DEC-0035의 교육용 해석이며 실제 Chatbot/Agent 비교 실행이나 관찰된 우열 결과가 아니다.
 
-Claim Boundary: 세 errors는 read-only 환경의 temp-directory 제한이며 crop bug의 근거가 아니다. TRIAL-001은 코드 수정을 수행하지 않았다. Trial 범위 밖의 테스트 결과, 제품 동작 또는 반복성을 추론하지 않는다.
+Claim Boundary: 세 errors는 read-only 환경의 temp-directory 제한이며 crop bug의 근거가 아니다. TRIAL-001은 코드를 수정하거나 권한 제한을 해제하지 않았다. 코드·명세만 대화에 전달했다는 설정은 교육용 가정이며 특정 Chatbot 제품의 능력·도구 지원·해결 불가능성을 입증하지 않는다. 실행 로그·권한 정보까지 전달한다면 Chatbot도 원인 분석 단서를 가질 수 있다. 이번 기록으로 Chatbot 대비 Agent의 해결 우위를 주장하지 않는다. 실제 관찰과 교육용 해석을 분리하며 Trial 범위 밖의 테스트 결과·현재 제품 동작·반복성을 추론하지 않는다.
 
-Beginner Explanation: 기능의 관찰 결과와 실행 환경의 제한을 서로 다른 원인으로 적는다.
+Beginner Explanation: 복사한 코드와 명세에는 코드 문제의 단서가 있을 수 있다. 실제 실행 로그와 권한 정보를 함께 전달하지 않았다면 환경 오류의 단서는 빠져 있다. 어느 도구가 무조건 더 잘하느냐보다 어떤 Context가 있는지 먼저 본다.
 
-Advanced Insight: 실제 결함 징후, 권한·환경 오류, 미측정 사항을 분류해 후속 판단이 잘못된 원인에 고정되지 않게 한다.
+Advanced Insight: 정보를 전달하지 않은 것과 도구가 그 문제를 해결할 능력이 없는 것은 다르다. 실제 결함 징후와 환경·권한 오류를 분리하고, 재현·실행에서 얻은 Context가 빠졌는지 확인한다. 이번 Agent는 제한을 관찰했을 뿐 해제하지 않았다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: DEMO-01 / WHAT HAPPENED. `production/ACT_0.pptx` S06의 흰 관찰 영역과 amber 환경 제한 영역을 순서대로 설명한다. 0:00–0:45 구분, 0:45–2:15 crop 관찰, 2:15–3:30 환경, 3:30–5:00 기록의 범위와 전환이다. 새 테스트나 제품 실행은 하지 않는다.
+Demo Operation: DEMO-01 / WHAT HAPPENED. `production/ACT_0.pptx` S06 또는 `production/preview/act0/S06.png`에서 상단 가정 → 왼쪽 코드 Context → 오른쪽 환경 Context → 전달하지 않은 정보에 대한 해석 → 실제 7/1/3 기록 순서로 설명한다. 가정과 실제 Trial을 구분하고 새 Chatbot 대화·테스트·제품 실행이나 환경 복구를 하지 않는다.
 
-Audience Interaction: 질문은 결과 해석을 위한 Case cue다. 응답을 받거나 환경 오류를 해결하게 하지 않는다.
+Audience Interaction: 질문은 전달한 정보와 빠진 정보를 생각하게 하는 Case cue다. 응답·실습·환경 해결을 요구하거나 Chatbot과 Agent의 승자를 고르게 하지 않는다.
 
-Transition: “Context를 찾는 주체가 바뀌면 무엇이 달라질까요?”라는 질문으로 S07에 연결한다.
+Transition: “코드 밖의 실행 환경도 Context라면, 누가 필요한 정보를 찾아 연결할까요?”라고 묻고 S07의 Context 수집 주체 비교로 간다.
 
-Time Management: Repo observation과 environment limitation에 시간을 나눠 쓴다. 원인 경계를 줄여 말하더라도 3 errors를 crop 결함으로 부르지 않는다.
+Time Management: Case 5분 유지. 가정과 실제 구분 45초, 코드 Context 75초, 실행 환경 Context 75초, 비교 주장 경계·누락 정보 해석 60초, 실제 기록·전환 45초다. 시간 초과 시 반복 설명을 줄이되 3 errors를 crop 결함으로 부르거나 도구 우열로 단정하지 않는다. 실제 시간 적합성은 리허설 전까지 미검증이다.
 
-Fallback: 정적 기본 경로 — `production/ACT_0.pptx` S06 또는 `production/preview/act0/S06.png`. 새 제작본 렌더 검토는 통합 단계에서 수행한다. 화면을 사용할 수 없으면 기록된 숫자와 코드 문제/환경 제한 두 범주만 말로 설명한다. S05에서 이어지는 복귀 cue: “기록된 결과에서, 코드 문제와 실행 제한을 나눠 보겠습니다.” 운영 시간·Windows·room visibility는 UNVERIFIED.
+Fallback: 정적 기본 경로 — `production/ACT_0.pptx` S06 또는 `production/preview/act0/S06.png`. 새 수정본의 렌더·내장 Notes 대조는 제작 단계에서 확인한다. 화면이 없으면 실제 7개 통과/crop 실패 1건/환경 오류 3건을 먼저 밝히고, 코드만 전달한 가정에서는 실행 환경 정보가 빠진다는 해석을 말로 설명한다. 실제 Chatbot 비교나 환경 해결 결과로 대체하지 않는다. 운영 시간·Windows·교육장 표시는 UNVERIFIED.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0035에 따라 실제 관찰과 교육용 해석의 경계를 유지하며 화면·운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 렌더링 검토 결과는 `production/evaluation/ACT_0_CONTEXT_SCOPE_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S07 — 코드를 AI에게 가져가는 대신 AI를 Repository로 데려간다
 

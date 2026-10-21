@@ -200,12 +200,12 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 80장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; 한 번의 Codex CLI 0.154.0 실행에 한정. Desktop·계정 동작이나 반복성을 입증하지 않는다.
-- **Visual Concept:** `test_crop_excludes_end_coordinate`에서 `cli.main()` → `pipeline.process_image()` → `transform.crop()`으로 이어지는 Repository 경로 지도. 긴 로그나 전체 파일은 싣지 않는다.
+- **Visual Concept:** 상단에서 “의도한 폭과 실제로 포함된 열 수가 달랐다”로 S02의 원소 수 질문을 회수한다. `crop(image, 1, 3)`의 끝 좌표 제외 명세와 원본 두 행 중 첫 행 `1, 2, 3, 4`만 발췌한 재구성을 비교한다. 기대 `2, 3`/폭 2와 구현 `2, 3, 4`/폭 3을 강조한다. `test_crop_excludes_end_coordinate`, `cli.main → process_image → crop`, `row[x_start : x_end + 1]`의 실제 근거를 유지한다. 새 실행이나 C++ 메모리 할당 사건이 아니다. DEC-0035.
 - **Demo / Case Connection:** DEMO-01의 8분 Demo 구간. 실행 UI는 별도로 보여주며, 이 장에는 읽기 쉬운 증거 요약을 둔다.
 - **Beginner Payoff:** 관련 파일을 모두 직접 대화창에 복사하지 않고 Repository 조사를 요청할 가능성을 본다.
 - **Advanced Payoff:** 단일 실행에서 관찰한 탐색 결과와 일반적인 제품 보장을 구분한다.
-- **C++ Vision Bridge:** 없음
-- **Speaker Intent:** Agent가 찾은 Test, 소스와 경로를 짧은 지도 형태로 읽게 하고 해석은 다음 장으로 남긴다.
+- **C++ Vision Bridge:** S02의 두 유효한 `std::vector<int>` 초기화 표현과 의도한 원소 수·실제 포함 범위를 확인한다는 질문만 연결한다. 실제 관찰은 Python crop의 끝 좌표 포함 결함이며 C++ 메모리 할당·capacity·버퍼 오버런 또는 새 실행을 입증하지 않는다.
+- **Speaker Intent:** Agent가 찾은 Test·소스·호출 경로를 읽게 하면서 폭 2/3의 차이를 한눈에 보이게 한다. “할당 길이가 잘못됐다”는 관찰로 바꾸지 않으며, 첫 행 발췌와 S02 연결이 각각 정적 재구성·교육용 해석임을 구분한다. 원인 설명과 코드 수정·검증도 별개로 유지한다.
 - **Transition:** 무엇이 발견됐고 실행 환경에는 어떤 제한이 있었는지 구분한다.
 - **Estimated Time:** 8분
 - **Delivery Mode Allocation:** Demo 8분 (HYBRID) = 8분
@@ -224,12 +224,12 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 80장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; TRIAL-001 범위 내 관찰. 환경 오류를 Repository 또는 Crop 결함으로 분류하지 않는다.
-- **Visual Concept:** 두 칸으로 분리: `Product observation — Test/구현/계약을 찾고 원인을 설명, 코드 미수정` / `Environment limitation — 읽기 전용으로 임시 디렉터리 생성 불가`
+- **Visual Concept:** 상단의 “Chatbot에 코드·명세만 골라 넣었다면?”은 교육용 가정이다. 좌측은 `코드 Context로 논의할 수 있는 부분 — 기대 폭 2 ↔ 포함 폭 3 / 명세·테스트·구현 비교 / TRIAL-001: 원인 설명·코드 미수정`, 우측은 `함께 전달하지 않은 실행 환경 — 읽기 전용·임시 디렉터리 제한 / 실행 로그·권한 정보도 필요 / 환경 오류 3건`으로 구분한다. “코드만 옮기면, 실행 환경의 단서는 빠진다”로 연결하되 실제 전체 기록 7개 통과 + crop 실패 1건 + 환경 오류 3건을 유지한다. 실제 Chatbot/Agent 비교 결과가 아니다. DEC-0035.
 - **Demo / Case Connection:** DEMO-01의 `WHAT HAPPENED` 및 준비된 캡처 대안
 - **Beginner Payoff:** 관찰된 결과와 실행 중 발생한 환경 문제를 혼동하지 않는다.
 - **Advanced Payoff:** 유용한 조사 결과도 단일 실행·권한·환경의 범위 안에서 해석한다.
 - **C++ Vision Bridge:** 없음
-- **Speaker Intent:** Demo의 성공과 환경 제한을 각각 사실대로 요약하고 Codex 전반으로 일반화하지 않는다.
+- **Speaker Intent:** 실제 Trial에서 확인한 코드 문제와 환경 제한을 먼저 구분하고, 코드·명세만 입력한 경우 빠지는 Context를 교육용 해석으로 설명한다. 환경 로그·권한 정보를 추가하면 Chatbot에도 분석 단서가 생길 수 있으므로 해결 불가능·제품 능력·Agent 우위를 단정하지 않는다. 이번 Agent도 권한 제한을 해제하거나 코드를 수정하지 않았다는 관찰 범위를 유지한다.
 - **Transition:** Context를 찾는 주체가 바뀐 의미를 정리한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
