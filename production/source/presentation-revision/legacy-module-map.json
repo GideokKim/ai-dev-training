@@ -576,7 +576,7 @@
         "M9"
       ],
       "scope": "principle",
-      "rationale": "두 구현 후보를 정확성·실행 시간·Python 할당량으로 비교해 선택한다. 후보 비교와 근거 기반 판단 원리이며 ToT·시스템 3대안·TCO 교육은 아니다. DEC-0062: 최적화 기법 강의 대신 근거에 따른 후보 선택을 보여준다.",
+      "rationale": "두 구현 후보를 정확성·실행 시간·Python 할당량으로 비교해 선택한다. 후보 비교와 근거 기반 판단 원리이며 ToT·시스템 3대안·TCO 교육은 아니다. DEC-0062: 최적화 기법 강의 대신 근거에 따른 후보 선택을 보여준다. DEC-0069: show shared guards once and connect each candidate runtime direction to its decision; preserve M2/M5/M9 scope.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2 · M5 · M9"
     },

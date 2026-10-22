@@ -223,21 +223,26 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S57(p){
-   const s=make(p,'S57','후보는 시간·할당량·동작을 함께 보고 고른다','ACT 3 · 밝기 통계 작업의 후보 선택 과정',
-    'TRIAL-008 · image_statistics 후보 비교 · 합성1024×768 / CPython3.9.6 / macOS arm64',
-    '정성 비교 · 아래 후보끼리의 비교는 다음 장의 제품 상태 전후 측정과 다름','OBSERVED_PRODUCT');
-   text(s,'두 후보 모두 같은 결과 6항목을 확인했다',64,181,1152,41,30,C.teal,true);
-   const rs=[['수동 단일 순회','낮은 할당량','훨씬 느림 → 제외',C.white,C.warn],['행 단위 built-in reduction','낮은 할당량 유지','더 나음 → 선택',C.pale,C.teal]];
-   text(s,'후보',64,254,508,36,27,C.sub,true);
-   text(s,'Python 할당량',610,254,250,36,27,C.sub,true);
-   text(s,'실행 시간과 판단',905,254,311,36,27,C.sub,true);
-   rs.forEach(([label,allocation,decision,fill,color],i)=>{
-    const y=317+i*112;rect(s,64,y,1152,92,fill);
-    text(s,label,80,y+19,510,54,29,C.ink,true);
-    text(s,allocation,610,y+19,250,54,27,C.ink);
-    text(s,decision,905,y+19,295,54,28,color,true);
+   const s=make(p,'S57','낮은 할당량만으로 고르지 않았다','ACT 3 · 밝기 통계의 후보 선택',
+    'TRIAL-008 후보 비교 요약 · 합성1024×768 · CPython3.9.6 / macOS arm64',
+    '이 환경에서 관찰한 비교 · 다음 장의 제품 상태 측정과 구분 · Skill 단독 효과 미입증','OBSERVED_PRODUCT');
+   text(s,'두 후보 모두',64,203,214,38,27,C.teal,true);
+   text(s,'결과 6항목 동일 · 기존보다 낮은 Python 할당 피크',278,203,938,38,28,C.ink);
+   line(s,64,258,1152);
+   text(s,'후보',88,276,478,34,23,C.sub);
+   text(s,'두 후보의 실행시간 비교',594,276,350,34,23,C.sub);
+   // Qualitative evidence lanes keep the decision dominant without invented bars.
+   const candidates=[
+    [324,'수동 순회','더 느림','제외',C.sub,C.white],
+    [447,'행 단위 내장 연산','더 빠름','선택',C.teal,C.pale]
+   ];
+   candidates.forEach(([y,label,runtime,decision,color,fill],i)=>{
+    rect(s,64,y,1152,106,fill);
+    text(s,label,88,y+27,486,48,34,i===0?C.sub:C.ink,true);
+    text(s,runtime,594,y+28,260,48,32,color,true);
+    s.shapes.add({geometry:'connector',kind:'straight',position:{left:876,top:y+54,width:86,height:0},line:{fill:color,width:3},tail:{type:'triangle',width:'sm',length:'sm'}});
+    text(s,decision,996,y+18,196,65,i===0?38:46,color,true,FONT,'center');
    });
-   text(s,'Skill에 정답을 넣지 않고, 측정 근거로 변경 후보를 선택했다',64,565,1152,35,27,C.ink,true);
    return s;
   },
   S58(p){

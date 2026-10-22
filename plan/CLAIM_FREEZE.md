@@ -490,3 +490,16 @@ observed branches or proof that this Skill supplies better answers. Preserve
 scope, correctness and evidence requirements. Do not add current-product,
 causality, token-saving or performance-effect claims. S57 retains actual
 candidate choice and S58 retains product-state comparison.
+
+
+## DEC-0069 — S57 concise candidate selection
+
+S57 retains OBSERVED_PRODUCT / FROZEN WITH SCOPE. The visible two candidates
+both preserved the six-field result and lowered traced Python peak allocation
+relative to the existing flattening implementation. Runtime direction compares
+the two candidates. Reject the slower manual Python loop and highlight the
+selected row-level built-in reduction. Keep exact candidate figures off-screen
+and preserve the original source records. Equal-length connectors indicate
+comparison-to-decision relationships, not numeric magnitude or a new Trial.
+Do not generalize Python allocation to RSS or attribute results to Skill alone.
+S58 retains the separate formal STATE-04/STATE-04-PERF measurements.

@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0068 local static-file inventory only (2026-10-22).
+Status: READY — DEC-0069 local static-file inventory only (2026-10-22).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `f25b880461cd3888c67e3619e794ee6f051081ac558a83fb6294168b24c0be40`
-- Full Notes SHA-256: `e7ed29cbfab8bb3fb26e83e3cedf62439dbf5288608d0fd9fa1fb5538af221ba`
-- Full montage SHA-256: `4fb2cf71a8ab5a690c28f6f077427c7847305ca18eafb4acac81b9068b65c9c9`
+- Source SHA-256: `72bf99076eb3b12cbf4cfe7c82ec2dc6cadd673c9d9da7f7dac0381a86071399`
+- Full Notes SHA-256: `8b629d6090c6fcc3b086ffb419af2687a4bfb45487e5b48dd366658f96f8618b`
+- Full montage SHA-256: `3ad8d5b26ca777bffdd90d11d34b0b046a7d734663b849c5e61fac0bf4a7e846`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -40,7 +40,12 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 - DEC-0068 revises S56's reusable-procedure and task-judgment diagram.
   All32 fallback PNGs remain byte-identical; S56 is a Lecture support slide.
   Update current Full/Notes/montage identities without adding Demo minutes.
-  [Current package review](../../production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md).
+  [Prior S56 review](../../production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md).
+
+- DEC-0069 simplifies S57's qualitative candidate selection.
+  All32 fallback PNGs remain byte-identical; S57 is a Case support slide.
+  Update current Full/Notes/montage identities without adding Demo minutes.
+  [Current package review](../../production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md).
 
 ## Runbook to fallback mapping
 

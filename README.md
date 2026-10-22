@@ -10,7 +10,9 @@
 
 현재 제작 기준은 **DEC-0060 /93장·379분(6시간19분)**이다. ACT2는 S32–S49/18장·81분이며, 연구 분리·의존성 답변 회수·성과 정리와 ACT3 연결을 개선한다. 기존90장의 시간·근거 범위를 보존한다. [ACT2 흐름 개선](production/evaluation/ACT_2_FLOW_REVISION.md), [번호 대조](plan/SLIDE_ID_MIGRATION_93.md), [ACT2 미리보기](production/preview/act2/montage.png). 최종93장 렌더·93개 내장 Notes와 ACT/Full 정합성 검토를 완료했다.
 
-최신 수정은 **DEC-0068 / S56 재사용 절차와 이번 판단**이다. 왼쪽 Skill의 재사용 방법을 오른쪽 이번 측정·검증 근거와 판단 질문으로 연결한다. 채택/보류는 교육용 판단 경로이며 실제 Trial 결과와 구분한다. Notes와93장·379분, 기존 관찰 범위를 유지한다. [S56](production/preview/full/S56.png), [S55–S57](production/preview/act3/S55-S57-continuity.png), [검토 기록](production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md).
+최신 수정은 **DEC-0069 / S57 후보 선택의 시각적 정리**다. 두 후보의 공통 조건은 한 번만 표시하고, 실행시간 비교와 제외/선택을 두 행에 연결했다. 선택한 후보를 강조하며 상세 구현 설명은 Notes로 옮겼다. S56의 판단 질문과 S58의 제품 상태 검증을 연결하고93장·379분, 기존 근거 범위를 유지한다. [S57](production/preview/full/S57.png), [S56–S58](production/preview/act3/S56-S58-continuity.png), [검토 기록](production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md).
+
+이전 수정은 **DEC-0068 / S56 재사용 절차와 이번 판단**이다. 왼쪽 Skill의 재사용 방법을 오른쪽 이번 측정·검증 근거와 판단 질문으로 연결한다. 채택/보류는 교육용 판단 경로이며 실제 Trial 결과와 구분한다. Notes와93장·379분, 기존 관찰 범위를 유지한다. [S56](production/preview/full/S56.png), [S55–S57](production/preview/act3/S55-S57-continuity.png), [검토 기록](production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md).
 
 이전 수정은 **DEC-0067 / S55 지침과 수행 기록 대응**다. S54의 본문 포함 근거에 이어, S55는 지침의 번역 요약과 실제 출력·변경 전 메시지·최종 diff를 세 행으로 대응한다. Notes와 현재93장·379분, 기존 관찰 범위를 유지한다. [S55](production/preview/full/S55.png), [S54–S56](production/preview/act3/S54-S56-continuity.png), [검토 기록](production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md).
 

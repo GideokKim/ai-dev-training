@@ -7955,3 +7955,74 @@ Render Full93 and ACT3 18 slides, inspect S55–S57, compare92 other screens and
 Notes, preserve native tables/chart and verify current artifact identities.
 Follow standing Git checkpoints. Keep Windows, room, product/account and timed
 rehearsal UNVERIFIED. Preserve the Demo repository and paused presenter bundles.
+
+
+# DEC-0069 — simplify the candidate selection evidence on S57
+
+## Status
+
+ACCEPTED — explicit user request to improve S57 visually and reduce text.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S56 distinguishes reusable procedures from evidence-based task judgments.
+S58 presents the selected product change's formal state measurements.
+
+## Problem
+
+S57 repeats conditions across several text groups, making the selected
+candidate and its reason difficult to locate while presenting.
+
+## Decision
+
+Use a shorter takeaway title, one shared-condition line and two native
+candidate/runtime/decision lanes. Highlight the selected row and keep the
+rejected row secondary. Translate row-level built-in reduction into a short
+Korean label; retain exact implementation details and source scope in Notes.
+Preserve the qualitative candidate evidence, Case5,93slides/379minutes,
+T07-B, all IDs and Mode. Keep S56 and S58 unchanged.
+
+## Rationale
+
+One focal decision and a fixed reading order make the evidence easier to
+follow without adding algorithms, results or claims to the course.
+
+## Alternatives
+
+Keep every implementation phrase on-screen: competes with the decision.
+Add quantitative bars: violates the frozen qualitative candidate scope.
+Add a slide: unnecessary for this two-candidate decision.
+
+## Trade-offs
+
+The screen shortens labels and removes repeated conclusions. Notes preserve
+field names, implementation trade-offs and the two comparison baselines.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-006, INV-VERIFY-001, INV-DEMO-004.
+
+## Affected Artifacts
+
+S57 source, Map/template description, ACT3 flow, Claim Freeze, S57 Notes,
+Full/ACT3 packages and previews, current handoff identities and review.
+
+## Evidence
+
+User request; DEC-0062/0068; existing TRIAL-008 candidate comparison in
+DEMO_MATRIX and the frozen qualitative claim. No new Trial or product run.
+
+## Training Relevance
+
+YES — preserve a measured trade-off while simplifying its presentation.
+
+## Follow-up
+
+Render final Full/ACT3 packages and inspect S56-S58. Preserve other92 screens,
+Notes and native tables/chart, then follow standing Git checkpoints. Keep
+Windows, room, product/account and timed rehearsal UNVERIFIED. Preserve the
+Demo repository and paused presenter bundles.

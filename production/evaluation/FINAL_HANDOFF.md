@@ -2,7 +2,10 @@
 
 갱신일:2026-10-22 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 수정은 DEC-0068의 S56이다. 재사용할 절차를 이번 측정·검증 근거와 질문에
+최신 수정은 DEC-0069의 S57이다. 공통 조건 한 줄과 두 후보의 시간·판단 관계로
+화면을 단순화했다. S56의 근거로 판단할 질문을 실제 선택으로 회수하고, S58의
+제품 상태 측정과 구분한다. Notes에 상세 구현·비교 기준과 운영 순서를 보존한다.
+이전 수정은 DEC-0068의 S56이다. 재사용할 절차를 이번 측정·검증 근거와 질문에
 연결하고 채택/보류의 조건을 표시했다. 보류는 허용된 경로이며 실제 Trial 결과와
 구분한다. S55의 수행 기록 확인에서 S57의 실제 후보 선택으로 이어진다.
 이전 수정은 DEC-0067의 S55다. 본문 포함과 수행 근거를 구분하고 지침 번역을
@@ -23,13 +26,14 @@ ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `f25b880461cd3888c67e3619e794ee6f051081ac558a83fb6294168b24c0be40` |
+| PPT SHA-256 | `72bf99076eb3b12cbf4cfe7c82ec2dc6cadd673c9d9da7f7dac0381a86071399` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `e7ed29cbfab8bb3fb26e83e3cedf62439dbf5288608d0fd9fa1fb5538af221ba` |
+| Notes SHA-256 | `8b629d6090c6fcc3b086ffb419af2687a4bfb45487e5b48dd366658f96f8618b` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `4fb2cf71a8ab5a690c28f6f077427c7847305ca18eafb4acac81b9068b65c9c9` |
+| Montage SHA-256 | `3ad8d5b26ca777bffdd90d11d34b0b046a7d734663b849c5e61fac0bf4a7e846` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [S56 재사용 절차와 이번 판단](S56_REUSABLE_PROCEDURE_REVISION.md) |
+| 최신 검토 | [S57 후보 선택의 시각적 정리](S57_CANDIDATE_SELECTION_REVISION.md) |
+| 이전 S56 검토 | [재사용 절차와 이번 판단](S56_REUSABLE_PROCEDURE_REVISION.md) |
 | 이전 S55 검토 | [지침과 수행 기록 대응](S55_SKILL_ACTION_EVIDENCE_REVISION.md) |
 | 이전 S53/S54 검토 | [연결선·CLI 근거](S53_S54_SKILL_EVIDENCE_REVISION.md) |
 | 이전 S53 검토 | [Skill 재사용과 관리 이유](S53_SKILL_REUSE_REVISION.md) |
@@ -85,6 +89,11 @@ DEC-0068에서는 Full93장·ACT3 18장을 렌더링하고 S55–S57을 개별 �
 S56 화면·19필드 Notes를 수정했으며 다른92장 PNG·Notes와 정적 대안32개는
 그대로다. S56 Lecture3분, 모든 장별 시간·Mode·근거 범위와 표·차트·다른 ACT
 패키지를 보존했다. Skill의 원문 확인은 읽기 전용이며 새 Trial이 아니다.
+
+DEC-0069에서는 Full93장·ACT3 18장을 렌더링하고 S56–S58을 개별 검토했다.
+S57 화면·19필드 Notes를 수정했으며 다른92장 PNG·Notes와 정적 대안32개는
+그대로다. S57 Case5분, 전체 장별 시간·Mode·근거 범위와 표·차트·다른 ACT
+패키지를 보존했다. 화면의 공백 제외 글자 수는262에서192로 줄었다.
 
 ## 사용자가 확인할 남은 조건
 

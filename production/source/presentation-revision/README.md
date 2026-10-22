@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0068 / S56 reusable procedure and task judgment.
+Latest refinement: DEC-0069 / S57 candidate selection hierarchy.
+Show shared guards once and connect runtime direction to rejection/selection
+in two short native evidence lanes. Highlight the selected row. Keep T07-B,
+Case5 and93/379; align only S57 Notes and rebuild Full/ACT3.
+Review: `production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md`.
+
+Previous refinement: DEC-0068 / S56 reusable procedure and task judgment.
 Keep the T04-A comparison and diagram reusable methods, task evidence,
 questions and conditional adoption/no-change paths with native objects.
 Align only S56 Notes and rebuild Full/ACT3. Keep93/379 and Lecture3.

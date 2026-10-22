@@ -330,11 +330,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S56, production/pre
 
 Validation Status: ALIGNED — DEC-0068의19필드·Lecture3분·실제 Skill/교육용 관계 경계를 정렬했다. 최종 로컬 렌더와 Notes 대조는 production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S57 — 후보는 시간·할당량·동작을 함께 보고 고른다
+## S57 — 낮은 할당량만으로 고르지 않았다
 
 Slide ID: S57
 
-Working Title: 후보는 시간·할당량·동작을 함께 보고 고른다
+Working Title: 낮은 할당량만으로 고르지 않았다
 
 ACT / Section: ACT 3 / 3D
 
@@ -344,36 +344,37 @@ Mode Split: Case 5 minutes
 
 Primary Message: TRIAL-008에서는 결과 6항목을 보존한 후보들의 실행시간과 traced allocation을 함께 봤다. 느린 수동 순회는 제외하고 낮은 할당량과 더 나은 실행시간의 행 단위 reduction을 선택했다.
 
-Opening Question: “메모리를 적게 쓰는 후보라면 곧바로 선택해도 될까?”
+Opening Question: “두 후보 모두 결과를 지키고 할당량도 낮다면, 무엇을 더 확인해야 할까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 밝기 통계의 후보 선택 단계이며 다음 장의 제품 상태 전후 benchmark와 별도임을 밝힌다.
-2. (1:00–3:00) 같은 결과6항목을 지킨 두 후보의 시간/할당량 trade-off를 정성적으로 비교한다. 수동 순회는 낮은 할당량만으로 선택하지 않았다.
-3. (3:00–4:00) 행 단위 built-in reduction 후보를 선택한 근거를 말하되 알고리즘 구현 설명으로 확장하지 않는다.
-4. (4:00–5:00) 합성 입력·환경 범위와 Skill이 정답을 공급한 것이 아님을 유지한다.
+1. (0:00–0:45) S56의 ‘이번 근거로 어떤 구현을 선택할까?’를 회수한다. 이제 밝기 통계 작업에서 실제로 선택한 후보를 본다.
+2. (0:45–1:45) 위쪽 공통 조건만 가리킨다. 후보 비교에서 두 구현 모두 결과 6항목을 보존했고, 기존 평탄화 구현보다 traced Python 할당 피크가 낮았다. 낮은 할당량만으로 선택을 끝내지 않았다.
+3. (1:45–3:15) 위쪽 수동 순회 행을 왼쪽에서 오른쪽으로 짚은 뒤 아래 선택한 행을 읽는다. 두 후보의 실행시간은 달랐고, 느린 수동 순회를 제외하고 더 빠른 행 단위 내장 연산을 골랐다. 색과 함께 ‘제외’/‘선택’ 단어가 판단을 표시한다.
+4. (3:15–4:15) 수동 순회는 Python 코드로 픽셀을 하나씩 계산하는 후보이고, 선택한 후보는 각 행에 내장 min/max/sum을 사용한다. 세 차례 행 순회를 유지하면서 큰 임시 리스트를 없앤 trade-off다. 알고리즘 강의나 다른 언어의 성능 법칙으로 확장하지 않는다.
+5. (4:15–5:00) 이 장은 TRIAL-008의 후보 선택 기록이다. Skill의 단독 효과를 입증한 비교가 아니다. 다음 S58에서 실제 제품 상태에 반영한 변경을 별도 기준으로 확인한다.
 
-Evidence / Source: TRIAL-008 candidate comparison; `image_statistics`; synthetic 1024×768 image, CPython 3.9.6 / macOS 26.6.2 arm64; same six-field correctness guard.
+Evidence / Source: `plan/DEMO_MATRIX.md` TRIAL-008의 Investigation, Plan, Decision, Implementation 및 `plan/CLAIM_FREEZE.md`의 후보 비교 범위. 대상은 image_statistics, deterministic synthetic 1024×768 image (786,432 pixels, max255), CPython3.9.6 / macOS26.6.2 arm64. 같은 여섯 결과(width, height, pixel_count, minimum, maximum, mean)를 대조했다. 원자료는 기존 평탄화, row reductions, manual Python single pass를 비교한다. 화면은 선택 판단에 필요한 두 변경 후보를 요약하고 기존 구현을 할당량 비교 기준으로 둔다. 기존 수치·raw record는 원자료에 보존한다.
 
-Claim Boundary: 정확한 candidate 수치는 표시하지 않는다. Candidate 결과를 S58의 formal state benchmark와 섞지 않는다. Skill이 algorithm이나 결과를 만들었다고 하지 않는다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: 정확한 후보 시간·할당량 수치는 이 장에 표시하지 않는다. ‘더 느림/더 빠름’은 화면의 두 후보 사이 비교이고 ‘기존보다 낮은 할당 피크’는 기존 평탄화 구현과의 비교다. Python tracemalloc 관찰 피크는 process RSS나 전체 시스템 메모리가 아니다. 후보 비교를 S58의 formal STATE-04/STATE-04-PERF 측정과 섞지 않는다. Skill이 알고리즘을 공급했거나 단독으로 결과를 일으켰다고 말하지 않는다. 현재 제품 재현·일반적 성능 보장·새 Trial 주장은 없다.
 
-Beginner Explanation: 적은 메모리만 보고 선택하지 않고 같은 조건에서 실행시간과 정확성을 함께 확인했다.
+Beginner Explanation: 결과가 같은지와 할당량을 확인한 뒤에도 실행시간을 비교해야 했다. 같은 기준을 통과한 후보 중 이번 근거가 뒷받침하는 구현을 선택했다.
 
-Advanced Insight: Candidate comparison과 named product-state before/after 측정은 Evidence 단계가 다르다.
+Advanced Insight: 수동 단일 순회의 낮은 할당량만으로는 변경을 정당화하지 못했다. Python 내장 연산의 행 단위 반복과 직접 루프의 trade-off를 이 workload에서 측정했다. Candidate comparison과 제품 상태 전후 측정은 별도 Evidence다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 정적 기본 경로 — 후보 두 행의 정성 비교와 같은 결과6항목 확인. 정확한 후보 수치는 추가하지 않는다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: 정적 기록 요약 — 공통 조건, 위쪽 수동 순회, 아래쪽 선택한 후보 순으로 가리킨다. 동등한 길이의 연결선은 관찰 요약과 판단의 관계이며 비율이나 실행시간을 나타내는 막대가 아니다. 구현 코드·정확한 후보 수치·현재 제품 실행을 추가하지 않는다. Case5분은 DEMO-03의8 Demo분에 포함하지 않는다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: 위쪽 공통 조건에서 Opening Question을 던지고 잠깐 생각할 시간을 둔다. 화면에 이미 선택이 보이므로 숨긴 결과를 맞히는 퀴즈로 진행하지 않는다. 공개 답변·실습·추가 Q&A 시간은 요구하지 않는다.
 
 Transition: “후보 선택 기록을 남기고, 실제 제품 상태에 반영한 변경을 별도의 기준에서 확인하겠습니다.”
 
-Time Management: Case5분: 단계/범위1, 두 후보2, 선택1, 한계/전환1.
+Time Management: Case5분: S56 회수0.75, 공통 조건1, 두 후보·선택1.5, trade-off1, 범위·S58 전환0.75. 지연 시 함수명·결과 여섯 필드 낭독을 생략한다. 두 비교 기준과 후보/제품 상태 구분은 유지하고5분에 S58로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S57, production/preview/act3/S57.png 및 production/preview/full/S57.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S57, production/preview/act3/S57.png 및 production/preview/full/S57.png. 실제 실행 화면이 아닌 보존된 후보 비교 기록의 시각적 요약이다. 현재 제품·Demo repository를 실행하지 않는다. 최신 파일·내장 Notes 대조는 production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md를 따른다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0069의19필드·Case5분·후보 비교 범위를 정렬했다. 최종 로컬 렌더와 Notes 대조는 production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S58 — 선택한 변경을 같은 조건에서 검증했다
 

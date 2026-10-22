@@ -1,6 +1,8 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
-> **최신 S56 수정: DEC-0068.** 재사용할 Skill 절차와 이번 측정·검증 근거로 판단할 답을 관계도로 구분한다. [수정 검토](../production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md).
+> **최신 S57 수정: DEC-0069.** 공통 검증 조건과 후보별 시간·선택을 두 행에 정리해 S56의 판단 질문을 회수하고 S58의 제품 상태 검증으로 넘긴다. [수정 검토](../production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md).
+
+> **이전 S56 수정: DEC-0068.** 재사용할 Skill 절차와 이번 측정·검증 근거로 판단할 답을 관계도로 구분한다. [수정 검토](../production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md).
 
 > **이전 S55 수정: DEC-0067.** 본문 포함과 수행 근거를 구분하고, Skill 지침의 번역 요약과 실제 출력·메시지·diff를 대응한다. [수정 검토](../production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md).
 
@@ -1515,12 +1517,12 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-022, DEC-0017, STATE-04-PERF, TRIAL-008, INV-VERIFY-001, DEC-0062, DEC-0068
 
 
-#### S57 — 후보는 시간·할당량·동작을 함께 보고 고른다
+#### S57 — 낮은 할당량만으로 고르지 않았다
 
 - **Slide ID:** S57
 - **ACT:** ACT 3
 - **Section:** 3D Working Harness
-- **Working Title:** 후보는 시간·할당량·동작을 함께 보고 고른다
+- **Working Title:** 낮은 할당량만으로 고르지 않았다
 - **Primary Role:** 최적화 기법 강의 대신 근거에 따른 후보 선택을 보여준다.
 - **Audience Question:** “메모리를 적게 쓰는 후보라면 곧바로 선택해도 될까?”
 - **Core Message:** TRIAL-008에서는 결과 6항목을 보존한 후보들의 실행시간과 traced allocation을 함께 봤다. 느린 수동 순회는 제외하고 낮은 할당량과 더 나은 실행시간의 행 단위 reduction을 선택했다.
@@ -1528,16 +1530,16 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Curriculum Trace:** ACT 3 — observed workflow, verification, and Minimum Effective Harness.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 해당 Trial의 후보 간 비교 결과. Skill이 후보를 발견하거나 그 결과를 일으켰다는 인과 주장은 하지 않는다.
-- **Visual Concept:** 후보 두 행의 정성 비교와 같은 결과6항목 확인. 정확한 후보 수치는 추가하지 않는다.
-- **Demo / Case Connection:** `image_statistics`의 수동 단일 순회와 row-level built-in reduction 비교.
+- **Visual Concept:** 공통 조건(같은 결과6항목·기존 구현보다 낮은 Python 할당 피크)을 한 번만 표시하고, 두 후보의 실행시간 방향과 제외/선택을 같은 행에 연결한다. 선택한 행만 청록으로 강조한다. 화살표 길이는 측정값이 아니며 정확한 후보 수치는 추가하지 않는다.
+- **Demo / Case Connection:** TRIAL-008의 image_statistics 후보 비교 요약. 수동 단일 순회와 행 단위 내장 min/max/sum을 정성적으로 비교한다. 기존 평탄화 구현은 할당량 비교 기준이며 S58의 formal 제품 상태 측정과 구분한다.
 - **Beginner Payoff:** 성능 개선은 아이디어가 아니라 같은 조건의 비교로 판단한다.
 - **Advanced Payoff:** 시간·메모리 trade-off를 따로 보고 후보를 선택한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 최적화 기법 강의 대신 근거에 따른 후보 선택을 보여준다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Speaker Intent:** S56의 작업별 판단 질문을 실제 후보 선택으로 회수한다. 공통 조건, 수동 순회 제외, 행 단위 내장 연산 선택 순으로 시선을 유도한다. 상세 구현·여섯 결과 필드·측정 조건은 Notes에서 설명하고 화면의 중복 문장을 줄인다.
 - **Transition:** “후보 선택 기록을 남기고, 실제 제품 상태에 반영한 변경을 별도의 기준에서 확인하겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
-- **Evidence / Decision References:** BEAT-022, TRIAL-008, STATE-04-PERF, INV-VERIFY-001, DEC-0062
+- **Evidence / Decision References:** BEAT-022, TRIAL-008, STATE-04-PERF, INV-VERIFY-001, DEC-0062, DEC-0069
 
 
 #### S58 — 선택한 변경을 같은 조건에서 검증했다

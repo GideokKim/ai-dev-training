@@ -1,5 +1,14 @@
 # ACT3 Flow Revision — DEC-0062
 
+## Current S57 refinement — DEC-0069
+
+S57 consolidates the two candidates' shared guards and uses two short evidence
+lanes to connect runtime direction with rejection/selection. Highlight the
+selected row and move implementation explanation into Notes. S56 supplies the
+judgment question; S58 retains separate formal state measurements. Keep Case5,
+93slides/379minutes, T07-B and all claim boundaries. Review:
+[Candidate selection](../production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md).
+
 Current S56 refinement: DEC-0068. Connect reusable procedure to task evidence,
 questions and conditional adopt/no-change paths. The paths are a teaching
 model, not two observed Trial outcomes. Preserve Lecture3 and93/379.
@@ -61,7 +70,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S54 | Visually distinguish selector, explicit request and trace/body evidence; DEC-0066. |Demo5|
 | S55 | Pair three translated Skill instructions with observed output/message/diff, distinct from body inclusion; DEC-0067. |Demo3+Case3|
 | S56 | Visually connect reusable procedure to task evidence/questions and allowed adopt/no-change paths; DEC-0068. |Lecture3|
-| S57 | Preserve the qualitative candidate trade-off and six-field correctness scope. |Case5|
+| S57 | One shared-condition line and two candidate/runtime/decision lanes; DEC-0069. |Case5|
 | S58 | Keep the native chart, formal state measurements and verification results. |Case5|
 | S59 | First explain hypothetical independent C++ investigations and integration costs. |Demo3+Q&A1|
 | S60 | Apply those criteria to the actual connected Task; preserve no-Subagent decision. |Lecture1+Demo2+Q&A1|
