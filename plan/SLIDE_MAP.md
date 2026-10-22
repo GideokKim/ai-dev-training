@@ -1059,12 +1059,12 @@ ACT별 Mode 대조:
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0053
 
-#### S41 — Core Context에서 상세 정보로 가는 길
+#### S41 — AGENTS.md에는 무엇을 남길까?
 
 - **Slide ID:** S41
 - **ACT:** ACT 2
 - **Section:** 2F Scope·Routing
-- **Working Title:** Core Context에서 상세 정보로 가는 길
+- **Working Title:** AGENTS.md에는 무엇을 남길까?
 - **Primary Role:** Root/Core와 Topic Detail의 역할을 구분한다.
 - **Audience Question:** “무엇을 항상 읽고, 무엇을 필요할 때 찾게 할까?”
 - **Core Message:** Root Context는 Project 지식을 전부 담는 백과사전이 아니라 필요한 상세 정보로 가는 출발점이 될 수 있다.
@@ -1072,16 +1072,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. 이 설계만으로 정보 검색 성능이 향상된다고 주장하지 않는다.
-- **Visual Concept:** `ROOT / CORE`에 Project purpose, basic constraints, where to look을 놓고 `TOPIC DETAIL`에 architecture, image contracts, testing을 연결한다.
+- **Visual Concept:** 왼쪽 큰 청록 AGENTS.md 문서에는 항상 남길 목적·공통 제약·빌드/검증 시작점과 상세 위치 안내를 둔다. 오른쪽 흰색 상세 문서3개는 구조 확인→architecture.md, 이미지 동작 확인→image-contracts.md, 검증 범위 확인→testing.md의 작업별 정보를 예로 든다. 이동 화살표 없이 공통 안내와 관련 작업의 상세라는 범위를 대비한다. 실제 자동 로딩 결과가 아닌 교육용 정보 배치 모델임을 표시한다.
 - **Demo / Case Connection:** STATE-03 구조를 설명하기 전 일반적인 Routing mental model을 보여준다.
 - **Beginner Payoff:** 기본 안내와 상세 정보를 다른 역할로 볼 수 있다.
 - **Advanced Payoff:** 항상 필요한 정보와 작업별 세부 정보의 위치를 설계한다.
 - **C++ Vision Bridge:** 2H 통합 Bridge 1분. Core의 build/test entry와 Project 제약에서 알고리즘 계약·하드웨어 조건 같은 상세 정보로 이동하는 예를 든다.
-- **Speaker Intent:** 파일 구조보다 Scope와 필요한 시점에 집중한다.
+- **Speaker Intent:** S40에서 본 경로의 출발점 AGENTS.md에 무엇을 남길지 묻는다. 여러 작업에 공통인 목적·제약·진입 안내와 관련 작업에서 볼 세부 규칙을 구체적인 예로 구분한다. 항상 남긴다는 것은 기본 안내의 배치 기준이며 매 turn 자동 재읽기나 항상 같은 순서·완벽한 선택을 보장하지 않는다. C++ Bridge는 진입점/공통 제약과 알고리즘 명세/하드웨어 조건의 범위 차이를1분 이내로 연결한다. S42의 실제 분리 전후와 TRIAL-005 관찰은 뒤에 남긴다.
 - **Transition:** Slide 42에서 이 Mental Model이 Demo Repository에 어떻게 반영됐는지 본다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015
+- **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0054
 
 #### S42 — 정보를 지우지 않고 위치를 나누기
 

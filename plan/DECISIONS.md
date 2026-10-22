@@ -6738,3 +6738,80 @@ YES — separate a task question, project guidance and detailed specification.
 Review S39-S41 continuity, native diagram and Notes parity. Preserve other89
 slides and every per-slide budget. Keep Windows, room, product/account and
 rehearsal UNVERIFIED. Do not regenerate the presenter bundle.
+
+
+# DEC-0054 — Distinguish S41 core guidance from task detail
+
+## Status
+
+ACCEPTED — explicit user request to distinguish guidance and detail visually.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S40 shows one task reaching a specification through AGENTS.md guidance.
+S41 must explain what belongs in that starting point versus topic detail.
+
+## Problem
+
+Generic Core/Detail labels do not show which facts are shared, when details
+matter or which actual documents can hold the relevant information.
+
+## Decision
+
+Retitle S41 to ask what belongs in AGENTS.md. Show a large shared-guidance
+document with purpose, scope-preservation constraints and entry/pointer
+information. Contrast three detail documents with their task conditions:
+structure, image behavior and test scope. Keep the C++ transfer at pattern
+level. "Always keep" describes guidance placement, not automatic reading.
+Preserve the S41 role, T03-B, Lecture4,90slides,368minutes and every budget.
+Align the Map, template row, Notes, Full/ACT2 and current artifact identities.
+
+## Rationale
+
+The audience can distinguish common guidance from task-dependent detail
+without reading the repository. A scope comparison avoids repeating S40's
+path and leaves S42's actual reorganization and later access observations.
+
+## Alternatives
+
+Keep abstract labels: insufficient for independent comprehension.
+Repeat the same three-step routing path: duplicates S40's role.
+Present the groups as automatic loading behavior: exceeds the evidence.
+
+## Trade-offs
+
+STATE-03 supplies the retained filenames and content examples, summarized
+for a teaching model. The slide is not a complete instruction-file copy or
+a live product observation. Separation alone does not prove retrieval,
+token savings, compliance, speed or performance benefits. Historical title
+and migration records remain evidence of their earlier versions.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-002, INV-MATURITY-004,
+INV-RESEARCH-004, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S41 active source, Slide Map and template row, ACT2/Full Notes, Full/ACT2 PPTX,
+previews and current handoff identities. Preserve earlier review history.
+
+## Evidence
+
+User direction; approved S41 scope role; STATE-03 at f3e2e37, AGENTS.md and
+its architecture, image-contracts and testing documents. No new Trial,
+product check, C++ execution or Demo repository change.
+
+## Training Relevance
+
+YES — distinguish cross-task guidance from relevant task-specific detail.
+
+## Follow-up
+
+Review S40-S42 continuity, text fit, native comparison and Notes parity.
+Preserve other89 slides and every per-slide budget. Keep Windows, room,
+product/account and rehearsal UNVERIFIED. Do not regenerate the bundle.

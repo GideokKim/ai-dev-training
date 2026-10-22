@@ -212,17 +212,30 @@ S40:make('S40','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상�
     text(s,'AGENTS.md가 필요한 상세 문서의 위치를 안내한다',64,532,1152,37,29,C.teal,true);
     text(s,'C++도 같은 흐름: 공통 제약 확인 → 해당 알고리즘 명세',64,575,1152,29,23,C.sub);
   }),
-S41:make('S41','Core Context에서 상세 정보로 가는 길','ACT 2 · Core에 남길 기본 안내',
-  '교육용 정보 설계 · Root/Core는 상세 정보의 출발점',
-  'C++ 예: build/test 진입점과 기본 제약 → 알고리즘 계약·하드웨어 조건','TEACHING_MODEL',
-  (s,{C,text,line,rect,arrow})=>{
-    text(s,'무엇을 항상 읽고, 무엇을 필요할 때 찾게 할까?',64,209,1152,44,31,C.teal,true);
-    rect(s,64,286,438,242,C.pale);
-    text(s,'CORE · 기본 안내',88,301,390,41,30,C.teal,true);
-    text(s,'프로젝트의 목적\n항상 지켜야 할 제약\n상세 정보를 찾을 위치',88,361,390,137,29,C.ink,true);
-    arrow(s,542,393,53,29);
-    text(s,'DETAIL · 필요한 상세',650,286,566,41,30,C.ink,true);
-    [['architecture','모듈과 처리 순서'],['image contracts','이미지 동작의 계약'],['testing','테스트 위치와 범위']].forEach((r,i)=>{const y=345+i*63;line(s,650,y,566);text(s,r[0],650,y+11,237,39,25,C.teal,true);text(s,r[1],903,y+11,313,39,25,C.sub);});
-    text(s,'모든 지식을 넣기보다, 상세 정보까지 가는 길을 안내한다',64,557,1152,37,29,C.ink,true);
+S41:make('S41','AGENTS.md에는 무엇을 남길까?','ACT 2 · 기본 안내와 작업별 상세',
+  '교육용 정보 배치 모델 · 보존된 문서의 요약 · 실제 자동 로딩 결과가 아님',
+  '상세 정보 접근·성능 향상·토큰 절약을 이 그림으로 검증하지 않음','TEACHING_MODEL',
+  (s,{C,text,rect})=>{
+    text(s,'여러 작업에 공통인가, 특정 작업의 상세인가?',64,184,1152,44,31,C.teal,true);
+    text(s,'항상 남길 기본 안내',64,250,510,36,28,C.teal,true);
+    text(s,'관련 작업에서 확인할 상세',674,250,542,36,28,C.ink,true);
+    rect(s,64,296,510,230,C.pale,C.teal,1.5);
+    text(s,'AGENTS.md',88,307,462,40,30,C.teal,true,'Consolas');
+    [['목적','로컬 흑백 이미지 처리 CLI',362,34],
+      ['제약','요청 밖의 기존 동작 보존',406,34],
+      ['안내','빌드·검증 시작점\n관련 상세 문서 위치',450,66]].forEach(([label,body,y,h])=>{
+      text(s,label,88,y,64,34,24,C.sub,true);
+      text(s,body,170,y,380,h,25,C.ink,true);
+    });
+    [['docs/architecture.md','구조 확인: 처리 순서 · 모듈 역할'],
+      ['docs/image-contracts.md','이미지 동작 확인: crop·resize 명세'],
+      ['docs/testing.md','검증 범위 확인: 관련 테스트 위치']].forEach(([file,detail],i)=>{
+      const y=296+i*80;
+      rect(s,674,y,542,70,C.white,C.line,1.5);
+      text(s,file,698,y+6,494,30,24,C.teal,true,'Consolas');
+      text(s,detail,698,y+38,494,30,25,C.ink);
+    });
+    text(s,'공통 안내는 AGENTS.md에, 작업별 세부사항은 연결된 문서에',64,535,1152,35,28,C.teal,true);
+    text(s,'C++: 빌드·검증 진입점 / 공통 제약 → 알고리즘 명세 / 하드웨어 조건',64,573,1152,27,23,C.sub);
   }),
 };

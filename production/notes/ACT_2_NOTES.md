@@ -1,6 +1,6 @@
 # ACT 2 — Speaker Notes
 
-Status: ALIGNED — DEC-0053 diagrams S40 task request, AGENTS.md guidance and relevant detail; DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 common guidance, task detail and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 S36, DEC-0047 S35 and DEC-0046 S34 remain preserved. Numbering: DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/S40_CONTEXT_PATH_REVISION.md. The prior addition validation remains historical. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0054 distinguishes S41 shared guidance from task-dependent details; DEC-0053 diagrams S40 task request, AGENTS.md guidance and relevant detail; DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 common guidance, task detail and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 S36, DEC-0047 S35 and DEC-0046 S34 remain preserved. Numbering: DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/S41_CORE_DETAIL_REVISION.md. The prior addition validation remains historical. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
 
 Historical alignment status: ALIGNED — DEC-0038의 82장 번호와 운영 지침을 정렬했다. 신규 제작본의 렌더·내장 Notes 대조는 production/evaluation/PROMPT_TIMELINE_REVISION.md에서 별도로 기록한다. 기존 81장판의 PASS를 승계하지 않는다. Windows, room, account, and timed rehearsal remain UNVERIFIED.
 
@@ -421,11 +421,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S40 또는 producti
 
 Validation Status: ALIGNED — DEC-0053의 요청/AGENTS.md 안내/상세 명세 도식과 S39→S40→S41 연결을 반영했다. 최종 렌더·Notes parity는 production/evaluation/S40_CONTEXT_PATH_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
 
-## S41 — Core Context에서 상세 정보로 가는 길
+## S41 — AGENTS.md에는 무엇을 남길까?
 
 Slide ID: S41
 
-Working Title: Core Context에서 상세 정보로 가는 길
+Working Title: AGENTS.md에는 무엇을 남길까?
 
 ACT / Section: ACT 2 / 2F
 
@@ -433,39 +433,38 @@ Allocated Time: 4 minutes
 
 Mode Split: Lecture 4 minutes
 
-Primary Message: Root/Core Context can be a starting point that points toward detail, rather than an encyclopedia of all Project knowledge.
+Primary Message: AGENTS.md에는 여러 작업에 공통인 목적·제약·진입 안내와 상세 문서 위치를 남긴다. 처리 순서·이미지 명세·관련 테스트 같은 세부사항은 관련 작업에서 연결된 문서로 확인하는 정보 배치 모델이다.
 
-Opening Question: “그 경로의 출발점인 Core에는 무엇을 남길까?”
+Opening Question: “앞 장의 AGENTS.md가 상세 문서 위치를 안내했습니다. 그 출발점에는 무엇을 남기고, 무엇을 상세 문서로 나눠둘까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 앞 장에서 본 탐색 경로의 출발점에 초점을 맞춘다. 왼쪽 기본 안내에 남길 목적, 상시 제약, 상세 정보 위치를 읽는 순서대로 가리킨다.
-2. (1:00–2:30) 오른쪽 architecture, image contracts, testing으로 이어지는 관계를 설명한다. 화살표는 교육용 정보 설계 관계다.
-3. (2:30–4:00) C++에서는 build/test 진입점과 기본 제약에서 해당 알고리즘 계약·하드웨어 조건으로 안내할 수 있음을 짧게 연결한다. Routing 성능 효과는 주장하지 않는다.
+1. (0:00–0:30) S40의 crop 요청→AGENTS.md 안내→상세 명세 경로를 회수한다. 이번 장은 경로를 다시 따라가는 장이 아니라 출발점과 상세 문서에 놓을 정보의 범위를 정하는 장이라고 설명한다.
+2. (0:30–1:30) 왼쪽 AGENTS.md를 짚는다. 목적은 로컬 흑백 이미지 처리 CLI, 공통 제약은 요청 밖의 기존 동작 보존, 안내는 빌드·검증 시작점과 관련 상세 문서 위치다. ‘항상 남길’은 공통 안내에 유지할 정보의 범위를 뜻하며 제품이 매 turn 강제로 읽는다는 뜻이 아니다. 화면은 전체 지침 원문이 아닌 요약이다.
+3. (1:30–3:00) 오른쪽 상세 문서 묶음을 위에서부터 짚는다. 구조를 확인할 때 처리 순서·모듈 역할, 이미지 동작을 확인할 때 crop·resize 명세, 검증 범위를 정할 때 관련 테스트 위치를 본다. 모두 모든 작업에서 읽어야 하는 목록으로 설명하지 않는다. 왼쪽의 위치 안내와 오른쪽의 자세한 규칙은 역할이 다르다.
+4. (3:00–4:00) C++에서도 빌드·검증 진입점과 공통 제약은 기본 안내에, 알고리즘 명세·하드웨어 조건은 필요한 상세로 둘 수 있다는 패턴을 짧게 연결한다. 구체적 CMake/IDE/shell 명령이나 실제 C++ 실행 결과는 추가하지 않는다. 다음 장에서 Demo Repository의 실제 문서 분리 전후를 본다고 넘긴다.
 
-화면 진행: Core의 세 항목을 먼저 읽고 필요한 상세의 세 행으로 이동한다. S40의 탐색 경로를 반복 설명하기보다 항상 읽을 기본 안내와 필요할 때 찾을 상세의 경계를 확인한다.
+Evidence / Source: TEACHING_MODEL / CONCEPTUAL. BEAT-014, CLM-0003/0005/0014/0015, DEC-0054. Historical Demo STATE-03 at f3e2e37b1454e28c5de4c44682ebd49378ebae4b의 AGENTS.md3–20은 목적·로컬 파일·기존 동작 보존·README/검증 진입 안내·주제별 문서 위치를 기록한다. docs/architecture.md는 처리 순서·모듈 역할, docs/image-contracts.md는 crop/resize 명세, docs/testing.md는 테스트 위치·검증 범위를 담는다. 파일명과 내용의 예는 이 보존 기록에 근거한 요약이며 전체 지침의 재현이나 제품 실행 결과가 아니다. 실제 STATE-03 구조 변화와 TRIAL-005A/B 접근 관찰은 S42 이후에 구분한다.
 
-Evidence / Source: BEAT-014, CLM-0003, CLM-0005, CLM-0014, CLM-0015. TEACHING_MODEL / CONCEPTUAL; describe STATE-03 structure in S42.
+Claim Boundary: 공통 안내와 작업별 상세를 나눈 교육용 배치 기준이다. 매 turn 자동 재읽기, 필요한 문서만 자동 로딩, 같은 탐색 순서, 항상 올바른 선택·지침 준수·AGENTS.md 단독 인과성을 보장하지 않는다. Routing 품질·토큰 절약·성능 향상은 별도 검증 문제다. 전체 테스트 지침도 모든 작업에서 무조건 같은 검사를 실행해야 한다는 보편 규칙으로 확대하지 않는다. 현재 Codex Desktop/계정 동작이나 회사 정책으로 일반화하지 않는다.
 
-Claim Boundary: The model does not demonstrate better retrieval or lower cost. No automatic product behavior is claimed.
+Beginner Explanation: 여러 작업에서 공통으로 필요한 안내와 그 작업을 해결할 때 자세히 볼 규칙을 나눠둔다. AGENTS.md에는 상세 문서의 위치도 남겨 어디서 확인할지 알 수 있게 한다.
 
-Beginner Explanation: Keep a small starting page and put specialized details in topic pages that it points to.
+Advanced Insight: 정보의 Scope와 필요한 시점, 공통 안내의 안정성, 상세의 발견성·유지 비용을 함께 설계한다. 파일 크기나 문서 분리 자체는 검색 성능의 근거가 아니며 재사용 절차와 정보 배치도 같은 책임으로 섞지 않는다.
 
-Advanced Insight: Choose core facts for cross-task stability and details for a narrower task scope; routing quality remains an empirical question.
+C++ Vision Bridge: 기본 안내의 빌드·검증 진입점/공통 제약과 관련 상세의 알고리즘 명세/하드웨어 조건을 비교한다. 통합1분 범위이며 도구 목록·구체적 환경 명령·C++ 실행 검증을 추가하지 않는다.
 
-C++ Vision Bridge: Core: build/test entry and Project constraints. Detail: algorithm contract and hardware assumptions. Keep it to this scope example.
+Demo Operation: N/A. 이 장은 native 정보 배치 모델이다. 실제 문서 분리 전후는 S42, 문서 접근의 관찰과 한계는 S43–45에 남긴다.
 
-Demo Operation: N/A — the observed repository structure follows on S42.
-
-Audience Interaction: Ask what belongs in the core; do not solicit a complete taxonomy.
+Audience Interaction: 상단 질문으로 공통 안내와 특정 작업의 상세를 비교하게 한다. 완전한 분류표를 만들게 하거나 실습·별도 토론 시간을 추가하지 않는다.
 
 Transition: “Demo Repository에서는 이 Mental Model이 어떻게 반영됐을까?”
 
-Time Management: Four minutes; keep the C++ bridge to one integrated minute and avoid listing CMake/hardware items.
+Time Management: 도입30초, 기본 안내60초, 관련 상세90초, C++ 연결과 Transition60초로4분을 유지한다. 시간이 부족하면 상세 예의 반복 설명을 줄이고 기본 안내/상세 범위와 자동 로딩 미보장 경계를 남긴다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S41 또는 `production/preview/act2/S41.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S41 또는 production/preview/act2/S41.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S41_CORE_DETAIL_REVISION.md와 검증 JSON을 따른다. 실제 실행 Screenshot이나 자동 로딩 기록으로 표현하지 않는다.
 
-Validation Status: REVIEWED — DEC-0030에서 승인한 화면 강조와 운영 Cue를 정렬했다. 최종 PPT/Notes/PNG 대조와 렌더 검토 결과는 production/evaluation/FULL_DECK_PRESENTATION_POLISH.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 제품·계정, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0054의 AGENTS.md 기본 안내/작업별 상세 도식과 S40→S41→S42 연결을 반영했다. 최종 렌더·Notes parity는 production/evaluation/S41_CORE_DETAIL_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S42 — 정보를 지우지 않고 위치를 나누기
 

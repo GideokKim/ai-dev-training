@@ -67,6 +67,12 @@ while labeling the request and path as a teaching reconstruction rather than
 observed read order or automatic routing success. Rebuild Full/ACT2 only;
 preserve the other89 slides, S40 Lecture3 and all per-slide budgets.
 
+DEC-0054 updates S41 in `polish-early.mjs` with a shared-guidance document
+and three task-dependent detail documents. Clarify the visible title while
+retaining the teaching role, T03-B and Lecture4. "Always keep" describes the
+placement of core guidance, not a per-turn automatic-read guarantee. Rebuild
+Full/ACT2 only; preserve the other89 slides and all per-slide budgets.
+
 ## Historical implementation notes
 
 # Presentation revision source
