@@ -1,6 +1,6 @@
 # Legacy Module Connection Map
 
-Current table: DEC-0060 /93slide IDs. Module links identify the stated material/principle, not complete module transfer. Prior counts/text below are historical; this table matches current legacy-module-map.json.
+Current table: DEC-0060 /93slide IDs; ACT3 roles aligned by DEC-0062. Module links identify the stated material/principle, not complete module transfer. Prior counts/text below are historical; this table matches current legacy-module-map.json.
 
 
 ## 표시의 의미
@@ -110,24 +110,24 @@ M 연계는 현재 화면에서 직접 가르치는 원모듈의 개별 내용 �
 | S47 | M 연계 · 신규 확장 | new_extension | Task별 상세 문서 접근과 변동을 비교한다. Routing 관찰이며 원자료의 학습·생산성·프롬프트 기법 효과 비교가 아니다. |
 | S48 | M 연계 · M2 · M8 | principle | 기록·지침 활용·문서 재구성·접근 관찰의 성과와 남은 책임을 회수한다. 원모듈 전체 이수나 새 성과 검증을 뜻하지 않는다. |
 | S49 | M 연계 · M2 · M8 | principle | 공통 사실의 재사용 뒤에도 반복되는 조사·측정·검증 절차가 남는다는 문제를 제시한다. 템플릿·반복 절차 재사용 원리와 연결한다. |
-| S50 | M 연계 · M2 · M5 · M8 | principle | 서로 다른 성능 Task에 baseline·조사·계획·변경·test/benchmark·review 절차가 반복됨을 보여준다. 기법 비교나 조직 생산성 측정은 아니다. |
-| S51 | M 연계 · M2 · M8 | principle | 재사용할 프로젝트 사실과 반복 작업 절차의 책임을 구분한다. 공통 환경과 반복 업무를 유지하는 원리만 연결한다. |
-| S52 | M 연계 · M2 · M8 | principle | 한 성능 조사 목표에 Task 의도·프로젝트 제약·재사용 절차를 구별해 적용한다. 업무 자동화 분류표 전체는 아니다. |
-| S53 | M 연계 · M2 · M8 | principle | 반복 조사·검증 절차를 재사용 가능한 Repository Skill에 두는 선택을 제시한다. 템플릿·반복 절차 재사용 원리이며 CI/CD 구현은 아니다. |
-| S54 | M 연계 · 신규 확장 | new_extension | 과거 Codex CLI에서 Repository Skill을 발견하고 명시적으로 호출한 경로를 보여준다. 원자료의 IDE 설치나 prompting 방법으로 환산하지 않는다. |
-| S55 | M 연계 · M2 · M8 | principle | 목표·작업별 제약은 요청에 남기고 반복 절차의 유지 위치를 Repository로 옮긴다. 재사용 원리를 확장한 관찰이다. |
-| S56 | M 연계 · M2 · M5 | principle | 반복 절차는 재사용하면서 알고리즘·측정값·trade-off는 이번 근거로 결정한다. 재현 가능한 baseline과 no-change 판단 원리를 설명한다. |
-| S57 | M 연계 · M2 · M5 · M9 | principle | 두 구현 후보를 정확성·실행 시간·Python 할당량으로 비교해 선택한다. 후보 비교와 근거 기반 판단 원리이며 ToT·시스템 3대안·TCO 교육은 아니다. |
-| S58 | M 연계 · M5 | direct | 동일 입력과 상태별 반복 측정·테스트·guard로 코드 변경의 시간·할당량 결과를 확인한다. 개발자 생산성 지표인 M8과 구분한다. |
-| S59 | M 연계 · 신규 확장 | new_extension | 연결된 현재 작업에서 별도 Subagent를 정당화할 독립성·병렬 이득·통합 비용을 검토한다. 원자료의 제품 스레드 설계나 시스템 대안 비교가 아니다. |
-| S60 | M 연계 · M2 | principle | 독립 조사를 나누기 전에 결과 형식·전달 지점·합칠 책임을 정한다. 출력 형식 지정의 원리만 연결하며 일반 JSON/XML structured output 기법은 아니다. |
-| S61 | M 연계 · 신규 확장 | new_extension | 기존 출처와 별도 Memory 후보를 구분하며 이번 Demo에 추가 Memory를 두지 않은 이유를 점검한다. 학습·온보딩 방법은 아니다. |
-| S62 | M 연계 · 신규 확장 | new_extension | 재발견 비용·재사용성·출처·갱신 조건으로 Memory 필요성을 판단한다. 외부 리서치나 R&D 결정의 재평가 방법으로 확대하지 않는다. |
-| S63 | M 연계 · 신규 확장 | new_extension | 현재 문제에 실제로 필요했던 Task·Context·Workflow·Verification 구성을 Minimum Effective Harness로 결산한다. 원자료에 없는 Agent 작업 환경 설계 모델이다. |
-| S64 | M 연계 · 신규 확장 | new_extension | Harness를 개발자와 Agent의 작업 환경 설계로 정의한다. 제품 시스템 아키텍처와 별도인 현행 운영 모델이다. |
-| S65 | M 연계 · M2 · M6 | principle | Repository 밖의 지침·실행 환경·도구·권한 조건도 작업 결과 해석에 기록한다. 실행 맥락과 환경 조건을 확인하는 원리만 연결한다. |
-| S66 | M 연계 · M5 · M6 | principle | 입력·계약·빌드/하드웨어 가정, profile, 동작·회귀·통합 검증의 패턴을 C++ Vision 업무로 옮긴다. 특정 도구 작성법이나 실제 C++ 실행 근거는 아니다. |
-| S67 | M 연계 · M2 · M8 | principle | 반복되는 사실과 절차를 찾아 현재 필요한 구조를 묻는다. 반복 비용을 줄일 투자 지점의 성찰이며 정량 자동화 우선순위표는 아니다. |
+| S50 | M 연계 · M2 · M5 · M8 | principle | 서로 다른 성능 Task에 baseline·조사·계획·변경·test/benchmark·review 절차가 반복됨을 보여준다. 기법 비교나 조직 생산성 측정은 아니다. DEC-0062: ACT2의 남은 질문을 보존된 실제 두 요청으로 확인하고 작업 방법·환경 설계라는 방향을 안내한다. |
+| S51 | M 연계 · M2 · M8 | principle | 재사용할 프로젝트 사실과 반복 작업 절차의 책임을 구분한다. 공통 환경과 반복 업무를 유지하는 원리만 연결한다. DEC-0062: 명령·규칙 안내와 다단계 작업 방법의 유지 책임을 구분한다. |
+| S52 | M 연계 · M2 · M8 | principle | 한 성능 조사 목표에 Task 의도·프로젝트 제약·재사용 절차를 구별해 적용한다. 업무 자동화 분류표 전체는 아니다. DEC-0062: 세 책임을 실제로 소개된 한 Task에 적용해 다음 Skill 선택으로 연결한다. |
+| S53 | M 연계 · M2 · M8 | principle | 반복 조사·검증 절차를 재사용 가능한 Repository Skill에 두는 선택을 제시한다. 템플릿·반복 절차 재사용 원리이며 CI/CD 구현은 아니다. DEC-0062: Skill 호출 문법보다 절차의 유지 위치를 선택한 DEC-0017의 의도를 보여준다. |
+| S54 | M 연계 · 신규 확장 | new_extension | 과거 Codex CLI에서 Repository Skill을 발견하고 명시적으로 호출한 경로를 보여준다. 원자료의 IDE 설치나 prompting 방법으로 환산하지 않는다. DEC-0062: 새 작업의 업무 목적을 소개하고 발견·명시 호출·본문 포함이라는 서로 다른 관찰을 구분한다. |
+| S55 | M 연계 · M2 · M8 | principle | 목표·작업별 제약은 요청에 남기고 반복 절차의 유지 위치를 Repository로 옮긴다. 재사용 원리를 확장한 관찰이다. DEC-0062: 추상적인 위치 이동을 실제 문서 발췌와 관찰 요약으로 구체화한다. |
+| S56 | M 연계 · M2 · M5 | principle | 반복 절차는 재사용하면서 알고리즘·측정값·trade-off는 이번 근거로 결정한다. 재현 가능한 baseline과 no-change 판단 원리를 설명한다. DEC-0062: 재사용한 방법이 특정 최적화 답을 공급한다는 오해를 막고 후보 선택으로 연결한다. |
+| S57 | M 연계 · M2 · M5 · M9 | principle | 두 구현 후보를 정확성·실행 시간·Python 할당량으로 비교해 선택한다. 후보 비교와 근거 기반 판단 원리이며 ToT·시스템 3대안·TCO 교육은 아니다. DEC-0062: 최적화 기법 강의 대신 근거에 따른 후보 선택을 보여준다. |
+| S58 | M 연계 · M5 | direct | 동일 입력과 상태별 반복 측정·테스트·guard로 코드 변경의 시간·할당량 결과를 확인한다. 개발자 생산성 지표인 M8과 구분한다. DEC-0062: 재사용 절차 사례의 결과를 동작 확인과 동일 조건 측정으로 회수한다. |
+| S59 | M 연계 · M2 | principle | 독립 조사를 나누기 전에 결과 형식·전달 지점·합칠 책임을 정한다. 출력 형식 지정의 원리만 연결하며 일반 JSON/XML structured output 기법은 아니다. DEC-0062: Subagent가 해결할 문제와 활용 관계를 현재 사례의 보류 결론보다 먼저 설명한다. |
+| S60 | M 연계 · 신규 확장 | new_extension | 연결된 현재 작업에서 별도 Subagent를 정당화할 독립성·병렬 이득·통합 비용을 검토한다. 원자료의 제품 스레드 설계나 시스템 대안 비교가 아니다. DEC-0062: 앞 장의 역할 분리 기준을 현재 사례에 적용해 선택 이유를 회수한다. |
+| S61 | M 연계 · 신규 확장 | new_extension | 작업 간 재사용·출처·범위·갱신 조건의 명시적 교육용 가정이다. 실제 Memory 활용·학습·온보딩 사례는 아니다. |
+| S62 | M 연계 · 신규 확장 | new_extension | 기존 출처와 별도 Memory 후보를 구분하며 이번 Demo에 추가 Memory를 두지 않은 이유를 점검한다. 학습·온보딩 방법은 아니다. DEC-0062: Memory 기준과 현재 지식 감사의 실제 결론을 한 장에서 회수한다. 기존 네 기준(재발견 비용·재사용성·출처·갱신 조건)을 함께 유지한다. |
+| S63 | M 연계 · 신규 확장 | new_extension | 현재 문제에 실제로 필요했던 Task·Context·Workflow·Verification 구성을 Minimum Effective Harness로 결산한다. 원자료에 없는 Agent 작업 환경 설계 모델이다. DEC-0062: 이 사례의 구체적인 구성과 사용 이유를 회수한다. |
+| S64 | M 연계 · 신규 확장 | new_extension | Harness를 개발자와 Agent의 작업 환경 설계로 정의한다. 제품 시스템 아키텍처와 별도인 현행 운영 모델이다. DEC-0062: 앞 장의 실제 구성 목록을 전체 작업 관계로 묶어 Harness 정의를 완성한다. |
+| S65 | M 연계 · M2 · M6 | principle | Repository 밖의 지침·실행 환경·도구·권한 조건도 작업 결과 해석에 기록한다. 실행 맥락과 환경 조건을 확인하는 원리만 연결한다. DEC-0062: 제품 기능 목록을 강의하지 않고 실행 조건을 기록해야 하는 이유를 제한된 Meta 관찰로 예고한다. |
+| S66 | M 연계 · M5 · M6 | principle | 입력·계약·빌드/하드웨어 가정, profile, 동작·회귀·통합 검증의 패턴을 C++ Vision 업무로 옮긴다. 특정 도구 작성법이나 실제 C++ 실행 근거는 아니다. DEC-0062: 앞의 구체적인 판단을 승인된 제조 검사 파이프라인 삽화와 연결한다. |
+| S67 | M 연계 · M2 · M8 | principle | 반복되는 사실과 절차를 찾아 현재 필요한 구조를 묻는다. 반복 비용을 줄일 투자 지점의 성찰이며 정량 자동화 우선순위표는 아니다. DEC-0062: 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다. |
 | S68 | M 연계 · M5 · M6 | direct | 동작 계약·전체 테스트·성능 측정·guard로 확인한 제품 결과를 회수한다. 코드 변경을 검증 근거로 수용하는 원리를 명시한다. |
 | S69 | M 연계 · M6 | principle | 현재 프로젝트 검증 기준과 재사용 지시가 모두 단위 테스트인 가상 출발점을 둔다. 테스트 코드 작성이나 도구 사용 교육은 아니다. |
 | S70 | M 연계 · M6 | direct | 단위 테스트는 각 모듈, 통합 테스트는 모듈 연결까지 본다는 검증 범위 차이를 가상 사례로 직접 설명한다. E2E 전체 분류는 포함하지 않는다. |

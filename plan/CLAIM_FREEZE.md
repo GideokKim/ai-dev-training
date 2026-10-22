@@ -382,3 +382,28 @@ variation and the difference from current end-to-end Agent work. No routing
 superiority, token saving, performance gain or current-product guarantee.
 S39 covers only its Lost in the Middle task; S41 stays navigation design.
 All existing time/Mode, Slide/Beat/State/Trial IDs and effect limits remain.
+
+## DEC-0062 — ACT3 procedure evidence and conditional decisions
+
+93slides/379minutes and every per-slide budget/ID remain. S50 keeps the
+retained TRIAL-006/007 request comparison and PARTIAL Prompt-only attribution.
+S54 keeps CLI0.154.0 discovery, explicit invocation and trace-body inclusion
+as separate observations; there was no separate UI load event. S55 pairs
+actual Skill excerpts with existing TRIAL-008 observation summaries, not raw
+logs or causal proof. Preserve visible-plan conditions and same-input/check
+conditions in Notes. S57 remains qualitative candidate evidence; S58 retains
+the separate STATE-04→STATE-04-PERF measurements and Python-allocation/RSS limit.
+
+S59 and S61 are explicitly CONCEPTUAL / TEACHING_MODEL. The former reuses the
+existing hypothetical C++ independent investigations; the latter illustrates
+knowledge retention across tasks without inventing a rediscovery or Memory
+run. S60 and S62 preserve the existing DEC-0018 task/source audits as
+OBSERVED_PRODUCT / TEACHING_MODEL, not Subagent/Memory execution evidence.
+Same-project next-task reuse can justify considering knowledge retention;
+cross-project reuse is not required. No selected Memory candidate is asserted.
+
+S63 is the actual configuration recap, S64 the course operational model,
+S65 a bounded external-environment Meta preview, S66 a conceptual C++ transfer
+and S67 the transition to a separately marked future conceptual scenario.
+No Skill superiority, token saving, independent Harness performance effect,
+current Desktop guarantee, observed Subagent benefit or automatic Memory claim.

@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일:2026-10-22 (Asia/Seoul). 현재93장·379분/DEC-0060, 최신 내용 수정 DEC-0061. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
+갱신 기준일:2026-10-22 (Asia/Seoul). 현재93장·379분/DEC-0060, 최신 내용 수정 DEC-0062. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,13 +9,13 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `53fb1b90761091f0c1e95d7aba618e2369624143344d1e8282e635a8b6f3596e`
+- PPTX SHA-256: `2972501210280edd7fbf96b0cfbfd8ad1999e162c9fff391bb72084903b16b8b`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `8d0dcfb148f4f46ebdf88178fda1eb3bf25aa5a07d11f20062739e03a62dd2ca`
+- Notes SHA-256: `17bd9a730b4cdeeddf0691296ba10865320b05f1647ffee3d07139339c1b7dec`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S93.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-위 PPTX·Notes hash는 DEC-0061의 현재93장 파일 식별자다. [S40 코드 탐색 확인·로컬 검사](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
+위 PPTX·Notes hash는 DEC-0062의 현재93장 파일 식별자다. [ACT3 흐름·로컬 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
 
 이전 DEC-0033–0035의 80장 렌더·구조·Notes 검토는 해당 평가 문서와 Git history의 역사적 근거다. 이전 ZIP은 payload 362개·entry 363개였으며 당시 CRC·hash·내부 링크·Notes 정합성을 확인했다. 이번에는 묶음을 갱신하지 않는다. M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아니다. 2순위 보강은 보류한다.
 
@@ -79,6 +79,10 @@ S79→S80, S85→S86, S92→S93을 점검한다.
 ____________________________________________________________________
 
 ## 2. 운영 경로와 선택적 제품·계정 확인 — UNVERIFIED
+
+- [ ] S54의 발견/명시 호출/본문 포함과 S55의 실제 지침/관찰 요약을 구분하고 모든 지침 준수·단독 인과성으로 확대하지 않았다.
+- [ ] S59/S61은 명시적 가정이고 S60/S62는 현재 사례의 선택이며 실제 Subagent·Memory 실행을 보여주지 않음을 확인했다.
+- [ ] S63 실제 구성→S64 전체 모델→S65 외부 조건→S66 C++ 전이→S67 유지 책임→S68 실제 성공 회수의 흐름이 자연스럽다.
 
 - [ ] S22–S29는 공식 권고를 각색한 교육용 요청 예시로 설명하고 실제 TRIAL-002 실행·정확도·토큰·시간 향상의 측정 성과로 표현하지 않았다.
 - [ ] S34의 실제 요청과 창 밖 주석을 구분하고, 테스트 명령이 없었다는 설명을 검증 금지 지시로 읽지 않았다. 관찰된 테스트 지침 사용과 강제 준수 보장·단독 인과효과를 구분했다.

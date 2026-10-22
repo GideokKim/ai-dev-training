@@ -1,5 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
+Latest content refinement: DEC-0062 / `plan/ACT3_FLOW_REVISION.md`.
+`act3-continuity.mjs` applies after ACT2 continuity to refine S50–S67 in place.
+Keep93/379, all per-slide budgets and the other75 slides. Preserve image assets
+and the S58 native chart; S55 adds a native instruction/observation table.
+Rebuild Full and ACT3 with `--release --release-acts=3`, using the existing
+bundled runtime/private workdir and reference-font workflow below.
+
 Current authority: plan/SLIDE_MAP.md and plan/ACT2_FLOW_REVISION.md.
 act2-continuity.mjs supplies bounded ACT2 role refinements and ACT3 opening.
 Existing factories are migrated once per SLIDE_ID_MIGRATION_93.md; captured

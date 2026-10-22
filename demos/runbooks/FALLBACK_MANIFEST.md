@@ -1,17 +1,17 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0061 local static-file inventory only (2026-10-22).
+Status: READY — DEC-0062 local static-file inventory only (2026-10-22).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `53fb1b90761091f0c1e95d7aba618e2369624143344d1e8282e635a8b6f3596e`
-- Full Notes SHA-256: `8d0dcfb148f4f46ebdf88178fda1eb3bf25aa5a07d11f20062739e03a62dd2ca`
-- Full montage SHA-256: `c9bf025d58c41f721f08bddf3a73e59266b06ae4700fe7a3a4b009e6f57c40cd`
+- Source SHA-256: `2972501210280edd7fbf96b0cfbfd8ad1999e162c9fff391bb72084903b16b8b`
+- Full Notes SHA-256: `17bd9a730b4cdeeddf0691296ba10865320b05f1647ffee3d07139339c1b7dec`
+- Full montage SHA-256: `8524c607a90fd91db05b0bf4e2452ff8582db833a039eb48e617fd7f10d7034e`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
-- Current Full inventory:93slides; current static fallback PNG inventory:31.
+- Current Full inventory:93slides; current static fallback PNG inventory:32.
 - The prior29 fallback pages are migrated by SLIDE_ID_MIGRATION_93.md;
   S45 and S46 add available case-summary alternatives. They add no Demo time.
 - DEMO-06 remains5Demo minutes (S37:2/S43:2/S47:1); S45/46 have separate
@@ -19,8 +19,9 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 - Rendered slide summaries are not raw Trial screenshots or new executions.
 - Prior static readiness, hashes and29-file inventories remain in Git and
   their dated evaluation reports. No presenter bundle is regenerated.
-- DEC-0061 changes S40 and adjacent Notes; all31 fallback PNGs stay unchanged.
-  Current package review: [S40 code evidence](../../production/evaluation/S40_CODE_EVIDENCE_REVISION.md).
+- DEC-0062 updates ACT3 summaries; S62 adds the preserved knowledge-source
+  audit beside the S61 hypothesis. This adds no Demo minutes or new execution.
+  Current package review: [ACT3 flow](../../production/evaluation/ACT_3_FLOW_REVISION.md).
 
 ## Runbook to fallback mapping
 
@@ -32,7 +33,7 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 - `DEMO-05`: `production/preview/full/S18.png`, `production/preview/full/S19.png`
 - `DEMO-06`: `production/preview/full/S37.png`, `production/preview/full/S43.png`, `production/preview/full/S45.png`, `production/preview/full/S46.png`, `production/preview/full/S47.png`
 - `DEMO-07`: `production/preview/full/S59.png`, `production/preview/full/S60.png`
-- `DEMO-08`: `production/preview/full/S61.png`
+- `DEMO-08`: `production/preview/full/S61.png`, `production/preview/full/S62.png`
 - `DEMO-09`: `production/preview/full/S63.png`, `production/preview/full/S64.png`
 - `DEMO-10`: `production/preview/full/S77.png`
 - `DEMO-11`: `production/preview/full/S72.png`, `production/preview/full/S73.png`
@@ -56,13 +57,14 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 | S45 | `production/preview/full/S45.png` |1920×1080| `0a2ead861431b9e95c90fba0e59a3061b4844dee433c00f7668496eabe47fba2` |
 | S46 | `production/preview/full/S46.png` |1920×1080| `6f8a1fa302b4239fd7f078cd3559eafefa3b48cf84599b158244e893452b113a` |
 | S47 | `production/preview/full/S47.png` |1920×1080| `bbf43ab3e8279fa8df136e6393dbd434650df6689af065c16d372424a45490ee` |
-| S54 | `production/preview/full/S54.png` |1920×1080| `6dc4634074d099415a7d1ec03852461c935b802cb101a0e2cd1222496b1f95d4` |
-| S55 | `production/preview/full/S55.png` |1920×1080| `fad2b84fa6ae647c6d4d119fb58a6b827d1d20310f828c1016037dc565ae4a58` |
-| S59 | `production/preview/full/S59.png` |1920×1080| `d77ffeecc493c06b662bdd9d2665fd49275d5049675da402cce19ce72604bc7b` |
-| S60 | `production/preview/full/S60.png` |1920×1080| `2d6ff3b0f0d648b4ee66d6dcb45e61954913c8e42355f5fb4c948864528a7dd1` |
-| S61 | `production/preview/full/S61.png` |1920×1080| `6d85be5a632efd27894802ad498bab9c8da581eec852f7eef340fc9c175df8cc` |
-| S63 | `production/preview/full/S63.png` |1920×1080| `80fdfadc3da2c9f2a6e469cc933b7bb2536ee6c29c54b0d59b3aebcc5ef5b7c6` |
-| S64 | `production/preview/full/S64.png` |1920×1080| `a1c86a990b54acc09af38f4becdba89ec76df7da7658ad296285e90f00cab147` |
+| S54 | `production/preview/full/S54.png` |1920×1080| `2ac593aec3ae0eb591f00e41ee27a2e0b8c4a151553c0a55ecd5c31fc49b0564` |
+| S55 | `production/preview/full/S55.png` |1920×1080| `020e63445249348ed5bc6464395782dc9dd212801685ec82ce4b6fc5d12e4830` |
+| S59 | `production/preview/full/S59.png` |1920×1080| `7526870ecd3a353e2055cca513018455c4f895a8cd57efae6474ac18ed564709` |
+| S60 | `production/preview/full/S60.png` |1920×1080| `154bebd277f13f2db29a0576ea62025cd915c4262e0cfcc0e4040fc8891ed02e` |
+| S61 | `production/preview/full/S61.png` |1920×1080| `22c476f9e258b88d061ead15304037fc8e39f9ed1d7b6feee406d1eb2e661c3f` |
+| S62 | `production/preview/full/S62.png` |1920×1080| `3b145b494c52cdb9db04d2986b33190b6cb3b29c1ead4f166084d019692b02ae` |
+| S63 | `production/preview/full/S63.png` |1920×1080| `59bfe9e4ac3f1ce0eee67bd56258e082ba577744001cf15271c1d7a48c310fac` |
+| S64 | `production/preview/full/S64.png` |1920×1080| `02d751f088026d38c5ab45a44286857f396e83c72466ae0f9386bdaf08be4d06` |
 | S69 | `production/preview/full/S69.png` |1920×1080| `f83e50d7df3c3bbfc75cf8409b4cc4de064721ba3cd38e75a9d9c36b3d5909f1` |
 | S70 | `production/preview/full/S70.png` |1920×1080| `ce50c262dd01173328c361aabe1276644190e1e101aef45c6847a25b2cc784e7` |
 | S72 | `production/preview/full/S72.png` |1920×1080| `8814f3636865cbff90a283ada272fc5db2f357a7479ad4362a36d495c264a081` |

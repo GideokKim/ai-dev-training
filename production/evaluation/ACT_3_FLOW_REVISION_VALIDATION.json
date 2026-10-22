@@ -1,0 +1,156 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-22",
+  "baseline": "c1f0d29",
+  "decision": "DEC-0062",
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act3SlideCount": 18,
+  "act3Minutes": 85,
+  "changedVisualSlides": [
+    "S50",
+    "S51",
+    "S52",
+    "S53",
+    "S54",
+    "S55",
+    "S56",
+    "S57",
+    "S58",
+    "S59",
+    "S60",
+    "S61",
+    "S62",
+    "S63",
+    "S64",
+    "S65",
+    "S66",
+    "S67"
+  ],
+  "changedNotes": [
+    "S50",
+    "S51",
+    "S52",
+    "S53",
+    "S54",
+    "S55",
+    "S56",
+    "S57",
+    "S58",
+    "S59",
+    "S60",
+    "S61",
+    "S62",
+    "S63",
+    "S64",
+    "S65",
+    "S66",
+    "S67"
+  ],
+  "unchangedOtherVisualPNGs": 75,
+  "unchangedOtherNotesRecords": 75,
+  "fieldsPerNotes": 19,
+  "notesRecords": 93,
+  "renderedPNGs": 111,
+  "fullAct3PNGParity": 18,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "nativeChart": "S58",
+  "nativeChartDataUnchanged": true,
+  "nativeTables": [
+    "S47",
+    "S55"
+  ],
+  "templates": 11,
+  "variants": 27,
+  "conceptualBeforeCurrentDecision": {
+    "Subagent": [
+      "S59",
+      "S60"
+    ],
+    "Memory": [
+      "S61",
+      "S62"
+    ]
+  },
+  "skillSource": "STATE-04:.agents/skills/graypipe-performance/SKILL.md",
+  "newTrial": false,
+  "newProductTest": false,
+  "newAgentTrace": false,
+  "demoRepositoryUnchanged": true,
+  "otherACTPackagesUnchanged": true,
+  "approvedImageFilesUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "2972501210280edd7fbf96b0cfbfd8ad1999e162c9fff391bb72084903b16b8b"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "2230f1d1b56482ef069f72d8ac9f26df1061bdc45f1a556f0fc9d190a4a97430"
+    }
+  ],
+  "fullNotesSha256": "17bd9a730b4cdeeddf0691296ba10865320b05f1647ffee3d07139339c1b7dec",
+  "fullMontageSha256": "8524c607a90fd91db05b0bf4e2452ff8582db833a039eb48e617fd7f10d7034e",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "staticFallbackInventory": 32,
+  "staticFallbackHashesVerified": true,
+  "individualVisualReview": [
+    "S50",
+    "S51",
+    "S52",
+    "S53",
+    "S54",
+    "S55",
+    "S56",
+    "S57",
+    "S58",
+    "S59",
+    "S60",
+    "S61",
+    "S62",
+    "S63",
+    "S64",
+    "S65",
+    "S66",
+    "S67"
+  ],
+  "boundaryVisualReview": [
+    "S49→S50",
+    "S67→S68"
+  ],
+  "documentAudit": {
+    "status": "PASS",
+    "changedFiles": 74,
+    "introducedLocalLinksChecked": 40,
+    "fallbackPNGsChecked": 32,
+    "priorDecisionHistoryPreserved": true,
+    "historicalHandoffPreserved": true,
+    "priorSourceRecordsPreserved": true,
+    "legacyModuleCountsUnchanged": true,
+    "currentArtifactsAndHashesMatch": true,
+    "otherACTPackagesUnchanged": true,
+    "demoRepositoryUnchanged": true,
+    "sensitiveTemporaryFiles": false
+  }
+}

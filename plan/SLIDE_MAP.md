@@ -2,6 +2,8 @@
 
 > **현재 기준: DEC-0060 / 93장·379분 (2026-10-22).** ACT 2 전체 흐름 개선을 승인받아 연구 설명을 분리하고 의존성 답변/성과 회수3장을 보강했다. ACT 2는 S32–S49,18장·81분이다. 기존90장 내용과 각 장의 시간은 보존하며 신규 Lecture6/Case4/Reflection1분을 더한다. [90→93 번호·역할 대조](SLIDE_ID_MIGRATION_93.md). 사용자 허용 상한720분이며379분은 제작 기준, 리허설 실측은 UNVERIFIED다.
 
+> **최신 ACT3 내용 수정: DEC-0062.** S50–S67/18장·85분, 기존 장별 시간·Mode·ID를 유지한다. Skill 문서와 관찰 기록을 대응하고, S59/S61의 명시적 가정 뒤 S60/S62에서 현재 사례의 선택을 회수한다. [ACT3 흐름 설계](ACT3_FLOW_REVISION.md). 실제 Subagent·Memory 사용이나 새로운 효과 측정은 추가하지 않는다.
+
 > 상태: **COMPLETE WITH GAPS** — 승인된 93장 구조·시간·Mode를 통합했다. 대상 계정·제품 표면·구체적 Windows 환경의 확인은 CLAIM_FREEZE.md에 남은 범위대로 열어 둔다.
 >
 > 이 문서는 §§151–160의 지시에 따라 STEP 08 이후 공식 Slide Map의 Source of Truth다. 기존 10장 단위 결과는 Historical Working Draft로 보존하며, 이후 Slide 관련 산출물은 이 문서를 기준으로 한다. Map 내용 변경은 근거와 영향 범위를 DECISIONS.md에 기록한다.
@@ -1332,448 +1334,448 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **ACT:** ACT 3
 - **Section:** 3A Repeated Procedure
 - **Working Title:** 두 실제 요청에 같은 절차가 반복됐다
-- **Primary Role:** TRIAL-006/007에 반복된 관찰 절차를 보여준다.
-- **Audience Question:** “Task가 달라도 왜 같은 작업 방법을 계속 쓰고 있지?”
-- **Core Message:** `resize_nearest`와 `normalize`라는 서로 다른 Performance Task에 baseline, 조사, 계획, 변경, test, benchmark, 비교, review 절차가 반복됐다.
+- **Primary Role:** ACT2의 남은 질문을 보존된 실제 두 요청으로 확인하고 작업 방법·환경 설계라는 방향을 안내한다.
+- **Audience Question:** “목표가 달라도 왜 같은 작업 방법을 다시 요청할까?”
+- **Core Message:** 서로 다른 두 성능 요청의 조사·계획·변경·검증 지시가 반복됐다. ACT3에서는 이 방법과 실행·검증 환경을 유지하는 문제를 다룬다.
 - **Story Beat:** BEAT-018, BEAT-020
 - **Curriculum Trace:** ACT 3 — Context → Harness problem and bottom-up framing.; ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; PARTIAL attribution. 두 Trial의 절차 반복은 관찰됐지만 Prompt만의 효과로 귀속할 수 없다.
-- **Visual Concept:** 승인된 크기변경/정규화 삽화를 작은 목표 표시로 보존하고, TRIAL-006 실제 Prompt의 번역 발췌와 TRIAL-007 보존된 Task Prompt 요약을 별도로 표시한다. 같은 측정·조사/계획·최소 변경/테스트·동일 조건 비교·검토를 대응 행으로 비교한다.
+- **Visual Concept:** 기존 기능 삽화와 실제 요청 발췌/보존 요약의 세 행 대응을 유지한다. 상단에 Harness의 짧은 방향 안내만 추가하고 완성 구조는 후반에 둔다.
 - **Demo / Case Connection:** 각 Trial의 결과는 해당 코드·입력·환경에 한정한다. 성능 수치를 일반화하지 않는다.
 - **Beginner Payoff:** 작업 방법도 반복되는 요소가 될 수 있음을 본다.
 - **Advanced Payoff:** Task 목표와 재사용 가능한 절차의 경계를 찾는다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 앞 장의 일반 질문을 반복하지 않고 실제 retained record의 공통 지시를 대응시킨다. TRIAL-006은 원문 발췌 번역, TRIAL-007은 보존된 요청 요약이며 두 UI 캡처가 아니다. 반복 지시와 관찰된 실행을 Prompt 단독 인과성과 구분한다.
-- **Transition:** “테스트 명령을 알려주는 것과, 이 여러 단계를 유지하는 것은 어떤 책임 차이가 있을까요?”
+- **Speaker Intent:** ACT2의 남은 질문을 보존된 실제 두 요청으로 확인하고 작업 방법·환경 설계라는 방향을 안내한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “테스트 명령을 안내하는 것과 여러 단계의 판단을 유지하는 것은 어떤 책임 차이가 있을까요?”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
-- **Evidence / Decision References:** BEAT-018, BEAT-020, TRIAL-006, CLM-0006, CLM-0029, CLM-0030, TRIAL-007, DEC-0017, DEC-0060
+- **Evidence / Decision References:** BEAT-018, BEAT-020, TRIAL-006, CLM-0006, CLM-0029, CLM-0030, TRIAL-007, DEC-0017, DEC-0060, DEC-0062
 
 
-#### S51 — 테스트 명령과 작업 절차의 책임을 나눈다
+#### S51 — 테스트 명령과 수행 방법의 책임을 나눈다
 
 - **Slide ID:** S51
 - **ACT:** ACT 3
 - **Section:** 3A Repeated Procedure
-- **Working Title:** 테스트 명령과 작업 절차의 책임을 나눈다
-- **Primary Role:** 공통 검증 명령/규칙과 여러 단계의 수행 방법을 유지할 책임 차이를 설명한다.
-- **Audience Question:** “Agent가 알아야 할 것과 따라야 할 방법은 같은가?”
-- **Core Message:** Project 안내에는 테스트 명령과 검증 규칙도 들어갈 수 있다. Workflow 설계는 어떤 시점에 어떤 근거로 판단·중단·비교·보고할지를 재사용하고 유지하는 책임을 다룬다.
+- **Working Title:** 테스트 명령과 수행 방법의 책임을 나눈다
+- **Primary Role:** 명령·규칙 안내와 다단계 작업 방법의 유지 책임을 구분한다.
+- **Audience Question:** “명령을 알고 있어도 어떤 판단을 반복해서 정해야 할까?”
+- **Core Message:** 공통 안내는 명세·허용 범위·검증 시작점을 제공한다. 수행 방법은 언제 측정하고 어떤 근거로 변경·중단·비교·보고할지를 다룬다. AGENTS.md에도 절차를 둘 수 있다.
 - **Story Beat:** BEAT-019 — Knowledge and Process answer different questions
 - **Curriculum Trace:** ACT 3 — Context → Harness problem; repeated workflow.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL.
-- **Visual Concept:** 공통 안내의 테스트 진입점/범위·명세를 왼쪽에, 측정 시점·동일 조건·변경 중단·최종 보고 판단을 오른쪽에 대비한다. AGENTS.md에도 절차를 쓸 수 있다는 문장을 하단에 표시한다.
+- **Visual Concept:** 왼쪽 프로젝트 안내에서 오른쪽 판단 질문으로 연결하고 아래에 유지·검토 책임을 둔다. 파일 형식으로 분류하지 않는다.
 - **Demo / Case Connection:** TRIAL-006/007의 절차 반복을 연결하되, 새 제품 기능이나 해결책은 아직 공개하지 않는다.
 - **Beginner Payoff:** Task Prompt, Project Context, Procedure의 역할을 이해한다.
 - **Advanced Payoff:** 추가 Project 정보가 해결하지 못하는 workflow 문제를 구분한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** Context는 사실만이고 절차는 AGENTS.md에 쓰면 안 된다는 이분법을 제거한다. 파일 확장자가 아닌 책임과 유지 단위를 구분하는 교육용 모델이다. 다음 S52에서 normalize Task 하나에 세 책임을 적용한 뒤에만 Skill 후보로 간다.
-- **Transition:** “저장 위치보다 책임을 먼저 나눠 보겠습니다. normalize 성능 조사 하나에 적용하면 어떻게 될까요?”
+- **Speaker Intent:** 명령·규칙 안내와 다단계 작업 방법의 유지 책임을 구분한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “이 책임을 normalize 성능 조사 하나에 함께 적용해 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-019, TRIAL-006, CLM-0006, CLM-0029, DEC-0060
+- **Evidence / Decision References:** BEAT-019, TRIAL-006, CLM-0006, CLM-0029, DEC-0060, DEC-0062
 
 
-#### S52 — Task, Context, Workflow의 역할
+#### S52 — 한 성능 작업에 세 책임을 적용하면
 
 - **Slide ID:** S52
 - **ACT:** ACT 3
 - **Section:** 3B Context vs Workflow
-- **Working Title:** Task, Context, Workflow의 역할
-- **Primary Role:** 세 Layer의 책임을 한 화면에서 고정한다.
-- **Audience Question:** “현재 목표, Project 사실, 반복 절차는 어디에 속하는가?”
-- **Core Message:** Task Prompt는 현재 목표, Project Context는 사실과 제약, Reusable Workflow는 특정 종류의 작업을 수행하는 방법을 담는다.
+- **Working Title:** 한 성능 작업에 세 책임을 적용하면
+- **Primary Role:** 세 책임을 실제로 소개된 한 Task에 적용해 다음 Skill 선택으로 연결한다.
+- **Audience Question:** “normalize 요청에서 목표, 프로젝트 기준, 수행 방법은 각각 무엇일까?”
+- **Core Message:** normalize 성능 조사라는 한 Task에서 현재 목표·허용 범위, 보존할 이미지 동작·공개 명세, 다시 쓸 측정·조사·검증 방법을 함께 적용한다.
 - **Story Beat:** BEAT-019
 - **Curriculum Trace:** ACT 3 — Context → Harness problem; repeated workflow.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL.
-- **Visual Concept:** 세 층을 분리한다. Performance workflow 예시는 `baseline → investigate → verify → compare`로 짧게 둔다.
+- **Visual Concept:** 이번 요청 + 프로젝트 기준 + 수행 방법의 세 패널. 분류 항목을 재강의하지 않고 같은 Task를 관통한다.
 - **Demo / Case Connection:** TRIAL-006/007의 반복 절차를 개념 예로 연결한다.
 - **Beginner Payoff:** 이번 목표와 계속 유지할 Project 정보, 반복 방법의 차이를 기억한다.
 - **Advanced Payoff:** Prompt 밖에 둘 수 있는 정보라도 책임과 유지 방식은 다르다는 점을 본다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** Harness의 전체 정의나 구성요소 목록을 완성하지 않는다.
-- **Transition:** Slide 53에서 반복 절차를 재사용 가능한 Project asset으로 옮길지 묻는다.
+- **Speaker Intent:** 세 책임을 실제로 소개된 한 Task에 적용해 다음 Skill 선택으로 연결한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “다음 성능 작업에도 같은 수행 방법이 필요하다면, 어디에서 함께 유지할까요?”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
-- **Evidence / Decision References:** BEAT-019, TRIAL-006, CLM-0006, CLM-0029
+- **Evidence / Decision References:** BEAT-019, TRIAL-006, CLM-0006, CLM-0029, DEC-0062
 
 
-#### S53 — 반복 절차를 Skill로 옮길 수 있을까?
+#### S53 — 반복 절차의 유지 위치를 선택한다
 
 - **Slide ID:** S53
 - **ACT:** ACT 3
 - **Section:** 3C Reusable Skill 시작
-- **Working Title:** 반복 절차를 Skill로 옮길 수 있을까?
-- **Primary Role:** DEC-0017의 선택을 문제와 후보 해법에 연결한다.
-- **Audience Question:** “긴 Procedure를 Prompt에서 빼도 같은 작업 흐름을 유지할 수 있을까?”
-- **Core Message:** 반복 절차를 repository-owned Skill에 두는 선택은 Prompt와 Project 절차를 나누려는 결정이다.
+- **Working Title:** 반복 절차의 유지 위치를 선택한다
+- **Primary Role:** Skill 호출 문법보다 절차의 유지 위치를 선택한 DEC-0017의 의도를 보여준다.
+- **Audience Question:** “Task마다 달라지는 요청과 함께 고칠 절차를 어떻게 나눌까?”
+- **Core Message:** Task별 목표·제약·허용 범위는 요청에 남기고 반복 절차를 프로젝트가 유지할 단위로 옮기는 선택을 검토한다. 이 사례의 구현 후보는 Repository Skill이다.
 - **Story Beat:** BEAT-020 → BEAT-021; DEC-0017
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; DEC-0017은 ACCEPTED. 현재 교육 환경에서의 Product availability는 `REQUIRES PRODUCT CHECK`. Skill discovery/invocation Trial 결과는 다음 구간에 둔다.
-- **Visual Concept:** `BEFORE: Task Goal + long procedure`와 `AFTER candidate: Task Goal + $graypipe-performance; procedure in repository Skill`을 대비한다.
+- **Visual Concept:** Task마다 달라지는 요청 → 프로젝트가 재사용할 절차. SKILL.md는 구현 후보로만 제시하고 실행 성공은 다음 장에 둔다.
 - **Demo / Case Connection:** 저장소 소유의 재사용 절차를 검토하기로 한 결정까지만 보여준다. 성공 결과나 Skill 전문은 제시하지 않는다.
 - **Beginner Payoff:** 긴 절차를 매번 Prompt에 반복하지 않는 설계 후보를 본다.
 - **Advanced Payoff:** 반복성에 근거한 결정과 실제 발견·호출 증거를 구분한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** Codex Skill 제품 기능 튜토리얼로 흐르지 않게 하고, 현재 surface 확인이 필요함을 표시한다.
-- **Transition:** Slide 54에서 TRIAL-008의 Skill discovery/invocation을 관찰한다.
+- **Speaker Intent:** Skill 호출 문법보다 절차의 유지 위치를 선택한 DEC-0017의 의도를 보여준다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “이 구조가 실제 기록에서는 어떻게 발견되고 호출됐는지 확인하겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-020, BEAT-021, DEC-0017, TRIAL-006, TRIAL-007, TRIAL-008, OQ-005
+- **Evidence / Decision References:** BEAT-020, BEAT-021, DEC-0017, TRIAL-006, TRIAL-007, TRIAL-008, OQ-005, DEC-0062
 
 
-#### S54 — Skill을 어떻게 발견하고 호출할까?
+#### S54 — Skill의 발견과 본문 포함을 확인했다
 
 - **Slide ID:** S54
 - **ACT:** ACT 3
 - **Section:** 3C Reusable Skill
-- **Working Title:** Skill을 어떻게 발견하고 호출할까?
-- **Primary Role:** TRIAL-008에서 Skill 발견과 명시적 호출 관찰
-- **Audience Question:** 반복할 작업 절차를 Repository에서 어떻게 찾고 불러올까?
-- **Core Message:** Codex CLI에서 `/skills`로 `graypipe-performance`를 발견하고, `$graypipe-performance`와 작업별 목표를 함께 입력했다.
+- **Working Title:** Skill의 발견과 본문 포함을 확인했다
+- **Primary Role:** 새 작업의 업무 목적을 소개하고 발견·명시 호출·본문 포함이라는 서로 다른 관찰을 구분한다.
+- **Audience Question:** “반복 방법을 담은 Skill이 이번 작업에 포함됐다는 것을 무엇으로 확인했을까?”
+- **Core Message:** TRIAL-008의 CLI 목록에서 이름과 설명을 발견하고, 밝기 통계 작업 목표와 함께 명시 호출했으며, 실행 trace에 경로와 전체 본문이 포함된 것을 확인했다. 별도 load UI 이벤트는 없었다.
 - **Story Beat:** BEAT-021 — Repository Skill의 발견과 호출
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; Codex CLI 0.154.0에서 관찰. Desktop 동작과 암묵적 호출은 검증하지 않음. 현재 제품 표면의 상태는 **REQUIRES PRODUCT CHECK**.
-- **Visual Concept:** `Codex CLI → /skills로 발견 → $graypipe-performance로 명시적 호출`의 두 단계. Skill 본문 전체는 보여주지 않는다.
+- **Visual Concept:** 세 관찰 행: /skills의 이름·설명 / 명시 호출+밝기 통계 목표 / 실행 trace의 경로·본문. 기록 요약임을 표시한다.
 - **Demo / Case Connection:** TRIAL-008의 발견·호출 장면을 짧게 제시한다.
 - **Beginner Payoff:** 긴 절차를 매번 프롬프트에 다시 적는 대신 Repository의 재사용 절차를 찾을 수 있다.
 - **Advanced Payoff:** 발견과 명시적 호출을 구분하고, 확인된 인터페이스 범위도 구분한다.
 - **C++ Vision Bridge:** 없음. 이 장에서 억지로 연결하지 않는다.
-- **Speaker Intent:** 기능 사용법 강의가 아니라, 반복 절차가 어디에 놓이기 시작했는지 보여준다.
-- **Transition:** “다음에는 normalize와 image_statistics의 요청을 비교하겠습니다. 목표가 다른 두 Task에서 공통 절차를 어디에 두었는지 보겠습니다.”
+- **Speaker Intent:** 새 작업의 업무 목적을 소개하고 발견·명시 호출·본문 포함이라는 서로 다른 관찰을 구분한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “본문이 포함됐다는 사실과, 지침에 대응하는 작업 기록을 다음 장에서 구분해 보겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Demo 5분 (HYBRID) = 5분
-- **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005
+- **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005, DEC-0062
 
 
-#### S55 — 절차의 책임이 Prompt에서 Repository로 이동
+#### S55 — Skill의 지침과 관찰된 작업을 대응한다
 
 - **Slide ID:** S55
 - **ACT:** ACT 3
 - **Section:** 3C Reusable Skill
-- **Working Title:** 절차의 책임이 Prompt에서 Repository로 이동
-- **Primary Role:** TRIAL-007과 TRIAL-008의 작업 지시 비교
-- **Audience Question:** 같은 작업 절차를 매번 Prompt에 길게 적어야 할까?
-- **Core Message:** TRIAL-007의 긴 Prompt에 있던 절차를 TRIAL-008에서는 `$graypipe-performance` Skill에 맡기고, Prompt에는 작업 목표와 과제별 제약을 남겼다.
+- **Working Title:** Skill의 지침과 관찰된 작업을 대응한다
+- **Primary Role:** 추상적인 위치 이동을 실제 문서 발췌와 관찰 요약으로 구체화한다.
+- **Audience Question:** “Skill에 적힌 절차와 실제로 기록된 작업은 어떻게 대응됐을까?”
+- **Core Message:** TRIAL-007의 긴 요청이 담던 공통 절차를 TRIAL-008은 명시 호출한 Skill에 두었다. 기준선·계획·같은 조건의 검증 지침과 보존된 관찰 기록을 대응하되 Skill 단독 인과성을 주장하지 않는다.
 - **Story Beat:** BEAT-021 — 반복 절차의 위치 이동
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; 관찰된 차이는 절차 책임의 위치다. Skill의 우수성, 토큰 절감, 속도 향상은 입증되지 않음.
-- **Visual Concept:** 좌우 비교. Before에는 `목표 + 제약 + 긴 절차`; Candidate에는 `목표 + 과제별 제약 + Skill 호출`. 아래에는 양쪽 실행에서 관찰한 공통 절차를 표시한다.
+- **Visual Concept:** Native 두 열 표: Skill 원문 세 발췌 ↔ TRIAL-008 기준선/계획/검증 관찰 요약. 다른 목표·Task 제약과 책임 이동을 상하 문구로 유지한다.
 - **Demo / Case Connection:** 두 Trial의 Prompt 구조를 요약해 비교한다. 전문을 길게 노출하지 않는다.
 - **Beginner Payoff:** 반복되는 작업 방법과 현재 작업 목표를 분리할 수 있다.
 - **Advanced Payoff:** 절차 중복을 줄이는 설계와 실제 토큰 수 감소 주장을 구분한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** “프롬프트가 짧아졌으니 더 낫다”가 아니라, 재사용 절차의 책임이 옮겨졌다는 관찰을 전달한다.
-- **Transition:** 그 Skill에는 구체적인 답이 들어 있을까, 재사용할 작업 방법이 들어 있을까?
+- **Speaker Intent:** 추상적인 위치 이동을 실제 문서 발췌와 관찰 요약으로 구체화한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “재사용할 지침을 정했어도, 어떤 구현이 맞는지는 이번 근거로 판단해야 합니다.”
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Demo 3분 (HYBRID) + Case 3분 = 6분
-- **Evidence / Decision References:** BEAT-021, TRIAL-007, TRIAL-008, DEC-0017, OQ-005
+- **Evidence / Decision References:** BEAT-021, TRIAL-007, TRIAL-008, DEC-0017, OQ-005, DEC-0062
 
 
-#### S56 — 답을 담지 않는 Workflow
+#### S56 — 절차는 재사용하고, 답은 근거로 정한다
 
 - **Slide ID:** S56
 - **ACT:** ACT 3
 - **Section:** 3D Working Harness
-- **Working Title:** 답을 담지 않는 Workflow
-- **Primary Role:** Skill의 절차와 과제의 답을 구분
-- **Audience Question:** Skill이 작업 방법을 담는다면, 어디까지 미리 정해도 될까?
-- **Core Message:** Skill은 baseline, 조사, 정확성 확인, 동일 benchmark, 비교, trade-off, review 절차를 담지만, 특정 최적화 답이나 Trial 결과를 정답으로 고정하지 않는다.
+- **Working Title:** 절차는 재사용하고, 답은 근거로 정한다
+- **Primary Role:** 재사용한 방법이 특정 최적화 답을 공급한다는 오해를 막고 후보 선택으로 연결한다.
+- **Audience Question:** “Skill에 고정할 방법과 이번 Task에서 정할 답은 무엇일까?”
+- **Core Message:** Skill은 편집 전 재현 가능한 기준선, 검증·비교와 변경 보류 조건을 담는다. 알고리즘·측정값·trade-off는 Task별 근거로 결정하고 정답이나 Trial 수치를 미리 넣지 않는다.
 - **Story Beat:** BEAT-022 — 재사용 가능한 절차와 작업별 판단의 분리
 - **Curriculum Trace:** ACT 3 — observed workflow, verification, and Minimum Effective Harness.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; Repository Skill이 절차를 담도록 설계됐다는 사실은 관찰 가능. Skill이 답을 더 잘 찾아준다는 주장은 하지 않는다.
-- **Visual Concept:** `재사용 절차`와 `과제별 판단`을 두 칸으로 분리한다. 절차에는 baseline부터 review까지, 과제별 판단에는 알고리즘 선택과 실제 측정 결과를 둔다.
+- **Visual Concept:** Skill에 둘 방법과 이번에 정할 답을 두 패널로 대조한다. no-change 지침 원문을 별도로 발췌한다.
 - **Demo / Case Connection:** `resize`, `normalize`, `statistics` 같은 답과 benchmark 파일명, 성능 향상 수치, macOS/Python 조건을 Skill에 미리 넣지 않은 점을 짧게 표시한다.
 - **Beginner Payoff:** 절차를 재사용하되 답은 매 작업에서 증거로 판단한다.
 - **Advanced Payoff:** 과제별 입력, 환경, 성능 결과를 Workflow 정의와 혼합하지 않는다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** Skill 기능 튜토리얼 대신 “Workflow는 정답이 아니다”라는 경계를 세운다.
-- **Transition:** 그러면 실제로 후보를 선택할 때는 무엇을 근거로 삼았을까?
+- **Speaker Intent:** 재사용한 방법이 특정 최적화 답을 공급한다는 오해를 막고 후보 선택으로 연결한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “그렇다면 밝기 통계의 구현 후보는 어떤 근거로 선택했을까요?”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
-- **Evidence / Decision References:** BEAT-022, DEC-0017, STATE-04-PERF, TRIAL-008, INV-VERIFY-001
+- **Evidence / Decision References:** BEAT-022, DEC-0017, STATE-04-PERF, TRIAL-008, INV-VERIFY-001, DEC-0062
 
 
-#### S57 — 측정으로 후보를 고르다
+#### S57 — 후보는 시간·할당량·동작을 함께 보고 고른다
 
 - **Slide ID:** S57
 - **ACT:** ACT 3
 - **Section:** 3D Working Harness
-- **Working Title:** 측정으로 후보를 고르다
-- **Primary Role:** TRIAL-008에서 최적화 후보가 선택된 근거 제시
-- **Audience Question:** 여러 구현 후보 중 무엇을 선택할지 어떻게 판단했을까?
-- **Core Message:** `image_statistics` 후보를 측정해 비교했고, 낮은 메모리 사용량만으로 후보를 고르지 않았다. 수동 단일 순회 방식보다 row-level built-in reduction이 메모리 사용량을 낮게 유지하면서 더 나은 실행시간을 보였다.
+- **Working Title:** 후보는 시간·할당량·동작을 함께 보고 고른다
+- **Primary Role:** 최적화 기법 강의 대신 근거에 따른 후보 선택을 보여준다.
+- **Audience Question:** “메모리를 적게 쓰는 후보라면 곧바로 선택해도 될까?”
+- **Core Message:** TRIAL-008에서는 결과 6항목을 보존한 후보들의 실행시간과 traced allocation을 함께 봤다. 느린 수동 순회는 제외하고 낮은 할당량과 더 나은 실행시간의 행 단위 reduction을 선택했다.
 - **Story Beat:** BEAT-022 — 측정과 비교를 거친 후보 선택
 - **Curriculum Trace:** ACT 3 — observed workflow, verification, and Minimum Effective Harness.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 해당 Trial의 후보 간 비교 결과. Skill이 후보를 발견하거나 그 결과를 일으켰다는 인과 주장은 하지 않는다.
-- **Visual Concept:** 후보 두 개를 `메모리`와 `실행시간` 축으로 간결하게 비교한다. 정확한 수치가 필요한 경우 Trial evidence를 따르고 STATE-04-PERF 수치와 혼합하지 않는다.
+- **Visual Concept:** 후보 두 행의 정성 비교와 같은 결과6항목 확인. 정확한 후보 수치는 추가하지 않는다.
 - **Demo / Case Connection:** `image_statistics`의 수동 단일 순회와 row-level built-in reduction 비교.
 - **Beginner Payoff:** 성능 개선은 아이디어가 아니라 같은 조건의 비교로 판단한다.
 - **Advanced Payoff:** 시간·메모리 trade-off를 따로 보고 후보를 선택한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 알고리즘 최적화 강의로 확장하지 않고, 측정이 선택을 결정한 장면에 집중한다.
-- **Transition:** 선택한 변화는 어떤 검증을 거쳐 제품 상태에 반영됐을까?
+- **Speaker Intent:** 최적화 기법 강의 대신 근거에 따른 후보 선택을 보여준다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “후보 선택 기록을 남기고, 실제 제품 상태에 반영한 변경을 별도의 기준에서 확인하겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
-- **Evidence / Decision References:** BEAT-022, TRIAL-008, STATE-04-PERF, INV-VERIFY-001
+- **Evidence / Decision References:** BEAT-022, TRIAL-008, STATE-04-PERF, INV-VERIFY-001, DEC-0062
 
 
-#### S58 — Working Harness Success
+#### S58 — 선택한 변경을 같은 조건에서 검증했다
 
 - **Slide ID:** S58
 - **ACT:** ACT 3
 - **Section:** 3D Working Harness
-- **Working Title:** Working Harness Success
-- **Primary Role:** 검증된 제품 상태 변화로 Working Harness의 성공을 보여줌
-- **Audience Question:** 조사와 비교가 실제로 확인 가능한 결과로 이어졌을까?
-- **Core Message:** STATE-04에서 STATE-04-PERF로 변경하며 특정 입력과 환경에서 측정된 성능·메모리 결과를 확인했고, focused test, 전체 테스트, CLI, benchmark guard를 통과했다.
+- **Working Title:** 선택한 변경을 같은 조건에서 검증했다
+- **Primary Role:** 재사용 절차 사례의 결과를 동작 확인과 동일 조건 측정으로 회수한다.
+- **Audience Question:** “선택한 코드 변경의 동작과 성능을 어떤 근거로 확인했을까?”
+- **Core Message:** STATE-04→STATE-04-PERF 밝기 통계 변경은 기록된 입력·환경에서 동작 검사와 같은 조건의 측정을 거쳤다. 기존 수치와 검사 결과를 유지하고 Harness/Skill의 단독 인과효과와 구분한다.
 - **Story Beat:** BEAT-022, BEAT-037 — bounded change와 Working Harness Success
 - **Curriculum Trace:** ACT 3 — observed workflow, verification, and Minimum Effective Harness.; ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 해당 프로젝트와 입력·환경에서 관찰된 값이다. Harness가 성능 향상을 일으켰다고 말하지 않는다.
-- **Visual Concept:** `Task → Context → Workflow → Tools → Evidence → Product change` 흐름과 핵심 전후 수치를 함께 둔다.
+- **Visual Concept:** 기존 native 실행시간 chart와 Python 할당 피크·검증 행을 유지하고 제목/요약을 한국어 판단 중심으로 정렬한다.
 - **Demo / Case Connection:** STATE-04-PERF에 반영된 row-reduction 변경과 해당 상태의 검증 결과.
 - **Beginner Payoff:** AI의 제안은 테스트와 측정으로 확인한 뒤 결과물로 반영한다.
 - **Advanced Payoff:** 원인에 대한 주장과 시스템을 사용해 검증한 관찰 결과를 분리한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 명시적인 성공 장면은 보여주되, 성능 변화의 인과를 Harness에 귀속하지 않는다.
-- **Transition:** “검증된 결과를 기준으로, Agent를 더 나눌 필요도 있었는지 점검해보겠습니다.”
+- **Speaker Intent:** 재사용 절차 사례의 결과를 동작 확인과 동일 조건 측정으로 회수한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “이 작업에 더 필요했던 구조도 있었을까요? 역할을 나누는 선택부터 검토하겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
-- **Evidence / Decision References:** BEAT-022, BEAT-037, STATE-04-PERF, STATE-04, TRIAL-008, INV-VERIFY-001, STATE-00, DEC-0018, INV-DEMO-003
+- **Evidence / Decision References:** BEAT-022, BEAT-037, STATE-04-PERF, STATE-04, TRIAL-008, INV-VERIFY-001, STATE-00, DEC-0018, INV-DEMO-003, DEC-0062
 
 
-#### S59 — 이 작업에 Subagent가 필요했을까?
+#### S59 — 독립 조사를 나누면 무엇이 달라질까?
 
 - **Slide ID:** S59
 - **ACT:** ACT 3
 - **Section:** 3E Conditional Subagent Decision
-- **Working Title:** 이 작업에 Subagent가 필요했을까?
-- **Primary Role:** 현재 Demo에서 Subagent 필요성을 작업 단위로 검토
-- **Audience Question:** 성능 작업을 여러 Agent로 나누는 게 이 사례에 도움이 됐을까?
-- **Core Message:** 이번 성능 작업은 하나의 Agent로 진행 가능했고, 독립된 Context에서 병렬 조사할 이득은 작으며 조정 비용은 있었다. 현재 Demo에서는 Subagent를 정당화하지 않았다.
+- **Working Title:** 독립 조사를 나누면 무엇이 달라질까?
+- **Primary Role:** Subagent가 해결할 문제와 활용 관계를 현재 사례의 보류 결론보다 먼저 설명한다.
+- **Audience Question:** “한 Agent에 모인 조사 중 서로 기다리지 않아도 되는 부분은 무엇일까?”
+- **Core Message:** 독립 조사와 별도 Context의 가치가 있고 결과 형식·전달 지점·통합 책임을 정할 수 있다면 역할 분리를 검토한다. C++ Vision 사례는 교육용 가정이며 조정·중복·전달·통합 비용을 함께 본다.
 - **Story Beat:** BEAT-023–025 — Subagent 필요성 판단
 - **Curriculum Trace:** ACT 3 — conditional role/context separation.; ACT 3 — role/context complexity and Subagents.; ACT 3 — conditional Subagent decision.
-- **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 현재 Subagent/Memory 동작을 설명하는 경우에만; 이 작업에 대한 판단이다. 일반적으로 Subagent가 불필요하다는 뜻은 아니다.
-- **Visual Concept:** `작업 간 독립성`, `병렬 가능성`, `handoff/merge 비용` 세 축으로 현재 작업을 점검한다.
-- **Demo / Case Connection:** pipeline 성능, 변경 영향, 성능 검토 작업을 한 흐름으로 보여주고 독립 Context가 약했던 점을 표시한다.
-- **Beginner Payoff:** Agent 수를 늘리기 전에 실제로 나눌 수 있는 일을 찾는다.
-- **Advanced Payoff:** 병렬화 이득과 조정 비용을 작업 구조에 따라 판단한다.
-- **C++ Vision Bridge:** 없음. 다음 장의 조건부 예시에서만 연결한다.
-- **Speaker Intent:** Subagent 사용을 발전 단계나 성공 조건처럼 제시하지 않는다.
-- **Transition:** 어떤 작업 구조라면 Subagent 검토가 타당해질까?
+- **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
+- **Claim Status:** CONCEPTUAL CASE / TEACHING MODEL — 기존 C++ 역할 분리 가정을 먼저 설명한다. 실제 Subagent 실행·이득·현재 제품 기능의 관찰이 아니다.
+- **Visual Concept:** 명시적 CONCEPTUAL C++ 성능/빌드/테스트 독립 조사 세 패널 → 주 Agent의 통합·최종 검토. 미측정 이득을 표시하지 않는다.
+- **Demo / Case Connection:** DEMO-07: 기존 C++ 독립 조사 가정을 먼저 설명. 실제 Subagent 실행 없음. Demo3분 VISUAL, Q&A1분.
+- **Beginner Payoff:** 역할별로 필요한 정보로 조사하고 주 Agent가 합치는 관계를 이해한다.
+- **Advanced Payoff:** 독립성·Context 분리의 가치와 조정·중복·전달·통합 비용을 함께 판단한다.
+- **C++ Vision Bridge:** CONTEXTUAL — 기존 C++ 독립 조사 가정. 실제 Subagent 실행이나 병렬 이득이 아니다.
+- **Speaker Intent:** Subagent가 해결할 문제와 활용 관계를 현재 사례의 보류 결론보다 먼저 설명한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “그 기준을 방금 밝기 통계 작업에 적용하면, 나누는 것이 필요했을까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 3분 (VISUAL) + Q&A 1분 = 4분
-- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025
+- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062
 
 
-#### S60 — Subagent를 고려할 조건
+#### S60 — 이번 작업은 나눌 근거가 충분했을까?
 
 - **Slide ID:** S60
 - **ACT:** ACT 3
 - **Section:** 3E Conditional Subagent Decision
-- **Working Title:** Subagent를 고려할 조건
-- **Primary Role:** Subagent를 고려할 조건과 피할 조건 구분
-- **Audience Question:** 어떤 일이 실제로 독립된 병렬 작업일까?
-- **Core Message:** 독립된 조사와 Context, 병렬화 가능한 작업, 명확한 handoff/merge가 있을 때 Subagent를 검토한다. 작은 연결 작업이나 조정 비용이 더 큰 작업에는 적합하지 않을 수 있다.
+- **Working Title:** 이번 작업은 나눌 근거가 충분했을까?
+- **Primary Role:** 앞 장의 역할 분리 기준을 현재 사례에 적용해 선택 이유를 회수한다.
+- **Audience Question:** “밝기 통계 작업의 조사·변경·검증을 실제로 독립시킬 수 있었을까?”
+- **Core Message:** 현재 작업은 같은 성능 경로·명세를 공유하고 조사→변경→검증의 의존성이 높았다. 별도 Context 이득과 결과 통합 비용을 검토한 결과 Subagent를 추가하지 않았다.
 - **Story Beat:** BEAT-023–025 — 조건부 Subagent 판단
 - **Curriculum Trace:** ACT 3 — conditional role/context separation.; ACT 3 — role/context complexity and Subagents.; ACT 3 — conditional Subagent decision.
-- **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 현재 Subagent/Memory 동작을 설명하는 경우에만; 일반적인 제품 동작을 주장하지 않는다. 제품 기능을 언급할 경우 **REQUIRES PRODUCT CHECK**로 표시한다.
-- **Visual Concept:** `독립 조사 + 병렬 가능 + 명확한 handoff`를 검토 신호로, `작고 연결됨 + Context 반복 + 큰 조정 비용`을 보류 신호로 표시한다.
-- **Demo / Case Connection:** 대형 C++ Repository에서 성능, build toolchain, test 조사가 실제로 독립적이라면 분리를 검토할 수 있다는 가정적 사례. 현재 Demo의 근거로 취급하지 않는다.
-- **Beginner Payoff:** 작업을 나눌 수 있는지부터 판단하고 도구 선택은 그다음에 한다.
-- **Advanced Payoff:** Subagent 도입 전 Context 경계와 결과 통합 비용을 설계한다.
-- **C++ Vision Bridge:** 성능·빌드·테스트 조사가 서로 독립적일 수 있는 경우만 예시로 든다.
-- **Speaker Intent:** 기능 소개 없이 의사결정 기준을 전달한다.
-- **Transition:** “Agent를 나눌 필요를 봤으니, 이번에는 다음 작업을 위해 지식을 별도로 남길 필요도 있었는지 점검해보겠습니다.”
+- **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
+- **Claim Status:** FROZEN WITH SCOPE / TEACHING MODEL — DEC-0018 현재 Task 감사의 판단이며 실제 Subagent Trial이 아니다. 일반적 불필요성이나 기능 부재를 주장하지 않는다.
+- **Visual Concept:** 조사→변경→검증의 의존 관계와 독립성/Context/통합 비용, 현재 추가하지 않았다는 판단을 분리한다.
+- **Demo / Case Connection:** DEMO-07: DEC-0018 현재 작업 판단을 회수. Lecture1분, Demo2분 VISUAL, Q&A1분.
+- **Beginner Payoff:** 현재 Task의 앞뒤 의존성에 따라 역할 분리 여부를 판단한다.
+- **Advanced Payoff:** NOT JUSTIFIED YET는 현재 감사의 선택이며 일반적 기능 가치와 다르다.
+- **C++ Vision Bridge:** S59의 가정을 현재 Python Task와 구분해 회수한다.
+- **Speaker Intent:** 앞 장의 역할 분리 기준을 현재 사례에 적용해 선택 이유를 회수한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “역할 분리의 필요성을 판단했습니다. 다음 작업에 별도로 남길 지식도 있었을까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Demo 2분 (VISUAL) + Q&A 1분 = 4분
-- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025
+- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062
 
 
-#### S61 — 무엇이 다시 찾기 어려운 지식인가?
+#### S61 — 다음 작업에서도 다시 찾을 지식인가?
 
 - **Slide ID:** S61
 - **ACT:** ACT 3
 - **Section:** 3F Conditional Memory Decision
-- **Working Title:** 무엇이 다시 찾기 어려운 지식인가?
-- **Primary Role:** Demo의 지식 유형을 분류하고 Memory 후보 조사
-- **Audience Question:** 다음 작업에서 다시 발견하기 어려운 지식은 무엇일까?
-- **Core Message:** 계약, 명령, 아키텍처, benchmark 수치, 상태 이력을 Source of Truth, Documentation, Workflow, Trial Observation으로 나눠 살펴봤고, 현재 Demo에서 별도 Memory로 보존할 지속적 지식 후보는 찾지 못했다.
+- **Working Title:** 다음 작업에서도 다시 찾을 지식인가?
+- **Primary Role:** Memory의 필요성과 관리 부담을 교육용 가정으로 먼저 이해하게 한다.
+- **Audience Question:** “조사로 얻은 지식이 다음 작업에도 필요하다면 무엇을 남겨야 할까?”
+- **Core Message:** 현재 Task에 필요한 Context와 다음 Task에도 보존할 가치가 있는 지식을 구분한다. 출처·적용 범위·갱신 조건을 관리하고 기존 문서에 있으면 그 출처를 참조한다.
 - **Story Beat:** BEAT-026–028 — Memory 후보 검토
 - **Curriculum Trace:** ACT 3 — conditional Subagent decision.; ACT 3 — Subagent trade-offs and Minimum Effective Harness.; ACT 3 — repeated discovery and Context vs Memory.
-- **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 현재 Subagent/Memory 동작을 설명하는 경우에만; 현재 Demo의 점검 결과다. 제품 Memory 기능에 대한 동작 주장은 포함하지 않는다.
-- **Visual Concept:** 네 가지 지식 범주와 각 범주에 해당하는 Demo 사례를 연결한다.
-- **Demo / Case Connection:** 계약·명령·아키텍처는 문서나 코드의 Source of Truth, 반복 절차는 Skill, Trial 결과는 관찰 기록으로 분류한다.
-- **Beginner Payoff:** 새 Memory를 만들기 전 기존 문서와 기록의 역할부터 확인한다.
-- **Advanced Payoff:** 지식의 출처와 수명, 이미 존재하는 SoT를 고려해 중복 기록을 피한다.
+- **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
+- **Claim Status:** CONCEPTUAL CASE / TEACHING MODEL — 작업 간 지식 관리 가정이다. 현재 Demo에 Memory를 추가했거나 제품이 자동 기억·회수한다는 주장이 아니다.
+- **Visual Concept:** CONCEPTUAL Task A 조사 → 출처·범위·갱신 조건과 함께 보존 가치 판단 → Task B의 현재 기준 대조. 자동 저장/정확성 보장 없이 표현한다.
+- **Demo / Case Connection:** DEMO-08: 작업 간 지식 재사용의 명시적 교육용 가정. Demo2분 VISUAL, Case2분. 실제 Memory 사용 없음.
+- **Beginner Payoff:** 지금 필요한 정보와 다음 작업에도 남길지 판단할 지식을 구분한다.
+- **Advanced Payoff:** 출처·범위·신선도·갱신/무효화와 유지 비용을 관리한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** Memory가 성숙도의 필수 단계처럼 보이지 않도록 현재 사례의 부재도 결과로 제시한다.
-- **Transition:** 그럼 어떤 지식에 Memory를 검토할 조건이 있을까?
+- **Speaker Intent:** Memory의 필요성과 관리 부담을 교육용 가정으로 먼저 이해하게 한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “이제 원래 출처와 보존 기준을 놓고, 현재 Demo에 별도 후보가 있었는지 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 2분 (VISUAL) + Case 2분 = 4분
-- **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028
+- **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062
 
 
-#### S62 — Memory는 재발견 비용으로 판단
+#### S62 — 남길지, 원래 출처를 참조할지 판단한다
 
 - **Slide ID:** S62
 - **ACT:** ACT 3
 - **Section:** 3F Conditional Memory Decision
-- **Working Title:** Memory는 재발견 비용으로 판단
-- **Primary Role:** Memory가 필요한 조건과 현재 제외한 항목 설명
-- **Audience Question:** 무엇을 기억해 두어야 다음 작업의 비용이 실제로 줄어들까?
-- **Core Message:** 반복해서 재발견하는 비용이 크고, 프로젝트에 재사용 가능하며, 출처·범위·갱신 조건을 관리할 수 있는 지식일 때 Memory를 검토한다. 현재 Demo에서는 해당 기준을 만족하는 후보가 없다.
+- **Working Title:** 남길지, 원래 출처를 참조할지 판단한다
+- **Primary Role:** Memory 기준과 현재 지식 감사의 실제 결론을 한 장에서 회수한다.
+- **Audience Question:** “현재 Demo 지식은 이미 어디에 있고 별도 보존할 가치가 있었을까?”
+- **Core Message:** 재발견 비용·다음 작업 재사용·출처와 적용 범위·갱신 조건을 보고 기존 출처를 먼저 확인한다. 현재 계약/구조/절차/측정 기록은 각각 근거가 있어 별도 Memory 후보를 찾지 못했다.
 - **Story Beat:** BEAT-026–028 — Memory 필요성의 조건부 판단
 - **Curriculum Trace:** ACT 3 — conditional Subagent decision.; ACT 3 — Subagent trade-offs and Minimum Effective Harness.; ACT 3 — repeated discovery and Context vs Memory.
-- **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 현재 Subagent/Memory 동작을 설명하는 경우에만; 판단 기준에 관한 교육 모델이다. 제품 Memory 기능의 범위나 효과는 주장하지 않으며, 기능을 언급할 때는 **REQUIRES PRODUCT CHECK**로 표시한다.
-- **Visual Concept:** `재발견 비용`, `재사용성`, `출처·범위`, `신선도·무효화`를 판단 질문으로 제시한다.
-- **Demo / Case Connection:** Benchmark 수치는 오래될 수 있어 Memory 후보로 고정하지 않는다. 계약은 문서/코드, 반복 절차는 Skill이 소유한다.
-- **Beginner Payoff:** 무엇이든 기억시키기보다 다시 찾는 비용이 실제로 큰지 본다.
-- **Advanced Payoff:** Knowledge의 출처, 적용 범위, 유효기간과 무효화 기준을 함께 설계한다.
+- **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
+- **Claim Status:** FROZEN WITH SCOPE / TEACHING MODEL — DEC-0018 현재 Demo의 지식 감사와 보존 기준이다. 제품 Memory의 범위·효과나 일반적 불필요성을 주장하지 않는다.
+- **Visual Concept:** 네 판단 기준 요약 위에 현재 지식4종→원래 출처를 대응하고 별도 Memory를 추가하지 않았다는 결론을 둔다.
+- **Demo / Case Connection:** DEMO-08: 기존 지식 출처 감사와 별도 Memory 후보 없음의 결론. Lecture4분, 추가 Demo 시간 없음.
+- **Beginner Payoff:** 원래 명세·문서·절차·측정 기록을 먼저 찾는다.
+- **Advanced Payoff:** 같은 프로젝트의 다음 Task에도 재사용할 수 있다. 별도 Memory의 필요성은 출처와 유지 비용으로 판단한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** Memory 사용 여부 자체를 성숙도 점수로 만들지 않는다.
-- **Transition:** 현재 문제를 해결하는 데 실제로 필요했던 구조는 무엇이었을까?
+- **Speaker Intent:** Memory 기준과 현재 지식 감사의 실제 결론을 한 장에서 회수한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “이 선택들을 모으면 이번 문제를 위해 실제로 사용한 구조는 무엇이었을까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028
+- **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062
 
 
-#### S63 — Minimum Effective Harness
+#### S63 — 이번 사례에서 실제로 사용한 구조
 
 - **Slide ID:** S63
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness
-- **Working Title:** Minimum Effective Harness
-- **Primary Role:** 현재 문제를 해결하는 데 사용한 최소 구조를 요약
-- **Audience Question:** 이번 작업을 위해 실제로 무엇이 필요했을까?
-- **Core Message:** 이 문제에서는 Task Prompt, Project Context와 Routing, 재사용 Skill, Benchmark, Tests, Environment와 Tools가 사용됐다. Subagent와 Memory는 현재 Demo의 필수 구성 요소가 아니었다.
+- **Working Title:** 이번 사례에서 실제로 사용한 구조
+- **Primary Role:** 이 사례의 구체적인 구성과 사용 이유를 회수한다.
+- **Audience Question:** “이번 문제에서 어떤 책임을 어떤 기존 자료와 도구가 맡았을까?”
+- **Core Message:** 밝기 통계 목표/범위, AGENTS.md와 상세 문서, 재사용 Skill, 테스트·benchmark·실행 조건이 각각 목표·지식·방법·완료 근거를 맡았다. Subagent와 별도 Memory는 추가하지 않았다.
 - **Story Beat:** BEAT-035, BEAT-037 — 해결된 마찰에서 Harness 구조 도출
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.; ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; 이번 작업에서 관찰한 구성을 일반적인 기능 수 우위 주장으로 확장하지 않는다.
-- **Visual Concept:** 필요한 구성 요소를 하나의 작업 흐름으로 연결하고 Subagent와 Memory는 “현재 사례에서 추가하지 않음”으로 표시한다.
+- **Visual Concept:** 현재 목표/참고할 정보/반복할 방법/완료 근거의 네 책임을 실제 사용한 구성에 대응한다. 전체 구조 정의는 다음 장에서 연결한다.
 - **Demo / Case Connection:** STATE-04-PERF까지 이어진 작업과 검증 흐름.
 - **Beginner Payoff:** Harness는 기능을 많이 모으는 일이 아니라 현재 문제에 필요한 구조를 마련하는 일이다.
 - **Advanced Payoff:** 최소 구성은 문제와 검증 요건에 따라 달라진다는 점을 판단 기준으로 삼는다.
 - **C++ Vision Bridge:** Slide 64 이후의 전이에서 빌드·테스트·benchmark 절차로 연결한다. Python Skill을 그대로 옮긴다고 가정하지 않는다.
-- **Speaker Intent:** “적을수록 좋다”가 아니라 “현재 문제를 신뢰성 있게 해결하는 데 필요한 구조”라고 정의한다.
-- **Transition:** 다음 구간에서 도구·권한·환경과 C++ 프로젝트로의 전이를 더해 이 구성을 완성한다.
+- **Speaker Intent:** 이 사례의 구체적인 구성과 사용 이유를 회수한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “이 파일과 도구들이 어떤 관계로 작동하는지 전체 작업 환경으로 묶겠습니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Demo 3분 (CAPTURED) = 3분
-- **Evidence / Decision References:** BEAT-035, BEAT-037, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001
+- **Evidence / Decision References:** BEAT-035, BEAT-037, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0062
 
 
-#### S64 — Harness는 작업 환경 설계다
+#### S64 — 이 구성이 함께 작동하는 것이 Harness다
 
 - **Slide ID:** S64
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** Harness는 작업 환경 설계다
-- **Primary Role:** 앞서 관찰한 구성요소를 Harness라는 작업 환경 관점으로 묶는다.
-- **Audience Question:** “Harness는 결국 무엇을 의미하는가?”
-- **Core Message:** 이 교육에서 Harness는 Agent가 Project에서 안정적으로 일하도록 설계한 작업 환경과 절차를 가리키는 운영 모델이다. 기능 체크리스트가 아니다.
+- **Working Title:** 이 구성이 함께 작동하는 것이 Harness다
+- **Primary Role:** 앞 장의 실제 구성 목록을 전체 작업 관계로 묶어 Harness 정의를 완성한다.
+- **Audience Question:** “목표, Agent의 수행 방법, 완료 근거는 어떤 환경 안에서 연결될까?”
+- **Core Message:** 이 과정에서 Harness는 Agent가 신뢰성 있게 일하도록 목표·Context·재사용 절차·실행 도구·검증·검토 조건을 연결한 작업 환경과 방법의 운영 모델이다.
 - **Story Beat:** BEAT-035, BEAT-036
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** TEACHING_MODEL — DEC-0023에서 확정한 이 과정의 Harness 정의. 공식 OpenAI 정의나 보편적 분류 체계가 아니다.
-- **Visual Concept:** Developer와 Agent가 Task Prompt, Project Context, Routing, Workflow, Verification, Tools와 Environment를 포함한 Project 작업 환경 안에서 일하는 그림.
+- **Visual Concept:** 작업 환경 프레임 안 목표/허용 범위→Agent 수행→완료 근거/검토와 Context·절차·도구·입력·권한·측정 조건을 연결한다. 관찰 구성은 별도 아래 행에 둔다.
 - **Demo / Case Connection:** STATE-04-PERF에서 관찰한 요소를 근거로 삼되, Subagent와 Memory를 필수 요소로 넣지 않는다.
 - **Beginner Payoff:** Agent에게 Project 정보뿐 아니라 일하는 환경과 확인 방법도 필요하다는 점을 이해한다.
 - **Advanced Payoff:** Harness를 특정 파일이나 기능이 아니라 Project별 신뢰성 문제를 해결하는 시스템으로 본다.
 - **C++ Vision Bridge:** Slide 66에서 다른 Project의 환경으로 전이한다.
-- **Speaker Intent:** Harness 정의를 제시하되 “AGENTS + Skill + Subagent + Memory” 식의 목록으로 축소하지 않는다.
-- **Transition:** 그 작업 환경은 Repository 파일만으로 결정될까?
+- **Speaker Intent:** 앞 장의 실제 구성 목록을 전체 작업 관계로 묶어 Harness 정의를 완성한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “그 실행 조건이 Repository 파일만으로 모두 정해질까요?”
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Lecture 4분 + Demo 2분 (CAPTURED) = 6분
-- **Evidence / Decision References:** BEAT-035, BEAT-036, STATE-04-PERF, OQ-011, CLM-0016, CLM-0017, CLM-0030
+- **Evidence / Decision References:** BEAT-035, BEAT-036, STATE-04-PERF, OQ-011, CLM-0016, CLM-0017, CLM-0030, DEC-0062
 
 
-#### S65 — Repository 밖의 환경도 결과에 영향을 준다
+#### S65 — 같은 Repository라도 실행 조건은 다를 수 있다
 
 - **Slide ID:** S65
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** Repository 밖의 환경도 결과에 영향을 준다
-- **Primary Role:** Harness의 경계가 Repository 파일을 넘어갈 수 있음을 보여준다.
-- **Audience Question:** “Repository가 같으면 Agent 실행 환경도 같은가?”
-- **Core Message:** 실행 결과를 해석할 때 Project 지침과 코드만 보지 않는다. Global instructions, Skills, Hooks, MCP, Permissions, Model/configuration, OS/runtime 같은 환경 층도 관련될 수 있다.
+- **Working Title:** 같은 Repository라도 실행 조건은 다를 수 있다
+- **Primary Role:** 제품 기능 목록을 강의하지 않고 실행 조건을 기록해야 하는 이유를 제한된 Meta 관찰로 예고한다.
+- **Audience Question:** “결과를 해석하려면 Repository 밖에서 무엇이 들어왔는지도 알아야 하지 않을까?”
+- **Core Message:** 과거 Trial에서 전역 지침·Skills와 시작 경고의 흔적이 있었다. 적용 지침, 모델/설정, 권한, OS/runtime도 결과 해석 시 기록할 조건이지만 모든 항목의 인과효과나 완전한 환경 감사를 입증한 것은 아니다.
 - **Story Beat:** BEAT-033, BEAT-036
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.
 - **Evidence Type:** OBSERVED_META / TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 대상 구성·기능 이용 가능성·trust·permissions; Trial 기록에서 global Harness 영향이 관찰됐다. 이는 전체 환경을 빠짐없이 파악했다거나 모든 항목이 결과를 바꿨다는 뜻은 아니다.
-- **Visual Concept:** `Project Repository` 바깥에 가능한 환경 층을 배치한다. Slide 하단에 “일부 영향 관찰 / 전체 영향 단정 불가”를 표시한다.
+- **Visual Concept:** Repository 내부 구성 + 바깥에서 관찰된 지침/경고를 구분하고 기록할 조건과 미입증 인과효과를 분리한다. Meta 이중선 프레임을 유지한다.
 - **Demo / Case Connection:** TRIAL 기록에서 확인된 global 환경 영향만 짧게 예고한다. 상세 근거는 ACT 4의 DEMO-04B에 둔다.
 - **Beginner Payoff:** 결과가 예상과 다르면 Repository의 코드와 Prompt 외에도 환경을 살펴볼 수 있다.
 - **Advanced Payoff:** Trial의 인과 해석에서 ambient Harness 요인을 기록하고 한계를 드러낸다.
 - **C++ Vision Bridge:** 같은 C++ Repository라도 실행 설정, 권한, Toolchain 같은 환경 조건이 달라질 수 있다는 정도로 연결한다.
-- **Speaker Intent:** 환경 요소를 열거하는 데 시간을 쓰지 않고, 다음 ACT에서 다시 살펴볼 근거 경계만 예고한다.
-- **Transition:** 이 작업 환경 설계 원칙은 C++ Vision Project에 어떻게 옮겨갈까?
+- **Speaker Intent:** 제품 기능 목록을 강의하지 않고 실행 조건을 기록해야 하는 이유를 제한된 Meta 관찰로 예고한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “이 작업 방법과 확인 기준을 우리 C++ 검사 업무로 옮겨 보겠습니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
-- **Evidence / Decision References:** BEAT-033, BEAT-036, DEMO-04B, CLM-0016, CLM-0017, OQ-003, OQ-005, CLM-0030, OQ-011
+- **Evidence / Decision References:** BEAT-033, BEAT-036, DEMO-04B, CLM-0016, CLM-0017, OQ-003, OQ-005, CLM-0030, OQ-011, DEC-0062
 
 
-#### S66 — Engineering Pattern은 C++에도 전이된다
+#### S66 — 우리 C++ 검사 작업에 옮겨 보면
 
 - **Slide ID:** S66
 - **ACT:** ACT 3
 - **Section:** 3H C++ Vision Transfer
-- **Working Title:** Engineering Pattern은 C++에도 전이된다
-- **Primary Role:** Python Demo에서 관찰한 설계 패턴을 C++ Vision 업무에 대응시킨다.
-- **Audience Question:** “우리 Repository에서는 무엇이 Project Context이고 무엇이 Workflow인가?”
-- **Core Message:** Python 산출물을 C++로 복사하는 것이 아니라, Project Context·Verification·성능 절차를 명확히 나누는 Engineering Pattern을 옮긴다.
+- **Working Title:** 우리 C++ 검사 작업에 옮겨 보면
+- **Primary Role:** 앞의 구체적인 판단을 승인된 제조 검사 파이프라인 삽화와 연결한다.
+- **Audience Question:** “밝기 통계에서 사용한 판단을 우리 검사 파이프라인에는 어떻게 적용할까?”
+- **Core Message:** Python 코드를 복사하지 않고 지킬 명세, 반복할 수행 방법, 완료를 판단할 근거를 C++ Vision 검사 업무에 대응한다. 실제 C++ 구현·회사 장비·측정 성과는 아니다.
 - **Story Beat:** BEAT-036
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; 교육용 전이 사례다. C++ 프로젝트마다 실제 도구·규칙이 다를 수 있다.
-- **Visual Concept:** 두 열(Python Demo / C++ Vision) 사이에 공통 절차 `baseline → profile → change → regression check`를 놓는다. 도구 목록보다 대응 관계를 강조한다.
+- **Visual Concept:** 기존 승인된 카메라/영상/처리/결과 삽화를 보존하고 아래 세 기준을 ROI·픽셀·빌드 조건, 기준선/경로 조사, 동작/회귀/성능 검증에 대응한다.
 - **Demo / Case Connection:** Python의 Project Context, `unittest`, benchmark script, reusable workflow를 C++의 CMake/build 설정, 모듈 계약·알고리즘 제약·하드웨어 가정, GoogleTest/CTest 또는 통합 테스트, Release build와 benchmark/profiler에 대응시킨다.
 - **Beginner Payoff:** 언어가 달라도 먼저 Project의 규칙과 검증 방법을 찾는다.
 - **Advanced Payoff:** 성능 Workflow가 Project의 빌드 모드, 하드웨어 가정, 회귀 검증과 연결되도록 설계한다.
 - **C++ Vision Bridge:** 이 Slide의 중심. 도구 선택은 예시로만 들고 팀의 실제 표준을 확인하도록 한다.
-- **Speaker Intent:** Python과 C++의 도구 비교 강의가 되지 않도록 공통 패턴을 중심에 둔다.
-- **Transition:** 이제 현재 업무에 어떤 구조가 실제로 필요한지 되돌아본다.
+- **Speaker Intent:** 앞의 구체적인 판단을 승인된 제조 검사 파이프라인 삽화와 연결한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “우리 팀에서 먼저 정리할 반복 한 가지와 유지할 책임을 골라 보겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
-- **Evidence / Decision References:** BEAT-036, CLM-0016, CLM-0017, CLM-0030, OQ-011
+- **Evidence / Decision References:** BEAT-036, CLM-0016, CLM-0017, CLM-0030, OQ-011, DEC-0062
 
 
-#### S67 — 필요한 구조부터 질문하기
+#### S67 — 우리 팀의 반복 한 가지를 고르면
 
 - **Slide ID:** S67
 - **ACT:** ACT 3
 - **Section:** 3I Discussion / Reflection / Transition
-- **Working Title:** 필요한 구조부터 질문하기
-- **Primary Role:** ACT 3를 정리하고 Loop Engineering으로 넘어갈 질문을 연다.
-- **Audience Question:** “내 업무에서 지금 가장 반복되는 마찰은 무엇인가?”
-- **Core Message:** 기능을 더할지부터 정하지 않는다. 반복되는 마찰을 찾고 그 원인을 해결할 최소 구조를 판단한다.
+- **Working Title:** 우리 팀의 반복 한 가지를 고르면
+- **Primary Role:** 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다.
+- **Audience Question:** “내 업무에서 먼저 정리할 반복과 유지할 책임은 무엇일까?”
+- **Core Message:** 반복 정보·반복 절차·완료 근거 중 현재 마찰을 하나 고르고 어디에 두며 누가 검토·갱신할지 판단한다. 현재의 성공을 보존한 채 다음 ACT의 프로젝트 변화 질문을 연다.
 - **Story Beat:** BEAT-035–037, BEAT-038로의 전환
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.; ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.; ACT 4 — conceptual stale-Harness case.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Subagent와 Memory는 조건부 선택이다. Verification은 실제 작업의 필요와 위험에 맞춰 둔다.
-- **Visual Concept:** `반복되는 Project 사실 → Context`, `반복되는 절차 → Workflow`, `독립된 병렬 조사 → Subagent 검토`, `비용 큰 재발견 → Memory 검토`, `확인 필요 → Tests/Benchmark/Review`로 연결한다.
+- **Visual Concept:** 세 성찰 관점과 어디에 두고 누가 갱신할지의 질문. 마지막 줄에 프로젝트 변화 뒤 방법을 어떻게 점검할지 제시하며 S68의 결과 회수와 구분한다.
 - **Demo / Case Connection:** STATE-04-PERF에서 Subagent와 Memory 없이 성공한 bounded Harness를 회고한다.
 - **Beginner Payoff:** 자기 업무에서 먼저 고칠 반복 마찰 하나를 생각해 본다.
 - **Advanced Payoff:** 필요한 구조를 증거와 비용에 따라 선택하고 불필요한 구성은 보류한다.
 - **C++ Vision Bridge:** 앞 Slide의 C++ 적용 질문을 청중의 Project로 가져온다.
-- **Speaker Intent:** 참여자 노트북 실습은 요구하지 않는다. 짧은 토론이나 답변 요청 대신, 개인 성찰을 선택적으로 안내하고 답변을 요구하지 않는다. 잘 동작한 Harness를 실패한 설계로 재해석하지 않는다.
-- **Transition:** 지금은 잘 동작하는 Harness도 Project가 바뀐 뒤 계속 맞을까?
+- **Speaker Intent:** 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Transition:** “여기까지 실제로 확인한 성공을 기준점으로 남기겠습니다. 다음에는 별도의 가상 프로젝트 변화에서 이 방법을 어떻게 점검할지 보겠습니다.”
 - **Estimated Time:** 10분
 - **Delivery Mode Allocation:** Reflection 3분 + Q&A 5분 + Transition 2분 = 10분
-- **Evidence / Decision References:** BEAT-035, BEAT-038, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0021, INV-MATURITY-010, BEAT-036, BEAT-037
+- **Evidence / Decision References:** BEAT-035, BEAT-038, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0021, INV-MATURITY-010, BEAT-036, BEAT-037, DEC-0062
 
 
 ### ACT 4

@@ -171,6 +171,12 @@ WCAG 2.2의 일반 텍스트 기준 4.5:1 및 큰 텍스트 기준 3:1을 디자
 
 ## 6. Evidence Visual Grammar
 
+DEC-0062의 ACT3에서는 S59/S61의 역할 분리·작업 간 지식 가정에 CONCEPTUAL
+label과 점선/황갈색 프레임을 둔다. S60/S62의 현재 사례 감사는 실선과
+DEC-0018 출처로 구분한다. S55의 native 표는 실제 Skill 발췌와 관찰 요약을
+각 열에 명시하며 raw log/UI 캡처로 표현하지 않는다. 기존 C++ 보조 component는
+S60에서 S59의 기존 가정으로 이동하고 S66의 Primary 삽화는 보존한다.
+
 Evidence Type은 프레임, 선 모양, 명시적인 Label, Source 표기를 함께
 사용해 구분한다. 색만으로 Evidence Type을 전달하지 않는다.
 

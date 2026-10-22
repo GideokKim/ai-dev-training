@@ -2,24 +2,27 @@
 
 갱신일:2026-10-22 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 내용 수정은 DEC-0061이다. S40의 코드 탐색 확인 질문과 보조 RepoQA,
-S39–S41 Notes를 정렬했으며 번호·시간·근거 범위를 유지했다.
+최신 내용 수정은 DEC-0062다. ACT3의 문서/관찰 대응, 가정→현재 선택,
+구성→작업 환경의 흐름과18개 Notes를 정렬했다. 번호·시간·근거 범위는 유지한다.
+이전 DEC-0061의 S40 개선은 보존한다.
 
 ## 현재 발표 자료
 
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `53fb1b90761091f0c1e95d7aba618e2369624143344d1e8282e635a8b6f3596e` |
+| PPT SHA-256 | `2972501210280edd7fbf96b0cfbfd8ad1999e162c9fff391bb72084903b16b8b` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `8d0dcfb148f4f46ebdf88178fda1eb3bf25aa5a07d11f20062739e03a62dd2ca` |
+| Notes SHA-256 | `17bd9a730b4cdeeddf0691296ba10865320b05f1647ffee3d07139339c1b7dec` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `c9bf025d58c41f721f08bddf3a73e59266b06ae4700fe7a3a4b009e6f57c40cd` |
+| Montage SHA-256 | `8524c607a90fd91db05b0bf4e2452ff8582db833a039eb48e617fd7f10d7034e` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [S40 코드 탐색 결과 확인](S40_CODE_EVIDENCE_REVISION.md) |
+| 최신 검토 | [ACT3 전체 흐름 개선](ACT_3_FLOW_REVISION.md) |
+| ACT3 | [ACT_3.pptx](../ACT_3.pptx), S50–S67/18장·85분 |
+| 이전 S40 검토 | [코드 탐색 결과 확인](S40_CODE_EVIDENCE_REVISION.md) |
 | 장수·시간 구성 검토 | [ACT2 흐름 개선](ACT_2_FLOW_REVISION.md) |
 | 번호 대조 | [90→93](../../plan/SLIDE_ID_MIGRATION_93.md) |
-| 정적 Demo 대안 | [31개 파일·범위·해시](../../demos/runbooks/FALLBACK_MANIFEST.md) |
+| 정적 Demo 대안 | [32개 파일·범위·해시](../../demos/runbooks/FALLBACK_MANIFEST.md) |
 | 사용자 확인 | [실환경·리허설 체크리스트](USER_VALIDATION_CHECKLIST.md) |
 
 ACT별 시간40/63/81/85/80/30분. Mode143/73/88/21/22/32분은 각각
@@ -33,6 +36,10 @@ Lecture/Demo/Case/Reflection/Transition/Q&A다. 휴식은 별도다.
 확대하지 않았고 과거 CLI 기록을 현재 Desktop 검증으로 바꾸지 않았다.
 DEC-0061에서는 Full93장·ACT2 18장을 재렌더링하고 S40 화면과 S39–S41 Notes를
 확인했다. 다른92장 화면·90개 Notes와 다른 ACT 패키지는 변경하지 않았다.
+
+DEC-0062에서는 Full93장·ACT3 18장을 재렌더링하고 ACT3 전 장을 개별 검토했다.
+다른75장 화면·75개 Notes와 ACT0/1/2/4/5 패키지는 기준 판본과 동일하다.
+S55 native 표와 S58 기존 native chart를 포함한 구조·내장 Notes·현재 경로를 대조했다.
 
 ## 사용자가 확인할 남은 조건
 

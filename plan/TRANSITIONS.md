@@ -1,5 +1,16 @@
 # Story Transitions
 
+## ACT3 current handoff refinement — DEC-0062
+
+S49→S50: 수행 방법의 유지 질문→실제 두 요청의 반복 기록.
+S53→S54→S55: 유지 위치 선택→CLI 발견/호출/본문 포함→지침과 관찰의 대응.
+S58→S59→S60: 확인한 결과→역할 분리의 명시적 C++ 가정→현재 Task의 보류 판단.
+S60→S61→S62: 역할 분리 판단→작업 간 지식 관리 가정→원래 출처 감사/별도 Memory 없음.
+S63→S64→S65: 실제 구성→전체 작업 관계→기록할 외부 조건.
+S66→S67→S68: C++ 전이→유지 책임 성찰→기존 실제 성공 회수 후 S69의 별도 가상 변화.
+기존 TRANS/Beat/Demo/Trial/State ID·장별 시간과 근거 경계를 유지한다. Literal cue는
+SLIDE_MAP.md와 현행 Notes가 기준이다. [설계](ACT3_FLOW_REVISION.md).
+
 > **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
 
 

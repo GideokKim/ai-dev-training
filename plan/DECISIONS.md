@@ -7376,3 +7376,100 @@ Render the final packages, compare S39/S40/S41, verify the other92 visible
 slides, unchanged budgets,93 embedded19-field Notes and static paths/hashes.
 Keep Windows/product/account/room/rehearsal UNVERIFIED. Follow standing Git
 checkpoint policy and leave presenter bundles paused.
+
+
+# DEC-0062 — connect ACT3 procedure evidence and conditional choices
+
+## Status
+
+ACCEPTED — explicit user approval to implement the whole ACT3 flow review,
+align Notes/planning, render the full deck and commit/push. Optional splitting
+is authorized; the existing18 slides can retain distinct responsibilities.
+
+## Date
+
+2026-10-22
+
+## Context
+
+ACT2 now ends with procedure-maintenance friction. The ACT3 review found
+abstract Skill placement, weak instruction/action correspondence, decisions
+before component motivation and repeated summaries. It also found stale
+Notes headings, S54's four-minute summary inside five allocated minutes,
+S62's unnecessary cross-project criterion and S63's invalid slide reference.
+
+## Problem
+
+Connect the remaining procedure problem to reusable instructions, actual
+observations and a designed work environment, while preserving all recorded
+successes, causal limits and the ACT4 conceptual/meta separation.
+
+## Decision
+
+Keep93slides/379minutes, ACT3 S50–S67/85minutes and all per-slide budgets,
+Mode allocations and identities. S50 briefly orients work methods/environment;
+S51 distinguishes maintenance responsibility; S52 applies three roles to one
+normalize task; S53 selects a shared procedure home. S54 introduces brightness
+statistics and separates discovery/invocation/body evidence. S55 pairs exact
+Skill excerpts with retained observations in a native table; S56 separates
+method from answer. Keep S57 candidate direction and S58 formal state data.
+
+Use S59 for the existing conceptual C++ independent investigations before
+S60 recovers the current no-Subagent decision. Use S61 for an explicit
+cross-task knowledge-management model before S62 recovers the original-source
+audit/no-extra-Memory decision. S63 shows actual assets, S64 their work-system
+relationship, S65 bounded external conditions, S66 the approved C++ transfer
+illustration and S67 maintenance ownership with the ACT4 handoff.
+
+## Rationale
+
+Each slide advances from a question to source evidence or a distinct design
+choice. Problem and potential use precede conditional decisions, while the
+completed Harness remains late in the chapter. Concrete task roles avoid
+repeating feature names or turning the chapter into an optimization tutorial.
+
+## Alternatives
+
+Keep only a shorter Prompt/Skill comparison: leaves procedure content implicit.
+Add more slides: unnecessary once roles are separated within the existing18.
+Invent a successful Subagent or Memory run: unsupported and unauthorized.
+Remove conditional choices: loses the minimum-effective-system judgment.
+
+## Trade-offs
+
+The internal scenario/decision order changes; all original observations and
+criteria remain represented. S59/S61 explicitly use CONCEPTUAL/TEACHING_MODEL;
+S60/S62 retain the current decision/source audits, not product-feature runs.
+Current field details move to Notes where they are not needed on screen.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-005–010, INV-VERIFY-001,
+INV-DEMO-004, INV-RESEARCH-004.
+
+## Affected Artifacts
+
+ACT3 factory overlay, Map/template/visual/claim documents, current Story and
+production routers,19-field ACT3/Full Notes, relevant Demo runbooks/fallback
+identities, Full/ACT3 PPTX and previews. Other ACT packages, Demo repository,
+State tags, approved image files and presenter bundles are unchanged.
+
+## Evidence
+
+Latest user instruction and whole-ACT3 review; STATE-04 SKILL.md;
+TRIAL-006/007/008 retained Matrix records; DEC-0017/0018/0019/0021;
+STATE-04→STATE-04-PERF measurements. No new Trial, experiment, product replay,
+Subagent/Memory execution or stronger effect claim.
+
+## Training Relevance
+
+YES — trace procedure text to recorded work, choose components for a problem
+and retain source, scope and maintenance responsibility.
+
+## Follow-up
+
+Render all Full93 and ACT3 18slides. Review all revised slides and boundaries,
+compare75 unchanged Full PNGs and all other ACT packages, verify93×19 Notes,
+native tables S47/S55, chart S58, budgets, links and fallback hashes.
+Keep Windows/room/product/account/timed rehearsal UNVERIFIED. Commit normal
+project outputs to existing origin/main without force; keep bundles paused.

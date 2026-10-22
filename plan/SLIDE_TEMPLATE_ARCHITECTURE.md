@@ -62,6 +62,8 @@ Evidence Type을 기준으로 하나씩 배정한다.
 
 ### T03 — Mental Model / System Diagram
 
+- **DEC-0062 bounded application:** ACT3의 S59는 기존 C++ 독립 조사3개와 주 Agent의 통합을 연결하고 S61은 Task A→보존 가치 판단→Task B를 연결하는 기존 T03-C다. 모두 명시적 CONCEPTUAL/TEACHING_MODEL이며 실제 실행·기억 기능의 결과가 아니다. S60/S62의 T10-B는 현재 사례의 결정·지식 출처 감사와 기준을 별도로 회수한다. S55 T04-A는 지침 발췌와 관찰 요약의 native table이며 새 Template/Variant를 추가하지 않는다. 11개/27개를 유지한다.
+
 - **DEC-0061 bounded application:** S40의 T03-C는 교육용 요청→보존된 코드 일부→세 확인 질문의 관계다. 주요 node는5개 이내이며 연결은 교육용 확인 관계이고 새 실행 기록이 아니다. RepoQA는 별도 보조 연구 영역으로 두고 질문3개를 논문의 채점 기준으로 돌리지 않는다. 새 Template/Variant는 추가하지 않는다.
 
 - **DEC-0060 bounded application:** S48은 네 개별 관찰을 교육에서 확인한 순서로 연결하는 T03-A recap이다.4개 node와 관련 State/Trial을 표시하고, 연결선은 인과 효과가 아니라 Story 진행 순서를 뜻한다. 최대5개 node 규칙 안에서 구현하며 새로운 Template/Variant를 만들지 않는다.
