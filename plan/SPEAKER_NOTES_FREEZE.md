@@ -1,6 +1,7 @@
 # STEP 08 — Speaker Notes Freeze
 
-> **현재 번호 기준: DEC-0043 / 90장 (2026-10-21).** S01–S21은 유지하고 기존 S22–S82를 S30–S90으로 옮긴다. 신규 S22–S29는 실무 Prompt 방법 구간이다. ACT 장수는 10/21/15/18/18/8이다. 기존 장별 시간은 보존하고 신규 8분을 더해 ACT 1 63분·전체 368분으로 확장한다. Mode는 Lecture137/Demo73/Case84/Reflection20/Transition22/Q&A32분이다. [90장 번호 대조·문서 범위](SLIDE_ID_MIGRATION_90.md). 과거 Prototype·Decision·실제 Asset 경로·검증 결과의 당시 번호는 보존한다.
+> **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
+
 
 Date: 2026-10-11
 
@@ -12,7 +13,7 @@ Related decision: DEC-0026
 
 ## 1. Purpose and Authority
 
-이 문서는 승인된 90장 PPT의 Notes 제작 기준을 동결한다. 새로운 강의 내용,
+이 문서는 승인된 93장 PPT의 Notes 제작 기준을 동결한다. 새로운 강의 내용,
 Slide 역할, Story, Evidence, Claim 또는 시간 배분을 설계하지 않는다.
 
 - Slide ID, Story, Evidence reference, Slide별 시간과 Mode: `SLIDE_MAP.md`
@@ -81,21 +82,21 @@ Architecture에서 지정한 상태를 유지한다: `NOT STARTED`, `DRAFT`,
 |---|---|---:|---:|
 | ACT 0 | S01–S10 | 10 | 40분 |
 | ACT 1 | S11–S31 | 21 | 63분 |
-| ACT 2 | S32–S46 | 15 | 70분 |
-| ACT 3 | S47–S64 | 18 | 85분 |
-| ACT 4 | S65–S82 | 18 | 80분 |
-| ACT 5 | S83–S90 | 8 | 30분 |
-| **전체** | **S01–S90** | **90** | **368분** |
+| ACT 2 | S32–S49 | 18 | 81분 |
+| ACT 3 | S50–S67 | 18 | 85분 |
+| ACT 4 | S68–S85 | 18 | 80분 |
+| ACT 5 | S86–S93 | 8 | 30분 |
+| **전체** | **S01–S93** | **93** | **379분** |
 
 | Mode | 시간 |
 |---|---:|
-| Lecture | 137분 |
+| Lecture | 143분 |
 | Demo | 73분 |
-| Case | 84분 |
-| Reflection | 20분 |
+| Case | 88분 |
+| Reflection | 21분 |
 | Transition | 22분 |
 | Q&A | 32분 |
-| **전체** | **368분** |
+| **전체** | **379분** |
 
 각 Slide의 Mode 순서는 배정 시간의 의미를 바꾸지 않는 운영 순서다. Mode별
 합계와 Slide별 시간이 정확히 맞아야 하며, setup은 배정된 운영 기준을 따른다.
@@ -108,12 +109,12 @@ DEC-0036 추가 경계: S08의 Codex 메뉴는 공식자료 기반 재구성이�
 | Slide | 동결할 진행 순서 / 근거 | 반드시 유지할 경계 |
 |---|---|---|
 | S18 | TRIAL-002의 crop 수정과 실제 기록된 check를 연결 | Crop은 `[x_start, x_end)` 계약이며 `row[x_start:x_end]`가 구현이다. 단일 CLI Trial 범위다. |
-| S45 | TRIAL-005A/B의 Task별 문서 접근을 비교 | 관찰된 접근 차이와 해석을 분리한다. Perfect routing은 입증되지 않았고 token 절감·성능 향상은 측정되지 않았다. |
-| S55 | STATE-04 → STATE-04-PERF의 benchmark와 verification | 값은 기록된 workload·환경에 한정한다. Harness를 단독 원인으로 돌리지 않고 `tracemalloc` peak를 RSS로 말하지 않는다. |
-| S64 | Reflection 3분 → Q&A 5분 → Transition 2분 | 총 10분. Transition이 다음 Story로 마지막 handoff를 한다. DEC-0025. |
-| S65–S66 | S65 Observed Product → S66 Conceptual Case | STATE-04-PERF endpoint와 구성된 stale-workflow 사례를 섞지 않는다. S66은 Demo Repository의 실제 사건이 아니다. |
-| S76–S77 | S76 Teaching Model → S77 Observed Meta | S76은 과정의 개념 모델, S77은 TRIAL-006의 제작 기록이다. Product code 사건이나 완전한 인과 귀속으로 바꾸지 않는다. |
-| S82 | Case 7분 → Reflection 2분 → Q&A 7분 → Transition 4분 | 정적 시각물과 Speaker-led highlighting을 기본으로 한다. 가상 C++ 사례는 실제 GPU/제품 Trial이 아니며 20분 rehearsal은 UNVERIFIED다. |
+| S47 | TRIAL-005A/B의 Task별 문서 접근을 비교 | 관찰된 접근 차이와 해석을 분리한다. Perfect routing은 입증되지 않았고 token 절감·성능 향상은 측정되지 않았다. |
+| S58 | STATE-04 → STATE-04-PERF의 benchmark와 verification | 값은 기록된 workload·환경에 한정한다. Harness를 단독 원인으로 돌리지 않고 `tracemalloc` peak를 RSS로 말하지 않는다. |
+| S67 | Reflection 3분 → Q&A 5분 → Transition 2분 | 총 10분. Transition이 다음 Story로 마지막 handoff를 한다. DEC-0025. |
+| S68–S69 | S68 Observed Product → S69 Conceptual Case | STATE-04-PERF endpoint와 구성된 stale-workflow 사례를 섞지 않는다. S69은 Demo Repository의 실제 사건이 아니다. |
+| S79–S80 | S79 Teaching Model → S80 Observed Meta | S79은 과정의 개념 모델, S80은 TRIAL-006의 제작 기록이다. Product code 사건이나 완전한 인과 귀속으로 바꾸지 않는다. |
+| S85 | Case 7분 → Reflection 2분 → Q&A 7분 → Transition 4분 | 정적 시각물과 Speaker-led highlighting을 기본으로 한다. 가상 C++ 사례는 실제 GPU/제품 Trial이 아니며 20분 rehearsal은 UNVERIFIED다. |
 
 ## 5. Evidence, Claim, and Product Gate
 
@@ -131,22 +132,22 @@ DEC-0036 추가 경계: S08의 Codex 메뉴는 공식자료 기반 재구성이�
 
 ## 6. Fallback Gate
 
-S18, S45, S77의 fallback 상태는 현재 모두 `PLANNED`다.
+S18, S47, S80의 fallback 상태는 현재 모두 `PLANNED`다.
 
 | Slide | 사용 가능한 기록 | 현재 상태 |
 |---|---|---|
 | S18 | `DEMO_MATRIX.md`의 TRIAL-002 기록; `prototype/preview/v2/S16.png` | PLANNED. PNG는 재구성된 prototype copy이며 실제 Trial screenshot이 아니다. |
-| S45 | TRIAL-005A/B 기록; `prototype/preview/v2/S35.png` | PLANNED. PNG는 재구성된 접근 matrix이며 raw access log가 아니다. |
-| S77 | TRIAL-006 기록; `prototype/preview/v2/S67.png` | PLANNED. PNG는 재구성된 timeline이며 CLI screenshot이 아니다. |
+| S47 | TRIAL-005A/B 기록; `prototype/preview/v2/S35.png` | PLANNED. PNG는 재구성된 접근 matrix이며 raw access log가 아니다. |
+| S80 | TRIAL-006 기록; `prototype/preview/v2/S67.png` | PLANNED. PNG는 재구성된 timeline이며 CLI screenshot이 아니다. |
 
 선택된 최종 자료의 파일·경로·내용을 확인하기 전에는 어느 것도 `READY`로
 올리지 않는다. 기록, prototype copy, raw capture는 서로 구분해 표기한다.
 Fallback이 없거나 검증되지 않은 HYBRID Demo는 최종 발표용으로 승인하지
 않는다. 실행 실패 시 대체 경로를 실제 발표 흐름 안에서 확인한다.
 
-## 7. S82 Rehearsal Gate
+## 7. S85 Rehearsal Gate
 
-S82는 Case 0–7분, Reflection 7–9분, Q&A 9–16분, Transition 16–20분이다.
+S85는 Case 0–7분, Reflection 7–9분, Q&A 9–16분, Transition 16–20분이다.
 질문이 없는 경우의 fallback question과 16분 cutoff cue는 Pilot에 기록돼
 있다. 실제 timed rehearsal, 청중 Q&A, 운영 속도 검증은 수행되지 않았으므로
 `UNVERIFIED`로 유지한다. 운영 Cue는 완성 Notes나 검증 완료 판정이 아니다.
@@ -159,8 +160,8 @@ S82는 Case 0–7분, Reflection 7–9분, Q&A 9–16분, Transition 16–20분�
 - 실제 교육 계정과 선택한 Codex 제품 표면의 current-state 확인.
 - Live Demo 실행 경로와 Fallback의 실제 점검 및 rehearsal.
 - 대상 화면에서 Safe Area, citation, Evidence frame 확인.
-- S82의 timed 20분 rehearsal.
-- 선택된 최종 S18/S45/S77 자료의 파일과 내용 확인.
+- S85의 timed 20분 rehearsal.
+- 선택된 최종 S18/S47/S80 자료의 파일과 내용 확인.
 
 Mac / LibreOffice 렌더링은 Windows 검증을 대신하지 않는다. 최종 Gate의
 증거가 기록되기 전에는 관련 항목을 UNVERIFIED로 둔다.
@@ -177,8 +178,8 @@ Notes는 Slide Map, Claim Freeze, 승인된 Decision, Demo evidence를 구현한
 - Notes Architecture에 정의된 schema: 19 fields.
 - Pilot: 7개 Slide이며 각 Notes는 19 fields를 포함한다.
 - Pilot 검토: `COMPLETE WITH OPEN ITEMS`; 이는 문서 검토이지 rehearsal이 아니다.
-- S64/S82 순서: DEC-0025와 일치.
-- 90 Slides, ACT별 40/63/70/85/80/30분, Mode별 137/73/84/20/22/32분 유지.
+- S67/S85 순서: DEC-0025와 일치.
+- 93 Slides, ACT별 40/63/81/85/80/30분, Mode별 143/73/88/21/22/32분 유지.
 - 미검증 제품·Windows·fallback·rehearsal Gate는 미해결로 유지.
 
 ## 11. Next Readiness

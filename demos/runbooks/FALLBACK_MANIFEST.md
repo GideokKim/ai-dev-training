@@ -1,114 +1,78 @@
 # Static Fallback Manifest
 
-> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+Status: READY — DEC-0060 local static-file inventory only (2026-10-22).
+No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
-Status: READY for DEC-0043 local static playback only. Finalized files, displayed IDs, dimensions, Notes/preview parity and hashes were checked after rendering. This is not current-product, raw-Trial, Windows or room approval.
-
-## Provenance
-
-- Current content check: DEC-0059 contrasts S46 organized Context with repeated procedure in two teaching request panels and a Harness handoff. All29 Demo fallback PNGs remain unchanged; refresh the current Full PPT identity. See production/evaluation/S46_WORKFLOW_HANDOFF_REVISION.md.
-
-- Previous content check: DEC-0058 compares actual S45 Crop/dependency document access and interpretation limits. Update the DEMO-06 S45 static fallback hash; the other28 Demo fallback PNGs remain unchanged. Refresh the current Full PPT identity. See production/evaluation/S45_ACCESS_COMPARISON_REVISION.md.
-
-- Previous content check: DEC-0057 connects S44 observed access, crop specification and recorded answer with interpretation limits. All29 Demo fallback PNGs remain unchanged; the current Full PPT identity is refreshed. See production/evaluation/S44_CROP_EVIDENCE_REVISION.md.
-
-- Previous content check: DEC-0056 frames S43 read-only requests and neutral watch questions without outcomes. All29 Demo fallback PNGs remain unchanged; the current Full PPT identity is refreshed. See production/evaluation/S43_PROMPT_WATCH_REVISION.md.
-
-- Previous content check: DEC-0055 shows S42 before/after document reorganization and retained core facts. The DEMO-06 S42 static fallback hash is updated; the other28 Demo fallback PNGs remain unchanged. See production/evaluation/S42_DOCUMENT_SPLIT_REVISION.md.
-
-- Previous content check: DEC-0054 distinguishes S41 shared guidance and task-dependent details. All29 Demo fallback PNGs remain unchanged; the current Full PPT identity is refreshed. See production/evaluation/S41_CORE_DETAIL_REVISION.md.
-
-- Previous content check: DEC-0053 diagrams S40 task request, AGENTS.md guidance and relevant detail. All29 Demo fallback PNGs remain unchanged; the current Full PPT identity is refreshed. See production/evaluation/S40_CONTEXT_PATH_REVISION.md.
-
-- Previous content check: DEC-0052 clarifies S39 research tasks and transfer limits. All29 Demo fallback PNGs remain unchanged; the current Full PPT identity is refreshed. See production/evaluation/S39_RESEARCH_SCOPE_REVISION.md.
-
-- Previous content check: DEC-0051 diagrams S38 common guidance, task detail and reusable procedure. All29 Demo fallback PNGs remain unchanged; the current Full PPT identity is refreshed. See production/evaluation/S38_CONTEXT_MODEL_REVISION.md.
-
-- Previous content check: DEC-0050 corrects both S37 right-hand groups to AGENTS.md contents and preserves the actual request. Its static fallback hash is updated; other28 fallback PNGs remain unchanged. See production/evaluation/S37_AGENTS_CONTEXT_REVISION.md.
-
-- Previous content check: DEC-0049 revises S37 actual request and task-specific Context relevance. Its static fallback hash is updated; other28 fallback PNGs remain unchanged. See production/evaluation/S37_CONTEXT_RELEVANCE_REVISION.md.
-
-- Previous content check: DEC-0048 revises the S36 document-growth presentation. All29 Demo fallback PNGs remain unchanged; the current Full PPT identity is refreshed. See production/evaluation/S36_CONTEXT_GROWTH_REVISION.md.
-
-- Previous content check: DEC-0047 revises the S35 scope/lifetime teaching diagram. All29 Demo fallback PNGs remain unchanged; the current Full PPT identity is refreshed. See production/evaluation/S35_CONTEXT_PLACEMENT_REVISION.md.
-
-- Previous content check: DEC-0046 revises S34 actual prompt/outside annotation and scoped instruction-use emphasis. Its fallback hash is updated; the other28 fallback PNGs are unchanged. See production/evaluation/S34_GUIDANCE_REVISION.md.
-
-- Previous expression check: DEC-0045 separates the usage label on S22–S29. All29 fallback PNGs remain byte-identical; the source PPT identity is refreshed. See production/evaluation/PROMPT_USAGE_LABEL_REVISION.md.
-
-- Previous content check: DEC-0044 changes only S17. All29 fallback PNGs remain byte-identical; the source Full PPT hash was refreshed after final rendering. See production/evaluation/S17_REQUEST_ACTION_REVISION.md.
-
-- Previous content/numbering check: DEC-0043 adds eight conceptual request examples. All29 static fallback PNGs were reopened for dimensions/hash and matched to their integrated/ACT positions. Existing Trial/State evidence is unchanged. See production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md.
-
-- Previous content check: DEC-0042 ACT 1 request-to-evidence connections. S18/S19 labels now connect the actual request to the diff and checks; the other 27 fallback PNGs remain unchanged. All 29 identities and current source-PPT hash were rechecked. See production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md.
-- Previous content check: DEC-0041 preserved the 29 fallback PNGs while refining S21; see production/evaluation/S21_ASSERTION_SPEC_REVISION.md.
-
-- Previous content check: 2026-10-21 (Asia/Seoul), DEC-0039. S17/S18 changed; the other 80 slide renders are byte-identical to the previous production. See production/evaluation/PROMPT_FLOW_REVISION.md.
-- Previous numbering alignment: 2026-10-21 (Asia/Seoul), DEC-0038. That release used82-slide IDs; final render, local path and file identity checks are complete. See production/evaluation/PROMPT_TIMELINE_REVISION.md and plan/SLIDE_ID_MIGRATION_82.md.
-- Previous numbering alignment: DEC-0036/0037 used 81 slides. Their reports and hashes are historical. The original DEC-0036 mapping remains in plan/SLIDE_ID_MIGRATION.md.
-- Current static file-identity/path check: 2026-10-22 for DEC-0059, after finalized-package rendering. Existing ZIP integrity describes the prior package; no bundle is regenerated. Target-PC offline playback and rehearsal remain UNVERIFIED.
+## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Current source SHA-256: `4af38de4f4af7bac882af040f155d3e7fe8af37637713b340c84aceb92962a25`
-- Renderer: Artifact Tool reimport of the finalized PPTX, rasterized at 1920×1080.
-- Host: macOS 26.6.2 (25G83).
-- Current preview inventory:90 files (`S01.png`–`S90.png`), each1920×1080; montage1920×6210.
-- DEC-0038 keeps S01–12 IDs, inserts S13 and shifts previous S13–81 to S14–82. ACT counts are 10/13/15/18/18/8. S12 Case4 is split into S12 Case2 plus S13 Case2, retaining 360 minutes, Mode totals and Demo State evidence. Historical file paths and ZIP contents remain unchanged.
-- Every image below is a rendered slide, not a terminal screenshot, video recording, or newly run Trial.
+- Source SHA-256: `95a04cb9b9a29b9e755490a1741b6181e7c60ebb1ddf3974541aee4f7a2ff9fb`
+- Full Notes SHA-256: `efc65f3b50d3655d5a083a721f8552b6a96150a4d95be3b1eb0896d2b2b8ddcd`
+- Full montage SHA-256: `e876c216541f91715041488efc88d314fb635b6cae055063352c3d9a629b4f98`
+- Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
+- Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
+- Current Full inventory:93slides; current static fallback PNG inventory:31.
+- The prior29 fallback pages are migrated by SLIDE_ID_MIGRATION_93.md;
+  S45 and S46 add available case-summary alternatives. They add no Demo time.
+- DEMO-06 remains5Demo minutes (S37:2/S43:2/S47:1); S45/46 have separate
+  scheduled Case allocations, never counted as extra Demo minutes.
+- Rendered slide summaries are not raw Trial screenshots or new executions.
+- Prior static readiness, hashes and29-file inventories remain in Git and
+  their dated evaluation reports. No presenter bundle is regenerated.
 
-## Runbook to Fallback Mapping
+## Runbook to fallback mapping
 
 - `DEMO-01`: `production/preview/full/S04.png`, `production/preview/full/S05.png`, `production/preview/full/S06.png`
 - `DEMO-02`: `production/preview/full/S32.png`, `production/preview/full/S33.png`, `production/preview/full/S34.png`
-- `DEMO-03`: `production/preview/full/S51.png`, `production/preview/full/S52.png`
-- `DEMO-04A`: `production/preview/full/S66.png`, `production/preview/full/S67.png`
-- `DEMO-04B`: `production/preview/full/S77.png`, `production/preview/full/S78.png`, `production/preview/full/S79.png`
+- `DEMO-03`: `production/preview/full/S54.png`, `production/preview/full/S55.png`
+- `DEMO-04A`: `production/preview/full/S69.png`, `production/preview/full/S70.png`
+- `DEMO-04B`: `production/preview/full/S80.png`, `production/preview/full/S81.png`, `production/preview/full/S82.png`
 - `DEMO-05`: `production/preview/full/S18.png`, `production/preview/full/S19.png`
-- `DEMO-06`: `production/preview/full/S37.png`, `production/preview/full/S42.png`, `production/preview/full/S45.png`
-- `DEMO-07`: `production/preview/full/S56.png`, `production/preview/full/S57.png`
-- `DEMO-08`: `production/preview/full/S58.png`
-- `DEMO-09`: `production/preview/full/S60.png`, `production/preview/full/S61.png`
-- `DEMO-10`: `production/preview/full/S74.png`
-- `DEMO-11`: `production/preview/full/S69.png`, `production/preview/full/S70.png`
-- `DEMO-12`: `production/preview/full/S83.png`, `production/preview/full/S84.png`
-- `LOOP-VISUAL`: `production/preview/full/S76.png`
+- `DEMO-06`: `production/preview/full/S37.png`, `production/preview/full/S43.png`, `production/preview/full/S45.png`, `production/preview/full/S46.png`, `production/preview/full/S47.png`
+- `DEMO-07`: `production/preview/full/S59.png`, `production/preview/full/S60.png`
+- `DEMO-08`: `production/preview/full/S61.png`
+- `DEMO-09`: `production/preview/full/S63.png`, `production/preview/full/S64.png`
+- `DEMO-10`: `production/preview/full/S77.png`
+- `DEMO-11`: `production/preview/full/S72.png`, `production/preview/full/S73.png`
+- `DEMO-12`: `production/preview/full/S86.png`, `production/preview/full/S87.png`
+- `LOOP-VISUAL`: `production/preview/full/S79.png`
 
-## Fallback File Integrity
+## Current static-file identities
 
-The hashes below were rechecked at DEC-0042; S18/S19 changed and the other 27 PNGs remain unchanged. READY covers the availability and identity of local static files only.
+| Slide | Path | Dimensions | SHA-256 |
+|---|---|---|---|
+| S04 | `production/preview/full/S04.png` |1920×1080| `2101e6b81bf3652bb64b80298308379de8f5b48a985443b66494c835a055d86f` |
+| S05 | `production/preview/full/S05.png` |1920×1080| `5255f7aca6a749113c406011bbd65b01453e9223105a1738c10fdc1982ae1925` |
+| S06 | `production/preview/full/S06.png` |1920×1080| `b8bec2cf56669b7a417db5969e8a72162867f6ad89b0bdf61264cb2ee95da577` |
+| S18 | `production/preview/full/S18.png` |1920×1080| `ae1f5b000362597f3f803587c282f549bbf3b84151a7532c33704bac4b0c4269` |
+| S19 | `production/preview/full/S19.png` |1920×1080| `d6cec7cd3452ada803289c47f9563d36d5473c4e1f9fa0b48fc2cbf3d892541e` |
+| S32 | `production/preview/full/S32.png` |1920×1080| `7a94016d61f88d3afb8e21421380bae00e64a209da974669b18a7af9eb055ae2` |
+| S33 | `production/preview/full/S33.png` |1920×1080| `43289d536f56044197bc9c1605a7f3da496aec31400680a3c59b826a08382f53` |
+| S34 | `production/preview/full/S34.png` |1920×1080| `34ee1cd2fbcbbbf93a7b9ef03d1f93da8f3869d17fa41105e7bda1153e891032` |
+| S37 | `production/preview/full/S37.png` |1920×1080| `1c1f53503fe7dd91543b468440f1f694111d4b6d9c2214b5a4ab7181cb9fcae9` |
+| S43 | `production/preview/full/S43.png` |1920×1080| `07deebb09e79f8a513a58a5182ead57186f077220c0b608de111328b7de3710d` |
+| S45 | `production/preview/full/S45.png` |1920×1080| `0a2ead861431b9e95c90fba0e59a3061b4844dee433c00f7668496eabe47fba2` |
+| S46 | `production/preview/full/S46.png` |1920×1080| `6f8a1fa302b4239fd7f078cd3559eafefa3b48cf84599b158244e893452b113a` |
+| S47 | `production/preview/full/S47.png` |1920×1080| `bbf43ab3e8279fa8df136e6393dbd434650df6689af065c16d372424a45490ee` |
+| S54 | `production/preview/full/S54.png` |1920×1080| `6dc4634074d099415a7d1ec03852461c935b802cb101a0e2cd1222496b1f95d4` |
+| S55 | `production/preview/full/S55.png` |1920×1080| `fad2b84fa6ae647c6d4d119fb58a6b827d1d20310f828c1016037dc565ae4a58` |
+| S59 | `production/preview/full/S59.png` |1920×1080| `d77ffeecc493c06b662bdd9d2665fd49275d5049675da402cce19ce72604bc7b` |
+| S60 | `production/preview/full/S60.png` |1920×1080| `2d6ff3b0f0d648b4ee66d6dcb45e61954913c8e42355f5fb4c948864528a7dd1` |
+| S61 | `production/preview/full/S61.png` |1920×1080| `6d85be5a632efd27894802ad498bab9c8da581eec852f7eef340fc9c175df8cc` |
+| S63 | `production/preview/full/S63.png` |1920×1080| `80fdfadc3da2c9f2a6e469cc933b7bb2536ee6c29c54b0d59b3aebcc5ef5b7c6` |
+| S64 | `production/preview/full/S64.png` |1920×1080| `a1c86a990b54acc09af38f4becdba89ec76df7da7658ad296285e90f00cab147` |
+| S69 | `production/preview/full/S69.png` |1920×1080| `f83e50d7df3c3bbfc75cf8409b4cc4de064721ba3cd38e75a9d9c36b3d5909f1` |
+| S70 | `production/preview/full/S70.png` |1920×1080| `ce50c262dd01173328c361aabe1276644190e1e101aef45c6847a25b2cc784e7` |
+| S72 | `production/preview/full/S72.png` |1920×1080| `8814f3636865cbff90a283ada272fc5db2f357a7479ad4362a36d495c264a081` |
+| S73 | `production/preview/full/S73.png` |1920×1080| `7b1f241ac916e8c7f701fe2f144e9aa3b13d5d439b19334621f55cf3b24277c5` |
+| S77 | `production/preview/full/S77.png` |1920×1080| `343c9925eeb0bb1a4d03ae53baba22312ea15e3570064dc5091e6977b0ad0db4` |
+| S79 | `production/preview/full/S79.png` |1920×1080| `def53823ed0ef2a69d0a2ffb54d91f0916eab6690c5b25f3ff9abb68c50a80d8` |
+| S80 | `production/preview/full/S80.png` |1920×1080| `e2446ef4ba9e6b3569eaf9789ab913b803d712ce072f1fbab8022e80779b9b74` |
+| S81 | `production/preview/full/S81.png` |1920×1080| `828fc2c5a433ba2da9036c60c5c882c6a195677ee0830b5aeb5e34207a4ee665` |
+| S82 | `production/preview/full/S82.png` |1920×1080| `2328e7c65940e52ce3840f697a06b6d764d324a8c6faa09c092f2e09837ea8d8` |
+| S86 | `production/preview/full/S86.png` |1920×1080| `2d9dac6175c8011f2be3dc7244da2fd299d40b1a6a73046615d94308be974095` |
+| S87 | `production/preview/full/S87.png` |1920×1080| `1a7c593cd7d66ee87604e647f3d8e8d41dddd1d5e24abdcc94d7f8d0faccb37f` |
 
-| Slide | Local path | Dimensions | SHA-256 |
-|---|---|---:|---|
-| S04 | `production/preview/full/S04.png` | 1920×1080 | `2101e6b81bf3652bb64b80298308379de8f5b48a985443b66494c835a055d86f` |
-| S05 | `production/preview/full/S05.png` | 1920×1080 | `5255f7aca6a749113c406011bbd65b01453e9223105a1738c10fdc1982ae1925` |
-| S06 | `production/preview/full/S06.png` | 1920×1080 | `b8bec2cf56669b7a417db5969e8a72162867f6ad89b0bdf61264cb2ee95da577` |
-| S18 | `production/preview/full/S18.png` | 1920×1080 | `ae1f5b000362597f3f803587c282f549bbf3b84151a7532c33704bac4b0c4269` |
-| S19 | `production/preview/full/S19.png` | 1920×1080 | `d6cec7cd3452ada803289c47f9563d36d5473c4e1f9fa0b48fc2cbf3d892541e` |
-| S32 | `production/preview/full/S32.png` | 1920×1080 | `7a94016d61f88d3afb8e21421380bae00e64a209da974669b18a7af9eb055ae2` |
-| S33 | `production/preview/full/S33.png` | 1920×1080 | `43289d536f56044197bc9c1605a7f3da496aec31400680a3c59b826a08382f53` |
-| S34 | `production/preview/full/S34.png` | 1920×1080 | `34ee1cd2fbcbbbf93a7b9ef03d1f93da8f3869d17fa41105e7bda1153e891032` |
-| S37 | `production/preview/full/S37.png` | 1920×1080 | `1c1f53503fe7dd91543b468440f1f694111d4b6d9c2214b5a4ab7181cb9fcae9` |
-| S42 | `production/preview/full/S42.png` | 1920×1080 | `7b148ca9c792f406e16ca33729ca07224c90708625a85d987e399f6b14822963` |
-| S45 | `production/preview/full/S45.png` | 1920×1080 | `afca63da3001056dc9f2063004ab418154ca7967b0e4bd02dec4de480eb4135d` |
-| S51 | `production/preview/full/S51.png` | 1920×1080 | `860380c7d98a052093ab66a6ec95ed36b0057116671abb2ed29e0fa7a8e6aeeb` |
-| S52 | `production/preview/full/S52.png` | 1920×1080 | `38a4e2a2d6ad2a07a49560895cf136d84ed7f7d10e3e550d253bc5910586c2cb` |
-| S56 | `production/preview/full/S56.png` | 1920×1080 | `e5d157827821327901468c72ea95722b54481dfff0bac03601e4c08ed157afaa` |
-| S57 | `production/preview/full/S57.png` | 1920×1080 | `92bd6599953f3878ba1b163bb9355523571fbdf3f534e59212a7ecafb23709e1` |
-| S58 | `production/preview/full/S58.png` | 1920×1080 | `fb885b70ba67efd7240eb395e4063bc8f5f77caf3c38f93471a84b715c3c9a9b` |
-| S60 | `production/preview/full/S60.png` | 1920×1080 | `7ca613a20fb1e5199036abb3a6aa42dadfc856be919b3db05698e59ff1304037` |
-| S61 | `production/preview/full/S61.png` | 1920×1080 | `646d6dc89734c9935495767beb14577e2efd09fb9eadb1fe1fc8bc803ade557b` |
-| S66 | `production/preview/full/S66.png` | 1920×1080 | `edee10941eb72838e373f6e50a10aacce44b7d6daa0318851b8fda2c13ddd890` |
-| S67 | `production/preview/full/S67.png` | 1920×1080 | `ae21482a2e4fecec8e1d117030bdd6b7c3bac9181117065ec43c2aa84154a9e7` |
-| S69 | `production/preview/full/S69.png` | 1920×1080 | `1ff5815c78f8a2f23dec69918e6173ccf191d2c2ad155aec0227f9534fe5ec3a` |
-| S70 | `production/preview/full/S70.png` | 1920×1080 | `dc76c72473cb592bbf48cbfea481b57956174e9070d00a5481a6769f36234105` |
-| S74 | `production/preview/full/S74.png` | 1920×1080 | `cf324f8eb520a3a9d16d9525e63429de07ff20e642fb1981fd91b5d8580e6f8f` |
-| S76 | `production/preview/full/S76.png` | 1920×1080 | `e45043a4c9dfd3a19e8bdc7d1becd9a914155e8a2ed9fa9f59aa93c0b5c3a60c` |
-| S77 | `production/preview/full/S77.png` | 1920×1080 | `ec80bd8dbc7a18e410c37ea6b1c40f06904cbd9abbfa17917077537f2830388e` |
-| S78 | `production/preview/full/S78.png` | 1920×1080 | `1d34b93152d4af88269602a254ecdc378be47b3f55eb6885d5d0abf0183b7abe` |
-| S79 | `production/preview/full/S79.png` | 1920×1080 | `815a85188691400c40360be4a65f08706fc9493b2dd1b03381ea0c8b77c965ba` |
-| S83 | `production/preview/full/S83.png` | 1920×1080 | `f3ad64190c2e663381781ad7e16fe88459c9da595aaa541dcdbf8707eb4f2b53` |
-| S84 | `production/preview/full/S84.png` | 1920×1080 | `0d59cd00e128b16121b09cdda8ea0423e17354eeeccdf95b94a7b7d86d9347d5` |
+## Playback boundary
 
-## Playback Boundary
-
-Runbook fallback is the default prepared path. Opening these files validates local access and display only. Codex Desktop/account permissions, Windows PowerPoint, actual room projection, time-bound instructor operation, and live fallback transitions remain UNVERIFIED until the checklist is completed.
+Use local PPT/PNG in Story order. Live/Hybrid stays conditional on the selected account/product/environment and fallback rehearsal. Missing raw captures are not READY merely because a reconstructed slide exists. Windows PowerPoint, target fonts, classroom projection and timed operation remain UNVERIFIED. Demo repository code/tags are unchanged.

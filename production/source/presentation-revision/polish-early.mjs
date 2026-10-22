@@ -128,7 +128,7 @@ S35:make('S35','Task Prompt와 Project Context','ACT 2 · 정보의 범위와 �
     text(s,'Task Prompt',64,281,548,45,34,C.ink,true);
     text(s,'Project Context',668,281,548,45,34,C.ink,true);
     text(s,'지금 원하는 결과',64,335,548,34,26,C.sub,true);
-    text(s,'계속 참이어야 할 사실',668,335,548,34,26,C.teal,true);
+    text(s,'계속 유지할 정보·규칙',668,335,548,34,26,C.teal,true);
     rect(s,64,382,300,146,C.white,C.line,1.5);
     rect(s,668,382,308,146,C.white,C.teal,1.5);
     text(s,'작업별 요청 예',80,391,268,27,21,C.sub,true);
@@ -186,7 +186,7 @@ S39:make('S39','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 
     text(s,'이 연구만으론 미입증',64,566,230,31,22,C.warn,true);
     text(s,'현재 Codex의 실패율·보편 한계·Routing 개선 효과',320,566,896,32,24,C.ink);
   }),
-S40:make('S40','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상세 정보의 탐색 경로',
+S41:make('S41','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상세 정보의 탐색 경로',
   '교육용 탐색 모델 · 저장된 명세 기반 재구성 · 실제 읽기 순서가 아님',
   '자동 탐색 성공·성능 향상·토큰 절약을 입증한 그림이 아님','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{
@@ -212,7 +212,7 @@ S40:make('S40','필요한 상세 정보로 가는 길','ACT 2 · 필요한 상�
     text(s,'AGENTS.md가 필요한 상세 문서의 위치를 안내한다',64,532,1152,37,29,C.teal,true);
     text(s,'C++도 같은 흐름: 공통 제약 확인 → 해당 알고리즘 명세',64,575,1152,29,23,C.sub);
   }),
-S41:make('S41','AGENTS.md에는 무엇을 남길까?','ACT 2 · 기본 안내와 작업별 상세',
+S42:make('S42','AGENTS.md에는 무엇을 남길까?','ACT 2 · 기본 안내와 작업별 상세',
   '교육용 정보 배치 모델 · 보존된 문서의 요약 · 실제 자동 로딩 결과가 아님',
   '상세 정보 접근·성능 향상·토큰 절약을 이 그림으로 검증하지 않음','TEACHING_MODEL',
   (s,{C,text,rect})=>{

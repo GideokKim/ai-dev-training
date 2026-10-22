@@ -1,10 +1,11 @@
 # DEMO-04B — Observed Training Production Meta Case
 
-> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+> Current references: DEC-0060 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+
 
 Planning Status: APPROVED SUPPORTING META ROLE
 
-Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0060 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-058–059
 
@@ -68,7 +69,7 @@ Evidence limit: No Product state change, MCP task-result use, full environment i
 
 ## Estimated Time
 
-8m: S77 2m + S78 4m + S79 Demo 2m.
+8m: S80 2m + S81 4m + S82 Demo 2m.
 
 Phase plan: 2m timeline → 4m attribution → 2m reporting boundary.
 
@@ -92,13 +93,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S77.png`, `production/preview/full/S78.png`, `production/preview/full/S79.png`
+Default is the offline static presentation. Open: `production/preview/full/S80.png`, `production/preview/full/S81.png`, `production/preview/full/S82.png`
 
-Show S77–S79; preserve the report/stderr discrepancy as unresolved.
+Show S80–S82; preserve the report/stderr discrepancy as unresolved.
 
-Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
+Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0038 current slide numbering. Check final PPTX/PNG identity and fallback hashes in FALLBACK_MANIFEST.md and production/evaluation/PROMPT_TIMELINE_REVISION.md after rendering. DEC-0033–0037 records remain historical. This is not a target-PC playback test, raw terminal screenshot, recording, new Trial or rehearsal.
+Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -108,7 +109,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S79 → S80: follow-up records improved but remained partial.
+S82 → S83: follow-up records improved but remained partial.
 
 ## Evidence
 

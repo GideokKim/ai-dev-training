@@ -52,15 +52,15 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Category: Training Identity
 - Strength: HARD
 - Rule: This is a developer training about ChatGPT and Codex in AI-Native
-  Development. The current approved net duration is 368 minutes under
-  DEC-0043, with all original 360-minute slide allocations retained and eight
-  additional minutes for practical Prompt methods.
+  Development. The current approved net duration is 379 minutes under
+  DEC-0060, within the user-authorized720-minute ceiling. Preserve the
+  existing90-slide content/time and add11minutes for bounded ACT2 explanations.
 - Historical Rule: The initial requirement was six hours / 360 minutes; the
   user explicitly authorized the extension on 2026-10-21.
 - Rationale: The audience, subject, and duration define the scope of the
   training.
 - Source: plan/MASTER_PLAN.md §§1.1–1.2
-- Validation: Does the material preserve the developer scope and the current user-approved368-minute schedule under DEC-0043?
+- Validation: Does the material preserve the developer scope and the current user-approved379-minute schedule and720-minute ceiling under DEC-0060?
 - Change Policy: Require explicit user approval before changing the scope or
   duration.
 
@@ -854,7 +854,7 @@ affected work proceeds.
 
 | Invariant ID | Category | Strength | Validation Question |
 | --- | --- | --- | --- |
-| INV-IDENTITY-001 | Training Identity | HARD | Does the material preserve the developer scope and the current user-approved368-minute schedule under DEC-0043? |
+| INV-IDENTITY-001 | Training Identity | HARD | Does the material preserve the developer scope and the current user-approved379-minute schedule and720-minute ceiling under DEC-0060? |
 | INV-IDENTITY-002 | Training Identity | HARD | Does it teach AI-use evolution into an Engineering System rather than only features, a manual, or Prompt writing? |
 | INV-AUDIENCE-001 | Audience | HARD | Does it account for the broad experience range and limited time for separate study? |
 | INV-OBJECTIVE-001 | Primary Objective | HARD | Does it raise the shared organizational AI-use baseline above feature breadth or one-level optimization? |

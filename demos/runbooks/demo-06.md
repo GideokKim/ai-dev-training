@@ -1,10 +1,11 @@
 # DEMO-06 — Context Relevance and Routing
 
-> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+> Current references: DEC-0060 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+
 
 Planning Status: CANDIDATE — supporting visual/captured record
 
-Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0060 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-011–017
 
@@ -50,7 +51,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-Task-dependent document access; S45 explicitly says perfect routing, token saving, and performance improvement were not measured.
+Task-dependent document access; S47 explicitly says perfect routing is unproven and token saving/performance improvement were not measured.
 
 ## Success Criteria
 
@@ -58,7 +59,7 @@ Separate Core/Detail teaching model from observed access; avoid a full access-lo
 
 ## Expected Output
 
-Static context map, state structure, and A/B access matrix.
+Static context map, observed state structure, separately recorded A/B answers and access matrix.
 
 ## Verification
 
@@ -68,9 +69,9 @@ Evidence limit: No perfect routing, token saving, or performance gain; Progressi
 
 ## Estimated Time
 
-5m total: S37 Demo 2m + S42 Demo 2m + S45 Demo 1m.
+5m total: S37 Demo 2m + S43 Demo 2m + S47 Demo 1m.
 
-Phase plan: S37 2m → S42 2m → S45 1m.
+Phase plan: S37 2m → S43 2m → S47 1m.
 
 Time Risk: LOW
 
@@ -92,13 +93,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S37.png`, `production/preview/full/S42.png`, `production/preview/full/S45.png`
+Default is the offline static presentation. Demo5minutes: `production/preview/full/S37.png`, `production/preview/full/S43.png`, `production/preview/full/S47.png`. Case-only supporting alternatives: `production/preview/full/S45.png`, `production/preview/full/S46.png`.
 
-Use S37/S42/S45 PNGs in Story order; S45 is a selected observation summary, not raw tool log.
+Use S37/S43/S47 within the five Demo minutes. S45/S46 are additional available case-summary fallbacks for the scheduled A/B Case explanations, not extra Demo time. These are reconstructed summaries, not raw tool logs.
 
-Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
+Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0038 current slide numbering. Check final PPTX/PNG identity and fallback hashes in FALLBACK_MANIFEST.md and production/evaluation/PROMPT_TIMELINE_REVISION.md after rendering. DEC-0033–0037 records remain historical. This is not a target-PC playback test, raw terminal screenshot, recording, new Trial or rehearsal.
+Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -108,7 +109,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S45 → S46: procedure repetition remains after context organization.
+S47 comparison → S48 bounded accomplishments → S49 procedure-maintenance question → S50 retained request comparison.
 
 ## Evidence
 

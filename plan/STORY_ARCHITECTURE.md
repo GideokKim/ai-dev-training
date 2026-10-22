@@ -1,4 +1,21 @@
 # Detailed Story Architecture
+> **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
+
+## 현행 제작 기준과 원본 기획의 관계
+
+아래 본문은 원래 Curriculum/Story 설계와 단계별 승인 이력을 보존한다. 그 안의 이전 장수·시간·당시 Slide 번호를 최신 PPT 번호로 읽지 않는다. 현재 Slide별 배정은 SLIDE_MAP.md,90→93 대조는 SLIDE_ID_MIGRATION_93.md가 기준이다. Beat/Section/Demo/Trial ID와 문제 중심 진화는 유지한다. ACT2에서는 연구 두 과제 분리, B 답변 회수, 성과 회수로11분만 추가한다.
+
+| ACT | 현행 범위 | 장수 | 분 |
+|---|---|---:|---:|
+| ACT0 | S01–S10 |10|40|
+| ACT1 | S11–S31 |21|63|
+| ACT2 | S32–S49 |18|81|
+| ACT3 | S50–S67 |18|85|
+| ACT4 | S68–S85 |18|80|
+| ACT5 | S86–S93 |8|30|
+| 합계 | S01–S93 |93|379|
+
+## 보존된 기획 본문 / 이전 승인 이력
 
 > Status: STEP 07 Story alignment and user gate resolution recorded through
 > 2026-10-02. DEC-0007 is ACCEPTED with the 360-minute mode totals. The primary

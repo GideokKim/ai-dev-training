@@ -55,11 +55,11 @@ S33:(p,H)=>{
 
  return s;
 },
-S55:(p,H)=>{
+S58:(p,H)=>{
  const {C,FONT,CODE,text,rect,line,pixels}=H;
  const frame=(id,act,title,source,boundary,concept=false)=>H.frame(p,id,title,act,source,boundary,concept?'CONCEPTUAL':'OBSERVED_PRODUCT');
 
- const s=frame('S55','ACT 3  ·  Harness로 조사하고 검증하기','Working Harness Success',
+ const s=frame('S58','ACT 3  ·  Harness로 조사하고 검증하기','Working Harness Success',
  'STATE-04 → STATE-04-PERF  |  image_statistics · 합성 1024×768 · CPython 3.9.6 / macOS arm64',
  '동일 입력·상태별 7회 측정 · 이 환경의 코드 변경 결과이며 Harness 단독 효과는 입증하지 않음');
  text(s,'결과가 맞는지 확인하고, 같은 조건에서 비교했다',64,165,1152,43,32,C.teal,true);
@@ -88,11 +88,11 @@ S55:(p,H)=>{
 
  return s;
 },
-S67:(p,H)=>{
+S70:(p,H)=>{
  const {C,FONT,CODE,text,rect,line,pixels}=H;
  const frame=(id,act,title,source,boundary,concept=false)=>H.frame(p,id,title,act,source,boundary,concept?'CONCEPTUAL':'OBSERVED_PRODUCT');
 
- const s=frame('S67','ACT 4  ·  CONCEPTUAL / 가상 사례','Project는 바뀌고 Workflow는 남았다',
+ const s=frame('S70','ACT 4  ·  CONCEPTUAL / 가상 사례','Project는 바뀌고 Workflow는 남았다',
  'DEMO-04A  |  가상 설정 · 실제 Repository 변경 이력이 아님',
  '두 지침의 범위를 비교하는 장 · Agent 실행, 테스트 누락 또는 PASS / FAIL 결과를 뜻하지 않음',true);
  text(s,'가정: 모듈 연결 동작도 검증해야 하는 프로젝트가 됐다',64,169,1152,44,30,C.ink);

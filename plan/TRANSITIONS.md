@@ -1,6 +1,7 @@
 # Story Transitions
 
-> **현재 번호 기준: DEC-0043 / 90장 (2026-10-21).** S01–S21은 유지하고 기존 S22–S82를 S30–S90으로 옮긴다. 신규 S22–S29는 실무 Prompt 방법 구간이다. ACT 장수는 10/21/15/18/18/8이다. 기존 장별 시간은 보존하고 신규 8분을 더해 ACT 1 63분·전체 368분으로 확장한다. Mode는 Lecture137/Demo73/Case84/Reflection20/Transition22/Q&A32분이다. [90장 번호 대조·문서 범위](SLIDE_ID_MIGRATION_90.md). 과거 Prototype·Decision·실제 Asset 경로·검증 결과의 당시 번호는 보존한다.
+> **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
+
 
 > Status: STEP 05 baseline aligned to STEP 07 evidence on 2026-10-01. These
 > transitions carry causal questions between events; they are not chapter
@@ -25,7 +26,7 @@ The 2026-10-20 user-approved continuity revision aligns presentation cues
 without changing Story Beats or evidence paths. Current literal handoffs
 are the Transition fields in `plan/SLIDE_MAP.md` and the matching production
 Notes. The Story-level map below retains its design history; it is not a
-transcript of every current slide. S46 → S47 introduces observed procedure
+transcript of every current slide. S49 → S50 introduces observed procedure
 repetition, not an observed variation failure.
 
 | Connection | Presentation purpose | Boundary |
@@ -42,20 +43,20 @@ repetition, not an observed variation failure.
 | S21 → S22 | Move from requested completion evidence to practical ways of expressing a task request. | Keep the accepted verification example; the new request examples are conceptual and add no Trial. |
 | S22 → S29 | Follow eight bounded request methods from input boundaries through evidence-based revision feedback. | Official recommendations support the examples; no universal recipe, hidden-reasoning demand or measured benefit is claimed. |
 | S29 → S30 | Ask which request conditions remain useful in the next task. | Task/Project classification remains a teaching model and motivates recurring Project Context. |
-| S38 → S39 → S40 | Ask about context amount, view bounded research, then return to relevant-detail design. | Research does not prove current Codex failure or Routing benefits. |
-| S40 → S41 | Move from the discovery route to what belongs in Core Context. | Preserve the distinct roles of the two screens. |
-| S46 → S47 | Ask whether the same procedure must be written again. | Repetition is observed; variation failure is not claimed. |
-| S48 → S49 | Apply the three responsibilities to one normalize task. | Reserve the Skill-reuse question for S50. |
-| S51 → S52 | Compare where a common procedure resides across distinct tasks. | Not a controlled same-task or Skill-superiority comparison. |
-| S55 → S56 → S58 | Review whether additional coordination or retained knowledge was justified. | Current Demo did not add Subagent or separate Memory. |
-| S65 → S66 | Close the observed Product endpoint and begin a separate fictional case. | Do not turn the fiction into Product history. |
-| S69 → S70 | Move from a cause-conditional response to how that cause is checked. | Symptoms alone do not establish a Workflow cause. |
-| S75 → S76 | Combine preceding judgments into the five-stage operating model. | No new execution, automatic learning or completed evaluation. |
-| S76 → S77 | Open the actual case about Trial evaluation and reporting. | Separate Meta history from the stale Workflow fiction. |
-| S81 → S82 → S83 | Transfer the principle to C++ questions, then recall the whole journey. | Hypothetical transfer; preserve S82 timing and operating phases. |
-| S83 → S84 | Review observed Product history within the broader teaching model. | Product history ends at STATE-04-PERF, without an observed Product Loop. |
-| S85 → S86 | Connect component selection to responsibility for accepting results. | No fixed human/Agent division table. |
-| S88 → S89 → S90 | Narrow one friction to one private small action, then take questions and close. | No submission, public commitment or mandatory activity. |
+| S38 → S39 → S41 | Ask about context amount, view bounded research, then return to relevant-detail design. | Research does not prove current Codex failure or Routing benefits. |
+| S41 → S42 | Move from the discovery route to what belongs in Core Context. | Preserve the distinct roles of the two screens. |
+| S49 → S50 | Ask whether the same procedure must be written again. | Repetition is observed; variation failure is not claimed. |
+| S51 → S52 | Apply the three responsibilities to one normalize task. | Reserve the Skill-reuse question for S53. |
+| S54 → S55 | Compare where a common procedure resides across distinct tasks. | Not a controlled same-task or Skill-superiority comparison. |
+| S58 → S59 → S61 | Review whether additional coordination or retained knowledge was justified. | Current Demo did not add Subagent or separate Memory. |
+| S68 → S69 | Close the observed Product endpoint and begin a separate fictional case. | Do not turn the fiction into Product history. |
+| S72 → S73 | Move from a cause-conditional response to how that cause is checked. | Symptoms alone do not establish a Workflow cause. |
+| S78 → S79 | Combine preceding judgments into the five-stage operating model. | No new execution, automatic learning or completed evaluation. |
+| S79 → S80 | Open the actual case about Trial evaluation and reporting. | Separate Meta history from the stale Workflow fiction. |
+| S84 → S85 → S86 | Transfer the principle to C++ questions, then recall the whole journey. | Hypothetical transfer; preserve S85 timing and operating phases. |
+| S86 → S87 | Review observed Product history within the broader teaching model. | Product history ends at STATE-04-PERF, without an observed Product Loop. |
+| S88 → S89 | Connect component selection to responsibility for accepting results. | No fixed human/Agent division table. |
+| S91 → S92 → S93 | Narrow one friction to one private small action, then take questions and close. | No submission, public commitment or mandatory activity. |
 
 ## Transition Map
 

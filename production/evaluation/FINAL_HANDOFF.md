@@ -1,5 +1,51 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+갱신일:2026-10-22 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
+ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
+
+## 현재 발표 자료
+
+| 항목 | 경로 / 식별자 |
+|---|---|
+| 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
+| PPT SHA-256 | `95a04cb9b9a29b9e755490a1741b6181e7c60ebb1ddf3974541aee4f7a2ff9fb` |
+| 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
+| Notes SHA-256 | `efc65f3b50d3655d5a083a721f8552b6a96150a4d95be3b1eb0896d2b2b8ddcd` |
+| 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
+| Montage SHA-256 | `e876c216541f91715041488efc88d314fb635b6cae055063352c3d9a629b4f98` |
+| ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
+| 최신 검토 | [ACT2 흐름 개선](ACT_2_FLOW_REVISION.md) |
+| 번호 대조 | [90→93](../../plan/SLIDE_ID_MIGRATION_93.md) |
+| 정적 Demo 대안 | [31개 파일·범위·해시](../../demos/runbooks/FALLBACK_MANIFEST.md) |
+| 사용자 확인 | [실환경·리허설 체크리스트](USER_VALIDATION_CHECKLIST.md) |
+
+ACT별 시간40/63/81/85/80/30분. Mode143/73/88/21/22/32분은 각각
+Lecture/Demo/Case/Reflection/Transition/Q&A다. 휴식은 별도다.
+
+## 완료된 로컬 확인
+
+93장 Full, ACT2–5 package integrity/layout/reimport와 전체 렌더를 확인했다.
+93개19필드 Notes와 Full/ACT/내장 Notes, 현재 Slide ID·표·차트·정적 대안을
+대조했다. ACT0/1 패키지와 Demo repository는 변경하지 않았다. Claim 경계를
+확대하지 않았고 과거 CLI 기록을 현재 Desktop 검증으로 바꾸지 않았다.
+
+## 사용자가 확인할 남은 조건
+
+- Windows PowerPoint 열기/발표자 보기, 실제 글꼴·한글/코드 줄바꿈.
+- 교육장 투사·원거리 가독성, 실제 장비에서 정적 자료 재생·복귀.
+- 선택한 Codex 계정·제품 표면·권한과 Live/Hybrid 사용 시 fallback.
+- 전체 진행 시간, S67/S85 운영, 질문이 없거나 길어질 때의 cutoff 리허설.
+
+위 항목은 모두 **UNVERIFIED**다. 로컬 파일 검토를 실환경 승인으로 승계하지 않는다.
+발표자 ZIP/HTML 묶음은 계속 중단한다. 이전 묶음을 현재93장 배포본으로 사용하지 않는다.
+
+## 이전90장 전달 안내 — feae727의 원문 보존
+
+아래 날짜·번호·hash·경로·상태는 당시 판본의 이력이다. 현재 파일을 여는 안내와
+검증 식별자는 위 표를 따른다. 과거 파일 자체는 해당 Git commit에서 복구한다.
+
+# 최종 전달 안내 — AI 개발자 교육
+
 갱신일: 2026-10-22 (Asia/Seoul). 현재 번호 기준: DEC-0043, 90장. 최신 내용 수정: DEC-0059.
 S46은 정리한 Project Context와 두 성능 요청의 동일한 조사·검증 절차를 대비하고 Harness 질문으로 연결했다. 교육용 재구성/Prompt 단독 효과 미귀속과 Transition4·Q&A6, 다른89장·시간을 유지했다. 검토: [S46 반복 절차와 Harness 연결](S46_WORKFLOW_HANDOFF_REVISION.md).
 

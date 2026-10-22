@@ -1,6 +1,6 @@
 # STEP 08 — Slide-to-Template Mapping
 
-> **현재 기준: DEC-0043 / 90장·368분 (2026-10-21).** 사용자 승인으로 기존82장 내용·장별 시간은 유지하고 S21 뒤에 실무 Prompt 기법8장·8분을 추가했다. 신규 S22–S29 뒤 기존 S22–S82는 S30–S90으로 이동한다. ACT1은21장/63분이며 ACT0/2/3/4/5 시간은40/70/85/80/30분이다. [90장 이행·승인 범위](SLIDE_ID_MIGRATION_90.md). 기존360분 기획·과거 판본·Trial·Asset 경로는 역사적 근거로 보존한다.
+> **현재 기준: DEC-0060 / 93장·379분.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
 
 Date: 2026-10-09
 
@@ -9,7 +9,7 @@ Status: COMPLETE WITH OPEN ITEMS
 ## 1. Authority and Boundary
 
 This file assigns one primary Template and one defined Layout Variant to each
-Slide ID S01–S90. It adds visual implementation guidance only. DEC-0036 authorizes S08 and DEC-0038 authorizes the new S13; existing Beat, Section, Demo, Trial and State IDs stay unchanged.
+Slide ID S01–S93. It adds visual implementation guidance only. DEC-0036 authorizes S08 and DEC-0038 authorizes the new S13; existing Beat, Section, Demo, Trial and State IDs stay unchanged.
 
 - plan/SLIDE_MAP.md remains the source for title, ACT, Section, Story Beat,
   role, audience question, claim, evidence references, time, and delivery mode.
@@ -150,59 +150,62 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S35 — Task Prompt와 Project Context | T03-B | — | CMP-CONTEXT-ROUTER, CMP-CPP | T | — | Single state | Supporting | V08 |
 | S36 — 정확한 정보도 계속 늘어난다 | T04-B | CMP-STATE, CMP-EVIDENCE | — | P | DEMO-06 state-growth evidence callback; Case, not extra Demo time | Single state | — | V03, V10 |
 | S37 — 정확하지만 이번 작업에는 불필요한 정보 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 TRIAL-004 evidence; CAPTURED, 2 min | Single state | — | V02, V05 |
-| S38 — 정보의 범위와 제공 시점 | T03-B | CMP-CONTEXT-ROUTER | CMP-WORKFLOW | T | — | Single state | — | V05 |
-| S39 — Long Context 연구가 말해주는 범위 | T09-A | CMP-CLAIM | — | R | — | Single state | — | V02 |
-| S40 — 필요한 상세 정보로 가는 길 | T03-C | CMP-CONTEXT-ROUTER | CMP-CPP | T | — | Single state; DEC-0053 task request to AGENTS.md guidance to image-contract detail; conceptual path, not observed read order | Supporting | V08 |
-| S41 — AGENTS.md에는 무엇을 남길까? | T03-B | CMP-CONTEXT-ROUTER, CMP-CPP | — | T | — | Single state; DEC-0054 shared AGENTS.md guidance versus task-dependent detail documents; teaching placement, not automatic loading | Supporting | V08 |
-| S42 — 정보를 지우지 않고 위치를 나누기 | T04-B | CMP-STATE, CMP-EVIDENCE, CMP-CONTEXT-ROUTER, CMP-CPP | — | P+T; observed structure and teaching interpretation separated | DEMO-06 STATE-03 evidence; CAPTURED, 2 min | Single state; DEC-0055 before/after document diagram with core and A/B/C topic correspondence; semantic preservation, not literal copy | Supporting | V01, V03, V08 |
-| S43 — 서로 다른 두 Task가 무엇을 읽을까? | T05-A | CMP-TRIAL | CMP-CLAIM | P | DEMO-06 / TRIAL-005A/B WATCH; setup is Lecture | Single state; DEC-0056 two reconstructed prompt windows and three neutral observation questions; no expected paths or outcomes | — | V02 |
-| S44 — Crop Task에서 관찰한 접근 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 / TRIAL-005A evidence/result; Case | Single state: accessed docs → matching specification / recorded answer; observation and limits separated (DEC-0057) | — | V02, V04, V05 |
-| S45 — Task별 접근은 달랐지만 완벽하지는 않다 | T04-C | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 / TRIAL-005A/B comparison; CAPTURED, 1 min, plus Case/Reflection/Q&A as mapped | Single state; DEC-0058 native access matrix with seven document/config rows, observed differences and scoped interpretation | — | V02, V04, V05 |
-| S46 — 지식은 정리됐지만 절차는 반복된다 | T04-A | CMP-WORKFLOW, CMP-EVIDENCE | CMP-CLAIM | P+T; separate observed repeated prompt structure from the teaching question | — | Single state; DEC-0059 compact Context diagram versus repeated procedure in two reconstructed performance requests; Harness handoff question | — | V01, V05, V09 |
-| S47 — 서로 다른 Performance Task, 반복되는 절차 | T04-A | CMP-TRIAL, CMP-EVIDENCE, CMP-WORKFLOW, CMP-CLAIM | — | P | TRIAL-006/007 evidence; Case; attribution remains PARTIAL | Single state | — | V02, V05, V09 |
-| S48 — Project 사실과 작업 절차는 다르다 | T03-A | CMP-WORKFLOW | — | T | — | Single state | — | V09 |
-| S49 — Task, Context, Workflow의 역할 | T03-B | CMP-WORKFLOW | — | T | — | Single state | — | V10 |
-| S50 — 반복 절차를 Skill로 옮길 수 있을까? | T05-A | CMP-TRIAL, CMP-CLAIM | — | T; label current Skill surface/invocation as REQUIRES PRODUCT CHECK | DEMO-03 WATCH / question; no success result on this Slide | Single state | — | V02, V09 |
-| S51 — Skill을 어떻게 발견하고 호출할까? | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-03 EVIDENCE; HYBRID, 5 min; observed CLI scope only | Single state | — | V02, V03 |
-| S52 — 절차의 책임이 Prompt에서 Repository로 이동 | T04-A | CMP-TRIAL, CMP-EVIDENCE, CMP-WORKFLOW, CMP-CLAIM | — | P | DEMO-03 WHAT HAPPENED/comparison; HYBRID, 3 min; no superiority claim | Single state | — | V02, V05 |
-| S53 — 답을 담지 않는 Workflow | T04-A | CMP-WORKFLOW, CMP-CLAIM | — | P+T; observed Skill contents and teaching distinction separated | DEMO-03 supporting explanation; Lecture, outside its 8 Demo minutes | Single state | — | V01, V02, V05 |
-| S54 — 측정으로 후보를 고르다 | T07-B | CMP-TRIAL, CMP-EVIDENCE, CMP-BENCHMARK, CMP-CLAIM | — | P | DEMO-03 / TRIAL-008 evidence; Case, outside the 8 Demo minutes | Single state | — | V02, V05 |
-| S55 — Working Harness Success | T07-B | CMP-STATE, CMP-EVIDENCE, CMP-BENCHMARK, CMP-CLAIM | CMP-WORKFLOW | P | DEMO-03 / STATE-04-PERF result; Case, not additional Demo minutes | Single state | — | V02, V05 |
-| S56 — 이 작업에 Subagent가 필요했을까? | T10-B | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | — | P+T; bounded task audit separate from general criteria | DEMO-07 visual question and current-task result; VISUAL, 3 min | Single state | — | V01, V05 |
-| S57 — Subagent를 고려할 조건 | T10-B | CMP-DECISION, CMP-CLAIM | CMP-CPP | T; hypothetical C++ case is explicitly conceptual | DEMO-07 conditional scenario; VISUAL, 2 min; not an observed product Demo | Single state | Contextual | V08, V10 |
-| S58 — 무엇이 다시 찾기 어려운 지식인가? | T10-B | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | — | P+T; observed repository knowledge categories separate from Memory decision model | DEMO-08 knowledge classification; VISUAL, 2 min; no product Memory claim | Single state | — | V01, V05 |
-| S59 — Memory는 재발견 비용으로 판단 | T10-B | CMP-DECISION, CMP-CLAIM | — | T | DEMO-08 criteria callback; Lecture, outside its 2 Demo minutes | Single state | — | V02, V05 |
-| S60 — Minimum Effective Harness | T10-C | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-WORKFLOW, CMP-CPP | P+T; project-specific audit is not a universal feature-count comparison | DEMO-09 EVIDENCE; CAPTURED, 3 min | Single state | Contextual | V01, V05, V08 |
-| S61 — Harness는 작업 환경 설계다 | T03-B | CMP-EVIDENCE | CMP-WORKFLOW, CMP-CPP | P+T; observed STATE-04-PERF elements are inset from the course model | DEMO-09 system view; CAPTURED, 2 min | Single state | Contextual | V01, V05, V08 |
-| S62 — Repository 밖의 환경도 결과에 영향을 준다 | T03-B | CMP-EVIDENCE, CMP-CLAIM | CMP-CPP | M+T; observed global influence is a separate Meta frame, not product state | DEMO-04B preview only; Lecture, no extra Demo time | Single state | Contextual | V01, V02, V07 |
-| S63 — Engineering Pattern은 C++에도 전이된다 | T03-A | CMP-CPP, CMP-WORKFLOW | CMP-CLAIM | T | — | Single state | Primary | V08 |
-| S64 — 필요한 구조부터 질문하기 | T01-B | CMP-WORKFLOW | — | T | — | R1–R3; see Section 8 | Contextual cue only; no CMP-CPP assignment | V09, V10 |
-| S65 — 여기까지는 잘 동작했다 | T07-C | CMP-STATE, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-03/Primary Product Demo endpoint callback; Lecture/Reflection, no extra Demo time | Single state | — | V02, V05 |
-| S66 — 개념 사례: Project와 Workflow는 현재 맞다 | T08-A | CMP-CLAIM | CMP-CPP | C | DEMO-04A WATCH / constructed starting condition; VISUAL, 2 min | Single state | Contextual | V06, V08 |
-| S67 — Project는 바뀌고 Workflow는 남았다 | T08-A | CMP-CLAIM | — | C | DEMO-04A scenario change / conceptual EVIDENCE; VISUAL, 2 min | Single state | — | V06 |
-| S68 — Task 해결과 System 문제는 다르다 | T08-C | CMP-CLAIM | — | C | DEMO-04A conceptual consequence; Case, no additional Demo time | Single state | — | V06, V09 |
-| S69 — 원인에 맞는 Layer를 고르기 | T08-B | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T, separate scenario and teaching choice | DEMO-11 layer-selection synthesis; CAPTURED, 2 min; no Product State | Single state | Contextual | V06, V08 |
-| S70 — 실패 지점과 원인 Layer 구분하기 | T08-C | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T, observed/inferred distinction stays labeled as scenario reasoning | DEMO-11 cause/layer synthesis; CAPTURED, 1 min; no Product State | Single state | Contextual | V06, V08 |
-| S71 — 먼저 관찰하고, 그다음 가설을 세운다 | T08-C | CMP-CLAIM | — | C+T | — | Single state | — | V06 |
-| S72 — Cause가 지지하는 최소 변경 | T08-B | CMP-CLAIM, CMP-DECISION | — | C+T | — | Single state | — | V06, V09 |
-| S73 — 같은 Task의 재실행만으로 충분할까? | T08-B | CMP-CLAIM, CMP-WORKFLOW | CMP-CPP | C+T | — | Single state | Contextual | V06, V05 |
-| S74 — 대표 작업으로 변경 범위를 확인하기 | T08-B | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T; four-row conceptual Evaluation Set and any prior observed references use separate Evidence frames | DEMO-10 static visual; 5 min; EVAL-01/02 are prior evidence references, EVAL-03/04 are designed; no new run or outcome | Single state | Contextual | V06, V05, V08 |
-| S75 — Harness도 특정 실패에 맞춰 과적합될 수 있다 | T08-C | CMP-CLAIM, CMP-WORKFLOW | — | C+T | — | Single state | — | V06, V10 |
-| S76 — Feedback을 System Change와 Evaluation으로 잇기 | T03-C | CMP-LOOP, CMP-CLAIM | — | C+T | Existing Loop model/visual; VISUAL, 2 min (no new Demo ID) | R1–R5; see Section 8 | — | V06, V07 |
-| S77 — 실제 제작 기록: TRIAL-006 | T11-A | CMP-EVIDENCE, CMP-CLAIM | — | M | DEMO-04B timeline entry; CAPTURED, 2 min | Single state | — | V07 |
-| S78 — 결과의 타당성과 원인 귀속은 별개다 | T11-B | CMP-EVIDENCE, CMP-CLAIM | CMP-TRIAL | M | DEMO-04B TRIAL-006 evidence/attribution; CAPTURED, 4 min | Single state | — | V02, V05, V07 |
-| S79 — 평가와 보고 규칙을 Evidence에 맞추다 | T11-A | CMP-EVIDENCE, CMP-CLAIM | CMP-DECISION | M | DEMO-04B DEC-0016 change; CAPTURED, 2 min | Single state | — | V02, V07 |
-| S80 — 후속 기록은 개선됐지만 완전하지 않았다 | T11-B | CMP-EVIDENCE, CMP-CLAIM | CMP-TRIAL | M | DEMO-04B follow-up TRIAL-007/008; Lecture/Case, no additional Demo time | Single state | — | V02, V07 |
-| S81 — 실제 Meta Loop에서 바뀐 것 | T11-A | CMP-EVIDENCE, CMP-CLAIM | — | M | DEMO-04B timeline synthesis; Lecture/Case, no additional Demo time | Single state | — | V07 |
-| S82 — Project와 환경이 바뀌면 검증도 다시 본다 | T03-C | CMP-CPP, CMP-LOOP, CMP-CLAIM | — | T with a separately dashed CONCEPTUAL example; no Product evidence frame | — | R1–R6; see Section 8 | Primary | V08, V10 |
-| S83 — 여섯 시간의 Story를 한 장으로 | T03-C | CMP-WORKFLOW | CMP-CPP | T | DEMO-12 story callback only; Lecture, outside 2-minute visual slot | Single state | Contextual | V10 |
-| S84 — 하나의 Repository가 문제에 대응해 진화했다 | T07-C | CMP-STATE, CMP-EVIDENCE | CMP-CLAIM | P | DEMO-12 observed Product evolution; VISUAL, 2 min | Single state | — | V01, V03, V05 |
-| S85 — 필요성이 입증되지 않은 것은 보류했다 | T10-A | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-CPP | P+T; this project’s audit is not a universal feature-count comparison | — | Single state | Contextual | V01, V05, V08 |
-| S86 — 위임이 늘어도 개발자 책임은 남는다 | T03-A | — | — | T | — | Single state | — | V10 |
-| S87 — AI-Native Development는 이 교육의 운영 모델 | T03-A | — | CMP-CPP | T | — | Single state | Contextual | V08 |
-| S88 — 어느 Layer에서 마찰이 반복되는가? | T10-B | CMP-DECISION, CMP-CPP, CMP-CLAIM | — | T; C++ example stays a transfer model, not a verified project procedure | — | Single state | Primary | V08, V09 |
-| S89 — 다음 작은 행동을 개인적으로 고른다 | T01-B | — | CMP-CPP | T | — | Single state | Contextual | V09 |
-| S90 — Q&A와 교육 마무리 | T01-C | — | — | T | — | Single state | — | V10 |
+| S38 — 정보의 범위와 제공 시점 | T03-B | CMP-CONTEXT-ROUTER | CMP-WORKFLOW | T | — | Single state; DEC-0060 scope/timing model with an unresolved procedure question; no completed workflow reuse | — | V05 |
+| S39 — 많이 담아도 같은 근거를 똑같이 쓰는가? | T09-A | CMP-CLAIM | — | R | — | Single state; DEC-0060 Lost in the Middle only; task-position diagram and bounded observed finding | — | V02 |
+| S40 — RepoQA는 설명에 맞는 함수를 찾게 했다 | T09-A | CMP-CLAIM | — | R | RepoQA primary-source task diagram; not current Agent benchmark | Single state | — | V02 |
+| S41 — 필요한 상세 정보로 가는 길 | T03-C | CMP-CONTEXT-ROUTER | CMP-CPP | T | — | Single state; DEC-0060 one question to a relevant detail source; path design, not observed read order | Supporting | V08 |
+| S42 — AGENTS.md에는 무엇을 남길까? | T03-B | CMP-CONTEXT-ROUTER, CMP-CPP | — | T | — | Single state; DEC-0060 placement criteria rather than final directory listing | Supporting | V08 |
+| S43 — 정보를 지우지 않고 위치를 나누기 | T04-B | CMP-STATE, CMP-EVIDENCE, CMP-CONTEXT-ROUTER, CMP-CPP | — | P+T; observed structure and teaching interpretation separated | DEMO-06 STATE-03 evidence; CAPTURED, 2 min | Single state; DEC-0060 observed semantic-preserving document migration, not routing lecture | Supporting | V01, V03, V08 |
+| S44 — 서로 다른 두 Task가 무엇을 읽을까? | T05-A | CMP-TRIAL | CMP-CLAIM | P | DEMO-06 / TRIAL-005A/B WATCH; setup is Lecture | Single state; DEC-0060 two actual requests; watch accessed sources rather than rediscover crop answer | — | V02 |
+| S45 — Crop Task에서 관찰한 접근 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 / TRIAL-005A evidence/result; Case | Single state; DEC-0060 actual A access, specification and recorded answer | — | V02, V04, V05 |
+| S46 — 의존성 질문은 설정과 소스로 답했다 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 / TRIAL-005B evidence and recorded answer; Case4 | Single state; no fresh dependency execution | — | V02, V04, V05 |
+| S47 — 두 Task에서 상세 문서 접근이 달랐다 | T04-C | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 / TRIAL-005A/B comparison; CAPTURED, 1 min, plus Case/Reflection/Q&A as mapped | Single state; DEC-0060 native seven-path access comparison after both answers; limitations retained | — | V02, V04, V05 |
+| S48 — Context 정리에서 확인한 네 가지 | T03-A | CMP-EVIDENCE, CMP-CLAIM | CMP-CONTEXT-ROUTER | P+T; separate scoped observations from the recap model | Four bounded State/Trial callbacks; no extra Demo | Single state | — | V01, V05 |
+| S49 — 지식은 정리됐지만 절차는 반복된다 | T04-A | CMP-WORKFLOW, CMP-EVIDENCE | CMP-CLAIM | P+T; separate observed repeated prompt structure from the teaching question | — | Single state; DEC-0060 single reconstructed procedure question before next ACT evidence | — | V01, V05, V09 |
+| S50 — 두 실제 요청에 같은 절차가 반복됐다 | T04-A | CMP-TRIAL, CMP-EVIDENCE, CMP-WORKFLOW, CMP-CLAIM | — | P | TRIAL-006/007 evidence; Case; attribution remains PARTIAL | Single state; DEC-0060 two retained request records compared; approved functional illustration retained | — | V02, V05, V09 |
+| S51 — 테스트 명령과 작업 절차의 책임을 나눈다 | T03-A | CMP-WORKFLOW | — | T | — | Single state; DEC-0060 project command/rule versus multi-step procedure maintenance; AGENTS may contain procedures | — | V09 |
+| S52 — Task, Context, Workflow의 역할 | T03-B | CMP-WORKFLOW | — | T | — | Single state | — | V10 |
+| S53 — 반복 절차를 Skill로 옮길 수 있을까? | T05-A | CMP-TRIAL, CMP-CLAIM | — | T; label current Skill surface/invocation as REQUIRES PRODUCT CHECK | DEMO-03 WATCH / question; no success result on this Slide | Single state | — | V02, V09 |
+| S54 — Skill을 어떻게 발견하고 호출할까? | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-03 EVIDENCE; HYBRID, 5 min; observed CLI scope only | Single state | — | V02, V03 |
+| S55 — 절차의 책임이 Prompt에서 Repository로 이동 | T04-A | CMP-TRIAL, CMP-EVIDENCE, CMP-WORKFLOW, CMP-CLAIM | — | P | DEMO-03 WHAT HAPPENED/comparison; HYBRID, 3 min; no superiority claim | Single state | — | V02, V05 |
+| S56 — 답을 담지 않는 Workflow | T04-A | CMP-WORKFLOW, CMP-CLAIM | — | P+T; observed Skill contents and teaching distinction separated | DEMO-03 supporting explanation; Lecture, outside its 8 Demo minutes | Single state | — | V01, V02, V05 |
+| S57 — 측정으로 후보를 고르다 | T07-B | CMP-TRIAL, CMP-EVIDENCE, CMP-BENCHMARK, CMP-CLAIM | — | P | DEMO-03 / TRIAL-008 evidence; Case, outside the 8 Demo minutes | Single state | — | V02, V05 |
+| S58 — Working Harness Success | T07-B | CMP-STATE, CMP-EVIDENCE, CMP-BENCHMARK, CMP-CLAIM | CMP-WORKFLOW | P | DEMO-03 / STATE-04-PERF result; Case, not additional Demo minutes | Single state | — | V02, V05 |
+| S59 — 이 작업에 Subagent가 필요했을까? | T10-B | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | — | P+T; bounded task audit separate from general criteria | DEMO-07 visual question and current-task result; VISUAL, 3 min | Single state | — | V01, V05 |
+| S60 — Subagent를 고려할 조건 | T10-B | CMP-DECISION, CMP-CLAIM | CMP-CPP | T; hypothetical C++ case is explicitly conceptual | DEMO-07 conditional scenario; VISUAL, 2 min; not an observed product Demo | Single state | Contextual | V08, V10 |
+| S61 — 무엇이 다시 찾기 어려운 지식인가? | T10-B | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | — | P+T; observed repository knowledge categories separate from Memory decision model | DEMO-08 knowledge classification; VISUAL, 2 min; no product Memory claim | Single state | — | V01, V05 |
+| S62 — Memory는 재발견 비용으로 판단 | T10-B | CMP-DECISION, CMP-CLAIM | — | T | DEMO-08 criteria callback; Lecture, outside its 2 Demo minutes | Single state | — | V02, V05 |
+| S63 — Minimum Effective Harness | T10-C | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-WORKFLOW, CMP-CPP | P+T; project-specific audit is not a universal feature-count comparison | DEMO-09 EVIDENCE; CAPTURED, 3 min | Single state | Contextual | V01, V05, V08 |
+| S64 — Harness는 작업 환경 설계다 | T03-B | CMP-EVIDENCE | CMP-WORKFLOW, CMP-CPP | P+T; observed STATE-04-PERF elements are inset from the course model | DEMO-09 system view; CAPTURED, 2 min | Single state | Contextual | V01, V05, V08 |
+| S65 — Repository 밖의 환경도 결과에 영향을 준다 | T03-B | CMP-EVIDENCE, CMP-CLAIM | CMP-CPP | M+T; observed global influence is a separate Meta frame, not product state | DEMO-04B preview only; Lecture, no extra Demo time | Single state | Contextual | V01, V02, V07 |
+| S66 — Engineering Pattern은 C++에도 전이된다 | T03-A | CMP-CPP, CMP-WORKFLOW | CMP-CLAIM | T | — | Single state | Primary | V08 |
+| S67 — 필요한 구조부터 질문하기 | T01-B | CMP-WORKFLOW | — | T | — | R1–R3; see Section 8 | Contextual cue only; no CMP-CPP assignment | V09, V10 |
+| S68 — 여기까지는 잘 동작했다 | T07-C | CMP-STATE, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-03/Primary Product Demo endpoint callback; Lecture/Reflection, no extra Demo time | Single state | — | V02, V05 |
+| S69 — 개념 사례: Project와 Workflow는 현재 맞다 | T08-A | CMP-CLAIM | CMP-CPP | C | DEMO-04A WATCH / constructed starting condition; VISUAL, 2 min | Single state | Contextual | V06, V08 |
+| S70 — Project는 바뀌고 Workflow는 남았다 | T08-A | CMP-CLAIM | — | C | DEMO-04A scenario change / conceptual EVIDENCE; VISUAL, 2 min | Single state | — | V06 |
+| S71 — Task 해결과 System 문제는 다르다 | T08-C | CMP-CLAIM | — | C | DEMO-04A conceptual consequence; Case, no additional Demo time | Single state | — | V06, V09 |
+| S72 — 원인에 맞는 Layer를 고르기 | T08-B | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T, separate scenario and teaching choice | DEMO-11 layer-selection synthesis; CAPTURED, 2 min; no Product State | Single state | Contextual | V06, V08 |
+| S73 — 실패 지점과 원인 Layer 구분하기 | T08-C | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T, observed/inferred distinction stays labeled as scenario reasoning | DEMO-11 cause/layer synthesis; CAPTURED, 1 min; no Product State | Single state | Contextual | V06, V08 |
+| S74 — 먼저 관찰하고, 그다음 가설을 세운다 | T08-C | CMP-CLAIM | — | C+T | — | Single state | — | V06 |
+| S75 — Cause가 지지하는 최소 변경 | T08-B | CMP-CLAIM, CMP-DECISION | — | C+T | — | Single state | — | V06, V09 |
+| S76 — 같은 Task의 재실행만으로 충분할까? | T08-B | CMP-CLAIM, CMP-WORKFLOW | CMP-CPP | C+T | — | Single state | Contextual | V06, V05 |
+| S77 — 대표 작업으로 변경 범위를 확인하기 | T08-B | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T; four-row conceptual Evaluation Set and any prior observed references use separate Evidence frames | DEMO-10 static visual; 5 min; EVAL-01/02 are prior evidence references, EVAL-03/04 are designed; no new run or outcome | Single state | Contextual | V06, V05, V08 |
+| S78 — Harness도 특정 실패에 맞춰 과적합될 수 있다 | T08-C | CMP-CLAIM, CMP-WORKFLOW | — | C+T | — | Single state | — | V06, V10 |
+| S79 — Feedback을 System Change와 Evaluation으로 잇기 | T03-C | CMP-LOOP, CMP-CLAIM | — | C+T | Existing Loop model/visual; VISUAL, 2 min (no new Demo ID) | R1–R5; see Section 8 | — | V06, V07 |
+| S80 — 실제 제작 기록: TRIAL-006 | T11-A | CMP-EVIDENCE, CMP-CLAIM | — | M | DEMO-04B timeline entry; CAPTURED, 2 min | Single state | — | V07 |
+| S81 — 결과의 타당성과 원인 귀속은 별개다 | T11-B | CMP-EVIDENCE, CMP-CLAIM | CMP-TRIAL | M | DEMO-04B TRIAL-006 evidence/attribution; CAPTURED, 4 min | Single state | — | V02, V05, V07 |
+| S82 — 평가와 보고 규칙을 Evidence에 맞추다 | T11-A | CMP-EVIDENCE, CMP-CLAIM | CMP-DECISION | M | DEMO-04B DEC-0016 change; CAPTURED, 2 min | Single state | — | V02, V07 |
+| S83 — 후속 기록은 개선됐지만 완전하지 않았다 | T11-B | CMP-EVIDENCE, CMP-CLAIM | CMP-TRIAL | M | DEMO-04B follow-up TRIAL-007/008; Lecture/Case, no additional Demo time | Single state | — | V02, V07 |
+| S84 — 실제 Meta Loop에서 바뀐 것 | T11-A | CMP-EVIDENCE, CMP-CLAIM | — | M | DEMO-04B timeline synthesis; Lecture/Case, no additional Demo time | Single state | — | V07 |
+| S85 — Project와 환경이 바뀌면 검증도 다시 본다 | T03-C | CMP-CPP, CMP-LOOP, CMP-CLAIM | — | T with a separately dashed CONCEPTUAL example; no Product evidence frame | — | R1–R6; see Section 8 | Primary | V08, V10 |
+| S86 — 전체 Story를 한 장으로 | T03-C | CMP-WORKFLOW | CMP-CPP | T | DEMO-12 story callback only; Lecture, outside 2-minute visual slot | Single state | Contextual | V10 |
+| S87 — 하나의 Repository가 문제에 대응해 진화했다 | T07-C | CMP-STATE, CMP-EVIDENCE | CMP-CLAIM | P | DEMO-12 observed Product evolution; VISUAL, 2 min | Single state | — | V01, V03, V05 |
+| S88 — 필요성이 입증되지 않은 것은 보류했다 | T10-A | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-CPP | P+T; this project’s audit is not a universal feature-count comparison | — | Single state | Contextual | V01, V05, V08 |
+| S89 — 위임이 늘어도 개발자 책임은 남는다 | T03-A | — | — | T | — | Single state | — | V10 |
+| S90 — AI-Native Development는 이 교육의 운영 모델 | T03-A | — | CMP-CPP | T | — | Single state | Contextual | V08 |
+| S91 — 어느 Layer에서 마찰이 반복되는가? | T10-B | CMP-DECISION, CMP-CPP, CMP-CLAIM | — | T; C++ example stays a transfer model, not a verified project procedure | — | Single state | Primary | V08, V09 |
+| S92 — 다음 작은 행동을 개인적으로 고른다 | T01-B | — | CMP-CPP | T | — | Single state | Contextual | V09 |
+| S93 — Q&A와 교육 마무리 | T01-C | — | — | T | — | Single state | — | V10 |
 
 ### Component Usage Index
 

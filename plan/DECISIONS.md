@@ -7206,3 +7206,94 @@ Review S45-S47 continuity, matching procedure text, connector visibility
 and Notes parity. Preserve the other89 slides, every budget and all29 Demo
 fallback PNGs. Keep external environment/rehearsal gates UNVERIFIED. Do not
 rebuild presenter bundles.
+
+
+# DEC-0060 — clarify ACT2 progression and add three bounded explanations
+
+## Status
+
+ACCEPTED — explicit user approval of the full ACT2 audit revisions,
+additional slides and net duration up to720minutes.
+
+## Date
+
+2026-10-22
+
+## Context
+
+The90-slide/368-minute deck accumulated individual ACT2 revisions. The
+whole-sequence audit identified premature workflow reuse, overlapping
+routing explanations, two studies in one dense slide, an unclosed
+dependency question and a repeated ACT2/ACT3 procedure introduction.
+
+## Problem
+
+Preserve each approved explanation and evidence boundary while giving each
+slide a distinct narrative responsibility and making both task answers visible.
+
+## Decision
+
+Use93slides/379minutes; ACT2 becomes18slides/81minutes. Keep every existing
+slide allocation and add Lecture4 for RepoQA, Case4 for the dependency answer,
+and Lecture2/Reflection1 for a bounded Context accomplishments recap.
+Use the existing11Templates/27Variants and19-field Notes schema.
+Make S38's procedure column an unresolved next-ACT question. Separate
+S41 path, S42 placement criteria and S43 observed document migration.
+Use S45/S46 for the two recorded answers, S47 for access comparison and
+S48 for the scoped recap. S49 poses the remaining procedure-maintenance
+question; S50 compares retained requests; S51 explains responsibility
+without claiming AGENTS.md cannot contain procedures. Preserve the approved
+functional illustrations and the later Skill decision/success sequence.
+
+## Rationale
+
+The sequence moves from a real relevance problem through bounded research,
+placement design and actual observations to a remaining work-method problem.
+Extra space closes questions and separates evidence instead of repeating
+explanations.720minutes is the user's ceiling, not a target to fill.
+
+## Alternatives
+
+Keep90slides: retains density and leaves the B answer implicit.
+Rewrite every ACT: unnecessary; preserve unchanged ACT0/1 and downstream roles.
+Allocate720minutes: no evidence that the material needs the full allowance.
+
+## Trade-offs
+
+Three added slides require an explicit90-to93 ID migration and refreshed
+current operational references. Preserve historical assets, reports, Trial
+identifiers, State tags and source filenames. Added time is a plan, not
+measured rehearsal evidence. No new effect or product capability is claimed.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-MATURITY-004,
+INV-RESEARCH-004, INV-DEMO-004, INV-VERIFY-001.
+
+## Affected Artifacts
+
+Current Map/template rows, ACT2/ACT3 opening Notes and source, numbered
+ACT3–5 source/Notes, Full/ACT2–5 PPTX and previews, current plan/operational
+references, module footer map and static fallback identities. ACT0/1 packages,
+Demo repository and presenter bundles remain untouched.
+
+## Evidence
+
+Latest user instruction; whole-ACT2 audit; retained State/Trial records in
+DEMO_MATRIX.md; CLM-0014/0015 and original Lost in the Middle/RepoQA papers;
+DEC-0043 and DEC-0046–0059. The source papers were reopened for scope checks.
+No new Trial, installation, product replay or comparison experiment.
+
+## Training Relevance
+
+YES — distinguish facts, instructions, responsibility, observations and
+performance claims while motivating Harness from the remaining problem.
+
+## Follow-up
+
+Render/review ACT2 with both boundaries, validate93/379 and per-slide Mode,
+all19-field embedded Notes, unchanged content under ID migration, native
+chart/table structure and current fallback links. Keep Windows, room,
+product/account and timed rehearsal UNVERIFIED. Do not rebuild bundles.
+
+DEC-0060 duration-label alignment: current S86 changes only the outdated six-hour recap title to “전체 Story를 한 장으로”. Its Story/Beat/time/Mode/evidence content remain unchanged. The earlier duration wording stays in historical records.

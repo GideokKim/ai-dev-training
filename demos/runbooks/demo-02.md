@@ -1,10 +1,11 @@
 # DEMO-02 — Reusable Project Context
 
-> Current numbering update — DEC-0043: 90-slide references are aligned. The previous validation/status/hash text is retained as release history. Finalized90-slide files, displayed IDs, render/Notes parity and current file hashes were checked locally under DEC-0043; no Trial is added. The validation covers static fallback only. Windows/product/account/room/rehearsal remain UNVERIFIED.
+> Current references: DEC-0060 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+
 
 Planning Status: CANDIDATE — Anchor candidate
 
-Final Validation Status: READY — DEC-0043 local static paths, displayed IDs, dimensions, render/Notes parity and file hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial was run.
+Final Validation Status: READY — DEC-0060 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-008–010
 
@@ -96,9 +97,9 @@ Default is the offline static presentation. Open: `production/preview/full/S32.p
 
 Show static S32–S34; explicitly retain the global-Skills attribution boundary.
 
-Fallback readiness: UNVERIFIED for DEC-0038 until the new files, displayed IDs, dimensions and hashes are checked. The approved static fallback plan remains; raw Trial captures are not implied.
+Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0038 current slide numbering. Check final PPTX/PNG identity and fallback hashes in FALLBACK_MANIFEST.md and production/evaluation/PROMPT_TIMELINE_REVISION.md after rendering. DEC-0033–0037 records remain historical. This is not a target-PC playback test, raw terminal screenshot, recording, new Trial or rehearsal.
+Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 

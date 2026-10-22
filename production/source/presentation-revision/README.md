@@ -1,3 +1,15 @@
+# Current presentation source — DEC-0060 /93slides
+
+Current authority: plan/SLIDE_MAP.md and plan/ACT2_FLOW_REVISION.md.
+act2-continuity.mjs supplies bounded ACT2 role refinements and ACT3 opening.
+Existing factories are migrated once per SLIDE_ID_MIGRATION_93.md; captured
+bitmap filenames remain historical. Native table:S47; benchmark chart:S58.
+The builder requires93 Map/module records and embeds19-field Notes.
+Use the bundled runtime/private workdir and --release --release-acts=2,3,4,5.
+ACT0/1 packages and Demo repository remain unchanged. Bundles remain paused.
+
+## Historical implementation notes
+
 # Presentation revision source — current 90-slide edition
 
 DEC-0043 inserts eight practical Prompt Engineering recipes after S21.

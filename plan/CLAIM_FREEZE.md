@@ -1,6 +1,7 @@
 # STEP 08 — CLAIM / EVIDENCE FREEZE RESULT
 
-> **현재 기준: DEC-0043 / 90장·368분 (2026-10-21).** 사용자 승인으로 기존82장 내용·장별 시간은 유지하고 S21 뒤에 실무 Prompt 기법8장·8분을 추가했다. 신규 S22–S29 뒤 기존 S22–S82는 S30–S90으로 이동한다. ACT1은21장/63분이며 ACT0/2/3/4/5 시간은40/70/85/80/30분이다. [90장 이행·승인 범위](SLIDE_ID_MIGRATION_90.md). 기존360분 기획·과거 판본·Trial·Asset 경로는 역사적 근거로 보존한다.
+> **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
+
 
 > Historical82-slide clarification below; current owner is S67 and the conceptual segment is S66–S75.
 
@@ -18,7 +19,7 @@ Checked: 2026-10-06
 
 Related decision: [DEC-0023 — Freeze STEP 08 claims and course operational definitions](DECISIONS.md)
 
-This freeze applies the existing claim boundaries to the approved 90-Slide Map under DEC-0043. The original 80-slide audit remains in Git history. Claim status is
+This freeze applies the existing claim boundaries to the approved93-Slide Map under DEC-0060. The original 80-slide audit remains in Git history. Claim status is
 multi-label: one slide can contain a teaching model and a separately scoped
 product or Trial claim. The status applies to the exact wording and evidence
 boundary below, not to every possible interpretation of a slide.
@@ -27,7 +28,7 @@ boundary below, not to every possible interpretation of a slide.
 
 **FROZEN WITH OPEN ITEMS.**
 
-The claim boundaries, allowed operational definitions, and limited Slide 39
+The claim boundaries, allowed operational definitions, and limited Slides39–40
 research wording are frozen. The selected training account, presentation
 surface, and concrete Windows environment have not been checked. Those open
 items remain attached to the affected slides; they do not reopen the approved
@@ -37,11 +38,11 @@ Story, slide count, schedule, or Demo selection.
 
 | Item | Result |
 |---|---|
-| Slides | 90; authorized by DEC-0043 |
+| Slides | 93; authorized by DEC-0060 |
 | Story / sequence | Frozen; no Story change in this audit |
-| Net time | 368 minutes; user-approved extension, DEC-0043 |
-| Delivery modes | Frozen: Lecture 137, Demo 73, Case 84, Reflection 20, Transition 22, Q&A 32 minutes |
-| ACT counts | Frozen: ACT 0 = 10, ACT 1 = 21, ACT 2 = 15, ACT 3 = 18, ACT 4 = 18, ACT 5 = 8 |
+| Net time | 379 minutes; user-approved ACT2 extension, DEC-0060 |
+| Delivery modes | Frozen: Lecture 143, Demo 73, Case 88, Reflection 21, Transition 22, Q&A 32 minutes |
+| ACT counts | Frozen: ACT 0 = 10, ACT 1 = 21, ACT 2 = 18, ACT 3 = 18, ACT 4 = 18, ACT 5 = 8 |
 | Demo selection | Frozen; no Demo added or replaced |
 
 The freeze does not finalize product-dependent click paths, Speaker Notes,
@@ -54,12 +55,12 @@ claim.
 
 | Status | Slide IDs / claims |
 |---|---|
-| **FROZEN** | The approved project/map contract applies across Slides 1–90: developer training with a 90-slide structure, a 368-minute net schedule under DEC-0043, and the approved Story order. All 82 original slides and their 360 minutes remain, with eight added slides/minutes. This is a project decision, not a product-performance claim. |
-| **FROZEN WITH SCOPE** | **S08** documents the scoped Codex entry path (CLM-0031), without a target-account/UI observation; **S04–06** repository exploration is historical Codex CLI Trial evidence; **S17–19** TRIAL-002; **S21** bounded verification example; **S32–34** STATE-01 / TRIAL-003; **S36–37** STATE-02; **S41–45** STATE-03 and TRIAL-005A/B; **S47** TRIAL-006/007 repeated procedure; **S51–55** TRIAL-008 and STATE-04-PERF facts; **S60** the project-specific component audit; **S65** observed Product success; **S77–81** the dated Meta Trial timeline; **S83–84** approved Story / repository evolution recap. Each remains bounded to its named State, Trial, code path, or environment. |
-| **TEACHING MODEL** | **S02–03, S07–16, S20–31, S35, S38–42, S46, S48–50, S53, S56–64, S68–76, S82–90.** These are task-spec, context/workflow, routing, maturity, verification, decision, feedback, and transfer models. Label them as this course's models or heuristics; do not present them as official product taxonomies or universal laws. |
-| **CONCEPTUAL CASE** | **S66–75** DEMO-04A stale-Harness scenario and its evaluation path. Keep a visible `CONCEPTUAL` label throughout; its Project change, failure, cause, correction, and EVAL cases did not happen in the Demo repository. |
-| **REQUIRES PRODUCT CHECK** | **S04–06** for a current Live/Hybrid repository-investigation path; **S08** for the exact ChatGPT dropdown position, selected account and Windows entry path; **S50–52** for the selected Skills surface, invocation, and account; **S56–59** if current Subagent/Memory product behavior is explained; **S62** for target configuration, feature availability, trust, and permissions. Concrete Windows/shell/IDE instructions on **S16, S21, S35, S40–42, S63, S82, S88** also require a target-environment check. |
-| **REQUIRES RESEARCH CHECK** | None for the currently bounded Slide 39 claim. The final slide must retain its citations. Any stronger claim about general degradation, current Codex behavior, or all models/tasks is outside this freeze and needs new research review. |
+| **FROZEN** | The approved project/map contract applies across Slides 1–93: developer training with a93-slide structure, a379-minute net schedule under DEC-0060, and the approved Story order. All90 prior slides and their368 minutes remain represented, with three additional explanations totaling11minutes. This is a project decision, not a product-performance claim. |
+| **FROZEN WITH SCOPE** | S08 documented entry; S04–06 historical TRIAL-001; S17–19 TRIAL-002; S21 verification; S32–34 STATE-01/TRIAL-003; S36–37 STATE-02/TRIAL-004; S43 actual document reorganization; S44–47 TRIAL-005A/B requests, answers and access; S48 separately scoped recap; S50 TRIAL-006/007; S54–58 TRIAL-008/STATE-04-PERF; S63 component audit; S68 Product success; S80–84 Meta history; S86–87 evolution recap. Each named observation keeps its code/input/environment limits. |
+| **TEACHING MODEL** | Task specification, current Prompt methods, Context placement, routing and workflow responsibilities remain course models. ACT2 S35/S38/S41–43/S48–49 and ACT3 S51–53 use teaching diagrams separate from actual observations. S39–40 are RESEARCH. S69–78 conceptual cases and S79 teaching model stay separate from S80–84 OBSERVED_META. |
+| **CONCEPTUAL CASE** | **S69–78** DEMO-04A stale-Harness scenario and its evaluation path. Keep a visible `CONCEPTUAL` label throughout; its Project change, failure, cause, correction, and EVAL cases did not happen in the Demo repository. |
+| **REQUIRES PRODUCT CHECK** | **S04–06** for a current Live/Hybrid repository-investigation path; **S08** for the exact ChatGPT dropdown position, selected account and Windows entry path; **S53–55** for the selected Skills surface, invocation, and account; **S59–62** if current Subagent/Memory product behavior is explained; **S65** for target configuration, feature availability, trust, and permissions. Concrete Windows/shell/IDE instructions on **S16, S21, S35, S41–43, S66, S85, S91** also require a target-environment check. |
+| **REQUIRES RESEARCH CHECK** | None for the currently bounded Slides39–40 claims. The final slide must retain its citations. Any stronger claim about general degradation, current Codex behavior, or all models/tasks is outside this freeze and needs new research review. |
 | **REQUIRES COMPANY POLICY** | None in the current Map. No slide claims that internal/customer data or external services are approved for use. |
 | **DROP** | Do not include the unsupported candidates listed in §11: universal long-context failure, Context-routing performance/token savings, Skill superiority or causal speedup, unobserved Demo failures, complete ambient-tool attribution, universal feature availability, company data permission, unqualified benchmark claims, or official/universal Harness / Loop / AI-Native taxonomies. |
 
@@ -95,7 +96,7 @@ Historical evidence remains distinct from current documentation:
   0.154.0. This is evidence for that run, not Desktop-wide proof.
 - Current docs support general Skills behavior, but the selected training
   account and presentation surface have not been rehearsed. Therefore
-  Slides 50–52 may state the general documented mechanism with scope; they
+  Slides 53–55 may state the general documented mechanism with scope; they
   may not promise it is enabled or behaves identically in the target account.
 - TRIAL-006/007/008 remain historical September 2026 evidence. Later product
   documentation does not rewrite or strengthen what those runs observed.
@@ -161,7 +162,7 @@ mark that portion **REQUIRES PRODUCT CHECK**. Otherwise keep Slides 16, 20,
 
 ## 6. Context Research
 
-Approved Slide 39 message:
+Approved Slides39–40 messages:
 
 > More Context is not automatically better. Relevance, position, and retrieval
 > can matter in specific tasks and models; these studies do not establish a
@@ -245,14 +246,14 @@ or an actual Demo setup.
 
 | Candidate claim | Disposition |
 |---|---|
-| “More context always hurts”; “Codex has Lost in the Middle” | DROP; keep only the study-bounded Slide 39 message. |
+| “More context always hurts”; “Codex has Lost in the Middle” | DROP; keep only the study-bounded Slides39–40 messages. |
 | Context routing or Progressive Disclosure saves tokens / improves performance | DROP; TRIAL-005A/B observed different document access, not token use or performance. |
 | TRIAL-005 proves perfect routing | DROP; broader architecture reads and variable test-file access were observed. |
 | A Skill is better than a Prompt, or the Skill caused the algorithm / speedup | DROP; the trials support repeatable workflow use, not Skill superiority or isolated causation. |
 | “Harness made `image_statistics` 30.4% faster” | DROP; retain the scoped code-path benchmark in §8. |
 | TRIAL-006's resize result was caused by its Prompt, repository Skill, Hook, or MCP | DROP; environment influence limits attribution and no MCP task result is evidenced. |
 | Trial reporting improved product or training quality | DROP; no objective before/after quality metric was measured. |
-| The constructed stale-Harness failure or candidate failures A–I actually occurred | DROP as observed history; S66–75 remains a labeled conceptual case. |
+| The constructed stale-Harness failure or candidate failures A–I actually occurred | DROP as observed history; S69–78 remains a labeled conceptual case. |
 | Every training account supports every Skill, Subagent, Memory, Hook, MCP, plugin, Cloud, or permission path | DROP; support and account entitlement are distinct. |
 | Company policy permits internal/customer data in the selected surface | DROP; no policy evidence or approval is recorded. |
 | AI coding tools make developer coding skill obsolete; unqualified SWE-Bench Pro score | DROP; these are not needed for this Story and are unsupported at the required scope. |
@@ -262,22 +263,22 @@ or an actual Demo setup.
 
 | Open item | Blocks slide structure/design? | Blocks Speaker Notes / exact product instructions? | Blocks Live Demo? |
 |---|---|---|---|
-| Target account and surface checks for S04–06, S08, S50–52, S56–59, S62 | No; scoped Trial captures or a product-independent visual remain possible. | Yes for current UI paths, entitlement, invocation steps, and product behavior claims. | Yes until the chosen account and path are rehearsed; captured fallback remains available under the approved plan. |
+| Target account and surface checks for S04–06, S08, S53–55, S59–62, S65 | No; scoped Trial captures or a product-independent visual remain possible. | Yes for current UI paths, entitlement, invocation steps, and product behavior claims. | Yes until the chosen account and path are rehearsed; captured fallback remains available under the approved plan. |
 | Windows-native / WSL / IDE / shell choice for concrete steps | No, if the slides stay at engineering-pattern level. | Yes for exact commands, setup instructions, and environment claims. | Yes for a Windows-specific live path until selected and rehearsed. |
-| Slide 39 citation placement | No; the research wording and sources are frozen. | Final notes / slide text must preserve the citations and study scope. | No. |
+| Slides39–40 citation placement | No; the research wording and sources are frozen. | Final notes / slide text must preserve the citations and study scope. | No. |
 | Company policy for internal/customer data or external services | No current blocker; the map does not claim permission. | Yes before adding company-specific data-use instructions. | Yes before using such data/services; current synthetic local Demo is unaffected. |
 
 ## 13. Slide IDs Requiring Later Validation
 
-1. **Product surface/account:** S04–06; S08 (documented entry path; exact UI/account unverified); S50–52; S56–59 only if current feature
-   behavior is shown; S62.
-2. **Windows/environment specifics:** S16, S21, S35, S40–42, S63, S82, S88,
+1. **Product surface/account:** S04–06; S08 (documented entry path; exact UI/account unverified); S53–55; S59–62 only if current feature
+   behavior is shown; S65.
+2. **Windows/environment specifics:** S16, S21, S35, S41–43, S66, S85, S91,
    but only where the slide adds concrete current commands, UI, permissions,
    shell, IDE, or hardware behavior. Pattern-level claims are frozen.
-3. **Research citation fidelity:** S39 must retain the source citations and
+3. **Research citation fidelity:** S39–40 must retain the source citations and
    limits in §6. The research claim itself is frozen within that boundary.
-4. **Benchmark source fidelity:** S55 and S78 values must be copied with the
-   scope in §8. No new benchmark run is required. S54 stays qualitative unless
+4. **Benchmark source fidelity:** S58 and S81 values must be copied with the
+   scope in §8. No new benchmark run is required. S57 stays qualitative unless
    a separately reviewed measurement method and all metadata are added.
 5. **Company-policy recheck:** no current Slide ID. Reopen OQ-014 only if a
    later Speaker Note or Demo introduces internal/customer data or an external
@@ -297,7 +298,7 @@ or an actual Demo setup.
 
 Do **Product Validation** next for the selected presentation surface, account,
 and Windows environment. Current research is sufficient for the bounded
-Slide 39 message; preserve its citations during later slide production.
+Slides39–40 messages; preserve its citations during later slide production.
 
 Visual System Design can proceed in parallel only for product-independent
 slides and diagrams. Keep the UI, Skills invocation, permission, and Windows
@@ -363,3 +364,7 @@ the request omitted a test command. Verification evidence was requested.
 Observed use of the AGENTS.md test instruction is supported; forced
 compliance, all-rule adherence and isolated causality are not. Personal
 skills also ran, and README-only was named in the Task Prompt.
+
+## DEC-0060 — ACT2 sequence and unchanged claim boundaries
+
+S39 retains CLM-0014/SRC-0201; S40 retains CLM-0015/SRC-0204. Original studies were reopened2026-10-22 to verify task/scope, without stronger claims or current-product evaluation. S46 shows the retained TRIAL-005B answer: Python3.9+stdlib and no third-party runtime dependencies; setuptools/wheel are build tools. S48 summarizes individual observations, not a new combined effectiveness result. S49 is a teaching request; S50 retains actual request/execution recurrence with PARTIAL Prompt-only attribution. S51 explicitly permits procedures in AGENTS.md while separating maintenance responsibility. No routing superiority, token savings, Skill superiority, new Trial, current Desktop guarantee or changed company policy.

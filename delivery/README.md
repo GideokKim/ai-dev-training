@@ -1,5 +1,7 @@
 # 발표자용 오프라인 자료 묶음 — 과거 80장판 보관
 
+> Current production is DEC-0060 /93slides/379minutes. Bundle generation remains paused. Existing ZIP/HTML is a historical snapshot, not the current deck. Use production/AI_Dev_Training_Full.pptx and the current Notes.
+
 **사용자 지시로 묶음 자료 생성·갱신을 중단한다.** 현재 번호 기준은 DEC-0043의 **90장 / 368분**이며 최신 자료는 [통합 PPT](../production/AI_Dev_Training_Full.pptx), [통합 Notes](../production/notes/FULL_SPEAKER_NOTES.md), [최종 전달 안내](../production/evaluation/FINAL_HANDOFF.md)를 따른다. 이번 작업에서 ZIP·HTML·package manifest를 생성하거나 바꾸지 않는다.
 
 기존 [2026-10-21 ZIP](AI_Dev_Training_Presenter_2026-10-21.zip)은 `adba817` / DEC-0033의 **80장판 역사적 스냅샷**이다. S01–S06 후속 수정, 신규 S08, 현재 S09의 사람·Agent 역할 구분, S11–13의 Prompt/시간선 수정과 82장 번호는 포함하지 않는다. 과거 묶음을 최신 발표자료로 사용하지 않는다. 과거 자료를 열람할 때만 전체를 압축 해제하고 START_HERE.html을 연다.

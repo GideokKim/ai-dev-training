@@ -1,0 +1,87 @@
+{
+  "status": "LOCAL_PACKAGE_VALIDATION_PASS",
+  "stamp": "act2-final-05",
+  "slideCount": 93,
+  "minutes": 379,
+  "priorSlideAllocationsPreserved": 90,
+  "notes": 93,
+  "fieldsPerNotes": 19,
+  "validatedArtifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "95a04cb9b9a29b9e755490a1741b6181e7c60ebb1ddf3974541aee4f7a2ff9fb"
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slideCount": 18,
+      "sha256": "bfbf4b97c126c4ace97f520d91dde7910063b333e5394c798096d3a604002223"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "cb263552bcd4dbd5260603481cbbcc4e9482cf694e1ce306e8cc99fa30f50e69"
+    },
+    {
+      "path": "production/ACT_4.pptx",
+      "slideCount": 18,
+      "sha256": "a43ae3e3a1926add31f6310568b0f5387607c76ff768770e9bc370328051d76e"
+    },
+    {
+      "path": "production/ACT_5.pptx",
+      "slideCount": 8,
+      "sha256": "210d6754a902676879afc0b5016132ca054bcd47e0062c66c9356edf8e7c11fe"
+    }
+  ],
+  "unchangedVisibleContentUnderMigration": 79,
+  "nativeTableOwner": "S47",
+  "nativeChartOwner": "S58",
+  "ACT0_ACT1PackagesUnchanged": true,
+  "fullACTPNGParity": 62,
+  "windowsProductRoomRehearsal": "UNVERIFIED",
+  "date": "2026-10-22",
+  "decision": "DEC-0060",
+  "baseline": "feae727",
+  "actCounts": [
+    10,
+    21,
+    18,
+    18,
+    18,
+    8
+  ],
+  "actMinutes": [
+    40,
+    63,
+    81,
+    85,
+    80,
+    30
+  ],
+  "modeMinutes": {
+    "Lecture": 143,
+    "Demo": 73,
+    "Case": 88,
+    "Reflection": 21,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "renderedPNGs": 155,
+  "ACT2SlidesReviewed": 18,
+  "fullNotesSha256": "efc65f3b50d3655d5a083a721f8552b6a96150a4d95be3b1eb0896d2b2b8ddcd",
+  "fullMontageSha256": "e876c216541f91715041488efc88d314fb635b6cae055063352c3d9a629b4f98",
+  "fallbackPNGs": 31,
+  "newTrial": false,
+  "newProductExperiment": false,
+  "presenterBundleRegenerated": false,
+  "templateMappingRecords": 93,
+  "templates": 11,
+  "layoutVariants": 27,
+  "S48Template": "T03-A",
+  "legacyModuleRecords": 93,
+  "allACTPreviewParity": 93,
+  "markdownLinkCheck": "PASS",
+  "priorDecisionsPreserved": true,
+  "demoRepositoryUnchanged": true,
+  "ACT0_ACT1NotesUnchanged": true
+}

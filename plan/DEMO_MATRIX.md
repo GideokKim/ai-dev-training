@@ -1,5 +1,7 @@
 # Demo Matrix
 
+> Current slide ownership: DEC-0060 /93slides. TRIAL-005A result S45; TRIAL-005B result S46; comparison S47; recap S48; TRIAL-006/007 recurrence S50; Skill S53–55; benchmark S58. See SLIDE_ID_MIGRATION_93.md and the current SLIDE_MAP.md. All original State/Trial records and dated slide references below remain historical; no Trial or product code changes.
+
 > **현재 기준: DEC-0038 / 82장 (2026-10-21).** S11·S12의 요청·가능한 해석을 시각화하고 새 S13을 삽입했다. 종전 S13–S81은 S14–S82로 이동하며 S01–S12 번호는 유지한다. S12 Case 4분을 S12 2분 + S13 2분으로 나눠 360분·ACT/Mode/Section 총량을 보존한다. [82장 번호 대조·문서 범위](SLIDE_ID_MIGRATION_82.md). 과거 Prototype·Decision·실제 Asset 경로와 판본 번호는 보존한다.
 
 ## 2026-10-18 — Current DEMO-04A Setting (DEC-0027)

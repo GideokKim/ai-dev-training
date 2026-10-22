@@ -1,4 +1,4 @@
-// ACT 2–3 presentation revision. S33 and S55 use the approved pilot.
+// ACT 2–3 presentation revision. S33 and S58 use the approved pilot.
 import {readFileSync} from 'node:fs';
 const contextGrowthImage=new Uint8Array(readFileSync(new URL('../../../assets/slide-illustrations/context-growth/agents-growth.png',import.meta.url)));
 const make=(id,title,act,source,boundary,type,draw)=>(p,H)=>{
@@ -151,7 +151,7 @@ S39:make('S39','Long Context 연구가 말해주는 범위','ACT 2 · 정보의 
     text(s,'arxiv.org/abs/2406.06025',704,549,512,29,20,C.sub,false,'Consolas');
   }),
 
-S40:make('S40','필요한 상세 정보로 가는 길','ACT 2 · Context를 찾게 하는 설계',
+S41:make('S41','필요한 상세 정보로 가는 길','ACT 2 · Context를 찾게 하는 설계',
   '교육용 Routing 모델 · 실제 문서 접근 결과는 다음 구간에서 확인',
   '검색 성능 향상이나 토큰 절약을 입증한 그림이 아님','TEACHING_MODEL',
   (s,{C,text,flow})=>{
@@ -160,7 +160,7 @@ S40:make('S40','필요한 상세 정보로 가는 길','ACT 2 · Context를 찾�
     text(s,'C++ 예: 공통 제약을 확인한 뒤, 해당 알고리즘의 계약으로',64,554,1152,35,26,C.sub);
   }),
 
-S41:make('S41','Core Context에서 상세 정보로 가는 길','ACT 2 · 기본 안내와 상세 정보',
+S42:make('S42','Core Context에서 상세 정보로 가는 길','ACT 2 · 기본 안내와 상세 정보',
   '교육용 정보 설계 · Root/Core는 상세 정보의 출발점',
   'C++ 예: build/test 진입점과 기본 제약 → 알고리즘 계약·하드웨어 조건','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{
@@ -173,11 +173,11 @@ S41:make('S41','Core Context에서 상세 정보로 가는 길','ACT 2 · 기본
     text(s,'모든 지식을 넣기보다, 상세 정보까지 가는 길을 안내한다',64,551,1152,39,29,C.ink,true);
   }),
 
-S42:make('S42','정보를 지우지 않고 위치를 나누기','ACT 2 · 문서 재구성의 실제 전후',
+S43:make('S43','정보를 지우지 않고 위치를 나누기','ACT 2 · 문서 재구성의 실제 전후',
   'STATE-02 → STATE-03 · 실제 문서 재구성의 요약 · 원본 실행 화면 아님',
   '핵심 정보 보존·재서술/상세화 포함 · 자동 탐색·성능·토큰 효과는 미검증','OBSERVED_PRODUCT',
   (s,{C,text,rect,line,arrow})=>{
-    text(s,'한 파일에 모인 정보를 어떻게 나눴을까?',64,184,1152,44,31,C.teal,true);
+    text(s,'정리 기준을 실제 파일 구조에 적용했다',64,184,1152,44,31,C.teal,true);
     text(s,'분리 전 · 한 문서에 함께',64,244,454,36,27,C.ink,true);
     text(s,'분리 후 · 주제별로 배치',724,244,492,36,27,C.teal,true);
     rect(s,64,286,454,252,C.white,C.line,1.5);
@@ -202,10 +202,10 @@ S42:make('S42','정보를 지우지 않고 위치를 나누기','ACT 2 · 문서
       text(s,file,794,y+2,402,36,24,C.teal,true,'Consolas');
     });
     text(s,'핵심 정보는 유지하고, 상세 내용의 위치를 나눴다',64,541,1152,35,29,C.teal,true);
-    text(s,'C++도 기본 제약은 입구에, 알고리즘·모듈·하드웨어 상세는 관련 문서에',64,573,1152,27,22,C.sub);
+    text(s,'C++에서도: 문서 위치가 바뀌면 원래 명세·제약이 보존됐는지 대조한다',64,573,1152,27,22,C.sub);
   }),
 
-S43:make('S43','서로 다른 두 Task가 무엇을 읽을까?','ACT 2 · 관찰하기 전에 질문하기',
+S44:make('S44','서로 다른 두 Task가 무엇을 읽을까?','ACT 2 · 관찰하기 전에 질문하기',
   'TRIAL-005A/B · Codex CLI 0.154.0 · 실제 요청의 핵심 발췌·번역',
   '프롬프트창 재구성 · 현재 Desktop 검증 아님 · 문서 접근 결과는 다음 구간에서 확인','OBSERVED_PRODUCT',
   (s,{C,text,line,rect,FONT})=>{
@@ -231,7 +231,7 @@ S43:make('S43','서로 다른 두 Task가 무엇을 읽을까?','ACT 2 · 관찰
     });
   }),
 
-S44:make('S44','Crop Task에서 관찰한 접근','ACT 2 · 질문과 근거를 연결하기',
+S45:make('S45','Crop Task에서 관찰한 접근','ACT 2 · 질문과 근거를 연결하기',
   'TRIAL-005A 최종 실행 · Codex CLI 0.154.0 · 문서 접근과 답을 요약·재구성',
   '* testing.md는 최종 실행에서 관찰(이전 실행과 다름) · 현재 Desktop 검증 아님','OBSERVED_PRODUCT',
   (s,{C,text,rect,line,arrow})=>{
@@ -270,7 +270,7 @@ S44:make('S44','Crop Task에서 관찰한 접근','ACT 2 · 질문과 근거를 
     text(s,'더 넓은 접근도 관찰 · 최소 문서 선택·효율 향상 미입증',234,576,982,30,25,C.sub);
   }),
 
-S45:make('S45','Task별 접근은 달랐지만 완벽하지는 않다','ACT 2 · 두 Task의 문서 접근 비교',
+S47:make('S47','Task별 접근은 달랐지만 완벽하지는 않다','ACT 2 · 두 Task의 문서 접근 비교',
   'TRIAL-005A/B 최종 실행 · Codex CLI 0.154.0 · 실제 접근 기록의 요약·재구성',
   '* testing.md는 A의 최종 실행에서만 관찰(이전 A 실행과 다름) · 현재 Desktop 검증 아님','OBSERVED_PRODUCT',
   (s,{C,text,FONT,CODE})=>{
@@ -301,7 +301,7 @@ S45:make('S45','Task별 접근은 달랐지만 완벽하지는 않다','ACT 2 ·
     text(s,'두 요청 모두 소스도 확인 · 목록은 읽기 순서가 아님',64,573,1152,31,24,C.sub);
   }),
 
-S46:make('S46','지식은 정리됐지만 절차는 반복된다','ACT 2 · 다음 문제로 넘어가기',
+S49:make('S49','지식은 정리됐지만 절차는 반복된다','ACT 2 · 다음 문제로 넘어가기',
   '교육용 도식 · TRIAL-006/007의 반복 절차 요약 · 실제 요청 전문·제품 화면 아님',
   'Context 선택 완전 해결 미입증 · 실행 환경의 영향도 있어 Prompt만의 효과로 귀속하지 않음','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{
@@ -331,7 +331,7 @@ S46:make('S46','지식은 정리됐지만 절차는 반복된다','ACT 2 · 다�
     text(s,'다음 · Harness',1004,550,212,40,25,C.teal,true);
   }),
 
-S47:make('S47','서로 다른 Performance Task,\n반복되는 절차','ACT 3 · 작업 방법도 반복된다',
+S50:make('S50','서로 다른 Performance Task,\n반복되는 절차','ACT 3 · 작업 방법도 반복된다',
   'TRIAL-006 resize_nearest / TRIAL-007 normalize · 기록한 절차의 재구성',
   '반복은 관찰됐으나 global Harness 영향이 있어 Prompt만의 효과로 귀속하지 않음','OBSERVED_PRODUCT',
   (s,{C,text,line,rect})=>{
@@ -343,7 +343,7 @@ S47:make('S47','서로 다른 Performance Task,\n반복되는 절차','ACT 3 · 
     text(s,'Task 목표가 달라도, 일하는 순서는 다시 쓰였다',64,547,1152,43,31,C.teal,true);
   }),
 
-S48:make('S48','Project 사실과 작업 절차는 다르다','ACT 3 · 알아야 할 것과 따라야 할 방법',
+S51:make('S51','Project 사실과 작업 절차는 다르다','ACT 3 · 알아야 할 것과 따라야 할 방법',
   '교육용 구분 · TRIAL-006/007의 반복 절차에서 출발',
   'Project 정보를 더 주는 것만으로 반복되는 절차의 유지 문제가 해결되지는 않는다','TEACHING_MODEL',
   (s,{C,text,line,rect})=>{
@@ -357,7 +357,7 @@ S48:make('S48','Project 사실과 작업 절차는 다르다','ACT 3 · 알아�
     text(s,'이번에 무엇을 원하는가?  →  현재 목표는 Task Prompt에',64,553,1152,35,28,C.ink);
   }),
 
-S49:make('S49','Task, Context, Workflow의 역할','ACT 3 · 세 가지 책임을 나누기',
+S52:make('S52','Task, Context, Workflow의 역할','ACT 3 · 세 가지 책임을 나누기',
   '교육용 책임 구분 · 현재 목표 / 프로젝트 사실 / 반복 절차',
   'Prompt 밖에 둘 수 있는 정보라도 유지해야 할 책임은 서로 다르다','TEACHING_MODEL',
   (s,{C,text,line})=>{
@@ -365,7 +365,7 @@ S49:make('S49','Task, Context, Workflow의 역할','ACT 3 · 세 가지 책임�
     rs.forEach((r,i)=>{const y=232+i*116;line(s,64,y,1152);text(s,r[0],64,y+15,324,42,29,C.teal,true);text(s,r[1],435,y+15,781,42,30,C.ink,true);text(s,r[2],435,y+64,781,35,27,C.sub);});
   }),
 
-S50:make('S50','반복 절차를 Skill로 옮길 수 있을까?','ACT 3 · 재사용할 구조를 선택하기',
+S53:make('S53','반복 절차를 Skill로 옮길 수 있을까?','ACT 3 · 재사용할 구조를 선택하기',
   'DEC-0017 · 반복 절차를 Repository Skill로 옮기는 설계 후보',
   '아직 성공 결과를 제시하는 장이 아님 · 대상 제품·계정·호출 방식은 별도 확인 필요','TEACHING_MODEL',
   (s,{C,text,line,rect,arrow})=>{
@@ -381,7 +381,7 @@ S50:make('S50','반복 절차를 Skill로 옮길 수 있을까?','ACT 3 · 재�
     text(s,'긴 절차를 빼도, 같은 작업 흐름을 유지할 수 있을까?',64,550,1152,42,30,C.ink,true);
   }),
 
-S51:make('S51','Skill을 어떻게 발견하고 호출할까?','ACT 3 · TRIAL-008에서 확인한 경로',
+S54:make('S54','Skill을 어떻게 발견하고 호출할까?','ACT 3 · TRIAL-008에서 확인한 경로',
   'TRIAL-008 · Codex CLI 0.154.0 · 기록 재구성, 실제 UI 캡처 아님',
   '경로·본문은 실행 trace에서 확인 · 현재 Desktop·암묵적 호출·교육 계정은 미검증','OBSERVED_PRODUCT',
   (s,{C,text,line,rect})=>{
@@ -396,7 +396,7 @@ S51:make('S51','Skill을 어떻게 발견하고 호출할까?','ACT 3 · TRIAL-0
     text(s,'03  실행 기록에서 Skill 본문 포함을 확인',64,532,1152,42,29,C.teal,true);
   }),
 
-S52:make('S52','절차의 책임이 Prompt에서\nRepository로 이동','ACT 3 · 두 Trial의 요청 구조 비교',
+S55:make('S55','절차의 책임이 Prompt에서\nRepository로 이동','ACT 3 · 두 Trial의 요청 구조 비교',
   'TRIAL-007 / TRIAL-008 · 서로 다른 Task의 Prompt 구조를 요약',
   '절차를 둔 위치의 변화만 관찰 · Skill 우월성·토큰 절감·속도 향상은 입증하지 않음','OBSERVED_PRODUCT',
   (s,{C,text,line,rect})=>{
@@ -411,7 +411,7 @@ S52:make('S52','절차의 책임이 Prompt에서\nRepository로 이동','ACT 3 �
     text(s,'공통 흐름: baseline → 조사 → test / benchmark → 비교 / review',64,548,1152,41,26,C.ink,true);
   }),
 
-S53:make('S53','답을 담지 않는 Workflow','ACT 3 · 절차와 과제별 판단',
+S56:make('S56','답을 담지 않는 Workflow','ACT 3 · 절차와 과제별 판단',
   'STATE-04의 SKILL.md 원문 일부 + 교육용 책임 구분',
   '특정 최적화 답·알고리즘·Trial 수치를 Skill의 정답으로 넣지 않았다','OBSERVED_PRODUCT',
   (s,{C,text,line,rect})=>{
@@ -424,7 +424,7 @@ S53:make('S53','답을 담지 않는 Workflow','ACT 3 · 절차와 과제별 판
     text(s,'절차는 재사용하고, 답은 이번 근거로 결정한다',64,550,1152,40,31,C.ink,true);
   }),
 
-S54:make('S54','측정으로 후보를 고르다','ACT 3 · 시간과 메모리를 함께 비교',
+S57:make('S57','측정으로 후보를 고르다','ACT 3 · 시간과 메모리를 함께 비교',
   'TRIAL-008 · image_statistics 후보 비교 · 최종 STATE-04 전후 측정과는 별개',
   '합성 1024×768 · CPython 3.9.6 / macOS arm64 · 같은 6개 출력값 검증 · 정성 비교','OBSERVED_PRODUCT',
   (s,{C,text,line,rect})=>{
@@ -442,7 +442,7 @@ S54:make('S54','측정으로 후보를 고르다','ACT 3 · 시간과 메모리�
     text(s,'더 나음 → 선택',942,484,274,45,29,C.teal,true);
   }),
 
-S56:make('S56','이 작업에 Subagent가 필요했을까?','ACT 3 · 추가 구조의 필요성 점검',
+S59:make('S59','이 작업에 Subagent가 필요했을까?','ACT 3 · 추가 구조의 필요성 점검',
   'DEC-0018 · 현재 성능 작업에 대한 판단과 교육용 작업 구조',
   '현재 사례에서 추가하지 않았다는 결과 · 일반적으로 Subagent가 불필요하다는 뜻은 아님','TEACHING_MODEL',
   (s,{C,text,flow,line})=>{
@@ -452,7 +452,7 @@ S56:make('S56','이 작업에 Subagent가 필요했을까?','ACT 3 · 추가 구
     text(s,'이 Task에서는 Agent를 더 나눌 근거가 부족했다',64,548,1152,43,32,C.teal,true);
   }),
 
-S57:make('S57','Subagent를 고려할 조건','ACT 3 · 독립 조사와 결과 통합',
+S60:make('S60','Subagent를 고려할 조건','ACT 3 · 독립 조사와 결과 통합',
   '교육용 가정 · C++ Repository의 조사들이 실제로 독립적일 때',
   '제품 실행 사례가 아님 · 작고 연결된 작업·Context 반복·큰 조정 비용이면 보류','CONCEPTUAL',
   (s,{C,text,line,rect,arrow})=>{
@@ -463,7 +463,7 @@ S57:make('S57','Subagent를 고려할 조건','ACT 3 · 독립 조사와 결과 
     rect(s,64,539,1152,51,C.pale);text(s,'시작 전에 정할 것: 결과 형식 · 전달 지점 · 합칠 책임',86,546,1108,37,28,C.ink,true);
   }),
 
-S58:make('S58','무엇이 다시 찾기 어려운 지식인가?','ACT 3 · 별도 지식 보존의 필요성 점검',
+S61:make('S61','무엇이 다시 찾기 어려운 지식인가?','ACT 3 · 별도 지식 보존의 필요성 점검',
   '현재 Demo Repository의 지식 분류와 Memory 후보 점검',
   '별도 Memory로 남길 지속적 지식 후보는 찾지 못함 · 제품 Memory 동작 주장은 아님','TEACHING_MODEL',
   (s,{C,text,line,arrow})=>{
@@ -472,7 +472,7 @@ S58:make('S58','무엇이 다시 찾기 어려운 지식인가?','ACT 3 · 별�
     text(s,'새 기록을 만들기 전에, 원래 출처를 먼저 찾는다',64,568,1152,30,26,C.sub);
   }),
 
-S59:make('S59','Memory는 재발견 비용으로 판단','ACT 3 · 무엇을 남길 가치가 있는가',
+S62:make('S62','Memory는 재발견 비용으로 판단','ACT 3 · 무엇을 남길 가치가 있는가',
   '교육용 의사결정 기준 · 별도 Memory의 필요성을 검토하는 질문',
   '현재 Demo에서는 조건에 맞는 후보 없음 · Memory 사용 여부는 성숙도 점수가 아님','TEACHING_MODEL',
   (s,{C,text,line})=>{
@@ -480,7 +480,7 @@ S59:make('S59','Memory는 재발견 비용으로 판단','ACT 3 · 무엇을 남
     rs.forEach((r,i)=>{const y=230+i*89;line(s,64,y,1152);text(s,r[0],64,y+16,70,40,28,C.teal,true);text(s,r[1],154,y+9,1062,40,29,C.ink,true);text(s,r[2],154,y+49,1062,31,24,C.sub);});
   }),
 
-S60:make('S60','Minimum Effective Harness','ACT 3 · 이번 문제에 실제로 필요했던 구조',
+S63:make('S63','Minimum Effective Harness','ACT 3 · 이번 문제에 실제로 필요했던 구조',
   'STATE-04-PERF까지의 구성 · 현재 프로젝트 사례를 정리한 교육용 모델',
   'Subagent·별도 Memory는 추가하지 않음 · 필요한 구성은 문제와 검증 요건에 따라 달라짐','TEACHING_MODEL',
   (s,{C,text,line,rect})=>{
@@ -489,7 +489,7 @@ S60:make('S60','Minimum Effective Harness','ACT 3 · 이번 문제에 실제로 
     rs.forEach((r,i)=>{const y=297+i*67;line(s,64,y,1152);text(s,r[0],64,y+12,489,42,28,C.ink);text(s,'→',573,y+12,48,42,29,C.teal,true);text(s,r[1],652,y+12,564,42,26,C.teal,true);});
   }),
 
-S61:make('S61','Harness는 작업 환경 설계다','ACT 3 · 개발자와 Agent가 일하는 환경',
+S64:make('S64','Harness는 작업 환경 설계다','ACT 3 · 개발자와 Agent가 일하는 환경',
   'Harness: Agent가 Project에서 신뢰성 있게 일하도록 설계한 작업 환경 · 이 과정의 운영 모델',
   '공식 제품 분류가 아님 · STATE-04-PERF 관찰 요소와 교육용 전체 모델을 구분한다','TEACHING_MODEL',
   (s,{C,text,rect,line,arrow})=>{
@@ -504,7 +504,7 @@ S61:make('S61','Harness는 작업 환경 설계다','ACT 3 · 개발자와 Agent
     text(s,'AGENTS.md · docs · Skill · Tests · Benchmark',290,539,926,40,28,C.ink);
   }),
 
-S62:make('S62','Repository 밖의 환경도 결과에 영향을 준다','ACT 3 · 실행 환경의 경계',
+S65:make('S65','Repository 밖의 환경도 결과에 영향을 준다','ACT 3 · 실행 환경의 경계',
   '관찰된 제작 이력의 예고 · Global Skills와 hook/MCP 시작 경고의 기록 존재',
   '전체 환경 목록이나 모든 요소의 인과 효과를 확인한 것은 아님 · 상세 근거는 ACT 4에서 확인','OBSERVED_META',
   (s,{C,text,rect,line})=>{
@@ -518,7 +518,7 @@ S62:make('S62','Repository 밖의 환경도 결과에 영향을 준다','ACT 3 �
     text(s,'Repository 바깥의 흔적도, 결과를 해석할 때 기록한다',64,553,1152,37,29,C.ink,true);
   }),
 
-S63:make('S63','Engineering Pattern은 C++에도 전이된다','ACT 3 · 도구를 넘어 같은 판단을 적용하기',
+S66:make('S66','Engineering Pattern은 C++에도 전이된다','ACT 3 · 도구를 넘어 같은 판단을 적용하기',
   'C++ Vision 전이를 위한 교육용 예시 · 실제 C++ Demo나 팀 표준 검증 결과가 아님',
   '구체적 빌드·IDE·셸·하드웨어 설정은 프로젝트별 확인 필요','TEACHING_MODEL',
   (s,{C,text,line})=>{
@@ -529,7 +529,7 @@ S63:make('S63','Engineering Pattern은 C++에도 전이된다','ACT 3 · 도구�
     text(s,'baseline → profile → change → regression check',64,551,1152,41,30,C.teal,true,'Consolas');
   }),
 
-S64:make('S64','필요한 구조부터 질문하기','ACT 3 · 내 업무의 반복을 돌아보기',
+S67:make('S67','필요한 구조부터 질문하기','ACT 3 · 내 업무의 반복을 돌아보기',
   '자신의 업무를 생각해보기 · 공유는 선택',
   'STATE-04-PERF는 이 작업에서 잘 동작한 결과 · Subagent와 Memory는 조건부 선택','TEACHING_MODEL',
   (s,{C,text,line})=>{
@@ -543,4 +543,4 @@ S64:make('S64','필요한 구조부터 질문하기','ACT 3 · 내 업무의 반
   }),
 };
 
-// AUTHOR_COMPLETE: S32, S34–S54, S56–S64. Preserve pilot S33/S55 externally.
+// AUTHOR_COMPLETE: S32, S34–S57, S59–S67. Preserve pilot S33/S58 externally.

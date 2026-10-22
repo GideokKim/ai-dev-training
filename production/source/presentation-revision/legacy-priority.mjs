@@ -93,7 +93,7 @@ export function addModuleFooter(s,id,record,H){
    else if(pos.top===606&&pos.height===0)q.position={...pos,top:598};
    else if(pos.top===621)q.position={...pos,top:608,height:24};
    else if(pos.top===650)q.position={...pos,top:632,height:22};
-   else if(id==='S84'&&pos.top===577&&pos.height===32)q.position={...pos,top:571};
+   else if(id==='S87'&&pos.top===577&&pos.height===32)q.position={...pos,top:571};
   }
  }
  const footer=H.text(s,record.footerLabel,64,654,1152,18,16,H.C.sub,false,H.FONT,'right');

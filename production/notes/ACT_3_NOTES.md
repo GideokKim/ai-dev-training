@@ -1,6 +1,9 @@
 # ACT 3 — Speaker Notes
 
-Status: NUMBERING ALIGNED — DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
+Status: NUMBERING/CONTENT ALIGNED — DEC-0060,93 slides/379 minutes; ACT2 18slides/81minutes. Final rendered/embedded Notes parity is recorded in production/evaluation/ACT_2_FLOW_REVISION.md. Windows/product/account/room/rehearsal UNVERIFIED.
+
+
+Historical alignment status: NUMBERING ALIGNED — DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
 
 Historical alignment status: ALIGNED — DEC-0038의 82장 번호와 운영 지침을 정렬했다. 신규 제작본의 렌더·내장 Notes 대조는 production/evaluation/PROMPT_TIMELINE_REVISION.md에서 별도로 기록한다. 기존 81장판의 PASS를 승계하지 않는다. Windows, room, account, and timed rehearsal remain UNVERIFIED.
 
@@ -8,11 +11,13 @@ Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`, `plan/VISUAL_SPEC.
 
 Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historical handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
 
-## S47 — 서로 다른 Performance Task, 반복되는 절차
 
-Slide ID: S47
 
-Working Title: 서로 다른 Performance Task, 반복되는 절차
+## S50 — 서로 다른 Performance Task, 반복되는 절차
+
+Slide ID: S50
+
+Working Title: 두 실제 요청에 같은 절차가 반복됐다
 
 ACT / Section: ACT 3 / 3A
 
@@ -20,25 +25,21 @@ Allocated Time: 5 minutes
 
 Mode Split: Case 5 minutes
 
-Primary Message: TRIAL-006의 `resize_nearest`와 TRIAL-007의 `normalize`처럼 서로 다른 목표에서도 유사한 performance procedure가 반복될 수 있다.
+Primary Message: `resize_nearest`와 `normalize`라는 서로 다른 Performance Task에 baseline, 조사, 계획, 변경, test, benchmark, 비교, review 절차가 반복됐다.
 
 Opening Question: “Task가 달라도 왜 같은 작업 방법을 계속 쓰고 있지?”
 
-Speaker Flow:
+Speaker Flow: 1. (0–1분) 기존 승인된 두 삽화를 각 Task의 목표를 표시하는 용도로만 가리킨다. 결과/Benchmark 전후 그림이 아니다.
+2. (1–4분) A의 실제 Prompt 발췌 번역과 B의 보존된 Task Prompt 요약을 같은 세 행으로 대응한다: 먼저 측정·조사, 계획·최소 변경, 관련/전체 테스트·동일 조건 비교·검토.
+3. (4–5분) 기록에는 반복 요청과 실행이 있지만 Global Harness의 영향 때문에 Prompt 단독 효과의 귀속은 PARTIAL이라고 설명한다. 실행 결과 수치로 확장하지 않는다.
 
-1. (0:00–2:00) 처음 30초에 그림으로 작업 대상을 확인한다. 왼쪽은 크기 변경, 오른쪽은 선언된 max_value를 255로 스케일하는 값 범위 변환이다. 0→0, 2048→128, 4095→255를 설명할 수 있지만 화질 개선으로 표현하지 않는다. 이어 두 Task goal을 비교한다.
-2. (2:00–4:00) 두 기록에 반복된 baseline, 조사, 계획, 변경, test, benchmark, 비교, review를 강조한다.
-3. (4:00–5:00) 반복 관찰과 원인 귀속을 분리하고 Prompt-only attribution이 PARTIAL임을 밝힌다. 앞 ACT에서 남긴 질문을 회수해, 서로 다른 목표에서도 같은 조사·검증 절차가 다시 쓰였다는 점을 다음 설계 문제로 삼는다.
-
-화면 진행: 상단 두 그림은 목표 차이만 짧게 확인한다. 이후 중앙의 공통 절차를 Baseline부터 Review까지 차례로 가리키며 두 Task에서 반복된 부분을 본다. 그림은 실제 입출력이나 성능 전후 비교가 아니다.
-
-Evidence / Source: TRIAL-006 (`resize_nearest`), TRIAL-007 (`normalize`), BEAT-018/020. Codex CLI 기록 실행의 workflow 비교. 함수 계약 참고: Demo STATE-04의 src/graypipe/transform.py 및 normalize.py. 삽화 출처: prototype/image-illustration-pilot/assets/S37.png, built-in image_gen, 2026-10-18. 생성 프롬프트: prototype/image-illustration-pilot/PROMPTS.md. 실제 화면·현장 사진·관찰 자료가 아니다.
+Evidence / Source: TRIAL-006 Actual Prompt and Repeated Workflow Elements; TRIAL-007 retained Task Prompt summary / plan/DEMO_MATRIX.md; DEC-0017, DEC-0060. A is translated excerpt; B is translated retained summary, not verbatim full prompt. Functional images are approved AI-generated teaching illustrations. No new execution.
 
 Claim Boundary: 유사한 절차가 관찰됐지만 Prompt만의 효과로 귀속하지 않는다. 개별 성능 결과는 해당 코드·입력·환경에 한정한다. 그림은 기능 설명용 개념 예시이며 Trial의 입력·출력 파일이나 최적화 전후 결과가 아니다.
 
 Beginner Explanation: 서로 다른 작업에서도 조사하고 확인하는 순서가 반복될 수 있다.
 
-Advanced Insight: Task별 목표와 지속해서 재사용할 절차를 구분하고, Global Harness가 미친 영향을 고려한다.
+Advanced Insight: Task별 목표와 지속해서 재사용할 절차를 구분하고, Global Harness가 미친 영향을 고려한다. 기존 삽화의 기능 예(0–4095→0–255,2048→128)는 교육용 정규화 설명으로만 유지한다. 실제 Trial 입력/출력·성능 전후를 표시한 것이 아니다. 화면에서는 기능 목표만 짚고 지시 비교에 집중한다.
 
 C++ Vision Bridge: N/A.
 
@@ -46,19 +47,19 @@ Demo Operation: 위는 기능 설명용 AI 삽화, 아래는 TRIAL-006/007 기�
 
 Audience Interaction: 두 Task의 공통 절차를 잠시 관찰하게 한다. 공개 답변은 요구하지 않는다.
 
-Transition: “Project 지식과 작업 절차는 각각 어떤 질문에 답할까?”
+Transition: “테스트 명령을 알려주는 것과, 이 여러 단계를 유지하는 것은 어떤 책임 차이가 있을까요?”
 
 Time Management: Case 5분을 두 Task 비교, 공통 절차, attribution 한계 순으로 쓴다. 수치 설명으로 확장하지 않는다.
 
-Fallback: 정적 발표 경로는 production/preview/act3/S47.png와 production/preview/full/S47.png다. 같은 그림을 가리키며 원래 질문과 Claim 경계를 설명한다. 설명용 삽화를 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: 정적 발표 경로는 production/preview/act3/S50.png와 production/preview/full/S50.png다. 같은 그림을 가리키며 원래 질문과 Claim 경계를 설명한다. 설명용 삽화를 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
-Validation Status: REVIEWED — DEC-0030에서 승인한 화면 강조와 운영 Cue를 정렬했다. 최종 PPT/Notes/PNG 대조와 렌더 검토 결과는 production/evaluation/FULL_DECK_PRESENTATION_POLISH.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 제품·계정, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
 
-## S48 — Project 사실과 작업 절차는 다르다
+## S51 — Project 사실과 작업 절차는 다르다
 
-Slide ID: S48
+Slide ID: S51
 
-Working Title: Project 사실과 작업 절차는 다르다
+Working Title: 테스트 명령과 작업 절차의 책임을 나눈다
 
 ACT / Section: ACT 3 / 3A
 
@@ -66,21 +67,17 @@ Allocated Time: 4 minutes
 
 Mode Split: Lecture 4 minutes
 
-Primary Message: Project에서 일반적으로 참인 사실과 반복되는 작업 방법은 서로 다른 설계 문제다.
+Primary Message: Project 안내에는 테스트 명령과 검증 규칙도 들어갈 수 있다. Workflow 설계는 어떤 시점에 어떤 근거로 판단·중단·비교·보고할지를 재사용하고 유지하는 책임을 다룬다.
 
 Opening Question: “Agent가 알아야 할 것과 따라야 할 방법은 같은가?”
 
-Speaker Flow:
-
-1. (0:00–1:00) 왼쪽 crop의 끝 열 제외 계약을 ‘무엇이 참인가?’와 연결한다.
-2. (1:00–3:00) 오른쪽 변경 전 측정과 동일 입력 비교를 ‘어떤 순서로 일할까?’와 연결한다. 화면 아래의 현재 목표 질문은 Task Prompt의 책임이다.
-3. (3:00–4:00) 사실과 절차는 둘 다 Prompt 밖에 놓일 수 있지만 유지할 책임이 다르다고 정리한다. 아직 Harness 전체 정의를 완성하지 않는다.
-
-화면 진행: 문장을 무엇이 참인가/어떻게 일하는가/지금 무엇을 원하는가로 분류한다. 정답 시험을 진행하지 않는다. 다음 장은 이 세 책임을 하나의 Task에 함께 적용한다.
+Speaker Flow: 1. (0–1분) S34의 테스트 명령/검증 규칙이 이미 AGENTS.md에 있었음을 회수한다.
+2. (1–3분) 명령의 출발점과 여러 단계에서의 판단·중단·비교·보고 책임을 나눈다. AGENTS.md에도 절차를 쓸 수 있고, 이번 교육에서는 반복 절차를 유지할 단위를 검토한다고 말한다.
+3. (3–4분) 파일 형식의 배타적 분류가 아님을 확인하고 다음 S52의 normalize 한 Task에 세 책임을 적용한다.
 
 Evidence / Source: BEAT-019, TRIAL-006/007. TEACHING_MODEL / CONCEPTUAL.
 
-Claim Boundary: 교육용 구분이다. 공식 제품 분류나 특정 제품 기능이라고 표현하지 않는다.
+Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. Context는 사실만이고 절차는 AGENTS.md에 쓰면 안 된다는 이분법을 제거한다. 파일 확장자가 아닌 책임과 유지 단위를 구분하는 교육용 모델이다. 다음 S52에서 normalize Task 하나에 세 책임을 적용한 뒤에만 Skill 후보로 간다.
 
 Beginner Explanation: 프로젝트 설명은 무엇이 참인지 말하고, workflow는 어떤 순서로 일할지 말한다.
 
@@ -92,17 +89,17 @@ Demo Operation: N/A.
 
 Audience Interaction: 세 질문과 항목을 조용히 따라오게 한다. 분류 실습은 요구하지 않는다.
 
-Transition: “이 세 책임을 normalize 성능 조사 하나에 함께 적용해보겠습니다.”
+Transition: “저장 위치보다 책임을 먼저 나눠 보겠습니다. normalize 성능 조사 하나에 적용하면 어떻게 될까요?”
 
 Time Management: 4분 동안 세 질문의 책임만 구분한다. Harness 전체 정의는 아직 제시하지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S48 또는 `production/preview/act3/S48.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S51 또는 `production/preview/act3/S51.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
-Validation Status: REVIEWED — DEC-0030에서 승인한 화면 강조와 운영 Cue를 정렬했다. 최종 PPT/Notes/PNG 대조와 렌더 검토 결과는 production/evaluation/FULL_DECK_PRESENTATION_POLISH.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 제품·계정, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
 
-## S49 — Task, Context, Workflow의 역할
+## S52 — Task, Context, Workflow의 역할
 
-Slide ID: S49
+Slide ID: S52
 
 Working Title: Task, Context, Workflow의 역할
 
@@ -123,7 +120,7 @@ Speaker Flow:
 3. (2:30–4:00) 셋째 행의 baseline → 조사 → 검증 → 비교를 재사용 Workflow와 연결한다.
 4. (4:00–5:00) 세 책임의 위치가 Prompt 밖일 수 있다는 것과 책임이 같다는 것을 구분한다.
 
-화면 진행: normalize라는 한 목표를 기준으로 Task Prompt, Project Context, Reusable Workflow가 각각 맡는 질문을 연결한다. S48의 분류 예시를 다시 나열하지 않는다.
+화면 진행: normalize라는 한 목표를 기준으로 Task Prompt, Project Context, Reusable Workflow가 각각 맡는 질문을 연결한다. S51의 분류 예시를 다시 나열하지 않는다.
 
 Evidence / Source: BEAT-019, TRIAL-006/007. TEACHING_MODEL / CONCEPTUAL.
 
@@ -139,17 +136,17 @@ Demo Operation: N/A.
 
 Audience Interaction: 각 Layer 예시를 조용히 따라오게 한다. 노트북 실습은 없다.
 
-Transition: Slide 50에서 반복 절차를 repository-owned asset으로 옮길지 묻는다.
+Transition: Slide 53에서 반복 절차를 repository-owned asset으로 옮길지 묻는다.
 
 Time Management: 5분 동안 세 책임과 한 개의 workflow 예시만 설명한다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S49 또는 `production/preview/act3/S49.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S52 또는 `production/preview/act3/S52.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — DEC-0030에서 승인한 화면 강조와 운영 Cue를 정렬했다. 최종 PPT/Notes/PNG 대조와 렌더 검토 결과는 production/evaluation/FULL_DECK_PRESENTATION_POLISH.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 제품·계정, 실제 시간 리허설은 UNVERIFIED.
 
-## S50 — 반복 절차를 Skill로 옮길 수 있을까?
+## S53 — 반복 절차를 Skill로 옮길 수 있을까?
 
-Slide ID: S50
+Slide ID: S53
 
 Working Title: 반복 절차를 Skill로 옮길 수 있을까?
 
@@ -183,17 +180,17 @@ Demo Operation: N/A.
 
 Audience Interaction: 성공 여부를 추측하지 않도록 잠깐 멈추고 질문을 남긴다.
 
-Transition: Slide 51에서 TRIAL-008의 발견과 명시적 호출 기록을 확인한다.
+Transition: Slide 54에서 TRIAL-008의 발견과 명시적 호출 기록을 확인한다.
 
 Time Management: 4분 중 3분은 문제와 후보를 설명하고, 마지막 1분에 product check 경계를 둔다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S50 또는 `production/preview/act3/S50.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S53 또는 `production/preview/act3/S53.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S51 — Skill을 어떻게 발견하고 호출할까?
+## S54 — Skill을 어떻게 발견하고 호출할까?
 
-Slide ID: S51
+Slide ID: S54
 
 Working Title: Skill을 어떻게 발견하고 호출할까?
 
@@ -232,13 +229,13 @@ Transition: “다음에는 normalize와 image_statistics의 요청을 비교하
 
 Time Management: 발견 1.5분, 호출·본문 근거 1.5분, 범위 제한 1분. 실시간 제품 설명을 추가하지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S51 또는 `production/preview/act3/S51.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S54 또는 `production/preview/act3/S54.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S52 — 절차의 책임이 Prompt에서 Repository로 이동
+## S55 — 절차의 책임이 Prompt에서 Repository로 이동
 
-Slide ID: S52
+Slide ID: S55
 
 Working Title: 절차의 책임이 Prompt에서 Repository로 이동
 
@@ -277,13 +274,13 @@ Transition: “그 Skill에는 구체적인 답이 들어 있을까, 재사용�
 
 Time Management: Demo 3분은 구조 비교, Case 3분은 공통 procedure와 책임 경계에 쓴다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S52 또는 `production/preview/act3/S52.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S55 또는 `production/preview/act3/S55.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S53 — 답을 담지 않는 Workflow
+## S56 — 답을 담지 않는 Workflow
 
-Slide ID: S53
+Slide ID: S56
 
 Working Title: 답을 담지 않는 Workflow
 
@@ -323,13 +320,13 @@ Transition: “실제로 후보를 선택할 때는 무엇을 근거로 삼았�
 
 Time Management: 3분 동안 두 책임만 구분하며 algorithm 설명은 생략한다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S53 또는 `production/preview/act3/S53.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S56 또는 `production/preview/act3/S56.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — DEC-0030에서 승인한 화면 강조와 운영 Cue를 정렬했다. 최종 PPT/Notes/PNG 대조와 렌더 검토 결과는 production/evaluation/FULL_DECK_PRESENTATION_POLISH.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 제품·계정, 실제 시간 리허설은 UNVERIFIED.
 
-## S54 — 측정으로 후보를 고르다
+## S57 — 측정으로 후보를 고르다
 
-Slide ID: S54
+Slide ID: S57
 
 Working Title: 측정으로 후보를 고르다
 
@@ -352,7 +349,7 @@ Speaker Flow:
 
 Evidence / Source: TRIAL-008 candidate comparison; `image_statistics`; synthetic 1024×768 image, CPython 3.9.6 / macOS 26.6.2 arm64; same six-field correctness guard.
 
-Claim Boundary: 정확한 candidate 수치는 표시하지 않는다. Candidate 결과를 S55의 formal state benchmark와 섞지 않는다. Skill이 algorithm이나 결과를 만들었다고 하지 않는다.
+Claim Boundary: 정확한 candidate 수치는 표시하지 않는다. Candidate 결과를 S58의 formal state benchmark와 섞지 않는다. Skill이 algorithm이나 결과를 만들었다고 하지 않는다.
 
 Beginner Explanation: 적은 메모리만 보고 선택하지 않고 같은 조건에서 실행시간과 정확성을 함께 확인했다.
 
@@ -360,7 +357,7 @@ Advanced Insight: Candidate comparison과 named product-state before/after 측�
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 두 후보의 Python 할당량과 실행 시간 정성 비교를 사용한다. 후보별 새 숫자나 측정 그래프를 추가하지 않는다. 공식 STATE-04 전후 수치는 다음 S55에서 별도로 보여준다.
+Demo Operation: 두 후보의 Python 할당량과 실행 시간 정성 비교를 사용한다. 후보별 새 숫자나 측정 그래프를 추가하지 않는다. 공식 STATE-04 전후 수치는 다음 S58에서 별도로 보여준다.
 
 Audience Interaction: Case 질문을 제시하고 실행시간과 메모리의 trade-off를 생각하게 한다.
 
@@ -368,13 +365,13 @@ Transition: “선택한 변화는 어떤 검증을 거쳐 제품 상태에 반�
 
 Time Management: 5분 중 3분은 두 후보 차이, 1분은 correctness guard, 1분은 evidence 경계에 쓴다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S54 또는 `production/preview/act3/S54.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S57 또는 `production/preview/act3/S57.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S55 — Working Harness Success
+## S58 — Working Harness Success
 
-Slide ID: S55
+Slide ID: S58
 
 Working Title: Working Harness Success
 
@@ -405,7 +402,7 @@ Advanced Insight: Observed product change와 시스템 구성요소의 단독 �
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: `production/ACT_3.pptx`의 S55 및 `production/preview/act3/S55.png`의 native chart와 수치 비교를 가리킨다. 새 Trial 또는 benchmark를 실행하지 않는다. 막대는 실행 시간만 표현하며 할당량은 별도 수치 비교다.
+Demo Operation: `production/ACT_3.pptx`의 S58 및 `production/preview/act3/S58.png`의 native chart와 수치 비교를 가리킨다. 새 Trial 또는 benchmark를 실행하지 않는다. 막대는 실행 시간만 표현하며 할당량은 별도 수치 비교다.
 
 Audience Interaction: Case로 측정 조건과 verification을 짚고 일반화하지 않도록 안내한다.
 
@@ -413,13 +410,13 @@ Transition: “검증된 결과를 기준으로, Agent를 더 나눌 필요도 �
 
 Time Management: 5분을 metric 2.5분, test/CLI guards 1.5분, attribution limit 1분으로 나눈다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S55 또는 `production/preview/act3/S55.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S58 또는 `production/preview/act3/S58.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S56 — 이 작업에 Subagent가 필요했을까?
+## S59 — 이 작업에 Subagent가 필요했을까?
 
-Slide ID: S56
+Slide ID: S59
 
 Working Title: 이 작업에 Subagent가 필요했을까?
 
@@ -457,13 +454,13 @@ Transition: “어떤 작업 구조라면 Subagent 검토가 타당해질까?”
 
 Time Management: 시각 검토 3분, Q&A 1분을 보호한다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S56 또는 `production/preview/act3/S56.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S59 또는 `production/preview/act3/S59.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S57 — Subagent를 고려할 조건
+## S60 — Subagent를 고려할 조건
 
-Slide ID: S57
+Slide ID: S60
 
 Working Title: Subagent를 고려할 조건
 
@@ -501,13 +498,13 @@ Transition: “Agent를 나눌 필요를 봤으니, 이번에는 다음 작업�
 
 Time Management: 세 조건, 보류 신호, 가정 예시를 각 한 번만 다룬다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S57 또는 `production/preview/act3/S57.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S60 또는 `production/preview/act3/S60.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S58 — 무엇이 다시 찾기 어려운 지식인가?
+## S61 — 무엇이 다시 찾기 어려운 지식인가?
 
-Slide ID: S58
+Slide ID: S61
 
 Working Title: 무엇이 다시 찾기 어려운 지식인가?
 
@@ -547,13 +544,13 @@ Transition: “그럼 어떤 지식에 Memory를 검토할 조건이 있을까?�
 
 Time Management: 네 행을 빠르게 연결한 뒤 계약과 측정 결과 두 범주의 출처 차이에 설명을 집중한다. 정적 Demo 2분, Case 2분을 유지한다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S58 또는 `production/preview/act3/S58.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S61 또는 `production/preview/act3/S61.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — DEC-0030에서 승인한 화면 강조와 운영 Cue를 정렬했다. 최종 PPT/Notes/PNG 대조와 렌더 검토 결과는 production/evaluation/FULL_DECK_PRESENTATION_POLISH.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 제품·계정, 실제 시간 리허설은 UNVERIFIED.
 
-## S59 — Memory는 재발견 비용으로 판단
+## S62 — Memory는 재발견 비용으로 판단
 
-Slide ID: S59
+Slide ID: S62
 
 Working Title: Memory는 재발견 비용으로 판단
 
@@ -591,13 +588,13 @@ Transition: “현재 문제를 해결하는 데 실제로 필요했던 구조�
 
 Time Management: 4분 동안 조건을 설명하고 기준을 feature checklist로 바꾸지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S59 또는 `production/preview/act3/S59.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S62 또는 `production/preview/act3/S62.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S60 — Minimum Effective Harness
+## S63 — Minimum Effective Harness
 
-Slide ID: S60
+Slide ID: S63
 
 Working Title: Minimum Effective Harness
 
@@ -625,7 +622,7 @@ Beginner Explanation: Harness는 기능을 많이 모으는 일이 아니라 현
 
 Advanced Insight: “Minimum Effective”는 신뢰성 있게 해결할 조건을 충족하는 문제별 heuristic이며 숫자 기준이 없다.
 
-C++ Vision Bridge: Slide 61–63에서 Project별 build, test, benchmark 절차로 연결한다. Python Skill을 C++로 복사하지 않는다.
+C++ Vision Bridge: Slide 64–63에서 Project별 build, test, benchmark 절차로 연결한다. Python Skill을 C++로 복사하지 않는다.
 
 Demo Operation: 기록된 State의 구성을 표로 재구성한 CAPTURED 범위 요약이다. 실제 실행 캡처가 아니며 Demo Repository나 현재 제품을 실행하지 않는다.
 
@@ -635,13 +632,13 @@ Transition: 다음 Slide에서 Tools, Environment, Verification을 포함한 Har
 
 Time Management: 3분 동안 실제 구성과 빠진 두 요소를 확인한다. 일반론으로 확장하지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S60 또는 `production/preview/act3/S60.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S63 또는 `production/preview/act3/S63.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S61 — Harness는 작업 환경 설계다
+## S64 — Harness는 작업 환경 설계다
 
-Slide ID: S61
+Slide ID: S64
 
 Working Title: Harness는 작업 환경 설계다
 
@@ -669,7 +666,7 @@ Beginner Explanation: Agent가 알 정보뿐 아니라 일하는 절차와 결�
 
 Advanced Insight: Harness는 특정 파일이나 기능 목록이 아니라 Project별 신뢰성 문제를 해결하는 system model이다.
 
-C++ Vision Bridge: Slide 63에서 C++ Project 환경에 같은 Engineering Pattern을 연결한다.
+C++ Vision Bridge: Slide 66에서 C++ Project 환경에 같은 Engineering Pattern을 연결한다.
 
 Demo Operation: 큰 프레임의 교육용 전체 모델과 아래 STATE-04-PERF 관찰 구성 줄을 분리해 보인다. 관찰 구성의 CAPTURED 요약도 기록 기반 재구성이며 실제 UI 캡처가 아니다.
 
@@ -679,13 +676,13 @@ Transition: “그 작업 환경은 Repository 파일만으로 결정될까?”
 
 Time Management: 개념 설명 4분, 관찰된 구성 2분. 기능 이름 열거에 시간을 쓰지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S61 또는 `production/preview/act3/S61.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S64 또는 `production/preview/act3/S64.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S62 — Repository 밖의 환경도 결과에 영향을 준다
+## S65 — Repository 밖의 환경도 결과에 영향을 준다
 
-Slide ID: S62
+Slide ID: S65
 
 Working Title: Repository 밖의 환경도 결과에 영향을 준다
 
@@ -723,13 +720,13 @@ Transition: “이 환경 설계 원칙은 C++ Vision Project에 어떻게 옮�
 
 Time Management: 3분 동안 환경 경계와 evidence 한계를 설명한다. 요소별 제품 기능 강의는 하지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — `production/ACT_3.pptx`의 S62 또는 `production/preview/act3/S62.png`의 Repository/외부 환경 경계 비교를 사용한다. 새 화면과 경로의 최종 release 일치는 통합 검토에서 확인한다.
+Fallback: LOCAL STATIC ARTIFACT — `production/ACT_3.pptx`의 S65 또는 `production/preview/act3/S65.png`의 Repository/외부 환경 경계 비교를 사용한다. 새 화면과 경로의 최종 release 일치는 통합 검토에서 확인한다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S63 — Engineering Pattern은 C++에도 전이된다
+## S66 — Engineering Pattern은 C++에도 전이된다
 
-Slide ID: S63
+Slide ID: S66
 
 Working Title: Engineering Pattern은 C++에도 전이된다
 
@@ -769,13 +766,13 @@ Transition: “현재 업무에서 어떤 구조가 실제로 필요한지 되�
 
 Time Management: 5분 동안 도구 이름보다 패턴 대응을 중심으로 설명한다.
 
-Fallback: 정적 발표 경로는 production/preview/act3/S63.png와 production/preview/full/S63.png다. 같은 그림을 가리키며 원래 질문과 Claim 경계를 설명한다. 설명용 삽화를 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: 정적 발표 경로는 production/preview/act3/S66.png와 production/preview/full/S66.png다. 같은 그림을 가리키며 원래 질문과 Claim 경계를 설명한다. 설명용 삽화를 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
 Validation Status: REVIEWED — DEC-0030에서 승인한 화면 강조와 운영 Cue를 정렬했다. 최종 PPT/Notes/PNG 대조와 렌더 검토 결과는 production/evaluation/FULL_DECK_PRESENTATION_POLISH.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 제품·계정, 실제 시간 리허설은 UNVERIFIED.
 
-## S64 — 필요한 구조부터 질문하기
+## S67 — 필요한 구조부터 질문하기
 
-Slide ID: S64
+Slide ID: S67
 
 Working Title: 필요한 구조부터 질문하기
 
@@ -813,6 +810,6 @@ Transition: “지금은 잘 동작하는 Harness도 Project가 바뀐 뒤 계�
 
 Time Management: Reflection 3분, Q&A 5분, Transition 2분. Q&A가 비어도 마지막 질문을 지키고, 초과 응답은 별도 질의로 안내한다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S64 또는 `production/preview/act3/S64.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다. 질문이 없으면 Audience Interaction의 준비 질문으로 진행한다.
+Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_3.pptx`의 S67 또는 `production/preview/act3/S67.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다. 질문이 없으면 Audience Interaction의 준비 질문으로 진행한다.
 
 Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.

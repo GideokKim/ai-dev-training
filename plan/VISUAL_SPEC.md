@@ -1,6 +1,7 @@
 # STEP 08 — Visual Specification
 
-> **현재 번호 기준: DEC-0043 / 90장 (2026-10-21).** S01–S21은 유지하고 기존 S22–S82를 S30–S90으로 옮긴다. 신규 S22–S29는 실무 Prompt 방법 구간이다. ACT 장수는 10/21/15/18/18/8이다. 기존 장별 시간은 보존하고 신규 8분을 더해 ACT 1 63분·전체 368분으로 확장한다. Mode는 Lecture137/Demo73/Case84/Reflection20/Transition22/Q&A32분이다. [90장 번호 대조·문서 범위](SLIDE_ID_MIGRATION_90.md). 과거 Prototype·Decision·실제 Asset 경로·검증 결과의 당시 번호는 보존한다.
+> **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
+
 
 ## 2026-10-18 — Approved Presentation Revision (80장 이력)
 
@@ -19,7 +20,7 @@ Status: COMPLETE WITH OPEN ITEMS
 
 ## 1. Purpose and Authority
 
-이 문서는 승인된 90장 Slide Map에 적용할 시각 설계 기준이다. Slide의
+이 문서는 승인된 93장 Slide Map에 적용할 시각 설계 기준이다. Slide의
 순서, 제목, 역할, 주장, Evidence, Demo, 시간 또는 Delivery Mode를
 변경하지 않는다.
 
@@ -183,15 +184,15 @@ Evidence Type은 프레임, 선 모양, 명시적인 Label, Source 표기를 함
 
 ### Slide 경계에서 반드시 유지할 구분
 
-- S65는 STATE-04-PERF의 OBSERVED_PRODUCT 근거로 표시한다. 승인된 Test,
+- S68는 STATE-04-PERF의 OBSERVED_PRODUCT 근거로 표시한다. 승인된 Test,
   benchmark 또는 상태 범위만 사용한다.
-- S66–76은 DEMO-04A의 CONCEPTUAL / TEACHING_MODEL 영역이다. 이 사례의
+- S69–79은 DEMO-04A의 CONCEPTUAL / TEACHING_MODEL 영역이다. 이 사례의
   Project 변경, 실패, 원인, 수정, EVAL 결과가 실제 Demo Repository에서
   발생한 것처럼 그리지 않는다.
-- S77–81은 교육 제작 과정의 OBSERVED_META 기록이다. DEMO-04A와 다른
+- S80–84은 교육 제작 과정의 OBSERVED_META 기록이다. DEMO-04A와 다른
   프레임 및 시간선으로 전환한다. Product Git State나 Product 실패로
   표시하지 않는다.
-- S62처럼 Evidence와 Teaching Model이 함께 있는 경우, 관찰 조각과
+- S65처럼 Evidence와 Teaching Model이 함께 있는 경우, 관찰 조각과
   일반화한 도식을 각각 구별한다. 한 프레임이 두 종류의 근거인 것처럼
   합치지 않는다.
 - S39는 승인된 연구 범위와 인용을 그대로 유지한다. 특정 Codex의 보편적
@@ -222,7 +223,7 @@ DEC-0036의 S08은 T03-C의 3단계 연결 도식으로 ChatGPT 메뉴 → Codex
 시간별 Speaker Notes 또는 Slide 추가를 뜻하지 않는다. 추후 제작 시
 애니메이션과 수동 단계 전환 중 방법을 선택할 수 있다.
 
-### S64 — 필요한 구조부터 질문하기 (10분)
+### S67 — 필요한 구조부터 질문하기 (10분)
 
 1. Reflection 3분: 어떤 마찰이 반복되는지 묻는 질문만 먼저 보여준다.
 2. Q&A 5분: 반복되는 Project 사실, 반복 절차, 독립 조사, 재발견 비용,
@@ -233,7 +234,7 @@ DEC-0036의 S08은 T03-C의 3단계 연결 도식으로 ChatGPT 메뉴 → Codex
 
 화면 상태가 바뀌어도 Slide ID와 승인된 10분 분배는 그대로 둔다.
 
-### S76 — Feedback을 System Change와 Evaluation으로 잇기 (11분)
+### S79 — Feedback을 System Change와 Evaluation으로 잇기 (11분)
 
 Execution → Observation → Cause → System Change → Re-evaluation을 한
 단계씩 공개한다. 마지막에는 전체 흐름과 System으로 되돌아가는 선을
@@ -241,7 +242,7 @@ Execution → Observation → Cause → System Change → Re-evaluation을 한
 Demo 상태에서는 완성된 모델을 화면에 둔다. 이 도식은 이 과정의
 Teaching Model이며 자동 학습을 의미하지 않는다.
 
-### S82 — Project와 환경이 바뀌면 검증도 다시 본다 (20분)
+### S85 — Project와 환경이 바뀌면 검증도 다시 본다 (20분)
 
 전체 흐름을 항상 보이게 두고 현재 단계만 강조한다.
 

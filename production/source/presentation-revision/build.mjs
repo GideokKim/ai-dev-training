@@ -29,7 +29,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d\d) — ([\s\S]*?)(?=^#### S\d\d|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==90)throw new Error('Expected 90 source records.');
+if(Object.keys(map).length!==93)throw new Error('Expected 93 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -47,8 +47,9 @@ Object.assign(factories,await (await import('./product-entry.mjs')).loadProductE
 Object.assign(factories,await (await import('./prompt-timelines.mjs')).loadPromptTimelineSlides(ROOT));
 Object.assign(factories,priorityFactories(factories,H));
 Object.assign(factories,promptTechniqueFactories(H));
+Object.assign(factories,await (await import('./act2-continuity.mjs')).loadAct2ContinuitySlides(ROOT,factories));
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
-if(moduleMap.slides.length!==90)throw new Error('Expected 90 legacy module mappings.');
+if(moduleMap.slides.length!==93)throw new Error('Expected 93 legacy module mappings.');
 const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));
 const notes={};
 for(let act=0;act<6;act++){
@@ -81,8 +82,8 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>id==='S55'?i+1:0).filter(Boolean);
-  const tableOwners=deck.ids.map((id,i)=>id==='S45'?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>id==='S58'?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>id==='S47'?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,
