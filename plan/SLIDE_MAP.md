@@ -1168,16 +1168,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 2 — separation, routing, and progressive disclosure.; ACT 2 — Context Engineering success and ACT 3 handoff.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. Routing의 보편적 우월성이나 성능 효과는 주장하지 않는다.
-- **Visual Concept:** A/B document-access matrix. A는 `image-contracts.md`를 읽었고 B는 읽지 않았다. 두 실행 모두 `architecture.md`를 읽었다.
-- **Demo / Case Connection:** B는 `AGENTS.md`, architecture, `pyproject.toml`, `setup.cfg`, README, source 등을 살펴 runtime dependency가 없다고 답했다.
+- **Visual Concept:** native 문서 접근 비교표의 두 열을 A·Crop 범위와 B·실행 의존성으로 표시한다. AGENTS.md·README.md·docs/architecture.md는 모두 읽음, docs/image-contracts.md·docs/testing.md는 A만 읽음, pyproject.toml·setup.cfg는 B만 읽음으로 비교한다. 차이가 있는 행의 실제 읽음 셀만 강조하고 미접근을 실패로 표시하지 않는다. 오른쪽에 관찰된 차이와 해석의 한계를 분리한다. testing.md의 최종 A 실행 범위·이전 실행과의 차이, 양쪽 소스 확인과 현재 Desktop 미검증을 표시한다.
+- **Demo / Case Connection:** TRIAL-005A/B 최종 CLI 실행의 실제 접근을 요약·재구성한다. A는 이미지 명세·테스트 안내를, B는 pyproject.toml·setup.cfg를 읽었고 둘 다 AGENTS.md·구조 문서·README와 소스를 확인했다. B의 기록된 답은 third-party runtime dependency 없음이며 Python/표준 라이브러리와 build/package 도구를 구분했다. 현재 제품에서 다시 실행한 결과가 아니다.
 - **Beginner Payoff:** Context가 Task에 맞게 선택되는지 확인해야 함을 안다.
 - **Advanced Payoff:** 일부 선택적 접근과 넓은 접근, 실행 간 변동을 함께 해석한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 짧은 비교표로 결과를 요약하고, 반복 실행 변동과 과도한 접근을 숨기지 않는다.
+- **Speaker Intent:** S44의 Crop 요청 A에 의존성 요청 B의 실제 접근 열을 붙여 비교한다. 기본 문서3개와 서로 달랐던 상세/설정4개를 같은 기준의 표로 보여주며 파일 접근 순서나 답의 내부 인과 경로를 재현하지 않는다. 관찰된 차이와 구조 문서의 넓은 접근·testing.md 접근 변동을 함께 설명한다. 문서 선택 보장·토큰 절약·성능 개선으로 확대하지 않고 S46의 남은 절차 반복 질문으로 넘긴다.
 - **Transition:** Slide 46에서 Context Engineering의 성과와 남은 문제를 정리한다.
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Demo 1분 (CAPTURED) + Case 3분 + Reflection 2분 + Q&A 1분 = 7분
-- **Evidence / Decision References:** BEAT-016, BEAT-017, TRIAL-005A, CLM-0014, CLM-0015, CLM-0003, CLM-0005
+- **Evidence / Decision References:** BEAT-016, BEAT-017, TRIAL-005A, TRIAL-005B, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0058
 
 #### S46 — 지식은 정리됐지만 절차는 반복된다
 

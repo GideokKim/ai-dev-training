@@ -90,6 +90,11 @@ access summary, matching crop specification and recorded answer. Native
 arrows express comparison, not read order or internal causality. Preserve
 broader reads, final-run testing variability, Case5 and claim boundaries.
 
+DEC-0058 updates S45 in `act23.mjs` with a native seven-path access matrix
+and separate observed-difference/interpretation-limit text. `build.mjs`
+requires the native table on the corresponding Full/ACT2 owner slide.
+Refresh the DEMO-06 S45 fallback identity and preserve all other budgets.
+
 ## Historical implementation notes
 
 # Presentation revision source

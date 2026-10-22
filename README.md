@@ -8,7 +8,9 @@
 
 ## 현재 상태
 
-최신 수정은 DEC-0057의 S44 문서 접근·명세·기록된 답/해석 한계 도식이다. [수정 S44](production/preview/full/S44.png), [검토 기록](production/evaluation/S44_CROP_EVIDENCE_REVISION.md).
+최신 수정은 DEC-0058의 S45 실제 문서 접근 비교/관찰과 해석 한계 도식이다. [수정 S45](production/preview/full/S45.png), [검토 기록](production/evaluation/S45_ACCESS_COMPARISON_REVISION.md).
+
+이전 수정은 DEC-0057의 S44 문서 접근·명세·기록된 답/해석 한계 도식이다. [수정 S44](production/preview/full/S44.png), [검토 기록](production/evaluation/S44_CROP_EVIDENCE_REVISION.md).
 
 이전 수정은 DEC-0056의 S43 두 요청창/관찰 질문 도식이다. [수정 S43](production/preview/full/S43.png), [검토 기록](production/evaluation/S43_PROMPT_WATCH_REVISION.md).
 

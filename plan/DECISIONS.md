@@ -7044,3 +7044,84 @@ answer while preserving the limits of an observation.
 Check S43-S45 continuity, actual filenames, column diagram and Notes
 parity. Preserve the other89 slides and all budgets. Keep Windows, room,
 current product/account and rehearsal UNVERIFIED. Do not rebuild bundles.
+
+
+# DEC-0058 — Compare S45 actual document access and interpretation limits
+
+## Status
+
+ACCEPTED — explicit user request to visualize the two access sets.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S44 shows the Crop request's accessed documents, specification and answer.
+S45 compares those observations with the dependency request before S46
+recaps Context and introduces the remaining procedure repetition.
+
+## Problem
+
+The three-row comparison leaves shared reads and package configuration
+mostly implicit. The scope boundary is easy to miss in footer text.
+
+## Decision
+
+Use a native editable matrix for seven document/configuration paths.
+Show shared AGENTS.md, README and architecture reads. Show image-contract
+and testing document reads for A, and package configuration reads for B.
+Highlight observed read cells without treating unread cells as failures.
+Place observed differences and interpretation limits beside the matrix.
+Keep the title, T04-C,7minutes, all Mode splits,90slides and368minutes.
+Align the Map, Notes, Full/ACT2, previews and DEMO-06 fallback identity.
+Require the S45 native table during finalized-package validation.
+
+## Rationale
+
+The audience can compare the actual access sets without repository access.
+Showing common and broader reads alongside differences avoids implying
+perfect selection, efficiency or a causal effect from an access record.
+
+## Alternatives
+
+Keep only the original three rows: omits shared and configuration reads.
+Show the complete log: obscures the comparison in incidental commands.
+Use pass/fail icons: incorrectly turns access into a quality judgment.
+
+## Trade-offs
+
+The matrix summarizes final runs, not all commands or reading order.
+Testing-document access varied across A invocations. Historical CLI
+records do not verify current Desktop behavior or an internal cause.
+No token saving or performance improvement was measured by this Trial.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-004, INV-DEMO-004,
+INV-RESEARCH-004, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S45 source, finalizer table requirement, Map/template row, ACT2/Full Notes
+and PPTX, previews, DEMO-06 static fallback and current artifact identities.
+Preserve previous reviews, unrelated slides and the Demo repository.
+
+## Evidence
+
+User direction; final TRIAL-005A/B access, answer, environment and
+invocation-variability records in plan/DEMO_MATRIX.md; CLAIM_FREEZE scope.
+No new Trial, test run or current-product check.
+
+## Training Relevance
+
+YES — distinguish observed selection differences from guarantees or
+measured efficiency claims while comparing real recorded accesses.
+
+## Follow-up
+
+Check every matrix cell, final-run asterisk, Notes and S44-S46 continuity.
+Preserve the other89 slides and all budgets. Refresh the changed S45 static
+fallback hash and preserve the other28. Keep external delivery gates
+UNVERIFIED. Do not rebuild presenter bundles.

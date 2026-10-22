@@ -271,16 +271,34 @@ S44:make('S44','Crop Task에서 관찰한 접근','ACT 2 · 질문과 근거를 
   }),
 
 S45:make('S45','Task별 접근은 달랐지만 완벽하지는 않다','ACT 2 · 두 Task의 문서 접근 비교',
-  'TRIAL-005A/B · 실제 접근 기록을 요약한 비교',
-  '완벽한 Routing 미입증 · 토큰 절약·성능 개선 미측정 · 실행 간 변동 존재','OBSERVED_PRODUCT',
-  (s,{C,text,line,rect})=>{
-    text(s,'같은 Repository에서 질문이 달랐다',64,222,1152,43,31,C.teal,true);
-    text(s,'문서',64,289,492,35,25,C.sub,true);
-    text(s,'A · crop 계약',586,289,280,35,26,C.ink,true);
-    text(s,'B · 실행 의존성',918,289,298,35,26,C.ink,true);
-    const rs=[['image-contracts.md','읽음','읽지 않음'],['architecture.md','읽음','읽음'],['testing.md','최종 실행에서 읽음','읽지 않음']];
-    rs.forEach((r,i)=>{const y=340+i*66;if(i===0)rect(s,64,y,1152,60,C.pale);else line(s,64,y,1152);text(s,r[0],78,y+10,490,40,27,C.ink,i===0,'Consolas');text(s,r[1],586,y+10,312,40,26,i===0?C.teal:C.sub,i===0);text(s,r[2],918,y+10,298,40,26,i===0?C.teal:C.sub,i===0);});
-    text(s,'A에는 더 넓은 읽기도 존재 · B는 설정·README·source도 확인',64,556,1152,33,25,C.sub);
+  'TRIAL-005A/B 최종 실행 · Codex CLI 0.154.0 · 실제 접근 기록의 요약·재구성',
+  '* testing.md는 A의 최종 실행에서만 관찰(이전 A 실행과 다름) · 현재 Desktop 검증 아님','OBSERVED_PRODUCT',
+  (s,{C,text,FONT,CODE})=>{
+    text(s,'같은 저장소 · Crop 범위와 실행 의존성을 물었더니',64,184,1152,43,30,C.teal,true);
+    const values=[['문서 / 설정','A · Crop 범위','B · 실행 의존성'],
+      ['AGENTS.md','읽음','읽음'],
+      ['README.md','읽음','읽음'],
+      ['docs/architecture.md','읽음','읽음'],
+      ['docs/image-contracts.md','읽음','읽지 않음'],
+      ['docs/testing.md *','읽음','읽지 않음'],
+      ['pyproject.toml','읽지 않음','읽음'],
+      ['setup.cfg','읽지 않음','읽음']];
+    const table=s.tables.add({rows:8,columns:3,left:64,top:244,width:748,height:312,columnWidths:[380,176,192],values});
+    table.styleOptions={headerRow:false,bandedRows:false};
+    table.borders.assign({fill:C.line,width:0.8,style:'solid'});
+    for(let row=0;row<8;row++){
+      table.rows[row].height=39;
+      for(let col=0;col<3;col++){
+        const cell=table.getCell(row,col),different=row>=4,read=values[row][col]==='읽음';
+        cell.fill=row===0?C.bg:different&&col>0&&read?C.pale:C.white;
+        cell.text.style={typeface:row>0&&col===0?CODE:FONT,fontSize:24,color:row===0?C.ink:different&&read?C.teal:C.sub,bold:row===0||different&&read,alignment:col===0?'left':'center',verticalAlignment:'middle',autoFit:'none',wrap:'none'};
+      }
+    }
+    text(s,'관찰된 차이',860,246,356,36,27,C.teal,true);
+    text(s,'이미지 명세·테스트 안내: A만\n패키지 설정: B만',860,299,356,78,25,C.ink,true);
+    text(s,'해석의 한계',860,407,356,36,27,C.warn,true);
+    text(s,'구조 문서는 둘 다 읽음\n완벽한 문서 선택 미입증\n토큰 절약·성능 개선 미측정',860,454,356,104,24,C.sub);
+    text(s,'두 요청 모두 소스도 확인 · 목록은 읽기 순서가 아님',64,573,1152,31,24,C.sub);
   }),
 
 S46:make('S46','지식은 정리됐지만 절차는 반복된다','ACT 2 · 다음 문제로 넘어가기',

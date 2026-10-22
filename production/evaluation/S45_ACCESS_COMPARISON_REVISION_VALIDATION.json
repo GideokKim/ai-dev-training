@@ -1,0 +1,105 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-22",
+  "decision": "DEC-0058",
+  "baseline": "9994afe",
+  "changedSlide": "S45",
+  "slideCount": 90,
+  "totalMinutes": 368,
+  "act2Slides": 15,
+  "act2Minutes": 70,
+  "S45Minutes": 7,
+  "S45Mode": {
+    "Demo": 1,
+    "Case": 3,
+    "Reflection": 2,
+    "Q&A": 1
+  },
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 70,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 137,
+    "Reflection": 20,
+    "Case": 84,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "nativeAccessMatrix": {
+    "rowsIncludingHeader": 8,
+    "columns": 3,
+    "documentConfigRows": 7,
+    "bodyFontPt": 18,
+    "everyCellMatchesRetainedRecord": true
+  },
+  "sharedReadPaths": [
+    "AGENTS.md",
+    "README.md",
+    "docs/architecture.md"
+  ],
+  "cropOnlyReadPaths": [
+    "docs/image-contracts.md",
+    "docs/testing.md"
+  ],
+  "dependencyOnlyReadPaths": [
+    "pyproject.toml",
+    "setup.cfg"
+  ],
+  "bothReadSourceAcknowledged": true,
+  "finalRunTestingVariabilityDisclosed": true,
+  "observationVsInterpretationSeparated": true,
+  "unreadNotFailure": true,
+  "listNotReadSequence": true,
+  "noExclusiveCausalAttribution": true,
+  "newPerformanceClaim": false,
+  "actualProductScreenshot": false,
+  "unchangedOtherSlidePngs": 89,
+  "unchangedOtherNotesRecords": 89,
+  "fullAct2PngParity": 15,
+  "notesRecords": 90,
+  "fieldsPerNotes": 19,
+  "renderedSlidePngs": 105,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 90,
+      "sha256": "17f51dbec6d6b667f20150bc0cbd49a92c6b8dc784b880035fe9f948685b56b4"
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slideCount": 15,
+      "sha256": "e2b4f3df0cf2aa7eccaebeacff5e7358efca50f6816bbd4a5a484851be1ec0ab"
+    }
+  ],
+  "fullPptSha256": "17f51dbec6d6b667f20150bc0cbd49a92c6b8dc784b880035fe9f948685b56b4",
+  "fullNotesSha256": "f9cd63ea167e27cbe3e21bb38261f3d6bb2b6af2f53f63c37148474c55cb2cd3",
+  "fullMontageSha256": "f34c5c98424d5082dd1f8a94c25934d12d7e313b0826c5a9290e970414b0c016",
+  "otherActPackagesUnchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "newDemoTestRun": false,
+  "presenterBundleRegenerated": false,
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "fallbackPngsUnchanged": 28,
+  "fallbackPngsUpdated": [
+    "S45"
+  ],
+  "fallbackPngPathsAndHashesValid": 29,
+  "encodedFontPolicyPassed": true,
+  "nativeTargetFontRendering": "UNVERIFIED",
+  "requiredNativeTableOwnerSlides": {
+    "Full": 45,
+    "ACT2": 14
+  },
+  "templateMappingPreserved": 90,
+  "reviewedDraftPngMatchesFinal": true,
+  "currentOutputLinksExist": true,
+  "currentArtifactIdentitiesMatch": true
+}

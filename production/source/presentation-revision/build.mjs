@@ -82,13 +82,14 @@ for(const deck of decks){
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
   const chartOwners=deck.ids.map((id,i)=>id==='S55'?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>id==='S45'?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,
    integrityValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_package_integrity.py'),
    layoutValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),
-   layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit'],
-   explicitTotalSlideCount:deck.ids.length,requiredNativeChartOwnerSlides:chartOwners,requiredNativeTableOwnerSlides:[],materializeLiteralChartWorkbooks:true,
+   layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit',...tableOwners.flatMap(owner=>['--require-native-table-slide',String(owner)])],
+   explicitTotalSlideCount:deck.ids.length,requiredNativeChartOwnerSlides:chartOwners,requiredNativeTableOwnerSlides:tableOwners,materializeLiteralChartWorkbooks:true,
    fontPolicy:{basis:'reference',families:[H.FONT,H.CODE],referencePath:baseline,referenceSha256:createHash('sha256').update(await fs.readFile(baseline)).digest('hex')},
    verifyArtifactToolImport:true,receiptPath:path.join(buildDir,deck.name+'.validation.json')
   });

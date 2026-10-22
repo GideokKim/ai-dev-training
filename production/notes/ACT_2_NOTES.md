@@ -1,6 +1,6 @@
 # ACT 2 — Speaker Notes
 
-Status: ALIGNED — DEC-0057 connects S44 observed access, crop specification and recorded answer with interpretation limits; DEC-0056 frames S43 requests and neutral observation questions; DEC-0055 shows S42 document reorganization and retained core facts; DEC-0054 distinguishes S41 shared guidance from task-dependent details; DEC-0053 diagrams S40 task request, AGENTS.md guidance and relevant detail; DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 common guidance, task detail and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 S36, DEC-0047 S35 and DEC-0046 S34 remain preserved. Numbering: DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/S44_CROP_EVIDENCE_REVISION.md. The prior addition validation remains historical. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0058 compares S45 actual access sets and interpretation limits; DEC-0057 connects S44 observed access, crop specification and recorded answer with interpretation limits; DEC-0056 frames S43 requests and neutral observation questions; DEC-0055 shows S42 document reorganization and retained core facts; DEC-0054 distinguishes S41 shared guidance from task-dependent details; DEC-0053 diagrams S40 task request, AGENTS.md guidance and relevant detail; DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 common guidance, task detail and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 S36, DEC-0047 S35 and DEC-0046 S34 remain preserved. Numbering: DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/S45_ACCESS_COMPARISON_REVISION.md. The prior addition validation remains historical. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
 
 Historical alignment status: ALIGNED — DEC-0038의 82장 번호와 운영 지침을 정렬했다. 신규 제작본의 렌더·내장 Notes 대조는 production/evaluation/PROMPT_TIMELINE_REVISION.md에서 별도로 기록한다. 기존 81장판의 PASS를 승계하지 않는다. Windows, room, account, and timed rehearsal remain UNVERIFIED.
 
@@ -613,39 +613,40 @@ Allocated Time: 7 minutes
 
 Mode Split: Demo 1 minute (CAPTURED) + Case 3 minutes + Reflection 2 minutes + Q&A 1 minute
 
-Primary Message: TRIAL-005A/B showed a task-specific difference in detailed document access, but did not prove perfect routing, token savings, or performance improvement.
+Primary Message: TRIAL-005A/B 최종 실행에서 실제 문서 접근 차이를 관찰했다. 양쪽의 공통·넓은 접근과 실행 간 변동도 있어 완벽한 문서 선택, 토큰 절약·성능 개선으로 해석하지 않는다.
 
-Opening Question: “Task별 차이를 관찰한 것만으로 완벽한 Routing을 말할 수 있을까?”
+Opening Question: “앞에서 Crop 명세를 읽은 기록을 봤습니다. 같은 저장소에 실행 의존성을 물으면 어떤 문서를 읽었을까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00 / Demo) 강조한 첫 행에서 A는 image-contracts.md를 읽고 B는 읽지 않았음을 가리킨다.
-2. (1:00–3:00 / Case) architecture는 둘 다 읽었고 testing은 A의 최종 실행에서만 읽었다고 확인한다. B는 설정·README·source도 확인했다. A의 더 넓은 읽기와 실행 간 변동도 남아 있다.
-3. (3:00–4:00 / Case) 완벽한 Routing 미입증, 토큰 절약·성능 개선 미측정을 분명히 말한다.
-4. (4:00–6:00 / Reflection) 이 비교로 말할 수 있는 사실과 없는 효과를 조용히 구분해 보게 한다.
-5. (6:00–7:00 / Q&A) 질문 하나를 받거나 준비된 질문을 던진다. 파일 접근 차이라는 관찰로 닫는다.
+1. (0:00–1:00 / Demo, CAPTURED) S44의 요청 A를 표의 A열로 회수하고 요청 B의 실행 의존성 질문을 나란히 둔다. 실제 최종 기록에서 이미지 명세·테스트 안내는 A만, 패키지 설정은 B만 읽었다고 강조한 셀을 가리킨다. 화면은 기록을 요약·재구성한 정적 비교표이며 실제 실행 캡처나 동시 Subagent 화면이 아니다.
+2. (1:00–2:00 / Case) 두 요청 모두 AGENTS.md, README.md, docs/architecture.md를 읽었음을 확인한다. 소스도 양쪽에서 확인했다. 목록은 시간 순서가 아니며 모든 명령·소스 파일을 나열한 로그가 아니다. architecture는 실제 질문에 필요하지 않은 넓은 접근이었음을 설명한다.
+3. (2:00–3:00 / Case) A만 docs/image-contracts.md와 docs/testing.md를, B만 pyproject.toml과 setup.cfg를 읽은 차이를 짚는다. B의 기록된 답은 third-party runtime dependency가 없고 Python3.9+와 표준 라이브러리가 필요하며 setuptools/wheel 등은 build/package용이라는 구분이다. 표는 접근을 비교하며 파일을 열었다는 사실만으로 답의 단독 원인을 증명하지 않는다.
+4. (3:00–4:00 / Case) 오른쪽 ‘해석의 한계’를 회수한다. 구조 문서는 둘 다 읽었고 testing.md/관련 테스트 접근은 A의 최종 실행에서 관찰했지만 이전 A 실행과 달랐다. 완벽한 문서 선택은 미입증이며 토큰 절약·성능 개선을 측정하지 않았다. 과거 Codex CLI0.154.0의 범위를 유지한다.
+5. (4:00–6:00 / Reflection) ‘다르게 읽었다’와 ‘항상 잘 선택한다·효율이 개선됐다’ 사이에 어떤 근거가 더 필요한지 조용히 생각하게 한다. 별도 실습·기록·공개 응답을 요구하지 않으며 강사가 이2분을 설명으로 채우지 않는다.
+6. (6:00–7:00 / Q&A) 질문 하나를 받는다. 없으면 ‘이 기록만으로 문서 선택을 보장할 수 있을까요?’를 짧게 던지고 실제 접근 차이는 관찰했지만 보장·효율 효과는 확인하지 않았다고 닫는다. S46의 정보 정리 뒤에도 남는 반복으로 연결한다.
 
-Evidence / Source: TRIAL-005A/B, BEAT-016–017, CLM-0014, CLM-0015, CLM-0003, CLM-0005. OBSERVED_PRODUCT; captured records, with observed run variability.
+Evidence / Source: TRIAL-005A/B final-run access/answer table, repeated-invocation variation and Codex CLI0.154.0 read-only environment in plan/DEMO_MATRIX.md; BEAT-016/017, CLM-0014/0015/0003/0005, DEC-0058. OBSERVED_PRODUCT. 두 요청은 별도 임시 clone에서 실행된 과거 기록이다. 이번 수정에서 새 Trial·테스트·제품 확인을 실행하지 않았다.
 
-Claim Boundary: Task-specific access difference is observed. Broad reads also occurred. Do not claim complete routing, a general advantage, token savings, or performance gains.
+Claim Boundary: 기록된 최종 실행의 문서 접근 차이와 넓은 접근, A의 testing.md 접근 변동만 관찰 범위다. 읽음/읽지 않음은 성공/실패 판정이나 파일의 완전한 관련성 분류가 아니다. 파일을 연 사실이 답의 내부 생성 원인·AGENTS.md 단독 인과성·일관된 선택 정책을 입증하지 않는다. 완벽한 Routing·보편 우월성·토큰 절약·성능 개선·현재 Desktop 재현을 주장하지 않는다. 표는 접근 순서나 동시 실행을 표현하지 않는다.
 
-Beginner Explanation: A relevant document was read for one Task and not another, but the agent still read some shared and broader context.
+Beginner Explanation: 같은 저장소라도 질문에 따라 읽은 상세 정보가 달랐다. 두 열에서 같은 파일과 달랐던 파일을 비교하되 ‘다르게 읽었다’는 기록과 ‘항상 잘 선택한다’는 보장을 구분한다.
 
-Advanced Insight: A/B access differences are evidence about these runs only; they do not establish a stable policy or causal efficiency effect.
+Advanced Insight: Compare the actual access sets, broader reads and invocation variability. This is not a controlled attribution experiment or a token/performance benchmark. File access and answer support remain separate observations.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 실제 기록을 요약한 문서 접근 비교표를 사용한다. image-contracts, architecture, testing 순서로 가리키며 testing의 최종 실행 범위와 변동을 유지한다. 토큰·성능 효과나 실제 터미널 화면으로 표현하지 않는다.
+Demo Operation: CAPTURED RECORD SUMMARY — 정적 native 비교표의 A·B 열과 강조된 읽음 셀을1분 안에 보여준다. 원자료를 요약·재구성한 도식이며 실제 터미널 Screenshot·현재 제품 실행으로 표현하지 않는다. testing.md의 최종 실행 한정 표식을 유지하고 B의 설정 파일 접근을 확인한다. Live로 전환하지 않는다.
 
-Audience Interaction: Keep three minutes for the Case, two for private Reflection, and one for Q&A. If no one responds, ask: “이 기록으로 말할 수 있는 범위는 어디까지일까요?”
+Audience Interaction: Case3분·개인 Reflection2분·Q&A1분을 보호한다. 무응답 시 질문은 ‘이 기록만으로 문서 선택을 보장할 수 있을까요?’이며 관찰과 해석의 한계를 회수한다.
 
 Transition: “정보를 정리했는데도 남아 있는 반복은 무엇일까?”
 
-Time Management: Protect the Mode boundaries. If discussion runs long, cut secondary file names before shortening the explicit claim boundary.
+Time Management: Demo0–1분, Case1–4분, Reflection4–6분, Q&A6–7분으로7분을 유지한다. 설명이 길어지면 공통 파일명과 build 도구의 부연을 줄인다. 관찰/해석 경계와 Reflection2분을 삭제하지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S45 또는 `production/preview/act2/S45.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S45 또는 production/preview/full/S45.png를 사용한다. Full/ACT2 PNG·Notes 일치와 DEMO-06 fallback 경로·hash 갱신은 production/evaluation/S45_ACCESS_COMPARISON_REVISION.md와 검증 JSON에 기록한다. 과거 기록의 재구성으로서 원 실행 캡처나 현재 제품 동작의 검증을 뜻하지 않는다. 최종 발표 PC/Live 승인은 별도다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0058의 공통/차이 문서 접근표와 관찰/해석 구분, S44→S45→S46 연결을 반영했다. 최종 렌더·native table·Notes parity는 production/evaluation/S45_ACCESS_COMPARISON_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S46 — 지식은 정리됐지만 절차는 반복된다
 
