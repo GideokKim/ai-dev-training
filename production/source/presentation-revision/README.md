@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0066 / S53 connector consistency and S54 CLI evidence.
+Latest refinement: DEC-0067 / S55 instruction and action evidence.
+Keep T04-A's native table and pair translated Skill instructions with observed
+output, pre-edit message and final diff. Distinguish inclusion from execution.
+Align S55 Notes and rebuild Full/ACT3 only. Keep93/379 and Demo3+Case3.
+Review: `production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md`.
+
+Previous refinement: DEC-0066 / S53 connector consistency and S54 CLI evidence.
 Use one native line weight for S53. S54 distinguishes the selector excerpt,
 explicit task request and trace name/path/full body. Align S53/S54 Notes and
 rebuild Full/ACT3 only. Keep93/379, S53 Lecture4, S54 Demo5 and other91 pages.

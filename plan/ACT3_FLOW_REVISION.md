@@ -1,5 +1,10 @@
 # ACT3 Flow Revision — DEC-0062
 
+Current S55 refinement: DEC-0067. Distinguish input/body inclusion from action
+evidence. Pair translated Skill instructions with output, pre-edit message
+and final diff. Preserve conditional planning and6minutes(Demo3+Case3).
+Review: [S55 revision](../production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md).
+
 Current S53/S54 refinement: DEC-0066. Keep S53's reuse diagram while giving
 its branches a consistent stroke. S54 shows three source locations: CLI
 selector excerpt, explicit task request and the trace's full Skill body.
@@ -49,7 +54,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S52 | Apply the goal and reusable method to one normalize work area bounded by existing specifications; DEC-0064. |Lecture5|
 | S53 | Separate task-specific requests from one reusable Skill and show one-place maintenance intent; DEC-0065. |Lecture4|
 | S54 | Visually distinguish selector, explicit request and trace/body evidence; DEC-0066. |Demo5|
-| S55 | Pair real Skill excerpts with three retained observation summaries in a native table. |Demo3+Case3|
+| S55 | Pair three translated Skill instructions with observed output/message/diff, distinct from body inclusion; DEC-0067. |Demo3+Case3|
 | S56 | Separate reusable procedure, no-change allowance and task-specific answer. |Lecture3|
 | S57 | Preserve the qualitative candidate trade-off and six-field correctness scope. |Case5|
 | S58 | Keep the native chart, formal state measurements and verification results. |Case5|

@@ -461,3 +461,17 @@ with a Korean summary. No invented load event or actual-UI screenshot is shown.
 Full body inclusion does not establish compliance, isolated causality, implicit
 invocation, superiority, token savings or present-day Desktop behavior.
 S55 retains instruction/action correspondence; IDs, times and Mode stay fixed.
+
+
+## DEC-0067 — S55 instruction and action correspondence
+
+S55 retains OBSERVED_PRODUCT / FROZEN WITH SCOPE / REQUIRES PRODUCT CHECK.
+Separate S54's full-body inclusion from three instruction/action pairs in
+TRIAL-008. Translate the Skill instructions and summarize observed output,
+a pre-edit progress message and the final source diff. Preserve the visible
+plan condition and allowed change scope. Three benchmark invocations and
+1/1 focused,11/11 full tests are historical observations, not fixed Skill
+requirements. The screen reconstructs records, not a terminal capture.
+Do not infer full instruction compliance, isolated Skill causality, Prompt
+superiority, token savings, Skill-driven speedup or current Desktop behavior.
+Keep candidate selection and product-state performance evidence in S57/S58.

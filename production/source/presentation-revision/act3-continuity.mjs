@@ -150,26 +150,30 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S55(p){
-   const s=make(p,'S55','Skill의 지침과 관찰된 작업을 대응한다','ACT 3 · 위치 이동을 실제 문장과 기록으로 확인',
-    'STATE-04 SKILL.md 발췌 ↔ TRIAL-008의 보존된 관찰 요약 · 원문 실행 로그 화면이 아님',
-    '본문 포함과 관찰의 대응 · Skill 단독 인과성·우월성·토큰/속도 효과를 입증하지 않음','OBSERVED_PRODUCT');
-   text(s,'normalize의 긴 요청 → 밝기 통계 요청 + 재사용 Skill',64,178,1152,40,29,C.teal,true);
+   const s=make(p,'S55','Skill 지침과 실제 작업 기록의 대응','ACT 3 · 밝기 통계 작업에서 지침 수행 근거 확인',
+    'TRIAL-008 · Codex CLI 0.154.0 · Skill 번역 요약 + 작업 기록 재구성 (실제 캡처 아님)',
+    '관찰된 대응 · 전체 지침 준수·Skill 단독 인과성·우월성·토큰/속도 효과는 입증하지 않음','OBSERVED_PRODUCT');
+   rect(s,64,183,440,59,C.white,C.line,1);
+   text(s,'앞 장: Skill 본문 포함 확인',82,195,404,35,26,C.sub,true);
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:516,top:212,width:32,height:0},line:{fill:C.teal,width:3},tail:{type:'triangle',width:'sm',length:'sm'}});
+   rect(s,560,183,656,59,C.pale,C.line,1);
+   text(s,'이번 장: 지침과 수행 기록 대조',580,195,616,35,27,C.teal,true);
    const values=[
-    ['Skill의 지침 · 원문 발췌','같은 Trial에서 관찰된 기록 · 요약'],
-    ['Establish a reproducible\nbaseline before editing.','편집 전 같은 측정 명령으로 3회 실행\n입력 지문과 결과 6항목 확인'],
-    ['State a concise plan before\nmaking edits …','변경 전 계획을 밝힘\nstatistics.py의 변경 범위를 한정'],
-    ['Repeat the same benchmark with\nthe same input and settings …','함수·전체 테스트와 같은 benchmark\nCLI 샘플·diff 확인 및 최종 검토']
+    ['','Skill 지침 · 번역 요약','실제 작업 기록 · 관찰 요약'],
+    ['01','변경 전에 기준선 측정','실행 출력: 변경 전 3회 측정\n입력 지문·결과 6항목 확인'],
+    ['02','계획이 요구되면 변경 전에 공유\n허용 범위에서 최소 변경','변경 전 메시지 + 최종 diff\nstatistics.py의 해당 함수만 변경'],
+    ['03','테스트 실행\n같은 입력·설정으로 다시 측정','함수 테스트 1/1 · 전체 11/11 통과\n같은 benchmark 3회 + CLI·diff 확인']
    ];
-   const table=s.tables.add({rows:4,columns:2,left:64,top:246,width:1152,height:310,columnWidths:[545,607],values});
+   const table=s.tables.add({rows:4,columns:3,left:64,top:258,width:1152,height:290,columnWidths:[64,476,612],values});
    table.styleOptions={headerRow:false,bandedRows:false};table.borders.assign({fill:C.line,width:0.8,style:'solid'});
    for(let r=0;r<4;r++){
-    table.rows[r].height=r===0?46:88;
-    for(let c=0;c<2;c++){
-     const cell=table.getCell(r,c);cell.fill=r===0?C.pale:C.white;
-     cell.text.style={typeface:c===0&&r>0?CODE:FONT,fontSize:r===0?25:25,color:r===0?C.teal:C.ink,bold:r===0,alignment:'left',verticalAlignment:'middle',autoFit:'none',wrap:'none'};
+    table.rows[r].height=[44,76,85,85][r];
+    for(let c=0;c<3;c++){
+     const cell=table.getCell(r,c);cell.fill=r===0||c===0?C.pale:C.white;
+     cell.text.style={typeface:FONT,fontSize:c===0?27:25,color:r===0||c===0?C.teal:C.ink,bold:r===0||c<2,alignment:c===0?'center':'left',verticalAlignment:'middle',autoFit:'none',wrap:'none'};
     }
    }
-   text(s,'Task Prompt에는 이번 목표·6항목 보존·변경 범위를 남겼다',64,570,1152,32,26,C.ink,true);
+   text(s,'본문 포함은 입력의 근거, 수행 여부는 작업 기록으로 확인한다',64,565,1152,31,27,C.teal,true);
    return s;
   },
   S56(p){

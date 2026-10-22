@@ -7800,3 +7800,82 @@ Render Full93 and ACT3 18slides, inspect S52–S55, compare91 other PNGs/Notes,
 and update DEMO-03's changed S54 fallback identity. Preserve budgets and native
 tables/chart. Follow standing Git checkpoint instructions and retain Windows,
 room, product-account and timed rehearsal as UNVERIFIED.
+
+
+# DEC-0067 — connect Skill instructions to observed work records
+
+## Status
+
+ACCEPTED — explicit user request to clarify S55 after S54 and align Notes.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S54 now distinguishes discovery, explicit invocation and full instruction
+body inclusion. S55 has long English excerpts and short activity summaries.
+
+## Problem
+
+Make the instruction/action relationship readable on its own and distinguish
+provided instructions from evidence that corresponding work occurred.
+
+## Decision
+
+Preserve T04-A and its native table. Show three numbered pairs of translated
+Skill instructions and recorded output, pre-edit message and final diff.
+Keep conditional planning explicit. Show the observed three benchmark runs,
+six-field checks and1/1 focused plus11/11 full test results. Label translated
+summaries and record reconstruction. Align S55 Notes and current artifacts.
+Preserve93slides/379minutes, S55 Demo3+Case3, all other slide content/Notes,
+IDs, Mode, evidence types and claim boundaries. Keep S54/S56 unchanged.
+
+## Rationale
+
+Learners can identify which record supports each instruction without treating
+body inclusion as proof of execution. The localized summary reduces reading
+load while Notes retain exact commands and the conditional original wording.
+
+## Alternatives
+
+Keep long English excerpts: leaves the distinction implicit.
+Invent terminal screenshots: would misrepresent the retained evidence.
+Show every instruction and log: obscures the three pairs and preempts later
+implementation and benchmark interpretation.
+
+## Trade-offs
+
+The slide selects three pairs and cannot demonstrate every instruction.
+Counts describe this run, not a universal Skill policy. Input inclusion and
+observed behavior do not isolate the Skill from concurrent global guidance.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-005, INV-MATURITY-006, INV-MATURITY-011,
+INV-VERIFY-001, INV-DEMO-004.
+
+## Affected Artifacts
+
+S55 factory, Map/template description, ACT3 flow, Claim Freeze, S55 Notes,
+Full/ACT3 packages and previews, DEMO-03 static identity and current handoff.
+
+## Evidence
+
+User request; DEC-0017/0062/0066; STATE-04 Skill; TRIAL-008 in DEMO_MATRIX.
+Read-only reinspection of session01a0f22c-e6a8-7e50-a4e1-4a581d62266c:
+request/body, baseline output, pre-edit message, patch, after output, tests,
+CLI sample and final diff. No new Trial or product execution.
+
+## Training Relevance
+
+YES — choose evidence appropriate to the claimed action and distinguish
+instruction inclusion, observed execution and causal attribution.
+
+## Follow-up
+
+Render Full93 and ACT3 18slides. Inspect S54–S56, compare92 other pages and
+Notes, preserve timing and table/chart data, and update changed S55 fallback
+identity. Follow standing Git checkpoints. Keep Windows, room, product/account
+and timed rehearsal UNVERIFIED. Presenter bundles remain paused.

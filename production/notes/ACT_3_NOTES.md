@@ -238,11 +238,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S54, production/prev
 
 Validation Status: ALIGNED — DEC-0066의19필드·5분 운영·역사적 CLI/현재 제품 경계를 정렬했다. 실제 패키지 렌더와 Notes 대조는 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S55 — Skill의 지침과 관찰된 작업을 대응한다
+## S55 — Skill 지침과 실제 작업 기록의 대응
 
 Slide ID: S55
 
-Working Title: Skill의 지침과 관찰된 작업을 대응한다
+Working Title: Skill 지침과 실제 작업 기록의 대응
 
 ACT / Section: ACT 3 / 3C
 
@@ -250,38 +250,40 @@ Allocated Time: 6 minutes
 
 Mode Split: Demo 3 minutes (HYBRID planned; activation unverified) + Case 3 minutes
 
-Primary Message: TRIAL-007의 긴 요청이 담던 공통 절차를 TRIAL-008은 명시 호출한 Skill에 두었다. 기준선·계획·같은 조건의 검증 지침과 보존된 관찰 기록을 대응하되 Skill 단독 인과성을 주장하지 않는다.
+Primary Message: Skill 본문이 들어온 사실은 입력의 근거다. 실제 수행은 같은 작업의 실행 출력, 변경 전 메시지, 최종 diff를 지침과 대조해서 확인한다. 이 사례에서 관찰한 세 가지 대응으로 Skill 전체 준수나 단독 효과를 단정하지 않는다.
 
-Opening Question: “Skill에 적힌 절차와 실제로 기록된 작업은 어떻게 대응됐을까?”
+Opening Question: “Skill의 전체 본문이 포함됐다는 것만으로, 실제로 그 지침을 수행했다고 말할 수 있을까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00 / Demo) normalize와 밝기 통계는 다른 Task이며 성능 우열 비교가 아님을 밝힌다. TRIAL-007은 긴 요청, TRIAL-008은 Task 목표·6항목 보존·변경 범위+Skill 호출이었다.
-2. (1:00–3:00 / Demo) 기준선/계획/동일 조건 검증의 실제 Skill 발췌와 보존된 관찰 요약을 행별로 대응한다. 실제 CLI 화면이나 원문 실행 로그가 아닌 표임을 밝힌다.
-3. (3:00–5:00 / Case) 본문 포함과 각 작업 관찰이 서로 다른 근거임을 짚는다. visible plan은 Skill의 when-task/interface-calls-for 조건과 실제 요청에 맞는 범위다.
-4. (5:00–6:00 / Case) 절차의 책임 이동을 회수하고 모든 지침 준수·단독 인과성·토큰 절약·속도 향상으로 확대하지 않는다.
+1. (0:00–0:30, Demo) 상단 왼쪽에서 S54의 본문 포함 확인을 회수한다. 오른쪽과 표로 이동해 이번에는 밝기 통계 작업의 수행 기록을 보겠다고 안내한다. 화면은 원문 실행 캡처가 아닌 지침 번역·기록 요약이다.
+2. (0:30–1:15, Demo) 01행: 왼쪽의 변경 전 기준선 측정 지침과 오른쪽의 실제 실행 출력을 짝짓는다. 수정 전 같은 benchmark 명령을3회 실행했고, 입력 지문과 결과6항목을 확인했다. 3회는 기록된 실행 횟수이며 Skill이 정한 고정 횟수는 아니다.
+3. (1:15–2:00, Demo) 02행: 원문은 작업 또는 인터페이스가 visible plan을 요구할 때 변경 전에 간결한 계획을 공유하라는 조건부 지침이다. 이번 기록에서는 변경 전 진행 메시지가 statistics.py의 변경 범위를 밝혔고, 최종 diff에서 해당 함수 한 곳의 변경을 확인했다. 메시지만으로 변경 범위까지 검증했다고 말하지 않는다.
+4. (2:00–3:00, Demo) 03행: 테스트와 같은 입력·설정으로 재측정하라는 지침을 실행 결과와 대조한다. 해당 함수 테스트1/1, 전체 테스트11/11 통과와 같은 benchmark의변경 후3회 실행, CLI 샘플·diff 확인을 짚는다. 모델의 최종 완료 보고만이 아니라 보존된 실행 출력에 근거한다.
+5. (3:00–4:30, Case) “본문이 들어왔다”와 “지침에 대응하는 작업 기록이 있다”를 구분해 회수한다. 표는 선택한 세 가지 대응이다. 모든 지침 준수나 Skill만의 효과를 검증한 실험은 아니다. 실제 요청에는 이번 목표·결과6항목 보존·허용 범위·trade-off 보고·근거가 부족하면 no-change라는 조건이 남아 있었다.
+6. (4:30–6:00, Case) 재사용할 수행 방법을 Skill에 두고 이번 목표·범위는 요청으로 전달한 역할 분담을 정리한다. 다음 S56에서 반복할 절차와 작업마다 근거로 판단할 답을 나눈다. 후보별 수치·선택 결과나 STATE-04-PERF의 성능 비교는 앞당기지 않는다.
 
-Evidence / Source: TRIAL-007/008, DEC-0017, BEAT-021. 관찰된 CLI 기록을 요약한 비교. DEC-0062 원문/관찰 대조: plan/DEMO_MATRIX.md TRIAL-008 Skill Discovery/Invocation/Load Evidence/Verification 및 Prompt Responsibility Shift; STATE-04:.agents/skills/graypipe-performance/SKILL.md. 경로는 selector가 아니라 실행 trace에서 확인됐다. 발췌의 전체 조건: State a concise plan before making edits when the task or working interface calls for a visible plan. / Repeat the same benchmark with the same input and settings, check its correctness guard, run a suitable user-facing smoke check when relevant, inspect git diff --check, and review the final diff for scope and unintended changes. 표는 생략부호가 있는 원문 발췌와 관찰 요약이며 raw log가 아니다.
+Evidence / Source: plan/DEMO_MATRIX.md의 TRIAL-008 Baseline, Plan, Implementation, Verification 및 Prompt Responsibility Shift; STATE-04의 .agents/skills/graypipe-performance/SKILL.md; DEC-0017; BEAT-021. 보존 세션01a0f22c-e6a8-7e50-a4e1-4a581d62266c의20행 요청,22행 전체Skill본문,53/59행 기준선 명령·출력,80행 변경 전 메시지,81행 patch,90/96행 동일benchmark재실행·함수테스트,104/109행 전체테스트·CLI·최종diff를 대조했다. 원문 계획 지침은 “State a concise plan before making edits when the task or working interface calls for a visible plan.”이다. 원문 검증에는 같은 입력·설정·correctness guards, 관련 smoke 확인, diff검토가 포함된다. 실제 측정 명령은 PYTHONPATH=src python3 benchmarks/benchmark_statistics.py이며, 테스트 명령은 PYTHONPATH=src python3 -m unittest discover -s tests -p 'test_statistics.py' -v 및 PYTHONPATH=src python3 -m unittest discover -s tests -v이다.
 
-Claim Boundary: Skill 우월성, 속도 향상, token/character 절감은 입증되지 않았다. Prompt 구조와 다른 전역 요인의 인과 효과를 따로 분리하지 않는다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: OBSERVED_PRODUCT / FROZEN WITH SCOPE / REQUIRES PRODUCT CHECK를 유지한다. Codex CLI0.154.0의 성공한 TRIAL-008 기록이며 현재 Desktop 재현 결과가 아니다. 한글은 원문 지침·작업 기록의 번역 요약이고 실제 UI·로그 캡처가 아니다. 3회는 관찰된 횟수,1/1·11/11은 이 Trial의 테스트 결과다. 전체 지침 준수·Skill 단독 인과성·Prompt 대비 우월성·토큰 절감·Skill에 의한 속도 향상을 주장하지 않는다. Global Harness의 동시 영향은 배제하지 않았다. 새 Trial이나 실행 검증은 하지 않았다.
 
-Beginner Explanation: 반복되는 절차를 저장한 위치를 바꿔도 각 작업의 목표는 Prompt에 남는다.
+Beginner Explanation: 지침을 받았다는 것은 요청서가 전달됐다는 뜻이다. 실제로 수행했는지는 측정 출력, 변경 전 설명, 변경 내용과 테스트 결과 같은 작업 흔적에서 확인한다.
 
-Advanced Insight: 절차의 재사용 설계와 Prompt 길이·효율의 측정 주장을 혼동하지 않는다.
+Advanced Insight: 입력에 포함된 지침과 관찰된 행동을 구분한다. 실행 출력은 실행·검증의 근거이고, 변경 전 메시지는 계획의 시점, 최종 diff는 변경 범위의 근거다. 세 근거의 대응은 실험 조건을 분리한 인과성 검증과 다르다. Skill이 임의의3회·11개테스트를 고정 요구한 것처럼 설명하지 않는다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 정적 기본 경로 — Native 두 열 표: Skill 원문 세 발췌 ↔ TRIAL-008 기준선/계획/검증 관찰 요약. 다른 목표·Task 제약과 책임 이동을 상하 문구로 유지한다. 현재 제품이나 Demo repository를 실행하지 않는다. Live/Hybrid는 대상 표면·계정·권한·fallback 확인 전 비활성이다.
+Demo Operation: LOCAL STATIC RECORD — S54의 본문 포함 확인에서 진입한다. 표를01→02→03 순으로 읽으며 왼쪽 지침과 오른쪽 근거를 한 행씩 가리킨다. 원문 전체·도구를 실행하지 않는다. Demo3분이 끝나면 같은 화면에서 Case3분으로 전환해 입력/수행 근거를 구분한다. 실제 구현 후보와 성능 비교는 S57–S58로 넘긴다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: “변경 전에 하겠다고 말한 기록과, 실제로 바꾼 내용을 확인하는 근거가 같을까요?”를 던지고02행의 메시지·diff를 각각 가리킨다. 답변을 기다리며 별도 실습·Q&A 시간을 추가하지 않는다.
 
-Transition: “재사용할 지침을 정했어도, 어떤 구현이 맞는지는 이번 근거로 판단해야 합니다.”
+Transition: “지침과 실제 작업 기록의 대응은 확인했습니다. 이 Skill에 재사용할 절차와 이번 근거로 판단할 답을 어떻게 나눌까요?”
 
-Time Management: Demo3분 + Case3분. 요청 구조1, 원문/관찰 대응2, 근거 구분2, 한계/전환1.
+Time Management: Demo3분(본문 포함 회수0.5, 기준선0.75, 계획·diff0.75, 검증1) + Case3분(근거 구분·요청 책임1.5, 범위·S56 연결1.5). 지연 시 명령과 테스트 이름을 낭독하지 않고 행별 대응을 짚는다. 조건부 계획, 입력/수행 구분, 단독 효과 미입증은 생략하지 않는다. 6분에 S56으로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S55, production/preview/act3/S55.png 및 production/preview/full/S55.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S55, production/preview/act3/S55.png 및 production/preview/full/S55.png. 파일은 검증된 기록의 재구성이며 원시 실행 캡처가 아니다. 현재 Live/Hybrid는 환경 확인 전 미활성이다. 정적 화면에서 3개 지침·근거 대응을 유지하며 파일 경로·hash는 production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0067의19필드·6분(Demo3+Case3)·역사적관찰범위를 정렬했다. 최종 렌더·PPT/Markdown Notes 대조는 production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S56 — 절차는 재사용하고, 답은 근거로 정한다
 

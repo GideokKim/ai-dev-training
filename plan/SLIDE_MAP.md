@@ -1,6 +1,8 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
-> **최신 S53–S54 수정: DEC-0066.** S53의 연결선 굵기를 통일하고, S54의 목록·명시 호출·본문 포함 근거를 시각적으로 연결한다. [수정 검토](../production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md).
+> **최신 S55 수정: DEC-0067.** 본문 포함과 수행 근거를 구분하고, Skill 지침의 번역 요약과 실제 출력·메시지·diff를 대응한다. [수정 검토](../production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md).
+
+> **이전 S53–S54 수정: DEC-0066.** S53의 연결선 굵기를 통일하고, S54의 목록·명시 호출·본문 포함 근거를 시각적으로 연결한다. [수정 검토](../production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md).
 
 > **현재 기준: DEC-0060 / 93장·379분 (2026-10-22).** ACT 2 전체 흐름 개선을 승인받아 연구 설명을 분리하고 의존성 답변/성과 회수3장을 보강했다. ACT 2는 S32–S49,18장·81분이다. 기존90장 내용과 각 장의 시간은 보존하며 신규 Lecture6/Case4/Reflection1분을 더한다. [90→93 번호·역할 대조](SLIDE_ID_MIGRATION_93.md). 사용자 허용 상한720분이며379분은 제작 기준, 리허설 실측은 UNVERIFIED다.
 
@@ -1461,29 +1463,29 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0066
 
 
-#### S55 — Skill의 지침과 관찰된 작업을 대응한다
+#### S55 — Skill 지침과 실제 작업 기록의 대응
 
 - **Slide ID:** S55
 - **ACT:** ACT 3
 - **Section:** 3C Reusable Skill
-- **Working Title:** Skill의 지침과 관찰된 작업을 대응한다
-- **Primary Role:** 추상적인 위치 이동을 실제 문서 발췌와 관찰 요약으로 구체화한다.
-- **Audience Question:** “Skill에 적힌 절차와 실제로 기록된 작업은 어떻게 대응됐을까?”
-- **Core Message:** TRIAL-007의 긴 요청이 담던 공통 절차를 TRIAL-008은 명시 호출한 Skill에 두었다. 기준선·계획·같은 조건의 검증 지침과 보존된 관찰 기록을 대응하되 Skill 단독 인과성을 주장하지 않는다.
+- **Working Title:** Skill 지침과 실제 작업 기록의 대응
+- **Primary Role:** S54의 본문 포함 증거를 회수하고, Skill의 수행 지침과 실제 실행 출력·변경 전 메시지·diff를 행별로 대응해 수행 근거를 읽게 한다.
+- **Audience Question:** “Skill 본문이 들어왔다면, 그 지침을 실제로 수행한 근거는 어디에서 확인할까?”
+- **Core Message:** 본문 포함은 작업에 제공된 지침의 근거다. 실제 수행은 TRIAL-008의 기준선 실행 출력, 변경 전 계획 메시지와 최종 diff, 테스트·동일 조건 측정 기록으로 확인한다. 세 가지 관찰의 대응과 전체 지침 준수·Skill 단독 효과는 구분한다.
 - **Story Beat:** BEAT-021 — 반복 절차의 위치 이동
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; 관찰된 차이는 절차 책임의 위치다. Skill의 우수성, 토큰 절감, 속도 향상은 입증되지 않음.
-- **Visual Concept:** Native 두 열 표: Skill 원문 세 발췌 ↔ TRIAL-008 기준선/계획/검증 관찰 요약. 다른 목표·Task 제약과 책임 이동을 상하 문구로 유지한다.
-- **Demo / Case Connection:** 두 Trial의 Prompt 구조를 요약해 비교한다. 전문을 길게 노출하지 않는다.
-- **Beginner Payoff:** 반복되는 작업 방법과 현재 작업 목표를 분리할 수 있다.
-- **Advanced Payoff:** 절차 중복을 줄이는 설계와 실제 토큰 수 감소 주장을 구분한다.
+- **Visual Concept:** 상단에서 앞 장의 본문 포함 확인과 이번 장의 수행 기록 대조를 구분한다. 번호가 있는 native table의 왼쪽은 Skill 지침의 한국어 번역 요약, 오른쪽은 실행 출력·메시지·diff의 관찰 요약이다. 01 기준선3회와6항목, 02 조건부 계획과허용 범위의변경, 03 테스트1/1·11/11과동일측정3회를 대응한다. 실제 캡처가 아닌 기록 재구성임을 표시한다.
+- **Demo / Case Connection:** DEMO-03 / TRIAL-008 / STATE-04 Skill. S54의 발견·호출·본문 포함에서 이어지는 작업 기록 대조다. 기본은 검증된 정적 자료이며 현재 Live/Hybrid는 미활성이다. Task별 목표·6항목 보존·허용 범위는 실제 요청에 남겨둔 조건으로 Notes에서 회수한다.
+- **Beginner Payoff:** 지침이 입력에 들어온 사실과, 실제로 측정·계획·검증을 수행한 기록을 나누어 확인한다.
+- **Advanced Payoff:** 각 지침을 실행 출력·시점이 있는 메시지·최종 diff 같은 적절한 근거에 연결한다. 계획 지침의 조건부 표현을 보존하고 관찰된 대응을 모든 지침 준수나 독립적 인과성으로 일반화하지 않는다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 추상적인 위치 이동을 실제 문서 발췌와 관찰 요약으로 구체화한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
-- **Transition:** “재사용할 지침을 정했어도, 어떤 구현이 맞는지는 이번 근거로 판단해야 합니다.”
+- **Speaker Intent:** S54에서 확인한 전체 본문 포함을 짧게 회수한 뒤 세 행의 지침과 기록을 대조한다. 수치는 실행 횟수·확인 범위로만 사용하고 후보 선택과 성능 개선량은 뒤 슬라이드로 넘긴다.
+- **Transition:** “지침과 실제 작업 기록의 대응은 확인했습니다. 이 Skill에 재사용할 절차와 이번 근거로 판단할 답을 어떻게 나눌까요?”
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Demo 3분 (HYBRID) + Case 3분 = 6분
-- **Evidence / Decision References:** BEAT-021, TRIAL-007, TRIAL-008, DEC-0017, OQ-005, DEC-0062
+- **Evidence / Decision References:** BEAT-021, TRIAL-007, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0067
 
 
 #### S56 — 절차는 재사용하고, 답은 근거로 정한다
