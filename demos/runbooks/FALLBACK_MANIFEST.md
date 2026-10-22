@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0063 local static-file inventory only (2026-10-22).
+Status: READY — DEC-0064 local static-file inventory only (2026-10-22).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `360dda8e5e299972008149293a268e78de93b94a3acb432ed3f2f71b6f07471d`
-- Full Notes SHA-256: `3aef337d7afb52afb64e64fef6dd455d334124eab5990e5c1c4e076572ef10d4`
-- Full montage SHA-256: `eea797d6e3ea35d2b1bbd09e937158e70bbbea42b77a88fe6e186197db0c33f6`
+- Source SHA-256: `a561733b99bb210bd39b74506ac55f728661cd820dfd4b9c270d447042aba57e`
+- Full Notes SHA-256: `0ebeac084d6798c69b4d22860c4639cc01157c88f23c21f23f158a42477b013e`
+- Full montage SHA-256: `5f0fe0bd62e74da8dfc19a585306db02f2d8a88d95d253fbcea4ee5b7d9bad2b`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -23,7 +23,9 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
   audit beside the S61 hypothesis. This adds no Demo minutes or new execution.
   Prior whole-ACT review: [ACT3 flow](../../production/evaluation/ACT_3_FLOW_REVISION.md).
 - DEC-0063 changes only S51 on screen and S50–S52 Notes. All32 fallback PNGs
-  are unchanged. [Current package review](../../production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md).
+  are unchanged. [Prior S51 review](../../production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md).
+- DEC-0064 changes only S52 on screen and in Notes. All32 fallback PNGs
+  are unchanged. [Current package review](../../production/evaluation/S52_TASK_COMPOSITION_REVISION.md).
 
 ## Runbook to fallback mapping
 

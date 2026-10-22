@@ -2,7 +2,9 @@
 
 > **현재 기준: DEC-0060 / 93장·379분 (2026-10-22).** ACT 2 전체 흐름 개선을 승인받아 연구 설명을 분리하고 의존성 답변/성과 회수3장을 보강했다. ACT 2는 S32–S49,18장·81분이다. 기존90장 내용과 각 장의 시간은 보존하며 신규 Lecture6/Case4/Reflection1분을 더한다. [90→93 번호·역할 대조](SLIDE_ID_MIGRATION_93.md). 사용자 허용 상한720분이며379분은 제작 기준, 리허설 실측은 UNVERIFIED다.
 
-> **최신 S51 내용 수정: DEC-0063.** 테스트 명령의 적용 시점과 판단 기준을 시각화하고 S50·S52 Notes 연결을 정렬한다. [S51 수정 검토](../production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md).
+> **최신 S52 내용 수정: DEC-0064.** 목표·프로젝트 기준·재사용할 수행 방법이 한 작업에 적용되는 관계를 시각화한다. [S52 수정 검토](../production/evaluation/S52_TASK_COMPOSITION_REVISION.md).
+
+> **이전 S51 내용 수정: DEC-0063.** 테스트 명령의 적용 시점과 판단 기준을 시각화하고 S50·S52 Notes 연결을 정렬한다. [S51 수정 검토](../production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md).
 
 > **최신 ACT3 전체 흐름 수정: DEC-0062.** S50–S67/18장·85분, 기존 장별 시간·Mode·ID를 유지한다. Skill 문서와 관찰 기록을 대응하고, S59/S61의 명시적 가정 뒤 S60/S62에서 현재 사례의 선택을 회수한다. [ACT3 흐름 설계](ACT3_FLOW_REVISION.md). 실제 Subagent·Memory 사용이나 새로운 효과 측정은 추가하지 않는다.
 
@@ -1380,29 +1382,29 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0060, DEC-0062, DEC-0063
 
 
-#### S52 — 한 성능 작업에 세 책임을 적용하면
+#### S52 — 목표·기준·방법을 한 작업에 적용한다
 
 - **Slide ID:** S52
 - **ACT:** ACT 3
 - **Section:** 3B Context vs Workflow
-- **Working Title:** 한 성능 작업에 세 책임을 적용하면
-- **Primary Role:** 세 책임을 실제로 소개된 한 Task에 적용해 다음 Skill 선택으로 연결한다.
-- **Audience Question:** “normalize 요청에서 목표, 프로젝트 기준, 수행 방법은 각각 무엇일까?”
-- **Core Message:** normalize 성능 조사라는 한 Task에서 현재 목표·허용 범위, 보존할 이미지 동작·공개 명세, 다시 쓸 측정·조사·검증 방법을 함께 적용한다.
+- **Working Title:** 목표·기준·방법을 한 작업에 적용한다
+- **Primary Role:** 이번 목표가 프로젝트 기준으로 둘러싼 작업에 들어오고 재사용할 방법을 그 작업에 적용하는 관계를 보여준다.
+- **Audience Question:** “이번 목표를 향해 작업할 때, 무엇을 지키고 어떤 방법으로 진행할까?”
+- **Core Message:** normalize 성능 조사라는 이번 목표를, 기존 이미지 동작·공개 명세를 보존하는 범위에서, 재사용할 측정·조사·검증·비교 방법을 적용해 수행한다.
 - **Story Beat:** BEAT-019
 - **Curriculum Trace:** ACT 3 — Context → Harness problem; repeated workflow.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL.
-- **Visual Concept:** 이번 요청 + 프로젝트 기준 + 수행 방법의 세 패널. 분류 항목을 재강의하지 않고 같은 Task를 관통한다.
+- **Visual Concept:** 상단 목표 요청이 아래 작업 영역에 들어온다. 기존 이미지 동작·공개 명세 보존의 테두리가 normalize 구현 조사·변경 판단을 감싸고, 오른쪽 재사용할 수행 방법에서 같은 작업으로 연결한다. S51의 변경 전/후 순서를 다시 나열하지 않는다.
 - **Demo / Case Connection:** TRIAL-006/007의 반복 절차를 개념 예로 연결한다.
-- **Beginner Payoff:** 이번 목표와 계속 유지할 Project 정보, 반복 방법의 차이를 기억한다.
-- **Advanced Payoff:** Prompt 밖에 둘 수 있는 정보라도 책임과 유지 방식은 다르다는 점을 본다.
+- **Beginner Payoff:** 목표는 할 일, 프로젝트 기준은 지킬 범위, 수행 방법은 그 범위 안에서 일하는 방식임을 한 작업에서 이해한다.
+- **Advanced Payoff:** 목표 달성과 동작 보존, 수행 방법의 적용은 함께 필요하며 저장 위치의 배타적 분류가 아님을 본다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S51에서 본 수행 방법을 현재 목표와 프로젝트 기준에 결합한다. 같은 절차를 다시 설명하지 않고 이번 요청·기준·방법의 세 책임을 한 Task에 함께 적용해 다음 Skill 선택으로 연결한다. 기존 근거 범위를 유지한다.
-- **Transition:** “다음 성능 작업에도 같은 수행 방법이 필요하다면, 어디에서 함께 유지할까요?”
+- **Speaker Intent:** S51에서 구체화한 수행 방법을 이번 목표·프로젝트 기준과 결합한다. 실행 시점과 판단 질문을 재설명하지 않고 작업을 향한 목표·작업을 감싸는 기준·작업에 적용할 방법의 관계를 짚는다. 다음 S53의 공유 위치 선택으로 연결한다.
+- **Transition:** “같은 수행 방법이 다음 작업에도 필요하다면, 어디에서 함께 유지할까요?”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
-- **Evidence / Decision References:** BEAT-019, TRIAL-006, CLM-0006, CLM-0029, DEC-0062
+- **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0062, DEC-0063, DEC-0064
 
 
 #### S53 — 반복 절차의 유지 위치를 선택한다

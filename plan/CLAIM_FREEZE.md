@@ -420,3 +420,16 @@ the full procedure. No exclusive file split, Skill requirement/superiority,
 token saving, present-day Desktop guarantee or independent Harness effect.
 S50 actual observations and PARTIAL attribution remain unchanged; S52 keeps
 its existing three-role course model. All IDs, timing and claim scope stay.
+
+
+## DEC-0064 — S52 goal, criteria and method applied together
+
+S52 remains TEACHING_MODEL / CONCEPTUAL. The goal feeds a single normalize
+work area bounded by existing image behavior/public specifications, while
+the reusable method applies to that same work. The boundary is a teaching
+representation of a requirement, not technical enforcement, compliance proof
+or a product sandbox. Do not infer that a performance goal authorizes public
+specification changes. The method may share a document with other guidance.
+No Trial execution trace, new result, product classification, Skill superiority,
+token saving or independent Harness causality is added. Preserve S51's timing
+explanation and S53's later shared-home decision. All IDs/time/Mode stay.

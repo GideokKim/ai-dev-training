@@ -102,11 +102,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S51, production/prev
 
 Validation Status: ALIGNED — DEC-0063의 교육용 경계·19필드·운영 흐름을 정렬했다. 실제 파일 렌더·Notes 대조 결과는 production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S52 — 한 성능 작업에 세 책임을 적용하면
+## S52 — 목표·기준·방법을 한 작업에 적용한다
 
 Slide ID: S52
 
-Working Title: 한 성능 작업에 세 책임을 적용하면
+Working Title: 목표·기준·방법을 한 작업에 적용한다
 
 ACT / Section: ACT 3 / 3B
 
@@ -114,38 +114,38 @@ Allocated Time: 5 minutes
 
 Mode Split: Lecture 5 minutes
 
-Primary Message: normalize 성능 조사라는 한 Task에서 현재 목표·허용 범위, 보존할 이미지 동작·공개 명세, 다시 쓸 측정·조사·검증 방법을 함께 적용한다.
+Primary Message: normalize 성능 조사라는 이번 목표를, 기존 이미지 동작·공개 명세를 보존하는 범위에서, 재사용할 측정·조사·검증·비교 방법을 적용해 수행한다.
 
-Opening Question: “normalize 요청에서 목표, 프로젝트 기준, 수행 방법은 각각 무엇일까?”
+Opening Question: “이번 목표를 향해 작업할 때, 무엇을 지키고 어떤 방법으로 진행할까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) S51에서 사용 시점과 판단 기준을 본 수행 방법을 회수한다. 첫 패널의 normalize 성능 조사 요청을 읽고, 이번 목표·계속 적용할 기준·반복 방법을 함께 놓아 보는 장임을 설명한다.
-2. (1:00–2:30) 둘째 패널의 기존 이미지 동작과 공개 명세 보존이 이 작업에도 적용됨을 연결한다.
-3. (2:30–4:00) 셋째 패널의 기준선·조사·검증·비교가 반복할 작업 방법임을 연결한다.
-4. (4:00–5:00) 세 책임을 함께 적용한 뒤 재사용 절차를 어디서 유지할지 묻는다.
+1. (0:00–1:00) S51에서 명령의 사용 시점·판단 기준까지 정한 방법을 봤음을 한 문장으로 회수한다. 상단 이번 목표 ‘normalize 성능을 조사해줘’를 읽고, 아래 작업 영역으로 들어가는 연결을 짚는다. S51의 전/후 실행을 다시 강의하지 않는다.
+2. (1:00–2:30) 작업을 감싸는 프로젝트 기준 테두리를 따라 기존 이미지 동작과 공개 명세 보존을 설명한다. 성능 조사라는 목표가 명세 변경의 허가가 되지는 않는다. 중앙은 그 범위 안에서 normalize 구현을 조사하고 변경 여부를 판단하는 한 작업이다.
+3. (2:30–4:00) 오른쪽 재사용할 수행 방법에서 중앙 작업으로 향하는 연결을 짚는다. 앞서 본 측정·조사·검증·비교 방법을 이번 목표와 기준에 맞게 적용한다. 방법의 저장 파일이나 Skill 호출을 미리 답하지 않는다. 근거가 부족하면 변경하지 않는 판단도 가능하다.
+4. (4:00–5:00) 목표는 바뀌어도 프로젝트 기준과 같은 수행 방법은 다음 관련 작업에서도 다시 필요할 수 있음을 묻는다. S53에서 반복할 방법을 어디에서 유지할지 선택하도록 연결한다.
 
-Evidence / Source: BEAT-019, TRIAL-006/007. TEACHING_MODEL / CONCEPTUAL.
+Evidence / Source: BEAT-019; plan/DEMO_MATRIX.md의 TRIAL-006/007 목표·보존 조건·반복 요청; DEC-0062, DEC-0063, DEC-0064. TEACHING_MODEL / CONCEPTUAL. 실제 요청을 그대로 실행한 기록이나 새로운 normalize Trial이 아니다.
 
-Claim Boundary: 세 Layer는 교육용 모델이다. Harness 전체 정의나 제품의 공식 분류로 부르지 않는다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: 목표·기준·수행 방법의 관계는 교육용 모델이며 제품의 공식 분류나 Harness 전체 정의가 아니다. 테두리는 수행 의무를 설명하며 기술적 강제 장치·준수 보장이나 명세 충족의 증명이 아니다. 세 책임은 같은 문서에도 담을 수 있다. 새 실행 결과, 성능 수치, Skill 필수성·우월성, 토큰 절감, Harness 단독 효과, 현재 Desktop 재현을 주장하지 않는다. 기존 실제 Trial의 관찰·귀속 한계를 유지한다.
 
-Beginner Explanation: 지금 원하는 일, 계속 유효한 프로젝트 정보, 반복할 작업 순서를 나눠 볼 수 있다.
+Beginner Explanation: 무엇을 할지 정해도 기존 동작과 명세는 지켜야 한다. 그 범위 안에서 이미 정한 조사·확인 방법을 적용하는 것이 화면 중앙의 한 작업이다.
 
-Advanced Insight: 같은 위치에 저장될 수 있어도 소유권, 갱신 주기, Task별 적용은 다를 수 있다.
+Advanced Insight: 목표와 보존할 기준, 재사용할 방법은 함께 적용되지만 수명·갱신 책임은 다를 수 있다. 성능 목표가 공개 명세 변경을 자동 허용하지 않으며, 재사용 절차도 작업에 맞게 선택·적용해야 한다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 정적 기본 경로 — 이번 요청 + 프로젝트 기준 + 수행 방법의 세 패널. 분류 항목을 재강의하지 않고 같은 Task를 관통한다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: STATIC TEACHING DIAGRAM — 목표에서 작업 영역으로, 테두리의 보존 기준에서 내부 normalize 작업으로, 오른쪽 수행 방법에서 같은 작업으로 가리킨다. 마지막에 하단 재사용 질문을 짚는다. 실제 실행·새 Trial·비교 측정을 하지 않는다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: 발표자가 ‘이번 목표가 성능 조사라면 기존 동작도 마음대로 바꿔도 될까요?’를 짧게 던진 뒤 기준 테두리로 답한다. 별도 Q&A나 실습을 추가하지 않고 Lecture5분 안에서 진행한다.
 
-Transition: “다음 성능 작업에도 같은 수행 방법이 필요하다면, 어디에서 함께 유지할까요?”
+Transition: “같은 수행 방법이 다음 작업에도 필요하다면, 어디에서 함께 유지할까요?”
 
-Time Management: Lecture5분: 목표1, 기준1.5, 방법1.5, 재사용 질문1.
+Time Management: Lecture5분: S51 회수·목표1, 기준·한 작업1.5, 방법 적용1.5, S53 재사용 질문1. 시간이 부족하면 다른 Task 예시는 생략하고 세 요소가 같은 작업에 적용된다는 관계와 교육용 경계를 유지한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S52, production/preview/act3/S52.png 및 production/preview/full/S52.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S52, production/preview/act3/S52.png 및 production/preview/full/S52.png. 실제 실행 캡처가 아닌 교육용 관계 도식이다. 최종 패키지·PNG·내장 Notes 확인은 production/evaluation/S52_TASK_COMPOSITION_REVISION.md를 따른다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0064의 교육용 경계·19필드·5분 운영 흐름을 정렬했다. 실제 파일 렌더·Notes 대조는 production/evaluation/S52_TASK_COMPOSITION_REVISION.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S53 — 반복 절차의 유지 위치를 선택한다
 

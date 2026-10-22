@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest content refinement: DEC-0063 / S51 command timing and judgments.
+Latest content refinement: DEC-0064 / S52 task composition.
+Only S52 changes visually and in Notes. Its goal enters a project-bounded
+work area that applies the reusable method. Retain93/379, S52 Lecture5,
+S51/S53 anchors, native objects and existing evidence boundaries.
+Review: `production/evaluation/S52_TASK_COMPOSITION_REVISION.md`.
+
+Previous S51 refinement: DEC-0063 / command timing and judgments.
 Only S51 changes visually; S50/S51/S52 Notes align the adjacent handoffs.
 Retain93/379 and see `production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md`.
 

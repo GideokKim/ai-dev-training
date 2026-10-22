@@ -7555,3 +7555,84 @@ Render finalized Full/ACT3 files, inspect S50/S51/S52, compare92 other Full
 PNGs and90 other Notes, preserve native tables/chart and all budgets. Update
 current identities and follow the standing Git checkpoint policy. Keep
 Windows, target fonts/room, product-account and timed rehearsal UNVERIFIED.
+
+
+# DEC-0064 — combine S52 goal, criteria and reusable method
+
+## Status
+
+ACCEPTED — explicit user request to visualize how the three responsibilities
+apply to one task, preserve S51 continuity and align Notes/rendered outputs.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S51 now explains command timing and judgment questions. S52's three parallel
+panels name the current goal, project criteria and method but leave their
+joint application implicit and can repeat a process explanation.
+
+## Problem
+
+Show the relationship in a single task without reteaching S51's before/after
+steps or introducing S53's procedure storage choice early.
+
+## Decision
+
+Show the normalize goal entering one work area. Enclose the implementation
+investigation/change decision in preserved image behavior and public
+specifications. Connect the reusable measurement/investigation/verification/
+comparison method to that same work. Keep the next-task reuse question.
+Only S52 changes visually and in Notes; retain S51/S53 as the adjacent
+anchors. Preserve93slides/379minutes, S52 Lecture5, all IDs, Mode allocations,
+templates, existing images and evidence scope. Reuse T03-B for the combined
+three-role diagram; no new Template or Variant is required.
+
+## Rationale
+
+The goal names the work, criteria bound allowable changes, and the method
+guides how that work is done. A single bounded work area makes these roles
+visible together and earns the later question of shared method maintenance.
+
+## Alternatives
+
+Retain only three panels with plus signs: joint application stays implicit.
+Repeat S51's timeline: weakens the distinct role of this slide.
+Add a successful new execution or Skill call: exceeds the evidence scope.
+
+## Trade-offs
+
+The diagram abstracts detailed verification already explained on S51.
+Notes retain no-change allowance, conditional application and causal limits.
+The visual boundary describes an obligation, not guaranteed enforcement.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-005, INV-MATURITY-006, INV-MATURITY-011,
+INV-VERIFY-001, INV-DEMO-004.
+
+## Affected Artifacts
+
+S52 factory, Map/template row, ACT3 flow and claim notes, ACT3/Full Notes,
+Full/ACT3 PPTX/previews, current artifact identities and revision evaluation.
+No other ACT package, Demo repository, State tag, Trial or presenter bundle.
+
+## Evidence
+
+Latest user request; existing BEAT-019, TRIAL-006/007 retained requests and
+preservation requirements; DEC-0062/0063. This is a course model without new
+product research, Trial, comparison measurement or current-product replay.
+
+## Training Relevance
+
+YES — distinguish goal, enduring criteria and a reusable method through
+their joint application to one task rather than isolated file categories.
+
+## Follow-up
+
+Render Full93 and ACT3 18slides; inspect S51/S52/S53, compare92 other Full
+PNGs and92 other Notes, verify budgets/native tables/chart/current hashes.
+Follow the standing Git checkpoint policy, preserve paused bundles, and keep
+Windows, room, product-account and timed rehearsal UNVERIFIED.

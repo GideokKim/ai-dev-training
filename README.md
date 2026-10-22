@@ -10,7 +10,9 @@
 
 현재 제작 기준은 **DEC-0060 /93장·379분(6시간19분)**이다. ACT2는 S32–S49/18장·81분이며, 연구 분리·의존성 답변 회수·성과 정리와 ACT3 연결을 개선한다. 기존90장의 시간·근거 범위를 보존한다. [ACT2 흐름 개선](production/evaluation/ACT_2_FLOW_REVISION.md), [번호 대조](plan/SLIDE_ID_MIGRATION_93.md), [ACT2 미리보기](production/preview/act2/montage.png). 최종93장 렌더·93개 내장 Notes와 ACT/Full 정합성 검토를 완료했다.
 
-최신 내용 수정은 **DEC-0063 / S51 명령의 적용 시점과 판단**이다. 같은 테스트 명령을 변경 전·후에 사용하는 이유와 완료 판단을 연결하고 S50·S52 Notes를 정렬했다. 기존93장·379분과 근거 범위는 유지한다. [S51 미리보기](production/preview/full/S51.png), [연속3장](production/preview/act3/S50-S52-continuity.png), [검토 기록](production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md).
+최신 내용 수정은 **DEC-0064 / S52 한 작업에 목표·기준·방법 적용**이다. 목표가 들어오는 한 작업을 프로젝트 기준으로 감싸고 재사용할 수행 방법을 연결했다. S51과 설명을 나누고 S53의 공유 위치 질문으로 이어지도록 Notes를 정렬했다. 기존93장·379분과 근거 범위는 유지한다. [S52 미리보기](production/preview/full/S52.png), [연속3장](production/preview/act3/S51-S53-continuity.png), [검토 기록](production/evaluation/S52_TASK_COMPOSITION_REVISION.md).
+
+이전 **DEC-0063 / S51 명령의 적용 시점과 판단**을 유지한다. 같은 테스트 명령을 변경 전·후에 사용하는 이유와 완료 판단을 연결하고 S50·S52 Notes를 정렬했다. 기존93장·379분과 근거 범위는 유지한다. [S51 미리보기](production/preview/full/S51.png), [연속3장](production/preview/act3/S50-S52-continuity.png), [검토 기록](production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md).
 
 이전 **DEC-0062 / ACT3 전체 흐름 개선**을 유지한다. 실제 Skill 발췌와 관찰 기록을 대응하고, Subagent·Memory의 가정 뒤 현재 선택을 회수하며, 실제 구성에서 전체 작업 환경으로 연결한다. ACT3는18장·85분, 전체93장·379분과 기존 근거 범위를 유지한다. [ACT3 전체 미리보기](production/preview/act3/montage.png), [ACT 경계 연결](production/preview/act3/continuity.png), [검토 기록](production/evaluation/ACT_3_FLOW_REVISION.md).
 

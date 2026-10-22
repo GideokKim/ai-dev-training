@@ -1,5 +1,10 @@
 # ACT3 Flow Revision — DEC-0062
 
+Current S52 refinement: DEC-0064. Show a goal entering a single normalize
+work area bounded by project criteria and using the reusable method. Do not
+repeat S51 timing questions or preempt S53 shared-home selection. Preserve
+93/379, S52 Lecture5 and other92 visuals/Notes. Review: [S52 revision](../production/evaluation/S52_TASK_COMPOSITION_REVISION.md).
+
 Current S51 refinement: DEC-0063. Replace the ambiguous guidance/procedure
 split with one information source feeding before-change, after-change and
 completion judgments. The same test marker has different questions at each
@@ -29,7 +34,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 |---|---|---|
 | S50 | Two retained requests confirm repeated procedure; short Harness orientation. |Case5|
 | S51 | Apply known commands/specifications at different times with explicit judgment questions; DEC-0063. |Lecture4|
-| S52 | Apply goal, existing specification and work method to one normalize Task. |Lecture5|
+| S52 | Apply the goal and reusable method to one normalize work area bounded by existing specifications; DEC-0064. |Lecture5|
 | S53 | Select a shared home for the procedure; Skill is this case's implementation candidate. |Lecture4|
 | S54 | Introduce brightness statistics and separate CLI discovery/invocation/body observations. |Demo5|
 | S55 | Pair real Skill excerpts with three retained observation summaries in a native table. |Demo3+Case3|

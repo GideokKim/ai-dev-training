@@ -64,20 +64,26 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S52(p){
-   const s=make(p,'S52','한 성능 작업에 세 책임을 적용하면','ACT 3 · normalize 요청을 끝까지 따라가기',
-    '교육용 적용 예 · TRIAL-006/007의 목표·보존 조건·절차를 구분',
-    '세 책임은 함께 적용됨 · 공식 제품 분류나 이 예시를 그대로 실행한 새 Trial이 아님');
-   const groups=[
-    [64,'01  이번 요청','normalize 성능을 조사해줘.','현재 목표와 허용 범위',C.pale],
-    [464,'02  프로젝트 기준','기존 이미지 동작과\n공개 명세를 보존한다.','계속 참고할 정보',C.white],
-    [864,'03  수행 방법','먼저 측정·조사하고\n변경 뒤 검증·비교한다.','다시 쓸 작업 절차',C.white]
-   ];
-   groups.forEach(([x,title,body,label,fill],i)=>{
-    panel(s,x,249,352,240,title,body,fill);
-    text(s,label,x,511,352,36,25,C.sub,true);
-    if(i<2)text(s,'+',x+363,333,24,35,29,C.teal,true);
-   });
-   text(s,'다음 작업에도 같은 수행 방법이 필요하다면?',64,567,1152,35,30,C.teal,true);
+   const s=make(p,'S52','목표·기준·방법을 한 작업에 적용한다','ACT 3 · 이번 요청과 계속 쓸 기준·방법',
+    '교육용 적용 예 · TRIAL-006/007의 목표·보존 조건·반복 방법을 한 작업에 연결',
+    '관계 설명용 도식 · 실제 실행 기록이나 제품의 공식 분류가 아님');
+   // The goal enters one work area; project criteria bound it and a method applies.
+   rect(s,64,210,744,92,C.white,C.line,1);
+   text(s,'이번 목표',84,225,164,42,29,C.teal,true);
+   text(s,'normalize 성능을 조사해줘.',250,231,538,42,30,C.ink,true);
+   down(s,420,311,27,23);
+   rect(s,64,340,744,201,C.bg,C.teal,2);
+   text(s,'프로젝트에서 지킬 기준',84,349,704,36,27,C.teal,true);
+   text(s,'기존 이미지 동작 · 공개 명세 보존',84,389,704,36,29,C.ink,true);
+   rect(s,84,445,704,74,C.white,C.line,1);
+   text(s,'normalize 구현 조사 · 변경 여부 판단',100,460,672,43,29,C.ink,true);
+   rect(s,936,210,280,331,C.pale,C.line,1);
+   text(s,'재사용할\n수행 방법',956,227,240,83,31,C.teal,true);
+   line(s,956,321,240);
+   text(s,'측정·조사\n검증·비교',956,340,240,85,29,C.ink,true);
+   text(s,'이번 작업에도 적용',956,458,240,37,25,C.teal,true);
+   s.shapes.add({geometry:'leftArrow',position:{left:825,top:468,width:93,height:27},fill:C.teal,line:{fill:'none',width:0}});
+   text(s,'같은 수행 방법이 다음 작업에도 필요하다면?',64,558,1152,39,30,C.teal,true);
    return s;
   },
   S53(p){
