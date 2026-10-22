@@ -1,0 +1,88 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-22",
+  "decision": "DEC-0059",
+  "baseline": "78e178c",
+  "changedSlide": "S46",
+  "slideCount": 90,
+  "totalMinutes": 368,
+  "act2Slides": 15,
+  "act2Minutes": 70,
+  "S46Minutes": 10,
+  "S46Mode": {
+    "Transition": 4,
+    "Q&A": 6
+  },
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 70,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 137,
+    "Reflection": 20,
+    "Case": 84,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "nativeDocumentDiagram": true,
+  "reconstructedRequestPanels": 2,
+  "identicalCondensedProcedureCopies": 2,
+  "commonProcedureElements": [
+    "baseline",
+    "investigate",
+    "plan",
+    "implement",
+    "test",
+    "benchmark",
+    "compare",
+    "review"
+  ],
+  "teachingReconstructionDisclosed": true,
+  "notVerbatimRequestOrProductScreenshot": true,
+  "harnessHandoffQuestion": true,
+  "laterMechanismNotDisclosed": true,
+  "perfectContextSelectionNotClaimed": true,
+  "promptOnlyCausalityNotClaimed": true,
+  "newPerformanceClaim": false,
+  "unchangedOtherSlidePngs": 89,
+  "unchangedOtherNotesRecords": 89,
+  "fullAct2PngParity": 15,
+  "notesRecords": 90,
+  "fieldsPerNotes": 19,
+  "renderedSlidePngs": 105,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 90,
+      "sha256": "4af38de4f4af7bac882af040f155d3e7fe8af37637713b340c84aceb92962a25"
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slideCount": 15,
+      "sha256": "96422043881675462a49c2841b7a8fa99921976704c48035ba000a82b11c7f27"
+    }
+  ],
+  "fullPptSha256": "4af38de4f4af7bac882af040f155d3e7fe8af37637713b340c84aceb92962a25",
+  "fullNotesSha256": "af60217cad89d4c4a25ad30944022115daceadb357536fae5b0109de86a20267",
+  "fullMontageSha256": "9f3914f10a150058ce9bcc10106098e675fef96c4c2313709c711ec191a7f63d",
+  "otherActPackagesUnchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "newDemoTestRun": false,
+  "presenterBundleRegenerated": false,
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "fallbackPngsUnchanged": 29,
+  "encodedFontPolicyPassed": true,
+  "nativeTargetFontRendering": "UNVERIFIED",
+  "existingS45NativeTableValidationPreserved": true,
+  "templateMappingPreserved": 90,
+  "reviewedDraftPngMatchesFinal": true,
+  "currentOutputLinksExist": true,
+  "currentArtifactIdentitiesMatch": true
+}

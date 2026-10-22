@@ -1,6 +1,6 @@
 # Full Speaker Notes — AI Developer Training
 
-Status: ALIGNED — DEC-0058 compares S45 actual access sets and interpretation limits; DEC-0057 connects S44 observed access, crop specification and recorded answer with interpretation limits; DEC-0056 frames S43 requests and neutral observation questions; DEC-0055 shows S42 document reorganization and retained core facts; DEC-0054 distinguishes S41 shared guidance from task-dependent details; DEC-0053 diagrams S40 task request, AGENTS.md guidance and relevant detail; DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 scope, timing and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 preserves S36 document growth; DEC-0047 preserves S35 information destinations; DEC-0046 preserves S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S45_ACCESS_COMPARISON_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0059 contrasts S46 organized Context and repeated procedure before the Harness handoff; DEC-0058 compares S45 actual access sets and interpretation limits; DEC-0057 connects S44 observed access, crop specification and recorded answer with interpretation limits; DEC-0056 frames S43 requests and neutral observation questions; DEC-0055 shows S42 document reorganization and retained core facts; DEC-0054 distinguishes S41 shared guidance from task-dependent details; DEC-0053 diagrams S40 task request, AGENTS.md guidance and relevant detail; DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 scope, timing and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 preserves S36 document growth; DEC-0047 preserves S35 information destinations; DEC-0046 preserves S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S46_WORKFLOW_HANDOFF_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
 
 Authority: plan/MASTER_PLAN.md, plan/INVARIANTS.md, plan/SLIDE_MAP.md, plan/CLAIM_FREEZE.md, plan/SPEAKER_NOTES_FREEZE.md, plan/SLIDE_ID_MIGRATION_90.md and DEC-0043. Original80/81/82-slide audits remain historical. The small M footer marks bounded teaching links, not full module completion.
 
@@ -2143,37 +2143,39 @@ Allocated Time: 10 minutes
 
 Mode Split: Transition 4 minutes + Q&A 6 minutes
 
-Primary Message: Task Prompt, Project Context, and routing address different information responsibilities; a repeated work procedure can remain as a separate problem.
+Primary Message: Project Context의 범위와 위치를 정리해도, 현재 목표가 다른 작업마다 같은 조사·검증 방법을 다시 요청하는 문제가 남을 수 있다. 이 반복을 다음 Harness 구간의 질문으로 삼는다.
 
-Opening Question: “Project 정보를 잘 정리했으면 문제가 끝난 걸까?”
+Opening Question: “앞에서 요청별 문서 접근 차이와 한계를 봤습니다. 정보를 어디서 찾을지 정리했으면, 일하는 방법도 해결된 걸까요?”
 
 Speaker Flow:
 
-1. (0:00–2:00 / Transition) 왼쪽의 현재 목표, 공통 사실, 상세 정보 위치를 순서대로 회수한다.
-2. (2:00–4:00 / Transition) 오른쪽 ‘먼저 측정하고, 조사한 뒤 변경하고, 같은 조건으로 확인’이라는 반복 절차를 보여준다. Context 선택을 완전히 해결했다는 뜻은 아니라고 밝힌다.
-3. (4:00–10:00 / Q&A) ‘같은 작업 절차도 다시 써야 할까?’로 질문을 받는다. 질문이 없으면 사실과 절차의 책임 차이를 짚고 ‘Project 지식과 별개로 같은 조사·검증 절차도 매번 다시 적어야 할까?’를 던진다. 두 Task의 공통 절차를 다음 관찰 대상으로 삼는다. 마지막 짧은 handoff도 이 6분 안에 포함한다.
+1. (0:00–1:00 / Transition) S45의 관찰된 접근 차이를 회수하고 완벽한 Context 선택이나 효율 향상을 확인한 것은 아니라고 짧게 한정한다. 왼쪽의 AGENTS.md 기본 안내/문서 위치와 상세 명세·구조·테스트를 가리킨다. 공통 사실은 Project Context에, 필요한 상세의 위치는 Routing으로 나누었다는 교육용 배치 요약이다. 아래 화살표가 실제 파일 읽기 순서를 뜻하지 않는다.
+2. (1:00–2:00 / Transition) 오른쪽 두 성능 요청의 서로 다른 현재 목표를 짚는다. 첫 요청은 크기 변경, 두 번째는 정규화의 성능 조사/개선이다. S45의 Crop/의존성 A·B를 바꾼 것이 아니라 다음 성능 작업 두 개의 요약이다. 실제 Prompt 전문이나 제품 화면이 아닌 교육용 재구성임을 밝힌다.
+3. (2:00–3:00 / Transition) 두 요청의 같은 청록 영역을 번갈아 가리킨다. 측정·조사 → 계획·변경 → 테스트·재측정·비교·검토라는 같은 방법을 다시 요청한다. 이3줄은 TRIAL-006/007 공통 절차8개를 압축한 표현이며 새로운 요청 기법이나 공식 제품 분류가 아니다.
+4. (3:00–4:00 / Transition) 하단의 ‘같은 조사·검증 절차도 매번 다시 적어야 할까?’를 읽고 다음 Harness 구간의 문제로 남긴다. 구체적인 기능이나 성공 결과를 답으로 제시하지 않는다. 실제 작업 흐름에는 global Harness 영향도 있어 Prompt 단독 효과로 해석하지 않는다.
+5. (4:00–10:00 / Q&A) 질문을 받으며 공통 사실·상세 정보 위치·현재 목표와 반복되는 작업 방법의 책임을 구분해 회수한다. 무응답 시 ‘명세를 찾는 방법을 안내해 두면 측정·테스트 순서도 자동으로 정해질까요?’를 묻고 ‘작업 방법을 유지하는 책임은 별도로 남습니다’로 이어간다. 마지막20초는 다음 두 성능 Task의 실제 기록을 보자는 기존 handoff에 사용하며 이6분 안에 포함한다.
 
-Evidence / Source: BEAT-017–018, TRANS-005, TRIAL-006/007 as context for the upcoming problem. OBSERVED_PRODUCT for repeated prompt structure with PARTIAL attribution; TEACHING_MODEL for the three responsibilities and the transition question.
+Evidence / Source: BEAT-017/018, TRANS-005, TRIAL-006/007, CLM-0003/0005/0014/0006/0029/0030, DEC-0059. plan/DEMO_MATRIX.md의 TRIAL-006 실제 Prompt/Repeated Workflow Elements, TRIAL-007 Task Prompt/결과 요약과 환경 영향 기록을 대조했다. OBSERVED_PRODUCT는 다음 문제의 반복 Prompt 구조에 한정하고, Context/Prompt/Workflow 책임 구분과 이 화면은 TEACHING_MODEL이다. 새 Trial·테스트·제품 확인은 하지 않았다.
 
-Claim Boundary: Do not attribute the repeated procedure solely to the Trial Prompt; global Harness influence remains. Do not present Skill or another solution here.
+Claim Boundary: 공통 절차가 두 요청에 반복됐다는 기록과 전체 Agent 행동의 원인은 구분한다. global Harness 영향이 있어 Prompt-only attribution은 PARTIAL이다. 문서 배치 그림은 실제 접근 순서·Context 선택 완전 해결·토큰 절약·성능 개선의 증거가 아니다. 두 요청의 병렬 배치는 동시 Subagent 실행이나 비교 실험이 아니다. 구체적인 Skill 등 메커니즘이나 그 효과는 이 장에서 설명하지 않는다.
 
-Beginner Explanation: Knowing Project facts and repeating a reliable way of working are different needs.
+Beginner Explanation: 명세·구조·테스트 안내를 어디서 찾을지 알려두는 것과, 어떤 순서로 조사하고 확인할지 요청하는 것은 책임이 다르다. 현재 목표가 달라도 같은 작업 방법을 다시 적는 부분을 살핀다.
 
-Advanced Insight: Context can reduce repeated fact explanation while process ownership remains unresolved; keep observed repetition separate from its cause.
+Advanced Insight: The screen contrasts information scope/location with repeated procedure ownership. The recorded common workflow motivates a design question; it does not establish isolated Prompt causality or measured Context efficiency.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A — use the concise recorded prompt-structure summary; no live run or new Trial.
+Demo Operation: N/A — native 문서 배치와 두 성능 요청의 압축 요약을 정적으로 보여준다. Prompt 전문·실제 Screenshot·현재 제품 실행으로 표현하지 않는다. 이 장은 새 Trial이나 추가 Demo 시간이 아니다. 다음 S47에서 기록의 반복 구조를 확인한다.
 
-Audience Interaction: 0–4분 Transition 뒤 4–10분 Q&A를 운영한다. 공개 응답은 선택이며 질문이 없으면 사실과 절차의 차이를 묻는 준비 질문을 사용한다. 별도 실습은 없다.
+Audience Interaction: Transition0–4분 후 Q&A4–10분을 유지한다. 공개 응답은 선택이다. 무응답 시 ‘명세를 찾는 방법을 안내해 두면 측정·테스트 순서도 자동으로 정해질까요?’ 또는 ‘지금 반복되는 것은 Project 사실일까요, 일하는 방법일까요?’로 질문을 연다. 별도 실습·필수 답변은 없다.
 
 Transition: “Project 지식과 별개로 같은 조사·검증 절차도 매번 다시 적어야 할까? 다음 두 성능 Task의 기록에서 반복된 부분을 보겠습니다.”
 
-Time Management: Transition 4분 → Q&A 6분, 총 10분을 유지한다. 마지막 handoff 문구도 Q&A 종료 전에 포함하며 추가 Transition 시간을 만들지 않는다. 답변이 길어지면 다음 질문을 받지 않고 ACT 3로 이동한다.
+Time Management: Transition4분 → Q&A6분, 총10분을 유지한다. 마지막 handoff도 Q&A6분 종료 전에 포함하고 추가 Transition 시간을 만들지 않는다. 부연이 길어지면 상세 문서/성능 작업의 설명을 줄이고 동일한 절차와 핵심 질문을 먼저 회수한다. 질문은9분40초에 마무리해 ACT3로 이동한다. 실제 리허설은 UNVERIFIED다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S46 또는 `production/preview/act2/S46.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다. 질문이 없으면 Audience Interaction의 준비 질문으로 진행한다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S46 또는 production/preview/act2/S46.png를 사용한다. Full/ACT2 PNG·내장 Notes 일치는 production/evaluation/S46_WORKFLOW_HANDOFF_REVISION.md와 검증 JSON을 따른다. 실제 실행 캡처나 현재 제품 화면이 아니다. 무응답 시 Audience Interaction의 준비 질문으로 진행한다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0059의 Context 배치/반복 절차 대비와 S45→S46→S47 Harness handoff를 반영했다. 최종 렌더·Notes parity는 production/evaluation/S46_WORKFLOW_HANDOFF_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S47 — 서로 다른 Performance Task, 반복되는 절차
 

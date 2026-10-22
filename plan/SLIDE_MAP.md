@@ -1192,16 +1192,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 2 — Context Engineering success and ACT 3 handoff.; ACT 3 — Context → Harness problem and bottom-up framing.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Context 정리는 ACT 2의 주제이며, 다음 절차 반복 예시는 ACT 3의 질문이다. Trial Prompt만으로 전체 절차의 원인을 귀속하지 않는다.
-- **Visual Concept:** `정보 중복 감소` 옆에 Performance Task A/B의 공통 절차 `Baseline → Investigate → Plan → Test → Benchmark → Compare → Review`를 보여준다.
-- **Demo / Case Connection:** Discussion으로 “이건 Context 문제일까?”를 묻고, 절차의 재사용 문제로 연결한다.
+- **Visual Concept:** 왼쪽은 AGENTS.md의 기본 안내/문서 위치에서 필요한 상세 명세·구조·테스트 문서로 이어지는 배치 도식이다. 오른쪽은 크기 변경과 정규화라는 서로 다른 성능 요청2개 안에 같은 측정·조사·계획·변경·테스트·재측정·비교·검토 절차를 반복해 넣고 공통 부분을 같은 색으로 강조한다. 두 요청은 교육용 압축 재구성이며 원문 전체·실행 화면이 아니다. 하단 질문에서 다음 Harness 구간으로 연결한다.
+- **Demo / Case Connection:** S45의 관찰된 접근 차이와 미입증 경계를 회수한 뒤, 정보를 어디서 찾을지 나눈 것과 작업 방법을 매번 요청하는 문제를 구분한다. 다음 성능 작업의 공통 절차를 교육용 도식으로 압축하고 S47에서 TRIAL-006/007 기록을 더 살펴본다. 이 장의 Discussion은 실습이나 새 Demo가 아니다.
 - **Beginner Payoff:** Project 정보를 잘 주는 것과 작업 방법을 정하는 것이 다른 문제임을 이해한다.
 - **Advanced Payoff:** Context와 workflow의 역할을 구분하고 다음 설계 문제를 찾는다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 질문과 Discussion으로 ACT 2를 마무리한다. Hands-on이나 필수 답변은 요구하지 않는다.
+- **Speaker Intent:** 서로 다른 두 성능 목표와 동일하게 반복된 절차를 한눈에 대비한다. 문서 배치 그림을 실제 접근 순서·완벽한 Context 선택의 근거로 설명하지 않는다. 공통 사실/상세 위치의 정리와 현재 목표/작업 방법의 책임 차이를 회수하고, 이 절차도 매번 적어야 할지 질문한다. Harness는 다음 구간의 이름만 표시하며 구체적 메커니즘이나 성공 결과를 앞당기지 않는다. Transition4분 후 Q&A6분과 마지막 handoff를 유지한다.
 - **Transition:** “Project 지식과 별개로 같은 조사·검증 절차도 매번 다시 적어야 할까? 다음 두 성능 Task의 기록에서 반복된 부분을 보겠습니다.”
 - **Estimated Time:** 10분
 - **Delivery Mode Allocation:** Transition 4분 + Q&A 6분 = 10분
-- **Evidence / Decision References:** BEAT-017, BEAT-018, TRANS-005, TRIAL-006, CLM-0003, CLM-0005, CLM-0014, CLM-0006, CLM-0029, CLM-0030
+- **Evidence / Decision References:** BEAT-017, BEAT-018, TRANS-005, TRIAL-006, TRIAL-007, CLM-0003, CLM-0005, CLM-0014, CLM-0006, CLM-0029, CLM-0030, DEC-0059
 
 ### ACT 3
 

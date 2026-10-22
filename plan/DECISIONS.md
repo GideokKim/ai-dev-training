@@ -7125,3 +7125,84 @@ Check every matrix cell, final-run asterisk, Notes and S44-S46 continuity.
 Preserve the other89 slides and all budgets. Refresh the changed S45 static
 fallback hash and preserve the other28. Keep external delivery gates
 UNVERIFIED. Do not rebuild presenter bundles.
+
+
+# DEC-0059 — Visualize S46 repeated procedure and the Harness handoff
+
+## Status
+
+ACCEPTED — explicit user direction to show the remaining workflow problem.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S45 compares observed document access and its limits. S46 closes ACT2 and
+opens the problem that the next Harness section investigates.
+
+## Problem
+
+The text-only contrast does not make repeated procedure requests visible
+or clearly separate information organization from work-method ownership.
+
+## Decision
+
+Contrast a compact AGENTS.md/detail-document diagram with two native
+request panels for resize and normalization performance work. Highlight
+the same condensed measurement, investigation, planning, implementation,
+testing, remeasurement, comparison and review text in both requests.
+Close with a procedure-repetition question and a next-Harness marker.
+Label the screen as a teaching reconstruction of retained workflow records.
+Keep the title, T04-A, Transition4/Q&A6,90slides and368minutes.
+Align Map, Notes, Full/ACT2, previews and current artifact identities.
+
+## Rationale
+
+The audience can see what was organized and what is still repeated. The
+question hands off to S47's actual repeated-workflow evidence without
+introducing the later mechanism or a success claim prematurely.
+
+## Alternatives
+
+Keep the text-only contrast: leaves the repeated request implicit.
+Show full Trial prompts: too dense for a transition and duplicates S47.
+Show a reusable mechanism now: resolves the question before its evidence.
+
+## Trade-offs
+
+The three-line request procedure condenses eight common elements; it is
+not a verbatim prompt or an execution screenshot. The document diagram is
+teaching placement, not a chronological access trace. Side-by-side requests
+do not imply concurrent Subagents. Preserve global-influence attribution
+limits and do not claim measured Context efficiency or perfect selection.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-004, INV-DEMO-004,
+INV-RESEARCH-004, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S46 source, Map/template row, ACT2/Full Notes and PPTX, previews and current
+artifact identities. Preserve previous reviews and the Demo repository.
+
+## Evidence
+
+User direction; retained TRIAL-006 actual Prompt/Repeated Workflow Elements
+and TRIAL-007 Task Prompt/workflow summary in plan/DEMO_MATRIX.md;
+CLAIM_FREEZE teaching-model and Prompt-only attribution boundaries.
+No new Trial, test run or current-product check.
+
+## Training Relevance
+
+YES — distinguish organized Project knowledge from repeated work methods
+and motivate Harness through a remaining developer problem.
+
+## Follow-up
+
+Review S45-S47 continuity, matching procedure text, connector visibility
+and Notes parity. Preserve the other89 slides, every budget and all29 Demo
+fallback PNGs. Keep external environment/rehearsal gates UNVERIFIED. Do not
+rebuild presenter bundles.

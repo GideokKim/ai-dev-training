@@ -6,7 +6,9 @@ Status: READY for DEC-0043 local static playback only. Finalized files, displaye
 
 ## Provenance
 
-- Current content check: DEC-0058 compares actual S45 Crop/dependency document access and interpretation limits. Update the DEMO-06 S45 static fallback hash; the other28 Demo fallback PNGs remain unchanged. Refresh the current Full PPT identity. See production/evaluation/S45_ACCESS_COMPARISON_REVISION.md.
+- Current content check: DEC-0059 contrasts S46 organized Context with repeated procedure in two teaching request panels and a Harness handoff. All29 Demo fallback PNGs remain unchanged; refresh the current Full PPT identity. See production/evaluation/S46_WORKFLOW_HANDOFF_REVISION.md.
+
+- Previous content check: DEC-0058 compares actual S45 Crop/dependency document access and interpretation limits. Update the DEMO-06 S45 static fallback hash; the other28 Demo fallback PNGs remain unchanged. Refresh the current Full PPT identity. See production/evaluation/S45_ACCESS_COMPARISON_REVISION.md.
 
 - Previous content check: DEC-0057 connects S44 observed access, crop specification and recorded answer with interpretation limits. All29 Demo fallback PNGs remain unchanged; the current Full PPT identity is refreshed. See production/evaluation/S44_CROP_EVIDENCE_REVISION.md.
 
@@ -44,10 +46,10 @@ Status: READY for DEC-0043 local static playback only. Finalized files, displaye
 - Previous content check: 2026-10-21 (Asia/Seoul), DEC-0039. S17/S18 changed; the other 80 slide renders are byte-identical to the previous production. See production/evaluation/PROMPT_FLOW_REVISION.md.
 - Previous numbering alignment: 2026-10-21 (Asia/Seoul), DEC-0038. That release used82-slide IDs; final render, local path and file identity checks are complete. See production/evaluation/PROMPT_TIMELINE_REVISION.md and plan/SLIDE_ID_MIGRATION_82.md.
 - Previous numbering alignment: DEC-0036/0037 used 81 slides. Their reports and hashes are historical. The original DEC-0036 mapping remains in plan/SLIDE_ID_MIGRATION.md.
-- Current static file-identity/path check: 2026-10-22 for DEC-0058, after finalized-package rendering. Existing ZIP integrity describes the prior package; no bundle is regenerated. Target-PC offline playback and rehearsal remain UNVERIFIED.
+- Current static file-identity/path check: 2026-10-22 for DEC-0059, after finalized-package rendering. Existing ZIP integrity describes the prior package; no bundle is regenerated. Target-PC offline playback and rehearsal remain UNVERIFIED.
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Current source SHA-256: `17f51dbec6d6b667f20150bc0cbd49a92c6b8dc784b880035fe9f948685b56b4`
+- Current source SHA-256: `4af38de4f4af7bac882af040f155d3e7fe8af37637713b340c84aceb92962a25`
 - Renderer: Artifact Tool reimport of the finalized PPTX, rasterized at 1920×1080.
 - Host: macOS 26.6.2 (25G83).
 - Current preview inventory:90 files (`S01.png`–`S90.png`), each1920×1080; montage1920×6210.

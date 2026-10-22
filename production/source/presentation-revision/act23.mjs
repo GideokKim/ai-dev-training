@@ -302,15 +302,33 @@ S45:make('S45','Task별 접근은 달랐지만 완벽하지는 않다','ACT 2 ·
   }),
 
 S46:make('S46','지식은 정리됐지만 절차는 반복된다','ACT 2 · 다음 문제로 넘어가기',
-  'Project Context 정리 + TRIAL-006/007의 반복 절차 · 기록 요약과 교육용 해석',
-  '절차가 반복된 원인을 Prompt만으로 분리하지 않음','TEACHING_MODEL',
-  (s,{C,text,line,rect})=>{
-    text(s,'정리한 것',64,232,520,38,29,C.teal,true);
-    text(s,'아직 반복되는 것',704,232,512,38,29,C.teal,true);
-    line(s,64,289,520,C.teal,3);line(s,704,289,512,C.teal,3);
-    text(s,'현재 목표는 Prompt에\n공통 사실은 Project Context에\n상세 정보는 Routing으로',64,327,540,158,30,C.ink);
-    text(s,'먼저 측정하고\n조사한 뒤 변경하고\n같은 조건으로 확인해줘',704,327,512,158,31,C.ink,true);
-    text(s,'같은 작업 절차도 다시 써야 할까?',64,548,1152,44,34,C.teal,true);
+  '교육용 도식 · TRIAL-006/007의 반복 절차 요약 · 실제 요청 전문·제품 화면 아님',
+  'Context 선택 완전 해결 미입증 · 실행 환경의 영향도 있어 Prompt만의 효과로 귀속하지 않음','TEACHING_MODEL',
+  (s,{C,text,line,rect,arrow})=>{
+    text(s,'정보의 위치를 정리해도, 작업 방법은 매번 다시 적는다',64,184,1152,43,30,C.teal,true);
+    text(s,'정리한 Project Context',64,238,336,36,27,C.ink,true);
+    text(s,'아직 Prompt에서 반복하는 절차',448,238,768,36,28,C.ink,true);
+    rect(s,64,282,312,88,C.white,C.line,1.5);
+    text(s,'AGENTS.md',82,294,276,34,28,C.teal,true,'Consolas');
+    text(s,'기본 안내 · 문서 위치',82,332,276,28,24,C.sub);
+    s.shapes.add({geometry:'downArrow',position:{left:202,top:376,width:28,height:16},fill:C.teal,line:{fill:'none',width:0}});
+    rect(s,84,394,292,98,C.white,C.line,1);
+    rect(s,74,404,302,98,C.white,C.line,1);
+    rect(s,64,414,312,98,C.white,C.line,1.5);
+    text(s,'필요한 상세 문서',82,431,276,34,26,C.ink,true);
+    text(s,'명세 · 구조 · 테스트',82,472,276,28,24,C.sub);
+    const process='먼저 측정·조사해줘.\n계획한 뒤 변경해줘.\n테스트·재측정·비교·검토해줘.';
+    [{x:448,title:'성능 요청 1 · 크기 변경'},{x:856,title:'성능 요청 2 · 정규화'}].forEach(({x,title})=>{
+      const box=rect(s,x,282,360,230,C.white,C.line,1.5);box.borderRadius=12;
+      text(s,title,x+18,292,324,30,25,C.teal,true);
+      line(s,x+18,330,324,C.line,1);
+      text(s,'성능을 개선해줘.',x+18,340,324,34,26,C.ink,true);
+      rect(s,x+16,384,328,112,C.pale);
+      text(s,process,x+30,391,300,98,24,C.ink);
+    });
+    text(s,'같은 조사·검증 절차도 매번 다시 적어야 할까?',64,550,886,40,30,C.teal,true);
+    arrow(s,964,562,24,16);
+    text(s,'다음 · Harness',1004,550,212,40,25,C.teal,true);
   }),
 
 S47:make('S47','서로 다른 Performance Task,\n반복되는 절차','ACT 3 · 작업 방법도 반복된다',

@@ -95,6 +95,11 @@ and separate observed-difference/interpretation-limit text. `build.mjs`
 requires the native table on the corresponding Full/ACT2 owner slide.
 Refresh the DEMO-06 S45 fallback identity and preserve all other budgets.
 
+DEC-0059 updates S46 in `act23.mjs` with a compact Context diagram and two
+performance request panels containing identical condensed procedure text.
+Keep the teaching-reconstruction and global-influence boundaries, the
+Transition4/Q&A6 operation and the question that hands off to Harness.
+
 ## Historical implementation notes
 
 # Presentation revision source

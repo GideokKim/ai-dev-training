@@ -8,7 +8,9 @@
 
 ## 현재 상태
 
-최신 수정은 DEC-0058의 S45 실제 문서 접근 비교/관찰과 해석 한계 도식이다. [수정 S45](production/preview/full/S45.png), [검토 기록](production/evaluation/S45_ACCESS_COMPARISON_REVISION.md).
+최신 수정은 DEC-0059의 S46 Context 정리/반복 절차 대비와 Harness 연결 도식이다. [수정 S46](production/preview/full/S46.png), [검토 기록](production/evaluation/S46_WORKFLOW_HANDOFF_REVISION.md).
+
+이전 수정은 DEC-0058의 S45 실제 문서 접근 비교/관찰과 해석 한계 도식이다. [수정 S45](production/preview/full/S45.png), [검토 기록](production/evaluation/S45_ACCESS_COMPARISON_REVISION.md).
 
 이전 수정은 DEC-0057의 S44 문서 접근·명세·기록된 답/해석 한계 도식이다. [수정 S44](production/preview/full/S44.png), [검토 기록](production/evaluation/S44_CROP_EVIDENCE_REVISION.md).
 
