@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0067 / S55 instruction and action evidence.
+Latest refinement: DEC-0068 / S56 reusable procedure and task judgment.
+Keep the T04-A comparison and diagram reusable methods, task evidence,
+questions and conditional adoption/no-change paths with native objects.
+Align only S56 Notes and rebuild Full/ACT3. Keep93/379 and Lecture3.
+Review: `production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md`.
+
+Previous refinement: DEC-0067 / S55 instruction and action evidence.
 Keep T04-A's native table and pair translated Skill instructions with observed
 output, pre-edit message and final diff. Distinguish inclusion from execution.
 Align S55 Notes and rebuild Full/ACT3 only. Keep93/379 and Demo3+Case3.

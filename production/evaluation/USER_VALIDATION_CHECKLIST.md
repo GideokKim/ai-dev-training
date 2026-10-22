@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일:2026-10-22 (Asia/Seoul). 현재93장·379분/DEC-0060, 최신 내용 수정 DEC-0067. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
+갱신 기준일:2026-10-22 (Asia/Seoul). 현재93장·379분/DEC-0060, 최신 내용 수정 DEC-0068. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,13 +9,13 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `235ec6c6d887ec37f4ec025571f43f5abfb50025495ea11d40b9f82b6a63c8a1`
+- PPTX SHA-256: `f25b880461cd3888c67e3619e794ee6f051081ac558a83fb6294168b24c0be40`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `040210ae6e4a3dc5aec6f0437d89d32fac5ca76670c581848cc49d9f29d0553e`
+- Notes SHA-256: `e7ed29cbfab8bb3fb26e83e3cedf62439dbf5288608d0fd9fa1fb5538af221ba`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S93.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-위 PPTX·Notes hash는 DEC-0067의 현재93장 파일 식별자다. [S55 지침과 수행 기록 대응](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S53/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S53 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S52 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S51 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
+위 PPTX·Notes hash는 DEC-0068의 현재93장 파일 식별자다. [S56 재사용 절차와 이번 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S55 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S53/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S53 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S52 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S51 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
 
 이전 DEC-0033–0035의 80장 렌더·구조·Notes 검토는 해당 평가 문서와 Git history의 역사적 근거다. 이전 ZIP은 payload 362개·entry 363개였으며 당시 CRC·hash·내부 링크·Notes 정합성을 확인했다. 이번에는 묶음을 갱신하지 않는다. M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아니다. 2순위 보강은 보류한다.
 
@@ -97,6 +97,8 @@ ____________________________________________________________________
 - [ ] S39의 정보 활용 질문→S40의 위치·동작·주변 근거 확인→S41의 상세 정보 탐색 경로가 이어진다. S40의 세 질문은 교육용 기준이며 기존 코드 발췌를 새 Agent 탐색 기록이나 RepoQA 채점 기준으로 설명하지 않는다.
 
 - [ ] S55에서 본문 포함과 실제 수행 근거를 구분하고, 조건부 계획 지침과3회·1/1·11/11의 관찰 범위를 유지했다. Skill 전체 준수나 단독 효과로 일반화하지 않았다.
+
+- [ ] S56의 왼쪽은 실제 Skill 일부의 번역이고, 오른쪽은 이번 작업의 질문과 교육용 판단 경로임을 구분했다. 보류를 TRIAL-008의 실제 결과나 두 갈래 실행의 증거로 설명하지 않았다.
 
 정적 PPT/PNG와 준비된 과거 기록이 기본 운영 경로다. 과거 Trial을 그 범위로
 설명하기 위해 현재 계정에서 같은 동작을 재현할 필요는 없다. Live/Hybrid를

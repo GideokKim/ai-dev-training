@@ -178,12 +178,48 @@ export async function loadAct3ContinuitySlides(root, previous) {
   },
   S56(p){
    const s=make(p,'S56','절차는 재사용하고, 답은 근거로 정한다','ACT 3 · Skill에 고정할 것과 이번에 판단할 것',
-    'STATE-04 SKILL.md의 두 지침과 교육용 책임 구분 · 새 실행 결과가 아님',
-    '특정 알고리즘·Trial 숫자를 정답으로 넣지 않았음 · no-change는 허용된 판단 경로','OBSERVED_PRODUCT / TEACHING_MODEL');
-   panel(s,64,236,542,256,'Skill이 정할 방법','편집 전 재현 가능한 기준선\n같은 조건으로 검증·비교\n근거가 부족하면 변경 보류',C.pale);
-   panel(s,674,236,542,256,'이번 작업에서 정할 답','어떤 알고리즘을 택할까?\n실제 시간·할당량은?\n어떤 trade-off를 감수할까?');
-   text(s,'“A measured result that does not justify a change is a',64,522,1152,31,24,C.sub,false,CODE);
-   text(s,'valid no-change conclusion.”',64,554,1152,31,24,C.sub,false,CODE);
+    'STATE-04 SKILL.md 번역 요약 + 교육용 질문·판단 경로 · 새 실행 결과가 아님',
+    '특정 구현·Trial 수치를 미리 넣지 않았음 · 보류는 허용된 경로이며 TRIAL-008의 관찰 결과 아님','OBSERVED_PRODUCT / TEACHING_MODEL');
+   rect(s,64,205,436,352,C.pale,C.line,1);
+   text(s,'Skill · 재사용할 절차',84,217,396,37,29,C.teal,true);
+   text(s,'이 Skill의 지침 일부 · 번역 요약',84,255,396,28,21,C.sub);
+   const steps=[
+    [304,'01','변경 전 기준선 측정'],
+    [380,'02','같은 조건으로 검증·비교'],
+    [456,'03','근거·trade-off·한계 보고']
+   ];
+   steps.forEach(([y,n,label])=>{
+    text(s,n,84,y,46,38,27,C.teal,true);
+    text(s,label,144,y,336,38,26,C.ink,true);
+   });
+   text(s,'다음 성능 작업에도 같은 방법',84,513,396,30,24,C.teal,true);
+   text(s,'적용',518,334,62,31,23,C.teal,true,FONT,'center');
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:516,top:380,width:64,height:0},line:{fill:C.teal,width:3},tail:{type:'triangle',width:'sm',length:'sm'}});
+   rect(s,596,205,620,352,C.white,C.line,1);
+   text(s,'이번 작업 · 근거로 판단할 답',616,217,580,37,29,C.teal,true);
+   text(s,'밝기 통계 작업에서 답할 질문',616,255,580,28,21,C.sub);
+   rect(s,616,295,580,55,C.pale);
+   text(s,'이번 측정값 · 테스트 · diff',632,304,548,37,27,C.teal,true,FONT,'center');
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:906,top:350,width:0,height:22},line:{fill:C.teal,width:2},tail:{type:'triangle',width:'sm',length:'sm'}});
+   const answers=[
+    [616,'구현','어떤 후보를 쓸까?'],
+    [812,'측정값','시간·할당량은?'],
+    [1008,'trade-off','무엇을 감수할까?']
+   ];
+   answers.forEach(([x,label,question])=>{
+    text(s,label,x,380,188,29,23,C.sub,true,FONT,'center');
+    text(s,question,x,411,188,33,23,C.ink,true,FONT,'center');
+   });
+   // Both branches are allowed decisions, not observed Trial outcomes.
+   [710,906,1102].forEach(x=>s.shapes.add({geometry:'line',position:{left:x,top:447,width:0,height:15},fill:'none',line:{fill:C.line,width:2}}));
+   line(s,710,462,392,C.line,2);
+   [754,1058].forEach(x=>s.shapes.add({geometry:'connector',kind:'straight',position:{left:x,top:462,width:0,height:18},line:{fill:C.line,width:2},tail:{type:'triangle',width:'sm',length:'sm'}}));
+   [[616,'근거가 뒷받침하면','변경 채택'],[920,'변경 근거가 부족하면','변경 보류']].forEach(([x,condition,decision])=>{
+    rect(s,x,487,276,58,C.bg,C.line,1);
+    text(s,condition,x+8,489,260,25,20,C.sub,false,FONT,'center');
+    text(s,decision,x+8,514,260,28,25,C.teal,true,FONT,'center');
+   });
+   text(s,'변경을 정당화할 근거가 없다면, 보류도 유효한 결론이다',64,568,1152,32,28,C.ink,true);
    return s;
   },
   S57(p){

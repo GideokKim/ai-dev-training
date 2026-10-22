@@ -299,35 +299,36 @@ Mode Split: Lecture 3 minutes
 
 Primary Message: Skill은 편집 전 재현 가능한 기준선, 검증·비교와 변경 보류 조건을 담는다. 알고리즘·측정값·trade-off는 Task별 근거로 결정하고 정답이나 Trial 수치를 미리 넣지 않는다.
 
-Opening Question: “Skill에 고정할 방법과 이번 Task에서 정할 답은 무엇일까?”
+Opening Question: “앞 장에서 확인한 것 중, 다음 작업에도 쓸 방법과 이번 기록으로 답해야 할 것은 각각 무엇일까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00) Skill에 둔 재현 가능한 기준선·검증·비교·변경 보류 방법을 가리킨다. 원문 Establish a reproducible baseline before editing.의 뜻을 보존한다.
-2. (1:00–2:00) 알고리즘·실제 측정값·trade-off는 이번 Task에서 정할 답임을 설명한다.
-3. (2:00–3:00) no-change 문장을 읽고 변경이 정당화되지 않으면 보류도 유효한 판단임을 말한 뒤 후보 선택으로 넘어간다.
+1. (0:00–0:30) S55의 지침·수행 기록 대응을 회수한다. 이번에는 개별 실행 결과를 다시 읽기보다, 다음 작업에도 유지할 방법과 매번 근거로 채울 답을 구분한다.
+2. (0:30–1:15) 왼쪽 Skill의 세 항목을 가리킨다. 변경 전 기준선을 측정하고, 같은 조건으로 검증·비교하며, 근거·trade-off·한계를 보고하는 방법이다. 원문 일부의 번역 요약이며 전체 절차를 세 단계로 완전히 재현한 것이 아니다. 다음 성능 작업에도 이 방법을 적용한다.
+3. (1:15–2:15) 적용 화살표를 따라 오른쪽으로 이동한다. 이번 측정값·테스트·diff가 구현 후보, 시간·할당량, 감수할 trade-off를 확인·판단할 근거다. 수치는 실제 측정으로 얻고, 후보 채택은 그 수치와 동작 보존·변경 범위를 함께 보고 판단한다. 특정 알고리즘이나 Trial 숫자를 Skill에 정답으로 미리 넣지 않는다.
+4. (2:15–3:00) 아래 분기의 조건을 읽는다. 허용 범위 안에서 근거가 변경을 뒷받침하면 채택하고, 변경을 정당화하지 못하면 보류도 유효한 결론이다. 두 갈래는 원문이 허용하는 교육용 판단 경로다. TRIAL-008에서 두 경로를 각각 실행했다거나 최종 변경을 보류했다고 설명하지 않는다. S57에서 실제 밝기 통계 후보 선택을 확인한다.
 
-Evidence / Source: TRIAL-008, `graypipe-performance` Skill, DEC-0017, BEAT-022. OBSERVED_PRODUCT / TEACHING_MODEL. 보존 원문: Establish a reproducible baseline before editing. / A measured result that does not justify a change is a valid no-change conclusion.
+Evidence / Source: STATE-04의 .agents/skills/graypipe-performance/SKILL.md, DEC-0017, BEAT-022, TRIAL-008 및 plan/DEMO_MATRIX.md. 왼쪽은 Procedure2의 “Establish a reproducible baseline before editing.”, Procedure6의 동일 입력·설정 검증·재측정, Procedure7과 Report의 근거·trade-off·한계 보고를 번역 요약했다. 아래 분기는 Procedure5의 “A measured result that does not justify a change is a valid no-change conclusion.”을 따른다. 원문에 특정 구현, image_statistics, benchmark_statistics.py, macOS/Python 조건이나 Trial의 측정 수치를 고정 답으로 넣지 않았음을 읽기 전용으로 대조했다.
 
-Claim Boundary: 절차 재사용은 관찰됐지만 Skill이 더 나은 최적화 답을 제공한다는 근거는 아니다. Workflow는 task 결과를 고정하지 않는다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: OBSERVED_PRODUCT / TEACHING_MODEL과 기존 Claim Status를 유지한다. 실제 Skill의 내용은 관찰 근거이고, 적용선·질문·채택/보류 분기는 교육용 책임 구분이다. no-change는 허용된 결론이며 TRIAL-008의 최종 관찰 결과가 아니다. 절차 전체·실제 실행 순서·반복 실험의 재현이 아니며 현재 Desktop이나 모든 Skill의 설계를 일반화하지 않는다. Skill의 우월성·독립적 인과성·토큰 절감·성능 효과를 추가 주장하지 않는다.
 
-Beginner Explanation: 작업 순서는 재사용할 수 있지만, 어떤 답이 맞는지는 매번 확인해야 한다.
+Beginner Explanation: 다음 작업에도 같은 측정·검증 방법을 사용할 수 있다. 어떤 구현이 나은지, 실제 수치가 얼마인지는 이번 입력과 실행 기록을 보고 답한다. 변경하지 않기로 하는 결론도 근거가 있으면 유효하다.
 
-Advanced Insight: Input, runtime, benchmark, trade-off를 procedure definition과 섞지 않는다.
+Advanced Insight: 재사용 절차는 근거를 수집·비교·보고하는 책임을 남긴다. 입력·환경·정확한 명령·측정값·후보별 trade-off는 이번 작업의 기록으로 다룬다. 변경 채택은 사용자의 허용 범위와 동작 보존을 전제로 하며, 낮은 수치 하나만으로 결정하지 않는다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 정적 기본 경로 — Skill에 둘 방법과 이번에 정할 답을 두 패널로 대조한다. no-change 지침 원문을 별도로 발췌한다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: 정적 설명 — 왼쪽 재사용 방법, 적용선, 오른쪽 이번 기록과 세 질문, 아래 채택/보류 조건 순으로 가리킨다. 실행 시연은 하지 않는다. 이 장의 Lecture3분은 DEMO-03의8 Demo분과 별도다. 실제 후보의 승패·정확한 성능 수치를 S57/S58보다 앞서 공개하지 않는다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: “같은 Skill을 썼다면 항상 같은 구현을 골라야 할까요?”를 짧게 던진 뒤 오른쪽 근거와 질문으로 회수한다. 공개 답변·실습을 요구하거나 별도 Q&A 시간을 추가하지 않는다.
 
 Transition: “그렇다면 밝기 통계의 구현 후보는 어떤 근거로 선택했을까요?”
 
-Time Management: Lecture3분: 방법1, 이번 판단1, no-change/전환1.
+Time Management: Lecture3분: S55 회수0.5, 재사용 방법0.75, 이번 근거·답1, 채택/보류와 S57 연결0.75. 지연 시 지침 원문과 세 질문을 전부 낭독하지 않는다. 허용된 보류와 실제 결과의 구분은 생략하지 않고3분에 S57으로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S56, production/preview/act3/S56.png 및 production/preview/full/S56.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S56, production/preview/act3/S56.png 및 production/preview/full/S56.png. 실제 Skill 요약과 교육용 판단 경로를 구분해 설명한다. 현재 제품이나 Demo repository를 실행하지 않는다. 최종 패키지·PNG·내장 Notes 대조는 production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md를 따른다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0068의19필드·Lecture3분·실제 Skill/교육용 관계 경계를 정렬했다. 최종 로컬 렌더와 Notes 대조는 production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S57 — 후보는 시간·할당량·동작을 함께 보고 고른다
 

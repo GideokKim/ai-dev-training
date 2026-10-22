@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0067 local static-file inventory only (2026-10-22).
+Status: READY — DEC-0068 local static-file inventory only (2026-10-22).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `235ec6c6d887ec37f4ec025571f43f5abfb50025495ea11d40b9f82b6a63c8a1`
-- Full Notes SHA-256: `040210ae6e4a3dc5aec6f0437d89d32fac5ca76670c581848cc49d9f29d0553e`
-- Full montage SHA-256: `d7b3fb8c1c2b014e8ffa3021a89a1bedc48d2cfeebfd926e402b704d041df603`
+- Source SHA-256: `f25b880461cd3888c67e3619e794ee6f051081ac558a83fb6294168b24c0be40`
+- Full Notes SHA-256: `e7ed29cbfab8bb3fb26e83e3cedf62439dbf5288608d0fd9fa1fb5538af221ba`
+- Full montage SHA-256: `4fb2cf71a8ab5a690c28f6f077427c7847305ca18eafb4acac81b9068b65c9c9`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -35,7 +35,12 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 - DEC-0067 pairs S55 instructions with observed work records. Only S55 changes
   in the32-file fallback inventory; all other31 PNGs retain their hashes.
-  [Current package review](../../production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md).
+  [Prior S55 review](../../production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md).
+
+- DEC-0068 revises S56's reusable-procedure and task-judgment diagram.
+  All32 fallback PNGs remain byte-identical; S56 is a Lecture support slide.
+  Update current Full/Notes/montage identities without adding Demo minutes.
+  [Current package review](../../production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md).
 
 ## Runbook to fallback mapping
 

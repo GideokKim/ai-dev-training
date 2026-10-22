@@ -1,5 +1,10 @@
 # ACT3 Flow Revision — DEC-0062
 
+Current S56 refinement: DEC-0068. Connect reusable procedure to task evidence,
+questions and conditional adopt/no-change paths. The paths are a teaching
+model, not two observed Trial outcomes. Preserve Lecture3 and93/379.
+Review: [S56 revision](../production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md).
+
 Current S55 refinement: DEC-0067. Distinguish input/body inclusion from action
 evidence. Pair translated Skill instructions with output, pre-edit message
 and final diff. Preserve conditional planning and6minutes(Demo3+Case3).
@@ -55,7 +60,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S53 | Separate task-specific requests from one reusable Skill and show one-place maintenance intent; DEC-0065. |Lecture4|
 | S54 | Visually distinguish selector, explicit request and trace/body evidence; DEC-0066. |Demo5|
 | S55 | Pair three translated Skill instructions with observed output/message/diff, distinct from body inclusion; DEC-0067. |Demo3+Case3|
-| S56 | Separate reusable procedure, no-change allowance and task-specific answer. |Lecture3|
+| S56 | Visually connect reusable procedure to task evidence/questions and allowed adopt/no-change paths; DEC-0068. |Lecture3|
 | S57 | Preserve the qualitative candidate trade-off and six-field correctness scope. |Case5|
 | S58 | Keep the native chart, formal state measurements and verification results. |Case5|
 | S59 | First explain hypothetical independent C++ investigations and integration costs. |Demo3+Q&A1|

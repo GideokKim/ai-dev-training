@@ -7879,3 +7879,79 @@ Render Full93 and ACT3 18slides. Inspect S54–S56, compare92 other pages and
 Notes, preserve timing and table/chart data, and update changed S55 fallback
 identity. Follow standing Git checkpoints. Keep Windows, room, product/account
 and timed rehearsal UNVERIFIED. Presenter bundles remain paused.
+
+
+# DEC-0068 — distinguish reusable Skill procedure from task judgment
+
+## Status
+
+ACCEPTED — explicit user request to revise S56 after S55 and align Notes.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S55 now pairs Skill instructions with observed work. S56 uses two text lists
+and a long quote to distinguish reusable procedure from task-specific answers.
+
+## Problem
+
+Make that distinction readable from the slide and preserve the transition
+from observed work to the evidence-based candidate choice in S57.
+
+## Decision
+
+Keep the title and T04-A comparison. Diagram the Skill's reusable baseline,
+verification/comparison and reporting instructions on the left. Connect them
+to task evidence and questions about implementation, measurements and trade-offs
+on the right. Show conditional adoption and no-change paths as a teaching model.
+Retain the no-change source quote and its meaning in Notes.
+Preserve 93 slides, 379 minutes and S56 Lecture3. Keep all IDs, Mode, evidence
+and claim boundaries. Change only S56 content/Notes and align current artifacts.
+
+## Rationale
+
+The diagram separates what the procedure carries into another task from
+what must be measured or judged for the present one. Conditional branches
+make no-change understandable without inventing an observed outcome.
+
+## Alternatives
+
+Enlarge the existing lists: retains a mostly verbal distinction.
+Fill in actual candidate answers now: preempts S57/S58.
+Show a fixed winner or failure result: contradicts the evidence-dependent rule.
+
+## Trade-offs
+
+Selected instructions are translated and compressed for display. Notes retain
+the source meaning and clarify that the diagram is not the full procedure.
+The task-specific questions remain open until the next evidence slide.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-005, INV-MATURITY-006, INV-MATURITY-011,
+INV-VERIFY-001, INV-DEMO-004.
+
+## Affected Artifacts
+
+S56 factory, Map/template description, ACT3 flow, Claim Freeze, S56 Notes,
+Full/ACT3 packages and previews, current handoff/static identities and review.
+
+## Evidence
+
+User request; DEC-0017/0062/0067; STATE-04 graypipe-performance Skill; retained
+TRIAL-008 records in DEMO_MATRIX. Read-only inspection confirms the reusable
+instructions and no-change allowance. No new Trial or product execution.
+
+## Training Relevance
+
+YES — keep reusable procedure and task-specific evidence/judgment distinct.
+
+## Follow-up
+
+Render Full93 and ACT3 18 slides, inspect S55–S57, compare92 other screens and
+Notes, preserve native tables/chart and verify current artifact identities.
+Follow standing Git checkpoints. Keep Windows, room, product/account and timed
+rehearsal UNVERIFIED. Preserve the Demo repository and paused presenter bundles.

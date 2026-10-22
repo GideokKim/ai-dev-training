@@ -475,3 +475,18 @@ requirements. The screen reconstructs records, not a terminal capture.
 Do not infer full instruction compliance, isolated Skill causality, Prompt
 superiority, token savings, Skill-driven speedup or current Desktop behavior.
 Keep candidate selection and product-state performance evidence in S57/S58.
+
+
+## DEC-0068 — S56 reusable procedure and task-specific judgment
+
+Retain OBSERVED_PRODUCT / TEACHING_MODEL and the existing S56 Claim Status.
+The left diagram translates selected instructions from the actual STATE-04
+Skill: baseline before editing, same-condition verification/comparison and
+reporting evidence, trade-offs and limitations. The right side is a teaching
+model of task evidence, questions and permitted adoption/no-change decisions.
+No-change is allowed by Procedure5, not the observed TRIAL-008 outcome.
+Do not treat the diagram as the whole procedure, an execution trace, two
+observed branches or proof that this Skill supplies better answers. Preserve
+scope, correctness and evidence requirements. Do not add current-product,
+causality, token-saving or performance-effect claims. S57 retains actual
+candidate choice and S58 retains product-state comparison.

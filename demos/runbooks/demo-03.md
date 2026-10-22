@@ -1,18 +1,19 @@
 # DEMO-03 — Reusable Verification Workflow
 
-## Current ACT3 operation — DEC-0067
+## Current ACT3 operation — DEC-0068
 
 S54→S55: S54의 왼쪽 목록 발췌, 가운데 실제 호출과 요청 요약, 오른쪽 실행 trace의 이름·경로·전체 본문 순으로 짚는다. S55에서 본문 포함과 수행 근거를 구분한 뒤, 세 행의 지침 번역을 실제 출력·변경 전 메시지·최종 diff에 대응한다. 계획 지침의 조건부 표현과 관찰된 횟수·테스트 범위를 유지한다. 밝기 통계는 세 번째 Task이며 다른 Task와 성능 우열을 비교하지 않는다. 기본은 정적 기록/PNG이고 현재 Live/Hybrid는 미활성이다.
+S56의 Lecture3분은 재사용 절차와 이번 근거·질문·채택/보류 경로를 설명한다. 이 경로는 교육용이며 실제 결과는 S57에서 회수한다. DEMO-03의8 Demo분에 추가하지 않는다.
 실제 근거·ID·시간·기존 선택은 보존한다. 최종 로컬 정적 파일 식별자는
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0067 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0068 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — Anchor candidate
 
-Final Validation Status: READY — DEC-0067 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0068 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-020–022
 
@@ -104,9 +105,9 @@ Default is the offline static presentation. Open: `production/preview/full/S54.p
 
 Show S54–S55 static summaries; do not show long Prompt text or fake terminal UI.
 
-Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md. Raw Trial capture and target-PC playback are not implied.
+Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0067 current final-package slide renders; S55 is updated and S54 is byte-preserved from the prior package. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Captured Alternative provenance: DEC-0068 current final-package slide renders; S54/S55 are byte-preserved from DEC-0067. S56 changes only the separate Lecture support diagram. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -128,6 +129,6 @@ No Desktop-wide support, Skill superiority, causal performance gain, or measured
 
 ## Trial / Run Record
 
-No new Trial or product execution was performed for this runbook. DEC-0067 aligns S55 instruction/action evidence and current static files, Notes and hashes. DEC-0066 remains the S54 evidence-location revision. DEC-0062 and DEC-0038 checks remain historical. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
+No new Trial or product execution was performed for this runbook. DEC-0068 aligns the S56 support diagram and current package/Notes identities. DEC-0067 remains the S55 instruction/action revision. DEC-0066 remains the S54 evidence-location revision. DEC-0062 and DEC-0038 checks remain historical. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.
