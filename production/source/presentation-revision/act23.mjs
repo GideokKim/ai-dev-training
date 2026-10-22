@@ -173,15 +173,36 @@ S41:make('S41','Core Context에서 상세 정보로 가는 길','ACT 2 · 기본
     text(s,'모든 지식을 넣기보다, 상세 정보까지 가는 길을 안내한다',64,551,1152,39,29,C.ink,true);
   }),
 
-S42:make('S42','정보를 지우지 않고 위치를 나누기','ACT 2 · STATE-03의 문서 구조',
-  'STATE-02 → STATE-03 · 실제 파일 구조와 Routing 문구 발췌',
-  '내용을 Scope에 맞춰 이동 · 구조 변화 자체가 완벽한 Routing이나 성능 향상 증거는 아님','OBSERVED_PRODUCT',
+S42:make('S42','정보를 지우지 않고 위치를 나누기','ACT 2 · 문서 재구성의 실제 전후',
+  'STATE-02 → STATE-03 · 실제 문서 재구성의 요약 · 원본 실행 화면 아님',
+  '핵심 정보 보존·재서술/상세화 포함 · 자동 탐색·성능·토큰 효과는 미검증','OBSERVED_PRODUCT',
   (s,{C,text,rect,line,arrow})=>{
-    text(s,'이전: AGENTS.md 안에 세부사항까지',64,224,1152,40,29,C.sub);
-    text(s,'이후: 기본 안내 + 상세 문서로 가는 링크',64,276,1152,45,32,C.teal,true);
-    const rs=[['처리 순서 · 모듈 역할','docs/architecture.md'],['이미지 형식 · crop · resize','docs/image-contracts.md'],['테스트 구조 · 관련 테스트','docs/testing.md']];
-    rs.forEach((r,i)=>{let y=345+i*61;line(s,64,y,1152);text(s,r[0],64,y+9,510,42,27,C.ink);arrow(s,605,y+20,44,20);text(s,r[1],704,y+9,512,42,27,C.teal,true,'Consolas');});
-    text(s,'원문: Test organization or relevant tests → docs/testing.md',64,552,1152,36,24,C.sub,false,'Consolas');
+    text(s,'한 파일에 모인 정보를 어떻게 나눴을까?',64,184,1152,44,31,C.teal,true);
+    text(s,'분리 전 · 한 문서에 함께',64,244,454,36,27,C.ink,true);
+    text(s,'분리 후 · 주제별로 배치',724,244,492,36,27,C.teal,true);
+    rect(s,64,286,454,252,C.white,C.line,1.5);
+    text(s,'AGENTS.md',88,300,406,40,29,C.ink,true,'Consolas');
+    rect(s,84,352,414,40,C.pale);
+    text(s,'기본 안내 · 목적/제약/검증',96,354,390,36,25,C.teal,true);
+    rect(s,724,286,492,102,C.pale,C.teal,1.5);
+    text(s,'AGENTS.md',748,300,444,40,29,C.teal,true,'Consolas');
+    text(s,'기본 안내 + 문서 위치 안내',748,352,444,32,25,C.ink,true);
+    arrow(s,570,360,92,22);
+    const topics=[['A','구조 · CLI 요약','docs/architecture.md'],
+      ['B','이미지 명세','docs/image-contracts.md'],
+      ['C','테스트 구성','docs/testing.md']];
+    topics.forEach(([id,topic,file],i)=>{
+      const y=402+i*48;
+      line(s,88,y-4,406,C.line,1);
+      text(s,id,96,y,38,34,25,C.teal,true,'Consolas');
+      text(s,topic,148,y,346,34,26,C.ink);
+      arrow(s,570,y+7,92,22);
+      rect(s,724,y,492,40,C.white,C.line,1.5);
+      text(s,id,744,y+2,34,36,24,C.teal,true,'Consolas');
+      text(s,file,794,y+2,402,36,24,C.teal,true,'Consolas');
+    });
+    text(s,'핵심 정보는 유지하고, 상세 내용의 위치를 나눴다',64,541,1152,35,29,C.teal,true);
+    text(s,'C++도 기본 제약은 입구에, 알고리즘·모듈·하드웨어 상세는 관련 문서에',64,573,1152,27,22,C.sub);
   }),
 
 S43:make('S43','서로 다른 두 Task가 무엇을 읽을까?','ACT 2 · 관찰하기 전에 질문하기',

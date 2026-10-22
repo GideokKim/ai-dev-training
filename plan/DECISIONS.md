@@ -6815,3 +6815,79 @@ YES — distinguish cross-task guidance from relevant task-specific detail.
 Review S40-S42 continuity, text fit, native comparison and Notes parity.
 Preserve other89 slides and every per-slide budget. Keep Windows, room,
 product/account and rehearsal UNVERIFIED. Do not regenerate the bundle.
+
+
+# DEC-0055 — Show S42 document reorganization and retained facts
+
+## Status
+
+ACCEPTED — explicit user request to show document reorganization before/after.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S41 defines the scope of shared guidance versus task-dependent detail.
+S42 must show how the retained repository actually reorganized those topics.
+
+## Problem
+
+The existing topic-to-file list hides the prior single-file structure and
+can make a shorter AGENTS.md look like information was discarded.
+
+## Decision
+
+Show one AGENTS.md with core guidance and A/B/C detail topics before the
+change, then a smaller AGENTS.md and three detail documents afterward.
+Match topics and retained guidance with labels and horizontal arrows.
+Emphasize retained core facts while disclosing rewriting, elaboration and
+added routing guidance. Keep the title, T04-B,5minute split,90slides and
+368minutes. Align Notes, the Map, template row, decks and fallback identity.
+
+## Rationale
+
+The audience can see where each existing topic went and distinguish
+reorganization from deletion without knowing repository state identifiers.
+S43 remains the question about what agents actually access afterward.
+
+## Alternatives
+
+Keep the topic/file list: does not show the prior document structure.
+Show only shorter text: can imply information removal or token savings.
+Claim literal copying: inaccurate because detail and guidance were expanded.
+
+## Trade-offs
+
+The diagram summarizes Git state evidence rather than reproducing every
+line or a raw execution screen. Retained facts are not a promise of
+unchanged wording or total information volume. Added links do not prove
+automatic retrieval, exclusive access, causality or measured benefits.
+The S84 frozen historical excerpt stays unchanged within its stated scope.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-002, INV-MATURITY-004,
+INV-DEMO-001, INV-RESEARCH-004, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S42 active source, Map/template row, ACT2/Full Notes and PPTX, previews,
+DEMO-06 fallback hash and current handoff identities. Preserve review history.
+
+## Evidence
+
+User direction; STATE-02 at55c0455 and STATE-03 atf3e2e37, their four-file
+context-only diff and the preservation mapping in plan/DEMO_MATRIX.md.
+No new Trial, test run, current-product check or Demo repository mutation.
+
+## Training Relevance
+
+YES — distinguish semantic preservation, rewriting and information location.
+
+## Follow-up
+
+Review S41-S43 continuity, topic correspondence, native diagram and Notes
+parity. Preserve other89 slides and every budget. Keep Windows, room,
+product/account and rehearsal UNVERIFIED. Do not regenerate the bundle.

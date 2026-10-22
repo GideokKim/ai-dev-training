@@ -73,6 +73,12 @@ retaining the teaching role, T03-B and Lecture4. "Always keep" describes the
 placement of core guidance, not a per-turn automatic-read guarantee. Rebuild
 Full/ACT2 only; preserve the other89 slides and all per-slide budgets.
 
+DEC-0055 updates S42 in `act23.mjs` with one before document and a smaller
+core plus three after documents. Match retained topics with A/B/C labels;
+allow rewritten and expanded explanations without claiming literal copying.
+Keep the frozen S42 excerpt used by S84 unchanged. Rebuild Full/ACT2 only,
+update the S42 Demo fallback identity and preserve the other89 slides/budgets.
+
 ## Historical implementation notes
 
 # Presentation revision source

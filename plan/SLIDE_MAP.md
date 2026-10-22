@@ -1096,16 +1096,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.; ACT 2 — separation, routing, and progressive disclosure.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; STATE-03 파일 구조는 관찰된 상태다. Routing 효과는 교육용 패턴으로 한정하며 완벽한 검색을 주장하지 않는다.
-- **Visual Concept:** Before `one growing AGENTS.md`; After `small core + routing links`와 `docs/architecture.md`, `docs/image-contracts.md`, `docs/testing.md`.
+- **Visual Concept:** 왼쪽 큰 AGENTS.md 안에 기본 안내와 A구조/CLI 요약·B이미지 명세·C테스트 구성을 함께 담고, 오른쪽은 기본 안내+문서 위치를 담은 AGENTS.md와 A/B/C 상세 문서3개로 분리한다. 같은 문자와 가로 화살표로 기존 주제의 위치를 대응시킨다. 하단은 핵심 정보 보존과 상세 위치 분리를 회수한다. 실제 문서 구조를 요약·재구성하며 재서술·상세화와 안내 추가가 포함됐음을 명시한다.
 - **Demo / Case Connection:** STATE-02 → STATE-03의 실제 문서 구조. 내용 보존과 구조 변경을 구분한다.
 - **Beginner Payoff:** 정보를 나누더라도 핵심 제약은 유지할 수 있음을 본다.
 - **Advanced Payoff:** 중복과 의미 변경 없이 정보 출처를 정돈하는 기준을 본다.
 - **C++ Vision Bridge:** 2H 통합 Bridge 2분. C++ 예시에서 Core 제약과 알고리즘·모듈·하드웨어 상세가 서로 다른 Scope일 수 있음을 연결한다.
-- **Speaker Intent:** `Progressive Disclosure`는 교육용 정보 설계 패턴으로 설명한다. 특정 제품의 성능 향상 기법으로 표현하지 않는다.
+- **Speaker Intent:** S41의 배치 기준이 실제 문서 재구성에서 어떻게 적용됐는지 전후를 비교한다. 기본 지침은 남기고 주제별 상세는 각 문서로 옮긴 대응을 A/B/C로 확인한다. 핵심 사실·제약 보존이지 문자 단위 복사나 모든 정보량 불변이 아니며 재서술·상세화·문서 위치 안내 추가가 있었다. 화살표는 문서 재배치 관계이고 실제 읽기 순서·완벽한 자동 탐색·토큰/성능 효과가 아니다. C++의 공통 제약과 알고리즘/모듈/하드웨어 상세 구분은 승인된2분 통합 Bridge 안에서 이어가고, 실제 접근 결과는 S43 이후에 남긴다.
 - **Transition:** Slide 43에서 두 Task가 같은 상세 문서를 읽는지 관찰한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 2분 + Demo 2분 (CAPTURED) + Case 1분 = 5분
-- **Evidence / Decision References:** BEAT-014, BEAT-015, STATE-02, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015
+- **Evidence / Decision References:** BEAT-014, BEAT-015, STATE-02, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0055
 
 #### S43 — 서로 다른 두 Task가 무엇을 읽을까?
 

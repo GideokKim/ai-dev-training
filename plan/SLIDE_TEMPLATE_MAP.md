@@ -154,7 +154,7 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S39 — Long Context 연구가 말해주는 범위 | T09-A | CMP-CLAIM | — | R | — | Single state | — | V02 |
 | S40 — 필요한 상세 정보로 가는 길 | T03-C | CMP-CONTEXT-ROUTER | CMP-CPP | T | — | Single state; DEC-0053 task request to AGENTS.md guidance to image-contract detail; conceptual path, not observed read order | Supporting | V08 |
 | S41 — AGENTS.md에는 무엇을 남길까? | T03-B | CMP-CONTEXT-ROUTER, CMP-CPP | — | T | — | Single state; DEC-0054 shared AGENTS.md guidance versus task-dependent detail documents; teaching placement, not automatic loading | Supporting | V08 |
-| S42 — 정보를 지우지 않고 위치를 나누기 | T04-B | CMP-STATE, CMP-EVIDENCE, CMP-CONTEXT-ROUTER, CMP-CPP | — | P+T; observed structure and teaching interpretation separated | DEMO-06 STATE-03 evidence; CAPTURED, 2 min | Single state | Supporting | V01, V03, V08 |
+| S42 — 정보를 지우지 않고 위치를 나누기 | T04-B | CMP-STATE, CMP-EVIDENCE, CMP-CONTEXT-ROUTER, CMP-CPP | — | P+T; observed structure and teaching interpretation separated | DEMO-06 STATE-03 evidence; CAPTURED, 2 min | Single state; DEC-0055 before/after document diagram with core and A/B/C topic correspondence; semantic preservation, not literal copy | Supporting | V01, V03, V08 |
 | S43 — 서로 다른 두 Task가 무엇을 읽을까? | T05-A | CMP-TRIAL | CMP-CLAIM | P | DEMO-06 / TRIAL-005A/B WATCH; setup is Lecture | Single state | — | V02 |
 | S44 — Crop Task에서 관찰한 접근 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 / TRIAL-005A evidence/result; Case | Single state | — | V02, V04, V05 |
 | S45 — Task별 접근은 달랐지만 완벽하지는 않다 | T04-C | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 / TRIAL-005A/B comparison; CAPTURED, 1 min, plus Case/Reflection/Q&A as mapped | Single state | — | V02, V04, V05 |
