@@ -6891,3 +6891,79 @@ YES — distinguish semantic preservation, rewriting and information location.
 Review S41-S43 continuity, topic correspondence, native diagram and Notes
 parity. Preserve other89 slides and every budget. Keep Windows, room,
 product/account and rehearsal UNVERIFIED. Do not regenerate the bundle.
+
+
+# DEC-0056 — Frame S43 requests and neutral observation questions
+
+## Status
+
+ACCEPTED — explicit user request for prompt windows and observation points.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S42 shows document reorganization. S43 prepares the audience to observe
+actual access under two different requests before seeing their results.
+
+## Problem
+
+The short question labels do not show the request conditions or tell the
+audience which parts of the following records to compare.
+
+## Decision
+
+Show two editable prompt windows containing translated key excerpts from
+TRIAL-005A/B. Preserve the crop scope, dependency/tool distinction and
+read-only/no-change/evidence conditions. Add three neutral watch questions:
+files opened, common/different accesses and evidence cited in the answer.
+Do not show file routes, access lists, answers or success judgments.
+Preserve the title, T05-A, Lecture2,90slides,368minutes and every budget.
+Align the Map, template row, Notes, Full/ACT2 and current artifact identities.
+
+## Rationale
+
+The audience can understand both requests and what to watch without
+repository access. Separating access from answer evidence supports the
+next slides without turning a directory structure into a product claim.
+
+## Alternatives
+
+Keep two short topic labels: omits important request boundaries.
+Connect requests to suggested files: reveals or biases the observation.
+Show a live interface: not established by the retained historical record.
+
+## Trade-offs
+
+The windows are reconstructions of translated excerpts, not screenshots or
+complete verbatim prompts. Side-by-side placement does not imply parallel
+Subagents or a controlled performance comparison. Historical CLI evidence
+is not current Desktop verification. No result is disclosed at this gate.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-004, INV-DEMO-004,
+INV-RESEARCH-004, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S43 active source, Map/template row, ACT2/Full Notes and PPTX, previews and
+current handoff identities. Preserve previous reviews and Demo artifacts.
+
+## Evidence
+
+User direction; TRIAL-005A/B original prompt records and environment in
+plan/DEMO_MATRIX.md; approved S43 WATCH role. No new Trial, test run,
+current-product check or Demo repository mutation.
+
+## Training Relevance
+
+YES — distinguish request scope, file access and reported answer evidence.
+
+## Follow-up
+
+Review S42-S44 continuity, prompt readability, no outcome leakage and Notes
+parity. Preserve other89 slides and all budgets. Keep Windows, room,
+product/account and rehearsal UNVERIFIED. Do not regenerate the bundle.

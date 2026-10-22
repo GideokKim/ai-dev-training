@@ -1,7 +1,9 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일: 2026-10-22 (Asia/Seoul). 현재 번호 기준: DEC-0043, 90장. 최신 내용 수정: DEC-0055.
-S42는 한 AGENTS.md의 기본 안내와 A/B/C 상세가 기본 안내+연결 문서로 나뉜 전후를 대응시켰다. 핵심 사실 보존과 재서술/상세화를 구분하고 S41→S42→S43 및 다른89장·시간을 유지했다. DEMO-06 S42 정적 fallback도 정렬했다. 검토: [S42 문서 재구성](S42_DOCUMENT_SPLIT_REVISION.md).
+갱신일: 2026-10-22 (Asia/Seoul). 현재 번호 기준: DEC-0043, 90장. 최신 내용 수정: DEC-0056.
+S43은 TRIAL-005A/B 요청 핵심을 두 프롬프트창에 표시하고 실제 연 문서/접근 공통·차이/답변 근거를 관찰 질문으로 뒀다. 예상 경로는 제시하지 않고 결과는 S44–45에 남겼으며 다른89장·시간을 유지했다. 검토: [S43 관찰 준비](S43_PROMPT_WATCH_REVISION.md).
+
+이전 S42는 한 AGENTS.md의 기본 안내와 A/B/C 상세가 기본 안내+연결 문서로 나뉜 전후를 대응시켰다. 핵심 사실 보존과 재서술/상세화를 구분하고 S41→S42→S43 및 다른89장·시간을 유지했다. DEMO-06 S42 정적 fallback도 정렬했다. 검토: [S42 문서 재구성](S42_DOCUMENT_SPLIT_REVISION.md).
 
 이전 S41은 AGENTS.md에 남길 공통 안내와 관련 작업의 상세 문서3개를 범위별로 구분했다. 항상 남긴다는 배치 기준과 자동 읽기 미보장 경계, S40→S41→S42 흐름 및 다른89장·시간을 유지했다. 검토: [S41 기본 안내/상세](S41_CORE_DETAIL_REVISION.md).
 
@@ -55,15 +57,15 @@ S01–10은 내용·번호·시간을 보존한다. 과거 Codex 진입·S10 검
 
 ## 2. 정확한 현재 후보
 
-아래 hash는 DEC-0055의 실제90장 파일에서 계산했다. S42 문서 재구성 전후/핵심 정보 보존, Full/ACT2 최종 렌더와90개 내장 Notes 대조는 `S42_DOCUMENT_SPLIT_REVISION.md`에 기록한다. 다른89장은 보존했다. 이전 사용 라벨·S17·기법8장 추가 기록은 당시 판본의 이력이다. 실환경 검증은 포함하지 않는다.
+아래 hash는 DEC-0056의 실제90장 파일에서 계산했다. S43 두 요청창/결과 미공개 관찰 질문, Full/ACT2 최종 렌더와90개 내장 Notes 대조는 `S43_PROMPT_WATCH_REVISION.md`에 기록한다. 다른89장은 보존했다. 이전 사용 라벨·S17·기법8장 추가 기록은 당시 판본의 이력이다. 실환경 검증은 포함하지 않는다.
 
 | 항목 | 경로 / SHA-256 |
 |---|---|
 | 통합 PPT | `production/AI_Dev_Training_Full.pptx` |
-| PPT SHA-256 | `7fe841e2390443524be8500656be11273902c755c2e301b5748110798f4f3aa4` |
+| PPT SHA-256 | `f84b409cfc5b7ca65f658f1f2970eb7c2474f76995118421d2e2a694860d9cbb` |
 | 통합 Notes | `production/notes/FULL_SPEAKER_NOTES.md` |
-| Notes SHA-256 | `7d380bb2cf5b0bfee02155769f59ab8d332a2f6d34a9a2d7fc8eaa1c25a9fb5a` |
-| 전체 montage SHA-256 | `e50dca7917b69d893635041a40417d3c4ed713ac1c0f8175f5cd851dfa89aea0` |
+| Notes SHA-256 | `1b3ebc13399b3c6f30dd21d8389780e3a4e27cef5a34eb9553f84c73e12cfbad` |
+| 전체 montage SHA-256 | `cd47df613da67754e68cfb176b3e8f2d7d18082ece6656901161f5abe25221a2` |
 | 묶음별 파일 목록·크기·SHA-256 | 저장소의 `delivery/PACKAGE_MANIFEST.json`; ZIP 내부의 `PACKAGE_MANIFEST.json` |
 | ZIP 자체 SHA-256 | 저장소의 `delivery/AI_Dev_Training_Presenter_2026-10-21.zip.sha256` |
 
@@ -139,6 +141,7 @@ S18 검토용 결과 인계, S19 계약 위반을 구별하는 검사를 기존 
 
 | 항목 | 현재 상태 | 필요한 다음 근거 |
 |---|---|---|
+| DEC-0056 S43 두 요청창/중립 관찰 질문 | COMPLETE, 로컬 범위 | S43_PROMPT_WATCH_REVISION.md 및 검증 JSON |
 | DEC-0055 S42 문서 분리 전후/핵심 사실 보존 | COMPLETE, 로컬 범위 | S42_DOCUMENT_SPLIT_REVISION.md 및 검증 JSON |
 | DEC-0054 S41 AGENTS.md 기본 안내/작업별 상세 | COMPLETE, 로컬 범위 | S41_CORE_DETAIL_REVISION.md 및 검증 JSON |
 | DEC-0053 S40 요청·AGENTS.md 안내·상세 명세 | COMPLETE, 로컬 범위 | S40_CONTEXT_PATH_REVISION.md 및 검증 JSON |

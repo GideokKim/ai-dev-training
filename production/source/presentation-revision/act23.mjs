@@ -206,15 +206,29 @@ S42:make('S42','정보를 지우지 않고 위치를 나누기','ACT 2 · 문서
   }),
 
 S43:make('S43','서로 다른 두 Task가 무엇을 읽을까?','ACT 2 · 관찰하기 전에 질문하기',
-  'TRIAL-005A/B · 읽기 전용 Task의 질문을 재구성',
-  '어떤 상세 문서를 읽을지는 실제 접근 기록으로 확인한다','OBSERVED_PRODUCT',
-  (s,{C,text,line})=>{
-    text(s,'Task A',64,233,520,36,26,C.teal,true);
-    text(s,'Task B',704,233,512,36,26,C.teal,true);
-    line(s,64,290,520,C.teal,3);line(s,704,290,512,C.teal,3);
-    text(s,'crop 1 3은\n어떤 source column을\n포함하는가?',64,328,520,164,34,C.ink,true);
-    text(s,'이 Project에\nruntime dependency가\n있는가?',704,328,512,164,34,C.ink,true);
-    text(s,'두 Task에서 같은 상세 문서를 읽을까?',64,548,1152,44,33,C.teal,true);
+  'TRIAL-005A/B · Codex CLI 0.154.0 · 실제 요청의 핵심 발췌·번역',
+  '프롬프트창 재구성 · 현재 Desktop 검증 아님 · 문서 접근 결과는 다음 구간에서 확인','OBSERVED_PRODUCT',
+  (s,{C,text,line,rect,FONT})=>{
+    text(s,'같은 저장소 · 서로 다른 두 읽기 전용 요청',64,184,1152,43,30,C.teal,true);
+    const requests=[{x:64,id:'A',body:'샘플 이미지에 --crop 1 3을 쓰면\n선택되는 원본 열과 출력 폭,\n끝 좌표 포함 여부를 조사해줘.\n현재 명세·구현을 근거로 알려줘.'},
+      {x:668,id:'B',body:'실행할 때 필요한 의존성이 있어?\n빌드·패키징에만 필요한 도구와\n구분해서 조사해줘.\n판단한 근거도 알려줘.'}];
+    requests.forEach(({x,id,body})=>{
+      const y=244,w=548,h=224;
+      const box=rect(s,x,y,w,h,C.white,C.line,1.5);box.borderRadius=12;
+      text(s,`Prompt · 요청 ${id}`,x+22,y+10,w-44,30,24,C.teal,true);
+      line(s,x+22,y+45,w-44,C.line,1);
+      text(s,body,x+22,y+58,w-44,130,27,C.ink);
+      text(s,'읽기 전용 · 파일 변경 금지 · 근거 제시',x+22,y+193,w-80,25,21,C.sub);
+      s.shapes.add({geometry:'ellipse',position:{left:x+w-45,top:y+h-34,width:26,height:26},fill:C.teal,line:{fill:'none',width:0}});
+      text(s,'↑',x+w-45,y+h-35,26,27,22,C.white,true,FONT,'center');
+    });
+    text(s,'다음 기록에서 볼 것',64,488,1152,34,26,C.teal,true);
+    [['01','어떤 문서를\n실제로 열었나?',64],
+      ['02','두 요청이 같은\n문서를 읽었나?',460],
+      ['03','답에 사용한\n근거는 무엇인가?',856]].forEach(([id,question,x])=>{
+      text(s,id,x,535,44,35,24,C.sub,true,'Consolas');
+      text(s,question,x+54,531,306,66,27,C.ink,true);
+    });
   }),
 
 S44:make('S44','Crop Task에서 관찰한 접근','ACT 2 · 질문과 근거를 연결하기',

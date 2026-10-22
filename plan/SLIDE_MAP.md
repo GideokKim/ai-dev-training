@@ -1120,16 +1120,16 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 2 — separation, routing, and progressive disclosure.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. 결과와 예상 경로를 미리 단정하지 않는다.
-- **Visual Concept:** Task A `crop 1 3에서 포함되는 source column은?`과 Task B `runtime dependency가 있는가?`를 나란히 보여준다.
+- **Visual Concept:** 동일한 프롬프트창2개에 TRIAL-005A/B의 실제 요청 핵심 발췌·번역을 나란히 둔다. A는 샘플 crop의 원본 열/출력 폭/끝 좌표와 현재 명세·구현 근거, B는 실행 의존성과 빌드/패키징 도구 구분을 묻는다. 파일 변경 금지·읽기 전용·근거 제시 조건은 각 입력창 안에 둔다. 아래는 실제 연 문서, 두 요청의 접근 공통/차이, 답을 뒷받침한 근거라는 관찰 질문3개만 표시한다. 특정 문서로 향하는 화살표·접근 목록·정답·성공 판정은 표시하지 않는다.
 - **Demo / Case Connection:** 두 read-only Trial prompt.
 - **Beginner Payoff:** Task 질문에 따라 필요한 근거가 달라질 수 있음을 생각한다.
 - **Advanced Payoff:** 문서 구조만이 아니라 실제 접근 경로를 평가한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 문서 접근 예상 답을 공개하지 않고 결과를 관찰하게 한다.
+- **Speaker Intent:** S42의 문서 배치와 실제 접근을 구분한다. 같은 저장소에서 서로 다른 두 읽기 전용 질문을 했다는 조건을 밝히고 요청 의미와 관찰할 기록을 연결한다. 어떤 파일을 열었는지와 최종 답변이 어떤 근거를 제시했는지를 나눠 보며, 파일을 열었다는 사실만으로 답에 활용했다고 추론하지 않는다. 예상 경로·정답·기록된 접근 결과를 미리 공개하지 않고 S44–45로 넘긴다. 화면은 과거 CLI 요청의 재구성이며 현재 Desktop UI나 동작의 검증이 아니다.
 - **Transition:** Slide 44에서 Crop Task의 기록된 접근과 답을 확인한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-015, BEAT-016, TRIAL-005A, CLM-0003, CLM-0005, CLM-0014, CLM-0015
+- **Evidence / Decision References:** BEAT-015, BEAT-016, TRIAL-005A, TRIAL-005B, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0056
 
 #### S44 — Crop Task에서 관찰한 접근
 

@@ -1,6 +1,6 @@
 # Full Speaker Notes — AI Developer Training
 
-Status: ALIGNED — DEC-0055 shows S42 document reorganization and retained core facts; DEC-0054 distinguishes S41 shared guidance from task-dependent details; DEC-0053 diagrams S40 task request, AGENTS.md guidance and relevant detail; DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 scope, timing and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 preserves S36 document growth; DEC-0047 preserves S35 information destinations; DEC-0046 preserves S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S42_DOCUMENT_SPLIT_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0056 frames S43 requests and neutral observation questions; DEC-0055 shows S42 document reorganization and retained core facts; DEC-0054 distinguishes S41 shared guidance from task-dependent details; DEC-0053 diagrams S40 task request, AGENTS.md guidance and relevant detail; DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 scope, timing and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 preserves S36 document growth; DEC-0047 preserves S35 information destinations; DEC-0046 preserves S34 instruction-use evidence; DEC-0045 clarifies the eight usage labels; DEC-0044 S17 request/observation revision; DEC-0043,90slides/368minutes. ACT1 S11–S31 is21slides/63minutes. Preserve every original slide/time/Mode and add8minutes of practical request methods. Latest exact-file render/embedded Notes review: production/evaluation/S43_PROMPT_WATCH_REVISION.md. The prior usage-label, S17 and addition review remains historical. Windows/target fonts/room/current product-account/rehearsal remain UNVERIFIED.
 
 Authority: plan/MASTER_PLAN.md, plan/INVARIANTS.md, plan/SLIDE_MAP.md, plan/CLAIM_FREEZE.md, plan/SPEAKER_NOTES_FREEZE.md, plan/SLIDE_ID_MIGRATION_90.md and DEC-0043. Original80/81/82-slide audits remain historical. The small M footer marks bounded teaching links, not full module completion.
 
@@ -2006,37 +2006,37 @@ Allocated Time: 2 minutes
 
 Mode Split: Lecture 2 minutes
 
-Primary Message: Compare two read-only Task questions by observing what evidence each run actually accesses.
+Primary Message: 문서를 나눴다는 구조만으로 실제 접근을 단정하지 않는다. 같은 저장소에서 서로 다른 두 읽기 전용 요청이 어떤 문서를 열고 어떤 근거로 답했는지 다음 기록에서 관찰한다.
 
-Opening Question: “두 Task에서 Agent가 같은 상세 문서를 읽을까?”
+Opening Question: “문서의 위치를 나눴습니다. 실제 요청을 받았을 때도 같은 상세 문서를 읽었을까요?”
 
 Speaker Flow:
 
-1. (0:00–0:30) Set the watch-for question without proposing an answer.
-2. (0:30–1:30) Show Task A: “crop 1 3에서 어떤 source column을 포함하는가?” and Task B: “runtime dependency가 있는가?”
-3. (1:30–2:00) Invite the audience to notice whether the same detail appears in both records.
+1. (0:00–0:20) S42의 문서 재구성은 배치의 기록이며 실제 접근은 별도 관찰이라고 연결한다. 같은 저장소의 두 읽기 전용 요청을 비교하겠다고 안내한다.
+2. (0:20–1:20) 왼쪽 A는 샘플 이미지에 --crop 1 3 옵션을 적용할 때 원본 열/출력 폭/끝 좌표 포함 여부를 현재 명세·구현의 근거로 조사해 달라는 요청이다. 오른쪽 B는 실행 의존성의 존재와 판단 근거를 묻고 빌드·패키징 전용 도구와 구분하라는 요청이다. 두 창 안의 읽기 전용·파일 변경 금지·근거 제시 조건을 함께 짚는다. 화면은 영어 원문의 핵심 발췌·번역이며 실제 입력 Screenshot이 아니다.
+3. (1:20–2:00) 아래01 실제로 연 문서,02 두 요청의 접근 공통/차이,03 답을 뒷받침한 근거를 순서대로 가리킨다. 파일 접근 기록과 최종 설명의 근거를 분리해 볼 것이라고 설명한다. 특정 파일을 어느 요청에 연결하거나 결과를 예측해 주지 않고 Crop Task의 기록으로 넘어간다.
 
-Evidence / Source: TRIAL-005A/B, BEAT-015–016, CLM-0003, CLM-0005, CLM-0014, CLM-0015. OBSERVED_PRODUCT setup; results are withheld until the next slides.
+Evidence / Source: OBSERVED_PRODUCT setup; outcomes remain on S44–45. TRIAL-005A/B, DEMO-06, BEAT-015–016, CLM-0003/0005/0014/0015, DEC-0056. plan/DEMO_MATRIX.md의 TRIAL-005A/B 원문 Prompt와 당시 실행 환경 기록을 대조했다. A 원문은 current sample image, --crop 1 3의 source columns/output width/end inclusion, current contract/implementation 근거를 요청한다. B는 runtime requirements를 build/package-only tools와 구분해 판단 근거를 요청한다. 두 원문 모두 read-only/no file changes/evidence 조건을 명시한다. 과거 Codex CLI0.154.0의 별도 임시 clone 실행 기록이며 화면의 나란한 배치는 설명 편의용이다. 새 Trial/동시 Subagent 실행/현재 Desktop 검증이 아니다.
 
-Claim Boundary: Do not predict file access or reveal the observed result in advance. This setup does not imply perfect routing.
+Claim Boundary: 예상 파일 경로, 실제 접근 파일 목록, crop 정답·출력 폭, 의존성 존재 여부, 성공/실패 판정이나 접근 비교 결과를 이 장에서 보여주지 않는다. 문서 배치만으로 완벽한 자동 Routing·지침 준수·관련 문서만 읽음·토큰 절약·성능 개선을 주장하지 않는다. 파일을 열었다는 기록과 최종 답에서 제시한 근거를 구분하며 접근을 곧 활용으로 단정하지 않는다. 재구성 UI는 현재 Codex Desktop/계정 기능의 검증이 아니다.
 
-Beginner Explanation: Different questions may require different Project details; the next slides show what was observed.
+Beginner Explanation: 질문의 목적이 달라도 실제로 어떤 자료를 확인했는지는 기록을 봐야 한다. A는 이미지 동작, B는 실행에 필요한 의존성을 묻지만 어느 파일을 읽었는지는 아직 답하지 않는다.
 
-Advanced Insight: Evaluate actual accesses rather than infer behavior from the directory structure alone.
+Advanced Insight: 구조에서 예상하는 경로와 실제 접근/답변 근거를 구분한다. 공통 접근과 요청별 차이, 기록으로 확인할 수 있는 범위에 집중하며 통제된 성능 비교 실험으로 취급하지 않는다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A — this is the watch setup; no new Trial is run.
+Demo Operation: N/A — TRIAL-005A/B 관찰 준비 장이다. 새 요청을 입력하거나 실행하지 않고 정적 프롬프트창2개로 실제 요청의 의미를 비교한다. S44–45의 기록과 한계를 미리 공개하지 않는다.
 
-Audience Interaction: Ask viewers to keep the comparison question in mind. No response is required.
+Audience Interaction: 관찰 질문3개를 기억하도록 안내한다. 특정 문서 선택이나 정답 발표를 요구하지 않으며 별도 실습·토론 시간을 추가하지 않는다.
 
 Transition: “Crop Task의 기록에서 어떤 근거가 사용됐을까?”
 
-Time Management: Two minutes only. Do not give the answer or turn the prompt into an exercise.
+Time Management: 구조/관찰 구분20초, 두 요청60초, 관찰 질문과 전환40초로2분을 유지한다. 시간이 부족하면 원문의 재낭독을 줄이고 읽기 전용/근거 조건과 결과 미공개를 유지한다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S43 또는 `production/preview/act2/S43.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S43 또는 production/preview/act2/S43.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S43_PROMPT_WATCH_REVISION.md와 검증 JSON을 따른다. 실제 실행 캡처나 현재 제품의 입력 화면으로 표현하지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0056의 두 요청창/중립 관찰 질문과 S42→S43→S44 연결을 반영했다. 최종 렌더·Notes parity는 production/evaluation/S43_PROMPT_WATCH_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S44 — Crop Task에서 관찰한 접근
 

@@ -1,0 +1,73 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-22",
+  "decision": "DEC-0056",
+  "baseline": "da48de2",
+  "changedSlide": "S43",
+  "slideCount": 90,
+  "totalMinutes": 368,
+  "act2Slides": 15,
+  "act2Minutes": 70,
+  "S43Minutes": 2,
+  "S43Mode": "Lecture 2",
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 70,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 137,
+    "Reflection": 20,
+    "Case": 84,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "nativePromptWindows": 2,
+  "neutralObservationQuestions": 3,
+  "readOnlyNoChangeEvidenceConditionsInsideBothPrompts": true,
+  "translatedActualRequestExcerpts": true,
+  "reconstructedUiNotCurrentDesktop": true,
+  "expectedPathsAndOutcomesWithheld": true,
+  "fileAccessVsAnswerEvidenceSeparated": true,
+  "newPerformanceClaim": false,
+  "actualProductScreenshot": false,
+  "unchangedOtherSlidePngs": 89,
+  "unchangedOtherNotesRecords": 89,
+  "fullAct2PngParity": 15,
+  "notesRecords": 90,
+  "fieldsPerNotes": 19,
+  "renderedSlidePngs": 105,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 90,
+      "sha256": "f84b409cfc5b7ca65f658f1f2970eb7c2474f76995118421d2e2a694860d9cbb"
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slideCount": 15,
+      "sha256": "e98d453ef845c11f9055373f25bbaa1414da70f96540c7f2297126bb48de1dfa"
+    }
+  ],
+  "fullPptSha256": "f84b409cfc5b7ca65f658f1f2970eb7c2474f76995118421d2e2a694860d9cbb",
+  "fullNotesSha256": "1b3ebc13399b3c6f30dd21d8389780e3a4e27cef5a34eb9553f84c73e12cfbad",
+  "fullMontageSha256": "cd47df613da67754e68cfb176b3e8f2d7d18082ece6656901161f5abe25221a2",
+  "otherActPackagesUnchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "newDemoTestRun": false,
+  "presenterBundleRegenerated": false,
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "fallbackPngsUnchanged": 29,
+  "encodedFontPolicyPassed": true,
+  "nativeTargetFontRendering": "UNVERIFIED",
+  "templateMappingPreserved": 90,
+  "reviewedDraftPngMatchesFinal": true,
+  "currentOutputLinksExist": true,
+  "currentArtifactIdentitiesMatch": true
+}

@@ -79,6 +79,12 @@ allow rewritten and expanded explanations without claiming literal copying.
 Keep the frozen S42 excerpt used by S84 unchanged. Rebuild Full/ACT2 only,
 update the S42 Demo fallback identity and preserve the other89 slides/budgets.
 
+DEC-0056 updates S43 in `act23.mjs` with two reconstructed prompt windows
+and neutral questions about actual access and answer evidence. Translate
+retained TRIAL-005A/B request excerpts and keep read-only/no-change/evidence
+conditions inside each window. Do not show expected routes or outcomes.
+Rebuild Full/ACT2 only; preserve other89 slides and all per-slide budgets.
+
 ## Historical implementation notes
 
 # Presentation revision source
