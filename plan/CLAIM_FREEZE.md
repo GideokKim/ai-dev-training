@@ -433,3 +433,16 @@ specification changes. The method may share a document with other guidance.
 No Trial execution trace, new result, product classification, Skill superiority,
 token saving or independent Harness causality is added. Preserve S51's timing
 explanation and S53's later shared-home decision. All IDs/time/Mode stay.
+
+
+## DEC-0065 — S53 shared Skill and task-specific requests
+
+S53 remains a TEACHING_MODEL with REQUIRES PRODUCT CHECK. Two task goals are
+educational request summaries; the one-Skill/two-task links show intended
+reuse, not execution traces or proof that both earlier trials invoked that
+Skill. DEC-0017 selects a repository-owned procedure unit. One-place
+maintenance is its design rationale, not measured superiority, compliance,
+token or performance improvement. Keep Task scope/preservation conditions
+and project criteria; AGENTS.md may also contain procedures. Actual CLI
+discovery/invocation/body evidence follows on S54, without current Desktop
+guarantees. All timing/IDs/Mode and existing causality limits remain.

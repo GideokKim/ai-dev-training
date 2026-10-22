@@ -2,7 +2,9 @@
 
 > **현재 기준: DEC-0060 / 93장·379분 (2026-10-22).** ACT 2 전체 흐름 개선을 승인받아 연구 설명을 분리하고 의존성 답변/성과 회수3장을 보강했다. ACT 2는 S32–S49,18장·81분이다. 기존90장 내용과 각 장의 시간은 보존하며 신규 Lecture6/Case4/Reflection1분을 더한다. [90→93 번호·역할 대조](SLIDE_ID_MIGRATION_93.md). 사용자 허용 상한720분이며379분은 제작 기준, 리허설 실측은 UNVERIFIED다.
 
-> **최신 S52 내용 수정: DEC-0064.** 목표·프로젝트 기준·재사용할 수행 방법이 한 작업에 적용되는 관계를 시각화한다. [S52 수정 검토](../production/evaluation/S52_TASK_COMPOSITION_REVISION.md).
+> **최신 S53 내용 수정: DEC-0065.** 작업마다 바뀌는 요청과 공동 관리할 Skill의 재사용 관계·선택 이유를 시각화한다. [S53 수정 검토](../production/evaluation/S53_SKILL_REUSE_REVISION.md).
+
+> **이전 S52 내용 수정: DEC-0064.** 목표·프로젝트 기준·재사용할 수행 방법이 한 작업에 적용되는 관계를 시각화한다. [S52 수정 검토](../production/evaluation/S52_TASK_COMPOSITION_REVISION.md).
 
 > **이전 S51 내용 수정: DEC-0063.** 테스트 명령의 적용 시점과 판단 기준을 시각화하고 S50·S52 Notes 연결을 정렬한다. [S51 수정 검토](../production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md).
 
@@ -1407,29 +1409,29 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0062, DEC-0063, DEC-0064
 
 
-#### S53 — 반복 절차의 유지 위치를 선택한다
+#### S53 — 반복 절차를 Skill로 모으는 이유
 
 - **Slide ID:** S53
 - **ACT:** ACT 3
 - **Section:** 3C Reusable Skill 시작
-- **Working Title:** 반복 절차의 유지 위치를 선택한다
-- **Primary Role:** Skill 호출 문법보다 절차의 유지 위치를 선택한 DEC-0017의 의도를 보여준다.
-- **Audience Question:** “Task마다 달라지는 요청과 함께 고칠 절차를 어떻게 나눌까?”
-- **Core Message:** Task별 목표·제약·허용 범위는 요청에 남기고 반복 절차를 프로젝트가 유지할 단위로 옮기는 선택을 검토한다. 이 사례의 구현 후보는 Repository Skill이다.
+- **Working Title:** 반복 절차를 Skill로 모으는 이유
+- **Primary Role:** 작업마다 바뀌는 요청과 한 곳에서 관리할 수행 방법을 연결해 프로젝트 Skill을 선택한 이유를 보여준다.
+- **Audience Question:** “다음 작업에도 같은 방법이 필요하다면, 무엇을 다시 쓰고 무엇을 함께 관리할까?”
+- **Core Message:** 작업마다 달라지는 목표·허용 범위·보존 조건은 이번 요청에 남기고, 같은 수행 방법은 프로젝트 Skill 한 곳에서 관리해 필요한 작업에 다시 연결하려는 선택이다.
 - **Story Beat:** BEAT-020 → BEAT-021; DEC-0017
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; DEC-0017은 ACCEPTED. 현재 교육 환경에서의 Product availability는 `REQUIRES PRODUCT CHECK`. Skill discovery/invocation Trial 결과는 다음 구간에 둔다.
-- **Visual Concept:** Task마다 달라지는 요청 → 프로젝트가 재사용할 절차. SKILL.md는 구현 후보로만 제시하고 실행 성공은 다음 장에 둔다.
+- **Visual Concept:** 왼쪽 두 작업의 교육용 요청 요약과 오른쪽 프로젝트 Skill 문서 한 개를 배치한다. 같은 Skill에서 두 작업으로 갈라지는 재사용 연결과 한 곳에서 관리한다는 이유를 표시한다. 실제 UI나 호출 결과는 보여주지 않는다.
 - **Demo / Case Connection:** 저장소 소유의 재사용 절차를 검토하기로 한 결정까지만 보여준다. 성공 결과나 Skill 전문은 제시하지 않는다.
-- **Beginner Payoff:** 긴 절차를 매번 Prompt에 반복하지 않는 설계 후보를 본다.
-- **Advanced Payoff:** 반복성에 근거한 결정과 실제 발견·호출 증거를 구분한다.
+- **Beginner Payoff:** 이번 요청에서 정할 내용과 여러 작업에 다시 연결할 방법을 구분하고 반복 절차를 Skill에 모으는 이유를 이해한다.
+- **Advanced Payoff:** Task별 적용 조건과 공동 갱신할 절차의 관리 단위를 분리하며, 설계 선택과 실제 발견·호출 근거를 구분한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** Skill 호출 문법보다 절차의 유지 위치를 선택한 DEC-0017의 의도를 보여준다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
-- **Transition:** “이 구조가 실제 기록에서는 어떻게 발견되고 호출됐는지 확인하겠습니다.”
+- **Speaker Intent:** S52의 다음 작업 질문을 회수해 두 요청이 같은 방법을 연결하는 모습을 보여준다. 방법의 단계별 실행을 다시 강의하지 않고 매번 재작성과 공동 관리의 차이를 설명한다. Skill은 이 사례의 구현 선택이며 실제 포함 근거는 다음 장에 둔다.
+- **Transition:** “이제 당시 CLI 기록에서 이 Skill이 어떻게 발견되고, 작업 요청과 함께 호출됐는지 확인하겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-020, BEAT-021, DEC-0017, TRIAL-006, TRIAL-007, TRIAL-008, OQ-005, DEC-0062
+- **Evidence / Decision References:** BEAT-020, BEAT-021, DEC-0017, TRIAL-006, TRIAL-007, TRIAL-008, OQ-005, DEC-0062, DEC-0064, DEC-0065
 
 
 #### S54 — Skill의 발견과 본문 포함을 확인했다

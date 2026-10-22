@@ -7636,3 +7636,85 @@ Render Full93 and ACT3 18slides; inspect S51/S52/S53, compare92 other Full
 PNGs and92 other Notes, verify budgets/native tables/chart/current hashes.
 Follow the standing Git checkpoint policy, preserve paused bundles, and keep
 Windows, room, product-account and timed rehearsal UNVERIFIED.
+
+
+# DEC-0065 — explain S53 shared Skill maintenance and task requests
+
+## Status
+
+ACCEPTED — explicit user request to distinguish varying requests and a
+reusable method, explain the Skill choice, align Notes and render the result.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S52 now applies a goal, project criteria and a method to one task. S53 still
+compares abstract question lists and procedure names, leaving the reason
+to choose a repository Skill and its next-task reuse implicit.
+
+## Problem
+
+Show which request information varies and why the shared procedure should
+be maintained together, without repeating S51/S52 or preempting S54 evidence.
+
+## Decision
+
+Use two educational task-request summaries and one project-owned
+graypipe-performance SKILL.md diagram. Connect the shared method to both
+requests and state the purpose of maintaining the procedure in one place
+instead of rewriting it per request. Keep current goals, permitted scope,
+preservation conditions and project criteria. Retain DEC-0017's choice as a
+design decision; show discovery/invocation evidence only on the next slide.
+Only S53 changes visually and in Notes. Preserve93slides/379minutes,
+S53 Lecture4, all IDs/Mode, T05-A, image assets and evidence boundaries.
+
+## Rationale
+
+The two requests make variation concrete while the single method makes
+shared ownership and updating visible. Skill selection follows repeated
+procedure friction and prepares learners to inspect actual inclusion evidence.
+
+## Alternatives
+
+Rename the two abstract panels: reuse and maintenance stay implicit.
+Show a complete Skill tutorial: exceeds this slide's role and current checks.
+Invent successful calls for both earlier tasks: unsupported and misleading.
+
+## Trade-offs
+
+Request and procedure text are summaries rather than literal full Prompts.
+Connectors show intended reuse, not actual invocations by those trials.
+Notes retain conditional selection, no-compliance guarantee and AGENTS.md
+as another possible home for instructions. This is not a superiority claim.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-005, INV-MATURITY-006, INV-MATURITY-011,
+INV-VERIFY-001, INV-DEMO-004.
+
+## Affected Artifacts
+
+S53 factory, Map/template row, ACT3 flow and claim note, ACT3/Full Notes,
+Full/ACT3 PPTX/previews, current identity documents and revision evaluation.
+No other ACT package, Demo repository, State tag, Trial or presenter bundle.
+
+## Evidence
+
+Latest user request; BEAT-020/021, DEC-0017, TRIAL-006/007 repeated requests,
+STATE-04 Skill document and later TRIAL-008 inclusion records. No new Trial,
+benchmark, product replay or research is needed for the design diagram.
+
+## Training Relevance
+
+YES — connect repetitive work to a maintainable method and distinguish
+design intent from observed product behavior and causal evidence.
+
+## Follow-up
+
+Render Full93 and ACT3 18slides, inspect S52/S53/S54 and compare92 other Full
+PNGs/Notes. Preserve per-slide budgets, native tables/chart and current paths.
+Follow standing Git checkpoint instructions; keep bundles paused and Windows,
+room, current product-account and timed rehearsal UNVERIFIED.

@@ -87,15 +87,30 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S53(p){
-   const s=make(p,'S53','반복 절차의 유지 위치를 선택한다','ACT 3 · Skill은 재사용할 방법의 한 가지 구현',
-    'DEC-0017 · Repository-owned performance Skill을 선택한 설계 후보',
-    '성공 결과를 미리 제시하지 않음 · 현재 제품 표면·계정·호출 경로는 별도 확인 필요');
-   text(s,'Task마다 달라질 부분과, 함께 고칠 방법을 나눈다',64,178,1152,42,31,C.teal,true);
-   panel(s,64,251,455,249,'매번 달라지는 요청','어느 함수를 조사할까?\n이번 변경 범위는?\n무엇을 보존할까?',C.white);
-   arrow(s,555,350,40,25);
-   panel(s,639,251,577,249,'프로젝트가 재사용할 절차','기준선 → 조사 → 변경 판단\n검증 → 동일 측정 → 보고',C.pale);
-   text(s,'구현 후보: SKILL.md',659,451,537,33,25,C.teal,true,CODE);
-   text(s,'다음 기록에서, 발견·호출·본문 포함을 확인한다',64,556,1152,42,29,C.ink,true);
+   const s=make(p,'S53','반복 절차를 Skill로 모으는 이유','ACT 3 · 이번 요청과 프로젝트가 유지할 수행 방법',
+    'DEC-0017 · 프로젝트 Skill을 선택한 설계 의도 · 왼쪽 요청은 교육용 요약',
+    '설계 선택이며 성공 증명 아님 · 현재 제품 표면·계정·호출 경로는 별도 확인');
+   text(s,'작업마다 달라지는 요청',64,179,492,42,30,C.ink,true);
+   const requests=[
+    [244,'A  resize_nearest 성능 조사'],
+    [399,'B  normalize 성능 조사']
+   ];
+   requests.forEach(([y,goal])=>{
+    rect(s,64,y,488,121,C.white,C.line,1);
+    text(s,goal,84,y+12,448,42,27,C.teal,true);
+    text(s,'이번 목표 · 허용 범위 · 보존 조건',84,y+71,448,32,24,C.sub);
+   });
+   // A single repository-owned method feeds both task-specific requests.
+   rect(s,736,244,480,276,C.pale,C.line,1);
+   text(s,'한 곳에서 관리할 수행 방법',756,254,440,38,27,C.teal,true);
+   text(s,'graypipe-performance / SKILL.md',756,302,440,32,22,C.ink,true,CODE);
+   line(s,756,346,440);
+   ['측정·조사','계획·변경 판단','검증·동일 측정·보고'].forEach((t,i)=>text(s,t,756,361+i*49,440,38,28,C.ink,true));
+   s.shapes.add({geometry:'line',position:{left:665,top:304,width:0,height:155},fill:'none',line:{fill:C.teal,width:2}});
+   line(s,665,382,71,C.teal,2);
+   [304,459].forEach(y=>s.shapes.add({geometry:'leftArrow',position:{left:568,top:y-11,width:97,height:22},fill:C.teal,line:{fill:'none',width:0}}));
+   text(s,'재사용',568,367,84,30,23,C.teal,true);
+   text(s,'같은 절차를 매번 다시 쓰지 않고, 한 곳에서 관리한다',64,559,1152,38,30,C.teal,true);
    return s;
   },
   S54(p){

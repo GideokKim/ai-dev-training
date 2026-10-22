@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest content refinement: DEC-0064 / S52 task composition.
+Latest content refinement: DEC-0065 / S53 reusable Skill rationale.
+Only S53 changes visually and in Notes. A single project Skill supplies
+a reusable method to task-specific request summaries; links are design
+intent, not recorded calls. Keep93/379 and S53 Lecture4.
+Review: `production/evaluation/S53_SKILL_REUSE_REVISION.md`.
+
+Previous S52 refinement: DEC-0064 / task composition.
 Only S52 changes visually and in Notes. Its goal enters a project-bounded
 work area that applies the reusable method. Retain93/379, S52 Lecture5,
 S51/S53 anchors, native objects and existing evidence boundaries.

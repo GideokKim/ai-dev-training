@@ -2,7 +2,9 @@
 
 갱신일:2026-10-22 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 내용 수정은 DEC-0064의 S52다. 이번 목표가 기준으로 둘러싼 한 작업에
+최신 내용 수정은 DEC-0065의 S53이다. 작업마다 바뀌는 요청과 공통 Skill 한 개를
+연결하고, 반복 절차를 한 곳에서 관리하려는 이유와 Notes를 정렬했다.
+이전 내용 수정은 DEC-0064의 S52다. 이번 목표가 기준으로 둘러싼 한 작업에
 들어오고 재사용할 방법을 적용하는 관계와 Notes를 정렬했다. 이전 DEC-0063은 S51에서 명령을 변경 전·후에 사용하는 시점과
 완료 판단을 연결하고 S50·S52 Notes를 정렬했다. DEC-0062에서 정렬한 문서/관찰
 대응, 가정→현재 선택, 구성→작업 환경의 흐름과 번호·시간·근거 범위는 유지한다.
@@ -13,13 +15,14 @@ ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `a561733b99bb210bd39b74506ac55f728661cd820dfd4b9c270d447042aba57e` |
+| PPT SHA-256 | `9f2f7bedcafff8a8cf853574498586b7d2d3274280bcac9ed97b426895aec39c` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `0ebeac084d6798c69b4d22860c4639cc01157c88f23c21f23f158a42477b013e` |
+| Notes SHA-256 | `4d8cd082ead3a009d3e2e4e117bc5d635f2ea58dd17d521b0ff3d684bd26b3f6` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `5f0fe0bd62e74da8dfc19a585306db02f2d8a88d95d253fbcea4ee5b7d9bad2b` |
+| Montage SHA-256 | `4fad32e7eb0fec4a509f39d03fd3fa9f67c1e060499cb50f1169915813eade22` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [S52 목표·기준·방법의 결합](S52_TASK_COMPOSITION_REVISION.md) |
+| 최신 검토 | [S53 Skill 재사용과 관리 이유](S53_SKILL_REUSE_REVISION.md) |
+| 이전 S52 검토 | [목표·기준·방법의 결합](S52_TASK_COMPOSITION_REVISION.md) |
 | 이전 S51 검토 | [명령 적용과 판단](S51_COMMAND_WORKFLOW_REVISION.md) |
 | 이전 ACT3 전체 검토 | [흐름 개선](ACT_3_FLOW_REVISION.md) |
 | ACT3 | [ACT_3.pptx](../ACT_3.pptx), S50–S67/18장·85분 |
@@ -52,6 +55,10 @@ DEC-0063에서는 최종 Full93장·ACT3 18장을 다시 렌더링했다. S50–
 DEC-0064에서는 최종 Full93장·ACT3 18장을 렌더링하고 S51–S53의 연결을
 개별 검토했다. S52만 화면·Notes를 수정했으며 다른92개 PNG·Notes와 장별
 시간·Mode, 기존 근거 범위를 유지했다. 새 Trial이나 실제 제품 실행은 없다.
+
+DEC-0065에서는 최종 Full93장·ACT3 18장을 렌더링하고 S52–S54의 연결을 개별
+검토했다. S53만 화면·Notes를 수정했으며 다른92개 PNG·Notes와 장별 시간·Mode,
+기존 근거 범위는 유지한다. 새 Trial이나 실제 제품 실행은 없다.
 
 ## 사용자가 확인할 남은 조건
 

@@ -2410,11 +2410,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S52, production/prev
 
 Validation Status: ALIGNED — DEC-0064의 교육용 경계·19필드·5분 운영 흐름을 정렬했다. 실제 파일 렌더·Notes 대조는 production/evaluation/S52_TASK_COMPOSITION_REVISION.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S53 — 반복 절차의 유지 위치를 선택한다
+## S53 — 반복 절차를 Skill로 모으는 이유
 
 Slide ID: S53
 
-Working Title: 반복 절차의 유지 위치를 선택한다
+Working Title: 반복 절차를 Skill로 모으는 이유
 
 ACT / Section: ACT 3 / 3C
 
@@ -2422,37 +2422,38 @@ Allocated Time: 4 minutes
 
 Mode Split: Lecture 4 minutes
 
-Primary Message: Task별 목표·제약·허용 범위는 요청에 남기고 반복 절차를 프로젝트가 유지할 단위로 옮기는 선택을 검토한다. 이 사례의 구현 후보는 Repository Skill이다.
+Primary Message: 작업마다 달라지는 목표·허용 범위·보존 조건은 이번 요청에 남기고, 같은 수행 방법은 프로젝트 Skill 한 곳에서 관리해 필요한 작업에 다시 연결하려는 선택이다.
 
-Opening Question: “Task마다 달라지는 요청과 함께 고칠 절차를 어떻게 나눌까?”
+Opening Question: “다음 작업에도 같은 방법이 필요하다면, 무엇을 다시 쓰고 무엇을 함께 관리할까?”
 
 Speaker Flow:
 
-1. (0:00–1:30) 함수·변경 범위·보존 조건처럼 Task마다 달라지는 부분을 짚는다.
-2. (1:30–3:00) 기준선·조사·변경 판단·검증·비교·보고를 함께 고칠 방법으로 묶고 SKILL.md 후보를 제시한다.
-3. (3:00–4:00) DEC-0017의 선택과 대상 제품 표면 확인을 구분하고 다음 실제 기록으로 넘어간다.
+1. (0:00–0:45) S52의 ‘같은 수행 방법이 다음 작업에도 필요하다면?’을 회수한다. 왼쪽 resize_nearest와 normalize는 서로 다른 성능 조사 목표이며 요청은 교육용 요약임을 밝힌다.
+2. (0:45–1:45) 왼쪽 요청마다 이번 목표·허용 범위·추가 보존 조건을 정함을 짚는다. S52의 기존 프로젝트 기준도 계속 적용된다. 오른쪽은 이 두 작업에 필요한 공통 수행 방법을 프로젝트가 함께 관리할 문서다.
+3. (1:45–3:00) 오른쪽 Skill 문서에서 두 요청으로 갈라지는 연결을 따라간다. 같은 절차를 매번 다시 작성하지 않고 한 곳에서 검토·수정해 필요한 작업에 연결하려는 이유를 설명한다. 단계별 실행 순서는 S51에서 봤으므로 다시 강의하지 않는다. AGENTS.md에도 절차를 둘 수 있고, Skill은 이 사례에서 선택한 구현임을 덧붙인다.
+4. (3:00–4:00) DEC-0017의 프로젝트 소유 Skill 선택과 성공 검증을 구분한다. 현재 제품 표면·계정·호출 경로는 별도 확인이며 자동 준수를 보장하지 않는다. 다음 S54의 Codex CLI0.154.0 발견·명시 호출·본문 포함 기록으로 넘어간다.
 
-Evidence / Source: DEC-0017, BEAT-020/021, TRIAL-006/007/008. Skill 선택은 ACCEPTED; 동작 근거는 뒤의 TRIAL-008에 둔다.
+Evidence / Source: DEC-0017; BEAT-020/021; plan/DEMO_MATRIX.md의 TRIAL-006/007 반복 요청과 TRIAL-008 연결; STATE-04의 .agents/skills/graypipe-performance/SKILL.md. 왼쪽 요청은 실제 Prompt 전문이 아닌 교육용 요약이고 오른쪽 절차도 요약이다. 실제 발견·호출 근거는 S54에서 확인한다.
 
-Claim Boundary: 여기서는 설계 질문과 후보만 소개한다. 현재 Desktop/계정에서 이용 가능하다고 보장하거나 Skill 우월성을 주장하지 않는다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: TEACHING_MODEL / REQUIRES PRODUCT CHECK를 유지한다. 설계 선택은 ACCEPTED지만 이 화면은 실제 UI·실행 trace·성공 결과나 현재 Desktop 가용성 검증이 아니다. 같은 Skill을 두 작업이 자동 호출했거나 반드시 준수했다고 주장하지 않는다. Skill 우월성·토큰 절감·속도 향상·Harness 단독 인과성을 입증하지 않는다. AGENTS.md에도 절차를 기록할 수 있으며 모든 작업에 같은 Skill이 필수라는 뜻이 아니다.
 
-Beginner Explanation: 같은 방법을 매번 Prompt에 복사하는 대신 프로젝트가 소유하는 위치를 검토할 수 있다.
+Beginner Explanation: 작업마다 원하는 일과 범위는 다시 정하되, 필요한 공통 방법은 같은 문서에서 가져다 쓰도록 설계한다. 절차를 고칠 때도 공통 출처 한 곳에서 검토하려는 것이다.
 
-Advanced Insight: 반복 근거에 따른 workflow 소유권 선택과 실제 발견·호출 증거를 구분한다.
+Advanced Insight: Task별 적용 조건과 절차의 소유·갱신 책임을 구분한다. Skill 선택 이유는 반복성과 공동 관리 필요이며 기능 수를 늘리는 것이 목적이 아니다. 프로젝트 기준·Task 제약은 공통 절차를 옮겨도 유지한다. 호출·본문 포함과 실제 지침 준수·단독 효과는 별도 근거가 필요하다. 원문에서 가시적 계획은 Task나 작업 interface가 요구할 때라는 조건을 유지하며, 측정 근거가 변경을 정당화하지 않으면 no-change 결론도 허용한다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 정적 기본 경로 — Task마다 달라지는 요청 → 프로젝트가 재사용할 절차. SKILL.md는 구현 후보로만 제시하고 실행 성공은 다음 장에 둔다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: STATIC TEACHING DIAGRAM — 왼쪽 두 요청의 바뀌는 내용, 오른쪽 Skill 한 개, 두 요청으로 갈라지는 재사용 연결, 하단의 공동 관리 이유 순으로 짚는다. 파일·제품을 실행하지 않고 Skill 본문 전체나 성공 기록을 미리 공개하지 않는다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: ‘같은 검증 절차를 고칠 때 각 요청을 따로 고칠까요, 공통 방법을 함께 검토할까요?’를 짧게 던지고 한 곳에서 관리한다는 문장으로 회수한다. 별도 실습·Q&A 시간을 추가하지 않는다.
 
-Transition: “이 구조가 실제 기록에서는 어떻게 발견되고 호출됐는지 확인하겠습니다.”
+Transition: “이제 당시 CLI 기록에서 이 Skill이 어떻게 발견되고, 작업 요청과 함께 호출됐는지 확인하겠습니다.”
 
-Time Management: Lecture4분: 현재 요청1.5, 유지할 방법1.5, 선택 범위/전환1.
+Time Management: Lecture4분: S52 회수0.75, 요청/기준 구분1, 공통 Skill과 관리 이유1.25, 선택 범위/S54 연결1. 시간이 부족하면 절차 항목 설명을 줄이고 Task별 정보·한 곳의 방법·설계 경계는 유지한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S53, production/preview/act3/S53.png 및 production/preview/full/S53.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S53, production/preview/act3/S53.png 및 production/preview/full/S53.png. 실제 실행 캡처가 아닌 교육용 선택·재사용 도식이다. 최종 패키지·PNG·내장 Notes 확인은 production/evaluation/S53_SKILL_REUSE_REVISION.md를 따른다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0065의19필드·4분 운영·교육용/제품 확인 경계를 정렬했다. 실제 파일 렌더·Notes 대조는 production/evaluation/S53_SKILL_REUSE_REVISION.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S54 — Skill의 발견과 본문 포함을 확인했다
 

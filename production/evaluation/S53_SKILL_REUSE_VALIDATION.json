@@ -1,0 +1,90 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-22",
+  "baseline": "43722fa",
+  "decision": "DEC-0065",
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act3SlideCount": 18,
+  "act3Minutes": 85,
+  "changedVisualSlides": [
+    "S53"
+  ],
+  "changedNotes": [
+    "S53"
+  ],
+  "unchangedOtherVisualPNGs": 92,
+  "unchangedOtherNotesRecords": 92,
+  "fieldsPerNotes": 19,
+  "notesRecords": 93,
+  "renderedPNGs": 111,
+  "fullAct3PNGParity": 18,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "nativeTables": [
+    "S47",
+    "S55"
+  ],
+  "nativeChart": "S58",
+  "nativeChartDataUnchanged": true,
+  "templates": 11,
+  "variants": 27,
+  "newTrial": false,
+  "newProductTest": false,
+  "demoRepositoryUnchanged": true,
+  "otherACTPackagesUnchanged": true,
+  "approvedImageFilesUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "9f2f7bedcafff8a8cf853574498586b7d2d3274280bcac9ed97b426895aec39c"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "b2acf82ca6a2acc00d31741230016adbb996574c042f7498dc0f94981f589f7c"
+    }
+  ],
+  "fullNotesSha256": "4d8cd082ead3a009d3e2e4e117bc5d635f2ea58dd17d521b0ff3d684bd26b3f6",
+  "fullMontageSha256": "4fad32e7eb0fec4a509f39d03fd3fa9f67c1e060499cb50f1169915813eade22",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "individualVisualReview": [
+    "S52",
+    "S53",
+    "S54"
+  ],
+  "staticFallbackInventory": 32,
+  "documentAudit": {
+    "status": "PASS",
+    "changedFiles": 25,
+    "introducedLocalLinksChecked": 28,
+    "fallbackPNGsChecked": 32,
+    "otherVisualPNGsUnchanged": 92,
+    "sourceOfTruthBudgetsPreserved": true,
+    "priorDecisionHistoryPreserved": true,
+    "historicalHandoffPreserved": true,
+    "currentArtifactsAndHashesMatch": true,
+    "otherACTPackagesUnchanged": true,
+    "demoRepositoryUnchanged": true,
+    "sensitiveTemporaryFiles": false
+  }
+}

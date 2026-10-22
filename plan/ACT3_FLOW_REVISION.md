@@ -1,5 +1,11 @@
 # ACT3 Flow Revision — DEC-0062
 
+Current S53 refinement: DEC-0065. Show task-specific requests using a single
+project Skill, with one-place procedure maintenance as the design rationale.
+Preserve S52 combined application and S54 actual discovery/invocation evidence.
+S53 remains Lecture4; all93/379 budgets and other92 visuals/Notes stay.
+Review: [S53 revision](../production/evaluation/S53_SKILL_REUSE_REVISION.md).
+
 Current S52 refinement: DEC-0064. Show a goal entering a single normalize
 work area bounded by project criteria and using the reusable method. Do not
 repeat S51 timing questions or preempt S53 shared-home selection. Preserve
@@ -35,7 +41,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S50 | Two retained requests confirm repeated procedure; short Harness orientation. |Case5|
 | S51 | Apply known commands/specifications at different times with explicit judgment questions; DEC-0063. |Lecture4|
 | S52 | Apply the goal and reusable method to one normalize work area bounded by existing specifications; DEC-0064. |Lecture5|
-| S53 | Select a shared home for the procedure; Skill is this case's implementation candidate. |Lecture4|
+| S53 | Separate task-specific requests from one reusable Skill and show one-place maintenance intent; DEC-0065. |Lecture4|
 | S54 | Introduce brightness statistics and separate CLI discovery/invocation/body observations. |Demo5|
 | S55 | Pair real Skill excerpts with three retained observation summaries in a native table. |Demo3+Case3|
 | S56 | Separate reusable procedure, no-change allowance and task-specific answer. |Lecture3|

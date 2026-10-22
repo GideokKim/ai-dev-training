@@ -534,7 +534,7 @@
         "M8"
       ],
       "scope": "principle",
-      "rationale": "반복 조사·검증 절차를 재사용 가능한 Repository Skill에 두는 선택을 제시한다. 템플릿·반복 절차 재사용 원리이며 CI/CD 구현은 아니다. DEC-0062: Skill 호출 문법보다 절차의 유지 위치를 선택한 DEC-0017의 의도를 보여준다.",
+      "rationale": "반복 조사·검증 절차를 재사용 가능한 Repository Skill에 두는 선택을 제시한다. 템플릿·반복 절차 재사용 원리이며 CI/CD 구현은 아니다. DEC-0062: Skill 호출 문법보다 절차의 유지 위치를 선택한 DEC-0017의 의도를 보여준다. DEC-0065: Task별 요청 정보와 공동 관리할 수행 방법을 구분하고 Skill 한 곳에서 유지·재사용하려는 설계 이유를 보여준다. 기존 모듈 연계 범위를 유지한다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2 · M8"
     },
