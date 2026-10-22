@@ -100,7 +100,7 @@ M 연계는 현재 화면에서 직접 가르치는 원모듈의 개별 내용 �
 | S37 | M 연계 · 신규 확장 | new_extension | 정확성·관련성·관찰된 결과를 구별하는 Context 선택 사례다. README 업무가 등장해도 문서 작성법이나 원모듈의 별도 교수 내용으로 세지 않는다. |
 | S38 | M 연계 · 신규 확장 | new_extension | Always-on·On-demand·Workflow의 범위와 제공 시점을 나누는 현행 정보 설계 모델이다. |
 | S39 | M 연계 · 신규 확장 | new_extension | Long Context 연구의 과제·조건·제한된 결론을 소개한다. AI 리서치·자료 선별·보고서 작성 방법인 M3를 가르치는 장이 아니다. |
-| S40 | M 연계 · 신규 확장 | new_extension | RepoQA의 검색 과제와 현재 Agent 작업의 근거 범위를 구분한다. 원모듈 전체 이수나 새 성과 검증을 뜻하지 않는다. |
+| S40 | M 연계 · 신규 확장 | new_extension | 기존 crop 구현 예로 코드 탐색 결과의 위치·요청 대응·주변 근거를 확인하는 교육용 질문을 정리한다. RepoQA는 보조 근거이며 원모듈 전체 이수나 새 성과를 뜻하지 않는다. |
 | S41 | M 연계 · 신규 확장 | new_extension | Task에서 Core Context를 거쳐 관련 상세 정보로 가는 Routing 모델이다. 공통 Context가 언급된다는 이유만으로 원모듈 교수 내용으로 계산하지 않는다. |
 | S42 | M 연계 · 신규 확장 | new_extension | Core의 기본 안내와 architecture·contracts·testing 상세 문서의 탐색 경로를 설계한다. 아키텍처 설계나 사람의 온보딩 자료 작성 수업은 아니다. |
 | S43 | M 연계 · 신규 확장 | new_extension | 상세 정보를 문서별로 이동하고 링크를 두는 실제 Context Routing 구조 변화다. 제품 시스템의 책임 분해·아키텍처 생성과 구분한다. |

@@ -7297,3 +7297,82 @@ chart/table structure and current fallback links. Keep Windows, room,
 product/account and timed rehearsal UNVERIFIED. Do not rebuild bundles.
 
 DEC-0060 duration-label alignment: current S86 changes only the outdated six-hour recap title to “전체 Story를 한 장으로”. Its Story/Beat/time/Mode/evidence content remain unchanged. The earlier duration wording stays in historical records.
+
+
+# DEC-0061 — center S40 on evidence for code-search results
+
+## Status
+
+ACCEPTED — explicit user approval of the revised S40 message and adjacent
+S39/S41 continuity while preserving the approved Story and claim scope.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S40 separated RepoQA from the prior research slide, but a study-centered
+lecture did not make the developer's next action clear enough.
+
+## Problem
+
+Connect long-context caution to checking task-relevant code evidence before
+S41 introduces a path to the relevant detail, without claiming routing gains.
+
+## Decision
+
+Use the question "AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?".
+Pair a constructed crop request and a bounded existing code excerpt with
+three course-model questions: specific location, request/behavior match and
+relevant surrounding sources. Keep RepoQA in a small supporting-study region
+and preserve its exact task/conditions/limits in Notes. Apply existing T03-C
+with TEACHING_MODEL/RESEARCH separated. Retain93slides/379minutes, S40 Lecture4,
+all IDs and original evidence/effect limits. Only S40 changes on screen.
+Align S39/S40/S41 Notes; remove the leftover two-study explanation/timing
+from S39 Notes. Keep S39/S41 visual content and the other92 slides intact.
+
+## Rationale
+
+The slide gives the audience observable questions about a search result and
+makes S41's navigation design necessary. The study supports the relevance
+of code-search evaluation, not this course rubric or a product-effect claim.
+
+## Alternatives
+
+Keep the independent study introduction: the developer action stays implicit.
+Remove all research conditions: loses provenance and inference boundaries.
+Invent a new successful search: unsupported and unnecessary.
+
+## Trade-offs
+
+Research detail moves to Notes; the main illustration is educational and
+not a new Agent trace. A one-line code excerpt cannot establish whole-function
+correctness. Relevant additional sources depend on the task and risk.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-RESEARCH-004, INV-DEMO-004, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S40 factory, Map/template row, claim clarification, adjacent Notes, Full/ACT2
+PPTX and previews, current delivery/fallback identities. No Demo code or tag,
+other ACT package, Trial or presenter bundle changes.
+
+## Evidence
+
+Latest user request; current Map/Notes/Claim Freeze; existing crop implementation
+at STATE-00-FIXED src/graypipe/transform.py; historical TRIAL-002; RepoQA
+CLM-0015/SRC-0204. Read existing sources only; no new Trial or comparison.
+
+## Training Relevance
+
+YES — distinguish finding a name from providing task-relevant source evidence.
+
+## Follow-up
+
+Render the final packages, compare S39/S40/S41, verify the other92 visible
+slides, unchanged budgets,93 embedded19-field Notes and static paths/hashes.
+Keep Windows/product/account/room/rehearsal UNVERIFIED. Follow standing Git
+checkpoint policy and leave presenter bundles paused.

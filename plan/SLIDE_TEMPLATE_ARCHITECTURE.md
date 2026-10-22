@@ -62,6 +62,8 @@ Evidence Type을 기준으로 하나씩 배정한다.
 
 ### T03 — Mental Model / System Diagram
 
+- **DEC-0061 bounded application:** S40의 T03-C는 교육용 요청→보존된 코드 일부→세 확인 질문의 관계다. 주요 node는5개 이내이며 연결은 교육용 확인 관계이고 새 실행 기록이 아니다. RepoQA는 별도 보조 연구 영역으로 두고 질문3개를 논문의 채점 기준으로 돌리지 않는다. 새 Template/Variant는 추가하지 않는다.
+
 - **DEC-0060 bounded application:** S48은 네 개별 관찰을 교육에서 확인한 순서로 연결하는 T03-A recap이다.4개 node와 관련 State/Trial을 표시하고, 연결선은 인과 효과가 아니라 Story 진행 순서를 뜻한다. 최대5개 node 규칙 안에서 구현하며 새로운 Template/Variant를 만들지 않는다.
 
 - **DEC-0043 bounded application:** S22–S29의 T03-A는 하나의 핵심 요청 블록과 두 활용 cue, 한 줄 핵심을 사용한다. 요청·적용 관점의 관계를 설명하는 정적 교육 예시로, 노드나 화살표를 억지로 추가하지 않는다. 주요 영역은 5개 이내이며 출처·한계는 별도 하단에 유지한다. 이 범위의 렌더 검토는 `production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md`를 따른다.

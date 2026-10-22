@@ -76,23 +76,34 @@ export async function loadAct2ContinuitySlides(root) {
    return s;
   },
   S40(p){
-   const s=make(p,'S40','RepoQA는 설명에 맞는 함수를 찾게 했다','ACT 2 · 코드에서 근거를 찾는 별도의 연구 과제',
-    'RepoQA, 2024 · arxiv.org/abs/2406.06025 · CLM-0015 / SRC-0204',
-    '주 평가 16K는 코드 입력 조건 · 현재 Codex의 한도·수정/도구/테스트 성능을 검증한 것이 아님','RESEARCH');
-   text(s,'기능 설명을 이해하고, 긴 코드에서 해당 함수를 찾는가?',64,181,1152,44,30,C.teal,true);
-   text(s,'50개 저장소 · 5개 언어 · 500개 과제',64,245,1152,36,27,C.sub);
-   const groups=[{x:64,w:334,title:'입력',body:'자연어 기능 설명\n+ 긴 코드',color:C.white},
-    {x:470,w:334,title:'모델의 응답',body:'설명에 맞는\n함수 코드 반환',color:C.pale},
-    {x:876,w:340,title:'평가',body:'정답 함수와\n유사도 비교',color:C.white}];
-   groups.forEach(g=>{
-    rect(s,g.x,319,g.w,170,g.color,g.color===C.pale?C.teal:C.line,1.5);
-    text(s,g.title,g.x+20,329,g.w-40,34,25,C.teal,true);
-    text(s,g.body,g.x+20,383,g.w-40,85,30,C.ink,true);
+   const s=make(p,'S40','AI가 필요한 코드를 찾았다는 것을\n무엇으로 확인할까?','ACT 2 · 코드 탐색의 결과를 근거로 확인',
+    '교육용 확인 예 · STATE-00-FIXED crop 발췌 / RepoQA(2024): arxiv.org/abs/2406.06025',
+    '세 질문은 교육용 기준 · RepoQA가 이 Routing·현재 Codex의 업무 성능을 검증한 것은 아님','TEACHING_MODEL / RESEARCH');
+   text(s,'확인할 작업 요청',64,222,452,32,25,C.ink,true);
+   text(s,'업무용 확인 질문',576,222,640,32,25,C.teal,true);
+   const request=rect(s,64,265,452,88,C.white,C.line,1.5);request.borderRadius=10;
+   text(s,'crop 끝 좌표를 제외하는\n구현을 찾아줘.',84,274,412,68,27,C.ink,true);
+   down(s,278,358,24,18);
+   rect(s,64,384,452,132,C.ink);
+   text(s,'기존 crop 구현의 일부',84,391,412,30,24,C.white,true);
+   text(s,'src/graypipe/transform.py',84,427,412,28,24,C.line,false,CODE);
+   text(s,'row[x_start : x_end]',84,466,412,36,28,C.white,true,CODE);
+   text(s,'발췌 · 새 Agent 탐색 기록 아님',64,523,452,28,22,C.sub);
+   arrow(s,532,415,26,20);
+   const questions=[
+    ['01','위치를 특정했나?','파일 경로 · 함수 · 관련 줄',270],
+    ['02','요청한 동작과 맞나?','끝 좌표 제외 명세와 코드를 대조',368],
+    ['03','주변 근거도 맞나?','필요한 호출부·테스트 기대값 확인',466]
+   ];
+   questions.forEach(([num,title,detail,y],i)=>{
+    text(s,num,576,y,45,36,26,C.teal,true,CODE);
+    text(s,title,634,y,582,36,29,C.ink,true);
+    text(s,detail,634,y+42,582,34,25,C.sub);
+    if(i<2)line(s,576,y+80,640);
    });
-   arrow(s,418,390,32,23);arrow(s,824,390,32,23);
-   text(s,'모델·언어별 함수 찾기 성능 차이 관찰',64,516,620,40,29,C.ink,true);
-   text(s,'이번 작업의 근거 접근은 별도로 확인',704,516,512,40,27,C.teal,true);
-   text(s,'위치 비교와 함수 검색은 다른 과제 · 연구 결과를 이번 Routing의 성공 증거로 쓰지 않는다',64,565,1152,32,23,C.sub);
+   rect(s,64,559,1152,43,C.pale);
+   text(s,'보조 근거 · RepoQA',80,565,267,30,23,C.teal,true);
+   text(s,'기능 설명으로 함수를 찾는 과제를 평가한 연구',366,565,834,30,24,C.ink);
    return s;
   },
   S41(p){

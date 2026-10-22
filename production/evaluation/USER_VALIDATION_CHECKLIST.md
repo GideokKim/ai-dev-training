@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일:2026-10-22 (Asia/Seoul). 현재93장·379분/DEC-0060. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
+갱신 기준일:2026-10-22 (Asia/Seoul). 현재93장·379분/DEC-0060, 최신 내용 수정 DEC-0061. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,13 +9,13 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `95a04cb9b9a29b9e755490a1741b6181e7c60ebb1ddf3974541aee4f7a2ff9fb`
+- PPTX SHA-256: `53fb1b90761091f0c1e95d7aba618e2369624143344d1e8282e635a8b6f3596e`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `efc65f3b50d3655d5a083a721f8552b6a96150a4d95be3b1eb0896d2b2b8ddcd`
+- Notes SHA-256: `8d0dcfb148f4f46ebdf88178fda1eb3bf25aa5a07d11f20062739e03a62dd2ca`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S93.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-위 PPTX·Notes hash는 DEC-0060 최종93장 파일의 현재 식별자다. [ACT2 흐름 개선·로컬 검사](ACT_2_FLOW_REVISION.md)와 [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
+위 PPTX·Notes hash는 DEC-0061의 현재93장 파일 식별자다. [S40 코드 탐색 확인·로컬 검사](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
 
 이전 DEC-0033–0035의 80장 렌더·구조·Notes 검토는 해당 평가 문서와 Git history의 역사적 근거다. 이전 ZIP은 payload 362개·entry 363개였으며 당시 CRC·hash·내부 링크·Notes 정합성을 확인했다. 이번에는 묶음을 갱신하지 않는다. M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아니다. 2순위 보강은 보류한다.
 
@@ -84,6 +84,7 @@ ____________________________________________________________________
 - [ ] S34의 실제 요청과 창 밖 주석을 구분하고, 테스트 명령이 없었다는 설명을 검증 금지 지시로 읽지 않았다. 관찰된 테스트 지침 사용과 강제 준수 보장·단독 인과효과를 구분했다.
 - [ ] S17은 실제 요청과 관찰 요약의 대응으로 설명하며, 테스트명·제품 호출 경로는 코드 대조 식별자이고 원문 CLI 로그가 아님을 구분했다. 계획 보고의 원문·시각을 만들어 설명하지 않았다. S18의 diff와 S19 결과는 해당 장에서 확인했다.
 - [ ] S21→S22의 기법 소개와 S29→S30→S31→S32의 반복 Context 연결이 자연스럽다.
+- [ ] S39의 정보 활용 질문→S40의 위치·동작·주변 근거 확인→S41의 상세 정보 탐색 경로가 이어진다. S40의 세 질문은 교육용 기준이며 기존 코드 발췌를 새 Agent 탐색 기록이나 RepoQA 채점 기준으로 설명하지 않는다.
 
 정적 PPT/PNG와 준비된 과거 기록이 기본 운영 경로다. 과거 Trial을 그 범위로
 설명하기 위해 현재 계정에서 같은 동작을 재현할 필요는 없다. Live/Hybrid를

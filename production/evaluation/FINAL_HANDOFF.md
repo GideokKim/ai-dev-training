@@ -2,19 +2,22 @@
 
 갱신일:2026-10-22 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
+최신 내용 수정은 DEC-0061이다. S40의 코드 탐색 확인 질문과 보조 RepoQA,
+S39–S41 Notes를 정렬했으며 번호·시간·근거 범위를 유지했다.
 
 ## 현재 발표 자료
 
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `95a04cb9b9a29b9e755490a1741b6181e7c60ebb1ddf3974541aee4f7a2ff9fb` |
+| PPT SHA-256 | `53fb1b90761091f0c1e95d7aba618e2369624143344d1e8282e635a8b6f3596e` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `efc65f3b50d3655d5a083a721f8552b6a96150a4d95be3b1eb0896d2b2b8ddcd` |
+| Notes SHA-256 | `8d0dcfb148f4f46ebdf88178fda1eb3bf25aa5a07d11f20062739e03a62dd2ca` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `e876c216541f91715041488efc88d314fb635b6cae055063352c3d9a629b4f98` |
+| Montage SHA-256 | `c9bf025d58c41f721f08bddf3a73e59266b06ae4700fe7a3a4b009e6f57c40cd` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [ACT2 흐름 개선](ACT_2_FLOW_REVISION.md) |
+| 최신 검토 | [S40 코드 탐색 결과 확인](S40_CODE_EVIDENCE_REVISION.md) |
+| 장수·시간 구성 검토 | [ACT2 흐름 개선](ACT_2_FLOW_REVISION.md) |
 | 번호 대조 | [90→93](../../plan/SLIDE_ID_MIGRATION_93.md) |
 | 정적 Demo 대안 | [31개 파일·범위·해시](../../demos/runbooks/FALLBACK_MANIFEST.md) |
 | 사용자 확인 | [실환경·리허설 체크리스트](USER_VALIDATION_CHECKLIST.md) |
@@ -28,6 +31,8 @@ Lecture/Demo/Case/Reflection/Transition/Q&A다. 휴식은 별도다.
 93개19필드 Notes와 Full/ACT/내장 Notes, 현재 Slide ID·표·차트·정적 대안을
 대조했다. ACT0/1 패키지와 Demo repository는 변경하지 않았다. Claim 경계를
 확대하지 않았고 과거 CLI 기록을 현재 Desktop 검증으로 바꾸지 않았다.
+DEC-0061에서는 Full93장·ACT2 18장을 재렌더링하고 S40 화면과 S39–S41 Notes를
+확인했다. 다른92장 화면·90개 Notes와 다른 ACT 패키지는 변경하지 않았다.
 
 ## 사용자가 확인할 남은 조건
 

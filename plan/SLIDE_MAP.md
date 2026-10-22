@@ -1067,36 +1067,36 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Beginner Payoff:** 긴 Context가 곧 동일한 활용을 보장한다고 가정하지 않는다.
 - **Advanced Payoff:** 연구 결과의 대상·조건과 현재 제품 주장을 분리한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 연구가 정보의 위치에 관해 무엇을 바꾸고 무엇을 관찰했는지 설명한다. 모델 내부 작동을 확정하지 않는다. RepoQA는 다음 장의 별도 과제로 소개한다.
-- **Transition:** “코드에서는 단어를 찾는 것보다 설명과 함수 동작을 연결해야 합니다. RepoQA는 무엇을 평가했을까요?”
+- **Speaker Intent:** Lost in the Middle의 위치 비교 과제·조건·제한된 관찰만 설명한다. S40에서는 연구 소개를 반복하지 않고 필요한 코드에 도달했다는 답을 어떤 근거로 확인할지 업무 질문으로 이어간다.
+- **Transition:** “코드에서도 필요한 구현을 찾았다는 답을 무엇으로 확인할까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-013, OQ-006, CLM-0014, SRC-0201, DEC-0052, DEC-0060
 
 
-#### S40 — RepoQA는 설명에 맞는 함수를 찾게 했다
+#### S40 — AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?
 
 - **Slide ID:** S40
 - **ACT:** ACT 2
 - **Section:** 2E
-- **Working Title:** RepoQA는 설명에 맞는 함수를 찾게 했다
-- **Primary Role:** RepoQA의 함수 검색 과제와 현재 Agent 작업의 차이를 시각화한다.
-- **Audience Question:** “기능 설명에서 긴 코드 속 해당 함수를 찾을 수 있을까?”
-- **Core Message:** RepoQA는 자연어 기능 설명과 코드 입력에서 해당 함수를 반환하는 검색 과제를 평가했다. 수정·도구 실행·테스트를 포함한 Agent 업무를 직접 평가한 것은 아니다.
+- **Working Title:** AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?
+- **Primary Role:** 코드 탐색 결과를 파일 위치·요청과의 동작 일치·필요한 주변 근거로 확인하는 업무 질문을 제시한다. RepoQA는 보조 연구로 둔다.
+- **Audience Question:** “AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?”
+- **Core Message:** 함수 이름이나 찾았다는 답만 받지 말고 파일·함수·관련 줄, 요청 조건과 코드의 대응, 필요한 호출부·테스트 기대값을 확인한다. 세 질문은 교육용 기준이며 RepoQA의 채점 기준이 아니다.
 - **Story Beat:** BEAT-013 — Long-context research supports a bounded caution
-- **Curriculum Trace:** ACT 2 — Context growth, relevance, and bounded `Lost in the Middle` evidence.
-- **Evidence Type:** RESEARCH
-- **Claim Status:** FROZEN WITH SCOPE — DEC-0023의 제한된 연구 주장. 인용과 연구 대상·조건을 유지하며 현재 Codex의 일반 한계로 확장하지 않는다.
-- **Visual Concept:** 기능 설명+코드 입력 → 해당 함수 반환 → 정답 함수와 유사도 비교의 native 도식. 50저장소/5언어/500과제, 주 평가16K 코드 입력은 실험 조건으로 표시한다. 모델·언어별 차이와 현재 Codex로 일반화할 수 없는 범위를 분리한다.
-- **Demo / Case Connection:** 결정론적 “중간 내용은 항상 실패” 시연은 하지 않는다.
-- **Beginner Payoff:** 긴 Context가 곧 동일한 활용을 보장한다고 가정하지 않는다.
-- **Advanced Payoff:** 연구 결과의 대상·조건과 현재 제품 주장을 분리한다.
+- **Curriculum Trace:** ACT 2 — bounded research caution to task-specific code evidence, then navigation design.
+- **Evidence Type:** TEACHING_MODEL / RESEARCH
+- **Claim Status:** TEACHING MODEL — 업무용 확인 질문; FROZEN WITH SCOPE — 보존된 crop 구현 발췌와 RepoQA의 제한된 연구 과제. 새로운 탐색 실행·정확도·성능·토큰 효과나 현재 Codex 동작을 주장하지 않는다.
+- **Visual Concept:** 왼쪽 교육용 crop 요청에서 보존된 구현 일부로 연결하고, 오른쪽에 위치/요청한 동작/주변 근거라는 세 확인 질문을 둔다. 코드 발췌는 새 Agent 탐색 결과가 아니다. 아래 작은 보조 영역에 RepoQA가 기능 설명으로 함수 찾기를 평가한 연구임을 적는다. 데이터셋 수·16K 코드 입력 조건·모델/언어별 차이·함수 유사도 평가는 Notes에 보존한다.
+- **Demo / Case Connection:** STATE-00-FIXED의 src/graypipe/transform.py, crop 일부 row[x_start : x_end]를 기존 사례의 교육용 확인 예로 인용한다. 실제 파일 경로·코드 한 줄을 인용한 것이며 이 요청을 실행하거나 Agent가 이번에 찾았다는 관찰이 아니다. 새 Trial·테스트·PASS/FAIL을 만들지 않는다.
+- **Beginner Payoff:** 찾았다는 답에서 구체적인 위치와 관련 코드를 확인하는 질문을 가져간다.
+- **Advanced Payoff:** 코드 위치의 특정, 요청 의미와의 대응, 필요한 연결 근거를 구분하며 검색 연구와 실제 Agent 업무 평가를 혼동하지 않는다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 앞 장의 위치 비교와 이번 장의 의미 기반 함수 찾기는 다른 연구 과제다. 16K는 주 평가의 코드 입력이며 전체 Prompt나 현재 Codex 한도가 아니다. 이번 작업에서는 필요한 근거를 실제로 찾아 답에 연결했는지 확인한다.
-- **Transition:** “연구를 현재 제품 실패의 증거로 쓰지 않고, 이번 Task가 필요한 근거에 도달하는 경로를 설계하겠습니다.”
+- **Speaker Intent:** 업무에서 확인할 질문을 중심에 두고 기존 crop 한 줄을 예로 짚는다. 경로/함수명 제시만으로 정확한 관련성을 보장하지 않고, 반대로 코드 한 줄만으로 전체 구현의 정당성도 확정하지 않는다. 필요 범위의 명세·호출부·테스트 기대값과 대조한다. RepoQA는 코드 검색도 별도로 평가한 연구라는 보조 연결이며 이번 세 질문을 검증한 연구나 Routing 개선 근거가 아니다.
+- **Transition:** “확인할 근거를 정했다면, 그 명세와 코드를 어디서 찾게 할까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-013, OQ-006, CLM-0015, SRC-0204, DEC-0052, DEC-0060
+- **Evidence / Decision References:** BEAT-013, OQ-006, STATE-00-FIXED, TRIAL-002 (existing crop implementation only), CLM-0015, SRC-0204, DEC-0052, DEC-0060, DEC-0061
 
 
 #### S41 — 필요한 상세 정보로 가는 길
@@ -1117,7 +1117,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Beginner Payoff:** Project 안내와 Task별 상세 정보가 다른 역할을 할 수 있음을 본다.
 - **Advanced Payoff:** 관련 문서로 연결하는 방식의 발견성·유지 비용을 다음 문제로 본다.
 - **C++ Vision Bridge:** 작은 예 하나로 일반 Project 제약과 Task별 CMake 또는 알고리즘 계약을 구분한다. CMake·hardware 항목을 나열하지 않고 세부 Bridge는 다음 구간에 이어간다.
-- **Speaker Intent:** S39–40의 연구에서 과제별 근거 확인으로 돌아온다. 질문·위치 안내·답변 근거의 서로 다른 역할만 짚고, 다음 장의 배치 기준과 그다음 장의 실제 파일 재구성을 미리 해설하지 않는다.
+- **Speaker Intent:** S40에서 정한 코드 탐색 결과의 확인 질문을 회수하고, 이제 그 명세와 구현에 도달할 경로를 설계한다. 질문·기본 안내·관련 상세를 구분하며 앞 장의 확인 기준이나 연구 소개를 반복하지 않는다. 다음 배치 기준/실제 파일 재구성은 미리 해설하지 않는다.
 - **Transition:** “그렇다면 기본 안내와 상세를 나눌 기준은 무엇일까요?”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분

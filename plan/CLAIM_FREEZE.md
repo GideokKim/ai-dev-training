@@ -57,7 +57,7 @@ claim.
 |---|---|
 | **FROZEN** | The approved project/map contract applies across Slides 1–93: developer training with a93-slide structure, a379-minute net schedule under DEC-0060, and the approved Story order. All90 prior slides and their368 minutes remain represented, with three additional explanations totaling11minutes. This is a project decision, not a product-performance claim. |
 | **FROZEN WITH SCOPE** | S08 documented entry; S04–06 historical TRIAL-001; S17–19 TRIAL-002; S21 verification; S32–34 STATE-01/TRIAL-003; S36–37 STATE-02/TRIAL-004; S43 actual document reorganization; S44–47 TRIAL-005A/B requests, answers and access; S48 separately scoped recap; S50 TRIAL-006/007; S54–58 TRIAL-008/STATE-04-PERF; S63 component audit; S68 Product success; S80–84 Meta history; S86–87 evolution recap. Each named observation keeps its code/input/environment limits. |
-| **TEACHING MODEL** | Task specification, current Prompt methods, Context placement, routing and workflow responsibilities remain course models. ACT2 S35/S38/S41–43/S48–49 and ACT3 S51–53 use teaching diagrams separate from actual observations. S39–40 are RESEARCH. S69–78 conceptual cases and S79 teaching model stay separate from S80–84 OBSERVED_META. |
+| **TEACHING MODEL** | Task specification, current Prompt methods, Context placement, routing and workflow responsibilities remain course models. ACT2 S35/S38/S41–43/S48–49 and ACT3 S51–53 use teaching diagrams separate from actual observations. S39 is RESEARCH; S40 is a TEACHING_MODEL with separately bounded supporting RESEARCH (DEC-0061). S69–78 conceptual cases and S79 teaching model stay separate from S80–84 OBSERVED_META. |
 | **CONCEPTUAL CASE** | **S69–78** DEMO-04A stale-Harness scenario and its evaluation path. Keep a visible `CONCEPTUAL` label throughout; its Project change, failure, cause, correction, and EVAL cases did not happen in the Demo repository. |
 | **REQUIRES PRODUCT CHECK** | **S04–06** for a current Live/Hybrid repository-investigation path; **S08** for the exact ChatGPT dropdown position, selected account and Windows entry path; **S53–55** for the selected Skills surface, invocation, and account; **S59–62** if current Subagent/Memory product behavior is explained; **S65** for target configuration, feature availability, trust, and permissions. Concrete Windows/shell/IDE instructions on **S16, S21, S35, S41–43, S66, S85, S91** also require a target-environment check. |
 | **REQUIRES RESEARCH CHECK** | None for the currently bounded Slides39–40 claims. The final slide must retain its citations. Any stronger claim about general degradation, current Codex behavior, or all models/tasks is outside this freeze and needs new research review. |
@@ -368,3 +368,17 @@ skills also ran, and README-only was named in the Task Prompt.
 ## DEC-0060 — ACT2 sequence and unchanged claim boundaries
 
 S39 retains CLM-0014/SRC-0201; S40 retains CLM-0015/SRC-0204. Original studies were reopened2026-10-22 to verify task/scope, without stronger claims or current-product evaluation. S46 shows the retained TRIAL-005B answer: Python3.9+stdlib and no third-party runtime dependencies; setuptools/wheel are build tools. S48 summarizes individual observations, not a new combined effectiveness result. S49 is a teaching request; S50 retains actual request/execution recurrence with PARTIAL Prompt-only attribution. S51 explicitly permits procedures in AGENTS.md while separating maintenance responsibility. No routing superiority, token savings, Skill superiority, new Trial, current Desktop guarantee or changed company policy.
+
+## DEC-0061 — S40 task-evidence question and supporting RepoQA
+
+S40 is TEACHING_MODEL / RESEARCH. Its three work questions (specific location,
+request/behavior match, relevant surrounding evidence) are a course model,
+not the RepoQA metric or an official Codex taxonomy. The shown crop line is
+a bounded excerpt from STATE-00-FIXED used in a constructed teaching request;
+no new Agent search/run is evidenced. RepoQA remains a secondary study of
+description-based function search. Preserve its task,50repos/5languages/
+500tasks and main16K code-input conditions in Notes, including model/language
+variation and the difference from current end-to-end Agent work. No routing
+superiority, token saving, performance gain or current-product guarantee.
+S39 covers only its Lost in the Middle task; S41 stays navigation design.
+All existing time/Mode, Slide/Beat/State/Trial IDs and effect limits remain.

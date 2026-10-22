@@ -1,0 +1,83 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-22",
+  "baseline": "65dd8e8",
+  "decision": "DEC-0061",
+  "changedVisualSlides": [
+    "S40"
+  ],
+  "alignedNotes": [
+    "S39",
+    "S40",
+    "S41"
+  ],
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "S40Minutes": 4,
+  "S40Mode": {
+    "Lecture": 4
+  },
+  "template": "T03-C",
+  "templates": 11,
+  "layoutVariants": 27,
+  "notesRecords": 93,
+  "fieldsPerNotes": 19,
+  "unchangedOtherVisualPNGs": 92,
+  "unchangedOtherNotesRecords": 90,
+  "fullAct2PNGParity": 18,
+  "renderedPNGs": 111,
+  "nativeChart": "S58",
+  "nativeTable": "S47",
+  "teachingQuestionsNotRepoQAMetric": true,
+  "codeProvenance": "STATE-00-FIXED:src/graypipe/transform.py:13",
+  "newAgentTrace": false,
+  "newTrial": false,
+  "newDemoTestRun": false,
+  "demoRepositoryUnchanged": true,
+  "otherACTPackagesUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "53fb1b90761091f0c1e95d7aba618e2369624143344d1e8282e635a8b6f3596e"
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slideCount": 18,
+      "sha256": "8763b918eab0fe30b7a5d718010f5f2325c7405eb5bf6489b93c4e2f0f2821c1"
+    }
+  ],
+  "fullNotesSha256": "8d0dcfb148f4f46ebdf88178fda1eb3bf25aa5a07d11f20062739e03a62dd2ca",
+  "fullMontageSha256": "c9bf025d58c41f721f08bddf3a73e59266b06ae4700fe7a3a4b009e6f57c40cd",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "documentAudit": {
+    "status": "PASS",
+    "currentArtifactsMatch": true,
+    "currentOperationalHashesMatch": true,
+    "localLinksChecked": 132,
+    "fallbackPNGsChecked": 31,
+    "historicalHandoffPreserved": true,
+    "priorDecisionsPreserved": true,
+    "changedFiles": 24,
+    "sensitiveTemporaryFiles": false,
+    "demoUnchanged": true
+  }
+}

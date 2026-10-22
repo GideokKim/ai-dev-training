@@ -408,7 +408,7 @@
       "slideId": "S40",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "RepoQA의 검색 과제와 현재 Agent 작업의 근거 범위를 구분한다. 원모듈 전체 이수나 새 성과 검증을 뜻하지 않는다.",
+      "rationale": "기존 crop 구현 예로 코드 탐색 결과의 위치·요청 대응·주변 근거를 확인하는 교육용 질문을 정리한다. RepoQA는 보조 근거이며 원모듈 전체 이수나 새 성과를 뜻하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },

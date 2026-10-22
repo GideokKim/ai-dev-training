@@ -10,6 +10,8 @@
 
 현재 제작 기준은 **DEC-0060 /93장·379분(6시간19분)**이다. ACT2는 S32–S49/18장·81분이며, 연구 분리·의존성 답변 회수·성과 정리와 ACT3 연결을 개선한다. 기존90장의 시간·근거 범위를 보존한다. [ACT2 흐름 개선](production/evaluation/ACT_2_FLOW_REVISION.md), [번호 대조](plan/SLIDE_ID_MIGRATION_93.md), [ACT2 미리보기](production/preview/act2/montage.png). 최종93장 렌더·93개 내장 Notes와 ACT/Full 정합성 검토를 완료했다.
 
+최신 내용 수정은 **DEC-0061 / S40 코드 탐색 결과 확인**이다. 기존 crop 코드 발췌와 위치·요청한 동작·주변 근거의 세 질문을 중심으로 구성하고 RepoQA는 보조 연구로 뒀다. S39–S41 Notes를 정렬했으며 장수·시간·근거 범위는 유지한다. [S40 미리보기](production/preview/full/S40.png), [연속 3장](production/preview/act2/S39-S41-continuity.png), [검토 기록](production/evaluation/S40_CODE_EVIDENCE_REVISION.md).
+
 ## 이전 변경 이력 (당시 번호)
 
 아래 이미지 링크는 현재 대응 장을 연다. 당시의 화면·기획·hash는 평가 기록과 해당 Git 판본을 따른다.

@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0060 local static-file inventory only (2026-10-22).
+Status: READY — DEC-0061 local static-file inventory only (2026-10-22).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `95a04cb9b9a29b9e755490a1741b6181e7c60ebb1ddf3974541aee4f7a2ff9fb`
-- Full Notes SHA-256: `efc65f3b50d3655d5a083a721f8552b6a96150a4d95be3b1eb0896d2b2b8ddcd`
-- Full montage SHA-256: `e876c216541f91715041488efc88d314fb635b6cae055063352c3d9a629b4f98`
+- Source SHA-256: `53fb1b90761091f0c1e95d7aba618e2369624143344d1e8282e635a8b6f3596e`
+- Full Notes SHA-256: `8d0dcfb148f4f46ebdf88178fda1eb3bf25aa5a07d11f20062739e03a62dd2ca`
+- Full montage SHA-256: `c9bf025d58c41f721f08bddf3a73e59266b06ae4700fe7a3a4b009e6f57c40cd`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:31.
@@ -19,6 +19,8 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 - Rendered slide summaries are not raw Trial screenshots or new executions.
 - Prior static readiness, hashes and29-file inventories remain in Git and
   their dated evaluation reports. No presenter bundle is regenerated.
+- DEC-0061 changes S40 and adjacent Notes; all31 fallback PNGs stay unchanged.
+  Current package review: [S40 code evidence](../../production/evaluation/S40_CODE_EVIDENCE_REVISION.md).
 
 ## Runbook to fallback mapping
 

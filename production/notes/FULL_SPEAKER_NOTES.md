@@ -1813,7 +1813,7 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S38 또는 producti
 
 Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
 
-## S39 — Long Context 연구가 말해주는 범위
+## S39 — 많이 담아도 같은 근거를 똑같이 쓰는가?
 
 Slide ID: S39
 
@@ -1829,37 +1829,37 @@ Primary Message: Lost in the Middle은 문서 QA와 key-value 검색에서 근�
 
 Opening Question: “같은 근거가 입력의 어디에 있느냐에 따라 결과가 달랐을까?”
 
-Speaker Flow: 1. (0–1분) 문서 QA와 합성 key-value 검색 과제를 먼저 설명한다.
-2. (1–3분) 같은 근거가 앞/중간/뒤에 있는 세 입력을 비교한다. 도식에는 측정 수치를 넣지 않았다. 당시 일부 모델·과제에서 중간 근거 정답률이 떨어진 관찰을 말한다.
-3. (3–4분) 현재 Codex의 실패 곡선으로 일반화하지 않는다. 다음은 별도의 코드 검색 과제다.
+Speaker Flow: 1. (0:00–1:00) 문서 QA와 합성 key-value 검색 과제에서 같은 근거의 위치를 바꾸는 질문을 설명한다.
+2. (1:00–3:00) 앞/중간/뒤 도식을 가리키고 당시 일부 모델·과제에서 중간 근거 정답률이 낮아진 관찰을 말한다. 수치 없는 구조 그림을 실제 성능 곡선으로 말하지 않는다.
+3. (3:00–4:00) 현재 Codex의 일반 실패나 Routing 효과로 확대하지 않는다. 마지막에 필요한 코드에 도달했다는 답을 어떤 근거로 확인할지 S40으로 넘긴다.
 
 Evidence / Source: Lost in the Middle, Liu et al., TACL2024,12:157–173; https://aclanthology.org/2024.tacl-1.9/; CLM-0014/SRC-0201; DEC-0052/0060. Reconstructed task-position diagram, no numeric score curve.
 
-Claim Boundary: 두 논문의 역사적 모델·과제·조건에 한정한다. 현재 Codex의 Repository coding 실패, 보편적인 중간 정보 무시, 토큰 임계값, 정보를 더 주면 항상 나빠짐, Routing의 우월성·토큰 절약·성능 향상을 주장하지 않는다. RepoQA는 Lost in the Middle의 위치별 곡선을 재현한 연구로 표현하지 않는다. 업무상 확인 질문은 현재 제품에서 측정된 효과가 아니다.
+Claim Boundary: Lost in the Middle의 역사적 모델·과제·조건에 한정한다. 현재 Codex의 실패율, 보편적인 중간 정보 무시, 토큰 임계값, 정보를 더 주면 항상 나빠짐, Routing 우월성·토큰/성능 효과를 주장하지 않는다. 연구의 위치 비교와 실제 코드 탐색 결과 확인은 서로 다른 질문이다.
 
-Beginner Explanation: 왼쪽은 ‘같은 근거가 어디에 있느냐’, 오른쪽은 ‘설명에 맞는 함수를 코드에서 찾느냐’를 평가했다. 넣은 정보량과 필요한 근거를 실제로 활용했는지는 별도로 확인한다.
+Beginner Explanation: 정보가 입력에 있다는 사실만으로 답에 같은 수준으로 활용됐다고 가정하지 않는다. 다음 장에서는 코드 탐색 결과를 확인할 때 어떤 근거를 요구할지 생각한다.
 
-Advanced Insight: RepoQA의 고정된 코드 입력 조건과 함수 유사도 평가는 live agent의 탐색·수정·검증 전체와 다르다. Lost in the Middle에도 과제·모델별 차이가 있다. 연구 관찰, 업무상 설계 판단, 현재 제품의 검증을 분리한다.
+Advanced Insight: 당시 연구의 과제·모델별 결과와 이번 업무의 교육용 확인 기준을 분리한다. 현재 제품의 내부 활용이나 효과를 이 연구로 확정하지 않는다.
 
 C++ Vision Bridge: N/A.
 
 Demo Operation: N/A. 논문 과제의 native 재구성 도식이며 실제 Trial/현재 Codex Screenshot이나 결정론적 실패 Demo가 아니다.
 
-Audience Interaction: 첫 질문에 잠깐 예측하게 한 뒤 두 도식의 입력·조작·평가를 순서대로 짚는다. 새 토론 시간이나 실습을 추가하지 않는다.
+Audience Interaction: 같은 근거의 위치만 바꾼 세 입력을 차례로 가리킨다. 다음 장의 코드 확인 질문은 예고만 하고 연구 둘을 병렬로 다시 설명하지 않는다.
 
-Transition: “코드에서는 단어를 찾는 것보다 설명과 함수 동작을 연결해야 합니다. RepoQA는 무엇을 평가했을까요?”
+Transition: “코드에서도 필요한 구현을 찾았다는 답을 무엇으로 확인할까요?”
 
-Time Management: 도입30초, Lost in the Middle75초, RepoQA75초, 적용 범위60초로4분을 유지한다. 시간이 부족하면 데이터셋 세부 수와 채점 구현 설명을 생략하고 과제·관찰·현재 제품 미입증 경계를 남긴다.
+Time Management: 도입/과제1분, 위치 비교/관찰2분, 적용 한계/다음 질문1분으로 Lecture4분. RepoQA 설명 시간을 이 장에 다시 넣지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S39 또는 production/preview/act2/S39.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S39_RESEARCH_SCOPE_REVISION.md와 검증 JSON을 따른다. 실제 실행 캡처나 현재 제품 결과로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S39; production/preview/act2/S39.png. 코드·연구 도식은 표시된 교육용/발췌 범위다. 최종 패키지·PNG·Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md를 따른다. 실제 실행 캡처나 현재 제품 실행을 뜻하지 않는다.
 
-Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
+Validation Status: REVIEWED — DEC-0061의 질문·기존 코드 인용·보조 연구·S39/S41 운영 연결을 대조했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md에 기록한다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
 
-## S40 — RepoQA는 설명에 맞는 함수를 찾게 했다
+## S40 — AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?
 
 Slide ID: S40
 
-Working Title: RepoQA는 설명에 맞는 함수를 찾게 했다
+Working Title: AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?
 
 ACT / Section: ACT 2 / 2E
 
@@ -1867,35 +1867,36 @@ Allocated Time: 4 minutes
 
 Mode Split: Lecture 4 minutes
 
-Primary Message: RepoQA는 자연어 기능 설명과 코드 입력에서 해당 함수를 반환하는 검색 과제를 평가했다. 수정·도구 실행·테스트를 포함한 Agent 업무를 직접 평가한 것은 아니다.
+Primary Message: 함수 이름이나 찾았다는 답만 받지 말고 파일·함수·관련 줄, 요청 조건과 코드의 대응, 필요한 호출부·테스트 기대값을 확인한다. 세 질문은 교육용 기준이며 RepoQA의 채점 기준이 아니다.
 
-Opening Question: “기능 설명에서 긴 코드 속 해당 함수를 찾을 수 있을까?”
+Opening Question: “AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?”
 
-Speaker Flow: 1. (0–1분) 자연어 기능 설명으로 긴 코드 속 해당 함수를 찾는 과제를 설명한다.
-2. (1–3분) 입력·함수 반환·정답 유사도 비교를 가리킨다. 50저장소/5언어/500과제, 주 평가16K는 연구 조건이다. 모델·언어별 차이라는 제한된 관찰을 말한다.
-3. (3–4분) 수정·도구·테스트를 포함한 현재 Codex 작업을 직접 검증한 연구가 아님을 말하고, 이번 요청에서 실제 근거를 찾았는지 확인할 설계로 돌아온다.
+Speaker Flow: 1. (0:00–0:40) S39에서 정보의 존재와 활용을 구분한 뒤, 코드에서도 찾았다는 답을 무엇으로 확인할지 묻는다. 왼쪽 요청은 교육용이며 새로 실행한 Prompt가 아니다.
+2. (0:40–2:40) 기존 crop 코드 일부를 가리키며 오른쪽 세 질문을 짚는다.01 파일·함수·관련 줄을 특정했는가,02 끝 좌표 제외라는 요청과 실제 코드가 맞는가,03 필요한 호출부·테스트 기대값과도 맞는가. 관련 줄만 떼어 전체 구현 정당성을 단정하지 않는다.
+3. (2:40–3:20) 보조 영역 RepoQA를 짧게 소개한다. 기능 설명으로 긴 코드 속 함수를 찾는 과제를 따로 평가했다. 이번 세 질문은 그 논문의 채점 기준이 아니다.
+4. (3:20–4:00) 이제 확인할 근거를 어디서 찾게 할지 S41의 위치 안내 설계로 넘긴다.
 
-Evidence / Source: BEAT-013, OQ-006, CLM-0015, SRC-0204, DEC-0052, DEC-0060 / RESEARCH
+Evidence / Source: TEACHING_MODEL / RESEARCH. 코드 출처: Demo STATE-00-FIXED의 src/graypipe/transform.py, crop 6–16행 중13행 row[x_start : x_end] 발췌. 동일한 구현 수정은 기존 TRIAL-002/STATE-00-FIXED 기록에 보존돼 있다. 교육용 요청은 구성 예이며 새 탐색 실행이나 원문 Trial Prompt가 아니다. 보조 연구: RepoQA(2024), https://arxiv.org/abs/2406.06025 / CLM-0015 / SRC-0204. DEC-0061.
 
-Claim Boundary: FROZEN WITH SCOPE — DEC-0023의 제한된 연구 주장. 인용과 연구 대상·조건을 유지하며 현재 Codex의 일반 한계로 확장하지 않는다. 결정론적 “중간 내용은 항상 실패” 시연은 하지 않는다.
+Claim Boundary: 세 확인 질문은 이 교육의 업무용 모델이며 공식 제품 규칙이나 RepoQA의 평가 rubric이 아니다. 기존 코드 발췌는 실제 Agent가 이번 요청에서 찾았다는 증거가 아니다. RepoQA의 함수 검색 결과는 현재 Codex의 탐색·수정·도구·테스트 전체를 검증하지 않으며, Routing 우월성·토큰 절약·성능 개선을 입증하지 않는다. 한 코드 줄만으로 전체 계약/구현 정당성을 판단하지 않는다.
 
-Beginner Explanation: 긴 Context가 곧 동일한 활용을 보장한다고 가정하지 않는다.
+Beginner Explanation: 찾았다는 답을 받으면 파일 위치와 관련 코드를 확인하고, 내가 물은 조건에 맞는지 대조한다. 필요한 경우 호출부와 관련 테스트의 기대값도 확인한다.
 
-Advanced Insight: 연구 결과의 대상·조건과 현재 제품 주장을 분리한다.
+Advanced Insight: 보존할 연구 조건: RepoQA는 자연어 기능 설명+코드 입력에서 해당 함수 코드를 반환하게 하고 정답 함수와 유사도를 비교한 함수 검색 과제다.50개 저장소/5개 언어/500개 과제, 주 평가 코드 입력16K(CodeLlama tokenizer 기준)는 실험 조건이며 전체 Prompt 길이나 현재 Codex 한도가 아니다. 모델·언어별 함수 찾기 성능 차이를 관찰한 범위이고 Lost in the Middle의 위치별 곡선을 재현한 연구가 아니다. 이 세 업무용 질문의 효과를 측정한 연구로 설명하지 않는다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A.
+Demo Operation: N/A — 정적 교육용 확인 예. 보존된 코드 한 줄을 인용하며 새 Trial, 검색, 설치, 테스트 실행, PASS/FAIL, 실제 Agent 응답 캡처를 만들지 않는다.
 
-Audience Interaction: 질문을 내면적으로 떠올리게 한다. 별도 Q&A/실습 시간을 더하지 않는다.
+Audience Interaction: “crop 함수입니다라는 이름만 받으면 충분할까요?”를 짧게 던진 뒤 오른쪽 세 질문을 순서대로 가리킨다. 추가 실습·Q&A·소요 시간을 만들지 않는다.
 
-Transition: “연구를 현재 제품 실패의 증거로 쓰지 않고, 이번 Task가 필요한 근거에 도달하는 경로를 설계하겠습니다.”
+Transition: “확인할 근거를 정했다면, 그 명세와 코드를 어디서 찾게 할까요?”
 
-Time Management: Lecture4분. 데이터셋 생성 전 과정·모델 순위표·새 수치 설명은 하지 않는다.
+Time Management: Lecture4분 유지. 도입40초, 세 확인 질문2분, RepoQA 보조40초, S41 handoff40초.50/5/500,16K, 모델 순위·채점 구현은 발표 화면에서 강의하지 않고 필요한 질문 때만 Notes의 범위 안에서 설명한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S40; production/preview/act2/S40.png. A rendered teaching diagram/evidence summary, not a new product screenshot or Trial. Final path/content check pending.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S40; production/preview/act2/S40.png. 코드·연구 도식은 표시된 교육용/발췌 범위다. 최종 패키지·PNG·Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md를 따른다. 실제 실행 캡처나 현재 제품 실행을 뜻하지 않는다.
 
-Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
+Validation Status: REVIEWED — DEC-0061의 질문·기존 코드 인용·보조 연구·S39/S41 운영 연결을 대조했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md에 기록한다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
 
 ## S41 — 필요한 상세 정보로 가는 길
 
@@ -1913,9 +1914,9 @@ Primary Message: 작업 질문에서 관련 상세 명세까지 도달할 위치
 
 Opening Question: “이 요청은 어떤 문서를 근거로 답해야 할까?”
 
-Speaker Flow: 1. (0–1분) 이번 질문을 읽고 필요한 명세 근거가 무엇인지 묻는다.
-2. (1–2분) 요청→기본 안내→관련 상세의 위치 연결만 가리킨다.
-3. (2–3분) 이것은 설계 경로이며 실제 자동 읽기 순서가 아니다. 다음에는 어떤 정보를 공통 입구에 남길지 기준을 정한다.
+Speaker Flow: 1. (0:00–0:30) “앞 장에서 위치·동작·주변 근거를 확인할 질문을 정했습니다. 이제 그 근거를 어디서 찾게 할까요?”로 시작한다.
+2. (0:30–2:10) 요청→AGENTS.md 위치 안내→관련 상세 명세의 관계만 가리킨다. 이 그림은 설계 경로이며 실제 읽기 순서가 아니다.
+3. (2:10–3:00) C++ 알고리즘 명세에도 같은 위치 안내 패턴을 짧게 연결하고 다음 장의 기본 안내/상세 배치 기준으로 넘긴다.
 
 Evidence / Source: TEACHING_MODEL / CONCEPTUAL. BEAT-014, STATE-03, CLM-0003/0005/0014/0015, DEC-0053. Historical Demo tag STATE-03 at f3e2e37b1454e28c5de4c44682ebd49378ebae4b: AGENTS.md17–20의 Context Routing에서 이미지 동작/crop→docs/image-contracts.md를 안내한다. 같은 tag의 docs/image-contracts.md20–24가 half-open crop 명세를 기록한다. plan/DEMO_MATRIX.md의 STATE-03 및 TRIAL-005A/B는 후속 구조·관찰 근거다. 문서명과 명세는 보존 기록을 참조하지만 화면의 요청/안내는 요약·재구성이다. 새 Trial은 실행하지 않았다.
 
@@ -1935,9 +1936,9 @@ Transition: “그렇다면 기본 안내와 상세를 나눌 기준은 무엇�
 
 Time Management: 도입30초, 관계도100초, C++ 패턴과 다음 질문50초로3분을 유지한다. 시간이 부족하면 C++ 설명을 줄이고 작업 질문·안내·명세의 구분과 실제 읽기 순서가 아니라는 경계를 남긴다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S41 또는 production/preview/act2/S41.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S41_CONTEXT_PATH_REVISION.md와 검증 JSON을 따른다. 실제 실행 Screenshot이나 현재 제품의 탐색 결과로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S41; production/preview/act2/S41.png. 코드·연구 도식은 표시된 교육용/발췌 범위다. 최종 패키지·PNG·Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md를 따른다. 실제 실행 캡처나 현재 제품 실행을 뜻하지 않는다.
 
-Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
+Validation Status: REVIEWED — DEC-0061의 질문·기존 코드 인용·보조 연구·S39/S41 운영 연결을 대조했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md에 기록한다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
 
 ## S42 — AGENTS.md에는 무엇을 남길까?
 

@@ -7,7 +7,7 @@ Current schedule:93slides/379minutes; ACT2 S32–S49/18slides/81minutes.
 ## Story
 
 반복 설명 → Project 안내 기록 → 지침 활용 관찰 → 누적 정보의 관련성 문제 →
-범위/시점 구분 → 두 연구의 제한된 질문 → 탐색 경로 → 배치 기준 → 실제 문서
+범위/시점 구분 → 위치 연구의 제한된 관찰 → 코드 탐색 결과 확인(RepoQA 보조) → 탐색 경로 → 배치 기준 → 실제 문서
 재구성 → 두 요청 관찰 → A 답 → B 답 → 접근 비교 → 성과 회수 → 남은 절차 문제.
 ACT3 S50은 실제 두 요청 기록의 대응, S51은 명령·규칙/수행 절차의 유지 책임,
 S52는 normalize 한 Task에 세 책임 적용으로 각각 전진한다.
@@ -24,7 +24,7 @@ S52는 normalize 한 Task에 세 책임 적용으로 각각 전진한다.
 | S37 | README Build 작업에서 AGENTS.md 안 정보의 관련성을 구분한다. | Demo 2분 (CAPTURED) + Reflection 2분 = 4분 |
 | S38 | 공통/상세를 나누고 수행 절차는 미해결 질문으로 남긴다. | Lecture 4분 = 4분 |
 | S39 | Lost in the Middle의 위치 비교 과제와 제한된 관찰을 설명한다. | Lecture 4분 = 4분 |
-| S40 | RepoQA의 함수 검색 과제와 현재 Agent 업무의 차이를 설명한다. | Lecture 4분 = 4분 |
+| S40 | 필요한 코드의 위치·요청 대응·주변 근거를 확인할 질문을 제시하고 RepoQA를 보조로 둔다. | Lecture 4분 = 4분 |
 | S41 | 한 요청에서 관련 명세까지의 설계 경로를 보여준다. | Lecture 3분 = 3분 |
 | S42 | 공통 안내/상세를 어디에 둘지 판단 기준을 제시한다. | Lecture 4분 = 4분 |
 | S43 | 그 기준을 실제 문서에 적용한 전후와 의미 보존을 확인한다. | Lecture 2분 + Demo 2분 (CAPTURED) + Case 1분 = 5분 |
@@ -85,3 +85,12 @@ remain UNVERIFIED. No presenter bundle, Demo repository change or new Trial.
 DEC-0060 duration-label alignment: current S86 changes only the outdated six-hour recap title to “전체 Story를 한 장으로”. Its Story/Beat/time/Mode/evidence content remain unchanged. The earlier duration wording stays in historical records.
 
 S48 uses existing T03-A: four scoped observation nodes connected in teaching Story order, not four comparison alternatives or a causal chain.11Templates/27Variants remain.
+
+## DEC-0061 — Current S39–S41 refinement
+
+S39's research remains the bounded position-comparison study. S40 now asks
+what evidence supports a code-search result, with an existing crop excerpt
+and three course-model questions; RepoQA is supporting evidence only. S41
+then asks how to reach those sources. The previous independent RepoQA
+lecture description is the earlier DEC-0060 design, not the current primary
+role. Slide count93/time379/ACT2 81/Lecture4 for S40 remain unchanged.
