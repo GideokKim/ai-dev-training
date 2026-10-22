@@ -542,7 +542,7 @@
       "slideId": "S54",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "과거 Codex CLI에서 Repository Skill을 발견하고 명시적으로 호출한 경로를 보여준다. 원자료의 IDE 설치나 prompting 방법으로 환산하지 않는다. DEC-0062: 새 작업의 업무 목적을 소개하고 발견·명시 호출·본문 포함이라는 서로 다른 관찰을 구분한다.",
+      "rationale": "과거 Codex CLI에서 Repository Skill을 발견하고 명시적으로 호출한 경로를 보여준다. 원자료의 IDE 설치나 prompting 방법으로 환산하지 않는다. DEC-0062: 새 작업의 업무 목적을 소개하고 발견·명시 호출·본문 포함이라는 서로 다른 관찰을 구분한다. DEC-0066: 목록 발췌·명시 호출 요청·실행 trace의 본문 근거를 구분한다. 과거 CLI 범위와 기존 모듈 연결을 유지한다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },

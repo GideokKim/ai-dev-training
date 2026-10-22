@@ -7718,3 +7718,85 @@ Render Full93 and ACT3 18slides, inspect S52/S53/S54 and compare92 other Full
 PNGs/Notes. Preserve per-slide budgets, native tables/chart and current paths.
 Follow standing Git checkpoint instructions; keep bundles paused and Windows,
 room, current product-account and timed rehearsal UNVERIFIED.
+
+
+# DEC-0066 — clarify Skill reuse connectors and CLI inclusion evidence
+
+## Status
+
+ACCEPTED — explicit user request to polish S53 connectors and explain S54
+with observed discovery, invocation and instruction-body evidence.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S53 mixes thick block arrows with a thin branch. S54 lists observations but
+does not visually separate where each type of evidence was found.
+
+## Problem
+
+Make the shared method diagram coherent and connect its design intent to
+readable CLI evidence without implying current product behavior or compliance.
+
+## Decision
+
+Retain S53 content and replace its mixed connector geometry with a uniform
+stroke and small native arrowheads. Recompose S54 as three evidence locations:
+the /skills entry, the explicit task request and the trace's Skill entry.
+Show the retained name, request invocation, bounded task summary, relative
+path and whole-body inclusion. Label excerpts, translations and reconstruction.
+Preserve93slides/379minutes, S53 Lecture4, S54 Demo5, all IDs/Mode, T05-A/T07-A
+and existing Claim Status. Align only S53/S54 Notes; keep S55's action review.
+
+## Rationale
+
+Uniform connectors make one shared source easier to follow. Separating the
+three evidence locations lets learners see what was observed at each point
+and why a selector entry alone does not establish instruction-body inclusion.
+
+## Alternatives
+
+Enlarge the existing list: leaves the evidence locations implicit.
+Invent terminal screenshots or a load event: exceeds the retained evidence.
+Show the entire Skill body: crowds this slide and preempts S55's review.
+
+## Trade-offs
+
+The request uses a Korean summary and the trace uses a relative path and
+body-range summary. Notes preserve the exact request's scope and no-change
+allowance. The observed record is historical and cannot approve a current
+surface, implicit invocation, compliance, efficiency or isolated causality.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-005, INV-MATURITY-006, INV-MATURITY-011,
+INV-VERIFY-001, INV-DEMO-004.
+
+## Affected Artifacts
+
+S53/S54 factory and Notes, Map/template descriptions, ACT3 flow/claim note,
+Full/ACT3 packages/previews, DEMO-03 static fallback identity and current
+handoff/review documents. Other ACT packages, image assets, product repository,
+State tags, Trial results and paused presenter bundles remain unchanged.
+
+## Evidence
+
+User request; DEC-0017/0062/0065; plan/DEMO_MATRIX.md TRIAL-008 discovery,
+invocation and load evidence. Read-only reinspection of the retained session
+01a0f22c-e6a8-7e50-a4e1-4a581d62266c confirms the task prompt and full Skill
+body. No new Trial, product replay, benchmark or research result is added.
+
+## Training Relevance
+
+YES — distinguish intended reuse, explicit invocation and observed body
+inclusion before judging how the instructions relate to the actual work.
+
+## Follow-up
+
+Render Full93 and ACT3 18slides, inspect S52–S55, compare91 other PNGs/Notes,
+and update DEMO-03's changed S54 fallback identity. Preserve budgets and native
+tables/chart. Follow standing Git checkpoint instructions and retain Windows,
+room, product-account and timed rehearsal as UNVERIFIED.

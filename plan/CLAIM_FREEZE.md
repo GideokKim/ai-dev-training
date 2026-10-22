@@ -446,3 +446,18 @@ token or performance improvement. Keep Task scope/preservation conditions
 and project criteria; AGENTS.md may also contain procedures. Actual CLI
 discovery/invocation/body evidence follows on S54, without current Desktop
 guarantees. All timing/IDs/Mode and existing causality limits remain.
+
+
+## DEC-0066 — S53 connector polish and S54 CLI evidence
+
+S53 retains intended reuse and one-place maintenance, with consistent native
+line connectors. S54 retains OBSERVED_PRODUCT / FROZEN WITH SCOPE and the
+current-product check. Three excerpts/record reconstructions distinguish
+selector discovery, explicit task invocation and the successful run's trace.
+The selector showed a name and truncated description, not a file path. The
+trace contained the same name, workspace Skill path and full instruction
+body. The displayed path is repository-relative and the request is an excerpt
+with a Korean summary. No invented load event or actual-UI screenshot is shown.
+Full body inclusion does not establish compliance, isolated causality, implicit
+invocation, superiority, token savings or present-day Desktop behavior.
+S55 retains instruction/action correspondence; IDs, times and Mode stay fixed.

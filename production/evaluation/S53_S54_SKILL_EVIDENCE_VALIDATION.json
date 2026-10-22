@@ -1,0 +1,107 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-22",
+  "baseline": "1c6944d",
+  "decision": "DEC-0066",
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act3SlideCount": 18,
+  "act3Minutes": 85,
+  "changedVisualSlides": [
+    "S53",
+    "S54"
+  ],
+  "changedNotes": [
+    "S53",
+    "S54"
+  ],
+  "unchangedOtherVisualPNGs": 91,
+  "unchangedOtherNotesRecords": 91,
+  "fieldsPerNotes": 19,
+  "notesRecords": 93,
+  "renderedPNGs": 111,
+  "fullAct3PNGParity": 18,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "nativeTables": [
+    "S47",
+    "S55"
+  ],
+  "nativeChart": "S58",
+  "nativeChartDataUnchanged": true,
+  "templates": 11,
+  "variants": 27,
+  "newTrial": false,
+  "newProductTest": false,
+  "demoRepositoryUnchanged": true,
+  "otherACTPackagesUnchanged": true,
+  "approvedImageFilesUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "375620dd45779014f827db19b19dc524642774ed5db1e1c5c3ae84bf74c8a0f3"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "d33c363aa464e2741510cac1e58aaaca9b04b5b94d4e3dc1aec4f4cd3e70acb7"
+    }
+  ],
+  "fullNotesSha256": "b82b5f59c34e10660ea9dbd71dff96903eefc0d2c30efb9c53d538de28ac9f20",
+  "fullMontageSha256": "4f481f9b79ee24812790b758fa8ca07a786368e8a5ced096279cb0dcf0ad4184",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "historicalEvidenceAudit": {
+    "sessionId": "01a0f22c-e6a8-7e50-a4e1-4a581d62266c",
+    "requestLine": 20,
+    "skillBodyLine": 22,
+    "fullBodyMatchesState04": true,
+    "skillBodySha256": "9a09fe0b65a84535d87d03306972152e3f21f5ca428c7b1ea647822c4a47a51a",
+    "newExecution": false
+  },
+  "individualVisualReview": [
+    "S52",
+    "S53",
+    "S54",
+    "S55"
+  ],
+  "staticFallbackInventory": 32,
+  "changedFallbackSlides": [
+    "S54"
+  ],
+  "documentAudit": {
+    "status": "PASS",
+    "changedFiles": 29,
+    "introducedLocalLinksChecked": 32,
+    "fallbackPNGsChecked": 32,
+    "changedFallbackSlides": [
+      "S54"
+    ],
+    "otherVisualPNGsUnchanged": 91,
+    "sourceOfTruthBudgetsPreserved": true,
+    "priorDecisionHistoryPreserved": true,
+    "historicalHandoffPreserved": true,
+    "currentArtifactsAndHashesMatch": true,
+    "otherACTPackagesUnchanged": true,
+    "demoRepositoryUnchanged": true,
+    "sensitiveTemporaryFiles": false
+  }
+}

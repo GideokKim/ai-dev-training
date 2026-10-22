@@ -1,5 +1,11 @@
 # ACT3 Flow Revision — DEC-0062
 
+Current S53/S54 refinement: DEC-0066. Keep S53's reuse diagram while giving
+its branches a consistent stroke. S54 shows three source locations: CLI
+selector excerpt, explicit task request and the trace's full Skill body.
+Keep S55 responsible for instruction/action correspondence. Preserve93/379
+and the S53 Lecture4 / S54 Demo5 allocation. Review: [S53/S54 revision](../production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md).
+
 Current S53 refinement: DEC-0065. Show task-specific requests using a single
 project Skill, with one-place procedure maintenance as the design rationale.
 Preserve S52 combined application and S54 actual discovery/invocation evidence.
@@ -42,7 +48,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S51 | Apply known commands/specifications at different times with explicit judgment questions; DEC-0063. |Lecture4|
 | S52 | Apply the goal and reusable method to one normalize work area bounded by existing specifications; DEC-0064. |Lecture5|
 | S53 | Separate task-specific requests from one reusable Skill and show one-place maintenance intent; DEC-0065. |Lecture4|
-| S54 | Introduce brightness statistics and separate CLI discovery/invocation/body observations. |Demo5|
+| S54 | Visually distinguish selector, explicit request and trace/body evidence; DEC-0066. |Demo5|
 | S55 | Pair real Skill excerpts with three retained observation summaries in a native table. |Demo3+Case3|
 | S56 | Separate reusable procedure, no-change allowance and task-specific answer. |Lecture3|
 | S57 | Preserve the qualitative candidate trade-off and six-field correctness scope. |Case5|

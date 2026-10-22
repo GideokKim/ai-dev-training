@@ -2,7 +2,10 @@
 
 갱신일:2026-10-22 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 내용 수정은 DEC-0065의 S53이다. 작업마다 바뀌는 요청과 공통 Skill 한 개를
+최신 수정은 DEC-0066의 S53–S54다. S53의 선·화살촉 굵기를 맞추고 S54에서
+목록·명시 호출·실행 trace의 본문 근거를 시각화했다. 보존된 성공 요청과
+전체 Skill 본문을 대조했으며, 실제 UI 캡처나 새 제품 실행으로 제시하지 않는다.
+이전 내용 수정은 DEC-0065의 S53이다. 작업마다 바뀌는 요청과 공통 Skill 한 개를
 연결하고, 반복 절차를 한 곳에서 관리하려는 이유와 Notes를 정렬했다.
 이전 내용 수정은 DEC-0064의 S52다. 이번 목표가 기준으로 둘러싼 한 작업에
 들어오고 재사용할 방법을 적용하는 관계와 Notes를 정렬했다. 이전 DEC-0063은 S51에서 명령을 변경 전·후에 사용하는 시점과
@@ -15,13 +18,14 @@ ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `9f2f7bedcafff8a8cf853574498586b7d2d3274280bcac9ed97b426895aec39c` |
+| PPT SHA-256 | `375620dd45779014f827db19b19dc524642774ed5db1e1c5c3ae84bf74c8a0f3` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `4d8cd082ead3a009d3e2e4e117bc5d635f2ea58dd17d521b0ff3d684bd26b3f6` |
+| Notes SHA-256 | `b82b5f59c34e10660ea9dbd71dff96903eefc0d2c30efb9c53d538de28ac9f20` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `4fad32e7eb0fec4a509f39d03fd3fa9f67c1e060499cb50f1169915813eade22` |
+| Montage SHA-256 | `4f481f9b79ee24812790b758fa8ca07a786368e8a5ced096279cb0dcf0ad4184` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [S53 Skill 재사용과 관리 이유](S53_SKILL_REUSE_REVISION.md) |
+| 최신 검토 | [S53 연결선·S54 CLI 근거](S53_S54_SKILL_EVIDENCE_REVISION.md) |
+| 이전 S53 검토 | [Skill 재사용과 관리 이유](S53_SKILL_REUSE_REVISION.md) |
 | 이전 S52 검토 | [목표·기준·방법의 결합](S52_TASK_COMPOSITION_REVISION.md) |
 | 이전 S51 검토 | [명령 적용과 판단](S51_COMMAND_WORKFLOW_REVISION.md) |
 | 이전 ACT3 전체 검토 | [흐름 개선](ACT_3_FLOW_REVISION.md) |
@@ -59,6 +63,11 @@ DEC-0064에서는 최종 Full93장·ACT3 18장을 렌더링하고 S51–S53의 �
 DEC-0065에서는 최종 Full93장·ACT3 18장을 렌더링하고 S52–S54의 연결을 개별
 검토했다. S53만 화면·Notes를 수정했으며 다른92개 PNG·Notes와 장별 시간·Mode,
 기존 근거 범위는 유지한다. 새 Trial이나 실제 제품 실행은 없다.
+
+DEC-0066에서는 Full93장·ACT3 18장을 렌더링하고 S52–S55를 개별 검토했다.
+S53의4개 중앙 선은 동일3px이며 S54는 실제 기록의 발췌·번역·요약을 구분한다.
+다른91장 PNG·Notes, 장별 시간·Mode와 다른 ACT 패키지는 그대로다. 정적 대안
+32개 중 S54의 파일 식별자만 갱신했다. 원문 재확인은 새 Trial 실행이 아니다.
 
 ## 사용자가 확인할 남은 조건
 

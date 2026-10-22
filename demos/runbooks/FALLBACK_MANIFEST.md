@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0065 local static-file inventory only (2026-10-22).
+Status: READY — DEC-0066 local static-file inventory only (2026-10-22).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `9f2f7bedcafff8a8cf853574498586b7d2d3274280bcac9ed97b426895aec39c`
-- Full Notes SHA-256: `4d8cd082ead3a009d3e2e4e117bc5d635f2ea58dd17d521b0ff3d684bd26b3f6`
-- Full montage SHA-256: `4fad32e7eb0fec4a509f39d03fd3fa9f67c1e060499cb50f1169915813eade22`
+- Source SHA-256: `375620dd45779014f827db19b19dc524642774ed5db1e1c5c3ae84bf74c8a0f3`
+- Full Notes SHA-256: `b82b5f59c34e10660ea9dbd71dff96903eefc0d2c30efb9c53d538de28ac9f20`
+- Full montage SHA-256: `4f481f9b79ee24812790b758fa8ca07a786368e8a5ced096279cb0dcf0ad4184`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -27,7 +27,11 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 - DEC-0064 changes only S52 on screen and in Notes. All32 fallback PNGs
   are unchanged. [Prior S52 review](../../production/evaluation/S52_TASK_COMPOSITION_REVISION.md).
 - DEC-0065 changes only S53 on screen and in Notes. All32 fallback PNGs
-  are unchanged. [Current package review](../../production/evaluation/S53_SKILL_REUSE_REVISION.md).
+  are unchanged. [Prior S53 review](../../production/evaluation/S53_SKILL_REUSE_REVISION.md).
+
+- DEC-0066 aligns S53 connectors and S54 CLI evidence. Only S54 changes in
+  the32-file fallback inventory; the other31 PNGs keep their prior hashes.
+  [Current package review](../../production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md).
 
 ## Runbook to fallback mapping
 
@@ -63,7 +67,7 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 | S45 | `production/preview/full/S45.png` |1920×1080| `0a2ead861431b9e95c90fba0e59a3061b4844dee433c00f7668496eabe47fba2` |
 | S46 | `production/preview/full/S46.png` |1920×1080| `6f8a1fa302b4239fd7f078cd3559eafefa3b48cf84599b158244e893452b113a` |
 | S47 | `production/preview/full/S47.png` |1920×1080| `bbf43ab3e8279fa8df136e6393dbd434650df6689af065c16d372424a45490ee` |
-| S54 | `production/preview/full/S54.png` |1920×1080| `2ac593aec3ae0eb591f00e41ee27a2e0b8c4a151553c0a55ecd5c31fc49b0564` |
+| S54 | `production/preview/full/S54.png` |1920×1080| `27808fcdc5d28fa56fc66a80aabe68d7e2ab449e3ae7eb1a2e114e6fc48fd219` |
 | S55 | `production/preview/full/S55.png` |1920×1080| `020e63445249348ed5bc6464395782dc9dd212801685ec82ce4b6fc5d12e4830` |
 | S59 | `production/preview/full/S59.png` |1920×1080| `7526870ecd3a353e2055cca513018455c4f895a8cd57efae6474ac18ed564709` |
 | S60 | `production/preview/full/S60.png` |1920×1080| `154bebd277f13f2db29a0576ea62025cd915c4262e0cfcc0e4040fc8891ed02e` |

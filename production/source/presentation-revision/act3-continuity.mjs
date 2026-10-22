@@ -106,29 +106,47 @@ export async function loadAct3ContinuitySlides(root, previous) {
    text(s,'graypipe-performance / SKILL.md',756,302,440,32,22,C.ink,true,CODE);
    line(s,756,346,440);
    ['측정·조사','계획·변경 판단','검증·동일 측정·보고'].forEach((t,i)=>text(s,t,756,361+i*49,440,38,28,C.ink,true));
-   s.shapes.add({geometry:'line',position:{left:665,top:304,width:0,height:155},fill:'none',line:{fill:C.teal,width:2}});
-   line(s,665,382,71,C.teal,2);
-   [304,459].forEach(y=>s.shapes.add({geometry:'leftArrow',position:{left:568,top:y-11,width:97,height:22},fill:C.teal,line:{fill:'none',width:0}}));
+   // One stroke weight and native arrowheads keep the shared branch consistent.
+   s.shapes.add({geometry:'line',position:{left:665,top:304,width:0,height:155},fill:'none',line:{fill:C.teal,width:3}});
+   line(s,665,382,71,C.teal,3);
+   [304,459].forEach(y=>s.shapes.add({geometry:'connector',kind:'straight',position:{left:558,top:y,width:107,height:0},line:{fill:C.teal,width:3},head:{type:'triangle',width:'sm',length:'sm'}}));
    text(s,'재사용',568,367,84,30,23,C.teal,true);
    text(s,'같은 절차를 매번 다시 쓰지 않고, 한 곳에서 관리한다',64,559,1152,38,30,C.teal,true);
    return s;
   },
   S54(p){
-   const s=make(p,'S54','Skill의 발견과 본문 포함을 확인했다','ACT 3 · 밝기 통계 작업에서 확인한 CLI 기록',
-    'TRIAL-008 · Codex CLI 0.154.0 · 아래는 기록 요약·재구성이며 실제 UI 캡처가 아님',
-    '별도 load UI 이벤트 없음 · 본문 포함이 모든 지침 준수나 현재 Desktop 동작을 보장하지 않음','OBSERVED_PRODUCT');
-   const rows=[
-    ['01','목록에서 발견','/skills → graypipe-performance','이름과 잘린 설명이 표시됨 · 경로는 목록에 없었음'],
-    ['02','작업과 함께 명시적으로 호출','$graypipe-performance','밝기 통계(image_statistics)의 시간·할당량 조사'],
-    ['03','실행 기록에서 본문 포함 확인','.agents/skills/graypipe-performance/SKILL.md','이름·경로·전체 지침 본문이 실행 trace에 포함됨']
+   const s=make(p,'S54','Skill 발견·호출·본문 포함의 근거','ACT 3 · 밝기 통계 작업에서 확인한 CLI 기록',
+    'TRIAL-008 · Codex CLI 0.154.0 · 기록 발췌·번역·재구성 (실제 UI 캡처 아님)',
+    '별도 load 이벤트 없음 · 지침 준수의 보장은 아님 · 현재 Desktop·암묵 호출 미검증','OBSERVED_PRODUCT');
+   text(s,'재사용할 방법을 밝기 통계(image_statistics) 요청에 연결했다',64,174,1152,40,29,C.teal,true);
+   const stages=[
+    [64,328,'01  목록에서 발견'],
+    [432,368,'02  요청에 명시 호출'],
+    [840,376,'03  실행 기록 확인']
    ];
-   rows.forEach(([num,title,detail,scope],i)=>{
-    const y=212+i*125;line(s,64,y,1152);
-    text(s,num,64,y+14,60,38,26,C.teal,true,CODE);
-    text(s,title,151,y+9,1065,38,29,C.ink,true);
-    text(s,detail,151,y+52,1065,33,i===2?24:29,C.teal,true,CODE);
-    text(s,scope,151,y+90,1065,30,24,C.sub);
+   stages.forEach(([x,w,title])=>{
+    text(s,title,x,228,w,37,26,C.ink,true);
+    line(s,x,272,w,C.teal,3);
    });
+   [402,810].forEach(x=>s.shapes.add({geometry:'connector',kind:'straight',position:{left:x,top:247,width:20,height:0},line:{fill:C.teal,width:3},tail:{type:'triangle',width:'sm',length:'sm'}}));
+   // Native evidence excerpts: no terminal chrome or invented UI events.
+   text(s,'/skills',64,294,328,35,26,C.teal,true,CODE);
+   rect(s,64,345,328,126,C.white,C.line,1);
+   text(s,'graypipe-performance',80,357,296,34,23,C.teal,true,CODE);
+   text(s,'Investigate repository\nperformance with reproduc…',80,404,296,52,19,C.sub,false,CODE);
+   text(s,'이름·설명 일부 표시\n목록에는 경로가 없었음',64,490,328,66,24,C.sub);
+   rect(s,432,294,368,244,C.white,C.line,1);
+   text(s,'실제 요청의 발췌·번역 요약',448,306,336,29,20,C.sub);
+   text(s,'$graypipe-performance',448,348,336,34,24,C.teal,true,CODE);
+   line(s,448,394,336);
+   text(s,'image_statistics 조사\n실행 시간 또는 할당량 개선\n결과 6항목 보존 · 범위 한정',448,410,336,107,24,C.ink);
+   text(s,'실행 trace의 <skill> 항목',840,294,376,32,23,C.sub);
+   text(s,'graypipe-performance',840,339,376,34,24,C.teal,true,CODE);
+   text(s,'.agents/skills/\ngraypipe-performance/SKILL.md',840,386,376,58,21,C.ink,false,CODE);
+   rect(s,840,466,376,72,C.pale,C.line,1);
+   text(s,'SKILL.md 전체 본문 포함',856,475,344,32,26,C.teal,true);
+   text(s,'절차 · 보고 · 제약',856,509,344,24,21,C.sub);
+   text(s,'이름·경로·전체 본문으로, 이번 작업에 포함된 지침을 확인했다',64,566,1152,35,28,C.teal,true);
    return s;
   },
   S55(p){

@@ -1,8 +1,10 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
+> **최신 S53–S54 수정: DEC-0066.** S53의 연결선 굵기를 통일하고, S54의 목록·명시 호출·본문 포함 근거를 시각적으로 연결한다. [수정 검토](../production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md).
+
 > **현재 기준: DEC-0060 / 93장·379분 (2026-10-22).** ACT 2 전체 흐름 개선을 승인받아 연구 설명을 분리하고 의존성 답변/성과 회수3장을 보강했다. ACT 2는 S32–S49,18장·81분이다. 기존90장 내용과 각 장의 시간은 보존하며 신규 Lecture6/Case4/Reflection1분을 더한다. [90→93 번호·역할 대조](SLIDE_ID_MIGRATION_93.md). 사용자 허용 상한720분이며379분은 제작 기준, 리허설 실측은 UNVERIFIED다.
 
-> **최신 S53 내용 수정: DEC-0065.** 작업마다 바뀌는 요청과 공동 관리할 Skill의 재사용 관계·선택 이유를 시각화한다. [S53 수정 검토](../production/evaluation/S53_SKILL_REUSE_REVISION.md).
+> **이전 S53 내용 수정: DEC-0065.** 작업마다 바뀌는 요청과 공동 관리할 Skill의 재사용 관계·선택 이유를 시각화한다. [S53 수정 검토](../production/evaluation/S53_SKILL_REUSE_REVISION.md).
 
 > **이전 S52 내용 수정: DEC-0064.** 목표·프로젝트 기준·재사용할 수행 방법이 한 작업에 적용되는 관계를 시각화한다. [S52 수정 검토](../production/evaluation/S52_TASK_COMPOSITION_REVISION.md).
 
@@ -1422,7 +1424,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; DEC-0017은 ACCEPTED. 현재 교육 환경에서의 Product availability는 `REQUIRES PRODUCT CHECK`. Skill discovery/invocation Trial 결과는 다음 구간에 둔다.
-- **Visual Concept:** 왼쪽 두 작업의 교육용 요청 요약과 오른쪽 프로젝트 Skill 문서 한 개를 배치한다. 같은 Skill에서 두 작업으로 갈라지는 재사용 연결과 한 곳에서 관리한다는 이유를 표시한다. 실제 UI나 호출 결과는 보여주지 않는다.
+- **Visual Concept:** 왼쪽 두 요청은 목표·허용 범위·보존 조건이 달라짐을 보여준다. 오른쪽 Skill 하나에서 동일한 3px 선과 작은 화살촉으로 두 요청에 연결하고, 같은 절차를 한 곳에서 관리한다는 이유를 하단에 둔다. 연결은 교육용 재사용 관계이며 실제 호출 기록이 아니다.
 - **Demo / Case Connection:** 저장소 소유의 재사용 절차를 검토하기로 한 결정까지만 보여준다. 성공 결과나 Skill 전문은 제시하지 않는다.
 - **Beginner Payoff:** 이번 요청에서 정할 내용과 여러 작업에 다시 연결할 방법을 구분하고 반복 절차를 Skill에 모으는 이유를 이해한다.
 - **Advanced Payoff:** Task별 적용 조건과 공동 갱신할 절차의 관리 단위를 분리하며, 설계 선택과 실제 발견·호출 근거를 구분한다.
@@ -1431,32 +1433,32 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Transition:** “이제 당시 CLI 기록에서 이 Skill이 어떻게 발견되고, 작업 요청과 함께 호출됐는지 확인하겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-020, BEAT-021, DEC-0017, TRIAL-006, TRIAL-007, TRIAL-008, OQ-005, DEC-0062, DEC-0064, DEC-0065
+- **Evidence / Decision References:** BEAT-020, BEAT-021, DEC-0017, TRIAL-006, TRIAL-007, TRIAL-008, OQ-005, DEC-0062, DEC-0064, DEC-0065, DEC-0066
 
 
-#### S54 — Skill의 발견과 본문 포함을 확인했다
+#### S54 — Skill 발견·호출·본문 포함의 근거
 
 - **Slide ID:** S54
 - **ACT:** ACT 3
 - **Section:** 3C Reusable Skill
-- **Working Title:** Skill의 발견과 본문 포함을 확인했다
-- **Primary Role:** 새 작업의 업무 목적을 소개하고 발견·명시 호출·본문 포함이라는 서로 다른 관찰을 구분한다.
-- **Audience Question:** “반복 방법을 담은 Skill이 이번 작업에 포함됐다는 것을 무엇으로 확인했을까?”
-- **Core Message:** TRIAL-008의 CLI 목록에서 이름과 설명을 발견하고, 밝기 통계 작업 목표와 함께 명시 호출했으며, 실행 trace에 경로와 전체 본문이 포함된 것을 확인했다. 별도 load UI 이벤트는 없었다.
+- **Working Title:** Skill 발견·호출·본문 포함의 근거
+- **Primary Role:** S53에서 선택한 Skill을 실제 새 작업에 연결한 기록을, 목록에서의 발견·요청의 명시 호출·실행 trace의 본문 확인이라는 세 근거로 시각화한다.
+- **Audience Question:** “함께 관리할 Skill이 이번 작업에 포함됐다는 것을 어떤 기록으로 확인할까?”
+- **Core Message:** TRIAL-008의 /skills 목록에는 이름·설명 일부가 보였고, 밝기 통계 작업 요청에 $graypipe-performance를 명시했다. 성공한 실행의 trace에는 같은 이름, Skill 경로와 전체 본문이 포함됐다. 이 관찰과 실제 지침 수행 여부는 구분한다.
 - **Story Beat:** BEAT-021 — Repository Skill의 발견과 호출
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; Codex CLI 0.154.0에서 관찰. Desktop 동작과 암묵적 호출은 검증하지 않음. 현재 제품 표면의 상태는 **REQUIRES PRODUCT CHECK**.
-- **Visual Concept:** 세 관찰 행: /skills의 이름·설명 / 명시 호출+밝기 통계 목표 / 실행 trace의 경로·본문. 기록 요약임을 표시한다.
-- **Demo / Case Connection:** TRIAL-008의 발견·호출 장면을 짧게 제시한다.
-- **Beginner Payoff:** 긴 절차를 매번 프롬프트에 다시 적는 대신 Repository의 재사용 절차를 찾을 수 있다.
-- **Advanced Payoff:** 발견과 명시적 호출을 구분하고, 확인된 인터페이스 범위도 구분한다.
+- **Visual Concept:** 왼쪽 /skills의 보존된 이름·잘린 설명, 가운데 명시 호출과 실제 요청의 발췌·번역 요약, 오른쪽 실행 trace의 이름·경로·전체 본문 영역을 가로로 연결한다. 본문을 길게 복제하지 않고 전체 본문 포함을 확인한 위치를 강조한다. 실제 UI 캡처가 아닌 기록 재구성임을 표시한다.
+- **Demo / Case Connection:** DEMO-03 / TRIAL-008. 세 번째 성능 조사인 image_statistics의 실행 시간 또는 할당량 조사 요청. 기본은 검증된 정적 기록 도식이며 현재 Live/Hybrid는 미활성이다.
+- **Beginner Payoff:** 목록에서 찾은 이름을 요청에 명시하고, 실행 기록에서 해당 Skill의 전체 지침이 들어왔는지 확인하는 흐름을 읽는다.
+- **Advanced Payoff:** 목록의 발견 증거, 사용자가 명시한 호출, 실행에 제공된 본문 증거를 구분한다. 본문 포함만으로 지침 준수·효과·다른 제품 표면을 보장하지 않는다.
 - **C++ Vision Bridge:** 없음. 이 장에서 억지로 연결하지 않는다.
-- **Speaker Intent:** 새 작업의 업무 목적을 소개하고 발견·명시 호출·본문 포함이라는 서로 다른 관찰을 구분한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
-- **Transition:** “본문이 포함됐다는 사실과, 지침에 대응하는 작업 기록을 다음 장에서 구분해 보겠습니다.”
+- **Speaker Intent:** S53의 공통 절차 관리 의도를 실제 CLI 기록으로 회수한다. 각 영역에서 무엇을 관찰했는지 짚고, S55에서 확인할 지침과 행동의 대응은 미리 결론 내리지 않는다.
+- **Transition:** “이름과 전체 본문이 포함된 근거는 확인했습니다. 다음은 그 지침과 실제 작업 기록을 대응해 보겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Demo 5분 (HYBRID) = 5분
-- **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005, DEC-0062
+- **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0066
 
 
 #### S55 — Skill의 지침과 관찰된 작업을 대응한다

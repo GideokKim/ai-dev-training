@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest content refinement: DEC-0065 / S53 reusable Skill rationale.
+Latest refinement: DEC-0066 / S53 connector consistency and S54 CLI evidence.
+Use one native line weight for S53. S54 distinguishes the selector excerpt,
+explicit task request and trace name/path/full body. Align S53/S54 Notes and
+rebuild Full/ACT3 only. Keep93/379, S53 Lecture4, S54 Demo5 and other91 pages.
+Review: `production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md`.
+
+Previous content refinement: DEC-0065 / S53 reusable Skill rationale.
 Only S53 changes visually and in Notes. A single project Skill supplies
 a reusable method to task-specific request summaries; links are design
 intent, not recorded calls. Keep93/379 and S53 Lecture4.

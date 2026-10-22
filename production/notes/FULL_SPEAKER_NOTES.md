@@ -2451,15 +2451,15 @@ Transition: “이제 당시 CLI 기록에서 이 Skill이 어떻게 발견되�
 
 Time Management: Lecture4분: S52 회수0.75, 요청/기준 구분1, 공통 Skill과 관리 이유1.25, 선택 범위/S54 연결1. 시간이 부족하면 절차 항목 설명을 줄이고 Task별 정보·한 곳의 방법·설계 경계는 유지한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S53, production/preview/act3/S53.png 및 production/preview/full/S53.png. 실제 실행 캡처가 아닌 교육용 선택·재사용 도식이다. 최종 패키지·PNG·내장 Notes 확인은 production/evaluation/S53_SKILL_REUSE_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S53, production/preview/act3/S53.png 및 production/preview/full/S53.png. 실제 실행 캡처가 아닌 교육용 선택·재사용 도식이다. 최종 패키지·PNG·내장 Notes 확인은 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md를 따른다.
 
-Validation Status: ALIGNED — DEC-0065의19필드·4분 운영·교육용/제품 확인 경계를 정렬했다. 실제 파일 렌더·Notes 대조는 production/evaluation/S53_SKILL_REUSE_REVISION.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0065의19필드·4분 운영·교육용/제품 확인 경계를 유지하고 DEC-0066의 동일 굵기 연결선과 정렬했다. 실제 파일 렌더·Notes 대조는 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S54 — Skill의 발견과 본문 포함을 확인했다
+## S54 — Skill 발견·호출·본문 포함의 근거
 
 Slide ID: S54
 
-Working Title: Skill의 발견과 본문 포함을 확인했다
+Working Title: Skill 발견·호출·본문 포함의 근거
 
 ACT / Section: ACT 3 / 3C
 
@@ -2467,38 +2467,39 @@ Allocated Time: 5 minutes
 
 Mode Split: Demo 5 minutes (HYBRID planned; activation unverified)
 
-Primary Message: TRIAL-008의 CLI 목록에서 이름과 설명을 발견하고, 밝기 통계 작업 목표와 함께 명시 호출했으며, 실행 trace에 경로와 전체 본문이 포함된 것을 확인했다. 별도 load UI 이벤트는 없었다.
+Primary Message: 당시 CLI에서 Skill을 목록으로 찾고 요청에 명시한 사실과, 실행 trace에 이름·경로·전체 본문이 포함된 근거를 각각 확인한다. 본문이 포함된 사실과 실제 지침 수행은 구분한다.
 
-Opening Question: “반복 방법을 담은 Skill이 이번 작업에 포함됐다는 것을 무엇으로 확인했을까?”
+Opening Question: “공통 방법을 Skill에 두었다면, 이번 작업에 실제로 포함됐다는 것을 무엇으로 확인할까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 크기 변경·정규화 다음에도 재사용할 수 있는 밝기 통계(image_statistics)의 시간/할당량 조사라는 목적을 소개한다. 새로 실행한 Task가 아니다.
-2. (1:00–2:30) /skills 목록의 이름·잘린 설명과 명시적 $graypipe-performance 호출을 설명한다. 목록에는 파일 경로가 없었다.
-3. (2:30–4:00) 실행 trace에 이름·경로·전체 Skill 본문이 포함된 관찰을 짚는다. 별도 UI load 이벤트나 모든 지침 준수의 증명으로 표현하지 않는다.
-4. (4:00–5:00) CLI0.154.0, 성공한 계정/모델 실행의 범위와 현재 Desktop/암묵 호출 미검증을 말한다.
+1. (0:00–0:45) S53의 공통 방법을 새 작업에 연결한다. 이번 목표는 밝기 통계(image_statistics)의 실행 시간 또는 할당량 개선 가능성 조사다. 원래 결과 6항목과 변경 범위를 보존하며, 기존 요청의 trade-off 보고와 근거에 따른 no-change 허용 조건도 유지한다.
+2. (0:45–1:45) 왼쪽 /skills 목록에서 graypipe-performance 이름과 잘린 설명을 확인한 기록을 짚는다. 목록에는 파일 경로가 없었다. 화면은 제품 UI 캡처가 아닌 보존된 관찰·문구의 재구성이다.
+3. (1:45–2:45) 가운데 요청 첫 줄의 $graypipe-performance를 가리킨다. 호출 표기는 실제 문구이며 뒤의 한글은 실제 요청의 번역 요약이다. 사용자가 명시한 호출이다. 암묵 호출을 시험한 결과로 설명하지 않는다.
+4. (2:45–4:15) 오른쪽 실행 trace의 <skill> 항목에서 같은 이름, 저장소 Skill 경로, 전체 지침 본문이 들어온 근거를 짚는다. 원문에는 절차·보고·제약을 포함한 전체 본문이 있고 화면은 그 범위를 요약했다. 경로는 저장소 상대 경로로 표시했다. 별도의 load UI 이벤트가 있었던 것은 아니다.
+5. (4:15–5:00) Codex CLI0.154.0의 성공한 실행에서 관찰한 범위를 말한다. 현재 Desktop이나 모든 지침의 준수를 보장하지 않는다. S55에서 Skill의 지침과 실제 작업 기록을 대응하도록 전환한다.
 
-Evidence / Source: TRIAL-008, DEC-0017, BEAT-021. Codex CLI 0.154.0, 명시적 호출, disposable workspace. 시각 자료는 기록의 재구성이다. DEC-0062 원문/관찰 대조: plan/DEMO_MATRIX.md TRIAL-008 Skill Discovery/Invocation/Load Evidence/Verification 및 Prompt Responsibility Shift; STATE-04:.agents/skills/graypipe-performance/SKILL.md. 경로는 selector가 아니라 실행 trace에서 확인됐다.
+Evidence / Source: plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt, Skill Discovery, Skill Invocation, Skill Load Evidence; DEC-0017; BEAT-021. 보존 세션 01a0f22c-e6a8-7e50-a4e1-4a581d62266c의 성공한 요청과 <skill> 본문을 재대조했다. /skills는 이름과 설명 일부만 표시했고 경로는 trace에서 확인됐다. 원본의 절대 경로는 해당 disposable workspace이며 화면에는 .agents/skills/graypipe-performance/SKILL.md로 줄였다. 전체 본문은 STATE-04의 SKILL.md와 대조했다.
 
-Claim Boundary: Product UI 스크린샷이나 현재 Codex Desktop 동작으로 표현하지 않는다. Skill path는 selector가 아니라 실행 trace에서 확인됐다. Implicit invocation은 테스트하지 않았다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: OBSERVED_PRODUCT / FROZEN WITH SCOPE / REQUIRES PRODUCT CHECK를 유지한다. 이 화면은 실제 UI 캡처나 새 실행이 아닌 기록의 발췌·번역·재구성이다. 성공한 실행은 Codex CLI0.154.0, gpt-5.6-sol high이며 앞선 계정의 gpt-6.1-sol 거절과 구분한다. 별도 load UI 이벤트, 암묵 호출, 현재 Desktop 동작, 모든 지침 준수·Skill 단독 효과·우월성·토큰 절감은 입증하지 않는다. Global Harness의 동시 영향도 배제하지 않는다.
 
-Beginner Explanation: 기록된 CLI 실행에서 Skill을 목록으로 찾고, 호출 표기를 입력해 사용했다.
+Beginner Explanation: 목록에서 찾은 이름을 이번 요청에 직접 적었다. 이후 실행 기록에 그 Skill의 이름뿐 아니라 경로와 전체 지침이 함께 들어왔는지를 확인했다.
 
-Advanced Insight: Selector의 발견 증거와 실행 context의 본문 증거를 구별한다. 다른 surface·계정에 일반화하지 않는다.
+Advanced Insight: 발견 가능성, 사용자가 선택한 호출, 실행에 제공된 본문의 증거는 서로 다르다. 화면의 전체 본문 상자는 실제 trace에 보존된 내용을 요약한 표시이며, 모델의 모든 내부 처리나 지침 준수까지 관찰했다는 뜻은 아니다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 정적 기본 경로 — 세 관찰 행: /skills의 이름·설명 / 명시 호출+밝기 통계 목표 / 실행 trace의 경로·본문. 기록 요약임을 표시한다. 현재 제품이나 Demo repository를 실행하지 않는다. Live/Hybrid는 대상 표면·계정·권한·fallback 확인 전 비활성이다.
+Demo Operation: LOCAL STATIC RECORD — 왼쪽 목록 발췌, 가운데 호출과 목표·제약, 오른쪽 trace의 이름·경로·전체 본문 순으로 가리킨다. 단계 사이 화살표는 이 관찰 설명 순서다. 원문 전체나 제품을 실행하지 않는다. 화면의 제목·발췌·요약과 하단 근거 범위를 함께 보여준다. 실제 수행 결과는 S55로 넘긴다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: “이름이 목록에 보였다는 것만으로, 이번 작업에 전체 지침이 포함됐다고 말할 수 있을까요?”를 던지고 오른쪽 trace 근거로 회수한다. 별도 실습·Q&A 시간을 추가하지 않는다.
 
-Transition: “본문이 포함됐다는 사실과, 지침에 대응하는 작업 기록을 다음 장에서 구분해 보겠습니다.”
+Transition: “이름과 전체 본문이 포함된 근거는 확인했습니다. 다음은 그 지침과 실제 작업 기록을 대응해 보겠습니다.”
 
-Time Management: Demo5분(정적 기록 기본): 목적1, 발견·호출1.5, 본문 근거1.5, 범위/전환1. 실제 Live/Hybrid는 활성화 전 미검증.
+Time Management: Demo5분: S53 회수·업무 목적0.75, 목록1, 요청1, trace1.5, 범위·S55 전환0.75. 시간이 부족하면 영문 설명과 경로를 낭독하지 않고 세 근거의 차이를 짚는다. 본문 포함과 실제 준수의 구분은 생략하지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S54, production/preview/act3/S54.png 및 production/preview/full/S54.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S54, production/preview/act3/S54.png 및 production/preview/full/S54.png. 현재 실행이 아닌 역사적 CLI 기록 재구성이다. DEMO-03의 기본은 정적 자료이며 현재 Live/Hybrid는 대상 환경 확인 전 미활성이다. 최종 파일·PNG·Notes·hash는 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0066의19필드·5분 운영·역사적 CLI/현재 제품 경계를 정렬했다. 실제 패키지 렌더와 Notes 대조는 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S55 — Skill의 지침과 관찰된 작업을 대응한다
 

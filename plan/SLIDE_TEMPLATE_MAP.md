@@ -1,6 +1,6 @@
 # STEP 08 — Slide-to-Template Mapping
 
-> **현재 기준: DEC-0060 / 93장·379분; S53 내용 수정 DEC-0065, S52 DEC-0064, S51 DEC-0063, ACT3 전체 흐름 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
+> **현재 기준: DEC-0060 / 93장·379분; S53–S54 수정 DEC-0066, 이전 S53 DEC-0065, S52 DEC-0064, S51 DEC-0063, ACT3 전체 흐름 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
 
 Date: 2026-10-09
 
@@ -165,8 +165,8 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S50 — 두 실제 요청에 같은 절차가 반복됐다 | T04-A | CMP-TRIAL, CMP-EVIDENCE, CMP-WORKFLOW, CMP-CLAIM | — | P | TRIAL-006/007 evidence; Case; attribution remains PARTIAL | Single state; DEC-0060 two retained request records compared; approved functional illustration retained | — | V02, V05, V09 |
 | S51 — 테스트 명령을 언제 쓰고 무엇을 판단할까? | T03-A | CMP-WORKFLOW | — | T | — | Same source feeds before-change, after-change and completion judgments; identical test marker, distinct questions; DEC-0063 teaching example | — | V09 |
 | S52 — 목표·기준·방법을 한 작업에 적용한다 | T03-B | CMP-WORKFLOW | — | T | — | Goal enters one work area bounded by project criteria; reusable method applies to the same work; DEC-0064 teaching model, no new execution | — | V10 |
-| S53 — 반복 절차를 Skill로 모으는 이유 | T05-A | CMP-TRIAL, CMP-CLAIM | — | T; label current Skill surface/invocation as REQUIRES PRODUCT CHECK | DEMO-03 WATCH / question; no success result on this Slide | Single project Skill feeds two task-specific requests; explain one-place maintenance; DEC-0065 teaching diagram, no execution result | — | V02, V09 |
-| S54 — Skill의 발견과 본문 포함을 확인했다 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-03 EVIDENCE; HYBRID, 5 min; observed CLI scope only | Single state | — | V02, V03 |
+| S53 — 반복 절차를 Skill로 모으는 이유 | T05-A | CMP-TRIAL, CMP-CLAIM | — | T; label current Skill surface/invocation as REQUIRES PRODUCT CHECK | DEMO-03 WATCH / question; no success result on this Slide | Single Skill feeds two requests through uniform native line connectors; DEC-0066 preserves the teaching relationship | — | V02, V09 |
+| S54 — Skill 발견·호출·본문 포함의 근거 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-03 EVIDENCE; HYBRID, 5 min; observed CLI scope only | Three evidence locations: selector excerpt, explicit task request, trace name/path/full body; DEC-0066 record reconstruction | — | V02, V03 |
 | S55 — Skill의 지침과 관찰된 작업을 대응한다 | T04-A | CMP-TRIAL, CMP-EVIDENCE, CMP-WORKFLOW, CMP-CLAIM | — | P | DEMO-03 WHAT HAPPENED/comparison; HYBRID, 3 min; no superiority claim | Single state; native instruction/observation table; excerpts and recorded summaries, not raw logs | — | V02, V05 |
 | S56 — 절차는 재사용하고, 답은 근거로 정한다 | T04-A | CMP-WORKFLOW, CMP-CLAIM | — | P+T; observed Skill contents and teaching distinction separated | DEMO-03 supporting explanation; Lecture, outside its 8 Demo minutes | Single state | — | V01, V02, V05 |
 | S57 — 후보는 시간·할당량·동작을 함께 보고 고른다 | T07-B | CMP-TRIAL, CMP-EVIDENCE, CMP-BENCHMARK, CMP-CLAIM | — | P | DEMO-03 / TRIAL-008 evidence; Case, outside the 8 Demo minutes | Single state | — | V02, V05 |

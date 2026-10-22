@@ -10,7 +10,9 @@
 
 현재 제작 기준은 **DEC-0060 /93장·379분(6시간19분)**이다. ACT2는 S32–S49/18장·81분이며, 연구 분리·의존성 답변 회수·성과 정리와 ACT3 연결을 개선한다. 기존90장의 시간·근거 범위를 보존한다. [ACT2 흐름 개선](production/evaluation/ACT_2_FLOW_REVISION.md), [번호 대조](plan/SLIDE_ID_MIGRATION_93.md), [ACT2 미리보기](production/preview/act2/montage.png). 최종93장 렌더·93개 내장 Notes와 ACT/Full 정합성 검토를 완료했다.
 
-최신 내용 수정은 **DEC-0065 / S53 Skill 재사용과 공동 관리**다. 작업마다 바뀌는 요청 두 개와 공통 Skill 한 개를 연결하고 반복 절차를 한 곳에서 관리하는 이유를 시각화했다. S52의 한 작업 적용에서 S54의 실제 발견·호출 기록으로 이어지도록 Notes를 정렬했다. 기존93장·379분과 근거 범위는 유지한다. [S53 미리보기](production/preview/full/S53.png), [연속3장](production/preview/act3/S52-S54-continuity.png), [검토 기록](production/evaluation/S53_SKILL_REUSE_REVISION.md).
+최신 수정은 **DEC-0066 / S53 연결선·S54 CLI 근거**다. S53 중앙의 연결선과 화살촉 굵기를 통일했다. S54는 CLI 목록, 명시 호출 요청, 실행 trace의 이름·경로·전체 본문을 구분해 보여준다. Notes와 전체93장·379분, 기존 관찰 범위를 유지한다. [S53](production/preview/full/S53.png), [S54](production/preview/full/S54.png), [S53–S55](production/preview/act3/S53-S55-continuity.png), [검토 기록](production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md).
+
+이전 내용 수정은 **DEC-0065 / S53 Skill 재사용과 공동 관리**다. 작업마다 바뀌는 요청 두 개와 공통 Skill 한 개를 연결하고 반복 절차를 한 곳에서 관리하는 이유를 시각화했다. S52의 한 작업 적용에서 S54의 실제 발견·호출 기록으로 이어지도록 Notes를 정렬했다. 기존93장·379분과 근거 범위는 유지한다. [S53 미리보기](production/preview/full/S53.png), [연속3장](production/preview/act3/S52-S54-continuity.png), [검토 기록](production/evaluation/S53_SKILL_REUSE_REVISION.md).
 
 이전 **DEC-0064 / S52 한 작업에 목표·기준·방법 적용**을 유지한다. 목표가 들어오는 한 작업을 프로젝트 기준으로 감싸고 재사용할 수행 방법을 연결했다. S51과 설명을 나누고 S53의 공유 위치 질문으로 이어지도록 Notes를 정렬했다. 기존93장·379분과 근거 범위는 유지한다. [S52 미리보기](production/preview/full/S52.png), [연속3장](production/preview/act3/S51-S53-continuity.png), [검토 기록](production/evaluation/S52_TASK_COMPOSITION_REVISION.md).
 
