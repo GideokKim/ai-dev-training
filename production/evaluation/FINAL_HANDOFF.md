@@ -2,8 +2,9 @@
 
 갱신일:2026-10-22 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 내용 수정은 DEC-0062다. ACT3의 문서/관찰 대응, 가정→현재 선택,
-구성→작업 환경의 흐름과18개 Notes를 정렬했다. 번호·시간·근거 범위는 유지한다.
+최신 내용 수정은 DEC-0063의 S51이다. 명령을 변경 전·후에 사용하는 시점과
+완료 판단을 연결하고 S50·S52 Notes를 정렬했다. DEC-0062에서 정렬한 문서/관찰
+대응, 가정→현재 선택, 구성→작업 환경의 흐름과 번호·시간·근거 범위는 유지한다.
 이전 DEC-0061의 S40 개선은 보존한다.
 
 ## 현재 발표 자료
@@ -11,13 +12,14 @@ ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `2972501210280edd7fbf96b0cfbfd8ad1999e162c9fff391bb72084903b16b8b` |
+| PPT SHA-256 | `360dda8e5e299972008149293a268e78de93b94a3acb432ed3f2f71b6f07471d` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `17bd9a730b4cdeeddf0691296ba10865320b05f1647ffee3d07139339c1b7dec` |
+| Notes SHA-256 | `3aef337d7afb52afb64e64fef6dd455d334124eab5990e5c1c4e076572ef10d4` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `8524c607a90fd91db05b0bf4e2452ff8582db833a039eb48e617fd7f10d7034e` |
+| Montage SHA-256 | `eea797d6e3ea35d2b1bbd09e937158e70bbbea42b77a88fe6e186197db0c33f6` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [ACT3 전체 흐름 개선](ACT_3_FLOW_REVISION.md) |
+| 최신 검토 | [S51 명령 적용과 판단](S51_COMMAND_WORKFLOW_REVISION.md) |
+| 이전 ACT3 전체 검토 | [흐름 개선](ACT_3_FLOW_REVISION.md) |
 | ACT3 | [ACT_3.pptx](../ACT_3.pptx), S50–S67/18장·85분 |
 | 이전 S40 검토 | [코드 탐색 결과 확인](S40_CODE_EVIDENCE_REVISION.md) |
 | 장수·시간 구성 검토 | [ACT2 흐름 개선](ACT_2_FLOW_REVISION.md) |
@@ -40,6 +42,10 @@ DEC-0061에서는 Full93장·ACT2 18장을 재렌더링하고 S40 화면과 S39�
 DEC-0062에서는 Full93장·ACT3 18장을 재렌더링하고 ACT3 전 장을 개별 검토했다.
 다른75장 화면·75개 Notes와 ACT0/1/2/4/5 패키지는 기준 판본과 동일하다.
 S55 native 표와 S58 기존 native chart를 포함한 구조·내장 Notes·현재 경로를 대조했다.
+
+DEC-0063에서는 최종 Full93장·ACT3 18장을 다시 렌더링했다. S50–S52를 개별
+검토하고 다른92장 PNG·90개 Notes가 유지됨을 대조했다. 장수·시간·Mode와
+표·차트·지정 서체, 정적 대안은 유지한다. 새 Trial이나 실제 제품 실행은 없다.
 
 ## 사용자가 확인할 남은 조건
 

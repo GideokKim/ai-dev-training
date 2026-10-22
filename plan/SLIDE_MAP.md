@@ -2,7 +2,9 @@
 
 > **현재 기준: DEC-0060 / 93장·379분 (2026-10-22).** ACT 2 전체 흐름 개선을 승인받아 연구 설명을 분리하고 의존성 답변/성과 회수3장을 보강했다. ACT 2는 S32–S49,18장·81분이다. 기존90장 내용과 각 장의 시간은 보존하며 신규 Lecture6/Case4/Reflection1분을 더한다. [90→93 번호·역할 대조](SLIDE_ID_MIGRATION_93.md). 사용자 허용 상한720분이며379분은 제작 기준, 리허설 실측은 UNVERIFIED다.
 
-> **최신 ACT3 내용 수정: DEC-0062.** S50–S67/18장·85분, 기존 장별 시간·Mode·ID를 유지한다. Skill 문서와 관찰 기록을 대응하고, S59/S61의 명시적 가정 뒤 S60/S62에서 현재 사례의 선택을 회수한다. [ACT3 흐름 설계](ACT3_FLOW_REVISION.md). 실제 Subagent·Memory 사용이나 새로운 효과 측정은 추가하지 않는다.
+> **최신 S51 내용 수정: DEC-0063.** 테스트 명령의 적용 시점과 판단 기준을 시각화하고 S50·S52 Notes 연결을 정렬한다. [S51 수정 검토](../production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md).
+
+> **최신 ACT3 전체 흐름 수정: DEC-0062.** S50–S67/18장·85분, 기존 장별 시간·Mode·ID를 유지한다. Skill 문서와 관찰 기록을 대응하고, S59/S61의 명시적 가정 뒤 S60/S62에서 현재 사례의 선택을 회수한다. [ACT3 흐름 설계](ACT3_FLOW_REVISION.md). 실제 Subagent·Memory 사용이나 새로운 효과 측정은 추가하지 않는다.
 
 > 상태: **COMPLETE WITH GAPS** — 승인된 93장 구조·시간·Mode를 통합했다. 대상 계정·제품 표면·구체적 Windows 환경의 확인은 CLAIM_FREEZE.md에 남은 범위대로 열어 둔다.
 >
@@ -1347,35 +1349,35 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Advanced Payoff:** Task 목표와 재사용 가능한 절차의 경계를 찾는다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** ACT2의 남은 질문을 보존된 실제 두 요청으로 확인하고 작업 방법·환경 설계라는 방향을 안내한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
-- **Transition:** “테스트 명령을 안내하는 것과 여러 단계의 판단을 유지하는 것은 어떤 책임 차이가 있을까요?”
+- **Transition:** “반복된 것은 명령 하나뿐일까요? 그 명령을 언제 쓰고 결과로 무엇을 판단할지도 보겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** BEAT-018, BEAT-020, TRIAL-006, CLM-0006, CLM-0029, CLM-0030, TRIAL-007, DEC-0017, DEC-0060, DEC-0062
 
 
-#### S51 — 테스트 명령과 수행 방법의 책임을 나눈다
+#### S51 — 테스트 명령을 언제 쓰고 무엇을 판단할까?
 
 - **Slide ID:** S51
 - **ACT:** ACT 3
 - **Section:** 3A Repeated Procedure
-- **Working Title:** 테스트 명령과 수행 방법의 책임을 나눈다
-- **Primary Role:** 명령·규칙 안내와 다단계 작업 방법의 유지 책임을 구분한다.
-- **Audience Question:** “명령을 알고 있어도 어떤 판단을 반복해서 정해야 할까?”
-- **Core Message:** 공통 안내는 명세·허용 범위·검증 시작점을 제공한다. 수행 방법은 언제 측정하고 어떤 근거로 변경·중단·비교·보고할지를 다룬다. AGENTS.md에도 절차를 둘 수 있다.
+- **Working Title:** 테스트 명령을 언제 쓰고 무엇을 판단할까?
+- **Primary Role:** 명령을 아는 것에서 사용 시점과 결과 판단을 함께 정하는 것으로 연결한다.
+- **Audience Question:** “같은 테스트 명령을 변경 전과 변경 후에 실행하면 각각 무엇을 확인할까?”
+- **Core Message:** 테스트 명령·명세·측정 방법을 작업의 어느 시점에 사용하고, 그 결과로 무엇을 판단할지 함께 정한다. 이 수행 방법도 AGENTS.md에 기록할 수 있다.
 - **Story Beat:** BEAT-019 — Knowledge and Process answer different questions
 - **Curriculum Trace:** ACT 3 — Context → Harness problem; repeated workflow.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL.
-- **Visual Concept:** 왼쪽 프로젝트 안내에서 오른쪽 판단 질문으로 연결하고 아래에 유지·검토 책임을 둔다. 파일 형식으로 분류하지 않는다.
+- **Visual Concept:** 상단 AGENTS.md 정보 묶음에서 변경 전·변경 후·완료 판단으로 연결한다. 동일한 테스트 실행 표시를 앞의 두 시점에 재사용하고 확인 질문을 다르게 둔다. 실제 실행 결과는 표시하지 않는다.
 - **Demo / Case Connection:** TRIAL-006/007의 절차 반복을 연결하되, 새 제품 기능이나 해결책은 아직 공개하지 않는다.
-- **Beginner Payoff:** Task Prompt, Project Context, Procedure의 역할을 이해한다.
-- **Advanced Payoff:** 추가 Project 정보가 해결하지 못하는 workflow 문제를 구분한다.
+- **Beginner Payoff:** 같은 테스트를 실행해도 현재 상태 확인과 변경 영향 확인이라는 목적이 다를 수 있음을 이해한다.
+- **Advanced Payoff:** 명령·명세를 참조하는 것에 더해 적용 시점과 결과 판단을 재사용할 수행 방법으로 명시한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 명령·규칙 안내와 다단계 작업 방법의 유지 책임을 구분한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
-- **Transition:** “이 책임을 normalize 성능 조사 하나에 함께 적용해 보겠습니다.”
+- **Speaker Intent:** S50의 반복 요청에서 실행 시점과 판단 기준을 꺼내 구체화한 뒤 S52의 목표·기준·수행 방법 결합으로 연결한다. 저장 파일의 배타적 분류로 설명하지 않는다.
+- **Transition:** “지금 본 수행 방법을 이번 요청의 목표, 프로젝트 기준과 함께 놓아 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-019, TRIAL-006, CLM-0006, CLM-0029, DEC-0060, DEC-0062
+- **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0060, DEC-0062, DEC-0063
 
 
 #### S52 — 한 성능 작업에 세 책임을 적용하면
@@ -1396,7 +1398,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Beginner Payoff:** 이번 목표와 계속 유지할 Project 정보, 반복 방법의 차이를 기억한다.
 - **Advanced Payoff:** Prompt 밖에 둘 수 있는 정보라도 책임과 유지 방식은 다르다는 점을 본다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 세 책임을 실제로 소개된 한 Task에 적용해 다음 Skill 선택으로 연결한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Speaker Intent:** S51에서 본 수행 방법을 현재 목표와 프로젝트 기준에 결합한다. 같은 절차를 다시 설명하지 않고 이번 요청·기준·방법의 세 책임을 한 Task에 함께 적용해 다음 Skill 선택으로 연결한다. 기존 근거 범위를 유지한다.
 - **Transition:** “다음 성능 작업에도 같은 수행 방법이 필요하다면, 어디에서 함께 유지할까요?”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분

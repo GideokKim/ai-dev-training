@@ -1,5 +1,11 @@
 # ACT3 Flow Revision — DEC-0062
 
+Current S51 refinement: DEC-0063. Replace the ambiguous guidance/procedure
+split with one information source feeding before-change, after-change and
+completion judgments. The same test marker has different questions at each
+time. Align S50 handoff/S52 opening Notes; preserve93/379, S51 Lecture4 and
+the other92 visuals. Review: [S51 revision](../production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md).
+
 Date:2026-10-22. Baseline:`c1f0d29` /93slides/379minutes.
 User approved the whole-ACT3 flow review and implementation, including optional
 slide splitting. The existing18 slides provide separate roles without further
@@ -22,7 +28,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | Slide | Current role | Fixed minutes / Mode |
 |---|---|---|
 | S50 | Two retained requests confirm repeated procedure; short Harness orientation. |Case5|
-| S51 | Separate command/guidance maintenance from multi-step judgment responsibility. |Lecture4|
+| S51 | Apply known commands/specifications at different times with explicit judgment questions; DEC-0063. |Lecture4|
 | S52 | Apply goal, existing specification and work method to one normalize Task. |Lecture5|
 | S53 | Select a shared home for the procedure; Skill is this case's implementation candidate. |Lecture4|
 | S54 | Introduce brightness statistics and separate CLI discovery/invocation/body observations. |Demo5|

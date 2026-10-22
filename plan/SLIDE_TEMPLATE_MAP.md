@@ -1,6 +1,6 @@
 # STEP 08 — Slide-to-Template Mapping
 
-> **현재 기준: DEC-0060 / 93장·379분; ACT3 내용 수정 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
+> **현재 기준: DEC-0060 / 93장·379분; S51 내용 수정 DEC-0063, ACT3 전체 흐름 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
 
 Date: 2026-10-09
 
@@ -163,7 +163,7 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S48 — Context 정리에서 확인한 네 가지 | T03-A | CMP-EVIDENCE, CMP-CLAIM | CMP-CONTEXT-ROUTER | P+T; separate scoped observations from the recap model | Four bounded State/Trial callbacks; no extra Demo | Single state | — | V01, V05 |
 | S49 — 지식은 정리됐지만 절차는 반복된다 | T04-A | CMP-WORKFLOW, CMP-EVIDENCE | CMP-CLAIM | P+T; separate observed repeated prompt structure from the teaching question | — | Single state; DEC-0060 single reconstructed procedure question before next ACT evidence | — | V01, V05, V09 |
 | S50 — 두 실제 요청에 같은 절차가 반복됐다 | T04-A | CMP-TRIAL, CMP-EVIDENCE, CMP-WORKFLOW, CMP-CLAIM | — | P | TRIAL-006/007 evidence; Case; attribution remains PARTIAL | Single state; DEC-0060 two retained request records compared; approved functional illustration retained | — | V02, V05, V09 |
-| S51 — 테스트 명령과 수행 방법의 책임을 나눈다 | T03-A | CMP-WORKFLOW | — | T | — | Single state; DEC-0060 project command/rule versus multi-step procedure maintenance; AGENTS may contain procedures | — | V09 |
+| S51 — 테스트 명령을 언제 쓰고 무엇을 판단할까? | T03-A | CMP-WORKFLOW | — | T | — | Same source feeds before-change, after-change and completion judgments; identical test marker, distinct questions; DEC-0063 teaching example | — | V09 |
 | S52 — 한 성능 작업에 세 책임을 적용하면 | T03-B | CMP-WORKFLOW | — | T | — | Single state | — | V10 |
 | S53 — 반복 절차의 유지 위치를 선택한다 | T05-A | CMP-TRIAL, CMP-CLAIM | — | T; label current Skill surface/invocation as REQUIRES PRODUCT CHECK | DEMO-03 WATCH / question; no success result on this Slide | Single state | — | V02, V09 |
 | S54 — Skill의 발견과 본문 포함을 확인했다 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-03 EVIDENCE; HYBRID, 5 min; observed CLI scope only | Single state | — | V02, V03 |

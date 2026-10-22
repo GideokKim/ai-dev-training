@@ -49,7 +49,7 @@ Demo Operation: 정적 기본 경로 — 기존 기능 삽화와 실제 요청 �
 
 Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
 
-Transition: “테스트 명령을 안내하는 것과 여러 단계의 판단을 유지하는 것은 어떤 책임 차이가 있을까요?”
+Transition: “반복된 것은 명령 하나뿐일까요? 그 명령을 언제 쓰고 결과로 무엇을 판단할지도 보겠습니다.”
 
 Time Management: Case5분: 방향/과제1, 두 기록 대응3, 한계/전환1.
 
@@ -57,11 +57,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S50, production/prev
 
 Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S51 — 테스트 명령과 수행 방법의 책임을 나눈다
+## S51 — 테스트 명령을 언제 쓰고 무엇을 판단할까?
 
 Slide ID: S51
 
-Working Title: 테스트 명령과 수행 방법의 책임을 나눈다
+Working Title: 테스트 명령을 언제 쓰고 무엇을 판단할까?
 
 ACT / Section: ACT 3 / 3A
 
@@ -69,37 +69,38 @@ Allocated Time: 4 minutes
 
 Mode Split: Lecture 4 minutes
 
-Primary Message: 공통 안내는 명세·허용 범위·검증 시작점을 제공한다. 수행 방법은 언제 측정하고 어떤 근거로 변경·중단·비교·보고할지를 다룬다. AGENTS.md에도 절차를 둘 수 있다.
+Primary Message: 테스트 명령·명세·측정 방법을 작업의 어느 시점에 사용하고, 그 결과로 무엇을 판단할지 함께 정한다. 이 수행 방법도 AGENTS.md에 기록할 수 있다.
 
-Opening Question: “명령을 알고 있어도 어떤 판단을 반복해서 정해야 할까?”
+Opening Question: “같은 테스트 명령을 변경 전과 변경 후에 실행하면 각각 무엇을 확인할까?”
 
 Speaker Flow:
 
-1. (0:00–1:00) S34에서 이미 AGENTS.md의 검증 지침을 사용했음을 회수한다.
-2. (1:00–3:00) 명세·범위·테스트 시작점을 아는 것과 측정/변경/중단/보고 판단을 재사용하는 책임을 연결한다.
-3. (3:00–4:00) AGENTS.md에도 절차를 쓸 수 있음을 명확히 말하고 다음 장에서 한 Task에 적용한다.
+1. (0:00–0:45) S50의 두 요청에서 반복된 방법을 회수한다. normalize 성능 조사를 예로 들고 상단의 테스트 실행 방법·동작 명세·측정 방법은 프로젝트에서 확인할 정보임을 짚는다.
+2. (0:45–2:15) 변경 전과 변경 후의 같은 테스트 실행 표시를 차례로 가리킨다. 전자는 원래 상태, 후자는 변경 영향을 확인하려는 것이다. 성능도 같은 입력·조건으로 비교할 기준을 먼저 확보한다. 테스트 결과가 명세 전체의 충족을 자동 보장하지는 않는다.
+3. (2:15–3:15) 완료 판단에서 동작 보존과 측정 결과, 미확인 사항을 함께 보고하도록 연결한다. 기존 실패나 근거 부족이 있으면 원인·범위를 먼저 확인하고 필요하면 변경을 보류한다. 화면은 실제 로그나 새 실행 결과가 아니다.
+4. (3:15–4:00) 명령뿐 아니라 사용 시점과 판단 기준까지 수행 방법에 포함됨을 회수한다. 이 내용도 AGENTS.md에 쓸 수 있다. 저장 위치 선택은 아직 답하지 않고 S52의 이번 목표·프로젝트 기준·수행 방법 결합으로 넘어간다.
 
-Evidence / Source: BEAT-019, TRIAL-006/007. TEACHING_MODEL / CONCEPTUAL.
+Evidence / Source: BEAT-019; plan/DEMO_MATRIX.md의 TRIAL-006/007 반복 요청과 보존 조건; DEC-0062, DEC-0063. TEACHING_MODEL / CONCEPTUAL. normalize는 기존 기능 예시이며 화면은 해당 Trial의 정확한 실행 순서나 AGENTS.md 원문을 재현한 것이 아니다.
 
-Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. Context는 사실만이고 절차는 AGENTS.md에 쓰면 안 된다는 이분법을 제거한다. 파일 확장자가 아닌 책임과 유지 단위를 구분하는 교육용 모델이다. 다음 S52에서 normalize Task 하나에 세 책임을 적용한 뒤에만 Skill 후보로 간다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: 기존 TEACHING_MODEL / CONCEPTUAL 범위를 유지한다. 실제 PASS/FAIL·수치·Agent 실행 trace를 제시하지 않는다. Context와 절차는 배타적인 파일 분류가 아니며 AGENTS.md에도 방법을 기록할 수 있다. 테스트 성공만으로 명세 전체 충족을 증명하거나 Skill 필수성·우월성·토큰 절감·Harness 단독 효과를 주장하지 않는다. 제품 기능이나 현재 Desktop 동작의 검증 근거로 사용하지 않는다.
 
-Beginner Explanation: 안내 문서에 테스트 명령과 절차도 쓸 수 있다. 반복되는 판단을 언제 적용하고 누가 검토·갱신할지 함께 정한다.
+Beginner Explanation: 같은 테스트 명령을 실행해도 변경 전에는 원래 상태를, 변경 후에는 내 변경의 영향을 확인한다. 언제 실행하고 무엇을 확인할지도 요청이나 재사용할 방법에 적는다.
 
-Advanced Insight: Project Context를 늘리는 것만으로 반복 절차의 유지 문제가 해결되지는 않는다.
+Advanced Insight: 기존 실패와 변경 후 결과를 구분하고 같은 조건의 측정과 미확인 범위를 함께 보고해야 한다. 명령·명세의 출처와 이를 사용하는 수행 방법은 함께 관리할 수 있으며 위치 선택 자체가 실행 준수나 인과성을 보장하지 않는다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 정적 기본 경로 — 왼쪽 프로젝트 안내에서 오른쪽 판단 질문으로 연결하고 아래에 유지·검토 책임을 둔다. 파일 형식으로 분류하지 않는다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: STATIC TEACHING DIAGRAM — 상단 정보 묶음에서 아래 세 시점으로 내려가는 연결을 먼저 짚는다. 같은 테스트 실행 표시 두 개와 서로 다른 확인 질문을 대응한 뒤 완료 판단으로 이동한다. 실제 실행 화면·새 측정·현재 제품 사용은 없다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: Opening Question은 발표자가 짧게 던지고 세 시점의 질문으로 설명한다. 답변 대기나 별도 Q&A 시간을 추가하지 않고 Lecture4분 안에서 진행한다.
 
-Transition: “이 책임을 normalize 성능 조사 하나에 함께 적용해 보겠습니다.”
+Transition: “지금 본 수행 방법을 이번 요청의 목표, 프로젝트 기준과 함께 놓아 보겠습니다.”
 
-Time Management: Lecture4분: 기존 지침 회수1, 판단 책임2, 한 Task 적용 예고1.
+Time Management: Lecture4분: 반복 요청·상단 정보0.75, 변경 전/후1.5, 완료 판단1, S52 연결0.75. 시간이 부족하면 기존 실패의 확장 예를 줄이고 같은 명령/다른 질문과 교육용 경계는 유지한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S51, production/preview/act3/S51.png 및 production/preview/full/S51.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S51, production/preview/act3/S51.png 및 production/preview/full/S51.png. 실제 실행 캡처가 아닌 교육용 수행 예시다. 최종 패키지·PNG·내장 Notes 확인은 production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md를 따른다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0063의 교육용 경계·19필드·운영 흐름을 정렬했다. 실제 파일 렌더·Notes 대조 결과는 production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S52 — 한 성능 작업에 세 책임을 적용하면
 
@@ -119,7 +120,7 @@ Opening Question: “normalize 요청에서 목표, 프로젝트 기준, 수행 
 
 Speaker Flow:
 
-1. (0:00–1:00) 첫 패널의 normalize 성능 조사 요청을 읽는다.
+1. (0:00–1:00) S51에서 사용 시점과 판단 기준을 본 수행 방법을 회수한다. 첫 패널의 normalize 성능 조사 요청을 읽고, 이번 목표·계속 적용할 기준·반복 방법을 함께 놓아 보는 장임을 설명한다.
 2. (1:00–2:30) 둘째 패널의 기존 이미지 동작과 공개 명세 보존이 이 작업에도 적용됨을 연결한다.
 3. (2:30–4:00) 셋째 패널의 기준선·조사·검증·비교가 반복할 작업 방법임을 연결한다.
 4. (4:00–5:00) 세 책임을 함께 적용한 뒤 재사용 절차를 어디서 유지할지 묻는다.

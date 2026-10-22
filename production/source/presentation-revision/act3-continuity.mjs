@@ -27,15 +27,40 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S51(p){
-   const s=make(p,'S51','테스트 명령과 수행 방법의 책임을 나눈다','ACT 3 · 반복되는 방법을 누가 유지할까?',
-    '교육용 책임 구분 · 기존 AGENTS.md 지침과 TRIAL-006/007의 반복 요청을 연결',
-    'AGENTS.md에도 절차를 쓸 수 있음 · 저장 형식의 배타적 분류나 Skill의 필수성 주장이 아님');
-   text(s,'같은 테스트 명령을 알아도, 작업 중 판단은 남는다',64,179,1152,42,31,C.teal,true);
-   panel(s,64,254,480,223,'프로젝트가 안내할 것','참고할 명세 · 허용 범위\n테스트를 시작하는 명령\n현재 기준 문서의 위치',C.pale);
-   arrow(s,570,339,36,24);
-   panel(s,640,254,576,223,'반복 절차가 정할 것','변경 전에 무엇을 측정할까?\n어떤 조건이면 변경·중단할까?\n무엇을 확인하고 보고할까?');
-   text(s,'공통 안내와 여러 단계의 작업 방법을 유지할 책임을 나눈다',64,516,1152,39,30,C.ink,true);
-   text(s,'파일 이름보다, 적용할 때와 고칠 책임을 먼저 정한다',64,565,1152,35,27,C.teal,true);
+   const s=make(p,'S51','테스트 명령을 언제 쓰고 무엇을 판단할까?','ACT 3 · 같은 정보를 작업에 적용하는 방법',
+    '교육용 수행 예시 · TRIAL-006/007의 반복 요청을 바탕으로 구성',
+    '실제 실행 순서·결과의 재현 아님 · 이 방법도 AGENTS.md에 기록할 수 있음');
+   text(s,'예시: normalize 성능 조사',64,175,1152,40,29,C.teal,true);
+   rect(s,64,235,1152,78,C.pale,C.line,1);
+   text(s,'AGENTS.md',84,245,252,32,27,C.teal,true,CODE);
+   text(s,'프로젝트에서 확인한 정보',84,278,252,27,21,C.sub);
+   text(s,'테스트 실행 방법',378,254,246,40,27,C.ink,true);
+   text(s,'보존할 동작 명세',663,254,254,40,27,C.ink,true);
+   text(s,'성능 측정 방법',963,254,233,40,27,C.ink,true);
+   // The same source feeds each stage; these are not exclusive file classes.
+   s.shapes.add({geometry:'line',position:{left:640,top:313,width:0,height:20},fill:'none',line:{fill:C.line,width:2}});
+   line(s,240,333,800,C.line,2);
+   [240,640,1040].forEach(x=>down(s,x-9,333,18,18,C.line));
+   const stages=[
+    [64,'01  변경 전','현재 테스트·성능 확인','원래 상태는 어땠지?'],
+    [464,'02  변경 후','같은 조건으로 다시 측정','무엇이 달라졌지?'],
+    [864,'03  완료 판단','동작 보존 + 측정 결과','완료라고 말할 근거는?']
+   ];
+   stages.forEach(([x,title,body,question],i)=>{
+    text(s,title,x,358,352,42,30,C.teal,true);
+    if(i<2){
+     rect(s,x,410,352,48,C.white,C.line,1);
+     rect(s,x+12,418,31,31,C.teal);
+     text(s,'T',x+12,418,31,31,22,C.white,true,CODE,'center');
+     text(s,'테스트 실행',x+59,415,273,35,29,C.ink,true);
+    }else{
+     text(s,'결과와 미확인 사항 보고',x,415,352,35,27,C.ink,true);
+    }
+    text(s,body,x,469,352,34,26,C.sub);
+    text(s,question,x,510,352,37,27,C.ink,true);
+    if(i<2)arrow(s,x+362,426,28,18);
+   });
+   text(s,'명령과 함께, 실행할 시점과 결과의 판단 기준도 정한다',64,564,1152,33,29,C.teal,true);
    return s;
   },
   S52(p){

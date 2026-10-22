@@ -407,3 +407,16 @@ S65 a bounded external-environment Meta preview, S66 a conceptual C++ transfer
 and S67 the transition to a separately marked future conceptual scenario.
 No Skill superiority, token saving, independent Harness performance effect,
 current Desktop guarantee, observed Subagent benefit or automatic Memory claim.
+
+
+## DEC-0063 — S51 command use and judgment questions
+
+S51 remains TEACHING_MODEL / CONCEPTUAL. The normalize before/after/completion
+diagram applies existing command, specification and measurement information.
+It is not a verbatim AGENTS.md excerpt, an exact Trial execution sequence,
+new measurement, success result or product trace. Identical test markers
+show reuse at different times, not PASS outcomes. AGENTS.md may also contain
+the full procedure. No exclusive file split, Skill requirement/superiority,
+token saving, present-day Desktop guarantee or independent Harness effect.
+S50 actual observations and PARTIAL attribution remain unchanged; S52 keeps
+its existing three-role course model. All IDs, timing and claim scope stay.

@@ -7473,3 +7473,85 @@ compare75 unchanged Full PNGs and all other ACT packages, verify93×19 Notes,
 native tables S47/S55, chart S58, budgets, links and fallback hashes.
 Keep Windows/room/product/account/timed rehearsal UNVERIFIED. Commit normal
 project outputs to existing origin/main without force; keep bundles paused.
+
+
+# DEC-0063 — clarify S51 command use and completion judgments
+
+## Status
+
+ACCEPTED — explicit user approval of the proposed S51 information-to-use
+diagram, adjacent continuity, Notes alignment and rendered review.
+
+## Date
+
+2026-10-22
+
+## Context
+
+The S51 guidance/procedure comparison used overlapping categories. Guidance
+can include a procedure, so separate panels obscured the intended shift from
+available project information to reusable ways of applying it.
+
+## Problem
+
+Make execution timing and result judgment concrete without duplicating S50's
+actual repeated requests or S52's goal/context/method combination.
+
+## Decision
+
+Use a single project-information source and a normalize teaching example.
+Connect test instructions, behavioral specifications and measurement methods
+to before-change, after-change and completion judgments. Repeat the same
+test marker with different questions, without real outcomes or fake logs.
+Keep the procedure permissible in AGENTS.md and defer the shared-home choice
+to S53. Align S50's spoken handoff and S52's opening. Only S51 changes visually;
+only S50/S51/S52 Notes change. Retain93slides/379minutes, ACT3's85minutes,
+S51 Lecture4 and every existing ID, budget, Mode, image and evidence boundary.
+
+## Rationale
+
+A shared example shows what a work method adds to known commands and sources.
+It avoids an exclusive file classification and gives S52 a distinct role:
+combine the method with the current goal and continuing project constraints.
+
+## Alternatives
+
+Rename the two panels only: the conceptual overlap remains.
+Introduce Skill immediately: skips the problem and S53's design choice.
+Reproduce a new run: unnecessary and outside the approved evidence scope.
+
+## Trade-offs
+
+The diagram abstracts investigation and change steps to focus on when the
+same information is used and which questions it answers. Notes retain
+investigation, existing failures, conditional no-change, comparison limits
+and reporting. This example does not replace the complete performance method.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-005, INV-MATURITY-006, INV-MATURITY-011,
+INV-VERIFY-001, INV-DEMO-004.
+
+## Affected Artifacts
+
+S51 factory and Map/template row; S50 handoff/S52 opening; ACT3/Full Notes;
+Full/ACT3 PPTX and previews; current document hashes and revision evaluation.
+No other ACT package, Demo repository, State tag, Trial or presenter bundle.
+
+## Evidence
+
+Latest user instruction and accepted planning proposal; existing BEAT-019,
+TRIAL-006/007 retained request records and DEC-0062. No new product research,
+Trial, comparison experiment or product replay is needed for this course model.
+
+## Training Relevance
+
+YES — connect available project information to execution timing and judgment
+while preserving the difference between a teaching model and observations.
+
+## Follow-up
+
+Render finalized Full/ACT3 files, inspect S50/S51/S52, compare92 other Full
+PNGs and90 other Notes, preserve native tables/chart and all budgets. Update
+current identities and follow the standing Git checkpoint policy. Keep
+Windows, target fonts/room, product-account and timed rehearsal UNVERIFIED.

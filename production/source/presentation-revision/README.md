@@ -1,6 +1,10 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest content refinement: DEC-0062 / `plan/ACT3_FLOW_REVISION.md`.
+Latest content refinement: DEC-0063 / S51 command timing and judgments.
+Only S51 changes visually; S50/S51/S52 Notes align the adjacent handoffs.
+Retain93/379 and see `production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md`.
+
+Previous whole-ACT refinement: DEC-0062 / `plan/ACT3_FLOW_REVISION.md`.
 `act3-continuity.mjs` applies after ACT2 continuity to refine S50–S67 in place.
 Keep93/379, all per-slide budgets and the other75 slides. Preserve image assets
 and the S58 native chart; S55 adds a native instruction/observation table.
