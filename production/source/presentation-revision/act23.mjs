@@ -232,19 +232,42 @@ S43:make('S43','서로 다른 두 Task가 무엇을 읽을까?','ACT 2 · 관찰
   }),
 
 S44:make('S44','Crop Task에서 관찰한 접근','ACT 2 · 질문과 근거를 연결하기',
-  'TRIAL-005A · 최종 실행의 접근과 답을 기록에서 재구성',
-  'architecture 등 넓은 Context도 접근 · testing.md는 최종 실행에서 관찰, 반복 간 차이 존재','OBSERVED_PRODUCT',
-  (s,{C,text,rect,line})=>{
-    text(s,'접근한 계약 문서',64,228,600,36,28,C.teal,true);
-    text(s,'image-contracts.md',64,278,660,42,32,C.ink,true,'Consolas');
-    rect(s,64,343,660,142,C.pale);
-    text(s,'[x_start, x_end)',88,357,612,46,33,C.ink,true,'Consolas');
-    text(s,'시작 열 포함 · 끝 좌표 제외',88,420,612,41,29,C.ink);
-    text(s,'기록된 답',808,228,408,36,28,C.teal,true);
-    text(s,'crop 1 3',808,278,408,42,32,C.ink,true,'Consolas');
-    [0,1,2,3].forEach((n,i)=>{const x=808+i*94;rect(s,x,350,78,76,n===1||n===2?C.pale:C.white,C.line,1);text(s,String(n),x,364,78,44,33,n===1||n===2?C.teal:C.sub,true,'Malgun Gothic','center');});
-    text(s,'포함 열: 1, 2\n출력 폭: 2',808,460,408,93,31,C.ink,true);
-    text(s,'답을 파일의 계약과 연결해 확인했다',64,549,680,39,29,C.teal,true);
+  'TRIAL-005A 최종 실행 · Codex CLI 0.154.0 · 문서 접근과 답을 요약·재구성',
+  '* testing.md는 최종 실행에서 관찰(이전 실행과 다름) · 현재 Desktop 검증 아님','OBSERVED_PRODUCT',
+  (s,{C,text,rect,line,arrow})=>{
+    text(s,'요청 A · --crop 1 3의 원본 열·출력 폭·끝 좌표를 확인',64,184,1152,43,30,C.teal,true);
+    text(s,'문서 접근 기록',64,246,370,36,27,C.ink,true);
+    text(s,'확인한 명세',498,246,310,36,27,C.ink,true);
+    text(s,'기록된 답',884,246,332,36,27,C.ink,true);
+    const docs=['AGENTS.md','docs/architecture.md','docs/image-contracts.md','docs/testing.md *','README.md'];
+    docs.forEach((name,i)=>{
+      const y=296+i*38;
+      if(i===2)rect(s,64,y,370,36,C.pale);
+      text(s,name,80,y,338,36,24,i===2?C.teal:C.sub,i===2,'Consolas');
+    });
+    text(s,'소스·관련 테스트도 확인',64,490,370,30,23,C.sub);
+    arrow(s,452,378,28,20);
+    rect(s,498,296,310,214,C.white,C.line,1.5);
+    text(s,'docs/\nimage-contracts.md',522,311,262,60,23,C.teal,true,'Consolas');
+    line(s,522,382,262,C.line,1);
+    text(s,'crop 좌표 명세',522,390,262,36,25,C.ink,true);
+    text(s,'[x_start, x_end)',522,434,262,36,26,C.ink,true,'Consolas');
+    text(s,'시작 포함 · 끝 제외',522,473,262,29,24,C.ink);
+    text(s,'대조',822,347,48,28,20,C.sub,false,'Malgun Gothic','center');
+    arrow(s,829,387,32,20);
+    text(s,'--crop 1 3',884,294,332,40,29,C.ink,true,'Consolas');
+    text(s,'원본 열 번호 · 0부터 시작',884,336,332,29,21,C.sub);
+    [0,1,2,3].forEach((n,i)=>{
+      const x=884+i*78,selected=n===1||n===2;
+      rect(s,x,372,65,66,selected?C.pale:C.white,C.line,1);
+      text(s,String(n),x,381,65,45,32,selected?C.teal:C.sub,selected,'Malgun Gothic','center');
+    });
+    text(s,'포함 열: 1, 2 · 폭: 2',884,452,332,36,27,C.teal,true);
+    text(s,'끝 좌표 3 제외',884,492,332,32,25,C.ink,true);
+    text(s,'관찰된 사실',64,540,170,30,24,C.teal,true);
+    text(s,'명세 문서 접근과 명세에 맞는 답을 관찰',234,540,982,30,25,C.ink);
+    text(s,'해석의 한계',64,576,170,30,24,C.warn,true);
+    text(s,'더 넓은 접근도 관찰 · 최소 문서 선택·효율 향상 미입증',234,576,982,30,25,C.sub);
   }),
 
 S45:make('S45','Task별 접근은 달랐지만 완벽하지는 않다','ACT 2 · 두 Task의 문서 접근 비교',

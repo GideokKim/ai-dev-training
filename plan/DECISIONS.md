@@ -6967,3 +6967,80 @@ YES — distinguish request scope, file access and reported answer evidence.
 Review S42-S44 continuity, prompt readability, no outcome leakage and Notes
 parity. Preserve other89 slides and all budgets. Keep Windows, room,
 product/account and rehearsal UNVERIFIED. Do not regenerate the bundle.
+
+
+# DEC-0057 — Connect S44 access evidence with the crop answer
+
+## Status
+
+ACCEPTED — explicit user direction to visualize Crop evidence and scope.
+
+## Date
+
+2026-10-22
+
+## Context
+
+S43 presents two read-only requests and asks what documents are opened and
+what evidence supports the answers. S44 pays off the Crop request before
+S45 compares it with the dependency request.
+
+## Problem
+
+The previous two-column slide foregrounds the contract and answer but
+leaves most observed document accesses and their scope in footer text.
+
+## Decision
+
+Show five Markdown documents read in TRIAL-005A's final run. Highlight
+image-contracts.md and show its half-open crop specification beside the
+recorded answer: source columns1/2, width2, end coordinate3 excluded.
+Distinguish observed access/answer agreement from interpretation limits.
+Keep the title, T07-A, Case5,90slides,368minutes and all other budgets.
+Align the Map, Notes, Full/ACT2, previews and current artifact identities.
+
+## Rationale
+
+The audience can recover the request, accessed evidence and answer without
+opening the repository. Explicit limits keep an observation from becoming
+a claim about perfect routing, efficiency or exclusive causality.
+
+## Alternatives
+
+Keep the existing two-column view: leaves actual access scope implicit.
+Show the full command log: obscures the evidence in incidental output.
+Show a chronological path: the retained summary does not establish it.
+
+## Trade-offs
+
+The access list is a summary, not a complete log or reading sequence.
+Arrows connect document content and answer for comparison; they do not
+show an internal reasoning path. Source/test checks are summarized.
+Historical CLI evidence does not verify current Desktop behavior.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-004, INV-DEMO-004,
+INV-RESEARCH-004, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S44 active source, Map/template row, ACT2/Full Notes and PPTX, previews and
+current handoff identities. Preserve prior reviews and Demo artifacts.
+
+## Evidence
+
+User direction; TRIAL-005A final-run access/answer and environment records
+in plan/DEMO_MATRIX.md; read-only inspection of STATE-03 image contracts,
+transform source and four-column sample. No new Trial or Demo test run.
+
+## Training Relevance
+
+YES — compare accessed sources, their specification and the reported
+answer while preserving the limits of an observation.
+
+## Follow-up
+
+Check S43-S45 continuity, actual filenames, column diagram and Notes
+parity. Preserve the other89 slides and all budgets. Keep Windows, room,
+current product/account and rehearsal UNVERIFIED. Do not rebuild bundles.

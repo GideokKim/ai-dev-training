@@ -1,6 +1,6 @@
 # ACT 2 — Speaker Notes
 
-Status: ALIGNED — DEC-0056 frames S43 requests and neutral observation questions; DEC-0055 shows S42 document reorganization and retained core facts; DEC-0054 distinguishes S41 shared guidance from task-dependent details; DEC-0053 diagrams S40 task request, AGENTS.md guidance and relevant detail; DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 common guidance, task detail and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 S36, DEC-0047 S35 and DEC-0046 S34 remain preserved. Numbering: DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/S43_PROMPT_WATCH_REVISION.md. The prior addition validation remains historical. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
+Status: ALIGNED — DEC-0057 connects S44 observed access, crop specification and recorded answer with interpretation limits; DEC-0056 frames S43 requests and neutral observation questions; DEC-0055 shows S42 document reorganization and retained core facts; DEC-0054 distinguishes S41 shared guidance from task-dependent details; DEC-0053 diagrams S40 task request, AGENTS.md guidance and relevant detail; DEC-0052 clarifies S39 study tasks, findings and present-day Codex transfer limits; DEC-0051 diagrams S38 common guidance, task detail and reusable procedure; DEC-0050 preserves S37 AGENTS.md classification; DEC-0049 preserves the actual request; DEC-0048 S36, DEC-0047 S35 and DEC-0046 S34 remain preserved. Numbering: DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/S44_CROP_EVIDENCE_REVISION.md. The prior addition validation remains historical. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
 
 Historical alignment status: ALIGNED — DEC-0038의 82장 번호와 운영 지침을 정렬했다. 신규 제작본의 렌더·내장 Notes 대조는 production/evaluation/PROMPT_TIMELINE_REVISION.md에서 별도로 기록한다. 기존 81장판의 PASS를 승계하지 않는다. Windows, room, account, and timed rehearsal remain UNVERIFIED.
 
@@ -567,38 +567,39 @@ Allocated Time: 5 minutes
 
 Mode Split: Case 5 minutes
 
-Primary Message: In TRIAL-005A’s final run, the recorded Crop answer was supported by access to the image contract; some broader context was also read.
+Primary Message: TRIAL-005A 최종 실행에서 명세 문서 접근과 명세에 맞는 Crop 답을 관찰했다. 더 넓은 문서·소스·테스트도 확인했으며, 이 기록이 최소 문서 선택이나 효율 향상을 뜻하지는 않는다.
 
-Opening Question: “Crop 계약을 묻는 Task에서 어떤 근거가 사용됐을까?”
+Opening Question: “앞의 요청 A는 어떤 문서를 실제로 읽었고, 끝 좌표가 포함되는지 어떤 근거로 답했을까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00) image-contracts.md에 있는 반열린 구간 [x_start, x_end)을 가리킨다.
-2. (1:00–3:00) 아래 숫자는 픽셀 값이 아니라 source column index임을 밝힌다. crop 1 3에서 강조한 열 1과 2, 결과 너비 2, 제외된 끝 좌표 3을 순서대로 짚는다.
-3. (3:00–4:00) 하단에서 AGENTS.md, architecture.md도 읽었으며 testing.md는 최종 실행에서 읽었음을 확인한다. 완벽한 최소 문서 선택으로 해석하지 않는다.
-4. (4:00–5:00) 계약이 필요한 Task에서 관련 문서 접근과 답이 관찰됐다는 범위로 마무리하고 Task B로 넘긴다.
+1. (0:00–1:00) S43의 Crop 요청 A를 회수하고 왼쪽 접근 요약을 읽는다. AGENTS.md, docs/architecture.md, docs/image-contracts.md, docs/testing.md, README.md는 최종 실행에서 읽은 Markdown 문서다. 나열 순서는 실제 읽기 순서가 아니다. 소스와 관련 테스트도 확인한 기록임을 덧붙인다.
+2. (1:00–2:00) 강조한 image-contracts.md와 가운데의 해당 명세를 연결한다. [x_start, x_end)는 시작 열 포함·끝 좌표 제외다. 첫 화살표는 문서와 내용의 관계이며 실제 탐색 경로·순서를 재현하지 않는다.
+3. (2:00–3:00) ‘대조’를 가리킨 뒤 오른쪽 기록된 답과 맞춰본다. 숫자는 픽셀 값이 아닌0부터 시작하는 원본 열 번호다. --crop 1 3은 열1·2를 포함하고 출력 폭은2이며 끝 좌표3은 제외한다. 명세와 답의 일치를 확인하는 도식이며 내부 추론의 인과 경로를 주장하지 않는다.
+4. (3:00–4:00) 하단의 ‘관찰된 사실’과 ‘해석의 한계’를 따로 가리킨다. 넓은 architecture·README 접근도 있었다. testing.md와 관련 테스트는 최종 실행에서 확인했지만 이전 두 실행에서는 접근이 달랐다. 관련 문서만 최소한으로 읽었다고 해석하지 않는다.
+5. (4:00–5:00) 과거 Codex CLI0.154.0의 읽기 전용 실행 기록을 요약·재구성한 화면임을 확인한다. 토큰 절감·성능 개선·현재 Desktop 재현을 주장하지 않는다. 이 답을 Task B와 비교할 질문으로 넘긴다.
 
-Evidence / Source: TRIAL-005A, BEAT-016, CLM-0014, CLM-0015. OBSERVED_PRODUCT; recorded CLI final run and its access record.
+Evidence / Source: TRIAL-005A final-run access/answer table and environment in plan/DEMO_MATRIX.md; BEAT-016, CLM-0014/CLM-0015, DEC-0057. OBSERVED_PRODUCT. STATE-03 docs/image-contracts.md의 half-open crop 명세, src/graypipe/transform.py의 row[x_start : x_end], data/sample.pgm의4열 표본을 읽어 대조했다. 새 실행이나 Trial을 하지 않았다.
 
-Claim Boundary: The record supports that image-contract detail was accessed and the answer was observed in this run. It does not show perfect routing, that only relevant documents were read, or a measured efficiency gain.
+Claim Boundary: 파일을 연 사실, 명세 내용, 기록된 답을 구분한다. 도식의 화살표는 문서 내용과 답의 대조 관계로서 정확한 접근 순서·답의 내부 생성 원인·명세 단독 인과성을 뜻하지 않는다. 최종 CLI 실행의 관찰에 한정하며 완벽한 Routing, 관련 문서만 읽음, 토큰 절약·효율·성능 개선, 현재 Desktop 동작을 주장하지 않는다. testing.md 접근의 반복 간 차이를 보존한다.
 
-Beginner Explanation: The Crop question had a matching contract document, and the recorded final run read it before giving the boundary result.
+Beginner Explanation: 문서를 열었다는 기록과 그 문서의 명세, 실제 답을 나란히 확인한다. 끝 좌표는 제외하므로 열1과2 두 개가 남는다는 답이 명세와 일치한다.
 
-Advanced Insight: Include run variability and broader reads in the interpretation; `testing.md` access was not consistent across iterations.
+Advanced Insight: Access evidence and answer agreement are separate observations. Broader reads and test-context variability prevent an exclusive causal or efficiency conclusion. The list is not a chronological trace.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: Use the captured/reconstructed record. Show the image contract and concise answer, not a full file-access log or fabricated terminal capture.
+Demo Operation: RECONSTRUCTED RECORD — 실제 접근 기록과 명세·답의 요약을 S44 정적 화면으로 보여준다. 입력창 Screenshot이나 실행 로그처럼 꾸미지 않는다. 현재 제품에서 명령을 실행하지 않고 전체 접근 로그를 읽지 않는다. Task B의 접근 차이는 S45에서 확인한다.
 
-Audience Interaction: Ask which evidence supports the boundary answer; let the audience inspect the concise summary.
+Audience Interaction: 가운데 명세와 오른쪽 열 번호를 보고 ‘끝 좌표3은 포함될까?’를 짧게 확인한 뒤 기록된 답으로 회수한다. 별도 실습·공유·비교 실험은 없다.
 
 Transition: “Dependency Task와 비교하면 어떤 차이가 보일까?”
 
-Time Management: Give the answer two minutes, the supporting document and limitation two minutes, then one minute for transition.
+Time Management: 요청·접근 요약1분, 명세1분, 답 대조1분, 넓은 접근·실행 간 차이1분, 한계 회수·S45 연결1분으로 Case5분을 유지한다. 파일명 전체나 Python 구현 문법 설명이 길어지면 줄이고 명세와 열1·2/폭2/끝 제외를 먼저 회수한다.
 
-Fallback: LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S44 또는 `production/preview/act2/S44.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S44 또는 production/preview/act2/S44.png가 발표 기본 경로다. 동일한 Full S44·ACT2 PNG·내장 Notes 대조는 production/evaluation/S44_CROP_EVIDENCE_REVISION.md와 검증 JSON에 기록한다. 과거 기록 재구성이며 실제 실행 캡처나 현재 제품 실행으로 표현하지 않는다. Live 승인을 추가하지 않는다.
 
-Validation Status: REVIEWED — 원문·Claim 경계, 화면의 설명 순서와 운영 지침을 대조했다. 최종 PPT/Notes/PNG 대조 결과는 production/evaluation/FULL_DECK_PRESENTATION_REVISION.md에 기록한다. Windows PowerPoint, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0057의 실제 접근/명세/기록된 답과 관찰/해석 구분을 반영했다. 최종 렌더·Notes parity는 production/evaluation/S44_CROP_EVIDENCE_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S45 — Task별 접근은 달랐지만 완벽하지는 않다
 

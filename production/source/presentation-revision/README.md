@@ -85,6 +85,11 @@ retained TRIAL-005A/B request excerpts and keep read-only/no-change/evidence
 conditions inside each window. Do not show expected routes or outcomes.
 Rebuild Full/ACT2 only; preserve other89 slides and all per-slide budgets.
 
+DEC-0057 updates S44 in `act23.mjs` with the final TRIAL-005A document
+access summary, matching crop specification and recorded answer. Native
+arrows express comparison, not read order or internal causality. Preserve
+broader reads, final-run testing variability, Case5 and claim boundaries.
+
 ## Historical implementation notes
 
 # Presentation revision source

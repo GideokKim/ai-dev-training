@@ -1138,22 +1138,22 @@ ACT별 Mode 대조:
 - **Section:** 2G Structured Context
 - **Working Title:** Crop Task에서 관찰한 접근
 - **Primary Role:** TRIAL-005A의 문서 접근과 답을 요약한다.
-- **Audience Question:** “Crop 계약을 묻는 Task에서 어떤 근거가 사용됐을까?”
+- **Audience Question:** “Crop 명세를 묻는 Task에서 어떤 문서를 읽었고, 어떤 답을 얻었을까?”
 - **Core Message:** TRIAL-005A의 최종 실행에서 image contract 문서 접근과 함께 정확한 crop 결과를 관찰했다.
 - **Story Beat:** BEAT-016 — Relevant Context is disclosed for the task
 - **Curriculum Trace:** ACT 2 — separation, routing, and progressive disclosure.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 90장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. 기록된 CLI 실행과 최종 반복 결과에 한정한다.
-- **Visual Concept:** `AGENTS.md`, `architecture.md`, `image-contracts.md`, 최종 실행의 `testing.md` 접근 후 `columns 1 and 2 / width 2 / end coordinate 3 excluded`를 표시한다.
-- **Demo / Case Connection:** 실제 읽기 기록은 관련 계약 외에도 architecture, README, source 등을 포함했다. `testing.md` 접근은 반복 실행마다 일정하지 않았다.
+- **Visual Concept:** 요청 A의 `--crop 1 3` 질문을 회수한다. 최종 실행에서 읽은 Markdown 문서5개(`AGENTS.md`, `docs/architecture.md`, `docs/image-contracts.md`, `docs/testing.md`, `README.md`)를 접근 요약으로 나열하고 명세 문서를 강조한다. 해당 문서의 `[x_start, x_end)`와 원본 열0–3 중1·2 강조/출력 폭2/끝 좌표3 제외를 대조한다. 문서 목록은 읽기 순서가 아니며, 화살표는 문서 내용과 답의 대조 관계다. 하단은 관찰된 사실과 해석의 한계를 구분한다.
+- **Demo / Case Connection:** TRIAL-005A 최종 CLI 실행의 문서 접근과 답을 요약·재구성한다. 명세 외에 architecture·README·소스·관련 테스트도 확인했다. `testing.md`와 관련 테스트 접근은 최종 실행에서 관찰했고 이전 실행과 달랐다. 관련 문서 접근과 명세에 맞는 답을 관찰한 범위로 한정한다.
 - **Beginner Payoff:** 결과 주장을 repository 근거와 연결해 본다.
 - **Advanced Payoff:** 선택적 접근이 관찰됐어도 접근 범위가 완벽히 좁지는 않았음을 확인한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 파일 접근 로그를 전부 나열하지 않고, 답을 뒷받침한 image contract와 한계를 함께 보여준다.
+- **Speaker Intent:** S43의 세 관찰 질문 중 Crop 요청의 문서 접근·답변 근거를 회수한다. 정확한 파일명은 다섯 Markdown 문서 요약만 보여주고 전체 로그를 재현하지 않는다. 열 번호는 픽셀 값이 아니며0부터 시작한다. 파일 접근, 명세와 답의 일치, 해석의 한계를 나눠 설명한다. 접근 순서·답의 내부 생성 원인·명세 단독 인과성·최소 문서 선택·효율 향상으로 확대하지 않는다. S45의 Task B 비교 결과는 미리 보여주지 않는다.
 - **Transition:** Slide 45에서 Dependency Task와 비교한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
-- **Evidence / Decision References:** BEAT-016, TRIAL-005A, CLM-0014, CLM-0015
+- **Evidence / Decision References:** BEAT-016, TRIAL-005A, CLM-0014, CLM-0015, DEC-0057
 
 #### S45 — Task별 접근은 달랐지만 완벽하지는 않다
 
