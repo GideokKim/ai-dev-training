@@ -1,0 +1,123 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-23",
+  "baseline": "8dde9dc",
+  "decision": "DEC-0076",
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act3SlideCount": 18,
+  "act3Minutes": 85,
+  "changedVisualSlides": [
+    "S64"
+  ],
+  "changedNotes": [
+    "S64"
+  ],
+  "unchangedOtherVisualPNGs": 92,
+  "unchangedOtherNotesRecords": 92,
+  "fieldsPerNotes": 19,
+  "notesRecords": 93,
+  "renderedPNGs": 111,
+  "fullAct3PNGParity": 18,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "nativeTables": [
+    "S47",
+    "S55"
+  ],
+  "nativeChart": "S58",
+  "nativeChartDataUnchanged": true,
+  "templates": 11,
+  "variants": 27,
+  "newTrial": false,
+  "newProductTest": false,
+  "demoRepositoryUnchanged": true,
+  "otherACTPackagesUnchanged": true,
+  "approvedImageFilesUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "6c2018a99e8b3f0ef840d8670c82401c9ee2c233fb4c735115304f21e7725d1b"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "b3cc72bdd4fbb1c52e33f92131b5789586fe4aaa0c91166452794d87a6c7b2cf"
+    }
+  ],
+  "fullNotesSha256": "9d0ea36821eca588d5caff2f95034925b801492b9043675ec01e717fa13442af",
+  "fullMontageSha256": "e9ea81e6678aa4d135f91fd1b2385dab72f2cc56ccfce8a5def317aa2a8211ed",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "sourceEvidenceAudit": {
+    "sources": [
+      "plan/DECISIONS.md / DEC-0023 course definition",
+      "plan/DEMO_MATRIX.md / Current Harness",
+      "plan/DEMO_MATRIX.md / STEP07 191-200 Working Harness Success",
+      "plan/CLAIM_FREEZE.md / S64 model scope"
+    ],
+    "evidenceType": "OBSERVED_PRODUCT / TEACHING_MODEL",
+    "productSourceState": "STATE-04-PERF",
+    "courseDefinitionExcerptSha256": "dcbc647c585aed74f5cab762d77e2b687532f3800820ac5ac13643dffc854b18",
+    "currentHarnessExcerptSha256": "6948c7784dc4481d37ac6f25b969bee681da1f63958d5b196dab16f02957fbd0",
+    "workingHarnessAuditExcerptSha256": "e4ec9d4b22c9c906433110c9e85c7e0bb79ffc6bc7f333e8df45f54ee3d0d418",
+    "courseModelNotOfficialDefinition": true,
+    "observedCorrespondenceNotCompleteEnvironmentAudit": true,
+    "sharedEnvironmentToWorkAndVerification": true,
+    "humanReviewResponsibilityRetained": true,
+    "noComponentAttributionOrCurrentDesktopClaim": true,
+    "noRequiredSubagentOrMemory": true,
+    "newExecution": false
+  },
+  "individualVisualReview": [
+    "S63",
+    "S64",
+    "S65"
+  ],
+  "staticFallbackInventory": 32,
+  "changedFallbackSlides": [
+    "S64"
+  ],
+  "documentAudit": {
+    "status": "PASS",
+    "changedFiles": 25,
+    "introducedLocalLinksChecked": 41,
+    "fallbackPNGsChecked": 32,
+    "changedFallbackSlides": [
+      "S64"
+    ],
+    "otherVisualPNGsUnchanged": 92,
+    "sourceOfTruthBudgetsPreserved": true,
+    "priorDecisionHistoryPreserved": true,
+    "historicalHandoffPreserved": true,
+    "currentArtifactsAndHashesMatch": true,
+    "otherACTPackagesUnchanged": true,
+    "demoRepositoryUnchanged": true,
+    "sensitiveTemporaryFiles": false
+  },
+  "officeSchemaValidation": {
+    "full": "PASS",
+    "act3": "PASS",
+    "originalBaseline": "8dde9dc",
+    "baselineAware": true,
+    "autoRepair": false
+  }
+}

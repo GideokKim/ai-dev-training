@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0075 / S63 actual task inputs and verification roles.
+Latest refinement: DEC-0076 / S64 connected Harness and execution environment.
+Keep S63's input/work/check arrangement and enclose it as one course model.
+The shared execution environment supports Agent work and verification; human
+review remains explicit. Preserve T03-B, Lecture4+CAPTURED Demo2,93/379 and
+all other slides/Notes. Review: `production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md`.
+
+Previous refinement: DEC-0075 / S63 actual task inputs and verification roles.
 Goal, Context and reusable Skill contribute to one brightness-statistics task;
 tests and benchmark provide behavior and measurement evidence under matching
 conditions. Preserve Demo3, T10-C,93/379, S62/S64 and all other Notes.

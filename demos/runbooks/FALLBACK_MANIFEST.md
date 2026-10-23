@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0075 local static-file inventory only (2026-10-23).
+Status: READY — DEC-0076 local static-file inventory only (2026-10-23).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `9d0604aa736dc2b5fd3fffd1190b96f0a562fc26ca9add30816524c90c0221fb`
-- Full Notes SHA-256: `840b4f555911b5217c0d2d5d7d801ddeaad7bf76c29068f4e04c226959a35892`
-- Full montage SHA-256: `ac0c12f696a2f5ea6d4587601aba1cb66be666a6f35a6256c51cab60bcc4043c`
+- Source SHA-256: `6c2018a99e8b3f0ef840d8670c82401c9ee2c233fb4c735115304f21e7725d1b`
+- Full Notes SHA-256: `9d0ea36821eca588d5caff2f95034925b801492b9043675ec01e717fa13442af`
+- Full montage SHA-256: `e9ea81e6678aa4d135f91fd1b2385dab72f2cc56ccfce8a5def317aa2a8211ed`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -77,7 +77,13 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
   statistics task and bounded verification evidence on S63. Only S63 changes
   in the32-file fallback inventory; the other31 hashes remain unchanged.
   S63 stays Demo3 and S64 stays Lecture4 plus Demo2.
-  [Current package review](../../production/evaluation/S63_TASK_ROLES_REVISION.md).
+  [Prior S63 review](../../production/evaluation/S63_TASK_ROLES_REVISION.md).
+
+- DEC-0076 connects the course Harness model and its shared execution
+  environment on S64. Only S64 changes in the32-file fallback inventory;
+  the other31 hashes remain unchanged. S64 keeps Lecture4 plus CAPTURED
+  Demo2; the latter is the existing actual-configuration recap.
+  [Current package review](../../production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md).
 
 ## Runbook to fallback mapping
 
@@ -120,7 +126,7 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 | S61 | `production/preview/full/S61.png` |1920×1080| `619ea7c0ed240ab83e376ac9d2cf5e992c5b162dd5c4d22e4dae6c6f37dfa6f1` |
 | S62 | `production/preview/full/S62.png` |1920×1080| `e90853c5314232d8877ae03bc60c4eb4bc9d5f3f57e2caa8a9af3f95a3d93695` |
 | S63 | `production/preview/full/S63.png` |1920×1080| `20bc511e52261d13a0192c7f32878b272df659146561eaae112ebdd2768884d7` |
-| S64 | `production/preview/full/S64.png` |1920×1080| `02d751f088026d38c5ab45a44286857f396e83c72466ae0f9386bdaf08be4d06` |
+| S64 | `production/preview/full/S64.png` |1920×1080| `ddf09f7553c46dba81bcc55e44f7442fd171df6dfd060f99a8692e55d0122048` |
 | S69 | `production/preview/full/S69.png` |1920×1080| `f83e50d7df3c3bbfc75cf8409b4cc4de064721ba3cd38e75a9d9c36b3d5909f1` |
 | S70 | `production/preview/full/S70.png` |1920×1080| `ce50c262dd01173328c361aabe1276644190e1e101aef45c6847a25b2cc784e7` |
 | S72 | `production/preview/full/S72.png` |1920×1080| `8814f3636865cbff90a283ada272fc5db2f357a7479ad4362a36d495c264a081` |

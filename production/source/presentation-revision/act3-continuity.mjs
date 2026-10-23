@@ -426,18 +426,36 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S64(p){
-   const s=make(p,'S64','이 구성이 함께 작동하는 것이 Harness다','ACT 3 · 작업 방법과 실행·검증 환경을 하나로 연결',
-    '이 과정의 Harness 운영 모델 · 아래 관찰 구성은 STATE-04-PERF까지의 제한된 사례',
-    '공식 제품 분류·보편적 필수 목록이 아님 · 특정 구성요소의 단독 성능 효과는 입증하지 않음','OBSERVED_PRODUCT / TEACHING_MODEL');
-   rect(s,64,192,1152,337,C.white,C.line,1.5);
-   text(s,'프로젝트 작업 환경',84,204,1112,35,25,C.teal,true);
-   panel(s,88,271,274,147,'목표·허용 범위','개발자가 정한다',C.pale);
-   arrow(s,379,323,29,22);
-   panel(s,434,271,377,147,'Agent의 수행 방법','조사 → 판단 → 변경',C.white);
-   arrow(s,828,323,29,22);
-   panel(s,883,271,309,147,'완료 근거·검토','검증 결과를 확인',C.pale);
-   text(s,'Context·재사용 절차 + 실행 도구·입력·권한·측정 환경',88,461,1104,42,28,C.ink,true);
-   text(s,'관찰한 구성: AGENTS.md · docs · Skill · Tests · Benchmark',64,561,1152,39,26,C.sub);
+   const s=make(p,'S64','함께 작동하는 작업 환경, Harness','ACT 3 · 실제 작업의 구성에서 전체 작업 환경으로',
+    '교육용 Harness 모델 · 사례 대응: AGENTS.md · docs · Skill · tests · benchmark',
+    '공식 정의·필수 목록이 아님 · 모든 실행 조건의 감사·각 요소의 단독 성능 효과는 미입증','OBSERVED_PRODUCT / TEACHING_MODEL');
+   rect(s,64,192,1152,408,C.white,C.line,1.5);
+   const inputs=[
+    ['목표','바꿀 것 · 지킬 조건'],
+    ['Context','프로젝트 사실·명세'],
+    ['Skill','재사용할 수행 방법']
+   ];
+   inputs.forEach(([label,body],i)=>{
+    const y=216+i*98;
+    rect(s,88,y,300,84,i===0?C.pale:C.white,C.line,1);
+    text(s,label,106,y+4,264,33,28,C.teal,true);
+    text(s,body,106,y+42,264,34,24,C.ink);
+    line(s,388,y+42,48,C.teal,2.5);
+   });
+   s.shapes.add({geometry:'line',position:{left:436,top:258,width:0,height:196},line:{fill:C.teal,width:2.5}});
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:436,top:380,width:62,height:0},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+   rect(s,506,308,250,144,C.white,C.teal,1.5);
+   text(s,'Agent',526,320,210,40,34,C.teal,true,FONT,'center');
+   text(s,'조사 · 판단 · 변경',526,384,210,42,26,C.ink,true,FONT,'center');
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:756,top:380,width:122,height:0},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+   rect(s,886,308,306,144,C.pale,C.teal,1.5);
+   text(s,'검증 도구',906,317,266,39,30,C.teal,true);
+   text(s,'테스트 · benchmark',906,364,266,36,25,C.ink,true);
+   text(s,'사람이 결과 검토',906,411,266,31,23,C.ink);
+   [631,1039].forEach(x=>s.shapes.add({geometry:'connector',kind:'straight',position:{left:x,top:452,width:0,height:76},line:{fill:C.teal,width:2.5},head:{type:'triangle',width:'sm',length:'sm'}}));
+   rect(s,88,528,1104,56,C.pale,C.line,1);
+   text(s,'실행 환경',106,537,164,38,28,C.teal,true);
+   text(s,'Repository · 입력 · 권한 · 실행·측정 조건',292,537,880,38,25,C.ink);
    return s;
   },
   S65(p){

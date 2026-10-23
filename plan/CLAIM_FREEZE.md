@@ -616,3 +616,21 @@ as the cause of the improvement. No Prompt superiority, token savings,
 perfect routing, universal minimal feature count or current Desktop guarantee.
 No Subagent or separate Memory was added. S62 source homes and S64's broader
 course operating model retain their different roles and original evidence.
+
+
+## DEC-0076 — S64 connected Harness and execution environment
+
+Preserve DEC-0023's course operational definition, OBSERVED_PRODUCT /
+TEACHING_MODEL, T03-B and Lecture4 plus CAPTURED Demo2. Goal, Context and
+reusable Skill contribute to Agent work. Verification tools provide evidence
+for human review; the reviewer is not a tool. Repository, input, permissions
+and runtime/measurement conditions support both work and verification.
+
+This is a teaching relationship diagram, not an official OpenAI definition,
+a universal required feature list or a recorded loading/execution sequence.
+The actual AGENTS.md/docs/Skill/tests/benchmark correspondence remains scoped
+to preserved STATE-04-PERF evidence; it does not establish a complete audit
+of every condition in the model. No isolated component causality, Skill or
+Prompt superiority, token saving or current Desktop guarantee is introduced.
+No Subagent or separate Memory becomes mandatory. Preserve S63's actual-case
+recap and S65's bounded external-environment Meta preview. No new Trial.

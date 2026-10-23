@@ -2917,11 +2917,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S63, production/pre
 
 Validation Status: ALIGNED — DEC-0075의19필드·Demo3분·실제 구성의 책임과 기존 Claim Boundary를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S63_TASK_ROLES_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S64 — 이 구성이 함께 작동하는 것이 Harness다
+## S64 — 함께 작동하는 작업 환경, Harness
 
 Slide ID: S64
 
-Working Title: 이 구성이 함께 작동하는 것이 Harness다
+Working Title: 함께 작동하는 작업 환경, Harness
 
 ACT / Section: ACT 3 / 3G
 
@@ -2931,35 +2931,39 @@ Mode Split: Lecture 4 minutes + Demo 2 minutes (CAPTURED)
 
 Primary Message: 이 과정에서 Harness는 Agent가 신뢰성 있게 일하도록 목표·Context·재사용 절차·실행 도구·검증·검토 조건을 연결한 작업 환경과 방법의 운영 모델이다.
 
-Opening Question: “목표, Agent의 수행 방법, 완료 근거는 어떤 환경 안에서 연결될까?”
+Opening Question: “S63의 구성에 실행·검증 환경까지 함께 연결하면, Agent가 일하는 전체 구조는 어떻게 보일까요?”
 
 Speaker Flow:
 
-1. (0:00–2:00 / Lecture) 전체 관계도는 이 과정의 운영 모델임을 밝히고 개발자가 정하는 목표·범위에서 Agent 수행과 완료 근거·검토로 읽는다.
-2. (2:00–4:00 / Lecture) Context와 재사용 절차, 실행 도구·입력·권한·측정 환경이 관계를 지탱함을 설명한다. 새 공식 taxonomy나 필수 기능 목록이 아니다.
-3. (4:00–6:00 / Demo) 아래 관찰 구성 줄에서 AGENTS.md/docs/Skill/Tests/Benchmark를 회수한다. 큰 모델의 모든 조건을 실제로 감사했다는 뜻이 아님을 구분한다.
+1. (0:00–0:40 / Lecture) S63의 실제 밝기 통계 작업에서 본 배치를 이어 읽는다. 앞 장은 그 작업에서 무엇을 썼는지, 이번 장은 이 과정에서 Harness라 부르는 전체 작업 환경을 정리한다. 화면 전체를 두른 테두리는 하나의 환경이라는 뜻이며 특정 제품 화면이 아니다.
+2. (0:40–1:30 / Lecture) 왼쪽의 목표·Context·Skill이 같은 Agent 작업에 적용된다. 개발자는 바꿀 것과 지킬 조건을 정한다. Context는 프로젝트 사실·명세이고 Skill은 재사용 수행 방법이다. 셋은 순차 실행 단계가 아니며, 특정 파일 하나가 Harness 전체를 대신하지 않는다.
+3. (1:30–2:30 / Lecture) 가운데 Agent가 조사·판단·변경하고 오른쪽 테스트·benchmark가 동작과 측정 근거를 제공한다. 결과를 사람이 검토한다. ‘사람이 결과 검토’는 검증 도구 이름이 아니라 검증 이후 개발자의 책임을 나타낸다. 검사 통과와 원하는 변화의 충족 여부를 함께 판단하며 자동 정답 보장을 뜻하지 않는다.
+4. (2:30–3:30 / Lecture) 아래 실행 환경에서 위로 연결된 선을 짚는다. Repository, 입력, 권한, 실행·측정 조건은 작업과 확인이 이뤄질 공통 기반이다. 단순히 파일이 있다는 것만으로 명령이 실행되거나 결과가 비교 가능해지는 것은 아니다. 화살표는 이 환경이 작업과 검증을 함께 뒷받침한다는 교육용 관계이며 실제 실행·재시도·시간순서 trace가 아니다.
+5. (3:30–4:00 / Lecture) 이 구성을 의도적으로 연결해 Agent가 신뢰성 있게 일할 수 있게 설계하는 것이 이 과정의 Harness 운영 모델이다. 공식 OpenAI 정의나 보편적인 필수 목록이 아니다. Subagent와 별도 Memory를 모든 환경에 넣어야 한다는 의미도 없다.
+6. (4:00–5:30 / Demo) CAPTURED 정적 구성 회수: S63의 기록을 화면에 대응한다. Context의 AGENTS.md·상세 문서, 재사용 성능 Skill, 실제 동작 검사·benchmark·입력/실행 조건이다. TRIAL-008 후보와 정식 STATE-04-PERF의 재조사·검증을 구분한다. 실제 파일과 기록에서 확인한 구성만 회수하며 큰 모델의 모든 환경 조건을 빠짐없이 감사했다는 뜻이 아니다. 제품 화면이나 새 명령을 실행하지 않는다.
+7. (5:30–6:00 / Demo) 실제 구성은 그 범위의 성공 사례로 유지한다. 아래 실행 환경을 가리키며 ‘그 실행 조건이 Repository 파일만으로 모두 정해질까요?’로 S65를 연다. 전역 지침·경고의 상세 기록은 다음 장과 ACT4에 남긴다.
 
-Evidence / Source: DEC-0023, BEAT-035/036, STATE-04-PERF. OBSERVED_PRODUCT / TEACHING_MODEL.
+Evidence / Source: DEC-0023의 이 과정 Harness 운영 정의; BEAT-035/036; STATE-04-PERF; DEC-0062/0075/0076; DEMO-09. OBSERVED_PRODUCT / TEACHING_MODEL. plan/DEMO_MATRIX.md의 Current Harness 및 §§191–200 Working Harness Success, S63의 실제 구성 대응을 사용한다. AGENTS.md·상세 문서·repository Skill·테스트·benchmark는 보존된 실제 근거이며 환경 전체의 완전한 감사 증거는 아니다.
 
-Claim Boundary: 과정의 operational definition이다. 공식 OpenAI 정의나 보편적 industry standard로 제시하지 않는다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: TEACHING_MODEL — 과정의 operational definition이며 공식 OpenAI 정의나 보편적 산업 분류가 아니다. 실제 구성 대응은 STATE-04-PERF까지의 기록 범위로 한정한다. 연결선과 환경 프레임은 교육용 관계 재구성이며 자동 routing·고정된 호출 순서·실제 실행 trace가 아니다. 모든 환경 조건의 감사, 각 구성 요소의 단독 성능 인과성, Skill/Prompt 우열, 토큰 절감, 현재 Desktop 기능 보장을 주장하지 않는다. OBSERVED_PRODUCT 구성과 TEACHING_MODEL 정의를 구분하고 Subagent·별도 Memory 미추가의 기존 선택을 유지한다.
 
-Beginner Explanation: Agent가 알 정보뿐 아니라 일하는 절차와 결과를 확인하는 환경도 함께 설계한다.
+Beginner Explanation: 이번 목표, 프로젝트 정보, 일하는 방법을 Agent에 연결하고, 도구로 확인한 결과를 사람이 검토한다. 이 일이 실행될 저장소·입력·권한·실행 조건도 함께 준비한다. 이 과정은 그 전체 작업 환경과 방법을 Harness로 설명한다.
 
-Advanced Insight: Harness는 특정 파일이나 기능 목록이 아니라 Project별 신뢰성 문제를 해결하는 system model이다.
+Advanced Insight: Harness는 파일 수나 기능 목록이 아니라 목표·정보·절차·실행 가능 조건·완료 근거와 책임 사이의 관계다. 실행 환경은 Agent 작업과 검증 양쪽에 필요하다. 각 프로젝트의 신뢰성 문제에 맞춰 구성하며 사례의 성공을 특정 구성 요소의 단독 효과로 귀속하지 않는다.
 
-C++ Vision Bridge: Slide 66에서 C++ Project 환경에 같은 Engineering Pattern을 연결한다.
+C++ Vision Bridge: S66에서 C++ 프로젝트의 명세·빌드·검증·성능 조건에 같은 Engineering Pattern을 연결한다. 이 장에 CMake·하드웨어 도구 목록을 추가하지 않는다.
 
-Demo Operation: 정적 기본 경로 — 작업 환경 프레임 안 목표/허용 범위→Agent 수행→완료 근거/검토와 Context·절차·도구·입력·권한·측정 조건을 연결한다. 관찰 구성은 별도 아래 행에 둔다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: Lecture4분에는 왼쪽 세 입력 → Agent → 검증·사람의 검토, 아래 실행 환경 → 작업/검증의 관계를 설명한다. 이후 Demo2분은 기존 S63/STATE-04-PERF의 AGENTS.md·docs·Skill·tests·benchmark와 기록된 입력/실행 조건을 같은 도식에 대응하는 CAPTURED 정적 요약이다. 실제 실행 캡처가 아니며 제품·Agent·benchmark·Demo repository를 실행하거나 새 Trial을 만들지 않는다. S63 Demo3분과 중복 계산하지 않는다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: ‘테스트 파일은 있지만 실행할 도구나 권한이 없다면 확인이 끝난 걸까요?’를 잠시 생각하게 하고 실행 환경과 완료 근거를 연결한다. 교육용 질문이며 실제 Demo에서 그런 실패가 있었다는 뜻은 아니다. 별도 실습·Q&A 시간을 추가하지 않는다.
 
 Transition: “그 실행 조건이 Repository 파일만으로 모두 정해질까요?”
 
-Time Management: Lecture4분 → Demo2분(CAPTURED 실제 구성 회수). 완성 구조는 이 후반 장에서만 묶는다.
+Time Management: Lecture4분: S63→전체 모델0.67, 세 입력0.83, 작업·검증·검토1, 실행 환경1, 정의·범위0.5. Demo2분: 기존 실제 구성 대응1.5, 환경 질문·전환0.5. 지연 시 파일명·용어 정의 반복을 줄이되 실행 환경의 두 연결과 사람의 검토 책임을 유지한다.6분에 S65로 넘긴다. 실제 운영 리허설은 UNVERIFIED다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S64, production/preview/act3/S64.png 및 production/preview/full/S64.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S64, production/preview/act3/S64.png 및 production/preview/full/S64.png. 교육용 Harness 관계도와 기존 실제 구성의 대응이며 raw 실행 캡처가 아니다. 파일 대조는 production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0076의19필드·Lecture4+Demo2분·교육용 정의와 실제 구성 경계를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S65 — 같은 Repository라도 실행 조건은 다를 수 있다
 

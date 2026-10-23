@@ -1,6 +1,8 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
-> **최신 S63 수정: DEC-0075.** 실제 밝기 통계 작업에서 목표·Context·Skill이 한 작업에 적용되고 테스트·benchmark가 판단 근거를 제공한 관계를 짧은 도식으로 정리한다. S62의 출처 감사와 S64의 전체 작업 환경 모델을 구분하며 근거·시간을 유지한다. [수정 검토](../production/evaluation/S63_TASK_ROLES_REVISION.md).
+> **최신 S64 수정: DEC-0076.** S63의 입력·작업·검증 구도를 전체 Harness로 묶고 실행 환경을 작업·검증 양쪽의 공통 기반으로 시각화한다. 교육용 정의와 제한된 실제 구성 대응, 사람의 검토 책임 및 기존 시간·근거를 유지한다. [수정 검토](../production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md).
+
+> **이전 S63 수정: DEC-0075.** 실제 밝기 통계 작업에서 목표·Context·Skill이 한 작업에 적용되고 테스트·benchmark가 판단 근거를 제공한 관계를 짧은 도식으로 정리한다. S62의 출처 감사와 S64의 전체 작업 환경 모델을 구분하며 근거·시간을 유지한다. [수정 검토](../production/evaluation/S63_TASK_ROLES_REVISION.md).
 
 > **이전 S62 수정: DEC-0074.** 실제 Demo 지식의 원래 위치를 코드·문서·Skill·Trial 기록 네 출처로 시각화한다. 기존 출처에서 확인할 수 있었고 별도 보존 후보를 찾지 못했다는 Memory 판단을 연결하며 기존 근거·시간을 유지한다. [수정 검토](../production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md).
 
@@ -1704,29 +1706,29 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-035, BEAT-037, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0062, DEC-0075
 
 
-#### S64 — 이 구성이 함께 작동하는 것이 Harness다
+#### S64 — 함께 작동하는 작업 환경, Harness
 
 - **Slide ID:** S64
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 이 구성이 함께 작동하는 것이 Harness다
+- **Working Title:** 함께 작동하는 작업 환경, Harness
 - **Primary Role:** 앞 장의 실제 구성 목록을 전체 작업 관계로 묶어 Harness 정의를 완성한다.
-- **Audience Question:** “목표, Agent의 수행 방법, 완료 근거는 어떤 환경 안에서 연결될까?”
+- **Audience Question:** “S63의 구성에 실행·검증 환경까지 함께 연결하면, Agent가 일하는 전체 구조는 어떻게 보일까요?”
 - **Core Message:** 이 과정에서 Harness는 Agent가 신뢰성 있게 일하도록 목표·Context·재사용 절차·실행 도구·검증·검토 조건을 연결한 작업 환경과 방법의 운영 모델이다.
 - **Story Beat:** BEAT-035, BEAT-036
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** TEACHING_MODEL — DEC-0023에서 확정한 이 과정의 Harness 정의. 공식 OpenAI 정의나 보편적 분류 체계가 아니다.
-- **Visual Concept:** 작업 환경 프레임 안 목표/허용 범위→Agent 수행→완료 근거/검토와 Context·절차·도구·입력·권한·측정 조건을 연결한다. 관찰 구성은 별도 아래 행에 둔다.
+- **Visual Concept:** S63의 세 입력→Agent→검증 구도를 유지하며 전체를 하나의 Harness 프레임으로 묶는다. 목표·Context·Skill은 각각 조건·사실/명세·재사용 방법으로 짧게 표시한다. 검증 도구의 결과는 사람이 검토한다. 아래 실행 환경을 Repository·입력·권한·실행/측정 조건의 공통 기반으로 두고 Agent와 검증 도구 양쪽에 위로 연결한다. 사례 파일 대응은 하단 짧은 출처 줄과 Demo Notes로 회수한다.
 - **Demo / Case Connection:** STATE-04-PERF에서 관찰한 요소를 근거로 삼되, Subagent와 Memory를 필수 요소로 넣지 않는다.
 - **Beginner Payoff:** Agent에게 Project 정보뿐 아니라 일하는 환경과 확인 방법도 필요하다는 점을 이해한다.
 - **Advanced Payoff:** Harness를 특정 파일이나 기능이 아니라 Project별 신뢰성 문제를 해결하는 시스템으로 본다.
 - **C++ Vision Bridge:** Slide 66에서 다른 Project의 환경으로 전이한다.
-- **Speaker Intent:** 앞 장의 실제 구성 목록을 전체 작업 관계로 묶어 Harness 정의를 완성한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Speaker Intent:** S63의 구체적인 작업 역할을 전체 작업 환경의 관계로 확장해 Harness 정의를 완성한다. 파일·기능 목록을 반복하지 않고 입력·작업·확인·공통 실행 조건과 개발자의 검토 책임을 읽는다. 교육용 모델과 실제 구성의 범위를 구분하며 S65의 Repository 밖 실행 조건 질문으로 연결한다.
 - **Transition:** “그 실행 조건이 Repository 파일만으로 모두 정해질까요?”
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Lecture 4분 + Demo 2분 (CAPTURED) = 6분
-- **Evidence / Decision References:** BEAT-035, BEAT-036, STATE-04-PERF, OQ-011, CLM-0016, CLM-0017, CLM-0030, DEC-0062
+- **Evidence / Decision References:** BEAT-035, BEAT-036, STATE-04-PERF, OQ-011, CLM-0016, CLM-0017, CLM-0030, DEC-0062, DEC-0023, DEC-0076
 
 
 #### S65 — 같은 Repository라도 실행 조건은 다를 수 있다

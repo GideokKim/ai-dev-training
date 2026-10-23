@@ -1,6 +1,16 @@
 # ACT3 Flow Revision — DEC-0062
 
-## Current S63 refinement — DEC-0075
+## Current S64 refinement — DEC-0076
+
+Keep S63's input/task/check arrangement and connect the whole as one Harness.
+Goal, Context and Skill contribute to Agent work; tools provide verification
+evidence for human review. The shared execution environment supports both
+work and checks. Preserve the course operational definition, bounded actual
+configuration recap and S65's repository-external condition question.
+Keep Lecture4 plus CAPTURED Demo2, T03-B, S63/S65 and93/379.
+Review: [Harness structure](../production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md).
+
+## Previous S63 refinement — DEC-0075
 
 Use the actual brightness-statistics task as the center. Goal, project
 Context and reusable Skill contribute to that same task; tests and the
@@ -143,7 +153,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S61 | Select a verified reusable fact from current Context and retain its source/scope/recheck conditions for next-task use; explicit hypothesis, DEC-0073. |Demo2+Case2|
 | S62 | Show actual code/docs/Skill/Trial sources and recover the no-extra-Memory choice; retain four criteria in Notes, DEC-0074. |Lecture4|
 | S63 | Connect actual goal/Context/Skill inputs to the brightness-statistics task and behavior/measurement evidence; DEC-0075. |Demo3|
-| S64 | Connect the system as a course model, separate from the observed asset row. |Lecture4+Demo2|
+| S64 | Connect inputs, Agent, verification and shared execution environment as the course Harness model; retain human review and bounded actual recap, DEC-0076. |Lecture4+Demo2|
 | S65 | Explain why external conditions matter using limited Meta observations. |Lecture3|
 | S66 | Retain approved C++ illustration and apply specification/method/completion questions. |Lecture5|
 | S67 | Reflect on one recurring friction and who maintains the response; hand off to ACT4. |Reflection3+Q&A5+Transition2|

@@ -10,7 +10,9 @@
 
 현재 제작 기준은 **DEC-0060 /93장·379분(6시간19분)**이다. ACT2는 S32–S49/18장·81분이며, 연구 분리·의존성 답변 회수·성과 정리와 ACT3 연결을 개선한다. 기존90장의 시간·근거 범위를 보존한다. [ACT2 흐름 개선](production/evaluation/ACT_2_FLOW_REVISION.md), [번호 대조](plan/SLIDE_ID_MIGRATION_93.md), [ACT2 미리보기](production/preview/act2/montage.png). 최종93장 렌더·93개 내장 Notes와 ACT/Full 정합성 검토를 완료했다.
 
-최신 수정은 **DEC-0075 / S63 실제 밝기 통계 작업에서 구성의 역할**이다. 목표·Context·Skill을 한 Agent의 밝기 통계 조사·변경에 적용하고, 테스트·benchmark가 판단 근거를 제공한 관계를 시각화했다. Notes에 실제 요청 범위와 원출처·검증 한계를 유지하며93장·379분을 보존한다. [S63](production/preview/full/S63.png), [연속3장](production/preview/act3/S62-S64-continuity.png), [검토 기록](production/evaluation/S63_TASK_ROLES_REVISION.md).
+최신 수정은 **DEC-0076 / S64 함께 작동하는 Harness 구조와 실행 환경**이다. S63의 입력·작업·검증 구도를 전체 Harness로 묶고, 실행 환경이 Agent와 검증 도구를 함께 뒷받침하는 관계를 연결했다. 사람의 결과 검토 책임과 교육용 정의·실제 구성 대응의 경계를 유지한다. Notes와93장·379분을 정렬했다. [S64](production/preview/full/S64.png), [연속3장](production/preview/act3/S63-S65-continuity.png), [검토 기록](production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md).
+
+이전 수정은 **DEC-0075 / S63 실제 밝기 통계 작업에서 구성의 역할**이다. 목표·Context·Skill을 한 Agent의 밝기 통계 조사·변경에 적용하고, 테스트·benchmark가 판단 근거를 제공한 관계를 시각화했다. Notes에 실제 요청 범위와 원출처·검증 한계를 유지하며93장·379분을 보존한다. [S63](production/preview/full/S63.png), [연속3장](production/preview/act3/S62-S64-continuity.png), [검토 기록](production/evaluation/S63_TASK_ROLES_REVISION.md).
 
 이전 수정은 **DEC-0074 / S62 실제 지식의 원래 출처와 Memory 판단**이다. 코드·문서·Skill·Trial 기록에 이미 있던 지식을 네 출처에 대응하고, 별도 보존 후보를 찾지 못해 Memory를 추가하지 않은 기존 판단을 연결한다. Notes에 보존 기준과 원출처 경로를 유지하고93장·379분, 기존 근거 범위를 보존한다. [S62](production/preview/full/S62.png), [연속3장](production/preview/act3/S61-S63-continuity.png), [검토 기록](production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md).
 

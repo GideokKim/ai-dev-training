@@ -8501,3 +8501,82 @@ Render and inspect S63 with S62/S64. Validate93slides/379minutes, Demo3,
 embedded Notes, unchanged other slides and existing evidence boundaries.
 Keep Windows, target account/surface, room and timed rehearsal UNVERIFIED.
 Follow the authorized normal Git checkpoint without regenerating bundles.
+
+
+# DEC-0076 — connect the Harness structure and execution environment
+
+## Status
+
+ACCEPTED — explicit user request to revise S64 and align Notes/rendering.
+
+## Date
+
+2026-10-23
+
+## Context
+
+S63 now shows the different contributions to one actual brightness-statistics
+task. S64 generalizes these relationships as the course Harness model before
+S65 asks about conditions outside the repository.
+
+## Problem
+
+The existing bottom list names Context, procedure, tools and environment
+without showing how they connect. The audience must see the shared work
+structure instead of interpreting a definition or another feature list.
+
+## Decision
+
+Keep the familiar goal/Context/Skill inputs, Agent and verification layout.
+Enclose them as one working environment. Connect an execution-environment
+foundation to both Agent work and verification tools, with human result
+review explicit. Reduce screen prose; retain actual source correspondence,
+source scope and detailed operating cues in Notes.
+
+## Rationale
+
+Stable positions link the actual S63 case to the broader model. Explicit
+support connections explain why environment belongs to the Harness and
+prepare S65 without introducing its Meta evidence early.
+
+## Alternatives
+
+Keep the bottom component list; its relationships remain implicit.
+Draw unrelated feature spokes; this weakens the shared task structure.
+Add new environment experiments; no new evidence or Trial is authorized.
+
+## Trade-offs
+
+Use a compact native diagram and short role descriptions. Keep exact source
+names and the complete operational definition in Notes. The diagram does not
+claim a complete environment audit or isolated component effects.
+
+## Related Invariants
+
+INV-MATURITY-005, INV-MATURITY-009, INV-DEMO-003, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S64 source, ACT3/Full PPTX and previews, S64 Notes, Slide Map, Template Map,
+ACT3 flow reference, Claim Freeze, module rationale, DEMO-09 static runbook,
+fallback hashes and current delivery references. Preserve S63 and S65.
+
+## Evidence
+
+User instruction; DEC-0023 operational definition; BEAT-035/036;
+STATE-04-PERF; DEMO_MATRIX Current Harness and STEP07 191-200 Working Harness
+Success; DEC-0062/0075. The actual source correspondence is preserved evidence,
+not a new product run or a complete audit of the course model.
+
+## Training Relevance
+
+Explain Harness as the connected conditions for Agent work and verification,
+with developer goals and review responsibilities retained.
+
+## Follow-up
+
+Render and inspect S64 with S63/S65. Validate93slides/379minutes, Lecture4
+plus CAPTURED Demo2, embedded Notes and unchanged other slides. Preserve the
+course model and actual-case boundary. Keep Windows, product/account, room
+and timed rehearsal UNVERIFIED. Follow the normal authorized Git checkpoint
+without regenerating presenter bundles or modifying the Demo repository.
