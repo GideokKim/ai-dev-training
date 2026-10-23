@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일:2026-10-23 (Asia/Seoul). 현재93장·379분/DEC-0060, 최신 내용 수정 DEC-0074. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
+갱신 기준일:2026-10-23 (Asia/Seoul). 현재93장·379분/DEC-0060, 최신 내용 수정 DEC-0075. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,13 +9,13 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `8613ab68c2c619afa6830d4bf073fb88714d818898b153dfb3a8e891beec7511`
+- PPTX SHA-256: `9d0604aa736dc2b5fd3fffd1190b96f0a562fc26ca9add30816524c90c0221fb`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `a38a218a52d4ec8393096c154347a764118e1db74eaef427abb098a64385915d`
+- Notes SHA-256: `840b4f555911b5217c0d2d5d7d801ddeaad7bf76c29068f4e04c226959a35892`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S93.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-위 PPTX·Notes hash는 DEC-0074의 현재93장 파일 식별자다. [S62 실제 지식의 원래 출처와 Memory 판단](S62_KNOWLEDGE_SOURCES_REVISION.md), [이전 S61 Context와 보존](S61_CONTEXT_RETENTION_REVISION.md), [이전 S60 작업 판단](S60_TASK_DEPENDENCY_REVISION.md), [이전 S59 역할 분리](S59_ROLE_SPLIT_REVISION.md), [이전 S57–S58 작업·검증](S57_S58_TASK_RESULT_REVISION.md), [이전 S57 후보 선택](S57_CANDIDATE_SELECTION_REVISION.md), [이전 S56 방법과 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S55 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S53/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S53 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S52 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S51 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
+위 PPTX·Notes hash는 DEC-0075의 현재93장 파일 식별자다. [S63 실제 밝기 통계 작업에서 구성의 역할](S63_TASK_ROLES_REVISION.md), [이전 S62 지식 출처](S62_KNOWLEDGE_SOURCES_REVISION.md), [이전 S61 Context와 보존](S61_CONTEXT_RETENTION_REVISION.md), [이전 S60 작업 판단](S60_TASK_DEPENDENCY_REVISION.md), [이전 S59 역할 분리](S59_ROLE_SPLIT_REVISION.md), [이전 S57–S58 작업·검증](S57_S58_TASK_RESULT_REVISION.md), [이전 S57 후보 선택](S57_CANDIDATE_SELECTION_REVISION.md), [이전 S56 방법과 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S55 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S53/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S53 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S52 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S51 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
 
 이전 DEC-0033–0035의 80장 렌더·구조·Notes 검토는 해당 평가 문서와 Git history의 역사적 근거다. 이전 ZIP은 payload 362개·entry 363개였으며 당시 CRC·hash·내부 링크·Notes 정합성을 확인했다. 이번에는 묶음을 갱신하지 않는다. M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아니다. 2순위 보강은 보류한다.
 
@@ -260,3 +260,16 @@ ____________________________________________________________________
 - [ ] Lecture4분 운영과 출처별 파일 라벨의 원거리 가독성을 실제 확인했다.
 
 위 항목은 실제 발표 환경과 리허설의 후속 확인이며 로컬 렌더 검사로 완료하지 않는다.
+
+
+## S63 실제 작업 구성의 발표 검토 — DEC-0075 / UNVERIFIED
+
+- [ ] S62의 지식 출처에서 밝기 통계 작업에 적용한 역할로 전환했다.
+- [ ] 목표·Context·Skill이 순차 실행 단계가 아닌 한 작업의 입력임을 설명했다.
+- [ ] 실제 목표의 출력6항목 보존과 조사 범위를 설명했다.
+- [ ] Skill은 수행 방법, 답은 조사·검증 근거로 판단한다는 점을 구분했다.
+- [ ] 테스트의 동작 검사와 benchmark의 시간·할당량 비교 및 같은 입력·환경 조건을 짚었다.
+- [ ] 이 사례의 구성을 보편적인 필수 목록이나 각 요소의 단독 성능 효과로 확대하지 않았다.
+- [ ] Demo3분 정적 운영과 S64 연결·파일/도구 라벨의 원거리 가독성을 실제 확인했다.
+
+위 항목은 실환경·리허설 후속 확인이며 로컬 렌더 검사로 완료하지 않는다.

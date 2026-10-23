@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0074 local static-file inventory only (2026-10-23).
+Status: READY — DEC-0075 local static-file inventory only (2026-10-23).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `8613ab68c2c619afa6830d4bf073fb88714d818898b153dfb3a8e891beec7511`
-- Full Notes SHA-256: `a38a218a52d4ec8393096c154347a764118e1db74eaef427abb098a64385915d`
-- Full montage SHA-256: `a89168041f5b81a8b71b620e61814057b51261a32461f88d1a209e7bbc324402`
+- Source SHA-256: `9d0604aa736dc2b5fd3fffd1190b96f0a562fc26ca9add30816524c90c0221fb`
+- Full Notes SHA-256: `840b4f555911b5217c0d2d5d7d801ddeaad7bf76c29068f4e04c226959a35892`
+- Full montage SHA-256: `ac0c12f696a2f5ea6d4587601aba1cb66be666a6f35a6256c51cab60bcc4043c`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -71,7 +71,13 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 - DEC-0074 maps actual code/docs/Skill/Trial sources to the retained choice
   on S62. Only S62 changes in the32-file fallback inventory; the other31
   hashes stay unchanged. S62 remains Lecture4, with no added Demo minutes.
-  [Current package review](../../production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md).
+  [Prior S62 review](../../production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md).
+
+- DEC-0075 connects the actual goal/Context/Skill inputs to the brightness
+  statistics task and bounded verification evidence on S63. Only S63 changes
+  in the32-file fallback inventory; the other31 hashes remain unchanged.
+  S63 stays Demo3 and S64 stays Lecture4 plus Demo2.
+  [Current package review](../../production/evaluation/S63_TASK_ROLES_REVISION.md).
 
 ## Runbook to fallback mapping
 
@@ -113,7 +119,7 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 | S60 | `production/preview/full/S60.png` |1920×1080| `7fa8d5c6b3f5a949763477a82c160f5b48b8b10055d66f9a15ee0f5997957956` |
 | S61 | `production/preview/full/S61.png` |1920×1080| `619ea7c0ed240ab83e376ac9d2cf5e992c5b162dd5c4d22e4dae6c6f37dfa6f1` |
 | S62 | `production/preview/full/S62.png` |1920×1080| `e90853c5314232d8877ae03bc60c4eb4bc9d5f3f57e2caa8a9af3f95a3d93695` |
-| S63 | `production/preview/full/S63.png` |1920×1080| `59bfe9e4ac3f1ce0eee67bd56258e082ba577744001cf15271c1d7a48c310fac` |
+| S63 | `production/preview/full/S63.png` |1920×1080| `20bc511e52261d13a0192c7f32878b272df659146561eaae112ebdd2768884d7` |
 | S64 | `production/preview/full/S64.png` |1920×1080| `02d751f088026d38c5ab45a44286857f396e83c72466ae0f9386bdaf08be4d06` |
 | S69 | `production/preview/full/S69.png` |1920×1080| `f83e50d7df3c3bbfc75cf8409b4cc4de064721ba3cd38e75a9d9c36b3d5909f1` |
 | S70 | `production/preview/full/S70.png` |1920×1080| `ce50c262dd01173328c361aabe1276644190e1e101aef45c6847a25b2cc784e7` |

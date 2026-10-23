@@ -8421,3 +8421,83 @@ Render and inspect S62 with S61/S63. Validate93slides/379minutes, Lecture4,
 embedded Notes, existing knowledge/claim boundaries and unchanged other slides.
 Keep Windows, target account/surface, room and timed rehearsal UNVERIFIED.
 Follow the authorized normal Git checkpoint without regenerating bundles.
+
+
+# DEC-0075 — show actual task inputs and verification roles
+
+## Status
+
+ACCEPTED — explicit user request to revise S63 and align Notes/rendering.
+
+## Date
+
+2026-10-23
+
+## Context
+
+S62 locates the actual Demo knowledge in existing sources. S63 recaps the
+configuration used for the brightness-statistics task before S64 organizes
+those relationships as the broader course Harness model.
+
+## Problem
+
+Four label-to-file rows do not show how the goal, Context, Skill and
+verification tools contribute to one actual task. Repeating a source
+inventory also overlaps S62 and obscures the transition to S64.
+
+## Decision
+
+Show goal, project Context and reusable Skill as three inputs to the actual
+brightness-statistics investigation/change. Connect that work to tests and
+benchmark as sources of behavior/runtime/allocation evidence under matching
+conditions. Use concise editable native nodes and consistent connectors.
+Align S63 Notes, mapping and artifact references only; preserve other slides.
+
+## Rationale
+
+A single concrete task makes the different responsibilities visible without
+adding another glossary or repeating measurements. S62 answers where the
+knowledge was; S63 explains its role in this task; S64 generalizes the model.
+
+## Alternatives
+
+Retain four abstract responsibility rows; their contribution remains unclear.
+Repeat the full source audit; this duplicates S62.
+Add outcome numbers or a new execution; S58 already covers bounded results
+and no new evidence is authorized.
+
+## Trade-offs
+
+Keep only the actual task, three inputs and verification roles on screen.
+Retain exact source paths, the actual request scope, human review and
+attribution boundaries in Notes. The diagram is a reconstruction, not a
+recorded loading order or guarantee of automatic execution.
+
+## Related Invariants
+
+INV-MATURITY-005, INV-MATURITY-009, INV-DEMO-003, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S63 source, ACT3/Full PPTX and previews, S63 Notes, Slide Map, Template Map,
+ACT3 flow reference, Claim Freeze, module rationale, DEMO-09 static runbook,
+fallback hashes and current delivery references. Preserve S62 and S64.
+
+## Evidence
+
+User instruction; DEMO_MATRIX TRIAL-008 Task Prompt, Current Harness and
+STEP07 191-200 Working Harness Success; STATE-04-PERF; DEC-0018/0062;
+existing root instructions, detailed docs, repository Skill, tests and
+statistics benchmark. Read these sources without running any product Trial.
+
+## Training Relevance
+
+Explain why a task goal, project knowledge, reusable procedure and verification
+have different responsibilities while contributing to the same work.
+
+## Follow-up
+
+Render and inspect S63 with S62/S64. Validate93slides/379minutes, Demo3,
+embedded Notes, unchanged other slides and existing evidence boundaries.
+Keep Windows, target account/surface, room and timed rehearsal UNVERIFIED.
+Follow the authorized normal Git checkpoint without regenerating bundles.

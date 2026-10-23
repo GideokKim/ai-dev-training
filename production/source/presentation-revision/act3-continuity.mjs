@@ -398,17 +398,31 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S63(p){
-   const s=make(p,'S63','이번 사례에서 실제로 사용한 구조','ACT 3 · Minimum Effective Harness의 근거를 회수',
-    'STATE-04-PERF까지의 구성 점검 · 보존된 기록과 교육용 책임 구분을 연결',
-    'Subagent·별도 Memory는 추가하지 않음 · 보편적 최적 구성이나 기능 수 우위에 대한 주장이 아님','OBSERVED_PRODUCT / TEACHING_MODEL');
-   const rows=[['현재 목표·범위','밝기 통계 조사 요청'],['참고할 명세·안내','AGENTS.md + 상세 문서'],['다시 쓸 수행 방법','graypipe-performance Skill'],['변경을 판단할 근거','테스트 + benchmark + 실행 환경']];
-   rows.forEach(([question,answer],i)=>{
-    const y=223+i*80;line(s,64,y,1152);
-    text(s,question,64,y+17,496,47,30,C.ink,true);
-    arrow(s,576,y+31,32,20);
-    text(s,answer,650,y+17,566,47,i===2?27:29,C.teal,true);
-   });
-   text(s,'현재 문제와 확인 요구에 맞춰 구성한 작업 환경',64,570,1152,33,28,C.ink,true);
+    const s=make(p,'S63','밝기 통계 작업에 쓰인 구성의 역할','ACT 3 · 실제 밝기 통계 작업의 구성',
+      'STATE-04-PERF · 실제 구성·작업 기록 요약 · 도식 재구성',
+      'Subagent·별도 Memory는 추가하지 않음 · 각 요소의 단독 성능 효과는 입증하지 않음','OBSERVED_PRODUCT / TEACHING_MODEL');
+    const inputs=[
+      ['목표','밝기 통계 성능 조사\n출력 6항목 유지'],
+      ['Context','명세·명령·참고 위치\nAGENTS.md · 상세 문서'],
+      ['Skill','기준선·조사·변경·비교\nRepository 성능 Skill']
+    ];
+    inputs.forEach(([label,body],i)=>{
+      const y=198+i*137;
+      rect(s,64,y,388,120,i===0?C.pale:C.white,C.line,1);
+      text(s,label,84,y+9,348,36,28,C.teal,true);
+      text(s,body,84,y+49,348,62,25,C.ink);
+      line(s,452,y+60,70,C.teal,2.5);
+    });
+    s.shapes.add({geometry:'line',position:{left:522,top:258,width:0,height:274},line:{fill:C.teal,width:2.5}});
+    s.shapes.add({geometry:'connector',kind:'straight',position:{left:522,top:395,width:32,height:0},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+    rect(s,560,323,244,148,C.white,C.teal,1.5);
+    text(s,'Agent',580,341,204,40,34,C.teal,true,FONT,'center');
+    text(s,'밝기 통계\n조사·변경',580,391,204,71,29,C.ink,true,FONT,'center');
+    s.shapes.add({geometry:'connector',kind:'straight',position:{left:804,top:395,width:112,height:0},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+    rect(s,924,305,292,180,C.pale,C.teal,1.5);
+    text(s,'검증 도구',944,320,252,40,31,C.teal,true);
+    text(s,'테스트 · benchmark',944,372,252,36,25,C.ink,true);
+    text(s,'출력·시간·할당량\n같은 입력·환경',944,417,252,62,24,C.ink);
    return s;
   },
   S64(p){

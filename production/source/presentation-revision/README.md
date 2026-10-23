@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0074 / S62 actual knowledge sources and retention choice.
+Latest refinement: DEC-0075 / S63 actual task inputs and verification roles.
+Goal, Context and reusable Skill contribute to one brightness-statistics task;
+tests and benchmark provide behavior and measurement evidence under matching
+conditions. Preserve Demo3, T10-C,93/379, S62/S64 and all other Notes.
+Review: `production/evaluation/S63_TASK_ROLES_REVISION.md`.
+
+Previous refinement: DEC-0074 / S62 actual knowledge sources and retention choice.
 Map code/docs/Skill/Trial knowledge to existing source nodes and gather them
 into the bounded no-extra-Memory finding. Retain all four criteria in Notes,
 Lecture4 and93/379; align only S62 Notes. Recheck product sources read-only.

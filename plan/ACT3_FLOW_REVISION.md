@@ -1,6 +1,17 @@
 # ACT3 Flow Revision — DEC-0062
 
-## Current S62 refinement — DEC-0074
+## Current S63 refinement — DEC-0075
+
+Use the actual brightness-statistics task as the center. Goal, project
+Context and reusable Skill contribute to that same task; tests and the
+benchmark provide behavior/runtime/allocation evidence under matching
+conditions. Keep role contributions distinct from execution order, and
+preserve the no-extra-Subagent/Memory choice. This actual-case recap links
+S62 source homes to S64's broader teaching model without redefining it.
+Preserve Demo3, T10-C, S62 and S64. Review:
+[Task roles](../production/evaluation/S63_TASK_ROLES_REVISION.md).
+
+## Previous S62 refinement — DEC-0074
 
 Return from S61's retention hypothesis to the actual source audit. Show
 code, documentation, Skill and dated Trial evidence as four source nodes
@@ -131,7 +142,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S60 | Label the actual investigation-result and changed-code dependencies; recover the narrow-scope no-Subagent choice; DEC-0072. |Lecture1+Demo2+Q&A1|
 | S61 | Select a verified reusable fact from current Context and retain its source/scope/recheck conditions for next-task use; explicit hypothesis, DEC-0073. |Demo2+Case2|
 | S62 | Show actual code/docs/Skill/Trial sources and recover the no-extra-Memory choice; retain four criteria in Notes, DEC-0074. |Lecture4|
-| S63 | Recover which actual assets served the four responsibilities. |Demo3|
+| S63 | Connect actual goal/Context/Skill inputs to the brightness-statistics task and behavior/measurement evidence; DEC-0075. |Demo3|
 | S64 | Connect the system as a course model, separate from the observed asset row. |Lecture4+Demo2|
 | S65 | Explain why external conditions matter using limited Meta observations. |Lecture3|
 | S66 | Retain approved C++ illustration and apply specification/method/completion questions. |Lecture5|

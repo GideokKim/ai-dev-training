@@ -1,0 +1,129 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-23",
+  "baseline": "f2a055e",
+  "decision": "DEC-0075",
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act3SlideCount": 18,
+  "act3Minutes": 85,
+  "changedVisualSlides": [
+    "S63"
+  ],
+  "changedNotes": [
+    "S63"
+  ],
+  "unchangedOtherVisualPNGs": 92,
+  "unchangedOtherNotesRecords": 92,
+  "fieldsPerNotes": 19,
+  "notesRecords": 93,
+  "renderedPNGs": 111,
+  "fullAct3PNGParity": 18,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "nativeTables": [
+    "S47",
+    "S55"
+  ],
+  "nativeChart": "S58",
+  "nativeChartDataUnchanged": true,
+  "templates": 11,
+  "variants": 27,
+  "newTrial": false,
+  "newProductTest": false,
+  "demoRepositoryUnchanged": true,
+  "otherACTPackagesUnchanged": true,
+  "approvedImageFilesUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "9d0604aa736dc2b5fd3fffd1190b96f0a562fc26ca9add30816524c90c0221fb"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "05ae855c7922e4aade0e74abf4e974e9c3666e82fd4c923074fa08b8c06e6b7c"
+    }
+  ],
+  "fullNotesSha256": "840b4f555911b5217c0d2d5d7d801ddeaad7bf76c29068f4e04c226959a35892",
+  "fullMontageSha256": "ac0c12f696a2f5ea6d4587601aba1cb66be666a6f35a6256c51cab60bcc4043c",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "sourceEvidenceAudit": {
+    "sources": [
+      "plan/DEMO_MATRIX.md / TRIAL-008 Task Prompt",
+      "plan/DEMO_MATRIX.md / Current Harness",
+      "plan/DEMO_MATRIX.md / STEP07 191-200 Working Harness Success",
+      "plan/CLAIM_FREEZE.md / S63 task audit"
+    ],
+    "evidenceType": "OBSERVED_PRODUCT / TEACHING_MODEL",
+    "productSourceState": "STATE-04-PERF",
+    "productSourceReadOnlySha256": {
+      "AGENTS.md": "1a286867330499a768e12518fa1ab9f218db1540add951310dc9bfc024cb3f7e",
+      "docs/image-contracts.md": "0725d483d0a0edad4017fe564c8a29de062591b9ce8b47fcb1f692db468687dc",
+      "docs/testing.md": "5586682f167321c386cc32c66af2f048b6458e777866b1fbf041be93ddd1cf0e",
+      ".agents/skills/graypipe-performance/SKILL.md": "a99e6459b4e559a448a773f7b6a7d6363581adf49eb54188b744e587019235c7",
+      "tests/test_statistics.py": "a0f558447a9d857f17cc8acd272105714fe701f9d226506f35118ffd5ca33e18",
+      "benchmarks/benchmark_statistics.py": "a68c994c81f09e53bbcd4ca52b35c335e99706d664ebd14fa7024115a4977d9e"
+    },
+    "taskPromptExcerptSha256": "7e016faac613dfdd464268db10320e18103cdc10044a0da346fcb3e2c1a304cd",
+    "currentHarnessExcerptSha256": "6948c7784dc4481d37ac6f25b969bee681da1f63958d5b196dab16f02957fbd0",
+    "workingHarnessAuditExcerptSha256": "e4ec9d4b22c9c906433110c9e85c7e0bb79ffc6bc7f333e8df45f54ee3d0d418",
+    "actualTaskRoleReconstruction": true,
+    "candidateAndFormalVerificationDistinguished": true,
+    "noComponentAttributionOrCurrentDesktopClaim": true,
+    "noExtraSubagentOrMemory": true,
+    "newExecution": false
+  },
+  "individualVisualReview": [
+    "S62",
+    "S63",
+    "S64"
+  ],
+  "staticFallbackInventory": 32,
+  "changedFallbackSlides": [
+    "S63"
+  ],
+  "documentAudit": {
+    "status": "PASS",
+    "changedFiles": 25,
+    "introducedLocalLinksChecked": 39,
+    "fallbackPNGsChecked": 32,
+    "changedFallbackSlides": [
+      "S63"
+    ],
+    "otherVisualPNGsUnchanged": 92,
+    "sourceOfTruthBudgetsPreserved": true,
+    "priorDecisionHistoryPreserved": true,
+    "historicalHandoffPreserved": true,
+    "currentArtifactsAndHashesMatch": true,
+    "otherACTPackagesUnchanged": true,
+    "demoRepositoryUnchanged": true,
+    "sensitiveTemporaryFiles": false
+  },
+  "officeSchemaValidation": {
+    "full": "PASS",
+    "act3": "PASS",
+    "originalBaseline": "f2a055e",
+    "baselineAware": true,
+    "autoRepair": false
+  }
+}

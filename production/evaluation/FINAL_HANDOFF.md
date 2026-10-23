@@ -2,7 +2,10 @@
 
 갱신일:2026-10-23 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 수정은 DEC-0074의 S62다. 실제 지식이 이미 있던 코드·문서·Skill·Trial
+최신 수정은 DEC-0075의 S63이다. 실제 밝기 통계 작업에서 목표·Context·Skill이
+한 작업에 적용되고 테스트·benchmark가 동작·시간·할당량 판단 근거를 제공한
+관계를 정리했다. 단독 성능 효과·실행 순서 trace를 새로 주장하지 않는다.
+이전 수정은 DEC-0074의 S62다. 실제 지식이 이미 있던 코드·문서·Skill·Trial
 출처를 네 노드로 정리하고, 기존 출처에서 확인 가능했으며 별도 후보를 찾지
 못해 Memory를 추가하지 않았다는 판단을 연결했다. 네 보존 기준은 Notes에 유지한다.
 이전 수정은 DEC-0073의 S61이다. 이번 Context와 보존할 가치가 있는 지식을
@@ -41,13 +44,14 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `8613ab68c2c619afa6830d4bf073fb88714d818898b153dfb3a8e891beec7511` |
+| PPT SHA-256 | `9d0604aa736dc2b5fd3fffd1190b96f0a562fc26ca9add30816524c90c0221fb` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `a38a218a52d4ec8393096c154347a764118e1db74eaef427abb098a64385915d` |
+| Notes SHA-256 | `840b4f555911b5217c0d2d5d7d801ddeaad7bf76c29068f4e04c226959a35892` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `a89168041f5b81a8b71b620e61814057b51261a32461f88d1a209e7bbc324402` |
+| Montage SHA-256 | `ac0c12f696a2f5ea6d4587601aba1cb66be666a6f35a6256c51cab60bcc4043c` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [S62 실제 지식의 원래 출처와 Memory 판단](S62_KNOWLEDGE_SOURCES_REVISION.md) |
+| 최신 검토 | [S63 실제 밝기 통계 작업에서 구성의 역할](S63_TASK_ROLES_REVISION.md) |
+| 이전 S62 검토 | [실제 지식의 원래 출처와 Memory 판단](S62_KNOWLEDGE_SOURCES_REVISION.md) |
 | 이전 S61 검토 | [이번 Context와 다음 작업의 지식](S61_CONTEXT_RETENTION_REVISION.md) |
 | 이전 S60 검토 | [실제 작업의 의존관계와 선택](S60_TASK_DEPENDENCY_REVISION.md) |
 | 이전 S59 검토 | [단일 조사와 역할 분리 비교](S59_ROLE_SPLIT_REVISION.md) |
@@ -139,6 +143,11 @@ DEC-0074에서는 Full93장·ACT3 18장을 다시 렌더링하고 S61–S63을 �
 S62만 화면·19필드 Notes가 바뀌었으며 다른92장 PNG·Notes와 모든 장별 시간·Mode를
 보존했다. 정적 대안32개 중 S62의 식별자만 갱신했다. 원문 코드·문서·Skill은
 STATE-04-PERF에서 읽기 전용으로 대조했으며 새 실행·Memory·Trial은 없다.
+
+DEC-0075에서는 Full93장·ACT3 18장을 렌더링하고 S62–S64의 흐름을 개별 검토했다.
+S63 화면·19필드 Notes만 바뀌었고 다른92장 PNG·Notes와 장별 시간·Mode는 유지했다.
+정적 대안32개 중 S63 식별자만 갱신했다. 실제 근거 파일은 읽기 전용으로 대조했으며
+새 제품 실행·Trial·Subagent·Memory 또는 발표 묶음 생성은 없다.
 
 ## 사용자가 확인할 남은 조건
 

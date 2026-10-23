@@ -607,11 +607,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S62, production/pre
 
 Validation Status: ALIGNED — DEC-0074의19필드·Lecture4분·실제 지식/출처와 현재 판단을 정렬했다. 최종 패키지·렌더·내장 Notes 대조는 production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S63 — 이번 사례에서 실제로 사용한 구조
+## S63 — 밝기 통계 작업에 쓰인 구성의 역할
 
 Slide ID: S63
 
-Working Title: 이번 사례에서 실제로 사용한 구조
+Working Title: 밝기 통계 작업에 쓰인 구성의 역할
 
 ACT / Section: ACT 3 / 3G
 
@@ -621,35 +621,38 @@ Mode Split: Demo 3 minutes (CAPTURED)
 
 Primary Message: 밝기 통계 목표/범위, AGENTS.md와 상세 문서, 재사용 Skill, 테스트·benchmark·실행 조건이 각각 목표·지식·방법·완료 근거를 맡았다. Subagent와 별도 Memory는 추가하지 않았다.
 
-Opening Question: “이번 문제에서 어떤 책임을 어떤 기존 자료와 도구가 맡았을까?”
+Opening Question: “S62에서 본 자료들이 실제 밝기 통계 작업에서는 각각 무엇을 맡았을까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 밝기 통계 요청과 AGENTS.md/상세 문서의 역할을 실제 사례로 회수한다.
-2. (1:00–2:00) 재사용 Skill과 테스트/benchmark/실행 조건이 수행 방법과 완료 판단 근거를 맡았음을 연결한다.
-3. (2:00–3:00) 추가하지 않은 Subagent/Memory와 필요한 구성은 문제마다 달라진다는 한계를 말하고 다음 전체 관계도로 넘긴다.
+1. (0:00–0:20) S62는 지식이 이미 어디에 있었는지 확인한 장이었다. 이제 실제 밝기 통계 작업 하나를 가운데 놓고 각 자료의 역할을 본다. 재구성 도식이며 실제 실행 화면이나 순서 trace가 아니다.
+2. (0:20–0:50) 왼쪽 ‘목표’를 짚는다. TRIAL-008의 실제 요청은 image_statistics의 근거 있는 실행시간 또는 할당량 개선 가능성을 조사하고, 현재 출력6항목과 변경 범위를 보존하며 trade-off나 no-change 결과도 보고하라는 것이었다. 화면은 그 목표·조건의 요약이다. 최적화 수치 자체는 S58에서 다뤘다.
+3. (0:50–1:15) ‘Context’는 프로젝트에서 사실로 확인할 명세·명령·참고 위치다. AGENTS.md와 상세 문서, 실제 코드·테스트에서 동작과 제약을 확인했다. S62의 원래 출처를 모두 화면에 다시 나열하지 않는다.
+4. (1:15–1:40) ‘Skill’은 이번 작업의 답을 미리 담지 않고 기준선 확보·조사·변경·검증·비교 같은 재사용 수행 방법을 담았다. Repository Skill은 실제 CLI 기록에서 명시적으로 호출되어 본문이 포함됐고, 수행 근거는 작업 기록과 별도로 대조했다. 목표·Context·Skill에서 모이는 선은 한 작업에 적용한 서로 다른 입력을 뜻하며 이 셋을 차례로 실행한다는 순서가 아니다.
+5. (1:40–2:30) 가운데 Agent의 조사·변경을 거쳐 오른쪽 ‘검증 도구’로 시선을 옮긴다. 테스트는 보존할 동작을 검사하고 benchmark는 같은 입력·환경에서 실행시간·할당량을 비교할 근거를 제공했다. TRIAL-008 후보와 정식 STATE-04-PERF의 검증은 별도 기록이며, 정식 상태에서는 재조사·동작 검사·CLI·diff review를 거쳐 변경을 고정했다. 검사 통과만으로 모든 동작의 정확성이나 각 Harness 요소의 단독 인과 효과가 증명된 것은 아니다. 사람이 이 근거와 미확인 사항을 검토한다.
+6. (2:30–3:00) Subagent와 별도 Memory를 추가하지 않았다는 기존 선택을 회수한다. 이 사례에서 쓴 구성이며 보편적인 최적 개수나 필수 목록은 아니다. 다음 S64에서 이 실제 자료와 도구들의 관계를 교육용 작업 환경 모델로 묶는다.
 
-Evidence / Source: STATE-00 → STATE-04-PERF, DEC-0018, INV-VERIFY-001, DEMO-09. OBSERVED_PRODUCT / TEACHING_MODEL.
+Evidence / Source: STATE-00 → STATE-04-PERF; plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt, Current Harness 및 §§191–200 Working Harness Success; DEC-0018/0062/0075; INV-VERIFY-001; DEMO-09. OBSERVED_PRODUCT / TEACHING_MODEL. STATE-04-PERF의 AGENTS.md, docs/, .agents/skills/graypipe-performance/SKILL.md, tests/test_statistics.py, benchmarks/benchmark_statistics.py를 읽기 전용으로 대조한다. 과거 Codex CLI 0.154.0 기록이며 현재 Desktop 실행 검증이 아니다.
 
-Claim Boundary: 현재 프로젝트의 구성 감사다. 일반적인 최적 기능 수나 Harness가 성능을 개선한 인과 claim이 아니다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: FROZEN WITH SCOPE / TEACHING MODEL — 실제 밝기 통계 작업에서 사용한 구성과 책임의 요약이다. 연결선은 자료·방법·확인 근거의 관계이며 실제 실행 순서·자동 routing trace·고정된 Agent 동작을 입증하지 않는다. TRIAL-008 후보와 정식 STATE-04-PERF의 재검증을 혼동하지 않는다. Skill 또는 Harness가 성능 개선의 단독 원인이라는 주장, Prompt 대비 우월성, 토큰 절감, 보편적 최소 구성 및 현재 Desktop 동작 보장은 없다.
 
-Beginner Explanation: Harness는 기능을 많이 모으는 일이 아니라 현재 문제에 필요한 작업 환경을 마련하는 일이다.
+Beginner Explanation: 목표는 무엇을 바꾸고 무엇을 지킬지, Context는 어떤 명세와 자료를 볼지, Skill은 어떤 방법으로 수행할지를 알려준다. 테스트와 benchmark는 변경이 조건을 지켰는지·측정이 어땠는지 판단할 근거를 준다. 이 입력들을 같은 밝기 통계 작업에 함께 적용했다.
 
-Advanced Insight: “Minimum Effective”는 신뢰성 있게 해결할 조건을 충족하는 문제별 heuristic이며 숫자 기준이 없다.
+Advanced Insight: 수행 방법과 답은 분리한다. 검증 도구는 동작·성능 근거를 제공하지만 그 성공을 모든 구성 요소의 효과로 귀속할 수는 없다. “Minimum Effective”는 신뢰성 있는 문제 해결 조건에 따른 heuristic이며 기능 수 기준이 없다. 독립 조사가 필요하지 않았고 추가 보존 후보도 없어 Subagent·별도 Memory는 넣지 않았다.
 
 C++ Vision Bridge: S66에서 프로젝트별 명세·빌드·검증·성능 절차로 대응한다. Python Skill이나 도구를 그대로 복사하지 않는다.
 
-Demo Operation: 정적 기본 경로 — 현재 목표/참고할 정보/반복할 방법/완료 근거의 네 책임을 실제 사용한 구성에 대응한다. 전체 구조 정의는 다음 장에서 연결한다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: CAPTURED 정적 기본 경로 — S62의 출처에서 실제 역할로 연결한 뒤 목표 → Context → Skill을 각각 짚고, 모이는 선을 따라 밝기 통계 조사·변경과 검증 도구로 이동한다. 세 입력의 순차 실행이나 새 실행 기록처럼 말하지 않는다. 실제 결과 수치는 반복하지 않고 검사 역할과 동일 입력·환경 조건을 설명한다. 전체 Harness 정의는 S64에서 회수한다. 제품·Agent·benchmark·Demo repository를 실행하지 않으며 새 Trial·비교 측정을 만들지 않는다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: ‘셋 중 어느 하나에 정답이 미리 들어 있었을까요?’를 잠시 생각하게 한 뒤 Skill은 수행 방법, 답은 조사·측정 근거로 판단한다는 기존 구분을 회수할 수 있다. 필수 실습·공개 답변·별도 Q&A 시간은 추가하지 않는다.
 
 Transition: “이 파일과 도구들이 어떤 관계로 작동하는지 전체 작업 환경으로 묶겠습니다.”
 
-Time Management: Demo3분(CAPTURED 정적 구성 요약): 목표/정보1, 절차/근거1, 선택 범위/전환1.
+Time Management: Demo3분(CAPTURED 정적 요약): 출처→역할0.33, 목표0.5, Context0.42, Skill0.42, 작업·검증0.83, 선택 범위·전환0.5. 지연 시 파일명과 원문 요청 낭독을 생략하고 네 역할과 동작/측정 근거 구분은 유지한다.3분에 S64의 전체 관계도로 이동한다. 실제 리허설은 UNVERIFIED다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S63, production/preview/act3/S63.png 및 production/preview/full/S63.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S63, production/preview/act3/S63.png 및 production/preview/full/S63.png. 보존된 실제 구성·작업 기록의 재구성이며 raw CLI screenshot이나 현재 제품 실행이 아니다. 파일 대조는 production/evaluation/S63_TASK_ROLES_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0075의19필드·Demo3분·실제 구성의 책임과 기존 Claim Boundary를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S63_TASK_ROLES_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S64 — 이 구성이 함께 작동하는 것이 Harness다
 

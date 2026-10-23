@@ -595,3 +595,24 @@ criteria in Notes. Same-project reuse is allowed. A dated measurement is
 not a timeless fact, and repeated procedure already has its Skill home.
 The diagram is a source-audit reconstruction, not a new access trace,
 Memory execution or comparative savings result. No new Trial or product run.
+
+
+## DEC-0075 — S63 actual brightness-statistics task roles
+
+Keep OBSERVED_PRODUCT / TEACHING_MODEL, FROZEN WITH SCOPE, Demo3 and T10-C.
+The goal investigates an evidence-supported runtime/allocation change while
+preserving six-field behavior and scope, with trade-offs/no-change allowed.
+Project Context supplies existing facts, constraints, commands and source
+locations. The repository Skill supplies a reusable investigation/change/
+verification method, not the task answer. Tests and benchmark supply bounded
+behavior/runtime/allocation evidence under matching input/environment.
+
+The diagram reconstructs the actual configuration and role relationships;
+it is not a new execution trace or a required sequential loading protocol.
+Keep TRIAL-008's disposable candidate distinct from formal STATE-04-PERF
+re-investigation and verification. Existing results remain bounded to their
+recorded conditions. Neither Skill nor any Harness component is isolated
+as the cause of the improvement. No Prompt superiority, token savings,
+perfect routing, universal minimal feature count or current Desktop guarantee.
+No Subagent or separate Memory was added. S62 source homes and S64's broader
+course operating model retain their different roles and original evidence.

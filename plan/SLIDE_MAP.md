@@ -1,6 +1,8 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
-> **최신 S62 수정: DEC-0074.** 실제 Demo 지식의 원래 위치를 코드·문서·Skill·Trial 기록 네 출처로 시각화한다. 기존 출처에서 확인할 수 있었고 별도 보존 후보를 찾지 못했다는 Memory 판단을 연결하며 기존 근거·시간을 유지한다. [수정 검토](../production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md).
+> **최신 S63 수정: DEC-0075.** 실제 밝기 통계 작업에서 목표·Context·Skill이 한 작업에 적용되고 테스트·benchmark가 판단 근거를 제공한 관계를 짧은 도식으로 정리한다. S62의 출처 감사와 S64의 전체 작업 환경 모델을 구분하며 근거·시간을 유지한다. [수정 검토](../production/evaluation/S63_TASK_ROLES_REVISION.md).
+
+> **이전 S62 수정: DEC-0074.** 실제 Demo 지식의 원래 위치를 코드·문서·Skill·Trial 기록 네 출처로 시각화한다. 기존 출처에서 확인할 수 있었고 별도 보존 후보를 찾지 못했다는 Memory 판단을 연결하며 기존 근거·시간을 유지한다. [수정 검토](../production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md).
 
 > **이전 S61 수정: DEC-0073.** 이번 Context에서 다음에도 쓸 검증된 재현 조건을 골라 출처·범위·재확인 조건과 함께 유지할지 판단하는 도식으로 정리한다. 보존 목적과 다음 사용 전 현재 명세 대조를 연결하며 기존 CONCEPTUAL 경계를 유지한다. [수정 검토](../production/evaluation/S61_CONTEXT_RETENTION_REVISION.md).
 
@@ -1677,29 +1679,29 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0074
 
 
-#### S63 — 이번 사례에서 실제로 사용한 구조
+#### S63 — 밝기 통계 작업에 쓰인 구성의 역할
 
 - **Slide ID:** S63
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness
-- **Working Title:** 이번 사례에서 실제로 사용한 구조
+- **Working Title:** 밝기 통계 작업에 쓰인 구성의 역할
 - **Primary Role:** 이 사례의 구체적인 구성과 사용 이유를 회수한다.
-- **Audience Question:** “이번 문제에서 어떤 책임을 어떤 기존 자료와 도구가 맡았을까?”
+- **Audience Question:** “S62에서 본 자료들이 실제 밝기 통계 작업에서는 각각 무엇을 맡았을까요?”
 - **Core Message:** 밝기 통계 목표/범위, AGENTS.md와 상세 문서, 재사용 Skill, 테스트·benchmark·실행 조건이 각각 목표·지식·방법·완료 근거를 맡았다. Subagent와 별도 Memory는 추가하지 않았다.
 - **Story Beat:** BEAT-035, BEAT-037 — 해결된 마찰에서 Harness 구조 도출
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.; ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; 이번 작업에서 관찰한 구성을 일반적인 기능 수 우위 주장으로 확장하지 않는다.
-- **Visual Concept:** 현재 목표/참고할 정보/반복할 방법/완료 근거의 네 책임을 실제 사용한 구성에 대응한다. 전체 구조 정의는 다음 장에서 연결한다.
+- **Visual Concept:** 목표·Context·Skill을 왼쪽 세 입력으로 배치하고 한 Agent의 밝기 통계 조사·변경으로 모은다. 오른쪽 검증 도구는 테스트·benchmark와 출력·시간·할당량, 같은 입력·환경을 짧게 표시한다. 세 입력은 순차 단계가 아니며 네 책임의 실제 사용 관계를 재구성한다. 수치·파일 목록·전체 Harness 정의는 반복하지 않는다.
 - **Demo / Case Connection:** STATE-04-PERF까지 이어진 작업과 검증 흐름.
 - **Beginner Payoff:** Harness는 기능을 많이 모으는 일이 아니라 현재 문제에 필요한 구조를 마련하는 일이다.
 - **Advanced Payoff:** 최소 구성은 문제와 검증 요건에 따라 달라진다는 점을 판단 기준으로 삼는다.
 - **C++ Vision Bridge:** Slide 64 이후의 전이에서 빌드·테스트·benchmark 절차로 연결한다. Python Skill을 그대로 옮긴다고 가정하지 않는다.
-- **Speaker Intent:** 이 사례의 구체적인 구성과 사용 이유를 회수한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Speaker Intent:** S62의 실제 지식 출처를 이번 작업에 적용한 역할로 바꿔 읽는다. 목표는 성능 조사와 출력6항목 보존, Context는 명세·명령·참고 위치, Skill은 재사용 수행 방법, 검증 도구는 동작·측정 근거다. 각 요소의 단독 효과와 보편적인 최소 구성을 주장하지 않고 S64의 전체 작업 환경 모델로 넘긴다.
 - **Transition:** “이 파일과 도구들이 어떤 관계로 작동하는지 전체 작업 환경으로 묶겠습니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Demo 3분 (CAPTURED) = 3분
-- **Evidence / Decision References:** BEAT-035, BEAT-037, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0062
+- **Evidence / Decision References:** BEAT-035, BEAT-037, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0062, DEC-0075
 
 
 #### S64 — 이 구성이 함께 작동하는 것이 Harness다

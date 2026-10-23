@@ -628,7 +628,7 @@
       "slideId": "S63",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "현재 문제에 실제로 필요했던 Task·Context·Workflow·Verification 구성을 Minimum Effective Harness로 결산한다. 원자료에 없는 Agent 작업 환경 설계 모델이다. DEC-0062: 이 사례의 구체적인 구성과 사용 이유를 회수한다.",
+      "rationale": "현재 문제에 실제로 필요했던 Task·Context·Workflow·Verification 구성을 Minimum Effective Harness로 결산한다. 원자료에 없는 Agent 작업 환경 설계 모델이다. DEC-0062: 이 사례의 구체적인 구성과 사용 이유를 회수한다. DEC-0075: show actual goal/Context/Skill contributions and verification roles around the brightness-statistics task; preserve module coverage.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
