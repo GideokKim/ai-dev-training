@@ -560,11 +560,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S61, production/pre
 
 Validation Status: ALIGNED — DEC-0073의19필드·Demo2+Case2분·Context에서 보존 후보와 다음 사용으로 이어지는 순서를 정렬했다. 최종 패키지·렌더·내장 Notes 대조는 production/evaluation/S61_CONTEXT_RETENTION_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S62 — 남길지, 원래 출처를 참조할지 판단한다
+## S62 — 실제 Demo 지식의 원래 출처
 
 Slide ID: S62
 
-Working Title: 남길지, 원래 출처를 참조할지 판단한다
+Working Title: 실제 Demo 지식의 원래 출처
 
 ACT / Section: ACT 3 / 3F
 
@@ -574,35 +574,38 @@ Mode Split: Lecture 4 minutes
 
 Primary Message: 재발견 비용·다음 작업 재사용·출처와 적용 범위·갱신 조건을 보고 기존 출처를 먼저 확인한다. 현재 계약/구조/절차/측정 기록은 각각 근거가 있어 별도 Memory 후보를 찾지 못했다.
 
-Opening Question: “현재 Demo 지식은 이미 어디에 있고 별도 보존할 가치가 있었을까?”
+Opening Question: “S61의 보존 기준으로 실제 Demo를 보면, 새로 남길 지식은 어디에 있었을까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 재발견 비용, 다음 작업의 재사용, 출처·범위, 갱신·무효화 조건 네 기준을 한 번씩 설명한다. 프로젝트 간 재사용을 필수로 요구하지 않는다.
-2. (1:00–3:00) crop 명세→코드/문서, 모듈 구조→architecture, 수행 절차→Skill, 측정값→날짜가 있는 Trial/Git을 대응한다. 원래 출처와 일회성 관찰의 차이를 짚는다.
-3. (3:00–4:00) 현재 별도 Memory 후보를 찾지 못했고 추가하지 않았다는 판단을 회수한다. 기능 사용 수가 성숙도 점수가 아님을 유지한다.
+1. (0:00–0:30) S61의 재현 조건은 교육용 가정이었다고 짚고, 이제 실제 Demo의 기존 출처 감사로 돌아온다. 네 개 상자는 새로 만든 저장소나 Memory가 아니라 이미 지식이 있던 위치다.
+2. (0:30–1:20) 코드와 문서를 왼쪽부터 짚는다. transform.py의 crop은 끝 좌표를 제외하는 구현이다. 같은 동작 명세는 docs/image-contracts.md에, 모듈 역할·처리 순서는 docs/architecture.md에 있다. 각 지식이 한 곳에만 존재한다는 분류가 아니라 실제 근거를 어디에서 확인할 수 있는지 보여준다.
+3. (1:20–2:00) Skill에는 성능 작업의 조사·변경·검증 방법이 이미 있다. 원래 반복한 것은 이 절차였고 repository-owned Skill로 관리했다. 이를 별도의 사실 Memory 필요성으로 다시 세지 않는다. 파일은 .agents/skills/graypipe-performance/SKILL.md다.
+4. (2:00–2:45) Trial 기록에는 측정값과 입력·실행 환경·날짜가 있고 Git은 제품 변경과 상태 이력을 연결한다. 화면의 DEMO_MATRIX.md는 교육 저장소 plan/DEMO_MATRIX.md의 기록이며 Demo 제품 디렉터리 안의 파일이라는 뜻은 아니다. 한 번의 수치를 환경이 바뀌어도 항상 맞는 지식으로 옮기지 않는다.
+5. (2:45–3:30) 네 출처가 아래 판단으로 모이는 선을 따른다. 재발견 비용, 다음 작업 재사용, 출처·적용 범위, 갱신·무효화 조건으로 봤을 때 기존 출처에서 필요한 내용을 확인할 수 있었고, 출처가 없어 비싼 재조사를 반복한 별도 지식 후보를 찾지 못했다는 기존 감사 결과다. 비용이나 검색 시간을 새로 측정한 결과가 아니다.
+6. (3:30–4:00) 원래 출처를 유지하고 별도 Memory는 추가하지 않았다는 현재 선택을 회수한다. 문서가 존재하면 어떤 경우든 Memory가 불필요하다는 일반 규칙은 아니다. 다음에는 이 선택들을 합쳐 실제 작업에 쓴 구성과 책임을 돌아본다.
 
-Evidence / Source: DEC-0018 / DEMO-08 knowledge audit / BEAT-026–028 / plan/DEMO_MATRIX.md의 현재 지식 출처 감사. 기존 S61의 계약·명령·구조·절차·측정 기록 분류와 S62의 네 기준을 보존한다. OBSERVED_PRODUCT / TEACHING_MODEL.
+Evidence / Source: DEC-0018 / plan/DEMO_MATRIX.md STEP07 §§181–190 Trial History Audit, Rediscovery/Durable Knowledge Candidates, Documentation Instead 및 Memory Gate; BEAT-026–028; DEC-0062/0074. STATE-04-PERF의 src/graypipe/transform.py, docs/image-contracts.md, docs/architecture.md, .agents/skills/graypipe-performance/SKILL.md를 읽기 전용으로 대조했다. 원기록·날짜·입력/환경과 제품 Git 상태를 유지하며 새 Trial·Memory 인스턴스는 없다.
 
-Claim Boundary: FROZEN WITH SCOPE / TEACHING MODEL — DEC-0018 현재 Demo의 지식 감사와 보존 기준이다. 제품 Memory의 범위·효과나 일반적 불필요성을 주장하지 않는다.
+Claim Boundary: FROZEN WITH SCOPE / TEACHING MODEL — DEC-0018 현재 Demo의 지식 감사와 보존 기준이다. 제품 Memory의 범위·효과나 일반적 불필요성을 주장하지 않는다. 네 출처 도식은 보존된 감사 결과의 재구성이며 실제 접근 순서·검색 trace·Memory 실행 캡처가 아니다. 파일에 정보가 있다는 사실만으로 모든 작업에서 쉽게 찾거나 항상 충분하다고 일반화하지 않는다. 현재 감사에서 별도 후보를 찾지 못했다는 범위로 한정한다.
 
-Beginner Explanation: 명세는 원래 명세 문서, 절차는 Skill, 한 번의 측정은 날짜가 있는 기록에서 먼저 찾는다. 별도 보존이 필요한 후보가 있는지는 따로 판단한다.
+Beginner Explanation: 동작은 코드·명세에서, 구조는 문서에서, 수행 방법은 Skill에서, 한 번의 측정은 날짜가 있는 기록에서 먼저 확인한다. 이 Demo에서는 필요한 내용이 이미 그 출처들에 있었고, 따로 보존할 후보를 찾지 못해 Memory를 추가하지 않았다.
 
-Advanced Insight: 같은 프로젝트의 다음 Task/세션에 재사용할 수 있어도 후보가 될 수 있다. 프로젝트 사이 재사용은 필수 조건이 아니다. 출처·적용 범위·신선도·갱신/무효화 조건과 유지 비용을 관리한다.
+Advanced Insight: 보존 후보는 재발견 비용·재사용 가치·원래 출처·적용 범위·신뢰도·신선도·갱신/무효화 책임을 함께 본다. 같은 프로젝트의 다음 작업도 재사용 대상이며 프로젝트 간 공유가 필수는 아니다. Skill의 반복 절차와 Trial의 환경 의존 관찰을 별도 사실 Memory로 중복 집계하지 않는다. 이후 실제로 찾기 어려운 재사용 지식이 생기면 같은 기준으로 다시 판단한다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 정적 기본 경로 — 네 판단 기준 요약 위에 현재 지식4종→원래 출처를 대응하고 별도 Memory를 추가하지 않았다는 결론을 둔다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: Lecture의 정적 보조 도식 — 왼쪽 코드 → 문서 → Skill → Trial 기록 순으로 지식과 출처를 대응하고, 아래로 모이는 선 뒤 ‘원래 출처에 있었다 / 별도 후보가 없어 추가하지 않았다’를 읽는다. 추가 Demo 시간으로 계산하지 않는다. 제품·Agent·Memory·benchmark·Demo repository를 실행하지 않는다. 상세 경로가 필요하면 Notes의 원출처를 참고한다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: Lecture4분 안에서 ‘이 정보를 다시 쓰면 어디를 먼저 볼까요?’를 짧게 던지고 각 출처로 회수할 수 있다. 별도 Q&A·공개 답변·실습을 요구하지 않는다. 기능 사용 개수가 아니라 현재 문제와 근거로 선택한다는 판단을 유지한다.
 
 Transition: “이 선택들을 모으면 이번 문제를 위해 실제로 사용한 구조는 무엇이었을까요?”
 
-Time Management: Lecture4분: 기준1, 현재 출처 감사2, 판단·전환1.
+Time Management: Lecture4분: 가정에서 실제 감사로0.5, 코드·문서0.83, Skill0.67, Trial/Git0.75, 기준·출처 판단0.75, 선택·전환0.5. 지연 시 전체 경로·필드명 낭독을 줄인다. 네 지식의 원래 위치와 별도 후보가 없었다는 판단, 실제 기록의 범위는 유지하고4분에 S63으로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S62, production/preview/act3/S62.png 및 production/preview/full/S62.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S62, production/preview/act3/S62.png 및 production/preview/full/S62.png. 보존된 지식 출처 감사의 재구성이며 실제 Memory·검색 실행 캡처가 아니다. 현재 파일 대조는 production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0074의19필드·Lecture4분·실제 지식/출처와 현재 판단을 정렬했다. 최종 패키지·렌더·내장 Notes 대조는 production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S63 — 이번 사례에서 실제로 사용한 구조
 

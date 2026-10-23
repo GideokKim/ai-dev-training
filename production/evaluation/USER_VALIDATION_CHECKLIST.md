@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일:2026-10-23 (Asia/Seoul). 현재93장·379분/DEC-0060, 최신 내용 수정 DEC-0073. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
+갱신 기준일:2026-10-23 (Asia/Seoul). 현재93장·379분/DEC-0060, 최신 내용 수정 DEC-0074. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,13 +9,13 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `fcac43dddef0c8610968acf14b3cd178f3211ba04470a719f72f0229fa362eff`
+- PPTX SHA-256: `8613ab68c2c619afa6830d4bf073fb88714d818898b153dfb3a8e891beec7511`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `8c820e076f509fbe9394d17622d414d4b09cf2233cde5f2301567de5697f2898`
+- Notes SHA-256: `a38a218a52d4ec8393096c154347a764118e1db74eaef427abb098a64385915d`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S93.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-위 PPTX·Notes hash는 DEC-0073의 현재93장 파일 식별자다. [S61 이번 Context와 다음 작업의 지식](S61_CONTEXT_RETENTION_REVISION.md), [이전 S60 작업 판단](S60_TASK_DEPENDENCY_REVISION.md), [이전 S59 역할 분리](S59_ROLE_SPLIT_REVISION.md), [이전 S57–S58 작업·검증](S57_S58_TASK_RESULT_REVISION.md), [이전 S57 후보 선택](S57_CANDIDATE_SELECTION_REVISION.md), [이전 S56 방법과 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S55 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S53/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S53 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S52 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S51 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
+위 PPTX·Notes hash는 DEC-0074의 현재93장 파일 식별자다. [S62 실제 지식의 원래 출처와 Memory 판단](S62_KNOWLEDGE_SOURCES_REVISION.md), [이전 S61 Context와 보존](S61_CONTEXT_RETENTION_REVISION.md), [이전 S60 작업 판단](S60_TASK_DEPENDENCY_REVISION.md), [이전 S59 역할 분리](S59_ROLE_SPLIT_REVISION.md), [이전 S57–S58 작업·검증](S57_S58_TASK_RESULT_REVISION.md), [이전 S57 후보 선택](S57_CANDIDATE_SELECTION_REVISION.md), [이전 S56 방법과 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S55 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S53/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S53 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S52 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S51 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
 
 이전 DEC-0033–0035의 80장 렌더·구조·Notes 검토는 해당 평가 문서와 Git history의 역사적 근거다. 이전 ZIP은 payload 362개·entry 363개였으며 당시 CRC·hash·내부 링크·Notes 정합성을 확인했다. 이번에는 묶음을 갱신하지 않는다. M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아니다. 2순위 보강은 보류한다.
 
@@ -246,5 +246,17 @@ ____________________________________________________________________
 - [ ] 기존 문서가 있으면 원래 출처를 참조하고 다음 사용 전 현재 명세와 대조한다고 설명했다.
 - [ ] 실제 Demo의 Memory 후보나 제품 자동 기억 사례로 말하지 않고 S62 실제 감사로 이동했다.
 - [ ] Demo2분·Case2분 운영과 도식의 원거리 가독성을 실제 확인했다.
+
+위 항목은 실제 발표 환경과 리허설의 후속 확인이며 로컬 렌더 검사로 완료하지 않는다.
+
+
+## S62 실제 지식 출처의 발표 검토 — DEC-0074 / UNVERIFIED
+
+- [ ] S61의 가정에서 실제 Demo 출처 감사로 돌아왔음을 설명했다.
+- [ ] 코드·문서·Skill·Trial 기록에 각각 있던 지식을 짚었다.
+- [ ] crop 명세가 코드와 문서에 함께 있고, 네 분류가 배타적이라는 뜻은 아니라고 설명했다.
+- [ ] Trial은 입력·환경·날짜가 있는 기록이며 범위를 벗어나 재사용하지 않는다고 설명했다.
+- [ ] 별도 후보를 찾지 못한 이 Demo의 선택을 일반적인 Memory 불필요성으로 확대하지 않았다.
+- [ ] Lecture4분 운영과 출처별 파일 라벨의 원거리 가독성을 실제 확인했다.
 
 위 항목은 실제 발표 환경과 리허설의 후속 확인이며 로컬 렌더 검사로 완료하지 않는다.

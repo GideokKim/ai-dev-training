@@ -8343,3 +8343,81 @@ Render and inspect S61 with S60/S62. Validate93slides/379minutes, S61
 VISUAL2+Case2, embedded Notes and unchanged conceptual/evidence boundaries.
 Keep Windows, target account/surface, room and timed rehearsal UNVERIFIED.
 Follow the authorized normal Git checkpoint without regenerating bundles.
+
+
+# DEC-0074 — map actual knowledge to its original sources
+
+## Status
+
+ACCEPTED — explicit user request to revise S62 and align Notes/rendering.
+
+## Date
+
+2026-10-23
+
+## Context
+
+S61 explains a hypothetical retention candidate. S62 returns to the actual
+Demo knowledge audit and the no-extra-Memory decision before S63 recaps the
+working configuration and responsibilities.
+
+## Problem
+
+Four abstract criterion labels compete with the original source table.
+The audience needs to see where the actual knowledge already lived and
+why a separate retained-knowledge candidate was not identified.
+
+## Decision
+
+Show four source nodes: code, docs, Skill and dated Trial evidence. Attach
+their actual knowledge and short source names, then connect them to the
+bounded finding of available original sources and no extra Memory candidate.
+Move detailed retention criteria and full paths into Notes without deleting
+them. Align only S62 Notes and relevant artifact references.
+
+## Rationale
+
+Concrete source homes explain the recorded choice more directly than a
+general classification list. Keep implementation/specification overlap,
+procedure reuse and dated measurement scope explicit in Notes.
+
+## Alternatives
+
+Keep the criterion strips and long table; the source relationship remains dense.
+Remove all file labels; this weakens the connection to actual artifacts.
+Create a missing fact or Memory demonstration; no existing evidence justifies it.
+
+## Trade-offs
+
+Use four concise source nodes and one gathered decision instead of repeating
+the full audit on screen. Put the four criteria, maintenance boundaries and
+cross-source qualifications in Notes. Keep the existing actual/conceptual split.
+
+## Related Invariants
+
+INV-MATURITY-008, INV-DEMO-004, INV-RESEARCH-001, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S62 source, ACT3/Full PPTX and previews, S62 Notes, Slide Map, Template Map,
+ACT3 flow reference, Claim Freeze, module rationale, DEMO-08 static runbook,
+fallback hashes and current delivery references. Preserve all other slides.
+
+## Evidence
+
+User instruction; DEC-0018; DEMO_MATRIX STEP07 181-190 knowledge/source audit;
+BEAT-026-028; DEC-0062. Read-only inspection of STATE-04-PERF transform.py,
+image-contracts.md, architecture.md and repository performance SKILL.md.
+No product execution, Trial or observed Memory instance is introduced.
+
+## Training Relevance
+
+Find the maintained source before adding another retention mechanism. Use
+actual rediscovery/reuse need and maintenance cost to justify a later addition.
+
+## Follow-up
+
+Render and inspect S62 with S61/S63. Validate93slides/379minutes, Lecture4,
+embedded Notes, existing knowledge/claim boundaries and unchanged other slides.
+Keep Windows, target account/surface, room and timed rehearsal UNVERIFIED.
+Follow the authorized normal Git checkpoint without regenerating bundles.

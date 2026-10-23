@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0073 / S61 current Context and retention candidate.
+Latest refinement: DEC-0074 / S62 actual knowledge sources and retention choice.
+Map code/docs/Skill/Trial knowledge to existing source nodes and gather them
+into the bounded no-extra-Memory finding. Retain all four criteria in Notes,
+Lecture4 and93/379; align only S62 Notes. Recheck product sources read-only.
+Review: `production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md`.
+
+Previous refinement: DEC-0073 / S61 current Context and retention candidate.
 Select one verified reproduction condition from current Context; retain its
 source/scope/recheck conditions and compare it with next-task specifications.
 Preserve the explicit hypothesis, VISUAL2+Case2 and93/379; align only S61 Notes.

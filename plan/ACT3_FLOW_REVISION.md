@@ -1,6 +1,16 @@
 # ACT3 Flow Revision — DEC-0062
 
-## Current S61 refinement — DEC-0073
+## Current S62 refinement — DEC-0074
+
+Return from S61's retention hypothesis to the actual source audit. Show
+code, documentation, Skill and dated Trial evidence as four source nodes
+with their existing knowledge and short locations. Merge them into the
+bounded finding that original sources were available and no additional
+retention candidate was identified. Keep all four retention criteria in
+Notes, the no-Memory-instance boundary and Lecture4. Preserve S61 and S63.
+Review: [Actual knowledge sources](../production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md).
+
+## Previous S61 refinement — DEC-0073
 
 Move from S60's completed actual task to the question of what to retain.
 Use the existing explicit hypothetical reproduction-condition case. Show
@@ -120,7 +130,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S59 | Compare the same investigations under one Agent and delegated roles; show main-Agent assignment and integration; DEC-0071. |Demo3+Q&A1|
 | S60 | Label the actual investigation-result and changed-code dependencies; recover the narrow-scope no-Subagent choice; DEC-0072. |Lecture1+Demo2+Q&A1|
 | S61 | Select a verified reusable fact from current Context and retain its source/scope/recheck conditions for next-task use; explicit hypothesis, DEC-0073. |Demo2+Case2|
-| S62 | Preserve four criteria, original-source audit and no-extra-Memory decision. |Lecture4|
+| S62 | Show actual code/docs/Skill/Trial sources and recover the no-extra-Memory choice; retain four criteria in Notes, DEC-0074. |Lecture4|
 | S63 | Recover which actual assets served the four responsibilities. |Demo3|
 | S64 | Connect the system as a course model, separate from the observed asset row. |Lecture4+Demo2|
 | S65 | Explain why external conditions matter using limited Meta observations. |Lecture3|

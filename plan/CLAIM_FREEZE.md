@@ -574,3 +574,24 @@ No automatic product storage/retrieval or universal correctness is established.
 Same-project next-task reuse is allowed; cross-project reuse is not required.
 S62 retains the actual audit and its no-extra-Memory-candidate conclusion.
 No Trial, product execution or Demo repository change is introduced.
+
+
+## DEC-0074 — S62 actual knowledge sources and no extra Memory
+
+Preserve OBSERVED_PRODUCT / TEACHING_MODEL and the existing DEC-0018 /
+STEP07 181-190 source audit. Crop implementation is in transform.py and its
+specification is also in image-contracts.md; architecture.md holds module
+roles/order. The repository Skill holds the repeated performance workflow.
+Dated Trial evidence in the training repository's plan/DEMO_MATRIX.md and
+product Git history preserve measurements, conditions and state lineage.
+The four nodes are overlapping source homes, not exclusive knowledge types.
+
+The audit identified no costly repeated rediscovery of a missing maintained
+fact or additional qualified durable-knowledge candidate. Keep the original
+sources and the no-extra-Memory decision. Source availability alone is not
+a universal proof that Memory has no value; reassess a real future need.
+Keep rediscovery cost, reuse, provenance/scope and freshness/invalidation
+criteria in Notes. Same-project reuse is allowed. A dated measurement is
+not a timeless fact, and repeated procedure already has its Skill home.
+The diagram is a source-audit reconstruction, not a new access trace,
+Memory execution or comparative savings result. No new Trial or product run.

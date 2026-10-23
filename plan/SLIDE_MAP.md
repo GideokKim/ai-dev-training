@@ -1,6 +1,8 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
-> **최신 S61 수정: DEC-0073.** 이번 Context에서 다음에도 쓸 검증된 재현 조건을 골라 출처·범위·재확인 조건과 함께 유지할지 판단하는 도식으로 정리한다. 보존 목적과 다음 사용 전 현재 명세 대조를 연결하며 기존 CONCEPTUAL 경계를 유지한다. [수정 검토](../production/evaluation/S61_CONTEXT_RETENTION_REVISION.md).
+> **최신 S62 수정: DEC-0074.** 실제 Demo 지식의 원래 위치를 코드·문서·Skill·Trial 기록 네 출처로 시각화한다. 기존 출처에서 확인할 수 있었고 별도 보존 후보를 찾지 못했다는 Memory 판단을 연결하며 기존 근거·시간을 유지한다. [수정 검토](../production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md).
+
+> **이전 S61 수정: DEC-0073.** 이번 Context에서 다음에도 쓸 검증된 재현 조건을 골라 출처·범위·재확인 조건과 함께 유지할지 판단하는 도식으로 정리한다. 보존 목적과 다음 사용 전 현재 명세 대조를 연결하며 기존 CONCEPTUAL 경계를 유지한다. [수정 검토](../production/evaluation/S61_CONTEXT_RETENTION_REVISION.md).
 
 > **이전 S60 수정: DEC-0072.** 실제 밝기 통계 작업에서 조사 결과를 코드 변경으로, 바뀐 코드를 검증으로 전달하는 의존관계를 시각화한다. 같은 코드·명세와 전달·통합 비용을 바탕으로 한 Agent를 유지한 기존 판단과 근거 범위를 보존한다. [수정 검토](../production/evaluation/S60_TASK_DEPENDENCY_REVISION.md).
 
@@ -1650,29 +1652,29 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0073
 
 
-#### S62 — 남길지, 원래 출처를 참조할지 판단한다
+#### S62 — 실제 Demo 지식의 원래 출처
 
 - **Slide ID:** S62
 - **ACT:** ACT 3
 - **Section:** 3F Conditional Memory Decision
-- **Working Title:** 남길지, 원래 출처를 참조할지 판단한다
+- **Working Title:** 실제 Demo 지식의 원래 출처
 - **Primary Role:** Memory 기준과 현재 지식 감사의 실제 결론을 한 장에서 회수한다.
-- **Audience Question:** “현재 Demo 지식은 이미 어디에 있고 별도 보존할 가치가 있었을까?”
+- **Audience Question:** “S61의 보존 기준으로 실제 Demo를 보면, 새로 남길 지식은 어디에 있었을까요?”
 - **Core Message:** 재발견 비용·다음 작업 재사용·출처와 적용 범위·갱신 조건을 보고 기존 출처를 먼저 확인한다. 현재 계약/구조/절차/측정 기록은 각각 근거가 있어 별도 Memory 후보를 찾지 못했다.
 - **Story Beat:** BEAT-026–028 — Memory 필요성의 조건부 판단
 - **Curriculum Trace:** ACT 3 — conditional Subagent decision.; ACT 3 — Subagent trade-offs and Minimum Effective Harness.; ACT 3 — repeated discovery and Context vs Memory.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE / TEACHING MODEL — DEC-0018 현재 Demo의 지식 감사와 보존 기준이다. 제품 Memory의 범위·효과나 일반적 불필요성을 주장하지 않는다.
-- **Visual Concept:** 네 판단 기준 요약 위에 현재 지식4종→원래 출처를 대응하고 별도 Memory를 추가하지 않았다는 결론을 둔다.
+- **Visual Concept:** 코드·문서·Skill·Trial 기록을 네 개의 출처 노드로 배치하고 각각 crop 동작, 이미지 명세/모듈 순서, 성능 수행 절차, 측정값/입력/환경/날짜·Git 이력을 붙인다. transform.py, docs/, SKILL.md, DEMO_MATRIX.md로 실제 위치를 짧게 표시한다. 네 출처를 아래의 원래 출처 확인 가능·별도 Memory 후보 없음 판단으로 모은다. 기존 네 보존 기준은 Notes에 유지한다.
 - **Demo / Case Connection:** DEMO-08: 기존 지식 출처 감사와 별도 Memory 후보 없음의 결론. Lecture4분, 추가 Demo 시간 없음.
 - **Beginner Payoff:** 원래 명세·문서·절차·측정 기록을 먼저 찾는다.
 - **Advanced Payoff:** 같은 프로젝트의 다음 Task에도 재사용할 수 있다. 별도 Memory의 필요성은 출처와 유지 비용으로 판단한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** Memory 기준과 현재 지식 감사의 실제 결론을 한 장에서 회수한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Speaker Intent:** S61의 지식 재사용 가정에서 실제 Demo 출처 감사로 돌아온다. 어떤 지식이 이미 어디에 있었는지 네 위치로 읽고, 재조사가 반복된 별도 후보를 찾지 못해 추가하지 않았다는 기존 판단을 회수한다. 문서 존재만으로 Memory가 일반적으로 불필요하다고 말하지 않으며 S63의 실제 구성 회고로 연결한다.
 - **Transition:** “이 선택들을 모으면 이번 문제를 위해 실제로 사용한 구조는 무엇이었을까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062
+- **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0074
 
 
 #### S63 — 이번 사례에서 실제로 사용한 구조

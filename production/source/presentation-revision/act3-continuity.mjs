@@ -373,21 +373,28 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S62(p){
-   const s=make(p,'S62','남길지, 원래 출처를 참조할지 판단한다','ACT 3 · Memory의 기준과 현재 사례의 선택',
-    'DEC-0018 · Demo 지식 출처 점검 + 교육용 보존 기준 · 제품 Memory 기능에 대한 관찰 아님',
-    '현재 별도 Memory 후보 없음 · 다음 작업 재사용이 기준이며 프로젝트 사이 재사용이 필수는 아님','OBSERVED_PRODUCT / TEACHING_MODEL');
-   ['재발견 비용','다음 작업 재사용','출처·적용 범위','갱신·무효화 조건'].forEach((label,i)=>{
-    const x=64+i*294;rect(s,x,189,270,56,C.pale);
-    text(s,label,x+10,201,250,32,24,C.teal,true,FONT,'center');
+   const s=make(p,'S62','실제 Demo 지식의 원래 출처','ACT 3 · 기존 출처를 확인한 Memory 판단',
+    'DEC-0018 · 기존 Demo 지식 출처 감사 요약 · 제품 Memory 사용 기록 아님',
+    '이 Demo에서 별도 후보를 찾지 못한 판단 · Memory의 일반적 불필요성을 주장하지 않음','OBSERVED_PRODUCT / TEACHING_MODEL');
+   const sources=[
+    ['코드','crop 구현\n끝 좌표 제외','transform.py'],
+    ['문서','이미지 명세\n모듈 연결 순서','docs/'],
+    ['Skill','성능 작업의\n조사·검증 절차','SKILL.md'],
+    ['Trial 기록','측정값·입력·환경\n날짜·Git 이력','DEMO_MATRIX.md']
+   ];
+   sources.forEach(([label,knowledge,location],i)=>{
+    const x=64+i*294,cx=x+135;
+    rect(s,x,232,270,213,C.white,C.line,1);
+    text(s,label,x+20,244,230,40,31,C.teal,true);
+    line(s,x+20,298,230,C.line,1);
+    text(s,knowledge,x+20,314,230,76,26,C.ink,true);
+    text(s,location,x+20,403,230,29,24,C.sub,false,'Consolas');
+    s.shapes.add({geometry:'line',position:{left:cx,top:445,width:0,height:42},fill:'none',line:{fill:C.teal,width:2.5}});
    });
-   const rows=[['crop의 끝 좌표 제외','코드 · 이미지 명세 문서'],['모듈이 이어지는 순서','architecture.md'],['성능 조사·검증 방법','Repository Skill'],['이번 실행의 측정값','날짜가 있는 Trial 기록 · Git 이력']];
-   rows.forEach(([label,source],i)=>{
-    const y=284+i*59;line(s,64,y,1152);
-    text(s,label,64,y+8,488,42,27,C.ink,true);
-    arrow(s,572,y+20,30,18);
-    text(s,source,650,y+8,566,42,26,C.sub);
-   });
-   text(s,'이번 사례: 원래 출처를 유지하고, 별도 Memory는 추가하지 않았다',64,555,1152,43,29,C.teal,true);
+   line(s,199,487,882,C.teal,2.5);
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:640,top:487,width:0,height:27},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+   text(s,'확인할 정보는 이미 원래 출처에 있었다',64,521,1152,40,31,C.ink,true,FONT,'center');
+   text(s,'별도 보존 후보가 없어 Memory는 추가하지 않았다',64,568,1152,34,28,C.teal,true,FONT,'center');
    return s;
   },
   S63(p){
