@@ -8026,3 +8026,84 @@ Render final Full/ACT3 packages and inspect S56-S58. Preserve other92 screens,
 Notes and native tables/chart, then follow standing Git checkpoints. Keep
 Windows, room, product/account and timed rehearsal UNVERIFIED. Preserve the
 Demo repository and paused presenter bundles.
+
+
+# DEC-0070 — connect the brightness task to candidate and product evidence
+
+## Status
+
+ACCEPTED — explicit user request to review early ACT3 and revise S57/S58.
+
+## Date
+
+2026-10-23
+
+## Context
+
+S50–S56 progress from repeated procedure to Skill use and evidence-based task
+judgment. The user could not understand S57 after its DEC-0069 shortening.
+S58 must connect the selected change with its measured and verified results.
+
+## Problem
+
+Candidate names assume knowledge of the brightness-statistics function and
+its full temporary list. Moving that explanation entirely into Notes removed
+the context a first-time audience needs. S58 also subordinates behavior checks
+to a small bottom line despite equal importance to timing and allocation.
+
+## Decision
+
+Keep S50–S56 screens and Notes after reviewing their distinct responsibilities.
+On S57, show the task and existing list-allocation structure before the two
+qualitative candidates. Identify the selected row-level built-in operations.
+On S58, recall that change and separate runtime, Python peak allocation and
+behavior checks into three visible areas. Preserve the native chart's exact
+data and zero axis. Align the two Notes records and downstream planning.
+This replaces DEC-0069's choice to put all implementation context in Notes;
+its evidence limitations remain valid and its history stays intact.
+Preserve both Case5 allocations, all93slides/379minutes, T07-B and claim scope.
+
+## Rationale
+
+Concrete task and data movement make the two candidates understandable before
+asking the audience to interpret the selection. Keeping the product-state
+results separate also prevents mixing them with the earlier Trial samples.
+
+## Alternatives
+
+Shorten candidate labels again: leaves the missing task context unresolved.
+Teach detailed optimization code: distracts from reusable procedure and proof.
+Add another slide: not needed for one compact task schematic and two choices.
+
+## Trade-offs
+
+S57 restores essential context rather than optimizing character count. Exact
+field names, traversal details and sample conditions remain in Notes. S58
+allocates separate space to behavior checks while retaining chart editability.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-006, INV-VERIFY-001, INV-DEMO-004.
+
+## Affected Artifacts
+
+S57/S58 factories, Map/template descriptions, ACT3 flow, Claim Freeze, Notes,
+Full/ACT3 packages, previews, current artifact identities and review report.
+
+## Evidence
+
+User feedback; existing TRIAL-008 Investigation/Implementation/Verification;
+formal STATE-04-PERF record in DEMO_MATRIX §§191–200; Claim Freeze §8;
+read-only review of S50–S59. No new benchmark or product execution.
+
+## Training Relevance
+
+YES — distinguish knowing a method from choosing and verifying a concrete
+change using its task-specific evidence.
+
+## Follow-up
+
+Render Full93 and ACT3 18 slides; inspect changed slides and S50–S59 continuity.
+Verify other91 screens/Notes unchanged, native chart data and embedded Notes
+aligned, then follow standing normal Git checkpoints. Windows, room, account
+and timed rehearsal remain UNVERIFIED. Keep Demo repository and bundles intact.

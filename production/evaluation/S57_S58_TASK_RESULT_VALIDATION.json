@@ -1,0 +1,131 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-23",
+  "baseline": "df8cda9",
+  "decision": "DEC-0070",
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act3SlideCount": 18,
+  "act3Minutes": 85,
+  "changedVisualSlides": [
+    "S57",
+    "S58"
+  ],
+  "changedNotes": [
+    "S57",
+    "S58"
+  ],
+  "unchangedOtherVisualPNGs": 91,
+  "unchangedOtherNotesRecords": 91,
+  "fieldsPerNotes": 19,
+  "notesRecords": 93,
+  "renderedPNGs": 111,
+  "fullAct3PNGParity": 18,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "nativeTables": [
+    "S47",
+    "S55"
+  ],
+  "nativeChart": "S58",
+  "nativeChartDataUnchanged": true,
+  "templates": 11,
+  "variants": 27,
+  "newTrial": false,
+  "newProductTest": false,
+  "demoRepositoryUnchanged": true,
+  "otherACTPackagesUnchanged": true,
+  "approvedImageFilesUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "a495e0566219d9b18789251b6607dcc6821bf15387684a0a66efbca8889ec90d"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "ce5ea3e2f9750ed2e4dde3500cd7cb38bef8e09decf9d55d040c70c100e09e8a"
+    }
+  ],
+  "fullNotesSha256": "a17d54eaaf638621b635026da9f0a9211a91d2dd6f62803043633b4f7634257c",
+  "fullMontageSha256": "65ac195c4e2cb6dcafc56a7503b111d6cec88c8f9696b1885960d037b1b517cb",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "sourceEvidenceAudit": {
+    "source": "plan/DEMO_MATRIX.md / TRIAL-008 Investigation, Plan, Decision, Implementation, Verification",
+    "sourceExcerptSha256": "9b47147703c4f1a9b44672933ee52a607b76088a978b46952882e6a3b2c4df97",
+    "qualitativeCandidateDirection": true,
+    "sameSixFieldGuard": true,
+    "tracedAllocationNotRSS": true,
+    "exactCandidateFiguresNotDisplayed": true,
+    "separateFormalStateMeasurements": true,
+    "newExecution": false
+  },
+  "formalStateEvidenceAudit": {
+    "source": "plan/DEMO_MATRIX.md / STEP07 191-200",
+    "baselineCommit": "822f1c12c5f602d934a2fd29e48f05bf498b4bfa",
+    "resultCommit": "6153b81c0187dd7d82c88bd1817fb683c98eb431",
+    "runtimeMedianMs": [
+      15.468,
+      10.769
+    ],
+    "tracedPeakBytes": [
+      6675804,
+      380
+    ],
+    "sameInput": true,
+    "samplesPerState": 7,
+    "fieldsMatched": 6,
+    "focusedTests": "1/1",
+    "fullTests": "11/11",
+    "cliSmoke": "PASS",
+    "newExecution": false
+  },
+  "individualVisualReview": [
+    "S50",
+    "S51",
+    "S52",
+    "S53",
+    "S54",
+    "S55",
+    "S56",
+    "S57",
+    "S58",
+    "S59"
+  ],
+  "staticFallbackInventory": 32,
+  "changedFallbackSlides": [],
+  "documentAudit": {
+    "status": "PASS",
+    "changedFiles": 27,
+    "introducedLocalLinksChecked": 37,
+    "fallbackPNGsChecked": 32,
+    "changedFallbackSlides": [],
+    "otherVisualPNGsUnchanged": 91,
+    "sourceOfTruthBudgetsPreserved": true,
+    "priorDecisionHistoryPreserved": true,
+    "historicalHandoffPreserved": true,
+    "currentArtifactsAndHashesMatch": true,
+    "otherACTPackagesUnchanged": true,
+    "demoRepositoryUnchanged": true,
+    "sensitiveTemporaryFiles": false
+  }
+}

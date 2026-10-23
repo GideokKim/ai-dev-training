@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0069 local static-file inventory only (2026-10-22).
+Status: READY — DEC-0070 local static-file inventory only (2026-10-23).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `72bf99076eb3b12cbf4cfe7c82ec2dc6cadd673c9d9da7f7dac0381a86071399`
-- Full Notes SHA-256: `8b629d6090c6fcc3b086ffb419af2687a4bfb45487e5b48dd366658f96f8618b`
-- Full montage SHA-256: `3ad8d5b26ca777bffdd90d11d34b0b046a7d734663b849c5e61fac0bf4a7e846`
+- Source SHA-256: `a495e0566219d9b18789251b6607dcc6821bf15387684a0a66efbca8889ec90d`
+- Full Notes SHA-256: `a17d54eaaf638621b635026da9f0a9211a91d2dd6f62803043633b4f7634257c`
+- Full montage SHA-256: `65ac195c4e2cb6dcafc56a7503b111d6cec88c8f9696b1885960d037b1b517cb`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -45,7 +45,13 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 - DEC-0069 simplifies S57's qualitative candidate selection.
   All32 fallback PNGs remain byte-identical; S57 is a Case support slide.
   Update current Full/Notes/montage identities without adding Demo minutes.
-  [Current package review](../../production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md).
+  [Prior S57 review](../../production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md).
+
+- DEC-0070 connects S57's task/implementation context with candidate choice,
+  and groups S58's formal runtime/allocation/behavior evidence. All32 fallback
+  PNGs remain unchanged; both are separate Case support pages. Update current
+  Full/Notes/montage identities without adding Demo minutes.
+  [Current package review](../../production/evaluation/S57_S58_TASK_RESULT_REVISION.md).
 
 ## Runbook to fallback mapping
 

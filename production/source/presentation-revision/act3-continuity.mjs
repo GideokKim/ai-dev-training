@@ -223,33 +223,68 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S57(p){
-   const s=make(p,'S57','낮은 할당량만으로 고르지 않았다','ACT 3 · 밝기 통계의 후보 선택',
-    'TRIAL-008 후보 비교 요약 · 합성1024×768 · CPython3.9.6 / macOS arm64',
-    '이 환경에서 관찰한 비교 · 다음 장의 제품 상태 측정과 구분 · Skill 단독 효과 미입증','OBSERVED_PRODUCT');
-   text(s,'두 후보 모두',64,203,214,38,27,C.teal,true);
-   text(s,'결과 6항목 동일 · 기존보다 낮은 Python 할당 피크',278,203,938,38,28,C.ink);
-   line(s,64,258,1152);
-   text(s,'후보',88,276,478,34,23,C.sub);
-   text(s,'두 후보의 실행시간 비교',594,276,350,34,23,C.sub);
-   // Qualitative evidence lanes keep the decision dominant without invented bars.
+   const s=make(p,'S57','밝기 통계 계산의 성능 개선 후보','ACT 3 · Skill 절차로 조사하고, 기록으로 선택한 구현',
+    'TRIAL-008 기록 요약·구현 도식 · 합성1024×768 · CPython3.9.6 / macOS arm64',
+    '임시 메모리: Python 할당 피크 · 다음 장의 제품 상태 측정과 별개 · Skill 단독 효과 미입증','OBSERVED_PRODUCT');
+   text(s,'이미지의 최소·최대·평균 밝기를 구하되, 기존 결과는 유지',64,177,1152,40,30,C.teal,true);
+   // Editable implementation schematic, not a screenshot or sample output.
+   text(s,'기존 구현',64,241,160,32,25,C.sub,true);
+   text(s,'입력 이미지',228,232,190,31,23,C.ink,true,FONT,'center');
+   for(let row=0;row<3;row++)for(let col=0;col<5;col++){
+    rect(s,265+col*23,274+row*21,20,18,['#9BA8B5','#C7D0DA','#E0EFF0'][row],C.white,1);
+   }
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:432,top:305,width:69,height:0},line:{fill:C.sub,width:3},tail:{type:'triangle',width:'sm',length:'sm'}});
+   text(s,'전체 픽셀을 임시 리스트로 모음',526,232,438,31,25,C.ink,true,FONT,'center');
+   for(let i=0;i<15;i++)rect(s,557+i*25,288,22,30,['#9BA8B5','#C7D0DA','#E0EFF0'][Math.floor(i/5)],C.white,1);
+   text(s,'계산 전에 큰 임시 공간 사용',526,331,438,28,23,C.sub,false,FONT,'center');
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:980,top:305,width:48,height:0},line:{fill:C.sub,width:3},tail:{type:'triangle',width:'sm',length:'sm'}});
+   text(s,'최소·최대\n평균 계산',1052,268,164,73,27,C.ink,true,FONT,'center');
+   line(s,64,381,1152);
+   text(s,'임시 리스트 없이 계산한 두 후보',64,397,660,35,28,C.teal,true);
+   text(s,'두 후보 간 시간 비교',764,399,272,31,22,C.sub);
    const candidates=[
-    [324,'수동 순회','더 느림','제외',C.sub,C.white],
-    [447,'행 단위 내장 연산','더 빠름','선택',C.teal,C.pale]
+    [444,'픽셀마다 Python 반복','더 느림','제외',C.sub,C.white],
+    [511,'행마다 내장 min·max·sum 사용','더 빠름','선택',C.teal,C.pale]
    ];
    candidates.forEach(([y,label,runtime,decision,color,fill],i)=>{
-    rect(s,64,y,1152,106,fill);
-    text(s,label,88,y+27,486,48,34,i===0?C.sub:C.ink,true);
-    text(s,runtime,594,y+28,260,48,32,color,true);
-    s.shapes.add({geometry:'connector',kind:'straight',position:{left:876,top:y+54,width:86,height:0},line:{fill:color,width:3},tail:{type:'triangle',width:'sm',length:'sm'}});
-    text(s,decision,996,y+18,196,65,i===0?38:46,color,true,FONT,'center');
+    rect(s,64,y,1152,59,fill);
+    text(s,label,84,y+8,648,43,30,i===0?C.sub:C.ink,true);
+    text(s,runtime,764,y+8,208,43,29,color,true);
+    text(s,decision,1052,y+6,144,46,33,color,true,FONT,'center');
    });
+   text(s,'두 후보 모두: 결과 6항목 동일 · 기존보다 낮은 임시 메모리',64,576,1152,28,23,C.sub);
    return s;
   },
   S58(p){
-   const s=original.S58(p,H);
-   replace(s,'Working Harness Success','선택한 변경을 같은 조건에서 검증했다');
-   replace(s,'결과가 맞는지 확인하고, 같은 조건에서 비교했다','밝기 통계 · 동작 확인 + 동일 입력 비교');
-   replace(s,'집중 테스트 1/1  ·  전체 11/11  ·  CLI  ·  입력·결과 guard','함수 테스트 1/1 · 전체 11/11 · CLI · 입력·결과 확인');
+   const s=make(p,'S58','선택한 변경의 시간·메모리·동작 확인','ACT 3 · 밝기 통계 변경을 제품에 반영하고 다시 확인',
+    'STATE-04 → STATE-04-PERF · 동일 합성1024×768 · CPython3.9.6 / macOS arm64',
+    '이 입력·환경의 코드 변경 결과 · Python 할당 피크는 RSS 아님 · Harness/Skill 단독 효과 미입증','OBSERVED_PRODUCT');
+   text(s,'선택한 변경: 큰 임시 리스트 없이, 행마다 min·max·sum 계산',64,177,1152,40,29,C.teal,true);
+   const columns=[[64,'실행시간'],[620,'임시 메모리'],[972,'동작 검증']];
+   columns.forEach(([x,label])=>text(s,label,x,254,244,40,31,C.ink,true));
+   [582,934].forEach(x=>rect(s,x,253,1.5,300,C.line));
+   text(s,'같은 입력 · 7회 중앙값 (ms/호출)',64,301,480,30,22,C.sub);
+   s.charts.add('bar',{
+    name:'Statistics runtime before and after',
+    position:{left:64,top:345,width:496,height:208},
+    categories:['변경 후','변경 전'],
+    series:[{name:'Median ms/call',values:[10.769,15.468],points:[{idx:0,fill:C.teal},{idx:1,fill:'#9BA8B5'}],valuesFormatCode:'0.000'}],
+    barOptions:{direction:'bar',grouping:'clustered',gapWidth:120,varyColors:true},hasLegend:false,
+    xAxis:{visible:true,min:0,max:20,majorUnit:5,numberFormatCode:'0',textStyle:{fontSize:19,typeface:FONT,fill:C.sub},majorGridlines:{fill:C.line,width:1,style:'solid'},line:{fill:C.line,width:1,style:'solid'}},
+    yAxis:{visible:true,numberFormatCode:'0',textStyle:{fontSize:22,typeface:FONT,fill:C.ink},line:{fill:'none',width:0},majorGridlines:null},
+    dataLabels:{showValue:true,position:'outEnd',numberFormatCode:'0.000',textStyle:{fontSize:26,typeface:FONT,bold:true,fill:C.ink}},
+    chartFill:C.bg,plotAreaFill:C.bg,chartLine:{fill:'none',width:0},plotAreaLine:{fill:'none',width:0}
+   });
+   text(s,'Python 할당 피크',620,301,284,30,22,C.sub);
+   text(s,'변경 전',620,353,284,29,23,C.sub);
+   text(s,'6,675,804 B',620,387,284,48,36,C.sub);
+   text(s,'변경 후',620,460,284,29,23,C.teal,true);
+   text(s,'380 B',620,494,284,58,48,C.teal,true);
+   text(s,'기록된 검사 결과',972,301,244,30,22,C.sub);
+   text(s,'결과 유지',972,358,244,51,38,C.green,true);
+   text(s,'출력 6항목 동일',972,411,244,32,25,C.ink);
+   text(s,'함수 테스트 1/1\n전체 테스트 11/11\nCLI 샘플 통과',972,462,244,93,24,C.ink);
+   text(s,'후보 비교와 별도로, 실제 제품 변경 전후를 같은 조건에서 확인한 기록',64,575,1152,29,24,C.sub);
    return s;
   },
   S59(p){

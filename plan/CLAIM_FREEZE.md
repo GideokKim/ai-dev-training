@@ -503,3 +503,21 @@ and preserve the original source records. Equal-length connectors indicate
 comparison-to-decision relationships, not numeric magnitude or a new Trial.
 Do not generalize Python allocation to RSS or attribute results to Skill alone.
 S58 retains the separate formal STATE-04/STATE-04-PERF measurements.
+
+
+## DEC-0070 — S57 task context and S58 result grouping
+
+Refine DEC-0069's presentation without expanding its evidence. S57's input,
+temporary pixel list and statistics are an editable implementation schematic,
+not actual sampled pixels or a runtime capture. Both observed candidates
+avoid the full list and retain six fields. Their traced Python peaks are below
+the existing flattening baseline. Runtime direction compares the two candidates;
+exact candidate figures stay off-screen. Do not generalize the Python choice.
+
+S58 retains the separate formal STATE-04/STATE-04-PERF result: identical input,
+seven one-call samples per state, median15.468 to10.769ms/call, separate
+tracemalloc peak6,675,804 to380bytes, six-field equality, focused1/1, full11/11
+and CLI smoke PASS. The three visible groups change emphasis, not the claim.
+Allocation peak is not RSS, input-image size or whole-process memory. Tests
+establish the recorded checks, not universal correctness. No new Trial,
+product execution, current Desktop validation or isolated Harness/Skill effect.

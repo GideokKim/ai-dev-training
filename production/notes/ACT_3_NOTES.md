@@ -330,11 +330,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S56, production/pre
 
 Validation Status: ALIGNED — DEC-0068의19필드·Lecture3분·실제 Skill/교육용 관계 경계를 정렬했다. 최종 로컬 렌더와 Notes 대조는 production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S57 — 낮은 할당량만으로 고르지 않았다
+## S57 — 밝기 통계 계산의 성능 개선 후보
 
 Slide ID: S57
 
-Working Title: 낮은 할당량만으로 고르지 않았다
+Working Title: 밝기 통계 계산의 성능 개선 후보
 
 ACT / Section: ACT 3 / 3D
 
@@ -344,43 +344,43 @@ Mode Split: Case 5 minutes
 
 Primary Message: TRIAL-008에서는 결과 6항목을 보존한 후보들의 실행시간과 traced allocation을 함께 봤다. 느린 수동 순회는 제외하고 낮은 할당량과 더 나은 실행시간의 행 단위 reduction을 선택했다.
 
-Opening Question: “두 후보 모두 결과를 지키고 할당량도 낮다면, 무엇을 더 확인해야 할까요?”
+Opening Question: “밝기 통계의 결과를 유지하면서, 어떤 계산 방식을 선택했을까요?”
 
 Speaker Flow:
 
-1. (0:00–0:45) S56의 ‘이번 근거로 어떤 구현을 선택할까?’를 회수한다. 이제 밝기 통계 작업에서 실제로 선택한 후보를 본다.
-2. (0:45–1:45) 위쪽 공통 조건만 가리킨다. 후보 비교에서 두 구현 모두 결과 6항목을 보존했고, 기존 평탄화 구현보다 traced Python 할당 피크가 낮았다. 낮은 할당량만으로 선택을 끝내지 않았다.
-3. (1:45–3:15) 위쪽 수동 순회 행을 왼쪽에서 오른쪽으로 짚은 뒤 아래 선택한 행을 읽는다. 두 후보의 실행시간은 달랐고, 느린 수동 순회를 제외하고 더 빠른 행 단위 내장 연산을 골랐다. 색과 함께 ‘제외’/‘선택’ 단어가 판단을 표시한다.
-4. (3:15–4:15) 수동 순회는 Python 코드로 픽셀을 하나씩 계산하는 후보이고, 선택한 후보는 각 행에 내장 min/max/sum을 사용한다. 세 차례 행 순회를 유지하면서 큰 임시 리스트를 없앤 trade-off다. 알고리즘 강의나 다른 언어의 성능 법칙으로 확장하지 않는다.
-5. (4:15–5:00) 이 장은 TRIAL-008의 후보 선택 기록이다. Skill의 단독 효과를 입증한 비교가 아니다. 다음 S58에서 실제 제품 상태에 반영한 변경을 별도 기준으로 확인한다.
+1. (0:00–0:45) S56의 ‘절차는 재사용하고 답은 근거로 정한다’를 실제 작업으로 회수한다. 대상은 이미지의 최소·최대·평균 밝기 등을 구하는 image_statistics다. 결과는 그대로 두고 실행시간 또는 할당량 개선 가능성을 조사한 요청이었다.
+2. (0:45–1:45) 기존 구현 도식을 왼쪽부터 가리킨다. 행으로 저장된 픽셀을 모두 새 임시 리스트로 모은 뒤 통계를 계산했다. 입력 이미지 외에 픽셀 수에 비례하는 임시 리스트 공간이 필요했다. 이 도식의 색·칸은 구조를 설명하며 실제 입력 픽셀이나 실행 화면은 아니다.
+3. (1:45–2:45) 큰 임시 리스트 없이 계산하는 두 변경 후보를 읽는다. 한 후보는 Python 코드로 픽셀을 하나씩 직접 계산하고, 다른 후보는 각 행에 내장 min/max/sum을 사용한다. 이들 모두 결과 6항목을 보존했고 기존 평탄화 구현보다 Python 할당 피크가 낮았다.
+4. (2:45–4:15) 후보 간 실행시간을 비교한 오른쪽을 짚는다. 수동 반복보다 행 단위 내장 연산이 빨라 후자를 선택했다. 내장 연산 후보는 세 차례 행 순회를 유지하면서 전체 임시 리스트를 피한 선택이다. 한 번 순회한다는 아이디어나 낮은 메모리만으로 답을 정하지 않았다.
+5. (4:15–5:00) Skill에 정답 알고리즘을 미리 넣은 사례가 아니다. 절차를 따라 얻은 조사·측정·검증 기록으로 구현을 선택했다. 다음 S58은 이 후보 비교와 별도로 실제 제품 상태에 반영한 변경을 확인한 기록이다.
 
-Evidence / Source: `plan/DEMO_MATRIX.md` TRIAL-008의 Investigation, Plan, Decision, Implementation 및 `plan/CLAIM_FREEZE.md`의 후보 비교 범위. 대상은 image_statistics, deterministic synthetic 1024×768 image (786,432 pixels, max255), CPython3.9.6 / macOS26.6.2 arm64. 같은 여섯 결과(width, height, pixel_count, minimum, maximum, mean)를 대조했다. 원자료는 기존 평탄화, row reductions, manual Python single pass를 비교한다. 화면은 선택 판단에 필요한 두 변경 후보를 요약하고 기존 구현을 할당량 비교 기준으로 둔다. 기존 수치·raw record는 원자료에 보존한다.
+Evidence / Source: `plan/DEMO_MATRIX.md` TRIAL-008 Investigation, Plan, Decision, Implementation, Verification 및 `plan/CLAIM_FREEZE.md`의 정성 후보 비교 범위. 대상은 image_statistics, deterministic synthetic 1024×768 (786,432 pixels, max255), CPython3.9.6 / macOS26.6.2 arm64. 보존한 여섯 결과는 width, height, pixel_count, minimum, maximum, mean이다. 원자료의 기존 flattening, row reductions, manual Python single pass 비교와 구현 내용을 요약했다. 정확한 후보 수치와 원기록은 원자료에 보존한다.
 
-Claim Boundary: 정확한 후보 시간·할당량 수치는 이 장에 표시하지 않는다. ‘더 느림/더 빠름’은 화면의 두 후보 사이 비교이고 ‘기존보다 낮은 할당 피크’는 기존 평탄화 구현과의 비교다. Python tracemalloc 관찰 피크는 process RSS나 전체 시스템 메모리가 아니다. 후보 비교를 S58의 formal STATE-04/STATE-04-PERF 측정과 섞지 않는다. Skill이 알고리즘을 공급했거나 단독으로 결과를 일으켰다고 말하지 않는다. 현재 제품 재현·일반적 성능 보장·새 Trial 주장은 없다.
+Claim Boundary: S57에는 정확한 후보 수치를 표시하지 않는다. ‘더 느림/더 빠름’은 화면의 두 변경 후보 사이 비교이고 ‘기존보다 낮은 임시 메모리’는 기존 평탄화 구현 대비 traced Python allocation peak다. 임시 공간 도식은 리스트 구조 재구성이며 실제 이미지·값·측정 캡처가 아니다. 할당 피크를 RSS나 시스템 전체 메모리로 일반화하지 않는다. TRIAL-008 후보 비교를 S58의 formal STATE-04/STATE-04-PERF 측정과 섞지 않는다. Skill 단독 인과성·알고리즘 제공·현재 Desktop 재현·일반 성능 보장은 주장하지 않는다.
 
-Beginner Explanation: 결과가 같은지와 할당량을 확인한 뒤에도 실행시간을 비교해야 했다. 같은 기준을 통과한 후보 중 이번 근거가 뒷받침하는 구현을 선택했다.
+Beginner Explanation: 같은 통계를 구해도 계산 중에 큰 임시 리스트를 만들 수 있다. 이 리스트 없이 계산한 두 방법 모두 결과와 메모리를 확인했고, 두 방법의 실행시간도 비교해서 골랐다.
 
-Advanced Insight: 수동 단일 순회의 낮은 할당량만으로는 변경을 정당화하지 못했다. Python 내장 연산의 행 단위 반복과 직접 루프의 trade-off를 이 workload에서 측정했다. Candidate comparison과 제품 상태 전후 측정은 별도 Evidence다.
+Advanced Insight: 데이터 구조의 할당과 Python 수준 반복의 실행시간을 별도로 판단한 사례다. 세 차례 행 순회와 full-list allocation 제거의 trade-off는 이 입력·runtime의 기록으로 한정한다. 과목의 핵심은 최적화 기법 목록이 아니라 재사용 절차로 얻은 근거에 따른 판단이다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 정적 기록 요약 — 공통 조건, 위쪽 수동 순회, 아래쪽 선택한 후보 순으로 가리킨다. 동등한 길이의 연결선은 관찰 요약과 판단의 관계이며 비율이나 실행시간을 나타내는 막대가 아니다. 구현 코드·정확한 후보 수치·현재 제품 실행을 추가하지 않는다. Case5분은 DEMO-03의8 Demo분에 포함하지 않는다.
+Demo Operation: LOCAL STATIC RECORD — 작업 목적, 기존 구현의 픽셀/임시 리스트/통계 도식, 두 후보, 제외/선택 순으로 가리킨다. 색상뿐 아니라 라벨로 판단을 구분한다. 화면의 셀 수나 선 길이를 실제 입력 크기 또는 성능 비율로 읽지 않는다. 구현 파일·새 실행·정확한 후보 숫자를 추가하지 않는다. Case5분은 DEMO-03의8 Demo분과 별도다.
 
-Audience Interaction: 위쪽 공통 조건에서 Opening Question을 던지고 잠깐 생각할 시간을 둔다. 화면에 이미 선택이 보이므로 숨긴 결과를 맞히는 퀴즈로 진행하지 않는다. 공개 답변·실습·추가 Q&A 시간은 요구하지 않는다.
+Audience Interaction: Opening Question으로 앞 장의 판단 문제를 회수한다. 두 후보를 읽을 때 ‘메모리가 줄었다면 충분할까?’를 짧게 덧붙일 수 있다. 답이 이미 보이는 화면이므로 결과를 숨긴 퀴즈나 실습으로 운영하지 않는다.
 
-Transition: “후보 선택 기록을 남기고, 실제 제품 상태에 반영한 변경을 별도의 기준에서 확인하겠습니다.”
+Transition: “선택한 행 단위 계산을 제품 코드에 반영한 뒤, 실행시간·임시 메모리·동작을 다시 확인한 기록을 보겠습니다.”
 
-Time Management: Case5분: S56 회수0.75, 공통 조건1, 두 후보·선택1.5, trade-off1, 범위·S58 전환0.75. 지연 시 함수명·결과 여섯 필드 낭독을 생략한다. 두 비교 기준과 후보/제품 상태 구분은 유지하고5분에 S58로 이동한다.
+Time Management: Case5분: 작업 회수0.75, 기존 구현1, 두 후보1, 비교·선택1.5, 범위·전환0.75. 지연 시 함수명·여섯 필드·세 차례 순회 설명을 줄인다. 작업 목적, 임시 리스트, 후보 선택과 별도 제품 검증이라는 연결은 유지하고5분에 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S57, production/preview/act3/S57.png 및 production/preview/full/S57.png. 실제 실행 화면이 아닌 보존된 후보 비교 기록의 시각적 요약이다. 현재 제품·Demo repository를 실행하지 않는다. 최신 파일·내장 Notes 대조는 production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S57, production/preview/act3/S57.png 및 production/preview/full/S57.png. 보존된 후보 비교와 구현 구조를 재구성한 도식이다. 현재 제품이나 Demo repository를 실행하지 않는다. 최신 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md를 따른다.
 
-Validation Status: ALIGNED — DEC-0069의19필드·Case5분·후보 비교 범위를 정렬했다. 최종 로컬 렌더와 Notes 대조는 production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0070의19필드·Case5분·정성 후보 비교 범위를 정렬했다. 로컬 렌더·내장 Notes 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S58 — 선택한 변경을 같은 조건에서 검증했다
+## S58 — 선택한 변경의 시간·메모리·동작 확인
 
 Slide ID: S58
 
-Working Title: 선택한 변경을 같은 조건에서 검증했다
+Working Title: 선택한 변경의 시간·메모리·동작 확인
 
 ACT / Section: ACT 3 / 3D
 
@@ -390,36 +390,37 @@ Mode Split: Case 5 minutes
 
 Primary Message: STATE-04→STATE-04-PERF 밝기 통계 변경은 기록된 입력·환경에서 동작 검사와 같은 조건의 측정을 거쳤다. 기존 수치와 검사 결과를 유지하고 Harness/Skill의 단독 인과효과와 구분한다.
 
-Opening Question: “선택한 코드 변경의 동작과 성능을 어떤 근거로 확인했을까?”
+Opening Question: “선택한 변경을 제품에 반영한 뒤, 시간·메모리·동작은 각각 어떻게 확인됐을까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 앞 장의 후보 비교와 정식 STATE-04 기준에서 반영한 제품 변경의 측정을 구분한다.
-2. (1:00–2:30) 기존0축 native chart의 중앙값15.468→10.769ms/call을 동일 입력·상태별7회 측정으로 설명한다.
-3. (2:30–3:30) 별도 tracemalloc 호출의6,675,804→380bytes와 임시 평탄화 리스트 제거를 연결하되 RSS나 전체 메모리 절감으로 확대하지 않는다.
-4. (3:30–5:00) 함수 테스트1/1, 전체11/11, CLI, 입력·결과6항목 확인과 기록된 범위를 설명한다. Harness/Skill 단독 원인이 아니라 코드 변경 결과다.
+1. (0:00–0:45) S57에서 선택한 ‘큰 임시 리스트 없이 행마다 내장 min/max/sum 계산’을 위쪽 문장으로 회수한다. 이제 후보 비교가 아니라 정식 제품 코드 변경 전후의 별도 측정 기록이다.
+2. (0:45–2:00) 왼쪽 실행시간을 짚는다. 같은 합성 이미지와 설정에서 상태별7회 실행한 중앙값은 변경 전15.468, 변경 후10.769ms/call이다. 0부터 시작하는 막대와 수치가 같은 방향을 나타낸다. 다른 입력·기기나 전체 제품 속도로 일반화하지 않는다.
+3. (2:00–3:00) 가운데 임시 메모리는 별도 tracemalloc 호출의 Python allocation peak다. 6,675,804에서380bytes로 바뀌었다. 전체 픽셀 임시 리스트를 없앤 코드 변경과 연결하되, 입력 이미지 자체나 전체 프로세스 메모리가380bytes라는 뜻은 아니다.
+4. (3:00–4:15) 오른쪽 동작 검증은 반환값6항목 동일, 함수 테스트1/1, 프로젝트 전체 테스트11/11, CLI 샘플 통과라는 기록이다. 실행시간만 짧아진 것을 성공 근거로 삼지 않는다. 이 검사들이 모든 입력의 정확성을 보증하는 것은 아니다.
+5. (4:15–5:00) 재사용 절차 안에서 변경과 검증을 마친 사례로 회수한다. Harness/Skill이 단독으로 개선을 일으켰다는 실험은 아니다. 다음에는 이 작업에 독립 조사를 나누는 구조까지 필요했는지 질문한다.
 
-Evidence / Source: `plan/DEMO_MATRIX.md` STEP 07 §§191–200, STATE-04 → STATE-04-PERF; `plan/CLAIM_FREEZE.md` §8; DEC-0019. Baseline `822f1c12c5f602d934a2fd29e48f05bf498b4bfa`, result `6153b81c0187dd7d82c88bd1817fb683c98eb431`; `image_statistics`; deterministic synthetic 1024×768, 786,432 pixels, max255; CPython3.9.6 / macOS26.6.2 arm64; same input fingerprint, seven one-call samples per state. Median 15.468→10.769 ms/call; separate tracemalloc call peak 6,675,804→380 bytes; six-field result guard, focused1/1, full11/11, CLI smoke PASS. TRIAL-008 is candidate history only.
+Evidence / Source: `plan/DEMO_MATRIX.md` STEP07 §§191–200, STATE-04 → STATE-04-PERF; `plan/CLAIM_FREEZE.md` §8; DEC-0019. Baseline 822f1c12c5f602d934a2fd29e48f05bf498b4bfa, result 6153b81c0187dd7d82c88bd1817fb683c98eb431. image_statistics, deterministic synthetic1024×768, 786,432pixels, max255, CPython3.9.6/macOS26.6.2 arm64. Same input fingerprint, seven one-call samples per state. Median15.468→10.769ms/call, separate tracemalloc peak6,675,804→380bytes. Six fields(width, height, pixel_count, minimum, maximum, mean), focused1/1, full11/11, CLI smoke PASS. CLI checked crop2×3, six pixels, min51/max255/mean136.0 and matching PGM output. TRIAL-008 supplies candidate history, not these formal-state samples.
 
-Claim Boundary: 숫자는 이 입력, 코드 경로, host, runtime, 측정 조건에 한정한다. `tracemalloc`은 Python allocation peak이지 RSS가 아니다. Harness나 Skill이 성능 향상을 일으켰다고 하지 않는다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: 원자료의 수치·단위·기준을 그대로 사용한다. 모든 관찰은 이 입력·코드 경로·host·runtime·측정 조건에 한정한다. tracemalloc은 Python allocation peak이며 RSS나 전체 메모리가 아니다. 검사 통과는 기록된 범위의 동작 확인이다. Harness/Skill 단독 인과성·현재 Desktop 재현·새 Trial·일반 성능 보장은 주장하지 않는다.
 
-Beginner Explanation: 바뀐 코드가 맞는지 Test와 같은 benchmark로 확인한 기록이 있다.
+Beginner Explanation: 바뀐 코드가 빨라졌는지만 보지 않았다. 같은 입력에서 걸린 시간, 계산 중 임시로 할당한 메모리, 같은 답과 테스트 결과를 함께 확인했다.
 
-Advanced Insight: Observed product change와 시스템 구성요소의 단독 인과를 분리한다.
+Advanced Insight: Candidate comparison과 formal product-state verification의 기준선을 구분한다. Runtime과 allocation은 별도 호출로 측정했고 동일 입력 지문과6필드 결과 guard를 유지했다. 이 관찰로 시스템 구성요소의 독립적 효과를 추론하지 않는다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 정적 기본 경로 — 기존 native 실행시간 chart와 Python 할당 피크·검증 행을 유지하고 제목/요약을 한국어 판단 중심으로 정렬한다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: LOCAL STATIC RECORD — 위쪽 선택한 변경을 회수하고 왼쪽 시간 막대, 가운데 할당량 전후, 오른쪽 동작 검증 순으로 가리킨다. 측정값은 native chart/text이며 편집 가능하다. 이 장의 Case5분을 추가 Demo 시간으로 계산하지 않는다. 현재 제품·Demo repository·benchmark를 실행하지 않는다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: 세 영역을 가리키며 Opening Question을 짧게 던진다. 결과가 공개된 정적 기록으로 설명하고 추가 실습이나 공개 답변 시간을 요구하지 않는다.
 
 Transition: “이 작업에 더 필요했던 구조도 있었을까요? 역할을 나누는 선택부터 검토하겠습니다.”
 
-Time Management: Case5분: 측정 단계1, 실행시간1.5, 할당량1, 동작 확인·한계·전환1.5.
+Time Management: Case5분: 선택한 변경·측정 기준0.75, 실행시간1.25, 임시 메모리1, 동작 검증1.25, 범위·다음 질문0.75. 지연 시 정확한 여섯 필드와 CLI 샘플 값 낭독을 생략한다. 세 결과와 측정 범위를 남기고5분에 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S58, production/preview/act3/S58.png 및 production/preview/full/S58.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S58, production/preview/act3/S58.png 및 production/preview/full/S58.png. 보존된 제품 전후 측정·검증 기록의 재구성이다. 현재 실행 캡처가 아니다. 최신 파일 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md를 따른다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0070의19필드·Case5분·제품 전후 측정 범위를 정렬했다. 로컬 렌더·내장 Notes 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S59 — 독립 조사를 나누면 무엇이 달라질까?
 

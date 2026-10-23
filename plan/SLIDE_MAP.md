@@ -1,6 +1,8 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
-> **최신 S57 수정: DEC-0069.** 공통 검증 조건과 후보별 시간·선택을 두 행에 정리해 S56의 판단 질문을 회수하고 S58의 제품 상태 검증으로 넘긴다. [수정 검토](../production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md).
+> **최신 S57–S58 수정: DEC-0070.** 밝기 통계 작업·기존 임시 리스트·후보 선택을 연결하고, 제품 반영 후 시간·할당량·동작 검증을 세 영역으로 정리한다. S50–S56 흐름을 재검토하고 보존했다. [수정 검토](../production/evaluation/S57_S58_TASK_RESULT_REVISION.md).
+
+> **이전 S57 수정: DEC-0069.** 공통 검증 조건과 후보별 시간·선택을 두 행에 정리해 S56의 판단 질문을 회수하고 S58의 제품 상태 검증으로 넘긴다. [수정 검토](../production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md).
 
 > **이전 S56 수정: DEC-0068.** 재사용할 Skill 절차와 이번 측정·검증 근거로 판단할 답을 관계도로 구분한다. [수정 검토](../production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md).
 
@@ -1517,54 +1519,54 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-022, DEC-0017, STATE-04-PERF, TRIAL-008, INV-VERIFY-001, DEC-0062, DEC-0068
 
 
-#### S57 — 낮은 할당량만으로 고르지 않았다
+#### S57 — 밝기 통계 계산의 성능 개선 후보
 
 - **Slide ID:** S57
 - **ACT:** ACT 3
 - **Section:** 3D Working Harness
-- **Working Title:** 낮은 할당량만으로 고르지 않았다
+- **Working Title:** 밝기 통계 계산의 성능 개선 후보
 - **Primary Role:** 최적화 기법 강의 대신 근거에 따른 후보 선택을 보여준다.
-- **Audience Question:** “메모리를 적게 쓰는 후보라면 곧바로 선택해도 될까?”
+- **Audience Question:** “밝기 통계의 결과를 유지하면서, 어떤 계산 방식을 선택했을까요?”
 - **Core Message:** TRIAL-008에서는 결과 6항목을 보존한 후보들의 실행시간과 traced allocation을 함께 봤다. 느린 수동 순회는 제외하고 낮은 할당량과 더 나은 실행시간의 행 단위 reduction을 선택했다.
 - **Story Beat:** BEAT-022 — 측정과 비교를 거친 후보 선택
 - **Curriculum Trace:** ACT 3 — observed workflow, verification, and Minimum Effective Harness.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 해당 Trial의 후보 간 비교 결과. Skill이 후보를 발견하거나 그 결과를 일으켰다는 인과 주장은 하지 않는다.
-- **Visual Concept:** 공통 조건(같은 결과6항목·기존 구현보다 낮은 Python 할당 피크)을 한 번만 표시하고, 두 후보의 실행시간 방향과 제외/선택을 같은 행에 연결한다. 선택한 행만 청록으로 강조한다. 화살표 길이는 측정값이 아니며 정확한 후보 수치는 추가하지 않는다.
+- **Visual Concept:** 상단에서 이미지의 최소·최대·평균을 구하는 작업과 기존 구현(행별 픽셀→전체 임시 리스트→통계)을 native 도식으로 설명한다. 하단은 임시 리스트 없이 계산한 두 후보의 시간 방향과 제외/선택을 비교한다. 결과6항목 보존·기존보다 낮은 Python 할당 피크를 명시하며 정확한 후보 수치는 표시하지 않는다. 칸은 실제 픽셀 값이나 측정량이 아니다.
 - **Demo / Case Connection:** TRIAL-008의 image_statistics 후보 비교 요약. 수동 단일 순회와 행 단위 내장 min/max/sum을 정성적으로 비교한다. 기존 평탄화 구현은 할당량 비교 기준이며 S58의 formal 제품 상태 측정과 구분한다.
 - **Beginner Payoff:** 성능 개선은 아이디어가 아니라 같은 조건의 비교로 판단한다.
 - **Advanced Payoff:** 시간·메모리 trade-off를 따로 보고 후보를 선택한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S56의 작업별 판단 질문을 실제 후보 선택으로 회수한다. 공통 조건, 수동 순회 제외, 행 단위 내장 연산 선택 순으로 시선을 유도한다. 상세 구현·여섯 결과 필드·측정 조건은 Notes에서 설명하고 화면의 중복 문장을 줄인다.
-- **Transition:** “후보 선택 기록을 남기고, 실제 제품 상태에 반영한 변경을 별도의 기준에서 확인하겠습니다.”
+- **Speaker Intent:** S56의 판단 질문을 구체적 밝기 통계 작업으로 회수한다. 작업 목적, 기존 임시 리스트, 두 대안, 기록에 따른 선택 순으로 읽는다. 처음 듣는 청중에게 후보 이름만 제시하지 않는다. 알고리즘 최적화 강의로 확대하지 않는다.
+- **Transition:** “선택한 행 단위 계산을 제품 코드에 반영한 뒤, 실행시간·임시 메모리·동작을 다시 확인한 기록을 보겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
-- **Evidence / Decision References:** BEAT-022, TRIAL-008, STATE-04-PERF, INV-VERIFY-001, DEC-0062, DEC-0069
+- **Evidence / Decision References:** BEAT-022, TRIAL-008, STATE-04-PERF, INV-VERIFY-001, DEC-0062, DEC-0069, DEC-0070
 
 
-#### S58 — 선택한 변경을 같은 조건에서 검증했다
+#### S58 — 선택한 변경의 시간·메모리·동작 확인
 
 - **Slide ID:** S58
 - **ACT:** ACT 3
 - **Section:** 3D Working Harness
-- **Working Title:** 선택한 변경을 같은 조건에서 검증했다
+- **Working Title:** 선택한 변경의 시간·메모리·동작 확인
 - **Primary Role:** 재사용 절차 사례의 결과를 동작 확인과 동일 조건 측정으로 회수한다.
-- **Audience Question:** “선택한 코드 변경의 동작과 성능을 어떤 근거로 확인했을까?”
+- **Audience Question:** “선택한 변경을 제품에 반영한 뒤, 시간·메모리·동작은 각각 어떻게 확인됐을까요?”
 - **Core Message:** STATE-04→STATE-04-PERF 밝기 통계 변경은 기록된 입력·환경에서 동작 검사와 같은 조건의 측정을 거쳤다. 기존 수치와 검사 결과를 유지하고 Harness/Skill의 단독 인과효과와 구분한다.
 - **Story Beat:** BEAT-022, BEAT-037 — bounded change와 Working Harness Success
 - **Curriculum Trace:** ACT 3 — observed workflow, verification, and Minimum Effective Harness.; ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 해당 프로젝트와 입력·환경에서 관찰된 값이다. Harness가 성능 향상을 일으켰다고 말하지 않는다.
-- **Visual Concept:** 기존 native 실행시간 chart와 Python 할당 피크·검증 행을 유지하고 제목/요약을 한국어 판단 중심으로 정렬한다.
+- **Visual Concept:** 선택한 변경을 한 문장으로 회수하고, 실행시간 native chart / Python 할당 피크 전후 / 결과6항목·테스트·CLI 확인을 세 영역으로 구분한다. 기존15.468→10.769ms/call과6,675,804→380B, 검증 결과를 그대로 표시한다. 시간축은0에서 시작한다.
 - **Demo / Case Connection:** STATE-04-PERF에 반영된 row-reduction 변경과 해당 상태의 검증 결과.
 - **Beginner Payoff:** AI의 제안은 테스트와 측정으로 확인한 뒤 결과물로 반영한다.
 - **Advanced Payoff:** 원인에 대한 주장과 시스템을 사용해 검증한 관찰 결과를 분리한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 재사용 절차 사례의 결과를 동작 확인과 동일 조건 측정으로 회수한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Speaker Intent:** S57의 후보 선택과 별도인 formal 제품 변경 전후 기록을 보여준다. 구현 회수, 시간, 임시 메모리, 동작 검증 순으로 한 영역씩 짚으며 결과 유지와 측정 범위를 함께 설명한다. 결과를 Harness/Skill의 단독 효과로 해석하지 않는다.
 - **Transition:** “이 작업에 더 필요했던 구조도 있었을까요? 역할을 나누는 선택부터 검토하겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
-- **Evidence / Decision References:** BEAT-022, BEAT-037, STATE-04-PERF, STATE-04, TRIAL-008, INV-VERIFY-001, STATE-00, DEC-0018, INV-DEMO-003, DEC-0062
+- **Evidence / Decision References:** BEAT-022, BEAT-037, STATE-04-PERF, STATE-04, TRIAL-008, INV-VERIFY-001, STATE-00, DEC-0018, INV-DEMO-003, DEC-0062, DEC-0070
 
 
 #### S59 — 독립 조사를 나누면 무엇이 달라질까?

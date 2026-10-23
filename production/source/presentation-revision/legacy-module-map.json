@@ -576,7 +576,7 @@
         "M9"
       ],
       "scope": "principle",
-      "rationale": "두 구현 후보를 정확성·실행 시간·Python 할당량으로 비교해 선택한다. 후보 비교와 근거 기반 판단 원리이며 ToT·시스템 3대안·TCO 교육은 아니다. DEC-0062: 최적화 기법 강의 대신 근거에 따른 후보 선택을 보여준다. DEC-0069: show shared guards once and connect each candidate runtime direction to its decision; preserve M2/M5/M9 scope.",
+      "rationale": "두 구현 후보를 정확성·실행 시간·Python 할당량으로 비교해 선택한다. 후보 비교와 근거 기반 판단 원리이며 ToT·시스템 3대안·TCO 교육은 아니다. DEC-0062: 최적화 기법 강의 대신 근거에 따른 후보 선택을 보여준다. DEC-0069: show shared guards once and connect each candidate runtime direction to its decision; preserve M2/M5/M9 scope. DEC-0070: clarify task, candidate choice and separate product verification without changing module coverage.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2 · M5 · M9"
     },
@@ -586,7 +586,7 @@
         "M5"
       ],
       "scope": "direct",
-      "rationale": "동일 입력과 상태별 반복 측정·테스트·guard로 코드 변경의 시간·할당량 결과를 확인한다. 개발자 생산성 지표인 M8과 구분한다. DEC-0062: 재사용 절차 사례의 결과를 동작 확인과 동일 조건 측정으로 회수한다.",
+      "rationale": "동일 입력과 상태별 반복 측정·테스트·guard로 코드 변경의 시간·할당량 결과를 확인한다. 개발자 생산성 지표인 M8과 구분한다. DEC-0062: 재사용 절차 사례의 결과를 동작 확인과 동일 조건 측정으로 회수한다. DEC-0070: clarify task, candidate choice and separate product verification without changing module coverage.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M5"
     },

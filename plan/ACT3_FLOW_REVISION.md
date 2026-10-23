@@ -1,6 +1,18 @@
 # ACT3 Flow Revision — DEC-0062
 
-## Current S57 refinement — DEC-0069
+## Current S57–S58 refinement — DEC-0070
+
+Review S50–S56 as a first-time audience: repeated procedure, application,
+Skill ownership, inclusion evidence, action evidence and task judgment remain
+distinct. The missing link was concrete task/implementation context before
+candidate names. Restore the brightness-statistics task and original full-list
+allocation on S57, then compare the two observed candidates qualitatively.
+S58 recalls the selected change and displays runtime, traced allocation and
+behavior checks as three separate results from the formal product-state pair.
+Preserve the other screens, per-slide budgets and evidence boundaries.
+Review: [Task and result continuity](../production/evaluation/S57_S58_TASK_RESULT_REVISION.md).
+
+## Previous S57 refinement — DEC-0069
 
 S57 consolidates the two candidates' shared guards and uses two short evidence
 lanes to connect runtime direction with rejection/selection. Highlight the
@@ -70,8 +82,8 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S54 | Visually distinguish selector, explicit request and trace/body evidence; DEC-0066. |Demo5|
 | S55 | Pair three translated Skill instructions with observed output/message/diff, distinct from body inclusion; DEC-0067. |Demo3+Case3|
 | S56 | Visually connect reusable procedure to task evidence/questions and allowed adopt/no-change paths; DEC-0068. |Lecture3|
-| S57 | One shared-condition line and two candidate/runtime/decision lanes; DEC-0069. |Case5|
-| S58 | Keep the native chart, formal state measurements and verification results. |Case5|
+| S57 | Re-establish the brightness task and full-list implementation before the qualitative candidate choice; DEC-0070. |Case5|
+| S58 | Recall the chosen change and show formal runtime, allocation and behavior results separately; DEC-0070. |Case5|
 | S59 | First explain hypothetical independent C++ investigations and integration costs. |Demo3+Q&A1|
 | S60 | Apply those criteria to the actual connected Task; preserve no-Subagent decision. |Lecture1+Demo2+Q&A1|
 | S61 | First explain hypothetical knowledge reuse between tasks and lifecycle obligations. |Demo2+Case2|

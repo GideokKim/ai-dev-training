@@ -1,6 +1,13 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0069 / S57 candidate selection hierarchy.
+Latest refinement: DEC-0070 / S57-S58 task, choice and result continuity.
+Restore the brightness task and original temporary-list schematic before the
+qualitative candidate choice. Display the selected product change's runtime,
+traced allocation and behavior checks in three areas with unchanged data.
+Keep both Case5 budgets and93/379; align only S57/S58 Notes.
+Review: `production/evaluation/S57_S58_TASK_RESULT_REVISION.md`.
+
+Previous refinement: DEC-0069 / S57 candidate selection hierarchy.
 Show shared guards once and connect runtime direction to rejection/selection
 in two short native evidence lanes. Highlight the selected row. Keep T07-B,
 Case5 and93/379; align only S57 Notes and rebuild Full/ACT3.
