@@ -468,11 +468,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S59, production/pre
 
 Validation Status: ALIGNED — DEC-0071의19필드·Demo3+Q&A1분·역할 분담/통합 순서를 정렬했다. 최종 패키지·렌더·내장 Notes 대조는 production/evaluation/S59_ROLE_SPLIT_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S60 — 이번 작업은 나눌 근거가 충분했을까?
+## S60 — 밝기 통계 작업을 나누지 않은 이유
 
 Slide ID: S60
 
-Working Title: 이번 작업은 나눌 근거가 충분했을까?
+Working Title: 밝기 통계 작업을 나누지 않은 이유
 
 ACT / Section: ACT 3 / 3E
 
@@ -482,35 +482,37 @@ Mode Split: Lecture 1 minute + Demo 2 minutes (VISUAL) + Q&A 1 minute
 
 Primary Message: 현재 작업은 같은 성능 경로·명세를 공유하고 조사→변경→검증의 의존성이 높았다. 별도 Context 이득과 결과 통합 비용을 검토한 결과 Subagent를 추가하지 않았다.
 
-Opening Question: “밝기 통계 작업의 조사·변경·검증을 실제로 독립시킬 수 있었을까?”
+Opening Question: “S59의 독립 조사 기준을 이 밝기 통계 작업에도 적용할 수 있었을까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00 / Lecture) 앞 장의 독립성·필요 Context·전달 형식·통합 책임 기준을 회수한다.
-2. (1:00–3:00 / Demo) 현재 작업의 조사→변경→검증이 같은 성능 경로와 명세를 공유하고 앞 결과에 의존함을 도식으로 설명한다. DEC-0018 판단을 읽는 정적 visual이며 Agent 실행이 아니다.
-3. (3:00–4:00 / Q&A) 현재 추가하지 않았다는 결론과 일반적으로 불필요하다는 주장을 구분한다. 질문이 없으면 조정·중복·전달·통합 비용을 짧게 회수한다.
+1. (0:00–1:00 / Lecture) S59에서는 성능·빌드·테스트 조사가 서로 기다리지 않아도 된다고 가정했다. 이제 S57/S58의 실제 밝기 통계 작업으로 돌아온다. 화면 위 ‘같은 함수·같은 출력 명세’를 짚는다. 여기서는 무엇을 나눌지보다 각 단계가 앞의 어떤 결과를 받아야 하는지 먼저 본다.
+2. (1:00–1:40 / Demo) 왼쪽 조사는 기존 계산과 보존할 출력 명세, 변경 후보를 확인한 단계다. 기존 전체 픽셀 임시 리스트와 후보 비교는 S57에서 봤다. 가운데로 가는 ‘조사 결과’ 화살표를 따라, 조사한 후보를 근거로 계산 코드를 변경했음을 설명한다.
+3. (1:40–2:20 / Demo) 가운데 변경에서 오른쪽 검증으로 전달하는 것은 ‘바뀐 코드’다. 그 코드의 출력·테스트와 같은 조건의 시간·Python 할당량을 확인했다. 실제 수치와 검사 결과는 S58에 보존돼 있으므로 다시 낭독하지 않는다. 단계를 이름만 바꿔 독립 조사라고 부를 수는 없다.
+4. (2:20–3:00 / Demo) 아래 ‘한 Agent가 끝까지 수행’을 읽는다. 이 작은 작업은 같은 코드·명세를 공유했고 별도 Context 분리의 필요성이 충분하지 않았다. 나누면 해당 자료와 중간 결과를 전달하고 결과를 통합할 책임도 생긴다. DEC-0018의 기존 판단과 후속 실제 작업 기록에 따라 추가하지 않았다. 의존관계만으로 역할 분리가 불가능하다고 결론내리지는 않는다.
+5. (3:00–4:00 / Q&A) “조사 범위가 넓어지고 서로 기다리지 않는 근거 검토가 생기면 이 판단도 바뀔까요?”를 받는다. 무질문이면 발표자가 독립 조사 범위·필요한 정보·통합 비용을 다시 판단한다고 회수한다. 3:45에 질문을 닫고 다음 작업에도 남길 지식의 필요성으로 이동한다.
 
-Evidence / Source: DEC-0018, STATE-04/STATE-04-PERF 작업 복잡도 점검, BEAT-023–025. 기존 S59의 실제 추가하지 않음 판단을 보존한다. OBSERVED_PRODUCT / TEACHING_MODEL; Subagent 실행 결과는 없다.
+Evidence / Source: DEC-0018의 STATE-04 저장소/후보 A·B·C 복잡도 감사, plan/DEMO_MATRIX.md STEP07 §§171–190 및 §§191–200의 작은 연결 작업과 no-Subagent 기록, BEAT-023–025, DEC-0062/0072. 조사·후보 선택은 TRIAL-008과 formal STATE-04→STATE-04-PERF 기록을 앞뒤 의존관계로 재구성했다. DEC-0018은 앞선 STATE-04 판단이고 후속 제품 변경 기록은 그 선택을 유지한 사례다. 실제 Subagent 실행 결과는 없다.
 
-Claim Boundary: FROZEN WITH SCOPE / TEACHING MODEL — DEC-0018 현재 Task 감사의 판단이며 실제 Subagent Trial이 아니다. 일반적 불필요성이나 기능 부재를 주장하지 않는다.
+Claim Boundary: FROZEN WITH SCOPE / TEACHING MODEL — DEC-0018 현재 Task 감사의 판단이며 실제 Subagent Trial이 아니다. 일반적 불필요성이나 기능 부재를 주장하지 않는다. 도식은 보존된 실제 작업의 의존관계 요약이며 raw trace·시각·동일 세션의 캡처가 아니다. 의존 단계에도 역할을 나누는 설계는 가능하지만 이 범위에서는 별도 조사·Context 분리 이득이 충분히 입증되지 않았다는 판단이다. 시간·품질·토큰 절감 비교를 새로 주장하지 않는다.
 
-Beginner Explanation: 앞 조사 결과가 있어야 다음 변경과 검증이 가능한 작업에서는 나누는 비용도 검토한다.
+Beginner Explanation: 무엇을 고칠지 조사한 결과가 있어야 변경을 고르고, 바뀐 코드가 있어야 그 결과를 검사할 수 있다. 같은 좁은 범위의 자료를 계속 보는 이 작업에서는 한 Agent가 이어서 맡았다. Agent 수가 많아야 완성된 작업 환경이 되는 것은 아니다.
 
-Advanced Insight: NOT JUSTIFIED YET는 현재 Task의 판단이다. 일반적인 기능 가치나 사용할 수 없음에 대한 결론이 아니다.
+Advanced Insight: 단계가 이어진다는 사실과 독립적인 검토 역할을 만들 수 있는지는 구분한다. DEC-0018은 작은 저장소와 겹치는 근거·제한된 Context 분리 가치·전달/통합 비용을 함께 본 선택이다. 작업 규모와 독립 조사 필요성이 달라지면 같은 기준으로 재평가한다. 비용 차이는 실측 비교가 아니다.
 
-C++ Vision Bridge: S59의 C++ 가정과 현재 Python Task를 같은 관찰로 섞지 않는다.
+C++ Vision Bridge: S59의 C++ 독립 조사 가정과 이 Python 밝기 통계 작업을 같은 관찰로 섞지 않는다. 이번 화면은 실제 작업 판단만 보여준다.
 
-Demo Operation: 정적 기본 경로 — 조사→변경→검증의 의존 관계와 독립성/Context/통합 비용, 현재 추가하지 않았다는 판단을 분리한다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: LOCAL STATIC VISUAL — 상단 같은 함수·명세 → 왼쪽 조사 → 조사 결과 화살표 → 가운데 코드 변경 → 바뀐 코드 화살표 → 오른쪽 출력·테스트·시간·할당량 확인 → 아래 한 Agent 유지 판단. S59의 분기/합류 대신 실제 의존관계를 읽는2분이다. Agent·benchmark·Demo repository를 실행하지 않으며 추가 Subagent 창을 열지 않는다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. Q&A는 무질문 예비 질문과 cutoff를 적용한다.
+Audience Interaction: Lecture1분과 정적 Demo2분 뒤 Q&A1분을 쓴다. 무질문 예비 질문은 ‘서로 기다리지 않는 조사 범위가 커진다면?’이다. 공개 답변·실습은 요구하지 않는다. 제품 기능 사용법 질문은 후속 확인 항목으로 남기고 현재 선택 이유를 회수한다.
 
 Transition: “역할 분리의 필요성을 판단했습니다. 다음 작업에 별도로 남길 지식도 있었을까요?”
 
-Time Management: Lecture1분 → Demo2분(VISUAL 현재 판단) → Q&A1분.
+Time Management: Lecture1분(S59 기준 회수·실제 작업 복귀) → Demo2분(조사/변경0.67, 변경/검증0.67, 현재 판단0.66) → Q&A1분(질문·회수0.75, cutoff·전환0.25). 지연 시 후보명·검사값 낭독을 생략한다. 앞 결과 의존성, 자료 범위와 통합 비용, 이 작업에 한정한 선택은 남기고4분에 S61로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S60, production/preview/act3/S60.png 및 production/preview/full/S60.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S60, production/preview/act3/S60.png 및 production/preview/full/S60.png. 보존된 실제 작업과 판단을 재구성한 정적 도식이며 실행 캡처가 아니다. 현재 파일 대조는 production/evaluation/S60_TASK_DEPENDENCY_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0072의19필드·Lecture1+Demo2+Q&A1분·실제 작업 의존관계를 정렬했다. 최종 패키지·렌더·내장 Notes 대조는 production/evaluation/S60_TASK_DEPENDENCY_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S61 — 다음 작업에서도 다시 찾을 지식인가?
 

@@ -604,7 +604,7 @@
       "slideId": "S60",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "연결된 현재 작업에서 별도 Subagent를 정당화할 독립성·병렬 이득·통합 비용을 검토한다. 원자료의 제품 스레드 설계나 시스템 대안 비교가 아니다. DEC-0062: 앞 장의 역할 분리 기준을 현재 사례에 적용해 선택 이유를 회수한다.",
+      "rationale": "연결된 현재 작업에서 별도 Subagent를 정당화할 독립성·병렬 이득·통합 비용을 검토한다. 원자료의 제품 스레드 설계나 시스템 대안 비교가 아니다. DEC-0062: 앞 장의 역할 분리 기준을 현재 사례에 적용해 선택 이유를 회수한다. DEC-0072: show actual task handoffs and retain the bounded single-Agent choice; preserve module coverage.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },

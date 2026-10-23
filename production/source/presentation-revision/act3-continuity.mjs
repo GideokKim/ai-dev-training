@@ -328,17 +328,26 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S60(p){
-   const s=make(p,'S60','이번 작업은 나눌 근거가 충분했을까?','ACT 3 · 실제 사례에 Subagent 선택 기준을 적용',
-    'DEC-0018 · 현재 성능 작업의 의존성과 Context를 검토한 판단 · Subagent Trial 없음',
-    '이 사례에서는 추가하지 않음 · 일반적으로 불필요하다는 결론이나 기능 제한 주장이 아님','OBSERVED_PRODUCT / TEACHING_MODEL');
-   const items=[['조사','같은 성능 경로와\n명세를 확인'],['변경','조사 결과에 따라\n변경 후보를 선택'],['검증','변경 결과를\n같은 조건에서 확인']];
-   items.forEach(([title,body],i)=>{
-    const x=64+i*400;panel(s,x,238,352,181,title,body,i===0?C.pale:C.white);
-    if(i<2)arrow(s,x+365,311,23,18);
+   const s=make(p,'S60','밝기 통계 작업을 나누지 않은 이유','ACT 3 · 실제 밝기 통계 작업의 역할 판단',
+    'DEC-0018 · 실제 작업의 판단을 재구성 · Subagent 실행 없음',
+    '이 작업의 판단 · 역할 분리의 시간·품질 이득은 비교 실험하지 않음','OBSERVED_PRODUCT / TEACHING_MODEL');
+   text(s,'같은 밝기 통계 함수 · 같은 출력 명세',64,184,1152,40,29,C.teal,true);
+   const stages=[
+    [64,'조사','기존 계산·명세\n변경 후보 확인'],
+    [492,'변경','선택한 후보로\n계산 코드 변경'],
+    [920,'검증','출력·테스트 확인\n시간·할당량 측정']
+   ];
+   stages.forEach(([x,label,body])=>{
+    text(s,label,x,265,296,40,31,C.teal,true);
+    line(s,x,314,296,C.line,2);
+    text(s,body,x,337,296,81,29,C.ink,true);
    });
-   text(s,'작업 독립성 낮음 · 별도 Context 이득 제한 · 결과 통합 비용 존재',64,462,1152,39,28,C.sub);
-   text(s,'현재 사례: Agent를 더 나누지 않았다',64,524,1152,47,34,C.teal,true);
-   text(s,'판단 기준: 독립성 · 필요한 Context · 전달 형식 · 통합 책임',64,576,1152,27,23,C.sub);
+   [[376,'조사 결과'],[804,'바뀐 코드']].forEach(([x,label])=>{
+    text(s,label,x,322,104,30,23,C.sub,false,FONT,'center');
+    s.shapes.add({geometry:'connector',kind:'straight',position:{left:x,top:380,width:104,height:0},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+   });
+   text(s,'이번 작업은 한 Agent가 끝까지 수행',64,493,1152,47,34,C.teal,true);
+   text(s,'나누면 같은 코드·명세 전달과 결과 통합이 필요',64,549,1152,36,27,C.sub);
    return s;
   },
   S61(p){

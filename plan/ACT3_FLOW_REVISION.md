@@ -1,6 +1,17 @@
 # ACT3 Flow Revision — DEC-0062
 
-## Current S59 refinement — DEC-0071
+## Current S60 refinement — DEC-0072
+
+Return from S59's hypothetical independent investigations to the actual
+brightness-statistics task. Label investigation results as input to code
+change and changed code as input to verification. Keep the shared function
+and output specification visible. Recover the existing single-Agent choice
+with its transfer/integration cost, without claiming dependency alone forbids
+delegation or that comparative benefit has been measured. Keep Lecture1,
+VISUAL2 and Q&A1; S59 and S61 screens/Notes remain unchanged.
+Review: [Task dependency and current choice](../production/evaluation/S60_TASK_DEPENDENCY_REVISION.md).
+
+## Previous S59 refinement — DEC-0071
 
 Compare the same three hypothetical C++ investigations in two structures.
 The single Agent owns all investigations and synthesis; the main Agent in
@@ -96,7 +107,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S57 | Re-establish the brightness task and full-list implementation before the qualitative candidate choice; DEC-0070. |Case5|
 | S58 | Recall the chosen change and show formal runtime, allocation and behavior results separately; DEC-0070. |Case5|
 | S59 | Compare the same investigations under one Agent and delegated roles; show main-Agent assignment and integration; DEC-0071. |Demo3+Q&A1|
-| S60 | Apply those criteria to the actual connected Task; preserve no-Subagent decision. |Lecture1+Demo2+Q&A1|
+| S60 | Label the actual investigation-result and changed-code dependencies; recover the narrow-scope no-Subagent choice; DEC-0072. |Lecture1+Demo2+Q&A1|
 | S61 | First explain hypothetical knowledge reuse between tasks and lifecycle obligations. |Demo2+Case2|
 | S62 | Preserve four criteria, original-source audit and no-extra-Memory decision. |Lecture4|
 | S63 | Recover which actual assets served the four responsibilities. |Demo3|

@@ -535,3 +535,21 @@ coordination, duplicated work, context transfer and integration still cost effor
 No speed, quality, token-saving or current-product capability claim is added.
 S58's observed product result and S60's DEC-0018 decision remain separate.
 No new Trial, Subagent run or Demo repository change is introduced.
+
+
+## DEC-0072 — S60 actual task dependencies and the retained choice
+
+Keep OBSERVED_PRODUCT / TEACHING_MODEL and DEC-0018's bounded repository
+audit. The later STATE-04/STATE-04-PERF record also retains no Subagent for
+the small, connected brightness task. Do not move the earlier Decision to
+the later measurement date. The diagram summarizes the dependency between
+investigation results, a code change and checks on that changed code.
+It is not a raw execution trace or an observed Subagent comparison.
+
+Dependent stages can still be delegated in other designs. Here the small,
+overlapping code/specification scope and limited distinct-Context value
+did not establish enough benefit to justify transfer/integration cost.
+Those costs are a design assessment, not new measured overhead. No timing,
+quality, token-saving or general Subagent-availability claim is introduced.
+S59 remains the existing C++ hypothesis, and S61 opens the knowledge-retention
+hypothesis. No Trial, product execution or Demo repository change is added.

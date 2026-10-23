@@ -1,6 +1,8 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
-> **최신 S59 수정: DEC-0071.** 같은 세 조사를 한 Agent가 맡는 경우와 Subagent별로 나누는 경우를 비교하고, 주 Agent의 분담·근거 확인·통합 책임을 연결한다. 기존 C++ 가정이며 실제 실행·이득을 주장하지 않는다. [수정 검토](../production/evaluation/S59_ROLE_SPLIT_REVISION.md).
+> **최신 S60 수정: DEC-0072.** 실제 밝기 통계 작업에서 조사 결과를 코드 변경으로, 바뀐 코드를 검증으로 전달하는 의존관계를 시각화한다. 같은 코드·명세와 전달·통합 비용을 바탕으로 한 Agent를 유지한 기존 판단과 근거 범위를 보존한다. [수정 검토](../production/evaluation/S60_TASK_DEPENDENCY_REVISION.md).
+
+> **이전 S59 수정: DEC-0071.** 같은 세 조사를 한 Agent가 맡는 경우와 Subagent별로 나누는 경우를 비교하고, 주 Agent의 분담·근거 확인·통합 책임을 연결한다. 기존 C++ 가정이며 실제 실행·이득을 주장하지 않는다. [수정 검토](../production/evaluation/S59_ROLE_SPLIT_REVISION.md).
 
 > **이전 S57–S58 수정: DEC-0070.** 밝기 통계 작업·기존 임시 리스트·후보 선택을 연결하고, 제품 반영 후 시간·할당량·동작 검증을 세 영역으로 정리한다. S50–S56 흐름을 재검토하고 보존했다. [수정 검토](../production/evaluation/S57_S58_TASK_RESULT_REVISION.md).
 
@@ -1596,29 +1598,29 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0071
 
 
-#### S60 — 이번 작업은 나눌 근거가 충분했을까?
+#### S60 — 밝기 통계 작업을 나누지 않은 이유
 
 - **Slide ID:** S60
 - **ACT:** ACT 3
 - **Section:** 3E Conditional Subagent Decision
-- **Working Title:** 이번 작업은 나눌 근거가 충분했을까?
+- **Working Title:** 밝기 통계 작업을 나누지 않은 이유
 - **Primary Role:** 앞 장의 역할 분리 기준을 현재 사례에 적용해 선택 이유를 회수한다.
-- **Audience Question:** “밝기 통계 작업의 조사·변경·검증을 실제로 독립시킬 수 있었을까?”
+- **Audience Question:** “S59의 독립 조사 기준을 이 밝기 통계 작업에도 적용할 수 있었을까요?”
 - **Core Message:** 현재 작업은 같은 성능 경로·명세를 공유하고 조사→변경→검증의 의존성이 높았다. 별도 Context 이득과 결과 통합 비용을 검토한 결과 Subagent를 추가하지 않았다.
 - **Story Beat:** BEAT-023–025 — 조건부 Subagent 판단
 - **Curriculum Trace:** ACT 3 — conditional role/context separation.; ACT 3 — role/context complexity and Subagents.; ACT 3 — conditional Subagent decision.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE / TEACHING MODEL — DEC-0018 현재 Task 감사의 판단이며 실제 Subagent Trial이 아니다. 일반적 불필요성이나 기능 부재를 주장하지 않는다.
-- **Visual Concept:** 조사→변경→검증의 의존 관계와 독립성/Context/통합 비용, 현재 추가하지 않았다는 판단을 분리한다.
+- **Visual Concept:** 같은 밝기 통계 함수와 출력 명세를 상단에 두고 조사·변경·검증을 연결한다. 조사 결과가 코드 변경으로, 바뀐 코드가 출력/테스트/시간/할당량 확인으로 전달됨을 라벨 있는 native 화살표로 보여준다. 한 Agent 유지 판단과 자료 전달·통합 비용을 아래 두 줄로 표시하며 실제 Subagent 실행이나 비교 이득은 주장하지 않는다.
 - **Demo / Case Connection:** DEMO-07: DEC-0018 현재 작업 판단을 회수. Lecture1분, Demo2분 VISUAL, Q&A1분.
 - **Beginner Payoff:** 현재 Task의 앞뒤 의존성에 따라 역할 분리 여부를 판단한다.
 - **Advanced Payoff:** NOT JUSTIFIED YET는 현재 감사의 선택이며 일반적 기능 가치와 다르다.
 - **C++ Vision Bridge:** S59의 가정을 현재 Python Task와 구분해 회수한다.
-- **Speaker Intent:** 앞 장의 역할 분리 기준을 현재 사례에 적용해 선택 이유를 회수한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Speaker Intent:** S59의 독립 조사 가정에서 S57/S58의 실제 밝기 통계 작업으로 돌아온다. 앞 결과를 받아야 다음 단계를 진행하는 관계와 같은 좁은 코드·명세 범위를 읽는다. 의존관계만으로 역할 분리가 불가능하다는 뜻은 피하고, 기존 DEC-0018의 현재 보류 판단을 회수한 뒤 지식 보존 필요성으로 연결한다.
 - **Transition:** “역할 분리의 필요성을 판단했습니다. 다음 작업에 별도로 남길 지식도 있었을까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Demo 2분 (VISUAL) + Q&A 1분 = 4분
-- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062
+- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0072
 
 
 #### S61 — 다음 작업에서도 다시 찾을 지식인가?

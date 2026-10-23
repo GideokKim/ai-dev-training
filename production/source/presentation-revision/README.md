@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0071 / S59 investigation ownership comparison.
+Latest refinement: DEC-0072 / S60 actual task dependencies and retained choice.
+Label investigation results as input to code change and changed code as input
+to verification. Preserve the bounded task judgment, Lecture1+VISUAL2+Q&A1
+and93/379; align only S60 Notes. Keep S59's independent case hypothetical.
+Review: `production/evaluation/S60_TASK_DEPENDENCY_REVISION.md`.
+
+Previous refinement: DEC-0071 / S59 investigation ownership comparison.
 Compare the same investigations under a single Agent and delegated roles.
 Keep assignment and evidence integration with the same main Agent. Preserve
 the conceptual C++ scope, Demo3+Q&A1 and93/379; align only S59 Notes.

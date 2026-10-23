@@ -8185,3 +8185,82 @@ Render and inspect S59 with S58/S60. Validate embedded Notes, the 93-slide/
 379-minute structure, S59 Demo3+Q&A1 and unchanged evidence boundaries.
 Keep Windows, target account/surface, room and timed rehearsal UNVERIFIED.
 Use the existing authorized Git checkpoint without force push or new bundles.
+
+
+# DEC-0072 — show task dependencies behind the single-Agent choice
+
+## Status
+
+ACCEPTED — explicit user request to revise S60 and align Notes/rendering.
+
+## Date
+
+2026-10-23
+
+## Context
+
+S59 compares hypothetical independent C++ investigations and main-Agent
+integration. S60 applies those criteria to the actual brightness-statistics
+task before S61 opens the knowledge-retention question.
+
+## Problem
+
+The existing three panels describe generic investigation, change and checking.
+Their short arrows do not identify what one stage needs from the previous
+stage. Extra abstract criteria repeat S59 and obscure the actual choice.
+
+## Decision
+
+Use a flat editable dependency diagram. Keep the shared function and output
+specification visible. Connect investigation results to the selected code
+change, then changed code to output/test/timing/allocation checks. Show the
+retained single-Agent choice and transfer/integration cost in two short lines.
+Align only S60 Notes and relevant planning, runbook and delivery references.
+
+## Rationale
+
+Concrete handoffs explain why this task did not provide the independent
+investigations assumed on S59. The existing narrow and overlapping scope,
+limited distinct-Context value and integration burden support the recorded
+choice. Dependency alone is not proof that delegation is impossible.
+
+## Alternatives
+
+Keep generic phase panels; this leaves their dependencies implicit.
+Repeat S59's role comparison; this duplicates its teaching purpose.
+Run a new Subagent comparison; this would require new evidence and scope.
+
+## Trade-offs
+
+Move detailed candidate names, exact measurements and conditional reasoning
+into Notes or their existing evidence slides. Keep the visible dependency,
+choice and its cost readable without adding another feature explanation.
+
+## Related Invariants
+
+INV-MATURITY-007, INV-DEMO-004, INV-RESEARCH-001, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S60 source, ACT3/Full PPTX and previews, S60 Notes, Slide Map, Template Map,
+ACT3 flow reference, Claim Freeze, module rationale, DEMO-07 static runbook,
+fallback hashes and current delivery references. Preserve all other slides.
+
+## Evidence
+
+User instruction; DEC-0018 STATE-04 task/repository audit; DEMO_MATRIX
+STEP07 171-190 and later191-200 formal product-change record; BEAT-023-025;
+DEC-0062 and DEC-0071. No Subagent run or comparative benefit measurement.
+
+## Training Relevance
+
+Apply role-separation criteria to actual task inputs and dependencies, and
+retain one Agent when additional roles have insufficient demonstrated value.
+Reassess if independent investigation scope and information needs grow.
+
+## Follow-up
+
+Render and inspect S60 with S59/S61. Validate the93-slide/379-minute structure,
+S60 Lecture1+Demo2+Q&A1, Notes parity and unchanged evidence boundaries.
+Keep Windows, target account/surface, room and timed rehearsal UNVERIFIED.
+Use the authorized normal Git checkpoint without regenerating bundles.
