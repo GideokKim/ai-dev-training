@@ -1,6 +1,8 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
-> **최신 S60 수정: DEC-0072.** 실제 밝기 통계 작업에서 조사 결과를 코드 변경으로, 바뀐 코드를 검증으로 전달하는 의존관계를 시각화한다. 같은 코드·명세와 전달·통합 비용을 바탕으로 한 Agent를 유지한 기존 판단과 근거 범위를 보존한다. [수정 검토](../production/evaluation/S60_TASK_DEPENDENCY_REVISION.md).
+> **최신 S61 수정: DEC-0073.** 이번 Context에서 다음에도 쓸 검증된 재현 조건을 골라 출처·범위·재확인 조건과 함께 유지할지 판단하는 도식으로 정리한다. 보존 목적과 다음 사용 전 현재 명세 대조를 연결하며 기존 CONCEPTUAL 경계를 유지한다. [수정 검토](../production/evaluation/S61_CONTEXT_RETENTION_REVISION.md).
+
+> **이전 S60 수정: DEC-0072.** 실제 밝기 통계 작업에서 조사 결과를 코드 변경으로, 바뀐 코드를 검증으로 전달하는 의존관계를 시각화한다. 같은 코드·명세와 전달·통합 비용을 바탕으로 한 Agent를 유지한 기존 판단과 근거 범위를 보존한다. [수정 검토](../production/evaluation/S60_TASK_DEPENDENCY_REVISION.md).
 
 > **이전 S59 수정: DEC-0071.** 같은 세 조사를 한 Agent가 맡는 경우와 Subagent별로 나누는 경우를 비교하고, 주 Agent의 분담·근거 확인·통합 책임을 연결한다. 기존 C++ 가정이며 실제 실행·이득을 주장하지 않는다. [수정 검토](../production/evaluation/S59_ROLE_SPLIT_REVISION.md).
 
@@ -1623,29 +1625,29 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0072
 
 
-#### S61 — 다음 작업에서도 다시 찾을 지식인가?
+#### S61 — 이번 Context와 다시 쓸 지식
 
 - **Slide ID:** S61
 - **ACT:** ACT 3
 - **Section:** 3F Conditional Memory Decision
-- **Working Title:** 다음 작업에서도 다시 찾을 지식인가?
+- **Working Title:** 이번 Context와 다시 쓸 지식
 - **Primary Role:** Memory의 필요성과 관리 부담을 교육용 가정으로 먼저 이해하게 한다.
-- **Audience Question:** “조사로 얻은 지식이 다음 작업에도 필요하다면 무엇을 남겨야 할까?”
+- **Audience Question:** “이번 작업에서 확인한 내용 중, 다음 작업에도 다시 찾게 될 것은 무엇일까요?”
 - **Core Message:** 현재 Task에 필요한 Context와 다음 Task에도 보존할 가치가 있는 지식을 구분한다. 출처·적용 범위·갱신 조건을 관리하고 기존 문서에 있으면 그 출처를 참조한다.
 - **Story Beat:** BEAT-026–028 — Memory 후보 검토
 - **Curriculum Trace:** ACT 3 — conditional Subagent decision.; ACT 3 — Subagent trade-offs and Minimum Effective Harness.; ACT 3 — repeated discovery and Context vs Memory.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
 - **Claim Status:** CONCEPTUAL CASE / TEACHING MODEL — 작업 간 지식 관리 가정이다. 현재 Demo에 Memory를 추가했거나 제품이 자동 기억·회수한다는 주장이 아니다.
-- **Visual Concept:** CONCEPTUAL Task A 조사 → 출처·범위·갱신 조건과 함께 보존 가치 판단 → Task B의 현재 기준 대조. 자동 저장/정확성 보장 없이 표현한다.
+- **Visual Concept:** 명시적 CONCEPTUAL 가정. 왼쪽 이번 Context 안에 목표/현재 명세·입력/로그·확인한 재현 조건을 두고 마지막 항목만 강조해 오른쪽 재사용할 지식 후보로 연결한다. 재현 입력/명령·출처·적용 범위·재확인 조건을 함께 표시하고 다음 작업의 현재 명세와 대조하는 화살표를 잇는다. 반복 조사 부담을 줄이려는 목적과 기존 문서 출처 참조를 명시한다.
 - **Demo / Case Connection:** DEMO-08: 작업 간 지식 재사용의 명시적 교육용 가정. Demo2분 VISUAL, Case2분. 실제 Memory 사용 없음.
 - **Beginner Payoff:** 지금 필요한 정보와 다음 작업에도 남길지 판단할 지식을 구분한다.
 - **Advanced Payoff:** 출처·범위·신선도·갱신/무효화와 유지 비용을 관리한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** Memory의 필요성과 관리 부담을 교육용 가정으로 먼저 이해하게 한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Speaker Intent:** S60의 실제 작업 종료에서 무엇을 남길지로 질문을 옮기고 교육용 가정임을 밝힌다. 지금 참고할 Context, 남길 가치가 있는 검증 지식, 다음 작업에서의 재확인을 한 항목의 이동으로 설명한다. 모두 저장하거나 제품이 자동 기억한다는 인상을 피하며 S62의 실제 출처 감사로 연결한다.
 - **Transition:** “이제 원래 출처와 보존 기준을 놓고, 현재 Demo에 별도 후보가 있었는지 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 2분 (VISUAL) + Case 2분 = 4분
-- **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062
+- **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0073
 
 
 #### S62 — 남길지, 원래 출처를 참조할지 판단한다

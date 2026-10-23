@@ -2,7 +2,10 @@
 
 갱신일:2026-10-23 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 수정은 DEC-0072의 S60이다. 같은 밝기 통계 함수·명세를 공유하는 작업에서
+최신 수정은 DEC-0073의 S61이다. 이번 Context와 보존할 가치가 있는 지식을
+재현 조건 한 항목의 이동으로 구분했다. 출처·범위·재확인 조건, 반복 조사 부담을
+줄이려는 목적과 다음 작업의 명세 대조를 연결한다. 기존 교육용 가정을 유지한다.
+이전 수정은 DEC-0072의 S60이다. 같은 밝기 통계 함수·명세를 공유하는 작업에서
 조사 결과→코드 변경→바뀐 코드 검증의 의존관계를 표시했다. 기존 한 Agent 유지
 판단을 회수하고 S59의 가정과 S61의 지식 보존 질문을 연결한다.
 이전 수정은 DEC-0071의 S59다. 같은 세 조사를 한 Agent가 맡는 경우와
@@ -35,13 +38,14 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `903f4f3aa291651f317f7d4ec0ab4db810931cb7ae2863bb67d64f92aa76bd94` |
+| PPT SHA-256 | `fcac43dddef0c8610968acf14b3cd178f3211ba04470a719f72f0229fa362eff` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `78ffa9adabd2b5a5b5931f4b67bad7e0a012f566a919ed380a728b677a552b4d` |
+| Notes SHA-256 | `8c820e076f509fbe9394d17622d414d4b09cf2233cde5f2301567de5697f2898` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `d5b314a41312babfa1001a70876e52a3ebaab1cd233cd2d26f34f32eacc98019` |
+| Montage SHA-256 | `d8b339462886bb8b8ddf3a820e89502255e7c2641b9849d724d359849f598d18` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [S60 실제 작업의 의존관계와 선택](S60_TASK_DEPENDENCY_REVISION.md) |
+| 최신 검토 | [S61 이번 Context와 다음 작업의 지식](S61_CONTEXT_RETENTION_REVISION.md) |
+| 이전 S60 검토 | [실제 작업의 의존관계와 선택](S60_TASK_DEPENDENCY_REVISION.md) |
 | 이전 S59 검토 | [단일 조사와 역할 분리 비교](S59_ROLE_SPLIT_REVISION.md) |
 | 이전 S57–S58 검토 | [작업·선택·검증 연결](S57_S58_TASK_RESULT_REVISION.md) |
 | 이전 S57 검토 | [후보 선택](S57_CANDIDATE_SELECTION_REVISION.md) |
@@ -121,6 +125,11 @@ DEC-0072에서는 Full93장·ACT3 18장을 다시 렌더링하고 S59–S61을 �
 S60만 화면·19필드 Notes가 바뀌었으며 다른92장 PNG·Notes와 모든 장별 시간·Mode를
 보존했다. 정적 대안32개 중 S60의 식별자만 갱신했다. 의존 단계에도 다른 설계가
 가능하다는 경계를 지키며 새로운 Subagent 실행이나 비교 성과를 주장하지 않는다.
+
+DEC-0073에서는 Full93장·ACT3 18장을 다시 렌더링하고 S60–S62를 개별 검토했다.
+S61만 화면·19필드 Notes가 바뀌었으며 다른92장 PNG·Notes와 장별 시간·Mode를
+보존했다. 정적 대안32개 중 S61의 식별자만 갱신했다. 실제 Demo의 Memory 후보나
+재발견 사례를 만들지 않았고 제품 자동 저장·회수·측정 효과를 주장하지 않는다.
 
 ## 사용자가 확인할 남은 조건
 

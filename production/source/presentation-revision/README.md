@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0072 / S60 actual task dependencies and retained choice.
+Latest refinement: DEC-0073 / S61 current Context and retention candidate.
+Select one verified reproduction condition from current Context; retain its
+source/scope/recheck conditions and compare it with next-task specifications.
+Preserve the explicit hypothesis, VISUAL2+Case2 and93/379; align only S61 Notes.
+Review: `production/evaluation/S61_CONTEXT_RETENTION_REVISION.md`.
+
+Previous refinement: DEC-0072 / S60 actual task dependencies and retained choice.
 Label investigation results as input to code change and changed code as input
 to verification. Preserve the bounded task judgment, Lecture1+VISUAL2+Q&A1
 and93/379; align only S60 Notes. Keep S59's independent case hypothetical.

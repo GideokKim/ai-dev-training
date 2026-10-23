@@ -2777,11 +2777,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S60, production/pre
 
 Validation Status: ALIGNED — DEC-0072의19필드·Lecture1+Demo2+Q&A1분·실제 작업 의존관계를 정렬했다. 최종 패키지·렌더·내장 Notes 대조는 production/evaluation/S60_TASK_DEPENDENCY_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S61 — 다음 작업에서도 다시 찾을 지식인가?
+## S61 — 이번 Context와 다시 쓸 지식
 
 Slide ID: S61
 
-Working Title: 다음 작업에서도 다시 찾을 지식인가?
+Working Title: 이번 Context와 다시 쓸 지식
 
 ACT / Section: ACT 3 / 3F
 
@@ -2791,35 +2791,37 @@ Mode Split: Demo 2 minutes (VISUAL) + Case 2 minutes
 
 Primary Message: 현재 Task에 필요한 Context와 다음 Task에도 보존할 가치가 있는 지식을 구분한다. 출처·적용 범위·갱신 조건을 관리하고 기존 문서에 있으면 그 출처를 참조한다.
 
-Opening Question: “조사로 얻은 지식이 다음 작업에도 필요하다면 무엇을 남겨야 할까?”
+Opening Question: “이번 작업에서 확인한 내용 중, 다음 작업에도 다시 찾게 될 것은 무엇일까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00 / Demo) 조사에서 재현 조건·주의점을 발견했고 다음 Task에도 필요하다는 교육용 가정임을 밝힌다. 실제 재발견·Memory 사용 기록이 아니다.
-2. (1:00–2:00 / Demo) Task A→보존 가치 판단→Task B의 관계를 따라가며 내용·출처·적용 범위·다시 확인할 조건을 표시한다.
-3. (2:00–4:00 / Case) Context는 지금 필요한 정보, Memory는 다음 작업에도 남길지 판단하는 지식이라는 구분을 설명한다. 원래 문서에 있으면 출처를 참조하며 다음 작업에서도 현재 명세와 대조한다. 제품 자동 저장·회수·효과를 주장하지 않는다.
+1. (0:00–0:30 / Demo) S60에서는 실제 밝기 통계 작업을 한 Agent로 마친 선택을 봤다. 이제 작업이 끝난 뒤 무엇을 남길지로 질문을 바꾼다. 여기부터는 ‘다음 작업에도 필요한 재현 조건을 확인했다면’이라는 교육용 가정이다. 현재 Demo에서 새 후보를 발견한 기록이 아니다.
+2. (0:30–1:15 / Demo) 왼쪽 이번 작업 Context는 Agent가 지금 참고할 목표·현재 명세·입력·로그와 조사로 확인한 내용을 포함한다. 강조한 ‘확인한 재현 조건’에서 오른쪽으로 이어지는 선을 짚는다. 이번 Context 전체를 저장하는 것이 아니라, 다음에도 쓸 근거 있는 지식을 골라 남길지 판단한다.
+3. (1:15–2:00 / Demo) 오른쪽은 검증된 재현 조건을 남기는 가정이다. 재현에 필요한 최소 입력·실행 명령, 확인한 출처, 적용 범위와 다시 확인할 조건이 함께 있어야 한다. 아래 화살표는 다음 작업에서 현재 명세와 대조한 뒤 필요한 지식을 Context로 가져오는 관계다. 제품의 자동 저장·회수 동작을 보여주는 화면은 아니다.
+4. (2:00–3:00 / Case) 같은 조건을 다시 조사하는 부담이 크고 다음 작업에도 쓸 가치가 있다면 보존을 검토한다. 무엇을 남겼다는 사실만으로 정확성이나 최신성이 보장되지 않는다. 입력 형식·코드 버전·실행 환경 등 적용 조건이 달라지면 관련 내용을 재확인하거나 수정·폐기해야 한다. 이 사례의 구체 조건·효과를 실제로 측정한 것은 아니다.
+5. (3:00–4:00 / Case) 그 조건이 이미 명세·문서에 있다면 원래 출처를 참조한다. 현재 로그와 일회성 측정은 필요할 때 날짜가 있는 근거 기록으로 남기며, 모두 별도 Memory에 복제하지 않는다. 같은 프로젝트의 다음 작업에도 재사용할 수 있고 프로젝트 간 공유가 필수는 아니다. 다음 S62에서는 실제 Demo 지식이 이미 어디에 있었는지와 별도 후보 유무를 확인한다.
 
-Evidence / Source: CONCEPTUAL / TEACHING_MODEL — MASTER_PLAN.md §§5.6 및 INV-MATURITY-008의 작업 간 지식 관리 문제를 설명하는 가정; BEAT-026–028. 기존 S61 지식 감사의 실제 결론은 S62로 옮겨 유지한다. 제품 Memory 관찰은 없다.
+Evidence / Source: CONCEPTUAL / TEACHING_MODEL — plan/MASTER_PLAN.md §5.6, plan/INVARIANTS.md INV-MATURITY-008, BEAT-026–028, DEC-0062/0073. plan/DEMO_MATRIX.md STEP07 §§181–190의 Context/유지 지식/문서/Trial 기록 구분과 no-qualifying-candidate 경계를 따른다. 재현 조건과 다음 작업은 교육용 가정이며 실제 재발견·Memory 저장/회수 기록이 아니다. 실제 현재 출처 감사와 별도 후보 없음의 결론은 S62에 유지한다.
 
-Claim Boundary: CONCEPTUAL CASE / TEACHING MODEL — 작업 간 지식 관리 가정이다. 현재 Demo에 Memory를 추가했거나 제품이 자동 기억·회수한다는 주장이 아니다.
+Claim Boundary: CONCEPTUAL CASE / TEACHING MODEL — 작업 간 지식 관리 가정이다. 현재 Demo에 Memory를 추가했거나 제품이 자동 기억·회수한다는 주장이 아니다. 구체적인 오류·입력·명령·개선 수치를 새로 만들지 않는다. Context와 보존 지식은 질문·수명·관리 목적이 다르며 서로 배타적인 정보 종류가 아니다. 유지한 지식도 다음 작업의 Context가 될 수 있다. 반복 조사 부담 감소는 설계 목적이며 측정 성과가 아니다.
 
-Beginner Explanation: 지금 Task에 넣을 정보와 다음 Task에도 남길지 판단할 지식은 질문이 다르다.
+Beginner Explanation: 이번 Context는 지금 일을 하려고 참고하는 자료다. 그 안에서 확인한 재현 조건처럼 다음에도 쓸 내용을 출처와 함께 남길지 판단한다. 다음 작업에서 쓰기 전에도 현재 명세에 맞는지 확인한다. 지금 보는 모든 정보가 일회성이거나 모두 저장해야 한다는 뜻은 아니다.
 
-Advanced Insight: 보존 가치가 있어도 출처·범위·현재성·무효화 조건을 관리해야 한다. 기존 공식 문서가 있으면 그것을 참조하며 모든 지식을 별도 Memory로 복제하지 않는다.
+Advanced Insight: 재사용 가치와 다시 찾는 비용 외에 신뢰도·출처·적용 범위·신선도·갱신/무효화 책임을 본다. Memory는 이 교육에서 유지할 지식의 역할을 설명하며 특정 제품 기능·파일 형식·지속 범위를 선택하지 않는다. 기존 Source of Truth가 충분하면 그 출처를 참조하고 중복 보존의 유지 부담을 피한다. 사실·의사결정 이유·수행 절차·한 번의 측정은 적절한 원래 저장 위치를 유지한다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 정적 기본 경로 — CONCEPTUAL Task A 조사 → 출처·범위·갱신 조건과 함께 보존 가치 판단 → Task B의 현재 기준 대조. 자동 저장/정확성 보장 없이 표현한다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: LOCAL STATIC VISUAL — 가정 표시 → 왼쪽 이번 Context → 강조한 재현 조건만 오른쪽으로 이동 → 출처·적용 범위·재확인 조건 → 아래 다음 작업의 현재 명세와 대조. 왼쪽 회색 줄도 현재 작업에 필요한 정보다. 색만으로 구분하지 않고 ‘이번 작업’과 ‘다시 쓸 지식’ 라벨, 포함 관계와 화살표를 함께 읽는다. 제품 Memory·Agent·Demo repository를 실행하지 않는다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: Demo2분 뒤 Case2분 안에서 ‘이미 문서에 있는 조건이라면?’을 짧게 묻고 원래 출처 참조로 회수할 수 있다. 별도 Q&A 시간을 추가하거나 공개 답변·실습을 요구하지 않는다.
 
 Transition: “이제 원래 출처와 보존 기준을 놓고, 현재 Demo에 별도 후보가 있었는지 보겠습니다.”
 
-Time Management: Demo2분(VISUAL 가정) → Case2분. 새 Memory·실제 세션 재발견 실험은 만들지 않는다.
+Time Management: Demo2분: S60 연결·가정0.5, 이번 Context와 선별0.75, 지식 묶음·다음 사용0.75. Case2분: 보존 목적·신선도1, 원래 출처·실제 사례로 전환1. 지연 시 입력·명령의 세부 설명과 적용 조건 예시를 줄인다. 무엇을 왜 남길지, 출처·재확인과 가정 경계는 남기고4분에 S62로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S61, production/preview/act3/S61.png 및 production/preview/full/S61.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S61, production/preview/act3/S61.png 및 production/preview/full/S61.png. 표시된 작업 간 지식 재사용 가정의 도식이며 실제 실행 캡처가 아니다. 현재 파일 대조는 production/evaluation/S61_CONTEXT_RETENTION_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0073의19필드·Demo2+Case2분·Context에서 보존 후보와 다음 사용으로 이어지는 순서를 정렬했다. 최종 패키지·렌더·내장 Notes 대조는 production/evaluation/S61_CONTEXT_RETENTION_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S62 — 남길지, 원래 출처를 참조할지 판단한다
 

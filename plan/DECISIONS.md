@@ -8264,3 +8264,82 @@ Render and inspect S60 with S59/S61. Validate the93-slide/379-minute structure,
 S60 Lecture1+Demo2+Q&A1, Notes parity and unchanged evidence boundaries.
 Keep Windows, target account/surface, room and timed rehearsal UNVERIFIED.
 Use the authorized normal Git checkpoint without regenerating bundles.
+
+
+# DEC-0073 — distinguish current Context from knowledge worth retaining
+
+## Status
+
+ACCEPTED — explicit user request to revise S61 and align Notes/rendering.
+
+## Date
+
+2026-10-23
+
+## Context
+
+S60 recovers the actual single-Agent choice. S61 introduces the existing
+hypothetical knowledge-retention problem before S62 audits actual sources
+and preserves the no-extra-Memory-candidate decision.
+
+## Problem
+
+The existing Task A, retention and Task B panels leave the information
+selection abstract. A first-time audience needs to see what current Context
+contains, which verified knowledge may persist, and why it is worth keeping.
+
+## Decision
+
+Show current Context with goals/specifications, inputs/logs and a highlighted
+confirmed reproduction condition. Carry that condition into a hypothetical
+reusable-knowledge candidate with input/command, source, scope and recheck
+conditions. Connect it to comparison with current specifications next time.
+State the purpose of avoiding repeated investigation and retain the original-
+source reference rule. Align only S61 Notes and relevant artifact references.
+
+## Rationale
+
+Following one selected fact makes the lifecycle visible without an abstract
+feature explanation. Context and retained knowledge serve different questions;
+the same fact can later be selected into another task's Context.
+
+## Alternatives
+
+Keep three generic task panels; information selection remains implicit.
+Use actual benchmark values as Memory; their scope and original evidence
+home make them unsuitable as a new durable fact in this case.
+Add a Memory tool demonstration; no need or observed instance is established.
+
+## Trade-offs
+
+Use two information containers and one selected fact with minimal screen text.
+Put detailed freshness examples, maintenance responsibility and source-home
+distinctions in Notes. Preserve the explicit hypothesis and actual-case handoff.
+
+## Related Invariants
+
+INV-MATURITY-008, INV-DEMO-004, INV-RESEARCH-001, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S61 source, ACT3/Full PPTX and previews, S61 Notes, Slide Map, Template Map,
+ACT3 flow reference, Claim Freeze, module rationale, DEMO-08 static runbook,
+fallback hashes and current delivery references. Preserve all other slides.
+
+## Evidence
+
+User instruction; MASTER_PLAN5.6; INV-MATURITY-008; BEAT-026-028; DEC-0062;
+DEMO_MATRIX STEP07 181-190 knowledge/source audit. No observed reuse,
+rediscovery failure or product Memory instance is added.
+
+## Training Relevance
+
+Distinguish what an Agent needs now from what the project should maintain
+for later tasks. Preserve original sources and revalidate retained knowledge.
+
+## Follow-up
+
+Render and inspect S61 with S60/S62. Validate93slides/379minutes, S61
+VISUAL2+Case2, embedded Notes and unchanged conceptual/evidence boundaries.
+Keep Windows, target account/surface, room and timed rehearsal UNVERIFIED.
+Follow the authorized normal Git checkpoint without regenerating bundles.

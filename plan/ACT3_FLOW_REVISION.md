@@ -1,6 +1,17 @@
 # ACT3 Flow Revision — DEC-0062
 
-## Current S60 refinement — DEC-0072
+## Current S61 refinement — DEC-0073
+
+Move from S60's completed actual task to the question of what to retain.
+Use the existing explicit hypothetical reproduction-condition case. Show
+current Context containing several kinds of information, select verified
+reusable knowledge with provenance/scope/recheck conditions, then compare it
+with current specifications before use in the next task. Make the intended
+rediscovery-cost rationale visible without claiming measured savings or a
+Memory instance. Keep VISUAL2+Case2; S60 and S62 screens/Notes are unchanged.
+Review: [Context and retention](../production/evaluation/S61_CONTEXT_RETENTION_REVISION.md).
+
+## Previous S60 refinement — DEC-0072
 
 Return from S59's hypothetical independent investigations to the actual
 brightness-statistics task. Label investigation results as input to code
@@ -108,7 +119,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S58 | Recall the chosen change and show formal runtime, allocation and behavior results separately; DEC-0070. |Case5|
 | S59 | Compare the same investigations under one Agent and delegated roles; show main-Agent assignment and integration; DEC-0071. |Demo3+Q&A1|
 | S60 | Label the actual investigation-result and changed-code dependencies; recover the narrow-scope no-Subagent choice; DEC-0072. |Lecture1+Demo2+Q&A1|
-| S61 | First explain hypothetical knowledge reuse between tasks and lifecycle obligations. |Demo2+Case2|
+| S61 | Select a verified reusable fact from current Context and retain its source/scope/recheck conditions for next-task use; explicit hypothesis, DEC-0073. |Demo2+Case2|
 | S62 | Preserve four criteria, original-source audit and no-extra-Memory decision. |Lecture4|
 | S63 | Recover which actual assets served the four responsibilities. |Demo3|
 | S64 | Connect the system as a course model, separate from the observed asset row. |Lecture4+Demo2|

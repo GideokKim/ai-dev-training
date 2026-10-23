@@ -553,3 +553,24 @@ Those costs are a design assessment, not new measured overhead. No timing,
 quality, token-saving or general Subagent-availability claim is introduced.
 S59 remains the existing C++ hypothesis, and S61 opens the knowledge-retention
 hypothesis. No Trial, product execution or Demo repository change is added.
+
+
+## DEC-0073 — S61 current Context and retained-knowledge candidate
+
+Keep CONCEPTUAL / TEACHING_MODEL. The reproduction condition and later task
+remain the existing teaching hypothesis, not a newly discovered graypipe
+fact, a rediscovery incident, or an observed Memory instance. Do not invent
+specific errors, inputs, commands, saved time or token benefits.
+
+Current Context and retained knowledge express different selection and
+maintenance questions, not mutually exclusive kinds of data. A sourced,
+verified retained fact can later become part of current task Context. Keep
+provenance, applicable scope, freshness and recheck/invalidation conditions.
+Reference the original documentation when it already contains the fact.
+Dated logs, measurements and procedures retain their appropriate source homes.
+
+Avoiding repeated investigation is the design purpose, not a measured gain.
+No automatic product storage/retrieval or universal correctness is established.
+Same-project next-task reuse is allowed; cross-project reuse is not required.
+S62 retains the actual audit and its no-extra-Memory-candidate conclusion.
+No Trial, product execution or Demo repository change is introduced.

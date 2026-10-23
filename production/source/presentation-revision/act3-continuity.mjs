@@ -351,17 +351,25 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S61(p){
-   const s=make(p,'S61','다음 작업에서도 다시 찾을 지식인가?','ACT 3 · Memory가 해결할 문제부터 보기',
-    'CONCEPTUAL · 작업 간 지식 재사용 가정 · 실제 재발견 기록·제품 Memory 구현 아님',
-    'Context: 지금 필요한 정보 / Memory: 다음 작업에도 남길지 판단할 지식 · 자동 저장·정확성 보장 없음','CONCEPTUAL / TEACHING_MODEL');
-   text(s,'조사로 얻은 지식이 다음 작업에도 필요하다면?',64,180,1152,42,31,C.teal,true);
-   panel(s,64,259,324,226,'Task A · 조사','재현 조건이나\n주의점을 확인\n(교육용 가정)');
-   arrow(s,402,351,32,22,C.warn);
-   panel(s,464,259,352,226,'보존할 가치 판단','내용 · 출처 · 적용 범위\n다시 확인할 조건',C.pale);
-   arrow(s,830,351,32,22,C.warn);
-   panel(s,892,259,324,226,'Task B · 다시 사용','현재 명세와 대조한 뒤\n관련 지식만 참고');
-   text(s,'원래 문서에 있으면 그 출처를 참조한다',64,533,1152,40,31,C.ink,true);
-   text(s,'다음 장에서, 현재 Demo에 별도 보존 후보가 있었는지 판단한다',64,576,1152,27,23,C.sub);
+   const s=make(p,'S61','이번 Context와 다시 쓸 지식','ACT 3 · Context와 Memory의 역할',
+    'CONCEPTUAL · 재현 조건을 다음 작업에도 쓴다는 가정 · 실제 Memory 사용 아님',
+    '이미 문서에 있으면 그 출처를 참조 · 제품의 자동 저장·회수를 확인한 사례가 아님','CONCEPTUAL / TEACHING_MODEL');
+   text(s,'가정: 다음 작업에도 필요한 재현 조건을 확인했다면?',64,184,1152,40,29,C.teal,true);
+   text(s,'이번 작업 Context',64,264,460,40,31,C.teal,true);
+   text(s,'다시 쓸 지식 · Memory 후보',734,264,482,40,30,C.warn,true);
+   rect(s,64,320,460,170,C.white,C.line,1);
+   text(s,'목표·현재 명세',84,332,420,33,26,C.sub);
+   text(s,'현재 입력·로그',84,374,420,33,26,C.sub);
+   rect(s,80,418,428,56,C.amber);
+   text(s,'확인한 재현 조건',96,427,396,36,28,C.warn,true);
+   text(s,'다시 쓸 내용',548,393,154,29,23,C.sub,false,FONT,'center');
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:548,top:445,width:154,height:0},line:{fill:C.warn,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+   rect(s,734,320,482,170,C.white,C.line,1);
+   text(s,'검증된 재현 조건',754,337,442,40,31,C.warn,true);
+   text(s,'필요한 입력·명령과 출처\n적용 범위·다시 확인할 조건',754,390,442,68,25,C.sub);
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:975,top:490,width:0,height:42},line:{fill:C.warn,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+   text(s,'목적: 같은 조건을 다시 조사하지 않도록',64,546,610,38,27,C.ink,true);
+   text(s,'다음 작업에서 현재 명세와 대조',734,546,482,38,27,C.teal,true);
    return s;
   },
   S62(p){

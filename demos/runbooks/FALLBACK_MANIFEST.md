@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0072 local static-file inventory only (2026-10-23).
+Status: READY — DEC-0073 local static-file inventory only (2026-10-23).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `903f4f3aa291651f317f7d4ec0ab4db810931cb7ae2863bb67d64f92aa76bd94`
-- Full Notes SHA-256: `78ffa9adabd2b5a5b5931f4b67bad7e0a012f566a919ed380a728b677a552b4d`
-- Full montage SHA-256: `d5b314a41312babfa1001a70876e52a3ebaab1cd233cd2d26f34f32eacc98019`
+- Source SHA-256: `fcac43dddef0c8610968acf14b3cd178f3211ba04470a719f72f0229fa362eff`
+- Full Notes SHA-256: `8c820e076f509fbe9394d17622d414d4b09cf2233cde5f2301567de5697f2898`
+- Full montage SHA-256: `d8b339462886bb8b8ddf3a820e89502255e7c2641b9849d724d359849f598d18`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -61,7 +61,12 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 - DEC-0072 labels actual task dependencies and the retained choice on S60.
   Only S60 changes in the32-file fallback inventory; the other31 hashes stay
   unchanged. No Subagent execution or measured benefit is introduced.
-  [Current package review](../../production/evaluation/S60_TASK_DEPENDENCY_REVISION.md).
+  [Prior S60 review](../../production/evaluation/S60_TASK_DEPENDENCY_REVISION.md).
+
+- DEC-0073 distinguishes current Context and a hypothetical retained fact on
+  S61. Only S61 changes in the32-file fallback inventory; the other31 hashes
+  stay unchanged. No Memory instance, rediscovery incident or savings result
+  is introduced. [Current package review](../../production/evaluation/S61_CONTEXT_RETENTION_REVISION.md).
 
 ## Runbook to fallback mapping
 
@@ -101,7 +106,7 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 | S55 | `production/preview/full/S55.png` |1920×1080| `ac42e62cc8fb5c5994a61c40051626395e918c4e20838a3065c810b1a2efbad9` |
 | S59 | `production/preview/full/S59.png` |1920×1080| `13439267d4bd6652e64312509d8b1a4ebf42d442854ecb217b4490bb0b1bdb97` |
 | S60 | `production/preview/full/S60.png` |1920×1080| `7fa8d5c6b3f5a949763477a82c160f5b48b8b10055d66f9a15ee0f5997957956` |
-| S61 | `production/preview/full/S61.png` |1920×1080| `22c476f9e258b88d061ead15304037fc8e39f9ed1d7b6feee406d1eb2e661c3f` |
+| S61 | `production/preview/full/S61.png` |1920×1080| `619ea7c0ed240ab83e376ac9d2cf5e992c5b162dd5c4d22e4dae6c6f37dfa6f1` |
 | S62 | `production/preview/full/S62.png` |1920×1080| `3b145b494c52cdb9db04d2986b33190b6cb3b29c1ead4f166084d019692b02ae` |
 | S63 | `production/preview/full/S63.png` |1920×1080| `59bfe9e4ac3f1ce0eee67bd56258e082ba577744001cf15271c1d7a48c310fac` |
 | S64 | `production/preview/full/S64.png` |1920×1080| `02d751f088026d38c5ab45a44286857f396e83c72466ae0f9386bdaf08be4d06` |

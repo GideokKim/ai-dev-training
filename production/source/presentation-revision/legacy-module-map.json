@@ -612,7 +612,7 @@
       "slideId": "S61",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "작업 간 재사용·출처·범위·갱신 조건의 명시적 교육용 가정이다. 실제 Memory 활용·학습·온보딩 사례는 아니다.",
+      "rationale": "작업 간 재사용·출처·범위·갱신 조건의 명시적 교육용 가정이다. 실제 Memory 활용·학습·온보딩 사례는 아니다. DEC-0073: distinguish current Context from a sourced reusable-knowledge candidate and next-task recheck; preserve module coverage.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
