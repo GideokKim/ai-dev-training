@@ -8107,3 +8107,81 @@ Render Full93 and ACT3 18 slides; inspect changed slides and S50–S59 continuit
 Verify other91 screens/Notes unchanged, native chart data and embedded Notes
 aligned, then follow standing normal Git checkpoints. Windows, room, account
 and timed rehearsal remain UNVERIFIED. Keep Demo repository and bundles intact.
+
+
+# DEC-0071 — compare investigation roles and show integration ownership
+
+## Status
+
+ACCEPTED — explicit user request to revise S59 and align Notes/rendering.
+
+## Date
+
+2026-10-23
+
+## Context
+
+S58 presents the selected brightness change's recorded verification.
+S59 introduces the existing hypothetical C++ role-separation case before
+S60 evaluates whether the actual task needed Subagents.
+
+## Problem
+
+The existing three investigation panels do not clearly compare ownership
+when one Agent handles everything. A first-time audience may miss why
+independent roles are considered and who checks and combines their output.
+
+## Decision
+
+Compare the same performance, build and test investigations side by side.
+Show one Agent owning all three and synthesis on the left. On the right,
+show the main Agent assigning scope/output to three Subagents, then receiving,
+checking and integrating their evidence. Label the information each role uses.
+Keep the independence question prominent and the cost/scope boundary visible.
+Align only S59 Notes and its relevant planning and delivery references.
+
+## Rationale
+
+Using identical tasks isolates the organizational difference. A branching and
+merging diagram makes assignment and final integration understandable without
+a feature tutorial, long prose, or an implied measured performance comparison.
+
+## Alternatives
+
+Keep three role panels; this leaves the single-Agent comparison implicit.
+Add a live Subagent demonstration; this lacks approved evidence and scope.
+Add a benefit chart; no comparative speed or quality measurements exist.
+
+## Trade-offs
+
+The diagram adds a second structure but reuses three short labels across both.
+Put detailed evidence-transfer expectations in Notes. Keep independence,
+main-Agent ownership and conceptual status on screen.
+
+## Related Invariants
+
+INV-MATURITY-007, INV-DEMO-004, INV-RESEARCH-001.
+
+## Affected Artifacts
+
+S59 source, ACT3/Full PPTX and previews, S59 Notes, Slide Map, Template Map,
+ACT3 flow reference, Claim Freeze, module rationale, DEMO-07 static runbook,
+fallback hashes and current delivery references. Preserve all other slides.
+
+## Evidence
+
+User instruction; existing DEMO-07 conceptual C++ investigations; BEAT-023–025;
+DEC-0018 and DEC-0062. No observed Subagent execution or comparative benefit.
+
+## Training Relevance
+
+Consider role/context separation when investigations can proceed independently,
+and retain responsibility for evidence review and synthesis in the main Agent.
+Apply these criteria to the actual task on S60 rather than prescribing adoption.
+
+## Follow-up
+
+Render and inspect S59 with S58/S60. Validate embedded Notes, the 93-slide/
+379-minute structure, S59 Demo3+Q&A1 and unchanged evidence boundaries.
+Keep Windows, target account/surface, room and timed rehearsal UNVERIFIED.
+Use the existing authorized Git checkpoint without force push or new bundles.

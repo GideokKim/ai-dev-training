@@ -288,16 +288,43 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S59(p){
-   const s=make(p,'S59','독립 조사를 나누면 무엇이 달라질까?','ACT 3 · Subagent가 해결할 문제부터 보기',
-    'CONCEPTUAL · C++ Vision 조사 업무를 가정한 역할·Context 분리 · 실제 Subagent 실행 아님',
-    '독립 조사일 때의 설계 예 · 병렬 이득·시간 단축은 미측정 · 조정·중복·전달·통합 비용을 함께 판단','CONCEPTUAL / TEACHING_MODEL');
-   text(s,'한 Agent에 모인 조사 중, 서로 기다리지 않아도 되는 부분은?',64,179,1152,42,29,C.teal,true);
-   panel(s,64,251,352,202,'성능 경로 조사','느린 경로와 측정 근거\n필요한 소스·명세');
-   panel(s,464,251,352,202,'빌드 환경 조사','재현 조건과 빌드 설정\n필요한 환경 문서');
-   panel(s,864,251,352,202,'테스트 구조 조사','확인 범위와 회귀 위험\n필요한 테스트·명세');
-   [226,626,1026].forEach(x=>down(s,x,470,28,22,C.warn));
-   rect(s,64,519,1152,65,C.pale);
-   text(s,'주 Agent가 합친다: 결과 형식 · 전달 지점 · 최종 검토 책임',84,531,1112,40,29,C.ink,true);
+   const s=make(p,'S59','한 Agent 조사와 Subagent 역할 분리','ACT 3 · 교육용 가정: 독립 조사와 결과 통합',
+    'CONCEPTUAL · C++ 검사 프로젝트의 독립 조사 가정 · 실제 Subagent 실행 아님',
+    '역할별로 필요한 정보 분리 · 조정·중복·전달·통합 비용 존재 · 시간·품질 이득 미측정','CONCEPTUAL / TEACHING_MODEL');
+   text(s,'성능·빌드·테스트 조사가 서로 기다리지 않아도 된다면?',64,177,1152,40,30,C.teal,true);
+   text(s,'한 Agent가 모두 조사',64,245,460,39,31,C.ink,true);
+   text(s,'Subagent로 나눠 조사',612,245,604,39,31,C.ink,true);
+   rect(s,558,245,1.5,339,C.line);
+   // One owner contains all investigation roles; no sequential timing is implied.
+   rect(s,64,300,460,184,C.white,C.line,1);
+   text(s,'Agent',84,308,420,34,28,C.teal,true);
+   line(s,84,347,420);
+   const roles=[['성능 조사','소스·측정'],['빌드 조사','환경·설정'],['테스트 조사','테스트·명세']];
+   roles.forEach(([role,context],i)=>{
+    text(s,role,84,354+i*41,195,31,25,C.ink,true);
+    text(s,context,290,354+i*41,214,31,24,C.sub);
+   });
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:294,top:484,width:0,height:48},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+   rect(s,64,532,460,52,C.pale,C.line,1);
+   text(s,'같은 Agent가 결과 확인·종합',80,540,428,36,27,C.teal,true,FONT,'center');
+   // The same main agent assigns bounded roles and reviews returned evidence.
+   rect(s,664,300,500,56,C.pale,C.line,1);
+   text(s,'주 Agent: 범위·결과 형식 지정',680,310,468,36,26,C.teal,true,FONT,'center');
+   s.shapes.add({geometry:'line',position:{left:914,top:356,width:0,height:15},fill:'none',line:{fill:C.teal,width:2.5}});
+   line(s,706,371,416,C.teal,2.5);
+   roles.forEach(([role,context],i)=>{
+    const x=612+i*208,cx=x+94;
+    s.shapes.add({geometry:'connector',kind:'straight',position:{left:cx,top:371,width:0,height:17},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+    rect(s,x,388,188,108,C.white,C.line,1);
+    text(s,`Subagent ${i+1}`,x+8,395,172,28,22,C.sub,false,FONT,'center');
+    text(s,role,x+8,425,172,34,27,C.ink,true,FONT,'center');
+    text(s,context,x+8,462,172,28,22,C.sub,false,FONT,'center');
+    s.shapes.add({geometry:'line',position:{left:cx,top:496,width:0,height:15},fill:'none',line:{fill:C.teal,width:2.5}});
+   });
+   line(s,706,511,416,C.teal,2.5);
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:914,top:511,width:0,height:21},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+   rect(s,664,532,500,52,C.pale,C.line,1);
+   text(s,'같은 주 Agent가 근거 확인·통합',680,540,468,36,27,C.teal,true,FONT,'center');
    return s;
   },
   S60(p){

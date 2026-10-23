@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0070 / S57-S58 task, choice and result continuity.
+Latest refinement: DEC-0071 / S59 investigation ownership comparison.
+Compare the same investigations under a single Agent and delegated roles.
+Keep assignment and evidence integration with the same main Agent. Preserve
+the conceptual C++ scope, Demo3+Q&A1 and93/379; align only S59 Notes.
+Review: `production/evaluation/S59_ROLE_SPLIT_REVISION.md`.
+
+Previous refinement: DEC-0070 / S57-S58 task, choice and result continuity.
 Restore the brightness task and original temporary-list schematic before the
 qualitative candidate choice. Display the selected product change's runtime,
 traced allocation and behavior checks in three areas with unchanged data.

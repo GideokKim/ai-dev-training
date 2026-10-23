@@ -1,6 +1,17 @@
 # ACT3 Flow Revision — DEC-0062
 
-## Current S57–S58 refinement — DEC-0070
+## Current S59 refinement — DEC-0071
+
+Compare the same three hypothetical C++ investigations in two structures.
+The single Agent owns all investigations and synthesis; the main Agent in
+the delegated structure assigns scope/output, receives role-specific evidence,
+then checks and integrates it. Make independence and integration ownership
+visible without implying measured speed or quality gains. S58 remains actual
+product evidence; S59 is explicitly conceptual; S60 retains the actual decision
+not to add Subagents. Preserve Demo3+Q&A1 and all other screens/Notes.
+Review: [Role split and integration](../production/evaluation/S59_ROLE_SPLIT_REVISION.md).
+
+## Previous S57–S58 refinement — DEC-0070
 
 Review S50–S56 as a first-time audience: repeated procedure, application,
 Skill ownership, inclusion evidence, action evidence and task judgment remain
@@ -84,7 +95,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S56 | Visually connect reusable procedure to task evidence/questions and allowed adopt/no-change paths; DEC-0068. |Lecture3|
 | S57 | Re-establish the brightness task and full-list implementation before the qualitative candidate choice; DEC-0070. |Case5|
 | S58 | Recall the chosen change and show formal runtime, allocation and behavior results separately; DEC-0070. |Case5|
-| S59 | First explain hypothetical independent C++ investigations and integration costs. |Demo3+Q&A1|
+| S59 | Compare the same investigations under one Agent and delegated roles; show main-Agent assignment and integration; DEC-0071. |Demo3+Q&A1|
 | S60 | Apply those criteria to the actual connected Task; preserve no-Subagent decision. |Lecture1+Demo2+Q&A1|
 | S61 | First explain hypothetical knowledge reuse between tasks and lifecycle obligations. |Demo2+Case2|
 | S62 | Preserve four criteria, original-source audit and no-extra-Memory decision. |Lecture4|

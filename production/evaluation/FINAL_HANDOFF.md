@@ -2,7 +2,10 @@
 
 갱신일:2026-10-23 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 수정은 DEC-0070의 S57–S58이다. S50–S56의 역할을 재검토하고 기존 흐름을
+최신 수정은 DEC-0071의 S59다. 같은 세 조사를 한 Agent가 맡는 경우와
+Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근거 확인·통합을
+연결했다. S58의 실제 결과와 S60의 실제 보류 판단 사이 교육용 가정을 유지한다.
+이전 수정은 DEC-0070의 S57–S58이다. S50–S56의 역할을 재검토하고 기존 흐름을
 유지했다. S57은 밝기 통계 작업과 기존 임시 리스트를 먼저 설명한 뒤 후보를
 비교한다. S58은 선택한 변경을 받아 시간·할당량·동작 검증을 구분한다.
 이전 수정은 DEC-0069의 S57이다. 공통 조건 한 줄과 두 후보의 시간·판단 관계로
@@ -29,13 +32,14 @@ ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `a495e0566219d9b18789251b6607dcc6821bf15387684a0a66efbca8889ec90d` |
+| PPT SHA-256 | `01fa9c21e73a38e33a145ae7c87b2b1e1495397b760b26d8bfa2d724093ebd12` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `a17d54eaaf638621b635026da9f0a9211a91d2dd6f62803043633b4f7634257c` |
+| Notes SHA-256 | `98d16256cee0047e1d52aec2ece1a8cab52dd27c7f9363c61ffa6b7a188187ff` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `65ac195c4e2cb6dcafc56a7503b111d6cec88c8f9696b1885960d037b1b517cb` |
+| Montage SHA-256 | `177d7ffb8d1081c656ecf33bbe9d9c18200cf852bcaa028745a9ee666b0bf9ef` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [S57–S58 작업·선택·검증 연결](S57_S58_TASK_RESULT_REVISION.md) |
+| 최신 검토 | [S59 단일 조사와 역할 분리 비교](S59_ROLE_SPLIT_REVISION.md) |
+| 이전 S57–S58 검토 | [작업·선택·검증 연결](S57_S58_TASK_RESULT_REVISION.md) |
 | 이전 S57 검토 | [후보 선택](S57_CANDIDATE_SELECTION_REVISION.md) |
 | 이전 S56 검토 | [재사용 절차와 이번 판단](S56_REUSABLE_PROCEDURE_REVISION.md) |
 | 이전 S55 검토 | [지침과 수행 기록 대응](S55_SKILL_ACTION_EVIDENCE_REVISION.md) |
@@ -103,6 +107,11 @@ DEC-0070에서는 Full93장·ACT3 18장을 렌더링하고 S50–S59 흐름과 S
 개별 검토했다. S57/S58만 화면·19필드 Notes를 수정했으며 다른91개 PNG·Notes,
 정적 대안32개, 장별 시간·Mode, native 표와 S58 chart 데이터, 다른 ACT는
 기준과 동일하다. 구현 도식은 실제 캡처가 아니며 새 Trial을 실행하지 않았다.
+
+DEC-0071에서는 Full93장·ACT3 18장을 다시 렌더링하고 S58–S60을 개별 검토했다.
+S59만 화면·19필드 Notes가 바뀌었으며 다른92장 PNG·Notes와 장별 시간·Mode를
+보존했다. 정적 대안32개 중 S59의 파일 식별자만 갱신했다. 실제 Subagent 실행과
+시간·품질 이득을 주장하지 않으며 새로운 Trial도 없다.
 
 ## 사용자가 확인할 남은 조건
 

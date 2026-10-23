@@ -521,3 +521,17 @@ and CLI smoke PASS. The three visible groups change emphasis, not the claim.
 Allocation peak is not RSS, input-image size or whole-process memory. Tests
 establish the recorded checks, not universal correctness. No new Trial,
 product execution, current Desktop validation or isolated Harness/Skill effect.
+
+
+## DEC-0071 — S59 role assignment and result integration
+
+Preserve the existing CONCEPTUAL / TEACHING_MODEL C++ investigation case.
+The two diagrams contain the same performance, build and test investigations.
+Their arrows express hypothetical assignment and return of evidence, not
+an observed execution trace, measured concurrency, or elapsed-time comparison.
+The main Agent specifies scope/output and checks evidence before integration.
+Independent investigations and scoped information may justify this design;
+coordination, duplicated work, context transfer and integration still cost effort.
+No speed, quality, token-saving or current-product capability claim is added.
+S58's observed product result and S60's DEC-0018 decision remain separate.
+No new Trial, Subagent run or Demo repository change is introduced.

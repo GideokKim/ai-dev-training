@@ -1,0 +1,109 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-23",
+  "baseline": "4f8f8ee",
+  "decision": "DEC-0071",
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act3SlideCount": 18,
+  "act3Minutes": 85,
+  "changedVisualSlides": [
+    "S59"
+  ],
+  "changedNotes": [
+    "S59"
+  ],
+  "unchangedOtherVisualPNGs": 92,
+  "unchangedOtherNotesRecords": 92,
+  "fieldsPerNotes": 19,
+  "notesRecords": 93,
+  "renderedPNGs": 111,
+  "fullAct3PNGParity": 18,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "nativeTables": [
+    "S47",
+    "S55"
+  ],
+  "nativeChart": "S58",
+  "nativeChartDataUnchanged": true,
+  "templates": 11,
+  "variants": 27,
+  "newTrial": false,
+  "newProductTest": false,
+  "demoRepositoryUnchanged": true,
+  "otherACTPackagesUnchanged": true,
+  "approvedImageFilesUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "01fa9c21e73a38e33a145ae7c87b2b1e1495397b760b26d8bfa2d724093ebd12"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "59ccbb894a0110ce5a644b5a89513bc2051ba5ee83bbdc61d658b28e2079093e"
+    }
+  ],
+  "fullNotesSha256": "98d16256cee0047e1d52aec2ece1a8cab52dd27c7f9363c61ffa6b7a188187ff",
+  "fullMontageSha256": "177d7ffb8d1081c656ecf33bbe9d9c18200cf852bcaa028745a9ee666b0bf9ef",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "sourceEvidenceAudit": {
+    "sources": [
+      "plan/DEMO_MATRIX.md / DEMO-07",
+      "plan/DEMO_ARCHITECTURE.md / DEMO-07",
+      "plan/CLAIM_FREEZE.md / S59 concept scope",
+      "plan/DECISIONS.md / DEC-0018 and DEC-0062"
+    ],
+    "evidenceType": "CONCEPTUAL / TEACHING_MODEL",
+    "sameInvestigationsCompared": true,
+    "mainAgentIntegrationResponsibility": true,
+    "noMeasuredBenefitClaim": true,
+    "newExecution": false
+  },
+  "individualVisualReview": [
+    "S58",
+    "S59",
+    "S60"
+  ],
+  "staticFallbackInventory": 32,
+  "changedFallbackSlides": [
+    "S59"
+  ],
+  "documentAudit": {
+    "status": "PASS",
+    "changedFiles": 24,
+    "introducedLocalLinksChecked": 38,
+    "fallbackPNGsChecked": 32,
+    "changedFallbackSlides": [
+      "S59"
+    ],
+    "otherVisualPNGsUnchanged": 92,
+    "sourceOfTruthBudgetsPreserved": true,
+    "priorDecisionHistoryPreserved": true,
+    "historicalHandoffPreserved": true,
+    "currentArtifactsAndHashesMatch": true,
+    "otherACTPackagesUnchanged": true,
+    "demoRepositoryUnchanged": true,
+    "sensitiveTemporaryFiles": false
+  }
+}

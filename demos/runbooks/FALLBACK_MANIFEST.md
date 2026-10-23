@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0070 local static-file inventory only (2026-10-23).
+Status: READY — DEC-0071 local static-file inventory only (2026-10-23).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `a495e0566219d9b18789251b6607dcc6821bf15387684a0a66efbca8889ec90d`
-- Full Notes SHA-256: `a17d54eaaf638621b635026da9f0a9211a91d2dd6f62803043633b4f7634257c`
-- Full montage SHA-256: `65ac195c4e2cb6dcafc56a7503b111d6cec88c8f9696b1885960d037b1b517cb`
+- Source SHA-256: `01fa9c21e73a38e33a145ae7c87b2b1e1495397b760b26d8bfa2d724093ebd12`
+- Full Notes SHA-256: `98d16256cee0047e1d52aec2ece1a8cab52dd27c7f9363c61ffa6b7a188187ff`
+- Full montage SHA-256: `177d7ffb8d1081c656ecf33bbe9d9c18200cf852bcaa028745a9ee666b0bf9ef`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -51,7 +51,12 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
   and groups S58's formal runtime/allocation/behavior evidence. All32 fallback
   PNGs remain unchanged; both are separate Case support pages. Update current
   Full/Notes/montage identities without adding Demo minutes.
-  [Current package review](../../production/evaluation/S57_S58_TASK_RESULT_REVISION.md).
+  [Prior S57/S58 review](../../production/evaluation/S57_S58_TASK_RESULT_REVISION.md).
+
+- DEC-0071 compares single-Agent and delegated investigation roles on S59.
+  Only S59 changes in the32-file fallback inventory; the other31 hashes stay
+  unchanged. No Subagent execution or measured benefit is introduced.
+  [Current package review](../../production/evaluation/S59_ROLE_SPLIT_REVISION.md).
 
 ## Runbook to fallback mapping
 
@@ -89,7 +94,7 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 | S47 | `production/preview/full/S47.png` |1920×1080| `bbf43ab3e8279fa8df136e6393dbd434650df6689af065c16d372424a45490ee` |
 | S54 | `production/preview/full/S54.png` |1920×1080| `27808fcdc5d28fa56fc66a80aabe68d7e2ab449e3ae7eb1a2e114e6fc48fd219` |
 | S55 | `production/preview/full/S55.png` |1920×1080| `ac42e62cc8fb5c5994a61c40051626395e918c4e20838a3065c810b1a2efbad9` |
-| S59 | `production/preview/full/S59.png` |1920×1080| `7526870ecd3a353e2055cca513018455c4f895a8cd57efae6474ac18ed564709` |
+| S59 | `production/preview/full/S59.png` |1920×1080| `13439267d4bd6652e64312509d8b1a4ebf42d442854ecb217b4490bb0b1bdb97` |
 | S60 | `production/preview/full/S60.png` |1920×1080| `154bebd277f13f2db29a0576ea62025cd915c4262e0cfcc0e4040fc8891ed02e` |
 | S61 | `production/preview/full/S61.png` |1920×1080| `22c476f9e258b88d061ead15304037fc8e39f9ed1d7b6feee406d1eb2e661c3f` |
 | S62 | `production/preview/full/S62.png` |1920×1080| `3b145b494c52cdb9db04d2986b33190b6cb3b29c1ead4f166084d019692b02ae` |

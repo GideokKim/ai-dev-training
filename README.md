@@ -10,7 +10,9 @@
 
 현재 제작 기준은 **DEC-0060 /93장·379분(6시간19분)**이다. ACT2는 S32–S49/18장·81분이며, 연구 분리·의존성 답변 회수·성과 정리와 ACT3 연결을 개선한다. 기존90장의 시간·근거 범위를 보존한다. [ACT2 흐름 개선](production/evaluation/ACT_2_FLOW_REVISION.md), [번호 대조](plan/SLIDE_ID_MIGRATION_93.md), [ACT2 미리보기](production/preview/act2/montage.png). 최종93장 렌더·93개 내장 Notes와 ACT/Full 정합성 검토를 완료했다.
 
-최신 수정은 **DEC-0070 / S57–S58 작업·선택·검증 연결**이다. ACT3 앞부분을 재검토한 뒤 S57에 밝기 통계 작업과 기존 임시 리스트 구조를 보충했다. 두 후보의 선택을 S58의 실행시간·Python 할당 피크·동작 검증 세 영역으로 연결한다. Notes와 기존93장·379분, 근거 범위를 유지한다. [S57](production/preview/full/S57.png), [S58](production/preview/full/S58.png), [S56–S58](production/preview/act3/S56-S58-continuity.png), [검토 기록](production/evaluation/S57_S58_TASK_RESULT_REVISION.md).
+최신 수정은 **DEC-0071 / S59 단일 조사와 역할 분리 비교**다. 같은 성능·빌드·테스트 조사를 한 Agent가 맡는 모습과 Subagent별로 나누는 모습을 비교한다. 주 Agent가 범위·결과 형식을 정하고 근거를 확인·통합하는 책임을 연결했다. 기존 가정·시간·근거 범위를 유지하고 S58→S59→S60 Notes와 렌더 흐름을 검토했다. [S59](production/preview/full/S59.png), [연속3장](production/preview/act3/S58-S60-continuity.png), [검토 기록](production/evaluation/S59_ROLE_SPLIT_REVISION.md).
+
+이전 수정은 **DEC-0070 / S57–S58 작업·선택·검증 연결**이다. ACT3 앞부분을 재검토한 뒤 S57에 밝기 통계 작업과 기존 임시 리스트 구조를 보충했다. 두 후보의 선택을 S58의 실행시간·Python 할당 피크·동작 검증 세 영역으로 연결한다. Notes와 기존93장·379분, 근거 범위를 유지한다. [S57](production/preview/full/S57.png), [S58](production/preview/full/S58.png), [S56–S58](production/preview/act3/S56-S58-continuity.png), [검토 기록](production/evaluation/S57_S58_TASK_RESULT_REVISION.md).
 
 이전 수정은 **DEC-0069 / S57 후보 선택의 시각적 정리**다. 두 후보의 공통 조건은 한 번만 표시하고, 실행시간 비교와 제외/선택을 두 행에 연결했다. 선택한 후보를 강조하며 상세 구현 설명은 Notes로 옮겼다. S56의 판단 질문과 S58의 제품 상태 검증을 연결하고93장·379분, 기존 근거 범위를 유지한다. [S57](production/preview/full/S57.png), [S56–S58](production/preview/act3/S56-S58-continuity.png), [검토 기록](production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md).
 

@@ -1,6 +1,8 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
-> **최신 S57–S58 수정: DEC-0070.** 밝기 통계 작업·기존 임시 리스트·후보 선택을 연결하고, 제품 반영 후 시간·할당량·동작 검증을 세 영역으로 정리한다. S50–S56 흐름을 재검토하고 보존했다. [수정 검토](../production/evaluation/S57_S58_TASK_RESULT_REVISION.md).
+> **최신 S59 수정: DEC-0071.** 같은 세 조사를 한 Agent가 맡는 경우와 Subagent별로 나누는 경우를 비교하고, 주 Agent의 분담·근거 확인·통합 책임을 연결한다. 기존 C++ 가정이며 실제 실행·이득을 주장하지 않는다. [수정 검토](../production/evaluation/S59_ROLE_SPLIT_REVISION.md).
+
+> **이전 S57–S58 수정: DEC-0070.** 밝기 통계 작업·기존 임시 리스트·후보 선택을 연결하고, 제품 반영 후 시간·할당량·동작 검증을 세 영역으로 정리한다. S50–S56 흐름을 재검토하고 보존했다. [수정 검토](../production/evaluation/S57_S58_TASK_RESULT_REVISION.md).
 
 > **이전 S57 수정: DEC-0069.** 공통 검증 조건과 후보별 시간·선택을 두 행에 정리해 S56의 판단 질문을 회수하고 S58의 제품 상태 검증으로 넘긴다. [수정 검토](../production/evaluation/S57_CANDIDATE_SELECTION_REVISION.md).
 
@@ -1569,29 +1571,29 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-022, BEAT-037, STATE-04-PERF, STATE-04, TRIAL-008, INV-VERIFY-001, STATE-00, DEC-0018, INV-DEMO-003, DEC-0062, DEC-0070
 
 
-#### S59 — 독립 조사를 나누면 무엇이 달라질까?
+#### S59 — 한 Agent 조사와 Subagent 역할 분리
 
 - **Slide ID:** S59
 - **ACT:** ACT 3
 - **Section:** 3E Conditional Subagent Decision
-- **Working Title:** 독립 조사를 나누면 무엇이 달라질까?
+- **Working Title:** 한 Agent 조사와 Subagent 역할 분리
 - **Primary Role:** Subagent가 해결할 문제와 활용 관계를 현재 사례의 보류 결론보다 먼저 설명한다.
-- **Audience Question:** “한 Agent에 모인 조사 중 서로 기다리지 않아도 되는 부분은 무엇일까?”
+- **Audience Question:** “성능·빌드·테스트 조사가 서로 기다리지 않아도 된다면?”
 - **Core Message:** 독립 조사와 별도 Context의 가치가 있고 결과 형식·전달 지점·통합 책임을 정할 수 있다면 역할 분리를 검토한다. C++ Vision 사례는 교육용 가정이며 조정·중복·전달·통합 비용을 함께 본다.
 - **Story Beat:** BEAT-023–025 — Subagent 필요성 판단
 - **Curriculum Trace:** ACT 3 — conditional role/context separation.; ACT 3 — role/context complexity and Subagents.; ACT 3 — conditional Subagent decision.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
 - **Claim Status:** CONCEPTUAL CASE / TEACHING MODEL — 기존 C++ 역할 분리 가정을 먼저 설명한다. 실제 Subagent 실행·이득·현재 제품 기능의 관찰이 아니다.
-- **Visual Concept:** 명시적 CONCEPTUAL C++ 성능/빌드/테스트 독립 조사 세 패널 → 주 Agent의 통합·최종 검토. 미측정 이득을 표시하지 않는다.
+- **Visual Concept:** 같은 성능·빌드·테스트 조사를 좌우에 놓는다. 왼쪽은 한 Agent가 세 조사와 종합을 맡고, 오른쪽은 주 Agent가 범위·결과 형식을 지정해 세 Subagent에 분담한 뒤 같은 주 Agent가 근거를 확인·통합한다. 역할별 소스·측정/환경·설정/테스트·명세를 병기한다. CONCEPTUAL 가정, 비용과 미측정 이득을 명시하며 시간축·승자 표시를 쓰지 않는다.
 - **Demo / Case Connection:** DEMO-07: 기존 C++ 독립 조사 가정을 먼저 설명. 실제 Subagent 실행 없음. Demo3분 VISUAL, Q&A1분.
 - **Beginner Payoff:** 역할별로 필요한 정보로 조사하고 주 Agent가 합치는 관계를 이해한다.
 - **Advanced Payoff:** 독립성·Context 분리의 가치와 조정·중복·전달·통합 비용을 함께 판단한다.
 - **C++ Vision Bridge:** CONTEXTUAL — 기존 C++ 독립 조사 가정. 실제 Subagent 실행이나 병렬 이득이 아니다.
-- **Speaker Intent:** Subagent가 해결할 문제와 활용 관계를 현재 사례의 보류 결론보다 먼저 설명한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Speaker Intent:** S58의 실제 검증 결과에서 C++ 독립 조사 가정으로 전환함을 먼저 밝힌다. 단일 Agent와 역할 분리를 같은 조사 항목으로 비교하고, 독립성·필요한 정보·주 Agent의 통합 책임 순으로 읽는다. S60에서 실제 작업의 분리 필요성을 판단하도록 연결한다.
 - **Transition:** “그 기준을 방금 밝기 통계 작업에 적용하면, 나누는 것이 필요했을까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 3분 (VISUAL) + Q&A 1분 = 4분
-- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062
+- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0071
 
 
 #### S60 — 이번 작업은 나눌 근거가 충분했을까?

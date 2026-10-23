@@ -596,7 +596,7 @@
         "M2"
       ],
       "scope": "principle",
-      "rationale": "독립 조사를 나누기 전에 결과 형식·전달 지점·합칠 책임을 정한다. 출력 형식 지정의 원리만 연결하며 일반 JSON/XML structured output 기법은 아니다. DEC-0062: Subagent가 해결할 문제와 활용 관계를 현재 사례의 보류 결론보다 먼저 설명한다.",
+      "rationale": "독립 조사를 나누기 전에 결과 형식·전달 지점·합칠 책임을 정한다. 출력 형식 지정의 원리만 연결하며 일반 JSON/XML structured output 기법은 아니다. DEC-0062: Subagent가 해결할 문제와 활용 관계를 현재 사례의 보류 결론보다 먼저 설명한다. DEC-0071: compare identical investigation roles and make main-Agent integration responsibility explicit; retain M2 coverage.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2"
     },

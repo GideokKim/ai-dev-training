@@ -1,6 +1,6 @@
 # STEP 08 — Slide-to-Template Mapping
 
-> **현재 기준: DEC-0060 / 93장·379분; S57–S58 수정 DEC-0070, 이전 S57 DEC-0069, 이전 S56 DEC-0068, 이전 S55 DEC-0067, 이전 S53–S54 DEC-0066, 이전 S53 DEC-0065, S52 DEC-0064, S51 DEC-0063, ACT3 전체 흐름 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
+> **현재 기준: DEC-0060 / 93장·379분; S59 수정 DEC-0071, 이전 S57–S58 DEC-0070, 이전 S57 DEC-0069, 이전 S56 DEC-0068, 이전 S55 DEC-0067, 이전 S53–S54 DEC-0066, 이전 S53 DEC-0065, S52 DEC-0064, S51 DEC-0063, ACT3 전체 흐름 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
 
 Date: 2026-10-09
 
@@ -171,7 +171,7 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S56 — 절차는 재사용하고, 답은 근거로 정한다 | T04-A | CMP-WORKFLOW, CMP-CLAIM | — | P+T; observed Skill contents and teaching distinction separated | DEMO-03 supporting explanation; Lecture, outside its 8 Demo minutes | Two-sided native relationship diagram: reusable procedure, task evidence/questions and conditional adopt/no-change paths; DEC-0068 | — | V01, V02, V05 |
 | S57 — 밝기 통계 계산의 성능 개선 후보 | T07-B | CMP-TRIAL, CMP-EVIDENCE, CMP-BENCHMARK, CMP-CLAIM | — | P | DEMO-03 / TRIAL-008 evidence; task and original implementation schematic, then two qualitative candidate/decision lanes; DEC-0070; Case, outside the 8 Demo minutes | Single state | — | V02, V05 |
 | S58 — 선택한 변경의 시간·메모리·동작 확인 | T07-B | CMP-STATE, CMP-EVIDENCE, CMP-BENCHMARK, CMP-CLAIM | CMP-WORKFLOW | P | DEMO-03 / STATE-04-PERF result; runtime, allocation and behavior evidence in three areas; DEC-0070; Case, not additional Demo minutes | Single state | — | V02, V05 |
-| S59 — 독립 조사를 나누면 무엇이 달라질까? | T03-C | CMP-DECISION, CMP-CLAIM | CMP-CPP | C+T; explicit hypothetical independent investigations | DEMO-07 hypothetical problem/roles first; VISUAL3 + Q&A1 | Single state | Contextual | V01, V05 |
+| S59 — 한 Agent 조사와 Subagent 역할 분리 | T03-C | CMP-DECISION, CMP-CLAIM | CMP-CPP | C+T; explicit hypothetical independent investigations | DEMO-07 same investigations: single Agent vs delegated roles and main-Agent integration; DEC-0071; VISUAL3 + Q&A1 | Single state | Contextual | V01, V05 |
 | S60 — 이번 작업은 나눌 근거가 충분했을까? | T10-B | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | — | P+T; current task decision, no Subagent run | DEMO-07 current-task audit; Lecture1 + VISUAL2 + Q&A1 | Single state | Contextual cue only | V08, V10 |
 | S61 — 다음 작업에서도 다시 찾을 지식인가? | T03-C | CMP-DECISION, CMP-CLAIM | — | C+T; hypothetical cross-task knowledge, no product Memory claim | DEMO-08 hypothetical need; VISUAL2 + Case2 | Single state | — | V01, V05 |
 | S62 — 남길지, 원래 출처를 참조할지 판단한다 | T10-B | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | — | P+T; retained knowledge audit and four teaching criteria | DEMO-08 current source audit; Lecture4, no extra Demo time | Single state | — | V02, V05 |

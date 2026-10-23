@@ -422,11 +422,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S58, production/pre
 
 Validation Status: ALIGNED — DEC-0070의19필드·Case5분·제품 전후 측정 범위를 정렬했다. 로컬 렌더·내장 Notes 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S59 — 독립 조사를 나누면 무엇이 달라질까?
+## S59 — 한 Agent 조사와 Subagent 역할 분리
 
 Slide ID: S59
 
-Working Title: 독립 조사를 나누면 무엇이 달라질까?
+Working Title: 한 Agent 조사와 Subagent 역할 분리
 
 ACT / Section: ACT 3 / 3E
 
@@ -436,35 +436,37 @@ Mode Split: Demo 3 minutes (VISUAL) + Q&A 1 minute
 
 Primary Message: 독립 조사와 별도 Context의 가치가 있고 결과 형식·전달 지점·통합 책임을 정할 수 있다면 역할 분리를 검토한다. C++ Vision 사례는 교육용 가정이며 조정·중복·전달·통합 비용을 함께 본다.
 
-Opening Question: “한 Agent에 모인 조사 중 서로 기다리지 않아도 되는 부분은 무엇일까?”
+Opening Question: “성능·빌드·테스트 조사가 서로 기다리지 않아도 된다면?”
 
 Speaker Flow:
 
-1. (0:00–1:00 / Demo) 화면은 실제 Demo가 아닌 C++ Vision 독립 조사 가정임을 먼저 밝힌다. Subagent는 역할별로 필요한 Context를 나눠 조사하는 방식으로 설명한다.
-2. (1:00–3:00 / Demo) 성능 경로·빌드·테스트 조사가 서로 기다리지 않아도 된다는 가정과 주 Agent의 결과 통합을 연결한다. 결과 형식·전달 지점·책임, 조정·중복·Context 전달·통합 비용을 설명한다.
-3. (3:00–4:00 / Q&A) 어떤 조사들이 실제로 독립적인지 선택 질문을 받는다. 답변은 강제하지 않고 무질문이면 독립성 확인을 회수한다.
+1. (0:00–0:30 / Demo) S58의 실제 밝기 통계 변경·검증을 마쳤다는 점을 회수한다. 다음 구조를 선택할 판단 기준을 보기 위해, C++ 검사 프로젝트에 성능·빌드·테스트 독립 조사가 필요하다고 가정한다. 실제 Trial을 계속 실행한 장면은 아니다.
+2. (0:30–1:15 / Demo) 왼쪽 한 Agent가 세 조사와 결과 종합을 모두 맡는 모습을 짚는다. 성능은 소스·측정, 빌드는 환경·설정, 테스트는 테스트·명세를 본다. 단일 Agent 방식이 실패하거나 느리다는 뜻은 아니다.
+3. (1:15–2:15 / Demo) 오른쪽 위 주 Agent가 범위와 결과 형식을 정하고, 세 Subagent가 각각 필요한 정보로 조사하는 분기를 따른다. 각각 조사한 내용·근거·미확인 사항을 주 Agent에게 돌려준다고 설명한다. 다른 조사 결과를 기다리지 않아도 되는지 먼저 판단해야 한다.
+4. (2:15–3:00 / Demo) 아래로 합쳐지는 선과 ‘같은 주 Agent’를 짚는다. 결과를 단순히 붙이는 것으로 끝내지 않고 근거·중복·충돌을 확인해 한 결과로 통합할 책임이 남는다. 필요한 정보를 역할별로 나눌 수 있는 가치와 조정·전달·통합 비용을 함께 본다. 시간·품질 이득을 측정한 사례는 아니다.
+5. (3:00–4:00 / Q&A) “빌드 조사 결과가 나와야 성능 조사를 시작할 수 있다면, 이 구성을 그대로 쓸 수 있을까요?”로 독립성 판단을 받는다. 무질문이면 이 질문을 발표자가 짧게 회수한다. 3:45에 질문을 닫고 S60의 실제 밝기 통계 작업 판단으로 이동한다.
 
-Evidence / Source: TEACHING_MODEL / CONCEPTUAL — 기존 S60의 C++ 독립 조사 가정과 BEAT-023–025 / INV-MATURITY-007. DEC-0018의 실제 보류 판단은 S60으로 옮겨 유지한다. 새 Subagent 실행은 없다.
+Evidence / Source: CONCEPTUAL / TEACHING_MODEL — 기존 C++ 성능 경로·빌드 환경·테스트 구조의 독립 조사 가정, BEAT-023–025 / INV-MATURITY-007, plan/DEMO_ARCHITECTURE.md와 plan/DEMO_MATRIX.md의 DEMO-07, DEC-0062/0071. DEC-0018의 실제 추가하지 않음 판단은 S60에 유지한다. 새 Subagent 실행이나 비교 실험은 없다.
 
-Claim Boundary: CONCEPTUAL CASE / TEACHING MODEL — 기존 C++ 역할 분리 가정을 먼저 설명한다. 실제 Subagent 실행·이득·현재 제품 기능의 관찰이 아니다.
+Claim Boundary: CONCEPTUAL CASE / TEACHING MODEL — 기존 C++ 역할 분리 가정을 먼저 설명한다. 실제 Subagent 실행·이득·현재 제품 기능의 관찰이 아니다. 연결선은 교육용 역할·결과 전달 관계이며 실제 동시 실행 trace나 속도 비교가 아니다. 별도 Context를 쓰더라도 공유할 명세·기준은 필요하며 무조건 적은 정보를 주라는 뜻이 아니다.
 
-Beginner Explanation: 역할별 Agent가 필요한 Context로 독립 조사를 맡고 주 Agent가 결과를 모으는 방식을 가정해 본다.
+Beginner Explanation: 한 사람이 조사하고 정리할 일을 나눠 맡기는 구조로 읽는다. Subagent는 맡은 범위를 조사해 근거를 돌려주고, 처음 분담한 주 Agent가 다시 확인하고 합친다. 화면 위·아래의 주 Agent는 같은 역할이다.
 
-Advanced Insight: Context 격리·역할 독립성이 주는 가치와 조정·중복 조사·Context 전달·결과 통합 비용을 함께 판단한다. 병렬 이득은 측정하지 않았다.
+Advanced Insight: 독립 조사 가능성과 역할별 정보 범위의 가치를 먼저 확인한다. 요청할 결과 형식과 전달 지점을 정하고 주 Agent가 충돌·누락을 점검할 책임을 갖는다. 조정·중복·Context 전달·통합 비용이 있어 현재 작업에 분리가 필요한지 별도로 판단한다.
 
-C++ Vision Bridge: CONTEXTUAL — 기존 C++ 성능 경로·빌드 환경·테스트 구조의 독립 조사 가정이다. 실제 C++ 구현이나 Subagent 실행은 아니다.
+C++ Vision Bridge: CONTEXTUAL — 기존 C++ 검사 프로젝트의 성능 경로·빌드 환경·테스트 구조 조사 가정이다. 실제 C++ 구현이나 Subagent 실행이 아니다.
 
-Demo Operation: 정적 기본 경로 — 명시적 CONCEPTUAL C++ 성능/빌드/테스트 독립 조사 세 패널 → 주 Agent의 통합·최종 검토. 미측정 이득을 표시하지 않는다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: 정적 VISUAL 기본 경로 — 상단 독립성 질문 → 왼쪽 한 Agent의 세 조사와 종합 → 오른쪽 주 Agent의 분담 → 역할별 조사 → 같은 주 Agent의 근거 확인·통합. 같은 세 조사와 자료를 양쪽에 놓아 조직 방식의 차이만 설명한다. 현재 UI·제품·Demo repository를 실행하지 않고 새 Trial·비교 측정·속도 표시를 추가하지 않는다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. Q&A는 무질문 예비 질문과 cutoff를 적용한다.
+Audience Interaction: Demo3분 뒤 Q&A1분을 별도로 쓴다. 무질문 예비 질문은 ‘앞 조사 결과를 기다려야 한다면?’이다. 답은 강제하지 않는다. 관련 없는 제품 사용법 질문은 후속 확인 항목으로 남기고 현재 독립성·통합 책임 판단으로 회수한다.
 
 Transition: “그 기준을 방금 밝기 통계 작업에 적용하면, 나누는 것이 필요했을까요?”
 
-Time Management: Demo3분(VISUAL 가정) → Q&A1분. 실제 실행·병렬 이득 측정·Live 사용법을 추가하지 않는다.
+Time Management: Demo3분(VISUAL): 앞 장 회수·가정0.5, 단일 Agent0.75, 역할 분담1, 통합·비용0.75. Q&A1분: 질문·회수0.75, cutoff·전환0.25. 지연 시 조사별 세부 자료 낭독을 줄이고 독립성, 같은 주 Agent의 통합 책임, 가정이라는 경계를 유지한다. 4분에 S60으로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S59, production/preview/act3/S59.png 및 production/preview/full/S59.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S59, production/preview/act3/S59.png 및 production/preview/full/S59.png. 표시된 CONCEPTUAL 역할 도식이며 실제 실행 캡처가 아니다. 현재 파일·경로·내용 대조는 production/evaluation/S59_ROLE_SPLIT_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC의 재생은 UNVERIFIED다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0071의19필드·Demo3+Q&A1분·역할 분담/통합 순서를 정렬했다. 최종 패키지·렌더·내장 Notes 대조는 production/evaluation/S59_ROLE_SPLIT_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S60 — 이번 작업은 나눌 근거가 충분했을까?
 
