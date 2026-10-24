@@ -1,6 +1,14 @@
 # DEMO-04A — Conceptual Stale Workflow Case
 
-## Current operation — DEC-0080
+## Current operation — DEC-0081
+
+S69/S70 retain the aligned start and Project-scope change. Later S76 compares same-task and adjacent-task evaluation; S77 selects representative tasks; S78 shows a conditional global-rule scope/cost example. These support Case/Lecture slots without adding Demo time. There is no actual repair, rerun or regression result.
+
+Current local package/render/Notes/path validation is complete for DEC-0081.
+Windows/product/account/room/timed rehearsal remain UNVERIFIED.
+See [current ACT4 design](../../plan/ACT4_FLOW_REVISION.md).
+
+## Earlier operation — DEC-0080
 
 S69 links Workflow to the procedure role previously implemented as a Skill, while preserving the separate conceptual file/history. S70 recovers maintenance ownership. Later S72–S75 inspect evidence, separate hypotheses, select a response conditionally and assign example update/review duties. The Demo slot remains S69 Demo2+S70 Demo2.
 
@@ -8,12 +16,12 @@ Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0080 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0081 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED ROLE — conceptual controlled case
 
-Final Validation Status: READY — DEC-0080 local static paths, final-package renders, Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0081 local static paths, final-package renders, Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-038–046
 
@@ -105,7 +113,7 @@ Default is the offline static presentation. Open: `production/preview/full/S69.p
 
 Show S69–S70 static conceptual frames; keep the constructed-case label visible.
 
-Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
+Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
 Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 

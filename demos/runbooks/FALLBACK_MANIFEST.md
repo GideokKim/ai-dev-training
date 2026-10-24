@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0080 local static-file inventory only (2026-10-24).
+Status: READY — DEC-0081 local static-file inventory only (2026-10-24).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `da3840f90d200a2ea998cc0a7ddecd3e1dc6c605b572129867076ec0f1ac6b4d`
-- Full Notes SHA-256: `14aed5a0e3e13b5119bd70db90d11c7c727b18f249c74c2f0dc10f851eed2c13`
-- Full montage SHA-256: `a918c2ab8c33fd166d7240eeca676243b9e44222cd1a49b1760387901f64d073`
+- Source SHA-256: `408f4ba0d3ac5a60ee06f26573e09df1dc3743f9b32605220c27b558e6ef8063`
+- Full Notes SHA-256: `1ea5dbb300aa194334b3237f288d3157a82e6a1de55beecfeb56a08cff816532`
+- Full montage SHA-256: `f5bf83ab83a05c3be3cca6fbf9e1aee03ba5fad0baa4ff397df880e368a46b0d`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -109,7 +109,13 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
   S72/S73/S79/S80; the other25 keep their previous hashes. DEMO-11 remains
   Demo3 on S72/S73; its conditional response comparison is S74 Case2.
   No new execution, cause confirmation or repair/evaluation outcome.
-  [Current package review](../../production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md).
+  [Previous package review](../../production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md).
+
+- DEC-0081 clarifies ACT4 evaluation and actual reporting history. Membership
+  stays32; S77/S79/S80/S81/S82 change and the other27PNGs are unchanged.
+  No evaluation row, cause/repair result or quality gain is invented. S85
+  remains Case/Reflection/Q&A/Transition outside this Demo inventory.
+  [Current package review](../../production/evaluation/ACT_4_FLOW_REVISION.md).
 
 ## Runbook to fallback mapping
 
@@ -157,11 +163,11 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 | S70 | `production/preview/full/S70.png` |1920×1080| `b21f603411a424e16c86eff2724d3f84abdb1476274154c8cbcf4a5eb5d7ca8e` |
 | S72 | `production/preview/full/S72.png` |1920×1080| `8684a066c4250eb3f026bc048f5a850077702568cb48172c892300b1b77b9ca9` |
 | S73 | `production/preview/full/S73.png` |1920×1080| `6be3428977b367842195e751a4acc17ec1bb593c4fe9c7c79e14baa253df96b1` |
-| S77 | `production/preview/full/S77.png` |1920×1080| `343c9925eeb0bb1a4d03ae53baba22312ea15e3570064dc5091e6977b0ad0db4` |
-| S79 | `production/preview/full/S79.png` |1920×1080| `cbfbf3928455414aa4938e9e3b90e8f1aea7b5dab006aae2473255d59140f3d1` |
-| S80 | `production/preview/full/S80.png` |1920×1080| `ae648014f845b6c7fbf060cfdf78c96ca5a98cf32b0c6dda4be3f9946ac5b262` |
-| S81 | `production/preview/full/S81.png` |1920×1080| `828fc2c5a433ba2da9036c60c5c882c6a195677ee0830b5aeb5e34207a4ee665` |
-| S82 | `production/preview/full/S82.png` |1920×1080| `2328e7c65940e52ce3840f697a06b6d764d324a8c6faa09c092f2e09837ea8d8` |
+| S77 | `production/preview/full/S77.png` |1920×1080| `6e7c000400b788544ddcbc5bb333700cb53c3528f9499a8242d207d306d5c931` |
+| S79 | `production/preview/full/S79.png` |1920×1080| `bd0d5994c3583a2839bfefd126d22791f715104b1802b30a7849875914522c6c` |
+| S80 | `production/preview/full/S80.png` |1920×1080| `2fbab67c412990a00757fa5923436fc19263bdf889d38a8ad941d7f2d0d00a62` |
+| S81 | `production/preview/full/S81.png` |1920×1080| `f7fdd12314175a1f1bf57cf8597166f58031b0f0655ff2bc8e9f9b0580435459` |
+| S82 | `production/preview/full/S82.png` |1920×1080| `48a1fec8f64eefb0b9786a1c3aba99d199da683a679b9dc5a575fa943ba3ef01` |
 | S86 | `production/preview/full/S86.png` |1920×1080| `2d9dac6175c8011f2be3dc7244da2fd299d40b1a6a73046615d94308be974095` |
 | S87 | `production/preview/full/S87.png` |1920×1080| `1a7c593cd7d66ee87604e647f3d8e8d41dddd1d5e24abdcc94d7f8d0faccb37f` |
 

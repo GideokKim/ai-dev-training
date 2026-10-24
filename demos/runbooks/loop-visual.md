@@ -1,6 +1,14 @@
 # LOOP-VISUAL — Product Loop and Harness Improvement Loop
 
-## Current operation — DEC-0080
+## Current operation — DEC-0081
+
+S79 distinguishes execution from observation and shows evidence passed to the next judgment. Human review of source/scope is explicit. Keep Lecture9 and VISUAL Demo2: R1/R2 0–2, R3 2–4:30, R4 4:30–6:30, R5 6:30–9, one static path9–11. Do not replay S72–S78; then open the actual reporting case on S80. No native animation or executed loop.
+
+Current local package/render/Notes/path validation is complete for DEC-0081.
+Windows/product/account/room/timed rehearsal remain UNVERIFIED.
+See [current ACT4 design](../../plan/ACT4_FLOW_REVISION.md).
+
+## Earlier operation — DEC-0080
 
 S79 uses five spaced phases with wrapped questions/examples and a next-task return. Human review/update is explicit. Static speaker focus is not native animation or an executed improvement. Preserve Lecture9+VISUAL Demo2 and separate the later observed Meta case.
 
@@ -8,12 +16,12 @@ Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0080 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0081 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED TEACHING MODEL visual
 
-Final Validation Status: READY — DEC-0080 local static paths, final-package renders, Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0081 local static paths, final-package renders, Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-050–053
 
@@ -105,7 +113,7 @@ Default is the offline static presentation. Open: `production/preview/full/S79.p
 
 Use S79.png; do not reuse S80 Observed Meta frame.
 
-Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
+Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
 Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 

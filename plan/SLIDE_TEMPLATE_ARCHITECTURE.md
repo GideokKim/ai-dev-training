@@ -1,5 +1,17 @@
 # STEP 08 — Slide Template Architecture
 
+## Current ACT4 refinement — DEC-0081
+
+S76–S85 now distinguish evaluation scope, representative-task risks, rule
+side effects, evidence-to-next-judgment Loop, actual reporting changes and
+C++ transfer. S82 is the recording decision, S83 its partial follow-up,
+and S84 maps the actual records to the model. S85 closes the applied
+judgment; S86 retains the full-course recap. Preserve93/379, every Slide
+budget/Mode, stable IDs,11Templates/27Variants and all claim boundaries.
+S68–S75 retain DEC-0080. Current cues and details are in
+[ACT4_FLOW_REVISION](ACT4_FLOW_REVISION.md); earlier descriptions remain
+history where their literal screen/operation cues differ.
+
 ## Current ACT3→ACT4 connection — DEC-0080
 
 S67 closes location/maintenance ownership with recheck timing. S68 briefly

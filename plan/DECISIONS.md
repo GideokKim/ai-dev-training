@@ -8914,3 +8914,110 @@ neighbor sequences. Check notes93x19, budgets, native evidence, unchanged
 other Slides/assets, fallback provenance and stable Demo code/tags. Keep
 Windows, product/account, room and timed rehearsal UNVERIFIED. Commit and
 push normally to the existing origin/main without force or bundle creation.
+
+
+# DEC-0081 — clarify ACT4 evaluation and the actual reporting Loop
+
+## Status
+
+ACCEPTED — explicit user approval of the ACT4 read-only review direction.
+
+## Date
+
+2026-10-24
+
+## Context
+
+DEC-0080 aligns the ACT3 handoff and S68–S75 diagnosis. The next independent
+review finds that S76–S85 adds evaluation design, a model recap, actual
+reporting history and C++ transfer without sufficiently distinct roles.
+The user authorizes improving those roles, readability and Notes alignment,
+then rendering the complete deck and committing/pushing the normal outputs.
+
+## Problem
+
+S77 foregrounds internal identifiers and dense status data. S79 may replay
+prior explanations, and its execution example resembles observation.
+S80 changes the case and improvement target without enough task context.
+S82 foregrounds a local environment decision; S84 repeats its summary.
+S83/S84 Notes point to positions that no longer match the layout. S85's
+Layer question lacks a local frame and its transition risks replaying S86.
+
+## Decision
+
+Preserve93slides/379minutes, ACT4 S68–S85 18/80, every Slide budget/Mode,
+stable Slide/Beat/Section/Demo/Trial/State IDs and Template assignments.
+Keep S68–S75 and ACT3/ACT5 artifacts intact. Change only S76–S85 screens
+and their10Notes records plus the relevant planning/operating references.
+
+Use S76 for same-task versus adjacent-task impact, S77 for four task/risk
+rows in a native table, and S78 for a conditional scope/maintenance-cost
+example. Keep all evaluation statuses and references without new outcomes.
+Make S79 show the evidence passed to each next judgment, with distinct
+execution/observation and bounded human change. Keep its existing11minutes.
+
+Open S80 as actual training-production reporting history and identify the
+Resize task. Preserve S81's result/attribution distinction and metric scope.
+Make S82 explain the actual recording changes, S83 show partial follow-up,
+and S84 map those records to the approved model. Retain DEC-0016's PARTIAL
+and environment continuation decisions without generalizing either.
+
+Use one hypothetical GPU-condition change for S85. Keep the approved image
+bytes/crop, enlarge questions, close the source/verification judgment and
+leave the course recap to S86. Preserve Case7/Reflection2/Q&A7/Transition4.
+Align Notes directions with the actual rows/columns and remove false line
+category cues. No actual rehearsal, product run, Trial or bundle is added.
+
+## Rationale
+
+First-time learners need to see why the object of improvement expands from
+a reusable instruction to the evaluation/reporting system. Giving each
+Slide a distinct question lets repetition consolidate judgment instead of
+replaying the same case. Explicit task context and human-readable labels
+preserve traceability without requiring repository knowledge.
+
+## Alternatives
+
+Keep the dense identifiers and repeated summaries; this retains the gaps.
+Merge/delete Slides or redistribute minutes; current allocations can support
+distinct judgments without changing the approved structure.
+Invent reruns, causes, repairs or scores; this exceeds the evidence.
+Replace the image or create a new trial; neither is needed for this scope.
+
+## Trade-offs
+
+Some internal identifiers move to source metadata/Notes while their stable
+mappings remain. The model is reused in S84 for actual-record correspondence,
+with attribution and follow-up limitations retained. Static operating cues
+support production but do not prove timed delivery or room readability.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-NARRATIVE-002, INV-MATURITY-011,
+INV-LOOP-001, INV-VERIFY-001, INV-DELIVERY-001, INV-DEMO-003.
+
+## Affected Artifacts
+
+ACT4/Full PPTX, S76–S85 sources/Notes/previews, Slide/Template maps,
+relevant story/transition/demo/claim/notes routers, current runbooks/fallback
+identities and delivery review references. No Demo repository, State tag,
+other ACT deck, approved asset, Prototype or presenter bundle is changed.
+
+## Evidence
+
+Explicit user approval; read-only review of c1e7795 actual PPT/PNGs/Notes;
+existing EVAL-01~04, DEMO-04A/04B/10, retained TRIAL-006/007/008 and
+DEC-0016/0021/0023/0080. No new observed execution or measured effect.
+
+## Training Relevance
+
+Evaluate the effects of a maintained instruction across tasks, then see how
+feedback can also change the criteria used to assess and report the work.
+
+## Follow-up
+
+Render Full93 and ACT4 18 from finalized packages. Inspect changed Slides,
+the full ACT4 sequence and S85→S86. Check93x19Notes, budgets, traceability,
+S77 native table, protected tables/chart/assets and unchanged other Slides.
+Keep Windows, target room/product/account and timed operation UNVERIFIED.
+Commit/push normally to the existing origin/main without force or bundles.

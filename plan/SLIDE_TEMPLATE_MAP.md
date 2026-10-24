@@ -1,5 +1,24 @@
 # STEP 08 — Slide-to-Template Mapping
 
+## Current ACT4 operation — DEC-0081
+
+S76–S85 follow [ACT4_FLOW_REVISION](ACT4_FLOW_REVISION.md). Every Template
+assignment and the11Template/27Variant inventory stay unchanged. S77 now
+uses a native editable table; its four rows are conceptual evaluation design,
+with prior references shown only as evidence status. Do not explain solid/
+dashed row categories. S83 reads left/right. S84 reads five upper columns
+then lower changed/unknown statements. Earlier inventories remain history.
+
+S79 remains Lecture9+VISUAL Demo2. R1/R2 0–2min: work versus observation;
+R3 2–4:30: evidence and remaining hypotheses; R4 4:30–6:30: reviewed scope;
+R5 6:30–9: evaluation limits;9–11: one static path and next-task return.
+Do not replay S72–S78. These are focus cues, not native animation.
+
+S85 remains Case7→Reflection2→Q&A7→Transition4. Read the single hypothetical
+GPU change, image, three questions, then the source/verification question.
+At minute16 close Q&A; close the ACT4 application judgment during16–20.
+Leave the five-stage course recap to S86. No live run or rehearsal is added.
+
 > **현재 기준: DEC-0060 / 93장·379분; ACT3→ACT4 연결 DEC-0080, 이전 S67 수정 DEC-0079, 이전 S66 DEC-0078, 이전 S65 DEC-0077, 이전 S64 DEC-0076, 이전 S63 DEC-0075, 이전 S62 DEC-0074, 이전 S61 DEC-0073, 이전 S60 DEC-0072, 이전 S59 DEC-0071, 이전 S57–S58 DEC-0070, 이전 S57 DEC-0069, 이전 S56 DEC-0068, 이전 S55 DEC-0067, 이전 S53–S54 DEC-0066, 이전 S53 DEC-0065, S52 DEC-0064, S51 DEC-0063, ACT3 전체 흐름 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
 
 Date: 2026-10-09
@@ -188,16 +207,16 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S73 — 주어진 정보와 원인 가설을 나눈다 | T08-C | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T, observed/inferred distinction stays labeled as scenario reasoning | DEMO-11 evidence/cause synthesis; preserved Demo1; DEC-0080; no execution | Single state | Contextual | V06, V08 |
 | S74 — 확인한 원인에 맞춰 변경 대상을 고른다 | T08-B | CMP-CLAIM | — | C+T | Conditional response selection; Case2 outside DEMO-11 Demo3; DEC-0080 | Single state | — | V06 |
 | S75 — 확인된 범위만 검토하고 갱신한다 | T08-B | CMP-CLAIM, CMP-DECISION | — | C+T | Conditional update/review roles and re-evaluation handoff; DEC-0080 | Single state | — | V06, V09 |
-| S76 — 같은 Task의 재실행만으로 충분할까? | T08-B | CMP-CLAIM, CMP-WORKFLOW | CMP-CPP | C+T | — | Single state | Contextual | V06, V05 |
-| S77 — 대표 작업으로 변경 범위를 확인하기 | T08-B | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T; four-row conceptual Evaluation Set and any prior observed references use separate Evidence frames | DEMO-10 static visual; 5 min; EVAL-01/02 are prior evidence references, EVAL-03/04 are designed; no new run or outcome | Single state | Contextual | V06, V05, V08 |
-| S78 — Harness도 특정 실패에 맞춰 과적합될 수 있다 | T08-C | CMP-CLAIM, CMP-WORKFLOW | — | C+T | — | Single state | — | V06, V10 |
-| S79 — 관찰을 시스템 개선으로 잇는 Loop | T03-C | CMP-LOOP, CMP-CLAIM | — | C+T | Existing Loop model/visual; VISUAL, 2 min (no new Demo ID) | R1–R5; see Section 8 | — | V06, V07 |
-| S80 — 평가에서 놓친 실행 조건 | T11-A | CMP-EVIDENCE, CMP-CLAIM | — | M | DEMO-04B timeline entry; CAPTURED, 2 min | Single state | — | V07 |
-| S81 — 결과의 타당성과 원인 귀속은 별개다 | T11-B | CMP-EVIDENCE, CMP-CLAIM | CMP-TRIAL | M | DEMO-04B TRIAL-006 evidence/attribution; CAPTURED, 4 min | Single state | — | V02, V05, V07 |
-| S82 — 평가와 보고 규칙을 Evidence에 맞추다 | T11-A | CMP-EVIDENCE, CMP-CLAIM | CMP-DECISION | M | DEMO-04B DEC-0016 change; CAPTURED, 2 min | Single state | — | V02, V07 |
-| S83 — 후속 기록은 개선됐지만 완전하지 않았다 | T11-B | CMP-EVIDENCE, CMP-CLAIM | CMP-TRIAL | M | DEMO-04B follow-up TRIAL-007/008; Lecture/Case, no additional Demo time | Single state | — | V02, V07 |
-| S84 — 실제 Meta Loop에서 바뀐 것 | T11-A | CMP-EVIDENCE, CMP-CLAIM | — | M | DEMO-04B timeline synthesis; Lecture/Case, no additional Demo time | Single state | — | V07 |
-| S85 — Project와 환경이 바뀌면 검증도 다시 본다 | T03-C | CMP-CPP, CMP-LOOP, CMP-CLAIM | — | T with a separately dashed CONCEPTUAL example; no Product evidence frame | — | R1–R6; see Section 8 | Primary | V08, V10 |
+| S76 — 지침을 고친 뒤, 무엇을 다시 확인할까? | T08-B | CMP-CLAIM, CMP-WORKFLOW | CMP-CPP | C+T | — | Single state | Contextual | V06, V05 |
+| S77 — 대표 작업은 서로 다른 위험을 확인한다 | T08-B | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T; native four-task Evaluation table; prior references are status metadata, not results of this change | DEMO-10 existing5min; all EVAL-01~04 remain unexecuted after this Workflow change; DEC-0081 | Single state | Contextual | V06, V05, V08 |
+| S78 — 한 작업에 맞춘 규칙, 다른 작업에도 맞을까? | T08-C | CMP-CLAIM, CMP-WORKFLOW | — | C+T | — | Single state | — | V06, V10 |
+| S79 — 관찰을 시스템 개선으로 잇는 Loop | T03-C | CMP-LOOP, CMP-CLAIM | — | C+T | Existing Loop VISUAL2; evidence-to-next-judgment focus; DEC-0081 | R1–R5; current DEC-0081 operation | — | V06, V07 |
+| S80 — 평가·보고 기준도 개선 대상이다 | T11-A | CMP-EVIDENCE, CMP-CLAIM | — | M | DEMO-04B timeline entry; CAPTURED, 2 min | Single state | — | V07 |
+| S81 — 결과 확인과 원인 해석을 따로 기록한다 | T11-B | CMP-EVIDENCE, CMP-CLAIM | CMP-TRIAL | M | DEMO-04B TRIAL-006 evidence/attribution; CAPTURED, 4 min | Single state | — | V02, V05, V07 |
+| S82 — 다음 조사에 남길 기록을 바꿨다 | T11-A | CMP-EVIDENCE, CMP-CLAIM | CMP-DECISION | M | DEMO-04B DEC-0016 change; CAPTURED, 2 min | Single state | — | V02, V07 |
+| S83 — 후속 기록도 원문과 다시 대조했다 | T11-B | CMP-EVIDENCE, CMP-CLAIM | CMP-TRIAL | M | DEMO-04B follow-up TRIAL-007/008; Lecture/Case, no additional Demo time | Single state | — | V02, V07 |
+| S84 — 실제 기록을 Loop의 단계에 대응하면 | T11-A | CMP-EVIDENCE, CMP-CLAIM | CMP-LOOP | M | Actual records mapped to5phases; partial follow-up, no quality result; no additional Demo time | Single state | — | V07 |
+| S85 — GPU 변경 뒤, 검증 조건을 다시 본다 | T03-C | CMP-CPP, CMP-LOOP, CMP-CLAIM | — | T with a separately dashed CONCEPTUAL example; no Product evidence frame | — | R1–R6; Case7/Reflection2/Q&A7/Transition4; current DEC-0081 | Primary | V08, V10 |
 | S86 — 전체 Story를 한 장으로 | T03-C | CMP-WORKFLOW | CMP-CPP | T | DEMO-12 story callback only; Lecture, outside 2-minute visual slot | Single state | Contextual | V10 |
 | S87 — 하나의 Repository가 문제에 대응해 진화했다 | T07-C | CMP-STATE, CMP-EVIDENCE | CMP-CLAIM | P | DEMO-12 observed Product evolution; VISUAL, 2 min | Single state | — | V01, V03, V05 |
 | S88 — 필요성이 입증되지 않은 것은 보류했다 | T10-A | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-CPP | P+T; this project’s audit is not a universal feature-count comparison | — | Single state | Contextual | V01, V05, V08 |
@@ -318,7 +337,7 @@ add slides, exercises, Demo time or predetermined audience answers.
 | R2 | 3–8 min; Q&A 5 | Reveal, in sequence: recurring Project facts → Context; repeated procedure → Workflow; independent parallel work → consider Subagent; costly rediscovery → consider Memory; needed confidence → Tests / Benchmark / Review. | Future Loop connection. Keep every structure conditional rather than mandatory. | Introduce each category only after the preceding one has been discussed. |
 | R3 | 8–10 min; Transition 2 | The unresolved “what should the system do when evidence changes?” question leading to Loop Engineering. | Nothing; retain the complete map for the handoff. | Move from choosing needed structure to observing and improving it. |
 
-### Current S79 — 11 minutes / DEC-0080
+### Earlier S79 — 11 minutes / DEC-0080 operation history
 
 Static display with speaker-led focus, not implemented animation. Five
 spaced columns show number, phase, short wrapped question and conceptual

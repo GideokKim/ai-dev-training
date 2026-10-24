@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일:2026-10-24 (Asia/Seoul). 현재93장·379분/DEC-0060, 최신 내용 수정 DEC-0080. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
+갱신 기준일:2026-10-24 (Asia/Seoul). 현재93장·379분/DEC-0060, 최신 내용 수정 DEC-0081. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,13 +9,13 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `da3840f90d200a2ea998cc0a7ddecd3e1dc6c605b572129867076ec0f1ac6b4d`
+- PPTX SHA-256: `408f4ba0d3ac5a60ee06f26573e09df1dc3743f9b32605220c27b558e6ef8063`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `14aed5a0e3e13b5119bd70db90d11c7c727b18f249c74c2f0dc10f851eed2c13`
+- Notes SHA-256: `1ea5dbb300aa194334b3237f288d3157a82e6a1de55beecfeb56a08cff816532`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S93.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-위 PPTX·Notes hash는 DEC-0080의 현재93장 파일 식별자다. [ACT3→ACT4 유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md), [이전 S67 성찰](S67_REFLECTION_OWNERSHIP_REVISION.md), [이전 S66 C++ 적용](S66_CPP_TRANSFER_REVISION.md), [이전 S65 외부 조건](S65_EXTERNAL_CONDITIONS_REVISION.md), [이전 S64 Harness 구조](S64_HARNESS_STRUCTURE_REVISION.md), [이전 S63 실제 구성 역할](S63_TASK_ROLES_REVISION.md), [이전 S62 지식 출처](S62_KNOWLEDGE_SOURCES_REVISION.md), [이전 S61 Context와 보존](S61_CONTEXT_RETENTION_REVISION.md), [이전 S60 작업 판단](S60_TASK_DEPENDENCY_REVISION.md), [이전 S59 역할 분리](S59_ROLE_SPLIT_REVISION.md), [이전 S57–S58 작업·검증](S57_S58_TASK_RESULT_REVISION.md), [이전 S57 후보 선택](S57_CANDIDATE_SELECTION_REVISION.md), [이전 S56 방법과 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S55 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S53/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S53 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S52 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S51 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
+위 PPTX·Notes hash는 DEC-0081의 현재93장 파일 식별자다. [ACT4 흐름·실제 기록·ACT5 연결](ACT_4_FLOW_REVISION.md), [이전 ACT3→ACT4 유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md), [이전 S67 성찰](S67_REFLECTION_OWNERSHIP_REVISION.md), [이전 S66 C++ 적용](S66_CPP_TRANSFER_REVISION.md), [이전 S65 외부 조건](S65_EXTERNAL_CONDITIONS_REVISION.md), [이전 S64 Harness 구조](S64_HARNESS_STRUCTURE_REVISION.md), [이전 S63 실제 구성 역할](S63_TASK_ROLES_REVISION.md), [이전 S62 지식 출처](S62_KNOWLEDGE_SOURCES_REVISION.md), [이전 S61 Context와 보존](S61_CONTEXT_RETENTION_REVISION.md), [이전 S60 작업 판단](S60_TASK_DEPENDENCY_REVISION.md), [이전 S59 역할 분리](S59_ROLE_SPLIT_REVISION.md), [이전 S57–S58 작업·검증](S57_S58_TASK_RESULT_REVISION.md), [이전 S57 후보 선택](S57_CANDIDATE_SELECTION_REVISION.md), [이전 S56 방법과 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S55 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S53/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S53 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S52 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S51 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
 
 이전 DEC-0033–0035의 80장 렌더·구조·Notes 검토는 해당 평가 문서와 Git history의 역사적 근거다. 이전 ZIP은 payload 362개·entry 363개였으며 당시 CRC·hash·내부 링크·Notes 정합성을 확인했다. 이번에는 묶음을 갱신하지 않는다. M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아니다. 2순위 보강은 보류한다.
 
@@ -79,6 +79,14 @@ S79→S80, S85→S86, S92→S93을 점검한다.
 ____________________________________________________________________
 
 ## 2. 운영 경로와 선택적 제품·계정 확인 — UNVERIFIED
+
+- [ ] S76/S77에서 제품 검사 종류와 지침을 적용할 작업 종류를 구분하고, 네 EVAL 모두 가상 지침 변경 후 실행 결과가 없음을 설명했다.
+- [ ] S79의 작업 수행/기록 대조/근거 판단을 구분하고11분 운영에서 이전 사례를 반복 설명하지 않는다. 실제 시간은 리허설에서 확인했다.
+- [ ] S80/S81이 Resize 실제 제작 기록이며 밝기 통계·가상 지침 수리와 별개임을 구분했다.
+- [ ] S82의 당시 환경 격리 진행 결정과 인과 검증 요건을 구분하고 일반 권고로 확대하지 않았다.
+- [ ] S83 왼쪽 보고/원문과 오른쪽 사용 경로, S84 상단5열/하단 회수가 최신 Notes와 맞는다.
+- [ ] S85의0–7 Case/7–9 Reflection/9–16 Q&A/16–20 Transition을 실측하고, 마지막 적용 질문을 닫은 뒤 S86의 전체 회수와 중복하지 않는다.
+
 
 - [ ] S53의 두 요청과 Skill 연결은 재사용 설계이며 실제 두 Task의 Skill 호출·준수 기록이 아님을 구분했다. 이번 목표·범위·보존 조건과 프로젝트 기준을 유지하며, 실제 발견·호출 근거는 S54에서 확인한다.
 

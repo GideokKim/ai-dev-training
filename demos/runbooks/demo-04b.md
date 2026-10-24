@@ -1,6 +1,14 @@
 # DEMO-04B — Observed Training Production Meta Case
 
-## Current operation — DEC-0080
+## Current operation — DEC-0081
+
+S80 identifies the actual Resize investigation and the reporting-system target. S81 separates scoped result validity from PARTIAL Prompt attribution. S82 shows the changed recording criteria and preserves DEC-0016 continuation limits. S83 reads left/right follow-up records; S84 maps the records to the model with partial follow-up. Demo slots remain S80:2/S81:4/S82:2; S83/S84 add no Demo time.
+
+Current local package/render/Notes/path validation is complete for DEC-0081.
+Windows/product/account/room/timed rehearsal remain UNVERIFIED.
+See [current ACT4 design](../../plan/ACT4_FLOW_REVISION.md).
+
+## Earlier operation — DEC-0080
 
 S65 remains the earlier Lecture3 environment-presence preview. S80 now recalls those observations for the evaluation/reporting gap; S81 separates result validity from attribution and S82 retains the actual decision. Demo2+4+2 stays8minutes. Detailed later history and all attribution/unknown boundaries remain.
 
@@ -8,12 +16,12 @@ Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0077 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0081 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED SUPPORTING META ROLE
 
-Final Validation Status: READY — DEC-0080 local static paths, final-package renders, Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0081 local static paths, final-package renders, Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-058–059
 

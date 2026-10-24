@@ -1,11 +1,19 @@
 # DEMO-10 — Conceptual Evaluation Set
 
-> Current references: DEC-0060 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+## Current operation — DEC-0081
+
+S77 is a native four-task/risk/status table. EVAL-01/02 reference separate prior bug/performance cases; EVAL-03/04 are designed only. None is a result after this hypothetical Workflow change. Read status wording, not solid/dashed row categories. Existing5minutes: background1, task/risk examples3, selection boundary1.
+
+Current local package/render/Notes/path validation is complete for DEC-0081.
+Windows/product/account/room/timed rehearsal remain UNVERIFIED.
+See [current ACT4 design](../../plan/ACT4_FLOW_REVISION.md).
+
+> Current references: DEC-0081 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — conceptual evaluation matrix
 
-Final Validation Status: READY — DEC-0060 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0081 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-047–049
 
@@ -31,7 +39,7 @@ N/A — no new Product State/task execution
 
 Playback uses local offline PNGs rendered from the current integrated deck. The target Windows PC, education Codex account/surface, permissions, and room are not selected or verified. Historical Trial environments apply only to their recorded runs.
 
-Historical source scope: Demo Matrix evaluation scope and Slide Map S74.
+Historical source scope: retained Demo Matrix EVAL-01~04; current Slide Map S77.
 
 ## Repository Commit / Tag
 
@@ -51,7 +59,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-Separate observed historical references from designed adjacent-task checks; no outcome badge for EVAL-03/04.
+Read each task, its risk and evidence-status wording. Prior references are not results of this Workflow change; no outcome badge belongs to any row.
 
 ## Success Criteria
 
@@ -65,13 +73,13 @@ S77 four-row conceptual matrix, no execution.
 
 Open the listed PNGs offline and confirm Slide ID, label, and readable content. Every fallback is a 1920×1080 static render of the integrated PPTX, not a raw terminal screenshot, recording, or new Trial. Check SHA-256 in `FALLBACK_MANIFEST.md`. This validates only local static playback.
 
-Evidence limit: Do not say EVAL-03/04 ran or passed/failed; do not merge their design with conceptual-case outcomes.
+Evidence limit: Do not say any EVAL ran or passed/failed after this Workflow change. EVAL-01/02 are separate prior references; EVAL-03/04 remain designed only.
 
 ## Estimated Time
 
 5m S77 Demo slot.
 
-Phase plan: S77 5m; internal phase split not established.
+Phase plan: background1m; task/risk examples3m; selection/evidence boundary1m.
 
 Time Risk: LOW
 
@@ -95,9 +103,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 Default is the offline static presentation. Open: `production/preview/full/S77.png`
 
-Use S77.png; keep observed and designed frames separate.
+Use S77.png. The whole table is conceptual evaluation design; prior-reference status is not an observed result frame.
 
-Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
+Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
 Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
@@ -117,7 +125,7 @@ Demo Matrix evaluation scope and Slide Map S77.
 
 ## Do Not Claim
 
-Do not say EVAL-03/04 ran or passed/failed; do not merge their design with conceptual-case outcomes.
+Do not say any EVAL ran or passed/failed after this Workflow change. EVAL-01/02 are separate prior references; EVAL-03/04 remain designed only.
 
 ## Trial / Run Record
 

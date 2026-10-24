@@ -1,6 +1,16 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0080 / ACT3-to-ACT4 maintenance handoff.
+Latest refinement: DEC-0081 / ACT4 evaluation and the ACT5 handoff.
+Apply `act4-flow.mjs` after `act34-handoff.mjs`. Preserve all93Slide IDs,
+budgets/Modes and evidence limits. Only S76–S85 screens/Notes change.
+S77 uses a native table; S79 separates work, observation and evidence-led
+judgment; S80–S84 distinguish actual reporting changes from the conceptual
+case; S85 closes applied judgment before S86's course recap. Preserve image
+bytes/crops/positions, existing native evidence and other ACT packages.
+Full93 and ACT4 18 are finalized and rendered together. Review:
+`production/evaluation/ACT_4_FLOW_REVISION.md`.
+
+Previous refinement: DEC-0080 / ACT3-to-ACT4 maintenance handoff.
 Apply `act34-handoff.mjs` after the ACT3 overlay. Preserve slide numbering,
 per-slide times/Modes and evidence scope while ordering S72-S74 by inspection,
 hypothesis and conditional response. Update human maintenance roles and fit.

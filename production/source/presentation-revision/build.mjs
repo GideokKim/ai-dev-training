@@ -50,6 +50,7 @@ Object.assign(factories,promptTechniqueFactories(H));
 Object.assign(factories,await (await import('./act2-continuity.mjs')).loadAct2ContinuitySlides(ROOT,factories));
 Object.assign(factories,await (await import('./act3-continuity.mjs')).loadAct3ContinuitySlides(ROOT,factories));
 Object.assign(factories,(await import('./act34-handoff.mjs')).loadAct34HandoffSlides(factories));
+Object.assign(factories,(await import('./act4-flow.mjs')).loadAct4FlowSlides(factories));
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
 if(moduleMap.slides.length!==93)throw new Error('Expected 93 legacy module mappings.');
 const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));
@@ -85,7 +86,7 @@ for(const deck of decks){
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
   const chartOwners=deck.ids.map((id,i)=>id==='S58'?i+1:0).filter(Boolean);
-  const tableOwners=deck.ids.map((id,i)=>['S47','S55'].includes(id)?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>['S47','S55','S77'].includes(id)?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,

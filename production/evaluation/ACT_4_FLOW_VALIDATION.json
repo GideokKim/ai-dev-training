@@ -1,0 +1,199 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-24",
+  "baseline": "c1e7795",
+  "decision": "DEC-0081",
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act4SlideCount": 18,
+  "act4Minutes": 80,
+  "changedVisualSlides": [
+    "S76",
+    "S77",
+    "S78",
+    "S79",
+    "S80",
+    "S81",
+    "S82",
+    "S83",
+    "S84",
+    "S85"
+  ],
+  "changedNotes": [
+    "S76",
+    "S77",
+    "S78",
+    "S79",
+    "S80",
+    "S81",
+    "S82",
+    "S83",
+    "S84",
+    "S85"
+  ],
+  "unchangedOtherVisualPNGs": 83,
+  "unchangedOtherNotesRecords": 83,
+  "notesRecords": 93,
+  "fieldsPerNotes": 19,
+  "renderedPNGs": 111,
+  "fullActPNGParity": 18,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "preexistingLayoutWarningsUnchanged": [
+    {
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 47,
+      "table_id": "8"
+    }
+  ],
+  "nativeTablesUnchanged": [
+    "S47",
+    "S55"
+  ],
+  "newNativeTable": "S77:5rows/3columns",
+  "nativeChartDataUnchanged": "S58",
+  "embeddedImageBytesCropsAndPositionsUnchanged": true,
+  "pictureInstancesChecked": 22,
+  "templateAssignmentsUnchanged": true,
+  "templateVariantInventoryUnchanged": true,
+  "stableSlideBeatSectionDemoTrialStateIDs": true,
+  "perSlideTimeModeUnchanged": true,
+  "originalNotesClaimBoundariesUnchanged": true,
+  "s85Modes": "Case7/Reflection2/Q&A7/Transition4",
+  "newTrial": false,
+  "newProductExecution": false,
+  "demoRepositoryUnchanged": true,
+  "approvedAssetsPrototypesBundlesUnchanged": true,
+  "otherACTPackagesUnchanged": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "408f4ba0d3ac5a60ee06f26573e09df1dc3743f9b32605220c27b558e6ef8063"
+    },
+    {
+      "path": "production/ACT_4.pptx",
+      "slideCount": 18,
+      "sha256": "cd1f14d8415e1aeb8be7b9b84328f78f0f671b48066b11595e4eb752f86a511c"
+    }
+  ],
+  "fullNotesSha256": "1ea5dbb300aa194334b3237f288d3157a82e6a1de55beecfeb56a08cff816532",
+  "fullMontageSha256": "f5bf83ab83a05c3be3cca6fbf9e1aee03ba5fad0baa4ff397df880e368a46b0d",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "sourceEvidenceAudit": {
+    "actualSuccessAndConceptualCaseSeparated": true,
+    "evaluationRowsNotExecutedAfterChange": true,
+    "priorObservedReferencesNotNewOutcomes": true,
+    "overfitRemainsTeachingMetaphor": true,
+    "modelExecutionSeparatedFromObservation": true,
+    "resizeDistinguishedFromBrightnessStatistics": true,
+    "metricGuardAndAttributionScopePreserved": true,
+    "dec0016ContinuationChoiceNotGeneralIsolationAdvice": true,
+    "reportStderrMismatchPreserved": true,
+    "actualModelMappingRetainsPartialFollowup": true,
+    "noInventedCauseRepairQualityOutcome": true,
+    "s85HypotheticalNoDeviceCommandOrMetric": true,
+    "s85ApplicationClosedBeforeS86Recap": true,
+    "notesDirectionsMatchCurrentScreens": true,
+    "humanReviewExplicitOnS79": true
+  },
+  "staticFallbackInventory": 32,
+  "changedFallbackSlides": [
+    "S77",
+    "S79",
+    "S80",
+    "S81",
+    "S82"
+  ],
+  "unchangedFallbackPNGs": 27,
+  "officeSchemaValidation": {
+    "full": "PASS",
+    "act4": "PASS",
+    "originalBaseline": "c1e7795",
+    "autoRepair": false
+  },
+  "individualVisualReview": [
+    "S68",
+    "S69",
+    "S70",
+    "S71",
+    "S72",
+    "S73",
+    "S74",
+    "S75",
+    "S76",
+    "S77",
+    "S78",
+    "S79",
+    "S80",
+    "S81",
+    "S82",
+    "S83",
+    "S84",
+    "S85"
+  ],
+  "sequenceReview": [
+    "S75-S77",
+    "S78-S83",
+    "S84-S86",
+    "ACT4 S68-S85 montage",
+    "Full93 overview and83unchanged visual hashes"
+  ],
+  "localVisualIssuesRemaining": [],
+  "documentAudit": {
+    "status": "PASS",
+    "changedFiles": 55,
+    "introducedLocalLinksChecked": 58,
+    "fallbackPNGsChecked": 32,
+    "changedFallbackSlides": [
+      "S77",
+      "S79",
+      "S80",
+      "S81",
+      "S82"
+    ],
+    "otherVisualPNGsUnchanged": 83,
+    "otherNotesRecordsUnchanged": 83,
+    "sourceBudgetsPreserved": true,
+    "priorDecisionHistoryPreserved": true,
+    "historicalHandoffPreserved": true,
+    "existingPlanningIntentAndRecordsPreserved": true,
+    "currentArtifactsAndHashesMatch": true,
+    "otherACTPackagesUnchanged": true,
+    "demoRepositoryUnchanged": true,
+    "sensitiveTemporaryFiles": false
+  }
+}

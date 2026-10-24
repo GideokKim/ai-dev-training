@@ -710,3 +710,30 @@ learning. S65 environment presence and S80/S81 reporting questions are
 separate teaching roles for retained Meta evidence. Do not strengthen
 causality, measured benefit, inventory completeness or current-product claims.
 Preserve all original Metric/Trial/State boundaries, times and Mode totals.
+
+
+## DEC-0081 — ACT4 evaluation, reporting and C++ transfer
+
+S76–S78 remain hypothetical evaluation/maintenance questions. S77 retains
+EVAL-01~04 and their mapping; no row is a result after the stale-Workflow
+change. Bug/performance prior references remain separate from designed
+rows. The global-rule/document-task example introduces no execution or
+measured cost. Overfit remains a teaching metaphor, not a statistical claim.
+
+S79 retains the approved five-phase operating model and human review; its
+handoff artifacts are generic, not fabricated execution/cause/repair results.
+S80/S81 explicitly recall Resize, distinct from image_statistics. Preserve
+the original metric, guards, host/runtime/sample scope and PARTIAL Prompt
+attribution; do not assign its direct cause to any Skill, warning or tool.
+
+S82 retains all DEC-0016 decisions and distinguishes the local continuation
+choice from proof of isolation or a general recommendation against isolation.
+S83 preserves the report/stderr mismatch and distinct Skill/global paths.
+S84 maps recorded facts to the model without inventing cause identification,
+complete re-evaluation, environment completeness or measured quality gains.
+
+S85 is one hypothetical GPU-condition change. Preserve the approved generated
+image and its disclosure. No actual incident, version/command, metric, cause,
+repair or outcome is added. Its closing question does not assign an owner or
+require participant work. S86 still performs the course recap. Windows,
+product/account, room and timed rehearsal remain UNVERIFIED.

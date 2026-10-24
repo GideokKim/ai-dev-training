@@ -768,7 +768,7 @@
         "M6"
       ],
       "scope": "direct",
-      "rationale": "변경 후 같은 Task의 재확인과 다른 유효한 작업에 대한 회귀 확인이 서로 다른 질문임을 설명한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
+      "rationale": "변경 후 같은 Task의 재확인과 다른 유효한 작업에 대한 회귀 확인이 서로 다른 질문임을 설명한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M6"
     },
@@ -778,7 +778,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "서로 다른 위험을 대표하는 작업으로 변경 영향을 확인하도록 평가 대상을 설계한다. 새 실행 결과나 제품 테스트 생성 튜토리얼은 아니다.",
+      "rationale": "서로 다른 위험을 대표하는 작업으로 변경 영향을 확인하도록 평가 대상을 설계한다. 새 실행 결과나 제품 테스트 생성 튜토리얼은 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M6"
     },
@@ -786,7 +786,7 @@
       "slideId": "S78",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "규칙 누적·충돌·특정 Task 편향으로 Harness가 과도하게 좁아질 수 있다는 현행 유지관리 모델이다. 생산성 지표나 제품 테스트 방법과 동일하게 세지 않는다.",
+      "rationale": "규칙 누적·충돌·특정 Task 편향으로 Harness가 과도하게 좁아질 수 있다는 현행 유지관리 모델이다. 생산성 지표나 제품 테스트 방법과 동일하게 세지 않는다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -797,7 +797,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "실행·관찰·원인 판단·시스템 변경·재평가로 피드백을 연결한다. 검증과 반복 개선 원리를 Harness 범위로 확장하며 Sobel 코드 다회차 개선과 구분한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
+      "rationale": "실행·관찰·원인 판단·시스템 변경·재평가로 피드백을 연결한다. 검증과 반복 개선 원리를 Harness 범위로 확장하며 Sobel 코드 다회차 개선과 구분한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2 · M6"
     },
@@ -807,7 +807,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "실제 Trial의 작업 요청과 함께 관찰된 환경 영향을 분리해 원인 귀속의 확인 과제를 만든다. 근거로 가설을 판단하는 원리만 연결한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
+      "rationale": "실제 Trial의 작업 요청과 함께 관찰된 환경 영향을 분리해 원인 귀속의 확인 과제를 만든다. 근거로 가설을 판단하는 원리만 연결한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M6"
     },
@@ -818,7 +818,7 @@
         "M6"
       ],
       "scope": "direct",
-      "rationale": "동일 조건의 입력/출력 guard·측정 결과 확인과 그 결과를 만든 원인 판단을 구분한다. 코드 성능 근거이며 개발자 생산성 증거는 아니다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
+      "rationale": "동일 조건의 입력/출력 guard·측정 결과 확인과 그 결과를 만든 원인 판단을 구분한다. 코드 성능 근거이며 개발자 생산성 증거는 아니다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M5 · M6"
     },
@@ -826,7 +826,7 @@
       "slideId": "S82",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "실제 제작 과정에서 Trial 평가·보고 기준을 바꾼 Meta 사례다. ADR 필드 작성이나 AI 리서치 보고서 작성 교육은 아니다.",
+      "rationale": "실제 제작 과정에서 Trial 평가·보고 기준을 바꾼 Meta 사례다. ADR 필드 작성이나 AI 리서치 보고서 작성 교육은 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -836,7 +836,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "후속 보고와 보존된 원문 진단 메시지를 대조해 관찰 기록의 누락을 찾는다. 로그를 근거로 확인하는 원리이며 보안 익명화 절차는 아니다.",
+      "rationale": "후속 보고와 보존된 원문 진단 메시지를 대조해 관찰 기록의 누락을 찾는다. 로그를 근거로 확인하는 원리이며 보안 익명화 절차는 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M6"
     },
@@ -846,7 +846,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "평가·보고 기준의 변화와 원인별 효과·환경 목록·품질 향상의 미확인 과제를 구별한다. 변경 결과를 다시 검증하는 원리를 Meta 범위로 확장한다.",
+      "rationale": "평가·보고 기준의 변화와 원인별 효과·환경 목록·품질 향상의 미확인 과제를 구별한다. 변경 결과를 다시 검증하는 원리를 Meta 범위로 확장한다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M6"
     },
@@ -857,7 +857,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "C++ Vision의 환경 변화 뒤 기존 가정·비교 가능한 측정 조건·기능 계약을 다시 확인한다. 실제 장비 성능·장기 안정성 결과는 아니다.",
+      "rationale": "C++ Vision의 환경 변화 뒤 기존 가정·비교 가능한 측정 조건·기능 계약을 다시 확인한다. 실제 장비 성능·장기 안정성 결과는 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M5 · M6"
     },

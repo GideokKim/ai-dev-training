@@ -2,7 +2,11 @@
 
 갱신일:2026-10-24 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 수정은 DEC-0080의 ACT3→ACT4 연결이다. S67의 위치·유지 책임을
+최신 수정은 DEC-0081의 ACT4 S76–S85 흐름·평가·실제 제작 기록과 ACT5 연결이다.
+화면10개·Notes10개를 정렬하고 Full93+ACT4 18을 최종 패키지에서 렌더링했다.
+다른83개 화면·Notes와 장별 시간/Mode·근거 범위·승인 이미지는 유지한다.
+실제 Windows·제품/계정·교육장·시간 운영은 UNVERIFIED다. 발표 묶음은 갱신하지 않았다.
+이전 수정은 DEC-0080의 ACT3→ACT4 연결이다. S67의 위치·유지 책임을
 S70/S75의 조건부 갱신/검토로 회수하고 Skill과 재사용 Workflow의 관계를 연결했다.
 S72–S74는 확인할 기록→정보/원인 가설→조건부 변경 대상 선택 순서다.
 S69/S79 가독성과 반복 설명을 개선하고 실제 성공·가상 사례·Meta 경계를 유지했다.
@@ -61,13 +65,14 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `da3840f90d200a2ea998cc0a7ddecd3e1dc6c605b572129867076ec0f1ac6b4d` |
+| PPT SHA-256 | `408f4ba0d3ac5a60ee06f26573e09df1dc3743f9b32605220c27b558e6ef8063` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `14aed5a0e3e13b5119bd70db90d11c7c727b18f249c74c2f0dc10f851eed2c13` |
+| Notes SHA-256 | `1ea5dbb300aa194334b3237f288d3157a82e6a1de55beecfeb56a08cff816532` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `a918c2ab8c33fd166d7240eeca676243b9e44222cd1a49b1760387901f64d073` |
+| Montage SHA-256 | `f5bf83ab83a05c3be3cca6fbf9e1aee03ba5fad0baa4ff397df880e368a46b0d` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [ACT3→ACT4 유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md) |
+| 최신 검토 | [ACT4 평가·Loop·실제 기록과 ACT5 연결](ACT_4_FLOW_REVISION.md) |
+| 이전 ACT3→ACT4 검토 | [유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md) |
 | 이전 S67 검토 | [반복 한 가지와 위치·유지 책임](S67_REFLECTION_OWNERSHIP_REVISION.md) |
 | 이전 S66 검토 | [밝기 통계 Demo의 세 기준을 C++ 검사로](S66_CPP_TRANSFER_REVISION.md) |
 | 이전 S65 검토 | [저장소 밖 실행 조건과 관찰의 한계](S65_EXTERNAL_CONDITIONS_REVISION.md) |
@@ -98,6 +103,14 @@ ACT별 시간40/63/81/85/80/30분. Mode143/73/88/21/22/32분은 각각
 Lecture/Demo/Case/Reflection/Transition/Q&A다. 휴식은 별도다.
 
 ## 완료된 로컬 확인
+
+DEC-0081: Full93+ACT4 18의111개 PNG,93개×19필드 Notes와 내장/ACT 대응,
+S77 Native 표, 기존 표/차트·이미지·다른 ACT 패키지와 장별 배정을 대조했다.
+ACT4 전체18장을 개별 검토하고 S75→S76와 S84→S85→S86를 연결 검토했다.
+다른83PNG·83Notes는 동일하고 두 PPT의 Office schema 검사는 기준c1e7795와
+비교해 통과했다. 기존 S47 자동 표 높이 경고는 동일하며 표 XML/PNG도 동일하다.
+32개 정적 대안 중 S77/S79/S80/S81/S82의5개 hash만 갱신했다.
+
 
 93장 Full, ACT2–5 package integrity/layout/reimport와 전체 렌더를 확인했다.
 93개19필드 Notes와 Full/ACT/내장 Notes, 현재 Slide ID·표·차트·정적 대안을

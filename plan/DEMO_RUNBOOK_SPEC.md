@@ -1,5 +1,17 @@
 # Demo Runbook Specification
 
+## Current ACT4 refinement — DEC-0081
+
+S76–S85 now distinguish evaluation scope, representative-task risks, rule
+side effects, evidence-to-next-judgment Loop, actual reporting changes and
+C++ transfer. S82 is the recording decision, S83 its partial follow-up,
+and S84 maps the actual records to the model. S85 closes the applied
+judgment; S86 retains the full-course recap. Preserve93/379, every Slide
+budget/Mode, stable IDs,11Templates/27Variants and all claim boundaries.
+S68–S75 retain DEC-0080. Current cues and details are in
+[ACT4_FLOW_REVISION](ACT4_FLOW_REVISION.md); earlier descriptions remain
+history where their literal screen/operation cues differ.
+
 > 최신 ACT3 설명 순서: DEC-0062 / [ACT3 흐름 설계](ACT3_FLOW_REVISION.md). S50–S67의18장·85분과 장별 시간·Mode·ID는 유지한다. Skill 문서/관찰 대응, Subagent·Memory의 가정→현재 선택, 실제 구성→전체 작업 환경의 역할을 정렬했다. 아래 원본 기획·과거 검증 이력은 보존한다.
 
 > **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
