@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0078 local static-file inventory only (2026-10-24).
+Status: READY — DEC-0079 local static-file inventory only (2026-10-24).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `b549bbdfcf113394dc74b5d40e70013cb30cee111701176e6ed09c6d13ceb164`
-- Full Notes SHA-256: `fade3ef28367f421536c6ad284a28b7146d891c9dc80f3bc82050c5a075c55d9`
-- Full montage SHA-256: `ab919f32b3d0962f634e7d0b72cb6148d851b93935150b8be6db1de7d94e8d1d`
+- Source SHA-256: `b4afecfe77282ebfc38898f191ecb0f5ff2793ed488cd01c538131c81c0d1520`
+- Full Notes SHA-256: `a951a6838448f4a513bc3529326f90e1a2e11f8ea9b99be98d495307e8d9a986`
+- Full montage SHA-256: `b6507a6fcd0778b64b82c8296f74e3da2b5462a171182da9722ff7d53d5fa55f`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -95,7 +95,14 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
   a Lecture5 teaching transfer, outside the32-file Demo fallback inventory.
   All32 fallback PNG hashes stay unchanged; current source PPTX/Notes/montage
   identifiers are updated. Approved illustration bytes/crop are preserved.
-  [Current package review](../../production/evaluation/S66_CPP_TRANSFER_REVISION.md).
+  [Prior S66 review](../../production/evaluation/S66_CPP_TRANSFER_REVISION.md).
+
+- DEC-0079 connects S67 reflection to one recurring need, its location and
+  review/update responsibility. Reflection3/Q&A5/Transition2 remains static,
+  with optional sharing and no new Demo execution. S67 stays outside the
+  32-file Demo fallback inventory; all32 PNG hashes remain unchanged.
+  Current source PPTX/Notes/montage identifiers are updated.
+  [Current package review](../../production/evaluation/S67_REFLECTION_OWNERSHIP_REVISION.md).
 
 ## Runbook to fallback mapping
 

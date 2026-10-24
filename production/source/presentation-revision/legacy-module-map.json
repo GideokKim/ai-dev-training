@@ -675,7 +675,7 @@
         "M8"
       ],
       "scope": "principle",
-      "rationale": "반복되는 사실과 절차를 찾아 현재 필요한 구조를 묻는다. 반복 비용을 줄일 투자 지점의 성찰이며 정량 자동화 우선순위표는 아니다. DEC-0062: 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다.",
+      "rationale": "반복되는 사실과 절차를 찾아 현재 필요한 구조를 묻는다. 반복 비용을 줄일 투자 지점의 성찰이며 정량 자동화 우선순위표는 아니다. DEC-0062: 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다. DEC-0079: choose one recurring need, a maintained location and review/update responsibility; retain reflection boundaries and module coverage.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2 · M8"
     },

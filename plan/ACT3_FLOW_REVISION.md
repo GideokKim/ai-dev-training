@@ -1,6 +1,16 @@
 # ACT3 Flow Revision — DEC-0062
 
-## Current S66 refinement — DEC-0078
+## Current S67 refinement — DEC-0079
+
+Move from S66's transfer to one recurring need in the audience's own work.
+Show three equal candidates, choose one, then ask location and review/update
+ownership. Keep silent Reflection3, optional Q&A5 and Transition2 with an
+8-minute cutoff. Use static speaker-led focus, not implemented animation.
+Retain actual success through S68 before the separate S69 conceptual change.
+Preserve S66/S68, T01-B and93/379. Review:
+[Reflection and ownership](../production/evaluation/S67_REFLECTION_OWNERSHIP_REVISION.md).
+
+## Previous S66 refinement — DEC-0078
 
 Pair the brightness-statistics specification, procedure and evidence with
 C++ inspection requirements in three rows. Retain the approved illustration
@@ -176,7 +186,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S64 | Connect inputs, Agent, verification and shared execution environment as the course Harness model; retain human review and bounded actual recap, DEC-0076. |Lecture4+Demo2|
 | S65 | Separate external-condition teaching relationships, TRIAL-006 observations and attribution limits; retain S64/S66 handoff, DEC-0077. |Lecture3|
 | S66 | Pair Demo specification/procedure/evidence with C++ inspection requirements; retain approved illustration and condition checks, DEC-0078. |Lecture5|
-| S67 | Reflect on one recurring friction and who maintains the response; hand off to ACT4. |Reflection3+Q&A5+Transition2|
+| S67 | Choose one recurring need, its location and review/update owner; retain optional discussion and actual/conceptual handoff, DEC-0079. |Reflection3+Q&A5+Transition2|
 
 ## Preserved evidence
 

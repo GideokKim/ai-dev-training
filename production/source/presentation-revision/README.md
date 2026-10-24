@@ -1,6 +1,13 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0078 / S66 Demo-to-C++ criteria.
+Latest refinement: DEC-0079 / S67 reflection and maintenance ownership.
+Link three equally weighted recurring needs to one selection, then to its
+location and review/update responsibility. Retain optional sharing, static
+speaker focus, T01-B, Reflection3/Q&A5/Transition2,93/379 and other slides/Notes.
+Preserve actual success through S68 before the separate conceptual change.
+Review: `production/evaluation/S67_REFLECTION_OWNERSHIP_REVISION.md`.
+
+Previous refinement: DEC-0078 / S66 Demo-to-C++ criteria.
 Pair specification, procedure and verification evidence with C++ inspection
 work. Retain approved illustration bytes/crop at75% placement and connect
 input/build/equipment checks from S65 to S67 reflection. Preserve T03-A,

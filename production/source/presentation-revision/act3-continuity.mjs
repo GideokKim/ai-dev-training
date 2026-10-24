@@ -511,16 +511,29 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S67(p){
-   const s=make(p,'S67','우리 팀의 반복 한 가지를 고르면','ACT 3 · 필요한 구조와 유지할 책임을 되돌아보기',
-    '개인 성찰·공유는 선택 · 실제 성공 STATE-04-PERF를 실패 사례로 재해석하지 않음',
-    'Subagent·Memory는 조건부 선택 · 다음 ACT의 프로젝트 변화는 별도의 가상 사례');
-   text(s,'내 업무에서 먼저 정리할 반복은 무엇인가?',64,184,1152,43,32,C.teal,true);
-   const items=[['반복되는 정보','명세·기본 안내·상세 위치'],['반복되는 절차','조사·변경 판단·검증·보고'],['매번 필요한 근거','테스트·측정 조건·검토 결과']];
+   const s=make(p,'S67','우리 업무에서 먼저 정리할 한 가지','ACT 3 · 반복을 고르고 유지할 책임을 정하기',
+    '개인 성찰 · 공유는 선택 · 실제 Demo의 성공은 기준점으로 유지',
+    '교육용 적용 질문 · 기능 추가를 전제하지 않음 · 다음 ACT의 변화는 별도 가상 사례');
+   const items=[['반복 정보','명세 · 프로젝트 안내'],['반복 절차','조사 · 변경 · 검증'],['검증 근거','테스트 · 측정 조건']];
    items.forEach(([title,body],i)=>{
-    const x=64+i*400;panel(s,x,278,352,166,title,body,i===1?C.pale:C.white);
+    const x=64+i*400;
+    rect(s,x,212,352,104,C.white,C.line,1);
+    text(s,title,x+20,222,312,36,29,C.teal,true);
+    text(s,body,x+20,266,312,36,24,C.ink);
+    s.shapes.add({geometry:'line',position:{left:x+176,top:316,width:0,height:38},line:{fill:C.teal,width:2.5}});
    });
-   text(s,'어디에 두고, 누가 검토하고 갱신할까?',64,487,1152,45,33,C.ink,true);
-   text(s,'다음 질문: 프로젝트가 바뀌면 이 방법을 어떻게 점검할까?',64,562,1152,39,29,C.teal,true);
+   line(s,240,354,800,C.teal,2.5);
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:640,top:354,width:0,height:20},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+   rect(s,520,380,240,58,C.pale,C.teal,1.5);
+   text(s,'하나만 선택',536,389,208,40,30,C.teal,true,FONT,'center');
+   s.shapes.add({geometry:'line',position:{left:640,top:438,width:0,height:18},line:{fill:C.teal,width:2.5}});
+   line(s,336,456,608,C.teal,2.5);
+   [336,944].forEach(x=>s.shapes.add({geometry:'connector',kind:'straight',position:{left:x,top:456,width:0,height:18},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}}));
+   [[64,'어디에 둘까?'],[672,'누가 검토·갱신할까?']].forEach(([x,question])=>{
+    rect(s,x,480,544,72,C.white,C.line,1);
+    text(s,question,x+20,490,504,50,30,C.ink,true);
+   });
+   text(s,'다음: 프로젝트가 바뀌면 어떻게 점검할까?',64,570,1152,35,27,C.teal,true);
    return s;
   }
  };

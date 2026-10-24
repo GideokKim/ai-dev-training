@@ -1,6 +1,8 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
-> **최신 S66 수정: DEC-0078.** 명세·수행 방법·검증 근거를 밝기 통계 Demo→C++ 검사 업무의 세 대응 행으로 정리한다. 승인된 삽화와 교육용 경계·Lecture5분을 유지하고 입력·빌드·장비 조건을 S65와 연결한다. [수정 검토](../production/evaluation/S66_CPP_TRANSFER_REVISION.md).
+> **최신 S67 수정: DEC-0079.** 반복 정보·절차·검증 근거 중 하나를 고른 뒤 둘 위치와 검토·갱신 책임을 생각하는 도식으로 정리한다. 개인 성찰·선택적 공유, 기존10분/Mode와 실제 성공→별도 가상 변화 경계를 유지한다. [수정 검토](../production/evaluation/S67_REFLECTION_OWNERSHIP_REVISION.md).
+
+> **이전 S66 수정: DEC-0078.** 명세·수행 방법·검증 근거를 밝기 통계 Demo→C++ 검사 업무의 세 대응 행으로 정리한다. 승인된 삽화와 교육용 경계·Lecture5분을 유지하고 입력·빌드·장비 조건을 S65와 연결한다. [수정 검토](../production/evaluation/S66_CPP_TRANSFER_REVISION.md).
 
 > **이전 S65 수정: DEC-0077.** 같은 Repository와 저장소 밖 조건이 한 Agent 실행에 적용되는 관계를 보여준다. 상단 교육용 구성과 TRIAL-006의 실제 관찰·해석 한계를 구분하며 Meta 프레임·Lecture3분·기존 근거를 유지한다. [수정 검토](../production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md).
 
@@ -1785,29 +1787,29 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-036, CLM-0016, CLM-0017, CLM-0030, OQ-011, DEC-0062, DEC-0078
 
 
-#### S67 — 우리 팀의 반복 한 가지를 고르면
+#### S67 — 우리 업무에서 먼저 정리할 한 가지
 
 - **Slide ID:** S67
 - **ACT:** ACT 3
 - **Section:** 3I Discussion / Reflection / Transition
-- **Working Title:** 우리 팀의 반복 한 가지를 고르면
+- **Working Title:** 우리 업무에서 먼저 정리할 한 가지
 - **Primary Role:** 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다.
-- **Audience Question:** “내 업무에서 먼저 정리할 반복과 유지할 책임은 무엇일까?”
+- **Audience Question:** “S66의 기준을 우리 업무에 대입하면, 어떤 반복 한 가지를 먼저 정리하고 어디에 두며 누가 유지하면 좋을까요?”
 - **Core Message:** 반복 정보·반복 절차·완료 근거 중 현재 마찰을 하나 고르고 어디에 두며 누가 검토·갱신할지 판단한다. 현재의 성공을 보존한 채 다음 ACT의 프로젝트 변화 질문을 연다.
 - **Story Beat:** BEAT-035–037, BEAT-038로의 전환
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.; ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.; ACT 4 — conceptual stale-Harness case.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Subagent와 Memory는 조건부 선택이다. Verification은 실제 작업의 필요와 위험에 맞춰 둔다.
-- **Visual Concept:** 세 성찰 관점과 어디에 두고 누가 갱신할지의 질문. 마지막 줄에 프로젝트 변화 뒤 방법을 어떻게 점검할지 제시하며 S68의 결과 회수와 구분한다.
+- **Visual Concept:** 반복 정보/반복 절차/검증 근거를 같은 비중의 세 후보로 두고 하나만 선택으로 모은 뒤 어디에 둘까/누가 검토·갱신할까 두 질문으로 나눈다. 후보의 모임은 전부 통합하라는 뜻이 아닌 선택 관계다. 아래는 프로젝트 변화 뒤 점검 질문이다. 정답·새 기능·도구·팀별 담당을 미리 제시하지 않으며 정적 화면에서 발표자 초점을 R1/R2/R3로 옮긴다.
 - **Demo / Case Connection:** STATE-04-PERF에서 Subagent와 Memory 없이 성공한 bounded Harness를 회고한다.
 - **Beginner Payoff:** 자기 업무에서 먼저 고칠 반복 마찰 하나를 생각해 본다.
 - **Advanced Payoff:** 필요한 구조를 증거와 비용에 따라 선택하고 불필요한 구성은 보류한다.
 - **C++ Vision Bridge:** 앞 Slide의 C++ 적용 질문을 청중의 Project로 가져온다.
-- **Speaker Intent:** 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Speaker Intent:** S66의 프로젝트 적용을 청중 자신의 반복 한 가지와 위치·유지 책임으로 회수한다. 개인 성찰·선택적 Q&A로 진행하며 작성·실습·공개 답변을 요구하지 않는다. 실제 성공은 S68에서 기준점으로 보존하고 다음 가상 프로젝트 변화로 전환한다.
 - **Transition:** “여기까지 실제로 확인한 성공을 기준점으로 남기겠습니다. 다음에는 별도의 가상 프로젝트 변화에서 이 방법을 어떻게 점검할지 보겠습니다.”
 - **Estimated Time:** 10분
 - **Delivery Mode Allocation:** Reflection 3분 + Q&A 5분 + Transition 2분 = 10분
-- **Evidence / Decision References:** BEAT-035, BEAT-038, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0021, INV-MATURITY-010, BEAT-036, BEAT-037, DEC-0062
+- **Evidence / Decision References:** BEAT-035, BEAT-038, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0021, INV-MATURITY-010, BEAT-036, BEAT-037, DEC-0062, INV-DELIVERY-001, DEC-0079
 
 
 ### ACT 4

@@ -8738,3 +8738,82 @@ embedded Notes and unchanged other slides. Recheck image bytes/crop and
 TEACHING_MODEL limits. Keep Windows, product/account, room and rehearsal
 UNVERIFIED. Follow the normal authorized Git checkpoint without changing
 Demo code, State tags or presenter bundles.
+
+
+# DEC-0079 — connect reflection to location and maintenance ownership
+
+## Status
+
+ACCEPTED — explicit user request to revise S67 and align Notes/rendering.
+
+## Date
+
+2026-10-24
+
+## Context
+
+S66 transfers the Demo criteria to C++ inspection. S67 asks learners to pick
+a recurring need and maintenance responsibility before the S68 success
+callback and the separate conceptual project change from S69.
+
+## Problem
+
+Three large panels and separate questions do not make the choice-to-location/
+owner relationship explicit. Highlighting procedure also implies a preferred
+answer, while the reflection must allow any relevant recurring need.
+
+## Decision
+
+Show recurring information, procedure and verification evidence equally.
+Connect them to one selected need, then to location and review/update
+questions. Retain Reflection3, optional Q&A5 and Transition2 with minute8
+cutoff. Add current S67 static focus cues before the earlier90-slide S64
+operation history; preserve the old table and Template/Variant set.
+
+## Rationale
+
+A short selection diagram makes the audience's next mental decision clear
+without assigning a tool, a new artifact or a team member. It connects
+application to upkeep responsibility and prepares the project-change question.
+
+## Alternatives
+
+Keep isolated panels/questions; the decision sequence stays implicit.
+Supply a default Skill or owner; the audience has not chosen that answer.
+Require a worksheet or repository edit; participant hands-on is excluded.
+
+## Trade-offs
+
+Keep only short candidate examples and two follow-up questions on screen.
+Retain location examples, conditional feature choices, optional sharing and
+handoff boundaries in Notes. Static focus does not implement native reveal.
+
+## Related Invariants
+
+INV-DELIVERY-001, INV-DEMO-003, INV-VERIFY-001, INV-MATURITY-010.
+
+## Affected Artifacts
+
+S67 source, ACT3/Full PPTX and previews, S67 Notes, Slide Map, Template Map
+and current focus cues, ACT3 flow reference, Claim Freeze, module rationale
+and delivery/source references. Preserve S66/S68 and the32-file Demo
+fallback inventory. No new image, feature or participant exercise.
+
+## Evidence
+
+User instruction; BEAT-035-038; retained STATE-04-PERF success;
+DEC-0018/0021/0062; approved S67 reflection/Q&A/transition allocation;
+SLIDE_ID_MIGRATION_93 maps earlier S64 to S67. No audience result, Trial,
+product execution or real-world rehearsal is introduced.
+
+## Training Relevance
+
+Choose a real recurring need before adding structure, and consider the
+maintained source and review/update responsibility with that choice.
+
+## Follow-up
+
+Render and inspect S67 with S66/S68. Validate93slides/379minutes, the
+3/5/2Mode sequence, embedded Notes and unchanged other slides. Keep Windows,
+product/account, room and10-minute rehearsal UNVERIFIED. Follow the normal
+Git checkpoint without changing Demo code, tags or presenter bundles.

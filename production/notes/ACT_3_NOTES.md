@@ -795,11 +795,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S66, production/pre
 
 Validation Status: ALIGNED — DEC-0078의19필드·Lecture5분·TEACHING_MODEL·기존 이미지와 실제/교육용 적용 경계를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S66_CPP_TRANSFER_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S67 — 우리 팀의 반복 한 가지를 고르면
+## S67 — 우리 업무에서 먼저 정리할 한 가지
 
 Slide ID: S67
 
-Working Title: 우리 팀의 반복 한 가지를 고르면
+Working Title: 우리 업무에서 먼저 정리할 한 가지
 
 ACT / Section: ACT 3 / 3I
 
@@ -809,32 +809,35 @@ Mode Split: Reflection 3 minutes + Q&A 5 minutes + Transition 2 minutes
 
 Primary Message: 반복 정보·반복 절차·완료 근거 중 현재 마찰을 하나 고르고 어디에 두며 누가 검토·갱신할지 판단한다. 현재의 성공을 보존한 채 다음 ACT의 프로젝트 변화 질문을 연다.
 
-Opening Question: “내 업무에서 먼저 정리할 반복과 유지할 책임은 무엇일까?”
+Opening Question: “S66의 기준을 우리 업무에 대입하면, 어떤 반복 한 가지를 먼저 정리하고 어디에 두며 누가 유지하면 좋을까요?”
 
 Speaker Flow:
 
-1. (0:00–3:00 / Reflection) 반복 정보·절차·완료 근거 중 먼저 정리할 한 가지와 검토/갱신 책임을 조용히 떠올리게 한다. 공유·실습은 강제하지 않는다.
-2. (3:00–8:00 / Q&A) 질문을 받되 무질문이면 유지할 위치와 책임을 기준으로 예비 질문을 회수한다. 기능 수를 늘리는 답으로 유도하지 않는다.
-3. (8:00–10:00 / Transition) 실제 STATE-04-PERF 성공을 유지한 채 S68에서 기준 결과만 짧게 회수하고 S69부터 별도 가상 변화가 시작됨을 예고한다. 다음 ACT의 가상 실패를 실제 Demo 이력으로 말하지 않는다.
+1. (0:00–0:30 / Reflection, R1) S66에서 명세·수행 방법·검증 근거를 C++ 검사 업무에 대입했다. 이제 자기 업무에서 반복되는 정보·절차·검증 근거를 떠올리게 한다. 화면의 세 후보는 같은 비중이며 특정 유형을 정답으로 고르지 않는다. 필기·파일 작성·저장소 수정·발표는 요구하지 않는다.
+2. (0:30–1:30 / Reflection, R1) ‘하나만 선택’을 짚고 현재 반복 비용이나 혼란이 큰 한 가지를 조용히 고르게 한다. 세 후보가 모이는 선은 선택지를 뜻하며 세 종류를 전부 합치거나 새 시스템을 만들라는 뜻이 아니다. 아직 고르지 못해도 강제로 답을 정하지 않는다.
+3. (1:30–2:15 / Reflection, R1) ‘어디에 둘까?’를 짚는다. 이미 관리되는 원래 출처와 팀의 흐름을 먼저 확인한다. 프로젝트 문서·재사용 수행 방법·날짜가 있는 검증 기록은 위치를 생각할 예시이며 정보 종류와 특정 파일을 배타적으로 고정하지 않는다. 이 시간에 새 문서·Skill·Memory를 만들지 않는다.
+4. (2:15–3:00 / Reflection, R1) ‘누가 검토·갱신할까?’를 짚고 역할 또는 사람을 생각하게 한다. 검토자와 갱신 담당은 같은 사람일 수도 있다. 결정할 수 없으면 미확정으로 남기며 청중의 팀 역할을 대신 배정하지 않는다.
+5. (3:00–8:00 / Q&A, R2) 공유는 선택이며 질문을 받는다. 답변은 선택한 반복·둘 위치·검토/갱신 책임으로 회수한다. 기능 개수를 늘리는 방향이나 특정 도구를 정답으로 유도하지 않는다. 질문이 없으면 ‘이미 관리되는 출처가 있나요?’, ‘기준이나 측정 조건이 바뀌면 누가 확인하나요?’로 대화를 열거나 조용히 생각할 시간을 준다.8분에 답변을 마치고 초과 질문은 후속 확인으로 남긴다.
+6. (8:00–10:00 / Transition, R3) 아래 프로젝트 변화 질문으로 시선을 옮긴다. 방금 고른 구조와 정보가 프로젝트 변경 뒤에도 맞는지 점검할 필요를 묻되 실패나 원인을 미리 확정하지 않는다. 실제 STATE-04-PERF 성공은 기준점으로 유지하고 S68에서 짧게 회수한다. S69부터 별도의 가상 변화가 시작되며 실제 Demo의 실패 이력이 아니라는 기존 Transition을 유지한다.
 
-Evidence / Source: STATE-04-PERF, DEC-0018/0021, BEAT-035–038, INV-VERIFY-001. TEACHING_MODEL; bounded observed product success.
+Evidence / Source: STATE-04-PERF의 보존된 성공; DEC-0018/0021/0062/0079; BEAT-035–038; INV-VERIFY-001; INV-DELIVERY-001. TEACHING_MODEL / 개인 성찰 운영 질문이다. 실제 청중 답변·팀별 운영 결정·추가 기능의 효과를 수집하거나 관찰한 결과가 아니다.
 
-Claim Boundary: 이 작업을 실패한 Harness로 재해석하지 않는다. Subagent와 Memory는 조건부 선택이다. 다음 ACT의 개념 사례를 실제 Demo Product failure로 미리 말하지 않는다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: TEACHING_MODEL — 반복 한 가지와 위치·유지 책임을 생각하는 질문이다. 필수 실습·공개 답변·저장소 변경이 아니며 정답이나 팀별 선택을 만들어 주지 않는다. 새 문서·Skill·Subagent·Memory 추가를 전제하지 않는다. 보존된 실제 성공을 실패한 Harness로 재해석하거나 다음 ACT의 개념적 변화를 실제 Product failure로 말하지 않는다. R1/R2/R3는 정적 화면에서 발표자가 초점을 옮기는 운영 구분이며 Native animation·실제 리허설 검증이 아니다.
 
-Beginner Explanation: 먼저 반복되는 문제를 찾고, 필요한 구조만 고른다.
+Beginner Explanation: 매번 다시 찾는 정보, 다시 설명하는 순서, 완료를 확인할 근거 중 하나를 고른다. 그것을 어디에서 관리하고 누가 확인·수정할지 생각한다. 지금 직접 만들거나 발표할 필요는 없다.
 
-Advanced Insight: Project 변화가 가정을 무효화할 수 있는지 생각하되, 다음 ACT의 사례 결과를 먼저 공개하지 않는다.
+Advanced Insight: 새 구조를 추가하기 전에 원래 출처·재사용 비용·검증 요구를 확인하고 위치와 유지 책임을 함께 본다. 담당은 역할로 생각해도 되며 검토와 갱신을 반드시 다른 사람에게 배정할 필요는 없다. 기능 수를 늘리는 답으로 유도하지 않고 프로젝트 변경 시 가정·내용의 재확인 필요만 연다.
 
-C++ Vision Bridge: 앞 Slide의 Project별 C++ 적용 질문을 청중 업무로 가져온다.
+C++ Vision Bridge: S66의 프로젝트별 명세·수행 방법·완료 근거를 청중 자신의 업무로 가져오는 contextual cue다. 별도 C++ 삽화나 도구 목록·구현 지시를 추가하지 않는다.
 
-Demo Operation: 정적 기본 경로 — 세 성찰 관점과 어디에 두고 누가 갱신할지의 질문. 마지막 줄에 프로젝트 변화 뒤 방법을 어떻게 점검할지 제시하며 S68의 결과 회수와 구분한다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: 추가 Demo가 아닌 정적 성찰 화면이다. 발표자는 R1에서 세 후보→하나 선택→위치/담당 질문, R2에서 같은 질문을 기준으로 Q&A, R3에서 아래 변화 질문으로 시선을 옮긴다. 슬라이드 추가·애니메이션·제품/Agent/저장소 실행·새 Trial은 없다. 정적 화면 전체가 보이며 발표자의 가리키기와 설명 순서로 진행한다.
 
-Audience Interaction: 개인 성찰3분, 선택적 Q&A5분. 무질문이면 “어디에 두고 누가 갱신할까?”를 예비 질문으로 쓴다. 8분에 답변을 마치고 마지막2분을 ACT4 전환으로 보호한다.
+Audience Interaction: Reflection3분은 개인적으로 생각하고 공유는 선택이다. Q&A5분에는 질문이 없을 때 ‘선택한 한 가지는 이미 어디에 있나요?’, ‘누가 검토하고 어떤 변화가 생기면 갱신하나요?’를 예비 질문으로 쓴다. 답이 없거나 담당이 미정이어도 미확정으로 두며 실습·즉석 산출물을 요구하지 않는다.8분에 cutoff하고 마지막2분을 전환으로 보호한다.
 
 Transition: “여기까지 실제로 확인한 성공을 기준점으로 남기겠습니다. 다음에는 별도의 가상 프로젝트 변화에서 이 방법을 어떻게 점검할지 보겠습니다.”
 
-Time Management: Reflection3분 → Q&A5분 → Transition2분. 8분에 전환을 시작하며 초과 질의는 별도로 안내한다.
+Time Management: Reflection3분(연결0.5, 하나 선택1, 위치0.75, 검토/갱신0.75) → Q&A5분 → Transition2분.8분에 Q&A를 마치고10분에 S68로 이동한다. 지연 시 예시와 도구 설명을 줄이며 선택·위치·책임 및 실제 성공/가상 변화 경계는 유지한다. 실제10분 리허설은 UNVERIFIED다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S67, production/preview/act3/S67.png 및 production/preview/full/S67.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S67, production/preview/act3/S67.png 및 production/preview/full/S67.png. 정적 성찰/대화 화면이며 실제 청중 답변·제품 실행 캡처가 아니다. 기존32개 Demo fallback inventory에는 추가하지 않는다. 파일 대조는 production/evaluation/S67_REFLECTION_OWNERSHIP_REVISION.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0079의19필드·Reflection3→Q&A5→Transition2분·선택/위치/유지 책임·실습 없음 경계를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S67_REFLECTION_OWNERSHIP_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.

@@ -676,3 +676,20 @@ measurements or tool choices into C++ as if equivalent or verified. Existing
 GoogleTest/CTest/integration/benchmark/profiler examples stay in Notes with
 team-standard checks. New concrete Windows/shell/IDE/hardware instructions
 would still require their target-environment check. No new Trial or effect.
+
+
+## DEC-0079 — S67 one recurring need, location and maintenance ownership
+
+Preserve TEACHING_MODEL, T01-B,10minutes and Reflection3 → Q&A5 → Transition2.
+Three equally weighted candidates are recurring information, procedure and
+verification evidence. Select one need before considering where to keep it
+and who reviews/updates it. This is a reflection prompt, not an observed
+audience answer, required lab, mandatory new artifact or feature expansion.
+A reviewer/updater may be the same person; unresolved ownership stays open.
+
+Use static speaker-led focus for R1-R3, without claiming native reveal or
+rehearsal validation. Keep the former90-slide S64 reveal table as history
+and add current S67 operation without changing the Template/Variant set.
+Preserve STATE-04-PERF as bounded success, S68's callback and S69's separate
+conceptual change. Do not invent actual Harness failure, team choices,
+Subagent/Memory need or measured improvement. No new Trial or product run.
