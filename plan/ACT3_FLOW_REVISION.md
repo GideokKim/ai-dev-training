@@ -1,6 +1,16 @@
 # ACT3 Flow Revision — DEC-0062
 
-## Current S65 refinement — DEC-0077
+## Current S66 refinement — DEC-0078
+
+Pair the brightness-statistics specification, procedure and evidence with
+C++ inspection requirements in three rows. Retain the approved illustration
+bytes/crop at a smaller placement, and show input/build/equipment conditions
+as the connection from S65. Keep C++ implementation, tools and measurements
+as unverified teaching applications, not observed outcomes. Preserve the
+S67 reflection handoff, T03-A, Lecture5 and93/379.
+Review: [C++ transfer](../production/evaluation/S66_CPP_TRANSFER_REVISION.md).
+
+## Previous S65 refinement — DEC-0077
 
 Continue from S64's shared environment to repository-external conditions.
 Show the same repository and external instructions/Skills, settings and
@@ -165,7 +175,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S63 | Connect actual goal/Context/Skill inputs to the brightness-statistics task and behavior/measurement evidence; DEC-0075. |Demo3|
 | S64 | Connect inputs, Agent, verification and shared execution environment as the course Harness model; retain human review and bounded actual recap, DEC-0076. |Lecture4+Demo2|
 | S65 | Separate external-condition teaching relationships, TRIAL-006 observations and attribution limits; retain S64/S66 handoff, DEC-0077. |Lecture3|
-| S66 | Retain approved C++ illustration and apply specification/method/completion questions. |Lecture5|
+| S66 | Pair Demo specification/procedure/evidence with C++ inspection requirements; retain approved illustration and condition checks, DEC-0078. |Lecture5|
 | S67 | Reflect on one recurring friction and who maintains the response; hand off to ACT4. |Reflection3+Q&A5+Transition2|
 
 ## Preserved evidence

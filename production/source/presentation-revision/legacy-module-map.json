@@ -658,7 +658,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "입력·계약·빌드/하드웨어 가정, profile, 동작·회귀·통합 검증의 패턴을 C++ Vision 업무로 옮긴다. 특정 도구 작성법이나 실제 C++ 실행 근거는 아니다. DEC-0062: 앞의 구체적인 판단을 승인된 제조 검사 파이프라인 삽화와 연결한다.",
+      "rationale": "입력·계약·빌드/하드웨어 가정, profile, 동작·회귀·통합 검증의 패턴을 C++ Vision 업무로 옮긴다. 특정 도구 작성법이나 실제 C++ 실행 근거는 아니다. DEC-0062: 앞의 구체적인 판단을 승인된 제조 검사 파이프라인 삽화와 연결한다. DEC-0078: pair observed Demo criteria with conceptual C++ specification, workflow and verification; retain approved illustration and module coverage.",
       "notesOnly": [
         {
           "module": "M6",

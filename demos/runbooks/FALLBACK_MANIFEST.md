@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0077 local static-file inventory only (2026-10-24).
+Status: READY — DEC-0078 local static-file inventory only (2026-10-24).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `dc3897b0406d5efa887411bda2f653a63283907f471214bbc2358e0ef5204ebe`
-- Full Notes SHA-256: `c41796d1d6e7e7cb6d037f5695b5068a8192f6c93443522ab98c5ff0c98b83e7`
-- Full montage SHA-256: `4faf00e09bae3e5d43f716dabb5ae8c794121f6a2201f65d69481aa5c12b5b33`
+- Source SHA-256: `b549bbdfcf113394dc74b5d40e70013cb30cee111701176e6ed09c6d13ceb164`
+- Full Notes SHA-256: `fade3ef28367f421536c6ad284a28b7146d891c9dc80f3bc82050c5a075c55d9`
+- Full montage SHA-256: `ab919f32b3d0962f634e7d0b72cb6148d851b93935150b8be6db1de7d94e8d1d`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -89,7 +89,13 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
   S65 remains Lecture3 and is outside the32-file Demo fallback inventory.
   All32 fallback PNGs retain their previous hashes; source PPTX/Notes/montage
   identifiers are current. No Demo time or fallback role is added.
-  [Current package review](../../production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md).
+  [Prior S65 review](../../production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md).
+
+- DEC-0078 pairs Demo criteria with C++ inspection work on S66. This remains
+  a Lecture5 teaching transfer, outside the32-file Demo fallback inventory.
+  All32 fallback PNG hashes stay unchanged; current source PPTX/Notes/montage
+  identifiers are updated. Approved illustration bytes/crop are preserved.
+  [Current package review](../../production/evaluation/S66_CPP_TRANSFER_REVISION.md).
 
 ## Runbook to fallback mapping
 

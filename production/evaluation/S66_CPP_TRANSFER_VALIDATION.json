@@ -1,0 +1,144 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-24",
+  "baseline": "5070e2c",
+  "decision": "DEC-0078",
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act3SlideCount": 18,
+  "act3Minutes": 85,
+  "changedVisualSlides": [
+    "S66"
+  ],
+  "changedNotes": [
+    "S66"
+  ],
+  "unchangedOtherVisualPNGs": 92,
+  "unchangedOtherNotesRecords": 92,
+  "fieldsPerNotes": 19,
+  "notesRecords": 93,
+  "renderedPNGs": 111,
+  "fullAct3PNGParity": 18,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "nativeTables": [
+    "S47",
+    "S55"
+  ],
+  "nativeChart": "S58",
+  "nativeChartDataUnchanged": true,
+  "templates": 11,
+  "variants": 27,
+  "newTrial": false,
+  "newProductTest": false,
+  "demoRepositoryUnchanged": true,
+  "otherACTPackagesUnchanged": true,
+  "approvedImageFilesUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "b549bbdfcf113394dc74b5d40e70013cb30cee111701176e6ed09c6d13ceb164"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "82efa6565421dc23c7c41859fc7c111fe18d7404ccf2cf7047277e83cb9b410d"
+    }
+  ],
+  "fullNotesSha256": "fade3ef28367f421536c6ad284a28b7146d891c9dc80f3bc82050c5a075c55d9",
+  "fullMontageSha256": "ab919f32b3d0962f634e7d0b72cb6148d851b93935150b8be6db1de7d94e8d1d",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "sourceEvidenceAudit": {
+    "sources": [
+      "plan/SLIDE_MAP.md / S66 approved teaching transfer",
+      "plan/DEMO_MATRIX.md / Working Harness Success",
+      "plan/CLAIM_FREEZE.md / C++ teaching and target-environment limits",
+      "prototype/image-illustration-pilot/PROMPTS.md / original S53 asset"
+    ],
+    "evidenceType": "TEACHING_MODEL",
+    "observedDemoSourceState": "STATE-04-PERF",
+    "workingHarnessAuditExcerptSha256": "e4ec9d4b22c9c906433110c9e85c7e0bb79ffc6bc7f333e8df45f54ee3d0d418",
+    "demoCriteriaAndCppTeachingApplicationSeparated": true,
+    "specificationProcedureVerificationPairs": true,
+    "inputBuildEquipmentChecksRetained": true,
+    "cppToolsAndMeasurementsNotExecutedOrGuaranteed": true,
+    "approvedIllustrationSha256": "ee260d12c7a806b434e260ea929538925437b590c537354a1ab89ad3b8109a01",
+    "embeddedIllustrationChecks": [
+      {
+        "package": "AI_Dev_Training_Full",
+        "embeddedSha256": "ee260d12c7a806b434e260ea929538925437b590c537354a1ab89ad3b8109a01",
+        "crop": {
+          "l": "0",
+          "t": "8000",
+          "r": "0",
+          "b": "12000"
+        },
+        "unchangedBytesAndCrop": true,
+        "placementScale": 0.75
+      },
+      {
+        "package": "ACT_3",
+        "embeddedSha256": "ee260d12c7a806b434e260ea929538925437b590c537354a1ab89ad3b8109a01",
+        "crop": {
+          "l": "0",
+          "t": "8000",
+          "r": "0",
+          "b": "12000"
+        },
+        "unchangedBytesAndCrop": true,
+        "placementScale": 0.75
+      }
+    ],
+    "noNewImageGeneration": true,
+    "newExecution": false
+  },
+  "individualVisualReview": [
+    "S65",
+    "S66",
+    "S67"
+  ],
+  "staticFallbackInventory": 32,
+  "changedFallbackSlides": [],
+  "lecturePreviewOutsideDemoFallbackInventory": "S66",
+  "documentAudit": {
+    "status": "PASS",
+    "changedFiles": 24,
+    "introducedLocalLinksChecked": 44,
+    "fallbackPNGsChecked": 32,
+    "changedFallbackSlides": [],
+    "otherVisualPNGsUnchanged": 92,
+    "sourceOfTruthBudgetsPreserved": true,
+    "priorDecisionHistoryPreserved": true,
+    "historicalHandoffPreserved": true,
+    "currentArtifactsAndHashesMatch": true,
+    "otherACTPackagesUnchanged": true,
+    "demoRepositoryUnchanged": true,
+    "sensitiveTemporaryFiles": false
+  },
+  "officeSchemaValidation": {
+    "full": "PASS",
+    "act3": "PASS",
+    "originalBaseline": "5070e2c",
+    "baselineAware": true,
+    "autoRepair": false
+  }
+}

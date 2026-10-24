@@ -748,11 +748,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S65, production/pre
 
 Validation Status: ALIGNED — DEC-0077의19필드·Lecture3분·OBSERVED_META/TEACHING_MODEL 및 실제 관찰/추론 경계를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S66 — 우리 C++ 검사 작업에 옮겨 보면
+## S66 — 밝기 통계의 판단을 C++ 검사에 적용하기
 
 Slide ID: S66
 
-Working Title: 우리 C++ 검사 작업에 옮겨 보면
+Working Title: 밝기 통계의 판단을 C++ 검사에 적용하기
 
 ACT / Section: ACT 3 / 3H
 
@@ -762,36 +762,38 @@ Mode Split: Lecture 5 minutes
 
 Primary Message: Python 코드를 복사하지 않고 지킬 명세, 반복할 수행 방법, 완료를 판단할 근거를 C++ Vision 검사 업무에 대응한다. 실제 C++ 구현·회사 장비·측정 성과는 아니다.
 
-Opening Question: “밝기 통계에서 사용한 판단을 우리 검사 파이프라인에는 어떻게 적용할까?”
+Opening Question: “S65에서 본 실행 조건까지 고려하면, 밝기 통계 Demo의 세 기준을 우리 C++ 검사 업무에 어떻게 적용할까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 기존 삽화는 AI 생성 교육용 C++ Vision 전이 예이며 실제 장비 사진·측정 결과가 아님을 밝힌다. S10의 검사 업무 맥락과 연결한다.
-2. (1:00–2:30) 지킬 명세에서 ROI/픽셀값, 빌드·하드웨어 조건을 확인한다.
-3. (2:30–4:00) 재사용할 기준선/경로 조사/변경/동일 비교와 완료를 판단할 동작·회귀·통합/성능 근거를 대응한다.
-4. (4:00–5:00) 도구 이름을 복사하지 않고 현재 프로젝트에 맞게 확인하는 패턴을 회수한다.
+1. (0:00–0:45) S65의 ‘같은 코드여도 실행 조건을 확인한다’를 회수하고 우리 검사 업무로 전이한다. 위의 기존 삽화는 카메라·영상·처리·결과의 교육용 파이프라인이며 실제 회사 장비·C++ 구현 화면이 아니다. 아래 세 행은 이 파이프라인 전체에 적용할 기준이지 그림의 세 단계에 각각 하나씩 배당하는 순서가 아니다.
+2. (0:45–1:45) 명세 행을 왼쪽에서 오른쪽으로 읽는다. 밝기 통계에서는 출력6항목의 동작을 보존했다. C++ 검사에서는 ROI 좌표 범위·픽셀값 범위·입출력 명세를 프로젝트 문서와 코드에서 확인하고 보존할 기준으로 정한다. 구체적 범위·임계값·알고리즘은 이 자료가 새로 확정하지 않는다.
+3. (1:45–2:45) 수행 방법 행을 읽는다. 실제 Demo의 기준선 확보·해당 경로 조사·변경·같은 조건 비교를 검사 모듈에도 적용하는 패턴이다. 바꿀 경로와 가설을 먼저 확인하고 최소 변경 뒤 동작·회귀를 확인해 동일 조건에서 비교한다. 성능 Skill이 답을 주거나 Python 구현을 그대로 복사한다는 의미가 아니다.
+4. (2:45–4:00) 검증 근거 행을 읽는다. Demo의 테스트와 기록된 실행시간·Python 할당 피크를 C++ 업무의 동작·회귀·통합 검사와 적합한 성능 측정 근거에 대응한다. 도구 이름이 아니라 무엇을 확인할지를 먼저 고른다. GoogleTest/CTest·통합 테스트·benchmark/profiler는 예시이며 실제 팀 표준을 확인해야 한다. Python tracemalloc 수치를 C++ 메모리/RSS 기준으로 옮기거나 같은 성능 개선을 보장하지 않는다.
+5. (4:00–4:40) 마지막 입력·빌드·장비 조건을 짚는다. 비교할 입력, 빌드 모드/옵션, 실행 장비와 권한·runtime 같은 조건을 실제 프로젝트에서 확인·기록한다. Release build도 승인된 기존 예시일 뿐 어떤 명령·컴파일러·장비 구성을 여기서 지정하거나 검증한 것은 아니다. S65의 조건 확인을 C++ 작업에 연결한다.
+6. (4:40–5:00) 세 기준을 옮기는 것이며 실제 C++ Trial이나 회사 성과가 아니라는 범위를 회수한다. 다음 S67에서는 이 중 자기 업무에서 먼저 정리할 반복 한 가지와 검토·갱신 책임을 고르게 한다.
 
-Evidence / Source: BEAT-036, CLM-0016/0017/0030, OQ-011. TEACHING_MODEL. 삽화 출처: prototype/image-illustration-pilot/assets/S53.png, built-in image_gen, 2026-10-18. 생성 프롬프트: prototype/image-illustration-pilot/PROMPTS.md. 실제 화면·현장 사진·관찰 자료가 아니다.
+Evidence / Source: BEAT-036; CLM-0016/0017/0030; OQ-011; DEC-0062/0078; plan/DEMO_MATRIX.md의 TRIAL-008·STATE-04-PERF 실제 동작 보존·수행 절차·검증 기록; repository 성능 Skill. TEACHING_MODEL. 삽화 출처: prototype/image-illustration-pilot/assets/S53.png, built-in image_gen,2026-10-18; 프롬프트: prototype/image-illustration-pilot/PROMPTS.md. 승인된 이미지 bytes·crop(top0.08/bottom0.12)을 유지하고 화면 배치/크기만 조정한다. 실제 화면·현장 사진·C++ 관찰 자료가 아니다.
 
-Claim Boundary: 교육용 전이 예다. C++ Demo를 구현하거나 팀별 실제 도구 규칙을 검증한 것이 아니다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: TEACHING_MODEL — 왼쪽은 보존된 밝기 통계 Demo의 기준 요약, 오른쪽은 C++ 검사 업무에 대입할 교육용 질문과 적용 방향이다. 실제 C++ 구현·테스트 실행·회사 장비·성능 결과는 없다. ROI·픽셀 명세와 빌드·장비·도구 선택은 팀에서 확인하며 구체적 Windows/shell/IDE/hardware 지시를 추가하려면 별도 검증한다. 측정 수치·알고리즘·Skill 효과를 다른 언어/장비에 그대로 이전하지 않는다. 기존 이미지의 범위와 단독 Harness/Skill 인과효과 미입증 경계를 유지한다.
 
-Beginner Explanation: 언어가 달라도 먼저 프로젝트 규칙과 확인 방법을 찾는다.
+Beginner Explanation: 먼저 무엇을 지킬지 정하고, 어떻게 조사·변경할지 정하며, 무엇을 확인해야 완료인지 정한다. Python 밝기 통계에서 사용한 이 세 기준을 C++ 검사 모듈의 명세·일하는 절차·확인 근거에 대입한다. 입력과 빌드·장비 조건도 함께 확인한다.
 
-Advanced Insight: Build mode, hardware assumptions, module contracts, and regression criteria belong to the actual project.
+Advanced Insight: Project Context→알고리즘/입출력 명세·빌드/하드웨어 가정, 반복 절차→대상 경로의 기준선/가설/변경/회귀/동일 조건 비교, unittest·benchmark script→팀의 적합한 동작/통합/성능 근거로 대응한다. 도구와 측정량은 실제 프로젝트에 맞춰 선택하고 동작 동등성·측정 조건·미확인 범위를 함께 검토한다. Python 할당 피크는 C++ 메모리 지표로 직접 이전할 근거가 아니다.
 
-C++ Vision Bridge: PRIMARY — Python `unittest` → GoogleTest/CTest or integration checks; benchmark script → benchmark/profiler; Project Context → build, algorithm, hardware constraints. Team standards must be checked before choosing tools.
+C++ Vision Bridge: PRIMARY — 화면 전체가 세 기준의 C++ 적용이다. unittest→GoogleTest/CTest 또는 통합 검사, benchmark script→benchmark/profiler는 기존 예시이며 권장 도구를 새로 확정하지 않는다. 빌드 모드·장비 가정·ROI/픽셀 명세·회귀 기준과 팀 표준을 확인한다.
 
-Demo Operation: 정적 기본 경로 — 기존 승인된 카메라/영상/처리/결과 삽화를 보존하고 아래 세 기준을 ROI·픽셀·빌드 조건, 기준선/경로 조사, 동작/회귀/성능 검증에 대응한다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: Lecture5분의 정적 전이 도식 — 기존 승인된 검사 파이프라인 삽화를 짚은 뒤 명세/수행 방법/검증 근거를 각 행의 Demo→C++ 순서로 대응한다. 마지막 실행 조건을 회수하고 S67로 이동한다. 실제 C++ 결과 화면처럼 말하지 않는다. 제품·Agent·Demo repository·컴파일러·테스트·benchmark를 실행하거나 새 Trial을 만들지 않는다. Demo 시간을 추가하지 않는다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: ‘우리 검사 코드에서 출력6항목 보존에 해당하는 명세는 무엇일까요?’를 짧게 생각하게 하고 ROI·픽셀·입출력 조건의 실제 확인으로 회수한다. 정답이나 팀별 수치를 즉석에서 만들어 주지 않으며 필수 실습·공개 답변·별도 Q&A 시간을 추가하지 않는다.
 
 Transition: “우리 팀에서 먼저 정리할 반복 한 가지와 유지할 책임을 골라 보겠습니다.”
 
-Time Management: Lecture5분: 업무 연결1, 명세1.5, 방법/근거1.5, 전이 범위/전환1.
+Time Management: Lecture5분: S65/삽화 연결0.75, 명세1, 수행 방법1, 검증 근거1.25, 실행 조건0.67, 적용 범위/전환0.33. 지연 시 도구 이름과 측정량 상세 설명을 줄이고 세 행의 대응·입력/빌드/장비 조건·교육용 범위는 유지한다.5분에 S67로 이동한다. 실제 리허설은 UNVERIFIED다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S66, production/preview/act3/S66.png 및 production/preview/full/S66.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S66, production/preview/act3/S66.png 및 production/preview/full/S66.png. 교육용 전이 도식·승인된 AI 삽화이며 실제 C++ 실행 캡처가 아니다. Lecture 보조 Preview로 기존32개 Demo fallback inventory에는 추가하지 않는다. 파일 대조는 production/evaluation/S66_CPP_TRANSFER_REVISION.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0078의19필드·Lecture5분·TEACHING_MODEL·기존 이미지와 실제/교육용 적용 경계를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S66_CPP_TRANSFER_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S67 — 우리 팀의 반복 한 가지를 고르면
 

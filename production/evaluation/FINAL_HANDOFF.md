@@ -2,7 +2,10 @@
 
 갱신일:2026-10-24 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 수정은 DEC-0077의 S65다. 저장소와 외부 조건이 한 실행에 적용되는
+최신 수정은 DEC-0078의 S66이다. 밝기 통계 Demo의 명세·수행 방법·검증 근거를
+C++ 검사 업무에 대응하는 세 행으로 정리했다. 승인된 삽화와 교육용 범위를
+유지하고 입력·빌드·장비 조건을 S65에서 이어받아 S67의 자기 업무 성찰로 연결한다.
+이전 수정은 DEC-0077의 S65다. 저장소와 외부 조건이 한 실행에 적용되는
 교육용 관계도, TRIAL-006의 실제 관찰, 해석의 한계를 분리했다. 경고만으로
 도구 실행·결과 기여를 판단하지 않으며 설정·권한의 전체 감사도 주장하지 않는다.
 이전 수정은 DEC-0076의 S64다. S63의 입력·작업·검증 관계를 전체 Harness로
@@ -50,13 +53,14 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `dc3897b0406d5efa887411bda2f653a63283907f471214bbc2358e0ef5204ebe` |
+| PPT SHA-256 | `b549bbdfcf113394dc74b5d40e70013cb30cee111701176e6ed09c6d13ceb164` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `c41796d1d6e7e7cb6d037f5695b5068a8192f6c93443522ab98c5ff0c98b83e7` |
+| Notes SHA-256 | `fade3ef28367f421536c6ad284a28b7146d891c9dc80f3bc82050c5a075c55d9` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `4faf00e09bae3e5d43f716dabb5ae8c794121f6a2201f65d69481aa5c12b5b33` |
+| Montage SHA-256 | `ab919f32b3d0962f634e7d0b72cb6148d851b93935150b8be6db1de7d94e8d1d` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [S65 저장소 밖 실행 조건과 관찰의 한계](S65_EXTERNAL_CONDITIONS_REVISION.md) |
+| 최신 검토 | [S66 밝기 통계 Demo의 세 기준을 C++ 검사로](S66_CPP_TRANSFER_REVISION.md) |
+| 이전 S65 검토 | [저장소 밖 실행 조건과 관찰의 한계](S65_EXTERNAL_CONDITIONS_REVISION.md) |
 | 이전 S64 검토 | [Harness 구조와 실행 환경](S64_HARNESS_STRUCTURE_REVISION.md) |
 | 이전 S63 검토 | [실제 밝기 통계 작업에서 구성의 역할](S63_TASK_ROLES_REVISION.md) |
 | 이전 S62 검토 | [실제 지식의 원래 출처와 Memory 판단](S62_KNOWLEDGE_SOURCES_REVISION.md) |
@@ -166,6 +170,11 @@ DEC-0077에서는 Full93장·ACT3 18장을 렌더링하고 S64–S66을 개별 �
 S65 화면·19필드 Notes만 바뀌었고 다른92장 PNG·Notes 및 장별 시간·Mode는 유지했다.
 S65는 Lecture Preview이며 기존32개 Demo fallback PNG는 모두 그대로다. 새 Trial·
 현재 환경 감사·제품 실행·설정 변경·Demo repository 변경·발표 묶음 생성은 없다.
+
+DEC-0078에서는 Full93장·ACT3 18장을 렌더링하고 S65–S67을 개별 검토했다.
+S66 화면·19필드 Notes만 바뀌었고 다른92장 PNG·Notes 및 장별 시간·Mode는 유지했다.
+승인된 이미지와 PPT 내장 이미지 bytes/crop을 대조했다. 기존32개 Demo fallback
+PNG는 그대로다. C++ 실행·측정·새 Trial·이미지 생성·발표 묶음 생성은 없다.
 
 ## 사용자가 확인할 남은 조건
 

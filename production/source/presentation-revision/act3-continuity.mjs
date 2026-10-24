@@ -1,8 +1,11 @@
 /** DEC-0062: repeated procedure, scoped evidence and conditional structures. */
+import fs from 'node:fs/promises';
+import path from 'node:path';
 import * as H from './helpers.mjs';
 
 export async function loadAct3ContinuitySlides(root, previous) {
  const {C,text,line,rect,arrow,CODE,FONT}=H;
+ const cppIllustration=new Uint8Array(await fs.readFile(path.join(root,'prototype/image-illustration-pilot/assets/S53.png')));
  const original={...previous};
  const make=(p,id,title,eyebrow,source,boundary,type='TEACHING_MODEL')=>{
   const s=H.frame(p,id,title,eyebrow,source,boundary,type);
@@ -482,16 +485,29 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S66(p){
-   const s=original.S66(p,H);
-   replace(s,'Engineering Pattern은 C++에도 전이된다','우리 C++ 검사 작업에 옮겨 보면');
-   replace(s,'Python Demo에서 확인한 질문을 C++ Vision 업무로','밝기 통계에서 쓴 판단을, 같은 검사 파이프라인의 업무로');
-   replace(s,'01  기준 조건은?','01  지킬 명세');
-   replace(s,'입력·계약에서\n빌드·하드웨어 가정까지','ROI·픽셀값 명세\n빌드·하드웨어 조건');
-   replace(s,'02  어디를 조사할까?','02  반복할 수행 방법');
-   replace(s,'측정한 코드 경로에서\n해당 모듈의 profile로','기준선·해당 경로 조사\n변경·동일 조건 비교');
-   replace(s,'03  무엇을 확인할까?','03  완료를 판단할 근거');
-   replace(s,'동작 계약에서\n모듈·회귀·통합 검증으로','동작·회귀·통합 검증\n성능 측정 결과');
-   replace(s,'baseline → profile → change → regression check','기준선 측정 → 경로 조사 → 변경 → 회귀 확인');
+   const s=make(p,'S66','밝기 통계의 판단을 C++ 검사에 적용하기','ACT 3 · 우리 검사 업무에 적용하기',
+    '교육용 C++ 검사 적용 예 · 밝기 통계의 판단을 대응 · 기존 AI 생성 삽화',
+    '실제 C++ 구현·회사 장비·측정 성과 아님 · 도구·빌드·장비 조건은 팀에서 확인');
+   s.images.add({blob:cppIllustration,contentType:'image/png',
+    alt:'S66 AI-generated teaching illustration; not a product screenshot or Trial output',
+    fit:'contain',position:{left:308.125,top:165,width:663.75,height:153},
+    crop:{left:0,top:0.08,right:0,bottom:0.12}});
+   text(s,'밝기 통계 Demo에서 확인',276,334,354,36,28,C.teal,true);
+   text(s,'C++ 검사 업무에 적용',776,334,440,36,28,C.teal,true);
+   line(s,64,378,1152,C.line,1);
+   const pairs=[
+    ['지킬 명세','출력 6항목 유지','ROI · 픽셀값 명세'],
+    ['수행 방법','기준선·조사·변경·비교','검사 모듈에 같은 절차'],
+    ['검증 근거','테스트 · 시간·할당량','동작·회귀·성능 검증']
+   ];
+   pairs.forEach(([label,demo,cpp],i)=>{
+    const y=386+i*60;
+    text(s,label,64,y,190,44,27,C.teal,true);
+    text(s,demo,276,y,354,44,26,C.ink,true);
+    s.shapes.add({geometry:'connector',kind:'straight',position:{left:666,top:y+22,width:64,height:0},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+    text(s,cpp,776,y,440,44,26,C.ink,true);
+   });
+   text(s,'입력·빌드·장비 조건도 함께 확인',64,567,1152,33,25,C.sub);
    return s;
   },
   S67(p){

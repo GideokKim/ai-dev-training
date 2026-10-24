@@ -1,6 +1,8 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
-> **최신 S65 수정: DEC-0077.** 같은 Repository와 저장소 밖 조건이 한 Agent 실행에 적용되는 관계를 보여준다. 상단 교육용 구성과 TRIAL-006의 실제 관찰·해석 한계를 구분하며 Meta 프레임·Lecture3분·기존 근거를 유지한다. [수정 검토](../production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md).
+> **최신 S66 수정: DEC-0078.** 명세·수행 방법·검증 근거를 밝기 통계 Demo→C++ 검사 업무의 세 대응 행으로 정리한다. 승인된 삽화와 교육용 경계·Lecture5분을 유지하고 입력·빌드·장비 조건을 S65와 연결한다. [수정 검토](../production/evaluation/S66_CPP_TRANSFER_REVISION.md).
+
+> **이전 S65 수정: DEC-0077.** 같은 Repository와 저장소 밖 조건이 한 Agent 실행에 적용되는 관계를 보여준다. 상단 교육용 구성과 TRIAL-006의 실제 관찰·해석 한계를 구분하며 Meta 프레임·Lecture3분·기존 근거를 유지한다. [수정 검토](../production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md).
 
 > **이전 S64 수정: DEC-0076.** S63의 입력·작업·검증 구도를 전체 Harness로 묶고 실행 환경을 작업·검증 양쪽의 공통 기반으로 시각화한다. 교육용 정의와 제한된 실제 구성 대응, 사람의 검토 책임 및 기존 시간·근거를 유지한다. [수정 검토](../production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md).
 
@@ -1758,29 +1760,29 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-033, BEAT-036, DEMO-04B, CLM-0016, CLM-0017, OQ-003, OQ-005, CLM-0030, OQ-011, DEC-0062, DEC-0016, DEC-0021, DEC-0077
 
 
-#### S66 — 우리 C++ 검사 작업에 옮겨 보면
+#### S66 — 밝기 통계의 판단을 C++ 검사에 적용하기
 
 - **Slide ID:** S66
 - **ACT:** ACT 3
 - **Section:** 3H C++ Vision Transfer
-- **Working Title:** 우리 C++ 검사 작업에 옮겨 보면
+- **Working Title:** 밝기 통계의 판단을 C++ 검사에 적용하기
 - **Primary Role:** 앞의 구체적인 판단을 승인된 제조 검사 파이프라인 삽화와 연결한다.
-- **Audience Question:** “밝기 통계에서 사용한 판단을 우리 검사 파이프라인에는 어떻게 적용할까?”
+- **Audience Question:** “S65에서 본 실행 조건까지 고려하면, 밝기 통계 Demo의 세 기준을 우리 C++ 검사 업무에 어떻게 적용할까요?”
 - **Core Message:** Python 코드를 복사하지 않고 지킬 명세, 반복할 수행 방법, 완료를 판단할 근거를 C++ Vision 검사 업무에 대응한다. 실제 C++ 구현·회사 장비·측정 성과는 아니다.
 - **Story Beat:** BEAT-036
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; 교육용 전이 사례다. C++ 프로젝트마다 실제 도구·규칙이 다를 수 있다.
-- **Visual Concept:** 기존 승인된 카메라/영상/처리/결과 삽화를 보존하고 아래 세 기준을 ROI·픽셀·빌드 조건, 기준선/경로 조사, 동작/회귀/성능 검증에 대응한다.
+- **Visual Concept:** 승인된 검사 파이프라인 삽화를 같은 bytes/crop으로 축소 배치하고 아래 세 행에서 Demo→C++ 대응을 보여준다. 지킬 명세: 출력6항목 유지→ROI/픽셀값 명세. 수행 방법: 기준선/조사/변경/비교→검사 모듈에 같은 절차. 검증 근거: 테스트/시간/할당량→동작/회귀/성능 검증. 마지막 줄은 입력·빌드·장비 조건 확인이며 세 행은 파이프라인 단계가 아닌 전체 업무의 세 판단 기준이다.
 - **Demo / Case Connection:** Python의 Project Context, `unittest`, benchmark script, reusable workflow를 C++의 CMake/build 설정, 모듈 계약·알고리즘 제약·하드웨어 가정, GoogleTest/CTest 또는 통합 테스트, Release build와 benchmark/profiler에 대응시킨다.
 - **Beginner Payoff:** 언어가 달라도 먼저 Project의 규칙과 검증 방법을 찾는다.
 - **Advanced Payoff:** 성능 Workflow가 Project의 빌드 모드, 하드웨어 가정, 회귀 검증과 연결되도록 설계한다.
 - **C++ Vision Bridge:** 이 Slide의 중심. 도구 선택은 예시로만 들고 팀의 실제 표준을 확인하도록 한다.
-- **Speaker Intent:** 앞의 구체적인 판단을 승인된 제조 검사 파이프라인 삽화와 연결한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Speaker Intent:** S65의 실행 조건 확인을 C++ 검사 업무로 가져와 실제 Demo에서 사용한 세 판단을 행별로 적용한다. 도구 이름·Python 구현·측정 수치를 그대로 옮기지 않고 명세·수행 방법·검증 근거를 팀의 조건에 맞춘다. 실제 C++ 성과와 교육용 적용을 구분하고 S67의 자기 업무 반복/유지 책임 질문으로 연결한다.
 - **Transition:** “우리 팀에서 먼저 정리할 반복 한 가지와 유지할 책임을 골라 보겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
-- **Evidence / Decision References:** BEAT-036, CLM-0016, CLM-0017, CLM-0030, OQ-011, DEC-0062
+- **Evidence / Decision References:** BEAT-036, CLM-0016, CLM-0017, CLM-0030, OQ-011, DEC-0062, DEC-0078
 
 
 #### S67 — 우리 팀의 반복 한 가지를 고르면

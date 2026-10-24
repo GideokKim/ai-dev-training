@@ -1,6 +1,6 @@
 # STEP 08 — Slide-to-Template Mapping
 
-> **현재 기준: DEC-0060 / 93장·379분; S65 수정 DEC-0077, 이전 S64 DEC-0076, 이전 S63 DEC-0075, 이전 S62 DEC-0074, 이전 S61 DEC-0073, 이전 S60 DEC-0072, 이전 S59 DEC-0071, 이전 S57–S58 DEC-0070, 이전 S57 DEC-0069, 이전 S56 DEC-0068, 이전 S55 DEC-0067, 이전 S53–S54 DEC-0066, 이전 S53 DEC-0065, S52 DEC-0064, S51 DEC-0063, ACT3 전체 흐름 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
+> **현재 기준: DEC-0060 / 93장·379분; S66 수정 DEC-0078, 이전 S65 DEC-0077, 이전 S64 DEC-0076, 이전 S63 DEC-0075, 이전 S62 DEC-0074, 이전 S61 DEC-0073, 이전 S60 DEC-0072, 이전 S59 DEC-0071, 이전 S57–S58 DEC-0070, 이전 S57 DEC-0069, 이전 S56 DEC-0068, 이전 S55 DEC-0067, 이전 S53–S54 DEC-0066, 이전 S53 DEC-0065, S52 DEC-0064, S51 DEC-0063, ACT3 전체 흐름 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
 
 Date: 2026-10-09
 
@@ -178,7 +178,7 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S63 — 밝기 통계 작업에 쓰인 구성의 역할 | T10-C | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-WORKFLOW, CMP-CPP | P+T; project-specific audit is not a universal feature-count comparison | DEMO-09 actual task inputs and verification roles; DEC-0075; CAPTURED, 3 min | Single state | Contextual | V01, V05, V08 |
 | S64 — 함께 작동하는 작업 환경, Harness | T03-B | CMP-EVIDENCE | CMP-WORKFLOW, CMP-CPP | P+T; observed STATE-04-PERF elements are inset from the course model | DEMO-09 connected Harness model with shared execution environment; DEC-0076; CAPTURED, 2 min | Single state | Contextual | V01, V05, V08 |
 | S65 — 같은 저장소여도 실행 조건은 다를 수 있다 | T03-B | CMP-EVIDENCE, CMP-CLAIM | CMP-CPP | M+T; observed global influence is a separate Meta frame, not product state | DEMO-04B preview: external-condition model, TRIAL-006 observation vs attribution limits; DEC-0077; Lecture3, no extra Demo time | Single state | Contextual | V01, V02, V07 |
-| S66 — 우리 C++ 검사 작업에 옮겨 보면 | T03-A | CMP-CPP, CMP-WORKFLOW | CMP-CLAIM | T | — | Single state | Primary | V08 |
+| S66 — 밝기 통계의 판단을 C++ 검사에 적용하기 | T03-A | CMP-CPP, CMP-WORKFLOW | CMP-CLAIM | T | Teaching transfer: specification/procedure/evidence pairs; DEC-0078; Lecture5, no Demo execution | Single state | Primary | V08 |
 | S67 — 우리 팀의 반복 한 가지를 고르면 | T01-B | CMP-WORKFLOW | — | T | — | R1–R3; see Section 8 | Contextual cue only; no CMP-CPP assignment | V09, V10 |
 | S68 — 여기까지는 잘 동작했다 | T07-C | CMP-STATE, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-03/Primary Product Demo endpoint callback; Lecture/Reflection, no extra Demo time | Single state | — | V02, V05 |
 | S69 — 개념 사례: Project와 Workflow는 현재 맞다 | T08-A | CMP-CLAIM | CMP-CPP | C | DEMO-04A WATCH / constructed starting condition; VISUAL, 2 min | Single state | Contextual | V06, V08 |

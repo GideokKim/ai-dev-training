@@ -657,3 +657,22 @@ Retain TRIAL-007's report/stderr discrepancy and TRIAL-008's partial global
 inventory for the detailed ACT4 case. Preserve the Meta double rule, Product
 State, S64/S66, Demo scope and no-new-Trial boundary. No new configuration,
 permission, Subagent/Memory instance or environment-isolation work is added.
+
+
+## DEC-0078 — S66 Demo-to-C++ specification, procedure and evidence
+
+Preserve TEACHING_MODEL, T03-A, PRIMARY C++ Bridge and Lecture5. Pair the
+retained brightness-statistics six-field behavior, baseline/investigation/
+change/comparison procedure and bounded test/runtime/allocation evidence
+with C++ inspection specification, module workflow and verification needs.
+The C++ side is a teaching application, not an executed implementation,
+company-device photograph, benchmark or demonstrated performance result.
+
+Keep the approved AI pipeline illustration bytes and crop. Scale/place it
+without editing the asset; its stages are context, not a one-to-one mapping
+to the three judgment criteria. Input/build/equipment conditions connect
+S65 to this transfer. Do not copy Python code, tracemalloc metrics, exact
+measurements or tool choices into C++ as if equivalent or verified. Existing
+GoogleTest/CTest/integration/benchmark/profiler examples stay in Notes with
+team-standard checks. New concrete Windows/shell/IDE/hardware instructions
+would still require their target-environment check. No new Trial or effect.

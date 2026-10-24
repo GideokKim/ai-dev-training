@@ -8659,3 +8659,82 @@ Render and inspect S65 with S64/S66. Validate93slides/379minutes, Lecture3,
 embedded Notes and unchanged other slides. Keep Windows, product/account,
 room and timed rehearsal UNVERIFIED. Follow the normal authorized Git
 checkpoint without changing the Demo repository or presenter bundles.
+
+
+# DEC-0078 — pair Demo criteria with C++ inspection work
+
+## Status
+
+ACCEPTED — explicit user request to revise S66 and align Notes/rendering.
+
+## Date
+
+2026-10-24
+
+## Context
+
+S65 highlights external execution conditions. S66 transfers the retained
+brightness-statistics engineering pattern to C++ inspection before S67 asks
+learners to choose a repeated task and maintenance responsibility.
+
+## Problem
+
+The large pipeline picture and separate C++ lists do not explicitly show
+how Demo specification, procedure and evidence become C++ task criteria.
+The picture's stages can also compete with the three different judgments.
+
+## Decision
+
+Keep the approved illustration bytes and crop, scale/place it as context,
+and show three concise Demo-to-C++ pairs for specification, work method and
+verification evidence. Keep input/build/equipment conditions visible and
+retain detailed examples and limitations in Notes. Preserve all other slides.
+
+## Rationale
+
+Direct pairs make the transfer readable without copying Python tools or
+claiming C++ results. Distinguish picture stages from task-wide judgment
+criteria, and connect S65 conditions to S67's own-project reflection.
+
+## Alternatives
+
+Keep separate lists; the source-to-application relationship stays implicit.
+Replace the approved image; no new illustration is needed for this request.
+Add executed C++ code or benchmarks; no new implementation/Trial is authorized.
+
+## Trade-offs
+
+Use fewer screen words and one pair per criterion. Put tool examples,
+measurement differences and full workflow conditions in Notes. Retain the
+image as context rather than the dominant explanation.
+
+## Related Invariants
+
+INV-DEMO-003, INV-DEMO-004, INV-RESEARCH-001, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S66 source, ACT3/Full PPTX and previews, S66 Notes, Slide Map, Template Map,
+ACT3 flow reference, Claim Freeze, module rationale and current source/delivery
+references. Preserve S65/S67, approved image files and the32-file Demo
+fallback inventory. S66 stays a Lecture teaching transfer.
+
+## Evidence
+
+User instruction; BEAT-036; CLM-0016/0017/0030; OQ-011; retained TRIAL-008/
+STATE-04-PERF specification, performance workflow and bounded verification;
+DEC-0062. Existing S53.png teaching illustration and provenance remain.
+The C++ side is conceptual; no company-device or performance evidence exists.
+
+## Training Relevance
+
+Transfer specification, repeatable investigation and completion evidence to
+another project while checking its actual tools, build and device conditions.
+
+## Follow-up
+
+Render and inspect S66 with S65/S67. Validate93slides/379minutes, Lecture5,
+embedded Notes and unchanged other slides. Recheck image bytes/crop and
+TEACHING_MODEL limits. Keep Windows, product/account, room and rehearsal
+UNVERIFIED. Follow the normal authorized Git checkpoint without changing
+Demo code, State tags or presenter bundles.

@@ -1,6 +1,13 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0077 / S65 external conditions and attribution limits.
+Latest refinement: DEC-0078 / S66 Demo-to-C++ criteria.
+Pair specification, procedure and verification evidence with C++ inspection
+work. Retain approved illustration bytes/crop at75% placement and connect
+input/build/equipment checks from S65 to S67 reflection. Preserve T03-A,
+Lecture5,93/379 and other slides/Notes. Review:
+`production/evaluation/S66_CPP_TRANSFER_REVISION.md`.
+
+Previous refinement: DEC-0077 / S65 external conditions and attribution limits.
 Show repository and possible external inputs to one Agent session. Separate
 TRIAL-006 observations from causal interpretations; retain the Meta double
 rule and detailed ACT4 evidence limits. Preserve T03-B, Lecture3,93/379 and

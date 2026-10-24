@@ -10,7 +10,9 @@
 
 현재 제작 기준은 **DEC-0060 /93장·379분(6시간19분)**이다. ACT2는 S32–S49/18장·81분이며, 연구 분리·의존성 답변 회수·성과 정리와 ACT3 연결을 개선한다. 기존90장의 시간·근거 범위를 보존한다. [ACT2 흐름 개선](production/evaluation/ACT_2_FLOW_REVISION.md), [번호 대조](plan/SLIDE_ID_MIGRATION_93.md), [ACT2 미리보기](production/preview/act2/montage.png). 최종93장 렌더·93개 내장 Notes와 ACT/Full 정합성 검토를 완료했다.
 
-최신 수정은 **DEC-0077 / S65 저장소 밖 실행 조건과 관찰의 한계**이다. 같은 Repository와 외부 지침·설정·권한이 한 Agent 실행에 적용되는 관계를 보여주고, TRIAL-006의 전역 Skills·시작 경고 관찰과 해석의 한계를 분리했다. Notes·Meta 프레임·Lecture3분과93장·379분을 유지한다. [S65](production/preview/full/S65.png), [연속3장](production/preview/act3/S64-S66-continuity.png), [검토 기록](production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md).
+최신 수정은 **DEC-0078 / S66 밝기 통계 Demo의 세 기준을 C++ 검사로** 정리다. 명세·수행 방법·검증 근거를 Demo→C++ 검사 업무의 세 대응 행으로 정리하고, 입력·빌드·장비 조건 확인을 S65와 연결했다. 기존 삽화의 bytes/crop과 교육용 경계·Lecture5분·93장·379분을 유지한다. [S66](production/preview/full/S66.png), [연속3장](production/preview/act3/S65-S67-continuity.png), [검토 기록](production/evaluation/S66_CPP_TRANSFER_REVISION.md).
+
+이전 수정은 **DEC-0077 / S65 저장소 밖 실행 조건과 관찰의 한계**이다. 같은 Repository와 외부 지침·설정·권한이 한 Agent 실행에 적용되는 관계를 보여주고, TRIAL-006의 전역 Skills·시작 경고 관찰과 해석의 한계를 분리했다. Notes·Meta 프레임·Lecture3분과93장·379분을 유지한다. [S65](production/preview/full/S65.png), [연속3장](production/preview/act3/S64-S66-continuity.png), [검토 기록](production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md).
 
 이전 수정은 **DEC-0076 / S64 함께 작동하는 Harness 구조와 실행 환경**이다. S63의 입력·작업·검증 구도를 전체 Harness로 묶고, 실행 환경이 Agent와 검증 도구를 함께 뒷받침하는 관계를 연결했다. 사람의 결과 검토 책임과 교육용 정의·실제 구성 대응의 경계를 유지한다. Notes와93장·379분을 정렬했다. [S64](production/preview/full/S64.png), [연속3장](production/preview/act3/S63-S65-continuity.png), [검토 기록](production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md).
 
