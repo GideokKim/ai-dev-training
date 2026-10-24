@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0076 local static-file inventory only (2026-10-23).
+Status: READY — DEC-0077 local static-file inventory only (2026-10-24).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `6c2018a99e8b3f0ef840d8670c82401c9ee2c233fb4c735115304f21e7725d1b`
-- Full Notes SHA-256: `9d0ea36821eca588d5caff2f95034925b801492b9043675ec01e717fa13442af`
-- Full montage SHA-256: `e9ea81e6678aa4d135f91fd1b2385dab72f2cc56ccfce8a5def317aa2a8211ed`
+- Source SHA-256: `dc3897b0406d5efa887411bda2f653a63283907f471214bbc2358e0ef5204ebe`
+- Full Notes SHA-256: `c41796d1d6e7e7cb6d037f5695b5068a8192f6c93443522ab98c5ff0c98b83e7`
+- Full montage SHA-256: `4faf00e09bae3e5d43f716dabb5ae8c794121f6a2201f65d69481aa5c12b5b33`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -83,7 +83,13 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
   environment on S64. Only S64 changes in the32-file fallback inventory;
   the other31 hashes remain unchanged. S64 keeps Lecture4 plus CAPTURED
   Demo2; the latter is the existing actual-configuration recap.
-  [Current package review](../../production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md).
+  [Prior S64 review](../../production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md).
+
+- DEC-0077 revises S65's external-condition diagram and bounded Meta preview.
+  S65 remains Lecture3 and is outside the32-file Demo fallback inventory.
+  All32 fallback PNGs retain their previous hashes; source PPTX/Notes/montage
+  identifiers are current. No Demo time or fallback role is added.
+  [Current package review](../../production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md).
 
 ## Runbook to fallback mapping
 

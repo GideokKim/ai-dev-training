@@ -8580,3 +8580,82 @@ plus CAPTURED Demo2, embedded Notes and unchanged other slides. Preserve the
 course model and actual-case boundary. Keep Windows, product/account, room
 and timed rehearsal UNVERIFIED. Follow the normal authorized Git checkpoint
 without regenerating presenter bundles or modifying the Demo repository.
+
+
+# DEC-0077 — separate external conditions from observed effects
+
+## Status
+
+ACCEPTED — explicit user request to revise S65 and align Notes/rendering.
+
+## Date
+
+2026-10-24
+
+## Context
+
+S64 now connects the Harness and shared execution environment. S65 asks what
+comes from outside the repository before S66 transfers the engineering
+pattern to C++ inspection work. Detailed Meta history belongs to ACT4.
+
+## Problem
+
+The current repository-plus-observation panels and long condition list do
+not show application to one session or clearly separate possible inputs,
+recorded observations and unproven causal interpretations.
+
+## Decision
+
+Show the same repository and external instructions/Skills, model/settings
+and permissions as inputs to one Agent session. Mark external application
+for checking. Use two concise rows for TRIAL-006's observed Skills/startup
+warnings and the limit that warnings alone do not prove execution or result
+contribution. Preserve the historical limits and detailed follow-up in Notes.
+
+## Rationale
+
+One session makes the shared environment question concrete without implying
+a new controlled comparison. Separate observed traces from possible inputs
+and causal attribution so the audience can interpret the evidence correctly.
+
+## Alternatives
+
+Keep broad panels and the condition list; their relationship remains implicit.
+Show two apparently measured runs; no controlled comparison supports them.
+Treat warnings as successful execution; retained evidence does not support it.
+
+## Trade-offs
+
+Use short role labels and two evidence rows on screen. Keep Hook/MCP names,
+OS/runtime, source details and TRIAL-007/008 qualifications in Notes. The
+screen is a reconstruction, not a raw capture or exhaustive inventory.
+
+## Related Invariants
+
+INV-DEMO-003, INV-DEMO-004, INV-RESEARCH-001, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S65 source, ACT3/Full PPTX and previews, S65 Notes, Slide Map, Template Map,
+ACT3 flow reference, Claim Freeze, module rationale, DEMO-04B preview cue,
+current source hashes and delivery references. Preserve S64 and S66 and the
+existing32-file Demo fallback inventory; S65 remains a Lecture preview.
+
+## Evidence
+
+User instruction; DEMO_MATRIX TRIAL-006 environment audit/global inventory
+and Meta Claim Status Table; DEC-0016/0021/0062; Claim Freeze Meta timeline.
+Keep global instruction injection text, Hook effect and MCP task-result use
+unproven as recorded. No product run or current configuration audit is added.
+
+## Training Relevance
+
+Record what actually applied to the session and distinguish available,
+loaded, executed and result-contributing components before assigning causes.
+
+## Follow-up
+
+Render and inspect S65 with S64/S66. Validate93slides/379minutes, Lecture3,
+embedded Notes and unchanged other slides. Keep Windows, product/account,
+room and timed rehearsal UNVERIFIED. Follow the normal authorized Git
+checkpoint without changing the Demo repository or presenter bundles.

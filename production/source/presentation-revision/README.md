@@ -1,6 +1,12 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0076 / S64 connected Harness and execution environment.
+Latest refinement: DEC-0077 / S65 external conditions and attribution limits.
+Show repository and possible external inputs to one Agent session. Separate
+TRIAL-006 observations from causal interpretations; retain the Meta double
+rule and detailed ACT4 evidence limits. Preserve T03-B, Lecture3,93/379 and
+all other slides/Notes. Review: `production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md`.
+
+Previous refinement: DEC-0076 / S64 connected Harness and execution environment.
 Keep S63's input/work/check arrangement and enclose it as one course model.
 The shared execution environment supports Agent work and verification; human
 review remains explicit. Preserve T03-B, Lecture4+CAPTURED Demo2,93/379 and

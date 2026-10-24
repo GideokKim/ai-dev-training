@@ -647,7 +647,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "Repository 밖의 지침·실행 환경·도구·권한 조건도 작업 결과 해석에 기록한다. 실행 맥락과 환경 조건을 확인하는 원리만 연결한다. DEC-0062: 제품 기능 목록을 강의하지 않고 실행 조건을 기록해야 하는 이유를 제한된 Meta 관찰로 예고한다.",
+      "rationale": "Repository 밖의 지침·실행 환경·도구·권한 조건도 작업 결과 해석에 기록한다. 실행 맥락과 환경 조건을 확인하는 원리만 연결한다. DEC-0062: 제품 기능 목록을 강의하지 않고 실행 조건을 기록해야 하는 이유를 제한된 Meta 관찰로 예고한다. DEC-0077: distinguish repository-external application conditions, retained TRIAL-006 observations and attribution limits; preserve module coverage.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2 · M6"
     },

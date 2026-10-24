@@ -1,11 +1,11 @@
 # DEMO-04B — Observed Training Production Meta Case
 
-> Current references: DEC-0060 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0077 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED SUPPORTING META ROLE
 
-Final Validation Status: READY — DEC-0060 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0077 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-058–059
 
@@ -97,9 +97,9 @@ Default is the offline static presentation. Open: `production/preview/full/S80.p
 
 Show S80–S82; preserve the report/stderr discrepancy as unresolved.
 
-Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
+Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Captured Alternative provenance: DEC-0077 current source package identity; S80-S82 PNGs are byte-identical to the previous checkpoint. Preserve the original DEC-0060 static summaries. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -124,3 +124,21 @@ No Product state change, MCP task-result use, full environment inventory, Skill-
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.
+
+
+## ACT3 preview only — S65 / DEC-0077
+
+S65 is a Lecture3-minute preview of this Meta topic, not an additional Demo
+slot. The upper diagram shows repository/external-condition relationships;
+the observed row summarizes TRIAL-006 global Skills and startup warnings.
+The limit row separates warnings from actual execution or result contribution.
+Keep settings/permission audit and individual causality unproven. Preserve
+the global-instruction injection limit, TRIAL-007 report/stderr discrepancy
+and TRIAL-008 partial inventory in Notes and the ACT4 case.
+
+Current lecture preview: `production/preview/full/S65.png` (1920x1080),
+with matching ACT3/Full Notes. This is a reconstructed diagram/record summary,
+not a raw CLI screenshot. Local SHA-256 is listed in the current review;
+target-PC playback remains UNVERIFIED. S65 is outside the existing32-file
+Demo fallback inventory. Core S80-S82 playback,8Demo minutes and all32
+fallback PNG hashes remain unchanged. No new Trial or product execution.

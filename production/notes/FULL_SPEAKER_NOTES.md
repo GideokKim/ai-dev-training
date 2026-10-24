@@ -2965,11 +2965,11 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S64, production/pre
 
 Validation Status: ALIGNED — DEC-0076의19필드·Lecture4+Demo2분·교육용 정의와 실제 구성 경계를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S65 — 같은 Repository라도 실행 조건은 다를 수 있다
+## S65 — 같은 저장소여도 실행 조건은 다를 수 있다
 
 Slide ID: S65
 
-Working Title: 같은 Repository라도 실행 조건은 다를 수 있다
+Working Title: 같은 저장소여도 실행 조건은 다를 수 있다
 
 ACT / Section: ACT 3 / 3G
 
@@ -2979,35 +2979,37 @@ Mode Split: Lecture 3 minutes
 
 Primary Message: 과거 Trial에서 전역 지침·Skills와 시작 경고의 흔적이 있었다. 적용 지침, 모델/설정, 권한, OS/runtime도 결과 해석 시 기록할 조건이지만 모든 항목의 인과효과나 완전한 환경 감사를 입증한 것은 아니다.
 
-Opening Question: “결과를 해석하려면 Repository 밖에서 무엇이 들어왔는지도 알아야 하지 않을까?”
+Opening Question: “S64의 실행 환경은 같은 Repository 파일만으로 모두 정해질까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00) 같은 Repository라도 외부 지침과 실행 조건이 다를 수 있다는 질문을 던진다.
-2. (1:00–2:00) TRIAL-006/007/008의 전역 지침·Skills 포함과 Hook/MCP 시작 경고라는 제한된 관찰을 예고한다. 경고 자체는 도구 실행/기여의 증거가 아니다.
-3. (2:00–3:00) 적용 지침·모델/설정·권한·OS/runtime을 기록할 조건으로 제시하고 완전한 inventory나 각 인과효과를 주장하지 않는다. ACT4의 Meta 기록 설명을 앞당겨 재강의하지 않는다.
+1. (0:00–0:20) S64의 아래 실행 환경을 회수한다. 이번에는 한 Agent 실행으로 같은 Repository와 저장소 밖 조건이 함께 들어오는 관계를 본다. 위 도식은 실행 조건을 설명하는 교육용 구성으로, 환경 두 개를 비교 실행한 실험이나 과거 Trial의 정확한 파일 트리가 아니다.
+2. (0:20–1:00) 왼쪽 코드·프로젝트 지침·문서를 짚고, 오른쪽 전역 지침/Skills, 모델·설정·권한을 짚는다. 외부의 점선과 ‘적용 확인’은 실제 세션에서 무엇이 적용됐는지 확인하라는 뜻이다. 같은 코드여도 세션에 들어오는 지침·사용할 모델/도구·허용된 작업 범위가 달라질 수 있다. 모든 항목이 이 Trial에서 달라졌거나 결과를 바꿨다고 말하지 않는다. OS/runtime도 기록할 조건이며 전체 환경 목록은 Notes에서 참고한다.
+3. (1:00–1:50) ‘실제 관찰’로 이동한다. TRIAL-006의 보존 기록에 전역 Skills4개 포함과 Hook 구성 경고·MCP 연결/인증 시작 문제가 있었다. 화면은 이를 ‘전역 Skills 포함 / 시작 단계의 경고’로 요약했다. Hook은 실행 전후 동작을 연결하는 장치, MCP는 외부 도구 연결 방식이라는 최소 설명만 필요할 때 덧붙인다. 시작 중 경고가 나온 사실과 도구가 실제 작업에서 쓰였는지는 다르다. 완전한 전역 지침 주입 원문은 별도로 보존되지 않았으므로 화면의 관찰 목록에 전역 지침 전체 로딩을 확정해 넣지 않았다.
+4. (1:50–2:35) ‘해석의 한계’를 읽는다. Hook이 실행돼 소스를 바꿨거나 MCP 결과가 작업에 기여했다는 근거는 없다. 모든 설정·권한의 전체 감사나 각 요소의 인과효과도 입증하지 않았다. TRIAL-006의 코드·동작 검사·benchmark는 해당 조건의 관찰로 유지하되 긴 Prompt만의 효과로 귀속하는 평가는 PARTIAL이다. 현재 Desktop 동작으로 확장하지 않는다. TRIAL-007의 보고와 stderr의 MCP 경고 불일치, TRIAL-008의 부분적 전역 영향 기록은 ACT4의 상세 Meta 사례에 남긴다.
+5. (2:35–3:00) 결과를 해석하려면 코드·Prompt뿐 아니라 적용 지침·설정·권한·실행 조건도 함께 남겨야 한다는 판단을 회수한다. 새 실험이나 설정 변경을 요구하지 않는다. 기존 Transition으로 우리 C++ 검사 업무의 명세·빌드·검증 조건에 이 패턴을 옮길 S66을 연다.
 
-Evidence / Source: TRIAL-006/007/008, DEC-0016/0021, BEAT-033/036. OBSERVED_META / TEACHING_MODEL.
+Evidence / Source: plan/DEMO_MATRIX.md의 STEP07 DEMO ENVIRONMENT AUDIT AND DECISION UPDATE / TRIAL-006 Impact 및 Global Harness Inventory, Meta Claim Status Table; plan/CLAIM_FREEZE.md의 TRIAL-006→DEC-0016→TRIAL-007/008 경계; DEC-0016/0021/0062/0077; BEAT-033/036; DEMO-04B. OBSERVED_META / TEACHING_MODEL. 과거 Codex CLI0.154.0 기록이며 현재 호스트 설정을 다시 감사한 것이 아니다. 메인 관찰 줄은 TRIAL-006으로 한정하고 후속007/008 기록은 기존 불일치·부분 범위를 보존한다.
 
-Claim Boundary: 전체 영향의 완전한 inventory가 아니다. Hook 실행이나 MCP task result가 관찰됐다고 말하지 않는다. TRIAL-007의 보고와 stderr 차이를 이 장에서 재해석하지 않는다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+Claim Boundary: OBSERVED_META / TEACHING_MODEL — 상단은 실행 조건의 관계도, 아래는 보존된 실제 관찰 요약과 해석의 한계다. 동일 저장소의 통제된 두 환경 비교나 인과 실험이 아니다. 전역 지침 파일의 존재·문서화된 발견 규칙과 완전한 주입 원문의 직접 관찰을 구분한다. Hook 경고는 Hook 실행·소스 변경의 증거가 아니며 MCP 시작 오류는 MCP task call/result 사용의 증거가 아니다. TRIAL-007의 보고/stderr 불일치를 해결한 것으로 표현하지 않는다. 전체 환경 inventory·개별 설정/권한의 인과효과·Prompt/Skill 우월성·현재 제품/계정 지원을 확정하지 않는다. 실제 Product State·측정 결과·Demo 역할은 유지한다.
 
-Beginner Explanation: 같은 repository여도 실행 설정이나 주변 지침은 다를 수 있다.
+Beginner Explanation: 저장소 안의 코드와 프로젝트 안내가 같아도, Agent가 시작할 때 적용된 개인 지침·설정과 허용 범위는 함께 확인해야 한다. 시작 중 경고를 봤다는 사실만으로 그 도구가 일을 했거나 답을 바꿨다고 판단할 수는 없다.
 
-Advanced Insight: Ambient Harness 요인을 기록하고 Trial의 attribution 범위를 제한하되 미확인 인과를 만들지 않는다.
+Advanced Insight: 적용 지침·모델/설정·권한·OS/runtime을 결과와 함께 기록하고 존재/로딩/실행/결과 기여를 구분한다. TRIAL-006의 bounded correctness·benchmark 관찰은 보존하면서 Prompt-only attribution을 PARTIAL로 유지한다. 현재 설정 파일을 과거 세션의 완전한 snapshot으로 소급하지 않는다. 전역 영향을 알아냈다는 사실만으로 전체 환경을 포착하거나 Trial 품질이 향상됐다고 주장하지 않는다.
 
-C++ Vision Bridge: 같은 C++ repository도 Toolchain, 권한, runtime 조건이 다를 수 있다는 정도로만 잇는다.
+C++ Vision Bridge: 같은 C++ Repository라도 Toolchain, 권한, runtime 조건이 다를 수 있다는 정도로만 잇는다. 구체적 빌드·검증 도구 선택과 명세 전이는 S66에서 회수한다.
 
-Demo Operation: 정적 기본 경로 — Repository 내부 구성 + 바깥에서 관찰된 지침/경고를 구분하고 기록할 조건과 미입증 인과효과를 분리한다. Meta 이중선 프레임을 유지한다. 현재 제품이나 Demo repository를 실행하지 않는다. 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: Lecture3분의 정적 보조 도식 — Repository → Agent와 외부 조건 → 적용 확인의 선을 읽고, 아래 실제 관찰 → 해석의 한계로 이동한다. Meta 이중선 프레임을 유지한다. DEMO-04B의 ACT4 상세 Timeline·보고 불일치를 여기서 재강의하거나 추가 Demo 시간으로 계산하지 않는다. 제품·Agent·Demo repository를 실행하지 않으며 현재 설정/권한을 변경하거나 새 Trial을 만들지 않는다.
 
-Audience Interaction: 필수 실습·공개 답변 없이 화면의 핵심 관계를 따라오게 한다. 장별 기존 시간·Mode 안에서 짧은 예측 질문만 사용한다.
+Audience Interaction: ‘코드가 같다는 사실만으로, 같은 조건에서 실행했다고 말할 수 있을까요?’를 잠시 생각하게 한 뒤 외부 조건의 적용 기록으로 회수한다. 필수 실습·공개 답변·별도 Q&A 시간은 추가하지 않는다.
 
 Transition: “이 작업 방법과 확인 기준을 우리 C++ 검사 업무로 옮겨 보겠습니다.”
 
-Time Management: Lecture3분: 질문1, 관찰과 한계1, 기록할 조건/전환1.
+Time Management: Lecture3분: S64 환경 질문 회수0.33, 두 입력의 관계0.67, 실제 관찰0.83, 해석 경계0.75, 기록 판단/전환0.42. 지연 시 Skill4개 이름·Hook/MCP 정의·후속 Trial 상세를 생략한다. 관찰과 인과의 구분 및 설정/권한 적용 확인은 유지하고3분에 S66으로 넘긴다. 실제 리허설은 UNVERIFIED다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S65, production/preview/act3/S65.png 및 production/preview/full/S65.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S65, production/preview/act3/S65.png 및 production/preview/full/S65.png. 관계도·보존 기록 요약이며 raw 실행 캡처가 아니다. Lecture 보조 Preview로 기존32개 Demo fallback inventory에 추가하지 않는다. 파일 대조는 production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
-Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0077의19필드·Lecture3분·OBSERVED_META/TEACHING_MODEL 및 실제 관찰/추론 경계를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S66 — 우리 C++ 검사 작업에 옮겨 보면
 

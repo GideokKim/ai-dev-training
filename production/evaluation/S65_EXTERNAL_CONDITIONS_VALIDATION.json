@@ -1,0 +1,121 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-24",
+  "baseline": "fc511b6",
+  "decision": "DEC-0077",
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act3SlideCount": 18,
+  "act3Minutes": 85,
+  "changedVisualSlides": [
+    "S65"
+  ],
+  "changedNotes": [
+    "S65"
+  ],
+  "unchangedOtherVisualPNGs": 92,
+  "unchangedOtherNotesRecords": 92,
+  "fieldsPerNotes": 19,
+  "notesRecords": 93,
+  "renderedPNGs": 111,
+  "fullAct3PNGParity": 18,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "nativeTables": [
+    "S47",
+    "S55"
+  ],
+  "nativeChart": "S58",
+  "nativeChartDataUnchanged": true,
+  "templates": 11,
+  "variants": 27,
+  "newTrial": false,
+  "newProductTest": false,
+  "demoRepositoryUnchanged": true,
+  "otherACTPackagesUnchanged": true,
+  "approvedImageFilesUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "dc3897b0406d5efa887411bda2f653a63283907f471214bbc2358e0ef5204ebe"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "53603f0bd6ec21be807bd2867f81828147b13e26b7a5cf5afba3c275df1e510c"
+    }
+  ],
+  "fullNotesSha256": "c41796d1d6e7e7cb6d037f5695b5068a8192f6c93443522ab98c5ff0c98b83e7",
+  "fullMontageSha256": "4faf00e09bae3e5d43f716dabb5ae8c794121f6a2201f65d69481aa5c12b5b33",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "sourceEvidenceAudit": {
+    "sources": [
+      "plan/DEMO_MATRIX.md / TRIAL-006 environment audit and inventory",
+      "plan/DEMO_MATRIX.md / Meta Claim Status Table",
+      "plan/CLAIM_FREEZE.md / Meta timeline",
+      "plan/DECISIONS.md / DEC-0016 and DEC-0021"
+    ],
+    "evidenceType": "OBSERVED_META / TEACHING_MODEL",
+    "primaryObservedRun": "TRIAL-006",
+    "environmentAuditExcerptSha256": "7dab9660fa5aee225276b1d8eb373089f18c02f0fc8b045714eb604da6cdbab0",
+    "metaClaimTableExcerptSha256": "9d0b016efbb49ab2db0c4f3a41c2dbfb3a256cf4c65f8cab88978460b1831674",
+    "possibleConditionsSeparateFromObservedTraces": true,
+    "skillsAndStartupWarningsObserved": true,
+    "warningNotExecutionOrResultContribution": true,
+    "globalInstructionInjectionTextNotSeparatelyPreserved": true,
+    "settingsPermissionsAuditNotComplete": true,
+    "trial007DiscrepancyAndTrial008PartialInventoryRetained": true,
+    "noControlledEnvironmentComparison": true,
+    "noCurrentProductOrCausalClaim": true,
+    "newExecution": false
+  },
+  "individualVisualReview": [
+    "S64",
+    "S65",
+    "S66"
+  ],
+  "staticFallbackInventory": 32,
+  "changedFallbackSlides": [],
+  "lecturePreviewOutsideDemoFallbackInventory": "S65",
+  "documentAudit": {
+    "status": "PASS",
+    "changedFiles": 25,
+    "introducedLocalLinksChecked": 42,
+    "fallbackPNGsChecked": 32,
+    "changedFallbackSlides": [],
+    "otherVisualPNGsUnchanged": 92,
+    "sourceOfTruthBudgetsPreserved": true,
+    "priorDecisionHistoryPreserved": true,
+    "historicalHandoffPreserved": true,
+    "currentArtifactsAndHashesMatch": true,
+    "otherACTPackagesUnchanged": true,
+    "demoRepositoryUnchanged": true,
+    "sensitiveTemporaryFiles": false
+  },
+  "officeSchemaValidation": {
+    "full": "PASS",
+    "act3": "PASS",
+    "originalBaseline": "fc511b6",
+    "baselineAware": true,
+    "autoRepair": false
+  }
+}

@@ -1,8 +1,11 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일:2026-10-23 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
+갱신일:2026-10-24 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 수정은 DEC-0076의 S64다. S63의 입력·작업·검증 관계를 전체 Harness로
+최신 수정은 DEC-0077의 S65다. 저장소와 외부 조건이 한 실행에 적용되는
+교육용 관계도, TRIAL-006의 실제 관찰, 해석의 한계를 분리했다. 경고만으로
+도구 실행·결과 기여를 판단하지 않으며 설정·권한의 전체 감사도 주장하지 않는다.
+이전 수정은 DEC-0076의 S64다. S63의 입력·작업·검증 관계를 전체 Harness로
 묶고 실행 환경을 Agent 작업과 검증의 공통 기반으로 연결했다. 결과를 사람이
 검토하는 책임과 교육용 모델·제한된 실제 구성 대응의 경계를 유지한다.
 이전 수정은 DEC-0075의 S63이다. 실제 밝기 통계 작업에서 목표·Context·Skill이
@@ -47,13 +50,14 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `6c2018a99e8b3f0ef840d8670c82401c9ee2c233fb4c735115304f21e7725d1b` |
+| PPT SHA-256 | `dc3897b0406d5efa887411bda2f653a63283907f471214bbc2358e0ef5204ebe` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `9d0ea36821eca588d5caff2f95034925b801492b9043675ec01e717fa13442af` |
+| Notes SHA-256 | `c41796d1d6e7e7cb6d037f5695b5068a8192f6c93443522ab98c5ff0c98b83e7` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `e9ea81e6678aa4d135f91fd1b2385dab72f2cc56ccfce8a5def317aa2a8211ed` |
+| Montage SHA-256 | `4faf00e09bae3e5d43f716dabb5ae8c794121f6a2201f65d69481aa5c12b5b33` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [S64 함께 작동하는 Harness 구조와 실행 환경](S64_HARNESS_STRUCTURE_REVISION.md) |
+| 최신 검토 | [S65 저장소 밖 실행 조건과 관찰의 한계](S65_EXTERNAL_CONDITIONS_REVISION.md) |
+| 이전 S64 검토 | [Harness 구조와 실행 환경](S64_HARNESS_STRUCTURE_REVISION.md) |
 | 이전 S63 검토 | [실제 밝기 통계 작업에서 구성의 역할](S63_TASK_ROLES_REVISION.md) |
 | 이전 S62 검토 | [실제 지식의 원래 출처와 Memory 판단](S62_KNOWLEDGE_SOURCES_REVISION.md) |
 | 이전 S61 검토 | [이번 Context와 다음 작업의 지식](S61_CONTEXT_RETENTION_REVISION.md) |
@@ -157,6 +161,11 @@ DEC-0076에서는 Full93장·ACT3 18장을 렌더링하고 S63–S65를 개별 �
 S64 화면·19필드 Notes만 바뀌었고 다른92장 PNG·Notes 및 장별 시간·Mode는 유지했다.
 정적 대안32개 중 S64 식별자만 갱신했다. 공식 정의나 완전한 환경 감사로
 주장하지 않으며 새 Trial·제품 실행·Demo 변경·발표 묶음 생성은 없다.
+
+DEC-0077에서는 Full93장·ACT3 18장을 렌더링하고 S64–S66을 개별 검토했다.
+S65 화면·19필드 Notes만 바뀌었고 다른92장 PNG·Notes 및 장별 시간·Mode는 유지했다.
+S65는 Lecture Preview이며 기존32개 Demo fallback PNG는 모두 그대로다. 새 Trial·
+현재 환경 감사·제품 실행·설정 변경·Demo repository 변경·발표 묶음 생성은 없다.
 
 ## 사용자가 확인할 남은 조건
 

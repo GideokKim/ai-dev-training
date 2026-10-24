@@ -1,6 +1,8 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
-> **최신 S64 수정: DEC-0076.** S63의 입력·작업·검증 구도를 전체 Harness로 묶고 실행 환경을 작업·검증 양쪽의 공통 기반으로 시각화한다. 교육용 정의와 제한된 실제 구성 대응, 사람의 검토 책임 및 기존 시간·근거를 유지한다. [수정 검토](../production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md).
+> **최신 S65 수정: DEC-0077.** 같은 Repository와 저장소 밖 조건이 한 Agent 실행에 적용되는 관계를 보여준다. 상단 교육용 구성과 TRIAL-006의 실제 관찰·해석 한계를 구분하며 Meta 프레임·Lecture3분·기존 근거를 유지한다. [수정 검토](../production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md).
+
+> **이전 S64 수정: DEC-0076.** S63의 입력·작업·검증 구도를 전체 Harness로 묶고 실행 환경을 작업·검증 양쪽의 공통 기반으로 시각화한다. 교육용 정의와 제한된 실제 구성 대응, 사람의 검토 책임 및 기존 시간·근거를 유지한다. [수정 검토](../production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md).
 
 > **이전 S63 수정: DEC-0075.** 실제 밝기 통계 작업에서 목표·Context·Skill이 한 작업에 적용되고 테스트·benchmark가 판단 근거를 제공한 관계를 짧은 도식으로 정리한다. S62의 출처 감사와 S64의 전체 작업 환경 모델을 구분하며 근거·시간을 유지한다. [수정 검토](../production/evaluation/S63_TASK_ROLES_REVISION.md).
 
@@ -1731,29 +1733,29 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Evidence / Decision References:** BEAT-035, BEAT-036, STATE-04-PERF, OQ-011, CLM-0016, CLM-0017, CLM-0030, DEC-0062, DEC-0023, DEC-0076
 
 
-#### S65 — 같은 Repository라도 실행 조건은 다를 수 있다
+#### S65 — 같은 저장소여도 실행 조건은 다를 수 있다
 
 - **Slide ID:** S65
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 같은 Repository라도 실행 조건은 다를 수 있다
+- **Working Title:** 같은 저장소여도 실행 조건은 다를 수 있다
 - **Primary Role:** 제품 기능 목록을 강의하지 않고 실행 조건을 기록해야 하는 이유를 제한된 Meta 관찰로 예고한다.
-- **Audience Question:** “결과를 해석하려면 Repository 밖에서 무엇이 들어왔는지도 알아야 하지 않을까?”
+- **Audience Question:** “S64의 실행 환경은 같은 Repository 파일만으로 모두 정해질까요?”
 - **Core Message:** 과거 Trial에서 전역 지침·Skills와 시작 경고의 흔적이 있었다. 적용 지침, 모델/설정, 권한, OS/runtime도 결과 해석 시 기록할 조건이지만 모든 항목의 인과효과나 완전한 환경 감사를 입증한 것은 아니다.
 - **Story Beat:** BEAT-033, BEAT-036
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.
 - **Evidence Type:** OBSERVED_META / TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 대상 구성·기능 이용 가능성·trust·permissions; Trial 기록에서 global Harness 영향이 관찰됐다. 이는 전체 환경을 빠짐없이 파악했다거나 모든 항목이 결과를 바꿨다는 뜻은 아니다.
-- **Visual Concept:** Repository 내부 구성 + 바깥에서 관찰된 지침/경고를 구분하고 기록할 조건과 미입증 인과효과를 분리한다. Meta 이중선 프레임을 유지한다.
+- **Visual Concept:** 한 Agent 실행에 왼쪽 같은 Repository의 코드/프로젝트 지침/문서와 오른쪽 저장소 밖의 전역 지침·Skills/모델·설정/권한이 모이는 관계를 보여준다. 외부 조건 선은 점선과 적용 확인 라벨로 표시한다. 아래 실제 관찰은 TRIAL-006의 전역 Skills 포함·시작 경고, 해석 한계는 경고만으로 도구 실행·결과 기여를 알 수 없음으로 나눈다. Meta 이중선과 전체 감사·인과 미입증 경계를 유지한다.
 - **Demo / Case Connection:** TRIAL 기록에서 확인된 global 환경 영향만 짧게 예고한다. 상세 근거는 ACT 4의 DEMO-04B에 둔다.
 - **Beginner Payoff:** 결과가 예상과 다르면 Repository의 코드와 Prompt 외에도 환경을 살펴볼 수 있다.
 - **Advanced Payoff:** Trial의 인과 해석에서 ambient Harness 요인을 기록하고 한계를 드러낸다.
 - **C++ Vision Bridge:** 같은 C++ Repository라도 실행 설정, 권한, Toolchain 같은 환경 조건이 달라질 수 있다는 정도로 연결한다.
-- **Speaker Intent:** 제품 기능 목록을 강의하지 않고 실행 조건을 기록해야 하는 이유를 제한된 Meta 관찰로 예고한다. 기존 기획과 근거 범위를 유지하고 실제 기록·가정·운영 모델을 구분한다.
+- **Speaker Intent:** S64의 공통 실행 환경에서 Repository 밖의 적용 조건으로 시선을 옮긴다. 상단 관계도와 아래 실제 관찰을 구분하고 존재·로딩·실행·기여를 한 단계씩 다르게 판단한다. 통제된 환경 비교·전체 감사·개별 인과효과로 확대하지 않으며 상세 Meta Timeline은 ACT4에 남기고 S66의 C++ 전이로 연결한다.
 - **Transition:** “이 작업 방법과 확인 기준을 우리 C++ 검사 업무로 옮겨 보겠습니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
-- **Evidence / Decision References:** BEAT-033, BEAT-036, DEMO-04B, CLM-0016, CLM-0017, OQ-003, OQ-005, CLM-0030, OQ-011, DEC-0062
+- **Evidence / Decision References:** BEAT-033, BEAT-036, DEMO-04B, CLM-0016, CLM-0017, OQ-003, OQ-005, CLM-0030, OQ-011, DEC-0062, DEC-0016, DEC-0021, DEC-0077
 
 
 #### S66 — 우리 C++ 검사 작업에 옮겨 보면

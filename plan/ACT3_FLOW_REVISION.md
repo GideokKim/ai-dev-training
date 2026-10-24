@@ -1,6 +1,16 @@
 # ACT3 Flow Revision — DEC-0062
 
-## Current S64 refinement — DEC-0076
+## Current S65 refinement — DEC-0077
+
+Continue from S64's shared environment to repository-external conditions.
+Show the same repository and external instructions/Skills, settings and
+permissions contributing to one Agent session; mark external application
+as something to check. Separate the teaching diagram from TRIAL-006's
+loaded Skills/startup-warning observations and their attribution limits.
+Keep the Meta double rule, Lecture3, S64/S66 and93/379. Detailed Meta history
+remains in ACT4. Review: [External conditions](../production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md).
+
+## Previous S64 refinement — DEC-0076
 
 Keep S63's input/task/check arrangement and connect the whole as one Harness.
 Goal, Context and Skill contribute to Agent work; tools provide verification
@@ -154,7 +164,7 @@ then S69 begins the separate conceptual change. ACT2/ACT4 slides are preserved.
 | S62 | Show actual code/docs/Skill/Trial sources and recover the no-extra-Memory choice; retain four criteria in Notes, DEC-0074. |Lecture4|
 | S63 | Connect actual goal/Context/Skill inputs to the brightness-statistics task and behavior/measurement evidence; DEC-0075. |Demo3|
 | S64 | Connect inputs, Agent, verification and shared execution environment as the course Harness model; retain human review and bounded actual recap, DEC-0076. |Lecture4+Demo2|
-| S65 | Explain why external conditions matter using limited Meta observations. |Lecture3|
+| S65 | Separate external-condition teaching relationships, TRIAL-006 observations and attribution limits; retain S64/S66 handoff, DEC-0077. |Lecture3|
 | S66 | Retain approved C++ illustration and apply specification/method/completion questions. |Lecture5|
 | S67 | Reflect on one recurring friction and who maintains the response; hand off to ACT4. |Reflection3+Q&A5+Transition2|
 

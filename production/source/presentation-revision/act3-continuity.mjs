@@ -459,15 +459,26 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S65(p){
-   const s=make(p,'S65','같은 Repository라도 실행 조건은 다를 수 있다','ACT 3 · 결과를 해석할 환경을 함께 기록',
-    'OBSERVED_META · TRIAL-006/007/008의 전역 지침·시작 경고 관찰을 예고 · 상세는 ACT 4',
-    '경고는 실행 기여의 증거가 아님 · 전체 환경 목록·Hook/MCP 인과효과·현재 제품 동작은 미검증','OBSERVED_META / TEACHING_MODEL');
-   panel(s,64,237,446,235,'Repository 안','코드 · AGENTS.md\n상세 문서 · 재사용 Skill',C.white);
-   text(s,'+',542,324,50,48,36,C.teal,true);
-   panel(s,640,237,576,235,'바깥에서 들어온 관찰','전역 지침·Skills의 포함\nHook·MCP 초기화 경고',C.pale);
-   text(s,'함께 남길 조건',64,516,246,40,28,C.teal,true);
-   text(s,'적용 지침 · 모델/설정 · 권한 · OS/runtime',326,516,890,40,28,C.ink,true);
-   text(s,'관찰한 흔적과, 결과에 영향을 줬다는 판단은 구분한다',64,568,1152,35,27,C.ink,true);
+   const s=make(p,'S65','같은 저장소여도 실행 조건은 다를 수 있다','ACT 3 · Harness의 실행 조건을 함께 기록',
+    'OBSERVED_META · TRIAL-006 기록 요약 · 위 도식은 실행 조건의 교육용 구성',
+    '전체 설정·권한 감사·개별 인과효과는 미입증 · 현재 제품·계정은 별도 확인','OBSERVED_META / TEACHING_MODEL');
+   rect(s,64,224,356,172,C.white,C.line,1.5);
+   text(s,'같은 Repository',84,238,316,43,31,C.teal,true);
+   text(s,'코드 · AGENTS.md\n프로젝트 문서',84,300,316,78,27,C.ink);
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:420,top:310,width:110,height:0},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+   rect(s,538,244,224,132,C.white,C.teal,1.5);
+   text(s,'Agent',558,260,184,43,34,C.teal,true,FONT,'center');
+   text(s,'실행',558,320,184,43,31,C.ink,true,FONT,'center');
+   text(s,'적용 확인',770,264,110,31,24,C.teal,true,FONT,'center');
+   s.shapes.add({geometry:'connector',kind:'straight',position:{left:770,top:310,width:110,height:0},line:{fill:C.teal,width:2.5,style:'dash'},head:{type:'triangle',width:'sm',length:'sm'}});
+   rect(s,888,224,328,172,C.pale,C.line,1.5);
+   text(s,'저장소 밖 조건',908,238,288,43,31,C.teal,true);
+   text(s,'전역 지침·Skills\n모델/설정 · 권한',908,300,288,78,26,C.ink);
+   line(s,64,434,1152,C.line,1);
+   text(s,'실제 관찰',64,457,190,43,28,C.teal,true);
+   text(s,'전역 Skills 포함 · 시작 단계의 경고',290,457,926,43,29,C.ink,true);
+   text(s,'해석의 한계',64,535,190,43,28,C.teal,true);
+   text(s,'경고만으로 도구 실행·결과 기여는 알 수 없음',290,535,926,43,27,C.ink);
    return s;
   },
   S66(p){

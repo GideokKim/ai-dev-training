@@ -634,3 +634,26 @@ of every condition in the model. No isolated component causality, Skill or
 Prompt superiority, token saving or current Desktop guarantee is introduced.
 No Subagent or separate Memory becomes mandatory. Preserve S63's actual-case
 recap and S65's bounded external-environment Meta preview. No new Trial.
+
+
+## DEC-0077 — S65 external conditions, observation and attribution
+
+Preserve OBSERVED_META / TEACHING_MODEL, T03-B and Lecture3. The upper diagram
+shows one Agent session with repository inputs and possible external
+instructions/Skills, model/settings and permissions. The application check
+is a teaching relationship, not a controlled two-environment comparison or
+an exact TRIAL-006 file tree/loading trace.
+
+The observed row summarizes TRIAL-006's global Skills and startup warnings.
+Keep full global-instruction injection text as not separately preserved;
+file existence/discovery rules are not a complete observed injection trace.
+Hook configuration warnings do not establish Hook execution/source changes;
+MCP startup/authentication errors do not establish task calls or result use.
+Keep recorded correctness/benchmark facts bounded and Prompt-only attribution
+PARTIAL. Do not infer a complete settings/permissions audit, isolated causal
+effects, improved Trial quality, or current Desktop/account guarantees.
+
+Retain TRIAL-007's report/stderr discrepancy and TRIAL-008's partial global
+inventory for the detailed ACT4 case. Preserve the Meta double rule, Product
+State, S64/S66, Demo scope and no-new-Trial boundary. No new configuration,
+permission, Subagent/Memory instance or environment-isolation work is added.
