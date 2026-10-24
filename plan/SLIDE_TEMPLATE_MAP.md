@@ -1,5 +1,23 @@
 # STEP 08 — Slide-to-Template Mapping
 
+## Current ACT5 operation — DEC-0082
+
+S86–S93 follow [ACT5_FLOW_REVISION](ACT5_FLOW_REVISION.md). All Primary
+Templates/Variants, stable IDs and per-Slide budgets stay fixed. S86 is the
+problem/response journey; S87 is bounded actual Product history; S88 is the
+selection rationale; S89 is result acceptance; S90 is work-system design.
+S91 uses symptoms before labels and S92 keeps the same A–E correspondence.
+S93 uses Chatbot→Prompt→Context→Harness→Loop, matching S86.
+
+For S87 T07-C/CMP-STATE, three chronological groups retain all seven named
+Git States in visible ordered metadata. These groups are not new States;
+no State is removed or synthesized. The static Demo remains2minutes. The
+prior small recap excerpts are not rendered; their source assets/provenance
+remain unchanged. This readability application adds no Template/Variant.
+
+S91 remains Case1+Transition4, S92 Lecture2+Reflection2, and S93
+Q&A4→Closing Transition2. No response/record/submission/commitment is required.
+
 ## Current ACT4 operation — DEC-0081
 
 S76–S85 follow [ACT4_FLOW_REVISION](ACT4_FLOW_REVISION.md). Every Template
@@ -217,14 +235,14 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S83 — 후속 기록도 원문과 다시 대조했다 | T11-B | CMP-EVIDENCE, CMP-CLAIM | CMP-TRIAL | M | DEMO-04B follow-up TRIAL-007/008; Lecture/Case, no additional Demo time | Single state | — | V02, V07 |
 | S84 — 실제 기록을 Loop의 단계에 대응하면 | T11-A | CMP-EVIDENCE, CMP-CLAIM | CMP-LOOP | M | Actual records mapped to5phases; partial follow-up, no quality result; no additional Demo time | Single state | — | V07 |
 | S85 — GPU 변경 뒤, 검증 조건을 다시 본다 | T03-C | CMP-CPP, CMP-LOOP, CMP-CLAIM | — | T with a separately dashed CONCEPTUAL example; no Product evidence frame | — | R1–R6; Case7/Reflection2/Q&A7/Transition4; current DEC-0081 | Primary | V08, V10 |
-| S86 — 전체 Story를 한 장으로 | T03-C | CMP-WORKFLOW | CMP-CPP | T | DEMO-12 story callback only; Lecture, outside 2-minute visual slot | Single state | Contextual | V10 |
-| S87 — 하나의 Repository가 문제에 대응해 진화했다 | T07-C | CMP-STATE, CMP-EVIDENCE | CMP-CLAIM | P | DEMO-12 observed Product evolution; VISUAL, 2 min | Single state | — | V01, V03, V05 |
-| S88 — 필요성이 입증되지 않은 것은 보류했다 | T10-A | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-CPP | P+T; this project’s audit is not a universal feature-count comparison | — | Single state | Contextual | V01, V05, V08 |
-| S89 — 위임이 늘어도 개발자 책임은 남는다 | T03-A | — | — | T | — | Single state | — | V10 |
-| S90 — AI-Native Development는 이 교육의 운영 모델 | T03-A | — | CMP-CPP | T | — | Single state | Contextual | V08 |
-| S91 — 어느 Layer에서 마찰이 반복되는가? | T10-B | CMP-DECISION, CMP-CPP, CMP-CLAIM | — | T; C++ example stays a transfer model, not a verified project procedure | — | Single state | Primary | V08, V09 |
-| S92 — 다음 작은 행동을 개인적으로 고른다 | T01-B | — | CMP-CPP | T | — | Single state | Contextual | V09 |
-| S93 — Q&A와 교육 마무리 | T01-C | — | — | T | — | Single state | — | V10 |
+| S86 — 문제에 맞춰, 일하는 방식을 넓혔다 | T03-C | CMP-WORKFLOW | CMP-CPP | T | DEMO-12 story callback only; Lecture, outside 2-minute visual slot | Single state | Contextual | V10 |
+| S87 — 실제 Demo는 문제에 맞춰 바뀌었다 | T07-C | CMP-STATE, CMP-EVIDENCE | CMP-CLAIM | P | DEMO-12; VISUAL2; three chronological groups retain all seven Product States; Loop paths separate; DEC-0082 | Single state | — | V01, V03, V05 |
+| S88 — 이번 문제에 필요한 구성만 선택했다 | T10-A | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-CPP | P+T; this project’s audit is not a universal feature-count comparison | — | Single state | Contextual | V01, V05, V08 |
+| S89 — 결과를 수용할지는 사람이 판단한다 | T03-A | — | — | T | — | Single state | — | V10 |
+| S90 — AI가 일할 조건과 확인 경로를 설계한다 | T03-A | — | CMP-CPP | T | — | Single state | Contextual | V08 |
+| S91 — 내 업무에서는 무엇이 반복해서 막힐까? | T10-B | CMP-DECISION, CMP-CPP, CMP-CLAIM | — | T; C++ example stays a transfer model, not a verified project procedure | Same-level A–E symptoms; no new case/execution; DEC-0082 | Single state | Primary | V08, V09 |
+| S92 — 고른 문제에서, 다음 행동 하나로 | T01-B | — | CMP-CPP | T | S91 same-letter action plus common evidence question; private Reflection2; DEC-0082 | Single state | Contextual | V09 |
+| S93 — Q&A와 교육 마무리 | T01-C | — | — | T | Q&A4 then Closing Transition2; original five-stage terminology; DEC-0082 | Single state | — | V10 |
 
 ### Historical Component Usage Index — earlier90-slide assignments
 

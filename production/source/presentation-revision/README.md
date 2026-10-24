@@ -1,6 +1,17 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0081 / ACT4 evaluation and the ACT5 handoff.
+Latest refinement: DEC-0082 / ACT5 history, matched actions and closing.
+Apply `act5-flow.mjs` after `act4-flow.mjs`. Preserve all93Slide IDs, every
+budget/Mode,11Templates/27Variants and evidence limits. Change only
+S86–S93 screens/Notes. S87 groups all seven Product States into three
+chronological problem/change rows and removes three tiny excerpt instances;
+the source assets/provenance stay intact. S91/S92 keep matching A–E and
+a common evidence question. S93 uses the original five journey names.
+Full93 and ACT5 8 are finalized/rendered together. Review:
+`production/evaluation/ACT_5_FLOW_REVISION.md`. Other85screens/Notes, native
+evidence, other image placements and ACT0–4 packages remain unchanged.
+
+Previous refinement: DEC-0081 / ACT4 evaluation and the ACT5 handoff.
 Apply `act4-flow.mjs` after `act34-handoff.mjs`. Preserve all93Slide IDs,
 budgets/Modes and evidence limits. Only S76–S85 screens/Notes change.
 S77 uses a native table; S79 separates work, observation and evidence-led

@@ -2,7 +2,13 @@
 
 갱신일:2026-10-24 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 수정은 DEC-0081의 ACT4 S76–S85 흐름·평가·실제 제작 기록과 ACT5 연결이다.
+최신 수정은 DEC-0082의 ACT5 S86–S93 전체 흐름이다. S87 실제 제품 이력,
+S91→S92 문제·행동·확인 근거, S93 원래 다섯 마무리 용어를 정렬했다.
+8개 화면/Notes를 수정했고 Full93+ACT5 8을 최종 패키지에서 렌더링했다.
+다른85개 화면/Notes, ACT0–4 PPT와 장별 시간/Mode·근거 범위는 동일하다.
+작은 회상 발췌3개는 S87 화면에서 내리고 원본 asset/provenance는 보존했다.
+실제 Windows·제품/계정·교육장·시간 리허설은 UNVERIFIED다. 발표 묶음은 갱신하지 않았다.
+이전 수정은 DEC-0081의 ACT4 S76–S85 흐름·평가·실제 제작 기록과 ACT5 연결이다.
 화면10개·Notes10개를 정렬하고 Full93+ACT4 18을 최종 패키지에서 렌더링했다.
 다른83개 화면·Notes와 장별 시간/Mode·근거 범위·승인 이미지는 유지한다.
 실제 Windows·제품/계정·교육장·시간 운영은 UNVERIFIED다. 발표 묶음은 갱신하지 않았다.
@@ -65,13 +71,15 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `408f4ba0d3ac5a60ee06f26573e09df1dc3743f9b32605220c27b558e6ef8063` |
+| PPT SHA-256 | `79e45b8befb25d64b8b92c3f0962115fe64cdc5dcd468079bd70a1a0e600a58b` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `1ea5dbb300aa194334b3237f288d3157a82e6a1de55beecfeb56a08cff816532` |
+| Notes SHA-256 | `49e476575460157c3d357ca42e93edb61477bcd64d60bdda9e85831923f5865d` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `f5bf83ab83a05c3be3cca6fbf9e1aee03ba5fad0baa4ff397df880e368a46b0d` |
+| Montage SHA-256 | `6d98ca3d53b5f272a44dbf16fc7f876537eb7f022016bee5a6a936b97274c411` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [ACT4 평가·Loop·실제 기록과 ACT5 연결](ACT_4_FLOW_REVISION.md) |
+| 최신 검토 | [ACT5 실제 이력·다음 행동·마무리](ACT_5_FLOW_REVISION.md) |
+| ACT5 | [ACT_5.pptx](../ACT_5.pptx), S86–S93/8장·30분 |
+| 이전 ACT4 검토 | [평가·Loop·실제 기록과 ACT5 연결](ACT_4_FLOW_REVISION.md) |
 | 이전 ACT3→ACT4 검토 | [유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md) |
 | 이전 S67 검토 | [반복 한 가지와 위치·유지 책임](S67_REFLECTION_OWNERSHIP_REVISION.md) |
 | 이전 S66 검토 | [밝기 통계 Demo의 세 기준을 C++ 검사로](S66_CPP_TRANSFER_REVISION.md) |
@@ -103,6 +111,15 @@ ACT별 시간40/63/81/85/80/30분. Mode143/73/88/21/22/32분은 각각
 Lecture/Demo/Case/Reflection/Transition/Q&A다. 휴식은 별도다.
 
 ## 완료된 로컬 확인
+
+DEC-0082: Full93+ACT5 8의101개 PNG,93개×19필드 Notes와 내장/ACT 대응,
+85개 기존 화면·Notes 보존, 기존 Native 표/차트 및 S87 외 이미지 bytes/crop/
+배치를 대조했다. ACT5 8장은 개별 검토하고 전체ACT overview와 S85→S86
+경계를 확인했다. 정적 대안32개 중 S86/S87의2개 hash만 바뀌었다. 패키지/
+layout/reimport 검사에서 오류0건, 기존 S47 표 높이 경고는 동일하다.
+추가 Office XSD 도구는 현재 Python의 defusedxml 미설치로 실행 불가이며
+PASS로 표시하지 않는다. Windows/실환경/리허설 검증을 대체하지 않는다.
+
 
 DEC-0081: Full93+ACT4 18의111개 PNG,93개×19필드 Notes와 내장/ACT 대응,
 S77 Native 표, 기존 표/차트·이미지·다른 ACT 패키지와 장별 배정을 대조했다.

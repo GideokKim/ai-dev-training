@@ -1,5 +1,17 @@
 # STEP 08 — Slide Template Architecture
 
+## Current ACT5 refinement — DEC-0082
+
+[ACT5_FLOW_REVISION](ACT5_FLOW_REVISION.md) aligns S86–S93 as distinct
+journey/history/selection/acceptance/system-design/problem/action/closing
+roles. S87 retains every named Product State in three chronological groups
+and keeps conceptual/Meta Loop examples separate. S91→S92 uses the same
+A–E problem/action correspondence plus a common evidence question. S93
+closes with Chatbot→Prompt→Context→Harness→Loop. Preserve93/379, ACT5
+8/30, all Slide budgets/Modes, stable IDs,11Templates/27Variants and all
+evidence limits. Earlier literal screen/operation cues are historical where
+they differ. ACT4's latest handoff remains DEC-0081.
+
 ## Current ACT4 refinement — DEC-0081
 
 S76–S85 now distinguish evaluation scope, representative-task risks, rule

@@ -1,5 +1,17 @@
 # STEP 08 — Speaker Notes Architecture
 
+## Current ACT5 refinement — DEC-0082
+
+[ACT5_FLOW_REVISION](ACT5_FLOW_REVISION.md) aligns S86–S93 as distinct
+journey/history/selection/acceptance/system-design/problem/action/closing
+roles. S87 retains every named Product State in three chronological groups
+and keeps conceptual/Meta Loop examples separate. S91→S92 uses the same
+A–E problem/action correspondence plus a common evidence question. S93
+closes with Chatbot→Prompt→Context→Harness→Loop. Preserve93/379, ACT5
+8/30, all Slide budgets/Modes, stable IDs,11Templates/27Variants and all
+evidence limits. Earlier literal screen/operation cues are historical where
+they differ. ACT4's latest handoff remains DEC-0081.
+
 > **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
 
 

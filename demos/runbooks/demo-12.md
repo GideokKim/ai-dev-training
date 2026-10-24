@@ -1,11 +1,11 @@
 # DEMO-12 — Observed Evolution Recap
 
-> Current references: DEC-0060 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0082 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — ACT 5 visual recap
 
-Final Validation Status: READY — DEC-0060 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0082 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-060–070
 
@@ -59,12 +59,17 @@ Follow the approved course mental-model evolution without implying automation.
 
 ## Expected Output
 
-Static story and State recap. S87 includes excerpts of the existing S18 crop
-diff diagram, S43 routing text and S58 recorded-data chart. The seven-State
-rail and the excerpts have separate regions; captions name the actual State
-ranges. These are existing teaching-slide renders, not raw execution captures
-or newly measured results. Use the excerpts for recall rather than rereading
-the small code or chart labels.
+Static recap of actual Product changes in S87, not execution captures.
+Read three chronological rows top to bottom: crop boundary problem→fix to
+end-exclusive specification (STATE-00→STATE-00-FIXED); repeated/growing
+project guidance→core/detail organization (STATE-01→STATE-02→STATE-03);
+repeated procedure→Skill reuse and verified Product change
+(STATE-04→STATE-04-PERF). All seven original State IDs remain visible in
+tracking metadata; these groups are not new States or maturity grades.
+Loop cases remain the earlier conceptual workflow and separate actual
+training-production reporting history, not extra Product States.
+The three older tiny recap excerpts are not rendered. Their original
+source assets/provenance remain available and unchanged.
 
 ## Verification
 
@@ -100,11 +105,11 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 Default is the offline static presentation. Open: `production/preview/full/S86.png`, `production/preview/full/S87.png`
 
-Use current S86–S87 PNGs after the DEC-0036 rendering checks. Full/ACT 5 parity requires the post-migration validation record. Read S87 State numbers 01–07 along the arrows: top left to right, then bottom right to left. Its excerpts recall earlier teaching slides rather than raw execution captures.
+Use the DEC-0082 S86–S87 PNGs. Current final-package/Notes/PNG parity is checked in production/evaluation/ACT_5_FLOW_REVISION.md. S86 is Lecture4 outside the S87 VISUAL2 slot. Read S87 top to bottom, problem→actual change→tracking IDs; do not point to excerpt images or use a serpentine rail Cue.
 
-Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
+Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_5_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Captured Alternative provenance: DEC-0082 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -125,6 +130,10 @@ Existing State history; DEC-0020/0021; Slide Map S86–87.
 No universal maturity path, complete automation, or new Trial.
 
 ## Trial / Run Record
+
+DEC-0082 validates the current final-package static files, Notes, PNG dimensions
+and hashes. No product run, Trial, extra State, measured gain or live approval.
+
 
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 

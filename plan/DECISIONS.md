@@ -9021,3 +9021,104 @@ the full ACT4 sequence and S85→S86. Check93x19Notes, budgets, traceability,
 S77 native table, protected tables/chart/assets and unchanged other Slides.
 Keep Windows, target room/product/account and timed operation UNVERIFIED.
 Commit/push normally to the existing origin/main without force or bundles.
+
+
+# DEC-0082 — clarify ACT5 product history and closing actions
+
+## Status
+
+ACCEPTED — explicit user approval of the ACT5 read-only review direction.
+
+## Date
+
+2026-10-24
+
+## Context
+
+The current deck has93Slides/379minutes. DEC-0081 closes ACT4's applied
+judgment and leaves the course recap to S86. The independent ACT5 review
+finds that internal State labels, tiny excerpts, repeated summaries and
+partly disconnected reflection questions weaken the closing sequence.
+The user authorizes implementing that review, aligning Notes/planning,
+rendering the full deck and committing/pushing the normal outputs.
+
+## Problem
+
+S87 requires repository knowledge and reverses its reading direction.
+S91 offers five problem categories, while S92's three prompts do not
+clearly carry every choice forward. S93 closes with different journey
+labels. S88–S90 repeats classifications without enough role separation.
+
+## Decision
+
+Keep93Slides/379minutes, ACT5 S86–S93 8/30, every Slide budget/Mode,
+all stable Slide/Beat/Section/Demo/Trial/State IDs and Template assignments.
+Change only ACT5's eight screens/Notes plus relevant planning/operations.
+
+Use S86 for problem/response recall. Group S87's seven actual Product
+States into three chronological problem/change rows with all IDs retained
+as visible tracking metadata. Keep the Product endpoint and distinguish
+ACT4's conceptual/actual-Meta Loop cases. Remove the three tiny recap image
+instances from this slide; retain their source files and provenance intact.
+
+Use S88 for the bounded selection reasons, S89 for human result acceptance,
+and S90 for designing the conditions/evidence path named by this course's
+AI-Native model. S91 presents symptoms before classification labels. S92
+keeps the same A–E correspondence and one common evidence question. Keep
+reflection private, nonmandatory and separate from Q&A. Review causes and
+current criteria before any justified system change.
+
+Use Chatbot→Prompt→Context→Harness→Loop in S93, matching S86. Retain
+Q&A4 followed by Closing Transition2 and the central closing message.
+
+## Rationale
+
+First-time learners need meaningful problems and responses more than
+internal tracking names. Distinct slide roles make repetition consolidate
+judgment. Matching a chosen problem to an action and evidence preserves
+transfer without introducing an exercise or implementation obligation.
+
+## Alternatives
+
+Retain the seven-node serpentine history and tiny excerpts; this leaves
+the reading burden. Add/reorder/remove slides or redistribute minutes;
+the current eight roles can fit the approved allocations. Invent a
+Product Loop or comparative tool effect; neither is supported.
+
+## Trade-offs
+
+S87 retains all State IDs but foregrounds three human-readable groups.
+The prior recap images remain available as source artifacts and historical
+records rather than being rendered at an unreadable size. Static operation
+and local review cannot prove room readability or delivery pace.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-NARRATIVE-002, INV-DEMO-003, INV-VERIFY-001,
+INV-RESPONSIBILITY-001, INV-DELIVERY-001, INV-LEARNING-003.
+
+## Affected Artifacts
+
+ACT5/Full PPTX; S86–S93 sources/Notes/previews; Slide/Template maps;
+relevant story/demo/claim/notes routers; DEMO-12 runbook/fallback identities
+and current delivery review references. Other ACT packages, Demo code/tags,
+source assets, Prototypes and presenter bundles remain unchanged.
+
+## Evidence
+
+Explicit user approval; bfc63d0 actual PPT/PNGs/Notes and the preceding
+ACT5 read-only review; existing seven States, TRIAL-001–008,
+DEC-0018/0021/0023/0081. No new execution, comparison or measured effect.
+
+## Training Relevance
+
+Recover the relation between a problem, a proportionate engineering
+response, the verification evidence and the human acceptance judgment.
+
+## Follow-up
+
+Finalize/render Full93+ACT5 8. Review all eight changed slides, the
+S85→S86 handoff, private reflection and closing order. Validate93x19Notes,
+fixed budgets/Modes, templates, unchanged85screens/Notes, native evidence,
+retained assets and current fallback identities. Keep Windows/room/product/
+account/timed rehearsal UNVERIFIED. Commit/push normally to origin/main.

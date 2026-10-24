@@ -1,5 +1,15 @@
 # STEP 08 — 통합 Slide Map (S01–S93)
 
+## Current ACT5 recap and closing — DEC-0082
+
+S86–S93 follow [ACT5_FLOW_REVISION](ACT5_FLOW_REVISION.md): distinct
+problem/response recap, bounded actual Product history, selection rationale,
+human acceptance, work-system design, A–E problem/action and closing roles.
+Preserve93/379, ACT5 8/30, every budget/Mode, stable IDs and evidence scope.
+S87 retains seven State IDs; three chronological groups are not new States.
+S93 uses Chatbot→Prompt→Context→Harness→Loop. Older literal screen cues are
+history where they differ from the current fields below.
+
 > **현재 ACT4 후반: DEC-0081.** S76–S85의 평가 범위·단계별 판단·실제 평가/보고 사례·C++ 적용과 S86 handoff를 정렬한다.93장·379분·장별 시간/Mode·근거 경계·Template/Beat IDs는 유지한다. S68–S75의 DEC-0080 흐름도 유지한다. [현재 설계](ACT4_FLOW_REVISION.md).
 
 > **최신 ACT3→ACT4 연결: DEC-0080.** 유지 책임·Skill/Workflow 용어를 연결하고 S72–S74를 확인 대상→정보/가설→조건부 변경 대상 선택으로 정렬한다. S63–S65·S80–S81의 재설명을 줄이고 S69·S79 가독성을 개선한다.93장·379분·장별 시간/Mode·실제/가상/Meta 경계는 유지한다. [설계](ACT3_ACT4_HANDOFF_REVISION.md).
@@ -2270,176 +2280,176 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 
 ### ACT 5
 
-#### S86 — 전체 Story를 한 장으로
+#### S86 — 문제에 맞춰, 일하는 방식을 넓혔다
 
 - **Slide ID:** S86
 - **ACT:** ACT 5
 - **Section:** 5A Full Story Recap
-- **Working Title:** 전체 Story를 한 장으로
-- **Primary Role:** 전체 여정을 한 흐름으로 회고한다.
-- **Audience Question:** “나는 지금 AI를 어떤 방식으로 사용하고 있을까?”
-- **Core Message:** Chatbot은 답을 구하고, Prompt는 Task를 구체화하며, Context는 필요한 Project 지식을 제공하고, Harness는 작업 환경을 설계하며, Loop는 피드백으로 System을 개선한다.
+- **Working Title:** 문제에 맞춰, 일하는 방식을 넓혔다
+- **Primary Role:** 각 대응이 필요했던 문제를 연결해 전체 여정을 회수한다. 개인 선택은 S91/S92에 남긴다.
+- **Audience Question:** “어떤 문제 때문에 다음 대응이 필요했을까요?”
+- **Core Message:** 답을 구하던 출발점에서 요청의 모호함, 프로젝트 설명 반복, 수행 절차 반복, 조건 변화에 대응하며 Prompt·Context·Harness·Loop를 필요에 따라 더했다. 앞의 방식이 사라지는 필수 성숙도 순서가 아니다.
 - **Story Beat:** BEAT-060
 - **Curriculum Trace:** ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; 이 교육의 진화 모델이다. 각 단계는 앞 단계를 대체하지 않는다.
-- **Visual Concept:** `CHATBOT → PROMPT → CONTEXT → HARNESS → LOOP`에 각 한 문장 설명을 붙이고, AI-Native Development는 다음 장에서 회수한다.
+- **Visual Concept:** 다섯 가로 열. 각 방식 위에 문제 단서, 아래에 대응을 둔다. Chatbot→Prompt→Context→Harness→Loop를 같은 용어로 회수한다. 강제 도입 순서가 아니다.
 - **Demo / Case Connection:** 전체 Demo 사례를 새로 시연하지 않고, 앞 단계에서 발생한 문제와 대응을 짧게 연결한다.
-- **Beginner Payoff:** 지금 위치에서 시도할 수 있는 다음 단계 하나를 찾는다.
-- **Advanced Payoff:** 각 Engineering 단계가 어떤 문제를 해결했는지 시스템 관점에서 설명한다.
+- **Beginner Payoff:** 외워야 할 단계보다, 지금 겪는 문제가 어떤 대응을 필요하게 하는지 본다.
+- **Advanced Payoff:** 문제 범위에 맞춘 대응과 고정된 기능 성숙도 평가를 구분한다.
 - **C++ Vision Bridge:** 단계별 설명에 기존 Vision 사례를 선택적으로 회상한다. 새로운 기술 사례는 추가하지 않는다.
-- **Speaker Intent:** 기능 이름을 나열하지 말고, 앞 단계의 한계가 다음 문제를 만들었던 흐름을 보여준다.
-- **Transition:** “전체 교육 모델 가운데, 하나의 Repository에서 실제로 확인한 변화만 다시 보겠습니다.” S87로 넘긴다.
+- **Speaker Intent:** 각 대응이 필요했던 문제를 연결해 전체 여정을 회수한다. 개인 선택은 S91/S92에 남긴다. DEC-0082의 화면·발표 운영을 따른다.
+- **Transition:** “전체 교육 모델 중, 제품 저장소에서 실제로 확인한 변화만 다시 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-060, INV-NARRATIVE-001, INV-NARRATIVE-002
 
 
-#### S87 — 하나의 Repository가 문제에 대응해 진화했다
+#### S87 — 실제 Demo는 문제에 맞춰 바뀌었다
 
 - **Slide ID:** S87
 - **ACT:** ACT 5
 - **Section:** 5A Primary Demo Evolution
-- **Working Title:** 하나의 Repository가 문제에 대응해 진화했다
-- **Primary Role:** Primary Product Demo의 실제 State 변화를 회고한다.
-- **Audience Question:** “이 Repository는 어떤 문제를 만나며 바뀌었나?”
-- **Core Message:** State의 변화는 기능 성숙도 등급이 아니라 각 문제에 대응해 기록된 Engineering history다.
+- **Working Title:** 실제 Demo는 문제에 맞춰 바뀌었다
+- **Primary Role:** 일곱 실제 Product State를 세 시간순 문제·변경 묶음으로 회수하고 Loop 사례와 경계를 구분한다.
+- **Audience Question:** “실제 Demo 제품은 어떤 문제에 대응해 바뀌었을까요?”
+- **Core Message:** 실제 제품 변경을 crop 경계 수정, 프로젝트 지침·상세 문서 정리, 재사용 Skill·검증의 세 시간순 묶음으로 회고한다. 일곱 Git State는 모두 유지하며 Loop의 가상 사례·실제 제작 기록은 Product 이력에 합치지 않는다.
 - **Story Beat:** BEAT-060
 - **Curriculum Trace:** ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; State 의미는 기록된 Demo evidence 범위에 한정한다. Benchmark 준비 commit은 보조 이력이지 별도 State가 아니다.
-- **Visual Concept:** `STATE-00 → STATE-00-FIXED → STATE-01 → STATE-02 → STATE-03 → STATE-04 → STATE-04-PERF`. 각 State에는 한 문구만 둔다.
-- **Demo / Case Connection:** `Repository / bug → Prompt + verification → Project Context → Context growth → Routing → Reusable Workflow → Working Harness Success`.
-- **Beginner Payoff:** 단계별 변화가 새 기능을 추가하기 위해서가 아니라 실제 문제에 대응했음을 본다.
-- **Advanced Payoff:** 측정·검증된 Product endpoint와 개념적·Meta 사례를 구별한다.
+- **Visual Concept:** 상단에서 Product 이력만의 범위를 밝힌다. 세 행은 crop 오류→명세 수정, 지침 반복·증가→기본 안내/상세 문서, 절차 반복→Skill 재사용/제품 검증이다. 각 행 아래에 전체 일곱 실제 State ID를 순서대로 보존한다. 역방향 rail과 작은 발췌는 사용하지 않으며 원본 asset/provenance는 보존한다. 하단에서 Loop는 앞 ACT의 가상 사례·실제 제작 기록과 분리했음을 명시한다.
+- **Demo / Case Connection:** TRIAL-002/S18; TRIAL-003/004/005A/B 및 S43; TRIAL-008·STATE-04-PERF/S58. DEMO-12는 실제 일곱 State의 정적 요약2분이며 Product Loop를 추가하지 않는다.
+- **Beginner Payoff:** 내부 State 이름을 외우지 않고, 실제 문제가 생겨 무엇을 바꿨는지 세 묶음으로 본다.
+- **Advanced Payoff:** 제품 변경 이력과 교육 모델·가상 사례·실제 Meta 이력의 범위를 나누고 bounded Product endpoint를 유지한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** Subagent나 Memory를 거치지 않았다는 점을 빈 State처럼 보완하지 않는다.
-- **Transition:** 그러면 현재 사례에는 왜 Subagent와 Memory가 없을까?
+- **Speaker Intent:** 일곱 실제 Product State를 세 시간순 문제·변경 묶음으로 회수하고 Loop 사례와 경계를 구분한다. DEC-0082의 화면·발표 운영을 따른다.
+- **Transition:** “이 실제 작업에서 Subagent와 Memory는 왜 추가하지 않았을까요?”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 1분 + Demo 2분 (VISUAL) = 3분
 - **Evidence / Decision References:** BEAT-060, INV-NARRATIVE-001, INV-NARRATIVE-002
 
 
-#### S88 — 필요성이 입증되지 않은 것은 보류했다
+#### S88 — 이번 문제에 필요한 구성만 선택했다
 
 - **Slide ID:** S88
 - **ACT:** ACT 5
 - **Section:** 5A Minimum Effective Harness Callback
-- **Working Title:** 필요성이 입증되지 않은 것은 보류했다
-- **Primary Role:** Minimum Effective Harness를 회수하고 불필요한 기능 추가를 경계한다.
-- **Audience Question:** “왜 최종 그림에 Subagent와 Memory가 없을까?”
-- **Core Message:** 현재 문제를 해결하는 데 필요성이 정당화되지 않았기 때문이다. 더 많은 기능이 더 높은 성숙도를 뜻하지 않지만, 적게 쓰는 것이 언제나 더 낫다는 뜻도 아니다.
+- **Working Title:** 이번 문제에 필요한 구성만 선택했다
+- **Primary Role:** 구성요소 이름을 재강의하지 않고, 현재 작업의 사용·보류 판단 이유를 회수한다.
+- **Audience Question:** “이 작업에서 각 구성요소가 필요했던 이유는 무엇일까요?”
+- **Core Message:** 현재 제품 작업은 Task Prompt·Context/routing·재사용 Skill·검증 도구를 썼다. 같은 코드의 의존 작업과 기존 지식 출처를 감사해 Subagent·별도 Memory를 보류했다. 이 선택은 비교 실험으로 우월성을 입증한 결과가 아니다.
 - **Story Beat:** BEAT-057, BEAT-060
 - **Curriculum Trace:** ACT 3 payoff; ACT 4 Minimum Effective Harness callback; ACT 5 synthesis.; ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; STATE-04-PERF의 bounded 성공과 이 교육의 프로젝트별 heuristic이다. 모든 Project에서 Subagent나 Memory가 불필요하다는 뜻은 아니다.
-- **Visual Concept:** `필요했던 구조: Context / Routing / Workflow / Verification`과 `이번 사례에서 정당화되지 않음: Subagent / Memory`를 구분한다.
+- **Visual Concept:** 왼쪽 사용한 구성 네 항목, 오른쪽 Subagent·Memory와 실제 보류 이유 두 개. 도구 이름보다 판단 이유를 강조하고 비교 실험 없음·현재 작업 한계를 둔다.
 - **Demo / Case Connection:** STATE-04-PERF 성공을 근거로 필요한 요소와 보류한 요소를 회고한다.
-- **Beginner Payoff:** 처음부터 모든 기능을 도입하지 않고 현재 마찰부터 찾는다.
-- **Advanced Payoff:** 각 구성요소의 비용과 이득을 실제 문제에 맞춰 판단한다.
+- **Beginner Payoff:** 도구 이름보다 지금 그 도구가 어떤 문제를 해결하는지 먼저 묻는다.
+- **Advanced Payoff:** 역할 간 의존성과 지식 원출처를 보고 구성 추가의 필요성을 평가한다. 실험하지 않은 대안의 효과를 단정하지 않는다.
 - **C++ Vision Bridge:** 필요하면 자신의 Repository 구성요소를 같은 질문으로 검토한다.
-- **Speaker Intent:** “Use what the problem justifies”라는 기준을 유지한다.
-- **Transition:** “필요한 구성요소를 선택한 뒤에도, 그 결과가 충분한지 판단하는 책임은 남습니다. 무엇을 확인하고 완료를 수용해야 할까요?” S89으로 이동한다.
+- **Speaker Intent:** 구성요소 이름을 재강의하지 않고, 현재 작업의 사용·보류 판단 이유를 회수한다. DEC-0082의 화면·발표 운영을 따른다.
+- **Transition:** “필요한 구성을 골랐더라도, 나온 결과를 받아들일지는 누가 판단할까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-057, BEAT-060, STATE-04-PERF, DEC-0018, DEC-0021, INV-NARRATIVE-001, INV-NARRATIVE-002
 
 
-#### S89 — 위임이 늘어도 개발자 책임은 남는다
+#### S89 — 결과를 수용할지는 사람이 판단한다
 
 - **Slide ID:** S89
 - **ACT:** ACT 5
 - **Section:** 5A Developer Responsibility
-- **Working Title:** 위임이 늘어도 개발자 책임은 남는다
-- **Primary Role:** AI와 개발자의 역할을 설명하고 판단·책임의 경계를 고정한다.
-- **Audience Question:** “AI가 더 많은 일을 맡아도 개발자가 계속 책임지는 것은 무엇인가?”
-- **Core Message:** Agent는 조사, 생성, 변경, 실행, 비교를 지원할 수 있다. 개발자는 목표, 요구사항, trade-off, Verification 기준, 완료 판단과 결과에 대한 책임을 유지한다.
+- **Working Title:** 결과를 수용할지는 사람이 판단한다
+- **Primary Role:** AI가 가져온 결과를 사람이 목표·판단·검증·책임의 질문으로 수용하는 관계를 설명한다.
+- **Audience Question:** “AI가 결과를 가져왔을 때, 무엇을 보고 받아들일까요?”
+- **Core Message:** AI가 만든 변경 내용·실행·검사·비교 기록을 받아도 목표와 제약, 선택의 적절성, 검증 근거, 남은 위험과 완료 수용은 개발자가 판단한다.
 - **Story Beat:** BEAT-061–062
 - **Curriculum Trace:** ACT 5 — beginning/ending comparison and AI-Native Development teaching model.; ACT 5 — Beginning/ending comparison and developer responsibility.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 이 교육에서 고정한 책임 원칙이다. Agent와 개발자 역할을 절대적인 분업 규칙으로 제시하지 않는다.
-- **Visual Concept:** `GOAL / JUDGMENT / VERIFICATION / RESPONSIBILITY`를 중심에 두고 AI가 도울 수 있는 작업을 주변에 표시한다.
+- **Visual Concept:** 왼쪽 AI 작업 결과→오른쪽 사람의 수용 판단. 목표·판단·검증·책임을 두 행×두 열의 네 질문으로 보여준다. 실제 보고서·제품 UI가 아닌 교육용 관계도다.
 - **Demo / Case Connection:** 전체 Story의 역할 변화. 새 Product 기능 사례는 없다.
-- **Beginner Payoff:** 결과를 받는 것과 결과에 책임지는 것을 구분한다.
-- **Advanced Payoff:** 위임 범위와 인간의 위험 판단·최종 검토를 함께 설계한다.
+- **Beginner Payoff:** 완료라는 말만 받지 말고, 원하는 변화와 확인 근거·남은 위험을 보고 수용한다.
+- **Advanced Payoff:** 위임 범위와 제약, 위험 판단, 검증과 최종 수용을 연결한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** AI 공포나 통제 서사가 아니라 개발자의 engineering judgment를 설명한다.
-- **Transition:** 이런 역할 변화를 이 교육에서는 어떤 모델로 부를까?
+- **Speaker Intent:** AI가 가져온 결과를 사람이 목표·판단·검증·책임의 질문으로 수용하는 관계를 설명한다. DEC-0082의 화면·발표 운영을 따른다.
+- **Transition:** “그 판단에 필요한 근거가 나오도록, AI의 작업 환경을 어떻게 준비할까요?”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-061, CLM-0023, CLM-0024, OQ-011, CLM-0001, CLM-0002, INV-RESPONSIBILITY-001, BEAT-062
 
 
-#### S90 — AI-Native Development는 이 교육의 운영 모델
+#### S90 — AI가 일할 조건과 확인 경로를 설계한다
 
 - **Slide ID:** S90
 - **ACT:** ACT 5
 - **Section:** 5A AI-Native Development
-- **Working Title:** AI-Native Development는 이 교육의 운영 모델
-- **Primary Role:** 전체 진화의 마지막 framing을 소개한다.
-- **Audience Question:** “AI에게 일을 많이 맡기면 AI-Native일까?”
-- **Core Message:** 이 교육의 AI-Native Development 모델은 Task boundary, Project Context, Reusable Workflow, Verification, Feedback Loop를 의도적으로 설계·운영하는 개발 방식이다.
+- **Working Title:** AI가 일할 조건과 확인 경로를 설계한다
+- **Primary Role:** 사람의 판단을 지원할 작업 조건·확인 경로의 설계를 이 과정의 AI-Native 운영 모델로 회수한다.
+- **Audience Question:** “판단할 근거가 나오도록 어떤 작업 조건을 준비해야 할까요?”
+- **Core Message:** 맡길 범위, 프로젝트 지식·재사용 절차, 검증·피드백 경로를 의도적으로 설계·운영하는 방식을 이 교육에서는 AI-Native Development라고 부른다. 새 기능이나 보편 표준의 도입이 아니다.
 - **Story Beat:** BEAT-061
 - **Curriculum Trace:** ACT 5 — beginning/ending comparison and AI-Native Development teaching model.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING_MODEL — DEC-0023에서 확정한 이 과정의 AI-Native Development framing. 공식·보편 정의로 말하지 않는다.
-- **Visual Concept:** `AI usage volume`을 `designed working system`과 나란히 두고, 뒤쪽 축에 개발자의 Goal·Judgment·Verification·Responsibility를 표시한다.
+- **Visual Concept:** 맡길 범위 / 일할 조건 / 확인과 피드백의 세 가로 열. Task boundary, Context·Workflow, Verification·Feedback의 기존 다섯 요소를 묶는다. 모델 이름은 이 교육에서 사용하는 범위로 회수한다.
 - **Demo / Case Connection:** 전체 교육의 모델을 요약하며 새로운 기능은 추가하지 않는다.
-- **Beginner Payoff:** 당장 AI 사용량을 늘리는 대신 작은 업무 마찰 하나를 개선할 수 있다.
-- **Advanced Payoff:** Model 성능과 Harness/System 설계를 구분해 다음 병목을 진단한다.
+- **Beginner Payoff:** AI에게 무엇을 맡기고, 어떤 정보를 보게 하며, 무엇으로 확인할지 준비한다.
+- **Advanced Payoff:** Model capability와 작업 System 설계를 구분하고, 필요한 근거·피드백 경로를 설계한다.
 - **C++ Vision Bridge:** 다음 장에서 개인 Repository와 Vision 업무로 전이한다.
-- **Speaker Intent:** 최종 용어와 문구는 Content Freeze 전에 검토할 항목으로 남긴다.
-- **Transition:** 자신의 Repository에서는 어떤 부분부터 바꿀 수 있을까?
+- **Speaker Intent:** 사람의 판단을 지원할 작업 조건·확인 경로의 설계를 이 과정의 AI-Native 운영 모델로 회수한다. DEC-0082의 화면·발표 운영을 따른다.
+- **Transition:** “이 가운데 내 업무에서 반복해서 막히는 문제 하나는 무엇일까요?”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-061, OQ-011, CLM-0023, CLM-0024
 
 
-#### S91 — 어느 Layer에서 마찰이 반복되는가?
+#### S91 — 내 업무에서는 무엇이 반복해서 막힐까?
 
 - **Slide ID:** S91
 - **ACT:** ACT 5
 - **Section:** 5B C++ Vision / My Repository Transfer
-- **Working Title:** 어느 Layer에서 마찰이 반복되는가?
-- **Primary Role:** 서로 다른 경험 수준의 청중이 현재 마찰에 맞는 다음 단계를 고르게 한다.
-- **Audience Question:** “내 Repository에서 다음에 바꿀 한 가지는 무엇일까?”
-- **Core Message:** Task, Context, Workflow, Verification, Feedback 가운데 현재 반복되는 마찰과 가장 가까운 한 곳부터 검토한다. 이는 순서가 정해진 maturity ladder가 아니다.
+- **Working Title:** 내 업무에서는 무엇이 반복해서 막힐까?
+- **Primary Role:** C++ Vision 업무의 증상을 먼저 읽고 동등한 A–E 문제 가운데 가까운 하나를 고른다.
+- **Audience Question:** “내 업무에서는 어떤 문제가 반복해서 막히나요?”
+- **Core Message:** 성능 조사·빌드·측정 업무의 반복 마찰을 증상부터 읽고 Task/Context/Workflow/Verification/Feedback 중 가까운 문제 하나를 고른다. 원인 확인 없이 시스템 갱신을 처방하지 않는다.
 - **Story Beat:** BEAT-068–069
 - **Curriculum Trace:** ACT 5 — tailored audience next steps.; ACT 5 — advanced audience value and seven takeaways.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; 적용 후보를 고르는 교육용 질문이다. 특정 C++ Project의 규칙이나 도구를 보장하지 않는다.
-- **Visual Concept:** A–E 선택지를 같은 수준으로 나란히 둔다: Task specification, Project Context, Reusable Workflow, Verification, Repeated Failure Loop.
+- **Visual Concept:** A–E를 같은 높이의 다섯 행으로 둔다. 가운데 반복 증상을 먼저, 오른쪽 요청/지식/수행 방법/검증/개선 분류를 보조로 읽는다. E는 기록·원인·기준 재검토이고 즉각 갱신을 뜻하지 않는다.
 - **Demo / Case Connection:** C++ Vision 예시: 성능 병목 조사 Task, build mode·algorithm contract·hardware assumption Context, `profile → change → benchmark → regression` Workflow, test와 benchmark Verification, 반복 이슈의 System correction.
-- **Beginner Payoff:** 전체 System을 새로 만들지 않고 지금 반복되는 설명이나 확인부터 개선한다.
-- **Advanced Payoff:** 반복 비용, 위험, verification surface에 따라 투자 대상을 고른다.
-- **C++ Vision Bridge:** 중심 예시. Python 산출물 복사가 아니라 engineering pattern transfer를 강조한다.
-- **Speaker Intent:** 선택·발표·제출을 요구하지 않는다.
-- **Transition:** “방금 떠올린 한 곳에서, 다음 작업 때 다르게 해 볼 작은 행동 하나를 마음속으로 골라 봅시다.” S92로 이동한다.
+- **Beginner Payoff:** 영어 Layer 이름보다 내가 겪는 증상을 먼저 읽고 가까운 것 하나를 찾는다.
+- **Advanced Payoff:** 반복 비용과 위험·확인 근거에 맞는 적용 지점을 고르고, 원인 확인과 시스템 변경을 분리한다.
+- **C++ Vision Bridge:** Primary bridge. A 성능 병목 조사의 범위, B build mode/동작 명세/hardware assumption, C profile→change→benchmark→regression, D tests+benchmark의 기대 기준, E 반복 이슈의 원문·검증 기준 대조다. 실제 C++ 프로젝트 도구·절차·결과를 보장하지 않는다.
+- **Speaker Intent:** C++ Vision 업무의 증상을 먼저 읽고 동등한 A–E 문제 가운데 가까운 하나를 고른다. DEC-0082의 화면·발표 운영을 따른다.
+- **Transition:** “방금 고른 문제의 같은 글자를 따라, 다음 작업의 작은 행동 하나를 생각해 봅시다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 1분 + Transition 4분 = 5분
 - **Evidence / Decision References:** BEAT-068, INV-AUDIENCE-001, INV-DIFFICULTY-001, INV-LOOP-001, INV-RESPONSIBILITY-001, BEAT-069
 
 
-#### S92 — 다음 작은 행동을 개인적으로 고른다
+#### S92 — 고른 문제에서, 다음 행동 하나로
 
 - **Slide ID:** S92
 - **ACT:** ACT 5
 - **Section:** 5B Final Reflection
-- **Working Title:** 다음 작은 행동을 개인적으로 고른다
-- **Primary Role:** 전체 Story를 청중의 업무에 연결하는 비공개 성찰 시간.
-- **Audience Question:** “내가 AI와 개발하는 방식에서 다음에 바꿀 수 있는 것은 무엇인가?”
-- **Core Message:** 반복해서 적는 설명, Agent가 다시 찾는 Project 사실, 두 번째로 발생한 실패에서 수정할 System layer 중 한 가지를 생각한다.
+- **Working Title:** 고른 문제에서, 다음 행동 하나로
+- **Primary Role:** S91의 같은 A–E 문제를 다음 행동과 확인 근거로 빠짐없이 이어 받는 개인 성찰이다.
+- **Audience Question:** “고른 문제에서 무엇을 작게 바꾸고, 어떤 근거로 확인해 볼까요?”
+- **Core Message:** S91에서 고른 A–E의 문제를 같은 글자의 작은 다음 행동으로 이어 받고, 무엇이 달라졌는지 볼 확인 근거 하나를 개인적으로 생각한다. 다섯 행동을 모두 수행하거나 약속할 필요는 없다.
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 — seven takeaways and final reflection; `plan/CURRICULUM.md` (Core Takeaways).; ACT 5 — audience next steps, seven takeaways, and final reflection.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 개인 Reflection이며 응답·공유·실천 약속을 요구하지 않는다.
-- **Visual Concept:** 세 질문을 차례로 보여주고 마지막에 선택적인 “다음 작은 행동 하나”를 둔다.
-- **Demo / Case Connection:** 없음.
-- **Beginner Payoff:** 업무에서 시도할 부담이 작은 한 단계를 찾는다.
-- **Advanced Payoff:** 반복 원인과 다음 System 개선 지점을 점검한다.
+- **Visual Concept:** 왼쪽 A–E는 S91과 같은 글자의 작은 행동 다섯 후보다. 오른쪽은 모든 선택에 공통인 확인 근거 질문이다. 문제를 다시 선택하지 않고 하나의 다음 행동만 마음속으로 생각한다.
+- **Demo / Case Connection:** 새 Demo 없음. S91의 A–E 문제→같은 글자의 작은 행동→확인 근거라는 개인 성찰이다.
+- **Beginner Payoff:** 고른 문제 하나에 대해 다음 작업에서 작게 달리할 행동과 확인할 자료 하나를 떠올린다.
+- **Advanced Payoff:** 개선 후보를 근거와 유지 위치·검토 책임에 연결하되 원인 미확인 상태의 시스템 변경을 강요하지 않는다.
 - **C++ Vision Bridge:** 각자의 Vision 업무에 질문을 적용할 수 있다.
-- **Speaker Intent:** 노트북, 실습, 발표를 요구하지 않는 private reflection으로 진행한다.
-- **Transition:** 마지막 Q&A 후 `Question → Task → Context → System → Feedback Loop`로 닫는다.
+- **Speaker Intent:** S91의 같은 A–E 문제를 다음 행동과 확인 근거로 빠짐없이 이어 받는 개인 성찰이다. DEC-0082의 화면·발표 운영을 따른다.
+- **Transition:** “생각한 한 가지는 마음속에 두고, 이제 남은 질문을 받겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Reflection 2분 = 4분
 - **Evidence / Decision References:** BEAT-070, INV-LEARNING-003, INV-DIFFICULTY-001, INV-DELIVERY-001, INV-NARRATIVE-001, BEAT-071
@@ -2451,20 +2461,20 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **ACT:** ACT 5
 - **Section:** 5B Final Q&A / Closing
 - **Working Title:** Q&A와 교육 마무리
-- **Primary Role:** 질문을 받고 공통 mental model로 교육을 마무리한다.
-- **Audience Question:** 남은 질문은 무엇인가?
-- **Core Message:** 교육의 마무리 기준은 AI 사용량이 아니라 Goal, Judgment, Verification, Responsibility를 유지하며 AI가 일할 환경과 Feedback을 설계하는 것이다.
+- **Primary Role:** 남은 질문을 받은 뒤, 원래 다섯 여정 용어와 마지막 한 문장으로 교육을 닫는다.
+- **Audience Question:** “남은 질문은 무엇인가요?”
+- **Core Message:** 남은 질문을 받은 뒤 Chatbot→Prompt→Context→Harness→Loop의 같은 용어로 여정을 닫는다. 목표·판단·검증·책임을 유지하며 AI가 잘 일할 환경을 설계한다.
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 — seven takeaways and final reflection; `plan/CURRICULUM.md` (Core Takeaways).; ACT 5 — audience next steps, seven takeaways, and final reflection.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 화면 문구는 후보이며 최종 copywriting 때 다듬는다.
-- **Visual Concept:** `Prompt → Context → Harness → Loop`와 하단의 `Goal / Judgment / Verification / Responsibility`.
+- **Visual Concept:** Q&A의 남은 질문은 위쪽, 마지막 한 문장은 중앙, Chatbot→Prompt→Context→Harness→Loop는 하단. Q&A4분 후 Closing Transition2분에 초점을 옮긴다. Question/Task/System을 다른 마지막 단계로 도입하지 않는다.
 - **Demo / Case Connection:** 없음. 질문 시간.
-- **Beginner Payoff:** 오늘 바로 적용할 수 있는 하나의 관점을 기억한다.
-- **Advanced Payoff:** 다음 시스템 개선을 판단할 공통 기준을 가져간다.
+- **Beginner Payoff:** 문제에 맞는 작은 대응과 결과를 확인할 근거를 기억한다.
+- **Advanced Payoff:** 위임과 작업 System의 설계·평가·피드백을 개발자의 판단과 책임에 연결한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 후보 문구 “AI를 더 많이 쓰는 것보다, AI가 잘 일할 수 있는 환경을 설계한다”를 사용하되 최종 문구는 후속 편집에서 확정한다. Q&A는 배정된 시간 안에서 진행한다.
-- **Transition:** 교육 종료.
+- **Speaker Intent:** 남은 질문을 받은 뒤, 원래 다섯 여정 용어와 마지막 한 문장으로 교육을 닫는다. DEC-0082의 화면·발표 운영을 따른다.
+- **Transition:** Q&A4분 뒤 Closing Transition2분. Chatbot → Prompt → Context → Harness → Loop와 마지막 한 문장으로 교육 종료.
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Transition 2분 + Q&A 4분 = 6분
 - **Evidence / Decision References:** BEAT-070, INV-LEARNING-003, INV-DIFFICULTY-001, INV-DELIVERY-001, INV-NARRATIVE-001, BEAT-071

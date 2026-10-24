@@ -737,3 +737,23 @@ image and its disclosure. No actual incident, version/command, metric, cause,
 repair or outcome is added. Its closing question does not assign an owner or
 require participant work. S86 still performs the course recap. Windows,
 product/account, room and timed rehearsal remain UNVERIFIED.
+
+
+## DEC-0082 — ACT5 recap, actual history and private next action
+
+No claim is strengthened. S86 and S89–S93 remain this course's teaching
+models. S87 is a native summary of the same seven observed Product States,
+not an execution screenshot, new trial, added state or Product Loop. Its
+three chronological groups do not imply three new maturity grades. Routing
+superiority, token savings, RSS reduction and Harness-only performance
+causation remain unproved/unmeasured. Historical Product and conceptual/Meta
+Loop paths stay separate. Earlier excerpt assets and provenance are retained.
+
+S88's no-Subagent/no-extra-Memory choice remains a bounded dependency and
+knowledge-source audit, not a comparison experiment or universal advice. S90
+keeps DEC-0023's course-specific operational definition. S91/S92 are private
+application questions, not observed C++ events, required procedures,
+implementation tasks, commitments or measured improvements. Repeated failure
+leads to record/cause/criteria review before any justified system change.
+S93 reuses the original five journey names; no new technical concept is added.
+Windows/product/account/room/timed rehearsal remain UNVERIFIED.

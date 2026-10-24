@@ -1,0 +1,180 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-24",
+  "baseline": "bfc63d0",
+  "decision": "DEC-0082",
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act5SlideCount": 8,
+  "act5Minutes": 30,
+  "changedVisualSlides": [
+    "S86",
+    "S87",
+    "S88",
+    "S89",
+    "S90",
+    "S91",
+    "S92",
+    "S93"
+  ],
+  "changedNotes": [
+    "S86",
+    "S87",
+    "S88",
+    "S89",
+    "S90",
+    "S91",
+    "S92",
+    "S93"
+  ],
+  "unchangedOtherVisualPNGs": 85,
+  "unchangedOtherNotesRecords": 85,
+  "notesRecords": 93,
+  "fieldsPerNotes": 19,
+  "renderedPNGs": 101,
+  "fullActPNGParity": 8,
+  "draftFinalPNGParity": 8,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "preexistingLayoutWarningsUnchanged": [
+    {
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 47,
+      "table_id": "8"
+    }
+  ],
+  "nativeTablesUnchanged": [
+    "S47",
+    "S55",
+    "S77"
+  ],
+  "nativeChartDataUnchanged": "S58",
+  "s87RemovedUnreadableExcerptInstances": 3,
+  "otherImageBytesCropsAndPositionsUnchanged": true,
+  "pictureInstancesChecked": 18,
+  "templateAssignmentsUnchanged": true,
+  "templateVariantInventoryUnchanged": true,
+  "stableSlideBeatSectionDemoTrialStateIDs": true,
+  "perSlideTimeModeUnchanged": true,
+  "notesClaimScopePreserved": true,
+  "s87NamedStatesRetained": 7,
+  "s87ChronologicalGroupsAreNotNewStates": true,
+  "s91S92SameLetters": "ABCDE",
+  "closingTerminology": "Chatbot→Prompt→Context→Harness→Loop",
+  "closingModeOrder": "Q&A4→Closing Transition2",
+  "newTrial": false,
+  "newProductExecution": false,
+  "newMeasuredEffect": false,
+  "demoRepositoryUnchanged": true,
+  "sourceAssetsPrototypesBundlesUnchanged": true,
+  "otherACTPackagesUnchanged": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "79e45b8befb25d64b8b92c3f0962115fe64cdc5dcd468079bd70a1a0e600a58b"
+    },
+    {
+      "path": "production/ACT_5.pptx",
+      "slideCount": 8,
+      "sha256": "d24abd2d371c6e059a7ac5693ac52391afd85c9560654e1736f2694331dff4fa"
+    }
+  ],
+  "fullNotesSha256": "49e476575460157c3d357ca42e93edb61477bcd64d60bdda9e85831923f5865d",
+  "fullMontageSha256": "6d98ca3d53b5f272a44dbf16fc7f876537eb7f022016bee5a6a936b97274c411",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "changedFallbackSlides": [
+    "S86",
+    "S87"
+  ],
+  "officeSchemaValidation": {
+    "status": "UNAVAILABLE",
+    "tool": "pptx/scripts/office/validate.py",
+    "reason": "Current runtime lacks defusedxml; no dependency installation or auto-repair.",
+    "firstPartyPackageGeometryReimport": "PASS"
+  },
+  "visualReview": {
+    "allFinalSlidesRendered": 93,
+    "changedIndividualSlidesReviewed": [
+      "S86",
+      "S87",
+      "S88",
+      "S89",
+      "S90",
+      "S91",
+      "S92",
+      "S93"
+    ],
+    "reviewedDraftFinalPixelParity": 8,
+    "fullDeckACTOverviewsReviewed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "continuityReviewed": [
+      "S85→S86",
+      "S86→S87→S88",
+      "S89→S90",
+      "S91→S92→S93"
+    ],
+    "newClippingOverlapGlyphIssuesFound": 0,
+    "evidenceScopeAudit": "PASS",
+    "actualTimedRehearsal": "UNVERIFIED"
+  },
+  "documentAudit": {
+    "status": "PASS",
+    "changedFiles": 48,
+    "introducedLocalLinksChecked": 51,
+    "fallbackPNGsChecked": 32,
+    "changedFallbackSlides": [
+      "S86",
+      "S87"
+    ],
+    "otherVisualPNGsUnchanged": 85,
+    "otherNotesRecordsUnchanged": 85,
+    "sourceBudgetsPreserved": true,
+    "priorDecisionHistoryPreserved": true,
+    "historicalHandoffPreserved": true,
+    "existingPlanningIntentAndRecordsPreserved": true,
+    "currentArtifactsAndHashesMatch": true,
+    "otherACTPackagesUnchanged": true,
+    "demoRepositoryUnchanged": true,
+    "sensitiveTemporaryFiles": false
+  }
+}

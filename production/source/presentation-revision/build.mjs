@@ -51,6 +51,7 @@ Object.assign(factories,await (await import('./act2-continuity.mjs')).loadAct2Co
 Object.assign(factories,await (await import('./act3-continuity.mjs')).loadAct3ContinuitySlides(ROOT,factories));
 Object.assign(factories,(await import('./act34-handoff.mjs')).loadAct34HandoffSlides(factories));
 Object.assign(factories,(await import('./act4-flow.mjs')).loadAct4FlowSlides(factories));
+Object.assign(factories,(await import('./act5-flow.mjs')).loadAct5FlowSlides());
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
 if(moduleMap.slides.length!==93)throw new Error('Expected 93 legacy module mappings.');
 const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));

@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0081 local static-file inventory only (2026-10-24).
+Status: READY — DEC-0082 local static-file inventory only (2026-10-24).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `408f4ba0d3ac5a60ee06f26573e09df1dc3743f9b32605220c27b558e6ef8063`
-- Full Notes SHA-256: `1ea5dbb300aa194334b3237f288d3157a82e6a1de55beecfeb56a08cff816532`
-- Full montage SHA-256: `f5bf83ab83a05c3be3cca6fbf9e1aee03ba5fad0baa4ff397df880e368a46b0d`
+- Source SHA-256: `79e45b8befb25d64b8b92c3f0962115fe64cdc5dcd468079bd70a1a0e600a58b`
+- Full Notes SHA-256: `49e476575460157c3d357ca42e93edb61477bcd64d60bdda9e85831923f5865d`
+- Full montage SHA-256: `6d98ca3d53b5f272a44dbf16fc7f876537eb7f022016bee5a6a936b97274c411`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -117,6 +117,13 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
   remains Case/Reflection/Q&A/Transition outside this Demo inventory.
   [Current package review](../../production/evaluation/ACT_4_FLOW_REVISION.md).
 
+- DEC-0082 revises the ACT5 recap. Only S86/S87 change in the32-file
+  fallback inventory. DEMO-12 remains VISUAL2minutes on S87; S86 is separate
+  Lecture4. S87 is now three chronological problem/change rows with all seven
+  State IDs retained. Prior tiny excerpts are not rendered; assets/provenance
+  stay intact. Product and conceptual/Meta Loop paths remain separate.
+  [Current ACT5 review](../../production/evaluation/ACT_5_FLOW_REVISION.md).
+
 ## Runbook to fallback mapping
 
 - `DEMO-01`: `production/preview/full/S04.png`, `production/preview/full/S05.png`, `production/preview/full/S06.png`
@@ -168,8 +175,8 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 | S80 | `production/preview/full/S80.png` |1920×1080| `2fbab67c412990a00757fa5923436fc19263bdf889d38a8ad941d7f2d0d00a62` |
 | S81 | `production/preview/full/S81.png` |1920×1080| `f7fdd12314175a1f1bf57cf8597166f58031b0f0655ff2bc8e9f9b0580435459` |
 | S82 | `production/preview/full/S82.png` |1920×1080| `48a1fec8f64eefb0b9786a1c3aba99d199da683a679b9dc5a575fa943ba3ef01` |
-| S86 | `production/preview/full/S86.png` |1920×1080| `2d9dac6175c8011f2be3dc7244da2fd299d40b1a6a73046615d94308be974095` |
-| S87 | `production/preview/full/S87.png` |1920×1080| `1a7c593cd7d66ee87604e647f3d8e8d41dddd1d5e24abdcc94d7f8d0faccb37f` |
+| S86 | `production/preview/full/S86.png` |1920×1080| `094de0f46e66992a909e749d67cadc59c6962c02025619111aeba03d4f6d2b0b` |
+| S87 | `production/preview/full/S87.png` |1920×1080| `97bae5d95f80a0e725fe0a29d7d38809c23e1dd550706cc098457ba636952358` |
 
 ## Playback boundary
 
