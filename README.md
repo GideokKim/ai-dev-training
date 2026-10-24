@@ -10,7 +10,9 @@
 
 현재 제작 기준은 **DEC-0060 /93장·379분(6시간19분)**이다. ACT2는 S32–S49/18장·81분이며, 연구 분리·의존성 답변 회수·성과 정리와 ACT3 연결을 개선한다. 기존90장의 시간·근거 범위를 보존한다. [ACT2 흐름 개선](production/evaluation/ACT_2_FLOW_REVISION.md), [번호 대조](plan/SLIDE_ID_MIGRATION_93.md), [ACT2 미리보기](production/preview/act2/montage.png). 최종93장 렌더·93개 내장 Notes와 ACT/Full 정합성 검토를 완료했다.
 
-최신 수정은 **DEC-0079 / S67 반복 한 가지와 위치·유지 책임** 정리다. 반복 정보·절차·검증 근거를 같은 비중의 후보로 보여주고, 하나를 골라 둘 위치와 검토·갱신 담당을 생각하도록 연결했다. S66의 자기 업무 적용→S68의 실제 성공 회수 흐름과 선택적 공유·10분/Mode·93장·379분을 유지한다. [S67](production/preview/full/S67.png), [연속3장](production/preview/act3/S66-S68-continuity.png), [검토 기록](production/evaluation/S67_REFLECTION_OWNERSHIP_REVISION.md).
+최신 수정은 **DEC-0080 / ACT3→ACT4 유지 책임·원인 확인 연결**이다. S67–S75의 위치·유지 책임과 Skill/Workflow 용어를 연결하고, 확인할 기록→정보/원인 가설→조건부 변경 대상 선택으로 정렬했다. S63–S65·S80–S81의 재설명을 줄이고 S69·S79 간격/줄바꿈을 개선했다.93장·379분·장별 시간/Mode·실제/가상/Meta 경계를 유지한다. [연속 흐름](production/preview/act4/S67-S72-continuity.png), [원인 확인과 변경](production/preview/act4/S72-S77-continuity.png), [검토 기록](production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md).
+
+이전 수정은 **DEC-0079 / S67 반복 한 가지와 위치·유지 책임** 정리다. 반복 정보·절차·검증 근거를 같은 비중의 후보로 보여주고, 하나를 골라 둘 위치와 검토·갱신 담당을 생각하도록 연결했다. S66의 자기 업무 적용→S68의 실제 성공 회수 흐름과 선택적 공유·10분/Mode·93장·379분을 유지한다. [S67](production/preview/full/S67.png), [연속3장](production/preview/act3/S66-S68-continuity.png), [검토 기록](production/evaluation/S67_REFLECTION_OWNERSHIP_REVISION.md).
 
 이전 수정은 **DEC-0078 / S66 밝기 통계 Demo의 세 기준을 C++ 검사로** 정리다. 명세·수행 방법·검증 근거를 Demo→C++ 검사 업무의 세 대응 행으로 정리하고, 입력·빌드·장비 조건 확인을 S65와 연결했다. 기존 삽화의 bytes/crop과 교육용 경계·Lecture5분·93장·379분을 유지한다. [S66](production/preview/full/S66.png), [연속3장](production/preview/act3/S65-S67-continuity.png), [검토 기록](production/evaluation/S66_CPP_TRANSFER_REVISION.md).
 

@@ -2,7 +2,11 @@
 
 갱신일:2026-10-24 (Asia/Seoul). 현재 기준: **DEC-0060 /93장·379분(6시간19분)**.
 ACT2 흐름 개선과3장 추가를 반영했다. 720분은 사용자 허용 상한이며 현재 계획은379분이다.
-최신 수정은 DEC-0079의 S67이다. 반복 정보·절차·검증 근거 중 하나를 고른 뒤
+최신 수정은 DEC-0080의 ACT3→ACT4 연결이다. S67의 위치·유지 책임을
+S70/S75의 조건부 갱신/검토로 회수하고 Skill과 재사용 Workflow의 관계를 연결했다.
+S72–S74는 확인할 기록→정보/원인 가설→조건부 변경 대상 선택 순서다.
+S69/S79 가독성과 반복 설명을 개선하고 실제 성공·가상 사례·Meta 경계를 유지했다.
+이전 수정은 DEC-0079의 S67이다. 반복 정보·절차·검증 근거 중 하나를 고른 뒤
 둘 위치와 검토·갱신 책임을 생각하는 정적 성찰 도식으로 정리했다. S66에서
 청중의 업무로 적용하고 S68에서 실제 성공을 회수한다. 공유는 선택이며 실습이나
 새 기능 추가를 요구하지 않는다.10분/Mode와 실제 성공·가상 변화 경계를 유지한다.
@@ -57,13 +61,14 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `b4afecfe77282ebfc38898f191ecb0f5ff2793ed488cd01c538131c81c0d1520` |
+| PPT SHA-256 | `da3840f90d200a2ea998cc0a7ddecd3e1dc6c605b572129867076ec0f1ac6b4d` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `a951a6838448f4a513bc3529326f90e1a2e11f8ea9b99be98d495307e8d9a986` |
+| Notes SHA-256 | `14aed5a0e3e13b5119bd70db90d11c7c727b18f249c74c2f0dc10f851eed2c13` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S93 |
-| Montage SHA-256 | `b6507a6fcd0778b64b82c8296f74e3da2b5462a171182da9722ff7d53d5fa55f` |
+| Montage SHA-256 | `a918c2ab8c33fd166d7240eeca676243b9e44222cd1a49b1760387901f64d073` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [S67 반복 한 가지와 위치·유지 책임](S67_REFLECTION_OWNERSHIP_REVISION.md) |
+| 최신 검토 | [ACT3→ACT4 유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md) |
+| 이전 S67 검토 | [반복 한 가지와 위치·유지 책임](S67_REFLECTION_OWNERSHIP_REVISION.md) |
 | 이전 S66 검토 | [밝기 통계 Demo의 세 기준을 C++ 검사로](S66_CPP_TRANSFER_REVISION.md) |
 | 이전 S65 검토 | [저장소 밖 실행 조건과 관찰의 한계](S65_EXTERNAL_CONDITIONS_REVISION.md) |
 | 이전 S64 검토 | [Harness 구조와 실행 환경](S64_HARNESS_STRUCTURE_REVISION.md) |
@@ -82,6 +87,7 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | 이전 S51 검토 | [명령 적용과 판단](S51_COMMAND_WORKFLOW_REVISION.md) |
 | 이전 ACT3 전체 검토 | [흐름 개선](ACT_3_FLOW_REVISION.md) |
 | ACT3 | [ACT_3.pptx](../ACT_3.pptx), S50–S67/18장·85분 |
+| ACT4 | [ACT_4.pptx](../ACT_4.pptx), S68–S85/18장·80분 |
 | 이전 S40 검토 | [코드 탐색 결과 확인](S40_CODE_EVIDENCE_REVISION.md) |
 | 장수·시간 구성 검토 | [ACT2 흐름 개선](ACT_2_FLOW_REVISION.md) |
 | 번호 대조 | [90→93](../../plan/SLIDE_ID_MIGRATION_93.md) |
@@ -186,6 +192,13 @@ S67 화면·19필드 Notes만 바뀌었고 다른92장 PNG·Notes 및 장별 시
 Reflection3→Q&A5→Transition2분을 정적 발표 초점 이동으로 운영한다. 기존32개
 Demo fallback PNG는 그대로다. 청중 결과·실제10분 리허설·새 Trial·기능 추가·
 이미지 생성·발표 묶음 생성은 없다.
+
+DEC-0080에서는 Full93+ACT3 18+ACT4 18, 총129장 렌더를 확인했다.
+12개 화면과18개 Notes를 정렬했으며 다른81개 화면·75개 Notes를 보존했다.
+장별 시간·Mode와93장·379분은 유지했다. S72/S74 Template 배정만 기존
+T08-C/T08-B로 바꿨고11Templates/27Variants는 그대로다. 기존32개 fallback의
+구성원은 같고 바뀐7개 PNG hash를 최신화했다. 실제 원인 확인·수정·평가 결과나
+담당 배정·새 Trial·이미지 생성·발표 묶음 생성은 없다.
 
 ## 사용자가 확인할 남은 조건
 

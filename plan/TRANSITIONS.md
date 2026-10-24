@@ -1,5 +1,23 @@
 # Story Transitions
 
+## Current ACT3→ACT4 connection — DEC-0080
+
+S67 closes location/maintenance ownership with recheck timing. S68 briefly
+retains the observed success and opens maintenance; S69 connects reusable
+Workflow to the role previously implemented as a Skill, without making the
+conceptual case the same file/history. S70/S75 recover review/update roles.
+S72→S73→S74 now means records to inspect→scenario information versus cause
+hypothesis→response selection after assumed confirmation. S75 scopes human
+update/review and S76 opens re-evaluation. S79 uses spaced, wrapped phases;
+S65 is the environment preview and S80/S81 focus on evaluation/reporting.
+
+Preserve93/379, ACT3 18/85, ACT4 18/80, every Slide time/Mode and stable IDs.
+Template assignments S72=T08-C, S73=T08-C, S74=T08-B match redistributed
+content; no Template/Variant is added. DEMO-11 remains S72 Demo2+S73 Demo1;
+S74 stays Case2. Actual Product success, conceptual scenario and observed
+Meta remain separate. Prior records below are history where literal current
+cues differ. [Current connection design](ACT3_ACT4_HANDOFF_REVISION.md).
+
 ## ACT3 current handoff refinement — DEC-0062
 
 S49→S50: 수행 방법의 유지 질문→실제 두 요청의 반복 기록.

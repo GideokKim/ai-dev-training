@@ -1,11 +1,19 @@
 # LOOP-VISUAL — Product Loop and Harness Improvement Loop
 
-> Current references: DEC-0060 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+## Current operation — DEC-0080
+
+S79 uses five spaced phases with wrapped questions/examples and a next-task return. Human review/update is explicit. Static speaker focus is not native animation or an executed improvement. Preserve Lecture9+VISUAL Demo2 and separate the later observed Meta case.
+
+Current local package/render/Notes/path validation is complete for DEC-0080.
+Windows/product/account/room/timed rehearsal remain UNVERIFIED.
+See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
+
+> Current references: DEC-0080 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED TEACHING MODEL visual
 
-Final Validation Status: READY — DEC-0060 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0080 local static paths, final-package renders, Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-050–053
 

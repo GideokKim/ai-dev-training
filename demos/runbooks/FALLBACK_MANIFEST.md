@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0079 local static-file inventory only (2026-10-24).
+Status: READY — DEC-0080 local static-file inventory only (2026-10-24).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `b4afecfe77282ebfc38898f191ecb0f5ff2793ed488cd01c538131c81c0d1520`
-- Full Notes SHA-256: `a951a6838448f4a513bc3529326f90e1a2e11f8ea9b99be98d495307e8d9a986`
-- Full montage SHA-256: `b6507a6fcd0778b64b82c8296f74e3da2b5462a171182da9722ff7d53d5fa55f`
+- Source SHA-256: `da3840f90d200a2ea998cc0a7ddecd3e1dc6c605b572129867076ec0f1ac6b4d`
+- Full Notes SHA-256: `14aed5a0e3e13b5119bd70db90d11c7c727b18f249c74c2f0dc10f851eed2c13`
+- Full montage SHA-256: `a918c2ab8c33fd166d7240eeca676243b9e44222cd1a49b1760387901f64d073`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:93slides; current static fallback PNG inventory:32.
@@ -102,7 +102,14 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
   with optional sharing and no new Demo execution. S67 stays outside the
   32-file Demo fallback inventory; all32 PNG hashes remain unchanged.
   Current source PPTX/Notes/montage identifiers are updated.
-  [Current package review](../../production/evaluation/S67_REFLECTION_OWNERSHIP_REVISION.md).
+  [Prior S67 review](../../production/evaluation/S67_REFLECTION_OWNERSHIP_REVISION.md).
+
+- DEC-0080 aligns ACT3/ACT4 maintenance ownership, diagnostic order and fit.
+  The32-file inventory membership is unchanged. Updated PNGs: S64/S69/S70/
+  S72/S73/S79/S80; the other25 keep their previous hashes. DEMO-11 remains
+  Demo3 on S72/S73; its conditional response comparison is S74 Case2.
+  No new execution, cause confirmation or repair/evaluation outcome.
+  [Current package review](../../production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md).
 
 ## Runbook to fallback mapping
 
@@ -145,14 +152,14 @@ No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 | S61 | `production/preview/full/S61.png` |1920×1080| `619ea7c0ed240ab83e376ac9d2cf5e992c5b162dd5c4d22e4dae6c6f37dfa6f1` |
 | S62 | `production/preview/full/S62.png` |1920×1080| `e90853c5314232d8877ae03bc60c4eb4bc9d5f3f57e2caa8a9af3f95a3d93695` |
 | S63 | `production/preview/full/S63.png` |1920×1080| `20bc511e52261d13a0192c7f32878b272df659146561eaae112ebdd2768884d7` |
-| S64 | `production/preview/full/S64.png` |1920×1080| `ddf09f7553c46dba81bcc55e44f7442fd171df6dfd060f99a8692e55d0122048` |
-| S69 | `production/preview/full/S69.png` |1920×1080| `f83e50d7df3c3bbfc75cf8409b4cc4de064721ba3cd38e75a9d9c36b3d5909f1` |
-| S70 | `production/preview/full/S70.png` |1920×1080| `ce50c262dd01173328c361aabe1276644190e1e101aef45c6847a25b2cc784e7` |
-| S72 | `production/preview/full/S72.png` |1920×1080| `8814f3636865cbff90a283ada272fc5db2f357a7479ad4362a36d495c264a081` |
-| S73 | `production/preview/full/S73.png` |1920×1080| `7b1f241ac916e8c7f701fe2f144e9aa3b13d5d439b19334621f55cf3b24277c5` |
+| S64 | `production/preview/full/S64.png` |1920×1080| `bfa645e9c4dcfcbfc38ba1336e20656a62bad1ba9c90616aeec0e89339637866` |
+| S69 | `production/preview/full/S69.png` |1920×1080| `3409a760ab138c073398f947ce0a794aac95fb4ebadeeb0b2dce407457b37548` |
+| S70 | `production/preview/full/S70.png` |1920×1080| `b21f603411a424e16c86eff2724d3f84abdb1476274154c8cbcf4a5eb5d7ca8e` |
+| S72 | `production/preview/full/S72.png` |1920×1080| `8684a066c4250eb3f026bc048f5a850077702568cb48172c892300b1b77b9ca9` |
+| S73 | `production/preview/full/S73.png` |1920×1080| `6be3428977b367842195e751a4acc17ec1bb593c4fe9c7c79e14baa253df96b1` |
 | S77 | `production/preview/full/S77.png` |1920×1080| `343c9925eeb0bb1a4d03ae53baba22312ea15e3570064dc5091e6977b0ad0db4` |
-| S79 | `production/preview/full/S79.png` |1920×1080| `def53823ed0ef2a69d0a2ffb54d91f0916eab6690c5b25f3ff9abb68c50a80d8` |
-| S80 | `production/preview/full/S80.png` |1920×1080| `e2446ef4ba9e6b3569eaf9789ab913b803d712ce072f1fbab8022e80779b9b74` |
+| S79 | `production/preview/full/S79.png` |1920×1080| `cbfbf3928455414aa4938e9e3b90e8f1aea7b5dab006aae2473255d59140f3d1` |
+| S80 | `production/preview/full/S80.png` |1920×1080| `ae648014f845b6c7fbf060cfdf78c96ca5a98cf32b0c6dda4be3f9946ac5b262` |
 | S81 | `production/preview/full/S81.png` |1920×1080| `828fc2c5a433ba2da9036c60c5c882c6a195677ee0830b5aeb5e34207a4ee665` |
 | S82 | `production/preview/full/S82.png` |1920×1080| `2328e7c65940e52ce3840f697a06b6d764d324a8c6faa09c092f2e09837ea8d8` |
 | S86 | `production/preview/full/S86.png` |1920×1080| `2d9dac6175c8011f2be3dc7244da2fd299d40b1a6a73046615d94308be974095` |

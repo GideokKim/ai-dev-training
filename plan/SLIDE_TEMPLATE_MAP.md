@@ -1,6 +1,6 @@
 # STEP 08 — Slide-to-Template Mapping
 
-> **현재 기준: DEC-0060 / 93장·379분; S67 수정 DEC-0079, 이전 S66 DEC-0078, 이전 S65 DEC-0077, 이전 S64 DEC-0076, 이전 S63 DEC-0075, 이전 S62 DEC-0074, 이전 S61 DEC-0073, 이전 S60 DEC-0072, 이전 S59 DEC-0071, 이전 S57–S58 DEC-0070, 이전 S57 DEC-0069, 이전 S56 DEC-0068, 이전 S55 DEC-0067, 이전 S53–S54 DEC-0066, 이전 S53 DEC-0065, S52 DEC-0064, S51 DEC-0063, ACT3 전체 흐름 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
+> **현재 기준: DEC-0060 / 93장·379분; ACT3→ACT4 연결 DEC-0080, 이전 S67 수정 DEC-0079, 이전 S66 DEC-0078, 이전 S65 DEC-0077, 이전 S64 DEC-0076, 이전 S63 DEC-0075, 이전 S62 DEC-0074, 이전 S61 DEC-0073, 이전 S60 DEC-0072, 이전 S59 DEC-0071, 이전 S57–S58 DEC-0070, 이전 S57 DEC-0069, 이전 S56 DEC-0068, 이전 S55 DEC-0067, 이전 S53–S54 DEC-0066, 이전 S53 DEC-0065, S52 DEC-0064, S51 DEC-0063, ACT3 전체 흐름 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
 
 Date: 2026-10-09
 
@@ -180,19 +180,19 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S65 — 같은 저장소여도 실행 조건은 다를 수 있다 | T03-B | CMP-EVIDENCE, CMP-CLAIM | CMP-CPP | M+T; observed global influence is a separate Meta frame, not product state | DEMO-04B preview: external-condition model, TRIAL-006 observation vs attribution limits; DEC-0077; Lecture3, no extra Demo time | Single state | Contextual | V01, V02, V07 |
 | S66 — 밝기 통계의 판단을 C++ 검사에 적용하기 | T03-A | CMP-CPP, CMP-WORKFLOW | CMP-CLAIM | T | Teaching transfer: specification/procedure/evidence pairs; DEC-0078; Lecture5, no Demo execution | Single state | Primary | V08 |
 | S67 — 우리 업무에서 먼저 정리할 한 가지 | T01-B | CMP-WORKFLOW | — | T | Reflection: choose one recurring need, location and review/update ownership; DEC-0079; no Demo execution | R1–R3; see Section 8 | Contextual cue only; no CMP-CPP assignment | V09, V10 |
-| S68 — 여기까지는 잘 동작했다 | T07-C | CMP-STATE, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-03/Primary Product Demo endpoint callback; Lecture/Reflection, no extra Demo time | Single state | — | V02, V05 |
-| S69 — 개념 사례: Project와 Workflow는 현재 맞다 | T08-A | CMP-CLAIM | CMP-CPP | C | DEMO-04A WATCH / constructed starting condition; VISUAL, 2 min | Single state | Contextual | V06, V08 |
+| S68 — 확인한 성공을 유지하려면 | T07-C | CMP-STATE, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-03/Primary Product Demo endpoint callback; Lecture/Reflection, no extra Demo time | Single state | — | V02, V05 |
+| S69 — 처음에는 기준과 재사용 절차가 맞았다 | T08-A | CMP-CLAIM | CMP-CPP | C | DEMO-04A WATCH / constructed starting condition; VISUAL, 2 min | Single state | Contextual | V06, V08 |
 | S70 — Project는 바뀌고 Workflow는 남았다 | T08-A | CMP-CLAIM | — | C | DEMO-04A scenario change / conceptual EVIDENCE; VISUAL, 2 min | Single state | — | V06 |
-| S71 — Task 해결과 System 문제는 다르다 | T08-C | CMP-CLAIM | — | C | DEMO-04A conceptual consequence; Case, no additional Demo time | Single state | — | V06, V09 |
-| S72 — 원인에 맞는 Layer를 고르기 | T08-B | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T, separate scenario and teaching choice | DEMO-11 layer-selection synthesis; CAPTURED, 2 min; no Product State | Single state | Contextual | V06, V08 |
-| S73 — 실패 지점과 원인 Layer 구분하기 | T08-C | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T, observed/inferred distinction stays labeled as scenario reasoning | DEMO-11 cause/layer synthesis; CAPTURED, 1 min; no Product State | Single state | Contextual | V06, V08 |
-| S74 — 먼저 관찰하고, 그다음 가설을 세운다 | T08-C | CMP-CLAIM | — | C+T | — | Single state | — | V06 |
-| S75 — Cause가 지지하는 최소 변경 | T08-B | CMP-CLAIM, CMP-DECISION | — | C+T | — | Single state | — | V06, V09 |
+| S71 — 이번 요청과 다음 작업의 지침 | T08-C | CMP-CLAIM | — | C | DEMO-04A conceptual consequence; Case, no additional Demo time | Single state | — | V06, V09 |
+| S72 — 원인을 고르기 전에 확인할 기록 | T08-C | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T, separate scenario and teaching choice | DEMO-11 evidence/cause synthesis; preserved Demo2; DEC-0080; no execution | Single state | Contextual | V06, V08 |
+| S73 — 주어진 정보와 원인 가설을 나눈다 | T08-C | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T, observed/inferred distinction stays labeled as scenario reasoning | DEMO-11 evidence/cause synthesis; preserved Demo1; DEC-0080; no execution | Single state | Contextual | V06, V08 |
+| S74 — 확인한 원인에 맞춰 변경 대상을 고른다 | T08-B | CMP-CLAIM | — | C+T | Conditional response selection; Case2 outside DEMO-11 Demo3; DEC-0080 | Single state | — | V06 |
+| S75 — 확인된 범위만 검토하고 갱신한다 | T08-B | CMP-CLAIM, CMP-DECISION | — | C+T | Conditional update/review roles and re-evaluation handoff; DEC-0080 | Single state | — | V06, V09 |
 | S76 — 같은 Task의 재실행만으로 충분할까? | T08-B | CMP-CLAIM, CMP-WORKFLOW | CMP-CPP | C+T | — | Single state | Contextual | V06, V05 |
 | S77 — 대표 작업으로 변경 범위를 확인하기 | T08-B | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T; four-row conceptual Evaluation Set and any prior observed references use separate Evidence frames | DEMO-10 static visual; 5 min; EVAL-01/02 are prior evidence references, EVAL-03/04 are designed; no new run or outcome | Single state | Contextual | V06, V05, V08 |
 | S78 — Harness도 특정 실패에 맞춰 과적합될 수 있다 | T08-C | CMP-CLAIM, CMP-WORKFLOW | — | C+T | — | Single state | — | V06, V10 |
-| S79 — Feedback을 System Change와 Evaluation으로 잇기 | T03-C | CMP-LOOP, CMP-CLAIM | — | C+T | Existing Loop model/visual; VISUAL, 2 min (no new Demo ID) | R1–R5; see Section 8 | — | V06, V07 |
-| S80 — 실제 제작 기록: TRIAL-006 | T11-A | CMP-EVIDENCE, CMP-CLAIM | — | M | DEMO-04B timeline entry; CAPTURED, 2 min | Single state | — | V07 |
+| S79 — 관찰을 시스템 개선으로 잇는 Loop | T03-C | CMP-LOOP, CMP-CLAIM | — | C+T | Existing Loop model/visual; VISUAL, 2 min (no new Demo ID) | R1–R5; see Section 8 | — | V06, V07 |
+| S80 — 평가에서 놓친 실행 조건 | T11-A | CMP-EVIDENCE, CMP-CLAIM | — | M | DEMO-04B timeline entry; CAPTURED, 2 min | Single state | — | V07 |
 | S81 — 결과의 타당성과 원인 귀속은 별개다 | T11-B | CMP-EVIDENCE, CMP-CLAIM | CMP-TRIAL | M | DEMO-04B TRIAL-006 evidence/attribution; CAPTURED, 4 min | Single state | — | V02, V05, V07 |
 | S82 — 평가와 보고 규칙을 Evidence에 맞추다 | T11-A | CMP-EVIDENCE, CMP-CLAIM | CMP-DECISION | M | DEMO-04B DEC-0016 change; CAPTURED, 2 min | Single state | — | V02, V07 |
 | S83 — 후속 기록은 개선됐지만 완전하지 않았다 | T11-B | CMP-EVIDENCE, CMP-CLAIM | CMP-TRIAL | M | DEMO-04B follow-up TRIAL-007/008; Lecture/Case, no additional Demo time | Single state | — | V02, V07 |
@@ -207,11 +207,11 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S92 — 다음 작은 행동을 개인적으로 고른다 | T01-B | — | CMP-CPP | T | — | Single state | Contextual | V09 |
 | S93 — Q&A와 교육 마무리 | T01-C | — | — | T | — | Single state | — | V10 |
 
-### Component Usage Index
+### Historical Component Usage Index — earlier90-slide assignments
 
-Counts refer to Slide IDs with the component listed as Required or Optional.
-This is a lookup index; the assignment and required/optional distinction in
-the main table remain authoritative.
+The index below retains the earlier working assignment history. Use the
+current93-slide main table for component assignments and required/optional
+status. These historical counts are not the current rendered-slide inventory.
 
 | Component ID | Slide count | Slide IDs |
 |---|---:|---|
@@ -242,10 +242,31 @@ the main table remain authoritative.
 | V09 | Revealing a solution before the corresponding problem/question or supplying an audience answer early. |
 | V10 | Exceeding the Template’s density ceiling or adding detail that the Slide Map does not need. |
 
-## 7. Demo Role and Delivery Mapping
+## Current ACT3→ACT4 mappings — DEC-0080
 
-Role names follow the requested WATCH / EVIDENCE / WHAT HAPPENED sequence.
-The exact slide-level minutes below are the approved SLIDE_MAP allocation;
+The Slide-by-Slide table and current93-slide SLIDE_MAP govern. Older slot,
+component and reveal inventories elsewhere retain their original numbering.
+S72/S73/S74 redistribute the same source material in diagnostic order;
+Slide IDs, times, Modes, Demo/Beat/Section identifiers remain stable.
+
+| Slide | Current role | Template | Existing allocation |
+|---|---|---|---|
+| S72 | Check sources/records before choosing a cause | T08-C | DEMO-11 Demo2 |
+| S73 | Separate scenario information from cause hypothesis | T08-C | Lecture1 + DEMO-11 Demo1 |
+| S74 | Compare response scope after assumed cause confirmation | T08-B | Case2; no additional Demo time |
+| S75 | Update/review roles and bounded change, then re-evaluate | T08-B | Lecture1 + Case1 |
+| S79 | Five phases with wrapped questions and next-task return | T03-C | Lecture9 + existing Loop VISUAL Demo2 |
+
+DEMO-04A stays S69/S70 Demo2+2, with later conceptual Case/Lecture context.
+DEMO-04B stays S80/S81/S82 Demo2+4+2; S65 is an earlier Lecture preview.
+11 Templates/27 Variants and the32-file fallback membership remain intact.
+
+## 7. Historical Demo Role and Delivery Mapping — earlier90-slide numbering
+
+Role names retain the requested WATCH / EVIDENCE / WHAT HAPPENED sequence.
+The slide-level references below preserve that earlier working allocation;
+current ownership follows the93-slide main table, current mapping above and
+production runbooks. The historical total below remains unchanged;
 they do not add Demo time. A role shown as “not separated” stays that way.
 Only the existing delivery subtypes HYBRID, CAPTURED, and VISUAL are assigned.
 No RECORDED or LIVE slot is introduced.
@@ -277,7 +298,7 @@ Reveal timings are approximate presentation cues inside the already approved
 Slide time and Delivery Mode. They do not create Slides, add time, or define
 Speaker Notes.
 
-### Current S67 — 10 minutes / DEC-0079
+### Current S67 — 10 minutes / DEC-0080
 
 Static slide with speaker-led focus; no native animation or hidden content
 is implemented. R1-R3 preserve the approved time and Mode order. They do not
@@ -287,7 +308,7 @@ add slides, exercises, Demo time or predetermined audience answers.
 |---|---|---|---|
 | R1 | 0–3 min; Reflection3 | Three equally weighted recurring needs → choose one → location and review/update owner. | Quiet thought; no required writing, repository changes or public answer. |
 | R2 | 3–8 min; Q&A5 | Discuss the selected need, existing source and maintenance responsibility; use fallback questions if no audience question arrives. | Sharing optional; no default tool/feature or assigned team owner. |
-| R3 | 8–10 min; Transition2 | Project-change recheck question; retain actual success through S68 before the separate conceptual change from S69. | No invented failure or audience result; stop Q&A at minute8. |
+| R3 | 8–10 min; Transition2 | Recheck timing after location/ownership; S68 briefly retains actual success and opens maintenance before the separate conceptual change from S69. | No invented failure or audience result; stop Q&A at minute8. |
 
 ### Earlier90-slide S64 — 10 minutes / operation history for current S67
 
@@ -297,7 +318,16 @@ add slides, exercises, Demo time or predetermined audience answers.
 | R2 | 3–8 min; Q&A 5 | Reveal, in sequence: recurring Project facts → Context; repeated procedure → Workflow; independent parallel work → consider Subagent; costly rediscovery → consider Memory; needed confidence → Tests / Benchmark / Review. | Future Loop connection. Keep every structure conditional rather than mandatory. | Introduce each category only after the preceding one has been discussed. |
 | R3 | 8–10 min; Transition 2 | The unresolved “what should the system do when evidence changes?” question leading to Loop Engineering. | Nothing; retain the complete map for the handoff. | Move from choosing needed structure to observing and improving it. |
 
-### S76 — 11 minutes
+### Current S79 — 11 minutes / DEC-0080
+
+Static display with speaker-led focus, not implemented animation. Five
+spaced columns show number, phase, short wrapped question and conceptual
+example; the return line means another task, not an executed improvement.
+R1/R2 0–2min: execution/observation; R3 2–5min: cause evidence;
+R4 5–7min: human-reviewed change; R5 7–9min: re-evaluation;
+9–11min is the existing VISUAL Demo2. Preserve Lecture9+Demo2.
+
+### Earlier90-slide S76 — 11 minutes / operation history for current S79
 
 | State | Approx. time / mode | Visible | Hidden until this state | Speaker trigger |
 |---|---|---|---|---|

@@ -1,5 +1,13 @@
 # DEMO-09 — Verification and System Map
 
+## Current operation — DEC-0080
+
+S63 briefly recaps actual roles; S64 emphasizes execution conditions and human evidence/result review rather than replaying the inputs. Preserve actual/teaching-model separation and Demo3+2, with S64 Lecture4 separately allocated.
+
+Current local package/render/Notes/path validation is complete for DEC-0080.
+Windows/product/account/room/timed rehearsal remain UNVERIFIED.
+See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
+
 ## Current ACT3 operation — DEC-0076
 
 S63→S64: S62의 지식 출처를 회수한 뒤 S63에서 목표·Context·Skill을 한 Agent의 밝기 통계 조사·변경에 적용하고 테스트·benchmark를 판단 근거로 연결한다. 세 입력은 순차 단계가 아니다. S64는 같은 배치를 전체 Harness로 묶고 실행 환경을 Agent·검증 도구 양쪽에 연결한다. 결과를 사람이 검토하며 교육용 모델과 실제 대응 범위를 구분한다. Demo3+2분과 S64 Lecture4분을 원래 배분대로 구분한다.
@@ -12,7 +20,7 @@ S63→S64: S62의 지식 출처를 회수한 뒤 S63에서 목표·Context·Skil
 
 Planning Status: CANDIDATE — supporting visual/captured record
 
-Final Validation Status: READY — DEC-0076 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0080 local static paths, final-package renders, Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-033–036
 
@@ -78,7 +86,7 @@ Evidence limit: No general performance gain or claim that every Harness componen
 
 5m: S63 Demo 3m + S64 Demo 2m.
 
-Phase plan: S63 Demo3m (source-to-role bridge0.33 / goal0.5 / Context0.42 / Skill0.42 / task-and-verification0.83 / scope-and-handoff0.5) → S64 Demo2m (actual source/configuration correspondence1.5 / environment-question handoff0.5). S64 Lecture4m for the course Harness model remains separately allocated.
+Phase plan: S63 Demo3m (actual-task return0.5 / input roles1 / verification evidence1 / scope-and-handoff0.5) → S64 Demo2m (bounded configuration correspondence1.5 / external-condition question0.5). S64 Lecture4m focuses on environment and human review.
 
 Time Risk: LOW
 

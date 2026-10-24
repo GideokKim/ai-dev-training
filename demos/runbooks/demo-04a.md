@@ -1,11 +1,19 @@
 # DEMO-04A — Conceptual Stale Workflow Case
 
-> Current references: DEC-0060 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+## Current operation — DEC-0080
+
+S69 links Workflow to the procedure role previously implemented as a Skill, while preserving the separate conceptual file/history. S70 recovers maintenance ownership. Later S72–S75 inspect evidence, separate hypotheses, select a response conditionally and assign example update/review duties. The Demo slot remains S69 Demo2+S70 Demo2.
+
+Current local package/render/Notes/path validation is complete for DEC-0080.
+Windows/product/account/room/timed rehearsal remain UNVERIFIED.
+See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
+
+> Current references: DEC-0080 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED ROLE — conceptual controlled case
 
-Final Validation Status: READY — DEC-0060 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0080 local static paths, final-package renders, Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-038–046
 

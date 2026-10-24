@@ -8817,3 +8817,100 @@ Render and inspect S67 with S66/S68. Validate93slides/379minutes, the
 3/5/2Mode sequence, embedded Notes and unchanged other slides. Keep Windows,
 product/account, room and10-minute rehearsal UNVERIFIED. Follow the normal
 Git checkpoint without changing Demo code, tags or presenter bundles.
+
+
+# DEC-0080 — connect maintenance ownership to evidence-led system changes
+
+## Status
+
+ACCEPTED — explicit user approval of the ACT3-to-ACT4 review direction.
+
+## Date
+
+2026-10-24
+
+## Context
+
+ACT3 ends with maintenance ownership. ACT4 retains actual Product success
+before a separate conceptual stale-procedure case and an observed Meta case.
+The user approved improving their connection, repeated explanations and fit.
+
+## Problem
+
+The S67/S68 handoff repeats the change question, ownership is not recovered
+in the case, Skill and Workflow terminology changes without a direct bridge,
+and response selection precedes evidence/cause assessment. S69 headings and
+S79 phase questions compete for space. S63/S64 and S65/S80 repeat setup.
+
+## Decision
+
+Preserve93slides/379minutes, ACT3 18/85 and ACT4 18/80, all Slide IDs and
+per-slide times/Modes. Let S67 close location/ownership with recheck timing;
+use S68 for a short actual-success boundary and the maintenance problem.
+Connect Workflow to the reusable-procedure role implemented earlier as a
+Skill, while retaining the separate conceptual file/history boundary.
+Recover human review/update roles at S70 and S75.
+
+Redistribute existing material across S72/S73/S74 in diagnostic order:
+records to inspect, scenario information versus cause hypothesis, then
+response selection conditional on confirmed cause. Keep Section IDs and
+stable Beat identifiers; adjust only their Slide mappings to fit the same
+semantics. Use T08-C/T08-C/T08-B respectively without adding variants.
+DEMO-11 stays Demo2 at S72 plus Demo1 at S73; S74 remains Case2.
+
+Reduce repeated input/environment narration in Notes. Make S79 phases fit
+explicit line breaks, and distinguish S65 environment presence from S80/S81
+questions about evaluation/reporting. Preserve all actual, conceptual and
+Meta evidence boundaries, approved images, tables and chart data.
+
+## Rationale
+
+Inspection must earn the cause-dependent change. The person considering
+where knowledge lives should see how its review/update responsibility
+continues when Project criteria change. Different stages reuse evidence
+for different questions without replaying the same explanation.
+
+## Alternatives
+
+Keep the conditional-choice-first sequence; it requires a backward return.
+Remove the successful-state callback; it weakens the actual/conceptual gate.
+Invent a failure or repair run; it is outside the evidence and authorization.
+Add Slides or move minutes; existing equal-duration Slides support the order.
+
+## Trade-offs
+
+Local Slide responsibilities and Template assignments change, while stable
+identifiers and per-slide budgets remain. Current notes/routers override
+literal outdated cues while historical records remain preserved. Static
+focus supports delivery but does not prove rehearsal or room readability.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-NARRATIVE-002, INV-MATURITY-010,
+INV-LOOP-001, INV-VERIFY-001, INV-DELIVERY-001.
+
+## Affected Artifacts
+
+ACT3/ACT4/Full sources, PPTX, Notes, previews; Slide/Template maps and
+relevant story/transition/claim/notes routers; Demo-04A/04B/09/11 and Loop
+runbooks; existing fallback identities; current handoff and review records.
+No Demo repository, Trial, State tag, approved raster asset or presenter ZIP.
+
+## Evidence
+
+User approval; read-only audit at0898c81; approved S50–S85 slides/Notes;
+DEC-0021/0027/0062/0079; retained State/Trial evidence. No new execution,
+measured effect or actual audience/team decision is introduced.
+
+## Training Relevance
+
+Connect reusable methods to maintained sources, accountable human review
+and evidence-driven changes across tasks rather than ad hoc instruction fixes.
+
+## Follow-up
+
+Render Full93 and both18-slide ACT decks. Inspect the changed Slides and
+neighbor sequences. Check notes93x19, budgets, native evidence, unchanged
+other Slides/assets, fallback provenance and stable Demo code/tags. Keep
+Windows, product/account, room and timed rehearsal UNVERIFIED. Commit and
+push normally to the existing origin/main without force or bundle creation.

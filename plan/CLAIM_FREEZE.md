@@ -693,3 +693,20 @@ and add current S67 operation without changing the Template/Variant set.
 Preserve STATE-04-PERF as bounded success, S68's callback and S69's separate
 conceptual change. Do not invent actual Harness failure, team choices,
 Subagent/Memory need or measured improvement. No new Trial or product run.
+
+
+## DEC-0080 — maintenance ownership and diagnosis before response
+
+S67 reflection does not establish audience decisions or assigned owners.
+S68 retains actual STATE-04-PERF success. S69–S78 remain a separate conceptual
+case: Workflow names a reusable procedure, not the same historical graypipe
+Skill file. S72 inspection targets and S73 scenario information do not
+establish a cause. S74/S75 explicitly assume cause confirmation to compare
+responses and human update/review duties. No execution, failure, cause
+confirmation, repair, assigned staff or evaluation outcome is fabricated.
+
+S79 is a static operating model, not an observed Product Loop or automated
+learning. S65 environment presence and S80/S81 reporting questions are
+separate teaching roles for retained Meta evidence. Do not strengthen
+causality, measured benefit, inventory completeness or current-product claims.
+Preserve all original Metric/Trial/State boundaries, times and Mode totals.

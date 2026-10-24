@@ -1,0 +1,199 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-24",
+  "baseline": "0898c81",
+  "decision": "DEC-0080",
+  "slideCount": 93,
+  "totalMinutes": 379,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 30
+  },
+  "modeMinutes": {
+    "Lecture": 143,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act3SlideCount": 18,
+  "act3Minutes": 85,
+  "act4SlideCount": 18,
+  "act4Minutes": 80,
+  "changedVisualSlides": [
+    "S64",
+    "S67",
+    "S68",
+    "S69",
+    "S70",
+    "S71",
+    "S72",
+    "S73",
+    "S74",
+    "S75",
+    "S79",
+    "S80"
+  ],
+  "changedNotes": [
+    "S59",
+    "S61",
+    "S63",
+    "S64",
+    "S65",
+    "S67",
+    "S68",
+    "S69",
+    "S70",
+    "S71",
+    "S72",
+    "S73",
+    "S74",
+    "S75",
+    "S76",
+    "S79",
+    "S80",
+    "S81"
+  ],
+  "unchangedOtherVisualPNGs": 81,
+  "unchangedOtherNotesRecords": 75,
+  "notesRecords": 93,
+  "fieldsPerNotes": 19,
+  "renderedPNGs": 129,
+  "fullActPNGParity": 36,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "nativeTablesUnchanged": [
+    "S47",
+    "S55"
+  ],
+  "nativeChartDataUnchanged": "S58",
+  "embeddedImageBytesAndCropsUnchanged": true,
+  "pictureInstancesChecked": 25,
+  "templateAssignmentsChanged": {
+    "S72": [
+      "T08-B",
+      "T08-C"
+    ],
+    "S74": [
+      "T08-C",
+      "T08-B"
+    ]
+  },
+  "templateVariantInventoryUnchanged": true,
+  "stableBeatIDs": true,
+  "changedBeatMappings": [
+    "S72",
+    "S73",
+    "S74"
+  ],
+  "perSlideTimeModeUnchanged": true,
+  "demo11Minutes": 3,
+  "newTrial": false,
+  "newProductExecution": false,
+  "demoRepositoryUnchanged": true,
+  "approvedImageFilesUnchanged": true,
+  "otherACTPackagesUnchanged": true,
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 93,
+      "sha256": "da3840f90d200a2ea998cc0a7ddecd3e1dc6c605b572129867076ec0f1ac6b4d"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "2fa058a30cfe59a8859949b15c517549770da74109e9d6a01a1154984cbfbee4"
+    },
+    {
+      "path": "production/ACT_4.pptx",
+      "slideCount": 18,
+      "sha256": "db6e0916cb71b86a1ccbf89871b52dfa4155f4f907ff66cea7be9e33c8e09e68"
+    }
+  ],
+  "fullNotesSha256": "14aed5a0e3e13b5119bd70db90d11c7c727b18f249c74c2f0dc10f851eed2c13",
+  "fullMontageSha256": "a918c2ab8c33fd166d7240eeca676243b9e44222cd1a49b1760387901f64d073",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "sourceEvidenceAudit": {
+    "actualSuccessPreserved": "STATE-04-PERF",
+    "workflowTermDoesNotExtendActualFileHistory": true,
+    "recordsBeforeHypothesisBeforeConditionalResponse": true,
+    "noInventedCauseConfirmation": true,
+    "humanReviewUpdateRolesAreExamples": true,
+    "noActualTeamAssignment": true,
+    "noNewRepairOrEvaluationOutcome": true,
+    "environmentPresenceVersusReportingQuestionSeparated": true,
+    "metaCausalityAndQualityLimitsPreserved": true,
+    "staticModelWithoutNativeAnimation": true
+  },
+  "staticFallbackInventory": 32,
+  "changedFallbackSlides": [
+    "S64",
+    "S69",
+    "S70",
+    "S72",
+    "S73",
+    "S79",
+    "S80"
+  ],
+  "unchangedFallbackPNGs": 25,
+  "officeSchemaValidation": {
+    "full": "PASS",
+    "act3": "PASS",
+    "act4": "PASS",
+    "originalBaseline": "0898c81",
+    "autoRepair": false
+  },
+  "individualVisualReview": [
+    "S64",
+    "S67",
+    "S68",
+    "S69",
+    "S70",
+    "S71",
+    "S72",
+    "S73",
+    "S74",
+    "S75",
+    "S79",
+    "S80"
+  ],
+  "sequenceReview": [
+    "S63-S68",
+    "S67-S72",
+    "S72-S77",
+    "S78-S83",
+    "ACT3 S50-S67 montage",
+    "ACT4 S68-S85 montage"
+  ],
+  "localVisualIssuesRemaining": [],
+  "documentAudit": {
+    "status": "PASS",
+    "changedFiles": 68,
+    "introducedLocalLinksChecked": 60,
+    "fallbackPNGsChecked": 32,
+    "changedFallbackSlides": [
+      "S64",
+      "S69",
+      "S70",
+      "S72",
+      "S73",
+      "S79",
+      "S80"
+    ],
+    "otherVisualPNGsUnchanged": 81,
+    "sourceBudgetsPreserved": true,
+    "priorDecisionHistoryPreserved": true,
+    "historicalHandoffPreserved": true,
+    "currentArtifactsAndHashesMatch": true,
+    "otherACTPackagesUnchanged": true,
+    "demoRepositoryUnchanged": true,
+    "sensitiveTemporaryFiles": false
+  }
+}

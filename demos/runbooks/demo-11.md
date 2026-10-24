@@ -1,11 +1,19 @@
 # DEMO-11 — Layer and Minimality Synthesis
 
-> Current references: DEC-0060 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+## Current operation — DEC-0080
+
+S72 shows records/targets to inspect, S73 distinguishes scenario information from cause hypothesis, and S74 compares responses only after assumed cause confirmation. This is redistributed source material. S72 Demo2+S73 Demo1 remains3minutes; S74 Case2 adds no Demo slot. No execution or cause confirmation is observed.
+
+Current local package/render/Notes/path validation is complete for DEC-0080.
+Windows/product/account/room/timed rehearsal remain UNVERIFIED.
+See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
+
+> Current references: DEC-0080 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — conceptual synthesis
 
-Final Validation Status: READY — DEC-0060 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0080 local static paths, final-package renders, Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-054–057
 
@@ -17,11 +25,11 @@ Delivery Mode: VISUAL / CAPTURED conceptual synthesis
 
 ## Purpose
 
-Compare minimal responses at Prompt, global rule, or reusable Workflow layers inside the conceptual stale case.
+Inspect evidence before selecting the cause-dependent response. Preserve the Prompt/global-rule/Workflow alternatives on S74 as Case context.
 
 ## Audience Question
 
-가장 작은 evidence-supported system response는 무엇일까?
+원인을 판단하기 전에 무엇을 확인하고, 확인된 원인에 맞춰 어디를 바꿀까?
 
 ## Starting Repository State
 
@@ -51,7 +59,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-Select the source layer only because the case defines the cause there; make no real diff.
+S72 inspection targets are not execution records. S73 scenario facts do not confirm a cause. S74 response selection explicitly assumes confirmed Workflow cause. Make no real diff.
 
 ## Success Criteria
 
@@ -59,7 +67,7 @@ Explain how evidence bounds the repair layer.
 
 ## Expected Output
 
-Static choice and cause visual only.
+Static inspection/information/hypothesis visuals. The existing three response alternatives follow on S74 Case2, outside the3Demo minutes.
 
 ## Verification
 
@@ -109,11 +117,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S73 → S74: compare failure point with cause hypothesis.
+S73 → S74: after information/hypothesis separation, explicitly assume cause confirmation to compare response scope.
 
 ## Evidence
 
-DEC-0021; Slide Map S72–73.
+DEC-0021/0080; current Slide Map S72–S74. Stable Beat IDs are mapped by their existing meanings; no Product State is added.
 
 ## Do Not Claim
 

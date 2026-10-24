@@ -1,6 +1,13 @@
 # Current presentation source — DEC-0060 /93slides
 
-Latest refinement: DEC-0079 / S67 reflection and maintenance ownership.
+Latest refinement: DEC-0080 / ACT3-to-ACT4 maintenance handoff.
+Apply `act34-handoff.mjs` after the ACT3 overlay. Preserve slide numbering,
+per-slide times/Modes and evidence scope while ordering S72-S74 by inspection,
+hypothesis and conditional response. Update human maintenance roles and fit.
+Full/ACT3/ACT4 are finalized and rendered together. Review:
+`production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md`.
+
+Previous refinement: DEC-0079 / S67 reflection and maintenance ownership.
 Link three equally weighted recurring needs to one selection, then to its
 location and review/update responsibility. Retain optional sharing, static
 speaker focus, T01-B, Reflection3/Q&A5/Transition2,93/379 and other slides/Notes.

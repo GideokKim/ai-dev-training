@@ -1,5 +1,23 @@
 # STEP 08 — Slide Template Architecture
 
+## Current ACT3→ACT4 connection — DEC-0080
+
+S67 closes location/maintenance ownership with recheck timing. S68 briefly
+retains the observed success and opens maintenance; S69 connects reusable
+Workflow to the role previously implemented as a Skill, without making the
+conceptual case the same file/history. S70/S75 recover review/update roles.
+S72→S73→S74 now means records to inspect→scenario information versus cause
+hypothesis→response selection after assumed confirmation. S75 scopes human
+update/review and S76 opens re-evaluation. S79 uses spaced, wrapped phases;
+S65 is the environment preview and S80/S81 focus on evaluation/reporting.
+
+Preserve93/379, ACT3 18/85, ACT4 18/80, every Slide time/Mode and stable IDs.
+Template assignments S72=T08-C, S73=T08-C, S74=T08-B match redistributed
+content; no Template/Variant is added. DEMO-11 remains S72 Demo2+S73 Demo1;
+S74 stays Case2. Actual Product success, conceptual scenario and observed
+Meta remain separate. Prior records below are history where literal current
+cues differ. [Current connection design](ACT3_ACT4_HANDOFF_REVISION.md).
+
 > **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
 
 

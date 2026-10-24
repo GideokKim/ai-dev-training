@@ -1,11 +1,19 @@
 # DEMO-04B — Observed Training Production Meta Case
 
+## Current operation — DEC-0080
+
+S65 remains the earlier Lecture3 environment-presence preview. S80 now recalls those observations for the evaluation/reporting gap; S81 separates result validity from attribution and S82 retains the actual decision. Demo2+4+2 stays8minutes. Detailed later history and all attribution/unknown boundaries remain.
+
+Current local package/render/Notes/path validation is complete for DEC-0080.
+Windows/product/account/room/timed rehearsal remain UNVERIFIED.
+See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
+
 > Current references: DEC-0077 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED SUPPORTING META ROLE
 
-Final Validation Status: READY — DEC-0077 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0080 local static paths, final-package renders, Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-058–059
 
@@ -99,7 +107,7 @@ Show S80–S82; preserve the report/stderr discrepancy as unresolved.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0077 current source package identity; S80-S82 PNGs are byte-identical to the previous checkpoint. Preserve the original DEC-0060 static summaries. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Historical DEC-0077 provenance: S80-S82 PNGs were unchanged at that checkpoint. DEC-0080 updates S80 and current identifiers; S81/S82 visuals remain preserved. Preserve the original DEC-0060 static summaries. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 

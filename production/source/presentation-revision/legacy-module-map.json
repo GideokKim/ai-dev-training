@@ -596,7 +596,7 @@
         "M2"
       ],
       "scope": "principle",
-      "rationale": "독립 조사를 나누기 전에 결과 형식·전달 지점·합칠 책임을 정한다. 출력 형식 지정의 원리만 연결하며 일반 JSON/XML structured output 기법은 아니다. DEC-0062: Subagent가 해결할 문제와 활용 관계를 현재 사례의 보류 결론보다 먼저 설명한다. DEC-0071: compare identical investigation roles and make main-Agent integration responsibility explicit; retain M2 coverage.",
+      "rationale": "독립 조사를 나누기 전에 결과 형식·전달 지점·합칠 책임을 정한다. 출력 형식 지정의 원리만 연결하며 일반 JSON/XML structured output 기법은 아니다. DEC-0062: Subagent가 해결할 문제와 활용 관계를 현재 사례의 보류 결론보다 먼저 설명한다. DEC-0071: compare identical investigation roles and make main-Agent integration responsibility explicit; retain M2 coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2"
     },
@@ -612,7 +612,7 @@
       "slideId": "S61",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "작업 간 재사용·출처·범위·갱신 조건의 명시적 교육용 가정이다. 실제 Memory 활용·학습·온보딩 사례는 아니다. DEC-0073: distinguish current Context from a sourced reusable-knowledge candidate and next-task recheck; preserve module coverage.",
+      "rationale": "작업 간 재사용·출처·범위·갱신 조건의 명시적 교육용 가정이다. 실제 Memory 활용·학습·온보딩 사례는 아니다. DEC-0073: distinguish current Context from a sourced reusable-knowledge candidate and next-task recheck; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -628,7 +628,7 @@
       "slideId": "S63",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "현재 문제에 실제로 필요했던 Task·Context·Workflow·Verification 구성을 Minimum Effective Harness로 결산한다. 원자료에 없는 Agent 작업 환경 설계 모델이다. DEC-0062: 이 사례의 구체적인 구성과 사용 이유를 회수한다. DEC-0075: show actual goal/Context/Skill contributions and verification roles around the brightness-statistics task; preserve module coverage.",
+      "rationale": "현재 문제에 실제로 필요했던 Task·Context·Workflow·Verification 구성을 Minimum Effective Harness로 결산한다. 원자료에 없는 Agent 작업 환경 설계 모델이다. DEC-0062: 이 사례의 구체적인 구성과 사용 이유를 회수한다. DEC-0075: show actual goal/Context/Skill contributions and verification roles around the brightness-statistics task; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -636,7 +636,7 @@
       "slideId": "S64",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "Harness를 개발자와 Agent의 작업 환경 설계로 정의한다. 제품 시스템 아키텍처와 별도인 현행 운영 모델이다. DEC-0062: 앞 장의 실제 구성 목록을 전체 작업 관계로 묶어 Harness 정의를 완성한다. DEC-0076: connect goal/Context/Skill, Agent, verification and shared execution environment as the bounded course Harness model; preserve module coverage.",
+      "rationale": "Harness를 개발자와 Agent의 작업 환경 설계로 정의한다. 제품 시스템 아키텍처와 별도인 현행 운영 모델이다. DEC-0062: 앞 장의 실제 구성 목록을 전체 작업 관계로 묶어 Harness 정의를 완성한다. DEC-0076: connect goal/Context/Skill, Agent, verification and shared execution environment as the bounded course Harness model; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -647,7 +647,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "Repository 밖의 지침·실행 환경·도구·권한 조건도 작업 결과 해석에 기록한다. 실행 맥락과 환경 조건을 확인하는 원리만 연결한다. DEC-0062: 제품 기능 목록을 강의하지 않고 실행 조건을 기록해야 하는 이유를 제한된 Meta 관찰로 예고한다. DEC-0077: distinguish repository-external application conditions, retained TRIAL-006 observations and attribution limits; preserve module coverage.",
+      "rationale": "Repository 밖의 지침·실행 환경·도구·권한 조건도 작업 결과 해석에 기록한다. 실행 맥락과 환경 조건을 확인하는 원리만 연결한다. DEC-0062: 제품 기능 목록을 강의하지 않고 실행 조건을 기록해야 하는 이유를 제한된 Meta 관찰로 예고한다. DEC-0077: distinguish repository-external application conditions, retained TRIAL-006 observations and attribution limits; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2 · M6"
     },
@@ -675,7 +675,7 @@
         "M8"
       ],
       "scope": "principle",
-      "rationale": "반복되는 사실과 절차를 찾아 현재 필요한 구조를 묻는다. 반복 비용을 줄일 투자 지점의 성찰이며 정량 자동화 우선순위표는 아니다. DEC-0062: 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다. DEC-0079: choose one recurring need, a maintained location and review/update responsibility; retain reflection boundaries and module coverage.",
+      "rationale": "반복되는 사실과 절차를 찾아 현재 필요한 구조를 묻는다. 반복 비용을 줄일 투자 지점의 성찰이며 정량 자동화 우선순위표는 아니다. DEC-0062: 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다. DEC-0079: choose one recurring need, a maintained location and review/update responsibility; retain reflection boundaries and module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2 · M8"
     },
@@ -686,7 +686,7 @@
         "M6"
       ],
       "scope": "direct",
-      "rationale": "동작 계약·전체 테스트·성능 측정·guard로 확인한 제품 결과를 회수한다. 코드 변경을 검증 근거로 수용하는 원리를 명시한다.",
+      "rationale": "동작 계약·전체 테스트·성능 측정·guard로 확인한 제품 결과를 회수한다. 코드 변경을 검증 근거로 수용하는 원리를 명시한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M5 · M6"
     },
@@ -696,7 +696,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "현재 프로젝트 검증 기준과 재사용 지시가 모두 단위 테스트인 가상 출발점을 둔다. 테스트 코드 작성이나 도구 사용 교육은 아니다.",
+      "rationale": "현재 프로젝트 검증 기준과 재사용 지시가 모두 단위 테스트인 가상 출발점을 둔다. 테스트 코드 작성이나 도구 사용 교육은 아니다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M6"
     },
@@ -706,7 +706,7 @@
         "M6"
       ],
       "scope": "direct",
-      "rationale": "단위 테스트는 각 모듈, 통합 테스트는 모듈 연결까지 본다는 검증 범위 차이를 가상 사례로 직접 설명한다. E2E 전체 분류는 포함하지 않는다.",
+      "rationale": "단위 테스트는 각 모듈, 통합 테스트는 모듈 연결까지 본다는 검증 범위 차이를 가상 사례로 직접 설명한다. E2E 전체 분류는 포함하지 않는다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M6"
     },
@@ -717,7 +717,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "이번 요청에 검증을 더하는 보정과 다음 작업이 읽는 재사용 지침의 갱신을 구분한다. 피드백·검증 원리를 시스템 범위로 확장한다.",
+      "rationale": "이번 요청에 검증을 더하는 보정과 다음 작업이 읽는 재사용 지침의 갱신을 구분한다. 피드백·검증 원리를 시스템 범위로 확장한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2 · M6"
     },
@@ -727,7 +727,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "관찰된 원인이 있는 Layer와 변경할 Layer를 맞춘다. 가설을 확인한 뒤 원인에 맞춰 수정한다는 디버깅 원리를 확장한다.",
+      "rationale": "관찰된 원인이 있는 Layer와 변경할 Layer를 맞춘다. 가설을 확인한 뒤 원인에 맞춰 수정한다는 디버깅 원리를 확장한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M6"
     },
@@ -737,7 +737,7 @@
         "M6"
       ],
       "scope": "direct",
-      "rationale": "증상에서 즉시 결론을 내리지 않고 Context·Workflow·환경/권한·제품 코드의 원인 후보를 나눈다.",
+      "rationale": "증상에서 즉시 결론을 내리지 않고 Context·Workflow·환경/권한·제품 코드의 원인 후보를 나눈다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M6"
     },
@@ -747,7 +747,7 @@
         "M6"
       ],
       "scope": "direct",
-      "rationale": "주어진 관찰 사실과 확인할 원인 가설을 구분하고 실행 경로·실제로 읽은 지침을 대조하도록 한다.",
+      "rationale": "주어진 관찰 사실과 확인할 원인 가설을 구분하고 실행 경로·실제로 읽은 지침을 대조하도록 한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M6"
     },
@@ -758,7 +758,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "확인된 원인이 지지하는 범위만 바꾸는 최소 변경 원리를 가상 Workflow에 적용한다. 제품 리팩터링 실행 사례는 아니다.",
+      "rationale": "확인된 원인이 지지하는 범위만 바꾸는 최소 변경 원리를 가상 Workflow에 적용한다. 제품 리팩터링 실행 사례는 아니다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M5 · M6"
     },
@@ -768,7 +768,7 @@
         "M6"
       ],
       "scope": "direct",
-      "rationale": "변경 후 같은 Task의 재확인과 다른 유효한 작업에 대한 회귀 확인이 서로 다른 질문임을 설명한다.",
+      "rationale": "변경 후 같은 Task의 재확인과 다른 유효한 작업에 대한 회귀 확인이 서로 다른 질문임을 설명한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M6"
     },
@@ -797,7 +797,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "실행·관찰·원인 판단·시스템 변경·재평가로 피드백을 연결한다. 검증과 반복 개선 원리를 Harness 범위로 확장하며 Sobel 코드 다회차 개선과 구분한다.",
+      "rationale": "실행·관찰·원인 판단·시스템 변경·재평가로 피드백을 연결한다. 검증과 반복 개선 원리를 Harness 범위로 확장하며 Sobel 코드 다회차 개선과 구분한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2 · M6"
     },
@@ -807,7 +807,7 @@
         "M6"
       ],
       "scope": "principle",
-      "rationale": "실제 Trial의 작업 요청과 함께 관찰된 환경 영향을 분리해 원인 귀속의 확인 과제를 만든다. 근거로 가설을 판단하는 원리만 연결한다.",
+      "rationale": "실제 Trial의 작업 요청과 함께 관찰된 환경 영향을 분리해 원인 귀속의 확인 과제를 만든다. 근거로 가설을 판단하는 원리만 연결한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M6"
     },
@@ -818,7 +818,7 @@
         "M6"
       ],
       "scope": "direct",
-      "rationale": "동일 조건의 입력/출력 guard·측정 결과 확인과 그 결과를 만든 원인 판단을 구분한다. 코드 성능 근거이며 개발자 생산성 증거는 아니다.",
+      "rationale": "동일 조건의 입력/출력 guard·측정 결과 확인과 그 결과를 만든 원인 판단을 구분한다. 코드 성능 근거이며 개발자 생산성 증거는 아니다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M5 · M6"
     },
