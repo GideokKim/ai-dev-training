@@ -10259,3 +10259,111 @@ Render/review the final Full115and ACT5 15slides. Verify114unchanged Full
 screens, all115Notes, native evidence and other five ACT packages. Preserve
 Windows/room/product/account/rehearsal as UNVERIFIED, then commit and push
 normally to the existing origin/main. Do not rebuild presenter bundles.
+
+# DEC-0096 — Recenter the ACT4 planning brief on goal-directed review loops
+
+## Status
+
+ACCEPTED — the user's clarified intent and S100 exclusion apply to replanning.
+The detailed slide proposal remains PROPOSED, pending review.
+
+## Date
+
+2026-10-25
+
+## Context
+
+Baseline `ee0add1` has115slides/406minutes. ACT4 S82-S100 has19slides and
+81minutes. The user states that the intended Loop Engineering topic is
+repeated implementation, review and revision until the goal is met, with
+research on using different models. The user also excludes the current
+S100 GPU case and requests a new plan plus analysis of the previous drift.
+
+## Problem
+
+The produced ACT4 prioritizes stale workflow updates and evaluation/report
+criteria changes. Earlier plans include both Product and Harness loops but
+emphasize the latter. DEC-0023 and DEC-0094 propagate that interpretation.
+Adding retry/completion branches does not recenter the main example on a
+single goal's successive implementation and review attempts. The current
+research registry lacks a traceable heterogeneous-model claim-to-slide path.
+
+## Decision
+
+Use the latest user clarification as the ACT4 replanning brief. Center a
+goal-directed implementation/review/revision loop, using completion criteria,
+tool evidence, feedback transfer and explicit next-action control. Include
+different-model implementation and review as a substantive design topic,
+with the conditions and limits of the relevant research.
+
+Exclude the current S100 GPU case from the next ACT4 design. The earlier
+requirement to retain that page and the Harness-improvement priority must
+not override this brief. Preserve the historical decisions and evidence.
+
+Document the root-cause analysis, reviewed primary research, proposed slide
+sequence and downstream impacts in `plan/ACT4_GOAL_LOOP_REPLAN.md`. Accept
+the brief only: the proposed18pages/81minutes, example, model selection,
+per-slide allocations and production details still require review.
+
+Do not edit PPTX, Notes, previews, authoritative slide numbering or Demo
+Repository in this planning task. The actual deck remains115slides and
+406minutes. Record114slides/406minutes only as the proposal's projected
+result, not as completed production. Do not create a new Trial or claim
+that existing trials measured heterogeneous-model iterative improvement.
+
+## Rationale
+
+Make the central learning objective and observable loop behavior explicit
+before another local slide repair. Preserve truthful evidence boundaries
+without allowing a previously frozen interpretation to override the user's
+clarification. Distinguish accepted intent from an unapproved detailed plan.
+
+## Alternatives
+
+Retain the maintenance-focused story and add a multi-model research page;
+this leaves the main implementation/review feedback path unexplained.
+Immediately rebuild the deck; this spends production effort before the new
+story and its evidence design have been reviewed.
+Claim that different models always improve the loop; the research does not
+establish that universal result or validate the current training setup.
+
+## Trade-offs
+
+The replan may replace substantial ACT4 material and require ACT3/ACT5
+handoff alignment. Existing Meta and conceptual cases remain historical
+or supporting evidence. Real model choices and repeated execution records
+are not yet available for a new observed demonstration.
+
+## Related Invariants
+
+INV-LOOP-001 and INV-MATURITY-010 require scope alignment during production.
+Preserve INV-NARRATIVE-001, INV-VERIFY-001, INV-DEMO-003 and
+INV-RESPONSIBILITY-001. The user's current intent governs that alignment.
+
+## Affected Artifacts
+
+This task: `plan/ACT4_GOAL_LOOP_REPLAN.md` and this Decision record only.
+After review: course definitions, claims/research links, curriculum/story,
+Demo specifications, Slide/Template maps, affected Notes, PPTX and previews.
+Do not silently update these production artifacts during planning.
+
+## Evidence
+
+The user's current clarification; MASTER_PLAN sections5.9and14;
+INV-LOOP-001; DEC-0023/0094; current ACT4 PPTX text and source records.
+Primary research checked2026-10-25: Self-Refine, ReConcile Table7,
+CriticBench section4.2.5 and the ICLR2024 intrinsic self-correction study.
+Exact source URLs and claim limits are recorded in the replan.
+
+## Training Relevance
+
+YES — connect review feedback to the next implementation attempt under a
+fixed goal, and distinguish model critique, tool evidence and completion.
+
+## Follow-up
+
+Review the proposed structure before slide production. Then reconcile
+definitions and evidence, create an ID migration for the S100 exclusion,
+align ACT3/ACT5 handoffs and implement the reviewed design. Keep Windows,
+room, product/account and rehearsal gates UNVERIFIED. Commit and push only
+the planning documents in this task; do not rebuild presenter bundles.
