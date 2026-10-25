@@ -1,0 +1,404 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "decision": "DEC-0097",
+  "baseline": "b53b8dc",
+  "slides": 114,
+  "minutes": 406,
+  "ACTCounts": [
+    14,
+    22,
+    19,
+    26,
+    18,
+    15
+  ],
+  "ACTMinutes": [
+    43,
+    64,
+    82,
+    96,
+    81,
+    40
+  ],
+  "modeMinutes": {
+    "Transition": 26,
+    "Lecture": 172,
+    "Reflection": 22,
+    "Case": 103,
+    "Demo": 51,
+    "Q&A": 32
+  },
+  "ACT4": {
+    "range": "S82-S99",
+    "slides": 18,
+    "minutes": 81,
+    "case": "CONCEPTUAL / NOT EXECUTED"
+  },
+  "notesRecords": 114,
+  "fieldsPerNotes": 19,
+  "embeddedNotesChecked": 173,
+  "FullACTPNGParity": 114,
+  "unchangedFullScreensPixelIdentical": 76,
+  "retainedPictureInstances": 17,
+  "nativeEvidence": {
+    "AI_Dev_Training_Full": {
+      "tables": [
+        "S53",
+        "S62"
+      ],
+      "charts": [
+        "S66",
+        "S93"
+      ]
+    },
+    "ACT_3": {
+      "tables": [
+        "S62"
+      ],
+      "charts": [
+        "S66"
+      ]
+    },
+    "ACT_4": {
+      "tables": [],
+      "charts": [
+        "S93"
+      ]
+    },
+    "ACT_5": {
+      "tables": [],
+      "charts": []
+    }
+  },
+  "S108PriorConnectorGeometryPreserved": true,
+  "ReConcileLiteralValues": [
+    79.0,
+    72.2
+  ],
+  "ReConcileValueAxis": [
+    0,
+    100
+  ],
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "preexistingWarnings": [
+    {
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 53,
+      "table_id": "8"
+    }
+  ],
+  "artifacts": {
+    "AI_Dev_Training_Full": {
+      "slides": 114,
+      "sha256": "6754116a2e710266680512cec4003f023a280b0260f335439183541b2dfd38b8",
+      "notesMatch": 114
+    },
+    "ACT_3": {
+      "slides": 26,
+      "sha256": "426f8031285a4de91676980fc20b936cef941ace9f1bea43540575120eeceaa7",
+      "notesMatch": 26
+    },
+    "ACT_4": {
+      "slides": 18,
+      "sha256": "cec1a7186bbd940429f00f731d884d062fb72bb22d9f8a77ecf7214f36cb5d46",
+      "notesMatch": 18
+    },
+    "ACT_5": {
+      "slides": 15,
+      "sha256": "32bc0386b483abb72fe2d3b42d72455f22aea0c0390e441049dc5ec40e7f1634",
+      "notesMatch": 15
+    }
+  },
+  "ACT0to2PackagesUnchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrialOrMeasuredLoopEffect": false,
+  "WindowsRoomProductAccountTimedRehearsal": "UNVERIFIED",
+  "artifactPaths": {
+    "AI_Dev_Training_Full": "production/AI_Dev_Training_Full.pptx",
+    "ACT_3": "production/ACT_3.pptx",
+    "ACT_4": "production/ACT_4.pptx",
+    "ACT_5": "production/ACT_5.pptx"
+  },
+  "visualReview": {
+    "allACTOverviews": 6,
+    "individualSlidesReviewed": "S77-S114",
+    "unchangedS01toS76PixelComparison": "IDENTICAL",
+    "newClippingOverlapGlyphOrConnectorIssueFound": false,
+    "WindowsAndRoomValidation": "UNVERIFIED"
+  },
+  "staticReferences": [
+    {
+      "slide": "S05",
+      "path": "production/preview/full/S05.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "25d932bfd4e8f658f4fe911f3612274b6c841f15456ffc7487d7eda671561892"
+    },
+    {
+      "slide": "S06",
+      "path": "production/preview/full/S06.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "f793703980a111376765fc5fa8c2b2d2c5451f3d848e5cc3670c373029163a8a"
+    },
+    {
+      "slide": "S07",
+      "path": "production/preview/full/S07.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "ee0f2d472090a10a99f3fc09d994a9002bc94c7991cd1dbb9a2b70959af9f9fa"
+    },
+    {
+      "slide": "S08",
+      "path": "production/preview/full/S08.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "03372ecca35d5bab1fa88a66faffeaa2672aa7d272103999fe811031a1def084"
+    },
+    {
+      "slide": "S09",
+      "path": "production/preview/full/S09.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "5d1f9dd413611f462d298e342a93bac9693d95c5d3bbd6fc5052c0d64269c9aa"
+    },
+    {
+      "slide": "S23",
+      "path": "production/preview/full/S23.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "66aeb7922467fce42f7ed0c5e7478737cb858dbfe09317b40a3a1e125ae64ad9"
+    },
+    {
+      "slide": "S24",
+      "path": "production/preview/full/S24.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "d591598f8c519db6e49ece83ef7ad3aab88c64426a38c0e5e94e0ea05649910f"
+    },
+    {
+      "slide": "S38",
+      "path": "production/preview/full/S38.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "b060992d40d19c929035ef0d5b060c1bd60895e736d41f7f168d602952cb6fe1"
+    },
+    {
+      "slide": "S39",
+      "path": "production/preview/full/S39.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "fc9d9164af151da11c1b0df3913050e60f5276261c8d4b5f0fa8fbe5bee8705b"
+    },
+    {
+      "slide": "S40",
+      "path": "production/preview/full/S40.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "5095c3df42869547aae672be3a3890fea487806361aa24861b0dbfab8c261f98"
+    },
+    {
+      "slide": "S43",
+      "path": "production/preview/full/S43.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "f4f6425a269f5eed7be59c406e0843f5af63d7429dcb2526b24f0db4653251fe"
+    },
+    {
+      "slide": "S49",
+      "path": "production/preview/full/S49.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "baadcfacfc815cf5b992c2a0f5611d728d43118e309487a033479d8d0755852a"
+    },
+    {
+      "slide": "S51",
+      "path": "production/preview/full/S51.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "60149cbd71c8c40aea8575c7db1ec297e841469a55bc2443c270c77f734c1acf"
+    },
+    {
+      "slide": "S52",
+      "path": "production/preview/full/S52.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "3f253e201296daafb769b2e55695a1ca491dab4a99f3627b83954962ca86a77e"
+    },
+    {
+      "slide": "S53",
+      "path": "production/preview/full/S53.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "f39edc56376b8e45fffa06a3459d15e7166122d1ef53dda0fd4dbb34879a8216"
+    },
+    {
+      "slide": "S61",
+      "path": "production/preview/full/S61.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "5b4d8fa934aac097bba9ffe0c8a70bbcd11f38ba87cf1358c62405bffdaa2c64"
+    },
+    {
+      "slide": "S62",
+      "path": "production/preview/full/S62.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "ba4f39dc14cbff585c7028a0cb69f9db01516e7339b350ed4b799c40199950c4"
+    },
+    {
+      "slide": "S67",
+      "path": "production/preview/full/S67.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "e5b3a39a642b5dd0ac43f89b7b71dd6c76ca0c14f75f0647175113d99b8eceb4"
+    },
+    {
+      "slide": "S69",
+      "path": "production/preview/full/S69.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "06e10166f57803b9e0f9a6aac1fb5071403d4d255be9427252d890476e6da0ce"
+    },
+    {
+      "slide": "S70",
+      "path": "production/preview/full/S70.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "434fed94db2eaa6472dc021f5db0adbb992ef8c5266ec5557f2cd0526a84eec0"
+    },
+    {
+      "slide": "S71",
+      "path": "production/preview/full/S71.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "42c89a546c99d4c191629ac5b5a2547f0c1db6d3f2234e7aead3d16e0ae015c9"
+    },
+    {
+      "slide": "S72",
+      "path": "production/preview/full/S72.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "7e75315777cc19d91c3523d6ab4808df53159528b272c3333ef7a73609305a6e"
+    },
+    {
+      "slide": "S73",
+      "path": "production/preview/full/S73.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "80798175f34b9f50cd5a70609d1437dd1d24448015904400ac212866441979c5"
+    },
+    {
+      "slide": "S101",
+      "path": "production/preview/full/S101.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "ae143d0c2f7dbec102877c505f8d1b7815db55e0fda847a63b3bc87bb2f383fb"
+    },
+    {
+      "slide": "S102",
+      "path": "production/preview/full/S102.png",
+      "group": "RETAINED_DEMO_STATIC",
+      "sha256": "ec4e69d463a3d663c8774c91371cee7b8f5699a92b80c6187db29b7b0c661936"
+    },
+    {
+      "slide": "S83",
+      "path": "production/preview/full/S83.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "fd30b197b411a6d4092c4ce517a19e41453635f5475c7c743879abaf4256b6d2"
+    },
+    {
+      "slide": "S84",
+      "path": "production/preview/full/S84.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "f46a13afad02897e9323965c454757970a9c48a09045e08c02f9f456f423af20"
+    },
+    {
+      "slide": "S85",
+      "path": "production/preview/full/S85.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "620eb1abfac759079bff8915b107e87c1de61a2f940b1f9016ce5fd5025602c3"
+    },
+    {
+      "slide": "S86",
+      "path": "production/preview/full/S86.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "9214dede04fa38570397caeaf00e73175802c17cd713e58c754e429fbb9d6275"
+    },
+    {
+      "slide": "S87",
+      "path": "production/preview/full/S87.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "a9e161e43e0a275054978abd8ab993883aa9b645fa34c98f6363a48124536916"
+    },
+    {
+      "slide": "S88",
+      "path": "production/preview/full/S88.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "97d6ddd46d9680350aa936cd51fc6b9435fcc946ce2c8d76967ff420ade48ae2"
+    },
+    {
+      "slide": "S89",
+      "path": "production/preview/full/S89.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "406be6c5abfa5aeca8146b86915c8d519955ece931a3ac03ec6d0e67bf46538c"
+    },
+    {
+      "slide": "S90",
+      "path": "production/preview/full/S90.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "eaddd5ce87323fe7bf3bbc5a630097d1f8d30c65915168b2bc60cce411f78bee"
+    },
+    {
+      "slide": "S91",
+      "path": "production/preview/full/S91.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "b319fb55836edc99539b14c3c65976efb953b67985cfb302cd4dc7f008191738"
+    },
+    {
+      "slide": "S92",
+      "path": "production/preview/full/S92.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "24e4c1a54fc827a57c27b7299b440b4d614203897125ac4d48d4023f39c4bf37"
+    },
+    {
+      "slide": "S93",
+      "path": "production/preview/full/S93.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "d3fe97daf8abcbd7cb3b71b5978d04c95a3d3873ee74ad85613b6ce89eee49ee"
+    },
+    {
+      "slide": "S94",
+      "path": "production/preview/full/S94.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "bbad8fd7d9537ad9ab2dd19ffb214d64ed0707977c2d8602b9e1caba3da59b62"
+    },
+    {
+      "slide": "S95",
+      "path": "production/preview/full/S95.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "02dafd4165b47394323af367ba1925cf067b2cc168fd9decde2f499143e7fd10"
+    },
+    {
+      "slide": "S96",
+      "path": "production/preview/full/S96.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "e9673a5142b3623eece18cf907bdebca589d911b8f2204af74aa6afd6049692f"
+    },
+    {
+      "slide": "S97",
+      "path": "production/preview/full/S97.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "aea7a699d6c10acf7764cb39afdbfcd50afb08507d2449d5968c8f7f355294bc"
+    },
+    {
+      "slide": "S98",
+      "path": "production/preview/full/S98.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "cf717da75c3406b4dc5aa3e2938230a14d3383b9548772c1ae9e4ae162772d4f"
+    },
+    {
+      "slide": "S99",
+      "path": "production/preview/full/S99.png",
+      "group": "CASE_RESEARCH_TEACHING_STATIC",
+      "sha256": "ca73ba65f2755de27cfde1259691600f4a46d04ea71c533f32daf7ef0cefd6eb"
+    }
+  ],
+  "staticReadinessScope": "LOCAL_FILES_ONLY; NOT_RAW_CAPTURE_OR_LIVE_APPROVAL",
+  "publishedReleaseCheck": {
+    "artifactHashes": "MATCH_VALIDATED_FINALIZATIONS",
+    "currentPNGFiles": 228,
+    "FullACTParity": 114,
+    "staticPathsHashesDimensions": 42,
+    "newLocalLinksChecked": 100,
+    "missingNewLinks": 0,
+    "credentialPatternFindings": 0,
+    "diffWhitespaceCheck": "PASS"
+  }
+}

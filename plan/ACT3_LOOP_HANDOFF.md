@@ -1,5 +1,9 @@
 # ACT3→ACT4 — 반복 보정을 다음 작업의 개선으로 잇기
 
+> Historical design: DEC-0097 supersedes the ACT4 maintenance priority, old
+> S100 and its operating budget. Preserve this record as history. Current
+> design: [goal-loop replan](ACT4_GOAL_LOOP_REPLAN.md); current IDs: [Map](SLIDE_MAP.md).
+
 ## 현재 Codex 제작 팁 — DEC-0093 (2026-10-25)
 
 현재115장·406분(6시간46분). 기존113장의 Story·장별 시간/Mode·근거를 유지하고

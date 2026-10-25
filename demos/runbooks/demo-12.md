@@ -1,3 +1,30 @@
+# DEMO-12 — Current observed Product evolution recap
+
+Current edition: DEC-0097 /114slides/406minutes. Current range: S101–S102.
+S101: Lecture4minutes. S102: VISUAL Demo2minutes. No new Trial.
+
+## Current operation
+
+- Purpose: recap actual Product changes and preserve the boundary from the
+  separate designed Loop and historical Meta observations.
+- Start cue: S101 recalls the question changed at each maturity step.
+- Show S102 top to bottom: problem → actual change → retained State IDs.
+- Available files: [S101](../../production/preview/full/S101.png),
+  [S102](../../production/preview/full/S102.png), and the integrated PPT.
+- Default/fallback: these local static renders or ACT5 PPT. They are slide
+  summaries, not raw execution captures or new comparisons.
+- Stop cue: move S102→S103 to ask which components were deliberately deferred.
+- Required environment: local static playback only; target Windows/account/
+  room/timed rehearsal remain UNVERIFIED. Live/Hybrid is disabled.
+- Claim boundary: actual STATE-00→STATE-04-PERF history ends at the recorded
+  Product scope. CASE-LOOP-01 is not an executed continuation.
+- Readiness: READY for the checked local files only; see
+  [current paths/hashes](FALLBACK_MANIFEST.md) and
+  [current validation](../../production/evaluation/ACT_4_GOAL_LOOP_REVISION.md).
+
+<details>
+<summary>Preserved earlier runbook — prior S102/S103 numbering</summary>
+
 # DEMO-12 — Observed Evolution Recap
 
 > Current references: DEC-0093 /115slides/406minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_115.md. Only new S63/S68 add Lecture, no Demo time. ACT4 remains19pages/81minutes; final tip indexes S112-S114. Windows/product/account/room/timed rehearsal UNVERIFIED.
@@ -147,3 +174,5 @@ and hashes. No product run, Trial, extra State, measured gain or live approval.
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.
+
+</details>

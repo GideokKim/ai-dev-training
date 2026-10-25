@@ -1,3 +1,14 @@
+# Historical supporting runbook — DEMO-04B
+
+Current status: **HISTORICAL / NOT SCHEDULED IN DEC-0097 ACT4**.
+The current114-slide deck uses CASE-LOOP-01 at S83–S99. The material below
+retains its original conceptual/observed meaning and earlier-edition IDs.
+Do not open its old Sxx paths as current evidence of a goal-directed loop.
+No new execution or result is approved. Use [the current manifest](FALLBACK_MANIFEST.md).
+
+<details>
+<summary>Preserved original runbook — earlier numbering and delivery</summary>
+
 # DEMO-04B — Observed Training Production Meta Case
 
 ## Current operation — DEC-0094
@@ -176,3 +187,5 @@ not a raw CLI screenshot. Local SHA-256 is listed in the current review;
 target-PC playback remains UNVERIFIED. S65 is outside the existing32-file
 Demo fallback inventory. Core S80-S82 playback,8Demo minutes and all32
 fallback PNG hashes remain unchanged. No new Trial or product execution.
+
+</details>

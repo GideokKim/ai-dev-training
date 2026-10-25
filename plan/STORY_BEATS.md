@@ -1,6 +1,29 @@
 # Story Beats
 
-## 현재 Codex 제작 팁 — DEC-0093 (2026-10-25)
+## 현재 ACT4 제작 기준 — DEC-0097 (2026-10-25)
+
+사용자가 ACT4 재기획안을 승인했다. 현재114장·406분(6시간46분), ACT 장수
+14/22/19/26/18/15와 시간43/64/82/96/81/40분이다. ACT4 S82–S99는18장·81분,
+ACT5는 S100–S114다. 이전 S100 GPU 장을 삭제하고 이전 S101–S115를 -1 이행했다.
+전체 Mode는 Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+이전 ACT4의 visual/captured Demo22분을 포함한 배정을 새 설계에 맞춰 재배분했다.
+새 반복 진행은 Case이며 실제 새 모델 호출·수정·검증·성과를 관찰한 Demo가 아니다.
+
+ACT4의 중심은 **같은 목표의 구현 → 근거 있는 검토 → 수정 → 재검토 → 목표 충족 판단**이다.
+Harness 개선은 관련 확장이며 이 수행 루프의 주 사례를 대신하지 않는다.
+CASE-LOOP-01은 별도 교육용 밝기 통계 설계이고, S92–S94는 조건을 제한한 연구다.
+현재 다중 모델 조합·제품 실행 표면·반복 효과는 미검증이다. 기존 Product/Meta
+Trial과 새 설계의 근거를 합치지 않는다. 연구는 다른 모델의 보편적 우월성을 뜻하지 않는다.
+
+[승인 설계](ACT4_GOAL_LOOP_REPLAN.md), [현행 Map](SLIDE_MAP.md),
+[115→114 이행](SLIDE_ID_MIGRATION_114.md)을 따른다. 기존12Templates/28Variants,
+19Notes 필드와19개 실무 적용 팁을 유지한다. 마지막 찾아보기는 S111–S113이다.
+아래 이전 정의·번호·시간·검증은 이력이다. 새 기준과 충돌하면 현재 사용자 승인과
+DEC-0097을 우선한다. Windows/교육장/제품·계정/실제 리허설은 UNVERIFIED다.
+Demo Repository·기존 State/Trial·발표 묶음은 변경하지 않는다.
+
+
+## 이전 Codex 제작 팁 — DEC-0093 (2026-10-25)
 
 현재115장·406분(6시간46분). 기존113장의 Story·장별 시간/Mode·근거를 유지하고
 이전 S62 뒤 새 S63에 Skill 제작 팁, 이전 S66 뒤 새 S68에 Custom Agent 제작 팁을
@@ -3408,3 +3431,116 @@ timeline, events, and verification commands are not yet selected.
 - Verification and developer responsibility recur throughout; the task
   workflow `Investigate → Plan → Implement → Verify → Review` is distinct from
   the maturity path.
+
+## DEC-0097 — Current goal-loop beats
+
+Previous BEAT-038–059 remain historical/supporting records and are not
+relabelled as multi-model execution. Current ACT4 uses the following new IDs.
+
+### BEAT-072 — 목표를 이룰 때까지 수정하고 검토하기
+
+- **Act:** ACT4
+- **Slides:** S82
+- **Action:** Loop Engineering은 같은 목표의 구현·검토·수정을 피드백으로 연결하는 시스템 설계다.
+- **Evidence:** TEACHING_MODEL; DEC-0097; no new executed Trial.
+- **Curriculum:** 4R1 Goal-loop entry
+- **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.
+
+### BEAT-073 — 다음 수정도 사람이 매번 이어줘야 할까?
+
+- **Act:** ACT4
+- **Slides:** S83
+- **Action:** 한 목표를 마치는 동안 사람이 검토·수정·재확인의 다음 요청을 계속 연결하는 문제를 드러낸다.
+- **Evidence:** CONCEPTUAL; DEC-0097; no new executed Trial.
+- **Curriculum:** 4R1 Goal-loop entry
+- **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.
+
+### BEAT-074 — 먼저, 무엇이 되면 완료인지 정한다
+
+- **Act:** ACT4
+- **Slides:** S84
+- **Action:** 밝기 통계의 출력·동작, 임시 할당, 실행시간 조건을 처음부터 완료 기준으로 두고 반복 중 유지한다.
+- **Evidence:** CONCEPTUAL; DEC-0097; no new executed Trial.
+- **Curriculum:** 4R2 One-goal walkthrough
+- **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.
+
+### BEAT-075 — 모델 A가 첫 변경 후보를 만든다
+
+- **Act:** ACT4
+- **Slides:** S85, S86
+- **Action:** 첫 구현은 검토할 후보이며 완료가 아니다. 가상 v1은 전체 값 복사가 남아 있는 계산 방식이다. 모델의 설명을 실제 검사·측정 기록으로 대조하도록 검증을 설계한다.
+- **Evidence:** CONCEPTUAL; DEC-0097; no new executed Trial.
+- **Curriculum:** 4R2 One-goal walkthrough
+- **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.
+
+### BEAT-076 — 모델 B는 무엇을 근거로 검토할까?
+
+- **Act:** ACT4
+- **Slides:** S87
+- **Action:** 다른 모델 B는 목표·명세·diff·검사 기록을 근거로 구체적인 검토 지적을 만든다.
+- **Evidence:** CONCEPTUAL; DEC-0097; no new executed Trial.
+- **Curriculum:** 4R2 One-goal walkthrough
+- **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.
+
+### BEAT-077 — 지적이 다음 수정으로 이어진다
+
+- **Act:** ACT4
+- **Slides:** S88
+- **Action:** 검토 지적의 번호를 유지해 다음 변경 후보가 무엇을 고치는지 연결한다.
+- **Evidence:** CONCEPTUAL; DEC-0097; no new executed Trial.
+- **Curriculum:** 4R2 One-goal walkthrough
+- **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.
+
+### BEAT-078 — 고쳤다면, 같은 기준으로 다시 본다
+
+- **Act:** ACT4
+- **Slides:** S89
+- **Action:** 후보 v2를 같은 기준으로 재검증·재검토하고 남은 지적은 다음 수정으로 되돌린다.
+- **Evidence:** CONCEPTUAL; DEC-0097; no new executed Trial.
+- **Curriculum:** 4R2 One-goal walkthrough
+- **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.
+
+### BEAT-079 — 같은 목표의 구현·검토 루프
+
+- **Act:** ACT4
+- **Slides:** S90, S91
+- **Action:** 목표·완료 기준 아래 구현, 도구 근거, 다른 모델의 검토와 다음 수정 판단을 하나의 닫힌 경로로 설계한다. 근거에 따라 완료, 다음 수정, 미완료 중단·사람 확인을 구분한다.
+- **Evidence:** TEACHING_MODEL; DEC-0097; no new executed Trial.
+- **Curriculum:** 4R3 Feedback and control
+- **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.
+
+### BEAT-080 — 구현한 모델에게 다시 물으면 충분할까?
+
+- **Act:** ACT4
+- **Slides:** S92
+- **Action:** 자기 피드백으로 개선된 연구와 외부 근거 없는 자기 교정의 한계 연구를 조건과 함께 설명한다.
+- **Evidence:** RESEARCH; DEC-0097; no new executed Trial.
+- **Curriculum:** 4R4 Research and model choice
+- **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.
+
+### BEAT-081 — 다른 모델의 관점이 도움이 된 실험
+
+- **Act:** ACT4
+- **Slides:** S93, S94
+- **Action:** ReConcile의 StrategyQA 실험에서 여러 모델 조합과 같은 ChatGPT 세 Agent 구성을 비교한 결과를 설명한다. CriticBench의 생성·검토·수정 능력과 교차 모델 검토 결과를 근거로 검토자 선택을 따로 평가할 이유를 설명한다.
+- **Evidence:** RESEARCH; DEC-0097; no new executed Trial.
+- **Curriculum:** 4R4 Research and model choice
+- **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.
+
+### BEAT-082 — 구현과 검토에 모델을 어떻게 나눌까?
+
+- **Act:** ACT4
+- **Slides:** S95, S96, S97
+- **Action:** 같은 모델의 역할 분리와 다른 모델의 구현·검토 조합을 구분하고 실제 작업에서 효과를 평가한다. 검토 모델의 지적도 명세와 검사 근거로 대조해 수용·기각·추가 확인을 결정한다. 고정 목표, 현재 후보·검토·검사, 남은 문제와 한도를 다음 시도가 이어받도록 설계한다.
+- **Evidence:** TEACHING_MODEL; DEC-0097; no new executed Trial.
+- **Curriculum:** 4R5 Engineering the loop
+- **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.
+
+### BEAT-083 — 확인한 근거와 아직 실행하지 않은 설계
+
+- **Act:** ACT4
+- **Slides:** S98, S99
+- **Action:** 기존 제품 Trial, 인용 연구, 이번 루프 설계의 세 근거 범위를 구분한다. 내 업무의 목표·피드백·운영 판단을 떠올리고 ACT5의 조합·통합·제거로 이어간다.
+- **Evidence:** TEACHING_MODEL; DEC-0097; no new executed Trial.
+- **Curriculum:** 4R6 Evidence and transfer
+- **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.

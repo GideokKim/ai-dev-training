@@ -1350,3 +1350,49 @@ source identities for the current narrow authoring tips.
 | SRC-0112 | https://learn.chatgpt.com/docs/agent-configuration/subagents |2026-10-25| Explicit Subagent delegation; project `.codex/agents/*.toml`; required name/description/developer_instructions; inherited parent permissions | No dedicated creator Skill, separate read-only permission or measured benefit established |
 
 See product/CODEX_AUTHORING_2026-10-25.md for the adapted teaching examples.
+
+## DEC-0097 — Goal-loop research (checked2026-10-25)
+
+### SRC-0237
+
+Title: ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs
+Organization / Authors: Justin Chih-Yao Chen, Swarnadeep Saha, Mohit Bansal
+Source Type: ACADEMIC_PRIMARY
+URL: https://aclanthology.org/2024.acl-long.381.pdf
+Published: 2024
+Checked: 2026-10-25
+Tier: 1 — original paper
+Sections / Selectors: Table7 / section6.2
+Key Evidence: StrategyQA accuracy79.0±1.6 for the multi-model configuration versus72.2±2.1 when all three Agents use ChatGPT;6.8percentage-point difference.
+Limitations: Reasoning discussion/consensus, not code-revision performance; model capabilities also change with composition. No universal or current Codex effect.
+Notes: DEC-0097; ACT4 S92–S94; no new Trial.
+
+### SRC-0238
+
+Title: CriticBench: Benchmarking LLMs for Critique-Correct Reasoning
+Organization / Authors: Zicheng Lin, Zhibin Gou, Tian Liang, Ruilin Luo, Haowei Liu, Yujiu Yang
+Source Type: ACADEMIC_PRIMARY
+URL: https://aclanthology.org/2024.findings-acl.91.pdf
+Published: 2024
+Checked: 2026-10-25
+Tier: 1 — original paper
+Sections / Selectors: section4.2.5 / Figure8
+Key Evidence: Seventeen models across five domains; generation, critique and correction capabilities differ. Some cross-model critique exceeds the target model self-critique.
+Limitations: Some combinations/tasks only; not an end-to-end coding-loop completion/cost comparison.
+Notes: DEC-0097; ACT4 S92–S94; no new Trial.
+
+### SRC-0239
+
+Title: Large Language Models Cannot Self-Correct Reasoning Yet
+Organization / Authors: Jie Huang et al.
+Source Type: ACADEMIC_PRIMARY
+URL: https://arxiv.org/abs/2310.01798
+Published: 2024
+Checked: 2026-10-25
+Tier: 1 — original paper
+Sections / Selectors: Abstract / ICLR2024 paper
+Key Evidence: Intrinsic reasoning self-correction without external feedback was difficult and could degrade performance in the studied setup.
+Limitations: Historical model/task/setup limits. Do not claim all current models cannot self-correct.
+Notes: DEC-0097; ACT4 S92–S94; no new Trial.
+
+SRC-0223 Self-Refine was rechecked on2026-10-25: https://arxiv.org/abs/2303.17651 . Same-model iterative feedback/refinement; not a heterogeneous-model ablation.

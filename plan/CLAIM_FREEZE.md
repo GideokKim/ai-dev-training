@@ -1,6 +1,42 @@
 # STEP 08 — CLAIM / EVIDENCE FREEZE RESULT
 
-## 현재 ACT4 정렬 — DEC-0094 (2026-10-25)
+## 현재 ACT4 제작 기준 — DEC-0097 (2026-10-25)
+
+사용자가 ACT4 재기획안을 승인했다. 현재114장·406분(6시간46분), ACT 장수
+14/22/19/26/18/15와 시간43/64/82/96/81/40분이다. ACT4 S82–S99는18장·81분,
+ACT5는 S100–S114다. 이전 S100 GPU 장을 삭제하고 이전 S101–S115를 -1 이행했다.
+전체 Mode는 Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+이전 ACT4의 visual/captured Demo22분을 포함한 배정을 새 설계에 맞춰 재배분했다.
+새 반복 진행은 Case이며 실제 새 모델 호출·수정·검증·성과를 관찰한 Demo가 아니다.
+
+ACT4의 중심은 **같은 목표의 구현 → 근거 있는 검토 → 수정 → 재검토 → 목표 충족 판단**이다.
+Harness 개선은 관련 확장이며 이 수행 루프의 주 사례를 대신하지 않는다.
+CASE-LOOP-01은 별도 교육용 밝기 통계 설계이고, S92–S94는 조건을 제한한 연구다.
+현재 다중 모델 조합·제품 실행 표면·반복 효과는 미검증이다. 기존 Product/Meta
+Trial과 새 설계의 근거를 합치지 않는다. 연구는 다른 모델의 보편적 우월성을 뜻하지 않는다.
+
+[승인 설계](ACT4_GOAL_LOOP_REPLAN.md), [현행 Map](SLIDE_MAP.md),
+[115→114 이행](SLIDE_ID_MIGRATION_114.md)을 따른다. 기존12Templates/28Variants,
+19Notes 필드와19개 실무 적용 팁을 유지한다. 마지막 찾아보기는 S111–S113이다.
+아래 이전 정의·번호·시간·검증은 이력이다. 새 기준과 충돌하면 현재 사용자 승인과
+DEC-0097을 우선한다. Windows/교육장/제품·계정/실제 리허설은 UNVERIFIED다.
+Demo Repository·기존 State/Trial·발표 묶음은 변경하지 않는다.
+
+### Current ACT4 claim ledger
+
+| Current slides | Class | Allowed scope |
+|---|---|---|
+| S82–S91 | CONCEPTUAL / TEACHING_MODEL | CASE-LOOP-01 design, fixed criteria, feedback and decisions; no executed loop result |
+| S92 | RESEARCH | Self-Refine and external-feedback-free reasoning self-correction have different studied conditions |
+| S93 | RESEARCH | ReConcile StrategyQA Table7:79.0±1.6 vs72.2±2.1,6.8percentage points; no current coding/cost inference |
+| S94 | RESEARCH | CriticBench generation/critique/correction and some cross-model critique patterns; no universal ranking |
+| S95–S99 | TEACHING_MODEL | Role choice, reviewer fallibility, state/control, evidence boundary and reflection |
+
+SRC-0237/0238/0239 and CLM-0043/0044/0045 are the new bounded research links.
+S76 retains actual Product evidence. New ACT5 S102 retains its original Git
+history and explicitly excludes the designed loop from observed evolution.
+
+## 이전 ACT4 정렬 — DEC-0094 (2026-10-25)
 
 현재115장·406분과 ACT4 S82–S100의19장·81분, 모든 장별 시간·Mode·근거 범위는
 유지한다. 작업 수행 루프와 체계 개선 루프를 구분하고, 평가 후 완료·채택/재시도/
@@ -8,7 +44,7 @@
 확인은 부분적이며 새 개선 질문은 제안/미실행이다. [현재 설계](ACT4_LOOP_CONTROL.md),
 [현재 Slide Map](SLIDE_MAP.md)을 따른다. 아래 이전 번호·판정은 당시 기록이다.
 
-## 현재 Codex 제작 팁 — DEC-0093 (2026-10-25)
+## 이전 Codex 제작 팁 — DEC-0093 (2026-10-25)
 
 현재115장·406분(6시간46분). 기존113장의 Story·장별 시간/Mode·근거를 유지하고
 이전 S62 뒤 새 S63에 Skill 제작 팁, 이전 S66 뒤 새 S68에 Custom Agent 제작 팁을
@@ -282,16 +318,20 @@ teaching use of Progressive Disclosure saves tokens or improves performance.
 
 ## 7. Operational Definitions
 
-These exact bounded definitions resolve OQ-011 for this course under DEC-0023.
+These bounded definitions resolve OQ-011; DEC-0097 supersedes only the
+Loop priority/definition from DEC-0023. Preserve the other definitions.
 
 - **Harness:** a deliberately designed working environment that helps an
   Agent work reliably in a Project.
 - **Minimum Effective Harness:** a course heuristic to use only the Context,
   Workflow, and Verification structure needed for the current problem. It is
   not a fixed feature list or numerical threshold.
-- **Loop Engineering:** the feedback model `Execution → Observation → Cause
-  → System Change → Re-evaluation`. Automation, Agent self-learning, and
-  endless repetition are not part of the definition.
+- **Loop Engineering — current DEC-0097 scope:** a goal-directed system
+  connecting implementation, evidence-based review, revision and re-review
+  under fixed completion criteria. Decide completion, continued revision or
+  an unmet-goal stop/human escalation from evidence. Different-model roles
+  are studied design choices, not guaranteed improvements. The earlier
+  system-change-centered DEC-0023 definition is historical for this term.
 - **AI-Native Development:** this course's framing for deliberately designing
   and operating Task boundaries, Project Context, Reusable Workflow,
   Verification, and Feedback Loops while developers retain responsibility.

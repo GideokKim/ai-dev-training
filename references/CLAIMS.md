@@ -41,7 +41,7 @@ Research Priority는 조사 순서를 뜻하며 Training Risk와 별도다. 기�
 | CLM-0018 | Benchmark scores must be scoped to task, model, scaffold, resource, and scoring conditions. | ACADEMIC FINDING | HIGH | SRC-0206, SRC-0207, SRC-0212, SRC-0220 | Benchmark literacy | VERIFIED | HIGH | P2 |
 | CLM-0019 | Coding benchmark scores should not be turned into direct workplace productivity predictions. | ACADEMIC FINDING | HIGH | SRC-0213, SRC-0214, SRC-0207 | Evaluation caveat | VERIFIED | HIGH | P2 |
 | CLM-0020 | Agent evals can vary across runs and require multiple traces/criteria for robust claims. | ACADEMIC FINDING | HIGH | SRC-0212, SRC-0211, SRC-0140 | Verification/Loop | VERIFIED | HIGH | P2 |
-| CLM-0021 | Loop Engineering in this course means feedback-driven improvement, not automation alone. | TEACHING MODEL | HIGH | SRC-0001, SRC-0118, SRC-0119, SRC-0140, SRC-0224 | Loop Engineering | VERIFIED | HIGH | P0 |
+| CLM-0021 | This course centers a fixed-goal implementation/review/revision feedback system with evidence-based completion or escalation; Harness improvement is related. | TEACHING MODEL | HIGH | latest user approval, DEC-0097, SRC-0223 | Loop Engineering | VERIFIED AS COURSE DESIGN | HIGH | P0 |
 | CLM-0022 | “Minimum Effective Harness” is a bounded project heuristic, not an official universal taxonomy. | HEURISTIC | HIGH | SRC-0001, SRC-0218 | Cost/complexity | VERIFIED | HIGH | P0 |
 | CLM-0023 | AI-Native Development in this course is an operational teaching model, not a universal industry consensus. | TEACHING MODEL | HIGH | SRC-0136, SRC-0225, SRC-0226, SRC-0227, SRC-0001 | AI-Native chapter | VERIFIED | HIGH | P0 |
 | CLM-0024 | AI coding tools make developer coding skill obsolete. | INDUSTRY CLAIM | LOW | SRC-0213, SRC-0216, SRC-0217 | Do-not-claim | UNVERIFIED | HIGH | P3 |
@@ -113,7 +113,7 @@ DEC-0023; they supersede the candidate wording where applicable.
 | CLM-0018 | MEDIUM | HIGH | ADVANCED | Verification / Loop Engineering | MAYBE | NO |
 | CLM-0019 | HIGH | MEDIUM | PRACTICAL | AI-Native Development | YES | NO |
 | CLM-0020 | HIGH | MEDIUM | PRACTICAL | Verification → Loop Engineering | YES | MAYBE |
-| CLM-0021 | HIGH | MEDIUM | PRACTICAL | Loop Engineering | YES | MAYBE — illustrative only |
+| CLM-0021 | This course centers a fixed-goal implementation/review/revision feedback system with evidence-based completion or escalation; Harness improvement is related. | TEACHING MODEL | HIGH | latest user approval, DEC-0097, SRC-0223 | Loop Engineering | VERIFIED AS COURSE DESIGN | HIGH | P0 |
 | CLM-0022 | MEDIUM | MEDIUM | ADVANCED | Harness → Loop Engineering | MAYBE | MAYBE |
 | CLM-0023 | HIGH | MEDIUM | BASIC | AI-Native Development | YES | NO |
 | CLM-0029 | HIGH | LOW | BASIC | Verification throughout the Story | YES | MAYBE |
@@ -168,3 +168,14 @@ not an executed comparison. No measured cost/time/token/quality gain is added.
 Asking Codex to draft those files is the educational authoring example, not
 an observed creation run or a special automatic agent-creator mechanism.
 No new Trial, loading result, effectiveness comparison or token/time gain.
+
+## DEC-0097 — Research claim scope
+
+| Claim ID | Claim | Evidence | Boundary | Current slides |
+|---|---|---|---|---|
+| CLM-0043 | ReConcile StrategyQA Table7 reports79.0±1.6 vs72.2±2.1 for multi-model vs all-ChatGPT Agents, a6.8percentage-point difference. | SRC-0237 | Studied reasoning protocol/model composition; no current code-loop or universal benefit | S93 |
+| CLM-0044 | CriticBench finds model/task-dependent generation, critique and correction abilities; some cross-model critique exceeds self-critique. | SRC-0238 | No universal model ordering or development-loop performance claim | S94–S95 |
+| CLM-0045 | Same-model refinement and intrinsic self-correction have different methods/conditions and nonuniform results. | SRC-0223, SRC-0239 | Historical studies; no claim that all current models fail or improve | S92 |
+
+CASE-LOOP-01 is a design application. CLM-0043/0044 do not validate its runtime,
+completion rate, costs or selected models. The exact model pair is TBD.

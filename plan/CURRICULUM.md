@@ -1,6 +1,29 @@
 # 6-Hour Curriculum
 
-## 현재 ACT4 정렬 — DEC-0094 (2026-10-25)
+## 현재 ACT4 제작 기준 — DEC-0097 (2026-10-25)
+
+사용자가 ACT4 재기획안을 승인했다. 현재114장·406분(6시간46분), ACT 장수
+14/22/19/26/18/15와 시간43/64/82/96/81/40분이다. ACT4 S82–S99는18장·81분,
+ACT5는 S100–S114다. 이전 S100 GPU 장을 삭제하고 이전 S101–S115를 -1 이행했다.
+전체 Mode는 Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+이전 ACT4의 visual/captured Demo22분을 포함한 배정을 새 설계에 맞춰 재배분했다.
+새 반복 진행은 Case이며 실제 새 모델 호출·수정·검증·성과를 관찰한 Demo가 아니다.
+
+ACT4의 중심은 **같은 목표의 구현 → 근거 있는 검토 → 수정 → 재검토 → 목표 충족 판단**이다.
+Harness 개선은 관련 확장이며 이 수행 루프의 주 사례를 대신하지 않는다.
+CASE-LOOP-01은 별도 교육용 밝기 통계 설계이고, S92–S94는 조건을 제한한 연구다.
+현재 다중 모델 조합·제품 실행 표면·반복 효과는 미검증이다. 기존 Product/Meta
+Trial과 새 설계의 근거를 합치지 않는다. 연구는 다른 모델의 보편적 우월성을 뜻하지 않는다.
+
+[승인 설계](ACT4_GOAL_LOOP_REPLAN.md), [현행 Map](SLIDE_MAP.md),
+[115→114 이행](SLIDE_ID_MIGRATION_114.md)을 따른다. 기존12Templates/28Variants,
+19Notes 필드와19개 실무 적용 팁을 유지한다. 마지막 찾아보기는 S111–S113이다.
+아래 이전 정의·번호·시간·검증은 이력이다. 새 기준과 충돌하면 현재 사용자 승인과
+DEC-0097을 우선한다. Windows/교육장/제품·계정/실제 리허설은 UNVERIFIED다.
+Demo Repository·기존 State/Trial·발표 묶음은 변경하지 않는다.
+
+
+## 이전 ACT4 정렬 — DEC-0094 (2026-10-25)
 
 현재115장·406분과 ACT4 S82–S100의19장·81분, 모든 장별 시간·Mode·근거 범위는
 유지한다. 작업 수행 루프와 체계 개선 루프를 구분하고, 평가 후 완료·채택/재시도/
@@ -8,7 +31,7 @@
 확인은 부분적이며 새 개선 질문은 제안/미실행이다. [현재 설계](ACT4_LOOP_CONTROL.md),
 [현재 Slide Map](SLIDE_MAP.md)을 따른다. 아래 이전 번호·판정은 당시 기록이다.
 
-## 현재 Codex 제작 팁 — DEC-0093 (2026-10-25)
+## 이전 Codex 제작 팁 — DEC-0093 (2026-10-25)
 
 현재115장·406분(6시간46분). 기존113장의 Story·장별 시간/Mode·근거를 유지하고
 이전 S62 뒤 새 S63에 Skill 제작 팁, 이전 S66 뒤 새 S68에 Custom Agent 제작 팁을
@@ -417,42 +440,28 @@ Harness diagram appears only after its parts have solved visible problems.
 | Trial-history audit, Context vs Memory | 15 | 7/2/3/1/2 | Classify repeated Trial information as canonical source facts, maintained documentation, reusable workflow, scoped observations, or temporary environment detail. The audit finds no costly missing durable-knowledge candidate. Teach “needed now” vs “worth retaining” and the conditional Create → Validate → Scope → Retrieve → Refresh → Update/Retire lifecycle; do not imply Memory was used. |
 | Tools, verification, and Harness reveal | 20 | 7/4/5/2/2 | Connect the observed Project Context, routing, reusable Skill, tools, Benchmark, Tests, and task Prompt boundary to bounded STATE-04-PERF evidence. Reveal Minimum Effective Harness as the ACT 3 payoff: this task succeeded without Subagent or Memory. Introduce the separately labeled conceptual staleness case only in ACT 4. |
 
-## ACT 4 — Loop Engineering and System Improvement
+## ACT 4 — Goal-directed Loop Engineering
 
-**Time:** 80 minutes
-**Purpose:** Turn recurring failure or friction into evidence for improving
-the system that shapes future agent work.
-**Starting Problem:** A separate conceptual case asks how a justified Project
-change could leave a reusable workflow stale. Independently, observed Training
-Production Trial history shows that global Harness presence limited attribution
-and led to a change in evaluation/reporting rules. These are separate evidence
-paths; neither extends the primary Product Demo.
-**Learning Objectives:** Recognize Harness Technical Debt as a course analogy;
-separate one-task Product improvement from Harness Improvement; trace a
-failure through cause and hypothesis; evaluate a Harness change and check for
-regression; avoid equating automation with learning.
-**Demo Role:** DEMO-04A is a labeled conceptual controlled stale-workflow case;
-DEMO-04B is a subordinate observed Meta timeline, TRIAL-006 → DEC-0016 →
-TRIAL-007/008, about Training Production evaluation/reporting. Connect them
-only through the general feedback pattern. Do not present DEMO-04A as Product
-history, connect it causally to DEMO-04B, or claim objective quality gain.
-**Audience Value:** Beginners learn that repeated correction can signal a
-system problem. Practical users see a feedback pattern. Experienced users
-can examine evaluation scope, regression, overfitting, cost, and the minimum
-effective intervention.
-**Key Insight:** “반복되는 Failure를 다음 Harness 개선으로 연결하라.” Here
-“learning” means improving the system or durable knowledge, not changing
-model weights.
-**Transition:** “Failure를 System Improvement로 연결하면 AI를 개발 과정의
-일부로 다루는 방식이 보인다. 이제 각자는 이 여정에서 어떤 다음 단계를
-가져갈 수 있을까?”
+**Current time:**81minutes /18slides /S82–S99 (DEC-0097).
+**Starting problem:** People keep connecting review, revision and another
+review for the same unfinished goal after reusable work methods are available.
+**Learning objective:** Trace one issue through revision/reverification under
+fixed criteria; design feedback, next-action control and different-model roles.
 
-| Section | Min | L/D/C/R/T | Learning movement and teaching form |
-|---|---:|---:|---|
-| Project change and stale Harness | 20 | 6/5/6/1/2 | DEMO-04A is a conceptual controlled case: show a justified Project change and a previously correct reusable workflow that was not updated. The primary Product Demo remains successful at STATE-04-PERF; do not claim an observed stale failure. |
-| Loop model, Product Loop, and automation levels | 15 | 8/2/2/1/2 | Define the course feedback pattern and distinguish Task → Code → Test → Fix from system improvement for later work. Show DEMO-04A and DEMO-04B as independent paths; the shared pattern does not establish a causal link. Compare manual, assisted, and automated feedback without treating automation as the goal. |
-| Cause analysis, change, evaluation, and regression | 25 | 5/11/5/2/2 | Use DEMO-04A to teach observation, cause hypothesis, scoped change, rerun, evaluation, and regression as a conceptual case. Use DEMO-04B only to show the observed evaluation/reporting rule change and its evidence limits; it is not a Product Skill repair or measured quality gain. |
-| Improve Context, Memory, Skills, and delegation | 20 | 8/4/4/2/2 | Treat routing, stale knowledge, workflow quality, and role selection as conditional maintenance choices, not changes observed in the primary Project or Meta Case. Recall Minimum Effective Harness as a project heuristic; prefer the smallest change justified by evidence. |
+| Section | Current slides | Time | Purpose |
+|---|---|---:|---|
+| 4R1 Goal-loop entry | S82–S83 |5| ACT title and the missing iteration/control problem |
+| 4R2 One-goal walkthrough | S84–S89 |26| Goal, candidate, tool evidence, review, revision, re-review |
+| 4R3 Feedback and control | S90–S91 |10| Closed feedback path; complete, revise or unmet-goal escalation |
+| 4R4 Research and model choice | S92–S94 |13| Self-review conditions and scoped heterogeneous-model evidence |
+| 4R5 Engineering the loop | S95–S97 |12| Role choice, critique verification and retained state/limits |
+| 4R6 Evidence and transfer | S98–S99 |15| Evidence boundaries, reflection/Q&A and ACT5 transition |
+
+Mode: Lecture30/Case37/Reflection4/Q&A7/Transition3=81. The new walkthrough
+is a conceptual Case rather than an observed new Product Demo. Existing
+historical Demo IDs and their records remain available as supporting history.
+S99 operation: Reflection2→Q&A7→Transition2. S100 is now ACT5's title page.
+Old S100's GPU scenario and20-minute operation no longer govern production.
 
 ## ACT 5 — AI-Native Development and Review
 

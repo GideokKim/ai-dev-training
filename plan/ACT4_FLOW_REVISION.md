@@ -1,5 +1,9 @@
 # ACT4 Flow Revision — DEC-0081
 
+> Historical design: DEC-0097 supersedes the ACT4 maintenance priority, old
+> S100 and its operating budget. Preserve this record as history. Current
+> design: [goal-loop replan](ACT4_GOAL_LOOP_REPLAN.md); current IDs: [Map](SLIDE_MAP.md).
+
 ## 현재 ACT4 정렬 — DEC-0094 (2026-10-25)
 
 현재115장·406분과 ACT4 S82–S100의19장·81분, 모든 장별 시간·Mode·근거 범위는

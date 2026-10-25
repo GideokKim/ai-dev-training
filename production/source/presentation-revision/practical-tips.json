@@ -140,8 +140,8 @@
       "slideId": "S80",
       "act": 3,
       "category": "수행 방법",
-      "title": "반복 보정을 개선으로 잇는 기록",
-      "rationale": "원래 기준·실제 수행·사람의 보정을 남겨 다음 작업의 체계 개선을 검토하는 틀",
+      "title": "다음 수정에 넘길 기록",
+      "rationale": "목표·검토 근거·다음 수정과 완료 판단을 연결하는 실무 적용 기준",
       "sourceEdition": "DEC-0091 new slide",
       "contentDecision": "DEC-0092"
     },
@@ -150,20 +150,20 @@
       "slideId": "S87",
       "act": 4,
       "category": "검증·개선",
-      "title": "원인을 고르기 전에 확인할 기록",
-      "rationale": "원인 선택 전에 확인할 기록 목록"
+      "title": "모델 B는 무엇을 근거로 검토할까?",
+      "rationale": "목표·검토 근거·다음 수정과 완료 판단을 연결하는 실무 적용 기준"
     },
     {
       "sourceSlideId": "S79",
       "slideId": "S91",
       "act": 4,
       "category": "검증·개선",
-      "title": "지침을 고친 뒤, 무엇을 다시 확인할까?",
-      "rationale": "지침 갱신 뒤 같은 작업과 다른 작업을 확인하는 질문"
+      "title": "언제 계속하고, 언제 끝낼까?",
+      "rationale": "목표·검토 근거·다음 수정과 완료 판단을 연결하는 실무 적용 기준"
     },
     {
       "sourceSlideId": "S95",
-      "slideId": "S108",
+      "slideId": "S107",
       "act": 5,
       "category": "검증·개선",
       "title": "무엇을 남기고, 무엇을 덜어낼까?",
@@ -171,7 +171,7 @@
     },
     {
       "sourceSlideId": "S96",
-      "slideId": "S109",
+      "slideId": "S108",
       "act": 5,
       "category": "검증·개선",
       "title": "덜어낸 뒤에도 필요한 일을 하는가?",
@@ -182,8 +182,8 @@
     {
       "act": 5,
       "beforeSourceSlideId": "S99",
-      "slideId": "S112",
-      "nextSlideId": "S113",
+      "slideId": "S111",
+      "nextSlideId": "S112",
       "section": "5B Final Reference Review",
       "storyBeat": "BEAT-070–071",
       "tipSlideIds": [
@@ -201,8 +201,8 @@
     {
       "act": 5,
       "beforeSourceSlideId": "S99",
-      "slideId": "S113",
-      "nextSlideId": "S114",
+      "slideId": "S112",
+      "nextSlideId": "S113",
       "section": "5B Final Reference Review",
       "storyBeat": "BEAT-070–071",
       "tipSlideIds": [
@@ -221,20 +221,21 @@
     {
       "act": 5,
       "beforeSourceSlideId": "S99",
-      "slideId": "S114",
-      "nextSlideId": "S115",
+      "slideId": "S113",
+      "nextSlideId": "S114",
       "section": "5B Final Reference Review",
       "storyBeat": "BEAT-070–071",
       "tipSlideIds": [
         "S87",
         "S91",
-        "S108",
-        "S109"
+        "S107",
+        "S108"
       ],
       "title": "실무 적용 팁 · 검증과 개선",
       "sequence": 3
     }
   ],
-  "numberingDecision": "DEC-0093; preserve99-to108-to113source adapters, then apply113-to115 mapping",
-  "contentDecision": "DEC-0093"
+  "numberingDecision": "DEC-0097; retain historical insertion adapter; current indexes S111-S113",
+  "contentDecision": "DEC-0097",
+  "slideCount": 114
 }

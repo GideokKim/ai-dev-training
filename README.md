@@ -1,5 +1,21 @@
 # AI 개발자 교육
 
+## 현재 교육자료 — DEC-0097
+
+114장·406분, ACT4 S82–S99의18장·81분, ACT5 S100–S114의15장·40분. Mode Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분.
+
+ACT4는 목표 달성까지 구현·검토·수정을 잇는 시스템과 서로 다른 모델의 연구 근거를
+중심으로 재제작했다. 새 반복 사례는 교육용 설계이며 실제 새 모델 실행 결과가 아니다.
+[통합 PPT](production/AI_Dev_Training_Full.pptx),
+[ACT4](production/ACT_4.pptx), [Notes](production/notes/FULL_SPEAKER_NOTES.md),
+[현재 기획](plan/ACT4_GOAL_LOOP_REPLAN.md),
+[검토 기록](production/evaluation/ACT_4_GOAL_LOOP_REVISION.md).
+실환경·계정·리허설은 UNVERIFIED다. 발표용 ZIP은 이번에 갱신하지 않는다.
+
+## 이전 제작 이력
+
+아래의 이전 번호·시간·검증은 해당 판본의 기록이다.
+
 최신 배치 수정: **DEC-0095 / S109 연결선·좌우 폭 정렬**. 전체115장·406분과 문구·Notes·기획·근거는 그대로 유지했다. [수정 화면](production/preview/full/S109.png), [배치 검토](production/evaluation/S109_CONNECTOR_LAYOUT_REVISION.md). 실환경 미검증과 발표 묶음 제작 보류는 유지한다.
 
 현재 기준: **DEC-0094 /115장·406분**. ACT4의19장·81분과 근거를 보존하며 작업 수행/체계 개선 루프와 평가 뒤 완료·재시도·중단, 다음 작업 연결을 정렬했다. [설계](plan/ACT4_LOOP_CONTROL.md), [결과](production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md), [최신 전달 안내](production/evaluation/FINAL_HANDOFF.md)를 따른다. 실환경·리허설은 UNVERIFIED이며 Demo 저장소·발표 묶음은 변경하지 않았다.

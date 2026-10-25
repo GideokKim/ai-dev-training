@@ -1,6 +1,29 @@
 # ChatGPT & Codex 개발자 교육 기획 원본
 
-## 현재 Codex 제작 팁 — DEC-0093 (2026-10-25)
+## 현재 ACT4 제작 기준 — DEC-0097 (2026-10-25)
+
+사용자가 ACT4 재기획안을 승인했다. 현재114장·406분(6시간46분), ACT 장수
+14/22/19/26/18/15와 시간43/64/82/96/81/40분이다. ACT4 S82–S99는18장·81분,
+ACT5는 S100–S114다. 이전 S100 GPU 장을 삭제하고 이전 S101–S115를 -1 이행했다.
+전체 Mode는 Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+이전 ACT4의 visual/captured Demo22분을 포함한 배정을 새 설계에 맞춰 재배분했다.
+새 반복 진행은 Case이며 실제 새 모델 호출·수정·검증·성과를 관찰한 Demo가 아니다.
+
+ACT4의 중심은 **같은 목표의 구현 → 근거 있는 검토 → 수정 → 재검토 → 목표 충족 판단**이다.
+Harness 개선은 관련 확장이며 이 수행 루프의 주 사례를 대신하지 않는다.
+CASE-LOOP-01은 별도 교육용 밝기 통계 설계이고, S92–S94는 조건을 제한한 연구다.
+현재 다중 모델 조합·제품 실행 표면·반복 효과는 미검증이다. 기존 Product/Meta
+Trial과 새 설계의 근거를 합치지 않는다. 연구는 다른 모델의 보편적 우월성을 뜻하지 않는다.
+
+[승인 설계](ACT4_GOAL_LOOP_REPLAN.md), [현행 Map](SLIDE_MAP.md),
+[115→114 이행](SLIDE_ID_MIGRATION_114.md)을 따른다. 기존12Templates/28Variants,
+19Notes 필드와19개 실무 적용 팁을 유지한다. 마지막 찾아보기는 S111–S113이다.
+아래 이전 정의·번호·시간·검증은 이력이다. 새 기준과 충돌하면 현재 사용자 승인과
+DEC-0097을 우선한다. Windows/교육장/제품·계정/실제 리허설은 UNVERIFIED다.
+Demo Repository·기존 State/Trial·발표 묶음은 변경하지 않는다.
+
+
+## 이전 Codex 제작 팁 — DEC-0093 (2026-10-25)
 
 현재115장·406분(6시간46분). 기존113장의 Story·장별 시간/Mode·근거를 유지하고
 이전 S62 뒤 새 S63에 Skill 제작 팁, 이전 S66 뒤 새 S68에 Custom Agent 제작 팁을
@@ -298,8 +321,8 @@ Story를 따라가면서 자기 현재 수준 바로 다음 단계에서 가져�
 
 - Context Engineering: 필요한 정보를 적절한 시점에 찾고 제공하는 설계
 - Harness Engineering: AI가 일하는 방법과 환경을 설계하는 관점
-- Loop Engineering: 반복되는 실패를 관찰하고 제품 코드 또는 Harness를
-  개선하는 반복 구조
+- Loop Engineering: 목표·완료 기준을 고정하고 구현·검토·수정을 반복해
+  같은 기준의 근거로 목표 충족과 다음 행동을 판단하는 시스템 설계
 
 ## 4. 교육 전체의 핵심 Story
 
@@ -598,50 +621,25 @@ Memory는 더 오래된 정보를 담을 수 있다. Harness 자체가 Technical
 
 이 지점에서 Loop Engineering으로 넘어간다.
 
-### 5.9 Stage 4 — Loop Engineering: 실패를 다음 작업의 개선으로 바꾸기
+### 5.9 Stage 4 — Loop Engineering: 목표 달성까지 구현·검토·수정하기
 
-AI가 제품 코드만 개선하는 데서 나아가 AI가 일하는 환경 자체를 관찰하고
-개선하는 구조를 설명한다.
+ACT3에서 재사용할 방법·도구·환경을 구성한 뒤, 같은 목표의 다음 검토·수정을
+사람이 매번 연결하는 문제를 드러낸다. 목표와 완료 기준을 고정하고, 구현 모델과
+다른 검토 모델이 변경·검사 근거를 주고받으며 남은 문제를 다음 수정에 반영한다.
 
-기본 Loop는 다음과 같다.
+`Goal / Completion Criteria → Implement → Verify / Review → Revise → Re-verify / Review`
 
-`Task → Execute → Verify → Observe → What failed? → Learn → Improve → Next Task`
+미충족이면 근거·남은 문제와 함께 다음 수정으로 돌아간다. 충족하면 확인한 범위를
+보고하고 완료하며, 막힘·회귀·정체·한도 도달이면 미완료 상태를 보존해 사람에게
+판단을 요청한다. 반복 횟수나 모델의 동의만으로 완료하지 않는다.
 
-개선 대상은 제품 코드와 Harness 둘 다일 수 있다.
+모델 A 구현과 모델 B 검토의 역할을 구분하고 ReConcile/CriticBench의 제한된
+결과를 연결한다. 현재 모델·개발 작업의 일반적 우월성이나 이번 다중 모델 루프의
+실측 효과는 주장하지 않는다. CASE-LOOP-01은 교육용 설계이며 실제 Trial이 아니다.
 
-- Product Code
-- Harness
-
-#### 반복 실패 사례
-
-Codex가 test를 여러 번 잘못된 directory에서 실행한다고 가정한다.
-
-일반적인 대응은 매번 개발자가 “거기서 실행하지 마.”라고 다시 알려주는
-것이다. Loop Engineering에서는 실패를 다음처럼 처리한다.
-
-`Failure → 원인 분석 → 반복 가능성 판단 → Harness 개선 → Skill/Instruction
-업데이트 → 다음 작업에서 적용`
-
-개발자가 같은 지시를 매번 반복하는 데서 끝내지 않고, 반복되는 실패를
-다음 작업의 Context 또는 Harness 개선으로 전환한다.
-
-#### 구조적 변화
-
-```text
-Developer → AI → Task
-```
-
-에서 다음과 같은 학습 피드백을 가진 구조로 발전한다.
-
-```text
-Developer → AI → Task
-             ↑     |
-             └ Learn
-```
-
-#### 고정 Insight
-
-> 반복되는 실패를 다음 작업의 Context/Harness 개선으로 전환한다.
+이전 Harness 개선 중심 기획과 실제 평가·보고 Meta 기록은 이력·보조 근거로
+보존한다. 다음 작업의 지침 개선은 관련된 별도 범위이며 ACT4의 주 사례는
+이번 목표를 완료하는 수정·검토 루프다. DEC-0096/0097의 사용자 승인으로 변경했다.
 
 ### 5.10 AI-Native Development: 처음과 끝을 연결하기
 
@@ -897,7 +895,7 @@ AGENTS.md 및 Codex의 화면·도구 동작은 문제와 개선을 보여주는
 | Part 1 | Prompt Engineering | 약 55분 | 단순 Prompt의 문제, Goal / Context / Constraints / Process / Verification, Prompt 개선 전후, 반복 지시 문제, Context Engineering으로 연결 |
 | Part 2 | Context Engineering | 약 70분 | AGENTS.md 도입과 이점, 비대화, Context overload, Lost in the Middle, Context relevance, Progressive Disclosure, AGENTS.md Router 역할, 세부 Context 분리, Harness Engineering으로 연결 |
 | Part 3 | Harness Engineering | 약 85분 | Context만으로 해결되지 않는 실행 일관성, Skills, 반복 Workflow, Tools, Subagents, Context explosion과 역할 분리, Memory, Context와 Memory 구분, Harness 구조, 모델과 시스템의 차이, Harness 복잡성과 Loop Engineering으로 연결 |
-| Part 4 | Loop Engineering | 약 80분 | Harness Technical Debt, 오래된 instruction / skill / memory, 반복 실패, Observe, Failure 분석, Learn, Harness 개선, 다음 작업에 반영, Product 개선 Loop와 Harness 개선 Loop, AI-Native Development로 확장 |
+| Part 4 | Loop Engineering | 81분 | 같은 목표의 구현·검토·수정, 완료 기준, 서로 다른 모델의 연구 근거, 근거 기반 반복 제어 |
 | Part 5 | 전체 회고 / AI-Native Developer | 약 30분 | 처음과 마지막 구조 비교, 수준별 다음 단계, 개발자 역할 변화, AI에게 맡길 일과 사람이 판단할 일, 전체 Insight 정리 |
 
 권장 시간의 합은 360분이다. 휴식은 별도이며 순수 교육 시간에 더하거나
@@ -960,38 +958,33 @@ Harness Engineering은 Context보다 한 단계 범위를 넓힌다.
 
 ## 14. Loop Engineering의 범위와 두 종류의 Loop
 
-Loop Engineering을 `while(true) { agent.run(); }` 형태의 반복 실행으로
-설명하지 않는다. 이 교육에서의 핵심은 실행 결과와 실패를 관찰하고, 그
-경험을 다음 실행 또는 Harness 개선에 반영하는 Feedback System을 설계하는
-것이다.
+### 현재 중심 — DEC-0097
 
-대표 구조:
+이 교육의 Loop Engineering은 목표·완료 기준을 유지하며 구현·검토·수정을
+피드백으로 연결하고, 같은 기준의 재검증으로 다음 행동을 판단하는 시스템 설계다.
+단순한 무한 반복, 모델 가중치 학습, 특정 제품의 자동 실행 기능명으로 설명하지 않는다.
 
-`Execute → Verify → Observe → Evaluate → Learn → Improve → Execute`
+**목표 기반 작업 수행 루프 — ACT4의 주제**
 
-**Product Loop**
+`목표·완료 기준 → 모델 A 구현 → 테스트·측정 + 다른 모델 B 검토 → 판단`
 
-`Task → Code → Test → Fix → Test`
+- 미충족·수정 가능: 남은 지적과 근거를 다음 수정에 전달하고 같은 기준으로 재검토.
+- 기준 충족: 완료하고 확인 범위·남은 한계를 보고.
+- 근거 부족·정체·회귀·한도 도달: 미완료 상태를 보존하고 사람에게 판단 요청.
 
-**Harness Improvement Loop**
+검토 모델의 지적도 확인한다. 잘못된 지적은 기각 근거를 남길 수 있다.
+검토자와 구현자가 동의했다고 객관적 검사 근거를 대체하지 않는다.
 
-`Agent Execution → Failure / Friction 발견 → 원인 분석 → 반복 가능성 판단
-→ Instruction / Skill / Memory / Tool / Workflow 개선 → 다음 Agent Execution`
+**작업 체계 개선 루프 — 관련 확장**
 
-두 Loop를 구분해서 설명하고, 이 교육에서는 Harness Improvement Loop를 더
-중요하게 다룬다.
+여러 실행의 반복 문제를 관찰해 지침·Skill·평가 기준 등 재사용 체계를 개선하고
+영향을 재평가할 수 있다. 이 범위도 중요하지만 이번 ACT4의 목표 기반 반복을
+대신하지 않는다. 두 범위는 실무에서 겹칠 수 있고 Harness와 Loop도 배타적이지 않다.
 
-### 14.1 현재 운영 구체화 — DEC-0094 (2026-10-25)
-
-작업 수행 루프는 이번 목표의 실행·검증·필요한 수정·완료를 다루고, 체계 개선
-루프는 수행 기록과 사람의 보정을 다음 작업의 지침·Skill·검증 기준으로 연결한다.
-평가 뒤 기준 충족이면 완료/검토한 후보 채택, 수정 가능하면 재시도, 근거 부족이나
-반복·시간·비용 한도 도달이면 중단/사람 확인을 선택하도록 설계한다. 불필요한
-Harness 변경은 하지 않는다. 시도·조건·검증 결과·미해결 사항을 남겨 다음 판단이
-이어받을 수 있도록 한다. 이 교육의 기존 체계 개선 중심과 사람의 책임을 유지하며
-완전자율화·모델 자동 학습·특정 제품 기능을 정의에 추가하지 않는다.
-ACT4의19장·81분과 기존 구성/근거를 보존한다. [상세 설계](ACT4_LOOP_CONTROL.md).
-
+과거 §14와 DEC-0023/0094는 Harness Improvement Loop에 더 비중을 두었다.
+최신 사용자가 수행 루프와 서로 다른 모델의 검토 연구를 중심으로 명확히 지시해
+그 우선순위를 변경했다. 과거 결정·실제 근거는 삭제하거나 새 실행으로 해석하지 않는다.
+[승인 설계와 원인 분석](ACT4_GOAL_LOOP_REPLAN.md)을 함께 보존한다.
 
 ## 15. 개발자의 역할과 책임
 
@@ -1538,7 +1531,7 @@ Environment 자체를 Engineering 대상으로 보는 관점을 얻어야 한다
 - [x] Harness를 단순 Tool 사용법으로 축소하지 않는다.
 - [x] Harness 자체가 Technical Debt가 될 수 있음을 설명한다.
 - [x] AGENTS.md, Skill, Memory가 stale해질 수 있음을 설명한다.
-- [x] Harness 노후화가 Loop Engineering의 필요성으로 연결된다.
+- [x] Harness 활용 뒤에도 같은 목표의 다음 검토·수정을 연결할 필요가 드러난다.
 - [x] Loop Engineering은 단순 반복 실행으로 설명되지 않는다.
 - [x] Execute → Verify → Observe → Evaluate → Learn → Improve 피드백 구조가 있다.
 - [x] Product Loop와 Harness Improvement Loop를 구분한다.
@@ -1576,7 +1569,7 @@ Environment 자체를 Engineering 대상으로 보는 관점을 얻어야 한다
 | Subagents | 한 Agent가 여러 역할과 Context를 동시에 맡으면 역할 복잡성과 Context 부담이 커진다. | 역할과 조사 범위를 분리한다. |
 | Memory | 재사용 가치가 있는 사실을 매 Task마다 다시 조사한다. | 유효한 정보를 세션과 Task 사이에서 재사용한다. |
 | Harness 구조 | 앞 단계에서 도입한 Context, Process, Tools와 Verification을 어떤 System으로 볼 수 있는가? | 필요한 구성요소를 하나의 개발 작업 환경으로 연결해 보여준다. |
-| Harness | 프로젝트가 바뀌면 Instruction, Skill, Memory가 stale해질 수 있다. | Loop Engineering이 실행과 실패에서 피드백을 얻는다. |
+| Harness | 방법·도구를 구성해도 첫 결과 뒤 남은 문제와 다음 수정 판단이 필요하다. | Loop가 검토 피드백을 같은 목표의 다음 시도로 연결한다. |
 | Loop Engineering | Product와 Harness의 결과를 관찰하고 개선한다. | AI-Native Development로 업무 방식과 시스템 설계를 확장한다. |
 
 이 연결에서 다음 기술을 소개하기 전에 앞 문제를 먼저 제시한다. 연결 이유를
@@ -1607,7 +1600,7 @@ Persona가 6시간 중 긴 구간 동안 가치를 얻지 못하는지 Curriculu
 | Skills | 같은 Workflow를 반복해서 설명하고 일관성 없이 실행하는 일이 문제가 되어 도입한다. |
 | Subagents | 한 Agent가 모든 역할과 Context를 맡는 일이 문제가 되어 도입한다. |
 | Memory | 재사용 가치가 있는 Project 지식을 계속 다시 발견하는 일이 문제가 되어 도입한다. |
-| Loop Engineering | Harness가 stale해지고 반복 Failure가 System을 개선하지 못하는 일이 문제가 되어 도입한다. |
+| Loop Engineering | 같은 목표의 검토 지적을 다음 수정으로 사람이 계속 연결해야 하는 문제에서 도입한다. |
 
 이유를 설명하지 못하는 기술은 Story에서 등장하는 위치를 다시 검토한다.
 

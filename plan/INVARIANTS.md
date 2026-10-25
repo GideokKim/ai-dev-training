@@ -52,10 +52,10 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Category: Training Identity
 - Strength: HARD
 - Rule: This is a developer training about ChatGPT and Codex in AI-Native
-  Development. The current net duration is406minutes under DEC-0093, within
-  the user-authorized720-minute ceiling. Preserve every retained113-slide
-  allocation and every ACT4 page/time/Mode. Add only the two requested
-  Codex authoring tips at2Lecture minutes each. Keep Story/evidence scope.
+  Development. The current net duration is406minutes under DEC-0097, within
+  the user-authorized720-minute ceiling. Use114slides and the approved
+  18-slide/81-minute ACT4 replan; delete the prior S100 GPU page. Keep
+  other ACT budgets and actual evidence scope. Preserve the Codex tips.
 - Historical DEC-0091 Rule:402minutes/113slides. Replace prior S72 with
   five paced explanations, add two reuse pages and remove prior S73 under
   explicit user approval. DEC-0092 then changes S74-S79 without more time.
@@ -65,7 +65,7 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Rationale: The audience, subject, and duration define the scope of the
   training.
 - Source: plan/MASTER_PLAN.md §§1.1–1.2
-- Validation: Does the material preserve the developer scope and the current406-minute schedule and720-minute ceiling under DEC-0093?
+- Validation: Does the material preserve the developer scope and the current406-minute schedule and720-minute ceiling under DEC-0097?
 - Change Policy: Require explicit user approval before changing the scope or
   duration.
 
@@ -397,42 +397,43 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Change Policy: A proposed change requires impact analysis and user
   confirmation.
 
-### INV-MATURITY-010 — Show Harness debt before Loop Engineering
+### INV-MATURITY-010 — Establish the missing feedback and control after Harness
 
 - Category: Harness Engineering
 - Strength: STRUCTURAL
-- Rule: Before introducing Loop Engineering, show how project change can make
-  instructions, context, Skills, Memory, workflows, or tool usage stale.
-  Harness Engineering is not a final, maintenance-free state.
-- Rationale: Harness obsolescence supplies the problem that makes feedback
-  and system improvement necessary.
-- Source: plan/MASTER_PLAN.md §§5.8, 14, 40
-- Validation: Does Harness staleness appear before Loop Engineering is introduced?
-- Change Policy: A proposed change requires impact analysis and user
-  confirmation.
+- Rule: Preserve the value of reusable work methods and a bounded actual
+  success. Then show why the next review, revision and completion decision
+  for one goal still needs explicit feedback/control. Use conceptual labels
+  for unobserved friction; do not require stale instructions as the only cause.
+- Rationale: The audience must see why goal-directed iteration is needed.
+- Source: Latest user approval; DEC-0096/0097; MASTER_PLAN sections5.8–5.9,14.
+- Validation: Does ACT3 lead to the same goal's review/revision control?
+- Change Policy: User confirmation remains required for structural changes.
+- Historical rule: Harness staleness was previously the required transition.
 
 ## Loop Engineering
 
-### INV-LOOP-001 — Use feedback to improve the development system
+### INV-LOOP-001 — Use evidence to iterate toward the task goal
 
 - Category: Loop Engineering
 - Strength: STRUCTURAL
-- Rule: Present Loop Engineering's goal as feedback-based improvement of the
-  development system: use observed outcomes and recurring problems to identify
-  causes, improve the product code, Harness, or working method, and evaluate
-  subsequent outcomes. Instruction, Skill, Memory, Tool, Evaluation, and
-  Workflow changes are possible mechanisms, not the goal or a required
-  checklist. Distinguish the Product Loop (Task → Code → Test → Fix → Test)
-  from the Harness Improvement Loop (Agent execution → failure or friction →
-  cause analysis → recurrence judgment → Harness or workflow improvement →
-  next execution), and give the Harness Improvement Loop greater emphasis. Do
-  not reduce Loop Engineering to automatic repetition.
-- Rationale: The training distinguishes improving one task's result from
-  learning across tasks and changing the system that shapes future work.
-- Source: plan/MASTER_PLAN.md §§5.9, 14; STEP 02 instructions §§65, 86
-- Validation: Does the material explain feedback-based system improvement as the goal, keep mechanisms optional, distinguish Product and Harness Improvement Loops, and avoid automatic repetition?
-- Change Policy: A proposed change requires analysis of the Loop Story and
-  user confirmation.
+- Rule: Fix the goal and completion criteria; connect implementation,
+  tool-based verification, review, revision and re-review. Feed remaining
+  issues into the next attempt toward the same goal. Distinguish completion,
+  revision/retry and an unmet-goal stop or human escalation. Include
+  different-model implementation/review with research-scoped benefits,
+  without claiming universal superiority or an unobserved successful loop.
+  Harness improvement remains related but does not replace this core.
+- Rationale: Explain a working feedback system rather than only updating
+  instructions for future tasks or repeatedly invoking an Agent.
+- Source: Latest user clarification and approval; DEC-0096/0097;
+  MASTER_PLAN sections5.9and14; ACT4_GOAL_LOOP_REPLAN.
+- Validation: Can a learner trace one review issue to a revision and the
+  same completion criteria, and distinguish tool evidence from model opinion?
+- Change Policy: A structural change requires analysis and user confirmation.
+- Historical rule: Give the Harness Improvement Loop greater emphasis.
+  That priority is superseded by the explicit current user approval.
+
 
 ## Demo Philosophy
 
@@ -880,8 +881,8 @@ affected work proceeds.
 | INV-MATURITY-007 | Harness Engineering | STRUCTURAL | Are Subagent benefits balanced with coordination, duplication, transfer, and integration costs? |
 | INV-MATURITY-008 | Harness Engineering | STRUCTURAL | Are current Context and retained Memory distinguished, including Memory lifecycle concerns? |
 | INV-MATURITY-009 | Harness Engineering | STRUCTURAL | Does the completed Harness diagram appear only after its parts have emerged, late in the Harness chapter or in the retrospective? |
-| INV-MATURITY-010 | Harness Engineering | STRUCTURAL | Does Harness staleness appear before Loop Engineering is introduced? |
-| INV-LOOP-001 | Loop Engineering | STRUCTURAL | Does the material explain feedback-based system improvement as the goal, keep mechanisms optional, distinguish Product and Harness Improvement Loops, and avoid automatic repetition? |
+| INV-MATURITY-010 | Harness Engineering | STRUCTURAL | Does ACT3 establish the need for goal-directed review/revision control? |
+| INV-LOOP-001 | Loop Engineering | STRUCTURAL | Is review feedback connected to the next revision under fixed completion criteria with scoped model research? |
 | INV-DEMO-001 | Demo Philosophy | STRUCTURAL | Does the Demo plan prefer one evolving repository and keep it distinct from this training repository? |
 | INV-DEMO-002 | Demo Philosophy | STRUCTURAL | Does each failure used in the Story connect to its cause and Engineering response? |
 | INV-DEMO-003 | Demo Philosophy | HARD | Are Meta Examples based only on actual events and kept secondary to the training Story? |

@@ -1,5 +1,9 @@
 # ACT4 — 두 루프와 평가 후 판단
 
+> Historical design: DEC-0097 supersedes the ACT4 maintenance priority, old
+> S100 and its operating budget. Preserve this record as history. Current
+> design: [goal-loop replan](ACT4_GOAL_LOOP_REPLAN.md); current IDs: [Map](SLIDE_MAP.md).
+
 Decision: DEC-0094. Date:2026-10-25 (Asia/Seoul). Baseline:`ff936e1`.
 
 ## 승인 범위와 보존 조건

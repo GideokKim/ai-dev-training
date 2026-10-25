@@ -1,5 +1,7 @@
 # DEMO-07 — Subagent Decision Visual
 
+> Current edition: DEC-0097 /114slides/406minutes. This retained role uses S67, S69. Current paths/hashes/readiness: [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Earlier dated statuses below are historical; no new Trial or Live approval.
+
 ## Current ACT3 operation — DEC-0072
 
 S66→S67→S69: S66의 실제 제품 결과 뒤, S67는 C++ 독립 조사 가정으로 전환한다. 같은 세 조사를 한 Agent가 맡는 경우와 역할별로 나누는 경우를 비교하고 주 Agent의 분담·근거 확인·통합을 짚는다. S69은 같은 밝기 통계 함수·출력 명세를 공유한 실제 작업으로 돌아온다. 조사 결과를 코드 변경으로, 바뀐 코드를 출력·테스트·시간·할당량 확인으로 연결하고 기존 한 Agent 유지 판단과 전달·통합 비용을 회수한다. 실제 Subagent 실행이 아니다. Demo3+2분, Q&A1+1분과 Lecture1분은 원래 배분대로 구분한다.

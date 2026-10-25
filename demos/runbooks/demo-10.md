@@ -1,3 +1,14 @@
+# Historical supporting runbook — DEMO-10
+
+Current status: **HISTORICAL / NOT SCHEDULED IN DEC-0097 ACT4**.
+The current114-slide deck uses CASE-LOOP-01 at S83–S99. The material below
+retains its original conceptual/observed meaning and earlier-edition IDs.
+Do not open its old Sxx paths as current evidence of a goal-directed loop.
+No new execution or result is approved. Use [the current manifest](FALLBACK_MANIFEST.md).
+
+<details>
+<summary>Preserved original runbook — earlier numbering and delivery</summary>
+
 # DEMO-10 — Conceptual Evaluation Set
 
 ## Current operation — DEC-0094
@@ -143,3 +154,5 @@ records below retain their original edition references.
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.
+
+</details>

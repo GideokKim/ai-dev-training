@@ -1,6 +1,6 @@
 {
   "decision": "DEC-0090",
-  "slideCount": 115,
+  "slideCount": 114,
   "minutes": 406,
   "titleSlides": [
     {
@@ -50,19 +50,19 @@
     {
       "act": 4,
       "slideId": "S82",
-      "beforePreviousSlideId": "S71",
+      "beforePreviousSlideId": "S81",
       "firstBodySlideId": "S83",
-      "title": "기록과 피드백으로 시스템 개선하기",
-      "subtitle": "Loop Engineering · 개선 과정 설계",
-      "displayTitle": "기록과 피드백으로\n시스템 개선하기",
-      "section": "4A Working Harness Callback",
-      "storyBeat": "BEAT-037, BEAT-038"
+      "title": "목표를 이룰 때까지 수정하고 검토하기",
+      "subtitle": "Loop Engineering · 목표 기반 실행·검토 시스템",
+      "displayTitle": "목표를 이룰 때까지\n수정하고 검토하기",
+      "section": "4R1 Goal-loop entry",
+      "storyBeat": "BEAT-072"
     },
     {
       "act": 5,
-      "slideId": "S101",
-      "beforePreviousSlideId": "S89",
-      "firstBodySlideId": "S102",
+      "slideId": "S100",
+      "beforePreviousSlideId": "S99",
+      "firstBodySlideId": "S101",
       "title": "내 업무에 맞게 조합하고 덜어내기",
       "subtitle": "AI-Native Development · 업무 방식의 재설계",
       "displayTitle": "내 업무에 맞게\n조합하고 덜어내기",
@@ -70,5 +70,5 @@
       "storyBeat": "BEAT-060"
     }
   ],
-  "numberingDecision": "DEC-0093; approved DEC-0090 titles remain unchanged"
+  "numberingDecision": "DEC-0097; delete prior S100; prior S101+ shift by1"
 }

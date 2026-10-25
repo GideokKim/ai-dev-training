@@ -1,29 +1,8 @@
 # ACT 3 — Speaker Notes
 
-Current: DEC-0093 /115slides/406minutes; ACT3: 26slides/96minutes, S56–S81. Current IDs follow SLIDE_ID_MIGRATION_115.md; earlier headers are history. Only new S63/S68 add Lecture2minutes each; retained budgets/evidence remain.
-
-Latest content revision: DEC-0092 /113slides/402minutes unchanged. S74–S79 explain the missing feedback from repeated human corrections; S73 transition and S110 tip title align. ACT4 S80–S98 and its19pages/81minutes remain unchanged. Earlier edition headers retain their provenance.
-
-Current: DEC-0091 /113slides/402minutes. ACT3: 24slides/92minutes. Current IDs follow SLIDE_ID_MIGRATION_113.md. ACT4 composition/Mode/time unchanged; earlier edition headers remain historical.
-
-Historical: DEC-0090 /108slides/396minutes. ACT3: 19slides/86minutes. ACT title is1Transition minute; original body budgets are unchanged. Current Notes below use108-slide IDs. Earlier headers are historical. See plan/SLIDE_ID_MIGRATION_108.md.
-
-Historical: DEC-0088 /102slides/390minutes. ACT3: 18slides/85minutes. All17tip bodies stay in context. The only reference block is S99–S101 before final Q&A/Closing. Current Notes below use102-slide IDs. Earlier headers are historical. See plan/SLIDE_ID_MIGRATION_102.md.
-
-Historical: DEC-0087 /105slides/393minutes. ACT3: 19slides/86minutes. Tips remain in context; reference index is1Lecture minute before the transition. Current Notes below use105-slide IDs. Earlier headers are historical. See plan/SLIDE_ID_MIGRATION_105.md.
-
-Current: DEC-0084 /99slides/387minutes. ACT ranges S01–S13 / S14–S34 / S35–S52 / S53–S70 / S71–S88 / S89–S99. Earlier headers retain their historical edition. See plan/SLIDE_ID_MIGRATION_99.md.
-
-Status: NUMBERING/CONTENT ALIGNED — DEC-0060,93 slides/379 minutes; ACT2 18slides/81minutes. Final rendered/embedded Notes parity is recorded in production/evaluation/ACT_2_FLOW_REVISION.md. Windows/product/account/room/rehearsal UNVERIFIED.
-
-
-Historical alignment status: NUMBERING ALIGNED — DEC-0043, 90-slide current sequence. Rendered/embedded Notes parity for the new sequence was checked locally; see production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Existing per-slide time/Mode values are preserved; the approved course totals are ACT 1 63 minutes and 368 minutes overall. Windows, room, account and timed rehearsal remain UNVERIFIED.
-
-Historical alignment status: ALIGNED — DEC-0038의 82장 번호와 운영 지침을 정렬했다. 신규 제작본의 렌더·내장 Notes 대조는 production/evaluation/PROMPT_TIMELINE_REVISION.md에서 별도로 기록한다. 기존 81장판의 PASS를 승계하지 않는다. Windows, room, account, and timed rehearsal remain UNVERIFIED.
-
-Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`, `plan/VISUAL_SPEC.md`, `plan/VISUAL_TEMPLATE_FREEZE.md`, `plan/SPEAKER_NOTES_ARCHITECTURE.md`, `plan/SPEAKER_NOTES_FREEZE.md`, `plan/PRODUCTION_PLAN.md`, `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, `plan/DEMO_RUNBOOK_SPEC.md`, and `plan/DECISIONS.md`.
-
-Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historical handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
+Current: DEC-0097 /114slides/406minutes. 114장·406분. ACT4 S82–S99는18장·81분, ACT5는 S100–S114의15장·40분이다. ACT 장수14/22/19/26/18/15와 시간43/64/82/96/81/40분. Mode Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+19-field schema. Current records and final embedded Notes are compared during local validation.
+Windows/room/product-account/timed rehearsal UNVERIFIED.
 
 ## S56 — AI가 일할 방법과 환경 설계하기
 
@@ -1071,7 +1050,7 @@ N/A — Lecture2분. 실제 제품·CLI를 실행하거나 가상 보정을 실�
 Opening Question은 생각을 돕는 질문이다. 참가자 실습·작성·공개 답변을 요구하지 않는다.
 
 **Transition:**
-“그 기반으로 실제 작업을 하다가 사람이 추가로 확인할 부분을 찾는다면, 그 보정은 어디에 남을까요?”
+확인된 성공은 기록된 범위로 보존한다. 새 작업의 첫 결과 뒤에도 남은 문제가 있을 수 있다는 별도 가정으로 S77을 연다.
 
 **Time Management:**
 Lecture2분.0:35까지 질문·장면,1:25까지 핵심 차이,2:00에 다음 장의 질문으로 이동한다. 환경·도구 설정 강의나 ACT4의 구체적 개선·평가를 미리 설명하지 않는다. 실측 리허설 UNVERIFIED.
@@ -1082,13 +1061,13 @@ LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S76 또는 production/preview
 **Validation Status:**
 CONTENT ALIGNED — DEC-0092. 현재 로컬 결과는 production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md에 기록한다. Windows/발표 PC 글꼴/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S77 — 작업 중 사람이 보정할 일이 생긴다면?
+## S77 — 첫 결과 뒤에도, 확인할 일이 남는다면?
 
 **Slide ID:**
 S77
 
 **Working Title:**
-작업 중 사람이 보정할 일이 생긴다면?
+첫 결과 뒤에도, 확인할 일이 남는다면?
 
 **ACT / Section:**
 ACT 3 / 3G Minimum Effective Harness 완성
@@ -1100,56 +1079,55 @@ ACT 3 / 3G Minimum Effective Harness 완성
 Lecture 2분
 
 **Primary Message:**
-추가 확인이 필요하다는 점을 사람이 발견해 이번 요청을 보정하는 상황을 가정한다. 무엇이 이 빈틈을 만들었는지와 어느 출처를 바꿔야 하는지는 아직 판단하지 않는다.
+첫 결과가 나와도 완료 기준의 미충족 항목이 남을 수 있다는 가상 상황을 연다.
 
 **Opening Question:**
-“변경한 부분은 확인했지만, 사람이 관련 동작도 확인해 달라고 해야 한다면?”
+첫 결과 뒤에 무엇이 아직 남았는지는 누가 확인할까?
 
 **Speaker Flow:**
-1. (0:00–0:35 / Lecture) 교육용 상황 라벨을 먼저 읽는다. 실제 Demo의 후속 실패를 재현한 장면이 아니라 운영 중 추가 확인이 필요할 수 있다는 가정이다.
-2. (0:35–1:25 / Lecture) 왼쪽은 변경한 부분 확인, 가운데는 관련 동작에 대한 사람의 검토 질문, 오른쪽은 추가 요청이다. 검증 결과나 누락 원인은 보여주지 않는다.
-3. (1:25–2:00 / Lecture) 이 보정이 현재 대화에만 남는지, 다음 작업의 수행 체계로 반영되는지를 다음 장의 질문으로 넘긴다.
+1. (0:00–1:00 / Lecture) 첫 결과가 나와도 완료 기준의 미충족 항목이 남을 수 있다는 가상 상황을 연다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
+2. (1:00–2:00 / Lecture) 첫 변경 결과를 사람이 검토하고 수정 요청으로 잇는 S78로 넘긴다.
 
 **Evidence / Source:**
-plan/MASTER_PLAN.md §5.9의 반복 보정을 다음 작업의 개선으로 전환하는 교육 의도; DEC-0092. 장면은 설명용 가정이며 실제 TRIAL-001/006/008에서 관찰한 새로운 누락이 아니다.
+BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
 **Claim Boundary:**
-CONCEPTUAL — 추가 확인을 요청한다는 교육용 가정이다. 실제 graypipe의 검증 누락·실패나 새 Trial이 아니며 Agent·지침·제품 코드 중 어느 것이 원인인지 확정하지 않는다.
+CONCEPTUAL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
 
 **Beginner Explanation:**
-사람이 한 번 더 확인을 요청하는 장면에서 이야기를 시작한다.
+첫 결과가 나와도 완료 기준의 미충족 항목이 남을 수 있다는 가상 상황을 연다.
 
 **Advanced Insight:**
-관찰할 빈틈과 원인 가설·변경 대상의 확정을 구분한다. 이후 ACT4에서 원인 확인과 평가 범위를 다룬다.
+같은 목표의 상태와 반복 제어를 수행 방법과 연결하되 별도 Memory·완전자율화를 필수로 요구하지 않는다.
 
 **C++ Vision Bridge:**
 N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
 
 **Demo Operation:**
-N/A — Lecture2분. 실제 제품·CLI를 실행하거나 가상 보정을 실제 수행한 것처럼 보여주지 않는다. 각 장은 정적 의미 재구성/교육용 상황도다.
+정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
 
 **Audience Interaction:**
-Opening Question은 생각을 돕는 질문이다. 참가자 실습·작성·공개 답변을 요구하지 않는다.
+N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-“이번 요청에 그 말을 더하면, 다음에도 읽을 공통 수행 지침까지 바뀔까요?”
+첫 변경 결과를 사람이 검토하고 수정 요청으로 잇는 S78로 넘긴다.
 
 **Time Management:**
-Lecture2분.0:35까지 질문·장면,1:25까지 핵심 차이,2:00에 다음 장의 질문으로 이동한다. 환경·도구 설정 강의나 ACT4의 구체적 개선·평가를 미리 설명하지 않는다. 실측 리허설 UNVERIFIED.
+Lecture 2분 = 2분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S77 또는 production/preview/full/S77.png. 실제 실행 Screenshot·Trial·새 관찰 결과로 표현하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S77; production/preview/act3/S77.png 및 production/preview/full/S77.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0092. 현재 로컬 결과는 production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md에 기록한다. Windows/발표 PC 글꼴/교육장/제품·계정/실측 리허설 UNVERIFIED.
+REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S78 — 이번 요청은 보정해도, 공통 지침은 그대로다
+## S78 — 남은 문제를 다음 수정으로 이어주는 사람
 
 **Slide ID:**
 S78
 
 **Working Title:**
-이번 요청은 보정해도, 공통 지침은 그대로다
+남은 문제를 다음 수정으로 이어주는 사람
 
 **ACT / Section:**
 ACT 3 / 3G Minimum Effective Harness 완성
@@ -1161,56 +1139,55 @@ ACT 3 / 3G Minimum Effective Harness 완성
 Lecture 2분
 
 **Primary Message:**
-이번 요청의 검증 범위를 보정해도 공통 지침을 따로 갱신하지 않은 상황이라면, 다음 작업이 읽는 수행 방법은 이전 상태로 남는다. 현재 Task 보정과 재사용 체계 개선은 별도다.
+같은 목표 안에서 검토·수정·재확인을 사람이 매번 다시 요청하는 상황을 설명한다.
 
 **Opening Question:**
-“대화에서 관련 동작도 확인하라고 더한 것이, 공통 수행 방법을 갱신한 것과 같을까요?”
+같은 목표인데 왜 다음 단계는 다시 요청해야 할까?
 
 **Speaker Flow:**
-1. (0:00–0:35 / Lecture) 왼쪽 이번 작업의 요청에서 관련 동작도 확인해 달라는 보정을 읽는다. 실제 검증 실행·통과 결과는 제시하지 않는다.
-2. (0:35–1:25 / Lecture) 오른쪽은 공통 지침을 갱신하지 않은 상황이라는 가정이다. 대화가 수정됐다는 사실과 재사용 출처가 바뀌었다는 사실이 다름을 설명한다.
-3. (1:25–2:00 / Lecture) 원본 지침이 원인이라는 결론이나 지침을 무조건 추가하라는 처방은 내리지 않는다. 다음 작업으로 보정이 이어지는지 묻는다.
+1. (0:00–1:00 / Lecture) 같은 목표 안에서 검토·수정·재확인을 사람이 매번 다시 요청하는 상황을 설명한다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
+2. (1:00–2:00 / Lecture) 이 연결에서 수행 방법과 다음 행동 판단을 구분하는 S79로 넘긴다.
 
 **Evidence / Source:**
-plan/MASTER_PLAN.md §§5.8–5.9 및 §14의 현재 작업 수정과 Harness Improvement Loop 구분; DEC-0092. 실제 stale workflow의 원인·수정 결과를 앞에서 확정하지 않는다.
+BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
 **Claim Boundary:**
-CONCEPTUAL — 공통 지침을 갱신하지 않은 경우의 비교다. 실제 요청·원본 지침 변경 이력이 아니며 지침이 누락 원인이라고 단정하거나 보정 성공을 주장하지 않는다.
+CONCEPTUAL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
 
 **Beginner Explanation:**
-이번 대화에 더한 말과 다음 작업이 다시 읽는 지침은 다르다.
+같은 목표 안에서 검토·수정·재확인을 사람이 매번 다시 요청하는 상황을 설명한다.
 
 **Advanced Insight:**
-일회 요청의 수정이 시스템의 영속적 출처 변경을 뜻하지 않는다. 어떤 출처를 바꿀지는 후속 원인 확인으로 결정해야 한다.
+같은 목표의 상태와 반복 제어를 수행 방법과 연결하되 별도 Memory·완전자율화를 필수로 요구하지 않는다.
 
 **C++ Vision Bridge:**
 N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
 
 **Demo Operation:**
-N/A — Lecture2분. 실제 제품·CLI를 실행하거나 가상 보정을 실제 수행한 것처럼 보여주지 않는다. 각 장은 정적 의미 재구성/교육용 상황도다.
+정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
 
 **Audience Interaction:**
-Opening Question은 생각을 돕는 질문이다. 참가자 실습·작성·공개 답변을 요구하지 않는다.
+N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-“공통 지침은 그대로인데, 다음 작업에서도 비슷한 확인이 필요하면 어떻게 될까요?”
+이 연결에서 수행 방법과 다음 행동 판단을 구분하는 S79로 넘긴다.
 
 **Time Management:**
-Lecture2분.0:35까지 질문·장면,1:25까지 핵심 차이,2:00에 다음 장의 질문으로 이동한다. 환경·도구 설정 강의나 ACT4의 구체적 개선·평가를 미리 설명하지 않는다. 실측 리허설 UNVERIFIED.
+Lecture 2분 = 2분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S78 또는 production/preview/full/S78.png. 실제 실행 Screenshot·Trial·새 관찰 결과로 표현하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S78; production/preview/act3/S78.png 및 production/preview/full/S78.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0092. 현재 로컬 결과는 production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md에 기록한다. Windows/발표 PC 글꼴/교육장/제품·계정/실측 리허설 UNVERIFIED.
+REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S79 — 다음 작업에서도 같은 보정이 반복된다면?
+## S79 — 같은 목표의 수정과 검토가 끊기지 않게
 
 **Slide ID:**
 S79
 
 **Working Title:**
-다음 작업에서도 같은 보정이 반복된다면?
+같은 목표의 수정과 검토가 끊기지 않게
 
 **ACT / Section:**
 ACT 3 / 3G Minimum Effective Harness 완성
@@ -1222,56 +1199,55 @@ ACT 3 / 3G Minimum Effective Harness 완성
 Lecture 2분
 
 **Primary Message:**
-공통 수행 지침을 갱신하지 않은 교육용 상황에서 작업 A/B/C마다 사람이 같은 확인을 추가로 요청한다. 사람의 경험이 다음 작업에 쓸 체계의 개선으로 돌아오지 않는 문제가 남는다.
+Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정으로 돌리는 제어가 필요하다.
 
 **Opening Question:**
-“작업이 바뀔 때마다 같은 보정을 사람이 다시 해야 한다면, 무엇이 축적되지 않은 걸까요?”
+어떻게 일할지와 다음에 무엇을 고칠지는 같은 질문일까?
 
 **Speaker Flow:**
-1. (0:00–0:35 / Lecture) 같은 공통 지침 아래 순서대로 이어지는 작업 A/B/C를 읽는다. 실제 세 번의 실험·Subagent 실행·제품 상태가 아니다.
-2. (0:35–1:25 / Lecture) 각 작업 아래에서 사람이 관련 동작도 확인해 달라고 같은 보정을 반복하는 부분을 가리킨다. 그림의 반복은 설명 도식이며 비용·토큰 증가를 측정한 그래프가 아니다.
-3. (1:25–2:00 / Lecture) 사람은 경험을 얻었지만 다음 작업의 수행 체계는 그대로라는 문제를 회수한다. 이 문제를 어떤 근거로 개선할지가 다음 질문이다.
+1. (0:00–1:00 / Lecture) Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정으로 돌리는 제어가 필요하다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
+2. (1:00–2:00 / Lecture) 같은 목표의 다음 수정이 이어받을 상태를 S80에서 살펴본다.
 
 **Evidence / Source:**
-plan/MASTER_PLAN.md §5.9의 매번 사람이 같은 지시를 다시 알려주는 반복 실패·보정 예와 고정 Insight; DEC-0092. 가상의 순차 작업이며 실제 Product 반복 이력이나 TRIAL-006의 관측 횟수가 아니다.
+BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
 **Claim Boundary:**
-CONCEPTUAL — 작업 A/B/C는 반복을 설명하는 도식이며 실제 Trial·Subagent·비교 실험이 아니다. 반복 횟수·토큰·시간·성과를 측정하지 않았고 원인은 미확정이다.
+CONCEPTUAL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
 
 **Beginner Explanation:**
-매번 사람이 같은 말을 다시 해야 하는 문제가 눈에 보인다.
+Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정으로 돌리는 제어가 필요하다.
 
 **Advanced Insight:**
-Task 간에 개선 지식이 전달되지 않는 구조적 빈틈을 식별한다. 원인·지속 출처·평가 대상은 아직 열어 둔다.
+같은 목표의 상태와 반복 제어를 수행 방법과 연결하되 별도 Memory·완전자율화를 필수로 요구하지 않는다.
 
 **C++ Vision Bridge:**
 N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
 
 **Demo Operation:**
-N/A — Lecture2분. 실제 제품·CLI를 실행하거나 가상 보정을 실제 수행한 것처럼 보여주지 않는다. 각 장은 정적 의미 재구성/교육용 상황도다.
+정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
 
 **Audience Interaction:**
-Opening Question은 생각을 돕는 질문이다. 참가자 실습·작성·공개 답변을 요구하지 않는다.
+N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-“이 경험으로 다음 작업의 체계를 바꾸려면, 무엇을 근거로 어디를 고칠지 판단해야 할까요?”
+같은 목표의 다음 수정이 이어받을 상태를 S80에서 살펴본다.
 
 **Time Management:**
-Lecture2분.0:35까지 질문·장면,1:25까지 핵심 차이,2:00에 다음 장의 질문으로 이동한다. 환경·도구 설정 강의나 ACT4의 구체적 개선·평가를 미리 설명하지 않는다. 실측 리허설 UNVERIFIED.
+Lecture 2분 = 2분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S79 또는 production/preview/full/S79.png. 실제 실행 Screenshot·Trial·새 관찰 결과로 표현하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S79; production/preview/act3/S79.png 및 production/preview/full/S79.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0092. 현재 로컬 결과는 production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md에 기록한다. Windows/발표 PC 글꼴/교육장/제품·계정/실측 리허설 UNVERIFIED.
+REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S80 — 반복 보정을 개선으로 잇는 기록
+## S80 — 다음 수정에 넘길 기록
 
 **Slide ID:**
 S80
 
 **Working Title:**
-반복 보정을 개선으로 잇는 기록
+다음 수정에 넘길 기록
 
 **ACT / Section:**
 ACT 3 / 3G Minimum Effective Harness 완성
@@ -1283,56 +1259,55 @@ ACT 3 / 3G Minimum Effective Harness 완성
 Lecture 2분
 
 **Primary Message:**
-원래 기준과 적용 지침, 실제 수행·검증 범위, 사람이 보정한 내용을 함께 남겨야 무엇이 달랐는지 비교할 수 있다. 그 기록을 근거로 원인과 변경 대상을 판단하고 다시 확인할 필요가 생긴다.
+목표·완료 기준, 현재 변경·검사 기록, 남은 검토 지적을 다음 수정에 전달한다.
 
 **Opening Question:**
-“보정한 문장만으로, 코드·지침·도구·검증 중 무엇을 고칠지 알 수 있을까요?”
+다음 수정이 무엇을 이어받아야 할까?
 
 **Speaker Flow:**
-1. (0:00–0:35 / Lecture) 왼쪽 기록 틀은 실제 보고서가 아닌 교육용 항목이다. 원래 기준과 지침을 실제 수행·검증 범위에 대조하고 사람의 보정을 함께 남긴다.
-2. (0:35–1:25 / Lecture) 오른쪽의 원인·변경 위치·재확인은 아직 답하지 않은 질문이다. 지침을 늘리는 것이 항상 답이 아니며 코드·도구·평가 기준 등 다른 원인도 확인해야 한다.
-3. (1:25–2:00 / Lecture) 기록은 다음 작업에 쓸 체계를 검토할 입력이라는 필요만 고정한다. 구체적 원인 확인·갱신·재평가는 ACT4의 기존 사례에서 다룬다.
+1. (0:00–1:00 / Lecture) 목표·완료 기준, 현재 변경·검사 기록, 남은 검토 지적을 다음 수정에 전달한다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
+2. (1:00–2:00 / Lecture) S81에서 내가 계속 이어 주는 다음 요청 하나를 떠올리게 한다.
 
 **Evidence / Source:**
-plan/MASTER_PLAN.md §5.9 및 §14; DEC-0092. 실제 교육 제작의 평가·보고 기준 변경과 후속 기록은 기존 ACT4 S95–S99에 보존하며, 이 장의 기록 틀을 실제 실행 보고서로 쓰지 않는다.
+BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
 **Claim Boundary:**
-TEACHING MODEL — 개선 검토에 필요한 기록 틀이다. 실제 새 보고서·원인 확정·지침 갱신·재평가·품질 향상을 입증하지 않으며 AI 모델의 자동 학습을 뜻하지 않는다.
+TEACHING_MODEL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
 
 **Beginner Explanation:**
-누가 무엇을 보정했는지뿐 아니라 원래 기준과 실제 수행도 함께 보아야 한다.
+목표·완료 기준, 현재 변경·검사 기록, 남은 검토 지적을 다음 수정에 전달한다.
 
 **Advanced Insight:**
-사람의 보정을 바로 새 규칙으로 바꾸지 않고, 원인을 가려 적절한 출처를 변경하고 재평가할 증거로 다룬다.
+같은 목표의 상태와 반복 제어를 수행 방법과 연결하되 별도 Memory·완전자율화를 필수로 요구하지 않는다.
 
 **C++ Vision Bridge:**
 N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
 
 **Demo Operation:**
-N/A — Lecture2분. 실제 제품·CLI를 실행하거나 가상 보정을 실제 수행한 것처럼 보여주지 않는다. 각 장은 정적 의미 재구성/교육용 상황도다.
+정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
 
 **Audience Interaction:**
-Opening Question은 생각을 돕는 질문이다. 참가자 실습·작성·공개 답변을 요구하지 않는다.
+N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-“우리 업무에서 매번 사람이 보정하는 하나를 골라, 어떤 근거와 담당이 필요한지 생각해 보겠습니다.”
+S81에서 내가 계속 이어 주는 다음 요청 하나를 떠올리게 한다.
 
 **Time Management:**
-Lecture2분.0:35까지 질문·장면,1:25까지 핵심 차이,2:00에 다음 장의 질문으로 이동한다. 환경·도구 설정 강의나 ACT4의 구체적 개선·평가를 미리 설명하지 않는다. 실측 리허설 UNVERIFIED.
+Lecture 2분 = 2분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S80 또는 production/preview/full/S80.png. 실제 실행 Screenshot·Trial·새 관찰 결과로 표현하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S80; production/preview/act3/S80.png 및 production/preview/full/S80.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0092. 현재 로컬 결과는 production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md에 기록한다. Windows/발표 PC 글꼴/교육장/제품·계정/실측 리허설 UNVERIFIED.
+REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S81 — 같은 보정을 되풀이하지 않으려면?
+## S81 — 내가 매번 이어 주는 다음 단계는 무엇일까?
 
 **Slide ID:**
 S81
 
 **Working Title:**
-같은 보정을 되풀이하지 않으려면?
+내가 매번 이어 주는 다음 단계는 무엇일까?
 
 **ACT / Section:**
 ACT 3 / 3I Discussion / Reflection / Transition
@@ -1341,48 +1316,48 @@ ACT 3 / 3I Discussion / Reflection / Transition
 10 minutes
 
 **Mode Split:**
-Reflection 3 minutes + Q&A 5 minutes + Transition 2 minutes
+Reflection 3분 + Q&A 5분 + Transition 2분
 
 **Primary Message:**
-다시 알려주는 정보·다시 지시하는 절차·빠뜨린 확인 기준 중 반복 보정 하나를 고른다. 그 근거와 원래 출처, 검토·갱신·재확인 책임을 생각하고 다음 작업에 반영할 개선 과정이 필요한 이유를 회수한다.
+내 업무의 검토·수정·완료 판단 중 반복해서 연결하는 요청을 생각하고 ACT4 수행 루프로 넘긴다.
 
 **Opening Question:**
-“우리 팀에서 사람이 되풀이하는 보정 하나는 무엇이며, 무엇을 근거로 누가 다시 확인해야 할까요?”
+내가 매번 이어 주는 검토·수정·확인 요청은 무엇일까?
 
 **Speaker Flow:**
-1. (0:00–3:00 / Reflection) 다시 알려주는 정보·다시 지시하는 절차·빠뜨린 확인 기준 중 사람이 반복 보정하는 하나를 생각한다. 실제 작성·발표는 요구하지 않는다. 고른 내용이 현재 대화에만 남는지, 다음 작업에도 적용될 필요가 있는지 묻는다.
-2. (3:00–8:00 / Q&A) 선택적으로 질문을 받는다. 어떤 기준·실행 기록·보정 내용을 볼지, 원래 출처가 어디인지, 누가 검토·갱신·재확인을 맡을지 생각한다. 한 원인이나 새 규칙을 미리 확정하지 않는다. 질문이 없으면 “이번 대화에서만 보정했다면 다음 작업은 무엇을 다시 읽을까요?”를 보조 질문으로 사용한다.
-3. (8:00–10:00 / Transition) 하단 다음 ACT 문장을 읽는다. 사람의 반복 보정이 다음 작업의 개선으로 이어지게 하려면 기록·원인 확인·적절한 변경·재평가가 필요하다는 문제를 닫고 ACT4 제목 S82으로 이동한다. S83에서 실제 성공은 보존하고 별도의 가상 유지 사례를 연다. ACT4의 설명·순서·시간을 미리 소진하거나 축소하지 않는다.
+1. (0:00–3:00 / Reflection) 검토·수정·완료 중 내가 계속 이어 주는 요청 하나를 마음속으로 고른다. 기록·발표를 요구하지 않는다.
+2. (3:00–8:00 / Q&A) 질문을 받는다. 없으면 “검토가 끝난 뒤 다음 수정은 누가 이어 주나요?”를 사용한다. 완료 기준과 사람의 책임을 유지하고 제품 기능을 단정하지 않는다.
+3. (8:00–10:00 / Transition) S82의 목표 기반 실행·검토 시스템 제목을 거쳐 S83의 사람의 연결 문제로 이어간다.
 
 **Evidence / Source:**
-plan/MASTER_PLAN.md §§5.8–5.9, §14; 기존 BEAT-035–038 및 DEC-0079/0080/0092. 검증된 STATE-04-PERF의 성공은 유지하고, ACT4의 별도 가상 변화와 실제 Meta 사례를 그대로 둔다.
+BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
 **Claim Boundary:**
-TEACHING MODEL — 개인 성찰이며 작성·실습·공개 답변을 요구하지 않는다. 실제 누락 원인·수정 대상·담당·재평가 결과를 확정하지 않는다. ACT4의 구성·시간·관찰/가상 경계를 유지한다.
+TEACHING_MODEL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
 
 **Beginner Explanation:**
-매번 사람이 다시 하는 보정 한 가지를 자기 업무에서 떠올린다.
+내 업무의 검토·수정·완료 판단 중 반복해서 연결하는 요청을 생각하고 ACT4 수행 루프로 넘긴다.
 
 **Advanced Insight:**
-반복 보정의 근거·적용 범위·원래 출처와 검토·재평가 책임을 분리해 생각한다.
+같은 목표의 상태와 반복 제어를 수행 방법과 연결하되 별도 Memory·완전자율화를 필수로 요구하지 않는다.
 
 **C++ Vision Bridge:**
 N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
 
 **Demo Operation:**
-N/A — 정적 성찰 화면. R1 세 후보→R2 반복 보정 하나 선택→R3 근거·출처/검토·재확인 책임의 순서로 발표자 초점을 옮긴다. 새 실행이나 실제 원인·담당 배정은 없다.
+정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
 
 **Audience Interaction:**
-Reflection3분→선택 Q&A5분→Transition2분. 공개 답변과 작성은 요구하지 않는다. 질문이 없으면 현재 대화에만 남은 보정과 다음 작업이 읽을 출처를 묻는다.
+Reflection: 내가 매번 이어 주는 검토·수정·확인 요청은 무엇일까? 공유·기록·실습은 요구하지 않는다.
 
 **Transition:**
-“만든 기반은 재사용할 수 있습니다. 이제 사람이 반복해서 보정한 경험을 다음 작업의 개선으로 되돌리는 방법을 보겠습니다.” ACT4 제목 S82을 거쳐 S83의 기존 실제 성공 회수와 별도 가상 유지 사례로 이어간다.
+S82의 목표 기반 실행·검토 시스템 제목을 거쳐 S83의 사람의 연결 문제로 이어간다.
 
 **Time Management:**
-총10분:0–3 Reflection,3–8 Q&A,8–10 Transition.8분에 질문을 닫고 하단의 다음 ACT 문장으로 이동한다. 지연 시 부연·도구 예시를 줄이되 반복 보정 문제와 근거·책임 질문을 유지한다.10분에 S82 제목으로 넘긴다. 실제 리허설 UNVERIFIED.
+Reflection 3분 + Q&A 5분 + Transition 2분 = 10분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S81 또는 production/preview/full/S81.png. 실제 실행 Screenshot·Trial·새 관찰 결과로 표현하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S81; production/preview/act3/S81.png 및 production/preview/full/S81.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0092. 현재 로컬 결과는 production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md에 기록한다. Windows/발표 PC 글꼴/교육장/제품·계정/실측 리허설 UNVERIFIED.
+REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.

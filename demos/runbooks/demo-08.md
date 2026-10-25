@@ -1,5 +1,7 @@
 # DEMO-08 — Durable Knowledge Decision Visual
 
+> Current edition: DEC-0097 /114slides/406minutes. This retained role uses S70, S71. Current paths/hashes/readiness: [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Earlier dated statuses below are historical; no new Trial or Live approval.
+
 ## Current ACT3 operation — DEC-0074
 
 S69→S70→S71: S70은 실제 작업 종료 뒤 무엇을 남길지 질문하는 명시적 가정이다. 이번 Context에서 확인한 재현 조건을 골라 출처·범위·재확인 조건을 붙이고 다음 작업의 현재 명세와 대조한다. S71는 코드·문서·Skill·Trial 기록의 실제 지식을 네 출처에 대응하고, 원래 출처에서 확인 가능했고 별도 후보를 찾지 못한 판단을 회수한다. 실제 Memory 저장/회수나 재발견 실험은 없다. S70 Demo2+Case2, S71 Lecture4분을 유지한다.

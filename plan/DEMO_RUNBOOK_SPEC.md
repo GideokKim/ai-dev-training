@@ -1,6 +1,54 @@
 # Demo Runbook Specification
 
-## 현재 Codex 제작 팁 — DEC-0093 (2026-10-25)
+## 현재 ACT4 제작 기준 — DEC-0097 (2026-10-25)
+
+사용자가 ACT4 재기획안을 승인했다. 현재114장·406분(6시간46분), ACT 장수
+14/22/19/26/18/15와 시간43/64/82/96/81/40분이다. ACT4 S82–S99는18장·81분,
+ACT5는 S100–S114다. 이전 S100 GPU 장을 삭제하고 이전 S101–S115를 -1 이행했다.
+전체 Mode는 Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+이전 ACT4의 visual/captured Demo22분을 포함한 배정을 새 설계에 맞춰 재배분했다.
+새 반복 진행은 Case이며 실제 새 모델 호출·수정·검증·성과를 관찰한 Demo가 아니다.
+
+ACT4의 중심은 **같은 목표의 구현 → 근거 있는 검토 → 수정 → 재검토 → 목표 충족 판단**이다.
+Harness 개선은 관련 확장이며 이 수행 루프의 주 사례를 대신하지 않는다.
+CASE-LOOP-01은 별도 교육용 밝기 통계 설계이고, S92–S94는 조건을 제한한 연구다.
+현재 다중 모델 조합·제품 실행 표면·반복 효과는 미검증이다. 기존 Product/Meta
+Trial과 새 설계의 근거를 합치지 않는다. 연구는 다른 모델의 보편적 우월성을 뜻하지 않는다.
+
+[승인 설계](ACT4_GOAL_LOOP_REPLAN.md), [현행 Map](SLIDE_MAP.md),
+[115→114 이행](SLIDE_ID_MIGRATION_114.md)을 따른다. 기존12Templates/28Variants,
+19Notes 필드와19개 실무 적용 팁을 유지한다. 마지막 찾아보기는 S111–S113이다.
+아래 이전 정의·번호·시간·검증은 이력이다. 새 기준과 충돌하면 현재 사용자 승인과
+DEC-0097을 우선한다. Windows/교육장/제품·계정/실제 리허설은 UNVERIFIED다.
+Demo Repository·기존 State/Trial·발표 묶음은 변경하지 않는다.
+
+
+## CASE-LOOP-01 — Goal-directed brightness-statistics design
+
+Current role: S84–S89 illustrates one fixed goal with candidates, tool
+evidence, a different review model, revision and re-review. S90–S97 connects
+the control/role/state design. Status: CONCEPTUAL / DESIGNED / NOT EXECUTED.
+
+Goal: retain the six output fields and behavior while reducing unnecessary
+temporary allocation and respecting a runtime condition. Numeric targets,
+representative inputs, model identities and the execution surface are TBD.
+The controller preserves fixed criteria and passes remaining issues and
+evidence to the next revision. Completion differs from unmet-goal escalation.
+
+Primary delivery: static native diagrams in ACT4, not Live or Hybrid.
+Start: identify the fixed goal at S84. Stop: S89 closes the same-criteria
+re-review; S90 names the whole loop. If time is short, retain the issue①→
+revision① connection and evidence boundary, and shorten advanced extensions.
+Fallback: the delivered ACT4 PPT and matching PNGs; target-PC playback is
+UNVERIFIED. No new Trial, Product Git State, model call or benchmark is run.
+
+Existing DEMO-04A/04B and EVAL-01–04 keep their original meaning and history.
+They are supporting records, not the evidence for this new loop. Existing
+Demo-10/11 main-deck allocations are replaced by the new Case sequence;
+the historical twelve Demo identities are not silently assigned new results.
+
+
+## 이전 Codex 제작 팁 — DEC-0093 (2026-10-25)
 
 현재115장·406분(6시간46분). 기존113장의 Story·장별 시간/Mode·근거를 유지하고
 이전 S62 뒤 새 S63에 Skill 제작 팁, 이전 S66 뒤 새 S68에 Custom Agent 제작 팁을

@@ -1,5 +1,67 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+현재 기준: **DEC-0097 /114장·406분(6시간46분)**. ACT4를 같은 목표의 구현·검토·수정·
+재검토 루프로 바꾸고 서로 다른 모델의 관점을 다룬 연구를 조건과 함께 연결했다.
+기존 S100 GPU 장을 삭제했으며 ACT4는 S82–S99, ACT5는 S100–S114다.
+ACT3의 사람의 연결 부담→ACT4의 다음 수정 입력→ACT5의 조합·통합/제거 흐름을 정렬했다.
+
+## 사용할 자료
+
+- [최신 통합 PPT114장](../AI_Dev_Training_Full.pptx)
+- [ACT4 PPT18장](../ACT_4.pptx), [ACT4 Preview](../preview/act4/montage.png)
+- [전체 Speaker Notes](../notes/FULL_SPEAKER_NOTES.md)
+- [이번 수정·검토 결과](ACT_4_GOAL_LOOP_REVISION.md), [검사 기록](ACT_4_GOAL_LOOP_VALIDATION.json)
+- [실환경 확인 체크리스트](USER_VALIDATION_CHECKLIST.md), [예상 질문·답변](../presenter/EXPECTED_QA.md)
+- [현행 정적 대안 자료](../../demos/runbooks/FALLBACK_MANIFEST.md)
+- [번호 이행](../../plan/SLIDE_ID_MIGRATION_114.md), [공식 Slide Map](../../plan/SLIDE_MAP.md)
+
+## 확인한 제작 범위
+
+Full114장과 수정 ACT3/4/5의59장을 재입력·렌더링했다. 보존 ACT0–2와 합친228PNG의
+Full/ACT114장 대응,114×19Notes·새4PPTX 내장 Notes173개, 시간·Mode를 대조했다.
+전체6ACT 연락판과 S77–S114 개별 화면을 검토했고 미수정 S01–S76은 픽셀까지 동일하다.
+ACT0–2 PPTX, 기존 그림17인스턴스와 Native 표 S53/S62·차트 S66은 보존했다.
+S93은 ReConcile 연구 수치를0–100 값 축에 표시한 Native 차트다.
+Package/layout findings0; 기존 S53 표의0.01in 추정 경고는 그대로이며 실환경 확인 대상이다.
+
+ACT 장수14/22/19/26/18/15, 시간43/64/82/96/81/40분.
+Mode Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+ACT4의 기존 Demo 배정은 실행하지 않은 새 Case/설명으로 정렬했다.
+12Templates/28Variants·19Notes 필드·19본문 팁과 마지막 목록 S111–S113을 유지한다.
+
+## 근거와 남은 Gate
+
+새 CASE-LOOP-01은 **CONCEPTUAL / DESIGNED / NOT EXECUTED**다. 실제 Product/Meta
+기록과 혼합하지 않았다. ReConcile/CriticBench의 결과는 해당 과제·모델·조건 안의 연구다.
+현재 Codex 코딩 루프의 성공, 항상 다른 모델이 더 좋다는 주장, 비용 절감은 검증하지 않았다.
+검토 지적은 도구·명세·기록과 대조하고 미충족 중단을 완료로 부르지 않는다.
+
+Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·Live/Hybrid·실측 리허설은
+**UNVERIFIED**다. 정적 대안42페이지는 현행25개 Demo 참조+17개 설계/연구 참조이며,
+로컬 파일 확인이지 원본 실행 캡처나 Live 승인이 아니다.
+Demo 저장소·원본 Evidence·Prototype·발표 묶음은 변경하지 않았다. 새 Trial도 없다.
+
+## 현재 파일 식별
+
+| 파일 | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `6754116a2e710266680512cec4003f023a280b0260f335439183541b2dfd38b8` |
+| `production/ACT_0.pptx` | `1e3794fa89ca0ccd039eeac54f43b679d82c3f8c1ecc6f6e0b384cc9630b6109` |
+| `production/ACT_1.pptx` | `4cf6f12e55cbace8b4deac8ce3267bd94a1d0fa0687817f85e7416a3fbb83901` |
+| `production/ACT_2.pptx` | `baa82f305eb9c8b578d5a3433bea80f3a8ba1cddfc0045c107c4bfffab6b2ab6` |
+| `production/ACT_3.pptx` | `426f8031285a4de91676980fc20b936cef941ace9f1bea43540575120eeceaa7` |
+| `production/ACT_4.pptx` | `cec1a7186bbd940429f00f731d884d062fb72bb22d9f8a77ecf7214f36cb5d46` |
+| `production/ACT_5.pptx` | `32bc0386b483abb72fe2d3b42d72455f22aea0c0390e441049dc5ec40e7f1634` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `2b1a81701095c9723bfbf8ba7a77213221d9d9cc9f5c5d25b84a81cf1894ea16` |
+| `production/preview/full/montage.png` | `9858b084eaa381135b6956ee45b4a2c5ced69198fec7e8aebcbe41439358097e` |
+
+<details>
+<summary>이전 전달 기록 — 당시 판본·검증 범위 보존</summary>
+
+아래의 현재/최신·번호·시간·해시는 당시 기록이며 위 DEC-0097 기준을 대체하지 않는다.
+
+# 최종 전달 안내 — AI 개발자 교육
+
 최신 배치 수정: **DEC-0095 / S109 연결선·좌우 폭 정렬**. ACT5/통합본을 갱신하고 문구·Notes·기획·근거·장수·시간은 그대로 유지했다. 미수정114개 Full 화면과 다른5ACT PPTX는 동일하다. [현재 배치 검토](S109_CONNECTOR_LAYOUT_REVISION.md). 아래 ACT4 내용 정렬 기록은 유효하며, 현재 파일 식별은 이번 산출물을 따른다.
 
 현재 기준: **DEC-0094 /115장·406분(6시간46분)**. ACT4 S82–S100의19장·81분과
@@ -667,3 +729,5 @@ S82: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
 이전 2026-10-20 및 2026-10-19 ZIP은 역사적 묶음으로 보존한다.
 현재 번호 기준은 DEC-0043, 기존 패키징 정책은 DEC-0031이며 묶음 생성은 보류한다. 기존 `origin/main`의 저장소 push는
 현장 검증 통과나 청중 대상 전달 완료를 뜻하지 않는다.
+
+</details>

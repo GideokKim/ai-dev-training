@@ -1,5 +1,7 @@
 # DEMO-09 — Verification and System Map
 
+> Current edition: DEC-0097 /114slides/406minutes. This retained role uses S72, S73. Current paths/hashes/readiness: [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Earlier dated statuses below are historical; no new Trial or Live approval.
+
 ## Current operation — DEC-0080
 
 S72 briefly recaps actual roles; S73 emphasizes execution conditions and human evidence/result review rather than replaying the inputs. Preserve actual/teaching-model separation and Demo3+2, with S73 Lecture4 separately allocated.

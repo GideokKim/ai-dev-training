@@ -1,5 +1,22 @@
 # Current presentation source
 
+Current: DEC-0097 /114slides/406minutes. `act4-goal-loop.mjs` applies after
+the retained115-ID adapters and deletes old S100 before shifting ACT5 once.
+Current114-ID title/tip factories apply afterward. `act4-goal-loop.json`
+records the approved case/story/time metadata and specific operating cues.
+Native tables:S53/S62. Native charts:S66/S93; the latter is ReConcile's
+literal79.0/72.2accuracy comparison on a0–100value axis. No new Trial runs.
+
+Build Full plus ACT3/4/5 with `--release --release-acts=3,4,5`; finalize and
+render exact packages, embed aligned19-field Notes and validate the migration.
+The approved actual Product history and S108 connector repair are retained.
+No presenter bundle. Windows/room/product-account/rehearsal UNVERIFIED.
+
+## Historical implementation notes
+
+Entries below refer to their stated older editions and do not override the
+current goal-loop priority, slide numbering or evidence distinction.
+
 Latest layout repair: DEC-0095 / current S109, retained source `act5-reassessment.mjs` factory S93. Align only input/candidate/criteria widths and native connector endpoints. Preserve all strings, fonts, Notes and evidence; rebuild Full plus ACT5 with `--release --release-acts=5`. See `production/evaluation/S109_CONNECTOR_LAYOUT_REVISION.md`.
 
 Current ACT4: DEC-0094. Apply `act4-loop-control.mjs` at current115IDs after all retained adapters/title factories. Only S83/S86/S90/S91/S92/S94/S99/S100 screens change; Notes also align S93/S98 transitions. Keep every budget, Mode, evidence class and native evidence owner. Build Full plus ACT4 with `--release --release-acts=4`, then review the exact final115/19renders. No bundle or Demo change.

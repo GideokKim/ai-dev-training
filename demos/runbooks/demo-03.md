@@ -1,5 +1,7 @@
 # DEMO-03 — Reusable Verification Workflow
 
+> Current edition: DEC-0097 /114slides/406minutes. This retained role uses S61, S62. Current paths/hashes/readiness: [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Earlier dated statuses below are historical; no new Trial or Live approval.
+
 ## Current ACT3 operation — DEC-0070
 
 S61→S62: S61의 왼쪽 목록 발췌, 가운데 실제 호출과 요청 요약, 오른쪽 실행 trace의 이름·경로·전체 본문 순으로 짚는다. S62에서 본문 포함과 수행 근거를 구분한 뒤, 세 행의 지침 번역을 실제 출력·변경 전 메시지·최종 diff에 대응한다. 계획 지침의 조건부 표현과 관찰된 횟수·테스트 범위를 유지한다. 밝기 통계는 세 번째 Task이며 다른 Task와 성능 우열을 비교하지 않는다. 기본은 정적 기록/PNG이고 현재 Live/Hybrid는 미활성이다.

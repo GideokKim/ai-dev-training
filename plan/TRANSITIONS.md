@@ -1,6 +1,29 @@
 # Story Transitions
 
-## 현재 ACT4 정렬 — DEC-0094 (2026-10-25)
+## 현재 ACT4 제작 기준 — DEC-0097 (2026-10-25)
+
+사용자가 ACT4 재기획안을 승인했다. 현재114장·406분(6시간46분), ACT 장수
+14/22/19/26/18/15와 시간43/64/82/96/81/40분이다. ACT4 S82–S99는18장·81분,
+ACT5는 S100–S114다. 이전 S100 GPU 장을 삭제하고 이전 S101–S115를 -1 이행했다.
+전체 Mode는 Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+이전 ACT4의 visual/captured Demo22분을 포함한 배정을 새 설계에 맞춰 재배분했다.
+새 반복 진행은 Case이며 실제 새 모델 호출·수정·검증·성과를 관찰한 Demo가 아니다.
+
+ACT4의 중심은 **같은 목표의 구현 → 근거 있는 검토 → 수정 → 재검토 → 목표 충족 판단**이다.
+Harness 개선은 관련 확장이며 이 수행 루프의 주 사례를 대신하지 않는다.
+CASE-LOOP-01은 별도 교육용 밝기 통계 설계이고, S92–S94는 조건을 제한한 연구다.
+현재 다중 모델 조합·제품 실행 표면·반복 효과는 미검증이다. 기존 Product/Meta
+Trial과 새 설계의 근거를 합치지 않는다. 연구는 다른 모델의 보편적 우월성을 뜻하지 않는다.
+
+[승인 설계](ACT4_GOAL_LOOP_REPLAN.md), [현행 Map](SLIDE_MAP.md),
+[115→114 이행](SLIDE_ID_MIGRATION_114.md)을 따른다. 기존12Templates/28Variants,
+19Notes 필드와19개 실무 적용 팁을 유지한다. 마지막 찾아보기는 S111–S113이다.
+아래 이전 정의·번호·시간·검증은 이력이다. 새 기준과 충돌하면 현재 사용자 승인과
+DEC-0097을 우선한다. Windows/교육장/제품·계정/실제 리허설은 UNVERIFIED다.
+Demo Repository·기존 State/Trial·발표 묶음은 변경하지 않는다.
+
+
+## 이전 ACT4 정렬 — DEC-0094 (2026-10-25)
 
 현재115장·406분과 ACT4 S82–S100의19장·81분, 모든 장별 시간·Mode·근거 범위는
 유지한다. 작업 수행 루프와 체계 개선 루프를 구분하고, 평가 후 완료·채택/재시도/
@@ -8,7 +31,7 @@
 확인은 부분적이며 새 개선 질문은 제안/미실행이다. [현재 설계](ACT4_LOOP_CONTROL.md),
 [현재 Slide Map](SLIDE_MAP.md)을 따른다. 아래 이전 번호·판정은 당시 기록이다.
 
-## 현재 Codex 제작 팁 — DEC-0093 (2026-10-25)
+## 이전 Codex 제작 팁 — DEC-0093 (2026-10-25)
 
 현재115장·406분(6시간46분). 기존113장의 Story·장별 시간/Mode·근거를 유지하고
 이전 S62 뒤 새 S63에 Skill 제작 팁, 이전 S66 뒤 새 S68에 Custom Agent 제작 팁을
@@ -547,93 +570,39 @@ Demo.
 
 **Evidence:** `OBSERVED_PRODUCT` at STATE-04-PERF; `TEACHING_MODEL` wording
 under OQ-011; `INV-MATURITY-005`, `INV-MATURITY-009`.
-### TRANS-010 — Working Harness Success → conceptual staleness
+### TRANS-010 — Harness → Goal-directed iteration
 
-**From State:** The continuous Product Demo has ended at verified
-`STATE-04-PERF`.
+**From:** ACT3's bounded success and reusable methods are preserved.
+**Friction:** In a separate conceptual task, people keep issuing the next
+review, revision and recheck request toward the same unfinished goal.
+**Question:** Who connects the remaining review issue to the next revision?
+**Reveal:** Fix criteria, retain current state and feed review evidence into
+the next action. A stale instruction is not the required trigger.
+**Evidence:** S76 actual callback; S77–S81 conceptual/teaching; BEAT-073.
+**Boundary:** No observed recurring failure or autonomous success is added.
 
-**Success:** The bounded Skill-supported Product Change passed the recorded
-focused and full Tests, Benchmark correctness guards, CLI smoke check, and
-diff review. It did not use Subagent or Memory.
+### TRANS-011 — Review feedback → Named goal loop
 
-**New Friction:** A successful system may not remain aligned after a later
-Project change. This is a question for a separate teaching case, not an
-observed change in the Demo repository.
+**From:** CASE-LOOP-01 shows a goal, v1, tool evidence, model B critique,
+model A revision and the same criteria used again.
+**Question:** What makes these attempts one connected work system?
+**Reveal:** S90 names the goal-directed loop after the steps appear. S91
+adds completion, continued revision and unmet-goal stop/human escalation.
+**Evidence:** BEAT-075–079; CONCEPTUAL/TEACHING_MODEL only.
+**Boundary:** Do not promote a diagram or model agreement into executed
+success. Do not merge the historical Meta report case into this sequence.
 
-**Audience Question:** “Project가 바뀐 뒤에도 Agent의 작업 환경은 계속
-현재 상태와 맞을까?”
-
-**Reveal:** Introduce DEMO-04A as a labeled conceptual controlled example of a
-previously correct workflow becoming stale after an independently justified
-Project change.
-
-**Key Phrase:** “여기까지는 잘 동작합니다. 이제 별도의 개념 사례로 유지보수
-문제를 살펴봅니다.”
-
-**Do Not Say:** “STATE-04-PERF 뒤에 Demo Product가 바뀌어 Skill이 실패했다.”
-
-**Evidence:** `OBSERVED_PRODUCT` at STATE-04-PERF; `CONCEPTUAL` in DEC-0021
-and BEAT-038–049.
-
-**Related Invariants:** `INV-MATURITY-010`, `INV-DEMO-003`.
-### TRANS-011 — Feedback evidence → Loop Engineering
-
-**From State:** DEMO-04A presents a conceptual stale-workflow path through
-observation, cause analysis, a scoped system change, evaluation, and regression
-checking. Separately, DEMO-04B presents actual Training Production Trial
-history: TRIAL-006 → DEC-0016 → TRIAL-007 / TRIAL-008.
-
-**Success:** The two paths expose a shared teaching pattern:
-`Execution → Observation → Cause → System Change → Re-evaluation`.
-
-**New Friction:** The common pattern could be mistaken for automatic repetition,
-model self-learning, or evidence that the conceptual case caused the observed
-Meta decision.
-
-**Audience Question:** “서로 다른 Feedback 사례에서 무엇이 공통이고, 각
-사례가 실제로 증명하는 범위는 어디까지인가?”
-
-**Reveal:** Name feedback-driven system improvement after the steps appear.
-Distinguish Product Loop from Harness Improvement Loop. Preserve each path's
-evidence class and causal boundary.
-
-**Key Phrase:** “Loop는 실행을 반복하는 것만이 아니라 관찰을 통해 다음
-System 결정을 평가하는 구조다.”
-
-**Do Not Say:** “실제 Trial이 stale Product Skill을 고쳤다” or “한 번의
-성공으로 System 품질 개선이 증명됐다.”
-
-**Evidence:** `CONCEPTUAL` DEMO-04A and `OBSERVED_META` DEMO-04B under
-DEC-0021; `INV-LOOP-001`; `plan/DEMO_MATRIX.md` §§221–230.
-
-**Related Invariants:** `INV-LOOP-001`, `INV-DEMO-003–004`,
-`INV-VERIFY-001`.
 ### TRANS-012 — Loop → AI-Native Development
 
-**From State:** The learner has seen the observed Product success, a separate
-conceptual maintenance case, and a bounded observed Meta feedback case.
-
-**Success:** The Story connects them through evidence-informed system
-improvement while preserving what each path does and does not support.
-
-**New Friction:** The learner may mistake increasing delegation or automation
-for transferring engineering judgment and accountability.
-
-**Audience Question:** “시스템이 더 많은 일을 지원해도 Developer가 계속
-책임지는 것은 무엇인가?”
-
-**Reveal:** Recap the single problem-driven Story as this course's operational
-AI-Native Development model: developers design agent work environments and
-feedback while retaining goals, judgment, verification, and responsibility.
-
-**Key Phrase:** “AI를 사용하는 데서 AI가 일할 System을 설계하는 데로 관점이
-어떻게 넓어졌을까?”
-
-**Do Not Say:** “AI-Native는 업계가 합의한 최종 성숙도이거나 개발자의
-책임을 AI로 옮긴다는 뜻이다.”
-
-**Evidence:** `INV-NARRATIVE-001–002`, `INV-LOOP-001`, `INV-DEMO-003`;
-BEAT-060–071; the split evidence roles in DEC-0021.
+**From:** A goal-directed implementation/review/revision design and bounded
+research about self-feedback and different-model critique.
+**Question:** Which parts does our work need, and who owns acceptance?
+**Reveal:** At S99 use Reflection2→Q&A7→Transition2, then S100's ACT5 title.
+S101 recaps the journey; S102 distinguishes actual Product history from the
+designed loop. ACT5 retains developer responsibility and combination,
+consolidation and removal of unneeded structure.
+**Evidence:** BEAT-083/060–071; SRC-0237/0238/0239; DEC-0097.
+**Boundary:** No universal multi-model advantage or transfer of accountability.
 
 ## Transition Quality Audit
 

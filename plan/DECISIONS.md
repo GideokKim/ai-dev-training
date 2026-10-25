@@ -10367,3 +10367,105 @@ definitions and evidence, create an ID migration for the S100 exclusion,
 align ACT3/ACT5 handoffs and implement the reviewed design. Keep Windows,
 room, product/account and rehearsal gates UNVERIFIED. Commit and push only
 the planning documents in this task; do not rebuild presenter bundles.
+
+# DEC-0097 — Produce the approved goal-directed ACT4 review loop
+
+## Status
+
+ACCEPTED — explicit user approval of the ACT4 replan and production.
+
+## Date
+
+2026-10-25
+
+## Context
+
+Baseline `b53b8dc` contains the reviewed goal-loop proposal and unchanged
+115-slide/406-minute production. The user approves implementation, removal
+of the current S100, ACT3/ACT5 continuity, aligned numbering/Notes/plans,
+whole-deck rendering review and normal commit/push.
+
+## Problem
+
+The maintenance-focused ACT4 does not teach the intended same-goal sequence
+of implementation, review, revision and re-review. Existing Trial evidence
+does not demonstrate a heterogeneous-model iterative coding loop.
+
+## Decision
+
+Replace ACT4 with the approved18-slide/81-minute design at S82-S99. Delete
+the prior S100 GPU page and shift prior S101-S115 to S100-S114. Keep the
+total406minutes and other ACT budgets. Counts become14/22/19/26/18/15.
+
+Use one conceptual brightness-statistics case with fixed completion
+criteria, model A implementation, tools, a different model B critique,
+revision and re-review. Separate completion, continued revision and an
+unmet-goal stop/human escalation. Verify critique rather than assuming model
+agreement establishes correctness. Preserve attempts, evidence and limits.
+
+Use Self-Refine and the intrinsic self-correction study at S92, ReConcile's
+bounded model-composition result at S93 and CriticBench at S94. Register
+SRC-0237-0239 and CLM-0043-0045. The case is designed, not executed, and
+research does not establish current Codex or universal multi-model benefit.
+
+Align ACT3 S77-S81 and S76's Notes transition. In ACT5 retain actual Product
+history and the combination/consolidation/removal story; align Loop callbacks,
+the E problem/action and final tip indexes. Preserve the S109 layout repair
+at its new S108 position. Do not run a Trial or modify the Demo Repository.
+
+Use new BEAT-072-083 and Section4R1-4R6; preserve historical Beat/Demo/Trial/
+State meanings. CASE-LOOP-01 names a design, not a new observed Demo/Trial.
+The12Template/28Variant library,19Notes fields and19practical tips remain.
+
+## Rationale
+
+Make one review issue visibly return to a next revision under the same goal.
+Give the research its own condition-scoped role and amend the governing
+definition so older maintenance-first wording cannot recreate the drift.
+
+## Alternatives
+
+Keep the old case and add research; this preserves the wrong main example.
+Invent successful iterations from old Trials; this violates evidence scope.
+Run a new model comparison now; this is outside the approved production work.
+
+## Trade-offs
+
+ACT4 Mode becomes Lecture30/Case37/Reflection4/Q&A7/Transition3=81.
+Its historical22visual/captured Demo minutes are replaced by the designed
+Case walkthrough and related teaching. Full Modes become172/51/103/22/26/32
+for Lecture/Demo/Case/Reflection/Transition/Q&A. Numeric goals, model pair
+and actual runtime/cost/completion effects remain unverified.
+
+## Related Invariants
+
+Align INV-LOOP-001 and INV-MATURITY-010 with this explicit user approval.
+Preserve INV-NARRATIVE-001, INV-VERIFY-001, INV-DEMO-003 and
+INV-RESPONSIBILITY-001. Keep the user-authorized720-minute ceiling.
+
+## Affected Artifacts
+
+Master/invariants, claims/terminology/research, curriculum/story/transitions,
+Demo specifications, Slide/Template maps, ACT3/4/5 and Full Notes/PPTX,
+previews, current static fallback/readiness/handoff identities and sources.
+Historical evidence, original illustrations, prototypes and bundles remain.
+
+## Evidence
+
+The current user approval; ACT4_GOAL_LOOP_REPLAN; inspected baseline PPTX,
+existing Product/Meta records; ReConcile Table7, CriticBench section4.2.5,
+Self-Refine and the ICLR2024 self-correction paper checked2026-10-25.
+These sources support the stated limits, not a newly executed model loop.
+
+## Training Relevance
+
+YES — connect criteria, independent evidence, review feedback and the next
+attempt while preserving human acceptance and conditional escalation.
+
+## Follow-up
+
+Finalize/reimport/render Full114and ACT3/4/5. Check all Notes, current IDs,
+time/Mode totals, native tables/charts, retained pictures and unchanged
+screens. Record actual local checks in ACT_4_GOAL_LOOP_REVISION.md. Keep
+Windows/room/product-account/timed rehearsal UNVERIFIED. Commit and push
+normally to the existing origin/main without force or presenter bundles.
