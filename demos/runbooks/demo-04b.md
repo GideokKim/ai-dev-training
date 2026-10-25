@@ -2,13 +2,13 @@
 
 ## Current operation — DEC-0092
 
-S93 identifies the actual Resize investigation and reporting-system target.
-S94 separates scoped result validity from PARTIAL Prompt attribution. S95
+S95 identifies the actual Resize investigation and reporting-system target.
+S96 separates scoped result validity from PARTIAL Prompt attribution. S97
 shows the changed recording criteria and preserves DEC-0016 continuation
-limits. S96 reads the existing follow-up records and S97 maps the case to
+limits. S98 reads the existing follow-up records and S99 maps the case to
 the course model. Keep all five pages; do not compress the ACT4 explanation.
-Demo slots remain S93:2/S94:4/S95:2 minutes, total8. S96/S97 add no Demo time.
-ACT3 S75-S77 use a separate conceptual human-correction scenario. S78/S79
+Demo slots remain S95:2/S94:4/S95:2 minutes, total8. S98/S99 add no Demo time.
+ACT3 S77-S79 use a separate conceptual human-correction scenario. S80/S81
 ask why that experience has not improved the next task. They do not repeat
 or replace this actual environment/evaluation/reporting case.
 The decision and subsequent-record checks remain in this ACT4 case.
@@ -23,7 +23,7 @@ Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0092 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0093 /115slides/406minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_115.md. Only new S63/S68 add Lecture, no Demo time. ACT4 remains19pages/81minutes; final tip indexes S112-S114. Windows/product/account/room/timed rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED SUPPORTING META ROLE
@@ -92,7 +92,7 @@ Evidence limit: No Product state change, MCP task-result use, full environment i
 
 ## Estimated Time
 
-8m: S93 2m + S94 4m + S95 Demo 2m.
+8m: S95 2m + S96 4m + S97 Demo 2m.
 
 Phase plan: 2m timeline → 4m attribution → 2m reporting boundary.
 
@@ -116,9 +116,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S93.png`, `production/preview/full/S94.png`, `production/preview/full/S95.png`
+Default is the offline static presentation. Open: `production/preview/full/S95.png`, `production/preview/full/S96.png`, `production/preview/full/S97.png`
 
-Show S93–S95; preserve the report/stderr discrepancy as unresolved.
+Show S95–S97; preserve the report/stderr discrepancy as unresolved.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -132,7 +132,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S95 → S96: follow-up records improved but remained partial.
+S97 → S98: follow-up records improved but remained partial.
 
 ## Evidence
 

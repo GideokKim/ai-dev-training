@@ -1,5 +1,7 @@
 # 실무 적용 팁 — 공통 표시와 마지막 통합 찾아보기
 
+Current inventory: DEC-0093 /115slides/406minutes,19body tips and3final indexes S112-S114. New S63/S68 have 수행 방법 badges and are educational current-product authoring examples, not Trial history. The current table below supersedes earlier counts/numbering in the retained prose.
+
 Decision: DEC-0088 placement; DEC-0090 ACT titles; DEC-0091 current numbering; DEC-0092 S78 feedback-record tip.
 Current:113장·402분. 본문 팁17개와 마지막 찾아보기3장·Lecture3분을 유지한다.
 이전 독립 C++ 팁을 삭제하고 S78의 기록 팁을 그 자리에 연결한다.
@@ -17,31 +19,33 @@ Native rectangle x780/y44/w320/h34, fill#E8EDF3, 기존 line/ink와 Malgun Gothi
 
 | ACT | 이전108장 ID | 현재113장 ID | 분류 | 제목 | 선정 이유 | 근거 유형 |
 |---|---|---|---|---|---|---|
-| ACT0 | S12 | S12 | 사용 환경 | Repository 작업은 Codex에서 시작한다 | 사내 사용 환경에서 개발 작업을 시작하는 경로 | RESEARCH / TEACHING_MODEL |
-| ACT1 | S27 | S27 | 요청 작성 | 지시와 참고 자료의 구분 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
-| ACT1 | S28 | S28 | 요청 작성 | 입력과 기대 결과의 작은 예시 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
-| ACT1 | S29 | S29 | 요청 작성 | 바로 검토할 수 있는 결과 형식 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
-| ACT1 | S30 | S30 | 요청 작성 | 근거가 있는 설명과 미확인의 구분 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
-| ACT1 | S31 | S31 | 요청 작성 | 결과를 바꾸는 결정에서 확인 질문 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
-| ACT1 | S32 | S32 | 요청 작성 | 큰 작업을 검토할 결과물로 나누기 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
-| ACT1 | S33 | S33 | 요청 작성 | 기준을 지정한 코드 리뷰 요청 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
-| ACT1 | S34 | S34 | 요청 작성 | 구체적인 근거로 수정 방향 피드백 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
-| ACT2 | S48 | S48 | Context 관리 | AGENTS.md에는 무엇을 남길까? | 기본 안내와 상세 정보의 배치 기준 | TEACHING_MODEL |
-| ACT3 | S58 | S58 | 수행 방법 | 테스트 명령을 언제 쓰고 무엇을 판단할까? | 검증 명령의 사용 시점과 판단 기준 | TEACHING_MODEL |
-| ACT3 | S68 | S68 | Context 관리 | 이번 Context와 다시 쓸 지식 | 다음 작업에 남길 지식의 선정·관리 기준 | CONCEPTUAL / TEACHING_MODEL |
-| ACT3 | 신규 | S78 | 수행 방법 | 반복 보정을 개선으로 잇는 기록 | 원래 기준·실제 수행·사람의 보정을 남겨 다음 작업의 체계 개선을 검토하는 틀 | TEACHING_MODEL |
-| ACT4 | S80 | S85 | 검증·개선 | 원인을 고르기 전에 확인할 기록 | 원인 선택 전에 확인할 기록 목록 | CONCEPTUAL / TEACHING_MODEL |
-| ACT4 | S84 | S89 | 검증·개선 | 지침을 고친 뒤, 무엇을 다시 확인할까? | 지침 갱신 뒤 같은 작업과 다른 작업을 확인하는 질문 | CONCEPTUAL / TEACHING_MODEL |
-| ACT5 | S101 | S106 | 검증·개선 | 무엇을 남기고, 무엇을 덜어낼까? | 기존 구성을 유지·통합·제거할 조건 | TEACHING_MODEL |
-| ACT5 | S102 | S107 | 검증·개선 | 덜어낸 뒤에도 필요한 일을 하는가? | 통합·제거 후보의 비교·되돌림 기준 | TEACHING_MODEL / RESEARCH |
+| ACT0 | 기존 | S12 | 사용 환경 | Repository 작업은 Codex에서 시작한다 | 사내 사용 환경에서 개발 작업을 시작하는 경로 | RESEARCH / TEACHING_MODEL |
+| ACT1 | 기존 | S27 | 요청 작성 | 지시와 참고 자료의 구분 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
+| ACT1 | 기존 | S28 | 요청 작성 | 입력과 기대 결과의 작은 예시 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
+| ACT1 | 기존 | S29 | 요청 작성 | 바로 검토할 수 있는 결과 형식 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
+| ACT1 | 기존 | S30 | 요청 작성 | 근거가 있는 설명과 미확인의 구분 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
+| ACT1 | 기존 | S31 | 요청 작성 | 결과를 바꾸는 결정에서 확인 질문 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
+| ACT1 | 기존 | S32 | 요청 작성 | 큰 작업을 검토할 결과물로 나누기 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
+| ACT1 | 기존 | S33 | 요청 작성 | 기준을 지정한 코드 리뷰 요청 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
+| ACT1 | 기존 | S34 | 요청 작성 | 구체적인 근거로 수정 방향 피드백 | 독립적으로 참고할 수 있는 요청 문장과 적용 상황 | RESEARCH / TEACHING_MODEL / CONCEPTUAL |
+| ACT2 | 기존 | S48 | Context 관리 | AGENTS.md에는 무엇을 남길까? | 기본 안내와 상세 정보의 배치 기준 | TEACHING_MODEL |
+| ACT3 | 기존 | S58 | 수행 방법 | 테스트 명령을 언제 쓰고 무엇을 판단할까? | 검증 명령의 사용 시점과 판단 기준 | TEACHING_MODEL |
+| ACT3 | 신규 | S63 | 수행 방법 | 대화로 재사용할 Skill 만들기 | Codex에서 대화로 초안/역할 설정을 작성하고 확인·사용하는 공식 안내 각색 | RESEARCH / TEACHING_MODEL |
+| ACT3 | 신규 | S68 | 수행 방법 | 대화로 조사 Agent 만들기 | Codex에서 대화로 초안/역할 설정을 작성하고 확인·사용하는 공식 안내 각색 | RESEARCH / TEACHING_MODEL |
+| ACT3 | 기존 | S70 | Context 관리 | 이번 Context와 다시 쓸 지식 | 다음 작업에 남길 지식의 선정·관리 기준 | CONCEPTUAL / TEACHING_MODEL |
+| ACT3 | 기존 | S80 | 수행 방법 | 반복 보정을 개선으로 잇는 기록 | 원래 기준·실제 수행·사람의 보정을 남겨 다음 작업의 체계 개선을 검토하는 틀 | TEACHING_MODEL |
+| ACT4 | 기존 | S87 | 검증·개선 | 원인을 고르기 전에 확인할 기록 | 원인 선택 전에 확인할 기록 목록 | CONCEPTUAL / TEACHING_MODEL |
+| ACT4 | 기존 | S91 | 검증·개선 | 지침을 고친 뒤, 무엇을 다시 확인할까? | 지침 갱신 뒤 같은 작업과 다른 작업을 확인하는 질문 | CONCEPTUAL / TEACHING_MODEL |
+| ACT5 | 기존 | S108 | 검증·개선 | 무엇을 남기고, 무엇을 덜어낼까? | 기존 구성을 유지·통합·제거할 조건 | TEACHING_MODEL |
+| ACT5 | 기존 | S109 | 검증·개선 | 덜어낸 뒤에도 필요한 일을 하는가? | 통합·제거 후보의 비교·되돌림 기준 | TEACHING_MODEL / RESEARCH |
 
 ## 마지막 통합 찾아보기
 
 | ID | 제목 | 참조 팁 | 다음 | 배정 |
 |---|---|---|---|---|
-| S110 | 실무 적용 팁 · 작업 환경과 기준 | S12, S48, S58, S68, S78 | S111 | Lecture1분 |
-| S111 | 실무 적용 팁 · 요청 작성 | S27, S28, S29, S30, S31, S32, S33, S34 | S112 | Lecture1분 |
-| S112 | 실무 적용 팁 · 검증과 개선 | S85, S89, S106, S107 | S113 | Lecture1분 |
+| S112 | 실무 적용 팁 · 작업 환경과 기준 | S12, S48, S58, S63, S68, S70, S80 | S113 | Lecture1분 |
+| S113 | 실무 적용 팁 · 요청 작성 | S27, S28, S29, S30, S31, S32, S33, S34 | S114 | Lecture1분 |
+| S114 | 실무 적용 팁 · 검증과 개선 | S87, S91, S108, S109 | S115 | Lecture1분 |
 
 17개 팁은 한 번씩만 목록에 나온다.5/8항목은 두 열,4항목은 한 열인 기존 T03-A다.
 S78은 기준·실제 수행·사람의 보정을 비교할 교육용 기록 틀이며 실제 새 보고서·개선 결과가 아니다.

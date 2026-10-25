@@ -1338,3 +1338,15 @@ Key Evidence: Describes some enterprise-agent consolidation cases and the need t
 Limitations: Bounded vendor account. No current Codex, course Demo, universal architecture advantage or unmeasured causal effect is established.
 Volatility:HIGH
 Notes: CLM-0040; S91 public-case adaptation, S92/S93 course interpretation; references/engineering/harness-reassessment.md.
+
+## DEC-0093 —2026-10-25 official authoring recheck
+
+The original dated entries remain above. This addendum rechecks the same
+source identities for the current narrow authoring tips.
+
+| Source ID | URL | Checked | Current verified scope | Limit |
+|---|---|---|---|---|
+| SRC-0111 | https://learn.chatgpt.com/docs/build-skills |2026-10-25| Built-in Skill Creator; explicit Codex `$skill-creator`; conversational purpose/trigger/instruction-only questions; local reusable Skill structure | Documented guidance, not current-account execution or TRIAL-008 creation history |
+| SRC-0112 | https://learn.chatgpt.com/docs/agent-configuration/subagents |2026-10-25| Explicit Subagent delegation; project `.codex/agents/*.toml`; required name/description/developer_instructions; inherited parent permissions | No dedicated creator Skill, separate read-only permission or measured benefit established |
+
+See product/CODEX_AUTHORING_2026-10-25.md for the adapted teaching examples.

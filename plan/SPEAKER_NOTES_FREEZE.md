@@ -1,6 +1,20 @@
 # STEP 08 — Speaker Notes Freeze
 
-## 현재 ACT3→ACT4 연결 — DEC-0092 (2026-10-25)
+## 현재 Codex 제작 팁 — DEC-0093 (2026-10-25)
+
+현재115장·406분(6시간46분). 기존113장의 Story·장별 시간/Mode·근거를 유지하고
+이전 S62 뒤 새 S63에 Skill 제작 팁, 이전 S66 뒤 새 S68에 Custom Agent 제작 팁을
+각 Lecture2분씩 추가한다. 이전 S63–S66은 +1, 이전 S67 이후는 +2다.
+ACT 장수14/22/19/26/19/15, 시간43/64/82/96/81/40분. Mode164/73/88/21/28/32분.
+ACT4는 S82–S100의19장·81분, ACT5는 S101–S115의15장·40분을 그대로 유지한다.
+실무 적용 팁은19개이며 마지막 찾아보기 S112–S114의 기존 세 장에 모두 연결한다.
+공식 자료를 각색한 요청·문서 도식이며 실제 생성·실행·TRIAL-008 제작 이력이 아니다.
+12Templates/28Variants·19Notes 필드 유지. 새 Trial·Agent/Skill 설치·Demo 저장소·묶음 변경 없음.
+[현재 팁 설계](CODEX_AUTHORING_TIPS.md), [113→115 번호](SLIDE_ID_MIGRATION_115.md),
+[Slide Map](SLIDE_MAP.md). 아래 이전 판본의 번호·시간·검증은 이력으로 보존한다.
+Windows/교육장/제품·계정/실측 리허설은 UNVERIFIED다.
+
+## 이전 ACT3→ACT4 연결 — DEC-0092 (2026-10-25)
 
 113장·402분과 장별 시간/Mode·번호를 유지한다. S72–S73의 Harness 재사용 가치를
 보존하고, S74–S79에서 **사람의 반복 보정이 다음 작업의 체계 개선으로 돌아오지 않는 문제**를
@@ -204,20 +218,20 @@ Architecture에서 지정한 상태를 유지한다: `NOT STARTED`, `DRAFT`,
 | ACT 0 | S01–S14 | 14 | 43분 |
 | ACT 1 | S15–S36 | 22 | 64분 |
 | ACT 2 | S37–S55 | 19 | 82분 |
-| ACT 3 | S56–S79 | 24 | 92분 |
-| ACT 4 | S80–S98 | 19 | 81분 |
-| ACT 5 | S99–S113 | 15 | 40분 |
-| **전체** | **S02–S113** | **113** | **402분** |
+| ACT 3 | S56–S81 | 26 | 96분 |
+| ACT 4 | S82–S100 | 19 | 81분 |
+| ACT 5 | S101–S115 | 15 | 40분 |
+| **전체** | **S01–S115** | **115** | **406분** |
 
 | Mode | 시간 |
 |---|---:|
-| Lecture | 160분 |
+| Lecture | 164분 |
 | Demo | 73분 |
 | Case | 88분 |
 | Reflection | 21분 |
 | Transition | 28분 |
 | Q&A | 32분 |
-| **전체** | **402분** |
+| **전체** | **406분** |
 
 각 Slide의 Mode 순서는 배정 시간의 의미를 바꾸지 않는 운영 순서다. Mode별
 합계와 Slide별 시간이 정확히 맞아야 하며, setup은 배정된 운영 기준을 따른다.
@@ -231,11 +245,11 @@ DEC-0036 추가 경계: S12의 Codex 메뉴는 공식자료 기반 재구성이�
 |---|---|---|
 | S23 | TRIAL-002의 crop 수정과 실제 기록된 check를 연결 | Crop은 `[x_start, x_end)` 계약이며 `row[x_start:x_end]`가 구현이다. 단일 CLI Trial 범위다. |
 | S53 | TRIAL-005A/B의 Task별 문서 접근을 비교 | 관찰된 접근 차이와 해석을 분리한다. Perfect routing은 입증되지 않았고 token 절감·성능 향상은 측정되지 않았다. |
-| S65 | STATE-04 → STATE-04-PERF의 benchmark와 verification | 값은 기록된 workload·환경에 한정한다. Harness를 단독 원인으로 돌리지 않고 `tracemalloc` peak를 RSS로 말하지 않는다. |
-| S79 | Reflection 3분 → Q&A 5분 → Transition 2분 | 총 10분. Transition이 다음 Story로 마지막 handoff를 한다. DEC-0025. |
-| S81–S82 | S81 Observed Product → S82 Conceptual Case | STATE-04-PERF endpoint와 구성된 stale-workflow 사례를 섞지 않는다. S82은 Demo Repository의 실제 사건이 아니다. |
-| S92–S93 | S92 Teaching Model → S93 Observed Meta | S92은 과정의 개념 모델, S93은 TRIAL-006의 제작 기록이다. Product code 사건이나 완전한 인과 귀속으로 바꾸지 않는다. |
-| S98 | Case 7분 → Reflection 2분 → Q&A 7분 → Transition 4분 | 정적 시각물과 Speaker-led highlighting을 기본으로 한다. 가상 C++ 사례는 실제 GPU/제품 Trial이 아니며 20분 rehearsal은 UNVERIFIED다. |
+| S66 | STATE-04 → STATE-04-PERF의 benchmark와 verification | 값은 기록된 workload·환경에 한정한다. Harness를 단독 원인으로 돌리지 않고 `tracemalloc` peak를 RSS로 말하지 않는다. |
+| S81 | Reflection 3분 → Q&A 5분 → Transition 2분 | 총 10분. Transition이 다음 Story로 마지막 handoff를 한다. DEC-0025. |
+| S83–S84 | S83 Observed Product → S84 Conceptual Case | STATE-04-PERF endpoint와 구성된 stale-workflow 사례를 섞지 않는다. S84은 Demo Repository의 실제 사건이 아니다. |
+| S94–S95 | S94 Teaching Model → S95 Observed Meta | S94은 과정의 개념 모델, S95은 TRIAL-006의 제작 기록이다. Product code 사건이나 완전한 인과 귀속으로 바꾸지 않는다. |
+| S100 | Case 7분 → Reflection 2분 → Q&A 7분 → Transition 4분 | 정적 시각물과 Speaker-led highlighting을 기본으로 한다. 가상 C++ 사례는 실제 GPU/제품 Trial이 아니며 20분 rehearsal은 UNVERIFIED다. |
 
 ## 5. Evidence, Claim, and Product Gate
 
@@ -253,22 +267,22 @@ DEC-0036 추가 경계: S12의 Codex 메뉴는 공식자료 기반 재구성이�
 
 ## 6. Fallback Gate
 
-S23, S53, S93의 fallback 상태는 현재 모두 `PLANNED`다.
+S23, S53, S95의 fallback 상태는 현재 모두 `PLANNED`다.
 
 | Slide | 사용 가능한 기록 | 현재 상태 |
 |---|---|---|
 | S23 | `DEMO_MATRIX.md`의 TRIAL-002 기록; `prototype/preview/v2/S16.png` | PLANNED. PNG는 재구성된 prototype copy이며 실제 Trial screenshot이 아니다. |
 | S53 | TRIAL-005A/B 기록; `prototype/preview/v2/S35.png` | PLANNED. PNG는 재구성된 접근 matrix이며 raw access log가 아니다. |
-| S93 | TRIAL-006 기록; `prototype/preview/v2/S67.png` | PLANNED. PNG는 재구성된 timeline이며 CLI screenshot이 아니다. |
+| S95 | TRIAL-006 기록; `prototype/preview/v2/S67.png` | PLANNED. PNG는 재구성된 timeline이며 CLI screenshot이 아니다. |
 
 선택된 최종 자료의 파일·경로·내용을 확인하기 전에는 어느 것도 `READY`로
 올리지 않는다. 기록, prototype copy, raw capture는 서로 구분해 표기한다.
 Fallback이 없거나 검증되지 않은 HYBRID Demo는 최종 발표용으로 승인하지
 않는다. 실행 실패 시 대체 경로를 실제 발표 흐름 안에서 확인한다.
 
-## 7. S98 Rehearsal Gate
+## 7. S100 Rehearsal Gate
 
-S98는 Case 0–7분, Reflection 7–9분, Q&A 9–16분, Transition 16–20분이다.
+S100는 Case 0–7분, Reflection 7–9분, Q&A 9–16분, Transition 16–20분이다.
 질문이 없는 경우의 fallback question과 16분 cutoff cue는 Pilot에 기록돼
 있다. 실제 timed rehearsal, 청중 Q&A, 운영 속도 검증은 수행되지 않았으므로
 `UNVERIFIED`로 유지한다. 운영 Cue는 완성 Notes나 검증 완료 판정이 아니다.
@@ -281,7 +295,7 @@ S98는 Case 0–7분, Reflection 7–9분, Q&A 9–16분, Transition 16–20분�
 - 실제 교육 계정과 선택한 Codex 제품 표면의 current-state 확인.
 - Live Demo 실행 경로와 Fallback의 실제 점검 및 rehearsal.
 - 대상 화면에서 Safe Area, citation, Evidence frame 확인.
-- S98의 timed 20분 rehearsal.
+- S100의 timed 20분 rehearsal.
 - 선택된 최종 S23/S50/S83 자료의 파일과 내용 확인.
 
 Mac / LibreOffice 렌더링은 Windows 검증을 대신하지 않는다. 최종 Gate의
@@ -299,8 +313,8 @@ Notes는 Slide Map, Claim Freeze, 승인된 Decision, Demo evidence를 구현한
 - Notes Architecture에 정의된 schema: 19 fields.
 - Pilot: 7개 Slide이며 각 Notes는 19 fields를 포함한다.
 - Pilot 검토: `COMPLETE WITH OPEN ITEMS`; 이는 문서 검토이지 rehearsal이 아니다.
-- S79/S88 순서: DEC-0025와 일치.
-- 113 Slides, ACT별43/64/82/92/81/40분, Mode별160/73/88/21/28/32분. 기존99장의 배정을 보존하고마지막3찾아보기에 Lecture1분씩 배정.
+- S81/S88 순서: DEC-0025와 일치.
+- 115 Slides, ACT별43/64/82/96/81/40분, Mode별164/73/88/21/28/32분. 기존99장의 배정을 보존하고마지막3찾아보기에 Lecture1분씩 배정.
 - 미검증 제품·Windows·fallback·rehearsal Gate는 미해결로 유지.
 
 ## 11. Next Readiness

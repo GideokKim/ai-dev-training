@@ -622,6 +622,14 @@
     },
     {
       "slideId": "S63",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "Codex의 Skill/Custom Agent 제작 시작 경로에 대한 현재 제품 활용 팁이며 M1–M9 전체 반영이나 실제 새 실행·효과를 뜻하지 않는다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 신규 확장"
+    },
+    {
+      "slideId": "S64",
       "modules": [
         "M2",
         "M5"
@@ -632,7 +640,7 @@
       "footerLabel": "M 연계 · M2 · M5"
     },
     {
-      "slideId": "S64",
+      "slideId": "S65",
       "modules": [
         "M2",
         "M5",
@@ -644,7 +652,7 @@
       "footerLabel": "M 연계 · M2 · M5 · M9"
     },
     {
-      "slideId": "S65",
+      "slideId": "S66",
       "modules": [
         "M5"
       ],
@@ -654,7 +662,7 @@
       "footerLabel": "M 연계 · M5"
     },
     {
-      "slideId": "S66",
+      "slideId": "S67",
       "modules": [
         "M2"
       ],
@@ -664,18 +672,10 @@
       "footerLabel": "M 연계 · M2"
     },
     {
-      "slideId": "S67",
-      "modules": [],
-      "scope": "new_extension",
-      "rationale": "연결된 현재 작업에서 별도 Subagent를 정당화할 독립성·병렬 이득·통합 비용을 검토한다. 원자료의 제품 스레드 설계나 시스템 대안 비교가 아니다. DEC-0062: 앞 장의 역할 분리 기준을 현재 사례에 적용해 선택 이유를 회수한다. DEC-0072: show actual task handoffs and retain the bounded single-Agent choice; preserve module coverage.",
-      "notesOnly": [],
-      "footerLabel": "M 연계 · 신규 확장"
-    },
-    {
       "slideId": "S68",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "작업 간 재사용·출처·범위·갱신 조건의 명시적 교육용 가정이다. 실제 Memory 활용·학습·온보딩 사례는 아니다. DEC-0073: distinguish current Context from a sourced reusable-knowledge candidate and next-task recheck; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
+      "rationale": "Codex의 Skill/Custom Agent 제작 시작 경로에 대한 현재 제품 활용 팁이며 M1–M9 전체 반영이나 실제 새 실행·효과를 뜻하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -683,7 +683,7 @@
       "slideId": "S69",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "기존 출처와 별도 Memory 후보를 구분하며 이번 Demo에 추가 Memory를 두지 않은 이유를 점검한다. 학습·온보딩 방법은 아니다. DEC-0062: Memory 기준과 현재 지식 감사의 실제 결론을 한 장에서 회수한다. 기존 네 기준(재발견 비용·재사용성·출처·갱신 조건)을 함께 유지한다. DEC-0074: map existing knowledge to original code/docs/Skill/Trial sources and retain the bounded no-extra-Memory choice; preserve module coverage.",
+      "rationale": "연결된 현재 작업에서 별도 Subagent를 정당화할 독립성·병렬 이득·통합 비용을 검토한다. 원자료의 제품 스레드 설계나 시스템 대안 비교가 아니다. DEC-0062: 앞 장의 역할 분리 기준을 현재 사례에 적용해 선택 이유를 회수한다. DEC-0072: show actual task handoffs and retain the bounded single-Agent choice; preserve module coverage.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -691,7 +691,7 @@
       "slideId": "S70",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "현재 문제에 실제로 필요했던 Task·Context·Workflow·Verification 구성을 Minimum Effective Harness로 결산한다. 원자료에 없는 Agent 작업 환경 설계 모델이다. DEC-0062: 이 사례의 구체적인 구성과 사용 이유를 회수한다. DEC-0075: show actual goal/Context/Skill contributions and verification roles around the brightness-statistics task; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
+      "rationale": "작업 간 재사용·출처·범위·갱신 조건의 명시적 교육용 가정이다. 실제 Memory 활용·학습·온보딩 사례는 아니다. DEC-0073: distinguish current Context from a sourced reusable-knowledge candidate and next-task recheck; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -699,7 +699,7 @@
       "slideId": "S71",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "Harness를 개발자와 Agent의 작업 환경 설계로 정의한다. 제품 시스템 아키텍처와 별도인 현행 운영 모델이다. DEC-0062: 앞 장의 실제 구성 목록을 전체 작업 관계로 묶어 Harness 정의를 완성한다. DEC-0076: connect goal/Context/Skill, Agent, verification and shared execution environment as the bounded course Harness model; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
+      "rationale": "기존 출처와 별도 Memory 후보를 구분하며 이번 Demo에 추가 Memory를 두지 않은 이유를 점검한다. 학습·온보딩 방법은 아니다. DEC-0062: Memory 기준과 현재 지식 감사의 실제 결론을 한 장에서 회수한다. 기존 네 기준(재발견 비용·재사용성·출처·갱신 조건)을 함께 유지한다. DEC-0074: map existing knowledge to original code/docs/Skill/Trial sources and retain the bounded no-extra-Memory choice; preserve module coverage.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -707,7 +707,7 @@
       "slideId": "S72",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다.",
+      "rationale": "현재 문제에 실제로 필요했던 Task·Context·Workflow·Verification 구성을 Minimum Effective Harness로 결산한다. 원자료에 없는 Agent 작업 환경 설계 모델이다. DEC-0062: 이 사례의 구체적인 구성과 사용 이유를 회수한다. DEC-0075: show actual goal/Context/Skill contributions and verification roles around the brightness-statistics task; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -715,12 +715,28 @@
       "slideId": "S73",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다.",
+      "rationale": "Harness를 개발자와 Agent의 작업 환경 설계로 정의한다. 제품 시스템 아키텍처와 별도인 현행 운영 모델이다. DEC-0062: 앞 장의 실제 구성 목록을 전체 작업 관계로 묶어 Harness 정의를 완성한다. DEC-0076: connect goal/Context/Skill, Agent, verification and shared execution environment as the bounded course Harness model; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
       "slideId": "S74",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 신규 확장"
+    },
+    {
+      "slideId": "S75",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 신규 확장"
+    },
+    {
+      "slideId": "S76",
       "modules": [
         "M6"
       ],
@@ -730,7 +746,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S75",
+      "slideId": "S77",
       "modules": [
         "M6"
       ],
@@ -740,7 +756,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S76",
+      "slideId": "S78",
       "modules": [
         "M2",
         "M8"
@@ -751,7 +767,7 @@
       "footerLabel": "M 연계 · M2 · M8"
     },
     {
-      "slideId": "S77",
+      "slideId": "S79",
       "modules": [
         "M8"
       ],
@@ -761,7 +777,7 @@
       "footerLabel": "M 연계 · M8"
     },
     {
-      "slideId": "S78",
+      "slideId": "S80",
       "modules": [
         "M6",
         "M8"
@@ -772,7 +788,7 @@
       "footerLabel": "M 연계 · M6 · M8"
     },
     {
-      "slideId": "S79",
+      "slideId": "S81",
       "modules": [
         "M2",
         "M8"
@@ -783,7 +799,7 @@
       "footerLabel": "M 연계 · M2 · M8"
     },
     {
-      "slideId": "S80",
+      "slideId": "S82",
       "modules": [],
       "scope": "new_extension",
       "rationale": "ACT 제목·부제를 안내하는 도입 표지이며 기존 M1–M9의 교수 연결을 추가하지 않는다.",
@@ -791,7 +807,7 @@
       "footerLabel": "M 연계 · ACT 안내"
     },
     {
-      "slideId": "S81",
+      "slideId": "S83",
       "modules": [
         "M5",
         "M6"
@@ -802,7 +818,7 @@
       "footerLabel": "M 연계 · M5 · M6"
     },
     {
-      "slideId": "S82",
+      "slideId": "S84",
       "modules": [
         "M6"
       ],
@@ -812,7 +828,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S83",
+      "slideId": "S85",
       "modules": [
         "M6"
       ],
@@ -822,7 +838,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S84",
+      "slideId": "S86",
       "modules": [
         "M2",
         "M6"
@@ -833,7 +849,7 @@
       "footerLabel": "M 연계 · M2 · M6"
     },
     {
-      "slideId": "S85",
+      "slideId": "S87",
       "modules": [
         "M6"
       ],
@@ -843,7 +859,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S86",
+      "slideId": "S88",
       "modules": [
         "M6"
       ],
@@ -853,7 +869,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S87",
+      "slideId": "S89",
       "modules": [
         "M6"
       ],
@@ -863,7 +879,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S88",
+      "slideId": "S90",
       "modules": [
         "M5",
         "M6"
@@ -874,7 +890,7 @@
       "footerLabel": "M 연계 · M5 · M6"
     },
     {
-      "slideId": "S89",
+      "slideId": "S91",
       "modules": [
         "M6"
       ],
@@ -884,7 +900,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S90",
+      "slideId": "S92",
       "modules": [
         "M6"
       ],
@@ -894,7 +910,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S91",
+      "slideId": "S93",
       "modules": [],
       "scope": "new_extension",
       "rationale": "규칙 누적·충돌·특정 Task 편향으로 Harness가 과도하게 좁아질 수 있다는 현행 유지관리 모델이다. 생산성 지표나 제품 테스트 방법과 동일하게 세지 않는다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope.",
@@ -902,7 +918,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S92",
+      "slideId": "S94",
       "modules": [
         "M2",
         "M6"
@@ -913,7 +929,7 @@
       "footerLabel": "M 연계 · M2 · M6"
     },
     {
-      "slideId": "S93",
+      "slideId": "S95",
       "modules": [
         "M6"
       ],
@@ -923,7 +939,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S94",
+      "slideId": "S96",
       "modules": [
         "M5",
         "M6"
@@ -934,7 +950,7 @@
       "footerLabel": "M 연계 · M5 · M6"
     },
     {
-      "slideId": "S95",
+      "slideId": "S97",
       "modules": [],
       "scope": "new_extension",
       "rationale": "실제 제작 과정에서 Trial 평가·보고 기준을 바꾼 Meta 사례다. ADR 필드 작성이나 AI 리서치 보고서 작성 교육은 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope.",
@@ -942,7 +958,7 @@
       "footerLabel": "M 연계 · 신규 확장"
     },
     {
-      "slideId": "S96",
+      "slideId": "S98",
       "modules": [
         "M6"
       ],
@@ -952,7 +968,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S97",
+      "slideId": "S99",
       "modules": [
         "M6"
       ],
@@ -962,7 +978,7 @@
       "footerLabel": "M 연계 · M6"
     },
     {
-      "slideId": "S98",
+      "slideId": "S100",
       "modules": [
         "M5",
         "M6"
@@ -973,7 +989,7 @@
       "footerLabel": "M 연계 · M5 · M6"
     },
     {
-      "slideId": "S99",
+      "slideId": "S101",
       "modules": [],
       "scope": "new_extension",
       "rationale": "ACT 제목·부제를 안내하는 도입 표지이며 기존 M1–M9의 교수 연결을 추가하지 않는다.",
@@ -981,7 +997,7 @@
       "footerLabel": "M 연계 · ACT 안내"
     },
     {
-      "slideId": "S100",
+      "slideId": "S102",
       "modules": [
         "M1",
         "M2"
@@ -992,7 +1008,7 @@
       "footerLabel": "M 연계 · M1 · M2"
     },
     {
-      "slideId": "S101",
+      "slideId": "S103",
       "modules": [
         "M5",
         "M6"
@@ -1003,7 +1019,7 @@
       "footerLabel": "M 연계 · M5 · M6"
     },
     {
-      "slideId": "S102",
+      "slideId": "S104",
       "modules": [
         "M8",
         "M9"
@@ -1014,7 +1030,7 @@
       "footerLabel": "M 연계 · M8 · M9"
     },
     {
-      "slideId": "S103",
+      "slideId": "S105",
       "modules": [
         "M1",
         "M2",
@@ -1029,26 +1045,10 @@
       "footerLabel": "M 연계 · M1 · M2 · M4 · M5 · M6 · M9"
     },
     {
-      "slideId": "S104",
-      "modules": [],
-      "scope": "new_extension",
-      "rationale": "사람의 판단을 지원할 작업 조건·확인 경로의 설계를 이 과정의 AI-Native 운영 모델로 회수한다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다.",
-      "notesOnly": [],
-      "footerLabel": "M 연계 · 신규 확장"
-    },
-    {
-      "slideId": "S105",
-      "modules": [],
-      "scope": "new_extension",
-      "rationale": "DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result.",
-      "notesOnly": [],
-      "footerLabel": "M 연계 · 신규 확장"
-    },
-    {
       "slideId": "S106",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result.",
+      "rationale": "사람의 판단을 지원할 작업 조건·확인 경로의 설계를 이 과정의 AI-Native 운영 모델로 회수한다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -1062,6 +1062,22 @@
     },
     {
       "slideId": "S108",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 신규 확장"
+    },
+    {
+      "slideId": "S109",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 신규 확장"
+    },
+    {
+      "slideId": "S110",
       "modules": [
         "M2",
         "M8"
@@ -1072,7 +1088,7 @@
       "footerLabel": "M 연계 · M2 · M8"
     },
     {
-      "slideId": "S109",
+      "slideId": "S111",
       "modules": [
         "M1",
         "M8"
@@ -1081,22 +1097,6 @@
       "rationale": "S97의 같은 A–E 문제를 다음 행동과 확인 근거로 빠짐없이 이어 받는 개인 성찰이다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. 통합·제거 후보는 기존 원칙의 확장이며 새 성과나 원모듈 전체 충족을 주장하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M1 · M8"
-    },
-    {
-      "slideId": "S110",
-      "modules": [],
-      "scope": "new_extension",
-      "rationale": "기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다.",
-      "notesOnly": [],
-      "footerLabel": "M 연계 · 찾아보기"
-    },
-    {
-      "slideId": "S111",
-      "modules": [],
-      "scope": "new_extension",
-      "rationale": "기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다.",
-      "notesOnly": [],
-      "footerLabel": "M 연계 · 찾아보기"
     },
     {
       "slideId": "S112",
@@ -1108,6 +1108,22 @@
     },
     {
       "slideId": "S113",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 찾아보기"
+    },
+    {
+      "slideId": "S114",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 찾아보기"
+    },
+    {
+      "slideId": "S115",
       "modules": [
         "M1"
       ],

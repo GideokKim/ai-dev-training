@@ -1,8 +1,10 @@
 # Current presentation source
 
-Current content: DEC-0092 /113slides/402minutes unchanged. `harnessReuseFactories()` preserves S72/S73 reuse and replaces S74-S79 with the missing feedback from repeated human corrections. S75-S77 are conceptual. S73 Notes transition and S110 tip title align; ACT4 stays19pages/81minutes with identical screens/Notes/allocations. Finalize Full plus ACT3/ACT5 with `--release --release-acts=3,5`; preserve the other ACT packages. See `plan/ACT3_LOOP_HANDOFF.md`. Earlier sections retain their historical implementation scope.
+Current: DEC-0093 /115slides/406minutes. `codex-authoring-tips.mjs` applies113-to115 numbering after the retained113factories, then adds S63/S68. Both use T03-C and are documented-guidance diagrams, not actual creation/execution. Current chart owner S66; native tables S53/S62/S92. All retained pictures, budgets and evidence stay unchanged. Full and all ACT packages align current Notes/IDs; final tip indexes S112-S114 contain19tips. See `plan/CODEX_AUTHORING_TIPS.md` and `plan/SLIDE_ID_MIGRATION_115.md`. Earlier stages below remain historical.
 
-Current: DEC-0091 /113slides/402minutes. The retained factories keep their
+Historical content: DEC-0092 /113slides/402minutes unchanged. `harnessReuseFactories()` preserves S72/S73 reuse and replaces S74-S79 with the missing feedback from repeated human corrections. S75-S77 are conceptual. S73 Notes transition and S110 tip title align; ACT4 stays19pages/81minutes with identical screens/Notes/allocations. Finalize Full plus ACT3/ACT5 with `--release --release-acts=3,5`; preserve the other ACT packages. See `plan/ACT3_LOOP_HANDOFF.md`. Earlier sections retain their historical implementation scope.
+
+Historical: DEC-0091 /113slides/402minutes. The retained factories keep their
 96-to99-to108source numbering stages. harness-reuse.mjs explicitly removes
 intermediate S72/S73, inserts current S72-S78 and shifts retained S74+ by5.
 ACT4 remains19pages/81minutes. Approved title text and Native evidence stay.

@@ -2,13 +2,13 @@
 
 ## Current operation — DEC-0081
 
-S90 is a native four-task/risk/status table. EVAL-01/02 reference separate prior bug/performance cases; EVAL-03/04 are designed only. None is a result after this hypothetical Workflow change. Read status wording, not solid/dashed row categories. Existing5minutes: background1, task/risk examples3, selection boundary1.
+S92 is a native four-task/risk/status table. EVAL-01/02 reference separate prior bug/performance cases; EVAL-03/04 are designed only. None is a result after this hypothetical Workflow change. Read status wording, not solid/dashed row categories. Existing5minutes: background1, task/risk examples3, selection boundary1.
 
 Current local package/render/Notes/path validation is complete for DEC-0081.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current ACT4 design](../../plan/ACT4_FLOW_REVISION.md).
 
-> Current references: DEC-0091 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0093 /115slides/406minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_115.md. Only new S63/S68 add Lecture, no Demo time. ACT4 remains19pages/81minutes; final tip indexes S112-S114. Windows/product/account/room/timed rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — conceptual evaluation matrix
@@ -67,7 +67,7 @@ Distinguish prior evidence from evaluation design.
 
 ## Expected Output
 
-S90 four-row conceptual matrix, no execution.
+S92 four-row conceptual matrix, no execution.
 
 ## Verification
 
@@ -77,7 +77,7 @@ Evidence limit: Do not say any EVAL ran or passed/failed after this Workflow cha
 
 ## Estimated Time
 
-5m S90 Demo slot.
+5m S92 Demo slot.
 
 Phase plan: background1m; task/risk examples3m; selection/evidence boundary1m.
 
@@ -101,7 +101,7 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S90.png`
+Default is the offline static presentation. Open: `production/preview/full/S92.png`
 
 Use S90.png. The whole table is conceptual evaluation design; prior-reference status is not an observed result frame.
 
@@ -117,7 +117,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S90 → S91: connect representative checks to overfitting risk.
+S92 → S93: connect representative checks to overfitting risk.
 
 ## Evidence
 

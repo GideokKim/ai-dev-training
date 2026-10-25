@@ -9987,3 +9987,101 @@ Render/review Full113and revised ACT3/ACT5. Verify unchanged ACT4 and106
 other Full screens, all113x19Notes, per-page budgets and34fallback files.
 Keep Windows/room/product-account/timed rehearsal UNVERIFIED. Commit normal
 artifacts and push normally to origin/main without force push or a bundle.
+
+# DEC-0093 — Add practical Codex Skill and custom-agent authoring tips
+
+## Status
+
+ACCEPTED — the user requests a Codex-based Subagent creation tip after S66
+in addition to the preceding Skill-creation tip proposed after S62. The
+existing permission to extend slides/time up to720minutes remains active.
+
+## Date
+
+2026-10-25
+
+## Context
+
+Baseline8d98563 has113slides/402minutes. The Skill sequence shows observed
+use, and the role-separation sequence is conceptual. Neither gives learners
+a short, self-contained way to start authoring the corresponding component.
+
+## Problem
+
+Learners may assume they must first learn file syntax. A creation tip must
+not invent an automatic agent-creator Skill, turn the original Trial into
+an authoring observation, or imply that creating a role makes it necessary.
+
+## Decision
+
+Insert a2-minute Lecture tip after prior S62 as new S63. Show an explicit
+`$skill-creator` request, the purpose of generated SKILL.md instructions,
+and review plus a representative usage check. Insert a2-minute Lecture
+tip after prior S66 as new S68. Show a Codex request to write a reusable
+project custom-agent role, `.codex/agents/perf_reviewer.toml`, and a later
+request to delegate to that named Subagent and consolidate its evidence.
+
+Use current official documented guidance and clearly marked educational
+requests/document diagrams. Do not create or install real Skills/Agents.
+One-off delegation can be requested without a custom definition. A custom
+agent's no-edit instruction does not provide separate read-only permission.
+
+Keep every113retained page and per-page budget/Mode. Prior S63-S66 shift
+by1, prior S67+ by2. Total115slides/406minutes; ACT counts14/22/19/26/19/15,
+minutes43/64/82/96/81/40. Modes164/73/88/21/28/32. Retain ACT4's19pages/
+81minutes as S82-S100 and ACT5's15pages/40minutes as S101-S115. Preserve
+all original Trial/Demo/State/Beat/Section/Claim IDs, imagery and evidence.
+
+Use T03-C for both additions. Keep12Templates/28Variants and19Notes fields.
+Keep the final three tip indexes as S112-S114, with19body tips and no
+inter-ACT index. Align surrounding transition/opening cues and references.
+
+## Rationale
+
+Show how to start immediately after learners understand the component's
+role. Return to what belongs in a Skill and whether delegation is justified
+so the tips support the problem-driven story without adding feature tours.
+
+## Alternatives
+
+Leave creation implicit; beginners cannot apply the idea from the deck.
+Add long file-format tutorials; they interrupt the story and overload a tip.
+Claim a dedicated agent-creator exists; official guidance does not establish
+that mechanism. Actually execute the examples; no new Trial is requested.
+
+## Trade-offs
+
+Add2slides and4Lecture minutes, requiring downstream reference migration.
+Codex can help draft files, but availability/loading and behavior still need
+verification in the actual target client, account and repository. Explicit
+Skill invocation avoids relying on implicit matching for the teaching path.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-NARRATIVE-002, INV-DEMO-003,
+INV-VERIFY-001, INV-RESPONSIBILITY-001, INV-RESEARCH-001.
+
+## Affected Artifacts
+
+Slide/Template/Claim/module/tip maps, current planning routers,115Notes,
+Full and ACT packages/previews, source adapter, current delivery/checklist,
+runbook references and34fallback identities. Preserve original evidence,
+historical reports, assets, prototypes, presenter bundles and Demo state.
+
+## Evidence
+
+User requests in this chat. SRC-0111 and SRC-0112 rechecked2026-10-25 at
+learn.chatgpt.com; CLM-0041 and CLM-0042 record documented scope. The
+adapted prompts are not observations of creation, execution or improvement.
+
+## Training Relevance
+
+YES — lower the starting barrier while keeping instruction review, bounded
+delegation, evidence-based judgment and the decision not to add components.
+
+## Follow-up
+
+Render/review Full115and all ACTs, check retained screens outside ID/ref
+regions and every image crop,115x19Notes and package parity. Preserve
+Windows/room/product/account/timed-rehearsal gates as UNVERIFIED. Commit
+normal deliverables and push to origin/main without force or a bundle.

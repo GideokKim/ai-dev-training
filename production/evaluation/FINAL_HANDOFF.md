@@ -1,5 +1,43 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+현재 기준: **DEC-0093 /115장·406분(6시간46분)**. 기존 S62 뒤 새 S63에 Codex
+Skill 제작 팁, 기존 S66 뒤 새 S68에 조사 Agent 제작 팁을 각 Lecture2분씩 추가했다.
+두 화면은 공식 안내를 각색한 대화 요청·생성 문서 도식이며 실제 생성/실행 기록이 아니다.
+기존113장의 내용·근거·장별 배정과 ACT4의19장·81분을 보존하고 뒤 번호만 이동했다.
+ACT 장수14/22/19/26/19/15, 시간43/64/82/96/81/40분.
+Mode Lecture164/Demo73/Case88/Reflection21/Transition28/Q&A32분.
+ACT4는 S82–S100, ACT5는 S101–S115다.19개 본문 팁과 마지막 목록 S112–S114를 따른다.
+
+최종 Full115장과6ACT115장,230PNGs를 재입력·렌더링했다.115×19Notes·내장/ACT 대응과
+전체 시간·Mode를 대조했다. 기존112개 화면은 번호/참조 영역 밖 동일하며,
+첫 팁 목록만 기존5개에서7개로 늘었다. 모든 기존 이미지의 bytes/crop/위치와
+Native 표 S53/S62/S92, 차트 S66을 보존했다.34fallback 경로/해시를 현재 번호에 맞췄다.
+Package/layout findings0. 기존 S53 표0.01in 경고는 당시와 동일하다.
+
+Windows·발표 PC 글꼴·교육장·제품/계정·실제 생성/호출·실측 리허설은 UNVERIFIED다.
+새 Trial·성과 주장·실제 Skill/Agent 설치·Demo 저장소·발표 묶음 변경 없음.
+
+[추가 두 장](../preview/full/codex-authoring-tips.png), [본문 연결](../preview/full/codex-authoring-sequence.png),
+[검토 결과](CODEX_AUTHORING_TIPS.md), [설계](../../plan/CODEX_AUTHORING_TIPS.md),
+[번호](../../plan/SLIDE_ID_MIGRATION_115.md), [사용자 확인](USER_VALIDATION_CHECKLIST.md).
+
+## 현재 파일 식별
+
+| 파일 | SHA-256 |
+|---|---|
+| production/AI_Dev_Training_Full.pptx | `c8cdd709e78d36d0be235d6c101c2582e8779f65e4d988423f21cd171e70682d` |
+| production/ACT_0.pptx | `1e3794fa89ca0ccd039eeac54f43b679d82c3f8c1ecc6f6e0b384cc9630b6109` |
+| production/ACT_1.pptx | `4cf6f12e55cbace8b4deac8ce3267bd94a1d0fa0687817f85e7416a3fbb83901` |
+| production/ACT_2.pptx | `baa82f305eb9c8b578d5a3433bea80f3a8ba1cddfc0045c107c4bfffab6b2ab6` |
+| production/ACT_3.pptx | `ce8381315dc3ae6e191cd27ed8dd62eb8d257ff4d8d46366e7e2acf66648b0ad` |
+| production/ACT_4.pptx | `06482dfb19ce6be2e8bd94aec28494a1d4b5f38c22995bccde0e617c876836d2` |
+| production/ACT_5.pptx | `07b73adac097dc21ebab88a5c8c0d122ba9cfde47ba22470808b5e833ea2ab9c` |
+| production/notes/FULL_SPEAKER_NOTES.md | `5664f7b22fa36824547fb735cbb63ec99b035dfac25a3da8ee8be4349e599596` |
+| production/preview/full/montage.png | `2f27a8585058d66c66c80b6a29d85c479ad03f68adc059a2b1d7428fdf74535b` |
+
+## 이전113장 전달 안내 — DEC-0092의 원문 보존
+
+
 현재 기준: **DEC-0092 /113장·402분(6시간42분)**. S72/S73의 Harness 재사용 가치를
 유지하고, S74–S79를 **사람의 반복 보정이 다음 작업의 개선으로 이어지지 않는 문제**로
 연결했다. 확인한 성공→사람의 추가 확인→이번 요청/공통 지침의 차이→반복 보정→

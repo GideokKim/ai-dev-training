@@ -1,7 +1,7 @@
 {
   "decision": "DEC-0090",
-  "slideCount": 113,
-  "minutes": 402,
+  "slideCount": 115,
+  "minutes": 406,
   "titleSlides": [
     {
       "act": 0,
@@ -49,9 +49,9 @@
     },
     {
       "act": 4,
-      "slideId": "S80",
+      "slideId": "S82",
       "beforePreviousSlideId": "S71",
-      "firstBodySlideId": "S81",
+      "firstBodySlideId": "S83",
       "title": "기록과 피드백으로 시스템 개선하기",
       "subtitle": "Loop Engineering · 개선 과정 설계",
       "displayTitle": "기록과 피드백으로\n시스템 개선하기",
@@ -60,9 +60,9 @@
     },
     {
       "act": 5,
-      "slideId": "S99",
+      "slideId": "S101",
       "beforePreviousSlideId": "S89",
-      "firstBodySlideId": "S100",
+      "firstBodySlideId": "S102",
       "title": "내 업무에 맞게 조합하고 덜어내기",
       "subtitle": "AI-Native Development · 업무 방식의 재설계",
       "displayTitle": "내 업무에 맞게\n조합하고 덜어내기",
@@ -70,5 +70,5 @@
       "storyBeat": "BEAT-060"
     }
   ],
-  "numberingDecision": "DEC-0091; approved DEC-0090 titles unchanged"
+  "numberingDecision": "DEC-0093; approved DEC-0090 titles remain unchanged"
 }

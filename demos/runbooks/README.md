@@ -3,7 +3,7 @@
 Current content: DEC-0062. ACT3 procedure/source/scenario/decision order follows
 plan/ACT3_FLOW_REVISION.md; local paths/hashes follow FALLBACK_MANIFEST.md.
 
-> Current references: DEC-0091 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0093 /115slides/406minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_115.md. Only new S63/S68 add Lecture, no Demo time. ACT4 remains19pages/81minutes; final tip indexes S112-S114. Windows/product/account/room/timed rehearsal UNVERIFIED.
 
 These runbooks use approved Story and Demo evidence. They do not create a new Trial, Product State, prompt, or current-product claim. The default playback for this execution is the local static render of the integrated deck.
 
@@ -33,4 +33,4 @@ S14의 DEC-0037 검사 파이프라인 도식은 질문 배경이며 새 Demo가
 
 S16–S18은 구성한 Prompt·생성 Agent 삽화·가능한 해석/비용 개념이다. 실제 반복 실행·분기 빈도·기하급수 성장 측정·동일 결과 보장이 아니다. 새 Demo/Trial은 추가하지 않는다.
 
-Current inventory:32 static alternatives; DEMO-08 includes S68 hypothesis/S65 source audit, with no additional Demo time.  DEMO-06 adds the A/B Case summaries S51/S49 without increasing Demo5minutes. All12 Demos and LOOP-VISUAL retain their evidence boundaries.
+Current inventory:32 static alternatives; DEMO-08 includes S70 hypothesis/S65 source audit, with no additional Demo time.  DEMO-06 adds the A/B Case summaries S51/S49 without increasing Demo5minutes. All12 Demos and LOOP-VISUAL retain their evidence boundaries.

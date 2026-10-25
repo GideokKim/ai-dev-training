@@ -157,3 +157,14 @@ in ACT 4.
 
 S92 is a TEACHING_MODEL extension of CLM-0022/0030. S93 is evaluation design,
 not an executed comparison. No measured cost/time/token/quality gain is added.
+
+## DEC-0093 — Codex authoring guidance checked2026-10-25
+
+| Claim ID | Claim | Type | Confidence | Source | Use | Status | Volatility | Priority |
+|---|---|---|---|---|---|---|---|---|
+| CLM-0041 | OpenAI documents a built-in Skill Creator invoked in Codex with `$skill-creator`; describe the workflow and trigger, then review and try the draft. | DOCUMENTED GUIDANCE | HIGH for the documentation | SRC-0111 | S63 Skill authoring tip | VERIFIED WITH SCOPE; target-account execution UNVERIFIED | HIGH | P1 |
+| CLM-0042 | Codex supports explicit Subagent delegation and reusable project custom-agent TOML files under `.codex/agents/`, requiring name, description and developer_instructions; parent permissions still apply. | DOCUMENTED PRODUCT / GUIDANCE | HIGH for the documentation | SRC-0112 | S68 role-authoring tip | VERIFIED WITH SCOPE; target-account/config loading/execution UNVERIFIED | HIGH | P1 |
+
+Asking Codex to draft those files is the educational authoring example, not
+an observed creation run or a special automatic agent-creator mechanism.
+No new Trial, loading result, effectiveness comparison or token/time gain.

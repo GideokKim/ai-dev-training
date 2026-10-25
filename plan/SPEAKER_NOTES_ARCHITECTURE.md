@@ -1,6 +1,20 @@
 # STEP 08 — Speaker Notes Architecture
 
-## 현재 ACT3→ACT4 연결 — DEC-0092 (2026-10-25)
+## 현재 Codex 제작 팁 — DEC-0093 (2026-10-25)
+
+현재115장·406분(6시간46분). 기존113장의 Story·장별 시간/Mode·근거를 유지하고
+이전 S62 뒤 새 S63에 Skill 제작 팁, 이전 S66 뒤 새 S68에 Custom Agent 제작 팁을
+각 Lecture2분씩 추가한다. 이전 S63–S66은 +1, 이전 S67 이후는 +2다.
+ACT 장수14/22/19/26/19/15, 시간43/64/82/96/81/40분. Mode164/73/88/21/28/32분.
+ACT4는 S82–S100의19장·81분, ACT5는 S101–S115의15장·40분을 그대로 유지한다.
+실무 적용 팁은19개이며 마지막 찾아보기 S112–S114의 기존 세 장에 모두 연결한다.
+공식 자료를 각색한 요청·문서 도식이며 실제 생성·실행·TRIAL-008 제작 이력이 아니다.
+12Templates/28Variants·19Notes 필드 유지. 새 Trial·Agent/Skill 설치·Demo 저장소·묶음 변경 없음.
+[현재 팁 설계](CODEX_AUTHORING_TIPS.md), [113→115 번호](SLIDE_ID_MIGRATION_115.md),
+[Slide Map](SLIDE_MAP.md). 아래 이전 판본의 번호·시간·검증은 이력으로 보존한다.
+Windows/교육장/제품·계정/실측 리허설은 UNVERIFIED다.
+
+## 이전 ACT3→ACT4 연결 — DEC-0092 (2026-10-25)
 
 113장·402분과 장별 시간/Mode·번호를 유지한다. S72–S73의 Harness 재사용 가치를
 보존하고, S74–S79에서 **사람의 반복 보정이 다음 작업의 체계 개선으로 돌아오지 않는 문제**를
@@ -289,16 +303,16 @@ Reflection, Q&A 또는 토론이 배정된 Slide에는 다음을 적는다.
 
 | Slide | Mode Split | 진행 조건 |
 |---|---|---|
-| S79 | Reflection 3분 · Q&A 5분 · Transition 2분 | 순서: Reflection → Q&A → Transition. 개인 성찰을 먼저 두고 Q&A를 받은 뒤, Transition을 마지막에 배치한다. 공유 답변을 요구하지 않는다. |
-| S98 | Case 7분 · Reflection 2분 · Q&A 7분 · Transition 4분 | 순서: Case → Reflection → Q&A → Transition. Case를 R1–R5 순서로 안내하고, 개인 성찰과 Q&A를 구분한 뒤 ACT 5로 전환한다. |
-| S113 | Q&A 4분 · Closing Transition 2분 | Q&A를 4분에 마감하고 2분 동안 승인된 핵심 모델로 종료한다. |
+| S81 | Reflection 3분 · Q&A 5분 · Transition 2분 | 순서: Reflection → Q&A → Transition. 개인 성찰을 먼저 두고 Q&A를 받은 뒤, Transition을 마지막에 배치한다. 공유 답변을 요구하지 않는다. |
+| S100 | Case 7분 · Reflection 2분 · Q&A 7분 · Transition 4분 | 순서: Case → Reflection → Q&A → Transition. Case를 R1–R5 순서로 안내하고, 개인 성찰과 Q&A를 구분한 뒤 ACT 5로 전환한다. |
+| S115 | Q&A 4분 · Closing Transition 2분 | Q&A를 4분에 마감하고 2분 동안 승인된 핵심 모델로 종료한다. |
 
 전체 Reflection 21분, Q&A 32분, Transition 28분은 각 Slide 배분과 함께
 보존한다. 다른 Mode를 침범해 토론을 늘리지 않는다.
 
 ## 8. Time Management
 
-`SLIDE_MAP.md`의 Slide별 Estimated Time과 Mode Split을 배타적인 402분
+`SLIDE_MAP.md`의 Slide별 Estimated Time과 Mode Split을 배타적인 406분
 수업 시간으로 사용한다. 각 Slide의 Mode 분 합계는 Slide 시간과 같고,
 Slide·Section·ACT의 합계도 승인된 값과 같아야 한다.
 
@@ -307,20 +321,20 @@ Slide·Section·ACT의 합계도 승인된 값과 같아야 한다.
 | ACT 0 | 14 | 43분 |
 | ACT 1 | 22 | 64분 |
 | ACT 2 | 19 | 82분 |
-| ACT 3 | 24 | 92분 |
+| ACT 3 | 26 | 96분 |
 | ACT 4 | 19 | 81분 |
 | ACT 5 | 15 | 40분 |
-| **합계** | **113** | **402분** |
+| **합계** | **115** | **406분** |
 
 | Mode | 승인 시간 |
 |---|---:|
-| Lecture | 160분 |
+| Lecture | 164분 |
 | Demo | 73분 |
 | Case | 88분 |
 | Reflection | 21분 |
 | Transition | 28분 |
 | Q&A | 32분 |
-| **합계** | **402분** |
+| **합계** | **406분** |
 
 운영 규칙:
 
@@ -333,7 +347,7 @@ Slide·Section·ACT의 합계도 승인된 값과 같아야 한다.
   그 경로를 안내한다. 다른 Slide의 시간으로 옮기지 않는다.
 - 수업 전 setup은 교육 시간 밖에서 준비한다. 화면에 보이는 setup은 해당
   Slide/Demo 배정 시간 안에 포함한다.
-- 휴식은 402분 외부다. Notes에서 ACT 또는 Mode 합계를 조정하지 않는다.
+- 휴식은 406분 외부다. Notes에서 ACT 또는 Mode 합계를 조정하지 않는다.
 
 ## 9. Evidence / Claim Rules
 
@@ -410,16 +424,16 @@ Trial을 대체하는 Evidence가 아니다. `HYBRID`는 fallback이 준비되�
 |---|---|---|
 | S23 | TRIAL-002 Code/Diff를 현재 Live 수정으로 오인하거나 원인·검증을 생략할 수 있다. | CAPTURED evidence임을 표시한다. 조사와 호출 경로 확인 뒤 `[x_start, x_end)` 계약을 지키는 한 줄 수정으로 이어진 사실만 설명한다. 전체 diff를 즉흥 재연하지 않는다. |
 | S53 | Task별 문서 접근을 완벽한 Routing 또는 성능 효과로 일반화할 수 있다. | TRIAL-005A/B 비교와 변동을 함께 둔다. `image-contracts.md` 접근 차이는 관찰 사실로, perfect routing·token saving·performance improvement는 미입증으로 말한다. |
-| S65 | Benchmark 값을 Harness의 단독 효과로 귀속하거나 측정 조건을 빠뜨릴 수 있다. | STATE-04 → STATE-04-PERF의 `image_statistics`: `15.468 → 10.769 ms/call`, `tracemalloc` peak `6,675,804 → 380 B`. Synthetic 1024×768 입력, 동일 fingerprint, CPython 3.9.6 / macOS 26.6.2 arm64, State별 7회 one-call sample, focused test 1/1, full suite 11/11, CLI smoke 및 benchmark/correctness guards를 보존한다. 이는 해당 code path와 환경의 bounded 결과이며 Harness의 단독 효과가 아니다. |
-| S79 | Q&A·성찰이 배정 시간을 넘거나 응답을 요구하는 방식으로 바뀔 수 있다. | Reflection 3 + Q&A 5 + Transition 2분을 지킨다. 개인 성찰은 선택이며, 공유·제출을 요구하지 않는다. |
-| S81 | 실제 Product 성공을 뒤의 Conceptual 사례와 합쳐 재해석할 수 있다. | STATE-04-PERF의 bounded success를 기준점으로 남기고 실제 stale failure라고 말하지 않는다. |
-| S82 | 가상 시작 상태가 Product Trial처럼 보일 수 있다. | `CONCEPTUAL`/DEMO-04A 표시를 유지한다. Project 변화·실패·원인·수정은 실제 `ai-dev-training-demo` history가 아니다. |
-| S92 | 과정의 Loop 모델을 제품의 자동 학습·자동 수정 기능으로 오해할 수 있다. | `Execution → Observation → Cause → System Change → Re-evaluation`을 Teaching Model로 설명한다. 자동화 또는 반복 그 자체를 Loop 성과로 주장하지 않는다. |
-| S93–S94 | 교육 제작 Meta 기록을 Product Demo나 Conceptual 사례의 후속 결과로 혼합할 수 있다. | `TRIAL-006 → DEC-0016 → TRIAL-007/008`의 OBSERVED_META 경로를 별도 표시한다. PARTIAL attribution, TRIAL-007 report/stderr 차이, 미측정 Trial-quality effect를 숨기지 않는다. |
-| S94 | 보조 benchmark 수치를 성과 headline 또는 Prompt/Skill 인과로 확대할 수 있다. | `144.2 → 33.5 ms/call`은 작은 보조 Evidence로만 사용한다. `resize_nearest`, TRIAL-006 disposable worktree, synthetic 640×480 grayscale (`max_value=4095`) → 960×720, CPython 3.9.6 / macOS 26.6.2 arm64, 7회 one-call sample, input/output SHA-256 guard와 one before/after pair를 함께 둔다. Global Skills 등 ambient influence 때문에 Prompt-only attribution은 PARTIAL이며 Prompt·Skill·Harness·hook·MCP에 귀속하지 않는다. |
-| S95–S93 | 평가·보고 변경을 완전한 환경 통제나 검증 품질 향상으로 부를 수 있다. | DEC-0016은 평가·보고 정책 변경이다. 후속 적용은 부분적이며, TRIAL-007 MCP report/stderr 불일치와 quality 효과 미측정을 명시한다. |
-| S97 | Meta Loop가 Product code 또는 `graypipe-performance` Skill을 수정했다고 오해할 수 있다. | 바뀐 것은 Training Production의 Trial 평가·보고 방식이다. Product State 변화, DEMO-04A의 인과, 완전한 개선은 주장하지 않는다. |
-| S98 | 20분 운영을 리허설 완료로 오해하거나 구체적 C++/환경 예시를 현재 사실처럼 말할 수 있다. | 정적 Slide와 speaker-led highlighting을 기본으로 쓴다. Case 7 + Reflection 2 + Q&A 7 + Transition 4분을 유지한다. 20분 timed rehearsal은 미수행이며 Windows/target-screen은 미검증이다. |
+| S66 | Benchmark 값을 Harness의 단독 효과로 귀속하거나 측정 조건을 빠뜨릴 수 있다. | STATE-04 → STATE-04-PERF의 `image_statistics`: `15.468 → 10.769 ms/call`, `tracemalloc` peak `6,675,804 → 380 B`. Synthetic 1024×768 입력, 동일 fingerprint, CPython 3.9.6 / macOS 26.6.2 arm64, State별 7회 one-call sample, focused test 1/1, full suite 11/11, CLI smoke 및 benchmark/correctness guards를 보존한다. 이는 해당 code path와 환경의 bounded 결과이며 Harness의 단독 효과가 아니다. |
+| S81 | Q&A·성찰이 배정 시간을 넘거나 응답을 요구하는 방식으로 바뀔 수 있다. | Reflection 3 + Q&A 5 + Transition 2분을 지킨다. 개인 성찰은 선택이며, 공유·제출을 요구하지 않는다. |
+| S83 | 실제 Product 성공을 뒤의 Conceptual 사례와 합쳐 재해석할 수 있다. | STATE-04-PERF의 bounded success를 기준점으로 남기고 실제 stale failure라고 말하지 않는다. |
+| S84 | 가상 시작 상태가 Product Trial처럼 보일 수 있다. | `CONCEPTUAL`/DEMO-04A 표시를 유지한다. Project 변화·실패·원인·수정은 실제 `ai-dev-training-demo` history가 아니다. |
+| S94 | 과정의 Loop 모델을 제품의 자동 학습·자동 수정 기능으로 오해할 수 있다. | `Execution → Observation → Cause → System Change → Re-evaluation`을 Teaching Model로 설명한다. 자동화 또는 반복 그 자체를 Loop 성과로 주장하지 않는다. |
+| S95–S96 | 교육 제작 Meta 기록을 Product Demo나 Conceptual 사례의 후속 결과로 혼합할 수 있다. | `TRIAL-006 → DEC-0016 → TRIAL-007/008`의 OBSERVED_META 경로를 별도 표시한다. PARTIAL attribution, TRIAL-007 report/stderr 차이, 미측정 Trial-quality effect를 숨기지 않는다. |
+| S96 | 보조 benchmark 수치를 성과 headline 또는 Prompt/Skill 인과로 확대할 수 있다. | `144.2 → 33.5 ms/call`은 작은 보조 Evidence로만 사용한다. `resize_nearest`, TRIAL-006 disposable worktree, synthetic 640×480 grayscale (`max_value=4095`) → 960×720, CPython 3.9.6 / macOS 26.6.2 arm64, 7회 one-call sample, input/output SHA-256 guard와 one before/after pair를 함께 둔다. Global Skills 등 ambient influence 때문에 Prompt-only attribution은 PARTIAL이며 Prompt·Skill·Harness·hook·MCP에 귀속하지 않는다. |
+| S97–S95 | 평가·보고 변경을 완전한 환경 통제나 검증 품질 향상으로 부를 수 있다. | DEC-0016은 평가·보고 정책 변경이다. 후속 적용은 부분적이며, TRIAL-007 MCP report/stderr 불일치와 quality 효과 미측정을 명시한다. |
+| S99 | Meta Loop가 Product code 또는 `graypipe-performance` Skill을 수정했다고 오해할 수 있다. | 바뀐 것은 Training Production의 Trial 평가·보고 방식이다. Product State 변화, DEMO-04A의 인과, 완전한 개선은 주장하지 않는다. |
+| S100 | 20분 운영을 리허설 완료로 오해하거나 구체적 C++/환경 예시를 현재 사실처럼 말할 수 있다. | 정적 Slide와 speaker-led highlighting을 기본으로 쓴다. Case 7 + Reflection 2 + Q&A 7 + Transition 4분을 유지한다. 20분 timed rehearsal은 미수행이며 Windows/target-screen은 미검증이다. |
 
 ## 13. Validation Rules
 
@@ -428,7 +442,7 @@ Speaker Notes Pilot 및 이후 Notes 검토에서 다음을 확인한다.
 1. **Traceability:** Slide ID, 제목, ACT/Section, Primary Message, Evidence,
    Transition이 `SLIDE_MAP.md` 및 연결된 Story Beat/Claim과 일치한다.
 2. **Timing:** Slide별 Mode 합계 = Allocated Time. Section/ACT 합계 및 전체
-   Mode/402분 합계가 승인값과 일치한다. Reflection, Q&A, Transition을 다른
+   Mode/406분 합계가 승인값과 일치한다. Reflection, Q&A, Transition을 다른
    Mode에 중복 계산하지 않는다.
 3. **Evidence:** 명시한 State, Trial, Decision, Research source가 존재하고,
    관찰과 해석, 실제·개념·모델 경계가 유지된다. 근거 미확인은 `TBD`다.
@@ -455,7 +469,7 @@ Speaker Notes Pilot 및 이후 Notes 검토에서 다음을 확인한다.
   capture/recording 여부는 해당 Runbook에서 확인해야 한다.
 - Windows PowerPoint, 대상 글꼴, 교육장 화면/투사 검증은
   `VISUAL_TEMPLATE_FREEZE.md`의 최종 배포 Gate로 남아 있다.
-- S98 20분 timed rehearsal은 아직 수행되지 않았다.
+- S100 20분 timed rehearsal은 아직 수행되지 않았다.
 - Conditional/Provisional Template 및 Variant는 첫 실제 적용에서 각자의
   시각 Gate를 통과해야 한다.
 - 다음 단계에서 Pilot Slide와 Notes 본문 작성 범위를 정해야 한다. 이 문서는
@@ -467,7 +481,7 @@ Speaker Notes Pilot 및 이후 Notes 검토에서 다음을 확인한다.
 
 이 상태는 schema, flow, timing, evidence boundary 및 review gate를 사용해
 제한된 Pilot Notes를 검토할 준비가 되었음을 뜻한다. 82장 완성 Notes, PPT
-제작, 현재 제품 동작, Windows 호환성, Live Demo 또는 S90 rehearsal 완료를
+제작, 현재 제품 동작, Windows 호환성, Live Demo 또는 S92 rehearsal 완료를
 뜻하지 않는다.
 
 ## 16. Updated Documents

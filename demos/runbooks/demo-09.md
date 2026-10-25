@@ -2,7 +2,7 @@
 
 ## Current operation — DEC-0080
 
-S70 briefly recaps actual roles; S71 emphasizes execution conditions and human evidence/result review rather than replaying the inputs. Preserve actual/teaching-model separation and Demo3+2, with S71 Lecture4 separately allocated.
+S72 briefly recaps actual roles; S73 emphasizes execution conditions and human evidence/result review rather than replaying the inputs. Preserve actual/teaching-model separation and Demo3+2, with S73 Lecture4 separately allocated.
 
 Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
@@ -10,12 +10,12 @@ See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
 ## Current ACT3 operation — DEC-0076
 
-S70→S71: S69의 지식 출처를 회수한 뒤 S70에서 목표·Context·Skill을 한 Agent의 밝기 통계 조사·변경에 적용하고 테스트·benchmark를 판단 근거로 연결한다. 세 입력은 순차 단계가 아니다. S71는 같은 배치를 전체 Harness로 묶고 실행 환경을 Agent·검증 도구 양쪽에 연결한다. 결과를 사람이 검토하며 교육용 모델과 실제 대응 범위를 구분한다. Demo3+2분과 S71 Lecture4분을 원래 배분대로 구분한다.
+S72→S73: S71의 지식 출처를 회수한 뒤 S72에서 목표·Context·Skill을 한 Agent의 밝기 통계 조사·변경에 적용하고 테스트·benchmark를 판단 근거로 연결한다. 세 입력은 순차 단계가 아니다. S73는 같은 배치를 전체 Harness로 묶고 실행 환경을 Agent·검증 도구 양쪽에 연결한다. 결과를 사람이 검토하며 교육용 모델과 실제 대응 범위를 구분한다. Demo3+2분과 S73 Lecture4분을 원래 배분대로 구분한다.
 실제 근거·ID·시간·기존 선택은 보존한다. 최종 로컬 정적 파일 식별자는
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0092 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0093 /115slides/406minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_115.md. Only new S63/S68 add Lecture, no Demo time. ACT4 remains19pages/81minutes; final tip indexes S112-S114. Windows/product/account/room/timed rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — supporting visual/captured record
@@ -84,9 +84,9 @@ Evidence limit: No general performance gain or claim that every Harness componen
 
 ## Estimated Time
 
-5m: S70 Demo 3m + S71 Demo 2m.
+5m: S72 Demo 3m + S73 Demo 2m.
 
-Phase plan: S70 Demo3m (actual-task return0.5 / input roles1 / verification evidence1 / scope-and-handoff0.5) → S71 Demo2m (bounded configuration correspondence1.5 / external-condition question0.5). S71 Lecture4m focuses on environment and human review.
+Phase plan: S72 Demo3m (actual-task return0.5 / input roles1 / verification evidence1 / scope-and-handoff0.5) → S73 Demo2m (bounded configuration correspondence1.5 / external-condition question0.5). S73 Lecture4m focuses on environment and human review.
 
 Time Risk: LOW
 
@@ -108,9 +108,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S70.png`, `production/preview/full/S71.png`
+Default is the offline static presentation. Open: `production/preview/full/S72.png`, `production/preview/full/S73.png`
 
-Use S70–S71 PNGs; these are static summaries, not a live validation result.
+Use S72–S73 PNGs; these are static summaries, not a live validation result.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -124,9 +124,9 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S71 → S72/S73: retain the value of a reusable foundation and project bindings.
-S74 recalls the bounded success; S75-S77 illustrate repeated human task
-corrections without updating the shared method. S78/S79 open evidence and
+S73 → S74/S75: retain the value of a reusable foundation and project bindings.
+S76 recalls the bounded success; S77-S79 illustrate repeated human task
+corrections without updating the shared method. S80/S81 open evidence and
 review/recheck questions for ACT4. No added Demo time or actual failure.
 
 ## Evidence

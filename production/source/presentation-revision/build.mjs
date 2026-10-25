@@ -10,6 +10,7 @@ import {priorityFactories,addModuleFooter} from './legacy-priority.mjs';
 import {promptTechniqueFactories} from './prompt-techniques.mjs';
 import {actTitleFactories} from './act-titles.mjs';
 import {migrate108Factories,harnessReuseFactories} from './harness-reuse.mjs';
+import {migrate113Factories,codexAuthoringTipFactories} from './codex-authoring-tips.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
@@ -32,7 +33,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d{2,3}) — ([\s\S]*?)(?=^#### S\d{2,3}|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==113)throw new Error('Expected 113 source records.');
+if(Object.keys(map).length!==115)throw new Error('Expected 115 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -66,12 +67,13 @@ const tipConfig=JSON.parse(await fs.readFile(path.join(here,'practical-tips.json
 const titleConfig=JSON.parse(await fs.readFile(path.join(here,'act-titles.json'),'utf8'));
 // Historical source factories keep the99-to108 stage. DEC-0091 then replaces
 // two source pages with seven and preserves every ACT4 page and allocation.
-const current=migrate108Factories(migrate99Factories(factories,tipConfig));
+const previous={...migrate108Factories(migrate99Factories(factories,tipConfig)),...harnessReuseFactories()};
+const current=migrate113Factories(previous);
 for(const id of Object.keys(factories))delete factories[id];
-Object.assign(factories,current,harnessReuseFactories(),practicalTipIndexFactories(tipConfig,H),actTitleFactories(titleConfig,H));
+Object.assign(factories,current,codexAuthoringTipFactories(),practicalTipIndexFactories(tipConfig,H),actTitleFactories(titleConfig,H));
 const tipRecords=Object.fromEntries(tipConfig.tips.map(t=>[t.slideId,t]));
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
-if(moduleMap.slides.length!==113)throw new Error('Expected 113 legacy module mappings.');
+if(moduleMap.slides.length!==115)throw new Error('Expected 115 legacy module mappings.');
 const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));
 const notes={};
 for(let act=0;act<6;act++){
@@ -105,8 +107,8 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>id==='S65'?i+1:0).filter(Boolean);
-  const tableOwners=deck.ids.map((id,i)=>['S53','S62','S90'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>id==='S66'?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>['S53','S62','S92'].includes(id)?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,

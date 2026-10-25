@@ -3,13 +3,13 @@
 ## Current ACT3 operation — DEC-0070
 
 S61→S62: S61의 왼쪽 목록 발췌, 가운데 실제 호출과 요청 요약, 오른쪽 실행 trace의 이름·경로·전체 본문 순으로 짚는다. S62에서 본문 포함과 수행 근거를 구분한 뒤, 세 행의 지침 번역을 실제 출력·변경 전 메시지·최종 diff에 대응한다. 계획 지침의 조건부 표현과 관찰된 횟수·테스트 범위를 유지한다. 밝기 통계는 세 번째 Task이며 다른 Task와 성능 우열을 비교하지 않는다. 기본은 정적 기록/PNG이고 현재 Live/Hybrid는 미활성이다.
-S63의 Lecture3분은 재사용 절차와 이번 근거·질문·채택/보류 경로를 설명한다. 이 경로는 교육용이며 실제 결과는 S64에서 회수한다. DEMO-03의8 Demo분에 추가하지 않는다.
-S64의 Case5분은 밝기 통계 작업, 기존 임시 리스트 도식, 두 후보와 제외/선택 순으로 읽는다. S65의 별도 Case5분은 선택한 변경을 회수한 뒤 실행시간·Python 할당 피크·동작 검증을 세 영역으로 확인한다. 후보 비교와 formal 제품 상태 측정을 구분하며 Demo 시간은 늘리지 않는다.
+S64의 Lecture3분은 재사용 절차와 이번 근거·질문·채택/보류 경로를 설명한다. 이 경로는 교육용이며 실제 결과는 S65에서 회수한다. DEMO-03의8 Demo분에 추가하지 않는다.
+S65의 Case5분은 밝기 통계 작업, 기존 임시 리스트 도식, 두 후보와 제외/선택 순으로 읽는다. S66의 별도 Case5분은 선택한 변경을 회수한 뒤 실행시간·Python 할당 피크·동작 검증을 세 영역으로 확인한다. 후보 비교와 formal 제품 상태 측정을 구분하며 Demo 시간은 늘리지 않는다.
 실제 근거·ID·시간·기존 선택은 보존한다. 최종 로컬 정적 파일 식별자는
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0091 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0093 /115slides/406minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_115.md. Only new S63/S68 add Lecture, no Demo time. ACT4 remains19pages/81minutes; final tip indexes S112-S114. Windows/product/account/room/timed rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — Anchor candidate
@@ -78,7 +78,7 @@ Evidence limit: No Desktop-wide support, Skill superiority, causal performance g
 
 ## Estimated Time
 
-8m: S61 Demo 5m + S62 Demo 3m. S62 Case and S64–S62 are separate allocations.
+8m: S61 Demo 5m + S62 Demo 3m. S62 Case and S65–S62 are separate allocations.
 
 Phase plan: S61 5m → S62 Demo portion 3m.
 
@@ -108,7 +108,7 @@ Show S61–S62 static summaries; do not show long Prompt text or fake terminal U
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/S57_S58_TASK_RESULT_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0070 current final-package slide renders; S61/S58 are byte-preserved from DEC-0067. S64/S61 change only separate Case support pages. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Captured Alternative provenance: DEC-0070 current final-package slide renders; S61/S58 are byte-preserved from DEC-0067. S65/S61 change only separate Case support pages. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -118,7 +118,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S62 → S63: explain why the reusable procedure does not contain task answers.
+S62 → S64: explain why the reusable procedure does not contain task answers.
 
 ## Evidence
 

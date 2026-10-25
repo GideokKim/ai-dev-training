@@ -1,5 +1,7 @@
 # AI 개발자 교육
 
+현재 기준: **DEC-0093 /115장·406분(6시간46분)**. Codex Skill 제작 팁 S63과 조사 Agent 제작 팁 S68을 추가했다. 기존113장의 내용·배정·근거와 ACT4의19장·81분은 보존한다. [팁 설계](plan/CODEX_AUTHORING_TIPS.md), [113→115 번호](plan/SLIDE_ID_MIGRATION_115.md), [수정 결과](production/evaluation/CODEX_AUTHORING_TIPS.md), [최신 전달 안내](production/evaluation/FINAL_HANDOFF.md)를 따른다. 아래 과거 번호·평가는 해당 판본의 이력이다. 제품·계정/Windows/교육장/실측 리허설은 UNVERIFIED이며 발표 묶음·Demo 저장소는 변경하지 않는다.
+
 현재 기준: **DEC-0091 /113장·402분(6시간42분)**. Harness 재사용 장점과 실행 조건을
 S72–S78로 나누고, 이전 독립 C++ 전이 장을 삭제했다. ACT4의19장·81분은 보존했다.
 [현재 설계](plan/HARNESS_REUSE_AND_EXECUTION_CONTEXT.md), [번호 대조](plan/SLIDE_ID_MIGRATION_113.md),
@@ -51,7 +53,7 @@ S85는 GPU 변화의 가상 적용 판단을 닫고 전체 회수는 S86에 넘�
 
 ## 목적
 
-개발자 대상 ChatGPT & Codex 사내 교육자료를 제작한다. 현행 교육시간은402분이다.
+개발자 대상 ChatGPT & Codex 사내 교육자료를 제작한다. 현행 교육시간은406분이다.
 기획 기준은 [MASTER_PLAN](plan/MASTER_PLAN.md), 변경 이력은
 [DECISIONS](plan/DECISIONS.md)를 따른다.
 

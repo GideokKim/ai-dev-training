@@ -2,13 +2,13 @@
 
 ## Current operation — DEC-0080
 
-S85 shows records/targets to inspect, S86 distinguishes scenario information from cause hypothesis, and S87 compares responses only after assumed cause confirmation. This is redistributed source material. S85 Demo2+S86 Demo1 remains3minutes; S87 Case2 adds no Demo slot. No execution or cause confirmation is observed.
+S87 shows records/targets to inspect, S88 distinguishes scenario information from cause hypothesis, and S89 compares responses only after assumed cause confirmation. This is redistributed source material. S87 Demo2+S88 Demo1 remains3minutes; S89 Case2 adds no Demo slot. No execution or cause confirmation is observed.
 
 Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0091 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0093 /115slides/406minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_115.md. Only new S63/S68 add Lecture, no Demo time. ACT4 remains19pages/81minutes; final tip indexes S112-S114. Windows/product/account/room/timed rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — conceptual synthesis
@@ -25,7 +25,7 @@ Delivery Mode: VISUAL / CAPTURED conceptual synthesis
 
 ## Purpose
 
-Inspect evidence before selecting the cause-dependent response. Preserve the Prompt/global-rule/Workflow alternatives on S87 as Case context.
+Inspect evidence before selecting the cause-dependent response. Preserve the Prompt/global-rule/Workflow alternatives on S89 as Case context.
 
 ## Audience Question
 
@@ -59,7 +59,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-S85 inspection targets are not execution records. S86 scenario facts do not confirm a cause. S87 response selection explicitly assumes confirmed Workflow cause. Make no real diff.
+S87 inspection targets are not execution records. S88 scenario facts do not confirm a cause. S89 response selection explicitly assumes confirmed Workflow cause. Make no real diff.
 
 ## Success Criteria
 
@@ -67,7 +67,7 @@ Explain how evidence bounds the repair layer.
 
 ## Expected Output
 
-Static inspection/information/hypothesis visuals. The existing three response alternatives follow on S87 Case2, outside the3Demo minutes.
+Static inspection/information/hypothesis visuals. The existing three response alternatives follow on S89 Case2, outside the3Demo minutes.
 
 ## Verification
 
@@ -77,9 +77,9 @@ Evidence limit: No actual Skill repair, observed failure cause, or executed regr
 
 ## Estimated Time
 
-3m: S85 Demo 2m + S86 Demo 1m.
+3m: S87 Demo 2m + S88 Demo 1m.
 
-Phase plan: S85 2m → S86 Demo portion 1m.
+Phase plan: S87 2m → S88 Demo portion 1m.
 
 Time Risk: LOW
 
@@ -101,9 +101,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S85.png`, `production/preview/full/S86.png`
+Default is the offline static presentation. Open: `production/preview/full/S87.png`, `production/preview/full/S88.png`
 
-Use S85–S86 PNGs and keep CONCEPTUAL labels visible.
+Use S87–S88 PNGs and keep CONCEPTUAL labels visible.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -117,11 +117,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S86 → S87: after information/hypothesis separation, explicitly assume cause confirmation to compare response scope.
+S88 → S89: after information/hypothesis separation, explicitly assume cause confirmation to compare response scope.
 
 ## Evidence
 
-DEC-0021/0080; current Slide Map S85–S77. Stable Beat IDs are mapped by their existing meanings; no Product State is added.
+DEC-0021/0080; current Slide Map S87–S77. Stable Beat IDs are mapped by their existing meanings; no Product State is added.
 
 ## Do Not Claim
 

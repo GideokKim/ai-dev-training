@@ -2,7 +2,7 @@
 
 ## Current operation — DEC-0081
 
-S92 distinguishes execution from observation and shows evidence passed to the next judgment. Human review of source/scope is explicit. Keep Lecture9 and VISUAL Demo2: R1/R2 0–2, R3 2–4:30, R4 4:30–6:30, R5 6:30–9, one static path9–11. Do not replay S85–S91; then open the actual reporting case on S83. No native animation or executed loop.
+S94 distinguishes execution from observation and shows evidence passed to the next judgment. Human review of source/scope is explicit. Keep Lecture9 and VISUAL Demo2: R1/R2 0–2, R3 2–4:30, R4 4:30–6:30, R5 6:30–9, one static path9–11. Do not replay S87–S93; then open the actual reporting case on S83. No native animation or executed loop.
 
 Current local package/render/Notes/path validation is complete for DEC-0081.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
@@ -16,7 +16,7 @@ Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0091 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0093 /115slides/406minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_115.md. Only new S63/S68 add Lecture, no Demo time. ACT4 remains19pages/81minutes; final tip indexes S112-S114. Windows/product/account/room/timed rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED TEACHING MODEL visual
@@ -75,7 +75,7 @@ Explain the two loops and the developer decision boundary.
 
 ## Expected Output
 
-S92 teaching model only.
+S94 teaching model only.
 
 ## Verification
 
@@ -87,7 +87,7 @@ Evidence limit: No self-learning, automatic improvement, infinite loop, or guara
 
 2m visual allocation; Lecture 9m is separate.
 
-Phase plan: S92 Demo 2m.
+Phase plan: S94 Demo 2m.
 
 Time Risk: LOW
 
@@ -109,9 +109,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S92.png`
+Default is the offline static presentation. Open: `production/preview/full/S94.png`
 
-Use S92.png; do not reuse S93 Observed Meta frame.
+Use S92.png; do not reuse S95 Observed Meta frame.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -125,7 +125,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S92 → S93: switch explicitly from Teaching Model to Observed Meta evidence.
+S94 → S95: switch explicitly from Teaching Model to Observed Meta evidence.
 
 ## Evidence
 

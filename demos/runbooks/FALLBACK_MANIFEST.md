@@ -1,26 +1,23 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0092 local static-file inventory only (2026-10-25).
+Status: READY — DEC-0093 local static-file inventory only (2026-10-25).
 Windows/product/account/room/timed rehearsal: UNVERIFIED.
 
 ## Current source identities
 
 - Source: production/AI_Dev_Training_Full.pptx
-- Source SHA-256: 0c7f4fb164cb41b420d05bd718858f5c9124dce5a7931bcdfb41ad79a174b727
-- Full Notes SHA-256: 1dca39ef3ca98701cc601c1646222a5f997bab939e89f6088cf095937ce9d54c
-- Full montage SHA-256: fccd9d86fe9ffd4ac5c266330074de7cc0958153f2a5d5e488b7c9739daa7af3
-- Current Full:113slides/402minutes; unchanged Demo inventory:34PNGs.
-- Current ACT4:19pages/81minutes, original Mode/roles/evidence preserved.
-- Current IDs remain those of SLIDE_ID_MIGRATION_113.md. DEC-0092 changes
-  S74-S79 without renumbering. S75-S77 are a separate conceptual correction
-  scenario, excluded from this unchanged observed-Demo inventory.
-- No new Trial, additional Demo minute or current-product approval.
-- New local static explanatory pages are available through their Notes paths,
-  separately from this unchanged34-file Demo inventory.
+- Source SHA-256: c8cdd709e78d36d0be235d6c101c2582e8779f65e4d988423f21cd171e70682d
+- Full Notes SHA-256: 5664f7b22fa36824547fb735cbb63ec99b035dfac25a3da8ee8be4349e599596
+- Full montage SHA-256: 2f27a8585058d66c66c80b6a29d85c479ad03f68adc059a2b1d7428fdf74535b
+- Current Full:115slides/406minutes.34retained Demo fallback roles.
+- Current ACT4:S82-S100,19pages/81minutes; original budgets/evidence retained.
+- Current IDs follow SLIDE_ID_MIGRATION_115.md. New S63/S68 are Lecture tips,
+  excluded from this observed-Demo inventory. They add no Trial or Live approval.
+- New tip PNGs are static educational examples, not raw creation/execution captures.
 - Native fonts Malgun Gothic/Consolas; local aliases AppleSDGothicNeo/Menlo.
 - Final package/Notes/ACT/PNG parity and34paths/hashes checked locally.
-- Earlier provenance below retains its dated edition. No presenter bundle.
-- [Result](../../production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md).
+- Earlier provenance retains its dated edition. No presenter bundle.
+- [Result](../../production/evaluation/CODEX_AUTHORING_TIPS.md).
 
 ## Historical provenance — DEC-0086 and earlier
 
@@ -171,17 +168,17 @@ minutes, Trial, actual integration result or live approval. [Current result](../
 - `DEMO-01`: `production/preview/full/S05.png`, `production/preview/full/S06.png`, `production/preview/full/S07.png`, `production/preview/full/S08.png`, `production/preview/full/S09.png`
 - `DEMO-02`: `production/preview/full/S38.png`, `production/preview/full/S39.png`, `production/preview/full/S40.png`
 - `DEMO-03`: `production/preview/full/S61.png`, `production/preview/full/S62.png`
-- `DEMO-04A`: `production/preview/full/S82.png`, `production/preview/full/S83.png`
-- `DEMO-04B`: `production/preview/full/S93.png`, `production/preview/full/S94.png`, `production/preview/full/S95.png`
+- `DEMO-04A`: `production/preview/full/S84.png`, `production/preview/full/S85.png`
+- `DEMO-04B`: `production/preview/full/S95.png`, `production/preview/full/S96.png`, `production/preview/full/S97.png`
 - `DEMO-05`: `production/preview/full/S23.png`, `production/preview/full/S24.png`
 - `DEMO-06`: `production/preview/full/S43.png`, `production/preview/full/S49.png`, `production/preview/full/S51.png`, `production/preview/full/S52.png`, `production/preview/full/S53.png`
-- `DEMO-07`: `production/preview/full/S66.png`, `production/preview/full/S67.png`
-- `DEMO-08`: `production/preview/full/S68.png`, `production/preview/full/S69.png`
-- `DEMO-09`: `production/preview/full/S70.png`, `production/preview/full/S71.png`
-- `DEMO-10`: `production/preview/full/S90.png`
-- `DEMO-11`: `production/preview/full/S85.png`, `production/preview/full/S86.png`
-- `DEMO-12`: `production/preview/full/S100.png`, `production/preview/full/S101.png`
-- `LOOP-VISUAL`: `production/preview/full/S92.png`
+- `DEMO-07`: `production/preview/full/S67.png`, `production/preview/full/S69.png`
+- `DEMO-08`: `production/preview/full/S70.png`, `production/preview/full/S71.png`
+- `DEMO-09`: `production/preview/full/S72.png`, `production/preview/full/S73.png`
+- `DEMO-10`: `production/preview/full/S92.png`
+- `DEMO-11`: `production/preview/full/S87.png`, `production/preview/full/S88.png`
+- `DEMO-12`: `production/preview/full/S102.png`, `production/preview/full/S103.png`
+- `LOOP-VISUAL`: `production/preview/full/S94.png`
 
 ## Current static-file identities
 
@@ -204,20 +201,20 @@ minutes, Trial, actual integration result or live approval. [Current result](../
 | S53 | `production/preview/full/S53.png` |1920×1080| `f39edc56376b8e45fffa06a3459d15e7166122d1ef53dda0fd4dbb34879a8216` |
 | S61 | `production/preview/full/S61.png` |1920×1080| `5b4d8fa934aac097bba9ffe0c8a70bbcd11f38ba87cf1358c62405bffdaa2c64` |
 | S62 | `production/preview/full/S62.png` |1920×1080| `ba4f39dc14cbff585c7028a0cb69f9db01516e7339b350ed4b799c40199950c4` |
-| S66 | `production/preview/full/S66.png` |1920×1080| `97e5e90c327aa0d7fc9733f1eda474f0629afc74de57f57e4faec23668b4dac3` |
-| S67 | `production/preview/full/S67.png` |1920×1080| `ab6942486edfaf62bfdcb8c9ad5dd767168bf8fbbd60617a8973eda1eafaf1f3` |
-| S68 | `production/preview/full/S68.png` |1920×1080| `0e3bd61788ae4fd2f5530bc483a7c39c39769977fbfe915168f4df504d1ab1e7` |
-| S69 | `production/preview/full/S69.png` |1920×1080| `b11ecbf5b3dd0fbfdbe99c1aa3570e74ad94328f2988d2e49a5fc0b61791a5e2` |
-| S70 | `production/preview/full/S70.png` |1920×1080| `9eed5c7fee9c66060d0dde4b9285aa9b1c7f2664b2fec750b827a7c9f94210c7` |
-| S71 | `production/preview/full/S71.png` |1920×1080| `2e586f334e638bac6e8b972a58c33f06d3db9a208872a7480a42ea4d0144a951` |
-| S82 | `production/preview/full/S82.png` |1920×1080| `5787f4c0e2735049a46be720177e4034f5fa2d57a44581e576a30f637bf067e8` |
-| S83 | `production/preview/full/S83.png` |1920×1080| `d72a344ff78b387760d4871fdae1d82c611bd0e799564694693a9fbf8ad219a6` |
-| S85 | `production/preview/full/S85.png` |1920×1080| `c984f775ab5987090c73ad0b9fda99aa5ad86bc5a451bc14157d316b21383838` |
-| S86 | `production/preview/full/S86.png` |1920×1080| `6c6b0061b7ba484a29e2647f20572de1c18f062bdc6267f55fdea4ef1738581d` |
-| S90 | `production/preview/full/S90.png` |1920×1080| `4528a269334d4f2a7e0a318635780c301ec019c972c6086e934891fd180525fc` |
-| S92 | `production/preview/full/S92.png` |1920×1080| `6f4e9437e9af2d6ff42bd8b510dd96f8769dcc98da4e4f67fed00bcd4a28227b` |
-| S93 | `production/preview/full/S93.png` |1920×1080| `1182c12793d068f1216f87f386870d1b9dd01067399bfd36ec9210cf80e14939` |
-| S94 | `production/preview/full/S94.png` |1920×1080| `6cbf9c33db7aa96e9f9c3aa0b7a912f2d2b2ac3b92b607f49ac7fb94631203a1` |
-| S95 | `production/preview/full/S95.png` |1920×1080| `d50933d428ac751adab61e8393e41af8f15f0962b627a2621534f603e5c6421d` |
-| S100 | `production/preview/full/S100.png` |1920×1080| `bb2808c60a3260c05c8a2254cfa0bb4cadd56053227c67fb0fcd21d256d9b1d0` |
-| S101 | `production/preview/full/S101.png` |1920×1080| `bce943cf858fa67933b8af9631847bae3c076671963d3018a6ec95b20ae5ff5b` |
+| S67 | `production/preview/full/S67.png` |1920×1080| `e5b3a39a642b5dd0ac43f89b7b71dd6c76ca0c14f75f0647175113d99b8eceb4` |
+| S69 | `production/preview/full/S69.png` |1920×1080| `06e10166f57803b9e0f9a6aac1fb5071403d4d255be9427252d890476e6da0ce` |
+| S70 | `production/preview/full/S70.png` |1920×1080| `434fed94db2eaa6472dc021f5db0adbb992ef8c5266ec5557f2cd0526a84eec0` |
+| S71 | `production/preview/full/S71.png` |1920×1080| `42c89a546c99d4c191629ac5b5a2547f0c1db6d3f2234e7aead3d16e0ae015c9` |
+| S72 | `production/preview/full/S72.png` |1920×1080| `7e75315777cc19d91c3523d6ab4808df53159528b272c3333ef7a73609305a6e` |
+| S73 | `production/preview/full/S73.png` |1920×1080| `80798175f34b9f50cd5a70609d1437dd1d24448015904400ac212866441979c5` |
+| S84 | `production/preview/full/S84.png` |1920×1080| `d942b00fbefebeec7fc05d9d34de6fef338b6f58f304385982567b20aef98965` |
+| S85 | `production/preview/full/S85.png` |1920×1080| `b168fd1c2aeef19a75828f78f81cf0bc281524ea5553a99801674cab71e19827` |
+| S87 | `production/preview/full/S87.png` |1920×1080| `4d869feb0ef85475ca7ceea929c69f53ca6f972d20b048e4940807b741d40763` |
+| S88 | `production/preview/full/S88.png` |1920×1080| `7c732dba1cec4c4fd4947d2498635ddb0dd6c6b3a61c7159b238a18cb7b460bf` |
+| S92 | `production/preview/full/S92.png` |1920×1080| `fcb3b34a9c1003be3c7ea0cc88c9e1f3065c74521fe0c0848351971ab32571fb` |
+| S94 | `production/preview/full/S94.png` |1920×1080| `88c7ffdfe395c85cadfa1a907d3f5077de7d41772fd80bdc98d5d98aa487e7a3` |
+| S95 | `production/preview/full/S95.png` |1920×1080| `72918408f0552f9c6db4423489829dc6af3df8cd7af31400f27a11b6f5f55a7b` |
+| S96 | `production/preview/full/S96.png` |1920×1080| `453c505c436202fa15e96263e2cdee8293a6cd78ec19fd02fdb83e891e2a8a4d` |
+| S97 | `production/preview/full/S97.png` |1920×1080| `0b18811def0623518717e74a500f416154ddfd98217274b5e15a399eb5f0cdc9` |
+| S102 | `production/preview/full/S102.png` |1920×1080| `1780c65a83d831dc9e3058ba244e59348f9fec5c347754cff73c859460033c9e` |
+| S103 | `production/preview/full/S103.png` |1920×1080| `2be4d8653249210c34de845b88ff6a228c1210e1fcffd9e281ba0f06946d88a9` |
