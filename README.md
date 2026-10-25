@@ -1,5 +1,12 @@
 # AI 개발자 교육
 
+현재 기준은 **DEC-0090 /108장·396분(6시간36분)**이다. 각 ACT 시작에 승인된
+제목·부제1장을 추가하고 기존102장의 내용·배정·근거를 보존했다. 제목은 Transition
+1분씩이며 마지막 팁 요약은 S105–S107, 마무리는 S108이다.
+[제목 기준](plan/ACT_TITLES.md), [102→108 번호](plan/SLIDE_ID_MIGRATION_108.md),
+[최신 결과](production/evaluation/ACT_TITLE_SLIDES.md). 아래는 이전 제작 이력이다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED이며 발표 묶음은 만들지 않는다.
+
 현재 기준은 **DEC-0088 /102장·390분(6시간30분)**이다. ACT 중간의 팁 목록을
 없애 마지막 Q&A 직전 S99–S101에 모았다. 기존 팁17장의 설명·배지와 본문99장의
 내용·배정·근거 범위는 유지한다. [최신 결과](production/evaluation/FINAL_PRACTICAL_TIPS_CONSOLIDATION.md),
@@ -38,7 +45,7 @@ S85는 GPU 변화의 가상 적용 판단을 닫고 전체 회수는 S86에 넘�
 
 ## 목적
 
-개발자 대상 ChatGPT & Codex 사내 교육자료를 제작한다. 현행 교육시간은390분이다.
+개발자 대상 ChatGPT & Codex 사내 교육자료를 제작한다. 현행 교육시간은396분이다.
 기획 기준은 [MASTER_PLAN](plan/MASTER_PLAN.md), 변경 이력은
 [DECISIONS](plan/DECISIONS.md)를 따른다.
 

@@ -2,13 +2,13 @@
 
 ## Current operation — DEC-0081
 
-S80 is a native four-task/risk/status table. EVAL-01/02 reference separate prior bug/performance cases; EVAL-03/04 are designed only. None is a result after this hypothetical Workflow change. Read status wording, not solid/dashed row categories. Existing5minutes: background1, task/risk examples3, selection boundary1.
+S85 is a native four-task/risk/status table. EVAL-01/02 reference separate prior bug/performance cases; EVAL-03/04 are designed only. None is a result after this hypothetical Workflow change. Read status wording, not solid/dashed row categories. Existing5minutes: background1, task/risk examples3, selection boundary1.
 
 Current local package/render/Notes/path validation is complete for DEC-0081.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current ACT4 design](../../plan/ACT4_FLOW_REVISION.md).
 
-> Current references: DEC-0088 /102slides/390minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_102.md. The only tip index block is S99–S101 before final Q&A; no Demo time or Trial result changes. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0090 /108slides/396minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_108.md. ACT title pages add no Demo time, Trial or result. The final tip block is S105–S107. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — conceptual evaluation matrix
@@ -67,7 +67,7 @@ Distinguish prior evidence from evaluation design.
 
 ## Expected Output
 
-S80 four-row conceptual matrix, no execution.
+S85 four-row conceptual matrix, no execution.
 
 ## Verification
 
@@ -77,7 +77,7 @@ Evidence limit: Do not say any EVAL ran or passed/failed after this Workflow cha
 
 ## Estimated Time
 
-5m S80 Demo slot.
+5m S85 Demo slot.
 
 Phase plan: background1m; task/risk examples3m; selection/evidence boundary1m.
 
@@ -101,9 +101,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S80.png`
+Default is the offline static presentation. Open: `production/preview/full/S85.png`
 
-Use S80.png. The whole table is conceptual evaluation design; prior-reference status is not an observed result frame.
+Use S85.png. The whole table is conceptual evaluation design; prior-reference status is not an observed result frame.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -117,7 +117,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S80 → S81: connect representative checks to overfitting risk.
+S85 → S86: connect representative checks to overfitting risk.
 
 ## Evidence
 

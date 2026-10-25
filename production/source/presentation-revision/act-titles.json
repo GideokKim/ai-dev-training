@@ -1,0 +1,73 @@
+{
+  "decision": "DEC-0090",
+  "slideCount": 108,
+  "minutes": 396,
+  "titleSlides": [
+    {
+      "act": 0,
+      "slideId": "S01",
+      "beforePreviousSlideId": "S01",
+      "firstBodySlideId": "S02",
+      "title": "AI를 Repository로 데려가기",
+      "subtitle": "Chatbot → Repository Agent",
+      "displayTitle": "AI를 Repository로\n데려가기",
+      "section": "0A",
+      "storyBeat": "BEAT-001"
+    },
+    {
+      "act": 1,
+      "slideId": "S15",
+      "beforePreviousSlideId": "S14",
+      "firstBodySlideId": "S16",
+      "title": "Prompt를 작업 명세로 만들기",
+      "subtitle": "Prompt Engineering · 요청 설계",
+      "displayTitle": "Prompt를\n작업 명세로 만들기",
+      "section": "1A",
+      "storyBeat": "BEAT-004"
+    },
+    {
+      "act": 2,
+      "slideId": "S37",
+      "beforePreviousSlideId": "S35",
+      "firstBodySlideId": "S38",
+      "title": "필요한 정보를 찾아 쓰게 하기",
+      "subtitle": "Context Engineering · 정보 설계",
+      "displayTitle": "필요한 정보를\n찾아 쓰게 하기",
+      "section": "2A",
+      "storyBeat": "BEAT-008 — Good Project instructions are repeated in each Prompt"
+    },
+    {
+      "act": 3,
+      "slideId": "S56",
+      "beforePreviousSlideId": "S53",
+      "firstBodySlideId": "S57",
+      "title": "AI가 일할 방법과 환경 설계하기",
+      "subtitle": "Harness Engineering · 수행 체계 설계",
+      "displayTitle": "AI가 일할 방법과\n환경 설계하기",
+      "section": "3A Repeated Procedure",
+      "storyBeat": "BEAT-018, BEAT-020"
+    },
+    {
+      "act": 4,
+      "slideId": "S75",
+      "beforePreviousSlideId": "S71",
+      "firstBodySlideId": "S76",
+      "title": "기록과 피드백으로 시스템 개선하기",
+      "subtitle": "Loop Engineering · 개선 과정 설계",
+      "displayTitle": "기록과 피드백으로\n시스템 개선하기",
+      "section": "4A Working Harness Callback",
+      "storyBeat": "BEAT-037, BEAT-038"
+    },
+    {
+      "act": 5,
+      "slideId": "S94",
+      "beforePreviousSlideId": "S89",
+      "firstBodySlideId": "S95",
+      "title": "내 업무에 맞게 조합하고 덜어내기",
+      "subtitle": "AI-Native Development · 업무 방식의 재설계",
+      "displayTitle": "내 업무에 맞게\n조합하고 덜어내기",
+      "section": "5A Full Story Recap",
+      "storyBeat": "BEAT-060"
+    }
+  ]
+}

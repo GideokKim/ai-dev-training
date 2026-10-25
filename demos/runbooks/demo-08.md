@@ -2,12 +2,12 @@
 
 ## Current ACT3 operation — DEC-0074
 
-S63→S64→S65: S64은 실제 작업 종료 뒤 무엇을 남길지 질문하는 명시적 가정이다. 이번 Context에서 확인한 재현 조건을 골라 출처·범위·재확인 조건을 붙이고 다음 작업의 현재 명세와 대조한다. S65는 코드·문서·Skill·Trial 기록의 실제 지식을 네 출처에 대응하고, 원래 출처에서 확인 가능했고 별도 후보를 찾지 못한 판단을 회수한다. 실제 Memory 저장/회수나 재발견 실험은 없다. S64 Demo2+Case2, S65 Lecture4분을 유지한다.
+S67→S68→S69: S68은 실제 작업 종료 뒤 무엇을 남길지 질문하는 명시적 가정이다. 이번 Context에서 확인한 재현 조건을 골라 출처·범위·재확인 조건을 붙이고 다음 작업의 현재 명세와 대조한다. S69는 코드·문서·Skill·Trial 기록의 실제 지식을 네 출처에 대응하고, 원래 출처에서 확인 가능했고 별도 후보를 찾지 못한 판단을 회수한다. 실제 Memory 저장/회수나 재발견 실험은 없다. S68 Demo2+Case2, S69 Lecture4분을 유지한다.
 실제 근거·ID·시간·기존 선택은 보존한다. 최종 로컬 정적 파일 식별자는
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0088 /102slides/390minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_102.md. The only tip index block is S99–S101 before final Q&A; no Demo time or Trial result changes. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0090 /108slides/396minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_108.md. ACT title pages add no Demo time, Trial or result. The final tip block is S105–S107. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: DEFERRED — no primary-repository Memory instance
@@ -58,7 +58,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-First distinguish the S64 hypothetical retention model from S65 current-source audit. Contracts/commands belong to project sources; repeated procedure to Skill; Trial outcomes to records; benchmark values can go stale.
+First distinguish the S68 hypothetical retention model from S69 current-source audit. Contracts/commands belong to project sources; repeated procedure to Skill; Trial outcomes to records; benchmark values can go stale.
 
 ## Success Criteria
 
@@ -66,7 +66,7 @@ Judge durable knowledge by repeated rediscovery cost without assuming a product 
 
 ## Expected Output
 
-S64 current-Context and retained-fact hypothesis, followed by S65 actual source/knowledge audit.
+S68 current-Context and retained-fact hypothesis, followed by S69 actual source/knowledge audit.
 
 ## Verification
 
@@ -76,9 +76,9 @@ Evidence limit: No Product Memory use or cross-task reuse is claimed.
 
 ## Estimated Time
 
-2m S64 Demo; S65 Lecture is separate.
+2m S68 Demo; S69 Lecture is separate.
 
-Phase plan: S64 VISUAL2m (handoff and hypothesis0.5 / current Context and selection0.75 / retained fact and next use0.75), then Case2m (purpose/freshness1 / original sources and actual-case handoff1). S65 Lecture4m remains separate: actual-case return0.5 / code-docs0.83 / Skill0.67 / Trial-Git0.75 / criteria-finding0.75 / decision-handoff0.5.
+Phase plan: S68 VISUAL2m (handoff and hypothesis0.5 / current Context and selection0.75 / retained fact and next use0.75), then Case2m (purpose/freshness1 / original sources and actual-case handoff1). S69 Lecture4m remains separate: actual-case return0.5 / code-docs0.83 / Skill0.67 / Trial-Git0.75 / criteria-finding0.75 / decision-handoff0.5.
 
 Time Risk: LOW
 
@@ -100,13 +100,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S64.png`, then `production/preview/full/S65.png`.
+Default is the offline static presentation. Open: `production/preview/full/S68.png`, then `production/preview/full/S69.png`.
 
-Use S64.png for the explicit hypothesis and S65.png for the current source audit; do not open or simulate a product Memory tool.
+Use S68.png for the explicit hypothesis and S69.png for the current source audit; do not open or simulate a product Memory tool.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0074 current final-package slide renders; S65 is revised and S64 remains byte-identical to the prior checkpoint. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Captured Alternative provenance: DEC-0074 current final-package slide renders; S69 is revised and S68 remains byte-identical to the prior checkpoint. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -116,7 +116,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S64 → S65: apply the four criteria to original sources; preserve the no-extra-Memory decision.
+S68 → S69: apply the four criteria to original sources; preserve the no-extra-Memory decision.
 
 ## Evidence
 

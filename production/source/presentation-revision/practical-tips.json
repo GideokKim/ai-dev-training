@@ -1,8 +1,8 @@
 {
   "decision": "DEC-0088",
   "sourceEdition": "DEC-0086 /99slides/387minutes",
-  "currentSlideCount": 102,
-  "totalMinutes": 390,
+  "currentSlideCount": 108,
+  "totalMinutes": 396,
   "badgeLabel": "실무 적용 팁",
   "badgePosition": {
     "left": 780,
@@ -11,6 +11,12 @@
     "height": 34
   },
   "insertBeforeSourceNumbers": [
+    1,
+    14,
+    35,
+    53,
+    71,
+    89,
     99,
     99,
     99
@@ -18,7 +24,7 @@
   "tips": [
     {
       "sourceSlideId": "S11",
-      "slideId": "S11",
+      "slideId": "S12",
       "act": 0,
       "category": "사용 환경",
       "title": "Repository 작업은 Codex에서 시작한다",
@@ -26,7 +32,7 @@
     },
     {
       "sourceSlideId": "S25",
-      "slideId": "S25",
+      "slideId": "S27",
       "act": 1,
       "category": "요청 작성",
       "title": "지시와 참고 자료의 구분",
@@ -34,7 +40,7 @@
     },
     {
       "sourceSlideId": "S26",
-      "slideId": "S26",
+      "slideId": "S28",
       "act": 1,
       "category": "요청 작성",
       "title": "입력과 기대 결과의 작은 예시",
@@ -42,7 +48,7 @@
     },
     {
       "sourceSlideId": "S27",
-      "slideId": "S27",
+      "slideId": "S29",
       "act": 1,
       "category": "요청 작성",
       "title": "바로 검토할 수 있는 결과 형식",
@@ -50,7 +56,7 @@
     },
     {
       "sourceSlideId": "S28",
-      "slideId": "S28",
+      "slideId": "S30",
       "act": 1,
       "category": "요청 작성",
       "title": "근거가 있는 설명과 미확인의 구분",
@@ -58,7 +64,7 @@
     },
     {
       "sourceSlideId": "S29",
-      "slideId": "S29",
+      "slideId": "S31",
       "act": 1,
       "category": "요청 작성",
       "title": "결과를 바꾸는 결정에서 확인 질문",
@@ -66,7 +72,7 @@
     },
     {
       "sourceSlideId": "S30",
-      "slideId": "S30",
+      "slideId": "S32",
       "act": 1,
       "category": "요청 작성",
       "title": "큰 작업을 검토할 결과물로 나누기",
@@ -74,7 +80,7 @@
     },
     {
       "sourceSlideId": "S31",
-      "slideId": "S31",
+      "slideId": "S33",
       "act": 1,
       "category": "요청 작성",
       "title": "기준을 지정한 코드 리뷰 요청",
@@ -82,7 +88,7 @@
     },
     {
       "sourceSlideId": "S32",
-      "slideId": "S32",
+      "slideId": "S34",
       "act": 1,
       "category": "요청 작성",
       "title": "구체적인 근거로 수정 방향 피드백",
@@ -90,7 +96,7 @@
     },
     {
       "sourceSlideId": "S45",
-      "slideId": "S45",
+      "slideId": "S48",
       "act": 2,
       "category": "Context 관리",
       "title": "AGENTS.md에는 무엇을 남길까?",
@@ -98,7 +104,7 @@
     },
     {
       "sourceSlideId": "S54",
-      "slideId": "S54",
+      "slideId": "S58",
       "act": 3,
       "category": "수행 방법",
       "title": "테스트 명령을 언제 쓰고 무엇을 판단할까?",
@@ -106,7 +112,7 @@
     },
     {
       "sourceSlideId": "S64",
-      "slideId": "S64",
+      "slideId": "S68",
       "act": 3,
       "category": "Context 관리",
       "title": "이번 Context와 다시 쓸 지식",
@@ -114,7 +120,7 @@
     },
     {
       "sourceSlideId": "S69",
-      "slideId": "S69",
+      "slideId": "S73",
       "act": 3,
       "category": "업무 적용",
       "title": "밝기 통계의 판단을 C++ 검사에 적용하기",
@@ -122,7 +128,7 @@
     },
     {
       "sourceSlideId": "S75",
-      "slideId": "S75",
+      "slideId": "S80",
       "act": 4,
       "category": "검증·개선",
       "title": "원인을 고르기 전에 확인할 기록",
@@ -130,7 +136,7 @@
     },
     {
       "sourceSlideId": "S79",
-      "slideId": "S79",
+      "slideId": "S84",
       "act": 4,
       "category": "검증·개선",
       "title": "지침을 고친 뒤, 무엇을 다시 확인할까?",
@@ -138,7 +144,7 @@
     },
     {
       "sourceSlideId": "S95",
-      "slideId": "S95",
+      "slideId": "S101",
       "act": 5,
       "category": "검증·개선",
       "title": "무엇을 남기고, 무엇을 덜어낼까?",
@@ -146,7 +152,7 @@
     },
     {
       "sourceSlideId": "S96",
-      "slideId": "S96",
+      "slideId": "S102",
       "act": 5,
       "category": "검증·개선",
       "title": "덜어낸 뒤에도 필요한 일을 하는가?",
@@ -157,16 +163,16 @@
     {
       "act": 5,
       "beforeSourceSlideId": "S99",
-      "slideId": "S99",
-      "nextSlideId": "S100",
+      "slideId": "S105",
+      "nextSlideId": "S106",
       "section": "5B Final Reference Review",
       "storyBeat": "BEAT-070–071",
       "tipSlideIds": [
-        "S11",
-        "S45",
-        "S54",
-        "S64",
-        "S69"
+        "S12",
+        "S48",
+        "S58",
+        "S68",
+        "S73"
       ],
       "title": "실무 적용 팁 · 작업 환경과 기준",
       "sequence": 1
@@ -174,19 +180,19 @@
     {
       "act": 5,
       "beforeSourceSlideId": "S99",
-      "slideId": "S100",
-      "nextSlideId": "S101",
+      "slideId": "S106",
+      "nextSlideId": "S107",
       "section": "5B Final Reference Review",
       "storyBeat": "BEAT-070–071",
       "tipSlideIds": [
-        "S25",
-        "S26",
         "S27",
         "S28",
         "S29",
         "S30",
         "S31",
-        "S32"
+        "S32",
+        "S33",
+        "S34"
       ],
       "title": "실무 적용 팁 · 요청 작성",
       "sequence": 2
@@ -194,18 +200,19 @@
     {
       "act": 5,
       "beforeSourceSlideId": "S99",
-      "slideId": "S101",
-      "nextSlideId": "S102",
+      "slideId": "S107",
+      "nextSlideId": "S108",
       "section": "5B Final Reference Review",
       "storyBeat": "BEAT-070–071",
       "tipSlideIds": [
-        "S75",
-        "S79",
-        "S95",
-        "S96"
+        "S80",
+        "S84",
+        "S101",
+        "S102"
       ],
       "title": "실무 적용 팁 · 검증과 개선",
       "sequence": 3
     }
-  ]
+  ],
+  "numberingDecision": "DEC-0090; title insertions and final tip indexes share the99-page source numbering adapter"
 }

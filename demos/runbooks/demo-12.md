@@ -1,6 +1,6 @@
 # DEMO-12 — Observed Evolution Recap
 
-> Current references: DEC-0088 /102slides/390minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_102.md. The only tip index block is S99–S101 before final Q&A; no Demo time or Trial result changes. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0090 /108slides/396minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_108.md. ACT title pages add no Demo time, Trial or result. The final tip block is S105–S107. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — ACT 5 visual recap
@@ -59,7 +59,7 @@ Follow the approved course mental-model evolution without implying automation.
 
 ## Expected Output
 
-Static recap of actual Product changes in S90, not execution captures.
+Static recap of actual Product changes in S96, not execution captures.
 Read three chronological rows top to bottom: crop boundary problem→fix to
 end-exclusive specification (STATE-00→STATE-00-FIXED); repeated/growing
 project guidance→core/detail organization (STATE-01→STATE-02→STATE-03);
@@ -79,9 +79,9 @@ Evidence limit: No universal maturity path, complete automation, or new Trial.
 
 ## Estimated Time
 
-2m: S90 Demo allocation. S89 Lecture 4m is separate.
+2m: S96 Demo allocation. S95 Lecture 4m is separate.
 
-Phase plan: S90 2m.
+Phase plan: S96 2m.
 
 Time Risk: LOW
 
@@ -103,9 +103,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S89.png`, `production/preview/full/S90.png`
+Default is the offline static presentation. Open: `production/preview/full/S95.png`, `production/preview/full/S96.png`
 
-Use the DEC-0084 S89–S90 PNGs. Current final-package/Notes/PNG parity is checked in production/evaluation/ACT_5_FLOW_REVISION.md. S89 is Lecture4 outside the S90 VISUAL2 slot. Read S90 top to bottom, problem→actual change→tracking IDs; do not point to excerpt images or use a serpentine rail Cue.
+Use the DEC-0084 S95–S96 PNGs. Current final-package/Notes/PNG parity is checked in production/evaluation/ACT_5_FLOW_REVISION.md. S95 is Lecture4 outside the S96 VISUAL2 slot. Read S96 top to bottom, problem→actual change→tracking IDs; do not point to excerpt images or use a serpentine rail Cue.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_5_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -119,11 +119,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S90 → S91: reflect on deliberately deferred components.
+S96 → S97: reflect on deliberately deferred components.
 
 ## Evidence
 
-Existing State history; DEC-0020/0021; Slide Map S89–87.
+Existing State history; DEC-0020/0021; Slide Map S95–S92.
 
 ## Do Not Claim
 

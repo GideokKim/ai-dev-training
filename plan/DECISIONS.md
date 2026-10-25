@@ -9696,3 +9696,95 @@ Improve diagram continuity without changing the teaching content.
 Render/review S54, compare other101pages and Notes, preserve102slides/
 390minutes, then commit/push normally to origin/main. Keep external gates
 UNVERIFIED. Do not edit the Demo repository or create a presenter bundle.
+
+
+# DEC-0090 — Add approved ACT title pages
+
+## Status
+
+ACCEPTED — explicit user approval of the six proposed titles/subtitles,
+with one title page at each ACT start, aligned numbering/Notes/plans,
+full rendering review and normal commit/push.
+
+## Date
+
+2026-10-25
+
+## Context
+
+The user reviewed the prior request/information/work-system/improvement
+framing and approved concise Korean titles with smaller engineering labels.
+ACT5 also includes the approved reassessment and integration/removal content.
+
+## Problem
+
+The current102slide edition enters each ACT's first problem directly and
+needs a visible chapter boundary without rewriting the teaching sequence.
+
+## Decision
+
+Insert six quiet native title pages before the existing ACT0–5 starts.
+Use the exact user-approved titles/subtitles in ACT_TITLES.md. Introduce
+only the topic, then continue to the existing first problem. Keep every
+existing body, budget, evidence boundary, image and practical-tip badge.
+
+Add1Transition minute per title; do not compress existing budgets. Current
+scope is108slides/396minutes. ACT counts14/22/19/19/19/15; minutes43/64/82/
+86/81/40. Modes are Lecture154/Demo73/Case88/Reflection21/Transition28/
+Q&A32. Stay within the user-authorized720minute ceiling.
+
+Add dedicated T12-A for chapter titles, making12Templates/28Variants.
+Keep the prior11Templates/27Variants and all existing assignments. Retain
+19Notes fields and stable Beat/Section/Demo/Trial/State/Claim IDs. Use
+SLIDE_ID_MIGRATION_108.md. Final tip indexes move to S105–S107 and closing
+moves to S108, preserving their content and budgets.
+
+## Rationale
+
+A clear title and subtitle identify each chapter's design responsibility
+without front-loading its mechanism, replacing the first problem or adding
+another recap. One shared minimal layout is reusable across all six.
+
+## Alternatives
+
+Replace existing first pages; violates the instruction to add title pages.
+Force title-only pages into a question/evidence template; misstates their
+role and weakens template traceability. Add a new full teaching section;
+adds unnecessary content and duplicates the original problem sequence.
+
+## Trade-offs
+
+Add6pages/6Transition minutes and renumber downstream references. T12-A
+needs local first-implementation checks and the existing external gates.
+Titles orient the audience; they do not prove outcomes or define official
+product classifications. All stages/tools remain problem-specific options.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001/002, INV-LEARNING-001/002/004,
+INV-VERIFY-001, INV-RESPONSIBILITY-001, INV-RESEARCH-001/004.
+
+## Affected Artifacts
+
+Full/ACT0–5 PPTX,108Notes, title/numbering source, Slide/Template/module
+maps, current planning routers, previews/runbooks and delivery/static
+identities. Preserve original assets, prototypes, historical reports,
+presenter bundles and the Demo repository.
+
+## Evidence
+
+Explicit user approval in this conversation; baseline86ba967 current
+102slide edition. No new research, Trial, experiment or product check.
+
+## Training Relevance
+
+Keep chapter responsibilities visible while preserving the problem-driven
+progression and engineering judgments.
+
+## Follow-up
+
+Finalize/reimport/render Full108and6ACTs. Review all six titles and their
+handoffs. Check108x19Notes,102retained screens outside ID/reference boxes,
+all image crops, native evidence, tip targets and34fallback identities.
+Keep Windows/room/product/account/timed rehearsal UNVERIFIED. Commit/push
+normally to origin/main without force push or a presenter bundle.

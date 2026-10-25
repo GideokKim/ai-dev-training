@@ -1,6 +1,18 @@
 # STEP 08 — Visual Template Conditional Freeze
 
-## 현재 마지막 팁 요약 — DEC-0088 (2026-10-25)
+## 현재 ACT 제목 슬라이드 — DEC-0090 (2026-10-25)
+
+현재 **108장·396분(6시간36분)**. 각 ACT 시작에 승인된 한글 제목·부제1장을 넣는다.
+기존102장의 내용·장별 시간/Mode·근거를 유지하고 제목6장에 Transition1분씩 추가한다.
+ACT 장수14/22/19/19/19/15, 시간43/64/82/86/81/40분. Mode Lecture154/Demo73/
+Case88/Reflection21/Transition28/Q&A32분. 새 제목은 S01/S15/S37/S56/S75/S94다.
+제목은 주제만 안내하며 기존 첫 문제·질문·Demo를 대신 설명하지 않는다.
+17개 팁 본문·배지와 마지막 팁 요약은 유지하며 현재 마지막 요약은 S105–S107이다.
+본문 Template는 유지하고 제목 전용 T12-A를 추가해 **12Templates/28Variants**가 된다.
+[제목 기준](ACT_TITLES.md), [102→108 번호](SLIDE_ID_MIGRATION_108.md), [Slide Map](SLIDE_MAP.md).
+아래 이전 승인/검증 기록은 당시 판본이다. 실환경·제품/계정·리허설은 UNVERIFIED다.
+
+## 이전 마지막 팁 요약 — DEC-0088 (2026-10-25)
 
 현재 **102장·390분(6시간30분)**. ACT 중간의 제목/ID 찾아보기6장을 제거하고,
 마지막 Q&A/Closing 바로 앞의 **S99–S101**로 통합했다. 기존 팁17장의 설명·배지와
@@ -310,3 +322,13 @@ Windows 호환성, 교육장 투사 또는 Live Demo 완료를 뜻하지 않는�
 
 - Created: plan/VISUAL_TEMPLATE_FREEZE.md
 - Updated: plan/DECISIONS.md — DEC-0024
+
+
+## DEC-0090 — T12-A ACT Title
+
+Current inventory:12Templates/28Variants. Keep all earlier template statuses
+and scope. T12-A is CONDITIONALLY FROZEN for the six approved ACT entry
+pages, subject to exact-package render/fit checks in ACT_TITLE_SLIDES.md.
+The native title/subtitle layout is the same across all six; their counts
+are not coverage for unrelated templates. Windows, target fonts and room
+projection remain final delivery gates and UNVERIFIED.

@@ -1,6 +1,18 @@
 # STEP 08 — Slide Template Architecture
 
-## 현재 마지막 팁 요약 — DEC-0088 (2026-10-25)
+## 현재 ACT 제목 슬라이드 — DEC-0090 (2026-10-25)
+
+현재 **108장·396분(6시간36분)**. 각 ACT 시작에 승인된 한글 제목·부제1장을 넣는다.
+기존102장의 내용·장별 시간/Mode·근거를 유지하고 제목6장에 Transition1분씩 추가한다.
+ACT 장수14/22/19/19/19/15, 시간43/64/82/86/81/40분. Mode Lecture154/Demo73/
+Case88/Reflection21/Transition28/Q&A32분. 새 제목은 S01/S15/S37/S56/S75/S94다.
+제목은 주제만 안내하며 기존 첫 문제·질문·Demo를 대신 설명하지 않는다.
+17개 팁 본문·배지와 마지막 팁 요약은 유지하며 현재 마지막 요약은 S105–S107이다.
+본문 Template는 유지하고 제목 전용 T12-A를 추가해 **12Templates/28Variants**가 된다.
+[제목 기준](ACT_TITLES.md), [102→108 번호](SLIDE_ID_MIGRATION_108.md), [Slide Map](SLIDE_MAP.md).
+아래 이전 승인/검증 기록은 당시 판본이다. 실환경·제품/계정·리허설은 UNVERIFIED다.
+
+## 이전 마지막 팁 요약 — DEC-0088 (2026-10-25)
 
 현재 **102장·390분(6시간30분)**. ACT 중간의 제목/ID 찾아보기6장을 제거하고,
 마지막 Q&A/Closing 바로 앞의 **S99–S101**로 통합했다. 기존 팁17장의 설명·배지와
@@ -298,6 +310,15 @@ Evidence Type을 기준으로 하나씩 배정한다.
 - **Typical Slide IDs:** S80–84. 다른 Slide에 OBSERVED_META가 포함될
   경우에도 이 Evidence Frame의 구분 규칙을 적용하되, 이 예시가
   Slide-to-Template 배정은 아니다.
+
+### T12 — ACT Title
+
+- Purpose: 승인된 ACT 주제와 설계 관점을 안내하고 기존 첫 문제로 넘긴다.
+- Layout: ACT 번호, 두 줄 큰 한글 제목, 작은 승인 부제와 넓은 여백.
+- Required: 사용자 승인 제목/부제, ACT, 현재 Slide ID. Variant: T12-A only.
+- Density: 제목1개·부제1개. 기능 목록·Evidence 결과·새 그림을 넣지 않는다.
+- Evidence: TEACHING_MODEL/orientation. 현재 제품의 공식 기능 분류나 실행 증거가 아니다.
+- Reuse: Native text/shapes, 기존 배경/색/글꼴/여백. 상세는 ACT_TITLES.md.
 
 ## 3. Reusable Components
 

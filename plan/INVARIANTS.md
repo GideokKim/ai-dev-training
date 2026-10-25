@@ -52,17 +52,18 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Category: Training Identity
 - Strength: HARD
 - Rule: This is a developer training about ChatGPT and Codex in AI-Native
-  Development. The current approved net duration is 390 minutes under
-  DEC-0088, within the user-authorized720-minute ceiling. Preserve the
-  existing99-slide body content and allocations, and use three1-minute
-  reference indexes only before the final Q&A/Closing without changing the Story or evidence boundaries.
+  Development. The current approved net duration is 396 minutes under
+  DEC-0090, within the user-authorized720-minute ceiling. Preserve the
+  existing102-slide content and allocations, including the final reference
+  block. Add one1-minute ACT title at each ACT start without changing the
+  Story or evidence boundaries.
 - Historical Rule: Earlier DEC-0060 approved93slides/379minutes. The initial requirement
   was six hours /360minutes; the
   user explicitly authorized the extension on 2026-10-21.
 - Rationale: The audience, subject, and duration define the scope of the
   training.
 - Source: plan/MASTER_PLAN.md §§1.1–1.2
-- Validation: Does the material preserve the developer scope and the current user-approved390-minute schedule and720-minute ceiling under DEC-0088?
+- Validation: Does the material preserve the developer scope and the current user-approved396-minute schedule and720-minute ceiling under DEC-0090?
 - Change Policy: Require explicit user approval before changing the scope or
   duration.
 
@@ -856,7 +857,7 @@ affected work proceeds.
 
 | Invariant ID | Category | Strength | Validation Question |
 | --- | --- | --- | --- |
-| INV-IDENTITY-001 | Training Identity | HARD | Does the material preserve the developer scope and the current user-approved390-minute schedule and720-minute ceiling under DEC-0088? |
+| INV-IDENTITY-001 | Training Identity | HARD | Does the material preserve the developer scope and the current user-approved396-minute schedule and720-minute ceiling under DEC-0090? |
 | INV-IDENTITY-002 | Training Identity | HARD | Does it teach AI-use evolution into an Engineering System rather than only features, a manual, or Prompt writing? |
 | INV-AUDIENCE-001 | Audience | HARD | Does it account for the broad experience range and limited time for separate study? |
 | INV-OBJECTIVE-001 | Primary Objective | HARD | Does it raise the shared organizational AI-use baseline above feature breadth or one-level optimization? |

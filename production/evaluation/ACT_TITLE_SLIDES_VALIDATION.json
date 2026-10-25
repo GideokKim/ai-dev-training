@@ -1,0 +1,766 @@
+{
+  "status": "LOCAL_PACKAGE_VALIDATION_PASS",
+  "decision": "DEC-0090",
+  "date": "2026-10-25",
+  "baseline": "86ba96746874616dc042a48a7983ed31f8d96704",
+  "slideCount": 108,
+  "totalMinutes": 396,
+  "actSlideCounts": [
+    14,
+    22,
+    19,
+    19,
+    19,
+    15
+  ],
+  "actMinutes": {
+    "path": "production/ACT_5.pptx",
+    "slideCount": 15,
+    "sha256": "b4be4ed31af228be2eb3871ac59150efa8ea3ed768f5a6768eed5af2c694ed13"
+  },
+  "modeMinutes": {
+    "Transition": 28,
+    "Lecture": 154,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Q&A": 32
+  },
+  "actModeMinutes": {
+    "ACT 0": {
+      "Transition": 4,
+      "Lecture": 15,
+      "Reflection": 4,
+      "Case": 9,
+      "Demo": 8,
+      "Q&A": 3
+    },
+    "ACT 1": {
+      "Transition": 4,
+      "Case": 18,
+      "Reflection": 4,
+      "Lecture": 26,
+      "Demo": 8,
+      "Q&A": 4
+    },
+    "ACT 2": {
+      "Transition": 5,
+      "Lecture": 34,
+      "Case": 18,
+      "Demo": 13,
+      "Reflection": 5,
+      "Q&A": 7
+    },
+    "ACT 3": {
+      "Transition": 3,
+      "Case": 20,
+      "Lecture": 33,
+      "Demo": 20,
+      "Q&A": 7,
+      "Reflection": 3
+    },
+    "ACT 4": {
+      "Transition": 5,
+      "Lecture": 22,
+      "Reflection": 3,
+      "Demo": 22,
+      "Case": 22,
+      "Q&A": 7
+    },
+    "ACT 5": {
+      "Transition": 7,
+      "Lecture": 24,
+      "Demo": 2,
+      "Case": 1,
+      "Reflection": 2,
+      "Q&A": 4
+    }
+  },
+  "titleSlides": [
+    {
+      "act": 0,
+      "slideId": "S01",
+      "beforePreviousSlideId": "S01",
+      "firstBodySlideId": "S02",
+      "title": "AI를 Repository로 데려가기",
+      "subtitle": "Chatbot → Repository Agent",
+      "displayTitle": "AI를 Repository로\n데려가기",
+      "section": "0A",
+      "storyBeat": "BEAT-001"
+    },
+    {
+      "act": 1,
+      "slideId": "S15",
+      "beforePreviousSlideId": "S14",
+      "firstBodySlideId": "S16",
+      "title": "Prompt를 작업 명세로 만들기",
+      "subtitle": "Prompt Engineering · 요청 설계",
+      "displayTitle": "Prompt를\n작업 명세로 만들기",
+      "section": "1A",
+      "storyBeat": "BEAT-004"
+    },
+    {
+      "act": 2,
+      "slideId": "S37",
+      "beforePreviousSlideId": "S35",
+      "firstBodySlideId": "S38",
+      "title": "필요한 정보를 찾아 쓰게 하기",
+      "subtitle": "Context Engineering · 정보 설계",
+      "displayTitle": "필요한 정보를\n찾아 쓰게 하기",
+      "section": "2A",
+      "storyBeat": "BEAT-008 — Good Project instructions are repeated in each Prompt"
+    },
+    {
+      "act": 3,
+      "slideId": "S56",
+      "beforePreviousSlideId": "S53",
+      "firstBodySlideId": "S57",
+      "title": "AI가 일할 방법과 환경 설계하기",
+      "subtitle": "Harness Engineering · 수행 체계 설계",
+      "displayTitle": "AI가 일할 방법과\n환경 설계하기",
+      "section": "3A Repeated Procedure",
+      "storyBeat": "BEAT-018, BEAT-020"
+    },
+    {
+      "act": 4,
+      "slideId": "S75",
+      "beforePreviousSlideId": "S71",
+      "firstBodySlideId": "S76",
+      "title": "기록과 피드백으로 시스템 개선하기",
+      "subtitle": "Loop Engineering · 개선 과정 설계",
+      "displayTitle": "기록과 피드백으로\n시스템 개선하기",
+      "section": "4A Working Harness Callback",
+      "storyBeat": "BEAT-037, BEAT-038"
+    },
+    {
+      "act": 5,
+      "slideId": "S94",
+      "beforePreviousSlideId": "S89",
+      "firstBodySlideId": "S95",
+      "title": "내 업무에 맞게 조합하고 덜어내기",
+      "subtitle": "AI-Native Development · 업무 방식의 재설계",
+      "displayTitle": "내 업무에 맞게\n조합하고 덜어내기",
+      "section": "5A Full Story Recap",
+      "storyBeat": "BEAT-060"
+    }
+  ],
+  "titleTypography": "64px/48pt title,30px/22.5pt subtitle",
+  "tipSlides": [
+    {
+      "sourceSlideId": "S11",
+      "slideId": "S12",
+      "act": 0,
+      "category": "사용 환경",
+      "title": "Repository 작업은 Codex에서 시작한다",
+      "rationale": "사내 사용 환경에서 개발 작업을 시작하는 경로"
+    },
+    {
+      "sourceSlideId": "S25",
+      "slideId": "S27",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "지시와 참고 자료의 구분",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S26",
+      "slideId": "S28",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "입력과 기대 결과의 작은 예시",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S27",
+      "slideId": "S29",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "바로 검토할 수 있는 결과 형식",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S28",
+      "slideId": "S30",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "근거가 있는 설명과 미확인의 구분",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S29",
+      "slideId": "S31",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "결과를 바꾸는 결정에서 확인 질문",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S30",
+      "slideId": "S32",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "큰 작업을 검토할 결과물로 나누기",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S31",
+      "slideId": "S33",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "기준을 지정한 코드 리뷰 요청",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S32",
+      "slideId": "S34",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "구체적인 근거로 수정 방향 피드백",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S45",
+      "slideId": "S48",
+      "act": 2,
+      "category": "Context 관리",
+      "title": "AGENTS.md에는 무엇을 남길까?",
+      "rationale": "기본 안내와 상세 정보의 배치 기준"
+    },
+    {
+      "sourceSlideId": "S54",
+      "slideId": "S58",
+      "act": 3,
+      "category": "수행 방법",
+      "title": "테스트 명령을 언제 쓰고 무엇을 판단할까?",
+      "rationale": "검증 명령의 사용 시점과 판단 기준"
+    },
+    {
+      "sourceSlideId": "S64",
+      "slideId": "S68",
+      "act": 3,
+      "category": "Context 관리",
+      "title": "이번 Context와 다시 쓸 지식",
+      "rationale": "다음 작업에 남길 지식의 선정·관리 기준"
+    },
+    {
+      "sourceSlideId": "S69",
+      "slideId": "S73",
+      "act": 3,
+      "category": "업무 적용",
+      "title": "밝기 통계의 판단을 C++ 검사에 적용하기",
+      "rationale": "기존 명세·수행 방법·검증 근거의 C++ 적용"
+    },
+    {
+      "sourceSlideId": "S75",
+      "slideId": "S80",
+      "act": 4,
+      "category": "검증·개선",
+      "title": "원인을 고르기 전에 확인할 기록",
+      "rationale": "원인 선택 전에 확인할 기록 목록"
+    },
+    {
+      "sourceSlideId": "S79",
+      "slideId": "S84",
+      "act": 4,
+      "category": "검증·개선",
+      "title": "지침을 고친 뒤, 무엇을 다시 확인할까?",
+      "rationale": "지침 갱신 뒤 같은 작업과 다른 작업을 확인하는 질문"
+    },
+    {
+      "sourceSlideId": "S95",
+      "slideId": "S101",
+      "act": 5,
+      "category": "검증·개선",
+      "title": "무엇을 남기고, 무엇을 덜어낼까?",
+      "rationale": "기존 구성을 유지·통합·제거할 조건"
+    },
+    {
+      "sourceSlideId": "S96",
+      "slideId": "S102",
+      "act": 5,
+      "category": "검증·개선",
+      "title": "덜어낸 뒤에도 필요한 일을 하는가?",
+      "rationale": "통합·제거 후보의 비교·되돌림 기준"
+    }
+  ],
+  "indexSlides": [
+    {
+      "act": 5,
+      "beforeSourceSlideId": "S99",
+      "slideId": "S105",
+      "nextSlideId": "S106",
+      "section": "5B Final Reference Review",
+      "storyBeat": "BEAT-070–071",
+      "tipSlideIds": [
+        "S12",
+        "S48",
+        "S58",
+        "S68",
+        "S73"
+      ],
+      "title": "실무 적용 팁 · 작업 환경과 기준",
+      "sequence": 1
+    },
+    {
+      "act": 5,
+      "beforeSourceSlideId": "S99",
+      "slideId": "S106",
+      "nextSlideId": "S107",
+      "section": "5B Final Reference Review",
+      "storyBeat": "BEAT-070–071",
+      "tipSlideIds": [
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33",
+        "S34"
+      ],
+      "title": "실무 적용 팁 · 요청 작성",
+      "sequence": 2
+    },
+    {
+      "act": 5,
+      "beforeSourceSlideId": "S99",
+      "slideId": "S107",
+      "nextSlideId": "S108",
+      "section": "5B Final Reference Review",
+      "storyBeat": "BEAT-070–071",
+      "tipSlideIds": [
+        "S80",
+        "S84",
+        "S101",
+        "S102"
+      ],
+      "title": "실무 적용 팁 · 검증과 개선",
+      "sequence": 3
+    }
+  ],
+  "existing102BudgetsTitlesEvidencePreserved": true,
+  "102ScreensIdenticalOutsideIDReferenceRegions": true,
+  "IDReferenceBoxesMasked": 122,
+  "notesRecords": 108,
+  "fieldsPerNotes": 19,
+  "retainedNotesFieldsChanged": [
+    [
+      "S12",
+      "Time Management"
+    ],
+    [
+      "S14",
+      "Speaker Flow"
+    ],
+    [
+      "S14",
+      "Transition"
+    ],
+    [
+      "S36",
+      "Speaker Flow"
+    ],
+    [
+      "S36",
+      "Transition"
+    ],
+    [
+      "S47",
+      "Claim Boundary"
+    ],
+    [
+      "S48",
+      "Demo Operation"
+    ],
+    [
+      "S49",
+      "Demo Operation"
+    ],
+    [
+      "S50",
+      "Evidence / Source"
+    ],
+    [
+      "S50",
+      "Demo Operation"
+    ],
+    [
+      "S55",
+      "Speaker Flow"
+    ],
+    [
+      "S55",
+      "Transition"
+    ],
+    [
+      "S74",
+      "Speaker Flow"
+    ],
+    [
+      "S74",
+      "Transition"
+    ],
+    [
+      "S93",
+      "Speaker Flow"
+    ],
+    [
+      "S93",
+      "Transition"
+    ]
+  ],
+  "renderedPNGs": 216,
+  "FullACTPNGParity": 108,
+  "reviewedDraftFinalPNGParity": 12,
+  "all17BodyBadgesPreserved": true,
+  "allExistingImageBytesCropsPositionsPreserved": true,
+  "pictureInstancesChecked": 38,
+  "nativeTablesPreserved": [
+    "S50→S53",
+    "S58→S62",
+    "S80→S85"
+  ],
+  "nativeChartPreserved": "S61→S65",
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "preexistingWarnings": [
+    {
+      "artifact": "AI_Dev_Training_Full",
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 53,
+      "table_id": "8"
+    },
+    {
+      "artifact": "ACT_2",
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 17,
+      "table_id": "8"
+    }
+  ],
+  "templateInventory": "12Templates/28Variants; all11priorTemplates/27Variants preserved",
+  "existingTemplateModuleAssignmentsPreserved": true,
+  "S54ArrowRevisionPreservedAt": "S58",
+  "removedObsoleteACTStandardPNGs": [],
+  "sourceAssetsPrototypesBundlesUnchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "newMeasuredEffect": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 108,
+      "sha256": "133c54677f122b6953901a3e8e1ba436729b02befbcdc39d8e24a94853fcb061"
+    },
+    {
+      "path": "production/ACT_0.pptx",
+      "slideCount": 14,
+      "sha256": "6ca66a6db08d08d12f740a345c191b51282d8a984460ce1da0925e3be25e2f2d"
+    },
+    {
+      "path": "production/ACT_1.pptx",
+      "slideCount": 22,
+      "sha256": "807ca037262aac63a6f5265e83907122f772a939fb67be49c7fb94c491d47f51"
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slideCount": 19,
+      "sha256": "766b686935d10acbc7dc081453ff9e46c8e061539071f4967c271a7dee0c5a49"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 19,
+      "sha256": "ada9ca1ee0d486685152781fcc06bc87235ccaa0292c268d70153664359a99ac"
+    },
+    {
+      "path": "production/ACT_4.pptx",
+      "slideCount": 19,
+      "sha256": "f070e8a7c4c81fbf28eba7626873f63c49d65d71e27465090c88b454669abd4f"
+    },
+    {
+      "path": "production/ACT_5.pptx",
+      "slideCount": 15,
+      "sha256": "b4be4ed31af228be2eb3871ac59150efa8ea3ed768f5a6768eed5af2c694ed13"
+    }
+  ],
+  "fullNotesSha256": "ce6cd1e378c38b2d880878a54b6d3b2231b6d606946d57cd847655139d9779ce",
+  "fullMontageSha256": "439b15497de733d3a6f386141f05030f8435e957ff917a36163f6d4759d9b761",
+  "windowsRoomProductAccountRehearsal": "UNVERIFIED",
+  "fallbackInventory": {
+    "count": 34,
+    "status": "READY — local static paths/dimensions/hashes only",
+    "files": [
+      {
+        "slideId": "S05",
+        "path": "production/preview/full/S05.png",
+        "sha256": "25d932bfd4e8f658f4fe911f3612274b6c841f15456ffc7487d7eda671561892",
+        "source102Id": "S04"
+      },
+      {
+        "slideId": "S06",
+        "path": "production/preview/full/S06.png",
+        "sha256": "f793703980a111376765fc5fa8c2b2d2c5451f3d848e5cc3670c373029163a8a",
+        "source102Id": "S05"
+      },
+      {
+        "slideId": "S07",
+        "path": "production/preview/full/S07.png",
+        "sha256": "ee0f2d472090a10a99f3fc09d994a9002bc94c7991cd1dbb9a2b70959af9f9fa",
+        "source102Id": "S06"
+      },
+      {
+        "slideId": "S08",
+        "path": "production/preview/full/S08.png",
+        "sha256": "03372ecca35d5bab1fa88a66faffeaa2672aa7d272103999fe811031a1def084",
+        "source102Id": "S07"
+      },
+      {
+        "slideId": "S09",
+        "path": "production/preview/full/S09.png",
+        "sha256": "5d1f9dd413611f462d298e342a93bac9693d95c5d3bbd6fc5052c0d64269c9aa",
+        "source102Id": "S08"
+      },
+      {
+        "slideId": "S23",
+        "path": "production/preview/full/S23.png",
+        "sha256": "66aeb7922467fce42f7ed0c5e7478737cb858dbfe09317b40a3a1e125ae64ad9",
+        "source102Id": "S21"
+      },
+      {
+        "slideId": "S24",
+        "path": "production/preview/full/S24.png",
+        "sha256": "d591598f8c519db6e49ece83ef7ad3aab88c64426a38c0e5e94e0ea05649910f",
+        "source102Id": "S22"
+      },
+      {
+        "slideId": "S38",
+        "path": "production/preview/full/S38.png",
+        "sha256": "b060992d40d19c929035ef0d5b060c1bd60895e736d41f7f168d602952cb6fe1",
+        "source102Id": "S35"
+      },
+      {
+        "slideId": "S39",
+        "path": "production/preview/full/S39.png",
+        "sha256": "fc9d9164af151da11c1b0df3913050e60f5276261c8d4b5f0fa8fbe5bee8705b",
+        "source102Id": "S36"
+      },
+      {
+        "slideId": "S40",
+        "path": "production/preview/full/S40.png",
+        "sha256": "5095c3df42869547aae672be3a3890fea487806361aa24861b0dbfab8c261f98",
+        "source102Id": "S37"
+      },
+      {
+        "slideId": "S43",
+        "path": "production/preview/full/S43.png",
+        "sha256": "f4f6425a269f5eed7be59c406e0843f5af63d7429dcb2526b24f0db4653251fe",
+        "source102Id": "S40"
+      },
+      {
+        "slideId": "S49",
+        "path": "production/preview/full/S49.png",
+        "sha256": "baadcfacfc815cf5b992c2a0f5611d728d43118e309487a033479d8d0755852a",
+        "source102Id": "S46"
+      },
+      {
+        "slideId": "S51",
+        "path": "production/preview/full/S51.png",
+        "sha256": "60149cbd71c8c40aea8575c7db1ec297e841469a55bc2443c270c77f734c1acf",
+        "source102Id": "S48"
+      },
+      {
+        "slideId": "S52",
+        "path": "production/preview/full/S52.png",
+        "sha256": "3f253e201296daafb769b2e55695a1ca491dab4a99f3627b83954962ca86a77e",
+        "source102Id": "S49"
+      },
+      {
+        "slideId": "S53",
+        "path": "production/preview/full/S53.png",
+        "sha256": "f39edc56376b8e45fffa06a3459d15e7166122d1ef53dda0fd4dbb34879a8216",
+        "source102Id": "S50"
+      },
+      {
+        "slideId": "S61",
+        "path": "production/preview/full/S61.png",
+        "sha256": "5b4d8fa934aac097bba9ffe0c8a70bbcd11f38ba87cf1358c62405bffdaa2c64",
+        "source102Id": "S57"
+      },
+      {
+        "slideId": "S62",
+        "path": "production/preview/full/S62.png",
+        "sha256": "ba4f39dc14cbff585c7028a0cb69f9db01516e7339b350ed4b799c40199950c4",
+        "source102Id": "S58"
+      },
+      {
+        "slideId": "S66",
+        "path": "production/preview/full/S66.png",
+        "sha256": "97e5e90c327aa0d7fc9733f1eda474f0629afc74de57f57e4faec23668b4dac3",
+        "source102Id": "S62"
+      },
+      {
+        "slideId": "S67",
+        "path": "production/preview/full/S67.png",
+        "sha256": "ab6942486edfaf62bfdcb8c9ad5dd767168bf8fbbd60617a8973eda1eafaf1f3",
+        "source102Id": "S63"
+      },
+      {
+        "slideId": "S68",
+        "path": "production/preview/full/S68.png",
+        "sha256": "0e3bd61788ae4fd2f5530bc483a7c39c39769977fbfe915168f4df504d1ab1e7",
+        "source102Id": "S64"
+      },
+      {
+        "slideId": "S69",
+        "path": "production/preview/full/S69.png",
+        "sha256": "b11ecbf5b3dd0fbfdbe99c1aa3570e74ad94328f2988d2e49a5fc0b61791a5e2",
+        "source102Id": "S65"
+      },
+      {
+        "slideId": "S70",
+        "path": "production/preview/full/S70.png",
+        "sha256": "9eed5c7fee9c66060d0dde4b9285aa9b1c7f2664b2fec750b827a7c9f94210c7",
+        "source102Id": "S66"
+      },
+      {
+        "slideId": "S71",
+        "path": "production/preview/full/S71.png",
+        "sha256": "2e586f334e638bac6e8b972a58c33f06d3db9a208872a7480a42ea4d0144a951",
+        "source102Id": "S67"
+      },
+      {
+        "slideId": "S77",
+        "path": "production/preview/full/S77.png",
+        "sha256": "da5b5b24c9a302dd49334c0bc8bc64e0ab24502065713740e98e4f706e4487cd",
+        "source102Id": "S72"
+      },
+      {
+        "slideId": "S78",
+        "path": "production/preview/full/S78.png",
+        "sha256": "d60cc5cdfaf4a26e3aaaa4761703cae9167541271913ce08775d39ed39ce1fde",
+        "source102Id": "S73"
+      },
+      {
+        "slideId": "S80",
+        "path": "production/preview/full/S80.png",
+        "sha256": "c1230ef6e6bfaa6de3ed04a5b9b35f64794b048936d92384a09ab3466e1e400d",
+        "source102Id": "S75"
+      },
+      {
+        "slideId": "S81",
+        "path": "production/preview/full/S81.png",
+        "sha256": "c2083d3449cb10c441c7dfcbe4e51d2235854c5c5646187d1152daf24df32cee",
+        "source102Id": "S76"
+      },
+      {
+        "slideId": "S85",
+        "path": "production/preview/full/S85.png",
+        "sha256": "49d695d696df44b630d938fbb4d3c731952e96faba9c2d49a7b4d98cc31baa67",
+        "source102Id": "S80"
+      },
+      {
+        "slideId": "S87",
+        "path": "production/preview/full/S87.png",
+        "sha256": "ea9069c91ef59ed194750d07b76ea95be93a8524a2b03534e998c4263edee0f3",
+        "source102Id": "S82"
+      },
+      {
+        "slideId": "S88",
+        "path": "production/preview/full/S88.png",
+        "sha256": "5f8d1c2e7efe33671a4661eaa00dafe9206f1361ccc36597c779ca0808877be0",
+        "source102Id": "S83"
+      },
+      {
+        "slideId": "S89",
+        "path": "production/preview/full/S89.png",
+        "sha256": "68252f3bffea5b31142ba1b780e5ccce2115319199949420641f2f9d8f1d482b",
+        "source102Id": "S84"
+      },
+      {
+        "slideId": "S90",
+        "path": "production/preview/full/S90.png",
+        "sha256": "2323bd27d6b4e163bdd123d8438698014831d9122aa186d31ffc62a2d0d838af",
+        "source102Id": "S85"
+      },
+      {
+        "slideId": "S95",
+        "path": "production/preview/full/S95.png",
+        "sha256": "8b323c5a85aec8dbdee82b7734cffad2158e8720659c4041a32789fde5da64a0",
+        "source102Id": "S89"
+      },
+      {
+        "slideId": "S96",
+        "path": "production/preview/full/S96.png",
+        "sha256": "61a733caa0bd16cecfa40003dbb1ad57f63efd5b5d2bc0f0f7e4f95c5f45589a",
+        "source102Id": "S90"
+      }
+    ],
+    "newDemoMinutes": 0
+  },
+  "officeSchemaValidation": {
+    "status": "UNAVAILABLE",
+    "reason": "Bundled Python lacks defusedxml; no dependency installation.",
+    "firstPartyPackageGeometryReimport": "PASS"
+  },
+  "referenceNotesFixes": [
+    {
+      "slideId": "S47",
+      "field": "Claim Boundary",
+      "currentReference": "S45–S46"
+    },
+    {
+      "slideId": "S48",
+      "field": "Demo Operation",
+      "currentReference": "S51–S53"
+    },
+    {
+      "slideId": "S49",
+      "field": "Demo Operation",
+      "currentReference": "S51–S53"
+    },
+    {
+      "slideId": "S50",
+      "field": "Evidence / Source",
+      "currentReference": "S51–S53"
+    },
+    {
+      "slideId": "S50",
+      "field": "Demo Operation",
+      "currentReference": "S51–S53"
+    }
+  ],
+  "visualReview": {
+    "status": "PASS — local rendering only",
+    "allACTsReviewed": 6,
+    "allPagesCovered": 108,
+    "titlePagesReviewed": [
+      "S01",
+      "S15",
+      "S37",
+      "S56",
+      "S75",
+      "S94"
+    ],
+    "reviewedDraftFinalPairs": 12,
+    "storyHandoffs": "prior question, ACT title, original first problem",
+    "newClippingOrOverlap": "none observed",
+    "windowsRoomRehearsal": "UNVERIFIED"
+  }
+}

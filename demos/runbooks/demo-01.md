@@ -1,6 +1,6 @@
 # DEMO-01 — Repository Exploration
 
-> Current references: DEC-0088 /102slides/390minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_102.md. The only tip index block is S99–S101 before final Q&A; no Demo time or Trial result changes. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0090 /108slides/396minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_108.md. ACT title pages add no Demo time, Trial or result. The final tip block is S105–S107. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — Anchor candidate
@@ -51,7 +51,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-Recorded test → implementation → call path, crop specification mismatch, read-only limit. S05–S06 explicitly shows the first source row and intended width 2 versus included width 3. S07–S08's code-only Chatbot question is a teaching assumption; it does not report a tool comparison or permission repair. S04 shows the actual request in a reconstructed input panel; its right-side GoogleTest list is a fictional C++ teaching example. The historical Trial used Python unittest, not GoogleTest.
+Recorded test → implementation → call path, crop specification mismatch, read-only limit. S06–S07 explicitly shows the first source row and intended width 2 versus included width 3. S08–S09's code-only Chatbot question is a teaching assumption; it does not report a tool comparison or permission repair. S05 shows the actual request in a reconstructed input panel; its right-side GoogleTest list is a fictional C++ teaching example. The historical Trial used Python unittest, not GoogleTest.
 
 ## Success Criteria
 
@@ -59,14 +59,14 @@ Explain the bounded finding and distinguish repository access from task intent.
 
 ## Expected Output
 
-S05 shows expected width2 versus included width3 using the first source row.
-S06 connects the failing Test, end-exclusive specification, implementation
+S06 shows expected width2 versus included width3 using the first source row.
+S07 connects the failing Test, end-exclusive specification, implementation
 and separate Product call path. The graph is not an Agent access timeline;
 README already described the defect. No code was changed in TRIAL-001.
-S07 separately shows the temp-directory creation limit under read-only
-permissions, not a crop defect or successful permission repair. S08 gathers
-the needed file/log/permission context. S09 is a manual-attachment teaching
-assumption; S10 recalls the bounded Agent investigation. S04's GoogleTest
+S08 separately shows the temp-directory creation limit under read-only
+permissions, not a crop defect or successful permission repair. S09 gathers
+the needed file/log/permission context. S10 is a manual-attachment teaching
+assumption; S11 recalls the bounded Agent investigation. S05's GoogleTest
 image remains a fictional C++ teaching setup; the actual Trial used Python.
 No new run, raw capture or tool-superiority comparison is introduced.
 
@@ -78,11 +78,11 @@ Evidence limit: Codex CLI 0.154.0 only; no current Desktop, repeated success, ge
 
 ## Estimated Time
 
-8m Demo slot is S05:4m + S06:4m. S04 setup remains separate Lecture2;
-S07 Case3 + S08 Case2 retain the earlier interpretation budget. S09 Lecture2
-is the approved addition; S10 Lecture2 retains the Agent callback.
+8m Demo slot is S06:4m + S07:4m. S05 setup remains separate Lecture2;
+S08 Case3 + S09 Case2 retain the earlier interpretation budget. S10 Lecture2
+is the approved addition; S11 Lecture2 retains the Agent callback.
 
-Phase plan: S05 outcome4m → S06 evidence4m. No new Live phase or cutoff.
+Phase plan: S06 outcome4m → S07 evidence4m. No new Live phase or cutoff.
 
 Time Risk: MEDIUM
 Execution Risk: MEDIUM
@@ -102,11 +102,11 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is offline static playback. Open production/preview/full/S04.png,
-S05.png, S06.png, S07.png and S08.png in the same directory. S05/S06 are the
+Default is offline static playback. Open production/preview/full/S05.png,
+S06.png, S07.png, S08.png and S09.png in the same directory. S06/S06 are the
 8Demo minutes; the other pages retain their separately assigned modes.
 Keep reconstructed-diagram, old-CLI/read-only and teaching-model labels.
-S09/S10 are Lecture support pages, not extra Demo time or a permission fix.
+S10/S10 are Lecture support pages, not extra Demo time or a permission fix.
 
 Fallback readiness: READY for current local static files only; see
 FALLBACK_MANIFEST.md and production/evaluation/ACT_0_CONTEXT_EXPANSION.md.
@@ -122,7 +122,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S07–S08 → S09–S10: repository access does not reveal developer intent.
+S08–S09 → S10–S11: repository access does not reveal developer intent.
 
 ## Evidence
 
