@@ -74,3 +74,14 @@ loop cost, false positives, eval overfitting, flaky tests, unreviewed automation
 ## Sources
 
 SRC-0118, SRC-0119, SRC-0120, SRC-0140, SRC-0222, SRC-0223, SRC-0224
+
+
+## DEC-0098 — Documented Goal continuation as a product application
+
+Current S99/S100 illustrate Goal using SRC-0240/0241/0242 and CLM-0046/0047.
+Persistent thread state and continuation help keep work moving toward a
+defined outcome. Verification criteria and implementation/review role design
+still need task-specific choices. This guidance does not activate Goal,
+establish automatic heterogeneous-model review or extend the actual Demo
+history. ACT5 distinguishes the guidance, Product history and consolidation
+decisions. See plan/GOAL_TIPS_AND_ACT5_HANDOFF.md for the approved placement.

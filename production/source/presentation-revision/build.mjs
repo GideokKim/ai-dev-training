@@ -13,6 +13,7 @@ import {migrate108Factories,harnessReuseFactories} from './harness-reuse.mjs';
 import {migrate113Factories,codexAuthoringTipFactories} from './codex-authoring-tips.mjs';
 import {act4LoopControlFactories} from './act4-loop-control.mjs';
 import {goalLoopFactories} from './act4-goal-loop.mjs';
+import {goalTipFactories} from './goal-tips.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
@@ -35,7 +36,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d{2,3}) — ([\s\S]*?)(?=^#### S\d{2,3}|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==114)throw new Error('Expected 114 source records.');
+if(Object.keys(map).length!==116)throw new Error('Expected 116 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -75,13 +76,13 @@ for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,current,codexAuthoringTipFactories());
 Object.assign(factories,act4LoopControlFactories({...factories}));
 // Replace ACT4 at the115-ID stage, delete its old S100, then shift ACT5 once.
-// Current title/tip configurations already contain114IDs and apply afterward.
-const goalLoop=goalLoopFactories({...factories});
+// Current title/tip configurations contain116IDs after Goal-tip migration.
+const goalLoop=goalTipFactories(goalLoopFactories({...factories}));
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,goalLoop,practicalTipIndexFactories(tipConfig,H),actTitleFactories(titleConfig,H));
 const tipRecords=Object.fromEntries(tipConfig.tips.map(t=>[t.slideId,t]));
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
-if(moduleMap.slides.length!==114)throw new Error('Expected 114 legacy module mappings.');
+if(moduleMap.slides.length!==116)throw new Error('Expected 116 legacy module mappings.');
 const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));
 const notes={};
 for(let act=0;act<6;act++){

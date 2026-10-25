@@ -1,17 +1,17 @@
 # STEP 08 — Slide-to-Template Mapping
 
-## 현재 기준 — DEC-0097
+## 현재 기준 — DEC-0098
 
-114장·406분. ACT4 S82–S99는18장·81분, ACT5는 S100–S114의15장·40분이다. ACT 장수14/22/19/26/18/15와 시간43/64/82/96/81/40분. Mode Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+116장·410분(6시간50분). ACT4 S82–S101은20장·85분, ACT5는 S102–S116의15장·40분이다. ACT 장수14/22/19/26/20/15와 시간43/64/82/96/85/40분. Mode Lecture176/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
 
-12Templates/28Variants의 라이브러리를 유지한다. 미사용 Template는 검증 완료로 상향하지 않는다.
-ACT4에는 기존 T12/T03/T04/T07/T09/T01 변형을 사용한다. Native 표는 S53/S62, Native 차트는 S66/S93이다.
+12Templates/28Variants 라이브러리를 유지한다. S99/S100은 기존 T03-C와 공통 팁 배지를 사용한다.
+Native 표 S53/S62와 Native 차트 S66/S93은 유지한다. 미사용 Template를 검증 완료로 상향하지 않는다.
 
 | Template | Current slides |
 |---|---:|
 | T01 | 7 |
 | T02 | 6 |
-| T03 | 48 |
+| T03 | 50 |
 | T04 | 17 |
 | T05 | 4 |
 | T06 | 4 |
@@ -21,7 +21,7 @@ ACT4에는 기존 T12/T03/T04/T07/T09/T01 변형을 사용한다. Native 표는 
 | T10 | 6 |
 | T11 | 0 |
 | T12 | 6 |
-| Total | 114 |
+| Total | 116 |
 
 | Slide | Primary Template | Required components | Optional | Evidence | Demo / Case | Operation | C++ | Checks |
 |---|---|---|---|---|---|---|---|---|
@@ -123,22 +123,28 @@ ACT4에는 기존 T12/T03/T04/T07/T09/T01 변형을 사용한다. Native 표는 
 | S96 — 검토 모델의 말도 확인해야 한다 | T03-C | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
 | S97 — 반복하려면 무엇을 이어받아야 할까? | T03-B | CMP-CLAIM, CMP-LOOP | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
 | S98 — 확인한 근거와 아직 실행하지 않은 설계 | T03-A | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S99 — 우리 작업에는 어떤 루프가 필요할까? | T01-B | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S100 — 내 업무에 맞게 조합하고 덜어내기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
-| S101 — 문제에 맞춰, 일하는 방식을 넓혔다 | T03-C | CMP-WORKFLOW | CMP-CPP | T | DEMO-12 story callback only; Lecture, outside 2-minute visual slot | Single state | Contextual | V10 |
-| S102 — 실제 Demo는 문제에 맞춰 바뀌었다 | T07-C | CMP-STATE, CMP-EVIDENCE | CMP-CLAIM | P | DEMO-12; VISUAL2; three chronological groups retain all seven Product States; Loop paths separate; DEC-0082 | Single state | — | V01, V03, V05 |
-| S103 — 이번 문제에 필요한 구성만 선택했다 | T10-A | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-CPP | P+T; this project’s audit is not a universal feature-count comparison | — | Single state | Contextual | V01, V05, V08 |
-| S104 — 결과를 수용할지는 사람이 판단한다 | T03-A | — | — | T | — | Single state | — | V10 |
-| S105 — AI가 일할 조건과 확인 경로를 설계한다 | T03-A | — | CMP-CPP | T | — | Single state | Contextual | V08 |
-| S106 — 모델·플랫폼이 바뀌면 Harness도 다시 본다 | T04-A | CMP-CLAIM | — | R+T; vendor-published integration case; architecture adapted for teaching | No new Demo/Trial/State or measured effect | Single state; previous structure versus candidate, not a replay | Contextual | V01, V05 |
-| S107 — 무엇을 남기고, 무엇을 덜어낼까? | T10-A | CMP-DECISION, CMP-CLAIM | CMP-PRACTICAL-TIP | T; retain requirements, integrate overlaps, assess obsolete workaround | Three equal options; conditions before action; DEC-0083 | Single state | Contextual | V01, V05 |
-| S108 — 덜어낸 뒤에도 필요한 일을 하는가? | T03-C | CMP-CLAIM | CMP-PRACTICAL-TIP | T+R; evaluation design, no actual result | Same representative task/input/criteria; conditional adoption or rollback | Single state; two compared candidates, no PASS/FAIL values | Contextual | V01, V05 |
-| S109 — 내 업무에서는 무엇이 반복해서 막힐까? | T10-B | CMP-DECISION, CMP-CPP, CMP-CLAIM | — | T; C++ example stays a transfer model, not a verified project procedure | Same-level A–E symptoms include repeated/overlapping guidance and procedures; DEC-0083 | Single state | Primary | V08, V09 |
-| S110 — 고른 문제에서, 다음 행동 하나로 | T01-B | — | CMP-CPP | T | S109 same-letter action includes integration/removal candidates and source/reviewer/updater; private Reflection2; DEC-0083 | Single state | Contextual | V09 |
-| S111 — 실무 적용 팁 · 작업 환경과 기준 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
-| S112 — 실무 적용 팁 · 요청 작성 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
-| S113 — 실무 적용 팁 · 검증과 개선 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
-| S114 — Q&A와 교육 마무리 | T01-C | — | — | T | Q&A4 then Closing Transition2; original five-stage terminology; DEC-0082 | Single state | — | V10 |
+| S99 — Goal이 목표와 다음 작업을 이어준다 | T03-C | CMP-PRACTICAL-TIP, CMP-CLAIM, CMP-WORKFLOW | — | R+T; documented guidance adapted; target account unverified | Lecture2; no new Demo or Goal activation | Static editable explanatory diagram | — | V01, V02, V05 |
+| S100 — Goal에는 완료 근거와 멈출 조건을 담는다 | T03-C | CMP-PRACTICAL-TIP, CMP-CLAIM, CMP-WORKFLOW | — | R+T; documented guidance adapted; target account unverified | Lecture2; no new Demo or Goal activation | Static editable explanatory diagram | — | V01, V02, V05 |
+| S101 — 우리 작업에는 어떤 루프가 필요할까? | T01-B | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S102 — 내 업무에 맞게 조합하고 덜어내기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
+| S103 — 문제에 맞춰, 일하는 방식을 넓혔다 | T03-C | CMP-WORKFLOW | CMP-CPP | T | DEMO-12 story callback only; Lecture, outside 2-minute visual slot | Single state | Contextual | V10 |
+| S104 — 실제 Demo는 문제에 맞춰 바뀌었다 | T07-C | CMP-STATE, CMP-EVIDENCE | CMP-CLAIM | P | DEMO-12; VISUAL2; three chronological groups retain all seven Product States; Loop paths separate; DEC-0082 | Single state | — | V01, V03, V05 |
+| S105 — 이번 문제에 필요한 구성만 선택했다 | T10-A | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-CPP | P+T; this project’s audit is not a universal feature-count comparison | — | Single state | Contextual | V01, V05, V08 |
+| S106 — 결과를 수용할지는 사람이 판단한다 | T03-A | — | — | T | — | Single state | — | V10 |
+| S107 — AI가 일할 조건과 확인 경로를 설계한다 | T03-A | — | CMP-CPP | T | — | Single state | Contextual | V08 |
+| S108 — 모델·플랫폼이 바뀌면 Harness도 다시 본다 | T04-A | CMP-CLAIM | — | R+T; vendor-published integration case; architecture adapted for teaching | No new Demo/Trial/State or measured effect | Single state; previous structure versus candidate, not a replay | Contextual | V01, V05 |
+| S109 — 무엇을 남기고, 무엇을 덜어낼까? | T10-A | CMP-DECISION, CMP-CLAIM | CMP-PRACTICAL-TIP | T; retain requirements, integrate overlaps, assess obsolete workaround | Three equal options; conditions before action; DEC-0083 | Single state | Contextual | V01, V05 |
+| S110 — 덜어낸 뒤에도 필요한 일을 하는가? | T03-C | CMP-CLAIM | CMP-PRACTICAL-TIP | T+R; evaluation design, no actual result | Same representative task/input/criteria; conditional adoption or rollback | Single state; two compared candidates, no PASS/FAIL values | Contextual | V01, V05 |
+| S111 — 내 업무에서는 무엇이 반복해서 막힐까? | T10-B | CMP-DECISION, CMP-CPP, CMP-CLAIM | — | T; C++ example stays a transfer model, not a verified project procedure | Same-level A–E symptoms include repeated/overlapping guidance and procedures; DEC-0083 | Single state | Primary | V08, V09 |
+| S112 — 고른 문제에서, 다음 행동 하나로 | T01-B | — | CMP-CPP | T | S111 same-letter action includes integration/removal candidates and source/reviewer/updater; private Reflection2; DEC-0083 | Single state | Contextual | V09 |
+| S113 — 실무 적용 팁 · 작업 환경과 기준 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
+| S114 — 실무 적용 팁 · 요청 작성 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
+| S115 — 실무 적용 팁 · 검증과 개선 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
+| S116 — Q&A와 교육 마무리 | T01-C | — | — | T | Q&A4 then Closing Transition2; original five-stage terminology; DEC-0082 | Single state | — | V10 |
+
+## Historical mapping audits
+
+아래 검토는 당시 판본이며 현행 번호·장수·사용 범위는 위 표를 따른다.
 
 ## 이전 Template 설계 이력
 

@@ -1396,3 +1396,45 @@ Limitations: Historical model/task/setup limits. Do not claim all current models
 Notes: DEC-0097; ACT4 S92–S94; no new Trial.
 
 SRC-0223 Self-Refine was rechecked on2026-10-25: https://arxiv.org/abs/2303.17651 . Same-model iterative feedback/refinement; not a heterogeneous-model ablation.
+
+
+## DEC-0098 — Goal product guidance checked2026-10-25
+
+### SRC-0240
+
+Title: Long-running work
+Organization / Authors: OpenAI
+Source Type: OFFICIAL_DOC
+URL: https://learn.chatgpt.com/docs/long-running-work
+Checked:2026-10-25
+Tier:1
+Key Evidence: Documents /goal for the desktop app, CLI and IDE; outcome, constraints and verification; existing permissions remain.
+Limitations: Target-account availability and successful execution are unverified.
+Volatility:HIGH
+Notes: DEC-0098; S99/S100; documented guidance adapted, no activation/Trial.
+
+### SRC-0241
+
+Title: Using Goals in Codex
+Organization / Authors: OpenAI
+Source Type: OFFICIAL_DOC
+URL: https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex
+Checked:2026-10-25
+Tier:1
+Key Evidence: Describes thread-scoped persistent objectives, evidence-based continuation and lifecycle/budget boundaries.
+Limitations: No automatic heterogeneous code-review assignment or course efficacy result is established.
+Volatility:HIGH
+Notes: DEC-0098; S99/S100; documented guidance adapted, no activation/Trial.
+
+### SRC-0242
+
+Title: Slash commands
+Organization / Authors: OpenAI
+Source Type: OFFICIAL_DOC
+URL: https://learn.chatgpt.com/docs/reference/slash-commands
+Checked:2026-10-25
+Tier:1
+Key Evidence: Documents app /goal input and progress-row controls to pause/resume/edit/clear.
+Limitations: Do not substitute CLI lifecycle subcommands for desktop buttons or imply general web availability.
+Volatility:HIGH
+Notes: DEC-0098; S99/S100; documented guidance adapted, no activation/Trial.

@@ -1,8 +1,20 @@
 # ACT 4 — Speaker Notes
 
+Current: DEC-0098. 116장·410분(6시간50분). ACT4 S82–S101은20장·85분, ACT5는 S102–S116의15장·40분이다. ACT 장수14/22/19/26/20/15와 시간43/64/82/96/85/40분. Mode Lecture176/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+19-field schema. Product/account/Windows/room/timed rehearsal: UNVERIFIED.
+
+
+<details>
+<summary>이전 판본의 Notes 안내 — 당시 번호·시간·검토 범위</summary>
+
+# ACT 4 — Speaker Notes
+
 Current: DEC-0097 /114slides/406minutes. 114장·406분. ACT4 S82–S99는18장·81분, ACT5는 S100–S114의15장·40분이다. ACT 장수14/22/19/26/18/15와 시간43/64/82/96/81/40분. Mode Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
 19-field schema. Current records and final embedded Notes are compared during local validation.
 Windows/room/product-account/timed rehearsal UNVERIFIED.
+
+
+</details>
 
 ## S82 — 목표를 이룰 때까지 수정하고 검토하기
 
@@ -1016,7 +1028,7 @@ N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 G
 N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-다음은 우리 작업에는 어떤 루프가 필요할까?의 질문으로 이어간다.
+설계·논문·실제 기록을 구분했습니다. 이어서 목표를 유지하며 작업을 계속하는 공식 Goal 기능을 실무 팁으로 살펴봅니다.
 
 **Time Management:**
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
@@ -1027,10 +1039,132 @@ LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S98; production/preview/act4/
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S99 — 우리 작업에는 어떤 루프가 필요할까?
+## S99 — Goal이 목표와 다음 작업을 이어준다
 
 **Slide ID:**
 S99
+
+**Working Title:**
+Goal이 목표와 다음 작업을 이어준다
+
+**ACT / Section:**
+ACT 4 / 4T1 Goal continuation
+
+**Allocated Time:**
+2 minutes
+
+**Mode Split:**
+Lecture 2분
+
+**Primary Message:**
+Goal은 턴을 넘어 목표·상태를 유지하고 근거 확인 뒤 계속 수행을 연결한다. 완료 기준과 검증·검토 역할은 작업에 맞게 설계한다.
+
+**Opening Question:**
+매번 계속하라고 요청하지 않고, 같은 목표를 이어갈 수 있을까?
+
+**Speaker Flow:**
+1. (0:00–0:35 / Lecture) ChatGPT 데스크톱의 /goal 입력 경로를 짚는다. 현재 화면은 사용법을 설명하는 도식이고 실행 캡처가 아님을 확인한다.
+2. (0:35–1:20 / Lecture) 목표가 턴을 넘어 유지되고 작업 뒤 근거를 보아 계속/완료를 판단하는 경로를 읽는다. 실제 제어는 앱의 안전한 작업 경계에서 이루어지며 무한 실행·목표 달성 보장을 뜻하지 않는다.
+3. (1:20–2:00 / Lecture) Goal의 계속 수행 기능과 별도 검증·다른 모델 검토 역할을 구분한다. 교육 계정의 기능 노출과 실행 환경은 후속 확인 대상으로 남긴다.
+
+**Evidence / Source:**
+SRC-0240; SRC-0241; SRC-0242; CLM-0046; DEC-0098. Official pages checked2026-10-25: https://learn.chatgpt.com/docs/long-running-work; https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex; https://learn.chatgpt.com/docs/reference/slash-commands. 교육용 요청·도식이며 실행 캡처나 기존 Trial의 생성 이력이 아니다.
+
+**Claim Boundary:**
+FROZEN WITH SCOPE — 공식 문서로 확인한 기능·안내와 교육용 도식. 사내 계정/버전/설정의 사용 가능 여부는 REQUIRES PRODUCT CHECK. 자동 다중 모델 배정·완료 보장·시간/비용 절감을 주장하지 않는다.
+
+**Beginner Explanation:**
+Goal은 턴을 넘어 목표·상태를 유지하고 근거 확인 뒤 계속 수행을 연결한다. 완료 기준과 검증·검토 역할은 작업에 맞게 설계한다.
+
+**Advanced Insight:**
+Goal은 대화 범위의 목표·상태와 계속 수행 제어다. 권한을 확대하지 않으며 다른 모델의 코드 검토자를 자동 배정한다는 근거로 쓰지 않는다. 일반 요청 안에서도 수정·테스트가 반복될 수 있다.
+
+**C++ Vision Bridge:**
+N/A — C++ 명령·새 사례를 추가하지 않는다.
+
+**Demo Operation:**
+N/A — 정적 제품 안내 도식. 명령을 입력하거나 Goal을 활성화하지 않는다. 사내 환경의 기능 노출·계정·권한·실행 상태는 후속 확인 대상이다.
+
+**Audience Interaction:**
+필수 응답·실습 없음. 예시에서 완료 근거와 미완료 보고 조건을 눈으로 확인하게 한다.
+
+**Transition:**
+기능이 계속 수행을 연결하더라도, 무엇이 완료인지 요청에 적어야 합니다. 다음은 Goal 작성 예시입니다.
+
+**Time Management:**
+Lecture2분. 제품 설정 강의나 실제 실행으로 확장하지 않는다. 초과 시 부가 설명을 줄이고 기능/검증의 구분과 다음 전환을 유지한다. 실제 리허설 UNVERIFIED.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S99, production/preview/full/S99.png. 설명용 도식이며 원본 제품 캡처로 표현하지 않는다. 실제 발표 PC 재생은 UNVERIFIED.
+
+**Validation Status:**
+CONTENT ALIGNED — DEC-0098. 문서 근거 확인과 로컬 제작 검토는 별개이며 최종 렌더·Notes 대조 결과는 GOAL_TIPS_AND_ACT5_HANDOFF.md에 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+
+## S100 — Goal에는 완료 근거와 멈출 조건을 담는다
+
+**Slide ID:**
+S100
+
+**Working Title:**
+Goal에는 완료 근거와 멈출 조건을 담는다
+
+**ACT / Section:**
+ACT 4 / 4T2 Goal request
+
+**Allocated Time:**
+2 minutes
+
+**Mode Split:**
+Lecture 2분
+
+**Primary Message:**
+Goal 요청에는 원하는 변화, 보존 조건, 완료를 확인할 근거와 막혔을 때 보고할 조건을 담는다. 같은 기준으로 진행을 판단한다.
+
+**Opening Question:**
+언제 끝내고 언제 미완료를 보고할지, Goal에 무엇을 적을까?
+
+**Speaker Flow:**
+1. (0:00–0:25 / Lecture) 막연한 성능 개선 Goal에는 완료 근거가 없음을 짚는다.
+2. (0:25–1:30 / Lecture) 요청창을 위에서 아래로 읽는다. 할당량 감소 목표와 출력 보존, 같은 입력의 테스트·벤치마크, 실행시간 회귀 조건을 대응시킨다. 기준판·대표 입력·측정 방법은 실행 전에 확정하고 승인받을 범위 안에서 사용한다.
+3. (1:30–2:00 / Lecture) 검증 불가·반복 실패는 미완료 사유와 필요한 판단을 보고하도록 요청한다. 다른 모델 검토가 필요한지는 별도로 설계하며 이 예시를 실행하지 않는다.
+
+**Evidence / Source:**
+SRC-0240; SRC-0241; CLM-0047; DEC-0098. Official pages checked2026-10-25: https://learn.chatgpt.com/docs/long-running-work; https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex; https://learn.chatgpt.com/docs/reference/slash-commands. 교육용 요청·도식이며 실행 캡처나 기존 Trial의 생성 이력이 아니다.
+
+**Claim Boundary:**
+FROZEN WITH SCOPE — 공식 작성 안내를 각색한 교육용 Goal 예시이며 활성화·명령 실행·측정·완료 결과가 아니다. 기준판·대표 입력·측정 방법을 실제 사용 전에 확정한다. 현재 다중 모델 조합의 성과를 증명하지 않는다.
+
+**Beginner Explanation:**
+Goal 요청에는 원하는 변화, 보존 조건, 완료를 확인할 근거와 막혔을 때 보고할 조건을 담는다. 같은 기준으로 진행을 판단한다.
+
+**Advanced Insight:**
+측정값 자체보다 어떤 기준판·대표 입력·환경·측정 방법을 고정할지가 중요하다. 검토 모델의 동의나 Goal의 완료 표시가 도구 근거와 최종 수용을 대신하지 않는다.
+
+**C++ Vision Bridge:**
+N/A — C++ 명령·새 사례를 추가하지 않는다.
+
+**Demo Operation:**
+N/A — 정적 제품 안내 도식. 명령을 입력하거나 Goal을 활성화하지 않는다. 사내 환경의 기능 노출·계정·권한·실행 상태는 후속 확인 대상이다.
+
+**Audience Interaction:**
+필수 응답·실습 없음. 예시에서 완료 근거와 미완료 보고 조건을 눈으로 확인하게 한다.
+
+**Transition:**
+이 기능을 활용하더라도 우리 작업의 목표·검증·검토 판단은 남습니다. S101에서 필요한 루프를 정리한 뒤 ACT5의 조합과 덜어내기로 넘어갑니다.
+
+**Time Management:**
+Lecture2분. 제품 설정 강의나 실제 실행으로 확장하지 않는다. 초과 시 부가 설명을 줄이고 기능/검증의 구분과 다음 전환을 유지한다. 실제 리허설 UNVERIFIED.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S100, production/preview/full/S100.png. 설명용 도식이며 원본 제품 캡처로 표현하지 않는다. 실제 발표 PC 재생은 UNVERIFIED.
+
+**Validation Status:**
+CONTENT ALIGNED — DEC-0098. 문서 근거 확인과 로컬 제작 검토는 별개이며 최종 렌더·Notes 대조 결과는 GOAL_TIPS_AND_ACT5_HANDOFF.md에 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+
+## S101 — 우리 작업에는 어떤 루프가 필요할까?
+
+**Slide ID:**
+S101
 
 **Working Title:**
 우리 작업에는 어떤 루프가 필요할까?
@@ -1045,15 +1179,15 @@ ACT 4 / 4R6 Evidence and transfer
 Reflection 2분 + Q&A 7분 + Transition 2분
 
 **Primary Message:**
-내 업무의 목표·피드백·운영 판단을 떠올리고 ACT5의 조합·통합·제거로 이어간다.
+Goal의 계속 수행 기능을 활용하되 내 업무에 필요한 목표·근거·검토 역할을 정리하고 ACT5의 조합·통합·제거로 이어간다.
 
 **Opening Question:**
 내 작업에서 검토 결과가 다음 수정으로 돌아가려면 무엇이 필요할까?
 
 **Speaker Flow:**
-1. (0:00–2:00 / Reflection) 목표 하나와 완료를 판단할 근거를 마음속으로 고른다. 어떤 검토 지적이 다음 수정으로 이어져야 하는지 생각하게 하며 기록·발표·실습은 요구하지 않는다.
-2. (2:00–9:00 / Q&A) 질문을 받되 제품 기능·실측 효과는 확인 범위 안에서 답한다. 질문이 없으면 “두 모델이 동의했지만 테스트가 실패했다면?”, “계속 같은 지적이면 언제 사람에게 넘길까?”를 사용한다. 마지막 1분에는 남은 질문을 정리하고 새 사례를 열지 않는다.
-3. (9:00–11:00 / Transition) 요청·Context·방법·검증·반복 판단이 어떻게 이어졌는지 한 문장으로 회수한다. 모든 작업에 두 모델·모든 단계를 추가하는 것이 목표는 아니라고 연결하고 S100의 ACT5 제목으로 넘긴다.
+1. (0:00–2:00 / Reflection) Goal이 맡는 계속 수행과, 내 업무에서 여전히 정할 목표·검증·검토를 구분해 생각하게 한다. 기존 목표·피드백·운영의 세 질문을 한 번씩 가리킨다.
+2. (2:00–9:00 / Q&A) 질문을 받는다. 무질문이면 두 모델의 동의와 테스트 실패가 충돌할 때의 판단 또는 Goal이 완료를 보고했지만 측정이 빠진 상황을 묻는다. 새 기능 실행이나 정답 발표는 요구하지 않는다.
+3. (9:00–11:00 / Transition) 플랫폼 기능을 활용하되 필요한 기준과 검토를 조합한다는 문장으로 회수한다. S102의 ACT5 제목을 거쳐 S103의 대응 선택으로 넘긴다.
 
 **Evidence / Source:**
 DEC-0097; BEAT-083; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -1074,16 +1208,16 @@ N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 G
 정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
 
 **Audience Interaction:**
-Reflection2분 → Q&A7분 → Transition2분. 질문이 없으면 “두 모델은 동의했는데 테스트가 실패했다면?”, “같은 지적이 반복되면 언제 사람에게 넘길까?”를 사용한다. Q&A 마지막1분에 새 질문을 묶고, 9분에 전환으로 들어간다.
+Reflection2분→Q&A7분→Transition2분. 무질문이면 “Goal은 완료라고 했는데 측정 근거가 없다면?”을 사용한다. 9분에 전환으로 들어가고 11분에 마친다.
 
 **Transition:**
-S100의 ACT5 제목을 거쳐 S101에서 전체 여정을 회수하고 필요한 조합·통합·제거를 생각한다.
+Goal의 계속 수행을 활용해도 검증과 역할을 모두 직접 구현할 필요는 없습니다. S102의 ACT5 제목을 거쳐 S103에서 필요한 대응의 조합을 생각합니다.
 
 **Time Management:**
 Reflection 2분 + Q&A 7분 + Transition 2분 = 11분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S99; production/preview/act4/S99.png 및 production/preview/full/S99.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S101; production/preview/act4/S101.png 및 production/preview/full/S101.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.

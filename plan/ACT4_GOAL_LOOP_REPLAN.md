@@ -1,5 +1,7 @@
 # ACT4 재기획 — 목표 달성까지 구현·검토·수정하기
 
+현재 추가 승인: DEC-0098. 이 문서의18장·81분은 보존한 기반 설계다. Goal 팁2장·Lecture4분을 추가해 현재 ACT4는 S82–S101의20장·85분이다. 전체116장·410분과 현행 번호는 [Goal 적용·연결 설계](GOAL_TIPS_AND_ACT5_HANDOFF.md)를 따른다. 아래 이전 판본의 번호·제작 범위는 당시 기록이다.
+
 Date: 2026-10-25. Inspected baseline: `ee0add1`.
 Decision: [DEC-0096](DECISIONS.md#dec-0096--recenter-the-act4-planning-brief-on-goal-directed-review-loops).
 

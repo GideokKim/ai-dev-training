@@ -1,5 +1,57 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+현재 기준: **DEC-0098 /116장·410분(6시간50분)**. S98 뒤에 Goal 실무 적용 팁
+S99/S100을 Lecture2분씩 추가했다. 기존114장의 시간·Mode·근거는 유지하며
+이전 S99–S114는 S101–S116이다. ACT4는20장·85분, ACT5는15장·40분이다.
+
+## 사용할 자료
+
+- [최신 통합 PPT](../AI_Dev_Training_Full.pptx)
+- [ACT4](../ACT_4.pptx), [ACT5](../ACT_5.pptx)
+- [Goal S99](../preview/full/S99.png), [Goal 작성 S100](../preview/full/S100.png)
+- [전체 Notes](../notes/FULL_SPEAKER_NOTES.md)
+- [이번 추가·연결 검토](GOAL_TIPS_AND_ACT5_HANDOFF.md)
+- [실환경 체크리스트](USER_VALIDATION_CHECKLIST.md), [예상 질문](../presenter/EXPECTED_QA.md)
+- [정적 대안 자료](../../demos/runbooks/FALLBACK_MANIFEST.md)
+- [현행 Map](../../plan/SLIDE_MAP.md), [114→116 번호](../../plan/SLIDE_ID_MIGRATION_116.md)
+
+Goal은 목표·계속 수행을 잇는 공식 기능 안내이며, 다른 모델 검토자 자동 배정이나
+목표 달성을 보장하는 것으로 설명하지 않는다. 새 요청·도식은 사용법 각색이며 실행·
+측정 결과가 아니다. ACT5 실제 제품 이력에서 Goal·다중 모델의 실행 검증을 분리했다.
+대응 선택→실제 이력→구성 선택→수용 책임→플랫폼 변화/통합·제거로 이어진다.
+
+Full116+ACT4/5 35장을 재입력·렌더링하고 보존 ACT0–3과 합친232PNG의116장
+대응,116×19Notes·새3PPTX 내장151Notes, 기존114장 배정·17그림·Native 근거를
+대조했다.6ACT 연락판과 S98–S116 개별 화면을 검토했고 S01–S98은 픽셀까지 동일하다.
+Package/layout findings0; 기존 S53 표0.01in 경고는 실환경 후속 확인 대상이다.
+
+ACT 장수14/22/19/26/20/15, 시간43/64/82/96/85/40분.
+Mode Lecture176/Demo51/Case103/Reflection22/Transition26/Q&A32분.
+12Templates/28Variants·19Notes 필드·21본문 팁과 마지막 목록 S113–S115를 따른다.
+Windows·발표 PC 글꼴·교육장·제품/계정·Goal 실행·실측 리허설은 UNVERIFIED다.
+Demo 저장소·기존 Trial/State·원본 근거·Prototype·발표 묶음은 변경하지 않았다.
+
+## 현재 파일 식별
+
+| 파일 | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `8f2b457daf06ae9bc1d5ff3c828924a231131b06f412c028a5b65a175d33b711` |
+| `production/ACT_0.pptx` | `1e3794fa89ca0ccd039eeac54f43b679d82c3f8c1ecc6f6e0b384cc9630b6109` |
+| `production/ACT_1.pptx` | `4cf6f12e55cbace8b4deac8ce3267bd94a1d0fa0687817f85e7416a3fbb83901` |
+| `production/ACT_2.pptx` | `baa82f305eb9c8b578d5a3433bea80f3a8ba1cddfc0045c107c4bfffab6b2ab6` |
+| `production/ACT_3.pptx` | `426f8031285a4de91676980fc20b936cef941ace9f1bea43540575120eeceaa7` |
+| `production/ACT_4.pptx` | `e735b96c49906df88218e9a157dfdc28d64bae71c289a5031e6e9509c367e703` |
+| `production/ACT_5.pptx` | `f176be27171734fabfe51646bc71b691093a9dafc25ebcae5cc2fe7a6b1b4473` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `11fe66b870dcdde5964c6476488e14e3d8ab8b2c2a7eed3e4ab3cba505d57775` |
+| `production/preview/full/montage.png` | `ba0701546a3975339c11ca7169a077cc21bb9d2aee9f757ea15ff048195fdab7` |
+
+<details>
+<summary>이전 전달 기록 — 당시 판본·검증 범위 보존</summary>
+
+아래 현재/최신·번호·시간·해시는 당시 기록이며 위 DEC-0098이 우선한다.
+
+# 최종 전달 안내 — AI 개발자 교육
+
 현재 기준: **DEC-0097 /114장·406분(6시간46분)**. ACT4를 같은 목표의 구현·검토·수정·
 재검토 루프로 바꾸고 서로 다른 모델의 관점을 다룬 연구를 조건과 함께 연결했다.
 기존 S100 GPU 장을 삭제했으며 ACT4는 S82–S99, ACT5는 S100–S114다.
@@ -729,5 +781,7 @@ S82: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
 이전 2026-10-20 및 2026-10-19 ZIP은 역사적 묶음으로 보존한다.
 현재 번호 기준은 DEC-0043, 기존 패키징 정책은 DEC-0031이며 묶음 생성은 보류한다. 기존 `origin/main`의 저장소 push는
 현장 검증 통과나 청중 대상 전달 완료를 뜻하지 않는다.
+
+</details>
 
 </details>

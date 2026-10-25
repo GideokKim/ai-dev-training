@@ -1,5 +1,11 @@
 # Current presentation source
 
+현재 제작판: **DEC-0098 /116장·410분**. Goal 팁 S99/S100과 ACT4→ACT5 연결을 정렬한다. ACT4 S82–S101/20장·85분, ACT5 S102–S116/15장·40분. 기존114장의 배정·근거는 유지하며 제품·실환경·리허설은 미검증이다.
+
+[Goal 적용과 연결 설계](../../../plan/GOAL_TIPS_AND_ACT5_HANDOFF.md).
+
+아래 이전 판본의 장수·번호·검증 기록은 당시 범위다.
+
 Current: DEC-0097 /114slides/406minutes. `act4-goal-loop.mjs` applies after
 the retained115-ID adapters and deletes old S100 before shifting ACT5 once.
 Current114-ID title/tip factories apply afterward. `act4-goal-loop.json`

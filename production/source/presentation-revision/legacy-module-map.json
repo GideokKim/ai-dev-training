@@ -956,7 +956,7 @@
       "slideId": "S99",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "코딩·리뷰·검사 근거의 공통 원리만 연결한다. 목표 기반 루프와 다중 모델 연구는 현행 신규 확장이다.",
+      "rationale": "공식 Goal 기능·작성 안내를 적용한 신규 확장. 기존 M 모듈 전체 충족으로 해석하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -964,12 +964,28 @@
       "slideId": "S100",
       "modules": [],
       "scope": "new_extension",
+      "rationale": "공식 Goal 기능·작성 안내를 적용한 신규 확장. 기존 M 모듈 전체 충족으로 해석하지 않는다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 신규 확장"
+    },
+    {
+      "slideId": "S101",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "코딩·리뷰·검사 근거의 공통 원리만 연결한다. 목표 기반 루프와 다중 모델 연구는 현행 신규 확장이다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 신규 확장"
+    },
+    {
+      "slideId": "S102",
+      "modules": [],
+      "scope": "new_extension",
       "rationale": "ACT 제목·부제를 안내하는 도입 표지이며 기존 M1–M9의 교수 연결을 추가하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · ACT 안내"
     },
     {
-      "slideId": "S101",
+      "slideId": "S103",
       "modules": [
         "M1",
         "M2"
@@ -980,7 +996,7 @@
       "footerLabel": "M 연계 · M1 · M2"
     },
     {
-      "slideId": "S102",
+      "slideId": "S104",
       "modules": [
         "M5",
         "M6"
@@ -991,7 +1007,7 @@
       "footerLabel": "M 연계 · M5 · M6"
     },
     {
-      "slideId": "S103",
+      "slideId": "S105",
       "modules": [
         "M8",
         "M9"
@@ -1002,7 +1018,7 @@
       "footerLabel": "M 연계 · M8 · M9"
     },
     {
-      "slideId": "S104",
+      "slideId": "S106",
       "modules": [
         "M1",
         "M2",
@@ -1017,26 +1033,10 @@
       "footerLabel": "M 연계 · M1 · M2 · M4 · M5 · M6 · M9"
     },
     {
-      "slideId": "S105",
-      "modules": [],
-      "scope": "new_extension",
-      "rationale": "사람의 판단을 지원할 작업 조건·확인 경로의 설계를 이 과정의 AI-Native 운영 모델로 회수한다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다.",
-      "notesOnly": [],
-      "footerLabel": "M 연계 · 신규 확장"
-    },
-    {
-      "slideId": "S106",
-      "modules": [],
-      "scope": "new_extension",
-      "rationale": "DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result.",
-      "notesOnly": [],
-      "footerLabel": "M 연계 · 신규 확장"
-    },
-    {
       "slideId": "S107",
       "modules": [],
       "scope": "new_extension",
-      "rationale": "DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result.",
+      "rationale": "사람의 판단을 지원할 작업 조건·확인 경로의 설계를 이 과정의 AI-Native 운영 모델로 회수한다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · 신규 확장"
     },
@@ -1050,6 +1050,22 @@
     },
     {
       "slideId": "S109",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 신규 확장"
+    },
+    {
+      "slideId": "S110",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 신규 확장"
+    },
+    {
+      "slideId": "S111",
       "modules": [
         "M2",
         "M8"
@@ -1060,7 +1076,7 @@
       "footerLabel": "M 연계 · M2 · M8"
     },
     {
-      "slideId": "S110",
+      "slideId": "S112",
       "modules": [
         "M1",
         "M8"
@@ -1069,22 +1085,6 @@
       "rationale": "S97의 같은 A–E 문제를 다음 행동과 확인 근거로 빠짐없이 이어 받는 개인 성찰이다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. 통합·제거 후보는 기존 원칙의 확장이며 새 성과나 원모듈 전체 충족을 주장하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M1 · M8"
-    },
-    {
-      "slideId": "S111",
-      "modules": [],
-      "scope": "new_extension",
-      "rationale": "기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다.",
-      "notesOnly": [],
-      "footerLabel": "M 연계 · 찾아보기"
-    },
-    {
-      "slideId": "S112",
-      "modules": [],
-      "scope": "new_extension",
-      "rationale": "기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다.",
-      "notesOnly": [],
-      "footerLabel": "M 연계 · 찾아보기"
     },
     {
       "slideId": "S113",
@@ -1096,6 +1096,22 @@
     },
     {
       "slideId": "S114",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 찾아보기"
+    },
+    {
+      "slideId": "S115",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 찾아보기"
+    },
+    {
+      "slideId": "S116",
       "modules": [
         "M1"
       ],
@@ -1106,5 +1122,6 @@
     }
   ],
   "decision": "DEC-0097",
-  "slideCount": 114
+  "slideCount": 116,
+  "numberingDecision": "DEC-0098"
 }

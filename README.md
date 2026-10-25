@@ -1,5 +1,11 @@
 # AI 개발자 교육
 
+현재 제작판: **DEC-0098 /116장·410분**. Goal 팁 S99/S100과 ACT4→ACT5 연결을 정렬한다. ACT4 S82–S101/20장·85분, ACT5 S102–S116/15장·40분. 기존114장의 배정·근거는 유지하며 제품·실환경·리허설은 미검증이다.
+
+[Goal 적용과 연결 설계](./plan/GOAL_TIPS_AND_ACT5_HANDOFF.md).
+
+아래 이전 판본의 장수·번호·검증 기록은 당시 범위다.
+
 ## 현재 교육자료 — DEC-0097
 
 114장·406분, ACT4 S82–S99의18장·81분, ACT5 S100–S114의15장·40분. Mode Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분.

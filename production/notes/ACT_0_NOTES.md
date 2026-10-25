@@ -1,5 +1,14 @@
 # ACT 0 — Speaker Notes
 
+Current: DEC-0098. 116장·410분(6시간50분). ACT4 S82–S101은20장·85분, ACT5는 S102–S116의15장·40분이다. ACT 장수14/22/19/26/20/15와 시간43/64/82/96/85/40분. Mode Lecture176/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+19-field schema. Product/account/Windows/room/timed rehearsal: UNVERIFIED.
+
+
+<details>
+<summary>이전 판본의 Notes 안내 — 당시 번호·시간·검토 범위</summary>
+
+# ACT 0 — Speaker Notes
+
 Current: DEC-0093 /115slides/406minutes; ACT0: 14slides/43minutes, S01–S14. Current IDs follow SLIDE_ID_MIGRATION_115.md; earlier headers are history. Only new S63/S68 add Lecture2minutes each; retained budgets/evidence remain.
 
 Current: DEC-0091 /113slides/402minutes. ACT0: 14slides/43minutes. Current IDs follow SLIDE_ID_MIGRATION_113.md. ACT4 composition/Mode/time unchanged; earlier edition headers remain historical.
@@ -27,6 +36,9 @@ Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`,
 `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, and `plan/DECISIONS.md`.
 
 Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historical handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
+
+
+</details>
 
 ## S01 — AI를 Repository로 데려가기
 

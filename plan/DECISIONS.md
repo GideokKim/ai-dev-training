@@ -10469,3 +10469,89 @@ time/Mode totals, native tables/charts, retained pictures and unchanged
 screens. Record actual local checks in ACT_4_GOAL_LOOP_REVISION.md. Keep
 Windows/room/product-account/timed rehearsal UNVERIFIED. Commit and push
 normally to the existing origin/main without force or presenter bundles.
+
+
+# DEC-0098 — Add Goal application tips and align the ACT5 opening
+
+## Status
+
+ACCEPTED — explicit user approval of the two-slide Goal tip proposal and
+review of the ACT5 opening connection.
+
+## Date
+
+2026-10-25
+
+## Context
+
+Baseline4615e0d has114slides/406minutes. ACT4 teaches a fixed-goal
+implementation/review/revision design and bounded heterogeneous-model
+research. The user approves a practical Goal feature bridge after S98.
+
+## Problem
+
+The course needs a concrete product path for persistent work without
+implying that Goal creates the whole multi-model verification system.
+ACT5 must distinguish that guidance from the actual Product Git history.
+
+## Decision
+
+Add S99/S100 at2Lecture minutes each. Retain all114existing slides and
+their allocations. Prior S99-S114 shift by+2. Use116slides/410minutes;
+ACT counts14/22/19/26/20/15 and minutes43/64/82/96/85/40. ACT4 remains the
+approved18-slide/81-minute base plus two tips, now20slides/85minutes.
+
+Use official Goal guidance and a labeled request/continuation diagram.
+Keep completion evidence, blocked stop conditions, model role design and
+human acceptance explicit. Do not activate a Goal or run a new Trial.
+Align S101 reflection and S103/S104/S106 screens plus relevant ACT5 Notes.
+Keep the title, actual State history, deferred-component rationale and
+consolidation/removal sequence. Update21tips and final indexes S113-S115.
+
+## Rationale
+
+Connect the engineering concept to an available product mechanism while
+preserving its boundaries. Make product use, evidence, historic execution
+and the learner's architecture choices visibly distinct.
+
+## Alternatives
+
+Only mention Goal verbally; this leaves no usable reference slide.
+Treat Goal as a verified heterogeneous-model workflow; official guidance
+does not establish that. Rewrite the whole ACT5; its existing story remains
+useful and needs only the narrow handoff alignment.
+
+## Trade-offs
+
+Add4Lecture minutes without compressing retained explanations. Full Mode
+minutes become176/51/103/22/26/32 for Lecture/Demo/Case/Reflection/
+Transition/Q&A. Current target-account operation remains unverified.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-LOOP-001, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-RESPONSIBILITY-001. The user-authorized720-minute ceiling remains.
+
+## Affected Artifacts
+
+Slide/Template maps, Notes, sources, ACT4/ACT5/Full PPTX and previews,
+curriculum/story/claim references, practical tips, current fallback and
+handoff/readiness metadata. Historic evidence retains its meaning.
+
+## Evidence
+
+Current user approval; inspected ACT4/ACT5 baseline screens and Notes;
+SRC-0240/0241/0242 checked2026-10-25. CLM-0046/0047 record documented
+feature/guidance, not a new observed course result.
+
+## Training Relevance
+
+YES — use platform continuation while designing credible completion and
+review. Reassess duplicated infrastructure when product capabilities change.
+
+## Follow-up
+
+Render/review the complete deck and targeted handoffs, verify source/Notes/
+Mode/numbering parity, then commit and push normally to existing origin/main.
+Keep target-account, Windows, projection and timed rehearsal unverified.
+Do not change the Demo Repository, run Trials or rebuild presenter bundles.

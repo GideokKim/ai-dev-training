@@ -179,3 +179,11 @@ No new Trial, loading result, effectiveness comparison or token/time gain.
 
 CASE-LOOP-01 is a design application. CLM-0043/0044 do not validate its runtime,
 completion rate, costs or selected models. The exact model pair is TBD.
+
+
+## DEC-0098 — Goal guidance and completion boundaries
+
+| Claim | Supported scope | Sources | Current use | Boundary |
+|---|---|---|---|---|
+| CLM-0046 | Official guidance describes /goal as a persistent objective with evidence-based continuation and lifecycle controls. | SRC-0240/0241/0242 | S99 | Documented function; target-account operation, automatic cross-model review and guaranteed completion are not established |
+| CLM-0047 | Goals should name an outcome, verification evidence and constraints; blocked/completion conditions can be made explicit. | SRC-0240/0241 | S100 | Course request adaptation; no activation, test result or measured benefit |

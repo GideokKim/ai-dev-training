@@ -25,3 +25,13 @@
 | Minimum Effective Harness | No official OpenAI product term or universal taxonomy is claimed. | Harness/scaffold sources inform system-design examples, not a numeric threshold. | General industry consensus is not established in this registry. | 현재 문제에 필요한 만큼의 Context / Workflow / Verification 구조를 사용하는 이 교육의 heuristic. | HEURISTIC | HIGH | 정해진 최소 기능 목록, 수치 기준, 또는 모든 작업에 같은 구성을 적용하는 규칙으로 오해할 수 있다. | SRC-0001, SRC-0218, DEC-0023 | 필요 구조는 문제와 evidence에 따라 달라진다. |
 | Feedback Loop | Traces/evals and task control can carry feedback. | Self-Refine and critique studies have bounded conditions. | Usage varies. | Feed remaining issues and evidence into the next attempt toward the same goal; optionally improve reusable methods across tasks. | MIXED | HIGH | Do not confuse a next-task instruction update with the entire goal-execution loop. | DEC-0097, SRC-0223, SRC-0237, SRC-0238 | Human acceptance and escalation remain explicit. |
 | AI-Native Development | OpenAI guide uses AI-native engineering team language; not confirmed as a universal official product feature. | SE 3.0 paper frames AI-native software engineering as a vision/roadmap. | Registered sources use AI-native/AI-assisted with varying scopes; broader industry consensus is not established. | 이 교육의 framing: Task boundary, Project Context, Reusable Workflow, Verification, Feedback Loop를 의도적으로 설계·운영하며 developer responsibility를 유지한다. | TEACHING_MODEL | HIGH | 업계 합의된 최종 목적지나 “코딩 능력 불필요” 주장으로 오해할 수 있다. | SRC-0136, SRC-0225, SRC-0226, SRC-0001, DEC-0023 | 이 교육의 model이며 보편 maturity taxonomy가 아니다. |
+
+
+## Goal mode — documented product feature (DEC-0098)
+
+The product feature /goal keeps a thread-scoped objective and continuation
+state. A task goal is the desired outcome stated by the user; the two uses
+of the word are related but not interchangeable. Current S99/S100 adapt
+SRC-0240/0241/0242 as documented guidance, not an executed multi-model
+workflow. Completion evidence and reviewer-role choices remain explicit.
+Target-account operation and any measured benefit are unverified.

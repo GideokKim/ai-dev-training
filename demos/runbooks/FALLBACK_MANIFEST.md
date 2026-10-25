@@ -1,5 +1,104 @@
 # Static Fallback Manifest
 
+Current: DEC-0098 /116slides/410minutes. Status: **READY — LOCAL STATIC FILES ONLY**.
+Windows/product/account/room/Goal execution/timed rehearsal: **UNVERIFIED**.
+No Live/Hybrid or automatic cross-model review is approved by this inventory.
+
+## Current source identities
+
+- Full SHA-256:`8f2b457daf06ae9bc1d5ff3c828924a231131b06f412c028a5b65a175d33b711`.
+- Full Notes SHA-256:`11fe66b870dcdde5964c6476488e14e3d8ab8b2c2a7eed3e4ab3cba505d57775`.
+- Full montage SHA-256:`ba0701546a3975339c11ca7169a077cc21bb9d2aee9f757ea15ff048195fdab7`.
+- ACT4:S82–S101/20slides/85minutes; ACT5:S102–S116/15slides/40minutes.
+- [Current validation](../../production/evaluation/GOAL_TIPS_AND_ACT5_HANDOFF.md).
+- [114→116 migration](../../plan/SLIDE_ID_MIGRATION_116.md).
+
+## Retained Demo references —25pages
+
+- `DEMO-01`: [S05](../../production/preview/full/S05.png), [S06](../../production/preview/full/S06.png), [S07](../../production/preview/full/S07.png), [S08](../../production/preview/full/S08.png), [S09](../../production/preview/full/S09.png)
+- `DEMO-02`: [S38](../../production/preview/full/S38.png), [S39](../../production/preview/full/S39.png), [S40](../../production/preview/full/S40.png)
+- `DEMO-03`: [S61](../../production/preview/full/S61.png), [S62](../../production/preview/full/S62.png)
+- `DEMO-05`: [S23](../../production/preview/full/S23.png), [S24](../../production/preview/full/S24.png)
+- `DEMO-06`: [S43](../../production/preview/full/S43.png), [S49](../../production/preview/full/S49.png), [S51](../../production/preview/full/S51.png), [S52](../../production/preview/full/S52.png), [S53](../../production/preview/full/S53.png)
+- `DEMO-07`: [S67](../../production/preview/full/S67.png), [S69](../../production/preview/full/S69.png)
+- `DEMO-08`: [S70](../../production/preview/full/S70.png), [S71](../../production/preview/full/S71.png)
+- `DEMO-09`: [S72](../../production/preview/full/S72.png), [S73](../../production/preview/full/S73.png)
+- `DEMO-12`: [S103](../../production/preview/full/S103.png), [S104](../../production/preview/full/S104.png)
+
+DEMO-12 stays VISUAL2minutes at S104; S103 Lecture4 is separate. Files are
+slide summaries/reconstructed diagrams/teaching visuals with their stated
+boundaries, not raw execution captures. Goal guidance is not Product history.
+
+## ACT4 design/research/reflection and new Goal guidance
+
+- 17 retained design/research/reflection pages: S83–S98 and S101.
+- 2 Goal guidance pages: S99/S100. Official guidance adapted into static native
+ diagrams and a request example. No Goal activation, Trial or measured benefit.
+- CASE-LOOP-01 remains designed/not executed. Its walkthrough S84–S89 and
+ research S92–S94 keep their original meaning and evidence scope.
+- DEMO-04A/04B/10/11/LOOP-VISUAL remain historical/supporting, not current
+ ACT4 execution. Use the current Map and Notes before historic literal IDs.
+
+## Current44static identities
+
+25retained Demo references+17design/research/reflection+2Goal guidance.
+All paths/hashes/dimensions and Full/ACT parity were checked locally.
+READY does not approve target-PC playback or a current product/account run.
+
+| Slide | Classification | Path | Dimensions | SHA-256 |
+|---|---|---|---|---|
+| S05 | RETAINED_DEMO_STATIC | `production/preview/full/S05.png` |1920×1080| `25d932bfd4e8f658f4fe911f3612274b6c841f15456ffc7487d7eda671561892` |
+| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` |1920×1080| `f793703980a111376765fc5fa8c2b2d2c5451f3d848e5cc3670c373029163a8a` |
+| S07 | RETAINED_DEMO_STATIC | `production/preview/full/S07.png` |1920×1080| `ee0f2d472090a10a99f3fc09d994a9002bc94c7991cd1dbb9a2b70959af9f9fa` |
+| S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` |1920×1080| `03372ecca35d5bab1fa88a66faffeaa2672aa7d272103999fe811031a1def084` |
+| S09 | RETAINED_DEMO_STATIC | `production/preview/full/S09.png` |1920×1080| `5d1f9dd413611f462d298e342a93bac9693d95c5d3bbd6fc5052c0d64269c9aa` |
+| S23 | RETAINED_DEMO_STATIC | `production/preview/full/S23.png` |1920×1080| `66aeb7922467fce42f7ed0c5e7478737cb858dbfe09317b40a3a1e125ae64ad9` |
+| S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` |1920×1080| `d591598f8c519db6e49ece83ef7ad3aab88c64426a38c0e5e94e0ea05649910f` |
+| S38 | RETAINED_DEMO_STATIC | `production/preview/full/S38.png` |1920×1080| `b060992d40d19c929035ef0d5b060c1bd60895e736d41f7f168d602952cb6fe1` |
+| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` |1920×1080| `fc9d9164af151da11c1b0df3913050e60f5276261c8d4b5f0fa8fbe5bee8705b` |
+| S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` |1920×1080| `5095c3df42869547aae672be3a3890fea487806361aa24861b0dbfab8c261f98` |
+| S43 | RETAINED_DEMO_STATIC | `production/preview/full/S43.png` |1920×1080| `f4f6425a269f5eed7be59c406e0843f5af63d7429dcb2526b24f0db4653251fe` |
+| S49 | RETAINED_DEMO_STATIC | `production/preview/full/S49.png` |1920×1080| `baadcfacfc815cf5b992c2a0f5611d728d43118e309487a033479d8d0755852a` |
+| S51 | RETAINED_DEMO_STATIC | `production/preview/full/S51.png` |1920×1080| `60149cbd71c8c40aea8575c7db1ec297e841469a55bc2443c270c77f734c1acf` |
+| S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` |1920×1080| `3f253e201296daafb769b2e55695a1ca491dab4a99f3627b83954962ca86a77e` |
+| S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` |1920×1080| `f39edc56376b8e45fffa06a3459d15e7166122d1ef53dda0fd4dbb34879a8216` |
+| S61 | RETAINED_DEMO_STATIC | `production/preview/full/S61.png` |1920×1080| `5b4d8fa934aac097bba9ffe0c8a70bbcd11f38ba87cf1358c62405bffdaa2c64` |
+| S62 | RETAINED_DEMO_STATIC | `production/preview/full/S62.png` |1920×1080| `ba4f39dc14cbff585c7028a0cb69f9db01516e7339b350ed4b799c40199950c4` |
+| S67 | RETAINED_DEMO_STATIC | `production/preview/full/S67.png` |1920×1080| `e5b3a39a642b5dd0ac43f89b7b71dd6c76ca0c14f75f0647175113d99b8eceb4` |
+| S69 | RETAINED_DEMO_STATIC | `production/preview/full/S69.png` |1920×1080| `06e10166f57803b9e0f9a6aac1fb5071403d4d255be9427252d890476e6da0ce` |
+| S70 | RETAINED_DEMO_STATIC | `production/preview/full/S70.png` |1920×1080| `434fed94db2eaa6472dc021f5db0adbb992ef8c5266ec5557f2cd0526a84eec0` |
+| S71 | RETAINED_DEMO_STATIC | `production/preview/full/S71.png` |1920×1080| `42c89a546c99d4c191629ac5b5a2547f0c1db6d3f2234e7aead3d16e0ae015c9` |
+| S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` |1920×1080| `7e75315777cc19d91c3523d6ab4808df53159528b272c3333ef7a73609305a6e` |
+| S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` |1920×1080| `80798175f34b9f50cd5a70609d1437dd1d24448015904400ac212866441979c5` |
+| S103 | RETAINED_DEMO_STATIC | `production/preview/full/S103.png` |1920×1080| `a60ce64f6b0076eb8af91691ee31ebb9d272127f90fa86b15020c330edee3997` |
+| S104 | RETAINED_DEMO_STATIC | `production/preview/full/S104.png` |1920×1080| `f0fb3a25131fb44b23ac1348e86542542a969f242b06ee22af08d9824d5bb1de` |
+| S83 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S83.png` |1920×1080| `fd30b197b411a6d4092c4ce517a19e41453635f5475c7c743879abaf4256b6d2` |
+| S84 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S84.png` |1920×1080| `f46a13afad02897e9323965c454757970a9c48a09045e08c02f9f456f423af20` |
+| S85 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S85.png` |1920×1080| `620eb1abfac759079bff8915b107e87c1de61a2f940b1f9016ce5fd5025602c3` |
+| S86 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S86.png` |1920×1080| `9214dede04fa38570397caeaf00e73175802c17cd713e58c754e429fbb9d6275` |
+| S87 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S87.png` |1920×1080| `a9e161e43e0a275054978abd8ab993883aa9b645fa34c98f6363a48124536916` |
+| S88 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S88.png` |1920×1080| `97d6ddd46d9680350aa936cd51fc6b9435fcc946ce2c8d76967ff420ade48ae2` |
+| S89 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S89.png` |1920×1080| `406be6c5abfa5aeca8146b86915c8d519955ece931a3ac03ec6d0e67bf46538c` |
+| S90 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S90.png` |1920×1080| `eaddd5ce87323fe7bf3bbc5a630097d1f8d30c65915168b2bc60cce411f78bee` |
+| S91 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S91.png` |1920×1080| `b319fb55836edc99539b14c3c65976efb953b67985cfb302cd4dc7f008191738` |
+| S92 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S92.png` |1920×1080| `24e4c1a54fc827a57c27b7299b440b4d614203897125ac4d48d4023f39c4bf37` |
+| S93 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S93.png` |1920×1080| `d3fe97daf8abcbd7cb3b71b5978d04c95a3d3873ee74ad85613b6ce89eee49ee` |
+| S94 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S94.png` |1920×1080| `bbad8fd7d9537ad9ab2dd19ffb214d64ed0707977c2d8602b9e1caba3da59b62` |
+| S95 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S95.png` |1920×1080| `02dafd4165b47394323af367ba1925cf067b2cc168fd9decde2f499143e7fd10` |
+| S96 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S96.png` |1920×1080| `e9673a5142b3623eece18cf907bdebca589d911b8f2204af74aa6afd6049692f` |
+| S97 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S97.png` |1920×1080| `aea7a699d6c10acf7764cb39afdbfcd50afb08507d2449d5968c8f7f355294bc` |
+| S98 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S98.png` |1920×1080| `cf717da75c3406b4dc5aa3e2938230a14d3383b9548772c1ae9e4ae162772d4f` |
+| S101 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S101.png` |1920×1080| `920eee4be5b7390cc5275ac690867ed0d0a0c3abccf9afbb6ca705875cac8bfb` |
+| S99 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S99.png` |1920×1080| `90d6cd049d6bb7a67f84fe194a44c2f27fc9fe02e8d02be71d9166230df14b81` |
+| S100 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S100.png` |1920×1080| `6656b42cb65fd1995eac1f6077cdfdefe42bb86c42f9e72cfee2927e90266522` |
+
+<details>
+<summary>Historical provenance and inventories — earlier editions</summary>
+
+Below current/latest labels and paths belong to the recorded earlier edition.
+
+# Static Fallback Manifest
+
 Status: **READY — LOCAL STATIC FILES ONLY**. DEC-0097,2026-10-25.
 Windows/product/account/room/timed rehearsal: **UNVERIFIED**. Live/Hybrid is not approved.
 
@@ -326,5 +425,7 @@ minutes, Trial, actual integration result or live approval. [Current result](../
 | S97 | `production/preview/full/S97.png` |1920×1080| `0b18811def0623518717e74a500f416154ddfd98217274b5e15a399eb5f0cdc9` |
 | S102 | `production/preview/full/S102.png` |1920×1080| `1780c65a83d831dc9e3058ba244e59348f9fec5c347754cff73c859460033c9e` |
 | S103 | `production/preview/full/S103.png` |1920×1080| `2be4d8653249210c34de845b88ff6a228c1210e1fcffd9e281ba0f06946d88a9` |
+
+</details>
 
 </details>

@@ -1,5 +1,12 @@
 # Demo Runbooks and Static Reference Files
 
+Current edition: DEC-0098 /116slides/410minutes. Use the current
+FALLBACK_MANIFEST.md for44static references and their distinct evidence
+classes. DEMO-12 uses S103/S104. Goal S99/S100 is documented guidance
+adapted for teaching, not an activated Goal or observed Product result.
+Earlier edition labels below retain their historical scope.
+
+
 Current edition: DEC-0097 /114slides/406minutes. Use
 [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md) for current IDs, paths, hashes
 and local-only readiness. It distinguishes25retained Demo static pages from

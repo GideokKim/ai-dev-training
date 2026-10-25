@@ -1,7 +1,7 @@
 {
   "decision": "DEC-0090",
-  "slideCount": 114,
-  "minutes": 406,
+  "slideCount": 116,
+  "minutes": 410,
   "titleSlides": [
     {
       "act": 0,
@@ -60,9 +60,9 @@
     },
     {
       "act": 5,
-      "slideId": "S100",
-      "beforePreviousSlideId": "S99",
-      "firstBodySlideId": "S101",
+      "slideId": "S102",
+      "beforePreviousSlideId": "S101",
+      "firstBodySlideId": "S103",
       "title": "내 업무에 맞게 조합하고 덜어내기",
       "subtitle": "AI-Native Development · 업무 방식의 재설계",
       "displayTitle": "내 업무에 맞게\n조합하고 덜어내기",
@@ -70,5 +70,5 @@
       "storyBeat": "BEAT-060"
     }
   ],
-  "numberingDecision": "DEC-0097; delete prior S100; prior S101+ shift by1"
+  "numberingDecision": "DEC-0098"
 }

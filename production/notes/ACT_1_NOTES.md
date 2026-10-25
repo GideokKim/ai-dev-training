@@ -1,5 +1,14 @@
 # ACT 1 — Speaker Notes
 
+Current: DEC-0098. 116장·410분(6시간50분). ACT4 S82–S101은20장·85분, ACT5는 S102–S116의15장·40분이다. ACT 장수14/22/19/26/20/15와 시간43/64/82/96/85/40분. Mode Lecture176/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+19-field schema. Product/account/Windows/room/timed rehearsal: UNVERIFIED.
+
+
+<details>
+<summary>이전 판본의 Notes 안내 — 당시 번호·시간·검토 범위</summary>
+
+# ACT 1 — Speaker Notes
+
 Current: DEC-0093 /115slides/406minutes; ACT1: 22slides/64minutes, S15–S36. Current IDs follow SLIDE_ID_MIGRATION_115.md; earlier headers are history. Only new S63/S68 add Lecture2minutes each; retained budgets/evidence remain.
 
 Current: DEC-0091 /113slides/402minutes. ACT1: 22slides/64minutes. Current IDs follow SLIDE_ID_MIGRATION_113.md. ACT4 composition/Mode/time unchanged; earlier edition headers remain historical.
@@ -19,6 +28,9 @@ Validation history: 이전 제작본의 local Mac Keynote 렌더·구조 검토 
 Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`, `plan/VISUAL_SPEC.md`, `plan/VISUAL_TEMPLATE_FREEZE.md`, `plan/SPEAKER_NOTES_ARCHITECTURE.md`, `plan/SPEAKER_NOTES_FREEZE.md`, `plan/PRODUCTION_PLAN.md`, `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, `plan/DEMO_RUNBOOK_SPEC.md`, and `plan/DECISIONS.md`.
 
 Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historical handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
+
+
+</details>
 
 ## S15 — Prompt를 작업 명세로 만들기
 

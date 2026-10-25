@@ -1,5 +1,20 @@
 # Story Beats
 
+## 현재 Goal 팁·ACT5 연결 — DEC-0098 (2026-10-25)
+
+116장·410분(6시간50분). ACT4 S82–S101은20장·85분, ACT5는 S102–S116의15장·40분이다. ACT 장수14/22/19/26/20/15와 시간43/64/82/96/85/40분. Mode Lecture176/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+
+S98 뒤에 Goal 실무 적용 팁 S99/S100을 각 Lecture2분씩 추가한다. 기존114장 배정과
+근거는 유지하며 이전 S99–S114만+2 이행한다. 실무 팁21개, 마지막 찾아보기 S113–S115다.
+Goal 공식 안내는 제품 활용 예이고 새 Trial·Goal 활성화·자동 다중 모델 검토·성과의 근거가 아니다.
+ACT5 초반은 필요한 대응 선택→실제 제품 이력과 Goal의 경계→보류 이유→수용 책임으로 정렬한다.
+[설계·연결 검토](GOAL_TIPS_AND_ACT5_HANDOFF.md), [현행 Map](SLIDE_MAP.md),
+[114→116 번호](SLIDE_ID_MIGRATION_116.md)를 따른다.12Templates/28Variants·19Notes 필드를 유지한다.
+아래 이전 판본은 이력이다. 실환경·계정·제품 기능·실측 리허설은 UNVERIFIED다.
+Demo Repository·기존 Trial/State·발표 묶음은 변경하지 않는다.
+
+
+
 ## 현재 ACT4 제작 기준 — DEC-0097 (2026-10-25)
 
 사용자가 ACT4 재기획안을 승인했다. 현재114장·406분(6시간46분), ACT 장수
@@ -3544,3 +3559,26 @@ relabelled as multi-model execution. Current ACT4 uses the following new IDs.
 - **Evidence:** TEACHING_MODEL; DEC-0097; no new executed Trial.
 - **Curriculum:** 4R6 Evidence and transfer
 - **Claim boundary:** Research keeps task/model/method limits; designed iterations have no actual PASS/FAIL or measured effect.
+
+
+## DEC-0098 — Product application beat additions
+
+BEAT-083 remains the evidence/reflection role; its current slides are S98/S101. Earlier literal IDs above are dated history.
+
+### BEAT-084 — Goal이 목표와 다음 작업을 이어준다
+
+- **Act:** ACT4
+- **Slides:** S99
+- **Action:** Goal은 턴을 넘어 목표·상태를 유지하고 근거 확인 뒤 계속 수행을 연결한다. 완료 기준과 검증·검토 역할은 작업에 맞게 설계한다.
+- **Evidence:** RESEARCH / TEACHING_MODEL; SRC-0240; SRC-0241; SRC-0242; CLM-0046; DEC-0098.
+- **Curriculum:** 4T1 Goal continuation
+- **Claim boundary:** Official guidance adapted; not an activation, Trial or effectiveness result.
+
+### BEAT-085 — Goal에는 완료 근거와 멈출 조건을 담는다
+
+- **Act:** ACT4
+- **Slides:** S100
+- **Action:** Goal 요청에는 원하는 변화, 보존 조건, 완료를 확인할 근거와 막혔을 때 보고할 조건을 담는다. 같은 기준으로 진행을 판단한다.
+- **Evidence:** RESEARCH / TEACHING_MODEL; SRC-0240; SRC-0241; CLM-0047; DEC-0098.
+- **Curriculum:** 4T2 Goal request
+- **Claim boundary:** Official guidance adapted; not an activation, Trial or effectiveness result.

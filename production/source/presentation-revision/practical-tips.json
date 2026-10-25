@@ -1,8 +1,8 @@
 {
   "decision": "DEC-0088",
   "sourceEdition": "DEC-0086 /99slides/387minutes",
-  "currentSlideCount": 115,
-  "totalMinutes": 406,
+  "currentSlideCount": 116,
+  "totalMinutes": 410,
   "badgeLabel": "실무 적용 팁",
   "badgePosition": {
     "left": 780,
@@ -162,8 +162,26 @@
       "rationale": "목표·검토 근거·다음 수정과 완료 판단을 연결하는 실무 적용 기준"
     },
     {
+      "slideId": "S99",
+      "act": 4,
+      "category": "수행 방법",
+      "title": "Goal이 목표와 다음 작업을 이어준다",
+      "rationale": "공식 Goal의 지속 목표·계속 수행과 사용자의 검증·검토 역할을 구분",
+      "sourceEdition": "DEC-0098 new tip",
+      "contentDecision": "DEC-0098"
+    },
+    {
+      "slideId": "S100",
+      "act": 4,
+      "category": "검증·개선",
+      "title": "Goal에는 완료 근거와 멈출 조건을 담는다",
+      "rationale": "완료 근거·보존 조건·막힘 보고를 포함한 교육용 Goal 요청",
+      "sourceEdition": "DEC-0098 new tip",
+      "contentDecision": "DEC-0098"
+    },
+    {
       "sourceSlideId": "S95",
-      "slideId": "S107",
+      "slideId": "S109",
       "act": 5,
       "category": "검증·개선",
       "title": "무엇을 남기고, 무엇을 덜어낼까?",
@@ -171,7 +189,7 @@
     },
     {
       "sourceSlideId": "S96",
-      "slideId": "S108",
+      "slideId": "S110",
       "act": 5,
       "category": "검증·개선",
       "title": "덜어낸 뒤에도 필요한 일을 하는가?",
@@ -182,8 +200,8 @@
     {
       "act": 5,
       "beforeSourceSlideId": "S99",
-      "slideId": "S111",
-      "nextSlideId": "S112",
+      "slideId": "S113",
+      "nextSlideId": "S114",
       "section": "5B Final Reference Review",
       "storyBeat": "BEAT-070–071",
       "tipSlideIds": [
@@ -193,7 +211,8 @@
         "S63",
         "S68",
         "S70",
-        "S80"
+        "S80",
+        "S99"
       ],
       "title": "실무 적용 팁 · 작업 환경과 기준",
       "sequence": 1
@@ -201,8 +220,8 @@
     {
       "act": 5,
       "beforeSourceSlideId": "S99",
-      "slideId": "S112",
-      "nextSlideId": "S113",
+      "slideId": "S114",
+      "nextSlideId": "S115",
       "section": "5B Final Reference Review",
       "storyBeat": "BEAT-070–071",
       "tipSlideIds": [
@@ -221,21 +240,22 @@
     {
       "act": 5,
       "beforeSourceSlideId": "S99",
-      "slideId": "S113",
-      "nextSlideId": "S114",
+      "slideId": "S115",
+      "nextSlideId": "S116",
       "section": "5B Final Reference Review",
       "storyBeat": "BEAT-070–071",
       "tipSlideIds": [
         "S87",
         "S91",
-        "S107",
-        "S108"
+        "S100",
+        "S109",
+        "S110"
       ],
       "title": "실무 적용 팁 · 검증과 개선",
       "sequence": 3
     }
   ],
-  "numberingDecision": "DEC-0097; retain historical insertion adapter; current indexes S111-S113",
-  "contentDecision": "DEC-0097",
-  "slideCount": 114
+  "numberingDecision": "DEC-0098; retained historical adapter; current indexes S113-S115",
+  "contentDecision": "DEC-0098",
+  "slideCount": 116
 }

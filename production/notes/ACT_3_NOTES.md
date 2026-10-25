@@ -1,8 +1,20 @@
 # ACT 3 — Speaker Notes
 
+Current: DEC-0098. 116장·410분(6시간50분). ACT4 S82–S101은20장·85분, ACT5는 S102–S116의15장·40분이다. ACT 장수14/22/19/26/20/15와 시간43/64/82/96/85/40분. Mode Lecture176/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+19-field schema. Product/account/Windows/room/timed rehearsal: UNVERIFIED.
+
+
+<details>
+<summary>이전 판본의 Notes 안내 — 당시 번호·시간·검토 범위</summary>
+
+# ACT 3 — Speaker Notes
+
 Current: DEC-0097 /114slides/406minutes. 114장·406분. ACT4 S82–S99는18장·81분, ACT5는 S100–S114의15장·40분이다. ACT 장수14/22/19/26/18/15와 시간43/64/82/96/81/40분. Mode Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
 19-field schema. Current records and final embedded Notes are compared during local validation.
 Windows/room/product-account/timed rehearsal UNVERIFIED.
+
+
+</details>
 
 ## S56 — AI가 일할 방법과 환경 설계하기
 

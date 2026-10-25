@@ -1,5 +1,26 @@
 # 사용자 검증 체크리스트
 
+## 현재 확인 — DEC-0098
+
+116장·410분. ACT4 S82–S101/20장·85분, ACT5 S102–S116/15장·40분.
+아래 새 항목과 현행 Slide Map을 우선한다. 이전 번호·시간은 당시 판본의 이력이다.
+
+- [ ] 실제 Windows PowerPoint에서116장·Notes·발표 모드·글꼴·줄바꿈을 확인한다.
+- [ ] 사내 계정/앱 버전/설정에서 /goal 사용 가능 여부를 확인한다.
+- [ ] S99/S100이 실제 UI·실행 캡처로 오해되지 않으며 현재 안내와 일치한다.
+- [ ] Goal의 지속 실행과 별도 검증·모델 역할 설계를 구분해 설명한다.
+- [ ] S104의 실제 Product 이력에 Goal/다중 모델 실행 성과를 합치지 않는다.
+- [ ] S101의 Reflection2→Q&A7→Transition2를 포함해410분 운영을 실측한다.
+- [ ] 실제 투사 거리에서 Goal 요청과 하단 근거·팁 목록이 읽힌다.
+- [ ] 현재44개 정적 참조를 발표 PC에서 재생하고 본문으로 복귀할 수 있다.
+
+현재 모든 항목 UNVERIFIED / USER REQUIRED.
+[현재 전달 안내](FINAL_HANDOFF.md), [이번 검토](GOAL_TIPS_AND_ACT5_HANDOFF.md).
+
+<details>
+<summary>이전 판본의 사용자 확인 양식 — 당시 범위 보존</summary>
+
+
 Current: DEC-0097. 114장·406분, ACT4 S82–S99의18장·81분, ACT5 S100–S114의15장·40분. Mode Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분.
 
 실환경 확인과 실측 리허설은 모두 **UNVERIFIED / USER REQUIRED**다.
@@ -492,5 +513,7 @@ DEC-0091 사용자 승인으로 해당 장을 삭제했다. 아래는 당시 체
 - [ ] 실제 Windows·발표 글꼴·투사 환경에서 두 루프 도식과 세 선택의 가독성을 확인했다.
 
 검증자 / 날짜 / 실제 환경 / 결과 / 근거: ____________________
+
+</details>
 
 </details>

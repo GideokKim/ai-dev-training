@@ -1,15 +1,19 @@
 # Official Slide Map
 
-## 현재 제작 기준 — DEC-0097
+## 현재 제작 기준 — DEC-0098
 
-114장·406분. ACT4 S82–S99는18장·81분, ACT5는 S100–S114의15장·40분이다. ACT 장수14/22/19/26/18/15와 시간43/64/82/96/81/40분. Mode Lecture172/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+116장·410분(6시간50분). ACT4 S82–S101은20장·85분, ACT5는 S102–S116의15장·40분이다. ACT 장수14/22/19/26/20/15와 시간43/64/82/96/85/40분. Mode Lecture176/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
 
-ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100 GPU 장은 삭제했다.
-이전 S101–S115는 S100–S114로 이동했다. 나머지 ACT의 시간·근거는 유지한다.
-새 반복 예시는 CONCEPTUAL/TEACHING_MODEL, S92–S94는 범위를 제한한 RESEARCH다.
-[승인 설계](ACT4_GOAL_LOOP_REPLAN.md), [115→114 이행](SLIDE_ID_MIGRATION_114.md).
+S98 뒤에 Goal 실무 팁 S99/S100을 Lecture2분씩 추가했다. 기존114장의 시간·Mode·
+Story·근거 범위를 유지한다. 이전 S99–S114는 S101–S116이다. Goal 안내는 공식 문서의
+사용법을 각색한 도식이며 실제 활성화·새 Trial·자동 다중 모델 배정·성과의 근거가 아니다.
+ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 이유→수용 책임으로 이어진다.
+[적용 설계](GOAL_TIPS_AND_ACT5_HANDOFF.md), [114→116 번호](SLIDE_ID_MIGRATION_116.md).
+제품·계정·Windows·교육장·실측 리허설은 UNVERIFIED다.
+
 
 ### ACT 0 — 14 slides / 43 minutes
+
 
 #### S01 — AI를 Repository로 데려가기
 
@@ -36,6 +40,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
 - **ACT Subtitle:** Chatbot → Repository Agent
 
+
 #### S02 — AI에게 지금 무엇을 맡기고 있는가?
 
 - **Slide ID:** S02
@@ -59,6 +64,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 1분 + Reflection 4분 = 5분
 - **Evidence / Decision References:** BEAT-001, CLM-0001, CLM-0002
+
 
 #### S03 — 작은 질문에는 Chatbot이 유용하다
 
@@ -84,6 +90,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
 - **Evidence / Decision References:** BEAT-001, CLM-0001, CLM-0002
 
+
 #### S04 — 질문이 커지면 Context를 모으는 일이 생긴다
 
 - **Slide ID:** S04
@@ -107,6 +114,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** BEAT-002, CLM-0004, CLM-0009
+
 
 #### S05 — 파일명을 주지 않으면 Agent는 어디부터 볼까?
 
@@ -132,6 +140,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, STATE-00, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005
 
+
 #### S06 — Crop은 기대한 폭보다 한 열을 더 포함했다
 
 - **Slide ID:** S06
@@ -155,6 +164,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
+
 
 #### S07 — 테스트·명세·구현을 연결해 원인을 설명했다
 
@@ -180,6 +190,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
 
+
 #### S08 — 다른 테스트 오류는 임시 폴더 생성에서 발생했다
 
 - **Slide ID:** S08
@@ -203,6 +214,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Case 3분 = 3분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
+
 
 #### S09 — 원인 판단에는 코드와 실행 환경 정보가 필요했다
 
@@ -228,6 +240,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Case 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
 
+
 #### S10 — Chatbot에 이 자료를 직접 전달한다면?
 
 - **Slide ID:** S10
@@ -252,6 +265,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086
 
+
 #### S11 — Agent가 자료를 직접 찾아 연결했다
 
 - **Slide ID:** S11
@@ -275,6 +289,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086
+
 
 #### S12 — Repository 작업은 Codex에서 시작한다
 
@@ -301,6 +316,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** BEAT-003, DEC-0036, CLM-0031, SRC-0228, SRC-0229; OpenAI [Quickstart](https://learn.chatgpt.com/docs/quickstart?setup=app), [App](https://learn.chatgpt.com/docs/app), 2026-10-21 확인. 현재 제품·계정·Windows 재확인 Gate 유지., DEC-0087
 - **Practical Tip Classification:** 사용 환경
 
+
 #### S13 — Repository 접근과 Task 의도는 별개다
 
 - **Slide ID:** S13
@@ -324,6 +340,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005
+
 
 #### S14 — Repository를 보면 내가 원하는 것까지 알까?
 
@@ -349,7 +366,9 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Transition 3분 + Q&A 3분 = 6분
 - **Evidence / Decision References:** BEAT-003, BEAT-004, DEMO-01, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0037; DEMO_REPOSITORY_SPEC의 초기 구현 범위와 실제 pipeline.py/statistics.py로 표현 경계 대조
 
+
 ### ACT 1 — 22 slides / 64 minutes
+
 
 #### S15 — Prompt를 작업 명세로 만들기
 
@@ -376,6 +395,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
 - **ACT Subtitle:** Prompt Engineering · 요청 설계
 
+
 #### S16 — Task에는 무엇이 아직 정해지지 않았을까?
 
 - **Slide ID:** S16
@@ -399,6 +419,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Case 7분 = 7분
 - **Evidence / Decision References:** BEAT-004, TRIAL-001 callback only, CLM-0002, DEC-0038, DEC-0040, DEC-0042
+
 
 #### S17 — 요청만으로는 의도가 보이지 않는다
 
@@ -424,6 +445,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Case 2분 = 2분
 - **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038, DEC-0042
 
+
 #### S18 — 원하는 작업 경로를 Prompt에 담는다
 
 - **Slide ID:** S18
@@ -447,6 +469,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
 - **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038; crop 명세는 기존 TRIAL-002와 일치하는 교육용 예시, DEC-0042
+
 
 #### S19 — 개발자가 정해야 하는 경계
 
@@ -472,6 +495,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Case 3분 + Reflection 1분 = 4분
 - **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0042
 
+
 #### S20 — Task Specification의 다섯 책임
 
 - **Slide ID:** S20
@@ -495,6 +519,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-005, CLM-0029, OQ-001, OQ-007, DEC-0042
+
 
 #### S21 — 더 긴 Prompt보다 분명한 경계
 
@@ -520,6 +545,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 6분 + Case 3분 = 9분
 - **Evidence / Decision References:** BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007, DEC-0042
 
+
 #### S22 — 요청한 과정은 기록에도 남았을까?
 
 - **Slide ID:** S22
@@ -543,6 +569,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-006, TRIAL-002, TRIAL-001, STATE-00, INV-MATURITY-011, DEC-0039, DEC-0042, DEC-0044
+
 
 #### S23 — 조사에서 한 줄 변경까지
 
@@ -568,6 +595,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED) = 4분
 - **Evidence / Decision References:** BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039, DEC-0042
 
+
 #### S24 — 변경 결과와 확인 증거
 
 - **Slide ID:** S24
@@ -591,6 +619,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED) = 4분
 - **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0042
+
 
 #### S25 — Generated ≠ Done
 
@@ -616,6 +645,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0042
 
+
 #### S26 — Check마다 확인하는 범위
 
 - **Slide ID:** S26
@@ -639,6 +669,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 4분 + Reflection 1분 = 5분
 - **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0041, DEC-0042
+
 
 #### S27 — 지시와 참고 자료의 구분
 
@@ -665,6 +696,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** CLM-0032, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
 
+
 #### S28 — 입력과 기대 결과의 작은 예시
 
 - **Slide ID:** S28
@@ -689,6 +721,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Case 1분 = 1분
 - **Evidence / Decision References:** CLM-0033, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
+
 
 #### S29 — 바로 검토할 수 있는 결과 형식
 
@@ -715,6 +748,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** CLM-0034, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
 
+
 #### S30 — 근거가 있는 설명과 미확인의 구분
 
 - **Slide ID:** S30
@@ -739,6 +773,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0035, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
+
 
 #### S31 — 결과를 바꾸는 결정에서 확인 질문
 
@@ -765,6 +800,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** CLM-0036, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
 
+
 #### S32 — 큰 작업을 검토할 결과물로 나누기
 
 - **Slide ID:** S32
@@ -789,6 +825,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0037, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
+
 
 #### S33 — 기준을 지정한 코드 리뷰 요청
 
@@ -815,6 +852,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** CLM-0038, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
 
+
 #### S34 — 구체적인 근거로 수정 방향 피드백
 
 - **Slide ID:** S34
@@ -840,6 +878,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** CLM-0039, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
 
+
 #### S35 — 이번 Task인가, 계속 유지할 Project 정보인가?
 
 - **Slide ID:** S35
@@ -863,6 +902,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Reflection 1분 + Q&A 2분 = 3분
 - **Evidence / Decision References:** BEAT-007, BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042
+
 
 #### S36 — 반복하는 설명을 두 범주로 나누기
 
@@ -888,7 +928,9 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Reflection 1분 + Transition 3분 + Q&A 2분 = 6분
 - **Evidence / Decision References:** BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042
 
+
 ### ACT 2 — 19 slides / 82 minutes
+
 
 #### S37 — 필요한 정보를 찾아 쓰게 하기
 
@@ -915,6 +957,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
 - **ACT Subtitle:** Context Engineering · 정보 설계
 
+
 #### S38 — 다른 Task에 같은 설명이 반복된다
 
 - **Slide ID:** S38
@@ -938,6 +981,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 4분 + Case 1분 = 5분
 - **Evidence / Decision References:** BEAT-008, CLM-0003, CLM-0005
+
 
 #### S39 — 작은 Project Context의 첫 기록
 
@@ -963,6 +1007,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Demo 4분 (HYBRID) = 4분
 - **Evidence / Decision References:** BEAT-009, STATE-01, CLM-0003, CLM-0005, OQ-003, OQ-005
 
+
 #### S40 — AGENTS.md의 지침대로 검증했다
 
 - **Slide ID:** S40
@@ -986,6 +1031,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (HYBRID) = 4분
 - **Evidence / Decision References:** BEAT-010, TRIAL-003, STATE-01, CLM-0005, DEC-0046
+
 
 #### S41 — Task Prompt와 Project Context
 
@@ -1011,6 +1057,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
 - **Evidence / Decision References:** BEAT-009, TRANS-003, CLM-0003, CLM-0005, OQ-003, OQ-005, BEAT-010, DEC-0047
 
+
 #### S42 — 정확한 정보도 계속 늘어난다
 
 - **Slide ID:** S42
@@ -1034,6 +1081,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** BEAT-011, STATE-01, STATE-02, CLM-0014, CLM-0015, DEC-0048
+
 
 #### S43 — 정확하지만 이번 작업에는 불필요한 정보
 
@@ -1059,6 +1107,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Demo 2분 (CAPTURED) + Reflection 2분 = 4분
 - **Evidence / Decision References:** BEAT-012, TRIAL-004, CLM-0014, CLM-0015, DEC-0049, DEC-0050
 
+
 #### S44 — 정보의 범위와 제공 시점
 
 - **Slide ID:** S44
@@ -1082,6 +1131,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051, DEC-0060
+
 
 #### S45 — 많이 담아도 같은 근거를 똑같이 쓰는가?
 
@@ -1107,6 +1157,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-013, OQ-006, CLM-0014, SRC-0201, DEC-0052, DEC-0060
 
+
 #### S46 — AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?
 
 - **Slide ID:** S46
@@ -1131,6 +1182,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-013, OQ-006, STATE-00-FIXED, TRIAL-002 (existing crop implementation only), CLM-0015, SRC-0204, DEC-0052, DEC-0060, DEC-0061
 
+
 #### S47 — 필요한 상세 정보로 가는 길
 
 - **Slide ID:** S47
@@ -1154,6 +1206,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0053, DEC-0060
+
 
 #### S48 — AGENTS.md에는 무엇을 남길까?
 
@@ -1180,6 +1233,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0054, DEC-0060, DEC-0087
 - **Practical Tip Classification:** Context 관리
 
+
 #### S49 — 정보를 지우지 않고 위치를 나누기
 
 - **Slide ID:** S49
@@ -1203,6 +1257,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 2분 + Demo 2분 (CAPTURED) + Case 1분 = 5분
 - **Evidence / Decision References:** BEAT-014, BEAT-015, STATE-02, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0055, DEC-0060
+
 
 #### S50 — 서로 다른 두 Task가 무엇을 읽을까?
 
@@ -1228,6 +1283,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-015, BEAT-016, TRIAL-005A, TRIAL-005B, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0056, DEC-0060
 
+
 #### S51 — Crop Task에서 관찰한 접근
 
 - **Slide ID:** S51
@@ -1251,6 +1307,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** BEAT-016, TRIAL-005A, CLM-0014, CLM-0015, DEC-0057, DEC-0060
+
 
 #### S52 — 의존성 질문은 설정과 소스로 답했다
 
@@ -1276,6 +1333,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** BEAT-016, TRIAL-005B, STATE-03, CLM-0003, CLM-0005, DEC-0060
 
+
 #### S53 — 두 Task에서 상세 문서 접근이 달랐다
 
 - **Slide ID:** S53
@@ -1299,6 +1357,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Demo 1분 (CAPTURED) + Case 3분 + Reflection 2분 + Q&A 1분 = 7분
 - **Evidence / Decision References:** BEAT-016, BEAT-017, TRIAL-005A, TRIAL-005B, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0058, DEC-0060
+
 
 #### S54 — Context 정리에서 확인한 네 가지
 
@@ -1324,6 +1383,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 2분 + Reflection 1분 = 3분
 - **Evidence / Decision References:** BEAT-009, BEAT-010, BEAT-014, BEAT-016, BEAT-017, STATE-01, STATE-02, STATE-03, TRIAL-003, TRIAL-005A, TRIAL-005B, DEC-0060
 
+
 #### S55 — 지식은 정리됐지만 절차는 반복된다
 
 - **Slide ID:** S55
@@ -1348,7 +1408,9 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Transition 4분 + Q&A 6분 = 10분
 - **Evidence / Decision References:** BEAT-017, BEAT-018, TRANS-005, TRIAL-006, TRIAL-007, CLM-0003, CLM-0005, CLM-0014, CLM-0006, CLM-0029, CLM-0030, DEC-0059, DEC-0060
 
+
 ### ACT 3 — 26 slides / 96 minutes
+
 
 #### S56 — AI가 일할 방법과 환경 설계하기
 
@@ -1375,6 +1437,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
 - **ACT Subtitle:** Harness Engineering · 수행 체계 설계
 
+
 #### S57 — 두 실제 요청에 같은 절차가 반복됐다
 
 - **Slide ID:** S57
@@ -1398,6 +1461,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** BEAT-018, BEAT-020, TRIAL-006, CLM-0006, CLM-0029, CLM-0030, TRIAL-007, DEC-0017, DEC-0060, DEC-0062
+
 
 #### S58 — 테스트 명령을 언제 쓰고 무엇을 판단할까?
 
@@ -1424,6 +1488,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0060, DEC-0062, DEC-0063, DEC-0087, DEC-0089
 - **Practical Tip Classification:** 수행 방법
 
+
 #### S59 — 목표·기준·방법을 한 작업에 적용한다
 
 - **Slide ID:** S59
@@ -1447,6 +1512,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
 - **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0062, DEC-0063, DEC-0064
+
 
 #### S60 — 반복 절차를 Skill로 모으는 이유
 
@@ -1472,6 +1538,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-020, BEAT-021, DEC-0017, TRIAL-006, TRIAL-007, TRIAL-008, OQ-005, DEC-0062, DEC-0064, DEC-0065, DEC-0066
 
+
 #### S61 — Skill 발견·호출·본문 포함의 근거
 
 - **Slide ID:** S61
@@ -1496,6 +1563,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Demo 5분 (HYBRID) = 5분
 - **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0066
 
+
 #### S62 — Skill 지침과 실제 작업 기록의 대응
 
 - **Slide ID:** S62
@@ -1519,6 +1587,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Demo 3분 (HYBRID) + Case 3분 = 6분
 - **Evidence / Decision References:** BEAT-021, TRIAL-007, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0067
+
 
 #### S63 — 대화로 재사용할 Skill 만들기
 
@@ -1545,6 +1614,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** SRC-0111, CLM-0041, DEC-0093
 - **Practical Tip Classification:** 수행 방법
 
+
 #### S64 — 절차는 재사용하고, 답은 근거로 정한다
 
 - **Slide ID:** S64
@@ -1568,6 +1638,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-022, DEC-0017, STATE-04-PERF, TRIAL-008, INV-VERIFY-001, DEC-0062, DEC-0068
+
 
 #### S65 — 밝기 통계 계산의 성능 개선 후보
 
@@ -1593,6 +1664,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** BEAT-022, TRIAL-008, STATE-04-PERF, INV-VERIFY-001, DEC-0062, DEC-0069, DEC-0070
 
+
 #### S66 — 선택한 변경의 시간·메모리·동작 확인
 
 - **Slide ID:** S66
@@ -1617,6 +1689,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** BEAT-022, BEAT-037, STATE-04-PERF, STATE-04, TRIAL-008, INV-VERIFY-001, STATE-00, DEC-0018, INV-DEMO-003, DEC-0062, DEC-0070
 
+
 #### S67 — 한 Agent 조사와 Subagent 역할 분리
 
 - **Slide ID:** S67
@@ -1640,6 +1713,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 3분 (VISUAL) + Q&A 1분 = 4분
 - **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0071, DEC-0080
+
 
 #### S68 — 대화로 조사 Agent 만들기
 
@@ -1666,6 +1740,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** SRC-0112, CLM-0042, DEC-0093
 - **Practical Tip Classification:** 수행 방법
 
+
 #### S69 — 밝기 통계 작업을 나누지 않은 이유
 
 - **Slide ID:** S69
@@ -1689,6 +1764,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Demo 2분 (VISUAL) + Q&A 1분 = 4분
 - **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0072
+
 
 #### S70 — 이번 Context와 다시 쓸 지식
 
@@ -1715,6 +1791,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0073, DEC-0080, DEC-0087
 - **Practical Tip Classification:** Context 관리
 
+
 #### S71 — 실제 Demo 지식의 원래 출처
 
 - **Slide ID:** S71
@@ -1738,6 +1815,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0074
+
 
 #### S72 — 밝기 통계 작업에 쓰인 구성의 역할
 
@@ -1763,6 +1841,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Demo 3분 (CAPTURED) = 3분
 - **Evidence / Decision References:** BEAT-035, BEAT-037, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0062, DEC-0075, DEC-0080
 
+
 #### S73 — 함께 작동하는 작업 환경, Harness
 
 - **Slide ID:** S73
@@ -1786,6 +1865,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Lecture 4분 + Demo 2분 (CAPTURED) = 6분
 - **Evidence / Decision References:** BEAT-035, BEAT-036, STATE-04-PERF, OQ-011, CLM-0016, CLM-0017, CLM-0030, DEC-0062, DEC-0023, DEC-0076, DEC-0080
+
 
 #### S74 — 만든 Harness를 다음 프로젝트의 기반으로
 
@@ -1811,6 +1891,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001
 
+
 #### S75 — 공통 기반에 프로젝트 기준을 연결한다
 
 - **Slide ID:** S75
@@ -1834,6 +1915,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001
+
 
 #### S76 — 이번 성공만으로 다음 작업까지 확인되지는 않는다
 
@@ -1859,6 +1941,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** STATE-04-PERF; TRIAL-008; DEC-0023; INV-VERIFY-001; DEC-0092; MASTER_PLAN §§5.8–5.9,14; existing BEAT-035/036/037 and transition to BEAT-038 (teaching bridge, no new observed event)
 
+
 #### S77 — 첫 결과 뒤에도, 확인할 일이 남는다면?
 
 - **Slide ID:** S77
@@ -1882,6 +1965,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
+
 
 #### S78 — 남은 문제를 다음 수정으로 이어주는 사람
 
@@ -1907,6 +1991,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
 
+
 #### S79 — 같은 목표의 수정과 검토가 끊기지 않게
 
 - **Slide ID:** S79
@@ -1930,6 +2015,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
+
 
 #### S80 — 다음 수정에 넘길 기록
 
@@ -1956,6 +2042,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
 - **Practical Tip Classification:** 수행 방법
 
+
 #### S81 — 내가 매번 이어 주는 다음 단계는 무엇일까?
 
 - **Slide ID:** S81
@@ -1980,7 +2067,9 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Reflection 3분 + Q&A 5분 + Transition 2분 = 10분
 - **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
 
-### ACT 4 — 18 slides / 81 minutes
+
+### ACT 4 — 20 slides / 85 minutes
+
 
 #### S82 — 목표를 이룰 때까지 수정하고 검토하기
 
@@ -2008,6 +2097,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **ACT Subtitle:** Loop Engineering · 목표 기반 실행·검토 시스템
 - **ACT Display Title:** 목표를 이룰 때까지 / 수정하고 검토하기
 
+
 #### S83 — 다음 수정도 사람이 매번 이어줘야 할까?
 
 - **Slide ID:** S83
@@ -2031,6 +2121,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-073; CASE-LOOP-01; CLM-0021
+
 
 #### S84 — 먼저, 무엇이 되면 완료인지 정한다
 
@@ -2056,6 +2147,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-074; CASE-LOOP-01; existing six-field specification in DEMO_MATRIX
 
+
 #### S85 — 모델 A가 첫 변경 후보를 만든다
 
 - **Slide ID:** S85
@@ -2079,6 +2171,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-075; CASE-LOOP-01; CLM-0021
+
 
 #### S86 — 실제 동작과 비용은 도구로 확인한다
 
@@ -2104,6 +2197,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 2분 + Case 3분 = 5분
 - **Evidence / Decision References:** DEC-0097; BEAT-075; CASE-LOOP-01; CLM-0021
 
+
 #### S87 — 모델 B는 무엇을 근거로 검토할까?
 
 - **Slide ID:** S87
@@ -2127,6 +2221,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** DEC-0097; BEAT-076; CASE-LOOP-01; CLM-0021
+
 
 #### S88 — 지적이 다음 수정으로 이어진다
 
@@ -2152,6 +2247,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-077; CASE-LOOP-01; CLM-0021
 
+
 #### S89 — 고쳤다면, 같은 기준으로 다시 본다
 
 - **Slide ID:** S89
@@ -2175,6 +2271,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-078; CASE-LOOP-01; CLM-0021
+
 
 #### S90 — 같은 목표의 구현·검토 루프
 
@@ -2200,6 +2297,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 3분 + Case 2분 = 5분
 - **Evidence / Decision References:** DEC-0097; BEAT-079; CASE-LOOP-01; CLM-0021
 
+
 #### S91 — 언제 계속하고, 언제 끝낼까?
 
 - **Slide ID:** S91
@@ -2223,6 +2321,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 3분 + Reflection 2분 = 5분
 - **Evidence / Decision References:** DEC-0097; BEAT-079; CASE-LOOP-01; CLM-0021
+
 
 #### S92 — 구현한 모델에게 다시 물으면 충분할까?
 
@@ -2248,6 +2347,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-080; SRC-0223; SRC-0239; CLM-0045
 
+
 #### S93 — 다른 모델의 관점이 도움이 된 실험
 
 - **Slide ID:** S93
@@ -2271,6 +2371,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 3분 + Case 2분 = 5분
 - **Evidence / Decision References:** DEC-0097; BEAT-081; SRC-0237; CLM-0043; ReConcile Table 7
+
 
 #### S94 — 잘 만드는 능력과 잘 검토하는 능력
 
@@ -2296,6 +2397,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 3분 + Case 1분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-081; SRC-0238; CLM-0044; CriticBench section 4.2.5
 
+
 #### S95 — 구현과 검토에 모델을 어떻게 나눌까?
 
 - **Slide ID:** S95
@@ -2319,6 +2421,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-082; CLM-0043; CLM-0044; CASE-LOOP-01
+
 
 #### S96 — 검토 모델의 말도 확인해야 한다
 
@@ -2344,6 +2447,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-082; CASE-LOOP-01; CLM-0021
 
+
 #### S97 — 반복하려면 무엇을 이어받아야 할까?
 
 - **Slide ID:** S97
@@ -2368,6 +2472,7 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-082; CASE-LOOP-01; CLM-0021
 
+
 #### S98 — 확인한 근거와 아직 실행하지 않은 설계
 
 - **Slide ID:** S98
@@ -2387,40 +2492,93 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Advanced Payoff:** 설계의 타당성, 실행의 존재, 결과의 품질, 비교 효과를 서로 다른 근거 단계로 평가한다.
 - **C++ Vision Bridge:** N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
 - **Speaker Intent:** 기존 제품 Trial, 인용 연구, 이번 루프 설계의 세 근거 범위를 구분한다.
-- **Transition:** 다음은 우리 작업에는 어떤 루프가 필요할까?의 질문으로 이어간다.
+- **Transition:** 설계·논문·실제 기록을 구분했습니다. 이어서 목표를 유지하며 작업을 계속하는 공식 Goal 기능을 실무 팁으로 살펴봅니다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-083; STATE-04-PERF; TRIAL-008; SRC-0237; SRC-0238; CASE-LOOP-01
 
-#### S99 — 우리 작업에는 어떤 루프가 필요할까?
+
+#### S99 — Goal이 목표와 다음 작업을 이어준다
 
 - **Slide ID:** S99
+- **ACT:** ACT 4
+- **Section:** 4T1 Goal continuation
+- **Working Title:** Goal이 목표와 다음 작업을 이어준다
+- **Primary Role:** Goal은 턴을 넘어 목표·상태를 유지하고 근거 확인 뒤 계속 수행을 연결한다. 완료 기준과 검증·검토 역할은 작업에 맞게 설계한다.
+- **Audience Question:** 매번 계속하라고 요청하지 않고, 같은 목표를 이어갈 수 있을까?
+- **Core Message:** Goal은 턴을 넘어 목표·상태를 유지하고 근거 확인 뒤 계속 수행을 연결한다. 완료 기준과 검증·검토 역할은 작업에 맞게 설계한다.
+- **Story Beat:** BEAT-084
+- **Curriculum Trace:** ACT4 4T1 Goal continuation; explicit user-approved product application tip after the bounded case and research.
+- **Evidence Type:** RESEARCH / TEACHING_MODEL
+- **Claim Status:** FROZEN WITH SCOPE — 공식 문서로 확인한 기능·안내와 교육용 도식. 사내 계정/버전/설정의 사용 가능 여부는 REQUIRES PRODUCT CHECK. 자동 다중 모델 배정·완료 보장·시간/비용 절감을 주장하지 않는다.
+- **Visual Concept:** 왼쪽 /goal 목표 설정창과 오른쪽 작업·근거 확인·다음 판단을 native 도식으로 연결한다. 미충족 시 다음 작업으로 되돌아가는 선을 닫는다. 실제 제품 UI나 실행 캡처로 표현하지 않는다.
+- **Demo / Case Connection:** 밝기 통계 작업을 예로 든 공식 안내 각색. 기존 Product Trial과 별개의 사용법 설명이며 새 Goal·Trial을 실행하지 않는다.
+- **Beginner Payoff:** Goal은 턴을 넘어 목표·상태를 유지하고 근거 확인 뒤 계속 수행을 연결한다. 완료 기준과 검증·검토 역할은 작업에 맞게 설계한다.
+- **Advanced Payoff:** Goal은 대화 범위의 목표·상태와 계속 수행 제어다. 권한을 확대하지 않으며 다른 모델의 코드 검토자를 자동 배정한다는 근거로 쓰지 않는다. 일반 요청 안에서도 수정·테스트가 반복될 수 있다.
+- **C++ Vision Bridge:** N/A — 새 C++ 실행 예시 없음.
+- **Speaker Intent:** 기능이 맡는 역할과 사용자가 설계할 기준·검토를 구분한다. 실제 기능 사용 성공이나 자동 모델 조합으로 말하지 않는다.
+- **Transition:** 기능이 계속 수행을 연결하더라도, 무엇이 완료인지 요청에 적어야 합니다. 다음은 Goal 작성 예시입니다.
+- **Estimated Time:** 2분
+- **Delivery Mode Allocation:** Lecture 2분 = 2분
+- **Evidence / Decision References:** SRC-0240; SRC-0241; SRC-0242; CLM-0046; DEC-0098
+
+
+#### S100 — Goal에는 완료 근거와 멈출 조건을 담는다
+
+- **Slide ID:** S100
+- **ACT:** ACT 4
+- **Section:** 4T2 Goal request
+- **Working Title:** Goal에는 완료 근거와 멈출 조건을 담는다
+- **Primary Role:** Goal 요청에는 원하는 변화, 보존 조건, 완료를 확인할 근거와 막혔을 때 보고할 조건을 담는다. 같은 기준으로 진행을 판단한다.
+- **Audience Question:** 언제 끝내고 언제 미완료를 보고할지, Goal에 무엇을 적을까?
+- **Core Message:** Goal 요청에는 원하는 변화, 보존 조건, 완료를 확인할 근거와 막혔을 때 보고할 조건을 담는다. 같은 기준으로 진행을 판단한다.
+- **Story Beat:** BEAT-085
+- **Curriculum Trace:** ACT4 4T2 Goal request; explicit user-approved product application tip after the bounded case and research.
+- **Evidence Type:** RESEARCH / TEACHING_MODEL
+- **Claim Status:** FROZEN WITH SCOPE — 공식 작성 안내를 각색한 교육용 Goal 예시이며 활성화·명령 실행·측정·완료 결과가 아니다. 기준판·대표 입력·측정 방법을 실제 사용 전에 확정한다. 현재 다중 모델 조합의 성과를 증명하지 않는다.
+- **Visual Concept:** 막연한 /goal 요청 한 줄 아래에 밝기 통계의 구체 요청창을 배치한다. 기준판보다 할당량 감소, 여섯 출력·동작 보존, 같은 입력의 검사·측정, 실행시간 회귀와 검증 불가 시 미완료 보고를 표시한다. 오른쪽에서 목표·근거·멈출 조건을 짧게 대응시킨다.
+- **Demo / Case Connection:** 밝기 통계 작업을 예로 든 공식 안내 각색. 기존 Product Trial과 별개의 사용법 설명이며 새 Goal·Trial을 실행하지 않는다.
+- **Beginner Payoff:** Goal 요청에는 원하는 변화, 보존 조건, 완료를 확인할 근거와 막혔을 때 보고할 조건을 담는다. 같은 기준으로 진행을 판단한다.
+- **Advanced Payoff:** 측정값 자체보다 어떤 기준판·대표 입력·환경·측정 방법을 고정할지가 중요하다. 검토 모델의 동의나 Goal의 완료 표시가 도구 근거와 최종 수용을 대신하지 않는다.
+- **C++ Vision Bridge:** N/A — 새 C++ 실행 예시 없음.
+- **Speaker Intent:** 기능이 맡는 역할과 사용자가 설계할 기준·검토를 구분한다. 실제 기능 사용 성공이나 자동 모델 조합으로 말하지 않는다.
+- **Transition:** 이 기능을 활용하더라도 우리 작업의 목표·검증·검토 판단은 남습니다. S101에서 필요한 루프를 정리한 뒤 ACT5의 조합과 덜어내기로 넘어갑니다.
+- **Estimated Time:** 2분
+- **Delivery Mode Allocation:** Lecture 2분 = 2분
+- **Evidence / Decision References:** SRC-0240; SRC-0241; CLM-0047; DEC-0098
+
+
+#### S101 — 우리 작업에는 어떤 루프가 필요할까?
+
+- **Slide ID:** S101
 - **ACT:** ACT 4
 - **Section:** 4R6 Evidence and transfer
 - **Working Title:** 우리 작업에는 어떤 루프가 필요할까?
 - **Primary Role:** 내 업무의 목표·피드백·운영 판단을 떠올리고 ACT5의 조합·통합·제거로 이어간다.
 - **Audience Question:** 내 작업에서 검토 결과가 다음 수정으로 돌아가려면 무엇이 필요할까?
-- **Core Message:** 내 업무의 목표·피드백·운영 판단을 떠올리고 ACT5의 조합·통합·제거로 이어간다.
+- **Core Message:** Goal의 계속 수행 기능을 활용하되 내 업무에 필요한 목표·근거·검토 역할을 정리하고 ACT5의 조합·통합·제거로 이어간다.
 - **Story Beat:** BEAT-083
 - **Curriculum Trace:** ACT 4 / 4R6 Evidence and transfer → ACT5의 조합·통합·제거
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-- **Visual Concept:** 목표/피드백/운영의 세 질문. 마지막 한 문장으로 ACT5의 필요한 만큼 조합·덜어내기를 연결.
+- **Visual Concept:** 기존 목표·피드백·운영의 세 질문은 유지하고, 하단에서 제품 기능 활용과 필요한 검증·검토의 조합을 연결한다.
 - **Demo / Case Connection:** CASE-LOOP-01 — 교육용 설계 / 실제 다중 모델 실행·측정 없음
 - **Beginner Payoff:** 내 업무의 목표·피드백·운영 판단을 떠올리고 ACT5의 조합·통합·제거로 이어간다.
 - **Advanced Payoff:** ACT5에서 현재 문제와 비용·효과를 보고 필요한 구성을 유지·통합·제거할 수 있게 한다.
 - **C++ Vision Bridge:** N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
 - **Speaker Intent:** 내 업무의 목표·피드백·운영 판단을 떠올리고 ACT5의 조합·통합·제거로 이어간다.
-- **Transition:** S100의 ACT5 제목을 거쳐 S101에서 전체 여정을 회수하고 필요한 조합·통합·제거를 생각한다.
+- **Transition:** Goal의 계속 수행을 활용해도 검증과 역할을 모두 직접 구현할 필요는 없습니다. S102의 ACT5 제목을 거쳐 S103에서 필요한 대응의 조합을 생각합니다.
 - **Estimated Time:** 11분
 - **Delivery Mode Allocation:** Reflection 2분 + Q&A 7분 + Transition 2분 = 11분
 - **Evidence / Decision References:** DEC-0097; BEAT-083; CASE-LOOP-01; CLM-0021
 
+
 ### ACT 5 — 15 slides / 40 minutes
 
-#### S100 — 내 업무에 맞게 조합하고 덜어내기
 
-- **Slide ID:** S100
+#### S102 — 내 업무에 맞게 조합하고 덜어내기
+
+- **Slide ID:** S102
 - **ACT:** ACT 5
 - **Section:** 5A Full Story Recap
 - **Working Title:** 내 업무에 맞게 조합하고 덜어내기
@@ -2437,63 +2595,66 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Advanced Payoff:** 해당 ACT가 다루는 설계 책임의 범위를 짧게 확인한다.
 - **C++ Vision Bridge:** N/A — 기존 본문에 있는 C++ 연결을 유지한다.
 - **Speaker Intent:** 승인된 제목·부제를 가리키며 ACT의 방향만 안내한다. 용어 정의·모든 도구의 도입·성과 예고로 확장하지 않고 기존 첫 문제를 연다.
-- **Transition:** S101에서 실제 제품 이력과 이번 교육의 모델을 구분하며 전체 여정을 회수한다.
+- **Transition:** S103에서 실제 제품 이력과 이번 교육의 모델을 구분하며 전체 여정을 회수한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Transition 1분 = 1분
 - **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
 - **ACT Subtitle:** AI-Native Development · 업무 방식의 재설계
 
-#### S101 — 문제에 맞춰, 일하는 방식을 넓혔다
 
-- **Slide ID:** S101
+#### S103 — 문제에 맞춰, 일하는 방식을 넓혔다
+
+- **Slide ID:** S103
 - **ACT:** ACT 5
 - **Section:** 5A Full Story Recap
 - **Working Title:** 문제에 맞춰, 일하는 방식을 넓혔다
 - **Primary Role:** 목표에 이르기까지 검토와 수정을 연결하는 Loop를 전체 여정에서 회수한다.
 - **Audience Question:** “어떤 문제 때문에 다음 대응이 필요했을까요?”
-- **Core Message:** 목표에 이르기까지 검토와 수정을 연결하는 Loop를 전체 여정에서 회수한다.
+- **Core Message:** 전체 여정은 필요한 대응의 선택지다. 플랫폼이 맡는 기능을 활용하고 내 문제에 필요한 기준과 검토를 조합한다.
 - **Story Beat:** BEAT-060
 - **Curriculum Trace:** ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; TEACHING_MODEL; 이 교육의 진화 모델이다. 각 단계는 앞 단계를 대체하지 않는다.
-- **Visual Concept:** Chatbot→Prompt→Context→Harness→Loop의 문제·대응. Loop는 검토·수정 반복과 목표 충족 판단으로 표시.
+- **Visual Concept:** 기존 다섯 단계 도식을 유지한다. 상단은 필요한 대응의 선택으로, Loop의 문제는 다음 수정의 단절로, 하단은 플랫폼 기능과 필요한 기준·검토의 조합으로 정렬한다.
 - **Demo / Case Connection:** 전체 Demo 사례를 새로 시연하지 않고, 앞 단계에서 발생한 문제와 대응을 짧게 연결한다.
 - **Beginner Payoff:** 목표에 이르기까지 검토와 수정을 연결하는 Loop를 전체 여정에서 회수한다.
 - **Advanced Payoff:** 문제 범위에 맞춘 대응과 고정된 기능 성숙도 평가를 구분한다.
 - **C++ Vision Bridge:** 단계별 설명에 기존 Vision 사례를 선택적으로 회상한다. 새로운 기술 사례는 추가하지 않는다.
 - **Speaker Intent:** 목표에 이르기까지 검토와 수정을 연결하는 Loop를 전체 여정에서 회수한다.
-- **Transition:** “전체 교육 모델 중, 제품 저장소에서 실제로 확인한 변화만 다시 보겠습니다.”
+- **Transition:** 방금은 적용할 대응의 전체 지도였습니다. 다음 S104에서는 Goal과 다중 모델 설계를 제외하고, 제품 저장소에서 실제 확인한 변화만 보겠습니다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-060, INV-NARRATIVE-001, INV-NARRATIVE-002; DEC-0097; CLM-0021
 
-#### S102 — 실제 Demo는 문제에 맞춰 바뀌었다
 
-- **Slide ID:** S102
+#### S104 — 실제 Demo는 문제에 맞춰 바뀌었다
+
+- **Slide ID:** S104
 - **ACT:** ACT 5
 - **Section:** 5A Primary Demo Evolution
 - **Working Title:** 실제 Demo는 문제에 맞춰 바뀌었다
 - **Primary Role:** 실제 Product State의 변화는 기존 관찰대로 보존하고, 다중 모델 루프는 앞 ACT의 설계·연구라는 경계를 밝힌다.
 - **Audience Question:** “실제 Demo 제품은 어떤 문제에 대응해 바뀌었을까요?”
-- **Core Message:** 실제 Product State의 변화는 기존 관찰대로 보존하고, 다중 모델 루프는 앞 ACT의 설계·연구라는 경계를 밝힌다.
+- **Core Message:** 실제 Product State 이력은 기존 관찰대로 보존한다. 다중 모델 반복과 Goal 사용은 이 제품에서 실행 검증하지 않았다.
 - **Story Beat:** BEAT-060
 - **Curriculum Trace:** ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; TEACHING_MODEL; State 의미는 기록된 Demo evidence 범위에 한정한다. Benchmark 준비 commit은 보조 이력이지 별도 State가 아니다.
-- **Visual Concept:** 기존 세 제품 변화 행과 일곱 Git State를 유지. 하단에서 Loop의 설계·연구 범위를 구분.
+- **Visual Concept:** 기존 세 문제→변경과 일곱 State 도식은 보존하고 하단에서 Goal 사용·다중 모델 루프를 이 제품의 실행 이력과 구분한다.
 - **Demo / Case Connection:** TRIAL-002/S21; TRIAL-003/004/005A/B 및 S49; TRIAL-008·STATE-04-PERF/S61. DEMO-12는 실제 일곱 State의 정적 요약2분이며 Product Loop를 추가하지 않는다.
 - **Beginner Payoff:** 실제 Product State의 변화는 기존 관찰대로 보존하고, 다중 모델 루프는 앞 ACT의 설계·연구라는 경계를 밝힌다.
 - **Advanced Payoff:** 제품 변경 이력과 교육 모델·가상 사례·실제 Meta 이력의 범위를 나누고 bounded Product endpoint를 유지한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** 실제 Product State의 변화는 기존 관찰대로 보존하고, 다중 모델 루프는 앞 ACT의 설계·연구라는 경계를 밝힌다.
-- **Transition:** “이 실제 작업에서 Subagent와 Memory는 왜 추가하지 않았을까요?”
+- **Transition:** 이 제품에 실제 사용한 구성만 보았습니다. Subagent와 별도 Memory를 보류했던 작업별 이유를 S105에서 확인합니다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 1분 + Demo 2분 (VISUAL) = 3분
 - **Evidence / Decision References:** BEAT-060, INV-NARRATIVE-001, INV-NARRATIVE-002; DEC-0097; CLM-0021
 
-#### S103 — 이번 문제에 필요한 구성만 선택했다
 
-- **Slide ID:** S103
+#### S105 — 이번 문제에 필요한 구성만 선택했다
+
+- **Slide ID:** S105
 - **ACT:** ACT 5
 - **Section:** 5A Minimum Effective Harness Callback
 - **Working Title:** 이번 문제에 필요한 구성만 선택했다
@@ -2509,39 +2670,41 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Beginner Payoff:** 도구 이름보다 지금 그 도구가 어떤 문제를 해결하는지 먼저 묻는다.
 - **Advanced Payoff:** 역할 간 의존성과 지식 원출처를 보고 구성 추가의 필요성을 평가한다. 실험하지 않은 대안의 효과를 단정하지 않는다.
 - **C++ Vision Bridge:** 필요하면 자신의 Repository 구성요소를 같은 질문으로 검토한다.
-- **Speaker Intent:** 구성요소 이름을 재강의하지 않고, 현재 작업의 사용·보류 판단 이유를 회수한다. DEC-0082의 화면·발표 운영을 따른다.
+- **Speaker Intent:** 현재 모든 작업의 필수 구성표로 제시하지 않는다. 이 과거 제품 작업에서 조사·변경·검증이 의존했고 지식이 기존 출처에 있었던 보류 이유만 설명한다. Goal과 다른 모델 검토의 필요 여부는 별도의 현재 과제 판단이다.
 - **Transition:** “필요한 구성을 골랐더라도, 나온 결과를 받아들일지는 누가 판단할까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-057, BEAT-060, STATE-04-PERF, DEC-0018, DEC-0021, INV-NARRATIVE-001, INV-NARRATIVE-002
 
-#### S104 — 결과를 수용할지는 사람이 판단한다
 
-- **Slide ID:** S104
+#### S106 — 결과를 수용할지는 사람이 판단한다
+
+- **Slide ID:** S106
 - **ACT:** ACT 5
 - **Section:** 5A Developer Responsibility
 - **Working Title:** 결과를 수용할지는 사람이 판단한다
 - **Primary Role:** AI가 가져온 결과를 사람이 목표·판단·검증·책임의 질문으로 수용하는 관계를 설명한다.
 - **Audience Question:** “AI가 결과를 가져왔을 때, 무엇을 보고 받아들일까요?”
-- **Core Message:** AI가 만든 변경 내용·실행·검사·비교 기록을 받아도 목표와 제약, 선택의 적절성, 검증 근거, 남은 위험과 완료 수용은 개발자가 판단한다.
+- **Core Message:** Goal이 완료를 보고하더라도 사람은 목표·선택·검증 근거·남은 위험을 확인해 결과를 수용한다.
 - **Story Beat:** BEAT-061–062
 - **Curriculum Trace:** ACT 5 — beginning/ending comparison and AI-Native Development teaching model.; ACT 5 — Beginning/ending comparison and developer responsibility.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; 이 교육에서 고정한 책임 원칙이다. Agent와 개발자 역할을 절대적인 분업 규칙으로 제시하지 않는다.
-- **Visual Concept:** 왼쪽 AI 작업 결과→오른쪽 사람의 수용 판단. 목표·판단·검증·책임을 두 행×두 열의 네 질문으로 보여준다. 실제 보고서·제품 UI가 아닌 교육용 관계도다.
+- **Visual Concept:** 기존 AI 결과→사람의 네 수용 질문을 유지한다. 상단에서 Goal 완료 보고와 사람의 근거 확인을 연결한다.
 - **Demo / Case Connection:** 전체 Story의 역할 변화. 새 Product 기능 사례는 없다.
 - **Beginner Payoff:** 완료라는 말만 받지 말고, 원하는 변화와 확인 근거·남은 위험을 보고 수용한다.
 - **Advanced Payoff:** 위임 범위와 제약, 위험 판단, 검증과 최종 수용을 연결한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** AI가 가져온 결과를 사람이 목표·판단·검증·책임의 질문으로 수용하는 관계를 설명한다. DEC-0082의 화면·발표 운영을 따른다.
-- **Transition:** “그 판단에 필요한 근거가 나오도록, AI의 작업 환경을 어떻게 준비할까요?”
+- **Transition:** 그 수용 판단에 필요한 근거가 나오도록, 우리가 정할 작업 조건과 제품 기능을 S107에서 함께 정리합니다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-061, CLM-0023, CLM-0024, OQ-011, CLM-0001, CLM-0002, INV-RESPONSIBILITY-001, BEAT-062
 
-#### S105 — AI가 일할 조건과 확인 경로를 설계한다
 
-- **Slide ID:** S105
+#### S107 — AI가 일할 조건과 확인 경로를 설계한다
+
+- **Slide ID:** S107
 - **ACT:** ACT 5
 - **Section:** 5A AI-Native Development
 - **Working Title:** AI가 일할 조건과 확인 경로를 설계한다
@@ -2556,16 +2719,17 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Demo / Case Connection:** 전체 교육의 모델을 요약하며 새로운 기능은 추가하지 않는다.
 - **Beginner Payoff:** 목표·Context·수행 방법·검증과 목표까지의 수정·재검토를 업무에 맞게 설계한다.
 - **Advanced Payoff:** Model capability와 작업 System 설계를 구분하고, 필요한 근거·피드백 경로를 설계한다.
-- **C++ Vision Bridge:** 신규 재평가3장을 거쳐 S109에서 자신의 Repository와 Vision 업무로 전이한다.
+- **C++ Vision Bridge:** 신규 재평가3장을 거쳐 S111에서 자신의 Repository와 Vision 업무로 전이한다.
 - **Speaker Intent:** 목표·Context·수행 방법·검증과 목표까지의 수정·재검토를 업무에 맞게 설계한다.
-- **Transition:** “설계는 추가에서 끝날까요? 모델·플랫폼이 바뀌면 이미 만든 구조도 다시 봐야 합니다.”
+- **Transition:** 앞서 본 Goal처럼 플랫폼이 계속 수행을 제공할 수 있습니다. 다음은 모델·플랫폼이 달라졌을 때 기존 보조 역할을 다시 판단하는 별도 공개 사례입니다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-061, OQ-011, CLM-0023, CLM-0024; DEC-0097; CLM-0021
 
-#### S106 — 모델·플랫폼이 바뀌면 Harness도 다시 본다
 
-- **Slide ID:** S106
+#### S108 — 모델·플랫폼이 바뀌면 Harness도 다시 본다
+
+- **Slide ID:** S108
 - **ACT:** ACT 5
 - **Section:** 5A Harness Reassessment
 - **Working Title:** 모델·플랫폼이 바뀌면 Harness도 다시 본다
@@ -2581,15 +2745,16 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Beginner Payoff:** 처음에는 필요했던 장치도 조건이 달라지면 다시 볼 수 있음을 이해한다.
 - **Advanced Payoff:** 더 강한 모델·플랫폼 기능의 도입을 기존 구조의 자동 유지나 무조건 제거와 분리하고, 현재의 역할·경계를 재평가한다.
 - **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
-- **Speaker Intent:** 이전에 필요했던 보조 구조도 모델·플랫폼·업무 조건 변화 뒤에는 다시 평가할 대상으로 전환한다. S103의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
+- **Speaker Intent:** 이전에 필요했던 보조 구조도 모델·플랫폼·업무 조건 변화 뒤에는 다시 평가할 대상으로 전환한다. S105의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
 - **Transition:** “그렇다면 무엇을 보존하고, 어떤 부분을 합치거나 제거할 후보로 볼까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083
 
-#### S107 — 무엇을 남기고, 무엇을 덜어낼까?
 
-- **Slide ID:** S107
+#### S109 — 무엇을 남기고, 무엇을 덜어낼까?
+
+- **Slide ID:** S109
 - **ACT:** ACT 5
 - **Section:** 5A Harness Reassessment
 - **Working Title:** 무엇을 남기고, 무엇을 덜어낼까?
@@ -2605,16 +2770,17 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Beginner Payoff:** 중요한 요구를 지우는 것과 중복된 구현·지침을 덜어내는 것을 구분한다.
 - **Advanced Payoff:** 원출처·책임·필요한 격리 경계를 보존하면서 불필요한 조율·우회 구조를 재검토한다.
 - **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
-- **Speaker Intent:** 기존 구성의 존재 이유에 따라 유지·통합·제거 후보를 구분한다. S103의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
+- **Speaker Intent:** 기존 구성의 존재 이유에 따라 유지·통합·제거 후보를 구분한다. S105의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
 - **Transition:** “후보를 정했다면, 덜어낸 뒤에도 필요한 일을 하는지 무엇으로 확인할까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** CLM-0022, CLM-0030, SRC-0236, BEAT-057, BEAT-061, BEAT-069, DEC-0083, DEC-0087
 - **Practical Tip Classification:** 검증·개선
 
-#### S108 — 덜어낸 뒤에도 필요한 일을 하는가?
 
-- **Slide ID:** S108
+#### S110 — 덜어낸 뒤에도 필요한 일을 하는가?
+
+- **Slide ID:** S110
 - **ACT:** ACT 5
 - **Section:** 5A Harness Reassessment
 - **Working Title:** 덜어낸 뒤에도 필요한 일을 하는가?
@@ -2630,16 +2796,17 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Beginner Payoff:** 간단해졌다는 인상 대신 원래 할 일을 계속 수행하는지 확인한다.
 - **Advanced Payoff:** 평가 범위·품질·회귀·시간/비용·남은 위험과 복구 조건을 분리해 수용 근거를 만든다. 모델/구성 외 조건의 차이도 기록한다.
 - **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
-- **Speaker Intent:** 통합·제거 후보의 채택을 대표 작업과 회귀·비용·위험 근거에 연결한다. S103의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
+- **Speaker Intent:** 통합·제거 후보의 채택을 대표 작업과 회귀·비용·위험 근거에 연결한다. S105의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
 - **Transition:** “부족한 것뿐 아니라 겹쳐 쌓인 것도 포함해, 내 업무의 문제 하나를 골라봅시다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083, DEC-0087
 - **Practical Tip Classification:** 검증·개선
 
-#### S109 — 내 업무에서는 무엇이 반복해서 막힐까?
 
-- **Slide ID:** S109
+#### S111 — 내 업무에서는 무엇이 반복해서 막힐까?
+
+- **Slide ID:** S111
 - **ACT:** ACT 5
 - **Section:** 5B C++ Vision / My Repository Transfer
 - **Working Title:** 내 업무에서는 무엇이 반복해서 막힐까?
@@ -2661,9 +2828,10 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Delivery Mode Allocation:** Case 1분 + Transition 4분 = 5분
 - **Evidence / Decision References:** BEAT-068, INV-AUDIENCE-001, INV-DIFFICULTY-001, INV-LOOP-001, INV-RESPONSIBILITY-001, BEAT-069; DEC-0097; CLM-0021
 
-#### S110 — 고른 문제에서, 다음 행동 하나로
 
-- **Slide ID:** S110
+#### S112 — 고른 문제에서, 다음 행동 하나로
+
+- **Slide ID:** S112
 - **ACT:** ACT 5
 - **Section:** 5B Final Reflection
 - **Working Title:** 고른 문제에서, 다음 행동 하나로
@@ -2675,25 +2843,26 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; 개인 Reflection이며 응답·공유·실천 약속을 요구하지 않는다.
 - **Visual Concept:** 기존 A–E 대응과 통합·제거 선택을 유지. E의 다음 행동만 새 문제와 정렬.
-- **Demo / Case Connection:** 새 Demo 없음. S109의 A–E 문제→같은 글자의 작은 행동→확인 근거라는 개인 성찰이다.
+- **Demo / Case Connection:** 새 Demo 없음. S111의 A–E 문제→같은 글자의 작은 행동→확인 근거라는 개인 성찰이다.
 - **Beginner Payoff:** 선택한 문제의 E에서 검토 지적·다음 수정·완료 기준을 잇는 작은 행동을 고른다.
 - **Advanced Payoff:** 추가·통합·제거 후보를 근거·유지 위치·검토 책임에 연결하고, 검증 결과에 따라 그대로 유지하거나 되돌리는 선택을 남긴다.
 - **C++ Vision Bridge:** 각자의 Vision 업무에 질문을 적용할 수 있다.
 - **Speaker Intent:** 선택한 문제의 E에서 검토 지적·다음 수정·완료 기준을 잇는 작은 행동을 고른다.
-- **Transition:** “마지막 질문을 받기 전에, 실무에서 다시 찾아볼 팁의 위치를 한 번에 정리하겠습니다.”라고 S111의 마지막 찾아보기를 연다.
+- **Transition:** “마지막 질문을 받기 전에, 실무에서 다시 찾아볼 팁의 위치를 한 번에 정리하겠습니다.”라고 S113의 마지막 찾아보기를 연다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Reflection 2분 = 4분
 - **Evidence / Decision References:** BEAT-070, INV-LEARNING-003, INV-DIFFICULTY-001, INV-DELIVERY-001, INV-NARRATIVE-001, BEAT-071; DEC-0097; CLM-0021
 
-#### S111 — 실무 적용 팁 · 작업 환경과 기준
 
-- **Slide ID:** S111
+#### S113 — 실무 적용 팁 · 작업 환경과 기준
+
+- **Slide ID:** S113
 - **ACT:** ACT 5
 - **Section:** 5B Final Reference Review
 - **Working Title:** 실무 적용 팁 · 작업 환경과 기준
 - **Primary Role:** 교육 마지막에 기존 실무 적용 팁의 제목과 현재 Slide ID를 모아, 필요한 상황에서 다시 찾게 하는 안내다.
 - **Audience Question:** “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
-- **Core Message:** 작업 환경과 기준에 필요한 팁의 위치는 S12, S48, S58, S63, S68, S70, S80다. 새 제작 팁도 공식 안내 각색이며 실제 Trial 생성 이력이 아니다. 각 원래 장의 근거 범위를 따른다.
+- **Core Message:** 작업 환경과 기준의 팁 위치는 S12, S48, S58, S63, S68, S70, S80, S99다. 공식 안내 각색과 기존 관찰의 근거를 각 장의 범위로 유지한다.
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 / 최종 회고 뒤, 기존 Q&A·Closing 직전의 통합 찾아보기. 새 Maturity 단계·Demo가 아니다.
 - **Evidence Type:** TEACHING_MODEL
@@ -2704,15 +2873,16 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Advanced Payoff:** 사례의 근거 상태를 유지한 채 재사용할 안내 위치를 구분한다.
 - **C++ Vision Bridge:** N/A — 원래 팁의 적용 범위를 따른다.
 - **Speaker Intent:** 제목과 위치만 짧게 짚고, 전문을 다시 설명하지 않는다. 청중에게 실습·작성·공개 답변을 요구하지 않는다.
-- **Transition:** “이제 요청 문장을 작성할 때 바로 참고할 팁을 모아 보겠습니다.”라고 S112으로 이어간다.
+- **Transition:** “이제 요청 문장을 작성할 때 바로 참고할 팁을 모아 보겠습니다.”라고 S114으로 이어간다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** DEC-0088, DEC-0093; Related tip slides: S12, S48, S58, S63, S68, S70, S80
 - **Practical Tip Classification:** 찾아보기
 
-#### S112 — 실무 적용 팁 · 요청 작성
 
-- **Slide ID:** S112
+#### S114 — 실무 적용 팁 · 요청 작성
+
+- **Slide ID:** S114
 - **ACT:** ACT 5
 - **Section:** 5B Final Reference Review
 - **Working Title:** 실무 적용 팁 · 요청 작성
@@ -2729,21 +2899,22 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Advanced Payoff:** 사례의 근거 상태를 유지한 채 재사용할 안내 위치를 구분한다.
 - **C++ Vision Bridge:** N/A — 원래 팁의 적용 범위를 따른다.
 - **Speaker Intent:** 제목과 위치만 짧게 짚고, 전문을 다시 설명하지 않는다. 청중에게 실습·작성·공개 답변을 요구하지 않는다.
-- **Transition:** “요청 뒤에는 근거를 확인하고 기존 구성을 다시 판단할 기준이 필요합니다.”라고 S113로 이어간다.
+- **Transition:** “요청 뒤에는 근거를 확인하고 기존 구성을 다시 판단할 기준이 필요합니다.”라고 S115로 이어간다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** DEC-0088; Related tip slides: S27, S28, S29, S30, S31, S32, S33, S34
 - **Practical Tip Classification:** 찾아보기
 
-#### S113 — 실무 적용 팁 · 검증과 개선
 
-- **Slide ID:** S113
+#### S115 — 실무 적용 팁 · 검증과 개선
+
+- **Slide ID:** S115
 - **ACT:** ACT 5
 - **Section:** 5B Final Reference Review
 - **Working Title:** 실무 적용 팁 · 검증과 개선
 - **Primary Role:** 교육 마지막에 기존 실무 적용 팁의 제목과 현재 Slide ID를 모아, 필요한 상황에서 다시 찾게 하는 안내다.
 - **Audience Question:** “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
-- **Core Message:** 검증과 개선에 필요한 기존 팁의 위치는 S87, S91, S107, S108다. 내용과 근거 범위는 각 원래 장을 따른다.
+- **Core Message:** 검증과 개선의 팁 위치는 S87, S91, S100, S109, S110이다. Goal 작성 예시와 검토·통합·제거 기준의 근거는 각 원래 장을 따른다.
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 / 최종 회고 뒤, 기존 Q&A·Closing 직전의 통합 찾아보기. 새 Maturity 단계·Demo가 아니다.
 - **Evidence Type:** TEACHING_MODEL
@@ -2757,12 +2928,13 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Transition:** “생각한 한 가지는 마음속에 두고, 이제 남은 질문을 받겠습니다.”
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** DEC-0088; Related tip slides: S87, S91, S107, S108
+- **Evidence / Decision References:** DEC-0088; Related tip slides: S87, S91, S109, S110
 - **Practical Tip Classification:** 찾아보기
 
-#### S114 — Q&A와 교육 마무리
 
-- **Slide ID:** S114
+#### S116 — Q&A와 교육 마무리
+
+- **Slide ID:** S116
 - **ACT:** ACT 5
 - **Section:** 5B Final Q&A / Closing
 - **Working Title:** Q&A와 교육 마무리
@@ -2783,6 +2955,11 @@ ACT4는 목표 기반 구현·검토·수정 루프가 중심이다. 이전 S100
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Transition 2분 + Q&A 4분 = 6분
 - **Evidence / Decision References:** BEAT-070, INV-LEARNING-003, INV-DIFFICULTY-001, INV-DELIVERY-001, INV-NARRATIVE-001, BEAT-071
+
+
+## Historical consolidation and traceability records
+
+아래 번호·배정·검증은 당시 판본의 이력이다. 현행 레코드와 DEC-0098이 우선한다.
 
 ## 현재 정합성 기준
 

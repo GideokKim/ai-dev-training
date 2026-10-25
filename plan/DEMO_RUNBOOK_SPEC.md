@@ -1,6 +1,20 @@
 # Demo Runbook Specification
 
-## 현재 ACT4 제작 기준 — DEC-0097 (2026-10-25)
+## 현재 Goal 팁·ACT5 연결 — DEC-0098 (2026-10-25)
+
+116장·410분(6시간50분). ACT4 S82–S101은20장·85분, ACT5는 S102–S116의15장·40분이다. ACT 장수14/22/19/26/20/15와 시간43/64/82/96/85/40분. Mode Lecture176/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
+
+S98 뒤에 Goal 실무 적용 팁 S99/S100을 각 Lecture2분씩 추가한다. 기존114장 배정과
+근거는 유지하며 이전 S99–S114만+2 이행한다. 실무 팁21개, 마지막 찾아보기 S113–S115다.
+Goal 공식 안내는 제품 활용 예이고 새 Trial·Goal 활성화·자동 다중 모델 검토·성과의 근거가 아니다.
+ACT5 초반은 필요한 대응 선택→실제 제품 이력과 Goal의 경계→보류 이유→수용 책임으로 정렬한다.
+[설계·연결 검토](GOAL_TIPS_AND_ACT5_HANDOFF.md), [현행 Map](SLIDE_MAP.md),
+[114→116 번호](SLIDE_ID_MIGRATION_116.md)를 따른다.12Templates/28Variants·19Notes 필드를 유지한다.
+아래 이전 판본은 이력이다. 실환경·계정·제품 기능·실측 리허설은 UNVERIFIED다.
+Demo Repository·기존 Trial/State·발표 묶음은 변경하지 않는다.
+
+
+## 이전 ACT4 제작 기준 — DEC-0097 (2026-10-25)
 
 사용자가 ACT4 재기획안을 승인했다. 현재114장·406분(6시간46분), ACT 장수
 14/22/19/26/18/15와 시간43/64/82/96/81/40분이다. ACT4 S82–S99는18장·81분,
