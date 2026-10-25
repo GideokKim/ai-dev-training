@@ -1,5 +1,14 @@
 # STEP 08 — Slide-to-Template Mapping
 
+## 현재 ACT5 종합 — DEC-0099 (2026-10-25)
+
+116장·410분과 ACT별 장수·시간을 유지한다. S103–S107은 Demo 사전 지식 없이
+작업 범위·흐름·수행 조건·수용 책임을 종합한다. 개인 문제 선택과 다음 행동은
+S111/S112에만 둔다. S104는 TEACHING_MODEL이며 VISUAL Demo2분을 Case2분으로
+정렬한다. Mode Lecture176/Demo49/Case105/Reflection22/Transition26/Q&A32분.
+[승인 설계](ACT5_OPENING_SYNTHESIS.md)를 우선한다. 기존 실제 이력은 보존 기록이며
+새 Trial·제품 실행·성과 근거로 바꾸지 않는다. S108 이후와 근거 범위는 유지한다.
+
 ## 현재 기준 — DEC-0098
 
 116장·410분(6시간50분). ACT4 S82–S101은20장·85분, ACT5는 S102–S116의15장·40분이다. ACT 장수14/22/19/26/20/15와 시간43/64/82/96/85/40분. Mode Lecture176/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
@@ -11,14 +20,14 @@ Native 표 S53/S62와 Native 차트 S66/S93은 유지한다. 미사용 Template�
 |---|---:|
 | T01 | 7 |
 | T02 | 6 |
-| T03 | 50 |
+| T03 | 52 |
 | T04 | 17 |
 | T05 | 4 |
 | T06 | 4 |
-| T07 | 13 |
+| T07 | 12 |
 | T08 | 0 |
 | T09 | 3 |
-| T10 | 6 |
+| T10 | 5 |
 | T11 | 0 |
 | T12 | 6 |
 | Total | 116 |
@@ -127,11 +136,11 @@ Native 표 S53/S62와 Native 차트 S66/S93은 유지한다. 미사용 Template�
 | S100 — Goal에는 완료 근거와 멈출 조건을 담는다 | T03-C | CMP-PRACTICAL-TIP, CMP-CLAIM, CMP-WORKFLOW | — | R+T; documented guidance adapted; target account unverified | Lecture2; no new Demo or Goal activation | Static editable explanatory diagram | — | V01, V02, V05 |
 | S101 — 우리 작업에는 어떤 루프가 필요할까? | T01-B | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
 | S102 — 내 업무에 맞게 조합하고 덜어내기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
-| S103 — 문제에 맞춰, 일하는 방식을 넓혔다 | T03-C | CMP-WORKFLOW | CMP-CPP | T | DEMO-12 story callback only; Lecture, outside 2-minute visual slot | Single state | Contextual | V10 |
-| S104 — 실제 Demo는 문제에 맞춰 바뀌었다 | T07-C | CMP-STATE, CMP-EVIDENCE | CMP-CLAIM | P | DEMO-12; VISUAL2; three chronological groups retain all seven Product States; Loop paths separate; DEC-0082 | Single state | — | V01, V03, V05 |
-| S105 — 이번 문제에 필요한 구성만 선택했다 | T10-A | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-CPP | P+T; this project’s audit is not a universal feature-count comparison | — | Single state | Contextual | V01, V05, V08 |
-| S106 — 결과를 수용할지는 사람이 판단한다 | T03-A | — | — | T | — | Single state | — | V10 |
-| S107 — AI가 일할 조건과 확인 경로를 설계한다 | T03-A | — | CMP-CPP | T | — | Single state | Contextual | V08 |
+| S103 — AI에게 맡기는 범위가 넓어졌다 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S111/S112 retain personal choice | — | V01, V05, V10 |
+| S104 — 작업은 요청부터 검토·수정까지 이어진다 | T03-C | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S111/S112 retain personal choice | — | V01, V05, V10 |
+| S105 — 작업 흐름에는 정보·절차·도구가 연결된다 | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S111/S112 retain personal choice | — | V01, V05, V10 |
+| S106 — 결과를 수용할지는 사람이 판단한다 | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S111/S112 retain personal choice | — | V01, V05, V10 |
+| S107 — AI가 일할 조건과 확인 경로를 설계한다 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S111/S112 retain personal choice | — | V01, V05, V10 |
 | S108 — 모델·플랫폼이 바뀌면 Harness도 다시 본다 | T04-A | CMP-CLAIM | — | R+T; vendor-published integration case; architecture adapted for teaching | No new Demo/Trial/State or measured effect | Single state; previous structure versus candidate, not a replay | Contextual | V01, V05 |
 | S109 — 무엇을 남기고, 무엇을 덜어낼까? | T10-A | CMP-DECISION, CMP-CLAIM | CMP-PRACTICAL-TIP | T; retain requirements, integrate overlaps, assess obsolete workaround | Three equal options; conditions before action; DEC-0083 | Single state | Contextual | V01, V05 |
 | S110 — 덜어낸 뒤에도 필요한 일을 하는가? | T03-C | CMP-CLAIM | CMP-PRACTICAL-TIP | T+R; evaluation design, no actual result | Same representative task/input/criteria; conditional adoption or rollback | Single state; two compared candidates, no PASS/FAIL values | Contextual | V01, V05 |
@@ -160,16 +169,16 @@ Native 표 S53/S62와 Native 차트 S66/S93은 유지한다. 미사용 Template�
 
 | Template | Slide count |
 |---|---:|
-| T01 | 6 |
+| T01 | 7 |
 | T02 | 6 |
-| T03 | 40 |
-| T04 | 14 |
+| T03 | 52 |
+| T04 | 17 |
 | T05 | 4 |
 | T06 | 4 |
-| T07 | 13 |
+| T07 | 12 |
 | T08 | 10 |
-| T09 | 1 |
-| T10 | 6 |
+| T09 | 3 |
+| T10 | 5 |
 | T11 | 5 |
 | T12 | 6 |
 | **Total** | **115** |
@@ -180,16 +189,16 @@ Native 표 S53/S62와 Native 차트 S66/S93은 유지한다. 미사용 Template�
 
 | Template | Slide count |
 |---|---:|
-| T01 | 6 |
+| T01 | 7 |
 | T02 | 6 |
-| T03 | 38 |
-| T04 | 14 |
+| T03 | 52 |
+| T04 | 17 |
 | T05 | 4 |
 | T06 | 4 |
-| T07 | 13 |
+| T07 | 12 |
 | T08 | 10 |
-| T09 | 1 |
-| T10 | 6 |
+| T09 | 3 |
+| T10 | 5 |
 | T11 | 5 |
 | T12 | 6 |
 | **Total** | **113** |
@@ -621,16 +630,16 @@ than being resolved by invented product behavior or evidence.
 
 | Template | Slide count |
 |---|---:|
-| T01 | 6 |
+| T01 | 7 |
 | T02 | 6 |
-| T03 | 37 |
-| T04 | 13 |
+| T03 | 52 |
+| T04 | 17 |
 | T05 | 4 |
 | T06 | 4 |
-| T07 | 15 |
+| T07 | 12 |
 | T08 | 10 |
-| T09 | 1 |
-| T10 | 6 |
+| T09 | 3 |
+| T10 | 5 |
 | T11 | 5 |
 | **Total** | **90** |
 

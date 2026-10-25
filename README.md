@@ -1,5 +1,7 @@
 # AI 개발자 교육
 
+현재116장·410분. ACT5 앞부분은 전체 관점의 종합, S111/S112는 개인 적용으로 역할을 분리했다. [최신 수정 결과](production/evaluation/ACT5_SYNTHESIS_REVISION.md)를 참고한다.
+
 현재 제작판: **DEC-0098 /116장·410분**. Goal 팁 S99/S100과 ACT4→ACT5 연결을 정렬한다. ACT4 S82–S101/20장·85분, ACT5 S102–S116/15장·40분. 기존114장의 배정·근거는 유지하며 제품·실환경·리허설은 미검증이다.
 
 [Goal 적용과 연결 설계](./plan/GOAL_TIPS_AND_ACT5_HANDOFF.md).

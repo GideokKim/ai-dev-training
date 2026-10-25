@@ -14,6 +14,7 @@ import {migrate113Factories,codexAuthoringTipFactories} from './codex-authoring-
 import {act4LoopControlFactories} from './act4-loop-control.mjs';
 import {goalLoopFactories} from './act4-goal-loop.mjs';
 import {goalTipFactories} from './goal-tips.mjs';
+import {act5SynthesisFactories} from './act5-synthesis.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
@@ -79,7 +80,7 @@ Object.assign(factories,act4LoopControlFactories({...factories}));
 // Current title/tip configurations contain116IDs after Goal-tip migration.
 const goalLoop=goalTipFactories(goalLoopFactories({...factories}));
 for(const id of Object.keys(factories))delete factories[id];
-Object.assign(factories,goalLoop,practicalTipIndexFactories(tipConfig,H),actTitleFactories(titleConfig,H));
+Object.assign(factories,goalLoop,act5SynthesisFactories(),practicalTipIndexFactories(tipConfig,H),actTitleFactories(titleConfig,H));
 const tipRecords=Object.fromEntries(tipConfig.tips.map(t=>[t.slideId,t]));
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
 if(moduleMap.slides.length!==116)throw new Error('Expected 116 legacy module mappings.');

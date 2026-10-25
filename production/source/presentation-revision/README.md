@@ -443,3 +443,9 @@ paused; this production builder does not invoke the delivery builder.
 DEC-0033 renders the full deck and every ACT because all footers change. The
 M labels identify related teaching content or principles; they do not claim
 completion of the original module. Unmatched slides say `신규 확장`.
+
+
+DEC-0099: apply `act5-synthesis.mjs` after Goal-tip migration and before
+current title/tip overlays. It replaces only S103-S107 with teaching
+synthesis. Keep personal selection at S111/S112. Retain native evidence
+parts and embedded workbook lineage when finalizing the existing deck.

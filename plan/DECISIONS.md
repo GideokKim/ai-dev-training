@@ -10555,3 +10555,73 @@ Render/review the complete deck and targeted handoffs, verify source/Notes/
 Mode/numbering parity, then commit and push normally to existing origin/main.
 Keep target-account, Windows, projection and timed rehearsal unverified.
 Do not change the Demo Repository, run Trials or rebuild presenter bundles.
+
+
+# DEC-0099 — Reframe the ACT5 opening as course synthesis
+
+Status: ACCEPTED — explicit approval after removing overlap with S111/S112.
+Date: 2026-10-25.
+
+## Context
+
+Baseline5e93fae has116slides/410minutes. The opening assumes knowledge of
+Demo State history and deferred components. A proposed personal application
+example would repeat the closing problem/action selection at S111/S112.
+
+## Problem
+
+The audience needs the meaning of the learning journey without learning
+internal repository history or choosing the same next step twice.
+
+## Decision
+
+Rewrite S103-S107 as scope expansion, work flow, work conditions, human
+acceptance and the course's AI-Native framing. Retain all IDs and slide/ACT
+minutes. Replace S104's historical visual Demo2minutes with teaching Case2.
+Use Full Modes176/49/105/22/26/32 for Lecture/Demo/Case/Reflection/Transition/
+Q&A. Keep S108-S116 unchanged. Preserve the former observed records in the
+approved plan and Evidence history; classify current synthesis as teaching.
+Keep personal problem/action selection only at S111/S112.
+
+## Rationale
+
+Explain the system without relying on Demo State memory. Separate the
+meaning of the course, reassessment of the system and personal next action.
+
+## Alternatives
+
+Expand Demo history; this keeps the audience focused on production details.
+Use a personal application walkthrough; this repeats the closing selection.
+
+## Trade-offs
+
+Retain the existing time and count while giving up the separate closing
+Product-history Demo slot. Keep actual observations as references, not new
+execution claims. Use no new Trial, model call, benchmark or Demo change.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-NARRATIVE-002, INV-RESPONSIBILITY-001, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S103-S107 source, ACT5/Full PPTX, Notes, maps, course/claim metadata,
+DEMO-12 current status, fallback and handoff records. The later Site derives
+from the completed PPT rather than an independently expanded curriculum.
+
+## Evidence
+
+Explicit user approval and inspected baseline PPT/Notes. No new product or
+research claim is introduced.
+
+## Training Relevance
+
+YES — teach the relationship between delegation, work conditions, review
+and human acceptance before closing personal reflection.
+
+## Follow-up
+
+Finalize/render Full116 and ACT5, inspect changed screens and the full flow,
+verify retained evidence, then commit/push normally. Complete this PPT step
+before creating the Sites reading guide. Keep target environment/rehearsal
+checks unverified and leave the Demo Repository and presenter bundle alone.

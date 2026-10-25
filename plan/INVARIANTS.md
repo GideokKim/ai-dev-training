@@ -52,7 +52,7 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Category: Training Identity
 - Strength: HARD
 - Rule: This is a developer training about ChatGPT and Codex in AI-Native
-  Development. The current net duration is410minutes under DEC-0098, within
+  Development. The current net duration is410minutes under DEC-0099, within
   the user-authorized720-minute ceiling. Use116slides, including the approved
   two Goal tips after S98. Retain the18-slide/81-minute ACT4 basis and add
   Lecture4minutes. Keep other ACT budgets and actual evidence scope.

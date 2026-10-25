@@ -1,0 +1,67 @@
+{
+  "decision": "DEC-0099",
+  "status": "LOCAL_VALIDATION_PASS",
+  "slides": 116,
+  "minutes": 410,
+  "ACTCounts": [
+    14,
+    22,
+    19,
+    26,
+    20,
+    15
+  ],
+  "ACTMinutes": [
+    43,
+    64,
+    82,
+    96,
+    85,
+    40
+  ],
+  "modeMinutes": {
+    "Transition": 26,
+    "Lecture": 176,
+    "Reflection": 22,
+    "Case": 105,
+    "Demo": 49,
+    "Q&A": 32
+  },
+  "retainedSlideTimes": 116,
+  "changedModeSlide": "S104: Demo2 -> Case2",
+  "NotesRecords": 116,
+  "fieldsPerNotes": 19,
+  "embeddedNotesChecked": 131,
+  "unchangedVisualSlides": 111,
+  "FullACTPNGParity": 116,
+  "unchangedNativeEvidenceAndPictureParts": true,
+  "personalSelectionS111S112Unchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrialsOrModelCalls": false,
+  "WindowsRoomAccountRehearsal": "UNVERIFIED",
+  "artifacts": {
+    "AI_Dev_Training_Full": {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "sha256": "9d43e104b6e71b44794a0bc8844ac9ca847cb807aabeea05b9c1b30d09dc2f83",
+      "slides": 116,
+      "embeddedNotesMatch": 116
+    },
+    "ACT_5": {
+      "path": "production/ACT_5.pptx",
+      "sha256": "ba9df6751d56d11749ff8d2ac6f211296d395523af9f71b8baf215f82102c602",
+      "slides": 15,
+      "embeddedNotesMatch": 15
+    }
+  },
+  "visualReview": {
+    "individualChangedSlides": [
+      "S103",
+      "S104",
+      "S105",
+      "S106",
+      "S107"
+    ],
+    "overviewACTs": 6,
+    "newClippingOverlapGlyphOrConnectorIssueFound": false
+  }
+}

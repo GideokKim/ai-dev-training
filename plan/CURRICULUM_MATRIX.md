@@ -1,5 +1,14 @@
 # Curriculum Matrix
 
+## 현재 ACT5 종합 — DEC-0099 (2026-10-25)
+
+116장·410분과 ACT별 장수·시간을 유지한다. S103–S107은 Demo 사전 지식 없이
+작업 범위·흐름·수행 조건·수용 책임을 종합한다. 개인 문제 선택과 다음 행동은
+S111/S112에만 둔다. S104는 TEACHING_MODEL이며 VISUAL Demo2분을 Case2분으로
+정렬한다. Mode Lecture176/Demo49/Case105/Reflection22/Transition26/Q&A32분.
+[승인 설계](ACT5_OPENING_SYNTHESIS.md)를 우선한다. 기존 실제 이력은 보존 기록이며
+새 Trial·제품 실행·성과 근거로 바꾸지 않는다. S108 이후와 근거 범위는 유지한다.
+
 ## 현재 Goal 팁·ACT5 연결 — DEC-0098 (2026-10-25)
 
 116장·410분(6시간50분). ACT4 S82–S101은20장·85분, ACT5는 S102–S116의15장·40분이다. ACT 장수14/22/19/26/20/15와 시간43/64/82/96/85/40분. Mode Lecture176/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.

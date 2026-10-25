@@ -1,5 +1,7 @@
 # Demo Runbooks and Static Reference Files
 
+Current DEC-0099: DEMO-12 is historical reference only. S104 uses teaching Case2minutes; no current VISUAL Demo slot. Use ACT5_SYNTHESIS_REVISION.md and the current Map.
+
 Current edition: DEC-0098 /116slides/410minutes. Use the current
 FALLBACK_MANIFEST.md for44static references and their distinct evidence
 classes. DEMO-12 uses S103/S104. Goal S99/S100 is documented guidance

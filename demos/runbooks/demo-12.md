@@ -1,3 +1,14 @@
+# DEMO-12 — Historical Product evolution reference
+
+Current: DEC-0099. This is preserved historical evidence, not a current
+presentation Demo slot. Current S103/S104 are teaching synthesis diagrams;
+they do not show the former Product timeline. Do not use the old start/stop
+cues with the current deck. Actual State/Trial meanings remain preserved in
+the Evidence documents and plan/ACT5_OPENING_SYNTHESIS.md.
+
+<details>
+<summary>Previous operation and provenance — DEC-0098</summary>
+
 # DEMO-12 — Current observed Product evolution recap
 
 Current edition: DEC-0098 /116slides/410minutes. Current range: S103–S104.
@@ -174,5 +185,7 @@ and hashes. No product run, Trial, extra State, measured gain or live approval.
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.
+
+</details>
 
 </details>

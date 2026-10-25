@@ -1,5 +1,33 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+현재 기준: **DEC-0099 /116장·410분**. ACT5 S103–S107은 Demo 이력에 의존하지 않는
+전체 관점의 종합이다. 개인 문제 선택·다음 행동은 S111/S112에 남긴다.
+S104의 VISUAL Demo2분을 Case2분으로 정렬했다.
+Mode Lecture176/Demo49/Case105/Reflection22/Transition26/Q&A32분.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT5](../ACT_5.pptx),
+[ACT5 Preview](../preview/act5/montage.png), [전체 Notes](../notes/FULL_SPEAKER_NOTES.md),
+[이번 수정 결과](ACT5_SYNTHESIS_REVISION.md), [현재 Map](../../plan/SLIDE_MAP.md).
+
+최종 Full116+ACT5 15장 재입력·렌더링,111개 미수정 화면 동일,116개 Notes19필드와
+내장131Notes·Full/ACT116PNG를 대조했다. 실제 Product/Meta·연구·교육용 설명을
+구분하며 새 Trial·제품/모델 실행·성과는 없다. Demo 저장소·묶음 자료도 변경하지 않았다.
+Windows·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED다.
+
+## 현재 파일 식별
+
+| 파일 | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `9d43e104b6e71b44794a0bc8844ac9ca847cb807aabeea05b9c1b30d09dc2f83` |
+| `production/ACT_5.pptx` | `ba9df6751d56d11749ff8d2ac6f211296d395523af9f71b8baf215f82102c602` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `0ae454e4302f17aab9a3e919418e959f62ebaa28923058fcb3b669716a3fbd57` |
+| `production/preview/full/montage.png` | `0e089fb85ac8ef6ea079a48de5a84441f173f36847a6bdeda4dca87b66a52ed9` |
+
+<details>
+<summary>이전 전달 기록 — DEC-0098</summary>
+
+# 최종 전달 안내 — AI 개발자 교육
+
 현재 기준: **DEC-0098 /116장·410분(6시간50분)**. S98 뒤에 Goal 실무 적용 팁
 S99/S100을 Lecture2분씩 추가했다. 기존114장의 시간·Mode·근거는 유지하며
 이전 S99–S114는 S101–S116이다. ACT4는20장·85분, ACT5는15장·40분이다.
@@ -783,5 +811,8 @@ S82: Case 7 → Reflection 2 → Q&A 7 → Transition 4분.
 현장 검증 통과나 청중 대상 전달 완료를 뜻하지 않는다.
 
 </details>
+
+</details>
+
 
 </details>
