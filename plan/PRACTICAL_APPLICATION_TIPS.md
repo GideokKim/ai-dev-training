@@ -1,6 +1,6 @@
 # 실무 적용 팁 — 공통 표시와 마지막 통합 찾아보기
 
-Decision: DEC-0088 placement; DEC-0090 ACT titles; DEC-0091 current numbering.
+Decision: DEC-0088 placement; DEC-0090 ACT titles; DEC-0091 current numbering; DEC-0092 S78 feedback-record tip.
 Current:113장·402분. 본문 팁17개와 마지막 찾아보기3장·Lecture3분을 유지한다.
 이전 독립 C++ 팁을 삭제하고 S78의 기록 팁을 그 자리에 연결한다.
 
@@ -29,7 +29,7 @@ Native rectangle x780/y44/w320/h34, fill#E8EDF3, 기존 line/ink와 Malgun Gothi
 | ACT2 | S48 | S48 | Context 관리 | AGENTS.md에는 무엇을 남길까? | 기본 안내와 상세 정보의 배치 기준 | TEACHING_MODEL |
 | ACT3 | S58 | S58 | 수행 방법 | 테스트 명령을 언제 쓰고 무엇을 판단할까? | 검증 명령의 사용 시점과 판단 기준 | TEACHING_MODEL |
 | ACT3 | S68 | S68 | Context 관리 | 이번 Context와 다시 쓸 지식 | 다음 작업에 남길 지식의 선정·관리 기준 | CONCEPTUAL / TEACHING_MODEL |
-| ACT3 | 신규 | S78 | 수행 방법 | 결과와 실행 조건을 함께 남긴다 | 재사용할 작업 기반과 확인된 실행 조건·검증 근거를 함께 남기는 틀 | TEACHING_MODEL |
+| ACT3 | 신규 | S78 | 수행 방법 | 반복 보정을 개선으로 잇는 기록 | 원래 기준·실제 수행·사람의 보정을 남겨 다음 작업의 체계 개선을 검토하는 틀 | TEACHING_MODEL |
 | ACT4 | S80 | S85 | 검증·개선 | 원인을 고르기 전에 확인할 기록 | 원인 선택 전에 확인할 기록 목록 | CONCEPTUAL / TEACHING_MODEL |
 | ACT4 | S84 | S89 | 검증·개선 | 지침을 고친 뒤, 무엇을 다시 확인할까? | 지침 갱신 뒤 같은 작업과 다른 작업을 확인하는 질문 | CONCEPTUAL / TEACHING_MODEL |
 | ACT5 | S101 | S106 | 검증·개선 | 무엇을 남기고, 무엇을 덜어낼까? | 기존 구성을 유지·통합·제거할 조건 | TEACHING_MODEL |
@@ -44,7 +44,7 @@ Native rectangle x780/y44/w320/h34, fill#E8EDF3, 기존 line/ink와 Malgun Gothi
 | S112 | 실무 적용 팁 · 검증과 개선 | S85, S89, S106, S107 | S113 | Lecture1분 |
 
 17개 팁은 한 번씩만 목록에 나온다.5/8항목은 두 열,4항목은 한 열인 기존 T03-A다.
-S78은 확인한 실행 조건과 미확인 사항을 남길 교육용 틀이며 실제 새 보고서가 아니다.
+S78은 기준·실제 수행·사람의 보정을 비교할 교육용 기록 틀이며 실제 새 보고서·개선 결과가 아니다.
 ACT4 팁 S85/S89의 기존 역할·시간·근거는 그대로다. 현재 Slide Map을 기준으로 한다.
 
 ## 현재 배정과 검증

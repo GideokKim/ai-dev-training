@@ -1,4 +1,4 @@
-/** DEC-0091: reusable foundations and a paced execution-condition explanation. */
+/** DEC-0091 reuse; DEC-0092 repeated human corrections and the missing feedback. */
 import * as H from './helpers.mjs';
 
 export function map108Id(id) {
@@ -31,7 +31,7 @@ export function migrate108Factories(previous) {
  return result;
 }
 
-export function harnessReuseFactories(current) {
+export function harnessReuseFactories() {
  const {C,text,line,rect,FONT}=H;
  const connector=(s,x,y,w,h=0,color=C.teal,dash='solid',reverse=false)=>s.shapes.add({
   geometry:'connector',kind:'straight',position:{left:x,top:y,width:w,height:h},
@@ -39,11 +39,6 @@ export function harnessReuseFactories(current) {
  });
  const stem=(s,x,y,h,color=C.teal)=>s.shapes.add({geometry:'line',position:{left:x,top:y,width:0,height:h},line:{fill:color,width:2.5}});
  const make=(p,id,title,eyebrow,source,boundary,type='TEACHING_MODEL')=>H.frame(p,id,title,eyebrow,source,boundary,type);
- const replace=(s,from,to)=>{
-  const shape=s.shapes.items.find(q=>String(q.text)===from);
-  if(!shape)throw new Error('Missing reflection text: '+from);
-  shape.text=to;shape.name=to.slice(0,60);
- };
  return {
   S72(p){
    const s=make(p,'S72','만든 Harness를 다음 프로젝트의 기반으로','ACT 3 · 구축한 작업 체계의 재사용',
@@ -77,94 +72,106 @@ export function harnessReuseFactories(current) {
    return s;
   },
   S74(p){
-   const s=make(p,'S74','임시 폴더 오류의 원인은 실행 권한이었다','ACT 3 · 앞의 실제 조사에서 실행 조건을 다시 보기',
-    'OBSERVED_PRODUCT · TRIAL-001 / Codex CLI 0.154.0 · 기록 재구성',
-    'Crop 결함과 별개인 실행 오류 · Agent가 권한 제한을 해결한 것은 아님','OBSERVED_PRODUCT');
-   text(s,'Crop 결함과 별개로, 다른 테스트는 실행 환경에 막혔다',64,192,1152,42,29,C.sub);
-   const stages=[['테스트 실행','임시 폴더가 필요',C.teal],['임시 폴더 생성','실행 환경에 생성 요청',C.teal],['읽기 전용 권한','생성할 수 없음',C.red]];
-   stages.forEach(([title,body,color],i)=>{
-    const x=64+i*400;rect(s,x,298,352,172,i===2?C.redPale:C.white,color,1.5);
-    text(s,title,x+20,320,312,46,31,color,true);
-    text(s,body,x+20,394,312,42,25,C.ink);
-    if(i<2)connector(s,x+356,384,38);
-   });
-   text(s,'코드를 볼 수 있어도, 실행할 권한은 따로 필요하다',64,533,1152,50,33,C.ink,true);
+   const s=make(p,'S74','이번 성공만으로 다음 작업까지 확인되지는 않는다','ACT 3 · 재사용할 기반과 확인한 범위',
+    'OBSERVED_PRODUCT · STATE-04-PERF의 성공 회수 / 오른쪽은 다음 작업에 대한 질문',
+    '기록된 코드·입력·환경에서 확인한 결과 · 이후 모든 작업의 성공이나 실패를 관찰한 것은 아님','OBSERVED_PRODUCT / TEACHING_MODEL');
+   text(s,'이번 작업에서 확인',64,220,480,44,31,C.teal,true);
+   text(s,'다음 작업에서도 같을까?',736,220,480,44,31,C.teal,true);
+   rect(s,64,286,480,218,C.white,C.teal,1.5);
+   text(s,'밝기 통계 변경',88,310,432,49,34,C.ink,true);
+   text(s,'명세 · 수행 방법 · 검증 근거',88,382,432,40,26,C.ink);
+   text(s,'기록된 입력·코드·환경에서 확인',88,449,432,33,24,C.sub);
+   connector(s,558,395,152);
+   rect(s,736,286,480,218,C.white,C.line,1.5,'dash');
+   text(s,'?',756,303,440,91,69,C.teal,true,FONT,'center');
+   text(s,'다른 요구 · 입력 · 검증 범위',758,424,436,51,28,C.ink,true,FONT,'center');
+   text(s,'잘 만든 기반도, 운영하며 새로 확인할 점이 생길 수 있다',64,550,1152,44,31,C.ink,true);
    return s;
   },
   S75(p){
-   const s=make(p,'S75','Agent의 실행 조건은 어디에서 오는가?','ACT 3 · 새 프로젝트에 연결할 실행 조건',
-    '교육용 관계도 · Repository 안의 정보와 밖에서 적용되는 조건',
-    '정확한 지침 로딩 순서·전체 설정 목록이 아님 · 현재 제품·계정·권한은 별도 확인');
-   rect(s,64,265,356,214,C.white,C.line,1.5);
-   text(s,'Repository 안',86,284,312,44,31,C.teal,true);
-   text(s,'코드 · AGENTS.md\n프로젝트 문서 · Skill',86,355,312,92,27,C.ink);
-   connector(s,420,372,100);
-   rect(s,528,304,224,136,C.white,C.teal,1.5);
-   text(s,'Agent',548,322,184,43,34,C.teal,true,FONT,'center');
-   text(s,'작업 실행',548,380,184,40,28,C.ink,true,FONT,'center');
-   connector(s,760,372,104,0,C.teal,'dash',true);
-   text(s,'적용 확인',760,315,104,32,23,C.teal,true,FONT,'center');
-   rect(s,872,265,344,214,C.pale,C.line,1.5);
-   text(s,'Repository 밖',894,284,300,44,31,C.teal,true);
-   text(s,'전역 지침 · Skills\n모델·설정 · 허용 권한',894,355,300,92,26,C.ink);
-   text(s,'저장소를 옮긴 뒤에도, 적용되는 조건을 확인한다',64,541,1152,46,32,C.ink,true);
+   const s=make(p,'S75','작업 중 사람이 보정할 일이 생긴다면?','ACT 3 · CONCEPTUAL / 운영하며 발견하는 확인의 빈틈',
+    '교육용 상황도 · 관련 동작의 확인이 더 필요하다는 가정',
+    '실제 graypipe의 실패·누락 이력이 아님 · 원인은 아직 미확인 · 다음 장의 보정도 실행 결과가 아님','CONCEPTUAL');
+   text(s,'이번 결과를 검토하다가, 추가로 확인할 부분을 찾았다면',64,189,1152,43,30,C.ink,true);
+   const stages=[['Agent 작업','변경한 부분 확인'],['사람의 검토','관련 동작은?'],['추가 요청','관련 동작도\n확인해 주세요.']];
+   stages.forEach(([title,body],i)=>{
+    const x=64+i*400;rect(s,x,290,352,208,i===2?C.amber:C.white,i===2?C.warn:C.line,1.5,i===2?'dash':'solid');
+    text(s,title,x+20,310,312,44,30,i===2?C.warn:C.teal,true);
+    text(s,body,x+20,377,312,92,29,C.ink,i===2);
+    if(i<2)connector(s,x+356,394,38);
+   });
+   text(s,'이 보정은 다음 작업에도 필요한 내용일까?',64,550,1152,44,32,C.teal,true);
    return s;
   },
   S76(p){
-   const s=make(p,'S76','실제 성능 조사에도 저장소 밖 지침이 들어왔다','ACT 3 · 실제 기록에서 확인한 외부 조건',
-    'OBSERVED_META · TRIAL-006 / Codex CLI 0.154.0 · 기록 재구성',
-    '전역 Skill의 관여는 관찰 · 개별 성능 효과·현재 Desktop 재현·전체 환경 감사는 미입증','OBSERVED_META');
-   text(s,'이미지 크기 변경(Resize) 성능 조사 당시',64,192,1152,42,29,C.sub);
-   rect(s,64,270,480,203,C.white,C.teal,1.5);
-   text(s,'함께 포함된 전역 Skill',86,293,436,46,31,C.teal,true);
-   text(s,'성능 조사 · 완료 검증 지침',86,374,436,56,28,C.ink);
-   connector(s,554,369,140);
-   rect(s,704,270,512,203,C.pale,C.teal,1.5);
-   text(s,'실제 작업 기록',726,293,468,46,31,C.teal,true);
-   text(s,'평가 상태 작성\n추가 동작 검증',726,360,468,90,30,C.ink,true);
-   text(s,'별도 시작 관찰',64,533,236,40,27,C.teal,true);
-   text(s,'자동 실행 설정 · 외부 도구 연결 경고',324,533,892,40,28,C.ink);
+   const s=make(p,'S76','이번 요청은 보정해도, 공통 지침은 그대로다','ACT 3 · CONCEPTUAL / 현재 작업의 보정과 공통 수행 체계',
+    '앞 장의 교육용 상황을 이어서 비교 · 실제 요청·지침 변경 기록이 아님',
+    '이번 작업 범위를 보정하는 것과 공통 체계를 바꾸는 것은 별개 · 지침이 원인이라고 확정하지 않음','CONCEPTUAL');
+   text(s,'이번 작업의 요청',64,222,512,45,32,C.teal,true);
+   text(s,'다음에도 읽을 공통 지침',704,222,512,45,32,C.warn,true);
+   rect(s,64,289,512,216,C.white,C.teal,1.5);
+   text(s,'관련 동작도\n확인해 주세요.',88,315,464,91,35,C.ink,true);
+   text(s,'현재 작업의 검증 범위를 보정',88,444,464,37,26,C.teal,true);
+   rect(s,704,289,512,216,C.white,C.warn,1.5,'dash');
+   text(s,'이전 수행 방법 그대로',728,344,464,55,33,C.ink,true);
+   text(s,'공통 지침은 따로 갱신하지 않은 가정',728,444,464,37,25,C.sub);
+   text(s,'대화에서 바로잡은 내용이, 공통 체계에 자동 반영되지는 않는다',64,550,1152,44,30,C.ink,true);
    return s;
   },
   S77(p){
-   const s=make(p,'S77','시작 경고와 실제 사용은 구분해서 확인한다','ACT 3 · 경고·호출·결과가 알려 주는 범위',
-    'OBSERVED_META · TRIAL-006의 시작 기록과 실제 작업 기록을 구분',
-    'Hook 실행·소스 변경은 미입증 · MCP 작업 호출 없음 · 관찰한 Skill 관여는 별도 근거로 보존','OBSERVED_META');
-   text(s,'시작 경고에서 확인',64,226,512,46,32,C.warn,true);
-   text(s,'작업 기록에서 확인',704,226,512,46,32,C.teal,true);
-   rect(s,64,298,512,208,C.white,C.warn,1.5,'dash');
-   rect(s,704,298,512,208,C.white,C.teal,1.5);
-   text(s,'자동 실행·외부 도구 연결 경고',86,320,468,43,27,C.ink,true);
-   text(s,'경고만으로 실제 실행은 알 수 없음\n외부 도구를 부른 작업 기록은 없음',86,394,468,84,25,C.ink);
-   text(s,'전역 Skill의 작업 관여',726,320,468,43,29,C.ink,true);
-   text(s,'평가 상태 작성 · 추가 검증\n각각의 작업 기록으로 확인',726,394,468,84,27,C.ink);
-   text(s,'실제 사용은, 해당 호출과 작업 결과로 확인한다',64,548,1152,44,32,C.ink,true);
+   const s=make(p,'S77','다음 작업에서도 같은 보정이 반복된다면?','ACT 3 · CONCEPTUAL / 다음 작업에 돌아오지 않는 경험',
+    '교육용 반복 도식 · 작업 A/B/C는 실제 Trial이나 Subagent 실행이 아님',
+    '반복 횟수·토큰·시간·성공률을 측정한 결과가 아님 · 공통 지침을 갱신하지 않은 상황의 설명','CONCEPTUAL');
+   rect(s,64,204,1152,61,C.white,C.line,1);
+   text(s,'다음 작업이 읽는 공통 수행 지침은 그대로',84,214,1112,42,29,C.sub,true);
+   ['작업 A','다음 작업 B','다음 작업 C'].forEach((label,i)=>{
+    const x=64+i*400;
+    rect(s,x,305,352,71,C.white,C.teal,1.5);text(s,label,x+18,321,316,40,30,C.teal,true);
+    connector(s,x+176,381,0,30);
+    rect(s,x,420,352,102,C.amber,C.warn,1.5,'dash');
+    text(s,'사람: 관련 동작도\n확인해 주세요.',x+18,435,316,74,27,C.ink,true);
+    if(i<2)connector(s,x+356,341,38);
+   });
+   text(s,'사람은 같은 보정을 반복하고, 다음 작업의 체계는 그대로다',64,553,1152,43,31,C.ink,true);
    return s;
   },
   S78(p){
-   const s=make(p,'S78','결과와 실행 조건을 함께 남긴다','ACT 3 · 다음 프로젝트에서도 확인할 출발점',
-    '교육용 작업 기록 틀 · 실제 보고서 Screenshot이나 새 Trial 결과가 아님',
-    '확인한 조건만 기록 · 미확인 항목은 남김 · 실제 평가·보고 기준 개선 과정은 ACT 4에서 확인');
-   rect(s,64,238,1152,288,C.white,C.teal,1.5);
-   const rows=[['작업','무엇을 바꾸고, 무엇을 지켰나?'],['실행 조건','어떤 지침·모델·권한이 적용됐나?'],['확인 근거','테스트·측정 결과와 남은 미확인은?']];
+   const s=make(p,'S78','반복 보정을 개선으로 잇는 기록','ACT 3 · 다음 작업의 체계를 검토할 근거',
+    'TEACHING_MODEL · 수행 기록과 사람의 보정을 연결하는 기록 틀',
+    '원인·변경 대상은 아직 미확정 · 실제 갱신·재평가 결과나 자동 학습을 보여주는 도식이 아님');
+   text(s,'보정한 문장만 남기면, 어디를 고칠지 판단하기 어렵다',64,184,1152,44,30,C.ink,true);
+   rect(s,64,258,656,273,C.white,C.teal,1.5);
+   const rows=[['기준과 지침','무엇을 지키고 어떻게 일해야 했나?'],['실제 수행','어디까지 실행·확인했나?'],['사람의 보정','무엇을 추가로 확인하게 했나?']];
    rows.forEach(([label,body],i)=>{
-    const y=252+i*90;if(i)line(s,86,y,1108,C.line,1);
-    text(s,label,88,y+13,230,56,30,C.teal,true);
-    text(s,body,340,y+13,852,56,30,C.ink,i===2);
+    const y=273+i*80;if(i)line(s,86,y,612,C.line,1);
+    text(s,label,86,y+8,176,55,27,C.teal,true);
+    text(s,body,280,y+8,416,55,24,C.ink);
    });
-   text(s,'재사용할 기반과 함께, 어디까지 확인했는지도 남긴다',64,550,1152,44,32,C.ink,true);
+   connector(s,730,394,112);
+   text(s,'원인은 무엇일까?',864,278,352,48,30,C.teal,true);
+   text(s,'어디를 바꿀까?',864,366,352,48,30,C.teal,true);
+   text(s,'무엇으로 다시 확인할까?',864,454,352,48,28,C.teal,true);
+   text(s,'기록을 근거로, 다음 작업에 쓸 체계를 검토해야 한다',64,552,1152,44,32,C.ink,true);
    return s;
   },
-  S79(p,helpers){
-   const s=current.S79(p,helpers);
-   replace(s,'ACT 3 · 반복을 고르고 유지할 책임을 정하기','ACT 3 · 다음 프로젝트에 남길 기반과 유지 책임');
-   replace(s,'반복 정보','재사용할 안내');
-   replace(s,'명세 · 프로젝트 안내','참고 위치 · 적용 범위');
-   replace(s,'반복 절차','재사용할 절차');
-   replace(s,'검증 근거','확인할 기준');
-   replace(s,'테스트 · 측정 조건','테스트 · 기록 형식');
-   replace(s,'어디에 둘까?','어디에 두고 연결할까?');
-   replace(s,'위치와 담당을 생각했다면, 다시 확인할 때는?','다음 프로젝트에도 맞는지, 언제 다시 볼까?');
+  S79(p){
+   const s=make(p,'S79','같은 보정을 되풀이하지 않으려면?','ACT 3 · 내 업무의 반복 보정에서 Loop의 필요로',
+    '개인 성찰 · 공유는 선택 · 앞의 반복 상황은 교육용 가정',
+    '어떤 원인·수정 대상·담당도 미리 확정하지 않음 · ACT 4에서 원인 확인·변경·재평가를 다룸');
+   const choices=[['다시 알려주는 정보','현재 기준 · 참고 위치'],['다시 지시하는 절차','조사 · 변경 · 보고'],['빠뜨린 확인 기준','관련 동작 · 검증 범위']];
+   choices.forEach(([title,body],i)=>{
+    const x=64+i*400;rect(s,x,213,352,102,C.white,C.line,1);
+    text(s,title,x+18,225,316,35,28,C.teal,true);text(s,body,x+18,270,316,34,24,C.ink);
+    stem(s,x+176,315,33);
+   });
+   line(s,240,348,800,C.teal,2.5);connector(s,640,348,0,23);
+   rect(s,480,378,320,55,C.pale,C.teal,1.5);text(s,'반복 보정 하나 선택',496,385,288,40,28,C.teal,true,FONT,'center');
+   stem(s,640,433,19);line(s,336,452,608,C.teal,2.5);
+   [336,944].forEach(x=>connector(s,x,452,0,19));
+   [[64,'어떤 근거·출처를 볼까?'],[672,'누가 검토하고 다시 확인할까?']].forEach(([x,label])=>{
+    rect(s,x,479,544,66,C.white,C.line,1);text(s,label,x+16,489,512,46,28,C.ink,true);
+   });
+   text(s,'다음 ACT: 기록으로 원인을 확인하고, 체계를 고친 뒤 다시 평가한다',64,565,1152,37,28,C.teal,true);
    return s;
   }
  };

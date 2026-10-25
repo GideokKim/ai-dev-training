@@ -1,0 +1,571 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "decision": "DEC-0092",
+  "baseline": "29b4b2408db0589221d43c9e2f56b63e32229d70",
+  "slideCount": 113,
+  "totalMinutes": 402,
+  "actSlideCounts": [
+    14,
+    22,
+    19,
+    24,
+    19,
+    15
+  ],
+  "actMinutes": [
+    43,
+    64,
+    82,
+    92,
+    81,
+    40
+  ],
+  "modeMinutes": {
+    "Lecture": 160,
+    "Demo": 73,
+    "Case": 88,
+    "Reflection": 21,
+    "Transition": 28,
+    "Q&A": 32
+  },
+  "actModeMinutes": {
+    "ACT 0": {
+      "Transition": 4,
+      "Lecture": 15,
+      "Reflection": 4,
+      "Case": 9,
+      "Demo": 8,
+      "Q&A": 3
+    },
+    "ACT 1": {
+      "Transition": 4,
+      "Case": 18,
+      "Reflection": 4,
+      "Lecture": 26,
+      "Demo": 8,
+      "Q&A": 4
+    },
+    "ACT 2": {
+      "Transition": 5,
+      "Lecture": 34,
+      "Case": 18,
+      "Demo": 13,
+      "Reflection": 5,
+      "Q&A": 7
+    },
+    "ACT 3": {
+      "Transition": 3,
+      "Case": 20,
+      "Lecture": 39,
+      "Demo": 20,
+      "Q&A": 7,
+      "Reflection": 3
+    },
+    "ACT 4": {
+      "Transition": 5,
+      "Lecture": 22,
+      "Reflection": 3,
+      "Demo": 22,
+      "Case": 22,
+      "Q&A": 7
+    },
+    "ACT 5": {
+      "Transition": 7,
+      "Lecture": 24,
+      "Demo": 2,
+      "Case": 1,
+      "Reflection": 2,
+      "Q&A": 4
+    }
+  },
+  "changedScreenIds": [
+    "S74",
+    "S75",
+    "S76",
+    "S77",
+    "S78",
+    "S79",
+    "S110"
+  ],
+  "changedNoteIds": [
+    "S73",
+    "S74",
+    "S75",
+    "S76",
+    "S77",
+    "S78",
+    "S79",
+    "S110"
+  ],
+  "notesRecords": 113,
+  "fieldsPerNotes": 19,
+  "changedNotesFields": [
+    [
+      "S73",
+      "Speaker Flow"
+    ],
+    [
+      "S73",
+      "Transition"
+    ],
+    [
+      "S74",
+      "Working Title"
+    ],
+    [
+      "S74",
+      "Primary Message"
+    ],
+    [
+      "S74",
+      "Opening Question"
+    ],
+    [
+      "S74",
+      "Speaker Flow"
+    ],
+    [
+      "S74",
+      "Evidence / Source"
+    ],
+    [
+      "S74",
+      "Claim Boundary"
+    ],
+    [
+      "S74",
+      "Beginner Explanation"
+    ],
+    [
+      "S74",
+      "Advanced Insight"
+    ],
+    [
+      "S74",
+      "C++ Vision Bridge"
+    ],
+    [
+      "S74",
+      "Demo Operation"
+    ],
+    [
+      "S74",
+      "Audience Interaction"
+    ],
+    [
+      "S74",
+      "Transition"
+    ],
+    [
+      "S74",
+      "Time Management"
+    ],
+    [
+      "S74",
+      "Fallback"
+    ],
+    [
+      "S74",
+      "Validation Status"
+    ],
+    [
+      "S75",
+      "Working Title"
+    ],
+    [
+      "S75",
+      "Primary Message"
+    ],
+    [
+      "S75",
+      "Opening Question"
+    ],
+    [
+      "S75",
+      "Speaker Flow"
+    ],
+    [
+      "S75",
+      "Evidence / Source"
+    ],
+    [
+      "S75",
+      "Claim Boundary"
+    ],
+    [
+      "S75",
+      "Beginner Explanation"
+    ],
+    [
+      "S75",
+      "Advanced Insight"
+    ],
+    [
+      "S75",
+      "C++ Vision Bridge"
+    ],
+    [
+      "S75",
+      "Demo Operation"
+    ],
+    [
+      "S75",
+      "Audience Interaction"
+    ],
+    [
+      "S75",
+      "Transition"
+    ],
+    [
+      "S75",
+      "Time Management"
+    ],
+    [
+      "S75",
+      "Fallback"
+    ],
+    [
+      "S75",
+      "Validation Status"
+    ],
+    [
+      "S76",
+      "Working Title"
+    ],
+    [
+      "S76",
+      "Primary Message"
+    ],
+    [
+      "S76",
+      "Opening Question"
+    ],
+    [
+      "S76",
+      "Speaker Flow"
+    ],
+    [
+      "S76",
+      "Evidence / Source"
+    ],
+    [
+      "S76",
+      "Claim Boundary"
+    ],
+    [
+      "S76",
+      "Beginner Explanation"
+    ],
+    [
+      "S76",
+      "Advanced Insight"
+    ],
+    [
+      "S76",
+      "C++ Vision Bridge"
+    ],
+    [
+      "S76",
+      "Demo Operation"
+    ],
+    [
+      "S76",
+      "Audience Interaction"
+    ],
+    [
+      "S76",
+      "Transition"
+    ],
+    [
+      "S76",
+      "Time Management"
+    ],
+    [
+      "S76",
+      "Fallback"
+    ],
+    [
+      "S76",
+      "Validation Status"
+    ],
+    [
+      "S77",
+      "Working Title"
+    ],
+    [
+      "S77",
+      "Primary Message"
+    ],
+    [
+      "S77",
+      "Opening Question"
+    ],
+    [
+      "S77",
+      "Speaker Flow"
+    ],
+    [
+      "S77",
+      "Evidence / Source"
+    ],
+    [
+      "S77",
+      "Claim Boundary"
+    ],
+    [
+      "S77",
+      "Beginner Explanation"
+    ],
+    [
+      "S77",
+      "Advanced Insight"
+    ],
+    [
+      "S77",
+      "C++ Vision Bridge"
+    ],
+    [
+      "S77",
+      "Demo Operation"
+    ],
+    [
+      "S77",
+      "Audience Interaction"
+    ],
+    [
+      "S77",
+      "Transition"
+    ],
+    [
+      "S77",
+      "Time Management"
+    ],
+    [
+      "S77",
+      "Fallback"
+    ],
+    [
+      "S77",
+      "Validation Status"
+    ],
+    [
+      "S78",
+      "Working Title"
+    ],
+    [
+      "S78",
+      "Primary Message"
+    ],
+    [
+      "S78",
+      "Opening Question"
+    ],
+    [
+      "S78",
+      "Speaker Flow"
+    ],
+    [
+      "S78",
+      "Evidence / Source"
+    ],
+    [
+      "S78",
+      "Claim Boundary"
+    ],
+    [
+      "S78",
+      "Beginner Explanation"
+    ],
+    [
+      "S78",
+      "Advanced Insight"
+    ],
+    [
+      "S78",
+      "C++ Vision Bridge"
+    ],
+    [
+      "S78",
+      "Demo Operation"
+    ],
+    [
+      "S78",
+      "Audience Interaction"
+    ],
+    [
+      "S78",
+      "Transition"
+    ],
+    [
+      "S78",
+      "Time Management"
+    ],
+    [
+      "S78",
+      "Fallback"
+    ],
+    [
+      "S78",
+      "Validation Status"
+    ],
+    [
+      "S79",
+      "Working Title"
+    ],
+    [
+      "S79",
+      "ACT / Section"
+    ],
+    [
+      "S79",
+      "Primary Message"
+    ],
+    [
+      "S79",
+      "Opening Question"
+    ],
+    [
+      "S79",
+      "Speaker Flow"
+    ],
+    [
+      "S79",
+      "Evidence / Source"
+    ],
+    [
+      "S79",
+      "Claim Boundary"
+    ],
+    [
+      "S79",
+      "Beginner Explanation"
+    ],
+    [
+      "S79",
+      "Advanced Insight"
+    ],
+    [
+      "S79",
+      "C++ Vision Bridge"
+    ],
+    [
+      "S79",
+      "Demo Operation"
+    ],
+    [
+      "S79",
+      "Audience Interaction"
+    ],
+    [
+      "S79",
+      "Transition"
+    ],
+    [
+      "S79",
+      "Time Management"
+    ],
+    [
+      "S79",
+      "Fallback"
+    ],
+    [
+      "S79",
+      "Validation Status"
+    ],
+    [
+      "S110",
+      "Speaker Flow"
+    ]
+  ],
+  "renderedPNGs": 152,
+  "retainedACTPNGs": 74,
+  "currentFullAndACTPNGs": 226,
+  "FullACTPNGParity": 113,
+  "unchangedFullScreensComparedExactly": 106,
+  "ACT4All19ScreensMapAndNotesIdentical": true,
+  "ACT4PPTXBytesUnchanged": true,
+  "ACT4Minutes": 81,
+  "fourUntouchedACTPackagesAndNotesIdentical": true,
+  "pictureInstancesChecked": 20,
+  "allExistingPictureBytesCropsPositionsPreserved": true,
+  "nativeTablesPreserved": [
+    "S53",
+    "S62",
+    "S90"
+  ],
+  "nativeChartPreserved": "S65",
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "preexistingWarnings": [
+    {
+      "artifact": "AI_Dev_Training_Full",
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 53,
+      "table_id": "8"
+    }
+  ],
+  "templateInventory": "12Templates/28Variants",
+  "bodyTips": 17,
+  "finalIndexes": [
+    "S110",
+    "S111",
+    "S112"
+  ],
+  "sourceAssetsPrototypesBundlesUnchanged": true,
+  "primaryDemoEvidenceUnchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "newMeasuredEffect": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 113,
+      "sha256": "0c7f4fb164cb41b420d05bd718858f5c9124dce5a7931bcdfb41ad79a174b727"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 24,
+      "sha256": "1ddb00ada87752a8d40247215aff071505b7d6b40e0b9941f1bf5ab7556ce13e"
+    },
+    {
+      "path": "production/ACT_5.pptx",
+      "slideCount": 15,
+      "sha256": "c3dfec1119c33453cc80ff640016e8fb535ec47a40fc6b9630b99cec2cea427b"
+    }
+  ],
+  "fullNotesSha256": "1dca39ef3ca98701cc601c1646222a5f997bab939e89f6088cf095937ce9d54c",
+  "fullMontageSha256": "fccd9d86fe9ffd4ac5c266330074de7cc0958153f2a5d5e488b7c9739daa7af3",
+  "windowsRoomProductAccountRehearsal": "UNVERIFIED",
+  "visualReview": {
+    "allSixACTMontages": "REVIEWED",
+    "changedSixSlidesFullResolution": "REVIEWED",
+    "S76FinalTitleAndS110Lookup": "REVIEWED",
+    "clippingOverlapMissingGlyphInChangedSlides": "NONE FOUND",
+    "storyHandoff": "bounded success → current human correction → unchanged shared method → recurring correction → records/ownership → ACT4",
+    "windowsRoomRehearsal": "UNVERIFIED"
+  },
+  "staticFallbackPNGsUnchanged": 34,
+  "newPreview": "production/preview/full/act3-loop-handoff.png",
+  "deliveryAudit": {
+    "status": "PASS",
+    "newLocalLinksChecked": 56,
+    "artifactHashesMatch": true,
+    "ACT4PackageNotesScreensAndMapPreserved": true,
+    "historyAndRawEvidencePreserved": true,
+    "fallbackFilesUnchanged": 34,
+    "tips": 17,
+    "templateInventory": "12/28",
+    "FAQQuestions": 25,
+    "DemoRepositoryCleanAndTagsPreserved": true
+  },
+  "remotePreflight": "origin/main matched baseline HEAD after fetch"
+}

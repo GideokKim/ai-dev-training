@@ -1,4 +1,6 @@
-# Current presentation source — DEC-0060 /93slides
+# Current presentation source
+
+Current content: DEC-0092 /113slides/402minutes unchanged. `harnessReuseFactories()` preserves S72/S73 reuse and replaces S74-S79 with the missing feedback from repeated human corrections. S75-S77 are conceptual. S73 Notes transition and S110 tip title align; ACT4 stays19pages/81minutes with identical screens/Notes/allocations. Finalize Full plus ACT3/ACT5 with `--release --release-acts=3,5`; preserve the other ACT packages. See `plan/ACT3_LOOP_HANDOFF.md`. Earlier sections retain their historical implementation scope.
 
 Current: DEC-0091 /113slides/402minutes. The retained factories keep their
 96-to99-to108source numbering stages. harness-reuse.mjs explicitly removes

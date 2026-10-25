@@ -1,13 +1,13 @@
 # 사용자 검증 체크리스트
 
-현재 ACT 제목은 DEC-0090 승인/DEC-0091 번호의 S01/S15/S37/S56/S75/S94다. [제목 추가 검토](ACT_TITLE_SLIDES.md),
+현재 ACT 제목은 DEC-0090 승인/DEC-0091 번호의 S01/S15/S37/S56/S80/S99다. [제목 추가 검토](ACT_TITLE_SLIDES.md),
 [108→113 번호](../../plan/SLIDE_ID_MIGRATION_113.md)를 우선한다. 아래 이전 시각 수정·평가의
 파일명은 당시 판본이며 실환경 확인 상태는 UNVERIFIED다.
 
 보존된 시각 수정은 DEC-0089의 현재 S58 화살표 굵기 정렬이다. [로컬 검토](S54_BRANCH_ARROW_REVISION.md)를
 참고하되 아래 실환경 확인 상태는 UNVERIFIED로 유지한다.
 
-갱신 기준일:2026-10-25 (Asia/Seoul). 현재113장·402분/DEC-0091. 최종 패키지·렌더·113개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
+갱신 기준일:2026-10-25 (Asia/Seoul). 현재113장·402분/DEC-0092. 최종 패키지·렌더·113개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -16,13 +16,13 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `ab59f11cb9bbf374cad8e2483022d2159327bc7bf68cc6fda61a164322e59c83`
+- PPTX SHA-256: `0c7f4fb164cb41b420d05bd718858f5c9124dce5a7931bcdfb41ad79a174b727`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `832d755e1899664f1e7ca997b9d5a34874113acb18e086ca2dd620d52d5dd7b9`
-- 전체 정적 렌더: `production/preview/full/S01.png`–`S108.png`, [montage](../preview/full/montage.png)
+- Notes SHA-256: `1dca39ef3ca98701cc601c1646222a5f997bab939e89f6088cf095937ce9d54c`
+- 전체 정적 렌더: `production/preview/full/S01.png`–`S113.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-위 PPTX·Notes hash는 DEC-0091의 현재113장 파일 식별자다. [마지막 팁 요약 검토](FINAL_PRACTICAL_TIPS_CONSOLIDATION.md)를 우선한다. [이전 ACT0 확장 검토](ACT_0_CONTEXT_EXPANSION.md)의 시간·근거 범위는 유지한다. 아래 과거 평가 링크는 당시 번호·범위다. [ACT5 기존 Harness 재평가3장](ACT_5_HARNESS_REASSESSMENT.md), [이전 ACT5 흐름](ACT_5_FLOW_REVISION.md), [이전 ACT4 흐름·실제 기록·ACT5 연결](ACT_4_FLOW_REVISION.md), [이전 ACT3→ACT4 유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md), [이전 S71 성찰](S67_REFLECTION_OWNERSHIP_REVISION.md), [이전 S70 C++ 적용](S66_CPP_TRANSFER_REVISION.md), [이전 S69 외부 조건](S65_EXTERNAL_CONDITIONS_REVISION.md), [이전 S68 Harness 구조](S64_HARNESS_STRUCTURE_REVISION.md), [이전 S67 실제 구성 역할](S63_TASK_ROLES_REVISION.md), [이전 S66 지식 출처](S62_KNOWLEDGE_SOURCES_REVISION.md), [이전 S65 Context와 보존](S61_CONTEXT_RETENTION_REVISION.md), [이전 S64 작업 판단](S60_TASK_DEPENDENCY_REVISION.md), [이전 S63 역할 분리](S59_ROLE_SPLIT_REVISION.md), [이전 S61–S62 작업·검증](S57_S58_TASK_RESULT_REVISION.md), [이전 S61 후보 선택](S57_CANDIDATE_SELECTION_REVISION.md), [이전 S60 방법과 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S59 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S57/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S57 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S55 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S54 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S43 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [96→99 번호 대조](../../plan/SLIDE_ID_MIGRATION_99.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
+위 PPTX·Notes hash는 DEC-0092의 현재113장 파일 식별자다. [ACT3→ACT4 연결 검토](ACT3_LOOP_HANDOFF_REVISION.md)를 우선한다. [마지막 팁 요약 검토](FINAL_PRACTICAL_TIPS_CONSOLIDATION.md)를 우선한다. [이전 ACT0 확장 검토](ACT_0_CONTEXT_EXPANSION.md)의 시간·근거 범위는 유지한다. 아래 과거 평가 링크는 당시 번호·범위다. [ACT5 기존 Harness 재평가3장](ACT_5_HARNESS_REASSESSMENT.md), [이전 ACT5 흐름](ACT_5_FLOW_REVISION.md), [이전 ACT4 흐름·실제 기록·ACT5 연결](ACT_4_FLOW_REVISION.md), [이전 ACT3→ACT4 유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md), [이전 S71 성찰](S67_REFLECTION_OWNERSHIP_REVISION.md), [이전 S70 C++ 적용](S66_CPP_TRANSFER_REVISION.md), [이전 S69 외부 조건](S65_EXTERNAL_CONDITIONS_REVISION.md), [이전 S68 Harness 구조](S64_HARNESS_STRUCTURE_REVISION.md), [이전 S67 실제 구성 역할](S63_TASK_ROLES_REVISION.md), [이전 S66 지식 출처](S62_KNOWLEDGE_SOURCES_REVISION.md), [이전 S65 Context와 보존](S61_CONTEXT_RETENTION_REVISION.md), [이전 S64 작업 판단](S60_TASK_DEPENDENCY_REVISION.md), [이전 S63 역할 분리](S59_ROLE_SPLIT_REVISION.md), [이전 S61–S62 작업·검증](S57_S58_TASK_RESULT_REVISION.md), [이전 S61 후보 선택](S57_CANDIDATE_SELECTION_REVISION.md), [이전 S60 방법과 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S59 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S57/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S57 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S55 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S54 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S43 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [96→99 번호 대조](../../plan/SLIDE_ID_MIGRATION_99.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
 
 이전 DEC-0033–0035의 80장 렌더·구조·Notes 검토는 해당 평가 문서와 Git history의 역사적 근거다. 이전 ZIP은 payload 362개·entry 363개였으며 당시 CRC·hash·내부 링크·Notes 정합성을 확인했다. 이번에는 묶음을 갱신하지 않는다. M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아니다. 2순위 보강은 보류한다.
 
@@ -81,8 +81,9 @@ Context 관찰 S51–S53, Skill/Benchmark S61–S65, 새 Harness 설명 S71–S7
 가상 평가 S89–S90, 기존 실제 Meta S93–S97, 마지막 요약 S110–S112를 집중 확인한다.
 ACT 전환은 S14→S15→S16, S36→S37→S38, S55→S56→S57,
 S79→S80→S81, S98→S99→S100이다. 마지막은 S109→S110→S111→S112→S113이다.
-ACT4의 구성·19장·81분·근거는 보존됐으며 번호만 +5다.
-재사용은 설계 모델이고 S74의 권한 오류, S76/S77의 실제 Meta 관찰과 구분한다.
+ACT4의 구성·19장·81분·근거·Notes와 이번 기준의 번호를 그대로 유지한다.
+S74는 확인한 성공과 다음 작업의 질문, S75–S77은 가상의 반복 보정, S78–S79는
+근거·책임의 질문이다. 이전 실행 조건 설명과 혼용하지 않는다.
 
 결과 / 문제 Slide / 증거:
 
@@ -106,7 +107,7 @@ ____________________________________________________________________
 
 - [ ] S61의 발견/명시 호출/본문 포함과 S62의 실제 지침/관찰 요약을 구분하고 모든 지침 준수·단독 인과성으로 확대하지 않았다.
 - [ ] S66/S64은 명시적 가정이고 S67/S65는 현재 사례의 선택이며 실제 Subagent·Memory 실행을 보여주지 않음을 확인했다.
-- [ ] S70 실제 구성→S71 전체 모델→S72/S73 재사용 기반→S74–S78 실행 조건→S79 유지 책임→S80 제목→S81 실제 성공 회수의 흐름이 자연스럽다.
+- [ ] S70 실제 구성→S71 전체 모델→S72/S73 재사용 기반→S74 성공 범위→S75–S77 반복 보정→S78 기록→S79 근거·검토 책임→S80 제목→S81 실제 성공 회수의 흐름이 자연스럽다.
 
 - [ ] S27–S34는 공식 권고를 각색한 교육용 요청 예시로 설명하고 실제 TRIAL-002 실행·정확도·토큰·시간 향상의 측정 성과로 표현하지 않았다.
 - [ ] S40의 실제 요청과 창 밖 주석을 구분하고, 테스트 명령이 없었다는 설명을 검증 금지 지시로 읽지 않았다. 관찰된 테스트 지침 사용과 강제 준수 보장·단독 인과효과를 구분했다.
@@ -186,7 +187,7 @@ ____________________________________________________________________
 - [ ] S10–S11 Lecture 2분의 접근 경계 45초와 신규 S12 Lecture 1분을 지켜 ACT 0 43분을 유지했다.
 - [ ] S10–S11의 접근 경계 45초, S21 Case의 완료 조건 90초, S25 결과 인계 90초, S26 Lecture의 검사 비교 90초가 기존 장별 시간 안에 들어가며 S26 Reflection 1분을 지켰다.
 - [ ] S79 순서: Reflection 3 → Q&A 5 → Transition 2분. 3분에 질문을 열고 8분에 마감하여 10분에 전환했다.
-- [ ] S79 무질문 상황에서는 “이 반복은 Context, Workflow, Coordination, 기억 중 무엇에 가까운가?”를 사용하고 마지막 전환 질문을 지켰다.
+- [ ] S79 무질문 상황에서는 “이번 대화에서만 보정했다면 다음 작업은 무엇을 다시 읽을까요?”를 사용하고8분에 Q&A를 닫아10분에 S80으로 전환했다.
 - [ ] S98 순서: Case 7 → Reflection 2 → Q&A 7 → Transition 4분. 정적 화면으로 전체 20분을 실제 운영했다.
 - [ ] S98 왼쪽 조건 변화→오른쪽 01 기존 가정·02 측정 조건·03 기능 계약→하단 성찰 질문의 지목 Cue를 사용했다.
 - [ ] S98 무질문 상황에서 아래 준비 질문을 강사가 짧게 해설하고, 응답을 요구하지 않고 16분에 질문을 마감했다.
@@ -300,13 +301,16 @@ ____________________________________________________________________
 - [ ] 실행 환경에서 작업·검증 양쪽으로 이어지는 선을 설명했다.
 - [ ] 테스트·benchmark가 제공한 근거를 사람이 검토할 책임을 짚었다.
 - [ ] 공식 정의·필수 기능 목록·전체 환경의 완전한 감사로 확대하지 않았다.
-- [ ] Lecture4분과 CAPTURED Demo2분을 구분해 운영하고 S74–S78의 환경 질문으로 연결했다.
+- [ ] Lecture4분과 CAPTURED Demo2분을 구분해 운영하고 S72/S73의 재사용 가치와 S74–S79의 반복 보정 문제로 연결했다.
 - [ ] 전체 도식·실행 환경 라벨의 원거리 가독성을 실제 발표 화면에서 확인했다.
 
 위 항목은 실환경·리허설 후속 확인이며 로컬 렌더 검사로 완료하지 않는다.
 
 
-## S74–S78 외부 조건·관찰·해석의 발표 검토 — DEC-0077 / UNVERIFIED
+## 이전 외부 조건·관찰·해석 검토 — Historical DEC-0077 / 현재 화면 대상에서 제외
+
+아래 번호는 이전 화면 역할의 이력이다. 현재 S74–S79는 다음 DEC-0092 검토를 따른다.
+실제 전역 지침 관찰은 원자료와 ACT4 S93–S97에 보존하며 아래 체크박스를 자동 완료하지 않는다.
 
 - [ ] S71의 실행 환경에서 저장소 밖 조건의 적용 여부로 전환했다.
 - [ ] 상단은 교육용 관계도이며 통제된 두 환경 비교가 아님을 설명했다.
@@ -408,3 +412,19 @@ DEC-0091 사용자 승인으로 해당 장을 삭제했다. 아래는 당시 체
 - [ ] S79→S80→S81이 재사용 가치와 성공을 유지하면서 다음 유지 문제로 이어진다.
 - [ ] ACT4 S80–S98의19장·81분과 각 설명을 그대로 운영한다.
 - [ ] 전체402분은 계획 시간이며 실제 리허설에서 운영 시간을 확인했다.
+
+
+## S74–S79 반복 보정→ACT4 연결 — DEC-0092 / UNVERIFIED
+
+- [ ] S74의 실제 성공 범위와 오른쪽 다음 작업의 질문을 구분한다.
+- [ ] S75–S77의 사람이 추가 확인을 요청하는 상황이 가상 사례임을 설명하며 graypipe의 실제 누락·반복 Trial로 말하지 않았다.
+- [ ] S76에서 이번 요청의 수정과 다음 작업이 읽는 공통 지침의 수정을 구분했다.
+- [ ] S77의 반복 그림을 비용·시간·토큰 측정이나 확인된 원인의 증거로 사용하지 않았다.
+- [ ] S78의 기준/실제 수행/사람의 보정 기록에서 원인·변경·재평가의 질문으로 이어진다.
+- [ ] S79의 근거·출처와 검토/재확인 책임 질문, 다음 ACT 문장을 뒤쪽 좌석에서 읽을 수 있다.
+- [ ] S79의 Reflection3→Q&A5→Transition2 운영과 무질문 fallback을 실측했다.
+- [ ] S80–S98의 기존19장·81분과 가상/실제 Meta 구분을 그대로 운영했다.
+
+검증자 / 날짜 / 실제 환경 / 결과 / 근거: ____________________
+
+이 항목은 로컬 제작 검사로 완료하지 않는다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.

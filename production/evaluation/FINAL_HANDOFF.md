@@ -1,35 +1,41 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-현재 기준: **DEC-0091 /113장·402분(6시간42분)**. Harness 재사용 가치를 S72/S73에서
-먼저 설명하고, 이전 S72를 실행 조건 설명 S74–S78의5장으로 나눴다. 이전 S73의
-독립 C++ 전이 장은 삭제했다. 기존 S74는 S79이며 ACT4는 S80–S98로 이동한다.
-ACT4의19장·81분·구성·장별 Mode·근거와 실제 개선5장 S93–S97을 온전히 보존했다.
+현재 기준: **DEC-0092 /113장·402분(6시간42분)**. S72/S73의 Harness 재사용 가치를
+유지하고, S74–S79를 **사람의 반복 보정이 다음 작업의 개선으로 이어지지 않는 문제**로
+연결했다. 확인한 성공→사람의 추가 확인→이번 요청/공통 지침의 차이→반복 보정→
+판단 근거→검토·재확인 책임으로 진행한다. S75–S77은 CONCEPTUAL이다.
+ACT4 S80–S98의19장·81분·구성·시간/Mode·근거·Notes·화면은 그대로 보존했다.
+S73은 마지막 Notes 질문, S110은 S78 팁 제목만 맞췄다. 번호 이동과 시간 재배분은 없다.
+
 ACT 장수14/22/19/24/19/15, 시간43/64/82/92/81/40분.
 Mode Lecture160/Demo73/Case88/Reflection21/Transition28/Q&A32분.
-전체113장과6ACT의113장,226PNGs·113x19Notes/내장/ACT 대응을 대조했다.
-변경 대상 외104개 화면은 ID/참조 영역 밖 동일하고, 보존된 모든 이미지의
-bytes/crop/위치와 Native 표/차트도 대조했다.17개 팁·마지막 요약 S110–S112를 유지한다.
-새 기록 팁 S78을 마지막 목록에 연결했다.34Demo fallback의 현재 경로/해시를 따른다.
-재사용 도식은 실제 이식 시험이 아니며 새 Trial·성능·토큰 절약 주장은 없다.
-Windows·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED다.
-발표 묶음·Demo 저장소·원본 이미지·Prototype은 변경하지 않았다.
+Full113장과 수정 ACT3/ACT5의39장을 최종 PPTX 재입력 후1920×1080으로 렌더링했다.
+새 렌더152장과 보존 ACT0/1/2/4의74장을 합친226PNG, Full/ACT113장 대응과
+113×19Notes·내장/Markdown 일치를 대조했다. 변경 대상 외106개 Full 화면은 픽셀까지
+동일하고 ACT4 PPTX/Notes는 파일 바이트도 동일하다. 기존 이미지·Native 표/차트를 보존했다.
+12Templates/28Variants·17개 팁·마지막 목록 S110–S112와34Demo fallback을 유지한다.
 
-[수정 결과](HARNESS_REUSE_REVISION.md), [설계](../../plan/HARNESS_REUSE_AND_EXECUTION_CONTEXT.md),
-[108→113 번호](../../plan/SLIDE_ID_MIGRATION_113.md), [설명 흐름](../preview/full/harness-reuse-sequence.png).
+로컬 package/layout findings는0이다. 기존 S53 native 표의0.01in 경고는 변경 전과 같고
+화면을 재검토했다. 실제 Windows·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED다.
+새 Trial·성과 주장·발표 묶음·Demo 저장소·원본 이미지·Prototype 변경은 없다.
+
+[현재 검토 결과](ACT3_LOOP_HANDOFF_REVISION.md), [설계](../../plan/ACT3_LOOP_HANDOFF.md),
+[6장 미리보기](../preview/full/act3-loop-handoff.png),
+[전후 연결](../preview/full/harness-reuse-sequence.png), [사용자 검증](USER_VALIDATION_CHECKLIST.md).
 
 ## 현재 파일 식별
 
 | 파일 | SHA-256 |
 |---|---|
-| production/AI_Dev_Training_Full.pptx | `ab59f11cb9bbf374cad8e2483022d2159327bc7bf68cc6fda61a164322e59c83` |
+| production/AI_Dev_Training_Full.pptx | `0c7f4fb164cb41b420d05bd718858f5c9124dce5a7931bcdfb41ad79a174b727` |
 | production/ACT_0.pptx | `92e504a1599f290f80d4ddf789ad081c85476041f5259e3810e23236cd4817ea` |
 | production/ACT_1.pptx | `8963afae1e525226e1b13d6907d24d87502bcf9452d472b22b189d063c2b4bad` |
 | production/ACT_2.pptx | `90efca72bd0889edfcaef5ae6d223d44bca94abc095d6eef224fec9b324712dd` |
-| production/ACT_3.pptx | `dc7e9d467d8d0667c01b1fee5cd72207b25225d987151895ca4119c7a71390b0` |
+| production/ACT_3.pptx | `1ddb00ada87752a8d40247215aff071505b7d6b40e0b9941f1bf5ab7556ce13e` |
 | production/ACT_4.pptx | `4fa17e9d3474c311fca769698d62c02e88f44dca400824d2bf652fb6e2a5c426` |
-| production/ACT_5.pptx | `8f8452ab8b69b71e89e6980b1c2c2e0f2ae6df063cb93e284577d5560147a9d8` |
-| production/notes/FULL_SPEAKER_NOTES.md | `832d755e1899664f1e7ca997b9d5a34874113acb18e086ca2dd620d52d5dd7b9` |
-| production/preview/full/montage.png | `072951d5054312f58b9d1cc121c5f0d48d421aa8915d50b9aea22ccd9b34ff2c` |
+| production/ACT_5.pptx | `c3dfec1119c33453cc80ff640016e8fb535ec47a40fc6b9630b99cec2cea427b` |
+| production/notes/FULL_SPEAKER_NOTES.md | `1dca39ef3ca98701cc601c1646222a5f997bab939e89f6088cf095937ce9d54c` |
+| production/preview/full/montage.png | `fccd9d86fe9ffd4ac5c266330074de7cc0958153f2a5d5e488b7c9739daa7af3` |
 
 아래 이전 전달·평가는 당시 판본이며 현재 실환경 검증을 대신하지 않는다.
 

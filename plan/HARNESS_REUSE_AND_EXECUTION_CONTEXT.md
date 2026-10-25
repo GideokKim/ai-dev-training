@@ -1,6 +1,21 @@
 # Harness 재사용과 실행 조건 설명
 
-Current: DEC-0091 /113장·402분. 기준 Commit108d0d8에서 사용자 승인으로 수정한다.
+## 현재 ACT3→ACT4 연결 — DEC-0092 (2026-10-25)
+
+113장·402분과 장별 시간/Mode·번호를 유지한다. S72–S73의 Harness 재사용 가치를
+보존하고, S74–S79에서 **사람의 반복 보정이 다음 작업의 체계 개선으로 돌아오지 않는 문제**를
+드러낸다. 확인한 성공→사람의 추가 확인→이번 요청과 공통 지침의 차이→반복 보정→
+판단할 기록→근거·검토 책임의 순서다. S75–S77은 CONCEPTUAL이며 실제 반복 실패가 아니다.
+ACT4 S80–S98의19장·81분·장별 역할·시간·Mode·근거·Notes는 변경하지 않는다.
+[현재 연결 설계](ACT3_LOOP_HANDOFF.md), [Slide Map](SLIDE_MAP.md),
+[로컬 수정 결과](../production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md)를 우선한다.
+기존12Templates/28Variants·19Notes 필드·17개 팁·마지막 목록 S110–S112를 유지한다.
+아래 이전 설계·번호·평가는 당시 판본의 이력이다. Windows/교육장/제품·계정/실측 리허설은
+UNVERIFIED이며 새 Trial·발표 묶음·Demo 저장소 변경은 없다.
+
+S72–S73의 재사용 설계와 ACT4 보존 표는 유효하다. 아래 S74–S79의 이전 실행 조건 중심 화면·운영은 DEC-0092로 대체됐으며 역사적 설계로 보존한다.
+
+Historical design: DEC-0091 /113장·402분. 기준 Commit108d0d8에서 사용자 승인으로 수정한다.
 
 ## 목적과 보호 범위
 

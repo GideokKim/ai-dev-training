@@ -1,5 +1,7 @@
 # ACT 5 — Speaker Notes
 
+Latest content revision: DEC-0092 /113slides/402minutes unchanged. S74–S79 explain the missing feedback from repeated human corrections; S73 transition and S110 tip title align. ACT4 S80–S98 and its19pages/81minutes remain unchanged. Earlier edition headers retain their provenance.
+
 Current: DEC-0091 /113slides/402minutes. ACT5: 15slides/40minutes. Current IDs follow SLIDE_ID_MIGRATION_113.md. ACT4 composition/Mode/time unchanged; earlier edition headers remain historical.
 
 Historical: DEC-0090 /108slides/396minutes. ACT5: 15slides/40minutes. ACT title is1Transition minute; original body budgets are unchanged. Current Notes below use108-slide IDs. Earlier headers are historical. See plan/SLIDE_ID_MIGRATION_108.md.
@@ -729,7 +731,7 @@ Lecture 1분
 
 **Speaker Flow:**
 1. (0:00–0:15 / Lecture) 교육 마지막의 통합 찾아보기임을 알린다.
-2. (0:15–0:45 / Lecture) S12 Repository 작업은 Codex에서 시작한다 / S48 AGENTS.md에는 무엇을 남길까? / S58 테스트 명령을 언제 쓰고 무엇을 판단할까? / S68 이번 Context와 다시 쓸 지식 / S78 결과와 실행 조건을 함께 남긴다. 제목·위치만 짚고 본문을 다시 강의하지 않는다.
+2. (0:15–0:45 / Lecture) S12 Repository 작업은 Codex에서 시작한다 / S48 AGENTS.md에는 무엇을 남길까? / S58 테스트 명령을 언제 쓰고 무엇을 판단할까? / S68 이번 Context와 다시 쓸 지식 / S78 반복 보정을 개선으로 잇는 기록. 제목·위치만 짚고 본문을 다시 강의하지 않는다.
 3. (0:45–1:00 / Lecture) S111로 이어간다.
 
 **Evidence / Source:**

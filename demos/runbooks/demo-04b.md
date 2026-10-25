@@ -1,6 +1,6 @@
 # DEMO-04B — Observed Training Production Meta Case
 
-## Current operation — DEC-0091
+## Current operation — DEC-0092
 
 S93 identifies the actual Resize investigation and reporting-system target.
 S94 separates scoped result validity from PARTIAL Prompt attribution. S95
@@ -8,10 +8,12 @@ shows the changed recording criteria and preserves DEC-0016 continuation
 limits. S96 reads the existing follow-up records and S97 maps the case to
 the course model. Keep all five pages; do not compress the ACT4 explanation.
 Demo slots remain S93:2/S94:4/S95:2 minutes, total8. S96/S97 add no Demo time.
-ACT3 S76/S77 explain Skill involvement and warning/use distinctions only.
+ACT3 S75-S77 use a separate conceptual human-correction scenario. S78/S79
+ask why that experience has not improved the next task. They do not repeat
+or replace this actual environment/evaluation/reporting case.
 The decision and subsequent-record checks remain in this ACT4 case.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
-See [current design](../../plan/HARNESS_REUSE_AND_EXECUTION_CONTEXT.md).
+See [current handoff](../../plan/ACT3_LOOP_HANDOFF.md).
 
 ## Earlier operation — DEC-0080
 
@@ -21,7 +23,7 @@ Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0091 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0092 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED SUPPORTING META ROLE

@@ -9890,3 +9890,100 @@ Render and inspect the full deck; verify retained ACT4 bodies/time/Mode and
 Markdown/embedded Notes parity. Preserve Windows/product-account/room and
 timed-rehearsal gates as UNVERIFIED. Commit normal deliverables and push
 only to the existing origin/main without force.
+
+# DEC-0092 — Connect repeated human corrections to the improvement Loop
+
+## Status
+
+ACCEPTED — explicit user approval in this conversation.
+
+## Date
+
+2026-10-25
+
+## Context
+
+Baseline29b4b24 has113slides/402minutes. The user accepts Harness reuse but
+finds S74-S79's environment discussion insufficient to motivate ACT4.
+The intended problem is that repeated human corrections do not improve
+the working system used by the next task.
+
+## Problem
+
+Permission errors and external instructions explain execution conditions.
+They do not alone explain why operational experience needs a feedback
+process. Reusing those observations as a fictional recurring failure would
+also misstate the evidence and preempt ACT4's actual Meta case.
+
+## Decision
+
+Revise S74-S79 without changing IDs, per-page time or Modes. Recall the
+bounded STATE-04-PERF success at S74. Use one conceptual sequence at S75-S77:
+a human requests related-behavior checks; the current request changes but
+the shared method does not; later tasks need the same correction. S78
+identifies records for comparing criteria, actual work and the correction.
+S79 asks about sources and review/recheck responsibility, explicitly handing
+off cause analysis, scoped changes and reevaluation to ACT4.
+
+Keep S72/S73's reuse benefit and project bindings. Align S73's last spoken
+question and S110's existing S78 tip label only. Keep113slides/402minutes,
+ACT counts14/22/19/24/19/15 and minutes43/64/82/92/81/40. Modes remain
+Lecture160/Demo73/Case88/Reflection21/Transition28/Q&A32. Keep12Templates/
+28Variants,19Notes fields,17tips and final indexes S110-S112.
+
+Preserve ACT4 S80-S98's19pages/81minutes, every role, order, per-page
+allocation, Notes, evidence and claim boundary. Preserve all original
+TRIAL-001/006 facts. The new conceptual scenario is not their observed
+continuation. Do not add a Trial, Demo change, measured effect or bundle.
+
+## Rationale
+
+Show a concrete task correction before naming the missing feedback path.
+Make the reason for ACT4 visible without relying on spoken repair of the
+story. Retain the positive value of the built Harness and defer detailed
+cause, update and evaluation mechanisms to their approved ACT4 pages.
+
+## Alternatives
+
+Keep the external-condition sequence; it leaves the motivation unclear.
+Add a new Loop lecture in ACT3; it duplicates and risks compressing ACT4.
+Present fictional repetitions as observations; it violates claim scope.
+
+## Trade-offs
+
+Replace six screen explanations within their existing budgets. Use clear
+conceptual labels and dashed frames for three fictional pages. Historical
+environment observations remain available in evidence records and ACT4.
+The new sequence is a teaching bridge, not a measured repeated-use study.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-NARRATIVE-002, INV-DEMO-003, INV-VERIFY-001,
+INV-DELIVERY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S74-S79 source/Map/Notes; S73 transition; S110 tip label; related planning,
+claim/template/module maps; Full/ACT3/ACT5 PPTX and previews; current
+handoff/checklist and source identities. Preserve other ACT packages,
+primary evidence, historical reports, assets, prototypes and Demo state.
+
+## Evidence
+
+Explicit user instruction; MASTER_PLAN sections5.8-5.9 and14; recorded
+STATE-04-PERF success. S75-S77 are designed scenarios, not new Product
+evidence. No experiment, current-product verification or new external
+technical claim is introduced. Harness-to-Loop is the course narrative,
+not an assertion of an industry-wide historical replacement.
+
+## Training Relevance
+
+YES — distinguish correcting one task from using operational experience
+to improve the shared system, with cause/scope checks before adding rules.
+
+## Follow-up
+
+Render/review Full113and revised ACT3/ACT5. Verify unchanged ACT4 and106
+other Full screens, all113x19Notes, per-page budgets and34fallback files.
+Keep Windows/room/product-account/timed rehearsal UNVERIFIED. Commit normal
+artifacts and push normally to origin/main without force push or a bundle.

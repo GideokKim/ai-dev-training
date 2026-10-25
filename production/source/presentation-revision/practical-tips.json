@@ -122,9 +122,10 @@
       "slideId": "S78",
       "act": 3,
       "category": "수행 방법",
-      "title": "결과와 실행 조건을 함께 남긴다",
-      "rationale": "재사용할 작업 기반과 확인된 실행 조건·검증 근거를 함께 남기는 틀",
-      "sourceEdition": "DEC-0091 new slide"
+      "title": "반복 보정을 개선으로 잇는 기록",
+      "rationale": "원래 기준·실제 수행·사람의 보정을 남겨 다음 작업의 체계 개선을 검토하는 틀",
+      "sourceEdition": "DEC-0091 new slide",
+      "contentDecision": "DEC-0092"
     },
     {
       "sourceSlideId": "S75",

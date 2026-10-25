@@ -1,6 +1,19 @@
 # STEP 08 — CLAIM / EVIDENCE FREEZE RESULT
 
-## 현재 기준 — DEC-0091 (2026-10-25)
+## 현재 ACT3→ACT4 연결 — DEC-0092 (2026-10-25)
+
+113장·402분과 장별 시간/Mode·번호를 유지한다. S72–S73의 Harness 재사용 가치를
+보존하고, S74–S79에서 **사람의 반복 보정이 다음 작업의 체계 개선으로 돌아오지 않는 문제**를
+드러낸다. 확인한 성공→사람의 추가 확인→이번 요청과 공통 지침의 차이→반복 보정→
+판단할 기록→근거·검토 책임의 순서다. S75–S77은 CONCEPTUAL이며 실제 반복 실패가 아니다.
+ACT4 S80–S98의19장·81분·장별 역할·시간·Mode·근거·Notes는 변경하지 않는다.
+[현재 연결 설계](ACT3_LOOP_HANDOFF.md), [Slide Map](SLIDE_MAP.md),
+[로컬 수정 결과](../production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md)를 우선한다.
+기존12Templates/28Variants·19Notes 필드·17개 팁·마지막 목록 S110–S112를 유지한다.
+아래 이전 설계·번호·평가는 당시 판본의 이력이다. Windows/교육장/제품·계정/실측 리허설은
+UNVERIFIED이며 새 Trial·발표 묶음·Demo 저장소 변경은 없다.
+
+## 이전 기준 — DEC-0091 (2026-10-25)
 
 113장·402분. ACT3 S56–S79는24장·92분, ACT4 S80–S98은 기존19장·81분을 보존한다.
 S71 뒤 재사용2장과 이전 S72 설명5장을 넣고 이전 독립 C++ 전이 S73은 삭제했다.
@@ -911,3 +924,25 @@ conceptual boundaries and all prior evidence limits.
   configuration change, Demo State or attribution upgrade is introduced.
 
 See HARNESS_REUSE_AND_EXECUTION_CONTEXT.md and SLIDE_ID_MIGRATION_113.md.
+
+## DEC-0092 — Current S74–S79 feedback-gap boundaries
+
+This section supersedes DEC-0091's current S74–S79 assignments. Preserve
+the earlier passage as history; its observed environment facts stay in the
+primary Trial records and existing ACT4 Meta case, not the new fiction.
+
+| Slide | Current type/status | Allowed scope | Not established |
+|---|---|---|---|
+| S74 | OBSERVED_PRODUCT / TEACHING_MODEL; FROZEN WITH SCOPE | STATE-04-PERF success at recorded code/input/environment; next-task question | Later failure, repeated corrections or universal success |
+| S75 | CONCEPTUAL | Human asks for related-behavior checks in a teaching scenario | Actual graypipe omission, cause or completed verification |
+| S76 | CONCEPTUAL | A corrected current request and an unchanged shared source are different | Instructions caused the gap; a source was repaired |
+| S77 | CONCEPTUAL | A/B/C illustrate repetition when the shared method is not updated | Three Trials, Subagents, measured cost/time/tokens or causal effect |
+| S78 | TEACHING_MODEL | Compare criteria/instructions, actual work and human correction | A completed audit, confirmed cause/target or automatic learning |
+| S79 | TEACHING_MODEL | Optional reflection on evidence/source and review/recheck ownership | Assigned owner, mandatory exercise or an evaluated improvement |
+
+Do not convert a correction straight into a new universal rule. Cause,
+scope, human review and reevaluation remain questions addressed in ACT4.
+Keep S80–S98's19pages/81minutes and all evidence/claim distinctions exactly.
+No new Trial, observed Product Loop, product replay or superiority claim.
+The course sequence does not assert a historical industry-wide replacement
+of Harness by Loop. See [current design](ACT3_LOOP_HANDOFF.md).

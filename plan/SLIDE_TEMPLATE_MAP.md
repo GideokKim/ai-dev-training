@@ -1,6 +1,28 @@
 # STEP 08 — Slide-to-Template Mapping
 
-> Current: DEC-0091 /113slides/402minutes. New S72–S78 reuse existing variants; prior S73 is deleted. ACT4 S80–S98 retains every original assignment and81minutes.12Templates/28Variants. Final indexes S110–S112. See [reuse design](HARNESS_REUSE_AND_EXECUTION_CONTEXT.md) and [108→113](SLIDE_ID_MIGRATION_113.md).
+> Current content: DEC-0092 /113slides/402minutes unchanged. S74–S79 show the missing feedback from repeated human task corrections. S75–S77 use conceptual grammar. Existing12Templates/28Variants; ACT4 assignments remain identical. See [handoff design](ACT3_LOOP_HANDOFF.md).
+
+## 현재 Template 배정 수 — DEC-0092
+
+| Template | Slide count |
+|---|---:|
+| T01 | 6 |
+| T02 | 6 |
+| T03 | 38 |
+| T04 | 14 |
+| T05 | 4 |
+| T06 | 4 |
+| T07 | 13 |
+| T08 | 10 |
+| T09 | 1 |
+| T10 | 6 |
+| T11 | 5 |
+| T12 | 6 |
+| **Total** | **113** |
+
+이전 Distribution 표는 당시 판본의 이력으로 보존한다.
+
+> Historical layout: DEC-0091 /113slides/402minutes. New S72–S78 reuse existing variants; prior S73 is deleted. ACT4 S80–S98 retains every original assignment and81minutes.12Templates/28Variants. Final indexes S110–S112. See [reuse design](HARNESS_REUSE_AND_EXECUTION_CONTEXT.md) and [108→113](SLIDE_ID_MIGRATION_113.md).
 
 > Historical: DEC-0090 /108slides/396minutes. Six approved ACT title pages use T12-A. All102existing assignments remain; template inventory becomes12Templates/28Variants. Final tip indexes are S105–S107. See [title system](ACT_TITLES.md) and [102→108](SLIDE_ID_MIGRATION_108.md).
 
@@ -245,12 +267,12 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S71 — 함께 작동하는 작업 환경, Harness | T03-B | CMP-EVIDENCE | CMP-WORKFLOW, CMP-CPP | P+T; observed STATE-04-PERF elements are inset from the course model | DEMO-09 connected Harness model with shared execution environment; DEC-0076; CAPTURED, 2 min | Single state | Contextual | V01, V05, V08 |
 | S72 — 만든 Harness를 다음 프로젝트의 기반으로 | T03-A | CMP-EVIDENCE, CMP-CLAIM | — | T; teaching design, no execution or portability result | Lecture2; no extra Demo or Trial | Single state | — | V01, V02, V07 |
 | S73 — 공통 기반에 프로젝트 기준을 연결한다 | T04-A | CMP-EVIDENCE, CMP-CLAIM | — | T; teaching design, no execution or portability result | Lecture2; no extra Demo or Trial | Single state | — | V01, V02, V07 |
-| S74 — 임시 폴더 오류의 원인은 실행 권한이었다 | T07-A | CMP-EVIDENCE, CMP-CLAIM | — | P; TRIAL-001 permission limit, separate from crop defect | Lecture2; no extra Demo or Trial | Single state | — | V01, V02, V07 |
-| S75 — Agent의 실행 조건은 어디에서 오는가? | T03-B | CMP-EVIDENCE, CMP-CLAIM | — | T; teaching design, no execution or portability result | Lecture2; no extra Demo or Trial | Single state | — | V01, V02, V07 |
-| S76 — 실제 성능 조사에도 저장소 밖 지침이 들어왔다 | T07-A | CMP-EVIDENCE, CMP-CLAIM | — | M; scoped historical CLI record, no complete audit | Lecture2; no extra Demo or Trial | Single state | — | V01, V02, V07 |
-| S77 — 시작 경고와 실제 사용은 구분해서 확인한다 | T04-A | CMP-EVIDENCE, CMP-CLAIM | — | M; scoped historical CLI record, no complete audit | Lecture2; no extra Demo or Trial | Single state | — | V01, V02, V07 |
-| S78 — 결과와 실행 조건을 함께 남긴다 | T03-A | CMP-EVIDENCE, CMP-CLAIM, CMP-PRACTICAL-TIP | — | T; teaching design, no execution or portability result | Lecture2; no extra Demo or Trial | Single state | — | V01, V02, V07 |
-| S79 — 우리 업무에서 먼저 정리할 한 가지 | T01-B | CMP-WORKFLOW | — | T | Reflection: choose one reusable foundation, project binding and review/update ownership; DEC-0079; no Demo execution | R1–R3; see Section 8 | Contextual cue only; no CMP-CPP assignment | V09, V10 |
+| S74 — 이번 성공만으로 다음 작업까지 확인되지는 않는다 | T04-A | CMP-EVIDENCE, CMP-CLAIM | — | P+T; bounded success and an unexecuted next-task question | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
+| S75 — 작업 중 사람이 보정할 일이 생긴다면? | T03-C | CMP-CLAIM | — | C; fictional task correction, no observed repeat or repair | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
+| S76 — 이번 요청은 보정해도, 공통 지침은 그대로다 | T04-A | CMP-CLAIM | — | C; fictional task correction, no observed repeat or repair | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
+| S77 — 다음 작업에서도 같은 보정이 반복된다면? | T03-C | CMP-CLAIM | — | C; fictional task correction, no observed repeat or repair | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
+| S78 — 반복 보정을 개선으로 잇는 기록 | T03-B | CMP-PRACTICAL-TIP, CMP-CLAIM | — | T; evidence and ownership questions, no new execution | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
+| S79 — 같은 보정을 되풀이하지 않으려면? | T01-B | CMP-CLAIM | — | T; evidence and ownership questions, no new execution | Reflection3+Q&A5+Transition2; no Demo | R1–R3 focus cues | — | V01, V02, V07 |
 | S80 — 기록과 피드백으로 시스템 개선하기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
 | S81 — 확인한 성공을 유지하려면 | T07-C | CMP-STATE, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-03/Primary Product Demo endpoint callback; Lecture/Reflection, no extra Demo time | Single state | — | V02, V05 |
 | S82 — 처음에는 기준과 재사용 절차가 맞았다 | T08-A | CMP-CLAIM | CMP-CPP | C | DEMO-04A WATCH / constructed starting condition; VISUAL, 2 min | Single state | Contextual | V06, V08 |

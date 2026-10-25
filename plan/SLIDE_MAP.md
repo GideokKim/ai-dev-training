@@ -1,6 +1,17 @@
 # STEP 08 — 통합 Slide Map (S01–S105)
 
-## 현재 Harness 재사용·실행 조건 설명 — DEC-0091 (2026-10-25)
+## 현재 ACT3→ACT4 연결 — DEC-0092 (2026-10-25)
+
+113장·402분, 장별 시간/Mode·번호 불변. S72–S73의 Harness 재사용 가치는 유지한다.
+S74–S79는 확인한 성공→운영 중 사람의 보정→이번 요청과 원본 체계의 차이→반복 보정→
+개선 판단에 필요한 기록→근거·검토 책임의 질문으로 ACT4의 필요를 드러낸다.
+권한 오류·전역 지침·시작 경고 목록을 이 구간의 중심에서 뺀다. S75–S77의 반복 상황은
+CONCEPTUAL이며 실제 graypipe 실패·반복 Trial이 아니다. 실제 기록은 원자료·ACT4에 보존한다.
+ACT4 S80–S98의19장·81분·구성·장별 Mode·근거는 그대로다.
+[현재 연결 설계](ACT3_LOOP_HANDOFF.md), [현재 검토](../production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md).
+Windows/교육장/제품·계정/실측 리허설 UNVERIFIED. 새 Trial·발표 묶음·Demo 저장소 변경 없음.
+
+## 이전 Harness 재사용·실행 조건 설명 — DEC-0091 (2026-10-25)
 
 현재 **113장·402분(6시간42분)**. S71 다음 S72–S73에서 Harness 재사용의 가치를
 먼저 설명하고, 이전 S72는 S74–S78의5장으로 나눈다. 이전 S73의 독립 C++ 전이 장은
@@ -1969,155 +1980,155 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 재사용 단위와 프로젝트 결합 지점을 나누고 실제 명령·권한·검증 기준을 확인한다.
 - **C++ Vision Bridge:** N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
 - **Speaker Intent:** 재사용할 수행 틀과 프로젝트별로 달라지는 지식·명령·허용 범위를 구분한다. 한 장의 질문만 설명하고 ACT4의 개선 과정·후속 검증을 앞에서 소진하지 않는다.
-- **Transition:** “연결할 조건 중 실행 권한이 왜 필요한지, 앞의 실제 테스트 오류로 돌아보겠습니다.”
+- **Transition:** “이 기반으로 작업하는 동안 사람이 새로 확인할 부분을 찾는다면, 그 경험은 다음 작업에 어떻게 남을까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001
 
-#### S74 — 임시 폴더 오류의 원인은 실행 권한이었다
+#### S74 — 이번 성공만으로 다음 작업까지 확인되지는 않는다
 
 - **Slide ID:** S74
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 임시 폴더 오류의 원인은 실행 권한이었다
-- **Primary Role:** 익숙한 실제 관찰을 이용해 코드 접근과 실행 권한의 차이를 설명한다.
-- **Audience Question:** “코드에 접근했는데도, 왜 일부 테스트는 실행되지 않았을까요?”
-- **Core Message:** TRIAL-001의 별도 테스트는 임시 폴더가 필요했지만 읽기 전용 실행 환경이라 생성하지 못했다. Crop 결함과 별개의 실행 조건이다.
+- **Working Title:** 이번 성공만으로 다음 작업까지 확인되지는 않는다
+- **Primary Role:** 실제 Harness의 성공을 보존하고 다음 작업에서 새 확인·보정이 필요할 수 있다는 질문을 연다.
+- **Audience Question:** “검증한 Harness를 다시 쓰면, 이후 작업에서 사람이 확인할 점은 모두 사라질까요?”
+- **Core Message:** 밝기 통계 작업의 성공은 기록된 명세·코드·입력·환경에서 확인한 결과다. 그 성공만으로 이후 모든 작업의 요구와 검증 범위를 확인한 것은 아니다.
 - **Story Beat:** BEAT-033, BEAT-036
-- **Curriculum Trace:** ACT 3 — reusable Harness foundation, project bindings, and execution-condition literacy. Existing Section/Beat identities retained.
-- **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN WITH SCOPE — TRIAL-001의 과거 CLI 관찰. Crop 결함과 별개이며 Agent가 권한을 해결하거나 확대하지 않았다. 현재 Desktop 결과가 아니다.
-- **Visual Concept:** 테스트 실행, 임시 폴더 생성 요청, 읽기 전용 권한에 막힘을 세 단계로 보여준다. 마지막은 붉은 중단 영역이며 실제 로그 Screenshot으로 표현하지 않는다.
-- **Demo / Case Connection:** TRIAL-001의 실행 제한 회수. 새 실행·Demo 시간을 추가하지 않는다.
-- **Beginner Payoff:** 파일을 읽을 수 있는 것과 임시 파일을 만들 수 있는 것은 다르다.
-- **Advanced Payoff:** 기능 결함과 실행 제한을 별도로 분류하고 권한을 자동 복구했다고 해석하지 않는다.
-- **C++ Vision Bridge:** N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
-- **Speaker Intent:** 익숙한 실제 관찰을 이용해 코드 접근과 실행 권한의 차이를 설명한다. 한 장의 질문만 설명하고 ACT4의 개선 과정·후속 검증을 앞에서 소진하지 않는다.
-- **Transition:** “그렇다면 Agent가 작업할 조건은 Repository 안에서만 정해질까요?”
+- **Curriculum Trace:** ACT 3 closing: working Harness → human task correction → no durable feedback → evidence and ownership questions → ACT4. No observed Product Loop. Existing Section/Beat IDs and per-page allocation remain.
+- **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
+- **Claim Status:** FROZEN WITH SCOPE / TEACHING MODEL — STATE-04-PERF의 성공 범위만 회수한다. 오른쪽 다음 작업은 질문이며 실제 후속 실패·반복 보정·새 Product State가 아니다.
+- **Visual Concept:** 왼쪽 실선은 실제 밝기 통계 변경과 명세·수행 방법·검증 근거, 오른쪽 점선은 다음 작업의 다른 요구·입력·검증 범위에 대한 물음표다. 수치나 새 성공/실패 판정을 만들지 않는다.
+- **Demo / Case Connection:** STATE-04-PERF의 확인한 성공을 짧게 회수; Lecture2분이며 새 Demo 시간을 추가하지 않는다.
+- **Beginner Payoff:** 작동하는 기반을 만들었어도, 다음 작업에서 새로 확인할 점은 생길 수 있다.
+- **Advanced Payoff:** 한정된 성공과 보편적인 수행 적합성 보장을 구분하고, 운영에서 얻을 추가 관찰의 필요를 연다.
+- **C++ Vision Bridge:** N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
+- **Speaker Intent:** 실제 Harness의 성공을 보존하고 다음 작업에서 새 확인·보정이 필요할 수 있다는 질문을 연다. 외부 지침·권한·경고의 목록을 주제로 삼지 않는다. 운영 경험을 다음 작업의 개선으로 돌리지 못하는 문제를 중심에 둔다.
+- **Transition:** “그 기반으로 실제 작업을 하다가 사람이 추가로 확인할 부분을 찾는다면, 그 보정은 어디에 남을까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0091; TRIAL-001, DEC-0084, INV-VERIFY-001
+- **Evidence / Decision References:** STATE-04-PERF; TRIAL-008; DEC-0023; INV-VERIFY-001; DEC-0092; MASTER_PLAN §§5.8–5.9,14; existing BEAT-035/036/037 and transition to BEAT-038 (teaching bridge, no new observed event)
 
-#### S75 — Agent의 실행 조건은 어디에서 오는가?
+#### S75 — 작업 중 사람이 보정할 일이 생긴다면?
 
 - **Slide ID:** S75
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** Agent의 실행 조건은 어디에서 오는가?
-- **Primary Role:** 저장소 안의 정보와 저장소 밖에서 적용되는 조건을 한 실행 관계로 보여준다.
-- **Audience Question:** “같은 Repository를 열어도, 실행에 적용되는 조건은 모두 같을까요?”
-- **Core Message:** Agent 실행에는 Repository의 코드·지침·문서와 별도로 전역 지침·Skills, 모델·설정, 허용 권한 같은 조건이 적용될 수 있다. 새 프로젝트에 연결할 때 적용 여부를 확인한다.
+- **Working Title:** 작업 중 사람이 보정할 일이 생긴다면?
+- **Primary Role:** 운영 중 사람이 검증 범위를 보완하는 교육용 상황을 하나만 제시한다.
+- **Audience Question:** “변경한 부분은 확인했지만, 사람이 관련 동작도 확인해 달라고 해야 한다면?”
+- **Core Message:** 추가 확인이 필요하다는 점을 사람이 발견해 이번 요청을 보정하는 상황을 가정한다. 무엇이 이 빈틈을 만들었는지와 어느 출처를 바꿔야 하는지는 아직 판단하지 않는다.
 - **Story Beat:** BEAT-033, BEAT-036
-- **Curriculum Trace:** ACT 3 — reusable Harness foundation, project bindings, and execution-condition literacy. Existing Section/Beat identities retained.
-- **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL / REQUIRES PRODUCT CHECK — 적용 관계의 모델이며 정확한 로딩 순서·전체 설정 목록·통제 환경 비교가 아니다. 대상 제품·계정·권한은 별도 확인한다.
-- **Visual Concept:** 왼쪽 Repository 안의 코드/AGENTS.md/문서/Skill은 중앙 Agent로 실선 연결한다. 오른쪽 Repository 밖 조건은 점선과 적용 확인 라벨로 연결해 개념 관계와 실제 확인을 구분한다.
-- **Demo / Case Connection:** N/A — 교육용 적용 모델. 다른 프로젝트의 실제 이식·비교 실험이 아니다.
-- **Beginner Payoff:** 같은 저장소만 전달했다고 모든 작업 조건이 같아지는 것은 아니다.
-- **Advanced Payoff:** 재사용 기반에 프로젝트 정보와 실행 조건을 연결하고 적용 출처를 확인한다.
-- **C++ Vision Bridge:** N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
-- **Speaker Intent:** 저장소 안의 정보와 저장소 밖에서 적용되는 조건을 한 실행 관계로 보여준다. 한 장의 질문만 설명하고 ACT4의 개선 과정·후속 검증을 앞에서 소진하지 않는다.
-- **Transition:** “이런 저장소 밖 지침이 실제 작업에도 포함됐던 기록을 보겠습니다.”
+- **Curriculum Trace:** ACT 3 closing: working Harness → human task correction → no durable feedback → evidence and ownership questions → ACT4. No observed Product Loop. Existing Section/Beat IDs and per-page allocation remain.
+- **Evidence Type:** CONCEPTUAL
+- **Claim Status:** CONCEPTUAL — 추가 확인을 요청한다는 교육용 가정이다. 실제 graypipe의 검증 누락·실패나 새 Trial이 아니며 Agent·지침·제품 코드 중 어느 것이 원인인지 확정하지 않는다.
+- **Visual Concept:** Agent 작업의 변경한 부분 확인→사람의 관련 동작 질문→관련 동작도 확인해 달라는 추가 요청의 세 영역이다. 개념 사례의 점선·라벨을 사용하며 실행 Screenshot이나 PASS/FAIL 결과를 만들지 않는다.
+- **Demo / Case Connection:** 새 Trial·Demo 실행 없음. 반복 보정은 교육용 가정/모델이며 ACT4의 DEMO-04A/04B를 실제로 수행한 이력으로 만들지 않는다.
+- **Beginner Payoff:** 사람이 한 번 더 확인을 요청하는 장면에서 이야기를 시작한다.
+- **Advanced Payoff:** 관찰할 빈틈과 원인 가설·변경 대상의 확정을 구분한다. 이후 ACT4에서 원인 확인과 평가 범위를 다룬다.
+- **C++ Vision Bridge:** N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
+- **Speaker Intent:** 운영 중 사람이 검증 범위를 보완하는 교육용 상황을 하나만 제시한다. 외부 지침·권한·경고의 목록을 주제로 삼지 않는다. 운영 경험을 다음 작업의 개선으로 돌리지 못하는 문제를 중심에 둔다.
+- **Transition:** “이번 요청에 그 말을 더하면, 다음에도 읽을 공통 수행 지침까지 바뀔까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001
+- **Evidence / Decision References:** INV-NARRATIVE-001; INV-VERIFY-001; DEC-0092; MASTER_PLAN §§5.8–5.9,14; existing BEAT-035/036/037 and transition to BEAT-038 (teaching bridge, no new observed event)
 
-#### S76 — 실제 성능 조사에도 저장소 밖 지침이 들어왔다
+#### S76 — 이번 요청은 보정해도, 공통 지침은 그대로다
 
 - **Slide ID:** S76
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 실제 성능 조사에도 저장소 밖 지침이 들어왔다
-- **Primary Role:** TRIAL-006에서 실제 전역 Skill 포함과 작업 관여를 확인한 범위만 보여준다.
-- **Audience Question:** “저장소에 넣지 않은 수행 지침이 실제 작업에도 관여했을까요?”
-- **Core Message:** TRIAL-006 Resize 성능 조사에서는 전역 Skill 본문이 포함됐고 평가 상태 작성·추가 동작 검증 같은 관여가 기록됐다. Hook 설정·MCP 연결 경고는 별도 시작 관찰이다.
+- **Working Title:** 이번 요청은 보정해도, 공통 지침은 그대로다
+- **Primary Role:** 현재 요청의 범위 보정과 다음 작업에 재사용할 원본 체계의 변경을 분리한다.
+- **Audience Question:** “대화에서 관련 동작도 확인하라고 더한 것이, 공통 수행 방법을 갱신한 것과 같을까요?”
+- **Core Message:** 이번 요청의 검증 범위를 보정해도 공통 지침을 따로 갱신하지 않은 상황이라면, 다음 작업이 읽는 수행 방법은 이전 상태로 남는다. 현재 Task 보정과 재사용 체계 개선은 별도다.
 - **Story Beat:** BEAT-033, BEAT-036
-- **Curriculum Trace:** ACT 3 — reusable Harness foundation, project bindings, and execution-condition literacy. Existing Section/Beat identities retained.
-- **Evidence Type:** OBSERVED_META
-- **Claim Status:** FROZEN WITH SCOPE — 실제 전역 Skill 포함·일부 작업 관여를 보존한다. Hook 실행·MCP 작업 결과·전체 환경 감사·각 요소의 성능 인과효과·현재 Desktop 재현은 미입증이다.
-- **Visual Concept:** 전역 Skill에서 실제 작업 기록으로 이어지는 두 영역과 아래 별도의 시작 경고 줄을 둔다. Skill 이름4개나 로그 전문을 본문에 나열하지 않는다. 실제 CLI 기록의 의미 재구성이다.
-- **Demo / Case Connection:** TRIAL-006 관찰의 교육용 설명. DEMO-04B의 실제 평가·보고 개선 이력은 ACT4에 보존한다.
-- **Beginner Payoff:** 프로젝트 밖에 있던 일하는 방법도 작업에 포함될 수 있다.
-- **Advanced Payoff:** Skill 포함과 관찰된 절차 변경은 보존하면서 단독 성능 원인으로 확대하지 않는다.
-- **C++ Vision Bridge:** N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
-- **Speaker Intent:** TRIAL-006에서 실제 전역 Skill 포함과 작업 관여를 확인한 범위만 보여준다. 한 장의 질문만 설명하고 ACT4의 개선 과정·후속 검증을 앞에서 소진하지 않는다.
-- **Transition:** “시작에 나온 경고와 실제 작업에 사용된 기록은, 같은 근거일까요?”
+- **Curriculum Trace:** ACT 3 closing: working Harness → human task correction → no durable feedback → evidence and ownership questions → ACT4. No observed Product Loop. Existing Section/Beat IDs and per-page allocation remain.
+- **Evidence Type:** CONCEPTUAL
+- **Claim Status:** CONCEPTUAL — 공통 지침을 갱신하지 않은 경우의 비교다. 실제 요청·원본 지침 변경 이력이 아니며 지침이 누락 원인이라고 단정하거나 보정 성공을 주장하지 않는다.
+- **Visual Concept:** 왼쪽 이번 요청에 관련 동작 확인 문장을 넣고 현재 작업의 검증 범위를 보정했다고 표시한다. 오른쪽 다음에도 읽을 공통 지침은 이전 수행 방법 그대로라는 별도 영역이다. 두 영역의 대상을 큰 제목으로 구분한다.
+- **Demo / Case Connection:** 새 Trial·Demo 실행 없음. 반복 보정은 교육용 가정/모델이며 ACT4의 DEMO-04A/04B를 실제로 수행한 이력으로 만들지 않는다.
+- **Beginner Payoff:** 이번 대화에 더한 말과 다음 작업이 다시 읽는 지침은 다르다.
+- **Advanced Payoff:** 일회 요청의 수정이 시스템의 영속적 출처 변경을 뜻하지 않는다. 어떤 출처를 바꿀지는 후속 원인 확인으로 결정해야 한다.
+- **C++ Vision Bridge:** N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
+- **Speaker Intent:** 현재 요청의 범위 보정과 다음 작업에 재사용할 원본 체계의 변경을 분리한다. 외부 지침·권한·경고의 목록을 주제로 삼지 않는다. 운영 경험을 다음 작업의 개선으로 돌리지 못하는 문제를 중심에 둔다.
+- **Transition:** “공통 지침은 그대로인데, 다음 작업에서도 비슷한 확인이 필요하면 어떻게 될까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0091; TRIAL-006, DEC-0016, DEC-0021, DEC-0077, INV-DEMO-003
+- **Evidence / Decision References:** INV-NARRATIVE-001; INV-VERIFY-001; DEC-0092; MASTER_PLAN §§5.8–5.9,14; existing BEAT-035/036/037 and transition to BEAT-038 (teaching bridge, no new observed event)
 
-#### S77 — 시작 경고와 실제 사용은 구분해서 확인한다
+#### S77 — 다음 작업에서도 같은 보정이 반복된다면?
 
 - **Slide ID:** S77
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 시작 경고와 실제 사용은 구분해서 확인한다
-- **Primary Role:** 경고가 알려 주는 범위와 실제 호출·작업 기록이 알려 주는 범위를 나눈다.
-- **Audience Question:** “시작 경고가 있었다면, 그 도구를 작업에 썼다고 말할 수 있을까요?”
-- **Core Message:** 시작 경고만으로 Hook 실행이나 MCP 작업 사용을 확정할 수 없다. 반면 전역 Skill의 평가 상태 작성·추가 검증 관여는 해당 작업 기록으로 확인했다.
+- **Working Title:** 다음 작업에서도 같은 보정이 반복된다면?
+- **Primary Role:** 사람이 반복 보정하지만 다음 작업의 수행 체계는 그대로라는 피드백 단절을 드러낸다.
+- **Audience Question:** “작업이 바뀔 때마다 같은 보정을 사람이 다시 해야 한다면, 무엇이 축적되지 않은 걸까요?”
+- **Core Message:** 공통 수행 지침을 갱신하지 않은 교육용 상황에서 작업 A/B/C마다 사람이 같은 확인을 추가로 요청한다. 사람의 경험이 다음 작업에 쓸 체계의 개선으로 돌아오지 않는 문제가 남는다.
 - **Story Beat:** BEAT-033, BEAT-036
-- **Curriculum Trace:** ACT 3 — reusable Harness foundation, project bindings, and execution-condition literacy. Existing Section/Beat identities retained.
-- **Evidence Type:** OBSERVED_META
-- **Claim Status:** FROZEN WITH SCOPE — Hook 설정 경고는 실행·소스 변경 증거가 아니다. MCP 시작/인증 오류는 작업 호출·결과 사용 증거가 아니다. 실제 관찰한 Skill 관여와 기록된 결과 범위는 유지한다.
-- **Visual Concept:** 왼쪽 점선 영역은 시작 경고와 MCP 호출 기록 없음, 오른쪽 실선 영역은 전역 Skill의 실제 작업 관여를 보여준다. 색·선·문구를 함께 사용하고 전부 미확인으로 되돌리지 않는다.
-- **Demo / Case Connection:** TRIAL-006 관찰의 교육용 설명. DEMO-04B의 실제 평가·보고 개선 이력은 ACT4에 보존한다.
-- **Beginner Payoff:** 경고가 뜬 사실과 실제로 작업에 사용한 사실을 구분한다.
-- **Advanced Payoff:** 존재·본문 포함·호출·결과·기여를 관찰 근거에 따라 구분하되 알려진 관여를 잃지 않는다.
-- **C++ Vision Bridge:** N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
-- **Speaker Intent:** 경고가 알려 주는 범위와 실제 호출·작업 기록이 알려 주는 범위를 나눈다. 한 장의 질문만 설명하고 ACT4의 개선 과정·후속 검증을 앞에서 소진하지 않는다.
-- **Transition:** “이 차이를 다음 프로젝트에서도 확인하려면 무엇을 함께 남기면 좋을까요?”
+- **Curriculum Trace:** ACT 3 closing: working Harness → human task correction → no durable feedback → evidence and ownership questions → ACT4. No observed Product Loop. Existing Section/Beat IDs and per-page allocation remain.
+- **Evidence Type:** CONCEPTUAL
+- **Claim Status:** CONCEPTUAL — 작업 A/B/C는 반복을 설명하는 도식이며 실제 Trial·Subagent·비교 실험이 아니다. 반복 횟수·토큰·시간·성과를 측정하지 않았고 원인은 미확정이다.
+- **Visual Concept:** 상단의 변하지 않은 공통 지침 아래에 시간상 이어지는 작업 A/B/C와 동일한 사람의 보정을 반복 배치한다. 대화의 반복과 공통 체계의 정체를 동시에 보이며 결과 수치나 성공 체크를 쓰지 않는다.
+- **Demo / Case Connection:** 새 Trial·Demo 실행 없음. 반복 보정은 교육용 가정/모델이며 ACT4의 DEMO-04A/04B를 실제로 수행한 이력으로 만들지 않는다.
+- **Beginner Payoff:** 매번 사람이 같은 말을 다시 해야 하는 문제가 눈에 보인다.
+- **Advanced Payoff:** Task 간에 개선 지식이 전달되지 않는 구조적 빈틈을 식별한다. 원인·지속 출처·평가 대상은 아직 열어 둔다.
+- **C++ Vision Bridge:** N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
+- **Speaker Intent:** 사람이 반복 보정하지만 다음 작업의 수행 체계는 그대로라는 피드백 단절을 드러낸다. 외부 지침·권한·경고의 목록을 주제로 삼지 않는다. 운영 경험을 다음 작업의 개선으로 돌리지 못하는 문제를 중심에 둔다.
+- **Transition:** “이 경험으로 다음 작업의 체계를 바꾸려면, 무엇을 근거로 어디를 고칠지 판단해야 할까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0091; TRIAL-006, DEC-0016, DEC-0021, DEC-0077, INV-DEMO-003
+- **Evidence / Decision References:** INV-NARRATIVE-001; INV-VERIFY-001; DEC-0092; MASTER_PLAN §§5.8–5.9,14; existing BEAT-035/036/037 and transition to BEAT-038 (teaching bridge, no new observed event)
 
-#### S78 — 결과와 실행 조건을 함께 남긴다
+#### S78 — 반복 보정을 개선으로 잇는 기록
 
 - **Slide ID:** S78
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 결과와 실행 조건을 함께 남긴다
-- **Primary Role:** 다음 프로젝트에서도 출발점을 이해할 수 있도록 남길 간단한 기록 틀을 제시한다.
-- **Audience Question:** “다음 사람이 이 작업 체계를 쓸 때, 어떤 조건과 근거를 함께 볼 수 있어야 할까요?”
-- **Core Message:** 무슨 작업을 했고 어떤 실행 조건을 확인했으며 어떤 테스트·측정 근거와 미확인이 남았는지 함께 기록하면 재사용할 기반의 적용 범위를 판단할 수 있다.
+- **Working Title:** 반복 보정을 개선으로 잇는 기록
+- **Primary Role:** 반복 보정을 체계의 개선으로 잇기 위해 필요한 비교 근거를 정리하고 원인·변경·재평가 질문을 연다.
+- **Audience Question:** “보정한 문장만으로, 코드·지침·도구·검증 중 무엇을 고칠지 알 수 있을까요?”
+- **Core Message:** 원래 기준과 적용 지침, 실제 수행·검증 범위, 사람이 보정한 내용을 함께 남겨야 무엇이 달랐는지 비교할 수 있다. 그 기록을 근거로 원인과 변경 대상을 판단하고 다시 확인할 필요가 생긴다.
 - **Story Beat:** BEAT-035, BEAT-036
-- **Curriculum Trace:** ACT 3 — reusable Harness foundation, project bindings, and execution-condition literacy. Existing Section/Beat identities retained.
+- **Curriculum Trace:** ACT 3 closing: working Harness → human task correction → no durable feedback → evidence and ownership questions → ACT4. No observed Product Loop. Existing Section/Beat IDs and per-page allocation remain.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — 권장 기록 항목의 예다. 실제 새 보고서·완전한 환경 감사·기록 품질 향상은 검증하지 않았다. 실제 평가·보고 기준 변경 과정은 ACT4에서 기존 분량대로 다룬다.
-- **Visual Concept:** 작업/실행 조건/확인 근거의 세 행을 하나의 편집 가능한 기록 틀로 보여준다. 실제 완료 보고서·Screenshot·새 실행 결과로 보이지 않도록 교육용이라고 표시한다.
-- **Demo / Case Connection:** N/A — 교육용 적용 모델. 다른 프로젝트의 실제 이식·비교 실험이 아니다.
-- **Beginner Payoff:** 좋은 결과만 저장하지 말고 확인한 조건과 모르는 점도 함께 남긴다.
-- **Advanced Payoff:** 재사용 단위에 출처·실행 조건·검증 근거를 연결하되 확인하지 않은 목록을 완료로 채우지 않는다.
-- **C++ Vision Bridge:** N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
-- **Speaker Intent:** 다음 프로젝트에서도 출발점을 이해할 수 있도록 남길 간단한 기록 틀을 제시한다. 한 장의 질문만 설명하고 ACT4의 개선 과정·후속 검증을 앞에서 소진하지 않는다.
-- **Transition:** “이제 우리 팀에서 다음 프로젝트에도 남겨 쓸 기반 한 가지와 유지할 책임을 생각해 보겠습니다.”
+- **Claim Status:** TEACHING MODEL — 개선 검토에 필요한 기록 틀이다. 실제 새 보고서·원인 확정·지침 갱신·재평가·품질 향상을 입증하지 않으며 AI 모델의 자동 학습을 뜻하지 않는다.
+- **Visual Concept:** 왼쪽 하나의 기록 틀에 기준과 지침/실제 수행/사람의 보정을 정렬한다. 오른쪽은 원인·변경 위치·재확인에 대한 세 질문이며 답을 미리 채우지 않는다. 상단은 보정 문장만으로 판단하기 어려움, 하단은 다음 작업의 체계 검토 필요다.
+- **Demo / Case Connection:** 새 Trial·Demo 실행 없음. 반복 보정은 교육용 가정/모델이며 ACT4의 DEMO-04A/04B를 실제로 수행한 이력으로 만들지 않는다.
+- **Beginner Payoff:** 누가 무엇을 보정했는지뿐 아니라 원래 기준과 실제 수행도 함께 보아야 한다.
+- **Advanced Payoff:** 사람의 보정을 바로 새 규칙으로 바꾸지 않고, 원인을 가려 적절한 출처를 변경하고 재평가할 증거로 다룬다.
+- **C++ Vision Bridge:** N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
+- **Speaker Intent:** 반복 보정을 체계의 개선으로 잇기 위해 필요한 비교 근거를 정리하고 원인·변경·재평가 질문을 연다. 외부 지침·권한·경고의 목록을 주제로 삼지 않는다. 운영 경험을 다음 작업의 개선으로 돌리지 못하는 문제를 중심에 둔다.
+- **Transition:** “우리 업무에서 매번 사람이 보정하는 하나를 골라, 어떤 근거와 담당이 필요한지 생각해 보겠습니다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001
+- **Evidence / Decision References:** INV-NARRATIVE-001; INV-VERIFY-001; DEC-0092; MASTER_PLAN §§5.8–5.9,14; existing BEAT-035/036/037 and transition to BEAT-038 (teaching bridge, no new observed event)
 - **Practical Tip Classification:** 수행 방법
 
-#### S79 — 우리 업무에서 먼저 정리할 한 가지
+#### S79 — 같은 보정을 되풀이하지 않으려면?
 
 - **Slide ID:** S79
 - **ACT:** ACT 3
 - **Section:** 3I Discussion / Reflection / Transition
-- **Working Title:** 우리 업무에서 먼저 정리할 한 가지
-- **Primary Role:** 개인 선택과 유지 책임을 회수한 뒤 재검토 시점으로 ACT4를 연다.
-- **Audience Question:** “다음 프로젝트에도 남겨 쓸 안내·절차·확인 기준 중 무엇 하나를 먼저 정리하고, 어디에 연결하며 누가 유지하면 좋을까요?”
-- **Core Message:** 재사용할 안내·절차·확인 기준 중 현재 마찰 하나를 고르고, 공통 기반을 둘 위치와 프로젝트별 연결, 검토·갱신 책임을 판단한다. 성공한 기반의 가치를 유지하며 다음 ACT의 변화·유지 질문을 연다.
+- **Working Title:** 같은 보정을 되풀이하지 않으려면?
+- **Primary Role:** 우리 업무의 반복 보정 하나에서 증거·검토 책임·다음 작업 반영의 필요를 생각하고 ACT4의 개선 과정으로 넘긴다.
+- **Audience Question:** “우리 팀에서 사람이 되풀이하는 보정 하나는 무엇이며, 무엇을 근거로 누가 다시 확인해야 할까요?”
+- **Core Message:** 다시 알려주는 정보·다시 지시하는 절차·빠뜨린 확인 기준 중 반복 보정 하나를 고른다. 그 근거와 원래 출처, 검토·갱신·재확인 책임을 생각하고 다음 작업에 반영할 개선 과정이 필요한 이유를 회수한다.
 - **Story Beat:** BEAT-035–037, BEAT-038로의 전환
-- **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.; ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.; ACT 4 — conceptual stale-Harness case.
+- **Curriculum Trace:** ACT 3 closing: working Harness → human task correction → no durable feedback → evidence and ownership questions → ACT4. No observed Product Loop. Existing Section/Beat IDs and per-page allocation remain.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행113장 구조; TEACHING_MODEL; Subagent와 Memory는 조건부 선택이다. Verification은 실제 작업의 필요와 위험에 맞춰 둔다.
-- **Visual Concept:** 기존 세 후보→하나만 선택→위치/검토·갱신 책임의 편집 가능한 배치를 유지한다. 후보는 재사용할 안내/재사용할 절차/확인할 기준이며 프로젝트별 연결 위치와 다시 확인할 때를 묻는다.
-- **Demo / Case Connection:** STATE-04-PERF에서 Subagent와 Memory 없이 성공한 bounded Harness를 회고한다.
-- **Beginner Payoff:** 자기 업무에서 먼저 고칠 반복 마찰 하나를 생각해 본다.
-- **Advanced Payoff:** 필요한 구조를 증거와 비용에 따라 선택하고 불필요한 구성은 보류한다.
-- **C++ Vision Bridge:** N/A — 삭제한 독립 C++ 전이를 전제로 하지 않는다. 각자의 프로젝트를 생각하되 구체적 도구·표준은 정하지 않는다.
-- **Speaker Intent:** S78의 적용 범위 기록에서 청중 자신의 재사용 기반 한 가지와 위치·유지 책임으로 회수한다. Reflection3→Q&A5→Transition2는 유지한다. ACT4 S80 제목 뒤 S81의 실제 성공 회수와 기존 가상 유지 문제로 이어간다. ACT4의 설명·구성·시간은 축소하지 않는다.
-- **Transition:** “다음 프로젝트에도 쓸 기반과 유지할 책임을 생각해 봤습니다. 이제 확인한 성공을 기준점으로 두고, 그 방법을 계속 맞게 유지하는 문제로 넘어가겠습니다.” ACT4 제목 S80을 거쳐 S81의 기존 첫 문제로 이어간다.
+- **Claim Status:** TEACHING MODEL — 개인 성찰이며 작성·실습·공개 답변을 요구하지 않는다. 실제 누락 원인·수정 대상·담당·재평가 결과를 확정하지 않는다. ACT4의 구성·시간·관찰/가상 경계를 유지한다.
+- **Visual Concept:** 세 후보에서 반복 보정 하나 선택으로 모은 다음 근거·출처와 검토·재확인 책임의 두 질문으로 나눈다. 하단에 다음 ACT의 원인 확인·체계 변경·재평가를 명시해 Loop가 필요한 이유를 화면에서 읽게 한다.
+- **Demo / Case Connection:** 새 Trial·Demo 실행 없음. 반복 보정은 교육용 가정/모델이며 ACT4의 DEMO-04A/04B를 실제로 수행한 이력으로 만들지 않는다.
+- **Beginner Payoff:** 매번 사람이 다시 하는 보정 한 가지를 자기 업무에서 떠올린다.
+- **Advanced Payoff:** 반복 보정의 근거·적용 범위·원래 출처와 검토·재평가 책임을 분리해 생각한다.
+- **C++ Vision Bridge:** N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
+- **Speaker Intent:** 우리 업무의 반복 보정 하나에서 증거·검토 책임·다음 작업 반영의 필요를 생각하고 ACT4의 개선 과정으로 넘긴다. 외부 지침·권한·경고의 목록을 주제로 삼지 않는다. 운영 경험을 다음 작업의 개선으로 돌리지 못하는 문제를 중심에 둔다.
+- **Transition:** “만든 기반은 재사용할 수 있습니다. 이제 사람이 반복해서 보정한 경험을 다음 작업의 개선으로 되돌리는 방법을 보겠습니다.” ACT4 제목 S80을 거쳐 S81의 기존 실제 성공 회수와 별도 가상 유지 사례로 이어간다.
 - **Estimated Time:** 10분
 - **Delivery Mode Allocation:** Reflection 3분 + Q&A 5분 + Transition 2분 = 10분
-- **Evidence / Decision References:** BEAT-035, BEAT-038, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0021, INV-MATURITY-010, BEAT-036, BEAT-037, DEC-0062, INV-DELIVERY-001, DEC-0079, DEC-0080
+- **Evidence / Decision References:** INV-NARRATIVE-001; INV-VERIFY-001; DEC-0092; MASTER_PLAN §§5.8–5.9,14; existing BEAT-035/036/037 and transition to BEAT-038 (teaching bridge, no new observed event)
 
 ### ACT 4
 

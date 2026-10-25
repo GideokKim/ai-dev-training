@@ -68,7 +68,7 @@ const titleConfig=JSON.parse(await fs.readFile(path.join(here,'act-titles.json')
 // two source pages with seven and preserves every ACT4 page and allocation.
 const current=migrate108Factories(migrate99Factories(factories,tipConfig));
 for(const id of Object.keys(factories))delete factories[id];
-Object.assign(factories,current,harnessReuseFactories(current),practicalTipIndexFactories(tipConfig,H),actTitleFactories(titleConfig,H));
+Object.assign(factories,current,harnessReuseFactories(),practicalTipIndexFactories(tipConfig,H),actTitleFactories(titleConfig,H));
 const tipRecords=Object.fromEntries(tipConfig.tips.map(t=>[t.slideId,t]));
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
 if(moduleMap.slides.length!==113)throw new Error('Expected 113 legacy module mappings.');

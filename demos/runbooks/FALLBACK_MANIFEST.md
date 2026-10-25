@@ -1,24 +1,26 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0091 local static-file inventory only (2026-10-25).
+Status: READY — DEC-0092 local static-file inventory only (2026-10-25).
 Windows/product/account/room/timed rehearsal: UNVERIFIED.
 
 ## Current source identities
 
 - Source: production/AI_Dev_Training_Full.pptx
-- Source SHA-256: ab59f11cb9bbf374cad8e2483022d2159327bc7bf68cc6fda61a164322e59c83
-- Full Notes SHA-256: 832d755e1899664f1e7ca997b9d5a34874113acb18e086ca2dd620d52d5dd7b9
-- Full montage SHA-256: 072951d5054312f58b9d1cc121c5f0d48d421aa8915d50b9aea22ccd9b34ff2c
+- Source SHA-256: 0c7f4fb164cb41b420d05bd718858f5c9124dce5a7931bcdfb41ad79a174b727
+- Full Notes SHA-256: 1dca39ef3ca98701cc601c1646222a5f997bab939e89f6088cf095937ce9d54c
+- Full montage SHA-256: fccd9d86fe9ffd4ac5c266330074de7cc0958153f2a5d5e488b7c9739daa7af3
 - Current Full:113slides/402minutes; unchanged Demo inventory:34PNGs.
 - Current ACT4:19pages/81minutes, original Mode/roles/evidence preserved.
-- Current IDs follow SLIDE_ID_MIGRATION_113.md. New S72-S78 use Lecture;
-  they introduce no Trial, additional Demo minute or current-product approval.
+- Current IDs remain those of SLIDE_ID_MIGRATION_113.md. DEC-0092 changes
+  S74-S79 without renumbering. S75-S77 are a separate conceptual correction
+  scenario, excluded from this unchanged observed-Demo inventory.
+- No new Trial, additional Demo minute or current-product approval.
 - New local static explanatory pages are available through their Notes paths,
   separately from this unchanged34-file Demo inventory.
 - Native fonts Malgun Gothic/Consolas; local aliases AppleSDGothicNeo/Menlo.
 - Final package/Notes/ACT/PNG parity and34paths/hashes checked locally.
 - Earlier provenance below retains its dated edition. No presenter bundle.
-- [Result](../../production/evaluation/HARNESS_REUSE_REVISION.md).
+- [Result](../../production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md).
 
 ## Historical provenance — DEC-0086 and earlier
 

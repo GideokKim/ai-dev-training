@@ -1,6 +1,6 @@
 # Legacy Module Connection Map
 
-Current table: DEC-0091 /113slide IDs. Keep retained assignments; replace former S72/S73 with7paced explanation pages. The independent C++ transfer is removed. Current IDs follow SLIDE_ID_MIGRATION_113.md; earlier prose retains its edition.
+Current table: DEC-0092 /113slide IDs. S74-S79 now connect repeated human corrections to the improvement Loop; the following DEC-0091 explanation is historical. Keep retained assignments; replace former S72/S73 with7paced explanation pages. The independent C++ transfer is removed. Current IDs follow SLIDE_ID_MIGRATION_113.md; earlier prose retains its edition.
 
 
 ## 표시의 의미
@@ -17,7 +17,7 @@ M 연계는 현재 화면에서 직접 가르치는 원모듈의 개별 내용 �
 
 ## 기준과 반영 범위
 
-현재 표는 DEC-0091의113장 번호와 `plan/SLIDE_ID_MIGRATION_113.md`를 따른다. 기존102장의 M 연계는 동일하고3찾아보기는 원모듈 학습 내용을 추가하지 않는다. 아래 이전 번호 설명은 당시 판본이다. 신규 S91–S93은 확장3장이며 기존 M 연계는 이행표로 보존한다. 이전 DEC-0043의90장·82→90 및 DEC-0060의90→93 이행과 최초80장 감사는 역사 기록이다.
+현재 표는 DEC-0092의113장 번호와 `plan/SLIDE_ID_MIGRATION_113.md`를 따른다. 기존102장의 M 연계는 동일하고3찾아보기는 원모듈 학습 내용을 추가하지 않는다. 아래 이전 번호 설명은 당시 판본이다. 신규 S91–S93은 확장3장이며 기존 M 연계는 이행표로 보존한다. 이전 DEC-0043의90장·82→90 및 DEC-0060의90→93 이행과 최초80장 감사는 역사 기록이다.
 
 - 기준: `research_notes/legacy 강의 자료/legacy.md`, `production/evaluation/LEGACY_M1_M9_COVERAGE_AUDIT.md`의 80장 역방향표, 현재 PPT에서 추출한 실제 화면 텍스트와 Notes.
 - 기존 감사 문서는 보완 전 상태를 기록한다. 이 맵은 사용자 승인에 따라 S07 입력·접근 경계, S16 수용조건, S20 결과 인계, S21 검증 반례를 반영한 제작 기준을 포함한다.
@@ -27,7 +27,7 @@ M 연계는 현재 화면에서 직접 가르치는 원모듈의 개별 내용 �
 
 ## 집계
 
-한 슬라이드에 여러 모듈이 연결될 수 있어 모듈별 합계는108과 다르다. 아래 수치는 완성률이 아니다.
+한 슬라이드에 여러 모듈이 연결될 수 있어 모듈별 합계는113과 다르다. 아래 수치는 완성률이 아니다.
 
 | 모듈 | 연결된 슬라이드 수 |
 |---|---:|
@@ -35,19 +35,21 @@ M 연계는 현재 화면에서 직접 가르치는 원모듈의 개별 내용 �
 | M2 | 41 |
 | M3 | 0 |
 | M4 | 3 |
-| M5 | 18 |
-| M6 | 33 |
+| M5 | 17 |
+| M6 | 34 |
 | M7 | 0 |
-| M8 | 11 |
+| M8 | 14 |
 | M9 | 3 |
 
 | 범위 | 슬라이드 수 |
 |---|---:|
 | direct | 25 |
-| principle | 52 |
-| new_extension | 36 |
+| principle | 54 |
+| new_extension | 34 |
 
-## 보수적으로 판정한 경계
+## 이전 판본의 보수적 판정 예시 — 번호·역할은 역사적 범위
+
+현재 판정은 아래113개 행과 JSON을 따른다. S74–S79는 DEC-0092의 반복 보정·기록·책임 원리로 갱신했다. 아래 이전 예시의 S78 성능 설명 등을 현재 S78에 적용하지 않는다.
 
 - **M3와 M7은 화면 연결을 배정하지 않았다.** S39의 연구 Evidence 소개는 리서치·보고서 작성 수업이 아니며 Repository 탐색·문서 경로는 AI 멘토링·온보딩 자료 생성 수업이 아니다.
 - **S36–43·S45:** 고정 Context와 이름상 연결되어도 주요 교수 내용은 정보량·관련성·Routing이라는 현행 확장이다. S41–42의 architecture 문서를 M4/M9 아키텍처 설계로 계산하지 않는다.
@@ -136,12 +138,12 @@ M 연계는 현재 화면에서 직접 가르치는 원모듈의 개별 내용 �
 | S71 | M 연계 · 신규 확장 | new_extension | Harness를 개발자와 Agent의 작업 환경 설계로 정의한다. 제품 시스템 아키텍처와 별도인 현행 운영 모델이다. DEC-0062: 앞 장의 실제 구성 목록을 전체 작업 관계로 묶어 Harness 정의를 완성한다. DEC-0076: connect goal/Context/Skill, Agent, verification and shared execution environment as the bounded course Harness model; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
 | S72 | M 연계 · 신규 확장 | new_extension | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
 | S73 | M 연계 · 신규 확장 | new_extension | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
-| S74 | M 연계 · 신규 확장 | new_extension | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
-| S75 | M 연계 · M2 · M6 | principle | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
-| S76 | M 연계 · M2 · M6 | principle | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
-| S77 | M 연계 · M2 · M6 | principle | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
-| S78 | M 연계 · 신규 확장 | new_extension | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
-| S79 | M 연계 · M2 · M8 | principle | 반복되는 사실과 절차를 찾아 현재 필요한 구조를 묻는다. 반복 비용을 줄일 투자 지점의 성찰이며 정량 자동화 우선순위표는 아니다. DEC-0062: 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다. DEC-0079: choose one recurring need, a maintained location and review/update responsibility; retain reflection boundaries and module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
+| S74 | M 연계 · M6 | principle | DEC-0092: 밝기 통계 작업의 성공은 기록된 명세·코드·입력·환경에서 확인한 결과다. 그 성공만으로 이후 모든 작업의 요구와 검증 범위를 확인한 것은 아니다. 원모듈 전체 이수·새 실행·실제 반복 실패나 개선 성과를 뜻하지 않는다. |
+| S75 | M 연계 · M6 | principle | DEC-0092: 추가 확인이 필요하다는 점을 사람이 발견해 이번 요청을 보정하는 상황을 가정한다. 무엇이 이 빈틈을 만들었는지와 어느 출처를 바꿔야 하는지는 아직 판단하지 않는다. 원모듈 전체 이수·새 실행·실제 반복 실패나 개선 성과를 뜻하지 않는다. |
+| S76 | M 연계 · M2 · M8 | principle | DEC-0092: 이번 요청의 검증 범위를 보정해도 공통 지침을 따로 갱신하지 않은 상황이라면, 다음 작업이 읽는 수행 방법은 이전 상태로 남는다. 현재 Task 보정과 재사용 체계 개선은 별도다. 원모듈 전체 이수·새 실행·실제 반복 실패나 개선 성과를 뜻하지 않는다. |
+| S77 | M 연계 · M8 | principle | DEC-0092: 공통 수행 지침을 갱신하지 않은 교육용 상황에서 작업 A/B/C마다 사람이 같은 확인을 추가로 요청한다. 사람의 경험이 다음 작업에 쓸 체계의 개선으로 돌아오지 않는 문제가 남는다. 원모듈 전체 이수·새 실행·실제 반복 실패나 개선 성과를 뜻하지 않는다. |
+| S78 | M 연계 · M6 · M8 | principle | DEC-0092: 원래 기준과 적용 지침, 실제 수행·검증 범위, 사람이 보정한 내용을 함께 남겨야 무엇이 달랐는지 비교할 수 있다. 그 기록을 근거로 원인과 변경 대상을 판단하고 다시 확인할 필요가 생긴다. 원모듈 전체 이수·새 실행·실제 반복 실패나 개선 성과를 뜻하지 않는다. |
+| S79 | M 연계 · M2 · M8 | principle | DEC-0092: 다시 알려주는 정보·다시 지시하는 절차·빠뜨린 확인 기준 중 반복 보정 하나를 고른다. 그 근거와 원래 출처, 검토·갱신·재확인 책임을 생각하고 다음 작업에 반영할 개선 과정이 필요한 이유를 회수한다. 원모듈 전체 이수·새 실행·실제 반복 실패나 개선 성과를 뜻하지 않는다. |
 | S80 | M 연계 · ACT 안내 | new_extension | ACT 제목·부제를 안내하는 도입 표지이며 기존 M1–M9의 교수 연결을 추가하지 않는다. |
 | S81 | M 연계 · M5 · M6 | direct | 동작 계약·전체 테스트·성능 측정·guard로 확인한 제품 결과를 회수한다. 코드 변경을 검증 근거로 수용하는 원리를 명시한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
 | S82 | M 연계 · M6 | principle | 현재 프로젝트 검증 기준과 재사용 지시가 모두 단위 테스트인 가상 출발점을 둔다. 테스트 코드 작성이나 도구 사용 교육은 아니다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |

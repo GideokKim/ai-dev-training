@@ -1,5 +1,7 @@
 # ACT 3 Production Evaluation
 
+> Current content: DEC-0092 /113slides/402minutes. S74-S79 motivate ACT4 through repeated human corrections that do not update the next task’s shared system. S75-S77 are conceptual. ACT4 remains19pages/81minutes with identical package/screens/Notes. See [current revision](ACT3_LOOP_HANDOFF_REVISION.md); earlier evaluations retain their edition. External gates remain UNVERIFIED.
+
 > Current edition: DEC-0091 /113slides/402minutes. ACT3: 24slides/92minutes, S56–S79. Existing per-page budgets stay fixed outside the approved ACT3 replacement. See [scoped revision](HARNESS_REUSE_REVISION.md) and [108→113](../../plan/SLIDE_ID_MIGRATION_113.md). Dated audits below retain their edition; external gates UNVERIFIED.
 
 > Historical edition: DEC-0090 /108slides/396minutes. ACT3: 19slides/86minutes. Title S56 adds1Transition minute before the original body. See [ACT title result](ACT_TITLE_SLIDES.md) and [102→108](../../plan/SLIDE_ID_MIGRATION_108.md). Dated audits below retain their edition; external gates remain UNVERIFIED.

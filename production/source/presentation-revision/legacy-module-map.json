@@ -721,52 +721,55 @@
     },
     {
       "slideId": "S74",
-      "modules": [],
-      "scope": "new_extension",
-      "rationale": "DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다.",
+      "modules": [
+        "M6"
+      ],
+      "scope": "principle",
+      "rationale": "DEC-0092: 밝기 통계 작업의 성공은 기록된 명세·코드·입력·환경에서 확인한 결과다. 그 성공만으로 이후 모든 작업의 요구와 검증 범위를 확인한 것은 아니다. 원모듈 전체 이수·새 실행·실제 반복 실패나 개선 성과를 뜻하지 않는다.",
       "notesOnly": [],
-      "footerLabel": "M 연계 · 신규 확장"
+      "footerLabel": "M 연계 · M6"
     },
     {
       "slideId": "S75",
       "modules": [
-        "M2",
         "M6"
       ],
       "scope": "principle",
-      "rationale": "DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다.",
+      "rationale": "DEC-0092: 추가 확인이 필요하다는 점을 사람이 발견해 이번 요청을 보정하는 상황을 가정한다. 무엇이 이 빈틈을 만들었는지와 어느 출처를 바꿔야 하는지는 아직 판단하지 않는다. 원모듈 전체 이수·새 실행·실제 반복 실패나 개선 성과를 뜻하지 않는다.",
       "notesOnly": [],
-      "footerLabel": "M 연계 · M2 · M6"
+      "footerLabel": "M 연계 · M6"
     },
     {
       "slideId": "S76",
       "modules": [
         "M2",
-        "M6"
+        "M8"
       ],
       "scope": "principle",
-      "rationale": "DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다.",
+      "rationale": "DEC-0092: 이번 요청의 검증 범위를 보정해도 공통 지침을 따로 갱신하지 않은 상황이라면, 다음 작업이 읽는 수행 방법은 이전 상태로 남는다. 현재 Task 보정과 재사용 체계 개선은 별도다. 원모듈 전체 이수·새 실행·실제 반복 실패나 개선 성과를 뜻하지 않는다.",
       "notesOnly": [],
-      "footerLabel": "M 연계 · M2 · M6"
+      "footerLabel": "M 연계 · M2 · M8"
     },
     {
       "slideId": "S77",
       "modules": [
-        "M2",
-        "M6"
+        "M8"
       ],
       "scope": "principle",
-      "rationale": "DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다.",
+      "rationale": "DEC-0092: 공통 수행 지침을 갱신하지 않은 교육용 상황에서 작업 A/B/C마다 사람이 같은 확인을 추가로 요청한다. 사람의 경험이 다음 작업에 쓸 체계의 개선으로 돌아오지 않는 문제가 남는다. 원모듈 전체 이수·새 실행·실제 반복 실패나 개선 성과를 뜻하지 않는다.",
       "notesOnly": [],
-      "footerLabel": "M 연계 · M2 · M6"
+      "footerLabel": "M 연계 · M8"
     },
     {
       "slideId": "S78",
-      "modules": [],
-      "scope": "new_extension",
-      "rationale": "DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다.",
+      "modules": [
+        "M6",
+        "M8"
+      ],
+      "scope": "principle",
+      "rationale": "DEC-0092: 원래 기준과 적용 지침, 실제 수행·검증 범위, 사람이 보정한 내용을 함께 남겨야 무엇이 달랐는지 비교할 수 있다. 그 기록을 근거로 원인과 변경 대상을 판단하고 다시 확인할 필요가 생긴다. 원모듈 전체 이수·새 실행·실제 반복 실패나 개선 성과를 뜻하지 않는다.",
       "notesOnly": [],
-      "footerLabel": "M 연계 · 신규 확장"
+      "footerLabel": "M 연계 · M6 · M8"
     },
     {
       "slideId": "S79",
@@ -775,7 +778,7 @@
         "M8"
       ],
       "scope": "principle",
-      "rationale": "반복되는 사실과 절차를 찾아 현재 필요한 구조를 묻는다. 반복 비용을 줄일 투자 지점의 성찰이며 정량 자동화 우선순위표는 아니다. DEC-0062: 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다. DEC-0079: choose one recurring need, a maintained location and review/update responsibility; retain reflection boundaries and module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs.",
+      "rationale": "DEC-0092: 다시 알려주는 정보·다시 지시하는 절차·빠뜨린 확인 기준 중 반복 보정 하나를 고른다. 그 근거와 원래 출처, 검토·갱신·재확인 책임을 생각하고 다음 작업에 반영할 개선 과정이 필요한 이유를 회수한다. 원모듈 전체 이수·새 실행·실제 반복 실패나 개선 성과를 뜻하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2 · M8"
     },
