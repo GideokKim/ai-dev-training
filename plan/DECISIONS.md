@@ -10085,3 +10085,103 @@ Render/review Full115and all ACTs, check retained screens outside ID/ref
 regions and every image crop,115x19Notes and package parity. Preserve
 Windows/room/product/account/timed-rehearsal gates as UNVERIFIED. Commit
 normal deliverables and push to origin/main without force or a bundle.
+
+
+# DEC-0094 — Clarify ACT4 loop boundaries and evaluation-driven control
+
+## Status
+
+ACCEPTED — explicit user approval to implement the preceding ACT4 audit.
+
+## Date
+
+2026-10-25
+
+## Context
+
+Baseline `ff936e1` contains115slides/406minutes. ACT4 S82-S100 retains
+19pages/81minutes. The course emphasizes evidence-led Harness improvement,
+but its screens do not clearly distinguish task execution from cross-task
+system improvement or show decisions after evaluation.
+
+## Problem
+
+A return arrow does not specify when to retry, finish, stop or request a
+human decision. Editing instructions does not itself establish adoption or
+improvement. The actual Meta case includes unresolved reporting differences
+and must not be promoted into a complete causal improvement demonstration.
+
+## Decision
+
+Retain every slide, section, per-page time/Mode and evidence classification.
+Clarify two loop scopes at S83/S86. Mark S90's update as a candidate pending
+evaluation. Connect S91/S92 evaluation questions to commands, check logs and
+reports. At S94 retain the five-phase course model and add evidence-driven
+completion/adoption, revision/retry and stop/human-review routes. Preserve
+attempts, conditions, checks and open questions for subsequent work.
+
+At S99 distinguish the observed reporting-criteria change from a proposed,
+unexecuted follow-up on remaining discrepancies. Label the actual diagnosis
+as interpretation limits, not a confirmed performance cause. At S100 link
+the existing GPU questions to recorded conditions, reviewed criteria,
+reevaluation and next-task use. Align S93/S98 transition Notes only.
+
+Keep115slides/406minutes, ACT counts14/22/19/26/19/15 and minutes
+43/64/82/96/81/40. Preserve modes164/73/88/21/28/32,12Templates/28Variants,
+19Notes fields and19existing practical tips. Do not compress ACT4, add a
+Trial, infer new effects, change Demo code/state or rebuild presenter ZIPs.
+
+## Rationale
+
+Make the feedback path and decisions visible without relying on spoken
+repair. Preserve the approved improvement focus and distinguish its scope
+from broader loop-engineering usage. Keep actual evidence, designed
+controls and unexecuted follow-ups separate.
+
+## Alternatives
+
+Rename maintenance alone as the entire discipline; this leaves scope vague.
+Add autonomous product tutorials; this exceeds the current evidence.
+Present evaluations or follow-up fixes as completed; they were not run.
+Reallocate ACT4 time; the user requires its existing composition and budget.
+
+## Trade-offs
+
+Revise8screens and10Notes records inside the19existing pages. S94 uses
+more of its existing11minutes for decision criteria rather than repeating
+all prior diagnosis slides. Keep numeric retry/time/cost limits unset; their
+values depend on the real task and environment. No new component or Skill
+is required merely to retain state.
+
+## Related Invariants
+
+INV-LOOP-001, INV-NARRATIVE-001, INV-NARRATIVE-002, INV-MATURITY-001,
+INV-VERIFY-001, INV-DEMO-003, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+Current ACT4 source overlay; Slide/Template maps; ACT4/Full Notes and PPTX;
+current planning, claim clarification, evaluation and preview records;
+current handoff/checklist and static fallback identities. Preserve all
+other ACT packages, historical evidence, assets, prototypes and bundles.
+
+## Evidence
+
+The user's explicit approval; MASTER_PLAN sections5.9and14; INV-LOOP-001;
+DEC-0023/0092/0093; unchanged Product/Meta records. Definition references
+are Addy Osmani's Loop Engineering and OpenAI's Agent Improvement Loop,
+opened2026-10-25. They inform educational design, not current product
+availability or an observed automated loop.
+
+## Training Relevance
+
+YES — distinguish completing one task from improving future work, and
+connect evaluation evidence to the next action and retained state.
+
+## Follow-up
+
+Finalize and render Full115plus ACT4 19. Review all ACT4 screens and the
+ACT3/ACT5 boundaries; compare107unchanged screens and105unchanged Notes.
+Verify115x19fields, Notes embedding, timings, native evidence and static
+fallback hashes. Keep Windows, room, product/account and timed rehearsal
+UNVERIFIED. Commit authorized artifacts and push normally to origin/main.

@@ -1,6 +1,12 @@
 # DEMO-04A — Conceptual Stale Workflow Case
 
-## Current operation — DEC-0091
+## Current operation — DEC-0094
+
+S84/S85 retain the separate conceptual aligned start and changed verification scope. S86 separates completing the current request from changing reusable instructions. S90 creates a reviewed candidate, not an adopted result. S91/S92 connect questions to records. No execution, fix or evaluation outcome is added. Existing Demo4minutes at S84/S85 remain.
+
+Current local artifacts/Notes align115slides/406minutes, ACT4 19/81. See production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Static-file readiness is local only; Windows, account, room and timed rehearsal remain UNVERIFIED. Earlier operation sections retain their dated edition.
+
+## Earlier operation — DEC-0091
 
 S84/S85 retain the aligned start and project-scope change. S91 compares
 same-task and adjacent-task evaluation; S92 selects representative tasks;
@@ -114,7 +120,7 @@ Default is the offline static presentation. Open: `production/preview/full/S84.p
 
 Show S84–S85 static conceptual frames; keep the constructed-case label visible.
 
-Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
+Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
 Captured Alternative provenance: DEC-0084 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 

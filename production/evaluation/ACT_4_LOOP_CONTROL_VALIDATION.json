@@ -1,0 +1,98 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "decision": "DEC-0094",
+  "baseline": "ff936e13c96893e84e59e55d2591fb13ddb13806",
+  "slideCount": 115,
+  "minutes": 406,
+  "ACT4": {
+    "range": "S82-S100",
+    "slides": 19,
+    "minutes": 81,
+    "modeMinutes": {
+      "Transition": 5,
+      "Lecture": 22,
+      "Reflection": 3,
+      "Case": 22,
+      "Demo": 22,
+      "Q&A": 7
+    }
+  },
+  "screenChanges": [
+    "S83",
+    "S86",
+    "S90",
+    "S91",
+    "S92",
+    "S94",
+    "S99",
+    "S100"
+  ],
+  "notesChanges": [
+    "S83",
+    "S86",
+    "S90",
+    "S91",
+    "S92",
+    "S94",
+    "S99",
+    "S100",
+    "S93",
+    "S98"
+  ],
+  "fixedPerSlideBudgetModeEvidenceClaimStatus": true,
+  "originalClaimBoundariesPreserved": true,
+  "notesRecords": 115,
+  "fieldsPerNotes": 19,
+  "unchangedNotes": 105,
+  "unchangedFullScreensPixelIdentical": 107,
+  "unchangedACT4ScreensPixelIdentical": 11,
+  "renderedPNGs": 134,
+  "FullACTPNGParity": 115,
+  "otherFiveACTPackagesUnchanged": true,
+  "allExistingPicturesPreserved": true,
+  "pictureInstancesChecked": 19,
+  "nativeEvidence": "tables S53/S62 unchanged; S92 retained native with clarified evaluation records; chart S66 unchanged",
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "preexistingWarnings": [
+    {
+      "artifact": "AI_Dev_Training_Full",
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 53,
+      "table_id": "8"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 115,
+      "sha256": "09e9b4a2f25b2131fc746618839fc113c128e3dc3fa42fdd656c1100c0d3305f"
+    },
+    {
+      "path": "production/ACT_4.pptx",
+      "slideCount": 19,
+      "sha256": "af11a3627d210b70183ab1376db8abe2860d8dd5a10a311dbc5a5dd120c377e4"
+    }
+  ],
+  "fullNotesSha256": "b0317d8c082ad0719be0261f2784e8a194cd01cd52de5c324deafcf38c587296",
+  "fullMontageSha256": "a0488fd41fc88377444030ad8b752a59c9ff0a38ddf5755697d8d052942ea71b",
+  "demoRepositoryUnchanged": true,
+  "newTrialOrMeasuredEffect": false,
+  "windowsRoomProductAccountTimedRehearsal": "UNVERIFIED",
+  "visualReview": {
+    "changed8Slides": "reviewed at full size; S83 conditional return refined",
+    "wholeDeck": "six ACT contact sheets from final Full renders reviewed",
+    "ACT4Handoff": "S81-S84 and S98-S102 reviewed",
+    "newClippingOverlapOrGlyphIssue": "none found in local review"
+  },
+  "gitCheckpoint": "authorized normal commit/push to existing origin/main; recorded in Git history"
+}

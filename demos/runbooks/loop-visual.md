@@ -1,6 +1,12 @@
 # LOOP-VISUAL — Product Loop and Harness Improvement Loop
 
-## Current operation — DEC-0081
+## Current operation — DEC-0094
+
+S94 retains Lecture9+VISUAL Demo2. Two-loop scope0-2; evidence/diagnosis/candidate2-4; completion/adoption4-5:30; revision/retry5:30-7; stop/human check and retained state7-9; static route recap9-11. The five-phase overview feeds three evaluation-dependent decisions. Then open the actual Meta case at S95. No new Trial, automation or native animation.
+
+Current local artifacts/Notes align115slides/406minutes, ACT4 19/81. See production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Static-file readiness is local only; Windows, account, room and timed rehearsal remain UNVERIFIED. Earlier operation sections retain their dated edition.
+
+## Earlier operation — DEC-0081
 
 S94 distinguishes execution from observation and shows evidence passed to the next judgment. Human review of source/scope is explicit. Keep Lecture9 and VISUAL Demo2: R1/R2 0–2, R3 2–4:30, R4 4:30–6:30, R5 6:30–9, one static path9–11. Do not replay S87–S93; then open the actual reporting case on S83. No native animation or executed loop.
 
@@ -113,7 +119,7 @@ Default is the offline static presentation. Open: `production/preview/full/S94.p
 
 Use S92.png; do not reuse S95 Observed Meta frame.
 
-Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
+Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
 Captured Alternative provenance: DEC-0084 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 

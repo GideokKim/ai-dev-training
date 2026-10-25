@@ -1,5 +1,13 @@
 # STEP 08 — 통합 Slide Map (S01–S105)
 
+## 현재 ACT4 루프 판단 정렬 — DEC-0094 (2026-10-25)
+
+현재115장·406분, ACT4 S82–S100의19장·81분과 모든 장별 시간/Mode/근거 등급을 유지한다.
+S83/S86에서 작업 수행 루프와 체계 개선 루프를 구분한다. S90–S94는 변경 후보,
+대조할 기록, 평가 뒤 완료·채택/재시도/중단·사람 확인을 연결한다. S99의 실제 후속
+확인은 부분적이며 다음 개선 질문은 제안/미실행이다. S100은 기록·기준·재평가를
+다음 작업으로 연결한다. [현재 설계](ACT4_LOOP_CONTROL.md). 아래 판본별 기록은 이력이다.
+
 ## 현재 Codex 제작 팁 — DEC-0093 (2026-10-25)
 
 현재115장·406분(6시간46분). 기존113장의 Story·장별 시간/Mode·근거를 유지하고
@@ -2228,22 +2236,22 @@ ACT별 Mode 대조:
 - **Section:** 4A Working Harness Callback
 - **Working Title:** 확인한 성공을 유지하려면
 - **Primary Role:** 실제 성공을 짧게 보존하고 기준/절차를 유지·갱신하는 문제와 재검토 신호를 연다.
-- **Audience Question:** “앞서 정리한 정보와 절차는, 어떤 변화가 생겼을 때 다시 검토해야 할까요?”
-- **Core Message:** STATE-04-PERF는 bounded task에서 검증된 성공이다. 뒤에 나올 stale 사례는 별도의 개념 사례다.
+- **Audience Question:** 이번 작업을 완료한 경험은 다음 작업의 수행 체계를 어떻게 바꿀 수 있을까?
+- **Core Message:** STATE-04-PERF의 확인한 성공을 보존하고, 이번 목표를 완료하는 작업 수행 루프와 다음 작업의 방법을 개선하는 체계 개선 루프를 구분한다. 이 ACT는 반복 보정을 다음 작업이 읽을 기준으로 연결하는 데 집중한다.
 - **Story Beat:** BEAT-037, BEAT-038
 - **Curriculum Trace:** ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.; ACT 4 — conceptual stale-Harness case.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; STATE-04-PERF의 테스트·benchmark 등 기록된 범위에 한정한다. 실제 stale Harness나 Product failure를 뜻하지 않는다.
-- **Visual Concept:** 실제 성공을 세 짧은 근거로 기준점에 남긴 뒤 기준·절차를 계속 맞게 유지할 문제를 연다. Reflection은 재검토를 요구할 조건 변화다.
+- **Visual Concept:** 위 한 줄은 실제 성공 범위다. 작업 수행은 실행→검증→완료와 미충족일 때 수정·재검증으로 되돌아가는 경로를 보여준다. 체계 개선은 기록·보정→원인 검토→체계 갱신→재평가·적용 뒤 다음 작업의 실행 기록으로 되돌아가는 교육용 흐름이다.
 - **Demo / Case Connection:** STATE-04-PERF의 검증된 Product endpoint. 세부 State 설명을 반복하지 않는다.
-- **Beginner Payoff:** 잘 동작했던 현재 시스템을 기준점으로 삼는다.
-- **Advanced Payoff:** 이후 사례와 실제 Product history의 증거 경계를 분리한다.
+- **Beginner Payoff:** 이번 일의 답을 고치는 것과 다음 일에서도 사용할 방법을 고치는 것은 범위가 다르다.
+- **Advanced Payoff:** Inner execution control and outer system improvement overlap in practice. This course emphasizes evidence-led Harness improvement without claiming an industry-wide replacement or fully automated execution.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 실제 성공을 짧게 보존하고 기준/절차를 유지·갱신하는 문제와 재검토 신호를 연다. OBSERVED_PRODUCT callback이다. 기록된 task·코드·입력·runtime·host·검증 조건에 한정한다. 이후 변화/실패를 관찰한 것이 아니며 유지 문제의 질문과 실제 결과를 구분한다.
-- **Transition:** “이 성공은 그대로 남기겠습니다. 별도의 가상 프로젝트에서 기준과 재사용 절차가 처음에는 맞았던 상태부터 보겠습니다.”
+- **Speaker Intent:** STATE-04-PERF의 확인한 성공을 보존하고, 이번 목표를 완료하는 작업 수행 루프와 다음 작업의 방법을 개선하는 체계 개선 루프를 구분한다. 이 ACT는 반복 보정을 다음 작업이 읽을 기준으로 연결하는 데 집중한다. 화면의 실제 관찰과 교육용 설계·후속 제안을 구분한다.
+- **Transition:** “이번 작업을 마치는 것과 다음 작업의 방법을 바꾸는 것을 구분했습니다. 가상 사례에서 기준과 재사용 절차가 처음에는 맞았던 상태부터 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 3분 + Reflection 1분 = 4분
-- **Evidence / Decision References:** BEAT-037, BEAT-038, STATE-04-PERF, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0021, INV-MATURITY-010, DEC-0080
+- **Evidence / Decision References:** BEAT-037, BEAT-038, STATE-04-PERF, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0021, INV-MATURITY-010, DEC-0080; DEC-0094
 
 #### S84 — 처음에는 기준과 재사용 절차가 맞았다
 
@@ -2300,22 +2308,22 @@ ACT별 Mode 대조:
 - **Section:** 4B Conceptual Stale Harness / DEMO-04A
 - **Working Title:** 이번 요청과 다음 작업의 지침
 - **Primary Role:** 이번 요청 보정과 다음 작업이 읽는 지침의 검토·갱신을 구분하고 원인 확인을 먼저 연다.
-- **Audience Question:** “이번 요청을 보정하면, 다음 작업이 읽을 지침까지 달라질까요?”
-- **Core Message:** 이번 요청을 단위+통합 검증으로 보정할 수 있어도 재사용 Workflow의 단위 테스트 지시는 그대로 남을 수 있다. 현재 Task의 요청 범위와 재사용 절차의 변경을 구분한다.
+- **Audience Question:** 이번 요청이 완료되면, 다음 작업의 지침도 함께 바뀌었을까?
+- **Core Message:** 현재 요청에 통합 검증을 추가해 이번 작업을 완료하도록 보정해도, 다음 작업이 읽을 재사용 지침은 자동으로 바뀌지 않는다. 다음에도 필요한 보정이라면 원인을 확인하고 체계 개선 루프의 대상으로 검토한다.
 - **Story Beat:** BEAT-039
 - **Curriculum Trace:** ACT 4 — Project change and stale Harness.
 - **Evidence Type:** CONCEPTUAL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 가상 결과다. 구체적인 실패 유형은 제작 시 선택한 사례의 타당성을 확인해야 하며 실제 Demo 이력으로 표현하지 않는다.
-- **Visual Concept:** 이번 요청과 다음 작업의 재사용 지침을 별도 상자에 둔다. 요청 보정이 다음 지침을 자동 갱신하지 않는 관계를 비교한다.
+- **Visual Concept:** 왼쪽은 통합 테스트도 확인해 달라는 교육용 요청과 추가 확인→결과 검토→이번 작업 완료의 가능한 수행 흐름이다. 오른쪽은 단위 테스트 지시가 그대로 남은 재사용 Workflow다. 완료·변경 결과가 아니라 두 범위의 가상 비교다.
 - **Demo / Case Connection:** DEMO-04A의 가상 후속 Task. Live 실행이 아닌 VISUAL/CAPTURED 설명.
 - **Beginner Payoff:** 이번 답을 고치는 것과 다음 작업까지 바뀌게 하는 것을 구분한다.
 - **Advanced Payoff:** task-level workaround와 durable system correction의 차이를 본다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 이번 요청 보정과 다음 작업이 읽는 지침의 검토·갱신을 구분하고 원인 확인을 먼저 연다. 가능한 요청 보정과 남아 있는 지침의 가상 비교다. 실제 실행·복구·누락·PASS/FAIL 결과가 아니다.
-- **Transition:** “어디를 고치기 전에, 실제로 어떤 기준과 지침을 썼는지부터 확인하겠습니다.”
+- **Speaker Intent:** 현재 요청에 통합 검증을 추가해 이번 작업을 완료하도록 보정해도, 다음 작업이 읽을 재사용 지침은 자동으로 바뀌지 않는다. 다음에도 필요한 보정이라면 원인을 확인하고 체계 개선 루프의 대상으로 검토한다. 화면의 실제 관찰과 교육용 설계·후속 제안을 구분한다.
+- **Transition:** “다음 작업에도 필요한 보정이라면 출처를 검토해야 합니다. 다만 지침이 원인인지는 어떤 기록으로 확인할까요?”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Case 3분 = 3분
-- **Evidence / Decision References:** BEAT-039, DEMO-04A, INV-MATURITY-010, INV-DEMO-003, DEC-0080
+- **Evidence / Decision References:** BEAT-039, DEMO-04A, INV-MATURITY-010, INV-DEMO-003, DEC-0080; DEC-0094
 
 #### S87 — 원인을 고르기 전에 확인할 기록
 
@@ -2397,22 +2405,22 @@ ACT별 Mode 대조:
 - **Section:** 4C Cause / Change
 - **Working Title:** 확인된 범위만 검토하고 갱신한다
 - **Primary Role:** 원인에 맞는 범위를 갱신·검토할 사람의 책임과 이후 재평가를 연결한다.
-- **Audience Question:** “갱신 담당과 검토 담당은 무엇을 확인해야 할까요?”
-- **Core Message:** 이 사례에서 stale Workflow가 원인으로 확인됐다고 가정하면, 우선 그 Workflow를 갱신한다. 오래된 중복 지침도 원인일 때만 제거한다.
+- **Audience Question:** 지침을 고쳤다는 사실만으로 다음 작업에 적용해도 될까?
+- **Core Message:** Workflow가 원인으로 확인됐다는 가정에서 현재 기준에 맞는 변경 후보를 만들고 검토한다. 같은 작업과 대표 작업의 재평가를 거쳐 채택·재수정을 판단하며, 파일 갱신만으로 적용을 완료했다고 보지 않는다.
 - **Story Beat:** BEAT-045–046
 - **Curriculum Trace:** ACT 4 — Improve Context, Memory, Skills, and delegation.; ACT 4 — cause analysis and change.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 가상 사례에서 전제한 원인에 대한 대응이다. 실제 Product 변경이나 Trial 결과가 아니다.
-- **Visual Concept:** 위에는 단위→단위+통합의 지침 갱신, 아래에는 갱신 담당·검토 담당·재평가의 역할을 연결한다. 실제 담당 배정·변경 결과가 아니다.
+- **Visual Concept:** 기존 단위 테스트 지침과 단위+통합의 변경 후보를 비교한다. 아래 갱신 담당·검토 담당·채택 전 확인을 연결해 실제 배정이나 채택 결과가 아닌 역할과 평가 설계를 보여준다.
 - **Demo / Case Connection:** 가상 Workflow 지시의 단위→단위+통합 갱신 범위와 사람의 검토·갱신 책임을 연결한다. 실제 수정·담당 배정·재평가 결과는 없다.
 - **Beginner Payoff:** 규칙을 더하기 전에 실제 원인이 있는 곳을 고친다.
 - **Advanced Payoff:** 원인이 뒷받침하는 최소한의 durable change를 선택한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 원인에 맞는 범위를 갱신·검토할 사람의 책임과 이후 재평가를 연결한다. CONCEPTUAL / TEACHING_MODEL. 원인 확인을 가정한 지침 갱신과 역할의 예시다. 실제 담당 배정·Product/Skill 변경·재평가 성공을 만들지 않는다.
-- **Transition:** “이 지침을 바꿨다면, 같은 작업을 다시 확인하는 것만으로 충분할까요?”
+- **Speaker Intent:** Workflow가 원인으로 확인됐다는 가정에서 현재 기준에 맞는 변경 후보를 만들고 검토한다. 같은 작업과 대표 작업의 재평가를 거쳐 채택·재수정을 판단하며, 파일 갱신만으로 적용을 완료했다고 보지 않는다. 화면의 실제 관찰과 교육용 설계·후속 제안을 구분한다.
+- **Transition:** “변경 후보를 만들었다면, 어떤 기록을 보고 채택하거나 다시 수정할지 판단할까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 1분 = 2분
-- **Evidence / Decision References:** BEAT-045, DEMO-04A, INV-LOOP-001, CLM-0020, CLM-0029, OQ-003, OQ-005, BEAT-046, DEC-0080
+- **Evidence / Decision References:** BEAT-045, DEMO-04A, INV-LOOP-001, CLM-0020, CLM-0029, OQ-003, OQ-005, BEAT-046, DEC-0080; DEC-0094
 
 #### S91 — 지침을 고친 뒤, 무엇을 다시 확인할까?
 
@@ -2421,22 +2429,22 @@ ACT별 Mode 대조:
 - **Section:** 4D Evaluation & Regression
 - **Working Title:** 지침을 고친 뒤, 무엇을 다시 확인할까?
 - **Primary Role:** S90의 지침 갱신 가정을 회수해 같은 작업의 재확인과 다른 작업의 영향 평가를 구분한다.
-- **Audience Question:** “단위+통합으로 지침을 바꿨다면, 그 작업만 다시 확인하면 충분할까요?”
-- **Core Message:** 단위 테스트 지침을 단위+통합으로 갱신했다고 가정하면, 같은 작업이 요구 범위를 다루는지와 다른 작업을 방해하지 않는지를 각각 확인해야 한다. 결과가 나온 사례가 아니라 평가 질문의 설계다.
+- **Audience Question:** 무슨 기록을 확인해야 지침 변경 후보를 채택하거나 재수정할 수 있을까?
+- **Core Message:** 변경 후보는 같은 작업의 검증 범위와 다른 작업의 불필요한 절차를 나눠 평가한다. 실행 명령·검사 로그·최종 보고를 요청/지침과 대조하고 그 근거로 채택·재수정·판단 보류를 결정하도록 설계한다.
 - **Story Beat:** BEAT-047
 - **Curriculum Trace:** ACT 4 — cause analysis, change, evaluation, and regression.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 이 재실행은 설계된 사례다. 실행 결과나 통과 숫자는 없다.
-- **Visual Concept:** 단위→단위+통합 지침 갱신이라는 가정을 위에 두고 같은 작업의 범위 확인과 문서 작업의 불필요한 절차 확인을 좌우로 비교한다. 결과 판정은 없다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 검증·개선”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
+- **Visual Concept:** 왼쪽은 같은 작업이 단위·통합 검증을 다루는지와 실행 명령·검사 로그·보고를 짝짓는다. 오른쪽은 문서만 수정하는 작업의 요청 범위·적용 지침·실행 기록을 짝지어 불필요한 검증 요구를 확인한다. 아래에는 평가 근거에 따른 채택·재수정·보류 판단을 둔다.
 - **Demo / Case Connection:** DEMO-04A 지침 변경 가정 뒤 같은 작업/다른 작업의 확인 질문을 설계한다. 실제 변경·재실행·회귀 결과는 없다.
 - **Beginner Payoff:** 지침 변경이 이번 문제를 다루는지 확인하고, 다른 작업에 불필요한 일을 요구하지 않는지도 본다.
 - **Advanced Payoff:** Task recovery의 재확인과 Harness 변경의 대표 작업·회귀 위험 평가를 분리한다.
 - **C++ Vision Bridge:** 동일 build/test 시나리오를 다시 실행하는 것은 필요하지만 그것만으로 회귀 위험 전체가 해소되지는 않는다는 점을 연결할 수 있다.
-- **Speaker Intent:** 같은 Task를 통과하면 Harness 검증이 끝난다는 오해를 막는다. S90의 검토·갱신 책임을 유지하며 두 평가 질문의 범위를 비교하고 S92의 대표 작업으로 연결한다.
-- **Transition:** “이번 작업 외에 어떤 작업을 골라야, 바뀐 지침의 다른 영향을 확인할 수 있을까요?”
+- **Speaker Intent:** 변경 후보는 같은 작업의 검증 범위와 다른 작업의 불필요한 절차를 나눠 평가한다. 실행 명령·검사 로그·최종 보고를 요청/지침과 대조하고 그 근거로 채택·재수정·판단 보류를 결정하도록 설계한다. 화면의 실제 관찰과 교육용 설계·후속 제안을 구분한다.
+- **Transition:** “이 대조를 한 종류의 작업에만 적용하면 충분할까요? 서로 다른 위험을 확인할 대표 작업을 고르겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 3분 = 4분
-- **Evidence / Decision References:** BEAT-047, DEMO-04A, CLM-0020, CLM-0029, INV-LOOP-001, DEC-0080, DEC-0081, DEC-0087
+- **Evidence / Decision References:** BEAT-047, DEMO-04A, CLM-0020, CLM-0029, INV-LOOP-001, DEC-0080, DEC-0081, DEC-0087; DEC-0094
 - **Practical Tip Classification:** 검증·개선
 
 #### S92 — 대표 작업은 서로 다른 위험을 확인한다
@@ -2446,22 +2454,22 @@ ACT별 Mode 대조:
 - **Section:** 4D Evaluation & Regression
 - **Working Title:** 대표 작업은 서로 다른 위험을 확인한다
 - **Primary Role:** 지침을 적용할 대표 작업과 각각 확인할 위험을 연결한다. 식별자는 추적용으로 남기고 근거 상태를 결과와 구분한다.
-- **Audience Question:** “바뀐 지침을 어떤 작업에 적용해 봐야 서로 다른 위험을 확인할까요?”
-- **Core Message:** 대표 작업은 변경된 지침이 닿는 서로 다른 사용 방식과 회귀 위험을 확인하도록 고른다. EVAL-01/02는 별도 과거 사례를 참고한 설계, EVAL-03/04는 설계만 있으며 네 작업 모두 이 지침 변경 뒤의 실행 결과는 없다.
+- **Audience Question:** 각 대표 작업에서 어떤 요청과 수행 기록을 대조할까?
+- **Core Message:** 대표 작업별로 요청과 실제 수행에서 대조할 기록을 정한다. 버그는 명세/검사, 성능은 측정 조건/결과, 문서는 요청 범위/불필요 절차, 리팩터링은 보존 조건/변경·검사 기록을 본다. 네 작업 모두 이 가상 변경 후 실행한 결과는 없다.
 - **Story Beat:** BEAT-048–049
 - **Curriculum Trace:** ACT 4 — evaluation and regression; OQ-009.; ACT 4 — evaluation and regression.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 이 stale-Workflow 변경 뒤의 EVAL-01~04 실행 결과는 없다. EVAL-01/02의 별도 관찰 기록이 이 변경을 평가한 결과인 것처럼 사용하지 않는다.
-- **Visual Concept:** 작업 종류·확인하려는 위험·기존 근거의3열×5행 Native 표다. 네 작업·선정 이유·근거 상태를 유지하고 EVAL/TRIAL/STATE 식별자는 출처·Notes에서 추적한다. 과거 사례 참고는 새 평가 결과가 아니다.
+- **Visual Concept:** 기존 Native 4작업 평가 표를 유지하고 가운데 열을 무엇을 대조할까로 구체화한다. 오른쪽은 버그·성능의 별도 과거 사례 참고와 문서·리팩터링의 설계 상태다. 평가 성적표가 아니다.
 - **Demo / Case Connection:** EVAL-01 Bug Fix, EVAL-02 Performance, EVAL-03 Documentation-only, EVAL-04 Small Refactor를 가상 대표 작업으로 제시한다. PASS/FAIL 숫자는 만들지 않는다.
 - **Beginner Payoff:** 작업을 많이 모으기보다, 바뀐 지침이 서로 다른 업무에 미칠 영향을 확인하도록 고른다.
 - **Advanced Payoff:** 영향 표면과 알려진 회귀 위험에 따라 평가 집합을 구성하고 비교 근거가 없는 작업도 설계 대상으로 구분한다.
 - **C++ Vision Bridge:** build/test 변경이라면 그 변경이 닿는 작업과 무관한 작업을 함께 고려할 수 있다.
-- **Speaker Intent:** 행별 작업 이름보다 선정 이유를 먼저 설명한다. 기존 네 작업은 고정 정답 세트가 아니며, 과거 관찰 참고와 이번 가상 변경 후 평가 결과를 합치지 않는다. 실선/점선으로 행을 구분한다는 기존 Cue는 쓰지 않는다.
-- **Transition:** “문서 작업도 함께 본 이유가 있습니다. 한 작업을 위해 넓힌 규칙이 다른 작업에도 맞을까요?”
+- **Speaker Intent:** 대표 작업별로 요청과 실제 수행에서 대조할 기록을 정한다. 버그는 명세/검사, 성능은 측정 조건/결과, 문서는 요청 범위/불필요 절차, 리팩터링은 보존 조건/변경·검사 기록을 본다. 네 작업 모두 이 가상 변경 후 실행한 결과는 없다. 화면의 실제 관찰과 교육용 설계·후속 제안을 구분한다.
+- **Transition:** “문서 작업도 넣은 이유는, 한 작업을 위해 넓힌 규칙이 다른 작업을 방해할 수 있기 때문입니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Demo 5분 (CAPTURED) = 5분
-- **Evidence / Decision References:** BEAT-048, EVAL-01, EVAL-02, EVAL-03, EVAL-04, CLM-0020, CLM-0029, INV-LOOP-001, INV-LEARNING-003, INV-DEMO-003, BEAT-049, DEC-0081
+- **Evidence / Decision References:** BEAT-048, EVAL-01, EVAL-02, EVAL-03, EVAL-04, CLM-0020, CLM-0029, INV-LOOP-001, INV-LEARNING-003, INV-DEMO-003, BEAT-049, DEC-0081; DEC-0094
 
 #### S93 — 한 작업에 맞춘 규칙, 다른 작업에도 맞을까?
 
@@ -2482,34 +2490,34 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 변경의 적용 범위, 다른 지침과의 충돌, 읽기·유지 비용과 회귀 위험을 함께 평가한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** 한 실패에 맞춘 규칙이 다른 작업에 적합한지 묻는다. 원인을 확인한 변경 위치 선택은 S89에 남기고 적용 범위·유지 비용·규칙 정리에 집중한다. 과적합은 보조 비유다.
-- **Transition:** “지금까지 본 기록·원인·변경·평가를 다음 판단으로 어떻게 넘기는지, Loop의 단계로 묶어 보겠습니다.”
+- **Transition:** “평가에서 기준을 충족했는지, 수정이 필요한지, 판단할 근거가 부족한지에 따라 다음 행동을 어떻게 고를까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-050, DEMO-04A, INV-MATURITY-003, INV-LEARNING-003, INV-LOOP-001, DEC-0081
 
-#### S94 — 관찰을 시스템 개선으로 잇는 Loop
+#### S94 — 평가한 뒤, 다음 행동을 결정한다
 
 - **Slide ID:** S94
 - **ACT:** ACT 4
 - **Section:** 4E Loop Mental Model
-- **Working Title:** 관찰을 시스템 개선으로 잇는 Loop
+- **Working Title:** 평가한 뒤, 다음 행동을 결정한다
 - **Primary Role:** 앞 단계의 근거가 다음 판단으로 넘어가는 운영 모델을 회수하고 근거가 부족할 때 판단을 보류할 지점을 구분한다.
-- **Audience Question:** “어떤 근거가 있어야 다음 판단으로 넘어갈 수 있을까요?”
-- **Core Message:** 실행의 기록을 현재 기준과 대조하고 원인 가설을 근거로 판단한 뒤, 확인된 출처·범위를 사람이 검토·갱신하고 같은·대표 작업의 영향을 재평가한다. 각 단계의 근거가 다음 판단으로 넘어가는 교육용 운영 모델이다.
+- **Audience Question:** 평가한 결과에 따라 언제 다시 시도하고, 언제 끝내거나 사람에게 넘길까?
+- **Core Message:** 체계 개선은 실행→관찰→원인 판단→변경 후보→재평가를 근거로 연결한다. 평가 뒤 기준 충족은 완료/채택, 수정 가능하면 재시도, 근거 부족이나 반복·시간·비용 한도 도달은 중단/사람 확인으로 나누며 검토된 체계만 다음 작업에 적용한다. 매 실행마다 Harness를 바꿀 필요는 없다.
 - **Story Beat:** BEAT-040, BEAT-051–052
 - **Curriculum Trace:** ACT 4 — Project change and stale Harness; Loop model.; ACT 4 — Loop model, Product Loop, and automation levels; ACT 5 handoff.; ACT 4 — Loop model, Product Loop, and automation levels.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
 - **Claim Status:** TEACHING_MODEL — DEC-0023에서 확정한 이 과정의 Loop 모델. 자동 학습이나 제품 Loop와 혼동하지 않는다.
-- **Visual Concept:** 기존5단계와 되돌림선을 유지한다. 단계·판단 질문·다음에 넘길 근거를 열별로 정렬해 실행과 관찰을 구분한다. 정적 초점R1–R5이며 실제 사건 결과를 채우지 않는다.
+- **Visual Concept:** 위쪽은 기존5단계의 요약 흐름, 아래는 조건과 다음 행동을 짝지은3갈래 판단 도식이다. 기준 충족→완료·채택, 미충족/수정 가능→수정 후 재시도, 근거 부족/한도 도달→중단·사람 확인. 각 경로에 다음 작업 적용·새 기록·중단 사유 보존을 짧게 연결한다.
 - **Demo / Case Connection:** DEMO-04A의 가상 사례를 요약하되, 이후 Observed Meta 기록과는 아직 연결하지 않는다.
-- **Beginner Payoff:** 작업 기록을 보고, 원인을 확인하고, 필요한 지침을 바꾼 뒤 다른 작업의 영향도 다시 본다.
-- **Advanced Payoff:** 근거가 부족할 때 가설로 남기는 판단, 원인과 변경 범위를 맞추는 판단, 재평가에서 해석 범위를 제한하는 판단을 구분한다.
+- **Beginner Payoff:** 평가가 끝나면 무조건 또 실행하는 것이 아니라, 완료·다시 시도·멈추고 확인 중 하나를 근거로 고른다.
+- **Advanced Payoff:** Specify feedback-dependent transitions, retained state, review responsibility and bounded retries. Neither changing the Harness on every run nor claiming that a model has learned is required.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 단계마다 근거가 다음 판단으로 넘어가는 관계와 보류할 지점을 짚는다. 앞 장의 전체 사례·선택지·평가 표를 반복하지 않고 가상 모델을 닫은 뒤 실제 평가·보고 사례를 예고한다. 자동 학습·실제 Product Loop가 아니다.
-- **Transition:** “가상 지침 사례는 여기서 닫겠습니다. 이번에는 실제 교육 Demo의 성능 결과를 평가·보고하던 기준을 바꾼 사례를 보겠습니다.”
+- **Speaker Intent:** 체계 개선은 실행→관찰→원인 판단→변경 후보→재평가를 근거로 연결한다. 평가 뒤 기준 충족은 완료/채택, 수정 가능하면 재시도, 근거 부족이나 반복·시간·비용 한도 도달은 중단/사람 확인으로 나누며 검토된 체계만 다음 작업에 적용한다. 매 실행마다 Harness를 바꿀 필요는 없다. 화면의 실제 관찰과 교육용 설계·후속 제안을 구분한다.
+- **Transition:** “이 모델에서 실제로 바뀐 것은 무엇이었을까요? 별도의 Resize 제작 기록에서 평가·보고 기준을 바꾸고도 남은 문제를 보겠습니다.”
 - **Estimated Time:** 11분
 - **Delivery Mode Allocation:** Lecture 9분 + Demo 2분 (VISUAL) = 11분
-- **Evidence / Decision References:** BEAT-040, BEAT-051, DEMO-04A, OQ-011, INV-MATURITY-010, INV-LOOP-001, INV-DEMO-003, CLM-0020, CLM-0021, CLM-0029, BEAT-052, DEC-0080, DEC-0081
+- **Evidence / Decision References:** BEAT-040, BEAT-051, DEMO-04A, OQ-011, INV-MATURITY-010, INV-LOOP-001, INV-DEMO-003, CLM-0020, CLM-0021, CLM-0029, BEAT-052, DEC-0080, DEC-0081; DEC-0094
 
 #### S95 — 평가·보고 기준도 개선 대상이다
 
@@ -2602,7 +2610,7 @@ ACT별 Mode 대조:
 - **Advanced Payoff:** 보고·진단 기록·지침 사용 경로를 대조하되, 서로 다른 Trial의 기록 특성을 통제 비교나 정량 품질 향상으로 확대하지 않는다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** 원문 대조와 사용 경로 구분이라는 두 확인 내용을 좌우로 읽는다. 오류명·인증 해결법 강의, 같은 조건의 실패/성공 비교, 완전한 환경 목록·품질 효과 주장을 만들지 않는다.
-- **Transition:** “상세 기록은 여기서 닫고, 실제 바뀐 평가·보고 기준이 Loop의 어느 단계에 해당하는지 연결하겠습니다.”
+- **Transition:** “보고 기준을 바꾼 사실과 남은 불일치를 나눠 보겠습니다. 남은 질문을 다음 개선 대상으로 넘기는 연결은 후속 제안으로 표시하겠습니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 2분 = 3분
 - **Evidence / Decision References:** BEAT-058, TRIAL-008, TRIAL-007, DEC-0016, DEC-0021, TRIAL-006, INV-DEMO-003, BEAT-059, DEC-0081
@@ -2614,22 +2622,22 @@ ACT별 Mode 대조:
 - **Section:** 4F Observed Meta Loop 마무리
 - **Working Title:** 실제 기록을 Loop의 단계에 대응하면
 - **Primary Role:** S94의 단계에 실제 평가·보고 기록을 대응하고 변경 대상과 미확인 결과를 회수한다.
-- **Audience Question:** “앞에서 본 Loop가 이 실제 기록에서는 어떻게 나타났을까요?”
-- **Core Message:** 실제 Resize 조사와 전역 영향 관찰은 원인 해석의 한계를 드러내 DEC-0016의 평가·보고 기준 변경으로 이어졌고 후속 기록에서 부분적으로 점검됐다. 이를 교육용 Loop 단계에 대응하되 원인 확정·완전한 재평가·품질 향상을 주장하지 않는다.
+- **Audience Question:** 실제로 바뀐 기준과 아직 풀지 못한 문제는 무엇이며, 다음에 무엇을 확인할까?
+- **Core Message:** 실제 Resize 조사에서 해석 한계를 확인하고 평가·보고 기준을 바꿨으며 후속 대조에는 불일치가 남았다. 원인을 확정한 완료된 개선 성과가 아니다. 남은 불일치를 다음 원문 대조/검사 방법의 검토 대상으로 삼는 것은 후속 제안이며 미실행이다.
 - **Story Beat:** BEAT-058–059
 - **Curriculum Trace:** ACT 4 — observed Meta feedback case.; ACT 4 → ACT 5 handoff.
 - **Evidence Type:** OBSERVED_META
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; 후속 보고에는 불일치와 미측정 품질 효과가 남아 있다. DEMO-04A의 conceptual stale Workflow와 합치지 않는다.
-- **Visual Concept:** S94와 같은5단계 이름에 실제 Resize 조사·관찰 조건·해석 한계·기록 기준 변경·부분적 후속 대조를 대응한다. 하단은 변경 대상과 원인별 효과/환경 완전성/품질 향상 미확인이다.
+- **Visual Concept:** 위5열은 실행·관찰·해석 판단·기준 변경·후속 확인이라는 실제 기록의 대응이다. 원인 확정 대신 해석 판단이라고 표시한다. 아래는 확인한 변화와 다음 개선 질문(제안/미실행)을 분리한다.
 - **Demo / Case Connection:** 평가·보고 방식의 실제 변화와 후속 기록. Product code나 `graypipe-performance` Skill 변경은 포함하지 않는다.
 - **Beginner Payoff:** 피드백을 받아 바뀌는 대상에는 지침뿐 아니라 평가·보고 기준도 포함된다. 바꾼 뒤에도 모르는 점을 남긴다.
 - **Advanced Payoff:** 운영 모델과 실제 기록을 대응하되 원인 해석의 제한과 후속 적용 점검의 강도를 보존한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S97의 결정 내용과 S98의 세부를 반복하지 않고 실제 기록을 Loop 단계에 대응한다. 원인 해석은 한계 판단, 후속 기록 대조는 부분적 점검이라는 강도를 보존하며 상단→하단으로 안내한다.
-- **Transition:** “평가 기준을 바꾼 뒤에도 확인할 점은 남았습니다. 이제 같은 검사 코드의 GPU가 달라졌다면, 어떤 검증 조건을 다시 봐야 할지 생각해 보겠습니다.”
+- **Speaker Intent:** 실제 Resize 조사에서 해석 한계를 확인하고 평가·보고 기준을 바꿨으며 후속 대조에는 불일치가 남았다. 원인을 확정한 완료된 개선 성과가 아니다. 남은 불일치를 다음 원문 대조/검사 방법의 검토 대상으로 삼는 것은 후속 제안이며 미실행이다. 화면의 실제 관찰과 교육용 설계·후속 제안을 구분한다.
+- **Transition:** “확인한 변화와 남은 질문을 나눠 다음 작업으로 넘겼습니다. GPU가 바뀐 검사 업무에서도, 반복할 확인 기준을 어떻게 남기고 다시 적용할지 보겠습니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 2분 = 3분
-- **Evidence / Decision References:** BEAT-058, DEMO-04B, TRIAL-006, DEC-0016, TRIAL-007, DEMO-04A, DEC-0021, TRIAL-008, INV-DEMO-003, BEAT-059, DEC-0081
+- **Evidence / Decision References:** BEAT-058, DEMO-04B, TRIAL-006, DEC-0016, TRIAL-007, DEMO-04A, DEC-0021, TRIAL-008, INV-DEMO-003, BEAT-059, DEC-0081; DEC-0094
 
 #### S100 — GPU 변경 뒤, 검증 조건을 다시 본다
 
@@ -2638,22 +2646,22 @@ ACT별 Mode 대조:
 - **Section:** 4G C++ Vision Transfer + 4H Discussion / Transition
 - **Working Title:** GPU 변경 뒤, 검증 조건을 다시 본다
 - **Primary Role:** C++의 한 가상 조건 변화에서 확인할 근거와 지침·검증 기준의 유지 질문을 닫고 전체 여정 회수는 S102에 넘긴다.
-- **Audience Question:** “같은 검사 코드라도 GPU가 바뀌면 예전 검증 조건을 그대로 써도 될까요?”
-- **Core Message:** 같은 검사 코드가 새 GPU에서 실행된다는 가정에서 기존 판단의 조건·측정 비교 조건·보존할 동작 명세를 다시 본다. 반복되는 점검은 원인과 근거를 확인한 뒤 관련 지침·검증 기준을 검토·갱신하고 재평가하는 질문으로 닫는다.
+- **Audience Question:** 이번에 확인한 장치·측정·명세 조건을 다음 작업에서도 쓰려면 무엇을 남겨야 할까?
+- **Core Message:** 같은 검사 코드가 새 GPU에서 실행된다는 가정에서 기존 판단의 조건·측정 조건·동작 명세를 확인한다. 반복할 확인은 기록하고 원인·근거에 맞춰 기준 후보를 검토·갱신한 뒤 재평가해 다음 작업에 적용하도록 설계한다. 평가 결과에 따른 유지·재수정·중단 판단을 함께 회수한다.
 - **Story Beat:** BEAT-059, TRANS-012
 - **Curriculum Trace:** ACT 4 → ACT 5 handoff.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; GPU architecture나 toolchain 변화는 교육용 예시이지 Demo에서 실제 발생한 일이 아니다.
-- **Visual Concept:** 기존 AI 생성 삽화의 bytes/crop을 유지한다. 같은 검사 코드가 새 GPU에서 실행된다는 한 가정과 기존 가정/측정 조건/동작 명세를 연결한다. 질문 본문을19.5pt로 확대하고 하단은 지침·검증 기준 질문으로 닫는다.
+- **Visual Concept:** 기존 입력·처리 코드·GPU·출력 삽화와 오른쪽3질문을 보존한다. 하단을 조건 기록→기준 검토·갱신→재평가→다음 작업 적용의 한 줄 흐름으로 바꿔 이번 확인이 다음 실행의 기준으로 이어지는 교육용 설계를 보여준다.
 - **Demo / Case Connection:** 같은 검사 코드가 새 GPU에서 실행된다는 가상 조건에서 기존 가정·측정 조건·동작 명세를 재검토한다. 실제 오류·원인·성능 결과는 만들지 않는다.
 - **Beginner Payoff:** 장치가 바뀌면 예전 검증 조건을 다시 확인하고, 반복해서 필요한 기준을 다음 작업에서도 찾을 수 있게 유지한다.
 - **Advanced Payoff:** 프로젝트·실행 조건 변화에 따라 성능 비교 가정과 동작 명세·검증 절차의 유효성을 재검토하고 원인이 지지하는 출처만 갱신한다.
 - **C++ Vision Bridge:** 이번 장의 중심. 목록보다 “변화 후 검증 조건을 다시 확인한다”는 패턴에 집중한다.
-- **Speaker Intent:** 변화한 조건에 맞는 근거를 확인하고 필요한 지침·검증 기준을 검토·갱신한다는 적용 질문을 닫는다. 무조건 규칙을 늘리거나 특정 Layer를 정답으로 주지 않는다. 마지막4분은 ACT4 적용 판단이며 전체 교육의 여정은 S102이 맡는다.
-- **Transition:** “다음 작업에도 맞게 일하도록 근거를 확인하고 기준을 검토하는 것이 이번 ACT의 요점입니다. 이제 전체 교육에서 어떤 문제에 대응해 왔는지는 다음 장에서 한 번에 연결하겠습니다.” ACT5 S102으로 이동한다. 기존 연결 질문을 유지한 채 ACT 5 제목 S101를 거쳐 S102의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
+- **Speaker Intent:** 같은 검사 코드가 새 GPU에서 실행된다는 가정에서 기존 판단의 조건·측정 조건·동작 명세를 확인한다. 반복할 확인은 기록하고 원인·근거에 맞춰 기준 후보를 검토·갱신한 뒤 재평가해 다음 작업에 적용하도록 설계한다. 평가 결과에 따른 유지·재수정·중단 판단을 함께 회수한다. 화면의 실제 관찰과 교육용 설계·후속 제안을 구분한다.
+- **Transition:** “이번 목표를 검증해 마치는 루프와, 그 경험을 다음 작업의 체계로 돌리는 루프를 구분했습니다. 이제 S101을 거쳐 S102에서 전체 여정을 연결하겠습니다.”
 - **Estimated Time:** 20분
 - **Delivery Mode Allocation:** Case 7분 + Reflection 2분 + Q&A 7분 + Transition 4분 = 20분
-- **Evidence / Decision References:** BEAT-059, TRANS-012, DEC-0021, INV-DEMO-003, DEC-0081
+- **Evidence / Decision References:** BEAT-059, TRANS-012, DEC-0021, INV-DEMO-003, DEC-0081; DEC-0094
 
 ### ACT 5 — 15 slides / 40 minutes
 

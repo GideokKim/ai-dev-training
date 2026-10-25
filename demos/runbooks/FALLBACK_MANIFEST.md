@@ -1,23 +1,23 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0093 local static-file inventory only (2026-10-25).
+Status: READY — DEC-0094 local static-file inventory only (2026-10-25).
 Windows/product/account/room/timed rehearsal: UNVERIFIED.
 
 ## Current source identities
 
 - Source: production/AI_Dev_Training_Full.pptx
-- Source SHA-256: c8cdd709e78d36d0be235d6c101c2582e8779f65e4d988423f21cd171e70682d
-- Full Notes SHA-256: 5664f7b22fa36824547fb735cbb63ec99b035dfac25a3da8ee8be4349e599596
-- Full montage SHA-256: 2f27a8585058d66c66c80b6a29d85c479ad03f68adc059a2b1d7428fdf74535b
+- Source SHA-256: 09e9b4a2f25b2131fc746618839fc113c128e3dc3fa42fdd656c1100c0d3305f
+- Full Notes SHA-256: b0317d8c082ad0719be0261f2784e8a194cd01cd52de5c324deafcf38c587296
+- Full montage SHA-256: a0488fd41fc88377444030ad8b752a59c9ff0a38ddf5755697d8d052942ea71b
 - Current Full:115slides/406minutes.34retained Demo fallback roles.
-- Current ACT4:S82-S100,19pages/81minutes; original budgets/evidence retained.
+- Current ACT4:S82-S100,19pages/81minutes; original composition/budgets/evidence retained;8screens clarified.
 - Current IDs follow SLIDE_ID_MIGRATION_115.md. New S63/S68 are Lecture tips,
   excluded from this observed-Demo inventory. They add no Trial or Live approval.
 - New tip PNGs are static educational examples, not raw creation/execution captures.
 - Native fonts Malgun Gothic/Consolas; local aliases AppleSDGothicNeo/Menlo.
 - Final package/Notes/ACT/PNG parity and34paths/hashes checked locally.
 - Earlier provenance retains its dated edition. No presenter bundle.
-- [Result](../../production/evaluation/CODEX_AUTHORING_TIPS.md).
+- [Result](../../production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md).
 
 ## Historical provenance — DEC-0086 and earlier
 
@@ -211,8 +211,8 @@ minutes, Trial, actual integration result or live approval. [Current result](../
 | S85 | `production/preview/full/S85.png` |1920×1080| `b168fd1c2aeef19a75828f78f81cf0bc281524ea5553a99801674cab71e19827` |
 | S87 | `production/preview/full/S87.png` |1920×1080| `4d869feb0ef85475ca7ceea929c69f53ca6f972d20b048e4940807b741d40763` |
 | S88 | `production/preview/full/S88.png` |1920×1080| `7c732dba1cec4c4fd4947d2498635ddb0dd6c6b3a61c7159b238a18cb7b460bf` |
-| S92 | `production/preview/full/S92.png` |1920×1080| `fcb3b34a9c1003be3c7ea0cc88c9e1f3065c74521fe0c0848351971ab32571fb` |
-| S94 | `production/preview/full/S94.png` |1920×1080| `88c7ffdfe395c85cadfa1a907d3f5077de7d41772fd80bdc98d5d98aa487e7a3` |
+| S92 | `production/preview/full/S92.png` |1920×1080| `c652d4c939f18d6a6f12737521683354a33673d65e092822e2879470a8e586f1` |
+| S94 | `production/preview/full/S94.png` |1920×1080| `4e42d17279068cb74bbcf8355e624ecb968e823d0cd604ecd31a9208e8da2f0b` |
 | S95 | `production/preview/full/S95.png` |1920×1080| `72918408f0552f9c6db4423489829dc6af3df8cd7af31400f27a11b6f5f55a7b` |
 | S96 | `production/preview/full/S96.png` |1920×1080| `453c505c436202fa15e96263e2cdee8293a6cd78ec19fd02fdb83e891e2a8a4d` |
 | S97 | `production/preview/full/S97.png` |1920×1080| `0b18811def0623518717e74a500f416154ddfd98217274b5e15a399eb5f0cdc9` |

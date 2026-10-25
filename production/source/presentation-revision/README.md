@@ -1,5 +1,7 @@
 # Current presentation source
 
+Current ACT4: DEC-0094. Apply `act4-loop-control.mjs` at current115IDs after all retained adapters/title factories. Only S83/S86/S90/S91/S92/S94/S99/S100 screens change; Notes also align S93/S98 transitions. Keep every budget, Mode, evidence class and native evidence owner. Build Full plus ACT4 with `--release --release-acts=4`, then review the exact final115/19renders. No bundle or Demo change.
+
 Current: DEC-0093 /115slides/406minutes. `codex-authoring-tips.mjs` applies113-to115 numbering after the retained113factories, then adds S63/S68. Both use T03-C and are documented-guidance diagrams, not actual creation/execution. Current chart owner S66; native tables S53/S62/S92. All retained pictures, budgets and evidence stay unchanged. Full and all ACT packages align current Notes/IDs; final tip indexes S112-S114 contain19tips. See `plan/CODEX_AUTHORING_TIPS.md` and `plan/SLIDE_ID_MIGRATION_115.md`. Earlier stages below remain historical.
 
 Historical content: DEC-0092 /113slides/402minutes unchanged. `harnessReuseFactories()` preserves S72/S73 reuse and replaces S74-S79 with the missing feedback from repeated human corrections. S75-S77 are conceptual. S73 Notes transition and S110 tip title align; ACT4 stays19pages/81minutes with identical screens/Notes/allocations. Finalize Full plus ACT3/ACT5 with `--release --release-acts=3,5`; preserve the other ACT packages. See `plan/ACT3_LOOP_HANDOFF.md`. Earlier sections retain their historical implementation scope.

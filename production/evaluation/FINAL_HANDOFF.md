@@ -1,5 +1,41 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+현재 기준: **DEC-0094 /115장·406분(6시간46분)**. ACT4 S82–S100의19장·81분과
+기존 순서·시간·Mode·기획·근거 범위를 유지하며, 두 루프와 평가 뒤 판단·다음 작업
+연결을 다듬었다. 화면8개, Notes10개를 정렬했다. 실제 Meta 확인은 부분적이며
+남은 불일치의 후속 검토는 제안/미실행으로 표시한다.
+
+최종 Full115장과 ACT4 19장을 재입력해134PNG를 새로 렌더링했다. 기존5ACT96장과
+합친230PNG의 Full/ACT115장 대응,115×19Notes·내장/Markdown·시간/Mode를 확인했다.
+미수정107화면·105Notes와 나머지5ACT PPTX/Notes, 모든 기존 그림의 bytes/crop/배치를
+보존했다. 표 S53/S62·차트 S66은 그대로이며 S92는 Native 평가 표로 유지했다.
+Package/layout findings0; 기존 S53 표0.01in 추정 경고는 기준판과 동일하다.
+
+ACT별 시간은43/64/82/96/81/40분이며 전체 Mode는164/73/88/21/28/32분이다.
+12Templates/28Variants·19Notes 필드·19본문 팁·마지막 목록 S112–S114·34Fallback 유지.
+Windows·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED다.
+Demo 저장소·원본 근거·Prototype·발표 묶음 변경과 새 Trial·성과 주장 없음.
+
+[ACT4 결과](ACT_4_LOOP_CONTROL_REVISION.md), [설계](../../plan/ACT4_LOOP_CONTROL.md),
+[주요4장](../preview/full/act4-loop-control.png), [전후 연결](../preview/full/act4-loop-handoffs.png),
+[ACT4 전체](../preview/act4/montage.png), [사용자 확인](USER_VALIDATION_CHECKLIST.md).
+
+## 현재 파일 식별
+
+| 파일 | SHA-256 |
+|---|---|
+| production/AI_Dev_Training_Full.pptx | `09e9b4a2f25b2131fc746618839fc113c128e3dc3fa42fdd656c1100c0d3305f` |
+| production/ACT_0.pptx | `1e3794fa89ca0ccd039eeac54f43b679d82c3f8c1ecc6f6e0b384cc9630b6109` |
+| production/ACT_1.pptx | `4cf6f12e55cbace8b4deac8ce3267bd94a1d0fa0687817f85e7416a3fbb83901` |
+| production/ACT_2.pptx | `baa82f305eb9c8b578d5a3433bea80f3a8ba1cddfc0045c107c4bfffab6b2ab6` |
+| production/ACT_3.pptx | `ce8381315dc3ae6e191cd27ed8dd62eb8d257ff4d8d46366e7e2acf66648b0ad` |
+| production/ACT_4.pptx | `af11a3627d210b70183ab1376db8abe2860d8dd5a10a311dbc5a5dd120c377e4` |
+| production/ACT_5.pptx | `07b73adac097dc21ebab88a5c8c0d122ba9cfde47ba22470808b5e833ea2ab9c` |
+| production/notes/FULL_SPEAKER_NOTES.md | `b0317d8c082ad0719be0261f2784e8a194cd01cd52de5c324deafcf38c587296` |
+| production/preview/full/montage.png | `a0488fd41fc88377444030ad8b752a59c9ff0a38ddf5755697d8d052942ea71b` |
+
+## 이전 DEC-0093 전달 안내 — 원문 보존
+
 현재 기준: **DEC-0093 /115장·406분(6시간46분)**. 기존 S62 뒤 새 S63에 Codex
 Skill 제작 팁, 기존 S66 뒤 새 S68에 조사 Agent 제작 팁을 각 Lecture2분씩 추가했다.
 두 화면은 공식 안내를 각색한 대화 요청·생성 문서 도식이며 실제 생성/실행 기록이 아니다.

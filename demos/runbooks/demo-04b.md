@@ -1,6 +1,12 @@
 # DEMO-04B — Observed Training Production Meta Case
 
-## Current operation — DEC-0092
+## Current operation — DEC-0094
+
+Retain S95 Demo2/S96 Demo4/S97 Demo2, total8minutes. S98 has the original partial follow-up. At S99 distinguish the observed reporting-criteria change and interpretation limits from the proposed, unexecuted next check of report/source differences. Do not turn it into a completed causal improvement loop.
+
+Current local artifacts/Notes align115slides/406minutes, ACT4 19/81. See production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Static-file readiness is local only; Windows, account, room and timed rehearsal remain UNVERIFIED. Earlier operation sections retain their dated edition.
+
+## Earlier operation — DEC-0092
 
 S95 identifies the actual Resize investigation and reporting-system target.
 S96 separates scoped result validity from PARTIAL Prompt attribution. S97

@@ -1,6 +1,12 @@
 # DEMO-10 — Conceptual Evaluation Set
 
-## Current operation — DEC-0081
+## Current operation — DEC-0094
+
+S92 retains the native four-task design table and5Demo minutes. Read task, requested constraint versus execution/check record, and existing-reference status. All four evaluations remain unexecuted after the hypothetical Workflow change. Prior bug/performance examples are references, not results of this change.
+
+Current local artifacts/Notes align115slides/406minutes, ACT4 19/81. See production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Static-file readiness is local only; Windows, account, room and timed rehearsal remain UNVERIFIED. Earlier operation sections retain their dated edition.
+
+## Earlier operation — DEC-0081
 
 S92 is a native four-task/risk/status table. EVAL-01/02 reference separate prior bug/performance cases; EVAL-03/04 are designed only. None is a result after this hypothetical Workflow change. Read status wording, not solid/dashed row categories. Existing5minutes: background1, task/risk examples3, selection boundary1.
 
@@ -105,7 +111,7 @@ Default is the offline static presentation. Open: `production/preview/full/S92.p
 
 Use S90.png. The whole table is conceptual evaluation design; prior-reference status is not an observed result frame.
 
-Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
+Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
 Captured Alternative provenance: DEC-0084 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 

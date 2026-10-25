@@ -1,5 +1,7 @@
 # Full Speaker Notes — AI Developer Training
 
+Current: DEC-0094 /115slides/406minutes. ACT4 retains19slides/81minutes, original per-slide budgets, Modes and evidence. Distinguish execution/improvement loops; align feedback-dependent continuation and next-task handoff. Historical headers below remain provenance.
+
 Current: DEC-0093 /115slides/406minutes.19Notes fields; only new S63/S68 add Lecture2minutes each. Existing113records preserve time/Mode/evidence with current IDs; previous edition headers remain history.
 
 Latest content revision: DEC-0092 /113slides/402minutes unchanged. S74–S79 explain the missing feedback from repeated human corrections; S73 transition and S110 tip title align. ACT4 S80–S98 and its19pages/81minutes remain unchanged. Earlier edition headers retain their provenance.
@@ -4158,7 +4160,8 @@ CONTENT ALIGNED — DEC-0090. 로컬 패키지/Notes/렌더 대조는 production
 
 Slide ID: S83
 
-Working Title: 확인한 성공을 유지하려면
+**Working Title:**
+확인한 성공을 유지하려면
 
 ACT / Section: ACT 4 / 4A  WORKING HARNESS CALLBACK
 
@@ -4166,38 +4169,47 @@ Allocated Time: 4 minutes
 
 Mode Split: Lecture 3분 + Reflection 1분
 
-Primary Message: STATE-04-PERF는 bounded task에서 검증된 성공이다. 뒤에 나올 stale 사례는 별도의 개념 사례다.
+**Primary Message:**
+STATE-04-PERF의 확인한 성공을 보존하고, 이번 목표를 완료하는 작업 수행 루프와 다음 작업의 방법을 개선하는 체계 개선 루프를 구분한다. 이 ACT는 반복 보정을 다음 작업이 읽을 기준으로 연결하는 데 집중한다.
 
-Opening Question: “앞서 정리한 정보와 절차는, 어떤 변화가 생겼을 때 다시 검토해야 할까요?”
+**Opening Question:**
+이번 작업을 완료한 경험은 다음 작업의 수행 체계를 어떻게 바꿀 수 있을까?
 
-Speaker Flow:
+**Speaker Flow:**
+1. (0:00–0:40 / Lecture) S81의 같은 보정을 되풀이하지 않으려면이라는 질문을 회수한다. 실제 밝기 통계는 출력6항목·전체11/11·같은 조건 성능 측정으로 확인한 성공이며 이후 실패나 개선을 관찰한 결과는 아니다.
+2. (0:40–1:40 / Lecture) 위쪽 작업 수행 루프는 이번 목표를 실행·검증하고 필요한 수정 후 완료하는 범위다. 모든 실행이 반드시 수정 단계로 가는 고정 순서가 아니며 평가에 따라 완료할 수 있다고 설명한다.
+3. (1:40–3:00 / Lecture) 아래 체계 개선 루프는 여러 실행에서 얻은 기록·사람의 보정을 재사용할 지침과 평가 기준에 연결하는 범위다. 이 ACT는 후자에 집중한다. 모델 가중치의 자동 학습이나 완전자율 운영을 뜻하지 않는다. S94에서 평가 후의 분기를 묶는다.
+4. (3:00–4:00 / Reflection) 앞에서 고른 반복 보정 하나가 이번 요청에서만 끝나는지, 다음 작업이 읽을 기준에도 필요한지 생각하게 한다. 답변이나 실습은 요구하지 않는다. S84부터 실제 성공과 별개인 가상 사례를 시작한다.
 
-1. (0:00–0:45 / Lecture) S81에서 위치·검토/갱신 역할을 생각했다는 점을 회수한다. 실제 밝기 통계는 출력6항목·전체 테스트11/11·같은 조건의 측정/guard를 확인한 성공으로 마쳤다고 짧게 남긴다. S66의 수치나 명령을 다시 풀어 설명하지 않는다.
-2. (0:45–2:15 / Lecture) 기록된 성공은 그 입력·코드·환경과 검증 조건의 기준점이다. 이후 다른 조건에서도 맞는지까지 검증한 것은 아니다. 현재 성공을 실제 실패나 stale Harness 이력으로 바꾸지 않는다.
-3. (2:15–3:00 / Lecture) 이번 ACT는 현재 기준과 재사용 지침을 계속 맞게 유지하고, 바꿨다면 다시 확인하는 문제를 다룬다고 안내한다. 완성 Loop나 가상 사례의 답을 먼저 제시하지 않는다.
-4. (3:00–4:00 / Reflection) S81에서 떠올린 한 가지에 대해 어떤 기준/환경 변화가 담당자의 재검토를 요구할지 조용히 생각하게 한다. 앞 장의 위치·담당 선택을 다시 시키거나 답변/산출물을 요구하지 않는다. 다음 S84부터 별도 가상 사례가 시작된다.
+**Evidence / Source:**
+STATE-04-PERF / bounded image_statistics evidence; DEC-0021/0062/0080; BEAT-037/038. 설계 참고(2026-10-25 확인): Addy Osmani, https://addyosmani.com/blog/loop-engineering/ ; OpenAI, https://developers.openai.com/cookbook/examples/agents_sdk/agent_improvement_loop . 용어의 일반 용례와 이 교육의 체계 개선 중심 모델을 구분한다. 제품 기능·계정·자동 실행을 확인한 근거가 아니다.
 
-Evidence / Source: STATE-04-PERF / bounded image_statistics evidence; DEC-0021/0062/0080; BEAT-037/038.
+**Claim Boundary:**
+OBSERVED_PRODUCT callback이다. 기록된 task·코드·입력·runtime·host·검증 조건에 한정한다. 이후 변화/실패를 관찰한 것이 아니며 유지 문제의 질문과 실제 결과를 구분한다. DEC-0094의 루프 구분·평가 후 선택·다음 작업 연결은 교육용 설계다. 실제 새 실행·자동 제어·개선 성과·제품 기능을 확인한 것이 아니다.
 
-Claim Boundary: OBSERVED_PRODUCT callback이다. 기록된 task·코드·입력·runtime·host·검증 조건에 한정한다. 이후 변화/실패를 관찰한 것이 아니며 유지 문제의 질문과 실제 결과를 구분한다.
+**Beginner Explanation:**
+이번 일의 답을 고치는 것과 다음 일에서도 사용할 방법을 고치는 것은 범위가 다르다.
 
-Beginner Explanation: 이번 작업의 성공을 기준으로 남기고, 어떤 조건 변화가 다시 확인할 신호가 되는지 생각한다.
-
-Advanced Insight: 검증된 한 상태와 지속적인 유효성은 다르다. 이 차이가 별도 개념 사례를 여는 이유이며 실제 Product history는 연장하지 않는다.
+**Advanced Insight:**
+Inner execution control and outer system improvement overlap in practice. This course emphasizes evidence-led Harness improvement without claiming an industry-wide replacement or fully automated execution.
 
 C++ Vision Bridge: 없음.
 
-Demo Operation: 추가 실행 없이 세 성공 근거를 짧게 회수하고 유지 문제로 이동한다. 과거 수치를 성과 발표처럼 반복하지 않는다.
+**Demo Operation:**
+N/A — Lecture/Reflection 유지. 위 첫 줄의 실제 성공 범위와 아래 교육용 두 흐름을 분리해서 짚는다. 새 실행·Demo 시간은 추가하지 않는다.
 
 Audience Interaction: Reflection1분: 앞에서 고른 자료에 어떤 변화가 생기면 다시 확인할지 생각한다. 기록·공개 답변은 요구하지 않는다.
 
-Transition: “이 성공은 그대로 남기겠습니다. 별도의 가상 프로젝트에서 기준과 재사용 절차가 처음에는 맞았던 상태부터 보겠습니다.”
+**Transition:**
+“이번 작업을 마치는 것과 다음 작업의 방법을 바꾸는 것을 구분했습니다. 가상 사례에서 기준과 재사용 절차가 처음에는 맞았던 상태부터 보겠습니다.”
 
-Time Management: Lecture3분(성공 회수0.75, 적용 범위1.5, 유지 문제0.75) + Reflection1분. 실제4분 운영은 UNVERIFIED다.
+**Time Management:**
+Lecture3분+Reflection1분=4분 유지. 실제 성공40초, 작업 수행 루프1분, 체계 개선의 범위1분20초, 성찰1분. 4분에 가상 사례로 넘긴다. 실제 리허설 UNVERIFIED.
 
 Fallback: LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S83, production/preview/act4/S83.png 및 production/preview/full/S83.png. 표시된 실제/가상/교육용 모델의 경계를 유지한다. 최종 파일·fallback 확인은 production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
-Validation Status: ALIGNED — DEC-0080의19필드·기존 시간/Mode·운영 순서를 정렬했다. 최종 패키지·PNG·내장 Notes 대조는 production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+**Validation Status:**
+ALIGNED — DEC-0094. Final package/render/Notes audit: production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Windows PowerPoint / room / actual product-account / timed rehearsal UNVERIFIED.
 
 ## S84 — 처음에는 기준과 재사용 절차가 맞았다
 
@@ -4292,7 +4304,8 @@ Validation Status: ALIGNED — DEC-0080의19필드·기존 시간/Mode·현재 �
 
 Slide ID: S86
 
-Working Title: 이번 요청과 다음 작업의 지침
+**Working Title:**
+이번 요청과 다음 작업의 지침
 
 ACT / Section: ACT 4 / 4B  CONCEPTUAL STALE HARNESS / DEMO-04A
 
@@ -4300,19 +4313,21 @@ Allocated Time: 3 minutes
 
 Mode Split: Case 3분
 
-Primary Message: 이번 요청을 단위+통합 검증으로 보정할 수 있어도 재사용 Workflow의 단위 테스트 지시는 그대로 남을 수 있다. 현재 Task의 요청 범위와 재사용 절차의 변경을 구분한다.
+**Primary Message:**
+현재 요청에 통합 검증을 추가해 이번 작업을 완료하도록 보정해도, 다음 작업이 읽을 재사용 지침은 자동으로 바뀌지 않는다. 다음에도 필요한 보정이라면 원인을 확인하고 체계 개선 루프의 대상으로 검토한다.
 
-Opening Question: “이번 요청을 보정하면, 다음 작업이 읽을 지침까지 달라질까요?”
+**Opening Question:**
+이번 요청이 완료되면, 다음 작업의 지침도 함께 바뀌었을까?
 
-Speaker Flow:
-
-1. (0:00–1:00 / Case) 왼쪽 이번 요청에 ‘통합 테스트도 확인해 줘’를 적는 가능한 대응을 읽는다. 실제 실행이나 복구 성공을 보여주는 프롬프트 캡처가 아니다.
-2. (1:00–2:00 / Case) 오른쪽 다음 작업이 읽을 Workflow에는 단위 테스트 지시만 남을 수 있음을 비교한다. 요청 보정과 지침의 검토·갱신은 서로 다른 출처에 대한 조치다.
-3. (2:00–3:00 / Case) 다음 작업까지 바꾸려면 재사용 출처를 검토해야 하지만 어떤 것을 수정할지는 원인을 확인한 뒤 판단한다고 회수한다. S87에서 확인할 기록을 먼저 고른다.
+**Speaker Flow:**
+1. (0:00–0:50 / Case) 왼쪽 요청 상자의 통합 테스트도 확인해 줘를 읽는다. 아래 세 단계는 이렇게 이번 작업을 마칠 수 있다는 교육용 설계이며 실행·완료 기록이 아니다.
+2. (0:50–1:50 / Case) 오른쪽 다음 작업의 Workflow에는 단위 테스트만 지시하는 가정을 비교한다. 작업 수행 루프의 완료와 체계 개선 루프에서 다룰 출처는 다르다. 요청 보정이 공통 지침에 자동 반영되지 않는다.
+3. (1:50–3:00 / Case) 다음에도 필요한 보정인지, 원인이 이 지침인지 먼저 확인해야 한다고 회수한다. 변경이 항상 필요하거나 Workflow가 항상 정답인 것은 아니다. S87의 기록 대조로 연결한다.
 
 Evidence / Source: DEMO-04A / conceptual response comparison / DEC-0080; no execution result.
 
-Claim Boundary: 가능한 요청 보정과 남아 있는 지침의 가상 비교다. 실제 실행·복구·누락·PASS/FAIL 결과가 아니다.
+**Claim Boundary:**
+가능한 요청 보정과 남아 있는 지침의 가상 비교다. 실제 실행·복구·누락·PASS/FAIL 결과가 아니다. DEC-0094의 루프 구분·평가 후 선택·다음 작업 연결은 교육용 설계다. 실제 새 실행·자동 제어·개선 성과·제품 기능을 확인한 것이 아니다.
 
 Beginner Explanation: 이번 요청에 더 쓴 내용은 다른 작업의 기본 지침을 자동으로 고치지 않는다.
 
@@ -4320,17 +4335,21 @@ Advanced Insight: Task-level workaround와 durable instruction change를 구분�
 
 C++ Vision Bridge: 없음.
 
-Demo Operation: 정적 요청 상자와 별도 재사용 지침 상자를 비교한다. 실제 제품 입력창 캡처나 Agent 실행이 아니다.
+**Demo Operation:**
+Case3분의 정적 교육용 비교. 왼쪽 요청/가능한 완료 흐름과 오른쪽 변하지 않은 지침을 비교한다. 실제 Prompt 입력창·실행·완료 기록이 아니다.
 
 Audience Interaction: 이번 요청과 다음 지침의 차이를 눈으로 비교한다. 별도 응답·실습은 요구하지 않는다.
 
-Transition: “어디를 고치기 전에, 실제로 어떤 기준과 지침을 썼는지부터 확인하겠습니다.”
+**Transition:**
+“다음 작업에도 필요한 보정이라면 출처를 검토해야 합니다. 다만 지침이 원인인지는 어떤 기록으로 확인할까요?”
 
-Time Management: Case3분: 요청1, 남은 지침1, 원인 확인으로 연결1. 실제 리허설은 UNVERIFIED다.
+**Time Management:**
+Case3분 유지. 요청과 가능한 완료 흐름50초, 다음 지침과의 차이1분, 원인 확인 질문1분10초. 새 완료 결과를 만들지 않는다.
 
 Fallback: LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S86, production/preview/act4/S86.png 및 production/preview/full/S86.png. 표시된 실제/가상/교육용 모델의 경계를 유지한다. 최종 파일·fallback 확인은 production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
-Validation Status: ALIGNED — DEC-0080의19필드·기존 시간/Mode·운영 순서를 정렬했다. 최종 패키지·PNG·내장 Notes 대조는 production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+**Validation Status:**
+ALIGNED — DEC-0094. Final package/render/Notes audit: production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Windows PowerPoint / room / actual product-account / timed rehearsal UNVERIFIED.
 
 ## S87 — 원인을 고르기 전에 확인할 기록
 
@@ -4467,7 +4486,8 @@ Validation Status: ALIGNED — DEC-0080의19필드·기존 시간/Mode·운영 �
 
 Slide ID: S90
 
-Working Title: 확인된 범위만 검토하고 갱신한다
+**Working Title:**
+확인된 범위만 검토하고 갱신한다
 
 ACT / Section: ACT 4 / 4C  CAUSE / CHANGE
 
@@ -4475,19 +4495,21 @@ Allocated Time: 2 minutes
 
 Mode Split: Lecture 1분 + Case 1분
 
-Primary Message: 이 사례에서 stale Workflow가 원인으로 확인됐다고 가정하면 우선 그 Workflow를 갱신한다. 중복된 오래된 지침은 원인일 때만 제거한다.
+**Primary Message:**
+Workflow가 원인으로 확인됐다는 가정에서 현재 기준에 맞는 변경 후보를 만들고 검토한다. 같은 작업과 대표 작업의 재평가를 거쳐 채택·재수정을 판단하며, 파일 갱신만으로 적용을 완료했다고 보지 않는다.
 
-Opening Question: “갱신 담당과 검토 담당은 무엇을 확인해야 할까요?”
+**Opening Question:**
+지침을 고쳤다는 사실만으로 다음 작업에 적용해도 될까?
 
-Speaker Flow:
-
-1. (0:00–1:00 / Lecture) Workflow가 원인으로 확인됐다는 가정 안에서 기존 단위 테스트 지시를 현재 기준인 단위+통합으로 갱신하는 범위를 짚는다. ‘최소’는 무조건 적게 고치는 뜻이 아니라 원인이 지지하는 범위다. 오래된 중복 지침도 원인일 때만 정리하고 관련 없는 규칙은 임의로 바꾸지 않는다.
-2. (1:00–1:40 / Case) 아래 세 역할을 가리킨다. 갱신 담당은 확인된 지침을 수정하고, 검토 담당은 현재 기준·변경 범위가 맞는지 확인하며, 이후 같은 작업과 대표 작업으로 다시 평가한다. 담당은 예시 역할이고 실제 팀 구성원을 배정한 것이 아니다. 검토·갱신을 같은 사람이 맡을 수도 있으며 자동 자기 수정으로 설명하지 않는다.
-3. (1:40–2:00 / Case) S81의 ‘어디에 두고 누가 유지할까’를 이 가상 유지 문제에서 회수했다고 정리한다. 실제 수정/재평가 결과는 없으며 S91에서 무엇을 확인해야 하는지로 넘어간다.
+**Speaker Flow:**
+1. (0:00–1:00 / Lecture) 재사용 Workflow가 원인으로 확인됐다는 가정 안에서 현재 기준인 단위+통합으로 변경 후보를 만드는 범위를 짚는다. 관련 없는 규칙은 유지하고 오래된 중복도 원인과 범위가 뒷받침할 때만 정리한다.
+2. (1:00–1:40 / Case) 갱신 담당은 후보를 수정하고 검토 담당은 원인·현재 기준·변경 범위를 확인한다. 같은 사람이 맡을 수도 있다. 마지막 채택 전 확인은 같은 작업과 대표 작업으로 재평가하고 후보를 채택할지 재수정할지 판단하는 단계다.
+3. (1:40–2:00 / Case) 변경과 채택을 분리한다. 실제 변경·검토·재평가·채택을 관찰한 결과가 아니며 S91에서 판단에 필요한 자료를 설계한다.
 
 Evidence / Source: DEMO-04A / BEAT-045/046 / INV-LOOP-001 / CLM-0020/0029 / DEC-0080.
 
-Claim Boundary: CONCEPTUAL / TEACHING_MODEL. 원인 확인을 가정한 지침 갱신과 역할의 예시다. 실제 담당 배정·Product/Skill 변경·재평가 성공을 만들지 않는다.
+**Claim Boundary:**
+CONCEPTUAL / TEACHING_MODEL. 원인 확인을 가정한 지침 갱신과 역할의 예시다. 실제 담당 배정·Product/Skill 변경·재평가 성공을 만들지 않는다. DEC-0094의 루프 구분·평가 후 선택·다음 작업 연결은 교육용 설계다. 실제 새 실행·자동 제어·개선 성과·제품 기능을 확인한 것이 아니다.
 
 Beginner Explanation: 바꿀 지침과 바꿀 범위를 정하고, 누가 수정·검토하며 무엇으로 다시 확인할지 연결한다.
 
@@ -4495,17 +4517,21 @@ Advanced Insight: 원인과 변경 범위를 일치시키며 사람의 유지 �
 
 C++ Vision Bridge: 없음.
 
-Demo Operation: 정적 전후 지침과 아래 역할을 가리킨다. 실제 diff·Agent 실행·테스트 결과는 없다.
+**Demo Operation:**
+가상 지침 후보와 갱신/검토/채택 전 확인 역할을 정적으로 짚는다. 실제 diff·담당 배정·재평가 결과는 없다.
 
 Audience Interaction: 담당을 직접 정하거나 문서를 작성하게 하지 않는다. 역할 관계만 설명한다.
 
-Transition: “이 지침을 바꿨다면, 같은 작업을 다시 확인하는 것만으로 충분할까요?”
+**Transition:**
+“변경 후보를 만들었다면, 어떤 기록을 보고 채택하거나 다시 수정할지 판단할까요?”
 
-Time Management: Lecture1분(원인/범위·전후 지침) + Case1분(역할0.67, 재평가 질문0.33). 실제 리허설은 UNVERIFIED다.
+**Time Management:**
+Lecture1분+Case1분=2분 유지. 원인·후보 범위1분, 역할과 평가40초, 다음 확인 질문20초.
 
 Fallback: LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S90, production/preview/act4/S90.png 및 production/preview/full/S90.png. 표시된 실제/가상/교육용 모델의 경계를 유지한다. 최종 파일·fallback 확인은 production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
-Validation Status: ALIGNED — DEC-0080의19필드·기존 시간/Mode·운영 순서를 정렬했다. 최종 패키지·PNG·내장 Notes 대조는 production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+**Validation Status:**
+ALIGNED — DEC-0094. Final package/render/Notes audit: production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Windows PowerPoint / room / actual product-account / timed rehearsal UNVERIFIED.
 
 ## S91 — 지침을 고친 뒤, 무엇을 다시 확인할까?
 
@@ -4513,8 +4539,7 @@ Slide ID:
 
 S91
 
-Working Title:
-
+**Working Title:**
 지침을 고친 뒤, 무엇을 다시 확인할까?
 
 ACT / Section:
@@ -4529,27 +4554,25 @@ Mode Split:
 
 Lecture 1분 + Case 3분
 
-Primary Message:
+**Primary Message:**
+변경 후보는 같은 작업의 검증 범위와 다른 작업의 불필요한 절차를 나눠 평가한다. 실행 명령·검사 로그·최종 보고를 요청/지침과 대조하고 그 근거로 채택·재수정·판단 보류를 결정하도록 설계한다.
 
-단위 테스트 지침을 단위+통합으로 갱신했다고 가정하면, 같은 작업이 요구 범위를 다루는지와 다른 작업을 방해하지 않는지를 각각 확인해야 한다. 결과가 나온 사례가 아니라 평가 질문의 설계다.
-
-Opening Question:
-
-“단위+통합으로 지침을 바꿨다면, 그 작업만 다시 확인하면 충분할까요?”
+**Opening Question:**
+무슨 기록을 확인해야 지침 변경 후보를 채택하거나 재수정할 수 있을까?
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) S90의 가상 지침 갱신을 회수한다. 현재 기준에 맞춰 단위+통합 지시로 바꿨다고 가정했지만, 실제 변경이나 재실행을 관찰한 것은 아니다.
-2. (1:00–2:30 / Case) 왼쪽은 같은 작업이 요구했던 검증 범위를 이제 다루는지 묻는다. 오른쪽은 문서만 수정하는 다른 작업에도 불필요한 검증을 강요하는지 묻는다. 테스트 종류와 지침을 적용할 작업 종류를 구분한다.
-3. (2:30–4:00 / Case) 이번 문제의 해결 확인과 주변 작업의 영향 평가는 범위가 다르다고 닫는다. S92에서 서로 다른 위험을 확인할 대표 작업을 고른다. 통과나 안전성이 확인됐다는 결과를 만들지 않는다.
-운영 표시: “실무 적용 팁 · 검증·개선” 배지로 다시 찾아 쓸 기준임을 짚는다. 기존 설명·근거 범위와 배정 시간 안에서 진행하며 요청·예시를 새로 실행하지 않는다.
+1. (0:00–1:00 / Lecture) S90의 변경 후보를 회수한다. 단위+통합으로 지침을 바꿨다는 가정이며 실제 변경이나 재실행은 아니다. 후보와 채택된 기준을 구분한다.
+2. (1:00–2:20 / Case) 왼쪽 질문과 아래 기록을 연결한다. 검사 결과가 통과했다는 문장만으로 지침 수행 전체를 판단하지 않고 요청한 범위를 실제 실행 명령·검사 로그·최종 보고가 다루는지 대조하도록 설계한다.
+3. (2:20–3:30 / Case) 오른쪽 문서 작업은 요청 범위·적용 지침·실행 기록을 비교한다. 불필요한 통합 검증이 요구되는지 확인하기 위한 평가이며 실제 낭비·실패가 발생했다는 결과는 없다.
+4. (3:30–4:00 / Case) 충분한 근거로 채택하거나 미충족이면 재수정하고 판단 근거가 부족하면 보류한다는 선택을 회수한다. S92는 이 대조에 사용할 대표 작업의 종류를 맡는다.
+운영 표시: 실무 적용 팁 · 검증·개선. 기존4분 안에서 설명하며 추가 실습·실행은 하지 않는다.
 
 Evidence / Source:
 
 DEMO-04A  ·  designed rerun and system evaluation path; DEC-0080.; DEC-0081 (presentation/operation alignment).
 
-Claim Boundary:
-
-이 재실행과 확장 검증은 conceptual design이다. 실행 결과, pass count, regression success를 보여주지 않는다.
+**Claim Boundary:**
+이 재실행과 확장 검증은 conceptual design이다. 실행 결과, pass count, regression success를 보여주지 않는다. DEC-0094의 루프 구분·평가 후 선택·다음 작업 연결은 교육용 설계다. 실제 새 실행·자동 제어·개선 성과·제품 기능을 확인한 것이 아니다.
 
 Beginner Explanation:
 
@@ -4563,29 +4586,25 @@ C++ Vision Bridge:
 
 같은 build/test 시나리오 재실행은 필요하지만 전체 회귀 위험을 모두 해소하지 않는다.
 
-Demo Operation:
-
-왼쪽 같은 작업과 오른쪽 문서 수정 작업의 확인 질문을 비교한다. 단위/통합은 검사 종류이고 버그/성능/문서/리팩터링은 지침을 적용할 작업 종류다. 실제 실행·PASS/FAIL은 없다.
+**Demo Operation:**
+질문과 아래 대조할 기록을 좌우로 짚는다. 지침 수행과 제품 검사 결과를 구분하며 실제 실행·PASS/FAIL은 없다.
 
 Audience Interaction:
 
 두 영역이 서로 다른 위험을 묻는다는 점을 비교한다. 답변·작업 제출은 요구하지 않는다.
 
-Transition:
+**Transition:**
+“이 대조를 한 종류의 작업에만 적용하면 충분할까요? 서로 다른 위험을 확인할 대표 작업을 고르겠습니다.”
 
-“이번 작업 외에 어떤 작업을 골라야, 바뀐 지침의 다른 영향을 확인할 수 있을까요?”
-
-Time Management:
-
-Lecture1분+Case3분=4분. 단위/통합 테스트 기술 강의를 다시 열지 않고 두 평가 범위의 차이에 집중한다.
+**Time Management:**
+Lecture1분+Case3분=4분 유지. 배경1분, 같은 작업1분20초, 다른 작업1분10초, 평가 후 선택30초. 새 평가 점수·PASS/FAIL을 만들지 않는다.
 
 Fallback:
 
 LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S91와 production/preview/act4/S91.png를 사용한다. 재구성 도식을 원본 실행 화면이나 새 Trial 결과로 표현하지 않는다.
 
-Validation Status:
-
-ALIGNED — DEC-0081의 기존 시간/Mode·19필드·화면/운영 역할을 정렬했다. 최종 렌더와 패키지 검토는 production/evaluation/ACT_4_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+**Validation Status:**
+ALIGNED — DEC-0094. Final package/render/Notes audit: production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Windows PowerPoint / room / actual product-account / timed rehearsal UNVERIFIED.
 
 ## S92 — 대표 작업은 서로 다른 위험을 확인한다
 
@@ -4593,8 +4612,7 @@ Slide ID:
 
 S92
 
-Working Title:
-
+**Working Title:**
 대표 작업은 서로 다른 위험을 확인한다
 
 ACT / Section:
@@ -4609,28 +4627,24 @@ Mode Split:
 
 Demo 5분 (VISUAL / CAPTURED conceptual matrix)
 
-Primary Message:
+**Primary Message:**
+대표 작업별로 요청과 실제 수행에서 대조할 기록을 정한다. 버그는 명세/검사, 성능은 측정 조건/결과, 문서는 요청 범위/불필요 절차, 리팩터링은 보존 조건/변경·검사 기록을 본다. 네 작업 모두 이 가상 변경 후 실행한 결과는 없다.
 
-대표 작업은 변경된 지침이 닿는 서로 다른 사용 방식과 회귀 위험을 확인하도록 고른다. EVAL-01/02는 별도 과거 사례를 참고한 설계, EVAL-03/04는 설계만 있으며 네 작업 모두 이 지침 변경 뒤의 실행 결과는 없다.
+**Opening Question:**
+각 대표 작업에서 어떤 요청과 수행 기록을 대조할까?
 
-Opening Question:
-
-“바뀐 지침을 어떤 작업에 적용해 봐야 서로 다른 위험을 확인할까요?”
-
-Speaker Flow:
-
-1. (0:00–1:00 / VISUAL Demo) S91의 다른 작업 질문을 회수한다. 여기서는 제품 테스트의 개수를 늘리는 대신 지침을 적용해 볼 작업 종류를 넓힌다. 표는 네 작업의 평가 설계이며 실행 성적표가 아니다.
-2. (1:00–2:15 / VISUAL Demo) 표의 왼쪽 작업 종류와 가운데 확인 질문을 행별로 읽는다. 버그 수정은 동작 명세, 성능 변경은 측정·검증 범위를 놓치지 않는지 확인하기 위한 선택이다. EVAL-01/02의 별도 과거 참고는 TRIAL-002/STATE-04-PERF다.
-3. (2:15–4:00 / VISUAL Demo) 문서만 수정하는 작업에 불필요한 절차가 강요되지 않는지, 작은 리팩터링에 다른 유효한 작업이 방해받지 않는지 묻는다. EVAL-03/04는 설계만 있다. 현재 근거 상태는 오른쪽의 문구로 구분하며 실선/점선의 행 구분을 안내하지 않는다.
-4. (4:00–5:00 / VISUAL Demo) 네 작업 모두 이번 가상 지침 변경 뒤의 실행 결과가 없다고 회수한다. 모든 프로젝트의 고정 세트로 설명하지 않고 변경 범위·흔한 작업·알려진 회귀 위험·관련 없는 작업에 맞춰 선정한다고 닫는다.
+**Speaker Flow:**
+1. (0:00–1:00 / VISUAL Demo) S91의 질문/기록 쌍을 네 종류의 작업으로 넓힌다. 표는 평가 설계이며 네 작업 모두 이 가상 Workflow 변경 후 실행 결과가 없음을 짚는다.
+2. (1:00–2:15 / VISUAL Demo) 버그 수정은 명세와 검사 범위·결과, 성능 변경은 측정 조건과 결과·동작 확인을 대조하도록 설계한다. EVAL-01/02의 별도 과거 참고는 TRIAL-002/STATE-04-PERF이며 새 지침 평가 결과가 아니다.
+3. (2:15–4:00 / VISUAL Demo) 문서만 수정은 요청 범위와 불필요한 검증 요구, 작은 리팩터링은 보존 조건과 변경·검사 기록을 대조한다. EVAL-03/04는 설계만 있다. 모든 작업에 같은 절차를 강요하지 않도록 선정한 서로 다른 위험이다.
+4. (4:00–5:00 / VISUAL Demo) 고정 네 가지가 모든 프로젝트의 정답은 아니다. 변경 범위·흔한 작업·회귀 위험에 맞춰 대표 작업과 대조 근거를 고르고 평가 뒤 채택·재수정·보류로 잇는다. 실제 실행·PASS/FAIL 수치는 없다.
 
 Evidence / Source:
 
 DEMO-10  ·  EVAL-01/02 prior Product references; EVAL-03/04 designed; DEC-0081 (presentation/operation alignment).
 
-Claim Boundary:
-
-EVAL-01/02는 별도 Product task chain의 기존 참고 Evidence다. EVAL-03/04는 설계 사례이며 결과가 없다. 이번 stale-Workflow 변경 뒤의 PASS/FAIL 또는 새 Trial은 없다.
+**Claim Boundary:**
+EVAL-01/02는 별도 Product task chain의 기존 참고 Evidence다. EVAL-03/04는 설계 사례이며 결과가 없다. 이번 stale-Workflow 변경 뒤의 PASS/FAIL 또는 새 Trial은 없다. DEC-0094의 루프 구분·평가 후 선택·다음 작업 연결은 교육용 설계다. 실제 새 실행·자동 제어·개선 성과·제품 기능을 확인한 것이 아니다.
 
 Beginner Explanation:
 
@@ -4644,29 +4658,25 @@ C++ Vision Bridge:
 
 Contextual only: 대표 작업 선택은 Vision build, benchmark, docs 같은 surface에 적용할 수 있지만 별도 C++ case는 만들지 않는다.
 
-Demo Operation:
-
-네 작업·선정 이유·기존 근거 상태를 가진 Native 표를 위에서 아래로 읽는다. 오른쪽의 과거 사례 참고와 평가 설계만 있음은 근거 상태이며 결과 판정이 아니다. 식별자 매핑은 EVAL-01 버그/TRIAL-002, EVAL-02 성능/STATE-04-PERF, EVAL-03 문서, EVAL-04 작은 리팩터링이다. 화면 전체는 Conceptual frame이고 과거 Product 결과를 새 평가 결과에 합치지 않는다.
+**Demo Operation:**
+기존5분의 정적 Native 평가 표. 네 작업과 대조할 근거/기존 근거 상태를 읽으며 EVAL-01/02의 별도 과거 참고를 이번 지침 평가 결과에 합치지 않는다.
 
 Audience Interaction:
 
 가운데 확인 질문이 왜 다른 작업을 필요로 하는지 생각하게 한다. 실제 평가나 응답 제출은 하지 않는다.
 
-Transition:
+**Transition:**
+“문서 작업도 넣은 이유는, 한 작업을 위해 넓힌 규칙이 다른 작업을 방해할 수 있기 때문입니다.”
 
-“문서 작업도 함께 본 이유가 있습니다. 한 작업을 위해 넓힌 규칙이 다른 작업에도 맞을까요?”
-
-Time Management:
-
-기존 Demo5분은 정적 평가 표에 사용한다. 실제 네 EVAL 실행이나 성공 수치를 만들지 않는다. 1분 배경, 3분 행별 위험, 1분 선정 기준·한계로 마감한다.
+**Time Management:**
+기존 VISUAL Demo5분 유지. 평가 설계1분, 버그/성능1분15초, 문서/리팩터링1분45초, 선정·판단 기준1분. 실제 네 EVAL 실행 없음.
 
 Fallback:
 
 LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S92와 production/preview/act4/S92.png를 사용한다. 재구성 도식을 원본 실행 화면이나 새 Trial 결과로 표현하지 않는다.
 
-Validation Status:
-
-ALIGNED — DEC-0081의 기존 시간/Mode·19필드·화면/운영 역할을 정렬했다. 최종 렌더와 패키지 검토는 production/evaluation/ACT_4_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+**Validation Status:**
+ALIGNED — DEC-0094. Final package/render/Notes audit: production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Windows PowerPoint / room / actual product-account / timed rehearsal UNVERIFIED.
 
 ## S93 — 한 작업에 맞춘 규칙, 다른 작업에도 맞을까?
 
@@ -4732,9 +4742,8 @@ Audience Interaction:
 
 문서만 수정하는 작업에도 같은 절차가 필요한지 생각하게 한다. 고정된 정답·새 규칙을 제시하지 않는다.
 
-Transition:
-
-“지금까지 본 기록·원인·변경·평가를 다음 판단으로 어떻게 넘기는지, Loop의 단계로 묶어 보겠습니다.”
+**Transition:**
+“평가에서 기준을 충족했는지, 수정이 필요한지, 판단할 근거가 부족한지에 따라 다음 행동을 어떻게 고를까요?”
 
 Time Management:
 
@@ -4748,15 +4757,14 @@ Validation Status:
 
 ALIGNED — DEC-0081의 기존 시간/Mode·19필드·화면/운영 역할을 정렬했다. 최종 렌더와 패키지 검토는 production/evaluation/ACT_4_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S94 — 관찰을 시스템 개선으로 잇는 Loop
+## S94 — 평가한 뒤, 다음 행동을 결정한다
 
 Slide ID:
 
 S94
 
-Working Title:
-
-관찰을 시스템 개선으로 잇는 Loop
+**Working Title:**
+평가한 뒤, 다음 행동을 결정한다
 
 ACT / Section:
 
@@ -4770,65 +4778,55 @@ Mode Split:
 
 Lecture 9분 + Demo 2분 (VISUAL)
 
-Primary Message:
+**Primary Message:**
+체계 개선은 실행→관찰→원인 판단→변경 후보→재평가를 근거로 연결한다. 평가 뒤 기준 충족은 완료/채택, 수정 가능하면 재시도, 근거 부족이나 반복·시간·비용 한도 도달은 중단/사람 확인으로 나누며 검토된 체계만 다음 작업에 적용한다. 매 실행마다 Harness를 바꿀 필요는 없다.
 
-실행의 기록을 현재 기준과 대조하고 원인 가설을 근거로 판단한 뒤, 확인된 출처·범위를 사람이 검토·갱신하고 같은·대표 작업의 영향을 재평가한다. 각 단계의 근거가 다음 판단으로 넘어가는 교육용 운영 모델이다.
+**Opening Question:**
+평가한 결과에 따라 언제 다시 시도하고, 언제 끝내거나 사람에게 넘길까?
 
-Opening Question:
+**Speaker Flow:**
+1. (0:00–2:00 / Lecture, R1) S83의 두 범위를 회수한다. 작업 수행 루프는 이번 목표의 실행·검증·필요한 수정·완료를, 체계 개선 루프는 실행 기록과 보정을 다음 작업의 수행 체계로 연결한다. 위5단계는 후자의 교육용 모델이며 매 실행마다 시스템을 바꾸라는 고정 명령이 아니다.
+2. (2:00–4:00 / Lecture, R2) 실행 기록을 현재 기준과 대조하고 원인 가설과 확인한 내용을 구분한다. 근거가 있는 범위에서만 변경 후보를 만들고 같은 작업·대표 작업으로 재평가한다. 판단 자료가 부족하면 원인 확인과 변경을 서두르지 않는다.
+3. (4:00–5:30 / Lecture, R3) 왼쪽 기준 충족→완료·채택을 읽는다. 작업 목표 충족은 해당 작업을 끝내는 판단이며 체계 개선에서는 검토한 변경만 다음 작업의 지침/검증 기준에 반영한다. 기존 방식이 충분하면 유지하고 불필요한 Harness 변경을 하지 않는다.
+4. (5:30–7:00 / Lecture, R4) 가운데 미충족·수정 가능→수정 후 재시도를 읽는다. 원인과 후보 범위를 다시 보고 무엇을 바꿨고 무엇을 확인했는지 남겨 재평가한다. 실패할 때마다 새 규칙을 무조건 추가하지 않는다.
+5. (7:00–9:00 / Lecture, R5) 오른쪽 근거 부족·한도 도달→중단·사람 확인을 읽는다. 설계 시 반복·시간·비용 한도와 넘길 책임을 정해야 한다. 여기서는 숫자나 특정 제품의 자동 기능을 확정하지 않는다. 시도·검증 결과·미해결 사항·실행 조건을 보존해 이어받는 사람이 같은 일을 되풀이하지 않도록 설계한다.
+6. (9:00–11:00 / VISUAL Demo) 위 단계에서 아래 세 판단으로 한 번 내려 읽는다. 완료는 다음 작업에 검토된 기준을 넘기고, 재시도는 새 기록으로 재평가하며, 중단은 기록과 남은 문제를 사람에게 넘기는 경로다. 정적 설명 도식이고 실제 자동 반복·종료·채택 결과가 아니다. 다음은 실제 제작 기록의 부분적 적용 사례다.
 
-“어떤 근거가 있어야 다음 판단으로 넘어갈 수 있을까요?”
+**Evidence / Source:**
+DEC-0023  ·  course operational model  ·  no product loop; DEC-0080.; DEC-0081 (presentation/operation alignment). 설계 참고(2026-10-25 확인): Addy Osmani, https://addyosmani.com/blog/loop-engineering/ ; OpenAI, https://developers.openai.com/cookbook/examples/agents_sdk/agent_improvement_loop . 용어의 일반 용례와 이 교육의 체계 개선 중심 모델을 구분한다. 제품 기능·계정·자동 실행을 확인한 근거가 아니다.
 
-Speaker Flow:
+**Claim Boundary:**
+이 교육의 operational model이다. 자동 학습, Agent self-learning, 무한 반복, observed Product loop를 뜻하지 않는다. DEC-0094의 루프 구분·평가 후 선택·다음 작업 연결은 교육용 설계다. 실제 새 실행·자동 제어·개선 성과·제품 기능을 확인한 것이 아니다.
 
-1. (0:00–2:00 / Lecture, R1/R2) 01 실행은 요청·지침에 따라 작업을 수행하는 단계, 02 관찰은 그 기록을 현재 기준과 대조하는 단계로 구분한다. 아래에는 수행 기록과 기준 차이라는 서로 다른 판단 근거가 있다. 앞 가상 사례를 처음부터 재설명하지 않는다.
-2. (2:00–4:30 / Lecture, R3) 03은 차이를 원인이라고 바로 확정하지 않는 판단 지점이다. 실제 읽힌 지침과 수행 기록 같은 근거가 더 필요하면 가설로 남긴다. “근거가 부족하면 변경을 서두를 수 있을까요?”를 수사적으로 묻고 기록·확인을 먼저 한다고 정리한다. 실제 원인을 확인했다는 사건은 없다.
-3. (4:30–6:30 / Lecture, R4) 04는 확인한 원인에 맞는 출처와 범위를 사람이 검토·갱신하는 판단이다. 검토한 출처·변경 범위를 다음 평가에 넘긴다. S89/S80의 전체 선택지·역할 목록을 반복하지 않는다. 자동 학습이나 자율 복구가 아니다.
-4. (6:30–9:00 / Lecture, R5) 05는 같은 작업과 대표 작업에서 영향 근거와 남은 한계를 확인하는 판단이다. 한 작업의 결과를 전체 시스템의 안전성으로 확대하지 않고, 모르는 점을 남겨 다음 작업에서도 관찰한다. 앞의 평가 표를 다시 전부 설명하지 않는다.
-5. (9:00–11:00 / VISUAL Demo) 정적 화면의 번호·단계·질문·아래 근거를 01에서05로 한 번 연결한 뒤 되돌림선을 가리킨다. 가상 사례의 실행·원인 확인·수정·재평가 결과를 채우지 않는다. 다음 장은 실제 교육 Demo의 결과를 평가·보고하던 체계가 개선 대상이 된 별도 사건이라고 예고한다.
+**Beginner Explanation:**
+평가가 끝나면 무조건 또 실행하는 것이 아니라, 완료·다시 시도·멈추고 확인 중 하나를 근거로 고른다.
 
-Evidence / Source:
-
-DEC-0023  ·  course operational model  ·  no product loop; DEC-0080.; DEC-0081 (presentation/operation alignment).
-
-Claim Boundary:
-
-이 교육의 operational model이다. 자동 학습, Agent self-learning, 무한 반복, observed Product loop를 뜻하지 않는다.
-
-Beginner Explanation:
-
-작업 기록을 보고, 원인을 확인하고, 필요한 지침을 바꾼 뒤 다른 작업의 영향도 다시 본다.
-
-Advanced Insight:
-
-근거가 부족할 때 가설로 남기는 판단, 원인과 변경 범위를 맞추는 판단, 재평가에서 해석 범위를 제한하는 판단을 구분한다.
+**Advanced Insight:**
+Specify feedback-dependent transitions, retained state, review responsibility and bounded retries. Neither changing the Harness on every run nor claiming that a model has learned is required.
 
 C++ Vision Bridge:
 
 없음.
 
-Demo Operation:
-
-기존 LOOP-VISUAL2분이다. 전체가 보이는 정적 화면에서 01 수행 기록→02 기준과 차이→03 원인과 남은 가설→04 검토한 출처/범위→05 영향/한계를 한 번 연결한다. 01의 실행과02의 기록 대조를 구분한다. R1–R5는 발표 초점이며 Native animation·실제 실행 trace가 아니다.
+**Demo Operation:**
+기존 LOOP-VISUAL2분. 위5단계에서 아래 세 조건/행동/남길 기록으로 한 번 연결한다. 재시도·완료·중단은 교육용 제어 설계이며 실제 자동 실행·종료 기록이나 새 Demo가 아니다.
 
 Audience Interaction:
 
 “근거가 부족하면 어느 판단을 보류해야 할까요?”를 수사적 질문으로 사용한다. 별도 Reflection/Q&A 시간을 추가하거나 응답·실습을 요구하지 않는다.
 
-Transition:
+**Transition:**
+“이 모델에서 실제로 바뀐 것은 무엇이었을까요? 별도의 Resize 제작 기록에서 평가·보고 기준을 바꾸고도 남은 문제를 보겠습니다.”
 
-“가상 지침 사례는 여기서 닫겠습니다. 이번에는 실제 교육 Demo의 성능 결과를 평가·보고하던 기준을 바꾼 사례를 보겠습니다.”
-
-Time Management:
-
-Lecture9분(R1/R2 2, R3 2분30초, R4 2, R5 2분30초)+기존 VISUAL Demo2분=11분. 이전 장을 순서대로 재강의하지 않는다. 9분에 강의 설명을 마감하고 한 번의 경로 회수로 전환한다. 실제11분 리허설은 UNVERIFIED다.
+**Time Management:**
+Lecture9분+기존 VISUAL Demo2분=11분 유지. 두 루프와 모델2분, 기록/원인/후보2분, 완료1분30초, 재시도1분30초, 중단·사람 확인2분, 정적 경로 회수2분. 실제11분 리허설 UNVERIFIED.
 
 Fallback:
 
 LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S94와 production/preview/act4/S94.png를 사용한다. 재구성 도식을 원본 실행 화면이나 새 Trial 결과로 표현하지 않는다.
 
-Validation Status:
-
-ALIGNED — DEC-0081의 기존 시간/Mode·19필드·화면/운영 역할을 정렬했다. 최종 렌더와 패키지 검토는 production/evaluation/ACT_4_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+**Validation Status:**
+ALIGNED — DEC-0094. Final package/render/Notes audit: production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Windows PowerPoint / room / actual product-account / timed rehearsal UNVERIFIED.
 
 ## S95 — 평가·보고 기준도 개선 대상이다
 
@@ -5135,9 +5133,8 @@ Audience Interaction:
 
 두 영역에서 확인한 내용이 서로 다르다는 점과 남은 불확실성을 비교한다.
 
-Transition:
-
-“상세 기록은 여기서 닫고, 실제 바뀐 평가·보고 기준이 Loop의 어느 단계에 해당하는지 연결하겠습니다.”
+**Transition:**
+“보고 기준을 바꾼 사실과 남은 불일치를 나눠 보겠습니다. 남은 질문을 다음 개선 대상으로 넘기는 연결은 후속 제안으로 표시하겠습니다.”
 
 Time Management:
 
@@ -5157,8 +5154,7 @@ Slide ID:
 
 S99
 
-Working Title:
-
+**Working Title:**
 실제 기록을 Loop의 단계에 대응하면
 
 ACT / Section:
@@ -5173,26 +5169,23 @@ Mode Split:
 
 Lecture 1분 + Case 2분
 
-Primary Message:
+**Primary Message:**
+실제 Resize 조사에서 해석 한계를 확인하고 평가·보고 기준을 바꿨으며 후속 대조에는 불일치가 남았다. 원인을 확정한 완료된 개선 성과가 아니다. 남은 불일치를 다음 원문 대조/검사 방법의 검토 대상으로 삼는 것은 후속 제안이며 미실행이다.
 
-실제 Resize 조사와 전역 영향 관찰은 원인 해석의 한계를 드러내 DEC-0016의 평가·보고 기준 변경으로 이어졌고 후속 기록에서 부분적으로 점검됐다. 이를 교육용 Loop 단계에 대응하되 원인 확정·완전한 재평가·품질 향상을 주장하지 않는다.
-
-Opening Question:
-
-“앞에서 본 Loop가 이 실제 기록에서는 어떻게 나타났을까요?”
+**Opening Question:**
+실제로 바뀐 기준과 아직 풀지 못한 문제는 무엇이며, 다음에 무엇을 확인할까?
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) S94와 같은 다섯 단계 이름을 왼쪽에서 오른쪽으로 짚는다. 실행은 Resize 조사, 관찰은 전역 Skill/시작 경고, 원인 판단은 Prompt만의 효과를 분리할 수 없다는 해석 한계다. 특정 기능이 성능 변화의 원인으로 확정된 것이 아니다.
-2. (1:00–2:00 / Case) 네 번째 시스템 변경은 평가·보고 기준 변경이다. 다섯 번째는 후속 기록 대조와 남은 불일치이며 대표 작업의 정량 성과 평가를 완료했다는 뜻이 아니다. S97의 세 기록 항목과 S98의 오류 세부는 다시 강의하지 않는다.
-3. (2:00–3:00 / Case) 아래 바뀐 것과 미확인 사항을 읽는다. 평가·보고 기준은 바뀌었지만 원인별 효과·환경 목록의 완전성·Trial 품질 향상은 남아 있다. 상단 다섯 열/하단 회수라는 실제 화면 위치에 맞춰 안내한다. C++ 업무의 검증 조건으로 전이한다.
+1. (0:00–1:00 / Lecture) 위5열은 S94의 모델에 실제 기록을 대응한 것이다. Resize 조사, 전역 Skill/시작 경고, Prompt만의 효과를 분리할 수 없다는 해석 판단, 평가·보고 기준 변경, 후속 대조와 남은 불일치를 읽는다. 해석 판단은 성능 변화의 원인을 확정한 것이 아니다.
+2. (1:00–2:00 / Case) 왼쪽 확인한 변화는 DEC-0016의 평가·보고 기준 변경이다. 오른쪽 왜 보고와 원문이 달랐을까는 남은 불일치를 다음 개선 질문으로 넘기는 제안이다. 원문 대조·검사 방법 재검토는 아직 수행한 새로운 후속 작업이 아니며 검증 성공·보고 품질 향상을 만들지 않는다.
+3. (2:00–3:00 / Case) 이번 기록의 대조를 끝내는 것과 시스템 문제가 모두 해결되는 것은 다르다. 남은 문제·근거·범위를 보존해 다음 조사/사람의 판단에 넘기는 연결을 회수한다. 실제 기록에 없는 중단·자동 재시도·후속 수정 결과를 붙이지 않는다. 가상 GPU 업무 적용으로 연결한다.
 
 Evidence / Source:
 
 TRIAL-006  →  DEC-0016  →  TRIAL-007/008; DEC-0081 (presentation/operation alignment).
 
-Claim Boundary:
-
-후속 report에는 불일치가 남고 quality effect는 미측정이다. DEMO-04A conceptual stale workflow와 합치지 않는다.
+**Claim Boundary:**
+후속 report에는 불일치가 남고 quality effect는 미측정이다. DEMO-04A conceptual stale workflow와 합치지 않는다. DEC-0094의 루프 구분·평가 후 선택·다음 작업 연결은 교육용 설계다. 실제 새 실행·자동 제어·개선 성과·제품 기능을 확인한 것이 아니다.
 
 Beginner Explanation:
 
@@ -5206,28 +5199,25 @@ C++ Vision Bridge:
 
 없음.
 
-Demo Operation:
-
-상단 다섯 열을 왼쪽→오른쪽으로 읽고 하단의 변경 대상과 미확인 사항으로 닫는다. 변경 대상을 왼쪽, 미확인 사항을 오른쪽이라고 안내하지 않는다. 실제 Product Loop나 DEMO-04A 수리가 아니며 추가 Demo 시간도 없다.
+**Demo Operation:**
+실제 Resize 제작 기록의5열을 읽고 확인한 변화와 다음 개선 질문(제안/미실행)을 분리한다. 후속 검토를 이미 수행했거나 시스템 문제가 해결됐다고 말하지 않는다.
 
 Audience Interaction:
 
 가상 모델의 단계와 실제 기록을 대응해 본다. 성공한 모든 단계를 채우거나 결과 제출을 요구하지 않는다.
 
 **Transition:**
-“평가 기준을 바꾼 뒤에도 확인할 점은 남았습니다. 이제 같은 검사 코드의 GPU가 달라졌다면, 어떤 검증 조건을 다시 봐야 할지 생각해 보겠습니다.”
+“확인한 변화와 남은 질문을 나눠 다음 작업으로 넘겼습니다. GPU가 바뀐 검사 업무에서도, 반복할 확인 기준을 어떻게 남기고 다시 적용할지 보겠습니다.”
 
-Time Management:
-
-Lecture1분+Case2분=3분. 단계 대응1분, 변경/후속점검1분, 한계와 업무 적용1분. 앞의 Timeline과 오류 설명을 반복하지 않는다.
+**Time Management:**
+Lecture1분+Case2분=3분 유지. 실제 대응1분, 확인한 변화/후속 제안1분, 남길 문제와 C++ 연결1분. 성능 수치나 오류 세부 목록을 다시 강의하지 않는다.
 
 Fallback:
 
 LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S99와 production/preview/act4/S99.png를 사용한다. 재구성 도식을 원본 실행 화면이나 새 Trial 결과로 표현하지 않는다.
 
-Validation Status:
-
-ALIGNED — DEC-0081의 기존 시간/Mode·19필드·화면/운영 역할을 정렬했다. 최종 렌더와 패키지 검토는 production/evaluation/ACT_4_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+**Validation Status:**
+ALIGNED — DEC-0094. Final package/render/Notes audit: production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Windows PowerPoint / room / actual product-account / timed rehearsal UNVERIFIED.
 
 ## S100 — GPU 변경 뒤, 검증 조건을 다시 본다
 
@@ -5235,8 +5225,7 @@ Slide ID:
 
 S100
 
-Working Title:
-
+**Working Title:**
 GPU 변경 뒤, 검증 조건을 다시 본다
 
 ACT / Section:
@@ -5251,30 +5240,27 @@ Mode Split:
 
 Case 7분 + Reflection 2분 + Q&A 7분 + Transition 4분
 
-Primary Message:
+**Primary Message:**
+같은 검사 코드가 새 GPU에서 실행된다는 가정에서 기존 판단의 조건·측정 조건·동작 명세를 확인한다. 반복할 확인은 기록하고 원인·근거에 맞춰 기준 후보를 검토·갱신한 뒤 재평가해 다음 작업에 적용하도록 설계한다. 평가 결과에 따른 유지·재수정·중단 판단을 함께 회수한다.
 
-같은 검사 코드가 새 GPU에서 실행된다는 가정에서 기존 판단의 조건·측정 비교 조건·보존할 동작 명세를 다시 본다. 반복되는 점검은 원인과 근거를 확인한 뒤 관련 지침·검증 기준을 검토·갱신하고 재평가하는 질문으로 닫는다.
-
-Opening Question:
-
-“같은 검사 코드라도 GPU가 바뀌면 예전 검증 조건을 그대로 써도 될까요?”
+**Opening Question:**
+이번에 확인한 장치·측정·명세 조건을 다음 작업에서도 쓰려면 무엇을 남겨야 할까?
 
 **Speaker Flow:**
-1. (0:00–2:00 / Case) S99의 확인 과제를 업무의 검증 조건으로 가져온다. 같은 검사 코드가 새 GPU에서 실행된다는 한 가지 가정을 읽고 삽화의 장치·설정 표식을 짚는다. GPU 교체로 실제 오류나 성능 변화가 발생했다는 사건은 만들지 않는다.
-2. (2:00–4:30 / Case) 왼쪽 입력·코드·장치 그림에서 오른쪽 기존 가정과 측정 조건 질문으로 이동한다. 예전 판단이 어떤 장치·조건에 맞았는지, 입력·빌드·측정 조건을 비교 가능하게 다시 확인해야 하는지 묻는다. 실제 환경 버전·Benchmark 수치·원인을 정하지 않는다.
-3. (4:30–7:00 / Case) 출력 그림과 동작 명세 질문에서 장치가 달라도 지킬 출력·동작을 확인한다. 기록과 근거를 보고 필요한 지침·검증 기준을 검토하며, 변경이 필요했다면 Benchmark/Regression으로 다시 확인하는 패턴으로 연결한다. 검증 지침이 항상 원인이라는 정답은 없다.
-4. (7:00–9:00 / Reflection) 하단 질문으로 자기 업무에서 반복해서 확인하는 조건 한 가지와 그 근거를 떠올리게 한다. 다음 작업에도 맞게 유지하려면 어떤 지침·검증 기준을 다시 볼지 생각하되 기록·답변·발표는 요구하지 않는다.
-5. (9:00–16:00 / Q&A) 질문을 받는다. 질문이 없으면 Fallback의 세 질문을 하나씩 골라 세 확인 대상 안에서 해설한다. 실제 회사 환경의 검증되지 않은 해결책·도구 설정을 단정하지 않는다.
-6. (16:00–20:00 / Transition) 16분에 질문을 마감한다. 마지막 질문은 원인을 먼저 확인하고 필요한 출처·검증 기준을 검토한 뒤 결과를 다시 본다는 판단으로 닫는다. 16–18분에는 세 질문이 어떤 근거를 요구하는지, 18–19분에는 반복되는 점검을 유지할 위치·책임이 필요한지 회수한다. 19–20분에 ACT4를 마무리하고 S102에 전체 여정 회수를 넘긴다. 다섯 ACT의 여정을 여기서 미리 재강의하지 않는다.
-기존 연결 질문을 유지한 채 ACT 5 제목 S101를 거쳐 S102의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
+1. (0:00–2:00 / Case) S99에서 남긴 후속 질문을 업무 적용으로 옮긴다. 같은 검사 코드가 새 GPU에서 실행된다는 가정 하나만 읽고 기존 삽화의 변경 조건을 짚는다. 실제 GPU 오류·성능 변화는 관찰한 일이 아니다.
+2. (2:00–4:00 / Case) 오른쪽 기존 가정과 측정 조건을 본다. 예전 판단이 유효했던 조건, 입력·빌드·측정 비교 조건을 기록하도록 설계한다. 실제 장비 버전·수치·원인을 만들어 넣지 않는다.
+3. (4:00–5:30 / Case) 장치가 달라도 지킬 출력·동작 명세를 확인한다. 이 작업의 실행·검증·필요한 수정·완료와 다음 작업의 지침 개선은 범위가 다르다고 짚는다.
+4. (5:30–7:00 / Case) 하단 조건 기록→기준 검토·갱신→재평가→다음 작업 적용을 연결한다. 반복할 조건의 출처와 검토 책임을 정하고 필요한 변경 후보만 평가한다. 기준 충족이면 완료/채택, 수정 가능하면 재시도, 근거 부족·한도 도달이면 중단/사람 확인으로 이어지는 설계다. 실제 실행 결과가 아니다.
+5. (7:00–9:00 / Reflection) 자기 업무에서 반복 확인할 조건 하나, 남길 출처·검토 책임, 다음 실행에서 무엇으로 확인할지를 생각하게 한다. 답변·파일 작성·실습은 요구하지 않는다.
+6. (9:00–16:00 / Q&A) 질문을 받는다. 없으면 Fallback의 조건 기록/평가/다음 작업 질문을 선택한다. 검증하지 않은 회사 환경이나 특정 도구의 동작을 단정하지 않는다.
+7. (16:00–20:00 / Transition)16분에 질문을 마감한다.16–18분에는 이번 수행 루프에서 확인한 조건이 다음 작업의 체계 개선 근거가 된다는 연결을 회수한다.18–19분에는 평가 뒤 유지/재시도/중단 판단과 남길 기록을 닫는다.19–20분에는 S101 제목을 거쳐 S102의 전체 여정 회수로 넘긴다. 전체 교육 내용을 여기서 먼저 반복하지 않는다.
 
 Evidence / Source:
 
 BEAT-059 / TRANS-012  ·  teaching transfer, not observed C++ incident 삽화 출처: prototype/image-illustration-pilot/assets/S72.png, built-in image_gen, 2026-10-18. 생성 프롬프트: prototype/image-illustration-pilot/PROMPTS.md. 실제 화면·현장 사진·관찰 자료가 아니다.; DEC-0081 (presentation/operation alignment).
 
-Claim Boundary:
-
-COURSE MODEL / C++ VISION TRANSFER. Toolchain, CUDA/GPU architecture, build/benchmark configuration은 hypothetical teaching context이며 실제 Demo history가 아니다. 구체적인 Windows/shell/IDE/hardware setup을 주장하지 않는다.
+**Claim Boundary:**
+COURSE MODEL / C++ VISION TRANSFER. Toolchain, CUDA/GPU architecture, build/benchmark configuration은 hypothetical teaching context이며 실제 Demo history가 아니다. 구체적인 Windows/shell/IDE/hardware setup을 주장하지 않는다. DEC-0094의 루프 구분·평가 후 선택·다음 작업 연결은 교육용 설계다. 실제 새 실행·자동 제어·개선 성과·제품 기능을 확인한 것이 아니다.
 
 Beginner Explanation:
 
@@ -5288,29 +5274,24 @@ C++ Vision Bridge:
 
 Primary bridge. 같은 검사 코드가 새 GPU에서 실행된다는 가정으로 기존 가정·측정 조건·동작 명세를 연결한다. GPU/도구 버전·실제 성능 변화·회사 사례는 만들지 않는다.
 
-Demo Operation:
-
-기존 AI 생성 삽화의 bytes/crop을 유지한 정적 화면이다. 입력→코드→장치→출력을 가리킨 뒤 오른쪽 세 질문, 마지막에 하단 지침·검증 기준 질문으로 이동한다. 황색 표식은 확인할 조건이며 확정 원인·실패 결과가 아니다. Native animation·Live 실행에 의존하지 않는다.
+**Demo Operation:**
+기존 가상 GPU 그림과3질문을 순서대로 짚고 하단의 다음 작업 연결로 닫는다. 같은 그림 bytes/crop/배치를 보존한다. 실제 하드웨어·Benchmark·지침 변경·재평가·적용은 수행하지 않는다.
 
 Audience Interaction:
 
 7–9분은 마음속 성찰, 9–16분은 선택적 Q&A다. 조건과 근거를 확인하는 질문으로 답하고 특정 도구 추가나 담당 배정을 정답으로 주지 않는다.
 
 **Transition:**
-“다음 작업에도 맞게 일하도록 근거를 확인하고 기준을 검토하는 것이 이번 ACT의 요점입니다. 이제 전체 교육에서 어떤 문제에 대응해 왔는지는 다음 장에서 한 번에 연결하겠습니다.” ACT5 S102으로 이동한다.
-기존 연결 질문을 유지한 채 ACT 5 제목 S101를 거쳐 S102의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
+“이번 목표를 검증해 마치는 루프와, 그 경험을 다음 작업의 체계로 돌리는 루프를 구분했습니다. 이제 S101을 거쳐 S102에서 전체 여정을 연결하겠습니다.”
 
-Time Management:
+**Time Management:**
+Case7→Reflection2→Q&A7→Transition4=20분 유지. Case는2+2+1.5+1.5분,7분에 성찰,9분에 질의,16분에 질문 마감,20분에 ACT5로 넘긴다. 실제20분 리허설 UNVERIFIED.
 
-0–7 Case7분, 7–9 Reflection2분, 9–16 Q&A7분, 16–20 Transition4분=20분. 16분 Cutoff: “이 질문은 여기까지 정리하고, 근거를 확인해 기준을 검토한다는 판단으로 마무리하겠습니다.” 마지막4분은 ACT4 적용 질문의 마무리이며 S102의 전체 여정을 반복하지 않는다. 실제20분 리허설은 UNVERIFIED다.
+**Fallback:**
+정적 PPT/PNG가 기본 경로다. Q&A가 없으면 ①장치가 달라졌을 때 이번 판단의 어떤 조건을 기록할까요? ②변경한 검증 기준이 적절한지는 무엇으로 평가할까요? ③이 근거와 기준을 다음 작업이 읽도록 어디에 두고 누가 확인할까요?를 선택한다. 무한 반복 대신 완료/재시도/중단과 기록 인계를 회수한다. 실제 원인·명령·결과를 만들지 않는다. production/preview/act4/S100.png 및 production/preview/full/S100.png.
 
-Fallback:
-
-정적 PPT/PNG가 기본 경로다. Q&A가 없으면 ①“GPU가 달라졌다는 것 외에 비교 전에 확인할 조건은 무엇일까요?” ②“장치가 달라도 지킬 출력·동작은 무엇일까요?” ③“반복되는 점검을 다음 작업에도 유지하려면 어떤 지침·검증 기준을 다시 볼까요?”를 순서대로 선택해 해설한다. 실제 원인·명령·성능 수치를 만들지 않는다. 파일은 production/preview/act4/S100.png 및 production/preview/full/S100.png다.
-
-Validation Status:
-
-ALIGNED — DEC-0081의 기존 시간/Mode·19필드·화면/운영 역할을 정렬했다. 최종 렌더와 패키지 검토는 production/evaluation/ACT_4_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+**Validation Status:**
+ALIGNED — DEC-0094. Final package/render/Notes audit: production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md. Windows PowerPoint / room / actual product-account / timed rehearsal UNVERIFIED.
 
 ## S101 — 내 업무에 맞게 조합하고 덜어내기
 

@@ -1,5 +1,7 @@
 # ACT 4 Production Evaluation
 
+> Current ACT4: DEC-0094 /115slides/406minutes; ACT4 19/81. See [current review](ACT_4_LOOP_CONTROL_REVISION.md). Preserve original composition/budgets/evidence; actual Meta follow-up remains partial. Earlier validation is historical. External gates remain UNVERIFIED.
+
 > Current: DEC-0093 /115slides/406minutes. New S63/S68 are Codex authoring tips. Retained113budgets/evidence and ACT4 nineteen pages/eighty-one minutes stay fixed; current IDs follow [113→115](../../plan/SLIDE_ID_MIGRATION_115.md). See [current local result](CODEX_AUTHORING_TIPS.md). Earlier audits retain their dated edition; external gates UNVERIFIED.
 
 > Current edition: DEC-0091 /113slides/402minutes. ACT4: 19slides/81minutes, S80–S98. Existing19pages/time/Mode/evidence preserved; IDs shift by5. See [scoped revision](HARNESS_REUSE_REVISION.md) and [108→113](../../plan/SLIDE_ID_MIGRATION_113.md). Dated audits below retain their edition; external gates UNVERIFIED.

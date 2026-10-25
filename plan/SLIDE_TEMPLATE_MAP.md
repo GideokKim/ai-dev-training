@@ -1,5 +1,7 @@
 # STEP 08 — Slide-to-Template Mapping
 
+> Current ACT4 refinement: DEC-0094. Keep115slides/406minutes, all19ACT4 assignments/81minutes and12Templates/28Variants. S83 adds the two-loop distinction inside T07-C; S94 uses the existing T03-C process grammar for three decision routes, not a new template. S92 retains its native four-task table. See [design](ACT4_LOOP_CONTROL.md).
+
 > Current: DEC-0093 /115slides/406minutes. New S63/S68 use T03-C; current IDs follow SLIDE_ID_MIGRATION_115.md. All113retained assignments and12Templates/28Variants remain. Earlier distribution tables are history.
 
 ## 현재 Template 배정 수 — DEC-0093
@@ -307,7 +309,7 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S91 — 지침을 고친 뒤, 무엇을 다시 확인할까? | T08-B | CMP-CLAIM, CMP-WORKFLOW | CMP-CPP | C+T | CMP-PRACTICAL-TIP | Single state | Contextual | V06, V05 |
 | S92 — 대표 작업은 서로 다른 위험을 확인한다 | T08-B | CMP-CLAIM, CMP-DECISION | CMP-CPP | C+T; native four-task Evaluation table; prior references are status metadata, not results of this change | DEMO-10 existing5min; all EVAL-01~04 remain unexecuted after this Workflow change; DEC-0081 | Single state | Contextual | V06, V05, V08 |
 | S93 — 한 작업에 맞춘 규칙, 다른 작업에도 맞을까? | T08-C | CMP-CLAIM, CMP-WORKFLOW | — | C+T | — | Single state | — | V06, V10 |
-| S94 — 관찰을 시스템 개선으로 잇는 Loop | T03-C | CMP-LOOP, CMP-CLAIM | — | C+T | Existing Loop VISUAL2; evidence-to-next-judgment focus; DEC-0081 | R1–R5; current DEC-0081 operation | — | V06, V07 |
+| S94 — 평가한 뒤, 다음 행동을 결정한다 | T03-C | CMP-LOOP, CMP-CLAIM | — | C+T | Existing Loop VISUAL2; five-phase overview plus completion/retry/stop decisions; DEC-0094 | R1–R5; DEC-0094 evidence-dependent route focus | — | V06, V07 |
 | S95 — 평가·보고 기준도 개선 대상이다 | T11-A | CMP-EVIDENCE, CMP-CLAIM | — | M | DEMO-04B timeline entry; CAPTURED, 2 min | Single state | — | V07 |
 | S96 — 결과 확인과 원인 해석을 따로 기록한다 | T11-B | CMP-EVIDENCE, CMP-CLAIM | CMP-TRIAL | M | DEMO-04B TRIAL-006 evidence/attribution; CAPTURED, 4 min | Single state | — | V02, V05, V07 |
 | S97 — 다음 조사에 남길 기록을 바꿨다 | T11-A | CMP-EVIDENCE, CMP-CLAIM | CMP-DECISION | M | DEMO-04B DEC-0016 change; CAPTURED, 2 min | Single state | — | V02, V07 |

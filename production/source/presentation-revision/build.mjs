@@ -11,6 +11,7 @@ import {promptTechniqueFactories} from './prompt-techniques.mjs';
 import {actTitleFactories} from './act-titles.mjs';
 import {migrate108Factories,harnessReuseFactories} from './harness-reuse.mjs';
 import {migrate113Factories,codexAuthoringTipFactories} from './codex-authoring-tips.mjs';
+import {act4LoopControlFactories} from './act4-loop-control.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
@@ -71,6 +72,7 @@ const previous={...migrate108Factories(migrate99Factories(factories,tipConfig)),
 const current=migrate113Factories(previous);
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,current,codexAuthoringTipFactories(),practicalTipIndexFactories(tipConfig,H),actTitleFactories(titleConfig,H));
+Object.assign(factories,act4LoopControlFactories({...factories}));
 const tipRecords=Object.fromEntries(tipConfig.tips.map(t=>[t.slideId,t]));
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
 if(moduleMap.slides.length!==115)throw new Error('Expected 115 legacy module mappings.');

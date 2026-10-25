@@ -1,5 +1,7 @@
 # MASTER EXECUTION STATUS
 
+> Current ACT4: DEC-0094 /115slides/406minutes; ACT4 19/81. See [current review](ACT_4_LOOP_CONTROL_REVISION.md). Preserve original composition/budgets/evidence; actual Meta follow-up remains partial. Earlier validation is historical. External gates remain UNVERIFIED.
+
 > Current: DEC-0093 /115slides/406minutes. New S63/S68 are Codex authoring tips. Retained113budgets/evidence and ACT4 nineteen pages/eighty-one minutes stay fixed; current IDs follow [113→115](../../plan/SLIDE_ID_MIGRATION_115.md). See [current local result](CODEX_AUTHORING_TIPS.md). Earlier audits retain their dated edition; external gates UNVERIFIED.
 
 > Current content: DEC-0092 /113slides/402minutes. S74-S79 motivate ACT4 through repeated human corrections that do not update the next task’s shared system. S75-S77 are conceptual. ACT4 remains19pages/81minutes with identical package/screens/Notes. See [current revision](ACT3_LOOP_HANDOFF_REVISION.md); earlier evaluations retain their edition. External gates remain UNVERIFIED.
