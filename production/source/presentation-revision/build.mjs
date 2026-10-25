@@ -29,7 +29,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d\d) — ([\s\S]*?)(?=^#### S\d\d|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==96)throw new Error('Expected 96 source records.');
+if(Object.keys(map).length!==99)throw new Error('Expected 99 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -53,8 +53,14 @@ Object.assign(factories,(await import('./act34-handoff.mjs')).loadAct34HandoffSl
 Object.assign(factories,(await import('./act4-flow.mjs')).loadAct4FlowSlides(factories));
 Object.assign(factories,(await import('./act5-flow.mjs')).loadAct5FlowSlides());
 Object.assign(factories,(await import('./act5-reassessment.mjs')).loadAct5ReassessmentSlides());
+// Retained factories are the 96-slide source edition. Apply the approved
+// numbering once, then replace only the expanded ACT0 sequence.
+const migrated=(await import('./slide-numbering-99.mjs')).migrate96Factories(factories);
+for(const id of Object.keys(factories))delete factories[id];
+Object.assign(factories,migrated);
+Object.assign(factories,(await import('./act0-context-expansion.mjs')).loadAct0ContextExpansionSlides());
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
-if(moduleMap.slides.length!==96)throw new Error('Expected 96 legacy module mappings.');
+if(moduleMap.slides.length!==99)throw new Error('Expected 99 legacy module mappings.');
 const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));
 const notes={};
 for(let act=0;act<6;act++){
@@ -87,8 +93,8 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>id==='S58'?i+1:0).filter(Boolean);
-  const tableOwners=deck.ids.map((id,i)=>['S47','S55','S77'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>id==='S61'?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>['S50','S58','S80'].includes(id)?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,

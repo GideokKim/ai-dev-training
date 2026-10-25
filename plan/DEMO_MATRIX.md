@@ -1,6 +1,17 @@
 # Demo Matrix
 
-## Current ACT5 reassessment — DEC-0083
+## Current ACT0 sequence — DEC-0084
+
+S05 결과→S06 근거→S07 별도 실행 오류→S08 필요한 Context→S09 사람의 전달
+→S10 Agent의 허용된 조사→S11 Codex 진입→S12 접근과 의도→S13 다음 Task.
+현재99장·387분 / ACT0 13장·42분. 이전 S08–S96은 S11–S99이며, 기존
+Beat/Section/Demo/Trial/State IDs·11Template/27Variant·19Notes 필드를 유지한다.
+이전 세 장의 Demo8분과 Case5분을 나누고 Lecture2분만 더했다. 새 Trial·복구·
+우월성 측정은 없다. 아래 과거 설명/Prototype/검증 본문의 번호는 당시 판본이다.
+[현재 설계](ACT0_CONTEXT_EXPANSION.md), [이행표](SLIDE_ID_MIGRATION_99.md),
+[결과](../production/evaluation/ACT_0_CONTEXT_EXPANSION.md)를 우선한다.
+
+## Historical ACT5 reassessment — DEC-0083
 
 S90의 AI-Native 설계 관점 뒤에 S91 조건 변화에 따른 기존 Harness 재평가,
 S92 유지·통합·제거 후보, S93 같은 대표 작업·기준으로 확인을 배치한다.
@@ -362,6 +373,16 @@ Record actual evidence and limits after each step. Do not infer that a Demo
 matches its specification before these checks. If results differ from the
 Story expectation, diagnose the difference before deciding whether to revise
 the Demo or its Story relationship.
+
+### DEC-0084 — Current presentation use of TRIAL-001
+
+Current S05/S06 split the same8Demo minutes into crop outcome and evidence
+relationships. S07/S08 use the same5Case minutes for the separate execution
+limit and source inventory; S09/S10 are Lecture. The dated Trial record below
+is preserved verbatim: its statement that the environment errors were not
+then added to the Story is historical. The user now approves explaining those
+same bounded errors, without making them crop evidence, Product defects or
+successful permission repair. No new Trial/CLI/Desktop run is performed.
 
 ### TRIAL-001 — Read-only repository exploration
 

@@ -9217,3 +9217,100 @@ Finalize/reimport/render Full96and ACT5 11. Check96x19Notes, ID migration,
 original allocations, native evidence, image/crop preservation and unchanged
 fallback files. Keep Windows/room/product/account/timed rehearsal UNVERIFIED.
 Do not regenerate a presenter bundle. Commit/push normally to origin/main.
+
+
+# DEC-0084 — Expand ACT0 findings and context collection into six slides
+
+## Status
+
+ACCEPTED — explicit user approval to split S05–S07 into the proposed six
+slides, align downstream IDs/Notes/plans, render/review the full deck and
+commit/push while preserving the narrative and evidence scope.
+
+## Date
+
+2026-10-25
+
+## Context
+
+The current S06 combines crop interpretation, unrelated execution errors,
+a manual Chatbot assumption, Context scope and Agent limits. This makes
+the following Repository shift easy to mistake for a permission fix.
+
+## Problem
+
+First-time viewers need to understand the sequence from the slides alone.
+The user prefers more slides to compressing or removing the explanation.
+Observed findings and teaching interpretations must stay separate.
+
+## Decision
+
+Replace prior S05/S06/S07 with S05–S10: crop outcome; evidence relationships;
+separate temp-directory error; required source inventory; manual attachment
+assumption; Agent investigation within allowed access. Keep the same five
+source labels/positions when changing the collection role. Connect to the
+retained Codex entry, access-versus-intent and next-Task slides, now S11–S13.
+Shift prior S08–S96 to S11–S99; retain all Beat/Section/Demo/Trial/State IDs.
+
+Split prior Demo8 into4+4 and Case5 into3+2. Retain the Agent callback's
+Lecture2 and add only Lecture2 for manual collection. The current deck is
+99slides/387minutes, ACT0 13slides/42minutes; other ACT budgets remain
+63/81/85/80/36. Modes are Lecture151/Demo73/Case88/Reflection21/
+Transition22/Q&A32. Keep11Templates/27Variants and19Notes fields.
+
+Preserve the original Trial record. Environment errors are not crop defects
+or repaired permissions. The manual dialogue is a teaching assumption,
+not a product comparison. The evidence graph is not an access timeline.
+Retain the README defect-hint disclosure and past-CLI/Desktop boundary.
+Preserve goals, review responsibility and approved access checks.
+
+## Rationale
+
+One question per slide lets the audience distinguish what happened, which
+evidence explains it, why another error differs, what information mattered
+and who collected it. Reused source labels make the role change visible.
+
+## Alternatives
+
+Remove the environment observation; that discards a useful actual boundary.
+Keep everything on S06 with shorter text; multiple reasoning roles remain.
+Invent a Chatbot comparison or permission fix; the evidence supports neither.
+
+## Trade-offs
+
+Add3net slides and2Lecture minutes. Use editable evidence diagrams instead
+of the former S07 illustration on screen; retain its asset/provenance.
+Re-export all ACT files because downstream visible IDs and Notes change.
+Historical source factories and dated evaluation files keep their edition
+IDs; the explicit current migration controls rendering and references.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-RESPONSIBILITY-001, INV-DELIVERY-001, INV-RESEARCH-001.
+
+## Affected Artifacts
+
+Full/ACT0–5 PPTX,99Notes, current Slide/Template/module maps, schedule,
+claim/story/demo/notes routers, current runbooks/fallback and delivery
+metadata, standard previews and the new sequence review. Demo code/tags,
+source assets/Prototypes and presenter bundles remain untouched.
+
+## Evidence
+
+Explicit user request;3aa2fda deck/Notes; TRIAL-001 preserved record and
+STATE-00; preceding read-only review of S05/S06/S07; existing duration
+authorization up to720minutes. No new Trial or measured product effect.
+
+## Training Relevance
+
+Separate a product defect from an execution limit, and distinguish missing
+context from an assistant's capability. Retain human scope and acceptance.
+
+## Follow-up
+
+Render/reimport Full99and all6ACTs. Review new6slides and all ACT overviews;
+validate99x19Notes,93retained screens except IDs/refs, native tables/chart,
+image/crop preservation and34static fallback paths/hashes. Keep Windows,
+room/product/account/timed rehearsal UNVERIFIED. No new presenter bundle.
+Commit/push normally to existing origin/main; no force push or Demo changes.

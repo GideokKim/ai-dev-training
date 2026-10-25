@@ -2,7 +2,7 @@
 
 ## Current operation — DEC-0081
 
-S69/S70 retain the aligned start and Project-scope change. Later S76 compares same-task and adjacent-task evaluation; S77 selects representative tasks; S78 shows a conditional global-rule scope/cost example. These support Case/Lecture slots without adding Demo time. There is no actual repair, rerun or regression result.
+S72/S73 retain the aligned start and Project-scope change. Later S79 compares same-task and adjacent-task evaluation; S80 selects representative tasks; S81 shows a conditional global-rule scope/cost example. These support Case/Lecture slots without adding Demo time. There is no actual repair, rerun or regression result.
 
 Current local package/render/Notes/path validation is complete for DEC-0081.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
@@ -10,13 +10,13 @@ See [current ACT4 design](../../plan/ACT4_FLOW_REVISION.md).
 
 ## Earlier operation — DEC-0080
 
-S69 links Workflow to the procedure role previously implemented as a Skill, while preserving the separate conceptual file/history. S70 recovers maintenance ownership. Later S72–S75 inspect evidence, separate hypotheses, select a response conditionally and assign example update/review duties. The Demo slot remains S69 Demo2+S70 Demo2.
+S72 links Workflow to the procedure role previously implemented as a Skill, while preserving the separate conceptual file/history. S73 recovers maintenance ownership. Later S75–S78 inspect evidence, separate hypotheses, select a response conditionally and assign example update/review duties. The Demo slot remains S72 Demo2+S73 Demo2.
 
 Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0084 /99slides/387minutes. Current IDs and static files follow SLIDE_ID_MIGRATION_99.md. Existing Demo time/evidence is preserved; local final-package/Notes/PNG parity checked. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED ROLE — conceptual controlled case
@@ -67,7 +67,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-CONCEPTUAL label; S69 begins with aligned unit-test instructions. S70 assumes module interactions now need verification, so the official Project scope is unit + integration tests while the reusable Workflow directs unit tests only. Compare instructions, not execution results (DEC-0027).
+CONCEPTUAL label; S72 begins with aligned unit-test instructions. S73 assumes module interactions now need verification, so the official Project scope is unit + integration tests while the reusable Workflow directs unit tests only. Compare instructions, not execution results (DEC-0027).
 
 ## Success Criteria
 
@@ -85,9 +85,9 @@ Evidence limit: No actual migration, command failure, Agent failure, Trial, or S
 
 ## Estimated Time
 
-4m: S69 2m + S70 2m.
+4m: S72 2m + S73 2m.
 
-Phase plan: S69 2m → S70 2m.
+Phase plan: S72 2m → S73 2m.
 
 Time Risk: LOW
 
@@ -109,13 +109,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S69.png`, `production/preview/full/S70.png`
+Default is the offline static presentation. Open: `production/preview/full/S72.png`, `production/preview/full/S73.png`
 
-Show S69–S70 static conceptual frames; keep the constructed-case label visible.
+Show S72–S73 static conceptual frames; keep the constructed-case label visible.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Captured Alternative provenance: DEC-0084 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -125,7 +125,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S70 → S71: distinguish task workaround from system problem.
+S73 → S74: distinguish task workaround from system problem.
 
 ## Evidence
 
@@ -136,6 +136,11 @@ DEC-0021; DEC-0027; plan/DEMO_MATRIX.md DEMO-04A.
 No actual migration, command failure, Agent failure, Trial, or STATE-07+. Use only the approved hypothetical reason: module interactions need verification. Do not add an actual migration, runner command, missed-test observation or PASS/FAIL result.
 
 ## Trial / Run Record
+
+DEC-0084 updates current slide numbering and final-package static identities.
+No new Trial, Product State, live approval or measured effect. The dated
+records below retain their original edition references.
+
 
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 

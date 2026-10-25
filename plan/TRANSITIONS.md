@@ -1,6 +1,31 @@
 # Story Transitions
 
-## Current ACT5 reassessment — DEC-0083
+## Current handoff IDs — DEC-0084
+
+| Boundary | Current handoff |
+|---|---|
+| ACT0 opening sequence | S04→S05 outcome→S06 evidence→S07 independent limit→S08 sources→S09 manual→S10 Agent→S11 entry→S12 access/intent→S13 next Task |
+| ACT0→ACT1 | S13→S14 |
+| ACT1→ACT2 | S34→S35 |
+| ACT2→ACT3 | S52→S53 |
+| ACT3→ACT4 | S70→S71 |
+| ACT4→ACT5 | S88→S89 |
+| ACT5 late reassessment | S93→S94→S95→S96→S97 problem→S98 action→S99 closing |
+
+Earlier transition tables below retain their edition IDs.
+
+## Current ACT0 sequence — DEC-0084
+
+S05 결과→S06 근거→S07 별도 실행 오류→S08 필요한 Context→S09 사람의 전달
+→S10 Agent의 허용된 조사→S11 Codex 진입→S12 접근과 의도→S13 다음 Task.
+현재99장·387분 / ACT0 13장·42분. 이전 S08–S96은 S11–S99이며, 기존
+Beat/Section/Demo/Trial/State IDs·11Template/27Variant·19Notes 필드를 유지한다.
+이전 세 장의 Demo8분과 Case5분을 나누고 Lecture2분만 더했다. 새 Trial·복구·
+우월성 측정은 없다. 아래 과거 설명/Prototype/검증 본문의 번호는 당시 판본이다.
+[현재 설계](ACT0_CONTEXT_EXPANSION.md), [이행표](SLIDE_ID_MIGRATION_99.md),
+[결과](../production/evaluation/ACT_0_CONTEXT_EXPANSION.md)를 우선한다.
+
+## Historical ACT5 reassessment — DEC-0083
 
 S90의 AI-Native 설계 관점 뒤에 S91 조건 변화에 따른 기존 Harness 재평가,
 S92 유지·통합·제거 후보, S93 같은 대표 작업·기준으로 확인을 배치한다.
@@ -66,7 +91,7 @@ S66→S67→S68: C++ 전이→유지 책임 성찰→기존 실제 성공 회수
 기존 TRANS/Beat/Demo/Trial/State ID·장별 시간과 근거 경계를 유지한다. Literal cue는
 SLIDE_MAP.md와 현행 Notes가 기준이다. [설계](ACT3_FLOW_REVISION.md).
 
-> **현재 기준: DEC-0083 /96장·385분(6시간25분, 2026-10-25).** ACT 장수10/21/18/18/18/11, 시간40/63/81/85/80/36분. Mode Lecture149/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존93장과 장별 시간·Mode를 보존하고 S90 뒤 재평가3장(Lecture2분씩)을 더했다. 이전 S91–S93은 S94–S96이다. [현재 번호 대조](SLIDE_ID_MIGRATION_96.md), [추가 설계](ACT5_HARNESS_REASSESSMENT.md).720분은 허용 상한이며 실제 Windows·제품·계정·교육장·리허설은 UNVERIFIED다.
+> **현재 기준: DEC-0084 /99장·387분(6시간27분,2026-10-25).** ACT 장수13/21/18/18/18/11, 시간42/63/81/85/80/36분. Mode Lecture151/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존 S05–S07을6장으로 풀고 Lecture2분만 추가했다. 이전 S08–S96은 S11–S99다. [현재 이행표](SLIDE_ID_MIGRATION_99.md), [ACT0 설계](ACT0_CONTEXT_EXPANSION.md). 최초6시간과 이전 판본은 승인 이력이며 실환경·리허설은 UNVERIFIED다.
 
 
 > Status: STEP 05 baseline aligned to STEP 07 evidence on 2026-10-01. These

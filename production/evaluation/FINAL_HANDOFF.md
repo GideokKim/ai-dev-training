@@ -1,6 +1,16 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-갱신일:2026-10-25 (Asia/Seoul). 현재 기준: **DEC-0083 /96장·385분(6시간25분)**.
+현재 기준: **DEC-0084 /99장·387분(6시간27분)**. ACT0 S01–S13/13장·42분.
+S05–S10을 Crop 결과→근거→별도 환경 오류→필요한 Context→사람의 전달→Agent 조사로
+구성했다. 기존 Demo8분/Case5분은 나누고 Lecture2분만 추가했다. 이전 S08–S96은
+S11–S99다. Full99+6ACT99,198개 최종 PNG와99x19Notes·내장/ACT 대응을 확인했다.
+기존93개 화면은 ID/교차 참조 외 동일하다. 실제 Windows·제품·계정·교육장·실측
+리허설은 UNVERIFIED이며 발표 묶음은 갱신하지 않았다.
+[최신 결과](ACT_0_CONTEXT_EXPANSION.md), [96→99 이행표](../../plan/SLIDE_ID_MIGRATION_99.md).
+
+## 이전 판본 제작 이력
+
+이전 갱신일:2026-10-25, DEC-0083 /96장·385분. 아래 제작 이력은 당시 판본이다.
 S90 뒤 재평가3장·Lecture6분을 추가했다.720분은 허용 상한이며 현재 계획은385분이다.
 기존 S91–S93은 S94–S96이며 문제·다음 행동에도 통합·제거 후보를 연결했다.
 새3장은 공개 사례 각색과 교육용 판단/평가 설계다. 새 Trial·효과 측정은 없다.
@@ -75,15 +85,17 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `ce1224e85fc772c10361eec6b4c486276bcef8e7fa1817139b89c088ac92dfdb` |
+| PPT SHA-256 | `a3823352d8910e2dacc248c90e40c6edd7a0ce365be1d1bf238ac7d39611839f` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `64e8c794ab45005b2ef60302eab05fa011bde8370c9677bceead76308cb5fc9b` |
-| 전체 preview | [montage](../preview/full/montage.png) /S01–S96 |
-| Montage SHA-256 | `2ce2545d8330d1bf611020432ec7043074adb9fe846aa4f5caecd32ca9d91c54` |
+| Notes SHA-256 | `c0f9c5e2077359468c993aef0c237ab5f70004ab6a269c09cb68f06a3de52516` |
+| 전체 preview | [montage](../preview/full/montage.png) /S01–S99 |
+| Montage SHA-256 | `87cc2a56a029537c0047de7c565f7f831525eb491e8a09db7313b42813366b3e` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [ACT5 기존 Harness 재평가3장](ACT_5_HARNESS_REASSESSMENT.md) |
+| 최신 검토 | [ACT0 조사·Context6장](ACT_0_CONTEXT_EXPANSION.md) |
+| ACT0 | [ACT_0.pptx](../ACT_0.pptx), S01–S13/13장·42분 |
+| 이전 ACT5 검토 | [기존 Harness 재평가3장](ACT_5_HARNESS_REASSESSMENT.md) |
 | 이전 ACT5 검토 | [실제 이력·다음 행동·마무리](ACT_5_FLOW_REVISION.md) |
-| ACT5 | [ACT_5.pptx](../ACT_5.pptx), S86–S96/11장·36분 |
+| ACT5 | [ACT_5.pptx](../ACT_5.pptx), S89–S99/11장·36분 |
 | 이전 ACT4 검토 | [평가·Loop·실제 기록과 ACT5 연결](ACT_4_FLOW_REVISION.md) |
 | 이전 ACT3→ACT4 검토 | [유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md) |
 | 이전 S67 검토 | [반복 한 가지와 위치·유지 책임](S67_REFLECTION_OWNERSHIP_REVISION.md) |
@@ -108,7 +120,7 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | ACT4 | [ACT_4.pptx](../ACT_4.pptx), S68–S85/18장·80분 |
 | 이전 S40 검토 | [코드 탐색 결과 확인](S40_CODE_EVIDENCE_REVISION.md) |
 | 장수·시간 구성 검토 | [ACT2 흐름 개선](ACT_2_FLOW_REVISION.md) |
-| 번호 대조 | [93→96](../../plan/SLIDE_ID_MIGRATION_96.md), 이전[90→93](../../plan/SLIDE_ID_MIGRATION_93.md) |
+| 번호 대조 | [96→99](../../plan/SLIDE_ID_MIGRATION_99.md), 이전[93→96](../../plan/SLIDE_ID_MIGRATION_96.md), 이전[90→93](../../plan/SLIDE_ID_MIGRATION_93.md) |
 | 정적 Demo 대안 | [32개 파일·범위·해시](../../demos/runbooks/FALLBACK_MANIFEST.md) |
 | 사용자 확인 | [실환경·리허설 체크리스트](USER_VALIDATION_CHECKLIST.md) |
 
@@ -116,6 +128,15 @@ ACT별 시간40/63/81/85/80/30분. Mode143/73/88/21/22/32분은 각각
 Lecture/Demo/Case/Reflection/Transition/Q&A다. 휴식은 별도다.
 
 ## 완료된 로컬 확인
+
+DEC-0084: 최종 패키지7개·198PNG·99x19Notes·99개 ACT/Full 대응을 확인했다.
+6장 새 화면과 S04→S13, ACT 경계, S20의 이동한 교차 참조를 검토했다. 기존
+93개 화면은 ID/교차 참조 영역 외 동일한 픽셀이고 다른 이미지 bytes/crop/배치,
+Native 표/차트 데이터도 보존했다. 정적 fallback은34개다. 이전 번호의 ACT 표준
+PNG15개만 정리했고 역사적 특별 continuity 그림은 보존했다. Package/geometry
+오류0건, reimport PASS. S50(이전S47)의 기존0.01in 표 높이 추정 경고는 동일하다.
+Office XSD는 defusedxml 미설치로 UNAVAILABLE이며 실환경 검증을 대신하지 않는다.
+
 
 DEC-0083: Full96+ACT5 11의107개 PNG,96x19Notes와 내장/ACT 대응,
 기존93개 배정·Template과90개 화면 PNG 보존을 확인했다. 전체ACT overview와
@@ -251,7 +272,7 @@ T08-C/T08-B로 바꿨고11Templates/27Variants는 그대로다. 기존32개 fall
 - 전체 진행 시간, S67/S85 운영, 질문이 없거나 길어질 때의 cutoff 리허설.
 
 위 항목은 모두 **UNVERIFIED**다. 로컬 파일 검토를 실환경 승인으로 승계하지 않는다.
-발표자 ZIP/HTML 묶음은 계속 중단한다. 이전 묶음을 현재96장 배포본으로 사용하지 않는다.
+발표자 ZIP/HTML 묶음은 계속 중단한다. 이전 묶음을 현재99장 배포본으로 사용하지 않는다.
 
 ## 이전90장 전달 안내 — feae727의 원문 보존
 

@@ -2,7 +2,7 @@
 
 ## Current operation — DEC-0081
 
-S80 identifies the actual Resize investigation and the reporting-system target. S81 separates scoped result validity from PARTIAL Prompt attribution. S82 shows the changed recording criteria and preserves DEC-0016 continuation limits. S83 reads left/right follow-up records; S84 maps the records to the model with partial follow-up. Demo slots remain S80:2/S81:4/S82:2; S83/S84 add no Demo time.
+S83 identifies the actual Resize investigation and the reporting-system target. S84 separates scoped result validity from PARTIAL Prompt attribution. S85 shows the changed recording criteria and preserves DEC-0016 continuation limits. S86 reads left/right follow-up records; S87 maps the records to the model with partial follow-up. Demo slots remain S83:2/S84:4/S85:2; S86/S87 add no Demo time.
 
 Current local package/render/Notes/path validation is complete for DEC-0081.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
@@ -10,13 +10,13 @@ See [current ACT4 design](../../plan/ACT4_FLOW_REVISION.md).
 
 ## Earlier operation — DEC-0080
 
-S65 remains the earlier Lecture3 environment-presence preview. S80 now recalls those observations for the evaluation/reporting gap; S81 separates result validity from attribution and S82 retains the actual decision. Demo2+4+2 stays8minutes. Detailed later history and all attribution/unknown boundaries remain.
+S68 remains the earlier Lecture3 environment-presence preview. S83 now recalls those observations for the evaluation/reporting gap; S84 separates result validity from attribution and S85 retains the actual decision. Demo2+4+2 stays8minutes. Detailed later history and all attribution/unknown boundaries remain.
 
 Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0084 /99slides/387minutes. Current IDs and static files follow SLIDE_ID_MIGRATION_99.md. Existing Demo time/evidence is preserved; local final-package/Notes/PNG parity checked. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED SUPPORTING META ROLE
@@ -85,7 +85,7 @@ Evidence limit: No Product state change, MCP task-result use, full environment i
 
 ## Estimated Time
 
-8m: S80 2m + S81 4m + S82 Demo 2m.
+8m: S83 2m + S84 4m + S85 Demo 2m.
 
 Phase plan: 2m timeline → 4m attribution → 2m reporting boundary.
 
@@ -109,13 +109,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S80.png`, `production/preview/full/S81.png`, `production/preview/full/S82.png`
+Default is the offline static presentation. Open: `production/preview/full/S83.png`, `production/preview/full/S84.png`, `production/preview/full/S85.png`
 
-Show S80–S82; preserve the report/stderr discrepancy as unresolved.
+Show S83–S85; preserve the report/stderr discrepancy as unresolved.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/S65_EXTERNAL_CONDITIONS_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Historical DEC-0077 provenance: S80-S82 PNGs were unchanged at that checkpoint. DEC-0080 updates S80 and current identifiers; S81/S82 visuals remain preserved. Preserve the original DEC-0060 static summaries. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Historical DEC-0077 provenance: S83-S85 PNGs were unchanged at that checkpoint. DEC-0080 updates S83 and current identifiers; S84/S85 visuals remain preserved. Preserve the original DEC-0060 static summaries. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -125,7 +125,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S82 → S83: follow-up records improved but remained partial.
+S85 → S86: follow-up records improved but remained partial.
 
 ## Evidence
 
@@ -136,6 +136,11 @@ TRIAL-006/007/008, DEC-0016/0021, plan/DEMO_MATRIX.md.
 No Product state change, MCP task-result use, full environment inventory, Skill-caused improvement, or before/after quality gain.
 
 ## Trial / Run Record
+
+DEC-0084 updates current slide numbering and final-package static identities.
+No new Trial, Product State, live approval or measured effect. The dated
+records below retain their original edition references.
+
 
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 

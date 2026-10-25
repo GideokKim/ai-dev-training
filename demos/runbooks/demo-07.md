@@ -2,12 +2,12 @@
 
 ## Current ACT3 operation — DEC-0072
 
-S58→S59→S60: S58의 실제 제품 결과 뒤, S59는 C++ 독립 조사 가정으로 전환한다. 같은 세 조사를 한 Agent가 맡는 경우와 역할별로 나누는 경우를 비교하고 주 Agent의 분담·근거 확인·통합을 짚는다. S60은 같은 밝기 통계 함수·출력 명세를 공유한 실제 작업으로 돌아온다. 조사 결과를 코드 변경으로, 바뀐 코드를 출력·테스트·시간·할당량 확인으로 연결하고 기존 한 Agent 유지 판단과 전달·통합 비용을 회수한다. 실제 Subagent 실행이 아니다. Demo3+2분, Q&A1+1분과 Lecture1분은 원래 배분대로 구분한다.
+S61→S62→S63: S61의 실제 제품 결과 뒤, S62는 C++ 독립 조사 가정으로 전환한다. 같은 세 조사를 한 Agent가 맡는 경우와 역할별로 나누는 경우를 비교하고 주 Agent의 분담·근거 확인·통합을 짚는다. S63은 같은 밝기 통계 함수·출력 명세를 공유한 실제 작업으로 돌아온다. 조사 결과를 코드 변경으로, 바뀐 코드를 출력·테스트·시간·할당량 확인으로 연결하고 기존 한 Agent 유지 판단과 전달·통합 비용을 회수한다. 실제 Subagent 실행이 아니다. Demo3+2분, Q&A1+1분과 Lecture1분은 원래 배분대로 구분한다.
 실제 근거·ID·시간·기존 선택은 보존한다. 최종 로컬 정적 파일 식별자는
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0084 /99slides/387minutes. Current IDs and static files follow SLIDE_ID_MIGRATION_99.md. Existing Demo time/evidence is preserved; local final-package/Notes/PNG parity checked. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: DEFERRED — not justified at STATE-04
@@ -76,9 +76,9 @@ Evidence limit: No current interface support, speed/quality gain, parallelism be
 
 ## Estimated Time
 
-5m: S59 Demo 3m + S60 Demo 2m; Q&A minute portions are separate.
+5m: S62 Demo 3m + S63 Demo 2m; Q&A minute portions are separate.
 
-Phase plan: S59 3m (hypothesis0.5 / single Agent0.75 / role assignment1 / integration and cost0.75) → S60 2m (investigation-to-change0.67 / changed-code checks0.67 / retained choice0.66). Keep S60 Lecture1m before its visual and Q&A1m after it. S59 Q&A1m also remains separate from Demo time.
+Phase plan: S62 3m (hypothesis0.5 / single Agent0.75 / role assignment1 / integration and cost0.75) → S63 2m (investigation-to-change0.67 / changed-code checks0.67 / retained choice0.66). Keep S63 Lecture1m before its visual and Q&A1m after it. S62 Q&A1m also remains separate from Demo time.
 
 Time Risk: LOW
 
@@ -100,13 +100,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S59.png`, `production/preview/full/S60.png`
+Default is the offline static presentation. Open: `production/preview/full/S62.png`, `production/preview/full/S63.png`
 
-S59–S60 PNG; do not open a product Subagent pane.
+S62–S63 PNG; do not open a product Subagent pane.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/S60_TASK_DEPENDENCY_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0072 current final-package slide renders; S60 is revised and S59 remains byte-identical to the prior checkpoint. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Captured Alternative provenance: DEC-0072 current final-package slide renders; S63 is revised and S62 remains byte-identical to the prior checkpoint. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -116,17 +116,22 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S60 → S61: move from role choice to durable knowledge.
+S63 → S64: move from role choice to durable knowledge.
 
 ## Evidence
 
-DEC-0018/0019; Slide Map S59–60.
+DEC-0018/0019; Slide Map S62–60.
 
 ## Do Not Claim
 
 No current interface support, speed/quality gain, parallelism benefit, or primary Live readiness.
 
 ## Trial / Run Record
+
+DEC-0084 updates current slide numbering and final-package static identities.
+No new Trial, Product State, live approval or measured effect. The dated
+records below retain their original edition references.
+
 
 No new Trial or product execution was performed for this runbook. DEC-0072 aligns S60 dependencies, Notes and current static-file hashes; DEC-0071 retains the S59 comparison; DEC-0062 remains the prior whole-ACT flow decision; the DEC-0038 checks remain historical. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 

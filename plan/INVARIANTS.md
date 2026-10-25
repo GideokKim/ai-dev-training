@@ -52,16 +52,17 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Category: Training Identity
 - Strength: HARD
 - Rule: This is a developer training about ChatGPT and Codex in AI-Native
-  Development. The current approved net duration is 385 minutes under
-  DEC-0083, within the user-authorized720-minute ceiling. Preserve the
-  existing93-slide content/time and add6minutes for bounded ACT5 reassessment.
+  Development. The current approved net duration is 387 minutes under
+  DEC-0084, within the user-authorized720-minute ceiling. Preserve the
+  existing96-slide scope, split ACT0 outcome/evidence/limit/collection roles,
+  and add2Lecture minutes without changing other Slide budgets.
 - Historical Rule: Earlier DEC-0060 approved93slides/379minutes. The initial requirement
   was six hours /360minutes; the
   user explicitly authorized the extension on 2026-10-21.
 - Rationale: The audience, subject, and duration define the scope of the
   training.
 - Source: plan/MASTER_PLAN.md §§1.1–1.2
-- Validation: Does the material preserve the developer scope and the current user-approved385-minute schedule and720-minute ceiling under DEC-0083?
+- Validation: Does the material preserve the developer scope and the current user-approved387-minute schedule and720-minute ceiling under DEC-0084?
 - Change Policy: Require explicit user approval before changing the scope or
   duration.
 
@@ -855,7 +856,7 @@ affected work proceeds.
 
 | Invariant ID | Category | Strength | Validation Question |
 | --- | --- | --- | --- |
-| INV-IDENTITY-001 | Training Identity | HARD | Does the material preserve the developer scope and the current user-approved385-minute schedule and720-minute ceiling under DEC-0083? |
+| INV-IDENTITY-001 | Training Identity | HARD | Does the material preserve the developer scope and the current user-approved387-minute schedule and720-minute ceiling under DEC-0084? |
 | INV-IDENTITY-002 | Training Identity | HARD | Does it teach AI-use evolution into an Engineering System rather than only features, a manual, or Prompt writing? |
 | INV-AUDIENCE-001 | Audience | HARD | Does it account for the broad experience range and limited time for separate study? |
 | INV-OBJECTIVE-001 | Primary Objective | HARD | Does it raise the shared organizational AI-use baseline above feature breadth or one-level optimization? |

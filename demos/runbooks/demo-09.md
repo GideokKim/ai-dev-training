@@ -2,7 +2,7 @@
 
 ## Current operation — DEC-0080
 
-S63 briefly recaps actual roles; S64 emphasizes execution conditions and human evidence/result review rather than replaying the inputs. Preserve actual/teaching-model separation and Demo3+2, with S64 Lecture4 separately allocated.
+S66 briefly recaps actual roles; S67 emphasizes execution conditions and human evidence/result review rather than replaying the inputs. Preserve actual/teaching-model separation and Demo3+2, with S67 Lecture4 separately allocated.
 
 Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
@@ -10,12 +10,12 @@ See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
 ## Current ACT3 operation — DEC-0076
 
-S63→S64: S62의 지식 출처를 회수한 뒤 S63에서 목표·Context·Skill을 한 Agent의 밝기 통계 조사·변경에 적용하고 테스트·benchmark를 판단 근거로 연결한다. 세 입력은 순차 단계가 아니다. S64는 같은 배치를 전체 Harness로 묶고 실행 환경을 Agent·검증 도구 양쪽에 연결한다. 결과를 사람이 검토하며 교육용 모델과 실제 대응 범위를 구분한다. Demo3+2분과 S64 Lecture4분을 원래 배분대로 구분한다.
+S66→S67: S65의 지식 출처를 회수한 뒤 S66에서 목표·Context·Skill을 한 Agent의 밝기 통계 조사·변경에 적용하고 테스트·benchmark를 판단 근거로 연결한다. 세 입력은 순차 단계가 아니다. S67는 같은 배치를 전체 Harness로 묶고 실행 환경을 Agent·검증 도구 양쪽에 연결한다. 결과를 사람이 검토하며 교육용 모델과 실제 대응 범위를 구분한다. Demo3+2분과 S67 Lecture4분을 원래 배분대로 구분한다.
 실제 근거·ID·시간·기존 선택은 보존한다. 최종 로컬 정적 파일 식별자는
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0084 /99slides/387minutes. Current IDs and static files follow SLIDE_ID_MIGRATION_99.md. Existing Demo time/evidence is preserved; local final-package/Notes/PNG parity checked. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — supporting visual/captured record
@@ -84,9 +84,9 @@ Evidence limit: No general performance gain or claim that every Harness componen
 
 ## Estimated Time
 
-5m: S63 Demo 3m + S64 Demo 2m.
+5m: S66 Demo 3m + S67 Demo 2m.
 
-Phase plan: S63 Demo3m (actual-task return0.5 / input roles1 / verification evidence1 / scope-and-handoff0.5) → S64 Demo2m (bounded configuration correspondence1.5 / external-condition question0.5). S64 Lecture4m focuses on environment and human review.
+Phase plan: S66 Demo3m (actual-task return0.5 / input roles1 / verification evidence1 / scope-and-handoff0.5) → S67 Demo2m (bounded configuration correspondence1.5 / external-condition question0.5). S67 Lecture4m focuses on environment and human review.
 
 Time Risk: LOW
 
@@ -108,9 +108,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S63.png`, `production/preview/full/S64.png`
+Default is the offline static presentation. Open: `production/preview/full/S66.png`, `production/preview/full/S67.png`
 
-Use S63–S64 PNGs; these are static summaries, not a live validation result.
+Use S66–S67 PNGs; these are static summaries, not a live validation result.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -124,7 +124,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S64 → S65: introduce outside-repository environment factors.
+S67 → S68: introduce outside-repository environment factors.
 
 ## Evidence
 
@@ -135,6 +135,11 @@ TRIAL-008; STATE-03/04-PERF; Demo Matrix.
 No general performance gain or claim that every Harness component caused success.
 
 ## Trial / Run Record
+
+DEC-0084 updates current slide numbering and final-package static identities.
+No new Trial, Product State, live approval or measured effect. The dated
+records below retain their original edition references.
+
 
 No new Trial or product execution was performed for this runbook. DEC-0076 aligns S64 Harness relationships, Notes and current static-file hashes; DEC-0075 retains S63 task roles, DEC-0062 the original ACT3 flow, and DEC-0038 checks remain historical. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 

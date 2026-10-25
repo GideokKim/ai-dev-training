@@ -1,5 +1,7 @@
 # ACT5 — 기존 Harness 재평가와 통합·제거
 
+> Current numbering: DEC-0084 /99slides/387minutes. This design record retains its edition IDs. Use [96→99 migration](SLIDE_ID_MIGRATION_99.md), [current Slide Map](SLIDE_MAP.md) and [ACT0 expansion](ACT0_CONTEXT_EXPANSION.md) for the current presentation.
+
 Decision: DEC-0083. Date:2026-10-25. Baseline:6efd610.
 Status: CONTENT ALIGNED; final package/render evidence is recorded separately.
 

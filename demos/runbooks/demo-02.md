@@ -1,6 +1,6 @@
 # DEMO-02 — Reusable Project Context
 
-> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0084 /99slides/387minutes. Current IDs and static files follow SLIDE_ID_MIGRATION_99.md. Existing Demo time/evidence is preserved; local final-package/Notes/PNG parity checked. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — Anchor candidate
@@ -69,9 +69,9 @@ Evidence limit: Does not prove AGENTS.md alone caused the result or current Desk
 
 ## Estimated Time
 
-8m: S33 4m + S34 4m; S32 is setup outside this slot.
+8m: S36 4m + S37 4m; S35 is setup outside this slot.
 
-Phase plan: S33 4m → S34 4m.
+Phase plan: S36 4m → S37 4m.
 
 Time Risk: MEDIUM
 
@@ -93,13 +93,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S32.png`, `production/preview/full/S33.png`, `production/preview/full/S34.png`
+Default is the offline static presentation. Open: `production/preview/full/S35.png`, `production/preview/full/S36.png`, `production/preview/full/S37.png`
 
-Show static S32–S34; explicitly retain the global-Skills attribution boundary.
+Show static S35–S37; explicitly retain the global-Skills attribution boundary.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Captured Alternative provenance: DEC-0084 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -109,7 +109,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S34 → S35: separate task request from Project context.
+S37 → S38: separate task request from Project context.
 
 ## Evidence
 
@@ -120,6 +120,11 @@ TRIAL-003; STATE-00-FIXED/STATE-01; plan/DEMO_MATRIX.md.
 Does not prove AGENTS.md alone caused the result or current Desktop retrieval.
 
 ## Trial / Run Record
+
+DEC-0084 updates current slide numbering and final-package static identities.
+No new Trial, Product State, live approval or measured effect. The dated
+records below retain their original edition references.
+
 
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 

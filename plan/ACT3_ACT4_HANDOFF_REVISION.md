@@ -1,5 +1,7 @@
 # ACT3→ACT4 Connection Revision — DEC-0080
 
+> Current numbering: DEC-0084 /99slides/387minutes. This design record retains its edition IDs. Use [96→99 migration](SLIDE_ID_MIGRATION_99.md), [current Slide Map](SLIDE_MAP.md) and [ACT0 expansion](ACT0_CONTEXT_EXPANSION.md) for the current presentation.
+
 ## Current ACT4 refinement — DEC-0081
 
 S76–S85 now distinguish evaluation scope, representative-task risks, rule

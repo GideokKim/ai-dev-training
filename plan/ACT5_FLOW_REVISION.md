@@ -1,5 +1,7 @@
 # ACT5 Flow Revision — DEC-0082
 
+> Current numbering: DEC-0084 /99slides/387minutes. This design record retains its edition IDs. Use [96→99 migration](SLIDE_ID_MIGRATION_99.md), [current Slide Map](SLIDE_MAP.md) and [ACT0 expansion](ACT0_CONTEXT_EXPANSION.md) for the current presentation.
+
 Current revision: DEC-0083 /96slides/385minutes; ACT5 S86–S96 11/36.
 New S91–S93 explain reassessment, keep/integrate/remove candidates and
 representative-task verification. Former S91–S93 become S94–S96. Existing

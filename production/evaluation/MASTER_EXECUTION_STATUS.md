@@ -1,6 +1,6 @@
 # MASTER EXECUTION STATUS
 
-> Current-version router — 이 보고서의 실행 결과는 역사적 판본이다. 현재 DEC-0083 /96장·385분의 번호는 [93→96 이행표](../../plan/SLIDE_ID_MIGRATION_96.md), 산출물·hash와 남은 검증은 [최종 전달 안내](FINAL_HANDOFF.md), [ACT5 재평가 추가 결과](ACT_5_HARNESS_REASSESSMENT.md)를 따른다. 아래 과거 PASS는 현행 실환경 검증이 아니다.
+> Current-version router — 이 실행 보고서는 역사적 판본이다. 현재 DEC-0084 /99장·387분은 [96→99 이행표](../../plan/SLIDE_ID_MIGRATION_99.md), [최종 전달 안내](FINAL_HANDOFF.md), [ACT0 확장 결과](ACT_0_CONTEXT_EXPANSION.md)를 따른다. 과거 PASS는 현행 실환경 검증이 아니다.
 
 > Historical record — 이 문서는 DEC-0036 이전 80장 판의 번호와 검증 결과를 보존한다. 현재 81장 판과의 대응은 [Slide ID Migration](../../plan/SLIDE_ID_MIGRATION.md)을 따른다. 과거 PASS는 현재 파일의 재검증을 뜻하지 않는다.
 

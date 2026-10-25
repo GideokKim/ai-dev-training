@@ -1,0 +1,227 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "decision": "DEC-0084",
+  "date": "2026-10-25",
+  "baseline": "3aa2fda2d6b44f20a54c2fa424559edb034029d1",
+  "slideCount": 99,
+  "totalMinutes": 387,
+  "actMinutes": {
+    "ACT 0": 42,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 36
+  },
+  "modeMinutes": {
+    "Lecture": 151,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act0SlideCount": 13,
+  "act0Minutes": 42,
+  "newSequence": [
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10"
+  ],
+  "splitMappings": {
+    "S05": [
+      "S05",
+      "S06"
+    ],
+    "S06": [
+      "S07",
+      "S08"
+    ],
+    "S07": [
+      "S09",
+      "S10"
+    ]
+  },
+  "remainingOriginalSlideBudgetsPreserved": 93,
+  "notesRecords": 99,
+  "fieldsPerNotes": 19,
+  "renderedPNGs": 198,
+  "FullACTPNGParity": 99,
+  "unchangedScreensExceptIDsAndRefs": 93,
+  "maskedIDReferenceBoxes": 92,
+  "draftFinalPNGParity": 10,
+  "allExistingOtherImageBytesCropsPositionsPreserved": true,
+  "pictureInstancesChecked": 34,
+  "oldS07IllustrationRetainedAsAssetNotRendered": true,
+  "nativeTablesPreserved": [
+    "S47→S50",
+    "S55→S58",
+    "S77→S80"
+  ],
+  "nativeChartDataPreserved": "S58→S61",
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "preexistingWarningsRemapped": [
+    {
+      "artifact": "AI_Dev_Training_Full",
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 50,
+      "table_id": "8"
+    },
+    {
+      "artifact": "ACT_2",
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 16,
+      "table_id": "8"
+    }
+  ],
+  "templateInventory": "11templates/27variants",
+  "BeatSectionDemoTrialStateIDsPreserved": true,
+  "removedObsoleteACTStandardPNGs": [
+    "production/preview/act1/S13.png",
+    "production/preview/act1/S12.png",
+    "production/preview/act1/S11.png",
+    "production/preview/act2/S32.png",
+    "production/preview/act2/S33.png",
+    "production/preview/act2/S34.png",
+    "production/preview/act3/S51.png",
+    "production/preview/act3/S50.png",
+    "production/preview/act3/S52.png",
+    "production/preview/act4/S70.png",
+    "production/preview/act4/S68.png",
+    "production/preview/act4/S69.png",
+    "production/preview/act5/S88.png",
+    "production/preview/act5/S86.png",
+    "production/preview/act5/S87.png"
+  ],
+  "sourceAssetsPrototypesBundlesUnchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "newProductExecution": false,
+  "newMeasuredEffect": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 99,
+      "sha256": "a3823352d8910e2dacc248c90e40c6edd7a0ce365be1d1bf238ac7d39611839f"
+    },
+    {
+      "path": "production/ACT_0.pptx",
+      "slideCount": 13,
+      "sha256": "fbda7dcb333bc184167ad4edd4131e046db857495a837d218a0e8a281d6d682e"
+    },
+    {
+      "path": "production/ACT_1.pptx",
+      "slideCount": 21,
+      "sha256": "4f2302dc11d1200cd14953e1bd27cb42d245fa64bdb8a02965babe39dbb05e16"
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slideCount": 18,
+      "sha256": "88db9dfc9c46b4b95d96b17ccc3d4dec08953c5db297a12f262f04d2d1426909"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "6741a0ac5322e7d5eb4b91d0bcd9ed1347788e9efea8b0950417800b05b40de9"
+    },
+    {
+      "path": "production/ACT_4.pptx",
+      "slideCount": 18,
+      "sha256": "f8c2f60498ac33e11c5981e3e57194fbe7d09f67aaca3756496d9123647882a6"
+    },
+    {
+      "path": "production/ACT_5.pptx",
+      "slideCount": 11,
+      "sha256": "c4e2c03c724f542d2370df51287402f9fb85cac12c09dcba3b6433bd427457a8"
+    }
+  ],
+  "fullNotesSha256": "c0f9c5e2077359468c993aef0c237ab5f70004ab6a269c09cb68f06a3de52516",
+  "fullMontageSha256": "87cc2a56a029537c0047de7c565f7f831525eb491e8a09db7313b42813366b3e",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "fallbackInventory": {
+    "count": 34,
+    "status": "READY — local static paths/dimensions/hashes only",
+    "demo01Slides": [
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08"
+    ],
+    "demo01Minutes": 8
+  },
+  "officeSchemaValidation": {
+    "status": "UNAVAILABLE",
+    "reason": "Current runtime lacks defusedxml; no dependency installation or repair.",
+    "firstPartyPackageGeometryReimport": "PASS"
+  },
+  "visualReview": {
+    "allSlidesRendered": 99,
+    "fullDeckACTOverviewsReviewed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "newIndividualSlidesReviewed": [
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10"
+    ],
+    "handoffsReviewed": [
+      "S04→S05→S06→S07→S08→S09→S10→S11→S12→S13",
+      "S13→S14",
+      "S34→S35",
+      "S52→S53",
+      "S70→S71",
+      "S88→S89"
+    ],
+    "renumberedCrossReferenceSlideReviewed": "S20",
+    "newClippingOverlapGlyphIssuesFound": 0,
+    "logicalTextComparisonIgnoresRunSplits": true,
+    "actualTimedRehearsal": "UNVERIFIED"
+  },
+  "finalAudit": {
+    "changedFiles": 293,
+    "deletedObsoleteGeneratedPNGs": 15,
+    "addedLocalMarkdownLinksChecked": 162,
+    "historicalMasterCurriculumStoryHandoffTrialRecordPreserved": true,
+    "decisionLogAppendOnly": true,
+    "moduleMapRows": 99,
+    "fallbackInventory": 34,
+    "finalEmbeddedNotesNormalizedParity": 99,
+    "codeSyntax": "PASS",
+    "gitDiffCheck": "PASS",
+    "sensitiveTemporaryFiles": "NONE_FOUND",
+    "demoHead": "afef3e0c66d3f7a29790c37034d5aad274ac5ce8",
+    "demoTagCount": 7
+  }
+}

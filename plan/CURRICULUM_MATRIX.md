@@ -1,6 +1,17 @@
 # Curriculum Matrix
 
-## Current ACT5 reassessment — DEC-0083
+## Current ACT0 sequence — DEC-0084
+
+S05 결과→S06 근거→S07 별도 실행 오류→S08 필요한 Context→S09 사람의 전달
+→S10 Agent의 허용된 조사→S11 Codex 진입→S12 접근과 의도→S13 다음 Task.
+현재99장·387분 / ACT0 13장·42분. 이전 S08–S96은 S11–S99이며, 기존
+Beat/Section/Demo/Trial/State IDs·11Template/27Variant·19Notes 필드를 유지한다.
+이전 세 장의 Demo8분과 Case5분을 나누고 Lecture2분만 더했다. 새 Trial·복구·
+우월성 측정은 없다. 아래 과거 설명/Prototype/검증 본문의 번호는 당시 판본이다.
+[현재 설계](ACT0_CONTEXT_EXPANSION.md), [이행표](SLIDE_ID_MIGRATION_99.md),
+[결과](../production/evaluation/ACT_0_CONTEXT_EXPANSION.md)를 우선한다.
+
+## Historical ACT5 reassessment — DEC-0083
 
 S90의 AI-Native 설계 관점 뒤에 S91 조건 변화에 따른 기존 Harness 재평가,
 S92 유지·통합·제거 후보, S93 같은 대표 작업·기준으로 확인을 배치한다.
@@ -14,21 +25,21 @@ Demo/Trial/State IDs는 유지한다.11Template/27Variant와19Notes 필드를 �
 새 Trial·측정 성과·Demo State를 추가하지 않는다. 발표 묶음은 갱신하지 않는다.
 
 > 최신 ACT3 설명 순서: DEC-0062 / [ACT3 흐름 설계](ACT3_FLOW_REVISION.md). S50–S67의18장·85분과 장별 시간·Mode·ID는 유지한다. Skill 문서/관찰 대응, Subagent·Memory의 가정→현재 선택, 실제 구성→전체 작업 환경의 역할을 정렬했다. 아래 원본 기획·과거 검증 이력은 보존한다.
-> **현재 기준: DEC-0083 /96장·385분(6시간25분, 2026-10-25).** ACT 장수10/21/18/18/18/11, 시간40/63/81/85/80/36분. Mode Lecture149/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존93장과 장별 시간·Mode를 보존하고 S90 뒤 재평가3장(Lecture2분씩)을 더했다. 이전 S91–S93은 S94–S96이다. [현재 번호 대조](SLIDE_ID_MIGRATION_96.md), [추가 설계](ACT5_HARNESS_REASSESSMENT.md).720분은 허용 상한이며 실제 Windows·제품·계정·교육장·리허설은 UNVERIFIED다.
+> **현재 기준: DEC-0084 /99장·387분(6시간27분,2026-10-25).** ACT 장수13/21/18/18/18/11, 시간42/63/81/85/80/36분. Mode Lecture151/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존 S05–S07을6장으로 풀고 Lecture2분만 추가했다. 이전 S08–S96은 S11–S99다. [현재 이행표](SLIDE_ID_MIGRATION_99.md), [ACT0 설계](ACT0_CONTEXT_EXPANSION.md). 최초6시간과 이전 판본은 승인 이력이며 실환경·리허설은 UNVERIFIED다.
 
 ## 현행 제작 기준과 원본 기획의 관계
 
-아래 본문은 원래 Curriculum/Story 설계와 단계별 승인 이력을 보존한다. 그 안의 이전 장수·시간·당시 Slide 번호를 최신 PPT 번호로 읽지 않는다. 현재 Slide별 배정은 SLIDE_MAP.md,93→96 대조는 SLIDE_ID_MIGRATION_96.md가 기준이다. Beat/Section/Demo/Trial ID와 문제 중심 진화는 유지한다. ACT2의 이전11분 확장 뒤, DEC-0083에서 기존 구조 재평가3장·6분을 추가한다.
+아래 본문은 원래 Curriculum/Story 설계와 단계별 승인 이력을 보존한다. 그 안의 이전 장수·시간·당시 Slide 번호를 최신 PPT 번호로 읽지 않는다. 현재 Slide별 배정은 SLIDE_MAP.md,96→99 대조는 SLIDE_ID_MIGRATION_99.md가 기준이다. Beat/Section/Demo/Trial ID와 문제 중심 진화는 유지한다. ACT2의11분·ACT5의6분 확장 뒤, DEC-0084에서 ACT0의 기존 설명을6장으로 풀고 Lecture2분을 더한다.
 
 | ACT | 현행 범위 | 장수 | 분 |
 |---|---|---:|---:|
-| ACT0 | S01–S10 |10|40|
-| ACT1 | S11–S31 |21|63|
-| ACT2 | S32–S49 |18|81|
-| ACT3 | S50–S67 |18|85|
-| ACT4 | S68–S85 |18|80|
-| ACT5 | S86–S96 |11|36|
-| 합계 | S01–S96 |96|385|
+| ACT0 | S01–S13 |13|42|
+| ACT1 | S14–S34 |21|63|
+| ACT2 | S35–S52 |18|81|
+| ACT3 | S53–S70 |18|85|
+| ACT4 | S71–S88 |18|80|
+| ACT5 | S89–S99 |11|36|
+| 합계 | S01–S99 |99|387|
 
 ## 보존된 기획 본문 / 이전 승인 이력
 

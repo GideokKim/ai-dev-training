@@ -1,5 +1,7 @@
 # ACT4 Flow Revision — DEC-0081
 
+> Current numbering: DEC-0084 /99slides/387minutes. This design record retains its edition IDs. Use [96→99 migration](SLIDE_ID_MIGRATION_99.md), [current Slide Map](SLIDE_MAP.md) and [ACT0 expansion](ACT0_CONTEXT_EXPANSION.md) for the current presentation.
+
 Date:2026-10-24. Baseline:`c1e7795`.
 Status: IMPLEMENTED / LOCAL FINAL RENDER REVIEW COMPLETE.
 

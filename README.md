@@ -1,5 +1,7 @@
 # AI 개발자 교육
 
+현재 기준은 **DEC-0084 /99장·387분(6시간27분)**, ACT0 **S01–S13/13장·42분**이다. 기존 S05–S07을 결과→근거→별도 환경 오류→필요한 정보→사람의 전달→Agent의 조사6장으로 나눴다. 이전 S08–S96은 S11–S99이며 기존 근거 범위를 유지한다. [현재 설계](plan/ACT0_CONTEXT_EXPANSION.md), [번호 대조](plan/SLIDE_ID_MIGRATION_99.md), [결과](production/evaluation/ACT_0_CONTEXT_EXPANSION.md). 아래 이전 기록은 당시 판본이다. 발표 묶음은 갱신하지 않는다.
+
 현재 기준은 **DEC-0083 /96장·385분(6시간25분)**, ACT5 **S86–S96/11장·36분**이다. S90 뒤 재평가3장(기존 구조 재검토→유지·통합·제거 후보→대표 작업으로 확인)을 추가했다. 이전 S91–S93은 S94–S96이며 다음 행동에도 통합·제거를 연결했다. 기존 장별 시간·근거 범위는 보존한다. [현재 설계](plan/ACT5_HARNESS_REASSESSMENT.md), [번호 대조](plan/SLIDE_ID_MIGRATION_96.md), [최신 검토](production/evaluation/ACT_5_HARNESS_REASSESSMENT.md). 최종 Full96+ACT5 11의107개 PNG와96개 Notes를 대조했고 전체ACT 흐름·새 화면을 검토했다. Windows·교육장·제품 계정·시간 리허설은 UNVERIFIED다. 아래 이전 변경 기록은 당시 판본이다. 발표 묶음은 갱신하지 않는다.
 
 현재 수정은 **DEC-0082 / ACT5 전체 회수·실제 제품 이력·다음 행동·마무리**다.

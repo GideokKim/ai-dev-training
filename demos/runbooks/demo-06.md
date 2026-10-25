@@ -1,6 +1,6 @@
 # DEMO-06 — Context Relevance and Routing
 
-> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0084 /99slides/387minutes. Current IDs and static files follow SLIDE_ID_MIGRATION_99.md. Existing Demo time/evidence is preserved; local final-package/Notes/PNG parity checked. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — supporting visual/captured record
@@ -51,7 +51,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-Task-dependent document access; S47 explicitly says perfect routing is unproven and token saving/performance improvement were not measured.
+Task-dependent document access; S50 explicitly says perfect routing is unproven and token saving/performance improvement were not measured.
 
 ## Success Criteria
 
@@ -69,9 +69,9 @@ Evidence limit: No perfect routing, token saving, or performance gain; Progressi
 
 ## Estimated Time
 
-5m total: S37 Demo 2m + S43 Demo 2m + S47 Demo 1m.
+5m total: S40 Demo 2m + S46 Demo 2m + S50 Demo 1m.
 
-Phase plan: S37 2m → S43 2m → S47 1m.
+Phase plan: S40 2m → S46 2m → S50 1m.
 
 Time Risk: LOW
 
@@ -93,13 +93,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Demo5minutes: `production/preview/full/S37.png`, `production/preview/full/S43.png`, `production/preview/full/S47.png`. Case-only supporting alternatives: `production/preview/full/S45.png`, `production/preview/full/S46.png`.
+Default is the offline static presentation. Demo5minutes: `production/preview/full/S40.png`, `production/preview/full/S46.png`, `production/preview/full/S50.png`. Case-only supporting alternatives: `production/preview/full/S48.png`, `production/preview/full/S49.png`.
 
-Use S37/S43/S47 within the five Demo minutes. S45/S46 are additional available case-summary fallbacks for the scheduled A/B Case explanations, not extra Demo time. These are reconstructed summaries, not raw tool logs.
+Use S40/S46/S50 within the five Demo minutes. S48/S49 are additional available case-summary fallbacks for the scheduled A/B Case explanations, not extra Demo time. These are reconstructed summaries, not raw tool logs.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Captured Alternative provenance: DEC-0084 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -109,7 +109,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S47 comparison → S48 bounded accomplishments → S49 procedure-maintenance question → S50 retained request comparison.
+S50 comparison → S51 bounded accomplishments → S52 procedure-maintenance question → S53 retained request comparison.
 
 ## Evidence
 
@@ -120,6 +120,11 @@ TRIAL-004/005A/B; STATE-01/02/03; Demo Matrix.
 No perfect routing, token saving, or performance gain; Progressive Disclosure is a teaching model here.
 
 ## Trial / Run Record
+
+DEC-0084 updates current slide numbering and final-package static identities.
+No new Trial, Product State, live approval or measured effect. The dated
+records below retain their original edition references.
+
 
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 

@@ -1,6 +1,6 @@
 # DEMO-12 — Observed Evolution Recap
 
-> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0084 /99slides/387minutes. Current IDs and static files follow SLIDE_ID_MIGRATION_99.md. Existing Demo time/evidence is preserved; local final-package/Notes/PNG parity checked. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — ACT 5 visual recap
@@ -59,7 +59,7 @@ Follow the approved course mental-model evolution without implying automation.
 
 ## Expected Output
 
-Static recap of actual Product changes in S87, not execution captures.
+Static recap of actual Product changes in S90, not execution captures.
 Read three chronological rows top to bottom: crop boundary problem→fix to
 end-exclusive specification (STATE-00→STATE-00-FIXED); repeated/growing
 project guidance→core/detail organization (STATE-01→STATE-02→STATE-03);
@@ -79,9 +79,9 @@ Evidence limit: No universal maturity path, complete automation, or new Trial.
 
 ## Estimated Time
 
-2m: S87 Demo allocation. S86 Lecture 4m is separate.
+2m: S90 Demo allocation. S89 Lecture 4m is separate.
 
-Phase plan: S87 2m.
+Phase plan: S90 2m.
 
 Time Risk: LOW
 
@@ -103,9 +103,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S86.png`, `production/preview/full/S87.png`
+Default is the offline static presentation. Open: `production/preview/full/S89.png`, `production/preview/full/S90.png`
 
-Use the DEC-0082 S86–S87 PNGs. Current final-package/Notes/PNG parity is checked in production/evaluation/ACT_5_FLOW_REVISION.md. S86 is Lecture4 outside the S87 VISUAL2 slot. Read S87 top to bottom, problem→actual change→tracking IDs; do not point to excerpt images or use a serpentine rail Cue.
+Use the DEC-0084 S89–S90 PNGs. Current final-package/Notes/PNG parity is checked in production/evaluation/ACT_5_FLOW_REVISION.md. S89 is Lecture4 outside the S90 VISUAL2 slot. Read S90 top to bottom, problem→actual change→tracking IDs; do not point to excerpt images or use a serpentine rail Cue.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_5_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -119,17 +119,22 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S87 → S88: reflect on deliberately deferred components.
+S90 → S91: reflect on deliberately deferred components.
 
 ## Evidence
 
-Existing State history; DEC-0020/0021; Slide Map S86–87.
+Existing State history; DEC-0020/0021; Slide Map S89–87.
 
 ## Do Not Claim
 
 No universal maturity path, complete automation, or new Trial.
 
 ## Trial / Run Record
+
+DEC-0084 updates current slide numbering and final-package static identities.
+No new Trial, Product State, live approval or measured effect. The dated
+records below retain their original edition references.
+
 
 DEC-0083: the current96-slide package reuses identical S86/S87 static PNGs.
 DEMO-12 stays VISUAL2 on S87; the new Lecture slides are separate. See

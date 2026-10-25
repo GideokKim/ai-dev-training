@@ -1,6 +1,6 @@
 # DEMO-01 — Repository Exploration
 
-> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0084 /99slides/387minutes. Current IDs and static files follow SLIDE_ID_MIGRATION_99.md. Existing Demo time/evidence is preserved; local final-package/Notes/PNG parity checked. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — Anchor candidate
@@ -51,7 +51,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-Recorded test → implementation → call path, crop specification mismatch, read-only limit. S05 explicitly shows the first source row and intended width 2 versus included width 3. S06's code-only Chatbot question is a teaching assumption; it does not report a tool comparison or permission repair. S04 shows the actual request in a reconstructed input panel; its right-side GoogleTest list is a fictional C++ teaching example. The historical Trial used Python unittest, not GoogleTest.
+Recorded test → implementation → call path, crop specification mismatch, read-only limit. S05–S06 explicitly shows the first source row and intended width 2 versus included width 3. S07–S08's code-only Chatbot question is a teaching assumption; it does not report a tool comparison or permission repair. S04 shows the actual request in a reconstructed input panel; its right-side GoogleTest list is a fictional C++ teaching example. The historical Trial used Python unittest, not GoogleTest.
 
 ## Success Criteria
 
@@ -59,7 +59,16 @@ Explain the bounded finding and distinguish repository access from task intent.
 
 ## Expected Output
 
-TRIAL-001 record summary only; no new output.
+S05 shows expected width2 versus included width3 using the first source row.
+S06 connects the failing Test, end-exclusive specification, implementation
+and separate Product call path. The graph is not an Agent access timeline;
+README already described the defect. No code was changed in TRIAL-001.
+S07 separately shows the temp-directory creation limit under read-only
+permissions, not a crop defect or successful permission repair. S08 gathers
+the needed file/log/permission context. S09 is a manual-attachment teaching
+assumption; S10 recalls the bounded Agent investigation. S04's GoogleTest
+image remains a fictional C++ teaching setup; the actual Trial used Python.
+No new run, raw capture or tool-superiority comparison is introduced.
 
 ## Verification
 
@@ -69,14 +78,14 @@ Evidence limit: Codex CLI 0.154.0 only; no current Desktop, repeated success, ge
 
 ## Estimated Time
 
-8m Demo slot is S05; S04 2m setup and S06 5m interpretation are separately allocated.
+8m Demo slot is S05:4m + S06:4m. S04 setup remains separate Lecture2;
+S07 Case3 + S08 Case2 retain the earlier interpretation budget. S09 Lecture2
+is the approved addition; S10 Lecture2 retains the Agent callback.
 
-Phase plan: S05: 8m; do not invent phase cuts or a Live cutoff.
+Phase plan: S05 outcome4m → S06 evidence4m. No new Live phase or cutoff.
 
 Time Risk: MEDIUM
-
 Execution Risk: MEDIUM
-
 Product Volatility: HIGH
 
 ## Current-State Recheck
@@ -93,15 +102,19 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S04.png`, `production/preview/full/S05.png`, `production/preview/full/S06.png`
+Default is offline static playback. Open production/preview/full/S04.png,
+S05.png, S06.png, S07.png and S08.png in the same directory. S05/S06 are the
+8Demo minutes; the other pages retain their separately assigned modes.
+Keep reconstructed-diagram, old-CLI/read-only and teaching-model labels.
+S09/S10 are Lecture support pages, not extra Demo time or a permission fix.
 
-Show S04→S05→S06 and retain `RECONSTRUCTED DIAGRAM` / `OBSERVED PRODUCT · CODEX CLI 0.154.0 · READ-ONLY` labels.
+Fallback readiness: READY for current local static files only; see
+FALLBACK_MANIFEST.md and production/evaluation/ACT_0_CONTEXT_EXPANSION.md.
+Raw Trial capture, Windows/target account and room playback remain UNVERIFIED.
 
-Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
-
-Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
-
-Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
+Captured Alternative provenance: DEC-0084 final-package static renders.
+Fallback Threshold: Static playback is the default. Live/Hybrid is disabled;
+a Live cutoff remains TBD until a target-environment timed rehearsal.
 
 ## Reset
 
@@ -109,7 +122,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S06 → S07: repository access does not reveal developer intent.
+S07–S08 → S09–S10: repository access does not reveal developer intent.
 
 ## Evidence
 
@@ -120,6 +133,11 @@ TRIAL-001; STATE-00; plan/DEMO_MATRIX.md.
 Codex CLI 0.154.0 only; no current Desktop, repeated success, general performance, or raw terminal screenshot claim.
 
 ## Trial / Run Record
+
+DEC-0084 updates current slide numbering and final-package static identities.
+No new Trial, Product State, live approval or measured effect. The dated
+records below retain their original edition references.
+
 
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 

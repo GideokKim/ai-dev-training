@@ -2,13 +2,13 @@
 
 ## Current operation — DEC-0080
 
-S72 shows records/targets to inspect, S73 distinguishes scenario information from cause hypothesis, and S74 compares responses only after assumed cause confirmation. This is redistributed source material. S72 Demo2+S73 Demo1 remains3minutes; S74 Case2 adds no Demo slot. No execution or cause confirmation is observed.
+S75 shows records/targets to inspect, S76 distinguishes scenario information from cause hypothesis, and S77 compares responses only after assumed cause confirmation. This is redistributed source material. S75 Demo2+S76 Demo1 remains3minutes; S77 Case2 adds no Demo slot. No execution or cause confirmation is observed.
 
 Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0084 /99slides/387minutes. Current IDs and static files follow SLIDE_ID_MIGRATION_99.md. Existing Demo time/evidence is preserved; local final-package/Notes/PNG parity checked. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — conceptual synthesis
@@ -25,7 +25,7 @@ Delivery Mode: VISUAL / CAPTURED conceptual synthesis
 
 ## Purpose
 
-Inspect evidence before selecting the cause-dependent response. Preserve the Prompt/global-rule/Workflow alternatives on S74 as Case context.
+Inspect evidence before selecting the cause-dependent response. Preserve the Prompt/global-rule/Workflow alternatives on S77 as Case context.
 
 ## Audience Question
 
@@ -59,7 +59,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-S72 inspection targets are not execution records. S73 scenario facts do not confirm a cause. S74 response selection explicitly assumes confirmed Workflow cause. Make no real diff.
+S75 inspection targets are not execution records. S76 scenario facts do not confirm a cause. S77 response selection explicitly assumes confirmed Workflow cause. Make no real diff.
 
 ## Success Criteria
 
@@ -67,7 +67,7 @@ Explain how evidence bounds the repair layer.
 
 ## Expected Output
 
-Static inspection/information/hypothesis visuals. The existing three response alternatives follow on S74 Case2, outside the3Demo minutes.
+Static inspection/information/hypothesis visuals. The existing three response alternatives follow on S77 Case2, outside the3Demo minutes.
 
 ## Verification
 
@@ -77,9 +77,9 @@ Evidence limit: No actual Skill repair, observed failure cause, or executed regr
 
 ## Estimated Time
 
-3m: S72 Demo 2m + S73 Demo 1m.
+3m: S75 Demo 2m + S76 Demo 1m.
 
-Phase plan: S72 2m → S73 Demo portion 1m.
+Phase plan: S75 2m → S76 Demo portion 1m.
 
 Time Risk: LOW
 
@@ -101,13 +101,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S72.png`, `production/preview/full/S73.png`
+Default is the offline static presentation. Open: `production/preview/full/S75.png`, `production/preview/full/S76.png`
 
-Use S72–S73 PNGs and keep CONCEPTUAL labels visible.
+Use S75–S76 PNGs and keep CONCEPTUAL labels visible.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0060 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Captured Alternative provenance: DEC-0084 current final-package slide renders. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -117,17 +117,22 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S73 → S74: after information/hypothesis separation, explicitly assume cause confirmation to compare response scope.
+S76 → S77: after information/hypothesis separation, explicitly assume cause confirmation to compare response scope.
 
 ## Evidence
 
-DEC-0021/0080; current Slide Map S72–S74. Stable Beat IDs are mapped by their existing meanings; no Product State is added.
+DEC-0021/0080; current Slide Map S75–S77. Stable Beat IDs are mapped by their existing meanings; no Product State is added.
 
 ## Do Not Claim
 
 No actual Skill repair, observed failure cause, or executed regression result.
 
 ## Trial / Run Record
+
+DEC-0084 updates current slide numbering and final-package static identities.
+No new Trial, Product State, live approval or measured effect. The dated
+records below retain their original edition references.
+
 
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 

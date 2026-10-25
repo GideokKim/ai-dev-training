@@ -1,5 +1,7 @@
 # ACT2 Flow Revision — DEC-0060
 
+> Current numbering: DEC-0084 /99slides/387minutes. This design record retains its edition IDs. Use [96→99 migration](SLIDE_ID_MIGRATION_99.md), [current Slide Map](SLIDE_MAP.md) and [ACT0 expansion](ACT0_CONTEXT_EXPANSION.md) for the current presentation.
+
 Date:2026-10-22. Baseline:feae727 /90slides/368minutes.
 User-approved additional duration ceiling:720minutes.
 Current schedule:93slides/379minutes; ACT2 S32–S49/18slides/81minutes.

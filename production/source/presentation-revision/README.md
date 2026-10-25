@@ -1,5 +1,15 @@
 # Current presentation source — DEC-0060 /93slides
 
+Current: DEC-0084 /99slides/387minutes. Retained factory files represent
+the96-slide source edition. `slide-numbering-99.mjs` applies the approved
+mapping once after all those overlays; `act0-context-expansion.mjs` then
+defines current S05–S10. Current IDs/Notes/templates come from the99-slide
+maps. Do not shift asset/prototype/evaluation filenames or reapply migration.
+Native table owners are S50/S58/S80; native chart owner is S61. See
+[migration](../../../plan/SLIDE_ID_MIGRATION_99.md) and
+[design](../../../plan/ACT0_CONTEXT_EXPANSION.md). Older entries below retain
+their edition's IDs and validation scope. No presenter bundle is regenerated.
+
 Current revision: DEC-0083 /96slides/385minutes; ACT5 S86–S96 11/36.
 New S91–S93 explain reassessment, keep/integrate/remove candidates and
 representative-task verification. Former S91–S93 become S94–S96. Existing

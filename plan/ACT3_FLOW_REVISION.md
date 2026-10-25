@@ -1,5 +1,7 @@
 # ACT3 Flow Revision — DEC-0062
 
+> Current numbering: DEC-0084 /99slides/387minutes. This design record retains its edition IDs. Use [96→99 migration](SLIDE_ID_MIGRATION_99.md), [current Slide Map](SLIDE_MAP.md) and [ACT0 expansion](ACT0_CONTEXT_EXPANSION.md) for the current presentation.
+
 ## Current ACT3→ACT4 connection — DEC-0080
 
 S67 closes location/maintenance ownership with recheck timing. S68 briefly
