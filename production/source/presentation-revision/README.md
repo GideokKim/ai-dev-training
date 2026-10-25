@@ -1,5 +1,7 @@
 # Current presentation source
 
+Latest layout repair: DEC-0095 / current S109, retained source `act5-reassessment.mjs` factory S93. Align only input/candidate/criteria widths and native connector endpoints. Preserve all strings, fonts, Notes and evidence; rebuild Full plus ACT5 with `--release --release-acts=5`. See `production/evaluation/S109_CONNECTOR_LAYOUT_REVISION.md`.
+
 Current ACT4: DEC-0094. Apply `act4-loop-control.mjs` at current115IDs after all retained adapters/title factories. Only S83/S86/S90/S91/S92/S94/S99/S100 screens change; Notes also align S93/S98 transitions. Keep every budget, Mode, evidence class and native evidence owner. Build Full plus ACT4 with `--release --release-acts=4`, then review the exact final115/19renders. No bundle or Demo change.
 
 Current: DEC-0093 /115slides/406minutes. `codex-authoring-tips.mjs` applies113-to115 numbering after the retained113factories, then adds S63/S68. Both use T03-C and are documented-guidance diagrams, not actual creation/execution. Current chart owner S66; native tables S53/S62/S92. All retained pictures, budgets and evidence stay unchanged. Full and all ACT packages align current Notes/IDs; final tip indexes S112-S114 contain19tips. See `plan/CODEX_AUTHORING_TIPS.md` and `plan/SLIDE_ID_MIGRATION_115.md`. Earlier stages below remain historical.

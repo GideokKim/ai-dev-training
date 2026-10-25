@@ -10185,3 +10185,77 @@ ACT3/ACT5 boundaries; compare107unchanged screens and105unchanged Notes.
 Verify115x19fields, Notes embedding, timings, native evidence and static
 fallback hashes. Keep Windows, room, product/account and timed rehearsal
 UNVERIFIED. Commit authorized artifacts and push normally to origin/main.
+
+
+# DEC-0095 — Align the S109 comparison connectors and columns
+
+## Status
+
+ACCEPTED — explicit user annotation on the ACT5 comparison diagram.
+
+## Date
+
+2026-10-25
+
+## Context
+
+Baseline `ecdd57b` has115slides/406minutes. The user identifies awkward
+branching arrows on S109, titled after removing structure does it still
+perform the required work, and requests column-width adjustments.
+
+## Problem
+
+The input is narrow, candidate boxes dominate, and unequal connector gaps
+leave a short output arrow between the merge spine and comparison criteria.
+
+## Decision
+
+Widen the input box, slightly narrow both equal candidate boxes and align
+the comparison column. Center the branch and merge spines on the input and
+two candidate rows. Join each box edge with equal48px branch segments and
+consistent2.5px native connector strokes. Retain a readable output segment.
+
+Keep every screen string,115slides/406minutes, S109'sLecture2minutes,
+Notes, template, evidence boundary and all other screens unchanged. Align
+the editable source, ACT5/Full packages, current previews and identities.
+
+## Rationale
+
+Make the existing same-input comparison readable as one connected diagram
+without adding explanation or changing its pedagogical purpose.
+
+## Alternatives
+
+Only stretch one arrow; the asymmetric column spacing remains.
+Replace it with an image; native diagram editability would be lost.
+
+## Trade-offs
+
+Use more width for input and slightly less for candidates/criteria while
+retaining the existing text sizes and all content.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-DELIVERY-001.
+
+## Affected Artifacts
+
+S109 source and Map visual description; Full/ACT5 PPTX and previews;
+current review and delivery/fallback file identities. Notes remain exact.
+
+## Evidence
+
+User artifact annotation `annotation-mvnrpmoa-2`; source/preview inspection.
+This is a layout repair, not a new technical or product claim.
+
+## Training Relevance
+
+Preserve the comparison of the original setup and consolidation/removal
+candidate under the same task, input and evaluation criteria.
+
+## Follow-up
+
+Render/review the final Full115and ACT5 15slides. Verify114unchanged Full
+screens, all115Notes, native evidence and other five ACT packages. Preserve
+Windows/room/product/account/rehearsal as UNVERIFIED, then commit and push
+normally to the existing origin/main. Do not rebuild presenter bundles.

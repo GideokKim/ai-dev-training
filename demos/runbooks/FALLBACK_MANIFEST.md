@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0094 local static-file inventory only (2026-10-25).
+Status: READY — DEC-0095 local static-file inventory only (2026-10-25).
 Windows/product/account/room/timed rehearsal: UNVERIFIED.
 
 ## Current source identities
 
 - Source: production/AI_Dev_Training_Full.pptx
-- Source SHA-256: 09e9b4a2f25b2131fc746618839fc113c128e3dc3fa42fdd656c1100c0d3305f
+- Source SHA-256: 3e6d3f18f91ee1fb967ce72e14f4563a5c6188c3752c1310977e77be14f3d64d
 - Full Notes SHA-256: b0317d8c082ad0719be0261f2784e8a194cd01cd52de5c324deafcf38c587296
-- Full montage SHA-256: a0488fd41fc88377444030ad8b752a59c9ff0a38ddf5755697d8d052942ea71b
+- Full montage SHA-256: 04ddd519839e1ae30390201dedb4b62254d774bda294be93654084991f22ae8f
 - Current Full:115slides/406minutes.34retained Demo fallback roles.
 - Current ACT4:S82-S100,19pages/81minutes; original composition/budgets/evidence retained;8screens clarified.
 - Current IDs follow SLIDE_ID_MIGRATION_115.md. New S63/S68 are Lecture tips,
@@ -17,7 +17,9 @@ Windows/product/account/room/timed rehearsal: UNVERIFIED.
 - Native fonts Malgun Gothic/Consolas; local aliases AppleSDGothicNeo/Menlo.
 - Final package/Notes/ACT/PNG parity and34paths/hashes checked locally.
 - Earlier provenance retains its dated edition. No presenter bundle.
-- [Result](../../production/evaluation/ACT_4_LOOP_CONTROL_REVISION.md).
+- [Result](../../production/evaluation/S109_CONNECTOR_LAYOUT_REVISION.md).
+
+S109 is a Lecture layout repair outside this34file inventory. All fallback PNGs remain unchanged.
 
 ## Historical provenance — DEC-0086 and earlier
 

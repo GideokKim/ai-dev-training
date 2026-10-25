@@ -1,5 +1,7 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+최신 배치 수정: **DEC-0095 / S109 연결선·좌우 폭 정렬**. ACT5/통합본을 갱신하고 문구·Notes·기획·근거·장수·시간은 그대로 유지했다. 미수정114개 Full 화면과 다른5ACT PPTX는 동일하다. [현재 배치 검토](S109_CONNECTOR_LAYOUT_REVISION.md). 아래 ACT4 내용 정렬 기록은 유효하며, 현재 파일 식별은 이번 산출물을 따른다.
+
 현재 기준: **DEC-0094 /115장·406분(6시간46분)**. ACT4 S82–S100의19장·81분과
 기존 순서·시간·Mode·기획·근거 범위를 유지하며, 두 루프와 평가 뒤 판단·다음 작업
 연결을 다듬었다. 화면8개, Notes10개를 정렬했다. 실제 Meta 확인은 부분적이며
@@ -24,15 +26,15 @@ Demo 저장소·원본 근거·Prototype·발표 묶음 변경과 새 Trial·성
 
 | 파일 | SHA-256 |
 |---|---|
-| production/AI_Dev_Training_Full.pptx | `09e9b4a2f25b2131fc746618839fc113c128e3dc3fa42fdd656c1100c0d3305f` |
+| production/AI_Dev_Training_Full.pptx | `3e6d3f18f91ee1fb967ce72e14f4563a5c6188c3752c1310977e77be14f3d64d` |
 | production/ACT_0.pptx | `1e3794fa89ca0ccd039eeac54f43b679d82c3f8c1ecc6f6e0b384cc9630b6109` |
 | production/ACT_1.pptx | `4cf6f12e55cbace8b4deac8ce3267bd94a1d0fa0687817f85e7416a3fbb83901` |
 | production/ACT_2.pptx | `baa82f305eb9c8b578d5a3433bea80f3a8ba1cddfc0045c107c4bfffab6b2ab6` |
 | production/ACT_3.pptx | `ce8381315dc3ae6e191cd27ed8dd62eb8d257ff4d8d46366e7e2acf66648b0ad` |
 | production/ACT_4.pptx | `af11a3627d210b70183ab1376db8abe2860d8dd5a10a311dbc5a5dd120c377e4` |
-| production/ACT_5.pptx | `07b73adac097dc21ebab88a5c8c0d122ba9cfde47ba22470808b5e833ea2ab9c` |
+| production/ACT_5.pptx | `a60ec642db7d2c61594cdfdb723fa66c8c4b838bd51077fb78ba301f25d843c3` |
 | production/notes/FULL_SPEAKER_NOTES.md | `b0317d8c082ad0719be0261f2784e8a194cd01cd52de5c324deafcf38c587296` |
-| production/preview/full/montage.png | `a0488fd41fc88377444030ad8b752a59c9ff0a38ddf5755697d8d052942ea71b` |
+| production/preview/full/montage.png | `04ddd519839e1ae30390201dedb4b62254d774bda294be93654084991f22ae8f` |
 
 ## 이전 DEC-0093 전달 안내 — 원문 보존
 

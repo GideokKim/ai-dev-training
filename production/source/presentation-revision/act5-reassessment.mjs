@@ -61,20 +61,20 @@ export function loadAct5ReassessmentSlides() {
     'TEACHING MODEL · SRC-0236의 평가 권고를 각색 · CLM-0040 · DEC-0083',
     '새 비교 실험·측정 결과 없음 · 시간·비용만으로 채택하지 않음');
    text(s,'같은 대표 작업에서, 결과와 회귀부터 확인한다',64,185,1152,44,31,C.teal,true);
-   rect(s,64,355,202,98,C.white,C.line,1);
-   text(s,'같은 대표\n작업·입력',80,366,170,75,28,C.ink,true,H.FONT,'center');
-   arrow(s,276,404,28);stroke(s,304,329,0,152);stroke(s,781,329,0,152);
-   arrow(s,781,402,12);
-   const branches=[['기존 구성',290,C.white],['통합·제거 후보',442,C.pale]];
+   rect(s,64,352,240,104,C.white,C.line,1);
+   text(s,'같은 대표\n작업·입력',80,366,208,76,28,C.ink,true,H.FONT,'center');
+   arrow(s,304,404,48);stroke(s,352,328,0,152);stroke(s,768,328,0,152);
+   arrow(s,768,404,64);
+   const branches=[['기존 구성',288,C.white],['통합·제거 후보',440,C.pale]];
    branches.forEach(([label,y,color])=>{
-    arrow(s,304,y+39,51);rect(s,365,y,346,78,color,C.line,1);
-    text(s,label,381,y+13,314,52,30,C.ink,true,H.FONT,'center');
-    arrow(s,720,y+39,61);
+    arrow(s,352,y+40,48);rect(s,400,y,320,80,color,C.line,1);
+    text(s,label,416,y+14,288,52,30,C.ink,true,H.FONT,'center');
+    arrow(s,720,y+40,48);
    });
-   text(s,'같은 기준으로 비교',803,272,413,40,27,C.teal,true);
+   text(s,'같은 기준으로 비교',832,272,384,40,27,C.teal,true);
    [['결과 · 회귀','명세와 기존 동작을 지키나?'],['시간 · 비용','기록으로 달라진 점을 보나?'],['남은 위험','놓친 작업·권한 조건은 없나?']].forEach(([label,q],i)=>{
-    const y=327+i*70;line(s,803,y,413,C.line,1);
-    text(s,label,803,y+5,413,31,25,C.teal,true);text(s,q,803,y+37,413,31,23,C.ink);
+    const y=327+i*70;line(s,832,y,384,C.line,1);
+    text(s,label,832,y+5,384,31,25,C.teal,true);text(s,q,832,y+37,384,31,23,C.ink);
    });
    text(s,'확인한 범위만 채택한다',64,563,548,38,29,C.teal,true);
    text(s,'나빠지면 되돌리고, 이유를 남긴다',665,563,551,38,28,C.ink,true);

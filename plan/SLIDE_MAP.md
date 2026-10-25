@@ -2872,7 +2872,7 @@ ACT별 Mode 대조:
 - **Curriculum Trace:** ACT 5 — AI-Native operating model and advanced reliability; reassess previously justified structure under changed conditions.
 - **Evidence Type:** TEACHING_MODEL / RESEARCH
 - **Claim Status:** TEACHING MODEL — 비교 평가 설계이며 실제 실행·PASS/FAIL·측정값 없음. FROZEN WITH SCOPE — SRC-0236의 대표 end-to-end 평가 권고와 통합 뒤 회귀 사례가 동기를 뒷받침한다.
-- **Visual Concept:** 같은 대표 작업·입력에서 기존 구성과 통합·제거 후보로 갈라졌다가 같은 결과·회귀/시간·비용/남은 위험 기준으로 모이는 도식이다. 하단은 조건부 채택과 되돌림이다. 실행 결과·점수·수치·PASS 배지를 표시하지 않는다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 검증·개선”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
+- **Visual Concept:** 같은 대표 작업·입력에서 기존 구성과 통합·제거 후보로 갈라졌다가 같은 결과·회귀/시간·비용/남은 위험 기준으로 모이는 도식이다. 하단은 조건부 채택과 되돌림이다. 실행 결과·점수·수치·PASS 배지를 표시하지 않는다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 검증·개선”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다. DEC-0095: 입력 상자를 넓히고 두 후보 상자를 같은 폭으로 줄여, 분기/합류의 중심과 좌우 연결 간격을 맞춘다. 동일 굵기 Native connector가 각 상자 경계까지 연결된다. 내용·시간·근거는 바꾸지 않는다.
 - **Demo / Case Connection:** 새 Demo/Trial/State 없음. 공급사 공개 사례와 교육용 판단 모델이며 우리 제품의 통합·제거 성과가 아니다.
 - **Beginner Payoff:** 간단해졌다는 인상 대신 원래 할 일을 계속 수행하는지 확인한다.
 - **Advanced Payoff:** 평가 범위·품질·회귀·시간/비용·남은 위험과 복구 조건을 분리해 수용 근거를 만든다. 모델/구성 외 조건의 차이도 기록한다.
