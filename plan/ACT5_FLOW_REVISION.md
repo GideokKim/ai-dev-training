@@ -1,5 +1,10 @@
 # ACT5 Flow Revision — DEC-0082
 
+Current revision: DEC-0083 /96slides/385minutes; ACT5 S86–S96 11/36.
+New S91–S93 explain reassessment, keep/integrate/remove candidates and
+representative-task verification. Former S91–S93 become S94–S96. Existing
+records below retain their historical numbering. Use [current migration](SLIDE_ID_MIGRATION_96.md).
+
 Date:2026-10-24. Baseline:`bfc63d0`.
 Status: IMPLEMENTED / LOCAL FINAL RENDER REVIEW COMPLETE.
 

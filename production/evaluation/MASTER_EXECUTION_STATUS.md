@@ -1,6 +1,6 @@
 # MASTER EXECUTION STATUS
 
-> Current-version router — 이 보고서의 번호·장수·파일·hash·검증 결과는 해당 Decision 당시의 역사적 판본이다. 현재 82장 번호는 [새 이행표](../../plan/SLIDE_ID_MIGRATION_82.md), 현재 제작 결과는 [Prompt·시간선 수정](PROMPT_TIMELINE_REVISION.md)을 따른다.
+> Current-version router — 이 보고서의 실행 결과는 역사적 판본이다. 현재 DEC-0083 /96장·385분의 번호는 [93→96 이행표](../../plan/SLIDE_ID_MIGRATION_96.md), 산출물·hash와 남은 검증은 [최종 전달 안내](FINAL_HANDOFF.md), [ACT5 재평가 추가 결과](ACT_5_HARNESS_REASSESSMENT.md)를 따른다. 아래 과거 PASS는 현행 실환경 검증이 아니다.
 
 > Historical record — 이 문서는 DEC-0036 이전 80장 판의 번호와 검증 결과를 보존한다. 현재 81장 판과의 대응은 [Slide ID Migration](../../plan/SLIDE_ID_MIGRATION.md)을 따른다. 과거 PASS는 현재 파일의 재검증을 뜻하지 않는다.
 

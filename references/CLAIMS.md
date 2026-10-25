@@ -147,3 +147,13 @@ in ACT 4.
 | CLM-0037 | OpenAI recommends planning before coding for difficult tasks and separately warns that internal chain-of-thought prompting can be unnecessary for reasoning models. | DOCUMENTED RECOMMENDATION | HIGH | SRC-0232, SRC-0234, SRC-0231 | Current S27 / task decomposition | VERIFIED | MEDIUM | P2 |
 | CLM-0038 | OpenAI documents focused review instructions, explicit coding responsibilities and relevant verification; the teaching role is a review perspective, with no verified guarantee of expertise, independence or correctness. | DOCUMENTED RECOMMENDATION | HIGH | SRC-0232, SRC-0234, SRC-0235, SRC-0230 | Current S28 / criteria-focused review | VERIFIED | HIGH | P2 |
 | CLM-0039 | OpenAI recommends reviewing an initial result and using specific follow-up prompts to refine it; repetition alone is not evidence of improvement. | DOCUMENTED RECOMMENDATION | HIGH | SRC-0234 | Current S29 / concrete feedback | VERIFIED | MEDIUM | P2 |
+
+
+## DEC-0083 — Existing Harness reassessment
+
+| Claim ID | Claim | Type | Confidence | Source | Use | Status | Volatility | Priority |
+|---|---|---|---|---|---|---|---|---|
+| CLM-0040 | Anthropic describes some enterprise-agent deployments that consolidated routing, planning or domain subagents into a main loop and recommends representative end-to-end evaluation; separate agents remain justified for some boundaries/work. | DOCUMENTED VENDOR CASE / RECOMMENDATION | HIGH for existence and scope of the published account | SRC-0236 | S91 scoped case; S93 evaluation-design motivation | VERIFIED WITH SCOPE; no course Demo/current Codex/general superiority claim | HIGH | P1 |
+
+S92 is a TEACHING_MODEL extension of CLM-0022/0030. S93 is evaluation design,
+not an executed comparison. No measured cost/time/token/quality gain is added.

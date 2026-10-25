@@ -1,8 +1,21 @@
 # STEP 08 — ACT-by-ACT Production Plan
 
+## Current ACT5 reassessment — DEC-0083
+
+S90의 AI-Native 설계 관점 뒤에 S91 조건 변화에 따른 기존 Harness 재평가,
+S92 유지·통합·제거 후보, S93 같은 대표 작업·기준으로 확인을 배치한다.
+S88의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가는 다르다.
+이전 S91/S92/S93은 S94/S95/S96이며, 문제·다음 행동에 통합·제거 후보를 포함한다.
+현재96장·385분 / ACT5 11장·36분. 기존 Slide별 시간·Mode와 Beat/Section/
+Demo/Trial/State IDs는 유지한다.11Template/27Variant와19Notes 필드를 재사용한다.
+[현재 설계](ACT5_HARNESS_REASSESSMENT.md), [번호 대조](SLIDE_ID_MIGRATION_96.md),
+[로컬 검토](../production/evaluation/ACT_5_HARNESS_REASSESSMENT.md)를 기준으로 한다.
+아래 이전 수정·Prototype·검증 본문은 당시 번호·범위의 이력이다.
+새 Trial·측정 성과·Demo State를 추가하지 않는다. 발표 묶음은 갱신하지 않는다.
+
 > 최신 ACT3 설명 순서: DEC-0062 / [ACT3 흐름 설계](ACT3_FLOW_REVISION.md). S50–S67의18장·85분과 장별 시간·Mode·ID는 유지한다. Skill 문서/관찰 대응, Subagent·Memory의 가정→현재 선택, 실제 구성→전체 작업 환경의 역할을 정렬했다. 아래 원본 기획·과거 검증 이력은 보존한다.
 
-> **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
+> **현재 기준: DEC-0083 /96장·385분(6시간25분, 2026-10-25).** ACT 장수10/21/18/18/18/11, 시간40/63/81/85/80/36분. Mode Lecture149/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존93장과 장별 시간·Mode를 보존하고 S90 뒤 재평가3장(Lecture2분씩)을 더했다. 이전 S91–S93은 S94–S96이다. [현재 번호 대조](SLIDE_ID_MIGRATION_96.md), [추가 설계](ACT5_HARNESS_REASSESSMENT.md).720분은 허용 상한이며 실제 Windows·제품·계정·교육장·리허설은 UNVERIFIED다.
 
 
 Date: 2026-10-11
@@ -66,8 +79,8 @@ ACT는 다음 순서로 하나씩 진행한다. 각 단계는 해당 ACT의 1차
 | 3 | ACT 2 | S32–S49 | 18 | 81분 | 검토 및 checkpoint 후 ACT 3 |
 | 4 | ACT 3 | S50–S67 | 18 | 85분 | 검토 및 checkpoint 후 ACT 4 |
 | 5 | ACT 4 | S68–S85 | 18 | 80분 | 검토 및 checkpoint 후 ACT 5 |
-| 6 | ACT 5 | S86–S93 | 8 | 30분 | 최종 delivery Gate 검토 |
-| **합계** |  | **S01–S93** | **93** | **379분** |  |
+| 6 | ACT 5 | S86–S96 | 11 | 36분 | 최종 delivery Gate 검토 |
+| **합계** |  | **S01–S96** | **96** | **385분** |  |
 
 ACT 시간은 `SLIDE_MAP.md`의 배정이며 break/setup을 포함하지 않는다.
 
@@ -143,7 +156,7 @@ Mac 또는 LibreOffice local render는 Windows/교육장 확인을 대신하지 
 
 - Slide Map 기준: 93장, S01–S93.
 - ACT별 Slide/시간: 10/40, 21/63, 18/81, 18/85, 18/80, 8/30.
-- 전체 교육 시간: 379분.
+- 전체 교육 시간:385분(DEC-0083).
 - Mode 합계: Lecture 143, Demo 73, Case 88, Reflection 21,
   Transition 22, Q&A 32분.
 - Slide별 Mode 합계는 `SLIDE_MAP.md`의 Estimated Time 기준으로 검증한다.
@@ -160,6 +173,6 @@ Mac 또는 LibreOffice local render는 Windows/교육장 확인을 대신하지 
 S04–S06에 현재 제품 surface 또는 Live/Hybrid 설명을 포함하려면 관련
 `PROVISIONAL` Gate를 먼저 해결하거나, 기존 TRIAL-001의 범위만 사용한다.
 
-## DEC-0060 current revision gate
+## Historical DEC-0060 revision gate
 
 Current ACT2 is S32–S49/18slides/81minutes. Update Full and ACT2–5 under the explicit90→93 migration, preserve ACT0/1 packages and all existing slide allocations. Recheck93 notes records/19fields, final-package renders and native table S47/chart S58. Full production has already occurred; prior READY FOR ACT0 status above is the original production history. Windows/room/product/account/timed rehearsal gates remain UNVERIFIED. Presenter bundle creation remains paused.

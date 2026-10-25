@@ -1,17 +1,21 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0082 local static-file inventory only (2026-10-24).
+Status: READY — DEC-0083 local static-file inventory only (2026-10-25).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 
 ## Current provenance
 
+DEC-0083 adds S91–S93 after S90; all32fallback PNGs and their paths/hashes
+are unchanged. DEMO-12 remains S86/S87 with VISUAL2 on S87. No new Demo
+minutes, Trial, actual integration result or live approval. [Current result](../../production/evaluation/ACT_5_HARNESS_REASSESSMENT.md).
+
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `79e45b8befb25d64b8b92c3f0962115fe64cdc5dcd468079bd70a1a0e600a58b`
-- Full Notes SHA-256: `49e476575460157c3d357ca42e93edb61477bcd64d60bdda9e85831923f5865d`
-- Full montage SHA-256: `6d98ca3d53b5f272a44dbf16fc7f876537eb7f022016bee5a6a936b97274c411`
+- Source SHA-256: `ce1224e85fc772c10361eec6b4c486276bcef8e7fa1817139b89c088ac92dfdb`
+- Full Notes SHA-256: `64e8c794ab45005b2ef60302eab05fa011bde8370c9677bceead76308cb5fc9b`
+- Full montage SHA-256: `2ce2545d8330d1bf611020432ec7043074adb9fe846aa4f5caecd32ca9d91c54`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
-- Current Full inventory:93slides; current static fallback PNG inventory:32.
+- Current Full inventory:96slides; current static fallback PNG inventory:32.
 - The prior29 fallback pages are migrated by SLIDE_ID_MIGRATION_93.md;
   S45 and S46 add available case-summary alternatives. They add no Demo time.
 - DEMO-06 remains5Demo minutes (S37:2/S43:2/S47:1); S45/46 have separate

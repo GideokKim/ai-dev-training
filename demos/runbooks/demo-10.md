@@ -8,7 +8,7 @@ Current local package/render/Notes/path validation is complete for DEC-0081.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current ACT4 design](../../plan/ACT4_FLOW_REVISION.md).
 
-> Current references: DEC-0081 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — conceptual evaluation matrix

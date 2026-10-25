@@ -1,11 +1,11 @@
 # DEMO-12 — Observed Evolution Recap
 
-> Current references: DEC-0082 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — ACT 5 visual recap
 
-Final Validation Status: READY — DEC-0082 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
+Final Validation Status: READY — DEC-0083 local static paths, visible IDs, final-package renders/Notes and hashes checked. Windows/product/account/room/rehearsal remain UNVERIFIED. No new Trial.
 
 Story Beat: BEAT-060–070
 
@@ -130,6 +130,10 @@ Existing State history; DEC-0020/0021; Slide Map S86–87.
 No universal maturity path, complete automation, or new Trial.
 
 ## Trial / Run Record
+
+DEC-0083: the current96-slide package reuses identical S86/S87 static PNGs.
+DEMO-12 stays VISUAL2 on S87; the new Lecture slides are separate. See
+production/evaluation/ACT_5_HARNESS_REASSESSMENT.md.
 
 DEC-0082 validates the current final-package static files, Notes, PNG dimensions
 and hashes. No product run, Trial, extra State, measured gain or live approval.

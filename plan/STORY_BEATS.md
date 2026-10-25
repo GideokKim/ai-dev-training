@@ -1,11 +1,24 @@
 # Story Beats
 
+## Current ACT5 reassessment — DEC-0083
+
+S90의 AI-Native 설계 관점 뒤에 S91 조건 변화에 따른 기존 Harness 재평가,
+S92 유지·통합·제거 후보, S93 같은 대표 작업·기준으로 확인을 배치한다.
+S88의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가는 다르다.
+이전 S91/S92/S93은 S94/S95/S96이며, 문제·다음 행동에 통합·제거 후보를 포함한다.
+현재96장·385분 / ACT5 11장·36분. 기존 Slide별 시간·Mode와 Beat/Section/
+Demo/Trial/State IDs는 유지한다.11Template/27Variant와19Notes 필드를 재사용한다.
+[현재 설계](ACT5_HARNESS_REASSESSMENT.md), [번호 대조](SLIDE_ID_MIGRATION_96.md),
+[로컬 검토](../production/evaluation/ACT_5_HARNESS_REASSESSMENT.md)를 기준으로 한다.
+아래 이전 수정·Prototype·검증 본문은 당시 번호·범위의 이력이다.
+새 Trial·측정 성과·Demo State를 추가하지 않는다. 발표 묶음은 갱신하지 않는다.
+
 > 최신 ACT3 설명 순서: DEC-0062 / [ACT3 흐름 설계](ACT3_FLOW_REVISION.md). S50–S67의18장·85분과 장별 시간·Mode·ID는 유지한다. Skill 문서/관찰 대응, Subagent·Memory의 가정→현재 선택, 실제 구성→전체 작업 환경의 역할을 정렬했다. 아래 원본 기획·과거 검증 이력은 보존한다.
-> **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
+> **현재 기준: DEC-0083 /96장·385분(6시간25분, 2026-10-25).** ACT 장수10/21/18/18/18/11, 시간40/63/81/85/80/36분. Mode Lecture149/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존93장과 장별 시간·Mode를 보존하고 S90 뒤 재평가3장(Lecture2분씩)을 더했다. 이전 S91–S93은 S94–S96이다. [현재 번호 대조](SLIDE_ID_MIGRATION_96.md), [추가 설계](ACT5_HARNESS_REASSESSMENT.md).720분은 허용 상한이며 실제 Windows·제품·계정·교육장·리허설은 UNVERIFIED다.
 
 ## 현행 제작 기준과 원본 기획의 관계
 
-아래 본문은 원래 Curriculum/Story 설계와 단계별 승인 이력을 보존한다. 그 안의 이전 장수·시간·당시 Slide 번호를 최신 PPT 번호로 읽지 않는다. 현재 Slide별 배정은 SLIDE_MAP.md,90→93 대조는 SLIDE_ID_MIGRATION_93.md가 기준이다. Beat/Section/Demo/Trial ID와 문제 중심 진화는 유지한다. ACT2에서는 연구 두 과제 분리, B 답변 회수, 성과 회수로11분만 추가한다.
+아래 본문은 원래 Curriculum/Story 설계와 단계별 승인 이력을 보존한다. 그 안의 이전 장수·시간·당시 Slide 번호를 최신 PPT 번호로 읽지 않는다. 현재 Slide별 배정은 SLIDE_MAP.md,93→96 대조는 SLIDE_ID_MIGRATION_96.md가 기준이다. Beat/Section/Demo/Trial ID와 문제 중심 진화는 유지한다. ACT2의 이전11분 확장 뒤, DEC-0083에서 기존 구조 재평가3장·6분을 추가한다.
 
 | ACT | 현행 범위 | 장수 | 분 |
 |---|---|---:|---:|
@@ -14,8 +27,8 @@
 | ACT2 | S32–S49 |18|81|
 | ACT3 | S50–S67 |18|85|
 | ACT4 | S68–S85 |18|80|
-| ACT5 | S86–S93 |8|30|
-| 합계 | S01–S93 |93|379|
+| ACT5 | S86–S96 |11|36|
+| 합계 | S01–S96 |96|385|
 
 ## 보존된 기획 본문 / 이전 승인 이력
 

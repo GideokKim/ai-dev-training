@@ -7,7 +7,7 @@ S58→S59→S60: S58의 실제 제품 결과 뒤, S59는 C++ 독립 조사 가�
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0072 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: DEFERRED — not justified at STATE-04

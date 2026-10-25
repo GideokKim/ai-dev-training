@@ -1,6 +1,19 @@
 # STEP 08 — Speaker Notes Architecture
 
-## Current ACT5 refinement — DEC-0082
+## Current ACT5 reassessment — DEC-0083
+
+S90의 AI-Native 설계 관점 뒤에 S91 조건 변화에 따른 기존 Harness 재평가,
+S92 유지·통합·제거 후보, S93 같은 대표 작업·기준으로 확인을 배치한다.
+S88의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가는 다르다.
+이전 S91/S92/S93은 S94/S95/S96이며, 문제·다음 행동에 통합·제거 후보를 포함한다.
+현재96장·385분 / ACT5 11장·36분. 기존 Slide별 시간·Mode와 Beat/Section/
+Demo/Trial/State IDs는 유지한다.11Template/27Variant와19Notes 필드를 재사용한다.
+[현재 설계](ACT5_HARNESS_REASSESSMENT.md), [번호 대조](SLIDE_ID_MIGRATION_96.md),
+[로컬 검토](../production/evaluation/ACT_5_HARNESS_REASSESSMENT.md)를 기준으로 한다.
+아래 이전 수정·Prototype·검증 본문은 당시 번호·범위의 이력이다.
+새 Trial·측정 성과·Demo State를 추가하지 않는다. 발표 묶음은 갱신하지 않는다.
+
+## Historical ACT5 refinement — DEC-0082
 
 [ACT5_FLOW_REVISION](ACT5_FLOW_REVISION.md) aligns S86–S93 as distinct
 journey/history/selection/acceptance/system-design/problem/action/closing
@@ -12,7 +25,7 @@ closes with Chatbot→Prompt→Context→Harness→Loop. Preserve93/379, ACT5
 evidence limits. Earlier literal screen/operation cues are historical where
 they differ. ACT4's latest handoff remains DEC-0081.
 
-> **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
+> **현재 기준: DEC-0083 /96장·385분(6시간25분, 2026-10-25).** ACT 장수10/21/18/18/18/11, 시간40/63/81/85/80/36분. Mode Lecture149/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존93장과 장별 시간·Mode를 보존하고 S90 뒤 재평가3장(Lecture2분씩)을 더했다. 이전 S91–S93은 S94–S96이다. [현재 번호 대조](SLIDE_ID_MIGRATION_96.md), [추가 설계](ACT5_HARNESS_REASSESSMENT.md).720분은 허용 상한이며 실제 Windows·제품·계정·교육장·리허설은 UNVERIFIED다.
 
 
 Date: 2026-10-11
@@ -219,7 +232,7 @@ Reflection, Q&A 또는 토론이 배정된 Slide에는 다음을 적는다.
 
 ## 8. Time Management
 
-`SLIDE_MAP.md`의 Slide별 Estimated Time과 Mode Split을 배타적인 379분
+`SLIDE_MAP.md`의 Slide별 Estimated Time과 Mode Split을 배타적인 385분
 수업 시간으로 사용한다. 각 Slide의 Mode 분 합계는 Slide 시간과 같고,
 Slide·Section·ACT의 합계도 승인된 값과 같아야 한다.
 
@@ -230,18 +243,18 @@ Slide·Section·ACT의 합계도 승인된 값과 같아야 한다.
 | ACT 2 | 18 | 81분 |
 | ACT 3 | 18 | 85분 |
 | ACT 4 | 18 | 80분 |
-| ACT 5 | 8 | 30분 |
-| **합계** | **93** | **379분** |
+| ACT 5 | 11 | 36분 |
+| **합계** | **96** | **385분** |
 
 | Mode | 승인 시간 |
 |---|---:|
-| Lecture | 143분 |
+| Lecture | 149분 |
 | Demo | 73분 |
 | Case | 88분 |
 | Reflection | 21분 |
 | Transition | 22분 |
 | Q&A | 32분 |
-| **합계** | **379분** |
+| **합계** | **385분** |
 
 운영 규칙:
 
@@ -254,7 +267,7 @@ Slide·Section·ACT의 합계도 승인된 값과 같아야 한다.
   그 경로를 안내한다. 다른 Slide의 시간으로 옮기지 않는다.
 - 수업 전 setup은 교육 시간 밖에서 준비한다. 화면에 보이는 setup은 해당
   Slide/Demo 배정 시간 안에 포함한다.
-- 휴식은 379분 외부다. Notes에서 ACT 또는 Mode 합계를 조정하지 않는다.
+- 휴식은 385분 외부다. Notes에서 ACT 또는 Mode 합계를 조정하지 않는다.
 
 ## 9. Evidence / Claim Rules
 
@@ -349,7 +362,7 @@ Speaker Notes Pilot 및 이후 Notes 검토에서 다음을 확인한다.
 1. **Traceability:** Slide ID, 제목, ACT/Section, Primary Message, Evidence,
    Transition이 `SLIDE_MAP.md` 및 연결된 Story Beat/Claim과 일치한다.
 2. **Timing:** Slide별 Mode 합계 = Allocated Time. Section/ACT 합계 및 전체
-   Mode/379분 합계가 승인값과 일치한다. Reflection, Q&A, Transition을 다른
+   Mode/385분 합계가 승인값과 일치한다. Reflection, Q&A, Transition을 다른
    Mode에 중복 계산하지 않는다.
 3. **Evidence:** 명시한 State, Trial, Decision, Research source가 존재하고,
    관찰과 해석, 실제·개념·모델 경계가 유지된다. 근거 미확인은 `TBD`다.

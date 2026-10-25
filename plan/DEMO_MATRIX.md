@@ -1,6 +1,19 @@
 # Demo Matrix
 
-## Current ACT5 refinement — DEC-0082
+## Current ACT5 reassessment — DEC-0083
+
+S90의 AI-Native 설계 관점 뒤에 S91 조건 변화에 따른 기존 Harness 재평가,
+S92 유지·통합·제거 후보, S93 같은 대표 작업·기준으로 확인을 배치한다.
+S88의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가는 다르다.
+이전 S91/S92/S93은 S94/S95/S96이며, 문제·다음 행동에 통합·제거 후보를 포함한다.
+현재96장·385분 / ACT5 11장·36분. 기존 Slide별 시간·Mode와 Beat/Section/
+Demo/Trial/State IDs는 유지한다.11Template/27Variant와19Notes 필드를 재사용한다.
+[현재 설계](ACT5_HARNESS_REASSESSMENT.md), [번호 대조](SLIDE_ID_MIGRATION_96.md),
+[로컬 검토](../production/evaluation/ACT_5_HARNESS_REASSESSMENT.md)를 기준으로 한다.
+아래 이전 수정·Prototype·검증 본문은 당시 번호·범위의 이력이다.
+새 Trial·측정 성과·Demo State를 추가하지 않는다. 발표 묶음은 갱신하지 않는다.
+
+## Historical ACT5 refinement — DEC-0082
 
 [ACT5_FLOW_REVISION](ACT5_FLOW_REVISION.md) aligns S86–S93 as distinct
 journey/history/selection/acceptance/system-design/problem/action/closing

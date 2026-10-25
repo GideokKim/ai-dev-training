@@ -29,7 +29,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d\d) — ([\s\S]*?)(?=^#### S\d\d|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==93)throw new Error('Expected 93 source records.');
+if(Object.keys(map).length!==96)throw new Error('Expected 96 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -52,8 +52,9 @@ Object.assign(factories,await (await import('./act3-continuity.mjs')).loadAct3Co
 Object.assign(factories,(await import('./act34-handoff.mjs')).loadAct34HandoffSlides(factories));
 Object.assign(factories,(await import('./act4-flow.mjs')).loadAct4FlowSlides(factories));
 Object.assign(factories,(await import('./act5-flow.mjs')).loadAct5FlowSlides());
+Object.assign(factories,(await import('./act5-reassessment.mjs')).loadAct5ReassessmentSlides());
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
-if(moduleMap.slides.length!==93)throw new Error('Expected 93 legacy module mappings.');
+if(moduleMap.slides.length!==96)throw new Error('Expected 96 legacy module mappings.');
 const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));
 const notes={};
 for(let act=0;act<6;act++){

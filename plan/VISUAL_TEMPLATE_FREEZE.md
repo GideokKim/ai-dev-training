@@ -1,6 +1,19 @@
 # STEP 08 — Visual Template Conditional Freeze
 
-> **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
+## Current ACT5 reassessment — DEC-0083
+
+S90의 AI-Native 설계 관점 뒤에 S91 조건 변화에 따른 기존 Harness 재평가,
+S92 유지·통합·제거 후보, S93 같은 대표 작업·기준으로 확인을 배치한다.
+S88의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가는 다르다.
+이전 S91/S92/S93은 S94/S95/S96이며, 문제·다음 행동에 통합·제거 후보를 포함한다.
+현재96장·385분 / ACT5 11장·36분. 기존 Slide별 시간·Mode와 Beat/Section/
+Demo/Trial/State IDs는 유지한다.11Template/27Variant와19Notes 필드를 재사용한다.
+[현재 설계](ACT5_HARNESS_REASSESSMENT.md), [번호 대조](SLIDE_ID_MIGRATION_96.md),
+[로컬 검토](../production/evaluation/ACT_5_HARNESS_REASSESSMENT.md)를 기준으로 한다.
+아래 이전 수정·Prototype·검증 본문은 당시 번호·범위의 이력이다.
+새 Trial·측정 성과·Demo State를 추가하지 않는다. 발표 묶음은 갱신하지 않는다.
+
+> **현재 기준: DEC-0083 /96장·385분(6시간25분, 2026-10-25).** ACT 장수10/21/18/18/18/11, 시간40/63/81/85/80/36분. Mode Lecture149/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존93장과 장별 시간·Mode를 보존하고 S90 뒤 재평가3장(Lecture2분씩)을 더했다. 이전 S91–S93은 S94–S96이다. [현재 번호 대조](SLIDE_ID_MIGRATION_96.md), [추가 설계](ACT5_HARNESS_REASSESSMENT.md).720분은 허용 상한이며 실제 Windows·제품·계정·교육장·리허설은 UNVERIFIED다.
 
 
 Date: 2026-10-11

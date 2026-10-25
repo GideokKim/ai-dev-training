@@ -7,7 +7,7 @@ S60→S61→S62: S61은 실제 작업 종료 뒤 무엇을 남길지 질문하�
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0074 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: DEFERRED — no primary-repository Memory instance

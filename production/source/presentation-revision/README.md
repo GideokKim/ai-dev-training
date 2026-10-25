@@ -1,5 +1,11 @@
 # Current presentation source — DEC-0060 /93slides
 
+Current revision: DEC-0083 /96slides/385minutes; ACT5 S86–S96 11/36.
+New S91–S93 explain reassessment, keep/integrate/remove candidates and
+representative-task verification. Former S91–S93 become S94–S96. Existing
+records below retain their historical numbering. Use [current migration](../../../plan/SLIDE_ID_MIGRATION_96.md).
+Apply `act5-reassessment.mjs` after `act5-flow.mjs`; preserve other factories, native components and existing pictures. Final package/render review is recorded in `production/evaluation/ACT_5_HARNESS_REASSESSMENT.md`. No presenter bundle is regenerated.
+
 Latest refinement: DEC-0082 / ACT5 history, matched actions and closing.
 Apply `act5-flow.mjs` after `act4-flow.mjs`. Preserve all93Slide IDs, every
 budget/Mode,11Templates/27Variants and evidence limits. Change only

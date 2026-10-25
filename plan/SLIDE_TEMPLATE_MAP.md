@@ -1,6 +1,10 @@
 # STEP 08 — Slide-to-Template Mapping
 
-## Current ACT5 operation — DEC-0082
+## Current ACT5 mapping — DEC-0083
+
+96Slides/385minutes, ACT5 S86–S96 11/36. New S91–S93 reuse T04-A/T10-A/T03-C;11Templates/27Variants remain. Prior S91–S93 become S94–S96 with original assignments/time/Mode. S94/S95 preserve the same-letter problem/action relationship and include integration/removal candidates. [Current migration](SLIDE_ID_MIGRATION_96.md) and [design](ACT5_HARNESS_REASSESSMENT.md) govern; older numbering below is historical.
+
+## Historical ACT5 operation — DEC-0082
 
 S86–S93 follow [ACT5_FLOW_REVISION](ACT5_FLOW_REVISION.md). All Primary
 Templates/Variants, stable IDs and per-Slide budgets stay fixed. S86 is the
@@ -37,7 +41,7 @@ GPU change, image, three questions, then the source/verification question.
 At minute16 close Q&A; close the ACT4 application judgment during16–20.
 Leave the five-stage course recap to S86. No live run or rehearsal is added.
 
-> **현재 기준: DEC-0060 / 93장·379분; ACT3→ACT4 연결 DEC-0080, 이전 S67 수정 DEC-0079, 이전 S66 DEC-0078, 이전 S65 DEC-0077, 이전 S64 DEC-0076, 이전 S63 DEC-0075, 이전 S62 DEC-0074, 이전 S61 DEC-0073, 이전 S60 DEC-0072, 이전 S59 DEC-0071, 이전 S57–S58 DEC-0070, 이전 S57 DEC-0069, 이전 S56 DEC-0068, 이전 S55 DEC-0067, 이전 S53–S54 DEC-0066, 이전 S53 DEC-0065, S52 DEC-0064, S51 DEC-0063, ACT3 전체 흐름 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
+> **이전 승인 기준: DEC-0060 /93장·379분; ACT3→ACT4 연결 DEC-0080, 이전 S67 수정 DEC-0079, 이전 S66 DEC-0078, 이전 S65 DEC-0077, 이전 S64 DEC-0076, 이전 S63 DEC-0075, 이전 S62 DEC-0074, 이전 S61 DEC-0073, 이전 S60 DEC-0072, 이전 S59 DEC-0071, 이전 S57–S58 DEC-0070, 이전 S57 DEC-0069, 이전 S56 DEC-0068, 이전 S55 DEC-0067, 이전 S53–S54 DEC-0066, 이전 S53 DEC-0065, S52 DEC-0064, S51 DEC-0063, ACT3 전체 흐름 DEC-0062.** ACT2 S32–S49,18장·81분. 11개 Template/27개 Variant를 유지하며 신규3장은 기존 T09-A/T07-A/T03-A를 적용한다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md). 표 밖 과거 Prototype의 당시 번호·검증 이력은 보존한다.
 
 Date: 2026-10-09
 
@@ -46,7 +50,7 @@ Status: COMPLETE WITH OPEN ITEMS
 ## 1. Authority and Boundary
 
 This file assigns one primary Template and one defined Layout Variant to each
-Slide ID S01–S93. It adds visual implementation guidance only. DEC-0036 authorizes S08 and DEC-0038 authorizes the new S13; existing Beat, Section, Demo, Trial and State IDs stay unchanged.
+Slide ID S01–S96. It adds visual implementation guidance only. DEC-0036 authorizes S08 and DEC-0038 authorizes the new S13; existing Beat, Section, Demo, Trial and State IDs stay unchanged.
 
 - plan/SLIDE_MAP.md remains the source for title, ACT, Section, Story Beat,
   role, audience question, claim, evidence references, time, and delivery mode.
@@ -240,14 +244,17 @@ plan/SLIDE_MAP.md. The table below adds the visual mapping and risk control.
 | S88 — 이번 문제에 필요한 구성만 선택했다 | T10-A | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-CPP | P+T; this project’s audit is not a universal feature-count comparison | — | Single state | Contextual | V01, V05, V08 |
 | S89 — 결과를 수용할지는 사람이 판단한다 | T03-A | — | — | T | — | Single state | — | V10 |
 | S90 — AI가 일할 조건과 확인 경로를 설계한다 | T03-A | — | CMP-CPP | T | — | Single state | Contextual | V08 |
-| S91 — 내 업무에서는 무엇이 반복해서 막힐까? | T10-B | CMP-DECISION, CMP-CPP, CMP-CLAIM | — | T; C++ example stays a transfer model, not a verified project procedure | Same-level A–E symptoms; no new case/execution; DEC-0082 | Single state | Primary | V08, V09 |
-| S92 — 고른 문제에서, 다음 행동 하나로 | T01-B | — | CMP-CPP | T | S91 same-letter action plus common evidence question; private Reflection2; DEC-0082 | Single state | Contextual | V09 |
-| S93 — Q&A와 교육 마무리 | T01-C | — | — | T | Q&A4 then Closing Transition2; original five-stage terminology; DEC-0082 | Single state | — | V10 |
+| S91 — 모델·플랫폼이 바뀌면 Harness도 다시 본다 | T04-A | CMP-CLAIM | — | R+T; vendor-published integration case; architecture adapted for teaching | No new Demo/Trial/State or measured effect | Single state; previous structure versus candidate, not a replay | Contextual | V01, V05 |
+| S92 — 무엇을 남기고, 무엇을 덜어낼까? | T10-A | CMP-DECISION, CMP-CLAIM | — | T; retain requirements, integrate overlaps, assess obsolete workaround | Three equal options; conditions before action; DEC-0083 | Single state | Contextual | V01, V05 |
+| S93 — 덜어낸 뒤에도 필요한 일을 하는가? | T03-C | CMP-CLAIM | — | T+R; evaluation design, no actual result | Same representative task/input/criteria; conditional adoption or rollback | Single state; two compared candidates, no PASS/FAIL values | Contextual | V01, V05 |
+| S94 — 내 업무에서는 무엇이 반복해서 막힐까? | T10-B | CMP-DECISION, CMP-CPP, CMP-CLAIM | — | T; C++ example stays a transfer model, not a verified project procedure | Same-level A–E symptoms include repeated/overlapping guidance and procedures; DEC-0083 | Single state | Primary | V08, V09 |
+| S95 — 고른 문제에서, 다음 행동 하나로 | T01-B | — | CMP-CPP | T | S94 same-letter action includes integration/removal candidates and source/reviewer/updater; private Reflection2; DEC-0083 | Single state | Contextual | V09 |
+| S96 — Q&A와 교육 마무리 | T01-C | — | — | T | Q&A4 then Closing Transition2; original five-stage terminology; DEC-0082 | Single state | — | V10 |
 
 ### Historical Component Usage Index — earlier90-slide assignments
 
 The index below retains the earlier working assignment history. Use the
-current93-slide main table for component assignments and required/optional
+current96-slide main table for component assignments and required/optional
 status. These historical counts are not the current rendered-slide inventory.
 
 | Component ID | Slide count | Slide IDs |

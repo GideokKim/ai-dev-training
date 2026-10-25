@@ -1,6 +1,19 @@
 # STEP 08 — Speaker Notes Freeze
 
-## Current ACT5 refinement — DEC-0082
+## Current ACT5 reassessment — DEC-0083
+
+S90의 AI-Native 설계 관점 뒤에 S91 조건 변화에 따른 기존 Harness 재평가,
+S92 유지·통합·제거 후보, S93 같은 대표 작업·기준으로 확인을 배치한다.
+S88의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가는 다르다.
+이전 S91/S92/S93은 S94/S95/S96이며, 문제·다음 행동에 통합·제거 후보를 포함한다.
+현재96장·385분 / ACT5 11장·36분. 기존 Slide별 시간·Mode와 Beat/Section/
+Demo/Trial/State IDs는 유지한다.11Template/27Variant와19Notes 필드를 재사용한다.
+[현재 설계](ACT5_HARNESS_REASSESSMENT.md), [번호 대조](SLIDE_ID_MIGRATION_96.md),
+[로컬 검토](../production/evaluation/ACT_5_HARNESS_REASSESSMENT.md)를 기준으로 한다.
+아래 이전 수정·Prototype·검증 본문은 당시 번호·범위의 이력이다.
+새 Trial·측정 성과·Demo State를 추가하지 않는다. 발표 묶음은 갱신하지 않는다.
+
+## Historical ACT5 refinement — DEC-0082
 
 [ACT5_FLOW_REVISION](ACT5_FLOW_REVISION.md) aligns S86–S93 as distinct
 journey/history/selection/acceptance/system-design/problem/action/closing
@@ -42,7 +55,7 @@ S74 stays Case2. Actual Product success, conceptual scenario and observed
 Meta remain separate. Prior records below are history where literal current
 cues differ. [Current connection design](ACT3_ACT4_HANDOFF_REVISION.md).
 
-> **현재 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 장수10/21/18/18/18/8, 시간40/63/81/85/80/30분. Mode Lecture143/Demo73/Case88/Reflection21/Transition22/Q&A32분. ACT2는 S32–S49이며 기존90장 내용·장별 시간을 보존하고3장·11분을 더했다. 사용자 허용 상한720분은 목표 시간이 아니다. [현재 번호 대조](SLIDE_ID_MIGRATION_93.md), [ACT2 흐름 설계](ACT2_FLOW_REVISION.md). 과거 Prototype/Decision/검증 기록은 당시 판본이며 실환경·리허설은 UNVERIFIED다.
+> **현재 기준: DEC-0083 /96장·385분(6시간25분, 2026-10-25).** ACT 장수10/21/18/18/18/11, 시간40/63/81/85/80/36분. Mode Lecture149/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존93장과 장별 시간·Mode를 보존하고 S90 뒤 재평가3장(Lecture2분씩)을 더했다. 이전 S91–S93은 S94–S96이다. [현재 번호 대조](SLIDE_ID_MIGRATION_96.md), [추가 설계](ACT5_HARNESS_REASSESSMENT.md).720분은 허용 상한이며 실제 Windows·제품·계정·교육장·리허설은 UNVERIFIED다.
 
 
 Date: 2026-10-11
@@ -127,18 +140,18 @@ Architecture에서 지정한 상태를 유지한다: `NOT STARTED`, `DRAFT`,
 | ACT 2 | S32–S49 | 18 | 81분 |
 | ACT 3 | S50–S67 | 18 | 85분 |
 | ACT 4 | S68–S85 | 18 | 80분 |
-| ACT 5 | S86–S93 | 8 | 30분 |
-| **전체** | **S01–S93** | **93** | **379분** |
+| ACT 5 | S86–S96 | 11 | 36분 |
+| **전체** | **S01–S96** | **96** | **385분** |
 
 | Mode | 시간 |
 |---|---:|
-| Lecture | 143분 |
+| Lecture | 149분 |
 | Demo | 73분 |
 | Case | 88분 |
 | Reflection | 21분 |
 | Transition | 22분 |
 | Q&A | 32분 |
-| **전체** | **379분** |
+| **전체** | **385분** |
 
 각 Slide의 Mode 순서는 배정 시간의 의미를 바꾸지 않는 운영 순서다. Mode별
 합계와 Slide별 시간이 정확히 맞아야 하며, setup은 배정된 운영 기준을 따른다.
@@ -221,7 +234,7 @@ Notes는 Slide Map, Claim Freeze, 승인된 Decision, Demo evidence를 구현한
 - Pilot: 7개 Slide이며 각 Notes는 19 fields를 포함한다.
 - Pilot 검토: `COMPLETE WITH OPEN ITEMS`; 이는 문서 검토이지 rehearsal이 아니다.
 - S67/S85 순서: DEC-0025와 일치.
-- 93 Slides, ACT별 40/63/81/85/80/30분, Mode별 143/73/88/21/22/32분 유지.
+- 96 Slides, ACT별40/63/81/85/80/36분, Mode별149/73/88/21/22/32분. 기존 장별 배정 보존, 신규3장 Lecture2분씩.
 - 미검증 제품·Windows·fallback·rehearsal Gate는 미해결로 유지.
 
 ## 11. Next Readiness

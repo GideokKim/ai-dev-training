@@ -1,6 +1,16 @@
-# STEP 08 — 통합 Slide Map (S01–S93)
+# STEP 08 — 통합 Slide Map (S01–S96)
 
-## Current ACT5 recap and closing — DEC-0082
+## Current ACT5 reassessment — DEC-0083 (2026-10-25)
+
+S90 뒤에 S91–S93의 재평가3장을 추가한다. 모델·플랫폼·업무 조건 변화에 따른
+기존 구조 재평가 → 유지·통합·제거 후보 → 대표 작업 검증으로 이어진다.
+이전 S91–S93은 S94–S96이며, S94/S95의 A–E 문제·행동에 통합·제거를 연결한다.
+현재96장·385분, ACT5 11장·36분이다. 기존93장의 내용과 장별 시간/Mode는
+보존하고 Lecture2분씩만 더했다. [설계](ACT5_HARNESS_REASSESSMENT.md),
+[번호 대조](SLIDE_ID_MIGRATION_96.md)를 우선한다. 아래 DEC-0082와 과거 기록의
+당시 번호·장수는 이행표로 읽는다. 새 Trial·효과 측정·Demo State는 없다.
+
+## Historical ACT5 recap and closing — DEC-0082
 
 S86–S93 follow [ACT5_FLOW_REVISION](ACT5_FLOW_REVISION.md): distinct
 problem/response recap, bounded actual Product history, selection rationale,
@@ -42,7 +52,7 @@ history where they differ from the current fields below.
 
 > **이전 S53–S54 수정: DEC-0066.** S53의 연결선 굵기를 통일하고, S54의 목록·명시 호출·본문 포함 근거를 시각적으로 연결한다. [수정 검토](../production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md).
 
-> **현재 기준: DEC-0060 / 93장·379분 (2026-10-22).** ACT 2 전체 흐름 개선을 승인받아 연구 설명을 분리하고 의존성 답변/성과 회수3장을 보강했다. ACT 2는 S32–S49,18장·81분이다. 기존90장 내용과 각 장의 시간은 보존하며 신규 Lecture6/Case4/Reflection1분을 더한다. [90→93 번호·역할 대조](SLIDE_ID_MIGRATION_93.md). 사용자 허용 상한720분이며379분은 제작 기준, 리허설 실측은 UNVERIFIED다.
+> **이전 승인 기준: DEC-0060 /93장·379분 (2026-10-22).** ACT 2 전체 흐름 개선을 승인받아 연구 설명을 분리하고 의존성 답변/성과 회수3장을 보강했다. ACT 2는 S32–S49,18장·81분이다. 기존90장 내용과 각 장의 시간은 보존하며 신규 Lecture6/Case4/Reflection1분을 더한다. [90→93 번호·역할 대조](SLIDE_ID_MIGRATION_93.md). 사용자 허용 상한720분이며379분은 제작 기준, 리허설 실측은 UNVERIFIED다.
 
 > **이전 S53 내용 수정: DEC-0065.** 작업마다 바뀌는 요청과 공동 관리할 Skill의 재사용 관계·선택 이유를 시각화한다. [S53 수정 검토](../production/evaluation/S53_SKILL_REUSE_REVISION.md).
 
@@ -101,8 +111,8 @@ history where they differ from the current fields below.
 | ACT 2 | 18 | 81분 |
 | ACT 3 | 18 | 85분 |
 | ACT 4 | 18 | 80분 |
-| ACT 5 | 8 | 30분 |
-| **전체** | **93** | **379분** |
+| ACT 5 | 11 | 36분 |
+| **전체** | **96** | **385분** |
 
 ### Section 시간
 
@@ -113,19 +123,19 @@ history where they differ from the current fields below.
 | ACT 2 | 2A 5 · 2B 8 · 2C 5 · 2D 8 · 2E 12 · 2F 9 · 2G 18 · 2H 3 · 2I 13 = 81분 |
 | ACT 3 | 3A 9 · 3B 5 · 3C 15 · 3D 13 · 3E 8 · 3F 8 · 3G 12 · 3H 5 · 3I 10 = 85분 |
 | ACT 4 | 4A 4 · 4B 9 · 4C 8 · 4D 13 · 4E 11 · 4F 15 · 4G+4H 20 = 80분 |
-| ACT 5 | 5A 15 · 5B 15 = 30분 |
+| ACT 5 | 5A 21 · 5B 15 = 36분 |
 
 ### Delivery Mode 합계
 
 | Mode | 승인 시간 |
 |---|---:|
-| Lecture | 143분 |
+| Lecture | 149분 |
 | Demo | 73분 |
 | Case | 88분 |
 | Reflection | 21분 |
 | Transition | 22분 |
 | Q&A | 32분 |
-| **전체** | **379분** |
+| **전체** | **385분** |
 
 ACT별 Mode 대조:
 
@@ -136,8 +146,8 @@ ACT별 Mode 대조:
 | ACT 2 | 34 | 13 | 18 | 5 | 4 | 7 | 81 |
 | ACT 3 | 33 | 20 | 20 | 3 | 2 | 7 | 85 |
 | ACT 4 | 22 | 22 | 22 | 3 | 4 | 7 | 80 |
-| ACT 5 | 15 | 2 | 1 | 2 | 6 | 4 | 30 |
-| **합계** | **143** | **73** | **88** | **21** | **22** | **32** | **379** |
+| ACT 5 | 21 | 2 | 1 | 2 | 6 | 4 | 36 |
+| **합계** | **149** | **73** | **88** | **21** | **22** | **32** | **385** |
 
 ## Slide Map
 
@@ -157,7 +167,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-001
 - **Curriculum Trace:** ACT 0 — familiar chatbot workflow and starting reflection.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; 제품 기능 주장 없음
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; 제품 기능 주장 없음
 - **Visual Concept:** 같은 인물이 등장하는 세 교육용 삽화를 동등한 크기로 병렬 배치한다. “설명 받기 / 조사 맡기기 / 결과 확인”을 하나씩 짚고 최근 경험 하나를 떠올리게 한다. 숙련도 순서·필수 발전 단계로 연결하지 않으며 Prompt, Context, Harness, Loop라는 답은 아직 펼치지 않는다. DEC-0034.
 - **Demo / Case Connection:** 시작 질문만 제시
 - **Beginner Payoff:** 자신이 현재 익숙한 방식에서 출발해도 된다는 점을 확인한다.
@@ -182,7 +192,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-001
 - **Curriculum Trace:** ACT 0 — familiar chatbot workflow and starting reflection.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 일반적인 활용 예시이며 제품 우열 주장 없음
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 일반적인 활용 예시이며 제품 우열 주장 없음
 - **Visual Concept:** `std::vector<int> a(3, 1);` → `1, 1, 1`(3개)와 `std::vector<int> b{3, 1};` → `3, 1`(2개)를 비교한다. 아래의 연결된 native 흐름은 `IDE: 코드 선택·복사 → Chatbot: 붙여넣고 질문 → IDE: 답 확인·적용`이다. 원소 도식은 의미 설명이며 실행 로그·실제 ChatGPT 응답이 아니다. DEC-0034.
 - **Demo / Case Connection:** 짧은 오류 질문 사례
 - **Beginner Payoff:** 자신의 익숙한 사용법이 교육의 출발점으로 인정된다.
@@ -207,7 +217,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-002
 - **Curriculum Trace:** ACT 0 — project-level question and context collection friction.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 특정 Trial에서 발생한 문제로 주장하지 않음
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 특정 Trial에서 발생한 문제로 주장하지 않음
 - **Visual Concept:** Visual Studio 사용자에게 익숙한 정보 범주를 2×3 병렬 native 도식으로 보여 준다: 테스트 탐색기 / 호출 스택 / 소스·참조 / 지역 변수·조사식 / 출력·로그 / 명세서(외부 문서 포함). “이 정보 하나하나가 Context다”로 묶는다. 실제 UI 캡처·조사 순서·필수 체크리스트가 아니며 아직 Agent 해결책은 표시하지 않는다. 종이 문서를 든 인물 삽화는 사용하지 않는다. DEC-0034.
 - **Demo / Case Connection:** 다음 Demo의 문제 상황 설정
 - **Beginner Payoff:** 질문이 커질 때 수작업으로 Context를 모으는 부담을 알아차린다.
@@ -232,7 +242,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; 현재 Codex Desktop·계정 동작은 **REQUIRES PRODUCT CHECK**. TRIAL-001은 Codex CLI 관찰만 뒷받침한다. 실제 요청 원문을 재구성한 입력창과 우측의 교육용 GoogleTest 가상 UI를 구분한다. 가상 UI의 5개 통과·1개 실패는 실제 Trial 결과가 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; 현재 Codex Desktop·계정 동작은 **REQUIRES PRODUCT CHECK**. TRIAL-001은 Codex CLI 관찰만 뒷받침한다. 실제 요청 원문을 재구성한 입력창과 우측의 교육용 GoogleTest 가상 UI를 구분한다. 가상 UI의 5개 통과·1개 실패는 실제 Trial 결과가 아니다.
 - **Visual Concept:** 좌측은 TRIAL-001 요청 원문을 일반 프롬프트 입력창 형태로 재구성한다. 우측은 `Read / Resize / Crop / Normalize / Statistics / Write` 중 Crop 하나가 실패하는 교육용 GoogleTest 가상 UI이며 `실제 TRIAL-001 아님`을 명시한다. 좌우를 실행 결과 화살표로 잇지 않는다. 아래에는 실패 테스트·관련 구현·호출 경로라는 세 관찰 항목을 유지하고, 실제 발견 파일과 원인은 S05에서 공개한다. DEC-0034.
 - **Demo / Case Connection:** DEMO-01 setup. STATE-00 / TRIAL-001; 읽기 전용 질문
 - **Beginner Payoff:** 무엇을 보고 판단하면 되는지 미리 안다.
@@ -257,7 +267,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; 한 번의 Codex CLI 0.154.0 실행에 한정. Desktop·계정 동작이나 반복성을 입증하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; 한 번의 Codex CLI 0.154.0 실행에 한정. Desktop·계정 동작이나 반복성을 입증하지 않는다.
 - **Visual Concept:** 상단에서 “의도한 폭과 실제로 포함된 열 수가 달랐다”로 S02의 원소 수 질문을 회수한다. `crop(image, 1, 3)`의 끝 좌표 제외 명세와 원본 두 행 중 첫 행 `1, 2, 3, 4`만 발췌한 재구성을 비교한다. 기대 `2, 3`/폭 2와 구현 `2, 3, 4`/폭 3을 강조한다. `test_crop_excludes_end_coordinate`, `cli.main → process_image → crop`, `row[x_start : x_end + 1]`의 실제 근거를 유지한다. 새 실행이나 C++ 메모리 할당 사건이 아니다. DEC-0035.
 - **Demo / Case Connection:** DEMO-01의 8분 Demo 구간. 실행 UI는 별도로 보여주며, 이 장에는 읽기 쉬운 증거 요약을 둔다.
 - **Beginner Payoff:** 관련 파일을 모두 직접 대화창에 복사하지 않고 Repository 조사를 요청할 가능성을 본다.
@@ -282,7 +292,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; TRIAL-001 범위 내 관찰. 환경 오류를 Repository 또는 Crop 결함으로 분류하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; TRIAL-001 범위 내 관찰. 환경 오류를 Repository 또는 Crop 결함으로 분류하지 않는다.
 - **Visual Concept:** 상단의 “Chatbot에 코드·명세만 골라 넣었다면?”은 교육용 가정이다. 좌측은 `코드 Context로 논의할 수 있는 부분 — 기대 폭 2 ↔ 포함 폭 3 / 명세·테스트·구현 비교 / TRIAL-001: 원인 설명·코드 미수정`, 우측은 `함께 전달하지 않은 실행 환경 — 읽기 전용·임시 디렉터리 제한 / 실행 로그·권한 정보도 필요 / 환경 오류 3건`으로 구분한다. “코드만 옮기면, 실행 환경의 단서는 빠진다”로 연결하되 실제 전체 기록 7개 통과 + crop 실패 1건 + 환경 오류 3건을 유지한다. 실제 Chatbot/Agent 비교 결과가 아니다. DEC-0035.
 - **Demo / Case Connection:** DEMO-01의 `WHAT HAPPENED` 및 준비된 캡처 대안
 - **Beginner Payoff:** 관찰된 결과와 실행 중 발생한 환경 문제를 혼동하지 않는다.
@@ -307,7 +317,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 관찰은 CLI 한 번에 한정되며 제품의 보편적 성능 주장이 아님
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 관찰은 CLI 한 번에 한정되며 제품의 보편적 성능 주장이 아님
 - **Visual Concept:** `Bring code to AI → Bring AI to repository` 관계 비교를 유지한다. 작은 C++ Vision 인셋의 `large repository / modules / build config / tests / contracts`는 선택적 연결로 한정하고, 기존 재설명 시간을 줄여 도구·계정·자료·접근 권한의 사전 확인을 Notes에서 짧게 안내한다.
 - **Demo / Case Connection:** DEMO-01 관찰 결과 회수
 - **Beginner Payoff:** 관련 파일을 모두 복사하기 전에 Repository 조사를 요청해볼 수 있다.
@@ -357,7 +367,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-003의 다음 Friction
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 과정의 Mental Model이며 모든 제품·환경의 기능 주장 아님
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 과정의 Mental Model이며 모든 제품·환경의 기능 주장 아님
 - **Visual Concept:** `Repository Access ≠ Task Intent` 아래 두 영역을 병렬 배치한다. `볼 수 있는 것 — 코드·명세·테스트`에는 사람+AI Agent 아이콘을, `정해야 하는 것 — 목표·범위·완료 수락`에는 사람 아이콘과 “최종 결정·책임”을 표시한다. AI의 제안 가능성을 작은 보조 문구로 남겨 AI가 추론할 수 없다는 의미가 되지 않게 한다. 아이콘은 교육용 표현이며 실제 제품 UI가 아니다.
 - **Demo / Case Connection:** DEMO-01 성공 뒤 남는 문제
 - **Beginner Payoff:** Repository 접근을 주더라도 무엇을 원하는지 설명해야 함을 이해한다.
@@ -382,7 +392,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-003 → BEAT-004 전환
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.; ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; DEC-0037 제조 검사 Task 가정은 실제 저장소 실행 순서·미구현 상태·검증 결과가 아님
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; DEC-0037 제조 검사 Task 가정은 실제 저장소 실행 순서·미구현 상태·검증 결과가 아님
 - **Visual Concept:** 제조 라인 검사장비로 확장하는 교육용 검사 Task를 입력 이미지 → ROI crop → 밝기 정규화(Normalize) → 크기 맞춤(Resize) → 통계·특징(Statistics) → 양불 판정으로 그린다. 입력·기존 crop는 실선, 후속 검사 단계는 점선이며 “검사 흐름으로 추가 정의·연결할 범위”로 표시한다. crop는 “기존 구현·조사한 범위”로 제한하고 정상 완료·검증 완료를 표시하지 않는다. 마지막 판정은 ? / 기준 미정으로 열어 둔다. 기존 질문 두 개를 하단에 크게 유지한다. 실제 저장소에는 후속 함수도 존재하므로 이 도식은 실제 실행 순서나 함수 미구현 상태의 재현이 아니다. DEC-0037.
 - **Demo / Case Connection:** DEMO-01 후속 질문; 제조 검사장비로 확장하는 가상의 Task 맥락. 실제 Product State·Trial·양불 판정 결과를 추가하지 않는다.
 - **Beginner Payoff:** Agent에게 맡길 때 원하는 결과를 말해야 한다는 문제를 발견한다.
@@ -409,7 +419,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-004
 - **Curriculum Trace:** ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL / CONCEPTUAL. Agent의 실제 실패·정지·반복 실행·토큰/시간 실측·기하급수 법칙을 주장하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL / CONCEPTUAL. Agent의 실제 실패·정지·반복 실행·토큰/시간 실측·기하급수 법칙을 주장하지 않는다.
 - **Visual Concept:** “filter 성능 개선해줘”를 native Prompt 입력창으로 표시한다. 동일 AI Agent가 남은 선택을 검토하는 AI 생성 교육용 삽화를 놓고 우측의 바꿀 것/보존할 것/완료 근거 세 질문은 세로 리스트로 유지한다. 하단의 토큰 소모·작업 시간 곡선과 끝 화살표는 편집 가능한 그래프 객체 대신 두 개의 투명 PNG 삽화로 삽입한다. 각 텍스트 label과 기존 배치는 유지한다. 이미지는 추가 탐색·재시도 비용을 설명하는 정성 개념도다. 수치·배율·함수·측정 축을 넣지 않고 기하급수적 증가 법칙이나 실제 Agent 정지를 주장하지 않는다. DEC-0038, DEC-0040.
 - **Demo / Case Connection:** filter 성능 요청의 미정 결정을 출발점으로, 같은 요청 모호함을 친숙한 crop 동작 명세로 좁혀 본다. 성능 비교 실험을 새로 시작하는 것이 아니다.
 - **Beginner Payoff:** Repository 접근이 명확한 결과 요청을 대신하지 않는다는 점을 가져간다.
@@ -434,7 +444,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-004 — Repository access does not convey intent
 - **Curriculum Trace:** ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL / CONCEPTUAL. 평행 시간선은 가능한 해석의 교육용 도식이며 실제 반복 실행 결과가 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL / CONCEPTUAL. 평행 시간선은 가능한 해석의 교육용 도식이며 실제 반복 실행 결과가 아니다.
 - **Visual Concept:** “crop test 고쳐줘”를 Prompt 입력창으로 표시한다. 동일 AI Agent에서 가능한 해석의 평행 시간선 세 개가 분기한다. 우측 세로 행은 “테스트를 바꿀까?”, “구현을 바꿀까?”, “먼저 물어볼까?”이며 이는 예시 선택지다. 하단의 목표의 세부/보존 조건/수정 범위/확인 근거/완료 조건은 아직 빈 정보로 유지한다. 실제 반복 실행 기록·확률·분산 측정처럼 표현하지 않는다. DEC-0038.
 - **Demo / Case Connection:** 앞서 조사한 crop 사례에 맞춘 교육용 요청이다. S11의 성능 목표를 실험하거나 실제 TRIAL-002 요청으로 바꾸지 않는다.
 - **Beginner Payoff:** 요청에서 무엇이 빠져 있는지 볼 수 있다.
@@ -484,7 +494,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-004
 - **Curriculum Trace:** ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. 하나의 요청이 특정 실패를 반드시 만든다고 단정하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. 하나의 요청이 특정 실패를 반드시 만든다고 단정하지 않는다.
 - **Visual Concept:** 기존 다섯 질문 배열을 유지하되, S13의 crop 답을 다시 읽지 않고 다른 요청을 보내기 전 개발자가 결정할 목표·보존·허용 범위·근거·완료 기준으로 회수한다.
 - **Demo / Case Connection:** S12의 모호한 요청과 새 S13의 구체 예시에서 선택한 정보를 다섯 일반 질문으로 확장한다.
 - **Beginner Payoff:** 다른 작업의 구체적인 답을 정하기 전에 확인할 일반 질문을 얻는다.
@@ -509,7 +519,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-005 — The task becomes a specification
 - **Curriculum Trace:** ACT 1 — Practical Prompt Checklist and Before/After.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. 공식 OpenAI 공식이나 제품 기능으로 표현하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. 공식 OpenAI 공식이나 제품 기능으로 표현하지 않는다.
 - **Visual Concept:** 기존 하나의 Task Specification 안의 Goal / Context / Constraints / Process / Verification 다섯 행을 유지한다. Context는 관련 사실·참고 위치와 저장소에서 조사할 내용을, Process와 Verification은 요청에 담을 진행·확인·보고 조건을 뜻하도록 짚는다.
 - **Demo / Case Connection:** 같은 crop task를 예로 삼되, 이 장에서는 항목의 역할만 보여준다.
 - **Beginner Payoff:** 요청에 담을 내용을 순서 있게 떠올릴 수 있다.
@@ -534,7 +544,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-005
 - **Curriculum Trace:** ACT 1 — Practical Prompt Checklist and Before/After.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. TRIAL-002가 약한 Prompt 대비 우월성을 실험했다는 뜻은 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. TRIAL-002가 약한 Prompt 대비 우월성을 실험했다는 뜻은 아니다.
 - **Visual Concept:** 짧은 요청과 교육용 구체 요청의 Before/After를 유지하고 Goal·Context·Constraints·Process·Verification이 실제 문장 어디에서 드러나는지 대응시킨다. 저장소의 실패 테스트·호출 경로는 조사하도록 요청하고, 끝 좌표 제외·허용 변경·확인할 기대 열/폭은 명시한다. 확인 행은 관련 테스트·프로젝트 전체 테스트·가능한 CLI 샘플 실행·변경 내용 확인으로 풀어 쓴다. 4열 입력·crop1 3·원본 열1·2/폭2의 기존 완료 조건을 유지하며 실제 TRIAL-002 Prompt 원문으로 표현하지 않는다.
 - **Demo / Case Connection:** 실무 적용 예시. TRIAL-002 전체 Prompt를 작은 글씨로 싣지 않는다.
 - **Beginner Payoff:** 바로 재사용할 수 있는 요청 구성 원리를 본다.
@@ -559,7 +569,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-006 — Investigate before changing code
 - **Curriculum Trace:** ACT 1 — Investigation-first workflow and Prompt's value.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT — Codex CLI의 단일 TRIAL-002 실행에 한정한다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT — Codex CLI의 단일 TRIAL-002 실행에 한정한다.
 - **Visual Concept:** 좌측 실제 Prompt의 핵심 과정 지시 발췌·번역과 우측 관찰 기록 요약을 01–03의 같은 번호·행으로 짝짓는다. 우측에는 재현된 crop 테스트명, 확인한 제품 호출 경로, 파일 변경 이벤트보다 앞선 계획 보고를 표시한다. 테스트명·호출 기호는 TRIAL-001/STATE-00 코드와 대조한 대상 식별자이며 TRIAL-002 원문 로그 인용이 아니다. 04 최소 수정 내용은 S18, 05 확인·보고 결과는 S19라는 하단 연결만 남긴다. 가짜 명령·실패 출력·계획 발언을 만들지 않고 실제 diff·너비·통과 수치는 반복하지 않는다.
 - **Demo / Case Connection:** DEMO-05의 도입에서 실제 TRIAL-002 요청과 관찰된 수정 전 과정을 대조한다. 관찰 요약은 DEMO_MATRIX의 Investigation and visible plan checkpoint를 따른다. S18은 실제 변경, S19는 실제 검증 결과를 이어 확인한다.
 - **Beginner Payoff:** 요청에 적은 작업 방식을 실제 외부 행동 기록에서 확인할 수 있음을 본다.
@@ -584,7 +594,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-006
 - **Curriculum Trace:** ACT 1 — Investigation-first workflow and Prompt's value.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT — 기록된 단일 CLI 실행에 한정한다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT — 기록된 단일 CLI 실행에 한정한다.
 - **Visual Concept:** 기존 crop Before/After 한 줄 diff와 너비3에서2의 변화를 유지한다. S17의 조사·수정 전 계획 및 끝 좌표 제외 보존 조건을 회수하고 실제 최소 변경이 요청 범위에 맞는지 대조한다.
 - **Demo / Case Connection:** Trial 기록에서 재현, 조사, edit 전 계획, 변경 한 줄만 추린다.
 - **Beginner Payoff:** 코드를 바꾸기 전에 원인과 기대 동작을 대조하는 이유를 본다.
@@ -609,7 +619,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-007 — A clear Prompt succeeds on its own; INV-VERIFY-001
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT — 한 번의 Codex CLI 실행 결과다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT — 한 번의 Codex CLI 실행 결과다.
 - **Visual Concept:** 기존 동작/실행/범위의 세 묶음과 관련 테스트3/3·전체11/11·CLI PASS·한 파일/한 줄·diff 확인 수치를 유지한다. 각 묶음을 S17의 확인·보고 지시에 대응시킨다. 실제 집중 실행은 test_transform.py 묶음으로 resize 보존 테스트도 포함하므로 crop 테스트만3개로 좁히지 않는다. 영어 명칭은 쉬운 설명 뒤에 두며 원자료 명령과 결과는 그대로 유지한다.
 - **Demo / Case Connection:** Trial의 실제 기록값.
 - **Beginner Payoff:** “완료”를 주장할 때 결과와 확인 증거가 함께 필요함을 본다.
@@ -634,7 +644,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-007; INV-VERIFY-001
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; OBSERVED PRODUCT는 TRIAL-002 결과에 한정하고, check와 claim의 관계는 일반 Engineering 모델로 구분한다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; OBSERVED PRODUCT는 TRIAL-002 결과에 한정하고, check와 claim의 관계는 일반 Engineering 모델로 구분한다.
 - **Visual Concept:** 기존 생성과 완료 판단의 대비 및 변경 이유·범위/확인 근거·결과/미확인 사항/사람의 수용 판단 네 항목을 유지한다. 앞의 기록을 받아 판단하려면 무엇을 확인·보고해 달라고 요청해야 하는지 회수하는 화면이다.
 - **Demo / Case Connection:** Trial에서 실제 수행한 확인과 성능 주장을 위한 조건부 benchmark를 구분한다.
 - **Beginner Payoff:** 코드가 나왔다는 사실만으로 완료라고 판단하지 않는다.
@@ -659,7 +669,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-007; INV-VERIFY-001
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; Trial의 실제 결과와 일반적인 검증 모델을 분리한다. TRIAL-002에서는 benchmark를 수행하지 않았다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; Trial의 실제 결과와 일반적인 검증 모델을 분리한다. TRIAL-002에서는 benchmark를 수행하지 않았다.
 - **Visual Concept:** 좌측에 Focused test—변경 동작, full test—알려진 회귀 범위, smoke—통합 경로, diff review—범위와 의도치 않은 변경, benchmark—성능 주장의 다섯 대응을 압축해 유지한다. 우측은 S02와 같은 native vector 원소 칸으로 입력 {1,2,3,4}, crop [1,3), 기대 {2,3}·2개와 끝 좌표를 잘못 포함한 결과 {2,3,4}·3개를 비교하고 추가된 4를 강조한다. `EXPECT_FALSE(actual.empty());`는 두 결과를 구별하지 못한다. 이름 붙인 `std::vector<int> expected{2,3};`와 `EXPECT_EQ(actual.size(), 2u);`, `EXPECT_EQ(actual, expected);`로 해당 입력의 명세를 개수·값·순서 조건에 옮긴다. 오른쪽은 C++ 교육용 재표현이며 새 실행 결과·당시 assertion 원문이 아니다. DEC-0041.
 - **Demo / Case Connection:** TRIAL-002의 tests, CLI smoke, diff 확인을 실제 예로 두고, benchmark는 필요한 경우의 예로 표시한다.
 - **Beginner Payoff:** 검사 결과가 무엇을 말해주는지 과장하지 않는다.
@@ -884,7 +894,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-007 → BEAT-008 handoff
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.; ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. 정답이나 제품 기능의 증거로 제시하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. 정답이나 제품 기능의 증거로 제시하지 않는다.
 - **Visual Concept:** 비어 있는 두 Bucket: `THIS TASK`, `THIS PROJECT`.
 - **Demo / Case Connection:** 청중의 업무를 떠올리는 짧은 Reflection과 자발적 Discussion. 정답 분류를 먼저 보여주지 않는다.
 - **Beginner Payoff:** Task 요청과 계속 유지할 규칙이 다를 수 있음을 생각한다.
@@ -909,7 +919,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-007 → BEAT-008; TRANS-003
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.; ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. 분류 시험이나 유일한 정답으로 제시하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. 분류 시험이나 유일한 정답으로 제시하지 않는다.
 - **Visual Concept:** 기존 이번 Task/계속 유지할 Project 두 Bucket을 유지한다. crop 경계 수정·이번 README 수정은 현재 목표 후보, 의존성 추가의 작업상 근거·프로젝트 테스트 명령은 여러 작업에서 참고할 후보로 놓는다. 동일한 확인 명령과 보존 조건이 다시 요청에 들어간다는 마찰로 S32에 넘긴다.
 - **Demo / Case Connection:** Slide 30에서 시작한 분류를 돕는 예시. 아직 `AGENTS.md`를 답으로 보여주지 않는다.
 - **Beginner Payoff:** 매번 쓰는 정보와 이번 요청만의 정보를 구별해 본다.
@@ -936,7 +946,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-008 — Good Project instructions are repeated in each Prompt
 - **Curriculum Trace:** ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; CONCEPTUAL.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; CONCEPTUAL.
 - **Visual Concept:** Task A/B/C Prompt 아래 반복되는 `test command`, `no runtime dependency`, `local synthetic data`, `preserve public behavior`를 강조한다.
 - **Demo / Case Connection:** Bug Fix, Performance, README 작업을 나란히 놓은 구성 사례. 해결책은 아직 보여주지 않는다.
 - **Beginner Payoff:** Task마다 반복되는 Project 정보를 알아차린다.
@@ -961,7 +971,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-009 — Project context moves into `AGENTS.md`
 - **Curriculum Trace:** ACT 2 — Context Engineering Turning Point.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT STATE. 파일 크기와 내용은 기록된 STATE-01에 한정한다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT STATE. 파일 크기와 내용은 기록된 STATE-01에 한정한다.
 - **Visual Concept:** `STATE-00-FIXED → STATE-01`; root `AGENTS.md`, 15 lines / 567 bytes를 표시한다. 파일을 기능 매뉴얼처럼 해설하지 않는다.
 - **Demo / Case Connection:** 프로젝트 설명, Build/Run 안내, Test 명령, 핵심 제약이 담긴 실제 State를 보여준다.
 - **Beginner Payoff:** 자주 반복되는 내용을 어디에 둘 수 있는지 본다.
@@ -986,7 +996,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-010 — Reusable Project guidance succeeds at first
 - **Curriculum Trace:** ACT 2 — `AGENTS.md`'s first success.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. AGENTS.md만의 독립적인 인과 효과나 보편적 우월성을 주장하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. AGENTS.md만의 독립적인 인과 효과나 보편적 우월성을 주장하지 않는다.
 - **Visual Concept:** 왼쪽 native Prompt 창에는 실제 TRIAL-003 요청의 핵심 발췌·번역만 표시한다. 실제 요청에 테스트 명령이 없었다는 설명은 창 밖의 주석으로 분리한다. 가운데 AGENTS.md는 프로젝트 작업 지침으로 강조하고 지정된 명령으로 전체 테스트를 실행한다는 규칙을 요약한다. 오른쪽 전체11/11 PASS는 유지한다. README-only가 요청에도 명시됐고 Skills도 실행됐다는 한계는 보존한다.
 - **Demo / Case Connection:** 문서 수정 Task의 관찰된 실행. Personal/global Skills도 실행되어 AGENTS.md만의 효과로 분리할 수 없다.
 - **Beginner Payoff:** 반복 정보를 repository에 두는 방식의 첫 효용을 본다.
@@ -1011,7 +1021,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-009–010; TRANS-003
 - **Curriculum Trace:** ACT 2 — Context Engineering Turning Point.; ACT 2 — `AGENTS.md`'s first success.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL.
 - **Visual Concept:** 왼쪽의 작업별 요청 예(crop 수정 또는 이번 README-only)를 테두리로 묶어 화살표로 프롬프트창 도식에 연결한다. 오른쪽의 테스트 명령·의존성 정책을 별도 테두리로 묶어 화살표로 AGENTS.md 문서 도식에 연결한다. 하단의 목표 변화/여러 작업 재참고 비교를 유지한다. 두 이미지는 교육용 생성 도식이며 실제 제품 화면이나 실행 캡처가 아니다.
 - **Demo / Case Connection:** Slide 32–34의 반복 설명과 첫 재사용을 정리한다.
 - **Beginner Payoff:** 현재 작업의 지시와 반복되는 Project 사실을 구별한다.
@@ -1036,7 +1046,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-011 — Context accumulates as Project needs grow
 - **Curriculum Trace:** ACT 2 — context accumulation and growth scenario.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT STATE.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT STATE.
 - **Visual Concept:** 화면의 두 시점을 ‘프로젝트 초기’와 ‘현재 프로젝트’로 표시한다. 같은 폭의 짧은/길어진 AGENTS.md 생성 도식과 ‘프로젝트 진행’ 화살표로 정보 축적을 보여준다. 기존 정보는 회색, 추가 정보는 청록색이다. 오른쪽에 처리 순서·이미지 명세·테스트 구조·CLI 출력을 요약하고 관련성 질문으로 끝낸다. STATE ID·줄 수·byte 수·경과 기간은 화면에 표시하지 않는다. 길이와 색은 설명용이며 실제 문서 캡처·정량 그래프가 아니다.
 - **Demo / Case Connection:** STATE-01과 STATE-02의 실제 AGENTS.md 내용 비교를 청중용 시간 흐름으로 재구성한다. ‘현재’는 이 Story 시점이며 Demo 저장소의 최신 HEAD가 아니다. 기간 측정이나 장기 운영을 관찰한 기록으로 표현하지 않는다. 원본 줄 수·용량은 Notes·근거 문서에만 보존한다.
 - **Beginner Payoff:** 늘어난 내용 자체보다 이번 일에 필요한지를 묻는다.
@@ -1061,7 +1071,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-012 — A small task receives unrelated Project Context
 - **Curriculum Trace:** ACT 2 — Context growth, relevance, and research caveat.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. Context 증가가 실패를 일으켰다는 주장을 하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. Context 증가가 실패를 일으켰다는 주장을 하지 않는다.
 - **Visual Concept:** 왼쪽 실제 요청 프롬프트창은 유지한다. 오른쪽 제목은 ‘AGENTS.md에 적힌 내용’으로 명시한다. Build / Run의 README 빌드·실행 안내 참조와 Core Constraints의 변경 범위 제한·관련 동작 검증을 청록 실선으로 묶는다. Architecture/Image Contract/Test의 구조 설명/CLI Summary의 이미지 상세는 회색 점선으로 묶는다. README·pyproject.toml 자체나 고정 버전값을 AGENTS.md 내용으로 넣지 않는다. 색 외에도 문구와 선 형태로 구분하고, Agent가 AGENTS.md를 읽었으며 혼란·실패는 관찰되지 않았다는 경계를 유지한다.
 - **Demo / Case Connection:** README Build 안내에서 pinned build tools를 확인한 문서 Task. Agent 혼란 없음, Context 관련 실패 없음.
 - **Beginner Payoff:** 정확한 정보라도 현재 Task와 관련 있는지 따져본다.
@@ -1086,7 +1096,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-012, BEAT-014
 - **Curriculum Trace:** ACT 2 — Context growth, relevance, and research caveat.; ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. OpenAI의 공식 분류 체계로 표현하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. OpenAI의 공식 분류 체계로 표현하지 않는다.
 - **Visual Concept:** 세 열 중 앞의 두 열은 공통 안내와 Task별 상세의 배치를 비교한다. 세 번째는 분리된 성능 요청 A/B에 같은 절차가 반복된다는 미해결 질문을 회색 점선으로 표시하고 ACT 3에서 확인한다고 적는다. 하나의 재사용 Workflow로 합쳐진 완성 구조나 Skill은 보여주지 않는다.
 - **Demo / Case Connection:** STATE-02의 분류 결과를 참조하되, 성능 조사 절차가 STATE-02에 실제로 저장됐다고 말하지 않는다.
 - **Beginner Payoff:** 모든 세부사항이 항상 필요한 것은 아님을 이해한다.
@@ -1161,7 +1171,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-014로 진입
 - **Curriculum Trace:** ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. Routing으로 성능 향상이나 Token 절약이 입증됐다고 주장하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. Routing으로 성능 향상이나 Token 절약이 입증됐다고 주장하지 않는다.
 - **Visual Concept:** 요청→AGENTS.md의 위치 안내→해당 상세 명세의 단일 경로. 문서 구조 전체는 해설하지 않고 이 질문에 필요한 근거까지 연결한다. 실제 읽기 순서와 구분한다.
 - **Demo / Case Connection:** STATE-03 결과는 다음 구간에 남기고, 이 장에서는 질문과 개념만 제시한다.
 - **Beginner Payoff:** Project 안내와 Task별 상세 정보가 다른 역할을 할 수 있음을 본다.
@@ -1186,7 +1196,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-014 — Context separation follows scope and timing
 - **Curriculum Trace:** ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. 이 설계만으로 정보 검색 성능이 향상된다고 주장하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. 이 설계만으로 정보 검색 성능이 향상된다고 주장하지 않는다.
 - **Visual Concept:** 정확한 최종 디렉터리 목록 대신 적용 범위·읽는 시점·유지할 내용이라는 같은 기준으로 기본 안내와 작업 상세를 비교한다. C++에서는 공통 빌드 진입점과 장비별 하드웨어 조건을 짧게 대조한다.
 - **Demo / Case Connection:** STATE-03 구조를 설명하기 전 일반적인 Routing mental model을 보여준다.
 - **Beginner Payoff:** 기본 안내와 상세 정보를 다른 역할로 볼 수 있다.
@@ -1211,7 +1221,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-014, BEAT-015 — Context separation and routing
 - **Curriculum Trace:** ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.; ACT 2 — separation, routing, and progressive disclosure.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; STATE-03 파일 구조는 관찰된 상태다. Routing 효과는 교육용 패턴으로 한정하며 완벽한 검색을 주장하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; STATE-03 파일 구조는 관찰된 상태다. Routing 효과는 교육용 패턴으로 한정하며 완벽한 검색을 주장하지 않는다.
 - **Visual Concept:** 왼쪽 큰 AGENTS.md 안에 기본 안내와 A구조/CLI 요약·B이미지 명세·C테스트 구성을 함께 담고, 오른쪽은 기본 안내+문서 위치를 담은 AGENTS.md와 A/B/C 상세 문서3개로 분리한다. 같은 문자와 가로 화살표로 기존 주제의 위치를 대응시킨다. 하단은 핵심 정보 보존과 상세 위치 분리를 회수한다. 실제 문서 구조를 요약·재구성하며 재서술·상세화와 안내 추가가 포함됐음을 명시한다.
 - **Demo / Case Connection:** STATE-02 → STATE-03의 실제 문서 구조. 내용 보존과 구조 변경을 구분한다.
 - **Beginner Payoff:** 정보를 나누더라도 핵심 제약은 유지할 수 있음을 본다.
@@ -1236,7 +1246,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-015 → BEAT-016
 - **Curriculum Trace:** ACT 2 — separation, routing, and progressive disclosure.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. 결과와 예상 경로를 미리 단정하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. 결과와 예상 경로를 미리 단정하지 않는다.
 - **Visual Concept:** 동일한 프롬프트창2개에 TRIAL-005A/B의 실제 요청 핵심 발췌·번역을 나란히 둔다. A는 샘플 crop의 원본 열/출력 폭/끝 좌표와 현재 명세·구현 근거, B는 실행 의존성과 빌드/패키징 도구 구분을 묻는다. 파일 변경 금지·읽기 전용·근거 제시 조건은 각 입력창 안에 둔다. 아래는 실제 연 문서, 두 요청의 접근 공통/차이, 답을 뒷받침한 근거라는 관찰 질문3개만 표시한다. 특정 문서로 향하는 화살표·접근 목록·정답·성공 판정은 표시하지 않는다.
 - **Demo / Case Connection:** 두 read-only Trial prompt.
 - **Beginner Payoff:** Task 질문에 따라 필요한 근거가 달라질 수 있음을 생각한다.
@@ -1261,7 +1271,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-016 — Relevant Context is disclosed for the task
 - **Curriculum Trace:** ACT 2 — separation, routing, and progressive disclosure.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. 기록된 CLI 실행과 최종 반복 결과에 한정한다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. 기록된 CLI 실행과 최종 반복 결과에 한정한다.
 - **Visual Concept:** 요청 A의 `--crop 1 3` 질문을 회수한다. 최종 실행에서 읽은 Markdown 문서5개(`AGENTS.md`, `docs/architecture.md`, `docs/image-contracts.md`, `docs/testing.md`, `README.md`)를 접근 요약으로 나열하고 명세 문서를 강조한다. 해당 문서의 `[x_start, x_end)`와 원본 열0–3 중1·2 강조/출력 폭2/끝 좌표3 제외를 대조한다. 문서 목록은 읽기 순서가 아니며, 화살표는 문서 내용과 답의 대조 관계다. 하단은 관찰된 사실과 해석의 한계를 구분한다.
 - **Demo / Case Connection:** TRIAL-005A 최종 CLI 실행의 문서 접근과 답을 요약·재구성한다. 명세 외에 architecture·README·소스·관련 테스트도 확인했다. `testing.md`와 관련 테스트 접근은 최종 실행에서 관찰했고 이전 실행과 달랐다. 관련 문서 접근과 명세에 맞는 답을 관찰한 범위로 한정한다.
 - **Beginner Payoff:** 결과 주장을 repository 근거와 연결해 본다.
@@ -1286,7 +1296,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-016
 - **Curriculum Trace:** ACT 2 — separation, routing, and progressive disclosure.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. 기록된 CLI 실행과 최종 반복 결과에 한정한다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. 기록된 CLI 실행과 최종 반복 결과에 한정한다.
 - **Visual Concept:** 왼쪽에 AGENTS.md/README/architecture 공통 안내와 pyproject.toml/setup.cfg/소스의 실제 확인을 묶는다. 오른쪽은 Python3.9+표준 라이브러리, third-party runtime 없음, setuptools/wheel 빌드 도구를 두 구역으로 구분한다. image-contracts/testing문서는 읽지 않았음을 비교의 연결로 남긴다.
 - **Demo / Case Connection:** TRIAL-005B 최종 읽기 전용 실행. third-party dependency 없음은 런타임 요구사항 자체가 없다는 뜻이 아니다. pip는 문서의 빌드 명령에 쓰였으며 runtime dependency로 바꾸지 않는다.
 - **Beginner Payoff:** 결과 주장을 repository 근거와 연결해 본다.
@@ -1311,7 +1321,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-016, BEAT-017
 - **Curriculum Trace:** ACT 2 — separation, routing, and progressive disclosure.; ACT 2 — Context Engineering success and ACT 3 handoff.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. Routing의 보편적 우월성이나 성능 효과는 주장하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. Routing의 보편적 우월성이나 성능 효과는 주장하지 않는다.
 - **Visual Concept:** native 문서 접근 비교표의 두 열을 A·Crop 범위와 B·실행 의존성으로 표시한다. AGENTS.md·README.md·docs/architecture.md는 모두 읽음, docs/image-contracts.md·docs/testing.md는 A만 읽음, pyproject.toml·setup.cfg는 B만 읽음으로 비교한다. 차이가 있는 행의 실제 읽음 셀만 강조하고 미접근을 실패로 표시하지 않는다. 오른쪽에 관찰된 차이와 해석의 한계를 분리한다. testing.md의 최종 A 실행 범위·이전 실행과의 차이, 양쪽 소스 확인과 현재 Desktop 미검증을 표시한다.
 - **Demo / Case Connection:** TRIAL-005A/B 최종 CLI 실행의 실제 접근을 요약·재구성한다. A는 이미지 명세·테스트 안내를, B는 pyproject.toml·setup.cfg를 읽었고 둘 다 AGENTS.md·구조 문서·README와 소스를 확인했다. B의 기록된 답은 third-party runtime dependency 없음이며 Python/표준 라이브러리와 build/package 도구를 구분했다. 현재 제품에서 다시 실행한 결과가 아니다.
 - **Beginner Payoff:** Context가 Task에 맞게 선택되는지 확인해야 함을 안다.
@@ -1361,7 +1371,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-017 → BEAT-018; TRANS-005
 - **Curriculum Trace:** ACT 2 — Context Engineering success and ACT 3 handoff.; ACT 3 — Context → Harness problem and bottom-up framing.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Context 정리는 ACT 2의 주제이며, 다음 절차 반복 예시는 ACT 3의 질문이다. Trial Prompt만으로 전체 절차의 원인을 귀속하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Context 정리는 ACT 2의 주제이며, 다음 절차 반복 예시는 ACT 3의 질문이다. Trial Prompt만으로 전체 절차의 원인을 귀속하지 않는다.
 - **Visual Concept:** 정리된 기본 안내/상세 문서를 왼쪽에 작게 회수하고 오른쪽에는 성능 조사 요청 하나와 다시 적는 측정·조사·계획·검증·비교/검토 요약을 둔다. 다음 장의 두 실제 Task 비교를 앞당기지 않는다.
 - **Demo / Case Connection:** S47의 관찰된 접근 차이와 미입증 경계를 회수한 뒤, 정보를 어디서 찾을지 나눈 것과 작업 방법을 매번 요청하는 문제를 구분한다. 다음 성능 작업의 공통 절차를 교육용 도식으로 압축하고 S50에서 TRIAL-006/007 기록을 더 살펴본다. 이 장의 Discussion은 실습이나 새 Demo가 아니다.
 - **Beginner Payoff:** Project 정보를 잘 주는 것과 작업 방법을 정하는 것이 다른 문제임을 이해한다.
@@ -1388,7 +1398,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-018, BEAT-020
 - **Curriculum Trace:** ACT 3 — Context → Harness problem and bottom-up framing.; ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; PARTIAL attribution. 두 Trial의 절차 반복은 관찰됐지만 Prompt만의 효과로 귀속할 수 없다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; PARTIAL attribution. 두 Trial의 절차 반복은 관찰됐지만 Prompt만의 효과로 귀속할 수 없다.
 - **Visual Concept:** 기존 기능 삽화와 실제 요청 발췌/보존 요약의 세 행 대응을 유지한다. 상단에 Harness의 짧은 방향 안내만 추가하고 완성 구조는 후반에 둔다.
 - **Demo / Case Connection:** 각 Trial의 결과는 해당 코드·입력·환경에 한정한다. 성능 수치를 일반화하지 않는다.
 - **Beginner Payoff:** 작업 방법도 반복되는 요소가 될 수 있음을 본다.
@@ -1413,7 +1423,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-019 — Knowledge and Process answer different questions
 - **Curriculum Trace:** ACT 3 — Context → Harness problem; repeated workflow.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL.
 - **Visual Concept:** 상단 AGENTS.md 정보 묶음에서 변경 전·변경 후·완료 판단으로 연결한다. 동일한 테스트 실행 표시를 앞의 두 시점에 재사용하고 확인 질문을 다르게 둔다. 실제 실행 결과는 표시하지 않는다.
 - **Demo / Case Connection:** TRIAL-006/007의 절차 반복을 연결하되, 새 제품 기능이나 해결책은 아직 공개하지 않는다.
 - **Beginner Payoff:** 같은 테스트를 실행해도 현재 상태 확인과 변경 영향 확인이라는 목적이 다를 수 있음을 이해한다.
@@ -1438,7 +1448,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-019
 - **Curriculum Trace:** ACT 3 — Context → Harness problem; repeated workflow.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL.
 - **Visual Concept:** 상단 목표 요청이 아래 작업 영역에 들어온다. 기존 이미지 동작·공개 명세 보존의 테두리가 normalize 구현 조사·변경 판단을 감싸고, 오른쪽 재사용할 수행 방법에서 같은 작업으로 연결한다. S51의 변경 전/후 순서를 다시 나열하지 않는다.
 - **Demo / Case Connection:** TRIAL-006/007의 반복 절차를 개념 예로 연결한다.
 - **Beginner Payoff:** 목표는 할 일, 프로젝트 기준은 지킬 범위, 수행 방법은 그 범위 안에서 일하는 방식임을 한 작업에서 이해한다.
@@ -1463,7 +1473,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-020 → BEAT-021; DEC-0017
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; DEC-0017은 ACCEPTED. 현재 교육 환경에서의 Product availability는 `REQUIRES PRODUCT CHECK`. Skill discovery/invocation Trial 결과는 다음 구간에 둔다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; DEC-0017은 ACCEPTED. 현재 교육 환경에서의 Product availability는 `REQUIRES PRODUCT CHECK`. Skill discovery/invocation Trial 결과는 다음 구간에 둔다.
 - **Visual Concept:** 왼쪽 두 요청은 목표·허용 범위·보존 조건이 달라짐을 보여준다. 오른쪽 Skill 하나에서 동일한 3px 선과 작은 화살촉으로 두 요청에 연결하고, 같은 절차를 한 곳에서 관리한다는 이유를 하단에 둔다. 연결은 교육용 재사용 관계이며 실제 호출 기록이 아니다.
 - **Demo / Case Connection:** 저장소 소유의 재사용 절차를 검토하기로 한 결정까지만 보여준다. 성공 결과나 Skill 전문은 제시하지 않는다.
 - **Beginner Payoff:** 이번 요청에서 정할 내용과 여러 작업에 다시 연결할 방법을 구분하고 반복 절차를 Skill에 모으는 이유를 이해한다.
@@ -1488,7 +1498,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-021 — Repository Skill의 발견과 호출
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; Codex CLI 0.154.0에서 관찰. Desktop 동작과 암묵적 호출은 검증하지 않음. 현재 제품 표면의 상태는 **REQUIRES PRODUCT CHECK**.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; Codex CLI 0.154.0에서 관찰. Desktop 동작과 암묵적 호출은 검증하지 않음. 현재 제품 표면의 상태는 **REQUIRES PRODUCT CHECK**.
 - **Visual Concept:** 왼쪽 /skills의 보존된 이름·잘린 설명, 가운데 명시 호출과 실제 요청의 발췌·번역 요약, 오른쪽 실행 trace의 이름·경로·전체 본문 영역을 가로로 연결한다. 본문을 길게 복제하지 않고 전체 본문 포함을 확인한 위치를 강조한다. 실제 UI 캡처가 아닌 기록 재구성임을 표시한다.
 - **Demo / Case Connection:** DEMO-03 / TRIAL-008. 세 번째 성능 조사인 image_statistics의 실행 시간 또는 할당량 조사 요청. 기본은 검증된 정적 기록 도식이며 현재 Live/Hybrid는 미활성이다.
 - **Beginner Payoff:** 목록에서 찾은 이름을 요청에 명시하고, 실행 기록에서 해당 Skill의 전체 지침이 들어왔는지 확인하는 흐름을 읽는다.
@@ -1513,7 +1523,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-021 — 반복 절차의 위치 이동
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; 관찰된 차이는 절차 책임의 위치다. Skill의 우수성, 토큰 절감, 속도 향상은 입증되지 않음.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; 관찰된 차이는 절차 책임의 위치다. Skill의 우수성, 토큰 절감, 속도 향상은 입증되지 않음.
 - **Visual Concept:** 상단에서 앞 장의 본문 포함 확인과 이번 장의 수행 기록 대조를 구분한다. 번호가 있는 native table의 왼쪽은 Skill 지침의 한국어 번역 요약, 오른쪽은 실행 출력·메시지·diff의 관찰 요약이다. 01 기준선3회와6항목, 02 조건부 계획과허용 범위의변경, 03 테스트1/1·11/11과동일측정3회를 대응한다. 실제 캡처가 아닌 기록 재구성임을 표시한다.
 - **Demo / Case Connection:** DEMO-03 / TRIAL-008 / STATE-04 Skill. S54의 발견·호출·본문 포함에서 이어지는 작업 기록 대조다. 기본은 검증된 정적 자료이며 현재 Live/Hybrid는 미활성이다. Task별 목표·6항목 보존·허용 범위는 실제 요청에 남겨둔 조건으로 Notes에서 회수한다.
 - **Beginner Payoff:** 지침이 입력에 들어온 사실과, 실제로 측정·계획·검증을 수행한 기록을 나누어 확인한다.
@@ -1538,7 +1548,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-022 — 재사용 가능한 절차와 작업별 판단의 분리
 - **Curriculum Trace:** ACT 3 — observed workflow, verification, and Minimum Effective Harness.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; Repository Skill이 절차를 담도록 설계됐다는 사실은 관찰 가능. Skill이 답을 더 잘 찾아준다는 주장은 하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; Repository Skill이 절차를 담도록 설계됐다는 사실은 관찰 가능. Skill이 답을 더 잘 찾아준다는 주장은 하지 않는다.
 - **Visual Concept:** 왼쪽 pale 패널은 실제 Skill에서 번역 요약한 기준선 측정·동일 조건 검증/비교·근거와한계 보고를 번호로 묶고 다음 작업에도 재사용함을 표시한다. 적용 선으로 오른쪽 이번 작업의 측정값·테스트·diff에 연결한다. 아래 구현 후보·시간/할당량·trade-off 질문에서 변경 채택/보류의 교육용 판단 경로로 갈라진다. 조건을 양쪽에 표시하며 실제 Trial 결과처럼 강조하지 않는다.
 - **Demo / Case Connection:** STATE-04의 graypipe-performance Skill에 특정 구현·benchmark 파일명·Trial 수치·macOS/Python 조건을 고정 답으로 넣지 않은 점을 Notes에서 확인한다. 오른쪽은 밝기 통계 작업의 질문과 허용된 판단 경로이며 실제 후보 선택은 S57에서 회수한다. Lecture 3분으로 DEMO-03의8 Demo분에 더하지 않는다.
 - **Beginner Payoff:** 다음 작업에도 쓸 확인 방법과 이번 기록으로 채울 구현·측정값·trade-off를 구분한다. 변경 보류도 근거에 따른 유효한 답일 수 있음을 이해한다.
@@ -1563,7 +1573,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-022 — 측정과 비교를 거친 후보 선택
 - **Curriculum Trace:** ACT 3 — observed workflow, verification, and Minimum Effective Harness.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 해당 Trial의 후보 간 비교 결과. Skill이 후보를 발견하거나 그 결과를 일으켰다는 인과 주장은 하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 해당 Trial의 후보 간 비교 결과. Skill이 후보를 발견하거나 그 결과를 일으켰다는 인과 주장은 하지 않는다.
 - **Visual Concept:** 상단에서 이미지의 최소·최대·평균을 구하는 작업과 기존 구현(행별 픽셀→전체 임시 리스트→통계)을 native 도식으로 설명한다. 하단은 임시 리스트 없이 계산한 두 후보의 시간 방향과 제외/선택을 비교한다. 결과6항목 보존·기존보다 낮은 Python 할당 피크를 명시하며 정확한 후보 수치는 표시하지 않는다. 칸은 실제 픽셀 값이나 측정량이 아니다.
 - **Demo / Case Connection:** TRIAL-008의 image_statistics 후보 비교 요약. 수동 단일 순회와 행 단위 내장 min/max/sum을 정성적으로 비교한다. 기존 평탄화 구현은 할당량 비교 기준이며 S58의 formal 제품 상태 측정과 구분한다.
 - **Beginner Payoff:** 성능 개선은 아이디어가 아니라 같은 조건의 비교로 판단한다.
@@ -1588,7 +1598,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-022, BEAT-037 — bounded change와 Working Harness Success
 - **Curriculum Trace:** ACT 3 — observed workflow, verification, and Minimum Effective Harness.; ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 해당 프로젝트와 입력·환경에서 관찰된 값이다. Harness가 성능 향상을 일으켰다고 말하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 해당 프로젝트와 입력·환경에서 관찰된 값이다. Harness가 성능 향상을 일으켰다고 말하지 않는다.
 - **Visual Concept:** 선택한 변경을 한 문장으로 회수하고, 실행시간 native chart / Python 할당 피크 전후 / 결과6항목·테스트·CLI 확인을 세 영역으로 구분한다. 기존15.468→10.769ms/call과6,675,804→380B, 검증 결과를 그대로 표시한다. 시간축은0에서 시작한다.
 - **Demo / Case Connection:** STATE-04-PERF에 반영된 row-reduction 변경과 해당 상태의 검증 결과.
 - **Beginner Payoff:** AI의 제안은 테스트와 측정으로 확인한 뒤 결과물로 반영한다.
@@ -1713,7 +1723,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-035, BEAT-037 — 해결된 마찰에서 Harness 구조 도출
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.; ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; 이번 작업에서 관찰한 구성을 일반적인 기능 수 우위 주장으로 확장하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; 이번 작업에서 관찰한 구성을 일반적인 기능 수 우위 주장으로 확장하지 않는다.
 - **Visual Concept:** 목표·Context·Skill을 왼쪽 세 입력으로 배치하고 한 Agent의 밝기 통계 조사·변경으로 모은다. 오른쪽 검증 도구는 테스트·benchmark와 출력·시간·할당량, 같은 입력·환경을 짧게 표시한다. 세 입력은 순차 단계가 아니며 네 책임의 실제 사용 관계를 재구성한다. 수치·파일 목록·전체 Harness 정의는 반복하지 않는다.
 - **Demo / Case Connection:** STATE-04-PERF까지 이어진 작업과 검증 흐름.
 - **Beginner Payoff:** Harness는 기능을 많이 모으는 일이 아니라 현재 문제에 필요한 구조를 마련하는 일이다.
@@ -1763,7 +1773,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-033, BEAT-036
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.
 - **Evidence Type:** OBSERVED_META / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 대상 구성·기능 이용 가능성·trust·permissions; Trial 기록에서 global Harness 영향이 관찰됐다. 이는 전체 환경을 빠짐없이 파악했다거나 모든 항목이 결과를 바꿨다는 뜻은 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 대상 구성·기능 이용 가능성·trust·permissions; Trial 기록에서 global Harness 영향이 관찰됐다. 이는 전체 환경을 빠짐없이 파악했다거나 모든 항목이 결과를 바꿨다는 뜻은 아니다.
 - **Visual Concept:** 한 Agent 실행에 왼쪽 같은 Repository의 코드/프로젝트 지침/문서와 오른쪽 저장소 밖의 전역 지침·Skills/모델·설정/권한이 모이는 관계를 보여준다. 외부 조건 선은 점선과 적용 확인 라벨로 표시한다. 아래 실제 관찰은 TRIAL-006의 전역 Skills 포함·시작 경고, 해석 한계는 경고만으로 도구 실행·결과 기여를 알 수 없음으로 나눈다. Meta 이중선과 전체 감사·인과 미입증 경계를 유지한다.
 - **Demo / Case Connection:** TRIAL 기록에서 확인된 global 환경 영향만 짧게 예고한다. 상세 근거는 ACT 4의 DEMO-04B에 둔다.
 - **Beginner Payoff:** 결과가 예상과 다르면 Repository의 코드와 Prompt 외에도 환경을 살펴볼 수 있다.
@@ -1788,7 +1798,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-036
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; 교육용 전이 사례다. C++ 프로젝트마다 실제 도구·규칙이 다를 수 있다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; 교육용 전이 사례다. C++ 프로젝트마다 실제 도구·규칙이 다를 수 있다.
 - **Visual Concept:** 승인된 검사 파이프라인 삽화를 같은 bytes/crop으로 축소 배치하고 아래 세 행에서 Demo→C++ 대응을 보여준다. 지킬 명세: 출력6항목 유지→ROI/픽셀값 명세. 수행 방법: 기준선/조사/변경/비교→검사 모듈에 같은 절차. 검증 근거: 테스트/시간/할당량→동작/회귀/성능 검증. 마지막 줄은 입력·빌드·장비 조건 확인이며 세 행은 파이프라인 단계가 아닌 전체 업무의 세 판단 기준이다.
 - **Demo / Case Connection:** Python의 Project Context, `unittest`, benchmark script, reusable workflow를 C++의 CMake/build 설정, 모듈 계약·알고리즘 제약·하드웨어 가정, GoogleTest/CTest 또는 통합 테스트, Release build와 benchmark/profiler에 대응시킨다.
 - **Beginner Payoff:** 언어가 달라도 먼저 Project의 규칙과 검증 방법을 찾는다.
@@ -1813,7 +1823,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-035–037, BEAT-038로의 전환
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.; ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.; ACT 4 — conceptual stale-Harness case.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Subagent와 Memory는 조건부 선택이다. Verification은 실제 작업의 필요와 위험에 맞춰 둔다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Subagent와 Memory는 조건부 선택이다. Verification은 실제 작업의 필요와 위험에 맞춰 둔다.
 - **Visual Concept:** 반복 정보/반복 절차/검증 근거를 같은 비중의 세 후보로 두고 하나만 선택으로 모은 뒤 어디에 둘까/누가 검토·갱신할까 두 질문으로 나눈다. 후보의 모임은 전부 통합하라는 뜻이 아닌 선택 관계다. 아래는 위치·담당을 정리한 뒤 다시 확인할 시점을 묻는 질문이다. 정답·새 기능·도구·팀별 담당을 미리 제시하지 않으며 정적 화면에서 발표자 초점을 R1/R2/R3로 옮긴다.
 - **Demo / Case Connection:** STATE-04-PERF에서 Subagent와 Memory 없이 성공한 bounded Harness를 회고한다.
 - **Beginner Payoff:** 자기 업무에서 먼저 고칠 반복 마찰 하나를 생각해 본다.
@@ -1840,7 +1850,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-037, BEAT-038
 - **Curriculum Trace:** ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.; ACT 4 — conceptual stale-Harness case.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; STATE-04-PERF의 테스트·benchmark 등 기록된 범위에 한정한다. 실제 stale Harness나 Product failure를 뜻하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; STATE-04-PERF의 테스트·benchmark 등 기록된 범위에 한정한다. 실제 stale Harness나 Product failure를 뜻하지 않는다.
 - **Visual Concept:** 실제 성공을 세 짧은 근거로 기준점에 남긴 뒤 기준·절차를 계속 맞게 유지할 문제를 연다. Reflection은 재검토를 요구할 조건 변화다.
 - **Demo / Case Connection:** STATE-04-PERF의 검증된 Product endpoint. 세부 State 설명을 반복하지 않는다.
 - **Beginner Payoff:** 잘 동작했던 현재 시스템을 기준점으로 삼는다.
@@ -1865,7 +1875,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-038
 - **Curriculum Trace:** ACT 4 — conceptual stale-Harness case.
 - **Evidence Type:** CONCEPTUAL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; CONCEPTUAL CASE — DEMO-04A 범위; 구성된 교육 사례다. `ai-dev-training-demo`의 기록이나 Trial이 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; CONCEPTUAL CASE — DEMO-04A 범위; 구성된 교육 사례다. `ai-dev-training-demo`의 기록이나 Trial이 아니다.
 - **Visual Concept:** Workflow는 재사용 수행 절차이며 앞에서는 Skill로 관리한 역할이라고 연결한다. 같은 파일/사건이 아님을 표시한다. 두 소제목 간격을 확보해 현재 기준과 다음 작업의 지침을 비교한다.
 - **Demo / Case Connection:** DEMO-04A의 정상 출발 가정: 현재 프로젝트 기준과 재사용 지침이 모두 단위 테스트를 가리킨다. 앞의 Skill은 같은 역할의 예이며 동일 graypipe 파일/사건이 아니다. command·runner·실행 결과는 만들지 않는다.
 - **Beginner Payoff:** 원래 올바른 지침도 시간이 지나면 달라질 수 있음을 이해한다.
@@ -1890,7 +1900,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-038, BEAT-039
 - **Curriculum Trace:** ACT 4 — conceptual stale-Harness case.; ACT 4 — Project change and stale Harness.
 - **Evidence Type:** CONCEPTUAL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; CONCEPTUAL CASE — DEMO-04A 범위; 가상 사례다. 실제 Repository migration이나 Codex failure로 표현하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; CONCEPTUAL CASE — DEMO-04A 범위; 가상 사례다. 실제 Repository migration이나 Codex failure로 표현하지 않는다.
 - **Visual Concept:** 기존 단위/통합 범위 비교를 유지하고 검토·갱신 담당이 이 차이를 언제 확인할지 아래에서 묻는다.
 - **Demo / Case Connection:** DEC-0027의 승인된 가상 설정: 모듈 연결 동작을 검증할 필요로 공식 기준은 단위+통합 테스트로 넓어졌지만 재사용 Workflow에는 단위 테스트 지시만 남는다. 정확한 command, 실제 실행 결과, Product State는 정의하지 않는다.
 - **Beginner Payoff:** Agent가 따르는 지침이 Project의 현재 상태와 일치하는지 확인한다.
@@ -1915,7 +1925,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-039
 - **Curriculum Trace:** ACT 4 — Project change and stale Harness.
 - **Evidence Type:** CONCEPTUAL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 가상 결과다. 구체적인 실패 유형은 제작 시 선택한 사례의 타당성을 확인해야 하며 실제 Demo 이력으로 표현하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 가상 결과다. 구체적인 실패 유형은 제작 시 선택한 사례의 타당성을 확인해야 하며 실제 Demo 이력으로 표현하지 않는다.
 - **Visual Concept:** 이번 요청과 다음 작업의 재사용 지침을 별도 상자에 둔다. 요청 보정이 다음 지침을 자동 갱신하지 않는 관계를 비교한다.
 - **Demo / Case Connection:** DEMO-04A의 가상 후속 Task. Live 실행이 아닌 VISUAL/CAPTURED 설명.
 - **Beginner Payoff:** 이번 답을 고치는 것과 다음 작업까지 바뀌게 하는 것을 구분한다.
@@ -1940,7 +1950,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-043, BEAT-044
 - **Curriculum Trace:** ACT 4 — cause analysis, change, evaluation, and regression.; ACT 4 — Improve Context, Memory, Skills, and delegation.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 이 비교는 DEMO-04A의 가상 원인에 한정한다. 실제 Product 수정을 의미하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 이 비교는 DEMO-04A의 가상 원인에 한정한다. 실제 Product 수정을 의미하지 않는다.
 - **Visual Concept:** 실제 문제라면 확인할 현재 문서·참조 지침·환경/권한·코드/검사 기록의 네 대상이다. 특정 원인을 선택하거나 실행 결과를 만들지 않는다.
 - **Demo / Case Connection:** DEMO-11의 기존 Demo2분을 확인 대상·근거 설계에 사용한다. 원인/Layer 선택의 판단은 S74의 Case2분에서 회수한다. 새 Demo/실행은 없다.
 - **Beginner Payoff:** 원인을 고르기 전에 현재 기준, 읽힌 지침, 실행 조건과 검사 기록을 확인한다.
@@ -1965,7 +1975,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-043, BEAT-044
 - **Curriculum Trace:** ACT 4 — Loop model; cause analysis, change, evaluation, and regression.; ACT 4 — cause analysis, change, evaluation, and regression.; ACT 4 — Improve Context, Memory, Skills, and delegation.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 원인 Layer는 조사로 확인해야 한다. 이 분류는 디버깅 Mental Model이지 고정된 진단표가 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 원인 Layer는 조사로 확인해야 한다. 이 분류는 디버깅 Mental Model이지 고정된 진단표가 아니다.
 - **Visual Concept:** 가상 설정의 단위+통합/단위만 차이와 오래된 지침이 원인일 수 있다는 가설을 좌우로 나눈다. 실제 원인 확인은 별도 근거가 필요하다.
 - **Demo / Case Connection:** DEMO-11의 기존 Demo1분으로 가상 전제와 원인 가설을 나란히 대조한다. Lecture1분과 구분하며 실제 실행 기록은 없다.
 - **Beginner Payoff:** 설정에서 주어진 차이와 실제로 확인한 원인은 다르다는 점을 이해한다.
@@ -1990,7 +2000,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-044, BEAT-045
 - **Curriculum Trace:** ACT 4 — Loop model; cause analysis, change, evaluation, and regression.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 구성된 사례다. 관찰 사실처럼 보이는 항목도 이 사례의 가정이며 실제 Trial 관찰이 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 구성된 사례다. 관찰 사실처럼 보이는 항목도 이 사례의 가정이며 실제 Trial 관찰이 아니다.
 - **Visual Concept:** 원인이 확인됐다고 가정한 요청 보정/전역 규칙/원인 Workflow의 세 대응을 범위와 함께 비교하고 검토 담당의 판단을 연결한다.
 - **Demo / Case Connection:** DEMO-04A/DEMO-11의 원인·수정 위치 선택을 Case2분으로 회수한다. DEMO-11의3 Demo분 외의 설명이며 새 시연이 아니다.
 - **Beginner Payoff:** 원인이 확인된 뒤 이번 요청 보정과 재사용 지침 갱신의 범위를 비교한다.
@@ -2015,7 +2025,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-045–046
 - **Curriculum Trace:** ACT 4 — Improve Context, Memory, Skills, and delegation.; ACT 4 — cause analysis and change.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 가상 사례에서 전제한 원인에 대한 대응이다. 실제 Product 변경이나 Trial 결과가 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 가상 사례에서 전제한 원인에 대한 대응이다. 실제 Product 변경이나 Trial 결과가 아니다.
 - **Visual Concept:** 위에는 단위→단위+통합의 지침 갱신, 아래에는 갱신 담당·검토 담당·재평가의 역할을 연결한다. 실제 담당 배정·변경 결과가 아니다.
 - **Demo / Case Connection:** 가상 Workflow 지시의 단위→단위+통합 갱신 범위와 사람의 검토·갱신 책임을 연결한다. 실제 수정·담당 배정·재평가 결과는 없다.
 - **Beginner Payoff:** 규칙을 더하기 전에 실제 원인이 있는 곳을 고친다.
@@ -2040,7 +2050,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-047
 - **Curriculum Trace:** ACT 4 — cause analysis, change, evaluation, and regression.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 이 재실행은 설계된 사례다. 실행 결과나 통과 숫자는 없다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 이 재실행은 설계된 사례다. 실행 결과나 통과 숫자는 없다.
 - **Visual Concept:** 단위→단위+통합 지침 갱신이라는 가정을 위에 두고 같은 작업의 범위 확인과 문서 작업의 불필요한 절차 확인을 좌우로 비교한다. 결과 판정은 없다.
 - **Demo / Case Connection:** DEMO-04A 지침 변경 가정 뒤 같은 작업/다른 작업의 확인 질문을 설계한다. 실제 변경·재실행·회귀 결과는 없다.
 - **Beginner Payoff:** 지침 변경이 이번 문제를 다루는지 확인하고, 다른 작업에 불필요한 일을 요구하지 않는지도 본다.
@@ -2065,7 +2075,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-048–049
 - **Curriculum Trace:** ACT 4 — evaluation and regression; OQ-009.; ACT 4 — evaluation and regression.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 이 stale-Workflow 변경 뒤의 EVAL-01~04 실행 결과는 없다. EVAL-01/02의 별도 관찰 기록이 이 변경을 평가한 결과인 것처럼 사용하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 이 stale-Workflow 변경 뒤의 EVAL-01~04 실행 결과는 없다. EVAL-01/02의 별도 관찰 기록이 이 변경을 평가한 결과인 것처럼 사용하지 않는다.
 - **Visual Concept:** 작업 종류·확인하려는 위험·기존 근거의3열×5행 Native 표다. 네 작업·선정 이유·근거 상태를 유지하고 EVAL/TRIAL/STATE 식별자는 출처·Notes에서 추적한다. 과거 사례 참고는 새 평가 결과가 아니다.
 - **Demo / Case Connection:** EVAL-01 Bug Fix, EVAL-02 Performance, EVAL-03 Documentation-only, EVAL-04 Small Refactor를 가상 대표 작업으로 제시한다. PASS/FAIL 숫자는 만들지 않는다.
 - **Beginner Payoff:** 작업을 많이 모으기보다, 바뀐 지침이 서로 다른 업무에 미칠 영향을 확인하도록 고른다.
@@ -2090,7 +2100,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-050
 - **Curriculum Trace:** ACT 4 — Improve Context, Memory, Skills, and delegation.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 여기서 쓰는 “overfit”은 교육용 비유다. Machine Learning의 통계적 overfitting과 완전히 같은 의미라고 주장하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL CASE — DEMO-04A 범위; 여기서 쓰는 “overfit”은 교육용 비유다. Machine Learning의 통계적 overfitting과 완전히 같은 의미라고 주장하지 않는다.
 - **Visual Concept:** 모든 작업에 통합 테스트를 요구하는 가상 전역 지침에서 코드 변경/문서 수정으로 갈라지는 관계도다. 규칙 누적·충돌·특정 작업 편중을 하단에서 회수한다. 실제 부작용이나 비용 측정은 없다.
 - **Demo / Case Connection:** DEMO-04A에서 Prompt patch, global rule 추가, source Workflow 변경의 차이를 회수한다.
 - **Beginner Payoff:** 한 작업에서 필요했던 규칙을 모든 작업에 적용하면 불필요한 절차가 생길 수 있다.
@@ -2140,7 +2150,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-058–059
 - **Curriculum Trace:** ACT 4 — observed Meta feedback case.; ACT 4 → ACT 5 handoff.
 - **Evidence Type:** OBSERVED_META
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; Training Production의 보조 사례다. Demo Product 변경이나 DEMO-04A의 원인·수정이 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; Training Production의 보조 사례다. Demo Product 변경이나 DEMO-04A의 원인·수정이 아니다.
 - **Visual Concept:** 실제 교육 Demo 제작·Resize 성능 조사라는 배경을 먼저 밝힌 뒤 관찰 조건→원인 해석 한계→평가·보고 변경 대상으로 연결한다. 가상 Workflow와 별개인 OBSERVED_META 이중선을 유지한다.
 - **Demo / Case Connection:** TRIAL-006에서 시작해 실제 제작 평가·보고 변경으로 이어지는 기록을 연다.
 - **Beginner Payoff:** 결과가 나와도 어떤 조건에서 무엇을 확인했고 무엇은 모르는지 남겨야 한다.
@@ -2165,7 +2175,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-058
 - **Curriculum Trace:** ACT 4 — observed Meta feedback case.
 - **Evidence Type:** OBSERVED_META
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; `144.2 → 33.5 ms/call median`은 특정 Trial의 측정 결과다. 4.30×, 76.8%를 성과용 Hero metric으로 쓰지 않고 일반화하지 않는다. Prompt-only attribution은 PARTIAL이다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; `144.2 → 33.5 ms/call median`은 특정 Trial의 측정 결과다. 4.30×, 76.8%를 성과용 Hero metric으로 쓰지 않고 일반화하지 않는다. Prompt-only attribution은 PARTIAL이다.
 - **Visual Concept:** Resize가 앞의 밝기 통계와 다른 기록임을 위에 두고 왼쪽 결과 확인/오른쪽 원인 해석을 비교한다. 수치·조건·PARTIAL은 원래 범위 그대로이며 전역 Skill 표현을 일관되게 쓴다.
 - **Demo / Case Connection:** 기록된 input/output hash가 일치했다. `performance-goal` Skill이 evaluator/ledger 상태와 stricter threshold를 만든 것도 관찰된 global influence로 작게 표기하되, 측정값의 직접 원인으로 단정하지 않는다.
 - **Beginner Payoff:** 결과가 확인됐다는 것과 무엇의 효과인지 안다는 것은 다른 질문이다.
@@ -2190,7 +2200,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-058–059
 - **Curriculum Trace:** ACT 4 — observed Meta feedback case.; ACT 4 → ACT 5 handoff.
 - **Evidence Type:** OBSERVED_META
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 실제 Training Production 평가·환경 거버넌스 변경이다. Product 코드나 Demo Skill을 수정한 것이 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 실제 Training Production 평가·환경 거버넌스 변경이다. Product 코드나 Demo Skill을 수정한 것이 아니다.
 - **Visual Concept:** 위에는 기존 작업/저장소 중심 보고와 실행 조건/해석 범위의 추가를 대비한다. 아래 세 병렬 기록 항목에는 순차 화살표를 두지 않는다. PARTIAL 보존과 당시 환경 격리 진행 결정은 보조 맥락이다.
 - **Demo / Case Connection:** Host와 learner environment의 구분, global influence의 가능성, PARTIAL 판정, 후속 기록 원칙을 요약한다. 후속 보고에서는 Skills, Hook 경고/실행 여부, MCP 경고/사용 여부, Model·Interface, attribution 경계를 구분해 기록한다.
 - **Beginner Payoff:** 무슨 작업을 했는지에 더해 어떤 지침·조건을 썼고 어디까지 해석할 수 있는지도 기록한다.
@@ -2215,7 +2225,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-058–059
 - **Curriculum Trace:** ACT 4 — observed Meta feedback case.; ACT 4 → ACT 5 handoff.
 - **Evidence Type:** OBSERVED_META
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 적용은 부분적이다. 완전한 환경 목록, 완벽한 보고, 품질 향상은 입증되지 않았다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 적용은 부분적이다. 완전한 환경 목록, 완벽한 보고, 품질 향상은 입증되지 않았다.
 - **Visual Concept:** 왼쪽은 TRIAL-007 보고서와 원문 진단 메시지의 차이, 오른쪽은 TRIAL-008 저장소 Skill 호출과 전역 영향의 별도 기록이다. 식별자는 보조 크기이며 오류명은 작은 원문 근거로 남긴다. 통제된 개선 전후 비교가 아니다.
 - **Demo / Case Connection:** TRIAL-008은 Codex CLI에서 `graypipe-performance`를 명시적으로 발견·호출한 기록이다. Desktop 전체 동작 주장이나 품질 비교 수치는 포함하지 않는다.
 - **Beginner Payoff:** 보고가 놓친 조건은 원문에 남을 수 있고, 사용한 지침의 출처도 구분해서 남겨야 한다.
@@ -2240,7 +2250,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-058–059
 - **Curriculum Trace:** ACT 4 — observed Meta feedback case.; ACT 4 → ACT 5 handoff.
 - **Evidence Type:** OBSERVED_META
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 후속 보고에는 불일치와 미측정 품질 효과가 남아 있다. DEMO-04A의 conceptual stale Workflow와 합치지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; 후속 보고에는 불일치와 미측정 품질 효과가 남아 있다. DEMO-04A의 conceptual stale Workflow와 합치지 않는다.
 - **Visual Concept:** S79와 같은5단계 이름에 실제 Resize 조사·관찰 조건·해석 한계·기록 기준 변경·부분적 후속 대조를 대응한다. 하단은 변경 대상과 원인별 효과/환경 완전성/품질 향상 미확인이다.
 - **Demo / Case Connection:** 평가·보고 방식의 실제 변화와 후속 기록. Product code나 `graypipe-performance` Skill 변경은 포함하지 않는다.
 - **Beginner Payoff:** 피드백을 받아 바뀌는 대상에는 지침뿐 아니라 평가·보고 기준도 포함된다. 바꾼 뒤에도 모르는 점을 남긴다.
@@ -2265,7 +2275,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-059, TRANS-012
 - **Curriculum Trace:** ACT 4 → ACT 5 handoff.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; GPU architecture나 toolchain 변화는 교육용 예시이지 Demo에서 실제 발생한 일이 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; GPU architecture나 toolchain 변화는 교육용 예시이지 Demo에서 실제 발생한 일이 아니다.
 - **Visual Concept:** 기존 AI 생성 삽화의 bytes/crop을 유지한다. 같은 검사 코드가 새 GPU에서 실행된다는 한 가정과 기존 가정/측정 조건/동작 명세를 연결한다. 질문 본문을19.5pt로 확대하고 하단은 지침·검증 기준 질문으로 닫는다.
 - **Demo / Case Connection:** 같은 검사 코드가 새 GPU에서 실행된다는 가상 조건에서 기존 가정·측정 조건·동작 명세를 재검토한다. 실제 오류·원인·성능 결과는 만들지 않는다.
 - **Beginner Payoff:** 장치가 바뀌면 예전 검증 조건을 다시 확인하고, 반복해서 필요한 기준을 다음 작업에서도 찾을 수 있게 유지한다.
@@ -2286,19 +2296,19 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **ACT:** ACT 5
 - **Section:** 5A Full Story Recap
 - **Working Title:** 문제에 맞춰, 일하는 방식을 넓혔다
-- **Primary Role:** 각 대응이 필요했던 문제를 연결해 전체 여정을 회수한다. 개인 선택은 S91/S92에 남긴다.
+- **Primary Role:** 각 대응이 필요했던 문제를 연결해 전체 여정을 회수한다. 개인 선택은 S94/S95에 남긴다.
 - **Audience Question:** “어떤 문제 때문에 다음 대응이 필요했을까요?”
 - **Core Message:** 답을 구하던 출발점에서 요청의 모호함, 프로젝트 설명 반복, 수행 절차 반복, 조건 변화에 대응하며 Prompt·Context·Harness·Loop를 필요에 따라 더했다. 앞의 방식이 사라지는 필수 성숙도 순서가 아니다.
 - **Story Beat:** BEAT-060
 - **Curriculum Trace:** ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; 이 교육의 진화 모델이다. 각 단계는 앞 단계를 대체하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; 이 교육의 진화 모델이다. 각 단계는 앞 단계를 대체하지 않는다.
 - **Visual Concept:** 다섯 가로 열. 각 방식 위에 문제 단서, 아래에 대응을 둔다. Chatbot→Prompt→Context→Harness→Loop를 같은 용어로 회수한다. 강제 도입 순서가 아니다.
 - **Demo / Case Connection:** 전체 Demo 사례를 새로 시연하지 않고, 앞 단계에서 발생한 문제와 대응을 짧게 연결한다.
 - **Beginner Payoff:** 외워야 할 단계보다, 지금 겪는 문제가 어떤 대응을 필요하게 하는지 본다.
 - **Advanced Payoff:** 문제 범위에 맞춘 대응과 고정된 기능 성숙도 평가를 구분한다.
 - **C++ Vision Bridge:** 단계별 설명에 기존 Vision 사례를 선택적으로 회상한다. 새로운 기술 사례는 추가하지 않는다.
-- **Speaker Intent:** 각 대응이 필요했던 문제를 연결해 전체 여정을 회수한다. 개인 선택은 S91/S92에 남긴다. DEC-0082의 화면·발표 운영을 따른다.
+- **Speaker Intent:** 각 대응이 필요했던 문제를 연결해 전체 여정을 회수한다. 개인 선택은 S94/S95에 남긴다. DEC-0082의 화면·발표 운영을 따른다.
 - **Transition:** “전체 교육 모델 중, 제품 저장소에서 실제로 확인한 변화만 다시 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
@@ -2317,7 +2327,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-060
 - **Curriculum Trace:** ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; State 의미는 기록된 Demo evidence 범위에 한정한다. Benchmark 준비 commit은 보조 이력이지 별도 State가 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; State 의미는 기록된 Demo evidence 범위에 한정한다. Benchmark 준비 commit은 보조 이력이지 별도 State가 아니다.
 - **Visual Concept:** 상단에서 Product 이력만의 범위를 밝힌다. 세 행은 crop 오류→명세 수정, 지침 반복·증가→기본 안내/상세 문서, 절차 반복→Skill 재사용/제품 검증이다. 각 행 아래에 전체 일곱 실제 State ID를 순서대로 보존한다. 역방향 rail과 작은 발췌는 사용하지 않으며 원본 asset/provenance는 보존한다. 하단에서 Loop는 앞 ACT의 가상 사례·실제 제작 기록과 분리했음을 명시한다.
 - **Demo / Case Connection:** TRIAL-002/S18; TRIAL-003/004/005A/B 및 S43; TRIAL-008·STATE-04-PERF/S58. DEMO-12는 실제 일곱 State의 정적 요약2분이며 Product Loop를 추가하지 않는다.
 - **Beginner Payoff:** 내부 State 이름을 외우지 않고, 실제 문제가 생겨 무엇을 바꿨는지 세 묶음으로 본다.
@@ -2342,7 +2352,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-057, BEAT-060
 - **Curriculum Trace:** ACT 3 payoff; ACT 4 Minimum Effective Harness callback; ACT 5 synthesis.; ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; STATE-04-PERF의 bounded 성공과 이 교육의 프로젝트별 heuristic이다. 모든 Project에서 Subagent나 Memory가 불필요하다는 뜻은 아니다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; STATE-04-PERF의 bounded 성공과 이 교육의 프로젝트별 heuristic이다. 모든 Project에서 Subagent나 Memory가 불필요하다는 뜻은 아니다.
 - **Visual Concept:** 왼쪽 사용한 구성 네 항목, 오른쪽 Subagent·Memory와 실제 보류 이유 두 개. 도구 이름보다 판단 이유를 강조하고 비교 실험 없음·현재 작업 한계를 둔다.
 - **Demo / Case Connection:** STATE-04-PERF 성공을 근거로 필요한 요소와 보류한 요소를 회고한다.
 - **Beginner Payoff:** 도구 이름보다 지금 그 도구가 어떤 문제를 해결하는지 먼저 묻는다.
@@ -2367,7 +2377,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-061–062
 - **Curriculum Trace:** ACT 5 — beginning/ending comparison and AI-Native Development teaching model.; ACT 5 — Beginning/ending comparison and developer responsibility.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 이 교육에서 고정한 책임 원칙이다. Agent와 개발자 역할을 절대적인 분업 규칙으로 제시하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 이 교육에서 고정한 책임 원칙이다. Agent와 개발자 역할을 절대적인 분업 규칙으로 제시하지 않는다.
 - **Visual Concept:** 왼쪽 AI 작업 결과→오른쪽 사람의 수용 판단. 목표·판단·검증·책임을 두 행×두 열의 네 질문으로 보여준다. 실제 보고서·제품 UI가 아닌 교육용 관계도다.
 - **Demo / Case Connection:** 전체 Story의 역할 변화. 새 Product 기능 사례는 없다.
 - **Beginner Payoff:** 완료라는 말만 받지 말고, 원하는 변화와 확인 근거·남은 위험을 보고 수용한다.
@@ -2397,67 +2407,140 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Demo / Case Connection:** 전체 교육의 모델을 요약하며 새로운 기능은 추가하지 않는다.
 - **Beginner Payoff:** AI에게 무엇을 맡기고, 어떤 정보를 보게 하며, 무엇으로 확인할지 준비한다.
 - **Advanced Payoff:** Model capability와 작업 System 설계를 구분하고, 필요한 근거·피드백 경로를 설계한다.
-- **C++ Vision Bridge:** 다음 장에서 개인 Repository와 Vision 업무로 전이한다.
-- **Speaker Intent:** 사람의 판단을 지원할 작업 조건·확인 경로의 설계를 이 과정의 AI-Native 운영 모델로 회수한다. DEC-0082의 화면·발표 운영을 따른다.
-- **Transition:** “이 가운데 내 업무에서 반복해서 막히는 문제 하나는 무엇일까요?”
+- **C++ Vision Bridge:** 신규 재평가3장을 거쳐 S94에서 자신의 Repository와 Vision 업무로 전이한다.
+- **Speaker Intent:** 사람의 판단을 지원할 작업 조건·확인 경로의 설계를 이 과정의 AI-Native 운영 모델로 회수한다. 화면은 DEC-0082, 재평가 handoff는 DEC-0083의 운영을 따른다.
+- **Transition:** “설계는 추가에서 끝날까요? 모델·플랫폼이 바뀌면 이미 만든 구조도 다시 봐야 합니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-061, OQ-011, CLM-0023, CLM-0024
 
 
-#### S91 — 내 업무에서는 무엇이 반복해서 막힐까?
+#### S91 — 모델·플랫폼이 바뀌면 Harness도 다시 본다
 
 - **Slide ID:** S91
+- **ACT:** ACT 5
+- **Section:** 5A Harness Reassessment
+- **Working Title:** 모델·플랫폼이 바뀌면 Harness도 다시 본다
+- **Primary Role:** 이전에 필요했던 보조 구조도 모델·플랫폼·업무 조건 변화 뒤에는 다시 평가할 대상으로 전환한다.
+- **Audience Question:** “그때 필요했던 보조 장치가 지금도 필요한가요?”
+- **Core Message:** 모델이 맡을 수 있는 범위나 플랫폼 제공 기능이 달라졌다면, 기존 Router·Planner·담당 Subagent의 필요성을 재평가할 수 있다. 일부 기업 Agent의 통합 공개 사례는 재평가의 동기이며 보편적 우월성·현재 Codex 효과의 근거가 아니다.
+- **Story Beat:** BEAT-061, BEAT-069
+- **Curriculum Trace:** ACT 5 — AI-Native operating model and advanced reliability; reassess previously justified structure under changed conditions.
+- **Evidence Type:** RESEARCH / TEACHING_MODEL
+- **Claim Status:** FROZEN WITH SCOPE — CLM-0040의 공급사 공개 사례 요약; TEACHING MODEL — 비교 구조는 교육용 각색; 현재 Codex의 통합 효과는 미검증.
+- **Visual Concept:** 왼쪽은 요청을 조율하는 Agent와 Router/Planner/담당 Subagent, 오른쪽은 하나의 Agent Loop와 필요한 Skill·Tool을 둔 후보 도식이다. 공개 사례를 각색한 구조이며 실제 실행 Screenshot이나 우리 Demo 변경 전후가 아니다.
+- **Demo / Case Connection:** 새 Demo/Trial/State 없음. 공급사 공개 사례와 교육용 판단 모델이며 우리 제품의 통합·제거 성과가 아니다.
+- **Beginner Payoff:** 처음에는 필요했던 장치도 조건이 달라지면 다시 볼 수 있음을 이해한다.
+- **Advanced Payoff:** 더 강한 모델·플랫폼 기능의 도입을 기존 구조의 자동 유지나 무조건 제거와 분리하고, 현재의 역할·경계를 재평가한다.
+- **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
+- **Speaker Intent:** 이전에 필요했던 보조 구조도 모델·플랫폼·업무 조건 변화 뒤에는 다시 평가할 대상으로 전환한다. S88의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
+- **Transition:** “그렇다면 무엇을 보존하고, 어떤 부분을 합치거나 제거할 후보로 볼까요?”
+- **Estimated Time:** 2분
+- **Delivery Mode Allocation:** Lecture 2분 = 2분
+- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083
+
+#### S92 — 무엇을 남기고, 무엇을 덜어낼까?
+
+- **Slide ID:** S92
+- **ACT:** ACT 5
+- **Section:** 5A Harness Reassessment
+- **Working Title:** 무엇을 남기고, 무엇을 덜어낼까?
+- **Primary Role:** 기존 구성의 존재 이유에 따라 유지·통합·제거 후보를 구분한다.
+- **Audience Question:** “이 요소가 맡은 이유는 현재도 유효한가요?”
+- **Core Message:** 목표·명세·검증 요구는 보존하고, 겹치는 지침·역할은 통합하며, 효용이 사라진 우회 절차는 제거 후보로 검토한다. 독립 병렬 조사·권한 분리처럼 유효한 이유가 있으면 구성은 유지할 수 있다.
+- **Story Beat:** BEAT-057, BEAT-061, BEAT-069
+- **Curriculum Trace:** ACT 5 — AI-Native operating model and advanced reliability; reassess previously justified structure under changed conditions.
+- **Evidence Type:** TEACHING_MODEL
+- **Claim Status:** TEACHING MODEL — CLM-0022의 bounded heuristic을 기존 구성 재평가에 적용. 적을수록 좋다는 보편 법칙이나 성과가 아니다.
+- **Visual Concept:** 같은 높이의 유지/통합/제거 후보 세 열이다. 목표·명세·검증 기준, 겹치는 지침·역할, 효용이 사라진 우회 절차를 대비한다. 하단은 독립 조사·권한 분리가 필요할 때 Subagent를 유지할 수 있는 조건이다.
+- **Demo / Case Connection:** 새 Demo/Trial/State 없음. 공급사 공개 사례와 교육용 판단 모델이며 우리 제품의 통합·제거 성과가 아니다.
+- **Beginner Payoff:** 중요한 요구를 지우는 것과 중복된 구현·지침을 덜어내는 것을 구분한다.
+- **Advanced Payoff:** 원출처·책임·필요한 격리 경계를 보존하면서 불필요한 조율·우회 구조를 재검토한다.
+- **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
+- **Speaker Intent:** 기존 구성의 존재 이유에 따라 유지·통합·제거 후보를 구분한다. S88의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
+- **Transition:** “후보를 정했다면, 덜어낸 뒤에도 필요한 일을 하는지 무엇으로 확인할까요?”
+- **Estimated Time:** 2분
+- **Delivery Mode Allocation:** Lecture 2분 = 2분
+- **Evidence / Decision References:** CLM-0022, CLM-0030, SRC-0236, BEAT-057, BEAT-061, BEAT-069, DEC-0083
+
+#### S93 — 덜어낸 뒤에도 필요한 일을 하는가?
+
+- **Slide ID:** S93
+- **ACT:** ACT 5
+- **Section:** 5A Harness Reassessment
+- **Working Title:** 덜어낸 뒤에도 필요한 일을 하는가?
+- **Primary Role:** 통합·제거 후보의 채택을 대표 작업과 회귀·비용·위험 근거에 연결한다.
+- **Audience Question:** “같은 대표 작업에서 무엇을 대조해야 덜어낸 구성을 수용할 수 있나요?”
+- **Core Message:** 기존 구성과 통합·제거 후보를 같은 대표 작업·입력·기준으로 비교하도록 설계한다. 명세와 기존 동작·회귀를 먼저 보고 시간·비용·남은 위험을 함께 판단한다. 확인된 범위만 채택하고 나빠지면 되돌리고 이유를 기록한다.
+- **Story Beat:** BEAT-061, BEAT-069
+- **Curriculum Trace:** ACT 5 — AI-Native operating model and advanced reliability; reassess previously justified structure under changed conditions.
+- **Evidence Type:** TEACHING_MODEL / RESEARCH
+- **Claim Status:** TEACHING MODEL — 비교 평가 설계이며 실제 실행·PASS/FAIL·측정값 없음. FROZEN WITH SCOPE — SRC-0236의 대표 end-to-end 평가 권고와 통합 뒤 회귀 사례가 동기를 뒷받침한다.
+- **Visual Concept:** 같은 대표 작업·입력에서 기존 구성과 통합·제거 후보로 갈라졌다가 같은 결과·회귀/시간·비용/남은 위험 기준으로 모이는 도식이다. 하단은 조건부 채택과 되돌림이다. 실행 결과·점수·수치·PASS 배지를 표시하지 않는다.
+- **Demo / Case Connection:** 새 Demo/Trial/State 없음. 공급사 공개 사례와 교육용 판단 모델이며 우리 제품의 통합·제거 성과가 아니다.
+- **Beginner Payoff:** 간단해졌다는 인상 대신 원래 할 일을 계속 수행하는지 확인한다.
+- **Advanced Payoff:** 평가 범위·품질·회귀·시간/비용·남은 위험과 복구 조건을 분리해 수용 근거를 만든다. 모델/구성 외 조건의 차이도 기록한다.
+- **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
+- **Speaker Intent:** 통합·제거 후보의 채택을 대표 작업과 회귀·비용·위험 근거에 연결한다. S88의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
+- **Transition:** “부족한 것뿐 아니라 겹쳐 쌓인 것도 포함해, 내 업무의 문제 하나를 골라봅시다.”
+- **Estimated Time:** 2분
+- **Delivery Mode Allocation:** Lecture 2분 = 2분
+- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083
+
+
+#### S94 — 내 업무에서는 무엇이 반복해서 막힐까?
+
+- **Slide ID:** S94
 - **ACT:** ACT 5
 - **Section:** 5B C++ Vision / My Repository Transfer
 - **Working Title:** 내 업무에서는 무엇이 반복해서 막힐까?
 - **Primary Role:** C++ Vision 업무의 증상을 먼저 읽고 동등한 A–E 문제 가운데 가까운 하나를 고른다.
 - **Audience Question:** “내 업무에서는 어떤 문제가 반복해서 막히나요?”
-- **Core Message:** 성능 조사·빌드·측정 업무의 반복 마찰을 증상부터 읽고 Task/Context/Workflow/Verification/Feedback 중 가까운 문제 하나를 고른다. 원인 확인 없이 시스템 갱신을 처방하지 않는다.
+- **Core Message:** 성능 조사·빌드·측정 업무의 반복 마찰과 겹쳐 쌓인 지침·절차·역할을 증상부터 읽고 Task/Context/Workflow/Verification/Feedback 중 가까운 문제 하나를 고른다. 원인 확인 없이 추가·통합·제거를 처방하지 않는다.
 - **Story Beat:** BEAT-068–069
 - **Curriculum Trace:** ACT 5 — tailored audience next steps.; ACT 5 — advanced audience value and seven takeaways.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; 적용 후보를 고르는 교육용 질문이다. 특정 C++ Project의 규칙이나 도구를 보장하지 않는다.
-- **Visual Concept:** A–E를 같은 높이의 다섯 행으로 둔다. 가운데 반복 증상을 먼저, 오른쪽 요청/지식/수행 방법/검증/개선 분류를 보조로 읽는다. E는 기록·원인·기준 재검토이고 즉각 갱신을 뜻하지 않는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; 적용 후보를 고르는 교육용 질문이다. 특정 C++ Project의 규칙이나 도구를 보장하지 않는다.
+- **Visual Concept:** 같은 높이의 A–E 다섯 행. A 요청 범위, B 반복·중복되는 조건 설명과 지침, C 반복·겹치는 수행 절차·역할, D 검사 기준, E 원인·기준 재검토다. 가운데 증상을 먼저 읽고 오른쪽 분류를 보조로 읽는다.
 - **Demo / Case Connection:** C++ Vision 예시: 성능 병목 조사 Task, build mode·algorithm contract·hardware assumption Context, `profile → change → benchmark → regression` Workflow, test와 benchmark Verification, 반복 이슈의 System correction.
 - **Beginner Payoff:** 영어 Layer 이름보다 내가 겪는 증상을 먼저 읽고 가까운 것 하나를 찾는다.
-- **Advanced Payoff:** 반복 비용과 위험·확인 근거에 맞는 적용 지점을 고르고, 원인 확인과 시스템 변경을 분리한다.
+- **Advanced Payoff:** 현재 부족한 기준과 과하게 쌓인 구성을 함께 보고 유지·통합·제거 후보를 근거에 연결한다.
 - **C++ Vision Bridge:** Primary bridge. A 성능 병목 조사의 범위, B build mode/동작 명세/hardware assumption, C profile→change→benchmark→regression, D tests+benchmark의 기대 기준, E 반복 이슈의 원문·검증 기준 대조다. 실제 C++ 프로젝트 도구·절차·결과를 보장하지 않는다.
-- **Speaker Intent:** C++ Vision 업무의 증상을 먼저 읽고 동등한 A–E 문제 가운데 가까운 하나를 고른다. DEC-0082의 화면·발표 운영을 따른다.
+- **Speaker Intent:** C++ Vision 업무의 같은 A–E 후보 중 하나만 고른다. B/C에 중복 지침·절차·역할의 마찰을 포함하되 기존 빌드·명세·장치 조건과 profile→change→benchmark→regression 예시는 Notes에 보존한다. DEC-0083.
 - **Transition:** “방금 고른 문제의 같은 글자를 따라, 다음 작업의 작은 행동 하나를 생각해 봅시다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 1분 + Transition 4분 = 5분
 - **Evidence / Decision References:** BEAT-068, INV-AUDIENCE-001, INV-DIFFICULTY-001, INV-LOOP-001, INV-RESPONSIBILITY-001, BEAT-069
 
 
-#### S92 — 고른 문제에서, 다음 행동 하나로
+#### S95 — 고른 문제에서, 다음 행동 하나로
 
-- **Slide ID:** S92
+- **Slide ID:** S95
 - **ACT:** ACT 5
 - **Section:** 5B Final Reflection
 - **Working Title:** 고른 문제에서, 다음 행동 하나로
-- **Primary Role:** S91의 같은 A–E 문제를 다음 행동과 확인 근거로 빠짐없이 이어 받는 개인 성찰이다.
+- **Primary Role:** S94의 같은 A–E 문제를 다음 행동과 확인 근거로 빠짐없이 이어 받는 개인 성찰이다.
 - **Audience Question:** “고른 문제에서 무엇을 작게 바꾸고, 어떤 근거로 확인해 볼까요?”
-- **Core Message:** S91에서 고른 A–E의 문제를 같은 글자의 작은 다음 행동으로 이어 받고, 무엇이 달라졌는지 볼 확인 근거 하나를 개인적으로 생각한다. 다섯 행동을 모두 수행하거나 약속할 필요는 없다.
+- **Core Message:** S94에서 고른 A–E를 같은 글자의 작은 다음 행동으로 이어 받는다. B는 출처·검토자와 중복 지침 통합, C는 수행 절차·역할의 통합·제거 후보와 둘 위치·갱신 책임을 생각한다. 확인 근거 하나를 함께 고르되 다섯 행동을 모두 수행하거나 약속할 필요는 없다.
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 — seven takeaways and final reflection; `plan/CURRICULUM.md` (Core Takeaways).; ACT 5 — audience next steps, seven takeaways, and final reflection.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 개인 Reflection이며 응답·공유·실천 약속을 요구하지 않는다.
-- **Visual Concept:** 왼쪽 A–E는 S91과 같은 글자의 작은 행동 다섯 후보다. 오른쪽은 모든 선택에 공통인 확인 근거 질문이다. 문제를 다시 선택하지 않고 하나의 다음 행동만 마음속으로 생각한다.
-- **Demo / Case Connection:** 새 Demo 없음. S91의 A–E 문제→같은 글자의 작은 행동→확인 근거라는 개인 성찰이다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 개인 Reflection이며 응답·공유·실천 약속을 요구하지 않는다.
+- **Visual Concept:** 왼쪽 A–E는 S94와 같은 글자의 작은 행동 후보다. B/C에 중복 지침 통합과 절차·역할 통합·제거 후보를 포함하고 오른쪽에는 공통 확인 근거와 출처·검토·갱신 책임을 둔다.
+- **Demo / Case Connection:** 새 Demo 없음. S94의 A–E 문제→같은 글자의 작은 행동→확인 근거라는 개인 성찰이다.
 - **Beginner Payoff:** 고른 문제 하나에 대해 다음 작업에서 작게 달리할 행동과 확인할 자료 하나를 떠올린다.
-- **Advanced Payoff:** 개선 후보를 근거와 유지 위치·검토 책임에 연결하되 원인 미확인 상태의 시스템 변경을 강요하지 않는다.
+- **Advanced Payoff:** 추가·통합·제거 후보를 근거·유지 위치·검토 책임에 연결하고, 검증 결과에 따라 그대로 유지하거나 되돌리는 선택을 남긴다.
 - **C++ Vision Bridge:** 각자의 Vision 업무에 질문을 적용할 수 있다.
-- **Speaker Intent:** S91의 같은 A–E 문제를 다음 행동과 확인 근거로 빠짐없이 이어 받는 개인 성찰이다. DEC-0082의 화면·발표 운영을 따른다.
+- **Speaker Intent:** S94의 같은 글자 문제를 작은 행동과 확인 근거로 회수한다. 통합·제거도 선택 가능한 행동이며 실행·제출·실천 약속을 요구하지 않는다. DEC-0083.
 - **Transition:** “생각한 한 가지는 마음속에 두고, 이제 남은 질문을 받겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Reflection 2분 = 4분
 - **Evidence / Decision References:** BEAT-070, INV-LEARNING-003, INV-DIFFICULTY-001, INV-DELIVERY-001, INV-NARRATIVE-001, BEAT-071
 
 
-#### S93 — Q&A와 교육 마무리
+#### S96 — Q&A와 교육 마무리
 
-- **Slide ID:** S93
+- **Slide ID:** S96
 - **ACT:** ACT 5
 - **Section:** 5B Final Q&A / Closing
 - **Working Title:** Q&A와 교육 마무리
@@ -2467,7 +2550,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 — seven takeaways and final reflection; `plan/CURRICULUM.md` (Core Takeaways).; ACT 5 — audience next steps, seven takeaways, and final reflection.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 화면 문구는 후보이며 최종 copywriting 때 다듬는다.
+- **Claim Status:** FROZEN — 96장 구조·Story·시간·Demo 범위; TEACHING_MODEL; 화면 문구는 후보이며 최종 copywriting 때 다듬는다.
 - **Visual Concept:** Q&A의 남은 질문은 위쪽, 마지막 한 문장은 중앙, Chatbot→Prompt→Context→Harness→Loop는 하단. Q&A4분 후 Closing Transition2분에 초점을 옮긴다. Question/Task/System을 다른 마지막 단계로 도입하지 않는다.
 - **Demo / Case Connection:** 없음. 질문 시간.
 - **Beginner Payoff:** 문제에 맞는 작은 대응과 결과를 확인할 근거를 기억한다.
@@ -2482,7 +2565,7 @@ DEC-0060은 기존90장의 내용·시간을 보존하면서 ACT2에 연구 분�
 
 ## Historical post-integration validation (pre DEC-0060)
 
-The following prior results describe their original editions. Current totals and IDs are in the current Map above and SLIDE_ID_MIGRATION_93.md.
+The following prior results describe their original editions. Current totals and IDs are in the current Map above and SLIDE_ID_MIGRATION_96.md.
 
 ## Traceability Audit
 

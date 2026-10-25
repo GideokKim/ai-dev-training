@@ -1321,3 +1321,20 @@ Notes: CLM-0036, CLM-0038; instructional adaptation only, not observed success o
 | CLM-0037 | SRC-0232, SRC-0234, SRC-0231 | Reviewable task decomposition and reasoning boundary |
 | CLM-0038 | SRC-0232, SRC-0234, SRC-0235, SRC-0230 | Criteria-focused review and role as a perspective |
 | CLM-0039 | SRC-0234 | Concrete feedback and scoped follow-up refinement |
+
+
+### SRC-0236
+
+Title: Building agents: When to fold subagents into your main agent loop
+Organization / Authors: Anthropic / Diane Sarkis
+Source Type: VENDOR_ENGINEERING_CASE
+URL: https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop
+Published:2026-10-22
+Checked:2026-10-25
+Tier:1 — primary vendor case; not an independent controlled benchmark
+Topics: Harness reassessment, role consolidation, end-to-end evaluation
+Sections / Selectors: Introduction; migration and evaluation guidance
+Key Evidence: Describes some enterprise-agent consolidation cases and the need to evaluate representative end-to-end tasks; retains valid reasons for separate agents.
+Limitations: Bounded vendor account. No current Codex, course Demo, universal architecture advantage or unmeasured causal effect is established.
+Volatility:HIGH
+Notes: CLM-0040; S91 public-case adaptation, S92/S93 course interpretation; references/engineering/harness-reassessment.md.

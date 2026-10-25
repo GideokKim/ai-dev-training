@@ -9,7 +9,7 @@ S57의 Case5분은 밝기 통계 작업, 기존 임시 리스트 도식, 두 후
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0070 /93slides/379minutes. Finalized package, local PNG identity/dimensions and Notes parity checked. Static summaries are not raw captures; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0083 /96slides/385minutes. Final package, local static PNG identities/dimensions and Notes parity checked; existing Demo assignments/time/evidence remain. Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — Anchor candidate

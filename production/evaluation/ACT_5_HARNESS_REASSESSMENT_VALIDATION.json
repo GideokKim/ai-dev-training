@@ -1,0 +1,183 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "date": "2026-10-25",
+  "baseline": "6efd6102c14467be5539b75ed736045c02209a6d",
+  "decision": "DEC-0083",
+  "slideCount": 96,
+  "totalMinutes": 385,
+  "actMinutes": {
+    "ACT 0": 40,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 36
+  },
+  "modeMinutes": {
+    "Lecture": 149,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "act5SlideCount": 11,
+  "act5Minutes": 36,
+  "newSlideIDs": [
+    "S91",
+    "S92",
+    "S93"
+  ],
+  "renumberedSlides": {
+    "S91": "S94",
+    "S92": "S95",
+    "S93": "S96"
+  },
+  "visuallyRevisedExistingSlides": [
+    "S94",
+    "S95"
+  ],
+  "originalSlideTimesModesPreserved": 93,
+  "unchangedVisibleTextAndPNGs": 90,
+  "closingSlidePreservedExceptID": "S93→S96",
+  "changedOrRenumberedNotes": [
+    {
+      "previous": "S86",
+      "current": "S86"
+    },
+    {
+      "previous": "S90",
+      "current": "S90"
+    },
+    {
+      "previous": "S91",
+      "current": "S94"
+    },
+    {
+      "previous": "S92",
+      "current": "S95"
+    },
+    {
+      "previous": "S93",
+      "current": "S96"
+    }
+  ],
+  "unchangedACT0To4NotesRecords": 85,
+  "notesRecords": 96,
+  "fieldsPerNotes": 19,
+  "renderedPNGs": 107,
+  "fullACTPNGParity": 11,
+  "reviewedDraftFinalPNGParity": 7,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "preexistingLayoutWarningsUnchanged": [
+    {
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 47,
+      "table_id": "8"
+    }
+  ],
+  "nativeTablesUnchanged": [
+    "S47",
+    "S55",
+    "S77"
+  ],
+  "nativeChartDataUnchanged": "S58",
+  "allExistingImageBytesCropsPositionsPreserved": true,
+  "pictureInstancesChecked": 18,
+  "existingTemplateAssignmentsPreserved": 93,
+  "newTemplates": [
+    "T04-A",
+    "T10-A",
+    "T03-C"
+  ],
+  "templateVariantInventory": "11templates/27variants unchanged",
+  "stableBeatSectionDemoTrialStateIDs": true,
+  "newTrial": false,
+  "newProductExecution": false,
+  "newMeasuredEffect": false,
+  "demoRepositoryUnchanged": true,
+  "sourceAssetsPrototypesBundlesUnchanged": true,
+  "otherACTPackagesUnchanged": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "presenterBundleRegenerated": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 96,
+      "sha256": "ce1224e85fc772c10361eec6b4c486276bcef8e7fa1817139b89c088ac92dfdb"
+    },
+    {
+      "path": "production/ACT_5.pptx",
+      "slideCount": 11,
+      "sha256": "fcff1ef0c368a4e7adcfcebf19c85cd9cec63353ae8cd1868615971eea0306e0"
+    }
+  ],
+  "fullNotesSha256": "64e8c794ab45005b2ef60302eab05fa011bde8370c9677bceead76308cb5fc9b",
+  "fullMontageSha256": "2ce2545d8330d1bf611020432ec7043074adb9fe846aa4f5caecd32ca9d91c54",
+  "windowsPowerPoint": "UNVERIFIED",
+  "roomProductAccountRehearsal": "UNVERIFIED",
+  "fallbackInventory": {
+    "count": 32,
+    "changedPNGCount": 0,
+    "status": "READY — local static files only"
+  },
+  "officeSchemaValidation": {
+    "status": "UNAVAILABLE",
+    "reason": "Current bundled/default Python lacks defusedxml; no dependency installation or auto-repair.",
+    "firstPartyPackageGeometryReimport": "PASS"
+  },
+  "visualReview": {
+    "allFinalSlidesRendered": 96,
+    "fullDeckACTOverviewsReviewed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "individualNewRevisedSlidesReviewed": [
+      "S91",
+      "S92",
+      "S93",
+      "S94",
+      "S95"
+    ],
+    "closingAndLeadInReviewed": [
+      "S90",
+      "S96"
+    ],
+    "newClippingOverlapGlyphIssuesFound": 0,
+    "newSlidesEvidenceGrammar": "PUBLIC_CASE_ADAPTATION / TEACHING_MODEL; no fabricated result",
+    "actualTimedRehearsal": "UNVERIFIED"
+  },
+  "finalAudit": {
+    "changedFiles": 73,
+    "addedLocalMarkdownLinksChecked": 134,
+    "historicalMasterCurriculumStoryAndHandoffBodyPreserved": true,
+    "decisionLogAppendOnly": true,
+    "moduleMapRowsMatchCanonicalData": 96,
+    "newModuleScopes": "new_extension",
+    "fallbackInventoryUnchanged": 32,
+    "codeSyntax": "PASS",
+    "gitDiffCheck": "PASS",
+    "sensitiveAndTemporaryFiles": "NONE_FOUND",
+    "demoHead": "afef3e0c66d3f7a29790c37034d5aad274ac5ce8",
+    "demoTagCount": 7
+  }
+}

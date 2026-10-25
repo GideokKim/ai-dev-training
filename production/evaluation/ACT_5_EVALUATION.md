@@ -1,6 +1,8 @@
 # ACT 5 Production Evaluation
 
-> Current review: DEC-0082 /93slides/379minutes, ACT5 S86–S93 8/30. See
+> Current: DEC-0083 /96slides/385minutes; ACT5 S86–S96 11/36. [Harness reassessment result](ACT_5_HARNESS_REASSESSMENT.md) and [93→96 migration](../../plan/SLIDE_ID_MIGRATION_96.md) supersede current numbering. Earlier results below retain their historical scope. Windows/room/product/account/rehearsal UNVERIFIED.
+
+> Historical review: DEC-0082 /93slides/379minutes, ACT5 S86–S93 8/30. See
 > [ACT5 flow revision](ACT_5_FLOW_REVISION.md). The original evaluation below
 > describes its historical version; past PASS does not validate current
 > Windows/room/product/account/rehearsal.

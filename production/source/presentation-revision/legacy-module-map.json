@@ -868,7 +868,7 @@
         "M2"
       ],
       "scope": "principle",
-      "rationale": "각 대응이 필요했던 문제를 연결해 전체 여정을 회수한다. 개인 선택은 S91/S92에 남긴다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다.",
+      "rationale": "각 대응이 필요했던 문제를 연결해 전체 여정을 회수한다. 개인 선택은 S94/S95에 남긴다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M1 · M2"
     },
@@ -919,28 +919,52 @@
     },
     {
       "slideId": "S91",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 신규 확장"
+    },
+    {
+      "slideId": "S92",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 신규 확장"
+    },
+    {
+      "slideId": "S93",
+      "modules": [],
+      "scope": "new_extension",
+      "rationale": "DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result.",
+      "notesOnly": [],
+      "footerLabel": "M 연계 · 신규 확장"
+    },
+    {
+      "slideId": "S94",
       "modules": [
         "M2",
         "M8"
       ],
       "scope": "principle",
-      "rationale": "C++ Vision 업무의 증상을 먼저 읽고 동등한 A–E 문제 가운데 가까운 하나를 고른다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다.",
+      "rationale": "C++ Vision 업무의 증상을 먼저 읽고 동등한 A–E 문제 가운데 가까운 하나를 고른다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. 통합·제거 후보는 기존 원칙의 확장이며 새 성과나 원모듈 전체 충족을 주장하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M2 · M8"
     },
     {
-      "slideId": "S92",
+      "slideId": "S95",
       "modules": [
         "M1",
         "M8"
       ],
       "scope": "principle",
-      "rationale": "S91의 같은 A–E 문제를 다음 행동과 확인 근거로 빠짐없이 이어 받는 개인 성찰이다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다.",
+      "rationale": "S94의 같은 A–E 문제를 다음 행동과 확인 근거로 빠짐없이 이어 받는 개인 성찰이다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. 통합·제거 후보는 기존 원칙의 확장이며 새 성과나 원모듈 전체 충족을 주장하지 않는다.",
       "notesOnly": [],
       "footerLabel": "M 연계 · M1 · M8"
     },
     {
-      "slideId": "S93",
+      "slideId": "S96",
       "modules": [
         "M1"
       ],

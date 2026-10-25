@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일:2026-10-24 (Asia/Seoul). 현재93장·379분/DEC-0060, 최신 내용 수정 DEC-0082. 최종 패키지·렌더·93개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
+갱신 기준일:2026-10-25 (Asia/Seoul). 현재96장·385분/DEC-0083. 최종 패키지·렌더·96개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,17 +9,17 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `79e45b8befb25d64b8b92c3f0962115fe64cdc5dcd468079bd70a1a0e600a58b`
+- PPTX SHA-256: `ce1224e85fc772c10361eec6b4c486276bcef8e7fa1817139b89c088ac92dfdb`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `49e476575460157c3d357ca42e93edb61477bcd64d60bdda9e85831923f5865d`
-- 전체 정적 렌더: `production/preview/full/S01.png`–`S93.png`, [montage](../preview/full/montage.png)
+- Notes SHA-256: `64e8c794ab45005b2ef60302eab05fa011bde8370c9677bceead76308cb5fc9b`
+- 전체 정적 렌더: `production/preview/full/S01.png`–`S96.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-위 PPTX·Notes hash는 DEC-0082의 현재93장 파일 식별자다. [ACT5 실제 이력·다음 행동·마무리](ACT_5_FLOW_REVISION.md), [이전 ACT4 흐름·실제 기록·ACT5 연결](ACT_4_FLOW_REVISION.md), [이전 ACT3→ACT4 유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md), [이전 S67 성찰](S67_REFLECTION_OWNERSHIP_REVISION.md), [이전 S66 C++ 적용](S66_CPP_TRANSFER_REVISION.md), [이전 S65 외부 조건](S65_EXTERNAL_CONDITIONS_REVISION.md), [이전 S64 Harness 구조](S64_HARNESS_STRUCTURE_REVISION.md), [이전 S63 실제 구성 역할](S63_TASK_ROLES_REVISION.md), [이전 S62 지식 출처](S62_KNOWLEDGE_SOURCES_REVISION.md), [이전 S61 Context와 보존](S61_CONTEXT_RETENTION_REVISION.md), [이전 S60 작업 판단](S60_TASK_DEPENDENCY_REVISION.md), [이전 S59 역할 분리](S59_ROLE_SPLIT_REVISION.md), [이전 S57–S58 작업·검증](S57_S58_TASK_RESULT_REVISION.md), [이전 S57 후보 선택](S57_CANDIDATE_SELECTION_REVISION.md), [이전 S56 방법과 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S55 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S53/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S53 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S52 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S51 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [번호 대조](../../plan/SLIDE_ID_MIGRATION_93.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
+위 PPTX·Notes hash는 DEC-0083의 현재96장 파일 식별자다. [ACT5 기존 Harness 재평가3장](ACT_5_HARNESS_REASSESSMENT.md), [이전 ACT5 흐름](ACT_5_FLOW_REVISION.md), [이전 ACT4 흐름·실제 기록·ACT5 연결](ACT_4_FLOW_REVISION.md), [이전 ACT3→ACT4 유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md), [이전 S67 성찰](S67_REFLECTION_OWNERSHIP_REVISION.md), [이전 S66 C++ 적용](S66_CPP_TRANSFER_REVISION.md), [이전 S65 외부 조건](S65_EXTERNAL_CONDITIONS_REVISION.md), [이전 S64 Harness 구조](S64_HARNESS_STRUCTURE_REVISION.md), [이전 S63 실제 구성 역할](S63_TASK_ROLES_REVISION.md), [이전 S62 지식 출처](S62_KNOWLEDGE_SOURCES_REVISION.md), [이전 S61 Context와 보존](S61_CONTEXT_RETENTION_REVISION.md), [이전 S60 작업 판단](S60_TASK_DEPENDENCY_REVISION.md), [이전 S59 역할 분리](S59_ROLE_SPLIT_REVISION.md), [이전 S57–S58 작업·검증](S57_S58_TASK_RESULT_REVISION.md), [이전 S57 후보 선택](S57_CANDIDATE_SELECTION_REVISION.md), [이전 S56 방법과 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S55 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S53/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S53 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S52 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S51 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [93→96 번호 대조](../../plan/SLIDE_ID_MIGRATION_96.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
 
 이전 DEC-0033–0035의 80장 렌더·구조·Notes 검토는 해당 평가 문서와 Git history의 역사적 근거다. 이전 ZIP은 payload 362개·entry 363개였으며 당시 CRC·hash·내부 링크·Notes 정합성을 확인했다. 이번에는 묶음을 갱신하지 않는다. M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아니다. 2순위 보강은 보류한다.
 
-현재 기준은 93장 / 379분이며 ACT 장수 10/21/18/18/18/8, ACT 시간 40/63/81/85/80/30분이다. Mode는 Lecture 143 / Demo 73 / Case 88 / Reflection 21 / Transition 22 / Q&A 32분이다. 지정 서체는 Malgun Gothic / Consolas이며 로컬 렌더 결과로 실제 발표 PC의 글꼴·줄바꿈을 검증하지 않는다.
+현재 기준은96장 /385분이며 ACT 장수10/21/18/18/18/11, ACT 시간40/63/81/85/80/36분이다. Mode는 Lecture149 / Demo 73 / Case 88 / Reflection 21 / Transition 22 / Q&A 32분이다. 지정 서체는 Malgun Gothic / Consolas이며 로컬 렌더 결과로 실제 발표 PC의 글꼴·줄바꿈을 검증하지 않는다.
 
 검증자 / 확인 날짜·시간·시간대: ____________________
 발표 PC 제조사·모델 / OS·빌드: ____________________
@@ -56,23 +56,23 @@ Demo State를 바꾸지 않는 국소 수정안을 작성한다. 기준 문서�
 ## 1. Windows PowerPoint와 발표 PC — UNVERIFIED
 
 - [ ] 대상 해시의 통합 PPTX가 실제 발표 PC에서 복구 경고 없이 열린다.
-- [ ] 임시 사본에 저장한 뒤 닫고 다시 열어도 93장이 유지된다.
-- [ ] Slide ID와 순서가 S01–S93으로 유지된다.
+- [ ] 임시 사본에 저장한 뒤 닫고 다시 열어도 96장이 유지된다.
+- [ ] Slide ID와 순서가 S01–S96으로 유지된다.
 - [ ] Slide Show 모드에서 화면 비율·전환·정적 도형·S58 native chart가 정상이다.
-- [ ] Speaker Notes93개가 예상 Slide에 연결되고 발표자 보기에서 읽힌다.
+- [ ] Speaker Notes96개가 예상 Slide에 연결되고 발표자 보기에서 읽힌다.
 - [ ] 사용 글꼴과 실제 대체 글꼴을 기록했다.
 - [ ] 한글 줄바꿈, 영문/한글 혼합, 코드, Citation, Evidence label을 확인했다.
 - [ ] S85 왼쪽 장면→오른쪽 세 질문→하단 성찰 질문 순서가 읽히며 겹침·잘림이 없다.
 - [ ] S87 번호·화살표가 상단 왼쪽→오른쪽, 하단 오른쪽→왼쪽으로 이어지고 아래 회상 발췌와 구분된다.
 - [ ] S07/S16/S20/S21 보강과 S11–16, S31/S34, S41, S51의 장별 역할 및 S80–84, S86–92의 흐름이 최신 Notes와 맞는다.
-- [ ] 93장 하단 M 연계 표시가 Evidence/Boundary와 겹치지 않으며 모듈 전체 충족으로 읽히지 않는다.
+- [ ] 96장 하단 M 연계 표시가 Evidence/Boundary와 겹치지 않으며 모듈 전체 충족으로 읽히지 않는다.
 - [ ] S33/S56 한국어 의미·원문, S50 절차, S61 결론, S66 연결, S77 근거 상태, S83 진단 설명이 읽힌다.
 - [ ] 확인 증거(화면 캡처 또는 점검 기록) 경로: ____________________
 
-전체93장을 확인하되 S05, S10–16, S18, S33, S39, S47, S50, S56,
-S58, S61, S66–69, S77, S79–93을 집중 확인한다. 전환은 S10→S11,
+전체96장을 확인하되 S05, S10–16, S18, S33, S39, S47, S50, S56,
+S58, S61, S66–69, S77, S79–96을 집중 확인한다. 전환은 S10→S11,
 S21→S22, S29→S30, S31→S32, S49→S50, S67→S68, S68→S69,
-S79→S80, S85→S86, S92→S93을 점검한다.
+S79→S80, S85→S86, S95→S96을 점검한다.
 
 결과 / 문제 Slide / 증거:
 
@@ -171,8 +171,8 @@ ____________________________________________________________________
 각 구간의 실측 시간을 기록한다. 청중은 노트북·실습·필수 응답·공유를 요구받지 않는다.
 
 - [ ] 전체 368분을 리허설했다. 휴식 및 setup 시간을 교육 시간에 섞지 않았다.
-- [ ] ACT 시간: ACT 0 40분 / ACT 1 63분 / ACT 2 70분 / ACT 3 85분 / ACT 4 80분 / ACT 5 30분.
-- [ ] Mode 합계: Lecture 143 / Demo 73 / Case 88 / Reflection 21 / Transition 22 / Q&A 32분.
+- [ ] ACT 시간: ACT 0 40분 / ACT 1 63분 / ACT 2 81분 / ACT 3 85분 / ACT 4 80분 / ACT 5 36분.
+- [ ] Mode 합계: Lecture149 / Demo 73 / Case 88 / Reflection 21 / Transition 22 / Q&A 32분.
 - [ ] S07 Lecture 2분의 접근 경계 45초와 신규 S08 Lecture 1분을 지켜 ACT 0 40분을 유지했다.
 - [ ] S07의 접근 경계 45초, S16 Case의 완료 조건 90초, S20 결과 인계 90초, S21 Lecture의 검사 비교 90초가 기존 장별 시간 안에 들어가며 S21 Reflection 1분을 지켰다.
 - [ ] S67 순서: Reflection 3 → Q&A 5 → Transition 2분. 3분에 질문을 열고 8분에 마감하여 10분에 전환했다.
@@ -180,7 +180,7 @@ ____________________________________________________________________
 - [ ] S85 순서: Case 7 → Reflection 2 → Q&A 7 → Transition 4분. 정적 화면으로 전체 20분을 실제 운영했다.
 - [ ] S85 왼쪽 조건 변화→오른쪽 01 기존 가정·02 측정 조건·03 기능 계약→하단 성찰 질문의 지목 Cue를 사용했다.
 - [ ] S85 무질문 상황에서 아래 준비 질문을 강사가 짧게 해설하고, 응답을 요구하지 않고 16분에 질문을 마감했다.
-- [ ] S10/S31 및 마지막 S93도 질문이 없는 상황의 Notes fallback으로 진행했다.
+- [ ] S10/S31 및 마지막 S96도 질문이 없는 상황의 Notes fallback으로 진행했다.
 - [ ] Live/Hybrid를 선택한 경우 중단·정적 fallback 복귀·다음 Slide 전환의 시간을 기록했다.
 - [ ] 초과·축소 구간과 적용한 Cutoff를 기록했다.
 
@@ -352,3 +352,10 @@ ____________________________________________________________________
 - [ ] Windows 발표자 보기·글꼴·Notes·프로젝터 재생을 실제 확인했다.
 
 위 항목은 실환경·리허설 후속 확인이며 로컬 렌더 검사로 완료하지 않는다.
+
+
+## DEC-0083 추가 확인
+
+- [ ] S90→S91→S92→S93→S94→S95→S96 연결과 ACT5 36분 운영을 실제 환경에서 확인했다.
+- [ ] 공개 사례 각색/교육용 평가 설계를 실제 Codex 실행·통합 효과 측정으로 읽히게 설명하지 않았다.
+- [ ] 통합·제거 후보도 목표·명세·검증/권한 요구와 유지 책임을 보존해 설명했다.

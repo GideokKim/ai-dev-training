@@ -9122,3 +9122,98 @@ S85→S86 handoff, private reflection and closing order. Validate93x19Notes,
 fixed budgets/Modes, templates, unchanged85screens/Notes, native evidence,
 retained assets and current fallback identities. Keep Windows/room/product/
 account/timed rehearsal UNVERIFIED. Commit/push normally to origin/main.
+
+
+# DEC-0083 — Reassess and simplify previously justified Harness structures
+
+## Status
+
+ACCEPTED — explicit user approval to add the proposed three slides after S90,
+include integration/removal in next actions, align numbering/Notes/plans,
+render the entire deck and commit/push.
+
+## Date
+
+2026-10-25
+
+## Context
+
+ACT0–4 develops responses to problems. The user asks ACT5 to also explain
+why previously useful scaffolding deserves reassessment as model/platform
+capabilities and the working context change. S88 already covers initial
+non-adoption; that is distinct from later consolidation or retirement.
+
+## Problem
+
+Ending only with additions can imply that maturity means accumulating
+controls and roles forever. Changes must preserve the approved narrative,
+evidence boundaries, original slides and per-slide budgets.
+
+## Decision
+
+Add S91/S92/S93 after S90: changed conditions and reassessment; retain,
+integrate or consider removal; verify representative work and regressions.
+Allocate Lecture2minutes each. Keep every prior allocation, yielding
+96slides/385minutes; ACT5 11slides/36minutes; Lecture149/Demo73/Case88/
+Reflection21/Transition22/Q&A32. Other ACTs remain40/63/81/85/80minutes.
+Renumber prior S91/S92/S93 to S94/S95/S96. Include overlapping guidance and
+procedures/roles in the same A–E problem/action correspondence, retain
+source/reviewer/updater ownership and private reflection, and preserve
+the original closing wording/order. Keep all Beat/Section/Demo/Trial/State
+IDs and11Template/27Variant inventory.
+
+Use SRC-0236/CLM-0040 only as a scoped vendor-published case. New diagrams
+and evaluation criteria are teaching adaptations, not new measured results.
+Preserve requirements, specifications, permission boundaries and verification.
+Evaluate actual need; integrate/remove only a justified candidate, retaining
+or restoring the original when evidence does not support the change.
+
+## Rationale
+
+Separate slides keep first-time viewers focused on why, what and how to
+check. This extends the existing feedback/maintenance model without adding
+a new maturity stage or claiming that fewer components always work better.
+
+## Alternatives
+
+Reuse only S88; this confuses initial non-adoption with later reassessment.
+Compress all three questions into S90; that overloads the existing design
+summary. Remove existing slides or redistribute time; user preference is
+to retain them and allow additional duration. Invent local comparison data;
+no such experiment is authorized or needed.
+
+## Trade-offs
+
+Add6Lecture minutes and update3downstream IDs. Use a bounded primary vendor
+case and course judgment rather than an independent comparative benchmark.
+Local artifact QA cannot validate classroom readability or delivery pace.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-RESPONSIBILITY-001, INV-DELIVERY-001, INV-LEARNING-003.
+
+## Affected Artifacts
+
+Full/ACT5 PPTX, ACT5/Full Notes, current maps/migration/schedule/claim and
+visual/notes production routers, references, previews and current delivery
+metadata. Other ACT packages, Demo repository, Trials/tags, source assets,
+Prototypes and presenter bundles remain unchanged.
+
+## Evidence
+
+Latest explicit user approval; current6efd610 artifacts; earlier duration
+authorization under DEC-0060; SRC-0236 checked2026-10-25; existing
+BEAT-057/061/069 and CLM-0022/0030. No new product run or measured effect.
+
+## Training Relevance
+
+Engineering includes maintaining and retiring structures as well as adding
+them. Keep requirements and evaluate the current contribution of each role.
+
+## Follow-up
+
+Finalize/reimport/render Full96and ACT5 11. Check96x19Notes, ID migration,
+original allocations, native evidence, image/crop preservation and unchanged
+fallback files. Keep Windows/room/product/account/timed rehearsal UNVERIFIED.
+Do not regenerate a presenter bundle. Commit/push normally to origin/main.
