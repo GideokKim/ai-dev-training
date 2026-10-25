@@ -2,12 +2,12 @@
 
 ## Current ACT3 operation — DEC-0072
 
-S64→S65→S66: S64의 실제 제품 결과 뒤, S65는 C++ 독립 조사 가정으로 전환한다. 같은 세 조사를 한 Agent가 맡는 경우와 역할별로 나누는 경우를 비교하고 주 Agent의 분담·근거 확인·통합을 짚는다. S66은 같은 밝기 통계 함수·출력 명세를 공유한 실제 작업으로 돌아온다. 조사 결과를 코드 변경으로, 바뀐 코드를 출력·테스트·시간·할당량 확인으로 연결하고 기존 한 Agent 유지 판단과 전달·통합 비용을 회수한다. 실제 Subagent 실행이 아니다. Demo3+2분, Q&A1+1분과 Lecture1분은 원래 배분대로 구분한다.
+S61→S62→S63: S61의 실제 제품 결과 뒤, S62는 C++ 독립 조사 가정으로 전환한다. 같은 세 조사를 한 Agent가 맡는 경우와 역할별로 나누는 경우를 비교하고 주 Agent의 분담·근거 확인·통합을 짚는다. S63은 같은 밝기 통계 함수·출력 명세를 공유한 실제 작업으로 돌아온다. 조사 결과를 코드 변경으로, 바뀐 코드를 출력·테스트·시간·할당량 확인으로 연결하고 기존 한 Agent 유지 판단과 전달·통합 비용을 회수한다. 실제 Subagent 실행이 아니다. Demo3+2분, Q&A1+1분과 Lecture1분은 원래 배분대로 구분한다.
 실제 근거·ID·시간·기존 선택은 보존한다. 최종 로컬 정적 파일 식별자는
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0087 /105slides/393minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_105.md. Tip badges/reference indexes add no Demo time or Trial result. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0088 /102slides/390minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_102.md. The only tip index block is S99–S101 before final Q&A; no Demo time or Trial result changes. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: DEFERRED — not justified at STATE-04
@@ -76,9 +76,9 @@ Evidence limit: No current interface support, speed/quality gain, parallelism be
 
 ## Estimated Time
 
-5m: S65 Demo 3m + S66 Demo 2m; Q&A minute portions are separate.
+5m: S62 Demo 3m + S63 Demo 2m; Q&A minute portions are separate.
 
-Phase plan: S65 3m (hypothesis0.5 / single Agent0.75 / role assignment1 / integration and cost0.75) → S66 2m (investigation-to-change0.67 / changed-code checks0.67 / retained choice0.66). Keep S66 Lecture1m before its visual and Q&A1m after it. S65 Q&A1m also remains separate from Demo time.
+Phase plan: S62 3m (hypothesis0.5 / single Agent0.75 / role assignment1 / integration and cost0.75) → S63 2m (investigation-to-change0.67 / changed-code checks0.67 / retained choice0.66). Keep S63 Lecture1m before its visual and Q&A1m after it. S62 Q&A1m also remains separate from Demo time.
 
 Time Risk: LOW
 
@@ -100,13 +100,13 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S65.png`, `production/preview/full/S66.png`
+Default is the offline static presentation. Open: `production/preview/full/S62.png`, `production/preview/full/S63.png`
 
-S65–S66 PNG; do not open a product Subagent pane.
+S62–S63 PNG; do not open a product Subagent pane.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/S60_TASK_DEPENDENCY_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
-Captured Alternative provenance: DEC-0072 current final-package slide renders; S66 is revised and S65 remains byte-identical to the prior checkpoint. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
+Captured Alternative provenance: DEC-0072 current final-package slide renders; S63 is revised and S62 remains byte-identical to the prior checkpoint. Past Trial evidence stays unchanged. These are labeled reconstructions or existing teaching visuals, not new execution captures. Target-PC/offline presentation operation remains UNVERIFIED.
 
 Fallback Threshold: Static fallback is the default and starts immediately. Live/Hybrid is disabled. A Live cutoff remains TBD until a timed rehearsal establishes it.
 
@@ -116,11 +116,11 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S66 → S67: move from role choice to durable knowledge.
+S63 → S64: move from role choice to durable knowledge.
 
 ## Evidence
 
-DEC-0018/0019; Slide Map S65–60.
+DEC-0018/0019; Slide Map S62–60.
 
 ## Do Not Claim
 

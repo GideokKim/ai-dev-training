@@ -1,6 +1,6 @@
 # DEMO-02 — Reusable Project Context
 
-> Current references: DEC-0087 /105slides/393minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_105.md. Tip badges/reference indexes add no Demo time or Trial result. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0088 /102slides/390minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_102.md. The only tip index block is S99–S101 before final Q&A; no Demo time or Trial result changes. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — Anchor candidate
@@ -69,9 +69,9 @@ Evidence limit: Does not prove AGENTS.md alone caused the result or current Desk
 
 ## Estimated Time
 
-8m: S38 4m + S39 4m; S37 is setup outside this slot.
+8m: S36 4m + S37 4m; S35 is setup outside this slot.
 
-Phase plan: S38 4m → S39 4m.
+Phase plan: S36 4m → S37 4m.
 
 Time Risk: MEDIUM
 
@@ -93,9 +93,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S37.png`, `production/preview/full/S38.png`, `production/preview/full/S39.png`
+Default is the offline static presentation. Open: `production/preview/full/S35.png`, `production/preview/full/S36.png`, `production/preview/full/S37.png`
 
-Show static S37–S39; explicitly retain the global-Skills attribution boundary.
+Show static S35–S37; explicitly retain the global-Skills attribution boundary.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -109,7 +109,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S39 → S40: separate task request from Project context.
+S37 → S38: separate task request from Project context.
 
 ## Evidence
 

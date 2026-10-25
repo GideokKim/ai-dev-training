@@ -1,8 +1,8 @@
 {
-  "decision": "DEC-0087",
+  "decision": "DEC-0088",
   "sourceEdition": "DEC-0086 /99slides/387minutes",
-  "currentSlideCount": 105,
-  "totalMinutes": 393,
+  "currentSlideCount": 102,
+  "totalMinutes": 390,
   "badgeLabel": "실무 적용 팁",
   "badgePosition": {
     "left": 780,
@@ -11,11 +11,8 @@
     "height": 34
   },
   "insertBeforeSourceNumbers": [
-    13,
-    33,
-    52,
-    70,
-    88,
+    99,
+    99,
     99
   ],
   "tips": [
@@ -29,7 +26,7 @@
     },
     {
       "sourceSlideId": "S25",
-      "slideId": "S26",
+      "slideId": "S25",
       "act": 1,
       "category": "요청 작성",
       "title": "지시와 참고 자료의 구분",
@@ -37,7 +34,7 @@
     },
     {
       "sourceSlideId": "S26",
-      "slideId": "S27",
+      "slideId": "S26",
       "act": 1,
       "category": "요청 작성",
       "title": "입력과 기대 결과의 작은 예시",
@@ -45,7 +42,7 @@
     },
     {
       "sourceSlideId": "S27",
-      "slideId": "S28",
+      "slideId": "S27",
       "act": 1,
       "category": "요청 작성",
       "title": "바로 검토할 수 있는 결과 형식",
@@ -53,7 +50,7 @@
     },
     {
       "sourceSlideId": "S28",
-      "slideId": "S29",
+      "slideId": "S28",
       "act": 1,
       "category": "요청 작성",
       "title": "근거가 있는 설명과 미확인의 구분",
@@ -61,7 +58,7 @@
     },
     {
       "sourceSlideId": "S29",
-      "slideId": "S30",
+      "slideId": "S29",
       "act": 1,
       "category": "요청 작성",
       "title": "결과를 바꾸는 결정에서 확인 질문",
@@ -69,7 +66,7 @@
     },
     {
       "sourceSlideId": "S30",
-      "slideId": "S31",
+      "slideId": "S30",
       "act": 1,
       "category": "요청 작성",
       "title": "큰 작업을 검토할 결과물로 나누기",
@@ -77,7 +74,7 @@
     },
     {
       "sourceSlideId": "S31",
-      "slideId": "S32",
+      "slideId": "S31",
       "act": 1,
       "category": "요청 작성",
       "title": "기준을 지정한 코드 리뷰 요청",
@@ -85,7 +82,7 @@
     },
     {
       "sourceSlideId": "S32",
-      "slideId": "S33",
+      "slideId": "S32",
       "act": 1,
       "category": "요청 작성",
       "title": "구체적인 근거로 수정 방향 피드백",
@@ -93,7 +90,7 @@
     },
     {
       "sourceSlideId": "S45",
-      "slideId": "S47",
+      "slideId": "S45",
       "act": 2,
       "category": "Context 관리",
       "title": "AGENTS.md에는 무엇을 남길까?",
@@ -101,7 +98,7 @@
     },
     {
       "sourceSlideId": "S54",
-      "slideId": "S57",
+      "slideId": "S54",
       "act": 3,
       "category": "수행 방법",
       "title": "테스트 명령을 언제 쓰고 무엇을 판단할까?",
@@ -109,7 +106,7 @@
     },
     {
       "sourceSlideId": "S64",
-      "slideId": "S67",
+      "slideId": "S64",
       "act": 3,
       "category": "Context 관리",
       "title": "이번 Context와 다시 쓸 지식",
@@ -117,7 +114,7 @@
     },
     {
       "sourceSlideId": "S69",
-      "slideId": "S72",
+      "slideId": "S69",
       "act": 3,
       "category": "업무 적용",
       "title": "밝기 통계의 판단을 C++ 검사에 적용하기",
@@ -125,7 +122,7 @@
     },
     {
       "sourceSlideId": "S75",
-      "slideId": "S79",
+      "slideId": "S75",
       "act": 4,
       "category": "검증·개선",
       "title": "원인을 고르기 전에 확인할 기록",
@@ -133,7 +130,7 @@
     },
     {
       "sourceSlideId": "S79",
-      "slideId": "S83",
+      "slideId": "S79",
       "act": 4,
       "category": "검증·개선",
       "title": "지침을 고친 뒤, 무엇을 다시 확인할까?",
@@ -141,7 +138,7 @@
     },
     {
       "sourceSlideId": "S95",
-      "slideId": "S100",
+      "slideId": "S95",
       "act": 5,
       "category": "검증·개선",
       "title": "무엇을 남기고, 무엇을 덜어낼까?",
@@ -149,7 +146,7 @@
     },
     {
       "sourceSlideId": "S96",
-      "slideId": "S101",
+      "slideId": "S96",
       "act": 5,
       "category": "검증·개선",
       "title": "덜어낸 뒤에도 필요한 일을 하는가?",
@@ -158,87 +155,57 @@
   ],
   "indexes": [
     {
-      "act": 0,
-      "beforeSourceSlideId": "S13",
-      "slideId": "S13",
-      "nextSlideId": "S14",
-      "section": "0E",
-      "storyBeat": "BEAT-003의 다음 Friction",
+      "act": 5,
+      "beforeSourceSlideId": "S99",
+      "slideId": "S99",
+      "nextSlideId": "S100",
+      "section": "5B Final Reference Review",
+      "storyBeat": "BEAT-070–071",
       "tipSlideIds": [
-        "S11"
+        "S11",
+        "S45",
+        "S54",
+        "S64",
+        "S69"
       ],
-      "title": "ACT 0 실무 적용 팁 모아보기"
+      "title": "실무 적용 팁 · 작업 환경과 기준",
+      "sequence": 1
     },
     {
-      "act": 1,
-      "beforeSourceSlideId": "S33",
-      "slideId": "S34",
-      "nextSlideId": "S35",
-      "section": "1H Practical Prompt Methods",
-      "storyBeat": "BEAT-005, BEAT-007 — specified intent and completion evidence; no new product-history event.",
+      "act": 5,
+      "beforeSourceSlideId": "S99",
+      "slideId": "S100",
+      "nextSlideId": "S101",
+      "section": "5B Final Reference Review",
+      "storyBeat": "BEAT-070–071",
       "tipSlideIds": [
+        "S25",
         "S26",
         "S27",
         "S28",
         "S29",
         "S30",
         "S31",
-        "S32",
-        "S33"
+        "S32"
       ],
-      "title": "ACT 1 실무 적용 팁 모아보기"
-    },
-    {
-      "act": 2,
-      "beforeSourceSlideId": "S52",
-      "slideId": "S54",
-      "nextSlideId": "S55",
-      "section": "2I Discussion·Transition",
-      "storyBeat": "BEAT-009–017",
-      "tipSlideIds": [
-        "S47"
-      ],
-      "title": "ACT 2 실무 적용 팁 모아보기"
-    },
-    {
-      "act": 3,
-      "beforeSourceSlideId": "S70",
-      "slideId": "S73",
-      "nextSlideId": "S74",
-      "section": "3H C++ Vision Transfer",
-      "storyBeat": "BEAT-036",
-      "tipSlideIds": [
-        "S57",
-        "S67",
-        "S72"
-      ],
-      "title": "ACT 3 실무 적용 팁 모아보기"
-    },
-    {
-      "act": 4,
-      "beforeSourceSlideId": "S88",
-      "slideId": "S92",
-      "nextSlideId": "S93",
-      "section": "4F Observed Meta Loop 마무리",
-      "storyBeat": "BEAT-058–059",
-      "tipSlideIds": [
-        "S79",
-        "S83"
-      ],
-      "title": "ACT 4 실무 적용 팁 모아보기"
+      "title": "실무 적용 팁 · 요청 작성",
+      "sequence": 2
     },
     {
       "act": 5,
       "beforeSourceSlideId": "S99",
-      "slideId": "S104",
-      "nextSlideId": "S105",
-      "section": "5B Final Reflection",
+      "slideId": "S101",
+      "nextSlideId": "S102",
+      "section": "5B Final Reference Review",
       "storyBeat": "BEAT-070–071",
       "tipSlideIds": [
-        "S100",
-        "S101"
+        "S75",
+        "S79",
+        "S95",
+        "S96"
       ],
-      "title": "ACT 5 실무 적용 팁 모아보기"
+      "title": "실무 적용 팁 · 검증과 개선",
+      "sequence": 3
     }
   ]
 }

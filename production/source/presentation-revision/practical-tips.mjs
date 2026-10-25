@@ -1,22 +1,22 @@
-/** DEC-0087: common application badges and per-ACT reference indexes. */
-export function to105Id(id, config) {
+/** DEC-0088: common application badges and final reference indexes. */
+export function toCurrentId(id, config) {
  const n=Number(id.slice(1));
  return `S${String(n+config.insertBeforeSourceNumbers.filter(x=>x<=n).length).padStart(2,'0')}`;
 }
 
 export function renumber99Text(value, config) {
  return String(value).replace(/(?<![A-Za-z0-9_/])S(\d{2})(?![\d_.])/g,
-  (id,n)=>Number(n)<=99?to105Id(id,config):id);
+  (id,n)=>Number(n)<=99?toCurrentId(id,config):id);
 }
 
 export function migrate99Factories(previous, config) {
  return Object.fromEntries(Object.entries(previous).map(([id,factory])=>[
-  to105Id(id,config),(p,H)=>{
+  toCurrentId(id,config),(p,H)=>{
    const slide=factory(p,H);
    for(const shape of slide.shapes.items){
     const original=String(shape.text);
     const references=[...new Set(original.match(/(?<![A-Za-z0-9_/])S\d{2}(?![\d_.])/g)??[])];
-    for(const old of references.sort().reverse())shape.text.replace(old,to105Id(old,config));
+    for(const old of references.sort().reverse())shape.text.replace(old,toCurrentId(old,config));
     if(references.length)shape.name=renumber99Text(shape.name??'',config);
    }
    return slide;
@@ -34,8 +34,8 @@ export function addPracticalTipBadge(slide, category, H) {
 export function practicalTipIndexFactories(config, H) {
  const {C,text,line,rect}=H;
  return Object.fromEntries(config.indexes.map(index=>[index.slideId,p=>{
-  const s=H.frame(p,index.slideId,index.title,`ACT ${index.act} · 필요한 팁 찾아보기`,
-   '기존 팁의 제목·Slide ID를 모은 찾아보기 · DEC-0087',
+  const s=H.frame(p,index.slideId,index.title,`마지막 정리 · 찾아보기 ${index.sequence}/3`,
+   '기존 팁의 제목·Slide ID를 모은 찾아보기 · DEC-0088',
    '배지는 활용 목적 표시 · 각 팁의 실제 관찰·교육용 예시·제품 확인 범위는 해당 장을 따른다.',
    'TEACHING_MODEL');
   addPracticalTipBadge(s,'찾아보기',H);

@@ -2,7 +2,7 @@
 
 ## Current operation — DEC-0081
 
-S76/S73 retain the aligned start and Project-scope change. Later S83 compares same-task and adjacent-task evaluation; S84 selects representative tasks; S85 shows a conditional global-rule scope/cost example. These support Case/Lecture slots without adding Demo time. There is no actual repair, rerun or regression result.
+S72/S73 retain the aligned start and Project-scope change. Later S79 compares same-task and adjacent-task evaluation; S80 selects representative tasks; S81 shows a conditional global-rule scope/cost example. These support Case/Lecture slots without adding Demo time. There is no actual repair, rerun or regression result.
 
 Current local package/render/Notes/path validation is complete for DEC-0081.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
@@ -10,13 +10,13 @@ See [current ACT4 design](../../plan/ACT4_FLOW_REVISION.md).
 
 ## Earlier operation — DEC-0080
 
-S76 links Workflow to the procedure role previously implemented as a Skill, while preserving the separate conceptual file/history. S77 recovers maintenance ownership. Later S79–S82 inspect evidence, separate hypotheses, select a response conditionally and assign example update/review duties. The Demo slot remains S76 Demo2+S77 Demo2.
+S72 links Workflow to the procedure role previously implemented as a Skill, while preserving the separate conceptual file/history. S73 recovers maintenance ownership. Later S75–S78 inspect evidence, separate hypotheses, select a response conditionally and assign example update/review duties. The Demo slot remains S72 Demo2+S73 Demo2.
 
 Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0087 /105slides/393minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_105.md. Tip badges/reference indexes add no Demo time or Trial result. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0088 /102slides/390minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_102.md. The only tip index block is S99–S101 before final Q&A; no Demo time or Trial result changes. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED ROLE — conceptual controlled case
@@ -67,7 +67,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-CONCEPTUAL label; S76 begins with aligned unit-test instructions. S77 assumes module interactions now need verification, so the official Project scope is unit + integration tests while the reusable Workflow directs unit tests only. Compare instructions, not execution results (DEC-0027).
+CONCEPTUAL label; S72 begins with aligned unit-test instructions. S73 assumes module interactions now need verification, so the official Project scope is unit + integration tests while the reusable Workflow directs unit tests only. Compare instructions, not execution results (DEC-0027).
 
 ## Success Criteria
 
@@ -85,9 +85,9 @@ Evidence limit: No actual migration, command failure, Agent failure, Trial, or S
 
 ## Estimated Time
 
-4m: S76 2m + S77 2m.
+4m: S72 2m + S73 2m.
 
-Phase plan: S76 2m → S77 2m.
+Phase plan: S72 2m → S73 2m.
 
 Time Risk: LOW
 
@@ -109,9 +109,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S76.png`, `production/preview/full/S77.png`
+Default is the offline static presentation. Open: `production/preview/full/S72.png`, `production/preview/full/S73.png`
 
-Show S76–S77 static conceptual frames; keep the constructed-case label visible.
+Show S72–S73 static conceptual frames; keep the constructed-case label visible.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -125,7 +125,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S77 → S78: distinguish task workaround from system problem.
+S73 → S74: distinguish task workaround from system problem.
 
 ## Evidence
 

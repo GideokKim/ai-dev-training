@@ -1,6 +1,17 @@
 # STEP 08 — ACT-by-ACT Production Plan
 
-## Current application tips — DEC-0087 (2026-10-25)
+## 현재 마지막 팁 요약 — DEC-0088 (2026-10-25)
+
+현재 **102장·390분(6시간30분)**. ACT 중간의 제목/ID 찾아보기6장을 제거하고,
+마지막 Q&A/Closing 바로 앞의 **S99–S101**로 통합했다. 기존 팁17장의 설명·배지와
+99개 본문 장의 내용·장별 시간/Mode·근거는 유지한다. ACT 사이 설명은 바로 이어진다.
+ACT 장수13/21/18/18/18/14, 시간42/63/81/85/80/39분. Mode Lecture154/Demo73/
+Case88/Reflection21/Transition22/Q&A32분. 팁 요약3장만 Lecture1분씩 배정한다.
+[팁 위치/분류](PRACTICAL_APPLICATION_TIPS.md), [105→102 이행표](SLIDE_ID_MIGRATION_102.md),
+[현행 Slide Map](SLIDE_MAP.md)을 따른다. 아래 과거 승인/검증 기록은 당시 판본이다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED이며 새 Trial/성과는 없다.
+
+## Historical application tips — DEC-0087 (2026-10-25)
 
 현재105장·393분(6시간33분). 기존99장의 내용·장별 배정·근거 범위를 보존하고,
 17개 적용 기준에 “실무 적용 팁” 공통 배지·분류를 붙였다. 각 ACT의 다음 문제·성찰·
@@ -36,7 +47,7 @@ Demo/Trial/State IDs는 유지한다.11Template/27Variant와19Notes 필드를 �
 
 > 최신 ACT3 설명 순서: DEC-0062 / [ACT3 흐름 설계](ACT3_FLOW_REVISION.md). S50–S67의18장·85분과 장별 시간·Mode·ID는 유지한다. Skill 문서/관찰 대응, Subagent·Memory의 가정→현재 선택, 실제 구성→전체 작업 환경의 역할을 정렬했다. 아래 원본 기획·과거 검증 이력은 보존한다.
 
-> **현재 기준: DEC-0087 /105장·393분(6시간33분,2026-10-25).** ACT 장수14/22/19/19/19/12, 시간43/64/82/86/81/37분. Mode Lecture157/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존99장의 배정을 보존하고6개의 찾아보기에 Lecture1분씩 추가했다. [팁 목록](PRACTICAL_APPLICATION_TIPS.md), [105장 이행표](SLIDE_ID_MIGRATION_105.md). 실환경·리허설은 UNVERIFIED다.
+> **이전 기준: DEC-0087 /105장·393분(6시간33분,2026-10-25).** ACT 장수14/22/19/19/19/12, 시간43/64/82/86/81/37분. Mode Lecture157/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존99장의 배정을 보존하고6개의 찾아보기에 Lecture1분씩 추가했다. [팁 목록](PRACTICAL_APPLICATION_TIPS.md), [105장 이행표](SLIDE_ID_MIGRATION_105.md). 실환경·리허설은 UNVERIFIED다.
 
 
 Date: 2026-10-11
@@ -59,7 +70,7 @@ Speaker Notes 기준에 따라 최종 교육자료를 ACT 단위로 제작하는
 
 | 선행 조건 | 판정 | 범위와 제한 |
 |---|---|---|
-| Slide Map | 충족 | S01–S101, Slide별 역할·근거·시간·Mode가 기록돼 있다. |
+| Slide Map | 충족 | S01–S96, Slide별 역할·근거·시간·Mode가 기록돼 있다. |
 | Claim Boundary | 충족 | `CLAIM_FREEZE.md`가 기준이며 제품·환경별 open check도 유지한다. |
 | Visual System | 조건부 충족 | `VISUAL_TEMPLATE_FREEZE.md` 기준을 사용한다. Windows와 target screen은 최종 delivery Gate다. |
 | Template Mapping | 충족 | 11개 Template과 27개 Variant가 Map에 있다. Prototype 미검증 Variant는 첫 적용 때 검증한다. |
@@ -87,7 +98,7 @@ Speaker Notes 기준에 따라 최종 교육자료를 ACT 단위로 제작하는
 
 ## 3. ACT Production Order
 
-DEC-0060의 현재 번호 범위는93장이다. S01–S44는 유지하고 새S45(RepoQA),S51(의존성 답),S53(성과 회수)을 배치했다. 기존S45–S49는S46–S50, 기존S50는S52, 기존S51–S98은S55–S101으로 이동한다. 기존90장 내용·시간을 보존하고11분을 추가해 전체379분,ACT2 81분이다. 이전 삽입/검증 결과는 당시 판본의 이력이다.
+DEC-0060의 현재 번호 범위는93장이다. S01–S42는 유지하고 새S43(RepoQA),S49(의존성 답),S51(성과 회수)을 배치했다. 기존S43–S47는S44–S48, 기존S48는S50, 기존S49–S93은S52–S96으로 이동한다. 기존90장 내용·시간을 보존하고11분을 추가해 전체379분,ACT2 81분이다. 이전 삽입/검증 결과는 당시 판본의 이력이다.
 
 
 ACT는 다음 순서로 하나씩 진행한다. 각 단계는 해당 ACT의 1차 산출물을
@@ -95,13 +106,13 @@ ACT는 다음 순서로 하나씩 진행한다. 각 단계는 해당 ACT의 1차
 
 | 순서 | ACT | Slide range | Slide 수 | 시간 | 완료 후 |
 |---:|---|---|---:|---:|---|
-| 1 | ACT 0 | S01–S14 | 13 | 42분 | 검토 및 checkpoint 후 ACT 1 |
-| 2 | ACT 1 | S15–S36 | 21 | 63분 | 검토 및 checkpoint 후 ACT 2 |
-| 3 | ACT 2 | S37–S55 | 18 | 81분 | 검토 및 checkpoint 후 ACT 3 |
-| 4 | ACT 3 | S56–S74 | 18 | 85분 | 검토 및 checkpoint 후 ACT 4 |
-| 5 | ACT 4 | S75–S93 | 18 | 80분 | 검토 및 checkpoint 후 ACT 5 |
-| 6 | ACT 5 | S94–S105 | 11 | 36분 | 최종 delivery Gate 검토 |
-| **합계** |  | **S01–S105** | **105** | **393분** |  |
+| 1 | ACT 0 | S01–S13 | 13 | 42분 | 검토 및 checkpoint 후 ACT 1 |
+| 2 | ACT 1 | S14–S34 | 21 | 63분 | 검토 및 checkpoint 후 ACT 2 |
+| 3 | ACT 2 | S35–S52 | 18 | 81분 | 검토 및 checkpoint 후 ACT 3 |
+| 4 | ACT 3 | S53–S70 | 18 | 85분 | 검토 및 checkpoint 후 ACT 4 |
+| 5 | ACT 4 | S71–S88 | 18 | 80분 | 검토 및 checkpoint 후 ACT 5 |
+| 6 | ACT 5 | S89–S102 | 14 | 39분 | 최종 delivery Gate 검토 |
+| **합계** |  | **S01–S102** | **102** | **390분** |  |
 
 ACT 시간은 `SLIDE_MAP.md`의 배정이며 break/setup을 포함하지 않는다.
 
@@ -137,7 +148,7 @@ ACT 시간은 `SLIDE_MAP.md`의 배정이며 break/setup을 포함하지 않는�
   `TEACHING_MODEL`을 하나의 증거 프레임으로 섞지 않는다.
 - Benchmark 값에는 workload와 환경 및 기록된 verification을 연결한다.
   Harness·Skill·Prompt가 단독 원인이라고 확대하지 않는다.
-- S22/S50/S83 fallback은 현재 `PLANNED`다. 선택된 최종 asset과 경로를 확인하기
+- S21/S50/S83 fallback은 현재 `PLANNED`다. 선택된 최종 asset과 경로를 확인하기
   전에는 `READY`로 바꾸지 않는다. HYBRID Demo에 검증된 Fallback이 없으면
   최종 운영을 승인하지 않는다.
 - 현재 계정, 제품 surface, permission, live path 또는 제품 동작을 포함하는
@@ -152,8 +163,8 @@ ACT 시간은 `SLIDE_MAP.md`의 배정이며 break/setup을 포함하지 않는�
 - 한글·영문·코드·경로·citation의 target-size 가독성과 16:9 Safe Area.
 - 실제 교육 계정과 사용 제품 surface, 권한, current product claims.
 - Live/Hybrid Demo의 실행 경로, 실패 대응 및 승인된 Fallback.
-- S22/S50/S83의 최종 자료 선택·파일·경로·내용 확인.
-- S93 전체 20분 rehearsal: Case 0–7, Reflection 7–9, Q&A 9–16,
+- S21/S50/S83의 최종 자료 선택·파일·경로·내용 확인.
+- S88 전체 20분 rehearsal: Case 0–7, Reflection 7–9, Q&A 9–16,
   Transition 16–20분과 cutoff·fallback.
 - 93장·ACT 시간·Mode 합계·Claim Boundary·Evidence 연결 최종 대조.
 - 첫 적용에서 조건부/미검증 상태였던 Template과 Variant의 확정 검토.
@@ -167,21 +178,21 @@ Mac 또는 LibreOffice local render는 Windows/교육장 확인을 대신하지 
 |---|---|---|
 | 대상 Codex 계정과 제품 surface | OPEN | 특히 S04–S07–S08의 현재 제품·Demo operation 표현 |
 | DEMO-01 선택 surface 및 Live/Hybrid 운영 경로 | OPEN | 기존 CLI 관찰과 현재 교육 환경을 구분하고 final fallback을 확인 |
-| S22/S50/S83 발표 fallback asset 선택 | PLANNED | 해당 Slide의 최종 presentation fallback 승인 |
+| S21/S50/S83 발표 fallback asset 선택 | PLANNED | 해당 Slide의 최종 presentation fallback 승인 |
 | Windows PowerPoint 및 실제 발표 PC | UNVERIFIED | 전체 PPT final delivery |
 | 11개 Template / 27개 Variant 전수 실제 구현 | PROVISIONAL until first use | 해당 Variant의 ACT 내 첫 적용 Gate |
 | Shared-template 수정 전파 방식 | UNVERIFIED | 대량 제작 시 일관성·수정 비용 |
-| S93 20분 timed rehearsal | UNVERIFIED | ACT 4/final delivery 운영 승인 |
+| S88 20분 timed rehearsal | UNVERIFIED | ACT 4/final delivery 운영 승인 |
 
 ## 8. Validation
 
 - Slide Map 기준: 93장, S01–S96.
 - ACT별 Slide/시간: 10/40, 21/63, 18/81, 18/85, 18/80, 8/30.
-- 전체 교육 시간:393분(DEC-0087).
+- 전체 교육 시간:390분(DEC-0088).
 - Mode 합계: Lecture 143, Demo 73, Case 88, Reflection 21,
   Transition 22, Q&A 32분.
 - Slide별 Mode 합계는 `SLIDE_MAP.md`의 Estimated Time 기준으로 검증한다.
-- S74와 S93의 승인된 Mode 순서는 DEC-0025 및 `SPEAKER_NOTES_FREEZE.md`와 같다.
+- S70와 S88의 승인된 Mode 순서는 DEC-0025 및 `SPEAKER_NOTES_FREEZE.md`와 같다.
 - 해당 판정은 제작 준비 Gate다. ACT 0 또는 이후 PPT 제작이 이 문서에서
   수행된 것은 아니다.
 
@@ -196,4 +207,4 @@ S04–S07–S08에 현재 제품 surface 또는 Live/Hybrid 설명을 포함하�
 
 ## Historical DEC-0060 revision gate
 
-Current ACT2 is S37–S55/18slides/81minutes. Update Full and ACT2–5 under the explicit90→93 migration, preserve ACT0/1 packages and all existing slide allocations. Recheck93 notes records/19fields, final-package renders and native table S52/chart S61. Full production has already occurred; prior READY FOR ACT0 status above is the original production history. Windows/room/product/account/timed rehearsal gates remain UNVERIFIED. Presenter bundle creation remains paused.
+Current ACT2 is S35–S52/18slides/81minutes. Update Full and ACT2–5 under the explicit90→93 migration, preserve ACT0/1 packages and all existing slide allocations. Recheck93 notes records/19fields, final-package renders and native table S50/chart S61. Full production has already occurred; prior READY FOR ACT0 status above is the original production history. Windows/room/product/account/timed rehearsal gates remain UNVERIFIED. Presenter bundle creation remains paused.

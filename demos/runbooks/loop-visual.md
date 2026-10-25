@@ -2,7 +2,7 @@
 
 ## Current operation — DEC-0081
 
-S86 distinguishes execution from observation and shows evidence passed to the next judgment. Human review of source/scope is explicit. Keep Lecture9 and VISUAL Demo2: R1/R2 0–2, R3 2–4:30, R4 4:30–6:30, R5 6:30–9, one static path9–11. Do not replay S79–S85; then open the actual reporting case on S83. No native animation or executed loop.
+S82 distinguishes execution from observation and shows evidence passed to the next judgment. Human review of source/scope is explicit. Keep Lecture9 and VISUAL Demo2: R1/R2 0–2, R3 2–4:30, R4 4:30–6:30, R5 6:30–9, one static path9–11. Do not replay S75–S81; then open the actual reporting case on S83. No native animation or executed loop.
 
 Current local package/render/Notes/path validation is complete for DEC-0081.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
@@ -10,13 +10,13 @@ See [current ACT4 design](../../plan/ACT4_FLOW_REVISION.md).
 
 ## Earlier operation — DEC-0080
 
-S86 uses five spaced phases with wrapped questions/examples and a next-task return. Human review/update is explicit. Static speaker focus is not native animation or an executed improvement. Preserve Lecture9+VISUAL Demo2 and separate the later observed Meta case.
+S82 uses five spaced phases with wrapped questions/examples and a next-task return. Human review/update is explicit. Static speaker focus is not native animation or an executed improvement. Preserve Lecture9+VISUAL Demo2 and separate the later observed Meta case.
 
 Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0087 /105slides/393minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_105.md. Tip badges/reference indexes add no Demo time or Trial result. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0088 /102slides/390minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_102.md. The only tip index block is S99–S101 before final Q&A; no Demo time or Trial result changes. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED TEACHING MODEL visual
@@ -75,7 +75,7 @@ Explain the two loops and the developer decision boundary.
 
 ## Expected Output
 
-S86 teaching model only.
+S82 teaching model only.
 
 ## Verification
 
@@ -87,7 +87,7 @@ Evidence limit: No self-learning, automatic improvement, infinite loop, or guara
 
 2m visual allocation; Lecture 9m is separate.
 
-Phase plan: S86 Demo 2m.
+Phase plan: S82 Demo 2m.
 
 Time Risk: LOW
 
@@ -109,9 +109,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S86.png`
+Default is the offline static presentation. Open: `production/preview/full/S82.png`
 
-Use S86.png; do not reuse S87 Observed Meta frame.
+Use S82.png; do not reuse S83 Observed Meta frame.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -125,7 +125,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S86 → S87: switch explicitly from Teaching Model to Observed Meta evidence.
+S82 → S83: switch explicitly from Teaching Model to Observed Meta evidence.
 
 ## Evidence
 

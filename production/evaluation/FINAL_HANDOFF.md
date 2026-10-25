@@ -1,5 +1,17 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+현재 기준: **DEC-0088 /102장·390분(6시간30분)**. ACT 중간의 팁 목록6장을 제거하고
+마지막 Q&A/Closing 직전 S99–S101로 통합했다. 기존17개 팁 설명·배지와99개 본문
+장별 배정·내용·근거를 유지한다. ACT 장수13/21/18/18/18/14,
+시간42/63/81/85/80/39분. 최종 Full102+6ACT102,204PNGs와102x19Notes·
+내장/ACT 대응을 대조했다. 기존 화면은 번호/참조 외 동일하며 이미지·Native evidence를
+보존한다.34fallback은 현재 경로/해시를 따른다. 실환경·리허설은 UNVERIFIED다.
+[최신 결과](FINAL_PRACTICAL_TIPS_CONSOLIDATION.md), [통합 팁 목록](../../plan/PRACTICAL_APPLICATION_TIPS.md),
+[현재 번호](../../plan/SLIDE_ID_MIGRATION_102.md), [마지막 흐름](../preview/full/final-tip-handoff.png).
+발표 묶음은 갱신하지 않았다. 아래 이전 제작/검증 기록은 당시 판본이다.
+
+## 이전105장 및 그 이전 제작 기록
+
 현재 기준: **DEC-0087 /105장·393분(6시간33분)**. 기존99장의 내용·시간/Mode·
 근거를 보존하고 실무 적용 팁17장에 공통 배지/분류를 붙였다. ACT별 전환 앞에
 제목/ID 찾아보기1장·Lecture1분씩 추가했다. 기존 팁은 원래 맥락에 남는다.
@@ -102,46 +114,47 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `f34abbec8986fd12064fa8b0f4e534e380ac8db701b4d1ea061da1abd8e0cd2b` |
+| PPT SHA-256 | `ad14cf7057d8b9ff853052543afd69675b853234888c704ac68bc28045b4a69e` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `c0ff595fa01aae80efa8d0b33fa6d4e8e84207aa8aecfe2a01d380db2d671955` |
-| 전체 preview | [montage](../preview/full/montage.png) /S01–S105 |
-| Montage SHA-256 | `8685187141688aede48b7552626e5307198716e8d16456fd89eeba7807aa9ab2` |
-| ACT2 | [ACT_2.pptx](../ACT_2.pptx), S37–S55/19장·82분 |
-| ACT1 | [ACT_1.pptx](../ACT_1.pptx), S15–S36/22장·64분 |
-| 최신 검토 | [실무 적용 팁·찾아보기](PRACTICAL_APPLICATION_TIPS.md) |
+| Notes SHA-256 | `297c39f7030e53152f08bd37d248ece7ddd022d728f856587a3bb8285cdd2d7b` |
+| 전체 preview | [montage](../preview/full/montage.png) /S01–S102 |
+| Montage SHA-256 | `b14bc7e7f37006dc5ade2c64d6ced46587c643c11ac57860829cc812c47d310f` |
+| ACT2 | [ACT_2.pptx](../ACT_2.pptx), S35–S52/18장·81분 |
+| ACT1 | [ACT_1.pptx](../ACT_1.pptx), S14–S34/21장·63분 |
+| 최신 검토 | [마지막 팁 요약](FINAL_PRACTICAL_TIPS_CONSOLIDATION.md) |
+| 이전 팁 검토 | [ACT별 배치 당시 기록](PRACTICAL_APPLICATION_TIPS.md) |
 | 이전 삽화 검토 | [S09/S10 확대·우측 상단](S09_S10_ILLUSTRATION_LAYOUT_REVISION.md) |
 | 이전 삽화 검토 | [기존 삽화 추가](S09_S10_ILLUSTRATION_ADDITION.md) |
 | 이전 ACT0 검토 | [조사·Context6장](ACT_0_CONTEXT_EXPANSION.md) |
-| ACT0 | [ACT_0.pptx](../ACT_0.pptx), S01–S14/14장·43분 |
+| ACT0 | [ACT_0.pptx](../ACT_0.pptx), S01–S13/13장·42분 |
 | 이전 ACT5 검토 | [기존 Harness 재평가3장](ACT_5_HARNESS_REASSESSMENT.md) |
 | 이전 ACT5 검토 | [실제 이력·다음 행동·마무리](ACT_5_FLOW_REVISION.md) |
-| ACT5 | [ACT_5.pptx](../ACT_5.pptx), S94–S105/12장·37분 |
+| ACT5 | [ACT_5.pptx](../ACT_5.pptx), S89–S102/14장·39분 |
 | 이전 ACT4 검토 | [평가·Loop·실제 기록과 ACT5 연결](ACT_4_FLOW_REVISION.md) |
 | 이전 ACT3→ACT4 검토 | [유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md) |
-| 이전 S70 검토 | [반복 한 가지와 위치·유지 책임](S67_REFLECTION_OWNERSHIP_REVISION.md) |
-| 이전 S69 검토 | [밝기 통계 Demo의 세 기준을 C++ 검사로](S66_CPP_TRANSFER_REVISION.md) |
-| 이전 S68 검토 | [저장소 밖 실행 조건과 관찰의 한계](S65_EXTERNAL_CONDITIONS_REVISION.md) |
-| 이전 S67 검토 | [Harness 구조와 실행 환경](S64_HARNESS_STRUCTURE_REVISION.md) |
-| 이전 S66 검토 | [실제 밝기 통계 작업에서 구성의 역할](S63_TASK_ROLES_REVISION.md) |
-| 이전 S65 검토 | [실제 지식의 원래 출처와 Memory 판단](S62_KNOWLEDGE_SOURCES_REVISION.md) |
-| 이전 S64 검토 | [이번 Context와 다음 작업의 지식](S61_CONTEXT_RETENTION_REVISION.md) |
-| 이전 S63 검토 | [실제 작업의 의존관계와 선택](S60_TASK_DEPENDENCY_REVISION.md) |
-| 이전 S62 검토 | [단일 조사와 역할 분리 비교](S59_ROLE_SPLIT_REVISION.md) |
-| 이전 S60–S61 검토 | [작업·선택·검증 연결](S57_S58_TASK_RESULT_REVISION.md) |
-| 이전 S60 검토 | [후보 선택](S57_CANDIDATE_SELECTION_REVISION.md) |
-| 이전 S59 검토 | [재사용 절차와 이번 판단](S56_REUSABLE_PROCEDURE_REVISION.md) |
-| 이전 S58 검토 | [지침과 수행 기록 대응](S55_SKILL_ACTION_EVIDENCE_REVISION.md) |
-| 이전 S56/S54 검토 | [연결선·CLI 근거](S53_S54_SKILL_EVIDENCE_REVISION.md) |
-| 이전 S56 검토 | [Skill 재사용과 관리 이유](S53_SKILL_REUSE_REVISION.md) |
-| 이전 S55 검토 | [목표·기준·방법의 결합](S52_TASK_COMPOSITION_REVISION.md) |
-| 이전 S53 검토 | [명령 적용과 판단](S51_COMMAND_WORKFLOW_REVISION.md) |
+| 이전 S67 검토 | [반복 한 가지와 위치·유지 책임](S67_REFLECTION_OWNERSHIP_REVISION.md) |
+| 이전 S66 검토 | [밝기 통계 Demo의 세 기준을 C++ 검사로](S66_CPP_TRANSFER_REVISION.md) |
+| 이전 S65 검토 | [저장소 밖 실행 조건과 관찰의 한계](S65_EXTERNAL_CONDITIONS_REVISION.md) |
+| 이전 S64 검토 | [Harness 구조와 실행 환경](S64_HARNESS_STRUCTURE_REVISION.md) |
+| 이전 S63 검토 | [실제 밝기 통계 작업에서 구성의 역할](S63_TASK_ROLES_REVISION.md) |
+| 이전 S62 검토 | [실제 지식의 원래 출처와 Memory 판단](S62_KNOWLEDGE_SOURCES_REVISION.md) |
+| 이전 S61 검토 | [이번 Context와 다음 작업의 지식](S61_CONTEXT_RETENTION_REVISION.md) |
+| 이전 S60 검토 | [실제 작업의 의존관계와 선택](S60_TASK_DEPENDENCY_REVISION.md) |
+| 이전 S59 검토 | [단일 조사와 역할 분리 비교](S59_ROLE_SPLIT_REVISION.md) |
+| 이전 S57–S58 검토 | [작업·선택·검증 연결](S57_S58_TASK_RESULT_REVISION.md) |
+| 이전 S57 검토 | [후보 선택](S57_CANDIDATE_SELECTION_REVISION.md) |
+| 이전 S56 검토 | [재사용 절차와 이번 판단](S56_REUSABLE_PROCEDURE_REVISION.md) |
+| 이전 S55 검토 | [지침과 수행 기록 대응](S55_SKILL_ACTION_EVIDENCE_REVISION.md) |
+| 이전 S53/S54 검토 | [연결선·CLI 근거](S53_S54_SKILL_EVIDENCE_REVISION.md) |
+| 이전 S53 검토 | [Skill 재사용과 관리 이유](S53_SKILL_REUSE_REVISION.md) |
+| 이전 S52 검토 | [목표·기준·방법의 결합](S52_TASK_COMPOSITION_REVISION.md) |
+| 이전 S51 검토 | [명령 적용과 판단](S51_COMMAND_WORKFLOW_REVISION.md) |
 | 이전 ACT3 전체 검토 | [흐름 개선](ACT_3_FLOW_REVISION.md) |
-| ACT3 | [ACT_3.pptx](../ACT_3.pptx), S56–S74/19장·86분 |
-| ACT4 | [ACT_4.pptx](../ACT_4.pptx), S75–S93/19장·81분 |
-| 이전 S42 검토 | [코드 탐색 결과 확인](S40_CODE_EVIDENCE_REVISION.md) |
+| ACT3 | [ACT_3.pptx](../ACT_3.pptx), S53–S70/18장·85분 |
+| ACT4 | [ACT_4.pptx](../ACT_4.pptx), S71–S88/18장·80분 |
+| 이전 S40 검토 | [코드 탐색 결과 확인](S40_CODE_EVIDENCE_REVISION.md) |
 | 장수·시간 구성 검토 | [ACT2 흐름 개선](ACT_2_FLOW_REVISION.md) |
-| 번호 대조 | [99→105](../../plan/SLIDE_ID_MIGRATION_105.md), [96→99](../../plan/SLIDE_ID_MIGRATION_99.md), 이전[93→96](../../plan/SLIDE_ID_MIGRATION_96.md), 이전[90→93](../../plan/SLIDE_ID_MIGRATION_93.md) |
+| 번호 대조 | [105→102](../../plan/SLIDE_ID_MIGRATION_102.md), [99→105](../../plan/SLIDE_ID_MIGRATION_105.md), [96→99](../../plan/SLIDE_ID_MIGRATION_99.md), 이전[93→96](../../plan/SLIDE_ID_MIGRATION_96.md), 이전[90→93](../../plan/SLIDE_ID_MIGRATION_93.md) |
 | 정적 Demo 대안 | [32개 파일·범위·해시](../../demos/runbooks/FALLBACK_MANIFEST.md) |
 | 사용자 확인 | [실환경·리허설 체크리스트](USER_VALIDATION_CHECKLIST.md) |
 
@@ -149,6 +162,11 @@ ACT별 시간40/63/81/85/80/30분. Mode143/73/88/21/22/32분은 각각
 Lecture/Demo/Case/Reflection/Transition/Q&A다. 휴식은 별도다.
 
 ## 완료된 로컬 확인
+
+DEC-0088: Full102+6ACT102/204PNGs·102x19Notes·기존17배지/마지막3목록을
+대조했다.99본문 화면은 ID/참조 외 동일하며 내용·배정·근거를 보존한다.
+아래 이전 로컬 검토는 당시 판본이다.
+
 
 DEC-0087: Full105+6ACT105/210PNGs·105x19Notes·17배지/6찾아보기를 확인했다.
 99기존 화면은 ID/참조·배지 밖 동일하며 기존 이미지/crop/배치·Native tables/chart,

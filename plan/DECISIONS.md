@@ -9545,3 +9545,89 @@ handoffs. Verify105x19Notes, original budgets, ID/reference-only changes,
 images/crops, native tables/chart and34fallback files. Keep Windows/room/
 product/account/timed rehearsal UNVERIFIED. Commit/push to origin/main
 without force push, Demo mutation or a new presenter bundle.
+
+
+# DEC-0088 — Consolidate practical-tip indexes at the course end
+
+## Status
+
+ACCEPTED — explicit user instruction to move practical-tip summaries from
+ACT transitions to one final block and perform the revision immediately.
+Supersede only DEC-0087's per-ACT index placement and resulting schedule.
+Keep its common badge, categories and17contextual tip pages.
+
+## Date
+
+2026-10-25
+
+## Context
+
+DEC-0087 added6reference indexes within the problem-driven course. The user
+found these intermediate summaries interrupted the explanation flow.
+
+## Problem
+
+The course needs a single lookup point while each ACT must continue into
+its next question without an extra title-list detour.
+
+## Decision
+
+Remove6interleaved indexes and restore the direct body handoffs. Collect
+all17existing tip titles and current IDs on3final T03-A pages: environment
+and working criteria, request writing, verification and improvement.
+Place them after final reflection and before the original Q&A/Closing.
+Keep the17tip bodies, common badges,99body budgets, narrative and claims.
+
+The current deck is102slides/390minutes. ACT counts13/21/18/18/18/14;
+minutes42/63/81/85/80/39. Modes are Lecture154/Demo73/Case88/Reflection21/
+Transition22/Q&A32. Add1Lecture minute per final index to the99body-page
+baseline387minutes. Preserve all other per-Slide budgets and stable
+Beat/Section/Demo/Trial/State/Claim IDs. Use SLIDE_ID_MIGRATION_102.md.
+
+## Rationale
+
+Readers can find all practical references together after the teaching
+sequence. The problem-to-next-question path remains uninterrupted across
+ACTs, while the actual tip explanation keeps its immediate context.
+
+## Alternatives
+
+Retain6indexes at ACT ends; preserves the interruption the user rejected.
+Move every tip body to the end; breaks the approved contextual examples.
+Use one17item page; makes the references too dense for presentation use.
+
+## Trade-offs
+
+Use3reference pages/minutes instead of6. Renumber downstream pages and
+update current Notes, mappings and fallback identities. The reference
+block belongs to ACT5 but can point to tips taught in any ACT.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001/002, INV-LEARNING-001/002/004,
+INV-VERIFY-001, INV-RESPONSIBILITY-001, INV-RESEARCH-001/004.
+
+## Affected Artifacts
+
+Full/ACT0–5 PPTX, current Maps/Notes/planning routers, index source,
+previews, runbooks and current handoff/static identities. Preserve original
+assets, prototypes, historical reports and presenter bundles. Do not edit
+the Demo repository or create a new bundle.
+
+## Evidence
+
+Explicit user instruction after reviewing the105slide edition at a0e0dc0.
+Use the pre-index99slide handoff records to restore direct transitions.
+No new Trial, comparison, measured improvement or current-product check.
+
+## Training Relevance
+
+Protect the sequence of problems and engineering decisions while retaining
+a separate, compact route for later practical lookup.
+
+## Follow-up
+
+Render/review all102pages and6ACTs; compare99retained bodies outside ID
+references, Notes19fields/embedded parity and34fallback files. Keep
+Windows, room, product/account and timed rehearsal UNVERIFIED. Commit/push
+normally to existing origin/main without force push.

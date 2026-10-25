@@ -30,7 +30,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d{2,3}) — ([\s\S]*?)(?=^#### S\d{2,3}|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==105)throw new Error('Expected 105 source records.');
+if(Object.keys(map).length!==102)throw new Error('Expected 102 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -66,7 +66,7 @@ for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,current,practicalTipIndexFactories(tipConfig,H));
 const tipRecords=Object.fromEntries(tipConfig.tips.map(t=>[t.slideId,t]));
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
-if(moduleMap.slides.length!==105)throw new Error('Expected 105 legacy module mappings.');
+if(moduleMap.slides.length!==102)throw new Error('Expected 102 legacy module mappings.');
 const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));
 const notes={};
 for(let act=0;act<6;act++){
@@ -100,8 +100,8 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>id==='S64'?i+1:0).filter(Boolean);
-  const tableOwners=deck.ids.map((id,i)=>['S52','S61','S84'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>id==='S61'?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>['S50','S58','S80'].includes(id)?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,
