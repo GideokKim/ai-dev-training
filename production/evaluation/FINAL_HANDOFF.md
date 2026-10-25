@@ -1,10 +1,10 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-현재 기준: **DEC-0085 /99장·387분(6시간27분)**. ACT0 S01–S13/13장·42분.
-S09/S10의 가운데 카드 위 여백에 기존 삽화의 왼쪽/오른쪽 장면만 추가했다.
+현재 기준: **DEC-0086 /99장·387분(6시간27분)**. ACT0 S01–S13/13장·42분.
+S09/S10의 기존 왼쪽/오른쪽 장면 삽화를 우측 상단으로 옮겨 가로·세로1.8배로 키웠다.
 기존 글자·도형·위치·시간/Mode·근거는 동일하며 나머지97개 화면은 byte 동일하다.
 Full99+ACT0 13을 최종 패키지에서 렌더링했고 출처/운영 Cue만 Notes에 보충했다.
-[최신 삽화 반영 결과](S09_S10_ILLUSTRATION_ADDITION.md). 아래 DEC-0084 확장 검토는 당시 기록이다.
+[최신 삽화 배치 결과](S09_S10_ILLUSTRATION_LAYOUT_REVISION.md). 아래 DEC-0084 확장 검토는 당시 기록이다.
 
 S05–S10을 Crop 결과→근거→별도 환경 오류→필요한 Context→사람의 전달→Agent 조사로
 구성했다. 기존 Demo8분/Case5분은 나누고 Lecture2분만 추가했다. 이전 S08–S96은
@@ -90,13 +90,14 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `03bb6b3c65cdfeedd13f047a864f6c1dea15c614b1b89f3a8bb865a1c384da1d` |
+| PPT SHA-256 | `4d448189e616f064af4439da1a59aadbb4b98db1aa2f8e7672089f7f18a905b7` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
-| Notes SHA-256 | `807a1738474c006d60ae4a7c6816507518e343a438f50fe03af448aaab48f528` |
+| Notes SHA-256 | `3d54488a9771b174b78ab17fa98aa5d06ad6cd07bc1db9901c7b9a6b3568d08b` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S99 |
-| Montage SHA-256 | `20df192a2cbdda5c80d68b89571aac1795d49c40cb27a9d221346a0e81063e45` |
+| Montage SHA-256 | `fb67084c780bc46b710aba2c80220b276a5a84bfcb90977878f4c1de787e3c14` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S32–S49/18장·81분 |
-| 최신 검토 | [S09/S10 기존 삽화 추가](S09_S10_ILLUSTRATION_ADDITION.md) |
+| 최신 검토 | [S09/S10 삽화 확대·우측 상단](S09_S10_ILLUSTRATION_LAYOUT_REVISION.md) |
+| 이전 삽화 검토 | [기존 삽화 추가](S09_S10_ILLUSTRATION_ADDITION.md) |
 | 이전 ACT0 검토 | [조사·Context6장](ACT_0_CONTEXT_EXPANSION.md) |
 | ACT0 | [ACT_0.pptx](../ACT_0.pptx), S01–S13/13장·42분 |
 | 이전 ACT5 검토 | [기존 Harness 재평가3장](ACT_5_HARNESS_REASSESSMENT.md) |

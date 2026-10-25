@@ -1,10 +1,15 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0085 local static-file inventory only (2026-10-25).
+Status: READY — DEC-0086 local static-file inventory only (2026-10-25).
 No current-product, Windows PowerPoint, classroom or timed-rehearsal approval.
 Windows/product/account/room/timed rehearsal: UNVERIFIED.
 
 ## Current provenance
+
+DEC-0086 enlarges S09/S10 illustrations in upper-right whitespace. Existing
+text, diagrams and all34static fallback PNGs/paths/hashes remain identical.
+Only current Full/Notes/montage identities change. [Result](../../production/evaluation/S09_S10_ILLUSTRATION_LAYOUT_REVISION.md).
+
 
 DEC-0085 adds the preserved teaching-illustration scenes only to S09/S10.
 All34static fallback PNGs, paths, dimensions and hashes remain unchanged.
@@ -25,9 +30,9 @@ are unchanged. DEMO-12 remains S86/S87 with VISUAL2 on S87. No new Demo
 minutes, Trial, actual integration result or live approval. [Current result](../../production/evaluation/ACT_5_HARNESS_REASSESSMENT.md).
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `03bb6b3c65cdfeedd13f047a864f6c1dea15c614b1b89f3a8bb865a1c384da1d`
-- Full Notes SHA-256: `807a1738474c006d60ae4a7c6816507518e343a438f50fe03af448aaab48f528`
-- Full montage SHA-256: `20df192a2cbdda5c80d68b89571aac1795d49c40cb27a9d221346a0e81063e45`
+- Source SHA-256: `4d448189e616f064af4439da1a59aadbb4b98db1aa2f8e7672089f7f18a905b7`
+- Full Notes SHA-256: `3d54488a9771b174b78ab17fa98aa5d06ad6cd07bc1db9901c7b9a6b3568d08b`
+- Full montage SHA-256: `fb67084c780bc46b710aba2c80220b276a5a84bfcb90977878f4c1de787e3c14`
 - Finalized PPTX reimport/rendered by Artifact Tool at1920×1080.
 - Native fonts: Malgun Gothic/Consolas; local preview aliases AppleSDGothicNeo/Menlo.
 - Current Full inventory:99slides; current static fallback PNG inventory:34.

@@ -1,0 +1,146 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "decision": "DEC-0086",
+  "date": "2026-10-25",
+  "baseline": "10b1afe50f537bcce1c4a7870433ec1987a9adc5",
+  "slideCount": 99,
+  "totalMinutes": 387,
+  "actMinutes": {
+    "ACT 0": 42,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 36
+  },
+  "modeMinutes": {
+    "Lecture": 151,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "changedSlides": [
+    "S09",
+    "S10"
+  ],
+  "existingShapeTextStyleGeometryPreserved": true,
+  "pixelChangesConfinedToImageRectangles": {
+    "S09": [
+      748,
+      120,
+      1824,
+      519
+    ],
+    "S10": [
+      748,
+      120,
+      1824,
+      519
+    ]
+  },
+  "resizedIllustrations": [
+    {
+      "slide": "S09",
+      "sourceSha256": "7016591030cce44cab9007aa09a631d407fbbce98985eee733a644b221496cd5",
+      "cropOOXML": {
+        "b": "15000",
+        "l": "1500",
+        "r": "51000",
+        "t": "18000"
+      }
+    },
+    {
+      "slide": "S10",
+      "sourceSha256": "7016591030cce44cab9007aa09a631d407fbbce98985eee733a644b221496cd5",
+      "cropOOXML": {
+        "b": "15000",
+        "l": "51000",
+        "r": "1500",
+        "t": "18000"
+      }
+    }
+  ],
+  "scaleFactor": 1.8,
+  "oldPosition": {
+    "left": 499.015,
+    "top": 236,
+    "width": 155.97,
+    "height": 110
+  },
+  "newPosition": {
+    "left": 935.254,
+    "top": 80,
+    "width": 280.746,
+    "height": 198
+  },
+  "otherFullScreensByteIdentical": 97,
+  "notesRecords": 99,
+  "fieldsPerNotes": 19,
+  "otherNotesByteIdentical": 97,
+  "notesFieldsChanged": [
+    "Evidence / Source",
+    "Demo Operation"
+  ],
+  "renderedPNGs": 112,
+  "FullACT0PNGParity": 13,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "preexistingWarnings": [
+    {
+      "artifact": "AI_Dev_Training_Full",
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 50,
+      "table_id": "8"
+    }
+  ],
+  "nativeTablesAndChartPreserved": true,
+  "templateAssignmentsPreserved": true,
+  "otherACTPPTXUnchanged": true,
+  "sourceAssetPrototypeBundleBytesUnchanged": true,
+  "fallbackFilesUnchanged": 34,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "newProductRun": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 99,
+      "sha256": "4d448189e616f064af4439da1a59aadbb4b98db1aa2f8e7672089f7f18a905b7"
+    },
+    {
+      "path": "production/ACT_0.pptx",
+      "slideCount": 13,
+      "sha256": "775b4cf22ca26c98d39c45898c3bf55f6578f90c5a51e0f92abd4c4221eeee4f"
+    }
+  ],
+  "fullNotesSha256": "3d54488a9771b174b78ab17fa98aa5d06ad6cd07bc1db9901c7b9a6b3568d08b",
+  "fullMontageSha256": "fb67084c780bc46b710aba2c80220b276a5a84bfcb90977878f4c1de787e3c14",
+  "windowsRoomProductAccountRehearsal": "UNVERIFIED",
+  "visualReview": {
+    "changedSlidesIndividuallyReviewed": [
+      "S09",
+      "S10"
+    ],
+    "finalPNGMatchesReviewedDraft": true,
+    "newClippingOverlapIssues": 0,
+    "imageAspectRatioAndCropPreserved": true,
+    "existingTextAndShapeGeometryPreserved": true,
+    "other97ScreensByteIdentical": true
+  },
+  "officeSchemaValidation": {
+    "status": "UNAVAILABLE",
+    "reason": "Current bundled Python lacks defusedxml; no dependency changes.",
+    "packageGeometryReimport": "PASS"
+  }
+}

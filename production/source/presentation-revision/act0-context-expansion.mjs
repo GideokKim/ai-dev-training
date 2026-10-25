@@ -29,10 +29,10 @@ export async function loadAct0ContextExpansionSlides(root){
    isAgent?'OBSERVED_PRODUCT / TEACHING_MODEL':'TEACHING_MODEL');
   text(s,isAgent?'같은 조사 자료를, 허용된 파일·도구 범위에서 찾는다':
    '답을 받기 전, 사람이 관련 자료를 찾아 전달하는 방식',64,185,1152,43,30,C.teal,true);
-  // DEC-0085: reuse the matching scene in existing whitespace, above the role card.
+  // DEC-0086: enlarge the preserved scene in the upper-right whitespace.
   s.images.add({blob:illustration,contentType:'image/png',
    alt:(isAgent?'Agent-assisted investigation':'Manual context selection')+'; AI-generated teaching illustration, not a product screenshot or Trial output',
-   fit:'contain',position:{left:499.015,top:236,width:155.97,height:110},
+   fit:'contain',position:{left:935.254,top:80,width:280.746,height:198},
    crop:{left:isAgent?0.51:0.015,top:0.18,right:isAgent?0.015:0.51,bottom:0.15}});
   text(s,'필요한 정보',64,252,260,34,25,C.teal,true);
   records.forEach((label,i)=>{

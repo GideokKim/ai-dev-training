@@ -1,6 +1,6 @@
 # 사용자 검증 체크리스트
 
-갱신 기준일:2026-10-25 (Asia/Seoul). 현재99장·387분/DEC-0085. 최종 패키지·렌더·99개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
+갱신 기준일:2026-10-25 (Asia/Seoul). 현재99장·387분/DEC-0086. 최종 패키지·렌더·99개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
 아래 실환경 체크박스는 모두 미완료다. 로컬 제작 검토의 완료와 수업 운영·전달
@@ -9,13 +9,13 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `03bb6b3c65cdfeedd13f047a864f6c1dea15c614b1b89f3a8bb865a1c384da1d`
+- PPTX SHA-256: `4d448189e616f064af4439da1a59aadbb4b98db1aa2f8e7672089f7f18a905b7`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
-- Notes SHA-256: `807a1738474c006d60ae4a7c6816507518e343a438f50fe03af448aaab48f528`
+- Notes SHA-256: `3d54488a9771b174b78ab17fa98aa5d06ad6cd07bc1db9901c7b9a6b3568d08b`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S99.png`, [montage](../preview/full/montage.png)
 - 오프라인 Demo 대안: [demos/runbooks/FALLBACK_MANIFEST.md](../../demos/runbooks/FALLBACK_MANIFEST.md)
 
-위 PPTX·Notes hash는 DEC-0085의 현재99장 파일 식별자다. [S09/S10 삽화 추가 검토](S09_S10_ILLUSTRATION_ADDITION.md)를 우선한다. [이전 ACT0 확장 검토](ACT_0_CONTEXT_EXPANSION.md)의 시간·근거 범위는 유지한다. 아래 과거 평가 링크는 당시 번호·범위다. [ACT5 기존 Harness 재평가3장](ACT_5_HARNESS_REASSESSMENT.md), [이전 ACT5 흐름](ACT_5_FLOW_REVISION.md), [이전 ACT4 흐름·실제 기록·ACT5 연결](ACT_4_FLOW_REVISION.md), [이전 ACT3→ACT4 유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md), [이전 S67 성찰](S67_REFLECTION_OWNERSHIP_REVISION.md), [이전 S66 C++ 적용](S66_CPP_TRANSFER_REVISION.md), [이전 S65 외부 조건](S65_EXTERNAL_CONDITIONS_REVISION.md), [이전 S64 Harness 구조](S64_HARNESS_STRUCTURE_REVISION.md), [이전 S63 실제 구성 역할](S63_TASK_ROLES_REVISION.md), [이전 S62 지식 출처](S62_KNOWLEDGE_SOURCES_REVISION.md), [이전 S61 Context와 보존](S61_CONTEXT_RETENTION_REVISION.md), [이전 S60 작업 판단](S60_TASK_DEPENDENCY_REVISION.md), [이전 S59 역할 분리](S59_ROLE_SPLIT_REVISION.md), [이전 S57–S58 작업·검증](S57_S58_TASK_RESULT_REVISION.md), [이전 S57 후보 선택](S57_CANDIDATE_SELECTION_REVISION.md), [이전 S56 방법과 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S55 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S53/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S53 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S52 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S51 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [96→99 번호 대조](../../plan/SLIDE_ID_MIGRATION_99.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
+위 PPTX·Notes hash는 DEC-0086의 현재99장 파일 식별자다. [S09/S10 삽화 확대·배치 검토](S09_S10_ILLUSTRATION_LAYOUT_REVISION.md)를 우선한다. [이전 ACT0 확장 검토](ACT_0_CONTEXT_EXPANSION.md)의 시간·근거 범위는 유지한다. 아래 과거 평가 링크는 당시 번호·범위다. [ACT5 기존 Harness 재평가3장](ACT_5_HARNESS_REASSESSMENT.md), [이전 ACT5 흐름](ACT_5_FLOW_REVISION.md), [이전 ACT4 흐름·실제 기록·ACT5 연결](ACT_4_FLOW_REVISION.md), [이전 ACT3→ACT4 유지 책임·원인 확인 연결](ACT3_ACT4_HANDOFF_REVISION.md), [이전 S67 성찰](S67_REFLECTION_OWNERSHIP_REVISION.md), [이전 S66 C++ 적용](S66_CPP_TRANSFER_REVISION.md), [이전 S65 외부 조건](S65_EXTERNAL_CONDITIONS_REVISION.md), [이전 S64 Harness 구조](S64_HARNESS_STRUCTURE_REVISION.md), [이전 S63 실제 구성 역할](S63_TASK_ROLES_REVISION.md), [이전 S62 지식 출처](S62_KNOWLEDGE_SOURCES_REVISION.md), [이전 S61 Context와 보존](S61_CONTEXT_RETENTION_REVISION.md), [이전 S60 작업 판단](S60_TASK_DEPENDENCY_REVISION.md), [이전 S59 역할 분리](S59_ROLE_SPLIT_REVISION.md), [이전 S57–S58 작업·검증](S57_S58_TASK_RESULT_REVISION.md), [이전 S57 후보 선택](S57_CANDIDATE_SELECTION_REVISION.md), [이전 S56 방법과 판단](S56_REUSABLE_PROCEDURE_REVISION.md), [이전 S55 수행 근거](S55_SKILL_ACTION_EVIDENCE_REVISION.md), [이전 S53/S54 근거](S53_S54_SKILL_EVIDENCE_REVISION.md), [이전 S53 Skill 관리](S53_SKILL_REUSE_REVISION.md), [이전 S52 검사](S52_TASK_COMPOSITION_REVISION.md), [이전 S51 검사](S51_COMMAND_WORKFLOW_REVISION.md), [ACT3 이전 흐름 검사](ACT_3_FLOW_REVISION.md), [S40 이전 검토](S40_CODE_EVIDENCE_REVISION.md), [ACT2 장수·시간 구성](ACT_2_FLOW_REVISION.md), [96→99 번호 대조](../../plan/SLIDE_ID_MIGRATION_99.md)를 기준으로 한다. 이전 보고서의 PASS는 당시 판본이며 아래 실환경 체크는 모두 미검증이다.
 
 이전 DEC-0033–0035의 80장 렌더·구조·Notes 검토는 해당 평가 문서와 Git history의 역사적 근거다. 이전 ZIP은 payload 362개·entry 363개였으며 당시 CRC·hash·내부 링크·Notes 정합성을 확인했다. 이번에는 묶음을 갱신하지 않는다. M 표시는 관련 내용·원칙이며 원 모듈 전체 충족이 아니다. 2순위 보강은 보류한다.
 

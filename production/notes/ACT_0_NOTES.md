@@ -497,7 +497,7 @@ Lecture 2분
 3. (1:30–2:00 / Lecture) 답을 받기 전 관련 자료를 찾아 연결하는 일이 있다는 메시지만 회수한다. 같은 위치·자료 카드를 유지한 다음 S10에서 수집 주체가 달라지는 것을 본다.
 
 **Evidence / Source:**
-TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성. DEC-0085: prototype/image-illustration-pilot/assets/S07.png의 왼쪽 장면을 가운데 카드 위 여백에 재사용한다. 생성 지시는 prototype/image-illustration-pilot/PROMPTS.md의 S07에 보존한다. AI 생성 설명용 삽화이며 실제 실행 캡처·새 Trial 근거가 아니다.
+TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성. DEC-0086: prototype/image-illustration-pilot/assets/S07.png의 왼쪽 장면을 우측 상단 여백에 가로·세로1.8배로 확대해 재사용한다. 생성 지시는 prototype/image-illustration-pilot/PROMPTS.md의 S07에 보존한다. AI 생성 설명용 삽화이며 실제 실행 캡처·새 Trial 근거가 아니다.
 
 **Claim Boundary:**
 TEACHING MODEL — 실제 Chatbot 비교 실행·성능·불가능성 주장이 아니다. 환경 로그·권한 정보까지 전달하면 원인 분석 단서도 전달된다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
@@ -512,7 +512,7 @@ TEACHING MODEL — 실제 Chatbot 비교 실행·성능·불가능성 주장이 
 Contextual cue — 큰 저장소에서 필요한 자료를 찾는 상황에만 연결한다.
 
 **Demo Operation:**
-S08의 같은 다섯 자료 이름·색을 왼쪽에 유지하고 사람의 찾기/선택/전달을 거쳐 교육용 대화창으로 들어가는 흐름으로 보여준다. 누락된 자료를 도구 능력 부족으로 표현하지 않는다. 정적 경로 production/ACT_0.pptx의 S09 / production/preview/act0/S09.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S05/S06만 Demo 각4분이며 S07/S08은 Case, S09/S10은 Lecture다. 기존 도식을 먼저 따라가며, 가운데 위의 왼쪽 삽화는 같은 역할을 보충하는 교육용 그림으로만 짚는다.
+S08의 같은 다섯 자료 이름·색을 왼쪽에 유지하고 사람의 찾기/선택/전달을 거쳐 교육용 대화창으로 들어가는 흐름으로 보여준다. 누락된 자료를 도구 능력 부족으로 표현하지 않는다. 정적 경로 production/ACT_0.pptx의 S09 / production/preview/act0/S09.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S05/S06만 Demo 각4분이며 S07/S08은 Case, S09/S10은 Lecture다. 기존 도식을 먼저 따라가며, 우측 상단의 왼쪽 장면 삽화는 같은 역할을 보충하는 교육용 그림으로만 짚는다.
 
 **Audience Interaction:**
 한 장의 질문을 따라 관찰·해석하게 한다. 응답·실습·새 실행·공개 제출을 요구하지 않는다.
@@ -560,7 +560,7 @@ TRIAL-001에서 Agent가 허용된 파일·도구 범위의 테스트·코드·�
 4. (1:50–2:00 / Lecture) “이 교육에서는 어디에서 Repository를 열까요?”로 S11의 기존 Codex 진입 안내를 연다. Task 의도와 접근의 차이는 S12에 남긴다.
 
 **Evidence / Source:**
-TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성. DEC-0085: prototype/image-illustration-pilot/assets/S07.png의 오른쪽 장면을 가운데 카드 위 여백에 재사용한다. 생성 지시는 prototype/image-illustration-pilot/PROMPTS.md의 S07에 보존한다. AI 생성 설명용 삽화이며 실제 실행 캡처·새 Trial 근거가 아니다.
+TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성. DEC-0086: prototype/image-illustration-pilot/assets/S07.png의 오른쪽 장면을 우측 상단 여백에 가로·세로1.8배로 확대해 재사용한다. 생성 지시는 prototype/image-illustration-pilot/PROMPTS.md의 S07에 보존한다. AI 생성 설명용 삽화이며 실제 실행 캡처·새 Trial 근거가 아니다.
 
 **Claim Boundary:**
 FROZEN WITH SCOPE — 실제 관찰은 과거 Codex CLI0.154.0 한 번; TEACHING MODEL — 그림은 조사 관계의 각색. 현재 Desktop·일반 효율·반복성·권한 확대/해결을 주장하지 않는다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
@@ -575,7 +575,7 @@ Context 수집 역할의 일부와 목표 설정·권한·수용 판단 책임�
 Contextual cue — 저장소의 모듈·테스트·명세 조사에만 연결한다.
 
 **Demo Operation:**
-S09와 같은 다섯 자료·수집 주체·출력의 위치를 유지하되, 주체를 Agent와 허용된 조사로 바꾸고 오른쪽에 관찰된 조사 내용을 둔다. Repository 자료와 실행 권한이 별개이며 사람의 목표·검토 책임을 유지한다. 정적 경로 production/ACT_0.pptx의 S10 / production/preview/act0/S10.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S05/S06만 Demo 각4분이며 S07/S08은 Case, S09/S10은 Lecture다. 기존 도식을 먼저 따라가며, 가운데 위의 오른쪽 삽화는 같은 역할을 보충하는 교육용 그림으로만 짚는다.
+S09와 같은 다섯 자료·수집 주체·출력의 위치를 유지하되, 주체를 Agent와 허용된 조사로 바꾸고 오른쪽에 관찰된 조사 내용을 둔다. Repository 자료와 실행 권한이 별개이며 사람의 목표·검토 책임을 유지한다. 정적 경로 production/ACT_0.pptx의 S10 / production/preview/act0/S10.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S05/S06만 Demo 각4분이며 S07/S08은 Case, S09/S10은 Lecture다. 기존 도식을 먼저 따라가며, 우측 상단의 오른쪽 장면 삽화는 같은 역할을 보충하는 교육용 그림으로만 짚는다.
 
 **Audience Interaction:**
 한 장의 질문을 따라 관찰·해석하게 한다. 응답·실습·새 실행·공개 제출을 요구하지 않는다.

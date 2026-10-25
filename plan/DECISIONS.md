@@ -9385,3 +9385,75 @@ Render/review S09/S10 and reimport Full99/ACT0 13. Confirm existing shapes,
 text, budgets,97other screens,19-field Notes and fallback identities remain
 intact. Keep Windows/room/product/account/timed rehearsal UNVERIFIED.
 Commit/push normally to existing origin/main; no new presenter bundle.
+
+
+# DEC-0086 — Enlarge S09 and S10 illustrations in upper-right whitespace
+
+## Status
+
+ACCEPTED — explicit user request to enlarge the illustrations without
+covering existing text or diagrams, preferably in the upper-right area.
+
+## Date
+
+2026-10-25
+
+## Context
+
+DEC-0085 restores the two scenes as small images above the center role
+cards. The user finds them too small for the intended presentation.
+
+## Problem
+
+Improve the visibility of each scene while keeping the existing diagram
+and all wording intact.
+
+## Decision
+
+Move each image above the right output panel, aligned to its right edge.
+Increase width and height by1.8x, from155.97x110 to280.746x198 canvas units.
+Retain the original bytes, crops and aspect ratio. Supersede only the
+placement in DEC-0085; retain its role selection and evidence boundary.
+Keep all existing shapes/text/positions,99slides/387minutes and allocations.
+Align the corresponding Notes position cues and current delivery identities.
+
+## Rationale
+
+The upper-right space allows a larger supporting illustration while the
+existing source-role-output diagram continues to carry the explanation.
+
+## Alternatives
+
+Expand in the narrow space above the center card; height remains limited.
+Move text or diagram blocks; that introduces unnecessary layout changes.
+
+## Trade-offs
+
+The illustration becomes more prominent, with a gap above the output panel.
+It remains an AI-generated teaching scene, not a screenshot or new evidence.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-DELIVERY-001, INV-RESEARCH-001.
+
+## Affected Artifacts
+
+S09/S10 source, Full/ACT0 PPTX/previews, corresponding Notes, current maps
+and delivery metadata. Other ACTs, original assets, Demo and bundles stay
+unchanged.
+
+## Evidence
+
+Explicit user feedback and baseline10b1afe renders. No new Trial, product
+execution or measured effect.
+
+## Training Relevance
+
+Keep the collection-role comparison visible without changing its claims.
+
+## Follow-up
+
+Render/review both slides, confirm image ratio/gaps and unchanged text/shape
+geometry, and compare the other97screens. Validate Full/ACT0 and Notes.
+Keep Windows/room/product/account/timed rehearsal UNVERIFIED. Commit/push
+normally to existing origin/main; do not create a presenter bundle.

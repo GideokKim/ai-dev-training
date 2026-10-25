@@ -1,8 +1,9 @@
 # STEP 08 — Slide-to-Template Mapping
 
-> DEC-0085 (2026-10-25): S09/S10 retain T03-C and their existing native diagrams.
-> Add the matching half of the preserved S07 teaching illustration above the
-> center role card. No text, shape, template assignment, timing or claim changes.
+> DEC-0086 (2026-10-25): S09/S10 retain T03-C and their existing native diagrams.
+> Enlarge the matching half of the preserved S07 teaching illustration by1.8x
+> in each dimension, in upper-right whitespace above the output panel.
+> Existing text/shapes, template assignments, timing and claims are unchanged.
 
 ## Current ACT0 expansion — DEC-0084
 
