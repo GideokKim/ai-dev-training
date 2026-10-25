@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-Status: READY — DEC-0088 local static-file inventory only (2026-10-25).
+Status: READY — DEC-0089 local static-file inventory only (2026-10-25).
 Windows/product/account/room/timed rehearsal: UNVERIFIED.
 
 ## Current source identities
 
 - Source: `production/AI_Dev_Training_Full.pptx`
-- Source SHA-256: `ad14cf7057d8b9ff853052543afd69675b853234888c704ac68bc28045b4a69e`
+- Source SHA-256: `83e892013f730f5f9e2226ede0f0fbea8870b13433079ea6a3d8d74e2130262a`
 - Full Notes SHA-256: `297c39f7030e53152f08bd37d248ece7ddd022d728f856587a3bb8285cdd2d7b`
-- Full montage SHA-256: `b14bc7e7f37006dc5ade2c64d6ced46587c643c11ac57860829cc812c47d310f`
+- Full montage SHA-256: `80eaeda194b6d4bb6c1b295868c67f98da0e447e44743a45a4a305cad8d7d9aa`
 - Current Full:102slides/390minutes; static fallback inventory:34PNGs.
 - Native fonts Malgun Gothic/Consolas; local aliases AppleSDGothicNeo/Menlo.
 - Current IDs follow SLIDE_ID_MIGRATION_102.md. The final3reference pages
@@ -16,7 +16,8 @@ Windows/product/account/room/timed rehearsal: UNVERIFIED.
 - Final-package/Notes/ACT/PNG and current34paths/hashes were checked locally.
 - Old provenance below retains its dated edition. Use the current mapping
   and identities for playback. No presenter bundle.
-- [Result](../../production/evaluation/FINAL_PRACTICAL_TIPS_CONSOLIDATION.md).
+- Latest visual revision: S54 branch arrows only; all34fallback PNGs remain unchanged.
+- [Result](../../production/evaluation/S54_BRANCH_ARROW_REVISION.md).
 
 ## Historical provenance — DEC-0086 and earlier
 

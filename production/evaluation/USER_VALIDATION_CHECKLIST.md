@@ -1,5 +1,8 @@
 # 사용자 검증 체크리스트
 
+최신 시각 수정은 DEC-0089의 S54 화살표 굵기 정렬이다. [로컬 검토](S54_BRANCH_ARROW_REVISION.md)를
+참고하되 아래 실환경 확인 상태는 UNVERIFIED로 유지한다.
+
 갱신 기준일:2026-10-25 (Asia/Seoul). 현재102장·390분/DEC-0088. 최종 패키지·렌더·102개 Notes 로컬 대조 완료. 실환경·리허설은 아래에서 사용자가 직접 기록한다. 기존 ZIP은 역사적 묶음이다.
 
 상태: **USER REQUIRED — 실환경 확인·실측 리허설·최종 전달은 UNVERIFIED.**
@@ -9,7 +12,7 @@
 대상 후보:
 
 - 통합 덱: [production/AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx)
-- PPTX SHA-256: `ad14cf7057d8b9ff853052543afd69675b853234888c704ac68bc28045b4a69e`
+- PPTX SHA-256: `83e892013f730f5f9e2226ede0f0fbea8870b13433079ea6a3d8d74e2130262a`
 - 통합 Notes: [production/notes/FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md)
 - Notes SHA-256: `297c39f7030e53152f08bd37d248ece7ddd022d728f856587a3bb8285cdd2d7b`
 - 전체 정적 렌더: `production/preview/full/S01.png`–`S102.png`, [montage](../preview/full/montage.png)

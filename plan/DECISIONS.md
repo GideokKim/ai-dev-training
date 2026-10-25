@@ -9631,3 +9631,68 @@ Render/review all102pages and6ACTs; compare99retained bodies outside ID
 references, Notes19fields/embedded parity and34fallback files. Keep
 Windows, room, product/account and timed rehearsal UNVERIFIED. Commit/push
 normally to existing origin/main without force push.
+
+
+# DEC-0089 — Match S54 branch-arrow stroke weights
+
+## Status
+
+ACCEPTED — explicit user annotation on ACT3's shared-information diagram.
+
+## Date
+
+2026-10-25
+
+## Context
+
+S54 connects one shared AGENTS.md information row to three work stages.
+The2px branch line meets filled block-arrow shapes with heavier shafts.
+
+## Problem
+
+The arrow shafts have a different visual weight from their connected bus.
+
+## Decision
+
+Replace only the three gray downward block arrows with straight native
+connectors using the same2px stroke/color as the shared bus and stem.
+Keep their centers and endpoints. Use small native triangle arrowheads.
+Update ACT3 and the integrated PPT, corresponding previews and identities.
+
+## Rationale
+
+A consistent line weight makes the shared branch read as one diagram.
+
+## Alternatives
+
+Thicken the full branch; changes the visual emphasis unnecessarily.
+Keep filled block arrows; retains the mismatch identified by the user.
+
+## Trade-offs
+
+The three arrowheads become smaller. Text, information flow and all other
+shapes, budgets, Notes and evidence remain unchanged.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-IDENTITY-001.
+
+## Affected Artifacts
+
+S54 source, ACT3/Full PPTX, S54/overview previews, Slide Map visual note,
+current delivery/static identities and the local revision result.
+
+## Evidence
+
+Explicit user annotation on ACT_3.pptx, shared-information work-stage page.
+Baseline619342a; no new Trial or product behavior.
+
+## Training Relevance
+
+Improve diagram continuity without changing the teaching content.
+
+## Follow-up
+
+Render/review S54, compare other101pages and Notes, preserve102slides/
+390minutes, then commit/push normally to origin/main. Keep external gates
+UNVERIFIED. Do not edit the Demo repository or create a presenter bundle.

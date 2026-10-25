@@ -1,5 +1,7 @@
 # ACT 3 Production Evaluation
 
+> Latest visual refinement: DEC-0089 / S54 gray branch arrows now match the2px connecting lines. See [local result](S54_BRANCH_ARROW_REVISION.md). Content/Notes/budgets and evidence scope are unchanged.
+
 > Current edition: DEC-0088 /102slides/390minutes. ACT3: 18slides/85minutes. See [final reference block](FINAL_PRACTICAL_TIPS_CONSOLIDATION.md) and [105→102](../../plan/SLIDE_ID_MIGRATION_102.md). Dated audit below retains its edition; external gates remain UNVERIFIED.
 
 > Historical edition: DEC-0087 /105slides/393minutes. See [tip/index result](PRACTICAL_APPLICATION_TIPS.md) and [99→105](../../plan/SLIDE_ID_MIGRATION_105.md). Dated audit below retains its edition; external gates remain UNVERIFIED.

@@ -1,5 +1,8 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+최신 시각 수정: **DEC-0089 / S54 공통 분기선·화살표 굵기 정렬**. 현재102장·390분과
+내용·Notes·근거 범위는 동일하다. [수정 결과](S54_BRANCH_ARROW_REVISION.md).
+
 현재 기준: **DEC-0088 /102장·390분(6시간30분)**. ACT 중간의 팁 목록6장을 제거하고
 마지막 Q&A/Closing 직전 S99–S101로 통합했다. 기존17개 팁 설명·배지와99개 본문
 장별 배정·내용·근거를 유지한다. ACT 장수13/21/18/18/18/14,
@@ -114,14 +117,15 @@ Subagent별로 나누는 경우를 비교하고 같은 주 Agent의 분담·근�
 | 항목 | 경로 / 식별자 |
 |---|---|
 | 통합 PPT | [AI_Dev_Training_Full.pptx](../AI_Dev_Training_Full.pptx) |
-| PPT SHA-256 | `ad14cf7057d8b9ff853052543afd69675b853234888c704ac68bc28045b4a69e` |
+| PPT SHA-256 | `83e892013f730f5f9e2226ede0f0fbea8870b13433079ea6a3d8d74e2130262a` |
 | 통합 Notes | [FULL_SPEAKER_NOTES.md](../notes/FULL_SPEAKER_NOTES.md) |
 | Notes SHA-256 | `297c39f7030e53152f08bd37d248ece7ddd022d728f856587a3bb8285cdd2d7b` |
 | 전체 preview | [montage](../preview/full/montage.png) /S01–S102 |
-| Montage SHA-256 | `b14bc7e7f37006dc5ade2c64d6ced46587c643c11ac57860829cc812c47d310f` |
+| Montage SHA-256 | `80eaeda194b6d4bb6c1b295868c67f98da0e447e44743a45a4a305cad8d7d9aa` |
 | ACT2 | [ACT_2.pptx](../ACT_2.pptx), S35–S52/18장·81분 |
 | ACT1 | [ACT_1.pptx](../ACT_1.pptx), S14–S34/21장·63분 |
-| 최신 검토 | [마지막 팁 요약](FINAL_PRACTICAL_TIPS_CONSOLIDATION.md) |
+| 최신 검토 | [S54 연결선 굵기](S54_BRANCH_ARROW_REVISION.md) |
+| 이전 배치 검토 | [마지막 팁 요약](FINAL_PRACTICAL_TIPS_CONSOLIDATION.md) |
 | 이전 팁 검토 | [ACT별 배치 당시 기록](PRACTICAL_APPLICATION_TIPS.md) |
 | 이전 삽화 검토 | [S09/S10 확대·우측 상단](S09_S10_ILLUSTRATION_LAYOUT_REVISION.md) |
 | 이전 삽화 검토 | [기존 삽화 추가](S09_S10_ILLUSTRATION_ADDITION.md) |

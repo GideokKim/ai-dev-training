@@ -1,6 +1,6 @@
 # MASTER EXECUTION STATUS
 
-> Current-version router — 현재 DEC-0088 /102장·390분은 [마지막 팁 요약 결과](FINAL_PRACTICAL_TIPS_CONSOLIDATION.md), [105→102 이행표](../../plan/SLIDE_ID_MIGRATION_102.md), [최종 전달 안내](FINAL_HANDOFF.md)를 따른다. 아래 실행 보고서는 역사적 판본이며 과거 PASS는 현행 실환경 확인이 아니다.
+> Current-version router — 현재102장·390분 배치는 DEC-0088을, S54 화살표 굵기 보정은 DEC-0089의 [최신 시각 검토](S54_BRANCH_ARROW_REVISION.md)를 따른다. [마지막 팁 요약](FINAL_PRACTICAL_TIPS_CONSOLIDATION.md), [현재 전달 안내](FINAL_HANDOFF.md). 아래 실행 보고서는 역사적 판본이며 과거 PASS는 현행 실환경 확인이 아니다.
 
 > Historical record — 이 문서는 DEC-0036 이전 80장 판의 번호와 검증 결과를 보존한다. 현재 81장 판과의 대응은 [Slide ID Migration](../../plan/SLIDE_ID_MIGRATION.md)을 따른다. 과거 PASS는 현재 파일의 재검증을 뜻하지 않는다.
 

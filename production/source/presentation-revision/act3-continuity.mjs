@@ -43,7 +43,8 @@ export async function loadAct3ContinuitySlides(root, previous) {
    // The same source feeds each stage; these are not exclusive file classes.
    s.shapes.add({geometry:'line',position:{left:640,top:313,width:0,height:20},fill:'none',line:{fill:C.line,width:2}});
    line(s,240,333,800,C.line,2);
-   [240,640,1040].forEach(x=>down(s,x-9,333,18,18,C.line));
+   // Keep branch arrows and their shared bus at the same stroke weight.
+   [240,640,1040].forEach(x=>s.shapes.add({geometry:'connector',kind:'straight',position:{left:x,top:333,width:0,height:18},line:{fill:C.line,width:2},tail:{type:'triangle',width:'sm',length:'sm'}}));
    const stages=[
     [64,'01  변경 전','현재 테스트·성능 확인','원래 상태는 어땠지?'],
     [464,'02  변경 후','같은 조건으로 다시 측정','무엇이 달라졌지?'],

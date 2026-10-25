@@ -1485,7 +1485,7 @@ ACT별 Mode 대조:
 - **Transition:** “지금 본 수행 방법을 이번 요청의 목표, 프로젝트 기준과 함께 놓아 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0060, DEC-0062, DEC-0063, DEC-0087
+- **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0060, DEC-0062, DEC-0063, DEC-0087, DEC-0089
 - **Practical Tip Classification:** 수행 방법
 
 #### S55 — 목표·기준·방법을 한 작업에 적용한다

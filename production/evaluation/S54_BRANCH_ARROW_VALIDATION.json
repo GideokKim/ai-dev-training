@@ -1,0 +1,39 @@
+{
+  "status": "PASS — local rendering/package/Notes alignment",
+  "decision": "DEC-0089",
+  "baseline": "619342a84cac6d0c35ddcf86ae725847b6b84d46",
+  "slide": "S54",
+  "changedArrows": 3,
+  "strokeWidthPixels": 2,
+  "nativeTriangleArrowheads": true,
+  "allTextAndNotesUnchanged": true,
+  "unchangedOtherFullPages": 101,
+  "unchangedOtherACT3Pages": 17,
+  "changedPixelsConfinedToThreeArrows": true,
+  "otherObjectsOnS54Unchanged": true,
+  "renderedPages": 120,
+  "FullACT3Parity": 18,
+  "slideCount": 102,
+  "totalMinutes": 390,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 102,
+      "sha256": "83e892013f730f5f9e2226ede0f0fbea8870b13433079ea6a3d8d74e2130262a",
+      "packageFindings": 0,
+      "layoutFindings": 0
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 18,
+      "sha256": "5063d7d16447766e58180b58ba6affc5df7cc440015b82c87986f6069503d853",
+      "packageFindings": 0,
+      "layoutFindings": 0
+    }
+  ],
+  "fullMontageSha256": "80eaeda194b6d4bb6c1b295868c67f98da0e447e44743a45a4a305cad8d7d9aa",
+  "fullNotesSha256": "297c39f7030e53152f08bd37d248ece7ddd022d728f856587a3bb8285cdd2d7b",
+  "sourceAssetsAndOther5ACTsPreserved": true,
+  "demoRepositoryUnchanged": true,
+  "externalGates": "UNVERIFIED"
+}
