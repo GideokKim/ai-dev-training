@@ -14,6 +14,13 @@ Mode Lecture176/Demo49/Case105/Reflection22/Transition26/Q&A32분.
 구분하며 새 Trial·제품/모델 실행·성과는 없다. Demo 저장소·묶음 자료도 변경하지 않았다.
 Windows·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED다.
 
+## 웹 읽기 자료
+
+[ACT별 읽기 가이드](https://ai-dev-training-guide.noah-potato.chatgpt.site) — Sites Version1, OWNER_PRIVATE.
+6ACT·52개 절을 확정 PPT와 내장 Notes의 범위에서 설명한다. 검색·절별 출처·원본 PPT
+다운로드를 제공한다. 웹에서 새 교육 사례·연구·제품 성과를 추가하지 않았다.
+[웹 검토 결과](WEB_READING_GUIDE.md), [관리 기준](../../plan/WEB_READING_GUIDE.md).
+
 ## 현재 파일 식별
 
 | 파일 | SHA-256 |

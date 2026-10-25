@@ -1,0 +1,544 @@
+{
+  "title": "AI 개발자 교육 — 읽기 가이드",
+  "basis": "production/AI_Dev_Training_Full.pptx",
+  "sourceCommit": "e04b88e",
+  "sourceSHA256": "9d43e104b6e71b44794a0bc8844ac9ca847cb807aabeea05b9c1b30d09dc2f83",
+  "slideCount": 116,
+  "presentationMinutes": 410,
+  "date": "2026-10-25",
+  "sections": [
+    {
+      "act": 0,
+      "url": "/act-0/#starting-point",
+      "title": "지금 AI에게 어디까지 맡기고 있나요?",
+      "sourceSlides": [
+        "S01",
+        "S02"
+      ],
+      "evidence": "교육용 설명"
+    },
+    {
+      "act": 0,
+      "url": "/act-0/#vector-initialization",
+      "title": "작은 질문: 괄호만 바꾸면 같은 vector일까요?",
+      "sourceSlides": [
+        "S03"
+      ],
+      "evidence": "교육용 C++ 예시"
+    },
+    {
+      "act": 0,
+      "url": "/act-0/#debugging-context",
+      "title": "디버깅할 때 우리가 함께 보는 정보",
+      "sourceSlides": [
+        "S04"
+      ],
+      "evidence": "교육용 설명"
+    },
+    {
+      "act": 0,
+      "url": "/act-0/#crop-investigation",
+      "title": "실패 테스트·명세·구현을 연결해 본 조사",
+      "sourceSlides": [
+        "S05",
+        "S06",
+        "S07"
+      ],
+      "evidence": "실제 관찰 기록"
+    },
+    {
+      "act": 0,
+      "url": "/act-0/#execution-conditions",
+      "title": "같은 실행의 오류라도 원인은 달랐습니다",
+      "sourceSlides": [
+        "S08",
+        "S09"
+      ],
+      "evidence": "실제 관찰 + 교육용 해석"
+    },
+    {
+      "act": 0,
+      "url": "/act-0/#who-collects-context",
+      "title": "필요한 자료를 누가 찾아 연결할까요?",
+      "sourceSlides": [
+        "S10",
+        "S11"
+      ],
+      "evidence": "관찰과 교육용 가정의 비교"
+    },
+    {
+      "act": 0,
+      "url": "/act-0/#codex-entry",
+      "title": "실무 적용 팁: Repository 작업은 Codex에서 시작합니다",
+      "sourceSlides": [
+        "S12"
+      ],
+      "evidence": "공식 안내를 각색한 제품 활용 팁"
+    },
+    {
+      "act": 0,
+      "url": "/act-0/#access-and-intent",
+      "title": "저장소를 볼 수 있어도, 원하는 결과는 정해야 합니다",
+      "sourceSlides": [
+        "S13",
+        "S14"
+      ],
+      "evidence": "교육용 설명"
+    },
+    {
+      "act": 1,
+      "url": "/act-1/#ambiguity",
+      "title": "짧은 요청에는 아직 정하지 않은 것이 있습니다",
+      "sourceSlides": [
+        "S15",
+        "S16",
+        "S17",
+        "S18"
+      ],
+      "evidence": "교육용 요청 예시"
+    },
+    {
+      "act": 1,
+      "url": "/act-1/#task-specification",
+      "title": "개발자가 정할 경계를 다섯 책임으로 나눕니다",
+      "sourceSlides": [
+        "S19",
+        "S20",
+        "S21"
+      ],
+      "evidence": "교육용 작업 명세 모델"
+    },
+    {
+      "act": 1,
+      "url": "/act-1/#request-to-record",
+      "title": "실제 요청 문장과 작업 기록을 대조합니다",
+      "sourceSlides": [
+        "S22",
+        "S23",
+        "S24"
+      ],
+      "evidence": "실제 관찰 기록"
+    },
+    {
+      "act": 1,
+      "url": "/act-1/#completion-evidence",
+      "title": "“완료했습니다”를 확인 가능한 보고로 바꿉니다",
+      "sourceSlides": [
+        "S25",
+        "S26"
+      ],
+      "evidence": "관찰 범위 + 교육용 C++ 예시"
+    },
+    {
+      "act": 1,
+      "url": "/act-1/#delimiters-and-examples",
+      "title": "요청 문장 도구: 구분 표시와 작은 예시",
+      "sourceSlides": [
+        "S27",
+        "S28"
+      ],
+      "evidence": "공식 안내 기반 교육용 Prompt"
+    },
+    {
+      "act": 1,
+      "url": "/act-1/#format-and-grounding",
+      "title": "요청 문장 도구: 결과 형식과 근거 위치",
+      "sourceSlides": [
+        "S29",
+        "S30"
+      ],
+      "evidence": "공식 안내 기반 교육용 Prompt"
+    },
+    {
+      "act": 1,
+      "url": "/act-1/#clarify-and-decompose",
+      "title": "요청 문장 도구: 확인 질문과 작업 나누기",
+      "sourceSlides": [
+        "S31",
+        "S32"
+      ],
+      "evidence": "공식 안내 기반 교육용 Prompt"
+    },
+    {
+      "act": 1,
+      "url": "/act-1/#review-and-feedback",
+      "title": "요청 문장 도구: 기준을 둔 리뷰와 수정 피드백",
+      "sourceSlides": [
+        "S33",
+        "S34"
+      ],
+      "evidence": "공식 안내 기반 교육용 Prompt"
+    },
+    {
+      "act": 1,
+      "url": "/act-1/#task-and-project-lifetime",
+      "title": "잘 쓴 요청에서도 반복되는 설명이 남습니다",
+      "sourceSlides": [
+        "S35",
+        "S36"
+      ],
+      "evidence": "교육용 설명"
+    },
+    {
+      "act": 2,
+      "url": "/act-2/#repeated-project-facts",
+      "title": "서로 다른 작업에 같은 설명이 반복됩니다",
+      "sourceSlides": [
+        "S37",
+        "S38",
+        "S39",
+        "S40"
+      ],
+      "evidence": "실제 관찰 + 교육용 설명"
+    },
+    {
+      "act": 2,
+      "url": "/act-2/#task-context",
+      "title": "이번 결과와 계속 유지할 정보를 나눕니다",
+      "sourceSlides": [
+        "S41"
+      ],
+      "evidence": "교육용 설명"
+    },
+    {
+      "act": 2,
+      "url": "/act-2/#growing-context",
+      "title": "정확한 정보도 이번 작업에는 불필요할 수 있습니다",
+      "sourceSlides": [
+        "S42",
+        "S43",
+        "S44"
+      ],
+      "evidence": "실제 관찰 + 교육용 해석"
+    },
+    {
+      "act": 2,
+      "url": "/act-2/#lost-in-the-middle",
+      "title": "연구: 넣어 준 정보를 실제 근거로 쓰는가?",
+      "sourceSlides": [
+        "S45"
+      ],
+      "evidence": "연구 결과의 조건부 해석"
+    },
+    {
+      "act": 2,
+      "url": "/act-2/#retrieval-evidence",
+      "title": "필요한 코드를 찾았는지 무엇으로 확인할까요?",
+      "sourceSlides": [
+        "S46"
+      ],
+      "evidence": "교육용 확인 기준 + 보조 연구"
+    },
+    {
+      "act": 2,
+      "url": "/act-2/#core-and-detail",
+      "title": "공통 안내에서 필요한 상세로 이어지는 길",
+      "sourceSlides": [
+        "S47",
+        "S48",
+        "S49"
+      ],
+      "evidence": "교육용 모델 + 관찰된 문서 구조"
+    },
+    {
+      "act": 2,
+      "url": "/act-2/#two-context-tasks",
+      "title": "두 실제 질문에서 어떤 자료를 읽었을까요?",
+      "sourceSlides": [
+        "S50",
+        "S51",
+        "S52",
+        "S53"
+      ],
+      "evidence": "실제 관찰 기록"
+    },
+    {
+      "act": 2,
+      "url": "/act-2/#context-to-workflow",
+      "title": "지식은 정리했지만 절차는 반복됩니다",
+      "sourceSlides": [
+        "S54",
+        "S55"
+      ],
+      "evidence": "교육용 종합"
+    },
+    {
+      "act": 3,
+      "url": "/act-3/#repeated-procedure",
+      "title": "목표는 달라도 확인·판단하는 절차가 반복됩니다",
+      "sourceSlides": [
+        "S56",
+        "S57",
+        "S58",
+        "S59",
+        "S60"
+      ],
+      "evidence": "실제 요청 기록 + 교육용 모델"
+    },
+    {
+      "act": 3,
+      "url": "/act-3/#skill-observation",
+      "title": "Skill 본문 포함과 실제 수행은 다른 근거로 봅니다",
+      "sourceSlides": [
+        "S61",
+        "S62"
+      ],
+      "evidence": "실제 관찰 기록"
+    },
+    {
+      "act": 3,
+      "url": "/act-3/#create-a-skill",
+      "title": "실무 적용 팁: 대화로 Skill 초안을 만듭니다",
+      "sourceSlides": [
+        "S63"
+      ],
+      "evidence": "공식 안내 기반 교육용 요청"
+    },
+    {
+      "act": 3,
+      "url": "/act-3/#method-and-answer",
+      "title": "절차는 재사용하고, 답은 이번 근거로 정합니다",
+      "sourceSlides": [
+        "S64"
+      ],
+      "evidence": "실제 지침 + 교육용 판단 모델"
+    },
+    {
+      "act": 3,
+      "url": "/act-3/#statistics-performance",
+      "title": "밝기 통계 코드 변경에서 실제로 확인한 것",
+      "sourceSlides": [
+        "S65",
+        "S66"
+      ],
+      "evidence": "실제 관찰·측정 기록"
+    },
+    {
+      "act": 3,
+      "url": "/act-3/#subagent-roles",
+      "title": "역할 분리는 독립 조사와 결과 종합의 문제입니다",
+      "sourceSlides": [
+        "S67",
+        "S68",
+        "S69"
+      ],
+      "evidence": "교육용 역할 모델 + 실제 보류 판단"
+    },
+    {
+      "act": 3,
+      "url": "/act-3/#context-and-retained-knowledge",
+      "title": "이번 Context와 다음에도 쓸 지식",
+      "sourceSlides": [
+        "S70",
+        "S71"
+      ],
+      "evidence": "개념 사례 + 실제 지식 출처 감사"
+    },
+    {
+      "act": 3,
+      "url": "/act-3/#harness-and-reuse",
+      "title": "함께 작동하는 Harness와 프로젝트별 적용 조건",
+      "sourceSlides": [
+        "S72",
+        "S73",
+        "S74",
+        "S75"
+      ],
+      "evidence": "관찰된 구성 + 교육용 설계 모델"
+    },
+    {
+      "act": 3,
+      "url": "/act-3/#harness-to-loop",
+      "title": "작업 방법을 준비해도 다음 수정은 남습니다",
+      "sourceSlides": [
+        "S76",
+        "S77",
+        "S78",
+        "S79",
+        "S80",
+        "S81"
+      ],
+      "evidence": "관찰 범위 + 교육용 반복 설계"
+    },
+    {
+      "act": 4,
+      "url": "/act-4/#goal-and-criteria",
+      "title": "같은 목표를 이어가려면 완료 기준부터 정합니다",
+      "sourceSlides": [
+        "S82",
+        "S83",
+        "S84"
+      ],
+      "evidence": "교육용 가상 사례"
+    },
+    {
+      "act": 4,
+      "url": "/act-4/#candidate-and-tools",
+      "title": "첫 후보와 확인 근거를 구분합니다",
+      "sourceSlides": [
+        "S85",
+        "S86"
+      ],
+      "evidence": "교육용 가상 사례"
+    },
+    {
+      "act": 4,
+      "url": "/act-4/#review-to-revision",
+      "title": "검토 지적을 다음 변경과 대응시킵니다",
+      "sourceSlides": [
+        "S87",
+        "S88",
+        "S89"
+      ],
+      "evidence": "교육용 가상 사례"
+    },
+    {
+      "act": 4,
+      "url": "/act-4/#continue-complete-stop",
+      "title": "완료·다음 수정·미완료 중단은 다릅니다",
+      "sourceSlides": [
+        "S90",
+        "S91"
+      ],
+      "evidence": "교육용 루프 운영 모델"
+    },
+    {
+      "act": 4,
+      "url": "/act-4/#model-review-research",
+      "title": "연구는 검토 방식과 모델 조합을 설계할 근거입니다",
+      "sourceSlides": [
+        "S92",
+        "S93",
+        "S94"
+      ],
+      "evidence": "조건이 한정된 연구 결과"
+    },
+    {
+      "act": 4,
+      "url": "/act-4/#review-evidence-and-state",
+      "title": "검토 모델의 의견도 근거와 대조합니다",
+      "sourceSlides": [
+        "S95",
+        "S96",
+        "S97",
+        "S98"
+      ],
+      "evidence": "교육용 역할·상태 설계"
+    },
+    {
+      "act": 4,
+      "url": "/act-4/#goal-product-tip",
+      "title": "실무 적용 팁: Goal로 이어가기와 완료 기준",
+      "sourceSlides": [
+        "S99",
+        "S100"
+      ],
+      "evidence": "공식 안내를 각색한 제품 활용 팁"
+    },
+    {
+      "act": 4,
+      "url": "/act-4/#loop-reflection",
+      "title": "우리 작업에 필요한 루프를 정리합니다",
+      "sourceSlides": [
+        "S101"
+      ],
+      "evidence": "개인 성찰을 위한 교육용 질문"
+    },
+    {
+      "act": 5,
+      "url": "/act-5/#scope-of-delegation",
+      "title": "AI에게 맡기는 범위가 넓어졌습니다",
+      "sourceSlides": [
+        "S102",
+        "S103"
+      ],
+      "evidence": "교육용 종합"
+    },
+    {
+      "act": 5,
+      "url": "/act-5/#connected-work",
+      "title": "요청부터 판단까지 이어지는 작업과 수행 조건",
+      "sourceSlides": [
+        "S104",
+        "S105"
+      ],
+      "evidence": "교육용 구조 설명"
+    },
+    {
+      "act": 5,
+      "url": "/act-5/#human-acceptance",
+      "title": "완료 보고 뒤에도 수용 판단은 남습니다",
+      "sourceSlides": [
+        "S106",
+        "S107"
+      ],
+      "evidence": "교육용 책임·개발 방식 모델"
+    },
+    {
+      "act": 5,
+      "url": "/act-5/#reassess-after-change",
+      "title": "모델·플랫폼이 달라지면 기존 역할도 다시 봅니다",
+      "sourceSlides": [
+        "S108"
+      ],
+      "evidence": "공개 사례 + 교육용 각색"
+    },
+    {
+      "act": 5,
+      "url": "/act-5/#keep-combine-remove",
+      "title": "목표와 검증 요구를 지키며 통합·제거를 검토합니다",
+      "sourceSlides": [
+        "S109"
+      ],
+      "evidence": "교육용 판단 기준"
+    },
+    {
+      "act": 5,
+      "url": "/act-5/#compare-before-adoption",
+      "title": "덜어낸 뒤에도 필요한 일을 하는지 확인합니다",
+      "sourceSlides": [
+        "S110"
+      ],
+      "evidence": "평가 설계 · 실제 실행 결과 없음"
+    },
+    {
+      "act": 5,
+      "url": "/act-5/#choose-a-problem",
+      "title": "내 업무에서 가까운 문제 하나를 고릅니다",
+      "sourceSlides": [
+        "S111"
+      ],
+      "evidence": "개인 성찰을 위한 교육용 질문"
+    },
+    {
+      "act": 5,
+      "url": "/act-5/#one-next-action",
+      "title": "작은 행동과 확인할 근거를 연결합니다",
+      "sourceSlides": [
+        "S112"
+      ],
+      "evidence": "개인 성찰"
+    },
+    {
+      "act": 5,
+      "url": "/act-5/#practical-tip-index",
+      "title": "필요할 때 다시 찾는 실무 적용 팁",
+      "sourceSlides": [
+        "S113",
+        "S114",
+        "S115"
+      ],
+      "evidence": "기존 팁의 찾아보기"
+    },
+    {
+      "act": 5,
+      "url": "/act-5/#closing",
+      "title": "교육을 마치며 남기는 질문",
+      "sourceSlides": [
+        "S116"
+      ],
+      "evidence": "교육 마무리"
+    }
+  ],
+  "scope": "Expanded reading explanations from the final PPT and its embedded Notes only. No new trials, claims or performance outcomes."
+}

@@ -1,0 +1,236 @@
+{
+  "project_id": "appgprj_6ade0d3b768881918411623ad56daffb",
+  "version_id": "appgprj_6ade0d3b768881918411623ad56daffb~appgver_42e53d9cf4b08191b4d0f29e755b2d92",
+  "version_number": 1,
+  "deployment_id": "appgdep_6ade11c15b948191a2398fbcf0c98025",
+  "status": "succeeded",
+  "url": "https://ai-dev-training-guide.noah-potato.chatgpt.site",
+  "source_commit": "73cdf4af4887e3e6b7672f8e2720b16154c088cc",
+  "ppt_source_commit": "e04b88e",
+  "access": "OWNER_PRIVATE",
+  "date": "2026-10-25",
+  "siteSourceCheckout": "../sites/ai-dev-training-guide",
+  "localValidation": {
+    "status": "LOCAL_CONTENT_LINK_BROWSER_VALIDATION_PASS",
+    "pages": 8,
+    "errorPage": 1,
+    "chapters": 6,
+    "readingSections": 52,
+    "mappedSlides": 116,
+    "sourcePPTCommit": "e04b88e",
+    "sourcePPTSHA256": "9d43e104b6e71b44794a0bc8844ac9ca847cb807aabeea05b9c1b30d09dc2f83",
+    "copiedSlidePNGsVerified": 116,
+    "heroAssetOriginalBytesPreserved": true,
+    "internalLinksAndAssetsChecked": 517,
+    "brokenLinks": 0,
+    "sourceCoverage": "Each of116slides appears in exactly one primary reading section.",
+    "evidenceScope": "No new Trial, research, execution, outcome or performance claim added.",
+    "browser": {
+      "routes": [
+        {
+          "horizontalOverflow": false,
+          "path": "/",
+          "sections": 0,
+          "title": "AI와 함께 일하는개발 방식",
+          "viewport": 1440
+        },
+        {
+          "horizontalOverflow": false,
+          "path": "/act-0/",
+          "sections": 8,
+          "title": "AI를 Repository로 데려가기",
+          "viewport": 1440
+        },
+        {
+          "horizontalOverflow": false,
+          "path": "/act-1/",
+          "sections": 9,
+          "title": "Prompt를 작업 명세로 만들기",
+          "viewport": 1440
+        },
+        {
+          "horizontalOverflow": false,
+          "path": "/act-2/",
+          "sections": 8,
+          "title": "필요한 정보를 찾아 쓰게 하기",
+          "viewport": 1440
+        },
+        {
+          "horizontalOverflow": false,
+          "path": "/act-3/",
+          "sections": 9,
+          "title": "AI가 일할 방법과 환경 설계하기",
+          "viewport": 1440
+        },
+        {
+          "horizontalOverflow": false,
+          "path": "/act-4/",
+          "sections": 8,
+          "title": "목표를 이룰 때까지 수정하고 검토하기",
+          "viewport": 1440
+        },
+        {
+          "horizontalOverflow": false,
+          "path": "/act-5/",
+          "sections": 10,
+          "title": "내 업무에 맞게 조합하고 덜어내기",
+          "viewport": 1440
+        },
+        {
+          "horizontalOverflow": false,
+          "path": "/about/",
+          "sections": 0,
+          "title": "읽는 법과 근거 구분",
+          "viewport": 1440
+        },
+        {
+          "horizontalOverflow": false,
+          "mobileMenuVisible": true,
+          "path": "/",
+          "sections": 0,
+          "viewport": 320
+        },
+        {
+          "horizontalOverflow": false,
+          "mobileMenuVisible": true,
+          "path": "/act-0/",
+          "sections": 8,
+          "viewport": 320
+        },
+        {
+          "horizontalOverflow": false,
+          "mobileMenuVisible": true,
+          "path": "/act-1/",
+          "sections": 9,
+          "viewport": 320
+        },
+        {
+          "horizontalOverflow": false,
+          "mobileMenuVisible": true,
+          "path": "/act-2/",
+          "sections": 8,
+          "viewport": 320
+        },
+        {
+          "horizontalOverflow": false,
+          "mobileMenuVisible": true,
+          "path": "/act-3/",
+          "sections": 9,
+          "viewport": 320
+        },
+        {
+          "horizontalOverflow": false,
+          "mobileMenuVisible": true,
+          "path": "/act-4/",
+          "sections": 8,
+          "viewport": 320
+        },
+        {
+          "horizontalOverflow": false,
+          "mobileMenuVisible": true,
+          "path": "/act-5/",
+          "sections": 10,
+          "viewport": 320
+        },
+        {
+          "horizontalOverflow": false,
+          "mobileMenuVisible": true,
+          "path": "/about/",
+          "sections": 0,
+          "viewport": 320
+        },
+        {
+          "horizontalOverflow": false,
+          "path": "/",
+          "viewport": 390
+        },
+        {
+          "horizontalOverflow": false,
+          "path": "/act-1/",
+          "viewport": 390
+        },
+        {
+          "horizontalOverflow": false,
+          "path": "/act-4/",
+          "viewport": 390
+        },
+        {
+          "horizontalOverflow": false,
+          "path": "/act-5/",
+          "viewport": 390
+        }
+      ],
+      "searchS104": "PASS",
+      "searchResultNavigation": "PASS",
+      "sourceDisclosure": "PASS",
+      "sourceSlideLinks": "PASS",
+      "newHorizontalOverflowFound": false
+    },
+    "authenticationAndWindowsRoomRehearsal": "Separate from local web layout checks; target environment/rehearsal remain UNVERIFIED."
+  },
+  "deployedBrowserValidation": {
+    "origin": "https://ai-dev-training-guide.noah-potato.chatgpt.site",
+    "routes": [
+      {
+        "horizontalOverflow": false,
+        "path": "/",
+        "sections": 0,
+        "sourceEdition": true,
+        "title": "AI와 함께 일하는개발 방식"
+      },
+      {
+        "horizontalOverflow": false,
+        "path": "/act-0/",
+        "sections": 8,
+        "sourceEdition": true,
+        "title": "AI를 Repository로 데려가기"
+      },
+      {
+        "horizontalOverflow": false,
+        "path": "/act-1/",
+        "sections": 9,
+        "sourceEdition": true,
+        "title": "Prompt를 작업 명세로 만들기"
+      },
+      {
+        "horizontalOverflow": false,
+        "path": "/act-2/",
+        "sections": 8,
+        "sourceEdition": true,
+        "title": "필요한 정보를 찾아 쓰게 하기"
+      },
+      {
+        "horizontalOverflow": false,
+        "path": "/act-3/",
+        "sections": 9,
+        "sourceEdition": true,
+        "title": "AI가 일할 방법과 환경 설계하기"
+      },
+      {
+        "horizontalOverflow": false,
+        "path": "/act-4/",
+        "sections": 8,
+        "sourceEdition": true,
+        "title": "목표를 이룰 때까지 수정하고 검토하기"
+      },
+      {
+        "horizontalOverflow": false,
+        "path": "/act-5/",
+        "sections": 10,
+        "sourceEdition": true,
+        "title": "내 업무에 맞게 조합하고 덜어내기"
+      },
+      {
+        "horizontalOverflow": false,
+        "path": "/about/",
+        "sections": 0,
+        "sourceEdition": true,
+        "title": "읽는 법과 근거 구분"
+      }
+    ],
+    "searchS104": "PASS",
+    "resultNavigation": "PASS",
+    "sourceDisclosure": "PASS",
+    "sourceImageS105": "LOADED_1920PX"
+  }
+}

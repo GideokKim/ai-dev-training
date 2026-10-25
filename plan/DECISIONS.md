@@ -10625,3 +10625,77 @@ Finalize/render Full116 and ACT5, inspect changed screens and the full flow,
 verify retained evidence, then commit/push normally. Complete this PPT step
 before creating the Sites reading guide. Keep target environment/rehearsal
 checks unverified and leave the Demo Repository and presenter bundle alone.
+
+
+# DEC-0100 — Publish an ACT reading guide from the approved PPT
+
+## Status
+
+ACCEPTED — explicit user request for Sites after completing the ACT5 PPT.
+
+## Date
+
+2026-10-25
+
+## Context
+
+The user wants readable ACT web pages with fuller explanations bounded by
+the existing PPT. Complete DEC-0099 first; baseline PPT commit is e04b88e.
+
+## Problem
+
+A slide viewer would preserve the format but not provide connected reading.
+An independent web curriculum could silently expand the approved content.
+
+## Decision
+
+Create six ACT reading chapters with52sections, home and source-scope pages.
+Use the approved PPT and embedded Notes as the content boundary. Map all116
+slides to one primary reading section each. Include search, chapter/section
+navigation, original slide disclosures and the unchanged PPT download.
+Keep observed, conceptual, research and documented guidance distinct.
+Publish Version1 through Sites as owner-private without widening access.
+Use the existing Site ID for updates; keep credentials only in session memory.
+
+## Rationale
+
+Make the course usable as connected reading while preserving traceability
+to its actual content and evidence limits.
+
+## Alternatives
+
+Embed only slide images; this does not explain their relationships in prose.
+Write a separate curriculum; this exceeds the explicit content boundary.
+
+## Trade-offs
+
+Maintain a derived reading source and copied reference assets. PPT changes
+require selective prose, source-data and asset updates before republication.
+The Site remains owner-private; sharing requires a separate user request.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001,
+INV-RESEARCH-001. Keep the PPT's116slides/410minutes unchanged.
+
+## Affected Artifacts
+
+A separate Sites source checkout, plan/WEB_READING_GUIDE.md,
+references/WEB_READING_GUIDE_CONTENT_MAP.json, web evaluation and handoff.
+No Demo, Trial, product runtime, slide or Notes changes in this step.
+
+## Evidence
+
+Current explicit request, final PPT/embedded Notes, local browser checks,
+validated internal links and native Sites Version1/deployment success.
+Source commit:73cdf4af4887e3e6b7672f8e2720b16154c088cc. Site:https://ai-dev-training-guide.noah-potato.chatgpt.site.
+
+## Training Relevance
+
+YES — distinguish a teaching content source from derived presentation media.
+
+## Follow-up
+
+Use the same Site identity, recheck affected content against the current PPT,
+and preserve evidence boundaries on updates. Keep real presentation gates
+unverified. Commit/push normal project records without a presenter bundle.

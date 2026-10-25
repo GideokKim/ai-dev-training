@@ -1,5 +1,9 @@
 # AI 개발자 교육
 
+[ACT별 웹 읽기 가이드](https://ai-dev-training-guide.noah-potato.chatgpt.site) — 비공개 Sites. 확정 PPT116장과 내장 Notes를
+6ACT·52개 절로 풀어 쓴 자료이며 새 교육 내용이나 성과를 추가하지 않는다.
+[웹 관리 기준](plan/WEB_READING_GUIDE.md) · [최신 통합 PPT](production/AI_Dev_Training_Full.pptx).
+
 현재116장·410분. ACT5 앞부분은 전체 관점의 종합, S111/S112는 개인 적용으로 역할을 분리했다. [최신 수정 결과](production/evaluation/ACT5_SYNTHESIS_REVISION.md)를 참고한다.
 
 현재 제작판: **DEC-0098 /116장·410분**. Goal 팁 S99/S100과 ACT4→ACT5 연결을 정렬한다. ACT4 S82–S101/20장·85분, ACT5 S102–S116/15장·40분. 기존114장의 배정·근거는 유지하며 제품·실환경·리허설은 미검증이다.
