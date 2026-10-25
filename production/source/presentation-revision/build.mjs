@@ -8,6 +8,7 @@ import { createHash } from 'node:crypto';
 import * as H from './helpers.mjs';
 import {priorityFactories,addModuleFooter} from './legacy-priority.mjs';
 import {promptTechniqueFactories} from './prompt-techniques.mjs';
+import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
 const ROOT=process.env.TRAINING_REPO??path.resolve(here,'../../..');
@@ -26,10 +27,10 @@ for(const [file,name] of aliases)if(file&&existsSync(file))GlobalFonts.registerF
 const {finalizePresentation}=await import(pathToFileURL(path.join(SKILL,'container_tools/artifact_tool_utils.mjs')).href);
 const mapText=await fs.readFile(path.join(ROOT,'plan/SLIDE_MAP.md'),'utf8');
 const map={};
-for(const m of mapText.matchAll(/^#### (S\d\d) — ([\s\S]*?)(?=^#### S\d\d|^## |$(?![\s\S]))/gm)){
+for(const m of mapText.matchAll(/^#### (S\d{2,3}) — ([\s\S]*?)(?=^#### S\d{2,3}|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==99)throw new Error('Expected 99 source records.');
+if(Object.keys(map).length!==105)throw new Error('Expected 105 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -59,13 +60,18 @@ const migrated=(await import('./slide-numbering-99.mjs')).migrate96Factories(fac
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,migrated);
 Object.assign(factories,await (await import('./act0-context-expansion.mjs')).loadAct0ContextExpansionSlides(ROOT));
+const tipConfig=JSON.parse(await fs.readFile(path.join(here,'practical-tips.json'),'utf8'));
+const current=migrate99Factories(factories,tipConfig);
+for(const id of Object.keys(factories))delete factories[id];
+Object.assign(factories,current,practicalTipIndexFactories(tipConfig,H));
+const tipRecords=Object.fromEntries(tipConfig.tips.map(t=>[t.slideId,t]));
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
-if(moduleMap.slides.length!==99)throw new Error('Expected 99 legacy module mappings.');
+if(moduleMap.slides.length!==105)throw new Error('Expected 105 legacy module mappings.');
 const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
- for(const m of text.matchAll(/^## (S\d\d) — [\s\S]*?(?=^## S\d\d|$(?![\s\S]))/gm))notes[m[1]]=m[0].trim();
+ for(const m of text.matchAll(/^## (S\d{2,3}) — [\s\S]*?(?=^## S\d{2,3}|$(?![\s\S]))/gm))notes[m[1]]=m[0].trim();
 }
 const idsArg=process.argv.find(a=>a.startsWith('--ids='))?.slice(6);
 const ids=idsArg?idsArg.split(','):Object.keys(map);
@@ -85,6 +91,7 @@ for(const deck of decks){
  for(const id of deck.ids){
   const before=p.slides.items.length;const s=factories[id](p,H);
   if(p.slides.items.length!==before+1)throw new Error('Each factory must add exactly one slide: '+id);
+  if(tipRecords[id])addPracticalTipBadge(s,tipRecords[id].category,H);
   addModuleFooter(s,id,moduleRecords[id],H);
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
@@ -93,8 +100,8 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>id==='S61'?i+1:0).filter(Boolean);
-  const tableOwners=deck.ids.map((id,i)=>['S50','S58','S80'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>id==='S64'?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>['S52','S61','S84'].includes(id)?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,

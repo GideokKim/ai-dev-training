@@ -1,0 +1,794 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "decision": "DEC-0087",
+  "date": "2026-10-25",
+  "baseline": "8c059c0e24b788b58c52f8b103b73f007221afea",
+  "slideCount": 105,
+  "totalMinutes": 393,
+  "actSlideCounts": [
+    14,
+    22,
+    19,
+    19,
+    19,
+    12
+  ],
+  "actMinutes": {
+    "path": "production/ACT_5.pptx",
+    "slideCount": 12,
+    "sha256": "1eda22d267c64e1b34be308a348c05382007351e89bb9a332ebcfcce37201251"
+  },
+  "modeMinutes": {
+    "Lecture": 157,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "actModeMinutes": {
+    "ACT 0": {
+      "Lecture": 16,
+      "Reflection": 4,
+      "Case": 9,
+      "Demo": 8,
+      "Transition": 3,
+      "Q&A": 3
+    },
+    "ACT 1": {
+      "Case": 18,
+      "Reflection": 4,
+      "Lecture": 27,
+      "Demo": 8,
+      "Q&A": 4,
+      "Transition": 3
+    },
+    "ACT 2": {
+      "Lecture": 35,
+      "Case": 18,
+      "Demo": 13,
+      "Reflection": 5,
+      "Q&A": 7,
+      "Transition": 4
+    },
+    "ACT 3": {
+      "Case": 20,
+      "Lecture": 34,
+      "Demo": 20,
+      "Q&A": 7,
+      "Reflection": 3,
+      "Transition": 2
+    },
+    "ACT 4": {
+      "Lecture": 23,
+      "Reflection": 3,
+      "Demo": 22,
+      "Case": 22,
+      "Q&A": 7,
+      "Transition": 4
+    },
+    "ACT 5": {
+      "Lecture": 22,
+      "Demo": 2,
+      "Case": 1,
+      "Transition": 6,
+      "Reflection": 2,
+      "Q&A": 4
+    }
+  },
+  "tipSlides": [
+    {
+      "sourceSlideId": "S11",
+      "slideId": "S11",
+      "act": 0,
+      "category": "사용 환경",
+      "title": "Repository 작업은 Codex에서 시작한다",
+      "rationale": "사내 사용 환경에서 개발 작업을 시작하는 경로"
+    },
+    {
+      "sourceSlideId": "S25",
+      "slideId": "S26",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "지시와 참고 자료의 구분",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S26",
+      "slideId": "S27",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "입력과 기대 결과의 작은 예시",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S27",
+      "slideId": "S28",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "바로 검토할 수 있는 결과 형식",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S28",
+      "slideId": "S29",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "근거가 있는 설명과 미확인의 구분",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S29",
+      "slideId": "S30",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "결과를 바꾸는 결정에서 확인 질문",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S30",
+      "slideId": "S31",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "큰 작업을 검토할 결과물로 나누기",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S31",
+      "slideId": "S32",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "기준을 지정한 코드 리뷰 요청",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S32",
+      "slideId": "S33",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "구체적인 근거로 수정 방향 피드백",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S45",
+      "slideId": "S47",
+      "act": 2,
+      "category": "Context 관리",
+      "title": "AGENTS.md에는 무엇을 남길까?",
+      "rationale": "기본 안내와 상세 정보의 배치 기준"
+    },
+    {
+      "sourceSlideId": "S54",
+      "slideId": "S57",
+      "act": 3,
+      "category": "수행 방법",
+      "title": "테스트 명령을 언제 쓰고 무엇을 판단할까?",
+      "rationale": "검증 명령의 사용 시점과 판단 기준"
+    },
+    {
+      "sourceSlideId": "S64",
+      "slideId": "S67",
+      "act": 3,
+      "category": "Context 관리",
+      "title": "이번 Context와 다시 쓸 지식",
+      "rationale": "다음 작업에 남길 지식의 선정·관리 기준"
+    },
+    {
+      "sourceSlideId": "S69",
+      "slideId": "S72",
+      "act": 3,
+      "category": "업무 적용",
+      "title": "밝기 통계의 판단을 C++ 검사에 적용하기",
+      "rationale": "기존 명세·수행 방법·검증 근거의 C++ 적용"
+    },
+    {
+      "sourceSlideId": "S75",
+      "slideId": "S79",
+      "act": 4,
+      "category": "검증·개선",
+      "title": "원인을 고르기 전에 확인할 기록",
+      "rationale": "원인 선택 전에 확인할 기록 목록"
+    },
+    {
+      "sourceSlideId": "S79",
+      "slideId": "S83",
+      "act": 4,
+      "category": "검증·개선",
+      "title": "지침을 고친 뒤, 무엇을 다시 확인할까?",
+      "rationale": "지침 갱신 뒤 같은 작업과 다른 작업을 확인하는 질문"
+    },
+    {
+      "sourceSlideId": "S95",
+      "slideId": "S100",
+      "act": 5,
+      "category": "검증·개선",
+      "title": "무엇을 남기고, 무엇을 덜어낼까?",
+      "rationale": "기존 구성을 유지·통합·제거할 조건"
+    },
+    {
+      "sourceSlideId": "S96",
+      "slideId": "S101",
+      "act": 5,
+      "category": "검증·개선",
+      "title": "덜어낸 뒤에도 필요한 일을 하는가?",
+      "rationale": "통합·제거 후보의 비교·되돌림 기준"
+    }
+  ],
+  "indexSlides": [
+    {
+      "act": 0,
+      "beforeSourceSlideId": "S13",
+      "slideId": "S13",
+      "nextSlideId": "S14",
+      "section": "0E",
+      "storyBeat": "BEAT-003의 다음 Friction",
+      "tipSlideIds": [
+        "S11"
+      ],
+      "title": "ACT 0 실무 적용 팁 모아보기"
+    },
+    {
+      "act": 1,
+      "beforeSourceSlideId": "S33",
+      "slideId": "S34",
+      "nextSlideId": "S35",
+      "section": "1H Practical Prompt Methods",
+      "storyBeat": "BEAT-005, BEAT-007 — specified intent and completion evidence; no new product-history event.",
+      "tipSlideIds": [
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33"
+      ],
+      "title": "ACT 1 실무 적용 팁 모아보기"
+    },
+    {
+      "act": 2,
+      "beforeSourceSlideId": "S52",
+      "slideId": "S54",
+      "nextSlideId": "S55",
+      "section": "2I Discussion·Transition",
+      "storyBeat": "BEAT-009–017",
+      "tipSlideIds": [
+        "S47"
+      ],
+      "title": "ACT 2 실무 적용 팁 모아보기"
+    },
+    {
+      "act": 3,
+      "beforeSourceSlideId": "S70",
+      "slideId": "S73",
+      "nextSlideId": "S74",
+      "section": "3H C++ Vision Transfer",
+      "storyBeat": "BEAT-036",
+      "tipSlideIds": [
+        "S57",
+        "S67",
+        "S72"
+      ],
+      "title": "ACT 3 실무 적용 팁 모아보기"
+    },
+    {
+      "act": 4,
+      "beforeSourceSlideId": "S88",
+      "slideId": "S92",
+      "nextSlideId": "S93",
+      "section": "4F Observed Meta Loop 마무리",
+      "storyBeat": "BEAT-058–059",
+      "tipSlideIds": [
+        "S79",
+        "S83"
+      ],
+      "title": "ACT 4 실무 적용 팁 모아보기"
+    },
+    {
+      "act": 5,
+      "beforeSourceSlideId": "S99",
+      "slideId": "S104",
+      "nextSlideId": "S105",
+      "section": "5B Final Reflection",
+      "storyBeat": "BEAT-070–071",
+      "tipSlideIds": [
+        "S100",
+        "S101"
+      ],
+      "title": "ACT 5 실무 적용 팁 모아보기"
+    }
+  ],
+  "existing99BudgetsTitlesEvidencePreserved": true,
+  "99ScreensIdenticalOutsideIDReferenceBadgeRegions": true,
+  "IDReferenceBoxesMasked": 90,
+  "notesRecords": 105,
+  "fieldsPerNotes": 19,
+  "retainedNotesFieldsChanged": [
+    [
+      "S11",
+      "Speaker Flow"
+    ],
+    [
+      "S11",
+      "Time Management"
+    ],
+    [
+      "S12",
+      "Speaker Flow"
+    ],
+    [
+      "S12",
+      "Transition"
+    ],
+    [
+      "S26",
+      "Speaker Flow"
+    ],
+    [
+      "S27",
+      "Speaker Flow"
+    ],
+    [
+      "S28",
+      "Speaker Flow"
+    ],
+    [
+      "S29",
+      "Speaker Flow"
+    ],
+    [
+      "S30",
+      "Speaker Flow"
+    ],
+    [
+      "S31",
+      "Speaker Flow"
+    ],
+    [
+      "S32",
+      "Speaker Flow"
+    ],
+    [
+      "S33",
+      "Speaker Flow"
+    ],
+    [
+      "S33",
+      "Transition"
+    ],
+    [
+      "S47",
+      "Speaker Flow"
+    ],
+    [
+      "S53",
+      "Speaker Flow"
+    ],
+    [
+      "S53",
+      "Transition"
+    ],
+    [
+      "S57",
+      "Speaker Flow"
+    ],
+    [
+      "S67",
+      "Speaker Flow"
+    ],
+    [
+      "S72",
+      "Speaker Flow"
+    ],
+    [
+      "S72",
+      "Transition"
+    ],
+    [
+      "S79",
+      "Speaker Flow"
+    ],
+    [
+      "S83",
+      "Speaker Flow"
+    ],
+    [
+      "S91",
+      "Speaker Flow"
+    ],
+    [
+      "S91",
+      "Transition"
+    ],
+    [
+      "S100",
+      "Speaker Flow"
+    ],
+    [
+      "S101",
+      "Speaker Flow"
+    ],
+    [
+      "S103",
+      "Speaker Flow"
+    ],
+    [
+      "S103",
+      "Transition"
+    ]
+  ],
+  "renderedPNGs": 210,
+  "FullACTPNGParity": 105,
+  "reviewedDraftFinalPNGParity": 23,
+  "allExistingImageBytesCropsPositionsPreserved": true,
+  "pictureInstancesChecked": 38,
+  "nativeTablesPreserved": [
+    "S50→S52",
+    "S58→S61",
+    "S80→S84"
+  ],
+  "nativeChartPreserved": "S61→S64",
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "preexistingWarnings": [
+    {
+      "artifact": "AI_Dev_Training_Full",
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 52,
+      "table_id": "8"
+    },
+    {
+      "artifact": "ACT_2",
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 16,
+      "table_id": "8"
+    }
+  ],
+  "templateInventory": "11Templates/27Variants",
+  "existingTemplateModuleAssignmentsPreserved": true,
+  "removedObsoleteACTStandardPNGs": [
+    "production/preview/act1/S14.png",
+    "production/preview/act2/S35.png",
+    "production/preview/act2/S36.png",
+    "production/preview/act3/S53.png",
+    "production/preview/act3/S54.png",
+    "production/preview/act3/S55.png",
+    "production/preview/act4/S71.png",
+    "production/preview/act4/S73.png",
+    "production/preview/act4/S72.png",
+    "production/preview/act4/S74.png",
+    "production/preview/act5/S89.png",
+    "production/preview/act5/S92.png",
+    "production/preview/act5/S93.png",
+    "production/preview/act5/S91.png",
+    "production/preview/act5/S90.png"
+  ],
+  "sourceAssetsPrototypesBundlesUnchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "newMeasuredEffect": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 105,
+      "sha256": "f34abbec8986fd12064fa8b0f4e534e380ac8db701b4d1ea061da1abd8e0cd2b"
+    },
+    {
+      "path": "production/ACT_0.pptx",
+      "slideCount": 14,
+      "sha256": "fdd71d46d2581a4b58cc95e1bf4cefb61a99ed3243ead5f0d332b55c01f6a01d"
+    },
+    {
+      "path": "production/ACT_1.pptx",
+      "slideCount": 22,
+      "sha256": "0d75a514ef0b4d261e75c0a1e333728928d2475abbe89c56b39fea942d210159"
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slideCount": 19,
+      "sha256": "73e88f24ddadc4774c5c17c2739f97015388ce51e901e2cfd7e7866af61be0c1"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 19,
+      "sha256": "4391eb61d6b39ebe93334cbab617adba6e494251c65943547786f768a08db97a"
+    },
+    {
+      "path": "production/ACT_4.pptx",
+      "slideCount": 19,
+      "sha256": "7c7ef9d7de639a83d244793e16faca6de556a2168a8f1d0bf64dd8645db15fee"
+    },
+    {
+      "path": "production/ACT_5.pptx",
+      "slideCount": 12,
+      "sha256": "1eda22d267c64e1b34be308a348c05382007351e89bb9a332ebcfcce37201251"
+    }
+  ],
+  "fullNotesSha256": "c0ff595fa01aae80efa8d0b33fa6d4e8e84207aa8aecfe2a01d380db2d671955",
+  "fullMontageSha256": "8685187141688aede48b7552626e5307198716e8d16456fd89eeba7807aa9ab2",
+  "windowsRoomProductAccountRehearsal": "UNVERIFIED",
+  "fallbackInventory": {
+    "count": 34,
+    "status": "READY — current local static paths/dimensions/hashes only",
+    "files": [
+      {
+        "slideId": "S04",
+        "path": "production/preview/full/S04.png",
+        "sha256": "2101e6b81bf3652bb64b80298308379de8f5b48a985443b66494c835a055d86f",
+        "source99Id": "S04"
+      },
+      {
+        "slideId": "S05",
+        "path": "production/preview/full/S05.png",
+        "sha256": "b765e0b9746219e6f89e779fb759b9105065fd2c8b52ad3c37c2e1cdb265802c",
+        "source99Id": "S05"
+      },
+      {
+        "slideId": "S06",
+        "path": "production/preview/full/S06.png",
+        "sha256": "580bf21b2e541748d455c425bb868629825137cf6ef804cb82fd3d3eff1858a5",
+        "source99Id": "S06"
+      },
+      {
+        "slideId": "S07",
+        "path": "production/preview/full/S07.png",
+        "sha256": "60bbee1bd246c87d1a1bcf20fd78c9475f7b1082e1b9329944e6e603d00ee358",
+        "source99Id": "S07"
+      },
+      {
+        "slideId": "S08",
+        "path": "production/preview/full/S08.png",
+        "sha256": "3431d7e86df8f5bdb21a8338ea606cdea27ec1aa5bb4f04db63bfa1d034f5b96",
+        "source99Id": "S08"
+      },
+      {
+        "slideId": "S22",
+        "path": "production/preview/full/S22.png",
+        "sha256": "bd5a054167a49abfe0b4f143cc2af6a56e867ad0221d9ec3a95fc3e83b06515d",
+        "source99Id": "S21"
+      },
+      {
+        "slideId": "S23",
+        "path": "production/preview/full/S23.png",
+        "sha256": "ff659b242ead814057baa10a0c356bf669f7cc37c91f527c1e24dcf46fd7f949",
+        "source99Id": "S22"
+      },
+      {
+        "slideId": "S37",
+        "path": "production/preview/full/S37.png",
+        "sha256": "4ebabebb3a679fe0bd930e5b2a33e81d8938ecf17a897da3006b331ce87b7f82",
+        "source99Id": "S35"
+      },
+      {
+        "slideId": "S38",
+        "path": "production/preview/full/S38.png",
+        "sha256": "d7be1d3811f3b970db6b07c24baf69801fef07774d5b1cd4bd826e941fb6bebc",
+        "source99Id": "S36"
+      },
+      {
+        "slideId": "S39",
+        "path": "production/preview/full/S39.png",
+        "sha256": "a4017c33048d85e7f1894af18250ef097aa777d02c77095072333b63366ce4ea",
+        "source99Id": "S37"
+      },
+      {
+        "slideId": "S42",
+        "path": "production/preview/full/S42.png",
+        "sha256": "07276c3e5e1ddecf0b5fda87cd2fc83bd2f7adbf03d236cedef813b9cb7602f9",
+        "source99Id": "S40"
+      },
+      {
+        "slideId": "S48",
+        "path": "production/preview/full/S48.png",
+        "sha256": "f3c5b78eed5d211a25e997d3eabc77a19ad0cfa7612a344cc7e2a43a0db2518a",
+        "source99Id": "S46"
+      },
+      {
+        "slideId": "S50",
+        "path": "production/preview/full/S50.png",
+        "sha256": "f30c9fa4f7e95be7b0d13da80a3a182e1a8dd0289693762513e4438b60d934ff",
+        "source99Id": "S48"
+      },
+      {
+        "slideId": "S51",
+        "path": "production/preview/full/S51.png",
+        "sha256": "04835d5e0c798a4c146314712642a810fcee69b4979a8c04e6d9e997aab19f1b",
+        "source99Id": "S49"
+      },
+      {
+        "slideId": "S52",
+        "path": "production/preview/full/S52.png",
+        "sha256": "2786e61890cf9cb7eb88b71941f9782b17c2ca0c375ccc52b7fbcc762110add9",
+        "source99Id": "S50"
+      },
+      {
+        "slideId": "S60",
+        "path": "production/preview/full/S60.png",
+        "sha256": "1a6e296be206dd12b8c030692071d2eba358aaaa0ba82a5429d8ad1bf4ea71b2",
+        "source99Id": "S57"
+      },
+      {
+        "slideId": "S61",
+        "path": "production/preview/full/S61.png",
+        "sha256": "18ecf18a51d3df062493a53dad57058c36781725004d11065e4130a28ca65b93",
+        "source99Id": "S58"
+      },
+      {
+        "slideId": "S65",
+        "path": "production/preview/full/S65.png",
+        "sha256": "ba4c12c0935231ea048b6e16ba150cd51c02bb3d46e5ef87d9d971d5aa2f78f5",
+        "source99Id": "S62"
+      },
+      {
+        "slideId": "S66",
+        "path": "production/preview/full/S66.png",
+        "sha256": "9187b48db8566390536159035a819dff0b5eefcb28cb2a499fdd5cb2cf44759b",
+        "source99Id": "S63"
+      },
+      {
+        "slideId": "S67",
+        "path": "production/preview/full/S67.png",
+        "sha256": "5840f01e47daf32904cb1b25ea553173a4d69910d691dd221740722721c99d12",
+        "source99Id": "S64"
+      },
+      {
+        "slideId": "S68",
+        "path": "production/preview/full/S68.png",
+        "sha256": "120fa25451f452c01ea83d36988e98cb19223dc429994e9b3cf5c3e9f49c3d65",
+        "source99Id": "S65"
+      },
+      {
+        "slideId": "S69",
+        "path": "production/preview/full/S69.png",
+        "sha256": "095ba2dd05579355259185145a8df679ea258753f807ddec85bf0245a5d84a3f",
+        "source99Id": "S66"
+      },
+      {
+        "slideId": "S70",
+        "path": "production/preview/full/S70.png",
+        "sha256": "35fa57018134781345e87ee82d8c3e5772169bb32441987fdca26b0c230f666e",
+        "source99Id": "S67"
+      },
+      {
+        "slideId": "S76",
+        "path": "production/preview/full/S76.png",
+        "sha256": "fdabe458a55471269b97b998b54b611e57a8dcfb206db0d075d008d4f8102f81",
+        "source99Id": "S72"
+      },
+      {
+        "slideId": "S77",
+        "path": "production/preview/full/S77.png",
+        "sha256": "f09e9100edc41d2944dcfe60c3597e30d15a0aeb00bc2469b0c7d5cfb7f7675e",
+        "source99Id": "S73"
+      },
+      {
+        "slideId": "S79",
+        "path": "production/preview/full/S79.png",
+        "sha256": "35cc4a38a2ffb3ec12bd1dab647303a245d6acdc7182ed61fe96282520cae0fa",
+        "source99Id": "S75"
+      },
+      {
+        "slideId": "S80",
+        "path": "production/preview/full/S80.png",
+        "sha256": "cd949e42b0bf86cd5615091236ab6d977e5c4510b0e9fd51174d517c92120a23",
+        "source99Id": "S76"
+      },
+      {
+        "slideId": "S84",
+        "path": "production/preview/full/S84.png",
+        "sha256": "6e759cad67b7929a9ba35067150eca1e544298c276997c8faf81fb5e461ed677",
+        "source99Id": "S80"
+      },
+      {
+        "slideId": "S86",
+        "path": "production/preview/full/S86.png",
+        "sha256": "7999ce4a0b701ac31766d82b40931154daf1af8a0d37c8f1de86bf308d28099c",
+        "source99Id": "S82"
+      },
+      {
+        "slideId": "S87",
+        "path": "production/preview/full/S87.png",
+        "sha256": "5f293848b1c07dbb3dbae0c04b37806ee7079c47ded660c6a26efe5db07c429e",
+        "source99Id": "S83"
+      },
+      {
+        "slideId": "S88",
+        "path": "production/preview/full/S88.png",
+        "sha256": "18384825d22f02120c1f83953e584490ade7e76b6b0df480a9dace54da0d24ab",
+        "source99Id": "S84"
+      },
+      {
+        "slideId": "S89",
+        "path": "production/preview/full/S89.png",
+        "sha256": "ba9631308524eb76dd396255a304c2d9fa4435973edb9c19e53843ddfc9eeaf5",
+        "source99Id": "S85"
+      },
+      {
+        "slideId": "S94",
+        "path": "production/preview/full/S94.png",
+        "sha256": "96044076adb1c90f1592129e6a47ea1ddcd12f097001fbd853978bebdfb9785b",
+        "source99Id": "S89"
+      },
+      {
+        "slideId": "S95",
+        "path": "production/preview/full/S95.png",
+        "sha256": "bb32761e1821acd3da353cbec100012b4ba8686b471320ff0ca8606c9ab1f8e3",
+        "source99Id": "S90"
+      }
+    ],
+    "newDemoMinutes": 0
+  },
+  "officeSchemaValidation": {
+    "status": "UNAVAILABLE",
+    "reason": "Bundled runtime lacks defusedxml; no dependency installation.",
+    "firstPartyPackageGeometryReimport": "PASS"
+  },
+  "visualReview": {
+    "individualTipSlidesReviewed": [
+      "S11",
+      "S26",
+      "S27",
+      "S28",
+      "S29",
+      "S30",
+      "S31",
+      "S32",
+      "S33",
+      "S47",
+      "S57",
+      "S67",
+      "S72",
+      "S79",
+      "S83",
+      "S100",
+      "S101"
+    ],
+    "individualIndexSlidesReviewed": [
+      "S13",
+      "S34",
+      "S54",
+      "S73",
+      "S92",
+      "S104"
+    ],
+    "reviewedDraftEqualsFinalPackagePNG": true,
+    "ACTOverviewsReviewed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "indexTransitionCompositesReviewed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "newClippingOverlapIssuesFound": 0,
+    "badgeRetainsSeparateEvidenceGrammar": true,
+    "actualWindowsPowerPointRoomTimedRehearsal": "UNVERIFIED"
+  }
+}

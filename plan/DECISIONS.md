@@ -9457,3 +9457,91 @@ Render/review both slides, confirm image ratio/gaps and unchanged text/shape
 geometry, and compare the other97screens. Validate Full/ACT0 and Notes.
 Keep Windows/room/product/account/timed rehearsal UNVERIFIED. Commit/push
 normally to existing origin/main; do not create a presenter bundle.
+
+
+# DEC-0087 — Unify practical tips and add per-ACT reference indexes
+
+## Status
+
+ACCEPTED — explicit user approval to use one application-tip label and
+categories, collect titles/Slide IDs before each ACT transition, align
+Notes/plans, render/review and commit/push.
+
+## Date
+
+2026-10-25
+
+## Context
+
+S11 explains the selected company-use entry path and ACT1 includes eight
+request-writing examples. Other ACTs contain reusable placement, procedure,
+retention and verification criteria. Readers need to recognize these pages
+while following the problem-driven Story and find them after the course.
+
+## Problem
+
+Collecting all explanations at ACT ends separates application from context.
+Leaving them distributed without a label makes later lookup difficult.
+
+## Decision
+
+Keep the17existing application pages in context. Add a neutral native badge
+with the common Korean label and one short category. Preserve each page's
+Evidence grammar, role, content and budget. Add6title/ID reference indexes
+before the existing next-problem/reflection/closing slides, using T03-A.
+
+Preserve all99existing budgets and add1Lecture minute per index, under the
+previously authorized720-minute ceiling. The current deck is105slides and
+393minutes. ACT counts14/22/19/19/19/12; minutes43/64/82/86/81/37. Modes are
+Lecture157/Demo73/Case88/Reflection21/Transition22/Q&A32. Retain11Templates,
+27Variants,19Notes fields and all Beat/Section/Demo/Trial/State/Claim IDs.
+
+Use SLIDE_ID_MIGRATION_105.md for current IDs. Preserve original evidence,
+assets, prototypes, dated reports and presenter bundles. Correct S11's
+stale operating-note totals to the current registry while keeping1minute.
+
+## Rationale
+
+The body preserves learning context. A consistent badge and compact index
+provide a second path for later reference without repeating each lesson.
+
+## Alternatives
+
+Move all tips to ACT ends; weakens the immediate problem/application link.
+Duplicate full tips; repeats material and creates multiple editing targets.
+Put indexes into existing dense transitions; crowds the next-story question.
+
+## Trade-offs
+
+Add6navigation slides/minutes and update downstream numbering. Categories
+express purpose, never a stronger evidence grade or verified product UI.
+Some ACTs have one reference only; do not manufacture extra tips to fill them.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001/002, INV-LEARNING-001/002/004,
+INV-VERIFY-001, INV-RESPONSIBILITY-001, INV-RESEARCH-001/004.
+
+## Affected Artifacts
+
+Full/ACT0–5 PPTX,105Notes, current maps/curriculum/claim/visual/production
+routers, source labels/indexes, legacy footer map, previews/runbooks and
+current delivery identities. Demo code/tags and presenter bundles stay intact.
+
+## Evidence
+
+Explicit user instructions and prior720-minute authorization; baseline
+8c059c0 Slide Map, Notes and rendered pages. No new Trial or measured effect.
+
+## Training Relevance
+
+Connect reusable practice to its problem and retain human selection, source
+boundaries and upkeep rather than turning the course into a feature catalog.
+
+## Follow-up
+
+Finalize/reimport/render Full105and6ACTs. Review17badges,6indexes and ACT
+handoffs. Verify105x19Notes, original budgets, ID/reference-only changes,
+images/crops, native tables/chart and34fallback files. Keep Windows/room/
+product/account/timed rehearsal UNVERIFIED. Commit/push to origin/main
+without force push, Demo mutation or a new presenter bundle.

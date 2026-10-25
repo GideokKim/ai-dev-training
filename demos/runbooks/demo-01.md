@@ -1,6 +1,6 @@
 # DEMO-01 — Repository Exploration
 
-> Current references: DEC-0084 /99slides/387minutes. Current IDs and static files follow SLIDE_ID_MIGRATION_99.md. Existing Demo time/evidence is preserved; local final-package/Notes/PNG parity checked. Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0087 /105slides/393minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_105.md. Tip badges/reference indexes add no Demo time or Trial result. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — Anchor candidate

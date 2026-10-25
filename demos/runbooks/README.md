@@ -3,7 +3,7 @@
 Current content: DEC-0062. ACT3 procedure/source/scenario/decision order follows
 plan/ACT3_FLOW_REVISION.md; local paths/hashes follow FALLBACK_MANIFEST.md.
 
-> Current references: DEC-0084 /99slides/387minutes. Current IDs and static files follow SLIDE_ID_MIGRATION_99.md. Existing Demo time/evidence is preserved; local final-package/Notes/PNG parity checked. Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0087 /105slides/393minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_105.md. Tip badges/reference indexes add no Demo time or Trial result. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 These runbooks use approved Story and Demo evidence. They do not create a new Trial, Product State, prompt, or current-product claim. The default playback for this execution is the local static render of the integrated deck.
 
@@ -29,8 +29,8 @@ These runbooks use approved Story and Demo evidence. They do not create a new Tr
 
 The static fallback does not mean a historical Trial was reproduced or a current product surface is ready. Windows PowerPoint, target account, room/projector, and instructor rehearsal remain USER REQUIRED.
 
-S13의 DEC-0037 검사 파이프라인 도식은 질문 배경이며 새 Demo가 아니다. 현재 Full PPT identity는 FALLBACK_MANIFEST를 따른다. 이전 29개 fallback의 PASS를 승계하지 않고, 현재 번호의32개 실제 PNG를 다시 확인했다.
+S14의 DEC-0037 검사 파이프라인 도식은 질문 배경이며 새 Demo가 아니다. 현재 Full PPT identity는 FALLBACK_MANIFEST를 따른다. 이전 29개 fallback의 PASS를 승계하지 않고, 현재 번호의32개 실제 PNG를 다시 확인했다.
 
-S14–S16은 구성한 Prompt·생성 Agent 삽화·가능한 해석/비용 개념이다. 실제 반복 실행·분기 빈도·기하급수 성장 측정·동일 결과 보장이 아니다. 새 Demo/Trial은 추가하지 않는다.
+S15–S17은 구성한 Prompt·생성 Agent 삽화·가능한 해석/비용 개념이다. 실제 반복 실행·분기 빈도·기하급수 성장 측정·동일 결과 보장이 아니다. 새 Demo/Trial은 추가하지 않는다.
 
-Current inventory:32 static alternatives; DEMO-08 includes S64 hypothesis/S65 source audit, with no additional Demo time.  DEMO-06 adds the A/B Case summaries S48/S49 without increasing Demo5minutes. All12 Demos and LOOP-VISUAL retain their evidence boundaries.
+Current inventory:32 static alternatives; DEMO-08 includes S67 hypothesis/S65 source audit, with no additional Demo time.  DEMO-06 adds the A/B Case summaries S50/S49 without increasing Demo5minutes. All12 Demos and LOOP-VISUAL retain their evidence boundaries.

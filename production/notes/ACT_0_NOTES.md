@@ -1,5 +1,7 @@
 # ACT 0 — Speaker Notes
 
+Current: DEC-0087 /105slides/393minutes. ACT0: 14slides/43minutes. Tips remain in context; reference index is1Lecture minute before the transition. Current Notes below use105-slide IDs. Earlier headers are historical. See plan/SLIDE_ID_MIGRATION_105.md.
+
 Current: DEC-0084 /99slides/387minutes. ACT ranges S01–S13 / S14–S34 / S35–S52 / S53–S70 / S71–S88 / S89–S99. Earlier headers retain their historical edition. See plan/SLIDE_ID_MIGRATION_99.md.
 
 Status: ALIGNED — DEC-0036의 81장 번호와 운영 지침을 정렬했다. 신규 제작본의 렌더·내장 Notes 대조는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 별도로 기록한다. 기존 80장판의 PASS를 승계하지 않는다. Windows, room, account, and timed rehearsal remain UNVERIFIED.
@@ -61,7 +63,6 @@ Fallback: 공식 정적 경로 `production/ACT_0.pptx` S01 또는 `production/pr
 
 Validation Status: ALIGNED — DEC-0034에 따라 원문·Claim 경계와 제작용 화면/운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 실제 렌더링 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
 
-
 ## S02 — 작은 질문에는 Chatbot이 유용하다
 
 Slide ID: S02
@@ -108,7 +109,6 @@ Fallback: 공식 정적 경로 `production/ACT_0.pptx` S02 또는 `production/pr
 
 Validation Status: ALIGNED — DEC-0034에 따라 원문·Claim 경계와 제작용 화면/운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 실제 렌더링 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
 
-
 ## S03 — 질문이 커지면 Context를 모으는 일이 생긴다
 
 Slide ID: S03
@@ -153,7 +153,6 @@ Time Management: Case 4분 유지. 문제 질문 30초, 병렬 정보 여섯 범
 Fallback: `production/preview/full/S03.png` 또는 `production/preview/act0/S03.png`의 병렬 도식을 사용한다. 이번 수정본과 PNG의 일치 여부는 제작 단계에서 확인한다. 화면이 보이지 않으면 여섯 정보 범주가 각각 Context가 된다는 관계를 말로 묶는다. 특정 Trial의 실제 화면이나 실패로 표현하지 않는다.
 
 Validation Status: ALIGNED — DEC-0034에 따라 원문·Claim 경계와 제작용 화면/운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 실제 렌더링 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
-
 
 ## S04 — 파일명을 주지 않으면 Agent는 어디부터 볼까?
 
@@ -217,7 +216,6 @@ Lecture 2분 유지. 요청 30초, 실제/가상 화면 구분 30초, 세 Watch 
 **Validation Status:**
 ALIGNED — DEC-0034에 따라 원문·Claim 경계와 제작용 화면/운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 실제 렌더링 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
 
-
 ## S05 — Crop은 기대한 폭보다 한 열을 더 포함했다
 
 **Slide ID:**
@@ -279,7 +277,6 @@ LOCAL STATIC ARTIFACT — production/preview/full/S05.png 또는 ACT_0.pptx의 �
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
-
 
 ## S06 — 테스트·명세·구현을 연결해 원인을 설명했다
 
@@ -343,7 +340,6 @@ LOCAL STATIC ARTIFACT — production/preview/full/S06.png 또는 ACT_0.pptx의 �
 **Validation Status:**
 CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-
 ## S07 — 다른 테스트 오류는 임시 폴더 생성에서 발생했다
 
 **Slide ID:**
@@ -404,7 +400,6 @@ LOCAL STATIC ARTIFACT — production/preview/full/S07.png 또는 ACT_0.pptx의 �
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
-
 
 ## S08 — 원인 판단에는 코드와 실행 환경 정보가 필요했다
 
@@ -467,7 +462,6 @@ LOCAL STATIC ARTIFACT — production/preview/full/S08.png 또는 ACT_0.pptx의 �
 **Validation Status:**
 CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-
 ## S09 — Chatbot에 이 자료를 직접 전달한다면?
 
 **Slide ID:**
@@ -528,7 +522,6 @@ LOCAL STATIC ARTIFACT — production/preview/full/S09.png 또는 ACT_0.pptx의 �
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
-
 
 ## S10 — Agent가 자료를 직접 찾아 연결했다
 
@@ -592,7 +585,6 @@ LOCAL STATIC ARTIFACT — production/preview/full/S10.png 또는 ACT_0.pptx의 �
 **Validation Status:**
 CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-
 ## S11 — Repository 작업은 Codex에서 시작한다
 
 Slide ID: S11
@@ -609,12 +601,12 @@ Primary Message: 이 교육에서 Repository를 조사하는 개발 작업은 Ch
 
 Opening Question: “Repository 작업을 맡기려면 어디로 들어갈까?”
 
-Speaker Flow:
-
+**Speaker Flow:**
 1. **LOCATE (0:00–0:15):** 재구성 UI의 좌측 상단 ChatGPT 메뉴를 가리킨다. 사용자 지정 위치를 보여 주는 교육용 도식이며 실제 계정의 실행 캡처가 아님을 짧게 밝힌다.
 2. **SELECT (0:15–0:30):** 메뉴의 Codex를 가리킨다. 이 교육에서 코드베이스 조사와 개발 작업을 시작하는 표면을 연결한다.
 3. **REPOSITORY (0:30–0:45):** 허용된 Repository 폴더를 선택하는 흐름을 가리킨다. 앞 장에서 확인한 도구·계정·자료·권한 범위 안의 폴더만 대상이며 실제 선택이나 Live 실행을 하지 않는다.
 4. **ASK (0:45–1:00):** “먼저 조사해줘”라는 요청으로 S04의 조사 태도를 회수한다. “들어가는 곳을 알았으니, 무엇을 볼 수 있고 누가 최종 결정할지 나눠 보겠습니다”라며 S12로 간다.
+운영 표시: “실무 적용 팁 · 사용 환경” 배지로 다시 찾아 쓸 기준임을 짚는다. 기존 설명·근거 범위와 배정 시간 안에서 진행하며 요청·예시를 새로 실행하지 않는다.
 
 Evidence / Source: BEAT-003에 연결한 사용자 승인 진입 가교; DEC-0036; SRC-0228 (Quickstart), SRC-0229 (App), CLM-0031 (공식 문서의 전환 경로, 대상 UI·계정 UNVERIFIED). 공식 자료 [ChatGPT quickstart](https://learn.chatgpt.com/docs/quickstart?setup=app), [ChatGPT app](https://learn.chatgpt.com/docs/app), 확인 2026-10-21. Quickstart는 코드베이스 Context·개발 도구가 필요한 소프트웨어 개발에서 ChatGPT dropdown의 Codex 선택을 안내한다. 좌측 상단 위치는 사용자의 명시적 UI 요구다. 화면 구성은 공식 자료 기반 UI 재구성이며 실제 Screenshot이 아니다. 로컬 앱 직접 확인은 도구 안전 제약으로 수행하지 못해 UNVERIFIED다.
 
@@ -632,12 +624,11 @@ Audience Interaction: 위치를 함께 보는 1분 안내다. 청중에게 계�
 
 Transition: “Repository 안을 함께 볼 수 있어도, 어떤 결과를 받아들일지는 누가 정할까요?”라는 질문으로 S12에 간다.
 
-Time Management: Lecture 1분. 메뉴 위치 15초, Codex 선택 15초, 허용 폴더 15초, 조사 요청·S12 연결 15초다. S09–S10에서 이관한 1분이며 ACT 0 40분·전체 360분·Lecture 130분을 유지한다. 설정 tutorial을 추가하지 않는다.
+Time Management: Lecture 1분. 메뉴 위치 15초, Codex 선택 15초, 허용 폴더 15초, 조사 요청·S12 연결 15초다. 이 장의1분은 보존한다. 현재 ACT0 43분·전체393분·Lecture157분이며 팁 목록6분은 별도 신규 배정이다. 설정 tutorial을 추가하지 않는다.
 
 Fallback: 제작 완료 후 production/preview/act0/S11.png 또는 production/preview/full/S11.png의 정적 재구성 도식을 사용한다. 새 PNG와 PPT의 일치는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 확인하기 전까지 미검증이다. 화면을 열 수 없으면 “이 교육에서는 ChatGPT 메뉴에서 Codex를 선택해 허용된 저장소 조사를 시작합니다”라고 말하고 S12로 간다. 즉석 계정 시연으로 대체하지 않는다.
 
 Validation Status: ALIGNED — 사용자 요청·공식 자료와 Notes를 정렬했다. 실제 Screenshot, 현재 계정의 제품 재현, Windows 호환성, 교육장 투사와 시간 리허설을 검증한 결과가 아니다. 새 PPT/PNG·내장 Notes 대조는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 별도로 기록한다.
-
 
 ## S12 — Repository 접근과 Task 의도는 별개다
 
@@ -655,13 +646,12 @@ Primary Message: Repository 탐색은 Context 수집에 도움을 줄 수 있지
 
 Opening Question: “Repository를 볼 수 있으면 원하는 작업도 알게 되는가?”
 
-Speaker Flow:
-
+**Speaker Flow:**
 1. **OPEN (0:00–0:20):** 왼쪽 “볼 수 있는 것”과 오른쪽 “최종 정해야 하는 것”을 나눈다. 바로 앞 S11은 진입 경로, 이 장은 역할과 책임의 구분이다.
 2. **SHARED ACCESS (0:20–0:50):** 왼쪽 사람+AI Agent 아이콘과 허용된 파일·구현·테스트를 가리킨다. 사람도 Agent도 접근 권한과 제공된 도구 범위 안에서 이 정보를 살필 수 있다는 뜻이다.
 3. **HUMAN RESPONSIBILITY (0:50–1:30):** 오른쪽 사람 아이콘과 원하는 결과·허용 범위·완료 수용을 짚는다. Agent는 선택지와 근거를 제안할 수 있지만 최종 목표와 변경 승인·수용 책임은 사람에게 둔다.
-4. **TRANSFER (1:30–2:00):** “코드를 함께 볼 수 있어도, 맡길 일과 받아들일 결과는 사람이 정한다”로 묶는다. 이 구분을 각자 작업에 대입할 S13 질문으로 이동하며 ACT 1의 요청 구조는 미리 설명하지 않는다.
-
+4. **TRANSFER (1:30–2:00):** “코드를 함께 볼 수 있어도, 맡길 일과 받아들일 결과는 사람이 정한다”로 묶는다. 이 구분을 각자 작업에 대입할 S13 팁 목록을 거쳐 S14 질문으로 이동하며 ACT 1의 요청 구조는 미리 설명하지 않는다.
+목록 연결: 본문의 핵심을 유지한 뒤, 다음 질문을 설명하기 전에 팁 제목과 위치만 한 장으로 회수한다. 새 팁 강의나 중복 설명을 추가하지 않는다.
 
 Evidence / Source: BEAT-003 next friction, DEMO-01 callback, TRIAL-001; CLM-0002, CLM-0009; DEC-0036. TEACHING_MODEL. 사람·AI Agent 픽토그램: assets/slide-illustrations/human-agent-icons.png, image_gen 교육용 이미지이며 실제 사람 사진·제품 UI·관찰 결과가 아니다.
 
@@ -681,20 +671,81 @@ Demo Operation: N/A — DEMO-01 성공 뒤 남는 문제를 설명한다.
 
 Audience Interaction: Opening question은 수사 질문이다. 짧은 강의 시간에 답변을 요구하지 않는다.
 
-Transition: “이 구분을 여러분이 지금 맡기고 싶은 일에 대입해 보겠습니다.”라고 S13의 개인 적용 질문을 연다.
+**Transition:**
+“다음 질문으로 넘어가기 전에, 이 ACT의 실무 적용 팁을 어디서 다시 볼지 확인하겠습니다.”라고 S13을 연다. 기존 다음 질문은 목록 뒤 S14에서 이어간다.
 
-Time Management: Lecture 2분. 구분 20초, 사람+Agent의 허용 정보 접근 30초, 사람의 최종 책임 40초, 정리·S13 연결 30초다. Access와 Intent 두 축만 설명하고 ACT 1의 구조나 목록은 소개하지 않는다.
+Time Management: Lecture 2분. 구분 20초, 사람+Agent의 허용 정보 접근 30초, 사람의 최종 책임 40초, 정리·S14 연결 30초다. Access와 Intent 두 축만 설명하고 ACT 1의 구조나 목록은 소개하지 않는다.
 
 
-Fallback: 화면 도식이 보이지 않으면 “자료는 함께 살펴보고, 목표·허용 범위·완료 수용은 사람이 최종 정합니다”라고 설명하고 S13으로 간다. Agent의 제안 가능성을 부정하지 않는다. 정적 경로는 production/preview/act0/S12.png 및 production/preview/full/S12.png이며 새 파일 일치는 후속 렌더 대조 전까지 미검증이다.
+Fallback: 화면 도식이 보이지 않으면 “자료는 함께 살펴보고, 목표·허용 범위·완료 수용은 사람이 최종 정합니다”라고 설명하고 S14으로 간다. Agent의 제안 가능성을 부정하지 않는다. 정적 경로는 production/preview/act0/S12.png 및 production/preview/full/S12.png이며 새 파일 일치는 후속 렌더 대조 전까지 미검증이다.
 
 
 Validation Status: ALIGNED — DEC-0036에 따라 사람·Agent 접근과 사람의 최종 책임을 구분했다. 새 PPT/PNG·내장 Notes 대조는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 기록한다. Windows PowerPoint, 실제 계정·권한, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
+## S13 — ACT 0 실무 적용 팁 모아보기
 
-## S13 — Repository를 보면 내가 원하는 것까지 알까?
+**Slide ID:**
+S13
 
-Slide ID: S13
+**Working Title:**
+ACT 0 실무 적용 팁 모아보기
+
+**ACT / Section:**
+ACT 0 / 0E
+
+**Allocated Time:**
+1 minute
+
+**Mode Split:**
+Lecture 1분
+
+**Primary Message:**
+실무 적용 팁의 위치를 S11에서 찾는다. 내용과 근거 범위는 각 원래 장을 따른다.
+
+**Opening Question:**
+“이 ACT에서 본 실무 적용 팁을 나중에 어디서 다시 볼 수 있을까요?”
+
+**Speaker Flow:**
+1. (0:00–0:15 / Lecture) 같은 배지가 붙은 장이 실무 적용 팁임을 회수한다.
+2. (0:15–0:45 / Lecture) S11 Repository 작업은 Codex에서 시작한다. 제목·위치만 짚고 본문은 다시 강의하지 않는다.
+3. (0:45–1:00 / Lecture) 기존 연결 질문을 유지하고 S14로 이동한다.
+
+**Evidence / Source:**
+DEC-0087. plan/SLIDE_MAP.md의 기존 제목·ID와 plan/PRACTICAL_APPLICATION_TIPS.md. 각 항목의 실제 관찰/연구/가상 사례는 원래 팁 장을 따른다.
+
+**Claim Boundary:**
+TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능·Trial·성능·검증 결과를 주장하지 않는다.
+
+**Beginner Explanation:**
+필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
+
+**Advanced Insight:**
+사례의 근거 상태를 유지한 채 재사용할 안내 위치를 구분한다.
+
+**C++ Vision Bridge:**
+N/A — 원래 팁의 설명 범위를 따른다.
+
+**Demo Operation:**
+N/A — 정적 찾아보기. Live·HYBRID·새 Trial은 없다.
+
+**Audience Interaction:**
+제목·위치만 안내하며 응답·실습·결과 제출을 요구하지 않는다.
+
+**Transition:**
+“이 구분을 여러분이 지금 맡기고 싶은 일에 대입해 보겠습니다.”라고 S14의 개인 적용 질문을 연다.
+
+**Time Management:**
+Lecture 1분. 원래 장별 배정을 줄이거나 중복 계산하지 않는다. 시간이 길어지면 설명을 멈추고 다음 전환으로 이동한다. 실측 리허설 UNVERIFIED.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/preview/full/S13.png 또는 production/ACT_0.pptx의 같은 장. 실제 제품 실행으로 대신하지 않는다.
+
+**Validation Status:**
+CONTENT ALIGNED — DEC-0087. 최종 패키지/Notes/렌더 대조는 production/evaluation/PRACTICAL_APPLICATION_TIPS.md에 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설 UNVERIFIED.
+
+## S14 — Repository를 보면 내가 원하는 것까지 알까?
+
+Slide ID: S14
 
 Working Title: Repository를 보면 내가 원하는 것까지 알까?
 
@@ -714,7 +765,7 @@ Speaker Flow:
 2. **PIPELINE CONTEXT (0:25–1:15 / Transition):** 입력 이미지에서 관심 영역을 crop하는 실선을 가리키고 “앞서 조사한 기존 구현”이라고 말한다. 이후 점선의 밝기 정규화, 크기 맞춤, 통계·특징, 양불 판정을 한 번 훑는다. 점선은 이 검사 흐름에서 추가로 정의·연결할 범위이지 실제 저장소의 함수 미구현을 뜻하지 않는다. 각 알고리즘의 원리·판정 기준을 강의하거나 구현 결과로 보여주지 않는다.
 3. **TASK QUESTION (1:15–2:30 / Transition):** 하단의 “지금 이 저장소에 어떤 일을 맡기고 싶으신가요?”를 읽고 원하는 작업 하나를 조용히 떠올리게 한다. 판정 카드의 ?를 남겨 두며 정답이나 새 기능 목록을 제시하지 않는다.
 4. **HANDOFF (2:30–3:00 / Transition):** “그 원하는 결과까지 코드에 적혀 있을까요?”를 읽는다. 같은 Repository를 보더라도 원하는 검사는 별도로 전달해야 한다는 다음 문제를 남긴다. ACT 1의 다섯 책임을 먼저 펼치지 않는다.
-5. **Q&A (3:00–6:00):** 자발적인 질문을 받는다. 질문이 없으면 두 질문을 화면에 남기고, 종료 시 기존 Transition 문구로 S14의 모호한 요청에 연결한다.
+5. **Q&A (3:00–6:00):** 자발적인 질문을 받는다. 질문이 없으면 두 질문을 화면에 남기고, 종료 시 기존 Transition 문구로 S15의 모호한 요청에 연결한다.
 
 Evidence / Source: BEAT-003 → BEAT-004, DEMO-01 callback, CLM-0002, CLM-0009, DEC-0037. TEACHING_MODEL. plan/DEMO_REPOSITORY_SPEC.md의 초기 모듈 범위 및 ai-dev-training-demo의 src/graypipe/pipeline.py·statistics.py와 대조했다. 실제 구현은 load→normalize→optional invert/crop/resize→save→statistics 경로이며 현재 도식과 동일한 제조 검사 순서가 아니다. 새로운 실행·Trial은 수행하지 않았다.
 
@@ -734,6 +785,6 @@ Transition: “방금 떠올린 원하는 결과를 작업 요청으로 전달�
 
 Time Management: Transition 3분 뒤 Q&A 3분 순서를 유지한다. 파이프라인 설명은 50초 정도로 제한하고 이름·실선/점선 범위만 짚는다. Q&A를 늘려 ACT 시간을 옮기지 않는다. 실제 운영 시간은 리허설 전까지 UNVERIFIED다.
 
-Fallback: production/ACT_0.pptx S13 또는 production/preview/act0/S13.png의 동일 도식을 사용한다. 질문이 없으면 판정의 ?와 두 질문을 남긴 채 기존 Transition으로 S14에 넘긴다. 즉석 검사 알고리즘·실행 화면으로 대체하지 않는다.
+Fallback: production/ACT_0.pptx S14 또는 production/preview/act0/S14.png의 동일 도식을 사용한다. 질문이 없으면 판정의 ?와 두 질문을 남긴 채 기존 Transition으로 S15에 넘긴다. 즉석 검사 알고리즘·실행 화면으로 대체하지 않는다.
 
 Validation Status: ALIGNED — DEC-0037에 따라 교육용 파이프라인과 실제 구현 범위, 기존 질문·시간·Story 연결을 대조했다. 최종 PPT/내장 Notes/PNG 검토는 production/evaluation/S10_INSPECTION_PIPELINE_REVISION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·실측 리허설은 UNVERIFIED.

@@ -1,5 +1,7 @@
 # ACT 5 Production Evaluation
 
+> Current edition: DEC-0087 /105slides/393minutes. See [tip/index result](PRACTICAL_APPLICATION_TIPS.md) and [99→105](../../plan/SLIDE_ID_MIGRATION_105.md). Dated audit below retains its edition; external gates remain UNVERIFIED.
+
 > Current edition: DEC-0084 /99slides/387minutes. See [ACT0 expansion result](ACT_0_CONTEXT_EXPANSION.md) and [96→99 migration](../../plan/SLIDE_ID_MIGRATION_99.md). The body below preserves this ACT's earlier evaluation IDs/results; its old PASS does not validate current Windows/room/rehearsal.
 
 > Current: DEC-0083 /96slides/385minutes; ACT5 S86–S96 11/36. [Harness reassessment result](ACT_5_HARNESS_REASSESSMENT.md) and [93→96 migration](../../plan/SLIDE_ID_MIGRATION_96.md) supersede current numbering. Earlier results below retain their historical scope. Windows/room/product/account/rehearsal UNVERIFIED.

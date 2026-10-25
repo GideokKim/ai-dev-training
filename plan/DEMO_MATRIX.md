@@ -1,6 +1,16 @@
 # Demo Matrix
 
-## Current ACT0 sequence — DEC-0084
+## Current application tips — DEC-0087 (2026-10-25)
+
+현재105장·393분(6시간33분). 기존99장의 내용·장별 배정·근거 범위를 보존하고,
+17개 적용 기준에 “실무 적용 팁” 공통 배지·분류를 붙였다. 각 ACT의 다음 문제·성찰·
+마무리 앞에는 제목/ID 찾아보기1장·Lecture1분씩 추가한다. ACT 장수14/22/19/19/19/12,
+시간43/64/82/86/81/37분. Mode157/73/88/21/22/32분. 새 제품 실행·Trial·검증 결과는 없다.
+[팁 기준/목록](PRACTICAL_APPLICATION_TIPS.md), [현재99→105 이행표](SLIDE_ID_MIGRATION_105.md),
+[현행 Slide Map](SLIDE_MAP.md)을 우선한다. 아래 이전 제작·Prototype·동결 기록의
+번호/시간은 당시 판본이며 현행 근거 상태를 상향하지 않는다. 실환경·리허설은 UNVERIFIED다.
+
+## Historical ACT0 sequence — DEC-0084
 
 S05 결과→S06 근거→S07 별도 실행 오류→S08 필요한 Context→S09 사람의 전달
 →S10 Agent의 허용된 조사→S11 Codex 진입→S12 접근과 의도→S13 다음 Task.

@@ -1,6 +1,16 @@
 # STEP 08 — Visual Specification
 
-## Current ACT0 sequence — DEC-0084
+## Current application tips — DEC-0087 (2026-10-25)
+
+현재105장·393분(6시간33분). 기존99장의 내용·장별 배정·근거 범위를 보존하고,
+17개 적용 기준에 “실무 적용 팁” 공통 배지·분류를 붙였다. 각 ACT의 다음 문제·성찰·
+마무리 앞에는 제목/ID 찾아보기1장·Lecture1분씩 추가한다. ACT 장수14/22/19/19/19/12,
+시간43/64/82/86/81/37분. Mode157/73/88/21/22/32분. 새 제품 실행·Trial·검증 결과는 없다.
+[팁 기준/목록](PRACTICAL_APPLICATION_TIPS.md), [현재99→105 이행표](SLIDE_ID_MIGRATION_105.md),
+[현행 Slide Map](SLIDE_MAP.md)을 우선한다. 아래 이전 제작·Prototype·동결 기록의
+번호/시간은 당시 판본이며 현행 근거 상태를 상향하지 않는다. 실환경·리허설은 UNVERIFIED다.
+
+## Historical ACT0 sequence — DEC-0084
 
 S05 결과→S06 근거→S07 별도 실행 오류→S08 필요한 Context→S09 사람의 전달
 →S10 Agent의 허용된 조사→S11 Codex 진입→S12 접근과 의도→S13 다음 Task.
@@ -24,7 +34,7 @@ Demo/Trial/State IDs는 유지한다.11Template/27Variant와19Notes 필드를 �
 아래 이전 수정·Prototype·검증 본문은 당시 번호·범위의 이력이다.
 새 Trial·측정 성과·Demo State를 추가하지 않는다. 발표 묶음은 갱신하지 않는다.
 
-> **현재 기준: DEC-0084 /99장·387분(6시간27분,2026-10-25).** ACT 장수13/21/18/18/18/11, 시간42/63/81/85/80/36분. Mode Lecture151/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존 S05–S07을6장으로 풀고 Lecture2분만 추가했다. 이전 S08–S96은 S11–S99다. [현재 이행표](SLIDE_ID_MIGRATION_99.md), [ACT0 설계](ACT0_CONTEXT_EXPANSION.md). 최초6시간과 이전 판본은 승인 이력이며 실환경·리허설은 UNVERIFIED다.
+> **현재 기준: DEC-0087 /105장·393분(6시간33분,2026-10-25).** ACT 장수14/22/19/19/19/12, 시간43/64/82/86/81/37분. Mode Lecture157/Demo73/Case88/Reflection21/Transition22/Q&A32분. 기존99장의 배정을 보존하고6개의 찾아보기에 Lecture1분씩 추가했다. [팁 목록](PRACTICAL_APPLICATION_TIPS.md), [105장 이행표](SLIDE_ID_MIGRATION_105.md). 실환경·리허설은 UNVERIFIED다.
 
 
 ## 2026-10-18 — Approved Presentation Revision (80장 이력)
@@ -363,3 +373,12 @@ Visual direction과 기본 토큰, 형식, 가독성 기준, Evidence Grammar,
 - S12의 세 시간선은 같은 출발점의 가능한 해석이다. 우측 질문을 세로로 배치하고 빈 다섯 정보를 하단에 유지한다. 반복 실행이나 병렬 Agent를 표시하지 않는다.
 - 새 S13은 동일한 경로 위치를 유지하며 사람의 명시한 조건과 일치하는 목표 경로를 강조한다. 다른 경로는 옅게 남기고 “실행 후 검증 필요”를 유지한다.
 - 기존 Color Tokens·Typography·Safe Margin·Evidence Grammar·11개 Template/27개 Variant를 적용한다. DEC-0038 당시82장/360분은 이력이며, 현재는 DEC-0043의90장/368분을 따른다.
+
+
+## DEC-0087 — CMP-PRACTICAL-TIP
+
+공통 배지는 활용 목적을 표시한다. Native rectangle x780/y44/w320/h34,
+fill#E8EDF3, 기존line/ink tokens와 Malgun Gothic18px를 사용한다. ACT label과
+Slide ID 사이의 실제 글자 영역을 확인한다. 기존 Evidence frame/claim footer는
+보존한다. 제목·본문·원본 이미지 위에 덮지 않는다. 목록은 기존 T03-A의 그룹
+구성을 재사용해 최대8개 제목/ID를 두 열에4개씩 배치한다. 새 Template/Variant는 없다.

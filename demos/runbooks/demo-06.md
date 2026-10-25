@@ -1,6 +1,6 @@
 # DEMO-06 — Context Relevance and Routing
 
-> Current references: DEC-0084 /99slides/387minutes. Current IDs and static files follow SLIDE_ID_MIGRATION_99.md. Existing Demo time/evidence is preserved; local final-package/Notes/PNG parity checked. Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0087 /105slides/393minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_105.md. Tip badges/reference indexes add no Demo time or Trial result. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — supporting visual/captured record
@@ -51,7 +51,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-Task-dependent document access; S50 explicitly says perfect routing is unproven and token saving/performance improvement were not measured.
+Task-dependent document access; S52 explicitly says perfect routing is unproven and token saving/performance improvement were not measured.
 
 ## Success Criteria
 
@@ -69,9 +69,9 @@ Evidence limit: No perfect routing, token saving, or performance gain; Progressi
 
 ## Estimated Time
 
-5m total: S40 Demo 2m + S46 Demo 2m + S50 Demo 1m.
+5m total: S42 Demo 2m + S48 Demo 2m + S52 Demo 1m.
 
-Phase plan: S40 2m → S46 2m → S50 1m.
+Phase plan: S42 2m → S48 2m → S52 1m.
 
 Time Risk: LOW
 
@@ -93,9 +93,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Demo5minutes: `production/preview/full/S40.png`, `production/preview/full/S46.png`, `production/preview/full/S50.png`. Case-only supporting alternatives: `production/preview/full/S48.png`, `production/preview/full/S49.png`.
+Default is the offline static presentation. Demo5minutes: `production/preview/full/S42.png`, `production/preview/full/S48.png`, `production/preview/full/S52.png`. Case-only supporting alternatives: `production/preview/full/S50.png`, `production/preview/full/S51.png`.
 
-Use S40/S46/S50 within the five Demo minutes. S48/S49 are additional available case-summary fallbacks for the scheduled A/B Case explanations, not extra Demo time. These are reconstructed summaries, not raw tool logs.
+Use S42/S46/S50 within the five Demo minutes. S50/S49 are additional available case-summary fallbacks for the scheduled A/B Case explanations, not extra Demo time. These are reconstructed summaries, not raw tool logs.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_2_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -109,7 +109,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S50 comparison → S51 bounded accomplishments → S52 procedure-maintenance question → S53 retained request comparison.
+S52 comparison → S53 bounded accomplishments → S55 procedure-maintenance question → S56 retained request comparison.
 
 ## Evidence
 

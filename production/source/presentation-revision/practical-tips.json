@@ -1,0 +1,244 @@
+{
+  "decision": "DEC-0087",
+  "sourceEdition": "DEC-0086 /99slides/387minutes",
+  "currentSlideCount": 105,
+  "totalMinutes": 393,
+  "badgeLabel": "실무 적용 팁",
+  "badgePosition": {
+    "left": 780,
+    "top": 44,
+    "width": 320,
+    "height": 34
+  },
+  "insertBeforeSourceNumbers": [
+    13,
+    33,
+    52,
+    70,
+    88,
+    99
+  ],
+  "tips": [
+    {
+      "sourceSlideId": "S11",
+      "slideId": "S11",
+      "act": 0,
+      "category": "사용 환경",
+      "title": "Repository 작업은 Codex에서 시작한다",
+      "rationale": "사내 사용 환경에서 개발 작업을 시작하는 경로"
+    },
+    {
+      "sourceSlideId": "S25",
+      "slideId": "S26",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "지시와 참고 자료의 구분",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S26",
+      "slideId": "S27",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "입력과 기대 결과의 작은 예시",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S27",
+      "slideId": "S28",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "바로 검토할 수 있는 결과 형식",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S28",
+      "slideId": "S29",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "근거가 있는 설명과 미확인의 구분",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S29",
+      "slideId": "S30",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "결과를 바꾸는 결정에서 확인 질문",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S30",
+      "slideId": "S31",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "큰 작업을 검토할 결과물로 나누기",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S31",
+      "slideId": "S32",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "기준을 지정한 코드 리뷰 요청",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S32",
+      "slideId": "S33",
+      "act": 1,
+      "category": "요청 작성",
+      "title": "구체적인 근거로 수정 방향 피드백",
+      "rationale": "독립적으로 참고할 수 있는 요청 문장과 적용 상황"
+    },
+    {
+      "sourceSlideId": "S45",
+      "slideId": "S47",
+      "act": 2,
+      "category": "Context 관리",
+      "title": "AGENTS.md에는 무엇을 남길까?",
+      "rationale": "기본 안내와 상세 정보의 배치 기준"
+    },
+    {
+      "sourceSlideId": "S54",
+      "slideId": "S57",
+      "act": 3,
+      "category": "수행 방법",
+      "title": "테스트 명령을 언제 쓰고 무엇을 판단할까?",
+      "rationale": "검증 명령의 사용 시점과 판단 기준"
+    },
+    {
+      "sourceSlideId": "S64",
+      "slideId": "S67",
+      "act": 3,
+      "category": "Context 관리",
+      "title": "이번 Context와 다시 쓸 지식",
+      "rationale": "다음 작업에 남길 지식의 선정·관리 기준"
+    },
+    {
+      "sourceSlideId": "S69",
+      "slideId": "S72",
+      "act": 3,
+      "category": "업무 적용",
+      "title": "밝기 통계의 판단을 C++ 검사에 적용하기",
+      "rationale": "기존 명세·수행 방법·검증 근거의 C++ 적용"
+    },
+    {
+      "sourceSlideId": "S75",
+      "slideId": "S79",
+      "act": 4,
+      "category": "검증·개선",
+      "title": "원인을 고르기 전에 확인할 기록",
+      "rationale": "원인 선택 전에 확인할 기록 목록"
+    },
+    {
+      "sourceSlideId": "S79",
+      "slideId": "S83",
+      "act": 4,
+      "category": "검증·개선",
+      "title": "지침을 고친 뒤, 무엇을 다시 확인할까?",
+      "rationale": "지침 갱신 뒤 같은 작업과 다른 작업을 확인하는 질문"
+    },
+    {
+      "sourceSlideId": "S95",
+      "slideId": "S100",
+      "act": 5,
+      "category": "검증·개선",
+      "title": "무엇을 남기고, 무엇을 덜어낼까?",
+      "rationale": "기존 구성을 유지·통합·제거할 조건"
+    },
+    {
+      "sourceSlideId": "S96",
+      "slideId": "S101",
+      "act": 5,
+      "category": "검증·개선",
+      "title": "덜어낸 뒤에도 필요한 일을 하는가?",
+      "rationale": "통합·제거 후보의 비교·되돌림 기준"
+    }
+  ],
+  "indexes": [
+    {
+      "act": 0,
+      "beforeSourceSlideId": "S13",
+      "slideId": "S13",
+      "nextSlideId": "S14",
+      "section": "0E",
+      "storyBeat": "BEAT-003의 다음 Friction",
+      "tipSlideIds": [
+        "S11"
+      ],
+      "title": "ACT 0 실무 적용 팁 모아보기"
+    },
+    {
+      "act": 1,
+      "beforeSourceSlideId": "S33",
+      "slideId": "S34",
+      "nextSlideId": "S35",
+      "section": "1H Practical Prompt Methods",
+      "storyBeat": "BEAT-005, BEAT-007 — specified intent and completion evidence; no new product-history event.",
+      "tipSlideIds": [
+        "S26",
+        "S27",
+        "S28",
+        "S29",
+        "S30",
+        "S31",
+        "S32",
+        "S33"
+      ],
+      "title": "ACT 1 실무 적용 팁 모아보기"
+    },
+    {
+      "act": 2,
+      "beforeSourceSlideId": "S52",
+      "slideId": "S54",
+      "nextSlideId": "S55",
+      "section": "2I Discussion·Transition",
+      "storyBeat": "BEAT-009–017",
+      "tipSlideIds": [
+        "S47"
+      ],
+      "title": "ACT 2 실무 적용 팁 모아보기"
+    },
+    {
+      "act": 3,
+      "beforeSourceSlideId": "S70",
+      "slideId": "S73",
+      "nextSlideId": "S74",
+      "section": "3H C++ Vision Transfer",
+      "storyBeat": "BEAT-036",
+      "tipSlideIds": [
+        "S57",
+        "S67",
+        "S72"
+      ],
+      "title": "ACT 3 실무 적용 팁 모아보기"
+    },
+    {
+      "act": 4,
+      "beforeSourceSlideId": "S88",
+      "slideId": "S92",
+      "nextSlideId": "S93",
+      "section": "4F Observed Meta Loop 마무리",
+      "storyBeat": "BEAT-058–059",
+      "tipSlideIds": [
+        "S79",
+        "S83"
+      ],
+      "title": "ACT 4 실무 적용 팁 모아보기"
+    },
+    {
+      "act": 5,
+      "beforeSourceSlideId": "S99",
+      "slideId": "S104",
+      "nextSlideId": "S105",
+      "section": "5B Final Reflection",
+      "storyBeat": "BEAT-070–071",
+      "tipSlideIds": [
+        "S100",
+        "S101"
+      ],
+      "title": "ACT 5 실무 적용 팁 모아보기"
+    }
+  ]
+}
