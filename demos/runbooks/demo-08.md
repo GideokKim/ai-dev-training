@@ -7,7 +7,7 @@ S67→S68→S69: S68은 실제 작업 종료 뒤 무엇을 남길지 질문하�
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0090 /108slides/396minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_108.md. ACT title pages add no Demo time, Trial or result. The final tip block is S105–S107. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0091 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: DEFERRED — no primary-repository Memory instance

@@ -1,6 +1,8 @@
 # ACT 3 Production Evaluation
 
-> Current edition: DEC-0090 /108slides/396minutes. ACT3: 19slides/86minutes. Title S56 adds1Transition minute before the original body. See [ACT title result](ACT_TITLE_SLIDES.md) and [102→108](../../plan/SLIDE_ID_MIGRATION_108.md). Dated audits below retain their edition; external gates remain UNVERIFIED.
+> Current edition: DEC-0091 /113slides/402minutes. ACT3: 24slides/92minutes, S56–S79. Existing per-page budgets stay fixed outside the approved ACT3 replacement. See [scoped revision](HARNESS_REUSE_REVISION.md) and [108→113](../../plan/SLIDE_ID_MIGRATION_113.md). Dated audits below retain their edition; external gates UNVERIFIED.
+
+> Historical edition: DEC-0090 /108slides/396minutes. ACT3: 19slides/86minutes. Title S56 adds1Transition minute before the original body. See [ACT title result](ACT_TITLE_SLIDES.md) and [102→108](../../plan/SLIDE_ID_MIGRATION_108.md). Dated audits below retain their edition; external gates remain UNVERIFIED.
 
 > Latest visual refinement: DEC-0089 / S54 gray branch arrows now match the2px connecting lines. See [local result](S54_BRANCH_ARROW_REVISION.md). Content/Notes/budgets and evidence scope are unchanged.
 

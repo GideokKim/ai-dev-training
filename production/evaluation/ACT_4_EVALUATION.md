@@ -1,6 +1,8 @@
 # ACT 4 Production Evaluation
 
-> Current edition: DEC-0090 /108slides/396minutes. ACT4: 19slides/81minutes. Title S75 adds1Transition minute before the original body. See [ACT title result](ACT_TITLE_SLIDES.md) and [102→108](../../plan/SLIDE_ID_MIGRATION_108.md). Dated audits below retain their edition; external gates remain UNVERIFIED.
+> Current edition: DEC-0091 /113slides/402minutes. ACT4: 19slides/81minutes, S80–S98. Existing19pages/time/Mode/evidence preserved; IDs shift by5. See [scoped revision](HARNESS_REUSE_REVISION.md) and [108→113](../../plan/SLIDE_ID_MIGRATION_113.md). Dated audits below retain their edition; external gates UNVERIFIED.
+
+> Historical edition: DEC-0090 /108slides/396minutes. ACT4: 19slides/81minutes. Title S75 adds1Transition minute before the original body. See [ACT title result](ACT_TITLE_SLIDES.md) and [102→108](../../plan/SLIDE_ID_MIGRATION_108.md). Dated audits below retain their edition; external gates remain UNVERIFIED.
 
 > Historical edition: DEC-0088 /102slides/390minutes. ACT4: 18slides/80minutes. See [final reference block](FINAL_PRACTICAL_TIPS_CONSOLIDATION.md) and [105→102](../../plan/SLIDE_ID_MIGRATION_102.md). Dated audit below retains its edition; external gates remain UNVERIFIED.
 

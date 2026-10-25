@@ -1,5 +1,13 @@
 # Current presentation source — DEC-0060 /93slides
 
+Current: DEC-0091 /113slides/402minutes. The retained factories keep their
+96-to99-to108source numbering stages. harness-reuse.mjs explicitly removes
+intermediate S72/S73, inserts current S72-S78 and shifts retained S74+ by5.
+ACT4 remains19pages/81minutes. Approved title text and Native evidence stay.
+The final tip config uses current IDs; its insertion list is the historical
+99-to108factory adapter, not the final113numbering. Build requirements use
+chart S65 and tables S53/S62/S90. See the108-to113crosswalk and scoped result.
+
 Current: DEC-0084 /99slides/387minutes. Retained factory files represent
 the96-slide source edition. `slide-numbering-99.mjs` applies the approved
 mapping once after all those overlays; `act0-context-expansion.mjs` then

@@ -1,6 +1,15 @@
 # Curriculum Matrix
 
-## 현재 ACT 제목 슬라이드 — DEC-0090 (2026-10-25)
+## 현재 기준 — DEC-0091 (2026-10-25)
+
+113장·402분. ACT3 S56–S79는24장·92분, ACT4 S80–S98은 기존19장·81분을 보존한다.
+S71 뒤 재사용2장과 이전 S72 설명5장을 넣고 이전 독립 C++ 전이 S73은 삭제했다.
+현재 범위·근거·장별 시간은 [Slide Map](SLIDE_MAP.md), [설계](HARNESS_REUSE_AND_EXECUTION_CONTEXT.md),
+[108→113 번호](SLIDE_ID_MIGRATION_113.md)를 따른다. 기존12Templates/28Variants·19Notes 필드 유지.
+마지막 팁 요약은 S110–S112이며 Windows/교육장/제품·계정/실측 리허설은 UNVERIFIED다.
+아래의 이전 Decision·Prototype·평가는 당시 판본의 이력이며 새 Trial이나 전체 환경 감사가 아니다.
+
+## 이전 ACT 제목 슬라이드 — DEC-0090 (2026-10-25)
 
 현재 **108장·396분(6시간36분)**. 각 ACT 시작에 승인된 한글 제목·부제1장을 넣는다.
 기존102장의 내용·장별 시간/Mode·근거를 유지하고 제목6장에 Transition1분씩 추가한다.
@@ -69,10 +78,10 @@ Demo/Trial/State IDs는 유지한다.11Template/27Variant와19Notes 필드를 �
 | ACT0 | S01–S14 |14|43|
 | ACT1 | S15–S36 |22|64|
 | ACT2 | S37–S55 |19|82|
-| ACT3 | S56–S74 |19|86|
-| ACT4 | S75–S93 |19|81|
-| ACT5 | S94–S108 |15|40|
-| 합계 | S01–S108 |108|396|
+| ACT3 | S56–S79 |24|92|
+| ACT4 | S80–S98 |19|81|
+| ACT5 | S99–S113 |15|40|
+| 합계 | S01–S113 |113|402|
 
 ## 보존된 기획 본문 / 이전 승인 이력
 

@@ -1,6 +1,15 @@
 # Story Transitions
 
-## 현재 ACT 제목 슬라이드 — DEC-0090 (2026-10-25)
+## 현재 기준 — DEC-0091 (2026-10-25)
+
+113장·402분. ACT3 S56–S79는24장·92분, ACT4 S80–S98은 기존19장·81분을 보존한다.
+S71 뒤 재사용2장과 이전 S72 설명5장을 넣고 이전 독립 C++ 전이 S73은 삭제했다.
+현재 범위·근거·장별 시간은 [Slide Map](SLIDE_MAP.md), [설계](HARNESS_REUSE_AND_EXECUTION_CONTEXT.md),
+[108→113 번호](SLIDE_ID_MIGRATION_113.md)를 따른다. 기존12Templates/28Variants·19Notes 필드 유지.
+마지막 팁 요약은 S110–S112이며 Windows/교육장/제품·계정/실측 리허설은 UNVERIFIED다.
+아래의 이전 Decision·Prototype·평가는 당시 판본의 이력이며 새 Trial이나 전체 환경 감사가 아니다.
+
+## 이전 ACT 제목 슬라이드 — DEC-0090 (2026-10-25)
 
 현재 **108장·396분(6시간36분)**. 각 ACT 시작에 승인된 한글 제목·부제1장을 넣는다.
 기존102장의 내용·장별 시간/Mode·근거를 유지하고 제목6장에 Transition1분씩 추가한다.

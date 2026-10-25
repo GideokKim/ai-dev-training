@@ -1,6 +1,15 @@
 # STEP 08 — CLAIM / EVIDENCE FREEZE RESULT
 
-## 현재 ACT 제목 슬라이드 — DEC-0090 (2026-10-25)
+## 현재 기준 — DEC-0091 (2026-10-25)
+
+113장·402분. ACT3 S56–S79는24장·92분, ACT4 S80–S98은 기존19장·81분을 보존한다.
+S71 뒤 재사용2장과 이전 S72 설명5장을 넣고 이전 독립 C++ 전이 S73은 삭제했다.
+현재 범위·근거·장별 시간은 [Slide Map](SLIDE_MAP.md), [설계](HARNESS_REUSE_AND_EXECUTION_CONTEXT.md),
+[108→113 번호](SLIDE_ID_MIGRATION_113.md)를 따른다. 기존12Templates/28Variants·19Notes 필드 유지.
+마지막 팁 요약은 S110–S112이며 Windows/교육장/제품·계정/실측 리허설은 UNVERIFIED다.
+아래의 이전 Decision·Prototype·평가는 당시 판본의 이력이며 새 Trial이나 전체 환경 감사가 아니다.
+
+## 이전 ACT 제목 슬라이드 — DEC-0090 (2026-10-25)
 
 현재 **108장·396분(6시간36분)**. 각 ACT 시작에 승인된 한글 제목·부제1장을 넣는다.
 기존102장의 내용·장별 시간/Mode·근거를 유지하고 제목6장에 Transition1분씩 추가한다.
@@ -873,3 +882,32 @@ name the course's existing perspectives and add no Trial, observed effect,
 product surface, official taxonomy or universal adoption requirement.
 Existing claims migrate102→108 by Slide ID only. Preserve current checks,
 conceptual boundaries and all prior evidence limits.
+
+
+## DEC-0091 — Current reuse and execution-condition boundaries
+
+- S72/S73: TEACHING_MODEL. A common Harness foundation plus project-specific
+  facts, commands, permissions and verification. Official reusable-workflow
+  packaging docs do not establish whole-Harness unchanged portability.
+  No cross-project run, token/time saving, success rate or performance gain.
+- S74: OBSERVED_PRODUCT / TRIAL-001. Permission-limited temporary-directory
+  creation was separate from the crop defect. The Agent did not lift the
+  restriction. Retain the past CLI0.154.0 and reconstructed-evidence labels.
+- S75: TEACHING_MODEL / REQUIRES PRODUCT CHECK. Application conditions from
+  repository and external sources; no exact injection trace or full audit.
+- S76/S77: OBSERVED_META / TRIAL-006. Preserve global Skill inclusion and
+  recorded procedure effects. Hook startup warnings do not establish Hook
+  execution or source changes. MCP startup/authentication errors do not
+  establish task calls or result use. Keep observed Skill effects distinct
+  from unknown causal performance contribution. Do not erase known effects.
+- S78: TEACHING_MODEL. A reusable record-format example, not an executed
+  report, verified environment inventory or measured reporting improvement.
+- Prior S73's C++ transfer is deleted. This does not remove other bounded
+  C++ examples or claim new C++ implementation/performance evidence.
+- ACT4's complete conceptual and observed Meta cases are preserved at
+  S80-S98,19pages/81minutes. Prior S88-S92 become S93-S97 with unchanged
+  per-page budgets, Decision scope and partial subsequent-record checks.
+- Keep Windows/product-account/room/rehearsal UNVERIFIED. No new Trial,
+  configuration change, Demo State or attribution upgrade is introduced.
+
+See HARNESS_REUSE_AND_EXECUTION_CONTEXT.md and SLIDE_ID_MIGRATION_113.md.

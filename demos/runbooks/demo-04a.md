@@ -1,12 +1,13 @@
 # DEMO-04A — Conceptual Stale Workflow Case
 
-## Current operation — DEC-0081
+## Current operation — DEC-0091
 
-S77/S73 retain the aligned start and Project-scope change. Later S84 compares same-task and adjacent-task evaluation; S85 selects representative tasks; S86 shows a conditional global-rule scope/cost example. These support Case/Lecture slots without adding Demo time. There is no actual repair, rerun or regression result.
-
-Current local package/render/Notes/path validation is complete for DEC-0081.
+S82/S83 retain the aligned start and project-scope change. S89 compares
+same-task and adjacent-task evaluation; S90 selects representative tasks;
+S91 shows the conditional global-rule scope/cost example. Preserve every
+existing ACT4 Case/Lecture/Demo allocation. There is no actual repair,
+rerun or regression result. The conceptual case is separate from DEMO-04B.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
-See [current ACT4 design](../../plan/ACT4_FLOW_REVISION.md).
 
 ## Earlier operation — DEC-0080
 
@@ -16,7 +17,7 @@ Current local package/render/Notes/path validation is complete for DEC-0080.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED.
 See [current connection design](../../plan/ACT3_ACT4_HANDOFF_REVISION.md).
 
-> Current references: DEC-0090 /108slides/396minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_108.md. ACT title pages add no Demo time, Trial or result. The final tip block is S105–S107. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0091 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: APPROVED ROLE — conceptual controlled case
@@ -67,7 +68,7 @@ No Agent is run in the default path. A future Live run must accept reasonable al
 
 ## Watch For
 
-CONCEPTUAL label; S77 begins with aligned unit-test instructions. S78 assumes module interactions now need verification, so the official Project scope is unit + integration tests while the reusable Workflow directs unit tests only. Compare instructions, not execution results (DEC-0027).
+CONCEPTUAL label; S82 begins with aligned unit-test instructions. S83 assumes module interactions now need verification, so the official Project scope is unit + integration tests while the reusable Workflow directs unit tests only. Compare instructions, not execution results (DEC-0027).
 
 ## Success Criteria
 
@@ -85,9 +86,9 @@ Evidence limit: No actual migration, command failure, Agent failure, Trial, or S
 
 ## Estimated Time
 
-4m: S77 2m + S78 2m.
+4m: S82 2m + S83 2m.
 
-Phase plan: S77 2m → S78 2m.
+Phase plan: S82 2m → S83 2m.
 
 Time Risk: LOW
 
@@ -109,9 +110,9 @@ Product variance: do not force the expected path. Environment failure: stop and 
 
 ## Fallback
 
-Default is the offline static presentation. Open: `production/preview/full/S77.png`, `production/preview/full/S78.png`
+Default is the offline static presentation. Open: `production/preview/full/S82.png`, `production/preview/full/S83.png`
 
-Show S77–S78 static conceptual frames; keep the constructed-case label visible.
+Show S82–S83 static conceptual frames; keep the constructed-case label visible.
 
 Fallback readiness: READY for current local static files only; see FALLBACK_MANIFEST.md and production/evaluation/ACT_4_FLOW_REVISION.md. Raw Trial capture and target-PC playback are not implied.
 
@@ -125,7 +126,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S78 → S79: distinguish task workaround from system problem.
+S83 → S84: distinguish task workaround from system problem.
 
 ## Evidence
 

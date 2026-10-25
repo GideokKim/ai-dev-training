@@ -1,6 +1,15 @@
 # STEP 08 — ACT-by-ACT Production Plan
 
-## 현재 ACT 제목 슬라이드 — DEC-0090 (2026-10-25)
+## 현재 기준 — DEC-0091 (2026-10-25)
+
+113장·402분. ACT3 S56–S79는24장·92분, ACT4 S80–S98은 기존19장·81분을 보존한다.
+S71 뒤 재사용2장과 이전 S72 설명5장을 넣고 이전 독립 C++ 전이 S73은 삭제했다.
+현재 범위·근거·장별 시간은 [Slide Map](SLIDE_MAP.md), [설계](HARNESS_REUSE_AND_EXECUTION_CONTEXT.md),
+[108→113 번호](SLIDE_ID_MIGRATION_113.md)를 따른다. 기존12Templates/28Variants·19Notes 필드 유지.
+마지막 팁 요약은 S110–S112이며 Windows/교육장/제품·계정/실측 리허설은 UNVERIFIED다.
+아래의 이전 Decision·Prototype·평가는 당시 판본의 이력이며 새 Trial이나 전체 환경 감사가 아니다.
+
+## 이전 ACT 제목 슬라이드 — DEC-0090 (2026-10-25)
 
 현재 **108장·396분(6시간36분)**. 각 ACT 시작에 승인된 한글 제목·부제1장을 넣는다.
 기존102장의 내용·장별 시간/Mode·근거를 유지하고 제목6장에 Transition1분씩 추가한다.
@@ -82,10 +91,10 @@ Speaker Notes 기준에 따라 최종 교육자료를 ACT 단위로 제작하는
 
 | 선행 조건 | 판정 | 범위와 제한 |
 |---|---|---|
-| Slide Map | 충족 | S02–S102, Slide별 역할·근거·시간·Mode가 기록돼 있다. |
+| Slide Map | 충족 | S01–S113, Slide별 역할·근거·시간·Mode가 기록돼 있다. |
 | Claim Boundary | 충족 | `CLAIM_FREEZE.md`가 기준이며 제품·환경별 open check도 유지한다. |
 | Visual System | 조건부 충족 | `VISUAL_TEMPLATE_FREEZE.md` 기준을 사용한다. Windows와 target screen은 최종 delivery Gate다. |
-| Template Mapping | 충족 | 11개 Template과 27개 Variant가 Map에 있다. Prototype 미검증 Variant는 첫 적용 때 검증한다. |
+| Template Mapping | 충족 | 12개 Template과28개 Variant가 Map에 있다. Prototype 미검증 Variant는 첫 적용 때 검증한다. |
 | Speaker Notes 구조 | 충족 | 19개 필드와 N/A/TBD 및 범위가 명시돼 있다. |
 | Pilot 정합성 | 조건부 충족 | 7개 Notes의 document review를 완료했다. 각 Notes는 DRAFT이며 pacing·media·실제 발표는 미검증이다. |
 | PPT 제작 방식 | 샘플 범위 충족 | 8장 편집 가능한 V2 prototype과 local render가 확인됐다. 93장 일괄 제작, Windows, projection, shared-style propagation은 검증하지 않았다. |
@@ -110,7 +119,7 @@ Speaker Notes 기준에 따라 최종 교육자료를 ACT 단위로 제작하는
 
 ## 3. ACT Production Order
 
-DEC-0060의 현재 번호 범위는93장이다. S02–S45는 유지하고 새S46(RepoQA),S52(의존성 답),S54(성과 회수)을 배치했다. 기존S46–S50는S47–S51, 기존S51는S53, 기존S52–S99은S55–S102으로 이동한다. 기존90장 내용·시간을 보존하고11분을 추가해 전체379분,ACT2 81분이다. 이전 삽입/검증 결과는 당시 판본의 이력이다.
+DEC-0060의 현재 번호 범위는93장이다. S02–S45는 유지하고 새S46(RepoQA),S52(의존성 답),S54(성과 회수)을 배치했다. 기존S46–S50는S47–S51, 기존S51는S53, 기존S52–S104은S55–S107으로 이동한다. 기존90장 내용·시간을 보존하고11분을 추가해 전체379분,ACT2 81분이다. 이전 삽입/검증 결과는 당시 판본의 이력이다.
 
 
 ACT는 다음 순서로 하나씩 진행한다. 각 단계는 해당 ACT의 1차 산출물을
@@ -121,10 +130,10 @@ ACT는 다음 순서로 하나씩 진행한다. 각 단계는 해당 ACT의 1차
 | 1 | ACT 0 | S01–S14 | 14 | 43분 | 검토 및 checkpoint 후 ACT 1 |
 | 2 | ACT 1 | S15–S36 | 22 | 64분 | 검토 및 checkpoint 후 ACT 2 |
 | 3 | ACT 2 | S37–S55 | 19 | 82분 | 검토 및 checkpoint 후 ACT 3 |
-| 4 | ACT 3 | S56–S74 | 19 | 86분 | 검토 및 checkpoint 후 ACT 4 |
-| 5 | ACT 4 | S75–S93 | 19 | 81분 | 검토 및 checkpoint 후 ACT 5 |
-| 6 | ACT 5 | S94–S108 | 15 | 40분 | 최종 delivery Gate 검토 |
-| **합계** |  | **S02–S108** | **108** | **396분** |  |
+| 4 | ACT 3 | S56–S79 | 24 | 92분 | 검토 및 checkpoint 후 ACT 4 |
+| 5 | ACT 4 | S80–S98 | 19 | 81분 | 검토 및 checkpoint 후 ACT 5 |
+| 6 | ACT 5 | S99–S113 | 15 | 40분 | 최종 delivery Gate 검토 |
+| **합계** |  | **S02–S113** | **113** | **402분** |  |
 
 ACT 시간은 `SLIDE_MAP.md`의 배정이며 break/setup을 포함하지 않는다.
 
@@ -176,7 +185,7 @@ ACT 시간은 `SLIDE_MAP.md`의 배정이며 break/setup을 포함하지 않는�
 - 실제 교육 계정과 사용 제품 surface, 권한, current product claims.
 - Live/Hybrid Demo의 실행 경로, 실패 대응 및 승인된 Fallback.
 - S23/S50/S83의 최종 자료 선택·파일·경로·내용 확인.
-- S93 전체 20분 rehearsal: Case 0–7, Reflection 7–9, Q&A 9–16,
+- S98 전체 20분 rehearsal: Case 0–7, Reflection 7–9, Q&A 9–16,
   Transition 16–20분과 cutoff·fallback.
 - 93장·ACT 시간·Mode 합계·Claim Boundary·Evidence 연결 최종 대조.
 - 첫 적용에서 조건부/미검증 상태였던 Template과 Variant의 확정 검토.
@@ -194,17 +203,17 @@ Mac 또는 LibreOffice local render는 Windows/교육장 확인을 대신하지 
 | Windows PowerPoint 및 실제 발표 PC | UNVERIFIED | 전체 PPT final delivery |
 | 11개 Template / 27개 Variant 전수 실제 구현 | PROVISIONAL until first use | 해당 Variant의 ACT 내 첫 적용 Gate |
 | Shared-template 수정 전파 방식 | UNVERIFIED | 대량 제작 시 일관성·수정 비용 |
-| S93 20분 timed rehearsal | UNVERIFIED | ACT 4/final delivery 운영 승인 |
+| S98 20분 timed rehearsal | UNVERIFIED | ACT 4/final delivery 운영 승인 |
 
 ## 8. Validation
 
 - Slide Map 기준: 93장, S02–S96.
 - ACT별 Slide/시간: 10/40, 21/63, 18/81, 18/85, 18/80, 8/30.
-- 전체 교육 시간:396분(DEC-0090).
+- 전체 교육 시간:402분(DEC-0091).
 - Mode 합계: Lecture 143, Demo 73, Case 88, Reflection 21,
   Transition 22, Q&A 32분.
 - Slide별 Mode 합계는 `SLIDE_MAP.md`의 Estimated Time 기준으로 검증한다.
-- S74와 S93의 승인된 Mode 순서는 DEC-0025 및 `SPEAKER_NOTES_FREEZE.md`와 같다.
+- S79와 S98의 승인된 Mode 순서는 DEC-0025 및 `SPEAKER_NOTES_FREEZE.md`와 같다.
 - 해당 판정은 제작 준비 Gate다. ACT 0 또는 이후 PPT 제작이 이 문서에서
   수행된 것은 아니다.
 

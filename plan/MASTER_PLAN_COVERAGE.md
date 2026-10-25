@@ -1,5 +1,14 @@
 # MASTER_PLAN 기획 Coverage Matrix
 
+## 현재 기준 — DEC-0091 (2026-10-25)
+
+113장·402분. ACT3 S56–S79는24장·92분, ACT4 S80–S98은 기존19장·81분을 보존한다.
+S71 뒤 재사용2장과 이전 S72 설명5장을 넣고 이전 독립 C++ 전이 S73은 삭제했다.
+현재 범위·근거·장별 시간은 [Slide Map](SLIDE_MAP.md), [설계](HARNESS_REUSE_AND_EXECUTION_CONTEXT.md),
+[108→113 번호](SLIDE_ID_MIGRATION_113.md)를 따른다. 기존12Templates/28Variants·19Notes 필드 유지.
+마지막 팁 요약은 S110–S112이며 Windows/교육장/제품·계정/실측 리허설은 UNVERIFIED다.
+아래의 이전 Decision·Prototype·평가는 당시 판본의 이력이며 새 Trial이나 전체 환경 감사가 아니다.
+
 ## 목적과 판정 기준
 
 이 표는 현재까지 제공된 교육 기획의 핵심 요구사항이
@@ -66,4 +75,3 @@
 PARTIAL인 R14와 R43은 이 단계에서 본격 Research를 수행하지 않는 범위에 따른다.
 MASTER_PLAN에는 필요한 근거 확인과 과장 방지 원칙이 기록되어 있으며,
 구체적인 연구 출처와 현재 제품 기능 검증은 후속 Research에서 완료해야 한다.
-

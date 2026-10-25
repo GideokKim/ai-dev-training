@@ -1,6 +1,6 @@
 # Legacy Module Connection Map
 
-Current table: DEC-0090 /108slide IDs. Preserve102existing module assignments;6ACT title pages add no module teaching credit. Current IDs follow SLIDE_ID_MIGRATION_108.md. Earlier prose keeps its edition.
+Current table: DEC-0091 /113slide IDs. Keep retained assignments; replace former S72/S73 with7paced explanation pages. The independent C++ transfer is removed. Current IDs follow SLIDE_ID_MIGRATION_113.md; earlier prose retains its edition.
 
 
 ## 표시의 의미
@@ -17,7 +17,7 @@ M 연계는 현재 화면에서 직접 가르치는 원모듈의 개별 내용 �
 
 ## 기준과 반영 범위
 
-현재 표는 DEC-0090의108장 번호와 `plan/SLIDE_ID_MIGRATION_108.md`를 따른다. 기존102장의 M 연계는 동일하고3찾아보기는 원모듈 학습 내용을 추가하지 않는다. 아래 이전 번호 설명은 당시 판본이다. 신규 S91–S93은 확장3장이며 기존 M 연계는 이행표로 보존한다. 이전 DEC-0043의90장·82→90 및 DEC-0060의90→93 이행과 최초80장 감사는 역사 기록이다.
+현재 표는 DEC-0091의113장 번호와 `plan/SLIDE_ID_MIGRATION_113.md`를 따른다. 기존102장의 M 연계는 동일하고3찾아보기는 원모듈 학습 내용을 추가하지 않는다. 아래 이전 번호 설명은 당시 판본이다. 신규 S91–S93은 확장3장이며 기존 M 연계는 이행표로 보존한다. 이전 DEC-0043의90장·82→90 및 DEC-0060의90→93 이행과 최초80장 감사는 역사 기록이다.
 
 - 기준: `research_notes/legacy 강의 자료/legacy.md`, `production/evaluation/LEGACY_M1_M9_COVERAGE_AUDIT.md`의 80장 역방향표, 현재 PPT에서 추출한 실제 화면 텍스트와 Notes.
 - 기존 감사 문서는 보완 전 상태를 기록한다. 이 맵은 사용자 승인에 따라 S07 입력·접근 경계, S16 수용조건, S20 결과 인계, S21 검증 반례를 반영한 제작 기준을 포함한다.
@@ -44,8 +44,8 @@ M 연계는 현재 화면에서 직접 가르치는 원모듈의 개별 내용 �
 | 범위 | 슬라이드 수 |
 |---|---:|
 | direct | 25 |
-| principle | 51 |
-| new_extension | 32 |
+| principle | 52 |
+| new_extension | 36 |
 
 ## 보수적으로 판정한 경계
 
@@ -134,40 +134,45 @@ M 연계는 현재 화면에서 직접 가르치는 원모듈의 개별 내용 �
 | S69 | M 연계 · 신규 확장 | new_extension | 기존 출처와 별도 Memory 후보를 구분하며 이번 Demo에 추가 Memory를 두지 않은 이유를 점검한다. 학습·온보딩 방법은 아니다. DEC-0062: Memory 기준과 현재 지식 감사의 실제 결론을 한 장에서 회수한다. 기존 네 기준(재발견 비용·재사용성·출처·갱신 조건)을 함께 유지한다. DEC-0074: map existing knowledge to original code/docs/Skill/Trial sources and retain the bounded no-extra-Memory choice; preserve module coverage. |
 | S70 | M 연계 · 신규 확장 | new_extension | 현재 문제에 실제로 필요했던 Task·Context·Workflow·Verification 구성을 Minimum Effective Harness로 결산한다. 원자료에 없는 Agent 작업 환경 설계 모델이다. DEC-0062: 이 사례의 구체적인 구성과 사용 이유를 회수한다. DEC-0075: show actual goal/Context/Skill contributions and verification roles around the brightness-statistics task; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
 | S71 | M 연계 · 신규 확장 | new_extension | Harness를 개발자와 Agent의 작업 환경 설계로 정의한다. 제품 시스템 아키텍처와 별도인 현행 운영 모델이다. DEC-0062: 앞 장의 실제 구성 목록을 전체 작업 관계로 묶어 Harness 정의를 완성한다. DEC-0076: connect goal/Context/Skill, Agent, verification and shared execution environment as the bounded course Harness model; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
-| S72 | M 연계 · M2 · M6 | principle | Repository 밖의 지침·실행 환경·도구·권한 조건도 작업 결과 해석에 기록한다. 실행 맥락과 환경 조건을 확인하는 원리만 연결한다. DEC-0062: 제품 기능 목록을 강의하지 않고 실행 조건을 기록해야 하는 이유를 제한된 Meta 관찰로 예고한다. DEC-0077: distinguish repository-external application conditions, retained TRIAL-006 observations and attribution limits; preserve module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
-| S73 | M 연계 · M5 · M6 | principle | 입력·계약·빌드/하드웨어 가정, profile, 동작·회귀·통합 검증의 패턴을 C++ Vision 업무로 옮긴다. 특정 도구 작성법이나 실제 C++ 실행 근거는 아니다. DEC-0062: 앞의 구체적인 판단을 승인된 제조 검사 파이프라인 삽화와 연결한다. DEC-0078: pair observed Demo criteria with conceptual C++ specification, workflow and verification; retain approved illustration and module coverage. |
-| S74 | M 연계 · M2 · M8 | principle | 반복되는 사실과 절차를 찾아 현재 필요한 구조를 묻는다. 반복 비용을 줄일 투자 지점의 성찰이며 정량 자동화 우선순위표는 아니다. DEC-0062: 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다. DEC-0079: choose one recurring need, a maintained location and review/update responsibility; retain reflection boundaries and module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
-| S75 | M 연계 · ACT 안내 | new_extension | ACT 제목·부제를 안내하는 도입 표지이며 기존 M1–M9의 교수 연결을 추가하지 않는다. |
-| S76 | M 연계 · M5 · M6 | direct | 동작 계약·전체 테스트·성능 측정·guard로 확인한 제품 결과를 회수한다. 코드 변경을 검증 근거로 수용하는 원리를 명시한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
-| S77 | M 연계 · M6 | principle | 현재 프로젝트 검증 기준과 재사용 지시가 모두 단위 테스트인 가상 출발점을 둔다. 테스트 코드 작성이나 도구 사용 교육은 아니다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
-| S78 | M 연계 · M6 | direct | 단위 테스트는 각 모듈, 통합 테스트는 모듈 연결까지 본다는 검증 범위 차이를 가상 사례로 직접 설명한다. E2E 전체 분류는 포함하지 않는다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
-| S79 | M 연계 · M2 · M6 | principle | 이번 요청에 검증을 더하는 보정과 다음 작업이 읽는 재사용 지침의 갱신을 구분한다. 피드백·검증 원리를 시스템 범위로 확장한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
-| S80 | M 연계 · M6 | principle | 관찰된 원인이 있는 Layer와 변경할 Layer를 맞춘다. 가설을 확인한 뒤 원인에 맞춰 수정한다는 디버깅 원리를 확장한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
-| S81 | M 연계 · M6 | direct | 증상에서 즉시 결론을 내리지 않고 Context·Workflow·환경/권한·제품 코드의 원인 후보를 나눈다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
-| S82 | M 연계 · M6 | direct | 주어진 관찰 사실과 확인할 원인 가설을 구분하고 실행 경로·실제로 읽은 지침을 대조하도록 한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
-| S83 | M 연계 · M5 · M6 | principle | 확인된 원인이 지지하는 범위만 바꾸는 최소 변경 원리를 가상 Workflow에 적용한다. 제품 리팩터링 실행 사례는 아니다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
-| S84 | M 연계 · M6 | direct | 변경 후 같은 Task의 재확인과 다른 유효한 작업에 대한 회귀 확인이 서로 다른 질문임을 설명한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
-| S85 | M 연계 · M6 | principle | 서로 다른 위험을 대표하는 작업으로 변경 영향을 확인하도록 평가 대상을 설계한다. 새 실행 결과나 제품 테스트 생성 튜토리얼은 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
-| S86 | M 연계 · 신규 확장 | new_extension | 규칙 누적·충돌·특정 Task 편향으로 Harness가 과도하게 좁아질 수 있다는 현행 유지관리 모델이다. 생산성 지표나 제품 테스트 방법과 동일하게 세지 않는다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
-| S87 | M 연계 · M2 · M6 | principle | 실행·관찰·원인 판단·시스템 변경·재평가로 피드백을 연결한다. 검증과 반복 개선 원리를 Harness 범위로 확장하며 Sobel 코드 다회차 개선과 구분한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
-| S88 | M 연계 · M6 | principle | 실제 Trial의 작업 요청과 함께 관찰된 환경 영향을 분리해 원인 귀속의 확인 과제를 만든다. 근거로 가설을 판단하는 원리만 연결한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
-| S89 | M 연계 · M5 · M6 | direct | 동일 조건의 입력/출력 guard·측정 결과 확인과 그 결과를 만든 원인 판단을 구분한다. 코드 성능 근거이며 개발자 생산성 증거는 아니다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
-| S90 | M 연계 · 신규 확장 | new_extension | 실제 제작 과정에서 Trial 평가·보고 기준을 바꾼 Meta 사례다. ADR 필드 작성이나 AI 리서치 보고서 작성 교육은 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
-| S91 | M 연계 · M6 | principle | 후속 보고와 보존된 원문 진단 메시지를 대조해 관찰 기록의 누락을 찾는다. 로그를 근거로 확인하는 원리이며 보안 익명화 절차는 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
-| S92 | M 연계 · M6 | principle | 평가·보고 기준의 변화와 원인별 효과·환경 목록·품질 향상의 미확인 과제를 구별한다. 변경 결과를 다시 검증하는 원리를 Meta 범위로 확장한다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
-| S93 | M 연계 · M5 · M6 | principle | C++ Vision의 환경 변화 뒤 기존 가정·비교 가능한 측정 조건·기능 계약을 다시 확인한다. 실제 장비 성능·장기 안정성 결과는 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
-| S94 | M 연계 · ACT 안내 | new_extension | ACT 제목·부제를 안내하는 도입 표지이며 기존 M1–M9의 교수 연결을 추가하지 않는다. |
-| S95 | M 연계 · M1 · M2 | principle | 각 대응이 필요했던 문제를 연결해 전체 여정을 회수한다. 개인 선택은 S97/S98에 남긴다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. |
-| S96 | M 연계 · M5 · M6 | principle | 일곱 실제 Product State를 세 시간순 문제·변경 묶음으로 회수하고 Loop 사례와 경계를 구분한다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. |
-| S97 | M 연계 · M8 · M9 | principle | 구성요소 이름을 재강의하지 않고, 현재 작업의 사용·보류 판단 이유를 회수한다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. |
-| S98 | M 연계 · M1 · M2 · M4 · M5 · M6 · M9 | principle | AI가 가져온 결과를 사람이 목표·판단·검증·책임의 질문으로 수용하는 관계를 설명한다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. |
-| S99 | M 연계 · 신규 확장 | new_extension | 사람의 판단을 지원할 작업 조건·확인 경로의 설계를 이 과정의 AI-Native 운영 모델로 회수한다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. |
-| S100 | M 연계 · 신규 확장 | new_extension | DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result. |
-| S101 | M 연계 · 신규 확장 | new_extension | DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result. |
-| S102 | M 연계 · 신규 확장 | new_extension | DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result. |
-| S103 | M 연계 · M2 · M8 | principle | C++ Vision 업무의 증상을 먼저 읽고 동등한 A–E 문제 가운데 가까운 하나를 고른다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. 통합·제거 후보는 기존 원칙의 확장이며 새 성과나 원모듈 전체 충족을 주장하지 않는다. |
-| S104 | M 연계 · M1 · M8 | principle | S97의 같은 A–E 문제를 다음 행동과 확인 근거로 빠짐없이 이어 받는 개인 성찰이다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. 통합·제거 후보는 기존 원칙의 확장이며 새 성과나 원모듈 전체 충족을 주장하지 않는다. |
-| S105 | M 연계 · 찾아보기 | new_extension | 기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다. |
-| S106 | M 연계 · 찾아보기 | new_extension | 기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다. |
-| S107 | M 연계 · 찾아보기 | new_extension | 기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다. |
-| S108 | M 연계 · M1 | principle | 남은 질문을 받은 뒤, 원래 다섯 여정 용어와 마지막 한 문장으로 교육을 닫는다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. |
+| S72 | M 연계 · 신규 확장 | new_extension | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
+| S73 | M 연계 · 신규 확장 | new_extension | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
+| S74 | M 연계 · 신규 확장 | new_extension | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
+| S75 | M 연계 · M2 · M6 | principle | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
+| S76 | M 연계 · M2 · M6 | principle | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
+| S77 | M 연계 · M2 · M6 | principle | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
+| S78 | M 연계 · 신규 확장 | new_extension | DEC-0091: Harness 재사용 및 실행 조건 설명. 관찰·모델 경계를 보존하며 새 기능 실행이나 성과를 추가하지 않는다. |
+| S79 | M 연계 · M2 · M8 | principle | 반복되는 사실과 절차를 찾아 현재 필요한 구조를 묻는다. 반복 비용을 줄일 투자 지점의 성찰이며 정량 자동화 우선순위표는 아니다. DEC-0062: 개인 성찰을 구체적인 유지 책임으로 회수하고 ACT4에 프로젝트 변화 점검을 넘긴다. DEC-0079: choose one recurring need, a maintained location and review/update responsibility; retain reflection boundaries and module coverage. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
+| S80 | M 연계 · ACT 안내 | new_extension | ACT 제목·부제를 안내하는 도입 표지이며 기존 M1–M9의 교수 연결을 추가하지 않는다. |
+| S81 | M 연계 · M5 · M6 | direct | 동작 계약·전체 테스트·성능 측정·guard로 확인한 제품 결과를 회수한다. 코드 변경을 검증 근거로 수용하는 원리를 명시한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
+| S82 | M 연계 · M6 | principle | 현재 프로젝트 검증 기준과 재사용 지시가 모두 단위 테스트인 가상 출발점을 둔다. 테스트 코드 작성이나 도구 사용 교육은 아니다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
+| S83 | M 연계 · M6 | direct | 단위 테스트는 각 모듈, 통합 테스트는 모듈 연결까지 본다는 검증 범위 차이를 가상 사례로 직접 설명한다. E2E 전체 분류는 포함하지 않는다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
+| S84 | M 연계 · M2 · M6 | principle | 이번 요청에 검증을 더하는 보정과 다음 작업이 읽는 재사용 지침의 갱신을 구분한다. 피드백·검증 원리를 시스템 범위로 확장한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
+| S85 | M 연계 · M6 | principle | 관찰된 원인이 있는 Layer와 변경할 Layer를 맞춘다. 가설을 확인한 뒤 원인에 맞춰 수정한다는 디버깅 원리를 확장한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
+| S86 | M 연계 · M6 | direct | 증상에서 즉시 결론을 내리지 않고 Context·Workflow·환경/권한·제품 코드의 원인 후보를 나눈다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
+| S87 | M 연계 · M6 | direct | 주어진 관찰 사실과 확인할 원인 가설을 구분하고 실행 경로·실제로 읽은 지침을 대조하도록 한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
+| S88 | M 연계 · M5 · M6 | principle | 확인된 원인이 지지하는 범위만 바꾸는 최소 변경 원리를 가상 Workflow에 적용한다. 제품 리팩터링 실행 사례는 아니다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. |
+| S89 | M 연계 · M6 | direct | 변경 후 같은 Task의 재확인과 다른 유효한 작업에 대한 회귀 확인이 서로 다른 질문임을 설명한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
+| S90 | M 연계 · M6 | principle | 서로 다른 위험을 대표하는 작업으로 변경 영향을 확인하도록 평가 대상을 설계한다. 새 실행 결과나 제품 테스트 생성 튜토리얼은 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
+| S91 | M 연계 · 신규 확장 | new_extension | 규칙 누적·충돌·특정 Task 편향으로 Harness가 과도하게 좁아질 수 있다는 현행 유지관리 모델이다. 생산성 지표나 제품 테스트 방법과 동일하게 세지 않는다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
+| S92 | M 연계 · M2 · M6 | principle | 실행·관찰·원인 판단·시스템 변경·재평가로 피드백을 연결한다. 검증과 반복 개선 원리를 Harness 범위로 확장하며 Sobel 코드 다회차 개선과 구분한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
+| S93 | M 연계 · M6 | principle | 실제 Trial의 작업 요청과 함께 관찰된 환경 영향을 분리해 원인 귀속의 확인 과제를 만든다. 근거로 가설을 판단하는 원리만 연결한다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
+| S94 | M 연계 · M5 · M6 | direct | 동일 조건의 입력/출력 guard·측정 결과 확인과 그 결과를 만든 원인 판단을 구분한다. 코드 성능 근거이며 개발자 생산성 증거는 아니다. DEC-0080 aligns maintenance ownership, diagnostic order and bounded handoffs. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
+| S95 | M 연계 · 신규 확장 | new_extension | 실제 제작 과정에서 Trial 평가·보고 기준을 바꾼 Meta 사례다. ADR 필드 작성이나 AI 리서치 보고서 작성 교육은 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
+| S96 | M 연계 · M6 | principle | 후속 보고와 보존된 원문 진단 메시지를 대조해 관찰 기록의 누락을 찾는다. 로그를 근거로 확인하는 원리이며 보안 익명화 절차는 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
+| S97 | M 연계 · M6 | principle | 평가·보고 기준의 변화와 원인별 효과·환경 목록·품질 향상의 미확인 과제를 구별한다. 변경 결과를 다시 검증하는 원리를 Meta 범위로 확장한다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
+| S98 | M 연계 · M5 · M6 | principle | C++ Vision의 환경 변화 뒤 기존 가정·비교 가능한 측정 조건·기능 계약을 다시 확인한다. 실제 장비 성능·장기 안정성 결과는 아니다. DEC-0081 clarifies evaluation, reporting and the ACT5 handoff while preserving module coverage and evidence scope. |
+| S99 | M 연계 · ACT 안내 | new_extension | ACT 제목·부제를 안내하는 도입 표지이며 기존 M1–M9의 교수 연결을 추가하지 않는다. |
+| S100 | M 연계 · M1 · M2 | principle | 각 대응이 필요했던 문제를 연결해 전체 여정을 회수한다. 개인 선택은 S97/S98에 남긴다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. |
+| S101 | M 연계 · M5 · M6 | principle | 일곱 실제 Product State를 세 시간순 문제·변경 묶음으로 회수하고 Loop 사례와 경계를 구분한다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. |
+| S102 | M 연계 · M8 · M9 | principle | 구성요소 이름을 재강의하지 않고, 현재 작업의 사용·보류 판단 이유를 회수한다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. |
+| S103 | M 연계 · M1 · M2 · M4 · M5 · M6 · M9 | principle | AI가 가져온 결과를 사람이 목표·판단·검증·책임의 질문으로 수용하는 관계를 설명한다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. |
+| S104 | M 연계 · 신규 확장 | new_extension | 사람의 판단을 지원할 작업 조건·확인 경로의 설계를 이 과정의 AI-Native 운영 모델로 회수한다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. |
+| S105 | M 연계 · 신규 확장 | new_extension | DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result. |
+| S106 | M 연계 · 신규 확장 | new_extension | DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result. |
+| S107 | M 연계 · 신규 확장 | new_extension | DEC-0083: previously justified structure reassessment; bounded public case and course model, no measured Demo result. |
+| S108 | M 연계 · M2 · M8 | principle | C++ Vision 업무의 증상을 먼저 읽고 동등한 A–E 문제 가운데 가까운 하나를 고른다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. 통합·제거 후보는 기존 원칙의 확장이며 새 성과나 원모듈 전체 충족을 주장하지 않는다. |
+| S109 | M 연계 · M1 · M8 | principle | S97의 같은 A–E 문제를 다음 행동과 확인 근거로 빠짐없이 이어 받는 개인 성찰이다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. 통합·제거 후보는 기존 원칙의 확장이며 새 성과나 원모듈 전체 충족을 주장하지 않는다. |
+| S110 | M 연계 · 찾아보기 | new_extension | 기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다. |
+| S111 | M 연계 · 찾아보기 | new_extension | 기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다. |
+| S112 | M 연계 · 찾아보기 | new_extension | 기존 실무 적용 팁의 제목·위치를 교육 마지막에 안내하는 찾아보기이며 원모듈의 새 교수 내용이나 근거를 추가하지 않는다. |
+| S113 | M 연계 · M1 | principle | 남은 질문을 받은 뒤, 원래 다섯 여정 용어와 마지막 한 문장으로 교육을 닫는다. 기존 M 연계 범위만 유지하며 모듈 전체 충족이나 새 근거를 주장하지 않는다. |

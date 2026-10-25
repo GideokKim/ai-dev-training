@@ -1,6 +1,8 @@
 # ACT 2 — Speaker Notes
 
-Current: DEC-0090 /108slides/396minutes. ACT2: 19slides/82minutes. ACT title is1Transition minute; original body budgets are unchanged. Current Notes below use108-slide IDs. Earlier headers are historical. See plan/SLIDE_ID_MIGRATION_108.md.
+Current: DEC-0091 /113slides/402minutes. ACT2: 19slides/82minutes. Current IDs follow SLIDE_ID_MIGRATION_113.md. ACT4 composition/Mode/time unchanged; earlier edition headers remain historical.
+
+Historical: DEC-0090 /108slides/396minutes. ACT2: 19slides/82minutes. ACT title is1Transition minute; original body budgets are unchanged. Current Notes below use108-slide IDs. Earlier headers are historical. See plan/SLIDE_ID_MIGRATION_108.md.
 
 Historical: DEC-0088 /102slides/390minutes. ACT2: 18slides/81minutes. All17tip bodies stay in context. The only reference block is S99–S101 before final Q&A/Closing. Current Notes below use102-slide IDs. Earlier headers are historical. See plan/SLIDE_ID_MIGRATION_102.md.
 
@@ -72,7 +74,7 @@ N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S38 — 다른 Task에 같은 설명이 반복된다로 이어간다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 2 총82분, 전체396분이다. 제목·부제만 안내하고1분에 S38로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 2 총82분, 전체402분이다. 제목·부제만 안내하고1분에 S38로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S37.png 또는 production/ACT_2.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.

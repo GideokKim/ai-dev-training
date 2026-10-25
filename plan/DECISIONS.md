@@ -9788,3 +9788,105 @@ handoffs. Check108x19Notes,102retained screens outside ID/reference boxes,
 all image crops, native evidence, tip targets and34fallback identities.
 Keep Windows/room/product/account/timed rehearsal UNVERIFIED. Commit/push
 normally to origin/main without force push or a presenter bundle.
+
+# DEC-0091 — Explain Harness reuse and execution conditions before the Loop
+
+## Status
+
+ACCEPTED — explicit user approval after the consolidated plan and clarification
+that ACT4 must retain its existing composition and time.
+
+## Date
+
+2026-10-25
+
+## Context
+
+The108-slide edition ends the Harness synthesis at S71. S72 combines external
+execution conditions, historical observations and inference limits in3minutes.
+S73 switches to an independent C++ transfer before the reflection. The user
+asks to show the benefit of reusing a Harness in other projects, explain S72
+in smaller steps and remove that standalone C++ page.
+
+## Problem
+
+The reuse value is implicit, and one dense environment slide asks beginners
+to distinguish several kinds of evidence at once. Moving too much of the
+ACT4 Meta case into ACT3 would weaken the later explanation of actual
+system improvement. The earlier suggestion to compress ACT4 is withdrawn.
+
+## Decision
+
+Keep S71's synthesis and6-minute allocation. Add S72/S73 for a reusable
+foundation and project-specific bindings. Replace prior S72 with S74-S78:
+TRIAL-001's independent permission error; repository versus external
+conditions; observed TRIAL-006 Skill involvement; warning versus actual
+use; and a teaching example of a reusable work record. Assign each of these
+seven pages2Lecture minutes. Remove prior S73's standalone C++ transfer.
+Keep the reflection at10minutes as new S79 with its existing Mode order.
+
+Preserve every ACT4 page, its sequence, per-page time/Mode, evidence and
+claim boundary. Prior S75-S93 become S80-S98 and remain19pages/81minutes.
+In particular, prior S88-S92 become S93-S97 with the complete evaluation
+and reporting-change case. Do not shorten that case or pre-explain its
+Decision and subsequent checks in ACT3. Keep the independent conceptual
+stale-workflow case and the actual Meta case distinct.
+
+The result is113slides/402planned minutes. ACT counts are14/22/19/24/19/15,
+and minutes are43/64/82/92/81/40. Modes are Lecture160, Demo73, Case88,
+Reflection21, Transition28 and Q&A32. Keep12Templates/28Variants and the
+19-field Notes schema. Keep17tip pages: replace the removed C++ tip with
+S78's record tip in the final reference block S110-S112. Do not add a bundle.
+
+## Rationale
+
+Show why a constructed work system is useful before teaching how to connect
+it to another project. Give each page one question. Use known observations
+as examples without presenting cross-project execution or improvements
+that were never tested. Preserve the later ACT's distinct learning goal.
+
+## Alternatives
+
+Keep the one dense execution-condition page; it retains the comprehension
+problem. Add only reuse benefits; it leaves application boundaries unclear.
+Compress ACT4; the user explicitly rejects this and its pages have distinct
+roles in explaining the actual improvement process.
+
+## Trade-offs
+
+Increase the deck by5pages and6planned minutes. The dedicated C++ transfer
+is removed by approval; other C++ material remains. A reused foundation
+still needs project facts, commands, permissions and verification criteria.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-NARRATIVE-002, INV-DEMO-003,
+INV-VERIFY-001, INV-DELIVERY-001.
+
+## Affected Artifacts
+
+Slide Map,108-to113 crosswalk, ACT3 reuse plan, current planning routers,
+Notes, source factories, Full/ACT PPTX, previews, fallback identities,
+current handoff/checklist and the scoped local evaluation.
+
+## Evidence
+
+Explicit user approval in this chat; baseline108d0d8; preserved TRIAL-001
+and TRIAL-006 records in DEMO_MATRIX.md; existing DEC-0023/0016/0021/0077.
+Official Build skills and Plugin architecture pages checked2026-10-25
+support reusable workflow packaging. The broader reusable Harness structure
+is the course's teaching model. It is not a product guarantee or a tested
+cross-project result. No new Trial or Demo repository change is authorized.
+
+## Training Relevance
+
+YES — connect the value of reusable working methods with project-specific
+facts and evidence of actual use. Leave evaluation-policy improvement to
+ACT4 so that shared evidence serves different, clearly separated questions.
+
+## Follow-up
+
+Render and inspect the full deck; verify retained ACT4 bodies/time/Mode and
+Markdown/embedded Notes parity. Preserve Windows/product-account/room and
+timed-rehearsal gates as UNVERIFIED. Commit normal deliverables and push
+only to the existing origin/main without force.

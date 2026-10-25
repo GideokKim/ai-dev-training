@@ -1,15 +1,37 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-현재 기준: **DEC-0090 /108장·396분(6시간36분)**. 각 ACT 시작에 승인된 제목·부제1장을
-추가했다. 제목 S01/S15/S37/S56/S75/S94는 Transition1분씩이며 기존102장의 내용·배정·
-근거·이미지·Notes 역할을 유지한다. ACT 장수14/22/19/19/19/15,
-시간43/64/82/86/81/40분. 마지막 팁 요약은 S105–S107, 마무리는 S108이다.
-Full108+6ACT108,216PNGs·108x19Notes를 최종 패키지에서 대조했다. 기존102개 화면은
-번호/참조 외 동일하다. S54 화살표 보정은 현재 S58에 보존한다.34fallback의 현재
-경로/해시를 따른다. Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다.
-[최신 결과](ACT_TITLE_SLIDES.md), [제목 기준](../../plan/ACT_TITLES.md),
-[102→108 번호](../../plan/SLIDE_ID_MIGRATION_108.md), [제목6장](../preview/full/act-title-slides.png).
-발표 묶음은 갱신하지 않았다. 아래 과거 제작/평가는 당시 판본이다.
+현재 기준: **DEC-0091 /113장·402분(6시간42분)**. Harness 재사용 가치를 S72/S73에서
+먼저 설명하고, 이전 S72를 실행 조건 설명 S74–S78의5장으로 나눴다. 이전 S73의
+독립 C++ 전이 장은 삭제했다. 기존 S74는 S79이며 ACT4는 S80–S98로 이동한다.
+ACT4의19장·81분·구성·장별 Mode·근거와 실제 개선5장 S93–S97을 온전히 보존했다.
+ACT 장수14/22/19/24/19/15, 시간43/64/82/92/81/40분.
+Mode Lecture160/Demo73/Case88/Reflection21/Transition28/Q&A32분.
+전체113장과6ACT의113장,226PNGs·113x19Notes/내장/ACT 대응을 대조했다.
+변경 대상 외104개 화면은 ID/참조 영역 밖 동일하고, 보존된 모든 이미지의
+bytes/crop/위치와 Native 표/차트도 대조했다.17개 팁·마지막 요약 S110–S112를 유지한다.
+새 기록 팁 S78을 마지막 목록에 연결했다.34Demo fallback의 현재 경로/해시를 따른다.
+재사용 도식은 실제 이식 시험이 아니며 새 Trial·성능·토큰 절약 주장은 없다.
+Windows·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED다.
+발표 묶음·Demo 저장소·원본 이미지·Prototype은 변경하지 않았다.
+
+[수정 결과](HARNESS_REUSE_REVISION.md), [설계](../../plan/HARNESS_REUSE_AND_EXECUTION_CONTEXT.md),
+[108→113 번호](../../plan/SLIDE_ID_MIGRATION_113.md), [설명 흐름](../preview/full/harness-reuse-sequence.png).
+
+## 현재 파일 식별
+
+| 파일 | SHA-256 |
+|---|---|
+| production/AI_Dev_Training_Full.pptx | `ab59f11cb9bbf374cad8e2483022d2159327bc7bf68cc6fda61a164322e59c83` |
+| production/ACT_0.pptx | `92e504a1599f290f80d4ddf789ad081c85476041f5259e3810e23236cd4817ea` |
+| production/ACT_1.pptx | `8963afae1e525226e1b13d6907d24d87502bcf9452d472b22b189d063c2b4bad` |
+| production/ACT_2.pptx | `90efca72bd0889edfcaef5ae6d223d44bca94abc095d6eef224fec9b324712dd` |
+| production/ACT_3.pptx | `dc7e9d467d8d0667c01b1fee5cd72207b25225d987151895ca4119c7a71390b0` |
+| production/ACT_4.pptx | `4fa17e9d3474c311fca769698d62c02e88f44dca400824d2bf652fb6e2a5c426` |
+| production/ACT_5.pptx | `8f8452ab8b69b71e89e6980b1c2c2e0f2ae6df063cb93e284577d5560147a9d8` |
+| production/notes/FULL_SPEAKER_NOTES.md | `832d755e1899664f1e7ca997b9d5a34874113acb18e086ca2dd620d52d5dd7b9` |
+| production/preview/full/montage.png | `072951d5054312f58b9d1cc121c5f0d48d421aa8915d50b9aea22ccd9b34ff2c` |
+
+아래 이전 전달·평가는 당시 판본이며 현재 실환경 검증을 대신하지 않는다.
 
 ## 이전102장 및 그 이전 제작 기록
 

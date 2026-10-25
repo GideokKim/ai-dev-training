@@ -3,7 +3,7 @@
 Current content: DEC-0062. ACT3 procedure/source/scenario/decision order follows
 plan/ACT3_FLOW_REVISION.md; local paths/hashes follow FALLBACK_MANIFEST.md.
 
-> Current references: DEC-0090 /108slides/396minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_108.md. ACT title pages add no Demo time, Trial or result. The final tip block is S105–S107. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0091 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 These runbooks use approved Story and Demo evidence. They do not create a new Trial, Product State, prompt, or current-product claim. The default playback for this execution is the local static render of the integrated deck.
 

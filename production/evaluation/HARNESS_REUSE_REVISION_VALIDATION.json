@@ -1,0 +1,508 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "decision": "DEC-0091",
+  "baseline": "108d0d8cccb4da2f685ac865325518d69379e763",
+  "slideCount": 113,
+  "totalMinutes": 402,
+  "actSlideCounts": [
+    14,
+    22,
+    19,
+    24,
+    19,
+    15
+  ],
+  "actMinutes": {
+    "ACT 0": 43,
+    "ACT 1": 64,
+    "ACT 2": 82,
+    "ACT 3": 92,
+    "ACT 4": 81,
+    "ACT 5": 40
+  },
+  "modeMinutes": {
+    "Transition": 28,
+    "Lecture": 160,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Q&A": 32
+  },
+  "actModeMinutes": {
+    "ACT 0": {
+      "Transition": 4,
+      "Lecture": 15,
+      "Reflection": 4,
+      "Case": 9,
+      "Demo": 8,
+      "Q&A": 3
+    },
+    "ACT 1": {
+      "Transition": 4,
+      "Case": 18,
+      "Reflection": 4,
+      "Lecture": 26,
+      "Demo": 8,
+      "Q&A": 4
+    },
+    "ACT 2": {
+      "Transition": 5,
+      "Lecture": 34,
+      "Case": 18,
+      "Demo": 13,
+      "Reflection": 5,
+      "Q&A": 7
+    },
+    "ACT 3": {
+      "Transition": 3,
+      "Case": 20,
+      "Lecture": 39,
+      "Demo": 20,
+      "Q&A": 7,
+      "Reflection": 3
+    },
+    "ACT 4": {
+      "Transition": 5,
+      "Lecture": 22,
+      "Reflection": 3,
+      "Demo": 22,
+      "Case": 22,
+      "Q&A": 7
+    },
+    "ACT 5": {
+      "Transition": 7,
+      "Lecture": 24,
+      "Demo": 2,
+      "Case": 1,
+      "Reflection": 2,
+      "Q&A": 4
+    }
+  },
+  "newSlideIds": [
+    "S72",
+    "S73",
+    "S74",
+    "S75",
+    "S76",
+    "S77",
+    "S78"
+  ],
+  "removedPriorSlideIds": [
+    "S72 (replaced by5pages)",
+    "S73 (standalone C++ transfer deleted)"
+  ],
+  "retained106PerSlideBudgetsAndClaimsPreserved": true,
+  "104ScreensIdenticalOutsideIDReferenceRegions": true,
+  "ACT4All19ScreensAndNoteRolesPreserved": true,
+  "ACT4UnchangedMinutes": 81,
+  "IDReferenceBoxesMasked": 37,
+  "notesRecords": 113,
+  "fieldsPerNotes": 19,
+  "retainedNotesFieldsChanged": [
+    [
+      "S01",
+      "Time Management"
+    ],
+    [
+      "S12",
+      "Time Management"
+    ],
+    [
+      "S15",
+      "Time Management"
+    ],
+    [
+      "S37",
+      "Time Management"
+    ],
+    [
+      "S56",
+      "Time Management"
+    ],
+    [
+      "S70",
+      "C++ Vision Bridge"
+    ],
+    [
+      "S71",
+      "Speaker Flow"
+    ],
+    [
+      "S71",
+      "C++ Vision Bridge"
+    ],
+    [
+      "S71",
+      "Transition"
+    ],
+    [
+      "S71",
+      "Time Management"
+    ],
+    [
+      "S79",
+      "Primary Message"
+    ],
+    [
+      "S79",
+      "Opening Question"
+    ],
+    [
+      "S79",
+      "Speaker Flow"
+    ],
+    [
+      "S79",
+      "C++ Vision Bridge"
+    ],
+    [
+      "S79",
+      "Demo Operation"
+    ],
+    [
+      "S79",
+      "Audience Interaction"
+    ],
+    [
+      "S79",
+      "Transition"
+    ],
+    [
+      "S79",
+      "Time Management"
+    ],
+    [
+      "S80",
+      "Time Management"
+    ],
+    [
+      "S99",
+      "Time Management"
+    ],
+    [
+      "S110",
+      "Primary Message"
+    ],
+    [
+      "S110",
+      "Speaker Flow"
+    ]
+  ],
+  "renderedPNGs": 226,
+  "FullACTPNGParity": 113,
+  "17BodyTipBadges": true,
+  "allRetainedImageBytesCropsPositionsPreserved": true,
+  "pictureInstancesChecked": 36,
+  "nativeTablesPreserved": [
+    "S53",
+    "S62",
+    "S85→S90"
+  ],
+  "nativeChartPreserved": "S65",
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "preexistingWarnings": [
+    {
+      "artifact": "AI_Dev_Training_Full",
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 53,
+      "table_id": "8"
+    },
+    {
+      "artifact": "ACT_2",
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 17,
+      "table_id": "8"
+    }
+  ],
+  "templateInventory": "12Templates/28Variants",
+  "removedObsoleteACTStandardPNGs": [
+    "production/preview/act4/S76.png",
+    "production/preview/act4/S77.png",
+    "production/preview/act4/S75.png",
+    "production/preview/act4/S79.png",
+    "production/preview/act4/S78.png",
+    "production/preview/act5/S98.png",
+    "production/preview/act5/S94.png",
+    "production/preview/act5/S95.png",
+    "production/preview/act5/S97.png",
+    "production/preview/act5/S96.png"
+  ],
+  "sourceAssetsPrototypesBundlesUnchanged": true,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "newMeasuredEffect": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 113,
+      "sha256": "ab59f11cb9bbf374cad8e2483022d2159327bc7bf68cc6fda61a164322e59c83"
+    },
+    {
+      "path": "production/ACT_0.pptx",
+      "slideCount": 14,
+      "sha256": "92e504a1599f290f80d4ddf789ad081c85476041f5259e3810e23236cd4817ea"
+    },
+    {
+      "path": "production/ACT_1.pptx",
+      "slideCount": 22,
+      "sha256": "8963afae1e525226e1b13d6907d24d87502bcf9452d472b22b189d063c2b4bad"
+    },
+    {
+      "path": "production/ACT_2.pptx",
+      "slideCount": 19,
+      "sha256": "90efca72bd0889edfcaef5ae6d223d44bca94abc095d6eef224fec9b324712dd"
+    },
+    {
+      "path": "production/ACT_3.pptx",
+      "slideCount": 24,
+      "sha256": "dc7e9d467d8d0667c01b1fee5cd72207b25225d987151895ca4119c7a71390b0"
+    },
+    {
+      "path": "production/ACT_4.pptx",
+      "slideCount": 19,
+      "sha256": "4fa17e9d3474c311fca769698d62c02e88f44dca400824d2bf652fb6e2a5c426"
+    },
+    {
+      "path": "production/ACT_5.pptx",
+      "slideCount": 15,
+      "sha256": "8f8452ab8b69b71e89e6980b1c2c2e0f2ae6df063cb93e284577d5560147a9d8"
+    }
+  ],
+  "fullNotesSha256": "832d755e1899664f1e7ca997b9d5a34874113acb18e086ca2dd620d52d5dd7b9",
+  "fullMontageSha256": "072951d5054312f58b9d1cc121c5f0d48d421aa8915d50b9aea22ccd9b34ff2c",
+  "windowsRoomProductAccountRehearsal": "UNVERIFIED",
+  "fallbackInventory": {
+    "count": 34,
+    "status": "READY — local static paths/dimensions/hashes only",
+    "files": [
+      {
+        "slideId": "S05",
+        "path": "production/preview/full/S05.png",
+        "sha256": "25d932bfd4e8f658f4fe911f3612274b6c841f15456ffc7487d7eda671561892"
+      },
+      {
+        "slideId": "S06",
+        "path": "production/preview/full/S06.png",
+        "sha256": "f793703980a111376765fc5fa8c2b2d2c5451f3d848e5cc3670c373029163a8a"
+      },
+      {
+        "slideId": "S07",
+        "path": "production/preview/full/S07.png",
+        "sha256": "ee0f2d472090a10a99f3fc09d994a9002bc94c7991cd1dbb9a2b70959af9f9fa"
+      },
+      {
+        "slideId": "S08",
+        "path": "production/preview/full/S08.png",
+        "sha256": "03372ecca35d5bab1fa88a66faffeaa2672aa7d272103999fe811031a1def084"
+      },
+      {
+        "slideId": "S09",
+        "path": "production/preview/full/S09.png",
+        "sha256": "5d1f9dd413611f462d298e342a93bac9693d95c5d3bbd6fc5052c0d64269c9aa"
+      },
+      {
+        "slideId": "S23",
+        "path": "production/preview/full/S23.png",
+        "sha256": "66aeb7922467fce42f7ed0c5e7478737cb858dbfe09317b40a3a1e125ae64ad9"
+      },
+      {
+        "slideId": "S24",
+        "path": "production/preview/full/S24.png",
+        "sha256": "d591598f8c519db6e49ece83ef7ad3aab88c64426a38c0e5e94e0ea05649910f"
+      },
+      {
+        "slideId": "S38",
+        "path": "production/preview/full/S38.png",
+        "sha256": "b060992d40d19c929035ef0d5b060c1bd60895e736d41f7f168d602952cb6fe1"
+      },
+      {
+        "slideId": "S39",
+        "path": "production/preview/full/S39.png",
+        "sha256": "fc9d9164af151da11c1b0df3913050e60f5276261c8d4b5f0fa8fbe5bee8705b"
+      },
+      {
+        "slideId": "S40",
+        "path": "production/preview/full/S40.png",
+        "sha256": "5095c3df42869547aae672be3a3890fea487806361aa24861b0dbfab8c261f98"
+      },
+      {
+        "slideId": "S43",
+        "path": "production/preview/full/S43.png",
+        "sha256": "f4f6425a269f5eed7be59c406e0843f5af63d7429dcb2526b24f0db4653251fe"
+      },
+      {
+        "slideId": "S49",
+        "path": "production/preview/full/S49.png",
+        "sha256": "baadcfacfc815cf5b992c2a0f5611d728d43118e309487a033479d8d0755852a"
+      },
+      {
+        "slideId": "S51",
+        "path": "production/preview/full/S51.png",
+        "sha256": "60149cbd71c8c40aea8575c7db1ec297e841469a55bc2443c270c77f734c1acf"
+      },
+      {
+        "slideId": "S52",
+        "path": "production/preview/full/S52.png",
+        "sha256": "3f253e201296daafb769b2e55695a1ca491dab4a99f3627b83954962ca86a77e"
+      },
+      {
+        "slideId": "S53",
+        "path": "production/preview/full/S53.png",
+        "sha256": "f39edc56376b8e45fffa06a3459d15e7166122d1ef53dda0fd4dbb34879a8216"
+      },
+      {
+        "slideId": "S61",
+        "path": "production/preview/full/S61.png",
+        "sha256": "5b4d8fa934aac097bba9ffe0c8a70bbcd11f38ba87cf1358c62405bffdaa2c64"
+      },
+      {
+        "slideId": "S62",
+        "path": "production/preview/full/S62.png",
+        "sha256": "ba4f39dc14cbff585c7028a0cb69f9db01516e7339b350ed4b799c40199950c4"
+      },
+      {
+        "slideId": "S66",
+        "path": "production/preview/full/S66.png",
+        "sha256": "97e5e90c327aa0d7fc9733f1eda474f0629afc74de57f57e4faec23668b4dac3"
+      },
+      {
+        "slideId": "S67",
+        "path": "production/preview/full/S67.png",
+        "sha256": "ab6942486edfaf62bfdcb8c9ad5dd767168bf8fbbd60617a8973eda1eafaf1f3"
+      },
+      {
+        "slideId": "S68",
+        "path": "production/preview/full/S68.png",
+        "sha256": "0e3bd61788ae4fd2f5530bc483a7c39c39769977fbfe915168f4df504d1ab1e7"
+      },
+      {
+        "slideId": "S69",
+        "path": "production/preview/full/S69.png",
+        "sha256": "b11ecbf5b3dd0fbfdbe99c1aa3570e74ad94328f2988d2e49a5fc0b61791a5e2"
+      },
+      {
+        "slideId": "S70",
+        "path": "production/preview/full/S70.png",
+        "sha256": "9eed5c7fee9c66060d0dde4b9285aa9b1c7f2664b2fec750b827a7c9f94210c7"
+      },
+      {
+        "slideId": "S71",
+        "path": "production/preview/full/S71.png",
+        "sha256": "2e586f334e638bac6e8b972a58c33f06d3db9a208872a7480a42ea4d0144a951"
+      },
+      {
+        "slideId": "S82",
+        "path": "production/preview/full/S82.png",
+        "sha256": "5787f4c0e2735049a46be720177e4034f5fa2d57a44581e576a30f637bf067e8"
+      },
+      {
+        "slideId": "S83",
+        "path": "production/preview/full/S83.png",
+        "sha256": "d72a344ff78b387760d4871fdae1d82c611bd0e799564694693a9fbf8ad219a6"
+      },
+      {
+        "slideId": "S85",
+        "path": "production/preview/full/S85.png",
+        "sha256": "c984f775ab5987090c73ad0b9fda99aa5ad86bc5a451bc14157d316b21383838"
+      },
+      {
+        "slideId": "S86",
+        "path": "production/preview/full/S86.png",
+        "sha256": "6c6b0061b7ba484a29e2647f20572de1c18f062bdc6267f55fdea4ef1738581d"
+      },
+      {
+        "slideId": "S90",
+        "path": "production/preview/full/S90.png",
+        "sha256": "4528a269334d4f2a7e0a318635780c301ec019c972c6086e934891fd180525fc"
+      },
+      {
+        "slideId": "S92",
+        "path": "production/preview/full/S92.png",
+        "sha256": "6f4e9437e9af2d6ff42bd8b510dd96f8769dcc98da4e4f67fed00bcd4a28227b"
+      },
+      {
+        "slideId": "S93",
+        "path": "production/preview/full/S93.png",
+        "sha256": "1182c12793d068f1216f87f386870d1b9dd01067399bfd36ec9210cf80e14939"
+      },
+      {
+        "slideId": "S94",
+        "path": "production/preview/full/S94.png",
+        "sha256": "6cbf9c33db7aa96e9f9c3aa0b7a912f2d2b2ac3b92b607f49ac7fb94631203a1"
+      },
+      {
+        "slideId": "S95",
+        "path": "production/preview/full/S95.png",
+        "sha256": "d50933d428ac751adab61e8393e41af8f15f0962b627a2621534f603e5c6421d"
+      },
+      {
+        "slideId": "S100",
+        "path": "production/preview/full/S100.png",
+        "sha256": "bb2808c60a3260c05c8a2254cfa0bb4cadd56053227c67fb0fcd21d256d9b1d0"
+      },
+      {
+        "slideId": "S101",
+        "path": "production/preview/full/S101.png",
+        "sha256": "bce943cf858fa67933b8af9631847bae3c076671963d3018a6ec95b20ae5ff5b"
+      }
+    ],
+    "newDemoMinutes": 0
+  },
+  "visualReview": {
+    "newPages": [
+      "S72",
+      "S73",
+      "S74",
+      "S75",
+      "S76",
+      "S77",
+      "S78"
+    ],
+    "adaptedPages": [
+      "S79",
+      "S110"
+    ],
+    "allSixACTMontagesReviewed": true,
+    "handoffsReviewed": [
+      "S71–S81",
+      "S98–S100"
+    ],
+    "unchangedACT4Screens": 19,
+    "P0": 0,
+    "P1": 0,
+    "preexistingNativeTableWarningVisuallyReviewedAt": "S53",
+    "fullDeckPreview": "production/preview/full/montage.png",
+    "newSequence": "production/preview/full/harness-reuse-sequence.png"
+  },
+  "optionalOfficeXSD": {
+    "status": "UNAVAILABLE",
+    "reason": "Bundled Python lacks defusedxml; no dependency installation.",
+    "requiredFirstPartyChecks": "PASS"
+  },
+  "scopeAudit": {
+    "onlyNormalTrainingDeliverables": true,
+    "FAQReferencesRecoveredByCurrentRoles": 25,
+    "historicalRunbookRecordsPreserved": true,
+    "presenterBundleUpdated": false,
+    "DemoCodeTagsRemotesChanged": false
+  }
+}

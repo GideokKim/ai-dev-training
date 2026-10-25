@@ -1,6 +1,8 @@
 # STEP 08 — ACT 0 Production Evaluation
 
-> Current edition: DEC-0090 /108slides/396minutes. ACT0: 14slides/43minutes. Title S01 adds1Transition minute before the original body. See [ACT title result](ACT_TITLE_SLIDES.md) and [102→108](../../plan/SLIDE_ID_MIGRATION_108.md). Dated audits below retain their edition; external gates remain UNVERIFIED.
+> Current edition: DEC-0091 /113slides/402minutes. ACT0: 14slides/43minutes, S01–S14. Existing per-page budgets stay fixed outside the approved ACT3 replacement. See [scoped revision](HARNESS_REUSE_REVISION.md) and [108→113](../../plan/SLIDE_ID_MIGRATION_113.md). Dated audits below retain their edition; external gates UNVERIFIED.
+
+> Historical edition: DEC-0090 /108slides/396minutes. ACT0: 14slides/43minutes. Title S01 adds1Transition minute before the original body. See [ACT title result](ACT_TITLE_SLIDES.md) and [102→108](../../plan/SLIDE_ID_MIGRATION_108.md). Dated audits below retain their edition; external gates remain UNVERIFIED.
 
 > Historical edition: DEC-0088 /102slides/390minutes. ACT0: 13slides/42minutes. See [final reference block](FINAL_PRACTICAL_TIPS_CONSOLIDATION.md) and [105→102](../../plan/SLIDE_ID_MIGRATION_102.md). Dated audit below retains its edition; external gates remain UNVERIFIED.
 

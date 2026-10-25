@@ -52,18 +52,19 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Category: Training Identity
 - Strength: HARD
 - Rule: This is a developer training about ChatGPT and Codex in AI-Native
-  Development. The current approved net duration is 396 minutes under
-  DEC-0090, within the user-authorized720-minute ceiling. Preserve the
-  existing102-slide content and allocations, including the final reference
-  block. Add one1-minute ACT title at each ACT start without changing the
-  Story or evidence boundaries.
+  Development. The current approved net duration is 402 minutes under
+  DEC-0091, within the user-authorized720-minute ceiling. Preserve the
+  retained106-slide allocations and every ACT4 page/time/Mode. Replace prior
+  S72 with five paced explanations, add two reuse pages, and remove prior
+  S73 only under the explicit user approval. Keep the Story and evidence
+  boundaries; new pages add14Lecture minutes and remove8approved minutes.
 - Historical Rule: Earlier DEC-0060 approved93slides/379minutes. The initial requirement
   was six hours /360minutes; the
   user explicitly authorized the extension on 2026-10-21.
 - Rationale: The audience, subject, and duration define the scope of the
   training.
 - Source: plan/MASTER_PLAN.md §§1.1–1.2
-- Validation: Does the material preserve the developer scope and the current user-approved396-minute schedule and720-minute ceiling under DEC-0090?
+- Validation: Does the material preserve the developer scope and the current user-approved402-minute schedule and720-minute ceiling under DEC-0091?
 - Change Policy: Require explicit user approval before changing the scope or
   duration.
 

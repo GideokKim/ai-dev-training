@@ -1,6 +1,6 @@
 # DEMO-02 — Reusable Project Context
 
-> Current references: DEC-0090 /108slides/396minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_108.md. ACT title pages add no Demo time, Trial or result. The final tip block is S105–S107. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0091 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — Anchor candidate

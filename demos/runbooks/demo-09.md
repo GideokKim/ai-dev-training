@@ -15,7 +15,7 @@ S70→S71: S69의 지식 출처를 회수한 뒤 S70에서 목표·Context·Skil
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0090 /108slides/396minutes. Current IDs/static files follow SLIDE_ID_MIGRATION_108.md. ACT title pages add no Demo time, Trial or result. The final tip block is S105–S107. Local package/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
+> Current references: DEC-0091 /113slides/402minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_113.md. ACT4 retains19pages/81minutes and all Demo allocations. Final tip block S110-S112. Local static paths/Notes/PNG parity checked; Windows/product/account/room/rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — supporting visual/captured record
@@ -124,7 +124,7 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 
 ## Transition
 
-S71 → S72: introduce outside-repository environment factors.
+S71 → S72: introduce the value of a reusable Harness foundation. S73 connects project-specific criteria; S74–S78 then explain execution conditions. No extra Demo time.
 
 ## Evidence
 
