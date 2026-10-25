@@ -58,7 +58,7 @@ Object.assign(factories,(await import('./act5-reassessment.mjs')).loadAct5Reasse
 const migrated=(await import('./slide-numbering-99.mjs')).migrate96Factories(factories);
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,migrated);
-Object.assign(factories,(await import('./act0-context-expansion.mjs')).loadAct0ContextExpansionSlides());
+Object.assign(factories,await (await import('./act0-context-expansion.mjs')).loadAct0ContextExpansionSlides(ROOT));
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
 if(moduleMap.slides.length!==99)throw new Error('Expected 99 legacy module mappings.');
 const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));

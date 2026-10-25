@@ -1,7 +1,10 @@
 /** DEC-0084: separate the crop finding, evidence, execution limit and collection roles. */
+import fs from 'node:fs/promises';
+import path from 'node:path';
 import * as H from './helpers.mjs';
 
-export function loadAct0ContextExpansionSlides(){
+export async function loadAct0ContextExpansionSlides(root){
+ const illustration=new Uint8Array(await fs.readFile(path.join(root,'prototype/image-illustration-pilot/assets/S07.png')));
  const {C,text,line,rect,FONT,CODE}=H;
  const connector=(s,x,y,w,h=0,arrow=false,both=false)=>s.shapes.add({
   geometry:'connector',kind:'straight',position:{left:x,top:y,width:w,height:h},
@@ -26,6 +29,11 @@ export function loadAct0ContextExpansionSlides(){
    isAgent?'OBSERVED_PRODUCT / TEACHING_MODEL':'TEACHING_MODEL');
   text(s,isAgent?'같은 조사 자료를, 허용된 파일·도구 범위에서 찾는다':
    '답을 받기 전, 사람이 관련 자료를 찾아 전달하는 방식',64,185,1152,43,30,C.teal,true);
+  // DEC-0085: reuse the matching scene in existing whitespace, above the role card.
+  s.images.add({blob:illustration,contentType:'image/png',
+   alt:(isAgent?'Agent-assisted investigation':'Manual context selection')+'; AI-generated teaching illustration, not a product screenshot or Trial output',
+   fit:'contain',position:{left:499.015,top:236,width:155.97,height:110},
+   crop:{left:isAgent?0.51:0.015,top:0.18,right:isAgent?0.015:0.51,bottom:0.15}});
   text(s,'필요한 정보',64,252,260,34,25,C.teal,true);
   records.forEach((label,i)=>{
    const y=296+i*50;rect(s,64,y,260,41,i<3?C.pale:C.amber);

@@ -1,0 +1,133 @@
+{
+  "status": "LOCAL_VALIDATION_PASS",
+  "decision": "DEC-0085",
+  "date": "2026-10-25",
+  "baseline": "1a8199f748a8921d95a7a93a8df03b392262b5f9",
+  "slideCount": 99,
+  "totalMinutes": 387,
+  "actMinutes": {
+    "ACT 0": 42,
+    "ACT 1": 63,
+    "ACT 2": 81,
+    "ACT 3": 85,
+    "ACT 4": 80,
+    "ACT 5": 36
+  },
+  "modeMinutes": {
+    "Lecture": 151,
+    "Reflection": 21,
+    "Case": 88,
+    "Demo": 73,
+    "Transition": 22,
+    "Q&A": 32
+  },
+  "changedSlides": [
+    "S09",
+    "S10"
+  ],
+  "existingShapeTextStyleGeometryPreserved": true,
+  "pixelChangesConfinedToImageRectangles": {
+    "S09": [
+      748,
+      354,
+      983,
+      519
+    ],
+    "S10": [
+      748,
+      354,
+      983,
+      519
+    ]
+  },
+  "addedIllustrations": [
+    {
+      "slide": "S09",
+      "sourceSha256": "7016591030cce44cab9007aa09a631d407fbbce98985eee733a644b221496cd5",
+      "cropOOXML": {
+        "b": "15000",
+        "l": "1500",
+        "r": "51000",
+        "t": "18000"
+      }
+    },
+    {
+      "slide": "S10",
+      "sourceSha256": "7016591030cce44cab9007aa09a631d407fbbce98985eee733a644b221496cd5",
+      "cropOOXML": {
+        "b": "15000",
+        "l": "51000",
+        "r": "1500",
+        "t": "18000"
+      }
+    }
+  ],
+  "otherFullScreensByteIdentical": 97,
+  "notesRecords": 99,
+  "fieldsPerNotes": 19,
+  "otherNotesByteIdentical": 97,
+  "notesFieldsChanged": [
+    "Evidence / Source",
+    "Demo Operation"
+  ],
+  "renderedPNGs": 112,
+  "FullACT0PNGParity": 13,
+  "packageFindings": 0,
+  "layoutFindings": 0,
+  "preexistingWarnings": [
+    {
+      "artifact": "AI_Dev_Training_Full",
+      "available_bottom_in": 6.2917,
+      "columns": 3,
+      "declared_bottom_in": 5.7917,
+      "estimated_native_bottom_in": 6.3017,
+      "footer_object_ids": [
+        "4"
+      ],
+      "kind": "native_table_overflow",
+      "overflow_in": 0.01,
+      "rows": 8,
+      "slide": 50,
+      "table_id": "8"
+    }
+  ],
+  "nativeTablesAndChartPreserved": true,
+  "templateAssignmentsPreserved": true,
+  "otherACTPPTXUnchanged": true,
+  "sourceAssetPrototypeBundleBytesUnchanged": true,
+  "fallbackFilesUnchanged": 34,
+  "demoRepositoryUnchanged": true,
+  "newTrial": false,
+  "newProductRun": false,
+  "artifacts": [
+    {
+      "path": "production/AI_Dev_Training_Full.pptx",
+      "slideCount": 99,
+      "sha256": "03bb6b3c65cdfeedd13f047a864f6c1dea15c614b1b89f3a8bb865a1c384da1d"
+    },
+    {
+      "path": "production/ACT_0.pptx",
+      "slideCount": 13,
+      "sha256": "b6c863905eade1c5ce7a183588e8d0931f6e57dc933437e9daccbb393a2ae90a"
+    }
+  ],
+  "fullNotesSha256": "807a1738474c006d60ae4a7c6816507518e343a438f50fe03af448aaab48f528",
+  "fullMontageSha256": "20df192a2cbdda5c80d68b89571aac1795d49c40cb27a9d221346a0e81063e45",
+  "windowsRoomProductAccountRehearsal": "UNVERIFIED",
+  "visualReview": {
+    "changedSlidesIndividuallyReviewed": [
+      "S09",
+      "S10"
+    ],
+    "finalPNGMatchesReviewedDraft": true,
+    "newClippingOverlapIssues": 0,
+    "imageAspectRatioPreserved": true,
+    "existingTextAndShapeGeometryPreserved": true,
+    "other97ScreensByteIdentical": true
+  },
+  "officeSchemaValidation": {
+    "status": "UNAVAILABLE",
+    "reason": "Bundled Python lacks defusedxml; no dependency changes.",
+    "packageGeometryReimport": "PASS"
+  }
+}

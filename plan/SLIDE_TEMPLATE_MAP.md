@@ -1,5 +1,9 @@
 # STEP 08 — Slide-to-Template Mapping
 
+> DEC-0085 (2026-10-25): S09/S10 retain T03-C and their existing native diagrams.
+> Add the matching half of the preserved S07 teaching illustration above the
+> center role card. No text, shape, template assignment, timing or claim changes.
+
 ## Current ACT0 expansion — DEC-0084
 
 99Slides/387minutes. S05–S10 separate crop outcome/evidence, the independent execution limit, the Context inventory and manual/Agent collection roles. Existing S08–S96 become S11–S99. New sequence uses existing variants;11Templates/27Variants remain. Other assignments and budgets stay fixed. [Current migration](SLIDE_ID_MIGRATION_99.md), [design](ACT0_CONTEXT_EXPANSION.md). Older records below keep their original IDs.

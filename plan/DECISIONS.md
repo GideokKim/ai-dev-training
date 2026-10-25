@@ -9314,3 +9314,74 @@ validate99x19Notes,93retained screens except IDs/refs, native tables/chart,
 image/crop preservation and34static fallback paths/hashes. Keep Windows,
 room/product/account/timed rehearsal UNVERIFIED. No new presenter bundle.
 Commit/push normally to existing origin/main; no force push or Demo changes.
+
+
+# DEC-0085 — Reuse the preserved illustration in S09 and S10 whitespace
+
+## Status
+
+ACCEPTED — explicit user request to place the existing illustration in the
+blank areas of S09 and S10.
+
+## Date
+
+2026-10-25
+
+## Context
+
+DEC-0084 separates manual context selection and bounded Agent investigation
+into two editable diagrams. The original S07 two-scene illustration and its
+generation prompt remain available as source assets.
+
+## Problem
+
+The user wants the matching visual scenes back without another redesign.
+
+## Decision
+
+Add the left scene to S09 and the right scene to S10, in the existing space
+above each center role card. Keep every existing text/shape and its position.
+Preserve the original PNG,99slides/387minutes, IDs, Notes schema, allocations
+and evidence boundaries. Record the teaching-image provenance in Notes.
+
+## Rationale
+
+The illustration makes each collection role recognizable while the native
+diagram continues to explain the same sources, role and output.
+
+## Alternatives
+
+Replace the diagrams or enlarge/reflow their content; neither is requested.
+Generate new illustrations; the preserved asset already expresses both roles.
+
+## Trade-offs
+
+The images remain small supporting scenes. They are not product screenshots
+or Trial evidence and do not establish capability or efficiency superiority.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-DELIVERY-001, INV-RESEARCH-001.
+
+## Affected Artifacts
+
+S09/S10 source, Full/ACT0 PPTX and previews, corresponding Notes/provenance,
+Slide/Template maps and current delivery identities. Leave Demo code/tags,
+other ACT PPTX, source assets, prototypes and presenter bundles unchanged.
+
+## Evidence
+
+Explicit user request; baseline1a8199f; preserved
+prototype/image-illustration-pilot/assets/S07.png and PROMPTS.md.
+No new Trial, product execution or measured effect.
+
+## Training Relevance
+
+Use the same sources and role labels when explaining who collects context.
+
+## Follow-up
+
+Render/review S09/S10 and reimport Full99/ACT0 13. Confirm existing shapes,
+text, budgets,97other screens,19-field Notes and fallback identities remain
+intact. Keep Windows/room/product/account/timed rehearsal UNVERIFIED.
+Commit/push normally to existing origin/main; no new presenter bundle.
