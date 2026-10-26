@@ -1,0 +1,40 @@
+{
+  "status": "LOCAL_PASS",
+  "baseline": "7d90672",
+  "slideId": "S15",
+  "slideCount": 117,
+  "minutes": 412,
+  "caption": "조사한 범위",
+  "captionPt": 15,
+  "sideInsetPx": 10,
+  "bottomInsetPx": 12,
+  "nextQuestionGapPx": 21,
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "sha256": "dfb60b7da0fdcfae785424b1494dc1fcfc9c0741d347a19b06aeb3eb4eccf044",
+      "changedParts": [
+        "ppt/slides/slide15.xml"
+      ],
+      "changedShapes": 12,
+      "otherSlideNotesMediaChartWorkbookParts": "BYTE_IDENTICAL"
+    },
+    {
+      "name": "ACT_0",
+      "sha256": "ab88e150271ad105e63b3dd173e550508c540167a95ac5e80dc370e5d01f8f66",
+      "changedParts": [
+        "ppt/slides/slide15.xml"
+      ],
+      "changedShapes": 12,
+      "otherSlideNotesMediaChartWorkbookParts": "BYTE_IDENTICAL"
+    }
+  ],
+  "notes": "UNCHANGED",
+  "externalGates": "Windows PowerPoint, classroom projection and rehearsal UNVERIFIED",
+  "fullActS15PixelParity": true,
+  "visualReview": "Final S15 inspected full-size: caption fits; six cells aligned; no new text clipping/shape overlap found.",
+  "preview": "production/preview/full/S15.png",
+  "previewSha256": "2f1358f33c92d53a53759dd8e3b24d7d950a06feac023c3968a0a2fe1d36d1ed",
+  "renderScope": "Only changed S15 rendered from final Full/ACT0; unchanged previews retained byte-for-byte; both montages recomposed.",
+  "source": "production/source/presentation-revision/act01.mjs"
+}

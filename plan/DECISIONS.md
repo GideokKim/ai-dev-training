@@ -10775,3 +10775,75 @@ Render the new slide and exact final decks, compare all retained slides
 with a reference-only ID migration, validate117Notes/412minutes, then
 commit/push normally under the standing user instruction. Keep company
 account, Windows, room and rehearsal unverified. Do not update Sites here.
+
+
+# DEC-0102 — Keep the S15 crop caption within its frame
+
+## Status
+
+ACCEPTED — explicit user approval of the reviewed layout repair.
+
+## Date
+
+2026-10-26
+
+## Context
+
+The user observes the crop caption extending beyond its rectangle in S15.
+The existing162px caption box has only5px horizontal and4px bottom inset.
+
+## Problem
+
+The long caption is crowded and uses13.5pt while peer captions use15pt.
+Renderer/font differences can expose the limited fit margin.
+
+## Decision
+
+Shorten only the crop caption to 조사한 범위. Retain the existing upper
+heading that already identifies the implementation. Match peer captions
+at15pt. Keep the six pipeline cells aligned: extend frame height by12px,
+use10px side insets and12px bottom inset, and separate captions from titles.
+Preserve all pipeline labels, pictures, connectors, questions and evidence.
+Update Full/ACT0 and previews, source, this decision and the map description.
+Keep117slides/412minutes and every slide allocation unchanged.
+
+## Rationale
+
+Remove duplicated wording and add actual space rather than reducing type.
+Keep the current implementation versus additional-definition distinction.
+
+## Alternatives
+
+Reduce the font further; this weakens presentation readability.
+Use two lines; this crowds the limited caption area.
+
+## Trade-offs
+
+The six matching frames extend12px lower. They retain21px before the next
+question box and preserve the existing pipeline order and upper alignment.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001.
+
+## Affected Artifacts
+
+Only the S15 layout in Full/ACT0, corresponding previews, current source and
+map description, plus local validation and file-identity records.
+Speaker Notes, evidence, other slides, Demo Repository and Sites stay intact.
+
+## Evidence
+
+User annotation and explicit approval; inspected PPT geometry and local PNG.
+The diagnosis is limited to tight geometry; no target PowerPoint/font test
+has established the exact platform-specific overflow cause.
+
+## Training Relevance
+
+Preserve the scope labels without distracting from the Task-intent question.
+
+## Follow-up
+
+Render and inspect the final S15 in Full and ACT0, check that other slide
+and Notes bytes remain identical, and commit/push under the standing policy.
+Keep Windows PowerPoint, room projection and rehearsal unverified.

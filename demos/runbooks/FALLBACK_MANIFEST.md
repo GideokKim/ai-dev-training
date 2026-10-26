@@ -7,9 +7,9 @@ Company-account use, Windows, room and timed rehearsal UNVERIFIED. No Live appro
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`98bf36d31cff58a9f801a522d91320489ddf434fa997f9419cd3d47db4d27b8b`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`dfb60b7da0fdcfae785424b1494dc1fcfc9c0741d347a19b06aeb3eb4eccf044`.
 - `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`3178114a501895194224522d1de353abc82054d754de05f8c6129fdb04bc66ec`.
-- `production/preview/full/montage.png` SHA-256:`a6aac5452d2331143ef2669d926e7ec48009d55546404aa439bc30b6ffa4d649`.
+- `production/preview/full/montage.png` SHA-256:`448c0a98c7b185a9d41c43e57eb43d3d30b75b19002761d560b8a2d51d65211a`.
 
 [Current addition validation](../../production/evaluation/COPILOT_IDE_TIP.md).
 

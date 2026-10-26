@@ -405,7 +405,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.; ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; DEC-0037 제조 검사 Task 가정은 실제 저장소 실행 순서·미구현 상태·검증 결과가 아님
-- **Visual Concept:** 제조 라인 검사장비로 확장하는 교육용 검사 Task를 입력 이미지 → ROI crop → 밝기 정규화(Normalize) → 크기 맞춤(Resize) → 통계·특징(Statistics) → 양불 판정으로 그린다. 입력·기존 crop는 실선, 후속 검사 단계는 점선이며 “검사 흐름으로 추가 정의·연결할 범위”로 표시한다. crop는 “기존 구현·조사한 범위”로 제한하고 정상 완료·검증 완료를 표시하지 않는다. 마지막 판정은 ? / 기준 미정으로 열어 둔다. 기존 질문 두 개를 하단에 크게 유지한다. 실제 저장소에는 후속 함수도 존재하므로 이 도식은 실제 실행 순서나 함수 미구현 상태의 재현이 아니다. DEC-0037.
+- **Visual Concept:** 제조 라인 검사장비로 확장하는 교육용 검사 Task를 입력 이미지 → ROI crop → 밝기 정규화(Normalize) → 크기 맞춤(Resize) → 통계·특징(Statistics) → 양불 판정으로 그린다. 입력·기존 crop는 실선, 후속 검사 단계는 점선이며 “검사 흐름으로 추가 정의·연결할 범위”로 표시한다. 상단의 “앞서 살펴본 기존 구현”과 crop 안의 “조사한 범위”를 함께 읽게 하며 정상 완료·검증 완료를 표시하지 않는다. 마지막 판정은 ? / 기준 미정으로 열어 둔다. 기존 질문 두 개를 하단에 크게 유지한다. 실제 저장소에는 후속 함수도 존재하므로 이 도식은 실제 실행 순서나 함수 미구현 상태의 재현이 아니다. DEC-0037.
 - **Demo / Case Connection:** DEMO-01 후속 질문; 제조 검사장비로 확장하는 가상의 Task 맥락. 실제 Product State·Trial·양불 판정 결과를 추가하지 않는다.
 - **Beginner Payoff:** Agent에게 맡길 때 원하는 결과를 말해야 한다는 문제를 발견한다.
 - **Advanced Payoff:** 정보 접근성과 Task specification을 분리해 생각한다.

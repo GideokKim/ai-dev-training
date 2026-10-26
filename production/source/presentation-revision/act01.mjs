@@ -108,16 +108,16 @@ export const slides = {
     text(s, '검사 흐름으로 추가 정의·연결할 범위', 456, 215, 760, 32, 23, C.warn, true);
     const xs = [64, 260, 456, 652, 848, 1044], w = 172;
     const labels = [
-      ['촬영 이미지', 'Input'], ['ROI crop', '기존 구현 · 조사한 범위'],
+      ['촬영 이미지', 'Input'], ['ROI crop', '조사한 범위'],
       ['밝기 정규화', 'Normalize'], ['크기 맞춤', 'Resize'],
       ['통계·특징', 'Statistics'], ['양불 판정', '기준 미정']
     ];
     xs.forEach((x, i) => {
       const planned = i >= 2;
-      rect(s, x, 258, w, 188, i === 1 ? C.pale : C.bg,
+      rect(s, x, 258, w, 200, i === 1 ? C.pale : C.bg,
         planned ? C.warn : i === 1 ? C.teal : C.line, planned ? 2 : 1.5, planned ? 'dash' : 'solid');
       text(s, labels[i][0], x + 8, 383, w - 16, 34, 26, C.ink, true, H.FONT, 'center');
-      text(s, labels[i][1], x + 5, 419, w - 10, 23, i === 1 ? 18 : 20, planned ? C.sub : C.teal, false, H.FONT, 'center');
+      text(s, labels[i][1], x + 10, 422, w - 20, 24, 20, planned ? C.sub : C.teal, false, H.FONT, 'center');
       if (i < xs.length - 1) {
         if (i === 0) arrow(s, x + w + 4, 328, 16, 13, C.teal);
         else {
