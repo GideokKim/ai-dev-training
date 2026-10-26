@@ -10847,3 +10847,84 @@ Preserve the scope labels without distracting from the Task-intent question.
 Render and inspect the final S15 in Full and ACT0, check that other slide
 and Notes bytes remain identical, and commit/push under the standing policy.
 Keep Windows PowerPoint, room projection and rehearsal unverified.
+
+
+# DEC-0103 — Remove production metadata from audience footers
+
+## Status
+
+ACCEPTED — explicit user approval of the full-deck footer cleanup proposal.
+
+## Date
+
+2026-10-26
+
+## Context
+
+The user identifies the illustration-production disclaimer as unnecessary
+for learners and approves the reviewed117-slide deletion/move/keep list.
+
+## Problem
+
+Two dense footer rows repeatedly expose production descriptions, tracking
+IDs and operating checks. They compete with the actual lesson and obscure
+important evidence limits among unneeded explanation.
+
+## Decision
+
+Replace only the111ordinary-slide footer rows with audience-relevant
+labels or lesson principles. Remove or move production metadata to Notes.
+Retain actual versus hypothetical distinctions, measurement/research scope
+and useful verification/responsibility guidance in concise natural language.
+Keep all117legacy module labels and six ACT-title course labels.
+Keep the full original footer text in the existing Evidence / Source and
+Claim Boundary Notes fields and a provenance registry. Preserve19fields,
+all slide IDs,117slides/412minutes and all allocations. Do not change
+body text, diagrams, source images, native evidence, existing boundaries,
+Demo state or measured values. Keep the published Site and bundle alone.
+
+## Rationale
+
+Prioritize the learner's question while retaining traceable sources and
+scope for the presenter and later review. Replace long negative lists with
+clear short labels when the distinction is needed on screen.
+
+## Alternatives
+
+Delete every footer indiscriminately; this could hide the difference
+between observed results and hypothetical cases. Keep all metadata;
+this leaves the reviewed readability problem unresolved.
+
+## Trade-offs
+
+The source and operating details remain accessible in Notes rather than
+being exposed in every slide. The ordinary footer count drops222to92rows;
+26ordinary slides have no provenance/explanation footer prose.
+The current mapping fields document the shorter audience expression.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001,
+INV-RESEARCH-001.
+
+## Affected Artifacts
+
+Full/ACT decks, audience-footer source configuration/overlay, previews,
+Notes, current footer specification, map metadata and file identities.
+Existing evidence and source records remain intact.
+
+## Evidence
+
+Current actual footer inventory at aaed341, the reviewed per-slide proposal
+and explicit user approval. This is a presentation edit, not new research,
+product execution or a change in claim confidence.
+
+## Training Relevance
+
+YES — distinguish the lesson and evidence scope from authoring metadata.
+
+## Follow-up
+
+Validate final Full and six ACT files, render all117slides, inspect the
+shortened evidence labels, check unchanged body/media/metrics and19-field
+Notes, then commit/push normally. Keep external delivery gates unverified.

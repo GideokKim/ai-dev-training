@@ -1,5 +1,7 @@
 # Full Speaker Notes
 
+> 하단 표기 DEC-0103: 화면에서 옮긴 상세 출처·범위를 각 Notes에 보존한다.117장·412분·19필드와 본문 운영은 유지한다.
+
 Current: DEC-0101 /117slides/412minutes. Current Notes below include the added S04; retained116records change only ID/path references.
 
 ## S01 — AI를 Repository로 데려가기
@@ -86,7 +88,11 @@ Speaker Flow: 1. **OPEN (0:00–0:15 / Lecture):** 기존 제목과 “최근 AI
 
 Evidence / Source: BEAT-001, CLM-0001, CLM-0002. TEACHING_MODEL. 삽화: `assets/slide-illustrations/S01-cases.png`, image_gen으로 만든 동일 인물의 세 교육용 장면이다. 생성 프롬프트: `prototype/act0-opening-revision/IMAGE_PROMPT.md`. 실제 제품 화면·회사 현장·관찰된 작업 결과가 아니다.
 
+보존된 상세 출처: 교육용 사례 삽화 · AI 생성 이미지 · 실제 제품 실행 화면 아님
+
 Claim Boundary: 특정 AI 제품의 성능·우열 또는 개인의 숙련도를 평가하지 않는다. 질문과 업무 범위는 교육을 여는 모델이다. 세 그림은 image_gen 교육용 삽화이며 실제 사용 화면이나 관찰 근거가 아니다. 설명·조사·결과 확인을 숙련도 순위 또는 모든 사람이 거쳐야 하는 단계로 제시하지 않는다.
+
+보존된 상세 범위: 자신의 경험 하나만 떠올려 보세요. 사용 수준을 평가하는 질문이 아닙니다.
 
 Beginner Explanation: 지금 자주 맡기는 작은 일 하나를 떠올리면 충분하다. 아직 해보지 않은 사용법을 아는 척할 필요는 없다.
 
@@ -132,7 +138,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-001, CLM-0001, CLM-0002. TEACHING_MODEL / CONCEPTUAL. `std::vector<int> a(3, 1);` → `1, 1, 1`(3개), `std::vector<int> b{3, 1};` → `3, 1`(2개)는 코드 의미를 설명하는 도식이며 실제 실행·ChatGPT 응답·새 Trial이 아니다. C++ 의미 확인: [Microsoft Learn — vector constructors](https://learn.microsoft.com/en-us/cpp/standard-library/vector-class?view=msvc-170#vector), [Microsoft Learn — Initializers](https://learn.microsoft.com/en-us/cpp/cpp/initializers?view=msvc-170), 확인 2026-10-21. IDE → Chatbot → IDE는 사람이 연결하는 교육용 native 도식이다.
 
+보존된 상세 출처: Microsoft C++ 문서 기반 교육 예시 · 실제 ChatGPT 대화·실행 화면 아님
+
 Claim Boundary: 일반적인 활용 예시이며 특정 제품 기능·정확도·성능 또는 다른 방식보다 우월하다는 주장으로 말하지 않는다. 초기화 비교는 화면에 제시한 `std::vector<int>` 두 표현의 의미로 한정한다. 도식은 실제 컴파일·실행 결과나 ChatGPT 대화가 아니며, 모든 중괄호 초기화가 같은 생성자 선택을 한다고 일반화하지 않는다. 코드 선택·복사, 대화에 붙여넣고 질문, IDE에서 답 확인·적용은 사람이 잇는 흐름이며 자동 IDE 연동을 뜻하지 않는다.
+
+보존된 상세 범위: 괄호는 개수·값 생성자, 중괄호는 이 예시의 initializer_list 생성자를 사용합니다.
 
 Beginner Explanation: 괄호만 다른 짧은 코드도 뜻을 물어볼 만한 질문이다. 두 표현이 각각 어떤 원소를 만드는지 설명을 받고 원래 코드와 맞는지 확인할 수 있다.
 
@@ -183,8 +193,12 @@ Lecture 2 minutes
 **Evidence / Source:**
 GitHub Docs, Asking GitHub Copilot questions in your IDE: https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/chat-with-copilot/chat-in-ide?tool=vscode ; VS Code Docs, Add context to chat: https://code.visualstudio.com/docs/chat/copilot-chat-context ; checked2026-10-26. DEC-0101 and explicit user instruction establish the company-used tool combination, not a mandatory company policy.
 
+보존된 상세 출처: GitHub Docs · VS Code Docs | 사용 방법을 재구성한 교육용 UI 도식
+
 **Claim Boundary:**
 RESEARCH / TEACHING_MODEL / REQUIRES PRODUCT CHECK — 공식 안내를 각색한 UI 도식과 요청 예시다. 실제 회사 화면·Copilot 응답·선택/첨부/실행 기록이 아니다. 특정 계정의 기능·조직 정책·자동 Context 포함이나 정확성/시간 절감은 검증하지 않았다.
+
+보존된 상세 범위: 실제 회사 화면·응답 아님 · 전달할 코드를 확인하고, 답을 다시 확인한다.
 
 **Beginner Explanation:**
 회사에서 사용하는 VS Code에서 관련 코드를 골라 Copilot Chat에 설명을 요청할 수 있다.
@@ -238,7 +252,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-002, CLM-0004, CLM-0009. TEACHING_MODEL / CONCEPTUAL. Visual Studio 사용자가 디버깅 때 참고하는 정보 범주를 병렬로 재구성한 교육용 native 도식이다. 실제 IDE screenshot·특정 제품 버전의 UI·특정 Trial의 파일 접근 또는 실행 기록이 아니다. 종이 문서를 든 인물 삽화는 이 수정본에서 사용하지 않는다.
 
+보존된 상세 출처: Visual Studio 사용자의 디버깅 정보를 설명하는 교육용 병렬 도식
+
 Claim Boundary: ACT 0의 문제 모델이다. 특정 Trial의 실제 실패·관찰 순서·모든 Repository 업무에서 반복되는 비용으로 주장하지 않는다. 여섯 정보 범주가 모두 동시에 필요하다고 일반화하지 않는다. 명세서는 기대 동작을 확인하는 문서라는 뜻이며 실제 회사 문서나 제품 UI를 재현하지 않는다.
+
+보존된 상세 범위: 특정 Trial의 실제 화면이 아닙니다. 명세서는 IDE 밖에서도 함께 참고하는 문서입니다.
 
 Beginner Explanation: 디버깅하면서 이미 보던 테스트 결과·코드·변수 값·명세서가 질문에 필요한 Context가 될 수 있다. 필요한 정보를 골라 묶는다는 점을 알아차리면 충분하다.
 
@@ -290,8 +308,12 @@ Demo에서는 파일을 직접 지정하지 않았을 때의 Search → Read →
 **Evidence / Source:**
 DEMO-01, STATE-00, TRIAL-001, BEAT-003, OQ-003, OQ-005. `plan/DEMO_MATRIX.md` TRIAL-001의 요청 원문을 일반 입력창 형태로 재구성한다. 우측 GoogleTest 가상 UI(5개 통과·1개 실패)는 별도의 교육용 그림이며 실제 제품·실행·Trial 캡처가 아니다. 자산: `assets/slide-illustrations/S04-google-test-mock.png`; 생성 프롬프트: `assets/slide-illustrations/S04_PROMPT.md`. Read / Resize / Crop / Normalize / Statistics / Write의 여섯 항목과 Crop 실패는 가상 설정이다. TRIAL-001의 실제 Python `unittest` 전체 실행은 7개 통과·crop 실패 1건·읽기 전용 임시 디렉터리 환경 오류 3건이었다. 이 장은 setup이며 실제 발견 파일·원인·조사 결과는 S07–S08에서 연다.
 
+보존된 상세 출처: 실제 요청: TRIAL-001 · Codex CLI 0.154.0 · macOS · 읽기 전용
+
 **Claim Boundary:**
 기록된 Trial은 격리된 비대화형 Codex CLI 0.154.0, macOS, `--sandbox read-only`, `--ignore-user-config` 조건에서 수행됐다. Codex Desktop·교육 계정·현재 제품 동작을 입증하지 않는다. 좌측 입력창은 실제 요청 원문의 재구성이고 우측 GoogleTest는 가상 UI다. 이 그림의 5 PASS/1 FAIL을 TRIAL-001의 실제 결과로 말하지 않으며, 실제 unittest의 환경 오류를 숨기거나 제품 결함으로 바꾸지 않는다. 실제 screenshot·새 Trial·C++ 실행은 없다.
+
+보존된 상세 범위: 우측은 가상 GoogleTest 예시 · 실제 Trial은 Python unittest · 현재 Desktop은 미검증
 
 **Beginner Explanation:**
 익숙한 테스트 목록에서 실패 하나를 보는 문제 상황을 떠올리고, 실제 기록에서는 Agent가 무엇을 찾아냈는지 다음 장에서 확인한다. 그림의 가상 목록과 실제 Trial 근거를 구분한다.
@@ -352,8 +374,12 @@ crop(image,1,3)의 끝 좌표 제외 명세는 원본 열1·2, 값2·3과 폭2�
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성.
 
+보존된 상세 출처: TRIAL-001 · STATE-00 테스트·소스의 첫 행을 발췌한 재구성 · CLI 0.154.0
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — TRIAL-001·STATE-00의 Python Crop 한 건. 첫 행 발췌 재구성이며 코드 수정·C++ 할당/오버런·현재 Desktop 검증이 아니다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+
+보존된 상세 범위: 실제 실행 Screenshot 아님 · 코드 수정 없음 · C++ 할당·capacity·버퍼 오버런 사례 아님
 
 **Beginner Explanation:**
 끝 좌표를 하나 더 포함하면 기대한 폭과 값이 달라지는 현상을 본다.
@@ -414,8 +440,12 @@ Demo 4분 (CAPTURED / RECONSTRUCTED)
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성.
 
+보존된 상세 출처: TRIAL-001 · 발견한 테스트·명세·구현의 관계를 재구성 · Codex CLI 0.154.0
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — TRIAL-001 단일 CLI 조사. 관계도는 Agent의 실제 접근 시간순 로그가 아니며 README의 기존 결함 안내도 있었다. 코드 수정·반복성·현재 Desktop 동작을 주장하지 않는다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+
+보존된 상세 범위: 자료 관계도이며 Agent의 시간순 접근 로그가 아님 · README에도 결함 안내가 있었음 · 코드 수정 없음
 
 **Beginner Explanation:**
 답만 듣는 대신 테스트·명세·구현이 어떻게 원인 설명을 뒷받침하는지 본다.
@@ -475,8 +505,12 @@ TRIAL-001 전체 테스트의 환경 오류3건은 읽기 전용 실행 조건�
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성.
 
+보존된 상세 출처: TRIAL-001 전체 테스트 기록의 실행 환경 제한 · Codex CLI 0.154.0
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — TRIAL-001 실행 환경 제한의 관찰. Product/Crop 결함이나 성공한 환경 복구, 현재 Desktop 동작의 근거가 아니다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+
+보존된 상세 범위: Crop 결함과 별개 · 실행 제한을 관찰했으며 권한을 해제하거나 코드를 수정하지 않음
 
 **Beginner Explanation:**
 테스트가 실패하는 이유에는 코드 결함 외 실행 조건도 있음을 이해한다.
@@ -536,8 +570,12 @@ Repository의 테스트·명세·구현/호출 관계와 실행 환경의 로그
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성.
 
+보존된 상세 출처: TEACHING MODEL · TRIAL-001에서 살펴본 정보를 묶은 교육용 도식
+
 **Claim Boundary:**
 TEACHING MODEL — TRIAL-001에서 살펴본 정보를 묶은 해석이며 새 실행·제품 우열이 아니다. Repository 접근은 실행 권한 확장을 뜻하지 않는다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+
+보존된 상세 범위: 파일은 Repository에서, 실행 조건은 도구·권한에서 확인 · Repository 접근이 권한을 늘리지는 않음
 
 **Beginner Explanation:**
 Context가 단지 복사한 코드 조각만을 의미하지 않음을 이번 사건으로 이해한다.
@@ -597,8 +635,12 @@ Lecture 2분
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성. DEC-0086: prototype/image-illustration-pilot/assets/S07.png의 왼쪽 장면을 우측 상단 여백에 가로·세로1.8배로 확대해 재사용한다. 생성 지시는 prototype/image-illustration-pilot/PROMPTS.md의 S09에 보존한다. AI 생성 설명용 삽화이며 실제 실행 캡처·새 Trial 근거가 아니다.
 
+보존된 상세 출처: TEACHING MODEL · 자료를 직접 선택·첨부하는 대화 방식의 가정
+
 **Claim Boundary:**
 TEACHING MODEL — 실제 Chatbot 비교 실행·성능·불가능성 주장이 아니다. 환경 로그·권한 정보까지 전달하면 원인 분석 단서도 전달된다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+
+보존된 상세 범위: 실제 Chatbot 비교 실행 아님 · 자료 전달 방식의 차이이며 제품 능력·효율 우위를 입증하지 않음
 
 **Beginner Explanation:**
 답변 전에도 사람이 관련 자료를 찾아 연결하는 일이 있음을 본다.
@@ -659,8 +701,12 @@ TRIAL-001에서 Agent가 허용된 파일·도구 범위의 테스트·코드·�
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성. DEC-0086: prototype/image-illustration-pilot/assets/S07.png의 오른쪽 장면을 우측 상단 여백에 가로·세로1.8배로 확대해 재사용한다. 생성 지시는 prototype/image-illustration-pilot/PROMPTS.md의 S09에 보존한다. AI 생성 설명용 삽화이며 실제 실행 캡처·새 Trial 근거가 아니다.
 
+보존된 상세 출처: TRIAL-001 단일 CLI 조사와 연결한 교육용 도식 · Codex CLI 0.154.0
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 실제 관찰은 과거 Codex CLI0.154.0 한 번; TEACHING MODEL — 그림은 조사 관계의 각색. 현재 Desktop·일반 효율·반복성·권한 확대/해결을 주장하지 않는다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+
+보존된 상세 범위: 권한 제한을 해제하지 않음 · 목표·검토 책임은 개발자에게 남음 · 현재 Desktop 미검증
 
 **Beginner Explanation:**
 관련 파일을 모두 직접 복사하기 전에 허용된 Repository 조사를 요청할 수 있음을 본다.
@@ -714,7 +760,11 @@ Opening Question: “Repository 작업을 맡기려면 어디로 들어갈까?�
 
 Evidence / Source: BEAT-003에 연결한 사용자 승인 진입 가교; DEC-0036; SRC-0228 (Quickstart), SRC-0229 (App), CLM-0031 (공식 문서의 전환 경로, 대상 UI·계정 UNVERIFIED). 공식 자료 [ChatGPT quickstart](https://learn.chatgpt.com/docs/quickstart?setup=app), [ChatGPT app](https://learn.chatgpt.com/docs/app), 확인 2026-10-21. Quickstart는 코드베이스 Context·개발 도구가 필요한 소프트웨어 개발에서 ChatGPT dropdown의 Codex 선택을 안내한다. 좌측 상단 위치는 사용자의 명시적 UI 요구다. 화면 구성은 공식 자료 기반 UI 재구성이며 실제 Screenshot이 아니다. 로컬 앱 직접 확인은 도구 안전 제약으로 수행하지 못해 UNVERIFIED다.
 
+보존된 상세 출처: OpenAI Quickstart · 공식 문서 2026-10-21 확인 · 앱 전환 메뉴 재구성
+
 Claim Boundary: 이 교육의 개발 작업 진입 경로를 안내한다. 모든 Repository 접근에 Codex만 가능하다는 보편적 주장이 아니다. ChatGPT의 다른 작업 표면에서도 파일 접근이 가능한 경우가 있으며 제품·계정·권한에 따라 다르다. 과거 CLI TRIAL-001을 현재 Desktop 동작의 검증 근거로 사용하지 않는다. 현재 대상 계정·Windows·정확한 메뉴와 폴더 선택 동작은 실제 환경 확인 전까지 UNVERIFIED다.
+
+보존된 상세 범위: 교육용 도식입니다. 앱 버전·계정별 표시와 접근 권한은 발표 환경에서 확인합니다.
 
 Beginner Explanation: 작은 코드 질문을 하던 대화에서 Repository 조사로 옮길 때, 이 교육에서는 Codex를 선택하는 진입점을 사용한다.
 
@@ -759,9 +809,11 @@ Opening Question: “Repository를 볼 수 있으면 원하는 작업도 알게 
 
 Evidence / Source: BEAT-003 next friction, DEMO-01 callback, TRIAL-001; CLM-0002, CLM-0009; DEC-0036. TEACHING_MODEL. 사람·AI Agent 픽토그램: assets/slide-illustrations/human-agent-icons.png, image_gen 교육용 이미지이며 실제 사람 사진·제품 UI·관찰 결과가 아니다.
 
+보존된 상세 출처: 이 과정의 교육 모델 · 정보 접근과 최종 결정 책임의 구분 · AI 생성 역할 아이콘
 
 Claim Boundary: Mental Model이며 모든 제품·환경의 기능 설명이 아니다. “볼 수 있다”는 허용된 자료·접근 범위 안의 조사 가능성을 뜻하며 무제한 접근을 보증하지 않는다. 사람의 최종 결정은 이 교육의 목표·범위·수용 책임 원칙이다. AI가 판단·추론·제안을 전혀 못한다는 뜻이 아니다. Prompt 구조나 완료 조건의 구체 항목은 ACT 1에서 미리 설명하지 않는다.
 
+보존된 상세 범위: Agent는 조사·제안을 할 수 있습니다. 목표·허용 범위·완료 수용의 최종 결정과 책임은 사람에게 있습니다.
 
 Beginner Explanation: 사람과 Agent가 같은 파일을 살필 수 있어도, 원하는 결과와 받아들일 변경은 사람이 최종 정한다.
 
@@ -812,7 +864,11 @@ Opening Question: “지금 이 저장소에 어떤 일을 맡기고 싶으신�
 
 Evidence / Source: BEAT-003 → BEAT-004, DEMO-01 callback, CLM-0002, CLM-0009, DEC-0037. TEACHING_MODEL. plan/DEMO_REPOSITORY_SPEC.md의 초기 모듈 범위 및 ai-dev-training-demo의 src/graypipe/pipeline.py·statistics.py와 대조했다. 실제 구현은 load→normalize→optional invert/crop/resize→save→statistics 경로이며 현재 도식과 동일한 제조 검사 순서가 아니다. 새로운 실행·Trial은 수행하지 않았다.
 
+보존된 상세 출처: 교육용 검사 Task 가정 · 점선은 추가 정의·연결 범위 · 실제 실행 결과 아님
+
 Claim Boundary: 제조 검사장비로 확장하는 교육용 가정이다. 실제 저장소에는 normalize/resize/statistics도 구현돼 있으므로 점선을 함수 미구현으로 설명하지 않는다. crop의 실선도 정상·검증 완료를 뜻하지 않는다. TRIAL-001 조사 뒤 실제 crop 수정은 다음 ACT의 TRIAL-002에서 회수한다. 통계 카드의 막대는 추상 기호이며 측정 히스토그램·결함 검출·양불 판정 결과가 아니다. 판정 조건·알고리즘 정답이나 완성된 Task 요청을 이 장에서 제공하지 않는다.
+
+보존된 상세 범위: 실제 저장소에는 후속 함수도 있습니다. 도식은 실제 실행 순서나 함수의 미구현 상태를 재현하지 않습니다.
 
 Beginner Explanation: ROI crop 이후 검사에서 무엇을 더 하고 싶은지는 코드를 보는 것만으로 정해지지 않는다. 그림의 점선 중 어디까지 맡기고 싶은지 떠올리면 충분하다.
 
@@ -920,7 +976,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-004, TRIAL-001 callback, CLM-0002, DEC-0038, DEC-0040. TEACHING_MODEL / CONCEPTUAL. 프롬프트창은 재구성이고 AI Agent 그림은 AI 생성 교육용 삽화다. 비용 표시는 정성적 개념도이며 실제 Trial·현재 제품 실행·토큰/시간 측정값이 아니다. 삽화: assets/slide-illustrations/task-choice-agent.png (built-in imagegen, 투명 배경). 같은 Agent를 세 장에서 의도적으로 반복한다. 생성 프롬프트·출처·표현 경계: assets/slide-illustrations/PROMPT_TIMELINE_SOURCES.md. 토큰 소모·작업 시간 곡선과 끝 화살표는 편집 가능한 그래프 객체 대신 assets/slide-illustrations/S11-token-growth.png 및 S11-time-growth.png의 투명 PNG 삽화로 표시한다. 텍스트 label은 native text로 유지한다. 두 그래프 이미지의 생성 방식·정확한 프롬프트·표현 경계: assets/slide-illustrations/S11_RESOURCE_GRAPH_SOURCES.md. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
+보존된 상세 출처: 교육용 구성 사례 · AI 생성 삽화 · 토큰/시간 곡선은 수치 없는 개념도
+
 Claim Boundary: 미정인 요청이 특정 실행 실패나 토큰·시간의 기하급수적 증가를 반드시 만든다고 주장하지 않는다. 그림은 실제 내부 추론·로그·작업 정지 기록이 아니다. Agent는 가능한 선택을 제안하거나 먼저 질문할 수 있다. 오른쪽 세 질문의 답과 다음 Task Specification 해답은 이 장에서 미리 제공하지 않는다.
+
+보존된 상세 범위: 실제 Agent 실패·측정 결과·기하급수 증가 법칙이 아닙니다. 필요한 정보를 되묻는 선택도 가능합니다.
 
 Beginner Explanation: “성능을 개선해줘”만으로는 어떤 변경을 원하고 무엇을 지켜야 하는지 빠질 수 있다. 필요한 선택을 먼저 밝혀 두면 불필요한 재탐색을 줄일 여지가 있다.
 
@@ -964,7 +1024,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-004, CLM-0002, DEC-0038. TEACHING_MODEL / CONCEPTUAL. 같은 AI Agent 삽화와 병렬 시간선은 가능한 요청 해석의 도식이다. 실제 반복 실행·분기 빈도·실패 로그·평행 Agent 실행을 기록한 것이 아니다. 삽화: assets/slide-illustrations/task-choice-agent.png (built-in imagegen, 투명 배경). 같은 Agent를 세 장에서 의도적으로 반복한다. 생성 프롬프트·출처·표현 경계: assets/slide-illustrations/PROMPT_TIMELINE_SOURCES.md. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
+보존된 상세 출처: 교육용 병렬 시간선 · 실제 반복 실행·동시 Subagent·분기 확률을 관찰한 결과가 아님
+
 Claim Boundary: `crop test 고쳐줘`는 수업용 구성 요청이다. 이 요청이 테스트 변경·구현 변경·질문을 특정 확률로 만든다고 주장하지 않는다. 경로는 성공/실패 판정이 아니며 실제 TRIAL-002 결과를 새로 만들지 않는다. 테스트 수정이 모든 상황에서 나쁘다는 일반화도 하지 않는다.
+
+보존된 상세 범위: 짧은 요청의 가능한 해석을 그렸습니다. 실제 TRIAL-002 Prompt나 특정 실패의 재현이 아닙니다.
 
 Beginner Explanation: 같은 말이라도 기대값을 고치라는 뜻인지, 구현을 명세에 맞추라는 뜻인지 아직 남아 있을 수 있다. 먼저 확인을 요청하는 해석도 가능하다.
 
@@ -1008,7 +1072,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-004, CLM-0002, DEC-0038. TEACHING_MODEL / CONCEPTUAL. TRIAL-001/002의 끝 좌표 제외 crop 명세와 검증 범위를 배경으로 한 수업용 Prompt다. 실제 TRIAL-002에서 사용한 요청·관찰된 선택·성능 비교를 재현하지 않는다. 삽화: assets/slide-illustrations/task-choice-agent.png (built-in imagegen, 투명 배경). 같은 Agent를 세 장에서 의도적으로 반복한다. 생성 프롬프트·출처·표현 경계: assets/slide-illustrations/PROMPT_TIMELINE_SOURCES.md. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
+보존된 상세 출처: 교육용 Prompt와 목표 경로 · TRIAL-002의 실제 요청·실행 결과가 아님
+
 Claim Boundary: 강조 경로는 사람이 명시한 목표 경로이며 실제 실행 결과나 결정성·성공 보장이 아니다. 동일 모델·Agent가 항상 하나의 결과를 내고 다른 가능성이 사라진다는 주장을 하지 않는다. 테스트 기대값 보존은 이 예시의 유효한 명세를 전제로 한 조건이지 모든 테스트 수정 금지가 아니다. 완료 여부는 실제 변경과 검증 근거를 보고 사람이 수용한다.
+
+보존된 상세 범위: 의도한 경로 표시는 실제 선택·정확성·성공을 보장하지 않습니다. 변경 뒤 검증은 계속 필요합니다.
 
 Beginner Explanation: 확인 요청도 작업 요청의 일부다. 관련 테스트만 실행·프로젝트 전체 테스트 실행·CLI 샘플 실행 확인·변경 내용 확인처럼 먼저 쉬운 말로 구체화한다. 이 교육용 요청이 실제 TRIAL-002 원문이라는 뜻은 아니다.
 
@@ -1052,7 +1120,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-004, CLM-0002. TEACHING_MODEL / CONCEPTUAL. 특정 요청이 특정 실패를 반드시 만든다고 하지 않는다. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
+보존된 상세 출처: 이 과정의 질문 틀 · 정답을 제시하는 분류 시험이 아님
+
 Claim Boundary: 다섯 질문은 수업용 질문 프레임이다. 특정한 단일 답이나 제품 기능으로 소개하지 않는다.
+
+보존된 상세 범위: 마지막 1분은 익숙한 작업 하나를 조용히 떠올려 보세요.
 
 Beginner Explanation: 저장소에서 조사할 수 있는 사실은 확인하도록 맡기고, 사람이 원하는 결과·우선순위·지킬 조건·완료 판단 근거를 정해 요청한다. 모든 Context를 직접 붙여 넣어야 한다는 뜻은 아니다.
 
@@ -1096,7 +1168,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-005, CLM-0029, OQ-001, OQ-007. TEACHING_MODEL / CONCEPTUAL. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
+보존된 상세 출처: 이 과정의 교육 모델 · 공식 OpenAI 분류나 모든 작업에 대한 법칙이 아님
+
 Claim Boundary: 다섯 항목은 과정에서 쓰는 Task Specification 모델이지 공식 OpenAI taxonomy나 universal law가 아니다.
+
+보존된 상세 범위: 저장소에서 확인할 사실은 조사하게 하고, 사람이 정할 목표·제약·완료 기준은 요청에 담습니다.
 
 Beginner Explanation: 저장소에서 조사할 수 있는 사실은 확인하도록 맡기고, 사람이 원하는 결과·우선순위·지킬 조건·완료 판단 근거를 정해 요청한다. 모든 Context를 직접 붙여 넣어야 한다는 뜻은 아니다.
 
@@ -1142,7 +1218,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007. TEACHING_MODEL / CONCEPTUAL. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
+보존된 상세 출처: 교육용 Before / After · 실제 Trial Prompt나 우월성 비교 실험이 아님
+
 Claim Boundary: Before/After는 설명을 위한 개념 예시이며 Trial-002가 약한 Prompt와 구조화 Prompt의 우월성을 비교 검증했다는 뜻이 아니다. Given/When/Then 완료 조건은 기존 crop 계약을 설명하려고 구성한 예시이며 당시 Prompt 원문, 새 실행 결과 또는 시스템 요구 분석 전체 교육이 아니다.
+
+보존된 상세 범위: 완료 조건과 C++ 적용은 교육용 예시입니다. 특정 Windows·빌드 환경을 검증한 것은 아닙니다.
 
 Beginner Explanation: 저장소에서 조사할 수 있는 사실은 확인하도록 맡기고, 사람이 원하는 결과·우선순위·지킬 조건·완료 판단 근거를 정해 요청한다. 모든 Context를 직접 붙여 넣어야 한다는 뜻은 아니다.
 
@@ -1188,7 +1268,11 @@ Speaker Flow:
 
 Evidence / Source: OBSERVED_PRODUCT. plan/DEMO_MATRIX.md의 TRIAL-002 / Prompt used(395–413행), Investigation and visible plan checkpoint(415–420행)가 실제 요청과 관찰 요약의 근거다. 정확한 테스트명·호출 기호는 같은 문서 TRIAL-001(330–332행) 및 ai-dev-training-demo의 STATE-00 tests/test_transform.py11, src/graypipe/cli.py, src/graypipe/pipeline.py, src/graypipe/transform.py를 읽기 전용으로 대조했다. 행 번호는 DEC-0044 작성 시점의 locator다. DEC-0044는 교육 표현 수정이며 새 실험 근거가 아니다.
 
+보존된 상세 출처: TRIAL-002 · 요청 발췌·번역 / 관찰 기록 요약 · 2026-09-28 · Codex CLI 0.154.0
+
 Claim Boundary: TRIAL-002는2026-09-28 macOS Codex CLI0.154.0의 단일 실행이다. 우측은 보존된 관찰 요약이며 최초 재현 명령 원문·실패 출력 원문·계획 발언 원문·원시 CLI 이벤트 파일/시각은 미확인이다. Verification 절의 명령을 최초 재현 명령으로 옮기지 않는다. 대상 코드 식별자를 원문 로그 발췌로 표현하지 않는다. S22 예시의 실행 결과, Prompt 단독 효과·우월성·결정론적 준수·반복성·현재 Desktop/계정·다른 모델의 근거로 확대하지 않는다. 상태 태그·격리·미커밋 보존 등 전체 제약은 원본 Prompt에 유지한다.
+
+보존된 상세 범위: 원문 로그 캡처 아님 · S22 예시의 실행 결과 아님 · 단일 CLI 관찰이며 Prompt 단독 효과는 미입증
 
 Beginner Explanation: 왼쪽은 실제로 무엇을 해 달라고 했는지, 오른쪽은 남아 있는 기록으로 무엇을 확인할 수 있는지다. 같은 단어를 되풀이하지 않고 테스트 대상, 제품 호출 경로, 수정 전 보고의 외부 근거를 찾는다.
 
@@ -1233,7 +1317,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039. OBSERVED_PRODUCT, one recorded CLI run. S23의 번호를 회수하되 기존 한 줄 diff와 끝 좌표 제외 명세를 유지한다. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
+보존된 상세 출처: TRIAL-002 · STATE-00 → STATE-00-FIXED · 실제 diff를 재구성한 도식
+
 Claim Boundary: 실제 변경은 `src/graypipe/transform.py`의 crop slice 한 줄이다. 이 기록은 한 번의 Codex CLI 실행에 한정되며 Prompt 우월성, Desktop 동작 또는 일반 성공률을 증명하지 않는다.
+
+보존된 상세 범위: src/graypipe/transform.py · 단일 CLI 기록 · 실제 터미널 화면이 아님
 
 Beginner Explanation: 실패한 Test와 기대 명세를 먼저 맞춘 뒤 꼭 필요한 한 줄만 바꿨다. S23의 02·03이 04 수정과 어떻게 연결되는지 본다.
 
@@ -1278,7 +1366,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027. OBSERVED_PRODUCT, one Codex CLI run. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
+보존된 상세 출처: TRIAL-002 기록 요약 · 단일 Codex CLI 실행 · STATE-00-FIXED
+
 Claim Boundary: Focused test 3/3, full suite 11/11, CLI smoke PASS, diff 1 file / 1 line, and `git diff --check` PASS are the recorded results of TRIAL-002. They do not establish every input, platform, or future product run.
+
+보존된 상세 범위: 해당 테스트·입력·수정 범위의 확인입니다. 성능 benchmark는 수행하지 않았습니다.
 
 Beginner Explanation: 요청한 관련 테스트 묶음·전체 테스트·CLI 샘플·변경 내용 확인이 어떤 기록으로 돌아왔는지 본다. 실제 관련 묶음3/3은 test_transform.py이며 resize 보존 테스트도 포함하므로 crop 테스트만3개로 좁히지 않는다.
 
@@ -1323,7 +1415,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027. OBSERVED_PRODUCT and separate TEACHING_MODEL. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
+보존된 상세 출처: 교육용 결과 인계 예 · TRIAL-002 기록 재구성 · 실제 PR 원문이 아님
+
 Claim Boundary: 본문의 생성→완료 판단 관계와 확인 방법은 이 과정의 TEACHING_MODEL이다. 하단 출처에서 회수하는 TRIAL-002의 관찰은 테스트·CLI·diff에 한정된다. Benchmark는 조건부 검증 예이며 TRIAL-002에서 수행하지 않았다. 검토용 결과 인계의 형식은 기존 기록을 설명하는 교육용 재구성이며 실제 PR, 당시 답변 원문 또는 사람의 승인 완료 기록이 아니다.
+
+보존된 상세 범위: 검사는 주장과 위험에 맞춰 선택합니다. TRIAL-002에서 benchmark는 수행하지 않았습니다.
 
 Beginner Explanation: 완료를 판단할 수 있도록 변경 내용·확인 결과·미확인 사항을 함께 보고해 달라고 요청한다. 결과를 받아 수용할지는 사람이 결정한다.
 
@@ -1368,7 +1464,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0041. Actual checks are separate from the TEACHING_MODEL mapping. 기존 crop 첫 행의 1·2·3·4와 기대 2·3을 native C++ vector 도식으로 재표현했다. Assertion과 vector 동등 비교의 의미: [GoogleTest Primer](https://google.github.io/googletest/primer.html), [Microsoft vector operators](https://learn.microsoft.com/en-us/cpp/standard-library/vector-operators?view=msvc-170). 기술 의미는 공식 문서에 한정하며 현재 Demo가 GoogleTest를 사용한다는 뜻이 아니다. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
+보존된 상세 출처: TRIAL-002: 관련·전체 테스트 / CLI 샘플 실행 / 변경 확인 · 우측은 C++ 교육용 도식
+
 Claim Boundary: Focused/full tests, CLI smoke, and diff review are actual TRIAL-002 checks. The mapping is a course model; benchmark was not run. No single check proves all correctness. 우측 vector와 GoogleTest assertion은 실제 Python unittest crop 사례를 설명하는 교육용 재표현이다. 새 C++ 실행·Trial·PASS/FAIL이나 당시 assertion 원문이 아니며 {2,3,4}는 명세 위반을 설명하는 반례다. 한 입력의 기대값 비교는 다른 입력·경계·플랫폼의 정확성이나 모든 누락 검출을 보장하지 않는다.
+
+보존된 상세 범위: 실제 Trial은 Python unittest입니다. Benchmark 미실행 · 우측은 새 실행·PASS 결과가 아닙니다.
 
 Beginner Explanation: “테스트해줘”에서 멈추지 않고 이 입력에서 어떤 개수·값을 기대하며 무엇을 비교해 보고할지 요청에 담는다. 비어 있지 않음은 빈 결과를 찾지만 이 추가 원소 오류는 구별하지 못한다.
 
@@ -1424,7 +1524,11 @@ crop 경계 오류의 원인 후보만 설명해줘.
 
 Evidence / Source: CLM-0032; official documented recommendations checked 2026-10-21. https://developers.openai.com/api/docs/guides/prompt-engineering. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
 
+보존된 상세 출처: OpenAI Prompt engineering · Markdown / XML 구획 · 2026-10-21 확인
+
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 구획은 읽을 경계를 알리는 수단입니다. 보안 격리나 자료의 진위를 보장하지 않습니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+보존된 상세 범위: 구획은 읽을 경계를 알리는 수단입니다. 보안 격리나 자료의 진위를 보장하지 않습니다.
 
 Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
@@ -1479,7 +1583,11 @@ crop 범위 설명을 아래 형식으로 작성해줘.
 
 Evidence / Source: CLM-0033; official documented recommendations checked 2026-10-21. https://developers.openai.com/api/docs/guides/prompt-engineering; https://developers.openai.com/api/docs/guides/reasoning-best-practices. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
 
+보존된 상세 출처: OpenAI Prompt engineering · Few-shot / Reasoning best practices · 2026-10-21
+
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 예시와 명세를 일치시킵니다. 예시 몇 개가 모든 경계 조건의 명세를 대신하지 않습니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+보존된 상세 범위: 예시와 명세를 일치시킵니다. 예시 몇 개가 모든 경계 조건의 명세를 대신하지 않습니다.
 
 Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
@@ -1534,7 +1642,11 @@ crop 수정 결과를 다음 순서로 보고해줘.
 
 Evidence / Source: CLM-0034; official documented recommendations checked 2026-10-21. https://learn.chatgpt.com/docs/prompting; https://developers.openai.com/api/docs/guides/structured-outputs. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
 
+보존된 상세 출처: OpenAI Prompting / Structured model outputs · 출력 형식·내용 오류 구분 · 2026-10-21
+
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 형식이 맞아도 내용은 확인해야 합니다. 채팅의 형식 요청은 API Structured Outputs와 별개입니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+보존된 상세 범위: 형식이 맞아도 내용은 확인해야 합니다. 채팅의 형식 요청은 API Structured Outputs와 별개입니다.
 
 Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
@@ -1590,7 +1702,11 @@ crop의 명세·구현·테스트를 찾아 비교해줘.
 
 Evidence / Source: CLM-0035; official documented recommendations checked 2026-10-21. https://developers.openai.com/api/docs/guides/prompt-engineering; https://learn.chatgpt.com/docs/prompting. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
 
+보존된 상세 출처: OpenAI Prompt engineering / Prompting · 관련 자료·출처·불확실성 · 2026-10-21
+
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 파일·줄 인용도 실제 내용과 대조합니다. 인용이 있다는 사실만으로 정확성이 보장되지는 않습니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+보존된 상세 범위: 파일·줄 인용도 실제 내용과 대조합니다. 인용이 있다는 사실만으로 정확성이 보장되지는 않습니다.
 
 Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
@@ -1644,7 +1760,11 @@ Opening Question: “정책을 사람이 선택해야 할 때, 요청을 어떻�
 
 Evidence / Source: CLM-0036; official documented recommendations checked 2026-10-21. https://learn.chatgpt.com/guides/best-practices; https://developers.openai.com/api/docs/guides/latest-model. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
 
+보존된 상세 출처: OpenAI Best practices / Latest model · Initiative · 2026-10-21 확인
+
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 모든 세부를 질문으로 돌리지 않습니다. 답에 따라 결과가 달라지는 선택에 집중합니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+보존된 상세 범위: 모든 세부를 질문으로 돌리지 않습니다. 답에 따라 결과가 달라지는 선택에 집중합니다.
 
 Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
@@ -1699,7 +1819,11 @@ Opening Question: “조사 결과에 따라 구현 범위가 달라질 때, 요
 
 Evidence / Source: CLM-0037; official documented recommendations checked 2026-10-21. https://learn.chatgpt.com/guides/best-practices; https://developers.openai.com/api/docs/guides/reasoning-best-practices. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
 
+보존된 상세 출처: OpenAI Best practices · Plan first for difficult tasks · 2026-10-21 확인
+
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 단계는 작업·산출물의 경계입니다. 숨은 사고 과정을 길게 출력하라는 요청이 아닙니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+보존된 상세 범위: 단계는 작업·산출물의 경계입니다. 숨은 사고 과정을 길게 출력하라는 요청이 아닙니다.
 
 Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
@@ -1755,7 +1879,11 @@ crop 변경안을 코드 리뷰 관점에서 봐줘.
 
 Evidence / Source: CLM-0038; official documented recommendations checked 2026-10-21. https://learn.chatgpt.com/guides/best-practices; https://learn.chatgpt.com/docs/prompting. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
 
+보존된 상세 출처: OpenAI Best practices · Testing and review / Prompting · Custom focus · 2026-10-21
+
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 리뷰 답변도 누락할 수 있습니다. 필요한 실행 확인·변경 검토·사람의 완료 판단을 함께 사용합니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+보존된 상세 범위: 리뷰 답변도 누락할 수 있습니다. 필요한 실행 확인·변경 검토·사람의 완료 판단을 함께 사용합니다.
 
 Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
@@ -1810,7 +1938,11 @@ crop [1,3)에서 폭 2야.
 
 Evidence / Source: CLM-0039; official documented recommendations checked 2026-10-21. https://learn.chatgpt.com/docs/prompting. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
 
+보존된 상세 출처: OpenAI Prompting · Improve the result with follow-up messages · 2026-10-21 확인
+
 Claim Boundary: 교육용 요청 문장이다. 실제 TRIAL-002 입력·실행·비교 실험이 아니다. 앞선 제안은 가상 예시입니다. 원하는 답만 반복시키지 말고 명세와 실제 근거로 방향을 고칩니다. 정확도·토큰·시간·성능 개선이나 모든 모델의 동일한 동작을 보장하지 않는다.
+
+보존된 상세 범위: 앞선 제안은 가상 예시입니다. 원하는 답만 반복시키지 말고 명세와 실제 근거로 방향을 고칩니다.
 
 Beginner Explanation: “이럴 때 사용” 옆의 상황에 해당하면 예시 문장을 출발점으로 삼고 실제 명세·파일·자료를 맞춰 넣는다. 요청 길이를 늘리는 것 자체가 목적은 아니다.
 
@@ -1855,7 +1987,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-007 → BEAT-008 handoff, CLM-0029, CLM-0027, CLM-0003, CLM-0005. TEACHING_MODEL. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
+보존된 상세 출처: 생각해 보기 · 이 과정의 교육 모델
+
 Claim Boundary: 두 Bucket은 Reflection을 위한 과정의 모델이다. 이 장에서는 정답, 제품 기능, AGENTS.md 또는 완전한 분류를 제시하지 않는다.
+
+보존된 상세 범위: 1분 동안 개인적으로 생각한 뒤 2분간 자발적인 질문을 받습니다.
 
 Beginner Explanation: 요청을 잘 작성한 뒤에도 같은 테스트 명령과 보존 조건을 다시 쓰게 된다. 이번 목표에만 필요한 정보와 여러 작업이 참고할 Project 사실의 수명·범위를 생각한다. 저장 메커니즘은 다음 ACT에서 문제를 본 뒤 다룬다.
 
@@ -1900,7 +2036,11 @@ Opening Question: “같은 Project 설명을 다음 요청에서도 왜 반복�
 
 Evidence / Source: BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005. TEACHING_MODEL / CONCEPTUAL. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
+보존된 상세 출처: 교육용 후보 예시 · 모든 프로젝트에 적용되는 유일한 분류가 아님
+
 Claim Boundary: 항목은 수명과 적용 범위를 생각하게 하는 교육용 후보 예시다. 화면의 의존성 예시는 실제 STATE-01 지침처럼 작업상 정당한 근거가 있으면 추가할 수 있다는 조건을 보존한다. 이 장은 그 지침의 실행 효과를 관찰한 결과가 아니다. 유일한 정답·classification test·제품 메커니즘으로 말하지 않는다. AGENTS.md는 이 장에서 답으로 제시하지 않는다.
+
+보존된 상세 범위: 다음 질문: Project 정보를 왜 매번 Prompt에 다시 적고 있을까요?
 
 Beginner Explanation: 요청을 잘 작성한 뒤에도 같은 테스트 명령과 보존 조건을 다시 쓰게 된다. 이번 목표에만 필요한 정보와 여러 작업이 참고할 Project 사실의 수명·범위를 생각한다. 저장 메커니즘은 다음 ACT에서 문제를 본 뒤 다룬다.
 
@@ -2007,7 +2147,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-008, CLM-0003, CLM-0005. TEACHING_MODEL / CONCEPTUAL; the three cards are a constructed example, not a Trial.
 
+보존된 상세 출처: 교육용 구성 사례 · Bug fix / Performance / README 작업
+
 Claim Boundary: Repetition can indicate a scope and lifetime question. This slide does not claim a product failure or introduce a repository instruction file as the answer.
+
+보존된 상세 범위: 서로 다른 요청에 같은 프로젝트 정보가 반복되는 상황을 보여준다
 
 Beginner Explanation: If every Task needs the same Project facts, consider whether those facts belong with the Task or with the Project.
 
@@ -2053,7 +2197,11 @@ Speaker Flow:
 
 Evidence / Source: STATE-01 / DEMO-02 / OBSERVED_PRODUCT. Demo tag `14baf81746a981d7cd96b7a014ea06f28c3dd6b4`, root `AGENTS.md` 2, 5, 9, 15행 발췌. 15줄/567bytes는 원문 메타데이터이며 화면의 중심 메시지로 쓰지 않는다. 테스트 명령은 `Run`과 구두점을 제외한 원문 명령 문자열이다. Source: `plan/DEMO_MATRIX.md` STATE-01 기록.
 
+보존된 상세 출처: OBSERVED PRODUCT  |  STATE-01 · AGENTS.md 실제 원문 발췌
+
 Claim Boundary: 실제 파일이 그 상태에 존재했다는 근거다. 성능, 정확도, 토큰 절감 또는 AGENTS.md 단독 인과효과를 주장하지 않는다. 제품 코드·테스트·README는 그 상태 전환에서 바뀌지 않았다. S41의 지침 활용 관찰을 이 장의 결과로 앞당기지 않는다. 현재 Desktop 자동 로딩이나 교육 환경을 검증한 것이 아니다.
+
+보존된 상세 범위: 파일의 내용과 기록 위치를 보여주는 장 · Agent의 활용 관찰은 다음 장에서 확인
 
 Beginner Explanation: A small set of facts that applies across Project Tasks can be written down once in the repository.
 
@@ -2098,7 +2246,11 @@ Speaker Flow:
 
 Evidence / Source: TRIAL-003 / STATE-01 / DEMO-02 / OBSERVED_PRODUCT. plan/DEMO_MATRIX.md의 Interface/Product627–634행, 실제 Prompt636–644행, Verification657–672행, Project Context Used674–678행. 지침 명령은 ai-dev-training-demo STATE-01 AGENTS.md9행과 대조했다. 행 번호는 DEC-0046 작성 시점의 locator다. 원본 Trial·지침은 수정하지 않았다.
 
+보존된 상세 출처: TRIAL-003 · 실제 요청 발췌·번역 / 실행 기록 요약 · Codex CLI 0.154.0
+
 Claim Boundary: 단일 CLI 실행의 테스트 지침 사용 관찰이다. 테스트 명령이 없었다는 주석은 실제 지시문이 아니며, 요청에는 최종 diff와 관련 검증 근거 보고가 있었다. AGENTS.md가 모든 지침 준수를 강제했다거나 단독 원인이었다고 주장하지 않는다. Personal readchk/re0/sip도 실행됐고 active instruction-chain trace가 없다. README-only는 Prompt와 중복된 제약이며 local-data/runtime-dependency 규칙은 이번 작업에서 필요하지 않았다. 현재 Desktop·계정·반복성·성능·정확도·토큰 절감 근거가 아니다.
+
+보존된 상세 범위: Skills도 실행 · README-only는 Prompt에도 명시 · AGENTS.md 단독 효과·강제 준수 보장은 미입증
 
 Beginner Explanation: 실제 Prompt는 현재 README 작업을 요청한다. AGENTS.md는 프로젝트 작업 지침을 담고 있으며 이 기록에서는 그 테스트 지침의 명령을 사용했다. 검증 근거 요청과 구체 테스트 명령의 위치를 구분한다.
 
@@ -2140,7 +2292,11 @@ Speaker Flow: 1. (0–2분) 직전 기록의 현재 README 요청과 재참고�
 
 Evidence / Source: BEAT-009–010, TRANS-003, CLM-0003, CLM-0005, DEC-0047. TEACHING_MODEL / CONCEPTUAL; examples summarize S39–S37. Generated visual provenance and prompts: assets/slide-illustrations/task-context/README.md. No new Trial or product capture.
 
+보존된 상세 출처: 교육용 구분 · 창과 문서는 생성 도식이며 실제 제품 화면이 아님
+
 Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. 이번 요청의 목표·수정 범위와 여러 Task가 재참고할 명령·규칙을 나눈다. 같은 내용이 Prompt 또는 문서 중 한 곳에만 들어갈 수 있다는 뜻이 아니다. 테스트 명령/검증 원칙도 Project 안내에 들어갈 수 있고, 이후 Harness 구간은 여러 단계의 수행·중간 판단을 누가 유지할지 다룬다. 승인된 두 생성 도식과 범위·수명 비교를 유지한다.
+
+보존된 상세 범위: C++에서도 프로젝트 공통 제약과 이번 알고리즘 변경 조건은 범위가 다를 수 있다
 
 Beginner Explanation: Put the current goal in the Task request and distinguish it from facts the Project keeps using.
 
@@ -2187,7 +2343,11 @@ Speaker Flow:
 
 Evidence / Source: STATE-01 and STATE-02, BEAT-011, CLM-0014, CLM-0015, DEC-0048. OBSERVED_PRODUCT: 실제 AGENTS.md 전후 내용은 plan/DEMO_MATRIX.md와 보존 State tag를 따른다. 원본 메타데이터는15줄/567bytes와32줄/1,303bytes이며 화면에는 표시하지 않는다. STATE-02는55c045523ed1409449d7eea5b0d873983fe101b6이다. 생성 도식·프롬프트: assets/slide-illustrations/context-growth/README.md.
 
+보존된 상세 출처: 실제 AGENTS.md 전후 내용을 바탕으로 재구성 · 문서는 교육용 생성 도식
+
 Claim Boundary: Do not label the growth as a failure threshold, claim that it caused an error, or imply that the content was inaccurate. The visual summarizes recorded document changes; its length is qualitative, no elapsed duration was measured, and current project means this Story stage, not the latest repository HEAD. It is a generated teaching diagram, not a document capture.
+
+보존된 상세 범위: 이야기 속 두 시점 비교 · 정보 증가가 실패를 일으켰다는 관찰은 아님
 
 Beginner Explanation: More documented facts create a follow-up question: does each Task need all of them?
 
@@ -2233,7 +2393,11 @@ Speaker Flow:
 
 Evidence / Source: TRIAL-004, BEAT-012, CLM-0014, CLM-0015, DEC-0049, DEC-0050. OBSERVED_PRODUCT; Codex CLI0.154.0의 단일 문서 작업 기록. plan/DEMO_MATRIX.md TRIAL-004 actual task/Agent behavior/Relevant Context/Irrelevant-but-Correct Context를 대조했다. 실제 원문은 “Clarify the README Build section by naming the pinned build tools required by the existing wheel command. Use pyproject.toml as the source of truth. Change README.md only, preserve the command, and do not install packages or alter package metadata. Report relevant verification.”이다. 화면은 핵심 발췌·번역이며 전체 원문은 이 기록에 보존한다. 우측 지침은 Demo STATE-02 AGENTS.md(55c045523ed1409449d7eea5b0d873983fe101b6)의 Build / Run, Core Constraints, Architecture, Image Contract, Test, CLI Summary와 대조했다. TRIAL-004 Relevant Context는 README pointer와 scoped-change/verification constraints를 관련 지침으로 기록한다.
 
+보존된 상세 출처: TRIAL-004 · Codex CLI 0.154.0 · 실제 요청 / AGENTS.md 지침 발췌·번역
+
 Claim Boundary: Presence of unnecessary context is not evidence that the model failed, became confused, or performed worse. No such failure was observed. The Agent read AGENTS.md, README.md and pyproject.toml. Gray means task-irrelevant detail, not unread or inaccurate information. Requested verification still applies. Both right-hand groups summarize AGENTS.md content; the specific build-tool versions are not in that file. The full-test command is not presented as mandatory for this documentation change. The Prompt already named the files and constraints, so success is not attributed solely to expanded Context. No performance or token benefit was measured, and historical CLI evidence is not a current Desktop check.
+
+보존된 상세 범위: AGENTS.md도 읽음 · 혼란·Context 관련 실패는 관찰되지 않음 · 성능 효과 미측정
 
 Beginner Explanation: Correct information can still be unrelated to the current Task.
 
@@ -2275,7 +2439,11 @@ Speaker Flow: 1. (0–1분) 앞 장 AGENTS.md에서 모든 상세가 이번 작�
 
 Evidence / Source: BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051. TEACHING_MODEL / CONCEPTUAL. S44/TRIAL-004의 관련성 관찰을 회수한 설계 모델이다. 도식의 작업별 상세 연결과 성능 절차는 설명용 구성이고 새 Product 관찰·Trial이 아니다.
 
+보존된 상세 출처: 교육용 구분 · 정보의 범위와 수행 방법은 서로 다른 축
+
 Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. OpenAI의 공식 분류 체계로 표현하지 않는다. S44의 관련성 질문을 공통 안내/필요할 때 찾을 상세로 회수한다. 세 번째 열은 다음 문제의 예고이며 해결된 재사용 구조가 아니다. 정보의 범위와 수행 방법은 서로 다른 축이고 AGENTS.md에 절차를 쓰면 안 된다는 제품 규칙이 아니다.
+
+보존된 상세 범위: 공식 제품 분류가 아님 · 오른쪽은 다음 ACT의 미해결 질문
 
 Beginner Explanation: Some facts apply broadly; details matter for a smaller set of Tasks; a work procedure says how to approach a class of work.
 
@@ -2317,7 +2485,11 @@ Speaker Flow: 1. (0:00–1:00) 문서 QA와 합성 key-value 검색 과제에서
 
 Evidence / Source: Lost in the Middle, Liu et al., TACL2024,12:157–173; https://aclanthology.org/2024.tacl-1.9/; CLM-0014/SRC-0201; DEC-0052/0060. Reconstructed task-position diagram, no numeric score curve.
 
+보존된 상세 출처: Liu et al., TACL 2024 · aclanthology.org/2024.tacl-1.9/ · CLM-0014
+
 Claim Boundary: Lost in the Middle의 역사적 모델·과제·조건에 한정한다. 현재 Codex의 실패율, 보편적인 중간 정보 무시, 토큰 임계값, 정보를 더 주면 항상 나빠짐, Routing 우월성·토큰/성능 효과를 주장하지 않는다. 연구의 위치 비교와 실제 코드 탐색 결과 확인은 서로 다른 질문이다.
+
+보존된 상세 범위: 연구 과제 재구성 · 현재 Codex의 실패율·보편 한계·Routing 효과를 입증하지 않음
 
 Beginner Explanation: 정보가 입력에 있다는 사실만으로 답에 같은 수준으로 활용됐다고 가정하지 않는다. 다음 장에서는 코드 탐색 결과를 확인할 때 어떤 근거를 요구할지 생각한다.
 
@@ -2360,7 +2532,11 @@ Speaker Flow: 1. (0:00–0:40) S46에서 정보의 존재와 활용을 구분한
 
 Evidence / Source: TEACHING_MODEL / RESEARCH. 코드 출처: Demo STATE-00-FIXED의 src/graypipe/transform.py, crop 6–16행 중13행 row[x_start : x_end] 발췌. 동일한 구현 수정은 기존 TRIAL-002/STATE-00-FIXED 기록에 보존돼 있다. 교육용 요청은 구성 예이며 새 탐색 실행이나 원문 Trial Prompt가 아니다. 보조 연구: RepoQA(2024), https://arxiv.org/abs/2406.06025 / CLM-0015 / SRC-0204. DEC-0061.
 
+보존된 상세 출처: 교육용 확인 예 · STATE-00-FIXED crop 발췌 / RepoQA(2024): arxiv.org/abs/2406.06025
+
 Claim Boundary: 세 확인 질문은 이 교육의 업무용 모델이며 공식 제품 규칙이나 RepoQA의 평가 rubric이 아니다. 기존 코드 발췌는 실제 Agent가 이번 요청에서 찾았다는 증거가 아니다. RepoQA의 함수 검색 결과는 현재 Codex의 탐색·수정·도구·테스트 전체를 검증하지 않으며, Routing 우월성·토큰 절약·성능 개선을 입증하지 않는다. 한 코드 줄만으로 전체 계약/구현 정당성을 판단하지 않는다.
+
+보존된 상세 범위: 세 질문은 교육용 기준 · RepoQA가 이 Routing·현재 Codex의 업무 성능을 검증한 것은 아님
 
 Beginner Explanation: 찾았다는 답을 받으면 파일 위치와 관련 코드를 확인하고, 내가 물은 조건에 맞는지 대조한다. 필요한 경우 호출부와 관련 테스트의 기대값도 확인한다.
 
@@ -2402,8 +2578,12 @@ Speaker Flow: 1. (0:00–0:30) “앞 장에서 위치·동작·주변 근거를
 
 Evidence / Source: TEACHING_MODEL / CONCEPTUAL. BEAT-014, STATE-03, CLM-0003/0005/0014/0015, DEC-0053. Historical Demo tag STATE-03 at f3e2e37b1454e28c5de4c44682ebd49378ebae4b: AGENTS.md17–20의 Context Routing에서 이미지 동작/crop→docs/image-contracts.md를 안내한다. 같은 tag의 docs/image-contracts.md20–24가 half-open crop 명세를 기록한다. plan/DEMO_MATRIX.md의 STATE-03 및 TRIAL-005A/B는 후속 구조·관찰 근거다. 문서명과 명세는 보존 기록을 참조하지만 화면의 요청/안내는 요약·재구성이다. 새 Trial은 실행하지 않았다.
 
+보존된 상세 출처: 교육용 탐색 경로 · 저장된 명세 기반 재구성 · 실제 읽기 순서가 아님
+
 **Claim Boundary:**
 FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. Routing으로 성능 향상이나 Token 절약이 입증됐다고 주장하지 않는다. S46–S47의 연구에서 과제별 근거 확인으로 돌아온다. 질문·위치 안내·답변 근거의 서로 다른 역할만 짚고, 다음 장의 배치 기준과 그다음 장의 실제 파일 재구성을 미리 해설하지 않는다.
+
+보존된 상세 범위: 자동 탐색·완벽한 선택·성능 향상·토큰 절약을 입증한 그림이 아님
 
 Beginner Explanation: 작업 요청에는 궁금한 것을 쓰고, AGENTS.md에는 어느 상세 문서를 볼지 안내한다. 구체적인 답에 필요한 규칙은 그 문서의 명세에서 확인한다.
 
@@ -2447,7 +2627,11 @@ Opening Question: “무엇을 항상 읽고, 무엇을 필요할 때 찾게 할
 
 Evidence / Source: TEACHING_MODEL / CONCEPTUAL. BEAT-014, CLM-0003/0005/0014/0015, DEC-0054. Historical Demo STATE-03 at f3e2e37b1454e28c5de4c44682ebd49378ebae4b의 AGENTS.md3–20은 목적·로컬 파일·기존 동작 보존·README/검증 진입 안내·주제별 문서 위치를 기록한다. docs/architecture.md는 처리 순서·모듈 역할, docs/image-contracts.md는 crop/resize 명세, docs/testing.md는 테스트 위치·검증 범위를 담는다. 파일명과 내용의 예는 이 보존 기록에 근거한 요약이며 전체 지침의 재현이나 제품 실행 결과가 아니다. 실제 STATE-03 구조 변화와 TRIAL-005A/B 접근 관찰은 S50 이후에 구분한다.
 
+보존된 상세 출처: 교육용 배치 기준 · 명령·검증 규칙도 Project 안내에 포함될 수 있음
+
 Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. 이 설계만으로 정보 검색 성능이 향상된다고 주장하지 않는다. 파일명 외우기 대신 각 정보가 어떤 작업에 언제 필요한지 판단하는 기준을 설명한다. 명령·검증 규칙도 공통 안내가 될 수 있다. 실제3개 상세 문서로 옮긴 결과는 다음 장에 남긴다.
+
+보존된 상세 범위: 원칙과 상세의 구분은 유지·참조 설계 · 실제 자동 읽기 결과나 제품의 강제 분류가 아님
 
 Beginner Explanation: 여러 작업에서 공통으로 필요한 안내와 그 작업을 해결할 때 자세히 볼 규칙을 나눠둔다. AGENTS.md에는 상세 문서의 위치도 남겨 어디서 확인할지 알 수 있게 한다.
 
@@ -2490,7 +2674,11 @@ Speaker Flow: 1. (0–2분, Lecture) 앞 장의 기준을 실제 문서 변화�
 
 Evidence / Source: OBSERVED_PRODUCT for retained Git file structures and topic correspondence; TEACHING_MODEL for the diagram and routing interpretation. STATE-02 at55c045523ed1409449d7eea5b0d873983fe101b6 → STATE-03 atf3e2e37b1454e28c5de4c44682ebd49378ebae4b. 변경은 AGENTS.md와 새 docs/architecture.md, docs/image-contracts.md, docs/testing.md4개뿐이다. 기존 Architecture/CLI Summary는 architecture, Image Contract는 image-contracts, Test의 구성/통합 검증 설명은 testing으로 재배치됐다. Project/로컬 데이터/Build-Run/전체 검증/기존 동작·의존성·범위 제약은 기본 안내에 남았다. 상세 문서의 표·설명·테스트 예와 root Context Routing 안내는 추가/보강됐다. plan/DEMO_MATRIX.md의 STATE-03 보존 대응표와 당시 검증 기록, DEMO-06, BEAT-014–015, CLM-0003/0005/0014/0015, DEC-0055를 따른다. 이번에 새 Trial이나 테스트를 실행하지 않았다.
 
+보존된 상세 출처: STATE-02 → STATE-03 · 실제 문서 재구성의 요약 · 원본 실행 화면 아님
+
 Claim Boundary: 핵심 사실·제약을 유지한 의미상 재구성이지 문자 단위 완전 동일, 모든 내용의 단순 이동, 정보량 불변을 주장하지 않는다. 화살표는 재배치 대응이고 실제 읽기 순서·자동 로딩·필요 문서만 선택·AGENTS.md 단독 인과성·완벽한 Routing을 뜻하지 않는다. Progressive Disclosure는 교육용 정보 설계 패턴이다. 토큰 절약·성능/정확도/속도 향상·현재 Codex Desktop 재현이나 C++ 실행 결과를 주장하지 않는다.
+
+보존된 상세 범위: 핵심 정보 보존·재서술/상세화 포함 · 자동 탐색·성능·토큰 효과는 미검증
 
 Beginner Explanation: 기본 안내는 남겨두고 자세한 규칙을 주제별 문서로 옮겼다. 기존에 중요했던 정보가 어디로 갔는지 A/B/C를 따라 확인할 수 있다.
 
@@ -2533,7 +2721,11 @@ Speaker Flow: 1. (0–1분) A/B 실제 요청 핵심 발췌·번역과 읽기 �
 **Evidence / Source:**
 OBSERVED_PRODUCT setup; outcomes remain on S52–S53. TRIAL-005A/B, DEMO-06, BEAT-015–016, CLM-0003/0005/0014/0015, DEC-0056. plan/DEMO_MATRIX.md의 TRIAL-005A/B 원문 Prompt와 당시 실행 환경 기록을 대조했다. A 원문은 current sample image, --crop 1 3의 source columns/output width/end inclusion, current contract/implementation 근거를 요청한다. B는 runtime requirements를 build/package-only tools와 구분해 판단 근거를 요청한다. 두 원문 모두 read-only/no file changes/evidence 조건을 명시한다. 과거 Codex CLI0.154.0의 별도 임시 clone 실행 기록이며 화면의 나란한 배치는 설명 편의용이다. 새 Trial/동시 Subagent 실행/현재 Desktop 검증이 아니다.
 
+보존된 상세 출처: TRIAL-005A/B · Codex CLI 0.154.0 · 실제 요청의 핵심 발췌·번역
+
 Claim Boundary: 예상 파일 경로, 실제 접근 파일 목록, crop 정답·출력 폭, 의존성 존재 여부, 성공/실패 판정이나 접근 비교 결과를 이 장에서 보여주지 않는다. 문서 배치만으로 완벽한 자동 Routing·지침 준수·관련 문서만 읽음·토큰 절약·성능 개선을 주장하지 않는다. 파일을 열었다는 기록과 최종 답에서 제시한 근거를 구분하며 접근을 곧 활용으로 단정하지 않는다. 재구성 UI는 현재 Codex Desktop/계정 기능의 검증이 아니다.
+
+보존된 상세 범위: 프롬프트창 재구성 · 현재 Desktop 검증 아님 · 문서 접근 결과는 다음 구간에서 확인
 
 Beginner Explanation: 질문의 목적이 달라도 실제로 어떤 자료를 확인했는지는 기록을 봐야 한다. A는 이미지 동작, B는 실행에 필요한 의존성을 묻지만 어느 파일을 읽었는지는 아직 답하지 않는다.
 
@@ -2576,7 +2768,11 @@ Speaker Flow: 1. (0–1분) A 요청의 질문을 짧게 회수한다.
 
 Evidence / Source: TRIAL-005A final-run access/answer table and environment in plan/DEMO_MATRIX.md; BEAT-016, CLM-0014/CLM-0015, DEC-0057. OBSERVED_PRODUCT. STATE-03 docs/image-contracts.md의 half-open crop 명세, src/graypipe/transform.py의 row[x_start : x_end], data/sample.pgm의4열 표본을 읽어 대조했다. 새 실행이나 Trial을 하지 않았다.
 
+보존된 상세 출처: TRIAL-005A 최종 실행 · Codex CLI 0.154.0 · 문서 접근과 답을 요약·재구성
+
 Claim Boundary: 파일을 연 사실, 명세 내용, 기록된 답을 구분한다. 도식의 화살표는 문서 내용과 답의 대조 관계로서 정확한 접근 순서·답의 내부 생성 원인·명세 단독 인과성을 뜻하지 않는다. 최종 CLI 실행의 관찰에 한정하며 완벽한 Routing, 관련 문서만 읽음, 토큰 절약·효율·성능 개선, 현재 Desktop 동작을 주장하지 않는다. testing.md 접근의 반복 간 차이를 보존한다.
+
+보존된 상세 범위: * testing.md는 최종 실행에서 관찰(이전 실행과 다름) · 현재 Desktop 검증 아님
 
 Beginner Explanation: 문서를 열었다는 기록과 그 문서의 명세, 실제 답을 나란히 확인한다. 끝 좌표는 제외하므로 열1과2 두 개가 남는다는 답이 명세와 일치한다.
 
@@ -2618,7 +2814,11 @@ Speaker Flow: 1. (0–1분) S51의 실행 의존성 질문을 회수한다.
 
 Evidence / Source: BEAT-016, TRIAL-005B, STATE-03, CLM-0003, CLM-0005, DEC-0060 / OBSERVED_PRODUCT
 
+보존된 상세 출처: TRIAL-005B 최종 실행 · Codex CLI 0.154.0 · 실제 접근/답변 기록 요약
+
 Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. 기록된 CLI 실행과 최종 반복 결과에 한정한다. TRIAL-005B 최종 읽기 전용 실행. third-party dependency 없음은 런타임 요구사항 자체가 없다는 뜻이 아니다. pip는 문서의 빌드 명령에 쓰였으며 runtime dependency로 바꾸지 않는다.
+
+보존된 상세 범위: 과거 읽기 전용 실행의 재구성 · 새 설치 검사·현재 Desktop 검증 결과가 아님
 
 Beginner Explanation: 결과 주장을 repository 근거와 연결해 본다.
 
@@ -2661,7 +2861,11 @@ Speaker Flow: 1. (0–1분, Demo/CAPTURED) 최종 기록을 요약한 비교표�
 
 Evidence / Source: TRIAL-005A/B final-run access/answer table, repeated-invocation variation and Codex CLI0.154.0 read-only environment in plan/DEMO_MATRIX.md; BEAT-016/017, CLM-0014/0015/0003/0005, DEC-0058. OBSERVED_PRODUCT. 두 요청은 별도 임시 clone에서 실행된 과거 기록이다. 이번 수정에서 새 Trial·테스트·제품 확인을 실행하지 않았다.
 
+보존된 상세 출처: TRIAL-005A/B 최종 실행 · Codex CLI 0.154.0 · 실제 접근 기록의 요약·재구성
+
 Claim Boundary: 기록된 최종 실행의 문서 접근 차이와 넓은 접근, A의 testing.md 접근 변동만 관찰 범위다. 읽음/읽지 않음은 성공/실패 판정이나 파일의 완전한 관련성 분류가 아니다. 파일을 연 사실이 답의 내부 생성 원인·AGENTS.md 단독 인과성·일관된 선택 정책을 입증하지 않는다. 완벽한 Routing·보편 우월성·토큰 절약·성능 개선·현재 Desktop 재현을 주장하지 않는다. 표는 접근 순서나 동시 실행을 표현하지 않는다.
+
+보존된 상세 범위: * testing.md는 A 최종 실행에서 관찰(이전 A와 다름) · 현재 Desktop 검증 아님
 
 Beginner Explanation: 같은 저장소라도 질문에 따라 읽은 상세 정보가 달랐다. 두 열에서 같은 파일과 달랐던 파일을 비교하되 ‘다르게 읽었다’는 기록과 ‘항상 잘 선택한다’는 보장을 구분한다.
 
@@ -2703,7 +2907,11 @@ Opening Question: “무엇을 바꾸었고, 무엇까지 실제로 확인했을
 
 Evidence / Source: STATE-01; TRIAL-003; STATE-02→STATE-03; TRIAL-005A/B; BEAT-009–017; DEC-0060. The four scoped observations remain separate from the teaching recap.
 
+보존된 상세 출처: STATE-01 · TRIAL-003 · STATE-02→03 · TRIAL-005A/B의 개별 관찰 요약
+
 Claim Boundary: FROZEN WITH SCOPE — 개별 State/Trial 관찰과 교육용 성과 정리를 구분한다. 일반적 효율·정확도 개선이나 단독 인과성을 주장하지 않는다. STATE-01, TRIAL-003, STATE-02→03, TRIAL-005A/B의 bounded callback. 새 Demo 시간이나 Trial이 아니다. 네 node의 연결은 교육의 진행 순서이며 관찰들 사이의 인과효과를 입증하는 선이 아니다.
+
+보존된 상세 범위: 개별 관찰의 교육용 정리 · 보편적 정확도/효율 개선·독립적 인과성은 입증하지 않음
 
 Beginner Explanation: Context 작업으로 실제 무엇을 했는지 네 가지로 기억한다.
 
@@ -2749,7 +2957,11 @@ Opening Question: “Project 정보를 잘 정리했으면 문제가 끝난 걸�
 
 Evidence / Source: BEAT-017/018, TRANS-005, TRIAL-006/007, CLM-0003/0005/0014/0006/0029/0030, DEC-0059. plan/DEMO_MATRIX.md의 TRIAL-006 실제 Prompt/Repeated Workflow Elements, TRIAL-007 Task Prompt/결과 요약과 환경 영향 기록을 대조했다. OBSERVED_PRODUCT는 다음 문제의 반복 Prompt 구조에 한정하고, Context/Prompt/Workflow 책임 구분과 이 화면은 TEACHING_MODEL이다. 새 Trial·테스트·제품 확인은 하지 않았다.
 
+보존된 상세 출처: 교육용 요청 재구성 · 다음 ACT에서 TRIAL-006/007의 실제 기록을 비교
+
 Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Context 정리는 ACT 2의 주제이며, 다음 절차 반복 예시는 ACT 3의 질문이다. Trial Prompt만으로 전체 절차의 원인을 귀속하지 않는다. S55의 성과를 반복 해설하지 않고 수행 방법을 누가 유지할지 질문한다. Transition4 뒤 Q&A6은 팀의 반복되는 방법을 묻고 마지막20초에 다음 기록으로 넘어간다. 두 실제 요청의 대응 기록은 S58에 남겨 역할을 나눈다.
+
+보존된 상세 범위: Context 선택 완전 해결 미입증 · 다음 예시도 Prompt 단독 효과로 귀속하지 않음
 
 Beginner Explanation: 명세·구조·테스트 안내를 어디서 찾을지 알려두는 것과, 어떤 순서로 조사하고 확인할지 요청하는 것은 책임이 다르다. 현재 목표가 달라도 같은 작업 방법을 다시 적는 부분을 살핀다.
 
@@ -2856,7 +3068,11 @@ Speaker Flow:
 
 Evidence / Source: TRIAL-006 Actual Prompt and Repeated Workflow Elements; TRIAL-007 retained Task Prompt summary / plan/DEMO_MATRIX.md; DEC-0017, DEC-0060. A is translated excerpt; B is translated retained summary, not verbatim full prompt. Functional images are approved AI-generated teaching illustrations. No new execution.
 
+보존된 상세 출처: TRIAL-006 실제 Prompt 발췌·번역 / TRIAL-007 보존된 Task Prompt 요약 · 그림은 설명용 삽화
+
 Claim Boundary: 유사한 절차가 관찰됐지만 Prompt만의 효과로 귀속하지 않는다. 개별 성능 결과는 해당 코드·입력·환경에 한정한다. 그림은 기능 설명용 개념 예시이며 Trial의 입력·출력 파일이나 최적화 전후 결과가 아니다. DEC-0062는 기존 관찰·측정 조건과 효과 미입증 경계를 유지한다.
+
+보존된 상세 범위: Global Harness 영향으로 Prompt-only attribution은 PARTIAL · 성능 전후 그림·현재 제품 화면 아님
 
 Beginner Explanation: 서로 다른 작업에서도 조사하고 확인하는 순서가 반복될 수 있다.
 
@@ -2901,7 +3117,11 @@ Opening Question: “같은 테스트 명령을 변경 전과 변경 후에 실�
 
 Evidence / Source: BEAT-019; plan/DEMO_MATRIX.md의 TRIAL-006/007 반복 요청과 보존 조건; DEC-0062, DEC-0063. TEACHING_MODEL / CONCEPTUAL. normalize는 기존 기능 예시이며 화면은 해당 Trial의 정확한 실행 순서나 AGENTS.md 원문을 재현한 것이 아니다.
 
+보존된 상세 출처: 교육용 수행 예시 · TRIAL-006/007의 반복 요청을 바탕으로 구성
+
 Claim Boundary: 기존 TEACHING_MODEL / CONCEPTUAL 범위를 유지한다. 실제 PASS/FAIL·수치·Agent 실행 trace를 제시하지 않는다. Context와 절차는 배타적인 파일 분류가 아니며 AGENTS.md에도 방법을 기록할 수 있다. 테스트 성공만으로 명세 전체 충족을 증명하거나 Skill 필수성·우월성·토큰 절감·Harness 단독 효과를 주장하지 않는다. 제품 기능이나 현재 Desktop 동작의 검증 근거로 사용하지 않는다.
+
+보존된 상세 범위: 실제 실행 순서·결과의 재현 아님 · 이 방법도 AGENTS.md에 기록할 수 있음
 
 Beginner Explanation: 같은 테스트 명령을 실행해도 변경 전에는 원래 상태를, 변경 후에는 내 변경의 영향을 확인한다. 언제 실행하고 무엇을 확인할지도 요청이나 재사용할 방법에 적는다.
 
@@ -2946,7 +3166,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-019; plan/DEMO_MATRIX.md의 TRIAL-006/007 목표·보존 조건·반복 요청; DEC-0062, DEC-0063, DEC-0064. TEACHING_MODEL / CONCEPTUAL. 실제 요청을 그대로 실행한 기록이나 새로운 normalize Trial이 아니다.
 
+보존된 상세 출처: 교육용 적용 예 · TRIAL-006/007의 목표·보존 조건·반복 방법을 한 작업에 연결
+
 Claim Boundary: 목표·기준·수행 방법의 관계는 교육용 모델이며 제품의 공식 분류나 Harness 전체 정의가 아니다. 테두리는 수행 의무를 설명하며 기술적 강제 장치·준수 보장이나 명세 충족의 증명이 아니다. 세 책임은 같은 문서에도 담을 수 있다. 새 실행 결과, 성능 수치, Skill 필수성·우월성, 토큰 절감, Harness 단독 효과, 현재 Desktop 재현을 주장하지 않는다. 기존 실제 Trial의 관찰·귀속 한계를 유지한다.
+
+보존된 상세 범위: 관계 설명용 도식 · 실제 실행 기록이나 제품의 공식 분류가 아님
 
 Beginner Explanation: 무엇을 할지 정해도 기존 동작과 명세는 지켜야 한다. 그 범위 안에서 이미 정한 조사·확인 방법을 적용하는 것이 화면 중앙의 한 작업이다.
 
@@ -2991,7 +3215,11 @@ Speaker Flow:
 
 Evidence / Source: DEC-0017; BEAT-020/021; plan/DEMO_MATRIX.md의 TRIAL-006/007 반복 요청과 TRIAL-008 연결; STATE-04의 .agents/skills/graypipe-performance/SKILL.md. 왼쪽 요청은 실제 Prompt 전문이 아닌 교육용 요약이고 오른쪽 절차도 요약이다. 실제 발견·호출 근거는 S62에서 확인한다.
 
+보존된 상세 출처: DEC-0017 · 프로젝트 Skill을 선택한 설계 의도 · 왼쪽 요청은 교육용 요약
+
 Claim Boundary: TEACHING_MODEL / REQUIRES PRODUCT CHECK를 유지한다. 설계 선택은 ACCEPTED지만 이 화면은 실제 UI·실행 trace·성공 결과나 현재 Desktop 가용성 검증이 아니다. 같은 Skill을 두 작업이 자동 호출했거나 반드시 준수했다고 주장하지 않는다. Skill 우월성·토큰 절감·속도 향상·Harness 단독 인과성을 입증하지 않는다. AGENTS.md에도 절차를 기록할 수 있으며 모든 작업에 같은 Skill이 필수라는 뜻이 아니다.
+
+보존된 상세 범위: 설계 선택이며 성공 증명 아님 · 현재 제품 표면·계정·호출 경로는 별도 확인
 
 Beginner Explanation: 작업마다 원하는 일과 범위는 다시 정하되, 필요한 공통 방법은 같은 문서에서 가져다 쓰도록 설계한다. 절차를 고칠 때도 공통 출처 한 곳에서 검토하려는 것이다.
 
@@ -3037,7 +3265,11 @@ Speaker Flow:
 
 Evidence / Source: plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt, Skill Discovery, Skill Invocation, Skill Load Evidence; DEC-0017; BEAT-021. 보존 세션 01a0f22c-e6a8-7e50-a4e1-4a581d62266c의 성공한 요청과 <skill> 본문을 재대조했다. /skills는 이름과 설명 일부만 표시했고 경로는 trace에서 확인됐다. 원본의 절대 경로는 해당 disposable workspace이며 화면에는 .agents/skills/graypipe-performance/SKILL.md로 줄였다. 전체 본문은 STATE-04의 SKILL.md와 대조했다.
 
+보존된 상세 출처: TRIAL-008 · Codex CLI 0.154.0 · 기록 발췌·번역·재구성 (실제 UI 캡처 아님)
+
 Claim Boundary: OBSERVED_PRODUCT / FROZEN WITH SCOPE / REQUIRES PRODUCT CHECK를 유지한다. 이 화면은 실제 UI 캡처나 새 실행이 아닌 기록의 발췌·번역·재구성이다. 성공한 실행은 Codex CLI0.154.0, gpt-5.6-sol high이며 앞선 계정의 gpt-6.1-sol 거절과 구분한다. 별도 load UI 이벤트, 암묵 호출, 현재 Desktop 동작, 모든 지침 준수·Skill 단독 효과·우월성·토큰 절감은 입증하지 않는다. Global Harness의 동시 영향도 배제하지 않는다.
+
+보존된 상세 범위: 별도 load 이벤트 없음 · 지침 준수의 보장은 아님 · 현재 Desktop·암묵 호출 미검증
 
 Beginner Explanation: 목록에서 찾은 이름을 이번 요청에 직접 적었다. 이후 실행 기록에 그 Skill의 이름뿐 아니라 경로와 전체 지침이 함께 들어왔는지를 확인했다.
 
@@ -3084,7 +3316,11 @@ Speaker Flow:
 
 Evidence / Source: plan/DEMO_MATRIX.md의 TRIAL-008 Baseline, Plan, Implementation, Verification 및 Prompt Responsibility Shift; STATE-04의 .agents/skills/graypipe-performance/SKILL.md; DEC-0017; BEAT-021. 보존 세션01a0f22c-e6a8-7e50-a4e1-4a581d62266c의20행 요청,22행 전체Skill본문,53/59행 기준선 명령·출력,80행 변경 전 메시지,81행 patch,90/96행 동일benchmark재실행·함수테스트,104/109행 전체테스트·CLI·최종diff를 대조했다. 원문 계획 지침은 “State a concise plan before making edits when the task or working interface calls for a visible plan.”이다. 원문 검증에는 같은 입력·설정·correctness guards, 관련 smoke 확인, diff검토가 포함된다. 실제 측정 명령은 PYTHONPATH=src python3 benchmarks/benchmark_statistics.py이며, 테스트 명령은 PYTHONPATH=src python3 -m unittest discover -s tests -p 'test_statistics.py' -v 및 PYTHONPATH=src python3 -m unittest discover -s tests -v이다.
 
+보존된 상세 출처: TRIAL-008 · Codex CLI 0.154.0 · Skill 번역 요약 + 작업 기록 재구성 (실제 캡처 아님)
+
 Claim Boundary: OBSERVED_PRODUCT / FROZEN WITH SCOPE / REQUIRES PRODUCT CHECK를 유지한다. Codex CLI0.154.0의 성공한 TRIAL-008 기록이며 현재 Desktop 재현 결과가 아니다. 한글은 원문 지침·작업 기록의 번역 요약이고 실제 UI·로그 캡처가 아니다. 3회는 관찰된 횟수,1/1·11/11은 이 Trial의 테스트 결과다. 전체 지침 준수·Skill 단독 인과성·Prompt 대비 우월성·토큰 절감·Skill에 의한 속도 향상을 주장하지 않는다. Global Harness의 동시 영향은 배제하지 않았다. 새 Trial이나 실행 검증은 하지 않았다.
+
+보존된 상세 범위: 관찰된 대응 · 전체 지침 준수·Skill 단독 인과성·우월성·토큰/속도 효과는 입증하지 않음
 
 Beginner Explanation: 지침을 받았다는 것은 요청서가 전달됐다는 뜻이다. 실제로 수행했는지는 측정 출력, 변경 전 설명, 변경 내용과 테스트 결과 같은 작업 흔적에서 확인한다.
 
@@ -3136,8 +3372,12 @@ Codex의 $skill-creator에 반복할 작업과 사용 조건을 대화로 설명
 **Evidence / Source:**
 SRC-0111 / CLM-0041; https://learn.chatgpt.com/docs/build-skills; 2026-10-25 재확인; DEC-0093. 명시 호출과 초안 제작 안내를 바탕으로 각색한 요청·문서 도식이다.
 
+보존된 상세 출처: OpenAI Build skills · 2026-10-25 확인 · 요청과 생성 문서의 교육용 도식
+
 **Claim Boundary:**
 DOCUMENTED GUIDANCE / TEACHING_MODEL / REQUIRES PRODUCT CHECK — 공식 제작 경로를 설명한 교육용 예시다. TRIAL-008의 Skill을 이 방식으로 만든 이력이 아니고, 현재 계정에서 생성·호출·동작을 시험한 결과도 아니다. 자연어만으로 제작 도우미가 반드시 자동 호출되거나 생성만으로 좋은 지침이 된다고 보장하지 않는다.
+
+보존된 상세 범위: 현재 제품 활용 팁 · TRIAL-008의 제작 이력이 아님 · 생성 뒤 사용 조건·지침을 검토하고 실제 요청으로 확인
 
 **Beginner Explanation:**
 Skill 파일의 문법부터 직접 외울 필요 없이 Codex에 원하는 작업 방법을 설명해 제작을 시작할 수 있다.
@@ -3190,7 +3430,11 @@ Opening Question: “앞 장에서 확인한 것 중, 다음 작업에도 쓸 �
 
 Evidence / Source: STATE-04의 .agents/skills/graypipe-performance/SKILL.md, DEC-0017, BEAT-022, TRIAL-008 및 plan/DEMO_MATRIX.md. 왼쪽은 Procedure2의 “Establish a reproducible baseline before editing.”, Procedure6의 동일 입력·설정 검증·재측정, Procedure7과 Report의 근거·trade-off·한계 보고를 번역 요약했다. 아래 분기는 Procedure5의 “A measured result that does not justify a change is a valid no-change conclusion.”을 따른다. 원문에 특정 구현, image_statistics, benchmark_statistics.py, macOS/Python 조건이나 Trial의 측정 수치를 고정 답으로 넣지 않았음을 읽기 전용으로 대조했다.
 
+보존된 상세 출처: STATE-04 SKILL.md 번역 요약 + 교육용 질문·판단 경로 · 새 실행 결과가 아님
+
 Claim Boundary: OBSERVED_PRODUCT / TEACHING_MODEL과 기존 Claim Status를 유지한다. 실제 Skill의 내용은 관찰 근거이고, 적용선·질문·채택/보류 분기는 교육용 책임 구분이다. no-change는 허용된 결론이며 TRIAL-008의 최종 관찰 결과가 아니다. 절차 전체·실제 실행 순서·반복 실험의 재현이 아니며 현재 Desktop이나 모든 Skill의 설계를 일반화하지 않는다. Skill의 우월성·독립적 인과성·토큰 절감·성능 효과를 추가 주장하지 않는다.
+
+보존된 상세 범위: 특정 구현·Trial 수치를 미리 넣지 않았음 · 보류는 허용된 경로이며 TRIAL-008의 관찰 결과 아님
 
 Beginner Explanation: 다음 작업에도 같은 측정·검증 방법을 사용할 수 있다. 어떤 구현이 나은지, 실제 수치가 얼마인지는 이번 입력과 실행 기록을 보고 답한다. 변경하지 않기로 하는 결론도 근거가 있으면 유효하다.
 
@@ -3236,7 +3480,11 @@ Speaker Flow:
 
 Evidence / Source: `plan/DEMO_MATRIX.md` TRIAL-008 Investigation, Plan, Decision, Implementation, Verification 및 `plan/CLAIM_FREEZE.md`의 정성 후보 비교 범위. 대상은 image_statistics, deterministic synthetic 1024×768 (786,432 pixels, max255), CPython3.9.6 / macOS26.6.2 arm64. 보존한 여섯 결과는 width, height, pixel_count, minimum, maximum, mean이다. 원자료의 기존 flattening, row reductions, manual Python single pass 비교와 구현 내용을 요약했다. 정확한 후보 수치와 원기록은 원자료에 보존한다.
 
+보존된 상세 출처: TRIAL-008 기록 요약·구현 도식 · 합성1024×768 · CPython3.9.6 / macOS arm64
+
 Claim Boundary: S66에는 정확한 후보 수치를 표시하지 않는다. ‘더 느림/더 빠름’은 화면의 두 변경 후보 사이 비교이고 ‘기존보다 낮은 임시 메모리’는 기존 평탄화 구현 대비 traced Python allocation peak다. 임시 공간 도식은 리스트 구조 재구성이며 실제 이미지·값·측정 캡처가 아니다. 할당 피크를 RSS나 시스템 전체 메모리로 일반화하지 않는다. TRIAL-008 후보 비교를 S67의 formal STATE-04/STATE-04-PERF 측정과 섞지 않는다. Skill 단독 인과성·알고리즘 제공·현재 Desktop 재현·일반 성능 보장은 주장하지 않는다.
+
+보존된 상세 범위: 임시 메모리: Python 할당 피크 · 다음 장의 제품 상태 측정과 별개 · Skill 단독 효과 미입증
 
 Beginner Explanation: 같은 통계를 구해도 계산 중에 큰 임시 리스트를 만들 수 있다. 이 리스트 없이 계산한 두 방법 모두 결과와 메모리를 확인했고, 두 방법의 실행시간도 비교해서 골랐다.
 
@@ -3282,7 +3530,11 @@ Speaker Flow:
 
 Evidence / Source: `plan/DEMO_MATRIX.md` STEP07 §§191–200, STATE-04 → STATE-04-PERF; `plan/CLAIM_FREEZE.md` §8; DEC-0019. Baseline 822f1c12c5f602d934a2fd29e48f05bf498b4bfa, result 6153b81c0187dd7d82c88bd1817fb683c98eb431. image_statistics, deterministic synthetic1024×768, 786,432pixels, max255, CPython3.9.6/macOS26.6.2 arm64. Same input fingerprint, seven one-call samples per state. Median15.468→10.769ms/call, separate tracemalloc peak6,675,804→380bytes. Six fields(width, height, pixel_count, minimum, maximum, mean), focused1/1, full11/11, CLI smoke PASS. CLI checked crop2×3, six pixels, min51/max255/mean136.0 and matching PGM output. TRIAL-008 supplies candidate history, not these formal-state samples.
 
+보존된 상세 출처: STATE-04 → STATE-04-PERF · 동일 합성1024×768 · CPython3.9.6 / macOS arm64
+
 Claim Boundary: 원자료의 수치·단위·기준을 그대로 사용한다. 모든 관찰은 이 입력·코드 경로·host·runtime·측정 조건에 한정한다. tracemalloc은 Python allocation peak이며 RSS나 전체 메모리가 아니다. 검사 통과는 기록된 범위의 동작 확인이다. Harness/Skill 단독 인과성·현재 Desktop 재현·새 Trial·일반 성능 보장은 주장하지 않는다.
+
+보존된 상세 범위: 이 입력·환경의 코드 변경 결과 · Python 할당 피크는 RSS 아님 · Harness/Skill 단독 효과 미입증
 
 Beginner Explanation: 바뀐 코드가 빨라졌는지만 보지 않았다. 같은 입력에서 걸린 시간, 계산 중 임시로 할당한 메모리, 같은 답과 테스트 결과를 함께 확인했다.
 
@@ -3328,7 +3580,11 @@ Speaker Flow:
 
 Evidence / Source: CONCEPTUAL / TEACHING_MODEL — 기존 C++ 성능 경로·빌드 환경·테스트 구조의 독립 조사 가정, BEAT-023–025 / INV-MATURITY-007, plan/DEMO_ARCHITECTURE.md와 plan/DEMO_MATRIX.md의 DEMO-07, DEC-0062/0071. DEC-0018의 실제 추가하지 않음 판단은 S70에 유지한다. 새 Subagent 실행이나 비교 실험은 없다.; DEC-0080.
 
+보존된 상세 출처: CONCEPTUAL · C++ 검사 프로젝트의 독립 조사 가정 · 실제 Subagent 실행 아님
+
 Claim Boundary: CONCEPTUAL CASE / TEACHING MODEL — 기존 C++ 역할 분리 가정을 먼저 설명한다. 실제 Subagent 실행·이득·현재 제품 기능의 관찰이 아니다. 연결선은 교육용 역할·결과 전달 관계이며 실제 동시 실행 trace나 속도 비교가 아니다. 별도 Context를 쓰더라도 공유할 명세·기준은 필요하며 무조건 적은 정보를 주라는 뜻이 아니다.
+
+보존된 상세 범위: 역할별로 필요한 정보 분리 · 조정·중복·전달·통합 비용 존재 · 시간·품질 이득 미측정
 
 Beginner Explanation: 한 사람이 조사하고 정리할 일을 나눠 맡기는 구조로 읽는다. Subagent는 맡은 범위를 조사해 근거를 돌려주고, 처음 분담한 주 Agent가 다시 확인하고 합친다. 화면 위·아래의 주 Agent는 같은 역할이다.
 
@@ -3380,8 +3636,12 @@ Codex에 역할·사용 조건·보고 범위를 설명해 프로젝트용 Custo
 **Evidence / Source:**
 SRC-0112 / CLM-0042; https://learn.chatgpt.com/docs/agent-configuration/subagents; 2026-10-25 재확인; DEC-0093. 공식 Custom agents의 프로젝트 .codex/agents/*.toml 및 name/description/developer_instructions와 명시적 분담 요청을 바탕으로 각색했다.
 
+보존된 상세 출처: OpenAI Subagents · 2026-10-25 확인 · Custom Agent 설정·사용 요청의 교육용 도식
+
 **Claim Boundary:**
 DOCUMENTED GUIDANCE / TEACHING_MODEL / REQUIRES PRODUCT CHECK — Codex Custom Agent 설정/사용 요청의 교육용 예시이며 실제 생성·로딩·분담 실행·성능 이득을 시험한 결과가 아니다. 별도의 agent-creator Skill이 존재한다고 말하지 않는다. 코드 수정 금지는 역할 지침이며 독립적인 읽기 전용 권한을 만드는 설정이 아니다. 기존 Demo의 NOT JUSTIFIED YET 판단은 유지한다.
+
+보존된 상세 범위: 일회성 분담은 요청만으로 가능 · 반복 역할은 설정으로 재사용 · 실제 생성·실행 결과가 아니며 대상 환경에서 확인
 
 **Beginner Explanation:**
 어떤 조사를 언제 맡기고 무엇을 받으려는지 Codex에 설명하면 재사용할 역할 설정부터 작성하도록 요청할 수 있다.
@@ -3436,7 +3696,11 @@ Speaker Flow:
 
 Evidence / Source: DEC-0018의 STATE-04 저장소/후보 A·B·C 복잡도 감사, plan/DEMO_MATRIX.md STEP07 §§171–190 및 §§191–200의 작은 연결 작업과 no-Subagent 기록, BEAT-023–025, DEC-0062/0072. 조사·후보 선택은 TRIAL-008과 formal STATE-04→STATE-04-PERF 기록을 앞뒤 의존관계로 재구성했다. DEC-0018은 앞선 STATE-04 판단이고 후속 제품 변경 기록은 그 선택을 유지한 사례다. 실제 Subagent 실행 결과는 없다.
 
+보존된 상세 출처: DEC-0018 · 실제 작업의 판단을 재구성 · Subagent 실행 없음
+
 Claim Boundary: FROZEN WITH SCOPE / TEACHING MODEL — DEC-0018 현재 Task 감사의 판단이며 실제 Subagent Trial이 아니다. 일반적 불필요성이나 기능 부재를 주장하지 않는다. 도식은 보존된 실제 작업의 의존관계 요약이며 raw trace·시각·동일 세션의 캡처가 아니다. 의존 단계에도 역할을 나누는 설계는 가능하지만 이 범위에서는 별도 조사·Context 분리 이득이 충분히 입증되지 않았다는 판단이다. 시간·품질·토큰 절감 비교를 새로 주장하지 않는다.
+
+보존된 상세 범위: 이 작업의 판단 · 역할 분리의 시간·품질 이득은 비교 실험하지 않음
 
 Beginner Explanation: 무엇을 고칠지 조사한 결과가 있어야 변경을 고르고, 바뀐 코드가 있어야 그 결과를 검사할 수 있다. 같은 좁은 범위의 자료를 계속 보는 이 작업에서는 한 Agent가 이어서 맡았다. Agent 수가 많아야 완성된 작업 환경이 되는 것은 아니다.
 
@@ -3482,7 +3746,11 @@ Opening Question: “이번 작업에서 확인한 내용 중, 다음 작업에�
 
 Evidence / Source: CONCEPTUAL / TEACHING_MODEL — plan/MASTER_PLAN.md §5.6, plan/INVARIANTS.md INV-MATURITY-008, BEAT-026–028, DEC-0062/0073. plan/DEMO_MATRIX.md STEP07 §§181–190의 Context/유지 지식/문서/Trial 기록 구분과 no-qualifying-candidate 경계를 따른다. 재현 조건과 다음 작업은 교육용 가정이며 실제 재발견·Memory 저장/회수 기록이 아니다. 실제 현재 출처 감사와 별도 후보 없음의 결론은 S72에 유지한다.; DEC-0080.
 
+보존된 상세 출처: CONCEPTUAL · 재현 조건을 다음 작업에도 쓴다는 가정 · 실제 Memory 사용 아님
+
 Claim Boundary: CONCEPTUAL CASE / TEACHING MODEL — 작업 간 지식 관리 가정이다. 현재 Demo에 Memory를 추가했거나 제품이 자동 기억·회수한다는 주장이 아니다. 구체적인 오류·입력·명령·개선 수치를 새로 만들지 않는다. Context와 보존 지식은 질문·수명·관리 목적이 다르며 서로 배타적인 정보 종류가 아니다. 유지한 지식도 다음 작업의 Context가 될 수 있다. 반복 조사 부담 감소는 설계 목적이며 측정 성과가 아니다.
+
+보존된 상세 범위: 이미 문서에 있으면 그 출처를 참조 · 제품의 자동 저장·회수를 확인한 사례가 아님
 
 Beginner Explanation: 이번 Context는 지금 일을 하려고 참고하는 자료다. 그 안에서 확인한 재현 조건처럼 다음에도 쓸 내용을 출처와 함께 남길지 판단한다. 다음 작업에서 쓰기 전에도 현재 명세에 맞는지 확인한다. 지금 보는 모든 정보가 일회성이거나 모두 저장해야 한다는 뜻은 아니다.
 
@@ -3529,7 +3797,11 @@ Speaker Flow:
 
 Evidence / Source: DEC-0018 / plan/DEMO_MATRIX.md STEP07 §§181–190 Trial History Audit, Rediscovery/Durable Knowledge Candidates, Documentation Instead 및 Memory Gate; BEAT-026–028; DEC-0062/0074. STATE-04-PERF의 src/graypipe/transform.py, docs/image-contracts.md, docs/architecture.md, .agents/skills/graypipe-performance/SKILL.md를 읽기 전용으로 대조했다. 원기록·날짜·입력/환경과 제품 Git 상태를 유지하며 새 Trial·Memory 인스턴스는 없다.
 
+보존된 상세 출처: DEC-0018 · 기존 Demo 지식 출처 감사 요약 · 제품 Memory 사용 기록 아님
+
 Claim Boundary: FROZEN WITH SCOPE / TEACHING MODEL — DEC-0018 현재 Demo의 지식 감사와 보존 기준이다. 제품 Memory의 범위·효과나 일반적 불필요성을 주장하지 않는다. 네 출처 도식은 보존된 감사 결과의 재구성이며 실제 접근 순서·검색 trace·Memory 실행 캡처가 아니다. 파일에 정보가 있다는 사실만으로 모든 작업에서 쉽게 찾거나 항상 충분하다고 일반화하지 않는다. 현재 감사에서 별도 후보를 찾지 못했다는 범위로 한정한다.
+
+보존된 상세 범위: 이 Demo에서 별도 후보를 찾지 못한 판단 · Memory의 일반적 불필요성을 주장하지 않음
 
 Beginner Explanation: 동작은 코드·명세에서, 구조는 문서에서, 수행 방법은 Skill에서, 한 번의 측정은 날짜가 있는 기록에서 먼저 확인한다. 이 Demo에서는 필요한 내용이 이미 그 출처들에 있었고, 따로 보존할 후보를 찾지 못해 Memory를 추가하지 않았다.
 
@@ -3574,7 +3846,11 @@ Speaker Flow:
 
 Evidence / Source: STATE-00 → STATE-04-PERF; plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt, Current Harness 및 §§191–200 Working Harness Success; DEC-0018/0062/0075; INV-VERIFY-001; DEMO-09. OBSERVED_PRODUCT / TEACHING_MODEL. STATE-04-PERF의 AGENTS.md, docs/, .agents/skills/graypipe-performance/SKILL.md, tests/test_statistics.py, benchmarks/benchmark_statistics.py를 읽기 전용으로 대조한다. 과거 Codex CLI 0.154.0 기록이며 현재 Desktop 실행 검증이 아니다.; DEC-0080.
 
+보존된 상세 출처: STATE-04-PERF · 실제 구성·작업 기록 요약 · 도식 재구성
+
 Claim Boundary: FROZEN WITH SCOPE / TEACHING MODEL — 실제 밝기 통계 작업에서 사용한 구성과 책임의 요약이다. 연결선은 자료·방법·확인 근거의 관계이며 실제 실행 순서·자동 routing trace·고정된 Agent 동작을 입증하지 않는다. TRIAL-008 후보와 정식 STATE-04-PERF의 재검증을 혼동하지 않는다. Skill 또는 Harness가 성능 개선의 단독 원인이라는 주장, Prompt 대비 우월성, 토큰 절감, 보편적 최소 구성 및 현재 Desktop 동작 보장은 없다.
+
+보존된 상세 범위: Subagent·별도 Memory는 추가하지 않음 · 각 요소의 단독 성능 효과는 입증하지 않음
 
 Beginner Explanation: 목표는 무엇을 바꾸고 무엇을 지킬지, Context는 어떤 명세와 자료를 볼지, Skill은 어떤 방법으로 수행할지를 알려준다. 테스트와 benchmark는 변경이 조건을 지켰는지·측정이 어땠는지 판단할 근거를 준다. 이 입력들을 같은 밝기 통계 작업에 함께 적용했다.
 
@@ -3622,7 +3898,11 @@ Opening Question: “S73의 구성에 실행·검증 환경까지 함께 연결�
 
 Evidence / Source: DEC-0023의 이 과정 Harness 운영 정의; BEAT-035/036; STATE-04-PERF; DEC-0062/0075/0076; DEMO-09. OBSERVED_PRODUCT / TEACHING_MODEL. plan/DEMO_MATRIX.md의 Current Harness 및 §§191–200 Working Harness Success, S73의 실제 구성 대응을 사용한다. AGENTS.md·상세 문서·repository Skill·테스트·benchmark는 보존된 실제 근거이며 환경 전체의 완전한 감사 증거는 아니다.; DEC-0080.
 
+보존된 상세 출처: 교육용 Harness 모델 · 사례 대응: AGENTS.md · docs · Skill · tests · benchmark
+
 Claim Boundary: TEACHING_MODEL — 과정의 operational definition이며 공식 OpenAI 정의나 보편적 산업 분류가 아니다. 실제 구성 대응은 STATE-04-PERF까지의 기록 범위로 한정한다. 연결선과 환경 프레임은 교육용 관계 재구성이며 자동 routing·고정된 호출 순서·실제 실행 trace가 아니다. 모든 환경 조건의 감사, 각 구성 요소의 단독 성능 인과성, Skill/Prompt 우열, 토큰 절감, 현재 Desktop 기능 보장을 주장하지 않는다. OBSERVED_PRODUCT 구성과 TEACHING_MODEL 정의를 구분하고 Subagent·별도 Memory 미추가의 기존 선택을 유지한다.
+
+보존된 상세 범위: 공식 정의·필수 목록이 아님 · 모든 실행 조건의 감사·각 요소의 단독 성능 효과는 미입증
 
 Beginner Explanation: 이번 목표, 프로젝트 정보, 일하는 방법을 Agent에 연결하고, 도구로 확인한 결과를 사람이 검토한다. 이 일이 실행될 저장소·입력·권한·실행 조건도 함께 준비한다. 이 과정은 그 전체 작업 환경과 방법을 Harness로 설명한다.
 
@@ -3676,8 +3956,12 @@ Lecture 2분
 **Evidence / Source:**
 사용자 승인 / DEC-0091; DEC-0023의 Harness 운영 모델. OpenAI 공식 Build skills https://learn.chatgpt.com/docs/build-skills 및 Plugin architecture https://developers.openai.com/plugins/concepts/plugins (2026-10-25 확인). 공식 자료는 반복 수행 방법의 패키징·공유를 뒷받침한다. Harness 전체의 이식 구조는 이 교육의 설계 모델이다.
 
+보존된 상세 출처: 교육용 재사용 설계 예 · 조사·검증 방법과 도구 연결 방식을 축적
+
 **Claim Boundary:**
 TEACHING MODEL — 재사용의 설계 가치다. 다른 프로젝트에서 실행·검증한 Demo나 시간·성능 개선 성과가 아니다.
+
+보존된 상세 범위: 다른 프로젝트로 옮겨 실행한 Demo는 아님 · 프로젝트별 적용 조건은 다음 장에서 연결
 
 **Beginner Explanation:**
 한 번 정리한 일하는 방법을 다음 프로젝트에서 출발점으로 삼을 수 있다.
@@ -3737,8 +4021,12 @@ Lecture 2분
 **Evidence / Source:**
 사용자 승인 / DEC-0091; DEC-0023의 Harness 운영 모델. OpenAI 공식 Build skills https://learn.chatgpt.com/docs/build-skills 및 Plugin architecture https://developers.openai.com/plugins/concepts/plugins (2026-10-25 확인). 공식 자료는 반복 수행 방법의 패키징·공유를 뒷받침한다. Harness 전체의 이식 구조는 이 교육의 설계 모델이다.
 
+보존된 상세 출처: 교육용 Harness 적용 모델 · 공통 수행 틀 + 프로젝트별 기준
+
 **Claim Boundary:**
 TEACHING MODEL — 공통 틀과 프로젝트별 조건을 나누는 설계다. 전체 Harness를 그대로 복사하면 작동한다는 보장·이식 성공·절감 측정은 없다.
+
+보존된 상세 범위: 전체 구성을 그대로 복사해도 작동한다는 보장이 아님 · 이식 결과·시간 절감은 미측정
 
 **Beginner Explanation:**
 방법은 가져오되 프로젝트의 사실과 사용할 명령은 다시 연결한다.
@@ -3798,8 +4086,12 @@ Lecture 2분
 **Evidence / Source:**
 plan/MASTER_PLAN.md §§5.7–5.9; plan/DEMO_MATRIX.md STATE-04-PERF의 검증 결과; DEC-0092. 실제 Product endpoint의 성공을 보존한다. 과거 TRIAL-001의 권한 오류는 S09과 원기록에 유지하며 새 보정 시나리오의 원인으로 사용하지 않는다.
 
+보존된 상세 출처: OBSERVED_PRODUCT · STATE-04-PERF의 성공 회수 / 오른쪽은 다음 작업에 대한 질문
+
 **Claim Boundary:**
 FROZEN WITH SCOPE / TEACHING MODEL — STATE-04-PERF의 성공 범위만 회수한다. 오른쪽 다음 작업은 질문이며 실제 후속 실패·반복 보정·새 Product State가 아니다.
+
+보존된 상세 범위: 기록된 코드·입력·환경에서 확인한 결과 · 이후 모든 작업의 성공이나 실패를 관찰한 것은 아님
 
 **Beginner Explanation:**
 작동하는 기반을 만들었어도, 다음 작업에서 새로 확인할 점은 생길 수 있다.
@@ -3858,8 +4150,12 @@ Lecture 2분
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 교육용 상황 · 실제 밝기 통계의 실패나 검토 누락 이력이 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
+
+보존된 상세 범위: 앞의 실제 성공과 별개의 가정 · 새 실행·검토 결과 없음
 
 **Beginner Explanation:**
 첫 결과가 나와도 완료 기준의 미충족 항목이 남을 수 있다는 가상 상황을 연다.
@@ -3918,8 +4214,12 @@ Lecture 2분
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 교육용 요청 예 · 같은 작업의 검토·수정을 사람이 연결하는 가정
+
 **Claim Boundary:**
 CONCEPTUAL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
+
+보존된 상세 범위: 실제 비교 실험·반복 횟수·시간·토큰·실패를 관찰한 결과가 아님
 
 **Beginner Explanation:**
 같은 목표 안에서 검토·수정·재확인을 사람이 매번 다시 요청하는 상황을 설명한다.
@@ -3978,8 +4278,12 @@ Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정�
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 교육용 운영 설계 · Harness의 방법·도구를 반복 수행에 사용
+
 **Claim Boundary:**
 CONCEPTUAL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
+
+보존된 상세 범위: Harness에 원래 피드백이 없다는 뜻이 아님 · 자동 실행 제품 기능을 검증한 자료가 아님
 
 **Beginner Explanation:**
 Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정으로 돌리는 제어가 필요하다.
@@ -4038,8 +4342,12 @@ Lecture 2분
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: TEACHING_MODEL · 실제 새 기록 파일·Memory를 생성한 결과가 아님
+
 **Claim Boundary:**
 TEACHING_MODEL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
+
+보존된 상세 범위: 기존 지식의 출처는 유지 · 별도 Memory 시스템이나 새 도구를 필수로 요구하지 않음
 
 **Beginner Explanation:**
 목표·완료 기준, 현재 변경·검사 기록, 남은 검토 지적을 다음 수정에 전달한다.
@@ -4099,8 +4407,12 @@ Reflection 3분 + Q&A 5분 + Transition 2분
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 개인 성찰 · 기록·제출·공유는 선택 · 새 Trial 없음
+
 **Claim Boundary:**
 TEACHING_MODEL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
+
+보존된 상세 범위: 다음 ACT는 같은 목표의 구현·검토·수정 반복을 다룸 · 완전자율 성공을 보장하지 않음
 
 **Beginner Explanation:**
 내 업무의 검토·수정·완료 판단 중 반복해서 연결하는 요청을 생각하고 ACT4 수행 루프로 넘긴다.
@@ -4218,8 +4530,12 @@ Lecture 2분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-073; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 후보·지적·수정은 설명용 설계 · 실제 실행·측정·PASS/FAIL 결과 없음
 
 **Beginner Explanation:**
 한 목표를 마치는 동안 사람이 검토·수정·재확인의 다음 요청을 계속 연결하는 문제를 드러낸다.
@@ -4278,8 +4594,12 @@ Lecture 2분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-074; CASE-LOOP-01; existing six-field specification in DEMO_MATRIX. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 할당량 목표·실행시간 상한·대표 입력은 실행 전에 확정 · 현재 수치는 TBD
 
 **Beginner Explanation:**
 밝기 통계의 출력·동작, 임시 할당, 실행시간 조건을 처음부터 완료 기준으로 두고 반복 중 유지한다.
@@ -4339,8 +4659,12 @@ Case 4분
 **Evidence / Source:**
 DEC-0097; BEAT-075; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 후보·지적·수정은 설명용 설계 · 실제 실행·측정·PASS/FAIL 결과 없음
 
 **Beginner Explanation:**
 첫 구현은 검토할 후보이며 완료가 아니다. 가상 v1은 전체 값 복사가 남아 있는 계산 방식이다.
@@ -4399,8 +4723,12 @@ Lecture 2분 + Case 3분
 **Evidence / Source:**
 DEC-0097; BEAT-075; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 검사할 항목의 설계 · 실제 명령 실행·측정값·통과 결과를 제시하는 장이 아님
 
 **Beginner Explanation:**
 모델의 설명을 실제 검사·측정 기록으로 대조하도록 검증을 설계한다.
@@ -4460,8 +4788,12 @@ Case 5분
 **Evidence / Source:**
 DEC-0097; BEAT-076; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 후보·지적·수정은 설명용 설계 · 실제 실행·측정·PASS/FAIL 결과 없음
 
 **Beginner Explanation:**
 다른 모델 B는 목표·명세·diff·검사 기록을 근거로 구체적인 검토 지적을 만든다.
@@ -4521,8 +4853,12 @@ Case 4분
 **Evidence / Source:**
 DEC-0097; BEAT-077; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 후보·지적·수정은 설명용 설계 · 실제 실행·측정·PASS/FAIL 결과 없음
 
 **Beginner Explanation:**
 검토 지적의 번호를 유지해 다음 변경 후보가 무엇을 고치는지 연결한다.
@@ -4582,8 +4918,12 @@ Case 4분
 **Evidence / Source:**
 DEC-0097; BEAT-078; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 재검증·재검토의 운영 설계 · 후보 v2가 성공했다는 실제 결과는 없음
 
 **Beginner Explanation:**
 후보 v2를 같은 기준으로 재검증·재검토하고 남은 지적은 다음 수정으로 되돌린다.
@@ -4642,8 +4982,12 @@ Lecture 3분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-079; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: TEACHING_MODEL · 목표와 근거를 다음 수정에 연결하는 시스템
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 구체적 제품 기능·자동 실행 이력·모델 학습·완료 성과를 관찰한 결과가 아님
 
 **Beginner Explanation:**
 목표·완료 기준 아래 구현, 도구 근거, 다른 모델의 검토와 다음 수정 판단을 하나의 닫힌 경로로 설계한다.
@@ -4702,8 +5046,12 @@ Lecture 3분 + Reflection 2분
 **Evidence / Source:**
 DEC-0097; BEAT-079; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: TEACHING_MODEL · 반복의 종료와 다음 행동을 정하는 기준
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 미완료 중단은 목표 달성과 다름 · 반복·시간·비용 한도 수치는 실행 전에 정함
 
 **Beginner Explanation:**
 근거에 따라 완료, 다음 수정, 미완료 중단·사람 확인을 구분한다.
@@ -4762,8 +5110,12 @@ Lecture 4분
 **Evidence / Source:**
 DEC-0097; BEAT-080; SRC-0223; SRC-0239; CLM-0045. Primary sources checked 2026-10-25: https://arxiv.org/abs/2303.17651; https://arxiv.org/abs/2310.01798
 
+보존된 상세 출처: Self-Refine (2023) / Huang et al., ICLR 2024 · 서로 다른 실험 조건의 연구
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 해당 연구의 모델·과제·방법과 조건에 한정. 현재 Codex의 일반 성능·비용이나 새 코드 루프 성과로 확장하지 않는다.
+
+보존된 상세 범위: 과거 연구 대상의 결과 · 현재 모든 모델의 자기 검토 능력이나 다중 모델 우월성을 뜻하지 않음
 
 **Beginner Explanation:**
 자기 피드백으로 개선된 연구와 외부 근거 없는 자기 교정의 한계 연구를 조건과 함께 설명한다.
@@ -4822,8 +5174,12 @@ ReConcile의 StrategyQA 실험에서 여러 모델 조합과 같은 ChatGPT 세 
 **Evidence / Source:**
 DEC-0097; BEAT-081; SRC-0237; CLM-0043; ReConcile Table 7. Primary sources checked 2026-10-25: https://aclanthology.org/2024.acl-long.381.pdf (Table 7)
 
+보존된 상세 출처: ReConcile · ACL 2024 · Table 7 · StrategyQA의 토론·합의 실험
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 해당 연구의 모델·과제·방법과 조건에 한정. 현재 Codex의 일반 성능·비용이나 새 코드 루프 성과로 확장하지 않는다.
+
+보존된 상세 범위: 코드 수정 실험이 아님 · 현재 모델의 일반 성능·비용 개선으로 확대하지 않음
 
 **Beginner Explanation:**
 ReConcile의 StrategyQA 실험에서 여러 모델 조합과 같은 ChatGPT 세 Agent 구성을 비교한 결과를 설명한다.
@@ -4882,8 +5238,12 @@ CriticBench의 생성·검토·수정 능력과 교차 모델 검토 결과를 �
 **Evidence / Source:**
 DEC-0097; BEAT-081; SRC-0238; CLM-0044; CriticBench section 4.2.5. Primary sources checked 2026-10-25: https://aclanthology.org/2024.findings-acl.91.pdf (section 4.2.5)
 
+보존된 상세 출처: CriticBench · Findings of ACL 2024 · 17개 모델 / §4.2.5 교차 모델 검토
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 해당 연구의 모델·과제·방법과 조건에 한정. 현재 Codex의 일반 성능·비용이나 새 코드 루프 성과로 확장하지 않는다.
+
+보존된 상세 범위: 일부 모델·과제에서의 결과 · 이 교육의 코드 루프 완료율·비용 개선을 측정한 연구가 아님
 
 **Beginner Explanation:**
 CriticBench의 생성·검토·수정 능력과 교차 모델 검토 결과를 근거로 검토자 선택을 따로 평가할 이유를 설명한다.
@@ -4942,8 +5302,12 @@ Lecture 2분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-082; CLM-0043; CLM-0044; CASE-LOOP-01. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 연구를 참고한 개발 작업의 역할 배치 제안 · 현재 제품의 자동 배치 기능 설명 아님
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 같은 모델의 역할 분리와 서로 다른 모델 조합을 구분 · 실제 조합의 효과는 별도 평가
 
 **Beginner Explanation:**
 같은 모델의 역할 분리와 다른 모델의 구현·검토 조합을 구분하고 실제 작업에서 효과를 평가한다.
@@ -5002,8 +5366,12 @@ Lecture 2분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-082; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: TEACHING_MODEL · 검토 지적의 수용·기각과 추가 확인
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 모델 동의·다수결만으로 완료하지 않음 · 검토 모델도 틀릴 수 있음
 
 **Beginner Explanation:**
 검토 모델의 지적도 명세와 검사 근거로 대조해 수용·기각·추가 확인을 결정한다.
@@ -5062,8 +5430,12 @@ Lecture 2분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-082; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: TEACHING_MODEL · 같은 목표의 다음 시도를 위한 최소 기록
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 새 Memory·프레임워크가 필수인 것은 아님 · 한도와 중단 후 재개는 별도 운영 기준
 
 **Beginner Explanation:**
 고정 목표, 현재 후보·검토·검사, 남은 문제와 한도를 다음 시도가 이어받도록 설계한다.
@@ -5122,8 +5494,12 @@ Lecture 2분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-083; STATE-04-PERF; TRIAL-008; SRC-0237; SRC-0238; CASE-LOOP-01. Primary sources checked 2026-10-25: https://aclanthology.org/2024.acl-long.381.pdf (Table 7); https://aclanthology.org/2024.findings-acl.91.pdf (section 4.2.5)
 
+보존된 상세 출처: 기존 Product Trial / 인용한 연구 / CASE-LOOP-01 설계의 근거 경계
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 기존 Trial을 다중 모델 루프의 실행 증거로 사용하지 않음 · 새 모델 조합·완료 성과 미검증
 
 **Beginner Explanation:**
 기존 제품 Trial, 인용 연구, 이번 루프 설계의 세 근거 범위를 구분한다.
@@ -5183,8 +5559,12 @@ Goal은 턴을 넘어 목표·상태를 유지하고 근거 확인 뒤 계속 �
 **Evidence / Source:**
 SRC-0240; SRC-0241; SRC-0242; CLM-0046; DEC-0098. Official pages checked2026-10-25: https://learn.chatgpt.com/docs/long-running-work; https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex; https://learn.chatgpt.com/docs/reference/slash-commands. 교육용 요청·도식이며 실행 캡처나 기존 Trial의 생성 이력이 아니다.
 
+보존된 상세 출처: OpenAI 공식 Goal 안내 · 2026-10-25 확인 · 사용법을 설명하는 도식
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 공식 문서로 확인한 기능·안내와 교육용 도식. 사내 계정/버전/설정의 사용 가능 여부는 REQUIRES PRODUCT CHECK. 자동 다중 모델 배정·완료 보장·시간/비용 절감을 주장하지 않는다.
+
+보존된 상세 범위: 실제 화면·실행 결과 아님 · 다른 모델 검토자는 별도 설계 · 사내 환경에서 사용 가능 여부 확인
 
 **Beginner Explanation:**
 Goal은 턴을 넘어 목표·상태를 유지하고 근거 확인 뒤 계속 수행을 연결한다. 완료 기준과 검증·검토 역할은 작업에 맞게 설계한다.
@@ -5244,8 +5624,12 @@ Goal 요청에는 원하는 변화, 보존 조건, 완료를 확인할 근거와
 **Evidence / Source:**
 SRC-0240; SRC-0241; CLM-0047; DEC-0098. Official pages checked2026-10-25: https://learn.chatgpt.com/docs/long-running-work; https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex; https://learn.chatgpt.com/docs/reference/slash-commands. 교육용 요청·도식이며 실행 캡처나 기존 Trial의 생성 이력이 아니다.
 
+보존된 상세 출처: OpenAI Goals 작성 안내를 밝기 통계 작업으로 각색 · 실제 실행 요청·결과 아님
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 공식 작성 안내를 각색한 교육용 Goal 예시이며 활성화·명령 실행·측정·완료 결과가 아니다. 기준판·대표 입력·측정 방법을 실제 사용 전에 확정한다. 현재 다중 모델 조합의 성과를 증명하지 않는다.
+
+보존된 상세 범위: 기준판·대표 입력·측정 방법을 먼저 확정 · 완료 보장 없음 · 다중 모델 검토를 자동 구성한다는 뜻 아님
 
 **Beginner Explanation:**
 Goal 요청에는 원하는 변화, 보존 조건, 완료를 확인할 근거와 막혔을 때 보고할 조건을 담는다. 같은 기준으로 진행을 판단한다.
@@ -5305,8 +5689,12 @@ Goal의 계속 수행 기능을 활용하되 내 업무에 필요한 목표·근
 **Evidence / Source:**
 DEC-0097; BEAT-083; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 개인 성찰과 Q&A · 실습·제출·구현 요구 없음
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 목표·판단·검증·책임은 유지 · 다음 ACT에서 조합·통합·제거를 검토
 
 **Beginner Explanation:**
 내 업무의 목표·피드백·운영 판단을 떠올리고 ACT5의 조합·통합·제거로 이어간다.
@@ -5427,8 +5815,12 @@ Chatbot에서 Prompt·Context·Harness·Loop로, 질문에 답하는 범위에�
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-060.
 
+보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
+
 **Claim Boundary:**
 TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행·비교·측정 결과가 아니다. Goal·다중 모델 루프·새 제품 기능을 실행 검증한 근거로 쓰지 않는다.
+
+보존된 상세 범위: 설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님
 
 **Beginner Explanation:**
 저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
@@ -5488,8 +5880,12 @@ Lecture 1분 + Case 2분
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-060.
 
+보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
+
 **Claim Boundary:**
 TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행·비교·측정 결과가 아니다. Goal·다중 모델 루프·새 제품 기능을 실행 검증한 근거로 쓰지 않는다.
+
+보존된 상세 범위: 설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님
 
 **Beginner Explanation:**
 저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
@@ -5549,8 +5945,12 @@ Lecture 2분
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
 
+보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
+
 **Claim Boundary:**
 TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행·비교·측정 결과가 아니다. Goal·다중 모델 루프·새 제품 기능을 실행 검증한 근거로 쓰지 않는다.
+
+보존된 상세 범위: 설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님
 
 **Beginner Explanation:**
 저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
@@ -5610,8 +6010,12 @@ Lecture 3분
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
 
+보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
+
 **Claim Boundary:**
 TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행·비교·측정 결과가 아니다. Goal·다중 모델 루프·새 제품 기능을 실행 검증한 근거로 쓰지 않는다.
+
+보존된 상세 범위: 설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님
 
 **Beginner Explanation:**
 저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
@@ -5671,8 +6075,12 @@ Lecture 3분
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
 
+보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
+
 **Claim Boundary:**
 TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행·비교·측정 결과가 아니다. Goal·다중 모델 루프·새 제품 기능을 실행 검증한 근거로 쓰지 않는다.
+
+보존된 상세 범위: 설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님
 
 **Beginner Explanation:**
 저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
@@ -5732,8 +6140,12 @@ Lecture 2분
 **Evidence / Source:**
 RESEARCH / TEACHING_MODEL · SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083. references/engineering/harness-reassessment.md에 출처·해석·한계를 분리한다.
 
+보존된 상세 출처: SRC-0236 · Anthropic, 2026-10-22 · 일부 기업 Agent의 통합 사례를 각색
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — CLM-0040의 공급사 공개 사례 요약; TEACHING MODEL — 비교 구조는 교육용 각색; 현재 Codex의 통합 효과는 미검증. 새 Demo Trial이나 실제 통합·제거 효과를 관찰하지 않았다. 현재 Codex UI/모델·계정 동작으로 일반화하지 않는다.
+
+보존된 상세 범위: 우리 Demo의 관찰·효과 측정이 아님 · 새 모델이면 무조건 통합한다는 뜻은 아님
 
 **Beginner Explanation:**
 처음에는 필요했던 장치도 조건이 달라지면 다시 볼 수 있음을 이해한다.
@@ -5794,8 +6206,12 @@ Lecture 2분
 **Evidence / Source:**
 TEACHING_MODEL · CLM-0022, CLM-0030, SRC-0236, BEAT-057, BEAT-061, BEAT-069, DEC-0083. references/engineering/harness-reassessment.md에 출처·해석·한계를 분리한다.
 
+보존된 상세 출처: TEACHING MODEL · BEAT-057 / 061 / 069 · CLM-0022 · DEC-0083
+
 **Claim Boundary:**
 TEACHING MODEL — CLM-0022의 bounded heuristic을 기존 구성 재평가에 적용. 적을수록 좋다는 보편 법칙이나 성과가 아니다. 새 Demo Trial이나 실제 통합·제거 효과를 관찰하지 않았다. 현재 Codex UI/모델·계정 동작으로 일반화하지 않는다.
+
+보존된 상세 범위: 통합·제거는 후보 판단 · 안전·권한·명세·검증 요구를 없애는 처방이 아님
 
 **Beginner Explanation:**
 중요한 요구를 지우는 것과 중복된 구현·지침을 덜어내는 것을 구분한다.
@@ -5856,8 +6272,12 @@ Lecture 2분
 **Evidence / Source:**
 TEACHING_MODEL / RESEARCH · SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083. references/engineering/harness-reassessment.md에 출처·해석·한계를 분리한다.
 
+보존된 상세 출처: TEACHING MODEL · SRC-0236의 평가 권고를 각색 · CLM-0040 · DEC-0083
+
 **Claim Boundary:**
 TEACHING MODEL — 비교 평가 설계이며 실제 실행·PASS/FAIL·측정값 없음. FROZEN WITH SCOPE — SRC-0236의 대표 end-to-end 평가 권고와 통합 뒤 회귀 사례가 동기를 뒷받침한다. 새 Demo Trial이나 실제 통합·제거 효과를 관찰하지 않았다. 현재 Codex UI/모델·계정 동작으로 일반화하지 않는다.
+
+보존된 상세 범위: 새 비교 실험·측정 결과 없음 · 시간·비용만으로 채택하지 않음
 
 **Beginner Explanation:**
 간단해졌다는 인상 대신 원래 할 일을 계속 수행하는지 확인한다.
@@ -5917,8 +6337,12 @@ Case 1분 + Transition 4분
 **Evidence / Source:**
 TEACHING_MODEL · C++ Vision engineering-pattern transfer. 실제 C++ Project, hardware, toolchain 또는 benchmark 결과는 사용하지 않는다.
 
+보존된 상세 출처: BEAT-068–069 · 업무 적용을 위한 교육용 질문
+
 **Claim Boundary:**
 다섯 선택지는 같은 높이의 적용 후보이며 순서가 있는 maturity ladder가 아니다. 특정 C++ Project 규칙·도구·hardware 또는 검증된 procedure를 보장하지 않는다. 통합·제거는 재평가 후보이며 줄일수록 좋다는 주장이 아니다.
+
+보존된 상세 범위: A–E는 같은 수준의 선택지 · 필수 도입 순서나 검증된 C++ 프로젝트 절차가 아님
 
 **Beginner Explanation:**
 영어 Layer 이름보다 내가 겪는 증상을 먼저 읽고 가까운 것 하나를 찾는다.
@@ -5978,8 +6402,12 @@ Lecture 2분 + Reflection 2분
 **Evidence / Source:**
 TEACHING_MODEL · 승인된 private reflection prompt. 개인 업무에 대한 새 관찰 근거는 수집하지 않는다.
 
+보존된 상세 출처: BEAT-070–071 · 다음 행동과 확인 근거를 떠올리는 개인 성찰
+
 **Claim Boundary:**
 개인 Reflection이며 응답, 공유, written commitment 또는 실제 업무 변경을 요구하지 않는다. 통합·제거의 성공·비용 절감·품질 유지 결과는 관찰하지 않았다.
+
+보존된 상세 범위: 마음속으로 떠올리는 시간 · 기록·발표·제출·실천 약속은 요구하지 않음
 
 **Beginner Explanation:**
 고른 문제 하나에 대해 다음 작업에서 작게 달리할 행동과 확인할 자료 하나를 떠올린다.
@@ -6039,8 +6467,12 @@ Lecture 1분
 **Evidence / Source:**
 DEC-0088, DEC-0093. 현재 Slide Map의 제목·ID와 실무 팁 목록. S64/S69은 SRC-0111/0112와 CLM-0041/0042의 공식 안내 각색이며 모든 팁의 실제 관찰/연구/가상 경계는 해당 장을 따른다.
 
+보존된 상세 출처: 기존 팁의 제목·Slide ID를 모은 찾아보기 · DEC-0088
+
 **Claim Boundary:**
 TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능·Trial·성능·검증 결과를 주장하지 않는다.
+
+보존된 상세 범위: 배지는 활용 목적 표시 · 각 팁의 실제 관찰·교육용 예시·제품 확인 범위는 해당 장을 따른다.
 
 **Beginner Explanation:**
 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
@@ -6100,8 +6532,12 @@ Lecture 1분
 **Evidence / Source:**
 DEC-0088. plan/SLIDE_MAP.md의 기존 제목·현재 ID, plan/PRACTICAL_APPLICATION_TIPS.md. 각 팁의 실제 관찰/연구/가상 사례는 원래 장을 따른다.
 
+보존된 상세 출처: 기존 팁의 제목·Slide ID를 모은 찾아보기 · DEC-0088
+
 **Claim Boundary:**
 TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능·Trial·성능·검증 결과를 주장하지 않는다.
+
+보존된 상세 범위: 배지는 활용 목적 표시 · 각 팁의 실제 관찰·교육용 예시·제품 확인 범위는 해당 장을 따른다.
 
 **Beginner Explanation:**
 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
@@ -6161,8 +6597,12 @@ Lecture 1분
 **Evidence / Source:**
 DEC-0088. plan/SLIDE_MAP.md의 기존 제목·현재 ID, plan/PRACTICAL_APPLICATION_TIPS.md. 각 팁의 실제 관찰/연구/가상 사례는 원래 장을 따른다.
 
+보존된 상세 출처: 기존 팁의 제목·Slide ID를 모은 찾아보기 · DEC-0088
+
 **Claim Boundary:**
 TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능·Trial·성능·검증 결과를 주장하지 않는다.
+
+보존된 상세 범위: 배지는 활용 목적 표시 · 각 팁의 실제 관찰·교육용 예시·제품 확인 범위는 해당 장을 따른다.
 
 **Beginner Explanation:**
 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
@@ -6222,8 +6662,12 @@ Q&A 4분 + Closing Transition 2분
 **Evidence / Source:**
 TEACHING_MODEL · BEAT-070–071. 새로운 Product claim이나 기술 개념은 추가하지 않는다.
 
+보존된 상세 출처: BEAT-070–071 · 이 교육의 마무리
+
 **Claim Boundary:**
 AI-Native Development의 course-specific framing으로 닫는다. 제품 기능, 자동화 수준 또는 모든 상황의 단일 처방을 주장하지 않는다.
+
+보존된 상세 범위: 목표 · 판단 · 검증 · 책임은 개발자에게 남는다.
 
 **Beginner Explanation:**
 문제에 맞는 작은 대응과 결과를 확인할 근거를 기억한다.

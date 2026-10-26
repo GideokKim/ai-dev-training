@@ -1,5 +1,9 @@
 # Official Slide Map
 
+## 현재 하단 표기 — DEC-0103 (2026-10-26)
+
+117장·412분과 기존 본문/근거/장별 배정은 유지한다. 하단 제작·관리 문구를 삭제/축약하고 전체 상세는 Notes에 보존한다. 각 레코드의 Audience Footer와 [표기 기준](FOOTER_CLEANUP.md)을 따른다. 기존 M1–M9 표시는 유지한다.
+
 ## 현재 제작 기준 — DEC-0101 (2026-10-26)
 
 현재 **117장·412분(6시간52분)**. 기존 S03 뒤에 VS Code + GitHub Copilot
@@ -63,6 +67,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Transition 1분 = 1분
 - **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
 - **ACT Subtitle:** Chatbot → Repository Agent
+- **Audience Footer:** 기존 ACT 제목 표기 유지
 
 
 #### S02 — AI에게 지금 무엇을 맡기고 있는가?
@@ -88,6 +93,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 1분 + Reflection 4분 = 5분
 - **Evidence / Decision References:** BEAT-001, CLM-0001, CLM-0002
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S03 — 작은 질문에는 Chatbot이 유용하다
@@ -113,6 +119,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
 - **Evidence / Decision References:** BEAT-001, CLM-0001, CLM-0002
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S04 — 코드 질문은 VS Code의 Copilot Chat에서
@@ -139,6 +146,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** DEC-0101; GitHub/VS Code official guidance checked2026-10-26; no new execution claim
 - **Practical Tip Classification:** 사용 환경
+- **Audience Footer:** 사용 예시
 
 
 #### S05 — 질문이 커지면 Context를 모으는 일이 생긴다
@@ -164,6 +172,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** BEAT-002, CLM-0004, CLM-0009
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S06 — 파일명을 주지 않으면 Agent는 어디부터 볼까?
@@ -189,6 +198,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, STATE-00, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005
+- **Audience Footer:** Codex CLI 조사 기록 · 읽기 전용 / 우측은 GoogleTest 예시 · 실제 Trial은 Python
 
 
 #### S07 — Crop은 기대한 폭보다 한 열을 더 포함했다
@@ -214,6 +224,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
+- **Audience Footer:** 조사 기록 요약 · 코드 수정 없음
 
 
 #### S08 — 테스트·명세·구현을 연결해 원인을 설명했다
@@ -239,6 +250,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
+- **Audience Footer:** 발견한 근거의 관계도
 
 
 #### S09 — 다른 테스트 오류는 임시 폴더 생성에서 발생했다
@@ -264,6 +276,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Case 3분 = 3분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S10 — 원인 판단에는 코드와 실행 환경 정보가 필요했다
@@ -289,6 +302,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
+- **Audience Footer:** Repository 접근과 실행 권한은 별개
 
 
 #### S11 — Chatbot에 이 자료를 직접 전달한다면?
@@ -314,6 +328,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S12 — Agent가 자료를 직접 찾아 연결했다
@@ -339,6 +354,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086
+- **Audience Footer:** Codex CLI 조사 기록
 
 
 #### S13 — Repository 작업은 Codex에서 시작한다
@@ -365,6 +381,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** BEAT-003, DEC-0036, CLM-0031, SRC-0228, SRC-0229; OpenAI [Quickstart](https://learn.chatgpt.com/docs/quickstart?setup=app), [App](https://learn.chatgpt.com/docs/app), 2026-10-21 확인. 현재 제품·계정·Windows 재확인 Gate 유지., DEC-0087
 - **Practical Tip Classification:** 사용 환경
+- **Audience Footer:** 메뉴 예시
 
 
 #### S14 — Repository 접근과 Task 의도는 별개다
@@ -390,6 +407,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S15 — Repository를 보면 내가 원하는 것까지 알까?
@@ -415,6 +433,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Transition 3분 + Q&A 3분 = 6분
 - **Evidence / Decision References:** BEAT-003, BEAT-004, DEMO-01, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0037; DEMO_REPOSITORY_SPEC의 초기 구현 범위와 실제 pipeline.py/statistics.py로 표현 경계 대조
+- **Audience Footer:** 검사 흐름 설계 예시
 
 
 ### ACT 1 — 22 slides / 64 minutes
@@ -444,6 +463,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Transition 1분 = 1분
 - **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
 - **ACT Subtitle:** Prompt Engineering · 요청 설계
+- **Audience Footer:** 기존 ACT 제목 표기 유지
 
 
 #### S17 — Task에는 무엇이 아직 정해지지 않았을까?
@@ -469,6 +489,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Case 7분 = 7분
 - **Evidence / Decision References:** BEAT-004, TRIAL-001 callback only, CLM-0002, DEC-0038, DEC-0040, DEC-0042
+- **Audience Footer:** 개념도 · 실측 아님
 
 
 #### S18 — 요청만으로는 의도가 보이지 않는다
@@ -494,6 +515,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
 - **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038, DEC-0042
+- **Audience Footer:** 가능한 해석의 예시
 
 
 #### S19 — 원하는 작업 경로를 Prompt에 담는다
@@ -519,6 +541,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
 - **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038; crop 명세는 기존 TRIAL-002와 일치하는 교육용 예시, DEC-0042
+- **Audience Footer:** 요청 예시 · 의도한 경로
 
 
 #### S20 — 개발자가 정해야 하는 경계
@@ -544,6 +567,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 3분 + Reflection 1분 = 4분
 - **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0042
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S21 — Task Specification의 다섯 책임
@@ -569,6 +593,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-005, CLM-0029, OQ-001, OQ-007, DEC-0042
+- **Audience Footer:** 저장소 사실은 조사하게 하고, 목표·제약·완료 기준은 사람이 정한다
 
 
 #### S22 — 더 긴 Prompt보다 분명한 경계
@@ -594,6 +619,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 9분
 - **Delivery Mode Allocation:** Lecture 6분 + Case 3분 = 9분
 - **Evidence / Decision References:** BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007, DEC-0042
+- **Audience Footer:** 요청 예시
 
 
 #### S23 — 요청한 과정은 기록에도 남았을까?
@@ -619,6 +645,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-006, TRIAL-002, TRIAL-001, STATE-00, INV-MATURITY-011, DEC-0039, DEC-0042, DEC-0044
+- **Audience Footer:** 실제 요청 발췌와 관찰 기록 · 앞선 요청 예시와 별도
 
 
 #### S24 — 조사에서 한 줄 변경까지
@@ -644,6 +671,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED) = 4분
 - **Evidence / Decision References:** BEAT-006, TRIAL-002, INV-MATURITY-011, DEC-0039, DEC-0042
+- **Audience Footer:** 실제 변경 diff
 
 
 #### S25 — 변경 결과와 확인 증거
@@ -669,6 +697,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED) = 4분
 - **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0042
+- **Audience Footer:** 해당 수정·입력의 검증 기록 · 성능 미측정
 
 
 #### S26 — Generated ≠ Done
@@ -694,6 +723,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0042
+- **Audience Footer:** 주장과 위험에 맞는 근거로 완료를 판단한다
 
 
 #### S27 — Check마다 확인하는 범위
@@ -719,6 +749,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 4분 + Reflection 1분 = 5분
 - **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0041, DEC-0042
+- **Audience Footer:** 우측은 C++ 검증 예시 · 실제 Trial은 Python
 
 
 #### S28 — 지시와 참고 자료의 구분
@@ -745,6 +776,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0032, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
+- **Audience Footer:** 구획은 보안 격리가 아니다
 
 
 #### S29 — 입력과 기대 결과의 작은 예시
@@ -771,6 +803,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Case 1분 = 1분
 - **Evidence / Decision References:** CLM-0033, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
+- **Audience Footer:** 예시는 전체 명세를 대신하지 않는다
 
 
 #### S30 — 바로 검토할 수 있는 결과 형식
@@ -797,6 +830,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0034, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
+- **Audience Footer:** 형식과 내용은 별도 검증 · 채팅의 형식 요청과 API 기능은 별개
 
 
 #### S31 — 근거가 있는 설명과 미확인의 구분
@@ -823,6 +857,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0035, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
+- **Audience Footer:** 인용도 실제 내용과 대조한다
 
 
 #### S32 — 결과를 바꾸는 결정에서 확인 질문
@@ -849,6 +884,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0036, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
+- **Audience Footer:** 결과가 달라지는 선택에 집중해 질문한다
 
 
 #### S33 — 큰 작업을 검토할 결과물로 나누기
@@ -875,6 +911,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0037, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S34 — 기준을 지정한 코드 리뷰 요청
@@ -901,6 +938,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0038, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
+- **Audience Footer:** 리뷰 결과도 검증한다
 
 
 #### S35 — 구체적인 근거로 수정 방향 피드백
@@ -927,6 +965,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0039, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
 - **Practical Tip Classification:** 요청 작성
+- **Audience Footer:** 명세와 실제 근거로 피드백한다
 
 
 #### S36 — 이번 Task인가, 계속 유지할 Project 정보인가?
@@ -952,6 +991,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Reflection 1분 + Q&A 2분 = 3분
 - **Evidence / Decision References:** BEAT-007, BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S37 — 반복하는 설명을 두 범주로 나누기
@@ -977,6 +1017,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Reflection 1분 + Transition 3분 + Q&A 2분 = 6분
 - **Evidence / Decision References:** BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042
+- **Audience Footer:** 왜 매번 Project 정보를 다시 적을까?
 
 
 ### ACT 2 — 19 slides / 82 minutes
@@ -1006,6 +1047,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Transition 1분 = 1분
 - **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
 - **ACT Subtitle:** Context Engineering · 정보 설계
+- **Audience Footer:** 기존 ACT 제목 표기 유지
 
 
 #### S39 — 다른 Task에 같은 설명이 반복된다
@@ -1031,6 +1073,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 4분 + Case 1분 = 5분
 - **Evidence / Decision References:** BEAT-008, CLM-0003, CLM-0005
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S40 — 작은 Project Context의 첫 기록
@@ -1056,6 +1099,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (HYBRID) = 4분
 - **Evidence / Decision References:** BEAT-009, STATE-01, CLM-0003, CLM-0005, OQ-003, OQ-005
+- **Audience Footer:** AGENTS.md 발췌
 
 
 #### S41 — AGENTS.md의 지침대로 검증했다
@@ -1081,6 +1125,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (HYBRID) = 4분
 - **Evidence / Decision References:** BEAT-010, TRIAL-003, STATE-01, CLM-0005, DEC-0046
+- **Audience Footer:** CLI 실행 기록 · 다른 지침도 함께 적용
 
 
 #### S42 — Task Prompt와 Project Context
@@ -1106,6 +1151,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
 - **Evidence / Decision References:** BEAT-009, TRANS-003, CLM-0003, CLM-0005, OQ-003, OQ-005, BEAT-010, DEC-0047
+- **Audience Footer:** C++에서도 프로젝트 공통 제약과 이번 변경 조건은 범위가 다를 수 있다
 
 
 #### S43 — 정확한 정보도 계속 늘어난다
@@ -1131,6 +1177,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** BEAT-011, STATE-01, STATE-02, CLM-0014, CLM-0015, DEC-0048
+- **Audience Footer:** 정보가 늘었다는 사실만으로 실패를 뜻하지는 않는다
 
 
 #### S44 — 정확하지만 이번 작업에는 불필요한 정보
@@ -1156,6 +1203,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 2분 (CAPTURED) + Reflection 2분 = 4분
 - **Evidence / Decision References:** BEAT-012, TRIAL-004, CLM-0014, CLM-0015, DEC-0049, DEC-0050
+- **Audience Footer:** 이 기록에서는 혼란·실패가 관찰되지 않음
 
 
 #### S45 — 정보의 범위와 제공 시점
@@ -1181,6 +1229,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051, DEC-0060
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S46 — 많이 담아도 같은 근거를 똑같이 쓰는가?
@@ -1206,6 +1255,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-013, OQ-006, CLM-0014, SRC-0201, DEC-0052, DEC-0060
+- **Audience Footer:** Lost in the Middle(2024) · 특정 연구 과제 결과 / 현재 Codex의 성능을 평가한 결과는 아님
 
 
 #### S47 — AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?
@@ -1231,6 +1281,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-013, OQ-006, STATE-00-FIXED, TRIAL-002 (existing crop implementation only), CLM-0015, SRC-0204, DEC-0052, DEC-0060, DEC-0061
+- **Audience Footer:** RepoQA(2024) · 연구 참고 / 현재 Codex나 이 Routing의 업무 성능을 검증한 결과는 아님
 
 
 #### S48 — 필요한 상세 정보로 가는 길
@@ -1256,6 +1307,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0053, DEC-0060
+- **Audience Footer:** 탐색 경로 예시
 
 
 #### S49 — AGENTS.md에는 무엇을 남길까?
@@ -1282,6 +1334,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0054, DEC-0060, DEC-0087
 - **Practical Tip Classification:** Context 관리
+- **Audience Footer:** 명령·검증 기준도 기본 안내에 둘 수 있음
 
 
 #### S50 — 정보를 지우지 않고 위치를 나누기
@@ -1307,6 +1360,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 2분 + Demo 2분 (CAPTURED) + Case 1분 = 5분
 - **Evidence / Decision References:** BEAT-014, BEAT-015, STATE-02, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0055, DEC-0060
+- **Audience Footer:** 문서 구성 변경 · 성능·토큰 효과는 미측정
 
 
 #### S51 — 서로 다른 두 Task가 무엇을 읽을까?
@@ -1332,6 +1386,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-015, BEAT-016, TRIAL-005A, TRIAL-005B, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0056, DEC-0060
+- **Audience Footer:** 실제 요청 발췌
 
 
 #### S52 — Crop Task에서 관찰한 접근
@@ -1357,6 +1412,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** BEAT-016, TRIAL-005A, CLM-0014, CLM-0015, DEC-0057, DEC-0060
+- **Audience Footer:** 최종 CLI 기록 · testing.md는 최종 실행에서 관찰
 
 
 #### S53 — 의존성 질문은 설정과 소스로 답했다
@@ -1382,6 +1438,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** BEAT-016, TRIAL-005B, STATE-03, CLM-0003, CLM-0005, DEC-0060
+- **Audience Footer:** 설정·소스에서 확인한 결과
 
 
 #### S54 — 두 Task에서 상세 문서 접근이 달랐다
@@ -1407,6 +1464,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Demo 1분 (CAPTURED) + Case 3분 + Reflection 2분 + Q&A 1분 = 7분
 - **Evidence / Decision References:** BEAT-016, BEAT-017, TRIAL-005A, TRIAL-005B, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0058, DEC-0060
+- **Audience Footer:** 최종 실행 기록 비교 · testing.md는 A의 최종 실행에서 관찰
 
 
 #### S55 — Context 정리에서 확인한 네 가지
@@ -1432,6 +1490,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 2분 + Reflection 1분 = 3분
 - **Evidence / Decision References:** BEAT-009, BEAT-010, BEAT-014, BEAT-016, BEAT-017, STATE-01, STATE-02, STATE-03, TRIAL-003, TRIAL-005A, TRIAL-005B, DEC-0060
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S56 — 지식은 정리됐지만 절차는 반복된다
@@ -1457,6 +1516,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 10분
 - **Delivery Mode Allocation:** Transition 4분 + Q&A 6분 = 10분
 - **Evidence / Decision References:** BEAT-017, BEAT-018, TRANS-005, TRIAL-006, TRIAL-007, CLM-0003, CLM-0005, CLM-0014, CLM-0006, CLM-0029, CLM-0030, DEC-0059, DEC-0060
+- **Audience Footer:** 요청 예시
 
 
 ### ACT 3 — 26 slides / 96 minutes
@@ -1486,6 +1546,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Transition 1분 = 1분
 - **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
 - **ACT Subtitle:** Harness Engineering · 수행 체계 설계
+- **Audience Footer:** 기존 ACT 제목 표기 유지
 
 
 #### S58 — 두 실제 요청에 같은 절차가 반복됐다
@@ -1511,6 +1572,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** BEAT-018, BEAT-020, TRIAL-006, CLM-0006, CLM-0029, CLM-0030, TRIAL-007, DEC-0017, DEC-0060, DEC-0062
+- **Audience Footer:** 실제 요청 발췌·요약
 
 
 #### S59 — 테스트 명령을 언제 쓰고 무엇을 판단할까?
@@ -1537,6 +1599,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0060, DEC-0062, DEC-0063, DEC-0087, DEC-0089
 - **Practical Tip Classification:** 수행 방법
+- **Audience Footer:** 수행 방법 예시 · AGENTS.md에 기록할 수도 있음
 
 
 #### S60 — 목표·기준·방법을 한 작업에 적용한다
@@ -1562,6 +1625,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
 - **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0062, DEC-0063, DEC-0064
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S61 — 반복 절차를 Skill로 모으는 이유
@@ -1587,6 +1651,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-020, BEAT-021, DEC-0017, TRIAL-006, TRIAL-007, TRIAL-008, OQ-005, DEC-0062, DEC-0064, DEC-0065, DEC-0066
+- **Audience Footer:** Skill로 옮기는 설계안
 
 
 #### S62 — Skill 발견·호출·본문 포함의 근거
@@ -1612,6 +1677,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Demo 5분 (HYBRID) = 5분
 - **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0066
+- **Audience Footer:** CLI 기록 · 본문 포함과 실제 수행 근거는 별개
 
 
 #### S63 — Skill 지침과 실제 작업 기록의 대응
@@ -1637,6 +1703,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Demo 3분 (HYBRID) + Case 3분 = 6분
 - **Evidence / Decision References:** BEAT-021, TRIAL-007, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0067
+- **Audience Footer:** 기록에서 확인한 지침·행동의 대응
 
 
 #### S64 — 대화로 재사용할 Skill 만들기
@@ -1663,6 +1730,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** SRC-0111, CLM-0041, DEC-0093
 - **Practical Tip Classification:** 수행 방법
+- **Audience Footer:** 사용 예시 · 생성 지침을 검토하고 실제 요청으로 확인
 
 
 #### S65 — 절차는 재사용하고, 답은 근거로 정한다
@@ -1688,6 +1756,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** BEAT-022, DEC-0017, STATE-04-PERF, TRIAL-008, INV-VERIFY-001, DEC-0062, DEC-0068
+- **Audience Footer:** 절차·판단 예시
 
 
 #### S66 — 밝기 통계 계산의 성능 개선 후보
@@ -1713,6 +1782,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** BEAT-022, TRIAL-008, STATE-04-PERF, INV-VERIFY-001, DEC-0062, DEC-0069, DEC-0070
+- **Audience Footer:** 후보 비교 기록 · Python 할당 피크 / 다음 장의 제품 상태 측정과는 별도
 
 
 #### S67 — 선택한 변경의 시간·메모리·동작 확인
@@ -1738,6 +1808,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** BEAT-022, BEAT-037, STATE-04-PERF, STATE-04, TRIAL-008, INV-VERIFY-001, STATE-00, DEC-0018, INV-DEMO-003, DEC-0062, DEC-0070
+- **Audience Footer:** 1024×768 합성 입력 · Python 할당 피크(RSS 아님) / 해당 코드 변경의 측정 결과 · Harness/Skill 단독 효과는 미입증
 
 
 #### S68 — 한 Agent 조사와 Subagent 역할 분리
@@ -1763,6 +1834,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 3분 (VISUAL) + Q&A 1분 = 4분
 - **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0071, DEC-0080
+- **Audience Footer:** 역할 분리 예시 · 분담·조정 비용도 고려
 
 
 #### S69 — 대화로 조사 Agent 만들기
@@ -1789,6 +1861,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** SRC-0112, CLM-0042, DEC-0093
 - **Practical Tip Classification:** 수행 방법
+- **Audience Footer:** 설정·사용 예시 · 일회성 분담은 요청, 반복 역할은 설정으로 재사용
 
 
 #### S70 — 밝기 통계 작업을 나누지 않은 이유
@@ -1814,6 +1887,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Demo 2분 (VISUAL) + Q&A 1분 = 4분
 - **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0072
+- **Audience Footer:** 이 작업에서는 역할 분리를 보류
 
 
 #### S71 — 이번 Context와 다시 쓸 지식
@@ -1840,6 +1914,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Demo 2분 (VISUAL) + Case 2분 = 4분
 - **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0073, DEC-0080, DEC-0087
 - **Practical Tip Classification:** Context 관리
+- **Audience Footer:** 재사용할 지식의 예시
 
 
 #### S72 — 실제 Demo 지식의 원래 출처
@@ -1865,6 +1940,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0074
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S73 — 밝기 통계 작업에 쓰인 구성의 역할
@@ -1890,6 +1966,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Demo 3분 (CAPTURED) = 3분
 - **Evidence / Decision References:** BEAT-035, BEAT-037, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0062, DEC-0075, DEC-0080
+- **Audience Footer:** 실제 구성과 기록의 요약
 
 
 #### S74 — 함께 작동하는 작업 환경, Harness
@@ -1915,6 +1992,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Lecture 4분 + Demo 2분 (CAPTURED) = 6분
 - **Evidence / Decision References:** BEAT-035, BEAT-036, STATE-04-PERF, OQ-011, CLM-0016, CLM-0017, CLM-0030, DEC-0062, DEC-0023, DEC-0076, DEC-0080
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S75 — 만든 Harness를 다음 프로젝트의 기반으로
@@ -1940,6 +2018,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001
+- **Audience Footer:** 재사용 설계 예시
 
 
 #### S76 — 공통 기반에 프로젝트 기준을 연결한다
@@ -1965,6 +2044,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001
+- **Audience Footer:** 프로젝트 적용 예시
 
 
 #### S77 — 이번 성공만으로 다음 작업까지 확인되지는 않는다
@@ -1990,6 +2070,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** STATE-04-PERF; TRIAL-008; DEC-0023; INV-VERIFY-001; DEC-0092; MASTER_PLAN §§5.8–5.9,14; existing BEAT-035/036/037 and transition to BEAT-038 (teaching bridge, no new observed event)
+- **Audience Footer:** 확인 범위: 해당 코드·입력·환경
 
 
 #### S78 — 첫 결과 뒤에도, 확인할 일이 남는다면?
@@ -2015,6 +2096,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
+- **Audience Footer:** 가상 상황
 
 
 #### S79 — 남은 문제를 다음 수정으로 이어주는 사람
@@ -2040,6 +2122,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
+- **Audience Footer:** 가상 상황
 
 
 #### S80 — 같은 목표의 수정과 검토가 끊기지 않게
@@ -2065,6 +2148,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
+- **Audience Footer:** 반복 운영 설계
 
 
 #### S81 — 다음 수정에 넘길 기록
@@ -2091,6 +2175,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
 - **Practical Tip Classification:** 수행 방법
+- **Audience Footer:** 별도 Memory는 필수가 아님
 
 
 #### S82 — 내가 매번 이어 주는 다음 단계는 무엇일까?
@@ -2116,6 +2201,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 10분
 - **Delivery Mode Allocation:** Reflection 3분 + Q&A 5분 + Transition 2분 = 10분
 - **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
+- **Audience Footer:** 개인 성찰 · 공유는 선택
 
 
 ### ACT 4 — 20 slides / 85 minutes
@@ -2146,6 +2232,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Evidence / Decision References:** DEC-0097; BEAT-072; CASE-LOOP-01; CLM-0021
 - **ACT Subtitle:** Loop Engineering · 목표 기반 실행·검토 시스템
 - **ACT Display Title:** 목표를 이룰 때까지 / 수정하고 검토하기
+- **Audience Footer:** 기존 ACT 제목 표기 유지
 
 
 #### S84 — 다음 수정도 사람이 매번 이어줘야 할까?
@@ -2171,6 +2258,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-073; CASE-LOOP-01; CLM-0021
+- **Audience Footer:** 가상 진행 예시
 
 
 #### S85 — 먼저, 무엇이 되면 완료인지 정한다
@@ -2196,6 +2284,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-074; CASE-LOOP-01; existing six-field specification in DEMO_MATRIX
+- **Audience Footer:** 가상 진행 예시 · 완료 기준은 실행 전에 정한다
 
 
 #### S86 — 모델 A가 첫 변경 후보를 만든다
@@ -2221,6 +2310,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-075; CASE-LOOP-01; CLM-0021
+- **Audience Footer:** 가상 진행 예시
 
 
 #### S87 — 실제 동작과 비용은 도구로 확인한다
@@ -2246,6 +2336,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 3분 = 5분
 - **Evidence / Decision References:** DEC-0097; BEAT-075; CASE-LOOP-01; CLM-0021
+- **Audience Footer:** 가상 진행 예시
 
 
 #### S88 — 모델 B는 무엇을 근거로 검토할까?
@@ -2271,6 +2362,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** DEC-0097; BEAT-076; CASE-LOOP-01; CLM-0021
+- **Audience Footer:** 가상 진행 예시
 
 
 #### S89 — 지적이 다음 수정으로 이어진다
@@ -2296,6 +2388,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-077; CASE-LOOP-01; CLM-0021
+- **Audience Footer:** 가상 진행 예시
 
 
 #### S90 — 고쳤다면, 같은 기준으로 다시 본다
@@ -2321,6 +2414,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-078; CASE-LOOP-01; CLM-0021
+- **Audience Footer:** 가상 진행 예시
 
 
 #### S91 — 같은 목표의 구현·검토 루프
@@ -2346,6 +2440,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 3분 + Case 2분 = 5분
 - **Evidence / Decision References:** DEC-0097; BEAT-079; CASE-LOOP-01; CLM-0021
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S92 — 언제 계속하고, 언제 끝낼까?
@@ -2371,6 +2466,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 3분 + Reflection 2분 = 5분
 - **Evidence / Decision References:** DEC-0097; BEAT-079; CASE-LOOP-01; CLM-0021
+- **Audience Footer:** 목표 미달 중단은 완료와 다름 · 반복·시간·비용 한도는 미리 정한다
 
 
 #### S93 — 구현한 모델에게 다시 물으면 충분할까?
@@ -2396,6 +2492,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-080; SRC-0223; SRC-0239; CLM-0045
+- **Audience Footer:** Self-Refine(2023) / Huang et al.(2024) / 과제·모델 조건이 서로 다른 연구 결과
 
 
 #### S94 — 다른 모델의 관점이 도움이 된 실험
@@ -2421,6 +2518,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 3분 + Case 2분 = 5분
 - **Evidence / Decision References:** DEC-0097; BEAT-081; SRC-0237; CLM-0043; ReConcile Table 7
+- **Audience Footer:** ReConcile(2024) · StrategyQA 질의응답 실험
 
 
 #### S95 — 잘 만드는 능력과 잘 검토하는 능력
@@ -2446,6 +2544,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 3분 + Case 1분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-081; SRC-0238; CLM-0044; CriticBench section 4.2.5
+- **Audience Footer:** CriticBench(2024) · 생성·검토 능력 평가 / 연구에 포함된 모델·과제 범위의 결과
 
 
 #### S96 — 구현과 검토에 모델을 어떻게 나눌까?
@@ -2471,6 +2570,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-082; CLM-0043; CLM-0044; CASE-LOOP-01
+- **Audience Footer:** 역할 배치 예시 · 실제 조합의 효과는 별도 평가
 
 
 #### S97 — 검토 모델의 말도 확인해야 한다
@@ -2496,6 +2596,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-082; CASE-LOOP-01; CLM-0021
+- **Audience Footer:** 모델 동의·다수결만으로 완료하지 않는다
 
 
 #### S98 — 반복하려면 무엇을 이어받아야 할까?
@@ -2521,6 +2622,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-082; CASE-LOOP-01; CLM-0021
+- **Audience Footer:** 별도 Memory나 프레임워크가 필수인 것은 아니다
 
 
 #### S99 — 확인한 근거와 아직 실행하지 않은 설계
@@ -2546,6 +2648,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-083; STATE-04-PERF; TRIAL-008; SRC-0237; SRC-0238; CASE-LOOP-01
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S100 — Goal이 목표와 다음 작업을 이어준다
@@ -2571,6 +2674,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** SRC-0240; SRC-0241; SRC-0242; CLM-0046; DEC-0098
+- **Audience Footer:** 사용 예시 · 다른 모델의 검토 역할은 별도 설계
 
 
 #### S101 — Goal에는 완료 근거와 멈출 조건을 담는다
@@ -2596,6 +2700,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** SRC-0240; SRC-0241; CLM-0047; DEC-0098
+- **Audience Footer:** 요청 예시 · 완료 기준과 중단 조건은 직접 지정
 
 
 #### S102 — 우리 작업에는 어떤 루프가 필요할까?
@@ -2621,6 +2726,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 11분
 - **Delivery Mode Allocation:** Reflection 2분 + Q&A 7분 + Transition 2분 = 11분
 - **Evidence / Decision References:** DEC-0097; BEAT-083; CASE-LOOP-01; CLM-0021
+- **Audience Footer:** 개인 성찰 · 공유는 선택
 
 
 ### ACT 5 — 15 slides / 40 minutes
@@ -2650,6 +2756,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Transition 1분 = 1분
 - **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
 - **ACT Subtitle:** AI-Native Development · 업무 방식의 재설계
+- **Audience Footer:** 기존 ACT 제목 표기 유지
 
 
 #### S104 — AI에게 맡기는 범위가 넓어졌다
@@ -2675,6 +2782,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S105 — 작업은 요청부터 검토·수정까지 이어진다
@@ -2700,6 +2808,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 2분 = 3분
 - **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S106 — 작업 흐름에는 정보·절차·도구가 연결된다
@@ -2725,6 +2834,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S107 — 결과를 수용할지는 사람이 판단한다
@@ -2750,6 +2860,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S108 — AI가 일할 조건과 확인 경로를 설계한다
@@ -2775,6 +2886,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S109 — 모델·플랫폼이 바뀌면 Harness도 다시 본다
@@ -2800,6 +2912,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083
+- **Audience Footer:** Anthropic(2026) · 외부 기업의 통합 사례
 
 
 #### S110 — 무엇을 남기고, 무엇을 덜어낼까?
@@ -2826,6 +2939,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** CLM-0022, CLM-0030, SRC-0236, BEAT-057, BEAT-061, BEAT-069, DEC-0083, DEC-0087
 - **Practical Tip Classification:** 검증·개선
+- **Audience Footer:** 구조를 덜어내도 명세·권한·검증 요구는 유지
 
 
 #### S111 — 덜어낸 뒤에도 필요한 일을 하는가?
@@ -2852,6 +2966,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083, DEC-0087
 - **Practical Tip Classification:** 검증·개선
+- **Audience Footer:** 평가 설계 예시 · 시간·비용만으로 채택하지 않음
 
 
 #### S112 — 내 업무에서는 무엇이 반복해서 막힐까?
@@ -2877,6 +2992,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 1분 + Transition 4분 = 5분
 - **Evidence / Decision References:** BEAT-068, INV-AUDIENCE-001, INV-DIFFICULTY-001, INV-LOOP-001, INV-RESPONSIBILITY-001, BEAT-069; DEC-0097; CLM-0021
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S113 — 고른 문제에서, 다음 행동 하나로
@@ -2902,6 +3018,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Reflection 2분 = 4분
 - **Evidence / Decision References:** BEAT-070, INV-LEARNING-003, INV-DIFFICULTY-001, INV-DELIVERY-001, INV-NARRATIVE-001, BEAT-071; DEC-0097; CLM-0021
+- **Audience Footer:** 공유는 선택
 
 
 #### S114 — 실무 적용 팁 · 작업 환경과 기준
@@ -2928,6 +3045,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** DEC-0088, DEC-0093; Related tip slides: S13, S49, S59, S64, S69, S71, S81
 - **Practical Tip Classification:** 찾아보기
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S115 — 실무 적용 팁 · 요청 작성
@@ -2954,6 +3072,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** DEC-0088; Related tip slides: S28, S29, S30, S31, S32, S33, S34, S35
 - **Practical Tip Classification:** 찾아보기
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S116 — 실무 적용 팁 · 검증과 개선
@@ -2980,6 +3099,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** DEC-0088; Related tip slides: S88, S92, S110, S111
 - **Practical Tip Classification:** 찾아보기
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
 #### S117 — Q&A와 교육 마무리
@@ -3005,6 +3125,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Transition 2분 + Q&A 4분 = 6분
 - **Evidence / Decision References:** BEAT-070, INV-LEARNING-003, INV-DIFFICULTY-001, INV-DELIVERY-001, INV-NARRATIVE-001, BEAT-071
+- **Audience Footer:** 목표·판단·검증·책임은 개발자에게 남는다
 
 
 ## Historical consolidation and traceability records

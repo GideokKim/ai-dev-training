@@ -1,5 +1,7 @@
 # ACT 0 — Speaker Notes
 
+> 하단 표기 DEC-0103: 제작·관리 상세는 Evidence / Source와 Claim Boundary에 보존한다. 발표 화면은 승인된 간략 표기를 사용하며 기존19필드·장별 배정·근거는 유지한다.
+
 > Current: DEC-0101 /117slides/412minutes. ACT0 fifteen slides/45minutes; retained content and per-slide budgets unchanged. Current IDs follow plan/SLIDE_ID_MIGRATION_117.md. Earlier headers retain their historical edition.
 
 > 현재 기준 DEC-0099:116장·410분. S103–S107은 전체 관점의 종합이며 개인 선택은 S111/S112에 둔다. S104의 Demo2분을 Case2분으로 정렬했다. Mode176/49/105/22/26/32분. 아래 이전 안내의 Mode·근거 범위는 당시 기록이다.
@@ -128,7 +130,11 @@ Speaker Flow: 1. **OPEN (0:00–0:15 / Lecture):** 기존 제목과 “최근 AI
 
 Evidence / Source: BEAT-001, CLM-0001, CLM-0002. TEACHING_MODEL. 삽화: `assets/slide-illustrations/S01-cases.png`, image_gen으로 만든 동일 인물의 세 교육용 장면이다. 생성 프롬프트: `prototype/act0-opening-revision/IMAGE_PROMPT.md`. 실제 제품 화면·회사 현장·관찰된 작업 결과가 아니다.
 
+보존된 상세 출처: 교육용 사례 삽화 · AI 생성 이미지 · 실제 제품 실행 화면 아님
+
 Claim Boundary: 특정 AI 제품의 성능·우열 또는 개인의 숙련도를 평가하지 않는다. 질문과 업무 범위는 교육을 여는 모델이다. 세 그림은 image_gen 교육용 삽화이며 실제 사용 화면이나 관찰 근거가 아니다. 설명·조사·결과 확인을 숙련도 순위 또는 모든 사람이 거쳐야 하는 단계로 제시하지 않는다.
+
+보존된 상세 범위: 자신의 경험 하나만 떠올려 보세요. 사용 수준을 평가하는 질문이 아닙니다.
 
 Beginner Explanation: 지금 자주 맡기는 작은 일 하나를 떠올리면 충분하다. 아직 해보지 않은 사용법을 아는 척할 필요는 없다.
 
@@ -174,7 +180,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-001, CLM-0001, CLM-0002. TEACHING_MODEL / CONCEPTUAL. `std::vector<int> a(3, 1);` → `1, 1, 1`(3개), `std::vector<int> b{3, 1};` → `3, 1`(2개)는 코드 의미를 설명하는 도식이며 실제 실행·ChatGPT 응답·새 Trial이 아니다. C++ 의미 확인: [Microsoft Learn — vector constructors](https://learn.microsoft.com/en-us/cpp/standard-library/vector-class?view=msvc-170#vector), [Microsoft Learn — Initializers](https://learn.microsoft.com/en-us/cpp/cpp/initializers?view=msvc-170), 확인 2026-10-21. IDE → Chatbot → IDE는 사람이 연결하는 교육용 native 도식이다.
 
+보존된 상세 출처: Microsoft C++ 문서 기반 교육 예시 · 실제 ChatGPT 대화·실행 화면 아님
+
 Claim Boundary: 일반적인 활용 예시이며 특정 제품 기능·정확도·성능 또는 다른 방식보다 우월하다는 주장으로 말하지 않는다. 초기화 비교는 화면에 제시한 `std::vector<int>` 두 표현의 의미로 한정한다. 도식은 실제 컴파일·실행 결과나 ChatGPT 대화가 아니며, 모든 중괄호 초기화가 같은 생성자 선택을 한다고 일반화하지 않는다. 코드 선택·복사, 대화에 붙여넣고 질문, IDE에서 답 확인·적용은 사람이 잇는 흐름이며 자동 IDE 연동을 뜻하지 않는다.
+
+보존된 상세 범위: 괄호는 개수·값 생성자, 중괄호는 이 예시의 initializer_list 생성자를 사용합니다.
 
 Beginner Explanation: 괄호만 다른 짧은 코드도 뜻을 물어볼 만한 질문이다. 두 표현이 각각 어떤 원소를 만드는지 설명을 받고 원래 코드와 맞는지 확인할 수 있다.
 
@@ -225,8 +235,12 @@ Lecture 2 minutes
 **Evidence / Source:**
 GitHub Docs, Asking GitHub Copilot questions in your IDE: https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/chat-with-copilot/chat-in-ide?tool=vscode ; VS Code Docs, Add context to chat: https://code.visualstudio.com/docs/chat/copilot-chat-context ; checked2026-10-26. DEC-0101 and explicit user instruction establish the company-used tool combination, not a mandatory company policy.
 
+보존된 상세 출처: GitHub Docs · VS Code Docs | 사용 방법을 재구성한 교육용 UI 도식
+
 **Claim Boundary:**
 RESEARCH / TEACHING_MODEL / REQUIRES PRODUCT CHECK — 공식 안내를 각색한 UI 도식과 요청 예시다. 실제 회사 화면·Copilot 응답·선택/첨부/실행 기록이 아니다. 특정 계정의 기능·조직 정책·자동 Context 포함이나 정확성/시간 절감은 검증하지 않았다.
+
+보존된 상세 범위: 실제 회사 화면·응답 아님 · 전달할 코드를 확인하고, 답을 다시 확인한다.
 
 **Beginner Explanation:**
 회사에서 사용하는 VS Code에서 관련 코드를 골라 Copilot Chat에 설명을 요청할 수 있다.
@@ -280,7 +294,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-002, CLM-0004, CLM-0009. TEACHING_MODEL / CONCEPTUAL. Visual Studio 사용자가 디버깅 때 참고하는 정보 범주를 병렬로 재구성한 교육용 native 도식이다. 실제 IDE screenshot·특정 제품 버전의 UI·특정 Trial의 파일 접근 또는 실행 기록이 아니다. 종이 문서를 든 인물 삽화는 이 수정본에서 사용하지 않는다.
 
+보존된 상세 출처: Visual Studio 사용자의 디버깅 정보를 설명하는 교육용 병렬 도식
+
 Claim Boundary: ACT 0의 문제 모델이다. 특정 Trial의 실제 실패·관찰 순서·모든 Repository 업무에서 반복되는 비용으로 주장하지 않는다. 여섯 정보 범주가 모두 동시에 필요하다고 일반화하지 않는다. 명세서는 기대 동작을 확인하는 문서라는 뜻이며 실제 회사 문서나 제품 UI를 재현하지 않는다.
+
+보존된 상세 범위: 특정 Trial의 실제 화면이 아닙니다. 명세서는 IDE 밖에서도 함께 참고하는 문서입니다.
 
 Beginner Explanation: 디버깅하면서 이미 보던 테스트 결과·코드·변수 값·명세서가 질문에 필요한 Context가 될 수 있다. 필요한 정보를 골라 묶는다는 점을 알아차리면 충분하다.
 
@@ -332,8 +350,12 @@ Demo에서는 파일을 직접 지정하지 않았을 때의 Search → Read →
 **Evidence / Source:**
 DEMO-01, STATE-00, TRIAL-001, BEAT-003, OQ-003, OQ-005. `plan/DEMO_MATRIX.md` TRIAL-001의 요청 원문을 일반 입력창 형태로 재구성한다. 우측 GoogleTest 가상 UI(5개 통과·1개 실패)는 별도의 교육용 그림이며 실제 제품·실행·Trial 캡처가 아니다. 자산: `assets/slide-illustrations/S04-google-test-mock.png`; 생성 프롬프트: `assets/slide-illustrations/S04_PROMPT.md`. Read / Resize / Crop / Normalize / Statistics / Write의 여섯 항목과 Crop 실패는 가상 설정이다. TRIAL-001의 실제 Python `unittest` 전체 실행은 7개 통과·crop 실패 1건·읽기 전용 임시 디렉터리 환경 오류 3건이었다. 이 장은 setup이며 실제 발견 파일·원인·조사 결과는 S07–S08에서 연다.
 
+보존된 상세 출처: 실제 요청: TRIAL-001 · Codex CLI 0.154.0 · macOS · 읽기 전용
+
 **Claim Boundary:**
 기록된 Trial은 격리된 비대화형 Codex CLI 0.154.0, macOS, `--sandbox read-only`, `--ignore-user-config` 조건에서 수행됐다. Codex Desktop·교육 계정·현재 제품 동작을 입증하지 않는다. 좌측 입력창은 실제 요청 원문의 재구성이고 우측 GoogleTest는 가상 UI다. 이 그림의 5 PASS/1 FAIL을 TRIAL-001의 실제 결과로 말하지 않으며, 실제 unittest의 환경 오류를 숨기거나 제품 결함으로 바꾸지 않는다. 실제 screenshot·새 Trial·C++ 실행은 없다.
+
+보존된 상세 범위: 우측은 가상 GoogleTest 예시 · 실제 Trial은 Python unittest · 현재 Desktop은 미검증
 
 **Beginner Explanation:**
 익숙한 테스트 목록에서 실패 하나를 보는 문제 상황을 떠올리고, 실제 기록에서는 Agent가 무엇을 찾아냈는지 다음 장에서 확인한다. 그림의 가상 목록과 실제 Trial 근거를 구분한다.
@@ -394,8 +416,12 @@ crop(image,1,3)의 끝 좌표 제외 명세는 원본 열1·2, 값2·3과 폭2�
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성.
 
+보존된 상세 출처: TRIAL-001 · STATE-00 테스트·소스의 첫 행을 발췌한 재구성 · CLI 0.154.0
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — TRIAL-001·STATE-00의 Python Crop 한 건. 첫 행 발췌 재구성이며 코드 수정·C++ 할당/오버런·현재 Desktop 검증이 아니다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+
+보존된 상세 범위: 실제 실행 Screenshot 아님 · 코드 수정 없음 · C++ 할당·capacity·버퍼 오버런 사례 아님
 
 **Beginner Explanation:**
 끝 좌표를 하나 더 포함하면 기대한 폭과 값이 달라지는 현상을 본다.
@@ -456,8 +482,12 @@ Demo 4분 (CAPTURED / RECONSTRUCTED)
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성.
 
+보존된 상세 출처: TRIAL-001 · 발견한 테스트·명세·구현의 관계를 재구성 · Codex CLI 0.154.0
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — TRIAL-001 단일 CLI 조사. 관계도는 Agent의 실제 접근 시간순 로그가 아니며 README의 기존 결함 안내도 있었다. 코드 수정·반복성·현재 Desktop 동작을 주장하지 않는다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+
+보존된 상세 범위: 자료 관계도이며 Agent의 시간순 접근 로그가 아님 · README에도 결함 안내가 있었음 · 코드 수정 없음
 
 **Beginner Explanation:**
 답만 듣는 대신 테스트·명세·구현이 어떻게 원인 설명을 뒷받침하는지 본다.
@@ -517,8 +547,12 @@ TRIAL-001 전체 테스트의 환경 오류3건은 읽기 전용 실행 조건�
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성.
 
+보존된 상세 출처: TRIAL-001 전체 테스트 기록의 실행 환경 제한 · Codex CLI 0.154.0
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — TRIAL-001 실행 환경 제한의 관찰. Product/Crop 결함이나 성공한 환경 복구, 현재 Desktop 동작의 근거가 아니다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+
+보존된 상세 범위: Crop 결함과 별개 · 실행 제한을 관찰했으며 권한을 해제하거나 코드를 수정하지 않음
 
 **Beginner Explanation:**
 테스트가 실패하는 이유에는 코드 결함 외 실행 조건도 있음을 이해한다.
@@ -578,8 +612,12 @@ Repository의 테스트·명세·구현/호출 관계와 실행 환경의 로그
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성.
 
+보존된 상세 출처: TEACHING MODEL · TRIAL-001에서 살펴본 정보를 묶은 교육용 도식
+
 **Claim Boundary:**
 TEACHING MODEL — TRIAL-001에서 살펴본 정보를 묶은 해석이며 새 실행·제품 우열이 아니다. Repository 접근은 실행 권한 확장을 뜻하지 않는다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+
+보존된 상세 범위: 파일은 Repository에서, 실행 조건은 도구·권한에서 확인 · Repository 접근이 권한을 늘리지는 않음
 
 **Beginner Explanation:**
 Context가 단지 복사한 코드 조각만을 의미하지 않음을 이번 사건으로 이해한다.
@@ -639,8 +677,12 @@ Lecture 2분
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성. DEC-0086: prototype/image-illustration-pilot/assets/S07.png의 왼쪽 장면을 우측 상단 여백에 가로·세로1.8배로 확대해 재사용한다. 생성 지시는 prototype/image-illustration-pilot/PROMPTS.md의 S09에 보존한다. AI 생성 설명용 삽화이며 실제 실행 캡처·새 Trial 근거가 아니다.
 
+보존된 상세 출처: TEACHING MODEL · 자료를 직접 선택·첨부하는 대화 방식의 가정
+
 **Claim Boundary:**
 TEACHING MODEL — 실제 Chatbot 비교 실행·성능·불가능성 주장이 아니다. 환경 로그·권한 정보까지 전달하면 원인 분석 단서도 전달된다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+
+보존된 상세 범위: 실제 Chatbot 비교 실행 아님 · 자료 전달 방식의 차이이며 제품 능력·효율 우위를 입증하지 않음
 
 **Beginner Explanation:**
 답변 전에도 사람이 관련 자료를 찾아 연결하는 일이 있음을 본다.
@@ -701,8 +743,12 @@ TRIAL-001에서 Agent가 허용된 파일·도구 범위의 테스트·코드·�
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성. DEC-0086: prototype/image-illustration-pilot/assets/S07.png의 오른쪽 장면을 우측 상단 여백에 가로·세로1.8배로 확대해 재사용한다. 생성 지시는 prototype/image-illustration-pilot/PROMPTS.md의 S09에 보존한다. AI 생성 설명용 삽화이며 실제 실행 캡처·새 Trial 근거가 아니다.
 
+보존된 상세 출처: TRIAL-001 단일 CLI 조사와 연결한 교육용 도식 · Codex CLI 0.154.0
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 실제 관찰은 과거 Codex CLI0.154.0 한 번; TEACHING MODEL — 그림은 조사 관계의 각색. 현재 Desktop·일반 효율·반복성·권한 확대/해결을 주장하지 않는다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+
+보존된 상세 범위: 권한 제한을 해제하지 않음 · 목표·검토 책임은 개발자에게 남음 · 현재 Desktop 미검증
 
 **Beginner Explanation:**
 관련 파일을 모두 직접 복사하기 전에 허용된 Repository 조사를 요청할 수 있음을 본다.
@@ -756,7 +802,11 @@ Opening Question: “Repository 작업을 맡기려면 어디로 들어갈까?�
 
 Evidence / Source: BEAT-003에 연결한 사용자 승인 진입 가교; DEC-0036; SRC-0228 (Quickstart), SRC-0229 (App), CLM-0031 (공식 문서의 전환 경로, 대상 UI·계정 UNVERIFIED). 공식 자료 [ChatGPT quickstart](https://learn.chatgpt.com/docs/quickstart?setup=app), [ChatGPT app](https://learn.chatgpt.com/docs/app), 확인 2026-10-21. Quickstart는 코드베이스 Context·개발 도구가 필요한 소프트웨어 개발에서 ChatGPT dropdown의 Codex 선택을 안내한다. 좌측 상단 위치는 사용자의 명시적 UI 요구다. 화면 구성은 공식 자료 기반 UI 재구성이며 실제 Screenshot이 아니다. 로컬 앱 직접 확인은 도구 안전 제약으로 수행하지 못해 UNVERIFIED다.
 
+보존된 상세 출처: OpenAI Quickstart · 공식 문서 2026-10-21 확인 · 앱 전환 메뉴 재구성
+
 Claim Boundary: 이 교육의 개발 작업 진입 경로를 안내한다. 모든 Repository 접근에 Codex만 가능하다는 보편적 주장이 아니다. ChatGPT의 다른 작업 표면에서도 파일 접근이 가능한 경우가 있으며 제품·계정·권한에 따라 다르다. 과거 CLI TRIAL-001을 현재 Desktop 동작의 검증 근거로 사용하지 않는다. 현재 대상 계정·Windows·정확한 메뉴와 폴더 선택 동작은 실제 환경 확인 전까지 UNVERIFIED다.
+
+보존된 상세 범위: 교육용 도식입니다. 앱 버전·계정별 표시와 접근 권한은 발표 환경에서 확인합니다.
 
 Beginner Explanation: 작은 코드 질문을 하던 대화에서 Repository 조사로 옮길 때, 이 교육에서는 Codex를 선택하는 진입점을 사용한다.
 
@@ -801,9 +851,11 @@ Opening Question: “Repository를 볼 수 있으면 원하는 작업도 알게 
 
 Evidence / Source: BEAT-003 next friction, DEMO-01 callback, TRIAL-001; CLM-0002, CLM-0009; DEC-0036. TEACHING_MODEL. 사람·AI Agent 픽토그램: assets/slide-illustrations/human-agent-icons.png, image_gen 교육용 이미지이며 실제 사람 사진·제품 UI·관찰 결과가 아니다.
 
+보존된 상세 출처: 이 과정의 교육 모델 · 정보 접근과 최종 결정 책임의 구분 · AI 생성 역할 아이콘
 
 Claim Boundary: Mental Model이며 모든 제품·환경의 기능 설명이 아니다. “볼 수 있다”는 허용된 자료·접근 범위 안의 조사 가능성을 뜻하며 무제한 접근을 보증하지 않는다. 사람의 최종 결정은 이 교육의 목표·범위·수용 책임 원칙이다. AI가 판단·추론·제안을 전혀 못한다는 뜻이 아니다. Prompt 구조나 완료 조건의 구체 항목은 ACT 1에서 미리 설명하지 않는다.
 
+보존된 상세 범위: Agent는 조사·제안을 할 수 있습니다. 목표·허용 범위·완료 수용의 최종 결정과 책임은 사람에게 있습니다.
 
 Beginner Explanation: 사람과 Agent가 같은 파일을 살필 수 있어도, 원하는 결과와 받아들일 변경은 사람이 최종 정한다.
 
@@ -854,7 +906,11 @@ Opening Question: “지금 이 저장소에 어떤 일을 맡기고 싶으신�
 
 Evidence / Source: BEAT-003 → BEAT-004, DEMO-01 callback, CLM-0002, CLM-0009, DEC-0037. TEACHING_MODEL. plan/DEMO_REPOSITORY_SPEC.md의 초기 모듈 범위 및 ai-dev-training-demo의 src/graypipe/pipeline.py·statistics.py와 대조했다. 실제 구현은 load→normalize→optional invert/crop/resize→save→statistics 경로이며 현재 도식과 동일한 제조 검사 순서가 아니다. 새로운 실행·Trial은 수행하지 않았다.
 
+보존된 상세 출처: 교육용 검사 Task 가정 · 점선은 추가 정의·연결 범위 · 실제 실행 결과 아님
+
 Claim Boundary: 제조 검사장비로 확장하는 교육용 가정이다. 실제 저장소에는 normalize/resize/statistics도 구현돼 있으므로 점선을 함수 미구현으로 설명하지 않는다. crop의 실선도 정상·검증 완료를 뜻하지 않는다. TRIAL-001 조사 뒤 실제 crop 수정은 다음 ACT의 TRIAL-002에서 회수한다. 통계 카드의 막대는 추상 기호이며 측정 히스토그램·결함 검출·양불 판정 결과가 아니다. 판정 조건·알고리즘 정답이나 완성된 Task 요청을 이 장에서 제공하지 않는다.
+
+보존된 상세 범위: 실제 저장소에는 후속 함수도 있습니다. 도식은 실제 실행 순서나 함수의 미구현 상태를 재현하지 않습니다.
 
 Beginner Explanation: ROI crop 이후 검사에서 무엇을 더 하고 싶은지는 코드를 보는 것만으로 정해지지 않는다. 그림의 점선 중 어디까지 맡기고 싶은지 떠올리면 충분하다.
 

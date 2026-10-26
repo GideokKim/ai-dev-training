@@ -16,6 +16,7 @@ import {goalLoopFactories} from './act4-goal-loop.mjs';
 import {goalTipFactories} from './goal-tips.mjs';
 import {act5SynthesisFactories} from './act5-synthesis.mjs';
 import {CURRENT_SLIDE_COUNT,afterCopilotTip,migrate116Factories,copilotTipFactory} from './copilot-tip.mjs';
+import {applyAudienceFooter} from './audience-footers.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
@@ -92,6 +93,7 @@ const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.j
 if(moduleMap.slides.length!==116)throw new Error('Expected 116 legacy module mappings.');
 const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[afterCopilotTip(r.slideId),{...r,slideId:afterCopilotTip(r.slideId)}]));
 moduleRecords.S04={slideId:'S04',footerLabel:'M 연계 · 신규 확장',modules:[],scope:'new_extension'};
+const audienceFooters=JSON.parse(await fs.readFile(path.join(here,'audience-footers.json'),'utf8'));
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -117,6 +119,7 @@ for(const deck of decks){
   if(p.slides.items.length!==before+1)throw new Error('Each factory must add exactly one slide: '+id);
   if(tipRecords[id])addPracticalTipBadge(s,tipRecords[id].category,H);
   addModuleFooter(s,id,moduleRecords[id],H);
+  applyAudienceFooter(s,id,audienceFooters,H);
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
  }

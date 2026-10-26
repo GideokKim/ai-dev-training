@@ -1,0 +1,113 @@
+{
+  "status": "LOCAL_PASS",
+  "baseline": "aaed341",
+  "slideCount": 117,
+  "minutes": 412,
+  "ACTMinutes": [
+    45,
+    64,
+    82,
+    96,
+    85,
+    40
+  ],
+  "modeMinutes": {
+    "Transition": 26,
+    "Lecture": 178,
+    "Reflection": 22,
+    "Case": 105,
+    "Demo": 49,
+    "Q&A": 32
+  },
+  "ordinaryFooterRowsBefore": 222,
+  "ordinaryFooterRowsAfter": 92,
+  "emptyOrdinaryFooters": 26,
+  "legacyLabelsRetained": 117,
+  "ACTTitleBrandingRetained": 6,
+  "bodySlidesVerified": 234,
+  "notesVerified": 234,
+  "unchangedTitleSlideViews": 12,
+  "notesSchemaFields": 19,
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "slides": 117,
+      "sha256": "b7b6db6667b7c35ead8b7d807f2558ccd8502c005b3b5fca1414a6db867387c2",
+      "footerRows": 92,
+      "changedParts": 222,
+      "bodyFramesMLabelsMediaChartsWorkbooks": "PRESERVED"
+    },
+    {
+      "name": "ACT_0",
+      "slides": 15,
+      "sha256": "c00397e4060fa5c2622120389b838cf3800386839b0d791a61db7182a142c719",
+      "footerRows": 9,
+      "changedParts": 28,
+      "bodyFramesMLabelsMediaChartsWorkbooks": "PRESERVED"
+    },
+    {
+      "name": "ACT_1",
+      "slides": 22,
+      "sha256": "e6c627898697f56f3246e0a54704b97c7a90b75c24d92b1f8fb1714858d8ea74",
+      "footerRows": 18,
+      "changedParts": 42,
+      "bodyFramesMLabelsMediaChartsWorkbooks": "PRESERVED"
+    },
+    {
+      "name": "ACT_2",
+      "slides": 19,
+      "sha256": "92ae3d4f7ebf662e5954926fb260d328e466e47aa6390b4f92f85a11d31748e1",
+      "footerRows": 17,
+      "changedParts": 36,
+      "bodyFramesMLabelsMediaChartsWorkbooks": "PRESERVED"
+    },
+    {
+      "name": "ACT_3",
+      "slides": 26,
+      "sha256": "3447ae8d1dc7ec17cc2a135b181f0226ee3b3e9c01a04bcac45ff458b89a5ef3",
+      "footerRows": 24,
+      "changedParts": 50,
+      "bodyFramesMLabelsMediaChartsWorkbooks": "PRESERVED"
+    },
+    {
+      "name": "ACT_4",
+      "slides": 20,
+      "sha256": "97f807e44609884e9883b9722a6eb4a2be2bdba2589f0d6103b901639b7df68e",
+      "footerRows": 19,
+      "changedParts": 38,
+      "bodyFramesMLabelsMediaChartsWorkbooks": "PRESERVED"
+    },
+    {
+      "name": "ACT_5",
+      "slides": 15,
+      "sha256": "d6d45d3c6b50dc50d9e2742ba7f32e6a029c44e48cfd8d2a8f478fb18a0cff21",
+      "footerRows": 5,
+      "changedParts": 28,
+      "bodyFramesMLabelsMediaChartsWorkbooks": "PRESERVED"
+    }
+  ],
+  "externalGates": "Windows PowerPoint, company-account execution, room projection and rehearsal UNVERIFIED",
+  "renderedPNGs": 234,
+  "pixelVerifiedSlides": 117,
+  "fullACTPixelParity": true,
+  "bodyPixelsUnchanged": true,
+  "legacyModulePixelsUnchanged": true,
+  "ACTTitlePixelsUnchanged": true,
+  "visualReview": {
+    "individualSlides": [
+      "S02",
+      "S27",
+      "S67",
+      "S84",
+      "S94",
+      "S104"
+    ],
+    "result": "No new clipping/overlap found in inspected footer labels; all117bodies/M-label areas pixel-identical to baseline; all Full/ACT renders identical.",
+    "renderScope": "Exact final Full117plus six ACT117 =234PNGs"
+  },
+  "fullNotesSha256": "3d23ae3aa010063489bb4d6a5ccdfe83dd3d0cf36828b8d3730cc91edc99c9be",
+  "fullMontageSha256": "94bb89c56dc191ae516add9733631c469fbe9e4c33c45bec30f3e7d0af732683",
+  "staticFallbackRowsVerified": 44,
+  "site": "Unchanged previous edition",
+  "presenterBundle": "Not updated"
+}

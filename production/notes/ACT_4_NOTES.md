@@ -1,5 +1,7 @@
 # ACT 4 — Speaker Notes
 
+> 하단 표기 DEC-0103: 제작·관리 상세는 Evidence / Source와 Claim Boundary에 보존한다. 발표 화면은 승인된 간략 표기를 사용하며 기존19필드·장별 배정·근거는 유지한다.
+
 > Current: DEC-0101 /117slides/412minutes. ACT0 fifteen slides/45minutes; retained content and per-slide budgets unchanged. Current IDs follow plan/SLIDE_ID_MIGRATION_117.md. Earlier headers retain their historical edition.
 
 > 현재 기준 DEC-0099:116장·410분. S103–S107은 전체 관점의 종합이며 개인 선택은 S111/S112에 둔다. S104의 Demo2분을 Case2분으로 정렬했다. Mode176/49/105/22/26/32분. 아래 이전 안내의 Mode·근거 범위는 당시 기록이다.
@@ -109,8 +111,12 @@ Lecture 2분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-073; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 후보·지적·수정은 설명용 설계 · 실제 실행·측정·PASS/FAIL 결과 없음
 
 **Beginner Explanation:**
 한 목표를 마치는 동안 사람이 검토·수정·재확인의 다음 요청을 계속 연결하는 문제를 드러낸다.
@@ -169,8 +175,12 @@ Lecture 2분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-074; CASE-LOOP-01; existing six-field specification in DEMO_MATRIX. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 할당량 목표·실행시간 상한·대표 입력은 실행 전에 확정 · 현재 수치는 TBD
 
 **Beginner Explanation:**
 밝기 통계의 출력·동작, 임시 할당, 실행시간 조건을 처음부터 완료 기준으로 두고 반복 중 유지한다.
@@ -230,8 +240,12 @@ Case 4분
 **Evidence / Source:**
 DEC-0097; BEAT-075; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 후보·지적·수정은 설명용 설계 · 실제 실행·측정·PASS/FAIL 결과 없음
 
 **Beginner Explanation:**
 첫 구현은 검토할 후보이며 완료가 아니다. 가상 v1은 전체 값 복사가 남아 있는 계산 방식이다.
@@ -290,8 +304,12 @@ Lecture 2분 + Case 3분
 **Evidence / Source:**
 DEC-0097; BEAT-075; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 검사할 항목의 설계 · 실제 명령 실행·측정값·통과 결과를 제시하는 장이 아님
 
 **Beginner Explanation:**
 모델의 설명을 실제 검사·측정 기록으로 대조하도록 검증을 설계한다.
@@ -351,8 +369,12 @@ Case 5분
 **Evidence / Source:**
 DEC-0097; BEAT-076; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 후보·지적·수정은 설명용 설계 · 실제 실행·측정·PASS/FAIL 결과 없음
 
 **Beginner Explanation:**
 다른 모델 B는 목표·명세·diff·검사 기록을 근거로 구체적인 검토 지적을 만든다.
@@ -412,8 +434,12 @@ Case 4분
 **Evidence / Source:**
 DEC-0097; BEAT-077; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 후보·지적·수정은 설명용 설계 · 실제 실행·측정·PASS/FAIL 결과 없음
 
 **Beginner Explanation:**
 검토 지적의 번호를 유지해 다음 변경 후보가 무엇을 고치는지 연결한다.
@@ -473,8 +499,12 @@ Case 4분
 **Evidence / Source:**
 DEC-0097; BEAT-078; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+
 **Claim Boundary:**
 CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 재검증·재검토의 운영 설계 · 후보 v2가 성공했다는 실제 결과는 없음
 
 **Beginner Explanation:**
 후보 v2를 같은 기준으로 재검증·재검토하고 남은 지적은 다음 수정으로 되돌린다.
@@ -533,8 +563,12 @@ Lecture 3분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-079; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: TEACHING_MODEL · 목표와 근거를 다음 수정에 연결하는 시스템
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 구체적 제품 기능·자동 실행 이력·모델 학습·완료 성과를 관찰한 결과가 아님
 
 **Beginner Explanation:**
 목표·완료 기준 아래 구현, 도구 근거, 다른 모델의 검토와 다음 수정 판단을 하나의 닫힌 경로로 설계한다.
@@ -593,8 +627,12 @@ Lecture 3분 + Reflection 2분
 **Evidence / Source:**
 DEC-0097; BEAT-079; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: TEACHING_MODEL · 반복의 종료와 다음 행동을 정하는 기준
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 미완료 중단은 목표 달성과 다름 · 반복·시간·비용 한도 수치는 실행 전에 정함
 
 **Beginner Explanation:**
 근거에 따라 완료, 다음 수정, 미완료 중단·사람 확인을 구분한다.
@@ -653,8 +691,12 @@ Lecture 4분
 **Evidence / Source:**
 DEC-0097; BEAT-080; SRC-0223; SRC-0239; CLM-0045. Primary sources checked 2026-10-25: https://arxiv.org/abs/2303.17651; https://arxiv.org/abs/2310.01798
 
+보존된 상세 출처: Self-Refine (2023) / Huang et al., ICLR 2024 · 서로 다른 실험 조건의 연구
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 해당 연구의 모델·과제·방법과 조건에 한정. 현재 Codex의 일반 성능·비용이나 새 코드 루프 성과로 확장하지 않는다.
+
+보존된 상세 범위: 과거 연구 대상의 결과 · 현재 모든 모델의 자기 검토 능력이나 다중 모델 우월성을 뜻하지 않음
 
 **Beginner Explanation:**
 자기 피드백으로 개선된 연구와 외부 근거 없는 자기 교정의 한계 연구를 조건과 함께 설명한다.
@@ -713,8 +755,12 @@ ReConcile의 StrategyQA 실험에서 여러 모델 조합과 같은 ChatGPT 세 
 **Evidence / Source:**
 DEC-0097; BEAT-081; SRC-0237; CLM-0043; ReConcile Table 7. Primary sources checked 2026-10-25: https://aclanthology.org/2024.acl-long.381.pdf (Table 7)
 
+보존된 상세 출처: ReConcile · ACL 2024 · Table 7 · StrategyQA의 토론·합의 실험
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 해당 연구의 모델·과제·방법과 조건에 한정. 현재 Codex의 일반 성능·비용이나 새 코드 루프 성과로 확장하지 않는다.
+
+보존된 상세 범위: 코드 수정 실험이 아님 · 현재 모델의 일반 성능·비용 개선으로 확대하지 않음
 
 **Beginner Explanation:**
 ReConcile의 StrategyQA 실험에서 여러 모델 조합과 같은 ChatGPT 세 Agent 구성을 비교한 결과를 설명한다.
@@ -773,8 +819,12 @@ CriticBench의 생성·검토·수정 능력과 교차 모델 검토 결과를 �
 **Evidence / Source:**
 DEC-0097; BEAT-081; SRC-0238; CLM-0044; CriticBench section 4.2.5. Primary sources checked 2026-10-25: https://aclanthology.org/2024.findings-acl.91.pdf (section 4.2.5)
 
+보존된 상세 출처: CriticBench · Findings of ACL 2024 · 17개 모델 / §4.2.5 교차 모델 검토
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 해당 연구의 모델·과제·방법과 조건에 한정. 현재 Codex의 일반 성능·비용이나 새 코드 루프 성과로 확장하지 않는다.
+
+보존된 상세 범위: 일부 모델·과제에서의 결과 · 이 교육의 코드 루프 완료율·비용 개선을 측정한 연구가 아님
 
 **Beginner Explanation:**
 CriticBench의 생성·검토·수정 능력과 교차 모델 검토 결과를 근거로 검토자 선택을 따로 평가할 이유를 설명한다.
@@ -833,8 +883,12 @@ Lecture 2분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-082; CLM-0043; CLM-0044; CASE-LOOP-01. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 연구를 참고한 개발 작업의 역할 배치 제안 · 현재 제품의 자동 배치 기능 설명 아님
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 같은 모델의 역할 분리와 서로 다른 모델 조합을 구분 · 실제 조합의 효과는 별도 평가
 
 **Beginner Explanation:**
 같은 모델의 역할 분리와 다른 모델의 구현·검토 조합을 구분하고 실제 작업에서 효과를 평가한다.
@@ -893,8 +947,12 @@ Lecture 2분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-082; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: TEACHING_MODEL · 검토 지적의 수용·기각과 추가 확인
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 모델 동의·다수결만으로 완료하지 않음 · 검토 모델도 틀릴 수 있음
 
 **Beginner Explanation:**
 검토 모델의 지적도 명세와 검사 근거로 대조해 수용·기각·추가 확인을 결정한다.
@@ -953,8 +1011,12 @@ Lecture 2분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-082; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: TEACHING_MODEL · 같은 목표의 다음 시도를 위한 최소 기록
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 새 Memory·프레임워크가 필수인 것은 아님 · 한도와 중단 후 재개는 별도 운영 기준
 
 **Beginner Explanation:**
 고정 목표, 현재 후보·검토·검사, 남은 문제와 한도를 다음 시도가 이어받도록 설계한다.
@@ -1013,8 +1075,12 @@ Lecture 2분 + Case 2분
 **Evidence / Source:**
 DEC-0097; BEAT-083; STATE-04-PERF; TRIAL-008; SRC-0237; SRC-0238; CASE-LOOP-01. Primary sources checked 2026-10-25: https://aclanthology.org/2024.acl-long.381.pdf (Table 7); https://aclanthology.org/2024.findings-acl.91.pdf (section 4.2.5)
 
+보존된 상세 출처: 기존 Product Trial / 인용한 연구 / CASE-LOOP-01 설계의 근거 경계
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 기존 Trial을 다중 모델 루프의 실행 증거로 사용하지 않음 · 새 모델 조합·완료 성과 미검증
 
 **Beginner Explanation:**
 기존 제품 Trial, 인용 연구, 이번 루프 설계의 세 근거 범위를 구분한다.
@@ -1074,8 +1140,12 @@ Goal은 턴을 넘어 목표·상태를 유지하고 근거 확인 뒤 계속 �
 **Evidence / Source:**
 SRC-0240; SRC-0241; SRC-0242; CLM-0046; DEC-0098. Official pages checked2026-10-25: https://learn.chatgpt.com/docs/long-running-work; https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex; https://learn.chatgpt.com/docs/reference/slash-commands. 교육용 요청·도식이며 실행 캡처나 기존 Trial의 생성 이력이 아니다.
 
+보존된 상세 출처: OpenAI 공식 Goal 안내 · 2026-10-25 확인 · 사용법을 설명하는 도식
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 공식 문서로 확인한 기능·안내와 교육용 도식. 사내 계정/버전/설정의 사용 가능 여부는 REQUIRES PRODUCT CHECK. 자동 다중 모델 배정·완료 보장·시간/비용 절감을 주장하지 않는다.
+
+보존된 상세 범위: 실제 화면·실행 결과 아님 · 다른 모델 검토자는 별도 설계 · 사내 환경에서 사용 가능 여부 확인
 
 **Beginner Explanation:**
 Goal은 턴을 넘어 목표·상태를 유지하고 근거 확인 뒤 계속 수행을 연결한다. 완료 기준과 검증·검토 역할은 작업에 맞게 설계한다.
@@ -1135,8 +1205,12 @@ Goal 요청에는 원하는 변화, 보존 조건, 완료를 확인할 근거와
 **Evidence / Source:**
 SRC-0240; SRC-0241; CLM-0047; DEC-0098. Official pages checked2026-10-25: https://learn.chatgpt.com/docs/long-running-work; https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex; https://learn.chatgpt.com/docs/reference/slash-commands. 교육용 요청·도식이며 실행 캡처나 기존 Trial의 생성 이력이 아니다.
 
+보존된 상세 출처: OpenAI Goals 작성 안내를 밝기 통계 작업으로 각색 · 실제 실행 요청·결과 아님
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 공식 작성 안내를 각색한 교육용 Goal 예시이며 활성화·명령 실행·측정·완료 결과가 아니다. 기준판·대표 입력·측정 방법을 실제 사용 전에 확정한다. 현재 다중 모델 조합의 성과를 증명하지 않는다.
+
+보존된 상세 범위: 기준판·대표 입력·측정 방법을 먼저 확정 · 완료 보장 없음 · 다중 모델 검토를 자동 구성한다는 뜻 아님
 
 **Beginner Explanation:**
 Goal 요청에는 원하는 변화, 보존 조건, 완료를 확인할 근거와 막혔을 때 보고할 조건을 담는다. 같은 기준으로 진행을 판단한다.
@@ -1196,8 +1270,12 @@ Goal의 계속 수행 기능을 활용하되 내 업무에 필요한 목표·근
 **Evidence / Source:**
 DEC-0097; BEAT-083; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
 
+보존된 상세 출처: 개인 성찰과 Q&A · 실습·제출·구현 요구 없음
+
 **Claim Boundary:**
 TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+
+보존된 상세 범위: 목표·판단·검증·책임은 유지 · 다음 ACT에서 조합·통합·제거를 검토
 
 **Beginner Explanation:**
 내 업무의 목표·피드백·운영 판단을 떠올리고 ACT5의 조합·통합·제거로 이어간다.

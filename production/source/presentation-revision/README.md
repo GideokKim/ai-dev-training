@@ -1,5 +1,11 @@
 # Current presentation source
 
+Current footer policy: DEC-0103. Apply `audience-footers.mjs` after
+`addModuleFooter` at final117IDs. `audience-footers.json` is the current
+per-slide source of short footer text. Full original footer scope stays
+in the19-field Notes and the provenance registry. Keep M labels, ACT
+branding, frame rules, body/evidence and117slides/412minutes unchanged.
+
 Current: DEC-0101 /117slides/412minutes. Add only S04 after retained S03.
 `copilot-tip.mjs` migrates all116retained factories once after existing
 overlays and before badges/module footers. Source JSON and older factories

@@ -1,5 +1,7 @@
 # ACT 5 — Speaker Notes
 
+> 하단 표기 DEC-0103: 제작·관리 상세는 Evidence / Source와 Claim Boundary에 보존한다. 발표 화면은 승인된 간략 표기를 사용하며 기존19필드·장별 배정·근거는 유지한다.
+
 > Current: DEC-0101 /117slides/412minutes. ACT0 fifteen slides/45minutes; retained content and per-slide budgets unchanged. Current IDs follow plan/SLIDE_ID_MIGRATION_117.md. Earlier headers retain their historical edition.
 
 > 현재 기준 DEC-0099:116장·410분. S103–S107은 전체 관점의 종합이며 개인 선택은 S111/S112에 둔다. S104의 Demo2분을 Case2분으로 정렬했다. Mode176/49/105/22/26/32분. 아래 이전 안내의 Mode·근거 범위는 당시 기록이다.
@@ -112,8 +114,12 @@ Chatbot에서 Prompt·Context·Harness·Loop로, 질문에 답하는 범위에�
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-060.
 
+보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
+
 **Claim Boundary:**
 TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행·비교·측정 결과가 아니다. Goal·다중 모델 루프·새 제품 기능을 실행 검증한 근거로 쓰지 않는다.
+
+보존된 상세 범위: 설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님
 
 **Beginner Explanation:**
 저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
@@ -173,8 +179,12 @@ Lecture 1분 + Case 2분
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-060.
 
+보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
+
 **Claim Boundary:**
 TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행·비교·측정 결과가 아니다. Goal·다중 모델 루프·새 제품 기능을 실행 검증한 근거로 쓰지 않는다.
+
+보존된 상세 범위: 설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님
 
 **Beginner Explanation:**
 저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
@@ -234,8 +244,12 @@ Lecture 2분
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
 
+보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
+
 **Claim Boundary:**
 TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행·비교·측정 결과가 아니다. Goal·다중 모델 루프·새 제품 기능을 실행 검증한 근거로 쓰지 않는다.
+
+보존된 상세 범위: 설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님
 
 **Beginner Explanation:**
 저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
@@ -295,8 +309,12 @@ Lecture 3분
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
 
+보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
+
 **Claim Boundary:**
 TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행·비교·측정 결과가 아니다. Goal·다중 모델 루프·새 제품 기능을 실행 검증한 근거로 쓰지 않는다.
+
+보존된 상세 범위: 설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님
 
 **Beginner Explanation:**
 저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
@@ -356,8 +374,12 @@ Lecture 3분
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
 
+보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
+
 **Claim Boundary:**
 TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행·비교·측정 결과가 아니다. Goal·다중 모델 루프·새 제품 기능을 실행 검증한 근거로 쓰지 않는다.
+
+보존된 상세 범위: 설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님
 
 **Beginner Explanation:**
 저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
@@ -417,8 +439,12 @@ Lecture 2분
 **Evidence / Source:**
 RESEARCH / TEACHING_MODEL · SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083. references/engineering/harness-reassessment.md에 출처·해석·한계를 분리한다.
 
+보존된 상세 출처: SRC-0236 · Anthropic, 2026-10-22 · 일부 기업 Agent의 통합 사례를 각색
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — CLM-0040의 공급사 공개 사례 요약; TEACHING MODEL — 비교 구조는 교육용 각색; 현재 Codex의 통합 효과는 미검증. 새 Demo Trial이나 실제 통합·제거 효과를 관찰하지 않았다. 현재 Codex UI/모델·계정 동작으로 일반화하지 않는다.
+
+보존된 상세 범위: 우리 Demo의 관찰·효과 측정이 아님 · 새 모델이면 무조건 통합한다는 뜻은 아님
 
 **Beginner Explanation:**
 처음에는 필요했던 장치도 조건이 달라지면 다시 볼 수 있음을 이해한다.
@@ -479,8 +505,12 @@ Lecture 2분
 **Evidence / Source:**
 TEACHING_MODEL · CLM-0022, CLM-0030, SRC-0236, BEAT-057, BEAT-061, BEAT-069, DEC-0083. references/engineering/harness-reassessment.md에 출처·해석·한계를 분리한다.
 
+보존된 상세 출처: TEACHING MODEL · BEAT-057 / 061 / 069 · CLM-0022 · DEC-0083
+
 **Claim Boundary:**
 TEACHING MODEL — CLM-0022의 bounded heuristic을 기존 구성 재평가에 적용. 적을수록 좋다는 보편 법칙이나 성과가 아니다. 새 Demo Trial이나 실제 통합·제거 효과를 관찰하지 않았다. 현재 Codex UI/모델·계정 동작으로 일반화하지 않는다.
+
+보존된 상세 범위: 통합·제거는 후보 판단 · 안전·권한·명세·검증 요구를 없애는 처방이 아님
 
 **Beginner Explanation:**
 중요한 요구를 지우는 것과 중복된 구현·지침을 덜어내는 것을 구분한다.
@@ -541,8 +571,12 @@ Lecture 2분
 **Evidence / Source:**
 TEACHING_MODEL / RESEARCH · SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083. references/engineering/harness-reassessment.md에 출처·해석·한계를 분리한다.
 
+보존된 상세 출처: TEACHING MODEL · SRC-0236의 평가 권고를 각색 · CLM-0040 · DEC-0083
+
 **Claim Boundary:**
 TEACHING MODEL — 비교 평가 설계이며 실제 실행·PASS/FAIL·측정값 없음. FROZEN WITH SCOPE — SRC-0236의 대표 end-to-end 평가 권고와 통합 뒤 회귀 사례가 동기를 뒷받침한다. 새 Demo Trial이나 실제 통합·제거 효과를 관찰하지 않았다. 현재 Codex UI/모델·계정 동작으로 일반화하지 않는다.
+
+보존된 상세 범위: 새 비교 실험·측정 결과 없음 · 시간·비용만으로 채택하지 않음
 
 **Beginner Explanation:**
 간단해졌다는 인상 대신 원래 할 일을 계속 수행하는지 확인한다.
@@ -602,8 +636,12 @@ Case 1분 + Transition 4분
 **Evidence / Source:**
 TEACHING_MODEL · C++ Vision engineering-pattern transfer. 실제 C++ Project, hardware, toolchain 또는 benchmark 결과는 사용하지 않는다.
 
+보존된 상세 출처: BEAT-068–069 · 업무 적용을 위한 교육용 질문
+
 **Claim Boundary:**
 다섯 선택지는 같은 높이의 적용 후보이며 순서가 있는 maturity ladder가 아니다. 특정 C++ Project 규칙·도구·hardware 또는 검증된 procedure를 보장하지 않는다. 통합·제거는 재평가 후보이며 줄일수록 좋다는 주장이 아니다.
+
+보존된 상세 범위: A–E는 같은 수준의 선택지 · 필수 도입 순서나 검증된 C++ 프로젝트 절차가 아님
 
 **Beginner Explanation:**
 영어 Layer 이름보다 내가 겪는 증상을 먼저 읽고 가까운 것 하나를 찾는다.
@@ -663,8 +701,12 @@ Lecture 2분 + Reflection 2분
 **Evidence / Source:**
 TEACHING_MODEL · 승인된 private reflection prompt. 개인 업무에 대한 새 관찰 근거는 수집하지 않는다.
 
+보존된 상세 출처: BEAT-070–071 · 다음 행동과 확인 근거를 떠올리는 개인 성찰
+
 **Claim Boundary:**
 개인 Reflection이며 응답, 공유, written commitment 또는 실제 업무 변경을 요구하지 않는다. 통합·제거의 성공·비용 절감·품질 유지 결과는 관찰하지 않았다.
+
+보존된 상세 범위: 마음속으로 떠올리는 시간 · 기록·발표·제출·실천 약속은 요구하지 않음
 
 **Beginner Explanation:**
 고른 문제 하나에 대해 다음 작업에서 작게 달리할 행동과 확인할 자료 하나를 떠올린다.
@@ -724,8 +766,12 @@ Lecture 1분
 **Evidence / Source:**
 DEC-0088, DEC-0093. 현재 Slide Map의 제목·ID와 실무 팁 목록. S64/S69은 SRC-0111/0112와 CLM-0041/0042의 공식 안내 각색이며 모든 팁의 실제 관찰/연구/가상 경계는 해당 장을 따른다.
 
+보존된 상세 출처: 기존 팁의 제목·Slide ID를 모은 찾아보기 · DEC-0088
+
 **Claim Boundary:**
 TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능·Trial·성능·검증 결과를 주장하지 않는다.
+
+보존된 상세 범위: 배지는 활용 목적 표시 · 각 팁의 실제 관찰·교육용 예시·제품 확인 범위는 해당 장을 따른다.
 
 **Beginner Explanation:**
 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
@@ -785,8 +831,12 @@ Lecture 1분
 **Evidence / Source:**
 DEC-0088. plan/SLIDE_MAP.md의 기존 제목·현재 ID, plan/PRACTICAL_APPLICATION_TIPS.md. 각 팁의 실제 관찰/연구/가상 사례는 원래 장을 따른다.
 
+보존된 상세 출처: 기존 팁의 제목·Slide ID를 모은 찾아보기 · DEC-0088
+
 **Claim Boundary:**
 TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능·Trial·성능·검증 결과를 주장하지 않는다.
+
+보존된 상세 범위: 배지는 활용 목적 표시 · 각 팁의 실제 관찰·교육용 예시·제품 확인 범위는 해당 장을 따른다.
 
 **Beginner Explanation:**
 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
@@ -846,8 +896,12 @@ Lecture 1분
 **Evidence / Source:**
 DEC-0088. plan/SLIDE_MAP.md의 기존 제목·현재 ID, plan/PRACTICAL_APPLICATION_TIPS.md. 각 팁의 실제 관찰/연구/가상 사례는 원래 장을 따른다.
 
+보존된 상세 출처: 기존 팁의 제목·Slide ID를 모은 찾아보기 · DEC-0088
+
 **Claim Boundary:**
 TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능·Trial·성능·검증 결과를 주장하지 않는다.
+
+보존된 상세 범위: 배지는 활용 목적 표시 · 각 팁의 실제 관찰·교육용 예시·제품 확인 범위는 해당 장을 따른다.
 
 **Beginner Explanation:**
 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
@@ -907,8 +961,12 @@ Q&A 4분 + Closing Transition 2분
 **Evidence / Source:**
 TEACHING_MODEL · BEAT-070–071. 새로운 Product claim이나 기술 개념은 추가하지 않는다.
 
+보존된 상세 출처: BEAT-070–071 · 이 교육의 마무리
+
 **Claim Boundary:**
 AI-Native Development의 course-specific framing으로 닫는다. 제품 기능, 자동화 수준 또는 모든 상황의 단일 처방을 주장하지 않는다.
+
+보존된 상세 범위: 목표 · 판단 · 검증 · 책임은 개발자에게 남는다.
 
 **Beginner Explanation:**
 문제에 맞는 작은 대응과 결과를 확인할 근거를 기억한다.

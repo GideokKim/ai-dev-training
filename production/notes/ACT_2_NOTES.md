@@ -1,5 +1,7 @@
 # ACT 2 — Speaker Notes
 
+> 하단 표기 DEC-0103: 제작·관리 상세는 Evidence / Source와 Claim Boundary에 보존한다. 발표 화면은 승인된 간략 표기를 사용하며 기존19필드·장별 배정·근거는 유지한다.
+
 > Current: DEC-0101 /117slides/412minutes. ACT0 fifteen slides/45minutes; retained content and per-slide budgets unchanged. Current IDs follow plan/SLIDE_ID_MIGRATION_117.md. Earlier headers retain their historical edition.
 
 > 현재 기준 DEC-0099:116장·410분. S103–S107은 전체 관점의 종합이며 개인 선택은 S111/S112에 둔다. S104의 Demo2분을 Case2분으로 정렬했다. Mode176/49/105/22/26/32분. 아래 이전 안내의 Mode·근거 범위는 당시 기록이다.
@@ -124,7 +126,11 @@ Speaker Flow:
 
 Evidence / Source: BEAT-008, CLM-0003, CLM-0005. TEACHING_MODEL / CONCEPTUAL; the three cards are a constructed example, not a Trial.
 
+보존된 상세 출처: 교육용 구성 사례 · Bug fix / Performance / README 작업
+
 Claim Boundary: Repetition can indicate a scope and lifetime question. This slide does not claim a product failure or introduce a repository instruction file as the answer.
+
+보존된 상세 범위: 서로 다른 요청에 같은 프로젝트 정보가 반복되는 상황을 보여준다
 
 Beginner Explanation: If every Task needs the same Project facts, consider whether those facts belong with the Task or with the Project.
 
@@ -170,7 +176,11 @@ Speaker Flow:
 
 Evidence / Source: STATE-01 / DEMO-02 / OBSERVED_PRODUCT. Demo tag `14baf81746a981d7cd96b7a014ea06f28c3dd6b4`, root `AGENTS.md` 2, 5, 9, 15행 발췌. 15줄/567bytes는 원문 메타데이터이며 화면의 중심 메시지로 쓰지 않는다. 테스트 명령은 `Run`과 구두점을 제외한 원문 명령 문자열이다. Source: `plan/DEMO_MATRIX.md` STATE-01 기록.
 
+보존된 상세 출처: OBSERVED PRODUCT  |  STATE-01 · AGENTS.md 실제 원문 발췌
+
 Claim Boundary: 실제 파일이 그 상태에 존재했다는 근거다. 성능, 정확도, 토큰 절감 또는 AGENTS.md 단독 인과효과를 주장하지 않는다. 제품 코드·테스트·README는 그 상태 전환에서 바뀌지 않았다. S41의 지침 활용 관찰을 이 장의 결과로 앞당기지 않는다. 현재 Desktop 자동 로딩이나 교육 환경을 검증한 것이 아니다.
+
+보존된 상세 범위: 파일의 내용과 기록 위치를 보여주는 장 · Agent의 활용 관찰은 다음 장에서 확인
 
 Beginner Explanation: A small set of facts that applies across Project Tasks can be written down once in the repository.
 
@@ -215,7 +225,11 @@ Speaker Flow:
 
 Evidence / Source: TRIAL-003 / STATE-01 / DEMO-02 / OBSERVED_PRODUCT. plan/DEMO_MATRIX.md의 Interface/Product627–634행, 실제 Prompt636–644행, Verification657–672행, Project Context Used674–678행. 지침 명령은 ai-dev-training-demo STATE-01 AGENTS.md9행과 대조했다. 행 번호는 DEC-0046 작성 시점의 locator다. 원본 Trial·지침은 수정하지 않았다.
 
+보존된 상세 출처: TRIAL-003 · 실제 요청 발췌·번역 / 실행 기록 요약 · Codex CLI 0.154.0
+
 Claim Boundary: 단일 CLI 실행의 테스트 지침 사용 관찰이다. 테스트 명령이 없었다는 주석은 실제 지시문이 아니며, 요청에는 최종 diff와 관련 검증 근거 보고가 있었다. AGENTS.md가 모든 지침 준수를 강제했다거나 단독 원인이었다고 주장하지 않는다. Personal readchk/re0/sip도 실행됐고 active instruction-chain trace가 없다. README-only는 Prompt와 중복된 제약이며 local-data/runtime-dependency 규칙은 이번 작업에서 필요하지 않았다. 현재 Desktop·계정·반복성·성능·정확도·토큰 절감 근거가 아니다.
+
+보존된 상세 범위: Skills도 실행 · README-only는 Prompt에도 명시 · AGENTS.md 단독 효과·강제 준수 보장은 미입증
 
 Beginner Explanation: 실제 Prompt는 현재 README 작업을 요청한다. AGENTS.md는 프로젝트 작업 지침을 담고 있으며 이 기록에서는 그 테스트 지침의 명령을 사용했다. 검증 근거 요청과 구체 테스트 명령의 위치를 구분한다.
 
@@ -257,7 +271,11 @@ Speaker Flow: 1. (0–2분) 직전 기록의 현재 README 요청과 재참고�
 
 Evidence / Source: BEAT-009–010, TRANS-003, CLM-0003, CLM-0005, DEC-0047. TEACHING_MODEL / CONCEPTUAL; examples summarize S39–S37. Generated visual provenance and prompts: assets/slide-illustrations/task-context/README.md. No new Trial or product capture.
 
+보존된 상세 출처: 교육용 구분 · 창과 문서는 생성 도식이며 실제 제품 화면이 아님
+
 Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. 이번 요청의 목표·수정 범위와 여러 Task가 재참고할 명령·규칙을 나눈다. 같은 내용이 Prompt 또는 문서 중 한 곳에만 들어갈 수 있다는 뜻이 아니다. 테스트 명령/검증 원칙도 Project 안내에 들어갈 수 있고, 이후 Harness 구간은 여러 단계의 수행·중간 판단을 누가 유지할지 다룬다. 승인된 두 생성 도식과 범위·수명 비교를 유지한다.
+
+보존된 상세 범위: C++에서도 프로젝트 공통 제약과 이번 알고리즘 변경 조건은 범위가 다를 수 있다
 
 Beginner Explanation: Put the current goal in the Task request and distinguish it from facts the Project keeps using.
 
@@ -304,7 +322,11 @@ Speaker Flow:
 
 Evidence / Source: STATE-01 and STATE-02, BEAT-011, CLM-0014, CLM-0015, DEC-0048. OBSERVED_PRODUCT: 실제 AGENTS.md 전후 내용은 plan/DEMO_MATRIX.md와 보존 State tag를 따른다. 원본 메타데이터는15줄/567bytes와32줄/1,303bytes이며 화면에는 표시하지 않는다. STATE-02는55c045523ed1409449d7eea5b0d873983fe101b6이다. 생성 도식·프롬프트: assets/slide-illustrations/context-growth/README.md.
 
+보존된 상세 출처: 실제 AGENTS.md 전후 내용을 바탕으로 재구성 · 문서는 교육용 생성 도식
+
 Claim Boundary: Do not label the growth as a failure threshold, claim that it caused an error, or imply that the content was inaccurate. The visual summarizes recorded document changes; its length is qualitative, no elapsed duration was measured, and current project means this Story stage, not the latest repository HEAD. It is a generated teaching diagram, not a document capture.
+
+보존된 상세 범위: 이야기 속 두 시점 비교 · 정보 증가가 실패를 일으켰다는 관찰은 아님
 
 Beginner Explanation: More documented facts create a follow-up question: does each Task need all of them?
 
@@ -350,7 +372,11 @@ Speaker Flow:
 
 Evidence / Source: TRIAL-004, BEAT-012, CLM-0014, CLM-0015, DEC-0049, DEC-0050. OBSERVED_PRODUCT; Codex CLI0.154.0의 단일 문서 작업 기록. plan/DEMO_MATRIX.md TRIAL-004 actual task/Agent behavior/Relevant Context/Irrelevant-but-Correct Context를 대조했다. 실제 원문은 “Clarify the README Build section by naming the pinned build tools required by the existing wheel command. Use pyproject.toml as the source of truth. Change README.md only, preserve the command, and do not install packages or alter package metadata. Report relevant verification.”이다. 화면은 핵심 발췌·번역이며 전체 원문은 이 기록에 보존한다. 우측 지침은 Demo STATE-02 AGENTS.md(55c045523ed1409449d7eea5b0d873983fe101b6)의 Build / Run, Core Constraints, Architecture, Image Contract, Test, CLI Summary와 대조했다. TRIAL-004 Relevant Context는 README pointer와 scoped-change/verification constraints를 관련 지침으로 기록한다.
 
+보존된 상세 출처: TRIAL-004 · Codex CLI 0.154.0 · 실제 요청 / AGENTS.md 지침 발췌·번역
+
 Claim Boundary: Presence of unnecessary context is not evidence that the model failed, became confused, or performed worse. No such failure was observed. The Agent read AGENTS.md, README.md and pyproject.toml. Gray means task-irrelevant detail, not unread or inaccurate information. Requested verification still applies. Both right-hand groups summarize AGENTS.md content; the specific build-tool versions are not in that file. The full-test command is not presented as mandatory for this documentation change. The Prompt already named the files and constraints, so success is not attributed solely to expanded Context. No performance or token benefit was measured, and historical CLI evidence is not a current Desktop check.
+
+보존된 상세 범위: AGENTS.md도 읽음 · 혼란·Context 관련 실패는 관찰되지 않음 · 성능 효과 미측정
 
 Beginner Explanation: Correct information can still be unrelated to the current Task.
 
@@ -392,7 +418,11 @@ Speaker Flow: 1. (0–1분) 앞 장 AGENTS.md에서 모든 상세가 이번 작�
 
 Evidence / Source: BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051. TEACHING_MODEL / CONCEPTUAL. S44/TRIAL-004의 관련성 관찰을 회수한 설계 모델이다. 도식의 작업별 상세 연결과 성능 절차는 설명용 구성이고 새 Product 관찰·Trial이 아니다.
 
+보존된 상세 출처: 교육용 구분 · 정보의 범위와 수행 방법은 서로 다른 축
+
 Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. OpenAI의 공식 분류 체계로 표현하지 않는다. S44의 관련성 질문을 공통 안내/필요할 때 찾을 상세로 회수한다. 세 번째 열은 다음 문제의 예고이며 해결된 재사용 구조가 아니다. 정보의 범위와 수행 방법은 서로 다른 축이고 AGENTS.md에 절차를 쓰면 안 된다는 제품 규칙이 아니다.
+
+보존된 상세 범위: 공식 제품 분류가 아님 · 오른쪽은 다음 ACT의 미해결 질문
 
 Beginner Explanation: Some facts apply broadly; details matter for a smaller set of Tasks; a work procedure says how to approach a class of work.
 
@@ -434,7 +464,11 @@ Speaker Flow: 1. (0:00–1:00) 문서 QA와 합성 key-value 검색 과제에서
 
 Evidence / Source: Lost in the Middle, Liu et al., TACL2024,12:157–173; https://aclanthology.org/2024.tacl-1.9/; CLM-0014/SRC-0201; DEC-0052/0060. Reconstructed task-position diagram, no numeric score curve.
 
+보존된 상세 출처: Liu et al., TACL 2024 · aclanthology.org/2024.tacl-1.9/ · CLM-0014
+
 Claim Boundary: Lost in the Middle의 역사적 모델·과제·조건에 한정한다. 현재 Codex의 실패율, 보편적인 중간 정보 무시, 토큰 임계값, 정보를 더 주면 항상 나빠짐, Routing 우월성·토큰/성능 효과를 주장하지 않는다. 연구의 위치 비교와 실제 코드 탐색 결과 확인은 서로 다른 질문이다.
+
+보존된 상세 범위: 연구 과제 재구성 · 현재 Codex의 실패율·보편 한계·Routing 효과를 입증하지 않음
 
 Beginner Explanation: 정보가 입력에 있다는 사실만으로 답에 같은 수준으로 활용됐다고 가정하지 않는다. 다음 장에서는 코드 탐색 결과를 확인할 때 어떤 근거를 요구할지 생각한다.
 
@@ -477,7 +511,11 @@ Speaker Flow: 1. (0:00–0:40) S46에서 정보의 존재와 활용을 구분한
 
 Evidence / Source: TEACHING_MODEL / RESEARCH. 코드 출처: Demo STATE-00-FIXED의 src/graypipe/transform.py, crop 6–16행 중13행 row[x_start : x_end] 발췌. 동일한 구현 수정은 기존 TRIAL-002/STATE-00-FIXED 기록에 보존돼 있다. 교육용 요청은 구성 예이며 새 탐색 실행이나 원문 Trial Prompt가 아니다. 보조 연구: RepoQA(2024), https://arxiv.org/abs/2406.06025 / CLM-0015 / SRC-0204. DEC-0061.
 
+보존된 상세 출처: 교육용 확인 예 · STATE-00-FIXED crop 발췌 / RepoQA(2024): arxiv.org/abs/2406.06025
+
 Claim Boundary: 세 확인 질문은 이 교육의 업무용 모델이며 공식 제품 규칙이나 RepoQA의 평가 rubric이 아니다. 기존 코드 발췌는 실제 Agent가 이번 요청에서 찾았다는 증거가 아니다. RepoQA의 함수 검색 결과는 현재 Codex의 탐색·수정·도구·테스트 전체를 검증하지 않으며, Routing 우월성·토큰 절약·성능 개선을 입증하지 않는다. 한 코드 줄만으로 전체 계약/구현 정당성을 판단하지 않는다.
+
+보존된 상세 범위: 세 질문은 교육용 기준 · RepoQA가 이 Routing·현재 Codex의 업무 성능을 검증한 것은 아님
 
 Beginner Explanation: 찾았다는 답을 받으면 파일 위치와 관련 코드를 확인하고, 내가 물은 조건에 맞는지 대조한다. 필요한 경우 호출부와 관련 테스트의 기대값도 확인한다.
 
@@ -519,8 +557,12 @@ Speaker Flow: 1. (0:00–0:30) “앞 장에서 위치·동작·주변 근거를
 
 Evidence / Source: TEACHING_MODEL / CONCEPTUAL. BEAT-014, STATE-03, CLM-0003/0005/0014/0015, DEC-0053. Historical Demo tag STATE-03 at f3e2e37b1454e28c5de4c44682ebd49378ebae4b: AGENTS.md17–20의 Context Routing에서 이미지 동작/crop→docs/image-contracts.md를 안내한다. 같은 tag의 docs/image-contracts.md20–24가 half-open crop 명세를 기록한다. plan/DEMO_MATRIX.md의 STATE-03 및 TRIAL-005A/B는 후속 구조·관찰 근거다. 문서명과 명세는 보존 기록을 참조하지만 화면의 요청/안내는 요약·재구성이다. 새 Trial은 실행하지 않았다.
 
+보존된 상세 출처: 교육용 탐색 경로 · 저장된 명세 기반 재구성 · 실제 읽기 순서가 아님
+
 **Claim Boundary:**
 FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. Routing으로 성능 향상이나 Token 절약이 입증됐다고 주장하지 않는다. S46–S47의 연구에서 과제별 근거 확인으로 돌아온다. 질문·위치 안내·답변 근거의 서로 다른 역할만 짚고, 다음 장의 배치 기준과 그다음 장의 실제 파일 재구성을 미리 해설하지 않는다.
+
+보존된 상세 범위: 자동 탐색·완벽한 선택·성능 향상·토큰 절약을 입증한 그림이 아님
 
 Beginner Explanation: 작업 요청에는 궁금한 것을 쓰고, AGENTS.md에는 어느 상세 문서를 볼지 안내한다. 구체적인 답에 필요한 규칙은 그 문서의 명세에서 확인한다.
 
@@ -564,7 +606,11 @@ Opening Question: “무엇을 항상 읽고, 무엇을 필요할 때 찾게 할
 
 Evidence / Source: TEACHING_MODEL / CONCEPTUAL. BEAT-014, CLM-0003/0005/0014/0015, DEC-0054. Historical Demo STATE-03 at f3e2e37b1454e28c5de4c44682ebd49378ebae4b의 AGENTS.md3–20은 목적·로컬 파일·기존 동작 보존·README/검증 진입 안내·주제별 문서 위치를 기록한다. docs/architecture.md는 처리 순서·모듈 역할, docs/image-contracts.md는 crop/resize 명세, docs/testing.md는 테스트 위치·검증 범위를 담는다. 파일명과 내용의 예는 이 보존 기록에 근거한 요약이며 전체 지침의 재현이나 제품 실행 결과가 아니다. 실제 STATE-03 구조 변화와 TRIAL-005A/B 접근 관찰은 S50 이후에 구분한다.
 
+보존된 상세 출처: 교육용 배치 기준 · 명령·검증 규칙도 Project 안내에 포함될 수 있음
+
 Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. 이 설계만으로 정보 검색 성능이 향상된다고 주장하지 않는다. 파일명 외우기 대신 각 정보가 어떤 작업에 언제 필요한지 판단하는 기준을 설명한다. 명령·검증 규칙도 공통 안내가 될 수 있다. 실제3개 상세 문서로 옮긴 결과는 다음 장에 남긴다.
+
+보존된 상세 범위: 원칙과 상세의 구분은 유지·참조 설계 · 실제 자동 읽기 결과나 제품의 강제 분류가 아님
 
 Beginner Explanation: 여러 작업에서 공통으로 필요한 안내와 그 작업을 해결할 때 자세히 볼 규칙을 나눠둔다. AGENTS.md에는 상세 문서의 위치도 남겨 어디서 확인할지 알 수 있게 한다.
 
@@ -607,7 +653,11 @@ Speaker Flow: 1. (0–2분, Lecture) 앞 장의 기준을 실제 문서 변화�
 
 Evidence / Source: OBSERVED_PRODUCT for retained Git file structures and topic correspondence; TEACHING_MODEL for the diagram and routing interpretation. STATE-02 at55c045523ed1409449d7eea5b0d873983fe101b6 → STATE-03 atf3e2e37b1454e28c5de4c44682ebd49378ebae4b. 변경은 AGENTS.md와 새 docs/architecture.md, docs/image-contracts.md, docs/testing.md4개뿐이다. 기존 Architecture/CLI Summary는 architecture, Image Contract는 image-contracts, Test의 구성/통합 검증 설명은 testing으로 재배치됐다. Project/로컬 데이터/Build-Run/전체 검증/기존 동작·의존성·범위 제약은 기본 안내에 남았다. 상세 문서의 표·설명·테스트 예와 root Context Routing 안내는 추가/보강됐다. plan/DEMO_MATRIX.md의 STATE-03 보존 대응표와 당시 검증 기록, DEMO-06, BEAT-014–015, CLM-0003/0005/0014/0015, DEC-0055를 따른다. 이번에 새 Trial이나 테스트를 실행하지 않았다.
 
+보존된 상세 출처: STATE-02 → STATE-03 · 실제 문서 재구성의 요약 · 원본 실행 화면 아님
+
 Claim Boundary: 핵심 사실·제약을 유지한 의미상 재구성이지 문자 단위 완전 동일, 모든 내용의 단순 이동, 정보량 불변을 주장하지 않는다. 화살표는 재배치 대응이고 실제 읽기 순서·자동 로딩·필요 문서만 선택·AGENTS.md 단독 인과성·완벽한 Routing을 뜻하지 않는다. Progressive Disclosure는 교육용 정보 설계 패턴이다. 토큰 절약·성능/정확도/속도 향상·현재 Codex Desktop 재현이나 C++ 실행 결과를 주장하지 않는다.
+
+보존된 상세 범위: 핵심 정보 보존·재서술/상세화 포함 · 자동 탐색·성능·토큰 효과는 미검증
 
 Beginner Explanation: 기본 안내는 남겨두고 자세한 규칙을 주제별 문서로 옮겼다. 기존에 중요했던 정보가 어디로 갔는지 A/B/C를 따라 확인할 수 있다.
 
@@ -650,7 +700,11 @@ Speaker Flow: 1. (0–1분) A/B 실제 요청 핵심 발췌·번역과 읽기 �
 **Evidence / Source:**
 OBSERVED_PRODUCT setup; outcomes remain on S52–S53. TRIAL-005A/B, DEMO-06, BEAT-015–016, CLM-0003/0005/0014/0015, DEC-0056. plan/DEMO_MATRIX.md의 TRIAL-005A/B 원문 Prompt와 당시 실행 환경 기록을 대조했다. A 원문은 current sample image, --crop 1 3의 source columns/output width/end inclusion, current contract/implementation 근거를 요청한다. B는 runtime requirements를 build/package-only tools와 구분해 판단 근거를 요청한다. 두 원문 모두 read-only/no file changes/evidence 조건을 명시한다. 과거 Codex CLI0.154.0의 별도 임시 clone 실행 기록이며 화면의 나란한 배치는 설명 편의용이다. 새 Trial/동시 Subagent 실행/현재 Desktop 검증이 아니다.
 
+보존된 상세 출처: TRIAL-005A/B · Codex CLI 0.154.0 · 실제 요청의 핵심 발췌·번역
+
 Claim Boundary: 예상 파일 경로, 실제 접근 파일 목록, crop 정답·출력 폭, 의존성 존재 여부, 성공/실패 판정이나 접근 비교 결과를 이 장에서 보여주지 않는다. 문서 배치만으로 완벽한 자동 Routing·지침 준수·관련 문서만 읽음·토큰 절약·성능 개선을 주장하지 않는다. 파일을 열었다는 기록과 최종 답에서 제시한 근거를 구분하며 접근을 곧 활용으로 단정하지 않는다. 재구성 UI는 현재 Codex Desktop/계정 기능의 검증이 아니다.
+
+보존된 상세 범위: 프롬프트창 재구성 · 현재 Desktop 검증 아님 · 문서 접근 결과는 다음 구간에서 확인
 
 Beginner Explanation: 질문의 목적이 달라도 실제로 어떤 자료를 확인했는지는 기록을 봐야 한다. A는 이미지 동작, B는 실행에 필요한 의존성을 묻지만 어느 파일을 읽었는지는 아직 답하지 않는다.
 
@@ -693,7 +747,11 @@ Speaker Flow: 1. (0–1분) A 요청의 질문을 짧게 회수한다.
 
 Evidence / Source: TRIAL-005A final-run access/answer table and environment in plan/DEMO_MATRIX.md; BEAT-016, CLM-0014/CLM-0015, DEC-0057. OBSERVED_PRODUCT. STATE-03 docs/image-contracts.md의 half-open crop 명세, src/graypipe/transform.py의 row[x_start : x_end], data/sample.pgm의4열 표본을 읽어 대조했다. 새 실행이나 Trial을 하지 않았다.
 
+보존된 상세 출처: TRIAL-005A 최종 실행 · Codex CLI 0.154.0 · 문서 접근과 답을 요약·재구성
+
 Claim Boundary: 파일을 연 사실, 명세 내용, 기록된 답을 구분한다. 도식의 화살표는 문서 내용과 답의 대조 관계로서 정확한 접근 순서·답의 내부 생성 원인·명세 단독 인과성을 뜻하지 않는다. 최종 CLI 실행의 관찰에 한정하며 완벽한 Routing, 관련 문서만 읽음, 토큰 절약·효율·성능 개선, 현재 Desktop 동작을 주장하지 않는다. testing.md 접근의 반복 간 차이를 보존한다.
+
+보존된 상세 범위: * testing.md는 최종 실행에서 관찰(이전 실행과 다름) · 현재 Desktop 검증 아님
 
 Beginner Explanation: 문서를 열었다는 기록과 그 문서의 명세, 실제 답을 나란히 확인한다. 끝 좌표는 제외하므로 열1과2 두 개가 남는다는 답이 명세와 일치한다.
 
@@ -735,7 +793,11 @@ Speaker Flow: 1. (0–1분) S51의 실행 의존성 질문을 회수한다.
 
 Evidence / Source: BEAT-016, TRIAL-005B, STATE-03, CLM-0003, CLM-0005, DEC-0060 / OBSERVED_PRODUCT
 
+보존된 상세 출처: TRIAL-005B 최종 실행 · Codex CLI 0.154.0 · 실제 접근/답변 기록 요약
+
 Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; FROZEN WITH SCOPE; OBSERVED PRODUCT. 기록된 CLI 실행과 최종 반복 결과에 한정한다. TRIAL-005B 최종 읽기 전용 실행. third-party dependency 없음은 런타임 요구사항 자체가 없다는 뜻이 아니다. pip는 문서의 빌드 명령에 쓰였으며 runtime dependency로 바꾸지 않는다.
+
+보존된 상세 범위: 과거 읽기 전용 실행의 재구성 · 새 설치 검사·현재 Desktop 검증 결과가 아님
 
 Beginner Explanation: 결과 주장을 repository 근거와 연결해 본다.
 
@@ -778,7 +840,11 @@ Speaker Flow: 1. (0–1분, Demo/CAPTURED) 최종 기록을 요약한 비교표�
 
 Evidence / Source: TRIAL-005A/B final-run access/answer table, repeated-invocation variation and Codex CLI0.154.0 read-only environment in plan/DEMO_MATRIX.md; BEAT-016/017, CLM-0014/0015/0003/0005, DEC-0058. OBSERVED_PRODUCT. 두 요청은 별도 임시 clone에서 실행된 과거 기록이다. 이번 수정에서 새 Trial·테스트·제품 확인을 실행하지 않았다.
 
+보존된 상세 출처: TRIAL-005A/B 최종 실행 · Codex CLI 0.154.0 · 실제 접근 기록의 요약·재구성
+
 Claim Boundary: 기록된 최종 실행의 문서 접근 차이와 넓은 접근, A의 testing.md 접근 변동만 관찰 범위다. 읽음/읽지 않음은 성공/실패 판정이나 파일의 완전한 관련성 분류가 아니다. 파일을 연 사실이 답의 내부 생성 원인·AGENTS.md 단독 인과성·일관된 선택 정책을 입증하지 않는다. 완벽한 Routing·보편 우월성·토큰 절약·성능 개선·현재 Desktop 재현을 주장하지 않는다. 표는 접근 순서나 동시 실행을 표현하지 않는다.
+
+보존된 상세 범위: * testing.md는 A 최종 실행에서 관찰(이전 A와 다름) · 현재 Desktop 검증 아님
 
 Beginner Explanation: 같은 저장소라도 질문에 따라 읽은 상세 정보가 달랐다. 두 열에서 같은 파일과 달랐던 파일을 비교하되 ‘다르게 읽었다’는 기록과 ‘항상 잘 선택한다’는 보장을 구분한다.
 
@@ -820,7 +886,11 @@ Opening Question: “무엇을 바꾸었고, 무엇까지 실제로 확인했을
 
 Evidence / Source: STATE-01; TRIAL-003; STATE-02→STATE-03; TRIAL-005A/B; BEAT-009–017; DEC-0060. The four scoped observations remain separate from the teaching recap.
 
+보존된 상세 출처: STATE-01 · TRIAL-003 · STATE-02→03 · TRIAL-005A/B의 개별 관찰 요약
+
 Claim Boundary: FROZEN WITH SCOPE — 개별 State/Trial 관찰과 교육용 성과 정리를 구분한다. 일반적 효율·정확도 개선이나 단독 인과성을 주장하지 않는다. STATE-01, TRIAL-003, STATE-02→03, TRIAL-005A/B의 bounded callback. 새 Demo 시간이나 Trial이 아니다. 네 node의 연결은 교육의 진행 순서이며 관찰들 사이의 인과효과를 입증하는 선이 아니다.
+
+보존된 상세 범위: 개별 관찰의 교육용 정리 · 보편적 정확도/효율 개선·독립적 인과성은 입증하지 않음
 
 Beginner Explanation: Context 작업으로 실제 무엇을 했는지 네 가지로 기억한다.
 
@@ -866,7 +936,11 @@ Opening Question: “Project 정보를 잘 정리했으면 문제가 끝난 걸�
 
 Evidence / Source: BEAT-017/018, TRANS-005, TRIAL-006/007, CLM-0003/0005/0014/0006/0029/0030, DEC-0059. plan/DEMO_MATRIX.md의 TRIAL-006 실제 Prompt/Repeated Workflow Elements, TRIAL-007 Task Prompt/결과 요약과 환경 영향 기록을 대조했다. OBSERVED_PRODUCT는 다음 문제의 반복 Prompt 구조에 한정하고, Context/Prompt/Workflow 책임 구분과 이 화면은 TEACHING_MODEL이다. 새 Trial·테스트·제품 확인은 하지 않았다.
 
+보존된 상세 출처: 교육용 요청 재구성 · 다음 ACT에서 TRIAL-006/007의 실제 기록을 비교
+
 Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Context 정리는 ACT 2의 주제이며, 다음 절차 반복 예시는 ACT 3의 질문이다. Trial Prompt만으로 전체 절차의 원인을 귀속하지 않는다. S55의 성과를 반복 해설하지 않고 수행 방법을 누가 유지할지 질문한다. Transition4 뒤 Q&A6은 팀의 반복되는 방법을 묻고 마지막20초에 다음 기록으로 넘어간다. 두 실제 요청의 대응 기록은 S58에 남겨 역할을 나눈다.
+
+보존된 상세 범위: Context 선택 완전 해결 미입증 · 다음 예시도 Prompt 단독 효과로 귀속하지 않음
 
 Beginner Explanation: 명세·구조·테스트 안내를 어디서 찾을지 알려두는 것과, 어떤 순서로 조사하고 확인할지 요청하는 것은 책임이 다르다. 현재 목표가 달라도 같은 작업 방법을 다시 적는 부분을 살핀다.
 

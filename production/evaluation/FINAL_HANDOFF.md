@@ -1,5 +1,7 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+현재 하단 표기 DEC-0103: 불필요한 제작·관리 설명을 삭제/Notes로 이동했다. 일반 하단222행을92행으로 축약했고26장은 해당 설명이 없다. M1–M9·본문·수치·117장·412분은 유지한다. [정리 결과](FOOTER_CLEANUP_RESULT.md), [화면](../preview/full/S02.png), [현재 표기](../../plan/FOOTER_CLEANUP.md).
+
 배치 수정 DEC-0102: S15의 crop 설명을 “조사한 범위”로 줄이고15pt·사각형 내부 여백을 확보했다.117장·412분·기존 흐름/근거/Notes는 유지한다. [수정 결과](S15_CROP_CAPTION_LAYOUT_REVISION.md).
 
 현재 DEC-0101 /117장·412분. 기존 S03 뒤에 Copilot IDE 활용 팁 S04만 Lecture2분 추가했다.
@@ -17,15 +19,15 @@ Windows·교육장·회사 계정·실측 리허설은 UNVERIFIED다. 웹은 이
 
 | 파일 | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `dfb60b7da0fdcfae785424b1494dc1fcfc9c0741d347a19b06aeb3eb4eccf044` |
-| `production/ACT_0.pptx` | `ab88e150271ad105e63b3dd173e550508c540167a95ac5e80dc370e5d01f8f66` |
-| `production/ACT_1.pptx` | `e03e6ecffd5a9591eba81c97b55a0628cd171b2410bf0cfa96a8a167e1bcc53a` |
-| `production/ACT_2.pptx` | `b372341c4e351f5652bc5fefcc902cc9d1df651a8fbf934e8fe17f0d8f82f2ba` |
-| `production/ACT_3.pptx` | `ee0617af53aefc520171a681b682bfc5c605b6402350177877bdd6e4d90f7504` |
-| `production/ACT_4.pptx` | `b860718251cae413e9db73dbd3a51dea82c3d64a210c6b8f335a812862a1e719` |
-| `production/ACT_5.pptx` | `82d83d718a7e29a48370202a2a893811d3027aaa3a97bb012d0c668441cc95f0` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `3178114a501895194224522d1de353abc82054d754de05f8c6129fdb04bc66ec` |
-| `production/preview/full/montage.png` | `448c0a98c7b185a9d41c43e57eb43d3d30b75b19002761d560b8a2d51d65211a` |
+| `production/AI_Dev_Training_Full.pptx` | `b7b6db6667b7c35ead8b7d807f2558ccd8502c005b3b5fca1414a6db867387c2` |
+| `production/ACT_0.pptx` | `c00397e4060fa5c2622120389b838cf3800386839b0d791a61db7182a142c719` |
+| `production/ACT_1.pptx` | `e6c627898697f56f3246e0a54704b97c7a90b75c24d92b1f8fb1714858d8ea74` |
+| `production/ACT_2.pptx` | `92ae3d4f7ebf662e5954926fb260d328e466e47aa6390b4f92f85a11d31748e1` |
+| `production/ACT_3.pptx` | `3447ae8d1dc7ec17cc2a135b181f0226ee3b3e9c01a04bcac45ff458b89a5ef3` |
+| `production/ACT_4.pptx` | `97f807e44609884e9883b9722a6eb4a2be2bdba2589f0d6103b901639b7df68e` |
+| `production/ACT_5.pptx` | `d6d45d3c6b50dc50d9e2742ba7f32e6a029c44e48cfd8d2a8f478fb18a0cff21` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `3d23ae3aa010063489bb4d6a5ccdfe83dd3d0cf36828b8d3730cc91edc99c9be` |
+| `production/preview/full/montage.png` | `94bb89c56dc191ae516add9733631c469fbe9e4c33c45bec30f3e7d0af732683` |
 
 ## 이전 전달 안내 — 당시 판본 보존
 

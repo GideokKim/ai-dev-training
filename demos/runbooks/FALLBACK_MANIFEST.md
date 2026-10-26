@@ -1,64 +1,64 @@
 # Static Fallback Manifest
 
-Current: DEC-0101 /117slides/412minutes. READY — LOCAL STATIC FILES ONLY.
-Existing44reference roles/evidence remain unchanged; IDs/paths/hashes migrate by1 after S03.
+Current: DEC-0103 /117slides/412minutes. READY — LOCAL STATIC FILES ONLY.
+Existing44reference roles/evidence remain unchanged; footer wording and file hashes are updated. IDs/paths stay fixed.
 The new S04 is a reconstructed Copilot IDE tip, excluded from this Demo inventory.
 Company-account use, Windows, room and timed rehearsal UNVERIFIED. No Live approval.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`dfb60b7da0fdcfae785424b1494dc1fcfc9c0741d347a19b06aeb3eb4eccf044`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`3178114a501895194224522d1de353abc82054d754de05f8c6129fdb04bc66ec`.
-- `production/preview/full/montage.png` SHA-256:`448c0a98c7b185a9d41c43e57eb43d3d30b75b19002761d560b8a2d51d65211a`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`b7b6db6667b7c35ead8b7d807f2558ccd8502c005b3b5fca1414a6db867387c2`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`3d23ae3aa010063489bb4d6a5ccdfe83dd3d0cf36828b8d3730cc91edc99c9be`.
+- `production/preview/full/montage.png` SHA-256:`94bb89c56dc191ae516add9733631c469fbe9e4c33c45bec30f3e7d0af732683`.
 
-[Current addition validation](../../production/evaluation/COPILOT_IDE_TIP.md).
+[Current footer validation](../../production/evaluation/FOOTER_CLEANUP_RESULT.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
-| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` |1920×1080| `707163c295e6df5e70fc0c31568e60f8682847d32769c1afd7b79adedc556a8b` |
-| S07 | RETAINED_DEMO_STATIC | `production/preview/full/S07.png` |1920×1080| `c8aae0849016f42da569675ccee39d9266e88ec50cf03bc3f8b5cfa711b525ae` |
-| S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` |1920×1080| `c4e2d169d770eb4bedb98f315d96bae212f0cda3c6d6c176bff2381832861f1e` |
-| S09 | RETAINED_DEMO_STATIC | `production/preview/full/S09.png` |1920×1080| `2d3caa9a81a478911fb10e39937daaf00b20f58b3e5bb0a767a4f2c16dc434f6` |
-| S10 | RETAINED_DEMO_STATIC | `production/preview/full/S10.png` |1920×1080| `5a8afd5a6f7321e6a5cd5ab71e24848539f6bb91d0faf9c2a6cd1c08954bfa09` |
-| S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` |1920×1080| `51f496284f82d7edd750c128b3945da7d12b4b9a7c727ad11b0024c3552da4c4` |
-| S25 | RETAINED_DEMO_STATIC | `production/preview/full/S25.png` |1920×1080| `a43009cc511d8fcf20a463d9c8b847566c55a759fb984cbd27d7bdae0d1ff7f1` |
-| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` |1920×1080| `3abf796bc822e3a853c7cb29c0dda5bc884fbcac39cd1867b337ace30e68527e` |
-| S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` |1920×1080| `1a3bd4b144424cfcf1b01856b5d712ee0ed4bb9613e2143c86bb7adfcf83827b` |
-| S41 | RETAINED_DEMO_STATIC | `production/preview/full/S41.png` |1920×1080| `02f15c7cdd8fd7edd89c0fd68224300ee57c406eff36c2afe52b3461a2a37b05` |
-| S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` |1920×1080| `0122e65df912305749da59e8de8a11728c6a5fabaf0c7540e6463c255fc11a13` |
-| S50 | RETAINED_DEMO_STATIC | `production/preview/full/S50.png` |1920×1080| `c28d646f35086818c9475954727d1aee19a37245db52ee0042a5ce697ce9cf52` |
-| S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` |1920×1080| `6a9916b8afc5396c5706be0ba9fc936b47ab9004d88f82042bf702cd6b96f49a` |
-| S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` |1920×1080| `abd4a1d1c8fc5f27cb5a7a4c1fa6c5d47afaaa8481de02aa0d0390caccdf3646` |
-| S54 | RETAINED_DEMO_STATIC | `production/preview/full/S54.png` |1920×1080| `3685697548963dcae8921e0dfd520c268f0f70b3c2e7dd76ecc448b49e20c4ae` |
-| S62 | RETAINED_DEMO_STATIC | `production/preview/full/S62.png` |1920×1080| `7e133e037ff067b7415d37da7b58a4345c1956dceebc9427a5c9d15543e760ba` |
-| S63 | RETAINED_DEMO_STATIC | `production/preview/full/S63.png` |1920×1080| `36b2164e0d85e87956714726fcfedfcd0febf2a7c180e0cf2a7f5da82aa2e955` |
-| S68 | RETAINED_DEMO_STATIC | `production/preview/full/S68.png` |1920×1080| `5473ade0708551ef9716015cc82bcda70cf90b8c59ca023e44c44796aaaae963` |
-| S70 | RETAINED_DEMO_STATIC | `production/preview/full/S70.png` |1920×1080| `bc6245ffe682040cabc9d4743d1d80ebffbe09f670ec42f34b2436aad74618c2` |
-| S71 | RETAINED_DEMO_STATIC | `production/preview/full/S71.png` |1920×1080| `3b67035337c12afa6f0975c5ebee07ecc756306e0391ead53ac39bbc3cd48fec` |
-| S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` |1920×1080| `c0d66a813e6818833c48380efc3d76d1ee78abc23df01987bfa24894be6c5900` |
-| S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` |1920×1080| `45fc6093664a5534cf18d103903e1fa7b26138ab8379286792ee0257c98bc906` |
-| S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` |1920×1080| `6311e19167c31ad0759a78827cdcd3a3856343216c2d11903fbd7eb9a200d955` |
-| S84 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S84.png` |1920×1080| `eceebd46862409542fd32045bfdbe743a407c8791fd38e4670331ac925ce6550` |
-| S85 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S85.png` |1920×1080| `9e378be9568f67cd882ffa3cf265a2eff2cc4104c6ec9e3046769283ceb3d35d` |
-| S86 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S86.png` |1920×1080| `eba809a212f96385035488e67632a536d6657e75450673239cd58961a229c96f` |
-| S87 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S87.png` |1920×1080| `756be5f3cb3a2431977be376b36fad38380ea05d44a8045414b551eb26c9adac` |
-| S88 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S88.png` |1920×1080| `3f50296778b79ef394539fa048af1740e757a4f1cd830e871c8b8541b5c03f11` |
-| S89 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S89.png` |1920×1080| `fde144c8fee89f172c390881c757601c7972e0b8396f60cac214d3befac1e3f2` |
-| S90 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S90.png` |1920×1080| `541d94527776bf8bd64d41f9263fd3a0234a75a2507ef6147e3ed6c4c6b1a279` |
-| S91 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S91.png` |1920×1080| `e02bc1551f033b3a9ef6e705ba5a6c3f69511e958b9c848bb77d2d061ff13709` |
-| S92 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S92.png` |1920×1080| `ab565e675b65fd3a6ab9224cb235e12888a569e03ffdd191c07f78a127b4d1fd` |
-| S93 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S93.png` |1920×1080| `d3c3bf12b5a930380c22cacda510b6bac4bf85a229e8b7ec737bd78fcb55c2b7` |
-| S94 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S94.png` |1920×1080| `88a78782b8090e16d592c967adad1b78475869323f714a65e74af1a07e4475d1` |
-| S95 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S95.png` |1920×1080| `116937c1791beeb2073d0cec3fd39ed7ad7c2c544dd397d00adc8f4c806c7d0b` |
-| S96 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S96.png` |1920×1080| `791745d787794913e94a07f4584ff8349c62284f47a9d298a7dc56fc298928c3` |
-| S97 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S97.png` |1920×1080| `e61aac57d84ee32f2eeee31bf6500e6315a426e8d07135ac6b55db9a219930a7` |
-| S98 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S98.png` |1920×1080| `93a2e20383a10416220ffa8a7081742fb760c0a205ad3b2c1903e5e9bd306291` |
-| S99 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S99.png` |1920×1080| `fd1068b967899ffdf9be52970f4041eb0fc7f0843260f67b5e0d52d2146ed155` |
-| S102 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S102.png` |1920×1080| `6f2dc7a5ab0f432caab27607f004558f6aea92ac808ec12b536101cb2f1652e3` |
-| S100 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S100.png` |1920×1080| `2f850f988bfe33ad7c561b6238ecb58faccb85093faac0584e71f555944c5a52` |
-| S101 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S101.png` |1920×1080| `849b00e9548c034c8fee7f6cb623785b06afee8df514bfea9edeb97ea86d451c` |
-| S104 | TEACHING_SYNTHESIS | `production/preview/full/S104.png` |1920×1080| `d569aa8c865dd70bfa528e126f77c0212b5384fe45abcae9b7071efc4e40007e` |
-| S105 | TEACHING_SYNTHESIS | `production/preview/full/S105.png` |1920×1080| `d978fd48ebb2a3eeb386542ad577d54bd5a60b700cba8dae6745a075658972c9` |
+| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` |1920×1080| `8cebe2004452259448c77116dd17bd8853506963c3ee822597fe59c60eb02466` |
+| S07 | RETAINED_DEMO_STATIC | `production/preview/full/S07.png` |1920×1080| `4646cd962fee1b9384ab16059744c87b83fd3d5341a48123d2f5cd6260f579cf` |
+| S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` |1920×1080| `b00fde64f9e461e9cfd17f080024c03c592d6854196c7437e0efc0eda7214afa` |
+| S09 | RETAINED_DEMO_STATIC | `production/preview/full/S09.png` |1920×1080| `1f938fb1a5b6ea172317856cd4bf7d5d2c9fa1ef6ffca0522d877e5e289dde94` |
+| S10 | RETAINED_DEMO_STATIC | `production/preview/full/S10.png` |1920×1080| `a026ea3933c212a77a4c5cee7f5f404472952d6a0ca762efc14f716f1a0f3e0f` |
+| S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` |1920×1080| `e1a26367dbfecbeedffd8cf2753dea57e2527aa933ae0ad9df049d594fe5b210` |
+| S25 | RETAINED_DEMO_STATIC | `production/preview/full/S25.png` |1920×1080| `d20a3e12ec7af0b4dd19a091bf655539230f3182a94df1725f916bc7e2cb55f5` |
+| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` |1920×1080| `214e608a93423aa97d10f62a1a171a84f254cef0bf790dbefb0ccb7798eaf384` |
+| S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` |1920×1080| `052e19918e6be443c8699ae2212f02229dbce3a5c15eb96fbe03794193e70940` |
+| S41 | RETAINED_DEMO_STATIC | `production/preview/full/S41.png` |1920×1080| `3a41196b163fc4bc42f4efe9fce51796312655ec564b17873187ac1f550817e8` |
+| S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` |1920×1080| `26632e6c07918601f19342180eeac05a0e67051e7bf8e43e8bb1a0d4bedf3295` |
+| S50 | RETAINED_DEMO_STATIC | `production/preview/full/S50.png` |1920×1080| `1515f2ceffb8119ce9cc0d78f704d66a60c891ead5b15d297ae708b8425212e9` |
+| S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` |1920×1080| `b3ce28aa911e520e04fc38afecb02c7cd0ab34ed55525c083464c7a7ea136f0b` |
+| S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` |1920×1080| `bf95495437b7d003c4753295de9b9ef7bfc6f01966a55fe29589204ef23f2793` |
+| S54 | RETAINED_DEMO_STATIC | `production/preview/full/S54.png` |1920×1080| `ee3d7a63c8c506b0258f9fac8465ec028be427a012d180de19786fc5f1938755` |
+| S62 | RETAINED_DEMO_STATIC | `production/preview/full/S62.png` |1920×1080| `fdaf83aa7ddc71a1a2c1b9f22b5905161e5b5e5c44ab6655e60f3aa911cceb42` |
+| S63 | RETAINED_DEMO_STATIC | `production/preview/full/S63.png` |1920×1080| `653a017406fbf1e47a3202d9b9aa32990fcdbfcd90cc38565fab76a0004de306` |
+| S68 | RETAINED_DEMO_STATIC | `production/preview/full/S68.png` |1920×1080| `c19bce35c798d301580dfbdc9461e74c8ec721ff964076bfd923bd5f396dccf1` |
+| S70 | RETAINED_DEMO_STATIC | `production/preview/full/S70.png` |1920×1080| `928f919e2997effd0c3e4d8fc6d6a157c7fea9f5f87f06ab2ad6a7a1aa8beb0d` |
+| S71 | RETAINED_DEMO_STATIC | `production/preview/full/S71.png` |1920×1080| `a938fffe6f0e29b5c58dea06f3c75c01f041f61f5b972d796b06e1dcf0ebebca` |
+| S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` |1920×1080| `ff9a655b54bb6d96692bd5abea6b416a18dc556f0fe79487d7dc2767520c0c83` |
+| S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` |1920×1080| `8d257b5e2dfd8e1f6c4908c3e5d48111cf978616c978c2152b40284c23495bfa` |
+| S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` |1920×1080| `1c50cde880a96955cb00edf05316e2f5d168cfb77c651b13786f4496fd6f06d4` |
+| S84 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S84.png` |1920×1080| `e88f072bf545a8ab1e380e448eda8580acaf7de77211cd8b1675975bad38e508` |
+| S85 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S85.png` |1920×1080| `39284b981aed0c6e2dfd719546bdcc9d04637a4afa2560bb0b0da79bc24925cc` |
+| S86 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S86.png` |1920×1080| `69b58a1afbd012a1d6d4833fff88c08785b0093f372090b6bc5f791a8f4dc241` |
+| S87 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S87.png` |1920×1080| `617f249edf03524f75f5437b59babe8b99fefdddf60eb502723a35acdded8b33` |
+| S88 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S88.png` |1920×1080| `3a209028ee357ecc3643bd16b4ffd7923804ac615c98b2732344617cb01553ec` |
+| S89 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S89.png` |1920×1080| `455a23a6612e4ea58e6b38ccc234e0184534f9deb1ed193c5e4165d7442693ec` |
+| S90 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S90.png` |1920×1080| `2feaed9075db0444c4cc523dfdbdcecd0eb1b03b60e937b1c2e6b5be1c042924` |
+| S91 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S91.png` |1920×1080| `5d8559e4b75d5dc667ecacdf2397678264593f09002be5160ab807c80ea7541c` |
+| S92 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S92.png` |1920×1080| `f8569cb017e9ae3ec95f2d4b6567abb5e024568df87fd833ce9ee35fbff9c8f5` |
+| S93 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S93.png` |1920×1080| `a3936ac36c8150de6df61df686532fbf9cbe407f4d19bc01dff2b60c62d706ac` |
+| S94 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S94.png` |1920×1080| `84c92d73aa17f55481a4328623e76fd1d6da679ae444b6995630cc7d150d62e1` |
+| S95 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S95.png` |1920×1080| `ff34632945b1d87e0147fa69ed2d02fa528e68d61dbe23175a0841bbe383f7ed` |
+| S96 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S96.png` |1920×1080| `a2da4f221de5426418ea704e7af3599c06faec62737730ad136c082007947fc9` |
+| S97 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S97.png` |1920×1080| `b71ed3db86b0c20f6b57a1c3e28fa550346fc1a522c18f75c437c069bbecd6ee` |
+| S98 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S98.png` |1920×1080| `1c54d574125c7337a9c340c5afe262fd06a301d06cc18f68b7500680b3dc6832` |
+| S99 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S99.png` |1920×1080| `95b593f2f6435ad9ec99ddf5089b4f2dfe24813257312bc47917e3677402123f` |
+| S102 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S102.png` |1920×1080| `47c26e1c5f0e72f0b7aa2f8aed206524949d4d268eeb7815238aaf74bd8fa8ec` |
+| S100 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S100.png` |1920×1080| `397ef9e58ac4085b70778e5d8360bf651084132f479d85bd111dd9ea72a8a148` |
+| S101 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S101.png` |1920×1080| `6184356ddef4c25caa10225c9aa06e6942b5cb350b9720e0aab9a2a562b39a3d` |
+| S104 | TEACHING_SYNTHESIS | `production/preview/full/S104.png` |1920×1080| `f39e8eeb2a92e0eed25fbd45ef7633fb3e941925c5076a317bff692eef5ff1fb` |
+| S105 | TEACHING_SYNTHESIS | `production/preview/full/S105.png` |1920×1080| `5036159935d36f3276c5b7f9542682c78c3dbaeddb91501c41b7d93c28d1b955` |
 
 <details>
 <summary>Previous manifest editions — historical paths and hashes</summary>
