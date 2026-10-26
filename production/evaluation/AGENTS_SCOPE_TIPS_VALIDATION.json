@@ -411,5 +411,17 @@
   ],
   "site": "Unchanged",
   "presenterBundle": "Not created or updated",
-  "demoRepository": "Unchanged"
+  "demoRepository": "Unchanged",
+  "obsoletePreviewFilesRemoved": [
+    "production/preview/act3/S57.png",
+    "production/preview/act3/S58.png",
+    "production/preview/act3/S59.png",
+    "production/preview/act4/S83.png",
+    "production/preview/act4/S84.png",
+    "production/preview/act4/S85.png",
+    "production/preview/act5/S103.png",
+    "production/preview/act5/S104.png",
+    "production/preview/act5/S105.png"
+  ],
+  "currentNumberedPNGFiles": 240
 }
