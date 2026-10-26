@@ -1,5 +1,7 @@
 # DEMO-12 — Historical Product evolution reference
 
+> Current DEC-0104 /120slides/420minutes. Current Map references (including callbacks, not all scheduled Demo slots): No new scheduled slot; retain the current Slide Map/Notes role. Use [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md) for active paths/hashes and local-only readiness. Earlier literal Slide IDs below retain their historical edition. No new Trial or Live approval.
+
 Current: DEC-0099. This is preserved historical evidence, not a current
 presentation Demo slot. Current S103/S104 are teaching synthesis diagrams;
 they do not show the former Product timeline. Do not use the old start/stop

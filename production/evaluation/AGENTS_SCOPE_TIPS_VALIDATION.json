@@ -1,0 +1,415 @@
+{
+  "status": "LOCAL_PASS",
+  "decision": "DEC-0104",
+  "baseline": "981ae5e",
+  "slides": 120,
+  "minutes": 420,
+  "ACTs": {
+    "ACT 0": [
+      15,
+      45
+    ],
+    "ACT 1": [
+      22,
+      64
+    ],
+    "ACT 2": [
+      22,
+      90
+    ],
+    "ACT 3": [
+      26,
+      96
+    ],
+    "ACT 4": [
+      20,
+      85
+    ],
+    "ACT 5": [
+      15,
+      40
+    ]
+  },
+  "modes": {
+    "Transition": 26,
+    "Lecture": 186,
+    "Reflection": 22,
+    "Case": 105,
+    "Demo": 49,
+    "Q&A": 32
+  },
+  "retainedSlideViewsVerified": 232,
+  "embeddedNotesVerified": 240,
+  "notesFields": 19,
+  "retainedMediaChartsTablesWorkbooks": "UNCHANGED",
+  "newTips": [
+    "S56",
+    "S57",
+    "S58"
+  ],
+  "indexUpdated": "S117; retained8entries+1grouped entry",
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "slides": 120,
+      "sha256": "c595f63d852673194aa2dd658cc1086bd66669e263d68646fb3c47b32cd8a36d"
+    },
+    {
+      "name": "ACT_0",
+      "slides": 15,
+      "sha256": "7a3bf60ec29f75b25570137e937610c0e76c85a9dfe360554ade3ad0a06cd41b"
+    },
+    {
+      "name": "ACT_1",
+      "slides": 22,
+      "sha256": "a7e43e64a7ed36a2139633fc1b0dac73750eb64ff7488512522a53caae76e9c6"
+    },
+    {
+      "name": "ACT_2",
+      "slides": 22,
+      "sha256": "39223c7a01dcadd55a5febff87c689f9bdff44debafdaa02bb8b6cbe815ac7dd"
+    },
+    {
+      "name": "ACT_3",
+      "slides": 26,
+      "sha256": "864ce544d7f28cf0791ee40f70a1565918d82486ea74924e4d7f01bac0f381bf"
+    },
+    {
+      "name": "ACT_4",
+      "slides": 20,
+      "sha256": "8f786573ea66ee75a85fa0051ba982885c3bf5639699297c964bb6af2a6f3284"
+    },
+    {
+      "name": "ACT_5",
+      "slides": 15,
+      "sha256": "38ca5acb483ea712bd7250eb0f70369c9fd3ebc493db14da7365693389cc4508"
+    }
+  ],
+  "externalGates": "Windows, room, product-account and rehearsal UNVERIFIED",
+  "renderedPNGs": 240,
+  "fullActPixelParity": 120,
+  "retainedViewsPixelChecked": 116,
+  "referenceTextOnlyMasks": [
+    {
+      "previous": "S56",
+      "current": "S59",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S57",
+      "current": "S60",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S58",
+      "current": "S61",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S59",
+      "current": "S62",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S60",
+      "current": "S63",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S61",
+      "current": "S64",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S62",
+      "current": "S65",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S63",
+      "current": "S66",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S64",
+      "current": "S67",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S65",
+      "current": "S68",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S66",
+      "current": "S69",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S67",
+      "current": "S70",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S68",
+      "current": "S71",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S69",
+      "current": "S72",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S70",
+      "current": "S73",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S71",
+      "current": "S74",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S72",
+      "current": "S75",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S73",
+      "current": "S76",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S74",
+      "current": "S77",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S75",
+      "current": "S78",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S76",
+      "current": "S79",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S77",
+      "current": "S80",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S78",
+      "current": "S81",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S79",
+      "current": "S82",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S80",
+      "current": "S83",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S81",
+      "current": "S84",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S82",
+      "current": "S85",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S83",
+      "current": "S86",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S84",
+      "current": "S87",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S85",
+      "current": "S88",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S86",
+      "current": "S89",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S87",
+      "current": "S90",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S88",
+      "current": "S91",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S89",
+      "current": "S92",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S90",
+      "current": "S93",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S91",
+      "current": "S94",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S92",
+      "current": "S95",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S93",
+      "current": "S96",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S94",
+      "current": "S97",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S95",
+      "current": "S98",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S96",
+      "current": "S99",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S97",
+      "current": "S100",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S98",
+      "current": "S101",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S99",
+      "current": "S102",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S100",
+      "current": "S103",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S101",
+      "current": "S104",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S102",
+      "current": "S105",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S103",
+      "current": "S106",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S104",
+      "current": "S107",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S105",
+      "current": "S108",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S106",
+      "current": "S109",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S107",
+      "current": "S110",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S108",
+      "current": "S111",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S109",
+      "current": "S112",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S110",
+      "current": "S113",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S111",
+      "current": "S114",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S112",
+      "current": "S115",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S113",
+      "current": "S116",
+      "textBoxesMasked": 1
+    },
+    {
+      "previous": "S115",
+      "current": "S118",
+      "textBoxesMasked": 9
+    },
+    {
+      "previous": "S116",
+      "current": "S119",
+      "textBoxesMasked": 6
+    },
+    {
+      "previous": "S117",
+      "current": "S120",
+      "textBoxesMasked": 1
+    }
+  ],
+  "newSlideVisualReview": "S56/S57/S58 and S117 reviewed individually; no new clipping or overlap",
+  "renderer": "Artifact Tool; Malgun Gothic→Apple SD Gothic Neo, Consolas→Menlo aliases; Windows unverified",
+  "fullNotesSha256": "26c43bbb02cad047838ad698a8942ff431c3a44d2cff3020ff3b69c72f23f1a7",
+  "fullMontageSha256": "9665e389361d25d6d7f16705f92cee78c4b540dc67c29dcb088548a5018bb532",
+  "staticFallbackRowsVerified": 44,
+  "fullDeckContactReview": [
+    "S01-S20",
+    "S21-S40",
+    "S41-S60",
+    "S61-S80",
+    "S81-S100",
+    "S101-S120"
+  ],
+  "site": "Unchanged",
+  "presenterBundle": "Not created or updated",
+  "demoRepository": "Unchanged"
+}

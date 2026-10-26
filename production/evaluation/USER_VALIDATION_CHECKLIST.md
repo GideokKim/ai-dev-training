@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+## 현재 확인 대상 — DEC-0104
+
+120장·420분. 기존 체크를 완료로 바꾸지 않는다. 현재 번호는 [이행표](../../plan/SLIDE_ID_MIGRATION_120.md)를 따른다. 새 S56–S58의 문서/수집 안내는 회사 제품·계정 실행 검증과 별개다. Windows/글꼴/투사/Live fallback/실측 리허설은 UNVERIFIED. [현재 파일 해시](FINAL_HANDOFF.md)와 [추가 검토](AGENTS_SCOPE_TIPS_RESULT.md)를 사용한다. 아래 이전 번호·체크 이력은 보존한다.
+
 ## 현재 제작판 — DEC-0101
 
 117장·412분. S03 뒤 새 S04 Copilot IDE 팁 한 장 추가, 이전 S04 이후는+1이다.

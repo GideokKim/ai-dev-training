@@ -1,5 +1,29 @@
 # 6-Hour Curriculum
 
+## 현재 제작 기준 — DEC-0104 (2026-10-26)
+
+현재 **120장·420분(7시간)**. 기존 S55 뒤에 실무 적용 팁 S56–S58을
+Lecture3/3/2분으로 추가한다. 기존117장의 Story·근거·장별 시간/Mode는 유지한다.
+이전 S56–S117은 +3 이행한다. ACT별 장수15/22/22/26/20/15,
+시간45/64/90/96/85/40분. Mode Lecture186/Demo49/Case105/Reflection22/Transition26/Q&A32분.
+S56 지침 배치 → S57 공통·모듈 지침 결합 → S58 적용 범위와 시작 시 자동 수집의 차이.
+공식 안내를 활용한 프로젝트 적용 예이며 기존 graypipe의 실제 State/Trial에 추가한
+관찰이 아니다. 기존 문서 Routing과 새로운 중첩 AGENTS.md의 지침 범위를 구분한다.
+마지막 찾아보기 S117에 새3장을 묶은 항목만 추가한다.12Templates/28Variants·19Notes 필드 유지.
+[현재 설계](AGENTS_SCOPE_TIPS.md), [번호 이행](SLIDE_ID_MIGRATION_120.md), [현재 Map](SLIDE_MAP.md).
+아래 이전 번호·시간·제작/검증 결과는 당시 판본의 이력이다. 현재 목록은 위 기준을 따른다.
+Windows/교육장/제품·계정/실측 리허설은 UNVERIFIED. Demo 저장소·웹·발표 묶음은 변경하지 않는다.
+
+| ACT | Current slides | Count | Minutes |
+|---|---|---:|---:|
+| ACT0 | S01–S15 |15|45|
+| ACT1 | S16–S37 |22|64|
+| ACT2 | S38–S59 |22|90|
+| ACT3 | S60–S85 |26|96|
+| ACT4 | S86–S105 |20|85|
+| ACT5 | S106–S120 |15|40|
+| Total | S01–S120 |120|420|
+
 ## 현재 제작 기준 — DEC-0101 (2026-10-26)
 
 현재 **117장·412분(6시간52분)**. 기존 S03 뒤에 VS Code + GitHub Copilot

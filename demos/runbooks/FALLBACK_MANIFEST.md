@@ -1,17 +1,17 @@
 # Static Fallback Manifest
 
-Current: DEC-0103 /117slides/412minutes. READY — LOCAL STATIC FILES ONLY.
-Existing44reference roles/evidence remain unchanged; footer wording and file hashes are updated. IDs/paths stay fixed.
-The new S04 is a reconstructed Copilot IDE tip, excluded from this Demo inventory.
+Current: DEC-0104 /120slides/420minutes. READY — LOCAL STATIC FILES ONLY.
+Existing44reference roles/evidence remain unchanged; IDs/paths migrate by3 from former S56. File hashes are refreshed.
+S04 and new S56-S58 are documented teaching tips, excluded from this Demo inventory.
 Company-account use, Windows, room and timed rehearsal UNVERIFIED. No Live approval.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`b7b6db6667b7c35ead8b7d807f2558ccd8502c005b3b5fca1414a6db867387c2`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`3d23ae3aa010063489bb4d6a5ccdfe83dd3d0cf36828b8d3730cc91edc99c9be`.
-- `production/preview/full/montage.png` SHA-256:`94bb89c56dc191ae516add9733631c469fbe9e4c33c45bec30f3e7d0af732683`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`c595f63d852673194aa2dd658cc1086bd66669e263d68646fb3c47b32cd8a36d`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`26c43bbb02cad047838ad698a8942ff431c3a44d2cff3020ff3b69c72f23f1a7`.
+- `production/preview/full/montage.png` SHA-256:`9665e389361d25d6d7f16705f92cee78c4b540dc67c29dcb088548a5018bb532`.
 
-[Current footer validation](../../production/evaluation/FOOTER_CLEANUP_RESULT.md).
+[Current scope-tip validation](../../production/evaluation/AGENTS_SCOPE_TIPS_RESULT.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
@@ -30,35 +30,35 @@ Company-account use, Windows, room and timed rehearsal UNVERIFIED. No Live appro
 | S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` |1920×1080| `b3ce28aa911e520e04fc38afecb02c7cd0ab34ed55525c083464c7a7ea136f0b` |
 | S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` |1920×1080| `bf95495437b7d003c4753295de9b9ef7bfc6f01966a55fe29589204ef23f2793` |
 | S54 | RETAINED_DEMO_STATIC | `production/preview/full/S54.png` |1920×1080| `ee3d7a63c8c506b0258f9fac8465ec028be427a012d180de19786fc5f1938755` |
-| S62 | RETAINED_DEMO_STATIC | `production/preview/full/S62.png` |1920×1080| `fdaf83aa7ddc71a1a2c1b9f22b5905161e5b5e5c44ab6655e60f3aa911cceb42` |
-| S63 | RETAINED_DEMO_STATIC | `production/preview/full/S63.png` |1920×1080| `653a017406fbf1e47a3202d9b9aa32990fcdbfcd90cc38565fab76a0004de306` |
-| S68 | RETAINED_DEMO_STATIC | `production/preview/full/S68.png` |1920×1080| `c19bce35c798d301580dfbdc9461e74c8ec721ff964076bfd923bd5f396dccf1` |
-| S70 | RETAINED_DEMO_STATIC | `production/preview/full/S70.png` |1920×1080| `928f919e2997effd0c3e4d8fc6d6a157c7fea9f5f87f06ab2ad6a7a1aa8beb0d` |
-| S71 | RETAINED_DEMO_STATIC | `production/preview/full/S71.png` |1920×1080| `a938fffe6f0e29b5c58dea06f3c75c01f041f61f5b972d796b06e1dcf0ebebca` |
-| S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` |1920×1080| `ff9a655b54bb6d96692bd5abea6b416a18dc556f0fe79487d7dc2767520c0c83` |
-| S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` |1920×1080| `8d257b5e2dfd8e1f6c4908c3e5d48111cf978616c978c2152b40284c23495bfa` |
-| S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` |1920×1080| `1c50cde880a96955cb00edf05316e2f5d168cfb77c651b13786f4496fd6f06d4` |
-| S84 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S84.png` |1920×1080| `e88f072bf545a8ab1e380e448eda8580acaf7de77211cd8b1675975bad38e508` |
-| S85 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S85.png` |1920×1080| `39284b981aed0c6e2dfd719546bdcc9d04637a4afa2560bb0b0da79bc24925cc` |
-| S86 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S86.png` |1920×1080| `69b58a1afbd012a1d6d4833fff88c08785b0093f372090b6bc5f791a8f4dc241` |
-| S87 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S87.png` |1920×1080| `617f249edf03524f75f5437b59babe8b99fefdddf60eb502723a35acdded8b33` |
-| S88 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S88.png` |1920×1080| `3a209028ee357ecc3643bd16b4ffd7923804ac615c98b2732344617cb01553ec` |
-| S89 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S89.png` |1920×1080| `455a23a6612e4ea58e6b38ccc234e0184534f9deb1ed193c5e4165d7442693ec` |
-| S90 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S90.png` |1920×1080| `2feaed9075db0444c4cc523dfdbdcecd0eb1b03b60e937b1c2e6b5be1c042924` |
-| S91 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S91.png` |1920×1080| `5d8559e4b75d5dc667ecacdf2397678264593f09002be5160ab807c80ea7541c` |
-| S92 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S92.png` |1920×1080| `f8569cb017e9ae3ec95f2d4b6567abb5e024568df87fd833ce9ee35fbff9c8f5` |
-| S93 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S93.png` |1920×1080| `a3936ac36c8150de6df61df686532fbf9cbe407f4d19bc01dff2b60c62d706ac` |
-| S94 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S94.png` |1920×1080| `84c92d73aa17f55481a4328623e76fd1d6da679ae444b6995630cc7d150d62e1` |
-| S95 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S95.png` |1920×1080| `ff34632945b1d87e0147fa69ed2d02fa528e68d61dbe23175a0841bbe383f7ed` |
-| S96 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S96.png` |1920×1080| `a2da4f221de5426418ea704e7af3599c06faec62737730ad136c082007947fc9` |
-| S97 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S97.png` |1920×1080| `b71ed3db86b0c20f6b57a1c3e28fa550346fc1a522c18f75c437c069bbecd6ee` |
-| S98 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S98.png` |1920×1080| `1c54d574125c7337a9c340c5afe262fd06a301d06cc18f68b7500680b3dc6832` |
-| S99 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S99.png` |1920×1080| `95b593f2f6435ad9ec99ddf5089b4f2dfe24813257312bc47917e3677402123f` |
-| S102 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S102.png` |1920×1080| `47c26e1c5f0e72f0b7aa2f8aed206524949d4d268eeb7815238aaf74bd8fa8ec` |
-| S100 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S100.png` |1920×1080| `397ef9e58ac4085b70778e5d8360bf651084132f479d85bd111dd9ea72a8a148` |
-| S101 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S101.png` |1920×1080| `6184356ddef4c25caa10225c9aa06e6942b5cb350b9720e0aab9a2a562b39a3d` |
-| S104 | TEACHING_SYNTHESIS | `production/preview/full/S104.png` |1920×1080| `f39e8eeb2a92e0eed25fbd45ef7633fb3e941925c5076a317bff692eef5ff1fb` |
-| S105 | TEACHING_SYNTHESIS | `production/preview/full/S105.png` |1920×1080| `5036159935d36f3276c5b7f9542682c78c3dbaeddb91501c41b7d93c28d1b955` |
+| S65 | RETAINED_DEMO_STATIC | `production/preview/full/S65.png` |1920×1080| `42625a9c55788f1b7ee46ba35d8e7e4de03aff3306cf82598d3b09360d2c7652` |
+| S66 | RETAINED_DEMO_STATIC | `production/preview/full/S66.png` |1920×1080| `48283330fb01b5297f9238f1c060f93fad8b338bed136776b6a4d9162db5ca94` |
+| S71 | RETAINED_DEMO_STATIC | `production/preview/full/S71.png` |1920×1080| `097a4a4e2aa65e6294f61598faaf7bf82ad8607a5e404e5e1540d83822bee663` |
+| S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` |1920×1080| `06fd5bce6974ea133fbe5a17cb4513bf50d88511ba00dba2b48e302be49cf9c0` |
+| S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` |1920×1080| `993fce02a4cd9928ace09f6f7eefe5f4276a5c79b830d99055a266d158a1a04e` |
+| S75 | RETAINED_DEMO_STATIC | `production/preview/full/S75.png` |1920×1080| `06fe6d3ced042e9027a3529d9be6af70a119f20471eb634120369e4330afe52c` |
+| S76 | RETAINED_DEMO_STATIC | `production/preview/full/S76.png` |1920×1080| `ee99052a8f3183ad06c2d864a0fb9c99e9eb439e1b3cc47e302072ba540f5b16` |
+| S77 | RETAINED_DEMO_STATIC | `production/preview/full/S77.png` |1920×1080| `0ec3d0b8b6bcf921b9b92d3ba49b46989aadc65fc622a239f0ba05076e41b5de` |
+| S87 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S87.png` |1920×1080| `78cf4b73f52ce943ecf40a52e1aee825b5a7c183f2eafcbd0f4371caae84699a` |
+| S88 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S88.png` |1920×1080| `e96d6519d9d92fc80c1c3e9b6534cb77c46991cf9641036518ab7bf785c5905a` |
+| S89 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S89.png` |1920×1080| `064c356ba7531eb4f598d164885a69d62cbdab8784e96a19e1d90c6bd9a7be27` |
+| S90 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S90.png` |1920×1080| `402fdbd945c29b92733d67066f93e081076287ad234e636f55f6ca92725b3213` |
+| S91 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S91.png` |1920×1080| `41ef1416cb0b08e9a78d22c7330fa48830667002124b9b4000659100a23a6631` |
+| S92 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S92.png` |1920×1080| `25bcb610fa95cbdab5d73c04cffcfde65de56dcc0377cc26958b9562843b711f` |
+| S93 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S93.png` |1920×1080| `283a1f15301af02901168e241b05e836f82e15c597c3293f0d14f310b0102ae7` |
+| S94 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S94.png` |1920×1080| `5c5c0b2267d8190a4bd56332ca3509810df43de11efdce0582dfaf9cfc7432b0` |
+| S95 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S95.png` |1920×1080| `0527636a45487536e7c3c35a7fb35c2375dab272bc5ecf940b22ded0635b1098` |
+| S96 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S96.png` |1920×1080| `6200201a8219860eb064696fc224a6f24787280e5339c9e8f8598b1d1e8eb972` |
+| S97 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S97.png` |1920×1080| `5dcf19bb0ddbee3e782d04a5d1b9fd96a84fe7c7496c804f2635edd4eb37a2e7` |
+| S98 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S98.png` |1920×1080| `113892233ff7396309d78340818dc13fc013551ec5c25fa7028091c941ffda00` |
+| S99 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S99.png` |1920×1080| `96402a8ac55d37ffb34a8638b04e40063886c5cc46d9618bf84c05f5547b5433` |
+| S100 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S100.png` |1920×1080| `5608380583578cbb8fb4be07410641e4be69942a20a2a39bc4b04f62dbed7232` |
+| S101 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S101.png` |1920×1080| `821ef625b1b2a84dea9592186f93b7ba88f645b55453aecb39a686eff2d54f83` |
+| S102 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S102.png` |1920×1080| `c0ff5d1559b5d898f14c00852e6d9a10a18f16f1d14b7b82b0afe0d9d81ad7d3` |
+| S105 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S105.png` |1920×1080| `f0d47855ccda47a89304f8e637d85233ebed0c45d723be763e16a8d7ace8d85d` |
+| S103 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S103.png` |1920×1080| `642c4ff95006e66e7fb41eb808fd51509fe6bd8dbcb94f76439367795b1f0324` |
+| S104 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S104.png` |1920×1080| `460c6e326f5e1bd6bcd9ae5fbf8b94a050bd11960dc43f46e41ad7571bec0f74` |
+| S107 | TEACHING_SYNTHESIS | `production/preview/full/S107.png` |1920×1080| `f4c868711c8d0702f38dd61a3492713919bfdbf8b98b1ea4fa3f68a3ce375ec9` |
+| S108 | TEACHING_SYNTHESIS | `production/preview/full/S108.png` |1920×1080| `88e13260fbd1f7dd900d2ff0f89b6c3015e879027aa76fbfccf2a2a6e747e51a` |
 
 <details>
 <summary>Previous manifest editions — historical paths and hashes</summary>

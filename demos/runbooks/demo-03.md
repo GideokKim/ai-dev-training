@@ -1,5 +1,7 @@
 # DEMO-03 — Reusable Verification Workflow
 
+> Current DEC-0104 /120slides/420minutes. Current Map references (including callbacks, not all scheduled Demo slots): S65, S66, S68. Use [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md) for active paths/hashes and local-only readiness. Earlier literal Slide IDs below retain their historical edition. No new Trial or Live approval.
+
 > Current edition: DEC-0097 /114slides/406minutes. This retained role uses S61, S62. Current paths/hashes/readiness: [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Earlier dated statuses below are historical; no new Trial or Live approval.
 
 ## Current ACT3 operation — DEC-0070

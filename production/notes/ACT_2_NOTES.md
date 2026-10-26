@@ -1,5 +1,7 @@
 # ACT 2 — Speaker Notes
 
+> Current: DEC-0104 /120slides/420minutes. ACT2 S38–S59:22slides/90minutes. Retained117budgets and evidence unchanged; current IDs follow plan/SLIDE_ID_MIGRATION_120.md. Earlier headers are history.
+
 > 하단 표기 DEC-0103: 제작·관리 상세는 Evidence / Source와 Claim Boundary에 보존한다. 발표 화면은 승인된 간략 표기를 사용하며 기존19필드·장별 배정·근거는 유지한다.
 
 > Current: DEC-0101 /117slides/412minutes. ACT0 fifteen slides/45minutes; retained content and per-slide budgets unchanged. Current IDs follow plan/SLIDE_ID_MIGRATION_117.md. Earlier headers retain their historical edition.
@@ -94,7 +96,7 @@ N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S39 — 다른 Task에 같은 설명이 반복된다로 이어간다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 2 총82분, 전체406분이다. 제목·부제만 안내하고1분에 S39로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 2 총90분, 전체420분이다. 제목·부제만 안내하고1분에 S39로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S38.png 또는 production/ACT_2.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
@@ -903,7 +905,7 @@ Demo Operation: N/A.
 Audience Interaction: “우리 팀에서 공통 안내와 상세로 나눌 정보 한 가지는?” 조용한 성찰이며 별도 실습·Q&A를 추가하지 않는다.
 
 **Transition:**
-“정보를 기록하고 찾아 쓸 길은 정리했습니다. 그런데 다음 작업의 수행 방법도 매번 다시 써야 할까요?”
+“우리 프로젝트에서는 AGENTS.md를 어디에 두고, 어느 범위의 지침을 확인할까요?” S56–S58의 팁을 거친 뒤 S59의 기존 수행 방법 질문으로 돌아간다.
 
 Time Management: Lecture2+Reflection1분. 과거 Trial을 다시 시연하지 않는다.
 
@@ -911,9 +913,191 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S55; production/prev
 
 Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
 
-## S56 — 지식은 정리됐지만 절차는 반복된다
+## S56 — AGENTS.md는 어디에 둘까?
 
-Slide ID: S56
+**Slide ID:**
+S56
+
+**Working Title:**
+AGENTS.md는 어디에 둘까?
+
+**ACT / Section:**
+ACT 2 / 2I Discussion·Transition
+
+**Allocated Time:**
+3 minutes
+
+**Mode Split:**
+Lecture 3 minutes
+
+**Primary Message:**
+개인 기본값과 프로젝트 공통 규칙, 모듈별 지침을 구분해 두고 현재 작업에 해당하는 범위를 확인한다.
+
+**Opening Question:**
+“공통 규칙과 특정 모듈 규칙을 어디에 둘까?”
+
+**Speaker Flow:**
+1. (0–1분) S55는 실제 Demo의 Context 정리 회수였다. 여기부터 공식 지침을 적용한 별도 검사 프로젝트 예다. 개인 기본값의 언어/Git 규칙을 가리킨다.
+2. (1–2분) 루트 공통 API 보존과 vision의 ROI 명세를 폴더 위치에 연결한다. device의 하드웨어 연동 규칙은 형제 모듈 규칙이다.
+3. (2–3분) crop.cpp가 속한 가지를 짚는다. 이 그림은 적용 범위를 설명하며 전체 하위 파일의 자동 로드를 뜻하지 않는다. 다음은 공통·전용 규칙의 결합이다.
+
+**Evidence / Source:**
+[OpenAI: Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md), checked2026-10-26. [OpenAI: Projects and chats](https://learn.chatgpt.com/docs/projects), checked2026-10-26. DEC-0104; illustrative inspection/ folder and rule examples, not graypipe Trial evidence.
+
+**Claim Boundary:**
+TEACHING MODEL / REQUIRES PRODUCT CHECK — 공식 안내 기반 프로젝트 적용 예. 실제 파일 생성·Codex 실행·새 Trial 관찰이 아니다. 지침 적용 범위와 시작 시 수집 경로를 구분하며, 파일 존재·Agent 자기보고만으로 읽기/준수 완료를 입증하지 않는다. 지침은 권한·CI 강제 수단이 아니다.
+
+**Beginner Explanation:**
+루트의 공통 규칙과 작업 폴더에만 필요한 규칙을 구분한다.
+
+**Advanced Insight:**
+규칙의 논리적 범위와 런타임 수집 여부를 혼동하지 않고 다음 장에서 병합 관계를 본다.
+
+**C++ Vision Bridge:**
+가상 C++ 검사 프로젝트 inspection/src/vision/crop.cpp. 실제 graypipe 구현/실험 이력과 구분한다.
+
+**Demo Operation:**
+N/A — 정적 폴더·지침 도식과 요청 예. 실제 Codex 실행/환경 설정 변경을 하지 않는다.
+
+**Audience Interaction:**
+화면의 강조 경로와 목록을 하나씩 짚는다. 청중 직접 실습이나 추가 공개 답변 시간은 배정하지 않는다.
+
+**Transition:**
+“crop.cpp를 수정할 때, 공통 지침과 vision 지침은 어떻게 함께 적용될까요?” S57로 이어간다.
+
+**Time Management:**
+Lecture 3분. 화면의 질문·도식·다음 질문을 정해진 순서로 짚고 시간에 넘긴다. 실제 리허설 UNVERIFIED.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S56; production/preview/act2/S56.png. Default is an instructional diagram, not an execution capture. Local file readiness is recorded in production/evaluation/AGENTS_SCOPE_TIPS_RESULT.md.
+
+**Validation Status:**
+Official guidance checked2026-10-26. Local package/render/Notes checks recorded separately. Product-account execution, Windows, room and timed rehearsal remain UNVERIFIED.
+
+## S57 — 공통 지침에 모듈 지침을 더한다
+
+**Slide ID:**
+S57
+
+**Working Title:**
+공통 지침에 모듈 지침을 더한다
+
+**ACT / Section:**
+ACT 2 / 2I Discussion·Transition
+
+**Allocated Time:**
+3 minutes
+
+**Mode Split:**
+Lecture 3 minutes
+
+**Primary Message:**
+공통 지침을 유지하면서 모듈 전용 지침을 더한다. 충돌하는 기본값은 더 가까운 지침을 우선한다.
+
+**Opening Question:**
+“모듈 지침이 있으면 루트 지침은 없어질까?”
+
+**Speaker Flow:**
+1. (0–1분) 수정 대상은 같은 src/vision/crop.cpp다. 루트의 공개 API 유지와 기본 검증 진입점을 읽는다.
+2. (1–2분) vision의 ROI 명세와 전용 검증 진입점을 더한다. 결합한 목록에서 공개 API 유지가 사라지지 않았음을 확인한다.
+3. (2–3분) 충돌하는 기본값만 더 가까운 지침을 우선한다. ctest 예시는 기본 진입점 선택이며, 의무적인 전체 회귀 검사를 생략하거나 상위 승인·권한을 우회하는 규칙이 아니다. 다음 장에서 실제 수집을 따로 확인한다.
+
+**Evidence / Source:**
+[OpenAI: Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md), checked2026-10-26. [OpenAI: Projects and chats](https://learn.chatgpt.com/docs/projects), checked2026-10-26. DEC-0104; illustrative inspection/ folder and rule examples, not graypipe Trial evidence.
+
+**Claim Boundary:**
+TEACHING MODEL / REQUIRES PRODUCT CHECK — 공식 안내 기반 프로젝트 적용 예. 실제 파일 생성·Codex 실행·새 Trial 관찰이 아니다. 지침 적용 범위와 시작 시 수집 경로를 구분하며, 파일 존재·Agent 자기보고만으로 읽기/준수 완료를 입증하지 않는다. 지침은 권한·CI 강제 수단이 아니다.
+
+**Beginner Explanation:**
+모듈 규칙을 추가해도 공통 제약이 남는다는 점을 이해한다.
+
+**Advanced Insight:**
+상속과 충돌 해결을 구별하고 검증 진입점 기본값과 필수 검증 의무를 혼동하지 않는다.
+
+**C++ Vision Bridge:**
+가상 C++ 검사 프로젝트 inspection/src/vision/crop.cpp. 실제 graypipe 구현/실험 이력과 구분한다.
+
+**Demo Operation:**
+N/A — 정적 폴더·지침 도식과 요청 예. 실제 Codex 실행/환경 설정 변경을 하지 않는다.
+
+**Audience Interaction:**
+화면의 강조 경로와 목록을 하나씩 짚는다. 청중 직접 실습이나 추가 공개 답변 시간은 배정하지 않는다.
+
+**Transition:**
+“적용할 규칙을 배치했다면, Codex가 실제로 그 파일을 읽었을까요?” S58로 이어간다.
+
+**Time Management:**
+Lecture 3분. 화면의 질문·도식·다음 질문을 정해진 순서로 짚고 시간에 넘긴다. 실제 리허설 UNVERIFIED.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S57; production/preview/act2/S57.png. Default is an instructional diagram, not an execution capture. Local file readiness is recorded in production/evaluation/AGENTS_SCOPE_TIPS_RESULT.md.
+
+**Validation Status:**
+Official guidance checked2026-10-26. Local package/render/Notes checks recorded separately. Product-account execution, Windows, room and timed rehearsal remain UNVERIFIED.
+
+## S58 — 적용할 지침을 실제로 읽었을까?
+
+**Slide ID:**
+S58
+
+**Working Title:**
+적용할 지침을 실제로 읽었을까?
+
+**ACT / Section:**
+ACT 2 / 2I Discussion·Transition
+
+**Allocated Time:**
+2 minutes
+
+**Mode Split:**
+Lecture 2 minutes
+
+**Primary Message:**
+시작 시 자동 수집은 루트에서 시작 작업 폴더까지의 경로를 따른다. 작업에 필요한 하위 지침은 적용 경로와 본문을 확인해 읽도록 요청한다.
+
+**Opening Question:**
+“파일이 그 위치에 있으면 반드시 읽혔다고 볼 수 있을까?”
+
+**Speaker Flow:**
+1. (0–1분) 같은 폴더 구조에서 시작 위치만 비교한다. 루트 시작은 자동 검색이 루트에서 멈추며, vision에서 시작하면 경로의 모듈 지침까지 포함된다. 전체 하위 폴더를 재귀적으로 자동 수집한다는 뜻은 아니다.
+2. (1–2분) 화면의 요청을 읽는다. 루트에서 시작해 하위 코드를 다룬다면 적용할 중첩 지침도 찾아 본문을 읽도록 한다. 응답 경로를 실제 파일과 대조하고 필요하면 로드/읽기 기록을 확인한다. 수행 방법 반복 질문으로 돌아간다.
+
+**Evidence / Source:**
+[OpenAI: Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md), checked2026-10-26. [OpenAI: Projects and chats](https://learn.chatgpt.com/docs/projects), checked2026-10-26. DEC-0104; illustrative inspection/ folder and rule examples, not graypipe Trial evidence.
+
+**Claim Boundary:**
+TEACHING MODEL / REQUIRES PRODUCT CHECK — 공식 안내 기반 프로젝트 적용 예. 실제 파일 생성·Codex 실행·새 Trial 관찰이 아니다. 지침 적용 범위와 시작 시 수집 경로를 구분하며, 파일 존재·Agent 자기보고만으로 읽기/준수 완료를 입증하지 않는다. 지침은 권한·CI 강제 수단이 아니다. 시작 시 지침 체인은 새 실행/세션에서 구성된다. 실행 중 터미널 cd만으로 기존 세션이 재수집한다고 말하지 않는다. Desktop의 주 작업 폴더와 추가 첨부 폴더의 자동 발견도 구별한다. 같은 디렉터리의 AGENTS.override.md가 일반 AGENTS.md보다 먼저 선택되고, fallback 이름/크기 설정도 수집에 영향을 줄 수 있다. 상세 설정은 공식 문서로 안내한다.
+
+**Beginner Explanation:**
+파일을 두는 것과 실제로 읽히는 것을 구분하고 확인할 요청을 쓸 수 있다.
+
+**Advanced Insight:**
+시작 시 instruction chain과 이후 명시적 파일 읽기를 구분하며 경로·내용·필요 시 로그를 대조한다.
+
+**C++ Vision Bridge:**
+가상 C++ 검사 프로젝트 inspection/src/vision/crop.cpp. 실제 graypipe 구현/실험 이력과 구분한다.
+
+**Demo Operation:**
+N/A — 정적 폴더·지침 도식과 요청 예. 실제 Codex 실행/환경 설정 변경을 하지 않는다.
+
+**Audience Interaction:**
+화면의 강조 경로와 목록을 하나씩 짚는다. 청중 직접 실습이나 추가 공개 답변 시간은 배정하지 않는다.
+
+**Transition:**
+“지침의 위치와 읽을 범위를 정리해도, 작업마다 같은 수행 절차를 다시 요청하는 문제는 남습니다.” S59의 기존 Harness 질문으로 돌아간다.
+
+**Time Management:**
+Lecture 2분. 화면의 질문·도식·다음 질문을 정해진 순서로 짚고 시간에 넘긴다. 실제 리허설 UNVERIFIED.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S58; production/preview/act2/S58.png. Default is an instructional diagram, not an execution capture. Local file readiness is recorded in production/evaluation/AGENTS_SCOPE_TIPS_RESULT.md.
+
+**Validation Status:**
+Official guidance checked2026-10-26. Local package/render/Notes checks recorded separately. Product-account execution, Windows, room and timed rehearsal remain UNVERIFIED.
+
+## S59 — 지식은 정리됐지만 절차는 반복된다
+
+Slide ID: S59
 
 Working Title: 지식은 정리됐지만 절차는 반복된다
 
@@ -931,14 +1115,14 @@ Opening Question: “Project 정보를 잘 정리했으면 문제가 끝난 걸�
 1. (0–1분, Transition) 정보의 위치와 근거 접근을 정리했다는 앞 장 성과를 한 문장으로 회수한다.
 2. (1–4분, Transition) 하나의 성능 요청에 여전히 조사·검증 절차를 다시 적는 그림을 보여주며 유지 책임을 묻는다. 다음 장의 두 기록 비교를 미리 설명하지 않는다.
 3. (4–9:40, Q&A) “우리 팀은 어떤 절차를 매번 다시 요청합니까?”로 팀의 방법 반복을 묻는다. 질문이 없으면 변경 전 측정/동일 입력 비교/완료 보고 중 하나를 선택하게 한다.
-4. (9:40–10분, Q&A 마무리) 두 실제 성능 요청에 반복된 지시를 보겠다고 S58으로 넘긴다.
-기존 연결 질문을 유지한 채 ACT 3 제목 S57를 거쳐 S58의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
+4. (9:40–10분, Q&A 마무리) 두 실제 성능 요청에 반복된 지시를 보겠다고 S61으로 넘긴다.
+기존 연결 질문을 유지한 채 ACT 3 제목 S60를 거쳐 S61의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
 
 Evidence / Source: BEAT-017/018, TRANS-005, TRIAL-006/007, CLM-0003/0005/0014/0006/0029/0030, DEC-0059. plan/DEMO_MATRIX.md의 TRIAL-006 실제 Prompt/Repeated Workflow Elements, TRIAL-007 Task Prompt/결과 요약과 환경 영향 기록을 대조했다. OBSERVED_PRODUCT는 다음 문제의 반복 Prompt 구조에 한정하고, Context/Prompt/Workflow 책임 구분과 이 화면은 TEACHING_MODEL이다. 새 Trial·테스트·제품 확인은 하지 않았다.
 
 보존된 상세 출처: 교육용 요청 재구성 · 다음 ACT에서 TRIAL-006/007의 실제 기록을 비교
 
-Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Context 정리는 ACT 2의 주제이며, 다음 절차 반복 예시는 ACT 3의 질문이다. Trial Prompt만으로 전체 절차의 원인을 귀속하지 않는다. S55의 성과를 반복 해설하지 않고 수행 방법을 누가 유지할지 질문한다. Transition4 뒤 Q&A6은 팀의 반복되는 방법을 묻고 마지막20초에 다음 기록으로 넘어간다. 두 실제 요청의 대응 기록은 S58에 남겨 역할을 나눈다.
+Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Context 정리는 ACT 2의 주제이며, 다음 절차 반복 예시는 ACT 3의 질문이다. Trial Prompt만으로 전체 절차의 원인을 귀속하지 않는다. S55의 성과를 반복 해설하지 않고 수행 방법을 누가 유지할지 질문한다. Transition4 뒤 Q&A6은 팀의 반복되는 방법을 묻고 마지막20초에 다음 기록으로 넘어간다. 두 실제 요청의 대응 기록은 S61에 남겨 역할을 나눈다.
 
 보존된 상세 범위: Context 선택 완전 해결 미입증 · 다음 예시도 Prompt 단독 효과로 귀속하지 않음
 
@@ -948,16 +1132,16 @@ Advanced Insight: The screen contrasts information scope/location with repeated 
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A — native 문서 배치와 두 성능 요청의 압축 요약을 정적으로 보여준다. Prompt 전문·실제 Screenshot·현재 제품 실행으로 표현하지 않는다. 이 장은 새 Trial이나 추가 Demo 시간이 아니다. 다음 S58에서 기록의 반복 구조를 확인한다.
+Demo Operation: N/A — native 문서 배치와 두 성능 요청의 압축 요약을 정적으로 보여준다. Prompt 전문·실제 Screenshot·현재 제품 실행으로 표현하지 않는다. 이 장은 새 Trial이나 추가 Demo 시간이 아니다. 다음 S61에서 기록의 반복 구조를 확인한다.
 
 Audience Interaction: Q&A6分은 팀에서 반복하는 작업 방법을 묻는다. S54의 근거 주장 해석 Q&A와 구분한다. 무응답 때는 “변경 전 측정, 테스트, 비교·보고 중 무엇을 매번 적습니까?”를 사용한다.
 
 **Transition:**
 “우리 팀은 어떤 절차를 매번 다시 요청합니까? 다음에는 두 성능 Task의 실제 요청 기록에서 반복된 지시를 확인합니다.”
-기존 연결 질문을 유지한 채 ACT 3 제목 S57를 거쳐 S58의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
+기존 연결 질문을 유지한 채 ACT 3 제목 S60를 거쳐 S61의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
 
-Time Management: Transition4분 후 Q&A6분을 유지한다. 두 실제 요청 전문 비교는 여기서 하지 않는다. 질문은9:40에 마무리하고 마지막20초에 S58으로 handoff한다.
+Time Management: Transition4분 후 Q&A6분을 유지한다. 두 실제 요청 전문 비교는 여기서 하지 않는다. 질문은9:40에 마무리하고 마지막20초에 S61으로 handoff한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S56 또는 production/preview/act2/S56.png를 사용한다. Full/ACT2 PNG·내장 Notes 일치는 production/evaluation/S49_WORKFLOW_HANDOFF_REVISION.md와 검증 JSON을 따른다. 실제 실행 캡처나 현재 제품 화면이 아니다. 무응답 시 Audience Interaction의 준비 질문으로 진행한다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S59 또는 production/preview/act2/S59.png를 사용한다. Full/ACT2 PNG·내장 Notes 일치는 production/evaluation/S49_WORKFLOW_HANDOFF_REVISION.md와 검증 JSON을 따른다. 실제 실행 캡처나 현재 제품 화면이 아니다. 무응답 시 Audience Interaction의 준비 질문으로 진행한다.
 
 Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.

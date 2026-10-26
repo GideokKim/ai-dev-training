@@ -1,5 +1,7 @@
 # DEMO-02 — Reusable Project Context
 
+> Current DEC-0104 /120slides/420minutes. Current Map references (including callbacks, not all scheduled Demo slots): No new scheduled slot; retain the current Slide Map/Notes role. Use [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md) for active paths/hashes and local-only readiness. Earlier literal Slide IDs below retain their historical edition. No new Trial or Live approval.
+
 > Current edition: DEC-0097 /114slides/406minutes. This retained role uses S38, S39, S40. Current paths/hashes/readiness: [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Earlier dated statuses below are historical; no new Trial or Live approval.
 
 > Current references: DEC-0093 /115slides/406minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_115.md. Only new S63/S68 add Lecture, no Demo time. ACT4 remains19pages/81minutes; final tip indexes S112-S114. Windows/product/account/room/timed rehearsal UNVERIFIED.

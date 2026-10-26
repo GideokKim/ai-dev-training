@@ -1,5 +1,7 @@
 # AI 개발자 교육
 
+현재:120장·420분(7시간), DEC-0104. S55 뒤 AGENTS.md 실무 적용 팁3장을 추가했다. [현재 Slide Map](plan/SLIDE_MAP.md)과 [추가 설계](plan/AGENTS_SCOPE_TIPS.md)를 따른다. 아래 이전 수량·검증 기록은 이력이다.
+
 현재 PPT: **DEC-0101 /117장·412분**. S03 뒤에 VS Code + GitHub Copilot 활용 팁
 S04 한 장을 추가했다. 기존116장의 내용·디자인·장별 배정·근거는 유지하고 번호/참조만 정렬했다.
 [최신 PPT](production/AI_Dev_Training_Full.pptx) · [새 팁](production/preview/full/S04.png) ·

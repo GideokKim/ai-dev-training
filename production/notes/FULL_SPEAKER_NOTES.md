@@ -1,8 +1,18 @@
 # Full Speaker Notes
 
+Current: DEC-0104 /120slides/420minutes.19fields per slide. Full/ACT Notes share the same current records.
+
+<details>
+<summary>이전 Notes 표지·제작 기준 보존</summary>
+
+# Full Speaker Notes
+
 > 하단 표기 DEC-0103: 화면에서 옮긴 상세 출처·범위를 각 Notes에 보존한다.117장·412분·19필드와 본문 운영은 유지한다.
 
 Current: DEC-0101 /117slides/412minutes. Current Notes below include the added S04; retained116records change only ID/path references.
+
+
+</details>
 
 ## S01 — AI를 Repository로 데려가기
 
@@ -57,7 +67,7 @@ N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S02 — AI에게 지금 무엇을 맡기고 있는가?로 이어간다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 0 총43분, 전체406분이다. 제목·부제만 안내하고1분에 S02로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 0 총45분, 전체420분이다. 제목·부제만 안내하고1분에 S02로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S01.png 또는 production/ACT_0.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
@@ -779,7 +789,7 @@ Audience Interaction: 위치를 함께 보는 1분 안내다. 청중에게 계�
 Transition: “Repository 안을 함께 볼 수 있어도, 어떤 결과를 받아들일지는 누가 정할까요?”라는 질문으로 S14에 간다.
 
 **Time Management:**
-Lecture 1분. 메뉴 위치 15초, Codex 선택 15초, 허용 폴더 15초, 조사 요청·S14 연결 15초다. 이 장의1분은 보존한다. 현재 ACT0 43분·전체406분·Lecture160분이며 마지막 팁 찾아보기3분은 ACT5의 별도 배정이다. 설정 tutorial을 추가하지 않는다. 제목6장의 Transition6분은 각 ACT의 별도 배정이다.
+Lecture 1분. 메뉴 위치 15초, Codex 선택 15초, 허용 폴더 15초, 조사 요청·S14 연결 15초다. 이 장의1분은 보존한다. 현재 ACT 0 45분·전체420분·Lecture186분이며 마지막 팁 찾아보기3분은 ACT5의 별도 배정이다. 설정 tutorial을 추가하지 않는다. 제목6장의 Transition6분은 각 ACT의 별도 배정이다.
 
 Fallback: 제작 완료 후 production/preview/act0/S13.png 또는 production/preview/full/S13.png의 정적 재구성 도식을 사용한다. 새 PNG와 PPT의 일치는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 확인하기 전까지 미검증이다. 화면을 열 수 없으면 “이 교육에서는 ChatGPT 메뉴에서 Codex를 선택해 허용된 저장소 조사를 시작합니다”라고 말하고 S14로 간다. 즉석 계정 시연으로 대체하지 않는다.
 
@@ -943,7 +953,7 @@ N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S17 — Task에는 무엇이 아직 정해지지 않았을까?로 이어간다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 1 총64분, 전체406분이다. 제목·부제만 안내하고1분에 S17로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 1 총64분, 전체420분이다. 제목·부제만 안내하고1분에 S17로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S16.png 또는 production/ACT_1.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
@@ -1090,7 +1100,7 @@ Audience Interaction: 앞 장과 달라진 정보와 원하는 경로의 연결�
 
 Transition: “이제 답을 다시 읽기보다, 다른 요청에서도 개발자가 먼저 결정할 질문을 정리해 보겠습니다.”라고 S20로 연결한다.
 
-Time Management: Case 2분. 다섯 줄 요청 45초, 목표 경로와 검증 경계 45초, 다음 질문 연결 30초. S18와 합쳐 원래 Case 4분, Section 1B 전체8분을 유지한다. 실제 발화 시간은 UNVERIFIED다.
+Time Management: Case 2분. 다섯 줄 요청 45초, 목표 경로와 검증 경계 45초, 다음 질문 연결 30초. S18와 합쳐 원래 Case 4분, Section 1B 전체420분을 유지한다. 실제 발화 시간은 UNVERIFIED다.
 
 Fallback: 정적 기본 경로 — `production/ACT_1.pptx` S19 또는 `production/preview/act1/S19.png`를 사용한다. 요청 예시·기록·교육 모델의 기존 범위를 유지한다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다.
 
@@ -1425,7 +1435,7 @@ Beginner Explanation: 완료를 판단할 수 있도록 변경 내용·확인 �
 
 Advanced Insight: Choose checks from the task’s risk and the exact claim being made; do not demand every check for every task.
 
-C++ Vision Bridge: 이 장에서는 새 C++ 예시를 추가하지 않는다. S27의 승인된 ON-SCREEN SUPPORTING vector·GoogleTest 도식으로 완료 조건과 검사 범위를 연결한다. 주요 C++ 패턴 전이는 S73에서 이어 간다. 도구 설치·실행 수업으로 확장하지 않는다.
+C++ Vision Bridge: 이 장에서는 새 C++ 예시를 추가하지 않는다. S27의 승인된 ON-SCREEN SUPPORTING vector·GoogleTest 도식으로 완료 조건과 검사 범위를 연결한다. 주요 C++ 패턴 전이는 S76에서 이어 간다. 도구 설치·실행 수업으로 확장하지 않는다.
 
 Demo Operation: TRIAL-002 verification callback only; DEMO-05의 8분 구간 밖이다. 새 관찰 카드나 새 실행 결과를 보여 주지 않고 하단 출처로 과거 확인 범위를 회수한다. 검토용 결과 인계는 기존 기록을 가리키는 강의용 정리이며 실제 PR 화면으로 표현하지 않는다. 본문은 교육 모델로 설명한다.
 
@@ -1474,7 +1484,7 @@ Beginner Explanation: “테스트해줘”에서 멈추지 않고 이 입력에
 
 Advanced Insight: For std::vector<int>, equality compares length and corresponding element values in order; the explicit size check exposes the width requirement but is redundant with equality. Choose cases and assertions from the specification and risk instead of treating assertion count as coverage. Release build, API/ABI checks, regression cases and named-workload measurement remain optional patterns, not this Demo repository's tooling or completed validation.
 
-C++ Vision Bridge: ON-SCREEN SUPPORTING 예시: S03와 같은 native vector 원소 칸으로 기대 {2,3}와 잘못된 {2,3,4}를 표시하고 GoogleTest의 테스트러너 assertion 조건을 비교한다. 표준 C assert나 빌드 설정에 기대는 검증 예시가 아니며 GoogleTest 설치·사용법 강의로 확장하지 않는다. `expected` 지역변수로 비교 대상을 이름 붙인다. Release build·API/ABI·성능 측정 대응은 Notes의 선택 참고로만 남기고 주요 C++ 패턴 전이는 S73에 유지한다. No Windows, shell, IDE, hardware or new C++ execution is asserted.
+C++ Vision Bridge: ON-SCREEN SUPPORTING 예시: S03와 같은 native vector 원소 칸으로 기대 {2,3}와 잘못된 {2,3,4}를 표시하고 GoogleTest의 테스트러너 assertion 조건을 비교한다. 표준 C assert나 빌드 설정에 기대는 검증 예시가 아니며 GoogleTest 설치·사용법 강의로 확장하지 않는다. `expected` 지역변수로 비교 대상을 이름 붙인다. Release build·API/ABI·성능 측정 대응은 Notes의 선택 참고로만 남기고 주요 C++ 패턴 전이는 S76에 유지한다. No Windows, shell, IDE, hardware or new C++ execution is asserted.
 
 Demo Operation: TRIAL-002 evidence callback outside the 8-minute Demo slot. 좌측 표와 우측 vector·assertion 비교는 일반적인 check-to-claim 교육 모델이다. 하단 출처에는 실제 Trial에서 수행한 확인만 표시한다. 실제 Trial은 Python unittest이며 화면의 C++ 코드나 잘못된 vector를 새 실행 결과로 재생하지 않는다. Benchmark 미실행 경계를 유지하고 새 PASS/FAIL·성능 수치·실행 결과를 추가하지 않는다.
 
@@ -2115,7 +2125,7 @@ N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S39 — 다른 Task에 같은 설명이 반복된다로 이어간다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 2 총82분, 전체406분이다. 제목·부제만 안내하고1분에 S39로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 2 총90분, 전체420분이다. 제목·부제만 안내하고1분에 S39로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S38.png 또는 production/ACT_2.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
@@ -2924,7 +2934,7 @@ Demo Operation: N/A.
 Audience Interaction: “우리 팀에서 공통 안내와 상세로 나눌 정보 한 가지는?” 조용한 성찰이며 별도 실습·Q&A를 추가하지 않는다.
 
 **Transition:**
-“정보를 기록하고 찾아 쓸 길은 정리했습니다. 그런데 다음 작업의 수행 방법도 매번 다시 써야 할까요?”
+“우리 프로젝트에서는 AGENTS.md를 어디에 두고, 어느 범위의 지침을 확인할까요?” S56–S58의 팁을 거친 뒤 S59의 기존 수행 방법 질문으로 돌아간다.
 
 Time Management: Lecture2+Reflection1분. 과거 Trial을 다시 시연하지 않는다.
 
@@ -2932,9 +2942,191 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S55; production/prev
 
 Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
 
-## S56 — 지식은 정리됐지만 절차는 반복된다
+## S56 — AGENTS.md는 어디에 둘까?
 
-Slide ID: S56
+**Slide ID:**
+S56
+
+**Working Title:**
+AGENTS.md는 어디에 둘까?
+
+**ACT / Section:**
+ACT 2 / 2I Discussion·Transition
+
+**Allocated Time:**
+3 minutes
+
+**Mode Split:**
+Lecture 3 minutes
+
+**Primary Message:**
+개인 기본값과 프로젝트 공통 규칙, 모듈별 지침을 구분해 두고 현재 작업에 해당하는 범위를 확인한다.
+
+**Opening Question:**
+“공통 규칙과 특정 모듈 규칙을 어디에 둘까?”
+
+**Speaker Flow:**
+1. (0–1분) S55는 실제 Demo의 Context 정리 회수였다. 여기부터 공식 지침을 적용한 별도 검사 프로젝트 예다. 개인 기본값의 언어/Git 규칙을 가리킨다.
+2. (1–2분) 루트 공통 API 보존과 vision의 ROI 명세를 폴더 위치에 연결한다. device의 하드웨어 연동 규칙은 형제 모듈 규칙이다.
+3. (2–3분) crop.cpp가 속한 가지를 짚는다. 이 그림은 적용 범위를 설명하며 전체 하위 파일의 자동 로드를 뜻하지 않는다. 다음은 공통·전용 규칙의 결합이다.
+
+**Evidence / Source:**
+[OpenAI: Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md), checked2026-10-26. [OpenAI: Projects and chats](https://learn.chatgpt.com/docs/projects), checked2026-10-26. DEC-0104; illustrative inspection/ folder and rule examples, not graypipe Trial evidence.
+
+**Claim Boundary:**
+TEACHING MODEL / REQUIRES PRODUCT CHECK — 공식 안내 기반 프로젝트 적용 예. 실제 파일 생성·Codex 실행·새 Trial 관찰이 아니다. 지침 적용 범위와 시작 시 수집 경로를 구분하며, 파일 존재·Agent 자기보고만으로 읽기/준수 완료를 입증하지 않는다. 지침은 권한·CI 강제 수단이 아니다.
+
+**Beginner Explanation:**
+루트의 공통 규칙과 작업 폴더에만 필요한 규칙을 구분한다.
+
+**Advanced Insight:**
+규칙의 논리적 범위와 런타임 수집 여부를 혼동하지 않고 다음 장에서 병합 관계를 본다.
+
+**C++ Vision Bridge:**
+가상 C++ 검사 프로젝트 inspection/src/vision/crop.cpp. 실제 graypipe 구현/실험 이력과 구분한다.
+
+**Demo Operation:**
+N/A — 정적 폴더·지침 도식과 요청 예. 실제 Codex 실행/환경 설정 변경을 하지 않는다.
+
+**Audience Interaction:**
+화면의 강조 경로와 목록을 하나씩 짚는다. 청중 직접 실습이나 추가 공개 답변 시간은 배정하지 않는다.
+
+**Transition:**
+“crop.cpp를 수정할 때, 공통 지침과 vision 지침은 어떻게 함께 적용될까요?” S57로 이어간다.
+
+**Time Management:**
+Lecture 3분. 화면의 질문·도식·다음 질문을 정해진 순서로 짚고 시간에 넘긴다. 실제 리허설 UNVERIFIED.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S56; production/preview/act2/S56.png. Default is an instructional diagram, not an execution capture. Local file readiness is recorded in production/evaluation/AGENTS_SCOPE_TIPS_RESULT.md.
+
+**Validation Status:**
+Official guidance checked2026-10-26. Local package/render/Notes checks recorded separately. Product-account execution, Windows, room and timed rehearsal remain UNVERIFIED.
+
+## S57 — 공통 지침에 모듈 지침을 더한다
+
+**Slide ID:**
+S57
+
+**Working Title:**
+공통 지침에 모듈 지침을 더한다
+
+**ACT / Section:**
+ACT 2 / 2I Discussion·Transition
+
+**Allocated Time:**
+3 minutes
+
+**Mode Split:**
+Lecture 3 minutes
+
+**Primary Message:**
+공통 지침을 유지하면서 모듈 전용 지침을 더한다. 충돌하는 기본값은 더 가까운 지침을 우선한다.
+
+**Opening Question:**
+“모듈 지침이 있으면 루트 지침은 없어질까?”
+
+**Speaker Flow:**
+1. (0–1분) 수정 대상은 같은 src/vision/crop.cpp다. 루트의 공개 API 유지와 기본 검증 진입점을 읽는다.
+2. (1–2분) vision의 ROI 명세와 전용 검증 진입점을 더한다. 결합한 목록에서 공개 API 유지가 사라지지 않았음을 확인한다.
+3. (2–3분) 충돌하는 기본값만 더 가까운 지침을 우선한다. ctest 예시는 기본 진입점 선택이며, 의무적인 전체 회귀 검사를 생략하거나 상위 승인·권한을 우회하는 규칙이 아니다. 다음 장에서 실제 수집을 따로 확인한다.
+
+**Evidence / Source:**
+[OpenAI: Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md), checked2026-10-26. [OpenAI: Projects and chats](https://learn.chatgpt.com/docs/projects), checked2026-10-26. DEC-0104; illustrative inspection/ folder and rule examples, not graypipe Trial evidence.
+
+**Claim Boundary:**
+TEACHING MODEL / REQUIRES PRODUCT CHECK — 공식 안내 기반 프로젝트 적용 예. 실제 파일 생성·Codex 실행·새 Trial 관찰이 아니다. 지침 적용 범위와 시작 시 수집 경로를 구분하며, 파일 존재·Agent 자기보고만으로 읽기/준수 완료를 입증하지 않는다. 지침은 권한·CI 강제 수단이 아니다.
+
+**Beginner Explanation:**
+모듈 규칙을 추가해도 공통 제약이 남는다는 점을 이해한다.
+
+**Advanced Insight:**
+상속과 충돌 해결을 구별하고 검증 진입점 기본값과 필수 검증 의무를 혼동하지 않는다.
+
+**C++ Vision Bridge:**
+가상 C++ 검사 프로젝트 inspection/src/vision/crop.cpp. 실제 graypipe 구현/실험 이력과 구분한다.
+
+**Demo Operation:**
+N/A — 정적 폴더·지침 도식과 요청 예. 실제 Codex 실행/환경 설정 변경을 하지 않는다.
+
+**Audience Interaction:**
+화면의 강조 경로와 목록을 하나씩 짚는다. 청중 직접 실습이나 추가 공개 답변 시간은 배정하지 않는다.
+
+**Transition:**
+“적용할 규칙을 배치했다면, Codex가 실제로 그 파일을 읽었을까요?” S58로 이어간다.
+
+**Time Management:**
+Lecture 3분. 화면의 질문·도식·다음 질문을 정해진 순서로 짚고 시간에 넘긴다. 실제 리허설 UNVERIFIED.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S57; production/preview/act2/S57.png. Default is an instructional diagram, not an execution capture. Local file readiness is recorded in production/evaluation/AGENTS_SCOPE_TIPS_RESULT.md.
+
+**Validation Status:**
+Official guidance checked2026-10-26. Local package/render/Notes checks recorded separately. Product-account execution, Windows, room and timed rehearsal remain UNVERIFIED.
+
+## S58 — 적용할 지침을 실제로 읽었을까?
+
+**Slide ID:**
+S58
+
+**Working Title:**
+적용할 지침을 실제로 읽었을까?
+
+**ACT / Section:**
+ACT 2 / 2I Discussion·Transition
+
+**Allocated Time:**
+2 minutes
+
+**Mode Split:**
+Lecture 2 minutes
+
+**Primary Message:**
+시작 시 자동 수집은 루트에서 시작 작업 폴더까지의 경로를 따른다. 작업에 필요한 하위 지침은 적용 경로와 본문을 확인해 읽도록 요청한다.
+
+**Opening Question:**
+“파일이 그 위치에 있으면 반드시 읽혔다고 볼 수 있을까?”
+
+**Speaker Flow:**
+1. (0–1분) 같은 폴더 구조에서 시작 위치만 비교한다. 루트 시작은 자동 검색이 루트에서 멈추며, vision에서 시작하면 경로의 모듈 지침까지 포함된다. 전체 하위 폴더를 재귀적으로 자동 수집한다는 뜻은 아니다.
+2. (1–2분) 화면의 요청을 읽는다. 루트에서 시작해 하위 코드를 다룬다면 적용할 중첩 지침도 찾아 본문을 읽도록 한다. 응답 경로를 실제 파일과 대조하고 필요하면 로드/읽기 기록을 확인한다. 수행 방법 반복 질문으로 돌아간다.
+
+**Evidence / Source:**
+[OpenAI: Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md), checked2026-10-26. [OpenAI: Projects and chats](https://learn.chatgpt.com/docs/projects), checked2026-10-26. DEC-0104; illustrative inspection/ folder and rule examples, not graypipe Trial evidence.
+
+**Claim Boundary:**
+TEACHING MODEL / REQUIRES PRODUCT CHECK — 공식 안내 기반 프로젝트 적용 예. 실제 파일 생성·Codex 실행·새 Trial 관찰이 아니다. 지침 적용 범위와 시작 시 수집 경로를 구분하며, 파일 존재·Agent 자기보고만으로 읽기/준수 완료를 입증하지 않는다. 지침은 권한·CI 강제 수단이 아니다. 시작 시 지침 체인은 새 실행/세션에서 구성된다. 실행 중 터미널 cd만으로 기존 세션이 재수집한다고 말하지 않는다. Desktop의 주 작업 폴더와 추가 첨부 폴더의 자동 발견도 구별한다. 같은 디렉터리의 AGENTS.override.md가 일반 AGENTS.md보다 먼저 선택되고, fallback 이름/크기 설정도 수집에 영향을 줄 수 있다. 상세 설정은 공식 문서로 안내한다.
+
+**Beginner Explanation:**
+파일을 두는 것과 실제로 읽히는 것을 구분하고 확인할 요청을 쓸 수 있다.
+
+**Advanced Insight:**
+시작 시 instruction chain과 이후 명시적 파일 읽기를 구분하며 경로·내용·필요 시 로그를 대조한다.
+
+**C++ Vision Bridge:**
+가상 C++ 검사 프로젝트 inspection/src/vision/crop.cpp. 실제 graypipe 구현/실험 이력과 구분한다.
+
+**Demo Operation:**
+N/A — 정적 폴더·지침 도식과 요청 예. 실제 Codex 실행/환경 설정 변경을 하지 않는다.
+
+**Audience Interaction:**
+화면의 강조 경로와 목록을 하나씩 짚는다. 청중 직접 실습이나 추가 공개 답변 시간은 배정하지 않는다.
+
+**Transition:**
+“지침의 위치와 읽을 범위를 정리해도, 작업마다 같은 수행 절차를 다시 요청하는 문제는 남습니다.” S59의 기존 Harness 질문으로 돌아간다.
+
+**Time Management:**
+Lecture 2분. 화면의 질문·도식·다음 질문을 정해진 순서로 짚고 시간에 넘긴다. 실제 리허설 UNVERIFIED.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S58; production/preview/act2/S58.png. Default is an instructional diagram, not an execution capture. Local file readiness is recorded in production/evaluation/AGENTS_SCOPE_TIPS_RESULT.md.
+
+**Validation Status:**
+Official guidance checked2026-10-26. Local package/render/Notes checks recorded separately. Product-account execution, Windows, room and timed rehearsal remain UNVERIFIED.
+
+## S59 — 지식은 정리됐지만 절차는 반복된다
+
+Slide ID: S59
 
 Working Title: 지식은 정리됐지만 절차는 반복된다
 
@@ -2952,14 +3144,14 @@ Opening Question: “Project 정보를 잘 정리했으면 문제가 끝난 걸�
 1. (0–1분, Transition) 정보의 위치와 근거 접근을 정리했다는 앞 장 성과를 한 문장으로 회수한다.
 2. (1–4분, Transition) 하나의 성능 요청에 여전히 조사·검증 절차를 다시 적는 그림을 보여주며 유지 책임을 묻는다. 다음 장의 두 기록 비교를 미리 설명하지 않는다.
 3. (4–9:40, Q&A) “우리 팀은 어떤 절차를 매번 다시 요청합니까?”로 팀의 방법 반복을 묻는다. 질문이 없으면 변경 전 측정/동일 입력 비교/완료 보고 중 하나를 선택하게 한다.
-4. (9:40–10분, Q&A 마무리) 두 실제 성능 요청에 반복된 지시를 보겠다고 S58으로 넘긴다.
-기존 연결 질문을 유지한 채 ACT 3 제목 S57를 거쳐 S58의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
+4. (9:40–10분, Q&A 마무리) 두 실제 성능 요청에 반복된 지시를 보겠다고 S61으로 넘긴다.
+기존 연결 질문을 유지한 채 ACT 3 제목 S60를 거쳐 S61의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
 
 Evidence / Source: BEAT-017/018, TRANS-005, TRIAL-006/007, CLM-0003/0005/0014/0006/0029/0030, DEC-0059. plan/DEMO_MATRIX.md의 TRIAL-006 실제 Prompt/Repeated Workflow Elements, TRIAL-007 Task Prompt/결과 요약과 환경 영향 기록을 대조했다. OBSERVED_PRODUCT는 다음 문제의 반복 Prompt 구조에 한정하고, Context/Prompt/Workflow 책임 구분과 이 화면은 TEACHING_MODEL이다. 새 Trial·테스트·제품 확인은 하지 않았다.
 
 보존된 상세 출처: 교육용 요청 재구성 · 다음 ACT에서 TRIAL-006/007의 실제 기록을 비교
 
-Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Context 정리는 ACT 2의 주제이며, 다음 절차 반복 예시는 ACT 3의 질문이다. Trial Prompt만으로 전체 절차의 원인을 귀속하지 않는다. S55의 성과를 반복 해설하지 않고 수행 방법을 누가 유지할지 질문한다. Transition4 뒤 Q&A6은 팀의 반복되는 방법을 묻고 마지막20초에 다음 기록으로 넘어간다. 두 실제 요청의 대응 기록은 S58에 남겨 역할을 나눈다.
+Claim Boundary: FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Context 정리는 ACT 2의 주제이며, 다음 절차 반복 예시는 ACT 3의 질문이다. Trial Prompt만으로 전체 절차의 원인을 귀속하지 않는다. S55의 성과를 반복 해설하지 않고 수행 방법을 누가 유지할지 질문한다. Transition4 뒤 Q&A6은 팀의 반복되는 방법을 묻고 마지막20초에 다음 기록으로 넘어간다. 두 실제 요청의 대응 기록은 S61에 남겨 역할을 나눈다.
 
 보존된 상세 범위: Context 선택 완전 해결 미입증 · 다음 예시도 Prompt 단독 효과로 귀속하지 않음
 
@@ -2969,24 +3161,24 @@ Advanced Insight: The screen contrasts information scope/location with repeated 
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A — native 문서 배치와 두 성능 요청의 압축 요약을 정적으로 보여준다. Prompt 전문·실제 Screenshot·현재 제품 실행으로 표현하지 않는다. 이 장은 새 Trial이나 추가 Demo 시간이 아니다. 다음 S58에서 기록의 반복 구조를 확인한다.
+Demo Operation: N/A — native 문서 배치와 두 성능 요청의 압축 요약을 정적으로 보여준다. Prompt 전문·실제 Screenshot·현재 제품 실행으로 표현하지 않는다. 이 장은 새 Trial이나 추가 Demo 시간이 아니다. 다음 S61에서 기록의 반복 구조를 확인한다.
 
 Audience Interaction: Q&A6分은 팀에서 반복하는 작업 방법을 묻는다. S54의 근거 주장 해석 Q&A와 구분한다. 무응답 때는 “변경 전 측정, 테스트, 비교·보고 중 무엇을 매번 적습니까?”를 사용한다.
 
 **Transition:**
 “우리 팀은 어떤 절차를 매번 다시 요청합니까? 다음에는 두 성능 Task의 실제 요청 기록에서 반복된 지시를 확인합니다.”
-기존 연결 질문을 유지한 채 ACT 3 제목 S57를 거쳐 S58의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
+기존 연결 질문을 유지한 채 ACT 3 제목 S60를 거쳐 S61의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
 
-Time Management: Transition4분 후 Q&A6분을 유지한다. 두 실제 요청 전문 비교는 여기서 하지 않는다. 질문은9:40에 마무리하고 마지막20초에 S58으로 handoff한다.
+Time Management: Transition4분 후 Q&A6분을 유지한다. 두 실제 요청 전문 비교는 여기서 하지 않는다. 질문은9:40에 마무리하고 마지막20초에 S61으로 handoff한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S56 또는 production/preview/act2/S56.png를 사용한다. Full/ACT2 PNG·내장 Notes 일치는 production/evaluation/S49_WORKFLOW_HANDOFF_REVISION.md와 검증 JSON을 따른다. 실제 실행 캡처나 현재 제품 화면이 아니다. 무응답 시 Audience Interaction의 준비 질문으로 진행한다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S59 또는 production/preview/act2/S59.png를 사용한다. Full/ACT2 PNG·내장 Notes 일치는 production/evaluation/S49_WORKFLOW_HANDOFF_REVISION.md와 검증 JSON을 따른다. 실제 실행 캡처나 현재 제품 화면이 아니다. 무응답 시 Audience Interaction의 준비 질문으로 진행한다.
 
 Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
 
-## S57 — AI가 일할 방법과 환경 설계하기
+## S60 — AI가 일할 방법과 환경 설계하기
 
 **Slide ID:**
-S57
+S60
 
 **Working Title:**
 AI가 일할 방법과 환경 설계하기
@@ -3009,7 +3201,7 @@ AI가 일할 방법과 환경 설계하기 — Harness Engineering · 수행 체
 **Speaker Flow:**
 1. (0:00–0:20 / Transition) ACT 3의 제목 “AI가 일할 방법과 환경 설계하기”을 가리키며 구간을 연다.
 2. (0:20–0:40 / Transition) 부제 “Harness Engineering · 수행 체계 설계”는 이번 구간의 관점만 안내한다. 구체적 기능·해결 방법·결과는 앞서 설명하지 않는다.
-3. (0:40–1:00 / Transition) S58의 기존 첫 문제로 이동한다. 본문의 질문·성찰을 이 장에서 대신 진행하지 않는다.
+3. (0:40–1:00 / Transition) S61의 기존 첫 문제로 이동한다. 본문의 질문·성찰을 이 장에서 대신 진행하지 않는다.
 
 **Evidence / Source:**
 DEC-0090. 사용자가 승인한 ACT 제목·부제, plan/MASTER_PLAN.md의 여정과 현행 plan/SLIDE_MAP.md. 새 Trial·연구·제품 검증은 없다.
@@ -3033,20 +3225,20 @@ N/A — 정적 제목 화면. 새 Demo 또는 실행을 시작하지 않는다.
 N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 
 **Transition:**
-“이제 이 관점에서 첫 문제를 보겠습니다.”라고 S58 — 두 실제 요청에 같은 절차가 반복됐다로 이어간다.
+“이제 이 관점에서 첫 문제를 보겠습니다.”라고 S61 — 두 실제 요청에 같은 절차가 반복됐다로 이어간다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 3 총96분, 전체406분이다. 제목·부제만 안내하고1분에 S58로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 3 총96분, 전체420분이다. 제목·부제만 안내하고1분에 S61로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S57.png 또는 production/ACT_3.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
+LOCAL STATIC ARTIFACT — production/preview/full/S60.png 또는 production/ACT_3.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0090. 로컬 패키지/Notes/렌더 대조는 production/evaluation/ACT_TITLE_SLIDES.md에 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설 UNVERIFIED.
 
-## S58 — 두 실제 요청에 같은 절차가 반복됐다
+## S61 — 두 실제 요청에 같은 절차가 반복됐다
 
-Slide ID: S58
+Slide ID: S61
 
 Working Title: 두 실제 요청에 같은 절차가 반복됐다
 
@@ -3062,7 +3254,7 @@ Opening Question: “목표가 달라도 왜 같은 작업 방법을 다시 요�
 
 Speaker Flow:
 
-1. (0:00–1:00) S56의 절차 유지 질문을 회수하고 Harness를 작업 방법과 실행·검증 환경 설계라고 짧게 안내한다. 완성 구조를 먼저 제시하지 않는다.
+1. (0:00–1:00) S59의 절차 유지 질문을 회수하고 Harness를 작업 방법과 실행·검증 환경 설계라고 짧게 안내한다. 완성 구조를 먼저 제시하지 않는다.
 2. (1:00–4:00) 크기 변경과 픽셀값 정규화의 기존 삽화는 기능 설명용임을 밝히고, A의 실제 요청 발췌 번역과 B의 보존 요청 요약을 세 행으로 대응한다.
 3. (4:00–5:00) 반복 지시와 관찰 실행을 구분하고 전역 Harness 영향 때문에 Prompt 단독 효과 귀속은 PARTIAL임을 유지한다.
 
@@ -3088,13 +3280,13 @@ Transition: “반복된 것은 명령 하나뿐일까요? 그 명령을 언제 
 
 Time Management: Case5분: 방향/과제1, 두 기록 대응3, 한계/전환1.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S58, production/preview/act3/S58.png 및 production/preview/full/S58.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S61, production/preview/act3/S61.png 및 production/preview/full/S61.png. 실제 캡처·현재 제품 실행이 아닌 표시된 기록 요약/가정/모델의 범위로 설명한다. 최종 파일 대조는 production/evaluation/ACT_3_FLOW_REVISION.md를 따른다.
 
 Validation Status: REVIEWED — DEC-0062의 근거·19필드·운영 순서를 정렬했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_3_FLOW_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S59 — 테스트 명령을 언제 쓰고 무엇을 판단할까?
+## S62 — 테스트 명령을 언제 쓰고 무엇을 판단할까?
 
-Slide ID: S59
+Slide ID: S62
 
 Working Title: 테스트 명령을 언제 쓰고 무엇을 판단할까?
 
@@ -3109,10 +3301,10 @@ Primary Message: 테스트 명령·명세·측정 방법을 작업의 어느 시
 Opening Question: “같은 테스트 명령을 변경 전과 변경 후에 실행하면 각각 무엇을 확인할까?”
 
 **Speaker Flow:**
-1. (0:00–0:45) S58의 두 요청에서 반복된 방법을 회수한다. normalize 성능 조사를 예로 들고 상단의 테스트 실행 방법·동작 명세·측정 방법은 프로젝트에서 확인할 정보임을 짚는다.
+1. (0:00–0:45) S61의 두 요청에서 반복된 방법을 회수한다. normalize 성능 조사를 예로 들고 상단의 테스트 실행 방법·동작 명세·측정 방법은 프로젝트에서 확인할 정보임을 짚는다.
 2. (0:45–2:15) 변경 전과 변경 후의 같은 테스트 실행 표시를 차례로 가리킨다. 전자는 원래 상태, 후자는 변경 영향을 확인하려는 것이다. 성능도 같은 입력·조건으로 비교할 기준을 먼저 확보한다. 테스트 결과가 명세 전체의 충족을 자동 보장하지는 않는다.
 3. (2:15–3:15) 완료 판단에서 동작 보존과 측정 결과, 미확인 사항을 함께 보고하도록 연결한다. 기존 실패나 근거 부족이 있으면 원인·범위를 먼저 확인하고 필요하면 변경을 보류한다. 화면은 실제 로그나 새 실행 결과가 아니다.
-4. (3:15–4:00) 명령뿐 아니라 사용 시점과 판단 기준까지 수행 방법에 포함됨을 회수한다. 이 내용도 AGENTS.md에 쓸 수 있다. 저장 위치 선택은 아직 답하지 않고 S60의 이번 목표·프로젝트 기준·수행 방법 결합으로 넘어간다.
+4. (3:15–4:00) 명령뿐 아니라 사용 시점과 판단 기준까지 수행 방법에 포함됨을 회수한다. 이 내용도 AGENTS.md에 쓸 수 있다. 저장 위치 선택은 아직 답하지 않고 S63의 이번 목표·프로젝트 기준·수행 방법 결합으로 넘어간다.
 운영 표시: “실무 적용 팁 · 수행 방법” 배지로 다시 찾아 쓸 기준임을 짚는다. 기존 설명·근거 범위와 배정 시간 안에서 진행하며 요청·예시를 새로 실행하지 않는다.
 
 Evidence / Source: BEAT-019; plan/DEMO_MATRIX.md의 TRIAL-006/007 반복 요청과 보존 조건; DEC-0062, DEC-0063. TEACHING_MODEL / CONCEPTUAL. normalize는 기존 기능 예시이며 화면은 해당 Trial의 정확한 실행 순서나 AGENTS.md 원문을 재현한 것이 아니다.
@@ -3135,15 +3327,15 @@ Audience Interaction: Opening Question은 발표자가 짧게 던지고 세 시�
 
 Transition: “지금 본 수행 방법을 이번 요청의 목표, 프로젝트 기준과 함께 놓아 보겠습니다.”
 
-Time Management: Lecture4분: 반복 요청·상단 정보0.75, 변경 전/후1.5, 완료 판단1, S60 연결0.75. 시간이 부족하면 기존 실패의 확장 예를 줄이고 같은 명령/다른 질문과 교육용 경계는 유지한다.
+Time Management: Lecture4분: 반복 요청·상단 정보0.75, 변경 전/후1.5, 완료 판단1, S63 연결0.75. 시간이 부족하면 기존 실패의 확장 예를 줄이고 같은 명령/다른 질문과 교육용 경계는 유지한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S59, production/preview/act3/S59.png 및 production/preview/full/S59.png. 실제 실행 캡처가 아닌 교육용 수행 예시다. 최종 패키지·PNG·내장 Notes 확인은 production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S62, production/preview/act3/S62.png 및 production/preview/full/S62.png. 실제 실행 캡처가 아닌 교육용 수행 예시다. 최종 패키지·PNG·내장 Notes 확인은 production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md를 따른다.
 
 Validation Status: ALIGNED — DEC-0063의 교육용 경계·19필드·운영 흐름을 정렬했다. 실제 파일 렌더·Notes 대조 결과는 production/evaluation/S51_COMMAND_WORKFLOW_REVISION.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S60 — 목표·기준·방법을 한 작업에 적용한다
+## S63 — 목표·기준·방법을 한 작업에 적용한다
 
-Slide ID: S60
+Slide ID: S63
 
 Working Title: 목표·기준·방법을 한 작업에 적용한다
 
@@ -3159,10 +3351,10 @@ Opening Question: “이번 목표를 향해 작업할 때, 무엇을 지키고 
 
 Speaker Flow:
 
-1. (0:00–1:00) S59에서 명령의 사용 시점·판단 기준까지 정한 방법을 봤음을 한 문장으로 회수한다. 상단 이번 목표 ‘normalize 성능을 조사해줘’를 읽고, 아래 작업 영역으로 들어가는 연결을 짚는다. S59의 전/후 실행을 다시 강의하지 않는다.
+1. (0:00–1:00) S62에서 명령의 사용 시점·판단 기준까지 정한 방법을 봤음을 한 문장으로 회수한다. 상단 이번 목표 ‘normalize 성능을 조사해줘’를 읽고, 아래 작업 영역으로 들어가는 연결을 짚는다. S62의 전/후 실행을 다시 강의하지 않는다.
 2. (1:00–2:30) 작업을 감싸는 프로젝트 기준 테두리를 따라 기존 이미지 동작과 공개 명세 보존을 설명한다. 성능 조사라는 목표가 명세 변경의 허가가 되지는 않는다. 중앙은 그 범위 안에서 normalize 구현을 조사하고 변경 여부를 판단하는 한 작업이다.
 3. (2:30–4:00) 오른쪽 재사용할 수행 방법에서 중앙 작업으로 향하는 연결을 짚는다. 앞서 본 측정·조사·검증·비교 방법을 이번 목표와 기준에 맞게 적용한다. 방법의 저장 파일이나 Skill 호출을 미리 답하지 않는다. 근거가 부족하면 변경하지 않는 판단도 가능하다.
-4. (4:00–5:00) 목표는 바뀌어도 프로젝트 기준과 같은 수행 방법은 다음 관련 작업에서도 다시 필요할 수 있음을 묻는다. S61에서 반복할 방법을 어디에서 유지할지 선택하도록 연결한다.
+4. (4:00–5:00) 목표는 바뀌어도 프로젝트 기준과 같은 수행 방법은 다음 관련 작업에서도 다시 필요할 수 있음을 묻는다. S64에서 반복할 방법을 어디에서 유지할지 선택하도록 연결한다.
 
 Evidence / Source: BEAT-019; plan/DEMO_MATRIX.md의 TRIAL-006/007 목표·보존 조건·반복 요청; DEC-0062, DEC-0063, DEC-0064. TEACHING_MODEL / CONCEPTUAL. 실제 요청을 그대로 실행한 기록이나 새로운 normalize Trial이 아니다.
 
@@ -3184,15 +3376,15 @@ Audience Interaction: 발표자가 ‘이번 목표가 성능 조사라면 기�
 
 Transition: “같은 수행 방법이 다음 작업에도 필요하다면, 어디에서 함께 유지할까요?”
 
-Time Management: Lecture5분: S59 회수·목표1, 기준·한 작업1.5, 방법 적용1.5, S61 재사용 질문1. 시간이 부족하면 다른 Task 예시는 생략하고 세 요소가 같은 작업에 적용된다는 관계와 교육용 경계를 유지한다.
+Time Management: Lecture5분: S62 회수·목표1, 기준·한 작업1.5, 방법 적용1.5, S64 재사용 질문1. 시간이 부족하면 다른 Task 예시는 생략하고 세 요소가 같은 작업에 적용된다는 관계와 교육용 경계를 유지한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S60, production/preview/act3/S60.png 및 production/preview/full/S60.png. 실제 실행 캡처가 아닌 교육용 관계 도식이다. 최종 패키지·PNG·내장 Notes 확인은 production/evaluation/S52_TASK_COMPOSITION_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S63, production/preview/act3/S63.png 및 production/preview/full/S63.png. 실제 실행 캡처가 아닌 교육용 관계 도식이다. 최종 패키지·PNG·내장 Notes 확인은 production/evaluation/S52_TASK_COMPOSITION_REVISION.md를 따른다.
 
 Validation Status: ALIGNED — DEC-0064의 교육용 경계·19필드·5분 운영 흐름을 정렬했다. 실제 파일 렌더·Notes 대조는 production/evaluation/S52_TASK_COMPOSITION_REVISION.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S61 — 반복 절차를 Skill로 모으는 이유
+## S64 — 반복 절차를 Skill로 모으는 이유
 
-Slide ID: S61
+Slide ID: S64
 
 Working Title: 반복 절차를 Skill로 모으는 이유
 
@@ -3208,12 +3400,12 @@ Opening Question: “다음 작업에도 같은 방법이 필요하다면, 무�
 
 Speaker Flow:
 
-1. (0:00–0:45) S60의 ‘같은 수행 방법이 다음 작업에도 필요하다면?’을 회수한다. 왼쪽 resize_nearest와 normalize는 서로 다른 성능 조사 목표이며 요청은 교육용 요약임을 밝힌다.
-2. (0:45–1:45) 왼쪽 요청마다 이번 목표·허용 범위·추가 보존 조건을 정함을 짚는다. S60의 기존 프로젝트 기준도 계속 적용된다. 오른쪽은 이 두 작업에 필요한 공통 수행 방법을 프로젝트가 함께 관리할 문서다.
-3. (1:45–3:00) 오른쪽 Skill 문서에서 두 요청으로 갈라지는 연결을 따라간다. 같은 절차를 매번 다시 작성하지 않고 한 곳에서 검토·수정해 필요한 작업에 연결하려는 이유를 설명한다. 단계별 실행 순서는 S59에서 봤으므로 다시 강의하지 않는다. AGENTS.md에도 절차를 둘 수 있고, Skill은 이 사례에서 선택한 구현임을 덧붙인다.
-4. (3:00–4:00) DEC-0017의 프로젝트 소유 Skill 선택과 성공 검증을 구분한다. 현재 제품 표면·계정·호출 경로는 별도 확인이며 자동 준수를 보장하지 않는다. 다음 S62의 Codex CLI0.154.0 발견·명시 호출·본문 포함 기록으로 넘어간다.
+1. (0:00–0:45) S63의 ‘같은 수행 방법이 다음 작업에도 필요하다면?’을 회수한다. 왼쪽 resize_nearest와 normalize는 서로 다른 성능 조사 목표이며 요청은 교육용 요약임을 밝힌다.
+2. (0:45–1:45) 왼쪽 요청마다 이번 목표·허용 범위·추가 보존 조건을 정함을 짚는다. S63의 기존 프로젝트 기준도 계속 적용된다. 오른쪽은 이 두 작업에 필요한 공통 수행 방법을 프로젝트가 함께 관리할 문서다.
+3. (1:45–3:00) 오른쪽 Skill 문서에서 두 요청으로 갈라지는 연결을 따라간다. 같은 절차를 매번 다시 작성하지 않고 한 곳에서 검토·수정해 필요한 작업에 연결하려는 이유를 설명한다. 단계별 실행 순서는 S62에서 봤으므로 다시 강의하지 않는다. AGENTS.md에도 절차를 둘 수 있고, Skill은 이 사례에서 선택한 구현임을 덧붙인다.
+4. (3:00–4:00) DEC-0017의 프로젝트 소유 Skill 선택과 성공 검증을 구분한다. 현재 제품 표면·계정·호출 경로는 별도 확인이며 자동 준수를 보장하지 않는다. 다음 S65의 Codex CLI0.154.0 발견·명시 호출·본문 포함 기록으로 넘어간다.
 
-Evidence / Source: DEC-0017; BEAT-020/021; plan/DEMO_MATRIX.md의 TRIAL-006/007 반복 요청과 TRIAL-008 연결; STATE-04의 .agents/skills/graypipe-performance/SKILL.md. 왼쪽 요청은 실제 Prompt 전문이 아닌 교육용 요약이고 오른쪽 절차도 요약이다. 실제 발견·호출 근거는 S62에서 확인한다.
+Evidence / Source: DEC-0017; BEAT-020/021; plan/DEMO_MATRIX.md의 TRIAL-006/007 반복 요청과 TRIAL-008 연결; STATE-04의 .agents/skills/graypipe-performance/SKILL.md. 왼쪽 요청은 실제 Prompt 전문이 아닌 교육용 요약이고 오른쪽 절차도 요약이다. 실제 발견·호출 근거는 S65에서 확인한다.
 
 보존된 상세 출처: DEC-0017 · 프로젝트 Skill을 선택한 설계 의도 · 왼쪽 요청은 교육용 요약
 
@@ -3233,15 +3425,15 @@ Audience Interaction: ‘같은 검증 절차를 고칠 때 각 요청을 따로
 
 Transition: “이제 당시 CLI 기록에서 이 Skill이 어떻게 발견되고, 작업 요청과 함께 호출됐는지 확인하겠습니다.”
 
-Time Management: Lecture4분: S60 회수0.75, 요청/기준 구분1, 공통 Skill과 관리 이유1.25, 선택 범위/S58 연결1. 시간이 부족하면 절차 항목 설명을 줄이고 Task별 정보·한 곳의 방법·설계 경계는 유지한다.
+Time Management: Lecture4분: S63 회수0.75, 요청/기준 구분1, 공통 Skill과 관리 이유1.25, 선택 범위/S61 연결1. 시간이 부족하면 절차 항목 설명을 줄이고 Task별 정보·한 곳의 방법·설계 경계는 유지한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S61, production/preview/act3/S61.png 및 production/preview/full/S61.png. 실제 실행 캡처가 아닌 교육용 선택·재사용 도식이다. 최종 패키지·PNG·내장 Notes 확인은 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S64, production/preview/act3/S64.png 및 production/preview/full/S64.png. 실제 실행 캡처가 아닌 교육용 선택·재사용 도식이다. 최종 패키지·PNG·내장 Notes 확인은 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md를 따른다.
 
 Validation Status: ALIGNED — DEC-0065의19필드·4분 운영·교육용/제품 확인 경계를 유지하고 DEC-0066의 동일 굵기 연결선과 정렬했다. 실제 파일 렌더·Notes 대조는 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S62 — Skill 발견·호출·본문 포함의 근거
+## S65 — Skill 발견·호출·본문 포함의 근거
 
-Slide ID: S62
+Slide ID: S65
 
 Working Title: Skill 발견·호출·본문 포함의 근거
 
@@ -3257,11 +3449,11 @@ Opening Question: “공통 방법을 Skill에 두었다면, 이번 작업에 �
 
 Speaker Flow:
 
-1. (0:00–0:45) S61의 공통 방법을 새 작업에 연결한다. 이번 목표는 밝기 통계(image_statistics)의 실행 시간 또는 할당량 개선 가능성 조사다. 원래 결과 6항목과 변경 범위를 보존하며, 기존 요청의 trade-off 보고와 근거에 따른 no-change 허용 조건도 유지한다.
+1. (0:00–0:45) S64의 공통 방법을 새 작업에 연결한다. 이번 목표는 밝기 통계(image_statistics)의 실행 시간 또는 할당량 개선 가능성 조사다. 원래 결과 6항목과 변경 범위를 보존하며, 기존 요청의 trade-off 보고와 근거에 따른 no-change 허용 조건도 유지한다.
 2. (0:45–1:45) 왼쪽 /skills 목록에서 graypipe-performance 이름과 잘린 설명을 확인한 기록을 짚는다. 목록에는 파일 경로가 없었다. 화면은 제품 UI 캡처가 아닌 보존된 관찰·문구의 재구성이다.
 3. (1:45–2:45) 가운데 요청 첫 줄의 $graypipe-performance를 가리킨다. 호출 표기는 실제 문구이며 뒤의 한글은 실제 요청의 번역 요약이다. 사용자가 명시한 호출이다. 암묵 호출을 시험한 결과로 설명하지 않는다.
 4. (2:45–4:15) 오른쪽 실행 trace의 <skill> 항목에서 같은 이름, 저장소 Skill 경로, 전체 지침 본문이 들어온 근거를 짚는다. 원문에는 절차·보고·제약을 포함한 전체 본문이 있고 화면은 그 범위를 요약했다. 경로는 저장소 상대 경로로 표시했다. 별도의 load UI 이벤트가 있었던 것은 아니다.
-5. (4:15–5:00) Codex CLI0.154.0의 성공한 실행에서 관찰한 범위를 말한다. 현재 Desktop이나 모든 지침의 준수를 보장하지 않는다. S63에서 Skill의 지침과 실제 작업 기록을 대응하도록 전환한다.
+5. (4:15–5:00) Codex CLI0.154.0의 성공한 실행에서 관찰한 범위를 말한다. 현재 Desktop이나 모든 지침의 준수를 보장하지 않는다. S66에서 Skill의 지침과 실제 작업 기록을 대응하도록 전환한다.
 
 Evidence / Source: plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt, Skill Discovery, Skill Invocation, Skill Load Evidence; DEC-0017; BEAT-021. 보존 세션 01a0f22c-e6a8-7e50-a4e1-4a581d62266c의 성공한 요청과 <skill> 본문을 재대조했다. /skills는 이름과 설명 일부만 표시했고 경로는 trace에서 확인됐다. 원본의 절대 경로는 해당 disposable workspace이며 화면에는 .agents/skills/graypipe-performance/SKILL.md로 줄였다. 전체 본문은 STATE-04의 SKILL.md와 대조했다.
 
@@ -3277,21 +3469,21 @@ Advanced Insight: 발견 가능성, 사용자가 선택한 호출, 실행에 제
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: LOCAL STATIC RECORD — 왼쪽 목록 발췌, 가운데 호출과 목표·제약, 오른쪽 trace의 이름·경로·전체 본문 순으로 가리킨다. 단계 사이 화살표는 이 관찰 설명 순서다. 원문 전체나 제품을 실행하지 않는다. 화면의 제목·발췌·요약과 하단 근거 범위를 함께 보여준다. 실제 수행 결과는 S63로 넘긴다.
+Demo Operation: LOCAL STATIC RECORD — 왼쪽 목록 발췌, 가운데 호출과 목표·제약, 오른쪽 trace의 이름·경로·전체 본문 순으로 가리킨다. 단계 사이 화살표는 이 관찰 설명 순서다. 원문 전체나 제품을 실행하지 않는다. 화면의 제목·발췌·요약과 하단 근거 범위를 함께 보여준다. 실제 수행 결과는 S66로 넘긴다.
 
 Audience Interaction: “이름이 목록에 보였다는 것만으로, 이번 작업에 전체 지침이 포함됐다고 말할 수 있을까요?”를 던지고 오른쪽 trace 근거로 회수한다. 별도 실습·Q&A 시간을 추가하지 않는다.
 
 Transition: “이름과 전체 본문이 포함된 근거는 확인했습니다. 다음은 그 지침과 실제 작업 기록을 대응해 보겠습니다.”
 
-Time Management: Demo5분: S61 회수·업무 목적0.75, 목록1, 요청1, trace1.5, 범위·S63 전환0.75. 시간이 부족하면 영문 설명과 경로를 낭독하지 않고 세 근거의 차이를 짚는다. 본문 포함과 실제 준수의 구분은 생략하지 않는다.
+Time Management: Demo5분: S64 회수·업무 목적0.75, 목록1, 요청1, trace1.5, 범위·S66 전환0.75. 시간이 부족하면 영문 설명과 경로를 낭독하지 않고 세 근거의 차이를 짚는다. 본문 포함과 실제 준수의 구분은 생략하지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S62, production/preview/act3/S62.png 및 production/preview/full/S62.png. 현재 실행이 아닌 역사적 CLI 기록 재구성이다. DEMO-03의 기본은 정적 자료이며 현재 Live/Hybrid는 대상 환경 확인 전 미활성이다. 최종 파일·PNG·Notes·hash는 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S65, production/preview/act3/S65.png 및 production/preview/full/S65.png. 현재 실행이 아닌 역사적 CLI 기록 재구성이다. DEMO-03의 기본은 정적 자료이며 현재 Live/Hybrid는 대상 환경 확인 전 미활성이다. 최종 파일·PNG·Notes·hash는 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다.
 
 Validation Status: ALIGNED — DEC-0066의19필드·5분 운영·역사적 CLI/현재 제품 경계를 정렬했다. 실제 패키지 렌더와 Notes 대조는 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S63 — Skill 지침과 실제 작업 기록의 대응
+## S66 — Skill 지침과 실제 작업 기록의 대응
 
-Slide ID: S63
+Slide ID: S66
 
 Working Title: Skill 지침과 실제 작업 기록의 대응
 
@@ -3307,12 +3499,12 @@ Opening Question: “Skill의 전체 본문이 포함됐다는 것만으로, 실
 
 Speaker Flow:
 
-1. (0:00–0:30, Demo) 상단 왼쪽에서 S62의 본문 포함 확인을 회수한다. 오른쪽과 표로 이동해 이번에는 밝기 통계 작업의 수행 기록을 보겠다고 안내한다. 화면은 원문 실행 캡처가 아닌 지침 번역·기록 요약이다.
+1. (0:00–0:30, Demo) 상단 왼쪽에서 S65의 본문 포함 확인을 회수한다. 오른쪽과 표로 이동해 이번에는 밝기 통계 작업의 수행 기록을 보겠다고 안내한다. 화면은 원문 실행 캡처가 아닌 지침 번역·기록 요약이다.
 2. (0:30–1:15, Demo) 01행: 왼쪽의 변경 전 기준선 측정 지침과 오른쪽의 실제 실행 출력을 짝짓는다. 수정 전 같은 benchmark 명령을3회 실행했고, 입력 지문과 결과6항목을 확인했다. 3회는 기록된 실행 횟수이며 Skill이 정한 고정 횟수는 아니다.
 3. (1:15–2:00, Demo) 02행: 원문은 작업 또는 인터페이스가 visible plan을 요구할 때 변경 전에 간결한 계획을 공유하라는 조건부 지침이다. 이번 기록에서는 변경 전 진행 메시지가 statistics.py의 변경 범위를 밝혔고, 최종 diff에서 해당 함수 한 곳의 변경을 확인했다. 메시지만으로 변경 범위까지 검증했다고 말하지 않는다.
 4. (2:00–3:00, Demo) 03행: 테스트와 같은 입력·설정으로 재측정하라는 지침을 실행 결과와 대조한다. 해당 함수 테스트1/1, 전체 테스트11/11 통과와 같은 benchmark의변경 후3회 실행, CLI 샘플·diff 확인을 짚는다. 모델의 최종 완료 보고만이 아니라 보존된 실행 출력에 근거한다.
 5. (3:00–4:30, Case) “본문이 들어왔다”와 “지침에 대응하는 작업 기록이 있다”를 구분해 회수한다. 표는 선택한 세 가지 대응이다. 모든 지침 준수나 Skill만의 효과를 검증한 실험은 아니다. 실제 요청에는 이번 목표·결과6항목 보존·허용 범위·trade-off 보고·근거가 부족하면 no-change라는 조건이 남아 있었다.
-6. (4:30–6:00, Case) 재사용할 수행 방법을 Skill에 두고 이번 목표·범위는 요청으로 전달한 역할 분담을 정리한다. 다음 S65에서 반복할 절차와 작업마다 근거로 판단할 답을 나눈다. 후보별 수치·선택 결과나 STATE-04-PERF의 성능 비교는 앞당기지 않는다.
+6. (4:30–6:00, Case) 재사용할 수행 방법을 Skill에 두고 이번 목표·범위는 요청으로 전달한 역할 분담을 정리한다. 다음 S68에서 반복할 절차와 작업마다 근거로 판단할 답을 나눈다. 후보별 수치·선택 결과나 STATE-04-PERF의 성능 비교는 앞당기지 않는다.
 
 Evidence / Source: plan/DEMO_MATRIX.md의 TRIAL-008 Baseline, Plan, Implementation, Verification 및 Prompt Responsibility Shift; STATE-04의 .agents/skills/graypipe-performance/SKILL.md; DEC-0017; BEAT-021. 보존 세션01a0f22c-e6a8-7e50-a4e1-4a581d62266c의20행 요청,22행 전체Skill본문,53/59행 기준선 명령·출력,80행 변경 전 메시지,81행 patch,90/96행 동일benchmark재실행·함수테스트,104/109행 전체테스트·CLI·최종diff를 대조했다. 원문 계획 지침은 “State a concise plan before making edits when the task or working interface calls for a visible plan.”이다. 원문 검증에는 같은 입력·설정·correctness guards, 관련 smoke 확인, diff검토가 포함된다. 실제 측정 명령은 PYTHONPATH=src python3 benchmarks/benchmark_statistics.py이며, 테스트 명령은 PYTHONPATH=src python3 -m unittest discover -s tests -p 'test_statistics.py' -v 및 PYTHONPATH=src python3 -m unittest discover -s tests -v이다.
 
@@ -3328,23 +3520,23 @@ Advanced Insight: 입력에 포함된 지침과 관찰된 행동을 구분한다
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: LOCAL STATIC RECORD — S62의 본문 포함 확인에서 진입한다. 표를01→02→03 순으로 읽으며 왼쪽 지침과 오른쪽 근거를 한 행씩 가리킨다. 원문 전체·도구를 실행하지 않는다. Demo3분이 끝나면 같은 화면에서 Case3분으로 전환해 입력/수행 근거를 구분한다. 실제 구현 후보와 성능 비교는 S66–S67로 넘긴다.
+Demo Operation: LOCAL STATIC RECORD — S65의 본문 포함 확인에서 진입한다. 표를01→02→03 순으로 읽으며 왼쪽 지침과 오른쪽 근거를 한 행씩 가리킨다. 원문 전체·도구를 실행하지 않는다. Demo3분이 끝나면 같은 화면에서 Case3분으로 전환해 입력/수행 근거를 구분한다. 실제 구현 후보와 성능 비교는 S69–S70로 넘긴다.
 
 Audience Interaction: “변경 전에 하겠다고 말한 기록과, 실제로 바꾼 내용을 확인하는 근거가 같을까요?”를 던지고02행의 메시지·diff를 각각 가리킨다. 답변을 기다리며 별도 실습·Q&A 시간을 추가하지 않는다.
 
 **Transition:**
-“지침과 실제 작업 기록을 대응했습니다. 우리 절차도 Codex와 대화하며 Skill로 만들 수 있는지 짧게 보겠습니다.” S64 팁 뒤 S65에서 절차와 작업별 답의 경계를 회수한다.
+“지침과 실제 작업 기록을 대응했습니다. 우리 절차도 Codex와 대화하며 Skill로 만들 수 있는지 짧게 보겠습니다.” S67 팁 뒤 S68에서 절차와 작업별 답의 경계를 회수한다.
 
-Time Management: Demo3분(본문 포함 회수0.5, 기준선0.75, 계획·diff0.75, 검증1) + Case3분(근거 구분·요청 책임1.5, 범위·S65 연결1.5). 지연 시 명령과 테스트 이름을 낭독하지 않고 행별 대응을 짚는다. 조건부 계획, 입력/수행 구분, 단독 효과 미입증은 생략하지 않는다. 6분에 S65으로 이동한다.
+Time Management: Demo3분(본문 포함 회수0.5, 기준선0.75, 계획·diff0.75, 검증1) + Case3분(근거 구분·요청 책임1.5, 범위·S68 연결1.5). 지연 시 명령과 테스트 이름을 낭독하지 않고 행별 대응을 짚는다. 조건부 계획, 입력/수행 구분, 단독 효과 미입증은 생략하지 않는다. 6분에 S68으로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S63, production/preview/act3/S63.png 및 production/preview/full/S63.png. 파일은 검증된 기록의 재구성이며 원시 실행 캡처가 아니다. 현재 Live/Hybrid는 환경 확인 전 미활성이다. 정적 화면에서 3개 지침·근거 대응을 유지하며 파일 경로·hash는 production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S66, production/preview/act3/S66.png 및 production/preview/full/S66.png. 파일은 검증된 기록의 재구성이며 원시 실행 캡처가 아니다. 현재 Live/Hybrid는 환경 확인 전 미활성이다. 정적 화면에서 3개 지침·근거 대응을 유지하며 파일 경로·hash는 production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다.
 
 Validation Status: ALIGNED — DEC-0067의19필드·6분(Demo3+Case3)·역사적관찰범위를 정렬했다. 최종 렌더·PPT/Markdown Notes 대조는 production/evaluation/S55_SKILL_ACTION_EVIDENCE_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S64 — 대화로 재사용할 Skill 만들기
+## S67 — 대화로 재사용할 Skill 만들기
 
 **Slide ID:**
-S64
+S67
 
 **Working Title:**
 대화로 재사용할 Skill 만들기
@@ -3365,9 +3557,9 @@ Codex의 $skill-creator에 반복할 작업과 사용 조건을 대화로 설명
 “우리 작업 절차도 파일 문법부터 배우지 않고 Skill로 만들 수 있을까요?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / Lecture) 실제 지침/기록 대응을 본 S63에서 제작 방법이라는 짧은 실무 팁으로 전환한다. 새 Trial이나 기존 Skill 제작 과정을 재현하는 Demo가 아니다.
+1. (0:00–0:30 / Lecture) 실제 지침/기록 대응을 본 S66에서 제작 방법이라는 짧은 실무 팁으로 전환한다. 새 Trial이나 기존 Skill 제작 과정을 재현하는 Demo가 아니다.
 2. (0:30–1:25 / Lecture) 요청창의 $skill-creator를 짚고 원하는 반복 작업·사용 조건·보고 항목을 대화로 설명하는 예시를 읽는다. 제작 도우미가 필요한 세부 사항을 물을 수 있으며 실제 표면의 호출 경로는 별도로 확인한다.
-3. (1:25–2:00 / Lecture) 오른쪽은 생성 문서의 역할을 보여주는 도식이다. 지침을 검토하고 대표 요청으로 시험해야 한다. 절차와 고정 답을 어떻게 나눌지는 S65의 기존 설명으로 회수한다.
+3. (1:25–2:00 / Lecture) 오른쪽은 생성 문서의 역할을 보여주는 도식이다. 지침을 검토하고 대표 요청으로 시험해야 한다. 절차와 고정 답을 어떻게 나눌지는 S68의 기존 설명으로 회수한다.
 
 **Evidence / Source:**
 SRC-0111 / CLM-0041; https://learn.chatgpt.com/docs/build-skills; 2026-10-25 재확인; DEC-0093. 명시 호출과 초안 제작 안내를 바탕으로 각색한 요청·문서 도식이다.
@@ -3395,20 +3587,20 @@ N/A — 정적 교육용 요청/문서 도식. 실제 Skill/Agent를 만들거�
 Lecture2분. 질문은 생각을 돕기 위한 것이며 실습·파일 생성·공개 답변을 요구하지 않는다.
 
 **Transition:**
-“만드는 시작은 대화로 할 수 있습니다. 그러면 이 Skill에는 어떤 절차를 고정하고 어떤 답을 남겨 둬야 할까요?” 기존 S64이 이동한 S65로 이어간다.
+“만드는 시작은 대화로 할 수 있습니다. 그러면 이 Skill에는 어떤 절차를 고정하고 어떤 답을 남겨 둬야 할까요?” 기존 S67이 이동한 S68로 이어간다.
 
 **Time Management:**
 0–0:30 제작 질문,0:30–1:25 요청/생성 문서,1:25–2:00 검토·사용/다음 본문으로 복귀.2분에 다음 장으로 넘기며 긴 설치·환경·TOML/Markdown 문법 강의는 하지 않는다. 실제 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S64 / production/preview/full/S64.png. 제품/계정이 미확인인 경우 이 요청 예시를 설명하며 Live로 전환하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S67 / production/preview/full/S67.png. 제품/계정이 미확인인 경우 이 요청 예시를 설명하며 Live로 전환하지 않는다.
 
 **Validation Status:**
 DOCUMENTED GUIDANCE CHECKED2026-10-25 / LOCAL RESULT: production/evaluation/CODEX_AUTHORING_TIPS.md. 실제 생성/실행·현재 교육 계정·Windows/교육장/실측 리허설 UNVERIFIED.
 
-## S65 — 절차는 재사용하고, 답은 근거로 정한다
+## S68 — 절차는 재사용하고, 답은 근거로 정한다
 
-Slide ID: S65
+Slide ID: S68
 
 Working Title: 절차는 재사용하고, 답은 근거로 정한다
 
@@ -3423,10 +3615,10 @@ Primary Message: Skill은 편집 전 재현 가능한 기준선, 검증·비교�
 Opening Question: “앞 장에서 확인한 것 중, 다음 작업에도 쓸 방법과 이번 기록으로 답해야 할 것은 각각 무엇일까요?”
 
 **Speaker Flow:**
-1. (0:00–0:35) S64에서 대화로 Skill 초안을 만들 수 있음을 봤다. 이제 그 지침 안에서 다음 작업에도 유지할 수행 절차와 이번 Task의 근거로 결정할 답을 나눈다. 앞의 S63 실제 지침/기록 대응을 짧게 회수하되 제작 방법을 반복하지 않는다.
+1. (0:00–0:35) S67에서 대화로 Skill 초안을 만들 수 있음을 봤다. 이제 그 지침 안에서 다음 작업에도 유지할 수행 절차와 이번 Task의 근거로 결정할 답을 나눈다. 앞의 S66 실제 지침/기록 대응을 짧게 회수하되 제작 방법을 반복하지 않는다.
 2. (0:30–1:15) 왼쪽 Skill의 세 항목을 가리킨다. 변경 전 기준선을 측정하고, 같은 조건으로 검증·비교하며, 근거·trade-off·한계를 보고하는 방법이다. 원문 일부의 번역 요약이며 전체 절차를 세 단계로 완전히 재현한 것이 아니다. 다음 성능 작업에도 이 방법을 적용한다.
 3. (1:15–2:15) 적용 화살표를 따라 오른쪽으로 이동한다. 이번 측정값·테스트·diff가 구현 후보, 시간·할당량, 감수할 trade-off를 확인·판단할 근거다. 수치는 실제 측정으로 얻고, 후보 채택은 그 수치와 동작 보존·변경 범위를 함께 보고 판단한다. 특정 알고리즘이나 Trial 숫자를 Skill에 정답으로 미리 넣지 않는다.
-4. (2:15–3:00) 아래 분기의 조건을 읽는다. 허용 범위 안에서 근거가 변경을 뒷받침하면 채택하고, 변경을 정당화하지 못하면 보류도 유효한 결론이다. 두 갈래는 원문이 허용하는 교육용 판단 경로다. TRIAL-008에서 두 경로를 각각 실행했다거나 최종 변경을 보류했다고 설명하지 않는다. S66에서 실제 밝기 통계 후보 선택을 확인한다.
+4. (2:15–3:00) 아래 분기의 조건을 읽는다. 허용 범위 안에서 근거가 변경을 뒷받침하면 채택하고, 변경을 정당화하지 못하면 보류도 유효한 결론이다. 두 갈래는 원문이 허용하는 교육용 판단 경로다. TRIAL-008에서 두 경로를 각각 실행했다거나 최종 변경을 보류했다고 설명하지 않는다. S69에서 실제 밝기 통계 후보 선택을 확인한다.
 
 Evidence / Source: STATE-04의 .agents/skills/graypipe-performance/SKILL.md, DEC-0017, BEAT-022, TRIAL-008 및 plan/DEMO_MATRIX.md. 왼쪽은 Procedure2의 “Establish a reproducible baseline before editing.”, Procedure6의 동일 입력·설정 검증·재측정, Procedure7과 Report의 근거·trade-off·한계 보고를 번역 요약했다. 아래 분기는 Procedure5의 “A measured result that does not justify a change is a valid no-change conclusion.”을 따른다. 원문에 특정 구현, image_statistics, benchmark_statistics.py, macOS/Python 조건이나 Trial의 측정 수치를 고정 답으로 넣지 않았음을 읽기 전용으로 대조했다.
 
@@ -3442,21 +3634,21 @@ Advanced Insight: 재사용 절차는 근거를 수집·비교·보고하는 책
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: 정적 설명 — 왼쪽 재사용 방법, 적용선, 오른쪽 이번 기록과 세 질문, 아래 채택/보류 조건 순으로 가리킨다. 실행 시연은 하지 않는다. 이 장의 Lecture3분은 DEMO-03의8 Demo분과 별도다. 실제 후보의 승패·정확한 성능 수치를 S66/S62보다 앞서 공개하지 않는다.
+Demo Operation: 정적 설명 — 왼쪽 재사용 방법, 적용선, 오른쪽 이번 기록과 세 질문, 아래 채택/보류 조건 순으로 가리킨다. 실행 시연은 하지 않는다. 이 장의 Lecture3분은 DEMO-03의8 Demo분과 별도다. 실제 후보의 승패·정확한 성능 수치를 S69/S65보다 앞서 공개하지 않는다.
 
 Audience Interaction: “같은 Skill을 썼다면 항상 같은 구현을 골라야 할까요?”를 짧게 던진 뒤 오른쪽 근거와 질문으로 회수한다. 공개 답변·실습을 요구하거나 별도 Q&A 시간을 추가하지 않는다.
 
 Transition: “그렇다면 밝기 통계의 구현 후보는 어떤 근거로 선택했을까요?”
 
-Time Management: Lecture3분: S63 회수0.5, 재사용 방법0.75, 이번 근거·답1, 채택/보류와 S66 연결0.75. 지연 시 지침 원문과 세 질문을 전부 낭독하지 않는다. 허용된 보류와 실제 결과의 구분은 생략하지 않고3분에 S66으로 이동한다.
+Time Management: Lecture3분: S66 회수0.5, 재사용 방법0.75, 이번 근거·답1, 채택/보류와 S69 연결0.75. 지연 시 지침 원문과 세 질문을 전부 낭독하지 않는다. 허용된 보류와 실제 결과의 구분은 생략하지 않고3분에 S69으로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S65, production/preview/act3/S65.png 및 production/preview/full/S65.png. 실제 Skill 요약과 교육용 판단 경로를 구분해 설명한다. 현재 제품이나 Demo repository를 실행하지 않는다. 최종 패키지·PNG·내장 Notes 대조는 production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S68, production/preview/act3/S68.png 및 production/preview/full/S68.png. 실제 Skill 요약과 교육용 판단 경로를 구분해 설명한다. 현재 제품이나 Demo repository를 실행하지 않는다. 최종 패키지·PNG·내장 Notes 대조는 production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md를 따른다.
 
 Validation Status: ALIGNED — DEC-0068의19필드·Lecture3분·실제 Skill/교육용 관계 경계를 정렬했다. 최종 로컬 렌더와 Notes 대조는 production/evaluation/S56_REUSABLE_PROCEDURE_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S66 — 밝기 통계 계산의 성능 개선 후보
+## S69 — 밝기 통계 계산의 성능 개선 후보
 
-Slide ID: S66
+Slide ID: S69
 
 Working Title: 밝기 통계 계산의 성능 개선 후보
 
@@ -3472,17 +3664,17 @@ Opening Question: “밝기 통계의 결과를 유지하면서, 어떤 계산 �
 
 Speaker Flow:
 
-1. (0:00–0:45) S65의 ‘절차는 재사용하고 답은 근거로 정한다’를 실제 작업으로 회수한다. 대상은 이미지의 최소·최대·평균 밝기 등을 구하는 image_statistics다. 결과는 그대로 두고 실행시간 또는 할당량 개선 가능성을 조사한 요청이었다.
+1. (0:00–0:45) S68의 ‘절차는 재사용하고 답은 근거로 정한다’를 실제 작업으로 회수한다. 대상은 이미지의 최소·최대·평균 밝기 등을 구하는 image_statistics다. 결과는 그대로 두고 실행시간 또는 할당량 개선 가능성을 조사한 요청이었다.
 2. (0:45–1:45) 기존 구현 도식을 왼쪽부터 가리킨다. 행으로 저장된 픽셀을 모두 새 임시 리스트로 모은 뒤 통계를 계산했다. 입력 이미지 외에 픽셀 수에 비례하는 임시 리스트 공간이 필요했다. 이 도식의 색·칸은 구조를 설명하며 실제 입력 픽셀이나 실행 화면은 아니다.
 3. (1:45–2:45) 큰 임시 리스트 없이 계산하는 두 변경 후보를 읽는다. 한 후보는 Python 코드로 픽셀을 하나씩 직접 계산하고, 다른 후보는 각 행에 내장 min/max/sum을 사용한다. 이들 모두 결과 6항목을 보존했고 기존 평탄화 구현보다 Python 할당 피크가 낮았다.
 4. (2:45–4:15) 후보 간 실행시간을 비교한 오른쪽을 짚는다. 수동 반복보다 행 단위 내장 연산이 빨라 후자를 선택했다. 내장 연산 후보는 세 차례 행 순회를 유지하면서 전체 임시 리스트를 피한 선택이다. 한 번 순회한다는 아이디어나 낮은 메모리만으로 답을 정하지 않았다.
-5. (4:15–5:00) Skill에 정답 알고리즘을 미리 넣은 사례가 아니다. 절차를 따라 얻은 조사·측정·검증 기록으로 구현을 선택했다. 다음 S67은 이 후보 비교와 별도로 실제 제품 상태에 반영한 변경을 확인한 기록이다.
+5. (4:15–5:00) Skill에 정답 알고리즘을 미리 넣은 사례가 아니다. 절차를 따라 얻은 조사·측정·검증 기록으로 구현을 선택했다. 다음 S70은 이 후보 비교와 별도로 실제 제품 상태에 반영한 변경을 확인한 기록이다.
 
 Evidence / Source: `plan/DEMO_MATRIX.md` TRIAL-008 Investigation, Plan, Decision, Implementation, Verification 및 `plan/CLAIM_FREEZE.md`의 정성 후보 비교 범위. 대상은 image_statistics, deterministic synthetic 1024×768 (786,432 pixels, max255), CPython3.9.6 / macOS26.6.2 arm64. 보존한 여섯 결과는 width, height, pixel_count, minimum, maximum, mean이다. 원자료의 기존 flattening, row reductions, manual Python single pass 비교와 구현 내용을 요약했다. 정확한 후보 수치와 원기록은 원자료에 보존한다.
 
 보존된 상세 출처: TRIAL-008 기록 요약·구현 도식 · 합성1024×768 · CPython3.9.6 / macOS arm64
 
-Claim Boundary: S66에는 정확한 후보 수치를 표시하지 않는다. ‘더 느림/더 빠름’은 화면의 두 변경 후보 사이 비교이고 ‘기존보다 낮은 임시 메모리’는 기존 평탄화 구현 대비 traced Python allocation peak다. 임시 공간 도식은 리스트 구조 재구성이며 실제 이미지·값·측정 캡처가 아니다. 할당 피크를 RSS나 시스템 전체 메모리로 일반화하지 않는다. TRIAL-008 후보 비교를 S67의 formal STATE-04/STATE-04-PERF 측정과 섞지 않는다. Skill 단독 인과성·알고리즘 제공·현재 Desktop 재현·일반 성능 보장은 주장하지 않는다.
+Claim Boundary: S69에는 정확한 후보 수치를 표시하지 않는다. ‘더 느림/더 빠름’은 화면의 두 변경 후보 사이 비교이고 ‘기존보다 낮은 임시 메모리’는 기존 평탄화 구현 대비 traced Python allocation peak다. 임시 공간 도식은 리스트 구조 재구성이며 실제 이미지·값·측정 캡처가 아니다. 할당 피크를 RSS나 시스템 전체 메모리로 일반화하지 않는다. TRIAL-008 후보 비교를 S70의 formal STATE-04/STATE-04-PERF 측정과 섞지 않는다. Skill 단독 인과성·알고리즘 제공·현재 Desktop 재현·일반 성능 보장은 주장하지 않는다.
 
 보존된 상세 범위: 임시 메모리: Python 할당 피크 · 다음 장의 제품 상태 측정과 별개 · Skill 단독 효과 미입증
 
@@ -3500,13 +3692,13 @@ Transition: “선택한 행 단위 계산을 제품 코드에 반영한 뒤, �
 
 Time Management: Case5분: 작업 회수0.75, 기존 구현1, 두 후보1, 비교·선택1.5, 범위·전환0.75. 지연 시 함수명·여섯 필드·세 차례 순회 설명을 줄인다. 작업 목적, 임시 리스트, 후보 선택과 별도 제품 검증이라는 연결은 유지하고5분에 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S66, production/preview/act3/S66.png 및 production/preview/full/S66.png. 보존된 후보 비교와 구현 구조를 재구성한 도식이다. 현재 제품이나 Demo repository를 실행하지 않는다. 최신 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S69, production/preview/act3/S69.png 및 production/preview/full/S69.png. 보존된 후보 비교와 구현 구조를 재구성한 도식이다. 현재 제품이나 Demo repository를 실행하지 않는다. 최신 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md를 따른다.
 
 Validation Status: ALIGNED — DEC-0070의19필드·Case5분·정성 후보 비교 범위를 정렬했다. 로컬 렌더·내장 Notes 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S67 — 선택한 변경의 시간·메모리·동작 확인
+## S70 — 선택한 변경의 시간·메모리·동작 확인
 
-Slide ID: S67
+Slide ID: S70
 
 Working Title: 선택한 변경의 시간·메모리·동작 확인
 
@@ -3522,7 +3714,7 @@ Opening Question: “선택한 변경을 제품에 반영한 뒤, 시간·메모
 
 Speaker Flow:
 
-1. (0:00–0:45) S66에서 선택한 ‘큰 임시 리스트 없이 행마다 내장 min/max/sum 계산’을 위쪽 문장으로 회수한다. 이제 후보 비교가 아니라 정식 제품 코드 변경 전후의 별도 측정 기록이다.
+1. (0:00–0:45) S69에서 선택한 ‘큰 임시 리스트 없이 행마다 내장 min/max/sum 계산’을 위쪽 문장으로 회수한다. 이제 후보 비교가 아니라 정식 제품 코드 변경 전후의 별도 측정 기록이다.
 2. (0:45–2:00) 왼쪽 실행시간을 짚는다. 같은 합성 이미지와 설정에서 상태별7회 실행한 중앙값은 변경 전15.468, 변경 후10.769ms/call이다. 0부터 시작하는 막대와 수치가 같은 방향을 나타낸다. 다른 입력·기기나 전체 제품 속도로 일반화하지 않는다.
 3. (2:00–3:00) 가운데 임시 메모리는 별도 tracemalloc 호출의 Python allocation peak다. 6,675,804에서380bytes로 바뀌었다. 전체 픽셀 임시 리스트를 없앤 코드 변경과 연결하되, 입력 이미지 자체나 전체 프로세스 메모리가380bytes라는 뜻은 아니다.
 4. (3:00–4:15) 오른쪽 동작 검증은 반환값6항목 동일, 함수 테스트1/1, 프로젝트 전체 테스트11/11, CLI 샘플 통과라는 기록이다. 실행시간만 짧아진 것을 성공 근거로 삼지 않는다. 이 검사들이 모든 입력의 정확성을 보증하는 것은 아니다.
@@ -3550,13 +3742,13 @@ Transition: “이 작업에 더 필요했던 구조도 있었을까요? 역할�
 
 Time Management: Case5분: 선택한 변경·측정 기준0.75, 실행시간1.25, 임시 메모리1, 동작 검증1.25, 범위·다음 질문0.75. 지연 시 정확한 여섯 필드와 CLI 샘플 값 낭독을 생략한다. 세 결과와 측정 범위를 남기고5분에 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S67, production/preview/act3/S67.png 및 production/preview/full/S67.png. 보존된 제품 전후 측정·검증 기록의 재구성이다. 현재 실행 캡처가 아니다. 최신 파일 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S70, production/preview/act3/S70.png 및 production/preview/full/S70.png. 보존된 제품 전후 측정·검증 기록의 재구성이다. 현재 실행 캡처가 아니다. 최신 파일 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md를 따른다.
 
 Validation Status: ALIGNED — DEC-0070의19필드·Case5분·제품 전후 측정 범위를 정렬했다. 로컬 렌더·내장 Notes 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S68 — 한 Agent 조사와 Subagent 역할 분리
+## S71 — 한 Agent 조사와 Subagent 역할 분리
 
-Slide ID: S68
+Slide ID: S71
 
 Working Title: 한 Agent 조사와 Subagent 역할 분리
 
@@ -3572,13 +3764,13 @@ Opening Question: “성능·빌드·테스트 조사가 서로 기다리지 않
 
 Speaker Flow:
 
-1. (0:00–0:30 / Demo) S67의 실제 밝기 통계 변경·검증을 마쳤다는 점을 회수한다. 필요한 구조만 고르는 첫 질문으로 역할 분리를 본다. 판단 기준을 보기 위해, C++ 검사 프로젝트에 성능·빌드·테스트 독립 조사가 필요하다고 가정한다. 실제 Trial을 계속 실행한 장면은 아니다.
+1. (0:00–0:30 / Demo) S70의 실제 밝기 통계 변경·검증을 마쳤다는 점을 회수한다. 필요한 구조만 고르는 첫 질문으로 역할 분리를 본다. 판단 기준을 보기 위해, C++ 검사 프로젝트에 성능·빌드·테스트 독립 조사가 필요하다고 가정한다. 실제 Trial을 계속 실행한 장면은 아니다.
 2. (0:30–1:15 / Demo) 왼쪽 한 Agent가 세 조사와 결과 종합을 모두 맡는 모습을 짚는다. 성능은 소스·측정, 빌드는 환경·설정, 테스트는 테스트·명세를 본다. 단일 Agent 방식이 실패하거나 느리다는 뜻은 아니다.
 3. (1:15–2:15 / Demo) 오른쪽 위 주 Agent가 범위와 결과 형식을 정하고, 세 Subagent가 각각 필요한 정보로 조사하는 분기를 따른다. 각각 조사한 내용·근거·미확인 사항을 주 Agent에게 돌려준다고 설명한다. 다른 조사 결과를 기다리지 않아도 되는지 먼저 판단해야 한다.
 4. (2:15–3:00 / Demo) 아래로 합쳐지는 선과 ‘같은 주 Agent’를 짚는다. 결과를 단순히 붙이는 것으로 끝내지 않고 근거·중복·충돌을 확인해 한 결과로 통합할 책임이 남는다. 필요한 정보를 역할별로 나눌 수 있는 가치와 조정·전달·통합 비용을 함께 본다. 시간·품질 이득을 측정한 사례는 아니다.
-5. (3:00–4:00 / Q&A) “빌드 조사 결과가 나와야 성능 조사를 시작할 수 있다면, 이 구성을 그대로 쓸 수 있을까요?”로 독립성 판단을 받는다. 무질문이면 이 질문을 발표자가 짧게 회수한다. 3:45에 질문을 닫고 S70의 실제 밝기 통계 작업 판단으로 이동한다.
+5. (3:00–4:00 / Q&A) “빌드 조사 결과가 나와야 성능 조사를 시작할 수 있다면, 이 구성을 그대로 쓸 수 있을까요?”로 독립성 판단을 받는다. 무질문이면 이 질문을 발표자가 짧게 회수한다. 3:45에 질문을 닫고 S73의 실제 밝기 통계 작업 판단으로 이동한다.
 
-Evidence / Source: CONCEPTUAL / TEACHING_MODEL — 기존 C++ 성능 경로·빌드 환경·테스트 구조의 독립 조사 가정, BEAT-023–025 / INV-MATURITY-007, plan/DEMO_ARCHITECTURE.md와 plan/DEMO_MATRIX.md의 DEMO-07, DEC-0062/0071. DEC-0018의 실제 추가하지 않음 판단은 S70에 유지한다. 새 Subagent 실행이나 비교 실험은 없다.; DEC-0080.
+Evidence / Source: CONCEPTUAL / TEACHING_MODEL — 기존 C++ 성능 경로·빌드 환경·테스트 구조의 독립 조사 가정, BEAT-023–025 / INV-MATURITY-007, plan/DEMO_ARCHITECTURE.md와 plan/DEMO_MATRIX.md의 DEMO-07, DEC-0062/0071. DEC-0018의 실제 추가하지 않음 판단은 S73에 유지한다. 새 Subagent 실행이나 비교 실험은 없다.; DEC-0080.
 
 보존된 상세 출처: CONCEPTUAL · C++ 검사 프로젝트의 독립 조사 가정 · 실제 Subagent 실행 아님
 
@@ -3597,18 +3789,18 @@ Demo Operation: 정적 VISUAL 기본 경로 — 상단 독립성 질문 → 왼�
 Audience Interaction: Demo3분 뒤 Q&A1분을 별도로 쓴다. 무질문 예비 질문은 ‘앞 조사 결과를 기다려야 한다면?’이다. 답은 강제하지 않는다. 관련 없는 제품 사용법 질문은 후속 확인 항목으로 남기고 현재 독립성·통합 책임 판단으로 회수한다.
 
 **Transition:**
-“독립 조사 역할을 나눌 수 있다면, 그 역할은 Codex에서 어떻게 만들어 다시 쓸까요?” S69 제작 팁을 거친 뒤 S70의 실제 밝기 통계 판단으로 돌아온다.
+“독립 조사 역할을 나눌 수 있다면, 그 역할은 Codex에서 어떻게 만들어 다시 쓸까요?” S72 제작 팁을 거친 뒤 S73의 실제 밝기 통계 판단으로 돌아온다.
 
-Time Management: Demo3분(VISUAL): 앞 장 회수·가정0.5, 단일 Agent0.75, 역할 분담1, 통합·비용0.75. Q&A1분: 질문·회수0.75, cutoff·전환0.25. 지연 시 조사별 세부 자료 낭독을 줄이고 독립성, 같은 주 Agent의 통합 책임, 가정이라는 경계를 유지한다. 4분에 S70으로 이동한다.
+Time Management: Demo3분(VISUAL): 앞 장 회수·가정0.5, 단일 Agent0.75, 역할 분담1, 통합·비용0.75. Q&A1분: 질문·회수0.75, cutoff·전환0.25. 지연 시 조사별 세부 자료 낭독을 줄이고 독립성, 같은 주 Agent의 통합 책임, 가정이라는 경계를 유지한다. 4분에 S73으로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S68, production/preview/act3/S68.png 및 production/preview/full/S68.png. 표시된 CONCEPTUAL 역할 도식이며 실제 실행 캡처가 아니다. 현재 파일·경로·내용 대조는 production/evaluation/S59_ROLE_SPLIT_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC의 재생은 UNVERIFIED다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S71, production/preview/act3/S71.png 및 production/preview/full/S71.png. 표시된 CONCEPTUAL 역할 도식이며 실제 실행 캡처가 아니다. 현재 파일·경로·내용 대조는 production/evaluation/S59_ROLE_SPLIT_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC의 재생은 UNVERIFIED다.
 
 Validation Status: ALIGNED — DEC-0080의19필드·기존 시간/Mode·현재 화면/운영 역할을 정렬했다. 최종 대조는 production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S69 — 대화로 조사 Agent 만들기
+## S72 — 대화로 조사 Agent 만들기
 
 **Slide ID:**
-S69
+S72
 
 **Working Title:**
 대화로 조사 Agent 만들기
@@ -3629,9 +3821,9 @@ Codex에 역할·사용 조건·보고 범위를 설명해 프로젝트용 Custo
 “반복해서 맡기는 조사 역할을 Codex에서 어떻게 만들어 다시 쓸까요?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / Lecture) S68의 독립 조사 분담 가정에서 실제 Codex 활용 방법으로 잠시 전환한다. 일회성 분담은 요청만으로 시작할 수 있고 이 장은 같은 역할을 다시 쓰려는 Custom Agent 설정 예시임을 설명한다.
+1. (0:00–0:30 / Lecture) S71의 독립 조사 분담 가정에서 실제 Codex 활용 방법으로 잠시 전환한다. 일회성 분담은 요청만으로 시작할 수 있고 이 장은 같은 역할을 다시 쓰려는 Custom Agent 설정 예시임을 설명한다.
 2. (0:30–1:25 / Lecture) 왼쪽 대화 요청과 오른쪽 .codex/agents/perf_reviewer.toml을 연결한다. 이름·사용 조건·역할 지침을 확인한다. 공식 필수 필드는 name, description, developer_instructions다. 개인 범위는 ~/.codex/agents/지만 화면에서는 프로젝트 범위만 보여준다. 별도 제작 전용 Skill을 가정하지 않는다.
-3. (1:25–2:00 / Lecture) 하단 요청에서 이름과 Subagent 분담을 명시하고 주 Agent가 결과를 기다려 근거를 확인·종합한다. 권한은 부모 설정을 따르며 코드 수정 금지 지침 자체가 권한 격리는 아니다. 실제 실행은 하지 않고 S70의 왜 분담하지 않았는지로 돌아온다.
+3. (1:25–2:00 / Lecture) 하단 요청에서 이름과 Subagent 분담을 명시하고 주 Agent가 결과를 기다려 근거를 확인·종합한다. 권한은 부모 설정을 따르며 코드 수정 금지 지침 자체가 권한 격리는 아니다. 실제 실행은 하지 않고 S73의 왜 분담하지 않았는지로 돌아온다.
 
 **Evidence / Source:**
 SRC-0112 / CLM-0042; https://learn.chatgpt.com/docs/agent-configuration/subagents; 2026-10-25 재확인; DEC-0093. 공식 Custom agents의 프로젝트 .codex/agents/*.toml 및 name/description/developer_instructions와 명시적 분담 요청을 바탕으로 각색했다.
@@ -3659,20 +3851,20 @@ N/A — 정적 교육용 요청/문서 도식. 실제 Skill/Agent를 만들거�
 Lecture2분. 질문은 생각을 돕기 위한 것이며 실습·파일 생성·공개 답변을 요구하지 않는다.
 
 **Transition:**
-“필요할 때 역할을 만들어 쓸 수 있습니다. 하지만 이 밝기 통계 작업에서도 나눌 필요가 있었을까요?” 이전 S68이 이동한 S70에서 실제 보류 판단을 회수한다.
+“필요할 때 역할을 만들어 쓸 수 있습니다. 하지만 이 밝기 통계 작업에서도 나눌 필요가 있었을까요?” 이전 S71이 이동한 S73에서 실제 보류 판단을 회수한다.
 
 **Time Management:**
 0–0:30 제작 질문,0:30–1:25 요청/생성 문서,1:25–2:00 검토·사용/다음 본문으로 복귀.2분에 다음 장으로 넘기며 긴 설치·환경·TOML/Markdown 문법 강의는 하지 않는다. 실제 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S69 / production/preview/full/S69.png. 제품/계정이 미확인인 경우 이 요청 예시를 설명하며 Live로 전환하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S72 / production/preview/full/S72.png. 제품/계정이 미확인인 경우 이 요청 예시를 설명하며 Live로 전환하지 않는다.
 
 **Validation Status:**
 DOCUMENTED GUIDANCE CHECKED2026-10-25 / LOCAL RESULT: production/evaluation/CODEX_AUTHORING_TIPS.md. 실제 생성/실행·현재 교육 계정·Windows/교육장/실측 리허설 UNVERIFIED.
 
-## S70 — 밝기 통계 작업을 나누지 않은 이유
+## S73 — 밝기 통계 작업을 나누지 않은 이유
 
-Slide ID: S70
+Slide ID: S73
 
 Working Title: 밝기 통계 작업을 나누지 않은 이유
 
@@ -3684,13 +3876,13 @@ Mode Split: Lecture 1 minute + Demo 2 minutes (VISUAL) + Q&A 1 minute
 
 Primary Message: 현재 작업은 같은 성능 경로·명세를 공유하고 조사→변경→검증의 의존성이 높았다. 별도 Context 이득과 결과 통합 비용을 검토한 결과 Subagent를 추가하지 않았다.
 
-Opening Question: “S68의 독립 조사 기준을 이 밝기 통계 작업에도 적용할 수 있었을까요?”
+Opening Question: “S71의 독립 조사 기준을 이 밝기 통계 작업에도 적용할 수 있었을까요?”
 
 Speaker Flow:
 
-1. (0:00–1:00 / Lecture) S68에서는 성능·빌드·테스트 조사가 서로 기다리지 않아도 된다고 가정했다. 이제 S66/S62의 실제 밝기 통계 작업으로 돌아온다. 화면 위 ‘같은 함수·같은 출력 명세’를 짚는다. 여기서는 무엇을 나눌지보다 각 단계가 앞의 어떤 결과를 받아야 하는지 먼저 본다.
-2. (1:00–1:40 / Demo) 왼쪽 조사는 기존 계산과 보존할 출력 명세, 변경 후보를 확인한 단계다. 기존 전체 픽셀 임시 리스트와 후보 비교는 S66에서 봤다. 가운데로 가는 ‘조사 결과’ 화살표를 따라, 조사한 후보를 근거로 계산 코드를 변경했음을 설명한다.
-3. (1:40–2:20 / Demo) 가운데 변경에서 오른쪽 검증으로 전달하는 것은 ‘바뀐 코드’다. 그 코드의 출력·테스트와 같은 조건의 시간·Python 할당량을 확인했다. 실제 수치와 검사 결과는 S67에 보존돼 있으므로 다시 낭독하지 않는다. 단계를 이름만 바꿔 독립 조사라고 부를 수는 없다.
+1. (0:00–1:00 / Lecture) S71에서는 성능·빌드·테스트 조사가 서로 기다리지 않아도 된다고 가정했다. 이제 S69/S65의 실제 밝기 통계 작업으로 돌아온다. 화면 위 ‘같은 함수·같은 출력 명세’를 짚는다. 여기서는 무엇을 나눌지보다 각 단계가 앞의 어떤 결과를 받아야 하는지 먼저 본다.
+2. (1:00–1:40 / Demo) 왼쪽 조사는 기존 계산과 보존할 출력 명세, 변경 후보를 확인한 단계다. 기존 전체 픽셀 임시 리스트와 후보 비교는 S69에서 봤다. 가운데로 가는 ‘조사 결과’ 화살표를 따라, 조사한 후보를 근거로 계산 코드를 변경했음을 설명한다.
+3. (1:40–2:20 / Demo) 가운데 변경에서 오른쪽 검증으로 전달하는 것은 ‘바뀐 코드’다. 그 코드의 출력·테스트와 같은 조건의 시간·Python 할당량을 확인했다. 실제 수치와 검사 결과는 S70에 보존돼 있으므로 다시 낭독하지 않는다. 단계를 이름만 바꿔 독립 조사라고 부를 수는 없다.
 4. (2:20–3:00 / Demo) 아래 ‘한 Agent가 끝까지 수행’을 읽는다. 이 작은 작업은 같은 코드·명세를 공유했고 별도 Context 분리의 필요성이 충분하지 않았다. 나누면 해당 자료와 중간 결과를 전달하고 결과를 통합할 책임도 생긴다. DEC-0018의 기존 판단과 후속 실제 작업 기록에 따라 추가하지 않았다. 의존관계만으로 역할 분리가 불가능하다고 결론내리지는 않는다.
 5. (3:00–4:00 / Q&A) “조사 범위가 넓어지고 서로 기다리지 않는 근거 검토가 생기면 이 판단도 바뀔까요?”를 받는다. 무질문이면 발표자가 독립 조사 범위·필요한 정보·통합 비용을 다시 판단한다고 회수한다. 3:45에 질문을 닫고 다음 작업에도 남길 지식의 필요성으로 이동한다.
 
@@ -3706,23 +3898,23 @@ Beginner Explanation: 무엇을 고칠지 조사한 결과가 있어야 변경�
 
 Advanced Insight: 단계가 이어진다는 사실과 독립적인 검토 역할을 만들 수 있는지는 구분한다. DEC-0018은 작은 저장소와 겹치는 근거·제한된 Context 분리 가치·전달/통합 비용을 함께 본 선택이다. 작업 규모와 독립 조사 필요성이 달라지면 같은 기준으로 재평가한다. 비용 차이는 실측 비교가 아니다.
 
-C++ Vision Bridge: S68의 C++ 독립 조사 가정과 이 Python 밝기 통계 작업을 같은 관찰로 섞지 않는다. 이번 화면은 실제 작업 판단만 보여준다.
+C++ Vision Bridge: S71의 C++ 독립 조사 가정과 이 Python 밝기 통계 작업을 같은 관찰로 섞지 않는다. 이번 화면은 실제 작업 판단만 보여준다.
 
-Demo Operation: LOCAL STATIC VISUAL — 상단 같은 함수·명세 → 왼쪽 조사 → 조사 결과 화살표 → 가운데 코드 변경 → 바뀐 코드 화살표 → 오른쪽 출력·테스트·시간·할당량 확인 → 아래 한 Agent 유지 판단. S68의 분기/합류 대신 실제 의존관계를 읽는2분이다. Agent·benchmark·Demo repository를 실행하지 않으며 추가 Subagent 창을 열지 않는다.
+Demo Operation: LOCAL STATIC VISUAL — 상단 같은 함수·명세 → 왼쪽 조사 → 조사 결과 화살표 → 가운데 코드 변경 → 바뀐 코드 화살표 → 오른쪽 출력·테스트·시간·할당량 확인 → 아래 한 Agent 유지 판단. S71의 분기/합류 대신 실제 의존관계를 읽는2분이다. Agent·benchmark·Demo repository를 실행하지 않으며 추가 Subagent 창을 열지 않는다.
 
 Audience Interaction: Lecture1분과 정적 Demo2분 뒤 Q&A1분을 쓴다. 무질문 예비 질문은 ‘서로 기다리지 않는 조사 범위가 커진다면?’이다. 공개 답변·실습은 요구하지 않는다. 제품 기능 사용법 질문은 후속 확인 항목으로 남기고 현재 선택 이유를 회수한다.
 
 Transition: “역할 분리의 필요성을 판단했습니다. 다음 작업에 별도로 남길 지식도 있었을까요?”
 
-Time Management: Lecture1분(S68 기준 회수·실제 작업 복귀) → Demo2분(조사/변경0.67, 변경/검증0.67, 현재 판단0.66) → Q&A1분(질문·회수0.75, cutoff·전환0.25). 지연 시 후보명·검사값 낭독을 생략한다. 앞 결과 의존성, 자료 범위와 통합 비용, 이 작업에 한정한 선택은 남기고4분에 S71로 이동한다.
+Time Management: Lecture1분(S71 기준 회수·실제 작업 복귀) → Demo2분(조사/변경0.67, 변경/검증0.67, 현재 판단0.66) → Q&A1분(질문·회수0.75, cutoff·전환0.25). 지연 시 후보명·검사값 낭독을 생략한다. 앞 결과 의존성, 자료 범위와 통합 비용, 이 작업에 한정한 선택은 남기고4분에 S74로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S70, production/preview/act3/S70.png 및 production/preview/full/S70.png. 보존된 실제 작업과 판단을 재구성한 정적 도식이며 실행 캡처가 아니다. 현재 파일 대조는 production/evaluation/S60_TASK_DEPENDENCY_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S73, production/preview/act3/S73.png 및 production/preview/full/S73.png. 보존된 실제 작업과 판단을 재구성한 정적 도식이며 실행 캡처가 아니다. 현재 파일 대조는 production/evaluation/S60_TASK_DEPENDENCY_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 Validation Status: ALIGNED — DEC-0072의19필드·Lecture1+Demo2+Q&A1분·실제 작업 의존관계를 정렬했다. 최종 패키지·렌더·내장 Notes 대조는 production/evaluation/S60_TASK_DEPENDENCY_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S71 — 이번 Context와 다시 쓸 지식
+## S74 — 이번 Context와 다시 쓸 지식
 
-Slide ID: S71
+Slide ID: S74
 
 Working Title: 이번 Context와 다시 쓸 지식
 
@@ -3737,14 +3929,14 @@ Primary Message: 현재 Task에 필요한 Context와 다음 Task에도 보존할
 Opening Question: “이번 작업에서 확인한 내용 중, 다음 작업에도 다시 찾게 될 것은 무엇일까요?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / Demo) S70에서는 실제 밝기 통계 작업을 한 Agent로 마친 선택을 봤다. 필요한 구조만 고르는 두 번째 질문으로, 작업이 끝난 뒤 무엇을 남길지 본다. 여기부터는 ‘다음 작업에도 필요한 재현 조건을 확인했다면’이라는 교육용 가정이다. 현재 Demo에서 새 후보를 발견한 기록이 아니다.
+1. (0:00–0:30 / Demo) S73에서는 실제 밝기 통계 작업을 한 Agent로 마친 선택을 봤다. 필요한 구조만 고르는 두 번째 질문으로, 작업이 끝난 뒤 무엇을 남길지 본다. 여기부터는 ‘다음 작업에도 필요한 재현 조건을 확인했다면’이라는 교육용 가정이다. 현재 Demo에서 새 후보를 발견한 기록이 아니다.
 2. (0:30–1:15 / Demo) 왼쪽 이번 작업 Context는 Agent가 지금 참고할 목표·현재 명세·입력·로그와 조사로 확인한 내용을 포함한다. 강조한 ‘확인한 재현 조건’에서 오른쪽으로 이어지는 선을 짚는다. 이번 Context 전체를 저장하는 것이 아니라, 다음에도 쓸 근거 있는 지식을 골라 남길지 판단한다.
 3. (1:15–2:00 / Demo) 오른쪽은 검증된 재현 조건을 남기는 가정이다. 재현에 필요한 최소 입력·실행 명령, 확인한 출처, 적용 범위와 다시 확인할 조건이 함께 있어야 한다. 아래 화살표는 다음 작업에서 현재 명세와 대조한 뒤 필요한 지식을 Context로 가져오는 관계다. 제품의 자동 저장·회수 동작을 보여주는 화면은 아니다.
 4. (2:00–3:00 / Case) 같은 조건을 다시 조사하는 부담이 크고 다음 작업에도 쓸 가치가 있다면 보존을 검토한다. 무엇을 남겼다는 사실만으로 정확성이나 최신성이 보장되지 않는다. 입력 형식·코드 버전·실행 환경 등 적용 조건이 달라지면 관련 내용을 재확인하거나 수정·폐기해야 한다. 이 사례의 구체 조건·효과를 실제로 측정한 것은 아니다.
-5. (3:00–4:00 / Case) 그 조건이 이미 명세·문서에 있다면 원래 출처를 참조한다. 현재 로그와 일회성 측정은 필요할 때 날짜가 있는 근거 기록으로 남기며, 모두 별도 Memory에 복제하지 않는다. 같은 프로젝트의 다음 작업에도 재사용할 수 있고 프로젝트 간 공유가 필수는 아니다. 다음 S72에서는 실제 Demo 지식이 이미 어디에 있었는지와 별도 후보 유무를 확인한다.
+5. (3:00–4:00 / Case) 그 조건이 이미 명세·문서에 있다면 원래 출처를 참조한다. 현재 로그와 일회성 측정은 필요할 때 날짜가 있는 근거 기록으로 남기며, 모두 별도 Memory에 복제하지 않는다. 같은 프로젝트의 다음 작업에도 재사용할 수 있고 프로젝트 간 공유가 필수는 아니다. 다음 S75에서는 실제 Demo 지식이 이미 어디에 있었는지와 별도 후보 유무를 확인한다.
 운영 표시: “실무 적용 팁 · Context 관리” 배지로 다시 찾아 쓸 기준임을 짚는다. 기존 설명·근거 범위와 배정 시간 안에서 진행하며 요청·예시를 새로 실행하지 않는다.
 
-Evidence / Source: CONCEPTUAL / TEACHING_MODEL — plan/MASTER_PLAN.md §5.6, plan/INVARIANTS.md INV-MATURITY-008, BEAT-026–028, DEC-0062/0073. plan/DEMO_MATRIX.md STEP07 §§181–190의 Context/유지 지식/문서/Trial 기록 구분과 no-qualifying-candidate 경계를 따른다. 재현 조건과 다음 작업은 교육용 가정이며 실제 재발견·Memory 저장/회수 기록이 아니다. 실제 현재 출처 감사와 별도 후보 없음의 결론은 S72에 유지한다.; DEC-0080.
+Evidence / Source: CONCEPTUAL / TEACHING_MODEL — plan/MASTER_PLAN.md §5.6, plan/INVARIANTS.md INV-MATURITY-008, BEAT-026–028, DEC-0062/0073. plan/DEMO_MATRIX.md STEP07 §§181–190의 Context/유지 지식/문서/Trial 기록 구분과 no-qualifying-candidate 경계를 따른다. 재현 조건과 다음 작업은 교육용 가정이며 실제 재발견·Memory 저장/회수 기록이 아니다. 실제 현재 출처 감사와 별도 후보 없음의 결론은 S75에 유지한다.; DEC-0080.
 
 보존된 상세 출처: CONCEPTUAL · 재현 조건을 다음 작업에도 쓴다는 가정 · 실제 Memory 사용 아님
 
@@ -3764,15 +3956,15 @@ Audience Interaction: Demo2분 뒤 Case2분 안에서 ‘이미 문서에 있는
 
 Transition: “이제 원래 출처와 보존 기준을 놓고, 현재 Demo에 별도 후보가 있었는지 보겠습니다.”
 
-Time Management: Demo2분: S70 연결·가정0.5, 이번 Context와 선별0.75, 지식 묶음·다음 사용0.75. Case2분: 보존 목적·신선도1, 원래 출처·실제 사례로 전환1. 지연 시 입력·명령의 세부 설명과 적용 조건 예시를 줄인다. 무엇을 왜 남길지, 출처·재확인과 가정 경계는 남기고4분에 S72로 이동한다.
+Time Management: Demo2분: S73 연결·가정0.5, 이번 Context와 선별0.75, 지식 묶음·다음 사용0.75. Case2분: 보존 목적·신선도1, 원래 출처·실제 사례로 전환1. 지연 시 입력·명령의 세부 설명과 적용 조건 예시를 줄인다. 무엇을 왜 남길지, 출처·재확인과 가정 경계는 남기고4분에 S75로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S71, production/preview/act3/S71.png 및 production/preview/full/S71.png. 표시된 작업 간 지식 재사용 가정의 도식이며 실제 실행 캡처가 아니다. 현재 파일 대조는 production/evaluation/S61_CONTEXT_RETENTION_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S74, production/preview/act3/S74.png 및 production/preview/full/S74.png. 표시된 작업 간 지식 재사용 가정의 도식이며 실제 실행 캡처가 아니다. 현재 파일 대조는 production/evaluation/S61_CONTEXT_RETENTION_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 Validation Status: ALIGNED — DEC-0080의19필드·기존 시간/Mode·현재 화면/운영 역할을 정렬했다. 최종 대조는 production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S72 — 실제 Demo 지식의 원래 출처
+## S75 — 실제 Demo 지식의 원래 출처
 
-Slide ID: S72
+Slide ID: S75
 
 Working Title: 실제 Demo 지식의 원래 출처
 
@@ -3784,11 +3976,11 @@ Mode Split: Lecture 4 minutes
 
 Primary Message: 재발견 비용·다음 작업 재사용·출처와 적용 범위·갱신 조건을 보고 기존 출처를 먼저 확인한다. 현재 계약/구조/절차/측정 기록은 각각 근거가 있어 별도 Memory 후보를 찾지 못했다.
 
-Opening Question: “S71의 보존 기준으로 실제 Demo를 보면, 새로 남길 지식은 어디에 있었을까요?”
+Opening Question: “S74의 보존 기준으로 실제 Demo를 보면, 새로 남길 지식은 어디에 있었을까요?”
 
 Speaker Flow:
 
-1. (0:00–0:30) S71의 재현 조건은 교육용 가정이었다고 짚고, 이제 실제 Demo의 기존 출처 감사로 돌아온다. 네 개 상자는 새로 만든 저장소나 Memory가 아니라 이미 지식이 있던 위치다.
+1. (0:00–0:30) S74의 재현 조건은 교육용 가정이었다고 짚고, 이제 실제 Demo의 기존 출처 감사로 돌아온다. 네 개 상자는 새로 만든 저장소나 Memory가 아니라 이미 지식이 있던 위치다.
 2. (0:30–1:20) 코드와 문서를 왼쪽부터 짚는다. transform.py의 crop은 끝 좌표를 제외하는 구현이다. 같은 동작 명세는 docs/image-contracts.md에, 모듈 역할·처리 순서는 docs/architecture.md에 있다. 각 지식이 한 곳에만 존재한다는 분류가 아니라 실제 근거를 어디에서 확인할 수 있는지 보여준다.
 3. (1:20–2:00) Skill에는 성능 작업의 조사·변경·검증 방법이 이미 있다. 원래 반복한 것은 이 절차였고 repository-owned Skill로 관리했다. 이를 별도의 사실 Memory 필요성으로 다시 세지 않는다. 파일은 .agents/skills/graypipe-performance/SKILL.md다.
 4. (2:00–2:45) Trial 기록에는 측정값과 입력·실행 환경·날짜가 있고 Git은 제품 변경과 상태 이력을 연결한다. 화면의 DEMO_MATRIX.md는 교육 저장소 plan/DEMO_MATRIX.md의 기록이며 Demo 제품 디렉터리 안의 파일이라는 뜻은 아니다. 한 번의 수치를 환경이 바뀌어도 항상 맞는 지식으로 옮기지 않는다.
@@ -3815,15 +4007,15 @@ Audience Interaction: Lecture4분 안에서 ‘이 정보를 다시 쓰면 어�
 
 Transition: “이 선택들을 모으면 이번 문제를 위해 실제로 사용한 구조는 무엇이었을까요?”
 
-Time Management: Lecture4분: 가정에서 실제 감사로0.5, 코드·문서0.83, Skill0.67, Trial/Git0.75, 기준·출처 판단0.75, 선택·전환0.5. 지연 시 전체 경로·필드명 낭독을 줄인다. 네 지식의 원래 위치와 별도 후보가 없었다는 판단, 실제 기록의 범위는 유지하고4분에 S73으로 이동한다.
+Time Management: Lecture4분: 가정에서 실제 감사로0.5, 코드·문서0.83, Skill0.67, Trial/Git0.75, 기준·출처 판단0.75, 선택·전환0.5. 지연 시 전체 경로·필드명 낭독을 줄인다. 네 지식의 원래 위치와 별도 후보가 없었다는 판단, 실제 기록의 범위는 유지하고4분에 S76으로 이동한다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S72, production/preview/act3/S72.png 및 production/preview/full/S72.png. 보존된 지식 출처 감사의 재구성이며 실제 Memory·검색 실행 캡처가 아니다. 현재 파일 대조는 production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S75, production/preview/act3/S75.png 및 production/preview/full/S75.png. 보존된 지식 출처 감사의 재구성이며 실제 Memory·검색 실행 캡처가 아니다. 현재 파일 대조는 production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 Validation Status: ALIGNED — DEC-0074의19필드·Lecture4분·실제 지식/출처와 현재 판단을 정렬했다. 최종 패키지·렌더·내장 Notes 대조는 production/evaluation/S62_KNOWLEDGE_SOURCES_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S73 — 밝기 통계 작업에 쓰인 구성의 역할
+## S76 — 밝기 통계 작업에 쓰인 구성의 역할
 
-Slide ID: S73
+Slide ID: S76
 
 Working Title: 밝기 통계 작업에 쓰인 구성의 역할
 
@@ -3835,13 +4027,13 @@ Mode Split: Demo 3 minutes (CAPTURED)
 
 Primary Message: 밝기 통계 목표/범위, AGENTS.md와 상세 문서, 재사용 Skill, 테스트·benchmark·실행 조건이 각각 목표·지식·방법·완료 근거를 맡았다. Subagent와 별도 Memory는 추가하지 않았다.
 
-Opening Question: “S72에서 본 자료들이 실제 밝기 통계 작업에서는 각각 무엇을 맡았을까요?”
+Opening Question: “S75에서 본 자료들이 실제 밝기 통계 작업에서는 각각 무엇을 맡았을까요?”
 
 Speaker Flow:
 
-1. (0:00–0:30 / Demo) S72의 출처 감사에서 실제 밝기 통계 작업으로 돌아온다. 이번 장은 각 자료가 이 한 작업에서 맡은 역할의 회수다. 재구성 도식이며 시간순 실행 trace가 아니다.
-2. (0:30–1:30 / Demo) 왼쪽 목표·Context·Skill을 한 번에 짚는다. 근거 있는 실행시간/할당량 개선 조사, 출력6항목과 허용 범위 보존이 요청의 경계다. AGENTS.md·상세 문서·코드·테스트는 사실과 명세를, Repository Skill은 재사용 방법을 제공했다. 발견·명시 호출·본문 포함과 실제 수행의 차이는 S62/S59에서 확인했으므로 다시 강의하지 않는다.
-3. (1:30–2:30 / Demo) 가운데 실제 조사·변경에서 오른쪽 테스트·benchmark로 이동한다. 같은 입력·환경의 동작·실행시간·Python 할당량 근거를 사람이 검토했다. TRIAL-008 후보 비교와 정식 STATE-04-PERF 재조사·검증은 별도 기록이다. 수치와 테스트 결과를 S67처럼 다시 읽지 않는다. 모든 동작의 정확성이나 각 요소의 단독 효과가 입증된 것은 아니다.
+1. (0:00–0:30 / Demo) S75의 출처 감사에서 실제 밝기 통계 작업으로 돌아온다. 이번 장은 각 자료가 이 한 작업에서 맡은 역할의 회수다. 재구성 도식이며 시간순 실행 trace가 아니다.
+2. (0:30–1:30 / Demo) 왼쪽 목표·Context·Skill을 한 번에 짚는다. 근거 있는 실행시간/할당량 개선 조사, 출력6항목과 허용 범위 보존이 요청의 경계다. AGENTS.md·상세 문서·코드·테스트는 사실과 명세를, Repository Skill은 재사용 방법을 제공했다. 발견·명시 호출·본문 포함과 실제 수행의 차이는 S65/S62에서 확인했으므로 다시 강의하지 않는다.
+3. (1:30–2:30 / Demo) 가운데 실제 조사·변경에서 오른쪽 테스트·benchmark로 이동한다. 같은 입력·환경의 동작·실행시간·Python 할당량 근거를 사람이 검토했다. TRIAL-008 후보 비교와 정식 STATE-04-PERF 재조사·검증은 별도 기록이다. 수치와 테스트 결과를 S70처럼 다시 읽지 않는다. 모든 동작의 정확성이나 각 요소의 단독 효과가 입증된 것은 아니다.
 4. (2:30–3:00 / Demo) Subagent·별도 Memory를 추가하지 않은 범위의 실제 구성을 회수한다. 다음 장은 요소 목록을 반복하는 대신 실행 조건과 사람의 검토 책임까지 연결한 Harness 모델로 확장한다.
 
 Evidence / Source: STATE-00 → STATE-04-PERF; plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt, Current Harness 및 §§191–200 Working Harness Success; DEC-0018/0062/0075; INV-VERIFY-001; DEMO-09. OBSERVED_PRODUCT / TEACHING_MODEL. STATE-04-PERF의 AGENTS.md, docs/, .agents/skills/graypipe-performance/SKILL.md, tests/test_statistics.py, benchmarks/benchmark_statistics.py를 읽기 전용으로 대조한다. 과거 Codex CLI 0.154.0 기록이며 현재 Desktop 실행 검증이 아니다.; DEC-0080.
@@ -3859,21 +4051,21 @@ Advanced Insight: 수행 방법과 답은 분리한다. 검증 도구는 동작�
 **C++ Vision Bridge:**
 N/A — 이전 독립 C++ 전이 장은 DEC-0091에서 삭제했다. 실제 구성 회고와 Harness 재사용 설명으로 연결한다.
 
-Demo Operation: CAPTURED 정적 기본 경로 — S72의 출처에서 실제 역할로 연결한 뒤 목표 → Context → Skill을 각각 짚고, 모이는 선을 따라 밝기 통계 조사·변경과 검증 도구로 이동한다. 세 입력의 순차 실행이나 새 실행 기록처럼 말하지 않는다. 실제 결과 수치는 반복하지 않고 검사 역할과 동일 입력·환경 조건을 설명한다. 전체 Harness 정의는 S74에서 회수한다. 제품·Agent·benchmark·Demo repository를 실행하지 않으며 새 Trial·비교 측정을 만들지 않는다.
+Demo Operation: CAPTURED 정적 기본 경로 — S75의 출처에서 실제 역할로 연결한 뒤 목표 → Context → Skill을 각각 짚고, 모이는 선을 따라 밝기 통계 조사·변경과 검증 도구로 이동한다. 세 입력의 순차 실행이나 새 실행 기록처럼 말하지 않는다. 실제 결과 수치는 반복하지 않고 검사 역할과 동일 입력·환경 조건을 설명한다. 전체 Harness 정의는 S77에서 회수한다. 제품·Agent·benchmark·Demo repository를 실행하지 않으며 새 Trial·비교 측정을 만들지 않는다.
 
 Audience Interaction: ‘셋 중 어느 하나에 정답이 미리 들어 있었을까요?’를 잠시 생각하게 한 뒤 Skill은 수행 방법, 답은 조사·측정 근거로 판단한다는 기존 구분을 회수할 수 있다. 필수 실습·공개 답변·별도 Q&A 시간은 추가하지 않는다.
 
 Transition: “이 파일과 도구들이 어떤 관계로 작동하는지 전체 작업 환경으로 묶겠습니다.”
 
-Time Management: Demo3분(CAPTURED 정적 요약): 실제 작업으로 복귀0.5, 입력 역할을 함께 회수1, 검증 근거1, 실행 조건·검토 책임으로 연결0.5. S62–S67의 지침·수치 설명을 반복하지 않는다. 실제3분 리허설은 UNVERIFIED다.
+Time Management: Demo3분(CAPTURED 정적 요약): 실제 작업으로 복귀0.5, 입력 역할을 함께 회수1, 검증 근거1, 실행 조건·검토 책임으로 연결0.5. S65–S70의 지침·수치 설명을 반복하지 않는다. 실제3분 리허설은 UNVERIFIED다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S73, production/preview/act3/S73.png 및 production/preview/full/S73.png. 보존된 실제 구성·작업 기록의 재구성이며 raw CLI screenshot이나 현재 제품 실행이 아니다. 파일 대조는 production/evaluation/S63_TASK_ROLES_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S76, production/preview/act3/S76.png 및 production/preview/full/S76.png. 보존된 실제 구성·작업 기록의 재구성이며 raw CLI screenshot이나 현재 제품 실행이 아니다. 파일 대조는 production/evaluation/S63_TASK_ROLES_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 Validation Status: ALIGNED — DEC-0080의19필드·기존 시간/Mode·현재 화면/운영 역할을 정렬했다. 최종 대조는 production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S74 — 함께 작동하는 작업 환경, Harness
+## S77 — 함께 작동하는 작업 환경, Harness
 
-Slide ID: S74
+Slide ID: S77
 
 Working Title: 함께 작동하는 작업 환경, Harness
 
@@ -3885,18 +4077,18 @@ Mode Split: Lecture 4 minutes + Demo 2 minutes (CAPTURED)
 
 Primary Message: 이 과정에서 Harness는 Agent가 신뢰성 있게 일하도록 목표·Context·재사용 절차·실행 도구·검증·검토 조건을 연결한 작업 환경과 방법의 운영 모델이다.
 
-Opening Question: “S73의 구성에 실행·검증 환경까지 함께 연결하면, Agent가 일하는 전체 구조는 어떻게 보일까요?”
+Opening Question: “S76의 구성에 실행·검증 환경까지 함께 연결하면, Agent가 일하는 전체 구조는 어떻게 보일까요?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / Lecture) S73의 실제 구성과 같은 배치임을 짚는다. 목표·Context·Skill의 정의를 다시 차례로 설명하지 않고, 이 작업이 가능하도록 실행 조건과 사람의 검토 책임까지 설계하는 관계로 확장한다.
+1. (0:00–0:30 / Lecture) S76의 실제 구성과 같은 배치임을 짚는다. 목표·Context·Skill의 정의를 다시 차례로 설명하지 않고, 이 작업이 가능하도록 실행 조건과 사람의 검토 책임까지 설계하는 관계로 확장한다.
 2. (0:30–1:30 / Lecture) 아래 실행 환경에서 Agent와 검증 도구로 올라가는 두 선을 따라간다. Repository·입력·권한·실행/측정 조건은 작업과 비교가 이뤄지는 공통 기반이다. 파일이 있다는 것만으로 실행 가능성이나 비교 가능성이 보장되지는 않는다.
 3. (1:30–2:30 / Lecture) 오른쪽 ‘사람이 근거·결과 검토’를 짚는다. 테스트와 benchmark는 근거를 만들며 사람이 원하는 변화·동작 보존·미확인 사항을 보고 수용 여부를 판단한다. 검토 책임을 도구 이름이나 자동 정답 보장으로 설명하지 않는다.
 4. (2:30–4:00 / Lecture) 이 교육에서 Harness는 목표·Context·재사용 방법·도구·검증·검토 조건을 연결한 작업 환경과 방법의 운영 모델이다. 공식 OpenAI 정의나 보편적인 필수 목록이 아니다. 관계도는 실행 순서 trace가 아니며 Subagent·별도 Memory도 필수 구성은 아니다. 실행 조건이나 명세가 달라지면 이 관계가 여전히 맞는지 사람이 검토할 필요가 있음을 열되 ACT4의 가상 실패를 미리 만들지 않는다.
 5. (4:00–5:30 / Demo) CAPTURED 정적 대응: 기존 자료가 AGENTS.md·docs·성능 Skill·tests·benchmark였고 기록된 입력/환경에서 작업과 확인이 이뤄졌음을 화면에 대응한다. 실제 지침·검사·수치의 상세는 재설명하지 않는다. TRIAL-008 후보와 정식 상태의 재조사·검증을 구분하고 모든 환경 조건의 완전한 감사를 주장하지 않는다.
-6. (5:30–6:00 / Demo) 실제 성공을 보존하고 ‘만든 작업 체계를 다음 프로젝트에서도 쓸 수 있을까요?’로 S75–S76를 연다. 제품이나 새 명령을 실행하지 않는다.
-마지막 연결은 다음 프로젝트에서도 사용할 기반의 가치다. 실행 조건의 세부는 S77–S81에서 단계별로 다룬다.
+6. (5:30–6:00 / Demo) 실제 성공을 보존하고 ‘만든 작업 체계를 다음 프로젝트에서도 쓸 수 있을까요?’로 S78–S79를 연다. 제품이나 새 명령을 실행하지 않는다.
+마지막 연결은 다음 프로젝트에서도 사용할 기반의 가치다. 실행 조건의 세부는 S80–S84에서 단계별로 다룬다.
 
-Evidence / Source: DEC-0023의 이 과정 Harness 운영 정의; BEAT-035/036; STATE-04-PERF; DEC-0062/0075/0076; DEMO-09. OBSERVED_PRODUCT / TEACHING_MODEL. plan/DEMO_MATRIX.md의 Current Harness 및 §§191–200 Working Harness Success, S73의 실제 구성 대응을 사용한다. AGENTS.md·상세 문서·repository Skill·테스트·benchmark는 보존된 실제 근거이며 환경 전체의 완전한 감사 증거는 아니다.; DEC-0080.
+Evidence / Source: DEC-0023의 이 과정 Harness 운영 정의; BEAT-035/036; STATE-04-PERF; DEC-0062/0075/0076; DEMO-09. OBSERVED_PRODUCT / TEACHING_MODEL. plan/DEMO_MATRIX.md의 Current Harness 및 §§191–200 Working Harness Success, S76의 실제 구성 대응을 사용한다. AGENTS.md·상세 문서·repository Skill·테스트·benchmark는 보존된 실제 근거이며 환경 전체의 완전한 감사 증거는 아니다.; DEC-0080.
 
 보존된 상세 출처: 교육용 Harness 모델 · 사례 대응: AGENTS.md · docs · Skill · tests · benchmark
 
@@ -3909,9 +4101,9 @@ Beginner Explanation: 이번 목표, 프로젝트 정보, 일하는 방법을 Ag
 Advanced Insight: Harness는 파일 수나 기능 목록이 아니라 목표·정보·절차·실행 가능 조건·완료 근거와 책임 사이의 관계다. 실행 환경은 Agent 작업과 검증 양쪽에 필요하다. 각 프로젝트의 신뢰성 문제에 맞춰 구성하며 사례의 성공을 특정 구성 요소의 단독 효과로 귀속하지 않는다.
 
 **C++ Vision Bridge:**
-N/A — 다음 S75–S76은 여러 프로젝트에 적용할 공통 기반과 프로젝트별 조건의 교육용 설계다.
+N/A — 다음 S78–S79은 여러 프로젝트에 적용할 공통 기반과 프로젝트별 조건의 교육용 설계다.
 
-Demo Operation: Lecture4분에는 왼쪽 세 입력 → Agent → 검증·사람의 검토, 아래 실행 환경 → 작업/검증의 관계를 설명한다. 이후 Demo2분은 기존 S73/STATE-04-PERF의 AGENTS.md·docs·Skill·tests·benchmark와 기록된 입력/실행 조건을 같은 도식에 대응하는 CAPTURED 정적 요약이다. 실제 실행 캡처가 아니며 제품·Agent·benchmark·Demo repository를 실행하거나 새 Trial을 만들지 않는다. S73 Demo3분과 중복 계산하지 않는다.
+Demo Operation: Lecture4분에는 왼쪽 세 입력 → Agent → 검증·사람의 검토, 아래 실행 환경 → 작업/검증의 관계를 설명한다. 이후 Demo2분은 기존 S76/STATE-04-PERF의 AGENTS.md·docs·Skill·tests·benchmark와 기록된 입력/실행 조건을 같은 도식에 대응하는 CAPTURED 정적 요약이다. 실제 실행 캡처가 아니며 제품·Agent·benchmark·Demo repository를 실행하거나 새 Trial을 만들지 않는다. S76 Demo3분과 중복 계산하지 않는다.
 
 Audience Interaction: ‘테스트 파일은 있지만 실행할 도구나 권한이 없다면 확인이 끝난 걸까요?’를 잠시 생각하게 하고 실행 환경과 완료 근거를 연결한다. 교육용 질문이며 실제 Demo에서 그런 실패가 있었다는 뜻은 아니다. 별도 실습·Q&A 시간을 추가하지 않는다.
 
@@ -3921,14 +4113,14 @@ Audience Interaction: ‘테스트 파일은 있지만 실행할 도구나 권�
 **Time Management:**
 Lecture4분: 실제 구성 회수0.5, 실행 환경1, 사람의 검토1, 전체 운영 모델·범위1.5. Demo2분: 실제 자료/기록 대응1.5, 다음 프로젝트 재사용 질문0.5. 입력 세 요소의 정의와 이전 지침·측정값을 반복하지 않는다.6분에 이동하며 실제 리허설은 UNVERIFIED다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S74, production/preview/act3/S74.png 및 production/preview/full/S74.png. 교육용 Harness 관계도와 기존 실제 구성의 대응이며 raw 실행 캡처가 아니다. 파일 대조는 production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S77, production/preview/act3/S77.png 및 production/preview/full/S77.png. 교육용 Harness 관계도와 기존 실제 구성의 대응이며 raw 실행 캡처가 아니다. 파일 대조는 production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 Validation Status: ALIGNED — DEC-0080의19필드·기존 시간/Mode·현재 화면/운영 역할을 정렬했다. 최종 대조는 production/evaluation/ACT3_ACT4_HANDOFF_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S75 — 만든 Harness를 다음 프로젝트의 기반으로
+## S78 — 만든 Harness를 다음 프로젝트의 기반으로
 
 **Slide ID:**
-S75
+S78
 
 **Working Title:**
 만든 Harness를 다음 프로젝트의 기반으로
@@ -3949,7 +4141,7 @@ Lecture 2분
 “프로젝트가 바뀔 때마다 작업 방법까지 처음부터 다시 만들 필요가 있을까요?”
 
 **Speaker Flow:**
-1. (0:00–0:35 / Lecture) S74의 전체 작업 환경에서 검토해 둔 수행 체계라는 왼쪽 기반을 짚는다.
+1. (0:00–0:35 / Lecture) S77의 전체 작업 환경에서 검토해 둔 수행 체계라는 왼쪽 기반을 짚는다.
 2. (0:35–1:25 / Lecture) 같은 기반이 A/B/C로 이어지는 가지를 가리킨다. 각 프로젝트에서 사용 가능한 출발점의 설계이며 실제 이식 시험 결과가 아니다.
 3. (1:25–2:00 / Lecture) 어떤 부분은 공통이고 어떤 부분은 달라지는지 다음 장으로 넘긴다.
 
@@ -3985,15 +4177,15 @@ Opening Question은 짧은 생각을 돕는 질문이다. 참가자 실습·개�
 Lecture2분.0:35까지 질문과 도식의 출발점,1:25까지 핵심 관계,2:00에 다음 질문으로 이동한다. 추가 도구 설치·환경 설명으로 늘리지 않는다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S75 또는 production/preview/full/S75.png. 재구성은 실제 실행 Screenshot이 아니며 현재 Desktop Live로 대체하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S78 또는 production/preview/full/S78.png. 재구성은 실제 실행 Screenshot이 아니며 현재 Desktop Live로 대체하지 않는다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0091. 로컬 PPT/Notes/렌더 검토는 production/evaluation/HARNESS_REUSE_REVISION.md에 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S76 — 공통 기반에 프로젝트 기준을 연결한다
+## S79 — 공통 기반에 프로젝트 기준을 연결한다
 
 **Slide ID:**
-S76
+S79
 
 **Working Title:**
 공통 기반에 프로젝트 기준을 연결한다
@@ -4016,7 +4208,7 @@ Lecture 2분
 **Speaker Flow:**
 1. (0:00–0:35 / Lecture) 왼쪽은 조사·변경·검증 흐름, 도구 연결 방식, 기록 항목이라는 공통 틀이다.
 2. (0:35–1:25 / Lecture) 오른쪽은 새 프로젝트의 목표·명세·Context, 실제 명령, 허용 범위다. 프로젝트 사실 전체를 공통 지침으로 복사하지 않는다.
-3. (1:25–2:00 / Lecture) 공통 기반과 프로젝트 기준 연결의 가치를 유지한다. 운영 중 사람이 새로 확인·보정할 점을 발견하면 그 경험이 다음 작업에 남는지 S77의 질문으로 넘긴다. 외부 권한 오류를 다음 중심 사례로 예고하지 않는다.
+3. (1:25–2:00 / Lecture) 공통 기반과 프로젝트 기준 연결의 가치를 유지한다. 운영 중 사람이 새로 확인·보정할 점을 발견하면 그 경험이 다음 작업에 남는지 S80의 질문으로 넘긴다. 외부 권한 오류를 다음 중심 사례로 예고하지 않는다.
 
 **Evidence / Source:**
 사용자 승인 / DEC-0091; DEC-0023의 Harness 운영 모델. OpenAI 공식 Build skills https://learn.chatgpt.com/docs/build-skills 및 Plugin architecture https://developers.openai.com/plugins/concepts/plugins (2026-10-25 확인). 공식 자료는 반복 수행 방법의 패키징·공유를 뒷받침한다. Harness 전체의 이식 구조는 이 교육의 설계 모델이다.
@@ -4050,15 +4242,15 @@ Opening Question은 짧은 생각을 돕는 질문이다. 참가자 실습·개�
 Lecture2분.0:35까지 질문과 도식의 출발점,1:25까지 핵심 관계,2:00에 다음 질문으로 이동한다. 추가 도구 설치·환경 설명으로 늘리지 않는다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S76 또는 production/preview/full/S76.png. 재구성은 실제 실행 Screenshot이 아니며 현재 Desktop Live로 대체하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S79 또는 production/preview/full/S79.png. 재구성은 실제 실행 Screenshot이 아니며 현재 Desktop Live로 대체하지 않는다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0091. 로컬 PPT/Notes/렌더 검토는 production/evaluation/HARNESS_REUSE_REVISION.md에 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S77 — 이번 성공만으로 다음 작업까지 확인되지는 않는다
+## S80 — 이번 성공만으로 다음 작업까지 확인되지는 않는다
 
 **Slide ID:**
-S77
+S80
 
 **Working Title:**
 이번 성공만으로 다음 작업까지 확인되지는 않는다
@@ -4079,7 +4271,7 @@ Lecture 2분
 “검증한 Harness를 다시 쓰면, 이후 작업에서 사람이 확인할 점은 모두 사라질까요?”
 
 **Speaker Flow:**
-1. (0:00–0:35 / Lecture) S76의 공통 기반과 프로젝트 기준 연결을 받아, 실제 밝기 통계 작업의 확인한 성공을 왼쪽에서 짚는다. 숫자·검증 절차를 다시 강의하지 않는다.
+1. (0:00–0:35 / Lecture) S79의 공통 기반과 프로젝트 기준 연결을 받아, 실제 밝기 통계 작업의 확인한 성공을 왼쪽에서 짚는다. 숫자·검증 절차를 다시 강의하지 않는다.
 2. (0:35–1:25 / Lecture) 오른쪽 다음 작업은 관찰 결과가 아니라 질문이다. 새 요구·입력·확인 범위가 있을 수 있으며 현재 성공으로 모든 후속 작업을 검증했다고 말할 수 없음을 설명한다.
 3. (1:25–2:00 / Lecture) 운영 중 사람이 추가 확인할 점을 발견하는 교육용 상황으로 전환한다. Harness가 이미 실패했다거나 외부 설정이 원인이라고 예고하지 않는다.
 
@@ -4109,21 +4301,21 @@ N/A — Lecture2분. 실제 제품·CLI를 실행하거나 가상 보정을 실�
 Opening Question은 생각을 돕는 질문이다. 참가자 실습·작성·공개 답변을 요구하지 않는다.
 
 **Transition:**
-확인된 성공은 기록된 범위로 보존한다. 새 작업의 첫 결과 뒤에도 남은 문제가 있을 수 있다는 별도 가정으로 S78을 연다.
+확인된 성공은 기록된 범위로 보존한다. 새 작업의 첫 결과 뒤에도 남은 문제가 있을 수 있다는 별도 가정으로 S81을 연다.
 
 **Time Management:**
 Lecture2분.0:35까지 질문·장면,1:25까지 핵심 차이,2:00에 다음 장의 질문으로 이동한다. 환경·도구 설정 강의나 ACT4의 구체적 개선·평가를 미리 설명하지 않는다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S77 또는 production/preview/full/S77.png. 실제 실행 Screenshot·Trial·새 관찰 결과로 표현하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S80 또는 production/preview/full/S80.png. 실제 실행 Screenshot·Trial·새 관찰 결과로 표현하지 않는다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0092. 현재 로컬 결과는 production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md에 기록한다. Windows/발표 PC 글꼴/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S78 — 첫 결과 뒤에도, 확인할 일이 남는다면?
+## S81 — 첫 결과 뒤에도, 확인할 일이 남는다면?
 
 **Slide ID:**
-S78
+S81
 
 **Working Title:**
 첫 결과 뒤에도, 확인할 일이 남는다면?
@@ -4145,7 +4337,7 @@ Lecture 2분
 
 **Speaker Flow:**
 1. (0:00–1:00 / Lecture) 첫 결과가 나와도 완료 기준의 미충족 항목이 남을 수 있다는 가상 상황을 연다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
-2. (1:00–2:00 / Lecture) 첫 변경 결과를 사람이 검토하고 수정 요청으로 잇는 S79로 넘긴다.
+2. (1:00–2:00 / Lecture) 첫 변경 결과를 사람이 검토하고 수정 요청으로 잇는 S82로 넘긴다.
 
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -4173,21 +4365,21 @@ N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다�
 N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-첫 변경 결과를 사람이 검토하고 수정 요청으로 잇는 S79로 넘긴다.
+첫 변경 결과를 사람이 검토하고 수정 요청으로 잇는 S82로 넘긴다.
 
 **Time Management:**
 Lecture 2분 = 2분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S78; production/preview/act3/S78.png 및 production/preview/full/S78.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S81; production/preview/act3/S81.png 및 production/preview/full/S81.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S79 — 남은 문제를 다음 수정으로 이어주는 사람
+## S82 — 남은 문제를 다음 수정으로 이어주는 사람
 
 **Slide ID:**
-S79
+S82
 
 **Working Title:**
 남은 문제를 다음 수정으로 이어주는 사람
@@ -4209,7 +4401,7 @@ Lecture 2분
 
 **Speaker Flow:**
 1. (0:00–1:00 / Lecture) 같은 목표 안에서 검토·수정·재확인을 사람이 매번 다시 요청하는 상황을 설명한다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
-2. (1:00–2:00 / Lecture) 이 연결에서 수행 방법과 다음 행동 판단을 구분하는 S80로 넘긴다.
+2. (1:00–2:00 / Lecture) 이 연결에서 수행 방법과 다음 행동 판단을 구분하는 S83로 넘긴다.
 
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -4237,21 +4429,21 @@ N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다�
 N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-이 연결에서 수행 방법과 다음 행동 판단을 구분하는 S80로 넘긴다.
+이 연결에서 수행 방법과 다음 행동 판단을 구분하는 S83로 넘긴다.
 
 **Time Management:**
 Lecture 2분 = 2분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S79; production/preview/act3/S79.png 및 production/preview/full/S79.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S82; production/preview/act3/S82.png 및 production/preview/full/S82.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S80 — 같은 목표의 수정과 검토가 끊기지 않게
+## S83 — 같은 목표의 수정과 검토가 끊기지 않게
 
 **Slide ID:**
-S80
+S83
 
 **Working Title:**
 같은 목표의 수정과 검토가 끊기지 않게
@@ -4273,7 +4465,7 @@ Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정�
 
 **Speaker Flow:**
 1. (0:00–1:00 / Lecture) Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정으로 돌리는 제어가 필요하다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
-2. (1:00–2:00 / Lecture) 같은 목표의 다음 수정이 이어받을 상태를 S81에서 살펴본다.
+2. (1:00–2:00 / Lecture) 같은 목표의 다음 수정이 이어받을 상태를 S84에서 살펴본다.
 
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -4301,21 +4493,21 @@ N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다�
 N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-같은 목표의 다음 수정이 이어받을 상태를 S81에서 살펴본다.
+같은 목표의 다음 수정이 이어받을 상태를 S84에서 살펴본다.
 
 **Time Management:**
 Lecture 2분 = 2분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S80; production/preview/act3/S80.png 및 production/preview/full/S80.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S83; production/preview/act3/S83.png 및 production/preview/full/S83.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S81 — 다음 수정에 넘길 기록
+## S84 — 다음 수정에 넘길 기록
 
 **Slide ID:**
-S81
+S84
 
 **Working Title:**
 다음 수정에 넘길 기록
@@ -4337,7 +4529,7 @@ Lecture 2분
 
 **Speaker Flow:**
 1. (0:00–1:00 / Lecture) 목표·완료 기준, 현재 변경·검사 기록, 남은 검토 지적을 다음 수정에 전달한다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
-2. (1:00–2:00 / Lecture) S82에서 내가 계속 이어 주는 다음 요청 하나를 떠올리게 한다.
+2. (1:00–2:00 / Lecture) S85에서 내가 계속 이어 주는 다음 요청 하나를 떠올리게 한다.
 
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -4365,21 +4557,21 @@ N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다�
 N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-S82에서 내가 계속 이어 주는 다음 요청 하나를 떠올리게 한다.
+S85에서 내가 계속 이어 주는 다음 요청 하나를 떠올리게 한다.
 
 **Time Management:**
 Lecture 2분 = 2분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S81; production/preview/act3/S81.png 및 production/preview/full/S81.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S84; production/preview/act3/S84.png 및 production/preview/full/S84.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S82 — 내가 매번 이어 주는 다음 단계는 무엇일까?
+## S85 — 내가 매번 이어 주는 다음 단계는 무엇일까?
 
 **Slide ID:**
-S82
+S85
 
 **Working Title:**
 내가 매번 이어 주는 다음 단계는 무엇일까?
@@ -4402,7 +4594,7 @@ Reflection 3분 + Q&A 5분 + Transition 2분
 **Speaker Flow:**
 1. (0:00–3:00 / Reflection) 검토·수정·완료 중 내가 계속 이어 주는 요청 하나를 마음속으로 고른다. 기록·발표를 요구하지 않는다.
 2. (3:00–8:00 / Q&A) 질문을 받는다. 없으면 “검토가 끝난 뒤 다음 수정은 누가 이어 주나요?”를 사용한다. 완료 기준과 사람의 책임을 유지하고 제품 기능을 단정하지 않는다.
-3. (8:00–10:00 / Transition) S83의 목표 기반 실행·검토 시스템 제목을 거쳐 S84의 사람의 연결 문제로 이어간다.
+3. (8:00–10:00 / Transition) S86의 목표 기반 실행·검토 시스템 제목을 거쳐 S87의 사람의 연결 문제로 이어간다.
 
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -4430,21 +4622,21 @@ N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다�
 Reflection: 내가 매번 이어 주는 검토·수정·확인 요청은 무엇일까? 공유·기록·실습은 요구하지 않는다.
 
 **Transition:**
-S83의 목표 기반 실행·검토 시스템 제목을 거쳐 S84의 사람의 연결 문제로 이어간다.
+S86의 목표 기반 실행·검토 시스템 제목을 거쳐 S87의 사람의 연결 문제로 이어간다.
 
 **Time Management:**
 Reflection 3분 + Q&A 5분 + Transition 2분 = 10분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S82; production/preview/act3/S82.png 및 production/preview/full/S82.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S85; production/preview/act3/S85.png 및 production/preview/full/S85.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S83 — 목표를 이룰 때까지 수정하고 검토하기
+## S86 — 목표를 이룰 때까지 수정하고 검토하기
 
 **Slide ID:**
-S83
+S86
 
 **Working Title:**
 목표를 이룰 때까지 수정하고 검토하기
@@ -4465,7 +4657,7 @@ Loop Engineering은 같은 목표의 구현·검토·수정을 피드백으로 �
 다음 수정과 검토까지 작업 시스템이 이어가려면 무엇이 필요할까?
 
 **Speaker Flow:**
-1. (0:00–1:00 / Transition) ACT3의 마지막 질문을 받아 제목과 부제만 안내한다. 목표·완료 기준이 반복을 이끈다는 관점을 예고하고 S84으로 넘긴다.
+1. (0:00–1:00 / Transition) ACT3의 마지막 질문을 받아 제목과 부제만 안내한다. 목표·완료 기준이 반복을 이끈다는 관점을 예고하고 S87으로 넘긴다.
 
 **Evidence / Source:**
 DEC-0097; BEAT-072; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -4495,15 +4687,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Transition 1분 = 1분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S83; production/preview/act4/S83.png 및 production/preview/full/S83.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S86; production/preview/act4/S86.png 및 production/preview/full/S86.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S84 — 다음 수정도 사람이 매번 이어줘야 할까?
+## S87 — 다음 수정도 사람이 매번 이어줘야 할까?
 
 **Slide ID:**
-S84
+S87
 
 **Working Title:**
 다음 수정도 사람이 매번 이어줘야 할까?
@@ -4524,8 +4716,8 @@ Lecture 2분 + Case 2분
 작업 방법이 있어도 다음 단계는 매번 사람이 다시 요청해야 할까?
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) S82의 질문을 회수한다. 앞 ACT의 Harness는 수행 방법과 도구를 제공한다. 이 장의 세 요청은 실제 Trial이 아닌 가상 상황이며 같은 목표 안의 연속 단계라고 설명한다.
-2. (2:00–4:00 / Case) ACT3의 세 요청을 다시 나열하지 않고, 사람이 모아 전달하던 검토 의견이 다음 수정의 입력으로 들어가는 두 영역을 짚는다. 목표는 유지하고 남은 문제를 시스템 안에서 넘길 수 있겠다는 질문으로 S85의 완료 기준을 연다.
+1. (0:00–2:00 / Lecture) S85의 질문을 회수한다. 앞 ACT의 Harness는 수행 방법과 도구를 제공한다. 이 장의 세 요청은 실제 Trial이 아닌 가상 상황이며 같은 목표 안의 연속 단계라고 설명한다.
+2. (2:00–4:00 / Case) ACT3의 세 요청을 다시 나열하지 않고, 사람이 모아 전달하던 검토 의견이 다음 수정의 입력으로 들어가는 두 영역을 짚는다. 목표는 유지하고 남은 문제를 시스템 안에서 넘길 수 있겠다는 질문으로 S88의 완료 기준을 연다.
 
 **Evidence / Source:**
 DEC-0097; BEAT-073; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -4559,15 +4751,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S84; production/preview/act4/S84.png 및 production/preview/full/S84.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S87; production/preview/act4/S87.png 및 production/preview/full/S87.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S85 — 먼저, 무엇이 되면 완료인지 정한다
+## S88 — 먼저, 무엇이 되면 완료인지 정한다
 
 **Slide ID:**
-S85
+S88
 
 **Working Title:**
 먼저, 무엇이 되면 완료인지 정한다
@@ -4623,15 +4815,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S85; production/preview/act4/S85.png 및 production/preview/full/S85.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S88; production/preview/act4/S88.png 및 production/preview/full/S88.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S86 — 모델 A가 첫 변경 후보를 만든다
+## S89 — 모델 A가 첫 변경 후보를 만든다
 
 **Slide ID:**
-S86
+S89
 
 **Working Title:**
 모델 A가 첫 변경 후보를 만든다
@@ -4688,15 +4880,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Case 4분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S86; production/preview/act4/S86.png 및 production/preview/full/S86.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S89; production/preview/act4/S89.png 및 production/preview/full/S89.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S87 — 실제 동작과 비용은 도구로 확인한다
+## S90 — 실제 동작과 비용은 도구로 확인한다
 
 **Slide ID:**
-S87
+S90
 
 **Working Title:**
 실제 동작과 비용은 도구로 확인한다
@@ -4752,15 +4944,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 3분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S87; production/preview/act4/S87.png 및 production/preview/full/S87.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S90; production/preview/act4/S90.png 및 production/preview/full/S90.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S88 — 모델 B는 무엇을 근거로 검토할까?
+## S91 — 모델 B는 무엇을 근거로 검토할까?
 
 **Slide ID:**
-S88
+S91
 
 **Working Title:**
 모델 B는 무엇을 근거로 검토할까?
@@ -4817,15 +5009,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Case 5분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S88; production/preview/act4/S88.png 및 production/preview/full/S88.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S91; production/preview/act4/S91.png 및 production/preview/full/S91.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S89 — 지적이 다음 수정으로 이어진다
+## S92 — 지적이 다음 수정으로 이어진다
 
 **Slide ID:**
-S89
+S92
 
 **Working Title:**
 지적이 다음 수정으로 이어진다
@@ -4882,15 +5074,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Case 4분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S89; production/preview/act4/S89.png 및 production/preview/full/S89.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S92; production/preview/act4/S92.png 및 production/preview/full/S92.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S90 — 고쳤다면, 같은 기준으로 다시 본다
+## S93 — 고쳤다면, 같은 기준으로 다시 본다
 
 **Slide ID:**
-S90
+S93
 
 **Working Title:**
 고쳤다면, 같은 기준으로 다시 본다
@@ -4947,15 +5139,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Case 4분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S90; production/preview/act4/S90.png 및 production/preview/full/S90.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S93; production/preview/act4/S93.png 및 production/preview/full/S93.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S91 — 같은 목표의 구현·검토 루프
+## S94 — 같은 목표의 구현·검토 루프
 
 **Slide ID:**
-S91
+S94
 
 **Working Title:**
 같은 목표의 구현·검토 루프
@@ -5011,15 +5203,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 3분 + Case 2분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S91; production/preview/act4/S91.png 및 production/preview/full/S91.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S94; production/preview/act4/S94.png 및 production/preview/full/S94.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S92 — 언제 계속하고, 언제 끝낼까?
+## S95 — 언제 계속하고, 언제 끝낼까?
 
 **Slide ID:**
-S92
+S95
 
 **Working Title:**
 언제 계속하고, 언제 끝낼까?
@@ -5075,15 +5267,15 @@ Reflection: 계속 돌리고 있다는 사실과 목표를 달성했다는 사�
 Lecture 3분 + Reflection 2분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S92; production/preview/act4/S92.png 및 production/preview/full/S92.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S95; production/preview/act4/S95.png 및 production/preview/full/S95.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S93 — 구현한 모델에게 다시 물으면 충분할까?
+## S96 — 구현한 모델에게 다시 물으면 충분할까?
 
 **Slide ID:**
-S93
+S96
 
 **Working Title:**
 구현한 모델에게 다시 물으면 충분할까?
@@ -5139,15 +5331,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 4분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S93; production/preview/act4/S93.png 및 production/preview/full/S93.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S96; production/preview/act4/S96.png 및 production/preview/full/S96.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S94 — 다른 모델의 관점이 도움이 된 실험
+## S97 — 다른 모델의 관점이 도움이 된 실험
 
 **Slide ID:**
-S94
+S97
 
 **Working Title:**
 다른 모델의 관점이 도움이 된 실험
@@ -5203,15 +5395,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 3분 + Case 2분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S94; production/preview/act4/S94.png 및 production/preview/full/S94.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S97; production/preview/act4/S97.png 및 production/preview/full/S97.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S95 — 잘 만드는 능력과 잘 검토하는 능력
+## S98 — 잘 만드는 능력과 잘 검토하는 능력
 
 **Slide ID:**
-S95
+S98
 
 **Working Title:**
 잘 만드는 능력과 잘 검토하는 능력
@@ -5267,15 +5459,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 3분 + Case 1분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S95; production/preview/act4/S95.png 및 production/preview/full/S95.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S98; production/preview/act4/S98.png 및 production/preview/full/S98.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S96 — 구현과 검토에 모델을 어떻게 나눌까?
+## S99 — 구현과 검토에 모델을 어떻게 나눌까?
 
 **Slide ID:**
-S96
+S99
 
 **Working Title:**
 구현과 검토에 모델을 어떻게 나눌까?
@@ -5331,15 +5523,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S96; production/preview/act4/S96.png 및 production/preview/full/S96.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S99; production/preview/act4/S99.png 및 production/preview/full/S99.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S97 — 검토 모델의 말도 확인해야 한다
+## S100 — 검토 모델의 말도 확인해야 한다
 
 **Slide ID:**
-S97
+S100
 
 **Working Title:**
 검토 모델의 말도 확인해야 한다
@@ -5395,15 +5587,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S97; production/preview/act4/S97.png 및 production/preview/full/S97.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S100; production/preview/act4/S100.png 및 production/preview/full/S100.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S98 — 반복하려면 무엇을 이어받아야 할까?
+## S101 — 반복하려면 무엇을 이어받아야 할까?
 
 **Slide ID:**
-S98
+S101
 
 **Working Title:**
 반복하려면 무엇을 이어받아야 할까?
@@ -5459,15 +5651,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S98; production/preview/act4/S98.png 및 production/preview/full/S98.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S101; production/preview/act4/S101.png 및 production/preview/full/S101.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S99 — 확인한 근거와 아직 실행하지 않은 설계
+## S102 — 확인한 근거와 아직 실행하지 않은 설계
 
 **Slide ID:**
-S99
+S102
 
 **Working Title:**
 확인한 근거와 아직 실행하지 않은 설계
@@ -5523,15 +5715,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S99; production/preview/act4/S99.png 및 production/preview/full/S99.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S102; production/preview/act4/S102.png 및 production/preview/full/S102.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S100 — Goal이 목표와 다음 작업을 이어준다
+## S103 — Goal이 목표와 다음 작업을 이어준다
 
 **Slide ID:**
-S100
+S103
 
 **Working Title:**
 Goal이 목표와 다음 작업을 이어준다
@@ -5588,15 +5780,15 @@ N/A — 정적 제품 안내 도식. 명령을 입력하거나 Goal을 활성화
 Lecture2분. 제품 설정 강의나 실제 실행으로 확장하지 않는다. 초과 시 부가 설명을 줄이고 기능/검증의 구분과 다음 전환을 유지한다. 실제 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S100, production/preview/full/S100.png. 설명용 도식이며 원본 제품 캡처로 표현하지 않는다. 실제 발표 PC 재생은 UNVERIFIED.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S103, production/preview/full/S103.png. 설명용 도식이며 원본 제품 캡처로 표현하지 않는다. 실제 발표 PC 재생은 UNVERIFIED.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0098. 문서 근거 확인과 로컬 제작 검토는 별개이며 최종 렌더·Notes 대조 결과는 GOAL_TIPS_AND_ACT5_HANDOFF.md에 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S101 — Goal에는 완료 근거와 멈출 조건을 담는다
+## S104 — Goal에는 완료 근거와 멈출 조건을 담는다
 
 **Slide ID:**
-S101
+S104
 
 **Working Title:**
 Goal에는 완료 근거와 멈출 조건을 담는다
@@ -5647,21 +5839,21 @@ N/A — 정적 제품 안내 도식. 명령을 입력하거나 Goal을 활성화
 필수 응답·실습 없음. 예시에서 완료 근거와 미완료 보고 조건을 눈으로 확인하게 한다.
 
 **Transition:**
-이 기능을 활용하더라도 우리 작업의 목표·검증·검토 판단은 남습니다. S102에서 필요한 루프를 정리한 뒤 ACT5의 조합과 덜어내기로 넘어갑니다.
+이 기능을 활용하더라도 우리 작업의 목표·검증·검토 판단은 남습니다. S105에서 필요한 루프를 정리한 뒤 ACT5의 조합과 덜어내기로 넘어갑니다.
 
 **Time Management:**
 Lecture2분. 제품 설정 강의나 실제 실행으로 확장하지 않는다. 초과 시 부가 설명을 줄이고 기능/검증의 구분과 다음 전환을 유지한다. 실제 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S101, production/preview/full/S101.png. 설명용 도식이며 원본 제품 캡처로 표현하지 않는다. 실제 발표 PC 재생은 UNVERIFIED.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S104, production/preview/full/S104.png. 설명용 도식이며 원본 제품 캡처로 표현하지 않는다. 실제 발표 PC 재생은 UNVERIFIED.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0098. 문서 근거 확인과 로컬 제작 검토는 별개이며 최종 렌더·Notes 대조 결과는 GOAL_TIPS_AND_ACT5_HANDOFF.md에 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S102 — 우리 작업에는 어떤 루프가 필요할까?
+## S105 — 우리 작업에는 어떤 루프가 필요할까?
 
 **Slide ID:**
-S102
+S105
 
 **Working Title:**
 우리 작업에는 어떤 루프가 필요할까?
@@ -5684,7 +5876,7 @@ Goal의 계속 수행 기능을 활용하되 내 업무에 필요한 목표·근
 **Speaker Flow:**
 1. (0:00–2:00 / Reflection) Goal이 맡는 계속 수행과, 내 업무에서 여전히 정할 목표·검증·검토를 구분해 생각하게 한다. 기존 목표·피드백·운영의 세 질문을 한 번씩 가리킨다.
 2. (2:00–9:00 / Q&A) 질문을 받는다. 무질문이면 두 모델의 동의와 테스트 실패가 충돌할 때의 판단 또는 Goal이 완료를 보고했지만 측정이 빠진 상황을 묻는다. 새 기능 실행이나 정답 발표는 요구하지 않는다.
-3. (9:00–11:00 / Transition) 플랫폼 기능을 활용하되 필요한 기준과 검토를 조합한다는 문장으로 회수한다. S103의 ACT5 제목을 거쳐 S104의 대응 선택으로 넘긴다.
+3. (9:00–11:00 / Transition) 플랫폼 기능을 활용하되 필요한 기준과 검토를 조합한다는 문장으로 회수한다. S106의 ACT5 제목을 거쳐 S107의 대응 선택으로 넘긴다.
 
 **Evidence / Source:**
 DEC-0097; BEAT-083; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -5712,21 +5904,21 @@ N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 G
 Reflection2분→Q&A7분→Transition2분. 무질문이면 “Goal은 완료라고 했는데 측정 근거가 없다면?”을 사용한다. 9분에 전환으로 들어가고 11분에 마친다.
 
 **Transition:**
-Goal의 계속 수행을 활용해도 검증과 역할을 모두 직접 구현할 필요는 없습니다. S103의 ACT5 제목을 거쳐 S104에서 필요한 대응의 조합을 생각합니다.
+Goal의 계속 수행을 활용해도 검증과 역할을 모두 직접 구현할 필요는 없습니다. S106의 ACT5 제목을 거쳐 S107에서 필요한 대응의 조합을 생각합니다.
 
 **Time Management:**
 Reflection 2분 + Q&A 7분 + Transition 2분 = 11분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S102; production/preview/act4/S102.png 및 production/preview/full/S102.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S105; production/preview/act4/S105.png 및 production/preview/full/S105.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S103 — 내 업무에 맞게 조합하고 덜어내기
+## S106 — 내 업무에 맞게 조합하고 덜어내기
 
 **Slide ID:**
-S103
+S106
 
 **Working Title:**
 내 업무에 맞게 조합하고 덜어내기
@@ -5749,7 +5941,7 @@ Transition 1분
 **Speaker Flow:**
 1. (0:00–0:20 / Transition) ACT 5의 제목 “내 업무에 맞게 조합하고 덜어내기”을 가리키며 구간을 연다.
 2. (0:20–0:40 / Transition) 부제 “AI-Native Development · 업무 방식의 재설계”는 이번 구간의 관점만 안내한다. 구체적 기능·해결 방법·결과는 앞서 설명하지 않는다.
-3. (0:40–1:00 / Transition) S104의 기존 첫 문제로 이동한다. 본문의 질문·성찰을 이 장에서 대신 진행하지 않는다.
+3. (0:40–1:00 / Transition) S107의 기존 첫 문제로 이동한다. 본문의 질문·성찰을 이 장에서 대신 진행하지 않는다.
 
 **Evidence / Source:**
 DEC-0090. 사용자가 승인한 ACT 제목·부제, plan/MASTER_PLAN.md의 여정과 현행 plan/SLIDE_MAP.md. 새 Trial·연구·제품 검증은 없다.
@@ -5773,21 +5965,21 @@ N/A — 정적 제목 화면. 새 Demo 또는 실행을 시작하지 않는다.
 N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 
 **Transition:**
-S104에서 질문·답변에서 기준에 따른 작업으로 맡기는 범위가 넓어졌음을 회수한다. Demo의 내부 이력을 전제하지 않는다.
+S107에서 질문·답변에서 기준에 따른 작업으로 맡기는 범위가 넓어졌음을 회수한다. Demo의 내부 이력을 전제하지 않는다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 5 총40분, 전체406분이다. 제목·부제만 안내하고1분에 S104로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 5 총40분, 전체420분이다. 제목·부제만 안내하고1분에 S107로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S103.png 또는 production/ACT_5.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
+LOCAL STATIC ARTIFACT — production/preview/full/S106.png 또는 production/ACT_5.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0090. 로컬 패키지/Notes/렌더 대조는 production/evaluation/ACT_TITLE_SLIDES.md에 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설 UNVERIFIED.
 
-## S104 — AI에게 맡기는 범위가 넓어졌다
+## S107 — AI에게 맡기는 범위가 넓어졌다
 
 **Slide ID:**
-S104
+S107
 
 **Working Title:**
 AI에게 맡기는 범위가 넓어졌다
@@ -5810,7 +6002,7 @@ Chatbot에서 Prompt·Context·Harness·Loop로, 질문에 답하는 범위에�
 **Speaker Flow:**
 1. (0:00–0:50 / Lecture) 질문과 답변에서 출발했음을 회수한다. 새로운 업무나 개인 선택 질문을 열지 않는다.
 2. (0:50–3:10 / Lecture) Prompt의 목표·제약, Context의 정보·명세, Harness의 수행 방법·환경, Loop의 검토·수정·재검토로 맡기는 범위가 넓어졌음을 읽는다. 각 기능을 다시 가르치거나 필수 도입 단계를 제시하지 않는다.
-3. (3:10–4:00 / Lecture) 한 번의 답변에서 근거를 확인하며 작업을 맡기는 관점으로 변했음을 정리하고 S105의 전체 작업 흐름으로 넘긴다.
+3. (3:10–4:00 / Lecture) 한 번의 답변에서 근거를 확인하며 작업을 맡기는 관점으로 변했음을 정리하고 S108의 전체 작업 흐름으로 넘긴다.
 
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-060.
@@ -5826,16 +6018,16 @@ TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행�
 저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
 
 **Advanced Insight:**
-개념의 범위 확대와 모든 구성요소의 도입 의무를 구분한다. 개인 문제 선택과 다음 행동은 S112/S113에서만 진행한다.
+개념의 범위 확대와 모든 구성요소의 도입 의무를 구분한다. 개인 문제 선택과 다음 행동은 S115/S116에서만 진행한다.
 
 **C++ Vision Bridge:**
-개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S112/S113에 남긴다.
+개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S115/S116에 남긴다.
 
 **Demo Operation:**
 새 Trial·Live·실행 캡처 없음. 다섯 단계와 질문·목표/제약·정보/명세·수행 환경·검토/수정의 범위를 순서대로 표시한다. 개인 문제나 도구 선택 메뉴를 만들지 않는다.
 
 **Audience Interaction:**
-설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S112/S113에 남긴다.
+설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S115/S116에 남긴다.
 
 **Transition:**
 그 범위가 실제 작업 흐름에서는 어떻게 연결될까요? 다음은 저장소 이력을 몰라도 읽을 수 있는 작업 구조입니다.
@@ -5844,15 +6036,15 @@ TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행�
 Lecture4분. 기존 장별 총시간을 유지한다. 상세 기법을 재강의하지 않고 실제 리허설은 UNVERIFIED로 둔다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S104와 production/preview/act5/S104.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md를 따른다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S107와 production/preview/act5/S107.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md를 따른다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0099. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md에 별도 기록한다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S105 — 작업은 요청부터 검토·수정까지 이어진다
+## S108 — 작업은 요청부터 검토·수정까지 이어진다
 
 **Slide ID:**
-S105
+S108
 
 **Working Title:**
 작업은 요청부터 검토·수정까지 이어진다
@@ -5875,7 +6067,7 @@ Lecture 1분 + Case 2분
 **Speaker Flow:**
 1. (0:00–1:00 / Lecture) 목표와 완료 기준을 고정한 설명용 구조임을 밝힌다. 실제 저장소 State·Trial 이력이나 새 실행 결과를 재현하지 않는다.
 2. (1:00–2:20 / Case) 다섯 노드를 왼쪽부터 따라간다. 조사에서 필요한 자료를 찾고 정한 범위를 변경하며 테스트와 검토의 근거를 확인한다. 모델의 의견과 도구의 확인 근거를 합치지 않는다.
-3. (2:20–3:00 / Case) 남은 지적을 수정에 넘기는 귀환선과 완료/수정/중단 판단을 읽는다. 검증할 수 없어 멈춘 것은 목표 충족 완료가 아니다. 개인 다음 행동은 정하지 않고 S106의 작업 조건으로 넘긴다.
+3. (2:20–3:00 / Case) 남은 지적을 수정에 넘기는 귀환선과 완료/수정/중단 판단을 읽는다. 검증할 수 없어 멈춘 것은 목표 충족 완료가 아니다. 개인 다음 행동은 정하지 않고 S109의 작업 조건으로 넘긴다.
 
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-060.
@@ -5894,13 +6086,13 @@ TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행�
 여기서 보여 주는 것은 작업·피드백의 관계다. 특정 제품의 자동 실행 경로나 다중 모델 배정·반복 성과를 주장하지 않는다.
 
 **C++ Vision Bridge:**
-개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S112/S113에 남긴다.
+개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S115/S116에 남긴다.
 
 **Demo Operation:**
 새 Trial·Live·실행 캡처 없음. 요청→조사→변경→확인→판단의 다섯 노드를 연결한다. 판단에서 남은 지적·근거를 변경으로 되돌린다. 완료·수정·미충족 중단을 구분한다.
 
 **Audience Interaction:**
-설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S112/S113에 남긴다.
+설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S115/S116에 남긴다.
 
 **Transition:**
 이 흐름이 이어지려면 Agent가 무엇을 참고하고 어떤 방법과 도구를 사용할 수 있어야 할까요?
@@ -5909,15 +6101,15 @@ TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행�
 Lecture1분+Case2분. 기존 장별 총시간을 유지한다. 상세 기법을 재강의하지 않고 실제 리허설은 UNVERIFIED로 둔다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S105와 production/preview/act5/S105.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md를 따른다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S108와 production/preview/act5/S108.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md를 따른다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0099. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md에 별도 기록한다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S106 — 작업 흐름에는 정보·절차·도구가 연결된다
+## S109 — 작업 흐름에는 정보·절차·도구가 연결된다
 
 **Slide ID:**
-S106
+S109
 
 **Working Title:**
 작업 흐름에는 정보·절차·도구가 연결된다
@@ -5938,9 +6130,9 @@ Lecture 2분
 “이 작업 흐름은 어떤 정보와 수행 조건에 연결되어 있을까요?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / Lecture) S105의 작업 흐름에 연결되는 조건을 설명한다. 특정 Demo나 코드의 사전 지식 없이 읽는다.
+1. (0:00–0:30 / Lecture) S108의 작업 흐름에 연결되는 조건을 설명한다. 특정 Demo나 코드의 사전 지식 없이 읽는다.
 2. (0:30–1:30 / Lecture) 프로젝트 정보는 코드·명세·프로젝트 지식, 수행 방법은 조사·변경·검증 순서, 검증 도구는 테스트·측정·결과 비교의 역할임을 짚는다. Skill이나 도구 사용법을 재강의하지 않고 연결 관계만 보여 준다.
-3. (1:30–2:00 / Lecture) 결과에 변경 내용·확인 근거·미해결 항목을 남기는 이유를 회수한다. Subagent/Memory 채택·보류나 개인 행동을 선택시키지 않고 S107의 수용 판단으로 넘긴다.
+3. (1:30–2:00 / Lecture) 결과에 변경 내용·확인 근거·미해결 항목을 남기는 이유를 회수한다. Subagent/Memory 채택·보류나 개인 행동을 선택시키지 않고 S110의 수용 판단으로 넘긴다.
 
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
@@ -5959,30 +6151,30 @@ TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행�
 Context의 사실, Workflow의 방법, 도구가 제공하는 근거는 책임이 다르다. 모든 작업의 필수 구현·저장 방식이나 특정 구성이 더 우월하다는 결과를 제시하지 않는다.
 
 **C++ Vision Bridge:**
-개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S112/S113에 남긴다.
+개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S115/S116에 남긴다.
 
 **Demo Operation:**
 새 Trial·Live·실행 캡처 없음. 상단 세 입력인 프로젝트 정보·재사용 수행 방법·검증 도구를 가운데 Agent 작업으로 연결한다. 하단에 변경 내용·확인 근거·미해결 항목을 표시한다. 구성요소 채택·보류 메뉴를 만들지 않는다.
 
 **Audience Interaction:**
-설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S112/S113에 남긴다.
+설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S115/S116에 남긴다.
 
 **Transition:**
-그렇게 얻은 결과를 완료 보고만으로 받아들일 수 있을까요? S107에서 사람의 수용 판단을 봅니다.
+그렇게 얻은 결과를 완료 보고만으로 받아들일 수 있을까요? S110에서 사람의 수용 판단을 봅니다.
 
 **Time Management:**
 Lecture2분. 기존 장별 총시간을 유지한다. 상세 기법을 재강의하지 않고 실제 리허설은 UNVERIFIED로 둔다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S106와 production/preview/act5/S106.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md를 따른다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S109와 production/preview/act5/S109.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md를 따른다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0099. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md에 별도 기록한다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S107 — 결과를 수용할지는 사람이 판단한다
+## S110 — 결과를 수용할지는 사람이 판단한다
 
 **Slide ID:**
-S107
+S110
 
 **Working Title:**
 결과를 수용할지는 사람이 판단한다
@@ -6003,9 +6195,9 @@ Lecture 3분
 “작업 완료 보고 뒤에 사람이 확인할 것은 무엇일까요?”
 
 **Speaker Flow:**
-1. (0:00–0:35 / Lecture) S106에서 남긴 변경 내용·확인 근거·미해결 항목을 사람의 수용 판단에 연결한다. Agent나 Goal의 완료 보고 자체를 검증 결과로 취급하지 않는다.
+1. (0:00–0:35 / Lecture) S109에서 남긴 변경 내용·확인 근거·미해결 항목을 사람의 수용 판단에 연결한다. Agent나 Goal의 완료 보고 자체를 검증 결과로 취급하지 않는다.
 2. (0:35–2:30 / Lecture) 목표·제약에 맞는지, 선택이 적절한지, 근거로 확인했는지, 남은 위험을 수용할지의 네 질문을 한 번씩 설명한다. 새 실패 사례나 실제 PASS/FAIL을 추가하지 않는다.
-3. (2:30–3:00 / Lecture) 사람이 직접 모든 단계를 수행한다는 뜻이 아니라 중요한 기준과 최종 수용 책임을 유지한다는 의미를 남기고 S108로 넘긴다.
+3. (2:30–3:00 / Lecture) 사람이 직접 모든 단계를 수행한다는 뜻이 아니라 중요한 기준과 최종 수용 책임을 유지한다는 의미를 남기고 S111로 넘긴다.
 
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
@@ -6024,30 +6216,30 @@ TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행�
 위임한 작업과 사람이 보유할 목표·중요 판단·위험 수용 책임을 구분한다. 현재 제품의 완료 오류율이나 검토 성과를 관찰한 주장이 아니다.
 
 **C++ Vision Bridge:**
-개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S112/S113에 남긴다.
+개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S115/S116에 남긴다.
 
 **Demo Operation:**
 새 Trial·Live·실행 캡처 없음. AI의 변경·실행·검사·비교 기록과 사람이 확인할 목표·판단·검증·책임의 네 질문을 연결한다. Goal 한 기능에 한정하지 않는다.
 
 **Audience Interaction:**
-설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S112/S113에 남긴다.
+설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S115/S116에 남긴다.
 
 **Transition:**
-이 수용 판단까지 연결되도록 작업 조건을 설계하고 운영하는 관점을 S108에서 정리합니다.
+이 수용 판단까지 연결되도록 작업 조건을 설계하고 운영하는 관점을 S111에서 정리합니다.
 
 **Time Management:**
 Lecture3분. 기존 장별 총시간을 유지한다. 상세 기법을 재강의하지 않고 실제 리허설은 UNVERIFIED로 둔다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S107와 production/preview/act5/S107.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md를 따른다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S110와 production/preview/act5/S110.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md를 따른다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0099. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md에 별도 기록한다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S108 — AI가 일할 조건과 확인 경로를 설계한다
+## S111 — AI가 일할 조건과 확인 경로를 설계한다
 
 **Slide ID:**
-S108
+S111
 
 **Working Title:**
 AI가 일할 조건과 확인 경로를 설계한다
@@ -6068,9 +6260,9 @@ Lecture 3분
 “우리가 설계한 것은 어떤 개발 방식이었을까요?”
 
 **Speaker Flow:**
-1. (0:00–0:35 / Lecture) S104의 범위 확대, S105의 작업 흐름, S106의 수행 조건과 S107의 수용 판단을 하나의 개발 방식으로 회수한다.
+1. (0:00–0:35 / Lecture) S107의 범위 확대, S108의 작업 흐름, S109의 수행 조건과 S110의 수용 판단을 하나의 개발 방식으로 회수한다.
 2. (0:35–2:10 / Lecture) 맡길 범위는 목표·제약·완료 기준, 일할 조건은 정보·수행 방법·도구·검토 역할, 확인과 책임은 검증·수정·재검토와 사람의 수용이다. 이 과정에서 사용하는 AI-Native Development의 관점이며 보편 공식 정의가 아니다.
-3. (2:10–3:00 / Lecture) 모델·플랫폼이 달라져도 지금의 구성이 모두 필요할지 질문한다. 통합·제거의 상세 기준은 S109–S111에, 개인 문제와 다음 행동은 S112–S113에 남긴다.
+3. (2:10–3:00 / Lecture) 모델·플랫폼이 달라져도 지금의 구성이 모두 필요할지 질문한다. 통합·제거의 상세 기준은 S112–S114에, 개인 문제와 다음 행동은 S115–S116에 남긴다.
 
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
@@ -6089,30 +6281,30 @@ TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행�
 특정 제품 기능이나 모든 구성요소를 반드시 도입하는 목록과 개발 방식의 설계 관점을 구분한다. 무엇을 제거할지는 다음 구간에서 근거를 보고 판단한다.
 
 **C++ Vision Bridge:**
-개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S112/S113에 남긴다.
+개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S115/S116에 남긴다.
 
 **Demo Operation:**
 새 Trial·Live·실행 캡처 없음. 맡길 범위·일할 조건·확인과 책임의 세 영역을 연결한다. 이 교육의 AI-Native Development 관점임을 밝히고 모델·플랫폼 변화 시 현재 구성의 필요성을 묻는다.
 
 **Audience Interaction:**
-설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S112/S113에 남긴다.
+설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S115/S116에 남긴다.
 
 **Transition:**
-이렇게 설계한 작업 방식도 모델·플랫폼이 달라지면 그대로 필요할까요? S109부터 기존 구조의 통합·제거를 재평가합니다.
+이렇게 설계한 작업 방식도 모델·플랫폼이 달라지면 그대로 필요할까요? S112부터 기존 구조의 통합·제거를 재평가합니다.
 
 **Time Management:**
 Lecture3분. 기존 장별 총시간을 유지한다. 상세 기법을 재강의하지 않고 실제 리허설은 UNVERIFIED로 둔다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S108와 production/preview/act5/S108.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md를 따른다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S111와 production/preview/act5/S111.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md를 따른다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0099. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md에 별도 기록한다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S109 — 모델·플랫폼이 바뀌면 Harness도 다시 본다
+## S112 — 모델·플랫폼이 바뀌면 Harness도 다시 본다
 
 **Slide ID:**
-S109
+S112
 
 **Working Title:**
 모델·플랫폼이 바뀌면 Harness도 다시 본다
@@ -6133,9 +6325,9 @@ Lecture 2분
 “Goal처럼 플랫폼이 일부 역할을 제공한다면, 이전에 만든 보조 장치도 계속 필요할까요?”
 
 **Speaker Flow:**
-1. (0:00–0:25 / Lecture) S108의 설계 관점에서 “그때 필요했던 보조 장치가 지금도 필요한가?”를 묻는다. 앞 구간은 작업 체계의 구조를 설명했고, 여기서는 과거 필요했던 구성의 후속 재평가를 다룬다.
+1. (0:00–0:25 / Lecture) S111의 설계 관점에서 “그때 필요했던 보조 장치가 지금도 필요한가?”를 묻는다. 앞 구간은 작업 체계의 구조를 설명했고, 여기서는 과거 필요했던 구성의 후속 재평가를 다룬다.
 2. (0:25–1:25 / Lecture) 왼쪽 조율 Agent와 Router/Planner/담당 Subagent, 오른쪽 하나의 주 Loop와 필요한 Skill·Tool 후보를 읽는다. Anthropic이 공개한 일부 기업 Agent의 통합 사례를 각색한 교육용 도식이다. 그 사례에서 현재 불필요한 역할을 합치는 선택이 있었으며 독립 조사·권한 경계의 필요성은 남는다고 설명한다. Model capability·플랫폼 제공 기능·업무 조건이 실제로 달라졌는지 먼저 확인한다.
-3. (1:25–2:00 / Lecture) 새 모델이나 플랫폼이면 무조건 합치라는 뜻이 아니며 우리 Demo의 통합·비용·품질 비교 실험도 아니라고 한정한다. 외부 수치나 모델명 성능을 추가하지 않고 S110의 판단 기준으로 넘긴다.
+3. (1:25–2:00 / Lecture) 새 모델이나 플랫폼이면 무조건 합치라는 뜻이 아니며 우리 Demo의 통합·비용·품질 비교 실험도 아니라고 한정한다. 외부 수치나 모델명 성능을 추가하지 않고 S113의 판단 기준으로 넘긴다.
 
 **Evidence / Source:**
 RESEARCH / TEACHING_MODEL · SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083. references/engineering/harness-reassessment.md에 출처·해석·한계를 분리한다.
@@ -6160,7 +6352,7 @@ Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는�
 왼쪽은 요청을 조율하는 Agent와 Router/Planner/담당 Subagent, 오른쪽은 하나의 Agent Loop와 필요한 Skill·Tool을 둔 후보 도식이다. 공개 사례를 각색한 구조이며 실제 실행 Screenshot이나 우리 Demo 변경 전후가 아니다. 발표자는 도식의 순서만 짚는다. 새 Live Demo는 없다.
 
 **Audience Interaction:**
-질문은 설명을 여는 수사적 질문이다. 응답·실습·기록·제출을 요구하지 않는다. 개인 선택은 S112/S111에 남긴다.
+질문은 설명을 여는 수사적 질문이다. 응답·실습·기록·제출을 요구하지 않는다. 개인 선택은 S115/S114에 남긴다.
 
 **Transition:**
 “그렇다면 무엇을 보존하고, 어떤 부분을 합치거나 제거할 후보로 볼까요?”
@@ -6169,15 +6361,15 @@ Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는�
 Lecture2분. 0:00–0:25 연결 질문,0:25–1:25 도식·범위 설명,1:25–2:00 판단 경계와 다음 장 연결. 외부 사례의 수치·상세 아키텍처 설명을 확장하지 않는다. 초과하면 예시 설명을 줄이고 근거 경계를 유지한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S109와 production/preview/act5/S109.png. Native 도식은 공개 사례 각색/교육용 판단 모델이며 실행 Screenshot이 아니다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S112와 production/preview/act5/S112.png. Native 도식은 공개 사례 각색/교육용 판단 모델이며 실행 Screenshot이 아니다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0083. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 별도 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설은 UNVERIFIED.
 
-## S110 — 무엇을 남기고, 무엇을 덜어낼까?
+## S113 — 무엇을 남기고, 무엇을 덜어낼까?
 
 **Slide ID:**
-S110
+S113
 
 **Working Title:**
 무엇을 남기고, 무엇을 덜어낼까?
@@ -6198,9 +6390,9 @@ Lecture 2분
 “이 요소가 맡은 이유는 현재도 유효한가요?”
 
 **Speaker Flow:**
-1. (0:00–0:25 / Lecture) S109의 조건 변화가 기존 요소의 존재 이유를 재확인하는 계기라고 연결한다. 이 장은 공급사 결과표가 아니라 이 교육의 판단 기준이다.
+1. (0:00–0:25 / Lecture) S112의 조건 변화가 기존 요소의 존재 이유를 재확인하는 계기라고 연결한다. 이 장은 공급사 결과표가 아니라 이 교육의 판단 기준이다.
 2. (0:25–1:25 / Lecture) 세 열을 읽는다. 유지: 목표·업무 명세·검증 요구. 통합: 겹치는 지침·역할을 한 출처와 명확한 책임으로. 제거 후보: 효용이 사라진 우회 절차. 예를 들어 같은 프로젝트 규칙을 여러 문서에서 중복 유지하면 원출처로 모을 수 있으나 현재 권한·안전 요구까지 없애는 것은 아니다. 독립 병렬 조사·권한 분리가 필요하면 Subagent를 유지할 수 있다.
-3. (1:25–2:00 / Lecture) 통합·제거는 후보이며 아직 품질이 유지됐다는 결과가 없다고 짚는다. 원래 요구를 보존한 채 실제 작업에서 무엇을 확인할지 S111으로 연결한다.
+3. (1:25–2:00 / Lecture) 통합·제거는 후보이며 아직 품질이 유지됐다는 결과가 없다고 짚는다. 원래 요구를 보존한 채 실제 작업에서 무엇을 확인할지 S114으로 연결한다.
 운영 표시: “실무 적용 팁 · 검증·개선” 배지로 다시 찾아 쓸 기준임을 짚는다. 기존 설명·근거 범위와 배정 시간 안에서 진행하며 요청·예시를 새로 실행하지 않는다.
 
 **Evidence / Source:**
@@ -6226,7 +6418,7 @@ Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는�
 같은 높이의 유지/통합/제거 후보 세 열이다. 목표·명세·검증 기준, 겹치는 지침·역할, 효용이 사라진 우회 절차를 대비한다. 하단은 독립 조사·권한 분리가 필요할 때 Subagent를 유지할 수 있는 조건이다. 발표자는 도식의 순서만 짚는다. 새 Live Demo는 없다.
 
 **Audience Interaction:**
-질문은 설명을 여는 수사적 질문이다. 응답·실습·기록·제출을 요구하지 않는다. 개인 선택은 S112/S111에 남긴다.
+질문은 설명을 여는 수사적 질문이다. 응답·실습·기록·제출을 요구하지 않는다. 개인 선택은 S115/S114에 남긴다.
 
 **Transition:**
 “후보를 정했다면, 덜어낸 뒤에도 필요한 일을 하는지 무엇으로 확인할까요?”
@@ -6235,15 +6427,15 @@ Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는�
 Lecture2분. 0:00–0:25 연결 질문,0:25–1:25 도식·범위 설명,1:25–2:00 판단 경계와 다음 장 연결. 외부 사례의 수치·상세 아키텍처 설명을 확장하지 않는다. 초과하면 예시 설명을 줄이고 근거 경계를 유지한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S110와 production/preview/act5/S110.png. Native 도식은 공개 사례 각색/교육용 판단 모델이며 실행 Screenshot이 아니다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S113와 production/preview/act5/S113.png. Native 도식은 공개 사례 각색/교육용 판단 모델이며 실행 Screenshot이 아니다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0083. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 별도 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설은 UNVERIFIED.
 
-## S111 — 덜어낸 뒤에도 필요한 일을 하는가?
+## S114 — 덜어낸 뒤에도 필요한 일을 하는가?
 
 **Slide ID:**
-S111
+S114
 
 **Working Title:**
 덜어낸 뒤에도 필요한 일을 하는가?
@@ -6264,9 +6456,9 @@ Lecture 2분
 “같은 대표 작업에서 무엇을 대조해야 덜어낸 구성을 수용할 수 있나요?”
 
 **Speaker Flow:**
-1. (0:00–0:25 / Lecture) S110에서 고른 후보가 간단해졌다는 인상만으로 채택되지 않는다고 연결한다. 화면은 평가 설계이며 우리 프로젝트의 새 실행·점수·PASS 결과가 아니다.
+1. (0:00–0:25 / Lecture) S113에서 고른 후보가 간단해졌다는 인상만으로 채택되지 않는다고 연결한다. 화면은 평가 설계이며 우리 프로젝트의 새 실행·점수·PASS 결과가 아니다.
 2. (0:25–1:20 / Lecture) 같은 대표 작업·입력에서 기존 구성과 통합·제거 후보를 비교하는 두 갈래를 읽는다. 현재 명세·기존 동작과 회귀를 먼저 보고 시간·비용·남은 위험을 함께 본다. 모델·권한·도구 조건 등 비교 조건도 기록한다. SRC-0236은 end-to-end 평가와 통합 뒤 회귀 확인의 필요성을 설명하는 공개 사례이지 모든 환경의 결과가 아니다.
-3. (1:20–2:00 / Lecture) 확인한 범위만 채택하고 나빠지면 기존 구성으로 되돌리며 이유를 남긴다고 닫는다. 검증 기준을 통과했다는 새 주장을 하지 않는다. S112에서 자신의 부족한 기준과 중복 구성을 포함한 문제 하나를 고른다.
+3. (1:20–2:00 / Lecture) 확인한 범위만 채택하고 나빠지면 기존 구성으로 되돌리며 이유를 남긴다고 닫는다. 검증 기준을 통과했다는 새 주장을 하지 않는다. S115에서 자신의 부족한 기준과 중복 구성을 포함한 문제 하나를 고른다.
 운영 표시: “실무 적용 팁 · 검증·개선” 배지로 다시 찾아 쓸 기준임을 짚는다. 기존 설명·근거 범위와 배정 시간 안에서 진행하며 요청·예시를 새로 실행하지 않는다.
 
 **Evidence / Source:**
@@ -6292,7 +6484,7 @@ Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는�
 같은 대표 작업·입력에서 기존 구성과 통합·제거 후보로 갈라졌다가 같은 결과·회귀/시간·비용/남은 위험 기준으로 모이는 도식이다. 하단은 조건부 채택과 되돌림이다. 실행 결과·점수·수치·PASS 배지를 표시하지 않는다. 발표자는 도식의 순서만 짚는다. 새 Live Demo는 없다.
 
 **Audience Interaction:**
-질문은 설명을 여는 수사적 질문이다. 응답·실습·기록·제출을 요구하지 않는다. 개인 선택은 S112/S111에 남긴다.
+질문은 설명을 여는 수사적 질문이다. 응답·실습·기록·제출을 요구하지 않는다. 개인 선택은 S115/S114에 남긴다.
 
 **Transition:**
 “부족한 것뿐 아니라 겹쳐 쌓인 것도 포함해, 내 업무의 문제 하나를 골라봅시다.”
@@ -6301,15 +6493,15 @@ Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는�
 Lecture2분. 0:00–0:25 연결 질문,0:25–1:25 도식·범위 설명,1:25–2:00 판단 경계와 다음 장 연결. 외부 사례의 수치·상세 아키텍처 설명을 확장하지 않는다. 초과하면 예시 설명을 줄이고 근거 경계를 유지한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S111와 production/preview/act5/S111.png. Native 도식은 공개 사례 각색/교육용 판단 모델이며 실행 Screenshot이 아니다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S114와 production/preview/act5/S114.png. Native 도식은 공개 사례 각색/교육용 판단 모델이며 실행 Screenshot이 아니다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0083. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 별도 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설은 UNVERIFIED.
 
-## S112 — 내 업무에서는 무엇이 반복해서 막힐까?
+## S115 — 내 업무에서는 무엇이 반복해서 막힐까?
 
 **Slide ID:**
-S112
+S115
 
 **Working Title:**
 내 업무에서는 무엇이 반복해서 막힐까?
@@ -6332,7 +6524,7 @@ Case 1분 + Transition 4분
 **Speaker Flow:**
 1. (0:00–1:00 / Case) C++ Vision 업무 적용을 위한 교육용 질문이다. 실제 회사 사건이나 검증된 도입 순서로 제시하지 않는다.
 2. (1:00–3:00 / Transition) A 요청 범위, B 반복·중복 지식·지침, C 겹치는 절차·역할, D 검사 기준, E 검토 지적이 다음 수정으로 이어지지 않는 문제를 읽는다. 다섯 항목은 같은 수준의 선택지다. B/C에는 통합·제거 필요도 포함한다.
-3. (3:00–5:00 / Transition) 가까운 문제 하나를 마음속으로 고르게 한다. E는 검토 지적과 다음 수정 사이에 어떤 근거·판단이 필요한지 생각하는 출발점이다. S113에서 같은 글자의 행동·확인 근거로 연결한다.
+3. (3:00–5:00 / Transition) 가까운 문제 하나를 마음속으로 고르게 한다. E는 검토 지적과 다음 수정 사이에 어떤 근거·판단이 필요한지 생각하는 출발점이다. S116에서 같은 글자의 행동·확인 근거로 연결한다.
 
 **Evidence / Source:**
 TEACHING_MODEL · C++ Vision engineering-pattern transfer. 실제 C++ Project, hardware, toolchain 또는 benchmark 결과는 사용하지 않는다.
@@ -6357,7 +6549,7 @@ Primary bridge. A 성능 병목 조사의 범위, B build mode/동작 명세/har
 새 Demo 없음. 각 행은 A–E 표식→가운데 증상→오른쪽 한국어·영어 분류 순으로 본다. 가로 화살표나 단계 진행은 없으며 다섯 선택지를 동등하게 둔다. 증상 설명을 다시 강의하지 않고 가까운 하나를 선택하는 전환으로 운영한다. B/C는 반복 설명·절차와 중복 유지·겹친 역할을 포함한다. 기존 C++ 예시는 위 Speaker Flow에 보존한다.
 
 **Audience Interaction:**
-청중의 선택 발표·투표·실습·제출을 요구하지 않는다. 고른 문제의 A–E를 마음속에 남기고 S113의 같은 글자로 이어간다.
+청중의 선택 발표·투표·실습·제출을 요구하지 않는다. 고른 문제의 A–E를 마음속에 남기고 S116의 같은 글자로 이어간다.
 
 **Transition:**
 “방금 고른 문제의 같은 글자를 따라, 다음 작업의 작은 행동 하나를 생각해 봅시다.”
@@ -6366,15 +6558,15 @@ Primary bridge. A 성능 병목 조사의 범위, B build mode/동작 명세/har
 Case1분+Transition4분=5분. 1분은 업무 전이의 범위, 나머지는 증상 비교와 개인 선택의 handoff다. 실제 리허설은 미검증이며 새 강의·사례를 추가하지 않는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S112와 production/preview/act5/S112.png를 사용한다. 새 실행·원본 실행 캡처로 표현하지 않는다. 현재 화면과 Notes 검토는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 기록한다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S115와 production/preview/act5/S115.png를 사용한다. 새 실행·원본 실행 캡처로 표현하지 않는다. 현재 화면과 Notes 검토는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 기록한다.
 
 **Validation Status:**
 LOCAL CONTENT REVIEW COMPLETE — DEC-0083. 최종 패키지/PNG/내장 Notes 대조 결과는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md와 ACT_5_HARNESS_REASSESSMENT_VALIDATION.json에 별도 기록한다. Windows PowerPoint, 발표 PC 글꼴, 제품·계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S113 — 고른 문제에서, 다음 행동 하나로
+## S116 — 고른 문제에서, 다음 행동 하나로
 
 **Slide ID:**
-S113
+S116
 
 **Working Title:**
 고른 문제에서, 다음 행동 하나로
@@ -6395,9 +6587,9 @@ Lecture 2분 + Reflection 2분
 “고른 문제에서 무엇을 작게 바꾸고, 어떤 근거로 확인해 볼까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) S112에서 고른 같은 글자의 행동을 본다. A 목표·변경 범위 명시, B 출처·검토자와 중복 지침 통합, C 절차·역할 통합·제거 후보, D 완료 판단 검사, E 검토 지적·다음 수정·완료 기준 연결이다. 전부 도입하는 목록이 아니다.
+1. (0:00–1:00 / Lecture) S115에서 고른 같은 글자의 행동을 본다. A 목표·변경 범위 명시, B 출처·검토자와 중복 지침 통합, C 절차·역할 통합·제거 후보, D 완료 판단 검사, E 검토 지적·다음 수정·완료 기준 연결이다. 전부 도입하는 목록이 아니다.
 2. (1:00–2:00 / Lecture) 확인할 근거 하나를 함께 생각한다. E라면 지적·수정 diff·같은 기준의 재검사·미해결 항목을 볼 수 있다. B/C 통합·제거는 같은 대표 작업의 결과·회귀·남은 위험을 대조해야 하며 유지·되돌림도 가능하다. 모두 앞으로 확인할 자료 후보이지 실행·개선 결과가 아니다.
-3. (2:00–4:00 / Reflection) 문제→작은 행동→확인 근거를 마음속으로 연결한다. 기록·발표·실습·제출은 요구하지 않는다. S114–S116의 찾아보기에서 팁 위치만 짚고 S117 Q&A/Closing으로 넘어간다.
+3. (2:00–4:00 / Reflection) 문제→작은 행동→확인 근거를 마음속으로 연결한다. 기록·발표·실습·제출은 요구하지 않는다. S117–S119의 찾아보기에서 팁 위치만 짚고 S120 Q&A/Closing으로 넘어간다.
 
 **Evidence / Source:**
 TEACHING_MODEL · 승인된 private reflection prompt. 개인 업무에 대한 새 관찰 근거는 수집하지 않는다.
@@ -6419,27 +6611,27 @@ DEC-0097: Loop는 같은 목표의 구현·검토·수정 반복이다. 새로�
 자신의 Vision 또는 개발 Repository에 같은 질문을 개인적으로 적용할 수 있다.
 
 **Demo Operation:**
-왼쪽 A–E 행동은 S112과 같은 글자로 대응한다. 오른쪽은 모든 선택에 공통인 확인 근거 질문이다. 새 Trial이나 실행 결과·성공 판정은 없다. 선택은 마음속으로 하며 화면상 특정 항목을 강제로 선택하지 않는다. B의 중복 지침 통합, C의 절차·역할 통합·제거는 하나의 선택 가능한 후보이며 실행 명령이나 과제가 아니다. 공통 질문 아래의 출처·검토·갱신 책임도 짚는다.
+왼쪽 A–E 행동은 S115과 같은 글자로 대응한다. 오른쪽은 모든 선택에 공통인 확인 근거 질문이다. 새 Trial이나 실행 결과·성공 판정은 없다. 선택은 마음속으로 하며 화면상 특정 항목을 강제로 선택하지 않는다. B의 중복 지침 통합, C의 절차·역할 통합·제거는 하나의 선택 가능한 후보이며 실행 명령이나 과제가 아니다. 공통 질문 아래의 출처·검토·갱신 책임도 짚는다.
 
 **Audience Interaction:**
 개인 성찰2분. 하나의 행동과 확인 근거를 마음속으로 고르게 하고 공유나 실천 약속을 받지 않는다. 침묵을 허용하며 응답을 기다리지 않고 정해진 시점에 Q&A로 넘긴다.
 
 **Transition:**
-“마지막 질문을 받기 전에, 실무에서 다시 찾아볼 팁의 위치를 한 번에 정리하겠습니다.”라고 S114의 마지막 찾아보기를 연다.
+“마지막 질문을 받기 전에, 실무에서 다시 찾아볼 팁의 위치를 한 번에 정리하겠습니다.”라고 S117의 마지막 찾아보기를 연다.
 
 **Time Management:**
-Lecture2분+Reflection2분=4분. S112의 증상을 다시 읽거나 다섯 기술을 재강의하지 않는다. Reflection은2분에 끝내고 Q&A와 구분한다.
+Lecture2분+Reflection2분=4분. S115의 증상을 다시 읽거나 다섯 기술을 재강의하지 않는다. Reflection은2분에 끝내고 Q&A와 구분한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S113와 production/preview/act5/S113.png를 사용한다. 새 실행·원본 실행 캡처로 표현하지 않는다. 현재 화면과 Notes 검토는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 기록한다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S116와 production/preview/act5/S116.png를 사용한다. 새 실행·원본 실행 캡처로 표현하지 않는다. 현재 화면과 Notes 검토는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 기록한다.
 
 **Validation Status:**
 LOCAL CONTENT REVIEW COMPLETE — DEC-0083. 최종 패키지/PNG/내장 Notes 대조 결과는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md와 ACT_5_HARNESS_REASSESSMENT_VALIDATION.json에 별도 기록한다. Windows PowerPoint, 발표 PC 글꼴, 제품·계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S114 — 실무 적용 팁 · 작업 환경과 기준
+## S117 — 실무 적용 팁 · 작업 환경과 기준
 
 **Slide ID:**
-S114
+S117
 
 **Working Title:**
 실무 적용 팁 · 작업 환경과 기준
@@ -6454,18 +6646,19 @@ ACT 5 / 5B Final Reference Review
 Lecture 1분
 
 **Primary Message:**
-작업 환경과 기준의 팁 위치는 S13, S49, S59, S64, S69, S71, S81, S100다. 공식 안내 각색과 기존 관찰의 근거를 각 장의 범위로 유지한다.
+작업 환경과 기준의 팁 위치는 S13, S49, S56–S58, S62, S67, S72, S74, S84, S103다. 공식 안내 각색과 기존 관찰의 근거를 각 장의 범위로 유지한다.
 
 **Opening Question:**
 “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
 
 **Speaker Flow:**
+새 S56–S58은 “AGENTS.md의 위치와 적용 범위” 한 항목으로 묶어 위치만 짚는다. 전체 팁을 다시 설명하지 않고 기존1분을 유지한다.
 1. (0:00–0:15 / Lecture) 마지막 통합 찾아보기이며 필요할 때 해당 장으로 돌아오는 목록임을 알린다.
-2. (0:15–0:45 / Lecture) S13 Repository 작업은 Codex에서 시작한다 / S49 AGENTS.md에는 무엇을 남길까? / S59 테스트 명령을 언제 쓰고 무엇을 판단할까? / S64 대화로 재사용할 Skill 만들기 / S69 대화로 조사 Agent 만들기 / S71 이번 Context와 다시 쓸 지식 / S81 반복 보정을 개선으로 잇는 기록. 새 S64/S69을 포함해 제목·위치만 짚고 본문을 다시 강의하지 않는다.
-3. (0:45–1:00 / Lecture) 요청 작성 팁 목록 S115으로 이어간다.
+2. (0:15–0:45 / Lecture) S13 Repository 작업은 Codex에서 시작한다 / S49 AGENTS.md에는 무엇을 남길까? / S62 테스트 명령을 언제 쓰고 무엇을 판단할까? / S67 대화로 재사용할 Skill 만들기 / S72 대화로 조사 Agent 만들기 / S74 이번 Context와 다시 쓸 지식 / S84 반복 보정을 개선으로 잇는 기록. 새 S67/S72을 포함해 제목·위치만 짚고 본문을 다시 강의하지 않는다.
+3. (0:45–1:00 / Lecture) 요청 작성 팁 목록 S118으로 이어간다.
 
 **Evidence / Source:**
-DEC-0088, DEC-0093. 현재 Slide Map의 제목·ID와 실무 팁 목록. S64/S69은 SRC-0111/0112와 CLM-0041/0042의 공식 안내 각색이며 모든 팁의 실제 관찰/연구/가상 경계는 해당 장을 따른다.
+DEC-0088, DEC-0093. 현재 Slide Map의 제목·ID와 실무 팁 목록. S67/S72은 SRC-0111/0112와 CLM-0041/0042의 공식 안내 각색이며 모든 팁의 실제 관찰/연구/가상 경계는 해당 장을 따른다.
 
 보존된 상세 출처: 기존 팁의 제목·Slide ID를 모은 찾아보기 · DEC-0088
 
@@ -6490,21 +6683,21 @@ N/A — 정적 찾아보기. Live·HYBRID·새 Trial은 없다.
 제목·위치만 안내하며 응답·실습·결과 제출을 요구하지 않는다.
 
 **Transition:**
-“이제 요청 문장을 작성할 때 바로 참고할 팁을 모아 보겠습니다.”라고 S115으로 이어간다.
+“이제 요청 문장을 작성할 때 바로 참고할 팁을 모아 보겠습니다.”라고 S118으로 이어간다.
 
 **Time Management:**
 Lecture 1분. 세 찾아보기의 합계는3분이다. 기존 본문·Q&A 시간을 줄이거나 중복 계산하지 않는다. 설명이 길어지면 제목만 안내하고 다음 장으로 이동한다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S114.png 또는 production/ACT_5.pptx의 같은 장. 실제 제품 실행으로 대신하지 않는다.
+LOCAL STATIC ARTIFACT — production/preview/full/S117.png 또는 production/ACT_5.pptx의 같은 장. 실제 제품 실행으로 대신하지 않는다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0088. 최종 패키지/Notes/렌더 대조는 production/evaluation/FINAL_PRACTICAL_TIPS_CONSOLIDATION.md에 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설 UNVERIFIED.
 
-## S115 — 실무 적용 팁 · 요청 작성
+## S118 — 실무 적용 팁 · 요청 작성
 
 **Slide ID:**
-S115
+S118
 
 **Working Title:**
 실무 적용 팁 · 요청 작성
@@ -6527,7 +6720,7 @@ Lecture 1분
 **Speaker Flow:**
 1. (0:00–0:15 / Lecture) 교육 마지막의 통합 찾아보기임을 알린다.
 2. (0:15–0:45 / Lecture) S28 지시와 참고 자료의 구분 / S29 입력과 기대 결과의 작은 예시 / S30 바로 검토할 수 있는 결과 형식 / S31 근거가 있는 설명과 미확인의 구분 / S32 결과를 바꾸는 결정에서 확인 질문 / S33 큰 작업을 검토할 결과물로 나누기 / S34 기준을 지정한 코드 리뷰 요청 / S35 구체적인 근거로 수정 방향 피드백. 제목·위치만 짚고 본문을 다시 강의하지 않는다.
-3. (0:45–1:00 / Lecture) S116로 이어간다.
+3. (0:45–1:00 / Lecture) S119로 이어간다.
 
 **Evidence / Source:**
 DEC-0088. plan/SLIDE_MAP.md의 기존 제목·현재 ID, plan/PRACTICAL_APPLICATION_TIPS.md. 각 팁의 실제 관찰/연구/가상 사례는 원래 장을 따른다.
@@ -6555,21 +6748,21 @@ N/A — 정적 찾아보기. Live·HYBRID·새 Trial은 없다.
 제목·위치만 안내하며 응답·실습·결과 제출을 요구하지 않는다.
 
 **Transition:**
-“요청 뒤에는 근거를 확인하고 기존 구성을 다시 판단할 기준이 필요합니다.”라고 S116로 이어간다.
+“요청 뒤에는 근거를 확인하고 기존 구성을 다시 판단할 기준이 필요합니다.”라고 S119로 이어간다.
 
 **Time Management:**
 Lecture 1분. 세 찾아보기의 합계는3분이다. 기존 본문·Q&A 시간을 줄이거나 중복 계산하지 않는다. 설명이 길어지면 제목만 안내하고 다음 장으로 이동한다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S115.png 또는 production/ACT_5.pptx의 같은 장. 실제 제품 실행으로 대신하지 않는다.
+LOCAL STATIC ARTIFACT — production/preview/full/S118.png 또는 production/ACT_5.pptx의 같은 장. 실제 제품 실행으로 대신하지 않는다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0088. 최종 패키지/Notes/렌더 대조는 production/evaluation/FINAL_PRACTICAL_TIPS_CONSOLIDATION.md에 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설 UNVERIFIED.
 
-## S116 — 실무 적용 팁 · 검증과 개선
+## S119 — 실무 적용 팁 · 검증과 개선
 
 **Slide ID:**
-S116
+S119
 
 **Working Title:**
 실무 적용 팁 · 검증과 개선
@@ -6584,15 +6777,15 @@ ACT 5 / 5B Final Reference Review
 Lecture 1분
 
 **Primary Message:**
-검증과 개선의 팁 위치는 S88, S92, S101, S110, S111이다. Goal 작성 예시와 검토·통합·제거 기준의 근거는 각 원래 장을 따른다.
+검증과 개선의 팁 위치는 S91, S95, S104, S113, S114이다. Goal 작성 예시와 검토·통합·제거 기준의 근거는 각 원래 장을 따른다.
 
 **Opening Question:**
 “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
 
 **Speaker Flow:**
 1. (0:00–0:15 / Lecture) 교육 마지막의 통합 찾아보기임을 알린다.
-2. (0:15–0:45 / Lecture) S88 원인을 고르기 전에 확인할 기록 / S92 지침을 고친 뒤, 무엇을 다시 확인할까? / S110 무엇을 남기고, 무엇을 덜어낼까? / S111 덜어낸 뒤에도 필요한 일을 하는가?. 제목·위치만 짚고 본문을 다시 강의하지 않는다.
-3. (0:45–1:00 / Lecture) S117로 이어간다.
+2. (0:15–0:45 / Lecture) S91 원인을 고르기 전에 확인할 기록 / S95 지침을 고친 뒤, 무엇을 다시 확인할까? / S113 무엇을 남기고, 무엇을 덜어낼까? / S114 덜어낸 뒤에도 필요한 일을 하는가?. 제목·위치만 짚고 본문을 다시 강의하지 않는다.
+3. (0:45–1:00 / Lecture) S120로 이어간다.
 
 **Evidence / Source:**
 DEC-0088. plan/SLIDE_MAP.md의 기존 제목·현재 ID, plan/PRACTICAL_APPLICATION_TIPS.md. 각 팁의 실제 관찰/연구/가상 사례는 원래 장을 따른다.
@@ -6626,15 +6819,15 @@ N/A — 정적 찾아보기. Live·HYBRID·새 Trial은 없다.
 Lecture 1분. 세 찾아보기의 합계는3분이다. 기존 본문·Q&A 시간을 줄이거나 중복 계산하지 않는다. 설명이 길어지면 제목만 안내하고 다음 장으로 이동한다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S116.png 또는 production/ACT_5.pptx의 같은 장. 실제 제품 실행으로 대신하지 않는다.
+LOCAL STATIC ARTIFACT — production/preview/full/S119.png 또는 production/ACT_5.pptx의 같은 장. 실제 제품 실행으로 대신하지 않는다.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0088. 최종 패키지/Notes/렌더 대조는 production/evaluation/FINAL_PRACTICAL_TIPS_CONSOLIDATION.md에 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설 UNVERIFIED.
 
-## S117 — Q&A와 교육 마무리
+## S120 — Q&A와 교육 마무리
 
 **Slide ID:**
-S117
+S120
 
 **Working Title:**
 Q&A와 교육 마무리
@@ -6655,8 +6848,8 @@ Q&A 4분 + Closing Transition 2분
 “남은 질문은 무엇인가요?”
 
 **Speaker Flow:**
-1. (0:00–4:00 / Q&A) 상단의 남은 질문은 무엇인가요를 가리키며 질문을 받는다. S113에서 고른 행동을 다시 발표시키지 않는다. 질문이 없으면 “결과를 수용할 때 어떤 근거를 받아야 할까요?” 또는 “반복되는 실패라면 바꾸기 전에 어떤 기록을 먼저 봐야 할까요?”를 사용한다. 새 제품 사실·설명·Demo를 추가하지 않는다.
-2. (4:00–6:00 / Closing Transition) 질문을 마감한다. 중앙의 AI가 잘 일할 환경을 설계한다를 남기고 하단의 Chatbot→Prompt→Context→Harness→Loop를 짧게 회수한다. S104과 같은 용어이며 Question/Task/System을 새 단계로 소개하지 않는다. 설계에는 필요성 재평가와 근거에 따른 통합·제거도 포함된다는 한 문장만 회수한다. 새 단계나 개념을 도입하지 않고 개인 선택 질문이나 전체 강의를 다시 열지 않는다.
+1. (0:00–4:00 / Q&A) 상단의 남은 질문은 무엇인가요를 가리키며 질문을 받는다. S116에서 고른 행동을 다시 발표시키지 않는다. 질문이 없으면 “결과를 수용할 때 어떤 근거를 받아야 할까요?” 또는 “반복되는 실패라면 바꾸기 전에 어떤 기록을 먼저 봐야 할까요?”를 사용한다. 새 제품 사실·설명·Demo를 추가하지 않는다.
+2. (4:00–6:00 / Closing Transition) 질문을 마감한다. 중앙의 AI가 잘 일할 환경을 설계한다를 남기고 하단의 Chatbot→Prompt→Context→Harness→Loop를 짧게 회수한다. S107과 같은 용어이며 Question/Task/System을 새 단계로 소개하지 않는다. 설계에는 필요성 재평가와 근거에 따른 통합·제거도 포함된다는 한 문장만 회수한다. 새 단계나 개념을 도입하지 않고 개인 선택 질문이나 전체 강의를 다시 열지 않는다.
 3. 종료 Cue: “목표·판단·검증·책임을 유지하면서, AI가 잘 일할 환경을 설계합시다.”
 
 **Evidence / Source:**
@@ -6682,7 +6875,7 @@ N/A.
 추가 실행 없음. Q&A 때는 위쪽 질문, 종료 때는 중앙 한 문장과 아래 여정에 발표자 초점을 옮긴다. 원래 전체 교육 모델의 다섯 이름만 사용한다. 운영 지시와 시간표는 Notes에 둔다.
 
 **Audience Interaction:**
-Q&A4분. 질문이 없으면 기존 교육 범위의 확인 질문 하나로 운영한다. S113 개인 성찰을 공개 제출·실천 약속으로 바꾸지 않는다.
+Q&A4분. 질문이 없으면 기존 교육 범위의 확인 질문 하나로 운영한다. S116 개인 성찰을 공개 제출·실천 약속으로 바꾸지 않는다.
 
 **Transition:**
 Q&A4분 뒤 Closing Transition2분. Chatbot → Prompt → Context → Harness → Loop와 마지막 한 문장으로 교육 종료.
@@ -6691,7 +6884,7 @@ Q&A4분 뒤 Closing Transition2분. Chatbot → Prompt → Context → Harness �
 Q&A4분+Closing Transition2분=6분. 4분에 질문을 마감하고 마지막2분에 새로운 개념·다른 분류·추가 행동 선택을 열지 않는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S117와 production/preview/act5/S117.png를 사용한다. 새 실행·원본 실행 캡처로 표현하지 않는다. 현재 화면과 Notes 검토는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 기록한다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S120와 production/preview/act5/S120.png를 사용한다. 새 실행·원본 실행 캡처로 표현하지 않는다. 현재 화면과 Notes 검토는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 기록한다.
 
 **Validation Status:**
 LOCAL CONTENT REVIEW COMPLETE — DEC-0083. 최종 패키지/PNG/내장 Notes 대조 결과는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md와 ACT_5_HARNESS_REASSESSMENT_VALIDATION.json에 별도 기록한다. Windows PowerPoint, 발표 PC 글꼴, 제품·계정·교육장·실측 리허설은 UNVERIFIED.

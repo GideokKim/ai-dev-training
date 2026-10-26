@@ -1,5 +1,7 @@
 # ACT 0 — Speaker Notes
 
+> Current: DEC-0104 /120slides/420minutes. ACT2 S38–S59:22slides/90minutes. Retained117budgets and evidence unchanged; current IDs follow plan/SLIDE_ID_MIGRATION_120.md. Earlier headers are history.
+
 > 하단 표기 DEC-0103: 제작·관리 상세는 Evidence / Source와 Claim Boundary에 보존한다. 발표 화면은 승인된 간략 표기를 사용하며 기존19필드·장별 배정·근거는 유지한다.
 
 > Current: DEC-0101 /117slides/412minutes. ACT0 fifteen slides/45minutes; retained content and per-slide budgets unchanged. Current IDs follow plan/SLIDE_ID_MIGRATION_117.md. Earlier headers retain their historical edition.
@@ -99,7 +101,7 @@ N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S02 — AI에게 지금 무엇을 맡기고 있는가?로 이어간다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 0 총43분, 전체406분이다. 제목·부제만 안내하고1분에 S02로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 0 총45분, 전체420분이다. 제목·부제만 안내하고1분에 S02로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S01.png 또는 production/ACT_0.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
@@ -821,7 +823,7 @@ Audience Interaction: 위치를 함께 보는 1분 안내다. 청중에게 계�
 Transition: “Repository 안을 함께 볼 수 있어도, 어떤 결과를 받아들일지는 누가 정할까요?”라는 질문으로 S14에 간다.
 
 **Time Management:**
-Lecture 1분. 메뉴 위치 15초, Codex 선택 15초, 허용 폴더 15초, 조사 요청·S14 연결 15초다. 이 장의1분은 보존한다. 현재 ACT0 43분·전체406분·Lecture160분이며 마지막 팁 찾아보기3분은 ACT5의 별도 배정이다. 설정 tutorial을 추가하지 않는다. 제목6장의 Transition6분은 각 ACT의 별도 배정이다.
+Lecture 1분. 메뉴 위치 15초, Codex 선택 15초, 허용 폴더 15초, 조사 요청·S14 연결 15초다. 이 장의1분은 보존한다. 현재 ACT 0 45분·전체420분·Lecture186분이며 마지막 팁 찾아보기3분은 ACT5의 별도 배정이다. 설정 tutorial을 추가하지 않는다. 제목6장의 Transition6분은 각 ACT의 별도 배정이다.
 
 Fallback: 제작 완료 후 production/preview/act0/S13.png 또는 production/preview/full/S13.png의 정적 재구성 도식을 사용한다. 새 PNG와 PPT의 일치는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 확인하기 전까지 미검증이다. 화면을 열 수 없으면 “이 교육에서는 ChatGPT 메뉴에서 Codex를 선택해 허용된 저장소 조사를 시작합니다”라고 말하고 S14로 간다. 즉석 계정 시연으로 대체하지 않는다.
 

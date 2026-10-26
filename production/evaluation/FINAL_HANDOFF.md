@@ -1,5 +1,33 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 현재 전달 기준 — DEC-0104 (2026-10-26)
+
+120장·420분(7시간). S55 뒤 실무 적용 팁 S56–S58을 추가하고 기존 S56 이후는+3이다.
+ACT2 S38–S59는22장·90분이며 다른 ACT 배정은 유지한다. 지침의 적용 범위와 시작 시
+자동 수집을 구분한 공식 안내 기반 예시다. 기존117장의 Story·실제 근거·장별 시간은 유지한다.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT2](../ACT_2.pptx),
+[새3장 미리보기](../preview/act2/AGENTS_scope_tips.png),
+[전체 Notes](../notes/FULL_SPEAKER_NOTES.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[검토 결과](AGENTS_SCOPE_TIPS_RESULT.md), [120장 번호](../../plan/SLIDE_ID_MIGRATION_120.md).
+
+Windows PowerPoint·교육장·실제 제품/계정·리허설은 UNVERIFIED다. 아래 체크 항목을
+완료 처리하지 않았다. 웹/Sites와 예전 ZIP은 이번 판본으로 갱신하지 않는다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `c595f63d852673194aa2dd658cc1086bd66669e263d68646fb3c47b32cd8a36d` |
+| `production/ACT_0.pptx` | `7a3bf60ec29f75b25570137e937610c0e76c85a9dfe360554ade3ad0a06cd41b` |
+| `production/ACT_1.pptx` | `a7e43e64a7ed36a2139633fc1b0dac73750eb64ff7488512522a53caae76e9c6` |
+| `production/ACT_2.pptx` | `39223c7a01dcadd55a5febff87c689f9bdff44debafdaa02bb8b6cbe815ac7dd` |
+| `production/ACT_3.pptx` | `864ce544d7f28cf0791ee40f70a1565918d82486ea74924e4d7f01bac0f381bf` |
+| `production/ACT_4.pptx` | `8f786573ea66ee75a85fa0051ba982885c3bf5639699297c964bb6af2a6f3284` |
+| `production/ACT_5.pptx` | `38ca5acb483ea712bd7250eb0f70369c9fd3ebc493db14da7365693389cc4508` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `26c43bbb02cad047838ad698a8942ff431c3a44d2cff3020ff3b69c72f23f1a7` |
+| `production/preview/full/montage.png` | `9665e389361d25d6d7f16705f92cee78c4b540dc67c29dcb088548a5018bb532` |
+
+## 보존된 이전 전달 기록
+
 현재 하단 표기 DEC-0103: 불필요한 제작·관리 설명을 삭제/Notes로 이동했다. 일반 하단222행을92행으로 축약했고26장은 해당 설명이 없다. M1–M9·본문·수치·117장·412분은 유지한다. [정리 결과](FOOTER_CLEANUP_RESULT.md), [화면](../preview/full/S02.png), [현재 표기](../../plan/FOOTER_CLEANUP.md).
 
 배치 수정 DEC-0102: S15의 crop 설명을 “조사한 범위”로 줄이고15pt·사각형 내부 여백을 확보했다.117장·412분·기존 흐름/근거/Notes는 유지한다. [수정 결과](S15_CROP_CAPTION_LAYOUT_REVISION.md).

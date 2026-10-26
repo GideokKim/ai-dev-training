@@ -10928,3 +10928,81 @@ YES — distinguish the lesson and evidence scope from authoring metadata.
 Validate final Full and six ACT files, render all117slides, inspect the
 shortened evidence labels, check unchanged body/media/metrics and19-field
 Notes, then commit/push normally. Keep external delivery gates unverified.
+
+# DEC-0104 — Add three tips on scoped instructions and actual discovery
+
+## Status
+
+ACCEPTED — explicit user approval of the three-slide proposal after S55.
+
+## Date
+
+2026-10-26
+
+## Context
+
+The user approves practical AGENTS.md guidance after the ACT2 context recap
+and requires an explicit distinction between instruction scope and loading.
+
+## Problem
+
+Root-document routing does not explain nested instruction applicability.
+A folder tree alone can imply that every applicable file is auto-loaded.
+
+## Decision
+
+Insert S56-S58 with Lecture3/3/2minutes. Show personal, root and module
+scope; combine common and specific rules; contrast startup discovery paths
+and ask to verify applicable file paths and contents. Use a hypothetical
+inspection project and documented behavior, not new graypipe Trial history.
+Retain the previous117slides and their budgets/evidence. Shift previous
+S56-S117 by3. Keep the ACT2 workflow handoff as S59 and ACT3 title as S60.
+Add one grouped lookup in S117 while keeping its existing entries/minute.
+Align current maps, Notes, source adapters, previews and file identities.
+
+## Rationale
+
+Separate three learner questions so applicable guidance is not mistaken
+for proof that the running agent received or followed it. Return to the
+repeated-workflow problem without introducing a new maturity stage.
+
+## Alternatives
+
+One dense slide would mix placement, precedence and runtime discovery.
+Nested instructions in the real Demo would require a new state and Trial;
+this is outside the approved educational example and evidence boundary.
+
+## Trade-offs
+
+Reach120slides/420minutes, within the user's720-minute ceiling. ACT2 grows
+from82to90minutes. Keep other ACT budgets,12templates/28variants and the
+19-field Notes schema. The first final index now has nine grouped entries.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-RESEARCH-001.
+
+## Affected Artifacts
+
+Full and six ACT decks, current slide/template maps, curriculum totals,
+Notes, practical-tip lookup, preview paths, fallback identities and handoff.
+Historical factories/configuration stages and evidence records remain.
+
+## Evidence
+
+Explicit user approval and official OpenAI AGENTS.md and Projects guides,
+checked2026-10-26, linked in plan/AGENTS_SCOPE_TIPS.md and each new Note.
+No new product execution, agent configuration, Trial or measured benefit.
+
+## Training Relevance
+
+YES — place durable guidance at its scope and verify actual instructions
+before trusting the result; preserve testing and human responsibility.
+
+## Follow-up
+
+Finalize all seven decks, render every slide, inspect the new sequence and
+lookup, verify retained object/media/evidence and Notes/time alignment,
+then commit and push normally. Keep Windows, room, product-account and
+rehearsal gates unverified. Do not update the Demo repository, Site or bundle.

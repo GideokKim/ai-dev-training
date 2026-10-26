@@ -1,5 +1,13 @@
 # Current presentation source
 
+DEC-0104 /120slides/420minutes. `agents-scope-tips.mjs` applies117→120 after the Copilot boundary, adds S56–S58 and the S117 grouped lookup. Older factories and116-ID JSON remain their input stages. Final audience-footers.json uses120IDs. New tips are marked Context 관리 / 신규 확장. Current native tables S54/S66; charts S70/S97. Full and ACT Notes use current120records.
+
+[Current scope](../../../plan/AGENTS_SCOPE_TIPS.md).
+
+## Previous source history
+
+# Current presentation source
+
 Current footer policy: DEC-0103. Apply `audience-footers.mjs` after
 `addModuleFooter` at final117IDs. `audience-footers.json` is the current
 per-slide source of short footer text. Full original footer scope stays
