@@ -1,5 +1,20 @@
 # Current presentation source
 
+Current: DEC-0101 /117slides/412minutes. Add only S04 after retained S03.
+`copilot-tip.mjs` migrates all116retained factories once after existing
+overlays and before badges/module footers. Source JSON and older factories
+retain their116-ID input stage; do not migrate them again. Existing final
+indexes retain their entries and only their references shift.
+Native table owners are now S54/S63; native chart owners S67/S94.
+Build Full and all ACTs for current IDs. Preserve existing media/design and
+all retained per-slide time/Mode/evidence. No Site or bundle update.
+
+[Current plan](../../../plan/COPILOT_IDE_TIP.md).
+
+## Previous source edition
+
+# Current presentation source
+
 현재 제작판: **DEC-0098 /116장·410분**. Goal 팁 S99/S100과 ACT4→ACT5 연결을 정렬한다. ACT4 S82–S101/20장·85분, ACT5 S102–S116/15장·40분. 기존114장의 배정·근거는 유지하며 제품·실환경·리허설은 미검증이다.
 
 [Goal 적용과 연결 설계](../../../plan/GOAL_TIPS_AND_ACT5_HANDOFF.md).

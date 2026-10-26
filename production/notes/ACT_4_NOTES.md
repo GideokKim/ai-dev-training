@@ -1,5 +1,7 @@
 # ACT 4 — Speaker Notes
 
+> Current: DEC-0101 /117slides/412minutes. ACT0 fifteen slides/45minutes; retained content and per-slide budgets unchanged. Current IDs follow plan/SLIDE_ID_MIGRATION_117.md. Earlier headers retain their historical edition.
+
 > 현재 기준 DEC-0099:116장·410분. S103–S107은 전체 관점의 종합이며 개인 선택은 S111/S112에 둔다. S104의 Demo2분을 Case2분으로 정렬했다. Mode176/49/105/22/26/32분. 아래 이전 안내의 Mode·근거 범위는 당시 기록이다.
 
 Current: DEC-0098. 116장·410분(6시간50분). ACT4 S82–S101은20장·85분, ACT5는 S102–S116의15장·40분이다. ACT 장수14/22/19/26/20/15와 시간43/64/82/96/85/40분. Mode Lecture176/Demo51/Case103/Reflection22/Transition26/Q&A32분이다.
@@ -18,10 +20,10 @@ Windows/room/product-account/timed rehearsal UNVERIFIED.
 
 </details>
 
-## S82 — 목표를 이룰 때까지 수정하고 검토하기
+## S83 — 목표를 이룰 때까지 수정하고 검토하기
 
 **Slide ID:**
-S82
+S83
 
 **Working Title:**
 목표를 이룰 때까지 수정하고 검토하기
@@ -42,7 +44,7 @@ Loop Engineering은 같은 목표의 구현·검토·수정을 피드백으로 �
 다음 수정과 검토까지 작업 시스템이 이어가려면 무엇이 필요할까?
 
 **Speaker Flow:**
-1. (0:00–1:00 / Transition) ACT3의 마지막 질문을 받아 제목과 부제만 안내한다. 목표·완료 기준이 반복을 이끈다는 관점을 예고하고 S83으로 넘긴다.
+1. (0:00–1:00 / Transition) ACT3의 마지막 질문을 받아 제목과 부제만 안내한다. 목표·완료 기준이 반복을 이끈다는 관점을 예고하고 S84으로 넘긴다.
 
 **Evidence / Source:**
 DEC-0097; BEAT-072; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -72,15 +74,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Transition 1분 = 1분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S82; production/preview/act4/S82.png 및 production/preview/full/S82.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S83; production/preview/act4/S83.png 및 production/preview/full/S83.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S83 — 다음 수정도 사람이 매번 이어줘야 할까?
+## S84 — 다음 수정도 사람이 매번 이어줘야 할까?
 
 **Slide ID:**
-S83
+S84
 
 **Working Title:**
 다음 수정도 사람이 매번 이어줘야 할까?
@@ -101,8 +103,8 @@ Lecture 2분 + Case 2분
 작업 방법이 있어도 다음 단계는 매번 사람이 다시 요청해야 할까?
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) S81의 질문을 회수한다. 앞 ACT의 Harness는 수행 방법과 도구를 제공한다. 이 장의 세 요청은 실제 Trial이 아닌 가상 상황이며 같은 목표 안의 연속 단계라고 설명한다.
-2. (2:00–4:00 / Case) ACT3의 세 요청을 다시 나열하지 않고, 사람이 모아 전달하던 검토 의견이 다음 수정의 입력으로 들어가는 두 영역을 짚는다. 목표는 유지하고 남은 문제를 시스템 안에서 넘길 수 있겠다는 질문으로 S84의 완료 기준을 연다.
+1. (0:00–2:00 / Lecture) S82의 질문을 회수한다. 앞 ACT의 Harness는 수행 방법과 도구를 제공한다. 이 장의 세 요청은 실제 Trial이 아닌 가상 상황이며 같은 목표 안의 연속 단계라고 설명한다.
+2. (2:00–4:00 / Case) ACT3의 세 요청을 다시 나열하지 않고, 사람이 모아 전달하던 검토 의견이 다음 수정의 입력으로 들어가는 두 영역을 짚는다. 목표는 유지하고 남은 문제를 시스템 안에서 넘길 수 있겠다는 질문으로 S85의 완료 기준을 연다.
 
 **Evidence / Source:**
 DEC-0097; BEAT-073; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -132,15 +134,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S83; production/preview/act4/S83.png 및 production/preview/full/S83.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S84; production/preview/act4/S84.png 및 production/preview/full/S84.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S84 — 먼저, 무엇이 되면 완료인지 정한다
+## S85 — 먼저, 무엇이 되면 완료인지 정한다
 
 **Slide ID:**
-S84
+S85
 
 **Working Title:**
 먼저, 무엇이 되면 완료인지 정한다
@@ -192,15 +194,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S84; production/preview/act4/S84.png 및 production/preview/full/S84.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S85; production/preview/act4/S85.png 및 production/preview/full/S85.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S85 — 모델 A가 첫 변경 후보를 만든다
+## S86 — 모델 A가 첫 변경 후보를 만든다
 
 **Slide ID:**
-S85
+S86
 
 **Working Title:**
 모델 A가 첫 변경 후보를 만든다
@@ -253,15 +255,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Case 4분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S85; production/preview/act4/S85.png 및 production/preview/full/S85.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S86; production/preview/act4/S86.png 및 production/preview/full/S86.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S86 — 실제 동작과 비용은 도구로 확인한다
+## S87 — 실제 동작과 비용은 도구로 확인한다
 
 **Slide ID:**
-S86
+S87
 
 **Working Title:**
 실제 동작과 비용은 도구로 확인한다
@@ -313,15 +315,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 3분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S86; production/preview/act4/S86.png 및 production/preview/full/S86.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S87; production/preview/act4/S87.png 및 production/preview/full/S87.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S87 — 모델 B는 무엇을 근거로 검토할까?
+## S88 — 모델 B는 무엇을 근거로 검토할까?
 
 **Slide ID:**
-S87
+S88
 
 **Working Title:**
 모델 B는 무엇을 근거로 검토할까?
@@ -374,15 +376,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Case 5분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S87; production/preview/act4/S87.png 및 production/preview/full/S87.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S88; production/preview/act4/S88.png 및 production/preview/full/S88.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S88 — 지적이 다음 수정으로 이어진다
+## S89 — 지적이 다음 수정으로 이어진다
 
 **Slide ID:**
-S88
+S89
 
 **Working Title:**
 지적이 다음 수정으로 이어진다
@@ -435,15 +437,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Case 4분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S88; production/preview/act4/S88.png 및 production/preview/full/S88.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S89; production/preview/act4/S89.png 및 production/preview/full/S89.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S89 — 고쳤다면, 같은 기준으로 다시 본다
+## S90 — 고쳤다면, 같은 기준으로 다시 본다
 
 **Slide ID:**
-S89
+S90
 
 **Working Title:**
 고쳤다면, 같은 기준으로 다시 본다
@@ -496,15 +498,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Case 4분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S89; production/preview/act4/S89.png 및 production/preview/full/S89.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S90; production/preview/act4/S90.png 및 production/preview/full/S90.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S90 — 같은 목표의 구현·검토 루프
+## S91 — 같은 목표의 구현·검토 루프
 
 **Slide ID:**
-S90
+S91
 
 **Working Title:**
 같은 목표의 구현·검토 루프
@@ -556,15 +558,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 3분 + Case 2분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S90; production/preview/act4/S90.png 및 production/preview/full/S90.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S91; production/preview/act4/S91.png 및 production/preview/full/S91.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S91 — 언제 계속하고, 언제 끝낼까?
+## S92 — 언제 계속하고, 언제 끝낼까?
 
 **Slide ID:**
-S91
+S92
 
 **Working Title:**
 언제 계속하고, 언제 끝낼까?
@@ -616,15 +618,15 @@ Reflection: 계속 돌리고 있다는 사실과 목표를 달성했다는 사�
 Lecture 3분 + Reflection 2분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S91; production/preview/act4/S91.png 및 production/preview/full/S91.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S92; production/preview/act4/S92.png 및 production/preview/full/S92.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S92 — 구현한 모델에게 다시 물으면 충분할까?
+## S93 — 구현한 모델에게 다시 물으면 충분할까?
 
 **Slide ID:**
-S92
+S93
 
 **Working Title:**
 구현한 모델에게 다시 물으면 충분할까?
@@ -676,15 +678,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 4분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S92; production/preview/act4/S92.png 및 production/preview/full/S92.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S93; production/preview/act4/S93.png 및 production/preview/full/S93.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S93 — 다른 모델의 관점이 도움이 된 실험
+## S94 — 다른 모델의 관점이 도움이 된 실험
 
 **Slide ID:**
-S93
+S94
 
 **Working Title:**
 다른 모델의 관점이 도움이 된 실험
@@ -736,15 +738,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 3분 + Case 2분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S93; production/preview/act4/S93.png 및 production/preview/full/S93.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S94; production/preview/act4/S94.png 및 production/preview/full/S94.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S94 — 잘 만드는 능력과 잘 검토하는 능력
+## S95 — 잘 만드는 능력과 잘 검토하는 능력
 
 **Slide ID:**
-S94
+S95
 
 **Working Title:**
 잘 만드는 능력과 잘 검토하는 능력
@@ -796,15 +798,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 3분 + Case 1분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S94; production/preview/act4/S94.png 및 production/preview/full/S94.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S95; production/preview/act4/S95.png 및 production/preview/full/S95.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S95 — 구현과 검토에 모델을 어떻게 나눌까?
+## S96 — 구현과 검토에 모델을 어떻게 나눌까?
 
 **Slide ID:**
-S95
+S96
 
 **Working Title:**
 구현과 검토에 모델을 어떻게 나눌까?
@@ -856,15 +858,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S95; production/preview/act4/S95.png 및 production/preview/full/S95.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S96; production/preview/act4/S96.png 및 production/preview/full/S96.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S96 — 검토 모델의 말도 확인해야 한다
+## S97 — 검토 모델의 말도 확인해야 한다
 
 **Slide ID:**
-S96
+S97
 
 **Working Title:**
 검토 모델의 말도 확인해야 한다
@@ -916,15 +918,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S96; production/preview/act4/S96.png 및 production/preview/full/S96.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S97; production/preview/act4/S97.png 및 production/preview/full/S97.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S97 — 반복하려면 무엇을 이어받아야 할까?
+## S98 — 반복하려면 무엇을 이어받아야 할까?
 
 **Slide ID:**
-S97
+S98
 
 **Working Title:**
 반복하려면 무엇을 이어받아야 할까?
@@ -976,15 +978,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S97; production/preview/act4/S97.png 및 production/preview/full/S97.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S98; production/preview/act4/S98.png 및 production/preview/full/S98.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S98 — 확인한 근거와 아직 실행하지 않은 설계
+## S99 — 확인한 근거와 아직 실행하지 않은 설계
 
 **Slide ID:**
-S98
+S99
 
 **Working Title:**
 확인한 근거와 아직 실행하지 않은 설계
@@ -1036,15 +1038,15 @@ N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S98; production/preview/act4/S98.png 및 production/preview/full/S98.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S99; production/preview/act4/S99.png 및 production/preview/full/S99.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S99 — Goal이 목표와 다음 작업을 이어준다
+## S100 — Goal이 목표와 다음 작업을 이어준다
 
 **Slide ID:**
-S99
+S100
 
 **Working Title:**
 Goal이 목표와 다음 작업을 이어준다
@@ -1097,15 +1099,15 @@ N/A — 정적 제품 안내 도식. 명령을 입력하거나 Goal을 활성화
 Lecture2분. 제품 설정 강의나 실제 실행으로 확장하지 않는다. 초과 시 부가 설명을 줄이고 기능/검증의 구분과 다음 전환을 유지한다. 실제 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S99, production/preview/full/S99.png. 설명용 도식이며 원본 제품 캡처로 표현하지 않는다. 실제 발표 PC 재생은 UNVERIFIED.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S100, production/preview/full/S100.png. 설명용 도식이며 원본 제품 캡처로 표현하지 않는다. 실제 발표 PC 재생은 UNVERIFIED.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0098. 문서 근거 확인과 로컬 제작 검토는 별개이며 최종 렌더·Notes 대조 결과는 GOAL_TIPS_AND_ACT5_HANDOFF.md에 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S100 — Goal에는 완료 근거와 멈출 조건을 담는다
+## S101 — Goal에는 완료 근거와 멈출 조건을 담는다
 
 **Slide ID:**
-S100
+S101
 
 **Working Title:**
 Goal에는 완료 근거와 멈출 조건을 담는다
@@ -1152,21 +1154,21 @@ N/A — 정적 제품 안내 도식. 명령을 입력하거나 Goal을 활성화
 필수 응답·실습 없음. 예시에서 완료 근거와 미완료 보고 조건을 눈으로 확인하게 한다.
 
 **Transition:**
-이 기능을 활용하더라도 우리 작업의 목표·검증·검토 판단은 남습니다. S101에서 필요한 루프를 정리한 뒤 ACT5의 조합과 덜어내기로 넘어갑니다.
+이 기능을 활용하더라도 우리 작업의 목표·검증·검토 판단은 남습니다. S102에서 필요한 루프를 정리한 뒤 ACT5의 조합과 덜어내기로 넘어갑니다.
 
 **Time Management:**
 Lecture2분. 제품 설정 강의나 실제 실행으로 확장하지 않는다. 초과 시 부가 설명을 줄이고 기능/검증의 구분과 다음 전환을 유지한다. 실제 리허설 UNVERIFIED.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S100, production/preview/full/S100.png. 설명용 도식이며 원본 제품 캡처로 표현하지 않는다. 실제 발표 PC 재생은 UNVERIFIED.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S101, production/preview/full/S101.png. 설명용 도식이며 원본 제품 캡처로 표현하지 않는다. 실제 발표 PC 재생은 UNVERIFIED.
 
 **Validation Status:**
 CONTENT ALIGNED — DEC-0098. 문서 근거 확인과 로컬 제작 검토는 별개이며 최종 렌더·Notes 대조 결과는 GOAL_TIPS_AND_ACT5_HANDOFF.md에 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S101 — 우리 작업에는 어떤 루프가 필요할까?
+## S102 — 우리 작업에는 어떤 루프가 필요할까?
 
 **Slide ID:**
-S101
+S102
 
 **Working Title:**
 우리 작업에는 어떤 루프가 필요할까?
@@ -1189,7 +1191,7 @@ Goal의 계속 수행 기능을 활용하되 내 업무에 필요한 목표·근
 **Speaker Flow:**
 1. (0:00–2:00 / Reflection) Goal이 맡는 계속 수행과, 내 업무에서 여전히 정할 목표·검증·검토를 구분해 생각하게 한다. 기존 목표·피드백·운영의 세 질문을 한 번씩 가리킨다.
 2. (2:00–9:00 / Q&A) 질문을 받는다. 무질문이면 두 모델의 동의와 테스트 실패가 충돌할 때의 판단 또는 Goal이 완료를 보고했지만 측정이 빠진 상황을 묻는다. 새 기능 실행이나 정답 발표는 요구하지 않는다.
-3. (9:00–11:00 / Transition) 플랫폼 기능을 활용하되 필요한 기준과 검토를 조합한다는 문장으로 회수한다. S102의 ACT5 제목을 거쳐 S103의 대응 선택으로 넘긴다.
+3. (9:00–11:00 / Transition) 플랫폼 기능을 활용하되 필요한 기준과 검토를 조합한다는 문장으로 회수한다. S103의 ACT5 제목을 거쳐 S104의 대응 선택으로 넘긴다.
 
 **Evidence / Source:**
 DEC-0097; BEAT-083; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -1213,13 +1215,13 @@ N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 G
 Reflection2분→Q&A7분→Transition2분. 무질문이면 “Goal은 완료라고 했는데 측정 근거가 없다면?”을 사용한다. 9분에 전환으로 들어가고 11분에 마친다.
 
 **Transition:**
-Goal의 계속 수행을 활용해도 검증과 역할을 모두 직접 구현할 필요는 없습니다. S102의 ACT5 제목을 거쳐 S103에서 필요한 대응의 조합을 생각합니다.
+Goal의 계속 수행을 활용해도 검증과 역할을 모두 직접 구현할 필요는 없습니다. S103의 ACT5 제목을 거쳐 S104에서 필요한 대응의 조합을 생각합니다.
 
 **Time Management:**
 Reflection 2분 + Q&A 7분 + Transition 2분 = 11분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S101; production/preview/act4/S101.png 및 production/preview/full/S101.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S102; production/preview/act4/S102.png 및 production/preview/full/S102.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.

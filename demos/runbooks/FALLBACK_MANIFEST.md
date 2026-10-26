@@ -1,5 +1,70 @@
 # Static Fallback Manifest
 
+Current: DEC-0101 /117slides/412minutes. READY — LOCAL STATIC FILES ONLY.
+Existing44reference roles/evidence remain unchanged; IDs/paths/hashes migrate by1 after S03.
+The new S04 is a reconstructed Copilot IDE tip, excluded from this Demo inventory.
+Company-account use, Windows, room and timed rehearsal UNVERIFIED. No Live approval.
+
+## Current source identities
+
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`98bf36d31cff58a9f801a522d91320489ddf434fa997f9419cd3d47db4d27b8b`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`3178114a501895194224522d1de353abc82054d754de05f8c6129fdb04bc66ec`.
+- `production/preview/full/montage.png` SHA-256:`a6aac5452d2331143ef2669d926e7ec48009d55546404aa439bc30b6ffa4d649`.
+
+[Current addition validation](../../production/evaluation/COPILOT_IDE_TIP.md).
+
+| Slide | Classification | Path | Dimensions | SHA-256 |
+|---|---|---|---|---|
+| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` |1920×1080| `707163c295e6df5e70fc0c31568e60f8682847d32769c1afd7b79adedc556a8b` |
+| S07 | RETAINED_DEMO_STATIC | `production/preview/full/S07.png` |1920×1080| `c8aae0849016f42da569675ccee39d9266e88ec50cf03bc3f8b5cfa711b525ae` |
+| S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` |1920×1080| `c4e2d169d770eb4bedb98f315d96bae212f0cda3c6d6c176bff2381832861f1e` |
+| S09 | RETAINED_DEMO_STATIC | `production/preview/full/S09.png` |1920×1080| `2d3caa9a81a478911fb10e39937daaf00b20f58b3e5bb0a767a4f2c16dc434f6` |
+| S10 | RETAINED_DEMO_STATIC | `production/preview/full/S10.png` |1920×1080| `5a8afd5a6f7321e6a5cd5ab71e24848539f6bb91d0faf9c2a6cd1c08954bfa09` |
+| S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` |1920×1080| `51f496284f82d7edd750c128b3945da7d12b4b9a7c727ad11b0024c3552da4c4` |
+| S25 | RETAINED_DEMO_STATIC | `production/preview/full/S25.png` |1920×1080| `a43009cc511d8fcf20a463d9c8b847566c55a759fb984cbd27d7bdae0d1ff7f1` |
+| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` |1920×1080| `3abf796bc822e3a853c7cb29c0dda5bc884fbcac39cd1867b337ace30e68527e` |
+| S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` |1920×1080| `1a3bd4b144424cfcf1b01856b5d712ee0ed4bb9613e2143c86bb7adfcf83827b` |
+| S41 | RETAINED_DEMO_STATIC | `production/preview/full/S41.png` |1920×1080| `02f15c7cdd8fd7edd89c0fd68224300ee57c406eff36c2afe52b3461a2a37b05` |
+| S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` |1920×1080| `0122e65df912305749da59e8de8a11728c6a5fabaf0c7540e6463c255fc11a13` |
+| S50 | RETAINED_DEMO_STATIC | `production/preview/full/S50.png` |1920×1080| `c28d646f35086818c9475954727d1aee19a37245db52ee0042a5ce697ce9cf52` |
+| S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` |1920×1080| `6a9916b8afc5396c5706be0ba9fc936b47ab9004d88f82042bf702cd6b96f49a` |
+| S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` |1920×1080| `abd4a1d1c8fc5f27cb5a7a4c1fa6c5d47afaaa8481de02aa0d0390caccdf3646` |
+| S54 | RETAINED_DEMO_STATIC | `production/preview/full/S54.png` |1920×1080| `3685697548963dcae8921e0dfd520c268f0f70b3c2e7dd76ecc448b49e20c4ae` |
+| S62 | RETAINED_DEMO_STATIC | `production/preview/full/S62.png` |1920×1080| `7e133e037ff067b7415d37da7b58a4345c1956dceebc9427a5c9d15543e760ba` |
+| S63 | RETAINED_DEMO_STATIC | `production/preview/full/S63.png` |1920×1080| `36b2164e0d85e87956714726fcfedfcd0febf2a7c180e0cf2a7f5da82aa2e955` |
+| S68 | RETAINED_DEMO_STATIC | `production/preview/full/S68.png` |1920×1080| `5473ade0708551ef9716015cc82bcda70cf90b8c59ca023e44c44796aaaae963` |
+| S70 | RETAINED_DEMO_STATIC | `production/preview/full/S70.png` |1920×1080| `bc6245ffe682040cabc9d4743d1d80ebffbe09f670ec42f34b2436aad74618c2` |
+| S71 | RETAINED_DEMO_STATIC | `production/preview/full/S71.png` |1920×1080| `3b67035337c12afa6f0975c5ebee07ecc756306e0391ead53ac39bbc3cd48fec` |
+| S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` |1920×1080| `c0d66a813e6818833c48380efc3d76d1ee78abc23df01987bfa24894be6c5900` |
+| S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` |1920×1080| `45fc6093664a5534cf18d103903e1fa7b26138ab8379286792ee0257c98bc906` |
+| S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` |1920×1080| `6311e19167c31ad0759a78827cdcd3a3856343216c2d11903fbd7eb9a200d955` |
+| S84 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S84.png` |1920×1080| `eceebd46862409542fd32045bfdbe743a407c8791fd38e4670331ac925ce6550` |
+| S85 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S85.png` |1920×1080| `9e378be9568f67cd882ffa3cf265a2eff2cc4104c6ec9e3046769283ceb3d35d` |
+| S86 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S86.png` |1920×1080| `eba809a212f96385035488e67632a536d6657e75450673239cd58961a229c96f` |
+| S87 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S87.png` |1920×1080| `756be5f3cb3a2431977be376b36fad38380ea05d44a8045414b551eb26c9adac` |
+| S88 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S88.png` |1920×1080| `3f50296778b79ef394539fa048af1740e757a4f1cd830e871c8b8541b5c03f11` |
+| S89 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S89.png` |1920×1080| `fde144c8fee89f172c390881c757601c7972e0b8396f60cac214d3befac1e3f2` |
+| S90 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S90.png` |1920×1080| `541d94527776bf8bd64d41f9263fd3a0234a75a2507ef6147e3ed6c4c6b1a279` |
+| S91 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S91.png` |1920×1080| `e02bc1551f033b3a9ef6e705ba5a6c3f69511e958b9c848bb77d2d061ff13709` |
+| S92 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S92.png` |1920×1080| `ab565e675b65fd3a6ab9224cb235e12888a569e03ffdd191c07f78a127b4d1fd` |
+| S93 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S93.png` |1920×1080| `d3c3bf12b5a930380c22cacda510b6bac4bf85a229e8b7ec737bd78fcb55c2b7` |
+| S94 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S94.png` |1920×1080| `88a78782b8090e16d592c967adad1b78475869323f714a65e74af1a07e4475d1` |
+| S95 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S95.png` |1920×1080| `116937c1791beeb2073d0cec3fd39ed7ad7c2c544dd397d00adc8f4c806c7d0b` |
+| S96 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S96.png` |1920×1080| `791745d787794913e94a07f4584ff8349c62284f47a9d298a7dc56fc298928c3` |
+| S97 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S97.png` |1920×1080| `e61aac57d84ee32f2eeee31bf6500e6315a426e8d07135ac6b55db9a219930a7` |
+| S98 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S98.png` |1920×1080| `93a2e20383a10416220ffa8a7081742fb760c0a205ad3b2c1903e5e9bd306291` |
+| S99 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S99.png` |1920×1080| `fd1068b967899ffdf9be52970f4041eb0fc7f0843260f67b5e0d52d2146ed155` |
+| S102 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S102.png` |1920×1080| `6f2dc7a5ab0f432caab27607f004558f6aea92ac808ec12b536101cb2f1652e3` |
+| S100 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S100.png` |1920×1080| `2f850f988bfe33ad7c561b6238ecb58faccb85093faac0584e71f555944c5a52` |
+| S101 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S101.png` |1920×1080| `849b00e9548c034c8fee7f6cb623785b06afee8df514bfea9edeb97ea86d451c` |
+| S104 | TEACHING_SYNTHESIS | `production/preview/full/S104.png` |1920×1080| `d569aa8c865dd70bfa528e126f77c0212b5384fe45abcae9b7071efc4e40007e` |
+| S105 | TEACHING_SYNTHESIS | `production/preview/full/S105.png` |1920×1080| `d978fd48ebb2a3eeb386542ad577d54bd5a60b700cba8dae6745a075658972c9` |
+
+<details>
+<summary>Previous manifest editions — historical paths and hashes</summary>
+
+# Static Fallback Manifest
+
 Current: DEC-0099 /116slides/410minutes. READY — LOCAL STATIC FILES ONLY.
 Windows/product/account/room/timed rehearsal remain UNVERIFIED. No Live approval.
 
@@ -497,5 +562,7 @@ minutes, Trial, actual integration result or live approval. [Current result](../
 
 </details>
 
+
+</details>
 
 </details>

@@ -1,5 +1,34 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+현재 DEC-0101 /117장·412분. 기존 S03 뒤에 Copilot IDE 활용 팁 S04만 Lecture2분 추가했다.
+기존116장의 내용·디자인·배정·근거는 유지하고 이전 S04–S116의 번호/현재 참조만 +1이다.
+이전 S04(현재 S05)와 이전 S12(현재 S13)도 변경하지 않았다.
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT0](../ACT_0.pptx),
+[새 팁](../preview/full/S04.png), [Notes](../notes/FULL_SPEAKER_NOTES.md),
+[검토 기록](COPILOT_IDE_TIP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_117.md).
+
+Copilot 화면은 교육용 재구성이고 실제 회사 화면·응답·실행 성과가 아니다.
+Windows·교육장·회사 계정·실측 리허설은 UNVERIFIED다. 웹은 이전116장 판본으로 유지한다.
+발표 묶음과 Demo 저장소는 갱신하지 않았다.
+
+## 현재 파일 식별
+
+| 파일 | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `98bf36d31cff58a9f801a522d91320489ddf434fa997f9419cd3d47db4d27b8b` |
+| `production/ACT_0.pptx` | `7f425e87359aba38d5ba2f126df6ce7f514759168daaf87009a55d8730f526dc` |
+| `production/ACT_1.pptx` | `e03e6ecffd5a9591eba81c97b55a0628cd171b2410bf0cfa96a8a167e1bcc53a` |
+| `production/ACT_2.pptx` | `b372341c4e351f5652bc5fefcc902cc9d1df651a8fbf934e8fe17f0d8f82f2ba` |
+| `production/ACT_3.pptx` | `ee0617af53aefc520171a681b682bfc5c605b6402350177877bdd6e4d90f7504` |
+| `production/ACT_4.pptx` | `b860718251cae413e9db73dbd3a51dea82c3d64a210c6b8f335a812862a1e719` |
+| `production/ACT_5.pptx` | `82d83d718a7e29a48370202a2a893811d3027aaa3a97bb012d0c668441cc95f0` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `3178114a501895194224522d1de353abc82054d754de05f8c6129fdb04bc66ec` |
+| `production/preview/full/montage.png` | `a6aac5452d2331143ef2669d926e7ec48009d55546404aa439bc30b6ffa4d649` |
+
+## 이전 전달 안내 — 당시 판본 보존
+
+# 최종 전달 안내 — AI 개발자 교육
+
 현재 기준: **DEC-0099 /116장·410분**. ACT5 S103–S107은 Demo 이력에 의존하지 않는
 전체 관점의 종합이다. 개인 문제 선택·다음 행동은 S111/S112에 남긴다.
 S104의 VISUAL Demo2분을 Case2분으로 정렬했다.

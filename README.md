@@ -1,5 +1,11 @@
 # AI 개발자 교육
 
+현재 PPT: **DEC-0101 /117장·412분**. S03 뒤에 VS Code + GitHub Copilot 활용 팁
+S04 한 장을 추가했다. 기존116장의 내용·디자인·장별 배정·근거는 유지하고 번호/참조만 정렬했다.
+[최신 PPT](production/AI_Dev_Training_Full.pptx) · [새 팁](production/preview/full/S04.png) ·
+[추가 결과](production/evaluation/COPILOT_IDE_TIP.md).
+웹은 이전116장 판본으로 유지한다. 아래 이전 제작판 안내는 당시 이력이다.
+
 [ACT별 웹 읽기 가이드](https://ai-dev-training-guide.noah-potato.chatgpt.site) — 비공개 Sites. 확정 PPT116장과 내장 Notes를
 6ACT·52개 절로 풀어 쓴 자료이며 새 교육 내용이나 성과를 추가하지 않는다.
 [웹 관리 기준](plan/WEB_READING_GUIDE.md) · [최신 통합 PPT](production/AI_Dev_Training_Full.pptx).

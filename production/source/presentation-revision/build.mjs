@@ -15,6 +15,7 @@ import {act4LoopControlFactories} from './act4-loop-control.mjs';
 import {goalLoopFactories} from './act4-goal-loop.mjs';
 import {goalTipFactories} from './goal-tips.mjs';
 import {act5SynthesisFactories} from './act5-synthesis.mjs';
+import {CURRENT_SLIDE_COUNT,afterCopilotTip,migrate116Factories,copilotTipFactory} from './copilot-tip.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
@@ -37,7 +38,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d{2,3}) — ([\s\S]*?)(?=^#### S\d{2,3}|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==116)throw new Error('Expected 116 source records.');
+if(Object.keys(map).length!==CURRENT_SLIDE_COUNT)throw new Error('Expected 117 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -81,10 +82,16 @@ Object.assign(factories,act4LoopControlFactories({...factories}));
 const goalLoop=goalTipFactories(goalLoopFactories({...factories}));
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,goalLoop,act5SynthesisFactories(),practicalTipIndexFactories(tipConfig,H),actTitleFactories(titleConfig,H));
-const tipRecords=Object.fromEntries(tipConfig.tips.map(t=>[t.slideId,t]));
+// Preserve the retained116-ID source stages and migrate once at the boundary.
+const withCopilot=migrate116Factories({...factories});
+for(const id of Object.keys(factories))delete factories[id];
+Object.assign(factories,withCopilot,{S04:p=>copilotTipFactory(p,H)});
+const tipRecords=Object.fromEntries(tipConfig.tips.map(t=>[afterCopilotTip(t.slideId),t]));
+tipRecords.S04={category:'사용 환경'};
 const moduleMap=JSON.parse(await fs.readFile(path.join(here,'legacy-module-map.json'),'utf8'));
 if(moduleMap.slides.length!==116)throw new Error('Expected 116 legacy module mappings.');
-const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[r.slideId,r]));
+const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[afterCopilotTip(r.slideId),{...r,slideId:afterCopilotTip(r.slideId)}]));
+moduleRecords.S04={slideId:'S04',footerLabel:'M 연계 · 신규 확장',modules:[],scope:'new_extension'};
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -117,8 +124,8 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>['S66','S93'].includes(id)?i+1:0).filter(Boolean);
-  const tableOwners=deck.ids.map((id,i)=>['S53','S62'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>['S67','S94'].includes(id)?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>['S54','S63'].includes(id)?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,

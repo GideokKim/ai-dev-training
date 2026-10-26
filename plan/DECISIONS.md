@@ -10699,3 +10699,79 @@ YES — distinguish a teaching content source from derived presentation media.
 Use the same Site identity, recheck affected content against the current PPT,
 and preserve evidence boundaries on updates. Keep real presentation gates
 unverified. Commit/push normal project records without a presenter bundle.
+
+
+# DEC-0101 — Add one Copilot IDE tip after S03
+
+## Status
+
+ACCEPTED — explicit user approval, limited to one added slide.
+
+## Date
+
+2026-10-26
+
+## Context
+
+The user wants a practical tip for the company-used GitHub Copilot and
+VS Code combination, immediately after the small C++ initialization question.
+
+## Problem
+
+Show a concrete starting action in the familiar IDE without rewriting the
+existing context problem or Codex entry guidance.
+
+## Decision
+
+Add one T03-C slide after S03 with Lecture2minutes. Reuse the two vector
+initialization lines, explicitly attach selected code to Copilot Chat,
+request an explanation with Ask, and check the answer. Label the editor/chat
+UI as an instructional reconstruction; show no fabricated observed reply.
+Keep all116retained slide contents/designs/budgets/evidence unchanged.
+Shift previous S04-S116 to S05-S117 and align IDs/Notes/current references.
+Do not revise the old S04 or S12 wording. Do not add entries to the existing
+final tip-index screens. Leave the published Site and presenter bundle alone.
+
+## Rationale
+
+Connect the familiar small-code question to an immediately usable company
+IDE action while preserving the user's approved lesson and limited scope.
+
+## Alternatives
+
+Revise the context slide or qualify the existing Codex title. The user
+explicitly excludes both changes. Add a larger Copilot tutorial; this would
+interrupt the context-collection story and exceed the requested scope.
+
+## Trade-offs
+
+Add one slide and2Lecture minutes, reaching117slides/412minutes. Preserve
+the final indexes as requested rather than adding another visible entry.
+The published reading Site remains at its previous PPT source edition.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-IDENTITY-001, INV-VERIFY-001.
+
+## Affected Artifacts
+
+New S04 source/Notes, Full/ACT decks, current slide/template maps,
+number references, previews and course totals. Existing trial evidence,
+Demo Repository, source images and historical records remain untouched.
+
+## Evidence
+
+Explicit user instruction. GitHub and VS Code official guidance checked
+2026-10-26 and linked in the new Notes and plan/COPILOT_IDE_TIP.md.
+No new product execution, response, comparison or measured improvement.
+
+## Training Relevance
+
+YES — select relevant code, supply context and inspect the answer in the IDE.
+
+## Follow-up
+
+Render the new slide and exact final decks, compare all retained slides
+with a reference-only ID migration, validate117Notes/412minutes, then
+commit/push normally under the standing user instruction. Keep company
+account, Windows, room and rehearsal unverified. Do not update Sites here.
