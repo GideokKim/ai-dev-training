@@ -21,6 +21,7 @@ import {applyAudienceFooter} from './audience-footers.mjs';
 import {applyAct0Terminology} from './act0-terminology.mjs';
 import {afterAct0Removal,beforeAct0Removal,applyCurrent119} from './act0-handoff-119.mjs';
 import {CURRENT_SLIDE_COUNT,afterVerificationSplit,beforeVerificationSplit,applyCurrent121,verificationRequestFactories} from './verification-request-121.mjs';
+import {contextHandoffFactories} from './act1-context-handoff.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
@@ -118,7 +119,7 @@ const factories121=Object.fromEntries(Object.entries(factories)
  .filter(([id])=>id!=='S26')
  .map(([id,factory])=>[afterVerificationSplit(id),factory]));
 for(const id of Object.keys(factories))delete factories[id];
-Object.assign(factories,factories121,verificationRequestFactories(H));
+Object.assign(factories,factories121,verificationRequestFactories(H),contextHandoffFactories(H));
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -140,12 +141,12 @@ const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const id of deck.ids){
-  const isVerification=['S26','S27','S28'].includes(id);
+  const isCurrentSource=['S26','S27','S28','S37','S38'].includes(id);
   const id119=beforeVerificationSplit(id);
-  const id120=isVerification?null:beforeAct0Removal(id119);
+  const id120=isCurrentSource?null:beforeAct0Removal(id119);
   const before=p.slides.items.length;const s=factories[id](p,H);
   if(p.slides.items.length!==before+1)throw new Error('Each factory must add exactly one slide: '+id);
-  if(!isVerification){
+  if(!isCurrentSource){
    if(tipRecords[id120])addPracticalTipBadge(s,tipRecords[id120].category,H);
    addModuleFooter(s,id120,moduleRecords[id120],H);
    applyAudienceFooter(s,id120,audienceFooters,H);

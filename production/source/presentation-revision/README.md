@@ -1,5 +1,7 @@
 # Current presentation source
 
+DEC-0113: `act1-context-handoff.mjs` replaces only current121-ID S37/S38 after the retained numbering layers. Both use the same `HANDOFF_REQUEST`, current footers and19-field Notes. S36 changes only its transition Notes;121slides/417minutes and all per-slide budgets remain.
+
 Current: DEC-0112 /121slides/417minutes. `verification-request-121.mjs` replaces former119-ID S26 with three native slides and applies one119-to121 display boundary. Retained factories/JSON/assets keep their documented input editions. Apply120-ID footers,119-ID deletion, then121-ID migration. New S26/S27/S28 provide their own current footers and19-field Notes. Tables S55/S67; charts S71/S98.
 
 DEC-0111: current S21 uses actual TRIAL-002 excerpts in historical `legacy-priority.mjs` factory S16. Keep four source headings and five external annotations; Context reads the Process investigation target. Current S22 uses retained `act01.mjs` factory S17 and the same Process01-03. Source audience footers use120IDs S22/S23; the final adapter produces119IDs. Preserve all native evidence owners and current Notes.

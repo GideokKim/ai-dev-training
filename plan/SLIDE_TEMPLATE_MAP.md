@@ -1,5 +1,17 @@
 # STEP 08 — Slide-to-Template Mapping
 
+## 현재 ACT1→ACT2 연결 — DEC-0113 (2026-10-27)
+
+121장·417분과 모든 장별 시간/Mode/ID를 유지한다. S36의 피드백 팁 뒤 S37은
+교육용 crop 요청3문장에서 다음에도 반복할 내용을 생각하고, S38은 같은 문장을
+이번 목표와 프로젝트에서 계속 적용하기로 한 기준으로 나눈다. 빈 분류 영역과
+화면의 README/의존성 예시는 사용하지 않는다. 실제 TRIAL-002 원문·추가 실행·성과가
+아니며 공통 기준의 범위는 프로젝트의 합의와 조건을 확인한다. 저장 방법은 미리 답하지
+않고 S39 제목→S40의 서로 다른3작업에 같은 설명이 반복되는 장면으로 이어간다.
+S37 Reflection1+Q&A2=3분, S38 Reflection1+Transition3+Q&A2=6분이다.
+ACT1 24장·64분, 전체 Mode와 근거 범위는 그대로다. [현재 연결](ACT1_CONTEXT_HANDOFF.md),
+[현행 Map](SLIDE_MAP.md)을 따른다. 아래 이전 번호·설계·검증 기록은 당시 이력이다.
+
 ## 현재 제작 기준 — DEC-0112 (2026-10-27)
 
 현재 **121장·417분(6시간57분)**. 이전 S26을 S26–S28의3장으로 나눈다.
@@ -74,8 +86,8 @@ Native 표는 S55/S67, 차트는 S71/S98, 마지막 팁 찾아보기는 S118–S
 | S34 — 큰 작업을 검토할 결과물로 나누기 | T03-A | CMP-PRACTICAL-TIP | CMP-CLAIM | C+T; documented recommendation has a cited conceptual prompt | Static teaching request; no Trial or live slot; Lecture 1 min | Single state | — | V02, V05, V10 |
 | S35 — 기준을 지정한 코드 리뷰 요청 | T03-A | CMP-PRACTICAL-TIP | CMP-CLAIM | C+T; documented recommendation has a cited conceptual prompt | Static teaching request; no Trial or live slot; Lecture 1 min | Single state | — | V02, V05, V10 |
 | S36 — 구체적인 근거로 수정 방향 피드백 | T03-A | CMP-PRACTICAL-TIP | CMP-CLAIM | C+T; documented recommendation has a cited conceptual prompt | Static teaching request; no Trial or live slot; Lecture 1 min | Single state | — | V02, V05, V10 |
-| S37 — 이번 Task인가, 계속 유지할 Project 정보인가? | T01-B | — | — | T | — | Single state | — | V09 |
-| S38 — 반복하는 설명을 두 범주로 나누기 | T04-A | — | — | C+T | — | Single state | — | V10 |
+| S37 — 다음 작업에도 이 내용을 다시 적어야 할까? | T01-B | — | — | T; three-line teaching request, not Trial input | Reflection1 + Q&A2; one question over the same three neutral request lines | Single state; no answer highlighted | — | V02, V09, V10 |
+| S38 — 작업마다 바뀌는 목표, 계속 쓰는 기준 | T04-A | — | — | C+T; shared criteria require project agreement | Same request; one task goal vs two shared-criteria lines; Reflection1 + Transition3 + Q&A2 | Single state; thin bracket; mechanism deferred to ACT2 | — | V02, V05, V10 |
 | S39 — 필요한 정보를 찾아 쓰게 하기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
 | S40 — 다른 Task에 같은 설명이 반복된다 | T02-B | — | CMP-WORKFLOW | T | DEMO-02 problem framing; no result yet | Single state | — | V09 |
 | S41 — 작은 Project Context의 첫 기록 | T07-C | CMP-STATE, CMP-EVIDENCE | CMP-TRIAL | P | DEMO-02 EVIDENCE/state; HYBRID, 4 min | Single state | — | V03, V05 |

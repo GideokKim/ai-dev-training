@@ -11598,3 +11598,75 @@ completion conditions without turning the section into a testing course.
 Render final Full/ACT decks and inspect the three slides and transitions.
 Verify Notes, ID references and budgets before a normal origin/main push.
 Keep Windows, product/account, room and timed rehearsal unverified.
+
+# DEC-0113 — Use one crop request for the ACT1-to-ACT2 handoff
+
+## Status
+
+ACCEPTED — explicit user approval of the two-slide revision proposal.
+
+## Date
+
+2026-10-27
+
+## Context
+
+The user finds S37-S38 hard to follow and approves using one familiar
+crop request to connect request writing to recurring project information.
+
+## Problem
+
+An empty categorization screen gives little concrete material to inspect.
+The following slide repeats its categories and adds unrelated examples.
+
+## Decision
+
+Use the same three-line teaching request on S37 and S38. First ask which
+sentences would recur without highlighting an answer. Then separate the
+current crop goal from API/test criteria agreed for the project. Defer
+storage mechanisms to ACT2. Keep S39 and S40 unchanged. Align the S36
+transition Notes without changing its screen. Preserve121slides,
+417minutes and every slide's time and Mode.
+
+## Rationale
+
+Give the audience a concrete object to inspect, then reveal the scope
+comparison through the same words. Let S40 expand recurrence across
+three tasks instead of duplicating that scene in the handoff.
+
+## Alternatives
+
+Keep empty buckets; this needs more presenter explanation. Add more
+slides; the two existing roles suffice. Reveal AGENTS.md here; this
+would answer the next ACT before presenting its problem.
+
+## Trade-offs
+
+Remove the on-screen README/dependency examples while preserving their
+bounded optional context in Notes. A repeated criterion still requires
+project agreement before becoming a shared instruction.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S37/S38 source and visuals, S36-S38 Map and Notes, relevant current plans,
+Full/ACT1 PPTX, previews and delivery identities. Other slides and the
+Demo repository, Site and presenter bundle remain unchanged.
+
+## Evidence
+
+User approval; existing crop, API-preservation and test-entry teaching
+material. No actual Trial input, new execution, result or causal claim.
+
+## Training Relevance
+
+YES — distinguish a task goal from criteria that persist by agreement.
+
+## Follow-up
+
+Render and inspect the final pair and S36-to-S40 sequence. Compare
+retained slides, Notes and budgets, then push normally to origin/main.
+Keep Windows, product/account, room and timed rehearsal unverified.

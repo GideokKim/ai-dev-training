@@ -1,5 +1,17 @@
 # Official Slide Map
 
+## 현재 ACT1→ACT2 연결 — DEC-0113 (2026-10-27)
+
+121장·417분과 모든 장별 시간/Mode/ID를 유지한다. S36의 피드백 팁 뒤 S37은
+교육용 crop 요청3문장에서 다음에도 반복할 내용을 생각하고, S38은 같은 문장을
+이번 목표와 프로젝트에서 계속 적용하기로 한 기준으로 나눈다. 빈 분류 영역과
+화면의 README/의존성 예시는 사용하지 않는다. 실제 TRIAL-002 원문·추가 실행·성과가
+아니며 공통 기준의 범위는 프로젝트의 합의와 조건을 확인한다. 저장 방법은 미리 답하지
+않고 S39 제목→S40의 서로 다른3작업에 같은 설명이 반복되는 장면으로 이어간다.
+S37 Reflection1+Q&A2=3분, S38 Reflection1+Transition3+Q&A2=6분이다.
+ACT1 24장·64분, 전체 Mode와 근거 범위는 그대로다. [현재 연결](ACT1_CONTEXT_HANDOFF.md),
+[현행 Map](SLIDE_MAP.md)을 따른다. 아래 이전 번호·설계·검증 기록은 당시 이력이다.
+
 ## 현재 제작 기준 — DEC-0112 (2026-10-27)
 
 현재 **121장·417분(6시간57분)**. 이전 S26을 S26–S28의3장으로 나눈다.
@@ -939,62 +951,62 @@ Native 표는 S55/S67, 차트는 S71/S98, 마지막 팁 찾아보기는 S118–S
 - **Advanced Payoff:** 앞선 제안은 가상 예시입니다. 원하는 답만 반복시키지 말고 명세와 실제 근거로 방향을 고칩니다.
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
 - **Speaker Intent:** 핵심과 요청 두세 행만 짚는다. 전문 낭독·실습·예시 실행은 하지 않는다. 필요한 기법만 선택하는 문장 도구다.
-- **Transition:** “이 조건 중 다음 작업에도 다시 적게 될 것은 무엇일까요?”라고 S37–S38의 반복 Project Context 질문으로 연결한다.
+- **Transition:** “요청을 구체화해도 다음 작업에 다시 적게 될 문장이 있습니다. 같은 crop 요청에서 찾아볼까요?”라고 S37로 연결한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0039, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
+- **Evidence / Decision References:** CLM-0039, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087, DEC-0113
 - **Practical Tip Classification:** 요청 작성
 - **Audience Footer:** 명세와 실제 근거로 피드백한다
 
-#### S37 — 이번 Task인가, 계속 유지할 Project 정보인가?
+#### S37 — 다음 작업에도 이 내용을 다시 적어야 할까?
 
 - **Slide ID:** S37
 - **ACT:** ACT 1
 - **Section:** 1G 첫 장
-- **Working Title:** 이번 Task인가, 계속 유지할 Project 정보인가?
-- **Primary Role:** Task-specific 정보와 Project-persistent 정보의 구분을 시작한다.
-- **Audience Question:** “잘 쓴 요청의 테스트 명령과 보존 조건을, 다음 작업에도 다시 적어야 할까?”
-- **Core Message:** 두 종류의 정보를 구분할 필요가 있음을 먼저 인식한다.
+- **Working Title:** 다음 작업에도 이 내용을 다시 적어야 할까?
+- **Primary Role:** 구체적인 crop 요청을 읽고 다음 작업에도 반복할 내용을 생각한다.
+- **Audience Question:** “작업이 바뀌어도 다시 말하게 될 문장은 무엇일까요?”
+- **Core Message:** 잘 작성한 요청에도 이번 목표와 여러 작업에서 다시 참고할 기준이 함께 들어갈 수 있다. 먼저 반복할 내용을 생각하고 다음 장에서 범위를 구분한다.
 - **Story Beat:** BEAT-007 → BEAT-008 handoff
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.; ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; CONCEPTUAL. 정답이나 제품 기능의 증거로 제시하지 않는다.
-- **Visual Concept:** 비어 있는 두 Bucket: `THIS TASK`, `THIS PROJECT`.
-- **Demo / Case Connection:** 청중의 업무를 떠올리는 짧은 Reflection과 자발적 Discussion. 정답 분류를 먼저 보여주지 않는다.
-- **Beginner Payoff:** Task 요청과 계속 유지할 규칙이 다를 수 있음을 생각한다.
-- **Advanced Payoff:** 반복 정보를 어디에 두고 어떻게 관리할지 다음 ACT의 문제로 인식한다.
+- **Claim Status:** TEACHING MODEL — 교육용 요청·Reflection 질문이다. 실제 TRIAL-002 입력·수행·비교·제품 기능·성과·유일한 정답 분류의 근거가 아니다.
+- **Visual Concept:** 기존 T01-B의 큰 질문과 보조 단서3개를 하나의 prompt-shaped 요청 예시로 묶는다. 요청은 “crop 경계 오류를 고쳐줘. / 기존 공개 API는 유지해. / 프로젝트에 정해진 테스트 명령으로 확인해.”다. 세 문장은 같은 색이며 정답을 미리 강조하지 않는다. 빈 두 Bucket을 없애고 하단 질문 하나에 시선을 모은다. Native text/shape와 기존 M2 footer 유지.
+- **Demo / Case Connection:** 같은 crop 사례의 교육용 짧은 요청이다. 실제 TRIAL-002 원문을 재생하거나 새 실험을 하지 않는다. Reflection1분 뒤 자발적 Q&A2분.
+- **Beginner Payoff:** 구체적인 요청 문장에서 다음에도 다시 말할 내용을 찾는다.
+- **Advanced Payoff:** 반복되는 문장을 저장 방법의 답보다 먼저 검토한다. 반복 자체가 전역 지침의 정당성은 아니다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 요청을 구체화했지만 같은 테스트 명령·보존 조건을 다음 작업에도 다시 쓰는 마찰을 회수한다. 두 빈 영역은 Task/Project의 수명·범위를 생각할 질문으로 유지하며 정답이나 저장 메커니즘을 미리 제시하지 않는다.
-- **Transition:** “방금 떠올린 반복 문장을 이번 Task 정보와 계속 참고할 Project 정보의 후보로 나눠 보겠습니다.”라고 S38으로 이동한다.
+- **Speaker Intent:** S36의 피드백 팁 뒤 같은 crop 요청을 돌아본다. 질문을 이해할 대상3문장만 제공하고 범주별 색이나 답을 먼저 주지 않는다. 작성·공개 답변을 요구하지 않고 질문이 없어도3분에 같은 요청을 분리하는 S38로 이동한다.
+- **Transition:** “방금 본 같은 요청에서 이번 목표와 계속 쓰기로 한 기준을 나눠 보겠습니다.”라고 S38로 이동한다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Reflection 1분 + Q&A 2분 = 3분
-- **Evidence / Decision References:** BEAT-007, BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042
-- **Audience Footer:** 없음 — M 연계 표시는 유지
+- **Evidence / Decision References:** BEAT-007, BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113
+- **Audience Footer:** 교육용 요청 예시 · 실제 TRIAL-002 입력이나 수행 결과가 아님
 
-#### S38 — 반복하는 설명을 두 범주로 나누기
+#### S38 — 작업마다 바뀌는 목표, 계속 쓰는 기준
 
 - **Slide ID:** S38
 - **ACT:** ACT 1
 - **Section:** 1G 종료 및 ACT 2 전환
-- **Working Title:** 반복하는 설명을 두 범주로 나누기
-- **Primary Role:** Slide 30의 두 빈 Bucket을 예시로 회수한다.
-- **Audience Question:** “같은 Project 설명을 다음 요청에서도 왜 반복하게 될까?”
-- **Core Message:** Task 정보와 Project 정보는 수명과 적용 범위가 다르다.
+- **Working Title:** 작업마다 바뀌는 목표, 계속 쓰는 기준
+- **Primary Role:** S37과 동일한 요청 문장을 이번 목표와 지속해서 적용할 기준으로 분리한다.
+- **Audience Question:** “이 공통 기준을 어디에 두고 다시 참고할까요?”
+- **Core Message:** crop 수정 목표는 작업마다 달라지고, 프로젝트에서 합의해 계속 적용할 API·테스트 기준은 여러 작업에서 다시 참고할 수 있다. 적용 범위를 먼저 확인하고 저장 위치는 다음 ACT에서 다룬다.
 - **Story Beat:** BEAT-007 → BEAT-008; TRANS-003
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.; ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; CONCEPTUAL. 분류 시험이나 유일한 정답으로 제시하지 않는다.
-- **Visual Concept:** 기존 이번 Task/계속 유지할 Project 두 Bucket을 유지한다. crop 경계 수정·이번 README 수정은 현재 목표 후보, 의존성 추가의 작업상 근거·프로젝트 테스트 명령은 여러 작업에서 참고할 후보로 놓는다. 동일한 확인 명령과 보존 조건이 다시 요청에 들어간다는 마찰로 S40에 넘긴다.
-- **Demo / Case Connection:** Slide 30에서 시작한 분류를 돕는 예시. 아직 `AGENTS.md`를 답으로 보여주지 않는다.
-- **Beginner Payoff:** 매번 쓰는 정보와 이번 요청만의 정보를 구별해 본다.
-- **Advanced Payoff:** 정보의 재사용 범위와 유지 기간을 검토한다.
+- **Claim Status:** TEACHING MODEL / CONCEPTUAL — 동일한 교육용 요청을 분리한 예시다. 실제 STATE-01 지침 원문·자동 적용·추가 실행·효과·유일한 분류 결과가 아니다. 계속 적용할지는 프로젝트의 합의와 조건을 확인한다.
+- **Visual Concept:** 왼쪽에 S37과 동일한3문장 요청을 유지한다. crop 목표 한 줄은 이번 작업의 목표로 연결하고, API·정해진 테스트 명령 두 줄은 하나의 강조 영역과 얇은 bracket으로 “계속 쓰는 기준”에 연결한다. 오른쪽 설명은 “이번 작업에만 적용”과 “프로젝트에서 합의해 여러 작업에 적용”이다. README·의존성·다른 Task 예시를 화면에 추가하지 않는다. 마지막 질문은 공통 기준을 어디에 두고 다시 참고할지다.
+- **Demo / Case Connection:** S37의 같은 crop 교육용 요청을 분리한 예다. 실제 TRIAL/STATE 원문·관찰 차이가 아니다. AGENTS.md·제품 저장 기능을 답으로 보여주지 않는다.
+- **Beginner Payoff:** 무엇을 바꾸려는 목표와 계속 참고할 기준이 다른 역할임을 같은 문장에서 본다.
+- **Advanced Payoff:** 공통 기준으로 둘지 여부는 반복 횟수만으로 정하지 않고 합의·수명·적용 범위를 확인한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 잘 작성한 요청도 반복되는 Project 설명 문제를 남긴다는 순서로 회수한다. 정보 수명·적용 범위의 후보 비교만 하고 AGENTS.md나 완전한 분류를 먼저 답하지 않는다. Reflection1분·Transition3분·Q&A2분을 보존한다.
-- **Transition:** “요청은 구체화했지만, 같은 테스트 명령과 보존 조건은 다음 작업에도 다시 적게 됩니다. Project 설명을 왜 매번 Prompt에 다시 쓰고 있을까요?”라고 S40의 반복 Project Context 문제로 연결한다. 기존 연결 질문을 유지한 채 ACT 2 제목 S39를 거쳐 S40의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
+- **Speaker Intent:** S37의 같은 요청을 다시 쓰거나 새 사례로 바꾸지 않는다. API·테스트 조건은 이 프로젝트에서 계속 적용하기로 한 경우의 교육용 구분이다. 다른3Task의 반복 장면은 S40에 남겨 중복을 줄인다. Reflection1분·Transition3분·Q&A2분과 S39 제목1분의 별도 배정을 유지한다.
+- **Transition:** “공통 기준이 다음 요청에도 필요하다면 어디에 두고 다시 참고할까요? 다음 구간에서는 서로 다른 작업에도 같은 설명이 반복되는 장면부터 보겠습니다.”라고 ACT2 제목 S39를 거쳐 S40으로 이어간다.
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Reflection 1분 + Transition 3분 + Q&A 2분 = 6분
-- **Evidence / Decision References:** BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042
-- **Audience Footer:** 왜 매번 Project 정보를 다시 적을까?
+- **Evidence / Decision References:** BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113
+- **Audience Footer:** 교육용 분리 예시 · 계속 적용할지는 프로젝트의 합의와 조건을 확인한다
 
 ### ACT 2 — 22 slides / 90 minutes
 

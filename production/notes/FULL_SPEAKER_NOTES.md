@@ -2131,7 +2131,7 @@ crop [1,3)에서 폭 2야.
 바꾼 제안과 미확인 사항만 보고해줘.
 ```
 
-3. (0:45–1:00 ) 화면 하단의 핵심을 회수하고 한계를 짧게 짚는다. “이 조건 중 다음 작업에도 다시 적게 될 것은 무엇일까요?”라고 기존 S29–S30의 반복 Context 질문으로 연결한다. 현재 기존 두 장은 S37–S38이다.
+3. (0:45–1:00 ) 화면 하단의 핵심을 회수하고 한계를 짧게 짚는다. “요청을 구체화해도 다음 작업에 다시 적게 될 문장이 있습니다. 같은 crop 요청에서 찾아볼까요?”라고 S37로 연결한다.
 운영 표시: “실무 적용 팁 · 요청 작성” 배지로 다시 찾아 쓸 기준임을 짚는다. 기존 설명·근거 범위와 배정 시간 안에서 진행하며 요청·예시를 새로 실행하지 않는다.
 
 Evidence / Source: CLM-0039; official documented recommendations checked 2026-10-21. https://learn.chatgpt.com/docs/prompting. Evidence matrix: references/product/PROMPT_ENGINEERING_2026-10-21.md.
@@ -2153,7 +2153,7 @@ Demo Operation: N/A — static conceptual prompt example. No new Trial, model ca
 Audience Interaction: 요청 예시를 눈으로 확인하게 하고 핵심 부분만 가리킨다. 작성 실습·공개 답변·의무 응답을 요구하지 않는다.
 
 **Transition:**
-“이 조건 중 다음 작업에도 다시 적게 될 것은 무엇일까요?”라고 기존 S29–S30의 반복 Context 질문으로 연결한다. 현재 기존 두 장은 S37–S38이다.
+“요청을 구체화해도 다음 작업에 다시 적게 될 문장이 있습니다. 같은 crop 요청에서 찾아볼까요?”라고 S37로 연결한다.
 
 Time Management: 1분 동안 핵심과 예시 두세 행만 짚는다. 전문·출처·주의점 전체 낭독은 하지 않는다. 사용자 승인으로 기존 장별 시간은 유지하고 소개8분을 추가했다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
 
@@ -2162,12 +2162,13 @@ Fallback:
 
 Validation Status: ALIGNED — DEC-0043. Exact final package, Notes and render checks are recorded in production/evaluation/PROMPT_ENGINEERING_ADDITION_RESULT.md. Windows PowerPoint, target fonts, room, current product/account and timed rehearsal remain UNVERIFIED.
 
-## S37 — 이번 Task인가, 계속 유지할 Project 정보인가?
+## S37 — 다음 작업에도 이 내용을 다시 적어야 할까?
 
 Slide ID:
 S37
 
-Working Title: 이번 Task인가, 계속 유지할 Project 정보인가?
+Working Title:
+다음 작업에도 이 내용을 다시 적어야 할까?
 
 ACT / Section: ACT 1 / 1G
 
@@ -2175,49 +2176,65 @@ Allocated Time: 3 minutes
 
 Mode Split: Reflection 1 minute + Q&A 2 minutes
 
-Primary Message: 두 종류의 정보를 구분할 필요가 있음을 먼저 인식한다.
+Primary Message:
+잘 작성한 요청에도 이번 목표와 여러 작업에서 다시 참고할 기준이 함께 들어갈 수 있다. 먼저 반복할 내용을 생각하고 다음 장에서 범위를 구분한다.
 
-Opening Question: “잘 쓴 요청의 테스트 명령과 보존 조건을, 다음 작업에도 다시 적어야 할까?”
+Opening Question:
+“작업이 바뀌어도 다시 말하게 될 문장은 무엇일까요?”
 
 Speaker Flow:
-1. (0:00–1:00 / Reflection) S26–S28에서 완료 근거를 요청에 담았다는 점을 회수한다. “이렇게 요청을 구체화했지만 테스트 명령과 보존 조건은 다음 작업에도 다시 쓰게 된다”고 반복 마찰을 제시하고, 익숙한 문장 하나가 이번 Task에만 필요한지 다음 작업에도 필요한지 생각하게 한다. 두 영역은 비워 둔다.
-2. (1:00–3:00 / Q&A) 자발적인 질문을 받는다. 분류의 정답이나 저장 방식·AGENTS.md를 미리 공개하지 않는다. 침묵도 정상 진행이다.
-3. (3:00) S38에서 정보의 수명·범위를 후보 예시로 비교하겠다고 넘긴다.
+1. (0:00–0:15 / Reflection) S36에서 제안의 어긋난 부분을 고치고 유지할 조건을 적었다는 점을 회수한다. 화면의 짧은 요청은 같은 crop 사례를 되돌아보는 교육용 예시이며 실제 TRIAL-002 발췌가 아님을 밝힌다. 세 문장의 범주나 정답을 먼저 설명하지 않는다.
+2. (0:15–1:00 / Reflection) “작업이 바뀌어도 다시 말하게 될 문장은?”을 보고 조용히 생각할 시간을 둔다. 빈 Bucket이나 분류표 대신 요청 문장을 그대로 관찰하게 한다. 작성·공유·응답을 요구하지 않는다.
+3. (1:00–3:00 / Q&A) 자발적인 질문을 받는다. 질문이 없으면 “이번 목표와 다음 작업에도 지킬 조건이 같은 수명일까요?”를 한 번 짚고 침묵을 허용한다. 이 시간에 AGENTS.md나 공통 지침의 정답을 먼저 강의하지 않는다.
+4. (3:00) 같은 세 문장을 유지한 S38로 이동한다.
 
-Evidence / Source: BEAT-007 → BEAT-008 handoff, CLM-0029, CLM-0027, CLM-0003, CLM-0005. TEACHING_MODEL. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
+Evidence / Source:
+TEACHING_MODEL. BEAT-007 → BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113. S36의 crop·API 보존 요청과 기존 프로젝트 테스트 기준을 짧게 각색한 교육용 요청이다. 실제 TRIAL-002 입력·행동 로그·제품 화면이나 새 실험의 근거가 아니다.
 
-보존된 상세 출처: 생각해 보기 · 이 과정의 교육 모델
+On-screen teaching request:
 
-Claim Boundary: 두 Bucket은 Reflection을 위한 과정의 모델이다. 이 장에서는 정답, 제품 기능, AGENTS.md 또는 완전한 분류를 제시하지 않는다.
+```text
+crop 경계 오류를 고쳐줘.
+기존 공개 API는 유지해.
+프로젝트에 정해진 테스트 명령으로 확인해.
+```
 
-보존된 상세 범위: 1분 동안 개인적으로 생각한 뒤 2분간 자발적인 질문을 받습니다.
+Claim Boundary:
+구체적인 문장에서 반복할 내용을 떠올리는 교육용 Reflection이다. 실제 Trial에서 이 요청을 사용했다거나 정답·현재 제품 기능·효과를 확인했다고 표현하지 않는다. 문장의 적용 범위는 다음 장에서 프로젝트 합의 조건과 함께 검토한다.
 
-Beginner Explanation: 요청을 잘 작성한 뒤에도 같은 테스트 명령과 보존 조건을 다시 쓰게 된다. 이번 목표에만 필요한 정보와 여러 작업이 참고할 Project 사실의 수명·범위를 생각한다. 저장 메커니즘은 다음 ACT에서 문제를 본 뒤 다룬다.
+Beginner Explanation:
+요청을 잘 작성해도 이번 목표와 여러 작업에서 다시 참고할 조건이 함께 들어갈 수 있다. 같은 짧은 요청에서 다음에도 다시 말할 문장을 생각한다.
 
-Advanced Insight: Consider information lifetime and scope without deciding the storage mechanism yet.
+Advanced Insight:
+Separate the recurrence question from storage design. A repeated sentence does not automatically deserve global instruction scope.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A.
+Demo Operation:
+N/A — 정적 교육용 요청과 Reflection/Q&A다. 새 Trial·모델 호출·Demo 시간·테스트 실행·결과 화면을 추가하지 않는다.
 
-Audience Interaction: 순서: Reflection 1분 후 Q&A 2분. Reflection은 사적 생각 시간이고 공유는 자발적이다. 응답이 없으면 질문을 한 번 더 읽고 진행한다.
+Audience Interaction:
+Reflection1분(안내15초+개인적 생각45초) 후 자발적 Q&A2분이다. 문장 선택·답안 작성·공유·개인 업무 공개를 요구하지 않는다. 답이 없어도 정시에 진행한다.
 
 Transition:
-“방금 떠올린 반복 문장을 이번 Task 정보와 계속 참고할 Project 정보의 후보로 나눠 보겠습니다.”라고 S38으로 이동한다.
+“방금 본 같은 요청에서 이번 목표와 계속 쓰기로 한 기준을 나눠 보겠습니다.”라고 S38로 이동한다.
 
-Time Management: Reflection 1분, Q&A 2분을 보존한다. 긴 토론이나 개인 업무 공개를 요구하지 않는다.
+Time Management:
+Reflection1분 + Q&A2분 = 3분. 요청을 이해할 단서3개만 제공한다. 별도 Lecture·설명 시간이나 필수 응답을 추가하지 않는다. 실제 운영 적합성은 리허설 전까지 UNVERIFIED다.
 
 Fallback:
-정적 기본 경로 — `production/ACT_1.pptx` S37 또는 `production/preview/act1/S37.png`를 사용한다. 요청 예시·기록·교육 모델의 기존 범위를 유지한다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다.
+production/ACT_1.pptx S37 또는 production/preview/act1/S37.png의 정적 요청을 사용한다. 질문이 없으면 요청의 세 문장을 읽어 보게 하고3분에 같은 문장을 분리한 S38로 넘긴다.
 
-Validation Status: ALIGNED — DEC-0042의 요청 설계·사례 연결·쉬운 용어를 정렬했다. 최종 PPT·내장 Notes·렌더 검토는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
+Validation Status:
+ALIGNED — DEC-0113. 최종 PPT/Notes/렌더 대조는 production/evaluation/ACT1_CONTEXT_HANDOFF_REVISION.md에 기록한다. Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
-## S38 — 반복하는 설명을 두 범주로 나누기
+## S38 — 작업마다 바뀌는 목표, 계속 쓰는 기준
 
 Slide ID:
 S38
 
-Working Title: 반복하는 설명을 두 범주로 나누기
+Working Title:
+작업마다 바뀌는 목표, 계속 쓰는 기준
 
 ACT / Section: ACT 1 / 1G
 
@@ -2225,45 +2242,58 @@ Allocated Time: 6 minutes
 
 Mode Split: Reflection 1 minute + Transition 3 minutes + Q&A 2 minutes
 
-Primary Message: Task 정보와 Project 정보는 수명과 적용 범위가 다르다.
+Primary Message:
+crop 수정 목표는 작업마다 달라지고, 프로젝트에서 합의해 계속 적용할 API·테스트 기준은 여러 작업에서 다시 참고할 수 있다. 적용 범위를 먼저 확인하고 저장 위치는 다음 ACT에서 다룬다.
 
-Opening Question: “같은 Project 설명을 다음 요청에서도 왜 반복하게 될까?”
+Opening Question:
+“이 공통 기준을 어디에 두고 다시 참고할까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Reflection) 앞 장에서 떠올린 반복 문장을 이번 Task 정보와 계속 참고할 Project 정보의 후보로 생각한다. 분류 시험이나 답안 작성은 아니다.
-2. (1:00–2:00 / Transition) crop 경계 수정·이번 README 수정은 현재 목표의 후보이고, 반복해서 사용할 테스트 명령·의존성 추가에 필요한 근거 같은 보존 조건은 여러 작업에서 참고할 후보임을 비교한다. 예시는 유일한 정답이나 실제 STATE-01 원문이 아니다.
-3. (2:00–4:00 / Transition) 원하는 변화·지킬 조건·완료 근거를 요청에 담는 원칙을 회수한다. 그중 같은 Project 사실과 확인 명령을 다음 작업에도 다시 적는다는 미해결 문제를 남긴다. Context의 위치·메커니즘을 먼저 답하지 않고 S40의 반복 장면이 필요하게 만든다.
-4. (4:00–6:00 / Q&A) 자발적인 질문을 받고 6분에 ACT 2로 간다. 질문이 없으면 반복 Project 설명이라는 마지막 질문을 한 번 읽고 정시에 넘긴다.
-기존 연결 질문을 유지한 채 ACT 2 제목 S39를 거쳐 S40의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
+1. (0:00–1:00 / Reflection) S37과 문장이 하나도 바뀌지 않았음을 확인하게 한다. 각자 업무에서 어떤 조건을 여러 작업에 계속 적용하기로 합의했는지 조용히 생각한다. 앞 장의 문장 찾기를 반복 시험하거나 공개 분류를 요구하지 않는다.
+2. (1:00–2:00 / Transition) 위 한 줄의 crop 수정은 이번 작업 목표이고 작업이 달라지면 바뀐다는 점을 가리킨다. 새로운 README Task나 성능 사례를 여기서 추가하지 않는다.
+3. (2:00–3:00 / Transition) 아래 두 줄의 공개 API 유지·정해진 테스트 명령은 이 프로젝트에서 계속 적용하기로 합의한 경우 여러 작업에서 참고할 기준이다. 반복된다고 무조건 전역 지침이 되는 것은 아니다. 어떤 테스트를 언제 돌릴지는 프로젝트의 실제 기준과 작업 조건을 확인한다. 여러 단계의 작업 절차를 여기서 Skill/Workflow로 분류하지 않는다.
+4. (3:00–4:00 / Transition) 요청에는 목표·조건·완료 근거를 담는다는 ACT1 원칙을 유지한다. 공통 기준을 매번 복사하는 문제와 어디에 두고 참고할지라는 질문만 남긴다. AGENTS.md·자동 수집·효과를 답으로 제시하지 않는다. 세 가지 다른 Task에 같은 설명이 반복되는 장면은 ACT2 S40에서 확대한다.
+5. (4:00–6:00 / Q&A) 자발적인 질문을 받는다. 질문이 없으면 “다음 요청에도 같은 기준이 필요하면, 어디에 두고 다시 참고할까요?”를 설명용 질문으로 회수하고6분에 S39로 넘긴다. S39 제목의 Transition1분과 시간을 중복 계산하지 않는다.
 
-Evidence / Source: BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005. TEACHING_MODEL / CONCEPTUAL. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
+Evidence / Source:
+TEACHING_MODEL / CONCEPTUAL. BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113. S37과 완전히 같은3문장을 사용한다. 구분과 적용 범위는 교육용 예시이며 실제 STATE-01/Trial의 지침 원문·자동 적용·수행 결과가 아니다. 실제 기록과 기존 정책의 조건은 DEMO_MATRIX.md에 보존한다.
 
-보존된 상세 출처: 교육용 후보 예시 · 모든 프로젝트에 적용되는 유일한 분류가 아님
+On-screen teaching request:
 
-Claim Boundary: 항목은 수명과 적용 범위를 생각하게 하는 교육용 후보 예시다. 화면의 의존성 예시는 실제 STATE-01 지침처럼 작업상 정당한 근거가 있으면 추가할 수 있다는 조건을 보존한다. 이 장은 그 지침의 실행 효과를 관찰한 결과가 아니다. 유일한 정답·classification test·제품 메커니즘으로 말하지 않는다. AGENTS.md는 이 장에서 답으로 제시하지 않는다.
+```text
+crop 경계 오류를 고쳐줘.
+기존 공개 API는 유지해.
+프로젝트에 정해진 테스트 명령으로 확인해.
+```
 
-보존된 상세 범위: 다음 질문: Project 정보를 왜 매번 Prompt에 다시 적고 있을까요?
+Claim Boundary:
+공개 API와 테스트 기준을 프로젝트에서 합의해 계속 적용하기로 한 경우의 교육용 구분이다. 모든 반복 조건이 영구·전역 지침이거나 모든 요청에 전체 테스트가 필수라고 일반화하지 않는다. 실제 TRIAL-002 입력·STATE-01 원문·새 실행·측정·자동 지침 적용·효과를 주장하지 않는다. 저장 메커니즘과 AGENTS.md는 아직 답으로 보여주지 않는다.
 
-Beginner Explanation: 요청을 잘 작성한 뒤에도 같은 테스트 명령과 보존 조건을 다시 쓰게 된다. 이번 목표에만 필요한 정보와 여러 작업이 참고할 Project 사실의 수명·범위를 생각한다. 저장 메커니즘은 다음 ACT에서 문제를 본 뒤 다룬다.
+Beginner Explanation:
+위의 목표는 작업이 바뀌면 달라지고 아래의 합의된 기준은 여러 작업에서 다시 참고할 수 있다. 같은 요청 문장에서 역할을 나누므로 새 예시를 다시 해석할 필요가 없다.
 
-Advanced Insight: Information reuse scope and lifetime may differ; the next ACT will examine the repeated-fact problem before introducing a mechanism.
+Advanced Insight:
+Scope and lifetime require project agreement. Check whether an API-preservation condition or test entry applies to future tasks; do not promote every repeated sentence into universal policy. 기존 화면의 의존성 예시는 Notes의 선택 참고로 보존한다. 실제 STATE-01은 작업상 정당한 근거가 있을 때 추가할 수 있다는 조건이며 무조건 금지로 바꾸지 않는다. README는 다음 ACT의 작업 예로 남기고 여기서 새 사례를 추가하지 않는다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A.
+Demo Operation:
+N/A — S37의 동일한 교육용 요청을 범위별로 설명하는 정적 장이다. 새로운 Prompt 입력·Trial·C++/Python 실행·현재 제품 수집 동작·성과를 보여주지 않는다.
 
-Audience Interaction: Reflection 1분 후 map 순서대로 ACT 2 Transition 3분, Q&A 2분. 예시는 후보로만 말하고, 자발적 응답을 받되 정답 분류를 평가하지 않는다.
+Audience Interaction:
+Reflection1분은 어떤 기준을 공통으로 합의할지 생각한다. Transition3분 뒤 자발적 Q&A2분이다. 정답 분류·업무 공개·실습을 요구하지 않는다. 질문이 없으면 마지막 위치 질문을 회수하고6분에 다음 ACT로 넘어간다.
 
 **Transition:**
-“요청은 구체화했지만, 같은 테스트 명령과 보존 조건은 다음 작업에도 다시 적게 됩니다. Project 설명을 왜 매번 Prompt에 다시 쓰고 있을까요?”라고 S40의 반복 Project Context 문제로 연결한다.
-기존 연결 질문을 유지한 채 ACT 2 제목 S39를 거쳐 S40의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
+“공통 기준이 다음 요청에도 필요하다면 어디에 두고 다시 참고할까요? 다음 구간에서는 서로 다른 작업에도 같은 설명이 반복되는 장면부터 보겠습니다.”라고 ACT2 제목 S39를 거쳐 S40으로 이어간다.
 
-Time Management: 0–1분 Reflection, 1–4분 Transition, 4–6분 Q&A. 기존 Notes의 1–5분 전환/5–6분 Q&A 불일치를 승인된 Mode Split 1+3+2로 정렬한다. Project Context 해결책이나 AGENTS.md는 미리 공개하지 않는다.
+Time Management:
+0–1분 Reflection,1–4분 Transition,4–6분 Q&A를 유지한다. S39 ACT2 제목의1분은 별도다. 두 장 합계9분과 Reflection2/Transition3/Q&A4를 보존한다. 실측 시간 적합성은 UNVERIFIED다.
 
 Fallback:
-정적 기본 경로 — `production/ACT_1.pptx` S38 또는 `production/preview/act1/S38.png`를 사용한다. 요청 예시·기록·교육 모델의 기존 범위를 유지한다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다.
+production/ACT_1.pptx S38 또는 production/preview/act1/S38.png의 정적 분리 도식을 사용한다. 프로젝트 합의·조건 범위를 밝히고 S39 제목→S40의 세 작업 반복 장면으로 이어간다. 저장 방법을 먼저 설명하지 않는다.
 
-Validation Status: ALIGNED — DEC-0042의 요청 설계·사례 연결·쉬운 용어를 정렬했다. 최종 PPT·내장 Notes·렌더 검토는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
+Validation Status:
+ALIGNED — DEC-0113. 최종 PPT/Notes/렌더 대조는 production/evaluation/ACT1_CONTEXT_HANDOFF_REVISION.md에 기록한다. Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S39 — 필요한 정보를 찾아 쓰게 하기
 

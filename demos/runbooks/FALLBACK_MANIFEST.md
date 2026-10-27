@@ -1,19 +1,20 @@
 # Static Fallback Manifest
 
-Current: DEC-0112 /121slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0113 /121slides/417minutes. READY — LOCAL STATIC FILES ONLY.
 Retain44reference roles and evidence classes. Former S26 becomes three
 request-design slides within5minutes; previous S27-S119 shift+2.
-The new C++ examples are unexecuted teaching diagrams and requests, not
-new Trial evidence. Live/Hybrid is not approved. Windows, account, room
+The C++ examples remain unexecuted teaching diagrams and requests.
+S37/S38 now share one teaching crop request, not actual Trial input. Live/Hybrid is not approved. Windows, account, room
 and timed rehearsal remain UNVERIFIED.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`42c02d7dcf057c37703efce9dcc9ec727acc75947810c8ee054868b00f31d962`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`cbaa040e37ea5a3bdf2ae0c45e26722fc757d87d706509bda6092dc02994848e`.
-- `production/preview/full/montage.png` SHA-256:`1dc8f807a7db028ce0912920d4d5b10eb7ef86cdd8d7ac2ad897f68e96856f3e`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`d5ad2aebfe26947942511799adb450c37a8eb0b2aa606cc60a8c003842bfc9e7`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`53e8b01989f03312cdee949c5b023d0f51445d628924ccf6aa69e61ab2da438d`.
+- `production/preview/full/montage.png` SHA-256:`b7b6d4fe8abb7345a50c10b89e55f2ae66a778d629f54a672802e4f10574b894`.
 
-[Current revision](../../production/evaluation/S26_REQUEST_SPLIT_REVISION.md),
+[Current handoff revision](../../production/evaluation/ACT1_CONTEXT_HANDOFF_REVISION.md),
+[Preserved request-split revision](../../production/evaluation/S26_REQUEST_SPLIT_REVISION.md),
 [ID migration](../../plan/SLIDE_ID_MIGRATION_121.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |

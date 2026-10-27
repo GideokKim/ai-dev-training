@@ -1,5 +1,37 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 현재 전달 기준 — DEC-0113 (2026-10-27)
+
+121장·417분. S37/S38은 같은 교육용 crop 요청을 이어받아 반복할 문장을 생각하고,
+이번 목표와 프로젝트에서 합의해 계속 적용할 기준으로 나눈다. S36의 화면은 유지하고
+Notes 전환만 정렬했다. S39/S40으로 연결하며 모든 장별 시간·Mode·근거는 보존했다.
+S37은3분, S38은6분, ACT1은24장·64분이다.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT1](../ACT_1.pptx),
+[S37](../preview/full/S37.png), [S38](../preview/full/S38.png),
+[현재 검토](ACT1_CONTEXT_HANDOFF_REVISION.md), [연결 기획](../../plan/ACT1_CONTEXT_HANDOFF.md),
+[현재 Map](../../plan/SLIDE_MAP.md), [사용자 검증](USER_VALIDATION_CHECKLIST.md).
+
+최종 통합121장/ACT1 24장의145개 PNG·Notes를 대조했다. 다른119장 화면·118개 Notes,
+나머지5개 ACT PPT·원문 근거·미디어·표·차트·워크북은 유지했다. 두 교육용 요청은 같은
+세 문장이고 실제 Trial 입력·자동 적용·성과를 주장하지 않는다. Windows·제품/계정·교육장·
+실측 리허설은 UNVERIFIED다. Demo 저장소·Site·발표 묶음은 변경하지 않았다.
+아래 이전 번호·해시·평가는 해당 판본의 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `d5ad2aebfe26947942511799adb450c37a8eb0b2aa606cc60a8c003842bfc9e7` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `017cf987131cfc9d7f3dc89551db9580e7a9f35f8608c37c5f3051d06020ebef` |
+| `production/ACT_2.pptx` | `7b4869ab0aaa01569a9927d8e6f92a75ea82c2366666319568ff13325f9ddcf6` |
+| `production/ACT_3.pptx` | `f0943678c0468d7cde832ba9b83257bf2ffa042c45dfedf276c86811f4561ac4` |
+| `production/ACT_4.pptx` | `0e9d7c306f88324f0a4c9dbcd0eb3525f85c571c133eecd6034cb5c359a8e5fd` |
+| `production/ACT_5.pptx` | `7cd8445e511ba13c84b87341b1f56006c4eeeb63f5f14fd2d49505fa1f45ad44` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `53e8b01989f03312cdee949c5b023d0f51445d628924ccf6aa69e61ab2da438d` |
+| `production/preview/full/montage.png` | `b7b6d4fe8abb7345a50c10b89e55f2ae66a778d629f54a672802e4f10574b894` |
+
+## 보존된 이전 전달 기록
+
 ## 현재 전달 기준 — DEC-0112 (2026-10-27)
 
 121장·417분(6시간57분). 이전 S26은 확인 범위·C++ 반례·완료 조건 요청의 S26–S28로
