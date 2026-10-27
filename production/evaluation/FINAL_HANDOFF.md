@@ -1,5 +1,37 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 현재 실제 요청 연결 — DEC-0111 (2026-10-27)
+
+S21은 실제 TRIAL-002 입력을 발췌·번역하고 원문 밖 주석으로 다섯 역할을 연결한다.
+원문의 Goal/Constraints/Process/Verification 네 제목을 유지한다. Context 문단을
+추가하지 않으며 조사 대상을 바깥에서 짚는다. S22는 같은 Process01–03을 기존 관찰과
+대조한다. S20 Notes 전환도 맞췄다. S16–S18은 교육용 요청으로 유지한다.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT1](../ACT_1.pptx),
+[S21](../preview/full/S21.png), [S22](../preview/full/S22.png),
+[검토](S21_TRIAL_REQUEST_REVISION.md), [기획](../../plan/S21_TRIAL_REQUEST_MAP.md).
+
+119장·417분과 모든 장별 시간/Mode를 유지했다. 최종141개 렌더·내장 Notes와
+119개19필드 Notes를 대조했다. 다른117장·5개 ACT 파일과 기존 원문·관찰·수치·
+미디어·표·차트·워크북은 같다. S22는 연결 문구 외 화면을 유지했다.
+실제 입력과 교육용 주석을 구분하며 비교·비용 절감·현재 제품 검증을 새로 주장하지 않는다.
+Windows·제품/계정·교육장·실측 리허설은 UNVERIFIED다. Demo·Sites·묶음은 변경하지 않았다.
+아래 이전 내용·번호·파일 해시·검증 결과는 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `c09d820704bed45a38714047cd44350a97494ac9d35983366605e5ef2ba2a086` |
+| `production/ACT_0.pptx` | `0f0843eb5964010ae0bd3dad26761a207c89d303c81e960a9e55a19678bb32d3` |
+| `production/ACT_1.pptx` | `cee8ffe566ba28c03437bf910122966ad0f06704032a8efee3b99ad133a0d3dd` |
+| `production/ACT_2.pptx` | `0cc9d1a9fc7f37907772c45947833cd07430f97cceea1133b8a33ec5809f314c` |
+| `production/ACT_3.pptx` | `6b3b0693a02c9ee25dcf71d9de21762cb7cac2d63875f5d4710801776519bd13` |
+| `production/ACT_4.pptx` | `eb76fdc0c32166e696b3fe62c3819589c08ee039ac35afdb4b661ef3f5e345b7` |
+| `production/ACT_5.pptx` | `e0f694b8e41390772cb117ce3d8a2a1dec5295acd72ddc6c3780643564475755` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `a0e93eea91b6628308f314313485955d553dca4cd0e84ff9a233e09d0b8731de` |
+| `production/preview/full/montage.png` | `ade7028a5dd10c4c8b960d2bd03f0245a42bdb46e63970d0611e09f6a901b385` |
+
+## 보존된 이전 전달 기록
+
 ## 현재 ACT1 사례 연결 — DEC-0110 (2026-10-27)
 
 S16–S18은 같은 “crop test 고쳐줘”를 기준으로 빠진 기준 확인→허용 범위 비교→

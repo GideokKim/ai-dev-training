@@ -1191,7 +1191,7 @@ Demo Operation: N/A.
 Audience Interaction: 설명 중간에 다섯 책임이 줄이는 불확실성을 확인한다. 청중에게 작성 실습을 시키지 않는다.
 
 Transition:
-“이 다섯 항목이 실제 요청 문장의 어디에 들어가는지 보겠습니다.”라고 S21의 교육용 요청 예시로 이동한다.
+“이 다섯 항목이 실제로 보낸 요청 문장의 어디에 들어가는지 보겠습니다.”라고 S21의 TRIAL-002 요청 발췌·번역으로 이동한다.
 
 Time Management: 네 분 동안 각 항목을 한 문장으로 설명한다. 별도 Best Practice 목록이나 제품 기능으로 확장하지 않는다.
 
@@ -1200,12 +1200,12 @@ Fallback:
 
 Validation Status: ALIGNED — DEC-0042의 요청 설계·사례 연결·쉬운 용어를 정렬했다. 최종 PPT·내장 Notes·렌더 검토는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
-## S21 — 더 긴 Prompt보다 분명한 경계
+## S21 — 실제 요청에는 무엇을 담았을까?
 
 Slide ID:
 S21
 
-Working Title: 더 긴 Prompt보다 분명한 경계
+Working Title: 실제 요청에는 무엇을 담았을까?
 
 ACT / Section: ACT 1 / 1C + 1F
 
@@ -1213,45 +1213,63 @@ Allocated Time: 9 minutes
 
 Mode Split: Lecture 6 minutes + Case 3 minutes
 
-Primary Message: 유용성은 Prompt의 길이보다 Goal과 제약, 과정, 검증 경계가 분명한 데서 나온다.
+Primary Message: 실제 요청은 Goal/Constraints/Process/Verification의 네 제목으로 작성됐다. 다섯 역할은 원문을 읽는 교육용 틀이며 Context는 관련 구현·호출 경로 등 조사 대상에서 읽는다. 원문에 없는 Context 문단을 만들지 않는다.
 
-Opening Question: “다섯 항목은 구체적인 요청 문장의 어디에서 드러나는가?”
+Opening Question: “실제로 보낸 요청에는 목표·맥락·제약·과정·검증이 어디에 담겨 있을까?”
 
 Speaker Flow:
+1. (0:00–1:00 / Lecture) S20의 다섯 역할로 실제 TRIAL-002 요청을 읽는다고 밝힌다. 왼쪽은 실제 입력의 핵심 발췌·번역, 오른쪽은 교육용 주석이다. S16–S18 교육용 요청을 그대로 실행했다는 뜻이 아니다.
+2. (1:00–2:15 / Lecture) 원문의 Goal과 Constraints에서 crop 경계 실패 수정, 끝 좌표 제외 명세, 무관한 API·의존성·최소 변경 조건을 짚는다. 네 원문 제목을 다섯 개로 바꾸지 않는다.
+3. (2:15–3:45 / Lecture) Process의 01 실패 재현, 02 관련 구현·호출 경로 조사, 03 수정 전 계획 보고 후 승인 대기 없이 진행을 읽는다. 같은 문장을 S22에서 행동 기록과 대조하므로 여기서는 결과를 먼저 설명하지 않는다. 필요한 코드만 변경하라는 원문의 후속 절도 최소 수정 조건과 연결한다.
+4. (3:45–4:45 / Lecture) Context 주석은 02의 조사 대상·위치를 가리킨다. “이 저장소”도 작업 위치를 지정한다. 같은 문장이 맥락과 과정 역할을 함께 할 수 있고, 사람이 관련 내용을 모두 복사할 필요는 없다. 별도 Context 문단은 실제 입력에 없다.
+5. (4:45–6:00 / Lecture) Verification의 관련·전체 테스트, 가능한 경우 기존 합성 입력 CLI 실행, 최종 diff, 변경 파일·정확한 검증 근거 보고를 짚는다. 실제 승인 대기 없이 진행은 이 Trial의 조건이며 모든 업무의 승인 정책으로 일반화하지 않는다.
+6. (6:00–7:30 / Case) 요청 영역 밖의 명세 해석 예를 확인한다.4열 입력에 crop1 3이면 열1·2/폭2다. 실제 Prompt의 끝 좌표 제외 명세를 설명하는 예이며, 이 수치 예제가 그대로 입력됐다는 뜻은 아니다. C++ 출력·API/ABI·Release 검증은 필요할 때 Notes의 기존 적용 예로만 짧게 회수한다.
+7. (7:30–9:00 / Case) 목표·조사 대상·지킬 조건·진행·완료 근거가 어디에 드러나는지 정리한다. 이제 같은 요청의 과정 01–03이 실제 관찰 기록에서 어떻게 확인되는지 S22로 이동한다.
 
-1. (0:00–2:00 / Lecture) 짧은 요청과 교육용으로 구체화한 요청을 비교한다. 앞 장의 다섯 항목을 다시 정의하지 않고 어떤 문장이 목표·맥락·제약·과정·검증을 드러내는지 짚는다.
-2. (2:00–5:00 / Lecture) crop 경계 실패를 조사·수정하라는 목표, 저장소의 실패 테스트·호출 경로를 보라는 맥락, 끝 좌표 제외 명세와 무관한 API·의존성 보존 조건을 요청 문장에서 찾는다. 저장소 사실의 답을 미리 복사하는 대신 조사할 사실과 위치를 가리킬 수 있다. 조사·계획·최소 수정 순서 역시 Process로 요청에 들어간다.
-3. (5:00–6:00 / Lecture) 확인·보고 요청을 쉬운 말로 읽는다: crop 관련 테스트만 실행, 프로젝트 전체 테스트 실행, 가능한 경우 CLI 샘플 실행 확인, 변경 내용 확인. 영어 이름은 필요한 경우 뒤에 붙이며 명령 실행법 수업으로 확장하지 않는다. C++ 보존·검증 footer는 선택적 짧은 참고다.
-4. (6:00–7:30 / Case) 완료 조건을 구체적으로 읽는다. 열 index 0·1·2·3의 4열 입력에 `crop 1 3`을 적용하면 원본 열1·2만 포함하고 출력 폭은2여야 한다. 범위 표기이며 전체 함수 signature가 아니다. 기대값과 확인 결과를 보고받도록 요청할 내용이다.
-5. (7:30–9:00 / Case) 원하는 변화·지킬 조건·완료 근거가 문장 어디에 드러났는지 회수한다. 여기까지는 교육용 요청 예시이며 실제 TRIAL-002에 그대로 보낸 Prompt가 아니다. 실제 기록의 발췌·번역과 행동을 볼 다음 장으로 경계를 명시해 전환한다.
+Evidence / Source: OBSERVED_PRODUCT / TEACHING_MODEL. plan/DEMO_MATRIX.md의 TRIAL-002 / Prompt used가 실제 입력 근거다.2026-09-28 macOS Codex CLI0.154.0 단일 실행의 보존 기록이며 화면은 원문 스크린샷이 아닌 핵심 발췌·번역이다. 아래 전문은 변경하지 않는다. 다섯 주석과 명세 예는 교육용 해석이며 Context 제목/문단을 원문에 추가하지 않는다. DEC-0111.
 
-Evidence / Source: BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007. TEACHING_MODEL / CONCEPTUAL. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
+Actual Prompt (preserved source):
 
-보존된 상세 출처: 교육용 Before / After · 실제 Trial Prompt나 우월성 비교 실험이 아님
+```text
+Goal: Investigate and fix the failing crop-boundary test in this repository.
+Constraints: preserve the public crop contract [x_start, x_end); do not change
+unrelated APIs; add no dependencies; keep the change minimal.
+Process: first reproduce the current failure; inspect the related
+implementation and call path; before editing, send a concise user-visible
+change plan and then continue without waiting for approval; make only the
+necessary code change.
+Verification: run the focused crop test and the full test suite; run a CLI
+smoke test using the existing synthetic input if practical; inspect the final
+diff; report changed files and exact verification evidence.
+Do not reveal or assume a particular code expression in advance. Do not
+modify the STATE-00 tag, create a STATE-00-FIXED commit or tag, add project
+guidance or other Harness files, or modify anything outside this isolated
+worktree. Leave the reviewed change uncommitted for the state-recording
+decision.
+```
 
-Claim Boundary: Before/After는 설명을 위한 개념 예시이며 Trial-002가 약한 Prompt와 구조화 Prompt의 우월성을 비교 검증했다는 뜻이 아니다. Given/When/Then 완료 조건은 기존 crop 계약을 설명하려고 구성한 예시이며 당시 Prompt 원문, 새 실행 결과 또는 시스템 요구 분석 전체 교육이 아니다.
+Displayed excerpt selection: 원문의 네 제목을 유지한다. Process의 필요한 코드만 변경하라는 절은 Constraints의 최소 수정과 함께 설명하며 화면에는 세 핵심 지시를 번호로 표시한다. 사전 정답 표현 금지, 격리 worktree, State/tag·Harness·커밋 관련 실험 통제는 화면에서 생략하고 위 전문에 보존한다. 기존 crop 관련 테스트 묶음의3건을 crop만의3건으로 바꾸지 않는다. CLM-0029, BEAT-005, INV-VERIFY-001.
 
-보존된 상세 범위: 완료 조건과 C++ 적용은 교육용 예시입니다. 특정 Windows·빌드 환경을 검증한 것은 아닙니다.
+Claim Boundary: 실제 입력 발췌·번역과 교육용 분류를 구분한다. 실제 원문에는 Context 제목이 없다. 원문에 없는 조사·승인·완료 조건을 실제 입력처럼 추가하지 않는다. 하단 열1·2/폭2는 명세 해석 예이며 원문에 들어간 수치 예제가 아니다. 짧은 요청과의 비교 실험·Prompt 단독 인과·우월성·비용 절감·결정론적 준수·현재 Desktop 재현을 주장하지 않는다. 실제 변경·검증 결과는 다음 장들에서 기존 기록으로 확인한다.
 
-Beginner Explanation: 저장소에서 조사할 수 있는 사실은 확인하도록 맡기고, 사람이 원하는 결과·우선순위·지킬 조건·완료 판단 근거를 정해 요청한다. 모든 Context를 직접 붙여 넣어야 한다는 뜻은 아니다.
+Beginner Explanation: 다섯 역할은 반드시 다섯 문단으로 작성해야 하는 규칙이 아니다. 이 저장소와 관련 구현·호출 경로를 지정하는 문장에서 조사할 맥락을 읽는다. 같은 문장이 무엇을 조사할지와 어떤 순서로 일할지를 함께 담을 수 있다.
 
-Advanced Insight: Make the allowed change surface and completion evidence reviewable; do not claim a causal performance advantage.
+Advanced Insight: Distinguish actual input provenance from the teaching taxonomy. Preserve four original headings; annotate Context as task location and investigation target without adding a synthetic paragraph. Separate source correspondence from causal attribution.
 
-C++ Vision Bridge: SUPPORTING footer strip — 출력·API/ABI의 보존 범위와 Release 검증 조건을 먼저 정하는 사례다. 특정 Windows, shell, IDE, hardware의 실제 사용법이나 검증 결과로 주장하지 않는다.
+C++ Vision Bridge: SUPPORTING Notes cue only. 출력·API/ABI 보존 범위와 Release 검증 조건을 요청에 담는 기존 C++ 적용 예를 보존한다. 실제 TRIAL-002는 Python이며 이 C++ 예는 원문 입력·Windows 검증·새 실행의 근거가 아니다. 화면 주석과 혼잡해지지 않도록 Notes에서 필요할 때만 짧게 연결한다.
 
-Demo Operation: N/A — the comparison is conceptual and is not the exact Trial-002 Prompt.
+Demo Operation: 실제 TRIAL-002 요청의 정적 읽기다. S22에서 같은 Process01–03의 관찰 요약, S23에서 diff, S24에서 검증 근거를 확인한다. S21의 Lecture6/Case3은 기존 CAPTURED Demo8분에 더해 세지 않는다. 새 제품 실행·Trial·원시 터미널 캡처를 보여주지 않는다.
 
-Audience Interaction: 마지막 Case 3분에는 구체 완료 조건을 90초 동안 따라 읽고, 나머지 90초에 두 요청에서 새로 명시된 책임을 마음속으로 비교한다. 작성 실습이나 발표 응답은 요구하지 않는다.
+Audience Interaction: 원문 밖 주석을 따라 다섯 역할이 어디에 드러나는지 확인하게 한다. Case3분에는 명세 해석 예90초와 정보의 위치·같은 요청 연결90초를 사용한다. 작성·공유·실습·공개 답변을 요구하지 않는다.
 
 Transition:
-“여기까지는 교육용 요청 예시였습니다. 이제 실제 기록에서는 어떤 지시를 전달했고, 그 지시와 작업 과정이 어떻게 연결됐는지 보겠습니다.”라고 S22의 TRIAL-002 실제 Prompt 발췌·번역으로 이동한다.
+“이 요청의 과정 지시 01–03이 실제 기록에는 어떻게 남았을까요?”라고 같은 요청과 관찰 기록을 대조하는 S22로 이동한다.
 
-Time Management: Lecture6분(기존 요청 비교2분, 다섯 항목의 실제 문장 연결3분, 확인·보고 요청1분)과 Case3분(구체 완료 조건90초, 정보 변화·실제 기록 전환90초)을 유지한다. 항목 정의·앞의 답을 다시 낭독하지 않고 요청 문장 위치를 설명한다. C++ footer는 선택 참고이며 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+Time Management: Lecture6분: 출처1분, 목표·제약1분15초, 과정1분30초, 맥락1분, 검증1분15초. Case3분: 원문 밖 명세 해석90초, 항목 회수·같은 요청 전환90초.9분과 기존 Mode를 유지하고 S22의 관찰 결과를 미리 강의하지 않는다. 실측 리허설은 UNVERIFIED다.
 
-Fallback:
-정적 기본 경로 — `production/ACT_1.pptx` S21 또는 `production/preview/act1/S21.png`를 사용한다. 요청 예시·기록·교육 모델의 기존 범위를 유지한다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다.
+Fallback: production/ACT_1.pptx S21 또는 production/preview/act1/S21.png의 검증된 정적 화면을 사용한다. 전문은 plan/DEMO_MATRIX.md의 TRIAL-002 / Prompt used와 본 Notes에 보존한다. 실제 입력과 교육용 주석의 경계를 유지한다. 최종 로컬 대조는 production/evaluation/S21_TRIAL_REQUEST_REVISION.md를 따른다.
 
-Validation Status: ALIGNED — DEC-0042의 요청 설계·사례 연결·쉬운 용어를 정렬했다. 최종 PPT·내장 Notes·렌더 검토는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0111의 실제 요청·주석·S22 연결 기준이다. 최종 PPT·내장 Notes·렌더 대조는 production/evaluation/S21_TRIAL_REQUEST_REVISION.md에 기록한다. Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S22 — 요청한 과정은 기록에도 남았을까?
 
@@ -1271,20 +1289,15 @@ Primary Message: 실제 요청과 관찰 기록을 대응시켜, 부탁한 작�
 Opening Question: “실제로 요청한 재현·조사·수정 전 계획은 기록에 어떻게 남았을까?”
 
 Speaker Flow:
-1. (0:00–0:15) S21은 교육용 요청 예시였고, 이제 별도의 실제 TRIAL-002 요청과 관찰 기록을 대조한다고 구분한다. 좌측은 실제 핵심 지시 발췌·번역, 우측은 관찰 기록 요약이다. 터미널 캡처나 계획 발언 원문으로 소개하지 않는다.
-2. (0:15–0:45 / 01) “먼저 실패를 재현”하라는 지시 옆에서 실패 crop 테스트를 찾아 재현했다는 Trial 기록을 확인한다. 화면의 test_crop_excludes_end_coordinate는 TRIAL-001 및 STATE-00 테스트 코드로 식별한 대상이다. TRIAL-002 원문 실패 로그가 남아 있다는 뜻이 아니다. 재현 명령·실패 출력이나 원자료에 없는 수치를 만들지 않는다.
-3. (0:45–1:10 / 02) 관련 구현과 호출 경로 조사 지시를, CLI-to-pipeline-to-crop을 확인했다는 관찰과 대응시킨다. cli.main / pipeline.process_image / transform.crop는 실제 제품의 호출 관계이며 Agent의 파일 읽기 순서나 내부 사고 경로가 아니다.
-4. (1:10–1:40 / 03) 편집 전에 짧은 계획을 알리라는 지시와, 파일 변경 이벤트보다 앞서 끝 좌표 명세·기존 테스트·API 보존 계획을 보고했다는 기록을 대조한다. 실제 Prompt는 계획 뒤 승인 대기 없이 계속하라고 했으므로 승인 대기를 새 절차로 추가하지 않는다. 계획 발언 원문과 원시 이벤트 시각은 미확인이라 당시 발언을 따옴표로 만들어 보여주지 않는다.
-5. (1:40–2:00) 화면 하단의 04 최소 수정 내용은 S23, 05 확인·보고 결과는 S24로 남겼음을 가리킨다. “그 조사와 계획 뒤 실제로 무엇을 바꿨을까요?”로 넘어간다. 여기서는 slice diff·너비 변화·테스트 통과 수치를 설명하지 않는다.
+1. (0:00–0:15) S21에서 본 같은 TRIAL-002 요청의 Process01–03을 왼쪽에서 회수한다. 입력이 바뀌는 장이 아니다. 오른쪽은 보존된 관찰 요약이며 원시 CLI 로그나 계획 발언 원문 캡처가 아니다.
+2. (0:15–0:45 / 01) “먼저 현재 실패를 재현해줘”와 실패 crop 테스트를 찾아 재현했다는 Trial 기록을 대조한다. test_crop_excludes_end_coordinate는 TRIAL-001/STATE-00 코드에서 대조한 대상이다. TRIAL-002 원문 실패 로그가 남아 있다는 뜻이 아니므로 명령·출력·수치를 만들지 않는다.
+3. (0:45–1:10 / 02) “관련 구현과 호출 경로를 조사해줘”와 CLI-to-pipeline-to-crop 확인 기록을 대조한다. cli.main / pipeline.process_image / transform.crop는 제품 호출 관계이며 파일 읽기 순서·내부 사고 경로가 아니다. S21에서는 이 조사 대상을 Context 주석으로도 읽었다.
+4. (1:10–1:40 / 03) “수정 전 짧은 계획을 알리고, 승인 대기 없이 계속해줘”와 파일 변경 이벤트 전 끝 좌표·기존 테스트·API 보존 계획 보고를 대조한다. 승인 대기를 새 절차로 추가하지 않는다. 계획 발언 원문·원시 이벤트 시각이 미확인이므로 당시 발언처럼 따옴표로 만들지 않는다.
+5. (1:40–2:00) 같은 요청의04 최소 수정은 S23,05 확인·보고 결과는 S24로 이어짐을 가리킨다. 여기서는 diff·너비·통과 수치를 설명하지 않는다.
 
-Evidence / Source: OBSERVED_PRODUCT. plan/DEMO_MATRIX.md의 TRIAL-002 / Prompt used(395–413행), Investigation and visible plan checkpoint(415–420행)가 실제 요청과 관찰 요약의 근거다. 정확한 테스트명·호출 기호는 같은 문서 TRIAL-001(330–332행) 및 ai-dev-training-demo의 STATE-00 tests/test_transform.py11, src/graypipe/cli.py, src/graypipe/pipeline.py, src/graypipe/transform.py를 읽기 전용으로 대조했다. 행 번호는 DEC-0044 작성 시점의 locator다. DEC-0044는 교육 표현 수정이며 새 실험 근거가 아니다.
+Evidence / Source: OBSERVED_PRODUCT. plan/DEMO_MATRIX.md의 TRIAL-002 / Prompt used 및 Investigation and visible plan checkpoint가 실제 요청·관찰 요약의 근거다. S21과 같은 요청이며 원문은 S21 Notes에도 보존한다. 테스트명·호출 기호는 TRIAL-001 및 Demo STATE-00 tests/test_transform.py, src/graypipe/cli.py, pipeline.py, transform.py의 실제 대상 식별자다. DEC-0044와 DEC-0111은 교육 표현·연결 수정이며 새 실험 근거가 아니다. 날짜2026-09-28, macOS Codex CLI0.154.0. 화면은 발췌·번역과 기록 요약이며 원시 CLI 캡처가 아니다.
 
-보존된 상세 출처: TRIAL-002 · 요청 발췌·번역 / 관찰 기록 요약 · 2026-09-28 · Codex CLI 0.154.0
-
-Claim Boundary:
-TRIAL-002는2026-09-28 macOS Codex CLI0.154.0의 단일 실행이다. 우측은 보존된 관찰 요약이며 최초 재현 명령 원문·실패 출력 원문·계획 발언 원문·원시 CLI 이벤트 파일/시각은 미확인이다. Verification 절의 명령을 최초 재현 명령으로 옮기지 않는다. 대상 코드 식별자를 원문 로그 발췌로 표현하지 않는다. S21 예시의 실행 결과, Prompt 단독 효과·우월성·결정론적 준수·반복성·현재 Desktop/계정·다른 모델의 근거로 확대하지 않는다. 상태 태그·격리·미커밋 보존 등 전체 제약은 원본 Prompt에 유지한다.
-
-보존된 상세 범위: 원문 로그 캡처 아님 · S22 예시의 실행 결과 아님 · 단일 CLI 관찰이며 Prompt 단독 효과는 미입증
+Claim Boundary: S21과 같은 실제 요청을 단일 TRIAL-002의 관찰 요약과 대조한다. 원시 CLI 이벤트 파일·시각, 최초 재현 명령·실패 출력·계획 발언 원문은 미확인이다. 대상 코드 식별자를 로그 발췌로 위장하지 않는다. 입력과 행동의 대응을 Prompt 단독 효과·반복성·결정론적 준수·현재 Desktop/계정·다른 모델의 근거로 확대하지 않는다. S16–S18의 교육용 요청을 그대로 실행했다는 뜻이 아니다. 전체 실험 제약은 원문에 보존한다.
 
 Beginner Explanation: 왼쪽은 실제로 무엇을 해 달라고 했는지, 오른쪽은 남아 있는 기록으로 무엇을 확인할 수 있는지다. 같은 단어를 되풀이하지 않고 테스트 대상, 제품 호출 경로, 수정 전 보고의 외부 근거를 찾는다.
 
@@ -1292,8 +1305,7 @@ Advanced Insight: Compare instructions with documented observation summaries. A 
 
 C++ Vision Bridge: N/A.
 
-Demo Operation:
-DEMO-05의 정적 도입으로 Lecture2분을 사용한다. 좌우01–03을 같은 번호로 짚고, 04 실제 diff는 S23, 05 실제 검증 결과는 S24에서 확인한다. 실제 Prompt 발췌·번역과 관찰 요약의 구분을 화면에서 유지한다. 새 Trial·현재 Desktop 실행·터미널/계획 원문 캡처를 보여주지 않는다.
+Demo Operation: DEMO-05의 정적 도입으로 Lecture2분 유지. S21과 같은 요청의01–03을 왼쪽에서 회수해 오른쪽 관찰과 짝짓는다.04 실제 diff는 S23,05 검증 결과는 S24다. 관찰 요약·실제 대상 코드 식별자와 원시 로그를 구분한다. 새 Trial·현재 제품 실행·가짜 캡처를 보여주지 않는다.
 
 Audience Interaction: 요청 문장과 오른쪽 근거를 한 행씩 따라오게 한다. 실습·공개 응답을 요구하지 않는다.
 
@@ -1303,11 +1315,9 @@ Transition:
 Time Management:
 0:00–0:15 출처 구분, 0:15–0:45 재현, 0:45–1:10 호출 관계, 1:10–1:40 편집 전 계획, 1:40–2:00 다음 결과 연결. Lecture2분을 유지한다. 지시 전문 낭독·일반 디버깅 강의·S23 코드 diff·S24 결과 수치 설명을 추가하지 않는다. 실측 리허설은 UNVERIFIED다.
 
-Fallback:
-production/ACT_1.pptx S22 또는 production/preview/act1/S22.png의 정적 대응 표를 사용한다. 원시 CLI 이벤트 파일이 없어도 확인된 관찰 요약이라는 한계를 밝히고 진행한다. 상세한 변경·검증은 기존 S23/S22로 이어 간다. 최종 로컬 검토는 production/evaluation/S17_REQUEST_ACTION_REVISION.md를 따른다.
+Fallback: production/ACT_1.pptx S22 또는 production/preview/act1/S22.png의 정적 대응 표를 사용한다. 원시 CLI 캡처가 없어도 기존 관찰 요약의 한계를 밝히고 S23/S24로 이어간다. 최종 로컬 대조는 production/evaluation/S21_TRIAL_REQUEST_REVISION.md를 따른다.
 
-Validation Status:
-ALIGNED — DEC-0044에 따라 실제 지시와 관찰 요약의 대응·S23/S22 연결을 정렬했다. 최종 PPT/내장 Notes/PNG 대조와 렌더링 결과는 production/evaluation/S17_REQUEST_ACTION_REVISION.md에서 기록한다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0111에 따라 S21과 같은 실제 입력으로 연결하고 기존 관찰을 유지한다. 최종 PPT·내장 Notes·렌더 대조는 production/evaluation/S21_TRIAL_REQUEST_REVISION.md에 기록한다. Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S23 — 조사에서 한 줄 변경까지
 

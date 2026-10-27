@@ -11449,3 +11449,78 @@ YES — separate requested intent, repository facts and completion evidence.
 Render the final Full and ACT1 files, check the three changed slides and
 surrounding sequence, compare retained slides and Notes, then push normally.
 Keep Windows, product, room and rehearsal verification open.
+
+# DEC-0111 — Annotate the actual request before reviewing its execution
+
+## Status
+
+ACCEPTED — explicit user approval of actual TRIAL-002 request excerpts.
+
+## Date
+
+2026-10-27
+
+## Context
+
+The user asks why S22 changes the request shown on S21 and approves using
+the actual Trial input to maintain continuity with its observed behavior.
+
+## Problem
+
+The teaching request and actual request differ, including the instruction
+to continue after a visible plan. Switching inputs requires an extra
+explanation and distracts from request-to-evidence correspondence.
+
+## Decision
+
+Use actual TRIAL-002 excerpts translated on S21. Keep its four headings:
+Goal, Constraints, Process and Verification. Annotate five teaching roles
+outside the request. Point Context to the repository/investigation target;
+do not insert a synthetic Context paragraph. Use the same three Process
+instructions and01-03labels on S21 and S22. Keep observed behavior on S22,
+the edit on S23 and verification on S24. Update S20's transition Notes.
+Keep119slides,417minutes and every per-slide time and Mode allocation.
+
+## Rationale
+
+Read one actual input for its requested responsibilities, then verify
+correspondence against the existing bounded observation record.
+
+## Alternatives
+
+Keep the teaching input and explain the switch; this preserves a preventable
+discontinuity. Add a Context paragraph to the actual input; this invents
+evidence. Show the entire control-heavy prompt on screen; this harms clarity.
+
+## Trade-offs
+
+Use selected excerpts and retain the complete original in Notes/source.
+Move the existing C++ application footer to a Notes cue. Keep the crop
+specification example outside the request as a teaching interpretation.
+Do not imply a short-versus-structured prompt comparison experiment.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S21/S22 source and audience footers; S20-S22 transitions/Notes/Map;
+current claim and template metadata; Full/ACT1 PPTX and previews;
+delivery identities. Other slides and Demo repository remain unchanged.
+
+## Evidence
+
+User instruction; unchanged TRIAL-002 Prompt used and observation record
+in DEMO_MATRIX.md. Existing actual call path, diff and verification stay.
+No new Trial, product run, repeated comparison or causal outcome claim.
+
+## Training Relevance
+
+YES — distinguish original input, teaching annotations and observed output.
+
+## Follow-up
+
+Check actual headings, translations and identical Process excerpts;
+validate Notes and budgets, render Full/ACT1 and inspect the sequence.
+Push normally. Keep Windows, product/account, room and rehearsal unverified.

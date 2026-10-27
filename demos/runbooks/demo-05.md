@@ -1,5 +1,7 @@
 # DEMO-05 — Task Specification and Crop Boundary
 
+> Current DEC-0111 /119slides/417minutes. S21 reads the actual TRIAL-002 input; S22 pairs its same Process01-03with observed summaries. S23/S24 retain CAPTURED8minutes. S21/S22 remain outside that Demo slot. Use final Full/ACT1 static files; no new Trial, live invocation or live approval. Earlier dated notices are history.
+
 > Current DEC-0108 /119slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): S22. Current static files and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Former S15 is deleted; all later current IDs move down one. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.
 
 > Current DEC-0104 /120slides/420minutes. Current Map references (including callbacks, not all scheduled Demo slots): S23. Use [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md) for active paths/hashes and local-only readiness. Earlier literal Slide IDs below retain their historical edition. No new Trial or Live approval.
@@ -117,8 +119,9 @@ Static playback is read-only and requires no reset. Any future Live reproduction
 ## Transition
 
 S24 → S25: request changed files, check evidence and unverified limits so a
-human can judge completion. S23/S22 match the actual TRIAL-002 request, not
-an execution of the teaching request on S19.
+human can judge completion. S21 presents the actual TRIAL-002 request;
+S22-S24 follow that same request through process, edit and verification.
+S16-S18 remain educational examples, not an executed comparison.
 
 ## Evidence
 

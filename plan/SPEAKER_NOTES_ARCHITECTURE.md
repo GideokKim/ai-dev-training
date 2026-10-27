@@ -1,6 +1,6 @@
 # STEP 08 — Speaker Notes Architecture
 
-## 현재 제작 기준 — DEC-0108 / DEC-0109 / DEC-0110 (2026-10-27)
+## 현재 제작 기준 — DEC-0108 / DEC-0109 / DEC-0110 / DEC-0111 (2026-10-27)
 
 현재 **119장·417분(6시간57분)**. 이전 S15 제조 검사 전환 장을 삭제하고
 이전 S16–S120을 S15–S119로 한 칸 당긴다. S14는 정보 접근과 사람의 최종 판단을
@@ -11,7 +11,10 @@ Mode Lecture186/Demo49/Case105/Reflection22/Transition23/Q&A32분.
 다른 장의 내용·장별 시간/Mode·근거·Trial/State/Beat/Section ID는 유지한다.
 ACT1 S16–S18은 DEC-0110에 따라 같은 crop 수정 요청으로 연결한다.
 빠진 기준 확인→허용 범위 비교→구체 요청 순서이며 교육용 예시다.
-S19–S21의 일반화·문장 대응과 S22 이후 실제 TRIAL-002는 구분한다.
+S19–S20에서 일반화한 뒤 S21은 DEC-0111에 따라 실제 TRIAL-002 요청을
+발췌·번역하고 다섯 역할을 원문 밖 주석으로 연결한다. Context 문단은 만들지 않는다.
+S22는 같은 과정 지시 01–03을 행동 기록과 대조한다. S16–S18은 교육용 예시다.
+[실제 요청 연결](S21_TRIAL_REQUEST_MAP.md)을 따른다.
 [현재 ACT1 사례](ACT1_SINGLE_CROP_CASE.md)를 따른다.
 Native 표는 S53/S65, 차트는 S69/S96, 마지막 팁 찾아보기는 S116–S118이다.
 12Templates/28Variants·19Notes 필드는 유지한다. 제품·Windows·교육장·리허설은

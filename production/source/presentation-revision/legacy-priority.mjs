@@ -14,24 +14,51 @@ export function priorityFactories(factories,H){
    return s;
   },
   S16(p){
-   const s=H.frame(p,'S16','더 긴 Prompt보다 분명한 경계','ACT 1 · 다섯 항목을 실제 요청 문장으로',
-    '교육용 Before / After · 실제 Trial Prompt나 우월성 비교 실험이 아님',
-    '완료 조건과 C++ 적용은 교육용 예시입니다. 특정 Windows·빌드 환경을 검증한 것은 아닙니다.','CONCEPTUAL');
-   text(s,'처음 요청',64,209,296,37,27,C.sub,true);
-   text(s,'“crop test\n고쳐줘.”',64,282,292,123,41,C.ink,true);
-   arrow(s,379,346,46,27);
-   text(s,'요청에 담은 문장',466,209,750,37,27,C.teal,true);
-   const rows=[
-    ['목표','crop 경계 실패를 조사하고 고쳐줘.'],
-    ['맥락','실패 테스트·관련 코드는 저장소에서 찾아줘.'],
-    ['제약','끝 좌표 제외 명세·기존 API·의존성을 지켜줘.'],
-    ['과정','재현·조사 뒤 계획을 알리고 최소 수정해줘.'],
-    ['검증','crop 관련·전체 테스트를 실행해줘.\nCLI 샘플(가능하면)·변경 확인도 보고해줘.']
+   // DEC-0111: retain the four actual headings and annotate five roles outside.
+   const s=H.frame(p,'S16','실제 요청에는 무엇을 담았을까?','ACT 1 · 실제 요청에서 다섯 항목 찾기',
+    'TRIAL-002 · 실제 요청 발췌·번역 · 다섯 항목은 교육용 주석',
+    '명세 해석 예는 원문 밖 설명입니다. 단일 CLI 관찰이며 비교 실험·성과 보장이 아닙니다.','OBSERVED_PRODUCT / TEACHING_MODEL');
+   rect(s,64,184,850,382,C.white,C.line,1.5);
+   text(s,'TRIAL-002 · 실제 요청 발췌·번역',84,194,810,28,23,C.ink,true);
+   line(s,84,229,810);
+   const label=(value,y)=>text(s,value,84,y,154,30,19,C.sub,false,H.CODE);
+   const body=(value,y)=>text(s,value,250,y,644,29,23.5,C.ink);
+   label('Goal:',239);
+   body('이 저장소의 crop 경계 테스트 실패를 조사하고 고쳐줘.',239);
+   label('Constraints:',282);
+   body('끝 좌표 제외 명세 [x_start, x_end)를 지켜줘.',280);
+   body('무관한 API 변경·의존성 추가 없이 최소 수정해줘.',310);
+   label('Process:',352);
+   [
+    '01  먼저 현재 실패를 재현해줘.',
+    '02  관련 구현과 호출 경로를 조사해줘.',
+    '03  수정 전 짧은 계획을 알리고, 승인 대기 없이 계속해줘.'
+   ].forEach((value,i)=>{
+    if(i===1)rect(s,287,383,208,29,C.amber);
+    body(value,351+i*32);
+   });
+   label('Verification:',480);
+   body('관련·전체 테스트를 실행해줘.',477);
+   body('가능하면 기존 입력으로 CLI를 실행하고, 최종 변경을 확인해줘.',507);
+   body('변경 파일과 정확한 검증 근거를 보고해줘.',537);
+   text(s,'요청에서 읽는 다섯 역할',966,194,250,28,22,C.sub,true);
+   const annotations=[
+    ['목표 · Goal','고칠 실패',239,253,C.teal],
+    ['제약 · Constraints','보존·허용 범위',293,307,C.teal],
+    ['과정 · Process','작업 순서·수정 전 보고',355,369,C.teal],
+    ['맥락 · Context','조사할 대상·위치',409,423,C.warn],
+    ['검증 · Verification','확인·보고할 근거',489,503,C.teal]
    ];
-   rows.forEach((r,i)=>{const y=249+i*45;line(s,466,y,750);text(s,r[0],466,y+5,146,37,25,C.teal,true);text(s,r[1],626,y+5,590,i===4?58:37,25,C.ink,i===2||i===4);});
-   rect(s,64,510,1152,45,C.pale);
-   text(s,'완료 조건 예 · 4열 입력의 crop 1 3 → 원본 열 1·2, 폭 2',80,516,1120,33,27,C.teal,true);
-   text(s,'C++에도: 출력·API/ABI 보존 범위와 Release 검증 조건을 먼저 정한다.',64,566,1152,32,25,C.sub);
+   annotations.forEach(([title,detail,y,anchor,color])=>{
+    line(s,914,anchor,36,color,1.5);
+    text(s,title,966,y,250,30,22,color,true);
+    text(s,detail,966,y+31,250,28,21,C.sub);
+   });
+   // The Context annotation reads the actual investigation target in Process.
+   line(s,289,412,202,C.warn,1.5);
+   s.shapes.add({geometry:'custom',name:'Context annotation leader',position:{left:491,top:412,width:423,height:11},fill:'none',line:{fill:C.warn,width:1.5},customPaths:[{width:423,height:11,commands:[{moveTo:{x:0,y:0}},{lineTo:{x:409,y:0}},{lineTo:{x:409,y:11}},{lineTo:{x:423,y:11}}]}]});
+   rect(s,64,578,1152,27,C.pale);
+   text(s,'명세 해석 예 · 4열 입력의 crop 1 3 → 원본 열 1·2, 폭 2',80,578,1120,27,22,C.teal,true);
    return s;
   },
   S20(p){

@@ -1,5 +1,7 @@
 # Current presentation source
 
+DEC-0111: current S21 uses actual TRIAL-002 excerpts in historical `legacy-priority.mjs` factory S16. Keep four source headings and five external annotations; Context reads the Process investigation target. Current S22 uses retained `act01.mjs` factory S17 and the same Process01-03. Source audience footers use120IDs S22/S23; the final adapter produces119IDs. Preserve all native evidence owners and current Notes.
+
 DEC-0110 keeps current S16-S18 on one educational crop request. Edit historical factories S11/S12/S13 in `prompt-timelines.mjs`; preserve the final119-ID adapter and all image provenance. Use a natural request on current S18 and conditional change authority on S17. Current Map/Notes remain authoritative.
 
 DEC-0109 restores the original S14 visual by removing the119-boundary layout overlay. Keep the119-ID migration, S15 deletion, S14 Q&A and417-minute schedule unchanged.

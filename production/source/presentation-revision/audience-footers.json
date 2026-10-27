@@ -173,21 +173,23 @@
     },
     "S22": {
       "lines": [
-        "요청 예시"
+        "실제 요청 발췌·번역 · 다섯 항목은 교육용 주석"
       ],
       "originalLines": [
         "교육용 Before / After · 실제 Trial Prompt나 우월성 비교 실험이 아님",
         "완료 조건과 C++ 적용은 교육용 예시입니다. 특정 Windows·빌드 환경을 검증한 것은 아닙니다."
-      ]
+      ],
+      "reason": "Use actual TRIAL-002 excerpts with external role annotations; keep the specification example separate."
     },
     "S23": {
       "lines": [
-        "실제 요청 발췌와 관찰 기록 · 앞선 요청 예시와 별도"
+        "같은 요청의 과정 지시와 관찰 기록 · 단일 CLI 실행"
       ],
       "originalLines": [
         "TRIAL-002 · 요청 발췌·번역 / 관찰 기록 요약 · 2026-09-28 · Codex CLI 0.154.0",
         "원문 로그 캡처 아님 · S22 예시의 실행 결과 아님 · 단일 CLI 관찰이며 Prompt 단독 효과는 미입증"
-      ]
+      ],
+      "reason": "Continue the same actual request from current119-ID S21; retain observed-summary scope."
     },
     "S24": {
       "lines": [
