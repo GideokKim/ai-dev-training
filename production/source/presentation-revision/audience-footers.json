@@ -385,14 +385,12 @@
       ]
     },
     "S47": {
-      "lines": [
-        "RepoQA(2024) · 연구 참고",
-        "현재 Codex나 이 Routing의 업무 성능을 검증한 결과는 아님"
-      ],
+      "lines": [],
       "originalLines": [
         "교육용 확인 예 · STATE-00-FIXED crop 발췌 / RepoQA(2024): arxiv.org/abs/2406.06025",
         "세 질문은 교육용 기준 · RepoQA가 이 Routing·현재 Codex의 업무 성능을 검증한 것은 아님"
-      ]
+      ],
+      "changeDecision": "DEC-0105; RepoQA moves to Notes/reference, originalLines preserved"
     },
     "S48": {
       "lines": [

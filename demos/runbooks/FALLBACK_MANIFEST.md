@@ -1,17 +1,17 @@
 # Static Fallback Manifest
 
-Current: DEC-0104 /120slides/420minutes. READY — LOCAL STATIC FILES ONLY.
-Existing44reference roles/evidence remain unchanged; IDs/paths migrate by3 from former S56. File hashes are refreshed.
+Current: DEC-0105 /120slides/420minutes. READY — LOCAL STATIC FILES ONLY.
+Existing44reference roles/evidence/IDs/paths remain unchanged. S47 is a teaching check slide outside this Demo inventory; current PPT/Notes/montage hashes are refreshed.
 S04 and new S56-S58 are documented teaching tips, excluded from this Demo inventory.
 Company-account use, Windows, room and timed rehearsal UNVERIFIED. No Live approval.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`c595f63d852673194aa2dd658cc1086bd66669e263d68646fb3c47b32cd8a36d`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`26c43bbb02cad047838ad698a8942ff431c3a44d2cff3020ff3b69c72f23f1a7`.
-- `production/preview/full/montage.png` SHA-256:`9665e389361d25d6d7f16705f92cee78c4b540dc67c29dcb088548a5018bb532`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`2263323489fbe59470b1ca2b5927a67cf18c9aa6fb35760560f3f701b3b61b6d`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`694af6eef8212ba01107b4b6cf720c2ec530ff2f90f9c918f2c8d91c7aae5703`.
+- `production/preview/full/montage.png` SHA-256:`b269f6895943f702765a96e715236eb24a8460aa1cfde2423e91f3d51af47e30`.
 
-[Current scope-tip validation](../../production/evaluation/AGENTS_SCOPE_TIPS_RESULT.md).
+[Current S47 validation](../../production/evaluation/S47_CODE_CHECK_REVISION.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|

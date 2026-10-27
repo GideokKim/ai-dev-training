@@ -502,16 +502,17 @@ Allocated Time: 4 minutes
 
 Mode Split: Lecture 4 minutes
 
-Primary Message: 함수 이름이나 찾았다는 답만 받지 말고 파일·함수·관련 줄, 요청 조건과 코드의 대응, 필요한 호출부·테스트 기대값을 확인한다. 세 질문은 교육용 기준이며 RepoQA의 채점 기준이 아니다.
+Primary Message: 함수 이름이나 찾았다는 답만 받지 말고 파일·함수·관련 줄, 요청 조건과 코드의 대응, 필요한 호출부·테스트 기대값을 확인한다. 세 질문은 이 교육의 업무용 확인 기준이다.
 
 Opening Question: “AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?”
 
-Speaker Flow: 1. (0:00–0:40) S46에서 정보의 존재와 활용을 구분한 뒤, 코드에서도 찾았다는 답을 무엇으로 확인할지 묻는다. 왼쪽 요청은 교육용이며 새로 실행한 Prompt가 아니다.
-2. (0:40–2:40) 기존 crop 코드 일부를 가리키며 오른쪽 세 질문을 짚는다.01 파일·함수·관련 줄을 특정했는가,02 끝 좌표 제외라는 요청과 실제 코드가 맞는가,03 필요한 호출부·테스트 기대값과도 맞는가. 관련 줄만 떼어 전체 구현 정당성을 단정하지 않는다.
-3. (2:40–3:20) 보조 영역 RepoQA를 짧게 소개한다. 기능 설명으로 긴 코드 속 함수를 찾는 과제를 따로 평가했다. 이번 세 질문은 그 논문의 채점 기준이 아니다.
-4. (3:20–4:00) 이제 확인할 근거를 어디서 찾게 할지 S48의 위치 안내 설계로 넘긴다.
+Speaker Flow: 1. (0:00–0:40) S46의 “정보가 있다는 것과 활용했다는 것은 다르다”를 받아, 코드에서도 찾았다는 답을 무엇으로 확인할지 묻는다. 왼쪽 요청은 교육용이며 새 탐색 실행이 아니다.
+2. (0:40–1:20) 01 위치: 파일 경로·함수·관련 줄을 특정한다. 이름만 같은 함수나 파일 경로만 제시한 답으로는 요청과의 관련성을 확인하기 어렵다.
+3. (1:20–2:20) 02 동작: 보존된 row[x_start : x_end]를 끝 좌표 제외 명세와 대조한다. 새 코드 실행이나 전체 구현 검증을 했다고 말하지 않는다.
+4. (2:20–3:20) 03 주변 근거: 필요한 호출부와 테스트 기대값을 연결해 확인하도록 요청한다. 한 코드 줄만으로 전체 구현의 정당성을 확정하지 않는다. 새로운 호출부·테스트 결과는 만들지 않는다.
+5. (3:20–4:00) 아래의 “확인할 근거를 정했다면, 어디서 찾게 할까?”를 가리킨다. S48의 요청→기본 안내→상세 명세 경로로 넘긴다. RepoQA는 선택 참고이며 정규 발표 흐름에서 소개하지 않는다.
 
-Evidence / Source: TEACHING_MODEL / RESEARCH. 코드 출처: Demo STATE-00-FIXED의 src/graypipe/transform.py, crop 6–16행 중13행 row[x_start : x_end] 발췌. 동일한 구현 수정은 기존 TRIAL-002/STATE-00-FIXED 기록에 보존돼 있다. 교육용 요청은 구성 예이며 새 탐색 실행이나 원문 Trial Prompt가 아니다. 보조 연구: RepoQA(2024), https://arxiv.org/abs/2406.06025 / CLM-0015 / SRC-0204. DEC-0061.
+Evidence / Source: 화면은 TEACHING_MODEL. 관련 연구는 Notes/참고 자료에만 보존한다. 코드 출처: Demo STATE-00-FIXED의 src/graypipe/transform.py, crop 6–16행 중13행 row[x_start : x_end] 발췌. 동일한 구현 수정은 기존 TRIAL-002/STATE-00-FIXED 기록에 보존돼 있다. 교육용 요청은 구성 예이며 새 탐색 실행이나 원문 Trial Prompt가 아니다. 선택 참고 연구: RepoQA(2024), https://arxiv.org/abs/2406.06025 / CLM-0015 / SRC-0204. DEC-0061/DEC-0105. 참고 해설: references/research/repoqa.md. 정규 발표에서는 연구 소개를 생략하며 이 자료를 세 업무용 질문의 직접 검증 근거로 사용하지 않는다.
 
 보존된 상세 출처: 교육용 확인 예 · STATE-00-FIXED crop 발췌 / RepoQA(2024): arxiv.org/abs/2406.06025
 
@@ -521,7 +522,7 @@ Claim Boundary: 세 확인 질문은 이 교육의 업무용 모델이며 공식
 
 Beginner Explanation: 찾았다는 답을 받으면 파일 위치와 관련 코드를 확인하고, 내가 물은 조건에 맞는지 대조한다. 필요한 경우 호출부와 관련 테스트의 기대값도 확인한다.
 
-Advanced Insight: 보존할 연구 조건: RepoQA는 자연어 기능 설명+코드 입력에서 해당 함수 코드를 반환하게 하고 정답 함수와 유사도를 비교한 함수 검색 과제다.50개 저장소/5개 언어/500개 과제, 주 평가 코드 입력16K(CodeLlama tokenizer 기준)는 실험 조건이며 전체 Prompt 길이나 현재 Codex 한도가 아니다. 모델·언어별 함수 찾기 성능 차이를 관찰한 범위이고 Lost in the Middle의 위치별 곡선을 재현한 연구가 아니다. 이 세 업무용 질문의 효과를 측정한 연구로 설명하지 않는다.
+Advanced Insight: 선택 참고(정규 발표 제외). 보존할 연구 조건: RepoQA는 자연어 기능 설명+코드 입력에서 해당 함수 코드를 반환하게 하고 정답 함수와 유사도를 비교한 함수 검색 과제다.50개 저장소/5개 언어/500개 과제, 주 평가 코드 입력16K(CodeLlama tokenizer 기준)는 실험 조건이며 전체 Prompt 길이나 현재 Codex 한도가 아니다. 모델·언어별 함수 찾기 성능 차이를 관찰한 범위이고 Lost in the Middle의 위치별 곡선을 재현한 연구가 아니다. 이 세 업무용 질문의 효과를 측정한 연구로 설명하지 않는다.
 
 C++ Vision Bridge: N/A.
 
@@ -531,11 +532,11 @@ Audience Interaction: “crop 함수입니다라는 이름만 받으면 충분�
 
 Transition: “확인할 근거를 정했다면, 그 명세와 코드를 어디서 찾게 할까요?”
 
-Time Management: Lecture4분 유지. 도입40초, 세 확인 질문2분, RepoQA 보조40초, S48 handoff40초.50/5/500,16K, 모델 순위·채점 구현은 발표 화면에서 강의하지 않고 필요한 질문 때만 Notes의 범위 안에서 설명한다.
+Time Management: Lecture4분 유지. S46 연결40초, 위치 확인40초, 명세·코드 대응60초, 주변 근거60초, S48 연결40초. 논문 소개 시간을 추가하지 않는다. 청중 질문이 있을 때만 선택 참고 자료를 안내하며 별도 강의나 새 실험으로 확장하지 않는다. 실제 리허설 UNVERIFIED.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S47; production/preview/act2/S47.png. 코드·연구 도식은 표시된 교육용/발췌 범위다. 최종 패키지·PNG·Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md를 따른다. 실제 실행 캡처나 현재 제품 실행을 뜻하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S47; production/preview/act2/S47.png. 화면은 코드 발췌와 교육용 확인 질문이며 실제 Agent 탐색 실행 캡처가 아니다. 현재 PNG/Notes 대조는 production/evaluation/S47_CODE_CHECK_REVISION.md를 따른다. RepoQA는 Notes와 references/research/repoqa.md의 선택 참고다.
 
-Validation Status: REVIEWED — DEC-0061의 질문·기존 코드 인용·보조 연구·S46/S45 운영 연결을 대조했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md에 기록한다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
+Validation Status: DEC-0105 — S46→S47→S48 연결, 화면의 세 확인 질문, 코드 출처와 Notes의 관련 연구 경계를 대조한다. 최종 렌더링/패키지 결과는 production/evaluation/S47_CODE_CHECK_REVISION.md에 기록한다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
 
 ## S48 — 필요한 상세 정보로 가는 길
 

@@ -1278,24 +1278,24 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **ACT:** ACT 2
 - **Section:** 2E
 - **Working Title:** AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?
-- **Primary Role:** 코드 탐색 결과를 파일 위치·요청과의 동작 일치·필요한 주변 근거로 확인하는 업무 질문을 제시한다. RepoQA는 보조 연구로 둔다.
+- **Primary Role:** 코드 탐색 결과를 파일 위치·요청과의 동작 일치·필요한 주변 근거로 확인하는 업무 질문을 제시한다. RepoQA는 Notes/참고 자료에만 보존한다.
 - **Audience Question:** “AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?”
-- **Core Message:** 함수 이름이나 찾았다는 답만 받지 말고 파일·함수·관련 줄, 요청 조건과 코드의 대응, 필요한 호출부·테스트 기대값을 확인한다. 세 질문은 교육용 기준이며 RepoQA의 채점 기준이 아니다.
+- **Core Message:** 함수 이름이나 찾았다는 답만 받지 말고 파일·함수·관련 줄, 요청 조건과 코드의 대응, 필요한 호출부·테스트 기대값을 확인한다. 세 질문은 이 교육의 업무용 확인 기준이다.
 - **Story Beat:** BEAT-013 — Long-context research supports a bounded caution
 - **Curriculum Trace:** ACT 2 — bounded research caution to task-specific code evidence, then navigation design.
-- **Evidence Type:** TEACHING_MODEL / RESEARCH
-- **Claim Status:** TEACHING MODEL — 업무용 확인 질문; FROZEN WITH SCOPE — 보존된 crop 구현 발췌와 RepoQA의 제한된 연구 과제. 새로운 탐색 실행·정확도·성능·토큰 효과나 현재 Codex 동작을 주장하지 않는다.
-- **Visual Concept:** 왼쪽 교육용 crop 요청에서 보존된 구현 일부로 연결하고, 오른쪽에 위치/요청한 동작/주변 근거라는 세 확인 질문을 둔다. 코드 발췌는 새 Agent 탐색 결과가 아니다. 아래 작은 보조 영역에 RepoQA가 기능 설명으로 함수 찾기를 평가한 연구임을 적는다. 데이터셋 수·16K 코드 입력 조건·모델/언어별 차이·함수 유사도 평가는 Notes에 보존한다.
+- **Evidence Type:** TEACHING_MODEL
+- **Claim Status:** TEACHING MODEL — 업무용 확인 질문과 보존된 crop 구현 발췌. 새로운 탐색 실행·정확도·성능·토큰 효과나 현재 Codex 동작을 주장하지 않는다. RepoQA의 제한된 연구 범위는 Notes의 관련 연구로 보존하며 세 질문의 직접 검증 근거로 사용하지 않는다.
+- **Visual Concept:** 왼쪽 교육용 crop 요청에서 보존된 구현 일부로 연결하고, 오른쪽에 위치/요청한 동작/주변 근거라는 세 확인 질문을 둔다. 코드 발췌는 새 Agent 탐색 결과가 아니다. RepoQA 설명 영역과 연구 footer는 화면에서 빼고 하단에 “확인할 근거를 정했다면, 어디서 찾게 할까?”로 S48을 연결한다. 연구 서지·과제·조건·한계는 Notes와 references/research/repoqa.md에 보존한다.
 - **Demo / Case Connection:** STATE-00-FIXED의 src/graypipe/transform.py, crop 일부 row[x_start : x_end]를 기존 사례의 교육용 확인 예로 인용한다. 실제 파일 경로·코드 한 줄을 인용한 것이며 이 요청을 실행하거나 Agent가 이번에 찾았다는 관찰이 아니다. 새 Trial·테스트·PASS/FAIL을 만들지 않는다.
 - **Beginner Payoff:** 찾았다는 답에서 구체적인 위치와 관련 코드를 확인하는 질문을 가져간다.
 - **Advanced Payoff:** 코드 위치의 특정, 요청 의미와의 대응, 필요한 연결 근거를 구분하며 검색 연구와 실제 Agent 업무 평가를 혼동하지 않는다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 업무에서 확인할 질문을 중심에 두고 기존 crop 한 줄을 예로 짚는다. 경로/함수명 제시만으로 정확한 관련성을 보장하지 않고, 반대로 코드 한 줄만으로 전체 구현의 정당성도 확정하지 않는다. 필요 범위의 명세·호출부·테스트 기대값과 대조한다. RepoQA는 코드 검색도 별도로 평가한 연구라는 보조 연결이며 이번 세 질문을 검증한 연구나 Routing 개선 근거가 아니다.
+- **Speaker Intent:** S46의 정보 존재/활용 구분을 코드 확인 질문으로 회수한다. 기존 crop 한 줄을 요청 명세에 대조하고 필요한 호출부·테스트 기대값까지 확인하도록 한다. 한 줄만으로 전체 구현의 정당성을 확정하지 않는다. 정규 설명에서 RepoQA 소개를 생략하며 선택 질문이 있을 때 Notes의 관련 연구를 안내한다. 같은4분 안에서 코드 확인과 S48 연결에 집중한다.
 - **Transition:** “확인할 근거를 정했다면, 그 명세와 코드를 어디서 찾게 할까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-013, OQ-006, STATE-00-FIXED, TRIAL-002 (existing crop implementation only), CLM-0015, SRC-0204, DEC-0052, DEC-0060, DEC-0061
-- **Audience Footer:** RepoQA(2024) · 연구 참고 / 현재 Codex나 이 Routing의 업무 성능을 검증한 결과는 아님
+- **Evidence / Decision References:** BEAT-013, OQ-006, STATE-00-FIXED, TRIAL-002 (existing crop implementation only), DEC-0052, DEC-0060, DEC-0061, DEC-0105; related research in Notes only: CLM-0015, SRC-0204
+- **Audience Footer:** 없음 — M 연계 표시는 유지; 코드 발췌/새 탐색 기록 아님은 본문에 유지
 
 
 #### S48 — 필요한 상세 정보로 가는 길

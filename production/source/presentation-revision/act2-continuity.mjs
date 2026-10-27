@@ -77,8 +77,8 @@ export async function loadAct2ContinuitySlides(root) {
   },
   S40(p){
    const s=make(p,'S40','AI가 필요한 코드를 찾았다는 것을\n무엇으로 확인할까?','ACT 2 · 코드 탐색의 결과를 근거로 확인',
-    '교육용 확인 예 · STATE-00-FIXED crop 발췌 / RepoQA(2024): arxiv.org/abs/2406.06025',
-    '세 질문은 교육용 기준 · RepoQA가 이 Routing·현재 Codex의 업무 성능을 검증한 것은 아님','TEACHING_MODEL / RESEARCH');
+    '교육용 확인 예 · STATE-00-FIXED crop 발췌',
+    '세 질문은 교육용 기준 · 코드 발췌는 새 Agent 탐색 결과가 아님','TEACHING_MODEL');
    text(s,'확인할 작업 요청',64,222,452,32,25,C.ink,true);
    text(s,'업무용 확인 질문',576,222,640,32,25,C.teal,true);
    const request=rect(s,64,265,452,88,C.white,C.line,1.5);request.borderRadius=10;
@@ -101,9 +101,7 @@ export async function loadAct2ContinuitySlides(root) {
     text(s,detail,634,y+42,582,34,25,C.sub);
     if(i<2)line(s,576,y+80,640);
    });
-   rect(s,64,559,1152,43,C.pale);
-   text(s,'보조 근거 · RepoQA',80,565,267,30,23,C.teal,true);
-   text(s,'기능 설명으로 함수를 찾는 과제를 평가한 연구',366,565,834,30,24,C.ink);
+   text(s,'확인할 근거를 정했다면, 어디서 찾게 할까?',64,559,1152,43,28,C.teal,true);
    return s;
   },
   S41(p){

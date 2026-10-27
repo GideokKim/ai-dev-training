@@ -11006,3 +11006,78 @@ Finalize all seven decks, render every slide, inspect the new sequence and
 lookup, verify retained object/media/evidence and Notes/time alignment,
 then commit and push normally. Keep Windows, room, product-account and
 rehearsal gates unverified. Do not update the Demo repository, Site or bundle.
+
+# DEC-0105 — Focus S47 on code checks and move RepoQA to Notes
+
+## Status
+
+ACCEPTED — explicit user instruction to move RepoQA off the slide.
+
+## Date
+
+2026-10-27
+
+## Context
+
+The user reviews why RepoQA appears in S47 and approves retaining it in
+Notes and references while keeping the slide focused on code-check questions.
+
+## Problem
+
+The research introduction interrupts the practical question and can imply
+that RepoQA validates the course's three checks or its routing design.
+
+## Decision
+
+Remove the RepoQA strip and research footer from S47. Retain the teaching
+crop request, preserved code excerpt and three checks: location, requested
+behavior and necessary surrounding evidence. Use the bottom question to
+connect to S48. Preserve the excerpt label and the distinction from a new
+Agent search result. Keep RepoQA's citation, task, conditions and limits in
+Notes and references/research/repoqa.md as optional related research.
+Use the existing4Lecture minutes for the checks and handoff; do not add
+slides, change allocations or run a new Trial. Align current metadata,
+source, Full/ACT2 Notes, decks and previews. Keep S46 and S48 unchanged.
+
+## Rationale
+
+Let the audience follow information use, concrete code checks and the path
+to detailed evidence without a second paper introduction in the middle.
+Keep the research traceable without presenting indirect support as proof.
+
+## Alternatives
+
+Delete RepoQA from the project; this would discard useful scoped research.
+Retain its screen panel; this preserves the interruption the user identified.
+
+## Trade-offs
+
+Reduce on-screen research detail while preserving it for optional questions.
+Keep120slides/420minutes, ACT2's22slides/90minutes, all per-slide budgets,
+12templates/28variants and the19-field Notes schema unchanged.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESEARCH-001.
+
+## Affected Artifacts
+
+S47 source, audience-footer configuration, current map/template/claim/story
+metadata, Full/ACT2 Notes and PPTX, previews, references and file identities.
+All other slides, actual code/evidence, Demo repository, Site and bundle stay.
+
+## Evidence
+
+User review and explicit approval; the existing S47 teaching example and
+SRC-0204/CLM-0015 research record. No new search, Trial or measured effect.
+
+## Training Relevance
+
+YES — separate the practical confirmation questions from related research
+and preserve a clear distinction between evidence and interpretation.
+
+## Follow-up
+
+Render the final Full and ACT2 decks, inspect S46-S48 and confirm unchanged
+other slides, Notes schema, budgets, code excerpt and native evidence.
+Commit/push normally. Keep Windows, room and rehearsal unverified.

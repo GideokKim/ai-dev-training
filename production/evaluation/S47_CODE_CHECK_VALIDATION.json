@@ -1,0 +1,67 @@
+{
+  "status": "LOCAL_PASS",
+  "decision": "DEC-0105",
+  "baseline": "e10e785",
+  "slideCount": 120,
+  "minutes": 420,
+  "ACTMinutes": [
+    45,
+    64,
+    90,
+    96,
+    85,
+    40
+  ],
+  "modes": {
+    "Transition": 26,
+    "Lecture": 186,
+    "Reflection": 22,
+    "Case": 105,
+    "Demo": 49,
+    "Q&A": 32
+  },
+  "S47Minutes": 4,
+  "notesFields": 19,
+  "renderedPNGCount": 142,
+  "unchangedFullViewsPixelChecked": 119,
+  "fullAct2PixelParity": 22,
+  "unchangedPackagePartsVerified": 644,
+  "otherACTDecks": "not modified",
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "slides": 120,
+      "sha256": "2263323489fbe59470b1ca2b5927a67cf18c9aa6fb35760560f3f701b3b61b6d",
+      "changedParts": [
+        "ppt/slides/slide47.xml",
+        "ppt/notesSlides/notesSlide47.xml"
+      ]
+    },
+    {
+      "name": "ACT_2",
+      "slides": 22,
+      "sha256": "8dc2a2a6ba6b7e132accbf7e593ae24ee77323bb037449ddd2a1862f97d1b360",
+      "changedParts": [
+        "ppt/slides/slide10.xml",
+        "ppt/notesSlides/notesSlide10.xml"
+      ]
+    }
+  ],
+  "nativeMediaChartsTablesWorkbooks": "all parts preserved byte-for-byte",
+  "externalGates": "Windows/product-account/room/rehearsal UNVERIFIED",
+  "visualReview": {
+    "slides": [
+      "S46",
+      "S47",
+      "S48"
+    ],
+    "result": "S47 focuses on code checks and links to S48; no new clipping/overlap observed; adjacent slides unchanged.",
+    "sourceFactoryPixelParity": true
+  },
+  "fullNotesSha256": "694af6eef8212ba01107b4b6cf720c2ec530ff2f90f9c918f2c8d91c7aae5703",
+  "fullMontageSha256": "b269f6895943f702765a96e715236eb24a8460aa1cfde2423e91f3d51af47e30",
+  "fallbackRowsVerified": 44,
+  "site": "Unchanged",
+  "presenterBundle": "Not updated",
+  "demoRepository": "Unchanged"
+}

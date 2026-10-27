@@ -788,7 +788,7 @@ Topics: Long-context code understanding, description-to-function retrieval
 Key Evidence: Searching Needle Function supplies a natural-language function description and code context, asks for the matching function code and compares it with the reference using code similarity. The benchmark contains50 repositories,5 languages and500 tasks; the main experiment fixes code input at16K tokens under the CodeLlama tokenizer. Performance differs across models and languages.
 Limitations: This is not repository editing, tool-search, test execution, a context-length threshold or present-day Codex evaluation. The input setting and scoring do not establish a Routing benefit or a universal lost-in-the-middle effect.
 Volatility: MEDIUM
-Notes: Primary task/setting https://arxiv.org/html/2406.06025v1 and official citation https://evalplus.github.io/repoqa.html rechecked for DEC-0052. Narrow the prior generic repository-QA description to the actual function-finding task. Omit inconsistent model-count summaries and do not infer current product performance.
+Notes: Primary task/setting https://arxiv.org/html/2406.06025v1 and official citation https://evalplus.github.io/repoqa.html rechecked for DEC-0052. Narrow the prior generic repository-QA description to the actual function-finding task. Omit inconsistent model-count summaries and do not infer current product performance. Current training use (DEC-0105,2026-10-27): optional related research in S47 Notes and references/research/repoqa.md only; omit the screen introduction and do not treat it as validation of the course checking questions.
 
 ### SRC-0205
 

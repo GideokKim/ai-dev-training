@@ -1,5 +1,9 @@
 # Long Context
 
+## Current training use — DEC-0105
+
+S47 focuses on teaching code-check questions. RepoQA remains optional related research in Notes and [this reference](repoqa.md), not an on-screen introduction or validation of the three checks. The research scope below is unchanged.
+
 ## Research Question
 
 Long-context capability claims should be interpreted how in repository-agent training?
