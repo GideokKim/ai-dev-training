@@ -1,5 +1,33 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 현재 UI 수정 — DEC-0107 (2026-10-27)
+
+S11/S12 오른쪽에 각각 ChatGPT 웹 첨부·요청 UI와 Codex 프로젝트 UI 재구성을
+넣었다. Codex 화면은 과거 CLI 조사 요약이며 실제 Desktop 캡처가 아니다.
+개발 프로젝트 용어, 원래 Trial 요청·근거,120장·420분과 장별 배정은 유지한다.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT0](../ACT_0.pptx),
+[S11](../preview/full/S11.png), [S12](../preview/full/S12.png),
+[전체 Notes](../notes/FULL_SPEAKER_NOTES.md), [수정 결과](ACT0_PRODUCT_UI_REVISION.md).
+
+Full120장과 ACT0 15장을 최종 파일에서 렌더링했다. 다른118장 화면과 다른5개 ACT
+PPTX는 그대로다. Windows/제품·계정/교육장/리허설은 UNVERIFIED다. 웹·발표 묶음·Demo
+저장소는 변경하지 않았다. 아래 이전 해시와 전달 기록은 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `7ff8df40db670858a850942d50d7d2b35019a1ab83dda48b39b0cad039943d66` |
+| `production/ACT_0.pptx` | `68bd1163d3ad8eb7fbcdc1901f10065821b20a1741def687a988c85206a5b625` |
+| `production/ACT_1.pptx` | `a7e43e64a7ed36a2139633fc1b0dac73750eb64ff7488512522a53caae76e9c6` |
+| `production/ACT_2.pptx` | `8dc2a2a6ba6b7e132accbf7e593ae24ee77323bb037449ddd2a1862f97d1b360` |
+| `production/ACT_3.pptx` | `864ce544d7f28cf0791ee40f70a1565918d82486ea74924e4d7f01bac0f381bf` |
+| `production/ACT_4.pptx` | `8f786573ea66ee75a85fa0051ba982885c3bf5639699297c964bb6af2a6f3284` |
+| `production/ACT_5.pptx` | `b80c8894854e86165e497bca24a29860e204743293c966cbc8d59bf952a912f6` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `0fba4e7d98e76865c8e5e6c59fa406bc24bca92a4df0c4757662f1c23694c5b1` |
+| `production/preview/full/montage.png` | `a1921473675c743bbf3d6260fc90446c27217aa243eaa86fc0dede781bdd2b2d` |
+
+## 보존된 이전 전달 기록
+
 ## 현재 용어 정리 — DEC-0106 (2026-10-27)
 
 ACT0의 기본 용어는 개발 프로젝트, 폴더 열기 안내는 프로젝트 폴더다. S01에서

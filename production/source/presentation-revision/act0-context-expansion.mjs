@@ -5,6 +5,8 @@ import * as H from './helpers.mjs';
 
 export async function loadAct0ContextExpansionSlides(root){
  const illustration=new Uint8Array(await fs.readFile(path.join(root,'prototype/image-illustration-pilot/assets/S07.png')));
+ const chatgptUi=new Uint8Array(await fs.readFile(path.join(root,'assets/product-ui/S11-chatgpt-web.png')));
+ const codexUi=new Uint8Array(await fs.readFile(path.join(root,'assets/product-ui/S12-codex-project.png')));
  const {C,text,line,rect,FONT,CODE}=H;
  const connector=(s,x,y,w,h=0,arrow=false,both=false)=>s.shapes.add({
   geometry:'connector',kind:'straight',position:{left:x,top:y,width:w,height:h},
@@ -45,11 +47,12 @@ export async function loadAct0ContextExpansionSlides(root){
   text(s,isAgent?'Agent':'사람',450,367,254,43,34,C.teal,true,FONT,'center');
   text(s,isAgent?'허용 범위에서 조사':'찾고 · 고르고 · 전달',450,422,254,38,25,C.ink,true,FONT,'center');
   connector(s,730,416,76,0,true);
-  rect(s,828,291,388,245,C.white,C.line,1);
-  text(s,isAgent?'관찰된 조사 내용':'대화창 · 교육용 가정',850,308,344,34,25,C.teal,true);
-  line(s,850,358,344,C.line,1);
-  text(s,isAgent?'실패 테스트 · 관련 코드\nCrop 명세와 구현 차이\n실행 중 권한 제한':
-   '찾아 둔 자료와 질문을 전달\n코드 · 테스트 · 명세\n실행 로그 · 권한 정보',850,380,344,126,25,C.ink,true);
+  // DEC-0107: recognizable product surfaces; these are UI reconstructions.
+  s.images.add({blob:isAgent?codexUi:chatgptUi,contentType:'image/png',fit:'contain',
+   alt:isAgent?'Reconstructed Codex project UI. Summary from past CLI evidence: tests and related code, crop specification/implementation difference, runtime permission limit. Not an observed Desktop run.':
+    'Reconstructed ChatGPT web composer. A person attaches code, tests, specification, logs and permission information, then asks for a crop explanation. Not a comparative experiment.',
+   position:{left:828,top:291,width:388,height:245}});
+  text(s,isAgent?'화면 재구성 · 근거는 CLI 조사 기록':'ChatGPT 웹 · 자료 첨부 예시',828,538,388,22,17,C.sub);
   text(s,isAgent?'접근 전: 승인된 도구·계정·자료·권한 범위를 확인한다':
    '어떤 자료를 골라 연결할지, 답을 받기 전에 판단해야 한다',64,562,1152,35,27,C.teal,true);
   return s;

@@ -1,5 +1,7 @@
 # Current presentation source
 
+DEC-0107 updates only the right-side UI in current S11/S12 through the retained ACT0 collection factory. Generated ChatGPT web and Codex project surfaces live in assets/product-ui; the source/claim scope stays in the current Map/Notes. UI art is raster; surrounding text, diagrams and captions remain native.
+
 Current ACT0 wording: DEC-0106. `act0-terminology.mjs` is a current120-ID display overlay after audience footers. It updates ACT0 terms and the S117 title lookup, adds the S01 meaning line, and preserves old factory/config input stages and original Trial wording. Current Map/Notes are authoritative.
 
 DEC-0104 /120slides/420minutes. `agents-scope-tips.mjs` applies117→120 after the Copilot boundary, adds S56–S58 and the S117 grouped lookup. Older factories and116-ID JSON remain their input stages. Final audience-footers.json uses120IDs. New tips are marked Context 관리 / 신규 확장. Current native tables S54/S66; charts S70/S97. Full and ACT Notes use current120records.

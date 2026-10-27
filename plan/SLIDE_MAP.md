@@ -332,7 +332,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 실제 Chatbot 비교 실행·성능·불가능성 주장이 아니다. 환경 로그·권한 정보까지 전달하면 원인 분석 단서도 전달된다.
-- **Visual Concept:** S10의 같은 다섯 자료 이름·색을 왼쪽에 유지하고 사람의 찾기/선택/전달을 거쳐 교육용 대화창으로 들어가는 흐름으로 보여준다. 누락된 자료를 도구 능력 부족으로 표현하지 않는다. DEC-0086: 우측 상단 여백에 기존 S09 삽화의 왼쪽 장면을 이전보다 가로·세로1.8배로 덧붙인다. 기존 문구·도형·배치는 그대로이며 삽화는 AI 생성 교육용 표현이다.
+- **Visual Concept:** 오른쪽 대화창을 ChatGPT 웹 UI 재구성으로 바꾼다. 사람이 골라 둔 코드·테스트·명세와 로그·권한 정보를 첨부하고 crop 오류 설명을 요청하는 모습만 보여 준다. 응답이나 실제 비교 결과를 추가하지 않는다. 왼쪽 다섯 자료·가운데 사람·연결선·우측 상단의 기존 삽화는 유지한다. DEC-0107.
 - **Demo / Case Connection:** DEMO-01의 별도 Case/교육용 해석·callback이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 답변 전에도 사람이 관련 자료를 찾아 연결하는 일이 있음을 본다.
 - **Advanced Payoff:** 정보가 전달되지 않은 상태와 도구의 문제 해결 능력을 구분한다.
@@ -341,7 +341,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Transition:** “방금 본 Agent 조사에서는, 이 자료를 찾고 연결하는 일을 일부 맡겼습니다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086, DEC-0107
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
@@ -358,7 +358,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE — 실제 관찰은 과거 Codex CLI0.154.0 한 번; TEACHING MODEL — 그림은 조사 관계의 각색. 현재 Desktop·일반 효율·반복성·권한 확대/해결을 주장하지 않는다.
-- **Visual Concept:** S11와 같은 다섯 자료·수집 주체·출력의 위치를 유지하되, 주체를 Agent와 허용된 조사로 바꾸고 오른쪽에 관찰된 조사 내용을 둔다. 개발 프로젝트 자료와 실행 권한이 별개이며 사람의 목표·검토 책임을 유지한다. DEC-0086: 우측 상단 여백에 기존 S09 삽화의 오른쪽 장면을 이전보다 가로·세로1.8배로 덧붙인다. 기존 문구·도형·배치는 그대로이며 삽화는 AI 생성 교육용 표현이다.
+- **Visual Concept:** 오른쪽 결과 영역을 프로젝트가 열린 Codex UI 재구성으로 바꾼다. 테스트·관련 코드, Crop 명세와 구현 차이, 실행 중 권한 제한이라는 기존 CLI 조사 요약을 담는다. “화면 재구성 · 근거는 CLI 조사 기록”을 바로 아래 표시한다. 실제 Desktop 실행·새 로그·권한 해결을 뜻하지 않는다. 왼쪽 자료·가운데 Agent·연결선·우측 상단 삽화는 유지한다. DEC-0107.
 - **Demo / Case Connection:** DEMO-01의 별도 Case/교육용 해석·callback이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 관련 파일을 모두 직접 복사하기 전에 허용된 개발 프로젝트 조사를 요청할 수 있음을 본다.
 - **Advanced Payoff:** Context 수집 역할의 일부와 목표 설정·권한·수용 판단 책임을 분리한다.
@@ -367,7 +367,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Transition:** “그렇다면 이 교육에서는 어디에서 개발 프로젝트를 열까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086, DEC-0107
 - **Audience Footer:** Codex CLI 조사 기록
 
 

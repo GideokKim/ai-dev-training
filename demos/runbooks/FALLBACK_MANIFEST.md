@@ -1,17 +1,17 @@
 # Static Fallback Manifest
 
-Current: DEC-0106 /120slides/420minutes. READY — LOCAL STATIC FILES ONLY.
-Existing44reference roles/evidence/IDs/paths remain unchanged. ACT0 wording uses development project/project folder; original Trial request text is retained. Current image/PPT/Notes hashes are refreshed.
+Current: DEC-0107 /120slides/420minutes. READY — LOCAL STATIC FILES ONLY.
+Existing44reference roles/evidence/IDs/paths remain unchanged. S11/S12 now use reconstructed ChatGPT/Codex UI insets; these Lecture illustrations add no Demo evidence. Original Trial text and development-project wording remain. Current PPT/Notes/montage hashes are refreshed.
 S04 and new S56-S58 are documented teaching tips, excluded from this Demo inventory.
 Company-account use, Windows, room and timed rehearsal UNVERIFIED. No Live approval.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`3ba0689f8981a2f9a6f2f2bc78034f4ea5a64805022e41352a9b963c047b9e52`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`aaebd95776c580ab89010dfdad4d834d21d42f8ab69ef9a7dbfe9e89c8dae3c7`.
-- `production/preview/full/montage.png` SHA-256:`7ed65f3f655dd4e3d7ce36015d8e192f3caa32cf333bf5acd7b1b53ba418c1b7`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`7ff8df40db670858a850942d50d7d2b35019a1ab83dda48b39b0cad039943d66`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`0fba4e7d98e76865c8e5e6c59fa406bc24bca92a4df0c4757662f1c23694c5b1`.
+- `production/preview/full/montage.png` SHA-256:`a1921473675c743bbf3d6260fc90446c27217aa243eaa86fc0dede781bdd2b2d`.
 
-[Current terminology validation](../../production/evaluation/ACT0_TERMINOLOGY_REVISION.md). Original S47 code-check scope is unchanged.
+[Current UI revision](../../production/evaluation/ACT0_PRODUCT_UI_REVISION.md). DEC-0106 terminology and the S47 code-check scope remain unchanged.
 
 Latest visual-only update2026-10-27: S04 arrows; [validation](../../production/evaluation/S04_ARROW_ALIGNMENT.md). Demo inventory paths/images/readiness are unchanged.
 

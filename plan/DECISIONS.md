@@ -11158,3 +11158,77 @@ over the environment or knowledge of the user's intended result.
 Inspect every renamed slide and the ACT0-to-ACT1 handoff, validate Notes,
 budgets and original evidence, render the final affected decks and push
 normally. Keep Windows, account, room and rehearsal gates unverified.
+
+# DEC-0107 — Show recognizable product interfaces in ACT0
+
+## Status
+
+ACCEPTED — explicit user request on the S11 and S12 right-side panels.
+
+## Date
+
+2026-10-27
+
+## Context
+
+The user asks for a ChatGPT web-style composer on the manual-context slide
+and a Codex interface on the following agent-investigation slide.
+
+## Problem
+
+Generic text panels do not visually connect the two collection roles to
+the products the audience recognizes.
+
+## Decision
+
+Replace only the right-side panels of current S11 and S12 with generated
+UI reconstructions. Show selected attachments and a request in ChatGPT,
+without an answer. Show the existing CLI investigation summary inside a
+Codex project UI, with a visible reconstruction/CLI-source caption.
+Preserve all surrounding diagrams, illustrations, titles and allocations.
+Align current Map, template operation, Notes and source provenance.
+
+## Rationale
+
+Make the context-collection contrast concrete without changing the
+teaching sequence or implying new product execution evidence.
+
+## Alternatives
+
+Keep generic panels; product identity remains weak. Use live screenshots;
+this requires a separately verified account/session and can introduce
+unrelated or sensitive details. Use generated UI reconstructions with
+bounded content; this meets the visual request without a new Trial.
+
+## Trade-offs
+
+The UI insets are raster images, while all surrounding text, diagrams
+and captions stay native. The images are simplified for the small inset
+and do not establish an exact current account interface.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S11/S12 source and UI assets, current Map/template/claim metadata,
+Full/ACT0 Notes and PPTX, previews and current artifact identities.
+
+## Evidence
+
+User annotations; existing TRIAL-001 scope; official ChatGPT quickstart,
+usage and desktop documentation opened on 2026-10-27. Generated images
+are illustrations, not a new comparative experiment or Desktop capture.
+
+## Training Relevance
+
+YES — connect familiar interfaces to the same context-collection roles
+while keeping the observed CLI evidence separate from UI presentation.
+
+## Follow-up
+
+Render the final Full/ACT0 files, inspect both changed slides and their
+neighbors, verify unchanged other slides/allocations, then commit/push.
+Keep Windows, account, room and rehearsal unverified. Leave the Demo
+repository, Site and presenter bundle unchanged.

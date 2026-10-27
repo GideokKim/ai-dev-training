@@ -1,5 +1,13 @@
 # STEP 08 — CLAIM / EVIDENCE FREEZE RESULT
 
+## ACT0 UI 재구성 — DEC-0107 (2026-10-27)
+
+S11의 오른쪽은 ChatGPT 웹 자료 첨부·요청 예시, S12의 오른쪽은 Codex 프로젝트
+UI 재구성이다. S11은 TEACHING_MODEL, S12의 실제 관찰은 과거 Codex CLI0.154.0
+한 번이라는 범위를 유지한다. 현재 Desktop 실행·새 Chatbot 비교·권한 해결·성과
+근거를 추가하지 않는다. 같은 자료 목록·수집 주체·시간·전환·120장·420분은 유지한다.
+[적용 범위](ACT0_PRODUCT_UI.md)를 따른다. 원래 Claim 기록은 아래에 보존한다.
+
 ## ACT0 용어 적용 — DEC-0106 (2026-10-27)
 
 ACT0의 일반 설명은 “개발 프로젝트”, 폴더를 여는 조작은 “프로젝트 폴더”로 표현한다.
