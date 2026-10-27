@@ -111,12 +111,12 @@ LOCAL STATIC ARTIFACT — production/preview/full/S15.png 또는 production/ACT_
 **Validation Status:**
 CONTENT ALIGNED — DEC-0090. 로컬 패키지/Notes/렌더 대조는 production/evaluation/ACT_TITLE_SLIDES.md에 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설 UNVERIFIED.
 
-## S16 — Task에는 무엇이 아직 정해지지 않았을까?
+## S16 — 이 요청에는 무엇이 빠졌을까?
 
 Slide ID:
 S16
 
-Working Title: Task에는 무엇이 아직 정해지지 않았을까?
+Working Title: 이 요청에는 무엇이 빠졌을까?
 
 ACT / Section: ACT 1 / 1A
 
@@ -124,25 +124,25 @@ Allocated Time: 7 minutes
 
 Mode Split: Case 7 minutes
 
-Primary Message: 코드가 보이더라도 무엇을 바꾸고, 무엇을 보존하며, 언제 끝났다고 판단할지는 요청에 명시되어야 한다.
+Primary Message: crop 수정 목표는 같아도 보존 기준·허용 범위·확인 및 보고할 근거를 요청에서 더 분명히 할 수 있다.
 
-Opening Question: “원하는 변화, 지킬 조건, 완료 근거 중 무엇이 아직 요청에 없을까?”
+Opening Question: “같은 crop 실패를 고칠 때, 지킬 기준·수정 범위·완료 근거 중 무엇을 요청에 더할까?”
 
 Speaker Flow:
-1. **REQUEST (0:00–1:30):** S14에서 정한 목표·조건을 요청으로 전달한다는 연결을 회수하고 입력창의 “filter 성능 개선해줘”를 읽는다. ACT 1은 원하는 변화·지켜야 할 조건·완료를 판단할 근거를 요청에 담는 구간이라고 짧게 고정한다. 화면은 실제 실행 기록이 아닌 교육용 요청이다.
-2. **UNSET DECISIONS (1:30–4:00):** 오른쪽 세 질문을 하나씩 짚어 목표·보존 조건·완료 근거 중 어떤 결정이 빠져 있는지 본다. Repository에서 읽을 수 있는 사실과 개발자가 선택해야 할 의도는 구분한다. Agent가 능력이 없거나 반드시 멈춘다는 설명은 하지 않는다.
-3. **COST CONCEPT (4:00–5:30):** 승인된 토큰·작업 시간 PNG는 재탐색·재시도가 길어질 수 있다는 수치 없는 개념도다. 실제 측정, 기하급수 법칙, 명확한 요청의 총 비용 절감 성과로 읽지 않는다. 먼저 질문하는 선택도 가능하다.
-4. **NARROW THE CASE (5:30–7:00):** filter에서 남은 의도 문제를 이미 본 crop 사례로 좁힌다고 전환 이유를 말한다. 다른 성능 실험을 시작하는 것이 아니라 같은 모호함을 친숙한 동작 명세로 구체화하는 것이다.
+1. **SAME CASE (0:00–1:30):** 앞서 조사한 crop 실패를 고친다는 목표를 회수하고 “crop test 고쳐줘”를 읽는다. S14의 역할 설명과 S15 제목을 다시 설명하지 않는다. 화면은 실제 Trial Prompt가 아닌 교육용 요청이다.
+2. **SCOPE QUESTIONS (1:30–4:00):** 지킬 기준, 수정 범위, 완료 근거를 짚는다. 명세·구현 위치는 저장소에서 조사할 수 있다. 사람은 어떤 변경을 허용하고 어떤 근거로 수용할지 알려 준다. Agent가 명세를 보고 올바른 수정을 추론할 수 없다는 뜻은 아니다.
+3. **COST CONCEPT (4:00–5:30):** 기존 토큰·작업 시간 이미지는 재탐색·재시도가 길어질 수 있다는 정성 개념도다. 실측·기하급수 법칙·비용 절감 성과로 설명하지 않는다. 그림은 질문을 보조하며 핵심은 요청의 경계다.
+4. **COMPARE SCOPE (5:30–7:00):** 같은 crop 요청을 유지한 채 테스트 기대값 변경·구현 수정·추가 확인이 각각 어떤 조건에서 허용되는지 다음 장에서 비교한다.
 
 Evidence / Source: BEAT-004, TRIAL-001 callback, CLM-0002, DEC-0038, DEC-0040. TEACHING_MODEL / CONCEPTUAL. 프롬프트창은 재구성이고 AI Agent 그림은 AI 생성 교육용 삽화다. 비용 표시는 정성적 개념도이며 실제 Trial·현재 제품 실행·토큰/시간 측정값이 아니다. 삽화: assets/slide-illustrations/task-choice-agent.png (built-in imagegen, 투명 배경). 같은 Agent를 세 장에서 의도적으로 반복한다. 생성 프롬프트·출처·표현 경계: assets/slide-illustrations/PROMPT_TIMELINE_SOURCES.md. 토큰 소모·작업 시간 곡선과 끝 화살표는 편집 가능한 그래프 객체 대신 assets/slide-illustrations/S11-token-growth.png 및 S11-time-growth.png의 투명 PNG 삽화로 표시한다. 텍스트 label은 native text로 유지한다. 두 그래프 이미지의 생성 방식·정확한 프롬프트·표현 경계: assets/slide-illustrations/S11_RESOURCE_GRAPH_SOURCES.md. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
 보존된 상세 출처: 교육용 구성 사례 · AI 생성 삽화 · 토큰/시간 곡선은 수치 없는 개념도
 
-Claim Boundary: 미정인 요청이 특정 실행 실패나 토큰·시간의 기하급수적 증가를 반드시 만든다고 주장하지 않는다. 그림은 실제 내부 추론·로그·작업 정지 기록이 아니다. Agent는 가능한 선택을 제안하거나 먼저 질문할 수 있다. 오른쪽 세 질문의 답과 다음 Task Specification 해답은 이 장에서 미리 제공하지 않는다.
+DEC-0110: 같은 crop 요청의 연결을 정리한 편집 결정이며 새 Trial·제품 실행·비용 절감 근거가 아니다.
 
-보존된 상세 범위: 실제 Agent 실패·측정 결과·기하급수 증가 법칙이 아닙니다. 필요한 정보를 되묻는 선택도 가능합니다.
+Claim Boundary: 교육용 crop 요청과 정성 비용 도식이다. 실제 Agent 실패·정지·내부 추론·반복 실행·총 토큰/시간 증가나 절감 측정이 아니다. Agent는 저장소 명세와 테스트에서 올바른 수정을 추론하거나 필요한 사항을 질문할 수 있다. 실제 TRIAL-002 Prompt와 구분한다.
 
-Beginner Explanation: “성능을 개선해줘”만으로는 어떤 변경을 원하고 무엇을 지켜야 하는지 빠질 수 있다. 필요한 선택을 먼저 밝혀 두면 불필요한 재탐색을 줄일 여지가 있다.
+Beginner Explanation: “crop test 고쳐줘”에 더해 기존 명세·기대값을 지킬지, 구현 중 어디까지 바꿀지, 무엇을 확인하고 보고할지를 분명히 한다. 저장소 사실을 사람이 모두 복사할 필요는 없다.
 
 Advanced Insight: Task goal, preserved behavior and acceptance evidence remain distinct from repository access. The rising cost illustration is qualitative; it does not establish measured exponential growth, model incapacity or causal productivity improvement.
 
@@ -153,21 +153,20 @@ Demo Operation: N/A. 교육용 프롬프트 재구성·생성 삽화·개념 비
 Audience Interaction: 오른쪽 세 질문을 따라 어떤 결정이 비어 있는지 생각하게 한다. 공개 답변·실습·요청문 작성을 요구하지 않는다.
 
 Transition:
-“성능 요청에서 남은 결정을, 앞서 본 crop 사례로 좁혀 보겠습니다. 같은 모호함을 구체적으로 보기 위한 예시 전환입니다.”라고 S17로 이동한다.
+“같은 crop 요청에서, 어떤 변경을 허용한 것인지 비교해 보겠습니다.”라고 S17로 이동한다.
 
-Time Management: Case 7분 유지. 요청 1분30초, 오른쪽 미정 질문 2분30초, 비용 개념 1분30초, 다음 사례 연결 1분30초로 제한한다. 곡선·토큰 단가·제품 내부 추론 강의를 추가하지 않는다. 실측 발표 시간은 UNVERIFIED다.
+Time Management: Case 7분. 같은 요청 1분30초, 세 질문 2분30초, 비용 개념 1분30초, 같은 사례의 범위 비교 1분30초. 다른 filter 성능 사례나 토큰 단가 강의를 추가하지 않는다. 실측 리허설은 UNVERIFIED다.
 
-Fallback:
-정적 기본 경로 — `production/ACT_1.pptx` S16 또는 `production/preview/act1/S16.png`를 사용한다. 요청 예시·기록·교육 모델의 기존 범위를 유지한다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다.
+Fallback: 정적 기본 경로 — `production/ACT_1.pptx` S16 또는 `production/preview/act1/S16.png`를 사용한다. 같은 crop 요청의 교육용 예시이며 실제 Trial 실행과 구분한다. 최종 PPT·Notes·PNG 검토는 production/evaluation/ACT1_SINGLE_CROP_REVISION.md를 따른다.
 
-Validation Status: ALIGNED — DEC-0042의 요청 설계·사례 연결·쉬운 용어를 정렬했다. 최종 PPT·내장 Notes·렌더 검토는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0110에 따라 같은 crop 요청의 보존 기준·수정 범위·완료 근거를 정렬했다. 로컬 PPT·내장 Notes·렌더 결과는 production/evaluation/ACT1_SINGLE_CROP_REVISION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
-## S17 — 요청만으로는 의도가 보이지 않는다
+## S17 — 어디까지 바꾸라는 요청일까?
 
 Slide ID:
 S17
 
-Working Title: 요청만으로는 의도가 보이지 않는다
+Working Title: 어디까지 바꾸라는 요청일까?
 
 ACT / Section: ACT 1 / 1B
 
@@ -175,51 +174,48 @@ Allocated Time: 2 minutes
 
 Mode Split: Case 2 minutes
 
-Primary Message: Repository를 볼 수 있어도 바꿀 범위와 완료 조건까지 알 수 있는 것은 아니다.
+Primary Message: 기존 명세·기대값이 유효한 이 사례에서는 구현을 명세에 맞춘다. 기대값 변경에는 명세 변경의 정당성·승인이 필요하고, 의도와 명세가 충돌하면 먼저 확인한다.
 
-Opening Question: “앞서 본 crop 요청에서도, 사람이 원하는 작업 경로는 정해졌을까?”
+Opening Question: “같은 crop 요청에서 어떤 변경을 허용했을까?”
 
 Speaker Flow:
-
-1. **SAME AMBIGUITY (0:00–0:30):** 성능 요청에서 보았던 “어떤 변화를 원하나?”를 앞서 조사한 crop으로 좁혔다고 회수한다. 입력창의 “crop test 고쳐줘”는 수업용 요청이며 실제 TRIAL-002 Prompt가 아니다.
-2. **POSSIBLE PATHS (0:30–1:20):** 같은 Agent에서 나뉜 테스트 변경·구현 변경·먼저 질문의 세 경로를 짚는다. 요청에 없는 의도 때문에 남는 가능한 해석이며 실제 반복 실험·확률·동시 Subagent 실행 결과가 아니다.
-3. **MISSING INFORMATION (1:20–2:00):** 목표 세부·보존 조건·수정 범위·확인 근거·완료 조건을 아직 채워야 할 정보로 읽는다. 어떤 경로를 원했는지 요청에 담는 다음 장으로 넘긴다.
+1. **SAME REQUEST (0:00–0:30):** 앞 장과 동일한 “crop test 고쳐줘”를 그대로 읽는다. 예시나 실행 환경을 바꾸지 않는다. 실제 TRIAL-002 Prompt가 아닌 교육용 구성이다.
+2. **CONDITIONAL PATHS (0:30–1:20):** 테스트 기대값 변경에는 명세 변경의 정당성과 승인이 필요하다. 기존 명세·기대값이 유효한 이 사례의 수용 경로는 구현 수정이다. 의도와 명세가 충돌하거나 변경 범위가 불분명하면 먼저 질문한다. 세 경로를 동등하게 정당한 답이나 실제 반복 결과로 읽지 않는다.
+3. **MAKE INTENT EXPLICIT (1:20–2:00):** 아래 다섯 항목은 요청에서 더 분명히 할 정보다. 모두 저장소에 없는 사실이라는 뜻은 아니다. 다음 장에서 기존 명세를 지키고 구현만 고치려는 범위를 명시한다.
 
 Evidence / Source: BEAT-004, CLM-0002, DEC-0038. TEACHING_MODEL / CONCEPTUAL. 같은 AI Agent 삽화와 병렬 시간선은 가능한 요청 해석의 도식이다. 실제 반복 실행·분기 빈도·실패 로그·평행 Agent 실행을 기록한 것이 아니다. 삽화: assets/slide-illustrations/task-choice-agent.png (built-in imagegen, 투명 배경). 같은 Agent를 세 장에서 의도적으로 반복한다. 생성 프롬프트·출처·표현 경계: assets/slide-illustrations/PROMPT_TIMELINE_SOURCES.md. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
 보존된 상세 출처: 교육용 병렬 시간선 · 실제 반복 실행·동시 Subagent·분기 확률을 관찰한 결과가 아님
 
-Claim Boundary: `crop test 고쳐줘`는 수업용 구성 요청이다. 이 요청이 테스트 변경·구현 변경·질문을 특정 확률로 만든다고 주장하지 않는다. 경로는 성공/실패 판정이 아니며 실제 TRIAL-002 결과를 새로 만들지 않는다. 테스트 수정이 모든 상황에서 나쁘다는 일반화도 하지 않는다.
+DEC-0110: 같은 crop 요청의 연결을 정리한 편집 결정이며 새 Trial·제품 실행·비용 절감 근거가 아니다.
 
-보존된 상세 범위: 짧은 요청의 가능한 해석을 그렸습니다. 실제 TRIAL-002 Prompt나 특정 실패의 재현이 아닙니다.
+Claim Boundary: 평행 경로는 검토할 선택의 조건을 설명한 교육용 도식이며 실제 실행·선택 확률·동시 Subagent가 아니다. 테스트 기대값 변경을 유효한 기존 명세를 어기는 구현 수정과 동등하게 정당화하지 않는다. 정당한 명세 변경·승인이 있으면 테스트도 바뀔 수 있다. Agent가 저장소에서 올바른 수정을 추론하지 못한다는 주장을 하지 않는다.
 
-Beginner Explanation: 같은 말이라도 기대값을 고치라는 뜻인지, 구현을 명세에 맞추라는 뜻인지 아직 남아 있을 수 있다. 먼저 확인을 요청하는 해석도 가능하다.
+Beginner Explanation: 이 예시에서는 기대값을 유지하고 구현을 맞춘다. 기대값 변경은 명세 자체를 정당하게 바꾸는 경우에 따로 검토하고, 의도나 권한이 충돌하면 확인한다.
 
-Advanced Insight: The timelines represent unresolved interpretation, not measured nondeterminism. Missing constraints are human intent that cannot be reliably inferred from repository access alone.
+Advanced Insight: The paths compare change authority and preservation criteria, not measured nondeterminism. Repository evidence can support the correct implementation fix; clarify unresolved intent or conflicting specifications.
 
 C++ Vision Bridge: N/A.
 
 Demo Operation: N/A. 정적 프롬프트·동일 Agent·가능한 세 경로를 설명한다. 새 Trial·반복 호출·병렬 Subagent를 실행하지 않는다.
 
-Audience Interaction: 같은 요청의 해석과 아래 다섯 미정 정보를 잠시 생각하게 한다. 정답 분류·공개 응답·실습을 요구하지 않는다.
+Audience Interaction: 같은 요청에서 각 변경이 허용될 조건을 눈으로 비교한다. 세 가지를 똑같이 옳은 선택으로 고르게 하거나 응답·실습을 요구하지 않는다.
 
 Transition:
-“이 미정 정보를 요청에 담으면, 어떤 작업 경로를 원한다는 뜻인지 더 분명해질까요?”라고 S18의 교육용 구체화 예시로 이동한다.
+“이 사례에서는 기존 명세·기대값을 지키고 구현만 고치려 합니다. 그 범위와 확인·보고 조건을 요청에 담아 보겠습니다.”라고 S18로 이동한다.
 
-Time Management:
-원래 Case 4분을 S17 Case 2분 + 새 S18 Case 2분으로 나눈다. 여기서는 요청 30초, 가능 경로 50초, 미정 정보 40초만 다루고 세 경로의 세부 알고리즘을 강의하지 않는다.
+Time Management: Case 2분. 같은 요청 30초, 조건부 경로 비교 50초, 명시할 정보와 다음 요청 연결 40초. S18과 합쳐 Case 4분을 유지한다. 실측 리허설은 UNVERIFIED다.
 
-Fallback:
-정적 기본 경로 — `production/ACT_1.pptx` S17 또는 `production/preview/act1/S17.png`를 사용한다. 요청 예시·기록·교육 모델의 기존 범위를 유지한다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다.
+Fallback: 정적 기본 경로 — `production/ACT_1.pptx` S17 또는 `production/preview/act1/S17.png`를 사용한다. 같은 crop 요청의 교육용 예시이며 실제 Trial 실행과 구분한다. 최종 PPT·Notes·PNG 검토는 production/evaluation/ACT1_SINGLE_CROP_REVISION.md를 따른다.
 
-Validation Status: ALIGNED — DEC-0042의 요청 설계·사례 연결·쉬운 용어를 정렬했다. 최종 PPT·내장 Notes·렌더 검토는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0110에 따라 같은 crop 요청의 보존 기준·수정 범위·완료 근거를 정렬했다. 로컬 PPT·내장 Notes·렌더 결과는 production/evaluation/ACT1_SINGLE_CROP_REVISION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
-## S18 — 원하는 작업 경로를 Prompt에 담는다
+## S18 — 원하는 변경 범위를 요청에 담는다
 
 Slide ID:
 S18
 
-Working Title: 원하는 작업 경로를 Prompt에 담는다
+Working Title: 원하는 변경 범위를 요청에 담는다
 
 ACT / Section: ACT 1 / 1B
 
@@ -227,25 +223,26 @@ Allocated Time: 2 minutes
 
 Mode Split: Case 2 minutes
 
-Primary Message: 목표·보존 조건·수정 범위·확인 근거·완료 조건을 요청에 담아 원하는 작업 경로를 명시하고 해석의 여지를 줄인다.
+Primary Message: 같은 요청에 기존 명세·기대값 보존, crop 구현 최소 수정, 관련·전체 테스트 확인, 변경·검증·미확인 사항 보고를 담는다. 의도한 경로와 실제 검증 결과는 별개다.
 
-Opening Question: “확인·보고 사항까지 담으니 어떤 작업을 원했는지 더 분명해졌을까?”
+Opening Question: “어떤 변경을 원하고, 어떤 근거를 보고 완료를 판단할지 보이나요?”
 
 Speaker Flow:
-
-1. **SPECIFY (0:00–0:45):** 같은 요청에 목표·보존·범위·확인·완료 정보를 더한 문장을 읽는다. 처음 나오는 확인 용어를 풀어 준다. “crop 관련 테스트만 실행”은 관련 동작을 골라 확인하는 집중 테스트(focused crop tests), “프로젝트 전체 테스트 실행”은 프로젝트에 묶인 테스트 전체(full suite), “CLI 샘플 실행 확인”은 준비한 샘플로 명령줄 실행 경로를 보는 확인(smoke), “변경 내용 확인”은 바뀐 파일과 줄을 살피는 검토(diff 검토)다. 이 장의 요청은 교육용 구성이다.
-2. **INTENDED PATH (0:45–1:30):** 오른쪽 구현 최소 수정 경로를 사람이 원하는 방향으로 읽는다. 요청에 의도를 담았다는 표시이며 실제 실행의 선택·정확성·성공을 보장하지 않는다. 과정과 확인·보고 사항도 요청 내용이라는 점을 짚고, 저장소 사실을 사람이 전부 복사해야 한다고 설명하지 않는다.
-3. **GENERALIZE (1:30–2:00):** 구체 답은 여기서 마치고, 다른 작업을 요청할 때 사람이 먼저 답해야 할 질문으로 일반화한다.
+1. **NATURAL REQUEST (0:00–0:45):** 같은 “crop test 고쳐줘”에 더한 네 문장을 읽는다. 기존 명세·테스트 기대값 보존, 어긋난 crop 구현 최소 수정, 관련·전체 테스트 확인, 변경·검증·미확인 사항 보고다. 입력창 위 기대값은 끝 좌표를 제외하는 기존 명세를 떠올리는 작은 예시이며 전체 함수 signature가 아니다.
+2. **INTENDED SCOPE (0:45–1:30):** 오른쪽 구현 수정 경로는 사람이 명시한 변경 범위다. 실제 선택·실행·성공·PASS를 보여주지 않는다. “관련 테스트”는 바뀐 동작과 관련된 검사를 고르는 것이고 “전체 테스트”는 프로젝트 suite다. 이 장에서 CLI·도구 용어를 늘리지 않는다. 명세·코드·테스트 위치는 Agent가 조사할 수 있다.
+3. **GENERALIZE (1:30–2:00):** S19에서 사람이 정할 질문, S20에서 다섯 항목, S21에서 각 문장의 역할로 정리한다. 실제 TRIAL-002 Prompt와 작업 기록은 S22 이후에 별도로 확인한다.
 
 Evidence / Source: BEAT-004, CLM-0002, DEC-0038. TEACHING_MODEL / CONCEPTUAL. TRIAL-001/002의 끝 좌표 제외 crop 명세와 검증 범위를 배경으로 한 수업용 Prompt다. 실제 TRIAL-002에서 사용한 요청·관찰된 선택·성능 비교를 재현하지 않는다. 삽화: assets/slide-illustrations/task-choice-agent.png (built-in imagegen, 투명 배경). 같은 Agent를 세 장에서 의도적으로 반복한다. 생성 프롬프트·출처·표현 경계: assets/slide-illustrations/PROMPT_TIMELINE_SOURCES.md. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
 
 보존된 상세 출처: 교육용 Prompt와 목표 경로 · TRIAL-002의 실제 요청·실행 결과가 아님
 
+DEC-0110: 같은 crop 요청의 연결을 정리한 편집 결정이며 새 Trial·제품 실행·비용 절감 근거가 아니다.
+
 Claim Boundary: 강조 경로는 사람이 명시한 목표 경로이며 실제 실행 결과나 결정성·성공 보장이 아니다. 동일 모델·Agent가 항상 하나의 결과를 내고 다른 가능성이 사라진다는 주장을 하지 않는다. 테스트 기대값 보존은 이 예시의 유효한 명세를 전제로 한 조건이지 모든 테스트 수정 금지가 아니다. 완료 여부는 실제 변경과 검증 근거를 보고 사람이 수용한다.
 
 보존된 상세 범위: 의도한 경로 표시는 실제 선택·정확성·성공을 보장하지 않습니다. 변경 뒤 검증은 계속 필요합니다.
 
-Beginner Explanation: 확인 요청도 작업 요청의 일부다. 관련 테스트만 실행·프로젝트 전체 테스트 실행·CLI 샘플 실행 확인·변경 내용 확인처럼 먼저 쉬운 말로 구체화한다. 이 교육용 요청이 실제 TRIAL-002 원문이라는 뜻은 아니다.
+Beginner Explanation: 요청에 지킬 기준·허용 범위·확인·보고 조건을 자연스러운 문장으로 더한다. 강조한 선은 사람이 원하는 경로이며 실제 테스트 통과 결과가 아니다.
 
 Advanced Insight: Explicit intent constrains the acceptable solution space; it does not guarantee deterministic behavior or correctness. Preserve verification and distinguish the requested path from the observed path.
 
@@ -253,18 +250,16 @@ C++ Vision Bridge: N/A.
 
 Demo Operation: N/A. 교육용 프롬프트 재구성과 같은 시간선의 강조 전환을 보는 정적 Case다. 실제 Agent 호출·테스트·반복 실험을 수행하지 않는다.
 
-Audience Interaction: 앞 장과 달라진 정보와 원하는 경로의 연결을 눈으로 확인하게 한다. 프롬프트 작성·답변·공유·실습을 요구하지 않는다.
+Audience Interaction: 같은 요청에 더해진 네 문장과 구현 수정 범위의 연결을 확인하게 한다. 직접 작성·공유·실습은 요구하지 않는다.
 
 Transition:
 “이제 답을 다시 읽기보다, 다른 요청에서도 개발자가 먼저 결정할 질문을 정리해 보겠습니다.”라고 S19로 연결한다.
 
-Time Management:
-Case 2분. 다섯 줄 요청 45초, 목표 경로와 검증 경계 45초, 다음 질문 연결 30초. S17와 합쳐 원래 Case 4분, Section 1B 전체420분을 유지한다. 실제 발화 시간은 UNVERIFIED다.
+Time Management: Case 2분. 자연스러운 요청 45초, 변경 범위·검증 경계 45초, 다음 질문으로 연결 30초. S17과 합쳐 Case 4분을 유지한다. 실제 발화·리허설 시간은 UNVERIFIED다.
 
-Fallback:
-정적 기본 경로 — `production/ACT_1.pptx` S18 또는 `production/preview/act1/S18.png`를 사용한다. 요청 예시·기록·교육 모델의 기존 범위를 유지한다. 최신 렌더·내장 Notes/PNG 정합성은 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md를 따른다.
+Fallback: 정적 기본 경로 — `production/ACT_1.pptx` S18 또는 `production/preview/act1/S18.png`를 사용한다. 같은 crop 요청의 교육용 예시이며 실제 Trial 실행과 구분한다. 최종 PPT·Notes·PNG 검토는 production/evaluation/ACT1_SINGLE_CROP_REVISION.md를 따른다.
 
-Validation Status: ALIGNED — DEC-0042의 요청 설계·사례 연결·쉬운 용어를 정렬했다. 최종 PPT·내장 Notes·렌더 검토는 production/evaluation/ACT_1_REQUEST_DESIGN_REVISION.md에 별도로 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
+Validation Status: ALIGNED — DEC-0110에 따라 같은 crop 요청의 보존 기준·수정 범위·완료 근거를 정렬했다. 로컬 PPT·내장 Notes·렌더 결과는 production/evaluation/ACT1_SINGLE_CROP_REVISION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S19 — 개발자가 정해야 하는 경계
 

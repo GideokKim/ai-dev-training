@@ -1,6 +1,6 @@
 # Official Slide Map
 
-## 현재 제작 기준 — DEC-0108 / DEC-0109 (2026-10-27)
+## 현재 제작 기준 — DEC-0108 / DEC-0109 / DEC-0110 (2026-10-27)
 
 현재 **119장·417분(6시간57분)**. 이전 S15 제조 검사 전환 장을 삭제하고
 이전 S16–S120을 S15–S119로 한 칸 당긴다. S14는 정보 접근과 사람의 최종 판단을
@@ -9,7 +9,10 @@
 ACT별 장수14/22/22/26/20/15, 시간42/64/90/96/85/40분.
 Mode Lecture186/Demo49/Case105/Reflection22/Transition23/Q&A32분.
 다른 장의 내용·장별 시간/Mode·근거·Trial/State/Beat/Section ID는 유지한다.
-ACT1의 filter→crop 예시 전환은 이번에 다시 설계하지 않는다.
+ACT1 S16–S18은 DEC-0110에 따라 같은 crop 수정 요청으로 연결한다.
+빠진 기준 확인→허용 범위 비교→구체 요청 순서이며 교육용 예시다.
+S19–S21의 일반화·문장 대응과 S22 이후 실제 TRIAL-002는 구분한다.
+[현재 ACT1 사례](ACT1_SINGLE_CROP_CASE.md)를 따른다.
 Native 표는 S53/S65, 차트는 S69/S96, 마지막 팁 찾아보기는 S116–S118이다.
 12Templates/28Variants·19Notes 필드는 유지한다. 제품·Windows·교육장·리허설은
 UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 변경하지 않는다.
@@ -409,79 +412,79 @@ UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 변경하지 않는다.
 - **ACT Subtitle:** Prompt Engineering · 요청 설계
 - **Audience Footer:** 기존 ACT 제목 표기 유지
 
-#### S16 — Task에는 무엇이 아직 정해지지 않았을까?
+#### S16 — 이 요청에는 무엇이 빠졌을까?
 
 - **Slide ID:** S16
 - **ACT:** ACT 1
 - **Section:** 1A
-- **Working Title:** Task에는 무엇이 아직 정해지지 않았을까?
-- **Primary Role:** ACT 전환 회수, 새 문제 구체화
-- **Audience Question:** “같은 Repository를 보더라도 Agent가 원하는 결과까지 자동으로 알 수 있을까?”
-- **Core Message:** 코드가 보이더라도 무엇을 바꾸고, 무엇을 보존하며, 언제 끝났다고 판단할지는 요청에 명시되어야 한다.
+- **Working Title:** 이 요청에는 무엇이 빠졌을까?
+- **Primary Role:** 같은 crop 사례에서 요청에 빠진 보존 기준·수정 범위·완료 근거를 드러낸다.
+- **Audience Question:** “앞서 본 crop 실패를 고칠 때, 무엇을 지키고 어디까지 바꾸며 무엇을 확인해야 할까?”
+- **Core Message:** crop 수정 목표는 같아도 보존 기준·허용 범위·확인 및 보고할 근거를 요청에서 더 분명히 할 수 있다.
 - **Story Beat:** BEAT-004
 - **Curriculum Trace:** ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL / CONCEPTUAL. Agent의 실제 실패·정지·반복 실행·토큰/시간 실측·기하급수 법칙을 주장하지 않는다.
-- **Visual Concept:** “filter 성능 개선해줘”를 native Prompt 입력창으로 표시한다. 동일 AI Agent가 남은 선택을 검토하는 AI 생성 교육용 삽화를 놓고 우측의 바꿀 것/보존할 것/완료 근거 세 질문은 세로 리스트로 유지한다. 하단의 토큰 소모·작업 시간 곡선과 끝 화살표는 편집 가능한 그래프 객체 대신 두 개의 투명 PNG 삽화로 삽입한다. 각 텍스트 label과 기존 배치는 유지한다. 이미지는 추가 탐색·재시도 비용을 설명하는 정성 개념도다. 수치·배율·함수·측정 축을 넣지 않고 기하급수적 증가 법칙이나 실제 Agent 정지를 주장하지 않는다. DEC-0038, DEC-0040.
-- **Demo / Case Connection:** filter 성능 요청의 미정 결정을 출발점으로, 같은 요청 모호함을 친숙한 crop 동작 명세로 좁혀 본다. 성능 비교 실험을 새로 시작하는 것이 아니다.
-- **Beginner Payoff:** Repository 접근이 명확한 결과 요청을 대신하지 않는다는 점을 가져간다.
+- **Visual Concept:** “crop test 고쳐줘” 입력창, 기존 동일 Agent 삽화, 지킬 기준/수정 범위/완료 근거의 세 질문을 함께 둔다. 토큰·작업 시간 PNG는 기존의 수치 없는 정성 개념도로 유지한다. 명세·기대값 유지 여부, 수정 허용 범위, 확인·보고 근거를 묻고 다음 장에서 같은 요청의 변경 범위를 비교한다. 실제 정지·비용 증가·절감 측정이 아니다. DEC-0110.
+- **Demo / Case Connection:** ACT0에서 조사한 crop 실패를 떠올리는 교육용 수정 요청. S17과 같은 요청이며 별도의 filter 성능 사례로 전환하지 않는다. 실제 TRIAL-002 Prompt가 아니다.
+- **Beginner Payoff:** 같은 사례에서 요청에 더할 보존·수정·확인 조건을 찾는다.
 - **Advanced Payoff:** 코드 접근, Task 목표, 제약, 완료 증거를 구분한다.
 - **C++ Vision Bridge:** 없음
-- **Speaker Intent:** ACT 1의 핵심을 원하는 변화·지킬 조건·완료 근거를 요청에 담는 것으로 고정한다. 미정 세 질문을 짚고, 같은 모호함을 이미 본 crop 사례로 구체화한다고 전환 이유를 밝힌다. 기존 Agent·토큰/시간 PNG는 정성 교육 삽화이며 측정·절감·기하급수 법칙·실제 정지 기록이 아니다.
-- **Transition:** “성능 요청에서 남은 결정을, 앞서 본 crop 사례로 좁혀 보겠습니다. 같은 모호함을 구체적으로 보기 위한 예시 전환입니다.”라고 S17로 이동한다.
+- **Speaker Intent:** 앞서 본 crop 실패를 고친다는 목표로 시작하고 세 질문을 하나씩 짚는다. 저장소에서 조사할 명세·구현과 사람이 정할 허용 범위를 구분한다. Agent가 명세를 추론하지 못하거나 반드시 멈춘다고 말하지 않는다. 기존 비용 그림은 정성 개념도로만 짧게 회수한다.
+- **Transition:** “같은 crop 요청에서, 어떤 변경을 허용한 것인지 비교해 보겠습니다.”라고 S17로 이동한다.
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Case 7분 = 7분
-- **Evidence / Decision References:** BEAT-004, TRIAL-001 callback only, CLM-0002, DEC-0038, DEC-0040, DEC-0042
+- **Evidence / Decision References:** BEAT-004, TRIAL-001 callback only, CLM-0002, DEC-0038, DEC-0040, DEC-0042, DEC-0110
 - **Audience Footer:** 개념도 · 실측 아님
 
-#### S17 — 요청만으로는 의도가 보이지 않는다
+#### S17 — 어디까지 바꾸라는 요청일까?
 
 - **Slide ID:** S17
 - **ACT:** ACT 1
 - **Section:** 1B
-- **Working Title:** 요청만으로는 의도가 보이지 않는다
-- **Primary Role:** 의도가 빠진 요청을 문제로 드러낸다. 요청한 개발자를 조롱하지 않는다.
-- **Audience Question:** “Agent 입장에서 무엇을 결정해야 할까?”
-- **Core Message:** Repository를 볼 수 있어도 바꿀 범위와 완료 조건까지 알 수 있는 것은 아니다.
+- **Working Title:** 어디까지 바꾸라는 요청일까?
+- **Primary Role:** 같은 crop 요청에 대한 허용 범위와 선택의 조건을 비교한다.
+- **Audience Question:** “테스트 기대값 변경과 구현 수정은 각각 언제 허용할 수 있을까?”
+- **Core Message:** 기존 명세·기대값이 유효한 이 사례에서는 구현을 명세에 맞춘다. 기대값 변경에는 명세 변경의 정당성·승인이 필요하고, 의도와 명세가 충돌하면 먼저 확인한다.
 - **Story Beat:** BEAT-004 — Repository access does not convey intent
 - **Curriculum Trace:** ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL / CONCEPTUAL. 평행 시간선은 가능한 해석의 교육용 도식이며 실제 반복 실행 결과가 아니다.
-- **Visual Concept:** “crop test 고쳐줘”를 Prompt 입력창으로 표시한다. 동일 AI Agent에서 가능한 해석의 평행 시간선 세 개가 분기한다. 우측 세로 행은 “테스트를 바꿀까?”, “구현을 바꿀까?”, “먼저 물어볼까?”이며 이는 예시 선택지다. 하단의 목표의 세부/보존 조건/수정 범위/확인 근거/완료 조건은 아직 빈 정보로 유지한다. 실제 반복 실행 기록·확률·분산 측정처럼 표현하지 않는다. DEC-0038.
-- **Demo / Case Connection:** 앞서 조사한 crop 사례에 맞춘 교육용 요청이다. S16의 성능 목표를 실험하거나 실제 TRIAL-002 요청으로 바꾸지 않는다.
-- **Beginner Payoff:** 요청에서 무엇이 빠져 있는지 볼 수 있다.
-- **Advanced Payoff:** 저장소 접근 권한과 작업 의도 전달은 별개의 문제임을 확인한다.
+- **Visual Concept:** S16과 같은 “crop test 고쳐줘” 입력창과 동일 Agent를 유지한다. 세 경로는 테스트 기대값 변경(명세 변경의 정당성·승인 필요), 구현을 명세에 맞춤(기존 명세·기대값 유지), 변경 범위를 먼저 확인(의도·명세 충돌 시 질문)이다. 아래 다섯 항목은 요청에서 더 분명히 할 정보로 표시한다. 실제 반복 실행·동시 Subagent·선택 확률을 나타내지 않는다. DEC-0110.
+- **Demo / Case Connection:** S16과 같은 교육용 crop 요청이다. 실제 TRIAL-002 Prompt 또는 여러 번 실행한 결과가 아니다.
+- **Beginner Payoff:** 아무 테스트나 바꿔 통과시키는 것과 명세에 맞춰 구현을 고치는 것의 조건을 구분한다.
+- **Advanced Payoff:** 저장소에서 추론할 수 있는 명세와 사람이 승인할 변경 범위를 나누어 판단한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S16과 다른 예시를 갑자기 시작하지 않고 같은 요청 모호함을 crop에서 확인한다고 회수한다. 세 병렬 경로는 미정 의도의 가능한 해석이며 실제 반복 실험·동시 Subagent·분기 확률이 아니다.
-- **Transition:** “이 미정 정보를 요청에 담으면, 어떤 작업 경로를 원한다는 뜻인지 더 분명해질까요?”라고 S18의 교육용 구체화 예시로 이동한다.
+- **Speaker Intent:** 예시 전환 없이 같은 요청을 이어 읽는다. 기대값 변경을 실제 유효한 명세의 구현 수정과 동등하게 정당한 답으로 가르치지 않는다. Agent는 저장소 근거로 올바른 수정을 추론할 수 있으며 의도·명세가 충돌하거나 변경 권한이 불명확할 때 확인할 수 있다.
+- **Transition:** “이 사례에서는 기존 명세·기대값을 지키고 구현만 고치려 합니다. 그 범위와 확인·보고 조건을 요청에 담아 보겠습니다.”라고 S18로 이동한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
-- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038, DEC-0042
+- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038, DEC-0042, DEC-0110
 - **Audience Footer:** 가능한 해석의 예시
 
-#### S18 — 원하는 작업 경로를 Prompt에 담는다
+#### S18 — 원하는 변경 범위를 요청에 담는다
 
 - **Slide ID:** S18
 - **ACT:** ACT 1
 - **Section:** 1B
-- **Working Title:** 원하는 작업 경로를 Prompt에 담는다
-- **Primary Role:** 모호한 요청에 정보를 더해 원하는 해석을 좁히는 구체 예시
-- **Audience Question:** “앞의 다섯 정보를 함께 전달하면, 어떤 경로를 원했는지 더 분명해질까?”
-- **Core Message:** 목표·보존 조건·수정 범위·확인 근거·완료 조건을 명시하면 사람이 원하는 작업 경로를 구체화할 수 있다. 실제 실행의 결정성·정확성은 별도로 검증한다.
+- **Working Title:** 원하는 변경 범위를 요청에 담는다
+- **Primary Role:** 같은 crop 요청을 자연스러운 문장으로 구체화해 원하는 변경 범위를 보여준다.
+- **Audience Question:** “보존·수정·확인·보고 조건을 함께 쓰면 어떤 변경을 원했는지 보일까?”
+- **Core Message:** 같은 요청에 기존 명세·기대값 보존, crop 구현 최소 수정, 관련·전체 테스트 확인, 변경·검증·미확인 사항 보고를 담는다. 의도한 경로와 실제 검증 결과는 별개다.
 - **Story Beat:** BEAT-004
 - **Curriculum Trace:** ACT 1 — underspecified request → explicit intended path; next generalization and Task Specification.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 사용자 승인 교육용 예시. 목표 경로의 시각적 선택은 실제 실행 결과·성공·결정성 보장이 아니다.
-- **Visual Concept:** 기존 Prompt 입력창·동일 Agent·세 경로를 유지한다. 목표/보존/범위/확인/완료 정보를 채우고 사람이 의도한 구현 수정 경로를 강조한다. 확인 항목은 crop 관련 테스트만 실행·프로젝트 전체 테스트 실행·CLI 샘플 실행 확인·변경 내용 확인으로 풀어 설명하며 화면 공간에 맞춰 문장을 나눈다. 실제 선택·성공·정확성·결정성을 보장하는 그림이 아니다.
-- **Demo / Case Connection:** 기존 crop 계약·TRIAL-002를 떠올리는 교육용 요청 예시다. 실제 Trial Prompt나 재실행이 아니며 관찰 근거는 이후 Demo 구간에서 구분한다.
-- **Beginner Payoff:** 빠진 정보를 전달하는 것이 원하는 작업을 가리키는 데 어떤 역할을 하는지 볼 수 있다.
+- **Visual Concept:** 입력창에는 “crop test 고쳐줘”와 보존·최소 수정·테스트 확인·결과 보고의 네 문장을 둔다. crop(1,3)의 기대 열1·2/폭2는 입력창 위 작은 참고로 분리한다. 동일 세 경로 중 구현 최소 수정을 사람이 의도한 변경 범위로 강조한다. 다섯 항목의 분류표는 S20/S21의 역할로 남긴다. 실제 실행 또는 PASS 표시가 아니다. DEC-0110.
+- **Demo / Case Connection:** S16/S17과 같은 교육용 crop 요청을 구체화한다. 끝 좌표 제외 명세는 기존 근거와 일치하지만 실제 TRIAL-002 원문 또는 재실행 결과로 표현하지 않는다.
+- **Beginner Payoff:** 실제로 보낼 수 있는 짧은 요청 문장에서 지킬 조건·수정 범위·확인·보고 내용을 읽는다.
 - **Advanced Payoff:** 의도된 경로의 명시와 실행의 결정성·검증된 결과를 분리한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 구체 요청의 확인·보고 사항도 Prompt에 담는 내용으로 읽는다. 첫 확인 용어를 쉬운 말로 설명한 뒤 S19는 다른 작업에서 사람이 답할 질문, S20는 다섯 항목, S21은 요청 문장 속 위치로 역할을 나눠 반복을 줄인다.
+- **Speaker Intent:** 네 문장과 사람이 의도한 구현 경로를 연결한다. 관련 테스트와 전체 테스트의 뜻만 짧게 풀고 명령·도구 강의를 하지 않는다. S19는 사람이 정할 질문, S20은 다섯 항목, S21은 문장 속 위치, S22는 별도의 실제 기록이라는 역할을 유지한다.
 - **Transition:** “이제 답을 다시 읽기보다, 다른 요청에서도 개발자가 먼저 결정할 질문을 정리해 보겠습니다.”라고 S19로 연결한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
-- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038; crop 명세는 기존 TRIAL-002와 일치하는 교육용 예시, DEC-0042
+- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038; crop 명세는 기존 TRIAL-002와 일치하는 교육용 예시, DEC-0042, DEC-0110
 - **Audience Footer:** 요청 예시 · 의도한 경로
 
 #### S19 — 개발자가 정해야 하는 경계

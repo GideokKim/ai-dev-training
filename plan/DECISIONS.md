@@ -11376,3 +11376,76 @@ YES — distinguish visual focus from retained scheduling and operation.
 Confirm S14 matches the original visual, check all other slide/package
 parts and current Notes, render the final Full/ACT0 files and push normally.
 Keep Windows, account, room and rehearsal unverified.
+
+# DEC-0110 — Keep one crop case across the ACT1 opening
+
+## Status
+
+ACCEPTED — explicit user approval of the reviewed single-case plan.
+
+## Date
+
+2026-10-27
+
+## Context
+
+After restoring S14, the user approves explaining request ambiguity,
+permitted changes and explicit criteria through one familiar crop case.
+
+## Problem
+
+S16 starts with filter performance while S17 changes to crop repair.
+This requires an extra explanation and can distract from request design.
+Three hypothetical paths can also imply equal legitimacy despite a valid
+existing crop specification.
+
+## Decision
+
+Use the same educational crop request on S16-S18. Show missing criteria,
+compare the conditions for expectation changes, implementation repair or
+clarification, then add a concise natural-language request. Keep S19-S21
+for general questions, the five-part task model and sentence mapping.
+Keep S22 onward as separate actual TRIAL-002 evidence. Preserve the restored
+S14, the S15 title,119slides,417minutes and every slide's time and Mode.
+
+## Rationale
+
+Let each next slide develop the same problem while retaining the distinction
+between intended change scope and observed execution evidence.
+
+## Alternatives
+
+Keep a filter-to-crop handoff; the user prefers case continuity. Rewrite
+the actual Trial request to match the example; this would falsify evidence.
+Remove valid verification details; this would weaken the approved design.
+
+## Trade-offs
+
+Remove the opening filter example while retaining later performance cases
+and existing qualitative illustrations. Defer formal task labels to their
+existing slides rather than repeat them in the short request.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S16-S18 source, Map/template metadata, ACT1/Full Notes and PPTX, previews,
+current planning notices and delivery identities. Other slides, evidence,
+Demo repository, Site and presenter bundle stay unchanged.
+
+## Evidence
+
+Explicit user approval; current Map, Notes and existing crop specification.
+No new Trial, product execution, repeated comparison or measured cost claim.
+
+## Training Relevance
+
+YES — separate requested intent, repository facts and completion evidence.
+
+## Follow-up
+
+Render the final Full and ACT1 files, check the three changed slides and
+surrounding sequence, compare retained slides and Notes, then push normally.
+Keep Windows, product, room and rehearsal verification open.

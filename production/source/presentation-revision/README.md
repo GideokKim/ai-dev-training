@@ -1,5 +1,7 @@
 # Current presentation source
 
+DEC-0110 keeps current S16-S18 on one educational crop request. Edit historical factories S11/S12/S13 in `prompt-timelines.mjs`; preserve the final119-ID adapter and all image provenance. Use a natural request on current S18 and conditional change authority on S17. Current Map/Notes remain authoritative.
+
 DEC-0109 restores the original S14 visual by removing the119-boundary layout overlay. Keep the119-ID migration, S15 deletion, S14 Q&A and417-minute schedule unchanged.
 
 Current: DEC-0108 /119slides/417minutes. `act0-handoff-119.mjs` removes former S15 and applies one final120-to119 display migration. All retained factories, JSON records and asset filenames remain at their documented input editions. Apply120-ID footers/terminology before the119-ID boundary, then current Notes. Current native tables S53/S65; charts S69/S96.

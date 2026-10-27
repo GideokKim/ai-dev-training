@@ -1,6 +1,6 @@
 # STEP 08 — Slide-to-Template Mapping
 
-## 현재 제작 기준 — DEC-0108 / DEC-0109 (2026-10-27)
+## 현재 제작 기준 — DEC-0108 / DEC-0109 / DEC-0110 (2026-10-27)
 
 현재 **119장·417분(6시간57분)**. 이전 S15 제조 검사 전환 장을 삭제하고
 이전 S16–S120을 S15–S119로 한 칸 당긴다. S14는 정보 접근과 사람의 최종 판단을
@@ -9,7 +9,10 @@
 ACT별 장수14/22/22/26/20/15, 시간42/64/90/96/85/40분.
 Mode Lecture186/Demo49/Case105/Reflection22/Transition23/Q&A32분.
 다른 장의 내용·장별 시간/Mode·근거·Trial/State/Beat/Section ID는 유지한다.
-ACT1의 filter→crop 예시 전환은 이번에 다시 설계하지 않는다.
+ACT1 S16–S18은 DEC-0110에 따라 같은 crop 수정 요청으로 연결한다.
+빠진 기준 확인→허용 범위 비교→구체 요청 순서이며 교육용 예시다.
+S19–S21의 일반화·문장 대응과 S22 이후 실제 TRIAL-002는 구분한다.
+[현재 ACT1 사례](ACT1_SINGLE_CROP_CASE.md)를 따른다.
 Native 표는 S53/S65, 차트는 S69/S96, 마지막 팁 찾아보기는 S116–S118이다.
 12Templates/28Variants·19Notes 필드는 유지한다. 제품·Windows·교육장·리허설은
 UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 변경하지 않는다.
@@ -49,9 +52,9 @@ UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 변경하지 않는다.
 | S13 — 개발 프로젝트 조사는 Codex에서 시작한다 | T03-C | CMP-WORKFLOW, CMP-CLAIM | CMP-PRACTICAL-TIP | R+T; official-source menu reconstruction, not a screenshot | DEMO-01 entry path only; Lecture | Single state; three connected steps | — | V01, V05 |
 | S14 — 프로젝트를 봐도, 원하는 작업은 따로 정한다 | T02-A | — | — | T | DEMO-01 callback; Lecture2 + Q&A3 = 5minutes | Original role diagram; ACT0 Q&A; DEC-0109 | — | V09 |
 | S15 — Prompt를 작업 명세로 만들기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
-| S16 — Task에는 무엇이 아직 정해지지 않았을까? | T02-A | — | — | C+T; generated Agent + qualitative token/time illustration, not measured exponential growth | Prompt input + preserved three-question list | Single state | — | V03, V05, V09 |
-| S17 — 요청만으로는 의도가 보이지 않는다 | T02-A | — | — | C+T; three possible interpretations, not repeated executions | Prompt input + same-Agent parallel branches + five missing fields | Single state; three hypothetical paths | — | V03, V05, V09 |
-| S18 — 원하는 작업 경로를 Prompt에 담는다 | T04-A | — | — | C+T; selected intended path, not a guaranteed or observed result | Five-field Prompt + same three paths, implementation intent highlighted; Case 2 min | Single state; one desired path emphasized | — | V03, V05, V09 |
+| S16 — 이 요청에는 무엇이 빠졌을까? | T02-A | — | — | C+T; same crop case, qualitative cost images without measurements | Crop Prompt + Agent + preservation/scope/completion questions | Single state | — | V03, V05, V09 |
+| S17 — 어디까지 바꾸라는 요청일까? | T02-A | — | — | C+T; conditional alternatives, no repeated executions | Same crop Prompt + expected-value change / implementation / clarification paths | Single state; approval needed for a legitimate spec change | — | V03, V05, V09 |
+| S18 — 원하는 변경 범위를 요청에 담는다 | T04-A | — | — | C+T; intended implementation scope, not observed success | Natural-language crop Prompt + small expected-value reference + highlighted intent | Single state; Case 2 min | — | V03, V05, V09 |
 | S19 — 개발자가 정해야 하는 경계 | T02-A | — | — | C+T | — | Single state | — | V09 |
 | S20 — Task Specification의 다섯 책임 | T03-A | — | — | T | — | Single state | — | V10 |
 | S21 — 더 긴 Prompt보다 분명한 경계 | T04-A | — | CMP-CLAIM, CMP-CPP | C+T | — | Single state | Supporting | V02, V08 |

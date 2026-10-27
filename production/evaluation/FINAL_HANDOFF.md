@@ -1,5 +1,34 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 현재 ACT1 사례 연결 — DEC-0110 (2026-10-27)
+
+S16–S18은 같은 “crop test 고쳐줘”를 기준으로 빠진 기준 확인→허용 범위 비교→
+보존·수정·확인·보고 요청으로 이어진다. S14 원복 화면, S15 제목과 나머지116장,
+S19 이후 일반화·실제 기록을 유지했다. 교육용 요청을 TRIAL-002 원문으로 바꾸지 않는다.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT1](../ACT_1.pptx),
+[S16](../preview/full/S16.png), [S17](../preview/full/S17.png), [S18](../preview/full/S18.png),
+[검토 결과](ACT1_SINGLE_CROP_REVISION.md), [기획](../../plan/ACT1_SINGLE_CROP_CASE.md).
+
+Full119장과 ACT1 22장의 최종141개 렌더·내장 Notes,119개19필드 Notes와
+417분/Mode를 대조했다. 다른116장 화면·5개 ACT 파일·기존 근거·표·차트·워크북은 같다.
+Windows/제품·계정/교육장/실측 리허설은 UNVERIFIED다. Demo·Sites·묶음은 변경하지 않았다.
+아래 이전 번호·해시·검증 결과는 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `4566074e460be24907ac58d88292064dd039f9218bfe70ebb5c9cb817d55bb24` |
+| `production/ACT_0.pptx` | `0f0843eb5964010ae0bd3dad26761a207c89d303c81e960a9e55a19678bb32d3` |
+| `production/ACT_1.pptx` | `142417eb1b799fc3b8c4d8b398927e3638076487e78434f7f311cb4954a914c4` |
+| `production/ACT_2.pptx` | `0cc9d1a9fc7f37907772c45947833cd07430f97cceea1133b8a33ec5809f314c` |
+| `production/ACT_3.pptx` | `6b3b0693a02c9ee25dcf71d9de21762cb7cac2d63875f5d4710801776519bd13` |
+| `production/ACT_4.pptx` | `eb76fdc0c32166e696b3fe62c3819589c08ee039ac35afdb4b661ef3f5e345b7` |
+| `production/ACT_5.pptx` | `e0f694b8e41390772cb117ce3d8a2a1dec5295acd72ddc6c3780643564475755` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `47d52aa62a51c77499a232410171b7e2bd60a8678e9dc6e4351135094864f13c` |
+| `production/preview/full/montage.png` | `e32e018b4758b85427057c14a469651e8200be9d5e3511c5635823b09fbc7070` |
+
+## 보존된 이전 전달 기록
+
 ## 현재 S14 표현 — DEC-0109 (2026-10-27)
 
 S14는 S15 삭제 전 역할 도식·문구·크기·배치로 복원했다. 추가 요청 작성 문장은

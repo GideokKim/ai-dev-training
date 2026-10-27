@@ -1,19 +1,21 @@
 # Static Fallback Manifest
 
-Current: DEC-0109 /119slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0110 /119slides/417minutes. READY — LOCAL STATIC FILES ONLY.
 Retain44reference roles and evidence classes; current IDs/paths follow the
 120-to119 migration. Former S15 is removed. S14 retains ACT0 Q&A3minutes and its original visual is restored.
 S11/S12 product UI reconstructions add no execution evidence. Original
-Trial/State/Claim IDs stay unchanged. Live/Hybrid is not approved.
+Trial/State/Claim IDs stay unchanged. S16-S18 now use one educational crop request.
+Live/Hybrid is not approved.
 Windows, account, room and timed rehearsal remain UNVERIFIED.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`f59ce0912b27ca9116995ee33489a041d73e694b431c8a8c3702624ded5ffb95`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`0f6a87b7ad00d7f53b74bd6c0b6d875cc3b3e86cd823f7eef23bd45479f2eb86`.
-- `production/preview/full/montage.png` SHA-256:`20405f7c5171aa305b3aa2642bfc8c78805c96820f2607a55f2641baec41c241`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`4566074e460be24907ac58d88292064dd039f9218bfe70ebb5c9cb817d55bb24`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`47d52aa62a51c77499a232410171b7e2bd60a8678e9dc6e4351135094864f13c`.
+- `production/preview/full/montage.png` SHA-256:`e32e018b4758b85427057c14a469651e8200be9d5e3511c5635823b09fbc7070`.
 
-[Current S14 restoration](../../production/evaluation/S14_RESTORE.md),
+[Current ACT1 revision](../../production/evaluation/ACT1_SINGLE_CROP_REVISION.md),
+[Preserved S14 restoration](../../production/evaluation/S14_RESTORE.md),
 [ID migration](../../plan/SLIDE_ID_MIGRATION_119.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
