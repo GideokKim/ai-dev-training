@@ -1,5 +1,7 @@
 # DEMO-01 — Repository Exploration
 
+> Current DEC-0112 /121slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): S06, S07, S08, S09, S10, S11, S12, S13, S14. Paths and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Former S26 is split within5minutes; previous S27-S119 shift+2. Trial/State IDs and evidence remain unchanged. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.
+
 > Current DEC-0108 /119slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): S06, S07, S08, S09, S10, S11, S12, S13, S14. Current static files and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Former S15 is deleted; all later current IDs move down one. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.
 
 > Current DEC-0104 /120slides/420minutes. Current Map references (including callbacks, not all scheduled Demo slots): S06, S07, S08, S09, S10, S11, S12, S13, S14, S15. Use [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md) for active paths/hashes and local-only readiness. Earlier literal Slide IDs below retain their historical edition. No new Trial or Live approval.

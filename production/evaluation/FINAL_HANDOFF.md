@@ -1,5 +1,36 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 현재 전달 기준 — DEC-0112 (2026-10-27)
+
+121장·417분(6시간57분). 이전 S26은 확인 범위·C++ 반례·완료 조건 요청의 S26–S28로
+분리했다.90초/90초/120초=기존5분=Lecture4+Reflection1이다. ACT1은24장·64분,
+기존 S27–S119는 S29–S121이며 다른 장의 배정·기획 흐름·근거는 유지했다.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT1](../ACT_1.pptx),
+[S26](../preview/full/S26.png), [S27](../preview/full/S27.png), [S28](../preview/full/S28.png),
+[현재 검토](S26_REQUEST_SPLIT_REVISION.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[번호 이행](../../plan/SLIDE_ID_MIGRATION_121.md), [사용자 검증](USER_VALIDATION_CHECKLIST.md).
+
+최종7개 PPTX의242개 PNG·Notes와 Full/ACT121개 화면 일치를 확인했다.
+전체Mode·ACT시간은 동일하다. 기존118장의 번호/참조 외 화면과 미디어·표·차트·워크북은
+보존했다. 실제 TRIAL-002 Python 기록과 새 C++ 교육용 예시의 경계를 유지한다.
+Windows·제품/계정·교육장·실측 리허설은 UNVERIFIED다. Demo·Sites·묶음은 변경하지 않았다.
+아래 이전 해시·번호·평가는 해당 판본의 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `42c02d7dcf057c37703efce9dcc9ec727acc75947810c8ee054868b00f31d962` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `1d8b7009f4bcc054f1c225ac8457808ba074446e0c265c0ea2addec1836e302e` |
+| `production/ACT_2.pptx` | `7b4869ab0aaa01569a9927d8e6f92a75ea82c2366666319568ff13325f9ddcf6` |
+| `production/ACT_3.pptx` | `f0943678c0468d7cde832ba9b83257bf2ffa042c45dfedf276c86811f4561ac4` |
+| `production/ACT_4.pptx` | `0e9d7c306f88324f0a4c9dbcd0eb3525f85c571c133eecd6034cb5c359a8e5fd` |
+| `production/ACT_5.pptx` | `7cd8445e511ba13c84b87341b1f56006c4eeeb63f5f14fd2d49505fa1f45ad44` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `cbaa040e37ea5a3bdf2ae0c45e26722fc757d87d706509bda6092dc02994848e` |
+| `production/preview/full/montage.png` | `1dc8f807a7db028ce0912920d4d5b10eb7ef86cdd8d7ac2ad897f68e96856f3e` |
+
+## 보존된 이전 전달 기록
+
 ## 현재 실제 요청 연결 — DEC-0111 (2026-10-27)
 
 S21은 실제 TRIAL-002 입력을 발췌·번역하고 원문 밖 주석으로 다섯 역할을 연결한다.

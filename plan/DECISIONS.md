@@ -11524,3 +11524,77 @@ YES — distinguish original input, teaching annotations and observed output.
 Check actual headings, translations and identical Process excerpts;
 validate Notes and budgets, render Full/ACT1 and inspect the sequence.
 Push normally. Keep Windows, product/account, room and rehearsal unverified.
+
+# DEC-0112 — Split verification request design into three paced slides
+
+## Status
+
+ACCEPTED — explicit user approval of the three-slide proposal.
+
+## Date
+
+2026-10-27
+
+## Context
+
+The user finds S26 cluttered and approves separating the check scope,
+weak-assertion counterexample and concrete completion request.
+
+## Problem
+
+One slide combines five checks, vector results, assertions and request
+writing. The audience must choose several reading paths at once.
+
+## Decision
+
+Replace former S26 with current S26-S28. Use90seconds,90seconds and
+120seconds. Preserve Lecture4minutes and Reflection1minute, ACT1 64minutes
+and total417minutes. Keep119-to121 ID migration explicit. Retain all other
+slide content, budgets and evidence. Reuse T06-C and T04-A without adding
+Templates or Variants. Keep the actual Python Trial distinct from the
+unexecuted C++ vector, assertions and teaching request.
+
+## Rationale
+
+Choose the needed check, show what a weak condition misses, then express
+the expected result and required report in the request. Give each slide
+one role while preserving the approved verification lesson.
+
+## Alternatives
+
+Keep one slide with smaller text; the user rejects its density. Use two
+slides; this still combines the counterexample and the request/code.
+Add more time; the approved scope preserves the existing five minutes.
+
+## Trade-offs
+
+Add two slide IDs and migrate downstream references. Reduce simultaneous
+screen content, not the instructional intent. Preserve the optional size
+assertion and C++ tool-transfer detail in Notes.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+Slide Map, template mapping, current planning notices,119-to121 migration,
+source factories, seven decks, Notes, previews and delivery identities.
+The Demo repository, Site and presenter bundle remain unchanged.
+
+## Evidence
+
+Explicit user approval; prior S26, DEC-0041 and unchanged TRIAL-002 source.
+Official GoogleTest and vector equality documentation supports only the
+code semantics. No new Trial, C++ execution, benchmark or causal claim.
+
+## Training Relevance
+
+YES — distinguish available evidence, adequate criteria and requested
+completion conditions without turning the section into a testing course.
+
+## Follow-up
+
+Render final Full/ACT decks and inspect the three slides and transitions.
+Verify Notes, ID references and budgets before a normal origin/main push.
+Keep Windows, product/account, room and timed rehearsal unverified.

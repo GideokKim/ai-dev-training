@@ -1,5 +1,7 @@
 # Current presentation source
 
+Current: DEC-0112 /121slides/417minutes. `verification-request-121.mjs` replaces former119-ID S26 with three native slides and applies one119-to121 display boundary. Retained factories/JSON/assets keep their documented input editions. Apply120-ID footers,119-ID deletion, then121-ID migration. New S26/S27/S28 provide their own current footers and19-field Notes. Tables S55/S67; charts S71/S98.
+
 DEC-0111: current S21 uses actual TRIAL-002 excerpts in historical `legacy-priority.mjs` factory S16. Keep four source headings and five external annotations; Context reads the Process investigation target. Current S22 uses retained `act01.mjs` factory S17 and the same Process01-03. Source audience footers use120IDs S22/S23; the final adapter produces119IDs. Preserve all native evidence owners and current Notes.
 
 DEC-0110 keeps current S16-S18 on one educational crop request. Edit historical factories S11/S12/S13 in `prompt-timelines.mjs`; preserve the final119-ID adapter and all image provenance. Use a natural request on current S18 and conditional change authority on S17. Current Map/Notes remain authoritative.

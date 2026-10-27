@@ -19,7 +19,8 @@ import {afterCopilotTip,migrate116Factories,copilotTipFactory} from './copilot-t
 import {afterScopeTips,migrate117Factories,scopeTipFactories,scopeTipIds,scopeTipIndexFactory} from './agents-scope-tips.mjs';
 import {applyAudienceFooter} from './audience-footers.mjs';
 import {applyAct0Terminology} from './act0-terminology.mjs';
-import {CURRENT_SLIDE_COUNT,afterAct0Removal,beforeAct0Removal,applyCurrent119} from './act0-handoff-119.mjs';
+import {afterAct0Removal,beforeAct0Removal,applyCurrent119} from './act0-handoff-119.mjs';
+import {CURRENT_SLIDE_COUNT,afterVerificationSplit,beforeVerificationSplit,applyCurrent121,verificationRequestFactories} from './verification-request-121.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
@@ -42,7 +43,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d{2,3}) — ([\s\S]*?)(?=^#### S\d{2,3}|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==CURRENT_SLIDE_COUNT)throw new Error('Expected 119 source records.');
+if(Object.keys(map).length!==CURRENT_SLIDE_COUNT)throw new Error('Expected 121 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -112,6 +113,12 @@ const factories119=Object.fromEntries(Object.entries(factories)
  .map(([id,factory])=>[afterAct0Removal(id),factory]));
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,factories119);
+// DEC-0112 is a final119-to121 boundary; retained inputs keep their editions.
+const factories121=Object.fromEntries(Object.entries(factories)
+ .filter(([id])=>id!=='S26')
+ .map(([id,factory])=>[afterVerificationSplit(id),factory]));
+for(const id of Object.keys(factories))delete factories[id];
+Object.assign(factories,factories121,verificationRequestFactories(H));
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -133,14 +140,19 @@ const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const id of deck.ids){
-  const id120=beforeAct0Removal(id);
+  const isVerification=['S26','S27','S28'].includes(id);
+  const id119=beforeVerificationSplit(id);
+  const id120=isVerification?null:beforeAct0Removal(id119);
   const before=p.slides.items.length;const s=factories[id](p,H);
   if(p.slides.items.length!==before+1)throw new Error('Each factory must add exactly one slide: '+id);
-  if(tipRecords[id120])addPracticalTipBadge(s,tipRecords[id120].category,H);
-  addModuleFooter(s,id120,moduleRecords[id120],H);
-  applyAudienceFooter(s,id120,audienceFooters,H);
-  applyAct0Terminology(s,id120,H);
-  applyCurrent119(s);
+  if(!isVerification){
+   if(tipRecords[id120])addPracticalTipBadge(s,tipRecords[id120].category,H);
+   addModuleFooter(s,id120,moduleRecords[id120],H);
+   applyAudienceFooter(s,id120,audienceFooters,H);
+   applyAct0Terminology(s,id120,H);
+   applyCurrent119(s);
+   applyCurrent121(s);
+  }
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
  }
@@ -148,15 +160,15 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>['S69','S96'].includes(id)?i+1:0).filter(Boolean);
-  const tableOwners=deck.ids.map((id,i)=>['S53','S65'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>['S71','S98'].includes(id)?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>['S55','S67'].includes(id)?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,
    integrityValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_package_integrity.py'),
    layoutValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),
    layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit',...tableOwners.flatMap(owner=>['--require-native-table-slide',String(owner)])],
-   explicitTotalSlideCount:deck.ids.length,requiredNativeChartOwnerSlides:chartOwners,requiredNativeTableOwnerSlides:tableOwners,materializeLiteralChartWorkbooks:true,
+   explicitTotalSlideCount:deck.ids.length,requiredNativeChartOwnerSlides:chartOwners,requiredNativeTableOwnerSlides:tableOwners,materializeLiteralChartWorkbooks:false,
    fontPolicy:{basis:'reference',families:[H.FONT,H.CODE],referencePath:baseline,referenceSha256:createHash('sha256').update(await fs.readFile(baseline)).digest('hex')},
    verifyArtifactToolImport:true,receiptPath:path.join(buildDir,deck.name+'.validation.json')
   });
