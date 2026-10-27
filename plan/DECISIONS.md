@@ -11308,3 +11308,71 @@ the human's final decision or the observed-evidence boundaries.
 Validate119Notes/417minutes, all Mode splits,119current IDs and unchanged
 evidence. Render all seven final files, inspect the handoff and renumbered
 references, then commit/push normally. Keep Windows and rehearsal unverified.
+
+# DEC-0109 — Restore the original S14 visual
+
+## Status
+
+ACCEPTED — explicit user request to restore the previous S14 content.
+
+## Date
+
+2026-10-27
+
+## Context
+
+After removing former S15, the user prefers the original S14 over its
+added request-design handoff sentence and revised text hierarchy.
+
+## Problem
+
+The additional takeaway changes a role-and-responsibility diagram that
+the user finds clearer in its previous form.
+
+## Decision
+
+Restore S14's complete visual from the pre-deletion revision ea74a74.
+Restore the original body sizes, placement and final responsibility line;
+remove only the added request-design line. Align Notes and current visual
+metadata. Keep the former S15 deleted,119current IDs and417minutes.
+Retain S14 at Lecture2+Q&A3=5minutes and continue to the ACT1 title after
+Q&A. Keep all evidence and every other slide unchanged.
+
+## Rationale
+
+Honor the preferred role diagram without undoing the separately approved
+slide deletion, numbering and preserved ACT0 Q&A.
+
+## Alternatives
+
+Revert the entire prior commit; this would restore the deleted slide and
+old numbering. Keep the added line; this conflicts with the latest request.
+
+## Trade-offs
+
+Use Notes for the brief ACT1 handoff while retaining the earlier visual
+focus on shared access and the human's final decision.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S14 source overlay, current visual metadata/Notes, Full and ACT0 PPTX and
+previews, current delivery identities. Other ACT files and Demo stay.
+
+## Evidence
+
+User feedback and the original S14 XML/render from ea74a74. No new Trial,
+product run or learning measurement.
+
+## Training Relevance
+
+YES — distinguish visual focus from retained scheduling and operation.
+
+## Follow-up
+
+Confirm S14 matches the original visual, check all other slide/package
+parts and current Notes, render the final Full/ACT0 files and push normally.
+Keep Windows, account, room and rehearsal unverified.

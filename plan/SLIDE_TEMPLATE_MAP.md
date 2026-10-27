@@ -1,10 +1,10 @@
 # STEP 08 — Slide-to-Template Mapping
 
-## 현재 제작 기준 — DEC-0108 (2026-10-27)
+## 현재 제작 기준 — DEC-0108 / DEC-0109 (2026-10-27)
 
 현재 **119장·417분(6시간57분)**. 이전 S15 제조 검사 전환 장을 삭제하고
 이전 S16–S120을 S15–S119로 한 칸 당긴다. S14는 정보 접근과 사람의 최종 판단을
-구분한 뒤 “결정한 목표·조건·완료 기준을 요청에 담는다”로 ACT1을 연다.
+구분하던 이전 화면을 유지하고, ACT0 Q&A 후 ACT1 제목으로 이어간다.
 삭제 장의 전환3분은 줄이고 Q&A3분은 S14에 남긴다. S14는 Lecture2+Q&A3=5분이다.
 ACT별 장수14/22/22/26/20/15, 시간42/64/90/96/85/40분.
 Mode Lecture186/Demo49/Case105/Reflection22/Transition23/Q&A32분.
@@ -47,7 +47,7 @@ UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 변경하지 않는다.
 | S11 — Chatbot에 이 자료를 직접 전달한다면? | T03-C | CMP-EVIDENCE, CMP-CLAIM | — | T; manual attachment assumption, no comparison result | DEMO-01; Lecture 2분 = 2분; DEC-0084 | Static ChatGPT web composer reconstruction; same diagram; DEC-0107 | Contextual | V01, V02, V05 |
 | S12 — Agent가 자료를 직접 찾아 연결했다 | T03-C | CMP-EVIDENCE, CMP-CLAIM | — | P+T; past CLI observation plus teaching relationship | DEMO-01; Lecture 2분 = 2분; DEC-0084 | Static Codex UI reconstruction; CLI summary, not Desktop capture; DEC-0107 | Contextual | V01, V02, V05 |
 | S13 — 개발 프로젝트 조사는 Codex에서 시작한다 | T03-C | CMP-WORKFLOW, CMP-CLAIM | CMP-PRACTICAL-TIP | R+T; official-source menu reconstruction, not a screenshot | DEMO-01 entry path only; Lecture | Single state; three connected steps | — | V01, V05 |
-| S14 — 프로젝트를 봐도, 원하는 작업은 따로 정한다 | T02-A | — | — | T | DEMO-01 callback; Lecture2 + Q&A3 = 5minutes | Human final decision; request handoff; DEC-0108 | — | V09 |
+| S14 — 프로젝트를 봐도, 원하는 작업은 따로 정한다 | T02-A | — | — | T | DEMO-01 callback; Lecture2 + Q&A3 = 5minutes | Original role diagram; ACT0 Q&A; DEC-0109 | — | V09 |
 | S15 — Prompt를 작업 명세로 만들기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
 | S16 — Task에는 무엇이 아직 정해지지 않았을까? | T02-A | — | — | C+T; generated Agent + qualitative token/time illustration, not measured exponential growth | Prompt input + preserved three-question list | Single state | — | V03, V05, V09 |
 | S17 — 요청만으로는 의도가 보이지 않는다 | T02-A | — | — | C+T; three possible interpretations, not repeated executions | Prompt input + same-Agent parallel branches + five missing fields | Single state; three hypothetical paths | — | V03, V05, V09 |

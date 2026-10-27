@@ -1,10 +1,10 @@
 # Official Slide Map
 
-## 현재 제작 기준 — DEC-0108 (2026-10-27)
+## 현재 제작 기준 — DEC-0108 / DEC-0109 (2026-10-27)
 
 현재 **119장·417분(6시간57분)**. 이전 S15 제조 검사 전환 장을 삭제하고
 이전 S16–S120을 S15–S119로 한 칸 당긴다. S14는 정보 접근과 사람의 최종 판단을
-구분한 뒤 “결정한 목표·조건·완료 기준을 요청에 담는다”로 ACT1을 연다.
+구분하던 이전 화면을 유지하고, ACT0 Q&A 후 ACT1 제목으로 이어간다.
 삭제 장의 전환3분은 줄이고 Q&A3분은 S14에 남긴다. S14는 Lecture2+Q&A3=5분이다.
 ACT별 장수14/22/22/26/20/15, 시간42/64/90/96/85/40분.
 Mode Lecture186/Demo49/Case105/Reflection22/Transition23/Q&A32분.
@@ -369,16 +369,16 @@ UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 변경하지 않는다.
 - **Curriculum Trace:** ACT 0 / 0E–0F — 정보 접근·사람의 최종 판단, ACT0 Q&A와 ACT1 요청 설계 연결.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; 과정의 Mental Model이며 모든 제품·환경의 기능 주장 아님
-- **Visual Concept:** 기존 사람/AI Agent 아이콘과 볼 수 있는 정보/정해야 할 항목의 병렬 도식을 유지한다. 하단의 최종 선택·승인 문구를 보존하고 “결정한 목표·조건·완료 기준을 요청에 담는다.”를 핵심 연결로 표시한다. 제조 검사 파이프라인이나 새로운 과제를 추가하지 않는다. DEC-0108.
+- **Visual Concept:** `프로젝트 파일 접근 ≠ 작업 의도` 아래 두 영역을 병렬 배치한다. `볼 수 있는 것 — 코드·명세·테스트`에는 사람+AI Agent 아이콘을, `정해야 하는 것 — 목표·범위·완료 수락`에는 사람 아이콘과 “최종 결정·책임”을 표시한다. AI의 제안 가능성을 작은 보조 문구로 남겨 AI가 추론할 수 없다는 의미가 되지 않게 한다. 아이콘은 교육용 표현이며 실제 제품 UI가 아니다. DEC-0109에서 삭제 전 화면을 복원했다.
 - **Demo / Case Connection:** DEMO-01 성공 뒤 남는 문제
 - **Beginner Payoff:** 개발 프로젝트 접근을 주더라도 무엇을 원하는지 설명해야 함을 이해한다.
 - **Advanced Payoff:** Context 탐색과 목표·판단 책임을 서로 다른 역할로 본다.
 - **C++ Vision Bridge:** 없음
-- **Speaker Intent:** 함께 볼 수 있는 코드·명세·테스트와 사람이 최종 정할 목표·허용 범위·완료 수용을 구분한다. Agent의 제안 가능성과 사람의 최종 책임을 유지한다. 2분 설명 후 ACT0 Q&A3분을 운영하고, 원하는 변화를 요청에 담는 다음 ACT로 연결한다. ACT1의 요청 기법이나 성능 사례의 답은 미리 설명하지 않는다.
-- **Transition:** “이제 원하는 변화·지킬 조건·완료 근거를 요청에 어떻게 담을지 보겠습니다.”라고 S15의 ACT1 제목을 연 뒤 S16의 기존 모호한 요청 사례로 이어간다.
+- **Speaker Intent:** 사람과 Agent가 함께 살펴볼 수 있는 정보와 사람이 최종 선택·승인할 목표·허용 범위·완료 수용을 이전 역할 도식 그대로 설명한다. Agent의 제안 가능성을 유지한다. 2분 설명 후 ACT0 Q&A3분을 운영하고, ACT1 제목으로 이동한다. 화면에 요청 작성 연결 문장을 추가하지 않는다.
+- **Transition:** “이제 원하는 작업을 요청으로 어떻게 전달할지 보겠습니다.”라고 S15의 ACT1 제목을 연 뒤 S16의 기존 모호한 요청 사례로 이어간다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 2분 + Q&A 3분 = 5분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0108
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0108, DEC-0109
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 ### ACT 1 — 22 slides / 64 minutes

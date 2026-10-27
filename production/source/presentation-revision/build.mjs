@@ -140,7 +140,7 @@ for(const deck of decks){
   addModuleFooter(s,id120,moduleRecords[id120],H);
   applyAudienceFooter(s,id120,audienceFooters,H);
   applyAct0Terminology(s,id120,H);
-  applyCurrent119(s,id,H);
+  applyCurrent119(s);
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
  }

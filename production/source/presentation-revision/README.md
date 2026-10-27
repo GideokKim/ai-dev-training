@@ -1,5 +1,7 @@
 # Current presentation source
 
+DEC-0109 restores the original S14 visual by removing the119-boundary layout overlay. Keep the119-ID migration, S15 deletion, S14 Q&A and417-minute schedule unchanged.
+
 Current: DEC-0108 /119slides/417minutes. `act0-handoff-119.mjs` removes former S15 and applies one final120-to119 display migration. All retained factories, JSON records and asset filenames remain at their documented input editions. Apply120-ID footers/terminology before the119-ID boundary, then current Notes. Current native tables S53/S65; charts S69/S96.
 
 DEC-0107 updates only the right-side UI in current S11/S12 through the retained ACT0 collection factory. Generated ChatGPT web and Codex project surfaces live in assets/product-ui; the source/claim scope stays in the current Map/Notes. UI art is raster; surrounding text, diagrams and captions remain native.

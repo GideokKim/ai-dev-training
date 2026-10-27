@@ -1,5 +1,33 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 현재 S14 표현 — DEC-0109 (2026-10-27)
+
+S14는 S15 삭제 전 역할 도식·문구·크기·배치로 복원했다. 추가 요청 작성 문장은
+제거했다. 기존 S15 삭제와119장·417분, S14의 Q&A3분·이후 번호는 유지한다.
+현재 S14 설명·Q&A 후 S15 ACT1 제목으로 이어간다.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT0](../ACT_0.pptx),
+[복원 화면](../preview/full/S14.png), [검토 결과](S14_RESTORE.md).
+
+최종133개 화면을 렌더링했다. S14는 원래 화면과 같고, 다른118장 및 다른5개 ACT
+PPTX는 그대로다. 기존 근거·시간/Mode·표·차트·워크북을 유지한다.
+Windows/제품·계정/교육장/리허설은 UNVERIFIED다. 웹·발표 묶음·Demo 저장소는
+변경하지 않았다. 아래 이전 파일 해시·검증 기록은 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `f59ce0912b27ca9116995ee33489a041d73e694b431c8a8c3702624ded5ffb95` |
+| `production/ACT_0.pptx` | `0f0843eb5964010ae0bd3dad26761a207c89d303c81e960a9e55a19678bb32d3` |
+| `production/ACT_1.pptx` | `b7e493de0372ef0f2a3ffdc4dd1eeac31d267ea7f0052c8221b14a9ade6875b0` |
+| `production/ACT_2.pptx` | `0cc9d1a9fc7f37907772c45947833cd07430f97cceea1133b8a33ec5809f314c` |
+| `production/ACT_3.pptx` | `6b3b0693a02c9ee25dcf71d9de21762cb7cac2d63875f5d4710801776519bd13` |
+| `production/ACT_4.pptx` | `eb76fdc0c32166e696b3fe62c3819589c08ee039ac35afdb4b661ef3f5e345b7` |
+| `production/ACT_5.pptx` | `e0f694b8e41390772cb117ce3d8a2a1dec5295acd72ddc6c3780643564475755` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `0f6a87b7ad00d7f53b74bd6c0b6d875cc3b3e86cd823f7eef23bd45479f2eb86` |
+| `production/preview/full/montage.png` | `20405f7c5171aa305b3aa2642bfc8c78805c96820f2607a55f2641baec41c241` |
+
+## 보존된 이전 전달 기록
+
 ## 현재 전달 기준 — DEC-0108 (2026-10-27)
 
 119장·417분. 이전 S15를 삭제하고 현재 S14에 ACT0 Q&A3분을 보존했다.
