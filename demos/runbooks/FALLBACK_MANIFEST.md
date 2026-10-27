@@ -7,11 +7,13 @@ Company-account use, Windows, room and timed rehearsal UNVERIFIED. No Live appro
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`2263323489fbe59470b1ca2b5927a67cf18c9aa6fb35760560f3f701b3b61b6d`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`c36d588673a9d3985a80c70e60655708849acbd39b27b7676ed0a92becd76b3b`.
 - `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`694af6eef8212ba01107b4b6cf720c2ec530ff2f90f9c918f2c8d91c7aae5703`.
-- `production/preview/full/montage.png` SHA-256:`b269f6895943f702765a96e715236eb24a8460aa1cfde2423e91f3d51af47e30`.
+- `production/preview/full/montage.png` SHA-256:`957bed9ed40515f6b0bd5758bb7b9d65a2ab845daba65a55b6cb74a8d7d2e503`.
 
 [Current S47 validation](../../production/evaluation/S47_CODE_CHECK_REVISION.md).
+
+Latest visual-only update2026-10-27: S04 arrows; [validation](../../production/evaluation/S04_ARROW_ALIGNMENT.md). Demo inventory paths/images/readiness are unchanged.
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|

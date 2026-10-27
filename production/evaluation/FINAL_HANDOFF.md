@@ -1,5 +1,27 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 현재 시각 수정 — S04 화살표 (2026-10-27)
+
+S04 하단의 두 연결을 선·화살촉이 한 객체인 Native connector로 정리했다.
+문구·배치·Notes·근거·120장·420분은 유지한다. 다른5개 ACT PPTX와 다른119장 화면은
+그대로다. [수정 화면](../preview/full/S04.png), [검토 결과](S04_ARROW_ALIGNMENT.md).
+Windows/교육장/실제 제품·계정/리허설의 기존 UNVERIFIED 상태는 유지한다.
+아래 이전 파일 해시와 전달 기록은 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `c36d588673a9d3985a80c70e60655708849acbd39b27b7676ed0a92becd76b3b` |
+| `production/ACT_0.pptx` | `50879f3bb425df9f17c189a0c0c9977effcbfbe41be9c4949f1b045cc973b09a` |
+| `production/ACT_1.pptx` | `a7e43e64a7ed36a2139633fc1b0dac73750eb64ff7488512522a53caae76e9c6` |
+| `production/ACT_2.pptx` | `8dc2a2a6ba6b7e132accbf7e593ae24ee77323bb037449ddd2a1862f97d1b360` |
+| `production/ACT_3.pptx` | `864ce544d7f28cf0791ee40f70a1565918d82486ea74924e4d7f01bac0f381bf` |
+| `production/ACT_4.pptx` | `8f786573ea66ee75a85fa0051ba982885c3bf5639699297c964bb6af2a6f3284` |
+| `production/ACT_5.pptx` | `38ca5acb483ea712bd7250eb0f70369c9fd3ebc493db14da7365693389cc4508` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `694af6eef8212ba01107b4b6cf720c2ec530ff2f90f9c918f2c8d91c7aae5703` |
+| `production/preview/full/montage.png` | `957bed9ed40515f6b0bd5758bb7b9d65a2ab845daba65a55b6cb74a8d7d2e503` |
+
+## 보존된 이전 전달 기록
+
 ## 현재 수정 — DEC-0105 (2026-10-27)
 
 120장·420분, 모든 장별 시간/Mode 유지. S47은 코드의 위치·요청한 동작·필요한 주변

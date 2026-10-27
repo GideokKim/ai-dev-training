@@ -54,7 +54,13 @@ export function copilotTipFactory(p,H) {
   const x=64+i*400;
   text(s,n,x,552,36,38,28,C.teal,true);
   text(s,label,x+44,552,324,38,27,C.ink,true);
-  if(i<2){line(s,x+306,571,60,C.teal,2);H.arrow(s,x+360,565,12,12,C.teal);}
+  if(i<2)s.shapes.add({
+   geometry:'connector',kind:'straight',
+   name:`Copilot workflow step ${i+1} to ${i+2}`,
+   position:{left:x+306,top:571,width:66,height:0},
+   line:{fill:C.teal,width:2},
+   tail:{type:'triangle',width:'med',length:'med'}
+  });
  });
  return s;
 }

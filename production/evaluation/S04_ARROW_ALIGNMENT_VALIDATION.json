@@ -1,0 +1,38 @@
+{
+  "status": "LOCAL_PASS",
+  "baseline": "bd5d874",
+  "slideCount": 120,
+  "minutes": 420,
+  "changedSlide": "S04",
+  "change": "two composite line/head pairs replaced with matching native arrow connectors",
+  "connectorCount": 2,
+  "lineWidthPx": 2,
+  "textNotesImagesLayoutEvidence": "UNCHANGED",
+  "otherFullSlidePixelsUnchanged": 119,
+  "fullAct0PixelParity": 15,
+  "renderedPNGs": 135,
+  "sourceFinalPixelParity": true,
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "slides": 120,
+      "sha256": "c36d588673a9d3985a80c70e60655708849acbd39b27b7676ed0a92becd76b3b",
+      "changedParts": [
+        "ppt/slides/slide4.xml"
+      ]
+    },
+    {
+      "name": "ACT_0",
+      "slides": 15,
+      "sha256": "50879f3bb425df9f17c189a0c0c9977effcbfbe41be9c4949f1b045cc973b09a",
+      "changedParts": [
+        "ppt/slides/slide4.xml"
+      ]
+    }
+  ],
+  "WindowsRoomRehearsal": "UNVERIFIED",
+  "visualReview": "S04 arrows reviewed individually; consistent line/head junction and no new overlap.",
+  "fullNotesSha256": "694af6eef8212ba01107b4b6cf720c2ec530ff2f90f9c918f2c8d91c7aae5703",
+  "fullMontageSha256": "957bed9ed40515f6b0bd5758bb7b9d65a2ab845daba65a55b6cb74a8d7d2e503",
+  "otherACTDecksUnchanged": 5
+}
