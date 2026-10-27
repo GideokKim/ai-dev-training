@@ -1,5 +1,73 @@
 # Static Fallback Manifest
 
+Current: DEC-0108 /119slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Retain44reference roles and evidence classes; current IDs/paths follow the
+120-to119 migration. Former S15 is removed. S14 retains ACT0 Q&A3minutes.
+S11/S12 product UI reconstructions add no execution evidence. Original
+Trial/State/Claim IDs stay unchanged. Live/Hybrid is not approved.
+Windows, account, room and timed rehearsal remain UNVERIFIED.
+
+## Current source identities
+
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`c49ee1a973a7979d906818c2ab35c6d1f56b42797f9ae7658162c27ecfd7e5fa`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`6a352871048c6c03d62b4efefcd31c55bc81cad16895f6658fde2342698d1d03`.
+- `production/preview/full/montage.png` SHA-256:`ed9a0186ae3c09e09619624ff1aa837451e6308b59f8f7b0dc3a19af72857ebf`.
+
+[Current revision](../../production/evaluation/S15_REMOVAL_REVISION.md),
+[ID migration](../../plan/SLIDE_ID_MIGRATION_119.md).
+
+| Slide | Classification | Path | Dimensions | SHA-256 |
+|---|---|---|---|---|
+| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` |1920×1080| `05b4545671daef4614211ee778cab969a442f34986bf6376c452081c2427ff68` |
+| S07 | RETAINED_DEMO_STATIC | `production/preview/full/S07.png` |1920×1080| `4646cd962fee1b9384ab16059744c87b83fd3d5341a48123d2f5cd6260f579cf` |
+| S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` |1920×1080| `b00fde64f9e461e9cfd17f080024c03c592d6854196c7437e0efc0eda7214afa` |
+| S09 | RETAINED_DEMO_STATIC | `production/preview/full/S09.png` |1920×1080| `1f938fb1a5b6ea172317856cd4bf7d5d2c9fa1ef6ffca0522d877e5e289dde94` |
+| S10 | RETAINED_DEMO_STATIC | `production/preview/full/S10.png` |1920×1080| `c621e5666dfbda359a703d0797ec025bb4915cd17fa498c6f0001a052eb55cc9` |
+| S23 | RETAINED_DEMO_STATIC | `production/preview/full/S23.png` |1920×1080| `2006268ff4d96da09bba0d8ed99b8174423fccf4f1ce825888cba100679961a2` |
+| S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` |1920×1080| `eee791361290ec1374cc4456ce66ff3bf7a7b27905c9e912b20838a0091d9e1f` |
+| S38 | RETAINED_DEMO_STATIC | `production/preview/full/S38.png` |1920×1080| `90c9627321b189c703e21679938b53aca3d7478436f1d1eb981f81c723fdaca5` |
+| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` |1920×1080| `fd17d7365fd6ab10acf83f9d1490669eb3777c7de86c9f35f911ac32ede4fe26` |
+| S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` |1920×1080| `a2e991de9cd782d195f2ab9f0c1d55743b72c7f1f50aebe0fb2ef52897a0e3f1` |
+| S43 | RETAINED_DEMO_STATIC | `production/preview/full/S43.png` |1920×1080| `d5ec37b9a599f7798b53aaa839581134bba544fba81f1360ad7a65fbebce85be` |
+| S49 | RETAINED_DEMO_STATIC | `production/preview/full/S49.png` |1920×1080| `1e6acea140a3d038e3b18572c4cc1ca48e16e8ad6b6dec76c49e376185a17d1e` |
+| S51 | RETAINED_DEMO_STATIC | `production/preview/full/S51.png` |1920×1080| `cfbef7f215f8aab4bc883e5b02a85e44a6d3ec0ccbf37129800a1b02f8f6b7af` |
+| S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` |1920×1080| `087a4790304fe5dfe55adbc6ab989d3756bc3c4bee5cdee7180775fd4d2bb2b2` |
+| S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` |1920×1080| `1ebff4d41cec928f536016b872ba8543bbec0bec3c3613897f6268998ed06319` |
+| S64 | RETAINED_DEMO_STATIC | `production/preview/full/S64.png` |1920×1080| `384fba8d667ef0c4164c136376fdc12a33ed5c89bcc5c97af4ba12b470d215a7` |
+| S65 | RETAINED_DEMO_STATIC | `production/preview/full/S65.png` |1920×1080| `74f8e794a469e843ecfb3a161204c4a06d2849bfe8b17bad03dd4ff10ba3d070` |
+| S70 | RETAINED_DEMO_STATIC | `production/preview/full/S70.png` |1920×1080| `80c253db688c9e96f337ba38ed13b898e5528f941a3b90cde9c1fbe15b29ea0f` |
+| S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` |1920×1080| `542bdddc95a948088382a79ac61353f55b4789671cb1b446d05e68f699028149` |
+| S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` |1920×1080| `e688192834dc8ff92377e8d40d913e9515e48cd2683b0c82230a9277729e14cd` |
+| S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` |1920×1080| `9f1a71d5e7fda1ef61651d24c08a17ca15f01bc44b66b56b26dc0b3d01bb3e5c` |
+| S75 | RETAINED_DEMO_STATIC | `production/preview/full/S75.png` |1920×1080| `381538ec7a431bfcd7fd61422be557f179f4bfb98311377c30c12287950d6d29` |
+| S76 | RETAINED_DEMO_STATIC | `production/preview/full/S76.png` |1920×1080| `6ddfb6a54a4b843245caf0f320d4095469d663e7ce69c9aebd1925d782a36df2` |
+| S86 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S86.png` |1920×1080| `38940d0957465de8fb044ef4da1c0012a1966a4ee6290f01c3e268b189c18894` |
+| S87 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S87.png` |1920×1080| `9c19588a0bc5c3fd5424cb426b032bb36ea617fdb439d6c63f4b4da6fc1ef4e2` |
+| S88 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S88.png` |1920×1080| `a709ed3fc342e7275b148e5333c092c6c04ffb49fe20f5f088ab36fde18b3b90` |
+| S89 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S89.png` |1920×1080| `054e513a54a29b0bc8bb6963cdb3e292360fef2c18bfb6bd9ff2808f2077b030` |
+| S90 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S90.png` |1920×1080| `3c6ffb4d7c7cef315583fd5bafc8967a81c2d95001a4484305accb9c5979ee78` |
+| S91 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S91.png` |1920×1080| `a9ecead873caeeb9c2732f51da5ad8967f7633e4d47febaea8e9665d8b3ef22b` |
+| S92 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S92.png` |1920×1080| `1e61bd7364e794d3371c4e4719042b677dfe1de7bca19d35aed2ed0b6f9b1e57` |
+| S93 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S93.png` |1920×1080| `76158188841da83b33212196aea0653365409db8b38b27020da445abeba5839f` |
+| S94 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S94.png` |1920×1080| `0b55909bfe933391c8d920be8a4a4e1a20810fbb86e1c2b5c4a45cbfb236e355` |
+| S95 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S95.png` |1920×1080| `3967363a4b8b4e90b7b0111ecb6e39d83d79071b73db50ee8223f9a2432baff5` |
+| S96 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S96.png` |1920×1080| `3090c55e2a75a64a9665e1433464427d9f3f11f1317c9a5a446e33a283c8f140` |
+| S97 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S97.png` |1920×1080| `107401be54f7e5ac875e4e2de4a77646b39233310dad616e96224e5de9b955dd` |
+| S98 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S98.png` |1920×1080| `c911fe55c318146e8ff151617011436e527f673a889f1ec5b15bf699f8151a71` |
+| S99 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S99.png` |1920×1080| `4d3c296e179c8b83c6a6678041374592e78c418e32ea429bd1513d5530cd4754` |
+| S100 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S100.png` |1920×1080| `e477d898476cbd19e170e5dae36266d634f5d53f3e06b475f96e22b12351c80c` |
+| S101 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S101.png` |1920×1080| `147e64caab6ce150aabdfe4242ada0c8d6c05c2fac164e7bb6dd8b58e0175a56` |
+| S104 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S104.png` |1920×1080| `0bd4c0b2be7ff8f4ff8cd092584da3a86d1df709c2f4dde2125a9c21936eb0f5` |
+| S102 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S102.png` |1920×1080| `6b53f5138e848e17334b5cb7d5d82a716fe1cc483e926a4e803b7fa2cb18a146` |
+| S103 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S103.png` |1920×1080| `edc37000aeec140e1ce0bb1ca1644d38ba97bc8b1d8d1daa6e7ddbad09e367a2` |
+| S106 | TEACHING_SYNTHESIS | `production/preview/full/S106.png` |1920×1080| `b97095b4db22839eca0c1430ba56e14683dd48cd1548be93035d0cce0ca58c28` |
+| S107 | TEACHING_SYNTHESIS | `production/preview/full/S107.png` |1920×1080| `05839d104d0755b39db1e73c41da856fae99302a3d19fce641096969d2040317` |
+
+<details>
+<summary>Previous120-slide manifest and earlier editions — original records</summary>
+
+# Static Fallback Manifest
+
 Current: DEC-0107 /120slides/420minutes. READY — LOCAL STATIC FILES ONLY.
 Existing44reference roles/evidence/IDs/paths remain unchanged. S11/S12 now use reconstructed ChatGPT/Codex UI insets; these Lecture illustrations add no Demo evidence. Original Trial text and development-project wording remain. Current PPT/Notes/montage hashes are refreshed.
 S04 and new S56-S58 are documented teaching tips, excluded from this Demo inventory.
@@ -564,6 +632,8 @@ minutes, Trial, actual integration result or live approval. [Current result](../
 
 </details>
 
+
+</details>
 
 </details>
 

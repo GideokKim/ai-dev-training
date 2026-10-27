@@ -1,5 +1,12 @@
 # ACT 0 — Speaker Notes
 
+Current: DEC-0108 /119slides/417minutes. ACT0: S01–S14, 14slides/42minutes.19fields per slide. Source quotations and earlier validation/file names keep their original edition.
+
+<details>
+<summary>이전 Notes 표지·제작 기준 보존</summary>
+
+# ACT 0 — Speaker Notes
+
 > Current: DEC-0104 /120slides/420minutes. ACT2 S38–S59:22slides/90minutes. Retained117budgets and evidence unchanged; current IDs follow plan/SLIDE_ID_MIGRATION_120.md. Earlier headers are history.
 
 > 하단 표기 DEC-0103: 제작·관리 상세는 Evidence / Source와 Claim Boundary에 보존한다. 발표 화면은 승인된 간략 표기를 사용하며 기존19필드·장별 배정·근거는 유지한다.
@@ -44,6 +51,9 @@ Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`,
 `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, and `plan/DECISIONS.md`.
 
 Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historical handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
+
+
+</details>
 
 
 </details>
@@ -858,11 +868,14 @@ Slide ID: S14
 Working Title:
 프로젝트를 봐도, 원하는 작업은 따로 정한다
 
-ACT / Section: ACT 0 / 0E
+ACT / Section:
+ACT 0 / 0E–0F
 
-Allocated Time: 2 minutes
+Allocated Time:
+5 minutes
 
-Mode Split: Lecture 2 minutes
+Mode Split:
+Lecture 2 minutes + Q&A 3 minutes
 
 Primary Message:
 개발 프로젝트 탐색은 Context 수집에 도움을 줄 수 있지만, Task의 목표와 완료 조건까지 대신 정하지 않는다.
@@ -871,10 +884,11 @@ Opening Question:
 “개발 프로젝트를 볼 수 있으면 원하는 작업도 알게 되는가?”
 
 **Speaker Flow:**
-1. **OPEN (0:00–0:20):** 왼쪽 “볼 수 있는 것”과 오른쪽 “최종 정해야 하는 것”을 나눈다. 바로 앞 S13은 진입 경로, 이 장은 역할과 책임의 구분이다.
-2. **SHARED ACCESS (0:20–0:50):** 왼쪽 사람+AI Agent 아이콘과 허용된 파일·구현·테스트를 가리킨다. 사람도 Agent도 접근 권한과 제공된 도구 범위 안에서 이 정보를 살필 수 있다는 뜻이다.
-3. **HUMAN RESPONSIBILITY (0:50–1:30):** 오른쪽 사람 아이콘과 원하는 결과·허용 범위·완료 수용을 짚는다. Agent는 선택지와 근거를 제안할 수 있지만 최종 목표와 변경 승인·수용 책임은 사람에게 둔다.
-4. **TRANSFER (1:30–2:00):** “코드를 함께 볼 수 있어도, 맡길 일과 받아들일 결과는 사람이 정한다”로 묶는다. 이 구분을 각자 작업에 대입할 S15 질문으로 이동하며 ACT 1의 요청 구조는 미리 설명하지 않는다.
+1. (0:00–0:35 / Lecture) 사람과 Agent가 허용된 파일·구현·테스트를 함께 살펴볼 수 있음을 왼쪽에서 회수한다.
+2. (0:35–1:15 / Lecture) 오른쪽의 원하는 결과·허용 범위·완료 수용은 사람이 최종 정한다. Agent가 조사·제안할 수 있다는 기존 경계를 유지한다.
+3. (1:15–2:00 / Lecture) 하단의 “결정한 목표·조건·완료 기준을 요청에 담는다.”를 짚는다. 프로젝트를 여는 것 다음에는 원하는 작업을 요청으로 전달해야 한다는 문제만 남긴다. ACT1의 기법과 사례의 답을 먼저 설명하지 않는다.
+4. (2:00–5:00 / Q&A) ACT0의 자발적인 질문을 받는다. 질문이 없으면 “코드에서 확인할 사실과 이번 요청에서 정할 것은 어떻게 다를까요?”를 설명용 질문으로 짚고 원래 자료와 판단 책임을 회수한다. 응답·실습을 강제하지 않는다.
+5. Q&A 종료 후 S15의 ACT1 제목 “Prompt를 작업 명세로 만들기”로 이동한다. S16의 기존 “filter 성능 개선해줘”는 요청 정보가 빠진 예로 이어가며 제조 검사 Task를 새로 떠올리게 하지 않는다.
 
 Evidence / Source: BEAT-003 next friction, DEMO-01 callback, TRIAL-001; CLM-0002, CLM-0009; DEC-0036. TEACHING_MODEL. 사람·AI Agent 픽토그램: assets/slide-illustrations/human-agent-icons.png, image_gen 교육용 이미지이며 실제 사람 사진·제품 UI·관찰 결과가 아니다.
 
@@ -894,70 +908,16 @@ C++ Vision Bridge: N/A.
 
 Demo Operation: N/A — DEMO-01 성공 뒤 남는 문제를 설명한다.
 
-Audience Interaction: Opening question은 수사 질문이다. 짧은 강의 시간에 답변을 요구하지 않는다.
+Audience Interaction:
+Lecture2분의 역할 구분을 관찰한 뒤 ACT0 Q&A3분을 운영한다. 질문은 선택 사항이며 실습·공개 답변·새 작업 설계를 요구하지 않는다.
 
 **Transition:**
-“이 구분을 여러분이 지금 맡기고 싶은 일에 대입해 보겠습니다.”라고 S15의 개인 적용 질문을 연다.
+“이제 원하는 변화·지킬 조건·완료 근거를 요청에 어떻게 담을지 보겠습니다.”라고 S15의 ACT1 제목을 연 뒤 S16의 기존 모호한 요청 사례로 이어간다.
 
-Time Management: Lecture 2분. 구분 20초, 사람+Agent의 허용 정보 접근 30초, 사람의 최종 책임 40초, 정리·S15 연결 30초다. Access와 Intent 두 축만 설명하고 ACT 1의 구조나 목록은 소개하지 않는다.
+Time Management:
+Lecture2분 + Q&A3분 = 5분. 기존 S14의 설명2분과 삭제한 이전 S15의 Q&A3분을 합친다. 이전 전환3분은 삭제하여 ACT0는42분, 전체417분이다. 다음 ACT 제목의 Transition1분과 중복 계산하지 않는다. 실측 리허설은 UNVERIFIED.
 
-
-Fallback: 화면 도식이 보이지 않으면 “자료는 함께 살펴보고, 목표·허용 범위·완료 수용은 사람이 최종 정합니다”라고 설명하고 S15으로 간다. Agent의 제안 가능성을 부정하지 않는다. 정적 경로는 production/preview/act0/S14.png 및 production/preview/full/S14.png이며 새 파일 일치는 후속 렌더 대조 전까지 미검증이다.
-
+Fallback:
+production/preview/full/S14.png 또는 production/preview/act0/S14.png의 정적 도식을 사용한다. “자료는 함께 살펴보고, 목표·허용 범위·완료 수용은 사람이 최종 정하며 이 결정을 요청에 담는다”고 설명한 뒤 ACT0 Q&A를 마무리하고 S15로 이동한다. Agent의 제안 가능성과 사람의 최종 책임을 유지한다.
 
 Validation Status: ALIGNED — DEC-0036에 따라 사람·Agent 접근과 사람의 최종 책임을 구분했다. 새 PPT/PNG·내장 Notes 대조는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 기록한다. Windows PowerPoint, 실제 계정·권한, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
-
-## S15 — 프로젝트를 보면 내가 원하는 것까지 알까?
-
-Slide ID: S15
-
-Working Title:
-프로젝트를 보면 내가 원하는 것까지 알까?
-
-ACT / Section: ACT 0 / 0F
-
-Allocated Time: 6 minutes
-
-Mode Split: Transition 3 minutes + Q&A 3 minutes
-
-Primary Message:
-개발 프로젝트를 볼 수 있다는 사실만으로 Task의 의도가 정해지지는 않는다.
-
-Opening Question:
-“프로젝트를 볼 수 있으면 내가 원하는 것까지 알 수 있을까?”
-
-**Speaker Flow:**
-1. **CALLBACK (0:00–0:25 / Transition):** S14에서 사람이 정할 목표·허용 범위·완료 수용을 남겼음을 짧게 회수한다. 화면의 제조 검사 Task는 교육용 가정이라고 말한다.
-2. **PIPELINE CONTEXT (0:25–1:15 / Transition):** 입력 이미지에서 관심 영역을 crop하는 실선을 가리키고 “앞서 조사한 기존 구현”이라고 말한다. 이후 점선의 밝기 정규화, 크기 맞춤, 통계·특징, 양불 판정을 한 번 훑는다. 점선은 이 검사 흐름에서 추가로 정의·연결할 범위이지 실제 저장소의 함수 미구현을 뜻하지 않는다. 각 알고리즘의 원리·판정 기준을 강의하거나 구현 결과로 보여주지 않는다.
-3. **TASK QUESTION (1:15–2:30 / Transition):** 하단의 “지금 이 저장소에 어떤 일을 맡기고 싶으신가요?”를 읽고 원하는 작업 하나를 조용히 떠올리게 한다. 판정 카드의 ?를 남겨 두며 정답이나 새 기능 목록을 제시하지 않는다.
-4. **HANDOFF (2:30–3:00 / Transition):** “그 원하는 결과까지 코드에 적혀 있을까요?”를 읽는다. 같은 개발 프로젝트를 보더라도 원하는 검사는 별도로 전달해야 한다는 다음 문제를 남긴다. ACT 1의 다섯 책임을 먼저 펼치지 않는다.
-5. **Q&A (3:00–6:00):** 자발적인 질문을 받는다. 질문이 없으면 두 질문을 화면에 남기고, 종료 시 기존 Transition 문구로 S17의 모호한 요청에 연결한다.
-기존 연결 질문을 유지한 채 ACT 1 제목 S16를 거쳐 S17의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
-
-Evidence / Source: BEAT-003 → BEAT-004, DEMO-01 callback, CLM-0002, CLM-0009, DEC-0037. TEACHING_MODEL. plan/DEMO_REPOSITORY_SPEC.md의 초기 모듈 범위 및 ai-dev-training-demo의 src/graypipe/pipeline.py·statistics.py와 대조했다. 실제 구현은 load→normalize→optional invert/crop/resize→save→statistics 경로이며 현재 도식과 동일한 제조 검사 순서가 아니다. 새로운 실행·Trial은 수행하지 않았다.
-
-보존된 상세 출처: 교육용 검사 Task 가정 · 점선은 추가 정의·연결 범위 · 실제 실행 결과 아님
-
-Claim Boundary: 제조 검사장비로 확장하는 교육용 가정이다. 실제 저장소에는 normalize/resize/statistics도 구현돼 있으므로 점선을 함수 미구현으로 설명하지 않는다. crop의 실선도 정상·검증 완료를 뜻하지 않는다. TRIAL-001 조사 뒤 실제 crop 수정은 다음 ACT의 TRIAL-002에서 회수한다. 통계 카드의 막대는 추상 기호이며 측정 히스토그램·결함 검출·양불 판정 결과가 아니다. 판정 조건·알고리즘 정답이나 완성된 Task 요청을 이 장에서 제공하지 않는다.
-
-보존된 상세 범위: 실제 저장소에는 후속 함수도 있습니다. 도식은 실제 실행 순서나 함수의 미구현 상태를 재현하지 않습니다.
-
-Beginner Explanation: ROI crop 이후 검사에서 무엇을 더 하고 싶은지는 코드를 보는 것만으로 정해지지 않는다. 그림의 점선 중 어디까지 맡기고 싶은지 떠올리면 충분하다.
-
-Advanced Insight: 강사용 연결: ROI crop의 동작·보존 범위는 ACT 1, 좌표·밝기·크기 조건은 ACT 2, Normalize/Resize/Statistics의 반복 성능 조사는 ACT 3, 개별 단계와 연결 검증 범위·환경 변화는 ACT 4와 대응한다. 이 연결을 지금 미리 강의하지 않는다. 뒤 ACT가 이 가상의 제조 검사 파이프라인 전체를 실제로 구현·검증한다고 약속하지 않는다.
-
-C++ Vision Bridge: N/A. 제조 검사 도메인은 질문의 배경이며 새로운 C++ 도구·하드웨어 검증이나 전용 Bridge를 추가하지 않는다.
-
-Demo Operation: N/A. 편집 가능한 native 도식으로 질문을 여는 정적 화면이다. 검사장비 실행·신규 Demo·새 Trial을 시연하지 않는다.
-
-Audience Interaction: Transition 3분에서 개인적으로 작업을 떠올리게 하고 Q&A 3분은 선택적 질문 시간으로 둔다. 답변·공유·코드 작성·알고리즘 설계를 강제하지 않는다.
-
-**Transition:**
-“방금 떠올린 원하는 결과를 작업 요청으로 전달하려면 무엇이 더 필요할까요?”라는 질문으로 `Chatbot → Prompt`를 handoff한다. ACT 1의 내부 구조는 소개하지 않는다.
-기존 연결 질문을 유지한 채 ACT 1 제목 S16를 거쳐 S17의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
-
-Time Management: Transition 3분 뒤 Q&A 3분 순서를 유지한다. 파이프라인 설명은 50초 정도로 제한하고 이름·실선/점선 범위만 짚는다. Q&A를 늘려 ACT 시간을 옮기지 않는다. 실제 운영 시간은 리허설 전까지 UNVERIFIED다.
-
-Fallback: production/ACT_0.pptx S15 또는 production/preview/act0/S15.png의 동일 도식을 사용한다. 질문이 없으면 판정의 ?와 두 질문을 남긴 채 기존 Transition으로 S17에 넘긴다. 즉석 검사 알고리즘·실행 화면으로 대체하지 않는다.
-
-Validation Status: ALIGNED — DEC-0037에 따라 교육용 파이프라인과 실제 구현 범위, 기존 질문·시간·Story 연결을 대조했다. 최종 PPT/내장 Notes/PNG 검토는 production/evaluation/S10_INSPECTION_PIPELINE_REVISION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·교육장 투사·실측 리허설은 UNVERIFIED.

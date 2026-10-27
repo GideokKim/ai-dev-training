@@ -1,5 +1,21 @@
 # STEP 08 — Speaker Notes Architecture
 
+## 현재 제작 기준 — DEC-0108 (2026-10-27)
+
+현재 **119장·417분(6시간57분)**. 이전 S15 제조 검사 전환 장을 삭제하고
+이전 S16–S120을 S15–S119로 한 칸 당긴다. S14는 정보 접근과 사람의 최종 판단을
+구분한 뒤 “결정한 목표·조건·완료 기준을 요청에 담는다”로 ACT1을 연다.
+삭제 장의 전환3분은 줄이고 Q&A3분은 S14에 남긴다. S14는 Lecture2+Q&A3=5분이다.
+ACT별 장수14/22/22/26/20/15, 시간42/64/90/96/85/40분.
+Mode Lecture186/Demo49/Case105/Reflection22/Transition23/Q&A32분.
+다른 장의 내용·장별 시간/Mode·근거·Trial/State/Beat/Section ID는 유지한다.
+ACT1의 filter→crop 예시 전환은 이번에 다시 설계하지 않는다.
+Native 표는 S53/S65, 차트는 S69/S96, 마지막 팁 찾아보기는 S116–S118이다.
+12Templates/28Variants·19Notes 필드는 유지한다. 제품·Windows·교육장·리허설은
+UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 변경하지 않는다.
+[현재 Map](SLIDE_MAP.md), [번호 이행](SLIDE_ID_MIGRATION_119.md),
+[삭제·연결 범위](ACT0_S15_REMOVAL.md)를 우선한다. 아래 이전 판본은 당시 이력이다.
+
 ## 현재 제작 기준 — DEC-0104 (2026-10-26)
 
 현재 **120장·420분(7시간)**. 기존 S55 뒤에 실무 적용 팁 S56–S58을

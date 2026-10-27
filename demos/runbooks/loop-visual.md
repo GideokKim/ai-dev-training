@@ -1,5 +1,7 @@
 # Historical supporting runbook — LOOP-VISUAL
 
+> Current DEC-0108 /119slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): Use the current Map/Notes role; no new scheduled slot. Current static files and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Former S15 is deleted; all later current IDs move down one. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.
+
 > Current DEC-0104 /120slides/420minutes. Current Map references (including callbacks, not all scheduled Demo slots): No new scheduled slot; retain the current Slide Map/Notes role. Use [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md) for active paths/hashes and local-only readiness. Earlier literal Slide IDs below retain their historical edition. No new Trial or Live approval.
 
 Current status: **HISTORICAL / NOT SCHEDULED IN DEC-0097 ACT4**.

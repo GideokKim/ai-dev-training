@@ -1,5 +1,35 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 현재 전달 기준 — DEC-0108 (2026-10-27)
+
+119장·417분. 이전 S15를 삭제하고 현재 S14에 ACT0 Q&A3분을 보존했다.
+S14의 역할 구분→요청 연결→S15 ACT1 제목→S16의 기존 모호한 요청으로 이어진다.
+이전 S16–S120을 한 칸 당겼고 모든 ACT PPT·Notes·Preview·찾아보기·Fallback을 맞췄다.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT0](../ACT_0.pptx), [ACT1](../ACT_1.pptx),
+[S14](../preview/full/S14.png), [ACT1 제목](../preview/full/S15.png),
+[현재 Map](../../plan/SLIDE_MAP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_119.md),
+[수정 결과](S15_REMOVAL_REVISION.md), [사용자 검증](USER_VALIDATION_CHECKLIST.md).
+
+238개 최종 렌더와 Full/ACT119개 화면·Notes/Mode 정합성을 확인했다. S14 외118장은
+현재 번호/참조 영역 외 화면이 같다. 원본 근거·그림·수치·차트/워크북은 보존한다.
+Windows·제품/계정·교육장·실측 리허설은 UNVERIFIED다. 웹·발표 묶음·Demo 저장소는
+변경하지 않았다. 아래 이전 파일 해시·번호·검증 결과는 해당 판본의 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `c49ee1a973a7979d906818c2ab35c6d1f56b42797f9ae7658162c27ecfd7e5fa` |
+| `production/ACT_0.pptx` | `1a2e3a92dca4d0ead642cb81e4f8d100ead8802c9a370797db298a53ed59c858` |
+| `production/ACT_1.pptx` | `b7e493de0372ef0f2a3ffdc4dd1eeac31d267ea7f0052c8221b14a9ade6875b0` |
+| `production/ACT_2.pptx` | `0cc9d1a9fc7f37907772c45947833cd07430f97cceea1133b8a33ec5809f314c` |
+| `production/ACT_3.pptx` | `6b3b0693a02c9ee25dcf71d9de21762cb7cac2d63875f5d4710801776519bd13` |
+| `production/ACT_4.pptx` | `eb76fdc0c32166e696b3fe62c3819589c08ee039ac35afdb4b661ef3f5e345b7` |
+| `production/ACT_5.pptx` | `e0f694b8e41390772cb117ce3d8a2a1dec5295acd72ddc6c3780643564475755` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `6a352871048c6c03d62b4efefcd31c55bc81cad16895f6658fde2342698d1d03` |
+| `production/preview/full/montage.png` | `ed9a0186ae3c09e09619624ff1aa837451e6308b59f8f7b0dc3a19af72857ebf` |
+
+## 보존된 이전 전달 기록
+
 ## 현재 UI 수정 — DEC-0107 (2026-10-27)
 
 S11/S12 오른쪽에 각각 ChatGPT 웹 첨부·요청 UI와 Codex 프로젝트 UI 재구성을

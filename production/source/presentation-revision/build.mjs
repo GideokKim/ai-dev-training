@@ -16,9 +16,10 @@ import {goalLoopFactories} from './act4-goal-loop.mjs';
 import {goalTipFactories} from './goal-tips.mjs';
 import {act5SynthesisFactories} from './act5-synthesis.mjs';
 import {afterCopilotTip,migrate116Factories,copilotTipFactory} from './copilot-tip.mjs';
-import {CURRENT_SLIDE_COUNT,afterScopeTips,migrate117Factories,scopeTipFactories,scopeTipIds,scopeTipIndexFactory} from './agents-scope-tips.mjs';
+import {afterScopeTips,migrate117Factories,scopeTipFactories,scopeTipIds,scopeTipIndexFactory} from './agents-scope-tips.mjs';
 import {applyAudienceFooter} from './audience-footers.mjs';
 import {applyAct0Terminology} from './act0-terminology.mjs';
+import {CURRENT_SLIDE_COUNT,afterAct0Removal,beforeAct0Removal,applyCurrent119} from './act0-handoff-119.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
@@ -41,7 +42,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d{2,3}) — ([\s\S]*?)(?=^#### S\d{2,3}|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==CURRENT_SLIDE_COUNT)throw new Error('Expected 120 source records.');
+if(Object.keys(map).length!==CURRENT_SLIDE_COUNT)throw new Error('Expected 119 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -104,6 +105,13 @@ const moduleRecords=Object.fromEntries(moduleMap.slides.map(r=>[currentId(r.slid
 moduleRecords.S04={slideId:'S04',footerLabel:'M 연계 · 신규 확장',modules:[],scope:'new_extension'};
 for(const id of scopeTipIds)moduleRecords[id]={slideId:id,footerLabel:'M 연계 · 신규 확장',modules:[],scope:'new_extension'};
 const audienceFooters=JSON.parse(await fs.readFile(path.join(here,'audience-footers.json'),'utf8'));
+// Keep all retained inputs at their documented editions. Delete and renumber
+// only once after the 120-ID source construction and before current Notes.
+const factories119=Object.fromEntries(Object.entries(factories)
+ .filter(([id])=>afterAct0Removal(id)!==null)
+ .map(([id,factory])=>[afterAct0Removal(id),factory]));
+for(const id of Object.keys(factories))delete factories[id];
+Object.assign(factories,factories119);
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -125,12 +133,14 @@ const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const id of deck.ids){
+  const id120=beforeAct0Removal(id);
   const before=p.slides.items.length;const s=factories[id](p,H);
   if(p.slides.items.length!==before+1)throw new Error('Each factory must add exactly one slide: '+id);
-  if(tipRecords[id])addPracticalTipBadge(s,tipRecords[id].category,H);
-  addModuleFooter(s,id,moduleRecords[id],H);
-  applyAudienceFooter(s,id,audienceFooters,H);
-  applyAct0Terminology(s,id,H);
+  if(tipRecords[id120])addPracticalTipBadge(s,tipRecords[id120].category,H);
+  addModuleFooter(s,id120,moduleRecords[id120],H);
+  applyAudienceFooter(s,id120,audienceFooters,H);
+  applyAct0Terminology(s,id120,H);
+  applyCurrent119(s,id,H);
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
  }
@@ -138,8 +148,8 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>['S70','S97'].includes(id)?i+1:0).filter(Boolean);
-  const tableOwners=deck.ids.map((id,i)=>['S54','S66'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>['S69','S96'].includes(id)?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>['S53','S65'].includes(id)?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,

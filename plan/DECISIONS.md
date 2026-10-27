@@ -11232,3 +11232,79 @@ Render the final Full/ACT0 files, inspect both changed slides and their
 neighbors, verify unchanged other slides/allocations, then commit/push.
 Keep Windows, account, room and rehearsal unverified. Leave the Demo
 repository, Site and presenter bundle unchanged.
+
+# DEC-0108 — Remove the ACT0 inspection transition slide
+
+## Status
+
+ACCEPTED — explicit user approval to delete former S15 and align the deck.
+
+## Date
+
+2026-10-27
+
+## Context
+
+The user reviews why the inspection-pipeline question is needed before
+ACT1 and approves removing it after the continuity review.
+
+## Problem
+
+Former S15 repeats S14's access-versus-intent point and introduces a
+manufacturing task that the opening ACT1 examples do not directly reuse.
+
+## Decision
+
+Delete former S15. Keep S14's human/agent roles and final responsibility,
+then connect the chosen goals, constraints and completion criteria to a
+work request. Continue through the ACT1 title into its existing ambiguous
+request case. Renumber former S16-S120 to S15-S119 everywhere current.
+Retain the removed slide's Q&A3minutes on S14 and remove Transition3minutes.
+Use119slides/417minutes, ACT0 fourteen slides/42minutes, and S14 at
+Lecture2+Q&A3=5minutes. Retain every other per-slide allocation and claim.
+
+## Rationale
+
+Make ACT0-to-ACT1 continuity explicit without another task-selection
+question or a pipeline that the next example does not develop.
+
+## Alternatives
+
+Keep the pipeline and redesign ACT1 around it; this exceeds the approved
+scope. Delete the entire6minutes; this would discard the Q&A that the
+preceding recommendation and approval retain. Keep all420minutes by
+extending another explanation; no additional content justifies that time.
+
+## Trade-offs
+
+Lose the hypothetical pipeline preview as a current slide while retaining
+its original decision and source history. Reduce only Transition time
+from26to23minutes; retain Q&A32 and all other Mode totals.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+Current Map/template rows, Notes, planning scope, current slide references,
+seven PPTX files, previews, fallback identities and delivery checklist.
+Historical factories, evidence, asset filenames and decisions stay at
+their documented editions. Demo repository, Site and bundle stay unchanged.
+
+## Evidence
+
+User instruction; S14-S19 continuity review; existing Map/Notes and
+DEC-0037. No new Trial, product run or measured learning outcome.
+
+## Training Relevance
+
+YES — connect investigation access to request design without changing
+the human's final decision or the observed-evidence boundaries.
+
+## Follow-up
+
+Validate119Notes/417minutes, all Mode splits,119current IDs and unchanged
+evidence. Render all seven final files, inspect the handoff and renumbered
+references, then commit/push normally. Keep Windows and rehearsal unverified.

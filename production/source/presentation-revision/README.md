@@ -1,5 +1,7 @@
 # Current presentation source
 
+Current: DEC-0108 /119slides/417minutes. `act0-handoff-119.mjs` removes former S15 and applies one final120-to119 display migration. All retained factories, JSON records and asset filenames remain at their documented input editions. Apply120-ID footers/terminology before the119-ID boundary, then current Notes. Current native tables S53/S65; charts S69/S96.
+
 DEC-0107 updates only the right-side UI in current S11/S12 through the retained ACT0 collection factory. Generated ChatGPT web and Codex project surfaces live in assets/product-ui; the source/claim scope stays in the current Map/Notes. UI art is raster; surrounding text, diagrams and captions remain native.
 
 Current ACT0 wording: DEC-0106. `act0-terminology.mjs` is a current120-ID display overlay after audience footers. It updates ACT0 terms and the S117 title lookup, adds the S01 meaning line, and preserves old factory/config input stages and original Trial wording. Current Map/Notes are authoritative.

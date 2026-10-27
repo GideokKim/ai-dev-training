@@ -1,5 +1,7 @@
 # DEMO-08 — Durable Knowledge Decision Visual
 
+> Current DEC-0108 /119slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): S73, S74. Current static files and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Former S15 is deleted; all later current IDs move down one. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.
+
 > Current DEC-0104 /120slides/420minutes. Current Map references (including callbacks, not all scheduled Demo slots): S74, S75. Use [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md) for active paths/hashes and local-only readiness. Earlier literal Slide IDs below retain their historical edition. No new Trial or Live approval.
 
 > Current edition: DEC-0097 /114slides/406minutes. This retained role uses S70, S71. Current paths/hashes/readiness: [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Earlier dated statuses below are historical; no new Trial or Live approval.
