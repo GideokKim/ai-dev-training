@@ -18,6 +18,7 @@ import {act5SynthesisFactories} from './act5-synthesis.mjs';
 import {afterCopilotTip,migrate116Factories,copilotTipFactory} from './copilot-tip.mjs';
 import {CURRENT_SLIDE_COUNT,afterScopeTips,migrate117Factories,scopeTipFactories,scopeTipIds,scopeTipIndexFactory} from './agents-scope-tips.mjs';
 import {applyAudienceFooter} from './audience-footers.mjs';
+import {applyAct0Terminology} from './act0-terminology.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
@@ -129,6 +130,7 @@ for(const deck of decks){
   if(tipRecords[id])addPracticalTipBadge(s,tipRecords[id].category,H);
   addModuleFooter(s,id,moduleRecords[id],H);
   applyAudienceFooter(s,id,audienceFooters,H);
+  applyAct0Terminology(s,id,H);
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
  }

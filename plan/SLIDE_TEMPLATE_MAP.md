@@ -75,7 +75,7 @@ Native 표 S53/S62와 Native 차트 S66/S93은 유지한다. 미사용 Template�
 
 | Slide | Primary Template | Required components | Optional | Evidence | Demo / Case | Operation | C++ | Checks |
 |---|---|---|---|---|---|---|---|---|
-| S01 — AI를 Repository로 데려가기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
+| S01 — AI가 개발 프로젝트를 직접 살펴보게 하기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static title/subtitle plus one-line project-folder definition; DEC-0106 | — | V01, V10 |
 | S02 — AI에게 지금 무엇을 맡기고 있는가? | T01-A | — | — | T | — | Single state | — | V10 |
 | S03 — 작은 질문에는 Chatbot이 유용하다 | T03-C | CMP-WORKFLOW | — | C+T; keep the workflow example bounded | — | Single state | — | V09 |
 | S04 — 코드 질문은 VS Code의 Copilot Chat에서 | T03-C | CMP-PRACTICAL-TIP, CMP-WORKFLOW, CMP-CLAIM | — | R+T; official guidance adapted; company-account unverified | Lecture2; no Demo or Trial | Static reconstructed editor/chat diagram | Supporting | V01, V02, V05 |
@@ -87,9 +87,9 @@ Native 표 S53/S62와 Native 차트 S66/S93은 유지한다. 미사용 Template�
 | S10 — 원인 판단에는 코드와 실행 환경 정보가 필요했다 | T03-B | CMP-EVIDENCE, CMP-CLAIM | — | T; sources and execution conditions | DEMO-01; Case 2분 = 2분; DEC-0084 | Single state; one primary question | — | V01, V02, V05 |
 | S11 — Chatbot에 이 자료를 직접 전달한다면? | T03-C | CMP-EVIDENCE, CMP-CLAIM | — | T; manual attachment assumption, no comparison result | DEMO-01; Lecture 2분 = 2분; DEC-0084 | Single state; one primary question | Contextual | V01, V02, V05 |
 | S12 — Agent가 자료를 직접 찾아 연결했다 | T03-C | CMP-EVIDENCE, CMP-CLAIM | — | P+T; past CLI observation plus teaching relationship | DEMO-01; Lecture 2분 = 2분; DEC-0084 | Single state; one primary question | Contextual | V01, V02, V05 |
-| S13 — Repository 작업은 Codex에서 시작한다 | T03-C | CMP-WORKFLOW, CMP-CLAIM | CMP-PRACTICAL-TIP | R+T; official-source menu reconstruction, not a screenshot | DEMO-01 entry path only; Lecture | Single state; three connected steps | — | V01, V05 |
-| S14 — Repository 접근과 Task 의도는 별개다 | T02-A | — | — | T | DEMO-01 remaining problem callback; Lecture | Single state | — | V09 |
-| S15 — Repository를 보면 내가 원하는 것까지 알까? | T01-B | — | — | T; DEC-0037 hypothetical inspection pipeline, not execution evidence | DEMO-01 follow-up; one six-node context diagram, solid existing crop / dashed future connections; Transition/Q&A | Single state; no observed pass/fail | — | V09 |
+| S13 — 개발 프로젝트 조사는 Codex에서 시작한다 | T03-C | CMP-WORKFLOW, CMP-CLAIM | CMP-PRACTICAL-TIP | R+T; official-source menu reconstruction, not a screenshot | DEMO-01 entry path only; Lecture | Single state; three connected steps | — | V01, V05 |
+| S14 — 프로젝트를 봐도, 원하는 작업은 따로 정한다 | T02-A | — | — | T | DEMO-01 remaining problem callback; Lecture | Single state | — | V09 |
+| S15 — 프로젝트를 보면 내가 원하는 것까지 알까? | T01-B | — | — | T; DEC-0037 hypothetical inspection pipeline, not execution evidence | DEMO-01 follow-up; one six-node context diagram, solid existing crop / dashed future connections; Transition/Q&A | Single state; no observed pass/fail | — | V09 |
 | S16 — Prompt를 작업 명세로 만들기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
 | S17 — Task에는 무엇이 아직 정해지지 않았을까? | T02-A | — | — | C+T; generated Agent + qualitative token/time illustration, not measured exponential growth | Prompt input + preserved three-question list | Single state | — | V03, V05, V09 |
 | S18 — 요청만으로는 의도가 보이지 않는다 | T02-A | — | — | C+T; three possible interpretations, not repeated executions | Prompt input + same-Agent parallel branches + five missing fields | Single state; three hypothetical paths | — | V03, V05, V09 |

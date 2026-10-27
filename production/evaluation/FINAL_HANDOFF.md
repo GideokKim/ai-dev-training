@@ -1,5 +1,35 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 현재 용어 정리 — DEC-0106 (2026-10-27)
+
+ACT0의 기본 용어는 개발 프로젝트, 폴더 열기 안내는 프로젝트 폴더다. S01에서
+코드·명세·테스트가 있는 프로젝트 폴더라는 뜻을 한 줄로 밝힌다. 원래 Trial 요청과
+프로젝트 파일/실행 환경의 구분,120장·420분, 실제 근거는 유지한다. S117의 S13 제목
+참조도 맞췄다. 다른 ACT의 일반 용어를 일괄 변경하지 않았다.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT0](../ACT_0.pptx),
+[첫 장](../preview/full/S01.png), [폴더 안내](../preview/full/S13.png),
+[전체 Notes](../notes/FULL_SPEAKER_NOTES.md), [검토 결과](ACT0_TERMINOLOGY_REVISION.md),
+[용어 기준](../../plan/ACT0_TERMINOLOGY.md).
+
+Full120장·ACT0 15장·ACT5 15장을 최종 파일에서 렌더링했다. 다른4개 ACT PPTX와
+수정 대상 외113장 화면은 그대로다. Windows/제품·계정/교육장/리허설은 UNVERIFIED다.
+웹·발표 묶음·Demo 저장소는 변경하지 않았다. 아래 이전 해시/전달 기록은 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `3ba0689f8981a2f9a6f2f2bc78034f4ea5a64805022e41352a9b963c047b9e52` |
+| `production/ACT_0.pptx` | `b4a8447c57ac052e14b67d74a53f481cf18269a4b3a056119eb58ca97414ecdf` |
+| `production/ACT_1.pptx` | `a7e43e64a7ed36a2139633fc1b0dac73750eb64ff7488512522a53caae76e9c6` |
+| `production/ACT_2.pptx` | `8dc2a2a6ba6b7e132accbf7e593ae24ee77323bb037449ddd2a1862f97d1b360` |
+| `production/ACT_3.pptx` | `864ce544d7f28cf0791ee40f70a1565918d82486ea74924e4d7f01bac0f381bf` |
+| `production/ACT_4.pptx` | `8f786573ea66ee75a85fa0051ba982885c3bf5639699297c964bb6af2a6f3284` |
+| `production/ACT_5.pptx` | `b80c8894854e86165e497bca24a29860e204743293c966cbc8d59bf952a912f6` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `aaebd95776c580ab89010dfdad4d834d21d42f8ab69ef9a7dbfe9e89c8dae3c7` |
+| `production/preview/full/montage.png` | `7ed65f3f655dd4e3d7ce36015d8e192f3caa32cf333bf5acd7b1b53ba418c1b7` |
+
+## 보존된 이전 전달 기록
+
 ## 현재 시각 수정 — S04 화살표 (2026-10-27)
 
 S04 하단의 두 연결을 선·화살촉이 한 객체인 Native connector로 정리했다.

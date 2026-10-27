@@ -48,13 +48,13 @@ Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historic
 
 </details>
 
-## S01 — AI를 Repository로 데려가기
+## S01 — AI가 개발 프로젝트를 직접 살펴보게 하기
 
 **Slide ID:**
 S01
 
 **Working Title:**
-AI를 Repository로 데려가기
+AI가 개발 프로젝트를 직접 살펴보게 하기
 
 **ACT / Section:**
 ACT 0 / 0A
@@ -66,15 +66,15 @@ ACT 0 / 0A
 Transition 1분
 
 **Primary Message:**
-AI를 Repository로 데려가기 — Chatbot → Repository Agent
+AI가 개발 프로젝트를 직접 살펴보게 하기 — Chatbot → 개발 프로젝트를 조사하는 Agent. 이 ACT에서 개발 프로젝트는 코드·명세·테스트가 있는 프로젝트 폴더를 뜻한다.
 
 **Opening Question:**
 “이번 ACT에서는 어떤 관점으로 다음 문제를 살펴볼까?”
 
 **Speaker Flow:**
-1. (0:00–0:20 / Transition) ACT 0의 제목 “AI를 Repository로 데려가기”을 가리키며 구간을 연다.
-2. (0:20–0:40 / Transition) 부제 “Chatbot → Repository Agent”는 이번 구간의 관점만 안내한다. 구체적 기능·해결 방법·결과는 앞서 설명하지 않는다.
-3. (0:40–1:00 / Transition) S02의 기존 첫 문제로 이동한다. 본문의 질문·성찰을 이 장에서 대신 진행하지 않는다.
+1. (0:00–0:20 / Transition) ACT0 제목 “AI가 개발 프로젝트를 직접 살펴보게 하기”를 가리키며 구간을 연다.
+2. (0:20–0:40 / Transition) 부제 “Chatbot → 개발 프로젝트를 조사하는 Agent”를 짚고, 여기서 개발 프로젝트는 코드·명세·테스트가 있는 프로젝트 폴더라는 뜻만 짧게 확인한다. ChatGPT의 프로젝트 기능이나 Git 원격 서비스의 이름으로 설명하지 않는다.
+3. (0:40–1:00 / Transition) S02의 기존 첫 질문으로 이동한다. 기능·도구·성과 소개로 확장하거나 기존 Reflection을 대신하지 않는다.
 
 **Evidence / Source:**
 DEC-0090. 사용자가 승인한 ACT 제목·부제, plan/MASTER_PLAN.md의 여정과 현행 plan/SLIDE_MAP.md. 새 Trial·연구·제품 검증은 없다.
@@ -283,7 +283,8 @@ Allocated Time: 4 minutes
 
 Mode Split: Case 4 minutes
 
-Primary Message: Repository 수준 질문에서는 사람이 관련 구현, 호출 경로, 테스트 결과와 명세서 등 필요한 정보를 찾아 대화에 옮기는 일이 생길 수 있다.
+Primary Message:
+개발 프로젝트 수준 질문에서는 사람이 관련 구현, 호출 경로, 테스트 결과와 명세서 등 필요한 정보를 찾아 대화에 옮기는 일이 생길 수 있다.
 
 Opening Question: “디버깅할 때 우리는 어떤 정보를 살펴보고 있었을까?” 익숙한 Visual Studio 사용 상황을 떠올리게 한다.
 
@@ -298,7 +299,8 @@ Evidence / Source: BEAT-002, CLM-0004, CLM-0009. TEACHING_MODEL / CONCEPTUAL. Vi
 
 보존된 상세 출처: Visual Studio 사용자의 디버깅 정보를 설명하는 교육용 병렬 도식
 
-Claim Boundary: ACT 0의 문제 모델이다. 특정 Trial의 실제 실패·관찰 순서·모든 Repository 업무에서 반복되는 비용으로 주장하지 않는다. 여섯 정보 범주가 모두 동시에 필요하다고 일반화하지 않는다. 명세서는 기대 동작을 확인하는 문서라는 뜻이며 실제 회사 문서나 제품 UI를 재현하지 않는다.
+Claim Boundary:
+ACT 0의 문제 모델이다. 특정 Trial의 실제 실패·관찰 순서·모든 개발 프로젝트 업무에서 반복되는 비용으로 주장하지 않는다. 여섯 정보 범주가 모두 동시에 필요하다고 일반화하지 않는다. 명세서는 기대 동작을 확인하는 문서라는 뜻이며 실제 회사 문서나 제품 UI를 재현하지 않는다.
 
 보존된 상세 범위: 특정 Trial의 실제 화면이 아닙니다. 명세서는 IDE 밖에서도 함께 참고하는 문서입니다.
 
@@ -601,14 +603,14 @@ ACT 0 / 0D
 Case 2분
 
 **Primary Message:**
-Repository의 테스트·명세·구현/호출 관계와 실행 환경의 로그·권한 정보를 함께 보아 원인을 구분한다. 이번 원인 판단에 쓰는 정보를 Context로 묶는 교육용 도식이다.
+개발 프로젝트의 테스트·명세·구현/호출 관계와 실행 환경의 로그·권한 정보를 함께 보아 원인을 구분한다. 이번 원인 판단에 쓰는 정보를 Context로 묶는 교육용 도식이다.
 
 **Opening Question:**
 “이번 조사에서는 파일 외에 어떤 정보까지 필요했나요?”
 
 **Speaker Flow:**
 1. (0:00–0:25 / Case) 앞의 두 문제에서 실제로 살펴본 자료를 한 장으로 모은다고 안내한다. 환경 오류의 원인은 재설명하지 않는다.
-2. (0:25–1:25 / Case) Repository의 실패 테스트·Crop 명세·구현/호출 관계와 실행 환경의 로그·읽기/쓰기 권한을 구분해 읽는다. 파일과 실행 조건은 서로 다른 출처지만 이번 원인 판단에는 함께 쓰였다. 권한 자체가 Repository 안에 있거나 저장소를 열면 확대되는 그림으로 읽지 않는다.
+2. (0:25–1:25 / Case) 개발 프로젝트의 실패 테스트·Crop 명세·구현/호출 관계와 실행 환경의 로그·읽기/쓰기 권한을 구분해 읽는다. 파일과 실행 조건은 서로 다른 출처지만 이번 원인 판단에는 함께 쓰였다. 권한 자체가 개발 프로젝트 안에 있거나 저장소를 열면 확대되는 그림으로 읽지 않는다.
 3. (1:25–2:00 / Case) 원인을 판단하는 데 쓰는 정보를 이번 장에서 Context로 묶는다. ACT2의 저장 범위·Routing·항상 읽을 정보 설계를 여기서 미리 강의하지 않는다. 이제 같은 자료를 누가 찾고 전달하는지 S11로 넘긴다.
 
 **Evidence / Source:**
@@ -617,7 +619,7 @@ TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-0
 보존된 상세 출처: TEACHING MODEL · TRIAL-001에서 살펴본 정보를 묶은 교육용 도식
 
 **Claim Boundary:**
-TEACHING MODEL — TRIAL-001에서 살펴본 정보를 묶은 해석이며 새 실행·제품 우열이 아니다. Repository 접근은 실행 권한 확장을 뜻하지 않는다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
+TEACHING MODEL — TRIAL-001에서 살펴본 정보를 묶은 해석이며 새 실행·제품 우열이 아니다. 개발 프로젝트 접근은 실행 권한 확장을 뜻하지 않는다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
 
 보존된 상세 범위: 파일은 Repository에서, 실행 조건은 도구·권한에서 확인 · Repository 접근이 권한을 늘리지는 않음
 
@@ -631,7 +633,7 @@ Context가 단지 복사한 코드 조각만을 의미하지 않음을 이번 �
 N/A. 일반화된 새 C++ 규칙·장비 사례는 추가하지 않는다.
 
 **Demo Operation:**
-왼쪽 Repository 자료3개와 오른쪽 실행 환경 자료2개를 구분해 모으고, 원인을 판단하는 데 쓰는 정보=Context라는 한 결론으로 연결한다. 환경 오류 원인을 재강의하거나 ACT2의 Routing 설계를 먼저 설명하지 않는다. 정적 경로 production/ACT_0.pptx의 S10 / production/preview/act0/S10.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S07/S07만 Demo 각4분이며 S09/S09은 Case, S11/S11은 Lecture다.
+왼쪽 개발 프로젝트 자료3개와 오른쪽 실행 환경 자료2개를 구분해 모으고, 원인을 판단하는 데 쓰는 정보=Context라는 한 결론으로 연결한다. 환경 오류 원인을 재강의하거나 ACT2의 Routing 설계를 먼저 설명하지 않는다. 정적 경로 production/ACT_0.pptx의 S10 / production/preview/act0/S10.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S07/S07만 Demo 각4분이며 S09/S09은 Case, S11/S11은 Lecture다.
 
 **Audience Interaction:**
 한 장의 질문을 따라 관찰·해석하게 한다. 응답·실습·새 실행·공개 제출을 요구하지 않는다.
@@ -739,8 +741,8 @@ TRIAL-001에서 Agent가 허용된 파일·도구 범위의 테스트·코드·�
 **Speaker Flow:**
 1. (0:00–0:30 / Lecture) S11의 같은 다섯 자료와 배치를 가리킨다. 가운데 주체가 사람의 선택·전달에서 Agent의 허용된 조사로 바뀌고 오른쪽은 관찰된 조사 내용이다. 새 제품 실행이 아니다.
 2. (0:30–1:10 / Lecture) 실제 근거는 TRIAL-001의 단일 과거 CLI 조사다. Agent가 실패 테스트·관련 코드·명세·호출 경로를 조사하고 실행 제한을 구분했다. 모든 정보의 자동 발견·우월한 답변·권한 해결·현재 Desktop 재현으로 일반화하지 않는다. 목표 설정과 근거 검토 책임은 사람에게 남는다.
-3. (1:10–1:50 / Lecture) 화면 하단의 접근 전 승인된 도구·계정·자료·권한 확인을 짚는다. Repository 접근과 실제 도구/실행 권한은 별개다. 조직의 실제 허용·금지 목록이나 제품 보안 보장을 새로 확정하지 않는다.
-4. (1:50–2:00 / Lecture) “이 교육에서는 어디에서 Repository를 열까요?”로 S13의 기존 Codex 진입 안내를 연다. Task 의도와 접근의 차이는 S14에 남긴다.
+3. (1:10–1:50 / Lecture) 화면 하단의 접근 전 승인된 도구·계정·자료·권한 확인을 짚는다. 개발 프로젝트 접근과 실제 도구/실행 권한은 별개다. 조직의 실제 허용·금지 목록이나 제품 보안 보장을 새로 확정하지 않는다.
+4. (1:50–2:00 / Lecture) “이 교육에서는 어디에서 개발 프로젝트를 열까요?”로 S13의 기존 Codex 진입 안내를 연다. Task 의도와 접근의 차이는 S14에 남긴다.
 
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성. DEC-0086: prototype/image-illustration-pilot/assets/S07.png의 오른쪽 장면을 우측 상단 여백에 가로·세로1.8배로 확대해 재사용한다. 생성 지시는 prototype/image-illustration-pilot/PROMPTS.md의 S09에 보존한다. AI 생성 설명용 삽화이며 실제 실행 캡처·새 Trial 근거가 아니다.
@@ -753,7 +755,7 @@ FROZEN WITH SCOPE — 실제 관찰은 과거 Codex CLI0.154.0 한 번; TEACHING
 보존된 상세 범위: 권한 제한을 해제하지 않음 · 목표·검토 책임은 개발자에게 남음 · 현재 Desktop 미검증
 
 **Beginner Explanation:**
-관련 파일을 모두 직접 복사하기 전에 허용된 Repository 조사를 요청할 수 있음을 본다.
+관련 파일을 모두 직접 복사하기 전에 허용된 개발 프로젝트 조사를 요청할 수 있음을 본다.
 
 **Advanced Insight:**
 Context 수집 역할의 일부와 목표 설정·권한·수용 판단 책임을 분리한다.
@@ -762,13 +764,13 @@ Context 수집 역할의 일부와 목표 설정·권한·수용 판단 책임�
 Contextual cue — 저장소의 모듈·테스트·명세 조사에만 연결한다.
 
 **Demo Operation:**
-S11와 같은 다섯 자료·수집 주체·출력의 위치를 유지하되, 주체를 Agent와 허용된 조사로 바꾸고 오른쪽에 관찰된 조사 내용을 둔다. Repository 자료와 실행 권한이 별개이며 사람의 목표·검토 책임을 유지한다. 정적 경로 production/ACT_0.pptx의 S12 / production/preview/act0/S12.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S07/S07만 Demo 각4분이며 S09/S09은 Case, S11/S11은 Lecture다. 기존 도식을 먼저 따라가며, 우측 상단의 오른쪽 장면 삽화는 같은 역할을 보충하는 교육용 그림으로만 짚는다.
+S11와 같은 다섯 자료·수집 주체·출력의 위치를 유지하되, 주체를 Agent와 허용된 조사로 바꾸고 오른쪽에 관찰된 조사 내용을 둔다. 개발 프로젝트 자료와 실행 권한이 별개이며 사람의 목표·검토 책임을 유지한다. 정적 경로 production/ACT_0.pptx의 S12 / production/preview/act0/S12.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S07/S07만 Demo 각4분이며 S09/S09은 Case, S11/S11은 Lecture다. 기존 도식을 먼저 따라가며, 우측 상단의 오른쪽 장면 삽화는 같은 역할을 보충하는 교육용 그림으로만 짚는다.
 
 **Audience Interaction:**
 한 장의 질문을 따라 관찰·해석하게 한다. 응답·실습·새 실행·공개 제출을 요구하지 않는다.
 
 **Transition:**
-“그렇다면 이 교육에서는 어디에서 Repository를 열까요?”
+“그렇다면 이 교육에서는 어디에서 개발 프로젝트를 열까요?”
 
 **Time Management:**
 Lecture 2분 = 2분. 위 Speaker Flow의 구간대로 운영하며 한 장의 역할만 설명한다. 초과하면 다음 장 내용을 미리 설명하는 부분을 줄이고 근거 경계를 유지한다. 실측 리허설은 UNVERIFIED.
@@ -779,11 +781,12 @@ LOCAL STATIC ARTIFACT — production/preview/full/S12.png 또는 ACT_0.pptx의 �
 **Validation Status:**
 CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S13 — Repository 작업은 Codex에서 시작한다
+## S13 — 개발 프로젝트 조사는 Codex에서 시작한다
 
 Slide ID: S13
 
-Working Title: Repository 작업은 Codex에서 시작한다
+Working Title:
+개발 프로젝트 조사는 Codex에서 시작한다
 
 ACT / Section: ACT 0 / 0E
 
@@ -791,14 +794,16 @@ Allocated Time: 1 minute
 
 Mode Split: Lecture 1 minute
 
-Primary Message: 이 교육에서 Repository를 조사하는 개발 작업은 ChatGPT 데스크톱 앱의 ChatGPT 메뉴에서 Codex를 선택해 시작한다.
+Primary Message:
+이 교육에서 개발 프로젝트를 조사하는 개발 작업은 ChatGPT 데스크톱 앱의 ChatGPT 메뉴에서 Codex를 선택해 시작한다.
 
-Opening Question: “Repository 작업을 맡기려면 어디로 들어갈까?”
+Opening Question:
+“개발 프로젝트 작업을 맡기려면 어디로 들어갈까?”
 
 **Speaker Flow:**
 1. **LOCATE (0:00–0:15):** 재구성 UI의 좌측 상단 ChatGPT 메뉴를 가리킨다. 사용자 지정 위치를 보여 주는 교육용 도식이며 실제 계정의 실행 캡처가 아님을 짧게 밝힌다.
 2. **SELECT (0:15–0:30):** 메뉴의 Codex를 가리킨다. 이 교육에서 코드베이스 조사와 개발 작업을 시작하는 표면을 연결한다.
-3. **REPOSITORY (0:30–0:45):** 허용된 Repository 폴더를 선택하는 흐름을 가리킨다. 앞 장에서 확인한 도구·계정·자료·권한 범위 안의 폴더만 대상이며 실제 선택이나 Live 실행을 하지 않는다.
+3. **프로젝트 폴더 (0:30–0:45):** 허용된 프로젝트 폴더를 선택하는 흐름을 가리킨다. 앞 장에서 확인한 도구·계정·자료·권한 범위 안의 폴더만 대상이며 실제 선택이나 Live 실행을 하지 않는다.
 4. **ASK (0:45–1:00):** “먼저 조사해줘”라는 요청으로 S06의 조사 태도를 회수한다. “들어가는 곳을 알았으니, 무엇을 볼 수 있고 누가 최종 결정할지 나눠 보겠습니다”라며 S14로 간다.
 운영 표시: “실무 적용 팁 · 사용 환경” 배지로 다시 찾아 쓸 기준임을 짚는다. 기존 설명·근거 범위와 배정 시간 안에서 진행하며 요청·예시를 새로 실행하지 않는다.
 
@@ -806,13 +811,16 @@ Evidence / Source: BEAT-003에 연결한 사용자 승인 진입 가교; DEC-003
 
 보존된 상세 출처: OpenAI Quickstart · 공식 문서 2026-10-21 확인 · 앱 전환 메뉴 재구성
 
-Claim Boundary: 이 교육의 개발 작업 진입 경로를 안내한다. 모든 Repository 접근에 Codex만 가능하다는 보편적 주장이 아니다. ChatGPT의 다른 작업 표면에서도 파일 접근이 가능한 경우가 있으며 제품·계정·권한에 따라 다르다. 과거 CLI TRIAL-001을 현재 Desktop 동작의 검증 근거로 사용하지 않는다. 현재 대상 계정·Windows·정확한 메뉴와 폴더 선택 동작은 실제 환경 확인 전까지 UNVERIFIED다.
+Claim Boundary:
+이 교육의 개발 작업 진입 경로를 안내한다. 모든 개발 프로젝트 접근에 Codex만 가능하다는 보편적 주장이 아니다. ChatGPT의 다른 작업 표면에서도 파일 접근이 가능한 경우가 있으며 제품·계정·권한에 따라 다르다. 과거 CLI TRIAL-001을 현재 Desktop 동작의 검증 근거로 사용하지 않는다. 현재 대상 계정·Windows·정확한 메뉴와 폴더 선택 동작은 실제 환경 확인 전까지 UNVERIFIED다.
 
 보존된 상세 범위: 교육용 도식입니다. 앱 버전·계정별 표시와 접근 권한은 발표 환경에서 확인합니다.
 
-Beginner Explanation: 작은 코드 질문을 하던 대화에서 Repository 조사로 옮길 때, 이 교육에서는 Codex를 선택하는 진입점을 사용한다.
+Beginner Explanation:
+작은 코드 질문을 하던 대화에서 개발 프로젝트 조사로 옮길 때, 이 교육에서는 Codex를 선택하는 진입점을 사용한다.
 
-Advanced Insight: 제품 표면의 선택, Repository 접근 권한, 이번 Task의 의도는 서로 다른 경계다. 이 장은 진입 경로만 연결하며 제품별 접근 성능이나 독점적 기능을 주장하지 않는다.
+Advanced Insight:
+제품 표면의 선택, 개발 프로젝트 접근 권한, 이번 Task의 의도는 서로 다른 경계다. 이 장은 진입 경로만 연결하며 제품별 접근 성능이나 독점적 기능을 주장하지 않는다.
 
 C++ Vision Bridge: N/A. 언어·IDE별 설정을 추가하지 않는다.
 
@@ -820,20 +828,23 @@ Demo Operation: N/A — 공식 자료를 토대로 재구성한 정적 UI 도식
 
 Audience Interaction: 위치를 함께 보는 1분 안내다. 청중에게 계정 로그인·폴더 선택·응답을 요구하지 않는다.
 
-Transition: “Repository 안을 함께 볼 수 있어도, 어떤 결과를 받아들일지는 누가 정할까요?”라는 질문으로 S14에 간다.
+Transition:
+“개발 프로젝트 안을 함께 볼 수 있어도, 어떤 결과를 받아들일지는 누가 정할까요?”라는 질문으로 S14에 간다.
 
 **Time Management:**
 Lecture 1분. 메뉴 위치 15초, Codex 선택 15초, 허용 폴더 15초, 조사 요청·S14 연결 15초다. 이 장의1분은 보존한다. 현재 ACT 0 45분·전체420분·Lecture186분이며 마지막 팁 찾아보기3분은 ACT5의 별도 배정이다. 설정 tutorial을 추가하지 않는다. 제목6장의 Transition6분은 각 ACT의 별도 배정이다.
 
-Fallback: 제작 완료 후 production/preview/act0/S13.png 또는 production/preview/full/S13.png의 정적 재구성 도식을 사용한다. 새 PNG와 PPT의 일치는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 확인하기 전까지 미검증이다. 화면을 열 수 없으면 “이 교육에서는 ChatGPT 메뉴에서 Codex를 선택해 허용된 저장소 조사를 시작합니다”라고 말하고 S14로 간다. 즉석 계정 시연으로 대체하지 않는다.
+Fallback:
+제작 완료 후 production/preview/act0/S13.png 또는 production/preview/full/S13.png의 정적 재구성 도식을 사용한다. 새 PNG와 PPT의 일치는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 확인하기 전까지 미검증이다. 화면을 열 수 없으면 “이 교육에서는 ChatGPT 메뉴에서 Codex를 선택해 허용된 개발 프로젝트 조사를 시작합니다”라고 말하고 S14로 간다. 즉석 계정 시연으로 대체하지 않는다.
 
 Validation Status: ALIGNED — 사용자 요청·공식 자료와 Notes를 정렬했다. 실제 Screenshot, 현재 계정의 제품 재현, Windows 호환성, 교육장 투사와 시간 리허설을 검증한 결과가 아니다. 새 PPT/PNG·내장 Notes 대조는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 별도로 기록한다.
 
-## S14 — Repository 접근과 Task 의도는 별개다
+## S14 — 프로젝트를 봐도, 원하는 작업은 따로 정한다
 
 Slide ID: S14
 
-Working Title: Repository 접근과 Task 의도는 별개다
+Working Title:
+프로젝트를 봐도, 원하는 작업은 따로 정한다
 
 ACT / Section: ACT 0 / 0E
 
@@ -841,9 +852,11 @@ Allocated Time: 2 minutes
 
 Mode Split: Lecture 2 minutes
 
-Primary Message: Repository 탐색은 Context 수집에 도움을 줄 수 있지만, Task의 목표와 완료 조건까지 대신 정하지 않는다.
+Primary Message:
+개발 프로젝트 탐색은 Context 수집에 도움을 줄 수 있지만, Task의 목표와 완료 조건까지 대신 정하지 않는다.
 
-Opening Question: “Repository를 볼 수 있으면 원하는 작업도 알게 되는가?”
+Opening Question:
+“개발 프로젝트를 볼 수 있으면 원하는 작업도 알게 되는가?”
 
 **Speaker Flow:**
 1. **OPEN (0:00–0:20):** 왼쪽 “볼 수 있는 것”과 오른쪽 “최종 정해야 하는 것”을 나눈다. 바로 앞 S13은 진입 경로, 이 장은 역할과 책임의 구분이다.
@@ -882,11 +895,12 @@ Fallback: 화면 도식이 보이지 않으면 “자료는 함께 살펴보고,
 
 Validation Status: ALIGNED — DEC-0036에 따라 사람·Agent 접근과 사람의 최종 책임을 구분했다. 새 PPT/PNG·내장 Notes 대조는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 기록한다. Windows PowerPoint, 실제 계정·권한, 발표 PC 글꼴, 교육장 투사, 실제 시간 리허설은 UNVERIFIED.
 
-## S15 — Repository를 보면 내가 원하는 것까지 알까?
+## S15 — 프로젝트를 보면 내가 원하는 것까지 알까?
 
 Slide ID: S15
 
-Working Title: Repository를 보면 내가 원하는 것까지 알까?
+Working Title:
+프로젝트를 보면 내가 원하는 것까지 알까?
 
 ACT / Section: ACT 0 / 0F
 
@@ -894,15 +908,17 @@ Allocated Time: 6 minutes
 
 Mode Split: Transition 3 minutes + Q&A 3 minutes
 
-Primary Message: Repository를 볼 수 있다는 사실만으로 Task의 의도가 정해지지는 않는다.
+Primary Message:
+개발 프로젝트를 볼 수 있다는 사실만으로 Task의 의도가 정해지지는 않는다.
 
-Opening Question: “지금 이 저장소에 어떤 일을 맡기고 싶으신가요?” 제조 라인 검사장비로 확장한다는 가정 아래 원하는 검사 작업을 떠올리게 한다.
+Opening Question:
+“프로젝트를 볼 수 있으면 내가 원하는 것까지 알 수 있을까?”
 
 **Speaker Flow:**
 1. **CALLBACK (0:00–0:25 / Transition):** S14에서 사람이 정할 목표·허용 범위·완료 수용을 남겼음을 짧게 회수한다. 화면의 제조 검사 Task는 교육용 가정이라고 말한다.
 2. **PIPELINE CONTEXT (0:25–1:15 / Transition):** 입력 이미지에서 관심 영역을 crop하는 실선을 가리키고 “앞서 조사한 기존 구현”이라고 말한다. 이후 점선의 밝기 정규화, 크기 맞춤, 통계·특징, 양불 판정을 한 번 훑는다. 점선은 이 검사 흐름에서 추가로 정의·연결할 범위이지 실제 저장소의 함수 미구현을 뜻하지 않는다. 각 알고리즘의 원리·판정 기준을 강의하거나 구현 결과로 보여주지 않는다.
 3. **TASK QUESTION (1:15–2:30 / Transition):** 하단의 “지금 이 저장소에 어떤 일을 맡기고 싶으신가요?”를 읽고 원하는 작업 하나를 조용히 떠올리게 한다. 판정 카드의 ?를 남겨 두며 정답이나 새 기능 목록을 제시하지 않는다.
-4. **HANDOFF (2:30–3:00 / Transition):** “그 원하는 결과까지 코드에 적혀 있을까요?”를 읽는다. 같은 Repository를 보더라도 원하는 검사는 별도로 전달해야 한다는 다음 문제를 남긴다. ACT 1의 다섯 책임을 먼저 펼치지 않는다.
+4. **HANDOFF (2:30–3:00 / Transition):** “그 원하는 결과까지 코드에 적혀 있을까요?”를 읽는다. 같은 개발 프로젝트를 보더라도 원하는 검사는 별도로 전달해야 한다는 다음 문제를 남긴다. ACT 1의 다섯 책임을 먼저 펼치지 않는다.
 5. **Q&A (3:00–6:00):** 자발적인 질문을 받는다. 질문이 없으면 두 질문을 화면에 남기고, 종료 시 기존 Transition 문구로 S17의 모호한 요청에 연결한다.
 기존 연결 질문을 유지한 채 ACT 1 제목 S16를 거쳐 S17의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
 

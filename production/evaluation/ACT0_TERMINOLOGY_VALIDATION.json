@@ -1,0 +1,124 @@
+{
+  "status": "LOCAL_PASS",
+  "decision": "DEC-0106",
+  "baseline": "c45135a",
+  "slideCount": 120,
+  "minutes": 420,
+  "ACTMinutes": [
+    45,
+    64,
+    90,
+    96,
+    85,
+    40
+  ],
+  "modes": {
+    "Transition": 26,
+    "Lecture": 186,
+    "Reflection": 22,
+    "Case": 105,
+    "Demo": 49,
+    "Q&A": 32
+  },
+  "slideTextUpdated": [
+    "S01",
+    "S06",
+    "S10",
+    "S13",
+    "S14",
+    "S15",
+    "S117"
+  ],
+  "notesUpdated": [
+    "S15",
+    "S14",
+    "S13",
+    "S12",
+    "S10",
+    "S05",
+    "S01",
+    "S117"
+  ],
+  "definition": "코드·명세·테스트가 있는 프로젝트 폴더",
+  "notesFields": 19,
+  "renderedPNGs": 150,
+  "unchangedFullSlidesPixelChecked": 113,
+  "fullActPixelParity": 30,
+  "sourceFinalParity": 7,
+  "unchangedPackagePartsVerified": 681,
+  "originalTrialPrompt": "byte-equivalent body object preserved",
+  "mediaChartsTablesWorkbooks": "all original parts preserved byte-for-byte",
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "slides": 120,
+      "sha256": "3ba0689f8981a2f9a6f2f2bc78034f4ea5a64805022e41352a9b963c047b9e52",
+      "changedParts": [
+        "ppt/slides/slide1.xml",
+        "ppt/notesSlides/notesSlide1.xml",
+        "ppt/notesSlides/notesSlide5.xml",
+        "ppt/slides/slide6.xml",
+        "ppt/slides/slide10.xml",
+        "ppt/notesSlides/notesSlide10.xml",
+        "ppt/notesSlides/notesSlide12.xml",
+        "ppt/slides/slide13.xml",
+        "ppt/notesSlides/notesSlide13.xml",
+        "ppt/slides/slide14.xml",
+        "ppt/notesSlides/notesSlide14.xml",
+        "ppt/slides/slide15.xml",
+        "ppt/notesSlides/notesSlide15.xml",
+        "ppt/slides/slide117.xml",
+        "ppt/notesSlides/notesSlide117.xml"
+      ]
+    },
+    {
+      "name": "ACT_0",
+      "slides": 15,
+      "sha256": "b4a8447c57ac052e14b67d74a53f481cf18269a4b3a056119eb58ca97414ecdf",
+      "changedParts": [
+        "ppt/slides/slide1.xml",
+        "ppt/notesSlides/notesSlide1.xml",
+        "ppt/notesSlides/notesSlide5.xml",
+        "ppt/slides/slide6.xml",
+        "ppt/slides/slide10.xml",
+        "ppt/notesSlides/notesSlide10.xml",
+        "ppt/notesSlides/notesSlide12.xml",
+        "ppt/slides/slide13.xml",
+        "ppt/notesSlides/notesSlide13.xml",
+        "ppt/slides/slide14.xml",
+        "ppt/notesSlides/notesSlide14.xml",
+        "ppt/slides/slide15.xml",
+        "ppt/notesSlides/notesSlide15.xml"
+      ]
+    },
+    {
+      "name": "ACT_5",
+      "slides": 15,
+      "sha256": "b80c8894854e86165e497bca24a29860e204743293c966cbc8d59bf952a912f6",
+      "changedParts": [
+        "ppt/slides/slide12.xml",
+        "ppt/notesSlides/notesSlide12.xml"
+      ]
+    }
+  ],
+  "externalGates": "Windows, account, room and rehearsal UNVERIFIED",
+  "visualReview": {
+    "slides": [
+      "S01",
+      "S06",
+      "S10",
+      "S13",
+      "S14",
+      "S15",
+      "S117"
+    ],
+    "result": "Renamed terms and one-line definition fit the existing layouts; no new clipping/overlap observed."
+  },
+  "fullNotesSha256": "aaebd95776c580ab89010dfdad4d834d21d42f8ab69ef9a7dbfe9e89c8dae3c7",
+  "fullMontageSha256": "7ed65f3f655dd4e3d7ce36015d8e192f3caa32cf333bf5acd7b1b53ba418c1b7",
+  "fallbackRowsVerified": 44,
+  "otherACTDecksUnchanged": 4,
+  "demoRepository": "Unchanged",
+  "site": "Unchanged",
+  "presenterBundle": "Not updated"
+}

@@ -11081,3 +11081,80 @@ and preserve a clear distinction between evidence and interpretation.
 Render the final Full and ACT2 decks, inspect S46-S48 and confirm unchanged
 other slides, Notes schema, budgets, code excerpt and native evidence.
 Commit/push normally. Keep Windows, room and rehearsal unverified.
+
+# DEC-0106 — Use concrete development-project terms in ACT0
+
+## Status
+
+ACCEPTED — explicit user approval of the terminology recommendation.
+
+## Date
+
+2026-10-27
+
+## Context
+
+The user reports ambiguity around Repository in ACT0 and approves using
+concrete development-project wording while preserving the existing lesson.
+
+## Problem
+
+Repository can suggest a remote Git service or an architectural pattern
+instead of the local code, specification and tests being investigated.
+
+## Decision
+
+Use development project for general ACT0 explanations and project folder
+for opening a directory. Define the intended meaning once on S01 as a
+project folder containing code, specifications and tests. Align current
+ACT0 titles/prose, Notes and metadata. Update the S13 title reference in
+S117 without changing the other ACT5 content. Preserve the original
+TRIAL-001 request wording, original sources, Git-specific terms, paths,
+IDs and historical records. Distinguish project files from runtime logs
+and permissions. Do not imply recursive loading or broader access.
+
+## Rationale
+
+Make the investigation target concrete before introducing the agent's
+role, while keeping information access separate from task intent and
+execution authority.
+
+## Alternatives
+
+Translate every occurrence as storage; ambiguity can remain. Use the
+development environment everywhere; this would blur files and runtime
+conditions. Rewrite all ACTs; this exceeds the approved ACT0 scope.
+
+## Trade-offs
+
+Add one short meaning line to the ACT0 title and retain the original
+quoted request. Keep120slides/420minutes and every per-slide allocation,
+12templates/28variants and the19-field Notes schema unchanged.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+Current ACT0 text, S117 title lookup, Full/ACT0/ACT5 decks and Notes,
+current planning metadata, source display overlay and previews.
+Original State/Trial records, other ACT content, Demo repository, Site
+and presenter bundle remain unchanged.
+
+## Evidence
+
+User feedback and explicit approval; current ACT0 maps, Notes and rendered
+slides. This is an editorial clarification, not new product verification,
+research, a Trial or a measured effect.
+
+## Training Relevance
+
+YES — name the concrete investigation target without implying control
+over the environment or knowledge of the user's intended result.
+
+## Follow-up
+
+Inspect every renamed slide and the ACT0-to-ACT1 handoff, validate Notes,
+budgets and original evidence, render the final affected decks and push
+normally. Keep Windows, account, room and rehearsal gates unverified.

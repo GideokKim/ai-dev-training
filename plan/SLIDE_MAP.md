@@ -57,30 +57,30 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 ### ACT 0 — 15 slides / 45 minutes
 
 
-#### S01 — AI를 Repository로 데려가기
+#### S01 — AI가 개발 프로젝트를 직접 살펴보게 하기
 
 - **Slide ID:** S01
 - **ACT:** ACT 0
 - **Section:** 0A
-- **Working Title:** AI를 Repository로 데려가기
+- **Working Title:** AI가 개발 프로젝트를 직접 살펴보게 하기
 - **Primary Role:** ACT의 제목과 설계 관점을 안내하고 기존 첫 문제 장으로 넘긴다. 새 기법·성과·기능 정의를 설명하는 장이 아니다.
 - **Audience Question:** “이번 ACT에서는 어떤 관점으로 다음 문제를 살펴볼까?”
-- **Core Message:** AI를 Repository로 데려가기 — Chatbot → Repository Agent
+- **Core Message:** AI가 개발 프로젝트를 직접 살펴보게 하기 — Chatbot → 개발 프로젝트를 조사하는 Agent. 개발 프로젝트는 코드·명세·테스트가 있는 프로젝트 폴더를 뜻한다.
 - **Story Beat:** BEAT-001
 - **Curriculum Trace:** ACT 0의 승인된 주제를 안내하는 표지다. 기존 Curriculum Section/Beat를 재사용한다.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — ACT 주제 안내이며 새 제품 기능·Trial·성과·현재 제품 지원을 주장하지 않는다.
-- **Visual Concept:** T12-A ACT Title. 기존 밝은 배경·teal/ink/sub 색·글꼴을 사용한다. ACT 번호, 두 줄의 큰 한글 제목, 작은 승인 부제, 현재 Slide ID와 조용한 과정 표기만 둔다. 사진·결과·기능 목록은 추가하지 않는다.
+- **Visual Concept:** T12-A ACT Title. 두 줄 제목·부제와 “코드·명세·테스트가 있는 프로젝트 폴더”라는 한 줄 정의를 사용한다. 기존 ACT 번호·색·글꼴·과정 표기를 유지한다. 새 기능·성과·사진을 추가하지 않는다.
 - **Demo / Case Connection:** N/A — 기존 ACT의 사례를 소개하기 전 주제만 안내한다. Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 지금부터 살펴볼 주제와 앞 구간과의 경계를 알아본다.
 - **Advanced Payoff:** 해당 ACT가 다루는 설계 책임의 범위를 짧게 확인한다.
 - **C++ Vision Bridge:** N/A — 기존 본문에 있는 C++ 연결을 유지한다.
-- **Speaker Intent:** 승인된 제목·부제를 가리키며 ACT의 방향만 안내한다. 용어 정의·모든 도구의 도입·성과 예고로 확장하지 않고 기존 첫 문제를 연다.
+- **Speaker Intent:** 제목·부제와 개발 프로젝트의 한 문장 뜻만 짧게 확인하고 기존 첫 문제로 넘긴다. 도구·기능 정의나 전체 파일 자동 열람·검증 완료로 확장하지 않는다.
 - **Transition:** “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S02 — AI에게 지금 무엇을 맡기고 있는가?로 이어간다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Transition 1분 = 1분
 - **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
-- **ACT Subtitle:** Chatbot → Repository Agent
+- **ACT Subtitle:** Chatbot → 개발 프로젝트를 조사하는 Agent
 - **Audience Footer:** 기존 ACT 제목 표기 유지
 
 
@@ -169,9 +169,9 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **ACT:** ACT 0
 - **Section:** 0C
 - **Working Title:** 질문이 커지면 Context를 모으는 일이 생긴다
-- **Primary Role:** Repository 범위 문제 제기
+- **Primary Role:** 개발 프로젝트 범위 문제 제기
 - **Audience Question:** “여러 파일에 걸친 질문을 하려면 무엇을 먼저 찾아야 할까?”
-- **Core Message:** Repository 수준 질문에서는 사람이 관련 구현, 호출 경로, 테스트 결과와 명세서 등 필요한 정보를 찾아 대화에 옮기는 일이 생길 수 있다.
+- **Core Message:** 개발 프로젝트 수준 질문에서는 사람이 관련 구현, 호출 경로, 테스트 결과와 명세서 등 필요한 정보를 찾아 대화에 옮기는 일이 생길 수 있다.
 - **Story Beat:** BEAT-002
 - **Curriculum Trace:** ACT 0 — project-level question and context collection friction.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
@@ -301,12 +301,12 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Working Title:** 원인 판단에는 코드와 실행 환경 정보가 필요했다
 - **Primary Role:** 앞선 두 사건에서 사용한 자료를 묶어 이번 조사에 필요한 Context로 이름 붙인다.
 - **Audience Question:** “이번 조사에서는 파일 외에 어떤 정보까지 필요했나요?”
-- **Core Message:** Repository의 테스트·명세·구현/호출 관계와 실행 환경의 로그·권한 정보를 함께 보아 원인을 구분한다. 이번 원인 판단에 쓰는 정보를 Context로 묶는 교육용 도식이다.
+- **Core Message:** 개발 프로젝트의 테스트·명세·구현/호출 관계와 실행 환경의 로그·권한 정보를 함께 보아 원인을 구분한다. 이번 원인 판단에 쓰는 정보를 Context로 묶는 교육용 도식이다.
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — TRIAL-001에서 살펴본 정보를 묶은 해석이며 새 실행·제품 우열이 아니다. Repository 접근은 실행 권한 확장을 뜻하지 않는다.
-- **Visual Concept:** 왼쪽 Repository 자료3개와 오른쪽 실행 환경 자료2개를 구분해 모으고, 원인을 판단하는 데 쓰는 정보=Context라는 한 결론으로 연결한다. 환경 오류 원인을 재강의하거나 ACT2의 Routing 설계를 먼저 설명하지 않는다.
+- **Claim Status:** TEACHING MODEL — TRIAL-001에서 살펴본 정보를 묶은 해석이며 새 실행·제품 우열이 아니다. 개발 프로젝트 접근은 실행 권한 확장을 뜻하지 않는다.
+- **Visual Concept:** 왼쪽 프로젝트 파일 자료3개와 오른쪽 실행 환경 자료2개를 구분해 모으고, 원인을 판단하는 데 쓰는 정보=Context라는 한 결론으로 연결한다. 환경 오류 원인을 재강의하거나 ACT2의 Routing 설계를 먼저 설명하지 않는다.
 - **Demo / Case Connection:** DEMO-01의 별도 Case/교육용 해석·callback이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** Context가 단지 복사한 코드 조각만을 의미하지 않음을 이번 사건으로 이해한다.
 - **Advanced Payoff:** 저장소에 있는 사실과 도구·권한이 제공하는 실행 조건의 출처를 구분한다.
@@ -316,7 +316,7 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
-- **Audience Footer:** Repository 접근과 실행 권한은 별개
+- **Audience Footer:** 프로젝트 파일 접근과 실행 권한은 별개
 
 
 #### S11 — Chatbot에 이 자료를 직접 전달한다면?
@@ -358,39 +358,39 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE — 실제 관찰은 과거 Codex CLI0.154.0 한 번; TEACHING MODEL — 그림은 조사 관계의 각색. 현재 Desktop·일반 효율·반복성·권한 확대/해결을 주장하지 않는다.
-- **Visual Concept:** S11와 같은 다섯 자료·수집 주체·출력의 위치를 유지하되, 주체를 Agent와 허용된 조사로 바꾸고 오른쪽에 관찰된 조사 내용을 둔다. Repository 자료와 실행 권한이 별개이며 사람의 목표·검토 책임을 유지한다. DEC-0086: 우측 상단 여백에 기존 S09 삽화의 오른쪽 장면을 이전보다 가로·세로1.8배로 덧붙인다. 기존 문구·도형·배치는 그대로이며 삽화는 AI 생성 교육용 표현이다.
+- **Visual Concept:** S11와 같은 다섯 자료·수집 주체·출력의 위치를 유지하되, 주체를 Agent와 허용된 조사로 바꾸고 오른쪽에 관찰된 조사 내용을 둔다. 개발 프로젝트 자료와 실행 권한이 별개이며 사람의 목표·검토 책임을 유지한다. DEC-0086: 우측 상단 여백에 기존 S09 삽화의 오른쪽 장면을 이전보다 가로·세로1.8배로 덧붙인다. 기존 문구·도형·배치는 그대로이며 삽화는 AI 생성 교육용 표현이다.
 - **Demo / Case Connection:** DEMO-01의 별도 Case/교육용 해석·callback이며 Demo 시간을 추가하지 않는다.
-- **Beginner Payoff:** 관련 파일을 모두 직접 복사하기 전에 허용된 Repository 조사를 요청할 수 있음을 본다.
+- **Beginner Payoff:** 관련 파일을 모두 직접 복사하기 전에 허용된 개발 프로젝트 조사를 요청할 수 있음을 본다.
 - **Advanced Payoff:** Context 수집 역할의 일부와 목표 설정·권한·수용 판단 책임을 분리한다.
 - **C++ Vision Bridge:** Contextual cue — 저장소의 모듈·테스트·명세 조사에만 연결한다.
 - **Speaker Intent:** 같은 자료를 Agent가 허용된 범위에서 조사한 관계로 바꿔 보여주고 Codex 진입 안내로 연결한다. DEC-0084의 한 장 한 질문과 화면에 표시한 근거 경계를 따른다.
-- **Transition:** “그렇다면 이 교육에서는 어디에서 Repository를 열까요?”
+- **Transition:** “그렇다면 이 교육에서는 어디에서 개발 프로젝트를 열까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086
 - **Audience Footer:** Codex CLI 조사 기록
 
 
-#### S13 — Repository 작업은 Codex에서 시작한다
+#### S13 — 개발 프로젝트 조사는 Codex에서 시작한다
 
 - **Slide ID:** S13
 - **ACT:** ACT 0
 - **Section:** 0E
-- **Working Title:** Repository 작업은 Codex에서 시작한다
-- **Primary Role:** Repository 조사로 들어가는 실제 제품 진입 경로 안내
-- **Audience Question:** “ChatGPT 데스크톱 앱에서 Repository 작업은 어디서 시작할까?”
-- **Core Message:** 이 교육의 Repository 개발 작업은 ChatGPT 데스크톱 앱 좌측 상단의 ChatGPT 메뉴에서 Codex를 선택하고, 프로젝트 Repository 폴더를 연 뒤 조사를 요청하는 경로로 시작한다. 이는 교육에서 선택한 개발 경로이며 다른 ChatGPT 기능의 파일 접근 가능성을 부정하지 않는다.
+- **Working Title:** 개발 프로젝트 조사는 Codex에서 시작한다
+- **Primary Role:** 개발 프로젝트 조사로 들어가는 실제 제품 진입 경로 안내
+- **Audience Question:** “ChatGPT 데스크톱 앱에서 개발 프로젝트 작업은 어디서 시작할까?”
+- **Core Message:** 이 교육의 개발 프로젝트 개발 작업은 ChatGPT 데스크톱 앱 좌측 상단의 ChatGPT 메뉴에서 Codex를 선택하고, 프로젝트 프로젝트 폴더를 연 뒤 조사를 요청하는 경로로 시작한다. 이는 교육에서 선택한 개발 경로이며 다른 ChatGPT 기능의 파일 접근 가능성을 부정하지 않는다.
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 / 0E — repository exploration의 Mental Shift를 Codex 진입 경로와 연결.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE — 2026-10-21 OpenAI 공식 Quickstart/App 문서의 Codex 진입 안내; REQUIRES PRODUCT CHECK — 좌측 상단 위치는 사용자 제공 UI 명세이고 현재 로컬 앱 UI·발표 계정·Windows의 실제 동작은 UNVERIFIED.
-- **Visual Concept:** `ChatGPT 메뉴 → Codex 선택 → Repository 폴더 선택`의 3단계 native 흐름과 “조사를 요청한다”는 짧은 다음 행동을 보여 준다. 메뉴는 공식 안내와 사용자 UI 명세를 바탕으로 재구성한 도식이며 실제 Screenshot이 아니다. ChatGPT와 Codex 선택지를 구분하되 계정의 모든 기능·메뉴를 복제하지 않는다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 사용 환경”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
+- **Visual Concept:** `ChatGPT 메뉴 → Codex 선택 → 프로젝트 폴더 선택`의 3단계 native 흐름과 “조사를 요청한다”는 짧은 다음 행동을 보여 준다. 메뉴는 공식 안내와 사용자 UI 명세를 바탕으로 재구성한 도식이며 실제 Screenshot이 아니다. ChatGPT와 Codex 선택지를 구분하되 계정의 모든 기능·메뉴를 복제하지 않는다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 사용 환경”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
 - **Demo / Case Connection:** DEMO-01을 여는 제품 경로 설명; 새 Demo·Trial·Git State를 만들거나 과거 CLI 결과를 Desktop 증거로 사용하지 않음.
-- **Beginner Payoff:** Chatbot 대화에서 Repository 개발 작업으로 이동할 때 선택할 입구를 안다.
+- **Beginner Payoff:** Chatbot 대화에서 개발 프로젝트 개발 작업으로 이동할 때 선택할 입구를 안다.
 - **Advanced Payoff:** 기능 설명 문서와 계정·제품 표면에서 실제 확인해야 하는 진입 동작을 구분한다.
 - **C++ Vision Bridge:** 없음 — 특정 IDE·CMake·컴파일러 조작으로 확장하지 않음.
-- **Speaker Intent:** 1분 안에 ChatGPT 메뉴의 Codex 선택과 Repository 폴더 연결을 짚고 조사 요청으로 끝낸다. 공식 문서 확인과 실제 화면 확인을 구분하고, “Repository 접근은 오직 Codex만 가능하다”는 보편 단정을 하지 않는다. ChatGPT Work도 파일 접근을 제공할 수 있으나 이 장의 경로는 Codex다.
-- **Transition:** “이제 사람과 Agent가 같은 Repository를 볼 수 있습니다. 그중 무엇을 함께 보고, 무엇을 사람이 최종 결정해야 할까요?”라고 S14를 연다.
+- **Speaker Intent:** 1분 안에 ChatGPT 메뉴의 Codex 선택과 프로젝트 폴더 연결을 짚고 조사 요청으로 끝낸다. 공식 문서 확인과 실제 화면 확인을 구분하고, “개발 프로젝트 접근은 오직 Codex만 가능하다”는 보편 단정을 하지 않는다. ChatGPT Work도 파일 접근을 제공할 수 있으나 이 장의 경로는 Codex다.
+- **Transition:** “이제 사람과 Agent가 같은 개발 프로젝트를 볼 수 있습니다. 그중 무엇을 함께 보고, 무엇을 사람이 최종 결정해야 할까요?”라고 S14를 연다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** BEAT-003, DEC-0036, CLM-0031, SRC-0228, SRC-0229; OpenAI [Quickstart](https://learn.chatgpt.com/docs/quickstart?setup=app), [App](https://learn.chatgpt.com/docs/app), 2026-10-21 확인. 현재 제품·계정·Windows 재확인 Gate 유지., DEC-0087
@@ -398,22 +398,22 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Audience Footer:** 메뉴 예시
 
 
-#### S14 — Repository 접근과 Task 의도는 별개다
+#### S14 — 프로젝트를 봐도, 원하는 작업은 따로 정한다
 
 - **Slide ID:** S14
 - **ACT:** ACT 0
 - **Section:** 0E
-- **Working Title:** Repository 접근과 Task 의도는 별개다
+- **Working Title:** 프로젝트를 봐도, 원하는 작업은 따로 정한다
 - **Primary Role:** 초급자·숙련자 Insight 연결
-- **Audience Question:** “Repository를 볼 수 있으면 원하는 작업도 알게 되는가?”
-- **Core Message:** 사람과 AI Agent는 허용된 Repository의 코드·명세·테스트를 함께 살펴볼 수 있다. 원하는 결과, 허용 범위와 완료 수락의 최종 결정·책임은 사람에게 있으며 AI는 조사와 제안을 도울 수 있다.
+- **Audience Question:** “개발 프로젝트를 볼 수 있으면 원하는 작업도 알게 되는가?”
+- **Core Message:** 사람과 AI Agent는 허용된 개발 프로젝트의 코드·명세·테스트를 함께 살펴볼 수 있다. 원하는 결과, 허용 범위와 완료 수락의 최종 결정·책임은 사람에게 있으며 AI는 조사와 제안을 도울 수 있다.
 - **Story Beat:** BEAT-003의 다음 Friction
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; 과정의 Mental Model이며 모든 제품·환경의 기능 주장 아님
-- **Visual Concept:** `Repository Access ≠ Task Intent` 아래 두 영역을 병렬 배치한다. `볼 수 있는 것 — 코드·명세·테스트`에는 사람+AI Agent 아이콘을, `정해야 하는 것 — 목표·범위·완료 수락`에는 사람 아이콘과 “최종 결정·책임”을 표시한다. AI의 제안 가능성을 작은 보조 문구로 남겨 AI가 추론할 수 없다는 의미가 되지 않게 한다. 아이콘은 교육용 표현이며 실제 제품 UI가 아니다.
+- **Visual Concept:** `프로젝트 파일 접근 ≠ 작업 의도` 아래 두 영역을 병렬 배치한다. `볼 수 있는 것 — 코드·명세·테스트`에는 사람+AI Agent 아이콘을, `정해야 하는 것 — 목표·범위·완료 수락`에는 사람 아이콘과 “최종 결정·책임”을 표시한다. AI의 제안 가능성을 작은 보조 문구로 남겨 AI가 추론할 수 없다는 의미가 되지 않게 한다. 아이콘은 교육용 표현이며 실제 제품 UI가 아니다.
 - **Demo / Case Connection:** DEMO-01 성공 뒤 남는 문제
-- **Beginner Payoff:** Repository 접근을 주더라도 무엇을 원하는지 설명해야 함을 이해한다.
+- **Beginner Payoff:** 개발 프로젝트 접근을 주더라도 무엇을 원하는지 설명해야 함을 이해한다.
 - **Advanced Payoff:** Context 탐색과 목표·판단 책임을 서로 다른 역할로 본다.
 - **C++ Vision Bridge:** 없음
 - **Speaker Intent:** 사람과 Agent가 함께 볼 수 있는 정보와 사람이 최종 승인·책임지는 판단을 아이콘으로 구분한다. AI도 목표·범위·검증안을 제안할 수 있음을 인정하되 의뢰자의 의도와 완료 수락이 자동 확정된다고 말하지 않는다. S13의 제품 진입과 S15의 개인 적용 질문 사이에서 책임 경계만 2분 안에 정리한다.
@@ -424,15 +424,15 @@ ACT5 초반은 대응 선택→실제 제품 이력의 경계→구성 보류 �
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 
-#### S15 — Repository를 보면 내가 원하는 것까지 알까?
+#### S15 — 프로젝트를 보면 내가 원하는 것까지 알까?
 
 - **Slide ID:** S15
 - **ACT:** ACT 0
 - **Section:** 0F
-- **Working Title:** Repository를 보면 내가 원하는 것까지 알까?
+- **Working Title:** 프로젝트를 보면 내가 원하는 것까지 알까?
 - **Primary Role:** Discussion 및 ACT 전환
-- **Audience Question:** “Repository를 볼 수 있으면 내가 원하는 것까지 알 수 있을까?”
-- **Core Message:** Repository를 볼 수 있다는 사실만으로 Task의 의도가 정해지지는 않는다.
+- **Audience Question:** “프로젝트를 볼 수 있으면 내가 원하는 것까지 알 수 있을까?”
+- **Core Message:** 개발 프로젝트를 볼 수 있다는 사실만으로 Task의 의도가 정해지지는 않는다.
 - **Story Beat:** BEAT-003 → BEAT-004 전환
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.; ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL

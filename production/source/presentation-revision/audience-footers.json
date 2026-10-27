@@ -76,7 +76,7 @@
     },
     "S10": {
       "lines": [
-        "Repository 접근과 실행 권한은 별개"
+        "프로젝트 파일 접근과 실행 권한은 별개"
       ],
       "originalLines": [
         "TEACHING MODEL · TRIAL-001에서 살펴본 정보를 묶은 교육용 도식",
