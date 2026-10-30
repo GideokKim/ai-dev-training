@@ -1,5 +1,35 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 실무 Prompt 도구 최신화 — DEC-0116 (2026-10-30)
+
+S28–S35를 핵심5개/조건부3개와 구체적 사용 상황으로 정리했다. S29는 가상 팀의
+보고 기준 예시이며 실제 사내 규정·실행 결과가 아니다. 본문 글자 크기를 확대하고
+Notes·기획·최신 근거를 정렬했다.120장·417분, 모든 ID·시간/Mode·기존 Trial은 같다.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT1](../ACT_1.pptx),
+[S29](../preview/full/S29.png), [현재 검토](PROMPT_METHODS_REVISION.md),
+[최신 근거](../../references/product/PROMPT_ENGINEERING_2026-10-30.md),
+[기획](../../plan/PROMPT_ENGINEERING_ADDITION.md), [사용자 검증](USER_VALIDATION_CHECKLIST.md).
+
+최종143PNG·내장 Notes를 대조했다. 나머지112장 화면/Notes와 다른5개 ACT PPT,
+미디어·표·차트·관계·워크북은 보존했다. 수정8장 로컬 시각 검사에서 잘림·겹침을 발견하지 않았다.
+Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Demo·Sites·묶음은 그대로다.
+아래 이전 검증·해시·기획은 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `11b4b594e7b1e1cd231ef4870a5a067a0cfb6a58bb208ea9ec55ebb5538b535a` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `8f08e46d92b2b25b8912c4f769a2870b5e8f8065ded6f75f6bf64eabc9fe0903` |
+| `production/ACT_2.pptx` | `5fcb9eab64d34d4daf70a14d6ecf54ad277fa78b3e81212beb1b8adc3dbd9398` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `96103c384f80f69a308a6dd464280e5a8645c17a02e5498a55e3b23ee014d4d9` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `3468fd306b716c7e601d90c02291ac495ced551e0241baf25ed5068a77282300` |
+| `production/preview/full/montage.png` | `10c2e46f26243f5ffda16fb0b4943efa059c06b04d42762eddfa7a55867d997c` |
+
+## 보존된 이전 전달 기록
+
 ## Prompt→Context 연결 — DEC-0115 (2026-10-30)
 
 120장·417분과 모든 시간/Mode/ID·기존 근거는 유지한다. S36은 반복 기준 발견,

@@ -1232,3 +1232,24 @@ No-edit instructions are not an independent permission boundary. One-off
 delegation does not require a custom role file. Preserve the actual Demo's
 NOT JUSTIFIED YET decision, all original evidence and every ACT4 allocation.
 Current old S74–S79 feedback bridge maps to S76–S81 without changed content.
+
+
+## DEC-0116 — Current prompt-tool usage boundaries (2026-10-30)
+
+Current S28–S35 reuse CLM-0032–0039. Recheck SRC-0230–0235 and add SRC-0243
+for model-specific instruction reassessment. See
+[latest evidence](../references/product/PROMPT_ENGINEERING_2026-10-30.md).
+The classification of five core and three conditional tools is an approved
+teaching choice, not a measured efficacy ranking. Do not claim all current
+models need the same scaffolding or none of it. The Astra guidance is
+model/workload-specific; do not import GPT-5.6 percentages from its separate
+section as a current GPT-6 or course result.
+
+S29's team labels are fictional examples, not actual company policy or
+execution evidence. Keep zero-shot-first and add aligned examples only
+when needed. S30 chat format is distinct from API Structured Outputs.
+S31 citations require source checking. S32 investigates facts and asks about
+material decisions. S33 is a plan/deliverable boundary, not hidden thought
+output. S34 review is not independent proof and checks fit the change.
+S35's prior proposal is fictional and iteration does not prove improvement.
+No new Trial, C++ run, token/time saving or current-account validation.

@@ -1,23 +1,20 @@
 # Static Fallback Manifest
 
-Current: DEC-0115 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
-Retain44reference roles and evidence classes. Replace former S26/S27,
-remove former S28 and shift former S29-S121 by one. Keep five minutes.
-Both new goal-specific request examples are teaching material, not actual
-Trial input or new benchmark results. Optional C++ assertions stay in Notes.
+Current: DEC-0116 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Retain44reference roles, evidence classes and paths. Refresh S28-S35 as
+five core and three conditional prompt tools. Fictional team conventions
+are teaching examples, not actual company rules or Trial results.
 Live/Hybrid is not approved. Windows, account, room and timed rehearsal
-remain UNVERIFIED.
-
-2026-10-30: clarify the Prompt-to-Context handoff. Change only the S37/S39
-questions and align S36-S42 Notes. No new Trial or Live approval.
+remain UNVERIFIED. Prior numbering and handoff revisions remain preserved
+in the reports and source history.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`b025ac947b1684c075a1f3386241e22d645079da2e8c56183973357f7a2bd09f`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`bef154d064546c21488727e6e114bc15e611eacb2d477d44383301b408f9dbc6`.
-- `production/preview/full/montage.png` SHA-256:`99fd655d8cb5c9f595431401d40ac7389cb6688f5b297dd8e93626efbe8eabb4`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`11b4b594e7b1e1cd231ef4870a5a067a0cfb6a58bb208ea9ec55ebb5538b535a`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`3468fd306b716c7e601d90c02291ac495ced551e0241baf25ed5068a77282300`.
+- `production/preview/full/montage.png` SHA-256:`10c2e46f26243f5ffda16fb0b4943efa059c06b04d42762eddfa7a55867d997c`.
 
-[Current revision](../../production/evaluation/PROMPT_CONTEXT_HANDOFF_REVISION.md),
+[Current revision](../../production/evaluation/PROMPT_METHODS_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |

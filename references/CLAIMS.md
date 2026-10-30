@@ -187,3 +187,16 @@ completion rate, costs or selected models. The exact model pair is TBD.
 |---|---|---|---|---|
 | CLM-0046 | Official guidance describes /goal as a persistent objective with evidence-based continuation and lifecycle controls. | SRC-0240/0241/0242 | S99 | Documented function; target-account operation, automatic cross-model review and guaranteed completion are not established |
 | CLM-0047 | Goals should name an outcome, verification evidence and constraints; blocked/completion conditions can be made explicit. | SRC-0240/0241 | S100 | Course request adaptation; no activation, test result or measured benefit |
+
+
+## DEC-0116 — Current practical prompt-tool interpretation (2026-10-30)
+
+CLM-0032–0039 retain their meanings and are rechecked as documented
+recommendations only. Current mapping: S28 delimiters; S29 aligned examples;
+S30 output; S31 evidence/unknown; S32 material clarification; S33 planning;
+S34 criteria review; S35 concrete feedback. Earlier S22–S29 references above
+are historical. See [current evidence](product/PROMPT_ENGINEERING_2026-10-30.md).
+SRC-0243 adds model-specific caution about inherited scaffolding, review
+scope and decision boundaries. The five-core/three-conditional split is a
+teaching choice, not a new efficacy claim. S29 uses fictional team labels;
+no actual company rule, Trial, executed result or measured saving is added.

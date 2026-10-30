@@ -1438,3 +1438,27 @@ Key Evidence: Documents app /goal input and progress-row controls to pause/resum
 Limitations: Do not substitute CLI lifecycle subcommands for desktop buttons or imply general web availability.
 Volatility:HIGH
 Notes: DEC-0098; S99/S100; documented guidance adapted, no activation/Trial.
+
+
+## DEC-0116 — Prompt-tool source recheck (2026-10-30)
+
+Rechecked SRC-0230–0235 by opening the official page bodies. The retained
+IDs identify the same pages. Their earlier2026-10-21 records remain history.
+Current S28–S35 use CLM-0032–0039. Section selectors, applicability and
+model-specific limits are recorded in
+[the current matrix](../product/PROMPT_ENGINEERING_2026-10-30.md).
+No prompt comparison or target-account operation was run.
+
+### SRC-0243
+
+Title: Rethinking skills and prompts for GPT-6 Astra
+Organization / Authors: OpenAI / Eric Provencher
+Source Type: OFFICIAL_GUIDANCE
+URL: https://learn.chatgpt.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra
+Published:2026-09-11
+Checked:2026-10-30
+Tier:1 — first-party author guidance
+Sections / Selectors: Better skills; Up-to-date AGENTS.md; Decision boundaries; Persistence
+Key Evidence: Revisit inherited recipes and broad checking requirements; define action, completion and stopping bounds for the selected task/model.
+Limitations: Model-specific guidance, not a controlled comparison or universal benefit from shorter prompts. No course result or numeric saving.
+Notes: DEC-0116; S32/S33/S34 interpretation and the prompt-tool design rationale. Five-core/three-conditional labels are editorial choices.

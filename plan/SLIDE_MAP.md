@@ -717,25 +717,26 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 1
 - **Section:** 1H Practical Prompt Methods
 - **Working Title:** 지시와 참고 자료의 구분
-- **Primary Role:** 로그·명세·요청이 섞여 있을 때 활용할 요청 문장을 독립적인 참고 예시로 소개한다.
-- **Audience Question:** “로그·명세·요청이 섞여 있을 때, 어떻게 요청하면 될까?”
-- **Core Message:** 제목과 태그로 지시와 분석 자료의 경계를 표시한다.
+- **Primary Role:** 조건부 도구. 요청과 로그·명세가 한 메시지에 섞일 때 활용할 요청 문장과 선택 기준을 소개한다.
+- **Audience Question:** “요청과 로그·명세가 한 메시지에 섞일 때, 어떻게 요청하면 될까?”
+- **Core Message:** 여러 자료가 섞일 때, 제목으로 읽을 경계를 표시한다.
 - **Story Beat:** BEAT-005, BEAT-007 — specified intent and completion evidence; no new product-history event.
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN WITH SCOPE — CLM-0032; 2026-10-21 공식 권고의 존재를 확인했다. 예시는 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench에서 사용 상황·native Prompt 예시·두 활용 cue·핵심 메시지·출처와 한계를 배치한다. 예시 원문은 PROMPT_ENGINEERING_ADDITION.md를 따른다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 요청 작성”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
-- **Demo / Case Connection:** 기존 crop 명세 또는 제조 검사 pipeline의 교육용 요청이다. 실제 TRIAL-002 입력·새 실행이 아니다.
+- **Claim Status:** FROZEN WITH SCOPE — CLM-0032; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
+- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
-- **Advanced Payoff:** 구획은 읽을 경계를 알리는 수단입니다. 보안 격리나 자료의 진위를 보장하지 않습니다.
+- **Advanced Payoff:** 구획은 해석을 돕는 표시이며, 보안 격리를 보장하지 않는다.
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 핵심과 요청 두세 행만 짚는다. 전문 낭독·실습·예시 실행은 하지 않는다. 필요한 기법만 선택하는 문장 도구다.
-- **Transition:** 다음은 입력과 기대 결과의 작은 예시의 활용 상황을 본다.
+- **Speaker Intent:** 구획의 존재보다 지시와 참고 자료의 역할을 구분한다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Transition:** 자료의 구획 다음에는, 모델이 모르는 팀 고유 표기를 예시로 알려주는 S29로 이동한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0032, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
+- **Evidence / Decision References:** CLM-0032, SRC-0230, SRC-0231, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 구획은 보안 격리가 아니다
+- **Audience Footer:** 구획은 해석을 돕는 표시이며, 보안 격리를 보장하지 않는다.
+- **Prompt Tool Priority:** 조건부 — 명시한 상황이 있을 때만 추가한다.
 
 #### S29 — 입력과 기대 결과의 작은 예시
 
@@ -743,25 +744,26 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 1
 - **Section:** 1H Practical Prompt Methods
 - **Working Title:** 입력과 기대 결과의 작은 예시
-- **Primary Role:** 범위·출력 패턴의 뜻이 엇갈릴 때 활용할 요청 문장을 독립적인 참고 예시로 소개한다.
-- **Audience Question:** “범위·출력 패턴의 뜻이 엇갈릴 때, 어떻게 요청하면 될까?”
-- **Core Message:** 설명만으로 부족할 때 입력과 원하는 결과를 함께 준다.
+- **Primary Role:** 조건부 도구. 사내 고유 표기·분류가 설명만으로 안 맞을 때 활용할 요청 문장과 선택 기준을 소개한다.
+- **Audience Question:** “사내 고유 표기·분류가 설명만으로 안 맞을 때, 어떻게 요청하면 될까?”
+- **Core Message:** 모델이 모르는 우리 기준을 입력·출력 예시로 전달한다.
 - **Story Beat:** BEAT-005, BEAT-007 — specified intent and completion evidence; no new product-history event.
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN WITH SCOPE — CLM-0033; 2026-10-21 공식 권고의 존재를 확인했다. 예시는 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench에서 사용 상황·native Prompt 예시·두 활용 cue·핵심 메시지·출처와 한계를 배치한다. 예시 원문은 PROMPT_ENGINEERING_ADDITION.md를 따른다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 요청 작성”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
-- **Demo / Case Connection:** 기존 crop 명세 또는 제조 검사 pipeline의 교육용 요청이다. 실제 TRIAL-002 입력·새 실행이 아니다.
+- **Claim Status:** FROZEN WITH SCOPE — CLM-0033; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
+- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Demo / Case Connection:** 가상 팀 변경 보고 표기를 전달하는 교육용 예시다. 실제 사내 규정·정책·실행 결과 또는 TRIAL-002 원문이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
-- **Advanced Payoff:** 예시와 명세를 일치시킵니다. 예시 몇 개가 모든 경계 조건의 명세를 대신하지 않습니다.
-- **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 핵심과 요청 두세 행만 짚는다. 전문 낭독·실습·예시 실행은 하지 않는다. 필요한 기법만 선택하는 문장 도구다.
-- **Transition:** 다음은 바로 검토할 수 있는 결과 형식의 활용 상황을 본다.
+- **Advanced Payoff:** 가상 팀의 보고 기준 · 실제 사내 규정이나 실행 결과가 아님
+- **C++ Vision Bridge:** 검사 업무의 변경 보고에 적용할 수 있는 가상 팀 표기 예시다. 실제 회사 규정·C++ 실행·오류 정책을 추가하지 않는다.
+- **Speaker Intent:** 예시를 먼저 쌓지 않고 간단한 요청이 부족할 때 추가한다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Transition:** 예시가 필요한 상황을 확인했다. 다음 S30에서는 보고 전체의 항목과 읽을 순서를 정한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Case 1분 = 1분
-- **Evidence / Decision References:** CLM-0033, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
+- **Evidence / Decision References:** CLM-0033, SRC-0230, SRC-0231, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 예시는 전체 명세를 대신하지 않는다
+- **Audience Footer:** 가상 팀의 보고 기준 · 실제 사내 규정이나 실행 결과가 아님
+- **Prompt Tool Priority:** 조건부 — 명시한 상황이 있을 때만 추가한다.
 
 #### S30 — 바로 검토할 수 있는 결과 형식
 
@@ -769,25 +771,26 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 1
 - **Section:** 1H Practical Prompt Methods
 - **Working Title:** 바로 검토할 수 있는 결과 형식
-- **Primary Role:** 장황한 답을 다시 가공하게 될 때 활용할 요청 문장을 독립적인 참고 예시로 소개한다.
-- **Audience Question:** “장황한 답을 다시 가공하게 될 때, 어떻게 요청하면 될까?”
-- **Core Message:** 받고 싶은 항목과 길이를 요청에 적는다.
+- **Primary Role:** 핵심 도구. 완료 보고에서 필요한 정보를 빨리 찾고 싶을 때 활용할 요청 문장과 선택 기준을 소개한다.
+- **Audience Question:** “완료 보고에서 필요한 정보를 빨리 찾고 싶을 때, 어떻게 요청하면 될까?”
+- **Core Message:** 검토에 필요한 항목을 지정하고, 중요한 근거는 남긴다.
 - **Story Beat:** BEAT-005, BEAT-007 — specified intent and completion evidence; no new product-history event.
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN WITH SCOPE — CLM-0034; 2026-10-21 공식 권고의 존재를 확인했다. 예시는 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench에서 사용 상황·native Prompt 예시·두 활용 cue·핵심 메시지·출처와 한계를 배치한다. 예시 원문은 PROMPT_ENGINEERING_ADDITION.md를 따른다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 요청 작성”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
-- **Demo / Case Connection:** 기존 crop 명세 또는 제조 검사 pipeline의 교육용 요청이다. 실제 TRIAL-002 입력·새 실행이 아니다.
+- **Claim Status:** FROZEN WITH SCOPE — CLM-0034; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
+- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
-- **Advanced Payoff:** 형식이 맞아도 내용은 확인해야 합니다. 채팅의 형식 요청은 API Structured Outputs와 별개입니다.
+- **Advanced Payoff:** 형식과 내용은 별도 확인 · 채팅의 형식 요청은 API Structured Outputs와 다름
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 핵심과 요청 두세 행만 짚는다. 전문 낭독·실습·예시 실행은 하지 않는다. 필요한 기법만 선택하는 문장 도구다.
-- **Transition:** 다음은 근거가 있는 설명과 미확인의 구분의 활용 상황을 본다.
+- **Speaker Intent:** 기계적인 문장 수 제한보다 필요한 보고 항목을 정한다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Transition:** 보고 항목이 있어도 설명의 근거는 따로 확인한다. S31에서 중요한 판단을 자료와 연결한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0034, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
+- **Evidence / Decision References:** CLM-0034, SRC-0233, SRC-0234, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 형식과 내용은 별도 검증 · 채팅의 형식 요청과 API 기능은 별개
+- **Audience Footer:** 형식과 내용은 별도 확인 · 채팅의 형식 요청은 API Structured Outputs와 다름
+- **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
 
 #### S31 — 근거가 있는 설명과 미확인의 구분
 
@@ -795,25 +798,26 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 1
 - **Section:** 1H Practical Prompt Methods
 - **Working Title:** 근거가 있는 설명과 미확인의 구분
-- **Primary Role:** 저장소 설명의 출처를 확인해야 할 때 활용할 요청 문장을 독립적인 참고 예시로 소개한다.
-- **Audience Question:** “저장소 설명의 출처를 확인해야 할 때, 어떻게 요청하면 될까?”
-- **Core Message:** 결론에 자료 위치를 붙이고, 확인하지 못한 것은 남긴다.
+- **Primary Role:** 핵심 도구. 설명을 믿기 전에 실제 자료를 대조해야 할 때 활용할 요청 문장과 선택 기준을 소개한다.
+- **Audience Question:** “설명을 믿기 전에 실제 자료를 대조해야 할 때, 어떻게 요청하면 될까?”
+- **Core Message:** 중요한 판단에 근거를 받고, 추정·미확인은 구분한다.
 - **Story Beat:** BEAT-005, BEAT-007 — specified intent and completion evidence; no new product-history event.
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN WITH SCOPE — CLM-0035; 2026-10-21 공식 권고의 존재를 확인했다. 예시는 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench에서 사용 상황·native Prompt 예시·두 활용 cue·핵심 메시지·출처와 한계를 배치한다. 예시 원문은 PROMPT_ENGINEERING_ADDITION.md를 따른다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 요청 작성”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
-- **Demo / Case Connection:** 기존 crop 명세 또는 제조 검사 pipeline의 교육용 요청이다. 실제 TRIAL-002 입력·새 실행이 아니다.
+- **Claim Status:** FROZEN WITH SCOPE — CLM-0035; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
+- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
-- **Advanced Payoff:** 파일·줄 인용도 실제 내용과 대조합니다. 인용이 있다는 사실만으로 정확성이 보장되지는 않습니다.
+- **Advanced Payoff:** 출처가 있어도 원문과 대조한다 · 인용 자체가 정확성의 보증은 아님
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 핵심과 요청 두세 행만 짚는다. 전문 낭독·실습·예시 실행은 하지 않는다. 필요한 기법만 선택하는 문장 도구다.
-- **Transition:** 다음은 결과를 바꾸는 결정에서 확인 질문의 활용 상황을 본다.
+- **Speaker Intent:** S30의 보고 형식과 달리 여기서는 판단을 뒷받침하는 자료를 다룬다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Transition:** 자료를 찾아도 정책이 없다면 사람이 선택해야 한다. S32에서 질문할 결정의 범위를 본다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0035, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
+- **Evidence / Decision References:** CLM-0035, SRC-0230, SRC-0234, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 인용도 실제 내용과 대조한다
+- **Audience Footer:** 출처가 있어도 원문과 대조한다 · 인용 자체가 정확성의 보증은 아님
+- **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
 
 #### S32 — 결과를 바꾸는 결정에서 확인 질문
 
@@ -821,25 +825,26 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 1
 - **Section:** 1H Practical Prompt Methods
 - **Working Title:** 결과를 바꾸는 결정에서 확인 질문
-- **Primary Role:** 정책을 사람이 선택해야 할 때 활용할 요청 문장을 독립적인 참고 예시로 소개한다.
-- **Audience Question:** “정책을 사람이 선택해야 할 때, 어떻게 요청하면 될까?”
-- **Core Message:** 조사할 사실과 답을 받아야 할 결정을 구분한다.
+- **Primary Role:** 핵심 도구. 사람의 선택에 따라 구현이나 완료 기준이 바뀔 때 활용할 요청 문장과 선택 기준을 소개한다.
+- **Audience Question:** “사람의 선택에 따라 구현이나 완료 기준이 바뀔 때, 어떻게 요청하면 될까?”
+- **Core Message:** 조사할 사실은 찾게 하고, 결과를 바꾸는 결정은 묻는다.
 - **Story Beat:** BEAT-005, BEAT-007 — specified intent and completion evidence; no new product-history event.
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN WITH SCOPE — CLM-0036; 2026-10-21 공식 권고의 존재를 확인했다. 예시는 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench에서 사용 상황·native Prompt 예시·두 활용 cue·핵심 메시지·출처와 한계를 배치한다. 예시 원문은 PROMPT_ENGINEERING_ADDITION.md를 따른다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 요청 작성”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
-- **Demo / Case Connection:** 기존 crop 명세 또는 제조 검사 pipeline의 교육용 요청이다. 실제 TRIAL-002 입력·새 실행이 아니다.
+- **Claim Status:** FROZEN WITH SCOPE — CLM-0036; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
+- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
-- **Advanced Payoff:** 모든 세부를 질문으로 돌리지 않습니다. 답에 따라 결과가 달라지는 선택에 집중합니다.
+- **Advanced Payoff:** 모든 세부를 질문하지 않는다 · 결정과 무관한 허용된 작업은 계속 진행
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 핵심과 요청 두세 행만 짚는다. 전문 낭독·실습·예시 실행은 하지 않는다. 필요한 기법만 선택하는 문장 도구다.
-- **Transition:** 다음은 큰 작업을 검토할 결과물로 나누기의 활용 상황을 본다.
+- **Speaker Intent:** 조사 가능한 사실을 모두 사람에게 되묻지 않도록 범위를 정한다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Transition:** 사람의 결정이 필요한 변경은 구현 전에 검토할 계획을 받을 수 있다. S33에서 그 사용 조건을 본다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0036, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
+- **Evidence / Decision References:** CLM-0036, SRC-0234, SRC-0235, SRC-0243, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 결과가 달라지는 선택에 집중해 질문한다
+- **Audience Footer:** 모든 세부를 질문하지 않는다 · 결정과 무관한 허용된 작업은 계속 진행
+- **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
 
 #### S33 — 큰 작업을 검토할 결과물로 나누기
 
@@ -847,25 +852,26 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 1
 - **Section:** 1H Practical Prompt Methods
 - **Working Title:** 큰 작업을 검토할 결과물로 나누기
-- **Primary Role:** 조사 결과에 따라 구현 범위가 달라질 때 활용할 요청 문장을 독립적인 참고 예시로 소개한다.
-- **Audience Question:** “조사 결과에 따라 구현 범위가 달라질 때, 어떻게 요청하면 될까?”
-- **Core Message:** 다음 결정을 할 수 있는 작은 결과부터 요청한다.
+- **Primary Role:** 조건부 도구. 조사 결과를 보고 구현 범위를 결정해야 할 때 활용할 요청 문장과 선택 기준을 소개한다.
+- **Audience Question:** “조사 결과를 보고 구현 범위를 결정해야 할 때, 어떻게 요청하면 될까?”
+- **Core Message:** 중간 판단이 필요한 작업은, 구현 전에 검토할 계획을 받는다.
 - **Story Beat:** BEAT-005, BEAT-007 — specified intent and completion evidence; no new product-history event.
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN WITH SCOPE — CLM-0037; 2026-10-21 공식 권고의 존재를 확인했다. 예시는 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench에서 사용 상황·native Prompt 예시·두 활용 cue·핵심 메시지·출처와 한계를 배치한다. 예시 원문은 PROMPT_ENGINEERING_ADDITION.md를 따른다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 요청 작성”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
-- **Demo / Case Connection:** 기존 crop 명세 또는 제조 검사 pipeline의 교육용 요청이다. 실제 TRIAL-002 입력·새 실행이 아니다.
+- **Claim Status:** FROZEN WITH SCOPE — CLM-0037; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
+- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
-- **Advanced Payoff:** 단계는 작업·산출물의 경계입니다. 숨은 사고 과정을 길게 출력하라는 요청이 아닙니다.
+- **Advanced Payoff:** 작업 계획과 검토 지점을 요청한다 · 내부 사고 과정의 출력을 요구하지 않음
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 핵심과 요청 두세 행만 짚는다. 전문 낭독·실습·예시 실행은 하지 않는다. 필요한 기법만 선택하는 문장 도구다.
-- **Transition:** 다음은 기준을 지정한 코드 리뷰 요청의 활용 상황을 본다.
+- **Speaker Intent:** 큰 작업이라는 이유만으로 잘게 나누거나 승인 단계를 늘리지 않는다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Transition:** 계획 뒤의 변경안에서 무엇을 중점 검토할지 S34로 연결한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0037, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
+- **Evidence / Decision References:** CLM-0037, SRC-0231, SRC-0232, SRC-0243, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 없음 — M 연계 표시는 유지
+- **Audience Footer:** 작업 계획과 검토 지점을 요청한다 · 내부 사고 과정의 출력을 요구하지 않음
+- **Prompt Tool Priority:** 조건부 — 명시한 상황이 있을 때만 추가한다.
 
 #### S34 — 기준을 지정한 코드 리뷰 요청
 
@@ -873,25 +879,26 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 1
 - **Section:** 1H Practical Prompt Methods
 - **Working Title:** 기준을 지정한 코드 리뷰 요청
-- **Primary Role:** “검토해줘”의 범위를 분명히 할 때 활용할 요청 문장을 독립적인 참고 예시로 소개한다.
-- **Audience Question:** ““검토해줘”의 범위를 분명히 할 때, 어떻게 요청하면 될까?”
-- **Core Message:** 무엇을 찾을지와 어떤 근거로 보고할지를 지정한다.
+- **Primary Role:** 핵심 도구. 변경안에서 놓치면 안 될 문제를 검토할 때 활용할 요청 문장과 선택 기준을 소개한다.
+- **Audience Question:** “변경안에서 놓치면 안 될 문제를 검토할 때, 어떻게 요청하면 될까?”
+- **Core Message:** 검토 기준과 실패 조건을 지정하고, 실제 검사와 구분한다.
 - **Story Beat:** BEAT-005, BEAT-007 — specified intent and completion evidence; no new product-history event.
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN WITH SCOPE — CLM-0038; 2026-10-21 공식 권고의 존재를 확인했다. 예시는 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench에서 사용 상황·native Prompt 예시·두 활용 cue·핵심 메시지·출처와 한계를 배치한다. 예시 원문은 PROMPT_ENGINEERING_ADDITION.md를 따른다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 요청 작성”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
-- **Demo / Case Connection:** 기존 crop 명세 또는 제조 검사 pipeline의 교육용 요청이다. 실제 TRIAL-002 입력·새 실행이 아니다.
+- **Claim Status:** FROZEN WITH SCOPE — CLM-0038; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
+- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
-- **Advanced Payoff:** 리뷰 답변도 누락할 수 있습니다. 필요한 실행 확인·변경 검토·사람의 완료 판단을 함께 사용합니다.
+- **Advanced Payoff:** 리뷰에도 누락이 있을 수 있다 · 실행 근거와 사람의 완료 판단을 함께 확인
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 핵심과 요청 두세 행만 짚는다. 전문 낭독·실습·예시 실행은 하지 않는다. 필요한 기법만 선택하는 문장 도구다.
-- **Transition:** 다음은 구체적인 근거로 수정 방향 피드백의 활용 상황을 본다.
+- **Speaker Intent:** S31은 설명 근거, S34는 변경안의 위반 검토다. 문제 개수를 억지로 채우지 않는다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Transition:** 첫 제안이나 리뷰에서 요구와 다른 지점을 알았다면, S35에서 근거와 수정 범위를 전달한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0038, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087
+- **Evidence / Decision References:** CLM-0038, SRC-0232, SRC-0235, SRC-0243, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 리뷰 결과도 검증한다
+- **Audience Footer:** 리뷰에도 누락이 있을 수 있다 · 실행 근거와 사람의 완료 판단을 함께 확인
+- **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
 
 #### S35 — 구체적인 근거로 수정 방향 피드백
 
@@ -899,25 +906,26 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 1
 - **Section:** 1H Practical Prompt Methods
 - **Working Title:** 구체적인 근거로 수정 방향 피드백
-- **Primary Role:** 첫 제안의 일부가 의도와 다를 때 활용할 요청 문장을 독립적인 참고 예시로 소개한다.
-- **Audience Question:** “첫 제안의 일부가 의도와 다를 때, 어떻게 요청하면 될까?”
-- **Core Message:** 어긋난 지점과 원하는 변경, 유지할 조건을 적는다.
+- **Primary Role:** 핵심 도구. 첫 제안의 어떤 부분이 요구와 다른지 알 때 활용할 요청 문장과 선택 기준을 소개한다.
+- **Audience Question:** “첫 제안의 어떤 부분이 요구와 다른지 알 때, 어떻게 요청하면 될까?”
+- **Core Message:** 어긋난 지점·기대 결과·유지할 조건으로 방향을 고친다.
 - **Story Beat:** BEAT-005, BEAT-007 — specified intent and completion evidence; no new product-history event.
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
-- **Claim Status:** FROZEN WITH SCOPE — CLM-0039; 2026-10-21 공식 권고의 존재를 확인했다. 예시는 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench에서 사용 상황·native Prompt 예시·두 활용 cue·핵심 메시지·출처와 한계를 배치한다. 예시 원문은 PROMPT_ENGINEERING_ADDITION.md를 따른다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 요청 작성”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
-- **Demo / Case Connection:** 기존 crop 명세 또는 제조 검사 pipeline의 교육용 요청이다. 실제 TRIAL-002 입력·새 실행이 아니다.
+- **Claim Status:** FROZEN WITH SCOPE — CLM-0039; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
+- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
-- **Advanced Payoff:** 앞선 제안은 가상 예시입니다. 원하는 답만 반복시키지 말고 명세와 실제 근거로 방향을 고칩니다.
+- **Advanced Payoff:** 앞선 제안은 가상 예시 · 반복 요청만으로 품질 향상을 보장하지 않음
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 핵심과 요청 두세 행만 짚는다. 전문 낭독·실습·예시 실행은 하지 않는다. 필요한 기법만 선택하는 문장 도구다.
-- **Transition:** “요청을 구체화해도 다음 작업에 다시 적게 될 문장이 있습니다. 같은 crop 요청에서 찾아볼까요?”라고 S36로 연결한다.
+- **Speaker Intent:** 고친 요청에도 다음 작업에 다시 적을 공통 조건이 남는지 S36으로 연결한다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Transition:** 요청을 구체화해도 다음 작업에 다시 적을 조건이 남습니다. S36에서 같은 crop 요청을 보며 찾아봅니다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0039, DEC-0043, references/product/PROMPT_ENGINEERING_2026-10-21.md, DEC-0087, DEC-0113
+- **Evidence / Decision References:** CLM-0039, SRC-0234, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 명세와 실제 근거로 피드백한다
+- **Audience Footer:** 앞선 제안은 가상 예시 · 반복 요청만으로 품질 향상을 보장하지 않음
+- **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
 
 #### S36 — 다음 작업에도 이 내용을 다시 적어야 할까?
 

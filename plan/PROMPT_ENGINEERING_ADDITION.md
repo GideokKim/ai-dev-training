@@ -1,5 +1,175 @@
 # ACT 1 — Practical Prompt Engineering Addition
 
+## Current approved content — DEC-0116 (2026-10-30)
+
+Use the current S28–S35 mapping below. Historical S22–S29/90-slide entries
+remain below as the DEC-0043 edition. Do not renumber the source factories.
+
+The eight slides retain one minute each, with Case1 on S29 and Lecture7
+on the others. ACT1 remains23slides/64minutes; the deck remains120/417.
+Five core tools set teaching emphasis, not a mandatory prompt checklist.
+Three conditional tools apply only when their named trigger is present.
+No new Trial, comparison, performance saving or product verification.
+
+| Current slide | Class | Method | Use condition | Claim |
+|---|---|---|---|---|
+| S28 | 조건부 | Delimiters | 요청과 로그·명세가 한 메시지에 섞일 때 | CLM-0032 |
+| S29 | 조건부 | Few-shot examples | 사내 고유 표기·분류가 설명만으로 안 맞을 때 | CLM-0033 |
+| S30 | 핵심 | Output format | 완료 보고에서 필요한 정보를 빨리 찾고 싶을 때 | CLM-0034 |
+| S31 | 핵심 | Grounding | 설명을 믿기 전에 실제 자료를 대조해야 할 때 | CLM-0035 |
+| S32 | 핵심 | Clarification | 사람의 선택에 따라 구현이나 완료 기준이 바뀔 때 | CLM-0036 |
+| S33 | 조건부 | Task decomposition | 조사 결과를 보고 구현 범위를 결정해야 할 때 | CLM-0037 |
+| S34 | 핵심 | Criteria-focused review | 변경안에서 놓치면 안 될 문제를 검토할 때 | CLM-0038 |
+| S35 | 핵심 | Iterative refinement | 첫 제안의 어떤 부분이 요구와 다른지 알 때 | CLM-0039 |
+
+S29 uses a fictional team's reporting labels, not actual company policy.
+Start without examples; add them only when the intended local convention
+is not conveyed. Do not show the example labels as executed results.
+S30 output structure, S31 explanatory evidence, S34 change review and S35
+specific correction remain distinct. S32 sets decision and autonomy bounds;
+S33 uses a reviewable plan only when a material implementation choice remains.
+
+Latest evidence: [2026-10-30 source matrix](../references/product/PROMPT_ENGINEERING_2026-10-30.md).
+The section/Story/Trial/Claim IDs, time and template assignments stay stable.
+
+### S28 — 지시와 참고 자료의 구분
+
+- Priority: 조건부
+- When: 요청과 로그·명세가 한 메시지에 섞일 때
+- Primary Message: 여러 자료가 섞일 때, 제목으로 읽을 경계를 표시한다.
+- Boundary: 구획은 해석을 돕는 표시이며, 보안 격리를 보장하지 않는다.
+- Sources: SRC-0230, SRC-0231; CLM-0032
+
+```text
+# 요청
+crop 경계 오류의 원인만 조사해줘.
+코드는 수정하지 마.
+# 참고 명세
+crop [1,3)의 기대 폭은 2
+# 참고 로그
+expected=2, actual=3
+```
+
+### S29 — 입력과 기대 결과의 작은 예시
+
+- Priority: 조건부
+- When: 사내 고유 표기·분류가 설명만으로 안 맞을 때
+- Primary Message: 모델이 모르는 우리 기준을 입력·출력 예시로 전달한다.
+- Boundary: 가상 팀의 보고 기준 · 실제 사내 규정이나 실행 결과가 아님
+- Sources: SRC-0230, SRC-0231; CLM-0033
+
+```text
+우리 팀의 보고 표기를 아래 예시처럼 맞춰줘.
+테스트 로그 있음: [실행 확인] 명령·결과
+코드만 검토함: [코드 검토] 파일·판단
+근거를 못 찾음: [미확인] 필요한 자료
+
+첨부한 변경 보고서를 같은 형식으로 정리해줘.
+```
+
+### S30 — 바로 검토할 수 있는 결과 형식
+
+- Priority: 핵심
+- When: 완료 보고에서 필요한 정보를 빨리 찾고 싶을 때
+- Primary Message: 검토에 필요한 항목을 지정하고, 중요한 근거는 남긴다.
+- Boundary: 형식과 내용은 별도 확인 · 채팅의 형식 요청은 API Structured Outputs와 다름
+- Sources: SRC-0233, SRC-0234; CLM-0034
+
+```text
+crop 수정 결과를 아래 항목으로 보고해줘.
+1. 변경 파일과 이유
+2. 실행한 검사·결과
+3. 미실행 검사·이유
+4. 남은 위험·결정
+완료 판단에 필요한 근거는 생략하지 마.
+```
+
+### S31 — 근거가 있는 설명과 미확인의 구분
+
+- Priority: 핵심
+- When: 설명을 믿기 전에 실제 자료를 대조해야 할 때
+- Primary Message: 중요한 판단에 근거를 받고, 추정·미확인은 구분한다.
+- Boundary: 출처가 있어도 원문과 대조한다 · 인용 자체가 정확성의 보증은 아님
+- Sources: SRC-0230, SRC-0234; CLM-0035
+
+```text
+crop의 명세·구현·테스트를 비교해줘.
+중요한 결론마다 파일·함수 근거를 붙여줘.
+확인한 내용과 추정·미확인을 구분해줘.
+자료가 충돌하면 차이를 먼저 알려줘.
+없는 정책은 만들어 채우지 마.
+```
+
+### S32 — 결과를 바꾸는 결정에서 확인 질문
+
+- Priority: 핵심
+- When: 사람의 선택에 따라 구현이나 완료 기준이 바뀔 때
+- Primary Message: 조사할 사실은 찾게 하고, 결과를 바꾸는 결정은 묻는다.
+- Boundary: 모든 세부를 질문하지 않는다 · 결정과 무관한 허용된 작업은 계속 진행
+- Sources: SRC-0234, SRC-0235, SRC-0243; CLM-0036
+
+```text
+빈 crop 범위의 처리 정책을 조사해줘.
+문서·테스트·호출부에서 먼저 찾아줘.
+정책이 없어 동작을 선택해야 한다면
+선택지와 영향을 정리하고 질문해줘.
+그 선택에 의존하는 수정은 답변 뒤 진행해줘.
+결정과 무관한 조사는 계속해줘.
+```
+
+### S33 — 큰 작업을 검토할 결과물로 나누기
+
+- Priority: 조건부
+- When: 조사 결과를 보고 구현 범위를 결정해야 할 때
+- Primary Message: 중간 판단이 필요한 작업은, 구현 전에 검토할 계획을 받는다.
+- Boundary: 작업 계획과 검토 지점을 요청한다 · 내부 사고 과정의 출력을 요구하지 않음
+- Sources: SRC-0231, SRC-0232, SRC-0243; CLM-0037
+
+```text
+ROI 설정을 crop에 연결하려 한다.
+먼저 현재 경로와 변경 후보를 조사해줘.
+범위·호환성에 선택이 필요한 지점을 알려줘.
+이번에는 수정 없이 계획만 제안해줘.
+
+계획을 검토한 뒤 구현 범위를 정하겠다.
+```
+
+### S34 — 기준을 지정한 코드 리뷰 요청
+
+- Priority: 핵심
+- When: 변경안에서 놓치면 안 될 문제를 검토할 때
+- Primary Message: 검토 기준과 실패 조건을 지정하고, 실제 검사와 구분한다.
+- Boundary: 리뷰에도 누락이 있을 수 있다 · 실행 근거와 사람의 완료 판단을 함께 확인
+- Sources: SRC-0232, SRC-0235, SRC-0243; CLM-0038
+
+```text
+crop 변경안에서 다음을 검토해줘.
+끝 좌표 제외 명세·공개 API·오류 정책 보존
+요청과 무관한 변경 여부
+발견 사항은 위치·실패 조건·영향으로 보고해줘.
+정적 검토와 실제 실행한 검사를 구분해줘.
+이번에는 코드를 바꾸지 마.
+```
+
+### S35 — 구체적인 근거로 수정 방향 피드백
+
+- Priority: 핵심
+- When: 첫 제안의 어떤 부분이 요구와 다른지 알 때
+- Primary Message: 어긋난 지점·기대 결과·유지할 조건으로 방향을 고친다.
+- Boundary: 앞선 제안은 가상 예시 · 반복 요청만으로 품질 향상을 보장하지 않음
+- Sources: SRC-0234; CLM-0039
+
+```text
+앞선 “기대 폭을 3으로 바꾸자”는 제안을
+고쳐줘. 명세는 crop [1,3)에서 폭 2야.
+테스트 기대값은 유지하고
+구현의 끝 좌표 처리만 다시 검토해줘.
+기존 API·의존성은 유지해줘.
+바뀐 제안과 미확인 사항을 알려줘.
+```
+
+## Historical DEC-0043 edition
+
 Date: 2026-10-21. Baseline: `0772b4b`. Decision: DEC-0043.
 Status: **INTEGRATED —90SLIDES/368MINUTES; ORIGINAL SLIDES AND TIMES PRESERVED**.
 

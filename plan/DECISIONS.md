@@ -11820,3 +11820,80 @@ question and preserve the gap between recording and observed use.
 Render the final Full/ACT1/ACT2 decks, inspect the sequence, verify Notes,
 budgets and retained content, then commit and push normally. Keep Windows,
 room, product/account and timed rehearsal unverified.
+
+
+# DEC-0116 — Refresh the eight practical prompt tools
+
+## Status
+
+ACCEPTED — explicit user approval of the evidence-based revision.
+
+## Date
+
+2026-10-30
+
+## Context
+
+The user asks to retain useful current prompting practices in S28-S35,
+clarify five core and three conditional tools, improve readability and
+replace the simple S29 crop examples with company-specific conventions.
+
+## Problem
+
+A uniform eight-technique sequence can look like a mandatory formula.
+Simple indexing examples do not expose information the model lacks.
+Length caps, excessive clarification or plans can overconstrain the work.
+
+## Decision
+
+Retain eight slides, their IDs, titles, modes and one minute each. Mark
+S30/S31/S32/S34/S35 as core and S28/S29/S33 as conditional, with a visible
+use situation and readable request. Replace S29 with fictional team report
+labels; do not invent actual company rules. Align current source, Notes,
+plans, cited official evidence and Full/ACT1 packages and previews.
+
+## Rationale
+
+Teach when a request changes the work rather than maximizing prompt size.
+Keep output structure, explanatory evidence, review criteria and feedback
+in separate roles, then return to recurring project context on S36/S37.
+
+## Alternatives
+
+Delete all older methods; current official guidance still supports them
+in specific situations. Require all eight in every request; this ignores
+model and task differences. Add slides/time; this revision needs neither.
+
+## Trade-offs
+
+Keep the established eight-minute order and visual style. Simplify body
+copy and enlarge prompts. The priority labels are editorial judgments,
+not an experimentally established ranking or mandatory recipe.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+Eight source recipes and footer records, S28-S35 Map and Notes, related
+planning and claim/source records, Full/ACT1 PPTX, previews and delivery
+identities. Other slide screens and ACT packages remain unchanged.
+
+## Evidence
+
+User approval; official OpenAI pages rechecked2026-10-30 under
+CLM-0032-0039 and SRC-0230-0235/0243. No new Trial, actual company policy,
+measured performance, cost or token/time saving is asserted.
+
+## Training Relevance
+
+YES — choose prompting guidance by task and revisit assumptions after
+model changes, while preserving actual evidence and human decisions.
+
+## Follow-up
+
+Render all final Full/ACT1 slides; inspect the eight revised slides and
+adjacent sequence; validate Notes, timing and retained content; then
+commit and push normally. Keep Windows, account, room and rehearsal
+validation unverified. Do not change the Demo repository or Site/bundle.
