@@ -1022,13 +1022,13 @@ Allocated Time: 2 minutes
 
 Mode Split: Case 2 minutes
 
-Primary Message: 기존 명세·기대값이 유효한 이 사례에서는 구현을 명세에 맞춘다. 기대값 변경에는 명세 변경의 정당성·승인이 필요하고, 의도와 명세가 충돌하면 먼저 확인한다.
+Primary Message: 기존 명세·기대값이 유효한 이 사례에서는 구현을 명세에 맞춘다. 기대값 변경에는 명세 변경의 정당성·승인이 필요하고, 의도·명세·조건이 충돌하면 먼저 확인한다.
 
 Opening Question: “같은 crop 요청에서 어떤 변경을 허용했을까?”
 
 Speaker Flow:
 1. **SAME REQUEST (0:00–0:30):** 앞 장과 동일한 “crop test 고쳐줘”를 그대로 읽는다. 예시나 실행 환경을 바꾸지 않는다. 실제 TRIAL-002 Prompt가 아닌 교육용 구성이다.
-2. **CONDITIONAL PATHS (0:30–1:20):** 테스트 기대값 변경에는 명세 변경의 정당성과 승인이 필요하다. 기존 명세·기대값이 유효한 이 사례의 수용 경로는 구현 수정이다. 의도와 명세가 충돌하거나 변경 범위가 불분명하면 먼저 질문한다. 세 경로를 동등하게 정당한 답이나 실제 반복 결과로 읽지 않는다.
+2. **CONDITIONAL PATHS (0:30–1:20):** 테스트 기대값 변경에는 명세 변경의 정당성과 승인이 필요하다. 기존 명세·기대값이 유효한 이 사례의 수용 경로는 구현 수정이다. 의도·명세·조건이 충돌하거나 변경 범위가 불분명하면 먼저 질문한다. 세 경로를 동등하게 정당한 답이나 실제 반복 결과로 읽지 않는다.
 3. **MAKE INTENT EXPLICIT (1:20–2:00):** 아래 다섯 항목은 요청에서 더 분명히 할 정보다. 모두 저장소에 없는 사실이라는 뜻은 아니다. 다음 장에서 기존 명세를 지키고 구현만 고치려는 범위를 명시한다.
 
 Evidence / Source: BEAT-004, CLM-0002, DEC-0038. TEACHING_MODEL / CONCEPTUAL. 같은 AI Agent 삽화와 병렬 시간선은 가능한 요청 해석의 도식이다. 실제 반복 실행·분기 빈도·실패 로그·평행 Agent 실행을 기록한 것이 아니다. 삽화: assets/slide-illustrations/task-choice-agent.png (built-in imagegen, 투명 배경). 같은 Agent를 세 장에서 의도적으로 반복한다. 생성 프롬프트·출처·표현 경계: assets/slide-illustrations/PROMPT_TIMELINE_SOURCES.md. DEC-0042는 요청 설계와 기존 사례의 연결·용어를 정렬한 결정이며 새로운 실험 근거가 아니다.
@@ -1039,9 +1039,9 @@ DEC-0110: 같은 crop 요청의 연결을 정리한 편집 결정이며 새 Tria
 
 Claim Boundary: 평행 경로는 검토할 선택의 조건을 설명한 교육용 도식이며 실제 실행·선택 확률·동시 Subagent가 아니다. 테스트 기대값 변경을 유효한 기존 명세를 어기는 구현 수정과 동등하게 정당화하지 않는다. 정당한 명세 변경·승인이 있으면 테스트도 바뀔 수 있다. Agent가 저장소에서 올바른 수정을 추론하지 못한다는 주장을 하지 않는다.
 
-Beginner Explanation: 이 예시에서는 기대값을 유지하고 구현을 맞춘다. 기대값 변경은 명세 자체를 정당하게 바꾸는 경우에 따로 검토하고, 의도나 권한이 충돌하면 확인한다.
+Beginner Explanation: 이 예시에서는 기대값을 유지하고 구현을 맞춘다. 기대값 변경은 명세 자체를 정당하게 바꾸는 경우에 따로 검토하고, 의도·명세·조건이나 권한이 충돌하면 확인한다.
 
-Advanced Insight: The paths compare change authority and preservation criteria, not measured nondeterminism. Repository evidence can support the correct implementation fix; clarify unresolved intent or conflicting specifications.
+Advanced Insight: The paths compare change authority and preservation criteria, not measured nondeterminism. Repository evidence can support the correct implementation fix; clarify unresolved intent, conflicting specifications or unclear task conditions.
 
 C++ Vision Bridge: N/A.
 

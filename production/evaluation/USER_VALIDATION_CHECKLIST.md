@@ -1,5 +1,8 @@
 # 사용자 검증 체크리스트
 
+2026-10-30: S17의 질문 대상에 작업 조건을 명시했다. 기존 실환경 검증 상태는 유지하며
+[현재 문구 검토](S17_CONDITION_QUESTION_REVISION.md)와 [최신 파일 해시](FINAL_HANDOFF.md)를 따른다.
+
 ## 현재 ACT1→ACT2 확인 — DEC-0113
 
 121장·417분과 기존 검증 상태를 유지한다. [현재 검토](ACT1_CONTEXT_HANDOFF_REVISION.md),

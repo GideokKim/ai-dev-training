@@ -1,5 +1,25 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S17 질문 범위 보완 — 2026-10-30
+
+“의도·명세·조건이 충돌하면 질문”으로 작업 조건을 포함했다. Notes·소스·기획·통합/ACT1
+PPT와 Preview를 정렬했다.121장·417분과 근거는 유지한다.145개 렌더·Notes를 확인했고
+변경 문구 외 화면은 같다. [검토 기록](S17_CONDITION_QUESTION_REVISION.md).
+Windows·제품/계정·교육장·실측 리허설은 UNVERIFIED다. 아래 해시는 현재 파일이고
+이전 표는 당시 판본의 기록이다. Demo·Sites·발표 묶음은 변경하지 않았다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `522381ce1dce71de6d4bbf8a49c367e62244ddaeb55aa9779c65b330a95ae6c5` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `4098f48a51487a0a0c10ea9aba66c9df617e48fcbd8c09910f0dfa1f78977605` |
+| `production/ACT_2.pptx` | `7b4869ab0aaa01569a9927d8e6f92a75ea82c2366666319568ff13325f9ddcf6` |
+| `production/ACT_3.pptx` | `f0943678c0468d7cde832ba9b83257bf2ffa042c45dfedf276c86811f4561ac4` |
+| `production/ACT_4.pptx` | `0e9d7c306f88324f0a4c9dbcd0eb3525f85c571c133eecd6034cb5c359a8e5fd` |
+| `production/ACT_5.pptx` | `7cd8445e511ba13c84b87341b1f56006c4eeeb63f5f14fd2d49505fa1f45ad44` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `7e92e2f61a52a7848a106986c0935fbed544c7421e0f3be7469bfd3bdbb2b196` |
+| `production/preview/full/montage.png` | `e38fc36a652877b43b374a4484d6be4b76bb2ce17a262093c9f8d773803fc09c` |
+
 ## 현재 전달 기준 — DEC-0113 (2026-10-27)
 
 121장·417분. S37/S38은 같은 교육용 crop 요청을 이어받아 반복할 문장을 생각하고,

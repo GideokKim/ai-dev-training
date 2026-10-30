@@ -458,17 +458,17 @@ Native 표는 S55/S67, 차트는 S71/S98, 마지막 팁 찾아보기는 S118–S
 - **Working Title:** 어디까지 바꾸라는 요청일까?
 - **Primary Role:** 같은 crop 요청에 대한 허용 범위와 선택의 조건을 비교한다.
 - **Audience Question:** “테스트 기대값 변경과 구현 수정은 각각 언제 허용할 수 있을까?”
-- **Core Message:** 기존 명세·기대값이 유효한 이 사례에서는 구현을 명세에 맞춘다. 기대값 변경에는 명세 변경의 정당성·승인이 필요하고, 의도와 명세가 충돌하면 먼저 확인한다.
+- **Core Message:** 기존 명세·기대값이 유효한 이 사례에서는 구현을 명세에 맞춘다. 기대값 변경에는 명세 변경의 정당성·승인이 필요하고, 의도·명세·조건이 충돌하면 먼저 확인한다.
 - **Story Beat:** BEAT-004 — Repository access does not convey intent
 - **Curriculum Trace:** ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL / CONCEPTUAL. 평행 시간선은 가능한 해석의 교육용 도식이며 실제 반복 실행 결과가 아니다.
-- **Visual Concept:** S16과 같은 “crop test 고쳐줘” 입력창과 동일 Agent를 유지한다. 세 경로는 테스트 기대값 변경(명세 변경의 정당성·승인 필요), 구현을 명세에 맞춤(기존 명세·기대값 유지), 변경 범위를 먼저 확인(의도·명세 충돌 시 질문)이다. 아래 다섯 항목은 요청에서 더 분명히 할 정보로 표시한다. 실제 반복 실행·동시 Subagent·선택 확률을 나타내지 않는다. DEC-0110.
+- **Visual Concept:** S16과 같은 “crop test 고쳐줘” 입력창과 동일 Agent를 유지한다. 세 경로는 테스트 기대값 변경(명세 변경의 정당성·승인 필요), 구현을 명세에 맞춤(기존 명세·기대값 유지), 변경 범위를 먼저 확인(의도·명세·조건 충돌 시 질문)이다. 아래 다섯 항목은 요청에서 더 분명히 할 정보로 표시한다. 실제 반복 실행·동시 Subagent·선택 확률을 나타내지 않는다. DEC-0110.
 - **Demo / Case Connection:** S16과 같은 교육용 crop 요청이다. 실제 TRIAL-002 Prompt 또는 여러 번 실행한 결과가 아니다.
 - **Beginner Payoff:** 아무 테스트나 바꿔 통과시키는 것과 명세에 맞춰 구현을 고치는 것의 조건을 구분한다.
 - **Advanced Payoff:** 저장소에서 추론할 수 있는 명세와 사람이 승인할 변경 범위를 나누어 판단한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 예시 전환 없이 같은 요청을 이어 읽는다. 기대값 변경을 실제 유효한 명세의 구현 수정과 동등하게 정당한 답으로 가르치지 않는다. Agent는 저장소 근거로 올바른 수정을 추론할 수 있으며 의도·명세가 충돌하거나 변경 권한이 불명확할 때 확인할 수 있다.
+- **Speaker Intent:** 예시 전환 없이 같은 요청을 이어 읽는다. 기대값 변경을 실제 유효한 명세의 구현 수정과 동등하게 정당한 답으로 가르치지 않는다. Agent는 저장소 근거로 올바른 수정을 추론할 수 있으며 의도·명세·조건이 충돌하거나 변경 권한이 불명확할 때 확인할 수 있다.
 - **Transition:** “이 사례에서는 기존 명세·기대값을 지키고 구현만 고치려 합니다. 그 범위와 확인·보고 조건을 요청에 담아 보겠습니다.”라고 S18로 이동한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분

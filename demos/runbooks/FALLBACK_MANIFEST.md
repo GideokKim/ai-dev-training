@@ -7,11 +7,14 @@ The C++ examples remain unexecuted teaching diagrams and requests.
 S37/S38 now share one teaching crop request, not actual Trial input. Live/Hybrid is not approved. Windows, account, room
 and timed rehearsal remain UNVERIFIED.
 
+2026-10-30: S17 now includes task conditions in its clarification cue.
+This is teaching wording, not a new Trial or Live approval.
+
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`d5ad2aebfe26947942511799adb450c37a8eb0b2aa606cc60a8c003842bfc9e7`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`53e8b01989f03312cdee949c5b023d0f51445d628924ccf6aa69e61ab2da438d`.
-- `production/preview/full/montage.png` SHA-256:`b7b6d4fe8abb7345a50c10b89e55f2ae66a778d629f54a672802e4f10574b894`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`522381ce1dce71de6d4bbf8a49c367e62244ddaeb55aa9779c65b330a95ae6c5`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`7e92e2f61a52a7848a106986c0935fbed544c7421e0f3be7469bfd3bdbb2b196`.
+- `production/preview/full/montage.png` SHA-256:`e38fc36a652877b43b374a4484d6be4b76bb2ce17a262093c9f8d773803fc09c`.
 
 [Current handoff revision](../../production/evaluation/ACT1_CONTEXT_HANDOFF_REVISION.md),
 [Preserved request-split revision](../../production/evaluation/S26_REQUEST_SPLIT_REVISION.md),
