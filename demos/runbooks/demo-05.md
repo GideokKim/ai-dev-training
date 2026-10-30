@@ -1,5 +1,7 @@
 # DEMO-05 — Task Specification and Crop Boundary
 
+> Current DEC-0114 /120slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): S22. Paths and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Previous121-ID S28 is removed; S29-S121 shift-1. Trial/State IDs and evidence remain unchanged. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.
+
 > Current DEC-0112 /121slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): S22. Paths and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Former S26 is split within5minutes; previous S27-S119 shift+2. Trial/State IDs and evidence remain unchanged. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.
 
 > Current DEC-0111 /119slides/417minutes. S21 reads the actual TRIAL-002 input; S22 pairs its same Process01-03with observed summaries. S23/S24 retain CAPTURED8minutes. S21/S22 remain outside that Demo slot. Use final Full/ACT1 static files; no new Trial, live invocation or live approval. Earlier dated notices are history.

@@ -1,5 +1,74 @@
 # Static Fallback Manifest
 
+Current: DEC-0114 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Retain44reference roles and evidence classes. Replace former S26/S27,
+remove former S28 and shift former S29-S121 by one. Keep five minutes.
+Both new goal-specific request examples are teaching material, not actual
+Trial input or new benchmark results. Optional C++ assertions stay in Notes.
+Live/Hybrid is not approved. Windows, account, room and timed rehearsal
+remain UNVERIFIED.
+
+## Current source identities
+
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`b8b0656ae03fc3b29ca3d0c18afe24837402cd21b388cc6d91a17186c1fdabd7`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`d75f44a8c31c69059449b8bfcbd0652e4795d274fa2eb937b27570aaf66d2aa6`.
+- `production/preview/full/montage.png` SHA-256:`cb64ea4d1c0dcf9d343d15ea559ce07fd0652519623e53102fc3cbe7547108cb`.
+
+[Current revision](../../production/evaluation/VERIFICATION_REQUEST_DESIGN_REVISION.md),
+[121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
+
+| Slide | Classification | Path | Dimensions | SHA-256 |
+|---|---|---|---|---|
+| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` | 1920×1080 | `05b4545671daef4614211ee778cab969a442f34986bf6376c452081c2427ff68` |
+| S07 | RETAINED_DEMO_STATIC | `production/preview/full/S07.png` | 1920×1080 | `4646cd962fee1b9384ab16059744c87b83fd3d5341a48123d2f5cd6260f579cf` |
+| S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` | 1920×1080 | `b00fde64f9e461e9cfd17f080024c03c592d6854196c7437e0efc0eda7214afa` |
+| S09 | RETAINED_DEMO_STATIC | `production/preview/full/S09.png` | 1920×1080 | `1f938fb1a5b6ea172317856cd4bf7d5d2c9fa1ef6ffca0522d877e5e289dde94` |
+| S10 | RETAINED_DEMO_STATIC | `production/preview/full/S10.png` | 1920×1080 | `c621e5666dfbda359a703d0797ec025bb4915cd17fa498c6f0001a052eb55cc9` |
+| S23 | RETAINED_DEMO_STATIC | `production/preview/full/S23.png` | 1920×1080 | `2006268ff4d96da09bba0d8ed99b8174423fccf4f1ce825888cba100679961a2` |
+| S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` | 1920×1080 | `eee791361290ec1374cc4456ce66ff3bf7a7b27905c9e912b20838a0091d9e1f` |
+| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `214e608a93423aa97d10f62a1a171a84f254cef0bf790dbefb0ccb7798eaf384` |
+| S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` | 1920×1080 | `052e19918e6be443c8699ae2212f02229dbce3a5c15eb96fbe03794193e70940` |
+| S41 | RETAINED_DEMO_STATIC | `production/preview/full/S41.png` | 1920×1080 | `3a41196b163fc4bc42f4efe9fce51796312655ec564b17873187ac1f550817e8` |
+| S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` | 1920×1080 | `26632e6c07918601f19342180eeac05a0e67051e7bf8e43e8bb1a0d4bedf3295` |
+| S50 | RETAINED_DEMO_STATIC | `production/preview/full/S50.png` | 1920×1080 | `1515f2ceffb8119ce9cc0d78f704d66a60c891ead5b15d297ae708b8425212e9` |
+| S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` | 1920×1080 | `b3ce28aa911e520e04fc38afecb02c7cd0ab34ed55525c083464c7a7ea136f0b` |
+| S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` | 1920×1080 | `bf95495437b7d003c4753295de9b9ef7bfc6f01966a55fe29589204ef23f2793` |
+| S54 | RETAINED_DEMO_STATIC | `production/preview/full/S54.png` | 1920×1080 | `ee3d7a63c8c506b0258f9fac8465ec028be427a012d180de19786fc5f1938755` |
+| S65 | RETAINED_DEMO_STATIC | `production/preview/full/S65.png` | 1920×1080 | `42625a9c55788f1b7ee46ba35d8e7e4de03aff3306cf82598d3b09360d2c7652` |
+| S66 | RETAINED_DEMO_STATIC | `production/preview/full/S66.png` | 1920×1080 | `48283330fb01b5297f9238f1c060f93fad8b338bed136776b6a4d9162db5ca94` |
+| S71 | RETAINED_DEMO_STATIC | `production/preview/full/S71.png` | 1920×1080 | `097a4a4e2aa65e6294f61598faaf7bf82ad8607a5e404e5e1540d83822bee663` |
+| S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` | 1920×1080 | `06fd5bce6974ea133fbe5a17cb4513bf50d88511ba00dba2b48e302be49cf9c0` |
+| S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` | 1920×1080 | `993fce02a4cd9928ace09f6f7eefe5f4276a5c79b830d99055a266d158a1a04e` |
+| S75 | RETAINED_DEMO_STATIC | `production/preview/full/S75.png` | 1920×1080 | `06fe6d3ced042e9027a3529d9be6af70a119f20471eb634120369e4330afe52c` |
+| S76 | RETAINED_DEMO_STATIC | `production/preview/full/S76.png` | 1920×1080 | `ee99052a8f3183ad06c2d864a0fb9c99e9eb439e1b3cc47e302072ba540f5b16` |
+| S77 | RETAINED_DEMO_STATIC | `production/preview/full/S77.png` | 1920×1080 | `0ec3d0b8b6bcf921b9b92d3ba49b46989aadc65fc622a239f0ba05076e41b5de` |
+| S87 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S87.png` | 1920×1080 | `78cf4b73f52ce943ecf40a52e1aee825b5a7c183f2eafcbd0f4371caae84699a` |
+| S88 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S88.png` | 1920×1080 | `e96d6519d9d92fc80c1c3e9b6534cb77c46991cf9641036518ab7bf785c5905a` |
+| S89 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S89.png` | 1920×1080 | `064c356ba7531eb4f598d164885a69d62cbdab8784e96a19e1d90c6bd9a7be27` |
+| S90 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S90.png` | 1920×1080 | `402fdbd945c29b92733d67066f93e081076287ad234e636f55f6ca92725b3213` |
+| S91 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S91.png` | 1920×1080 | `41ef1416cb0b08e9a78d22c7330fa48830667002124b9b4000659100a23a6631` |
+| S92 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S92.png` | 1920×1080 | `25bcb610fa95cbdab5d73c04cffcfde65de56dcc0377cc26958b9562843b711f` |
+| S93 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S93.png` | 1920×1080 | `283a1f15301af02901168e241b05e836f82e15c597c3293f0d14f310b0102ae7` |
+| S94 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S94.png` | 1920×1080 | `5c5c0b2267d8190a4bd56332ca3509810df43de11efdce0582dfaf9cfc7432b0` |
+| S95 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S95.png` | 1920×1080 | `0527636a45487536e7c3c35a7fb35c2375dab272bc5ecf940b22ded0635b1098` |
+| S96 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S96.png` | 1920×1080 | `6200201a8219860eb064696fc224a6f24787280e5339c9e8f8598b1d1e8eb972` |
+| S97 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S97.png` | 1920×1080 | `5dcf19bb0ddbee3e782d04a5d1b9fd96a84fe7c7496c804f2635edd4eb37a2e7` |
+| S98 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S98.png` | 1920×1080 | `113892233ff7396309d78340818dc13fc013551ec5c25fa7028091c941ffda00` |
+| S99 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S99.png` | 1920×1080 | `96402a8ac55d37ffb34a8638b04e40063886c5cc46d9618bf84c05f5547b5433` |
+| S100 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S100.png` | 1920×1080 | `5608380583578cbb8fb4be07410641e4be69942a20a2a39bc4b04f62dbed7232` |
+| S101 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S101.png` | 1920×1080 | `821ef625b1b2a84dea9592186f93b7ba88f645b55453aecb39a686eff2d54f83` |
+| S102 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S102.png` | 1920×1080 | `c0ff5d1559b5d898f14c00852e6d9a10a18f16f1d14b7b82b0afe0d9d81ad7d3` |
+| S105 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S105.png` | 1920×1080 | `f0d47855ccda47a89304f8e637d85233ebed0c45d723be763e16a8d7ace8d85d` |
+| S103 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S103.png` | 1920×1080 | `642c4ff95006e66e7fb41eb808fd51509fe6bd8dbcb94f76439367795b1f0324` |
+| S104 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S104.png` | 1920×1080 | `460c6e326f5e1bd6bcd9ae5fbf8b94a050bd11960dc43f46e41ad7571bec0f74` |
+| S107 | TEACHING_SYNTHESIS | `production/preview/full/S107.png` | 1920×1080 | `f4c868711c8d0702f38dd61a3492713919bfdbf8b98b1ea4fa3f68a3ce375ec9` |
+| S108 | TEACHING_SYNTHESIS | `production/preview/full/S108.png` | 1920×1080 | `88e13260fbd1f7dd900d2ff0f89b6c3015e879027aa76fbfccf2a2a6e747e51a` |
+
+<details>
+<summary>Previous121-slide manifest — historical records</summary>
+
+# Static Fallback Manifest
+
 Current: DEC-0113 /121slides/417minutes. READY — LOCAL STATIC FILES ONLY.
 Retain44reference roles and evidence classes. Former S26 becomes three
 request-design slides within5minutes; previous S27-S119 shift+2.
@@ -708,6 +777,8 @@ minutes, Trial, actual integration result or live approval. [Current result](../
 
 </details>
 
+
+</details>
 
 </details>
 

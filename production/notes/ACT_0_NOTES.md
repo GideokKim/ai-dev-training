@@ -1,5 +1,12 @@
 # ACT 0 — Speaker Notes
 
+Current: DEC-0114 /120slides/417minutes. ACT0: S01–S14, 14slides/42minutes.19fields per slide. Historical paths and actual source quotations retain their editions.
+
+<details>
+<summary>이전 Notes 표지·제작 기준 보존</summary>
+
+# ACT 0 — Speaker Notes
+
 Current: DEC-0112 /121slides/417minutes. ACT0: S01–S14, 14slides/42minutes.19fields per slide. Source quotations and historical paths retain their editions.
 
 <details>
@@ -58,6 +65,9 @@ Authority: `plan/SLIDE_MAP.md`, `plan/SLIDE_TEMPLATE_MAP.md`,
 `plan/CLAIM_FREEZE.md`, `plan/DEMO_MATRIX.md`, and `plan/DECISIONS.md`.
 
 Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historical handoff review: production/evaluation/FULL_DECK_CONTINUITY_REVISION.md. Prior validation history remains below.
+
+
+</details>
 
 
 </details>

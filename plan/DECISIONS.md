@@ -11529,7 +11529,8 @@ Push normally. Keep Windows, product/account, room and rehearsal unverified.
 
 ## Status
 
-ACCEPTED — explicit user approval of the three-slide proposal.
+SUPERSEDED — DEC-0114 replaces the block layout, slide count and IDs.
+Preserve this record and its evidence boundaries as history.
 
 ## Date
 
@@ -11669,4 +11670,78 @@ YES — distinguish a task goal from criteria that persist by agreement.
 
 Render and inspect the final pair and S36-to-S40 sequence. Compare
 retained slides, Notes and budgets, then push normally to origin/main.
+Keep Windows, product/account, room and timed rehearsal unverified.
+
+# DEC-0114 — Align verification requests with the intended change
+
+## Status
+
+ACCEPTED — explicit user approval of the two-slide proposal.
+
+## Date
+
+2026-10-30
+
+## Context
+
+ACT0 already demonstrates the crop specification through a failing test.
+The user finds the later assertion lesson repetitive and approves a plan
+focused on choosing evidence and writing verification requests.
+
+## Problem
+
+The previous three-slide split reduces density but switches from check
+scope to assertion syntax. It obscures the request-design learning goal.
+
+## Decision
+
+Replace121-ID S26/S27 with check selection and two goal-specific teaching
+requests for the same crop. Remove121-ID S28 and absorb its request role
+into S27. Preserve five minutes as Lecture2 and Lecture2+Reflection1.
+Supersede DEC-0112 for this block layout and numbering.
+Shift former S29-S121 by one. Use120slides/417minutes and ACT1 23slides/
+64minutes. Preserve all other allocations, Trial evidence and claim limits.
+
+## Rationale
+
+Connect the claim to the required check, then express the check in a task
+request. Compare boundary repair with a hypothetical runtime improvement
+without repeating the known vector specification or actual Trial prompt.
+
+## Alternatives
+
+Retain all three pages; this repeats a familiar specification lesson.
+Remove verification entirely; this loses the request completion criteria.
+Introduce another domain; this weakens the shared crop-case continuity.
+
+## Trade-offs
+
+Reduce one slide and migrate active references. Keep the optional C++
+counterexample and equality-assertion meaning in Notes. Request examples
+remain teaching material rather than quoted input or new execution.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+Slide Map, template mapping, current planning notices,121-to120 migration,
+source factories, Full/ACT decks, Notes, previews and delivery identities.
+The Demo repository, Site and presenter bundle remain unchanged.
+
+## Evidence
+
+Explicit user approval; current ACT0/ACT1 slides and unchanged TRIAL-002
+source. No new Trial, C++ execution, benchmark or causal claim.
+
+## Training Relevance
+
+YES — ask for evidence appropriate to the desired change and preserve
+the limits of checks when deciding completion.
+
+## Follow-up
+
+Render and inspect the final Full/ACT decks, adjacent sequence and indexes.
+Verify Notes, IDs, budgets and retained content before a normal push.
 Keep Windows, product/account, room and timed rehearsal unverified.

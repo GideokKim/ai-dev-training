@@ -1,5 +1,7 @@
 # DEMO-06 — Context Relevance and Routing
 
+> Current DEC-0114 /120slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): Use current Map/Notes. Paths and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Previous121-ID S28 is removed; S29-S121 shift-1. Trial/State IDs and evidence remain unchanged. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.
+
 > Current DEC-0112 /121slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): Use current Map/Notes. Paths and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Former S26 is split within5minutes; previous S27-S119 shift+2. Trial/State IDs and evidence remain unchanged. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.
 
 > Current DEC-0108 /119slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): Use the current Map/Notes role; no new scheduled slot. Current static files and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Former S15 is deleted; all later current IDs move down one. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.

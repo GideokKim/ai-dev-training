@@ -1,5 +1,7 @@
 # Current presentation source
 
+Current: DEC-0114 /120slides/417minutes. `verification-request-design.mjs` applies one121-to120 boundary, removes only old S28 and replaces S26/S27. Keep historical factories, JSON, assets and `verification-request-121.mjs` at their documented editions. Apply120-ID footers,119-ID removal,121-ID split, then the final120-ID design migration. Use current19-field Notes. Native tables S54/S66; charts S70/S97.
+
 DEC-0113: `act1-context-handoff.mjs` replaces only current121-ID S37/S38 after the retained numbering layers. Both use the same `HANDOFF_REQUEST`, current footers and19-field Notes. S36 changes only its transition Notes;121slides/417minutes and all per-slide budgets remain.
 
 Current: DEC-0112 /121slides/417minutes. `verification-request-121.mjs` replaces former119-ID S26 with three native slides and applies one119-to121 display boundary. Retained factories/JSON/assets keep their documented input editions. Apply120-ID footers,119-ID deletion, then121-ID migration. New S26/S27/S28 provide their own current footers and19-field Notes. Tables S55/S67; charts S71/S98.

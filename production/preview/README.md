@@ -1,5 +1,7 @@
 # Preview editions
 
+Current: DEC-0114 /120slides/417minutes. Canonical PNGs are full/S01-S120 and the current ACT ranges. All240PNG files derive from the final seven PPTX files. S26/S27 compare verification selection and goal-specific requests; former S28 is removed. Historical sequence-image filenames retain their source editions.
+
 Current: DEC-0112 /121slides/417minutes. Canonical PNGs are full/S01-S121 and the current ACT ranges. All242PNG files were rendered from the final seven PPTX files. Historical combined sequence-image filenames remain unchanged.
 
 Current: DEC-0108 /119slides/417minutes. Canonical single-slide PNGs are full/S01–S119 and each ACT range from the current Map. All were rendered from the final seven PPTX files. Older combined sequence-image filenames remain historical records.
