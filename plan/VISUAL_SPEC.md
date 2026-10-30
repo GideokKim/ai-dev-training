@@ -575,3 +575,22 @@ Slide ID/footer scale. A title may wrap into the approved two lines. Keep
 x64–1216 and the current vertical safe margins. This larger hierarchy is
 limited to six title pages; existing body typography remains unchanged.
 No image, outcome, evidence frame or new product claim is added.
+
+
+## DEC-0117 — Named prompt-tool composition (S28–S35 only)
+
+Retain the Light Engineering Workbench tokens,16:9 canvas, existing titles,
+application badge and M footer. Keep T03-A / existing variant count.
+
+- Method/approach name:31CSSpx, teal bold, under the Korean title.
+- Use situation: one distinct label and one statement before the prompt.
+- Prompt: native text/shape,28CSSpx, selected clauses in pale teal/bold.
+- Right side: a method-specific relation, decision or reviewable structure.
+  It is editable teaching structure, not decorative art or execution evidence.
+- Citation:19CSSpx(14.25pt), official document and section, above the
+  existing claim-boundary row. Full URL and applicability stay in Notes.
+- S29 pairs inputs with desired team labels in native rows, preserving the
+  same fictional convention. Arrows indicate input/output correspondence.
+
+Keep all slide times/modes and120slides/417minutes. Other templates and
+slides keep their current design. Windows/room/rehearsal remain unverified.

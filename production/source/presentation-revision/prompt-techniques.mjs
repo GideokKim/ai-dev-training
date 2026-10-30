@@ -1,6 +1,6 @@
-/** DEC-0116: five core request tools and three conditional tools.
+/** DEC-0117: visible method names, citations and annotated teaching prompts.
  * Recipe IDs retain the historical source edition used by build.mjs.
- * All prompts are teaching adaptations, never additional Trial results.
+ * Visuals illustrate request structure, never executed model results.
  */
 export const recipes = [
   {
@@ -30,7 +30,16 @@ export const recipes = [
       "https://developers.openai.com/api/docs/guides/reasoning-best-practices"
     ],
     "takeaway": "구획의 존재보다 지시와 참고 자료의 역할을 구분한다.",
-    "variant": "T03-A"
+    "variant": "T03-A",
+    "displayMethod": "Delimiters",
+    "methodMeaning": "지시와 참고 자료의 구획",
+    "visibleCitation": "출처 · OpenAI, Prompt engineering · Message formatting with Markdown and XML",
+    "citationUrl": "https://developers.openai.com/api/docs/guides/prompt-engineering#message-formatting-with-markdown-and-xml",
+    "highlightLines": [
+      0,
+      3,
+      5
+    ]
   },
   {
     "id": "S23",
@@ -60,7 +69,16 @@ export const recipes = [
     ],
     "promptLabel": "가상 팀 기준을 전달하는 요청 예시",
     "takeaway": "예시를 먼저 쌓지 않고 간단한 요청이 부족할 때 추가한다.",
-    "variant": "T03-A"
+    "variant": "T03-A",
+    "displayMethod": "Few-shot Prompting",
+    "methodMeaning": "입력·출력 예시로 기준 전달",
+    "visibleCitation": "출처 · OpenAI, Reasoning best practices · How to prompt reasoning models effectively",
+    "citationUrl": "https://developers.openai.com/api/docs/guides/reasoning-best-practices#how-to-prompt-reasoning-models-effectively",
+    "highlightLines": [
+      1,
+      2,
+      3
+    ]
   },
   {
     "id": "S24",
@@ -89,7 +107,17 @@ export const recipes = [
       "https://developers.openai.com/api/docs/guides/structured-outputs"
     ],
     "takeaway": "기계적인 문장 수 제한보다 필요한 보고 항목을 정한다.",
-    "variant": "T03-A"
+    "variant": "T03-A",
+    "displayMethod": "Output Format Specification",
+    "methodMeaning": "받을 결과의 구조 지정",
+    "visibleCitation": "출처 · OpenAI, Prompting · Make the result ready to use",
+    "citationUrl": "https://learn.chatgpt.com/docs/prompting#make-the-result-ready-to-use",
+    "highlightLines": [
+      1,
+      2,
+      3,
+      4
+    ]
   },
   {
     "id": "S25",
@@ -118,7 +146,15 @@ export const recipes = [
       "https://developers.openai.com/api/docs/guides/prompt-engineering"
     ],
     "takeaway": "S30의 보고 형식과 달리 여기서는 판단을 뒷받침하는 자료를 다룬다.",
-    "variant": "T03-A"
+    "variant": "T03-A",
+    "displayMethod": "Grounding",
+    "methodMeaning": "설명을 실제 자료에 연결",
+    "visibleCitation": "출처 · OpenAI, Prompting · Add useful context / Set boundaries",
+    "citationUrl": "https://learn.chatgpt.com/docs/prompting#add-useful-context",
+    "highlightLines": [
+      1,
+      2
+    ]
   },
   {
     "id": "S26",
@@ -147,7 +183,16 @@ export const recipes = [
       "https://learn.chatgpt.com/docs/prompting"
     ],
     "takeaway": "조사 가능한 사실을 모두 사람에게 되묻지 않도록 범위를 정한다.",
-    "variant": "T03-A"
+    "variant": "T03-A",
+    "displayMethod": "Clarifying Questions",
+    "methodMeaning": "결과를 바꾸는 결정 확인",
+    "visibleCitation": "출처 · OpenAI, Using GPT-6 · Initiative and follow-through",
+    "citationUrl": "https://developers.openai.com/api/docs/guides/latest-model#initiative-and-follow-through",
+    "highlightLines": [
+      2,
+      3,
+      5
+    ]
   },
   {
     "id": "S27",
@@ -176,7 +221,16 @@ export const recipes = [
       "https://developers.openai.com/api/docs/guides/reasoning-best-practices"
     ],
     "takeaway": "큰 작업이라는 이유만으로 잘게 나누거나 승인 단계를 늘리지 않는다.",
-    "variant": "T03-A"
+    "variant": "T03-A",
+    "displayMethod": "Task Decomposition",
+    "methodMeaning": "검토할 산출물과 단계 구분",
+    "visibleCitation": "출처 · OpenAI, Best practices · Plan first for difficult tasks",
+    "citationUrl": "https://learn.chatgpt.com/guides/best-practices#plan-first-for-difficult-tasks",
+    "highlightLines": [
+      1,
+      2,
+      3
+    ]
   },
   {
     "id": "S28",
@@ -205,7 +259,16 @@ export const recipes = [
       "https://developers.openai.com/api/docs/guides/latest-model"
     ],
     "takeaway": "S31은 설명 근거, S34는 변경안의 위반 검토다. 문제 개수를 억지로 채우지 않는다.",
-    "variant": "T03-A"
+    "variant": "T03-A",
+    "displayMethod": "Criteria-based Review",
+    "methodMeaning": "기준을 지정한 변경 검토",
+    "visibleCitation": "출처 · OpenAI, Best practices · Improve reliability with testing and review",
+    "citationUrl": "https://learn.chatgpt.com/guides/best-practices#improve-reliability-with-testing-and-review",
+    "highlightLines": [
+      1,
+      2,
+      3
+    ]
   },
   {
     "id": "S29",
@@ -233,30 +296,121 @@ export const recipes = [
       "https://learn.chatgpt.com/docs/prompting"
     ],
     "takeaway": "고친 요청에도 다음 작업에 다시 적을 공통 조건이 남는지 S36으로 연결한다.",
-    "variant": "T03-A"
+    "variant": "T03-A",
+    "displayMethod": "Iterative Refinement",
+    "methodMeaning": "구체적 피드백으로 결과 수정",
+    "visibleCitation": "출처 · OpenAI, Prompting · Improve the result with follow-up messages",
+    "citationUrl": "https://learn.chatgpt.com/docs/prompting#improve-the-result-with-follow-up-messages",
+    "highlightLines": [
+      1,
+      2,
+      4
+    ]
   }
 ];
 
 export function promptTechniqueFactories(H) {
  const {C,text,line,rect} = H;
+ const down = (s,x,y) => s.shapes.add({geometry:'downArrow',
+  position:{left:x,top:y,width:16,height:20},fill:C.teal,
+  line:{fill:'none',width:0}});
+ const label = (s,t,x,y,w=340,size=28,color=C.ink,bold=false) =>
+  text(s,t,x,y,w,36,size,color,bold);
+ const rule = (s,y) => line(s,876,y,340,C.line,1);
+ const number = (s,n,t,y,body) => {
+  label(s,n,876,y,44,23,C.teal,true);
+  label(s,t,924,y,292,29,C.ink,true);
+  if(body)label(s,body,924,y+35,292,23,C.sub);
+ };
+ function diagram(s,r) {
+  const x=876;
+  switch(r.current) {
+   case 'S28':
+    label(s,'구획마다 읽는 역할',x,275,340,29,C.ink,true);
+    // These labels describe roles, not an observed execution sequence.
+    [['# 요청','따라야 할 지시'],['# 참고 명세','비교할 기준'],['# 참고 로그','분석할 관찰 자료']].forEach(([a,b],i)=>{
+     const y=331+i*67;label(s,a,x,y,340,25,C.teal,true);
+     label(s,b,x,y+29,340,29,C.ink);if(i<2)rule(s,y+63);
+    });break;
+   case 'S29':
+    label(s,'예시를 추가할까?',x,275,340,29,C.ink,true);
+    label(s,'간단히 요청',x,326,340,31,C.teal,true);down(s,x+151,368);
+    label(s,'팀 기준이 전달됐나?',x,397,340,28);
+    label(s,'예',x,451,53,25,C.green,true);label(s,'그대로 사용',x+65,451,275,28);
+    label(s,'아니오',x,497,85,25,C.warn,true);label(s,'예시 추가',x+103,497,237,28,C.teal,true);break;
+   case 'S30':
+    label(s,'받을 보고서의 구조',x,275,340,29,C.ink,true);
+    ['변경 파일과 이유','실행한 검사·결과','미실행 검사·이유','남은 위험·결정'].forEach((t,i)=>{
+     const y=326+i*53;label(s,String(i+1).padStart(2,'0'),x,y,44,23,C.teal,true);
+     label(s,t,x+54,y,286,27);rule(s,y+44);
+    });break;
+   case 'S31':
+    label(s,'결론을 뒷받침하는 자료',x,275,340,27,C.ink,true);
+    ['명세','구현','테스트'].forEach((t,i)=>{
+     rect(s,x+i*117,335,106,55,C.white,C.line,1);
+     text(s,t,x+i*117,335,106,55,26,C.teal,true,H.FONT,'center');
+    });
+    down(s,x+151,406);label(s,'중요한 결론',x,445,340,32,C.ink,true);
+    label(s,'확인 · 추정 · 미확인 구분',x,499,340,25,C.sub);break;
+   case 'S32':
+    label(s,'무엇을 질문할까?',x,275,340,29,C.ink,true);
+    label(s,'문서·코드를 조사',x,326,340,29,C.teal,true);down(s,x+151,368);
+    label(s,'결정할 정책이 남았나?',x,398,340,27);
+    label(s,'없음',x,451,66,25,C.green,true);label(s,'근거로 진행',x+82,451,258,27);
+    label(s,'있음',x,497,66,25,C.warn,true);label(s,'영향 설명·질문',x+82,497,258,27,C.teal,true);break;
+   case 'S33':
+    label(s,'검토할 산출물',x,275,340,29,C.ink,true);
+    number(s,'01','현재 경로와 후보',330,'조사해서 확인');rule(s,399);
+    number(s,'02','구현 전 계획',408,'선택할 범위·영향');rule(s,477);
+    number(s,'03','구현 범위 선택',486);break;
+   case 'S34':
+    label(s,'변경안을 볼 기준',x,275,340,29,C.ink,true);
+    ['명세와 맞는가?','공개 API를 보존했나?','요청한 범위만 바꿨나?'].forEach((t,i)=>{
+     const y=331+i*49;label(s,t,x,y,340,27,C.teal,true);rule(s,y+40);
+    });
+    label(s,'발견 사항의 근거',x,489,340,24,C.sub,true);
+    label(s,'위치 · 실패 조건 · 영향',x,518,340,25,C.ink);break;
+   case 'S35':
+    label(s,'피드백에서 지정할 것',x,275,340,28,C.ink,true);
+    number(s,'01','어긋난 지점',330,'기대 폭을 바꾸자는 제안');rule(s,399);
+    number(s,'02','판단의 근거',408,'명세의 기대 폭 2');rule(s,477);
+    number(s,'03','유지할 조건',486,'테스트 · API · 의존성');break;
+  }
+ }
  return Object.fromEntries(recipes.map((r,index) => [r.id,p => {
-  const s = H.frame(p,r.id,r.title,
+  const s=H.frame(p,r.id,r.title,
    `ACT 1 · 요청 문장 도구 ${index+1}/8 · ${r.tier}`,
-   r.source,r.limit,'CONCEPTUAL');
-  rect(s,64,170,186,40,C.pale);
-  text(s,'이럴 때 사용',76,170,162,40,24,C.teal,true);
-  text(s,r.when,274,170,942,40,27,C.ink);
-  rect(s,64,226,754,328,C.white,C.line,1);
-  text(s,r.promptLabel ?? '요청 예시',84,237,714,30,23,C.sub,true);
-  line(s,84,277,714);
-  text(s,r.prompt,84,290,714,246,29,C.ink,false,H.FONT);
-  r.labels.forEach(([label,body],i) => {
-   const y = 237+i*156;
-   text(s,label,864,y,352,35,26,C.teal,true);
-   line(s,864,y+44,352);
-   text(s,body,864,y+56,352,90,30,C.ink);
-  });
-  text(s,r.message,64,562,1152,38,30,C.teal,true);
+   r.visibleCitation,r.limit,'CONCEPTUAL');
+  text(s,r.displayMethod,64,153,780,42,31,C.teal,true);
+  text(s,r.methodMeaning,856,153,360,42,23,C.sub,false,H.FONT,'right');
+  text(s,'사용 상황',64,208,142,36,24,C.sub,true);
+  text(s,r.when,222,208,994,36,27,C.ink);
+  line(s,64,254,1152,C.line,1);
+  rect(s,64,270,776,284,C.white,C.line,1);
+  text(s,r.promptLabel ?? '요청 예시',84,279,736,30,22,C.sub,true);
+  line(s,84,315,736,C.line,1);
+  if(r.current==='S29') {
+   text(s,'우리 팀의 보고 표기를 아래 예시처럼 맞춰줘.',84,324,736,33,28,C.ink);
+   [['테스트 로그 있음','[실행 확인] 명령·결과'],['코드만 검토함','[코드 검토] 파일·판단'],['근거를 못 찾음','[미확인] 필요한 자료']].forEach(([a,b],i)=>{
+    const y=365+i*43;rect(s,84,y,736,38,C.pale);
+    text(s,a,94,y,265,38,27,C.ink);
+    H.arrow(s,374,y+12,24,14,C.teal);
+    text(s,b,419,y,391,38,27,C.teal,true);
+   });
+   text(s,'첨부한 변경 보고서를 같은 형식으로 정리해줘.',84,506,736,34,27,C.ink);
+  } else {
+   const lines=r.prompt.split('\n');
+   const lineHeight=lines.length===7?31:34;
+   const top=lines.length===7?324:332;
+   lines.forEach((t,i)=>{
+    const y=top+i*lineHeight;
+    const emphasis=r.highlightLines.includes(i);
+    if(emphasis&&t)rect(s,84,y,736,lineHeight,C.pale);
+    text(s,t,94,y,716,lineHeight,28,emphasis?C.teal:C.ink,emphasis);
+   });
+  }
+  diagram(s,r);
+  text(s,r.message,64,562,1152,38,29,C.teal,true);
   return s;
  }]));
 }

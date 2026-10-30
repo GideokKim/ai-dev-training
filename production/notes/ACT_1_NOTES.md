@@ -814,8 +814,8 @@ Opening Question:
 “요청과 로그·명세가 한 메시지에 섞일 때, 어떤 요청 문장이 도움이 될까요?”
 
 Speaker Flow:
-1. 0:00–0:15: 상단의 “조건부”과 “이럴 때 사용”을 짚는다. 핵심5개는 교육 우선순위이며 모든 요청에 의무로 넣는 뜻은 아니다. 조건부3개는 해당 상황일 때만 선택한다.
-2. 0:15–0:45: 요청 예시의 핵심 두세 행과 오른쪽 선택 기준만 연결한다. 구획의 존재보다 지시와 참고 자료의 역할을 구분한다.
+1. 0:00–0:15: 기법/접근명 “Delimiters”와 사용 상황을 짚는다. 지시와 참고 자료의 구획이라는 뜻이다. 핵심/조건부는 사용 선택을 돕는 교육 우선순위다.
+2. 0:15–0:45: 요청/명세/로그 구획의 강조색을 보고, 오른쪽의 지시/비교 기준/관찰 자료 역할과 연결한다. 요청 전문 대신 강조한 핵심 문장만 읽는다.
 
 ```text
 # 요청
@@ -827,10 +827,11 @@ crop [1,3)의 기대 폭은 2
 expected=2, actual=3
 ```
 
-3. 0:45–1:00: “여러 자료가 섞일 때, 제목으로 읽을 경계를 표시한다.”를 회수하고 다음 장으로 이동한다. 자료의 구획 다음에는, 모델이 모르는 팀 고유 표기를 예시로 알려주는 S29로 이동한다.
+3. 0:45–1:00: 하단의 한 문장으로 회수하고 기존 Transition으로 이동한다. 출처 행의 문서명·절은 이 접근을 뒷받침하는 권고이며 교육 예시의 실행 효과를 입증하지 않는다.
 
 Evidence / Source:
 CLM-0032; SRC-0230, SRC-0231. 공식 문서 본문을2026-10-30 재확인했다. https://developers.openai.com/api/docs/guides/prompt-engineering; https://developers.openai.com/api/docs/guides/reasoning-best-practices. 문서별 절·지원 범위·기존2026-10-21 판본은 references/product/PROMPT_ENGINEERING_2026-10-30.md와 references/sources/SOURCES.md를 따른다. SRC-0243의 모델별 지침 재검토는 GPT-6 Astra 사례이며 전 모델의 효과를 입증하지 않는다.
+화면 출처: 출처 · OpenAI, Prompt engineering · Message formatting with Markdown and XML. 원문 절: https://developers.openai.com/api/docs/guides/prompt-engineering#message-formatting-with-markdown-and-xml. 기법/접근 표시: Delimiters.
 
 Claim Boundary:
 교육용 요청 문장이다. 실제 TRIAL-002의 원문·행동 기록·추가 실행·비교 실험이 아니다. 구획은 해석을 돕는 표시이며, 보안 격리를 보장하지 않는다.  공식 권고의 존재와 교육 예시의 성공·정확도·비용·시간·성능 효과를 구분한다. 회사 계정/제품 표면이나 모든 모델의 동일한 동작을 검증한 것이 아니다.
@@ -840,6 +841,7 @@ Beginner Explanation:
 
 Advanced Insight:
 제목·태그는 논리적 구획이다. 모든 짧은 요청에 XML을 붙일 필요가 없고 자료의 진위·보안 격리를 보장하지 않는다.
+명칭은 실무에서 쓰는 기법 또는 설명용 접근 이름이다. OpenAI가 이8개를 같은 이름의 표준 분류로 공인했다는 뜻은 아니다. 특히 Output Format Specification과 Criteria-based Review는 출력 구조 지정·기준 리뷰를 설명하는 실무 표기다. Task Decomposition은 여기서 조사/계획/검토할 범위를 나누는 방식으로 적용하며 특정 Plan-and-Solve/CoT 논문 기법과 동일시하지 않는다.
 
 C++ Vision Bridge:
 기존 crop/ROI 업무에 적용하는 요청 예시다. 실제 Trial은 기존 Python 기록이며 C++/GoogleTest 실행·새 오류 정책을 추가하지 않는다.
@@ -860,7 +862,7 @@ Fallback:
 production/ACT_1.pptx S28 또는 production/preview/act1/S28.png의 정적 화면. 교육용 예시와 실제 Trial을 구분한다. 외부 접속 없이 예시를 설명하고 현재 제품 시연으로 대체하지 않는다.
 
 Validation Status:
-ALIGNED — DEC-0116. 최종 PPT/Notes/렌더 검사는 production/evaluation/PROMPT_METHODS_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0117. 화면 기법명·인용 절·강조 문장·도식과19필드 Notes를 맞췄다. 최종 검사: production/evaluation/PROMPT_TECHNIQUE_DESIGN_REVISION.md. Windows·발표PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S29 — 입력과 기대 결과의 작은 예시
 
@@ -886,8 +888,8 @@ Opening Question:
 “사내 고유 표기·분류가 설명만으로 안 맞을 때, 어떤 요청 문장이 도움이 될까요?”
 
 Speaker Flow:
-1. 0:00–0:15: 상단의 “조건부”과 “이럴 때 사용”을 짚는다. 핵심5개는 교육 우선순위이며 모든 요청에 의무로 넣는 뜻은 아니다. 조건부3개는 해당 상황일 때만 선택한다.
-2. 0:15–0:45: 요청 예시의 핵심 두세 행과 오른쪽 선택 기준만 연결한다. 예시를 먼저 쌓지 않고 간단한 요청이 부족할 때 추가한다.
+1. 0:00–0:15: 기법/접근명 “Few-shot Prompting”와 사용 상황을 짚는다. 입력·출력 예시로 기준 전달이라는 뜻이다. 핵심/조건부는 사용 선택을 돕는 교육 우선순위다.
+2. 0:15–0:45: 세 입력 상태에서 팀 표기로 이어지는 예시 대응을 가리킨다. 오른쪽에서 간단히 요청→팀 기준 전달 여부→필요할 때만 예시 추가를 확인한다. 화살표는 예시의 입력/출력 대응이며 실제 실행 기록이 아니다. 요청 전문 대신 강조한 핵심 문장만 읽는다.
 
 ```text
 우리 팀의 보고 표기를 아래 예시처럼 맞춰줘.
@@ -898,11 +900,12 @@ Speaker Flow:
 첨부한 변경 보고서를 같은 형식으로 정리해줘.
 ```
 
-3. 0:45–1:00: “모델이 모르는 우리 기준을 입력·출력 예시로 전달한다.”를 회수하고 다음 장으로 이동한다. 예시가 필요한 상황을 확인했다. 다음 S30에서는 보고 전체의 항목과 읽을 순서를 정한다.
-S29의 팀 기준은 교육용 가정이며 실제 회사 규정을 제공받거나 검증한 것이 아니다. 첨부 보고서는 수강자가 자기 자료로 바꿔 넣는 자리다. [실행 확인]은 실제 명령·결과 근거가 있을 때만 쓰며 이 화면에 실행 결과를 제시하지 않는다.
+3. 0:45–1:00: 하단의 한 문장으로 회수하고 기존 Transition으로 이동한다. 출처 행의 문서명·절은 이 접근을 뒷받침하는 권고이며 교육 예시의 실행 효과를 입증하지 않는다.
+실제 회사의 규정을 제공받은 것이 아니다. 입력 상태와 표기는 가상 팀의 보고 기준 예시이며 수강자가 자신의 실제 보고서와 기준으로 바꿔 사용한다.
 
 Evidence / Source:
 CLM-0033; SRC-0230, SRC-0231. 공식 문서 본문을2026-10-30 재확인했다. https://developers.openai.com/api/docs/guides/reasoning-best-practices; https://developers.openai.com/api/docs/guides/prompt-engineering. 문서별 절·지원 범위·기존2026-10-21 판본은 references/product/PROMPT_ENGINEERING_2026-10-30.md와 references/sources/SOURCES.md를 따른다. SRC-0243의 모델별 지침 재검토는 GPT-6 Astra 사례이며 전 모델의 효과를 입증하지 않는다.
+화면 출처: 출처 · OpenAI, Reasoning best practices · How to prompt reasoning models effectively. 원문 절: https://developers.openai.com/api/docs/guides/reasoning-best-practices#how-to-prompt-reasoning-models-effectively. 기법/접근 표시: Few-shot Prompting.
 
 Claim Boundary:
 교육용 요청 문장이다. 실제 TRIAL-002의 원문·행동 기록·추가 실행·비교 실험이 아니다. 가상 팀의 보고 기준 · 실제 사내 규정이나 실행 결과가 아님 S29의 팀 기준은 교육용 가정이며 실제 회사 규정을 제공받거나 검증한 것이 아니다. 첨부 보고서는 수강자가 자기 자료로 바꿔 넣는 자리다. [실행 확인]은 실제 명령·결과 근거가 있을 때만 쓰며 이 화면에 실행 결과를 제시하지 않는다. 공식 권고의 존재와 교육 예시의 성공·정확도·비용·시간·성능 효과를 구분한다. 회사 계정/제품 표면이나 모든 모델의 동일한 동작을 검증한 것이 아니다.
@@ -912,6 +915,7 @@ Beginner Explanation:
 
 Advanced Insight:
 공식 추론 가이드는 zero-shot부터 시도하고 필요한 경우 정렬된 예시를 추가하도록 권한다. 일반 배열 인덱싱을 다시 가르치지 않고 업무 고유 표기·분류에 적용한다. 예시는 전체 정책·명세를 대신하지 않는다.
+명칭은 실무에서 쓰는 기법 또는 설명용 접근 이름이다. OpenAI가 이8개를 같은 이름의 표준 분류로 공인했다는 뜻은 아니다. 특히 Output Format Specification과 Criteria-based Review는 출력 구조 지정·기준 리뷰를 설명하는 실무 표기다. Task Decomposition은 여기서 조사/계획/검토할 범위를 나누는 방식으로 적용하며 특정 Plan-and-Solve/CoT 논문 기법과 동일시하지 않는다.
 
 C++ Vision Bridge:
 검사 프로젝트의 변경 보고에 적용할 수 있는 가상 팀 표기 예시다. 실제 회사 정책·장비 판정·실행 결과를 새로 확정하지 않는다.
@@ -932,7 +936,7 @@ Fallback:
 production/ACT_1.pptx S29 또는 production/preview/act1/S29.png의 정적 화면. 교육용 예시와 실제 Trial을 구분한다. 외부 접속 없이 예시를 설명하고 현재 제품 시연으로 대체하지 않는다.
 
 Validation Status:
-ALIGNED — DEC-0116. 최종 PPT/Notes/렌더 검사는 production/evaluation/PROMPT_METHODS_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0117. 화면 기법명·인용 절·강조 문장·도식과19필드 Notes를 맞췄다. 최종 검사: production/evaluation/PROMPT_TECHNIQUE_DESIGN_REVISION.md. Windows·발표PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S30 — 바로 검토할 수 있는 결과 형식
 
@@ -958,8 +962,8 @@ Opening Question:
 “완료 보고에서 필요한 정보를 빨리 찾고 싶을 때, 어떤 요청 문장이 도움이 될까요?”
 
 Speaker Flow:
-1. 0:00–0:15: 상단의 “핵심”과 “이럴 때 사용”을 짚는다. 핵심5개는 교육 우선순위이며 모든 요청에 의무로 넣는 뜻은 아니다. 조건부3개는 해당 상황일 때만 선택한다.
-2. 0:15–0:45: 요청 예시의 핵심 두세 행과 오른쪽 선택 기준만 연결한다. 기계적인 문장 수 제한보다 필요한 보고 항목을 정한다.
+1. 0:00–0:15: 기법/접근명 “Output Format Specification”와 사용 상황을 짚는다. 받을 결과의 구조 지정이라는 뜻이다. 핵심/조건부는 사용 선택을 돕는 교육 우선순위다.
+2. 0:15–0:45: 강조한 네 보고 항목을 오른쪽 보고서 구조의01–04와 대응시킨다. 보고 항목을 정하는 것이며 실행한 결과를 새로 보여주지 않는다. 요청 전문 대신 강조한 핵심 문장만 읽는다.
 
 ```text
 crop 수정 결과를 아래 항목으로 보고해줘.
@@ -970,10 +974,11 @@ crop 수정 결과를 아래 항목으로 보고해줘.
 완료 판단에 필요한 근거는 생략하지 마.
 ```
 
-3. 0:45–1:00: “검토에 필요한 항목을 지정하고, 중요한 근거는 남긴다.”를 회수하고 다음 장으로 이동한다. 보고 항목이 있어도 설명의 근거는 따로 확인한다. S31에서 중요한 판단을 자료와 연결한다.
+3. 0:45–1:00: 하단의 한 문장으로 회수하고 기존 Transition으로 이동한다. 출처 행의 문서명·절은 이 접근을 뒷받침하는 권고이며 교육 예시의 실행 효과를 입증하지 않는다.
 
 Evidence / Source:
 CLM-0034; SRC-0233, SRC-0234. 공식 문서 본문을2026-10-30 재확인했다. https://learn.chatgpt.com/docs/prompting; https://developers.openai.com/api/docs/guides/structured-outputs. 문서별 절·지원 범위·기존2026-10-21 판본은 references/product/PROMPT_ENGINEERING_2026-10-30.md와 references/sources/SOURCES.md를 따른다. SRC-0243의 모델별 지침 재검토는 GPT-6 Astra 사례이며 전 모델의 효과를 입증하지 않는다.
+화면 출처: 출처 · OpenAI, Prompting · Make the result ready to use. 원문 절: https://learn.chatgpt.com/docs/prompting#make-the-result-ready-to-use. 기법/접근 표시: Output Format Specification.
 
 Claim Boundary:
 교육용 요청 문장이다. 실제 TRIAL-002의 원문·행동 기록·추가 실행·비교 실험이 아니다. 형식과 내용은 별도 확인 · 채팅의 형식 요청은 API Structured Outputs와 다름  공식 권고의 존재와 교육 예시의 성공·정확도·비용·시간·성능 효과를 구분한다. 회사 계정/제품 표면이나 모든 모델의 동일한 동작을 검증한 것이 아니다.
@@ -983,6 +988,7 @@ Beginner Explanation:
 
 Advanced Insight:
 고정된 두 문장 제한을 제거했다. 중요한 근거·위험을 담을 분량을 허용한다. 자연어의 표/JSON 요청과 API JSON Schema 기반 Structured Outputs는 다르고 형식 준수만으로 내용이 옳지는 않다.
+명칭은 실무에서 쓰는 기법 또는 설명용 접근 이름이다. OpenAI가 이8개를 같은 이름의 표준 분류로 공인했다는 뜻은 아니다. 특히 Output Format Specification과 Criteria-based Review는 출력 구조 지정·기준 리뷰를 설명하는 실무 표기다. Task Decomposition은 여기서 조사/계획/검토할 범위를 나누는 방식으로 적용하며 특정 Plan-and-Solve/CoT 논문 기법과 동일시하지 않는다.
 
 C++ Vision Bridge:
 기존 crop/ROI 업무에 적용하는 요청 예시다. 실제 Trial은 기존 Python 기록이며 C++/GoogleTest 실행·새 오류 정책을 추가하지 않는다.
@@ -1003,7 +1009,7 @@ Fallback:
 production/ACT_1.pptx S30 또는 production/preview/act1/S30.png의 정적 화면. 교육용 예시와 실제 Trial을 구분한다. 외부 접속 없이 예시를 설명하고 현재 제품 시연으로 대체하지 않는다.
 
 Validation Status:
-ALIGNED — DEC-0116. 최종 PPT/Notes/렌더 검사는 production/evaluation/PROMPT_METHODS_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0117. 화면 기법명·인용 절·강조 문장·도식과19필드 Notes를 맞췄다. 최종 검사: production/evaluation/PROMPT_TECHNIQUE_DESIGN_REVISION.md. Windows·발표PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S31 — 근거가 있는 설명과 미확인의 구분
 
@@ -1029,8 +1035,8 @@ Opening Question:
 “설명을 믿기 전에 실제 자료를 대조해야 할 때, 어떤 요청 문장이 도움이 될까요?”
 
 Speaker Flow:
-1. 0:00–0:15: 상단의 “핵심”과 “이럴 때 사용”을 짚는다. 핵심5개는 교육 우선순위이며 모든 요청에 의무로 넣는 뜻은 아니다. 조건부3개는 해당 상황일 때만 선택한다.
-2. 0:15–0:45: 요청 예시의 핵심 두세 행과 오른쪽 선택 기준만 연결한다. S30의 보고 형식과 달리 여기서는 판단을 뒷받침하는 자료를 다룬다.
+1. 0:00–0:15: 기법/접근명 “Grounding”와 사용 상황을 짚는다. 설명을 실제 자료에 연결이라는 뜻이다. 핵심/조건부는 사용 선택을 돕는 교육 우선순위다.
+2. 0:15–0:45: 강조한 파일·함수 근거와 확인/추정/미확인 구분을 읽고, 오른쪽의 명세·구현·테스트가 결론을 뒷받침하는 관계를 확인한다. 도식은 특정 자료에서 새 결론을 실제 도출했다는 기록이 아니다. 요청 전문 대신 강조한 핵심 문장만 읽는다.
 
 ```text
 crop의 명세·구현·테스트를 비교해줘.
@@ -1040,10 +1046,11 @@ crop의 명세·구현·테스트를 비교해줘.
 없는 정책은 만들어 채우지 마.
 ```
 
-3. 0:45–1:00: “중요한 판단에 근거를 받고, 추정·미확인은 구분한다.”를 회수하고 다음 장으로 이동한다. 자료를 찾아도 정책이 없다면 사람이 선택해야 한다. S32에서 질문할 결정의 범위를 본다.
+3. 0:45–1:00: 하단의 한 문장으로 회수하고 기존 Transition으로 이동한다. 출처 행의 문서명·절은 이 접근을 뒷받침하는 권고이며 교육 예시의 실행 효과를 입증하지 않는다.
 
 Evidence / Source:
 CLM-0035; SRC-0230, SRC-0234. 공식 문서 본문을2026-10-30 재확인했다. https://learn.chatgpt.com/docs/prompting; https://developers.openai.com/api/docs/guides/prompt-engineering. 문서별 절·지원 범위·기존2026-10-21 판본은 references/product/PROMPT_ENGINEERING_2026-10-30.md와 references/sources/SOURCES.md를 따른다. SRC-0243의 모델별 지침 재검토는 GPT-6 Astra 사례이며 전 모델의 효과를 입증하지 않는다.
+화면 출처: 출처 · OpenAI, Prompting · Add useful context / Set boundaries. 원문 절: https://learn.chatgpt.com/docs/prompting#add-useful-context. 기법/접근 표시: Grounding.
 
 Claim Boundary:
 교육용 요청 문장이다. 실제 TRIAL-002의 원문·행동 기록·추가 실행·비교 실험이 아니다. 출처가 있어도 원문과 대조한다 · 인용 자체가 정확성의 보증은 아님  공식 권고의 존재와 교육 예시의 성공·정확도·비용·시간·성능 효과를 구분한다. 회사 계정/제품 표면이나 모든 모델의 동일한 동작을 검증한 것이 아니다.
@@ -1053,6 +1060,7 @@ Beginner Explanation:
 
 Advanced Insight:
 모든 사소한 문장에 줄 번호를 강제하지 않고 중요한 결론을 실제 자료와 연결한다. 보고 형식(S30), 설명의 근거(S31), 변경안 위반 검토(S34)의 역할을 구분한다.
+명칭은 실무에서 쓰는 기법 또는 설명용 접근 이름이다. OpenAI가 이8개를 같은 이름의 표준 분류로 공인했다는 뜻은 아니다. 특히 Output Format Specification과 Criteria-based Review는 출력 구조 지정·기준 리뷰를 설명하는 실무 표기다. Task Decomposition은 여기서 조사/계획/검토할 범위를 나누는 방식으로 적용하며 특정 Plan-and-Solve/CoT 논문 기법과 동일시하지 않는다.
 
 C++ Vision Bridge:
 기존 crop/ROI 업무에 적용하는 요청 예시다. 실제 Trial은 기존 Python 기록이며 C++/GoogleTest 실행·새 오류 정책을 추가하지 않는다.
@@ -1073,7 +1081,7 @@ Fallback:
 production/ACT_1.pptx S31 또는 production/preview/act1/S31.png의 정적 화면. 교육용 예시와 실제 Trial을 구분한다. 외부 접속 없이 예시를 설명하고 현재 제품 시연으로 대체하지 않는다.
 
 Validation Status:
-ALIGNED — DEC-0116. 최종 PPT/Notes/렌더 검사는 production/evaluation/PROMPT_METHODS_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0117. 화면 기법명·인용 절·강조 문장·도식과19필드 Notes를 맞췄다. 최종 검사: production/evaluation/PROMPT_TECHNIQUE_DESIGN_REVISION.md. Windows·발표PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S32 — 결과를 바꾸는 결정에서 확인 질문
 
@@ -1099,8 +1107,8 @@ Opening Question:
 “사람의 선택에 따라 구현이나 완료 기준이 바뀔 때, 어떤 요청 문장이 도움이 될까요?”
 
 Speaker Flow:
-1. 0:00–0:15: 상단의 “핵심”과 “이럴 때 사용”을 짚는다. 핵심5개는 교육 우선순위이며 모든 요청에 의무로 넣는 뜻은 아니다. 조건부3개는 해당 상황일 때만 선택한다.
-2. 0:15–0:45: 요청 예시의 핵심 두세 행과 오른쪽 선택 기준만 연결한다. 조사 가능한 사실을 모두 사람에게 되묻지 않도록 범위를 정한다.
+1. 0:00–0:15: 기법/접근명 “Clarifying Questions”와 사용 상황을 짚는다. 결과를 바꾸는 결정 확인이라는 뜻이다. 핵심/조건부는 사용 선택을 돕는 교육 우선순위다.
+2. 0:15–0:45: 정책이 없을 때의 질문과 독립 조사 계속 문장을 짚고, 오른쪽에서 조사 후 남은 결정의 유무에 따라 진행/질문이 갈리는 구조를 본다. 요청 전문 대신 강조한 핵심 문장만 읽는다.
 
 ```text
 빈 crop 범위의 처리 정책을 조사해줘.
@@ -1111,10 +1119,11 @@ Speaker Flow:
 결정과 무관한 조사는 계속해줘.
 ```
 
-3. 0:45–1:00: “조사할 사실은 찾게 하고, 결과를 바꾸는 결정은 묻는다.”를 회수하고 다음 장으로 이동한다. 사람의 결정이 필요한 변경은 구현 전에 검토할 계획을 받을 수 있다. S33에서 그 사용 조건을 본다.
+3. 0:45–1:00: 하단의 한 문장으로 회수하고 기존 Transition으로 이동한다. 출처 행의 문서명·절은 이 접근을 뒷받침하는 권고이며 교육 예시의 실행 효과를 입증하지 않는다.
 
 Evidence / Source:
 CLM-0036; SRC-0234, SRC-0235, SRC-0243. 공식 문서 본문을2026-10-30 재확인했다. https://developers.openai.com/api/docs/guides/latest-model; https://learn.chatgpt.com/docs/prompting. 문서별 절·지원 범위·기존2026-10-21 판본은 references/product/PROMPT_ENGINEERING_2026-10-30.md와 references/sources/SOURCES.md를 따른다. SRC-0243의 모델별 지침 재검토는 GPT-6 Astra 사례이며 전 모델의 효과를 입증하지 않는다.
+화면 출처: 출처 · OpenAI, Using GPT-6 · Initiative and follow-through. 원문 절: https://developers.openai.com/api/docs/guides/latest-model#initiative-and-follow-through. 기법/접근 표시: Clarifying Questions.
 
 Claim Boundary:
 교육용 요청 문장이다. 실제 TRIAL-002의 원문·행동 기록·추가 실행·비교 실험이 아니다. 모든 세부를 질문하지 않는다 · 결정과 무관한 허용된 작업은 계속 진행  공식 권고의 존재와 교육 예시의 성공·정확도·비용·시간·성능 효과를 구분한다. 회사 계정/제품 표면이나 모든 모델의 동일한 동작을 검증한 것이 아니다.
@@ -1124,6 +1133,7 @@ Beginner Explanation:
 
 Advanced Insight:
 질문 기준은 결과를 바꾸는 의도·명세·조건의 결정이다. 자료에서 조사할 사실을 모두 사용자에게 되묻지 않는다. 승인이 필요한 결정에 의존하는 작업만 대기하고 승인된 독립 조사는 계속한다.
+명칭은 실무에서 쓰는 기법 또는 설명용 접근 이름이다. OpenAI가 이8개를 같은 이름의 표준 분류로 공인했다는 뜻은 아니다. 특히 Output Format Specification과 Criteria-based Review는 출력 구조 지정·기준 리뷰를 설명하는 실무 표기다. Task Decomposition은 여기서 조사/계획/검토할 범위를 나누는 방식으로 적용하며 특정 Plan-and-Solve/CoT 논문 기법과 동일시하지 않는다.
 
 C++ Vision Bridge:
 기존 crop/ROI 업무에 적용하는 요청 예시다. 실제 Trial은 기존 Python 기록이며 C++/GoogleTest 실행·새 오류 정책을 추가하지 않는다.
@@ -1144,7 +1154,7 @@ Fallback:
 production/ACT_1.pptx S32 또는 production/preview/act1/S32.png의 정적 화면. 교육용 예시와 실제 Trial을 구분한다. 외부 접속 없이 예시를 설명하고 현재 제품 시연으로 대체하지 않는다.
 
 Validation Status:
-ALIGNED — DEC-0116. 최종 PPT/Notes/렌더 검사는 production/evaluation/PROMPT_METHODS_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0117. 화면 기법명·인용 절·강조 문장·도식과19필드 Notes를 맞췄다. 최종 검사: production/evaluation/PROMPT_TECHNIQUE_DESIGN_REVISION.md. Windows·발표PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S33 — 큰 작업을 검토할 결과물로 나누기
 
@@ -1170,8 +1180,8 @@ Opening Question:
 “조사 결과를 보고 구현 범위를 결정해야 할 때, 어떤 요청 문장이 도움이 될까요?”
 
 Speaker Flow:
-1. 0:00–0:15: 상단의 “조건부”과 “이럴 때 사용”을 짚는다. 핵심5개는 교육 우선순위이며 모든 요청에 의무로 넣는 뜻은 아니다. 조건부3개는 해당 상황일 때만 선택한다.
-2. 0:15–0:45: 요청 예시의 핵심 두세 행과 오른쪽 선택 기준만 연결한다. 큰 작업이라는 이유만으로 잘게 나누거나 승인 단계를 늘리지 않는다.
+1. 0:00–0:15: 기법/접근명 “Task Decomposition”와 사용 상황을 짚는다. 검토할 산출물과 단계 구분이라는 뜻이다. 핵심/조건부는 사용 선택을 돕는 교육 우선순위다.
+2. 0:15–0:45: 조사·선택 지점·수정 없는 계획 문장을 짚는다. 오른쪽01 조사 산출물/02 구현 전 계획/03 범위 선택은 사람이 검토할 결과의 경계다. 요청 전문 대신 강조한 핵심 문장만 읽는다.
 
 ```text
 ROI 설정을 crop에 연결하려 한다.
@@ -1182,10 +1192,11 @@ ROI 설정을 crop에 연결하려 한다.
 계획을 검토한 뒤 구현 범위를 정하겠다.
 ```
 
-3. 0:45–1:00: “중간 판단이 필요한 작업은, 구현 전에 검토할 계획을 받는다.”를 회수하고 다음 장으로 이동한다. 계획 뒤의 변경안에서 무엇을 중점 검토할지 S34로 연결한다.
+3. 0:45–1:00: 하단의 한 문장으로 회수하고 기존 Transition으로 이동한다. 출처 행의 문서명·절은 이 접근을 뒷받침하는 권고이며 교육 예시의 실행 효과를 입증하지 않는다.
 
 Evidence / Source:
 CLM-0037; SRC-0231, SRC-0232, SRC-0243. 공식 문서 본문을2026-10-30 재확인했다. https://learn.chatgpt.com/guides/best-practices; https://developers.openai.com/api/docs/guides/reasoning-best-practices. 문서별 절·지원 범위·기존2026-10-21 판본은 references/product/PROMPT_ENGINEERING_2026-10-30.md와 references/sources/SOURCES.md를 따른다. SRC-0243의 모델별 지침 재검토는 GPT-6 Astra 사례이며 전 모델의 효과를 입증하지 않는다.
+화면 출처: 출처 · OpenAI, Best practices · Plan first for difficult tasks. 원문 절: https://learn.chatgpt.com/guides/best-practices#plan-first-for-difficult-tasks. 기법/접근 표시: Task Decomposition.
 
 Claim Boundary:
 교육용 요청 문장이다. 실제 TRIAL-002의 원문·행동 기록·추가 실행·비교 실험이 아니다. 작업 계획과 검토 지점을 요청한다 · 내부 사고 과정의 출력을 요구하지 않음  공식 권고의 존재와 교육 예시의 성공·정확도·비용·시간·성능 효과를 구분한다. 회사 계정/제품 표면이나 모든 모델의 동일한 동작을 검증한 것이 아니다.
@@ -1195,6 +1206,7 @@ Beginner Explanation:
 
 Advanced Insight:
 작업이 크다는 이유만으로 세분화하거나 단계별 승인을 의무화하지 않는다. 조사 결과에 따라 구현 범위·호환성 선택이 바뀔 때 계획 산출물이 필요하다. 작업 계획 요청은 내부 사고 과정 공개와 다르다.
+명칭은 실무에서 쓰는 기법 또는 설명용 접근 이름이다. OpenAI가 이8개를 같은 이름의 표준 분류로 공인했다는 뜻은 아니다. 특히 Output Format Specification과 Criteria-based Review는 출력 구조 지정·기준 리뷰를 설명하는 실무 표기다. Task Decomposition은 여기서 조사/계획/검토할 범위를 나누는 방식으로 적용하며 특정 Plan-and-Solve/CoT 논문 기법과 동일시하지 않는다.
 
 C++ Vision Bridge:
 기존 crop/ROI 업무에 적용하는 요청 예시다. 실제 Trial은 기존 Python 기록이며 C++/GoogleTest 실행·새 오류 정책을 추가하지 않는다.
@@ -1215,7 +1227,7 @@ Fallback:
 production/ACT_1.pptx S33 또는 production/preview/act1/S33.png의 정적 화면. 교육용 예시와 실제 Trial을 구분한다. 외부 접속 없이 예시를 설명하고 현재 제품 시연으로 대체하지 않는다.
 
 Validation Status:
-ALIGNED — DEC-0116. 최종 PPT/Notes/렌더 검사는 production/evaluation/PROMPT_METHODS_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0117. 화면 기법명·인용 절·강조 문장·도식과19필드 Notes를 맞췄다. 최종 검사: production/evaluation/PROMPT_TECHNIQUE_DESIGN_REVISION.md. Windows·발표PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S34 — 기준을 지정한 코드 리뷰 요청
 
@@ -1241,8 +1253,8 @@ Opening Question:
 “변경안에서 놓치면 안 될 문제를 검토할 때, 어떤 요청 문장이 도움이 될까요?”
 
 Speaker Flow:
-1. 0:00–0:15: 상단의 “핵심”과 “이럴 때 사용”을 짚는다. 핵심5개는 교육 우선순위이며 모든 요청에 의무로 넣는 뜻은 아니다. 조건부3개는 해당 상황일 때만 선택한다.
-2. 0:15–0:45: 요청 예시의 핵심 두세 행과 오른쪽 선택 기준만 연결한다. S31은 설명 근거, S34는 변경안의 위반 검토다. 문제 개수를 억지로 채우지 않는다.
+1. 0:00–0:15: 기법/접근명 “Criteria-based Review”와 사용 상황을 짚는다. 기준을 지정한 변경 검토이라는 뜻이다. 핵심/조건부는 사용 선택을 돕는 교육 우선순위다.
+2. 0:15–0:45: 명세·공개 API·변경 범위를 강조한 문장을 오른쪽 세 질문과 연결한다. 발견 사항은 위치·실패 조건·영향으로 보고하며 실제 검사와 정적 검토를 구분한다. 요청 전문 대신 강조한 핵심 문장만 읽는다.
 
 ```text
 crop 변경안에서 다음을 검토해줘.
@@ -1253,10 +1265,11 @@ crop 변경안에서 다음을 검토해줘.
 이번에는 코드를 바꾸지 마.
 ```
 
-3. 0:45–1:00: “검토 기준과 실패 조건을 지정하고, 실제 검사와 구분한다.”를 회수하고 다음 장으로 이동한다. 첫 제안이나 리뷰에서 요구와 다른 지점을 알았다면, S35에서 근거와 수정 범위를 전달한다.
+3. 0:45–1:00: 하단의 한 문장으로 회수하고 기존 Transition으로 이동한다. 출처 행의 문서명·절은 이 접근을 뒷받침하는 권고이며 교육 예시의 실행 효과를 입증하지 않는다.
 
 Evidence / Source:
 CLM-0038; SRC-0232, SRC-0235, SRC-0243. 공식 문서 본문을2026-10-30 재확인했다. https://learn.chatgpt.com/guides/best-practices; https://developers.openai.com/api/docs/guides/latest-model. 문서별 절·지원 범위·기존2026-10-21 판본은 references/product/PROMPT_ENGINEERING_2026-10-30.md와 references/sources/SOURCES.md를 따른다. SRC-0243의 모델별 지침 재검토는 GPT-6 Astra 사례이며 전 모델의 효과를 입증하지 않는다.
+화면 출처: 출처 · OpenAI, Best practices · Improve reliability with testing and review. 원문 절: https://learn.chatgpt.com/guides/best-practices#improve-reliability-with-testing-and-review. 기법/접근 표시: Criteria-based Review.
 
 Claim Boundary:
 교육용 요청 문장이다. 실제 TRIAL-002의 원문·행동 기록·추가 실행·비교 실험이 아니다. 리뷰에도 누락이 있을 수 있다 · 실행 근거와 사람의 완료 판단을 함께 확인  공식 권고의 존재와 교육 예시의 성공·정확도·비용·시간·성능 효과를 구분한다. 회사 계정/제품 표면이나 모든 모델의 동일한 동작을 검증한 것이 아니다.
@@ -1266,6 +1279,7 @@ Beginner Explanation:
 
 Advanced Insight:
 리뷰 관점은 업무별 실패 조건이다. 발견을 억지로 채우거나 전문가 역할만으로 정확성을 보장하지 않는다. 정적 분석과 실제 실행 근거를 구분하고 검사 범위는 변경 영향에 맞춘다. 이 예시는 검토 요청이므로 코드를 수정하지 않는다.
+명칭은 실무에서 쓰는 기법 또는 설명용 접근 이름이다. OpenAI가 이8개를 같은 이름의 표준 분류로 공인했다는 뜻은 아니다. 특히 Output Format Specification과 Criteria-based Review는 출력 구조 지정·기준 리뷰를 설명하는 실무 표기다. Task Decomposition은 여기서 조사/계획/검토할 범위를 나누는 방식으로 적용하며 특정 Plan-and-Solve/CoT 논문 기법과 동일시하지 않는다.
 
 C++ Vision Bridge:
 기존 crop/ROI 업무에 적용하는 요청 예시다. 실제 Trial은 기존 Python 기록이며 C++/GoogleTest 실행·새 오류 정책을 추가하지 않는다.
@@ -1286,7 +1300,7 @@ Fallback:
 production/ACT_1.pptx S34 또는 production/preview/act1/S34.png의 정적 화면. 교육용 예시와 실제 Trial을 구분한다. 외부 접속 없이 예시를 설명하고 현재 제품 시연으로 대체하지 않는다.
 
 Validation Status:
-ALIGNED — DEC-0116. 최종 PPT/Notes/렌더 검사는 production/evaluation/PROMPT_METHODS_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0117. 화면 기법명·인용 절·강조 문장·도식과19필드 Notes를 맞췄다. 최종 검사: production/evaluation/PROMPT_TECHNIQUE_DESIGN_REVISION.md. Windows·발표PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S35 — 구체적인 근거로 수정 방향 피드백
 
@@ -1312,8 +1326,8 @@ Opening Question:
 “첫 제안의 어떤 부분이 요구와 다른지 알 때, 어떤 요청 문장이 도움이 될까요?”
 
 Speaker Flow:
-1. 0:00–0:15: 상단의 “핵심”과 “이럴 때 사용”을 짚는다. 핵심5개는 교육 우선순위이며 모든 요청에 의무로 넣는 뜻은 아니다. 조건부3개는 해당 상황일 때만 선택한다.
-2. 0:15–0:45: 요청 예시의 핵심 두세 행과 오른쪽 선택 기준만 연결한다. 고친 요청에도 다음 작업에 다시 적을 공통 조건이 남는지 S36으로 연결한다.
+1. 0:00–0:15: 기법/접근명 “Iterative Refinement”와 사용 상황을 짚는다. 구체적 피드백으로 결과 수정이라는 뜻이다. 핵심/조건부는 사용 선택을 돕는 교육 우선순위다.
+2. 0:15–0:45: 명세의 폭2와 보존 조건의 강조를 오른쪽 어긋난 지점/판단 근거/유지 조건에 대응시킨다. 가상의 잘못된 제안을 근거로 고치는 요청이며 실제 응답 실패나 개선 성과가 아니다. 요청 전문 대신 강조한 핵심 문장만 읽는다.
 
 ```text
 앞선 “기대 폭을 3으로 바꾸자”는 제안을
@@ -1324,10 +1338,11 @@ Speaker Flow:
 바뀐 제안과 미확인 사항을 알려줘.
 ```
 
-3. 0:45–1:00: “어긋난 지점·기대 결과·유지할 조건으로 방향을 고친다.”를 회수하고 다음 장으로 이동한다. 요청을 구체화해도 다음 작업에 다시 적을 조건이 남습니다. S36에서 같은 crop 요청을 보며 찾아봅니다.
+3. 0:45–1:00: 하단의 한 문장으로 회수하고 기존 Transition으로 이동한다. 출처 행의 문서명·절은 이 접근을 뒷받침하는 권고이며 교육 예시의 실행 효과를 입증하지 않는다.
 
 Evidence / Source:
 CLM-0039; SRC-0234. 공식 문서 본문을2026-10-30 재확인했다. https://learn.chatgpt.com/docs/prompting. 문서별 절·지원 범위·기존2026-10-21 판본은 references/product/PROMPT_ENGINEERING_2026-10-30.md와 references/sources/SOURCES.md를 따른다. SRC-0243의 모델별 지침 재검토는 GPT-6 Astra 사례이며 전 모델의 효과를 입증하지 않는다.
+화면 출처: 출처 · OpenAI, Prompting · Improve the result with follow-up messages. 원문 절: https://learn.chatgpt.com/docs/prompting#improve-the-result-with-follow-up-messages. 기법/접근 표시: Iterative Refinement.
 
 Claim Boundary:
 교육용 요청 문장이다. 실제 TRIAL-002의 원문·행동 기록·추가 실행·비교 실험이 아니다. 앞선 제안은 가상 예시 · 반복 요청만으로 품질 향상을 보장하지 않음  공식 권고의 존재와 교육 예시의 성공·정확도·비용·시간·성능 효과를 구분한다. 회사 계정/제품 표면이나 모든 모델의 동일한 동작을 검증한 것이 아니다.
@@ -1337,6 +1352,7 @@ Beginner Explanation:
 
 Advanced Insight:
 막연한 반복·동의 요구 대신 명세와 실제 근거에 맞춰 범위를 좁힌다. 여기의 앞선 제안은 가상 구성이며 실제 실패 응답·반복 비교·개선률이 아니다. 다음 반복 Context 질문을 앞당겨 답하지 않는다.
+명칭은 실무에서 쓰는 기법 또는 설명용 접근 이름이다. OpenAI가 이8개를 같은 이름의 표준 분류로 공인했다는 뜻은 아니다. 특히 Output Format Specification과 Criteria-based Review는 출력 구조 지정·기준 리뷰를 설명하는 실무 표기다. Task Decomposition은 여기서 조사/계획/검토할 범위를 나누는 방식으로 적용하며 특정 Plan-and-Solve/CoT 논문 기법과 동일시하지 않는다.
 
 C++ Vision Bridge:
 기존 crop/ROI 업무에 적용하는 요청 예시다. 실제 Trial은 기존 Python 기록이며 C++/GoogleTest 실행·새 오류 정책을 추가하지 않는다.
@@ -1357,7 +1373,7 @@ Fallback:
 production/ACT_1.pptx S35 또는 production/preview/act1/S35.png의 정적 화면. 교육용 예시와 실제 Trial을 구분한다. 외부 접속 없이 예시를 설명하고 현재 제품 시연으로 대체하지 않는다.
 
 Validation Status:
-ALIGNED — DEC-0116. 최종 PPT/Notes/렌더 검사는 production/evaluation/PROMPT_METHODS_REVISION.md를 따른다. Windows PowerPoint·발표 PC 글꼴·교육장·제품/계정·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0117. 화면 기법명·인용 절·강조 문장·도식과19필드 Notes를 맞췄다. 최종 검사: production/evaluation/PROMPT_TECHNIQUE_DESIGN_REVISION.md. Windows·발표PC 글꼴·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
 
 ## S36 — 다음 작업에도 이 내용을 다시 적어야 할까?
 

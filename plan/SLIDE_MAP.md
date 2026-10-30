@@ -724,19 +724,21 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0032; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Delimiters와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 요청/명세/로그 구획의 강조색을 보고, 오른쪽의 지시/비교 기준/관찰 자료 역할과 연결한다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 구획은 해석을 돕는 표시이며, 보안 격리를 보장하지 않는다.
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 구획의 존재보다 지시와 참고 자료의 역할을 구분한다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Speaker Intent:** 기법명→사용 상황→강조 문장/도식 순서로1분에 설명한다. 구획의 존재보다 지시와 참고 자료의 역할을 구분한다. 모든 요청에 여덟 기법을 넣거나 공식 표준 분류로 암기시키지 않는다.
 - **Transition:** 자료의 구획 다음에는, 모델이 모르는 팀 고유 표기를 예시로 알려주는 S29로 이동한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0032, SRC-0230, SRC-0231, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 구획은 해석을 돕는 표시이며, 보안 격리를 보장하지 않는다.
+- **Audience Footer:** 출처 · OpenAI, Prompt engineering · Message formatting with Markdown and XML / 구획은 해석을 돕는 표시이며, 보안 격리를 보장하지 않는다.
 - **Prompt Tool Priority:** 조건부 — 명시한 상황이 있을 때만 추가한다.
+- **Visible Method / Approach:** Delimiters — 지시와 참고 자료의 구획
+- **Visible Citation:** 출처 · OpenAI, Prompt engineering · Message formatting with Markdown and XML; https://developers.openai.com/api/docs/guides/prompt-engineering#message-formatting-with-markdown-and-xml
 
 #### S29 — 입력과 기대 결과의 작은 예시
 
@@ -751,19 +753,21 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0033; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Few-shot Prompting와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 세 입력 상태에서 팀 표기로 이어지는 예시 대응을 가리킨다. 오른쪽에서 간단히 요청→팀 기준 전달 여부→필요할 때만 예시 추가를 확인한다. 화살표는 예시의 입력/출력 대응이며 실제 실행 기록이 아니다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
 - **Demo / Case Connection:** 가상 팀 변경 보고 표기를 전달하는 교육용 예시다. 실제 사내 규정·정책·실행 결과 또는 TRIAL-002 원문이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 가상 팀의 보고 기준 · 실제 사내 규정이나 실행 결과가 아님
 - **C++ Vision Bridge:** 검사 업무의 변경 보고에 적용할 수 있는 가상 팀 표기 예시다. 실제 회사 규정·C++ 실행·오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 예시를 먼저 쌓지 않고 간단한 요청이 부족할 때 추가한다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Speaker Intent:** 기법명→사용 상황→강조 문장/도식 순서로1분에 설명한다. 예시를 먼저 쌓지 않고 간단한 요청이 부족할 때 추가한다. 모든 요청에 여덟 기법을 넣거나 공식 표준 분류로 암기시키지 않는다.
 - **Transition:** 예시가 필요한 상황을 확인했다. 다음 S30에서는 보고 전체의 항목과 읽을 순서를 정한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Case 1분 = 1분
 - **Evidence / Decision References:** CLM-0033, SRC-0230, SRC-0231, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 가상 팀의 보고 기준 · 실제 사내 규정이나 실행 결과가 아님
+- **Audience Footer:** 출처 · OpenAI, Reasoning best practices · How to prompt reasoning models effectively / 가상 팀의 보고 기준 · 실제 사내 규정이나 실행 결과가 아님
 - **Prompt Tool Priority:** 조건부 — 명시한 상황이 있을 때만 추가한다.
+- **Visible Method / Approach:** Few-shot Prompting — 입력·출력 예시로 기준 전달
+- **Visible Citation:** 출처 · OpenAI, Reasoning best practices · How to prompt reasoning models effectively; https://developers.openai.com/api/docs/guides/reasoning-best-practices#how-to-prompt-reasoning-models-effectively
 
 #### S30 — 바로 검토할 수 있는 결과 형식
 
@@ -778,19 +782,21 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0034; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Output Format Specification와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 강조한 네 보고 항목을 오른쪽 보고서 구조의01–04와 대응시킨다. 보고 항목을 정하는 것이며 실행한 결과를 새로 보여주지 않는다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 형식과 내용은 별도 확인 · 채팅의 형식 요청은 API Structured Outputs와 다름
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 기계적인 문장 수 제한보다 필요한 보고 항목을 정한다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Speaker Intent:** 기법명→사용 상황→강조 문장/도식 순서로1분에 설명한다. 기계적인 문장 수 제한보다 필요한 보고 항목을 정한다. 모든 요청에 여덟 기법을 넣거나 공식 표준 분류로 암기시키지 않는다.
 - **Transition:** 보고 항목이 있어도 설명의 근거는 따로 확인한다. S31에서 중요한 판단을 자료와 연결한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0034, SRC-0233, SRC-0234, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 형식과 내용은 별도 확인 · 채팅의 형식 요청은 API Structured Outputs와 다름
+- **Audience Footer:** 출처 · OpenAI, Prompting · Make the result ready to use / 형식과 내용은 별도 확인 · 채팅의 형식 요청은 API Structured Outputs와 다름
 - **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
+- **Visible Method / Approach:** Output Format Specification — 받을 결과의 구조 지정
+- **Visible Citation:** 출처 · OpenAI, Prompting · Make the result ready to use; https://learn.chatgpt.com/docs/prompting#make-the-result-ready-to-use
 
 #### S31 — 근거가 있는 설명과 미확인의 구분
 
@@ -805,19 +811,21 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0035; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Grounding와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 강조한 파일·함수 근거와 확인/추정/미확인 구분을 읽고, 오른쪽의 명세·구현·테스트가 결론을 뒷받침하는 관계를 확인한다. 도식은 특정 자료에서 새 결론을 실제 도출했다는 기록이 아니다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 출처가 있어도 원문과 대조한다 · 인용 자체가 정확성의 보증은 아님
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** S30의 보고 형식과 달리 여기서는 판단을 뒷받침하는 자료를 다룬다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Speaker Intent:** 기법명→사용 상황→강조 문장/도식 순서로1분에 설명한다. S30의 보고 형식과 달리 여기서는 판단을 뒷받침하는 자료를 다룬다. 모든 요청에 여덟 기법을 넣거나 공식 표준 분류로 암기시키지 않는다.
 - **Transition:** 자료를 찾아도 정책이 없다면 사람이 선택해야 한다. S32에서 질문할 결정의 범위를 본다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0035, SRC-0230, SRC-0234, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 출처가 있어도 원문과 대조한다 · 인용 자체가 정확성의 보증은 아님
+- **Audience Footer:** 출처 · OpenAI, Prompting · Add useful context / Set boundaries / 출처가 있어도 원문과 대조한다 · 인용 자체가 정확성의 보증은 아님
 - **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
+- **Visible Method / Approach:** Grounding — 설명을 실제 자료에 연결
+- **Visible Citation:** 출처 · OpenAI, Prompting · Add useful context / Set boundaries; https://learn.chatgpt.com/docs/prompting#add-useful-context
 
 #### S32 — 결과를 바꾸는 결정에서 확인 질문
 
@@ -832,19 +840,21 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0036; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Clarifying Questions와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 정책이 없을 때의 질문과 독립 조사 계속 문장을 짚고, 오른쪽에서 조사 후 남은 결정의 유무에 따라 진행/질문이 갈리는 구조를 본다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 모든 세부를 질문하지 않는다 · 결정과 무관한 허용된 작업은 계속 진행
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 조사 가능한 사실을 모두 사람에게 되묻지 않도록 범위를 정한다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Speaker Intent:** 기법명→사용 상황→강조 문장/도식 순서로1분에 설명한다. 조사 가능한 사실을 모두 사람에게 되묻지 않도록 범위를 정한다. 모든 요청에 여덟 기법을 넣거나 공식 표준 분류로 암기시키지 않는다.
 - **Transition:** 사람의 결정이 필요한 변경은 구현 전에 검토할 계획을 받을 수 있다. S33에서 그 사용 조건을 본다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0036, SRC-0234, SRC-0235, SRC-0243, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 모든 세부를 질문하지 않는다 · 결정과 무관한 허용된 작업은 계속 진행
+- **Audience Footer:** 출처 · OpenAI, Using GPT-6 · Initiative and follow-through / 모든 세부를 질문하지 않는다 · 결정과 무관한 허용된 작업은 계속 진행
 - **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
+- **Visible Method / Approach:** Clarifying Questions — 결과를 바꾸는 결정 확인
+- **Visible Citation:** 출처 · OpenAI, Using GPT-6 · Initiative and follow-through; https://developers.openai.com/api/docs/guides/latest-model#initiative-and-follow-through
 
 #### S33 — 큰 작업을 검토할 결과물로 나누기
 
@@ -859,19 +869,21 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0037; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Task Decomposition와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 조사·선택 지점·수정 없는 계획 문장을 짚는다. 오른쪽01 조사 산출물/02 구현 전 계획/03 범위 선택은 사람이 검토할 결과의 경계다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 작업 계획과 검토 지점을 요청한다 · 내부 사고 과정의 출력을 요구하지 않음
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 큰 작업이라는 이유만으로 잘게 나누거나 승인 단계를 늘리지 않는다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Speaker Intent:** 기법명→사용 상황→강조 문장/도식 순서로1분에 설명한다. 큰 작업이라는 이유만으로 잘게 나누거나 승인 단계를 늘리지 않는다. 모든 요청에 여덟 기법을 넣거나 공식 표준 분류로 암기시키지 않는다.
 - **Transition:** 계획 뒤의 변경안에서 무엇을 중점 검토할지 S34로 연결한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0037, SRC-0231, SRC-0232, SRC-0243, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 작업 계획과 검토 지점을 요청한다 · 내부 사고 과정의 출력을 요구하지 않음
+- **Audience Footer:** 출처 · OpenAI, Best practices · Plan first for difficult tasks / 작업 계획과 검토 지점을 요청한다 · 내부 사고 과정의 출력을 요구하지 않음
 - **Prompt Tool Priority:** 조건부 — 명시한 상황이 있을 때만 추가한다.
+- **Visible Method / Approach:** Task Decomposition — 검토할 산출물과 단계 구분
+- **Visible Citation:** 출처 · OpenAI, Best practices · Plan first for difficult tasks; https://learn.chatgpt.com/guides/best-practices#plan-first-for-difficult-tasks
 
 #### S34 — 기준을 지정한 코드 리뷰 요청
 
@@ -886,19 +898,21 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0038; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Criteria-based Review와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 명세·공개 API·변경 범위를 강조한 문장을 오른쪽 세 질문과 연결한다. 발견 사항은 위치·실패 조건·영향으로 보고하며 실제 검사와 정적 검토를 구분한다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 리뷰에도 누락이 있을 수 있다 · 실행 근거와 사람의 완료 판단을 함께 확인
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** S31은 설명 근거, S34는 변경안의 위반 검토다. 문제 개수를 억지로 채우지 않는다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Speaker Intent:** 기법명→사용 상황→강조 문장/도식 순서로1분에 설명한다. S31은 설명 근거, S34는 변경안의 위반 검토다. 문제 개수를 억지로 채우지 않는다. 모든 요청에 여덟 기법을 넣거나 공식 표준 분류로 암기시키지 않는다.
 - **Transition:** 첫 제안이나 리뷰에서 요구와 다른 지점을 알았다면, S35에서 근거와 수정 범위를 전달한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0038, SRC-0232, SRC-0235, SRC-0243, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 리뷰에도 누락이 있을 수 있다 · 실행 근거와 사람의 완료 판단을 함께 확인
+- **Audience Footer:** 출처 · OpenAI, Best practices · Improve reliability with testing and review / 리뷰에도 누락이 있을 수 있다 · 실행 근거와 사람의 완료 판단을 함께 확인
 - **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
+- **Visible Method / Approach:** Criteria-based Review — 기준을 지정한 변경 검토
+- **Visible Citation:** 출처 · OpenAI, Best practices · Improve reliability with testing and review; https://learn.chatgpt.com/guides/best-practices#improve-reliability-with-testing-and-review
 
 #### S35 — 구체적인 근거로 수정 방향 피드백
 
@@ -913,19 +927,21 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0039; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** 기존 Light Engineering Workbench/T03-A를 유지한다. 상단에 핵심/조건부와 분리된 사용 상황, 좌측 큰 native Prompt, 우측 두 선택 cue, 하단 핵심 한 문장을 둔다. Prompt 본문29CSSpx, 원문·각색·범위는 Notes와 최신 근거에 연결한다. 실무 적용 팁 배지·M 연계를 유지한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Iterative Refinement와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 명세의 폭2와 보존 조건의 강조를 오른쪽 어긋난 지점/판단 근거/유지 조건에 대응시킨다. 가상의 잘못된 제안을 근거로 고치는 요청이며 실제 응답 실패나 개선 성과가 아니다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 앞선 제안은 가상 예시 · 반복 요청만으로 품질 향상을 보장하지 않음
 - **C++ Vision Bridge:** 별도 Bridge component 없음. 기존 crop 명세에 적용하는 요청 예시이며 실제 C++ 실행·새 오류 정책을 추가하지 않는다.
-- **Speaker Intent:** 고친 요청에도 다음 작업에 다시 적을 공통 조건이 남는지 S36으로 연결한다. 핵심/조건부는 선택 기준이며8개를 모두 넣는 공식이 아니다. 전문을 낭독하지 않고 두세 행만 설명한다.
+- **Speaker Intent:** 기법명→사용 상황→강조 문장/도식 순서로1분에 설명한다. 고친 요청에도 다음 작업에 다시 적을 공통 조건이 남는지 S36으로 연결한다. 모든 요청에 여덟 기법을 넣거나 공식 표준 분류로 암기시키지 않는다.
 - **Transition:** 요청을 구체화해도 다음 작업에 다시 적을 조건이 남습니다. S36에서 같은 crop 요청을 보며 찾아봅니다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** CLM-0039, SRC-0234, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
 - **Practical Tip Classification:** 요청 작성
-- **Audience Footer:** 앞선 제안은 가상 예시 · 반복 요청만으로 품질 향상을 보장하지 않음
+- **Audience Footer:** 출처 · OpenAI, Prompting · Improve the result with follow-up messages / 앞선 제안은 가상 예시 · 반복 요청만으로 품질 향상을 보장하지 않음
 - **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
+- **Visible Method / Approach:** Iterative Refinement — 구체적 피드백으로 결과 수정
+- **Visible Citation:** 출처 · OpenAI, Prompting · Improve the result with follow-up messages; https://learn.chatgpt.com/docs/prompting#improve-the-result-with-follow-up-messages
 
 #### S36 — 다음 작업에도 이 내용을 다시 적어야 할까?
 

@@ -229,6 +229,7 @@
     },
     "S28": {
       "lines": [
+        "출처 · OpenAI, Prompt engineering · Message formatting with Markdown and XML",
         "구획은 해석을 돕는 표시이며, 보안 격리를 보장하지 않는다."
       ],
       "originalLines": [
@@ -238,6 +239,7 @@
     },
     "S29": {
       "lines": [
+        "출처 · OpenAI, Reasoning best practices · How to prompt reasoning models effectively",
         "가상 팀의 보고 기준 · 실제 사내 규정이나 실행 결과가 아님"
       ],
       "originalLines": [
@@ -247,6 +249,7 @@
     },
     "S30": {
       "lines": [
+        "출처 · OpenAI, Prompting · Make the result ready to use",
         "형식과 내용은 별도 확인 · 채팅의 형식 요청은 API Structured Outputs와 다름"
       ],
       "originalLines": [
@@ -256,6 +259,7 @@
     },
     "S31": {
       "lines": [
+        "출처 · OpenAI, Prompting · Add useful context / Set boundaries",
         "출처가 있어도 원문과 대조한다 · 인용 자체가 정확성의 보증은 아님"
       ],
       "originalLines": [
@@ -265,6 +269,7 @@
     },
     "S32": {
       "lines": [
+        "출처 · OpenAI, Using GPT-6 · Initiative and follow-through",
         "모든 세부를 질문하지 않는다 · 결정과 무관한 허용된 작업은 계속 진행"
       ],
       "originalLines": [
@@ -274,6 +279,7 @@
     },
     "S33": {
       "lines": [
+        "출처 · OpenAI, Best practices · Plan first for difficult tasks",
         "작업 계획과 검토 지점을 요청한다 · 내부 사고 과정의 출력을 요구하지 않음"
       ],
       "originalLines": [
@@ -283,6 +289,7 @@
     },
     "S34": {
       "lines": [
+        "출처 · OpenAI, Best practices · Improve reliability with testing and review",
         "리뷰에도 누락이 있을 수 있다 · 실행 근거와 사람의 완료 판단을 함께 확인"
       ],
       "originalLines": [
@@ -292,6 +299,7 @@
     },
     "S35": {
       "lines": [
+        "출처 · OpenAI, Prompting · Improve the result with follow-up messages",
         "앞선 제안은 가상 예시 · 반복 요청만으로 품질 향상을 보장하지 않음"
       ],
       "originalLines": [

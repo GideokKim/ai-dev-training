@@ -65,3 +65,31 @@ self-review PASS is taught. Existing actual TRIAL-002 evidence remains on
 its own slides. The target model/account, Windows, room and timed rehearsal
 are UNVERIFIED. Representative evaluation would be needed before making
 claims about the effect of a prompt change in the company's environment.
+
+
+## DEC-0117 — Visible labels and source selectors
+
+The slides now show the following method/approach names and citations.
+These are practical labels, not an eight-part official taxonomy. Names
+that describe a general approach do not imply a uniquely standardized
+algorithm, current-model benchmark or original research result.
+The underlying requests, recommendations and claim scope are unchanged.
+
+| Slide | Visible label | Source section | Relationship shown |
+|---|---|---|---|
+| S28 | Delimiters | [출처 · OpenAI, Prompt engineering · Message formatting with Markdown and XML](https://developers.openai.com/api/docs/guides/prompt-engineering#message-formatting-with-markdown-and-xml) | 지시와 참고 자료의 구획 |
+| S29 | Few-shot Prompting | [출처 · OpenAI, Reasoning best practices · How to prompt reasoning models effectively](https://developers.openai.com/api/docs/guides/reasoning-best-practices#how-to-prompt-reasoning-models-effectively) | 입력·출력 예시로 기준 전달 |
+| S30 | Output Format Specification | [출처 · OpenAI, Prompting · Make the result ready to use](https://learn.chatgpt.com/docs/prompting#make-the-result-ready-to-use) | 받을 결과의 구조 지정 |
+| S31 | Grounding | [출처 · OpenAI, Prompting · Add useful context / Set boundaries](https://learn.chatgpt.com/docs/prompting#add-useful-context) | 설명을 실제 자료에 연결 |
+| S32 | Clarifying Questions | [출처 · OpenAI, Using GPT-6 · Initiative and follow-through](https://developers.openai.com/api/docs/guides/latest-model#initiative-and-follow-through) | 결과를 바꾸는 결정 확인 |
+| S33 | Task Decomposition | [출처 · OpenAI, Best practices · Plan first for difficult tasks](https://learn.chatgpt.com/guides/best-practices#plan-first-for-difficult-tasks) | 검토할 산출물과 단계 구분 |
+| S34 | Criteria-based Review | [출처 · OpenAI, Best practices · Improve reliability with testing and review](https://learn.chatgpt.com/guides/best-practices#improve-reliability-with-testing-and-review) | 기준을 지정한 변경 검토 |
+| S35 | Iterative Refinement | [출처 · OpenAI, Prompting · Improve the result with follow-up messages](https://learn.chatgpt.com/docs/prompting#improve-the-result-with-follow-up-messages) | 구체적 피드백으로 결과 수정 |
+
+Output Format Specification means a natural-language request for a usable
+report, not API schema enforcement. Criteria-based Review names the
+specified review criteria, not independent correctness proof. Grounding
+means connection to actual materials. Task Decomposition is applied here
+to investigation/planning deliverables and does not invoke hidden thought
+output or claim the result of a named Plan-and-Solve experiment.
+The S29 example is the same fictional team reporting convention.

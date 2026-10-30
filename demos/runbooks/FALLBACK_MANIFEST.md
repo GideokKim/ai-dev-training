@@ -1,8 +1,9 @@
 # Static Fallback Manifest
 
-Current: DEC-0116 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
-Retain44reference roles, evidence classes and paths. Refresh S28-S35 as
-five core and three conditional prompt tools. Fictional team conventions
+Current: DEC-0117 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Retain44reference roles, evidence classes and paths. Keep S28-S35 as
+five core and three conditional prompt tools. Show method/approach names,
+annotated native examples, relationship diagrams and official citations. Fictional team conventions
 are teaching examples, not actual company rules or Trial results.
 Live/Hybrid is not approved. Windows, account, room and timed rehearsal
 remain UNVERIFIED. Prior numbering and handoff revisions remain preserved
@@ -10,11 +11,11 @@ in the reports and source history.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`11b4b594e7b1e1cd231ef4870a5a067a0cfb6a58bb208ea9ec55ebb5538b535a`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`3468fd306b716c7e601d90c02291ac495ced551e0241baf25ed5068a77282300`.
-- `production/preview/full/montage.png` SHA-256:`10c2e46f26243f5ffda16fb0b4943efa059c06b04d42762eddfa7a55867d997c`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`82708a96e1b0baa92d32870959d065de8cdbfcdb5d93420c7b7d75c9cbb02e75`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`da77450dc6f5773edd37c2ad4983ca2b5a442cf8a5d2b1bd0a2fb714b0e173c2`.
+- `production/preview/full/montage.png` SHA-256:`30cd12949e9dac11ea7fa742f0cafa3482c75fa68060e8579bfbc198834020d2`.
 
-[Current revision](../../production/evaluation/PROMPT_METHODS_REVISION.md),
+[Current revision](../../production/evaluation/PROMPT_TECHNIQUE_DESIGN_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |

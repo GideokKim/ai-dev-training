@@ -1,5 +1,36 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## Prompt 기법명·출처·디자인 — DEC-0117 (2026-10-30)
+
+S28–S35에 기법/접근명·뜻·공식 문서/절을 표시하고, 적용 문장 강조와 기법별 도식을
+넣었다. 요청·메시지·핵심5/조건부3·장별 시간/Mode와120장·417분은 유지한다.
+S29는 동일한 가상 팀 보고 기준이며, 대응표를 실제 실행 결과로 제시하지 않는다.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT1](../ACT_1.pptx),
+[8장 비교](../preview/act1/S28-S35.png), [S29](../preview/full/S29.png), [S31](../preview/full/S31.png),
+[현재 검토](PROMPT_TECHNIQUE_DESIGN_REVISION.md),
+[기법·출처 대응](../../references/product/PROMPT_ENGINEERING_2026-10-30.md),
+[사용자 검증](USER_VALIDATION_CHECKLIST.md).
+
+143PNG·19필드 Notes를 대조했다. 다른112장 화면/Notes와5개 ACT PPT·native 근거는
+보존했다. Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo·Sites·묶음은 같다.
+아래 이전 검증·해시·기획은 해당 판본의 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `82708a96e1b0baa92d32870959d065de8cdbfcdb5d93420c7b7d75c9cbb02e75` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `5fcb9eab64d34d4daf70a14d6ecf54ad277fa78b3e81212beb1b8adc3dbd9398` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `96103c384f80f69a308a6dd464280e5a8645c17a02e5498a55e3b23ee014d4d9` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `da77450dc6f5773edd37c2ad4983ca2b5a442cf8a5d2b1bd0a2fb714b0e173c2` |
+| `production/preview/full/montage.png` | `30cd12949e9dac11ea7fa742f0cafa3482c75fa68060e8579bfbc198834020d2` |
+| `production/preview/act1/S28-S35.png` | `40a59a3dedc60130422d2989ff6f6c41fc26814ad0368314d5bdd2001fa9e147` |
+
+## 보존된 이전 전달 기록
+
 ## 실무 Prompt 도구 최신화 — DEC-0116 (2026-10-30)
 
 S28–S35를 핵심5개/조건부3개와 구체적 사용 상황으로 정리했다. S29는 가상 팀의

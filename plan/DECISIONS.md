@@ -11897,3 +11897,79 @@ Render all final Full/ACT1 slides; inspect the eight revised slides and
 adjacent sequence; validate Notes, timing and retained content; then
 commit and push normally. Keep Windows, account, room and rehearsal
 validation unverified. Do not change the Demo repository or Site/bundle.
+
+
+# DEC-0117 — Make prompt techniques visible and scannable
+
+## Status
+
+ACCEPTED — explicit user instruction to revise the eight slide designs.
+
+## Date
+
+2026-10-30
+
+## Context
+
+The user asks for recognizable method names and on-slide sources in
+S28-S35, and finds the repeated text-heavy composition hard to scan.
+
+## Problem
+
+The current design hides method names and sources in the metadata/Notes.
+A prompt paragraph beside two similar text lists gives every sentence
+similar weight and does not expose what the method actually changes.
+
+## Decision
+
+Show method/approach names and official document/section citations.
+Highlight the relevant request clauses and replace the right-side lists
+with method-specific correspondence, decision or evidence diagrams.
+Keep the exact request content, titles, messages, priority, IDs and timing.
+S29's examples use native input/output rows without adding execution claims.
+
+## Rationale
+
+Connect the recognized name to the actual instruction and its purpose.
+Keep citations readable and put full URLs and nuanced scope in Notes.
+The labels are practical names, not a purported official taxonomy.
+
+## Alternatives
+
+Add names alone; this leaves the scanning problem. Increase all type;
+this does not clarify relative importance. Add decorative illustrations;
+the relationship inside the request is the more relevant visual here.
+
+## Trade-offs
+
+Use editable highlights and diagrams within the approved visual system.
+Keep prompts in Notes for copying and review. Citations occupy the first
+footer row, with the existing audience-relevant boundary on the second.
+No new template family, slide, time or research efficacy claim is added.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S28-S35 source/footer data, Map/template descriptions, scoped visual spec,
+Notes, planning and evidence label map, Full/ACT1 PPTX, previews and delivery
+identities. Other slide screens and ACT packages remain unchanged.
+
+## Evidence
+
+User visual feedback; current editable slides; the existing official
+source selectors under CLM-0032-0039 / SRC-0230-0235/0243. No new Trial,
+actual company policy, benchmark or product/account verification.
+
+## Training Relevance
+
+YES — identify when an approach applies and which request clause expresses
+it, while keeping documented guidance separate from observed outcomes.
+
+## Follow-up
+
+Render the final Full/ACT1 packages, inspect the eight slides and adjacent
+flow, verify Notes and timing, then commit and push under the standing
+Git instruction. Preserve independent Windows, room and rehearsal gates.

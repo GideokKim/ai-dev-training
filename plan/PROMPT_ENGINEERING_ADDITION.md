@@ -1,5 +1,27 @@
 # ACT 1 — Practical Prompt Engineering Addition
 
+## 기법명·출처·시각 설계 — DEC-0117 (2026-10-30)
+
+S28–S35의 제목·순서·요청 원문·주요 메시지·8분과 핵심5개/조건부3개를 유지한다.
+화면에 기법/접근명, 사용 상황, 적용 문장 강조, 기법별 관계 도식, 공식 출처의 문서명과
+절을 표시한다. 영문 이름을 외우는 강의가 아니라 어떤 요청 문장이 어떤 역할인지 설명한다.
+이8개가 한 기관의 공식 표준 분류라는 뜻은 아니다. Output Format Specification과
+Criteria-based Review는 실무 접근을 설명하는 명칭이다. Grounding은 근거 연결의 넓은
+접근이며, Task Decomposition은 조사·계획·검토할 범위를 나누는 교육용 적용이다.
+S29의 세 화살표는 가상 팀 기준의 입력/출력 예시이며 실행 순서·실제 결과가 아니다.
+현재120장·417분·모든 장별 Mode와 근거 범위를 유지한다. 아래 이전 설계는 이력이다.
+
+| Slide | Visible method / approach | Visual emphasis | Visible source |
+|---|---|---|---|
+| S28 | Delimiters | 요청/명세/로그 구획의 강조색을 보고, 오른쪽의 지시/비교 기준/관찰 자료 역할과 연결한다. | 출처 · OpenAI, Prompt engineering · Message formatting with Markdown and XML |
+| S29 | Few-shot Prompting | 세 입력 상태에서 팀 표기로 이어지는 예시 대응을 가리킨다. 오른쪽에서 간단히 요청→팀 기준 전달 여부→필요할 때만 예시 추가를 확인한다. 화살표는 예시의 입력/출력 대응이며 실제 실행 기록이 아니다. | 출처 · OpenAI, Reasoning best practices · How to prompt reasoning models effectively |
+| S30 | Output Format Specification | 강조한 네 보고 항목을 오른쪽 보고서 구조의01–04와 대응시킨다. 보고 항목을 정하는 것이며 실행한 결과를 새로 보여주지 않는다. | 출처 · OpenAI, Prompting · Make the result ready to use |
+| S31 | Grounding | 강조한 파일·함수 근거와 확인/추정/미확인 구분을 읽고, 오른쪽의 명세·구현·테스트가 결론을 뒷받침하는 관계를 확인한다. 도식은 특정 자료에서 새 결론을 실제 도출했다는 기록이 아니다. | 출처 · OpenAI, Prompting · Add useful context / Set boundaries |
+| S32 | Clarifying Questions | 정책이 없을 때의 질문과 독립 조사 계속 문장을 짚고, 오른쪽에서 조사 후 남은 결정의 유무에 따라 진행/질문이 갈리는 구조를 본다. | 출처 · OpenAI, Using GPT-6 · Initiative and follow-through |
+| S33 | Task Decomposition | 조사·선택 지점·수정 없는 계획 문장을 짚는다. 오른쪽01 조사 산출물/02 구현 전 계획/03 범위 선택은 사람이 검토할 결과의 경계다. | 출처 · OpenAI, Best practices · Plan first for difficult tasks |
+| S34 | Criteria-based Review | 명세·공개 API·변경 범위를 강조한 문장을 오른쪽 세 질문과 연결한다. 발견 사항은 위치·실패 조건·영향으로 보고하며 실제 검사와 정적 검토를 구분한다. | 출처 · OpenAI, Best practices · Improve reliability with testing and review |
+| S35 | Iterative Refinement | 명세의 폭2와 보존 조건의 강조를 오른쪽 어긋난 지점/판단 근거/유지 조건에 대응시킨다. 가상의 잘못된 제안을 근거로 고치는 요청이며 실제 응답 실패나 개선 성과가 아니다. | 출처 · OpenAI, Prompting · Improve the result with follow-up messages |
+
 ## Current approved content — DEC-0116 (2026-10-30)
 
 Use the current S28–S35 mapping below. Historical S22–S29/90-slide entries
