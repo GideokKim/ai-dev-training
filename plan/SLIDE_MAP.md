@@ -927,7 +927,7 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Working Title:** 다음 작업에도 이 내용을 다시 적어야 할까?
 - **Primary Role:** 구체적인 crop 요청을 읽고 다음 작업에도 반복할 내용을 생각한다.
 - **Audience Question:** “작업이 바뀌어도 다시 말하게 될 문장은 무엇일까요?”
-- **Core Message:** 잘 작성한 요청에도 이번 목표와 여러 작업에서 다시 참고할 기준이 함께 들어갈 수 있다. 먼저 반복할 내용을 생각하고 다음 장에서 범위를 구분한다.
+- **Core Message:** 잘 작성한 요청에서도 다음 작업에 다시 필요한 정보·기준이 있음을 발견한다. 이번 목표와 공통 기준을 같은 세 문장에서 살피며, 관리 방법의 질문은 S37에서 연다.
 - **Story Beat:** BEAT-007 → BEAT-008 handoff
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.; ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL
@@ -937,11 +937,11 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Beginner Payoff:** 구체적인 요청 문장에서 다음에도 다시 말할 내용을 찾는다.
 - **Advanced Payoff:** 반복되는 문장을 저장 방법의 답보다 먼저 검토한다. 반복 자체가 전역 지침의 정당성은 아니다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S35의 피드백 팁 뒤 같은 crop 요청을 돌아본다. 질문을 이해할 대상3문장만 제공하고 범주별 색이나 답을 먼저 주지 않는다. 작성·공개 답변을 요구하지 않고 질문이 없어도3분에 같은 요청을 분리하는 S37로 이동한다.
-- **Transition:** “방금 본 같은 요청에서 이번 목표와 계속 쓰기로 한 기준을 나눠 보겠습니다.”라고 S37로 이동한다.
+- **Speaker Intent:** S35의 요청 구체화 성과를 받아 같은 세 문장에서 반복되는 기준을 발견하게 한다. 화면과 시간은 유지하고, 공통 기준의 관리 질문은 S37에서 연다.
+- **Transition:** “같은 요청에서 이번 목표와 계속 참고할 기준을 나눠 보고, 그 기준을 어디에서 관리할지 생각해 보겠습니다.”라고 S37로 이동한다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Reflection 1분 + Q&A 2분 = 3분
-- **Evidence / Decision References:** BEAT-007, BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113
+- **Evidence / Decision References:** BEAT-007, BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113, DEC-0115
 - **Audience Footer:** 교육용 요청 예시 · 실제 TRIAL-002 입력이나 수행 결과가 아님
 
 #### S37 — 작업마다 바뀌는 목표, 계속 쓰는 기준
@@ -951,22 +951,22 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Section:** 1G 종료 및 ACT 2 전환
 - **Working Title:** 작업마다 바뀌는 목표, 계속 쓰는 기준
 - **Primary Role:** S36과 동일한 요청 문장을 이번 목표와 지속해서 적용할 기준으로 분리한다.
-- **Audience Question:** “이 공통 기준을 어디에 두고 다시 참고할까요?”
-- **Core Message:** crop 수정 목표는 작업마다 달라지고, 프로젝트에서 합의해 계속 적용할 API·테스트 기준은 여러 작업에서 다시 참고할 수 있다. 적용 범위를 먼저 확인하고 저장 위치는 다음 ACT에서 다룬다.
+- **Audience Question:** “이 기준을 프로젝트에서 관리하고, 작업할 때 찾아 참고하게 할 수 없을까?”
+- **Core Message:** 이번 작업의 목표·특수 조건은 요청에 담는다. 프로젝트에서 공통으로 적용하기로 합의한 정보·기준은 관리할 위치와 작업 시 제공·참조 방법을 설계한다.
 - **Story Beat:** BEAT-007 → BEAT-008; TRANS-003
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.; ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** TEACHING MODEL / CONCEPTUAL — 동일한 교육용 요청을 분리한 예시다. 실제 STATE-01 지침 원문·자동 적용·추가 실행·효과·유일한 분류 결과가 아니다. 계속 적용할지는 프로젝트의 합의와 조건을 확인한다.
-- **Visual Concept:** 왼쪽에 S36과 동일한3문장 요청을 유지한다. crop 목표 한 줄은 이번 작업의 목표로 연결하고, API·정해진 테스트 명령 두 줄은 하나의 강조 영역과 얇은 bracket으로 “계속 쓰는 기준”에 연결한다. 오른쪽 설명은 “이번 작업에만 적용”과 “프로젝트에서 합의해 여러 작업에 적용”이다. README·의존성·다른 Task 예시를 화면에 추가하지 않는다. 마지막 질문은 공통 기준을 어디에 두고 다시 참고할지다.
+- **Visual Concept:** 왼쪽에 S36과 동일한3문장 요청을 유지한다. crop 목표 한 줄은 이번 작업의 목표로 연결하고, API·정해진 테스트 명령 두 줄은 하나의 강조 영역과 얇은 bracket으로 “계속 쓰는 기준”에 연결한다. 오른쪽 설명은 “이번 작업에만 적용”과 “프로젝트에서 합의해 여러 작업에 적용”이다. README·의존성·다른 Task 예시를 화면에 추가하지 않는다. 마지막 질문은 공통 기준을 프로젝트에서 관리하고 작업할 때 찾아 참고하게 할지다.
 - **Demo / Case Connection:** S36의 같은 crop 교육용 요청을 분리한 예다. 실제 TRIAL/STATE 원문·관찰 차이가 아니다. AGENTS.md·제품 저장 기능을 답으로 보여주지 않는다.
 - **Beginner Payoff:** 무엇을 바꾸려는 목표와 계속 참고할 기준이 다른 역할임을 같은 문장에서 본다.
 - **Advanced Payoff:** 공통 기준으로 둘지 여부는 반복 횟수만으로 정하지 않고 합의·수명·적용 범위를 확인한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S36의 같은 요청을 다시 쓰거나 새 사례로 바꾸지 않는다. API·테스트 조건은 이 프로젝트에서 계속 적용하기로 한 경우의 교육용 구분이다. 다른3Task의 반복 장면은 S39에 남겨 중복을 줄인다. Reflection1분·Transition3분·Q&A2분과 S38 제목1분의 별도 배정을 유지한다.
-- **Transition:** “공통 기준이 다음 요청에도 필요하다면 어디에 두고 다시 참고할까요? 다음 구간에서는 서로 다른 작업에도 같은 설명이 반복되는 장면부터 보겠습니다.”라고 ACT2 제목 S38를 거쳐 S39으로 이어간다.
+- **Speaker Intent:** 같은 세 문장의 구분을 유지하고 마지막 질문을 공통 기준의 관리 위치와 작업 시 참조로 확장한다. Prompt→Context 전환이며 수행 절차·도구·환경 설계는 앞당기지 않는다. 다음 S39는 세 작업으로 범위를 넓힌다.
+- **Transition:** “이 기준을 프로젝트에서 관리하고 작업할 때 찾아 참고하게 할 수 없을까요? 다음에는 서로 다른 세 작업에서도 같은 기준을 쓰는지 보겠습니다.”라고 S38 제목→S39로 이동한다.
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Reflection 1분 + Transition 3분 + Q&A 2분 = 6분
-- **Evidence / Decision References:** BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113
+- **Evidence / Decision References:** BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113, DEC-0115
 - **Audience Footer:** 교육용 분리 예시 · 계속 적용할지는 프로젝트의 합의와 조건을 확인한다
 
 ### ACT 2 — 22 slides / 90 minutes
@@ -990,10 +990,10 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Advanced Payoff:** 해당 ACT가 다루는 설계 책임의 범위를 짧게 확인한다.
 - **C++ Vision Bridge:** N/A — 기존 본문에 있는 C++ 연결을 유지한다.
 - **Speaker Intent:** 승인된 제목·부제를 가리키며 ACT의 방향만 안내한다. 용어 정의·모든 도구의 도입·성과 예고로 확장하지 않고 기존 첫 문제를 연다.
-- **Transition:** “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S39 — 다른 Task에 같은 설명이 반복된다로 이어간다.
+- **Transition:** “서로 다른 세 작업에서도 같은 프로젝트 기준이 필요한지 보겠습니다.”라고 S39로 이동한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Transition 1분 = 1분
-- **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
+- **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence, DEC-0115
 - **ACT Subtitle:** Context Engineering · 정보 설계
 - **Audience Footer:** 기존 ACT 제목 표기 유지
 
@@ -1003,23 +1003,23 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 2
 - **Section:** 2A
 - **Working Title:** 다른 Task에 같은 설명이 반복된다
-- **Primary Role:** 반복되는 Project Context 문제를 보여준다.
-- **Audience Question:** “Task는 다른데 왜 같은 설명을 계속 복사하고 있지?”
-- **Core Message:** 반복은 Prompt 문장만의 문제가 아니라 정보의 Scope와 수명 문제일 수 있다.
+- **Primary Role:** 같은 프로젝트 기준이 서로 다른 세 작업의 요청에도 반복됨을 확인하고 관리 질문을 구체화한다.
+- **Audience Question:** “공통 기준이 바뀌면, 세 요청에 어떻게 반영할까?”
+- **Core Message:** 버그 수정·성능 조사·README 수정의 목표는 달라도 같은 프로젝트 기준을 참고할 수 있다. 공통 기준의 변경을 여러 요청에 어떻게 반영할지가 다음 관리 질문이다.
 - **Story Beat:** BEAT-008 — Good Project instructions are repeated in each Prompt
 - **Curriculum Trace:** ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; CONCEPTUAL.
-- **Visual Concept:** Task A/B/C Prompt 아래 반복되는 `test command`, `no runtime dependency`, `local synthetic data`, `preserve public behavior`를 강조한다.
+- **Visual Concept:** Task A/B/C Prompt 아래 반복되는 `test command`, `no runtime dependency`, `local synthetic data`, `preserve public behavior`를 강조한다. 하단에는 “공통 기준이 바뀌면, 세 요청에 어떻게 반영할까?”를 둔다.
 - **Demo / Case Connection:** Bug Fix, Performance, README 작업을 나란히 놓은 구성 사례. 해결책은 아직 보여주지 않는다.
 - **Beginner Payoff:** Task마다 반복되는 Project 정보를 알아차린다.
 - **Advanced Payoff:** 작업별 지시와 지속되는 Project 제약을 분리해서 본다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 반복되는 문장을 보여주되, 곧바로 기능 소개로 넘어가지 않는다.
-- **Transition:** “공통 정보를 Prompt 밖에 둘 수 있을까?”
+- **Speaker Intent:** S36/S37의 한 요청에서 세 작업으로 범위를 넓힌다. 기준이 바뀌면 여러 요청에 어떻게 반영할지 묻고, 실제 기록 위치는 S40에 남긴다. 질문은 교육용 가정이며 실제 실패 기록이 아니다.
+- **Transition:** “반복되던 프로젝트 정보를 실제로 어디에 기록했는지 보겠습니다.”라고 S40로 이동한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 4분 + Case 1분 = 5분
-- **Evidence / Decision References:** BEAT-008, CLM-0003, CLM-0005
+- **Evidence / Decision References:** BEAT-008, CLM-0003, CLM-0005, DEC-0115
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S40 — 작은 Project Context의 첫 기록
@@ -1028,23 +1028,23 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 2
 - **Section:** 2B
 - **Working Title:** 작은 Project Context의 첫 기록
-- **Primary Role:** STATE-00-FIXED에서 STATE-01로의 변화를 보여준다.
-- **Audience Question:** “반복되는 Project 정보를 한 번 기록하면 어떤 점이 달라질까?”
-- **Core Message:** STATE-01은 작은 Project 지침을 repository에 둔 실제 상태다.
+- **Primary Role:** 반복되는 프로젝트 정보의 실제 기록 위치와 내용을 확인한다.
+- **Audience Question:** “반복되던 프로젝트 정보를 실제로 어디에 기록했을까?”
+- **Core Message:** STATE-01의 실제 AGENTS.md에 프로젝트 목적·실행 방법·테스트 명령·기본 제약을 기록했다. 이 장은 기록 위치와 내용을 보여주고, 실제 사용 기록은 S41에서 확인한다.
 - **Story Beat:** BEAT-009 — Project context moves into `AGENTS.md`
 - **Curriculum Trace:** ACT 2 — Context Engineering Turning Point.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; OBSERVED PRODUCT STATE. 파일 크기와 내용은 기록된 STATE-01에 한정한다.
-- **Visual Concept:** `STATE-00-FIXED → STATE-01`; root `AGENTS.md`, 15 lines / 567 bytes를 표시한다. 파일을 기능 매뉴얼처럼 해설하지 않는다.
+- **Visual Concept:** 실제 STATE-00-FIXED→STATE-01과 root AGENTS.md의 목적·실행 방법·테스트 명령·기본 제약 네 발췌를 한국어 의미와 함께 보여준다. 원본 줄 수·byte metadata는 Notes에 보존한다. 기록 자체와 실제 사용 관찰을 구분한다.
 - **Demo / Case Connection:** 프로젝트 설명, Build/Run 안내, Test 명령, 핵심 제약이 담긴 실제 State를 보여준다.
 - **Beginner Payoff:** 자주 반복되는 내용을 어디에 둘 수 있는지 본다.
 - **Advanced Payoff:** Context를 task prompt와 repository 안내 사이에서 어떻게 나눌지 생각한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** 파일 기능보다 반복 설명을 repository 쪽으로 옮긴 설계 의도에 집중한다.
-- **Transition:** Slide 34에서 한 번의 실제 사용 기록을 확인한다.
+- **Transition:** “기록해 둔 것과 실제로 참고한 것은 각각 확인해야 합니다. 다음에는 이 지침을 사용한 실행 기록을 보겠습니다.”라고 S41로 이동한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (HYBRID) = 4분
-- **Evidence / Decision References:** BEAT-009, STATE-01, CLM-0003, CLM-0005, OQ-003, OQ-005
+- **Evidence / Decision References:** BEAT-009, STATE-01, CLM-0003, CLM-0005, OQ-003, OQ-005, DEC-0115
 - **Audience Footer:** AGENTS.md 발췌
 
 #### S41 — AGENTS.md의 지침대로 검증했다
@@ -1053,7 +1053,7 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 2
 - **Section:** 2B
 - **Working Title:** AGENTS.md의 지침대로 검증했다
-- **Primary Role:** TRIAL-003 결과와 인과 해석의 한계를 함께 보여준다.
+- **Primary Role:** 프로젝트에 기록한 지침의 실제 활용 관찰을 보여주고 해석 한계를 유지한다.
 - **Audience Question:** “Prompt에 없던 test command는 어디서 왔을까?”
 - **Core Message:** 작업 요청에는 테스트 실행 명령이 없었지만, 이 실행에서 Agent가 AGENTS.md를 확인하고 그 테스트 지침의 명령으로 검증한 기록이 있다.
 - **Story Beat:** BEAT-010 — Reusable Project guidance succeeds at first
@@ -1066,10 +1066,10 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Advanced Payoff:** 실제 관찰과 원인 귀속을 분리한다.
 - **C++ Vision Bridge:** 없음.
 - **Speaker Intent:** 실제 요청·원문 밖 주석·프로젝트 지침·관찰된 실행을 구분한다. 요청의 최종 diff와 관련 검증 근거 보고는 남기되 구체 테스트 명령은 없었다고 창 밖에서 설명한다. AGENTS.md의 테스트 지침을 실제 적용한 점을 강조하며 모든 규칙의 강제 준수·자동 로딩·단독 인과성을 주장하지 않는다.
-- **Transition:** “이번 Task의 Prompt와 Project가 계속 유지할 Context는 어떻게 다른가?”
+- **Transition:** “방금 본 이번 README 요청과 다시 참고한 테스트 지침을 Task Prompt와 Project Context의 역할로 정리해 보겠습니다.”라고 S42로 이동한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (HYBRID) = 4분
-- **Evidence / Decision References:** BEAT-010, TRIAL-003, STATE-01, CLM-0005, DEC-0046
+- **Evidence / Decision References:** BEAT-010, TRIAL-003, STATE-01, CLM-0005, DEC-0046, DEC-0115
 - **Audience Footer:** CLI 실행 기록 · 다른 지침도 함께 적용
 
 #### S42 — Task Prompt와 Project Context
@@ -1078,23 +1078,23 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 2
 - **Section:** 2C
 - **Working Title:** Task Prompt와 Project Context
-- **Primary Role:** 정보의 Scope와 수명을 구분하는 Mental Model을 제시한다.
+- **Primary Role:** 앞선 실제 기록을 Task Prompt와 Project Context의 범위·수명 개념으로 정리한다.
 - **Audience Question:** “이 정보는 언제까지 유효한가?”
-- **Core Message:** 현재 Task의 목표와 지속되는 Project 사실·규칙은 수명과 적용 범위가 다르다.
+- **Core Message:** 앞선 실제 기록의 현재 작업 요청과 재참고한 프로젝트 정보를 Task Prompt와 Project Context의 범위·수명으로 정리한다. 정보가 Prompt 또는 문서 한 곳에만 들어가야 한다는 뜻은 아니다.
 - **Story Beat:** BEAT-009–010; TRANS-003
 - **Curriculum Trace:** ACT 2 — Context Engineering Turning Point.; ACT 2 — `AGENTS.md`'s first success.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL.
 - **Visual Concept:** 왼쪽의 작업별 요청 예(crop 수정 또는 이번 README-only)를 테두리로 묶어 화살표로 프롬프트창 도식에 연결한다. 오른쪽의 테스트 명령·의존성 정책을 별도 테두리로 묶어 화살표로 AGENTS.md 문서 도식에 연결한다. 하단의 목표 변화/여러 작업 재참고 비교를 유지한다. 두 이미지는 교육용 생성 도식이며 실제 제품 화면이나 실행 캡처가 아니다.
-- **Demo / Case Connection:** Slide 32–34의 반복 설명과 첫 재사용을 정리한다.
+- **Demo / Case Connection:** S39의 반복 설명과 S40의 실제 기록·S41의 활용 관찰을 교육 모델로 정리한다.
 - **Beginner Payoff:** 현재 작업의 지시와 반복되는 Project 사실을 구별한다.
 - **Advanced Payoff:** Context를 선택할 때 Scope와 Lifetime도 함께 본다.
 - **C++ Vision Bridge:** 전용 목록 없이, 일반 제약과 Task별 알고리즘 조건이 다른 범위일 수 있음을 짧게 언급한다.
-- **Speaker Intent:** 이번 요청의 목표·수정 범위와 여러 Task가 재참고할 명령·규칙을 나눈다. 같은 내용이 Prompt 또는 문서 중 한 곳에만 들어갈 수 있다는 뜻이 아니다. 테스트 명령/검증 원칙도 Project 안내에 들어갈 수 있고, 이후 Harness 구간은 여러 단계의 수행·중간 판단을 누가 유지할지 다룬다. 승인된 두 생성 도식과 범위·수명 비교를 유지한다.
+- **Speaker Intent:** S37의 구분을 다시 강의하기보다 S40/S41 기록을 역할 이름으로 정리한다. Prompt도 Context를 제공하고 이번 작업의 조건도 요청에 남는다. 문서 존재와 실제 참고·적용을 구분한다.
 - **Transition:** “정확한 정보를 더 많이 넣으면 언제나 괜찮을까?”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
-- **Evidence / Decision References:** BEAT-009, TRANS-003, CLM-0003, CLM-0005, OQ-003, OQ-005, BEAT-010, DEC-0047
+- **Evidence / Decision References:** BEAT-009, TRANS-003, CLM-0003, CLM-0005, OQ-003, OQ-005, BEAT-010, DEC-0047, DEC-0115
 - **Audience Footer:** C++에서도 프로젝트 공통 제약과 이번 변경 조건은 범위가 다를 수 있다
 
 #### S43 — 정확한 정보도 계속 늘어난다

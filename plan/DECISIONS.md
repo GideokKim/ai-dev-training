@@ -11745,3 +11745,78 @@ the limits of checks when deciding completion.
 Render and inspect the final Full/ACT decks, adjacent sequence and indexes.
 Verify Notes, IDs, budgets and retained content before a normal push.
 Keep Windows, product/account, room and timed rehearsal unverified.
+
+# DEC-0115 — Clarify the Prompt-to-Context transition
+
+## Status
+
+ACCEPTED — explicit user approval of the scoped handoff refinement.
+
+## Date
+
+2026-10-30
+
+## Context
+
+The user clarifies that S36/S37 bridge Prompt Engineering to Context
+Engineering and approves strengthening common-information management.
+
+## Problem
+
+Repeated typing alone can suggest a saved-prompt shortcut. The sequence
+must expose information scope, maintenance and access without repeating
+the same classification before and after the observed guidance use.
+
+## Decision
+
+Keep the shared crop request and S36 screen. Replace the final S37
+question with project management and task-time reference. Let S39 expand
+to three tasks and ask how changed common criteria reach those requests.
+Align S38-S42 Notes and planning as overview, expansion, actual record,
+bounded observed use and conceptual recap. Preserve every ID, budget,
+template, Trial and claim boundary in120slides/417minutes.
+
+## Rationale
+
+Move from writing a task request to arranging the information needed
+across tasks. Keep the current task conditions explicit and separate
+recorded guidance from evidence that the agent actually used it.
+
+## Alternatives
+
+Keep the copy-input question only; it understates maintenance. Introduce
+the whole Harness here; this anticipates ACT3. Repeat the abstract scope
+model before and after the Trial; this weakens the observational payoff.
+
+## Trade-offs
+
+Change only two on-screen questions and align seven Notes. Preserve
+the neutral discovery screen and existing diagrams. The update question
+remains a teaching scenario, not a newly observed failure or benchmark.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S37/S39 source, Full/ACT1/ACT2 packages, S36-S42 Map and Notes, current
+handoff plans, previews and delivery hashes. Other slides and ACT packages,
+the Demo repository, Site and presenter bundle remain unchanged.
+
+## Evidence
+
+Explicit user approval; current teaching request and existing STATE-01 /
+TRIAL-003 evidence. No new Trial, product check, measured saving or causal
+claim. Correct stale nearby Notes/Map locators to the current edition.
+
+## Training Relevance
+
+YES — distinguish a repeated sentence from the information-management
+question and preserve the gap between recording and observed use.
+
+## Follow-up
+
+Render the final Full/ACT1/ACT2 decks, inspect the sequence, verify Notes,
+budgets and retained content, then commit and push normally. Keep Windows,
+room, product/account and timed rehearsal unverified.

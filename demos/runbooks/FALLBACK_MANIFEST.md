@@ -1,6 +1,6 @@
 # Static Fallback Manifest
 
-Current: DEC-0114 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0115 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
 Retain44reference roles and evidence classes. Replace former S26/S27,
 remove former S28 and shift former S29-S121 by one. Keep five minutes.
 Both new goal-specific request examples are teaching material, not actual
@@ -8,13 +8,16 @@ Trial input or new benchmark results. Optional C++ assertions stay in Notes.
 Live/Hybrid is not approved. Windows, account, room and timed rehearsal
 remain UNVERIFIED.
 
+2026-10-30: clarify the Prompt-to-Context handoff. Change only the S37/S39
+questions and align S36-S42 Notes. No new Trial or Live approval.
+
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`b8b0656ae03fc3b29ca3d0c18afe24837402cd21b388cc6d91a17186c1fdabd7`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`d75f44a8c31c69059449b8bfcbd0652e4795d274fa2eb937b27570aaf66d2aa6`.
-- `production/preview/full/montage.png` SHA-256:`cb64ea4d1c0dcf9d343d15ea559ce07fd0652519623e53102fc3cbe7547108cb`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`b025ac947b1684c075a1f3386241e22d645079da2e8c56183973357f7a2bd09f`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`bef154d064546c21488727e6e114bc15e611eacb2d477d44383301b408f9dbc6`.
+- `production/preview/full/montage.png` SHA-256:`99fd655d8cb5c9f595431401d40ac7389cb6688f5b297dd8e93626efbe8eabb4`.
 
-[Current revision](../../production/evaluation/VERIFICATION_REQUEST_DESIGN_REVISION.md),
+[Current revision](../../production/evaluation/PROMPT_CONTEXT_HANDOFF_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
@@ -26,7 +29,7 @@ remain UNVERIFIED.
 | S10 | RETAINED_DEMO_STATIC | `production/preview/full/S10.png` | 1920×1080 | `c621e5666dfbda359a703d0797ec025bb4915cd17fa498c6f0001a052eb55cc9` |
 | S23 | RETAINED_DEMO_STATIC | `production/preview/full/S23.png` | 1920×1080 | `2006268ff4d96da09bba0d8ed99b8174423fccf4f1ce825888cba100679961a2` |
 | S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` | 1920×1080 | `eee791361290ec1374cc4456ce66ff3bf7a7b27905c9e912b20838a0091d9e1f` |
-| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `214e608a93423aa97d10f62a1a171a84f254cef0bf790dbefb0ccb7798eaf384` |
+| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `3b4e59c948761576b151573de7b5f8e2aa45901acce2072b8793d9cb6348d240` |
 | S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` | 1920×1080 | `052e19918e6be443c8699ae2212f02229dbce3a5c15eb96fbe03794193e70940` |
 | S41 | RETAINED_DEMO_STATIC | `production/preview/full/S41.png` | 1920×1080 | `3a41196b163fc4bc42f4efe9fce51796312655ec564b17873187ac1f550817e8` |
 | S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` | 1920×1080 | `26632e6c07918601f19342180eeac05a0e67051e7bf8e43e8bb1a0d4bedf3295` |

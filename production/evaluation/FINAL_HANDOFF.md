@@ -1,5 +1,36 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## Prompt→Context 연결 — DEC-0115 (2026-10-30)
+
+120장·417분과 모든 시간/Mode/ID·기존 근거는 유지한다. S36은 반복 기준 발견,
+S37은 공통 기준의 프로젝트 관리·작업 시 참조 질문으로 연결한다. S39는 세 작업에서
+기준 변경을 어떻게 반영할지 묻는다. 화면의 변경은 마지막 질문 두 곳이며 S36–S42
+Notes와 기획을 정렬했다. 기록 위치와 실제 활용 관찰을 구분한다.
+
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT1](../ACT_1.pptx), [ACT2](../ACT_2.pptx),
+[S37](../preview/full/S37.png), [S39](../preview/full/S39.png),
+[현재 검토](PROMPT_CONTEXT_HANDOFF_REVISION.md), [연결 기획](../../plan/ACT1_CONTEXT_HANDOFF.md),
+[현재 Map](../../plan/SLIDE_MAP.md), [사용자 검증](USER_VALIDATION_CHECKLIST.md).
+
+변경 대상165PNG와 Notes를 대조했다. 다른118장 화면·113개 Notes와 다른4개 ACT PPT는
+보존했다. 그림·도식·미디어·표·차트·워크북과 원본 Trial 근거는 같다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo·Sites·묶음은 변경하지 않았다.
+아래 이전 해시·기획·검증 결과는 당시 판본의 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `b025ac947b1684c075a1f3386241e22d645079da2e8c56183973357f7a2bd09f` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `5f1f7b1d10c2565d95f927fc6836794e0d42c1ef92982b38f3ae56599b9469fe` |
+| `production/ACT_2.pptx` | `5fcb9eab64d34d4daf70a14d6ecf54ad277fa78b3e81212beb1b8adc3dbd9398` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `96103c384f80f69a308a6dd464280e5a8645c17a02e5498a55e3b23ee014d4d9` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `bef154d064546c21488727e6e114bc15e611eacb2d477d44383301b408f9dbc6` |
+| `production/preview/full/montage.png` | `99fd655d8cb5c9f595431401d40ac7389cb6688f5b297dd8e93626efbe8eabb4` |
+
+## 보존된 이전 전달 기록
+
 ## 현재 전달 기준 — DEC-0114 (2026-10-30)
 
 120장·417분(6시간57분). S26은 원하는 결과에 맞는 확인 선택, S27은 같은 crop의

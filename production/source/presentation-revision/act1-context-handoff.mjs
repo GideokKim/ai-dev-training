@@ -1,4 +1,4 @@
-/** DEC-0113: carry one teaching request into the ACT1-to-ACT2 handoff. */
+/** DEC-0113/0115: carry one teaching request into the Prompt-to-Context handoff. */
 export const HANDOFF_REQUEST = [
  'crop 경계 오류를 고쳐줘.',
  '기존 공개 API는 유지해.',
@@ -49,7 +49,7 @@ export function contextHandoffFactories(H) {
     ]}]});
    text(s,'계속 쓰는 기준',906,357,310,44,28,C.teal,true);
    text(s,'프로젝트에서 합의해\n여러 작업에 적용',906,402,310,74,24,C.sub);
-   text(s,'이 공통 기준을 어디에 두고 다시 참고할까요?',64,540,1152,52,34,C.teal,true);
+   text(s,'이 기준을 프로젝트에서 관리하고, 작업할 때 찾아 참고하게 할 수 없을까?',64,540,1152,52,34,C.teal,true);
    return s;
   }
  };

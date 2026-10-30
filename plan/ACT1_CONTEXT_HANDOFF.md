@@ -1,5 +1,45 @@
 # ACT1→ACT2 — 같은 crop 요청으로 연결
 
+## Prompt→Context 연결 보완 — DEC-0115 (2026-10-30)
+
+120장·417분과 모든 장별 시간/Mode/ID·근거를 유지한다. S36은 같은 crop 요청에서
+반복될 기준을 발견하고, S37은 마지막 질문을 공통 기준의 프로젝트 관리와 작업 시 참조로
+연결한다. 이번 작업의 특수 조건은 요청에 남는다. S39는 세 작업으로 범위를 넓혀
+공통 기준이 바뀌면 여러 요청에 어떻게 반영할지 교육용 질문을 던진다. S40은 실제 기록 위치,
+S41은 기존 CLI 활용 관찰, S42는 관찰 뒤 Task Prompt/Project Context의 범위·수명 정리다.
+기록과 실제 참고·적용을 구분하고 AGENTS.md 자동 적용·단독 인과성·성과를 새로 주장하지 않는다.
+S36 3분, S37 6분과 ACT1 64분·ACT2 90분,12Templates/28Variants·19Notes 필드 유지.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않는다.
+[현행 Map](SLIDE_MAP.md), [연결 기획](ACT1_CONTEXT_HANDOFF.md)을 따른다. 아래 이전 기획은 당시 이력이다.
+
+## Current roles — DEC-0115
+
+| Slide | Role | Screen change | Time / Mode |
+|---|---|---|---|
+| S36 | 한 요청에서 다음에도 필요한 기준 발견 | 화면 유지 | Reflection1+Q&A2=3분 |
+| S37 | 공통 기준을 관리하고 작업 시 제공·참조하는 질문 | 마지막 질문만 교체 | Reflection1+Transition3+Q&A2=6분 |
+| S38 | Context Engineering 관점으로 구간 안내 | 화면 유지 | Transition1분 |
+| S39 | 서로 다른 세 작업으로 확대해 공통 기준의 관리 문제 확인 | 마지막 질문만 교체 | Lecture4+Case1=5분 |
+| S40 | 실제 프로젝트 정보 기록 위치·내용 | 화면 유지 | Demo4분 |
+| S41 | 기존 CLI에서 지침을 실제로 활용한 기록 | 화면 유지 | Demo4분 |
+| S42 | 기록과 관찰을 Task Prompt/Project Context로 정리 | 화면 유지 | Lecture5분 |
+
+S37 질문: “이 기준을 프로젝트에서 관리하고, 작업할 때 찾아 참고하게 할 수 없을까?”
+
+S39 질문: “공통 기준이 바뀌면, 세 요청에 어떻게 반영할까?”
+
+S36/S37의 세 문장과 강조/연결 도식, 기존 State/Trial/Claim 경계를 유지한다. S39의 기준 변경은 교육용 관리 질문이며 실제 Demo 실패 기록이 아니다. Prompt도 Context를 제공할 수 있고 이번 작업의 특수 조건은 요청에 남긴다. 문서에 적는 것과 실제 참고·적용은 별도 확인이다. Skill·수행 절차·도구·실행 환경의 구성은 ACT3에 남긴다. 공통 지침을 어디서 어떻게 제공할지는 ACT2의 관찰과 Routing으로 차근차근 다룬다.
+
+S38 Notes의 오래된 전체420분은 현행417분으로 정정한다. S40 Map의 이전 Slide34 전환과 S42의 역전된 근거 범위 표기는 현재 S41/S39–S41 관계에 맞춘다. 실제 요청·출처 원문과 Claim Status는 바꾸지 않는다.
+
+## Validation
+
+Full120장·ACT1 23장·ACT2 22장의165PNG를 최종 PPT에서 렌더링하고 두 질문과 S35–S43 연결을 검토한다. 나머지118장 화면·113개 Notes와 다른4개 ACT PPT를 보존한다. 기존120개19필드 Notes·전체417분·ACT시간·Mode를 대조하고44개 정적 Fallback의 해시를 현재 파일로 맞춘다. 실제 발표 검증은 기존 사용자 Gate에 남긴다.
+
+[검토 결과](../production/evaluation/PROMPT_CONTEXT_HANDOFF_REVISION.md).
+
+## Preserved earlier design
+
 ## 현재 제작 기준 — DEC-0114 (2026-10-30)
 
 현재 **120장·417분(6시간57분)**. 이전121장 판본의 S26–S28을 S26–S27로 정리한다.

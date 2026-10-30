@@ -72,9 +72,9 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 | S34 — 기준을 지정한 코드 리뷰 요청 | T03-A | CMP-PRACTICAL-TIP | CMP-CLAIM | C+T; documented recommendation has a cited conceptual prompt | Static teaching request; no Trial or live slot; Lecture 1 min | Single state | — | V02, V05, V10 |
 | S35 — 구체적인 근거로 수정 방향 피드백 | T03-A | CMP-PRACTICAL-TIP | CMP-CLAIM | C+T; documented recommendation has a cited conceptual prompt | Static teaching request; no Trial or live slot; Lecture 1 min | Single state | — | V02, V05, V10 |
 | S36 — 다음 작업에도 이 내용을 다시 적어야 할까? | T01-B | — | — | T; three-line teaching request, not Trial input | Reflection1 + Q&A2; one question over the same three neutral request lines | Single state; no answer highlighted | — | V02, V09, V10 |
-| S37 — 작업마다 바뀌는 목표, 계속 쓰는 기준 | T04-A | — | — | C+T; shared criteria require project agreement | Same request; one task goal vs two shared-criteria lines; Reflection1 + Transition3 + Q&A2 | Single state; thin bracket; mechanism deferred to ACT2 | — | V02, V05, V10 |
+| S37 — 작업마다 바뀌는 목표, 계속 쓰는 기준 | T04-A | — | — | C+T; shared criteria require project agreement | Same request; shared-criteria management and task-time reference question; Reflection1 + Transition3 + Q&A2 | Single state; thin bracket; mechanism deferred to ACT2 | — | V02, V05, V10 |
 | S38 — 필요한 정보를 찾아 쓰게 하기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
-| S39 — 다른 Task에 같은 설명이 반복된다 | T02-B | — | CMP-WORKFLOW | T | DEMO-02 problem framing; no result yet | Single state | — | V09 |
+| S39 — 다른 Task에 같은 설명이 반복된다 | T02-B | — | CMP-WORKFLOW | T | DEMO-02 problem framing across three tasks; shared-criteria update question; no result yet | Single state | — | V09 |
 | S40 — 작은 Project Context의 첫 기록 | T07-C | CMP-STATE, CMP-EVIDENCE | CMP-TRIAL | P | DEMO-02 EVIDENCE/state; HYBRID, 4 min | Single state | — | V03, V05 |
 | S41 — AGENTS.md의 지침대로 검증했다 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-02 WHAT HAPPENED/result; HYBRID, 4 min | Single state | — | V02, V05 |
 | S42 — Task Prompt와 Project Context | T03-B | — | CMP-CONTEXT-ROUTER, CMP-CPP | T | — | Single state | Supporting | V08 |

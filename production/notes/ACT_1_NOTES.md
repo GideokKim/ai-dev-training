@@ -1289,23 +1289,26 @@ S36
 Working Title:
 다음 작업에도 이 내용을 다시 적어야 할까?
 
-ACT / Section: ACT 1 / 1G
+ACT / Section:
+ACT 1 / 1G
 
-Allocated Time: 3 minutes
+Allocated Time:
+3 minutes
 
-Mode Split: Reflection 1 minute + Q&A 2 minutes
+Mode Split:
+Reflection 1 minute + Q&A 2 minutes
 
 Primary Message:
-잘 작성한 요청에도 이번 목표와 여러 작업에서 다시 참고할 기준이 함께 들어갈 수 있다. 먼저 반복할 내용을 생각하고 다음 장에서 범위를 구분한다.
+잘 작성한 요청에서도 다음 작업에 다시 필요한 정보·기준이 있음을 발견한다. 이번 목표와 공통 기준을 같은 세 문장에서 살피며, 관리 방법의 질문은 S37에서 연다.
 
 Opening Question:
 “작업이 바뀌어도 다시 말하게 될 문장은 무엇일까요?”
 
 Speaker Flow:
-1. (0:00–0:15 / Reflection) S35에서 제안의 어긋난 부분을 고치고 유지할 조건을 적었다는 점을 회수한다. 화면의 짧은 요청은 같은 crop 사례를 되돌아보는 교육용 예시이며 실제 TRIAL-002 발췌가 아님을 밝힌다. 세 문장의 범주나 정답을 먼저 설명하지 않는다.
-2. (0:15–1:00 / Reflection) “작업이 바뀌어도 다시 말하게 될 문장은?”을 보고 조용히 생각할 시간을 둔다. 빈 Bucket이나 분류표 대신 요청 문장을 그대로 관찰하게 한다. 작성·공유·응답을 요구하지 않는다.
-3. (1:00–3:00 / Q&A) 자발적인 질문을 받는다. 질문이 없으면 “이번 목표와 다음 작업에도 지킬 조건이 같은 수명일까요?”를 한 번 짚고 침묵을 허용한다. 이 시간에 AGENTS.md나 공통 지침의 정답을 먼저 강의하지 않는다.
-4. (3:00) 같은 세 문장을 유지한 S37로 이동한다.
+1. (0:00–0:15 / Reflection) S35에서 원하는 변경과 유지할 조건을 명확히 썼다는 성과를 회수한다. 화면은 같은 crop의 교육용 요청이며 실제 TRIAL-002 발췌가 아니다. 세 문장을 그대로 두고 분류·정답을 먼저 주지 않는다.
+2. (0:15–1:00 / Reflection) 작업이 바뀌어도 다시 말할 문장이 무엇인지 조용히 생각하게 한다. 작성·공유·개인 업무 공개를 요구하지 않는다.
+3. (1:00–3:00 / Q&A) 자발적인 질문을 받는다. 질문이 없으면 이번 목표와 다음 작업에도 지킬 조건이 같은 범위·수명인지 한 번 묻고 침묵을 허용한다. 저장 파일이나 자동 적용을 답으로 먼저 설명하지 않는다.
+4. (3:00) 다음 장에서 같은 세 문장을 나누고, 공통 기준을 어떻게 관리하고 참고하게 할지 질문한다고 S37로 이동한다.
 
 Evidence / Source:
 TEACHING_MODEL. BEAT-007 → BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113. S35의 crop·API 보존 요청과 기존 프로젝트 테스트 기준을 짧게 각색한 교육용 요청이다. 실제 TRIAL-002 입력·행동 로그·제품 화면이나 새 실험의 근거가 아니다.
@@ -1322,12 +1325,13 @@ Claim Boundary:
 구체적인 문장에서 반복할 내용을 떠올리는 교육용 Reflection이다. 실제 Trial에서 이 요청을 사용했다거나 정답·현재 제품 기능·효과를 확인했다고 표현하지 않는다. 문장의 적용 범위는 다음 장에서 프로젝트 합의 조건과 함께 검토한다.
 
 Beginner Explanation:
-요청을 잘 작성해도 이번 목표와 여러 작업에서 다시 참고할 조건이 함께 들어갈 수 있다. 같은 짧은 요청에서 다음에도 다시 말할 문장을 생각한다.
+좋은 요청을 쓰는 법을 배운 뒤에도 다음 작업에 다시 필요한 기준은 남는다. 먼저 같은 crop 요청에서 그 문장을 찾는다.
 
 Advanced Insight:
 Separate the recurrence question from storage design. A repeated sentence does not automatically deserve global instruction scope.
 
-C++ Vision Bridge: N/A.
+C++ Vision Bridge:
+N/A.
 
 Demo Operation:
 N/A — 정적 교육용 요청과 Reflection/Q&A다. 새 Trial·모델 호출·Demo 시간·테스트 실행·결과 화면을 추가하지 않는다.
@@ -1336,7 +1340,7 @@ Audience Interaction:
 Reflection1분(안내15초+개인적 생각45초) 후 자발적 Q&A2분이다. 문장 선택·답안 작성·공유·개인 업무 공개를 요구하지 않는다. 답이 없어도 정시에 진행한다.
 
 Transition:
-“방금 본 같은 요청에서 이번 목표와 계속 쓰기로 한 기준을 나눠 보겠습니다.”라고 S37로 이동한다.
+“같은 요청에서 이번 목표와 계속 참고할 기준을 나눠 보고, 그 기준을 어디에서 관리할지 생각해 보겠습니다.”라고 S37로 이동한다.
 
 Time Management:
 Reflection1분 + Q&A2분 = 3분. 요청을 이해할 단서3개만 제공한다. 별도 Lecture·설명 시간이나 필수 응답을 추가하지 않는다. 실제 운영 적합성은 리허설 전까지 UNVERIFIED다.
@@ -1345,7 +1349,7 @@ Fallback:
 production/ACT_1.pptx S36 또는 production/preview/act1/S36.png의 정적 요청을 사용한다. 질문이 없으면 요청의 세 문장을 읽어 보게 하고3분에 같은 문장을 분리한 S37로 넘긴다.
 
 Validation Status:
-ALIGNED — DEC-0113. 최종 PPT/Notes/렌더 대조는 production/evaluation/ACT1_CONTEXT_HANDOFF_REVISION.md에 기록한다. Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0113. 최종 PPT/Notes/렌더 대조는 production/evaluation/ACT1_CONTEXT_HANDOFF_REVISION.md에 기록한다. Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED. DEC-0115의 Prompt→Context 연결과 운영 역할은 production/evaluation/PROMPT_CONTEXT_HANDOFF_REVISION.md에서 확인한다.
 
 ## S37 — 작업마다 바뀌는 목표, 계속 쓰는 기준
 
@@ -1355,24 +1359,27 @@ S37
 Working Title:
 작업마다 바뀌는 목표, 계속 쓰는 기준
 
-ACT / Section: ACT 1 / 1G
+ACT / Section:
+ACT 1 / 1G
 
-Allocated Time: 6 minutes
+Allocated Time:
+6 minutes
 
-Mode Split: Reflection 1 minute + Transition 3 minutes + Q&A 2 minutes
+Mode Split:
+Reflection 1 minute + Transition 3 minutes + Q&A 2 minutes
 
 Primary Message:
-crop 수정 목표는 작업마다 달라지고, 프로젝트에서 합의해 계속 적용할 API·테스트 기준은 여러 작업에서 다시 참고할 수 있다. 적용 범위를 먼저 확인하고 저장 위치는 다음 ACT에서 다룬다.
+이번 작업의 목표·특수 조건은 요청에 담는다. 프로젝트에서 공통으로 적용하기로 합의한 정보·기준은 관리할 위치와 작업 시 제공·참조 방법을 설계한다.
 
 Opening Question:
-“이 공통 기준을 어디에 두고 다시 참고할까요?”
+“이 기준을 프로젝트에서 관리하고, 작업할 때 찾아 참고하게 할 수 없을까?”
 
-**Speaker Flow:**
-1. (0:00–1:00 / Reflection) S36과 문장이 하나도 바뀌지 않았음을 확인하게 한다. 각자 업무에서 어떤 조건을 여러 작업에 계속 적용하기로 합의했는지 조용히 생각한다. 앞 장의 문장 찾기를 반복 시험하거나 공개 분류를 요구하지 않는다.
-2. (1:00–2:00 / Transition) 위 한 줄의 crop 수정은 이번 작업 목표이고 작업이 달라지면 바뀐다는 점을 가리킨다. 새로운 README Task나 성능 사례를 여기서 추가하지 않는다.
-3. (2:00–3:00 / Transition) 아래 두 줄의 공개 API 유지·정해진 테스트 명령은 이 프로젝트에서 계속 적용하기로 합의한 경우 여러 작업에서 참고할 기준이다. 반복된다고 무조건 전역 지침이 되는 것은 아니다. 어떤 테스트를 언제 돌릴지는 프로젝트의 실제 기준과 작업 조건을 확인한다. 여러 단계의 작업 절차를 여기서 Skill/Workflow로 분류하지 않는다.
-4. (3:00–4:00 / Transition) 요청에는 목표·조건·완료 근거를 담는다는 ACT1 원칙을 유지한다. 공통 기준을 매번 복사하는 문제와 어디에 두고 참고할지라는 질문만 남긴다. AGENTS.md·자동 수집·효과를 답으로 제시하지 않는다. 세 가지 다른 Task에 같은 설명이 반복되는 장면은 ACT2 S39에서 확대한다.
-5. (4:00–6:00 / Q&A) 자발적인 질문을 받는다. 질문이 없으면 “다음 요청에도 같은 기준이 필요하면, 어디에 두고 다시 참고할까요?”를 설명용 질문으로 회수하고6분에 S38로 넘긴다. S38 제목의 Transition1분과 시간을 중복 계산하지 않는다.
+Speaker Flow:
+1. (0:00–1:00 / Reflection) S36과 같은 요청에서 자신의 프로젝트가 여러 작업에 계속 적용하기로 합의한 기준을 생각하게 한다. 공개 분류·답안 작성은 요구하지 않는다.
+2. (1:00–2:00 / Transition) crop 수정 목표 한 줄과 API·정해진 테스트 명령 두 줄의 역할을 짚는다. 이번 작업에만 필요한 조건도 요청에 남아야 한다.
+3. (2:00–3:00 / Transition) 아래 두 줄은 이 프로젝트에서 계속 적용하기로 한 경우의 공통 기준이다. 반복 횟수만으로 전역·영구 지침으로 만들지 않는다. 기준이 바뀌면 여러 요청의 사본에 어떻게 반영할지도 관리할 문제임을 교육용 질문으로 남긴다.
+4. (3:00–4:00 / Transition) 하단 질문을 읽는다. 이번 전환은 여러 작업에 필요한 정보의 위치와 제공 방식을 설계하는 Context Engineering의 문제다. AGENTS.md·자동 로딩·Skill·수행 환경을 여기서 답으로 미리 보여주지 않는다.
+5. (4:00–6:00 / Q&A) 자발적인 질문을 받는다. 질문이 없으면 같은 기준을 여러 요청에 각각 복사해 두면 변경 때 무엇을 확인해야 할지 묻는다.6분에 S38 제목을 거쳐 S39의 서로 다른 세 작업으로 범위를 넓힌다.
 
 Evidence / Source:
 TEACHING_MODEL / CONCEPTUAL. BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113. S36과 완전히 같은3문장을 사용한다. 구분과 적용 범위는 교육용 예시이며 실제 STATE-01/Trial의 지침 원문·자동 적용·수행 결과가 아니다. 실제 기록과 기존 정책의 조건은 DEMO_MATRIX.md에 보존한다.
@@ -1389,21 +1396,22 @@ Claim Boundary:
 공개 API와 테스트 기준을 프로젝트에서 합의해 계속 적용하기로 한 경우의 교육용 구분이다. 모든 반복 조건이 영구·전역 지침이거나 모든 요청에 전체 테스트가 필수라고 일반화하지 않는다. 실제 TRIAL-002 입력·STATE-01 원문·새 실행·측정·자동 지침 적용·효과를 주장하지 않는다. 저장 메커니즘과 AGENTS.md는 아직 답으로 보여주지 않는다.
 
 Beginner Explanation:
-위의 목표는 작업이 바뀌면 달라지고 아래의 합의된 기준은 여러 작업에서 다시 참고할 수 있다. 같은 요청 문장에서 역할을 나누므로 새 예시를 다시 해석할 필요가 없다.
+이번 목표와 조건을 요청에 명확히 쓰면서, 여러 작업에 공통인 기준의 관리 위치와 참고 방법도 생각한다. 원하는 목표를 문서에 모두 옮기거나 공통 기준을 요청에서 무조건 빼는 뜻이 아니다.
 
 Advanced Insight:
-Scope and lifetime require project agreement. Check whether an API-preservation condition or test entry applies to future tasks; do not promote every repeated sentence into universal policy. 기존 화면의 의존성 예시는 Notes의 선택 참고로 보존한다. 실제 STATE-01은 작업상 정당한 근거가 있을 때 추가할 수 있다는 조건이며 무조건 금지로 바꾸지 않는다. README는 다음 ACT의 작업 예로 남기고 여기서 새 사례를 추가하지 않는다.
+The distinction concerns information scope, ownership and update responsibility. A prompt can provide context too. A project record is not evidence of automatic loading or successful use; S40 shows the record and S41 shows bounded observed use. Keep task-specific conditions explicit.
 
-C++ Vision Bridge: N/A.
+C++ Vision Bridge:
+N/A.
 
 Demo Operation:
 N/A — S36의 동일한 교육용 요청을 범위별로 설명하는 정적 장이다. 새로운 Prompt 입력·Trial·C++/Python 실행·현재 제품 수집 동작·성과를 보여주지 않는다.
 
 Audience Interaction:
-Reflection1분은 어떤 기준을 공통으로 합의할지 생각한다. Transition3분 뒤 자발적 Q&A2분이다. 정답 분류·업무 공개·실습을 요구하지 않는다. 질문이 없으면 마지막 위치 질문을 회수하고6분에 다음 ACT로 넘어간다.
+Reflection1분 뒤 Transition3분과 자발적 Q&A2분이다. 공통 기준의 변경·제공을 생각하게 하되 정답 분류·실습·업무 공개를 요구하지 않는다. 질문이 없으면 하단 질문을 회수하고 정시에 다음 ACT로 이동한다.
 
-**Transition:**
-“공통 기준이 다음 요청에도 필요하다면 어디에 두고 다시 참고할까요? 다음 구간에서는 서로 다른 작업에도 같은 설명이 반복되는 장면부터 보겠습니다.”라고 ACT2 제목 S38를 거쳐 S39으로 이어간다.
+Transition:
+“이 기준을 프로젝트에서 관리하고 작업할 때 찾아 참고하게 할 수 없을까요? 다음에는 서로 다른 세 작업에서도 같은 기준을 쓰는지 보겠습니다.”라고 S38 제목→S39로 이동한다.
 
 Time Management:
 0–1분 Reflection,1–4분 Transition,4–6분 Q&A를 유지한다. S38 ACT2 제목의1분은 별도다. 두 장 합계9분과 Reflection2/Transition3/Q&A4를 보존한다. 실측 시간 적합성은 UNVERIFIED다.
@@ -1412,4 +1420,4 @@ Fallback:
 production/ACT_1.pptx S37 또는 production/preview/act1/S37.png의 정적 분리 도식을 사용한다. 프로젝트 합의·조건 범위를 밝히고 S38 제목→S39의 세 작업 반복 장면으로 이어간다. 저장 방법을 먼저 설명하지 않는다.
 
 Validation Status:
-ALIGNED — DEC-0113. 최종 PPT/Notes/렌더 대조는 production/evaluation/ACT1_CONTEXT_HANDOFF_REVISION.md에 기록한다. Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0113. 최종 PPT/Notes/렌더 대조는 production/evaluation/ACT1_CONTEXT_HANDOFF_REVISION.md에 기록한다. Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED. DEC-0115의 Prompt→Context 연결과 운영 역할은 production/evaluation/PROMPT_CONTEXT_HANDOFF_REVISION.md에서 확인한다.
