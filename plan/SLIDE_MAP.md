@@ -1171,29 +1171,29 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Evidence / Decision References:** BEAT-012, TRIAL-004, CLM-0014, CLM-0015, DEC-0049, DEC-0050
 - **Audience Footer:** 이 기록에서는 혼란·실패가 관찰되지 않음
 
-#### S45 — 정보의 범위와 제공 시점
+#### S45 — 공통 안내와 작업별 상세를 나눈다
 
 - **Slide ID:** S45
 - **ACT:** ACT 2
 - **Section:** 2E
-- **Working Title:** 정보의 범위와 제공 시점
-- **Primary Role:** 공통 안내·선택적 상세와 아직 해결하지 않은 수행 방법을 구분한다.
-- **Audience Question:** “무엇은 항상 필요하고, 무엇은 Task에 따라 찾아야 할까?”
-- **Core Message:** 공통 안내와 작업별 상세는 범위·제공 시점을 나눌 수 있다. 반복되는 수행 절차의 유지 방법은 다음 ACT에서 검토할 질문으로 남긴다.
+- **Working Title:** 공통 안내와 작업별 상세를 나눈다
+- **Primary Role:** S44의 관련성 관찰을 공통 안내와 작업별 상세의 범위 비교로 정리한다.
+- **Audience Question:** “README 수정과 crop 조사에서 공통으로 참고할 정보와 따로 확인할 정보는 무엇일까?”
+- **Core Message:** 여러 작업에서 함께 참고할 공통 안내와, 해당 작업에 필요할 때 확인할 상세를 구분한다.
 - **Story Beat:** BEAT-012, BEAT-014
-- **Curriculum Trace:** ACT 2 — Context growth, relevance, and research caveat.; ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.
+- **Curriculum Trace:** ACT 2 — Context growth, relevance, and research caveat.; ACT 2 — Separation, routing, and progressive disclosure.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; CONCEPTUAL. OpenAI의 공식 분류 체계로 표현하지 않는다.
-- **Visual Concept:** 세 열 중 앞의 두 열은 공통 안내와 Task별 상세의 배치를 비교한다. 세 번째는 분리된 성능 요청 A/B에 같은 절차가 반복된다는 미해결 질문을 회색 점선으로 표시하고 ACT 3에서 확인한다고 적는다. 하나의 재사용 Workflow로 합쳐진 완성 구조나 Skill은 보여주지 않는다.
-- **Demo / Case Connection:** STATE-02의 분류 결과를 참조하되, 성능 조사 절차가 STATE-02에 실제로 저장됐다고 말하지 않는다.
+- **Visual Concept:** README 수정/crop 조사 두 행에 걸친 하나의 공통 안내 영역과, 각 행의 빌드 도구·설정/좌표 범위·이미지 명세를 비교한다. 상단은 S44 관련성을 회수하고 하단은 필요한 정보의 실제 활용 질문으로 S46에 연결한다. 절차 반복 열과 ACT3 예고는 화면에서 제외하며 읽기 순서 화살표를 넣지 않는다.
+- **Demo / Case Connection:** S44/TRIAL-004에서 관찰한 관련성 구분을 회수한 교육용 비교다. STATE-02의 실제 내용과 기존 Trial 결과를 보존하며 두 새 작업의 실행 결과로 표현하지 않는다.
 - **Beginner Payoff:** 모든 세부사항이 항상 필요한 것은 아님을 이해한다.
-- **Advanced Payoff:** 사실, Task별 세부정보, 절차를 구별하고 어디서 유지할지 생각한다.
+- **Advanced Payoff:** 정보의 공통/선택적 범위와 실제 읽기·활용 여부를 구분한다. 반복 절차 문제는 기존 S59/ACT3에 남긴다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S44의 관련성 질문을 공통 안내/필요할 때 찾을 상세로 회수한다. 세 번째 열은 다음 문제의 예고이며 해결된 재사용 구조가 아니다. 정보의 범위와 수행 방법은 서로 다른 축이고 AGENTS.md에 절차를 쓰면 안 된다는 제품 규칙이 아니다.
-- **Transition:** “정보를 제공했다는 사실과 필요한 근거를 활용했다는 사실을 구분해야 할까요? 두 연구가 실제로 확인한 질문을 각각 보겠습니다.”
+- **Speaker Intent:** 두 작업이 함께 참고할 기본 안내를 가운데 하나로 묶고, 각 작업의 상세를 오른쪽에서 비교한다. 파일 위치·읽기 순서·자동 적용·효과를 새로 주장하지 않는다. S44의 혼란·실패 미관찰을 유지하고 하단 질문으로 S46에 연결한다.
+- **Transition:** “필요한 정보를 제공하면, 답에서도 제대로 활용할까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051, DEC-0060
+- **Evidence / Decision References:** BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051, DEC-0060, DEC-0118
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S46 — 많이 담아도 같은 근거를 똑같이 쓰는가?

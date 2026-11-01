@@ -20,36 +20,25 @@ export async function loadAct2ContinuitySlides(root) {
  };
  return {
   S38(p){
-   const s=make(p,'S38','정보의 범위와 제공 시점','ACT 2 · 이번에는 Context의 범위를 정리',
-    '교육용 구분 · 정보의 범위와 수행 방법은 서로 다른 축',
-    '공식 제품 분류가 아님 · 오른쪽은 다음 ACT의 미해결 질문');
-   text(s,'공통 안내와 상세는 나누고, 작업 방법은 질문으로 남긴다',64,181,1152,44,30,C.teal,true);
-   const xs=[64,464,864];
-   ['여러 작업의 기본 안내','질문에 맞춰 찾을 상세','아직 남은 질문'].forEach((t,i)=>{
-    text(s,t,xs[i],253,352,40,28,i===2?C.sub:C.ink,true);
-    line(s,xs[i],309,352,i===2?C.sub:C.line,1,i===2?'dash':'solid');
+   // DEC-0118: this retained S38 factory maps to current S45.
+   const s=make(p,'S38','공통 안내와 작업별 상세를 나눈다','ACT 2 · 작업에 필요한 Context',
+    '교육용 정보 배치 모델 · TRIAL-004의 관련성 관찰을 바탕으로 설명',
+    '파일 읽기 순서·자동 적용·성능 효과를 관찰한 그림이 아님');
+   text(s,'앞의 README 수정에는 이미지 상세 명세까지 필요하지 않았다.',64,180,1152,40,26,C.sub);
+   text(s,'이번 작업',64,252,282,40,28,C.ink,true);
+   text(s,'두 작업에 공통',390,252,390,40,28,C.teal,true,FONT,'center');
+   text(s,'이번 작업에서 찾을 상세',824,252,392,40,28,C.ink,true);
+   rect(s,390,314,390,204,C.pale,C.teal,1.5);
+   ['프로젝트 목적','공통 제약','실행·검증의 시작점'].forEach((label,i)=>{
+    text(s,label,414,333+i*56,342,42,i===2?27:29,C.teal,true,FONT,'center');
    });
-   ['README','crop','성능 조사'].forEach((t,i)=>{
-    rect(s,64+i*124,344,104,48,C.white,C.line,1);
-    text(s,t,64+i*124,351,104,34,22,C.ink,true,FONT,'center');
+   [['README 수정','빌드 도구·설정',326],['crop 조사','좌표 범위·이미지 명세',442]].forEach(([task,detail,y])=>{
+    text(s,task,64,y,282,64,32,C.ink,true);
+    text(s,detail,824,y,392,64,28,C.ink,true);
    });
-   down(s,226,410,28,18);
-   rect(s,64,445,352,82,C.pale,C.teal,1.5);
-   text(s,'목적 · 공통 제약\n실행·검증의 시작점',82,453,316,66,26,C.ink,true,FONT,'center');
-   [['README','빌드 안내',344],['crop','이미지 명세',454]].forEach(([task,detail,y])=>{
-    text(s,task,464,y,114,42,25,C.ink,true);
-    arrow(s,581,y+13,25,18);
-    rect(s,623,y,193,48,C.white,C.teal,1.5);
-    text(s,detail,631,y+7,177,34,25,C.teal,true,FONT,'center');
-   });
-   [['성능 요청 A',344],['성능 요청 B',437]].forEach(([label,y])=>{
-    rect(s,864,y,352,78,C.bg,C.sub,1.5,'dash');
-    text(s,label,882,y+7,316,27,23,C.sub,true);
-    text(s,'측정 · 조사 · 검증 …',882,y+40,316,30,25,C.ink);
-   });
-   text(s,'공통으로 참고할 범위',64,552,352,35,25,C.teal,true);
-   text(s,'필요한 때 상세를 확인',464,552,352,35,25,C.teal,true);
-   text(s,'방법의 반복은 ACT 3에서',864,552,352,35,24,C.sub,true);
+   line(s,64,412,282);
+   line(s,824,412,392);
+   text(s,'필요한 정보를 제공하면, 답에서도 제대로 활용할까?',64,558,1152,42,30,C.teal,true);
    return s;
   },
   S39(p){

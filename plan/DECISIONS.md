@@ -11973,3 +11973,80 @@ it, while keeping documented guidance separate from observed outcomes.
 Render the final Full/ACT1 packages, inspect the eight slides and adjacent
 flow, verify Notes and timing, then commit and push under the standing
 Git instruction. Preserve independent Windows, room and rehearsal gates.
+
+# DEC-0118 — Focus S45 on shared guidance and task-specific detail
+
+## Status
+
+ACCEPTED — explicit user approval of the proposed single-message revision.
+
+## Date
+
+2026-11-02
+
+## Context
+
+The user cannot infer the intended S44-S45-S46 progression from S45 alone.
+The previous three-column slide also previews a different ACT3 problem.
+
+## Problem
+
+Scope, selective detail and repeated procedure compete for attention.
+The reasoning supplied in Notes is not sufficiently visible on the slide.
+
+## Decision
+
+Rename S45 to distinguish shared guidance from task-specific detail.
+Compare README editing and crop investigation in two aligned rows with
+one shared guidance region spanning both rows. Show only the different
+details in the final column. Add an explicit S44 relevance callback and
+a question about actual evidence utilization to lead into S46.
+Remove the procedure preview from S45 while retaining the existing
+S59 and ACT3 content, sequence and allocation without changes.
+
+## Rationale
+
+Give S45 one educational responsibility. Connect the concrete relevance
+observation to the question of whether supplied information is used.
+Keep file placement and read-order design for the subsequent slides.
+
+## Alternatives
+
+Keep all three topics and enlarge text: the competing roles remain.
+Split this slide: unnecessary for the approved two-scope comparison.
+Explain Skill now: premature and outside this slide's role.
+
+## Trade-offs
+
+The earlier procedure preview is deferred to its existing later location.
+Preserve DEC-0051 and DEC-0060 as historical rationale rather than rewriting
+their records. Keep the teaching model distinct from observed execution.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-002, INV-VERIFY-001.
+
+## Affected Artifacts
+
+S45 source, Slide Map and T03-B mapping; MASTER_PLAN and VISUAL_SPEC;
+ACT2/Full Markdown and embedded Notes; Full/ACT2 packages and previews;
+revision evaluation, final handoff, checklist and fallback identities.
+
+## Evidence
+
+Explicit user approval; current S44/TRIAL-004 relevance observation and
+S45/S46/S59 source material. No new Trial or current product test.
+No automatic application, routing, performance or token benefit is claimed.
+
+## Training Relevance
+
+YES — separate information relevance and scope from actual utilization,
+and keep procedural reuse as the subsequent Harness question.
+
+## Follow-up
+
+Keep S45 Lecture4, ACT2 22slides/90minutes and the full120slides/417minutes.
+Render the exact final packages, compare the remaining119screens and Notes,
+verify source and delivery identities, then commit and push normally.
+Keep Windows, room, account/product and timed rehearsal unverified.
+Do not change the Demo repository, Sites or paused presenter bundles.

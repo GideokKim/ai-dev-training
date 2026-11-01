@@ -1,5 +1,36 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S45 공통 안내·작업별 상세 — DEC-0118 (2026-11-02)
+
+S45를 두 작업의 공통 안내와 각각 필요한 상세의 범위 비교로 정리했다.
+상단은 S44의 관련성 관찰, 하단은 S46의 실제 활용 질문으로 연결한다.
+절차 반복은 기존 S59/ACT3에 남긴다.120장·417분과 S45 Lecture4분을 유지한다.
+
+[수정 S45](../preview/full/S45.png), [통합 PPT](../AI_Dev_Training_Full.pptx),
+[ACT2 PPT](../ACT_2.pptx), [ACT2 Notes](../notes/ACT_2_NOTES.md),
+[현재 검토](S45_CONTEXT_SCOPE_REVISION.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[사용자 검증](USER_VALIDATION_CHECKLIST.md).
+
+142PNG와19필드 Notes를 대조했다. 다른119장 화면/Notes와5개 ACT PPT 및
+native 근거를 보존했다. Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다.
+Demo 저장소·Sites·발표 묶음은 변경하지 않았다. 아래 기록은 해당 판본의 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `44ce37cff0b809709bf6f158ed1e803a455f5354f17c0bb520d2c6716fada6ba` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `ca0bd88c0b93c796f6bc5b7ba8aab8a626c44947445536cfa09bf0318f897a3f` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `96103c384f80f69a308a6dd464280e5a8645c17a02e5498a55e3b23ee014d4d9` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `0ad39aedebe3fd7e57e81e713bcfea0a78ca2318de2fee1ce8ded45a767d4d81` |
+| `production/notes/ACT_2_NOTES.md` | `d0a5b4af03d95441e4191f1e1e1b0a01993f058760a8ed17626795f0bb523d95` |
+| `production/preview/full/montage.png` | `2cc8e56b5e454281c90af454a371f8ecdbd61daa9ecc41d439e59e9169890a08` |
+| `production/preview/full/S45.png` | `8082286f7d29bca9b03698eeed5807aa750bc8e951603393c7d85332eb17c2ee` |
+
+## 보존된 이전 전달 기록
+
 ## Prompt 기법명·출처·디자인 — DEC-0117 (2026-10-30)
 
 S28–S35에 기법/접근명·뜻·공식 문서/절을 표시하고, 적용 문장 강조와 기법별 도식을

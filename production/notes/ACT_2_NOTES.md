@@ -502,12 +502,12 @@ LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S44 또는 production/preview
 
 Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
 
-## S45 — 정보의 범위와 제공 시점
+## S45 — 공통 안내와 작업별 상세를 나눈다
 
 Slide ID:
 S45
 
-Working Title: 정보의 범위와 제공 시점
+Working Title: 공통 안내와 작업별 상세를 나눈다
 
 ACT / Section: ACT 2 / 2E
 
@@ -515,42 +515,39 @@ Allocated Time: 4 minutes
 
 Mode Split: Lecture 4 minutes
 
-Primary Message: 공통 안내와 작업별 상세는 범위·제공 시점을 나눌 수 있다. 반복되는 수행 절차의 유지 방법은 다음 ACT에서 검토할 질문으로 남긴다.
+Primary Message: 여러 작업에서 함께 참고할 공통 안내와, 해당 작업에 필요할 때 확인할 상세를 구분한다.
 
-Opening Question: “무엇은 항상 필요하고, 무엇은 Task에 따라 찾아야 할까?”
+Opening Question: “README 수정과 crop 조사에서 함께 참고할 정보와 따로 확인할 정보는 무엇일까요?”
 
-Speaker Flow: 1. (0–1분) 앞 장 AGENTS.md에서 모든 상세가 이번 작업에 필요하지 않았음을 회수한다.
-2. (1–3분) 공통 안내와 질문별 상세를 필요한 범위·시점으로 나눈다.
-3. (3–4분) 오른쪽 절차는 아직 남은 질문임을 짚고 해결책을 소개하지 않는다. 다음은 “정보를 넣음”과 “근거를 활용함”의 차이에 관한 연구 질문이다.
+Speaker Flow:
+1. (0:00–0:40) 상단 문장으로 S44를 회수한다. 앞의 README 수정에는 이미지 상세 명세까지 필요하지 않았다. 이것은 이번 작업의 관련성 구분이며 Agent 혼란이나 실패가 관찰됐다는 뜻이 아니다.
+2. (0:40–1:20) 왼쪽 두 작업을 가리킨다. README 빌드 안내 수정과 crop 동작 조사는 서로 다른 상세가 필요하다. 화면은 교육용 비교이며 두 요청을 새로 실행한 기록이 아니다.
+3. (1:20–2:20) 가운데 두 행에 걸친 공통 안내를 가리킨다. 프로젝트 목적, 공통 제약, 실행·검증의 시작점은 여러 작업에서 함께 참고할 범위다. 검증의 시작점을 안다는 것과 모든 작업에서 같은 테스트 전체를 실행한다는 것은 다르다.
+4. (2:20–3:20) 오른쪽을 두 행으로 비교한다. README 수정에는 빌드 도구·설정, crop 조사에는 좌표 범위·이미지 명세가 필요하다. 관련 상세는 해당 작업에 필요할 때 확인한다. 파일 배치·지침 적용 범위·실제 읽기 순서는 뒤 구간의 별도 질문으로 남긴다.
+5. (3:20–4:00) 하단 질문 “필요한 정보를 제공하면, 답에서도 제대로 활용할까?”로 마친다. S46에서는 같은 근거의 위치를 바꿨을 때 당시 일부 모델·과제에서 무엇을 관찰했는지 확인한다. 연구 결과를 현재 Codex의 업무 성능으로 확대하지 않는다.
 
-Evidence / Source: BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051. TEACHING_MODEL / CONCEPTUAL. S45/TRIAL-004의 관련성 관찰을 회수한 설계 모델이다. 도식의 작업별 상세 연결과 성능 절차는 설명용 구성이고 새 Product 관찰·Trial이 아니다.
+Evidence / Source: BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051, DEC-0060, DEC-0118. TEACHING_MODEL / CONCEPTUAL. S44/TRIAL-004의 관련성 관찰을 회수한 교육용 정보 배치 모델이다. README와 crop의 두 행은 설명용 비교이며 새 실행·관찰 결과가 아니다. 기존 TRIAL-004의 읽기·행동·결과는 그대로 유지한다. 과거 세 번째 열의 절차 반복은 S59와 ACT3에서 다루며 기존 DEC-0051/0060의 설계 이유는 Decision history에 보존한다.
 
-보존된 상세 출처: 교육용 구분 · 정보의 범위와 수행 방법은 서로 다른 축
+Claim Boundary: TEACHING_MODEL / CONCEPTUAL. OpenAI의 공식 분류 체계나 제품 규칙이 아니다. 공통/상세 구분은 정보의 관련 범위를 설명하며 실제 파일 읽기 순서·자동 적용·완벽한 선택을 관찰한 그림이 아니다. AGENTS.md에 절차를 쓰면 안 된다는 규칙을 만들지 않는다. S44에서 혼란·실패는 관찰되지 않았고 토큰 절약·성능 향상도 측정하지 않았다. 반복 절차의 유지 문제는 기존 S59/ACT3에 남겨 둔다.
 
-Claim Boundary:
-FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; CONCEPTUAL. OpenAI의 공식 분류 체계로 표현하지 않는다. S44의 관련성 질문을 공통 안내/필요할 때 찾을 상세로 회수한다. 세 번째 열은 다음 문제의 예고이며 해결된 재사용 구조가 아니다. 정보의 범위와 수행 방법은 서로 다른 축이고 AGENTS.md에 절차를 쓰면 안 된다는 제품 규칙이 아니다.
+Beginner Explanation: 같은 프로젝트의 작업이라도 함께 참고할 안내와 이번 질문에 필요한 상세는 다를 수 있다.
 
-보존된 상세 범위: 공식 제품 분류가 아님 · 오른쪽은 다음 ACT의 미해결 질문
-
-Beginner Explanation: Some facts apply broadly; details matter for a smaller set of Tasks; a work procedure says how to approach a class of work.
-
-Advanced Insight: Keep durable facts, selectively needed details, and workflow responsibility conceptually distinct even when they can all appear outside a Task Prompt.
+Advanced Insight: 공통으로 참고할 정보와 선택적으로 필요한 상세의 범위를 구분한다. 구체적인 저장 위치·탐색 경로·실제 활용 여부는 이후 설명과 관찰에서 별도로 확인한다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A.
+Demo Operation: N/A — 실제 실행 화면이 아닌 편집 가능한 정적 교육용 범위 비교도다. 새 Trial이나 제품 조작을 수행하지 않는다.
 
-Audience Interaction: Ask the audience to notice that information has different scopes; no category-writing exercise is required.
+Audience Interaction: “두 작업에 같은 이미지 상세가 필요할까요?”를 짧게 던지고 가운데 공통 안내와 오른쪽의 서로 다른 상세를 가리킨다. 별도 실습·추가 Q&A 시간을 만들지 않는다.
 
-Transition: “정보를 제공했다는 사실과 필요한 근거를 활용했다는 사실을 구분해야 할까요? 두 연구가 실제로 확인한 질문을 각각 보겠습니다.”
+Transition: “필요한 정보를 제공하면, 답에서도 제대로 활용할까요? 다음에는 근거 위치를 바꿨을 때 무엇을 관찰했는지 보겠습니다.”
 
-Time Management:
-S44 회수30초, 공통 안내1분, 요청별 상세1분, 재사용 절차1분, 경계·S46 연결30초로 Lecture4분을 유지한다. 제품 기능이나 Skill 호출 설명으로 확장하지 않는다.
+Time Management: S44 회수40초, 두 작업 구분40초, 공통 안내60초, 상세 비교60초, S46 질문40초로 Lecture4분을 유지한다. ACT3의 성능 절차·Skill 설명을 앞당기지 않는다.
 
-Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S45 또는 production/preview/act2/S45.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S38_CONTEXT_MODEL_REVISION.md와 검증 JSON을 따른다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S45 또는 production/preview/act2/S45.png를 사용한다. 실제 Trial 캡처·자동 읽기·현재 제품 실행으로 표현하지 않는다. 현재 검토와 파일 식별자는 production/evaluation/S45_CONTEXT_SCOPE_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
 
-Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
+Validation Status: DEC-0118 — S44 관련성 관찰→S45 공통 안내/작업별 상세→S46 실제 활용 질문과 기존19필드·4분 Lecture를 대조한다. 최종 렌더링/패키지 검증 결과는 production/evaluation/S45_CONTEXT_SCOPE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
+
 
 ## S46 — 많이 담아도 같은 근거를 똑같이 쓰는가?
 

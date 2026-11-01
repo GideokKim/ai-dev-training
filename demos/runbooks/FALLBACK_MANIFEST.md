@@ -1,6 +1,8 @@
 # Static Fallback Manifest
 
-Current: DEC-0117 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0118 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+S45 now compares shared guidance and task-specific detail; procedure reuse
+remains at S59/ACT3. This teaching diagram is not an observed read order.
 Retain44reference roles, evidence classes and paths. Keep S28-S35 as
 five core and three conditional prompt tools. Show method/approach names,
 annotated native examples, relationship diagrams and official citations. Fictional team conventions
@@ -11,11 +13,11 @@ in the reports and source history.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`82708a96e1b0baa92d32870959d065de8cdbfcdb5d93420c7b7d75c9cbb02e75`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`da77450dc6f5773edd37c2ad4983ca2b5a442cf8a5d2b1bd0a2fb714b0e173c2`.
-- `production/preview/full/montage.png` SHA-256:`30cd12949e9dac11ea7fa742f0cafa3482c75fa68060e8579bfbc198834020d2`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`44ce37cff0b809709bf6f158ed1e803a455f5354f17c0bb520d2c6716fada6ba`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`0ad39aedebe3fd7e57e81e713bcfea0a78ca2318de2fee1ce8ded45a767d4d81`.
+- `production/preview/full/montage.png` SHA-256:`2cc8e56b5e454281c90af454a371f8ecdbd61daa9ecc41d439e59e9169890a08`.
 
-[Current revision](../../production/evaluation/PROMPT_TECHNIQUE_DESIGN_REVISION.md),
+[Current revision](../../production/evaluation/S45_CONTEXT_SCOPE_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
