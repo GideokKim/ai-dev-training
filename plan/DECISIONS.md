@@ -13169,3 +13169,93 @@ Render and compare final packages, validate119IDs/405minutes, ACT budgets,
 Mode totals, Notes and current references, then commit/push normally.
 Keep Windows, room, product-account and timed rehearsal unverified.
 Do not change the Demo repository, Sites or presenter bundle.
+
+# DEC-0134 — Clarify Harness relationships, reuse and project assembly
+
+## Status
+
+ACCEPTED — explicit user annotations for the current titled S75-S77.
+
+## Date
+
+2026-11-02
+
+## Context
+
+The Harness model, reusable foundation and project bindings need clearer
+visual relationships. The user's earlier numeric labels refer to the
+current reuse titles S76 and S77, while currentS78 remains outside scope.
+
+## Problem
+
+Show optional investigation, reusable structure and required project
+bindings without turning teaching diagrams into observed execution claims.
+
+## Decision
+
+Keep S75's goal/Context/Skill inputs, main Agent, verification tools,
+human review and execution environment. Add a subordinate amber dashed
+optional Subagent for independent investigation. The main Agent receives,
+checks and integrates its findings. This is a teaching extension, not a
+Subagent added to the observed STATE-04-PERF configuration.
+Preserve S75's Lecture4+CAPTURED Demo2minutes; the actual-case correspondence
+in the final2minutes remains limited to its observed single-Agent base.
+Show S76 as one common Harness module reused as the same smaller module
+inside projects A/B/C. Remove its reuse-design audience footer; retain
+M references. Show S77 as the same module plus a project Context document
+assembled into a project work system. Bind goals/specifications, actual
+build/test/measurement commands and permission/runtime conditions.
+Use existing T03-B/T03-A/T03-A variants. S77 moves from T04-A to T03-A;
+coverage becomes T03 57slides and T04 16slides with no new variant.
+Keep119slides/405minutes, all IDs, titles, primary roles, sections, beats
+and per-slide allocations. Do not restore deleted audits or reintroduce
+the Memory lesson before ACT5.
+
+## Rationale
+
+A consistent module makes the reused part visible across the sequence.
+Project containers and the Context document make the binding responsibility
+clear. A subordinate dashed role communicates optional delegation while
+keeping the main Agent responsible for integration and humans for review.
+
+## Alternatives
+
+Keep generic arrows to project names: does not show what each project
+receives. Add a new Template: unnecessary because existing T03 variants
+support nested relationships, reuse and three-region assembly.
+
+## Trade-offs
+
+The model gains an optional role, so the teaching extension must remain
+visually and verbally separate from the actual single-Agent evidence.
+Module reuse explains a design starting point, not automatic portability,
+operation, successful migration or measured time/performance savings.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-MATURITY-009, INV-VERIFY-001,
+INV-RESEARCH-004, INV-SOT-001.
+
+## Affected Artifacts
+
+Current S75-S77 Map fields, three Template rows and coverage counts,
+Notes, slide source, affected ACT/full packages, previews and evaluation.
+The remaining slides and historical records retain their existing scope.
+
+## Evidence
+
+Explicit user annotations; existing STATE-04-PERF and DEC-0018/0023/0091;
+BEAT-035/036. No new Trial, actual Subagent execution, product behavior,
+portability experiment or measured improvement is introduced.
+
+## Training Relevance
+
+YES — distinguish the observed working base, optional delegation,
+reusable structure and project-specific operating conditions.
+
+## Follow-up
+
+Render and compare the three slides and final packages, align Notes,
+validate119slides/405minutes and unchanged per-slide allocations, then
+commit/push normally. Preserve the Windows, room, product-account and
+rehearsal gates. Do not change the Demo repository, Sites or bundles.

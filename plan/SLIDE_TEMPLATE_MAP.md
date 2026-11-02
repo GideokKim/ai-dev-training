@@ -1,5 +1,11 @@
 # STEP 08 — Slide-to-Template Mapping
 
+## Harness 관계·재사용·조립 시각화 — DEC-0134 (2026-11-02)
+
+S75는 주 Agent 아래 선택 Subagent를 교육용 점선으로 분리하고 실제 Demo의 단일 Agent 범위를 유지한다.
+S76은 같은 Harness 모듈이 프로젝트 A/B/C 내부에 재사용되는 모습, S77은 그 모듈과 프로젝트 Context의 조립 관계를 보여준다.
+119장·405분·장별 시간/Mode·ID·Story Beat·Section과 근거 범위는 같다. [시각 설계](HARNESS_VISUAL_SYSTEM.md)를 따른다.
+
 ## 현재 제작 기준 — DEC-0133 (2026-11-02)
 
 현재 **119장·405분(6시간45분)**. 이전 S74의 Context/Memory 학습을 현재 S109로 옮긴다.
@@ -28,14 +34,14 @@ Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저�
 | ACT 5 | S104–S119 | 16 | 44 |
 | Total | S01–S119 | 119 | 405 |
 
-## Current119 Template Coverage — DEC-0133
+## Current119 Template Coverage — DEC-0134
 
 | Template | Slides |
 |---|---:|
 | T01 | 6 |
 | T02 | 6 |
-| T03 | 56 |
-| T04 | 17 |
+| T03 | 57 |
+| T04 | 16 |
 | T05 | 4 |
 | T06 | 4 |
 | T07 | 13 |
@@ -46,7 +52,7 @@ Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저�
 | T12 | 6 |
 | Total | 119 |
 
-## Current119 Slide-to-Template Mapping — DEC-0133
+## Current119 Slide-to-Template Mapping — DEC-0134
 
 | Slide | Primary Template | Required components | Optional | Evidence | Demo / Case | Operation | C++ | Checks |
 |---|---|---|---|---|---|---|---|---|
@@ -124,9 +130,9 @@ Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저�
 | S72 — 대화로 조사 Agent 만들기 | T03-C | CMP-PRACTICAL-TIP, CMP-CLAIM | — | R+T; official guidance adapted, no observed creation/execution | Lecture2; no Demo | Single state | — | V01, V02, V05 |
 | S73 — 밝기 통계 작업을 나누지 않은 이유 | T10-B | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | — | P+T; current task decision, no Subagent run | DEMO-07 current task: investigation results feed code changes, changed code feeds verification; DEC-0072; Lecture1 + VISUAL2 + Q&A1 | Single state | Contextual cue only | V08, V10 |
 | S74 — 밝기 통계 작업에 쓰인 구성의 역할 | T10-C | CMP-EVIDENCE, CMP-DECISION, CMP-CLAIM | CMP-WORKFLOW, CMP-CPP | P+T; project-specific audit is not a universal feature-count comparison | DEMO-09 actual task inputs and verification roles; DEC-0075; CAPTURED, 3 min | Single state | Contextual | V01, V05, V08 |
-| S75 — 함께 작동하는 작업 환경, Harness | T03-B | CMP-EVIDENCE | CMP-WORKFLOW, CMP-CPP | P+T; observed STATE-04-PERF elements are inset from the course model | DEMO-09 connected Harness model with shared execution environment; DEC-0076; CAPTURED, 2 min | Single state | Contextual | V01, V05, V08 |
-| S76 — 만든 Harness를 다음 프로젝트의 기반으로 | T03-A | CMP-EVIDENCE, CMP-CLAIM | — | T; teaching design, no execution or portability result | Lecture2; no extra Demo or Trial | Single state | — | V01, V02, V07 |
-| S77 — 공통 기반에 프로젝트 기준을 연결한다 | T04-A | CMP-EVIDENCE, CMP-CLAIM | — | T; teaching design, no execution or portability result | Lecture2; no extra Demo or Trial | Single state | — | V01, V02, V07 |
+| S75 — 함께 작동하는 작업 환경, Harness | T03-B | CMP-EVIDENCE, CMP-CLAIM, CMP-WORKFLOW | CMP-CPP | P+T; solid observed base and dashed optional Subagent teaching extension; no Subagent in STATE-04-PERF | DEMO-09: Lecture4 model; CAPTURED2 observed single-Agent base only; no new execution | Native input/Agent/verification/environment hierarchy; subordinate amber dashed optional independent investigation returns to the main Agent for review/integration; DEC-0134 | Contextual | V01, V02, V05, V08 |
+| S76 — 만든 Harness를 다음 프로젝트의 기반으로 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; reuse design without portability/execution/benefit results | Lecture2; no extra Demo or Trial | One large common Harness module becomes the same smaller module inside projects A/B/C; native grouped shapes, no audience footer; DEC-0134 | — | V01, V02, V05, V07 |
+| S77 — 공통 기반에 프로젝트 기준을 연결한다 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; project bindings and responsibilities, no automatic operation or measured effects | Lecture2; no extra Demo or Trial | Native3regions: same Harness module + project Context document with goals/spec, actual commands and permission/runtime conditions → assembled project work system; DEC-0134 | — | V01, V02, V05, V07 |
 | S78 — 이번 성공만으로 다음 작업까지 확인되지는 않는다 | T04-A | CMP-EVIDENCE, CMP-CLAIM | — | P+T; bounded success and an unexecuted next-task question | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
 | S79 — 첫 결과 뒤에도, 확인할 일이 남는다면? | T03-C | CMP-CLAIM | — | C; fictional task correction, no observed repeat or repair | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
 | S80 — 남은 문제를 다음 수정으로 이어주는 사람 | T04-A | CMP-CLAIM | — | C; fictional task correction, no observed repeat or repair | Lecture2; no added Demo | Single state | — | V01, V02, V07 |

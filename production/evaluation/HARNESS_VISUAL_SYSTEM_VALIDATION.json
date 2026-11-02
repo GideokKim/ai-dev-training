@@ -1,0 +1,79 @@
+{
+  "status": "RENDER_AND_STRUCTURE_PASS",
+  "slides": 119,
+  "minutes": 405,
+  "changedSlides": [
+    "S75",
+    "S76",
+    "S77"
+  ],
+  "actCounts": [
+    14,
+    23,
+    22,
+    24,
+    20,
+    16
+  ],
+  "actMinutes": [
+    42,
+    64,
+    90,
+    80,
+    85,
+    44
+  ],
+  "modes": {
+    "Transition": 23,
+    "Lecture": 182,
+    "Reflection": 22,
+    "Case": 102,
+    "Demo": 44,
+    "Q&A": 32
+  },
+  "retainedPixelIdentical": 116,
+  "retainedTextIdentical": 116,
+  "nativeTables": [
+    "S54"
+  ],
+  "nativeCharts": [
+    "S70",
+    "S95"
+  ],
+  "noteFields": 19,
+  "noteRecords": 119,
+  "embeddedNotes": 143,
+  "renderedPngs": 143,
+  "fullActPixelParity": 24,
+  "preservedImages": true,
+  "preservedChartCaches": true,
+  "unchangedActPackages": [
+    0,
+    1,
+    2,
+    4,
+    5
+  ],
+  "unchangedNotesOutsideTargets": true,
+  "optionalSubagentIsTeachingModel": true,
+  "removedS76AudienceFooter": true,
+  "noEarlyMemoryReintroduction": true,
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "count": 119,
+      "sha256": "73d971fddac209c904b4a1c88789a1d43be46606ebef843872f3951927f198de"
+    },
+    {
+      "name": "ACT_3",
+      "count": 24,
+      "sha256": "f41193a4b12e2e2b225a691d203a3b361c80c10fcf56a0dc3900840a75e86950"
+    }
+  ],
+  "windows": "UNVERIFIED",
+  "room": "UNVERIFIED",
+  "productAccount": "UNVERIFIED",
+  "rehearsal": "UNVERIFIED",
+  "ooxmlValidation": "PASS — both updated packages against their prior committed originals",
+  "visualReview": "PASS — three final-package renders and ACT3 montage; pilot/final pixel match; no new P0/P1"
+}

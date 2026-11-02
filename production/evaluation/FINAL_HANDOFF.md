@@ -1,5 +1,33 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## Harness 구조·재사용·결합 — DEC-0134 (2026-11-02)
+
+현재119장·405분과 모든 장별 배정은 유지한다. 최신 S75–S77의 시각화만 개선했다.
+S75는 필요할 때 독립 조사를 맡기는 선택 Subagent와 주 Agent의 결과 확인·통합 책임을 보여준다.
+실제 밝기 통계 Demo의 구성에 Subagent를 추가한 것이 아니다.
+S76은 같은 공통 Harness 모듈이 여러 프로젝트에 들어가는 모습이며 요청한 footer를 삭제했다.
+S77은 공통 모듈과 프로젝트 정보·실행 연결 조건이 조립되는 관계다. 자동 이식·동작 보장·측정 성과는 없다.
+[변경·검토 결과](HARNESS_VISUAL_SYSTEM.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[시각 설계](../../plan/HARNESS_VISUAL_SYSTEM.md)를 따른다.
+Full/ACT3만 갱신했다.143개 최종 렌더와 내장 Notes를 검증하고 다른116장 픽셀·텍스트가 같음을 확인했다.
+기존 나머지5개 ACT PPT·이미지·측정값과 근거 범위는 유지한다.43개Fallback 해시도 정렬했다.
+Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않았다.
+이하 이력은 당시 판본이며 이전 상태·파일 해시를 현재판으로 취급하지 않는다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `73d971fddac209c904b4a1c88789a1d43be46606ebef843872f3951927f198de` |
+| `production/ACT_3.pptx` | `f41193a4b12e2e2b225a691d203a3b361c80c10fcf56a0dc3900840a75e86950` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `199686b1ef05a06b775032ba47e785160abe165b496c55bee6535d7476d43b7f` |
+| `production/notes/ACT_3_NOTES.md` | `546c175f50484e6197ca605876849cac82d049d460a3c59c90d076af6136a4a8` |
+| `production/preview/full/montage.png` | `bb58211a29e727c74a6fd54ea57614b0f9957926163934b7b381dfa88968b8cb` |
+| `production/preview/act3/montage.png` | `6ffaf079bc2584a80277990d5d529252ec8c882afdd994af72ccc9f14c6c4540` |
+| `production/preview/full/S75.png` | `e76e2ca7c47ee4b911ea514296dddbb6a8123104b1ac3195dcb96e5a65013639` |
+| `production/preview/full/S76.png` | `bf93db2956b1f6f80784b52ede7185426910e06393f15f780fca7a970d547452` |
+| `production/preview/full/S77.png` | `c25b451f6b0511ebb55e9f01580fd4f114ea932292d1b4937c6505f920c4b5ef` |
+
+## 보존된 이전 전달 기록
+
 ## Memory의 ACT5 이동·구체화 — DEC-0133 (2026-11-02)
 
 현재 **119장·405분(6시간45분)**. 이전 S74의 지식 보존 학습을 현재 ACT5 S109로 옮겼다.

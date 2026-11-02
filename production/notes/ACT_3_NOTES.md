@@ -920,45 +920,50 @@ Allocated Time: 6 minutes
 
 Mode Split: Lecture 4 minutes + Demo 2 minutes (CAPTURED)
 
-Primary Message: 이 과정에서 Harness는 Agent가 신뢰성 있게 일하도록 목표·Context·재사용 절차·실행 도구·검증·검토 조건을 연결한 작업 환경과 방법의 운영 모델이다.
+Primary Message: 이 과정에서 Harness는 목표·Context·재사용 방법·Agent·검증 도구·사람의 검토·공통 실행 환경을 연결한 작업 체계다. 독립 조사가 필요하면 Subagent에 나눌 수 있지만, 주 Agent가 결과를 확인·통합하고 사람은 수용을 판단한다.
 
 Opening Question:
 “S74의 구성에 실행·검증 환경까지 함께 연결하면, Agent가 일하는 전체 구조는 어떻게 보일까요?”
 
-**Speaker Flow:**
-1. (0:00–0:30 / Lecture) S74의 실제 구성과 같은 배치임을 짚는다. 목표·Context·Skill의 정의를 다시 차례로 설명하지 않고, 이 작업이 가능하도록 실행 조건과 사람의 검토 책임까지 설계하는 관계로 확장한다.
-2. (0:30–1:30 / Lecture) 아래 실행 환경에서 Agent와 검증 도구로 올라가는 두 선을 따라간다. Repository·입력·권한·실행/측정 조건은 작업과 비교가 이뤄지는 공통 기반이다. 파일이 있다는 것만으로 실행 가능성이나 비교 가능성이 보장되지는 않는다.
-3. (1:30–2:30 / Lecture) 오른쪽 ‘사람이 근거·결과 검토’를 짚는다. 테스트와 benchmark는 근거를 만들며 사람이 원하는 변화·동작 보존·미확인 사항을 보고 수용 여부를 판단한다. 검토 책임을 도구 이름이나 자동 정답 보장으로 설명하지 않는다.
-4. (2:30–4:00 / Lecture) 이 교육에서 Harness는 목표·Context·재사용 방법·도구·검증·검토 조건을 연결한 작업 환경과 방법의 운영 모델이다. 공식 OpenAI 정의나 보편적인 필수 목록이 아니다. 관계도는 실행 순서 trace가 아니며 추가 도구나 역할도 필수 구성은 아니다. 실행 조건이나 명세가 달라지면 이 관계가 여전히 맞는지 사람이 검토할 필요가 있음을 열되 ACT4의 가상 실패를 미리 만들지 않는다.
-5. (4:00–5:30 / Demo) CAPTURED 정적 대응: 기존 자료가 AGENTS.md·docs·성능 Skill·tests·benchmark였고 기록된 입력/환경에서 작업과 확인이 이뤄졌음을 화면에 대응한다. 실제 지침·검사·수치의 상세는 재설명하지 않는다. TRIAL-008 후보와 정식 상태의 재조사·검증을 구분하고 모든 환경 조건의 완전한 감사를 주장하지 않는다.
-6. (5:30–6:00 / Demo) 실제 성공을 보존하고 ‘만든 작업 체계를 다음 프로젝트에서도 쓸 수 있을까요?’로 S76–S77를 연다. 제품이나 새 명령을 실행하지 않는다.
+Speaker Flow:
+1. (0:00–0:30 / Lecture) S74의 실제 밝기 통계 구성을 받아, 이제 전체 작업 체계를 설명하는 강의 모델로 확장한다. 앞의 실제 작업은 한 Agent로 수행했으며 이번 점선 선택 노드를 새로 실행했다는 뜻이 아니다.
+2. (0:30–1:15 / Lecture) 왼쪽 목표·Context·Skill에서 가운데 주 Agent로 모이는 선을 따라간다. 목표는 이번 변화와 보존 조건, Context는 프로젝트의 사실·명세, Skill은 재사용할 수행 방법이다. 세 요소의 정의를 다시 길게 강의하지 않고 한 작업에 함께 연결되는 관계를 짚는다.
+3. (1:15–2:15 / Lecture) 주 Agent 아래 점선 amber의 ‘선택 Subagent / 독립 조사’를 짚는다. 독립적으로 조사할 부분이 있을 때 위임하고 결과를 돌려받는 선택 관계다. 결과를 확인하고 합치는 책임은 주 Agent에 남는다. 점선은 필수 호출이나 실제 실행 순서가 아니며 실제 밝기 통계에 Subagent를 추가하지 않았다.
+4. (2:15–3:00 / Lecture) 주 Agent에서 오른쪽 검증 도구와 사람의 검토로 이동한다. 테스트·benchmark는 근거를 만들고, 주 Agent는 조사 결과와 변경·검증 근거를 확인·통합한다. 사람은 목표·동작 보존·미확인 사항을 보고 수용 여부를 판단한다. 자동 정답이나 승인 보장으로 설명하지 않는다.
+5. (3:00–4:00 / Lecture) 아래 공통 실행 환경과 작업·검증을 연결한 선을 따라간다. Repository·입력·권한·실행/측정 조건은 둘 다 가능한 기반이다. 이 전체를 작업 환경과 방법의 운영 모델인 Harness로 묶는다. 공식 OpenAI 정의나 보편적인 필수 목록·고정 실행 trace가 아니다.
+6. (4:00–5:30 / Demo) CAPTURED 정적 대응: 실제 STATE-04-PERF의 목표·AGENTS.md·docs·성능 Skill·tests·benchmark와 기록된 입력/환경을 기존 실제 구성에 대응한다. 점선 Subagent 노드는 이 실제 대응에 포함하지 않는다. 새 노드를 호출하거나 실행한 기록이 아니며 실제 지침·검사·수치는 재강의하지 않는다. TRIAL-008 후보와 정식 상태의 재조사·검증을 구분하고 환경 전체를 감사했다고 주장하지 않는다.
+7. (5:30–6:00 / Demo) 실제 사례의 범위에서 구성 대응을 마치고 ‘이 작업 체계에서 공통으로 검토해 둔 부분을 다음 프로젝트에도 쓸 수 있을까요?’로 S76을 연다. 제품이나 새 명령을 실행하지 않는다.
 마지막 연결은 다음 프로젝트에서도 사용할 기반의 가치다. 실행 조건의 세부는 S78–S82에서 단계별로 다룬다.
 
 Evidence / Source: DEC-0023의 이 과정 Harness 운영 정의; BEAT-035/036; STATE-04-PERF; DEC-0062/0075/0076; DEMO-09. OBSERVED_PRODUCT / TEACHING_MODEL. plan/DEMO_MATRIX.md의 Current Harness 및 §§191–200 Working Harness Success, S75의 실제 구성 대응을 사용한다. AGENTS.md·상세 문서·repository Skill·테스트·benchmark는 보존된 실제 근거이며 환경 전체의 완전한 감사 증거는 아니다.; DEC-0080.
 
 보존된 상세 출처: 교육용 Harness 모델 · 사례 대응: AGENTS.md · docs · Skill · tests · benchmark
 
+이번 점선 Subagent 노드와 위임/반환 연결은 기존 역할 분리 원칙을 전체 Harness 관계도에 나타낸 TEACHING_MODEL이다. STATE-04-PERF에 Subagent를 추가한 관찰이나 새 Trial 근거가 아니다. 실제 구성 대응과 강의 모델의 선택 노드를 구분한다.
+
 Claim Boundary: TEACHING_MODEL — 과정의 operational definition이며 공식 OpenAI 정의나 보편적 산업 분류가 아니다. 실제 구성 대응은 STATE-04-PERF까지의 기록 범위로 한정한다. 연결선과 환경 프레임은 교육용 관계 재구성이며 자동 routing·고정된 호출 순서·실제 실행 trace가 아니다. 모든 환경 조건의 감사, 각 구성 요소의 단독 성능 인과성, Skill/Prompt 우열, 토큰 절감, 현재 Desktop 기능 보장을 주장하지 않는다. OBSERVED_PRODUCT 구성과 TEACHING_MODEL 정의를 구분하고 Subagent·별도 Memory 미추가의 기존 선택을 유지한다.
 
 보존된 상세 범위: 공식 정의·필수 목록이 아님 · 모든 실행 조건의 감사·각 요소의 단독 성능 효과는 미입증
 
-Beginner Explanation: 이번 목표, 프로젝트 정보, 일하는 방법을 Agent에 연결하고, 도구로 확인한 결과를 사람이 검토한다. 이 일이 실행될 저장소·입력·권한·실행 조건도 함께 준비한다. 이 과정은 그 전체 작업 환경과 방법을 Harness로 설명한다.
+주 Agent 아래 점선 Subagent는 독립 조사가 필요할 때의 선택 관계를 설명한 모델이다. 실제 밝기 통계 작업에 추가·위임·실행한 결과가 아니며 Demo2분의 실제 구성 대응에서는 제외한다. 결과 확인·통합 책임과 사람의 수용 판단을 구분하고 자동 실행·자동 통합 성공이나 효율 향상을 주장하지 않는다.
 
-Advanced Insight: Harness는 파일 수나 기능 목록이 아니라 목표·정보·절차·실행 가능 조건·완료 근거와 책임 사이의 관계다. 실행 환경은 Agent 작업과 검증 양쪽에 필요하다. 각 프로젝트의 신뢰성 문제에 맞춰 구성하며 사례의 성공을 특정 구성 요소의 단독 효과로 귀속하지 않는다.
+Beginner Explanation: 일을 맡을 주 Agent에 이번 목표, 프로젝트 정보와 수행 방법을 연결한다. 필요하면 독립 조사를 나눌 수 있지만 결과 확인·통합은 주 Agent가 맡는다. 테스트와 측정 근거를 사람이 검토하며, 작업과 검증이 가능한 실행 환경도 함께 준비한다.
+
+Advanced Insight: Harness는 파일 수나 기능 목록이 아니라 목표·정보·절차·실행 가능 조건·완료 근거와 책임 사이의 관계다. 실행 환경은 Agent 작업과 검증 양쪽에 필요하다. 각 프로젝트의 신뢰성 문제에 맞춰 구성하며 사례의 성공을 특정 구성 요소의 단독 효과로 귀속하지 않는다. 독립 조사 위임은 선택이며 결과 확인·통합 책임을 없애지 않는다. 관계도의 확장 가능성과 특정 실제 작업에 사용한 구성을 구분한다.
 
 **C++ Vision Bridge:**
 N/A — 다음 S76–S77은 여러 프로젝트에 적용할 공통 기반과 프로젝트별 조건의 교육용 설계다.
 
 Demo Operation:
-Lecture4분에는 왼쪽 세 입력 → Agent → 검증·사람의 검토, 아래 실행 환경 → 작업/검증의 관계를 설명한다. 이후 Demo2분은 STATE-04-PERF의 AGENTS.md·docs·Skill·tests·benchmark와 기록된 입력/실행 조건을 같은 도식에 대응하는 CAPTURED 정적 요약이다. 실제 실행 캡처가 아니며 제품·Agent·benchmark·Demo repository를 실행하거나 새 Trial을 만들지 않는다. S74 Demo3분과 중복 계산하지 않는다.
+Lecture4분에는 왼쪽 세 입력 → 주 Agent → 선택 Subagent의 위임/반환 → 검증 도구·사람의 검토 → 아래 공통 실행 환경의 큰 도식 흐름을 짚는다. Demo2분에는 STATE-04-PERF의 AGENTS.md·docs·Skill·tests·benchmark와 기록된 입력/실행 조건만 대응하는 CAPTURED 정적 요약을 한다. 점선 Subagent는 강의 모델의 선택 노드이며 실제 Demo의 실행 대상이 아니라고 분리한다. 실제 실행 캡처가 아니고 제품·Agent·benchmark·Demo repository를 실행하거나 새 Trial을 만들지 않는다. S74 Demo3분과 중복 계산하지 않는다.
 
 Audience Interaction: ‘테스트 파일은 있지만 실행할 도구나 권한이 없다면 확인이 끝난 걸까요?’를 잠시 생각하게 하고 실행 환경과 완료 근거를 연결한다. 교육용 질문이며 실제 Demo에서 그런 실패가 있었다는 뜻은 아니다. 별도 실습·Q&A 시간을 추가하지 않는다.
 
 **Transition:**
 “이렇게 만든 작업 체계를 다음 프로젝트에서도 출발점으로 쓸 수 있을까요?”
 
-**Time Management:**
-Lecture4분: 실제 구성 회수0.5, 실행 환경1, 사람의 검토1, 전체 운영 모델·범위1.5. Demo2분: 실제 자료/기록 대응1.5, 다음 프로젝트 재사용 질문0.5. 입력 세 요소의 정의와 이전 지침·측정값을 반복하지 않는다.6분에 이동하며 실제 리허설은 UNVERIFIED다.
+Time Management:
+Lecture4분: 실제 구성→강의 모델0:30, 입력/주 Agent0:45, 선택 Subagent의 위임·반환·통합 책임1:00, 검증/사람 수용0:45, 공통 환경·운영 모델1:00. Demo2분: 기존 실제 구성 대응1:30, 다음 프로젝트 재사용 질문0:30. 입력 정의·실제 측정값은 반복하지 않는다. 선택 노드의 실제 미사용 경계를 유지하고6분에 이동한다. 실제 리허설은 UNVERIFIED다.
 
 Fallback:
 LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S75, production/preview/act3/S75.png 및 production/preview/full/S75.png. 교육용 Harness 관계도와 기존 실제 구성의 대응이며 raw 실행 캡처가 아니다. 파일 대조는 production/evaluation/S64_HARNESS_STRUCTURE_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
@@ -988,10 +993,10 @@ Lecture 2분
 **Opening Question:**
 “프로젝트가 바뀔 때마다 작업 방법까지 처음부터 다시 만들 필요가 있을까요?”
 
-**Speaker Flow:**
-1. (0:00–0:35 / Lecture) S75의 전체 작업 환경에서 검토해 둔 수행 체계라는 왼쪽 기반을 짚는다.
-2. (0:35–1:25 / Lecture) 같은 기반이 A/B/C로 이어지는 가지를 가리킨다. 각 프로젝트에서 사용 가능한 출발점의 설계이며 실제 이식 시험 결과가 아니다.
-3. (1:25–2:00 / Lecture) 어떤 부분은 공통이고 어떤 부분은 달라지는지 다음 장으로 넘긴다.
+Speaker Flow:
+1. (0:00–0:35 / Lecture) S75의 전체 작업 체계에서 공통으로 검토해 둔 부분을 하나의 Harness 기반 모듈로 짚는다. 모듈 안의 절차·도구 연결·보고 방식이 다음 프로젝트에서도 출발점이 될 수 있다는 질문이다.
+2. (0:35–1:25 / Lecture) 공통 모듈에서 프로젝트 A/B/C로 이동하며 각 프로젝트 내부의 같은 작은 모듈을 차례로 짚는다. 재사용하려는 단위가 각 프로젝트에 포함되는 모습을 그린 설계다. 전체 프로젝트를 복제하거나 다른 프로젝트에서 자동 실행·이식에 성공한 기록이 아니다.
+3. (1:25–2:00 / Lecture) 같은 모듈이 들어가도 프로젝트의 명세·도구·실행 조건까지 같아지는 것은 아님을 짧게 남긴다. 무엇을 프로젝트에 맞게 연결할지는 S77의 결합 도식으로 넘긴다.
 
 **Evidence / Source:**
 사용자 승인 / DEC-0091; DEC-0023의 Harness 운영 모델. OpenAI 공식 Build skills https://learn.chatgpt.com/docs/build-skills 및 Plugin architecture https://developers.openai.com/plugins/concepts/plugins (2026-10-25 확인). 공식 자료는 반복 수행 방법의 패키징·공유를 뒷받침한다. Harness 전체의 이식 구조는 이 교육의 설계 모델이다.
@@ -1003,8 +1008,7 @@ TEACHING MODEL — 재사용의 설계 가치다. 다른 프로젝트에서 실�
 
 보존된 상세 범위: 다른 프로젝트로 옮겨 실행한 Demo는 아님 · 프로젝트별 적용 조건은 다음 장에서 연결
 
-**Beginner Explanation:**
-한 번 정리한 일하는 방법을 다음 프로젝트에서 출발점으로 삼을 수 있다.
+Beginner Explanation: 공통으로 정리한 절차·도구 연결·보고 방식을 작은 모듈처럼 다음 프로젝트의 기반에 넣어 쓸 수 있다. 프로젝트마다 필요한 조건은 다음 장에서 따로 연결한다.
 
 **Advanced Insight:**
 공통 수행 틀을 축적하고 프로젝트별 명세·도구·권한의 연결을 분리한다.
@@ -1012,8 +1016,8 @@ TEACHING MODEL — 재사용의 설계 가치다. 다른 프로젝트에서 실�
 **C++ Vision Bridge:**
 N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
 
-**Demo Operation:**
-N/A — Lecture2분. 정적 기록 재구성 또는 교육용 도식만 설명한다. CLI·제품 실행·새 Trial을 시작하지 않는다. 실제 DEMO-04B의 평가·보고 개선 사례는 ACT4에 그대로 남긴다.
+Demo Operation:
+N/A — Lecture2분. 공통 Harness 모듈 하나와 프로젝트 A/B/C 내부의 같은 작은 모듈을 따라가는 교육용 재사용 도식이다. 정적 그림을 실제 이식 시험·실행 화면으로 설명하지 않는다. CLI·제품 실행·새 Trial을 시작하지 않는다. 실제 DEMO-04B의 평가·보고 개선 사례는 ACT4에 그대로 남긴다.
 
 **Audience Interaction:**
 Opening Question은 짧은 생각을 돕는 질문이다. 참가자 실습·개인 작성·공개 답변을 요구하지 않는다.
@@ -1021,8 +1025,8 @@ Opening Question은 짧은 생각을 돕는 질문이다. 참가자 실습·개�
 **Transition:**
 “그 기반에서 무엇을 다시 쓰고, 무엇을 프로젝트에 맞게 연결해야 할까요?”
 
-**Time Management:**
-Lecture2분.0:35까지 질문과 도식의 출발점,1:25까지 핵심 관계,2:00에 다음 질문으로 이동한다. 추가 도구 설치·환경 설명으로 늘리지 않는다. 실측 리허설 UNVERIFIED.
+Time Management:
+Lecture2분: 0:35까지 질문과 공통 모듈,1:25까지 프로젝트 A/B/C 안의 같은 모듈,2:00까지 프로젝트별 연결 조건을 다음 질문으로 남긴다. 추가 도구 설치·환경 설명·시간 절감 사례로 늘리지 않는다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S76 또는 production/preview/full/S76.png. 재구성은 실제 실행 Screenshot이 아니며 현재 Desktop Live로 대체하지 않는다.
@@ -1053,10 +1057,10 @@ Lecture 2분
 **Opening Question:**
 “같은 작업 체계를 쓰더라도, 새 프로젝트에서 무엇을 연결해야 할까요?”
 
-**Speaker Flow:**
-1. (0:00–0:35 / Lecture) 왼쪽은 조사·변경·검증 흐름, 도구 연결 방식, 기록 항목이라는 공통 틀이다.
-2. (0:35–1:25 / Lecture) 오른쪽은 새 프로젝트의 목표·명세·Context, 실제 명령, 허용 범위다. 프로젝트 사실 전체를 공통 지침으로 복사하지 않는다.
-3. (1:25–2:00 / Lecture) 공통 기반과 프로젝트 기준 연결의 가치를 유지한다. 운영 중 사람이 새로 확인·보정할 점을 발견하면 그 경험이 다음 작업에 남는지 S78의 질문으로 넘긴다. 외부 권한 오류를 다음 중심 사례로 예고하지 않는다.
+Speaker Flow:
+1. (0:00–0:35 / Lecture) 왼쪽 Harness 기반 모듈에서 조사·변경·검증의 수행 흐름, 도구를 연결하는 방식, 보고 틀을 짚는다. S76에서 각 프로젝트 안으로 가져온 재사용 방법의 역할이다.
+2. (0:35–1:25 / Lecture) Project Context 문서에서 이 프로젝트의 목표·명세, 실제 명령·도구, 권한·실행 조건을 짚는다. 여기서 Project Context는 해당 프로젝트 정보와 실행을 연결할 조건의 묶음이다. 공통 모듈의 ‘어떻게 수행할지’와 프로젝트 문서의 ‘이곳에서 무엇을 참고하고 어떤 조건으로 연결할지’를 구분한다. 둘이 결합되어 오른쪽 프로젝트 작업 체계로 조립되는 큰 흐름을 따라간다. 프로젝트 사실 전체를 공통 지침으로 복사하지 않는다.
+3. (1:25–2:00 / Lecture) 재사용할 방법에 프로젝트 기준을 연결한다는 가치를 회수한다. 이 결합 그림이 자동 실행·이식 성공의 기록은 아니다. 운영 중 사람이 새로 확인·보정할 점을 발견하면 그 경험이 다음 작업에 남는지 S78의 질문으로 넘긴다. 외부 권한 오류를 다음 중심 사례로 예고하지 않는다.
 
 **Evidence / Source:**
 사용자 승인 / DEC-0091; DEC-0023의 Harness 운영 모델. OpenAI 공식 Build skills https://learn.chatgpt.com/docs/build-skills 및 Plugin architecture https://developers.openai.com/plugins/concepts/plugins (2026-10-25 확인). 공식 자료는 반복 수행 방법의 패키징·공유를 뒷받침한다. Harness 전체의 이식 구조는 이 교육의 설계 모델이다.
@@ -1068,17 +1072,15 @@ TEACHING MODEL — 공통 틀과 프로젝트별 조건을 나누는 설계다. 
 
 보존된 상세 범위: 전체 구성을 그대로 복사해도 작동한다는 보장이 아님 · 이식 결과·시간 절감은 미측정
 
-**Beginner Explanation:**
-방법은 가져오되 프로젝트의 사실과 사용할 명령은 다시 연결한다.
+Beginner Explanation: 다시 쓸 일하는 방법에, 이 프로젝트의 목표·명세·사용할 명령·권한과 실행 조건을 연결해 실제 작업 체계를 만든다. Project Context 문서는 수행 방법 자체와 다른 역할을 맡는다.
 
-**Advanced Insight:**
-재사용 단위와 프로젝트 결합 지점을 나누고 실제 명령·권한·검증 기준을 확인한다.
+Advanced Insight: 재사용 단위와 프로젝트 결합 지점을 나누고 실제 명령·권한·검증 기준을 확인한다. 여기서 Project Context 문서는 프로젝트 정보와 실행 연결 조건을 묶은 도식이다. Workflow의 수행 순서를 프로젝트 사실과 같은 것으로 취급하거나, 해당 문서를 연결했다는 이유로 실행 가능성이 보장된다고 보지 않는다.
 
 **C++ Vision Bridge:**
 N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
 
-**Demo Operation:**
-N/A — Lecture2분. 정적 기록 재구성 또는 교육용 도식만 설명한다. CLI·제품 실행·새 Trial을 시작하지 않는다. 실제 DEMO-04B의 평가·보고 개선 사례는 ACT4에 그대로 남긴다.
+Demo Operation:
+N/A — Lecture2분. Harness 기반 모듈 + Project Context 문서 → 프로젝트 작업 체계의 조립 도식을 큰 흐름으로 읽는다. 모듈은 재사용 수행 방법, 문서는 목표·명세·실제 명령·도구·권한·실행 조건의 역할임을 각각 짚는다. 정적 교육용 도식이며 실제 파일 생성·자동 조립·실행·이식 결과가 아니다. CLI·제품 실행·새 Trial을 시작하지 않는다. 실제 DEMO-04B의 평가·보고 개선 사례는 ACT4에 그대로 남긴다.
 
 **Audience Interaction:**
 Opening Question은 짧은 생각을 돕는 질문이다. 참가자 실습·개인 작성·공개 답변을 요구하지 않는다.
@@ -1086,8 +1088,8 @@ Opening Question은 짧은 생각을 돕는 질문이다. 참가자 실습·개�
 **Transition:**
 “이 기반으로 작업하는 동안 사람이 새로 확인할 부분을 찾는다면, 그 경험은 다음 작업에 어떻게 남을까요?”
 
-**Time Management:**
-Lecture2분.0:35까지 질문과 도식의 출발점,1:25까지 핵심 관계,2:00에 다음 질문으로 이동한다. 추가 도구 설치·환경 설명으로 늘리지 않는다. 실측 리허설 UNVERIFIED.
+Time Management:
+Lecture2분: 0:35까지 공통 기반 모듈,1:25까지 프로젝트 문서와 결합된 작업 체계,2:00까지 운영 중 다음 질문으로 이동한다. 정보 역할과 수행 방법의 차이를 유지하고 도구 설치·문법·권한 설정 설명으로 늘리지 않는다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S77 또는 production/preview/full/S77.png. 재구성은 실제 실행 Screenshot이 아니며 현재 Desktop Live로 대체하지 않는다.

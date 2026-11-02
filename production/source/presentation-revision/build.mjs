@@ -29,6 +29,7 @@ import {isSkillEvidenceSlide,beforeSkillEvidenceSplit,migrateSkillEvidenceFactor
 import {beforeS68Removal,migrateS68RemovalFactories,applyS68Removal} from './skill-evidence-removal-121.mjs';
 import {CURRENT_SLIDE_COUNT,beforeAct3Trim,migrateAct3TrimFactories,applyAct3Trim} from './act3-trim-119.mjs';
 import {beforeMemoryMove,migrateMemoryMoveFactories,applyMemoryMove} from './memory-act5-119.mjs';
+import {HARNESS_VISUAL_IDS,harnessVisualFactories} from './harness-visual-system.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
 const ROOT=process.env.TRAINING_REPO??path.resolve(here,'../../..');
@@ -149,6 +150,7 @@ Object.assign(factories,trimmed119);
 const memory119=migrateMemoryMoveFactories(factories,H);
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,memory119);
+Object.assign(factories,harnessVisualFactories(H));
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -170,7 +172,7 @@ const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const id of deck.ids){
-  const freshMemory=id==='S109';
+  const freshCurrent=id==='S109'||HARNESS_VISUAL_IDS.includes(id);
   const id122=beforeS68Removal(beforeAct3Trim(beforeMemoryMove(id)));
   const isSplitSource=isSkillEvidenceSlide(id122);
   const sourceId=isSplitSource?null:beforeContextSequence(beforeSkillEvidenceSplit(id122));
@@ -180,7 +182,7 @@ for(const deck of decks){
   const id120=isCurrentSource?null:beforeAct0Removal(id119);
   const before=p.slides.items.length;const s=factories[id](p,H);
   if(p.slides.items.length!==before+1)throw new Error('Each factory must add exactly one slide: '+id);
-  if(!isCurrentSource&&!freshMemory){
+  if(!isCurrentSource&&!freshCurrent){
    if(tipRecords[id120])addPracticalTipBadge(s,tipRecords[id120].category,H);
    addModuleFooter(s,id120,moduleRecords[id120],H);
    applyAudienceFooter(s,id120,audienceFooters,H);
@@ -188,12 +190,12 @@ for(const deck of decks){
    applyCurrent119(s);
    applyCurrent121(s);
   }
-  if(!isSplitSource&&!freshMemory){
+  if(!isSplitSource&&!freshCurrent){
    applyCurrent120(s);
    applyContextSequence(s);
    applySkillEvidenceSplit(s);
   }
-  if(!freshMemory){
+  if(!freshCurrent){
    applyS68Removal(s);
    applyAct3Trim(s);
    applyMemoryMove(s);

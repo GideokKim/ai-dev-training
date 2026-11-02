@@ -1,5 +1,17 @@
 # Current presentation source
 
+Current visual refinement: DEC-0134. Overlay `harness-visual-system.mjs`
+after all retained numbering stages. S75-S77 are current-ID native
+factories, so they share the historical-adapter bypass with S109.
+Show optional Subagent delegation/return in the Harness model, reuse the
+same portable module inside three project frames, and assemble that
+module with project-specific Context/connection conditions. S76 has no
+audience footer. Keep119slides/405minutes and all remaining factories.
+Build Full plus ACT3 and preserve all other ACT packages.
+[Current design](../../../plan/HARNESS_VISUAL_SYSTEM.md).
+
+## Preserved source decisions
+
 Current: DEC-0133 /119slides/405minutes. Apply `memory-act5-119.mjs` once
 after the retained119-ID trim. Move prior S74 to current S109, shift prior
 S75-S109 down1, and keep all other IDs. Use a fresh native3node C++

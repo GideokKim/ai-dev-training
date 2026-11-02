@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+S75–S77의 구조·재사용·결합 시각화는 [DEC-0134 검토](HARNESS_VISUAL_SYSTEM.md)와 [전달 안내](FINAL_HANDOFF.md)를 따른다.119장·405분 유지. 선택 Subagent는 실제 Demo에 추가한 것이 아니고 프로젝트 재사용/결합은 교육용 설계다. Windows·발표PC/교육장·제품/계정·실제 리허설은 UNVERIFIED다.
+
+## 보존된 이전 기록
+
 현재119장·405분과 ACT5 S109의 지식 선별 사례는 [DEC-0133 검토](MEMORY_ACT5_RELOCATION.md), [전달 안내](FINAL_HANDOFF.md), [번호 대응표](../../plan/SLIDE_ID_MIGRATION_MEMORY_ACT5_DEC0133.md)를 따른다. Memory 학습4분을 이동했으며 앞 ACT의 선행 설명을 정리했다. Windows·발표PC/교육장·제품/계정·실제 리허설은 UNVERIFIED다.
 
 ## 보존된 이전 기록

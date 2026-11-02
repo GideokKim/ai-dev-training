@@ -1,5 +1,74 @@
 # Static Fallback Manifest
 
+Current visual revision: DEC-0134 /119slides/405minutes.
+READY — LOCAL STATIC FILES ONLY. Preserve all43reference roles/classes.
+Update the S75-S77 visuals and delivered hashes. S75's optional Subagent
+is a teaching relationship, separate from the observed single-Agent base.
+S76/S77 show reuse/assembly models, not validated cross-project execution.
+No new Trial, product action, Live approval or measured improvement.
+Windows, target PC, room, product-account and timed rehearsal remain
+UNVERIFIED. Demo repository, Sites and presenter bundles are unchanged.
+
+## Current source identities
+
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`73d971fddac209c904b4a1c88789a1d43be46606ebef843872f3951927f198de`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`199686b1ef05a06b775032ba47e785160abe165b496c55bee6535d7476d43b7f`.
+- `production/preview/full/montage.png` SHA-256:`bb58211a29e727c74a6fd54ea57614b0f9957926163934b7b381dfa88968b8cb`.
+
+[Current revision](../../production/evaluation/HARNESS_VISUAL_SYSTEM.md),
+[Visual design](../../plan/HARNESS_VISUAL_SYSTEM.md).
+
+| Slide | Classification | Path | Dimensions | SHA-256 |
+|---|---|---|---|---|
+| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` | 1920×1080 | `05b4545671daef4614211ee778cab969a442f34986bf6376c452081c2427ff68` |
+| S07 | RETAINED_DEMO_STATIC | `production/preview/full/S07.png` | 1920×1080 | `4646cd962fee1b9384ab16059744c87b83fd3d5341a48123d2f5cd6260f579cf` |
+| S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` | 1920×1080 | `b00fde64f9e461e9cfd17f080024c03c592d6854196c7437e0efc0eda7214afa` |
+| S09 | RETAINED_DEMO_STATIC | `production/preview/full/S09.png` | 1920×1080 | `1f938fb1a5b6ea172317856cd4bf7d5d2c9fa1ef6ffca0522d877e5e289dde94` |
+| S10 | RETAINED_DEMO_STATIC | `production/preview/full/S10.png` | 1920×1080 | `c621e5666dfbda359a703d0797ec025bb4915cd17fa498c6f0001a052eb55cc9` |
+| S23 | RETAINED_DEMO_STATIC | `production/preview/full/S23.png` | 1920×1080 | `2006268ff4d96da09bba0d8ed99b8174423fccf4f1ce825888cba100679961a2` |
+| S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` | 1920×1080 | `eee791361290ec1374cc4456ce66ff3bf7a7b27905c9e912b20838a0091d9e1f` |
+| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `3b4e59c948761576b151573de7b5f8e2aa45901acce2072b8793d9cb6348d240` |
+| S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` | 1920×1080 | `052e19918e6be443c8699ae2212f02229dbce3a5c15eb96fbe03794193e70940` |
+| S41 | USER_PROVIDED_DEMO_RESULT | `production/preview/full/S41.png` | 1920×1080 | `03f104ae8ec9a4bef6a183322d889e66f5314bf828705321f3116ebf1c50d712` |
+| S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` | 1920×1080 | `26632e6c07918601f19342180eeac05a0e67051e7bf8e43e8bb1a0d4bedf3295` |
+| S49 | RETAINED_DEMO_STATIC | `production/preview/full/S49.png` | 1920×1080 | `1e6acea140a3d038e3b18572c4cc1ca48e16e8ad6b6dec76c49e376185a17d1e` |
+| S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` | 1920×1080 | `b3ce28aa911e520e04fc38afecb02c7cd0ab34ed55525c083464c7a7ea136f0b` |
+| S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` | 1920×1080 | `bf95495437b7d003c4753295de9b9ef7bfc6f01966a55fe29589204ef23f2793` |
+| S54 | RETAINED_DEMO_STATIC | `production/preview/full/S54.png` | 1920×1080 | `ee3d7a63c8c506b0258f9fac8465ec028be427a012d180de19786fc5f1938755` |
+| S65 | RETAINED_DEMO_STATIC | `production/preview/full/S65.png` | 1920×1080 | `7c6678f47e66a441548a657905f151a9304b6a0d62683a32e38d5ba7b5896fdf` |
+| S66 | RETAINED_DEMO_STATIC | `production/preview/full/S66.png` | 1920×1080 | `e97b7e9018d93c1578149c627c953a96fb00f94cc1745bfcf5a2de29bffb69e4` |
+| S71 | RETAINED_DEMO_STATIC | `production/preview/full/S71.png` | 1920×1080 | `097a4a4e2aa65e6294f61598faaf7bf82ad8607a5e404e5e1540d83822bee663` |
+| S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` | 1920×1080 | `06fd5bce6974ea133fbe5a17cb4513bf50d88511ba00dba2b48e302be49cf9c0` |
+| S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` | 1920×1080 | `0c43e435ae26807f2c777693e99b291becdf39aa9559ce833cf1044b1bff7cda` |
+| S75 | RETAINED_DEMO_STATIC | `production/preview/full/S75.png` | 1920×1080 | `e76e2ca7c47ee4b911ea514296dddbb6a8123104b1ac3195dcb96e5a65013639` |
+| S85 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S85.png` | 1920×1080 | `2fdbaa30112f3b5cf17db641f3f6c2d7ce5cdaab1fc80861c94f64b21cd15d20` |
+| S86 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S86.png` | 1920×1080 | `c4c9d2b877e007acb0e90831802a31a6a3654f9ecdc142fae2f188b2e255514d` |
+| S87 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S87.png` | 1920×1080 | `af2f563f5cd936b433aae710274b13d5183b21bee12357a44db625ca8b54c7fe` |
+| S88 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S88.png` | 1920×1080 | `62fdf3e43f93c2441e87e6b69f073eeaa48aea2b10c02c010adf91eb992ee666` |
+| S89 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S89.png` | 1920×1080 | `9314c429c80b38f4eef8ca8b0a1a1dcb129970c5ea90bd86e68df34b4d1abc3e` |
+| S90 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S90.png` | 1920×1080 | `2f8c4d0d3a9e3e3c7fcea63fe3983a791ca045c868964ef3581188106012c01c` |
+| S91 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S91.png` | 1920×1080 | `656b9774ff43cc0e72f37cc2eab794720b55fda4b9121f8d4d70c98fc6a944fd` |
+| S92 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S92.png` | 1920×1080 | `b973ce659b98a1fa2f40db28643fa8d1206b4d16cfdbeeed864e5c4e08b02476` |
+| S93 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S93.png` | 1920×1080 | `97bbde7b2cd2074819e7bda0c4b825fe189fae34ab78ffcb6e74ed1bccbe8880` |
+| S94 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S94.png` | 1920×1080 | `6a88155c179aec286c8805a8f69c389334a6ce544250e6e8378965dc8c6ae1ea` |
+| S95 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S95.png` | 1920×1080 | `24073a6777a711bb61476181adbdcb3c6c0c6d2563e78da290930f09bdf9ebda` |
+| S96 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S96.png` | 1920×1080 | `a0ec850a558e706de32c64736da1809a618cac0ded9b9131c1fda15894ca6d03` |
+| S97 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S97.png` | 1920×1080 | `f64000f21c7875f6fc2a4946e911b1abf7a434f55616793b851ca9fe51dd1e85` |
+| S98 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S98.png` | 1920×1080 | `b28518dc102c7e5d00e5a2dc86192b6715ce36cf7e4e95ecf5654394d76a0463` |
+| S99 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S99.png` | 1920×1080 | `98f79c2411bd032a3ec0d15da589a7cf0c2788370b7ec8bb1a1731c6da7ee4d8` |
+| S100 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S100.png` | 1920×1080 | `32b487ead83156441d59336d2ab659513fb13ee22459e4115956e0e69856d906` |
+| S101 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S101.png` | 1920×1080 | `0685ea68c38d834a621911f103ebcf795c22a05fa178e808e42706a0c6b4def7` |
+| S102 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S102.png` | 1920×1080 | `49c4c8495ff15b58cca581af00a2be0420724281eb9972c858d3db5284203eff` |
+| S103 | CASE_RESEARCH_TEACHING_STATIC | `production/preview/full/S103.png` | 1920×1080 | `a58ce34ead150b4e8ed2ebe3435133d43c3d134e3db40bc05fd4e490f50d3f8e` |
+| S105 | TEACHING_SYNTHESIS | `production/preview/full/S105.png` | 1920×1080 | `8e7a525450c83d139914626dd0e671a426fdcd0e65040634d00b85a4c18b6e13` |
+| S106 | TEACHING_SYNTHESIS | `production/preview/full/S106.png` | 1920×1080 | `4397c3844957c89e763ddfea105bd0e939d4c53883d4f40302ee8bcb2e642472` |
+| S109 | RETAINED_DEMO_STATIC | `production/preview/full/S109.png` | 1920×1080 | `536e4335c64bfd339b0ea2e3f7350e95bd653cdaed14a125287eabeed15d04f3` |
+
+<details>
+<summary>Previous DEC-0133 manifest — preserved record</summary>
+
+# Static Fallback Manifest
+
 Current: DEC-0133 /119slides/405minutes. READY — LOCAL STATIC FILES ONLY.
 Move the prior S74 conceptual knowledge-management visual to ACT5 S109.
 Use an explicit C++ project assumption; retain its VISUAL2/Case2minutes,
@@ -63,6 +132,8 @@ UNVERIFIED. Demo repository, Sites and presenter bundles are unchanged.
 | S105 | TEACHING_SYNTHESIS | `production/preview/full/S105.png` | 1920×1080 | `8e7a525450c83d139914626dd0e671a426fdcd0e65040634d00b85a4c18b6e13` |
 | S106 | TEACHING_SYNTHESIS | `production/preview/full/S106.png` | 1920×1080 | `4397c3844957c89e763ddfea105bd0e939d4c53883d4f40302ee8bcb2e642472` |
 | S109 | RETAINED_DEMO_STATIC | `production/preview/full/S109.png` | 1920×1080 | `536e4335c64bfd339b0ea2e3f7350e95bd653cdaed14a125287eabeed15d04f3` |
+
+</details>
 
 <details>
 <summary>Previous119-slide ACT3-Memory manifest — preserved record</summary>

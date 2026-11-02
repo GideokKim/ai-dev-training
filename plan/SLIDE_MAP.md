@@ -1,5 +1,11 @@
 # Official Slide Map
 
+## Harness 관계·재사용·조립 시각화 — DEC-0134 (2026-11-02)
+
+S75는 주 Agent 아래 선택 Subagent를 교육용 점선으로 분리하고 실제 Demo의 단일 Agent 범위를 유지한다.
+S76은 같은 Harness 모듈이 프로젝트 A/B/C 내부에 재사용되는 모습, S77은 그 모듈과 프로젝트 Context의 조립 관계를 보여준다.
+119장·405분·장별 시간/Mode·ID·Story Beat·Section과 근거 범위는 같다. [시각 설계](HARNESS_VISUAL_SYSTEM.md)를 따른다.
+
 ## 현재 제작 기준 — DEC-0133 (2026-11-02)
 
 현재 **119장·405분(6시간45분)**. 이전 S74의 Context/Memory 학습을 현재 S109로 옮긴다.
@@ -1943,17 +1949,17 @@ Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저�
 - **Story Beat:** BEAT-035, BEAT-036
 - **Curriculum Trace:** ACT 3 — Tools, verification, and Harness reveal.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
-- **Claim Status:** TEACHING_MODEL — DEC-0023에서 확정한 이 과정의 Harness 정의. 공식 OpenAI 정의나 보편적 분류 체계가 아니다.
-- **Visual Concept:** S74의 세 입력→Agent→검증 구도를 유지하며 전체를 하나의 Harness 프레임으로 묶는다. 목표·Context·Skill은 각각 조건·사실/명세·재사용 방법으로 짧게 표시한다. 검증 도구의 결과는 사람이 검토한다. 아래 실행 환경을 Repository·입력·권한·실행/측정 조건의 공통 기반으로 두고 Agent와 검증 도구 양쪽에 위로 연결한다. 사례 파일 대응은 하단 짧은 출처 줄과 Demo Notes로 회수한다. 기존 배치를 유지하며 실행 환경의 두 연결과 사람의 검토를 강조한다.
-- **Demo / Case Connection:** STATE-04-PERF에서 관찰한 요소를 근거로 삼되, Subagent와 Memory를 필수 요소로 넣지 않는다.
+- **Claim Status:** TEACHING_MODEL — DEC-0023의 과정 내 Harness 정의다. 점선의 선택 Subagent는 독립 조사 역할을 보여주는 교육용 확장이고 실제 STATE-04-PERF에는 추가하지 않았다. 기존 단일 Agent 구성의 관찰 범위와 구분하며 공식 OpenAI 정의·보편 필수 구성·역할 분리 효과를 주장하지 않는다.
+- **Visual Concept:** 기존 목표·Context·Skill 입력군→주 Agent→검증 도구/사람의 근거·결과 검토와 하단 실행 환경을 유지한다. 주 Agent 아래에는 amber 점선의 작은 선택 Subagent를 두고 “선택 · 독립 조사”로 표시한다. 주 Agent가 조사 범위를 맡기고 결과가 다시 주 Agent로 돌아오는 관계를 보여주며 결과 확인·통합 책임은 주 Agent에 둔다. Subagent에서 제품 변경이나 검증 완료로 직접 연결하지 않는다. 입력군, Agent군(종속 선택 Subagent 포함), 검증/검토군, 공통 실행 환경의 계층으로 읽어 선택 요소가 주요 흐름을 압도하지 않게 한다. 색뿐 아니라 점선·선택 라벨로 실제 구성과 확장을 구분한다.
+- **Demo / Case Connection:** Lecture4분은 실제 구성에 근거한 과정의 Harness 관계와 선택 역할을 설명한다. 이후 CAPTURED Demo2분은 STATE-04-PERF의 목표·Context·Skill·단일 Agent·검증 도구와 기록된 실행 조건만 대응한다. 점선 선택 Subagent는 실제 이 작업에 추가한 구성이나 관찰된 실행이 아니다.
 - **Beginner Payoff:** Agent에게 Project 정보뿐 아니라 일하는 환경과 확인 방법도 필요하다는 점을 이해한다.
 - **Advanced Payoff:** Harness를 특정 파일이나 기능이 아니라 Project별 신뢰성 문제를 해결하는 시스템으로 본다.
 - **C++ Vision Bridge:** N/A — 다음 S76–S77은 여러 프로젝트에 적용할 공통 기반과 프로젝트별 조건의 교육용 설계다.
-- **Speaker Intent:** S74의 구체적인 작업 역할을 전체 작업 환경의 관계로 확장해 Harness 정의를 완성한다. 파일·기능 목록을 반복하지 않고 입력·작업·확인·공통 실행 조건과 개발자의 검토 책임을 읽는다. 교육용 모델과 실제 구성의 범위를 구분하며 S76의 다음 프로젝트 재사용 가치와 S77의 적용 조건으로 연결한다. S74의 입력 설명은 짧게 회수하고 공통 실행 조건과 사람의 근거·결과 검토에 초점을 옮긴다.
+- **Speaker Intent:** S74의 실제 단일 Agent 구성에서 실행 조건과 사람의 검토 책임을 연결해 Harness 모델로 확장한다. 주 Agent의 통합 책임을 유지하면서 독립 조사에만 선택 Subagent를 둘 수 있는 관계를 짚는다. 지침·파일 목록은 반복하지 않는다. Lecture의 교육용 확장과 마지막2분의 실제 구성 대응을 구분하고 선택 Subagent를 실제 Demo처럼 설명하지 않는다. 다음 S76에서는 같은 기반을 다른 프로젝트에도 출발점으로 쓸 수 있다는 가치를 보여준다.
 - **Transition:** “이렇게 만든 작업 체계를 다음 프로젝트에서도 출발점으로 쓸 수 있을까요?”
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Lecture 4분 + Demo 2분 (CAPTURED) = 6분
-- **Evidence / Decision References:** BEAT-035, BEAT-036, STATE-04-PERF, OQ-011, CLM-0016, CLM-0017, CLM-0030, DEC-0062, DEC-0023, DEC-0076, DEC-0080
+- **Evidence / Decision References:** BEAT-035, BEAT-036, STATE-04-PERF, OQ-011, CLM-0016, CLM-0017, CLM-0030, DEC-0062, DEC-0023, DEC-0076, DEC-0080, DEC-0134
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S76 — 만든 Harness를 다음 프로젝트의 기반으로
@@ -1969,17 +1975,17 @@ Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저�
 - **Curriculum Trace:** ACT 3 — reusable Harness foundation, project bindings, and execution-condition literacy. Existing Section/Beat identities retained.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 재사용의 설계 가치다. 다른 프로젝트에서 실행·검증한 Demo나 시간·성능 개선 성과가 아니다.
-- **Visual Concept:** 왼쪽 하나의 Harness 기반에서 오른쪽 프로젝트 A/B/C로 가지가 나뉜다. 성공률·속도 수치나 완료 체크 없이 동일한 기반의 재사용 관계만 보여준다.
+- **Visual Concept:** 하나의 큰 “공통 Harness” 모듈에서 동일한 작은 모듈 세 개가 프로젝트 A/B/C 내부에 들어가는 관계를 native text/shape로 보여준다. 큰 모듈과 세 작은 모듈은 같은 색·모양·내부 순서(조사·변경·검증/도구 연결·보고 틀)를 반복해 같은 기반임을 알아보게 한다. 프로젝트 외곽과 내부 모듈을 중첩해 단순히 프로젝트 이름으로 화살표를 보낸 것과 구분한다. 연결은 재사용의 설계 관계이며 자동 배포·무조건 작동·완료 판정이 아니다. 수치·성공 체크 없이 프로젝트 조건을 연결하는 질문을 다음 장에 남긴다.
 - **Demo / Case Connection:** N/A — 교육용 적용 모델. 다른 프로젝트의 실제 이식·비교 실험이 아니다.
 - **Beginner Payoff:** 한 번 정리한 일하는 방법을 다음 프로젝트에서 출발점으로 삼을 수 있다.
 - **Advanced Payoff:** 공통 수행 틀을 축적하고 프로젝트별 명세·도구·권한의 연결을 분리한다.
 - **C++ Vision Bridge:** N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
-- **Speaker Intent:** 구축한 Harness를 다음 프로젝트의 출발점으로 재사용할 수 있다는 가치를 먼저 설명한다. 한 장의 질문만 설명하고 ACT4의 개선 과정·후속 검증을 앞에서 소진하지 않는다.
+- **Speaker Intent:** S75에서 본 Harness를 같은 시각 모듈로 압축한 뒤 프로젝트 A/B/C 안에 반복해 배치한 부분을 짚는다. 공통 수행 틀을 다음 프로젝트의 출발점으로 쓸 수 있다는 한 가지 가치를 설명한다. 전체 구성의 자동 이식이나 검증 완료로 해석하지 않고 무엇을 다시 연결해야 하는지는 S77에서 회수한다. ACT4의 반복 수정·후속 평가를 먼저 설명하지 않는다.
 - **Transition:** “그 기반에서 무엇을 다시 쓰고, 무엇을 프로젝트에 맞게 연결해야 할까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001
-- **Audience Footer:** 재사용 설계 예시
+- **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001, DEC-0134
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S77 — 공통 기반에 프로젝트 기준을 연결한다
 
@@ -1994,16 +2000,16 @@ Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저�
 - **Curriculum Trace:** ACT 3 — reusable Harness foundation, project bindings, and execution-condition literacy. Existing Section/Beat identities retained.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 공통 틀과 프로젝트별 조건을 나누는 설계다. 전체 Harness를 그대로 복사하면 작동한다는 보장·이식 성공·절감 측정은 없다.
-- **Visual Concept:** 왼쪽 공통 수행 틀과 오른쪽 프로젝트 기준을 같은 높이의 두 영역에 놓고 더하기로 연결한다. 아래 한 줄은 기반 재사용과 적용 조건 연결의 관계를 회수한다.
+- **Visual Concept:** 기존 T03-A의 native3영역 관계도로 구성한다. 왼쪽은 S76과 같은 공통 Harness 모듈(조사·변경·검증, 도구 연결, 보고 틀), 가운데는 접힌 모서리를 가진 프로젝트 Context 문서(목표·명세 / 실제 빌드·테스트·측정 명령 / 권한·실행 조건), 오른쪽은 둘이 연결된 프로젝트 작업 시스템이다. 모듈과 문서를 조립하는 관계를 연결선으로 보여주고 작업 시스템의 주 Agent·검증/검토 책임을 짧게 표시한다. 프로젝트별 사실·명령·허용 범위를 실제 조건과 맞추는 책임이 읽히게 하며 성공 결과·성능 수치·시간 절감 배지를 넣지 않는다.
 - **Demo / Case Connection:** N/A — 교육용 적용 모델. 다른 프로젝트의 실제 이식·비교 실험이 아니다.
 - **Beginner Payoff:** 방법은 가져오되 프로젝트의 사실과 사용할 명령은 다시 연결한다.
 - **Advanced Payoff:** 재사용 단위와 프로젝트 결합 지점을 나누고 실제 명령·권한·검증 기준을 확인한다.
 - **C++ Vision Bridge:** N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
-- **Speaker Intent:** 재사용할 수행 틀과 프로젝트별로 달라지는 지식·명령·허용 범위를 구분한다. 한 장의 질문만 설명하고 ACT4의 개선 과정·후속 검증을 앞에서 소진하지 않는다.
+- **Speaker Intent:** 앞 장에서 프로젝트 안에 들어간 같은 Harness 모듈을 다시 사용한다. 공통 수행 틀에 새 프로젝트의 목표·명세·실제 명령·허용 조건을 연결하면 무엇을 참고하고 어떤 방법과 도구로 확인할지 정해진다는 조립 관계를 읽는다. 단순한 복사만으로 동작한다는 보장이나 새 실행 성과를 만들지 않는다. 재사용의 가치와 프로젝트 조건의 연결을 닫고 다음 S78에서 확인한 성공의 범위를 넘어 새 작업에 남을 질문을 연다.
 - **Transition:** “이 기반으로 작업하는 동안 사람이 새로 확인할 부분을 찾는다면, 그 경험은 다음 작업에 어떻게 남을까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001
+- **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001, DEC-0134
 - **Audience Footer:** 프로젝트 적용 예시
 
 #### S78 — 이번 성공만으로 다음 작업까지 확인되지는 않는다
