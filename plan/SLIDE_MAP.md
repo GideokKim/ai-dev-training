@@ -1431,29 +1431,29 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Evidence / Decision References:** BEAT-016, BEAT-017, TRIAL-005A, TRIAL-005B, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0058, DEC-0060
 - **Audience Footer:** 최종 실행 기록 비교 · testing.md는 A의 최종 실행에서 관찰
 
-#### S55 — Context 정리에서 확인한 네 가지
+#### S55 — 정보를 남기고, 작업에서 활용했는지 확인했다
 
 - **Slide ID:** S55
 - **ACT:** ACT 2
 - **Section:** 2I Discussion·Transition
-- **Working Title:** Context 정리에서 확인한 네 가지
+- **Working Title:** 정보를 남기고, 작업에서 활용했는지 확인했다
 - **Primary Role:** Context Engineering의 성과와 근거 범위를 회수한다.
-- **Audience Question:** “무엇을 바꾸었고, 무엇까지 실제로 확인했을까?”
+- **Audience Question:** “무엇을 남겼고, 작업에서 어떻게 참고됐는지 무엇으로 확인했을까?”
 - **Core Message:** 공통 정보의 기록, 지침 활용, 핵심 정보를 보존한 재구성, Task별 상세 접근 차이는 각각의 보존된 근거로 확인했다. 일반적 효율 향상은 측정하지 않았다.
 - **Story Beat:** BEAT-009–017
 - **Curriculum Trace:** ACT 2 — observed context organization and bounded success recap.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE — 개별 State/Trial 관찰과 교육용 성과 정리를 구분한다. 일반적 효율·정확도 개선이나 단독 인과성을 주장하지 않는다.
-- **Visual Concept:** 기록/지침 활용/문서 재구성/상세 접근의 네 node를 해당 State/Trial과 연결한다. 연결선은 교육의 진행 순서이며 독립적 인과효과를 뜻하지 않는다. 아래에 확인한 사실을 회수하고 성능·토큰 효과 미측정은 별도 경계로 둔다. 절차 재사용의 완성 답은 앞당기지 않는다.
+- **Visual Concept:** 2×2의 네 native 그림: 반복 안내→AGENTS.md, 테스트 지침→Agent→실행창, 한 문서→기본 안내/구조·명세·테스트 문서, crop/의존성 질문→공통 안내/서로 다른 상세. 각 그림은 짧은 설명 한 줄을 사용하고 네 그림 사이의 화살표는 없앤다. STATE/TRIAL은 화면에서 제거하고 Notes에 보존한다. 정확한 실행 화면·시간순 로그·완벽한 선택 모형으로 표현하지 않는다.
 - **Demo / Case Connection:** STATE-01, TRIAL-003, STATE-02→03, TRIAL-005A/B의 bounded callback. 새 Demo 시간이나 Trial이 아니다.
 - **Beginner Payoff:** Context 작업으로 실제 무엇을 했는지 네 가지로 기억한다.
 - **Advanced Payoff:** 구조/행동/효과 측정을 다른 수준의 주장으로 구분한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S54의 한계만 남기지 않고 실제 성과를 긍정적으로 회수한다. 네 근거는 각각의 관찰이며 인과성 실험이나 보편 성공률을 만들지 않는다. Reflection1은 팀에서 정리할 정보 하나를 조용히 떠올리게 한다.
+- **Speaker Intent:** S54의 개별 비교를 받아 좌상/우상/좌하/우하를 각30초로 회수한다. 지침 활용은 보존된 관찰, 문서 분리는 핵심 정보 보존, 상세 접근은 두 요청의 차이로 한정한다. 하단 질문으로 Reflection1분을 유지하고 기존 S56 적용 팁으로 연결한다.
 - **Transition:** “우리 프로젝트에서는 AGENTS.md를 어디에 두고, 어느 범위의 지침을 확인할까요?” S56–S58의 적용 팁을 거친 뒤 S59의 기존 수행 방법 질문으로 돌아간다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 2분 + Reflection 1분 = 3분
-- **Evidence / Decision References:** BEAT-009, BEAT-010, BEAT-014, BEAT-016, BEAT-017, STATE-01, STATE-02, STATE-03, TRIAL-003, TRIAL-005A, TRIAL-005B, DEC-0060
+- **Evidence / Decision References:** BEAT-009, BEAT-010, BEAT-014, BEAT-016, BEAT-017, STATE-01, STATE-02, STATE-03, TRIAL-003, TRIAL-005A, TRIAL-005B, DEC-0060, DEC-0126
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S56 — AGENTS.md는 어디에 둘까?

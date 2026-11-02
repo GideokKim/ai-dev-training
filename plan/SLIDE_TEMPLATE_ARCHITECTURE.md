@@ -1,5 +1,13 @@
 # STEP 08 — Slide Template Architecture
 
+## 현재 S55의 T03-A 적용 — DEC-0126
+
+S55는 기존 네 관찰을2×2 native 그림과 성찰 질문으로 회수한다. 주요 그림4개와 질문1개의
+범위에서 기존 T03-A를 사용한다. 그림 내부 관계만 연결하고 네 장면 사이는 연결하지 않는다.
+STATE/TRIAL 근거는 Notes에 보존한다. 새로운 Template/Variant를 추가하지 않으며
+12Templates/28Variants·현재 시간/근거를 유지한다. [현재 S55 설계](S55_VISUAL_RECAP.md)를 따른다.
+아래 DEC-0060 등의 S번호·화면 규칙은 당시 판본의 이력이다.
+
 ## 현재 Context 구간 순서 — DEC-0125 (2026-11-02)
 
 현재 S45 연구 → S46 주의 사례 → S47 정보 분류 → S48 문서 배치 기준 → S49 실제 문서 분리 →

@@ -1,6 +1,9 @@
 # Static Fallback Manifest
 
-Current: DEC-0125 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0126 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+S55 recaps four bounded observations with2x2 native scene diagrams.
+State/Trial identifiers remain in Notes, without new runs or results.
+Keep its three minutes and all44fallback roles/classes/paths unchanged.
 Current S45 research remains bounded. S46 uses a hypothetical wrong answer,
 not an observed Agent response or Trial. S47 classifies relevant information;
 S48 provides document placement criteria. S49 is the retained document
@@ -19,11 +22,11 @@ in the reports and source history. No Demo repository state is changed.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`c8094100ac985d43eaddfb747793cc92090e11c6fba7739be1c0950a0d5d436f`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`28ffffbe3c0366ee1c22009063ea5844a936ea4cffe1c667304c23476d767f0c`.
-- `production/preview/full/montage.png` SHA-256:`9c3e91e6582bb1199e60ad0e2c10cb19ba5b119696aa82d7ca14327a62623677`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`b75c0894f5c3769c970c6c3e587ca099dd450e2ad20e49bcd76a8170b3c32d39`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`cdabc0d2e337711c331f6ef7c7fbcf2e210dcf2821720d155248cb5fad916687`.
+- `production/preview/full/montage.png` SHA-256:`9bef60fabf7d9703cb60a114f8a9797f044301b47404b0a64ee0734e171ad884`.
 
-[Current revision](../../production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md),
+[Current revision](../../production/evaluation/S55_VISUAL_RECAP_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |

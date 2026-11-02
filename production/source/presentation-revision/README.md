@@ -1,6 +1,12 @@
 # Current presentation source
 
-Current: DEC-0125 /120slides/417minutes. Apply `context-sequence-120.mjs`
+S55 visual recap: DEC-0126 replaces retained `act2-continuity.mjs` factory
+`S48`, which reaches current `S55` through the existing edition adapters.
+Use four editable scene diagrams in2x2, keep source IDs in current Notes,
+and retain the DEC-0125 ordering boundary and all earlier source editions.
+The changed final packages are Full and ACT2 only.
+
+Current sequence: DEC-0125 /120slides/417minutes. Apply `context-sequence-120.mjs`
 once after all retained adapters and `applyCurrent120`, before current Notes.
 Move pre-reorder120 content S46/S47/S45/S49/S50/S48 into current S45-S50.
 Keep prior factory keys, JSON input editions, asset/report paths and evidence

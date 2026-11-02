@@ -1,5 +1,33 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S55 네 장면 시각 회고 — DEC-0126 (2026-11-02)
+
+기존 네 관찰을2×2 native 그림으로 바꾸고 STATE/TRIAL 화면 표시는 Notes로 옮겼다.
+공통 안내 기록·지침 활용·핵심 보존 분리·질문별 상세 접근을 회수한다.
+S55 3분=Lecture2+Reflection1, S54→S55→S56–S58→S59 연결과120장·417분을 유지한다.
+[수정 S55](../preview/full/S55.png), [통합 PPT](../AI_Dev_Training_Full.pptx),
+[ACT2 PPT](../ACT_2.pptx), [현재 검토](S55_VISUAL_RECAP_REVISION.md).
+142개 최종 렌더/내장 Notes를 대조했다. 다른119장 화면·Notes와5개 ACT PPT는 같다.
+기존 개별 관찰의 요약이며 새 실행·효과 측정·강제 준수·완벽한 선택을 주장하지 않는다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. 아래 기록은 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `b75c0894f5c3769c970c6c3e587ca099dd450e2ad20e49bcd76a8170b3c32d39` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `4e110304d710e44d05d34147ab3a1eebe7abe9d6e48b0aed73ff123db0e0999e` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `4a689778ec9715b120fdf469ba52bb6eb88973a7b907db4fe933e3a298377b73` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `cdabc0d2e337711c331f6ef7c7fbcf2e210dcf2821720d155248cb5fad916687` |
+| `production/notes/ACT_2_NOTES.md` | `ec7d4244c7d6236dafd0a6f9178af875d6582df426f2ebc23faf82cad6ac0975` |
+| `production/preview/full/montage.png` | `9bef60fabf7d9703cb60a114f8a9797f044301b47404b0a64ee0734e171ad884` |
+| `production/preview/act2/montage.png` | `bfef5d794d00a23203dc58fd28230edce9478b6261accccbc86c7d96692d22be` |
+| `production/preview/full/S55.png` | `dca7ae621037b1111cff156f8eb6b8176c5a4b63215f47b4fb8f60cdd6f84314` |
+
+## 보존된 이전 전달 기록
+
 ## ACT2 Context 순서·연결 수정 — DEC-0125 (2026-11-02)
 
 현재 S45 연구 → S46 주의 사례 → S47 정보 분류 → S48 문서 배치 기준 → S49 실제 문서 분리 →

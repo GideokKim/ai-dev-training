@@ -12560,3 +12560,76 @@ restructuring, designed navigation and observed access.
 Render all affected final packages, verify the permutation and content-
 based budgets, preserve unrelated slides/native evidence and push normally.
 Keep Windows, room, product/account and rehearsal gates unverified.
+
+# DEC-0126 — Visualize the S55 context recap
+
+## Status
+
+ACCEPTED — explicit user approval of the proposed2x2 visual recap.
+
+## Date
+
+2026-11-02
+
+## Context
+
+The S55 recap uses four abstract text labels and internal State/Trial IDs.
+An audience unfamiliar with the repository may not recall the examples.
+
+## Problem
+
+Make the four scoped observations recognizable without adding claims or
+interrupting the ACT2 story, timing and evidence boundaries.
+
+## Decision
+
+Replace current S55 with four native scene diagrams in2x2: common guidance
+recorded, recorded test guidance used, core information preserved during
+document separation, and different detail accessed for two questions.
+Keep State/Trial IDs in Notes and plans. Remove them from visible content.
+Keep Lecture2+Reflection1, the existing neighbors and the full120/417 plan.
+Use the existing T03-A template without adding templates or variants.
+
+## Rationale
+
+Recall recognizable documents and work scenes instead of requiring the
+audience to decode internal identifiers. Show separate observations and
+leave causality, access completeness and measured effects unclaimed.
+
+## Alternatives
+
+Retain four text columns: leaves the recall problem unresolved.
+Add four detailed evidence slides: repeats prior cases and expands time.
+Use invented logs or test counts: would alter the supplied evidence.
+
+## Trade-offs
+
+The recap compresses detail into four scenes. Preserve provenance and
+limits in Notes, retain common guidance in both access paths, and avoid
+implying a complete access trace or guaranteed instruction compliance.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESEARCH-002,
+INV-RESEARCH-004, INV-DIFFICULTY-001, INV-SOT-001.
+
+## Affected Artifacts
+
+S55 source, current Map/template mapping and Notes, Full/ACT2 packages,
+previews, claim/design records and delivery identities.
+
+## Evidence
+
+User-approved visual plan. Retain STATE-01, TRIAL-003, STATE-02/03 and
+TRIAL-005A/B. Keep historical TRIAL-003 separate from the user S41 demo.
+No new Trial, product execution, benchmark or timed rehearsal is added.
+
+## Training Relevance
+
+YES — distinguish recording information, observed use, preservation
+during restructuring and observed access without conflating their proof.
+
+## Follow-up
+
+Render and compare the final packages, preserve unrelated artifacts and
+push normally. Keep Windows, room, account and rehearsal gates unverified.

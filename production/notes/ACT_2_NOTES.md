@@ -994,12 +994,13 @@ LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S54 또는 production/preview
 
 Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
 
-## S55 — Context 정리에서 확인한 네 가지
+## S55 — 정보를 남기고, 작업에서 활용했는지 확인했다
 
 Slide ID:
 S55
 
-Working Title: Context 정리에서 확인한 네 가지
+Working Title:
+정보를 남기고, 작업에서 활용했는지 확인했다
 
 ACT / Section: ACT 2 / 2I Discussion·Transition
 
@@ -1007,41 +1008,57 @@ Allocated Time: 3 minutes
 
 Mode Split: Lecture 2 minutes + Reflection 1 minutes
 
-Primary Message: 공통 정보의 기록, 지침 활용, 핵심 정보를 보존한 재구성, Task별 상세 접근 차이는 각각의 보존된 근거로 확인했다. 일반적 효율 향상은 측정하지 않았다.
+Primary Message:
+반복하던 공통 안내를 기록하고, 남긴 지침의 활용·핵심을 보존한 문서 분리·질문별 상세 접근 차이를 각각 확인했다. 기존 네 개별 관찰의 회고이며 일반적인 성능·효율 향상을 측정한 결과는 아니다.
 
-Opening Question: “무엇을 바꾸었고, 무엇까지 실제로 확인했을까?”
+Opening Question: “무엇을 남겼고, 작업에서 어떻게 참고됐는지 무엇으로 확인했을까?”
 
 **Speaker Flow:**
-1. (0–2분, Lecture) 기록/지침 적용/정보 보존 재구성/Task별 접근이라는 네 근거를 짧게 회수한다. 각각의 State/Trial을 가리키되 다시 로그를 낭독하지 않는다.
-2. (2–3분, Reflection) 팀에서 먼저 정리할 공통 안내 또는 상세 정보 하나를 조용히 떠올린다. 해결한 범위를 성능/정확도/토큰 효과로 확대하지 않고 남은 수행 방법 질문으로 넘긴다.
+1. (0:00–0:30 / Lecture) 좌측 상단의 반복 안내가 AGENTS.md로 모이는 그림을 짚는다. 매번 전달하던 공통 안내를 프로젝트에 남겼다는 첫 사례를 회수한다.
+2. (0:30–1:00 / Lecture) 우측 상단에서 AGENTS.md의 테스트 명령, Agent, 실행창을 차례로 짚는다. 기록에 남은 지침 참고와 테스트 실행을 설명하며 자동 준수 보장으로 확대하지 않는다.
+3. (1:00–1:30 / Lecture) 좌측 하단의 같은 색 정보를 전후로 대조한다. 핵심을 유지하며 기본 안내와 구조·명세·테스트 문서로 위치를 나눴음을 회수한다.
+4. (1:30–2:00 / Lecture) 우측 하단의 두 질문에서 공통 안내는 같고 확인한 상세가 달랐다는 점을 짚는다. 모든 문서·접근 순서를 다시 나열하거나 완벽한 선택으로 설명하지 않는다.
+5. (2:00–3:00 / Reflection) 하단 질문으로 우리 팀에서 먼저 정리할 공통 안내나 상세 정보 하나를 조용히 떠올리게 한다. 실습·새 Q&A·성과 측정은 추가하지 않는다.
 
-Evidence / Source: STATE-01; TRIAL-003; STATE-02→STATE-03; TRIAL-005A/B; BEAT-009–017; DEC-0060. The four scoped observations remain separate from the teaching recap.
+Evidence / Source:
+STATE-01; TRIAL-003; STATE-02→STATE-03; TRIAL-005A/B; BEAT-009–017; DEC-0060. The four scoped observations remain separate from the teaching recap.
 
 보존된 상세 출처: STATE-01 · TRIAL-003 · STATE-02→03 · TRIAL-005A/B의 개별 관찰 요약
 
-Claim Boundary: FROZEN WITH SCOPE — 개별 State/Trial 관찰과 교육용 성과 정리를 구분한다. 일반적 효율·정확도 개선이나 단독 인과성을 주장하지 않는다. STATE-01, TRIAL-003, STATE-02→03, TRIAL-005A/B의 bounded callback. 새 Demo 시간이나 Trial이 아니다. 네 node의 연결은 교육의 진행 순서이며 관찰들 사이의 인과효과를 입증하는 선이 아니다.
+DEC-0126: 네 장면의 native 교육용 관계도로 재구성했다. 화면의 식별자는 숨겨도 위 State/Trial 근거는 유지한다. 두번째 그림은 보존된 TRIAL-003의 지침 참고/테스트 실행을 회수한다. 역사적11개 테스트 기록과 현재 S41의 사용자 별도 실제9개 데모는 서로 다른 근거이며 새 그림에 어느 결과의 수치도 합쳐 넣지 않는다.
+
+Claim Boundary:
+FROZEN WITH SCOPE — 개별 State/Trial 관찰과 교육용 성과 정리를 구분한다. 일반적 효율·정확도 개선이나 단독 인과성을 주장하지 않는다. STATE-01, TRIAL-003, STATE-02→03, TRIAL-005A/B의 bounded callback. 새 Demo 시간이나 Trial이 아니다. 01–04는 네 개별 관찰을 되짚는 설명 순서이며, 각 관찰 사이의 인과효과를 입증하지 않는다.
 
 보존된 상세 범위: 개별 관찰의 교육용 정리 · 보편적 정확도/효율 개선·독립적 인과성은 입증하지 않음
 
-Beginner Explanation: Context 작업으로 실제 무엇을 했는지 네 가지로 기억한다.
+네 그림 사이의 단계 화살표를 없앤다. 각 그림 내부 연결도 정보/참고 관계의 압축 표현으로, 원 실행 화면·전체 시간순 접근·모델 내부 원인·AGENTS.md의 강제 준수를 입증하지 않는다. 기본 안내와 관련 상세를 함께 보여 주며 필요한 파일만 읽었다는 보장은 하지 않는다. 테스트 개수·PASS/FAIL·추가 성과 수치를 만들지 않는다.
 
-Advanced Insight: 구조/행동/효과 측정을 다른 수준의 주장으로 구분한다.
+Beginner Explanation:
+매번 쓰던 안내를 한 문서에 남겼고, 지침을 참고하는 작업 기록을 확인했다. 문서가 커지면 핵심을 보존하며 나누고, 질문별로 어떤 상세를 읽었는지 살펴볼 수 있다. 네 그림을 앞서 본 장면과 연결해 기억한다.
+
+Advanced Insight:
+Separate persistence, observed instruction use, semantic preservation during document restructuring and task-dependent access. The recap does not isolate causality, measure efficiency or guarantee optimal document selection.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A.
+Demo Operation:
+N/A — 새 실행 없이 보존된 네 사례를 native 문서·Agent·실행창·분리/접근 도식으로 되짚는다. 실제 실행 Screenshot을 제시하는 장이 아니며 로그·PASS 결과를 만들지 않는다. 출처는 Evidence / Source를 따른다.
 
-Audience Interaction: “우리 팀에서 공통 안내와 상세로 나눌 정보 한 가지는?” 조용한 성찰이며 별도 실습·Q&A를 추가하지 않는다.
+Audience Interaction:
+“우리 팀에서 먼저 정리할 공통 안내나 상세 정보는 무엇인가요?” 개인 Reflection1분이다. 공개 제출·별도 실습·Q&A를 추가하지 않는다.
 
 **Transition:**
 “우리 프로젝트에서는 AGENTS.md를 어디에 두고, 어느 범위의 지침을 확인할까요?” S56–S58의 팁을 거친 뒤 S59의 기존 수행 방법 질문으로 돌아간다.
 
-Time Management: Lecture2+Reflection1분. 과거 Trial을 다시 시연하지 않는다.
+Time Management:
+0–2분 Lecture: 좌상/우상/좌하/우하를 각30초로 짚는다.2–3분 Reflection1분을 보호한다. 내용이 길어지면 과거 실행 환경·파일명 부연을 줄이고 네 관찰의 뜻과 하단 질문은 유지한다. 총3분과 Mode는 같다.
 
 Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S55; production/preview/act2/S55.png. A rendered teaching diagram/evidence summary, not a new product screenshot or Trial. Final path/content check pending.
+LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S55 또는 production/preview/act2/S55.png를 사용한다. 실제 실행 캡처가 아닌 기존 근거의 교육용 도식이다. 최종 Full/ACT2 화면·내장 Notes·경로 대조는 production/evaluation/S55_VISUAL_RECAP_REVISION.md에 기록한다.
 
-Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
+Validation Status:
+LOCAL VALIDATION — 최종 source/PPT/PNG/19필드 Notes 정합성은 production/evaluation/S55_VISUAL_RECAP_REVISION.md에 기록한다. Windows PowerPoint·실제 발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다.
 
 ## S56 — AGENTS.md는 어디에 둘까?
 

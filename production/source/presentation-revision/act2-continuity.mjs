@@ -183,21 +183,68 @@ export async function loadAct2ContinuitySlides(root) {
    return s;
   },
   S48(p){
-   const s=make(p,'S48','Context 정리에서 확인한 네 가지','ACT 2 · 성과와 근거 범위를 회수',
+   // DEC-0126: retained S48 is current S55; recap four bounded observations.
+   const s=make(p,'S48','정보를 남기고, 작업에서 활용했는지 확인했다','ACT 2 · 정리한 정보와 실제 활용',
     'STATE-01 · TRIAL-003 · STATE-02→03 · TRIAL-005A/B의 개별 관찰 요약',
     '개별 관찰의 교육용 정리 · 보편적 정확도/효율 개선·독립적 인과성은 입증하지 않음','OBSERVED_PRODUCT / TEACHING_MODEL');
-   text(s,'정보를 기록하고, 찾아 쓴 근거를 확인했다',64,183,1152,44,32,C.teal,true);
-   const items=[['01','기록','공통 안내를\n저장소에 남김','STATE-01'],['02','지침 활용','지정된 테스트\n명령을 실제 사용','TRIAL-003'],['03','정보 보존','핵심을 유지하고\n문서 위치를 나눔','STATE-02→03'],['04','접근 관찰','두 Task에서\n상세 접근이 달랐음','TRIAL-005A/B']];
-   items.forEach(([num,title,body,source],i)=>{
-    const x=64+i*294;
-    text(s,num,x,263,264,33,24,C.sub,true,CODE);
-    text(s,title,x,311,264,44,33,C.ink,true);
-    line(s,x,370,264,C.teal,2);
-    text(s,body,x,395,264,95,28,C.ink);
-    text(s,source,x,509,264,32,23,C.sub,false,CODE);
-    if(i<items.length-1)arrow(s,x+270,326,18,14);
+   const caption=(num,label,x,y)=>{
+    text(s,num,x,y+3,34,33,22,C.teal,true,CODE);
+    text(s,label,x+42,y,506,39,28,C.ink,true);
+   };
+   const page=(x,y,w,h,label)=>{
+    rect(s,x,y,w,h,C.white,C.line,1.5);
+    text(s,label,x+10,y+5,w-20,32,22,C.ink,true,CODE);
+   };
+
+   caption('01','공통 안내를 남겼다',64,187);
+   [234,278,322].forEach(y=>{
+    const q=rect(s,84,y,218,32,C.pale);q.borderRadius=7;
+    text(s,'테스트·제약',96,y,194,32,24,C.teal,true,FONT,'center');
    });
-   text(s,'우리 팀에서 먼저 정리할 공통 안내나 상세 정보 한 가지는?',64,563,1152,37,28,C.teal,true);
+   arrow(s,326,280,42,22);
+   page(408,234,170,120,'AGENTS.md');
+   [284,307,330].forEach((y,i)=>rect(s,426,y,134-i*14,10,C.teal));
+
+   caption('02','남긴 지침을 작업에 활용했다',668,187);
+   page(684,234,166,120,'AGENTS.md');
+   rect(s,694,281,146,48,C.pale);
+   text(s,'테스트 명령',698,287,138,34,23,C.teal,true,FONT,'center');
+   arrow(s,863,281,20,16);
+   s.shapes.add({geometry:'ellipse',name:'Agent reads the recorded guidance',position:{left:895,top:257,width:70,height:70},fill:C.pale,line:{fill:C.teal,width:1.5}});
+   text(s,'Agent',895,271,70,40,22,C.teal,true,CODE,'center');
+   arrow(s,977,281,20,16);
+   rect(s,1009,234,191,120,C.ink);
+   rect(s,1009,234,191,29,C.line);
+   text(s,'실행창',1023,234,163,29,21,C.ink,true);
+   text(s,'테스트 실행',1023,282,163,46,26,C.white,true,FONT,'center');
+
+   caption('03','핵심을 보존하며 문서를 나눴다',64,379);
+   page(84,428,170,118,'AGENTS.md');
+   rect(s,98,468,142,12,C.teal);
+   const detailColors=[C.sub,C.warn,C.green];
+   detailColors.forEach((color,i)=>rect(s,98,489+i*19,142,9,color));
+   arrow(s,290,469,42,22);
+   page(356,428,248,39,'AGENTS.md');
+   rect(s,570,439,20,13,C.teal);
+   ['구조','명세','테스트'].forEach((label,i)=>{
+    const x=356+i*86;
+    rect(s,x,484,76,62,C.white,C.line,1.5);
+    rect(s,x+8,493,60,9,detailColors[i]);
+    text(s,label,x+4,510,68,31,22,C.ink,true,FONT,'center');
+   });
+
+   caption('04','질문에 따라 읽은 상세가 달랐다',668,379);
+   [['crop 범위','이미지 명세',438],['실행 의존성','패키지 설정',502]].forEach(([task,detail,y])=>{
+    const q=rect(s,680,y,142,42,C.white,C.line,1.5);q.borderRadius=7;
+    text(s,task,684,y+3,134,36,23,C.ink,true,FONT,'center');
+    arrow(s,833,y+14,20,14);
+    rect(s,866,y,142,42,C.pale,C.teal,1.5);
+    text(s,'AGENTS.md',872,y+5,130,32,21,C.teal,true,CODE,'center');
+    arrow(s,1019,y+14,20,14);
+    rect(s,1052,y,164,42,C.white,C.line,1.5);
+    text(s,detail,1058,y+3,152,36,23,C.ink,true,FONT,'center');
+   });
+   text(s,'우리 팀에서 먼저 정리할 공통 안내나 상세 정보는 무엇인가요?',64,565,1152,34,28,C.teal,true);
    return s;
   },
   S49(p){
