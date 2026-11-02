@@ -344,10 +344,7 @@
       ]
     },
     "S41": {
-      "lines": [
-        "지침 활용은 기존 CLI 관찰 · 요청과 9개 결과는 발표용 예시",
-        "다른 지침도 함께 적용 · AGENTS.md 단독 효과는 미입증"
-      ],
+      "lines": [],
       "originalLines": [
         "TRIAL-003 · 실제 요청 발췌·번역 / 실행 기록 요약 · Codex CLI 0.154.0",
         "Skills도 실행 · README-only는 Prompt에도 명시 · AGENTS.md 단독 효과·강제 준수 보장은 미입증"

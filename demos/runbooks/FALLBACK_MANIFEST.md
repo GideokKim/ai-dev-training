@@ -1,11 +1,13 @@
 # Static Fallback Manifest
 
-Current: DEC-0119 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0120 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
 S45 now compares shared guidance and task-specific detail; procedure reuse
 remains at S59/ACT3. This teaching diagram is not an observed read order.
-Retain44reference roles and paths. S41 combines historical instruction-use
-evidence with a labeled nine-test teaching example; the original Trial
-remains eleven tests. Other evidence classes are unchanged. Keep S28-S35 as
+Retain44reference roles and paths. S41 now shows the preserved eleven-test
+result under the actual-demo heading, with a reconstructed request/UI.
+Nine remains a historical teaching example, not a relabeled execution.
+Detailed provenance and attribution limits remain in Notes. Other evidence
+classes are unchanged. Keep S28-S35 as
 five core and three conditional prompt tools. Show method/approach names,
 annotated native examples, relationship diagrams and official citations. Fictional team conventions
 are teaching examples, not actual company rules or Trial results.
@@ -15,11 +17,11 @@ in the reports and source history.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`ea85efeed9118cc11a11a6db9365dd9d79440c6bea1271ff86e4fbffe3facc02`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`1faec086cbec84643058fd0933cf8cf68177967d9faf5b0822b7191bb507ae75`.
-- `production/preview/full/montage.png` SHA-256:`15fa33629c5014e78ee66d7c34b3a91e7b5c57fbfeadf613c9ac19aae9722fea`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`b6d670e4681296859ef2d180089865d5e4b48764fb48df692968f4b087ef7332`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`39e8bd8e42e81434b0adbb7f7bd76d6aba3c4ef8af7d2471fe4e42fe8eb8787e`.
+- `production/preview/full/montage.png` SHA-256:`77c8ae67a41d84fd345169a905865711de3ac810783cc6d827c9a8e0144c68ec`.
 
-[Current revision](../../production/evaluation/S41_PROMPT_EXAMPLE_REVISION.md),
+[Current revision](../../production/evaluation/S41_ANNOTATION_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
@@ -33,7 +35,7 @@ in the reports and source history.
 | S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` | 1920×1080 | `eee791361290ec1374cc4456ce66ff3bf7a7b27905c9e912b20838a0091d9e1f` |
 | S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `3b4e59c948761576b151573de7b5f8e2aa45901acce2072b8793d9cb6348d240` |
 | S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` | 1920×1080 | `052e19918e6be443c8699ae2212f02229dbce3a5c15eb96fbe03794193e70940` |
-| S41 | OBSERVED_GUIDANCE_WITH_TEACHING_EXAMPLE | `production/preview/full/S41.png` | 1920×1080 | `754e5d50ebba6d26435d180df6dd438e8a69706b491af14065d98c5de42ce4f4` |
+| S41 | OBSERVED_GUIDANCE_WITH_RECONSTRUCTED_REQUEST | `production/preview/full/S41.png` | 1920×1080 | `f5961a89640f6310eaae2cd045fbf93b053df92cb7d08ba3d1236fcb68954e44` |
 | S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` | 1920×1080 | `26632e6c07918601f19342180eeac05a0e67051e7bf8e43e8bb1a0d4bedf3295` |
 | S50 | RETAINED_DEMO_STATIC | `production/preview/full/S50.png` | 1920×1080 | `1515f2ceffb8119ce9cc0d78f704d66a60c891ead5b15d297ae708b8425212e9` |
 | S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` | 1920×1080 | `b3ce28aa911e520e04fc38afecb02c7cd0ab34ed55525c083464c7a7ea136f0b` |

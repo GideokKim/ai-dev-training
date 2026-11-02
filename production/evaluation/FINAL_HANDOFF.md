@@ -1,5 +1,37 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S41 일곱 주석 반영 — DEC-0120 (2026-11-02)
+
+Prompt 창을 macOS 신호등·전송 버튼이 있는 도식으로 바꾸고 명령 미포함을 강조했다.
+예시 라벨·점선과 하단 주석 두 줄을 삭제하고 요청한 핵심 문장을 표시한다.
+실제 결과 제목에는 기존 TRIAL-003의11/11을 사용한다. 이전9개 예시는 실제 결과로
+재분류하지 않았다. 가운데 지침과 사용자 제공 요청은 유지한다.120장·417분·S41 Demo4분이다.
+
+[수정 S41](../preview/full/S41.png), [통합 PPT](../AI_Dev_Training_Full.pptx),
+[ACT2 PPT](../ACT_2.pptx), [ACT2 Notes](../notes/ACT_2_NOTES.md),
+[현재 검토](S41_ANNOTATION_REVISION.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[사용자 검증](USER_VALIDATION_CHECKLIST.md).
+
+142PNG·19필드 Notes와 가운데 지침 문구/위치/서식/픽셀 보존을 대조했다.
+다른119장 화면/Notes,5개 ACT PPT와 native 근거는 같다. Windows·교육장·제품/계정·
+실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 같다. 아래 기록은 해당 판본의 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `b6d670e4681296859ef2d180089865d5e4b48764fb48df692968f4b087ef7332` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `086ee02f03c68d4f3196b84635cae8142f7aede6601b523916fbc92515f9a0a8` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `96103c384f80f69a308a6dd464280e5a8645c17a02e5498a55e3b23ee014d4d9` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `39e8bd8e42e81434b0adbb7f7bd76d6aba3c4ef8af7d2471fe4e42fe8eb8787e` |
+| `production/notes/ACT_2_NOTES.md` | `d8704facd677c3056f5ef7518d355b3a9933f994038ce82a3ddced9355f77c76` |
+| `production/preview/full/montage.png` | `77c8ae67a41d84fd345169a905865711de3ac810783cc6d827c9a8e0144c68ec` |
+| `production/preview/full/S41.png` | `f5961a89640f6310eaae2cd045fbf93b053df92cb7d08ba3d1236fcb68954e44` |
+
+## 보존된 이전 전달 기록
+
 ## S41 요청·9개 발표용 예시 — DEC-0119 (2026-11-02)
 
 S41 Prompt는 사용자가 제공한 README Test 섹션 생성 요청이며 가운데 작업 지침은

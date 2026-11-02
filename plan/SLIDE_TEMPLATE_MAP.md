@@ -76,7 +76,7 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 | S38 — 필요한 정보를 찾아 쓰게 하기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
 | S39 — 다른 Task에 같은 설명이 반복된다 | T02-B | — | CMP-WORKFLOW | T | DEMO-02 problem framing across three tasks; shared-criteria update question; no result yet | Single state | — | V09 |
 | S40 — 작은 Project Context의 첫 기록 | T07-C | CMP-STATE, CMP-EVIDENCE | CMP-TRIAL | P | DEMO-02 EVIDENCE/state; HYBRID, 4 min | Single state | — | V03, V05 |
-| S41 — AGENTS.md의 지침대로 검증했다 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P+T; observed instruction use plus teaching request/nine-test outcome | DEMO-02; static default, HYBRID unverified; 4 min | DEC-0119: retain guidance; label and dash-frame nine-test example; actual TRIAL-003 remains eleven tests | — | V01, V02, V05 |
+| S41 — AGENTS.md의 지침대로 검증했다 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P+T; historical eleven-test result and reconstructed request/UI | DEMO-02; static default, HYBRID unverified; 4 min | DEC-0120: macOS prompt window; highlighted command omission; retained guidance; actual11/11; remove example/footer labels | — | V01, V02, V05 |
 | S42 — Task Prompt와 Project Context | T03-B | — | CMP-CONTEXT-ROUTER, CMP-CPP | T | — | Single state | Supporting | V08 |
 | S43 — 정확한 정보도 계속 늘어난다 | T04-B | CMP-STATE, CMP-EVIDENCE | — | P | DEMO-06 state-growth evidence callback; Case, not extra Demo time | Single state | — | V03, V10 |
 | S44 — 정확하지만 이번 작업에는 불필요한 정보 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 TRIAL-004 evidence; CAPTURED, 2 min | Single state | — | V02, V05 |

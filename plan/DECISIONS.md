@@ -12127,3 +12127,81 @@ Render and check the final packages, unchanged instruction panel, Notes,
 scoped changes, source identities and preserved119slides; commit and push
 normally. Keep Windows, room, product/account and timed rehearsal unverified.
 Do not change Demo code, States, tags, Sites or paused presenter bundles.
+
+# DEC-0120 — Apply S41 presentation annotations to the observed result
+
+## Status
+
+ACCEPTED — explicit user annotations for the seven presentation changes.
+The actual-result heading uses the preserved eleven-test evidence.
+
+## Date
+
+2026-11-02
+
+## Context
+
+The user requests a macOS prompt window, stronger command-omission text,
+removal of the example label and both footer rows, an actual-demo-result
+heading and a specific takeaway sentence. DEC-0119 previously used nine
+as a teaching example, while the actual TRIAL-003 record has eleven tests.
+
+## Problem
+
+Apply the visual edits without presenting a known teaching count as a real
+execution result or implying guaranteed instruction compliance.
+
+## Decision
+
+Apply all seven annotations. Keep the supplied request and guidance panel.
+Use editable macOS window controls and a send control, highlight the
+external command-omission statement, remove example/footer labels and
+use the requested takeaway. Use the actual eleven-of-eleven PASS record
+under the actual-demo-result heading. Retain request/UI reconstruction
+and attribution limitations in Notes. Do not rewrite the original Trial.
+
+## Rationale
+
+Follow the requested presentation focus while matching the result heading
+to supported data. The earlier nine-test illustration cannot be relabeled
+as the historical result. The requested causal wording describes observed
+use of the test command, not an isolated causal experiment or enforcement.
+
+## Alternatives
+
+Keep nine with an actual-result heading: contradicts preserved evidence.
+Keep the example labels and footers: ignores the requested deletions.
+Run a new Trial: unnecessary and not authorized for this revision.
+
+## Trade-offs
+
+Replace the earlier nine-test illustration with the actual result for
+this screen. The prior DEC-0119 example remains in history; its supplied
+request and instruction-panel preservation remain in force. Put detailed
+provenance and interpretation limits in Notes instead of the two footers.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S41 source/footer, current plans and claim scope, ACT2/Full Notes and
+packages/previews, annotation report, checklist and delivery identities.
+
+## Evidence
+
+Seven user annotations; existing TRIAL-003 eleven-test result. No new run.
+The reconstructed request is not asserted to be the original Trial Prompt.
+
+## Training Relevance
+
+YES — make the distinction between omitted task commands, reusable project
+guidance and observed execution visible without a feature tutorial.
+
+## Follow-up
+
+Render final Full/ACT2 packages; verify each annotation, instruction-panel
+preservation, Notes, timing and remaining119slides. Commit and push normally.
+Keep Windows, room, product/account and timed rehearsal unverified.
+Do not change the Demo repository, Sites or paused presenter bundles.

@@ -285,49 +285,51 @@ Mode Split:
 Demo 4 minutes (HYBRID planned; activation unverified)
 
 Primary Message:
-요청에 테스트 실행 명령을 다시 적는 것과 프로젝트 지침에서 확인하는 것을 구분한다. 기존 TRIAL-003에는 지침의 명령을 사용한 관찰이 있고, 현재 화면의 요청과9개 결과는 발표용 예시다.
+Prompt에는 없지만 AGENTS.md에 의해 테스트를 수행했다. 구체 테스트 명령을 지침에서 참고·사용했다는 기존 관찰을 뜻한다.
 
 Opening Question:
 “요청에 적지 않은 테스트 실행 명령은 어디에서 확인할까요?”
 
 Speaker Flow:
-1. (0:00–1:00) 왼쪽 작업 요청을 읽는다. “README.md에 Test 섹션을 만들어서 테스트 관련 내용 모아줘. README.md만 변경하고 최종 diff, 검증 근거를 보고해줘.” 사용자가 제공한 발표용 문장이며 TRIAL-003 원문 인용이 아니다. 요청 아래의 테스트 명령 미포함 설명은 Prompt 입력의 일부가 아니다.
-2. (1:00–2:00) 가운데 AGENTS.md의 기존 프로젝트 작업 규칙을 그대로 짚는다. 지정된 명령으로 전체 테스트를 실행한다는 지침이다. 기존 TRIAL-003에서는 루트 지침을 확인·출력하고 그 프로젝트 테스트 명령을 실제 사용했다. 파일이 있다는 것과 활용한 기록이 있다는 것을 구분한다.
-3. (2:00–3:00) 오른쪽 점선 프레임과 “검증 예시 / 발표용 예시”를 먼저 가리킨 뒤9/9 PASS를 읽는다.9개는 사용자가 확정한 발표용 구성이며 새 실행 결과가 아니다. 보존된 실제 TRIAL-003은11/11 PASS다. 두 수치를 같은 실행 결과로 설명하지 않는다.
-4. (3:00–4:00) 하단의 실제 지침 활용 메시지를 회수한다. 근거는 기존 CLI 관찰이고 Personal/global Skills도 함께 실행되어 AGENTS.md 단독 효과·강제 준수·자동 로딩을 입증하지 않는다. 예시의 이번 README 요청과 기존 기록에서 참고한 테스트 지침을 Task Prompt/Project Context로 나누는 S42로 이어간다.
+1. (0:00–1:00) macOS 창 형태의 왼쪽 Prompt를 읽는다. 문장은 사용자가 제공한 발표용 재구성이며 보존된 TRIAL-003 원문 인용이 아니다. 신호등과 전송 버튼은 편집 가능한 UI 도식이며 실제 앱 실행 캡처가 아니다. 창 밖에서 강조한 “테스트 실행 명령은 적지 않음”을 짚는다.
+2. (1:00–2:00) 가운데 기존 AGENTS.md 지침을 가리킨다. 지정된 명령으로 전체 테스트를 실행하라는 프로젝트 작업 규칙이다. 이 영역의 문구·위치·서식은 유지한다. 기존 TRIAL-003에서 루트 지침을 확인·출력하고 그 명령을 실제 사용한 기록이 있다.
+3. (2:00–3:00) 오른쪽 “실제 데모에서의 결과”와11/11 PASS를 확인한다. 실제 결과라는 최신 요청에 맞춰 보존된 실행의 수치를 사용한다. 이전9/9는 발표용 예시였고 실제 결과로 바꿔 표시한 것이 아니다. 새 Trial이나 현재 제품 재현은 수행하지 않았다.
+4. (3:00–4:00) 하단 “Prompt에는 없지만 AGENTS.md에 의해 테스트를 수행했다.”를 회수한다. 여기서 없던 것은 구체 테스트 실행 명령이고, 지침의 명령을 실제 사용했다는 관찰을 뜻한다. 강제 준수나 AGENTS.md 단독 인과 효과가 입증됐다는 뜻으로 설명하지 않는다. S42에서 이번 작업 요청과 다시 참고할 프로젝트 지침의 역할을 나눈다.
 
 Evidence / Source:
-TRIAL-003 / STATE-01 / DEMO-02 / OBSERVED_PRODUCT plus TEACHING_MODEL. 실제 관찰은 plan/DEMO_MATRIX.md의 보존된 TRIAL-003이다. 실제 Prompt는 README Test 절의 과거 STATE-00 baseline과 현재 checkout을 구분해 수정하라는 요청이고, 실제 검증 결과는11/11 PASS다. 실제 명령은 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m unittest discover -s tests -v이며 STATE-01 AGENTS.md의 테스트 명령을 사용했다. 보존 STATE-01의 정적 테스트 메서드 수도11개다. 사용자 지시(2026-11-02, DEC-0119)는 화면 Prompt를 위 문장으로 교체하고 발표용 예시를9개로 구성하도록 확정했다. 기존 Trial 원문·결과·지침·State tag는 변경하지 않았다.
+TRIAL-003 / STATE-01 / DEMO-02 / OBSERVED_PRODUCT plus TEACHING_MODEL. 오른쪽 결과는 plan/DEMO_MATRIX.md의 보존된 TRIAL-003에 기록된11/11 PASS다. 실제 원문 요청은 README Test 절의 과거 STATE-00 baseline과 현재 checkout을 구분하도록 수정하라는 내용이다. 실제 명령은 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m unittest discover -s tests -v이며 STATE-01 AGENTS.md의 테스트 명령을 사용했다. 보존 STATE-01의 정적 테스트 메서드 수도11개다. 왼쪽 문장은 사용자가 제공한 발표용 재구성이고 native 창은 실제 제품 캡처가 아니다. DEC-0120은 예시 라벨·하단 주석 제거와 실제 결과 제목이라는 최신 주석을 반영한다. 이전 DEC-0119의9개 예시를 실제 결과로 재분류하지 않고 실제11개 기록을 사용한다. Trial 원문·결과·코드·지침·State/tag는 변경하지 않았다.
+
+발표용 요청 문장: README.md에 Test 섹션을 만들어서 테스트 관련 내용 모아줘. README.md만 변경하고 최종 diff, 검증 근거를 보고해줘.
 
 Claim Boundary:
-기존 지침 활용 관찰과 현재 발표용 요청/검증 예시를 구분한다. 화면의9/9 PASS는 실제 Trial 실행·현재 제품 재현·실제 테스트 개수 정정이 아니다.9개 예시를 이 Prompt의 실제 실행 결과로 인과 연결하지 않는다. 실제 TRIAL-003은11/11이며 Personal readchk/re0/sip도 실행됐다. active instruction-chain trace가 없어 AGENTS.md의 단독 효과·모든 규칙 강제 준수·자동 로딩은 입증되지 않는다. 실제 README-only 제약은 원래 Prompt에도 있었다. 성능·정확도·토큰 절감·현재 Desktop 검증 근거를 추가하지 않는다.
+현재 화면의 왼쪽은 요청 재구성, 오른쪽은 보존된 과거 CLI의11/11 결과다. 이 재구성 문장을 새로 실행해11/11을 얻었다고 설명하지 않는다. “Prompt에는 없지만”은 테스트 실행 명령이 입력에 없다는 뜻이며 검증 근거 보고까지 없었다는 뜻이 아니다. “AGENTS.md에 의해”는 해당 지침의 명령을 실제 참고·사용했다는 관찰로 제한한다. Personal readchk/re0/sip도 실행됐고 active instruction-chain trace가 없어 단독 인과성·자동 로딩·모든 지침의 강제 준수는 미입증이다. 하단 주석을 삭제해도 이 경계는 Notes에 보존한다. 신호등/전송 버튼은 UI 도식이며 현재 Codex 동작·계정·성능·정확도·토큰 효과를 검증한 화면이 아니다.
 
 Beginner Explanation:
-이번 작업과 보고할 결과는 요청에 담고, 프로젝트의 반복 실행 지침은 별도로 참고할 수 있다. 오른쪽 숫자는9개 기준의 발표용 예시다.
+이번 작업 요청에 적지 않은 테스트 실행 명령은 프로젝트 지침에서 확인할 수 있다. 이 과거 Demo에서는 해당 지침의 명령으로 테스트를 실행했다.
 
 Advanced Insight:
-Use the historical CLI run only as evidence that the repository test instruction was used. The revised request and nine-test outcome are teaching examples, not a replacement for the eleven-test execution record or an isolated causal experiment.
+The preserved run supports use of the repository test instruction. It does not isolate its causal effect or prove forced compliance. The user-supplied request and macOS window are reconstructions, while the eleven-test result comes from the historical run.
 
 C++ Vision Bridge:
 N/A.
 
 Demo Operation:
-기존 DEMO-02의4분 안에서 왼쪽 요청→가운데 기존 지침→오른쪽9개 예시를 가리킨다. 기본 경로는 정적 PPT/PNG다. 실제 입력창·터미널 캡처나 현재 Desktop 실행으로 표현하지 않는다. HYBRID 활성화는 UNVERIFIED이며9개 예시를 Live 결과로 재현하려고 새 Trial이나 저장소 변경을 수행하지 않는다.
+기존 DEMO-02의4분 안에서 왼쪽 요청 창→강조한 명령 미포함→가운데 기존 지침→오른쪽 실제11/11 기록을 짚는다. 기본 경로는 정적 PPT/PNG이며 신호등/전송 버튼은 클릭·제품 시연 대상이 아니다. HYBRID 활성화는 UNVERIFIED이고 새 Trial이나 저장소 변경을 수행하지 않는다.
 
 Audience Interaction:
-“테스트 명령을 요청에 넣지 않았는데 어디서 확인할까요?”를 짧게 묻고 가운데 지침을 가리킨다. 별도 실습이나 추가 Q&A 시간을 만들지 않는다.
+창 밖에 강조한 “테스트 실행 명령은 적지 않음”을 먼저 가리키고 “그러면 어느 명령을 실행할지 어디서 확인할까요?”를 짧게 묻는다. 가운데 지침과 오른쪽 기록을 연결한다. 별도 실습이나 추가 시간을 만들지 않는다.
 
 Transition:
-“예시의 이번 README 요청과, 실제 기록에서 다시 참고한 테스트 지침을 Task Prompt와 Project Context의 역할로 정리해 보겠습니다.”라고 S42로 이동한다.
+“이번 README 요청과, 실제 기록에서 다시 참고한 테스트 지침을 Task Prompt와 Project Context의 역할로 정리해 보겠습니다.”라고 S42로 이동한다.
 
 Time Management:
-1분 요청과 입력 밖 설명,1분 기존 지침의 활용 관찰,1분9개 예시와 실제11개 기록의 구분,1분 역할 정리와 S42 연결. Demo4분과 기존 Mode를 유지한다. 실측 리허설은 UNVERIFIED다.
+요청 창/명령 미포함1분, 기존 프로젝트 지침1분, 보존된 실제11/11 결과1분, 핵심 문장과 S42 연결1분으로 Demo4분을 유지한다. 삭제한 하단 주석의 세부 해석을 별도 강의로 늘리지 않는다. 실측 리허설은 UNVERIFIED다.
 
 Fallback:
-production/ACT_2.pptx S41 또는 production/preview/act2/S41.png를 정적 기본 경로로 사용한다. 오른쪽 점선9개 예시와 실제11개 관찰을 구분한다. 현재 검토와 파일 식별자는 production/evaluation/S41_PROMPT_EXAMPLE_REVISION.md 및 FINAL_HANDOFF.md를 따른다. 기존 보존 Trial·실제 캡처·새 실행을 만들거나 교체하지 않는다.
+production/ACT_2.pptx S41 또는 production/preview/act2/S41.png를 정적 기본 경로로 사용한다. 현재 검토·식별자는 production/evaluation/S41_ANNOTATION_REVISION.md와 FINAL_HANDOFF.md를 따른다. 재구성 UI·요청과 기존11개 실행 기록을 구분하고 새 실행·실제 제품 캡처로 표현하지 않는다.
 
 Validation Status:
-DEC-0119 — 사용자 제공 Prompt/9개 발표용 예시, 기존 AGENTS.md 영역 보존, 실제 TRIAL-003의11개 기록,19필드·4분 Demo와 S40→S41→S42 연결을 대조한다. 최종 렌더링/패키지 검증은 production/evaluation/S41_PROMPT_EXAMPLE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
+DEC-0120 — 일곱 주석, 기존 AGENTS.md 영역, 실제11/11 기록,19필드·4분 Demo와 S40→S41→S42 연결을 대조한다. 최종 렌더링/패키지 검증은 production/evaluation/S41_ANNOTATION_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
 
 ## S42 — Task Prompt와 Project Context
 
