@@ -67,32 +67,29 @@ export async function loadAct2ContinuitySlides(root) {
    return s;
   },
   S40(p){
-   const s=make(p,'S40','AI가 필요한 코드를 찾았다는 것을\n무엇으로 확인할까?','ACT 2 · 코드 탐색의 결과를 근거로 확인',
-    '교육용 확인 예 · STATE-00-FIXED crop 발췌',
-    '세 질문은 교육용 기준 · 코드 발췌는 새 Agent 탐색 결과가 아님','TEACHING_MODEL');
-   text(s,'확인할 작업 요청',64,222,452,32,25,C.ink,true);
-   text(s,'업무용 확인 질문',576,222,640,32,25,C.teal,true);
-   const request=rect(s,64,265,452,88,C.white,C.line,1.5);request.borderRadius=10;
-   text(s,'crop 끝 좌표를 제외하는\n구현을 찾아줘.',84,274,412,68,27,C.ink,true);
-   down(s,278,358,24,18);
-   rect(s,64,384,452,132,C.ink);
-   text(s,'기존 crop 구현의 일부',84,391,412,30,24,C.white,true);
-   text(s,'src/graypipe/transform.py',84,427,412,28,24,C.line,false,CODE);
-   text(s,'row[x_start : x_end]',84,466,412,36,28,C.white,true,CODE);
-   text(s,'발췌 · 새 Agent 탐색 기록 아님',64,523,452,28,22,C.sub);
-   arrow(s,532,415,26,20);
-   const questions=[
-    ['01','위치를 특정했나?','파일 경로 · 함수 · 관련 줄',270],
-    ['02','요청한 동작과 맞나?','끝 좌표 제외 명세와 코드를 대조',368],
-    ['03','주변 근거도 맞나?','필요한 호출부·테스트 기대값 확인',466]
-   ];
-   questions.forEach(([num,title,detail,y],i)=>{
-    text(s,num,576,y,45,36,26,C.teal,true,CODE);
-    text(s,title,634,y,582,36,29,C.ink,true);
-    text(s,detail,634,y+42,582,34,25,C.sub);
-    if(i<2)line(s,576,y+80,640);
+   // DEC-0123: this retained S40 factory maps to current S47.
+   const s=make(p,'S40','내가 준 Context를 답에 제대로 반영했을까?','ACT 2 · 제공한 정보와 답의 대응',
+    'STATE-03 crop 명세 기반 교육용 질문·답변 예시',
+    '새 Trial·실제 Agent 응답·내부 활용의 인과적 입증이 아님','TEACHING_MODEL');
+   text(s,'내가 제공한 정보',64,204,478,38,30,C.ink,true);
+   text(s,'답변 예시',652,204,564,38,30,C.ink,true);
+   rect(s,64,262,478,116,C.pale,C.teal,1.5);
+   text(s,'Context · 명세',84,270,438,30,24,C.teal,true);
+   text(s,'시작 열은 포함한다.',84,305,438,32,28,C.ink,true);
+   text(s,'끝 열은 제외한다.',84,339,438,32,28,C.teal,true);
+   prompt(s,64,400,478,144,'작업 요청','너비 6인 이미지에서 crop 2 5의\n포함 열과 출력 폭을 알려줘.');
+   text(s,'포함되는 원본 열',652,263,564,34,26,C.sub,true);
+   [2,3,4,5].forEach((column,i)=>{
+    const x=652+i*108,excluded=column===5;
+    rect(s,x,307,94,72,excluded?C.bg:C.pale,excluded?C.line:C.teal,1.5,excluded?'dash':'solid');
+    text(s,String(column),x,315,94,56,38,excluded?C.sub:C.teal,true,CODE,'center');
    });
-   text(s,'확인할 근거를 정했다면, 어디서 찾게 할까?',64,559,1152,43,28,C.teal,true);
+   text(s,'끝 열 5는 제외',976,388,240,34,26,C.teal,true);
+   arrow(s,578,329,38,24);
+   text(s,'출력 폭',652,449,120,38,28,C.ink,true);
+   text(s,'3',784,437,60,60,48,C.teal,true,CODE,'center');
+   text(s,'5 − 2 = 3',874,451,342,36,28,C.sub,false,CODE);
+   text(s,'제공한 조건과 답의 결론을 직접 대조한다.',64,562,1152,42,32,C.teal,true);
    return s;
   },
   S41(p){

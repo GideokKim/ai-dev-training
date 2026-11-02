@@ -1214,37 +1214,37 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Beginner Payoff:** 긴 Context가 곧 동일한 활용을 보장한다고 가정하지 않는다.
 - **Advanced Payoff:** 연구 결과의 대상·조건과 현재 제품 주장을 분리한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** Lost in the Middle의 위치 비교 과제·조건·제한된 관찰만 설명한다. S47에서는 연구 소개를 반복하지 않고 필요한 코드에 도달했다는 답을 어떤 근거로 확인할지 업무 질문으로 이어간다.
-- **Transition:** “코드에서도 필요한 구현을 찾았다는 답을 무엇으로 확인할까요?”
+- **Speaker Intent:** Lost in the Middle의 과제·조건·제한된 관찰은 그대로 설명한다. 화면의 업무 질문을 받아 S47에서 내가 제공한 명세의 조건과 답의 결론을 대조하도록 연결한다. 연구가 이 확인 방식이나 현재 Codex를 검증한 것으로 확대하지 않는다.
+- **Transition:** “내가 제공한 Context의 조건이 답에 반영됐는지는 어떻게 확인할까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-013, OQ-006, CLM-0014, SRC-0201, DEC-0052, DEC-0060
 - **Audience Footer:** Lost in the Middle(2024) · 특정 연구 과제 결과 / 현재 Codex의 성능을 평가한 결과는 아님
 
-#### S47 — AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?
+#### S47 — 내가 준 Context를 답에 제대로 반영했을까?
 
 - **Slide ID:** S47
 - **ACT:** ACT 2
 - **Section:** 2E
-- **Working Title:** AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?
-- **Primary Role:** 코드 탐색 결과를 파일 위치·요청과의 동작 일치·필요한 주변 근거로 확인하는 업무 질문을 제시한다. RepoQA는 Notes/참고 자료에만 보존한다.
-- **Audience Question:** “AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?”
-- **Core Message:** 함수 이름이나 찾았다는 답만 받지 말고 파일·함수·관련 줄, 요청 조건과 코드의 대응, 필요한 호출부·테스트 기대값을 확인한다. 세 질문은 이 교육의 업무용 확인 기준이다.
+- **Working Title:** 내가 준 Context를 답에 제대로 반영했을까?
+- **Primary Role:** 내가 제공한 Context의 조건과 답변의 결론을 눈에 보이게 대조한다. 이전 코드 탐색 질문과 RepoQA는 Notes의 선택 참고로 보존한다.
+- **Audience Question:** “내가 준 Context를 답에 제대로 반영했을까?”
+- **Core Message:** 제공한 조건과 답의 결론을 직접 대조한다. 명세를 확인했다는 말이나 출처 이름만으로 조건 반영을 확정하지 않는다.
 - **Story Beat:** BEAT-013 — Long-context research supports a bounded caution
-- **Curriculum Trace:** ACT 2 — bounded research caution to task-specific code evidence, then navigation design.
+- **Curriculum Trace:** ACT 2 — bounded research caution → supplied condition/answer correspondence → location guidance for relevant detail.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — 업무용 확인 질문과 보존된 crop 구현 발췌. 새로운 탐색 실행·정확도·성능·토큰 효과나 현재 Codex 동작을 주장하지 않는다. RepoQA의 제한된 연구 범위는 Notes의 관련 연구로 보존하며 세 질문의 직접 검증 근거로 사용하지 않는다.
-- **Visual Concept:** 왼쪽 교육용 crop 요청에서 보존된 구현 일부로 연결하고, 오른쪽에 위치/요청한 동작/주변 근거라는 세 확인 질문을 둔다. 코드 발췌는 새 Agent 탐색 결과가 아니다. RepoQA 설명 영역과 연구 footer는 화면에서 빼고 하단에 “확인할 근거를 정했다면, 어디서 찾게 할까?”로 S48을 연결한다. 연구 서지·과제·조건·한계는 Notes와 references/research/repoqa.md에 보존한다.
-- **Demo / Case Connection:** STATE-00-FIXED의 src/graypipe/transform.py, crop 일부 row[x_start : x_end]를 기존 사례의 교육용 확인 예로 인용한다. 실제 파일 경로·코드 한 줄을 인용한 것이며 이 요청을 실행하거나 Agent가 이번에 찾았다는 관찰이 아니다. 새 Trial·테스트·PASS/FAIL을 만들지 않는다.
-- **Beginner Payoff:** 찾았다는 답에서 구체적인 위치와 관련 코드를 확인하는 질문을 가져간다.
-- **Advanced Payoff:** 코드 위치의 특정, 요청 의미와의 대응, 필요한 연결 근거를 구분하며 검색 연구와 실제 Agent 업무 평가를 혼동하지 않는다.
+- **Claim Status:** TEACHING MODEL — 기존 crop 명세에 따른 교육용 요청·답변 대조. 실제 Agent 응답·새 Trial·테스트 결과·내부 활용의 인과적 증명·정확도·Routing/성능/토큰 효과 또는 현재 Codex 동작을 주장하지 않는다. 기존 연구·코드·State/Trial 범위는 Notes에서 유지한다.
+- **Visual Concept:** 왼쪽에는 시작 열 포함·끝 열 제외 명세와 너비6/crop 2 5 요청을 나눠 놓고, 오른쪽에는 답변 예시의 포함 열2·3·4/끝5 제외/출력 폭3을 편집 가능한 열 셀과5−2=3으로 보여준다. 끝 열 제외 조건과 답의5 제외를 같은 색으로 대응시킨다. 하단은 제공한 조건과 답의 결론을 직접 대조한다는 한 문장이다. 답변 예시 라벨로 실제 응답과 구분하며 RepoQA를 화면에 다시 넣지 않는다.
+- **Demo / Case Connection:** STATE-03 docs/image-contracts.md의 Crop 절을 한국어로 요약한다. 너비6/crop 2 5와 답변은 교육용 구성이고 실제 TRIAL-005A/B의 요청·답변이나 새 실행 결과가 아니다. 이전 STATE-00-FIXED/TRIAL-002 코드 인용·세 확인 질문은 Notes의 선택 참고로 보존한다.
+- **Beginner Payoff:** 제공한 조건을 답의 범위·계산에 직접 대조하는 확인 방법을 얻는다.
+- **Advanced Payoff:** 정보 제공·읽기 보고·출처 표시·출력의 조건 일치·내부 인과를 구분한다. 이 장은 외부에서 확인 가능한 답의 일관성에 집중한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S46의 정보 존재/활용 구분을 코드 확인 질문으로 회수한다. 기존 crop 한 줄을 요청 명세에 대조하고 필요한 호출부·테스트 기대값까지 확인하도록 한다. 한 줄만으로 전체 구현의 정당성을 확정하지 않는다. 정규 설명에서 RepoQA 소개를 생략하며 선택 질문이 있을 때 Notes의 관련 연구를 안내한다. 같은4분 안에서 코드 확인과 S48 연결에 집중한다.
-- **Transition:** “확인할 근거를 정했다면, 그 명세와 코드를 어디서 찾게 할까요?”
+- **Speaker Intent:** S46의 정보 존재/활용 질문을 제공한 명세와 답변의 대응으로 회수한다. 명세·요청·답을 차례로 짚고5 제외와 폭3을 대조한다. 명세 자체나 코드 탐색을 다시 강의하지 않는다. 같은4분 안에서 상세 명세를 필요한 작업에서 찾게 할 방법이라는 S48 질문으로 연결한다.
+- **Transition:** “이런 상세 명세를 필요한 작업에서 어디서 찾아보게 할까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-013, OQ-006, STATE-00-FIXED, TRIAL-002 (existing crop implementation only), DEC-0052, DEC-0060, DEC-0061, DEC-0105; related research in Notes only: CLM-0015, SRC-0204
-- **Audience Footer:** 없음 — M 연계 표시는 유지; 코드 발췌/새 탐색 기록 아님은 본문에 유지
+- **Evidence / Decision References:** BEAT-013, OQ-006, STATE-03 docs/image-contracts.md Crop, DEC-0052, DEC-0060, DEC-0061, DEC-0105, DEC-0123; prior code/Trial references retained in Notes: STATE-00-FIXED, TRIAL-002; related research in Notes only: CLM-0015, SRC-0204
+- **Audience Footer:** 없음 — M 연계 표시는 유지; 답변 예시 라벨은 본문에 표시
 
 #### S48 — 필요한 상세 정보로 가는 길
 
@@ -1264,7 +1264,7 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Beginner Payoff:** Project 안내와 Task별 상세 정보가 다른 역할을 할 수 있음을 본다.
 - **Advanced Payoff:** 관련 문서로 연결하는 방식의 발견성·유지 비용을 다음 문제로 본다.
 - **C++ Vision Bridge:** 작은 예 하나로 일반 Project 제약과 Task별 CMake 또는 알고리즘 계약을 구분한다. CMake·hardware 항목을 나열하지 않고 세부 Bridge는 다음 구간에 이어간다.
-- **Speaker Intent:** S47에서 정한 코드 탐색 결과의 확인 질문을 회수하고, 이제 그 명세와 구현에 도달할 경로를 설계한다. 질문·기본 안내·관련 상세를 구분하며 앞 장의 확인 기준이나 연구 소개를 반복하지 않는다. 다음 배치 기준/실제 파일 재구성은 미리 해설하지 않는다.
+- **Speaker Intent:** S47에서 직접 제공한 명세와 답을 대조했음을 회수하고, 이제 이런 상세 명세에 필요한 작업이 도달할 경로를 설계한다. 기존 질문·기본 안내·상세 근거 화면과 실제 읽기 순서가 아니라는 경계를 유지한다. 앞 장의 대조나 연구 소개·다음 배치 기준을 반복하지 않는다.
 - **Transition:** “그렇다면 기본 안내와 상세를 나눌 기준은 무엇일까요?”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분

@@ -2848,17 +2848,17 @@ Opening Question: “같은 근거가 입력의 어디에 있느냐에 따라 �
 Speaker Flow:
 1. (0:00–1:00) 문서 QA와 합성 key-value 검색 과제에서 같은 근거의 위치를 바꾸는 질문을 설명한다.
 2. (1:00–3:00) 앞/중간/뒤 도식을 가리키고 당시 일부 모델·과제에서 중간 근거 정답률이 낮아진 관찰을 말한다. 수치 없는 구조 그림을 실제 성능 곡선으로 말하지 않는다.
-3. (3:00–4:00) 현재 Codex의 일반 실패나 Routing 효과로 확대하지 않는다. 마지막에 필요한 코드에 도달했다는 답을 어떤 근거로 확인할지 S47으로 넘긴다.
+3. (3:00–4:00) 현재 Codex의 일반 실패나 Routing 효과로 확대하지 않는다. 오른쪽 업무 질문을 회수하고 “내가 제공한 Context의 조건이 답에 반영됐는지는 어떻게 확인할까요?”로 S47의 명세·답변 대조에 넘긴다.
 
 Evidence / Source: Lost in the Middle, Liu et al., TACL2024,12:157–173; https://aclanthology.org/2024.tacl-1.9/; CLM-0014/SRC-0201; DEC-0052/0060. Reconstructed task-position diagram, no numeric score curve.
 
 보존된 상세 출처: Liu et al., TACL 2024 · aclanthology.org/2024.tacl-1.9/ · CLM-0014
 
-Claim Boundary: Lost in the Middle의 역사적 모델·과제·조건에 한정한다. 현재 Codex의 실패율, 보편적인 중간 정보 무시, 토큰 임계값, 정보를 더 주면 항상 나빠짐, Routing 우월성·토큰/성능 효과를 주장하지 않는다. 연구의 위치 비교와 실제 코드 탐색 결과 확인은 서로 다른 질문이다.
+Claim Boundary: Lost in the Middle의 역사적 모델·과제·조건에 한정한다. 현재 Codex의 실패율, 보편적인 중간 정보 무시, 토큰 임계값, 정보를 더 주면 항상 나빠짐, Routing 우월성·토큰/성능 효과를 주장하지 않는다. 연구의 위치 비교와 제공한 명세·답변의 대조는 서로 다른 질문이다. 연구가 이 교육용 확인 방식의 효과를 직접 검증했다는 뜻이 아니다.
 
 보존된 상세 범위: 연구 과제 재구성 · 현재 Codex의 실패율·보편 한계·Routing 효과를 입증하지 않음
 
-Beginner Explanation: 정보가 입력에 있다는 사실만으로 답에 같은 수준으로 활용됐다고 가정하지 않는다. 다음 장에서는 코드 탐색 결과를 확인할 때 어떤 근거를 요구할지 생각한다.
+Beginner Explanation: 정보가 입력에 있다는 사실만으로 답에 같은 수준으로 활용됐다고 가정하지 않는다. 다음 장에서는 내가 준 조건과 실제 답의 결론을 어떻게 대조할지 생각한다.
 
 Advanced Insight: 당시 연구의 과제·모델별 결과와 이번 업무의 교육용 확인 기준을 분리한다. 현재 제품의 내부 활용이나 효과를 이 연구로 확정하지 않는다.
 
@@ -2866,24 +2866,24 @@ C++ Vision Bridge: N/A.
 
 Demo Operation: N/A. 논문 과제의 native 재구성 도식이며 실제 Trial/현재 Codex Screenshot이나 결정론적 실패 Demo가 아니다.
 
-Audience Interaction: 같은 근거의 위치만 바꾼 세 입력을 차례로 가리킨다. 다음 장의 코드 확인 질문은 예고만 하고 연구 둘을 병렬로 다시 설명하지 않는다.
+Audience Interaction: 같은 근거의 위치만 바꾼 세 입력을 차례로 가리킨다. 다음 장에서 제공한 명세와 답변을 대조할 질문은 예고만 하고 연구 둘을 병렬로 다시 설명하지 않는다.
 
-Transition: “코드에서도 필요한 구현을 찾았다는 답을 무엇으로 확인할까요?”
+Transition: “내가 제공한 Context의 조건이 답에 반영됐는지는 어떻게 확인할까요?”
 
 Time Management: 도입/과제1분, 위치 비교/관찰2분, 적용 한계/다음 질문1분으로 Lecture4분. RepoQA 설명 시간을 이 장에 다시 넣지 않는다.
 
 Fallback:
 LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S46; production/preview/act2/S46.png. 코드·연구 도식은 표시된 교육용/발췌 범위다. 최종 패키지·PNG·Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md를 따른다. 실제 실행 캡처나 현재 제품 실행을 뜻하지 않는다.
 
-Validation Status:
-REVIEWED — DEC-0061의 질문·기존 코드 인용·보조 연구·S46/S45 운영 연결을 대조했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md에 기록한다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
+Validation Status: DEC-0123 — 연구 본문·출처·조건·범위·4분 배정은 유지하며 S47 연결 Cue만 명세·답변 대조로 정렬한다. 최종 결과는 production/evaluation/S47_CONTEXT_USE_REVISION.md를 따른다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
 
-## S47 — AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?
+
+## S47 — 내가 준 Context를 답에 제대로 반영했을까?
 
 Slide ID:
 S47
 
-Working Title: AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?
+Working Title: 내가 준 Context를 답에 제대로 반영했을까?
 
 ACT / Section: ACT 2 / 2E
 
@@ -2891,45 +2891,43 @@ Allocated Time: 4 minutes
 
 Mode Split: Lecture 4 minutes
 
-Primary Message: 함수 이름이나 찾았다는 답만 받지 말고 파일·함수·관련 줄, 요청 조건과 코드의 대응, 필요한 호출부·테스트 기대값을 확인한다. 세 질문은 이 교육의 업무용 확인 기준이다.
+Primary Message: 제공한 조건과 답의 결론을 직접 대조한다.
 
-Opening Question: “AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까?”
+Opening Question: “명세를 확인했다는 답을 받으면, 조건도 제대로 반영됐다고 볼 수 있을까요?”
 
 Speaker Flow:
-1. (0:00–0:40) S46의 “정보가 있다는 것과 활용했다는 것은 다르다”를 받아, 코드에서도 찾았다는 답을 무엇으로 확인할지 묻는다. 왼쪽 요청은 교육용이며 새 탐색 실행이 아니다.
-2. (0:40–1:20) 01 위치: 파일 경로·함수·관련 줄을 특정한다. 이름만 같은 함수나 파일 경로만 제시한 답으로는 요청과의 관련성을 확인하기 어렵다.
-3. (1:20–2:20) 02 동작: 보존된 row[x_start : x_end]를 끝 좌표 제외 명세와 대조한다. 새 코드 실행이나 전체 구현 검증을 했다고 말하지 않는다.
-4. (2:20–3:20) 03 주변 근거: 필요한 호출부와 테스트 기대값을 연결해 확인하도록 요청한다. 한 코드 줄만으로 전체 구현의 정당성을 확정하지 않는다. 새로운 호출부·테스트 결과는 만들지 않는다.
-5. (3:20–4:00) 아래의 “확인할 근거를 정했다면, 어디서 찾게 할까?”를 가리킨다. S48의 요청→기본 안내→상세 명세 경로로 넘긴다. RepoQA는 선택 참고이며 정규 발표 흐름에서 소개하지 않는다.
+1. (0:00–0:30) S46의 “넣어준 정보를 실제 답의 근거로 썼는가?”를 회수한다. 이번 장은 제공한 조건과 답의 대응을 확인하는 교육용 예시다.
+2. (0:30–1:10) 왼쪽 Context와 요청을 구분해 읽는다. 명세는 시작 열 포함·끝 열 제외다. 이번 질문은 너비6인 이미지의 crop 2 5에 포함되는 원본 열과 출력 폭이다.6은 원본 너비이며 요청 좌표2와5와 구분한다.
+3. (1:10–2:30) 오른쪽에서 원본 열2·3·4가 포함되고 끝 열5는 제외되는 모습을 가리킨다. 왼쪽의 끝 열 제외 조건과 오른쪽의5 제외 표기를 같은 색으로 대조한다. 폭3은5−2=3과 맞는다. 이 답변은 명세로 구성한 예시이며 새 Agent 실행·TRIAL-005A의 응답이 아니다.
+4. (2:30–3:20) “명세를 확인했습니다”라는 말이나 문서 이름만으로는 조건 반영을 판단하지 않는다. 실제 답의 포함 범위와 계산이 제공한 명세와 맞는지 확인한다. 이 대조가 모델 내부에서 그 정보만을 원인으로 사용했다는 증명은 아니다. 출력의 일치와 내부 인과를 구분한다.
+5. (3:20–4:00) 하단의 “제공한 조건과 답의 결론을 직접 대조한다”를 회수한다. “그렇다면 이런 상세 명세를 필요한 작업에서 어디서 찾아보게 할까요?”로 S48의 요청·위치 안내·상세 근거에 연결한다. 이전 코드 탐색 세 질문과 RepoQA는 선택 참고로 남긴다.
 
-Evidence / Source: 화면은 TEACHING_MODEL. 관련 연구는 Notes/참고 자료에만 보존한다. 코드 출처: Demo STATE-00-FIXED의 src/graypipe/transform.py, crop 6–16행 중13행 row[x_start : x_end] 발췌. 동일한 구현 수정은 기존 TRIAL-002/STATE-00-FIXED 기록에 보존돼 있다. 교육용 요청은 구성 예이며 새 탐색 실행이나 원문 Trial Prompt가 아니다. 선택 참고 연구: RepoQA(2024), https://arxiv.org/abs/2406.06025 / CLM-0015 / SRC-0204. DEC-0061/DEC-0105. 참고 해설: references/research/repoqa.md. 정규 발표에서는 연구 소개를 생략하며 이 자료를 세 업무용 질문의 직접 검증 근거로 사용하지 않는다.
+Evidence / Source: TEACHING_MODEL / CONCEPTUAL. STATE-03의 docs/image-contracts.md Crop 절은 [x_start, x_end), 시작 열 포함·끝 좌표 제외 및 유효 범위0 <= x_start < x_end <= image width를 정의한다. 화면의 한국어 명세는 이 문서의 요약이다. 너비6/crop 2 5 요청과 포함 열2·3·4/폭3 답변은 이 명세에 맞춰 구성한 교육용 예시이며 실제 Agent 요청·답변 원문, 새 Trial, 실행 결과가 아니다. DEC-0123. 기존 BEAT-013, OQ-006, DEC-0052/0060/0061/0105와 선택 참고 CLM-0015/SRC-0204를 보존한다. 선택 참고 서지: RepoQA(2024), https://arxiv.org/abs/2406.06025; references/research/repoqa.md. 원래 구현 근거인 STATE-00-FIXED/src/graypipe/transform.py의 crop13행 row[x_start : x_end]와 TRIAL-002는 아래 선택 참고로 유지한다. 실제 TRIAL-005A/B의 접근·답변 기록은 기존 후속 구간에서 다룬다.
 
-보존된 상세 출처: 교육용 확인 예 · STATE-00-FIXED crop 발췌 / RepoQA(2024): arxiv.org/abs/2406.06025
+Claim Boundary: 제공한 명세와 답변의 결론이 일치하는지 확인하는 교육용 모델이다. 새 Agent 실행, 실제 응답 캡처, 테스트 PASS/FAIL, 내부 정보 활용의 인과적 증명, Context 우월성, Routing 효과, 토큰 절약 또는 현재 Codex 동작을 주장하지 않는다. 답이 명세와 맞는다는 사실만으로 전체 코드의 정확성이나 구현·테스트 완료를 확정하지 않는다. Lost in the Middle과 RepoQA가 이 확인 방식의 효과를 직접 검증했다고 설명하지 않는다. 기존 실제 코드·State/Trial·연구 범위는 변경하지 않는다.
 
-Claim Boundary: 세 확인 질문은 이 교육의 업무용 모델이며 공식 제품 규칙이나 RepoQA의 평가 rubric이 아니다. 기존 코드 발췌는 실제 Agent가 이번 요청에서 찾았다는 증거가 아니다. RepoQA의 함수 검색 결과는 현재 Codex의 탐색·수정·도구·테스트 전체를 검증하지 않으며, Routing 우월성·토큰 절약·성능 개선을 입증하지 않는다. 한 코드 줄만으로 전체 계약/구현 정당성을 판단하지 않는다.
+Beginner Explanation: 정보를 전달했다면, 답에서도 그 조건을 지켰는지 눈에 보이는 결과와 대조한다. 끝 열을 제외하라고 했으므로5는 빠져야 하고, 남은2·3·4의 폭은3이어야 한다.
 
-보존된 상세 범위: 세 질문은 교육용 기준 · RepoQA가 이 Routing·현재 Codex의 업무 성능을 검증한 것은 아님
+Advanced Insight: 외부에서 확인하는 것은 제공한 조건과 답의 일관성이다. 읽기 로그·자기 보고·출처 표시는 참고 근거이며, 특정 Context가 내부 판단의 유일한 원인이었다는 인과적 증명과 구분한다. 필요한 경우 사용한 명세 구절과 결론의 대응을 짧게 요청한다. 내부 사고 과정 전체를 요구하는 장이 아니다.
 
-Beginner Explanation: 찾았다는 답을 받으면 파일 위치와 관련 코드를 확인하고, 내가 물은 조건에 맞는지 대조한다. 필요한 경우 호출부와 관련 테스트의 기대값도 확인한다.
+보존된 코드 탐색 확인 질문(선택 참고): 위치를 특정했나(파일 경로·함수·관련 줄), 요청한 동작과 맞나(명세와 코드 대조), 주변 근거도 맞나(필요한 호출부·테스트 기대값). 실제 코드 인용: STATE-00-FIXED의 src/graypipe/transform.py crop6–16행 중13행 row[x_start : x_end]. 새 탐색 실행이 아니며 한 줄만으로 전체 구현의 정당성을 확정하지 않는다. 이 내용은 정규4분 흐름에서 추가로 강의하지 않는다.
 
-Advanced Insight: 선택 참고(정규 발표 제외). 보존할 연구 조건: RepoQA는 자연어 기능 설명+코드 입력에서 해당 함수 코드를 반환하게 하고 정답 함수와 유사도를 비교한 함수 검색 과제다.50개 저장소/5개 언어/500개 과제, 주 평가 코드 입력16K(CodeLlama tokenizer 기준)는 실험 조건이며 전체 Prompt 길이나 현재 Codex 한도가 아니다. 모델·언어별 함수 찾기 성능 차이를 관찰한 범위이고 Lost in the Middle의 위치별 곡선을 재현한 연구가 아니다. 이 세 업무용 질문의 효과를 측정한 연구로 설명하지 않는다.
+보존된 RepoQA 참고: 선택 참고(정규 발표 제외). 보존할 연구 조건: RepoQA는 자연어 기능 설명+코드 입력에서 해당 함수 코드를 반환하게 하고 정답 함수와 유사도를 비교한 함수 검색 과제다.50개 저장소/5개 언어/500개 과제, 주 평가 코드 입력16K(CodeLlama tokenizer 기준)는 실험 조건이며 전체 Prompt 길이나 현재 Codex 한도가 아니다. 모델·언어별 함수 찾기 성능 차이를 관찰한 범위이고 Lost in the Middle의 위치별 곡선을 재현한 연구가 아니다. 이 세 업무용 질문의 효과를 측정한 연구로 설명하지 않는다. 서지와 해설은 references/research/repoqa.md에 유지한다. 화면에는 다시 넣지 않는다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A — 정적 교육용 확인 예. 보존된 코드 한 줄을 인용하며 새 Trial, 검색, 설치, 테스트 실행, PASS/FAIL, 실제 Agent 응답 캡처를 만들지 않는다.
+Demo Operation: N/A — 정적 교육용 명세·요청·답변 대조다. 셀은 원본 열 번호이며 실제 이미지 픽셀 값이나 실행 화면이 아니다. 새 Trial·테스트·검색·제품 조작을 수행하지 않는다. 답변 예시를 실제 Agent 응답 또는 후속 TRIAL-005A로 설명하지 않는다.
 
-Audience Interaction: “crop 함수입니다라는 이름만 받으면 충분할까요?”를 짧게 던진 뒤 오른쪽 세 질문을 순서대로 가리킨다. 추가 실습·Q&A·소요 시간을 만들지 않는다.
+Audience Interaction: “끝 열을 제외한다는 조건은 답의 어디에서 확인할까요?”를 짧게 묻고5 제외와 폭3을 가리킨다. 새 실습·Q&A·별도 비교 실험을 추가하지 않는다.
 
-Transition: “확인할 근거를 정했다면, 그 명세와 코드를 어디서 찾게 할까요?”
+Transition: “이런 상세 명세를 필요한 작업에서 어디서 찾아보게 할까요?”
 
-Time Management:
-Lecture4분 유지. S46 연결40초, 위치 확인40초, 명세·코드 대응60초, 주변 근거60초, S48 연결40초. 논문 소개 시간을 추가하지 않는다. 청중 질문이 있을 때만 선택 참고 자료를 안내하며 별도 강의나 새 실험으로 확장하지 않는다. 실제 리허설 UNVERIFIED.
+Time Management: S46 연결30초, Context/요청 구분40초, 명세와 답의 대조80초, 확인의 의미50초, S48 연결40초로 Lecture4분을 유지한다. 명세 교육·코드 탐색·RepoQA 소개를 다시 강의하지 않는다. 실제 리허설 UNVERIFIED.
 
-Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S47; production/preview/act2/S47.png. 화면은 코드 발췌와 교육용 확인 질문이며 실제 Agent 탐색 실행 캡처가 아니다. 현재 PNG/Notes 대조는 production/evaluation/S47_CODE_CHECK_REVISION.md를 따른다. RepoQA는 Notes와 references/research/repoqa.md의 선택 참고다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S47 또는 production/preview/act2/S47.png. 명세 기반 교육용 답변 예시로 사용한다. 현재 검토와 파일 식별자는 production/evaluation/S47_CONTEXT_USE_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
 
-Validation Status:
-DEC-0105 — S46→S47→S48 연결, 화면의 세 확인 질문, 코드 출처와 Notes의 관련 연구 경계를 대조한다. 최종 렌더링/패키지 결과는 production/evaluation/S47_CODE_CHECK_REVISION.md에 기록한다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
+Validation Status: DEC-0123 — S46 정보 제공/활용 질문→S47 제공 조건/답변 대조→S48 상세 명세 위치 안내로 정렬한다.19필드·Lecture4분·기존 근거 경계를 유지한다. 최종 렌더링/패키지/내장 Notes 결과는 production/evaluation/S47_CONTEXT_USE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
+
 
 ## S48 — 필요한 상세 정보로 가는 길
 
@@ -2948,7 +2946,7 @@ Primary Message: 작업 질문에서 관련 상세 명세까지 도달할 위치
 
 Opening Question: “이 요청은 어떤 문서를 근거로 답해야 할까?”
 
-Speaker Flow: 1. (0:00–0:30) “앞 장에서 위치·동작·주변 근거를 확인할 질문을 정했습니다. 이제 그 근거를 어디서 찾게 할까요?”로 시작한다.
+Speaker Flow: 1. (0:00–0:30) “앞 장에서는 직접 제공한 명세와 답을 대조했습니다. 이제 이런 상세 명세를 필요한 작업에서 어디서 찾아보게 할까요?”로 시작한다.
 2. (0:30–2:10) 요청→AGENTS.md 위치 안내→관련 상세 명세의 관계만 가리킨다. 이 그림은 설계 경로이며 실제 읽기 순서가 아니다.
 3. (2:10–3:00) C++ 알고리즘 명세에도 같은 위치 안내 패턴을 짧게 연결하고 다음 장의 기본 안내/상세 배치 기준으로 넘긴다.
 
@@ -2978,8 +2976,8 @@ Time Management: 도입30초, 관계도100초, C++ 패턴과 다음 질문50초�
 Fallback:
 LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S48; production/preview/act2/S48.png. 코드·연구 도식은 표시된 교육용/발췌 범위다. 최종 패키지·PNG·Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md를 따른다. 실제 실행 캡처나 현재 제품 실행을 뜻하지 않는다.
 
-Validation Status:
-REVIEWED — DEC-0061의 질문·기존 코드 인용·보조 연구·S46/S45 운영 연결을 대조했다. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md에 기록한다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
+Validation Status: DEC-0123 — S47의 명세·답변 대조를 회수하도록 도입 Cue를 정렬한다. 기존 요청·AGENTS.md 위치 안내·상세 명세 화면과3분 배정·근거 범위는 유지한다. 최종 결과는 production/evaluation/S47_CONTEXT_USE_REVISION.md를 따른다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
+
 
 ## S49 — AGENTS.md에는 무엇을 남길까?
 

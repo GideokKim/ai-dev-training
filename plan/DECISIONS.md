@@ -12340,3 +12340,75 @@ YES — make the question leading into evidence utilization easy to locate.
 Render and check the question region, preserve the other119slides and
 verify current file identities. Keep real presentation gates unverified.
 Do not change the Demo repository, Sites or presenter bundles.
+
+# DEC-0123 — Make S47 compare supplied context with its answer
+
+## Status
+
+ACCEPTED — explicit user approval of the proposed S47 revision.
+
+## Date
+
+2026-11-02
+
+## Context
+
+S46 asks whether supplied information is used in an answer. S47 previously
+moves into code-search checks, weakening the connection to that question.
+
+## Problem
+
+Make the supplied condition and its application visible on the slide.
+Keep the following navigation-design question and prior evidence intact.
+
+## Decision
+
+Show the existing crop specification beside a constructed answer for a
+width-six image and crop2,5. Pair end exclusion with the omitted column5
+and compare the included columns2,3,4 with output width3. Keep this an
+explicit teaching answer, not an observed Agent run. Align S46's closing
+and S48's opening Notes while leaving those two screens unchanged.
+Preserve the earlier code-check questions and RepoQA in optional Notes.
+
+## Rationale
+
+Answer the question raised on S46 before asking where task-specific
+specifications should be found on S48. Use one visible correspondence
+instead of another code-search or test tutorial.
+
+## Alternatives
+
+Retain the three code-search checks: misses the supplied-context focus.
+Show a new live comparison: not needed or authorized for this revision.
+Add a second research explanation: repeats the earlier interruption.
+
+## Trade-offs
+
+Narrow the screen to externally inspectable condition/answer consistency.
+Do not claim this proves the model's internal causal use of the context.
+Retain prior code and research detail in optional Notes and history.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESEARCH-004, INV-DIFFICULTY-001.
+
+## Affected Artifacts
+
+S47 source and planning; S46-S48 Notes and transitions; ACT2/Full packages
+and previews; scoped evaluation and current delivery identities.
+
+## Evidence
+
+User-approved proposal; preserved STATE-03 image-contracts crop section.
+The constructed request and answer are not TRIAL-005A/B or a new Trial.
+
+## Training Relevance
+
+YES — check supplied conditions against the answer's actual conclusion.
+
+## Follow-up
+
+Preserve120slides,417minutes, IDs, modes and template assignments.
+Render final packages, compare unaffected screens and Notes, and push
+normally. Leave independent real presentation gates unverified.
+Do not change the Demo repository, Sites or paused presenter bundles.

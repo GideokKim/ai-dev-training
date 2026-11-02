@@ -1,5 +1,32 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S47 Context와 답변 대조 — DEC-0123 (2026-11-02)
+
+S47에서 제공한 명세와 교육용 답변의 포함 범위·폭을 직접 대조한다.
+S46 정보 활용 질문→S47 조건/답 대조→S48 상세 명세 위치 안내로 연결한다.
+S46/S48 화면은 유지하고3개 Notes를 맞췄다.120장·417분과 S47 Lecture4분은 같다.
+[수정 S47](../preview/full/S47.png), [통합 PPT](../AI_Dev_Training_Full.pptx),
+[ACT2 PPT](../ACT_2.pptx), [현재 검토](S47_CONTEXT_USE_REVISION.md).
+142개 최종 렌더·Notes를 대조했고, 다른119장 화면/117개 Notes와5개 ACT PPT는 같다.
+S41 사용자 별도 실제 데모9개 및 기존 TRIAL-003 11개의 구분은 유지한다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. 아래 기록은 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `1b5fd95e14a07dec35633807ab8fcf2757748b5e1129ec21d925ebf4433f5e44` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `c16ee1ed139877a727aa55b512f3a90f6868e956a0a1d56613b7de080e374293` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `96103c384f80f69a308a6dd464280e5a8645c17a02e5498a55e3b23ee014d4d9` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `4419c41ea1a132df304b228b56695f233aa48182518a20799d5152f933d2f305` |
+| `production/notes/ACT_2_NOTES.md` | `eb44c55014b254a098921f2a8b4255e59d1405bffb88791d66a76106be22ec43` |
+| `production/preview/full/montage.png` | `ed0c69081915bcc606ac029baee06eea40b699212404b997508e3c803f8641c0` |
+| `production/preview/full/S47.png` | `5784920668ccb4aad6bb6a966c7ea900071ec34596a690a5773f18b8454d9f72` |
+
+## 보존된 이전 전달 기록
+
 ## S45 질문 강조 — DEC-0122 (2026-11-02)
 
 하단 질문을 큰 흰색 글자와 청록색 박스로 강조했다. 기존 문구·비교 도식·흐름·근거와

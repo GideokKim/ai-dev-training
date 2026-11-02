@@ -1,6 +1,8 @@
 # Static Fallback Manifest
 
-Current: DEC-0122 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0123 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+S47 compares a supplied crop specification with a constructed teaching
+answer. It is not a new Agent response or Trial. S46/S48 screens stay fixed.
 S45 now compares shared guidance and task-specific detail; procedure reuse
 remains at S59/ACT3. This teaching diagram is not an observed read order.
 Retain44reference roles and paths. S41 shows the nine-test result from
@@ -17,11 +19,11 @@ in the reports and source history.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`04f5297953ff5a6b1989237e26166bc8a3fb33982f09812eb3ab52d8f1d88e3f`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`82d4e5a21a18e144ca9109d7b0b6c45439802b4e61108d3a1de37174bf48a54c`.
-- `production/preview/full/montage.png` SHA-256:`f43f9520f0faafd12a83bf50c50316162a36fbbbddca5a3426e4f26b12e91577`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`1b5fd95e14a07dec35633807ab8fcf2757748b5e1129ec21d925ebf4433f5e44`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`4419c41ea1a132df304b228b56695f233aa48182518a20799d5152f933d2f305`.
+- `production/preview/full/montage.png` SHA-256:`ed0c69081915bcc606ac029baee06eea40b699212404b997508e3c803f8641c0`.
 
-[Current revision](../../production/evaluation/S45_QUESTION_EMPHASIS_REVISION.md),
+[Current revision](../../production/evaluation/S47_CONTEXT_USE_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |

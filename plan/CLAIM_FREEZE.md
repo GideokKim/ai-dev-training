@@ -153,7 +153,19 @@ Git/원문/파일명·식별자·과거 기록은 보존한다. 마지막 찾아
 [현재 용어 기준](ACT0_TERMINOLOGY.md), [현재 Map](SLIDE_MAP.md)를 따른다.
 아래 이전 Repository 표기는 당시 기획/제작 이력이다.
 
-## S47의 현재 표현 — DEC-0105 (2026-10-27)
+## S47의 현재 표현 — DEC-0123 (2026-11-02)
+
+S47은 제공한 crop 명세와 구성한 답변의 조건 일치를 대조하는 TEACHING_MODEL이다.
+STATE-03 docs/image-contracts.md의 시작 포함·끝 제외를 요약하고 너비6/crop 2 5를
+교육용 요청으로 사용한다. 열2·3·4, 끝5 제외, 폭3은 명세로 구성한 답변 예시이며
+실제 Agent 응답·새 Trial·테스트 결과가 아니다. 후속 TRIAL-005A/B의 실제 관찰과 구분한다.
+조건에 맞는 출력이 모델 내부 정보 활용의 인과적 증명이라는 주장을 추가하지 않는다.
+기존 정확도·현재 Codex·Routing·성능·토큰 주장 범위를 확대하지 않는다.
+S46의 역사적 연구 조건과 S48의 교육용 탐색 경로 경계는 그대로다.
+기존 코드 탐색 질문/인용과 RepoQA는 Notes의 선택 참고로 보존한다.
+[현재 설계](S47_CONTEXT_USE_CHECK.md), [현재 검토](../production/evaluation/S47_CONTEXT_USE_REVISION.md).
+
+## 보존된 S47 표현 — DEC-0105 (2026-10-27)
 
 S47 화면은 코드의 위치·요청한 동작·필요한 주변 근거를 확인하는 교육용 질문에 집중한다.
 RepoQA는 정규 발표 설명과 화면에서 제외하고 Notes 및 [관련 연구](../references/research/repoqa.md)에 보존한다.
