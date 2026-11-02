@@ -1,5 +1,17 @@
 # Historical supporting runbook — DEMO-10
 
+## Current119 presentation references — DEC-0133
+
+현재119장·405분. 이전 S74의 Memory4분을 ACT5 S109로 옮기며 이전 S75–S109는-1한다. 나머지 번호는 같다.
+현재 번호/경로/해시는 [현행 Map](../../plan/SLIDE_MAP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_MEMORY_ACT5_DEC0133.md),
+[FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. 아래 이전 배치·시간·번호는 당시 이력이다.
+
+DEMO-10의 현재 Map 명시 참조: 현행 Map/Notes의 기존 역할 유지; 새 독립 Demo 배정 없음이다. 회수/Case 참조를 모두 Demo 시간으로 세지 않는다.
+
+Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·발표 묶음 변경은 없다.
+
+## Preserved previous operation records
+
 ## Current119 presentation references — DEC-0132
 
 현재119장·405분. 이전121장판 S67·S76을 삭제하고 앞뒤 연결만 정리한다.

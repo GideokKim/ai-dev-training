@@ -1,5 +1,12 @@
 # ACT 2 — Speaker Notes
 
+Current: DEC-0133 /119slides/405minutes. ACT2: S38–S59, 22slides/90minutes.19fields per slide. The former S74 keeps Demo2 VISUAL+Case2 and is now S109 in ACT5. No deleted lesson or extra time is restored.
+
+<details>
+<summary>이전 Notes 표지·제작 기준 보존</summary>
+
+# ACT 2 — Speaker Notes
+
 Current: DEC-0132 /119slides/405minutes. ACT2: S38–S59, 22slides/90minutes.19fields per slide. Prior121-ID S67/S76 are deleted without transferring content or time. DEMO-03: S65/S66 Demo1/2minutes.
 
 <details>
@@ -91,6 +98,8 @@ Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historic
 
 </details>
 
+
+</details>
 
 </details>
 

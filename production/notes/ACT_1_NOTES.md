@@ -1,5 +1,12 @@
 # ACT 1 — Speaker Notes
 
+Current: DEC-0133 /119slides/405minutes. ACT1: S15–S37, 23slides/64minutes.19fields per slide. The former S74 keeps Demo2 VISUAL+Case2 and is now S109 in ACT5. No deleted lesson or extra time is restored.
+
+<details>
+<summary>이전 Notes 표지·제작 기준 보존</summary>
+
+# ACT 1 — Speaker Notes
+
 Current: DEC-0132 /119slides/405minutes. ACT1: S15–S37, 23slides/64minutes.19fields per slide. Prior121-ID S67/S76 are deleted without transferring content or time. DEMO-03: S65/S66 Demo1/2minutes.
 
 <details>
@@ -88,6 +95,8 @@ Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historic
 
 </details>
 
+
+</details>
 
 </details>
 
@@ -668,7 +677,7 @@ Beginner Explanation: 완료를 판단할 수 있도록 변경 내용·확인 �
 Advanced Insight: Choose checks from the task’s risk and the exact claim being made; do not demand every check for every task.
 
 C++ Vision Bridge:
-이 장에서는 새 C++ 예시를 추가하지 않는다. S26의 확인 방법 선택 뒤 S27의 같은 crop 목표별 검증 요청으로 연결한다. vector·GoogleTest 반례는 S27의 선택 참고 Notes에만 둔다. 주요 C++ 패턴 전이는 S75에서 이어 간다. 도구 설치·실행 수업으로 확장하지 않는다.
+이 장에서는 새 C++ 예시를 추가하지 않는다. S26의 확인 방법 선택 뒤 S27의 같은 crop 목표별 검증 요청으로 연결한다. vector·GoogleTest 반례는 S27의 선택 참고 Notes에만 둔다. 주요 C++ 패턴 전이는 S74에서 이어 간다. 도구 설치·실행 수업으로 확장하지 않는다.
 
 Demo Operation: TRIAL-002 verification callback only; DEMO-05의 8분 구간 밖이다. 새 관찰 카드나 새 실행 결과를 보여 주지 않고 하단 출처로 과거 확인 범위를 회수한다. 검토용 결과 인계는 기존 기록을 가리키는 강의용 정리이며 실제 PR 화면으로 표현하지 않는다. 본문은 교육 모델로 설명한다.
 

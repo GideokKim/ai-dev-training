@@ -1,5 +1,17 @@
 # Current presentation source
 
+Current: DEC-0133 /119slides/405minutes. Apply `memory-act5-119.mjs` once
+after the retained119-ID trim. Move prior S74 to current S109, shift prior
+S75-S109 down1, and keep all other IDs. Use a fresh native3node C++
+knowledge-selection example at S109 after result acceptance in ACT5.
+Resolve retained metadata through `beforeMemoryMove` first. The fresh
+S109 factory already owns current footers and skips historical display
+adapters. Remove early Memory labels on current S82/S99 and update the
+S116 lookup title. Native table:S54; native charts:S70/S95.
+[Current design](../../../plan/MEMORY_ACT5_RELOCATION.md).
+
+## Preserved source editions
+
 Current: DEC-0132 /119slides/405minutes. Apply `act3-trim-119.mjs` once
 after the retained121-ID stage. Remove its S67/S76 factories and active
 Notes; do not transfer their content to neighboring slides or Notes.

@@ -1,5 +1,20 @@
 # DEMO-03 — Reusable Verification Workflow
 
+## Current119 presentation references — DEC-0133
+
+현재119장·405분. 이전 S74의 Memory4분을 ACT5 S109로 옮기며 이전 S75–S109는-1한다. 나머지 번호는 같다.
+현재 번호/경로/해시는 [현행 Map](../../plan/SLIDE_MAP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_MEMORY_ACT5_DEC0133.md),
+[FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. 아래 이전 배치·시간·번호는 당시 이력이다.
+
+현재 scheduled Demo는 S65 목록1분→S66 명시 요청2분=3분이다. S67 제작 팁으로 바로 연결한다.
+S68 절차/답, S69 후보, S70 실제 결과의 기존 배정은 같다.
+기본 정적 파일은 `production/preview/full/S65.png`, `production/preview/full/S66.png`다.
+삭제한 지침 본문 포함 확인/상세 대응을 다시 넣지 않고 실제 Prompt를 새로 실행하지 않는다.
+
+Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·발표 묶음 변경은 없다.
+
+## Preserved previous operation records
+
 ## Current119 presentation references — DEC-0132
 
 현재119장·405분. 이전121장판 S67·S76을 삭제하고 앞뒤 연결만 정리한다.

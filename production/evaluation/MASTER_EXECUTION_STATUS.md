@@ -1,5 +1,9 @@
 # MASTER EXECUTION STATUS
 
+Current DEC-0133:119slides/405minutes. Move the prior S74 knowledge-management lesson to ACT5 S109 after result acceptance. Use an explicit C++ project assumption and remove early Memory labels; preserve all slide allocations and evidence scope. Use [current result](MEMORY_ACT5_RELOCATION.md), [handoff](FINAL_HANDOFF.md), and [current crosswalk](../../plan/SLIDE_ID_MIGRATION_MEMORY_ACT5_DEC0133.md). Previous execution results are historical; external gates remain UNVERIFIED.
+
+## 보존된 이전 기록
+
 Current DEC-0132:119slides/405minutes. Delete previous121-ID S67/S76 from the main deck and active Notes without transferring content. Adjust only neighboring transitions, current references and totals. Use [current result](S67_S76_REMOVAL.md), [handoff](FINAL_HANDOFF.md), and [119-ID crosswalk](../../plan/SLIDE_ID_MIGRATION_119_DEC0132.md). Previous execution results are historical; external gates remain UNVERIFIED.
 
 ## 보존된 이전 기록

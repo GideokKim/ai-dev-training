@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+현재119장·405분과 ACT5 S109의 지식 선별 사례는 [DEC-0133 검토](MEMORY_ACT5_RELOCATION.md), [전달 안내](FINAL_HANDOFF.md), [번호 대응표](../../plan/SLIDE_ID_MIGRATION_MEMORY_ACT5_DEC0133.md)를 따른다. Memory 학습4분을 이동했으며 앞 ACT의 선행 설명을 정리했다. Windows·발표PC/교육장·제품/계정·실제 리허설은 UNVERIFIED다.
+
+## 보존된 이전 기록
+
 현재119장·405분과 앞뒤 연결은 [DEC-0132 검토](S67_S76_REMOVAL.md), [전달 안내](FINAL_HANDOFF.md), [119-ID 대응표](../../plan/SLIDE_ID_MIGRATION_119_DEC0132.md)를 따른다. 이전S67/S76은 삭제했고 인접 장으로 내용을 흡수하지 않았다. Windows·발표PC/교육장·제품/계정·실제 리허설은 UNVERIFIED다.
 
 ## 보존된 이전 기록

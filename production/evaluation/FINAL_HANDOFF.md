@@ -1,5 +1,44 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## Memory의 ACT5 이동·구체화 — DEC-0133 (2026-11-02)
+
+현재 **119장·405분(6시간45분)**. 이전 S74의 지식 보존 학습을 현재 ACT5 S109로 옮겼다.
+S108 결과 수용 → S109 다음에도 쓸 지식 선별 → S110 AI가 일할 조건 설계로 연결한다.
+S109는 가상 C++ 프로젝트의 비교 조건을 사용하는3열 도식이며 실제 측정·제품 자동기억 결과가 아니다.
+앞 ACT의 선행 Memory 설명/표기를 정리하고 기존 반복 상태 전달·검토 책임은 유지했다.
+ACT장수14/23/22/24/20/16, ACT시간42/64/90/80/85/44.
+기존4분(Demo2 VISUAL+Case2) 이동이며 전역 Mode182/44/102/22/23/32와 각 장의 배정은 그대로다.
+[변경·검토 결과](MEMORY_ACT5_RELOCATION.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[번호 대응표](../../plan/SLIDE_ID_MIGRATION_MEMORY_ACT5_DEC0133.md)를 따른다.
+통합/ACT7개PPT와238개렌더·내장 Notes를 검증했다. 기존 이미지·측정값·Claim Boundary를 유지하고,
+43개 정적Fallback 경로/해시도 정렬했다. 삭제한 감사 내용을 복구하지 않았다.
+Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않았다.
+이하 이력은 당시 판본이며 이전 번호·검증을 현재판으로 취급하지 않는다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `ac1131ccd9b64aff66c48bac3672b7b7024018e13671d3841aaaedbcb65e1889` |
+| `production/ACT_0.pptx` | `4643a154ace923f6eb81875cb6c86d8b4874d0c7abe936453a47128024cc117e` |
+| `production/ACT_1.pptx` | `995ef7aa17ca16d238fc689257d668d29d640aa357252cc50f5913326fe8612b` |
+| `production/ACT_2.pptx` | `b63f62ff0ac8a195e6a910a00b2b6eaa7626302ad248598a4f1622c7c83bea92` |
+| `production/ACT_3.pptx` | `60222813b2e86e441f55526ddfc4167ce979bde1d8db7b6af217cb738ed7c053` |
+| `production/ACT_4.pptx` | `306f038ea2c0a8698c20960b6d3c515a9d51c06047ac0524d96513b52355d4ed` |
+| `production/ACT_5.pptx` | `617a5661b8c34ef4c08d8571529c7d77f2285f9a42f45284a46fec04da63f088` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `f0fb65db735db561e8fd40572472e511e91f8445568fe84c162a3f2bbb86d571` |
+| `production/preview/full/montage.png` | `cba824ec9f3cfc8b5c9b6c185cc78e0a41d62a7babfdf868120ec42e229b3ad7` |
+| `production/preview/act0/montage.png` | `eb37120330c3892db3b31993c8ae3863e9818f6873f08f987a037a95d5bb9cb6` |
+| `production/preview/act1/montage.png` | `a23d9561b294917588e5e0d8241be709c79883b79366b3470f094a17fca705ab` |
+| `production/preview/act2/montage.png` | `d7e66c468274d0aa80b83000ac284535d12b366fd81ebbfef849e713da0112a1` |
+| `production/preview/act3/montage.png` | `7ea0c1826fdad2dd2b6e3432bb3ed7f5ec79c9e97e892359ef444f55acead345` |
+| `production/preview/act4/montage.png` | `a5469f72c28cc36a7f4fceecff988d0a05ded4c2a4e59916f23226f6f9855fb5` |
+| `production/preview/act5/montage.png` | `aaeac073dd48b72a0d1b3fc0a60c6a7886fb8c9c9b90ef4f3d40ce231870f238` |
+| `production/preview/full/S108.png` | `efa7d8b5ac084e376bc621fd97f37fbbbcc7bea270c84e17aeeb41132f3b20c2` |
+| `production/preview/full/S109.png` | `536e4335c64bfd339b0ea2e3f7350e95bd653cdaed14a125287eabeed15d04f3` |
+| `production/preview/full/S110.png` | `22297dd9e2db45d24d1a24e2adf73f324f4691a0adc10099adab476ffba5be11` |
+| `production/preview/full/S116.png` | `4e091d14fb7cf91a9d220e2f19930e856717614db464f09367b62bbd5602638a` |
+
+## 보존된 이전 전달 기록
+
 ## S67·S76 삭제·앞뒤 연결 — DEC-0132 (2026-11-02)
 
 현재 **119장·405분(6시간45분)**. 이전121장판 S67/S76을 본편·활성 Notes에서 삭제했다.

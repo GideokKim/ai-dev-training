@@ -52,12 +52,17 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Category: Training Identity
 - Strength: HARD
 - Rule: This is a developer training about ChatGPT and Codex in AI-Native
-  Development. The current net duration is405minutes under DEC-0132, within
-  the user-authorized720-minute ceiling. Use119slides under DEC-0132, including the approved
-  two Goal tips (now S102/S103), the S04 Copilot IDE tip and three
-  scoped-instruction tips S56-S58. ACT2 has22slides/90minutes; ACT3 has25slides/84minutes.
+  Development. The current net duration is405minutes under DEC-0133, within
+  the user-authorized720-minute ceiling. Use119slides under DEC-0133, including the approved
+  two Goal tips (now S101/S102), the S04 Copilot IDE tip and three
+  scoped-instruction tips S56-S58. ACT2 has22slides/90minutes; ACT3 has24slides/80minutes;
+  ACT5 has16slides/44minutes after moving the existing four-minute
+  Context/Memory lesson to ACT5 S109 under DEC-0133.
   Retain the20-slide/85-minute ACT4 and other ACT budgets/evidence.
   The prior GPU slide remains deleted; retain all other approved tips.
+- Historical DEC-0132 Rule:405minutes/119slides, ACT3 25slides/84minutes
+  and ACT5 15slides/40minutes. DEC-0133 relocates the same four-minute
+  Memory lesson without adding slides or changing global modes.
 - Historical DEC-0131 Rule:411minutes/121slides. DEC-0132 removes old121
   S67 and S76 with Demo2+Lecture4minutes; do not absorb their content or
   conclusions into other slides or active Notes. Source history remains.
@@ -81,7 +86,7 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Rationale: The audience, subject, and duration define the scope of the
   training.
 - Source: plan/MASTER_PLAN.md §§1.1–1.2
-- Validation: Does the material preserve the developer scope and the current405-minute schedule and720-minute ceiling under DEC-0132?
+- Validation: Does the material preserve the developer scope and the current405-minute schedule and720-minute ceiling under DEC-0133?
 - Change Policy: Require explicit user approval before changing the scope or
   duration.
 
@@ -390,6 +395,9 @@ keep them stable when this document is reordered and never reuse a retired ID.
   ("What should the system remember?"). Treat scope, reusability, freshness,
   and reliability as Memory concerns; do not frame Memory as a store for
   everything or as free of technical debt.
+- Current placement: ACT5 S109 under DEC-0133. Keep the learning goal,
+  original Section3F/BEAT-026-028 and scope/lifecycle concerns while using
+  a teaching case of future work reuse, not a product Memory demonstration.
 - Rationale: The distinction explains why a fact belongs in the current task
   context or may be worth retaining across tasks.
 - Source: plan/MASTER_PLAN.md §§5.6, 23, 25
@@ -402,14 +410,19 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Category: Harness Engineering
 - Strength: STRUCTURAL
 - Rule: Do not lead with a completed Harness diagram as a system to memorize.
-  Let Context, Skills, Memory, Subagents, Tools, and Verification connect as
-  the previously shown problems are solved. Show the completed architecture
-  only in the latter part of the Harness chapter or in the final retrospective,
-  to show how far the Story has progressed.
+  Let the ACT3 Context, Skills, Subagents, Tools and Verification roles
+  connect as their previously shown problems are solved. Show the bounded
+  architecture late in the Harness chapter or in the final retrospective.
+  Under DEC-0133, teach retained knowledge/Memory in ACT5 S109; it need not
+  be introduced first or drawn as a required part of the base Harness.
+  Preserve the separate Context/Memory goal in INV-MATURITY-008.
+- Historical pre-DEC-0133 Rule: Let Context, Skills, Memory, Subagents,
+  Tools, and Verification connect as the previously shown problems are
+  solved, with the completed diagram late in Harness or the retrospective.
 - Rationale: Learners should understand why the system has each part before
   seeing the combined architecture.
 - Source: plan/MASTER_PLAN.md §§5.7, 13.3, 22
-- Validation: Does the completed Harness diagram appear only after its parts have emerged, late in the Harness chapter or in the retrospective?
+- Validation: Does the bounded Harness diagram follow its explained parts, without treating Memory as mandatory before its ACT5 lesson?
 - Change Policy: A proposed change requires impact analysis and user
   confirmation.
 

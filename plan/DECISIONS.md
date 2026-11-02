@@ -13077,3 +13077,95 @@ to remove a lesson rather than relocate its explanation.
 Render and compare final packages, validate119slide IDs,405minutes, Notes
 and current references, then commit/push normally. Keep Windows, room,
 product-account and timed rehearsal gates unverified.
+
+# DEC-0133 — Move retained knowledge to the ACT5 work lifecycle
+
+## Status
+
+ACCEPTED — explicit user approval to move the existing Context/Memory
+lesson to ACT5 and make its teaching example concrete.
+
+## Date
+
+2026-11-02
+
+## Context
+
+The current ACT3 lesson interrupts the path from the actual Subagent
+choice to the actual work composition and Harness relationship. ACT5
+already connects completed work, human acceptance and operating conditions.
+The original plan still requires Context/Memory and lifecycle distinctions.
+
+## Problem
+
+Keep that learning goal while teaching knowledge reuse where the audience
+can connect accepted work to the next task, without another Demo audit.
+
+## Decision
+
+Move oldS74 to currentS109 between currentS108 acceptance and S110 working
+conditions. Use the title "이번에 알아낸 것 중, 다음에도 쓸 것은?".
+Keep its4minutes: Demo2 VISUAL + Case2. Use119slides/405minutes with ACT3
+24slides/80minutes, ACT4 20slides/85minutes and ACT5 16slides/44minutes.
+Keep global modes Lecture182/Demo44/Case102/Reflection22/Transition23/Q&A32.
+Shift oldS75-S109 down1; all other IDs stay except oldS74 becomes S109.
+Preserve Section3F, BEAT-026-028, existing Claim IDs and DEMO-08 with its
+current ACT5 placement. Keep INV-MATURITY-008. Clarify INV-MATURITY-009
+so Memory need not be a required component of the base ACT3 Harness.
+Use a hypothetical C++ performance-comparison condition: Release build
+and the same input. Keep current logs/measurements in dated work records;
+retain reusable conditions with source, scope and update triggers, then
+check current conditions before using them as the next task's Context.
+Do not restore or absorb the deleted old121-edition S67/S76 audits.
+
+## Rationale
+
+Knowledge reuse fits after deciding whether to accept a work result and
+before summarizing how to operate future work. The ACT3 actual-case path
+then proceeds directly from role choice to composition and Harness.
+A concrete teaching condition explains the lifecycle without requiring
+familiarity with Demo code or claiming product Memory operation.
+
+## Alternatives
+
+Keep ACT3 placement: preserves an earlier concept introduction but leaves
+a hypothetical knowledge detour between actual work summaries.
+Delete the concept: loses the approved Context/Memory learning goal.
+Place it in the structure-removal sequence: risks confusing retained facts
+with the separate question of consolidating roles and work mechanisms.
+
+## Trade-offs
+
+ACT5 gains4minutes and ACT3 loses4minutes, with no total time change.
+The base Harness is explained before the optional retained-knowledge
+lesson. Keep the distinction between knowledge lifecycle and structure
+reassessment explicit; do not present every Harness as requiring Memory.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-MATURITY-008, INV-MATURITY-009,
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESEARCH-004, INV-SOT-001.
+
+## Affected Artifacts
+
+Current Map/template mapping, Notes, affected ACT/full packages, source
+adapter, previews, tip indexes, current planning/runbook routes and delivery
+identities. Keep historical source editions and existing evidence intact.
+
+## Evidence
+
+Explicit user instruction; MASTER_PLAN5.6; INV-MATURITY-008; existing
+BEAT-026-028, DEMO-08 and DEC-0073 teaching scope. No new measurement,
+Trial, actual Memory save/retrieval or automatic product-memory observation.
+
+## Training Relevance
+
+YES — distinguish current work, a reusable sourced condition and the
+check required before the next task can use it as Context.
+
+## Follow-up
+
+Render and compare final packages, validate119IDs/405minutes, ACT budgets,
+Mode totals, Notes and current references, then commit/push normally.
+Keep Windows, room, product-account and timed rehearsal unverified.
+Do not change the Demo repository, Sites or presenter bundle.

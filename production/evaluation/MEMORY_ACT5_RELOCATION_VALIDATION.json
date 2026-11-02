@@ -1,0 +1,118 @@
+{
+  "status": "RENDER_AND_STRUCTURE_PASS",
+  "slides": 119,
+  "minutes": 405,
+  "actCounts": [
+    14,
+    23,
+    22,
+    24,
+    20,
+    16
+  ],
+  "actMinutes": [
+    42,
+    64,
+    90,
+    80,
+    85,
+    44
+  ],
+  "modes": {
+    "Transition": 23,
+    "Lecture": 182,
+    "Reflection": 22,
+    "Case": 102,
+    "Demo": 44,
+    "Q&A": 32
+  },
+  "relocatedSlide": {
+    "from": "S74 / ACT3",
+    "to": "S109 / ACT5",
+    "minutes": 4
+  },
+  "retainedSkillDemoMinutes": [
+    1,
+    2
+  ],
+  "nativeTables": [
+    "S54"
+  ],
+  "nativeCharts": [
+    "S70",
+    "S95"
+  ],
+  "noteFields": 19,
+  "noteRecords": 119,
+  "renderedPngs": 238,
+  "embeddedNotes": 238,
+  "retainedScreenComparison": {
+    "pixel-identical": 81,
+    "reference-only": 34,
+    "scoped-footer-title": 3
+  },
+  "changedInlineReferences": [
+    "S82",
+    "S99",
+    "S116",
+    "S118"
+  ],
+  "fullActPixelParity": 119,
+  "preservedImages": true,
+  "preservedChartCaches": true,
+  "firstMemoryLabel": "S109",
+  "redesignedSlide": "S109",
+  "earlyLabelCleanup": [
+    "S82",
+    "S99"
+  ],
+  "existingReferenceHistoryPreserved": true,
+  "retainedSlidesCompared": 118,
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "count": 119,
+      "sha256": "ac1131ccd9b64aff66c48bac3672b7b7024018e13671d3841aaaedbcb65e1889"
+    },
+    {
+      "name": "ACT_0",
+      "count": 14,
+      "sha256": "4643a154ace923f6eb81875cb6c86d8b4874d0c7abe936453a47128024cc117e"
+    },
+    {
+      "name": "ACT_1",
+      "count": 23,
+      "sha256": "995ef7aa17ca16d238fc689257d668d29d640aa357252cc50f5913326fe8612b"
+    },
+    {
+      "name": "ACT_2",
+      "count": 22,
+      "sha256": "b63f62ff0ac8a195e6a910a00b2b6eaa7626302ad248598a4f1622c7c83bea92"
+    },
+    {
+      "name": "ACT_3",
+      "count": 24,
+      "sha256": "60222813b2e86e441f55526ddfc4167ce979bde1d8db7b6af217cb738ed7c053"
+    },
+    {
+      "name": "ACT_4",
+      "count": 20,
+      "sha256": "306f038ea2c0a8698c20960b6d3c515a9d51c06047ac0524d96513b52355d4ed"
+    },
+    {
+      "name": "ACT_5",
+      "count": 16,
+      "sha256": "617a5661b8c34ef4c08d8571529c7d77f2285f9a42f45284a46fec04da63f088"
+    }
+  ],
+  "windows": "UNVERIFIED",
+  "room": "UNVERIFIED",
+  "productAccount": "UNVERIFIED",
+  "rehearsal": "UNVERIFIED",
+  "ooxmlValidation": "PASS — all seven packages against their prior committed originals",
+  "visualReview": "PASS — all six ACT montages, S108-S110, S82/S99 and S116 individual renders; no new P0/P1",
+  "prunedSupersededPreviewPaths": [
+    "production/preview/act3/S84.png",
+    "production/preview/act4/S104.png"
+  ]
+}
