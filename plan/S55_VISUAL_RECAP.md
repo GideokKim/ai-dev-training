@@ -1,5 +1,10 @@
 # S55 — Context 시각 회고
 
+현재 DEC-0131:121장·411분. S65–S67의1/2/2Demo분은 유지하고, 이전 S68의 독립 대응표는
+보충 Notes/[참고 기록](../references/demo-evidence/skill-instruction-action-record.md)에 보존한다.
+S67의 원칙 회수 → 현재 S68 Skill 제작 팁 → S69 절차/답 구분 → S70/S71 후보/결과로 이어진다.
+[현재 번호 이행](SLIDE_ID_MIGRATION_121_DEC0131.md)을 우선하고 아래 이전 설계는 보존한다.
+
 현재 DEC-0130:122장·417분. S65–S67은 목록/명시 요청/본문 포함의3장이고,
 실제 지침 수행 대조는 S68이다. 이 문서가 정의한 역할·시간·근거는 유지한다.
 [현재 번호 이행](SLIDE_ID_MIGRATION_122_DEC0130.md)을 우선하고 아래 이전 설계는 보존한다.

@@ -1,5 +1,16 @@
 # Current presentation source
 
+Current: DEC-0131 /121slides/411minutes. Keep the122-ID split as a retained
+source stage, then apply `skill-evidence-removal-121.mjs` once. Remove old
+S68, migrate old69-122 down1, and wrap S67 with the inclusion/execution
+closing plus a Skill-authoring question. Preserve detailed evidence in
+current S67 Notes and `references/demo-evidence/skill-instruction-action-record.md`.
+Resolve old metadata through `beforeS68Removal`. Native table: S54 only.
+Native charts: S71/S98. Build all ACTs to synchronize forward Notes refs.
+[Current design](../../../plan/S68_REMOVAL_AND_EVIDENCE_RETENTION.md).
+
+## Preserved source editions
+
 Current: DEC-0130 /122slides/417minutes. Add `skill-evidence-split-122.mjs`
 once after the retained120-ID adapters. Keep all earlier factory keys,
 JSON editions, assets and historical reports. New S65-S67 own current

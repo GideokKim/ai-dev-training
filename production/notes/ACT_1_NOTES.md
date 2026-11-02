@@ -1,5 +1,12 @@
 # ACT 1 — Speaker Notes
 
+Current: DEC-0131 /121slides/411minutes. ACT1: S15–S37, 23slides/64minutes.19fields per slide. Prior122-ID S68 is reference-only; no transferred presentation time.
+
+<details>
+<summary>이전 Notes 표지·제작 기준 보존</summary>
+
+# ACT 1 — Speaker Notes
+
 Current: DEC-0130 /122slides/417minutes. ACT1: S15–S37, 23slides/64minutes.19fields per slide.
 
 <details>
@@ -79,6 +86,8 @@ Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historic
 
 </details>
 
+</details>
+
 ## S15 — Prompt를 작업 명세로 만들기
 
 **Slide ID:**
@@ -132,7 +141,7 @@ N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S16 — Task에는 무엇이 아직 정해지지 않았을까?로 이어간다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 1 총64분, 전체417분이다. 제목·부제만 안내하고1분에 S16로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 1 총64분, 전체411분이다. 제목·부제만 안내하고1분에 S16로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S15.png 또는 production/ACT_1.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
@@ -650,7 +659,7 @@ Beginner Explanation: 완료를 판단할 수 있도록 변경 내용·확인 �
 Advanced Insight: Choose checks from the task’s risk and the exact claim being made; do not demand every check for every task.
 
 C++ Vision Bridge:
-이 장에서는 새 C++ 예시를 추가하지 않는다. S26의 확인 방법 선택 뒤 S27의 같은 crop 목표별 검증 요청으로 연결한다. vector·GoogleTest 반례는 S27의 선택 참고 Notes에만 둔다. 주요 C++ 패턴 전이는 S78에서 이어 간다. 도구 설치·실행 수업으로 확장하지 않는다.
+이 장에서는 새 C++ 예시를 추가하지 않는다. S26의 확인 방법 선택 뒤 S27의 같은 crop 목표별 검증 요청으로 연결한다. vector·GoogleTest 반례는 S27의 선택 참고 Notes에만 둔다. 주요 C++ 패턴 전이는 S77에서 이어 간다. 도구 설치·실행 수업으로 확장하지 않는다.
 
 Demo Operation: TRIAL-002 verification callback only; DEMO-05의 8분 구간 밖이다. 새 관찰 카드나 새 실행 결과를 보여 주지 않고 하단 출처로 과거 확인 범위를 회수한다. 검토용 결과 인계는 기존 기록을 가리키는 강의용 정리이며 실제 PR 화면으로 표현하지 않는다. 본문은 교육 모델로 설명한다.
 

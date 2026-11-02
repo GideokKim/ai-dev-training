@@ -1,5 +1,13 @@
 # Historical supporting runbook — LOOP-VISUAL
 
+## Current121 delivery references — DEC-0131
+
+현재121장·411분. S65–S67의5Demo분을 유지하고 이전 S68 독립 대응표는 보충 Notes/참고로 이동했다. [현행 Map](../../plan/SLIDE_MAP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_121_DEC0131.md), [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)의 현재 번호·경로를 따른다.
+
+Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 아래 이전 번호·명령·상태는 당시 이력으로 보존하며 그대로 실행하지 않는다. 새 Trial·Demo 저장소·발표 묶음 변경은 없다.
+
+## Preserved previous operation records
+
 ## Current122 delivery references — DEC-0130
 
 현재122장·417분의 번호·정적 경로는 [현행 Map](../../plan/SLIDE_MAP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_122_DEC0130.md), [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. S65–S67은 기존5Demo분을1/2/2로 나눈 정적 기록이며 실제 수행 대조는 S68이다. Live/Hybrid·Windows·계정·교육장·실측 리허설은 미검증이다. 아래 Literal 번호와 예전 검증은 당시 이력으로 보존한다.

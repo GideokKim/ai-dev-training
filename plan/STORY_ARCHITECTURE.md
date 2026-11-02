@@ -1,5 +1,31 @@
 # Detailed Story Architecture
 
+## 현재 제작 기준 — DEC-0131 (2026-11-02)
+
+현재 **121장·411분(6시간51분)**. 이전122장판 S68의 독립 지침/행동 대응 장을 본편에서 삭제한다.
+S67은 “지침 포함과 실제 수행은 별도로 확인한다”로 마무리하고 현재 S68 Skill 제작 팁으로 연결한다.
+이전 S69–S122는 현재 S68–S121로 한 칸 당긴다. S65–S67의 Demo1/2/2분=기존5분은 유지한다.
+삭제한 장의 Demo3+Case3=6분만 제외하며 다른 장에 재배분하지 않는다. ACT3는27장·90분이다.
+Mode Lecture186/Demo46/Case102/Reflection22/Transition23/Q&A32를 사용한다.
+상세 대응표·실제 실행 근거·조건·한계는 S67의 보충 Notes와 [참고 기록](../references/demo-evidence/skill-instruction-action-record.md)에 보존한다.
+검증 원칙을 삭제하거나 지침 포함만으로 실제 수행·Skill 효과를 입증하지 않는다.
+Native 표는 S54, 차트는 S71/S98이다.12Templates/28Variants·19Notes 필드와 기존 근거 ID를 유지한다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 변경하지 않는다.
+[삭제·보존 기획](S68_REMOVAL_AND_EVIDENCE_RETENTION.md), [번호 이행](SLIDE_ID_MIGRATION_121_DEC0131.md),
+[현행 Map](SLIDE_MAP.md)을 따른다. 아래 과거 판본의 번호·시간·검증 기록은 해당 이력이다.
+
+| ACT | Current slides | Count | Minutes |
+|---|---|---:|---:|
+| ACT 0 | S01–S14 | 14 | 42 |
+| ACT 1 | S15–S37 | 23 | 64 |
+| ACT 2 | S38–S59 | 22 | 90 |
+| ACT 3 | S60–S86 | 27 | 90 |
+| ACT 4 | S87–S106 | 20 | 85 |
+| ACT 5 | S107–S121 | 15 | 40 |
+| Total | S01–S121 | 121 | 411 |
+
+## 보존된 이전 기획·판본 기록
+
 ## 현재 제작 기준 — DEC-0130 (2026-11-02)
 
 현재 **122장·417분(6시간57분)**. 이전120장판의 S65를 발견/명시 요청/본문 포함 확인의

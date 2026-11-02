@@ -1,0 +1,109 @@
+{
+  "status": "RENDER_AND_STRUCTURE_PASS",
+  "slides": 121,
+  "minutes": 411,
+  "actCounts": [
+    14,
+    23,
+    22,
+    27,
+    20,
+    15
+  ],
+  "actMinutes": [
+    42,
+    64,
+    90,
+    90,
+    85,
+    40
+  ],
+  "modes": {
+    "Transition": 23,
+    "Lecture": 186,
+    "Reflection": 22,
+    "Case": 102,
+    "Demo": 46,
+    "Q&A": 32
+  },
+  "removedSlide": "previous122-ID S68",
+  "retainedS65toS67DemoMinutes": [
+    1,
+    2,
+    2
+  ],
+  "nativeTables": [
+    "S54"
+  ],
+  "nativeCharts": [
+    "S71",
+    "S98"
+  ],
+  "noteFields": 19,
+  "noteRecords": 121,
+  "renderedPngs": 242,
+  "embeddedNotes": 242,
+  "retainedScreenComparison": {
+    "pixel-identical": 66,
+    "reference-only": 54
+  },
+  "changedInlineReferences": [
+    "S118",
+    "S120"
+  ],
+  "fullActPixelParity": 121,
+  "preservedImages": true,
+  "preservedChartCaches": true,
+  "archivedOldNotesExact": true,
+  "archivedNativeTableExact": true,
+  "archivedOldPngExact": true,
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "count": 121,
+      "sha256": "7a04ab8c61bb34a797d4a0b503c0b89ae0153c806158b0e25f3b091e6264bf7d"
+    },
+    {
+      "name": "ACT_0",
+      "count": 14,
+      "sha256": "e0bf07d6536d200b9a67a38e386095801472d6d0da3314d93101ceb6bb841ff3"
+    },
+    {
+      "name": "ACT_1",
+      "count": 23,
+      "sha256": "2c06bf2ba55901ef80308feac3214481bfb2a4ac8ec9e5ab56930f3f4fc4434d"
+    },
+    {
+      "name": "ACT_2",
+      "count": 22,
+      "sha256": "f25ee3c80f502d5cd0410ee80c75a71051824e022175952d1b2c7aa7de8bccc0"
+    },
+    {
+      "name": "ACT_3",
+      "count": 27,
+      "sha256": "6defd6ba3bd7baf6dbf43aa444d807f28f84ece5778379ed19d8897c556e04d0"
+    },
+    {
+      "name": "ACT_4",
+      "count": 20,
+      "sha256": "5bd23abfc1978afa445987c40ef50841255dfd31285916c9f61d29c03eea8311"
+    },
+    {
+      "name": "ACT_5",
+      "count": 15,
+      "sha256": "91aaa08ae94de750bba94edc19cd45c788299ce7966606411488ba35ac2f4284"
+    }
+  ],
+  "windows": "UNVERIFIED",
+  "room": "UNVERIFIED",
+  "productAccount": "UNVERIFIED",
+  "rehearsal": "UNVERIFIED",
+  "ooxmlValidation": "PASS — all seven packages against their prior committed originals",
+  "visualReview": "PASS — full ACT montages and changed-sequence individual renders; no new P0/P1",
+  "prunedSupersededPreviewPaths": [
+    "production/preview/full/S122.png",
+    "production/preview/act3/S87.png",
+    "production/preview/act4/S107.png",
+    "production/preview/act5/S122.png"
+  ]
+}

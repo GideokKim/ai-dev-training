@@ -1,5 +1,43 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S68 본편 삭제·근거 보존 — DEC-0131 (2026-11-02)
+
+현재 **121장·411분(6시간51분)**. S67은 지침 포함/실제 수행을 구분하고 현재 S68 Skill 제작 팁으로 이어진다.
+이전122장판 S68의 상세 대응표·조건·수치·Notes·화면은 [참고 기록](../../references/demo-evidence/skill-instruction-action-record.md)과 S67 보충 Notes에 보존했다.
+삭제한6분(Demo3+Case3)은 재배분하지 않는다. S65–S67의 기존5Demo분을 유지한다.
+ACT장수14/23/22/27/20/15, ACT시간42/64/90/90/85/40,
+Mode Lecture186/Demo46/Case102/Reflection22/Transition23/Q&A32다.
+[변경/검토 결과](S68_REMOVAL_AND_EVIDENCE_RETENTION.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[번호 대응표](../../plan/SLIDE_ID_MIGRATION_121_DEC0131.md)를 따른다.
+통합/ACT7개PPT,242개렌더·내장 Notes를 검증했다. 기존120장 화면은 번호·참조 외에 같고,
+이미지·측정값·Claim Boundary를 유지한다. 현재45개 정적Fallback의 경로/해시도 정렬했다.
+Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않았다.
+이하 이력은 당시 판본이며 현재 검증 완료를 뜻하지 않는다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `7a04ab8c61bb34a797d4a0b503c0b89ae0153c806158b0e25f3b091e6264bf7d` |
+| `production/ACT_0.pptx` | `e0bf07d6536d200b9a67a38e386095801472d6d0da3314d93101ceb6bb841ff3` |
+| `production/ACT_1.pptx` | `2c06bf2ba55901ef80308feac3214481bfb2a4ac8ec9e5ab56930f3f4fc4434d` |
+| `production/ACT_2.pptx` | `f25ee3c80f502d5cd0410ee80c75a71051824e022175952d1b2c7aa7de8bccc0` |
+| `production/ACT_3.pptx` | `6defd6ba3bd7baf6dbf43aa444d807f28f84ece5778379ed19d8897c556e04d0` |
+| `production/ACT_4.pptx` | `5bd23abfc1978afa445987c40ef50841255dfd31285916c9f61d29c03eea8311` |
+| `production/ACT_5.pptx` | `91aaa08ae94de750bba94edc19cd45c788299ce7966606411488ba35ac2f4284` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `cb355c564df38fa618756bb40b5a87b66d4492759980c3838761a0db24a5595f` |
+| `production/preview/full/montage.png` | `89a17b9bd496a8e36e03297029b99760c070bb1c1d0185430d18d3f8f056f592` |
+| `production/preview/act0/montage.png` | `eb37120330c3892db3b31993c8ae3863e9818f6873f08f987a037a95d5bb9cb6` |
+| `production/preview/act1/montage.png` | `a23d9561b294917588e5e0d8241be709c79883b79366b3470f094a17fca705ab` |
+| `production/preview/act2/montage.png` | `d7e66c468274d0aa80b83000ac284535d12b366fd81ebbfef849e713da0112a1` |
+| `production/preview/act3/montage.png` | `3047b6997c587bcce1f532ec95810c9f940289bf2d30c18ddaa883d1e489815f` |
+| `production/preview/act4/montage.png` | `ad58a3086e504ae39789880f69112cb821b3db74e443099cd586c7d1dba834c1` |
+| `production/preview/act5/montage.png` | `d489180ec0e1212e2c11faa79055215ef5142f5495a1b645376b769942484ea1` |
+| `production/preview/full/S67.png` | `1d1db69866887f52d8679271e24d9140570c3c91623b12523ba2a6c8a6c07187` |
+| `production/preview/full/S68.png` | `d1f3bc11227d264e335f875d27217bd12d25ad9b2901d76d0af13063c5c7f0e4` |
+| `references/demo-evidence/skill-instruction-action-record.md` | `048a682f42f8735a89b56158aa7603dc1bfdf1f379f25ddd2a9fe264b72fcc30` |
+| `references/demo-evidence/skill-instruction-action-record-S68-122.png` | `c95a7a4c298126e5665559766dd9251e0200471ff1a27cd64bb3368ec5a1e120` |
+
+## 보존된 이전 전달 기록
+
 ## S65 Skill 근거3장 분할 — DEC-0130 (2026-11-02)
 
 현재 **122장·417분**. S65 발견1분 → S66 명시 요청2분 → S67 본문 포함2분,

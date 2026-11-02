@@ -1,5 +1,13 @@
 # DEMO-02 — Reusable Project Context
 
+## Current121 presentation references — DEC-0131
+
+현재121장·411분. DEMO-02 관련 Map 참조: 현재 Map에서 독립 Demo 배정 없음; 보존 참고 역할 유지. 회수·Case·참고 연결도 포함하며 모두 Demo 시간이라는 뜻이 아니다. 현재 번호/경로/해시는 [현행 Map](../../plan/SLIDE_MAP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_121_DEC0131.md), [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다.
+
+Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 아래 이전 번호·명령·상태는 당시 이력으로 보존하며 그대로 실행하지 않는다. 새 Trial·Demo 저장소·발표 묶음 변경은 없다.
+
+## Preserved previous operation records
+
 ## Current122 presentation references — DEC-0130
 
 현재122장·417분. DEMO-02 관련 Map 참조: 현재 Map에서 독립 Demo 배정 없음; 보존된 참고 역할만 유지. 이 목록은 회수/Case/참고 연결도 포함하며 모두 Demo 시간이라는 뜻이 아니다. 현재 번호·경로/해시는 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)와 [현행 Map](../../plan/SLIDE_MAP.md)을 따른다.

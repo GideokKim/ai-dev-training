@@ -12913,3 +12913,82 @@ observed actions without treating one as proof of the next.
 Render all final slides, validate current references and preserved evidence,
 then commit and push normally. Keep Windows, room, product-account and
 rehearsal gates unverified. Do not change the Demo repository or Sites.
+
+# DEC-0131 — Move the standalone S68 audit to supporting evidence
+
+## Status
+
+ACCEPTED — explicit user approval to remove S68 and retain its evidence.
+
+## Date
+
+2026-11-02
+
+## Context
+
+The audience does not know the Demo code. S68 presents execution details
+before the task and implementation are introduced. ACT1 already teaches
+comparison between requested process and observed records.
+
+## Problem
+
+Preserve verification discipline without requiring the audience to decode
+project-specific audit details as another standalone six-minute lesson.
+
+## Decision
+
+Remove old122-edition S68 from the main deck. Preserve its complete table,
+provenance, conditions and limits in S67 supplementary Notes and a reference
+record. End S67 by distinguishing instruction inclusion from actual action,
+then connect directly to the Skill-creation tip, now S68.
+Shift old S69-S122 down1. Use121slides/411minutes and ACT3 27slides/90minutes.
+Remove only Demo3+Case3; keep S65-S67 Demo1/2/2 and all other allocations.
+Align current references while preserving source editions and historical IDs.
+
+## Rationale
+
+The general verification principle remains useful, but the specific audit
+adds little new judgment for this audience. Keep it inspectable without
+interrupting the concept sequence before the task's context is explained.
+
+## Alternatives
+
+Keep a shortened standalone audit: still adds another verification reprise.
+Remove the evidence entirely: rejected because provenance must remain.
+Fold the full table into S67: rejected because it would recreate the density
+that the approved three-slide split just removed.
+
+## Trade-offs
+
+The main deck no longer demonstrates each recorded action on its own page.
+The principle remains visible; full correspondence remains in supporting
+Notes/reference. Do not imply that body inclusion proves compliance or
+that the Skill alone caused the observed result.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-RESEARCH-004, INV-DIFFICULTY-001, INV-SOT-001.
+
+## Affected Artifacts
+
+Current Map/template mapping, Notes, Full and affected ACT packages,
+source boundary, previews, planning/runbook routes and delivery identities.
+Retain the detailed instruction/action evidence as supporting material.
+
+## Evidence
+
+Explicit user instruction, retained TRIAL-008 Task Prompt and execution
+records, DEC-0017 and BEAT-021. No new Trial, benchmark, product execution
+or timed rehearsal is introduced.
+
+## Training Relevance
+
+YES — separate a valuable verification principle from project-specific
+audit detail, and place each where the audience can use it.
+
+## Follow-up
+
+Render and compare final packages, validate retained evidence and current
+references, then commit/push normally. Keep Windows, room, product-account
+and timed rehearsal unverified. Do not change the Demo repository or Sites.

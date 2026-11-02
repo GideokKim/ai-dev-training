@@ -1,5 +1,21 @@
 # DEMO-03 — Reusable Verification Workflow
 
+## Current121 presentation references — DEC-0131
+
+현재121장·411분. DEMO-03 관련 Map 참조: S65, S66, S67, S69. 회수·Case·참고 연결도 포함하며 모두 Demo 시간이라는 뜻이 아니다. 현재 번호/경로/해시는 [현행 Map](../../plan/SLIDE_MAP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_121_DEC0131.md), [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다.
+
+현재 scheduled Demo는 S65 목록1분 → S66 명시 요청2분 → S67 본문 포함2분, 합계5분이다.
+이전 S68의 지침/행동 대응 Demo3+Case3분은 본편에서 제외했다. 상세 표·근거는 S67 보충 Notes와
+[참고 기록](../../references/demo-evidence/skill-instruction-action-record.md)에 보존하며 별도 발표 시간으로 계산하지 않는다.
+S67은 지침 포함과 실제 수행을 구분하는 문장으로 끝내고 현재 S68 Skill 제작 팁으로 연결한다.
+현재 S69 절차/답 구분, S70 후보, S71 결과의 Lecture/Case 배정은 그대로다.
+기본 정적 파일은 `production/preview/full/S65.png`, `production/preview/full/S66.png`, `production/preview/full/S67.png`다.
+실제 Prompt를 새로 실행하지 않으며 본문 포함을 전체 지침 준수·독립적 효과로 확대하지 않는다.
+
+Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 아래 이전 번호·명령·상태는 당시 이력으로 보존하며 그대로 실행하지 않는다. 새 Trial·Demo 저장소·발표 묶음 변경은 없다.
+
+## Preserved previous operation records
+
 ## Current122 presentation references — DEC-0130
 
 현재122장·417분. DEMO-03 관련 Map 참조: S65, S66, S67, S68, S70. 이 목록은 회수/Case/참고 연결도 포함하며 모두 Demo 시간이라는 뜻이 아니다. 현재 번호·경로/해시는 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)와 [현행 Map](../../plan/SLIDE_MAP.md)을 따른다.

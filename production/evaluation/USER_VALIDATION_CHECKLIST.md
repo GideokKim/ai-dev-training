@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+현재121장·411분과 S67→Skill 제작 팁 연결은 [DEC-0131 검토](S68_REMOVAL_AND_EVIDENCE_RETENTION.md), [전달 안내](FINAL_HANDOFF.md), [121-ID 대응표](../../plan/SLIDE_ID_MIGRATION_121_DEC0131.md)를 따른다. 이전S68의 상세 수행 근거는 Notes·참고 자료에 보존했다. 실제 운영·Windows·발표PC/교육장·제품/계정은 UNVERIFIED다.
+
+## 보존된 이전 기록
+
 현재122장·417분과 S65–S67의1/2/2분 구성은 [DEC-0130 검토](S65_SKILL_EVIDENCE_SPLIT.md), [현재 전달 안내](FINAL_HANDOFF.md), [122-ID 대응표](../../plan/SLIDE_ID_MIGRATION_122_DEC0130.md)를 따른다. CLI 관찰/현재 제품, 본문 포함/실제 수행의 경계를 유지한다. 실제5분 운영·Windows·발표PC/교육장·계정은 기존처럼 UNVERIFIED다.
 
 ## 보존된 이전 체크리스트

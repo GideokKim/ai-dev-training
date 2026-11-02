@@ -1,5 +1,10 @@
 # S65 — Skill 근거를 세 단계로 분리
 
+현재 DEC-0131:121장·411분. S65–S67의1/2/2Demo분은 유지하고, 이전 S68의 독립 대응표는
+보충 Notes/[참고 기록](../references/demo-evidence/skill-instruction-action-record.md)에 보존한다.
+S67의 원칙 회수 → 현재 S68 Skill 제작 팁 → S69 절차/답 구분 → S70/S71 후보/결과로 이어진다.
+[현재 번호 이행](SLIDE_ID_MIGRATION_121_DEC0131.md)을 우선하고 아래 이전 설계는 보존한다.
+
 Decision: DEC-0130. Date:2026-11-02. Baseline:`4640091`.
 
 ## 승인 범위
