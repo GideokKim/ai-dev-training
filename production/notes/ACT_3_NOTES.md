@@ -1,5 +1,12 @@
 # ACT 3 — Speaker Notes
 
+Current: DEC-0135 /118slides/403minutes. ACT3: S60–S82, 23slides/78minutes.19fields per slide. Former119-edition S78 and its2Lecture minutes are deleted without transferring its lesson. Remaining slide allocations are unchanged.
+
+<details>
+<summary>이전 Notes 표지·제작 기준 보존</summary>
+
+# ACT 3 — Speaker Notes
+
 Current: DEC-0133 /119slides/405minutes. ACT3: S60–S83, 24slides/80minutes.19fields per slide. The former S74 keeps Demo2 VISUAL+Case2 and is now S109 in ACT5. No deleted lesson or extra time is restored.
 
 <details>
@@ -90,6 +97,8 @@ Windows/room/product-account/timed rehearsal UNVERIFIED.
 
 </details>
 
+</details>
+
 ## S60 — AI가 일할 방법과 환경 설계하기
 
 **Slide ID:**
@@ -143,7 +152,7 @@ N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S61 — 두 실제 요청에 같은 절차가 반복됐다로 이어간다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 3 총80분, 전체405분이다. 제목·부제만 안내하고1분에 S61로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 3 총78분, 전체403분이다. 제목·부제만 안내하고1분에 S61로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S60.png 또는 production/ACT_3.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
@@ -933,7 +942,7 @@ Speaker Flow:
 5. (3:00–4:00 / Lecture) 아래 공통 실행 환경과 작업·검증을 연결한 선을 따라간다. Repository·입력·권한·실행/측정 조건은 둘 다 가능한 기반이다. 이 전체를 작업 환경과 방법의 운영 모델인 Harness로 묶는다. 공식 OpenAI 정의나 보편적인 필수 목록·고정 실행 trace가 아니다.
 6. (4:00–5:30 / Demo) CAPTURED 정적 대응: 실제 STATE-04-PERF의 목표·AGENTS.md·docs·성능 Skill·tests·benchmark와 기록된 입력/환경을 기존 실제 구성에 대응한다. 점선 Subagent 노드는 이 실제 대응에 포함하지 않는다. 새 노드를 호출하거나 실행한 기록이 아니며 실제 지침·검사·수치는 재강의하지 않는다. TRIAL-008 후보와 정식 상태의 재조사·검증을 구분하고 환경 전체를 감사했다고 주장하지 않는다.
 7. (5:30–6:00 / Demo) 실제 사례의 범위에서 구성 대응을 마치고 ‘이 작업 체계에서 공통으로 검토해 둔 부분을 다음 프로젝트에도 쓸 수 있을까요?’로 S76을 연다. 제품이나 새 명령을 실행하지 않는다.
-마지막 연결은 다음 프로젝트에서도 사용할 기반의 가치다. 실행 조건의 세부는 S78–S82에서 단계별로 다룬다.
+마지막 연결은 다음 프로젝트에서도 사용할 기반의 가치다. 이후 S78–S81에서는 첫 결과의 검토와 다음 수정을 연결하는 흐름을 살펴본다.
 
 Evidence / Source: DEC-0023의 이 과정 Harness 운영 정의; BEAT-035/036; STATE-04-PERF; DEC-0062/0075/0076; DEMO-09. OBSERVED_PRODUCT / TEACHING_MODEL. plan/DEMO_MATRIX.md의 Current Harness 및 §§191–200 Working Harness Success, S75의 실제 구성 대응을 사용한다. AGENTS.md·상세 문서·repository Skill·테스트·benchmark는 보존된 실제 근거이며 환경 전체의 완전한 감사 증거는 아니다.; DEC-0080.
 
@@ -1060,7 +1069,7 @@ Lecture 2분
 Speaker Flow:
 1. (0:00–0:35 / Lecture) 왼쪽 Harness 기반 모듈에서 조사·변경·검증의 수행 흐름, 도구를 연결하는 방식, 보고 틀을 짚는다. S76에서 각 프로젝트 안으로 가져온 재사용 방법의 역할이다.
 2. (0:35–1:25 / Lecture) Project Context 문서에서 이 프로젝트의 목표·명세, 실제 명령·도구, 권한·실행 조건을 짚는다. 여기서 Project Context는 해당 프로젝트 정보와 실행을 연결할 조건의 묶음이다. 공통 모듈의 ‘어떻게 수행할지’와 프로젝트 문서의 ‘이곳에서 무엇을 참고하고 어떤 조건으로 연결할지’를 구분한다. 둘이 결합되어 오른쪽 프로젝트 작업 체계로 조립되는 큰 흐름을 따라간다. 프로젝트 사실 전체를 공통 지침으로 복사하지 않는다.
-3. (1:25–2:00 / Lecture) 재사용할 방법에 프로젝트 기준을 연결한다는 가치를 회수한다. 이 결합 그림이 자동 실행·이식 성공의 기록은 아니다. 운영 중 사람이 새로 확인·보정할 점을 발견하면 그 경험이 다음 작업에 남는지 S78의 질문으로 넘긴다. 외부 권한 오류를 다음 중심 사례로 예고하지 않는다.
+3. (1:25–2:00 / Lecture) 재사용할 방법에 프로젝트 기준을 연결한다는 가치를 회수한다. 이 결합 그림이 자동 실행·이식 성공의 기록은 아니다. “작업 체계를 갖췄다면, 첫 결과가 나왔을 때 바로 끝낼 수 있을까요?”를 묻고 S78의 첫 결과 검토 상황으로 직접 연결한다.
 
 **Evidence / Source:**
 사용자 승인 / DEC-0091; DEC-0023의 Harness 운영 모델. OpenAI 공식 Build skills https://learn.chatgpt.com/docs/build-skills 및 Plugin architecture https://developers.openai.com/plugins/concepts/plugins (2026-10-25 확인). 공식 자료는 반복 수행 방법의 패키징·공유를 뒷받침한다. Harness 전체의 이식 구조는 이 교육의 설계 모델이다.
@@ -1085,8 +1094,7 @@ N/A — Lecture2분. Harness 기반 모듈 + Project Context 문서 → 프로�
 **Audience Interaction:**
 Opening Question은 짧은 생각을 돕는 질문이다. 참가자 실습·개인 작성·공개 답변을 요구하지 않는다.
 
-**Transition:**
-“이 기반으로 작업하는 동안 사람이 새로 확인할 부분을 찾는다면, 그 경험은 다음 작업에 어떻게 남을까요?”
+Transition: “작업 체계를 갖췄다면, 첫 결과가 나왔을 때 바로 끝낼 수 있을까요?” 다음 S78로 이어간다.
 
 Time Management:
 Lecture2분: 0:35까지 공통 기반 모듈,1:25까지 프로젝트 문서와 결합된 작업 체계,2:00까지 운영 중 다음 질문으로 이동한다. 정보 역할과 수행 방법의 차이를 유지하고 도구 설치·문법·권한 설정 설명으로 늘리지 않는다. 실측 리허설 UNVERIFIED.
@@ -1097,75 +1105,10 @@ LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S77 또는 production/preview
 **Validation Status:**
 CONTENT ALIGNED — DEC-0091. 로컬 PPT/Notes/렌더 검토는 production/evaluation/HARNESS_REUSE_REVISION.md에 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S78 — 이번 성공만으로 다음 작업까지 확인되지는 않는다
+## S78 — 첫 결과 뒤에도, 확인할 일이 남는다면?
 
 **Slide ID:**
 S78
-
-**Working Title:**
-이번 성공만으로 다음 작업까지 확인되지는 않는다
-
-**ACT / Section:**
-ACT 3 / 3G Minimum Effective Harness 완성
-
-**Allocated Time:**
-2 minutes
-
-**Mode Split:**
-Lecture 2분
-
-**Primary Message:**
-밝기 통계 작업의 성공은 기록된 명세·코드·입력·환경에서 확인한 결과다. 그 성공만으로 이후 모든 작업의 요구와 검증 범위를 확인한 것은 아니다.
-
-**Opening Question:**
-“검증한 Harness를 다시 쓰면, 이후 작업에서 사람이 확인할 점은 모두 사라질까요?”
-
-**Speaker Flow:**
-1. (0:00–0:35 / Lecture) S77의 공통 기반과 프로젝트 기준 연결을 받아, 실제 밝기 통계 작업의 확인한 성공을 왼쪽에서 짚는다. 숫자·검증 절차를 다시 강의하지 않는다.
-2. (0:35–1:25 / Lecture) 오른쪽 다음 작업은 관찰 결과가 아니라 질문이다. 새 요구·입력·확인 범위가 있을 수 있으며 현재 성공으로 모든 후속 작업을 검증했다고 말할 수 없음을 설명한다.
-3. (1:25–2:00 / Lecture) 운영 중 사람이 추가 확인할 점을 발견하는 교육용 상황으로 전환한다. Harness가 이미 실패했다거나 외부 설정이 원인이라고 예고하지 않는다.
-
-**Evidence / Source:**
-plan/MASTER_PLAN.md §§5.7–5.9; plan/DEMO_MATRIX.md STATE-04-PERF의 검증 결과; DEC-0092. 실제 Product endpoint의 성공을 보존한다. 과거 TRIAL-001의 권한 오류는 S09과 원기록에 유지하며 새 보정 시나리오의 원인으로 사용하지 않는다.
-
-보존된 상세 출처: OBSERVED_PRODUCT · STATE-04-PERF의 성공 회수 / 오른쪽은 다음 작업에 대한 질문
-
-**Claim Boundary:**
-FROZEN WITH SCOPE / TEACHING MODEL — STATE-04-PERF의 성공 범위만 회수한다. 오른쪽 다음 작업은 질문이며 실제 후속 실패·반복 보정·새 Product State가 아니다.
-
-보존된 상세 범위: 기록된 코드·입력·환경에서 확인한 결과 · 이후 모든 작업의 성공이나 실패를 관찰한 것은 아님
-
-**Beginner Explanation:**
-작동하는 기반을 만들었어도, 다음 작업에서 새로 확인할 점은 생길 수 있다.
-
-**Advanced Insight:**
-한정된 성공과 보편적인 수행 적합성 보장을 구분하고, 운영에서 얻을 추가 관찰의 필요를 연다.
-
-**C++ Vision Bridge:**
-N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
-
-**Demo Operation:**
-N/A — Lecture2분. 실제 제품·CLI를 실행하거나 가상 보정을 실제 수행한 것처럼 보여주지 않는다. 각 장은 정적 의미 재구성/교육용 상황도다.
-
-**Audience Interaction:**
-Opening Question은 생각을 돕는 질문이다. 참가자 실습·작성·공개 답변을 요구하지 않는다.
-
-**Transition:**
-확인된 성공은 기록된 범위로 보존한다. 새 작업의 첫 결과 뒤에도 남은 문제가 있을 수 있다는 별도 가정으로 S79을 연다.
-
-**Time Management:**
-Lecture2분.0:35까지 질문·장면,1:25까지 핵심 차이,2:00에 다음 장의 질문으로 이동한다. 환경·도구 설정 강의나 ACT4의 구체적 개선·평가를 미리 설명하지 않는다. 실측 리허설 UNVERIFIED.
-
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S78 또는 production/preview/full/S78.png. 실제 실행 Screenshot·Trial·새 관찰 결과로 표현하지 않는다.
-
-**Validation Status:**
-CONTENT ALIGNED — DEC-0092. 현재 로컬 결과는 production/evaluation/ACT3_LOOP_HANDOFF_REVISION.md에 기록한다. Windows/발표 PC 글꼴/교육장/제품·계정/실측 리허설 UNVERIFIED.
-
-## S79 — 첫 결과 뒤에도, 확인할 일이 남는다면?
-
-**Slide ID:**
-S79
 
 **Working Title:**
 첫 결과 뒤에도, 확인할 일이 남는다면?
@@ -1186,8 +1129,8 @@ Lecture 2분
 첫 결과 뒤에 무엇이 아직 남았는지는 누가 확인할까?
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) 첫 결과가 나와도 완료 기준의 미충족 항목이 남을 수 있다는 가상 상황을 연다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
-2. (1:00–2:00 / Lecture) 첫 변경 결과를 사람이 검토하고 수정 요청으로 잇는 S80로 넘긴다.
+1. (0:00–1:00 / Lecture) S77에서 프로젝트 기준을 연결한 작업 체계를 받아, 첫 결과가 나왔을 때 바로 끝낼 수 있는지 묻는다. 첫 결과가 나와도 완료 기준의 미충족 항목이 남을 수 있다는 가상 상황을 연다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
+2. (1:00–2:00 / Lecture) 첫 변경 결과를 사람이 검토하고 수정 요청으로 잇는 S79로 넘긴다.
 
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -1215,21 +1158,21 @@ N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다�
 N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-첫 변경 결과를 사람이 검토하고 수정 요청으로 잇는 S80로 넘긴다.
+첫 변경 결과를 사람이 검토하고 수정 요청으로 잇는 S79로 넘긴다.
 
 **Time Management:**
 Lecture 2분 = 2분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S79; production/preview/act3/S79.png 및 production/preview/full/S79.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S78; production/preview/act3/S78.png 및 production/preview/full/S78.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S80 — 남은 문제를 다음 수정으로 이어주는 사람
+## S79 — 남은 문제를 다음 수정으로 이어주는 사람
 
 **Slide ID:**
-S80
+S79
 
 **Working Title:**
 남은 문제를 다음 수정으로 이어주는 사람
@@ -1251,7 +1194,7 @@ Lecture 2분
 
 **Speaker Flow:**
 1. (0:00–1:00 / Lecture) 같은 목표 안에서 검토·수정·재확인을 사람이 매번 다시 요청하는 상황을 설명한다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
-2. (1:00–2:00 / Lecture) 이 연결에서 수행 방법과 다음 행동 판단을 구분하는 S81로 넘긴다.
+2. (1:00–2:00 / Lecture) 이 연결에서 수행 방법과 다음 행동 판단을 구분하는 S80로 넘긴다.
 
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -1279,21 +1222,21 @@ N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다�
 N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-이 연결에서 수행 방법과 다음 행동 판단을 구분하는 S81로 넘긴다.
+이 연결에서 수행 방법과 다음 행동 판단을 구분하는 S80로 넘긴다.
 
 **Time Management:**
 Lecture 2분 = 2분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S80; production/preview/act3/S80.png 및 production/preview/full/S80.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S79; production/preview/act3/S79.png 및 production/preview/full/S79.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S81 — 같은 목표의 수정과 검토가 끊기지 않게
+## S80 — 같은 목표의 수정과 검토가 끊기지 않게
 
 **Slide ID:**
-S81
+S80
 
 **Working Title:**
 같은 목표의 수정과 검토가 끊기지 않게
@@ -1315,7 +1258,7 @@ Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정�
 
 **Speaker Flow:**
 1. (0:00–1:00 / Lecture) Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정으로 돌리는 제어가 필요하다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
-2. (1:00–2:00 / Lecture) 같은 목표의 다음 수정이 이어받을 상태를 S82에서 살펴본다.
+2. (1:00–2:00 / Lecture) 같은 목표의 다음 수정이 이어받을 상태를 S81에서 살펴본다.
 
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -1343,21 +1286,21 @@ N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다�
 N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-같은 목표의 다음 수정이 이어받을 상태를 S82에서 살펴본다.
+같은 목표의 다음 수정이 이어받을 상태를 S81에서 살펴본다.
 
 **Time Management:**
 Lecture 2분 = 2분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S81; production/preview/act3/S81.png 및 production/preview/full/S81.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S80; production/preview/act3/S80.png 및 production/preview/full/S80.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S82 — 다음 수정에 넘길 기록
+## S81 — 다음 수정에 넘길 기록
 
 **Slide ID:**
-S82
+S81
 
 **Working Title:**
 다음 수정에 넘길 기록
@@ -1379,7 +1322,7 @@ Lecture 2분
 
 **Speaker Flow:**
 1. (0:00–1:00 / Lecture) 목표·완료 기준, 현재 변경·검사 기록, 남은 검토 지적을 다음 수정에 전달한다. 화면의 근거 등급을 짚고 실제 Trial의 반복 실패 기록과 구분한다.
-2. (1:00–2:00 / Lecture) S83에서 내가 계속 이어 주는 다음 요청 하나를 떠올리게 한다.
+2. (1:00–2:00 / Lecture) S82에서 내가 계속 이어 주는 다음 요청 하나를 떠올리게 한다.
 
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -1407,21 +1350,21 @@ N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다�
 N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
 
 **Transition:**
-S83에서 내가 계속 이어 주는 다음 요청 하나를 떠올리게 한다.
+S82에서 내가 계속 이어 주는 다음 요청 하나를 떠올리게 한다.
 
 **Time Management:**
 Lecture 2분 = 2분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S82; production/preview/act3/S82.png 및 production/preview/full/S82.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S81; production/preview/act3/S81.png 및 production/preview/full/S81.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S83 — 내가 매번 이어 주는 다음 단계는 무엇일까?
+## S82 — 내가 매번 이어 주는 다음 단계는 무엇일까?
 
 **Slide ID:**
-S83
+S82
 
 **Working Title:**
 내가 매번 이어 주는 다음 단계는 무엇일까?
@@ -1444,7 +1387,7 @@ Reflection 3분 + Q&A 5분 + Transition 2분
 **Speaker Flow:**
 1. (0:00–3:00 / Reflection) 검토·수정·완료 중 내가 계속 이어 주는 요청 하나를 마음속으로 고른다. 기록·발표를 요구하지 않는다.
 2. (3:00–8:00 / Q&A) 질문을 받는다. 없으면 “검토가 끝난 뒤 다음 수정은 누가 이어 주나요?”를 사용한다. 완료 기준과 사람의 책임을 유지하고 제품 기능을 단정하지 않는다.
-3. (8:00–10:00 / Transition) S84의 목표 기반 실행·검토 시스템 제목을 거쳐 S85의 사람의 연결 문제로 이어간다.
+3. (8:00–10:00 / Transition) S83의 목표 기반 실행·검토 시스템 제목을 거쳐 S84의 사람의 연결 문제로 이어간다.
 
 **Evidence / Source:**
 BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
@@ -1472,13 +1415,13 @@ N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다�
 Reflection: 내가 매번 이어 주는 검토·수정·확인 요청은 무엇일까? 공유·기록·실습은 요구하지 않는다.
 
 **Transition:**
-S84의 목표 기반 실행·검토 시스템 제목을 거쳐 S85의 사람의 연결 문제로 이어간다.
+S83의 목표 기반 실행·검토 시스템 제목을 거쳐 S84의 사람의 연결 문제로 이어간다.
 
 **Time Management:**
 Reflection 3분 + Q&A 5분 + Transition 2분 = 10분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S83; production/preview/act3/S83.png 및 production/preview/full/S83.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S82; production/preview/act3/S82.png 및 production/preview/full/S82.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
 
 **Validation Status:**
 REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.

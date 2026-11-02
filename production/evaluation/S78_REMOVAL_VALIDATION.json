@@ -1,0 +1,149 @@
+{
+  "status": "RENDER_AND_STRUCTURE_PASS",
+  "baseline": "eaba6013e578af9d6bdff49e1d1b516550544562",
+  "slides": 118,
+  "minutes": 403,
+  "removedSlide": {
+    "baselineId": "S78",
+    "title": "이번 성공만으로 다음 작업까지 확인되지는 않는다",
+    "minutes": 2,
+    "mode": "Lecture",
+    "absorbedIntoAnotherSlide": false
+  },
+  "actCounts": [
+    14,
+    23,
+    22,
+    23,
+    20,
+    16
+  ],
+  "actMinutes": [
+    42,
+    64,
+    90,
+    78,
+    85,
+    44
+  ],
+  "modes": {
+    "Transition": 23,
+    "Lecture": 180,
+    "Reflection": 22,
+    "Case": 102,
+    "Demo": 44,
+    "Q&A": 32
+  },
+  "nativeTables": [
+    "S54"
+  ],
+  "nativeCharts": [
+    "S70",
+    "S94"
+  ],
+  "noteFields": 19,
+  "noteRecords": 118,
+  "renderedPngs": 236,
+  "embeddedNotes": 236,
+  "retainedScreenComparison": {
+    "pixelIdentical": 77,
+    "onlyRenumberedReferences": 41
+  },
+  "renumberedScreenIds": [
+    "S78",
+    "S79",
+    "S80",
+    "S81",
+    "S82",
+    "S83",
+    "S84",
+    "S85",
+    "S86",
+    "S87",
+    "S88",
+    "S89",
+    "S90",
+    "S91",
+    "S92",
+    "S93",
+    "S94",
+    "S95",
+    "S96",
+    "S97",
+    "S98",
+    "S99",
+    "S100",
+    "S101",
+    "S102",
+    "S103",
+    "S104",
+    "S105",
+    "S106",
+    "S107",
+    "S108",
+    "S109",
+    "S110",
+    "S111",
+    "S112",
+    "S113",
+    "S114",
+    "S115",
+    "S116",
+    "S117",
+    "S118"
+  ],
+  "retainedSlidesCompared": 118,
+  "fullActPixelParity": 118,
+  "preservedImages": true,
+  "preservedChartCaches": true,
+  "firstMemoryLabel": "S108",
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "count": 118,
+      "sha256": "fee0b5c3e2a4d48a70a008f9c53f8f476eb3aecd997a0f530bf0e0904ccf749a"
+    },
+    {
+      "name": "ACT_0",
+      "count": 14,
+      "sha256": "7d220b8743500859a8b16c47495bcf08ed3aa228f9cfa348fd204ce643cb60e3"
+    },
+    {
+      "name": "ACT_1",
+      "count": 23,
+      "sha256": "b623d44b18a123b6a848df61dc0ae6efebcd43b8d7c57697232b5ed90ad7b24f"
+    },
+    {
+      "name": "ACT_2",
+      "count": 22,
+      "sha256": "bc34ccd5d31df9cdb8e59dd32b9f3858724712a7e7344283238cbf4a63a66721"
+    },
+    {
+      "name": "ACT_3",
+      "count": 23,
+      "sha256": "cd638dcf88b398f20ed202664264d1868d7ea063755677864a471044855b8728"
+    },
+    {
+      "name": "ACT_4",
+      "count": 20,
+      "sha256": "23c78422c57894cf413a17c194cdbe673e7b5f94b9814bae7feb8eee7928230e"
+    },
+    {
+      "name": "ACT_5",
+      "count": 16,
+      "sha256": "588eb8088011009f87c8aa9e07822da853d6d109b111cc45c5e571f9ce7277f3"
+    }
+  ],
+  "windows": "UNVERIFIED",
+  "room": "UNVERIFIED",
+  "productAccount": "UNVERIFIED",
+  "rehearsal": "UNVERIFIED",
+  "prunedSupersededPreviewPaths": [
+    "production/preview/full/S119.png",
+    "production/preview/act3/S83.png",
+    "production/preview/act4/S103.png",
+    "production/preview/act5/S119.png"
+  ],
+  "ooxmlValidation": "PASS — all seven packages against prior committed originals",
+  "visualReview": "PASS — all six ACT montages and current S75-S84/S115-S118 individual renders; numbering-only pixel comparison across all118retained slides"
+}

@@ -1,5 +1,18 @@
 # Current presentation source
 
+Current: DEC-0135 /118slides/403minutes. Apply `s78-removal-118.mjs`
+once after the119-ID Memory move and Harness visual factories. Remove
+only prior S78; shift prior S79-S119 down1. Do not transfer the deleted
+warning to another slide. Resolve retained metadata and fresh-factory
+checks through `beforeS78Removal`, then convert visible IDs once.
+Use current Notes for S77's direct handoff to the first-result question.
+Native table:S54; charts:S70/S94. Rebuild Full and all ACT packages to
+synchronize embedded Notes and current references, while preserving
+all retained screen content, per-slide budgets and evidence boundaries.
+[Current design](../../../plan/S78_REMOVAL.md).
+
+## Preserved source decisions
+
 Current visual refinement: DEC-0134. Overlay `harness-visual-system.mjs`
 after all retained numbering stages. S75-S77 are current-ID native
 factories, so they share the historical-adapter bypass with S109.

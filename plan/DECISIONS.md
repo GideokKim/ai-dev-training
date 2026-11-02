@@ -13259,3 +13259,87 @@ Render and compare the three slides and final packages, align Notes,
 validate119slides/405minutes and unchanged per-slide allocations, then
 commit/push normally. Preserve the Windows, room, product-account and
 rehearsal gates. Do not change the Demo repository, Sites or bundles.
+
+# DEC-0135 — Remove S78 and connect reuse to same-goal review
+
+## Status
+
+ACCEPTED — explicit user approval to delete currentS78 and align the
+adjacent connection, without absorbing its content elsewhere.
+
+## Date
+
+2026-11-02
+
+## Context
+
+The current S78 discusses whether a success generalizes to another task.
+ACT4 instead addresses implementation, review and revision within the
+same goal. S79 already opens the first-result/completion distinction.
+
+## Problem
+
+Keep the Harness reuse benefit while making the next lesson's question
+about unmet completion criteria and the next revision, not generalization.
+
+## Decision
+
+Remove old119-edition S78 and only its Lecture2minutes. Do not absorb its
+content into another slide or active Notes, or create a new reference.
+Connect S77 directly to the existing first-result lesson, now S78, with:
+"작업 체계를 갖췄다면, 첫 결과가 나왔을 때 바로 끝낼 수 있을까요?"
+Remove the forward implication about carrying experience to another task.
+Shift oldS79-S119 down1. Use118slides/403minutes with ACT3 23slides/78minutes,
+ACT4 20slides/85minutes and ACT5 16slides/44minutes. Keep all other slide
+allocations, IDs, section/beat identities and evidence boundaries.
+Use modes Lecture180/Demo44/Case102/Reflection22/Transition23/Q&A32.
+Remove the T04-A row, leaving T04 15slides; add no Template or variant.
+Preserve the existing verification principle in evidence/claim scope and
+source history. Do not restore previously deleted audit content.
+
+## Rationale
+
+The remaining first-result lesson and human-connected revision lesson
+already establish why a same-goal review/fix loop is useful. The deleted
+page adds a different question and interrupts that causal sequence.
+
+## Alternatives
+
+Keep S78: retains a separate generalization warning but delays the
+same-goal completion problem. Reframe it as that problem: duplicates the
+existing first-result lesson. Copy it into neighboring slides: outside
+the approved deletion scope.
+
+## Trade-offs
+
+The main deck no longer has a separate two-minute page on the next task's
+suitability. Existing observed results retain their bounded claim scope.
+The Harness reuse benefit and project-specific binding requirement remain.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-MATURITY-010,
+INV-VERIFY-001, INV-RESEARCH-004, INV-SOT-001.
+
+## Affected Artifacts
+
+Current Map/template registry, planning routes, Notes, affected ACT/full
+packages, source adapter, previews, tip indexes and delivery identities.
+Keep the Demo repository, Sites and presenter bundle unchanged.
+
+## Evidence
+
+Explicit user approval; existing same-goal transition and ACT4 plan;
+DEC-0092/0134 and existing verification scope. No new Trial, observed
+failure, model execution, benchmark or timed rehearsal is introduced.
+
+## Training Relevance
+
+YES — separate the generality of a previous result from the control needed
+to review and revise the current candidate under the same completion goal.
+
+## Follow-up
+
+Validate118IDs/403minutes, retained slide allocations, Notes, references
+and final renders; then commit/push normally. Keep Windows, room,
+product-account and timed rehearsal gates unverified.

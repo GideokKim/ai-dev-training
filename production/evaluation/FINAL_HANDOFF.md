@@ -1,5 +1,44 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S78 삭제·Harness→Loop 직접 연결 — DEC-0135 (2026-11-02)
+
+현재 **118장·403분(6시간43분)**. 이전 S78의 다음 작업 성공 범위 경고를 삭제했다.
+삭제 내용을 다른 Slide/Notes로 옮기지 않고 S77 작업 체계 → 새 S78 첫 결과 → S79 수정/재검토로 연결한다.
+이전 S79–S119는 현재 S78–S118이며 삭제한 Lecture 2분만 제외했다.
+ACT 장수는 14/23/22/23/20/16, 시간은 42/64/90/78/85/44분이다.
+Mode는 Lecture 180 / Demo 44 / Case 102 / Reflection 22 / Transition 23 / Q&A 32분이다.
+다른 장별 배정·실제 근거·Claim Boundary와 ACT4의 20장/85분을 유지한다.
+Native 표 S54·차트 S70/S94, Memory S108, Goal S100/S101, 찾아보기 S115–S117을 사용한다.
+[검토 결과](S78_REMOVAL.md), [현행 Map](../../plan/SLIDE_MAP.md),
+[번호 대응표](../../plan/SLIDE_ID_MIGRATION_118_DEC0135.md)를 따른다.
+통합/ACT 7개 PPT와 236개 렌더·내장 Notes를 대조했다. 43개 정적 Fallback 경로·해시를 정렬했다.
+Windows·발표 PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않았다.
+이하 이력은 당시 판본이며 이전 번호·검증을 현재판으로 취급하지 않는다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `fee0b5c3e2a4d48a70a008f9c53f8f476eb3aecd997a0f530bf0e0904ccf749a` |
+| `production/ACT_0.pptx` | `7d220b8743500859a8b16c47495bcf08ed3aa228f9cfa348fd204ce643cb60e3` |
+| `production/ACT_1.pptx` | `b623d44b18a123b6a848df61dc0ae6efebcd43b8d7c57697232b5ed90ad7b24f` |
+| `production/ACT_2.pptx` | `bc34ccd5d31df9cdb8e59dd32b9f3858724712a7e7344283238cbf4a63a66721` |
+| `production/ACT_3.pptx` | `cd638dcf88b398f20ed202664264d1868d7ea063755677864a471044855b8728` |
+| `production/ACT_4.pptx` | `23c78422c57894cf413a17c194cdbe673e7b5f94b9814bae7feb8eee7928230e` |
+| `production/ACT_5.pptx` | `588eb8088011009f87c8aa9e07822da853d6d109b111cc45c5e571f9ce7277f3` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `6341298e1bb9e3fb5b678fc0739a6ec1875d446b2a7505b2b4e1008effd01940` |
+| `production/preview/full/montage.png` | `f72ede04efc10ca7273203a03c1d806a8acb7634cd59b043ac75088d97e48268` |
+| `production/preview/act0/montage.png` | `eb37120330c3892db3b31993c8ae3863e9818f6873f08f987a037a95d5bb9cb6` |
+| `production/preview/act1/montage.png` | `a23d9561b294917588e5e0d8241be709c79883b79366b3470f094a17fca705ab` |
+| `production/preview/act2/montage.png` | `d7e66c468274d0aa80b83000ac284535d12b366fd81ebbfef849e713da0112a1` |
+| `production/preview/act3/montage.png` | `019c0c37eb2e213873cf564cad730fce8a36e25ba818b9c6189f0d792c334451` |
+| `production/preview/act4/montage.png` | `27eb0f713a56228a87fc07bb7a0e815476e6bd4f107ee6c8db946cdd009b07e3` |
+| `production/preview/act5/montage.png` | `58d8b4b7f21b11abba04e4ef93bd56376001110b40693ca488351bc06c319352` |
+| `production/preview/full/S77.png` | `c25b451f6b0511ebb55e9f01580fd4f114ea932292d1b4937c6505f920c4b5ef` |
+| `production/preview/full/S78.png` | `5c3cda6badaf56f5a68879cbbd1ac29e674aa0cc1583ffc12ea2f8113573bb19` |
+| `production/preview/full/S79.png` | `bce77334e75a1e88245a2f5031a6456459827f1ea151e3e11f41f0c2ece08771` |
+| `production/preview/full/S83.png` | `3c83da5d0af6dcc97b31fb9546d1cba47c3096e8aa524e347f1f87d812bd165b` |
+
+## 보존된 이전 전달 기록
+
 ## Harness 구조·재사용·결합 — DEC-0134 (2026-11-02)
 
 현재119장·405분과 모든 장별 배정은 유지한다. 최신 S75–S77의 시각화만 개선했다.

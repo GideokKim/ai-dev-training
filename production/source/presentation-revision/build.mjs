@@ -27,9 +27,10 @@ import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from
 import {beforeContextSequence,reorderContextFactories,applyContextSequence} from './context-sequence-120.mjs';
 import {isSkillEvidenceSlide,beforeSkillEvidenceSplit,migrateSkillEvidenceFactories,applySkillEvidenceSplit} from './skill-evidence-split-122.mjs';
 import {beforeS68Removal,migrateS68RemovalFactories,applyS68Removal} from './skill-evidence-removal-121.mjs';
-import {CURRENT_SLIDE_COUNT,beforeAct3Trim,migrateAct3TrimFactories,applyAct3Trim} from './act3-trim-119.mjs';
+import {beforeAct3Trim,migrateAct3TrimFactories,applyAct3Trim} from './act3-trim-119.mjs';
 import {beforeMemoryMove,migrateMemoryMoveFactories,applyMemoryMove} from './memory-act5-119.mjs';
 import {HARNESS_VISUAL_IDS,harnessVisualFactories} from './harness-visual-system.mjs';
+import {CURRENT_SLIDE_COUNT,beforeS78Removal,migrateS78RemovalFactories,applyS78Removal} from './s78-removal-118.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
 const ROOT=process.env.TRAINING_REPO??path.resolve(here,'../../..');
@@ -51,7 +52,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d{2,3}) — ([\s\S]*?)(?=^#### S\d{2,3}|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==CURRENT_SLIDE_COUNT)throw new Error('Expected 119 source records.');
+if(Object.keys(map).length!==CURRENT_SLIDE_COUNT)throw new Error(`Expected ${CURRENT_SLIDE_COUNT} source records.`);
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -151,6 +152,10 @@ const memory119=migrateMemoryMoveFactories(factories,H);
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,memory119);
 Object.assign(factories,harnessVisualFactories(H));
+// DEC-0135 deletes only the119-ID S78; retained source editions stay intact.
+const removed118=migrateS78RemovalFactories(factories);
+for(const id of Object.keys(factories))delete factories[id];
+Object.assign(factories,removed118);
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -172,8 +177,9 @@ const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const id of deck.ids){
-  const freshCurrent=id==='S109'||HARNESS_VISUAL_IDS.includes(id);
-  const id122=beforeS68Removal(beforeAct3Trim(beforeMemoryMove(id)));
+  const id119Memory=beforeS78Removal(id);
+  const freshCurrent=id119Memory==='S109'||HARNESS_VISUAL_IDS.includes(id119Memory);
+  const id122=beforeS68Removal(beforeAct3Trim(beforeMemoryMove(id119Memory)));
   const isSplitSource=isSkillEvidenceSlide(id122);
   const sourceId=isSplitSource?null:beforeContextSequence(beforeSkillEvidenceSplit(id122));
   const id121=isSplitSource?null:beforeVerificationDesign(sourceId);
@@ -200,6 +206,7 @@ for(const deck of decks){
    applyAct3Trim(s);
    applyMemoryMove(s);
   }
+  applyS78Removal(s);
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
  }
@@ -207,7 +214,7 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>['S70','S95'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>['S70','S94'].includes(id)?i+1:0).filter(Boolean);
   const tableOwners=deck.ids.map((id,i)=>id==='S54'?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,

@@ -1,5 +1,18 @@
 # Historical supporting runbook — DEMO-04B
 
+## Current118 presentation references — DEC-0135
+
+현재118장·403분. 이전119장판 S78을 삭제하고 이전 S79–S119는 현재 S78–S118로 한 칸 당긴다.
+이전 S01–S77의 번호·시간배정은 같다. 삭제한 내용을 다른 Slide·활성 Notes·새 참고 자료로 옮기지 않는다.
+현재 번호/경로/해시는 [결정 기록](../../plan/DECISIONS.md)의 DEC-0135, [현행 Map](../../plan/SLIDE_MAP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_118_DEC0135.md),
+[FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. 아래 이전 배치·시간·번호·명령은 당시 이력이다.
+
+DEMO-04B의 현재 Map 명시 참조: 현행 Map/Notes의 기존 역할 유지; 새 독립 Demo 배정 없음이다. 회수/Case 참조를 모두 Demo 시간으로 세지 않는다.
+
+Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 새 Trial·Demo 저장소·Sites·발표 묶음 변경은 없다.
+
+## Preserved previous operation records
+
 ## Current119 presentation references — DEC-0133
 
 현재119장·405분. 이전 S74의 Memory4분을 ACT5 S109로 옮기며 이전 S75–S109는-1한다. 나머지 번호는 같다.

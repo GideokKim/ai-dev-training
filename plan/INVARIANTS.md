@@ -52,14 +52,17 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Category: Training Identity
 - Strength: HARD
 - Rule: This is a developer training about ChatGPT and Codex in AI-Native
-  Development. The current net duration is405minutes under DEC-0133, within
-  the user-authorized720-minute ceiling. Use119slides under DEC-0133, including the approved
-  two Goal tips (now S101/S102), the S04 Copilot IDE tip and three
-  scoped-instruction tips S56-S58. ACT2 has22slides/90minutes; ACT3 has24slides/80minutes;
+  Development. The current net duration is403minutes under DEC-0135, within
+  the user-authorized720-minute ceiling. Use118slides under DEC-0135, including the approved
+  two Goal tips (now S100/S101), the S04 Copilot IDE tip and three
+  scoped-instruction tips S56-S58. ACT2 has22slides/90minutes; ACT3 has23slides/78minutes;
   ACT5 has16slides/44minutes after moving the existing four-minute
-  Context/Memory lesson to ACT5 S109 under DEC-0133.
+  Context/Memory lesson to ACT5 (now S108) under DEC-0133.
   Retain the20-slide/85-minute ACT4 and other ACT budgets/evidence.
   The prior GPU slide remains deleted; retain all other approved tips.
+- Historical DEC-0133/0134 Rule:405minutes/119slides, ACT3 24slides/80minutes.
+  DEC-0135 removes only oldS78 and its Lecture2minutes, without absorption
+  or redistribution; later slides shift down1.
 - Historical DEC-0132 Rule:405minutes/119slides, ACT3 25slides/84minutes
   and ACT5 15slides/40minutes. DEC-0133 relocates the same four-minute
   Memory lesson without adding slides or changing global modes.
@@ -86,7 +89,7 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Rationale: The audience, subject, and duration define the scope of the
   training.
 - Source: plan/MASTER_PLAN.md §§1.1–1.2
-- Validation: Does the material preserve the developer scope and the current405-minute schedule and720-minute ceiling under DEC-0133?
+- Validation: Does the material preserve the developer scope and the current403-minute schedule and720-minute ceiling under DEC-0135?
 - Change Policy: Require explicit user approval before changing the scope or
   duration.
 
@@ -395,7 +398,7 @@ keep them stable when this document is reordered and never reuse a retired ID.
   ("What should the system remember?"). Treat scope, reusability, freshness,
   and reliability as Memory concerns; do not frame Memory as a store for
   everything or as free of technical debt.
-- Current placement: ACT5 S109 under DEC-0133. Keep the learning goal,
+- Current placement: ACT5 S108 under DEC-0133, renumbered by DEC-0135. Keep the learning goal,
   original Section3F/BEAT-026-028 and scope/lifecycle concerns while using
   a teaching case of future work reuse, not a product Memory demonstration.
 - Rationale: The distinction explains why a fact belongs in the current task
@@ -413,7 +416,7 @@ keep them stable when this document is reordered and never reuse a retired ID.
   Let the ACT3 Context, Skills, Subagents, Tools and Verification roles
   connect as their previously shown problems are solved. Show the bounded
   architecture late in the Harness chapter or in the final retrospective.
-  Under DEC-0133, teach retained knowledge/Memory in ACT5 S109; it need not
+  Under DEC-0133/0135, teach retained knowledge/Memory in ACT5 S108; it need not
   be introduced first or drawn as a required part of the base Harness.
   Preserve the separate Context/Memory goal in INV-MATURITY-008.
 - Historical pre-DEC-0133 Rule: Let Context, Skills, Memory, Subagents,

@@ -1,47 +1,46 @@
 # STEP 08 — Slide-to-Template Mapping
 
-## Harness 관계·재사용·조립 시각화 — DEC-0134 (2026-11-02)
+## 현재 제작 기준 — DEC-0135 (2026-11-02)
 
-S75는 주 Agent 아래 선택 Subagent를 교육용 점선으로 분리하고 실제 Demo의 단일 Agent 범위를 유지한다.
-S76은 같은 Harness 모듈이 프로젝트 A/B/C 내부에 재사용되는 모습, S77은 그 모듈과 프로젝트 Context의 조립 관계를 보여준다.
-119장·405분·장별 시간/Mode·ID·Story Beat·Section과 근거 범위는 같다. [시각 설계](HARNESS_VISUAL_SYSTEM.md)를 따른다.
-
-## 현재 제작 기준 — DEC-0133 (2026-11-02)
-
-현재 **119장·405분(6시간45분)**. 이전 S74의 Context/Memory 학습을 현재 S109로 옮긴다.
-현재 S108 결과 수용 → S109 재사용할 지식 선별 → S110 AI가 일할 조건 설계로 이어진다.
-S109는 C++ 프로젝트에서 성능 비교 조건을 확인했다는 교육용 가정이다.
-이번 로그·측정값과 다음에도 쓸 조건을 구분하고 출처·적용 범위·갱신 조건을 함께 남긴다.
-'이 프로젝트에서는 Release 빌드·동일 입력으로 비교'는 가정의 기준이며 실제 Python Trial 결과가 아니다.
-다음 작업에서 현재 조건과 대조해 지식을 Context로 활용한다. 제품 자동 저장·회수나 측정 성과를 주장하지 않는다.
-이전 S75–S109는-1, 이전 S74는현재 S109, 나머지는 그대로다. ACT3 S73→S74 실제 구성으로 바로 잇는다.
-앞선 ACT의 설명/화면에서 Memory를 먼저 강의하지 않고 반복 상태 전달의 기존 메시지만 유지한다.
-원 Section3F·BEAT-026–028·Claim/Evidence ID를 유지하며 ACT5 배치를 명시한다.
-S109의 기존4분(Demo2 VISUAL+Case2)을 함께 옮긴다. ACT3 24장·80분, ACT4 20장·85분, ACT5 16장·44분이다.
-Mode Lecture182/Demo44/Case102/Reflection22/Transition23/Q&A32와 다른 장의 시간은 유지한다.
-Native 표는 S54, 차트는 S70/S95.12Templates/28Variants·19Notes 필드를 유지한다.
-삭제한 이전121판 S67/S76의 감사 내용은 복구하거나 흡수하지 않는다.
-Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않는다.
-[이동·개선 기획](MEMORY_ACT5_RELOCATION.md), [번호 대응표](SLIDE_ID_MIGRATION_MEMORY_ACT5_DEC0133.md)를 따른다.
+현재 **118장·403분(6시간43분)**. 이전119장판 S78 “이번 성공만으로 다음 작업까지 확인되지는 않는다”를 삭제한다.
+삭제한 내용은 다른 Slide/활성 Notes에 흡수하지 않고 새 참고 자료도 만들지 않는다. 원본은 Git 이력·기존 원자료에 남는다.
+현재 S77 프로젝트 기준 연결 → S78 첫 결과의 완료 여부 → S79 사람이 잇는 수정으로 바로 이어진다.
+S77의 연결 질문은 “작업 체계를 갖췄다면, 첫 결과가 나왔을 때 바로 끝낼 수 있을까요?”다.
+다음 작업의 일반적 적합성이나 경험 축적을 Loop의 원인으로 삼지 않고, 같은 목표 안의 구현·검토·수정을 이어간다.
+이전 S79–S119는 현재 S78–S118로-1한다. 삭제한 Lecture2분만 제외하며 나머지 장별 시간/Mode·역할·Beat/Section·근거 ID를 유지한다.
+ACT3는23장·78분, ACT4는20장·85분, ACT5는16장·44분이다. 전역 Mode는 Lecture180/Demo44/Case102/Reflection22/Transition23/Q&A32다.
+Native 표 S54, 차트 S70/S94, Memory S108, Goal S100/S101, 마지막 팁 찾아보기 S115–S117을 사용한다.
+S75–S77의 DEC-0134 시각 설계, ACT5 Memory의 원 Section3F·BEAT-026–028·4분과 12Templates/28Variants·19Notes 필드는 유지한다.
+기존 검증 원칙과 실제 관찰의 범위는 기존 Evidence/Claim에서 유지한다. 삭제한 성공 범위 장이나 이전 감사 장을 복구하지 않는다.
+새 Trial·실측·실제 반복/이식·Subagent/Memory 실행·현재 제품 동작 주장은 없다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 변경하지 않는다.
+[삭제·연결 기획](S78_REMOVAL.md), [번호 이행](SLIDE_ID_MIGRATION_118_DEC0135.md), [현행 Map](SLIDE_MAP.md)을 따른다.
+아래 이전 판본의 번호·시간·연결은 당시 이력이며 현재 지시로 적용하지 않는다.
 
 | ACT | Current slides | Count | Minutes |
 |---|---|---:|---:|
 | ACT 0 | S01–S14 | 14 | 42 |
 | ACT 1 | S15–S37 | 23 | 64 |
 | ACT 2 | S38–S59 | 22 | 90 |
-| ACT 3 | S60–S83 | 24 | 80 |
-| ACT 4 | S84–S103 | 20 | 85 |
-| ACT 5 | S104–S119 | 16 | 44 |
-| Total | S01–S119 | 119 | 405 |
+| ACT 3 | S60–S82 | 23 | 78 |
+| ACT 4 | S83–S102 | 20 | 85 |
+| ACT 5 | S103–S118 | 16 | 44 |
+| Total | S01–S118 | 118 | 403 |
 
-## Current119 Template Coverage — DEC-0134
+## 현재 Harness 시각 설계 — DEC-0134 유지
+
+S75의 점선 선택 Subagent는 교육용 확장이고 실제 단일 Agent 근거와 구분한다.
+S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 유지한다.
+[Harness 시각 설계](HARNESS_VISUAL_SYSTEM.md)를 따른다.
+
+## Current118 Template Coverage — DEC-0135
 
 | Template | Slides |
 |---|---:|
 | T01 | 6 |
 | T02 | 6 |
 | T03 | 57 |
-| T04 | 16 |
+| T04 | 15 |
 | T05 | 4 |
 | T06 | 4 |
 | T07 | 13 |
@@ -50,9 +49,9 @@ Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저�
 | T10 | 4 |
 | T11 | 0 |
 | T12 | 6 |
-| Total | 119 |
+| Total | 118 |
 
-## Current119 Slide-to-Template Mapping — DEC-0134
+## Current118 Slide-to-Template Mapping — DEC-0135
 
 | Slide | Primary Template | Required components | Optional | Evidence | Demo / Case | Operation | C++ | Checks |
 |---|---|---|---|---|---|---|---|---|
@@ -133,48 +132,47 @@ Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저�
 | S75 — 함께 작동하는 작업 환경, Harness | T03-B | CMP-EVIDENCE, CMP-CLAIM, CMP-WORKFLOW | CMP-CPP | P+T; solid observed base and dashed optional Subagent teaching extension; no Subagent in STATE-04-PERF | DEMO-09: Lecture4 model; CAPTURED2 observed single-Agent base only; no new execution | Native input/Agent/verification/environment hierarchy; subordinate amber dashed optional independent investigation returns to the main Agent for review/integration; DEC-0134 | Contextual | V01, V02, V05, V08 |
 | S76 — 만든 Harness를 다음 프로젝트의 기반으로 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; reuse design without portability/execution/benefit results | Lecture2; no extra Demo or Trial | One large common Harness module becomes the same smaller module inside projects A/B/C; native grouped shapes, no audience footer; DEC-0134 | — | V01, V02, V05, V07 |
 | S77 — 공통 기반에 프로젝트 기준을 연결한다 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; project bindings and responsibilities, no automatic operation or measured effects | Lecture2; no extra Demo or Trial | Native3regions: same Harness module + project Context document with goals/spec, actual commands and permission/runtime conditions → assembled project work system; DEC-0134 | — | V01, V02, V05, V07 |
-| S78 — 이번 성공만으로 다음 작업까지 확인되지는 않는다 | T04-A | CMP-EVIDENCE, CMP-CLAIM | — | P+T; bounded success and an unexecuted next-task question | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
-| S79 — 첫 결과 뒤에도, 확인할 일이 남는다면? | T03-C | CMP-CLAIM | — | C; fictional task correction, no observed repeat or repair | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
-| S80 — 남은 문제를 다음 수정으로 이어주는 사람 | T04-A | CMP-CLAIM | — | C; fictional task correction, no observed repeat or repair | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
-| S81 — 같은 목표의 수정과 검토가 끊기지 않게 | T03-C | CMP-CLAIM | — | C; fictional task correction, no observed repeat or repair | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
-| S82 — 다음 수정에 넘길 기록 | T03-B | CMP-PRACTICAL-TIP, CMP-CLAIM | — | T; evidence and ownership questions, no new execution | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
-| S83 — 내가 매번 이어 주는 다음 단계는 무엇일까? | T01-B | CMP-CLAIM | — | T; evidence and ownership questions, no new execution | Reflection3+Q&A5+Transition2; no Demo | R1–R3 focus cues | — | V01, V02, V07 |
-| S84 — 목표를 이룰 때까지 수정하고 검토하기 | T12-A | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S85 — 다음 수정도 사람이 매번 이어줘야 할까? | T03-C | CMP-CLAIM | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S86 — 먼저, 무엇이 되면 완료인지 정한다 | T03-A | CMP-CLAIM | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S87 — 모델 A가 첫 변경 후보를 만든다 | T03-C | CMP-CLAIM | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S88 — 실제 동작과 비용은 도구로 확인한다 | T03-A | CMP-CLAIM | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S89 — 모델 B는 무엇을 근거로 검토할까? | T04-A | CMP-CLAIM | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S90 — 지적이 다음 수정으로 이어진다 | T04-A | CMP-CLAIM | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S91 — 고쳤다면, 같은 기준으로 다시 본다 | T03-C | CMP-CLAIM, CMP-LOOP | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S92 — 같은 목표의 구현·검토 루프 | T03-C | CMP-CLAIM, CMP-LOOP | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S93 — 언제 계속하고, 언제 끝낼까? | T03-A | CMP-CLAIM, CMP-LOOP | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S94 — 구현한 모델에게 다시 물으면 충분할까? | T09-A | CMP-CLAIM | — | RESEARCH | Primary paper / scoped RESEARCH | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S95 — 다른 모델의 관점이 도움이 된 실험 | T07-B | CMP-CLAIM | — | RESEARCH | Primary paper / scoped RESEARCH | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S96 — 잘 만드는 능력과 잘 검토하는 능력 | T09-A | CMP-CLAIM | — | RESEARCH | Primary paper / scoped RESEARCH | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S97 — 구현과 검토에 모델을 어떻게 나눌까? | T04-A | CMP-CLAIM, CMP-LOOP | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S98 — 검토 모델의 말도 확인해야 한다 | T03-C | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S99 — 반복하려면 무엇을 이어받아야 할까? | T03-B | CMP-CLAIM, CMP-LOOP | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S100 — 확인한 근거와 아직 실행하지 않은 설계 | T03-A | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S101 — Goal이 목표와 다음 작업을 이어준다 | T03-C | CMP-PRACTICAL-TIP, CMP-CLAIM, CMP-WORKFLOW | — | R+T; documented guidance adapted; target account unverified | Lecture2; no new Demo or Goal activation | Static editable explanatory diagram | — | V01, V02, V05 |
-| S102 — Goal에는 완료 근거와 멈출 조건을 담는다 | T03-C | CMP-PRACTICAL-TIP, CMP-CLAIM, CMP-WORKFLOW | — | R+T; documented guidance adapted; target account unverified | Lecture2; no new Demo or Goal activation | Static editable explanatory diagram | — | V01, V02, V05 |
-| S103 — 우리 작업에는 어떤 루프가 필요할까? | T01-B | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
-| S104 — 내 업무에 맞게 조합하고 덜어내기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
-| S105 — AI에게 맡기는 범위가 넓어졌다 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S115/S116 retain personal choice | — | V01, V05, V10 |
-| S106 — 작업은 요청부터 검토·수정까지 이어진다 | T03-C | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S115/S116 retain personal choice | — | V01, V05, V10 |
-| S107 — 작업 흐름에는 정보·절차·도구가 연결된다 | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S115/S116 retain personal choice | — | V01, V05, V10 |
-| S108 — 결과를 수용할지는 사람이 판단한다 | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S114/S115 retain personal choice | — | V01, V05, V10 |
-| S109 — 이번에 알아낸 것 중, 다음에도 쓸 것은? | T03-C | CMP-WORKFLOW, CMP-CLAIM, CMP-PRACTICAL-TIP | CMP-CPP | C+T; explicit C++ project assumption, no Memory execution | DEMO-08; VISUAL2 + Case2; retained4minutes | Current-task evidence → selected reusable measurement conditions → next-task Context check; native3nodes; DEC-0133 | Contextual | V01, V02, V05 |
-| S110 — AI가 일할 조건과 확인 경로를 설계한다 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S114/S115 retain personal choice | — | V01, V05, V10 |
-| S111 — 모델·플랫폼이 바뀌면 Harness도 다시 본다 | T04-A | CMP-CLAIM | — | R+T; vendor-published integration case; architecture adapted for teaching | No new Demo/Trial/State or measured effect | Single state; previous structure versus candidate, not a replay | Contextual | V01, V05 |
-| S112 — 무엇을 남기고, 무엇을 덜어낼까? | T10-A | CMP-DECISION, CMP-CLAIM | CMP-PRACTICAL-TIP | T; retain requirements, integrate overlaps, assess obsolete workaround | Three equal options; conditions before action; DEC-0083 | Single state | Contextual | V01, V05 |
-| S113 — 덜어낸 뒤에도 필요한 일을 하는가? | T03-C | CMP-CLAIM | CMP-PRACTICAL-TIP | T+R; evaluation design, no actual result | Same representative task/input/criteria; conditional adoption or rollback | Single state; two compared candidates, no PASS/FAIL values | Contextual | V01, V05 |
-| S114 — 내 업무에서는 무엇이 반복해서 막힐까? | T10-B | CMP-DECISION, CMP-CPP, CMP-CLAIM | — | T; C++ example stays a transfer model, not a verified project procedure | Same-level A–E symptoms include repeated/overlapping guidance and procedures; DEC-0083 | Single state | Primary | V08, V09 |
-| S115 — 고른 문제에서, 다음 행동 하나로 | T01-B | — | CMP-CPP | T | S114 same-letter action includes integration/removal candidates and source/reviewer/updater; private Reflection2; DEC-0083 | Single state | Contextual | V09 |
-| S116 — 실무 적용 팁 · 작업 환경과 기준 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
-| S117 — 실무 적용 팁 · 요청 작성 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
-| S118 — 실무 적용 팁 · 검증과 개선 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
-| S119 — Q&A와 교육 마무리 | T01-C | — | — | T | Q&A4 then Closing Transition2; original five-stage terminology; DEC-0082 | Single state | — | V10 |
+| S78 — 첫 결과 뒤에도, 확인할 일이 남는다면? | T03-C | CMP-CLAIM | — | C; fictional task correction, no observed repeat or repair | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
+| S79 — 남은 문제를 다음 수정으로 이어주는 사람 | T04-A | CMP-CLAIM | — | C; fictional task correction, no observed repeat or repair | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
+| S80 — 같은 목표의 수정과 검토가 끊기지 않게 | T03-C | CMP-CLAIM | — | C; fictional task correction, no observed repeat or repair | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
+| S81 — 다음 수정에 넘길 기록 | T03-B | CMP-PRACTICAL-TIP, CMP-CLAIM | — | T; evidence and ownership questions, no new execution | Lecture2; no added Demo | Single state | — | V01, V02, V07 |
+| S82 — 내가 매번 이어 주는 다음 단계는 무엇일까? | T01-B | CMP-CLAIM | — | T; evidence and ownership questions, no new execution | Reflection3+Q&A5+Transition2; no Demo | R1–R3 focus cues | — | V01, V02, V07 |
+| S83 — 목표를 이룰 때까지 수정하고 검토하기 | T12-A | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S84 — 다음 수정도 사람이 매번 이어줘야 할까? | T03-C | CMP-CLAIM | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S85 — 먼저, 무엇이 되면 완료인지 정한다 | T03-A | CMP-CLAIM | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S86 — 모델 A가 첫 변경 후보를 만든다 | T03-C | CMP-CLAIM | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S87 — 실제 동작과 비용은 도구로 확인한다 | T03-A | CMP-CLAIM | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S88 — 모델 B는 무엇을 근거로 검토할까? | T04-A | CMP-CLAIM | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S89 — 지적이 다음 수정으로 이어진다 | T04-A | CMP-CLAIM | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S90 — 고쳤다면, 같은 기준으로 다시 본다 | T03-C | CMP-CLAIM, CMP-LOOP | — | CONCEPTUAL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S91 — 같은 목표의 구현·검토 루프 | T03-C | CMP-CLAIM, CMP-LOOP | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S92 — 언제 계속하고, 언제 끝낼까? | T03-A | CMP-CLAIM, CMP-LOOP | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S93 — 구현한 모델에게 다시 물으면 충분할까? | T09-A | CMP-CLAIM | — | RESEARCH | Primary paper / scoped RESEARCH | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S94 — 다른 모델의 관점이 도움이 된 실험 | T07-B | CMP-CLAIM | — | RESEARCH | Primary paper / scoped RESEARCH | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S95 — 잘 만드는 능력과 잘 검토하는 능력 | T09-A | CMP-CLAIM | — | RESEARCH | Primary paper / scoped RESEARCH | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S96 — 구현과 검토에 모델을 어떻게 나눌까? | T04-A | CMP-CLAIM, CMP-LOOP | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S97 — 검토 모델의 말도 확인해야 한다 | T03-C | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S98 — 반복하려면 무엇을 이어받아야 할까? | T03-B | CMP-CLAIM, CMP-LOOP | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S99 — 확인한 근거와 아직 실행하지 않은 설계 | T03-A | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S100 — Goal이 목표와 다음 작업을 이어준다 | T03-C | CMP-PRACTICAL-TIP, CMP-CLAIM, CMP-WORKFLOW | — | R+T; documented guidance adapted; target account unverified | Lecture2; no new Demo or Goal activation | Static editable explanatory diagram | — | V01, V02, V05 |
+| S101 — Goal에는 완료 근거와 멈출 조건을 담는다 | T03-C | CMP-PRACTICAL-TIP, CMP-CLAIM, CMP-WORKFLOW | — | R+T; documented guidance adapted; target account unverified | Lecture2; no new Demo or Goal activation | Static editable explanatory diagram | — | V01, V02, V05 |
+| S102 — 우리 작업에는 어떤 루프가 필요할까? | T01-B | CMP-CLAIM | — | TEACHING_MODEL | CASE-LOOP-01 / static teaching design; no new executed Demo | Speaker-led focus; no required animation | — | V01, V02, V06, V07 |
+| S103 — 내 업무에 맞게 조합하고 덜어내기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
+| S104 — AI에게 맡기는 범위가 넓어졌다 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S114/S115 retain personal choice | — | V01, V05, V10 |
+| S105 — 작업은 요청부터 검토·수정까지 이어진다 | T03-C | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S114/S115 retain personal choice | — | V01, V05, V10 |
+| S106 — 작업 흐름에는 정보·절차·도구가 연결된다 | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S114/S115 retain personal choice | — | V01, V05, V10 |
+| S107 — 결과를 수용할지는 사람이 판단한다 | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S113/S114 retain personal choice | — | V01, V05, V10 |
+| S108 — 이번에 알아낸 것 중, 다음에도 쓸 것은? | T03-C | CMP-WORKFLOW, CMP-CLAIM, CMP-PRACTICAL-TIP | CMP-CPP | C+T; explicit C++ project assumption, no Memory execution | DEMO-08; VISUAL2 + Case2; retained4minutes | Current-task evidence → selected reusable measurement conditions → next-task Context check; native3nodes; DEC-0133 | Contextual | V01, V02, V05 |
+| S109 — AI가 일할 조건과 확인 경로를 설계한다 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S113/S114 retain personal choice | — | V01, V05, V10 |
+| S110 — 모델·플랫폼이 바뀌면 Harness도 다시 본다 | T04-A | CMP-CLAIM | — | R+T; vendor-published integration case; architecture adapted for teaching | No new Demo/Trial/State or measured effect | Single state; previous structure versus candidate, not a replay | Contextual | V01, V05 |
+| S111 — 무엇을 남기고, 무엇을 덜어낼까? | T10-A | CMP-DECISION, CMP-CLAIM | CMP-PRACTICAL-TIP | T; retain requirements, integrate overlaps, assess obsolete workaround | Three equal options; conditions before action; DEC-0083 | Single state | Contextual | V01, V05 |
+| S112 — 덜어낸 뒤에도 필요한 일을 하는가? | T03-C | CMP-CLAIM | CMP-PRACTICAL-TIP | T+R; evaluation design, no actual result | Same representative task/input/criteria; conditional adoption or rollback | Single state; two compared candidates, no PASS/FAIL values | Contextual | V01, V05 |
+| S113 — 내 업무에서는 무엇이 반복해서 막힐까? | T10-B | CMP-DECISION, CMP-CPP, CMP-CLAIM | — | T; C++ example stays a transfer model, not a verified project procedure | Same-level A–E symptoms include repeated/overlapping guidance and procedures; DEC-0083 | Single state | Primary | V08, V09 |
+| S114 — 고른 문제에서, 다음 행동 하나로 | T01-B | — | CMP-CPP | T | S113 same-letter action includes integration/removal candidates and source/reviewer/updater; private Reflection2; DEC-0083 | Single state | Contextual | V09 |
+| S115 — 실무 적용 팁 · 작업 환경과 기준 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
+| S116 — 실무 적용 팁 · 요청 작성 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
+| S117 — 실무 적용 팁 · 검증과 개선 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
+| S118 — Q&A와 교육 마무리 | T01-C | — | — | T | Q&A4 then Closing Transition2; original five-stage terminology; DEC-0082 | Single state | — | V10 |
 
 ## Current component usage — DEC-0133
 
@@ -1020,3 +1018,60 @@ are recorded in plan/VISUAL_PROTOTYPE_PLAN.md.
 ## DEC-0044 — S17 request-to-observation introduction
 
 Keep T05-A and its three-focus setup. S17 uses three paired native rows of actual request excerpts and scoped process observations before the edit/results on S18–S19. CMP-EVIDENCE makes the observed summary source explicit. No Trial screenshot, fabricated command, new result or new Template/Variant is added.
+
+
+## Historical current-router snapshot — before DEC-0135
+
+# STEP 08 — Slide-to-Template Mapping
+
+## Harness 관계·재사용·조립 시각화 — DEC-0134 (2026-11-02)
+
+S75는 주 Agent 아래 선택 Subagent를 교육용 점선으로 분리하고 실제 Demo의 단일 Agent 범위를 유지한다.
+S76은 같은 Harness 모듈이 프로젝트 A/B/C 내부에 재사용되는 모습, S77은 그 모듈과 프로젝트 Context의 조립 관계를 보여준다.
+119장·405분·장별 시간/Mode·ID·Story Beat·Section과 근거 범위는 같다. [시각 설계](HARNESS_VISUAL_SYSTEM.md)를 따른다.
+
+## 현재 제작 기준 — DEC-0133 (2026-11-02)
+
+현재 **119장·405분(6시간45분)**. 이전 S74의 Context/Memory 학습을 현재 S109로 옮긴다.
+현재 S108 결과 수용 → S109 재사용할 지식 선별 → S110 AI가 일할 조건 설계로 이어진다.
+S109는 C++ 프로젝트에서 성능 비교 조건을 확인했다는 교육용 가정이다.
+이번 로그·측정값과 다음에도 쓸 조건을 구분하고 출처·적용 범위·갱신 조건을 함께 남긴다.
+'이 프로젝트에서는 Release 빌드·동일 입력으로 비교'는 가정의 기준이며 실제 Python Trial 결과가 아니다.
+다음 작업에서 현재 조건과 대조해 지식을 Context로 활용한다. 제품 자동 저장·회수나 측정 성과를 주장하지 않는다.
+이전 S75–S109는-1, 이전 S74는현재 S109, 나머지는 그대로다. ACT3 S73→S74 실제 구성으로 바로 잇는다.
+앞선 ACT의 설명/화면에서 Memory를 먼저 강의하지 않고 반복 상태 전달의 기존 메시지만 유지한다.
+원 Section3F·BEAT-026–028·Claim/Evidence ID를 유지하며 ACT5 배치를 명시한다.
+S109의 기존4분(Demo2 VISUAL+Case2)을 함께 옮긴다. ACT3 24장·80분, ACT4 20장·85분, ACT5 16장·44분이다.
+Mode Lecture182/Demo44/Case102/Reflection22/Transition23/Q&A32와 다른 장의 시간은 유지한다.
+Native 표는 S54, 차트는 S70/S95.12Templates/28Variants·19Notes 필드를 유지한다.
+삭제한 이전121판 S67/S76의 감사 내용은 복구하거나 흡수하지 않는다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않는다.
+[이동·개선 기획](MEMORY_ACT5_RELOCATION.md), [번호 대응표](SLIDE_ID_MIGRATION_MEMORY_ACT5_DEC0133.md)를 따른다.
+
+| ACT | Current slides | Count | Minutes |
+|---|---|---:|---:|
+| ACT 0 | S01–S14 | 14 | 42 |
+| ACT 1 | S15–S37 | 23 | 64 |
+| ACT 2 | S38–S59 | 22 | 90 |
+| ACT 3 | S60–S83 | 24 | 80 |
+| ACT 4 | S84–S103 | 20 | 85 |
+| ACT 5 | S104–S119 | 16 | 44 |
+| Total | S01–S119 | 119 | 405 |
+
+## Current119 Template Coverage — DEC-0134
+
+| Template | Slides |
+|---|---:|
+| T01 | 6 |
+| T02 | 6 |
+| T03 | 57 |
+| T04 | 16 |
+| T05 | 4 |
+| T06 | 4 |
+| T07 | 13 |
+| T08 | 0 |
+| T09 | 3 |
+| T10 | 4 |
+| T11 | 0 |
+| T12 | 6 |
+| Total | 119 |

@@ -1,5 +1,12 @@
 # ACT 2 — Speaker Notes
 
+Current: DEC-0135 /118slides/403minutes. ACT2: S38–S59, 22slides/90minutes.19fields per slide. Former119-edition S78 and its2Lecture minutes are deleted without transferring its lesson. Remaining slide allocations are unchanged.
+
+<details>
+<summary>이전 Notes 표지·제작 기준 보존</summary>
+
+# ACT 2 — Speaker Notes
+
 Current: DEC-0133 /119slides/405minutes. ACT2: S38–S59, 22slides/90minutes.19fields per slide. The former S74 keeps Demo2 VISUAL+Case2 and is now S109 in ACT5. No deleted lesson or extra time is restored.
 
 <details>
@@ -109,6 +116,8 @@ Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historic
 
 </details>
 
+</details>
+
 ## S38 — 필요한 정보를 찾아 쓰게 하기
 
 Slide ID:
@@ -162,7 +171,7 @@ Transition:
 “서로 다른 세 작업에서도 같은 프로젝트 기준이 필요한지 보겠습니다.”라고 S39로 이동한다.
 
 Time Management:
-Transition1분. ACT2 총90분, 전체405분을 유지한다. 제목과 연결만 안내하고1분에 S39로 넘긴다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+Transition1분. ACT2 총90분, 전체403분을 유지한다. 제목과 연결만 안내하고1분에 S39로 넘긴다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
 
 Fallback:
 LOCAL STATIC ARTIFACT — production/preview/full/S38.png 또는 production/ACT_2.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.

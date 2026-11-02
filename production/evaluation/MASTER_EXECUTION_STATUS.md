@@ -1,5 +1,9 @@
 # MASTER EXECUTION STATUS
 
+Current DEC-0135:118slides/403minutes. Remove prior S78 and its2Lecture minutes without absorption. Connect S77 directly to the first-result question at currentS78. Shift priorS79-S119 down1 and retain every other allocation and evidence boundary. Use [current result](S78_REMOVAL.md),[handoff](FINAL_HANDOFF.md),and[current crosswalk](../../plan/SLIDE_ID_MIGRATION_118_DEC0135.md). Prior results are historical; Windows,room,product-account and rehearsal remain UNVERIFIED.
+
+## 보존된 이전 기록
+
 Current DEC-0134 visual refinement:119slides/405minutes. Update S75-S77 to show optional Subagent relationships, portable Harness modules and project-specific assembly. Preserve all allocations and evidence scope. Use [current result](HARNESS_VISUAL_SYSTEM.md) and [handoff](FINAL_HANDOFF.md). Earlier execution records are historical; external gates remain UNVERIFIED.
 
 ## 보존된 이전 기록

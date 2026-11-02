@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+현재118장·403분과S77→첫결과의연결은[DEC-0135검토](S78_REMOVAL.md),[전달안내](FINAL_HANDOFF.md),[번호대응표](../../plan/SLIDE_ID_MIGRATION_118_DEC0135.md)를따른다. 삭제한S78의2Lecture분만제외하고기존근거와각장배정은유지했다. Windows·발표PC/교육장·제품/계정·실제리허설은UNVERIFIED다.
+
+## 보존된 이전 기록
+
 S75–S77의 구조·재사용·결합 시각화는 [DEC-0134 검토](HARNESS_VISUAL_SYSTEM.md)와 [전달 안내](FINAL_HANDOFF.md)를 따른다.119장·405분 유지. 선택 Subagent는 실제 Demo에 추가한 것이 아니고 프로젝트 재사용/결합은 교육용 설계다. Windows·발표PC/교육장·제품/계정·실제 리허설은 UNVERIFIED다.
 
 ## 보존된 이전 기록
