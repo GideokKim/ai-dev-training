@@ -1,11 +1,11 @@
 # Static Fallback Manifest
 
-Current: DEC-0120 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0121 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
 S45 now compares shared guidance and task-specific detail; procedure reuse
 remains at S59/ACT3. This teaching diagram is not an observed read order.
-Retain44reference roles and paths. S41 now shows the preserved eleven-test
-result under the actual-demo heading, with a reconstructed request/UI.
-Nine remains a historical teaching example, not a relabeled execution.
+Retain44reference roles and paths. S41 shows the nine-test result from
+the separate actual demo supplied by the user. The eleven-test TRIAL-003
+remains distinct. Do not transfer its run conditions to the user demo.
 Detailed provenance and attribution limits remain in Notes. Other evidence
 classes are unchanged. Keep S28-S35 as
 five core and three conditional prompt tools. Show method/approach names,
@@ -17,11 +17,11 @@ in the reports and source history.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`b6d670e4681296859ef2d180089865d5e4b48764fb48df692968f4b087ef7332`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`39e8bd8e42e81434b0adbb7f7bd76d6aba3c4ef8af7d2471fe4e42fe8eb8787e`.
-- `production/preview/full/montage.png` SHA-256:`77c8ae67a41d84fd345169a905865711de3ac810783cc6d827c9a8e0144c68ec`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`b6b2ba47c70a88ba99644f7f4572a0ad9a601b146bc2a4a48dfe4d267fe8feef`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`64ec0a9933515a719c2663fb5513329d20318b4afb2e1ccd90390d1c6b8af93b`.
+- `production/preview/full/montage.png` SHA-256:`a52386a7182b51398f04e5ac6e9d399ee21b9afdaba1b13c29d59b55364dbff0`.
 
-[Current revision](../../production/evaluation/S41_ANNOTATION_REVISION.md),
+[Current revision](../../production/evaluation/S41_USER_DEMO_RESULT_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
@@ -35,7 +35,7 @@ in the reports and source history.
 | S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` | 1920×1080 | `eee791361290ec1374cc4456ce66ff3bf7a7b27905c9e912b20838a0091d9e1f` |
 | S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `3b4e59c948761576b151573de7b5f8e2aa45901acce2072b8793d9cb6348d240` |
 | S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` | 1920×1080 | `052e19918e6be443c8699ae2212f02229dbce3a5c15eb96fbe03794193e70940` |
-| S41 | OBSERVED_GUIDANCE_WITH_RECONSTRUCTED_REQUEST | `production/preview/full/S41.png` | 1920×1080 | `f5961a89640f6310eaae2cd045fbf93b053df92cb7d08ba3d1236fcb68954e44` |
+| S41 | USER_PROVIDED_DEMO_RESULT | `production/preview/full/S41.png` | 1920×1080 | `03f104ae8ec9a4bef6a183322d889e66f5314bf828705321f3116ebf1c50d712` |
 | S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` | 1920×1080 | `26632e6c07918601f19342180eeac05a0e67051e7bf8e43e8bb1a0d4bedf3295` |
 | S50 | RETAINED_DEMO_STATIC | `production/preview/full/S50.png` | 1920×1080 | `1515f2ceffb8119ce9cc0d78f704d66a60c891ead5b15d297ae708b8425212e9` |
 | S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` | 1920×1080 | `b3ce28aa911e520e04fc38afecb02c7cd0ab34ed55525c083464c7a7ea136f0b` |

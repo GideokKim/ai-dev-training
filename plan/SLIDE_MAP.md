@@ -1077,23 +1077,23 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 2
 - **Section:** 2B
 - **Working Title:** AGENTS.md의 지침대로 검증했다
-- **Primary Role:** 프로젝트 지침의 명령을 실제 사용한 기존 관찰을 보여준다. 요청 창은 발표용 재구성이고 결과는 보존된 실제11/11이다.
+- **Primary Role:** 프로젝트 지침과 실행의 관계를 보여준다. 오른쪽9/9는 사용자가 별도로 진행한 실제 데모를 기준으로 하며 기존11개 TRIAL-003과 구분한다.
 - **Audience Question:** “요청에 적지 않은 테스트 실행 명령은 어디에서 확인할까?”
 - **Core Message:** “Prompt에는 없지만 AGENTS.md에 의해 테스트를 수행했다.” 구체 실행 명령을 지침에서 참고·사용한 기존 관찰로 제한한다.
 - **Story Beat:** BEAT-010 — Reusable Project guidance succeeds at first
 - **Curriculum Trace:** ACT 2 — `AGENTS.md`'s first success.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
-- **Claim Status:** FROZEN WITH SCOPE — 오른쪽 실제 데모 결과는 기존 TRIAL-003의11/11이다. 왼쪽 요청·UI는 재구성이며 새 실행·현재 제품 캡처·단독 인과성·강제 준수를 주장하지 않는다.
-- **Visual Concept:** 왼쪽 Prompt를 macOS 신호등·전송 버튼이 있는 native 창으로 표현한다. 사용자 제공 요청은 유지하고 창 밖 테스트 명령 미포함 문장을 색·굵기·배경으로 강조한다. 가운데 지침 영역은 그대로다. 오른쪽 제목은 실제 데모에서의 결과, 수치는 보존 기록의11/11 PASS다. 발표용 예시 라벨과 점선 및 Audience footer 두 줄을 삭제하고 요청한 핵심 문장을 표시한다.
-- **Demo / Case Connection:** 실제 결과 제목에는 보존된 TRIAL-003의11/11을 사용한다. 이전9개 예시를 실제 결과로 재분류하지 않는다. 실제 원문과 사용자 제공 요청 재구성의 차이 및 원인 귀속 한계는 Notes에 유지한다.
+- **Claim Status:** FROZEN WITH SCOPE — 실제 데모 결과9/9는 사용자 제공 별도 데모 정보다. 기존 TRIAL-003은11개 기록으로 보존한다. 두 실행을 합치거나 Codex의 새 실행·독립 재현·지침 단독 인과성으로 주장하지 않는다.
+- **Visual Concept:** DEC-0120의 macOS Prompt 창·지침·강조·제목·핵심 문장·하단 주석 삭제 상태를 유지하고 오른쪽 숫자만9/9 PASS로 바꾼다. 사용자 별도 실제 데모에 대한 출처는 Notes에 구분한다.
+- **Demo / Case Connection:** S41의 결과 수치는 사용자가 별도로 진행한 실제9개 데모에서 제공한 정보다. 기존 TRIAL-003의11개 실행과 제품/환경 조건은 보존된 별도 참고이며 새 데모에 전이하지 않는다. 새 Trial ID·실행은 만들지 않는다.
 - **Beginner Payoff:** 반복 정보를 repository에 두는 방식의 첫 효용을 본다.
 - **Advanced Payoff:** 프롬프트의 명령 부재·프로젝트 지침·실제 실행을 연결하되 지침 사용과 단독 인과 효과를 구분한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 강조한 테스트 명령 미포함→변경하지 않은 AGENTS.md 지침→실제11/11 기록을 연결한다. 화면의 “에 의해”를 지침 명령 사용 관찰로 설명한다. 부가 주석 삭제 후에도 실제 입력·UI·제품 동작·강제 준수의 한계는 Notes에 남긴다.
+- **Speaker Intent:** 현재 요청과 프로젝트 지침의 역할은 유지하고 사용자 별도 실제 데모의9/9 결과를 표시한다. 숫자를 기존11개 Trial의 정정이나 Codex가 새로 실행·확인한 결과로 설명하지 않는다. 나머지 화면과 S42 연결을 유지한다.
 - **Transition:** “이번 README 요청과, 실제 기록에서 다시 참고한 테스트 지침을 Task Prompt와 Project Context의 역할로 정리해 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (HYBRID) = 4분
-- **Evidence / Decision References:** BEAT-010, TRIAL-003, STATE-01, CLM-0005, DEC-0046, DEC-0115, DEC-0119, DEC-0120
+- **Evidence / Decision References:** BEAT-010, TRIAL-003 (지침 활용 별도 참고), STATE-01, CLM-0005, DEC-0046, DEC-0115, DEC-0119, DEC-0120, DEC-0121; 사용자 제공 별도 실제 데모
 - **Audience Footer:** 없음 — 사용자 주석에 따라 두 줄 삭제; 근거·해석 범위는 Notes에 보존; M 연계 유지
 
 #### S42 — Task Prompt와 Project Context

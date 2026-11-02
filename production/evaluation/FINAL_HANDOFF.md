@@ -1,5 +1,34 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S41 사용자 별도 실제 데모9개 — DEC-0121 (2026-11-02)
+
+S41을 사용자 별도 실제 데모의9/9 PASS로 바꿨다. 숫자 외 화면·지침·UI·문구는 같다.
+기존 TRIAL-003의11개 기록과 실행 조건은 별도 참고로 보존한다. 새 Trial은 실행하지 않았다.
+120장·417분, S41 Demo4분과 다른119장 화면/Notes를 유지한다.
+
+[수정 S41](../preview/full/S41.png), [통합 PPT](../AI_Dev_Training_Full.pptx),
+[ACT2 PPT](../ACT_2.pptx), [현재 검토](S41_USER_DEMO_RESULT_REVISION.md),
+[현재 Map](../../plan/SLIDE_MAP.md), [사용자 검증](USER_VALIDATION_CHECKLIST.md).
+
+142개 최종 렌더링·Notes·숫자 영역 외 픽셀 보존을 대조했다. Windows·교육장·제품/계정·
+실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 같다. 아래 기록은 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `b6b2ba47c70a88ba99644f7f4572a0ad9a601b146bc2a4a48dfe4d267fe8feef` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `b7ff40ba796c527534fe61bbfc90eddff7c405d7fecfc5fd16b8e0de3a422d80` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `96103c384f80f69a308a6dd464280e5a8645c17a02e5498a55e3b23ee014d4d9` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `64ec0a9933515a719c2663fb5513329d20318b4afb2e1ccd90390d1c6b8af93b` |
+| `production/notes/ACT_2_NOTES.md` | `97edbb65e11ad2080e0da4d3afcb4d3acfdcbe4efdc1387eff205fa7b2e2b4ea` |
+| `production/preview/full/montage.png` | `a52386a7182b51398f04e5ac6e9d399ee21b9afdaba1b13c29d59b55364dbff0` |
+| `production/preview/full/S41.png` | `03f104ae8ec9a4bef6a183322d889e66f5314bf828705321f3116ebf1c50d712` |
+
+## 보존된 이전 전달 기록
+
 ## S41 일곱 주석 반영 — DEC-0120 (2026-11-02)
 
 Prompt 창을 macOS 신호등·전송 버튼이 있는 도식으로 바꾸고 명령 미포함을 강조했다.

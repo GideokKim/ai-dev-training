@@ -2566,36 +2566,36 @@ Mode Split:
 Demo 4 minutes (HYBRID planned; activation unverified)
 
 Primary Message:
-Prompt에는 없지만 AGENTS.md에 의해 테스트를 수행했다. 구체 테스트 명령을 지침에서 참고·사용했다는 기존 관찰을 뜻한다.
+Prompt에는 없지만 AGENTS.md에 의해 테스트를 수행했다. 오른쪽9/9 결과는 사용자가 별도로 진행한 실제 데모의 수치이며 기존 TRIAL-003의11개 실행과 구분한다.
 
 Opening Question:
 “요청에 적지 않은 테스트 실행 명령은 어디에서 확인할까요?”
 
 Speaker Flow:
-1. (0:00–1:00) macOS 창 형태의 왼쪽 Prompt를 읽는다. 문장은 사용자가 제공한 발표용 재구성이며 보존된 TRIAL-003 원문 인용이 아니다. 신호등과 전송 버튼은 편집 가능한 UI 도식이며 실제 앱 실행 캡처가 아니다. 창 밖에서 강조한 “테스트 실행 명령은 적지 않음”을 짚는다.
-2. (1:00–2:00) 가운데 기존 AGENTS.md 지침을 가리킨다. 지정된 명령으로 전체 테스트를 실행하라는 프로젝트 작업 규칙이다. 이 영역의 문구·위치·서식은 유지한다. 기존 TRIAL-003에서 루트 지침을 확인·출력하고 그 명령을 실제 사용한 기록이 있다.
-3. (2:00–3:00) 오른쪽 “실제 데모에서의 결과”와11/11 PASS를 확인한다. 실제 결과라는 최신 요청에 맞춰 보존된 실행의 수치를 사용한다. 이전9/9는 발표용 예시였고 실제 결과로 바꿔 표시한 것이 아니다. 새 Trial이나 현재 제품 재현은 수행하지 않았다.
-4. (3:00–4:00) 하단 “Prompt에는 없지만 AGENTS.md에 의해 테스트를 수행했다.”를 회수한다. 여기서 없던 것은 구체 테스트 실행 명령이고, 지침의 명령을 실제 사용했다는 관찰을 뜻한다. 강제 준수나 AGENTS.md 단독 인과 효과가 입증됐다는 뜻으로 설명하지 않는다. S42에서 이번 작업 요청과 다시 참고할 프로젝트 지침의 역할을 나눈다.
+1. (0:00–1:00) 기존 macOS Prompt 창과 사용자 제공 요청을 읽고 창 밖의 “테스트 실행 명령은 적지 않음”을 짚는다. UI 도식과 요청 문장은 유지한다.
+2. (1:00–2:00) 가운데 AGENTS.md의 프로젝트 테스트 지침을 가리킨다. 이 영역의 문구·위치·서식은 유지한다. 기존 TRIAL-003은 지침 명령의 실제 사용을 참고할 수 있는 별도 기록이다.
+3. (2:00–3:00) 오른쪽 “실제 데모에서의 결과”와9/9 PASS를 읽는다. 사용자가 별도로 진행한 실제 데모의 테스트 수가9개라고 제공했다. 이를 이전 TRIAL-003의11개 결과로 설명하거나 새로 실행해 확인한 결과라고 말하지 않는다. 사용자 데모의 제품 버전·환경·원시 로그를 임의로 보충하지 않는다.
+4. (3:00–4:00) 요청한 핵심 문장을 회수하고 이번 요청과 프로젝트 지침의 역할을 나누는 S42로 이어간다. 사용자 별도 데모와 기존 Trial의 출처를 구분하고 단독 인과성·모든 지침 강제 준수로 확대하지 않는다.
 
 Evidence / Source:
-TRIAL-003 / STATE-01 / DEMO-02 / OBSERVED_PRODUCT plus TEACHING_MODEL. 오른쪽 결과는 plan/DEMO_MATRIX.md의 보존된 TRIAL-003에 기록된11/11 PASS다. 실제 원문 요청은 README Test 절의 과거 STATE-00 baseline과 현재 checkout을 구분하도록 수정하라는 내용이다. 실제 명령은 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src python3 -m unittest discover -s tests -v이며 STATE-01 AGENTS.md의 테스트 명령을 사용했다. 보존 STATE-01의 정적 테스트 메서드 수도11개다. 왼쪽 문장은 사용자가 제공한 발표용 재구성이고 native 창은 실제 제품 캡처가 아니다. DEC-0120은 예시 라벨·하단 주석 제거와 실제 결과 제목이라는 최신 주석을 반영한다. 이전 DEC-0119의9개 예시를 실제 결과로 재분류하지 않고 실제11개 기록을 사용한다. Trial 원문·결과·코드·지침·State/tag는 변경하지 않았다.
+사용자 제공 별도 실제 데모 / OBSERVED_PRODUCT plus TEACHING_MODEL.2026-11-02 사용자 주석: “이거9로 바꿔 내가 따로 진행한 데모가 있어 거기선9개야.” 오른쪽9/9 PASS는 이 별도 데모를 기준으로 표시한다. 기존 plan/DEMO_MATRIX.md의 TRIAL-003은11/11 PASS와 Codex CLI0.154.0의 지침 명령 사용을 담은 별도 보존 기록이다. 이11개 기록은 수정하지 않고9개 사용자 데모와 합치지 않는다. 사용자 데모의 실행 날짜·제품 버전·환경·정확한 명령·원시 로그는 제공되지 않았으므로 기존 Trial의 조건을 옮겨 적지 않는다. Codex가 새 Trial이나 독립 재현을 수행한 것은 아니다. 왼쪽 사용자 제공 요청과 native 창 구성은 유지한다.
 
 발표용 요청 문장: README.md에 Test 섹션을 만들어서 테스트 관련 내용 모아줘. README.md만 변경하고 최종 diff, 검증 근거를 보고해줘.
 
 Claim Boundary:
-현재 화면의 왼쪽은 요청 재구성, 오른쪽은 보존된 과거 CLI의11/11 결과다. 이 재구성 문장을 새로 실행해11/11을 얻었다고 설명하지 않는다. “Prompt에는 없지만”은 테스트 실행 명령이 입력에 없다는 뜻이며 검증 근거 보고까지 없었다는 뜻이 아니다. “AGENTS.md에 의해”는 해당 지침의 명령을 실제 참고·사용했다는 관찰로 제한한다. Personal readchk/re0/sip도 실행됐고 active instruction-chain trace가 없어 단독 인과성·자동 로딩·모든 지침의 강제 준수는 미입증이다. 하단 주석을 삭제해도 이 경계는 Notes에 보존한다. 신호등/전송 버튼은 UI 도식이며 현재 Codex 동작·계정·성능·정확도·토큰 효과를 검증한 화면이 아니다.
+화면9개는 사용자가 별도로 진행한 실제 데모에 대한 제공 정보다. Codex가 새 실행·로그 대조·현재 제품 재현으로 확인했다고 주장하지 않는다. 기존 TRIAL-003의11개 결과·원문·환경·지침은 그대로 보존하며9개 데모에 그 실행 조건을 귀속하지 않는다. “Prompt에는 없지만”은 구체 테스트 명령을 뜻하고, “AGENTS.md에 의해”는 지침 명령 사용의 메시지다. 독립 인과 효과·자동 로딩·모든 지침 강제 준수를 새로 입증한 것으로 확대하지 않는다. 제품 버전·계정·실행 환경·성능·토큰 효과를 임의로 추가하지 않는다.
 
 Beginner Explanation:
 이번 작업 요청에 적지 않은 테스트 실행 명령은 프로젝트 지침에서 확인할 수 있다. 이 과거 Demo에서는 해당 지침의 명령으로 테스트를 실행했다.
 
 Advanced Insight:
-The preserved run supports use of the repository test instruction. It does not isolate its causal effect or prove forced compliance. The user-supplied request and macOS window are reconstructions, while the eleven-test result comes from the historical run.
+The displayed nine-test result comes from the user's separate actual demo. The preserved eleven-test TRIAL-003 remains a distinct reference for instruction use. Do not transfer its interface, command or environment to the user demo, or claim an independently reproduced run.
 
 C++ Vision Bridge:
 N/A.
 
 Demo Operation:
-기존 DEMO-02의4분 안에서 왼쪽 요청 창→강조한 명령 미포함→가운데 기존 지침→오른쪽 실제11/11 기록을 짚는다. 기본 경로는 정적 PPT/PNG이며 신호등/전송 버튼은 클릭·제품 시연 대상이 아니다. HYBRID 활성화는 UNVERIFIED이고 새 Trial이나 저장소 변경을 수행하지 않는다.
+기존 DEMO-02의4분 안에서 요청 창→명령 미포함→기존 지침→사용자 별도 실제 데모의9/9 결과를 짚는다. 기본 경로는 정적 PPT/PNG다. 기존11개 Trial을 새9개 실행으로 바꾸거나 새 Trial·저장소 변경을 수행하지 않는다. UI·지침·강조·핵심 문장은 그대로다. HYBRID 활성화와 실환경은 UNVERIFIED다.
 
 Audience Interaction:
 창 밖에 강조한 “테스트 실행 명령은 적지 않음”을 먼저 가리키고 “그러면 어느 명령을 실행할지 어디서 확인할까요?”를 짧게 묻는다. 가운데 지침과 오른쪽 기록을 연결한다. 별도 실습이나 추가 시간을 만들지 않는다.
@@ -2604,13 +2604,13 @@ Transition:
 “이번 README 요청과, 실제 기록에서 다시 참고한 테스트 지침을 Task Prompt와 Project Context의 역할로 정리해 보겠습니다.”라고 S42로 이동한다.
 
 Time Management:
-요청 창/명령 미포함1분, 기존 프로젝트 지침1분, 보존된 실제11/11 결과1분, 핵심 문장과 S42 연결1분으로 Demo4분을 유지한다. 삭제한 하단 주석의 세부 해석을 별도 강의로 늘리지 않는다. 실측 리허설은 UNVERIFIED다.
+요청 창/명령 미포함1분, 프로젝트 지침1분, 사용자 데모의9/9 결과1분, 핵심 문장과 S42 연결1분으로 Demo4분을 유지한다. 별도 실행·추가 설명 시간을 만들지 않는다. 실측 리허설은 UNVERIFIED다.
 
 Fallback:
-production/ACT_2.pptx S41 또는 production/preview/act2/S41.png를 정적 기본 경로로 사용한다. 현재 검토·식별자는 production/evaluation/S41_ANNOTATION_REVISION.md와 FINAL_HANDOFF.md를 따른다. 재구성 UI·요청과 기존11개 실행 기록을 구분하고 새 실행·실제 제품 캡처로 표현하지 않는다.
+production/ACT_2.pptx S41 또는 production/preview/act2/S41.png를 정적 기본 경로로 사용한다. 현재 검토·식별자는 production/evaluation/S41_USER_DEMO_RESULT_REVISION.md와 FINAL_HANDOFF.md를 따른다. 사용자 별도 데모의9개 결과와 기존11개 Trial을 구분하며 현재 제품 실행·새 Trial로 표현하지 않는다.
 
 Validation Status:
-DEC-0120 — 일곱 주석, 기존 AGENTS.md 영역, 실제11/11 기록,19필드·4분 Demo와 S40→S41→S42 연결을 대조한다. 최종 렌더링/패키지 검증은 production/evaluation/S41_ANNOTATION_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
+DEC-0121 — 사용자 별도 실제 데모9개 정보, 기존 Trial11개 보존, 숫자 외 화면/지침/Prompt/UI 보존,19필드·4분 Demo를 대조한다. 최종 렌더링/패키지 검증은 production/evaluation/S41_USER_DEMO_RESULT_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
 
 ## S42 — Task Prompt와 Project Context
 

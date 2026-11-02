@@ -12205,3 +12205,77 @@ Render final Full/ACT2 packages; verify each annotation, instruction-panel
 preservation, Notes, timing and remaining119slides. Commit and push normally.
 Keep Windows, room, product/account and timed rehearsal unverified.
 Do not change the Demo repository, Sites or paused presenter bundles.
+
+# DEC-0121 — Use the separate user demo result on S41
+
+## Status
+
+ACCEPTED — the user explicitly states a separate actual demo has nine
+tests and requests that count on the slide.
+
+## Date
+
+2026-11-02
+
+## Context
+
+S41 previously used eleven tests from preserved TRIAL-003 when the user
+requested an actual-result heading. The user now supplies a distinct
+actual demo and states its total is nine tests.
+
+## Problem
+
+Use the intended demo result without overwriting the historical Trial
+or transferring its execution conditions to the separate user demo.
+
+## Decision
+
+Show nine of nine PASS from the user-provided separate actual demo.
+Keep the macOS prompt window, guidance panel, emphasis, headings,
+takeaway and deleted-footer state unchanged. Distinguish the user demo
+from the preserved eleven-test TRIAL-003 in Notes and current plans.
+
+## Rationale
+
+The latest user information identifies the intended evidence source.
+It is a separate actual demo, not a relabeled historical Trial result.
+No further question or new execution is needed for the requested edit.
+
+## Alternatives
+
+Keep eleven: uses the wrong demo for the user's requested presentation.
+Rewrite TRIAL-003 as nine: loses the actual historical evidence.
+Invent a new Trial or execution metadata: unsupported and unnecessary.
+
+## Trade-offs
+
+Accept the user-provided demo count for the slide. Do not claim that
+Codex independently inspected its logs or reproduced the execution.
+Its precise run date, interface, model, environment and commands were
+not supplied and must not be borrowed from the eleven-test Trial.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S41 number/source metadata, current Map and claim scope, ACT2/Full Notes,
+packages/previews, revision report, checklist and delivery identities.
+
+## Evidence
+
+User statement on2026-11-02: a separate actual demo has nine tests.
+Retain TRIAL-003 and STATE-01 as distinct eleven-test historical records.
+No new Trial ID, test run or Demo repository change.
+
+## Training Relevance
+
+YES — identify which execution a displayed result actually describes.
+
+## Follow-up
+
+Verify only the result-number region changes on S41; keep remaining
+119slides and Notes, timing, native objects and existing UI unchanged.
+Render, validate, commit and push normally. Keep independent Windows,
+room, product/account and timed rehearsal gates unverified.

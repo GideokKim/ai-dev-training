@@ -26,8 +26,8 @@ S32:make('S32','다른 Task에 같은 설명이 반복된다','ACT 2 · 반복�
   }),
 
 S34:make('S34','AGENTS.md의 지침대로 검증했다','ACT 2 · 프로젝트 작업 지침을 실제 실행에 적용',
-  'TRIAL-003 · Codex CLI 0.154.0 · 실제11/11 결과 / 요청은 발표용 재구성',
-  '과거 실행 기록 · 현재 제품 재현·단독 인과성·강제 준수는 미입증','OBSERVED_PRODUCT / TEACHING_MODEL',
+  '사용자 제공 별도 실제 데모 ·9/9 결과 / TRIAL-003은 지침 활용 참고',
+  '사용자 데모와 기존11개 Trial은 별개 · 새 실행·독립 재현을 수행하지 않음','OBSERVED_PRODUCT / TEACHING_MODEL',
   (s,{C,text,rect,line,arrow,CODE})=>{
     text(s,'Task Prompt',64,177,448,36,26,C.teal,true);
     text(s,'저장소의 작업 지침',576,177,328,36,26,C.teal,true);
@@ -53,7 +53,7 @@ S34:make('S34','AGENTS.md의 지침대로 검증했다','ACT 2 · 프로젝트 �
     text(s,'지정된 명령으로\n전체 테스트를 실행',596,366,288,70,25,C.ink,true);
     text(s,'지침의 명령을 실제 사용',596,445,288,25,21,C.teal,true);
     text(s,'전체 테스트',968,280,232,43,31,C.ink,true);
-    text(s,'11 / 11',968,333,232,67,50,C.green,true);
+    text(s,'9 / 9',968,333,232,67,50,C.green,true);
     text(s,'PASS',968,414,248,39,29,C.green,true);
     arrow(s,526,333,24,23);arrow(s,918,333,24,23);
     text(s,'Prompt에는 없지만 AGENTS.md에 의해 테스트를 수행했다.',64,565,1152,36,30,C.teal,true);
