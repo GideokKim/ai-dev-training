@@ -12412,3 +12412,75 @@ Preserve120slides,417minutes, IDs, modes and template assignments.
 Render final packages, compare unaffected screens and Notes, and push
 normally. Leave independent real presentation gates unverified.
 Do not change the Demo repository, Sites or paused presenter bundles.
+
+# DEC-0124 — Warn about omitted conditions and plausible wrong answers
+
+## Status
+
+ACCEPTED — the user requests a caution-focused S47 linked to S46.
+
+## Date
+
+2026-11-02
+
+## Context
+
+DEC-0123 shows a correct answer matching the supplied crop specification.
+The user wants S47 to warn that instructions can be missed while an answer
+still sounds plausible, including unsupported confident statements.
+
+## Problem
+
+Make the risk visible without claiming S46 proves a causal chain from
+instruction omission to hallucination or evaluates current Codex.
+
+## Decision
+
+Keep the supplied specification and request. Replace the correct answer
+with an explicitly constructed wrong answer that claims compliance but
+includes the excluded column5 and reports width4. Mark the missed condition
+and show the correct reference of columns2,3,4 and width3. Use S47 Notes to
+distinguish instruction noncompliance, plausible false claims and internal
+causal diagnosis. Keep neighboring screens and Notes unchanged.
+
+## Rationale
+
+Turn passive confirmation into a visible reason to check instructions and
+evidence. Preserve the research-to-practice-to-navigation progression.
+
+## Alternatives
+
+Keep only the correct answer: understates the requested caution.
+Call every instruction violation a hallucination: confuses distinct issues.
+Present a new model failure: unsupported and unnecessary for this revision.
+
+## Trade-offs
+
+Use a hypothetical warning example instead of new product evidence.
+Retain the existing research limits, prior code checks and source history.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESEARCH-002,
+INV-RESEARCH-004, INV-DIFFICULTY-001.
+
+## Affected Artifacts
+
+S47 source and Notes; current Map, claim scope and design; ACT2/Full decks
+and previews; bounded reference note and delivery identities.
+
+## Evidence
+
+User instruction; preserved crop specification. Recheck the original
+Lost in the Middle abstract and OpenAI's2025hallucination explanation on
+2026-11-02. Use the latter only for terminology, not model/product metrics.
+
+## Training Relevance
+
+YES — compare a confident answer with the conditions it claims to follow.
+
+## Follow-up
+
+Preserve120slides,417minutes and S47 Lecture4minutes. Render and verify
+unaffected artifacts, then commit and push normally. Do not change the
+Demo repository, Sites or presenter bundles. Keep real-world gates open.

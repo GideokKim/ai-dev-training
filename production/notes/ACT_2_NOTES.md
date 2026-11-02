@@ -597,12 +597,12 @@ LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S46; production/preview/act2/S
 Validation Status: DEC-0123 — 연구 본문·출처·조건·범위·4분 배정은 유지하며 S47 연결 Cue만 명세·답변 대조로 정렬한다. 최종 결과는 production/evaluation/S47_CONTEXT_USE_REVISION.md를 따른다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
 
 
-## S47 — 내가 준 Context를 답에 제대로 반영했을까?
+## S47 — 지침을 놓쳐도 답은 그럴듯할 수 있다
 
 Slide ID:
 S47
 
-Working Title: 내가 준 Context를 답에 제대로 반영했을까?
+Working Title: 지침을 놓쳐도 답은 그럴듯할 수 있다
 
 ACT / Section: ACT 2 / 2E
 
@@ -610,24 +610,26 @@ Allocated Time: 4 minutes
 
 Mode Split: Lecture 4 minutes
 
-Primary Message: 제공한 조건과 답의 결론을 직접 대조한다.
+Primary Message: 지침이 답에서 빠지거나 그럴듯한 오답을 단정할 수 있으므로, 답변의 확신 대신 제공한 조건과 근거를 대조한다.
 
-Opening Question: “명세를 확인했다는 답을 받으면, 조건도 제대로 반영됐다고 볼 수 있을까요?”
+Opening Question: “AI가 명세대로라고 말하면, 정말 조건을 다 지켰다고 볼 수 있을까요?”
 
 Speaker Flow:
-1. (0:00–0:30) S46의 “넣어준 정보를 실제 답의 근거로 썼는가?”를 회수한다. 이번 장은 제공한 조건과 답의 대응을 확인하는 교육용 예시다.
-2. (0:30–1:10) 왼쪽 Context와 요청을 구분해 읽는다. 명세는 시작 열 포함·끝 열 제외다. 이번 질문은 너비6인 이미지의 crop 2 5에 포함되는 원본 열과 출력 폭이다.6은 원본 너비이며 요청 좌표2와5와 구분한다.
-3. (1:10–2:30) 오른쪽에서 원본 열2·3·4가 포함되고 끝 열5는 제외되는 모습을 가리킨다. 왼쪽의 끝 열 제외 조건과 오른쪽의5 제외 표기를 같은 색으로 대조한다. 폭3은5−2=3과 맞는다. 이 답변은 명세로 구성한 예시이며 새 Agent 실행·TRIAL-005A의 응답이 아니다.
-4. (2:30–3:20) “명세를 확인했습니다”라는 말이나 문서 이름만으로는 조건 반영을 판단하지 않는다. 실제 답의 포함 범위와 계산이 제공한 명세와 맞는지 확인한다. 이 대조가 모델 내부에서 그 정보만을 원인으로 사용했다는 증명은 아니다. 출력의 일치와 내부 인과를 구분한다.
-5. (3:20–4:00) 하단의 “제공한 조건과 답의 결론을 직접 대조한다”를 회수한다. “그렇다면 이런 상세 명세를 필요한 작업에서 어디서 찾아보게 할까요?”로 S48의 요청·위치 안내·상세 근거에 연결한다. 이전 코드 탐색 세 질문과 RepoQA는 선택 참고로 남긴다.
+1. (0:00–0:30) S46의 정보 존재/활용 질문을 회수한다. 당시 연구는 특정 모델·과제의 근거 위치와 성능을 살폈다. 지금부터는 그 결과를 현재 Codex에 일반화하는 대신, 답에서 지침이 누락되지 않았는지 주의할 교육용 사례를 본다.
+2. (0:30–1:00) 왼쪽의 명세와 현재 요청을 읽는다. 시작 열 포함·끝 열 제외이고, 너비6에서 crop 2 5에 포함되는 열과 출력 폭을 묻는다. 기존 사례의 요청 조건을 유지한다.
+3. (1:00–2:00) 오른쪽의 “명세대로 해석했습니다”라는 단정과 열2·3·4·5/폭4를 먼저 보여준다. 문장은 자연스럽지만 끝 열5가 포함돼, 제공한 끝 제외 조건과 충돌한다. 화면은 조건 누락을 가정해 만든 오답 예시이며 실제 Agent가 낸 답이나 새 Trial 결과가 아니다.
+4. (2:00–3:00) 빨간5와 폭4, “놓친 조건: 끝 열 제외”를 가리킨다. 아래의 명세 기준은 열2·3·4/폭3이다. 계산5−2+1=4가 내부적으로 맞아 보여도 적용한 범위가 명세와 다르면 답은 틀린다. 코드 수정·테스트 강의로 확장하지 않고 답변과 지침의 충돌만 대조한다.
+5. (3:00–3:30) 지침 누락은 요구조건 미반영이고, 할루시네이션은 그럴듯하지만 사실과 다른 주장을 생성하는 문제로 구분한다. 이 예시는 지침과 모순되는 답에 근거 없는 명세 준수 단정을 함께 구성한 것이다. 모든 지침 위반이 할루시네이션이거나 모든 할루시네이션의 원인이 지침 누락이라고 설명하지 않는다.
+6. (3:30–4:00) “그럴듯한 답도, 지침·근거와 대조한다”로 마친다. S48의 상세 명세 위치 안내로 넘긴다. 관련 정보에 도달할 경로를 설계하는 것과 정확한 답을 보장하는 것은 다르다.
 
-Evidence / Source: TEACHING_MODEL / CONCEPTUAL. STATE-03의 docs/image-contracts.md Crop 절은 [x_start, x_end), 시작 열 포함·끝 좌표 제외 및 유효 범위0 <= x_start < x_end <= image width를 정의한다. 화면의 한국어 명세는 이 문서의 요약이다. 너비6/crop 2 5 요청과 포함 열2·3·4/폭3 답변은 이 명세에 맞춰 구성한 교육용 예시이며 실제 Agent 요청·답변 원문, 새 Trial, 실행 결과가 아니다. DEC-0123. 기존 BEAT-013, OQ-006, DEC-0052/0060/0061/0105와 선택 참고 CLM-0015/SRC-0204를 보존한다. 선택 참고 서지: RepoQA(2024), https://arxiv.org/abs/2406.06025; references/research/repoqa.md. 원래 구현 근거인 STATE-00-FIXED/src/graypipe/transform.py의 crop13행 row[x_start : x_end]와 TRIAL-002는 아래 선택 참고로 유지한다. 실제 TRIAL-005A/B의 접근·답변 기록은 기존 후속 구간에서 다룬다.
+Evidence / Source: TEACHING_MODEL / CONCEPTUAL. STATE-03 docs/image-contracts.md Crop 절의 [x_start, x_end), 시작 포함·끝 제외 및 유효 범위0 <= x_start < x_end <= image width를 요약한다. 너비6/crop 2 5의 오답 열2·3·4·5/폭4와 명세 준수 단정은 조건 누락을 가정해 구성한 예시다. 명세에 맞는 기준은 열2·3·4/폭3이다. 새 Agent 요청/응답·TRIAL-005A/B 실행·테스트 결과가 아니다. S46 출처: Liu et al., Lost in the Middle, TACL2024, https://aclanthology.org/2024.tacl-1.9/ (당시 모델/과제/위치 조건 유지). 할루시네이션 용어 참고: OpenAI, Why language models hallucinate,2025-09-05, https://openai.com/index/why-language-models-hallucinate/ (2026-11-02 확인; 정의만 참고하며 모델별 수치·최신 제품 성능은 차용하지 않음). 범위 메모: references/research/context-use-and-plausible-errors.md. DEC-0124. 기존 BEAT-013/OQ-006/DEC-0052/0060/0061/0105/0123와 STATE-00-FIXED/TRIAL-002 코드 인용, RepoQA(2024) https://arxiv.org/abs/2406.06025 / CLM-0015/SRC-0204는 선택 참고로 유지한다.
 
-Claim Boundary: 제공한 명세와 답변의 결론이 일치하는지 확인하는 교육용 모델이다. 새 Agent 실행, 실제 응답 캡처, 테스트 PASS/FAIL, 내부 정보 활용의 인과적 증명, Context 우월성, Routing 효과, 토큰 절약 또는 현재 Codex 동작을 주장하지 않는다. 답이 명세와 맞는다는 사실만으로 전체 코드의 정확성이나 구현·테스트 완료를 확정하지 않는다. Lost in the Middle과 RepoQA가 이 확인 방식의 효과를 직접 검증했다고 설명하지 않는다. 기존 실제 코드·State/Trial·연구 범위는 변경하지 않는다.
+Claim Boundary: 지침 누락과 그럴듯한 오답을 경계하는 교육용 사례다. 실제 모델이 이 오답을 냈거나, 내부에서 해당 지침을 잊었음을 관찰했다는 주장이 아니다. 출력의 명세 위반은 확인할 수 있지만 내부 원인이나 특정 Context의 인과적 사용을 이 그림으로 입증하지 않는다. Lost in the Middle이 지침 누락→할루시네이션이라는 인과나 현재 Codex의 실패를 입증한 것으로 확대하지 않는다. 지침 위반과 할루시네이션을 동의어로 쓰지 않는다. 실제 Trial, 모델별 실패율, 입력 길이 임계값, 성능/토큰 효과, Routing/Context 우월성·정확성 보장, 전체 구현/테스트 완료를 추가하지 않는다.
 
-Beginner Explanation: 정보를 전달했다면, 답에서도 그 조건을 지켰는지 눈에 보이는 결과와 대조한다. 끝 열을 제외하라고 했으므로5는 빠져야 하고, 남은2·3·4의 폭은3이어야 한다.
+Beginner Explanation: 명세대로라는 말은 안심할 근거가 아니다. 이 예시에서는 제외하라고 한5가 답에 들어가고 폭도4가 됐다. 제공한 조건을 직접 대조하면, 자연스러운 설명 속의 잘못된 적용을 찾을 수 있다.
 
-Advanced Insight: 외부에서 확인하는 것은 제공한 조건과 답의 일관성이다. 읽기 로그·자기 보고·출처 표시는 참고 근거이며, 특정 Context가 내부 판단의 유일한 원인이었다는 인과적 증명과 구분한다. 필요한 경우 사용한 명세 구절과 결론의 대응을 짧게 요청한다. 내부 사고 과정 전체를 요구하는 장이 아니다.
+Advanced Insight:
+조건 미반영과 그럴듯한 거짓 주장은 구분하되 함께 주의한다. 명세를 지켰다는 자기 보고를 단독 근거로 삼지 않는다. 본 사례의 “명세대로”라는 말은 의도적으로 구성한 근거 없는 준수 주장이다. 외부 출력의 일관성 대조와 모델 내부의 인과적 진단을 분리한다. S46의 역사적 연구 결과나 OpenAI의 일반 용어 설명을 이 crop 예시·현재 Codex의 재현 근거로 사용하지 않는다.
 
 보존된 코드 탐색 확인 질문(선택 참고): 위치를 특정했나(파일 경로·함수·관련 줄), 요청한 동작과 맞나(명세와 코드 대조), 주변 근거도 맞나(필요한 호출부·테스트 기대값). 실제 코드 인용: STATE-00-FIXED의 src/graypipe/transform.py crop6–16행 중13행 row[x_start : x_end]. 새 탐색 실행이 아니며 한 줄만으로 전체 구현의 정당성을 확정하지 않는다. 이 내용은 정규4분 흐름에서 추가로 강의하지 않는다.
 
@@ -635,17 +637,17 @@ Advanced Insight: 외부에서 확인하는 것은 제공한 조건과 답의 �
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: N/A — 정적 교육용 명세·요청·답변 대조다. 셀은 원본 열 번호이며 실제 이미지 픽셀 값이나 실행 화면이 아니다. 새 Trial·테스트·검색·제품 조작을 수행하지 않는다. 답변 예시를 실제 Agent 응답 또는 후속 TRIAL-005A로 설명하지 않는다.
+Demo Operation: N/A — 편집 가능한 정적 오답 예시다. 숫자는 원본 열 번호이며 실제 픽셀 값·코드 실행·제품 화면이 아니다. 새 Trial·테스트·비교 실험을 수행하지 않는다. 사용자 데모9개 및 기존 TRIAL-003 11개 기록도 그대로다.
 
-Audience Interaction: “끝 열을 제외한다는 조건은 답의 어디에서 확인할까요?”를 짧게 묻고5 제외와 폭3을 가리킨다. 새 실습·Q&A·별도 비교 실험을 추가하지 않는다.
+Audience Interaction: “명세대로라는 설명과 달리, 어떤 조건이 빠졌나요?”를 짧게 묻고 빨간5를 가리킨다. 정답 폭3을 회수하며 별도 실습·Q&A·새 비교 실험을 추가하지 않는다.
 
-Transition: “이런 상세 명세를 필요한 작업에서 어디서 찾아보게 할까요?”
+Transition: “이런 상세 명세를 필요한 작업에서 어디서 찾아보게 할까요? 다음에는 근거로 가는 길을 보겠습니다.”
 
-Time Management: S46 연결30초, Context/요청 구분40초, 명세와 답의 대조80초, 확인의 의미50초, S48 연결40초로 Lecture4분을 유지한다. 명세 교육·코드 탐색·RepoQA 소개를 다시 강의하지 않는다. 실제 리허설 UNVERIFIED.
+Time Management: S46 연결30초, 조건/요청30초, 그럴듯한 오답60초, 빠진 조건/올바른 기준60초, 주의사항 구분30초, S48 연결30초로 Lecture4분을 유지한다. 논문·할루시네이션 원인 이론·코드 수정·테스트를 별도 강의로 늘리지 않는다. 실제 리허설 UNVERIFIED.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S47 또는 production/preview/act2/S47.png. 명세 기반 교육용 답변 예시로 사용한다. 현재 검토와 파일 식별자는 production/evaluation/S47_CONTEXT_USE_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S47 또는 production/preview/act2/S47.png. 실제 Agent 응답이 아닌 지침 누락 가정의 교육용 오답으로 사용한다. 현재 검토와 파일 식별자는 production/evaluation/S47_CONTEXT_CAUTION_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
 
-Validation Status: DEC-0123 — S46 정보 제공/활용 질문→S47 제공 조건/답변 대조→S48 상세 명세 위치 안내로 정렬한다.19필드·Lecture4분·기존 근거 경계를 유지한다. 최종 렌더링/패키지/내장 Notes 결과는 production/evaluation/S47_CONTEXT_USE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
+Validation Status: DEC-0124 — S46의 제한된 연구 결과→S47의 지침 누락/그럴듯한 오답 주의→S48의 상세 명세 위치 안내로 연결한다.19필드·Lecture4분·기존 근거 범위를 유지한다. 최종 렌더링/패키지/내장 Notes 결과는 production/evaluation/S47_CONTEXT_CAUTION_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
 
 
 ## S48 — 필요한 상세 정보로 가는 길

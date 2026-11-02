@@ -1,5 +1,16 @@
 # ChatGPT & Codex 개발자 교육 기획 원본
 
+## S47 지침 누락·그럴듯한 오답 주의 — DEC-0124 (2026-11-02)
+
+S47은 지침이 답에서 누락되거나 그럴듯한 오답을 단정할 수 있음을 주의하는 장이다.
+기존 명세/너비6/crop 2 5 요청은 유지하고, 명세대로라는 단정과 열2·3·4·5/폭4의
+오답을 교육용으로 구성한다. 빠진 끝 제외 조건과 명세 기준 열2·3·4/폭3을 대조한다.
+S46의 역사적 연구를 현재 Codex의 실패나 지침 누락→할루시네이션 인과로 확대하지 않는다.
+지침 위반과 할루시네이션은 구분하며 기존 실제 Trial과 근거 범위를 유지한다.
+S46/S48 화면·Notes,120장·417분, S47 Lecture4분과 모든 ID·Mode·Template은 그대로다.
+[설계](S47_CONTEXT_USE_CHECK.md), [범위 참고](../references/research/context-use-and-plausible-errors.md),
+[현재 검토](../production/evaluation/S47_CONTEXT_CAUTION_REVISION.md)를 따른다. 아래는 이전 판본의 이력이다.
+
 ## S47 Context와 답변 대조 — DEC-0123 (2026-11-02)
 
 S47은 내가 제공한 Context의 조건과 답변의 결론을 대조하는 장이다. 기존 crop 명세의

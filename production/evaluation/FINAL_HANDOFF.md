@@ -1,5 +1,31 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S47 지침 누락·그럴듯한 오답 주의 — DEC-0124 (2026-11-02)
+
+명세대로라는 단정과 모순되는 오답을 교육용으로 구성해, 누락된 지침과 근거를 직접
+대조하도록 정리했다. S46 연구 범위·S48 연결과120장·417분, S47 Lecture4분은 유지한다.
+[수정 S47](../preview/full/S47.png), [통합 PPT](../AI_Dev_Training_Full.pptx),
+[ACT2 PPT](../ACT_2.pptx), [현재 검토](S47_CONTEXT_CAUTION_REVISION.md).
+142개 최종 렌더·Notes를 대조했고 다른119장 화면/Notes와5개 ACT PPT는 같다.
+오답은 실제 모델 관찰이 아니다. 기존 Trial·사용자 별도 데모9개와 역사적11개는 구분한다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. 아래 기록은 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `221459b64e805798b8f6604c9bf14652a013434b22bfe6891fdf9dbfcceb0e8c` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `da0d80cd8ab64552ba5eaa79e502fff1ef385507ddd2812fb007fa5ac96279c0` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `96103c384f80f69a308a6dd464280e5a8645c17a02e5498a55e3b23ee014d4d9` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `ebf392940f1bff043e4c88d3f32699f82b082c7c5fbac83a8e2811c0c15ac20e` |
+| `production/notes/ACT_2_NOTES.md` | `74c2f6a617adf9b4ecb5d46d7e6bb6ecc2020114069b81c02aec658d36e33d4c` |
+| `production/preview/full/montage.png` | `d26e3b5a23c237588f6f55630e605bd87a2bac77de8d86da3454c13f97698954` |
+| `production/preview/full/S47.png` | `d8935a375171e228773ba8e3ee515909579a673935f2ee27b19a2757093e8c32` |
+
+## 보존된 이전 전달 기록
+
 ## S47 Context와 답변 대조 — DEC-0123 (2026-11-02)
 
 S47에서 제공한 명세와 교육용 답변의 포함 범위·폭을 직접 대조한다.

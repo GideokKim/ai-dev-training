@@ -67,29 +67,30 @@ export async function loadAct2ContinuitySlides(root) {
    return s;
   },
   S40(p){
-   // DEC-0123: this retained S40 factory maps to current S47.
-   const s=make(p,'S40','내가 준 Context를 답에 제대로 반영했을까?','ACT 2 · 제공한 정보와 답의 대응',
-    'STATE-03 crop 명세 기반 교육용 질문·답변 예시',
-    '새 Trial·실제 Agent 응답·내부 활용의 인과적 입증이 아님','TEACHING_MODEL');
+   // DEC-0124: this retained S40 factory maps to current S47.
+   const s=make(p,'S40','지침을 놓쳐도 답은 그럴듯할 수 있다','ACT 2 · 지침 누락·할루시네이션 주의',
+    '기존 crop 명세 기반 교육용 오답 예시',
+    '새 Trial·실제 Agent 응답·현재 Codex의 실패 관찰이 아님','TEACHING_MODEL');
    text(s,'내가 제공한 정보',64,204,478,38,30,C.ink,true);
-   text(s,'답변 예시',652,204,564,38,30,C.ink,true);
+   text(s,'그럴듯한 오답 예시',652,204,564,38,30,C.ink,true);
    rect(s,64,262,478,116,C.pale,C.teal,1.5);
    text(s,'Context · 명세',84,270,438,30,24,C.teal,true);
    text(s,'시작 열은 포함한다.',84,305,438,32,28,C.ink,true);
    text(s,'끝 열은 제외한다.',84,339,438,32,28,C.teal,true);
    prompt(s,64,400,478,144,'작업 요청','너비 6인 이미지에서 crop 2 5의\n포함 열과 출력 폭을 알려줘.');
-   text(s,'포함되는 원본 열',652,263,564,34,26,C.sub,true);
+   text(s,'“명세대로 해석했습니다.”',652,257,564,36,26,C.sub,true);
    [2,3,4,5].forEach((column,i)=>{
-    const x=652+i*108,excluded=column===5;
-    rect(s,x,307,94,72,excluded?C.bg:C.pale,excluded?C.line:C.teal,1.5,excluded?'dash':'solid');
-    text(s,String(column),x,315,94,56,38,excluded?C.sub:C.teal,true,CODE,'center');
+    const x=652+i*108,wrong=column===5;
+    rect(s,x,307,94,72,wrong?C.redPale:C.white,wrong?C.red:C.line,1.5);
+    text(s,String(column),x,315,94,56,38,wrong?C.red:C.ink,true,CODE,'center');
    });
-   text(s,'끝 열 5는 제외',976,388,240,34,26,C.teal,true);
+   text(s,'놓친 조건: 끝 열 제외',652,388,564,34,26,C.red,true);
    arrow(s,578,329,38,24);
    text(s,'출력 폭',652,449,120,38,28,C.ink,true);
-   text(s,'3',784,437,60,60,48,C.teal,true,CODE,'center');
-   text(s,'5 − 2 = 3',874,451,342,36,28,C.sub,false,CODE);
-   text(s,'제공한 조건과 답의 결론을 직접 대조한다.',64,562,1152,42,32,C.teal,true);
+   text(s,'4',784,437,60,60,48,C.red,true,CODE,'center');
+   text(s,'5 − 2 + 1 = 4',874,451,342,36,26,C.sub,false,CODE);
+   text(s,'명세 기준: 열 2·3·4, 폭 3',652,510,564,32,24,C.teal,true);
+   text(s,'그럴듯한 답도, 지침·근거와 대조한다.',64,562,1152,42,32,C.teal,true);
    return s;
   },
   S41(p){

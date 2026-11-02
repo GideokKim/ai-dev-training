@@ -153,7 +153,19 @@ Git/원문/파일명·식별자·과거 기록은 보존한다. 마지막 찾아
 [현재 용어 기준](ACT0_TERMINOLOGY.md), [현재 Map](SLIDE_MAP.md)를 따른다.
 아래 이전 Repository 표기는 당시 기획/제작 이력이다.
 
-## S47의 현재 표현 — DEC-0123 (2026-11-02)
+## S47의 현재 표현 — DEC-0124 (2026-11-02)
+
+S47은 지침 누락과 그럴듯한 오답을 주의하는 TEACHING_MODEL이다. 기존 crop 명세에
+대해 끝 열5까지 포함한 폭4와 명세대로라는 단정을 의도적으로 구성하고, 올바른 기준
+열2·3·4/폭3을 대조한다. 실제 Agent 응답·새 Trial·테스트 결과가 아니다.
+S46 연구는 당시 모델·과제의 근거 위치 조건에 한정한다. 이를 현재 Codex의 실패율이나
+지침 누락→할루시네이션의 인과를 입증한 결과로 확대하지 않는다. 지침 위반과
+할루시네이션을 동의어로 쓰지 않는다. OpenAI의 일반 용어 설명은 용어 참고에 한정하며
+모델별 수치·제품 성능을 차용하지 않는다. 기존 근거·Routing·성능·토큰 범위는 유지한다.
+[범위 참고](../references/research/context-use-and-plausible-errors.md),
+[현재 검토](../production/evaluation/S47_CONTEXT_CAUTION_REVISION.md).
+
+## 보존된 S47 표현 — DEC-0123 (2026-11-02)
 
 S47은 제공한 crop 명세와 구성한 답변의 조건 일치를 대조하는 TEACHING_MODEL이다.
 STATE-03 docs/image-contracts.md의 시작 포함·끝 제외를 요약하고 너비6/crop 2 5를

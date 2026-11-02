@@ -1221,30 +1221,30 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Evidence / Decision References:** BEAT-013, OQ-006, CLM-0014, SRC-0201, DEC-0052, DEC-0060
 - **Audience Footer:** Lost in the Middle(2024) · 특정 연구 과제 결과 / 현재 Codex의 성능을 평가한 결과는 아님
 
-#### S47 — 내가 준 Context를 답에 제대로 반영했을까?
+#### S47 — 지침을 놓쳐도 답은 그럴듯할 수 있다
 
 - **Slide ID:** S47
 - **ACT:** ACT 2
 - **Section:** 2E
-- **Working Title:** 내가 준 Context를 답에 제대로 반영했을까?
-- **Primary Role:** 내가 제공한 Context의 조건과 답변의 결론을 눈에 보이게 대조한다. 이전 코드 탐색 질문과 RepoQA는 Notes의 선택 참고로 보존한다.
-- **Audience Question:** “내가 준 Context를 답에 제대로 반영했을까?”
-- **Core Message:** 제공한 조건과 답의 결론을 직접 대조한다. 명세를 확인했다는 말이나 출처 이름만으로 조건 반영을 확정하지 않는다.
+- **Working Title:** 지침을 놓쳐도 답은 그럴듯할 수 있다
+- **Primary Role:** S46의 정보 활용 주의를 지침 누락과 그럴듯한 오답에 대한 경계로 연결한다.
+- **Audience Question:** “AI가 명세대로라고 말하면, 정말 지침을 다 지켰다고 볼 수 있을까?”
+- **Core Message:** 지침을 놓친 그럴듯한 오답이 가능하므로, 답변의 확신 대신 제공한 지침과 근거를 대조한다.
 - **Story Beat:** BEAT-013 — Long-context research supports a bounded caution
-- **Curriculum Trace:** ACT 2 — bounded research caution → supplied condition/answer correspondence → location guidance for relevant detail.
+- **Curriculum Trace:** ACT 2 — bounded research caution → hypothetical omitted condition/plausible wrong answer → navigation to relevant detail.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — 기존 crop 명세에 따른 교육용 요청·답변 대조. 실제 Agent 응답·새 Trial·테스트 결과·내부 활용의 인과적 증명·정확도·Routing/성능/토큰 효과 또는 현재 Codex 동작을 주장하지 않는다. 기존 연구·코드·State/Trial 범위는 Notes에서 유지한다.
-- **Visual Concept:** 왼쪽에는 시작 열 포함·끝 열 제외 명세와 너비6/crop 2 5 요청을 나눠 놓고, 오른쪽에는 답변 예시의 포함 열2·3·4/끝5 제외/출력 폭3을 편집 가능한 열 셀과5−2=3으로 보여준다. 끝 열 제외 조건과 답의5 제외를 같은 색으로 대응시킨다. 하단은 제공한 조건과 답의 결론을 직접 대조한다는 한 문장이다. 답변 예시 라벨로 실제 응답과 구분하며 RepoQA를 화면에 다시 넣지 않는다.
-- **Demo / Case Connection:** STATE-03 docs/image-contracts.md의 Crop 절을 한국어로 요약한다. 너비6/crop 2 5와 답변은 교육용 구성이고 실제 TRIAL-005A/B의 요청·답변이나 새 실행 결과가 아니다. 이전 STATE-00-FIXED/TRIAL-002 코드 인용·세 확인 질문은 Notes의 선택 참고로 보존한다.
-- **Beginner Payoff:** 제공한 조건을 답의 범위·계산에 직접 대조하는 확인 방법을 얻는다.
-- **Advanced Payoff:** 정보 제공·읽기 보고·출처 표시·출력의 조건 일치·내부 인과를 구분한다. 이 장은 외부에서 확인 가능한 답의 일관성에 집중한다.
+- **Claim Status:** TEACHING MODEL — 기존 crop 명세로 지침 누락을 가정한 오답과 올바른 기준을 구성한다. 실제 Agent 응답·새 Trial·테스트 결과·모델 내부 원인·현재 Codex 실패율이나 지침 누락→할루시네이션 인과를 입증한 결과가 아니다. 지침 위반과 할루시네이션을 동의어로 쓰지 않으며 기존 연구·성능·Routing·토큰 주장 범위를 확대하지 않는다.
+- **Visual Concept:** 왼쪽 명세/요청은 유지하고, 오른쪽에 “그럴듯한 오답 예시”와 “명세대로 해석했습니다”라는 단정을 둔다. 열2·3·4·5 중 제외해야 할5와 잘못된 폭4만 빨간색으로 강조하고 “놓친 조건: 끝 열 제외”를 표시한다. 아래에는 명세 기준 열2·3·4/폭3을 작게 대조한다. 하단은 그럴듯한 답도 지침·근거와 대조한다는 한 문장이다.
+- **Demo / Case Connection:** STATE-03 docs/image-contracts.md의 시작 포함·끝 제외 명세를 사용한 교육용 오답이다. 너비6/crop 2 5의 정답 기준은 열2·3·4/폭3이고, 화면의 열2·3·4·5/폭4는 의도적으로 잘못 구성했다. 실제 TRIAL-005A/B나 현재 제품 관찰이 아니다. 이전 코드·Trial·RepoQA 참고는 Notes에 보존한다.
+- **Beginner Payoff:** 자연스러운 설명이나 명세 준수 단정 속에서도 빠진 조건을 직접 찾는다.
+- **Advanced Payoff:** 지침 미반영·그럴듯한 거짓 주장·자기 보고·출력의 명세 위반·내부 원인 진단을 구분한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S46의 정보 존재/활용 질문을 제공한 명세와 답변의 대응으로 회수한다. 명세·요청·답을 차례로 짚고5 제외와 폭3을 대조한다. 명세 자체나 코드 탐색을 다시 강의하지 않는다. 같은4분 안에서 상세 명세를 필요한 작업에서 찾게 할 방법이라는 S48 질문으로 연결한다.
-- **Transition:** “이런 상세 명세를 필요한 작업에서 어디서 찾아보게 할까요?”
+- **Speaker Intent:** S46의 정보 활용 질문을 받아, 답에서 지침이 빠지거나 근거 없는 단정을 할 수 있음을 교육용 사례로 경고한다. 실제 관찰과 구분하고 연구가 현재 Codex의 할루시네이션을 입증한 것으로 확대하지 않는다. 지침과 답의 충돌을 짚은 뒤 S48의 상세 근거 위치 안내로 연결한다.
+- **Transition:** “이런 상세 명세를 필요한 작업에서 어디서 찾아보게 할까요? 다음에는 근거로 가는 길을 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-013, OQ-006, STATE-03 docs/image-contracts.md Crop, DEC-0052, DEC-0060, DEC-0061, DEC-0105, DEC-0123; prior code/Trial references retained in Notes: STATE-00-FIXED, TRIAL-002; related research in Notes only: CLM-0015, SRC-0204
-- **Audience Footer:** 없음 — M 연계 표시는 유지; 답변 예시 라벨은 본문에 표시
+- **Evidence / Decision References:** BEAT-013, OQ-006, STATE-03 docs/image-contracts.md Crop, DEC-0052, DEC-0060, DEC-0061, DEC-0105, DEC-0123, DEC-0124; CLM-0014/SRC-0201 study scope retained; terminology reference: OpenAI Why language models hallucinate(2025-09-05), checked2026-11-02; prior code/Trial and RepoQA references remain in Notes
+- **Audience Footer:** 없음 — M 연계 유지; 교육용 오답 예시는 본문 라벨로 구분
 
 #### S48 — 필요한 상세 정보로 가는 길
 
