@@ -502,12 +502,13 @@
     },
     "S59": {
       "lines": [
-        "요청 예시"
+        "역할에 따른 배치 예 · AGENTS.md에도 절차를 둘 수 있음"
       ],
       "originalLines": [
         "교육용 요청 재구성 · 다음 ACT에서 TRIAL-006/007의 실제 기록을 비교",
         "Context 선택 완전 해결 미입증 · 다음 예시도 Prompt 단독 효과로 귀속하지 않음"
-      ]
+      ],
+      "changeDecision": "DEC-0127; current S59 role comparison, not an exclusive file taxonomy"
     },
     "S60": {
       "lines": null,

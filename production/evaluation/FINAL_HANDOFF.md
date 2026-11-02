@@ -1,5 +1,33 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S59 Context·Workflow 역할 비교 — DEC-0127 (2026-11-02)
+
+같은 normalize 요청 아래 AGENTS.md의 프로젝트 기준/안내와3단계 작업 레일을 대비한다.
+SKILL.md는 필요한 작업에 재사용할 후보로 표시하며, 파일 역할은 배타적으로 구분하지 않는다.
+S59 10분=Transition4+Q&A6, S58→S59→S60→S61 연결과120장·417분을 유지한다.
+[수정 S59](../preview/full/S59.png), [통합 PPT](../AI_Dev_Training_Full.pptx),
+[ACT2 PPT](../ACT_2.pptx), [현재 검토](S59_CONTEXT_WORKFLOW_REVISION.md).
+142개 최종 렌더/내장 Notes를 대조했다. 다른119장 화면·Notes와5개 ACT PPT는 같다.
+기존 반복 기록과 귀속 한계는 보존하며 새 Skill 실행·준수/효율 성과를 주장하지 않는다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. 아래 기록은 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `3b8c9f32dd54cdefe7e50ed8e39a0c9aedb74e840a61b61b9f352f5b805378a9` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `71b3caffee5bab5e3dc5963a2c7f0b6c073136beaa3019a4a5b0c9db24e2f21f` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `4a689778ec9715b120fdf469ba52bb6eb88973a7b907db4fe933e3a298377b73` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `6e0fcbb5abcb1e1340b88356ac9b1c235265c62de7a901dcc6060d642e4dc6a2` |
+| `production/notes/ACT_2_NOTES.md` | `b28f5694682a893dcd499a49569c57fd81e2405f8e331dcae8a262cd1f39ee9b` |
+| `production/preview/full/montage.png` | `756861bad2990bc2749b8d90d02e0cdc3d31167fcda99eb0ba0a9cbedc5a106a` |
+| `production/preview/act2/montage.png` | `d7e66c468274d0aa80b83000ac284535d12b366fd81ebbfef849e713da0112a1` |
+| `production/preview/full/S59.png` | `c2cd2b490e8cc454e63047e7cdcf356381b00b01e547e05b4cc8650599c81487` |
+
+## 보존된 이전 전달 기록
+
 ## S55 네 장면 시각 회고 — DEC-0126 (2026-11-02)
 
 기존 네 관찰을2×2 native 그림으로 바꾸고 STATE/TRIAL 화면 표시는 Notes로 옮겼다.

@@ -3523,12 +3523,13 @@ LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S58; production/preview/act2/S
 **Validation Status:**
 Official guidance checked2026-10-26. Local package/render/Notes checks recorded separately. Product-account execution, Windows, room and timed rehearsal remain UNVERIFIED.
 
-## S59 — 지식은 정리됐지만 절차는 반복된다
+## S59 — 프로젝트 기준과 작업 절차는 역할이 다르다
 
 Slide ID:
 S59
 
-Working Title: 지식은 정리됐지만 절차는 반복된다
+Working Title:
+프로젝트 기준과 작업 절차는 역할이 다르다
 
 ACT / Section: ACT 2 / 2I
 
@@ -3536,49 +3537,60 @@ Allocated Time: 10 minutes
 
 Mode Split: Transition 4 minutes + Q&A 6 minutes
 
-Primary Message: Prompt는 현재 원하는 것을, Project Context는 일반적으로 참인 것을, Routing은 관련 상세 정보의 위치를 다룬다. 반복되는 작업 절차는 별도의 문제로 남을 수 있다.
+Primary Message:
+이번 목표는 normalize 성능 조사다. Project Context는 그 작업에서 참고할 프로젝트 기준·안내이고, Workflow는 측정·조사·변경 판단·검증·비교를 진행할 수행 방법이다. 여러 작업의 기본 안내는 AGENTS.md, 필요한 작업에 다시 쓸 방법은 SKILL.md 후보로 생각할 수 있다. 역할에 따른 배치 기준이며 파일의 배타적 내용 규칙은 아니다.
 
-Opening Question: “Project 정보를 잘 정리했으면 문제가 끝난 걸까?”
+Opening Question:
+“같은 성능 조사 작업에서, 참고할 프로젝트 기준과 진행할 작업 순서는 어떻게 다를까요?”
 
 **Speaker Flow:**
-1. (0–1분, Transition) 정보의 위치와 근거 접근을 정리했다는 앞 장 성과를 한 문장으로 회수한다.
-2. (1–4분, Transition) 하나의 성능 요청에 여전히 조사·검증 절차를 다시 적는 그림을 보여주며 유지 책임을 묻는다. 다음 장의 두 기록 비교를 미리 설명하지 않는다.
-3. (4–9:40, Q&A) “우리 팀은 어떤 절차를 매번 다시 요청합니까?”로 팀의 방법 반복을 묻는다. 질문이 없으면 변경 전 측정/동일 입력 비교/완료 보고 중 하나를 선택하게 한다.
-4. (9:40–10분, Q&A 마무리) 두 실제 성능 요청에 반복된 지시를 보겠다고 S61으로 넘긴다.
-기존 연결 질문을 유지한 채 ACT 3 제목 S60를 거쳐 S61의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
+1. (0:00–0:45 / Transition) S58에서 적용 지침을 확인했음을 회수하고, 상단 normalize 성능 조사 요청과 양쪽 질문을 읽는다. 하나의 작업에서 기준과 수행 방법을 구분하는 교육용 예다.
+2. (0:45–1:45 / Transition) 왼쪽 AGENTS.md 문서의 이미지 명세 보존·테스트 명령 위치·성능 측정 기준을 짚는다. 작업에서 계속 참고할 안내라는 역할을 설명한다. 특정 파일이 모든 상세를 담아야 한다는 뜻은 아니다.
+3. (1:45–2:45 / Transition) 오른쪽 레일을 따라 변경 전 측정, 조사·계획·변경 판단, 테스트·동일 조건 비교를 짚는다. 명령의 위치를 아는 것과 그 명령을 언제 어떤 판단에 쓰는지는 다른 책임이다. 자세한 전/후 테스트 판단은 S62에 남긴다.
+4. (2:45–4:00 / Transition) 오른쪽 SKILL.md 후보는 반복할 방법의 유지 후보임을 짚는다. AGENTS.md에도 절차를 둘 수 있고 Skill에도 참고 지식을 둘 수 있다. 하단 질문으로 반복 방법을 매번 적는 문제를 연다. Skill 설계 선택·실제 발견/호출은 다음 ACT에 남긴다.
+5. (4:00–9:40 / Q&A) 우리 팀에서 매번 다시 요청하는 수행 방법을 묻는다. 기준과 절차의 역할을 구분하는 질문을 받되 실습·파일 생성·새 Demo를 시작하지 않는다.
+6. (9:40–10:00 / Q&A 마무리) 서로 다른 성능 작업에서 실제로 반복된 지시를 보겠다고 연결한다. 기존 S60 ACT3 표지를 거쳐 S61의 두 요청 기록으로 이동한다. 표지1분은 다음 ACT 배정이다.
 
-Evidence / Source: BEAT-017/018, TRANS-005, TRIAL-006/007, CLM-0003/0005/0014/0006/0029/0030, DEC-0059. plan/DEMO_MATRIX.md의 TRIAL-006 실제 Prompt/Repeated Workflow Elements, TRIAL-007 Task Prompt/결과 요약과 환경 영향 기록을 대조했다. OBSERVED_PRODUCT는 다음 문제의 반복 Prompt 구조에 한정하고, Context/Prompt/Workflow 책임 구분과 이 화면은 TEACHING_MODEL이다. 새 Trial·테스트·제품 확인은 하지 않았다.
+Evidence / Source:
+BEAT-017/018, TRANS-005, TRIAL-006/007, CLM-0003/0005/0014/0006/0029/0030, DEC-0059. plan/DEMO_MATRIX.md의 TRIAL-006 실제 Prompt/Repeated Workflow Elements, TRIAL-007 Task Prompt/결과 요약과 환경 영향 기록을 대조했다. OBSERVED_PRODUCT는 다음 문제의 반복 Prompt 구조에 한정하고, Context/Prompt/Workflow 책임 구분과 이 화면은 TEACHING_MODEL이다. 새 Trial·테스트·제품 확인은 하지 않았다.
 
 보존된 상세 출처: 교육용 요청 재구성 · 다음 ACT에서 TRIAL-006/007의 실제 기록을 비교
+
+DEC-0127. [OpenAI: Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md), [OpenAI: Build skills](https://learn.chatgpt.com/docs/build-skills), checked2026-11-02. 공식 안내의 프로젝트 지침과 재사용 Workflow 설명을 역할 비교의 배경으로 사용한다. 화면의 요청·기준·레일은 기존 성능 사례의 교육용 압축이며 실제 Prompt 전문이나 새 실행 trace가 아니다.
 
 Claim Boundary:
 FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; Context 정리는 ACT 2의 주제이며, 다음 절차 반복 예시는 ACT 3의 질문이다. Trial Prompt만으로 전체 절차의 원인을 귀속하지 않는다. S55의 성과를 반복 해설하지 않고 수행 방법을 누가 유지할지 질문한다. Transition4 뒤 Q&A6은 팀의 반복되는 방법을 묻고 마지막20초에 다음 기록으로 넘어간다. 두 실제 요청의 대응 기록은 S61에 남겨 역할을 나눈다.
 
 보존된 상세 범위: Context 선택 완전 해결 미입증 · 다음 예시도 Prompt 단독 효과로 귀속하지 않음
 
-Beginner Explanation: 명세·구조·테스트 안내를 어디서 찾을지 알려두는 것과, 어떤 순서로 조사하고 확인할지 요청하는 것은 책임이 다르다. 현재 목표가 달라도 같은 작업 방법을 다시 적는 부분을 살핀다.
+Project Context는 이 장에서 프로젝트 기준·안내를 가리키는 교육용 구분이다. 모델 입력 전체라는 넓은 Context에는 Workflow 지침도 포함될 수 있다. AGENTS.md는 사실만 담는 파일, SKILL.md는 순서만 담는 파일이라는 배타적 제품 분류를 만들지 않는다. 후보 표기는 이 State에서 Skill을 생성·호출·실행한 근거가 아니며, 실제 설계 선택과 기록은 S64/S65 이후에 남긴다. 자동 준수·Skill 우월성·토큰 절감·Harness 단독 효과·현재 Desktop 재현을 주장하지 않는다.
 
-Advanced Insight: The screen contrasts information scope/location with repeated procedure ownership. The recorded common workflow motivates a design question; it does not establish isolated Prompt causality or measured Context efficiency.
+Beginner Explanation:
+기존 이미지 명세나 테스트 명령의 위치는 작업할 때 계속 참고할 안내다. 변경 전에 측정하고 조사·변경 판단 뒤 검증·비교하는 순서는 그 안내를 사용해 일하는 방법이다. 반복되는 안내와 방법을 유지할 위치를 역할에 맞게 고른다.
+
+Advanced Insight:
+Distinguish project guidance from a reusable procedure without treating storage formats as exclusive content categories. Workflow instructions also enter the broader model context. A Skill is a candidate packaging choice here; invocation, adherence and measured effects require separate evidence.
 
 C++ Vision Bridge: N/A.
 
 Demo Operation:
-N/A — native 문서 배치와 두 성능 요청의 압축 요약을 정적으로 보여준다. Prompt 전문·실제 Screenshot·현재 제품 실행으로 표현하지 않는다. 이 장은 새 Trial이나 추가 Demo 시간이 아니다. 다음 S61에서 기록의 반복 구조를 확인한다.
+N/A — native 요청 한 개, AGENTS.md 문서와3단계 작업 레일을 정적으로 비교한다. 문서와 레일 사이에 대체·진화 화살표를 넣지 않는다. Skill을 생성/호출하거나 실제 Prompt 전문·새 실행 trace·성과 수치를 보여주지 않는다. 두 실제 요청의 대응은 다음 S61에서 확인한다.
 
 Audience Interaction:
-Q&A6分은 팀에서 반복하는 작업 방법을 묻는다. S54의 근거 주장 해석 Q&A와 구분한다. 무응답 때는 “변경 전 측정, 테스트, 비교·보고 중 무엇을 매번 적습니까?”를 사용한다.
+Q&A6분은 “우리 팀에서 매번 다시 요청하는 작업 순서는 무엇인가요?”로 연다. 무응답 시 테스트 명령의 위치와 변경 전/후 비교 방법 중 어떤 안내·방법을 반복하는지 짧게 묻는다. S54의 관찰/성과 해석 질문과 구분하며 실습·공개 제출을 추가하지 않는다.
 
 **Transition:**
 “우리 팀은 어떤 절차를 매번 다시 요청합니까? 다음에는 두 성능 Task의 실제 요청 기록에서 반복된 지시를 확인합니다.”
 기존 연결 질문을 유지한 채 ACT 3 제목 S60를 거쳐 S61의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
 
 Time Management:
-Transition4분 후 Q&A6분을 유지한다. 두 실제 요청 전문 비교는 여기서 하지 않는다. 질문은9:40에 마무리하고 마지막20초에 S61으로 handoff한다.
+Transition0–4분은 요청/질문0.75, 프로젝트 문서1, 작업 레일1, 후보 배치·반복 질문1.25로 진행한다. Q&A4–9:40 후 마지막20초에 S60→S61로 연결한다. 총10분=Transition4+Q&A6이며 Lecture/Demo 시간을 추가하지 않는다. 실제 리허설은 UNVERIFIED다.
 
 Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S59 또는 production/preview/act2/S59.png를 사용한다. Full/ACT2 PNG·내장 Notes 일치는 production/evaluation/S49_WORKFLOW_HANDOFF_REVISION.md와 검증 JSON을 따른다. 실제 실행 캡처나 현재 제품 화면이 아니다. 무응답 시 Audience Interaction의 준비 질문으로 진행한다.
+LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S59 또는 production/preview/act2/S59.png를 사용한다. 실제 실행 캡처가 아닌 교육용 역할 비교다. Full/ACT2 PNG·내장 Notes·경로 확인은 production/evaluation/S59_CONTEXT_WORKFLOW_REVISION.md에 기록한다. 무응답 시 Audience Interaction의 준비 질문으로 진행한다.
 
-Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
+Validation Status:
+LOCAL VALIDATION — source/PPT/PNG/19필드 Notes 대조 결과는 production/evaluation/S59_CONTEXT_WORKFLOW_REVISION.md에 기록한다. Windows PowerPoint·실제 발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다.
 
 ## S60 — AI가 일할 방법과 환경 설계하기
 

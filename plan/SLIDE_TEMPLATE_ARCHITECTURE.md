@@ -1,5 +1,11 @@
 # STEP 08 — Slide Template Architecture
 
+## 현재 S59의 T04-A 적용 — DEC-0127
+
+기존2대상 비교를 같은 성능 요청의 프로젝트 기준/안내와 수행 순서에 적용한다.
+왼쪽은 참고 문서, 오른쪽은3단계 레일로 구분하고 질문·예·유지 후보라는 같은 축을 사용한다.
+새 Template/Variant 없이12Templates/28Variants를 유지한다. [현재 설계](S59_CONTEXT_WORKFLOW.md)를 따른다.
+
 ## 현재 S55의 T03-A 적용 — DEC-0126
 
 S55는 기존 네 관찰을2×2 native 그림과 성찰 질문으로 회수한다. 주요 그림4개와 질문1개의

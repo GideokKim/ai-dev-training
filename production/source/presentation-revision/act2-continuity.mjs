@@ -248,22 +248,37 @@ export async function loadAct2ContinuitySlides(root) {
    return s;
   },
   S49(p){
-   const s=make(p,'S49','지식은 정리됐지만 절차는 반복된다','ACT 2 · 남은 질문에서 Harness로',
+   // DEC-0127: retained S49 maps to current S59 at the ACT2 handoff.
+   const s=make(p,'S49','프로젝트 기준과 작업 절차는 역할이 다르다','ACT 2 · 프로젝트 안내와 수행 방법',
     '교육용 요청 재구성 · 다음 ACT에서 TRIAL-006/007의 실제 기록을 비교',
     'Context 선택 완전 해결 미입증 · 다음 예시도 Prompt 단독 효과로 귀속하지 않음');
-   text(s,'필요한 정보의 위치와, 일을 수행하는 방법은 다른 질문',64,181,1152,44,30,C.teal,true);
-   text(s,'정리한 것',64,250,454,38,29,C.teal,true);
-   rect(s,64,308,454,184,C.white,C.line,1.5);
-   text(s,'AGENTS.md',88,326,406,39,31,C.ink,true,CODE);
-   text(s,'기본 안내 · 상세의 위치',88,375,406,35,27,C.sub);
-   down(s,272,423,24,18);
-   text(s,'필요한 명세 · 구조 · 테스트',88,451,406,32,26,C.ink,true);
-   text(s,'아직 다시 요청하는 것',674,250,542,38,29,C.ink,true);
-   prompt(s,674,308,542,210,'성능 조사 요청의 예','');
-   text(s,'normalize 성능을 조사해줘.',694,371,502,34,27,C.ink,true);
-   rect(s,694,414,502,88,C.pale);
-   text(s,'먼저 측정·조사하고 계획해줘.\n변경 뒤 검증·재측정·비교·검토해줘.',710,425,470,66,25,C.ink);
-   text(s,'이 절차를 누가 유지하고, 다음 작업에서 어떻게 다시 쓸까?',64,552,1152,42,30,C.teal,true);
+   const request=rect(s,64,174,1152,64,C.white,C.line,1.5);request.borderRadius=10;
+   text(s,'이번 요청',84,188,142,36,24,C.teal,true);
+   text(s,'normalize 성능을 조사해줘.',250,185,896,42,31,C.ink,true);
+
+   text(s,'Project Context · 기준과 안내',64,257,542,38,29,C.teal,true);
+   text(s,'무엇을 참고하고 지켜야 할까?',64,300,542,34,25,C.sub);
+   text(s,'Workflow · 작업 순서',674,257,542,38,29,C.ink,true);
+   text(s,'어떤 순서로 진행할까?',674,300,542,34,25,C.sub);
+
+   rect(s,64,344,542,170,C.white,C.line,1.5);
+   text(s,'AGENTS.md',88,354,494,40,31,C.ink,true,CODE);
+   ['기존 이미지 명세 보존','테스트 명령의 위치','성능 측정 기준'].forEach((label,i)=>{
+    const y=404+i*35;
+    rect(s,88,y+8,10,10,C.teal);
+    text(s,label,116,y,466,30,26,C.ink);
+   });
+   text(s,'여러 작업의 기본 안내',64,520,542,30,24,C.teal,true);
+
+   ['변경 전 측정','조사·계획·변경 판단','테스트·동일 조건 비교'].forEach((label,i)=>{
+    const y=350+i*53;
+    s.shapes.add({geometry:'ellipse',position:{left:686,top:y+3,width:36,height:36},fill:C.pale,line:{fill:C.teal,width:1.5}});
+    text(s,`0${i+1}`,686,y+3,36,36,21,C.teal,true,CODE,'center');
+    text(s,label,750,y,466,42,28,C.ink,true);
+    if(i<2)s.shapes.add({geometry:'connector',kind:'straight',position:{left:704,top:y+42,width:0,height:13},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
+   });
+   text(s,'SKILL.md 후보 · 필요한 작업에 재사용',674,520,542,30,24,C.teal,true);
+   text(s,'이 작업 순서를 다음 요청에도 매번 다시 적어야 할까요?',64,563,1152,36,30,C.teal,true);
    return s;
   },
   S50(p){

@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+현재 S59 역할 비교·근거 범위와 파일 식별자는 [DEC-0127 검토](S59_CONTEXT_WORKFLOW_REVISION.md)와 [최종 전달 안내](FINAL_HANDOFF.md)를 따른다. Skill은 재사용 후보이며 기존 실환경 검증 상태는 유지한다.
+
+## 보존된 이전 체크리스트
+
 현재 S55의 네 그림·근거 범위와 파일 식별자는 [DEC-0126 검토](S55_VISUAL_RECAP_REVISION.md)와 [최종 전달 안내](FINAL_HANDOFF.md)를 따른다. STATE/TRIAL은 Notes에 보존하며 실환경 검증 상태는 유지한다.
 
 ## 보존된 이전 체크리스트

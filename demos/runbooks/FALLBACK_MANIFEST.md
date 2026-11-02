@@ -1,6 +1,9 @@
 # Static Fallback Manifest
 
-Current: DEC-0126 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0127 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+S59 compares project guidance and procedure with one task. SKILL.md is a
+reuse candidate, not an observed creation/invocation or exclusive file rule.
+Keep ten minutes and all44fallback roles/classes/paths unchanged.
 S55 recaps four bounded observations with2x2 native scene diagrams.
 State/Trial identifiers remain in Notes, without new runs or results.
 Keep its three minutes and all44fallback roles/classes/paths unchanged.
@@ -22,11 +25,11 @@ in the reports and source history. No Demo repository state is changed.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`b75c0894f5c3769c970c6c3e587ca099dd450e2ad20e49bcd76a8170b3c32d39`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`cdabc0d2e337711c331f6ef7c7fbcf2e210dcf2821720d155248cb5fad916687`.
-- `production/preview/full/montage.png` SHA-256:`9bef60fabf7d9703cb60a114f8a9797f044301b47404b0a64ee0734e171ad884`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`3b8c9f32dd54cdefe7e50ed8e39a0c9aedb74e840a61b61b9f352f5b805378a9`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`6e0fcbb5abcb1e1340b88356ac9b1c235265c62de7a901dcc6060d642e4dc6a2`.
+- `production/preview/full/montage.png` SHA-256:`756861bad2990bc2749b8d90d02e0cdc3d31167fcda99eb0ba0a9cbedc5a106a`.
 
-[Current revision](../../production/evaluation/S55_VISUAL_RECAP_REVISION.md),
+[Current revision](../../production/evaluation/S59_CONTEXT_WORKFLOW_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |

@@ -1,5 +1,13 @@
 # STEP 08 — CLAIM / EVIDENCE FREEZE RESULT
 
+## S59 Context·Workflow 역할 비교 — DEC-0127 (2026-11-02)
+
+현재 S59는 같은 성능 요청에서 Project Context의 기준·안내와 Workflow의 수행 순서를
+문서/레일로 대비한다. AGENTS.md의 공통 안내와 SKILL.md 재사용 후보는 역할별 배치 예다.
+두 파일의 내용을 배타적으로 구분하지 않으며 실제 선택·호출 근거는 기존 ACT3에 남긴다.
+S59 10분=Transition4+Q&A6, S58→S59→S60→S61 연결과120장·417분은 같다.
+[현재 설계](S59_CONTEXT_WORKFLOW.md), [정식 Map](SLIDE_MAP.md)을 따른다. 아래 이력은 보존한다.
+
 ## S55 네 장면 시각 회고 — DEC-0126 (2026-11-02)
 
 현재 S55는2×2 그림으로 공통 안내 기록·지침 활용·정보 보존 분리·질문별 상세 접근을 회수한다.

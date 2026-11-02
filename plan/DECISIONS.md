@@ -12633,3 +12633,73 @@ during restructuring and observed access without conflating their proof.
 
 Render and compare the final packages, preserve unrelated artifacts and
 push normally. Keep Windows, room, account and rehearsal gates unverified.
+
+# DEC-0127 — Clarify project guidance and workflow on S59
+
+## Status
+
+ACCEPTED — explicit user approval of the proposed visual role comparison.
+
+## Date
+
+2026-11-02
+
+## Context
+
+S59 compares document locations with a long request. The audience needs a
+clearer distinction to decide what guidance or procedure to maintain.
+
+## Problem
+
+Explain project context and workflow with the same task while preserving
+the ACT2 handoff and the later ACT3 evidence and Skill design rationale.
+
+## Decision
+
+Use one normalize request, an AGENTS.md guidance document and a procedure
+rail with three steps. Label reusable procedure packaging as a SKILL.md candidate.
+Keep file responsibilities nonexclusive. Preserve S59 Transition4+Q&A6,
+the 120/417 plan, existing IDs and T04-A template. Align Notes and sources.
+
+## Rationale
+
+Make the difference between reference guidance and execution order visible
+without requiring the audience to compare long paragraphs. Keep the next
+ACT focused on recorded repetition, timing, composition and design choice.
+
+## Alternatives
+
+Retain the long request: leaves the role difference difficult to see.
+Define files as exclusive categories: contradicts documented capabilities.
+Teach Skill invocation here: would duplicate and preempt later evidence.
+
+## Trade-offs
+
+The Skill name appears as a candidate before the design-choice section.
+Its rationale and observed invocation remain in ACT3. Workflow is also
+part of the broader model context; the comparison is a teaching boundary.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESEARCH-002,
+INV-RESEARCH-004, INV-DIFFICULTY-001, INV-SOT-001.
+
+## Affected Artifacts
+
+S59 source/footer, Map/template mapping, Notes, Full/ACT2 packages,
+previews, claim/design/transition records and delivery identities.
+
+## Evidence
+
+User-approved plan, preserved TRIAL-006/007 and official OpenAI AGENTS.md
+and Build skills guides checked2026-11-02. No new execution or Trial.
+
+## Training Relevance
+
+YES — choose storage and maintenance boundaries by the guidance's role,
+without equating file placement with execution compliance or benefits.
+
+## Follow-up
+
+Render and compare final packages, preserve unrelated artifacts and push
+normally. Keep Windows, room, account and rehearsal gates unverified.

@@ -1,5 +1,10 @@
 # Current presentation source
 
+S59 context/workflow comparison: DEC-0127 replaces retained factory `S49`
+in `act2-continuity.mjs`, which reaches current `S59`. Keep the current
+footer's nonexclusive placement cue and the SKILL.md candidate label.
+Full and ACT2 change; other ACT sources and all source editions remain.
+
 S55 visual recap: DEC-0126 replaces retained `act2-continuity.mjs` factory
 `S48`, which reaches current `S55` through the existing edition adapters.
 Use four editable scene diagrams in2x2, keep source IDs in current Notes,

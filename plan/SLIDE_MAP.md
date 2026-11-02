@@ -1534,30 +1534,30 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Practical Tip Classification:** Context 관리
 - **Audience Footer:** 시작 시 자동 수집 기준 · 파일 경로와 본문을 확인
 
-#### S59 — 지식은 정리됐지만 절차는 반복된다
+#### S59 — 프로젝트 기준과 작업 절차는 역할이 다르다
 
 - **Slide ID:** S59
 - **ACT:** ACT 2
 - **Section:** 2I Discussion·Transition
-- **Working Title:** 지식은 정리됐지만 절차는 반복된다
+- **Working Title:** 프로젝트 기준과 작업 절차는 역할이 다르다
 - **Primary Role:** Context Engineering을 정리하고 Harness Engineering으로 전환한다.
-- **Audience Question:** “Project 정보를 잘 정리했으면 문제가 끝난 걸까?”
-- **Core Message:** Prompt는 현재 원하는 것을, Project Context는 일반적으로 참인 것을, Routing은 관련 상세 정보의 위치를 다룬다. 반복되는 작업 절차는 별도의 문제로 남을 수 있다.
+- **Audience Question:** “같은 성능 조사 작업에서, 참고할 프로젝트 기준과 진행할 작업 순서는 어떻게 다를까요?”
+- **Core Message:** 하나의 성능 조사에서 Project Context는 참고할 기준·안내, Workflow는 진행할 수행 방법이다. AGENTS.md의 공통 안내와 SKILL.md 후보의 재사용 절차를 역할로 구분한다. 파일 내용의 배타적 분류가 아니다. 기존 Task 목표/Context/Routing 구분과 반복 절차 문제를 유지한다.
 - **Story Beat:** BEAT-017 → BEAT-018; TRANS-005
 - **Curriculum Trace:** ACT 2 — Context Engineering success and ACT 3 handoff.; ACT 3 — Context → Harness problem and bottom-up framing.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; Context 정리는 ACT 2의 주제이며, 다음 절차 반복 예시는 ACT 3의 질문이다. Trial Prompt만으로 전체 절차의 원인을 귀속하지 않는다.
-- **Visual Concept:** 정리된 기본 안내/상세 문서를 왼쪽에 작게 회수하고 오른쪽에는 성능 조사 요청 하나와 다시 적는 측정·조사·계획·검증·비교/검토 요약을 둔다. 다음 장의 두 실제 Task 비교를 앞당기지 않는다.
+- **Visual Concept:** 상단 normalize 성능 조사 요청 아래, 왼쪽은 기존 이미지 명세·테스트 명령 위치·측정 기준을 담은 AGENTS.md 문서, 오른쪽은 변경 전 측정→조사·계획·변경 판단→테스트·동일 조건 비교의3단계 레일이다. 아래에 기본 안내/재사용할 SKILL.md 후보를 표시한다. 문서와 레일을 대체 관계로 연결하지 않으며 하단에서 다음 요청에도 절차를 매번 적을지 묻는다.
 - **Demo / Case Connection:** S54의 관찰된 접근 차이와 미입증 경계를 회수한 뒤, 정보를 어디서 찾을지 나눈 것과 작업 방법을 매번 요청하는 문제를 구분한다. 다음 성능 작업의 공통 절차를 교육용 도식으로 압축하고 S61에서 TRIAL-006/007 기록을 더 살펴본다. 이 장의 Discussion은 실습이나 새 Demo가 아니다.
 - **Beginner Payoff:** Project 정보를 잘 주는 것과 작업 방법을 정하는 것이 다른 문제임을 이해한다.
 - **Advanced Payoff:** Context와 workflow의 역할을 구분하고 다음 설계 문제를 찾는다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S55의 성과를 반복 해설하지 않고 수행 방법을 누가 유지할지 질문한다. Transition4 뒤 Q&A6은 팀의 반복되는 방법을 묻고 마지막20초에 다음 기록으로 넘어간다. 두 실제 요청의 대응 기록은 S61에 남겨 역할을 나눈다.
+- **Speaker Intent:** S58의 적용 지침 확인을 받아 같은 작업의 기준과 순서를 대비한다. SKILL.md는 후보로만 예고하고 S61 실제 반복 기록, S62 실행 시점/판단, S63 목표·기준·방법 결합, S64 선택 이유를 앞당기지 않는다. Transition4 뒤 Q&A6과 마지막20초 전환을 유지한다.
 - **Transition:** “우리 팀은 어떤 절차를 매번 다시 요청합니까? 다음에는 두 성능 Task의 실제 요청 기록에서 반복된 지시를 확인합니다.” 기존 연결 질문을 유지한 채 ACT 3 제목 S60를 거쳐 S61의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
 - **Estimated Time:** 10분
 - **Delivery Mode Allocation:** Transition 4분 + Q&A 6분 = 10분
-- **Evidence / Decision References:** BEAT-017, BEAT-018, TRANS-005, TRIAL-006, TRIAL-007, CLM-0003, CLM-0005, CLM-0014, CLM-0006, CLM-0029, CLM-0030, DEC-0059, DEC-0060
-- **Audience Footer:** 요청 예시
+- **Evidence / Decision References:** BEAT-017, BEAT-018, TRANS-005, TRIAL-006, TRIAL-007, CLM-0003, CLM-0005, CLM-0014, CLM-0006, CLM-0029, CLM-0030, DEC-0059, DEC-0060, DEC-0127; OpenAI AGENTS.md / Build skills official guides, checked2026-11-02
+- **Audience Footer:** 역할에 따른 배치 예 · AGENTS.md에도 절차를 둘 수 있음
 
 ### ACT 3 — 26 slides / 96 minutes
 
