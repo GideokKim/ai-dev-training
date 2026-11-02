@@ -1,5 +1,36 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## ACT2 Context 순서·연결 수정 — DEC-0125 (2026-11-02)
+
+현재 S45 연구 → S46 주의 사례 → S47 정보 분류 → S48 문서 배치 기준 → S49 실제 문서 분리 →
+S50 설계한 탐색 경로로 정렬했다. 아래 번호 이력은 당시 판본이다.
+120장·417분과 해당6장24분·내용별 배정을 유지했다. 기존 S50의 운영 순서는 현재 S49에서
+Lecture0–1/Demo1–3/Case3–4/Lecture4–5로 맞췄다. 마지막 찾아보기 S117은 현재 S48을 가리킨다.
+[6장 흐름](../preview/act2/context-sequence.png), [통합 PPT](../AI_Dev_Training_Full.pptx),
+[ACT2 PPT](../ACT_2.pptx), [ACT5 PPT](../ACT_5.pptx),
+[현재 검토](ACT2_CONTEXT_SEQUENCE_REVISION.md), [대응표](../../plan/ACT2_CONTEXT_SEQUENCE.md).
+157개 최종 렌더·내장 Notes를 대조했다. 대상 외113장 화면·112개 Notes와4개 ACT PPT는 같다.
+실제 구조/접근 관찰, 교육용 오답/탐색 모형과 연구 범위를 구분한다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `c8094100ac985d43eaddfb747793cc92090e11c6fba7739be1c0950a0d5d436f` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `ad599a939a559fbedb213e2d2d831753ad8243238cc64de3a514a85b4b796d4a` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `4a689778ec9715b120fdf469ba52bb6eb88973a7b907db4fe933e3a298377b73` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `28ffffbe3c0366ee1c22009063ea5844a936ea4cffe1c667304c23476d767f0c` |
+| `production/notes/ACT_2_NOTES.md` | `8f3f6cb6ac94d9d9948b0676970207b509c3f02d4a52d448461deff6ca1c2b82` |
+| `production/notes/ACT_5_NOTES.md` | `d3d5157528f12d93bd0e062a0f73100bcef82e9b92f431fb9e7d5df76cebf01f` |
+| `production/preview/full/montage.png` | `9c3e91e6582bb1199e60ad0e2c10cb19ba5b119696aa82d7ca14327a62623677` |
+| `production/preview/act2/montage.png` | `13c00d39ed2c940f392d37103ab7c53767abfec4d48be25afa4b41084aed4efd` |
+| `production/preview/act5/montage.png` | `38084c071a5a6b5b211e174fecfe29e3e81c4426c65ce89b8138e408209fe6d7` |
+
+## 보존된 이전 전달 기록
+
 ## S47 지침 누락·그럴듯한 오답 주의 — DEC-0124 (2026-11-02)
 
 명세대로라는 단정과 모순되는 오답을 교육용으로 구성해, 누락된 지침과 근거를 직접

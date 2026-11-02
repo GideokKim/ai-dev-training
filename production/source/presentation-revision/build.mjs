@@ -24,6 +24,7 @@ import {afterVerificationSplit,beforeVerificationSplit,applyCurrent121,verificat
 import {CURRENT_SLIDE_COUNT,afterVerificationDesign,beforeVerificationDesign,applyCurrent120,verificationDesignFactories} from './verification-request-design.mjs';
 import {contextHandoffFactories} from './act1-context-handoff.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
+import {beforeContextSequence,reorderContextFactories,applyContextSequence} from './context-sequence-120.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
 const ROOT=process.env.TRAINING_REPO??path.resolve(here,'../../..');
@@ -127,6 +128,10 @@ const factories120=Object.fromEntries(Object.entries(factories)
  .map(([id,factory])=>[afterVerificationDesign(id),factory]));
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,factories120,verificationDesignFactories(H));
+// DEC-0125 keeps source metadata in its documented pre-reorder120 edition.
+const reordered120=reorderContextFactories(factories);
+for(const id of Object.keys(factories))delete factories[id];
+Object.assign(factories,reordered120);
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -148,7 +153,8 @@ const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const id of deck.ids){
-  const id121=beforeVerificationDesign(id);
+  const sourceId=beforeContextSequence(id);
+  const id121=beforeVerificationDesign(sourceId);
   const isCurrentSource=['S26','S27','S37','S38'].includes(id121);
   const id119=beforeVerificationSplit(id121);
   const id120=isCurrentSource?null:beforeAct0Removal(id119);
@@ -163,6 +169,7 @@ for(const deck of decks){
    applyCurrent121(s);
   }
   applyCurrent120(s);
+  applyContextSequence(s);
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
  }

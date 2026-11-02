@@ -1,5 +1,17 @@
 # Current presentation source
 
+Current: DEC-0125 /120slides/417minutes. Apply `context-sequence-120.mjs`
+once after all retained adapters and `applyCurrent120`, before current Notes.
+Move pre-reorder120 content S46/S47/S45/S49/S50/S48 into current S45-S50.
+Keep prior factory keys, JSON input editions, asset/report paths and evidence
+IDs intact. Resolve metadata with `beforeContextSequence`, then remap current
+visible references once. S117's placement-tip reference becomes S48.
+Current Notes/Map are authoritative. Native tables S54/S66 and charts S70/S97
+keep their owners. Publish Full, ACT2 and ACT5 after source/render parity checks.
+See [approved sequence](../../../plan/ACT2_CONTEXT_SEQUENCE.md).
+
+## Preserved source history
+
 Current: DEC-0114 /120slides/417minutes. `verification-request-design.mjs` applies one121-to120 boundary, removes only old S28 and replaces S26/S27. Keep historical factories, JSON, assets and `verification-request-121.mjs` at their documented editions. Apply120-ID footers,119-ID removal,121-ID split, then the final120-ID design migration. Use current19-field Notes. Native tables S54/S66; charts S70/S97.
 
 DEC-0113: `act1-context-handoff.mjs` replaces only current121-ID S37/S38 after the retained numbering layers. Both use the same `HANDOFF_REQUEST`, current footers and19-field Notes. S36 changes only its transition Notes;121slides/417minutes and all per-slide budgets remain.

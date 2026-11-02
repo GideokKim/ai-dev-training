@@ -12484,3 +12484,79 @@ YES — compare a confident answer with the conditions it claims to follow.
 Preserve120slides,417minutes and S47 Lecture4minutes. Render and verify
 unaffected artifacts, then commit and push normally. Do not change the
 Demo repository, Sites or presenter bundles. Keep real-world gates open.
+
+# DEC-0125 — Reorder the ACT2 context explanation sequence
+
+## Status
+
+ACCEPTED — explicit user approval of S46,S47,S45,S49,S50,S48 order.
+
+## Date
+
+2026-11-02
+
+## Context
+
+The six-slide section shows separation and navigation before explaining
+the criteria and actual document restructuring. Repeated scope language
+makes classification and document placement difficult to distinguish.
+
+## Problem
+
+Present caution, relevance classification, placement, restructuring and
+navigation in a coherent order without changing the approved evidence.
+
+## Decision
+
+Move pre-reorder120 S46,S47,S45,S49,S50,S48 to current S45-S50.
+Keep each content budget and evidence type. Reframe new S47 as relevance
+classification and new S50 as navigation after actual restructuring.
+Align new S49's operation to Lecture0-1,Demo1-3,Case3-4,Lecture4-5.
+Update current references, S44's Notes and S117's placement-tip lookup.
+Preserve prior source stages and historical file identifiers; apply the
+current permutation once at the final authoring boundary.
+
+## Rationale
+
+Let the audience understand why information use needs care before deciding
+what to group, where to store it, how the files change and how to navigate.
+Keep designed paths distinct from the subsequent actual access evidence.
+
+## Alternatives
+
+Move slides without reframing roles: retains the classification/placement
+repetition and the premature navigation explanation.
+Rewrite historical IDs globally: corrupts provenance and source editions.
+Add pages or time: not needed for the approved six-slide sequence.
+
+## Trade-offs
+
+Visible IDs within the six-slide block change. Current references must
+follow content, including the final lookup, while prior reports keep their
+edition's IDs. Total count, budgets, claims and native evidence stay fixed.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESEARCH-002,
+INV-RESEARCH-004, INV-DIFFICULTY-001, INV-SOT-001.
+
+## Affected Artifacts
+
+Current Map/template mapping, Notes, core planning routers, source adapter,
+Full/ACT2/ACT5 packages and previews, evaluation and delivery identities.
+
+## Evidence
+
+User-approved sequence review; current slide/Notes comparison. Existing
+Trial/State/research evidence remains unchanged. No new execution.
+
+## Training Relevance
+
+YES — distinguish information classification, document placement,
+restructuring, designed navigation and observed access.
+
+## Follow-up
+
+Render all affected final packages, verify the permutation and content-
+based budgets, preserve unrelated slides/native evidence and push normally.
+Keep Windows, room, product/account and rehearsal gates unverified.

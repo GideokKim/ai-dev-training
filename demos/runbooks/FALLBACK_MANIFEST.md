@@ -1,30 +1,29 @@
 # Static Fallback Manifest
 
-Current: DEC-0124 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
-S47 warns about an omitted crop condition and a plausible false answer.
-The wrong answer is hypothetical, not an observed Agent response or Trial.
-S46/S48 screens and Notes stay fixed. Research and terminology stay bounded.
-S45 now compares shared guidance and task-specific detail; procedure reuse
-remains at S59/ACT3. This teaching diagram is not an observed read order.
-Retain44reference roles and paths. S41 shows the nine-test result from
-the separate actual demo supplied by the user. The eleven-test TRIAL-003
-remains distinct. Do not transfer its run conditions to the user demo.
-Detailed provenance and attribution limits remain in Notes. Other evidence
-classes are unchanged. Keep S28-S35 as
-five core and three conditional prompt tools. Show method/approach names,
-annotated native examples, relationship diagrams and official citations. Fictional team conventions
-are teaching examples, not actual company rules or Trial results.
+Current: DEC-0125 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current S45 research remains bounded. S46 uses a hypothetical wrong answer,
+not an observed Agent response or Trial. S47 classifies relevant information;
+S48 provides document placement criteria. S49 is the retained document
+restructuring evidence formerly at S50. S50 is a designed navigation path,
+not an observed read order. Actual access observations remain at S51-S54.
+Retain44reference roles and evidence classes; move the document-structure
+fallback from S50 to S49 with its content. S117 now references the S48 tip.
+S41 shows the nine-test result from the separate actual user demo. Keep
+the historical eleven-test TRIAL-003 distinct and do not transfer its run
+conditions to the user demo. Preserve all other attribution limits.
+S28-S35 remain five core and three conditional prompt tools. Fictional team
+conventions are teaching examples, not actual company rules or Trial results.
 Live/Hybrid is not approved. Windows, account, room and timed rehearsal
 remain UNVERIFIED. Prior numbering and handoff revisions remain preserved
-in the reports and source history.
+in the reports and source history. No Demo repository state is changed.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`221459b64e805798b8f6604c9bf14652a013434b22bfe6891fdf9dbfcceb0e8c`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`ebf392940f1bff043e4c88d3f32699f82b082c7c5fbac83a8e2811c0c15ac20e`.
-- `production/preview/full/montage.png` SHA-256:`d26e3b5a23c237588f6f55630e605bd87a2bac77de8d86da3454c13f97698954`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`c8094100ac985d43eaddfb747793cc92090e11c6fba7739be1c0950a0d5d436f`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`28ffffbe3c0366ee1c22009063ea5844a936ea4cffe1c667304c23476d767f0c`.
+- `production/preview/full/montage.png` SHA-256:`9c3e91e6582bb1199e60ad0e2c10cb19ba5b119696aa82d7ca14327a62623677`.
 
-[Current revision](../../production/evaluation/S47_CONTEXT_CAUTION_REVISION.md),
+[Current revision](../../production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
@@ -40,7 +39,7 @@ in the reports and source history.
 | S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` | 1920×1080 | `052e19918e6be443c8699ae2212f02229dbce3a5c15eb96fbe03794193e70940` |
 | S41 | USER_PROVIDED_DEMO_RESULT | `production/preview/full/S41.png` | 1920×1080 | `03f104ae8ec9a4bef6a183322d889e66f5314bf828705321f3116ebf1c50d712` |
 | S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` | 1920×1080 | `26632e6c07918601f19342180eeac05a0e67051e7bf8e43e8bb1a0d4bedf3295` |
-| S50 | RETAINED_DEMO_STATIC | `production/preview/full/S50.png` | 1920×1080 | `1515f2ceffb8119ce9cc0d78f704d66a60c891ead5b15d297ae708b8425212e9` |
+| S49 | RETAINED_DEMO_STATIC | `production/preview/full/S49.png` | 1920×1080 | `1e6acea140a3d038e3b18572c4cc1ca48e16e8ad6b6dec76c49e376185a17d1e` |
 | S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` | 1920×1080 | `b3ce28aa911e520e04fc38afecb02c7cd0ab34ed55525c083464c7a7ea136f0b` |
 | S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` | 1920×1080 | `bf95495437b7d003c4753295de9b9ef7bfc6f01966a55fe29589204ef23f2793` |
 | S54 | RETAINED_DEMO_STATIC | `production/preview/full/S54.png` | 1920×1080 | `ee3d7a63c8c506b0258f9fac8465ec028be427a012d180de19786fc5f1938755` |

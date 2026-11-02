@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+현재 Context 구간 순서·파일 식별자는 [DEC-0125 검토](ACT2_CONTEXT_SEQUENCE_REVISION.md)와 [최종 전달 안내](FINAL_HANDOFF.md)를 따른다. 현재 S49가 실제 문서 분리 근거, S50이 설계한 탐색 경로다. 실환경 검증 상태는 유지한다.
+
+## 보존된 이전 체크리스트
+
 현재 파일 식별자와 S47 주의 메시지는 [DEC-0124 검토](S47_CONTEXT_CAUTION_REVISION.md) 및 [최종 전달 안내](FINAL_HANDOFF.md)를 따른다. 기존 실환경 검증 상태는 유지한다.
 
 ## 보존된 이전 체크리스트

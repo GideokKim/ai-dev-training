@@ -1,5 +1,7 @@
 # Context 활용·지침 누락·그럴듯한 오답의 범위
 
+Current slide: S46 (former S47), DEC-0125. The research/terminology scope is unchanged. Slide numbers below describe the DEC-0124 source edition.
+
 Decision: DEC-0124. Verified:2026-11-02. Purpose: S47 terminology and boundary.
 
 ## 일차 출처

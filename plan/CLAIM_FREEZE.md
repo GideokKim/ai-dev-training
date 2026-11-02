@@ -1,5 +1,28 @@
 # STEP 08 — CLAIM / EVIDENCE FREEZE RESULT
 
+## 현재 Context 구간 순서 — DEC-0125 (2026-11-02)
+
+현재 S45 연구 → S46 주의 사례 → S47 정보 분류 → S48 문서 배치 기준 → S49 실제 문서 분리 →
+S50 설계한 탐색 경로 → S51–S54 실제 접근 관찰로 이어진다. 사용자가 지정한 이전120판본
+번호 기준의 배치 순서 S46→S47→S45→S49→S50→S48을 적용했다. 현재 번호·시간·Mode는 [정식 Map](SLIDE_MAP.md),
+[재배열과 대응표](ACT2_CONTEXT_SEQUENCE.md)를 따른다.120장·417분, ACT2 22장·90분,
+해당6장·24분과 내용별 배정·Beat/Section/Demo/Trial/State/Claim ID·근거 범위는 유지한다.
+아래 기존 판본의 S번호는 해당 판본의 이력이며 이번 대응표로 일괄 치환하지 않는다.
+
+
+| Current slide | Evidence boundary |
+|---|---|
+| S45 | RESEARCH — 당시 Lost in the Middle의 모델·과제·위치 조건 유지 |
+| S46 | TEACHING_MODEL — 지침 누락/그럴듯한 오답 가정; 실제 Agent 실패 아님 |
+| S47 | TEACHING_MODEL — 정보의 관련 범위 분류; 이미 나눈 파일 상태 아님 |
+| S48 | TEACHING_MODEL — 문서 배치 기준; 자동 읽기 보장 아님 |
+| S49 | OBSERVED_PRODUCT / TEACHING_MODEL — 실제 STATE-02→03 구조의 요약·재구성 |
+| S50 | TEACHING_MODEL — 분리 후의 설계 경로; 실제 읽기 순서 아님 |
+
+정보 분리로 성능·토큰·할루시네이션이 개선됐다는 주장을 추가하지 않는다.
+지침 위반/할루시네이션의 구분, 실제 Trial 결과, 과거 CLI/현재 제품 경계는 그대로다.
+S117의 Context 관리 팁 참조는 현재 S48이다. 이전 판본의 Decision/보고서 번호는 보존한다.
+
 ## S41 사용자 별도 실제 데모9개 — DEC-0121 (2026-11-02)
 
 사용자가 별도로 진행한 실제 데모의 전체 테스트가9개라고 제공했다. S41의 오른쪽은
@@ -153,7 +176,7 @@ Git/원문/파일명·식별자·과거 기록은 보존한다. 마지막 찾아
 [현재 용어 기준](ACT0_TERMINOLOGY.md), [현재 Map](SLIDE_MAP.md)를 따른다.
 아래 이전 Repository 표기는 당시 기획/제작 이력이다.
 
-## S47의 현재 표현 — DEC-0124 (2026-11-02)
+## 보존된 S47 표현 — DEC-0124 (2026-11-02)
 
 S47은 지침 누락과 그럴듯한 오답을 주의하는 TEACHING_MODEL이다. 기존 crop 명세에
 대해 끝 열5까지 포함한 폭4와 명세대로라는 단정을 의도적으로 구성하고, 올바른 기준

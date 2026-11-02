@@ -1,5 +1,14 @@
 # STEP 08 — Slide-to-Template Mapping
 
+## 현재 Context 구간 순서 — DEC-0125 (2026-11-02)
+
+현재 S45 연구 → S46 주의 사례 → S47 정보 분류 → S48 문서 배치 기준 → S49 실제 문서 분리 →
+S50 설계한 탐색 경로 → S51–S54 실제 접근 관찰로 이어진다. 사용자가 지정한 이전120판본
+번호 기준의 배치 순서 S46→S47→S45→S49→S50→S48을 적용했다. 현재 번호·시간·Mode는 [정식 Map](SLIDE_MAP.md),
+[재배열과 대응표](ACT2_CONTEXT_SEQUENCE.md)를 따른다.120장·417분, ACT2 22장·90분,
+해당6장·24분과 내용별 배정·Beat/Section/Demo/Trial/State/Claim ID·근거 범위는 유지한다.
+아래 기존 판본의 S번호는 해당 판본의 이력이며 이번 대응표로 일괄 치환하지 않는다.
+
 ## 현재 제작 기준 — DEC-0114 (2026-10-30)
 
 현재 **120장·417분(6시간57분)**. 이전121장 판본의 S26–S28을 S26–S27로 정리한다.
@@ -80,12 +89,12 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 | S42 — Task Prompt와 Project Context | T03-B | — | CMP-CONTEXT-ROUTER, CMP-CPP | T | — | Single state | Supporting | V08 |
 | S43 — 정확한 정보도 계속 늘어난다 | T04-B | CMP-STATE, CMP-EVIDENCE | — | P | DEMO-06 state-growth evidence callback; Case, not extra Demo time | Single state | — | V03, V10 |
 | S44 — 정확하지만 이번 작업에는 불필요한 정보 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 TRIAL-004 evidence; CAPTURED, 2 min | Single state | — | V02, V05 |
-| S45 — 공통 안내와 작업별 상세를 나눈다 | T03-B | CMP-CONTEXT-ROUTER | — | T | — | Single state; DEC-0118 shared-scope comparison across two tasks; no read-order arrows; S46 utilization question emphasized in a dark-teal box, DEC-0122; repeated procedure retained at S59/ACT3 | — | V05 |
-| S46 — 많이 담아도 같은 근거를 똑같이 쓰는가? | T09-A | CMP-CLAIM | — | R | — | Single state; DEC-0060 Lost in the Middle only; task-position diagram and bounded observed finding | — | V02 |
-| S47 — 지침을 놓쳐도 답은 그럴듯할 수 있다 | T03-C | CMP-CLAIM | CMP-EVIDENCE | T; hypothetical omitted condition and plausible false answer; research/code references in Notes | Existing crop condition; invented wrong answer and correct reference, no new run or Demo; Lecture4 | Highlight excluded column5 and wrong width4; compare with correct width3; S46/S48 retained; DEC-0124 | — | V02, V04, V05 |
-| S48 — 필요한 상세 정보로 가는 길 | T03-C | CMP-CONTEXT-ROUTER | CMP-CPP | T | — | Single state; DEC-0060 one question to a relevant detail source; path design, not observed read order | Supporting | V08 |
-| S49 — AGENTS.md에는 무엇을 남길까? | T03-B | CMP-CONTEXT-ROUTER, CMP-CPP | CMP-PRACTICAL-TIP | T | — | Single state; DEC-0060 placement criteria rather than final directory listing | Supporting | V08 |
-| S50 — 정보를 지우지 않고 위치를 나누기 | T04-B | CMP-STATE, CMP-EVIDENCE, CMP-CONTEXT-ROUTER, CMP-CPP | — | P+T; observed structure and teaching interpretation separated | DEMO-06 STATE-03 evidence; CAPTURED, 2 min | Single state; DEC-0060 observed semantic-preserving document migration, not routing lecture | Supporting | V01, V03, V08 |
+| S45 — 많이 담아도 같은 근거를 똑같이 쓰는가? | T09-A | CMP-CLAIM | — | R | — | Single state; DEC-0060 Lost in the Middle only; task-position diagram and bounded observed finding | — | V02 |
+| S46 — 지침을 놓쳐도 답은 그럴듯할 수 있다 | T03-C | CMP-CLAIM | CMP-EVIDENCE | T; hypothetical omitted condition and plausible false answer; research/code references in Notes | Existing crop condition; invented wrong answer and correct reference, no new run or Demo; Lecture4 | Highlight excluded column5 and wrong width4; compare with correct width3; S45 study to S47 relevance; DEC-0124/DEC-0125 | — | V02, V04, V05 |
+| S47 — 작업이 달라도 필요한 정보는 같을까? | T03-B | CMP-CONTEXT-ROUTER | — | T; relevance classification, not a split-file state | — | Two tasks and shared/task-specific facts; then document placement on S48; DEC-0125 | — | V05 |
+| S48 — AGENTS.md에는 무엇을 남길까? | T03-B | CMP-CONTEXT-ROUTER, CMP-CPP | CMP-PRACTICAL-TIP | T | — | Single state; DEC-0060 placement criteria rather than final directory listing | Supporting | V08 |
+| S49 — 정보를 지우지 않고 위치를 나누기 | T04-B | CMP-STATE, CMP-EVIDENCE, CMP-CONTEXT-ROUTER, CMP-CPP | — | P+T; observed structure and teaching interpretation separated | DEMO-06 STATE-03 evidence; CAPTURED, 2 min | Lecture0–1/Demo1–3/Case3–4/Lecture4–5; DEC-0060 observed semantic-preserving document migration, not routing lecture | Supporting | V01, V03, V08 |
+| S50 — 분리한 문서에서 필요한 명세 찾기 | T03-C | CMP-CONTEXT-ROUTER | CMP-CPP | T; designed path after actual restructuring | — | Request to shared guide to detail; not observed read order; then S51 observation; DEC-0125 | Supporting | V08 |
 | S51 — 서로 다른 두 Task가 무엇을 읽을까? | T05-A | CMP-TRIAL | CMP-CLAIM | P | DEMO-06 / TRIAL-005A/B WATCH; setup is Lecture | Single state; DEC-0060 two actual requests; watch accessed sources rather than rediscover crop answer | — | V02 |
 | S52 — Crop Task에서 관찰한 접근 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 / TRIAL-005A evidence/result; Case | Single state; DEC-0060 actual A access, specification and recorded answer | — | V02, V04, V05 |
 | S53 — 의존성 질문은 설정과 소스로 답했다 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 / TRIAL-005B evidence and recorded answer; Case4 | Single state; no fresh dependency execution | — | V02, V04, V05 |
@@ -161,9 +170,9 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 
 | Component | Slides |
 |---|---|
-| CMP-CPP | S21, S42, S48, S49, S50, S56, S57, S58, S71, S76, S77, S115, S116 |
-| CMP-CLAIM | S04, S06, S07, S08, S09, S10, S11, S12, S13, S21, S22, S25, S26, S27, S28, S29, S30, S31, S32, S33, S34, S35, S41, S44, S46, S47, S51, S52, S53, S54, S55, S56, S57, S58, S59, S61, S64, S65, S66, S67, S68, S69, S70, S71, S72, S73, S74, S75, S76, S78, S79, S80, S81, S82, S83, S84, S85, S86, S87, S88, S89, S90, S91, S92, S93, S94, S95, S96, S97, S98, S99, S100, S101, S102, S103, S104, S105, S107, S108, S109, S110, S111, S112, S113, S114, S115 |
-| CMP-EVIDENCE | S07, S08, S09, S10, S11, S12, S22, S23, S24, S25, S40, S41, S43, S44, S47, S50, S52, S53, S54, S55, S59, S61, S65, S66, S69, S70, S73, S75, S76, S77, S78, S79, S80 |
+| CMP-CPP | S21, S42, S50, S48, S49, S56, S57, S58, S71, S76, S77, S115, S116 |
+| CMP-CLAIM | S04, S06, S07, S08, S09, S10, S11, S12, S13, S21, S22, S25, S26, S27, S28, S29, S30, S31, S32, S33, S34, S35, S41, S44, S45, S46, S51, S52, S53, S54, S55, S56, S57, S58, S59, S61, S64, S65, S66, S67, S68, S69, S70, S71, S72, S73, S74, S75, S76, S78, S79, S80, S81, S82, S83, S84, S85, S86, S87, S88, S89, S90, S91, S92, S93, S94, S95, S96, S97, S98, S99, S100, S101, S102, S103, S104, S105, S107, S108, S109, S110, S111, S112, S113, S114, S115 |
+| CMP-EVIDENCE | S07, S08, S09, S10, S11, S12, S22, S23, S24, S25, S40, S41, S43, S44, S46, S49, S52, S53, S54, S55, S59, S61, S65, S66, S69, S70, S73, S75, S76, S77, S78, S79, S80 |
 
 ## Historical edition notices
 

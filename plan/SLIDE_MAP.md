@@ -1,5 +1,14 @@
 # Official Slide Map
 
+## 현재 Context 구간 순서 — DEC-0125 (2026-11-02)
+
+현재 S45 연구 → S46 주의 사례 → S47 정보 분류 → S48 문서 배치 기준 → S49 실제 문서 분리 →
+S50 설계한 탐색 경로 → S51–S54 실제 접근 관찰로 이어진다. 사용자가 지정한 이전120판본
+번호 기준의 배치 순서 S46→S47→S45→S49→S50→S48을 적용했다. 현재 번호·시간·Mode는 [정식 Map](SLIDE_MAP.md),
+[재배열과 대응표](ACT2_CONTEXT_SEQUENCE.md)를 따른다.120장·417분, ACT2 22장·90분,
+해당6장·24분과 내용별 배정·Beat/Section/Demo/Trial/State/Claim ID·근거 범위는 유지한다.
+아래 기존 판본의 S번호는 해당 판본의 이력이며 이번 대응표로 일괄 치환하지 않는다.
+
 ## 현재 제작 기준 — DEC-0114 (2026-10-30)
 
 현재 **120장·417분(6시간57분)**. 이전121장 판본의 S26–S28을 S26–S27로 정리한다.
@@ -1164,41 +1173,16 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Beginner Payoff:** 정확한 정보라도 현재 Task와 관련 있는지 따져본다.
 - **Advanced Payoff:** 무관한 Context의 존재와 실제로 관찰된 부정적 결과를 혼동하지 않는다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 프롬프트를 읽은 뒤 오른쪽의 두 영역이 모두 AGENTS.md 내부의 내용임을 먼저 짚는다. 필요한 프로젝트 지침과 이번 질문에 불필요했던 이미지 상세를 비교한다. 구체적인 README-only/pyproject.toml 기준은 실제 요청에, 버전값은 실제 빌드 설정에 있었음을 구분한다. 회색은 틀린 정보나 읽지 않은 정보라는 뜻이 아니다. S43의 누적 정보 질문을 회수하고 S45의 범위·제공 시점으로 넘기며 인과성·성능 주장으로 확대하지 않는다.
-- **Transition:** “필요한 정보를 항상 한 번에 넣지 않는 방법은 무엇일까?”
+- **Speaker Intent:** 두 영역이 같은 AGENTS.md 안의 정보임을 짚고 이번 작업의 관련성을 구분한다. 혼란·실패 미관찰을 유지하며 S45에서 정보 제공과 실제 활용이 같은지 연구의 제한된 범위로 살핀다.
+- **Transition:** “이번 기록에서는 혼란이 관찰되지 않았습니다. 그렇다면 정보가 입력에 있다는 것만으로 잘 활용됐다고 볼 수 있을까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 2분 (CAPTURED) + Reflection 2분 = 4분
 - **Evidence / Decision References:** BEAT-012, TRIAL-004, CLM-0014, CLM-0015, DEC-0049, DEC-0050
 - **Audience Footer:** 이 기록에서는 혼란·실패가 관찰되지 않음
 
-#### S45 — 공통 안내와 작업별 상세를 나눈다
+#### S45 — 많이 담아도 같은 근거를 똑같이 쓰는가?
 
 - **Slide ID:** S45
-- **ACT:** ACT 2
-- **Section:** 2E
-- **Working Title:** 공통 안내와 작업별 상세를 나눈다
-- **Primary Role:** S44의 관련성 관찰을 공통 안내와 작업별 상세의 범위 비교로 정리한다.
-- **Audience Question:** “README 수정과 crop 조사에서 공통으로 참고할 정보와 따로 확인할 정보는 무엇일까?”
-- **Core Message:** 여러 작업에서 함께 참고할 공통 안내와, 해당 작업에 필요할 때 확인할 상세를 구분한다.
-- **Story Beat:** BEAT-012, BEAT-014
-- **Curriculum Trace:** ACT 2 — Context growth, relevance, and research caveat.; ACT 2 — Separation, routing, and progressive disclosure.
-- **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; CONCEPTUAL. OpenAI의 공식 분류 체계로 표현하지 않는다.
-- **Visual Concept:** README 수정/crop 조사 두 행에 걸친 하나의 공통 안내 영역과, 각 행의 빌드 도구·설정/좌표 범위·이미지 명세를 비교한다. 상단은 S44 관련성을 회수하고 하단은 필요한 정보의 실제 활용 질문으로 S46에 연결한다. 절차 반복 열과 ACT3 예고는 화면에서 제외하며 읽기 순서 화살표를 넣지 않는다. 하단 질문은 진한 청록색 박스와34px 굵은 흰색 글자로 강조한다(DEC-0122).
-- **Demo / Case Connection:** S44/TRIAL-004에서 관찰한 관련성 구분을 회수한 교육용 비교다. STATE-02의 실제 내용과 기존 Trial 결과를 보존하며 두 새 작업의 실행 결과로 표현하지 않는다.
-- **Beginner Payoff:** 모든 세부사항이 항상 필요한 것은 아님을 이해한다.
-- **Advanced Payoff:** 정보의 공통/선택적 범위와 실제 읽기·활용 여부를 구분한다. 반복 절차 문제는 기존 S59/ACT3에 남긴다.
-- **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 두 작업이 함께 참고할 기본 안내를 가운데 하나로 묶고, 각 작업의 상세를 오른쪽에서 비교한다. 파일 위치·읽기 순서·자동 적용·효과를 새로 주장하지 않는다. S44의 혼란·실패 미관찰을 유지하고 하단 질문으로 S46에 연결한다.
-- **Transition:** “필요한 정보를 제공하면, 답에서도 제대로 활용할까요?”
-- **Estimated Time:** 4분
-- **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051, DEC-0060, DEC-0118
-- **Audience Footer:** 없음 — M 연계 표시는 유지
-
-#### S46 — 많이 담아도 같은 근거를 똑같이 쓰는가?
-
-- **Slide ID:** S46
 - **ACT:** ACT 2
 - **Section:** 2E
 - **Working Title:** 많이 담아도 같은 근거를 똑같이 쓰는가?
@@ -1214,24 +1198,24 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Beginner Payoff:** 긴 Context가 곧 동일한 활용을 보장한다고 가정하지 않는다.
 - **Advanced Payoff:** 연구 결과의 대상·조건과 현재 제품 주장을 분리한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** Lost in the Middle의 과제·조건·제한된 관찰은 그대로 설명한다. 화면의 업무 질문을 받아 S47에서 내가 제공한 명세의 조건과 답의 결론을 대조하도록 연결한다. 연구가 이 확인 방식이나 현재 Codex를 검증한 것으로 확대하지 않는다.
+- **Speaker Intent:** Lost in the Middle의 과제·조건·제한된 관찰은 그대로 설명한다. 화면의 업무 질문을 받아 S46에서 내가 제공한 명세의 조건과 답의 결론을 대조하도록 연결한다. 연구가 이 확인 방식이나 현재 Codex를 검증한 것으로 확대하지 않는다.
 - **Transition:** “내가 제공한 Context의 조건이 답에 반영됐는지는 어떻게 확인할까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-013, OQ-006, CLM-0014, SRC-0201, DEC-0052, DEC-0060
 - **Audience Footer:** Lost in the Middle(2024) · 특정 연구 과제 결과 / 현재 Codex의 성능을 평가한 결과는 아님
 
-#### S47 — 지침을 놓쳐도 답은 그럴듯할 수 있다
+#### S46 — 지침을 놓쳐도 답은 그럴듯할 수 있다
 
-- **Slide ID:** S47
+- **Slide ID:** S46
 - **ACT:** ACT 2
 - **Section:** 2E
 - **Working Title:** 지침을 놓쳐도 답은 그럴듯할 수 있다
-- **Primary Role:** S46의 정보 활용 주의를 지침 누락과 그럴듯한 오답에 대한 경계로 연결한다.
+- **Primary Role:** S45의 정보 활용 주의를 지침 누락과 그럴듯한 오답에 대한 경계로 연결한다.
 - **Audience Question:** “AI가 명세대로라고 말하면, 정말 지침을 다 지켰다고 볼 수 있을까?”
 - **Core Message:** 지침을 놓친 그럴듯한 오답이 가능하므로, 답변의 확신 대신 제공한 지침과 근거를 대조한다.
 - **Story Beat:** BEAT-013 — Long-context research supports a bounded caution
-- **Curriculum Trace:** ACT 2 — bounded research caution → hypothetical omitted condition/plausible wrong answer → navigation to relevant detail.
+- **Curriculum Trace:** ACT 2 — bounded research caution → hypothetical omitted-condition warning → relevance classification.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 기존 crop 명세로 지침 누락을 가정한 오답과 올바른 기준을 구성한다. 실제 Agent 응답·새 Trial·테스트 결과·모델 내부 원인·현재 Codex 실패율이나 지침 누락→할루시네이션 인과를 입증한 결과가 아니다. 지침 위반과 할루시네이션을 동의어로 쓰지 않으며 기존 연구·성능·Routing·토큰 주장 범위를 확대하지 않는다.
 - **Visual Concept:** 왼쪽 명세/요청은 유지하고, 오른쪽에 “그럴듯한 오답 예시”와 “명세대로 해석했습니다”라는 단정을 둔다. 열2·3·4·5 중 제외해야 할5와 잘못된 폭4만 빨간색으로 강조하고 “놓친 조건: 끝 열 제외”를 표시한다. 아래에는 명세 기준 열2·3·4/폭3을 작게 대조한다. 하단은 그럴듯한 답도 지침·근거와 대조한다는 한 문장이다.
@@ -1239,43 +1223,43 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Beginner Payoff:** 자연스러운 설명이나 명세 준수 단정 속에서도 빠진 조건을 직접 찾는다.
 - **Advanced Payoff:** 지침 미반영·그럴듯한 거짓 주장·자기 보고·출력의 명세 위반·내부 원인 진단을 구분한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S46의 정보 활용 질문을 받아, 답에서 지침이 빠지거나 근거 없는 단정을 할 수 있음을 교육용 사례로 경고한다. 실제 관찰과 구분하고 연구가 현재 Codex의 할루시네이션을 입증한 것으로 확대하지 않는다. 지침과 답의 충돌을 짚은 뒤 S48의 상세 근거 위치 안내로 연결한다.
-- **Transition:** “이런 상세 명세를 필요한 작업에서 어디서 찾아보게 할까요? 다음에는 근거로 가는 길을 보겠습니다.”
+- **Speaker Intent:** S45의 제한된 정보 활용 연구를 받아, 지침과 모순되는 그럴듯한 오답을 교육용으로 대조한다. 실제 관찰·모델 내부 원인·단일 인과로 확대하지 않는다. 검증의 필요를 회수한 뒤 S47에서 관리할 정보의 관련 범위를 구분한다.
+- **Transition:** “이런 근거를 작업에 맞게 관리하려면, 무엇이 공통이고 무엇이 작업마다 달라질까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-013, OQ-006, STATE-03 docs/image-contracts.md Crop, DEC-0052, DEC-0060, DEC-0061, DEC-0105, DEC-0123, DEC-0124; CLM-0014/SRC-0201 study scope retained; terminology reference: OpenAI Why language models hallucinate(2025-09-05), checked2026-11-02; prior code/Trial and RepoQA references remain in Notes
+- **Evidence / Decision References:** BEAT-013, OQ-006, STATE-03 docs/image-contracts.md Crop, DEC-0052, DEC-0060, DEC-0061, DEC-0105, DEC-0123, DEC-0124; CLM-0014/SRC-0201 study scope retained; terminology reference: OpenAI Why language models hallucinate(2025-09-05), checked2026-11-02; prior code/Trial and RepoQA references remain in Notes; DEC-0125
 - **Audience Footer:** 없음 — M 연계 유지; 교육용 오답 예시는 본문 라벨로 구분
 
-#### S48 — 필요한 상세 정보로 가는 길
+#### S47 — 작업이 달라도 필요한 정보는 같을까?
+
+- **Slide ID:** S47
+- **ACT:** ACT 2
+- **Section:** 2E
+- **Working Title:** 작업이 달라도 필요한 정보는 같을까?
+- **Primary Role:** 작업에 공통인 정보와 각 작업에 필요한 정보를 분류한다. 파일 분리 결과를 먼저 보여주는 장으로 표현하지 않는다.
+- **Audience Question:** “README 수정과 crop 조사에 공통인 정보와 서로 다른 정보는 무엇일까?”
+- **Core Message:** 같은 프로젝트에서도 작업에 따라 필요한 정보가 다르다. 저장 위치를 정하기 전에 정보의 관련 범위를 구분한다.
+- **Story Beat:** BEAT-012, BEAT-014
+- **Curriculum Trace:** ACT 2 — Context growth, relevance, and research caveat.; ACT 2 — Separation, routing, and progressive disclosure.
+- **Evidence Type:** TEACHING_MODEL
+- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; CONCEPTUAL. OpenAI의 공식 분류 체계로 표현하지 않는다.
+- **Visual Concept:** 기존 README 수정/crop 조사 두 행과 공통 정보 영역을 유지한다. 오른쪽은 이번 작업에 필요한 정보라고 표시해 파일이나 문서의 분리 결과와 구분한다. 상단은 작업별 관련성, 하단 강조 질문은 공통 정보와 작업별 정보를 어디에 둘지 묻는다.
+- **Demo / Case Connection:** S44/TRIAL-004에서 관찰한 관련성 구분을 회수한 교육용 비교다. STATE-02의 실제 내용과 기존 Trial 결과를 보존하며 두 새 작업의 실행 결과로 표현하지 않는다.
+- **Beginner Payoff:** 모든 세부사항이 항상 필요한 것은 아님을 이해한다.
+- **Advanced Payoff:** 정보의 공통/선택적 범위와 실제 읽기·활용 여부를 구분한다. 반복 절차 문제는 기존 S59/ACT3에 남긴다.
+- **C++ Vision Bridge:** 없음.
+- **Speaker Intent:** S46의 주의를 받아 정보의 관련 범위를 분류한다. 실제 파일 위치나 읽기 순서는 이 장에서 앞당기지 않고 S48의 문서 배치 기준으로 연결한다.
+- **Transition:** “공통 정보와 작업별 정보는 어디에 둘까요?”
+- **Estimated Time:** 4분
+- **Delivery Mode Allocation:** Lecture 4분 = 4분
+- **Evidence / Decision References:** BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051, DEC-0060, DEC-0118; DEC-0125
+- **Audience Footer:** 없음 — M 연계 표시는 유지
+
+#### S48 — AGENTS.md에는 무엇을 남길까?
 
 - **Slide ID:** S48
 - **ACT:** ACT 2
-- **Section:** 2F 시작
-- **Working Title:** 필요한 상세 정보로 가는 길
-- **Primary Role:** Context 분리에서 Routing 문제로 넘어간다.
-- **Audience Question:** “이 요청은 어떤 문서를 근거로 답해야 할까?”
-- **Core Message:** 작업 질문에서 관련 상세 명세까지 도달할 위치를 기본 안내에서 찾게 설계한다.
-- **Story Beat:** BEAT-014로 진입
-- **Curriculum Trace:** ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.
-- **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. Routing으로 성능 향상이나 Token 절약이 입증됐다고 주장하지 않는다.
-- **Visual Concept:** 요청→AGENTS.md의 위치 안내→해당 상세 명세의 단일 경로. 문서 구조 전체는 해설하지 않고 이 질문에 필요한 근거까지 연결한다. 실제 읽기 순서와 구분한다.
-- **Demo / Case Connection:** STATE-03 결과는 다음 구간에 남기고, 이 장에서는 질문과 개념만 제시한다.
-- **Beginner Payoff:** Project 안내와 Task별 상세 정보가 다른 역할을 할 수 있음을 본다.
-- **Advanced Payoff:** 관련 문서로 연결하는 방식의 발견성·유지 비용을 다음 문제로 본다.
-- **C++ Vision Bridge:** 작은 예 하나로 일반 Project 제약과 Task별 CMake 또는 알고리즘 계약을 구분한다. CMake·hardware 항목을 나열하지 않고 세부 Bridge는 다음 구간에 이어간다.
-- **Speaker Intent:** S47에서 직접 제공한 명세와 답을 대조했음을 회수하고, 이제 이런 상세 명세에 필요한 작업이 도달할 경로를 설계한다. 기존 질문·기본 안내·상세 근거 화면과 실제 읽기 순서가 아니라는 경계를 유지한다. 앞 장의 대조나 연구 소개·다음 배치 기준을 반복하지 않는다.
-- **Transition:** “그렇다면 기본 안내와 상세를 나눌 기준은 무엇일까요?”
-- **Estimated Time:** 3분
-- **Delivery Mode Allocation:** Lecture 3분 = 3분
-- **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0053, DEC-0060
-- **Audience Footer:** 탐색 경로 예시
-
-#### S49 — AGENTS.md에는 무엇을 남길까?
-
-- **Slide ID:** S49
-- **ACT:** ACT 2
-- **Section:** 2F Scope·Routing
+- **Section:** 2F 시작 · 문서 배치 기준
 - **Working Title:** AGENTS.md에는 무엇을 남길까?
 - **Primary Role:** 공통 안내와 상세의 배치 기준을 제시한다.
 - **Audience Question:** “무엇을 항상 읽고, 무엇을 필요할 때 찾게 할까?”
@@ -1289,17 +1273,17 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Beginner Payoff:** 기본 안내와 상세 정보를 다른 역할로 볼 수 있다.
 - **Advanced Payoff:** 항상 필요한 정보와 작업별 세부 정보의 위치를 설계한다.
 - **C++ Vision Bridge:** 2H 통합 Bridge 1분. Core의 build/test entry와 Project 제약에서 알고리즘 계약·하드웨어 조건 같은 상세 정보로 이동하는 예를 든다.
-- **Speaker Intent:** 파일명 외우기 대신 각 정보가 어떤 작업에 언제 필요한지 판단하는 기준을 설명한다. 명령·검증 규칙도 공통 안내가 될 수 있다. 실제3개 상세 문서로 옮긴 결과는 다음 장에 남긴다.
-- **Transition:** “이 기준을 보존된 프로젝트 문서에 실제로 적용한 전후를 보겠습니다.”
+- **Speaker Intent:** S47에서 나눈 정보 범위를 AGENTS.md의 공통 안내와 관련 상세의 문서 배치 기준으로 연결한다. 아직 실제 문서 재구성이나 읽기 결과를 보여주지 않는다. S49에서 같은 기준의 적용 전후를 확인한다.
+- **Transition:** “이 배치 기준을 실제 프로젝트 문서에 적용하면 무엇이 달라질까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0054, DEC-0060, DEC-0087
 - **Practical Tip Classification:** Context 관리
 - **Audience Footer:** 명령·검증 기준도 기본 안내에 둘 수 있음
 
-#### S50 — 정보를 지우지 않고 위치를 나누기
+#### S49 — 정보를 지우지 않고 위치를 나누기
 
-- **Slide ID:** S50
+- **Slide ID:** S49
 - **ACT:** ACT 2
 - **Section:** 2F Scope·Routing
 - **Working Title:** 정보를 지우지 않고 위치를 나누기
@@ -1315,12 +1299,37 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Beginner Payoff:** 정보를 나누더라도 핵심 제약은 유지할 수 있음을 본다.
 - **Advanced Payoff:** 중복과 의미 변경 없이 정보 출처를 정돈하는 기준을 본다.
 - **C++ Vision Bridge:** 2H 통합 Bridge 2분. C++ 예시에서 Core 제약과 알고리즘·모듈·하드웨어 상세가 서로 다른 Scope일 수 있음을 연결한다.
-- **Speaker Intent:** 앞 장은 배치 기준, 이 장은 실제 문서 변화를 확인하는 증거다. A/B/C 대응으로 원래 핵심 사실이 어디로 갔는지 확인하고 재서술·상세화와 정보 삭제를 구분한다. 일반 Routing 강의를 반복하지 않는다.
-- **Transition:** “파일 구조를 나눴으니, 실제 두 요청은 어떤 근거를 열었는지 관찰하겠습니다.”
+- **Speaker Intent:** S48의 배치 기준을 실제 문서 전후에 적용해 A/B/C 핵심 정보 보존과 재서술·상세화 범위를 확인한다. Lecture0–1/Demo1–3/Case3–4/Lecture4–5로 Notes 운영을 일치시키고 S50 탐색 경로로 넘긴다.
+- **Transition:** “이제 나눈 문서에서 crop 질문에 필요한 명세를 어떻게 찾아갈까요?”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 2분 + Demo 2분 (CAPTURED) + Case 1분 = 5분
 - **Evidence / Decision References:** BEAT-014, BEAT-015, STATE-02, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0055, DEC-0060
 - **Audience Footer:** 문서 구성 변경 · 성능·토큰 효과는 미측정
+
+#### S50 — 분리한 문서에서 필요한 명세 찾기
+
+- **Slide ID:** S50
+- **ACT:** ACT 2
+- **Section:** 2F · 탐색 경로
+- **Working Title:** 분리한 문서에서 필요한 명세 찾기
+- **Primary Role:** 실제 문서 재구성 후, 분리한 상세 명세로 가는 설계 경로를 설명하고 실제 접근 관찰로 넘긴다.
+- **Audience Question:** “이 구조에서 crop 질문은 어떤 명세로 이어질까?”
+- **Core Message:** 작업 질문에서 관련 상세 명세까지 도달할 위치를 기본 안내에서 찾게 설계한다.
+- **Story Beat:** BEAT-014로 진입
+- **Curriculum Trace:** ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.
+- **Evidence Type:** TEACHING_MODEL
+- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. Routing으로 성능 향상이나 Token 절약이 입증됐다고 주장하지 않는다.
+- **Visual Concept:** S49에서 확인한 분리 구조를 바탕으로 요청→AGENTS.md 위치 안내→docs/image-contracts.md의 단일 경로를 보여준다. 분리 후의 활용임을 제목에 명시한다. 설계한 경로이며 실제 읽기 순서가 아니라는 표기를 유지하고 S51의 실제 관찰 질문으로 끝낸다.
+- **Demo / Case Connection:** S49에서 확인한 STATE-03 문서 구조를 바탕으로 관련 명세에 도달하는 경로를 설명한다. 실제 두 작업의 문서 접근 결과는 S51–S54에서 확인한다.
+- **Beginner Payoff:** Project 안내와 Task별 상세 정보가 다른 역할을 할 수 있음을 본다.
+- **Advanced Payoff:** 관련 문서로 연결하는 방식의 발견성·유지 비용을 다음 문제로 본다.
+- **C++ Vision Bridge:** 작은 예 하나로 일반 Project 제약과 Task별 CMake 또는 알고리즘 계약을 구분한다. CMake·hardware 항목을 나열하지 않고 세부 Bridge는 다음 구간에 이어간다.
+- **Speaker Intent:** S49의 실제 파일 분리를 회수한 뒤 이 구조에서 관련 상세에 도달하는 관계를 설명한다. 분리 기준이나 전후를 다시 강의하지 않으며, 실제 두 작업이 무엇을 읽었는지는 S51–S54에 남긴다.
+- **Transition:** “이제 실제 두 작업에서는 어떤 문서를 읽고 답의 근거로 썼는지 관찰하겠습니다.”
+- **Estimated Time:** 3분
+- **Delivery Mode Allocation:** Lecture 3분 = 3분
+- **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0053, DEC-0060; DEC-0125
+- **Audience Footer:** 설계한 탐색 경로 · 실제 읽기 순서가 아님
 
 #### S51 — 서로 다른 두 Task가 무엇을 읽을까?
 
@@ -3000,7 +3009,7 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Working Title:** 실무 적용 팁 · 작업 환경과 기준
 - **Primary Role:** 교육 마지막에 기존 실무 적용 팁의 제목과 현재 Slide ID를 모아, 필요한 상황에서 다시 찾게 하는 안내다.
 - **Audience Question:** “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
-- **Core Message:** 작업 환경과 기준의 팁 위치는 S13, S49, S56–S58, S62, S67, S72, S74, S84, S103다. 공식 안내 각색과 기존 관찰의 근거를 각 장의 범위로 유지한다.
+- **Core Message:** 작업 환경과 기준의 팁 위치는 S13, S48, S56–S58, S62, S67, S72, S74, S84, S103다. 공식 안내 각색과 기존 관찰의 근거를 각 장의 범위로 유지한다.
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 / 최종 회고 뒤, 기존 Q&A·Closing 직전의 통합 찾아보기. 새 Maturity 단계·Demo가 아니다.
 - **Evidence Type:** TEACHING_MODEL
@@ -3014,7 +3023,7 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Transition:** “이제 요청 문장을 작성할 때 바로 참고할 팁을 모아 보겠습니다.”라고 S118으로 이어간다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** DEC-0088, DEC-0093, DEC-0104; Related tip slides: S13, S49, S56–S58, S62, S67, S72, S74, S84
+- **Evidence / Decision References:** DEC-0088, DEC-0093, DEC-0104; Related tip slides: S13, S48, S56–S58, S62, S67, S72, S74, S84
 - **Practical Tip Classification:** 찾아보기
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 

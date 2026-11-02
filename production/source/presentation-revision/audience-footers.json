@@ -404,12 +404,13 @@
     },
     "S48": {
       "lines": [
-        "탐색 경로 예시"
+        "설계한 탐색 경로 · 실제 읽기 순서가 아님"
       ],
       "originalLines": [
         "교육용 탐색 경로 · 저장된 명세 기반 재구성 · 실제 읽기 순서가 아님",
         "자동 탐색·완벽한 선택·성능 향상·토큰 절약을 입증한 그림이 아님"
-      ]
+      ],
+      "changeDecision": "DEC-0125; retain pre-reorder120 source key; current S50 designed path"
     },
     "S49": {
       "lines": [

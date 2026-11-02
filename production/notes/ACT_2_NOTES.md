@@ -467,11 +467,9 @@ Primary Message: TRIAL-004에서는 필요한 정보와 무관한 정보가 함�
 Opening Question: “README build 안내를 고치는 데 어떤 정보가 필요했을까?”
 
 Speaker Flow:
-1. (0:00–1:00 / Demo) S43의 ‘이번 작업에도 모두 필요할까?’를 회수하고 왼쪽 프롬프트창을 가리킨다. 실제 요청 발췌·번역은 README의 Build 안내에 빌드 도구·고정 버전을 적는 작업이다. 기준은 pyproject.toml이고 README.md만 바꾸며 기존 명령 유지·설치/메타데이터 변경 금지·관련 검증 보고를 요청했다. 교육용 새 Prompt를 실제 Trial 결과로 표현하지 않는다.
-2. (1:00–2:00 / Demo) 오른쪽 제목 ‘AGENTS.md에 적힌 내용’을 먼저 읽어 두 영역이 모두 같은 지침 파일의 내용임을 명시한다. 청록 영역은 Build / Run의 README 빌드·실행 안내 참조와 Core Constraints의 변경 범위 제한·관련 동작 검증이다. 회색 영역은 Architecture, Image Contract, Test 중 모듈·입출력 구조 설명, CLI Summary의 이미지 상세이며 이번 버전 명시에는 불필요했다. Test 전체나 요청된 검증을 불필요하다고 말하지 않는다. Agent는 AGENTS.md도 읽었고 혼란·우회·Context 관련 실패는 관찰되지 않았다. 지침이 요청과 일치했지만 성공의 독립 원인으로 입증된 것은 아니다.
-3. (2:00–4:00 / Reflection) 하단 메시지를 짚고 마지막2분을 개인 생각 시간으로 남긴다. 질문이 달라지면 어떤 Context가 필요해지는지 떠올리게 하되 답변·기록·실습을 요구하지 않는다. S45에서 정보의 범위·제공 시점을 정리한다.
-
-화면 진행: 왼쪽 실제 요청 → 오른쪽 AGENTS.md 파일명 → 그 안의 관련 지침/불필요한 상세 → 이번 질문의 관련성. 구체적인 README-only와 pyproject.toml 기준은 Prompt에 있었고, 고정 버전값은 pyproject.toml에 있었다. 우측에는 이 외부 파일 내용이나 버전값을 AGENTS.md의 원문처럼 넣지 않는다. 실선·점선·라벨로 구분하며 화면은 native 재구성이다.
+1. (0:00–1:00 / Demo) S43의 이번 작업에도 모두 필요할까를 회수하고 왼쪽 실제 요청 발췌·번역을 가리킨다. README Build 안내에 빌드 도구·고정 버전을 적되 README.md만 바꾸고 기존 명령과 설정을 보존하며 검증을 보고하는 요청이다.
+2. (1:00–2:00 / Demo) 오른쪽 두 영역이 모두 AGENTS.md 내부 내용임을 명시한다. Build/Run·Core Constraints의 관련 지침과 이미지 상세·구조·CLI 요약 중 이번 질문에 불필요한 정보를 구분한다. Agent는 AGENTS.md도 읽었으며 혼란·우회·Context 관련 실패는 관찰되지 않았다. 성공의 독립 원인도 입증하지 않았다.
+3. (2:00–4:00 / Reflection) 필요한 Context가 질문에 따라 달라질 수 있음을 개인적으로 생각하게 한다. 답변·기록·실습을 요구하지 않는다. 마지막에 새 S45의 연구 질문으로 넘긴다. 이번 Trial에서 실패가 없었다는 사실을 유지하며, 정보가 입력에 있다는 것만으로 활용을 보장하는지 별도로 살핀다.
 
 Evidence / Source: TRIAL-004, BEAT-012, CLM-0014, CLM-0015, DEC-0049, DEC-0050. OBSERVED_PRODUCT; Codex CLI0.154.0의 단일 문서 작업 기록. plan/DEMO_MATRIX.md TRIAL-004 actual task/Agent behavior/Relevant Context/Irrelevant-but-Correct Context를 대조했다. 실제 원문은 “Clarify the README Build section by naming the pinned build tools required by the existing wheel command. Use pyproject.toml as the source of truth. Change README.md only, preserve the command, and do not install packages or alter package metadata. Report relevant verification.”이다. 화면은 핵심 발췌·번역이며 전체 원문은 이 기록에 보존한다. 우측 지침은 Demo STATE-02 AGENTS.md(55c045523ed1409449d7eea5b0d873983fe101b6)의 Build / Run, Core Constraints, Architecture, Image Contract, Test, CLI Summary와 대조했다. TRIAL-004 Relevant Context는 README pointer와 scoped-change/verification constraints를 관련 지침으로 기록한다.
 
@@ -491,66 +489,19 @@ Demo Operation: Use the static native reconstruction of the recorded request and
 
 Audience Interaction: Use the last two minutes for private reflection: which context was relevant to this Task? No response or written exercise is required.
 
-Transition: “필요한 정보를 항상 한 번에 넣지 않는 방법은 무엇일까?”
+Transition: “이번 기록에서는 혼란이 관찰되지 않았습니다. 그렇다면 정보가 입력에 있다는 것만으로 잘 활용됐다고 볼 수 있을까요?”
 
 Time Management: Protect the two-minute Reflection. Explicitly state the absence of observed confusion before moving on.
 
 Fallback:
 LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S44 또는 production/preview/act2/S44.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S37_AGENTS_CONTEXT_REVISION.md와 검증 JSON을 따른다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
 
-Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
+Validation Status: DEC-0125 — 현재 Context 구간의 연결/찾아보기 참조만 정렬한다. 내용·시간·Mode·근거 범위를 유지한다. 최종 대조는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md를 따른다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
 
-## S45 — 공통 안내와 작업별 상세를 나눈다
+## S45 — 많이 담아도 같은 근거를 똑같이 쓰는가?
 
 Slide ID:
 S45
-
-Working Title: 공통 안내와 작업별 상세를 나눈다
-
-ACT / Section: ACT 2 / 2E
-
-Allocated Time: 4 minutes
-
-Mode Split: Lecture 4 minutes
-
-Primary Message: 여러 작업에서 함께 참고할 공통 안내와, 해당 작업에 필요할 때 확인할 상세를 구분한다.
-
-Opening Question: “README 수정과 crop 조사에서 함께 참고할 정보와 따로 확인할 정보는 무엇일까요?”
-
-Speaker Flow:
-1. (0:00–0:40) 상단 문장으로 S44를 회수한다. 앞의 README 수정에는 이미지 상세 명세까지 필요하지 않았다. 이것은 이번 작업의 관련성 구분이며 Agent 혼란이나 실패가 관찰됐다는 뜻이 아니다.
-2. (0:40–1:20) 왼쪽 두 작업을 가리킨다. README 빌드 안내 수정과 crop 동작 조사는 서로 다른 상세가 필요하다. 화면은 교육용 비교이며 두 요청을 새로 실행한 기록이 아니다.
-3. (1:20–2:20) 가운데 두 행에 걸친 공통 안내를 가리킨다. 프로젝트 목적, 공통 제약, 실행·검증의 시작점은 여러 작업에서 함께 참고할 범위다. 검증의 시작점을 안다는 것과 모든 작업에서 같은 테스트 전체를 실행한다는 것은 다르다.
-4. (2:20–3:20) 오른쪽을 두 행으로 비교한다. README 수정에는 빌드 도구·설정, crop 조사에는 좌표 범위·이미지 명세가 필요하다. 관련 상세는 해당 작업에 필요할 때 확인한다. 파일 배치·지침 적용 범위·실제 읽기 순서는 뒤 구간의 별도 질문으로 남긴다.
-5. (3:20–4:00) 하단 청록색 박스의 큰 흰색 질문 “필요한 정보를 제공하면, 답에서도 제대로 활용할까?”를 가리키며 마친다. S46에서는 같은 근거의 위치를 바꿨을 때 당시 일부 모델·과제에서 무엇을 관찰했는지 확인한다. 연구 결과를 현재 Codex의 업무 성능으로 확대하지 않는다.
-
-Evidence / Source: BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051, DEC-0060, DEC-0118. TEACHING_MODEL / CONCEPTUAL. S44/TRIAL-004의 관련성 관찰을 회수한 교육용 정보 배치 모델이다. README와 crop의 두 행은 설명용 비교이며 새 실행·관찰 결과가 아니다. 기존 TRIAL-004의 읽기·행동·결과는 그대로 유지한다. 과거 세 번째 열의 절차 반복은 S59와 ACT3에서 다루며 기존 DEC-0051/0060의 설계 이유는 Decision history에 보존한다.
-
-Claim Boundary: TEACHING_MODEL / CONCEPTUAL. OpenAI의 공식 분류 체계나 제품 규칙이 아니다. 공통/상세 구분은 정보의 관련 범위를 설명하며 실제 파일 읽기 순서·자동 적용·완벽한 선택을 관찰한 그림이 아니다. AGENTS.md에 절차를 쓰면 안 된다는 규칙을 만들지 않는다. S44에서 혼란·실패는 관찰되지 않았고 토큰 절약·성능 향상도 측정하지 않았다. 반복 절차의 유지 문제는 기존 S59/ACT3에 남겨 둔다.
-
-Beginner Explanation: 같은 프로젝트의 작업이라도 함께 참고할 안내와 이번 질문에 필요한 상세는 다를 수 있다.
-
-Advanced Insight: 공통으로 참고할 정보와 선택적으로 필요한 상세의 범위를 구분한다. 구체적인 저장 위치·탐색 경로·실제 활용 여부는 이후 설명과 관찰에서 별도로 확인한다.
-
-C++ Vision Bridge: N/A.
-
-Demo Operation: N/A — 실제 실행 화면이 아닌 편집 가능한 정적 교육용 범위 비교도다. 새 Trial이나 제품 조작을 수행하지 않는다.
-
-Audience Interaction: “두 작업에 같은 이미지 상세가 필요할까요?”를 짧게 던지고 가운데 공통 안내와 오른쪽의 서로 다른 상세를 가리킨다. 별도 실습·추가 Q&A 시간을 만들지 않는다.
-
-Transition: “필요한 정보를 제공하면, 답에서도 제대로 활용할까요? 다음에는 근거 위치를 바꿨을 때 무엇을 관찰했는지 보겠습니다.”
-
-Time Management: S44 회수40초, 두 작업 구분40초, 공통 안내60초, 상세 비교60초, S46 질문40초로 Lecture4분을 유지한다. ACT3의 성능 절차·Skill 설명을 앞당기지 않는다.
-
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S45 또는 production/preview/act2/S45.png를 사용한다. 실제 Trial 캡처·자동 읽기·현재 제품 실행으로 표현하지 않는다. 현재 검토와 파일 식별자는 production/evaluation/S45_CONTEXT_SCOPE_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
-
-Validation Status: DEC-0118 — S44 관련성 관찰→S45 공통 안내/작업별 상세→S46 실제 활용 질문과 기존19필드·4분 Lecture를 대조한다. 최종 렌더링/패키지 검증 결과는 production/evaluation/S45_CONTEXT_SCOPE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
-
-
-## S46 — 많이 담아도 같은 근거를 똑같이 쓰는가?
-
-Slide ID:
-S46
 
 Working Title: 많이 담아도 같은 근거를 똑같이 쓰는가?
 
@@ -567,7 +518,7 @@ Opening Question: “같은 근거가 입력의 어디에 있느냐에 따라 �
 Speaker Flow:
 1. (0:00–1:00) 문서 QA와 합성 key-value 검색 과제에서 같은 근거의 위치를 바꾸는 질문을 설명한다.
 2. (1:00–3:00) 앞/중간/뒤 도식을 가리키고 당시 일부 모델·과제에서 중간 근거 정답률이 낮아진 관찰을 말한다. 수치 없는 구조 그림을 실제 성능 곡선으로 말하지 않는다.
-3. (3:00–4:00) 현재 Codex의 일반 실패나 Routing 효과로 확대하지 않는다. 오른쪽 업무 질문을 회수하고 “내가 제공한 Context의 조건이 답에 반영됐는지는 어떻게 확인할까요?”로 S47의 명세·답변 대조에 넘긴다.
+3. (3:00–4:00) 현재 Codex의 일반 실패나 Routing 효과로 확대하지 않는다. 오른쪽 업무 질문을 회수하고 “내가 제공한 Context의 조건이 답에 반영됐는지는 어떻게 확인할까요?”로 S46의 명세·답변 대조에 넘긴다.
 
 Evidence / Source: Lost in the Middle, Liu et al., TACL2024,12:157–173; https://aclanthology.org/2024.tacl-1.9/; CLM-0014/SRC-0201; DEC-0052/0060. Reconstructed task-position diagram, no numeric score curve.
 
@@ -591,16 +542,15 @@ Transition: “내가 제공한 Context의 조건이 답에 반영됐는지는 �
 
 Time Management: 도입/과제1분, 위치 비교/관찰2분, 적용 한계/다음 질문1분으로 Lecture4분. RepoQA 설명 시간을 이 장에 다시 넣지 않는다.
 
-Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S46; production/preview/act2/S46.png. 코드·연구 도식은 표시된 교육용/발췌 범위다. 최종 패키지·PNG·Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md를 따른다. 실제 실행 캡처나 현재 제품 실행을 뜻하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S45 또는 production/preview/act2/S45.png. 원래 근거 유형과 실제 관찰/교육용 구분을 유지한다. 현재 재배열 검토는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
 
-Validation Status: DEC-0123 — 연구 본문·출처·조건·범위·4분 배정은 유지하며 S47 연결 Cue만 명세·답변 대조로 정렬한다. 최종 결과는 production/evaluation/S47_CONTEXT_USE_REVISION.md를 따른다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
+Validation Status: DEC-0125 — 이전 S46의 내용·배정·근거 유형을 현재 S45로 이동한다.19필드와 해당 시간/Mode를 유지하고 새 설계 연결을 검토한다. 결과는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
 
 
-## S47 — 지침을 놓쳐도 답은 그럴듯할 수 있다
+## S46 — 지침을 놓쳐도 답은 그럴듯할 수 있다
 
 Slide ID:
-S47
+S46
 
 Working Title: 지침을 놓쳐도 답은 그럴듯할 수 있다
 
@@ -615,21 +565,21 @@ Primary Message: 지침이 답에서 빠지거나 그럴듯한 오답을 단정�
 Opening Question: “AI가 명세대로라고 말하면, 정말 조건을 다 지켰다고 볼 수 있을까요?”
 
 Speaker Flow:
-1. (0:00–0:30) S46의 정보 존재/활용 질문을 회수한다. 당시 연구는 특정 모델·과제의 근거 위치와 성능을 살폈다. 지금부터는 그 결과를 현재 Codex에 일반화하는 대신, 답에서 지침이 누락되지 않았는지 주의할 교육용 사례를 본다.
-2. (0:30–1:00) 왼쪽의 명세와 현재 요청을 읽는다. 시작 열 포함·끝 열 제외이고, 너비6에서 crop 2 5에 포함되는 열과 출력 폭을 묻는다. 기존 사례의 요청 조건을 유지한다.
-3. (1:00–2:00) 오른쪽의 “명세대로 해석했습니다”라는 단정과 열2·3·4·5/폭4를 먼저 보여준다. 문장은 자연스럽지만 끝 열5가 포함돼, 제공한 끝 제외 조건과 충돌한다. 화면은 조건 누락을 가정해 만든 오답 예시이며 실제 Agent가 낸 답이나 새 Trial 결과가 아니다.
-4. (2:00–3:00) 빨간5와 폭4, “놓친 조건: 끝 열 제외”를 가리킨다. 아래의 명세 기준은 열2·3·4/폭3이다. 계산5−2+1=4가 내부적으로 맞아 보여도 적용한 범위가 명세와 다르면 답은 틀린다. 코드 수정·테스트 강의로 확장하지 않고 답변과 지침의 충돌만 대조한다.
-5. (3:00–3:30) 지침 누락은 요구조건 미반영이고, 할루시네이션은 그럴듯하지만 사실과 다른 주장을 생성하는 문제로 구분한다. 이 예시는 지침과 모순되는 답에 근거 없는 명세 준수 단정을 함께 구성한 것이다. 모든 지침 위반이 할루시네이션이거나 모든 할루시네이션의 원인이 지침 누락이라고 설명하지 않는다.
-6. (3:30–4:00) “그럴듯한 답도, 지침·근거와 대조한다”로 마친다. S48의 상세 명세 위치 안내로 넘긴다. 관련 정보에 도달할 경로를 설계하는 것과 정확한 답을 보장하는 것은 다르다.
+1. (0:00–0:30) 앞 S45의 정보 존재/활용 질문을 회수한다. 당시 연구는 특정 모델·과제의 근거 위치와 성능을 살폈다. 현재 Codex로 일반화하지 않고, 답에서 지침이 누락되지 않았는지 주의할 교육용 사례를 본다.
+2. (0:30–1:00) 왼쪽의 명세와 요청을 읽는다. 시작 열 포함·끝 열 제외이고, 너비6에서 crop 2 5의 포함 열과 출력 폭을 묻는다.
+3. (1:00–2:00) 오른쪽의 명세대로 해석했다는 단정과 열2·3·4·5/폭4를 대조한다. 자연스러운 문장과 달리 끝 열5가 포함돼 조건과 충돌한다. 실제 Agent 응답·Trial 결과가 아닌 교육용 오답 예시다.
+4. (2:00–3:00) 빨간5와 폭4, 놓친 끝 제외 조건을 가리킨다. 명세 기준은 열2·3·4/폭3이다. 계산이 그럴듯해도 적용한 범위가 명세와 다르면 답은 틀린다. 코드 수정·테스트 강의로 확장하지 않는다.
+5. (3:00–3:30) 지침 미반영과 그럴듯하지만 사실과 다른 주장을 구분한다. 모든 지침 위반이 할루시네이션이거나 그 원인이라는 주장을 하지 않는다. 입력 정보의 내부 인과도 이 예시로 진단하지 않는다.
+6. (3:30–4:00) 지침·근거 대조를 회수한 뒤, 이를 작업에 맞게 관리할 설계 질문으로 전환한다. 다음 S47에서 어떤 정보가 공통이고 어떤 정보가 작업마다 다른지 구분한다. 문서 분리로 오답이 사라진다고 말하지 않는다.
 
-Evidence / Source: TEACHING_MODEL / CONCEPTUAL. STATE-03 docs/image-contracts.md Crop 절의 [x_start, x_end), 시작 포함·끝 제외 및 유효 범위0 <= x_start < x_end <= image width를 요약한다. 너비6/crop 2 5의 오답 열2·3·4·5/폭4와 명세 준수 단정은 조건 누락을 가정해 구성한 예시다. 명세에 맞는 기준은 열2·3·4/폭3이다. 새 Agent 요청/응답·TRIAL-005A/B 실행·테스트 결과가 아니다. S46 출처: Liu et al., Lost in the Middle, TACL2024, https://aclanthology.org/2024.tacl-1.9/ (당시 모델/과제/위치 조건 유지). 할루시네이션 용어 참고: OpenAI, Why language models hallucinate,2025-09-05, https://openai.com/index/why-language-models-hallucinate/ (2026-11-02 확인; 정의만 참고하며 모델별 수치·최신 제품 성능은 차용하지 않음). 범위 메모: references/research/context-use-and-plausible-errors.md. DEC-0124. 기존 BEAT-013/OQ-006/DEC-0052/0060/0061/0105/0123와 STATE-00-FIXED/TRIAL-002 코드 인용, RepoQA(2024) https://arxiv.org/abs/2406.06025 / CLM-0015/SRC-0204는 선택 참고로 유지한다.
+Evidence / Source: TEACHING_MODEL / CONCEPTUAL. STATE-03 docs/image-contracts.md Crop 절의 [x_start, x_end), 시작 포함·끝 제외 및 유효 범위0 <= x_start < x_end <= image width를 요약한다. 너비6/crop 2 5의 오답 열2·3·4·5/폭4와 명세 준수 단정은 조건 누락을 가정해 구성한 예시다. 명세에 맞는 기준은 열2·3·4/폭3이다. 새 Agent 요청/응답·TRIAL-005A/B 실행·테스트 결과가 아니다. S45 출처: Liu et al., Lost in the Middle, TACL2024, https://aclanthology.org/2024.tacl-1.9/ (당시 모델/과제/위치 조건 유지). 할루시네이션 용어 참고: OpenAI, Why language models hallucinate,2025-09-05, https://openai.com/index/why-language-models-hallucinate/ (2026-11-02 확인; 정의만 참고하며 모델별 수치·최신 제품 성능은 차용하지 않음). 범위 메모: references/research/context-use-and-plausible-errors.md. DEC-0124. 기존 BEAT-013/OQ-006/DEC-0052/0060/0061/0105/0123와 STATE-00-FIXED/TRIAL-002 코드 인용, RepoQA(2024) https://arxiv.org/abs/2406.06025 / CLM-0015/SRC-0204는 선택 참고로 유지한다.
 
 Claim Boundary: 지침 누락과 그럴듯한 오답을 경계하는 교육용 사례다. 실제 모델이 이 오답을 냈거나, 내부에서 해당 지침을 잊었음을 관찰했다는 주장이 아니다. 출력의 명세 위반은 확인할 수 있지만 내부 원인이나 특정 Context의 인과적 사용을 이 그림으로 입증하지 않는다. Lost in the Middle이 지침 누락→할루시네이션이라는 인과나 현재 Codex의 실패를 입증한 것으로 확대하지 않는다. 지침 위반과 할루시네이션을 동의어로 쓰지 않는다. 실제 Trial, 모델별 실패율, 입력 길이 임계값, 성능/토큰 효과, Routing/Context 우월성·정확성 보장, 전체 구현/테스트 완료를 추가하지 않는다.
 
 Beginner Explanation: 명세대로라는 말은 안심할 근거가 아니다. 이 예시에서는 제외하라고 한5가 답에 들어가고 폭도4가 됐다. 제공한 조건을 직접 대조하면, 자연스러운 설명 속의 잘못된 적용을 찾을 수 있다.
 
 Advanced Insight:
-조건 미반영과 그럴듯한 거짓 주장은 구분하되 함께 주의한다. 명세를 지켰다는 자기 보고를 단독 근거로 삼지 않는다. 본 사례의 “명세대로”라는 말은 의도적으로 구성한 근거 없는 준수 주장이다. 외부 출력의 일관성 대조와 모델 내부의 인과적 진단을 분리한다. S46의 역사적 연구 결과나 OpenAI의 일반 용어 설명을 이 crop 예시·현재 Codex의 재현 근거로 사용하지 않는다.
+조건 미반영과 그럴듯한 거짓 주장은 구분하되 함께 주의한다. 명세를 지켰다는 자기 보고를 단독 근거로 삼지 않는다. 본 사례의 “명세대로”라는 말은 의도적으로 구성한 근거 없는 준수 주장이다. 외부 출력의 일관성 대조와 모델 내부의 인과적 진단을 분리한다. S45의 역사적 연구 결과나 OpenAI의 일반 용어 설명을 이 crop 예시·현재 Codex의 재현 근거로 사용하지 않는다.
 
 보존된 코드 탐색 확인 질문(선택 참고): 위치를 특정했나(파일 경로·함수·관련 줄), 요청한 동작과 맞나(명세와 코드 대조), 주변 근거도 맞나(필요한 호출부·테스트 기대값). 실제 코드 인용: STATE-00-FIXED의 src/graypipe/transform.py crop6–16행 중13행 row[x_start : x_end]. 새 탐색 실행이 아니며 한 줄만으로 전체 구현의 정당성을 확정하지 않는다. 이 내용은 정규4분 흐름에서 추가로 강의하지 않는다.
 
@@ -641,69 +591,66 @@ Demo Operation: N/A — 편집 가능한 정적 오답 예시다. 숫자는 원�
 
 Audience Interaction: “명세대로라는 설명과 달리, 어떤 조건이 빠졌나요?”를 짧게 묻고 빨간5를 가리킨다. 정답 폭3을 회수하며 별도 실습·Q&A·새 비교 실험을 추가하지 않는다.
 
-Transition: “이런 상세 명세를 필요한 작업에서 어디서 찾아보게 할까요? 다음에는 근거로 가는 길을 보겠습니다.”
+Transition: “이런 근거를 작업에 맞게 관리하려면, 무엇이 공통이고 무엇이 작업마다 달라질까요?”
 
-Time Management: S46 연결30초, 조건/요청30초, 그럴듯한 오답60초, 빠진 조건/올바른 기준60초, 주의사항 구분30초, S48 연결30초로 Lecture4분을 유지한다. 논문·할루시네이션 원인 이론·코드 수정·테스트를 별도 강의로 늘리지 않는다. 실제 리허설 UNVERIFIED.
+Time Management: 연구 연결30초, 조건/요청30초, 그럴듯한 오답60초, 빠진 조건/명세 기준60초, 주의사항 구분30초, S47 정보 분류로 연결30초로 Lecture4분을 유지한다. 실제 리허설 UNVERIFIED.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S47 또는 production/preview/act2/S47.png. 실제 Agent 응답이 아닌 지침 누락 가정의 교육용 오답으로 사용한다. 현재 검토와 파일 식별자는 production/evaluation/S47_CONTEXT_CAUTION_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S46 또는 production/preview/act2/S46.png. 원래 근거 유형과 실제 관찰/교육용 구분을 유지한다. 현재 재배열 검토는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
 
-Validation Status: DEC-0124 — S46의 제한된 연구 결과→S47의 지침 누락/그럴듯한 오답 주의→S48의 상세 명세 위치 안내로 연결한다.19필드·Lecture4분·기존 근거 범위를 유지한다. 최종 렌더링/패키지/내장 Notes 결과는 production/evaluation/S47_CONTEXT_CAUTION_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
+Validation Status: DEC-0125 — 이전 S47의 내용·배정·근거 유형을 현재 S46로 이동한다.19필드와 해당 시간/Mode를 유지하고 새 설계 연결을 검토한다. 결과는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
 
 
-## S48 — 필요한 상세 정보로 가는 길
+## S47 — 작업이 달라도 필요한 정보는 같을까?
+
+Slide ID:
+S47
+
+Working Title: 작업이 달라도 필요한 정보는 같을까?
+
+ACT / Section: ACT 2 / 2E
+
+Allocated Time: 4 minutes
+
+Mode Split: Lecture 4 minutes
+
+Primary Message: 같은 프로젝트에서도 여러 작업에 공통으로 필요한 정보와 이번 작업에 필요한 정보는 구분할 수 있다. 이 장은 파일 분리 결과가 아니라 정보의 관련성 분류다.
+
+Opening Question: “README 수정과 crop 조사에는 어떤 정보가 함께 필요하고, 어떤 정보가 다를까요?”
+
+Speaker Flow:
+1. (0:00–0:40) 앞의 지침·근거 확인을 받아, 이를 관리하기 전 정보의 관련 범위를 먼저 구분한다고 설명한다. 같은 프로젝트라도 작업에 따라 필요한 정보는 달라질 수 있다. 아직 파일을 나눈 결과를 보여주는 장이 아니다.
+2. (0:40–1:20) README 수정과 crop 조사 두 작업을 짚는다. 서로 다른 두 작업을 새로 실행한 기록이 아니라 관련성 구분을 위한 교육용 비교다.
+3. (1:20–2:20) 두 행에 걸친 공통 영역을 가리킨다. 프로젝트 목적·공통 제약·실행/검증의 시작점은 두 작업이 함께 참고할 정보다. 모든 작업에서 같은 테스트 전체를 무조건 실행한다는 뜻은 아니다.
+4. (2:20–3:20) 오른쪽에서 README 수정의 빌드 도구/설정과 crop 조사의 좌표 범위/이미지 명세를 비교한다. 특정 작업에 필요한 정보라는 분류이지 이미 별도 파일에 있다는 그림이 아니다.
+5. (3:20–4:00) 하단의 공통 정보와 작업별 정보는 어디에 둘까를 가리킨다. S48에서 AGENTS.md에 남길 안내와 관련 상세로 관리할 내용을 결정한다. 파일 이름·실제 재구성·읽기 관찰은 뒤 장으로 남긴다.
+
+Evidence / Source: BEAT-012, BEAT-014, STATE-02, CLM-0014, CLM-0015, CLM-0003, CLM-0005, DEC-0051, DEC-0060, DEC-0118. TEACHING_MODEL / CONCEPTUAL. S44/TRIAL-004의 관련성 관찰을 회수한 교육용 정보 배치 모델이다. README와 crop의 두 행은 설명용 비교이며 새 실행·관찰 결과가 아니다. 기존 TRIAL-004의 읽기·행동·결과는 그대로 유지한다. 과거 세 번째 열의 절차 반복은 S59와 ACT3에서 다루며 기존 DEC-0051/0060의 설계 이유는 Decision history에 보존한다.
+
+Claim Boundary: TEACHING_MODEL / CONCEPTUAL. OpenAI의 공식 분류 체계나 제품 규칙이 아니다. 공통/상세 구분은 정보의 관련 범위를 설명하며 실제 파일 읽기 순서·자동 적용·완벽한 선택을 관찰한 그림이 아니다. AGENTS.md에 절차를 쓰면 안 된다는 규칙을 만들지 않는다. S44에서 혼란·실패는 관찰되지 않았고 토큰 절약·성능 향상도 측정하지 않았다. 반복 절차의 유지 문제는 기존 S59/ACT3에 남겨 둔다.
+
+Beginner Explanation: 파일을 먼저 나누는 대신, 두 작업이 함께 쓸 정보와 각 작업에 따로 필요한 정보를 구분한다.
+
+Advanced Insight: 관련 범위의 분류와 저장 위치 결정은 다른 설계 질문이다. 이 장은 전자를 맡고 S48은 문서 배치 기준, S49는 실제 재구성, S50은 탐색 경로를 맡는다.
+
+C++ Vision Bridge: N/A.
+
+Demo Operation: N/A — 실제 실행 화면이 아닌 편집 가능한 정적 교육용 범위 비교도다. 새 Trial이나 제품 조작을 수행하지 않는다.
+
+Audience Interaction: “두 작업에 같은 이미지 상세가 필요할까요?”를 짧게 묻고 공통 영역과 작업별 정보를 가리킨다. 새 실습·추가 Q&A를 만들지 않는다.
+
+Transition: “공통 정보와 작업별 정보는 어디에 둘까요?”
+
+Time Management: 도입40초, 두 작업40초, 공통 정보60초, 작업별 정보60초, S48 문서 배치로 연결40초로 Lecture4분을 유지한다. 연구·주의사항을 다시 설명하지 않는다.
+
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S47 또는 production/preview/act2/S47.png. 원래 근거 유형과 실제 관찰/교육용 구분을 유지한다. 현재 재배열 검토는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
+
+Validation Status: DEC-0125 — 이전 S45의 내용·배정·근거 유형을 현재 S47로 이동한다.19필드와 해당 시간/Mode를 유지하고 새 설계 연결을 검토한다. 결과는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
+
+
+## S48 — AGENTS.md에는 무엇을 남길까?
 
 Slide ID:
 S48
-
-Working Title: 필요한 상세 정보로 가는 길
-
-ACT / Section: ACT 2 / 2F
-
-Allocated Time: 3 minutes
-
-Mode Split: Lecture 3 minutes
-
-Primary Message: 작업 질문에서 관련 상세 명세까지 도달할 위치를 기본 안내에서 찾게 설계한다.
-
-Opening Question: “이 요청은 어떤 문서를 근거로 답해야 할까?”
-
-Speaker Flow: 1. (0:00–0:30) “앞 장에서는 직접 제공한 명세와 답을 대조했습니다. 이제 이런 상세 명세를 필요한 작업에서 어디서 찾아보게 할까요?”로 시작한다.
-2. (0:30–2:10) 요청→AGENTS.md 위치 안내→관련 상세 명세의 관계만 가리킨다. 이 그림은 설계 경로이며 실제 읽기 순서가 아니다.
-3. (2:10–3:00) C++ 알고리즘 명세에도 같은 위치 안내 패턴을 짧게 연결하고 다음 장의 기본 안내/상세 배치 기준으로 넘긴다.
-
-Evidence / Source: TEACHING_MODEL / CONCEPTUAL. BEAT-014, STATE-03, CLM-0003/0005/0014/0015, DEC-0053. Historical Demo tag STATE-03 at f3e2e37b1454e28c5de4c44682ebd49378ebae4b: AGENTS.md17–20의 Context Routing에서 이미지 동작/crop→docs/image-contracts.md를 안내한다. 같은 tag의 docs/image-contracts.md20–24가 half-open crop 명세를 기록한다. plan/DEMO_MATRIX.md의 STATE-03 및 TRIAL-005A/B는 후속 구조·관찰 근거다. 문서명과 명세는 보존 기록을 참조하지만 화면의 요청/안내는 요약·재구성이다. 새 Trial은 실행하지 않았다.
-
-보존된 상세 출처: 교육용 탐색 경로 · 저장된 명세 기반 재구성 · 실제 읽기 순서가 아님
-
-**Claim Boundary:**
-FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. Routing으로 성능 향상이나 Token 절약이 입증됐다고 주장하지 않는다. S46–S47의 연구에서 과제별 근거 확인으로 돌아온다. 질문·위치 안내·답변 근거의 서로 다른 역할만 짚고, 다음 장의 배치 기준과 그다음 장의 실제 파일 재구성을 미리 해설하지 않는다.
-
-보존된 상세 범위: 자동 탐색·완벽한 선택·성능 향상·토큰 절약을 입증한 그림이 아님
-
-Beginner Explanation: 작업 요청에는 궁금한 것을 쓰고, AGENTS.md에는 어느 상세 문서를 볼지 안내한다. 구체적인 답에 필요한 규칙은 그 문서의 명세에서 확인한다.
-
-Advanced Insight: 위치 안내와 상세 명세를 분리하면 발견성·유지 비용을 설계할 수 있다. 실제로 무엇을 읽고 활용했는지는 별도 관찰·검증 문제이며 이 도식만으로 성공을 보장하지 않는다.
-
-C++ Vision Bridge: 같은 설계 패턴으로 공통 Project 제약을 확인한 뒤 해당 알고리즘 명세에 도달하는 예를 짧게 연결한다. Python Demo의 문서가 C++ 실행 근거라는 뜻이 아니며 환경 명령·도구·hardware 목록을 추가하지 않는다.
-
-Demo Operation: N/A. 하나의 native 교육용 안내 관계도다. 실제 STATE-03 문서 분리 구조와 TRIAL-005 접근 기록은 뒤 구간에 남긴다.
-
-Audience Interaction: 작업 질문, 위치 안내, 상세 명세를 순서대로 가리켜 각자의 역할을 구분한다. 새 실습이나 토론 시간을 추가하지 않는다.
-
-Transition: “그렇다면 기본 안내와 상세를 나눌 기준은 무엇일까요?”
-
-Time Management: 도입30초, 관계도100초, C++ 패턴과 다음 질문50초로3분을 유지한다. 시간이 부족하면 C++ 설명을 줄이고 작업 질문·안내·명세의 구분과 실제 읽기 순서가 아니라는 경계를 남긴다.
-
-Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_2.pptx / S48; production/preview/act2/S48.png. 코드·연구 도식은 표시된 교육용/발췌 범위다. 최종 패키지·PNG·Notes 대조는 production/evaluation/S40_CODE_EVIDENCE_REVISION.md를 따른다. 실제 실행 캡처나 현재 제품 실행을 뜻하지 않는다.
-
-Validation Status: DEC-0123 — S47의 명세·답변 대조를 회수하도록 도입 Cue를 정렬한다. 기존 요청·AGENTS.md 위치 안내·상세 명세 화면과3분 배정·근거 범위는 유지한다. 최종 결과는 production/evaluation/S47_CONTEXT_USE_REVISION.md를 따른다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
-
-
-## S49 — AGENTS.md에는 무엇을 남길까?
-
-Slide ID:
-S49
 
 Working Title: AGENTS.md에는 무엇을 남길까?
 
@@ -715,13 +662,13 @@ Mode Split: Lecture 4 minutes
 
 Primary Message: 여러 작업의 출발점이 되는 안내는 공통 위치에, 특정 질문의 깊은 명세는 관련 상세에 두고 참조 위치를 남긴다.
 
-Opening Question: “무엇을 항상 읽고, 무엇을 필요할 때 찾게 할까?”
+Opening Question: “방금 분류한 정보 중 AGENTS.md에 남길 것은 무엇일까요?”
 
-**Speaker Flow:**
-1. (0–1분) 적용 범위가 여러 Task인지 특정 질문인지 비교한다.
-2. (1–3분) 기본 방향/공통 제약/실행·검증 진입점은 출발점, 깊은 명세/설정은 관련 작업의 상세로 두는 기준을 설명한다.
-3. (3–4분) C++ 공통 빌드 진입점과 장비별 조건을 짧게 대조한다. 실제 파일 세 개의 이름은 다음 전후 장에서 확인한다.
-운영 표시: “실무 적용 팁 · Context 관리” 배지로 다시 찾아 쓸 기준임을 짚는다. 기존 설명·근거 범위와 배정 시간 안에서 진행하며 요청·예시를 새로 실행하지 않는다.
+Speaker Flow:
+1. (0:00–0:30) S47에서 정보의 관련 범위를 구분했음을 회수한다. 이제 여러 작업의 기본 안내와 특정 질문의 상세를 어느 문서에 둘지 판단한다.
+2. (0:30–1:30) 공통 안내의 적용 범위·참고 시점·유지할 내용을 짚는다. 목적·제약·검증 진입점과 상세 문서의 위치가 여러 작업의 출발점이 될 수 있다.
+3. (1:30–3:00) 관련 상세는 필요할 때 확인할 깊은 명세·구조·테스트 구성·장비 조건이라고 설명한다. 지침의 적용 범위와 실제 읽기를 동일시하거나 분리로 성능이 개선됐다고 말하지 않는다.
+4. (3:00–4:00) C++의 공통 빌드/검증 진입점과 장비별 조건을 짧게 연결하고, S49에서 이 기준을 실제 프로젝트 문서에 적용한 전후를 보겠다고 넘긴다.
 
 Evidence / Source: TEACHING_MODEL / CONCEPTUAL. BEAT-014, CLM-0003/0005/0014/0015, DEC-0054. Historical Demo STATE-03 at f3e2e37b1454e28c5de4c44682ebd49378ebae4b의 AGENTS.md3–20은 목적·로컬 파일·기존 동작 보존·README/검증 진입 안내·주제별 문서 위치를 기록한다. docs/architecture.md는 처리 순서·모듈 역할, docs/image-contracts.md는 crop/resize 명세, docs/testing.md는 테스트 위치·검증 범위를 담는다. 파일명과 내용의 예는 이 보존 기록에 근거한 요약이며 전체 지침의 재현이나 제품 실행 결과가 아니다. 실제 STATE-03 구조 변화와 TRIAL-005A/B 접근 관찰은 S51 이후에 구분한다.
 
@@ -738,23 +685,23 @@ Advanced Insight: 정보의 Scope와 필요한 시점, 공통 안내의 안정�
 C++ Vision Bridge: 기본 안내의 빌드·검증 진입점/공통 제약과 관련 상세의 알고리즘 명세/하드웨어 조건을 비교한다. 통합1분 범위이며 도구 목록·구체적 환경 명령·C++ 실행 검증을 추가하지 않는다.
 
 **Demo Operation:**
-N/A. 이 장은 native 정보 배치 모델이다. 실제 문서 분리 전후는 S50, 문서 접근의 관찰과 한계는 S52–S54에 남긴다.
+N/A. 이 장은 native 정보 배치 모델이다. 실제 문서 분리 전후는 S49, 문서 접근의 관찰과 한계는 S52–S54에 남긴다.
 
 Audience Interaction: 상단 질문으로 공통 안내와 특정 작업의 상세를 비교하게 한다. 완전한 분류표를 만들게 하거나 실습·별도 토론 시간을 추가하지 않는다.
 
-Transition: “이 기준을 보존된 프로젝트 문서에 실제로 적용한 전후를 보겠습니다.”
+Transition: “이 배치 기준을 실제 프로젝트 문서에 적용하면 무엇이 달라질까요?”
 
-Time Management: 도입30초, 기본 안내60초, 관련 상세90초, C++ 연결과 Transition60초로4분을 유지한다. 시간이 부족하면 상세 예의 반복 설명을 줄이고 기본 안내/상세 범위와 자동 로딩 미보장 경계를 남긴다.
+Time Management: 도입30초, 공통 안내60초, 관련 상세90초, C++ 연결/다음 전후 비교60초로 Lecture4분을 유지한다. 정보 분류와 실제 파일 재구성을 이 장에서 반복하지 않는다.
 
-Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S49 또는 production/preview/act2/S49.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S42_CORE_DETAIL_REVISION.md와 검증 JSON을 따른다. 실제 실행 Screenshot이나 자동 로딩 기록으로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S48 또는 production/preview/act2/S48.png. 원래 근거 유형과 실제 관찰/교육용 구분을 유지한다. 현재 재배열 검토는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
 
-Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
+Validation Status: DEC-0125 — 이전 S49의 내용·배정·근거 유형을 현재 S48로 이동한다.19필드와 해당 시간/Mode를 유지하고 새 설계 연결을 검토한다. 결과는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
 
-## S50 — 정보를 지우지 않고 위치를 나누기
+
+## S49 — 정보를 지우지 않고 위치를 나누기
 
 Slide ID:
-S50
+S49
 
 Working Title: 정보를 지우지 않고 위치를 나누기
 
@@ -768,9 +715,11 @@ Primary Message: STATE-03은 세부 정보를 삭제하는 변화가 아니라 S
 
 Opening Question: “정보를 나누면 무엇이 바뀌고, 무엇을 그대로 보존해야 할까?”
 
-Speaker Flow: 1. (0–2분, Lecture) 앞 장의 기준을 실제 문서 변화에 적용했음을 설명한다.
-2. (2–4분, Demo/CAPTURED) 보존된 State 문서의 A/B/C 핵심 주제가 각 상세 파일로 간 대응과 기본 안내·참조 위치 추가를 확인한다.
-3. (4–5분, Case) 문자 그대로 복사한 것이 아니라 재서술·상세화도 있었다고 말한다. 정보가 사라지지 않았는지 대조하는 책임을 회수한다.
+Speaker Flow:
+1. (0:00–1:00 / Lecture) S48의 배치 기준을 회수한다. 한 AGENTS.md에 있던 기본 안내와 A구조/CLI 요약·B이미지 명세·C테스트 구성을 확인한다.
+2. (1:00–3:00 / Demo, CAPTURED) 보존된 STATE-02→STATE-03 문서에서 A/B/C 핵심 주제가 각 상세 파일로 이어진 대응과 AGENTS.md의 기본 안내/참조 위치를 확인한다. 실제 문서 구조의 요약이며 새 Trial이 아니다.
+3. (3:00–4:00 / Case) 단순한 문자 이동만이 아니라 재서술·상세화와 안내 추가가 있었음을 설명한다. 핵심 명세와 제약이 보존됐는지를 대조한다. 성능·토큰 효과는 측정하지 않았다.
+4. (4:00–5:00 / Lecture) C++에서도 위치 변경 후 명세·제약을 대조한다는 패턴을 회수하고, S50에서 이 구조를 따라 필요한 명세로 가는 설계 경로를 보겠다고 넘긴다.
 
 Evidence / Source: OBSERVED_PRODUCT for retained Git file structures and topic correspondence; TEACHING_MODEL for the diagram and routing interpretation. STATE-02 at55c045523ed1409449d7eea5b0d873983fe101b6 → STATE-03 atf3e2e37b1454e28c5de4c44682ebd49378ebae4b. 변경은 AGENTS.md와 새 docs/architecture.md, docs/image-contracts.md, docs/testing.md4개뿐이다. 기존 Architecture/CLI Summary는 architecture, Image Contract는 image-contracts, Test의 구성/통합 검증 설명은 testing으로 재배치됐다. Project/로컬 데이터/Build-Run/전체 검증/기존 동작·의존성·범위 제약은 기본 안내에 남았다. 상세 문서의 표·설명·테스트 예와 root Context Routing 안내는 추가/보강됐다. plan/DEMO_MATRIX.md의 STATE-03 보존 대응표와 당시 검증 기록, DEMO-06, BEAT-014–015, CLM-0003/0005/0014/0015, DEC-0055를 따른다. 이번에 새 Trial이나 테스트를 실행하지 않았다.
 
@@ -791,14 +740,62 @@ CAPTURED / RECONSTRUCTED EVIDENCE — 고정된 STATE-02→STATE-03 문서 구�
 
 Audience Interaction: Case1분에 정보를 나눠도 무엇이 남아야 하는지 비교 질문을 던진다. 공개 답변 없이 생각해도 되며 실습이나 별도 시간을 추가하지 않는다.
 
-Transition: “파일 구조를 나눴으니, 실제 두 요청은 어떤 근거를 열었는지 관찰하겠습니다.”
+Transition: “이제 나눈 문서에서 crop 질문에 필요한 명세를 어떻게 찾아갈까요?”
 
-Time Management: Lecture0–1분과4–5분=2분, CAPTURED Demo1–3분=2분, Case3–4분=1분으로 총5분을 유지한다. C++ Bridge는 마지막2분 안에 통합하며 시간을 중복 계산하지 않는다. 시간이 부족하면 문서 상세를 읽는 양을 줄이고 핵심 정보 보존/재서술 범위와 실제 접근 미검증 경계를 남긴다.
+Time Management: 0–1분 Lecture1,1–3분 CAPTURED Demo2,3–4분 Case1,4–5분 Lecture1로 총5분=Lecture2+Demo2+Case1을 유지한다. Speaker Flow와 같은 순서다. 실제 리허설 UNVERIFIED.
 
-Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S50 또는 production/preview/full/S50.png, production/preview/act2/S50.png를 사용한다. 최종 패키지·PNG·Notes 일치는 production/evaluation/S43_DOCUMENT_SPLIT_REVISION.md와 검증 JSON을 따른다. DEMO-06의 정적 fallback과 그 hash는 demos/runbooks/FALLBACK_MANIFEST.md에 정렬한다. 실제 실행 캡처로 표현하지 않는다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S49 또는 production/preview/act2/S49.png. 원래 근거 유형과 실제 관찰/교육용 구분을 유지한다. 현재 재배열 검토는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
 
-Validation Status: REVIEWED — DEC-0060의 근거·운영·19필드 구조를 대조했다. 최종 PPT/PNG/내장 Notes 재대조는 production/evaluation/ACT_2_FLOW_REVISION.md에 기록한다. Windows PowerPoint/room/product/account/timed rehearsal remain UNVERIFIED.
+Validation Status: DEC-0125 — 이전 S50의 내용·배정·근거 유형을 현재 S49로 이동한다.19필드와 해당 시간/Mode를 유지하고 새 설계 연결을 검토한다. 결과는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
+
+## S50 — 분리한 문서에서 필요한 명세 찾기
+
+Slide ID:
+S50
+
+Working Title: 분리한 문서에서 필요한 명세 찾기
+
+ACT / Section: ACT 2 / 2F
+
+Allocated Time: 3 minutes
+
+Mode Split: Lecture 3 minutes
+
+Primary Message: S49에서 실제로 나눈 문서 구조를 바탕으로, 작업 요청에서 기본 안내를 거쳐 관련 명세에 도달할 설계 경로를 설명한다.
+
+Opening Question: “이 구조에서 crop 질문은 어떤 명세로 이어질까요?”
+
+Speaker Flow:
+1. (0:00–0:30) 앞 S49에서 문서 위치를 나눴음을 회수한다. 이제 이 구조에서 crop 질문에 필요한 상세 명세로 어떻게 도달할지 본다.
+2. (0:30–2:10) 작업 요청→AGENTS.md의 위치 안내→docs/image-contracts.md의 명세 관계를 가리킨다. 이 장은 설계한 경로이며 실제 파일 읽기 순서를 관찰한 기록이 아니다. 새 파일 구조를 처음 소개하거나 배치 기준을 다시 설명하지 않는다.
+3. (2:10–3:00) C++ 알고리즘 명세에서도 관련 상세 위치를 안내할 수 있음을 짧게 연결한다. 하단 문장으로 실제 작업에서 어떤 문서를 읽었는지는 별도 관찰해야 한다고 넘긴다. 다음 S51에서는 두 실제 읽기 전용 요청을 소개하고 S52–S54에서 근거 접근과 답을 확인한다.
+
+Evidence / Source: TEACHING_MODEL / CONCEPTUAL. BEAT-014, STATE-03, CLM-0003/0005/0014/0015, DEC-0053. Historical Demo tag STATE-03 at f3e2e37b1454e28c5de4c44682ebd49378ebae4b: AGENTS.md17–20의 Context Routing에서 이미지 동작/crop→docs/image-contracts.md를 안내한다. 같은 tag의 docs/image-contracts.md20–24가 half-open crop 명세를 기록한다. plan/DEMO_MATRIX.md의 STATE-03 및 TRIAL-005A/B는 후속 구조·관찰 근거다. 문서명과 명세는 보존 기록을 참조하지만 화면의 요청/안내는 요약·재구성이다. 새 Trial은 실행하지 않았다.
+
+보존된 상세 출처: 교육용 탐색 경로 · 저장된 명세 기반 재구성 · 실제 읽기 순서가 아님
+
+**Claim Boundary:**
+FROZEN — 93장 구조·Story·시간·Demo 범위; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. Routing으로 성능 향상이나 Token 절약이 입증됐다고 주장하지 않는다. S45–S46의 연구에서 과제별 근거 확인으로 돌아온다. 질문·위치 안내·답변 근거의 서로 다른 역할만 짚고, 다음 장의 배치 기준과 그다음 장의 실제 파일 재구성을 미리 해설하지 않는다.
+
+보존된 상세 범위: 자동 탐색·완벽한 선택·성능 향상·토큰 절약을 입증한 그림이 아님
+
+Beginner Explanation: 기본 안내는 관련 명세로 가는 출발점이고, 상세 문서는 실제 답에 필요한 조건을 담는다. 길을 만들었다는 것과 실제로 읽었다는 것은 다르다.
+
+Advanced Insight: 위치 안내와 상세 명세를 분리하면 발견성·유지 비용을 설계할 수 있다. 실제로 무엇을 읽고 활용했는지는 별도 관찰·검증 문제이며 이 도식만으로 성공을 보장하지 않는다.
+
+C++ Vision Bridge: 같은 설계 패턴으로 공통 Project 제약을 확인한 뒤 해당 알고리즘 명세에 도달하는 예를 짧게 연결한다. Python Demo의 문서가 C++ 실행 근거라는 뜻이 아니며 환경 명령·도구·hardware 목록을 추가하지 않는다.
+
+Demo Operation: N/A. 하나의 native 교육용 안내 관계도다. 실제 STATE-03 문서 분리 구조와 TRIAL-005 접근 기록은 뒤 구간에 남긴다.
+
+Audience Interaction: 작업 요청·위치 안내·상세 명세를 순서대로 가리킨 뒤 “실제 두 작업에서도 무엇을 읽었을까요?”라고 관찰 질문으로 넘긴다. 새 실습이나 Q&A 시간은 추가하지 않는다.
+
+Transition: “이제 실제 두 작업에서는 어떤 문서를 읽고 답의 근거로 썼는지 관찰하겠습니다.”
+
+Time Management: S49 회수/경로 질문30초, 관계도100초, C++ 패턴/실제 관찰 연결50초로 Lecture3분을 유지한다. 설계 경로를 실제 읽기 순서나 성과로 설명하지 않는다.
+
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S50 또는 production/preview/act2/S50.png. 원래 근거 유형과 실제 관찰/교육용 구분을 유지한다. 현재 재배열 검토는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
+
+Validation Status: DEC-0125 — 이전 S48의 내용·배정·근거 유형을 현재 S50로 이동한다.19필드와 해당 시간/Mode를 유지하고 새 설계 연결을 검토한다. 결과는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
 
 ## S51 — 서로 다른 두 Task가 무엇을 읽을까?
 

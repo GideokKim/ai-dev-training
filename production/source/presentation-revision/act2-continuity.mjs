@@ -20,14 +20,14 @@ export async function loadAct2ContinuitySlides(root) {
  };
  return {
   S38(p){
-   // DEC-0118: this retained S38 factory maps to current S45.
-   const s=make(p,'S38','공통 안내와 작업별 상세를 나눈다','ACT 2 · 작업에 필요한 Context',
+   // DEC-0125: retained S38 maps to S47 after the final sequence boundary.
+   const s=make(p,'S38','작업이 달라도 필요한 정보는 같을까?','ACT 2 · 작업별 정보의 관련성',
     '교육용 정보 배치 모델 · TRIAL-004의 관련성 관찰을 바탕으로 설명',
     '파일 읽기 순서·자동 적용·성능 효과를 관찰한 그림이 아님');
-   text(s,'앞의 README 수정에는 이미지 상세 명세까지 필요하지 않았다.',64,180,1152,40,26,C.sub);
+   text(s,'같은 프로젝트라도, 작업에 따라 필요한 정보가 달라진다.',64,180,1152,40,26,C.sub);
    text(s,'이번 작업',64,252,282,40,28,C.ink,true);
    text(s,'두 작업에 공통',390,252,390,40,28,C.teal,true,FONT,'center');
-   text(s,'이번 작업에서 찾을 상세',824,252,392,40,28,C.ink,true);
+   text(s,'이번 작업에 필요한 정보',824,252,392,40,28,C.ink,true);
    rect(s,390,314,390,204,C.pale,C.teal,1.5);
    ['프로젝트 목적','공통 제약','실행·검증의 시작점'].forEach((label,i)=>{
     text(s,label,414,333+i*56,342,42,i===2?27:29,C.teal,true,FONT,'center');
@@ -38,9 +38,9 @@ export async function loadAct2ContinuitySlides(root) {
    });
    line(s,64,412,282);
    line(s,824,412,392);
-   // DEC-0122: emphasize the unchanged S46 handoff question.
+   // Keep the approved emphasis and hand off to document placement.
    rect(s,64,548,1152,52,C.teal);
-   text(s,'필요한 정보를 제공하면, 답에서도 제대로 활용할까?',88,552,1104,44,34,C.white,true);
+   text(s,'공통 정보와 작업별 정보는 어디에 둘까?',88,552,1104,44,34,C.white,true);
    return s;
   },
   S39(p){
@@ -67,7 +67,7 @@ export async function loadAct2ContinuitySlides(root) {
    return s;
   },
   S40(p){
-   // DEC-0124: this retained S40 factory maps to current S47.
+   // DEC-0125: retained S40 maps to S46; DEC-0124 caution stays intact.
    const s=make(p,'S40','지침을 놓쳐도 답은 그럴듯할 수 있다','ACT 2 · 지침 누락·할루시네이션 주의',
     '기존 crop 명세 기반 교육용 오답 예시',
     '새 Trial·실제 Agent 응답·현재 Codex의 실패 관찰이 아님','TEACHING_MODEL');
@@ -94,10 +94,10 @@ export async function loadAct2ContinuitySlides(root) {
    return s;
   },
   S41(p){
-   const s=make(p,'S41','필요한 상세 정보로 가는 길','ACT 2 · 한 질문에서 답변 근거까지',
+   const s=make(p,'S41','분리한 문서에서 필요한 명세 찾기','ACT 2 · 문서 분리 후의 탐색 경로',
     '교육용 탐색 경로 · 저장된 명세 기반 재구성 · 실제 읽기 순서가 아님',
     '자동 탐색·완벽한 선택·성능 향상·토큰 절약을 입증한 그림이 아님');
-   text(s,'이 요청은 어떤 문서를 근거로 답해야 할까?',64,184,1152,44,31,C.teal,true);
+   text(s,'이 구조에서 crop 질문은 어떤 명세로 이어질까?',64,184,1152,44,31,C.teal,true);
    prompt(s,64,298,300,208,'01  작업 요청','crop 끝 좌표가\n포함되는지\n명세를 확인해줘.');
    rect(s,444,298,376,208,C.pale,C.teal,1.5);
    text(s,'02  기본 안내',466,312,332,34,25,C.teal,true);
@@ -109,7 +109,7 @@ export async function loadAct2ContinuitySlides(root) {
    text(s,'docs/\nimage-contracts.md',920,363,276,65,24,C.ink,true,CODE);
    text(s,'[x_start, x_end)',920,457,276,35,25,C.ink,true,CODE);
    arrow(s,386,390,30,22);arrow(s,842,390,30,22);
-   text(s,'질문 · 위치 안내 · 상세 명세를 연결한다',64,533,1152,41,31,C.teal,true);
+   text(s,'이제 실제 작업에서 어떤 문서를 읽었는지 확인한다.',64,533,1152,41,31,C.teal,true);
    text(s,'C++ 예: 알고리즘 설명을 묻는 요청이라면 해당 모듈의 명세를 근거로 확인',64,577,1152,27,23,C.sub);
    return s;
   },
