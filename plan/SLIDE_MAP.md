@@ -1077,24 +1077,24 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **ACT:** ACT 2
 - **Section:** 2B
 - **Working Title:** AGENTS.md의 지침대로 검증했다
-- **Primary Role:** 프로젝트에 기록한 지침의 실제 활용 관찰을 보여주고 해석 한계를 유지한다.
-- **Audience Question:** “Prompt에 없던 test command는 어디서 왔을까?”
-- **Core Message:** 작업 요청에는 테스트 실행 명령이 없었지만, 이 실행에서 Agent가 AGENTS.md를 확인하고 그 테스트 지침의 명령으로 검증한 기록이 있다.
+- **Primary Role:** 기존 지침 활용 관찰을 바탕으로 요청과 프로젝트 지침의 관계를 설명한다. 사용자 제공 Prompt와9개 검증 예시는 실제11개 기록과 구분한다.
+- **Audience Question:** “요청에 적지 않은 테스트 실행 명령은 어디에서 확인할까?”
+- **Core Message:** 기존 실행에는 AGENTS.md의 테스트 명령을 사용한 기록이 있다. 이번 요청과9개 PASS는 그 관계를 설명하는 발표용 예시다.
 - **Story Beat:** BEAT-010 — Reusable Project guidance succeeds at first
 - **Curriculum Trace:** ACT 2 — `AGENTS.md`'s first success.
-- **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; OBSERVED PRODUCT. AGENTS.md만의 독립적인 인과 효과나 보편적 우월성을 주장하지 않는다.
-- **Visual Concept:** 왼쪽 native Prompt 창에는 실제 TRIAL-003 요청의 핵심 발췌·번역만 표시한다. 실제 요청에 테스트 명령이 없었다는 설명은 창 밖의 주석으로 분리한다. 가운데 AGENTS.md는 프로젝트 작업 지침으로 강조하고 지정된 명령으로 전체 테스트를 실행한다는 규칙을 요약한다. 오른쪽 전체11/11 PASS는 유지한다. README-only가 요청에도 명시됐고 Skills도 실행됐다는 한계는 보존한다.
-- **Demo / Case Connection:** 문서 수정 Task의 관찰된 실행. Personal/global Skills도 실행되어 AGENTS.md만의 효과로 분리할 수 없다.
+- **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
+- **Claim Status:** FROZEN WITH SCOPE — 기존 TRIAL-003의 실제11/11 관찰과 현재 Prompt/9개 교육용 예시를 구분한다. AGENTS.md 단독 효과·자동 로딩·강제 준수·새 실행 결과를 주장하지 않는다.
+- **Visual Concept:** 왼쪽 Prompt 창에는 사용자 제공 README Test 섹션 생성·README-only·최종 diff/검증 근거 보고 문장을 표시한다. 테스트 명령 미포함은 창 밖의 설명이다. 가운데 저장소 작업 지침 영역은 그대로 유지한다. 오른쪽은 검증 예시/발표용 예시 라벨과 점선 프레임으로9/9 PASS를 표시한다. 하단에도 실제 지침 활용 관찰과 예시를 구분한다.
+- **Demo / Case Connection:** 기존 TRIAL-003의 지침 활용을 관찰 근거로 유지한다. 실제 Prompt·11/11 결과는 변경하지 않으며 현재 화면의 요청/9개는 사용자 승인 발표용 예시다.
 - **Beginner Payoff:** 반복 정보를 repository에 두는 방식의 첫 효용을 본다.
-- **Advanced Payoff:** 실제 관찰과 원인 귀속을 분리한다.
+- **Advanced Payoff:** 실제 지침 활용과 교육용 요청·결과 재구성을 구분하고 원인 귀속의 한계를 유지한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 실제 요청·원문 밖 주석·프로젝트 지침·관찰된 실행을 구분한다. 요청의 최종 diff와 관련 검증 근거 보고는 남기되 구체 테스트 명령은 없었다고 창 밖에서 설명한다. AGENTS.md의 테스트 지침을 실제 적용한 점을 강조하며 모든 규칙의 강제 준수·자동 로딩·단독 인과성을 주장하지 않는다.
-- **Transition:** “방금 본 이번 README 요청과 다시 참고한 테스트 지침을 Task Prompt와 Project Context의 역할로 정리해 보겠습니다.”라고 S42로 이동한다.
+- **Speaker Intent:** 가운데 AGENTS.md 영역은 바꾸지 않는다. 왼쪽은 이번 작업 예시, 오른쪽은9개 기준 발표용 예시임을 먼저 표시한다. 실제 TRIAL-003의11개 결과를 정정한 것처럼 설명하지 않는다. 지침의 활용 관찰과 단독 인과성 미입증은 유지하고 S42로 연결한다.
+- **Transition:** “예시의 이번 README 요청과, 실제 기록에서 다시 참고한 테스트 지침을 Task Prompt와 Project Context의 역할로 정리해 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (HYBRID) = 4분
-- **Evidence / Decision References:** BEAT-010, TRIAL-003, STATE-01, CLM-0005, DEC-0046, DEC-0115
-- **Audience Footer:** CLI 실행 기록 · 다른 지침도 함께 적용
+- **Evidence / Decision References:** BEAT-010, TRIAL-003, STATE-01, CLM-0005, DEC-0046, DEC-0115, DEC-0119
+- **Audience Footer:** 지침 활용은 기존 CLI 관찰 · 요청과 9개 결과는 발표용 예시 / 다른 지침도 함께 적용 · AGENTS.md 단독 효과는 미입증
 
 #### S42 — Task Prompt와 Project Context
 

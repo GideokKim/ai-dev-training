@@ -1,9 +1,11 @@
 # Static Fallback Manifest
 
-Current: DEC-0118 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0119 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
 S45 now compares shared guidance and task-specific detail; procedure reuse
 remains at S59/ACT3. This teaching diagram is not an observed read order.
-Retain44reference roles, evidence classes and paths. Keep S28-S35 as
+Retain44reference roles and paths. S41 combines historical instruction-use
+evidence with a labeled nine-test teaching example; the original Trial
+remains eleven tests. Other evidence classes are unchanged. Keep S28-S35 as
 five core and three conditional prompt tools. Show method/approach names,
 annotated native examples, relationship diagrams and official citations. Fictional team conventions
 are teaching examples, not actual company rules or Trial results.
@@ -13,11 +15,11 @@ in the reports and source history.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`44ce37cff0b809709bf6f158ed1e803a455f5354f17c0bb520d2c6716fada6ba`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`0ad39aedebe3fd7e57e81e713bcfea0a78ca2318de2fee1ce8ded45a767d4d81`.
-- `production/preview/full/montage.png` SHA-256:`2cc8e56b5e454281c90af454a371f8ecdbd61daa9ecc41d439e59e9169890a08`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`ea85efeed9118cc11a11a6db9365dd9d79440c6bea1271ff86e4fbffe3facc02`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`1faec086cbec84643058fd0933cf8cf68177967d9faf5b0822b7191bb507ae75`.
+- `production/preview/full/montage.png` SHA-256:`15fa33629c5014e78ee66d7c34b3a91e7b5c57fbfeadf613c9ac19aae9722fea`.
 
-[Current revision](../../production/evaluation/S45_CONTEXT_SCOPE_REVISION.md),
+[Current revision](../../production/evaluation/S41_PROMPT_EXAMPLE_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
@@ -31,7 +33,7 @@ in the reports and source history.
 | S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` | 1920×1080 | `eee791361290ec1374cc4456ce66ff3bf7a7b27905c9e912b20838a0091d9e1f` |
 | S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `3b4e59c948761576b151573de7b5f8e2aa45901acce2072b8793d9cb6348d240` |
 | S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` | 1920×1080 | `052e19918e6be443c8699ae2212f02229dbce3a5c15eb96fbe03794193e70940` |
-| S41 | RETAINED_DEMO_STATIC | `production/preview/full/S41.png` | 1920×1080 | `3a41196b163fc4bc42f4efe9fce51796312655ec564b17873187ac1f550817e8` |
+| S41 | OBSERVED_GUIDANCE_WITH_TEACHING_EXAMPLE | `production/preview/full/S41.png` | 1920×1080 | `754e5d50ebba6d26435d180df6dd438e8a69706b491af14065d98c5de42ce4f4` |
 | S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` | 1920×1080 | `26632e6c07918601f19342180eeac05a0e67051e7bf8e43e8bb1a0d4bedf3295` |
 | S50 | RETAINED_DEMO_STATIC | `production/preview/full/S50.png` | 1920×1080 | `1515f2ceffb8119ce9cc0d78f704d66a60c891ead5b15d297ae708b8425212e9` |
 | S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` | 1920×1080 | `b3ce28aa911e520e04fc38afecb02c7cd0ab34ed55525c083464c7a7ea136f0b` |

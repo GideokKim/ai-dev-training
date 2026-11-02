@@ -12050,3 +12050,80 @@ Render the exact final packages, compare the remaining119screens and Notes,
 verify source and delivery identities, then commit and push normally.
 Keep Windows, room, account/product and timed rehearsal unverified.
 Do not change the Demo repository, Sites or paused presenter bundles.
+
+# DEC-0119 — Distinguish the S41 nine-test teaching example
+
+## Status
+
+ACCEPTED — explicit user request and clarification that nine tests are
+for a presentation example, not a correction of the preserved Trial.
+
+## Date
+
+2026-11-02
+
+## Context
+
+The user supplies a shorter README Test-section request and asks for nine
+tests while retaining the repository-instruction panel. The preserved
+TRIAL-003 record and STATE-01 source contain eleven tests. The user confirms
+the new count is a presentation example after this discrepancy is surfaced.
+
+## Problem
+
+Do not represent a reconstructed request and nine-test illustration as the
+original Prompt or a new execution result. Keep instruction-use evidence.
+
+## Decision
+
+Use the supplied request verbatim, with line breaks only. Retain the full
+repository-instruction panel. Display nine of nine PASS as a teaching
+example with an explicit label and dashed result frame. Separate the
+example from the historical CLI observation in the footer and Notes.
+Preserve the original TRIAL-003 Prompt and eleven-test result in their
+source record. Keep all other slides and their Notes unchanged.
+
+## Rationale
+
+Make the example easy to read without rewriting empirical evidence.
+Connect the current-task request to shared project test instructions.
+
+## Alternatives
+
+Relabel the old run as nine tests: contradicts the preserved evidence.
+Keep eleven on screen: does not meet the approved teaching example.
+Run a new Trial: unnecessary and not authorized for this revision.
+
+## Trade-offs
+
+S41 now combines an observed instruction-use basis with a clearly marked
+teaching request and outcome. The mixed evidence requires visible scope.
+Nine is not a new actual suite count, measurement or claimed reproduction.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+S41 source/footer; current Slide Map, T07-A mapping, MASTER_PLAN and
+CLAIM_FREEZE; ACT2/Full Markdown and embedded Notes; packages/previews;
+revision report, checklist, handoff and fallback identities.
+
+## Evidence
+
+User-provided request and explicit clarification on2026-11-02;
+retained TRIAL-003 and STATE-01 test source. No new execution or Trial.
+
+## Training Relevance
+
+YES — distinguish current-task requests, reusable project guidance,
+observed use and illustrative output without implying guaranteed compliance.
+
+## Follow-up
+
+Preserve S41 Demo4, ACT2 22slides/90minutes and full120slides/417minutes.
+Render and check the final packages, unchanged instruction panel, Notes,
+scoped changes, source identities and preserved119slides; commit and push
+normally. Keep Windows, room, product/account and timed rehearsal unverified.
+Do not change Demo code, States, tags, Sites or paused presenter bundles.

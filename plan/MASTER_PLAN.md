@@ -1,5 +1,15 @@
 # ChatGPT & Codex 개발자 교육 기획 원본
 
+## S41 요청·9개 발표용 예시 — DEC-0119 (2026-11-02)
+
+S41의 Prompt는 사용자가 제공한 README Test 섹션 생성·README-only·최종 diff/검증 근거
+보고 문장이다. 가운데 저장소 작업 지침은 그대로 유지한다. 오른쪽9/9 PASS는
+사용자가 확정한 발표용 예시로 표시하며, 실제 TRIAL-003의11/11 실행 기록은 보존한다.
+관찰과 예시를 라벨·점선 프레임·Notes에서 구분하고 새 실행·성과로 주장하지 않는다.
+120장·417분, S41 Demo4분·기존 Mode/ID/Template과 S40→S41→S42 흐름을 유지한다.
+[현행 Map](SLIDE_MAP.md), [수정 검토](../production/evaluation/S41_PROMPT_EXAMPLE_REVISION.md)를 따른다.
+아래 이전 설계·원문·검증 기록은 해당 판본의 이력이다.
+
 ## S45 공통 안내·작업별 상세 정리 — DEC-0118 (2026-11-02)
 
 S45는 공통 안내와 작업별 상세의 범위 비교 하나에 집중한다. README 수정/crop 조사에

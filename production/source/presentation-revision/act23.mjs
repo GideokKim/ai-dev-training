@@ -26,27 +26,29 @@ S32:make('S32','다른 Task에 같은 설명이 반복된다','ACT 2 · 반복�
   }),
 
 S34:make('S34','AGENTS.md의 지침대로 검증했다','ACT 2 · 프로젝트 작업 지침을 실제 실행에 적용',
-  'TRIAL-003 · 실제 요청 발췌·번역 / 실행 기록 요약 · Codex CLI 0.154.0',
-  'Skills도 실행 · README-only는 Prompt에도 명시 · AGENTS.md 단독 효과·강제 준수 보장은 미입증','OBSERVED_PRODUCT',
+  'TRIAL-003의 지침 활용 관찰 · 요청 문장과 9개 결과는 발표용 예시',
+  '실제 보존 기록은11/11 ·9/9는 새 실행 결과가 아님 · 단독 인과성 미입증','OBSERVED_PRODUCT / TEACHING_MODEL',
   (s,{C,text,rect,line,arrow,CODE})=>{
     text(s,'Task Prompt',64,177,448,36,26,C.teal,true);
     text(s,'저장소의 작업 지침',576,177,328,36,26,C.teal,true);
-    text(s,'실행 기록',968,177,248,36,26,C.teal,true);
+    text(s,'검증 예시',968,177,248,36,26,C.teal,true);
     const prompt=rect(s,64,224,448,253,C.white,C.line,1.5);
     prompt.borderRadius=12;
-    text(s,'실제 요청 · 핵심 발췌·번역',84,235,408,29,23,C.sub,true);
+    text(s,'작업 요청',84,235,408,29,23,C.sub,true);
     line(s,84,274,408);
-    text(s,'README의 Test 섹션을 고쳐줘.\n과거 STATE-00 실패와\n현재 checkout을 구분해줘.\n근거 없는 주장은 하지 마.\nREADME.md만 변경하고,\n최종 diff·검증 근거를 보고해줘.',84,283,408,181,24,C.ink);
-    text(s,'원문 밖 주석',64,489,448,25,20,C.sub,true);
-    text(s,'실제 요청에는 테스트 명령 미포함',64,518,448,30,24,C.sub);
+    text(s,'README.md에 Test 섹션을 만들어서\n테스트 관련 내용 모아줘.\n\nREADME.md만 변경하고\n최종 diff, 검증 근거를 보고해줘.',84,283,408,181,24,C.ink);
+    text(s,'요청에 없는 정보',64,489,448,25,20,C.sub,true);
+    text(s,'테스트 실행 명령은 적지 않음',64,518,448,30,24,C.sub);
     rect(s,576,224,328,253,C.pale,C.teal,1.5);
     text(s,'AGENTS.md',596,248,288,46,32,C.teal,true,CODE);
     text(s,'프로젝트 작업 규칙',596,307,288,28,23,C.sub);
     line(s,596,350,288);
     text(s,'지정된 명령으로\n전체 테스트를 실행',596,366,288,70,25,C.ink,true);
     text(s,'지침의 명령을 실제 사용',596,445,288,25,21,C.teal,true);
-    text(s,'전체 테스트',968,270,248,43,31,C.ink,true);
-    text(s,'11 / 11',968,333,248,67,50,C.green,true);
+    rect(s,952,224,264,253,C.bg,C.warn,1.5,'dash');
+    text(s,'발표용 예시',968,236,232,26,19,C.warn,true);
+    text(s,'전체 테스트',968,280,232,43,31,C.ink,true);
+    text(s,'9 / 9',968,333,232,67,50,C.green,true);
     text(s,'PASS',968,414,248,39,29,C.green,true);
     arrow(s,526,333,24,23);arrow(s,918,333,24,23);
     text(s,'Prompt 밖의 테스트 지침을 실제 실행에 적용했다',64,565,1152,36,30,C.teal,true);

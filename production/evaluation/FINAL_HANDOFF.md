@@ -1,5 +1,36 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S41 요청·9개 발표용 예시 — DEC-0119 (2026-11-02)
+
+S41 Prompt는 사용자가 제공한 README Test 섹션 생성 요청이며 가운데 작업 지침은
+그대로다. 오른쪽9/9 PASS는 점선·라벨로 구분한 발표용 예시다. 실제 TRIAL-003의
+원문과11/11은 보존했다.120장·417분과 S41 Demo4분을 유지한다.
+
+[수정 S41](../preview/full/S41.png), [통합 PPT](../AI_Dev_Training_Full.pptx),
+[ACT2 PPT](../ACT_2.pptx), [ACT2 Notes](../notes/ACT_2_NOTES.md),
+[현재 검토](S41_PROMPT_EXAMPLE_REVISION.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[사용자 검증](USER_VALIDATION_CHECKLIST.md).
+
+142PNG·19필드 Notes와 가운데 지침 문구/위치/서식/픽셀 보존을 대조했다. 다른119장 화면/Notes,
+5개 ACT PPT와 native 근거를 보존했다. Windows·교육장·제품/계정·실측 리허설은
+UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 같다. 아래 기록은 해당 판본의 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `ea85efeed9118cc11a11a6db9365dd9d79440c6bea1271ff86e4fbffe3facc02` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `551953efd84649cc1404dd516f95226748b9bafe5b121ee585b07d3bc1a5e632` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `96103c384f80f69a308a6dd464280e5a8645c17a02e5498a55e3b23ee014d4d9` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `1faec086cbec84643058fd0933cf8cf68177967d9faf5b0822b7191bb507ae75` |
+| `production/notes/ACT_2_NOTES.md` | `b853cc2abeed26ac72be269dc18a55e83a4bedf8853ca18e2a2661e7f02b412b` |
+| `production/preview/full/montage.png` | `15fa33629c5014e78ee66d7c34b3a91e7b5c57fbfeadf613c9ac19aae9722fea` |
+| `production/preview/full/S41.png` | `754e5d50ebba6d26435d180df6dd438e8a69706b491af14065d98c5de42ce4f4` |
+
+## 보존된 이전 전달 기록
+
 ## S45 공통 안내·작업별 상세 — DEC-0118 (2026-11-02)
 
 S45를 두 작업의 공통 안내와 각각 필요한 상세의 범위 비교로 정리했다.
