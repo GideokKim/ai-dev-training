@@ -13343,3 +13343,92 @@ to review and revise the current candidate under the same completion goal.
 Validate118IDs/403minutes, retained slide allocations, Notes, references
 and final renders; then commit/push normally. Keep Windows, room,
 product-account and timed rehearsal gates unverified.
+
+# DEC-0136 — Replace the long handoff with one task-operation bridge
+
+## Status
+
+ACCEPTED — explicit user approval of the compact ACT3-to-ACT4 proposal.
+
+## Date
+
+2026-11-02
+
+## Context
+
+Current S78-S82 preview first results, human requests, control, handoff
+state and reflection before ACT4 teaches the same-goal execution loop.
+The user wants a short shift of focus from system construction to running
+one task toward its goal, without requiring a causal paradigm evolution.
+
+## Problem
+
+Close the reusable Harness explanation and preserve a useful question
+period, while leaving the Loop lesson and research inside ACT4.
+
+## Decision
+
+Replace old118-edition S78-S82 with one newS78 Transition2minute bridge:
+"준비한 작업 체계로, 한 목표를 끝까지 수행하려면?"
+Its core is connecting the next action and completion judgment of one task.
+Use existing T03-B with a stable Harness base, one task goal, implementation
+and review, plus a dashed remaining-issue revision/re-review relationship.
+Keep detailed state fields, model roles, research and stop branches in ACT4.
+Move oldS82 Q&A5minutes to S77 after its existing Lecture2minutes, using
+the same assembly view. Remove Reflection3 and the four Lecture pages'
+8minutes. Do not fill the question period with a premature Loop lecture.
+Keep prior Section3G/3I and BEAT-073 lineage without inventing IDs.
+Shift oldS83-S118 down4. Use114slides/392minutes with ACT3 19slides/67minutes,
+ACT4 20slides/85minutes and ACT5 16slides/44minutes.
+Use modes Lecture172/Demo44/Case102/Reflection19/Transition23/Q&A32.
+Keep ACT4 content, cases, roles, evidence and budgets unchanged; only align
+its opening cue so no removed three-request/reflection sequence is assumed.
+Remove the old state-handoff tip from currentS111, without adding a new tip.
+
+## Rationale
+
+The system-building and task-operation perspectives can connect directly.
+Loop operation uses the Harness rather than replacing it, and Harness
+failure is not a prerequisite. A single bridge avoids repeating the next
+ACT's explanation. Keeping the broad Harness Q&A before that bridge closes
+current questions before opening the next topic.
+
+## Alternatives
+
+Keep the five-page preview: repeats the upcoming lesson and delays entry.
+Remove all interaction: leaves only two task-specific Q&A minutes in ACT3.
+Keep the old three reflection questions: recreates the same repeated setup.
+
+## Trade-offs
+
+ACT3 loses11minutes and4slides. The early detailed preview and private
+reflection are removed, while the question opportunity and transition
+remain. Actual discussion timing is unverified until rehearsal.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-MATURITY-010,
+INV-LOOP-001, INV-VERIFY-001, INV-RESEARCH-004, INV-SOT-001.
+
+## Affected Artifacts
+
+Current Map/template registry, planning routes, Notes, source adapter,
+affected ACT/full packages, previews, tip indexes and delivery identities.
+Keep the Demo repository, Sites and presenter bundle unchanged.
+
+## Evidence
+
+Explicit user approval; existing BEAT-073/Section3G/3I records; DEC-0023
+and DEC-0097 same-goal scope. No new Trial, executed loop, measurement,
+product operation or automatic-completion observation is introduced.
+
+## Training Relevance
+
+YES — relate a prepared work system to running one goal-directed task,
+without treating them as independent products or guaranteed evolution.
+
+## Follow-up
+
+Validate114IDs/392minutes, Q&A relocation, Mode totals, retained ACT4 budgets,
+Notes and final renders, then commit/push normally. Keep Windows, room,
+product-account and timed rehearsal gates unverified.

@@ -1,5 +1,47 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## ACT3→ACT4 전환 압축 — DEC-0136 (2026-11-02)
+
+현재 **114장·392분(6시간32분)**. 이전 S78–S82의 상세 전환을 새 S78 한 장으로 교체했다.
+S77의 Harness 설명 2분 뒤 Q&A 5분을 운영하고 새 S78의 전환 2분으로 ACT4에 들어간다.
+새 장은 재사용할 Harness 기반 위에서 한 목표의 구현·검토·수정을 이어가는 관계만 보여준다.
+이전의 기록 전달·모델·연구·완료/중단 상세를 미리 설명하거나 Harness의 실패/교체를 전제하지 않는다.
+ACT 장수는 14/23/22/19/20/16, 시간은 42/64/90/67/85/44분이다.
+Mode는 Lecture 172 / Demo 44 / Case 102 / Reflection 19 / Transition 23 / Q&A 32분이다.
+ACT4는 S79–S98의 20장·85분과 기존 화면·근거 범위를 유지한다.
+Native 표 S54·차트 S70/S90, Memory S104, Goal S96/S97, 찾아보기 S111–S113을 사용한다.
+S111에서 삭제한 기록 전달 팁을 제거하고 나머지 8개 위치를 정렬했다.
+[검토 결과](ACT3_COMPACT_HANDOFF.md), [현행 Map](../../plan/SLIDE_MAP.md),
+[번호 대응표](../../plan/SLIDE_ID_MIGRATION_114_DEC0136.md)를 따른다.
+통합/ACT 7개 PPT와 228개 렌더·내장 Notes를 대조했다. 43개 정적 Fallback 경로·해시를 정렬했다.
+Windows·발표 PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않았다.
+이하 이력은 당시 판본이며 이전 번호·검증을 현재판으로 취급하지 않는다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `19b06d43eee595e7cb0f1e3f750990d577bd084098e0cbbde1b39603b2b06fc1` |
+| `production/ACT_0.pptx` | `3e7d0384866ad7c97aa30e37785c28cc61ce94bda4e616562345654fb0d7f290` |
+| `production/ACT_1.pptx` | `d6babb6a40becc1721794fc1de7a8a50e35f9f37ada9d920f216661f0f4e507a` |
+| `production/ACT_2.pptx` | `d40b17899fb8a629bf28510bd47d1a777bbc3bd2243d6ab0a31b2cae3006b173` |
+| `production/ACT_3.pptx` | `d5a031087d09a200cb3156e1e052a7aa3b813c5f63851a5fd87110ee3cbecafa` |
+| `production/ACT_4.pptx` | `3a56adaaad26fc78a578a64c6b13cf5561a7b6ddc8833e2f0cd78aff1c147f56` |
+| `production/ACT_5.pptx` | `bb947f46f2b5a391e93692f36229191a9f7881eb550cded43283c841dd02b56f` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `0e05a26071c03b7e4885376bc32227d6495fd32acc97252653ec19149fe0aff2` |
+| `production/preview/full/montage.png` | `acf8be22e619293ee9f9408c09a26a75f0f533e7051d6a402f4edea828df3289` |
+| `production/preview/act0/montage.png` | `eb37120330c3892db3b31993c8ae3863e9818f6873f08f987a037a95d5bb9cb6` |
+| `production/preview/act1/montage.png` | `a23d9561b294917588e5e0d8241be709c79883b79366b3470f094a17fca705ab` |
+| `production/preview/act2/montage.png` | `d7e66c468274d0aa80b83000ac284535d12b366fd81ebbfef849e713da0112a1` |
+| `production/preview/act3/montage.png` | `205cfcc1685c2aa3b48f96d04ea7112e3bbd504ec7332619e0d781045ce15aaa` |
+| `production/preview/act4/montage.png` | `23b48aace5547efe357c765072ac45f156de8c45e002e3889a3ceea85d59076c` |
+| `production/preview/act5/montage.png` | `0538fc87a1e965ca178546f47644b60488a6afa6dbb60ceaf61bbe2a6bacde22` |
+| `production/preview/full/S77.png` | `c25b451f6b0511ebb55e9f01580fd4f114ea932292d1b4937c6505f920c4b5ef` |
+| `production/preview/full/S78.png` | `1ee771ea9aeec5a2c02280acf1c7aa01b1f03984579b854852db826152659552` |
+| `production/preview/full/S79.png` | `8a9fa9ba26e7600dcfd014bd43e306399177b8db1371197ab9d84c1c60382baa` |
+| `production/preview/full/S80.png` | `66b145087454c2c02aa4325e01876d5946854040ae96f90992e2bc9e10ef1fd5` |
+| `production/preview/full/S111.png` | `64d97ee4628341635f3fed9cba8bb2ed14a7b48e7cf9f6fbba8af2ca57e3de65` |
+
+## 보존된 이전 전달 기록
+
 ## S78 삭제·Harness→Loop 직접 연결 — DEC-0135 (2026-11-02)
 
 현재 **118장·403분(6시간43분)**. 이전 S78의 다음 작업 성공 범위 경고를 삭제했다.

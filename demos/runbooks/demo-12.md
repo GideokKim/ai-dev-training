@@ -1,5 +1,20 @@
 # DEMO-12 — Historical Product evolution reference
 
+## Current114 presentation references — DEC-0136
+
+현재114장·392분. 이전118장판 S78–S82의 설명은 하나의 S78 Transition2분으로 연결한다.
+이전 S82의 Q&A5분은 S77에 보존하여 S77은 Lecture2+Q&A5=7분이다. Lecture8분·Reflection3분만 제외한다.
+이전 S83–S118은 현재 S79–S114로 네 칸 당긴다. Harness 작업 체계와 재사용 설명은 유지한다.
+현재 번호/경로/해시는 [결정 기록](../../plan/DECISIONS.md)의 DEC-0136, [현행 Map](../../plan/SLIDE_MAP.md),
+[간결한 연결 기획](../../plan/ACT3_COMPACT_HANDOFF.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_114_DEC0136.md),
+[FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. 아래 이전 배치·시간·번호·명령은 당시 이력이다.
+
+DEMO-12의 현재 Map 명시 참조: 현행 Map/Notes의 기존 역할 유지; 새 독립 Demo 배정 없음이다. 회수/Case 참조를 모두 Demo 시간으로 세지 않는다.
+
+Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 새 Trial·Demo 저장소·Sites·발표 묶음 변경은 없다.
+
+## Preserved previous operation records
+
 ## Current118 presentation references — DEC-0135
 
 현재118장·403분. 이전119장판 S78을 삭제하고 이전 S79–S119는 현재 S78–S118로 한 칸 당긴다.

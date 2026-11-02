@@ -1,5 +1,27 @@
 # DEMO-08 — Durable Knowledge Decision Visual
 
+## Current114 presentation references — DEC-0136
+
+현재114장·392분. 이전118장판 S78–S82의 설명은 하나의 S78 Transition2분으로 연결한다.
+이전 S82의 Q&A5분은 S77에 보존하여 S77은 Lecture2+Q&A5=7분이다. Lecture8분·Reflection3분만 제외한다.
+이전 S83–S118은 현재 S79–S114로 네 칸 당긴다. Harness 작업 체계와 재사용 설명은 유지한다.
+현재 번호/경로/해시는 [결정 기록](../../plan/DECISIONS.md)의 DEC-0136, [현행 Map](../../plan/SLIDE_MAP.md),
+[간결한 연결 기획](../../plan/ACT3_COMPACT_HANDOFF.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_114_DEC0136.md),
+[FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. 아래 이전 배치·시간·번호·명령은 당시 이력이다.
+
+현재 ACT5 S104 “이번에 알아낸 것 중, 다음에도 쓸 것은?”이 원 Section3F/BEAT-026–028/DEMO-08의 배치다.
+기존 Demo2분(VISUAL)+Case2분=4분을 유지하며 실제 Memory 실행 시간이 아니다.
+C++ 프로젝트의 성능 비교 조건을 확인했다는 가정: “Release 빌드·동일 입력으로 비교”.
+이번 로그·측정값은 날짜가 있는 기록, 재사용할 조건은 출처·적용 범위·갱신 조건과 함께 남긴다.
+다음 작업의 현재 조건과 대조해 Context로 쓴다. S103 결과 수용→S104 지식 재사용→S105 전체 조건 설계로 잇는다.
+S106–S108의 실행 구조 통합/제거와 구분한다. 새 측정·Trial·실제 Memory 저장/회수·자동 기억의 관찰이 아니다.
+기본 정적 파일은 `production/preview/full/S104.png`, `production/preview/act5/S104.png`다.
+삭제한 이전121장판 S67/S76의 본문 확인·출처 감사나 결론을 복구하지 않는다.
+
+Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 새 Trial·Demo 저장소·Sites·발표 묶음 변경은 없다.
+
+## Preserved previous operation records
+
 ## Current118 presentation references — DEC-0135
 
 현재118장·403분. 이전119장판 S78을 삭제하고 이전 S79–S119는 현재 S78–S118로 한 칸 당긴다.

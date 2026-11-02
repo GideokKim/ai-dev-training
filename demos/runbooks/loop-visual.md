@@ -1,5 +1,23 @@
 # Historical supporting runbook — LOOP-VISUAL
 
+## Current114 presentation references — DEC-0136
+
+현재114장·392분. 이전118장판 S78–S82의 설명은 하나의 S78 Transition2분으로 연결한다.
+이전 S82의 Q&A5분은 S77에 보존하여 S77은 Lecture2+Q&A5=7분이다. Lecture8분·Reflection3분만 제외한다.
+이전 S83–S118은 현재 S79–S114로 네 칸 당긴다. Harness 작업 체계와 재사용 설명은 유지한다.
+현재 번호/경로/해시는 [결정 기록](../../plan/DECISIONS.md)의 DEC-0136, [현행 Map](../../plan/SLIDE_MAP.md),
+[간결한 연결 기획](../../plan/ACT3_COMPACT_HANDOFF.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_114_DEC0136.md),
+[FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. 아래 이전 배치·시간·번호·명령은 당시 이력이다.
+
+S77의 Lecture2+Q&A5분 뒤 S78 Transition2분에서 한 목표의 구현→검토→수정 질문으로 연결한다.
+이어서 S79 ACT4 제목과 S80의 반복 구현·검토 설명으로 넘긴다. 기존 Harness 작업 체계는 유지한다.
+새 S78은 교육용 연결 도식이며 실제 새 Trial·반복 실행·성공 결과나 독립 Demo 배정이 아니다.
+Loop 설명의 현재 위치·시간·Mode는 현행 Map을 따르며 별도 Demo 시간을 추가하지 않는다.
+
+Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 새 Trial·Demo 저장소·Sites·발표 묶음 변경은 없다.
+
+## Preserved previous operation records
+
 ## Current118 presentation references — DEC-0135
 
 현재118장·403분. 이전119장판 S78을 삭제하고 이전 S79–S119는 현재 S78–S118로 한 칸 당긴다.

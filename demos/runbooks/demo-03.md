@@ -1,5 +1,23 @@
 # DEMO-03 — Reusable Verification Workflow
 
+## Current114 presentation references — DEC-0136
+
+현재114장·392분. 이전118장판 S78–S82의 설명은 하나의 S78 Transition2분으로 연결한다.
+이전 S82의 Q&A5분은 S77에 보존하여 S77은 Lecture2+Q&A5=7분이다. Lecture8분·Reflection3분만 제외한다.
+이전 S83–S118은 현재 S79–S114로 네 칸 당긴다. Harness 작업 체계와 재사용 설명은 유지한다.
+현재 번호/경로/해시는 [결정 기록](../../plan/DECISIONS.md)의 DEC-0136, [현행 Map](../../plan/SLIDE_MAP.md),
+[간결한 연결 기획](../../plan/ACT3_COMPACT_HANDOFF.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_114_DEC0136.md),
+[FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. 아래 이전 배치·시간·번호·명령은 당시 이력이다.
+
+현재 scheduled Demo는 S65 목록1분→S66 명시 요청2분=3분이다. S67 제작 팁으로 바로 연결한다.
+S68 절차/답, S69 후보, S70 실제 결과의 기존 배정은 같다.
+기본 정적 파일은 `production/preview/full/S65.png`, `production/preview/full/S66.png`다.
+삭제한 지침 본문 포함 확인/상세 대응을 다시 넣지 않고 실제 Prompt를 새로 실행하지 않는다.
+
+Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 새 Trial·Demo 저장소·Sites·발표 묶음 변경은 없다.
+
+## Preserved previous operation records
+
 ## Current118 presentation references — DEC-0135
 
 현재118장·403분. 이전119장판 S78을 삭제하고 이전 S79–S119는 현재 S78–S118로 한 칸 당긴다.

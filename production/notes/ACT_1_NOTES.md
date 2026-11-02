@@ -1,5 +1,12 @@
 # ACT 1 — Speaker Notes
 
+Current: DEC-0136 /114slides/392minutes. ACT1: S15–S37, 23slides/64minutes.19fields per slide. S77 has Lecture2+Harness Q&A5; one S78 bridge keeps Transition2. The former five-page detailed handoff is removed without absorption.
+
+<details>
+<summary>이전 Notes 표지·제작 기준 보존</summary>
+
+# ACT 1 — Speaker Notes
+
 Current: DEC-0135 /118slides/403minutes. ACT1: S15–S37, 23slides/64minutes.19fields per slide. Former119-edition S78 and its2Lecture minutes are deleted without transferring its lesson. Remaining slide allocations are unchanged.
 
 <details>
@@ -115,6 +122,8 @@ Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historic
 
 </details>
 
+</details>
+
 ## S15 — Prompt를 작업 명세로 만들기
 
 **Slide ID:**
@@ -168,7 +177,7 @@ N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S16 — Task에는 무엇이 아직 정해지지 않았을까?로 이어간다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 1 총64분, 전체403분이다. 제목·부제만 안내하고1분에 S16로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 1 총64분, 전체392분이다. 제목·부제만 안내하고1분에 S16로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S15.png 또는 production/ACT_1.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.

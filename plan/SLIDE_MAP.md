@@ -1,36 +1,37 @@
 # Official Slide Map
 
-## 현재 제작 기준 — DEC-0135 (2026-11-02)
+## 현재 제작 기준 — DEC-0136 (2026-11-02)
 
-현재 **118장·403분(6시간43분)**. 이전119장판 S78 “이번 성공만으로 다음 작업까지 확인되지는 않는다”를 삭제한다.
-삭제한 내용은 다른 Slide/활성 Notes에 흡수하지 않고 새 참고 자료도 만들지 않는다. 원본은 Git 이력·기존 원자료에 남는다.
-현재 S77 프로젝트 기준 연결 → S78 첫 결과의 완료 여부 → S79 사람이 잇는 수정으로 바로 이어진다.
-S77의 연결 질문은 “작업 체계를 갖췄다면, 첫 결과가 나왔을 때 바로 끝낼 수 있을까요?”다.
-다음 작업의 일반적 적합성이나 경험 축적을 Loop의 원인으로 삼지 않고, 같은 목표 안의 구현·검토·수정을 이어간다.
-이전 S79–S119는 현재 S78–S118로-1한다. 삭제한 Lecture2분만 제외하며 나머지 장별 시간/Mode·역할·Beat/Section·근거 ID를 유지한다.
-ACT3는23장·78분, ACT4는20장·85분, ACT5는16장·44분이다. 전역 Mode는 Lecture180/Demo44/Case102/Reflection22/Transition23/Q&A32다.
-Native 표 S54, 차트 S70/S94, Memory S108, Goal S100/S101, 마지막 팁 찾아보기 S115–S117을 사용한다.
-S75–S77의 DEC-0134 시각 설계, ACT5 Memory의 원 Section3F·BEAT-026–028·4분과 12Templates/28Variants·19Notes 필드는 유지한다.
-기존 검증 원칙과 실제 관찰의 범위는 기존 Evidence/Claim에서 유지한다. 삭제한 성공 범위 장이나 이전 감사 장을 복구하지 않는다.
-새 Trial·실측·실제 반복/이식·Subagent/Memory 실행·현재 제품 동작 주장은 없다.
-Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 변경하지 않는다.
-[삭제·연결 기획](S78_REMOVAL.md), [번호 이행](SLIDE_ID_MIGRATION_118_DEC0135.md), [현행 Map](SLIDE_MAP.md)을 따른다.
-아래 이전 판본의 번호·시간·연결은 당시 이력이며 현재 지시로 적용하지 않는다.
+현재 **114장·392분(6시간32분)**. 이전118장판 S78–S82의5장·18분을 S77의 Harness Q&A5분과 새 S78의 전환2분으로 정리한다.
+S77은 기존 조립 설명 Lecture2분+Q&A5분=7분이다. 같은 화면에서 Harness 질문을 마무리하고 별도3분 성찰·세 질문 화면은 두지 않는다.
+새 S78 제목은 “준비한 작업 체계로, 한 목표를 끝까지 수행하려면?”, 핵심은 “이제는 한 작업의 다음 행동과 완료 판단을 연결한다.”다.
+재사용할 Harness 기반 안에서 한 작업의 목표·구현·검토와 남은 문제의 수정·재검토 관계만 짧게 보여준다.
+Harness 실패나 교체를 Loop의 필수 원인으로 삼지 않는다. 상세 상태 필드·모델 역할·연구·중단 분기는 ACT4에 남긴다.
+이전 S78–S82의 원 Section3G/3I·BEAT-073은 출처 lineage로 유지한다. 현재 S77의 Q&A는 이전 S82의5분, 새 S78은 기존 전환2분이다.
+이전 Lecture8분과 Reflection3분만 제거하며, ACT4의20장·85분과 기존 사례·연구·근거 범위는 유지한다. ACT4 진입 cue의 이전 세 요청/성찰 선행 전제만 정리한다.
+이전 S83–S118은 현재 S79–S114로-4한다. ACT3는19장·67분, ACT5는16장·44분이다.
+전역 Mode는 Lecture172/Demo44/Case102/Reflection19/Transition23/Q&A32다.
+Native 표 S54, 차트 S70/S90, Memory S104, Goal S96/S97, 마지막 팁 찾아보기 S111–S113, Closing S114다.
+S111은 삭제한 상태 전달 팁을 빼고 S13/S48/S56–S58/S62/S67/S72/S104/S96의8묶음만 안내한다. 전환 장을 새 팁으로 넣지 않는다.
+12Templates/28Variants·19Notes 필드와 남아 있는 장의 ID·Beat/Section·배정·Claim Boundary를 유지한다.
+새 Trial·실측·실제 Loop/Subagent/Memory 실행·자동 목표 달성 주장은 없다. Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다.
+Demo 저장소·Sites·발표 묶음은 변경하지 않는다. [전환 기획](ACT3_COMPACT_HANDOFF.md),
+[번호 이행](SLIDE_ID_MIGRATION_114_DEC0136.md), [현행 Map](SLIDE_MAP.md)을 따른다. 아래 이전 판본은 당시 이력이다.
 
 | ACT | Current slides | Count | Minutes |
 |---|---|---:|---:|
 | ACT 0 | S01–S14 | 14 | 42 |
 | ACT 1 | S15–S37 | 23 | 64 |
 | ACT 2 | S38–S59 | 22 | 90 |
-| ACT 3 | S60–S82 | 23 | 78 |
-| ACT 4 | S83–S102 | 20 | 85 |
-| ACT 5 | S103–S118 | 16 | 44 |
-| Total | S01–S118 | 118 | 403 |
+| ACT 3 | S60–S78 | 19 | 67 |
+| ACT 4 | S79–S98 | 20 | 85 |
+| ACT 5 | S99–S114 | 16 | 44 |
+| Total | S01–S114 | 114 | 392 |
 
 ## 현재 Harness 시각 설계 — DEC-0134 유지
 
-S75의 점선 선택 Subagent는 교육용 확장이고 실제 단일 Agent 근거와 구분한다.
-S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 유지한다.
+S75의 선택 Subagent는 실제 단일 Agent와 구분한다. S76의 공통 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 유지한다.
+S77의 설명을 마친 뒤 같은 화면에서 Harness 질문을 받고 새 S78의 단일 작업 전환으로 넘어간다.
 [Harness 시각 설계](HARNESS_VISUAL_SYSTEM.md)를 따른다.
 
 ### ACT 0 — 14 slides / 42 minutes
@@ -1555,7 +1556,7 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** BEAT-017, BEAT-018, TRANS-005, TRIAL-006, TRIAL-007, CLM-0003, CLM-0005, CLM-0014, CLM-0006, CLM-0029, CLM-0030, DEC-0059, DEC-0060, DEC-0127; OpenAI AGENTS.md / Build skills official guides, checked2026-11-02
 - **Audience Footer:** 역할에 따른 배치 예 · AGENTS.md에도 절차를 둘 수 있음
 
-### ACT 3 — 23 slides / 78 minutes
+### ACT 3 — 19 slides / 67 minutes
 
 #### S60 — AI가 일할 방법과 환경 설계하기
 
@@ -1929,7 +1930,7 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Beginner Payoff:** Harness는 기능을 많이 모으는 일이 아니라 현재 문제에 필요한 구조를 마련하는 일이다.
 - **Advanced Payoff:** 최소 구성은 문제와 검증 요건에 따라 달라진다는 점을 판단 기준으로 삼는다.
 - **C++ Vision Bridge:** N/A — 이전 독립 C++ 전이 장은 DEC-0091에서 삭제했다. 실제 구성 회고와 Harness 재사용 설명으로 연결한다.
-- **Speaker Intent:** 역할 분리 여부를 판단한 앞 장에서 바로 실제 작업 구성의 역할로 넘어온다. 목표·정보·수행 방법·검증 도구의 기존 역할을 회수하고 다음 S75에서 실행 환경과 검토 책임을 연결한다. 지식 보존은 ACT5 S108에서 별도로 다루며 이 장에서 먼저 강의하지 않는다.
+- **Speaker Intent:** 역할 분리 여부를 판단한 앞 장에서 바로 실제 작업 구성의 역할로 넘어온다. 목표·정보·수행 방법·검증 도구의 기존 역할을 회수하고 다음 S75에서 실행 환경과 검토 책임을 연결한다. 지식 보존은 ACT5 S104에서 별도로 다루며 이 장에서 먼저 강의하지 않는다.
 - **Transition:** “이 파일과 도구들이 어떤 관계로 작동하는지 전체 작업 환경으로 묶겠습니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Demo 3분 (CAPTURED) = 3분
@@ -2004,144 +2005,43 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Beginner Payoff:** 방법은 가져오되 프로젝트의 사실과 사용할 명령은 다시 연결한다.
 - **Advanced Payoff:** 재사용 단위와 프로젝트 결합 지점을 나누고 실제 명령·권한·검증 기준을 확인한다.
 - **C++ Vision Bridge:** N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
-- **Speaker Intent:** 앞 장에서 프로젝트 안에 들어간 같은 Harness 모듈을 다시 사용한다. 공통 수행 틀에 새 프로젝트의 목표·명세·실제 명령·허용 조건을 연결하는 조립 관계를 읽는다. 단순한 복사만으로 동작한다는 보장이나 새 실행 성과를 만들지 않는다. 재사용의 가치와 프로젝트 조건의 연결을 닫고 다음 S78에서 첫 결과를 바로 완료로 볼 수 있는지 묻는다.
-- **Transition:** “작업 체계를 갖췄다면, 첫 결과가 나왔을 때 바로 끝낼 수 있을까요?” 현재 S78의 첫 결과/완료 기준 질문으로 이어간다.
-- **Estimated Time:** 2분
-- **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001, DEC-0134, DEC-0135
+- **Speaker Intent:** 앞 장과 같은 Harness 모듈에 프로젝트의 목표·명세·실제 명령·허용 조건을 연결하는 조립 관계를 기존2분에 설명한다. 이어서 같은 화면에서 Harness에 관해 남은 질문을5분 받는다. 이전의 검토/수정/완료 세 성찰 질문이나 Loop의 상세를 미리 강의하지 않는다. 질문을 정리한 뒤 새 S78에서 준비한 기반으로 한 작업을 끝까지 수행하는 관점으로 전환한다.
+- **Transition:** Harness에 대한 Q&A를 마친 뒤 “준비한 작업 체계로, 한 목표를 끝까지 수행하려면 무엇을 연결해야 할까요?”라고 새 S78로 넘긴다.
+- **Estimated Time:** 7분
+- **Delivery Mode Allocation:** Lecture 2분 + Q&A 5분 = 7분
+- **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001, DEC-0134, DEC-0135, DEC-0136; Q&A operation lineage: previous118 S82 / Section3I / BEAT-073
 - **Audience Footer:** 프로젝트 적용 예시
 
-#### S78 — 첫 결과 뒤에도, 확인할 일이 남는다면?
+#### S78 — 준비한 작업 체계로, 한 목표를 끝까지 수행하려면?
 
 - **Slide ID:** S78
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 첫 결과 뒤에도, 확인할 일이 남는다면?
-- **Primary Role:** 첫 결과가 나와도 완료 기준의 미충족 항목이 남을 수 있다는 가상 상황을 연다.
-- **Audience Question:** 첫 결과 뒤에 무엇이 아직 남았는지는 누가 확인할까?
-- **Core Message:** 첫 결과가 나와도 완료 기준의 미충족 항목이 남을 수 있다는 가상 상황을 연다.
-- **Story Beat:** BEAT-073
-- **Curriculum Trace:** ACT 3 closing: working Harness → human task correction → no durable feedback → evidence and ownership questions → ACT4. No observed Product Loop. Existing Section/Beat IDs and per-page allocation remain.
-- **Evidence Type:** CONCEPTUAL
-- **Claim Status:** CONCEPTUAL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
-- **Visual Concept:** 수행 방법→첫 변경 결과→완료 기준 질문의 도식.
-- **Demo / Case Connection:** 실제 성공 이후의 별도 교육용 상황. 새 실패·수정·반복·시간·토큰 관찰 없음.
-- **Beginner Payoff:** 첫 결과가 나와도 완료 기준의 미충족 항목이 남을 수 있다는 가상 상황을 연다.
-- **Advanced Payoff:** 목표의 상태와 수행 방법을 구분하고 다음 행동 판단을 연결한다. 별도 Memory나 완전자율 기능은 요구하지 않는다.
-- **C++ Vision Bridge:** N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
-- **Speaker Intent:** 첫 결과가 나와도 완료 기준의 미충족 항목이 남을 수 있다는 가상 상황을 연다.
-- **Transition:** 첫 변경 결과를 사람이 검토하고 수정 요청으로 잇는 S79로 넘긴다.
-- **Estimated Time:** 2분
-- **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001; DEC-0135
-- **Audience Footer:** 가상 상황
-
-#### S79 — 남은 문제를 다음 수정으로 이어주는 사람
-
-- **Slide ID:** S79
-- **ACT:** ACT 3
-- **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 남은 문제를 다음 수정으로 이어주는 사람
-- **Primary Role:** 같은 목표 안에서 검토·수정·재확인을 사람이 매번 다시 요청하는 상황을 설명한다.
-- **Audience Question:** 같은 목표인데 왜 다음 단계는 다시 요청해야 할까?
-- **Core Message:** 같은 목표 안에서 검토·수정·재확인을 사람이 매번 다시 요청하는 상황을 설명한다.
-- **Story Beat:** BEAT-073
-- **Curriculum Trace:** ACT 3 closing: working Harness → human task correction → no durable feedback → evidence and ownership questions → ACT4. No observed Product Loop. Existing Section/Beat IDs and per-page allocation remain.
-- **Evidence Type:** CONCEPTUAL
-- **Claim Status:** CONCEPTUAL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
-- **Visual Concept:** 검토해 줘→지적을 고쳐 줘→다시 확인해 줘의 세 요청.
-- **Demo / Case Connection:** 실제 성공 이후의 별도 교육용 상황. 새 실패·수정·반복·시간·토큰 관찰 없음.
-- **Beginner Payoff:** 같은 목표 안에서 검토·수정·재확인을 사람이 매번 다시 요청하는 상황을 설명한다.
-- **Advanced Payoff:** 목표의 상태와 수행 방법을 구분하고 다음 행동 판단을 연결한다. 별도 Memory나 완전자율 기능은 요구하지 않는다.
-- **C++ Vision Bridge:** N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
-- **Speaker Intent:** 같은 목표 안에서 검토·수정·재확인을 사람이 매번 다시 요청하는 상황을 설명한다.
-- **Transition:** 이 연결에서 수행 방법과 다음 행동 판단을 구분하는 S80로 넘긴다.
-- **Estimated Time:** 2분
-- **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
-- **Audience Footer:** 가상 상황
-
-#### S80 — 같은 목표의 수정과 검토가 끊기지 않게
-
-- **Slide ID:** S80
-- **ACT:** ACT 3
-- **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 같은 목표의 수정과 검토가 끊기지 않게
-- **Primary Role:** Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정으로 돌리는 제어가 필요하다.
-- **Audience Question:** 어떻게 일할지와 다음에 무엇을 고칠지는 같은 질문일까?
-- **Core Message:** Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정으로 돌리는 제어가 필요하다.
-- **Story Beat:** BEAT-073
-- **Curriculum Trace:** ACT 3 closing: working Harness → human task correction → no durable feedback → evidence and ownership questions → ACT4. No observed Product Loop. Existing Section/Beat IDs and per-page allocation remain.
-- **Evidence Type:** CONCEPTUAL
-- **Claim Status:** CONCEPTUAL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
-- **Visual Concept:** 방법·검증 도구와 남은 문제·다음 수정 판단을 구분한 관계 도식.
-- **Demo / Case Connection:** 실제 성공 이후의 별도 교육용 상황. 새 실패·수정·반복·시간·토큰 관찰 없음.
-- **Beginner Payoff:** Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정으로 돌리는 제어가 필요하다.
-- **Advanced Payoff:** 목표의 상태와 수행 방법을 구분하고 다음 행동 판단을 연결한다. 별도 Memory나 완전자율 기능은 요구하지 않는다.
-- **C++ Vision Bridge:** N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
-- **Speaker Intent:** Harness의 수행 방법·도구를 활용하며 검토 지적을 다음 수정으로 돌리는 제어가 필요하다.
-- **Transition:** 같은 목표의 다음 수정이 이어받을 상태를 S81에서 살펴본다.
-- **Estimated Time:** 2분
-- **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
-- **Audience Footer:** 반복 운영 설계
-
-#### S81 — 다음 수정에 넘길 기록
-
-- **Slide ID:** S81
-- **ACT:** ACT 3
-- **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 다음 수정에 넘길 기록
-- **Primary Role:** 목표·완료 기준, 현재 변경·검사 기록, 남은 검토 지적을 다음 수정에 전달한다.
-- **Audience Question:** 다음 수정이 무엇을 이어받아야 할까?
-- **Core Message:** 목표·완료 기준, 현재 변경·검사 기록, 남은 검토 지적을 다음 수정에 전달한다.
-- **Story Beat:** BEAT-073
-- **Curriculum Trace:** ACT 3 closing: working Harness → human task correction → no durable feedback → evidence and ownership questions → ACT4. No observed Product Loop. Existing Section/Beat IDs and per-page allocation remain.
+- **Working Title:** 준비한 작업 체계로, 한 목표를 끝까지 수행하려면?
+- **Primary Role:** Harness라는 준비된 기반에서 한 작업의 목표를 향한 다음 행동과 완료 판단으로 설명의 초점을 짧게 옮긴다.
+- **Audience Question:** 준비한 작업 체계 안에서, 한 작업의 다음 행동과 완료 판단은 어떻게 연결할까?
+- **Core Message:** 이제는 한 작업의 다음 행동과 완료 판단을 연결한다.
+- **Story Beat:** BEAT-073 — 같은 목표의 수행 Loop로 전환
+- **Curriculum Trace:** ACT3의 기반 구성·재사용을 마친 뒤 ACT4의 단일 목표 수행으로 전환한다. 기존 Section3G와 BEAT-073을 사용한다. 이전118장판 S78–S82의 lineage이며 이전 S82의 Q&A5분은 S77로 이동하고 Reflection3분은 제거한다.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING_MODEL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
-- **Visual Concept:** 세 기록 행→다음 수정의 연결.
-- **Demo / Case Connection:** 실제 성공 이후의 별도 교육용 상황. 새 실패·수정·반복·시간·토큰 관찰 없음.
-- **Beginner Payoff:** 목표·완료 기준, 현재 변경·검사 기록, 남은 검토 지적을 다음 수정에 전달한다.
-- **Advanced Payoff:** 목표의 상태와 수행 방법을 구분하고 다음 행동 판단을 연결한다. 별도 Memory나 완전자율 기능은 요구하지 않는다.
-- **C++ Vision Bridge:** N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
-- **Speaker Intent:** 목표·완료 기준, 현재 변경·검사 기록, 남은 검토 지적을 다음 수정에 전달한다.
-- **Transition:** S82에서 내가 계속 이어 주는 다음 요청 하나를 떠올리게 한다.
+- **Claim Status:** TEACHING MODEL — 준비된 Harness 안에서 한 목표의 작업을 반복 운영하는 관점을 연결한다. 실제 수행·반복·목표 달성·효과를 관찰한 결과가 아니며 Harness의 실패나 교체가 Loop의 필수 전제라고 주장하지 않는다.
+- **Visual Concept:** 기존 T03-B의 관계도. 아래 안정된 Harness 기반에 지침·Skill·도구·실행 환경을 짧게 배치하고, 그 기반을 사용하는 한 작업의 고정 목표와 구현→검토를 위에 표시한다. 남은 문제가 있을 때 수정·재검토로 돌아가는 점선만 더한다. 상세 상태 필드·구현/검토 모델 역할·논문·완료/중단 분기는 다음 ACT에서 설명한다. 성공 체크·자동 진행 UI·수치·계단식 대체 관계는 넣지 않는다.
+- **Demo / Case Connection:** N/A — Transition2분의 교육용 관계도이며 새 Demo/Trial/실행·반복 관찰이 아니다. 기존 실제 성공과 별개의 설명 모델이다.
+- **Beginner Payoff:** 일할 기반을 갖추는 것과 그 기반으로 한 목표를 끝까지 수행하도록 연결하는 관점을 구분한다.
+- **Advanced Payoff:** Loop는 Harness의 지침·수행 방법·도구·환경을 활용한다. 두 관점을 배타적인 제품이나 필수 성숙 단계로 구분하지 않는다.
+- **C++ Vision Bridge:** N/A — 새 구현 사례나 제품/언어별 조건은 추가하지 않는다.
+- **Speaker Intent:** S77의 Harness Q&A 뒤 한 작업의 목표·구현·검토와 남은 문제의 수정 관계만2분에 짚는다. 같은 기반을 사용하며 초점이 작업 운영으로 옮겨졌음을 설명한다. 사람의 세 요청, 상태 전달 필드, 검토 모델, 연구, 중단 조건을 미리 소진하지 않고 S79의 ACT 제목과 S80의 기존 교육용 사례로 바로 넘긴다.
+- **Transition:** “이제 같은 목표의 다음 행동과 완료 판단을 어떻게 이어갈지 보겠습니다.” S79의 ACT4 제목을 거쳐 S80의 사람과 다음 수정 사례로 들어간다.
 - **Estimated Time:** 2분
-- **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
-- **Practical Tip Classification:** 수행 방법
-- **Audience Footer:** 다음 수정에 필요한 상태만 전달
-
-#### S82 — 내가 매번 이어 주는 다음 단계는 무엇일까?
-
-- **Slide ID:** S82
-- **ACT:** ACT 3
-- **Section:** 3I Discussion / Reflection / Transition
-- **Working Title:** 내가 매번 이어 주는 다음 단계는 무엇일까?
-- **Primary Role:** 내 업무의 검토·수정·완료 판단 중 반복해서 연결하는 요청을 생각하고 ACT4 수행 루프로 넘긴다.
-- **Audience Question:** 내가 매번 이어 주는 검토·수정·확인 요청은 무엇일까?
-- **Core Message:** 내 업무의 검토·수정·완료 판단 중 반복해서 연결하는 요청을 생각하고 ACT4 수행 루프로 넘긴다.
-- **Story Beat:** BEAT-073
-- **Curriculum Trace:** ACT 3 closing: working Harness → human task correction → no durable feedback → evidence and ownership questions → ACT4. No observed Product Loop. Existing Section/Beat IDs and per-page allocation remain.
-- **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING_MODEL — 실제 반복 이력·제품 기능·새 성과 없음. 같은 목표 안의 수행 루프 진입을 위한 설명 모델.
-- **Visual Concept:** 검토/수정/완료의 세 질문과 ACT4 진입 문장.
-- **Demo / Case Connection:** 실제 성공 이후의 별도 교육용 상황. 새 실패·수정·반복·시간·토큰 관찰 없음.
-- **Beginner Payoff:** 내 업무의 검토·수정·완료 판단 중 반복해서 연결하는 요청을 생각하고 ACT4 수행 루프로 넘긴다.
-- **Advanced Payoff:** 목표의 상태와 수행 방법을 구분하고 다음 행동 판단을 연결한다. 별도 Memory나 완전자율 기능은 요구하지 않는다.
-- **C++ Vision Bridge:** N/A — 일반적인 업무 보정·근거·개선의 질문이다. 기존 다른 C++ 사례는 유지한다.
-- **Speaker Intent:** 내 업무의 검토·수정·완료 판단 중 반복해서 연결하는 요청을 생각하고 ACT4 수행 루프로 넘긴다.
-- **Transition:** S83의 목표 기반 실행·검토 시스템 제목을 거쳐 S84의 사람의 연결 문제로 이어간다.
-- **Estimated Time:** 10분
-- **Delivery Mode Allocation:** Reflection 3분 + Q&A 5분 + Transition 2분 = 10분
-- **Evidence / Decision References:** BEAT-073; DEC-0097; INV-LOOP-001; INV-VERIFY-001
-- **Audience Footer:** 개인 성찰 · 공유는 선택
+- **Delivery Mode Allocation:** Transition 2분 = 2분
+- **Evidence / Decision References:** DEC-0136; DEC-0023; BEAT-073; INV-LOOP-001; INV-VERIFY-001. Source slide lineage: previous118 S78/S79/S80/S81/S82; prior Section3G/3I operation records retained in history.
+- **Audience Footer:** 없음 — M 연계 표시는 유지
 
 ### ACT 4 — 20 slides / 85 minutes
 
-#### S83 — 목표를 이룰 때까지 수정하고 검토하기
+#### S79 — 목표를 이룰 때까지 수정하고 검토하기
 
-- **Slide ID:** S83
+- **Slide ID:** S79
 - **ACT:** ACT 4
 - **Section:** 4R1 Goal-loop entry
 - **Working Title:** 목표를 이룰 때까지 수정하고 검토하기
@@ -2166,9 +2066,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **ACT Display Title:** 목표를 이룰 때까지 / 수정하고 검토하기
 - **Audience Footer:** 기존 ACT 제목 표기 유지
 
-#### S84 — 다음 수정도 사람이 매번 이어줘야 할까?
+#### S80 — 다음 수정도 사람이 매번 이어줘야 할까?
 
-- **Slide ID:** S84
+- **Slide ID:** S80
 - **ACT:** ACT 4
 - **Section:** 4R1 Goal-loop entry
 - **Working Title:** 다음 수정도 사람이 매번 이어줘야 할까?
@@ -2179,21 +2079,21 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Curriculum Trace:** ACT 4 / 4R1 Goal-loop entry → ACT5의 조합·통합·제거
 - **Evidence Type:** CONCEPTUAL
 - **Claim Status:** CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-- **Visual Concept:** ACT3에서 사람이 이어 주던 요청을, 남은 지적·근거·현재 후보라는 다음 수정 입력으로 바꾸는 두 영역 도식.
+- **Visual Concept:** 이 장에서 처음 여는 교육용 상황으로, 같은 목표에서 사람이 다음 검토·수정을 요청하는 관계를 남은 지적·근거·현재 후보라는 다음 수정 입력으로 연결하는 두 영역 도식. ACT3에서 세 요청 화면이나 성찰 질문을 이미 봤다고 전제하지 않는다.
 - **Demo / Case Connection:** CASE-LOOP-01 — 교육용 설계 / 실제 다중 모델 실행·측정 없음
 - **Beginner Payoff:** 한 목표를 마치는 동안 사람이 검토·수정·재확인의 다음 요청을 계속 연결하는 문제를 드러낸다.
 - **Advanced Payoff:** Harness와 Loop를 배타적인 제품 단계로 구분하지 않는다. 여기서는 반복의 상태·피드백·다음 행동 제어라는 추가 설계 책임을 드러낸다.
 - **C++ Vision Bridge:** N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
-- **Speaker Intent:** 한 목표를 마치는 동안 사람이 검토·수정·재확인의 다음 요청을 계속 연결하는 문제를 드러낸다.
+- **Speaker Intent:** S78의 한 목표를 끝까지 수행하는 질문과 S79의 ACT 제목을 받아, 같은 목표에서 다음 검토·수정을 사람이 연결하는 기존 교육용 사례를 연다. 앞에서 세 요청/성찰을 이미 제시했다고 말하지 않는다. 기존 두 영역을 읽고 S81의 완료 기준으로 넘긴다. 사례 내용과4분 배정은 유지한다.
 - **Transition:** 다음은 먼저, 무엇이 되면 완료인지 정한다의 질문으로 이어간다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0097; BEAT-073; CASE-LOOP-01; CLM-0021
 - **Audience Footer:** 가상 진행 예시
 
-#### S85 — 먼저, 무엇이 되면 완료인지 정한다
+#### S81 — 먼저, 무엇이 되면 완료인지 정한다
 
-- **Slide ID:** S85
+- **Slide ID:** S81
 - **ACT:** ACT 4
 - **Section:** 4R2 One-goal walkthrough
 - **Working Title:** 먼저, 무엇이 되면 완료인지 정한다
@@ -2216,9 +2116,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-074; CASE-LOOP-01; existing six-field specification in DEMO_MATRIX
 - **Audience Footer:** 가상 진행 예시 · 완료 기준은 실행 전에 정한다
 
-#### S86 — 모델 A가 첫 변경 후보를 만든다
+#### S82 — 모델 A가 첫 변경 후보를 만든다
 
-- **Slide ID:** S86
+- **Slide ID:** S82
 - **ACT:** ACT 4
 - **Section:** 4R2 One-goal walkthrough
 - **Working Title:** 모델 A가 첫 변경 후보를 만든다
@@ -2241,9 +2141,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-075; CASE-LOOP-01; CLM-0021
 - **Audience Footer:** 가상 진행 예시
 
-#### S87 — 실제 동작과 비용은 도구로 확인한다
+#### S83 — 실제 동작과 비용은 도구로 확인한다
 
-- **Slide ID:** S87
+- **Slide ID:** S83
 - **ACT:** ACT 4
 - **Section:** 4R2 One-goal walkthrough
 - **Working Title:** 실제 동작과 비용은 도구로 확인한다
@@ -2266,9 +2166,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-075; CASE-LOOP-01; CLM-0021
 - **Audience Footer:** 가상 진행 예시
 
-#### S88 — 모델 B는 무엇을 근거로 검토할까?
+#### S84 — 모델 B는 무엇을 근거로 검토할까?
 
-- **Slide ID:** S88
+- **Slide ID:** S84
 - **ACT:** ACT 4
 - **Section:** 4R2 One-goal walkthrough
 - **Working Title:** 모델 B는 무엇을 근거로 검토할까?
@@ -2291,9 +2191,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-076; CASE-LOOP-01; CLM-0021
 - **Audience Footer:** 가상 진행 예시
 
-#### S89 — 지적이 다음 수정으로 이어진다
+#### S85 — 지적이 다음 수정으로 이어진다
 
-- **Slide ID:** S89
+- **Slide ID:** S85
 - **ACT:** ACT 4
 - **Section:** 4R2 One-goal walkthrough
 - **Working Title:** 지적이 다음 수정으로 이어진다
@@ -2316,9 +2216,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-077; CASE-LOOP-01; CLM-0021
 - **Audience Footer:** 가상 진행 예시
 
-#### S90 — 고쳤다면, 같은 기준으로 다시 본다
+#### S86 — 고쳤다면, 같은 기준으로 다시 본다
 
-- **Slide ID:** S90
+- **Slide ID:** S86
 - **ACT:** ACT 4
 - **Section:** 4R2 One-goal walkthrough
 - **Working Title:** 고쳤다면, 같은 기준으로 다시 본다
@@ -2341,9 +2241,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-078; CASE-LOOP-01; CLM-0021
 - **Audience Footer:** 가상 진행 예시
 
-#### S91 — 같은 목표의 구현·검토 루프
+#### S87 — 같은 목표의 구현·검토 루프
 
-- **Slide ID:** S91
+- **Slide ID:** S87
 - **ACT:** ACT 4
 - **Section:** 4R3 Feedback and control
 - **Working Title:** 같은 목표의 구현·검토 루프
@@ -2366,9 +2266,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-079; CASE-LOOP-01; CLM-0021
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S92 — 언제 계속하고, 언제 끝낼까?
+#### S88 — 언제 계속하고, 언제 끝낼까?
 
-- **Slide ID:** S92
+- **Slide ID:** S88
 - **ACT:** ACT 4
 - **Section:** 4R3 Feedback and control
 - **Working Title:** 언제 계속하고, 언제 끝낼까?
@@ -2391,9 +2291,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-079; CASE-LOOP-01; CLM-0021
 - **Audience Footer:** 목표 미달 중단은 완료와 다름 · 반복·시간·비용 한도는 미리 정한다
 
-#### S93 — 구현한 모델에게 다시 물으면 충분할까?
+#### S89 — 구현한 모델에게 다시 물으면 충분할까?
 
-- **Slide ID:** S93
+- **Slide ID:** S89
 - **ACT:** ACT 4
 - **Section:** 4R4 Research and model choice
 - **Working Title:** 구현한 모델에게 다시 물으면 충분할까?
@@ -2416,9 +2316,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-080; SRC-0223; SRC-0239; CLM-0045
 - **Audience Footer:** Self-Refine(2023) / Huang et al.(2024) / 과제·모델 조건이 서로 다른 연구 결과
 
-#### S94 — 다른 모델의 관점이 도움이 된 실험
+#### S90 — 다른 모델의 관점이 도움이 된 실험
 
-- **Slide ID:** S94
+- **Slide ID:** S90
 - **ACT:** ACT 4
 - **Section:** 4R4 Research and model choice
 - **Working Title:** 다른 모델의 관점이 도움이 된 실험
@@ -2441,9 +2341,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-081; SRC-0237; CLM-0043; ReConcile Table 7
 - **Audience Footer:** ReConcile(2024) · StrategyQA 질의응답 실험
 
-#### S95 — 잘 만드는 능력과 잘 검토하는 능력
+#### S91 — 잘 만드는 능력과 잘 검토하는 능력
 
-- **Slide ID:** S95
+- **Slide ID:** S91
 - **ACT:** ACT 4
 - **Section:** 4R4 Research and model choice
 - **Working Title:** 잘 만드는 능력과 잘 검토하는 능력
@@ -2466,9 +2366,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-081; SRC-0238; CLM-0044; CriticBench section 4.2.5
 - **Audience Footer:** CriticBench(2024) · 생성·검토 능력 평가 / 연구에 포함된 모델·과제 범위의 결과
 
-#### S96 — 구현과 검토에 모델을 어떻게 나눌까?
+#### S92 — 구현과 검토에 모델을 어떻게 나눌까?
 
-- **Slide ID:** S96
+- **Slide ID:** S92
 - **ACT:** ACT 4
 - **Section:** 4R5 Engineering the loop
 - **Working Title:** 구현과 검토에 모델을 어떻게 나눌까?
@@ -2491,9 +2391,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-082; CLM-0043; CLM-0044; CASE-LOOP-01
 - **Audience Footer:** 역할 배치 예시 · 실제 조합의 효과는 별도 평가
 
-#### S97 — 검토 모델의 말도 확인해야 한다
+#### S93 — 검토 모델의 말도 확인해야 한다
 
-- **Slide ID:** S97
+- **Slide ID:** S93
 - **ACT:** ACT 4
 - **Section:** 4R5 Engineering the loop
 - **Working Title:** 검토 모델의 말도 확인해야 한다
@@ -2516,9 +2416,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-082; CASE-LOOP-01; CLM-0021
 - **Audience Footer:** 모델 동의·다수결만으로 완료하지 않는다
 
-#### S98 — 반복하려면 무엇을 이어받아야 할까?
+#### S94 — 반복하려면 무엇을 이어받아야 할까?
 
-- **Slide ID:** S98
+- **Slide ID:** S94
 - **ACT:** ACT 4
 - **Section:** 4R5 Engineering the loop
 - **Working Title:** 반복하려면 무엇을 이어받아야 할까?
@@ -2541,9 +2441,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-082; CASE-LOOP-01; CLM-0021
 - **Audience Footer:** 별도 프레임워크가 필수인 것은 아니다
 
-#### S99 — 확인한 근거와 아직 실행하지 않은 설계
+#### S95 — 확인한 근거와 아직 실행하지 않은 설계
 
-- **Slide ID:** S99
+- **Slide ID:** S95
 - **ACT:** ACT 4
 - **Section:** 4R6 Evidence and transfer
 - **Working Title:** 확인한 근거와 아직 실행하지 않은 설계
@@ -2566,9 +2466,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0097; BEAT-083; STATE-04-PERF; TRIAL-008; SRC-0237; SRC-0238; CASE-LOOP-01
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S100 — Goal이 목표와 다음 작업을 이어준다
+#### S96 — Goal이 목표와 다음 작업을 이어준다
 
-- **Slide ID:** S100
+- **Slide ID:** S96
 - **ACT:** ACT 4
 - **Section:** 4T1 Goal continuation
 - **Working Title:** Goal이 목표와 다음 작업을 이어준다
@@ -2591,9 +2491,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** SRC-0240; SRC-0241; SRC-0242; CLM-0046; DEC-0098
 - **Audience Footer:** 사용 예시 · 다른 모델의 검토 역할은 별도 설계
 
-#### S101 — Goal에는 완료 근거와 멈출 조건을 담는다
+#### S97 — Goal에는 완료 근거와 멈출 조건을 담는다
 
-- **Slide ID:** S101
+- **Slide ID:** S97
 - **ACT:** ACT 4
 - **Section:** 4T2 Goal request
 - **Working Title:** Goal에는 완료 근거와 멈출 조건을 담는다
@@ -2610,15 +2510,15 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Advanced Payoff:** 측정값 자체보다 어떤 기준판·대표 입력·환경·측정 방법을 고정할지가 중요하다. 검토 모델의 동의나 Goal의 완료 표시가 도구 근거와 최종 수용을 대신하지 않는다.
 - **C++ Vision Bridge:** N/A — 새 C++ 실행 예시 없음.
 - **Speaker Intent:** 기능이 맡는 역할과 사용자가 설계할 기준·검토를 구분한다. 실제 기능 사용 성공이나 자동 모델 조합으로 말하지 않는다.
-- **Transition:** 이 기능을 활용하더라도 우리 작업의 목표·검증·검토 판단은 남습니다. S102에서 필요한 루프를 정리한 뒤 ACT5의 조합과 덜어내기로 넘어갑니다.
+- **Transition:** 이 기능을 활용하더라도 우리 작업의 목표·검증·검토 판단은 남습니다. S98에서 필요한 루프를 정리한 뒤 ACT5의 조합과 덜어내기로 넘어갑니다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** SRC-0240; SRC-0241; CLM-0047; DEC-0098
 - **Audience Footer:** 요청 예시 · 완료 기준과 중단 조건은 직접 지정
 
-#### S102 — 우리 작업에는 어떤 루프가 필요할까?
+#### S98 — 우리 작업에는 어떤 루프가 필요할까?
 
-- **Slide ID:** S102
+- **Slide ID:** S98
 - **ACT:** ACT 4
 - **Section:** 4R6 Evidence and transfer
 - **Working Title:** 우리 작업에는 어떤 루프가 필요할까?
@@ -2635,7 +2535,7 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Advanced Payoff:** ACT5에서 현재 문제와 비용·효과를 보고 필요한 구성을 유지·통합·제거할 수 있게 한다.
 - **C++ Vision Bridge:** N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
 - **Speaker Intent:** 내 업무의 목표·피드백·운영 판단을 떠올리고 ACT5의 조합·통합·제거로 이어간다.
-- **Transition:** Goal의 계속 수행을 활용해도 검증과 역할을 모두 직접 구현할 필요는 없습니다. S103의 ACT5 제목을 거쳐 S104에서 필요한 대응의 조합을 생각합니다.
+- **Transition:** Goal의 계속 수행을 활용해도 검증과 역할을 모두 직접 구현할 필요는 없습니다. S99의 ACT5 제목을 거쳐 S100에서 필요한 대응의 조합을 생각합니다.
 - **Estimated Time:** 11분
 - **Delivery Mode Allocation:** Reflection 2분 + Q&A 7분 + Transition 2분 = 11분
 - **Evidence / Decision References:** DEC-0097; BEAT-083; CASE-LOOP-01; CLM-0021
@@ -2643,9 +2543,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 
 ### ACT 5 — 16 slides / 44 minutes
 
-#### S103 — 내 업무에 맞게 조합하고 덜어내기
+#### S99 — 내 업무에 맞게 조합하고 덜어내기
 
-- **Slide ID:** S103
+- **Slide ID:** S99
 - **ACT:** ACT 5
 - **Section:** 5A Full Story Recap
 - **Working Title:** 내 업무에 맞게 조합하고 덜어내기
@@ -2662,16 +2562,16 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Advanced Payoff:** 해당 ACT가 다루는 설계 책임의 범위를 짧게 확인한다.
 - **C++ Vision Bridge:** N/A — 기존 본문에 있는 C++ 연결을 유지한다.
 - **Speaker Intent:** 승인된 제목·부제를 가리키며 ACT의 방향만 안내한다. 용어 정의·모든 도구의 도입·성과 예고로 확장하지 않고 기존 첫 문제를 연다.
-- **Transition:** S104에서 질문·답변에서 기준에 따른 작업으로 맡기는 범위가 넓어졌음을 회수한다.
+- **Transition:** S100에서 질문·답변에서 기준에 따른 작업으로 맡기는 범위가 넓어졌음을 회수한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Transition 1분 = 1분
 - **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
 - **ACT Subtitle:** AI-Native Development · 업무 방식의 재설계
 - **Audience Footer:** 기존 ACT 제목 표기 유지
 
-#### S104 — AI에게 맡기는 범위가 넓어졌다
+#### S100 — AI에게 맡기는 범위가 넓어졌다
 
-- **Slide ID:** S104
+- **Slide ID:** S100
 - **ACT:** ACT 5
 - **Section:** 5A Full Story Recap
 - **Working Title:** AI에게 맡기는 범위가 넓어졌다
@@ -2681,12 +2581,12 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Story Beat:** BEAT-060
 - **Curriculum Trace:** ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S113/S114에 남긴다.
+- **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S109/S110에 남긴다.
 - **Visual Concept:** 다섯 단계와 질문·목표/제약·정보/명세·수행 환경·검토/수정의 범위를 순서대로 표시한다. 개인 문제나 도구 선택 메뉴를 만들지 않는다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
 - **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
-- **Advanced Payoff:** 개념의 범위 확대와 모든 구성요소의 도입 의무를 구분한다. 개인 문제 선택과 다음 행동은 S114/S115에서만 진행한다.
-- **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S114/S115에 남긴다.
+- **Advanced Payoff:** 개념의 범위 확대와 모든 구성요소의 도입 의무를 구분한다. 개인 문제 선택과 다음 행동은 S110/S111에서만 진행한다.
+- **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S110/S111에 남긴다.
 - **Speaker Intent:** 전체 관점과 연결을 설명한다. 청중에게 개인 문제·구성요소·다음 행동을 선택시키지 않는다.
 - **Transition:** 그 범위가 실제 작업 흐름에서는 어떻게 연결될까요? 다음은 저장소 이력을 몰라도 읽을 수 있는 작업 구조입니다.
 - **Estimated Time:** 4분
@@ -2694,9 +2594,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S105 — 작업은 요청부터 검토·수정까지 이어진다
+#### S101 — 작업은 요청부터 검토·수정까지 이어진다
 
-- **Slide ID:** S105
+- **Slide ID:** S101
 - **ACT:** ACT 5
 - **Section:** 5A End-to-end Work Structure
 - **Working Title:** 작업은 요청부터 검토·수정까지 이어진다
@@ -2706,12 +2606,12 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Story Beat:** BEAT-060
 - **Curriculum Trace:** ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S113/S114에 남긴다.
+- **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S109/S110에 남긴다.
 - **Visual Concept:** 요청→조사→변경→확인→판단의 다섯 노드를 연결한다. 판단에서 남은 지적·근거를 변경으로 되돌린다. 완료·수정·미충족 중단을 구분한다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
 - **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
 - **Advanced Payoff:** 여기서 보여 주는 것은 작업·피드백의 관계다. 특정 제품의 자동 실행 경로나 다중 모델 배정·반복 성과를 주장하지 않는다.
-- **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S114/S115에 남긴다.
+- **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S110/S111에 남긴다.
 - **Speaker Intent:** 전체 관점과 연결을 설명한다. 청중에게 개인 문제·구성요소·다음 행동을 선택시키지 않는다.
 - **Transition:** 이 흐름이 이어지려면 Agent가 무엇을 참고하고 어떤 방법과 도구를 사용할 수 있어야 할까요?
 - **Estimated Time:** 3분
@@ -2719,9 +2619,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S106 — 작업 흐름에는 정보·절차·도구가 연결된다
+#### S102 — 작업 흐름에는 정보·절차·도구가 연결된다
 
-- **Slide ID:** S106
+- **Slide ID:** S102
 - **ACT:** ACT 5
 - **Section:** 5A Work Conditions
 - **Working Title:** 작업 흐름에는 정보·절차·도구가 연결된다
@@ -2731,22 +2631,22 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Story Beat:** BEAT-057, BEAT-060
 - **Curriculum Trace:** ACT 3 payoff; ACT 4 Minimum Effective Harness callback; ACT 5 synthesis.; ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S113/S114에 남긴다.
+- **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S109/S110에 남긴다.
 - **Visual Concept:** 상단 세 입력인 프로젝트 정보·재사용 수행 방법·검증 도구를 가운데 Agent 작업으로 연결한다. 하단에 변경 내용·확인 근거·미해결 항목을 표시한다. 구성요소 채택·보류 메뉴를 만들지 않는다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
 - **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
 - **Advanced Payoff:** Context의 사실, Workflow의 방법, 도구가 제공하는 근거는 책임이 다르다. 모든 작업의 필수 구현·저장 방식이나 특정 구성이 더 우월하다는 결과를 제시하지 않는다.
-- **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S114/S115에 남긴다.
+- **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S110/S111에 남긴다.
 - **Speaker Intent:** 전체 관점과 연결을 설명한다. 청중에게 개인 문제·구성요소·다음 행동을 선택시키지 않는다.
-- **Transition:** 그렇게 얻은 결과를 완료 보고만으로 받아들일 수 있을까요? S107에서 사람의 수용 판단을 봅니다.
+- **Transition:** 그렇게 얻은 결과를 완료 보고만으로 받아들일 수 있을까요? S103에서 사람의 수용 판단을 봅니다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S107 — 결과를 수용할지는 사람이 판단한다
+#### S103 — 결과를 수용할지는 사람이 판단한다
 
-- **Slide ID:** S107
+- **Slide ID:** S103
 - **ACT:** ACT 5
 - **Section:** 5A Developer Responsibility
 - **Working Title:** 결과를 수용할지는 사람이 판단한다
@@ -2756,22 +2656,22 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Story Beat:** BEAT-061–062
 - **Curriculum Trace:** ACT 5 — beginning/ending comparison and AI-Native Development teaching model.; ACT 5 — Beginning/ending comparison and developer responsibility.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S113/S114에 남긴다.
+- **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S109/S110에 남긴다.
 - **Visual Concept:** AI의 변경·실행·검사·비교 기록과 사람이 확인할 목표·판단·검증·책임의 네 질문을 연결한다. Goal 한 기능에 한정하지 않는다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
 - **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
 - **Advanced Payoff:** 위임한 작업과 사람이 보유할 목표·중요 판단·위험 수용 책임을 구분한다. 현재 제품의 완료 오류율이나 검토 성과를 관찰한 주장이 아니다.
-- **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S114/S115에 남긴다.
+- **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S110/S111에 남긴다.
 - **Speaker Intent:** 전체 관점과 연결을 설명한다. 청중에게 개인 문제·구성요소·다음 행동을 선택시키지 않는다.
-- **Transition:** “수용한 결과 중 다음 작업에서도 다시 쓸 지식은 무엇일까요?” 현재 S108의 지식 선별 예로 이어간다.
+- **Transition:** “수용한 결과 중 다음 작업에서도 다시 쓸 지식은 무엇일까요?” 현재 S104의 지식 선별 예로 이어간다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S108 — 이번에 알아낸 것 중, 다음에도 쓸 것은?
+#### S104 — 이번에 알아낸 것 중, 다음에도 쓸 것은?
 
-- **Slide ID:** S108
+- **Slide ID:** S104
 - **ACT:** ACT 5
 - **Section:** 3F Conditional Memory Decision — ACT5 배치; 원 Section ID 유지
 - **Working Title:** 이번에 알아낸 것 중, 다음에도 쓸 것은?
@@ -2787,17 +2687,17 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Beginner Payoff:** 작업 로그 전체를 기억시키는 대신 다음에도 쓸 확인된 조건을 골라 남기는 이유를 이해한다.
 - **Advanced Payoff:** 보존 지식의 출처·적용 버전·재확인 조건과 다음 작업 Context로 활용할 때의 신선도 검토를 연결한다.
 - **C++ Vision Bridge:** CONTEXTUAL — C++ 프로젝트의 가상 성능 비교 기준. 실제 Python Trial 조건과 별개이며 특정 도구·측정 성과를 주장하지 않는다.
-- **Speaker Intent:** S107에서 수용한 결과 뒤에 이번 기록과 다음에도 쓸 조건을 구분한다. Release 빌드·동일 입력은 이 가상의 프로젝트에서 확인한 기준이다. 출처·범위·갱신 조건을 남기고 다음 작업에서 현재 조건과 대조하는 흐름으로 설명한다. 기존 Demo의 실제 Memory 사용이나 자동 지식 회수로 확장하지 않고 S109의 업무 설계 관점으로 연결한다.
-- **Transition:** “다음 작업에 남길 지식까지 포함해, AI가 일할 조건과 확인 경로를 설계해야 합니다.” S109으로 이어간다.
+- **Speaker Intent:** S103에서 수용한 결과 뒤에 이번 기록과 다음에도 쓸 조건을 구분한다. Release 빌드·동일 입력은 이 가상의 프로젝트에서 확인한 기준이다. 출처·범위·갱신 조건을 남기고 다음 작업에서 현재 조건과 대조하는 흐름으로 설명한다. 기존 Demo의 실제 Memory 사용이나 자동 지식 회수로 확장하지 않고 S105의 업무 설계 관점으로 연결한다.
+- **Transition:** “다음 작업에 남길 지식까지 포함해, AI가 일할 조건과 확인 경로를 설계해야 합니다.” S105으로 이어간다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 2분 (VISUAL) + Case 2분 = 4분
 - **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0073, DEC-0080, DEC-0087, DEC-0133
 - **Practical Tip Classification:** Context 관리
 - **Audience Footer:** 재사용할 지식의 예시
 
-#### S109 — AI가 일할 조건과 확인 경로를 설계한다
+#### S105 — AI가 일할 조건과 확인 경로를 설계한다
 
-- **Slide ID:** S109
+- **Slide ID:** S105
 - **ACT:** ACT 5
 - **Section:** 5A AI-Native Development
 - **Working Title:** AI가 일할 조건과 확인 경로를 설계한다
@@ -2807,22 +2707,22 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Story Beat:** BEAT-061
 - **Curriculum Trace:** ACT 5 — beginning/ending comparison and AI-Native Development teaching model.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S113/S114에 남긴다.
+- **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S109/S110에 남긴다.
 - **Visual Concept:** 맡길 범위·일할 조건·확인과 책임의 세 영역을 연결한다. 이 교육의 AI-Native Development 관점임을 밝히고 모델·플랫폼 변화 시 현재 구성의 필요성을 묻는다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
 - **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
 - **Advanced Payoff:** 특정 제품 기능이나 모든 구성요소를 반드시 도입하는 목록과 개발 방식의 설계 관점을 구분한다. 무엇을 제거할지는 다음 구간에서 근거를 보고 판단한다.
-- **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S114/S115에 남긴다.
-- **Speaker Intent:** S104의 범위 확대, S105의 작업 흐름, S106의 수행 조건, S107의 수용 판단과 S108의 지식 선별을 기존 AI-Native Development 관점으로 회수한다. S110–S112은 지식 선별과 구별해 구성요소의 통합·제거를 다룬다.
-- **Transition:** 이렇게 설계한 작업 방식도 모델·플랫폼이 달라지면 그대로 필요할까요? S110부터 기존 구조의 통합·제거를 재평가합니다.
+- **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S110/S111에 남긴다.
+- **Speaker Intent:** S100의 범위 확대, S101의 작업 흐름, S102의 수행 조건, S103의 수용 판단과 S104의 지식 선별을 기존 AI-Native Development 관점으로 회수한다. S106–S108은 지식 선별과 구별해 구성요소의 통합·제거를 다룬다.
+- **Transition:** 이렇게 설계한 작업 방식도 모델·플랫폼이 달라지면 그대로 필요할까요? S106부터 기존 구조의 통합·제거를 재평가합니다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S110 — 모델·플랫폼이 바뀌면 Harness도 다시 본다
+#### S106 — 모델·플랫폼이 바뀌면 Harness도 다시 본다
 
-- **Slide ID:** S110
+- **Slide ID:** S106
 - **ACT:** ACT 5
 - **Section:** 5A Harness Reassessment
 - **Working Title:** 모델·플랫폼이 바뀌면 Harness도 다시 본다
@@ -2838,16 +2738,16 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Beginner Payoff:** 처음에는 필요했던 장치도 조건이 달라지면 다시 볼 수 있음을 이해한다.
 - **Advanced Payoff:** 더 강한 모델·플랫폼 기능의 도입을 기존 구조의 자동 유지나 무조건 제거와 분리하고, 현재의 역할·경계를 재평가한다.
 - **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
-- **Speaker Intent:** 이전에 필요했던 보조 구조도 모델·플랫폼·업무 조건 변화 뒤에는 다시 평가할 대상으로 전환한다. S106의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
+- **Speaker Intent:** 이전에 필요했던 보조 구조도 모델·플랫폼·업무 조건 변화 뒤에는 다시 평가할 대상으로 전환한다. S102의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
 - **Transition:** “그렇다면 무엇을 보존하고, 어떤 부분을 합치거나 제거할 후보로 볼까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083
 - **Audience Footer:** Anthropic(2026) · 외부 기업의 통합 사례
 
-#### S111 — 무엇을 남기고, 무엇을 덜어낼까?
+#### S107 — 무엇을 남기고, 무엇을 덜어낼까?
 
-- **Slide ID:** S111
+- **Slide ID:** S107
 - **ACT:** ACT 5
 - **Section:** 5A Harness Reassessment
 - **Working Title:** 무엇을 남기고, 무엇을 덜어낼까?
@@ -2863,7 +2763,7 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Beginner Payoff:** 중요한 요구를 지우는 것과 중복된 구현·지침을 덜어내는 것을 구분한다.
 - **Advanced Payoff:** 원출처·책임·필요한 격리 경계를 보존하면서 불필요한 조율·우회 구조를 재검토한다.
 - **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
-- **Speaker Intent:** 기존 구성의 존재 이유에 따라 유지·통합·제거 후보를 구분한다. S106의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
+- **Speaker Intent:** 기존 구성의 존재 이유에 따라 유지·통합·제거 후보를 구분한다. S102의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
 - **Transition:** “후보를 정했다면, 덜어낸 뒤에도 필요한 일을 하는지 무엇으로 확인할까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
@@ -2871,9 +2771,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Practical Tip Classification:** 검증·개선
 - **Audience Footer:** 구조를 덜어내도 명세·권한·검증 요구는 유지
 
-#### S112 — 덜어낸 뒤에도 필요한 일을 하는가?
+#### S108 — 덜어낸 뒤에도 필요한 일을 하는가?
 
-- **Slide ID:** S112
+- **Slide ID:** S108
 - **ACT:** ACT 5
 - **Section:** 5A Harness Reassessment
 - **Working Title:** 덜어낸 뒤에도 필요한 일을 하는가?
@@ -2889,7 +2789,7 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Beginner Payoff:** 간단해졌다는 인상 대신 원래 할 일을 계속 수행하는지 확인한다.
 - **Advanced Payoff:** 평가 범위·품질·회귀·시간/비용·남은 위험과 복구 조건을 분리해 수용 근거를 만든다. 모델/구성 외 조건의 차이도 기록한다.
 - **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
-- **Speaker Intent:** 통합·제거 후보의 채택을 대표 작업과 회귀·비용·위험 근거에 연결한다. S106의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
+- **Speaker Intent:** 통합·제거 후보의 채택을 대표 작업과 회귀·비용·위험 근거에 연결한다. S102의 처음부터 도입하지 않은 판단과, 이미 쓰던 구조의 후속 재평가를 구분한다.
 - **Transition:** “부족한 것뿐 아니라 겹쳐 쌓인 것도 포함해, 내 업무의 문제 하나를 골라봅시다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
@@ -2897,9 +2797,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Practical Tip Classification:** 검증·개선
 - **Audience Footer:** 평가 설계 예시 · 시간·비용만으로 채택하지 않음
 
-#### S113 — 내 업무에서는 무엇이 반복해서 막힐까?
+#### S109 — 내 업무에서는 무엇이 반복해서 막힐까?
 
-- **Slide ID:** S113
+- **Slide ID:** S109
 - **ACT:** ACT 5
 - **Section:** 5B C++ Vision / My Repository Transfer
 - **Working Title:** 내 업무에서는 무엇이 반복해서 막힐까?
@@ -2922,9 +2822,9 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence / Decision References:** BEAT-068, INV-AUDIENCE-001, INV-DIFFICULTY-001, INV-LOOP-001, INV-RESPONSIBILITY-001, BEAT-069; DEC-0097; CLM-0021
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S114 — 고른 문제에서, 다음 행동 하나로
+#### S110 — 고른 문제에서, 다음 행동 하나로
 
-- **Slide ID:** S114
+- **Slide ID:** S110
 - **ACT:** ACT 5
 - **Section:** 5B Final Reflection
 - **Working Title:** 고른 문제에서, 다음 행동 하나로
@@ -2936,46 +2836,46 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; 개인 Reflection이며 응답·공유·실천 약속을 요구하지 않는다.
 - **Visual Concept:** 기존 A–E 대응과 통합·제거 선택을 유지. E의 다음 행동만 새 문제와 정렬.
-- **Demo / Case Connection:** 새 Demo 없음. S113의 A–E 문제→같은 글자의 작은 행동→확인 근거라는 개인 성찰이다.
+- **Demo / Case Connection:** 새 Demo 없음. S109의 A–E 문제→같은 글자의 작은 행동→확인 근거라는 개인 성찰이다.
 - **Beginner Payoff:** 선택한 문제의 E에서 검토 지적·다음 수정·완료 기준을 잇는 작은 행동을 고른다.
 - **Advanced Payoff:** 추가·통합·제거 후보를 근거·유지 위치·검토 책임에 연결하고, 검증 결과에 따라 그대로 유지하거나 되돌리는 선택을 남긴다.
 - **C++ Vision Bridge:** 각자의 Vision 업무에 질문을 적용할 수 있다.
 - **Speaker Intent:** 선택한 문제의 E에서 검토 지적·다음 수정·완료 기준을 잇는 작은 행동을 고른다.
-- **Transition:** “마지막 질문을 받기 전에, 실무에서 다시 찾아볼 팁의 위치를 한 번에 정리하겠습니다.”라고 S115의 마지막 찾아보기를 연다.
+- **Transition:** “마지막 질문을 받기 전에, 실무에서 다시 찾아볼 팁의 위치를 한 번에 정리하겠습니다.”라고 S111의 마지막 찾아보기를 연다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Reflection 2분 = 4분
 - **Evidence / Decision References:** BEAT-070, INV-LEARNING-003, INV-DIFFICULTY-001, INV-DELIVERY-001, INV-NARRATIVE-001, BEAT-071; DEC-0097; CLM-0021
 - **Audience Footer:** 공유는 선택
 
-#### S115 — 실무 적용 팁 · 작업 환경과 기준
+#### S111 — 실무 적용 팁 · 작업 환경과 기준
 
-- **Slide ID:** S115
+- **Slide ID:** S111
 - **ACT:** ACT 5
 - **Section:** 5B Final Reference Review
 - **Working Title:** 실무 적용 팁 · 작업 환경과 기준
 - **Primary Role:** 교육 마지막에 기존 실무 적용 팁의 제목과 현재 Slide ID를 모아, 필요한 상황에서 다시 찾게 하는 안내다.
 - **Audience Question:** “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
-- **Core Message:** 작업 환경과 기준의 팁 위치는 S13, S48, S56–S58, S62, S67, S72, S108, S81, S100다. 공식 안내 각색과 기존 관찰의 근거를 각 장의 범위로 유지한다.
+- **Core Message:** 작업 환경과 기준의 팁 위치는 S13, S48, S56–S58, S62, S67, S72, S104, S96의8묶음이다. 공식 안내 각색과 기존 관찰의 근거를 각 장의 범위로 유지하며 삭제한 상태 전달 팁이나 새 전환을 넣지 않는다.
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 / 최종 회고 뒤, 기존 Q&A·Closing 직전의 통합 찾아보기. 새 Maturity 단계·Demo가 아니다.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능·Trial·성능·검증 결과를 주장하지 않는다.
-- **Visual Concept:** 공통 찾아보기 배지와 기존8개 항목 및 새3장을 묶은 “AGENTS.md의 위치와 적용 범위 · S56–S58”를 두 열로 배치한다. 새 S67/S72의 제작 경로도 본문 위치로 연결하며 설명 전문·새 결과를 반복하지 않는다.
+- **Visual Concept:** 공통 찾아보기 배지와8개 참조 묶음을 두 열로 배치한다. AGENTS.md 위치/적용 범위 S56–S58은 하나로 묶고, S13/S48/S62/S67/S72/S104/S96을 기존 제목과 함께 연결한다. 삭제한 이전 상태 전달 팁은 빼며 전환 장을 새 팁으로 표시하지 않는다.
 - **Demo / Case Connection:** N/A — 기존 자료의 위치 안내이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
 - **Advanced Payoff:** 사례의 근거 상태를 유지한 채 재사용할 안내 위치를 구분한다.
 - **C++ Vision Bridge:** N/A — 원래 팁의 적용 범위를 따른다.
 - **Speaker Intent:** 제목과 위치만 짧게 짚고, 전문을 다시 설명하지 않는다. 청중에게 실습·작성·공개 답변을 요구하지 않는다.
-- **Transition:** “이제 요청 문장을 작성할 때 바로 참고할 팁을 모아 보겠습니다.”라고 S116으로 이어간다.
+- **Transition:** “이제 요청 문장을 작성할 때 바로 참고할 팁을 모아 보겠습니다.”라고 S112으로 이어간다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** DEC-0088, DEC-0093, DEC-0104; Related tip slides: S13, S48, S56–S58, S62, S67, S72, S108, S81
+- **Evidence / Decision References:** DEC-0088, DEC-0093, DEC-0104, DEC-0136; Related tip slides: S13, S48, S56–S58, S62, S67, S72, S104, S96
 - **Practical Tip Classification:** 찾아보기
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S116 — 실무 적용 팁 · 요청 작성
+#### S112 — 실무 적용 팁 · 요청 작성
 
-- **Slide ID:** S116
+- **Slide ID:** S112
 - **ACT:** ACT 5
 - **Section:** 5B Final Reference Review
 - **Working Title:** 실무 적용 팁 · 요청 작성
@@ -2992,22 +2892,22 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Advanced Payoff:** 사례의 근거 상태를 유지한 채 재사용할 안내 위치를 구분한다.
 - **C++ Vision Bridge:** N/A — 원래 팁의 적용 범위를 따른다.
 - **Speaker Intent:** 제목과 위치만 짧게 짚고, 전문을 다시 설명하지 않는다. 청중에게 실습·작성·공개 답변을 요구하지 않는다.
-- **Transition:** “요청 뒤에는 근거를 확인하고 기존 구성을 다시 판단할 기준이 필요합니다.”라고 S117로 이어간다.
+- **Transition:** “요청 뒤에는 근거를 확인하고 기존 구성을 다시 판단할 기준이 필요합니다.”라고 S113로 이어간다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** DEC-0088; Related tip slides: S28, S29, S30, S31, S32, S33, S34, S35
 - **Practical Tip Classification:** 찾아보기
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S117 — 실무 적용 팁 · 검증과 개선
+#### S113 — 실무 적용 팁 · 검증과 개선
 
-- **Slide ID:** S117
+- **Slide ID:** S113
 - **ACT:** ACT 5
 - **Section:** 5B Final Reference Review
 - **Working Title:** 실무 적용 팁 · 검증과 개선
 - **Primary Role:** 교육 마지막에 기존 실무 적용 팁의 제목과 현재 Slide ID를 모아, 필요한 상황에서 다시 찾게 하는 안내다.
 - **Audience Question:** “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
-- **Core Message:** 검증과 개선의 팁 위치는 S88, S92, S101, S111, S112이다. Goal 작성 예시와 검토·통합·제거 기준의 근거는 각 원래 장을 따른다.
+- **Core Message:** 검증과 개선의 팁 위치는 S84, S88, S97, S107, S108이다. Goal 작성 예시와 검토·통합·제거 기준의 근거는 각 원래 장을 따른다.
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 / 최종 회고 뒤, 기존 Q&A·Closing 직전의 통합 찾아보기. 새 Maturity 단계·Demo가 아니다.
 - **Evidence Type:** TEACHING_MODEL
@@ -3021,13 +2921,13 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Transition:** “생각한 한 가지는 마음속에 두고, 이제 남은 질문을 받겠습니다.”
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** DEC-0088; Related tip slides: S88, S92, S111, S112
+- **Evidence / Decision References:** DEC-0088; Related tip slides: S84, S88, S107, S108
 - **Practical Tip Classification:** 찾아보기
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S118 — Q&A와 교육 마무리
+#### S114 — Q&A와 교육 마무리
 
-- **Slide ID:** S118
+- **Slide ID:** S114
 - **ACT:** ACT 5
 - **Section:** 5B Final Q&A / Closing
 - **Working Title:** Q&A와 교육 마무리
@@ -3049,6 +2949,8 @@ S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 �
 - **Delivery Mode Allocation:** Transition 2분 + Q&A 4분 = 6분
 - **Evidence / Decision References:** BEAT-070, INV-LEARNING-003, INV-DIFFICULTY-001, INV-DELIVERY-001, INV-NARRATIVE-001, BEAT-071
 - **Audience Footer:** 목표·판단·검증·책임은 개발자에게 남는다
+
+
 
 
 
@@ -3751,5 +3653,45 @@ Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저�
 | ACT 4 | S84–S103 | 20 | 85 |
 | ACT 5 | S104–S119 | 16 | 44 |
 | Total | S01–S119 | 119 | 405 |
+
+### ACT 0 — 14 slides / 42 minutes
+
+
+## Historical current-router snapshot — before DEC-0136
+
+# Official Slide Map
+
+## 현재 제작 기준 — DEC-0135 (2026-11-02)
+
+현재 **118장·403분(6시간43분)**. 이전119장판 S78 “이번 성공만으로 다음 작업까지 확인되지는 않는다”를 삭제한다.
+삭제한 내용은 다른 Slide/활성 Notes에 흡수하지 않고 새 참고 자료도 만들지 않는다. 원본은 Git 이력·기존 원자료에 남는다.
+현재 S77 프로젝트 기준 연결 → S78 첫 결과의 완료 여부 → S79 사람이 잇는 수정으로 바로 이어진다.
+S77의 연결 질문은 “작업 체계를 갖췄다면, 첫 결과가 나왔을 때 바로 끝낼 수 있을까요?”다.
+다음 작업의 일반적 적합성이나 경험 축적을 Loop의 원인으로 삼지 않고, 같은 목표 안의 구현·검토·수정을 이어간다.
+이전 S79–S119는 현재 S78–S118로-1한다. 삭제한 Lecture2분만 제외하며 나머지 장별 시간/Mode·역할·Beat/Section·근거 ID를 유지한다.
+ACT3는23장·78분, ACT4는20장·85분, ACT5는16장·44분이다. 전역 Mode는 Lecture180/Demo44/Case102/Reflection22/Transition23/Q&A32다.
+Native 표 S54, 차트 S70/S94, Memory S108, Goal S100/S101, 마지막 팁 찾아보기 S115–S117을 사용한다.
+S75–S77의 DEC-0134 시각 설계, ACT5 Memory의 원 Section3F·BEAT-026–028·4분과 12Templates/28Variants·19Notes 필드는 유지한다.
+기존 검증 원칙과 실제 관찰의 범위는 기존 Evidence/Claim에서 유지한다. 삭제한 성공 범위 장이나 이전 감사 장을 복구하지 않는다.
+새 Trial·실측·실제 반복/이식·Subagent/Memory 실행·현재 제품 동작 주장은 없다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·발표 묶음은 변경하지 않는다.
+[삭제·연결 기획](S78_REMOVAL.md), [번호 이행](SLIDE_ID_MIGRATION_118_DEC0135.md), [현행 Map](SLIDE_MAP.md)을 따른다.
+아래 이전 판본의 번호·시간·연결은 당시 이력이며 현재 지시로 적용하지 않는다.
+
+| ACT | Current slides | Count | Minutes |
+|---|---|---:|---:|
+| ACT 0 | S01–S14 | 14 | 42 |
+| ACT 1 | S15–S37 | 23 | 64 |
+| ACT 2 | S38–S59 | 22 | 90 |
+| ACT 3 | S60–S82 | 23 | 78 |
+| ACT 4 | S83–S102 | 20 | 85 |
+| ACT 5 | S103–S118 | 16 | 44 |
+| Total | S01–S118 | 118 | 403 |
+
+## 현재 Harness 시각 설계 — DEC-0134 유지
+
+S75의 점선 선택 Subagent는 교육용 확장이고 실제 단일 Agent 근거와 구분한다.
+S76의 동일 모듈 재사용과 S77의 프로젝트 Context 조립 관계를 유지한다.
+[Harness 시각 설계](HARNESS_VISUAL_SYSTEM.md)를 따른다.
 
 ### ACT 0 — 14 slides / 42 minutes

@@ -1,5 +1,19 @@
 # Current presentation source
 
+Current: DEC-0136 /114slides/392minutes. Apply `compact-handoff-114.mjs`
+once after the retained118-ID removal stage. Replace prior S78-S82 with
+one currentS78 transition and shift priorS83-S118 down4. Preserve current
+S77's screen and use its Notes for Lecture2+HarnessQ&A5minutes.
+Resolve retained metadata through `beforeCompactHandoff` first. New
+S78 and the revised tip lookup S111 own current IDs, footers and badges;
+skip all historical display adapters for these two fresh factories.
+The lookup drops the removed state-handoff tip without copying it into
+the bridge. Native table:S54; charts:S70/S90. Rebuild all packages for
+current numbering, references and19-field Notes. ACT4 stays20slides/85min.
+[Current design](../../../plan/ACT3_COMPACT_HANDOFF.md).
+
+## Preserved source decisions
+
 Current: DEC-0135 /118slides/403minutes. Apply `s78-removal-118.mjs`
 once after the119-ID Memory move and Harness visual factories. Remove
 only prior S78; shift prior S79-S119 down1. Do not transfer the deleted

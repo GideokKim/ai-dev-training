@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+현재114장·392분의 기준은 [DEC-0136 검토](ACT3_COMPACT_HANDOFF.md), [전달 안내](FINAL_HANDOFF.md), [번호 대응표](../../plan/SLIDE_ID_MIGRATION_114_DEC0136.md)다. S77에서 Harness Q&A5분을 운영하고 S78 전환2분 뒤 ACT4로 이동한다. ACT4의20장·85분과 기존 근거 범위는 유지했다. Windows·발표PC/교육장·제품/계정·실제 리허설은 UNVERIFIED다.
+
+## 보존된 이전 기록
+
 현재118장·403분과S77→첫결과의연결은[DEC-0135검토](S78_REMOVAL.md),[전달안내](FINAL_HANDOFF.md),[번호대응표](../../plan/SLIDE_ID_MIGRATION_118_DEC0135.md)를따른다. 삭제한S78의2Lecture분만제외하고기존근거와각장배정은유지했다. Windows·발표PC/교육장·제품/계정·실제리허설은UNVERIFIED다.
 
 ## 보존된 이전 기록

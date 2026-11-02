@@ -1,0 +1,164 @@
+{
+  "status": "RENDER_AND_STRUCTURE_PASS",
+  "baseline": "d1a2471d8915a7821b0bd3fdaca201da3565a916",
+  "slides": 114,
+  "minutes": 392,
+  "newBridge": "S78",
+  "replacedPriorSlides": [
+    "S78",
+    "S79",
+    "S80",
+    "S81",
+    "S82"
+  ],
+  "harnessQA": {
+    "slide": "S77",
+    "minutes": 5
+  },
+  "actCounts": [
+    14,
+    23,
+    22,
+    19,
+    20,
+    16
+  ],
+  "actMinutes": [
+    42,
+    64,
+    90,
+    67,
+    85,
+    44
+  ],
+  "modes": {
+    "Transition": 23,
+    "Lecture": 172,
+    "Reflection": 19,
+    "Case": 102,
+    "Demo": 44,
+    "Q&A": 32
+  },
+  "nativeTables": [
+    "S54"
+  ],
+  "nativeCharts": [
+    "S70",
+    "S90"
+  ],
+  "noteFields": 19,
+  "noteRecords": 114,
+  "renderedPngs": 228,
+  "embeddedNotes": 228,
+  "retainedScreenComparison": {
+    "pixelIdentical": 77,
+    "onlyRenumberedReferences": 35
+  },
+  "renumberedScreenIds": [
+    "S79",
+    "S80",
+    "S81",
+    "S82",
+    "S83",
+    "S84",
+    "S85",
+    "S86",
+    "S87",
+    "S88",
+    "S89",
+    "S90",
+    "S91",
+    "S92",
+    "S93",
+    "S94",
+    "S95",
+    "S96",
+    "S97",
+    "S98",
+    "S99",
+    "S100",
+    "S101",
+    "S102",
+    "S103",
+    "S104",
+    "S105",
+    "S106",
+    "S107",
+    "S108",
+    "S109",
+    "S110",
+    "S112",
+    "S113",
+    "S114"
+  ],
+  "retainedSlidesCompared": 112,
+  "revisedTipIndex": "S111",
+  "fullActPixelParity": 114,
+  "preservedImages": true,
+  "preservedChartCaches": true,
+  "unchangedACT4Slides": 20,
+  "unchangedACT4Minutes": 85,
+  "firstMemoryLabel": "S104",
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "count": 114,
+      "sha256": "19b06d43eee595e7cb0f1e3f750990d577bd084098e0cbbde1b39603b2b06fc1"
+    },
+    {
+      "name": "ACT_0",
+      "count": 14,
+      "sha256": "3e7d0384866ad7c97aa30e37785c28cc61ce94bda4e616562345654fb0d7f290"
+    },
+    {
+      "name": "ACT_1",
+      "count": 23,
+      "sha256": "d6babb6a40becc1721794fc1de7a8a50e35f9f37ada9d920f216661f0f4e507a"
+    },
+    {
+      "name": "ACT_2",
+      "count": 22,
+      "sha256": "d40b17899fb8a629bf28510bd47d1a777bbc3bd2243d6ab0a31b2cae3006b173"
+    },
+    {
+      "name": "ACT_3",
+      "count": 19,
+      "sha256": "d5a031087d09a200cb3156e1e052a7aa3b813c5f63851a5fd87110ee3cbecafa"
+    },
+    {
+      "name": "ACT_4",
+      "count": 20,
+      "sha256": "3a56adaaad26fc78a578a64c6b13cf5561a7b6ddc8833e2f0cd78aff1c147f56"
+    },
+    {
+      "name": "ACT_5",
+      "count": 16,
+      "sha256": "bb947f46f2b5a391e93692f36229191a9f7881eb550cded43283c841dd02b56f"
+    }
+  ],
+  "windows": "UNVERIFIED",
+  "room": "UNVERIFIED",
+  "productAccount": "UNVERIFIED",
+  "rehearsal": "UNVERIFIED",
+  "prunedSupersededPreviewPaths": [
+    "production/preview/full/S118.png",
+    "production/preview/full/S117.png",
+    "production/preview/full/S116.png",
+    "production/preview/full/S115.png",
+    "production/preview/act3/S79.png",
+    "production/preview/act3/S80.png",
+    "production/preview/act3/S81.png",
+    "production/preview/act3/S82.png",
+    "production/preview/act4/S99.png",
+    "production/preview/act4/S102.png",
+    "production/preview/act4/S100.png",
+    "production/preview/act4/S101.png",
+    "production/preview/act5/S118.png",
+    "production/preview/act5/S117.png",
+    "production/preview/act5/S116.png",
+    "production/preview/act5/S115.png"
+  ],
+  "ooxmlValidation": "PASS — all seven final packages against prior committed originals",
+  "visualReview": "PASS — all six ACT montages, S77-S81 and S111 individual renders; final/pilot render parity and retained-screen comparison",
+  "bridgeFallback": "READY — LOCAL STATIC FILES ONLY; not a product execution record"
+}
