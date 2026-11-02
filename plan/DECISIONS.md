@@ -12279,3 +12279,64 @@ Verify only the result-number region changes on S41; keep remaining
 119slides and Notes, timing, native objects and existing UI unchanged.
 Render, validate, commit and push normally. Keep independent Windows,
 room, product/account and timed rehearsal gates unverified.
+
+# DEC-0122 — Emphasize the S45 handoff question
+
+## Status
+
+ACCEPTED — the user requests stronger emphasis for the selected question.
+
+## Date
+
+2026-11-02
+
+## Context
+
+The bottom question on S45 connects the shared/detail comparison to S46.
+Its current text-only treatment does not attract enough attention.
+
+## Problem
+
+Make the next question visible while preserving the existing comparison.
+
+## Decision
+
+Keep the exact wording and show it as bold white34px text in a dark-teal
+box. Retain the existing title, comparison, evidence, timing and template.
+Align the S45 presentation cue with this visual emphasis.
+
+## Rationale
+
+Increase contrast and text size without adding another message or claim.
+
+## Alternatives
+
+Add more explanatory text: increases density without clarifying focus.
+Enlarge the whole comparison: changes content outside the selected area.
+
+## Trade-offs
+
+The question receives more visual weight; its role and meaning stay fixed.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-DIFFICULTY-001.
+
+## Affected Artifacts
+
+S45 source, Map/template description, ACT2/Full packages, Notes/previews,
+revision record and current delivery identities.
+
+## Evidence
+
+User annotation annotation-mvyks3va-9 on the S45 bottom question.
+
+## Training Relevance
+
+YES — make the question leading into evidence utilization easy to locate.
+
+## Follow-up
+
+Render and check the question region, preserve the other119slides and
+verify current file identities. Keep real presentation gates unverified.
+Do not change the Demo repository, Sites or presenter bundles.

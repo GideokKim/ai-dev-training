@@ -1184,7 +1184,7 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Curriculum Trace:** ACT 2 — Context growth, relevance, and research caveat.; ACT 2 — Separation, routing, and progressive disclosure.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; CONCEPTUAL. OpenAI의 공식 분류 체계로 표현하지 않는다.
-- **Visual Concept:** README 수정/crop 조사 두 행에 걸친 하나의 공통 안내 영역과, 각 행의 빌드 도구·설정/좌표 범위·이미지 명세를 비교한다. 상단은 S44 관련성을 회수하고 하단은 필요한 정보의 실제 활용 질문으로 S46에 연결한다. 절차 반복 열과 ACT3 예고는 화면에서 제외하며 읽기 순서 화살표를 넣지 않는다.
+- **Visual Concept:** README 수정/crop 조사 두 행에 걸친 하나의 공통 안내 영역과, 각 행의 빌드 도구·설정/좌표 범위·이미지 명세를 비교한다. 상단은 S44 관련성을 회수하고 하단은 필요한 정보의 실제 활용 질문으로 S46에 연결한다. 절차 반복 열과 ACT3 예고는 화면에서 제외하며 읽기 순서 화살표를 넣지 않는다. 하단 질문은 진한 청록색 박스와34px 굵은 흰색 글자로 강조한다(DEC-0122).
 - **Demo / Case Connection:** S44/TRIAL-004에서 관찰한 관련성 구분을 회수한 교육용 비교다. STATE-02의 실제 내용과 기존 Trial 결과를 보존하며 두 새 작업의 실행 결과로 표현하지 않는다.
 - **Beginner Payoff:** 모든 세부사항이 항상 필요한 것은 아님을 이해한다.
 - **Advanced Payoff:** 정보의 공통/선택적 범위와 실제 읽기·활용 여부를 구분한다. 반복 절차 문제는 기존 S59/ACT3에 남긴다.

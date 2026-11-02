@@ -1,5 +1,7 @@
 # 사용자 검증 체크리스트
 
+현재 파일 식별자와 S45 질문 강조 결과는 [DEC-0122 검토](S45_QUESTION_EMPHASIS_REVISION.md) 및 [최종 전달 안내](FINAL_HANDOFF.md)를 따른다. 기존 실환경 검증 상태는 유지한다.
+
 ## S41 사용자 별도 데모 확인 — DEC-0121
 
 [현재 검토](S41_USER_DEMO_RESULT_REVISION.md), [현재 해시](FINAL_HANDOFF.md)를 따른다.

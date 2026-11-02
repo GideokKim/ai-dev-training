@@ -1,6 +1,6 @@
 # Static Fallback Manifest
 
-Current: DEC-0121 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0122 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
 S45 now compares shared guidance and task-specific detail; procedure reuse
 remains at S59/ACT3. This teaching diagram is not an observed read order.
 Retain44reference roles and paths. S41 shows the nine-test result from
@@ -17,11 +17,11 @@ in the reports and source history.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`b6b2ba47c70a88ba99644f7f4572a0ad9a601b146bc2a4a48dfe4d267fe8feef`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`64ec0a9933515a719c2663fb5513329d20318b4afb2e1ccd90390d1c6b8af93b`.
-- `production/preview/full/montage.png` SHA-256:`a52386a7182b51398f04e5ac6e9d399ee21b9afdaba1b13c29d59b55364dbff0`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`04f5297953ff5a6b1989237e26166bc8a3fb33982f09812eb3ab52d8f1d88e3f`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`82d4e5a21a18e144ca9109d7b0b6c45439802b4e61108d3a1de37174bf48a54c`.
+- `production/preview/full/montage.png` SHA-256:`f43f9520f0faafd12a83bf50c50316162a36fbbbddca5a3426e4f26b12e91577`.
 
-[Current revision](../../production/evaluation/S41_USER_DEMO_RESULT_REVISION.md),
+[Current revision](../../production/evaluation/S45_QUESTION_EMPHASIS_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |

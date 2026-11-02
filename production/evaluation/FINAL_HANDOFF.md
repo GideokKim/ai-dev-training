@@ -1,5 +1,31 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S45 질문 강조 — DEC-0122 (2026-11-02)
+
+하단 질문을 큰 흰색 글자와 청록색 박스로 강조했다. 기존 문구·비교 도식·흐름·근거와
+120장·417분은 유지한다. S45 Notes의 해당 진행 Cue만 맞췄다.
+[수정 S45](../preview/full/S45.png), [통합 PPT](../AI_Dev_Training_Full.pptx),
+[ACT2 PPT](../ACT_2.pptx), [현재 검토](S45_QUESTION_EMPHASIS_REVISION.md).
+142개 최종 렌더와 Notes를 대조했고, 다른119장 화면/Notes와5개 ACT PPT는 같다.
+S41 사용자 별도 실제 데모9개 및 기존 TRIAL-003 11개의 구분은 유지한다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. 아래 기록은 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `04f5297953ff5a6b1989237e26166bc8a3fb33982f09812eb3ab52d8f1d88e3f` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `f56d8e863a28d01ffeb6f1455b3e51ce09b0f5fb9ae312cfa29219363a5ca23b` |
+| `production/ACT_3.pptx` | `561897bee3430ee9cfecc25af038779eea6ca5473830e321d51c2fde8c3d663a` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `96103c384f80f69a308a6dd464280e5a8645c17a02e5498a55e3b23ee014d4d9` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `82d4e5a21a18e144ca9109d7b0b6c45439802b4e61108d3a1de37174bf48a54c` |
+| `production/notes/ACT_2_NOTES.md` | `d590dd2f8182073fa0eccfa8007349b2d01575799dc9f77be6ba17f91c30943b` |
+| `production/preview/full/montage.png` | `f43f9520f0faafd12a83bf50c50316162a36fbbbddca5a3426e4f26b12e91577` |
+| `production/preview/full/S45.png` | `9613617d5308a39d0d2a8d1cf4451c346a103fb78ed7cdb129c5d61074ba4458` |
+
+## 보존된 이전 전달 기록
+
 ## S41 사용자 별도 실제 데모9개 — DEC-0121 (2026-11-02)
 
 S41을 사용자 별도 실제 데모의9/9 PASS로 바꿨다. 숫자 외 화면·지침·UI·문구는 같다.

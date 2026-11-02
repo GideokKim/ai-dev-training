@@ -38,7 +38,9 @@ export async function loadAct2ContinuitySlides(root) {
    });
    line(s,64,412,282);
    line(s,824,412,392);
-   text(s,'필요한 정보를 제공하면, 답에서도 제대로 활용할까?',64,558,1152,42,30,C.teal,true);
+   // DEC-0122: emphasize the unchanged S46 handoff question.
+   rect(s,64,548,1152,52,C.teal);
+   text(s,'필요한 정보를 제공하면, 답에서도 제대로 활용할까?',88,552,1104,44,34,C.white,true);
    return s;
   },
   S39(p){

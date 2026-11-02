@@ -80,7 +80,7 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 | S42 — Task Prompt와 Project Context | T03-B | — | CMP-CONTEXT-ROUTER, CMP-CPP | T | — | Single state | Supporting | V08 |
 | S43 — 정확한 정보도 계속 늘어난다 | T04-B | CMP-STATE, CMP-EVIDENCE | — | P | DEMO-06 state-growth evidence callback; Case, not extra Demo time | Single state | — | V03, V10 |
 | S44 — 정확하지만 이번 작업에는 불필요한 정보 | T07-A | CMP-TRIAL, CMP-EVIDENCE, CMP-CLAIM | — | P | DEMO-06 TRIAL-004 evidence; CAPTURED, 2 min | Single state | — | V02, V05 |
-| S45 — 공통 안내와 작업별 상세를 나눈다 | T03-B | CMP-CONTEXT-ROUTER | — | T | — | Single state; DEC-0118 shared-scope comparison across two tasks; no read-order arrows; S46 utilization question; repeated procedure retained at S59/ACT3 | — | V05 |
+| S45 — 공통 안내와 작업별 상세를 나눈다 | T03-B | CMP-CONTEXT-ROUTER | — | T | — | Single state; DEC-0118 shared-scope comparison across two tasks; no read-order arrows; S46 utilization question emphasized in a dark-teal box, DEC-0122; repeated procedure retained at S59/ACT3 | — | V05 |
 | S46 — 많이 담아도 같은 근거를 똑같이 쓰는가? | T09-A | CMP-CLAIM | — | R | — | Single state; DEC-0060 Lost in the Middle only; task-position diagram and bounded observed finding | — | V02 |
 | S47 — AI가 필요한 코드를 찾았다는 것을 무엇으로 확인할까? | T03-C | CMP-CLAIM | CMP-EVIDENCE | T; existing crop excerpt; research in Notes only | Existing crop code excerpt for a teaching request; no new run or Demo; Lecture4 | Three checks then S48 location question; DEC-0105 | — | V02, V04, V05 |
 | S48 — 필요한 상세 정보로 가는 길 | T03-C | CMP-CONTEXT-ROUTER | CMP-CPP | T | — | Single state; DEC-0060 one question to a relevant detail source; path design, not observed read order | Supporting | V08 |
