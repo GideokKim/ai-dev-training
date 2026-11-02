@@ -1,5 +1,9 @@
 # MASTER EXECUTION STATUS
 
+Current DEC-0132:119slides/405minutes. Delete previous121-ID S67/S76 from the main deck and active Notes without transferring content. Adjust only neighboring transitions, current references and totals. Use [current result](S67_S76_REMOVAL.md), [handoff](FINAL_HANDOFF.md), and [119-ID crosswalk](../../plan/SLIDE_ID_MIGRATION_119_DEC0132.md). Previous execution results are historical; external gates remain UNVERIFIED.
+
+## 보존된 이전 기록
+
 Current DEC-0131:121slides/411minutes. Remove previous S68 from the main sequence, retain its instruction/action evidence in S67 supplementary Notes and references, and connect S67 to the Skill-authoring tip. Use [current result](S68_REMOVAL_AND_EVIDENCE_RETENTION.md), [handoff](FINAL_HANDOFF.md) and [121-ID crosswalk](../../plan/SLIDE_ID_MIGRATION_121_DEC0131.md). Earlier execution results are historical; external gates remain UNVERIFIED.
 
 ## 보존된 이전 기록

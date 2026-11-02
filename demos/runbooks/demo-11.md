@@ -1,5 +1,18 @@
 # Historical supporting runbook — DEMO-11
 
+## Current119 presentation references — DEC-0132
+
+현재119장·405분. 이전121장판 S67·S76을 삭제하고 앞뒤 연결만 정리한다.
+삭제한 내용을 다른 Slide나 활성 Notes로 옮기지 않고 새 참고 자료도 만들지 않는다.
+현재 번호/경로/해시는 [현행 Map](../../plan/SLIDE_MAP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_119_DEC0132.md),
+[FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. 아래 이전 번호·시간·보존 방침은 당시 이력이다.
+
+DEMO-11의 현재 Map 명시 참조: 현행 Map/Notes의 기존 역할을 따르며 새 독립 Demo 배정 없음이다. 회수/Case 참조를 모두 Demo 시간으로 세지 않는다.
+
+Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 새 Trial·Demo 저장소·Sites·발표 묶음 변경은 없다.
+
+## Preserved previous operation records
+
 ## Current121 presentation references — DEC-0131
 
 현재121장·411분. DEMO-11 관련 Map 참조: 현재 Map에서 독립 Demo 배정 없음; 보존 참고 역할 유지. 회수·Case·참고 연결도 포함하며 모두 Demo 시간이라는 뜻이 아니다. 현재 번호/경로/해시는 [현행 Map](../../plan/SLIDE_MAP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_121_DEC0131.md), [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다.

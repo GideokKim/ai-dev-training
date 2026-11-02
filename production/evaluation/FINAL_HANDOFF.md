@@ -1,5 +1,43 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S67·S76 삭제·앞뒤 연결 — DEC-0132 (2026-11-02)
+
+현재 **119장·405분(6시간45분)**. 이전121장판 S67/S76을 본편·활성 Notes에서 삭제했다.
+삭제한 내용·결론·표를 인접 장에 흡수하지 않고 앞뒤 전환·현재 번호/시간만 정렬했다.
+S66→현재S67 Skill제작 팁, 현재S74→S75 실제구성→S76 Harness로 바로 이어진다.
+삭제한 Demo2+Lecture4분은 재배분하지 않는다. ACT장수14/23/22/25/20/15,
+ACT시간42/64/90/84/85/40, Mode Lecture182/Demo44/Case102/Reflection22/Transition23/Q&A32다.
+[변경/검토 결과](S67_S76_REMOVAL.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[번호 대응표](../../plan/SLIDE_ID_MIGRATION_119_DEC0132.md)를 따른다.
+통합/ACT7개PPT와238개렌더·내장 Notes를 검증했다. 남은119장 화면은 번호·참조 외에 같다.
+이미지·측정값·Claim Boundary를 유지하고43개 정적Fallback 경로/해시도 정렬했다.
+Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않았다.
+이하 이력은 당시 판본이며 삭제된 장이나 과거 검증을 현재판 내용으로 취급하지 않는다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `458599abd9b5f355604717e2a8abd6dbfb577cf53c0e1e7d32171b732d86e972` |
+| `production/ACT_0.pptx` | `4585d524b6a5d55e8584d6bbbc53e93d3bb9931de8c098f949795388abb2d86a` |
+| `production/ACT_1.pptx` | `056f13864acbcd51318b87de0d30466a3c6fc4db26807e01a510053ddd6568b7` |
+| `production/ACT_2.pptx` | `a1fc9be244f6a6836d0149e018d0eb4b143cbff2bb53959fcdb7ba01c1587407` |
+| `production/ACT_3.pptx` | `d11976483da0b43054488668f8d6473d2279b794e2c43f096b87c9382e5daaa5` |
+| `production/ACT_4.pptx` | `da1c5978749a9376224bde64b109ac72cdd199fe74c57394c1fca9f9d2dfca79` |
+| `production/ACT_5.pptx` | `01b0f9ec5ae1e1ea9879773e5536379487e6f37a4bbbf0806a1fda0e73b1f458` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `2df107a5aee3809ec4ebc1d5b4a20b2aba967477cba4210cb7e04503b82a7b4b` |
+| `production/preview/full/montage.png` | `e254c773b83c64c91342c2d1d8cb80130823dc6db5da6087b158b51a8e821826` |
+| `production/preview/act0/montage.png` | `eb37120330c3892db3b31993c8ae3863e9818f6873f08f987a037a95d5bb9cb6` |
+| `production/preview/act1/montage.png` | `a23d9561b294917588e5e0d8241be709c79883b79366b3470f094a17fca705ab` |
+| `production/preview/act2/montage.png` | `d7e66c468274d0aa80b83000ac284535d12b366fd81ebbfef849e713da0112a1` |
+| `production/preview/act3/montage.png` | `3c2cb78019a5dd6414e7bf51c16d248cb7d6d4d50a7128a1276fc7fe07c87896` |
+| `production/preview/act4/montage.png` | `c664a90456f7c8826681096f54103aa8bfe251d6d5c88be5e474b9122d402ddd` |
+| `production/preview/act5/montage.png` | `8389cfdfe065b0d9d0dbcde3b8894f26d19d7256087de39ba35b0ab852036484` |
+| `production/preview/full/S66.png` | `e97b7e9018d93c1578149c627c953a96fb00f94cc1745bfcf5a2de29bffb69e4` |
+| `production/preview/full/S67.png` | `d0afef596117e2746ef1a453b2357b79cde7c657b88020963298f26aae933899` |
+| `production/preview/full/S74.png` | `993fce02a4cd9928ace09f6f7eefe5f4276a5c79b830d99055a266d158a1a04e` |
+| `production/preview/full/S75.png` | `381538ec7a431bfcd7fd61422be557f179f4bfb98311377c30c12287950d6d29` |
+
+## 보존된 이전 전달 기록
+
 ## S68 본편 삭제·근거 보존 — DEC-0131 (2026-11-02)
 
 현재 **121장·411분(6시간51분)**. S67은 지침 포함/실제 수행을 구분하고 현재 S68 Skill 제작 팁으로 이어진다.

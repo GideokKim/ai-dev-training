@@ -26,7 +26,8 @@ import {contextHandoffFactories} from './act1-context-handoff.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 import {beforeContextSequence,reorderContextFactories,applyContextSequence} from './context-sequence-120.mjs';
 import {isSkillEvidenceSlide,beforeSkillEvidenceSplit,migrateSkillEvidenceFactories,applySkillEvidenceSplit} from './skill-evidence-split-122.mjs';
-import {CURRENT_SLIDE_COUNT,beforeS68Removal,migrateS68RemovalFactories,applyS68Removal} from './skill-evidence-removal-121.mjs';
+import {beforeS68Removal,migrateS68RemovalFactories,applyS68Removal} from './skill-evidence-removal-121.mjs';
+import {CURRENT_SLIDE_COUNT,beforeAct3Trim,migrateAct3TrimFactories,applyAct3Trim} from './act3-trim-119.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
 const ROOT=process.env.TRAINING_REPO??path.resolve(here,'../../..');
@@ -48,7 +49,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d{2,3}) — ([\s\S]*?)(?=^#### S\d{2,3}|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==CURRENT_SLIDE_COUNT)throw new Error('Expected 121 source records.');
+if(Object.keys(map).length!==CURRENT_SLIDE_COUNT)throw new Error('Expected 119 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -141,6 +142,9 @@ Object.assign(factories,split122);
 const removed121=migrateS68RemovalFactories(factories);
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,removed121);
+const trimmed119=migrateAct3TrimFactories(factories);
+for(const id of Object.keys(factories))delete factories[id];
+Object.assign(factories,trimmed119);
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -162,7 +166,7 @@ const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const id of deck.ids){
-  const id122=beforeS68Removal(id);
+  const id122=beforeS68Removal(beforeAct3Trim(id));
   const isSplitSource=isSkillEvidenceSlide(id122);
   const sourceId=isSplitSource?null:beforeContextSequence(beforeSkillEvidenceSplit(id122));
   const id121=isSplitSource?null:beforeVerificationDesign(sourceId);
@@ -185,6 +189,7 @@ for(const deck of decks){
    applySkillEvidenceSplit(s);
   }
   applyS68Removal(s);
+  applyAct3Trim(s);
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
  }
@@ -192,7 +197,7 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>['S71','S98'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>['S70','S96'].includes(id)?i+1:0).filter(Boolean);
   const tableOwners=deck.ids.map((id,i)=>id==='S54'?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,

@@ -52,12 +52,15 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Category: Training Identity
 - Strength: HARD
 - Rule: This is a developer training about ChatGPT and Codex in AI-Native
-  Development. The current net duration is411minutes under DEC-0131, within
-  the user-authorized720-minute ceiling. Use121slides under DEC-0131, including the approved
-  two Goal tips (now S104/S105), the S04 Copilot IDE tip and three
-  scoped-instruction tips S56-S58. ACT2 has22slides/90minutes; ACT3 has27slides/90minutes.
+  Development. The current net duration is405minutes under DEC-0132, within
+  the user-authorized720-minute ceiling. Use119slides under DEC-0132, including the approved
+  two Goal tips (now S102/S103), the S04 Copilot IDE tip and three
+  scoped-instruction tips S56-S58. ACT2 has22slides/90minutes; ACT3 has25slides/84minutes.
   Retain the20-slide/85-minute ACT4 and other ACT budgets/evidence.
   The prior GPU slide remains deleted; retain all other approved tips.
+- Historical DEC-0131 Rule:411minutes/121slides. DEC-0132 removes old121
+  S67 and S76 with Demo2+Lecture4minutes; do not absorb their content or
+  conclusions into other slides or active Notes. Source history remains.
 - Historical DEC-0130 Rule:417minutes/122slides. DEC-0131 removes only the
   standalone S68 and its Demo3+Case3minutes; detailed evidence remains in
   supplementary Notes/reference material. Later slides shift down by1.
@@ -78,7 +81,7 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Rationale: The audience, subject, and duration define the scope of the
   training.
 - Source: plan/MASTER_PLAN.md §§1.1–1.2
-- Validation: Does the material preserve the developer scope and the current411-minute schedule and720-minute ceiling under DEC-0131?
+- Validation: Does the material preserve the developer scope and the current405-minute schedule and720-minute ceiling under DEC-0132?
 - Change Policy: Require explicit user approval before changing the scope or
   duration.
 

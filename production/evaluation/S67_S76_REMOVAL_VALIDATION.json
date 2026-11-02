@@ -1,0 +1,115 @@
+{
+  "status": "RENDER_AND_STRUCTURE_PASS",
+  "slides": 119,
+  "minutes": 405,
+  "actCounts": [
+    14,
+    23,
+    22,
+    25,
+    20,
+    15
+  ],
+  "actMinutes": [
+    42,
+    64,
+    90,
+    84,
+    85,
+    40
+  ],
+  "modes": {
+    "Transition": 23,
+    "Lecture": 182,
+    "Reflection": 22,
+    "Case": 102,
+    "Demo": 44,
+    "Q&A": 32
+  },
+  "removedSlides": [
+    "previous121-ID S67",
+    "previous121-ID S76"
+  ],
+  "retainedSkillDemoMinutes": [
+    1,
+    2
+  ],
+  "nativeTables": [
+    "S54"
+  ],
+  "nativeCharts": [
+    "S70",
+    "S96"
+  ],
+  "noteFields": 19,
+  "noteRecords": 119,
+  "renderedPngs": 238,
+  "embeddedNotes": 238,
+  "retainedScreenComparison": {
+    "pixel-identical": 66,
+    "reference-only": 53
+  },
+  "changedInlineReferences": [
+    "S116",
+    "S118"
+  ],
+  "fullActPixelParity": 119,
+  "preservedImages": true,
+  "preservedChartCaches": true,
+  "removedNotesAbsentFromActiveDeck": true,
+  "existingReferenceHistoryPreserved": true,
+  "noContentTransferredToRetainedSlides": true,
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "count": 119,
+      "sha256": "458599abd9b5f355604717e2a8abd6dbfb577cf53c0e1e7d32171b732d86e972"
+    },
+    {
+      "name": "ACT_0",
+      "count": 14,
+      "sha256": "4585d524b6a5d55e8584d6bbbc53e93d3bb9931de8c098f949795388abb2d86a"
+    },
+    {
+      "name": "ACT_1",
+      "count": 23,
+      "sha256": "056f13864acbcd51318b87de0d30466a3c6fc4db26807e01a510053ddd6568b7"
+    },
+    {
+      "name": "ACT_2",
+      "count": 22,
+      "sha256": "a1fc9be244f6a6836d0149e018d0eb4b143cbff2bb53959fcdb7ba01c1587407"
+    },
+    {
+      "name": "ACT_3",
+      "count": 25,
+      "sha256": "d11976483da0b43054488668f8d6473d2279b794e2c43f096b87c9382e5daaa5"
+    },
+    {
+      "name": "ACT_4",
+      "count": 20,
+      "sha256": "da1c5978749a9376224bde64b109ac72cdd199fe74c57394c1fca9f9d2dfca79"
+    },
+    {
+      "name": "ACT_5",
+      "count": 15,
+      "sha256": "01b0f9ec5ae1e1ea9879773e5536379487e6f37a4bbbf0806a1fda0e73b1f458"
+    }
+  ],
+  "windows": "UNVERIFIED",
+  "room": "UNVERIFIED",
+  "productAccount": "UNVERIFIED",
+  "rehearsal": "UNVERIFIED",
+  "ooxmlValidation": "PASS — all seven packages against their prior committed originals",
+  "visualReview": "PASS — all six ACT montages and changed-sequence individual renders; no new P0/P1",
+  "prunedSupersededPreviewPaths": [
+    "production/preview/full/S121.png",
+    "production/preview/full/S120.png",
+    "production/preview/act3/S86.png",
+    "production/preview/act3/S85.png",
+    "production/preview/act4/S105.png",
+    "production/preview/act4/S106.png",
+    "production/preview/act5/S121.png",
+    "production/preview/act5/S120.png"
+  ]
+}

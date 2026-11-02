@@ -12992,3 +12992,88 @@ audit detail, and place each where the audience can use it.
 Render and compare final packages, validate retained evidence and current
 references, then commit/push normally. Keep Windows, room, product-account
 and timed rehearsal unverified. Do not change the Demo repository or Sites.
+
+# DEC-0132 — Remove S67 and S76 without absorbing their lessons
+
+## Status
+
+ACCEPTED — explicit user approval to delete the two slides and only smooth
+adjacent connections, without absorbing their content into other slides.
+
+## Date
+
+2026-11-02
+
+## Context
+
+The current121-slide edition includes S67 instruction-body inclusion and
+S76 knowledge-source audit. Review considered whether these standalone
+lessons justify their explanation cost for an audience unfamiliar with
+the Demo code. The user chose deletion without the proposed absorption.
+
+## Problem
+
+Remove the two lessons while keeping the remaining concept sequence,
+evidence boundaries and adjacent transitions coherent.
+
+## Decision
+
+Delete old121-edition S67 and S76. Do not copy their content, conclusions,
+tables or supplements into another slide or active Notes. Create no new
+reference artifact. Original material remains in Git history and existing
+sources; the pre-existing old122-edition S68 reference remains historical.
+Connect S66 directly to the Skill-creation tip, now S67. Connect oldS75,
+now S74, directly to the existing role summary, now S75. Remove only the
+promises or assumptions that the deleted material will be or was shown.
+Use119slides/405minutes. ACT3 becomes25slides/84minutes. Remove Demo2 and
+Lecture4minutes only; do not redistribute any remaining slide allocation.
+Shift oldS68-S75 down1 and oldS77-S121 down2. Keep all evidence IDs stable.
+This supersedes DEC-0131's active S67 supplementary-Notes route; prior
+records and the already-existing reference keep their historical meaning.
+
+## Rationale
+
+The user prefers the direct learning sequence over a separate audit or a
+compressed replay in adjacent slides. Preserve remaining material and
+provenance without recreating the deleted lessons elsewhere in the deck.
+
+## Alternatives
+
+Keep the standalone lessons: not selected.
+Absorb their conclusions into adjacent slides: explicitly not approved.
+Create new supporting references: outside the approved scope.
+
+## Trade-offs
+
+The main presentation no longer separately explains instruction-body
+inclusion or the Demo knowledge-source audit. Existing source records
+remain available. Do not reinterpret deletion as a failed Trial, a new
+Memory conclusion, or proof of instruction compliance or Skill effects.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-RESEARCH-004, INV-DIFFICULTY-001, INV-SOT-001.
+
+## Affected Artifacts
+
+Current Map/template mapping, Notes, source adapter, affected ACT/full
+packages, previews, planning/runbook routes and delivery identities.
+Do not change the Demo repository, Sites or presenter bundle.
+
+## Evidence
+
+Explicit user instruction; existing TRIAL-008, DEC-0017, DEC-0018 and
+BEAT-021/026-028 source records. No new Trial, benchmark, product execution
+or timed rehearsal is introduced.
+
+## Training Relevance
+
+YES — preserve the intended sequence while respecting the user's choice
+to remove a lesson rather than relocate its explanation.
+
+## Follow-up
+
+Render and compare final packages, validate119slide IDs,405minutes, Notes
+and current references, then commit/push normally. Keep Windows, room,
+product-account and timed rehearsal gates unverified.

@@ -1,5 +1,16 @@
 # Current presentation source
 
+Current: DEC-0132 /119slides/405minutes. Apply `act3-trim-119.mjs` once
+after the retained121-ID stage. Remove its S67/S76 factories and active
+Notes; do not transfer their content to neighboring slides or Notes.
+Keep retained source editions, assets and existing evidence history.
+Only transition cues, current identifiers and totals change for retained
+slides. Resolve earlier metadata through `beforeAct3Trim` first.
+Native table: S54. Native charts: S70/S96. Build all ACT packages for Notes.
+[Current design](../../../plan/S67_S76_REMOVAL.md).
+
+## Preserved source editions
+
 Current: DEC-0131 /121slides/411minutes. Keep the122-ID split as a retained
 source stage, then apply `skill-evidence-removal-121.mjs` once. Remove old
 S68, migrate old69-122 down1, and wrap S67 with the inclusion/execution
