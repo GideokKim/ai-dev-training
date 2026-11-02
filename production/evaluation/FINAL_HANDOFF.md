@@ -1,5 +1,38 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S65 Skill 근거3장 분할 — DEC-0130 (2026-11-02)
+
+현재 **122장·417분**. S65 발견1분 → S66 명시 요청2분 → S67 본문 포함2분,
+기존 S66의 실제 지침/행동 대조는 현재 S68로 이어진다. 앞뒤 흐름과 기존5분을 유지한다.
+ACT별 장수14/23/22/28/20/15, 시간42/64/90/96/85/40분이다.
+전체 Mode Lecture186/Demo49/Case105/Reflection22/Transition23/Q&A32를 유지한다.
+[세 장 검토](S65_SKILL_EVIDENCE_SPLIT.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[번호 대응표](../../plan/SLIDE_ID_MIGRATION_122_DEC0130.md), [통합 PPT](../AI_Dev_Training_Full.pptx),
+[ACT3 PPT](../ACT_3.pptx)를 사용한다. ACT4/5와 ACT1의 Notes 참조도 정렬했다.
+208개 최종 렌더/내장 Notes를 대조했다. 기존119장 내용·이미지·측정값과 근거는 유지한다.
+원자료는 당시 CLI 관찰이며 현재 Desktop·암묵 호출·준수/효율 성과를 새로 주장하지 않는다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. 아래 기록은 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `b6d8335e56447f1d61a33f4570c54939c34245cf558df227a16c57f31d0a89fd` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b4a0a7fe04344df28f9981c8bdb6ebe5de9414f05a6cd5227e0cdf03448e54ff` |
+| `production/ACT_2.pptx` | `71b3caffee5bab5e3dc5963a2c7f0b6c073136beaa3019a4a5b0c9db24e2f21f` |
+| `production/ACT_3.pptx` | `110ef955500365f37ee7f84ac4949a34d3a8b244de86dbe2a3853a096066274a` |
+| `production/ACT_4.pptx` | `3a5d5d1a846042c9e6105e7e0f04a04b9e63c4500ac2f23ce1ef14d59cc72de9` |
+| `production/ACT_5.pptx` | `0d78d3c6d4a5e4f4399f4413ee059cdb587962f48aa14d27208cec03acf8a28b` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `05cbb140e7c540a8585a362222f3bf20c45b31d15a179c6ce895219457732f15` |
+| `production/preview/full/montage.png` | `24280473bcae83c3ca3e793e93ceb12ea826ea6ed3ad4cba9a9f309d60efd8f2` |
+| `production/preview/act3/montage.png` | `8374d03850c3392007f4bf3db339f36adaa5cb1ba9a98b0571ba11f993fca6ae` |
+| `production/preview/act4/montage.png` | `e41de776c3d647ac0b8e79808e1d9dcb4cf7697fac65418851469d67392a0066` |
+| `production/preview/act5/montage.png` | `8265827591feffe2ff6f6c5b923d8f5817a52c41bcfb213046f00526b5e9a4b5` |
+| `production/preview/full/S65.png` | `7c6678f47e66a441548a657905f151a9304b6a0d62683a32e38d5ba7b5896fdf` |
+| `production/preview/full/S66.png` | `e97b7e9018d93c1578149c627c953a96fb00f94cc1745bfcf5a2de29bffb69e4` |
+| `production/preview/full/S67.png` | `aa7c032114c79d556f00b7258b08857cc063efbce161644a24005f6e10533314` |
+
+## 보존된 이전 전달 기록
+
 ## S61/S70 지정 문구 삭제 — DEC-0129 (2026-11-02)
 
 S61의 출처 설명3개와 S70의 보조 설명2개를 화면에서 삭제했다.

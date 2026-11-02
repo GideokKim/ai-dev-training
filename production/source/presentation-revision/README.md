@@ -1,5 +1,16 @@
 # Current presentation source
 
+Current: DEC-0130 /122slides/417minutes. Add `skill-evidence-split-122.mjs`
+once after the retained120-ID adapters. Keep all earlier factory keys,
+JSON editions, assets and historical reports. New S65-S67 own current
+footers; all retained slides receive one final display-ID conversion.
+Resolve old metadata through `beforeSkillEvidenceSplit` and preserve
+122current Notes. Native tables: S54/S68. Native charts: S72/S99.
+Build Full plus ACT3/4/5, then compare against the preserved120-slide files.
+[Split design](../../../plan/S65_SKILL_EVIDENCE_SPLIT.md).
+
+## Preserved source editions
+
 DEC-0129 removes only the approved S61 column labels/footer and the S70
 explanatory sentence/second footer. Retained factories are S50 in
 `act2-continuity.mjs` and S58 in `act3-continuity.mjs`. Preserve all Notes,

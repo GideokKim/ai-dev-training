@@ -1,5 +1,7 @@
 # MASTER EXECUTION STATUS
 
+> Current DEC-0130:122slides/417minutes. S65–S67 retain the former5Demo minutes. Use [current split review](S65_SKILL_EVIDENCE_SPLIT.md), [current handoff](FINAL_HANDOFF.md) and [122-ID crosswalk](../../plan/SLIDE_ID_MIGRATION_122_DEC0130.md). Earlier execution results below are historical; external gates remain UNVERIFIED.
+
 > Current ACT4: DEC-0094 /115slides/406minutes; ACT4 19/81. See [current review](ACT_4_LOOP_CONTROL_REVISION.md). Preserve original composition/budgets/evidence; actual Meta follow-up remains partial. Earlier validation is historical. External gates remain UNVERIFIED.
 
 > Current: DEC-0093 /115slides/406minutes. New S63/S68 are Codex authoring tips. Retained113budgets/evidence and ACT4 nineteen pages/eighty-one minutes stay fixed; current IDs follow [113→115](../../plan/SLIDE_ID_MIGRATION_115.md). See [current local result](CODEX_AUTHORING_TIPS.md). Earlier audits retain their dated edition; external gates UNVERIFIED.

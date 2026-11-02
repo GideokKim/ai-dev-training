@@ -12837,3 +12837,79 @@ YES — keep the audience screen focused while retaining evidence provenance.
 
 Validate the exact deletions, render the final files and push normally.
 Windows, room, product-account and timed rehearsal remain unverified.
+
+# DEC-0130 — Split S65 into three scoped Skill evidence slides
+
+## Status
+
+ACCEPTED — explicit user approval of the three-slide proposal.
+
+## Date
+
+2026-11-02
+
+## Context
+
+S65 combines a new performance task with discovery, explicit invocation and
+full instruction-body evidence. The user requests more readable pacing.
+
+## Problem
+
+Separate the evidence stages while preserving the five-minute allocation,
+prior selective-use rationale and following instruction/action comparison.
+
+## Decision
+
+Replace old S65 with new S65 discovery, S66 explicit request and S67 full
+body inclusion. Allocate Demo1/2/2minutes. Shift old S66-S120 forward by2.
+Use122slides/417minutes and ACT3 28slides/96minutes. Keep all ACT/Mode times,
+existing IDs, T07-A and12templates/28variants. Align Notes and planning.
+Apply one final source-edition adapter and preserve historical inputs.
+
+## Rationale
+
+Give each observed fact one screen and one audience question. Retain the
+same task and Skill name across the sequence. Establish supplied input
+before comparing instructions with actual actions on new S68.
+
+## Alternatives
+
+Keep one page with smaller text: leaves competing evidence on one screen.
+Add a separate task-introduction page: unnecessary for the short goal anchor.
+Run another Trial: outside the approved split and unnecessary for existing
+observations. Add time: not selected; five minutes remains sufficient for
+this production design, with timed rehearsal still unverified.
+
+## Trade-offs
+
+Two additional pages require reference/Notes migration. The historical CLI
+record remains the evidence; splitting it does not establish current
+Desktop support, automatic selection, compliance or performance effects.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-RESEARCH-004, INV-DIFFICULTY-001, INV-SOT-001.
+
+## Affected Artifacts
+
+Current Map/template mapping, Notes, Full/ACT3/ACT4/ACT5 packages, previews,
+source adapter, current architecture/planning and delivery identities.
+Preserve all unaffected content and prior label-cleanup decisions.
+
+## Evidence
+
+Explicit user approval, retained TRIAL-008 Task Prompt/Skill Discovery/
+Invocation/Load Evidence and DEC-0017/BEAT-021. No new product execution,
+Trial, benchmark or timed rehearsal.
+
+## Training Relevance
+
+YES — distinguish discovery, explicit selection, supplied instructions and
+observed actions without treating one as proof of the next.
+
+## Follow-up
+
+Render all final slides, validate current references and preserved evidence,
+then commit and push normally. Keep Windows, room, product-account and
+rehearsal gates unverified. Do not change the Demo repository or Sites.

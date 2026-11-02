@@ -53,11 +53,13 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Strength: HARD
 - Rule: This is a developer training about ChatGPT and Codex in AI-Native
   Development. The current net duration is417minutes under DEC-0114, within
-  the user-authorized720-minute ceiling. Use120slides, including the approved
-  two Goal tips (now S103/S104), the S04 Copilot IDE tip and three
-  scoped-instruction tips S56-S58. ACT2 now has22slides/90minutes.
+  the user-authorized720-minute ceiling. Use122slides under DEC-0130, including the approved
+  two Goal tips (now S105/S106), the S04 Copilot IDE tip and three
+  scoped-instruction tips S56-S58. ACT2 has22slides/90minutes; ACT3 has28slides/96minutes.
   Retain the20-slide/85-minute ACT4 and other ACT budgets/evidence.
   The prior GPU slide remains deleted; retain all other approved tips.
+- Historical DEC-0114 Rule:417minutes/120slides. DEC-0130 splits only S65
+  into S65-S67 within the same5Demo minutes and shifts later slides by2.
 - Historical DEC-0112 Rule:417minutes/121slides. DEC-0114 consolidates
   S26-S28 into S26/S27 within the same five minutes.
 - Historical DEC-0108 Rule:417minutes/119slides. DEC-0112 splits former

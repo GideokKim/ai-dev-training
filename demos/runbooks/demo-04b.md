@@ -1,5 +1,13 @@
 # Historical supporting runbook — DEMO-04B
 
+## Current122 presentation references — DEC-0130
+
+현재122장·417분. DEMO-04B 관련 Map 참조: 현재 Map에서 독립 Demo 배정 없음; 보존된 참고 역할만 유지. 이 목록은 회수/Case/참고 연결도 포함하며 모두 Demo 시간이라는 뜻이 아니다. 현재 번호·경로/해시는 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)와 [현행 Map](../../plan/SLIDE_MAP.md)을 따른다.
+
+현재 Live/Hybrid는 미활성이다. Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 이전 Literal S번호/상태/명령은 아래 당시 이력이며 그대로 실행하지 않는다. 새 Trial·Demo 저장소 변경은 없다.
+
+## Preserved previous operation records
+
 > Current DEC-0114 /120slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): Use current Map/Notes. Paths and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Previous121-ID S28 is removed; S29-S121 shift-1. Trial/State IDs and evidence remain unchanged. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.
 
 > Current DEC-0112 /121slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): Use current Map/Notes. Paths and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Former S26 is split within5minutes; previous S27-S119 shift+2. Trial/State IDs and evidence remain unchanged. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.

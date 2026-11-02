@@ -1,0 +1,109 @@
+{
+  "status": "RENDER_AND_STRUCTURE_PASS",
+  "slides": 122,
+  "minutes": 417,
+  "actCounts": [
+    14,
+    23,
+    22,
+    28,
+    20,
+    15
+  ],
+  "actMinutes": [
+    42,
+    64,
+    90,
+    96,
+    85,
+    40
+  ],
+  "modes": {
+    "Transition": 23,
+    "Lecture": 186,
+    "Reflection": 22,
+    "Case": 105,
+    "Demo": 49,
+    "Q&A": 32
+  },
+  "split": [
+    "S65",
+    "S66",
+    "S67"
+  ],
+  "splitDemoMinutes": [
+    1,
+    2,
+    2
+  ],
+  "nativeTables": [
+    "S54",
+    "S68"
+  ],
+  "nativeCharts": [
+    "S72",
+    "S99"
+  ],
+  "noteFields": 19,
+  "noteRecords": 122,
+  "renderedPngs": 208,
+  "retainedScreenComparison": {
+    "pixel-identical": 64,
+    "reference-only": 55
+  },
+  "changedInlineReferences": [
+    "S119",
+    "S121"
+  ],
+  "retainedSlideTextRecords": 119,
+  "fullActPixelParity": 86,
+  "preservedImages": true,
+  "preservedChartCaches": true,
+  "act1": "S25 Notes reference only",
+  "unchangedActPackages": [
+    0,
+    2
+  ],
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "count": 122,
+      "sha256": "b6d8335e56447f1d61a33f4570c54939c34245cf558df227a16c57f31d0a89fd"
+    },
+    {
+      "name": "ACT_1",
+      "count": 23,
+      "sha256": "b4a0a7fe04344df28f9981c8bdb6ebe5de9414f05a6cd5227e0cdf03448e54ff"
+    },
+    {
+      "name": "ACT_3",
+      "count": 28,
+      "sha256": "110ef955500365f37ee7f84ac4949a34d3a8b244de86dbe2a3853a096066274a"
+    },
+    {
+      "name": "ACT_4",
+      "count": 20,
+      "sha256": "3a5d5d1a846042c9e6105e7e0f04a04b9e63c4500ac2f23ce1ef14d59cc72de9"
+    },
+    {
+      "name": "ACT_5",
+      "count": 15,
+      "sha256": "0d78d3c6d4a5e4f4399f4413ee059cdb587962f48aa14d27208cec03acf8a28b"
+    }
+  ],
+  "windows": "UNVERIFIED",
+  "room": "UNVERIFIED",
+  "productAccount": "UNVERIFIED",
+  "rehearsal": "UNVERIFIED",
+  "currentAffectedPreviewCounts": {
+    "act3": 28,
+    "act4": 20,
+    "act5": 15
+  },
+  "obsoletePreviewPathsRemoved": [
+    "production/preview/act4/S86.png",
+    "production/preview/act4/S87.png",
+    "production/preview/act5/S106.png",
+    "production/preview/act5/S107.png"
+  ]
+}

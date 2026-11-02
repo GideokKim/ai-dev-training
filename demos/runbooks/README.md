@@ -1,5 +1,11 @@
 # Demo Runbooks and Static Reference Files
 
+## Current122 delivery references — DEC-0130
+
+현재122장·417분의 번호·정적 경로는 [현행 Map](../../plan/SLIDE_MAP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_122_DEC0130.md), [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. S65–S67은 기존5Demo분을1/2/2로 나눈 정적 기록이며 실제 수행 대조는 S68이다. Live/Hybrid·Windows·계정·교육장·실측 리허설은 미검증이다. 아래 Literal 번호와 예전 검증은 당시 이력으로 보존한다.
+
+## Preserved previous records
+
 > Current DEC-0114 /120slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): Use current Map/Notes. Paths and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Previous121-ID S28 is removed; S29-S121 shift-1. Trial/State IDs and evidence remain unchanged. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.
 
 > Current DEC-0112 /121slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): Use current Map/Notes. Paths and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Former S26 is split within5minutes; previous S27-S119 shift+2. Trial/State IDs and evidence remain unchanged. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.

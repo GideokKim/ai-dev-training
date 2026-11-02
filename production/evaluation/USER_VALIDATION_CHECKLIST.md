@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+현재122장·417분과 S65–S67의1/2/2분 구성은 [DEC-0130 검토](S65_SKILL_EVIDENCE_SPLIT.md), [현재 전달 안내](FINAL_HANDOFF.md), [122-ID 대응표](../../plan/SLIDE_ID_MIGRATION_122_DEC0130.md)를 따른다. CLI 관찰/현재 제품, 본문 포함/실제 수행의 경계를 유지한다. 실제5분 운영·Windows·발표PC/교육장·계정은 기존처럼 UNVERIFIED다.
+
+## 보존된 이전 체크리스트
+
 현재 S61/S70의 지정 문구 삭제와 파일 식별자는 [DEC-0129 검토](ACT3_ANNOTATED_LABEL_CLEANUP.md)와 [최종 전달 안내](FINAL_HANDOFF.md)를 따른다. 출처·측정 한계는 Notes에 보존하며 실환경 검증 상태는 유지한다.
 
 ## 보존된 이전 체크리스트

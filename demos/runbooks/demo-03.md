@@ -1,5 +1,18 @@
 # DEMO-03 — Reusable Verification Workflow
 
+## Current122 presentation references — DEC-0130
+
+현재122장·417분. DEMO-03 관련 Map 참조: S65, S66, S67, S68, S70. 이 목록은 회수/Case/참고 연결도 포함하며 모두 Demo 시간이라는 뜻이 아니다. 현재 번호·경로/해시는 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)와 [현행 Map](../../plan/SLIDE_MAP.md)을 따른다.
+
+현재 기본 순서: S65 목록 발견1분 → S66 명시 요청2분 → S67 본문 포함2분 → S68 실제 수행 기록 Demo3분.
+합계8Demo분이며 S68의 별도 Case3분과 S70 절차/답 구분, S71 후보/선택, S72 formal 제품 결과의 Lecture/Case는 추가 Demo로 세지 않는다.
+기본 정적 파일은 `production/preview/full/S65.png`, `production/preview/full/S66.png`, `production/preview/full/S67.png`, `production/preview/full/S68.png`다.
+실제 Prompt는 보존 기록을 번역 요약하며 현재 Agent를 실행하지 않는다. 전체본문 포함과 실제 수행은 구분한다.
+
+현재 Live/Hybrid는 미활성이다. Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 이전 Literal S번호/상태/명령은 아래 당시 이력이며 그대로 실행하지 않는다. 새 Trial·Demo 저장소 변경은 없다.
+
+## Preserved previous operation records
+
 > Current DEC-0114 /120slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): S65, S66, S68. Paths and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Previous121-ID S28 is removed; S29-S121 shift-1. Trial/State IDs and evidence remain unchanged. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.
 
 > Current DEC-0112 /121slides/417minutes. Current Map references (including callbacks, not all scheduled Demo slots): S66, S67, S69. Paths and hashes follow [FALLBACK_MANIFEST.md](FALLBACK_MANIFEST.md). Former S26 is split within5minutes; previous S27-S119 shift+2. Trial/State IDs and evidence remain unchanged. Earlier literal IDs below retain their historical edition. No new Trial or Live approval.

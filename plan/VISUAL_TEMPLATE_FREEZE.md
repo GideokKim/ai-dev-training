@@ -1,5 +1,29 @@
 # STEP 08 — Visual Template Conditional Freeze
 
+## 현재 제작 기준 — DEC-0130 (2026-11-02)
+
+현재 **122장·417분(6시간57분)**. 이전120장판의 S65를 발견/명시 요청/본문 포함 확인의
+S65–S67로 나눈다. Demo1/2/2분=기존5분이며 새 Trial·실행·성과를 추가하지 않는다.
+이전 S66–S120은 현재 S68–S122로+2다. ACT3는28장·96분이며 다른 ACT 시간·장수는 같다.
+Mode Lecture186/Demo49/Case105/Reflection22/Transition23/Q&A32를 유지한다.
+Native 표 S54/S68, 차트 S72/S99.12Templates/28Variants·19Notes 필드를 유지한다.
+CLI0.154.0 관찰과 현재 Desktop·계정·제품 확인, 본문 포함과 실제 수행을 구분한다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않는다.
+[분할 기획](S65_SKILL_EVIDENCE_SPLIT.md), [번호 이행](SLIDE_ID_MIGRATION_122_DEC0130.md),
+[현행 Map](SLIDE_MAP.md)을 따른다. 아래 과거 판본의 번호/시간/검증 기록은 해당 이력이다.
+
+| ACT | Current slides | Count | Minutes |
+|---|---|---:|---:|
+| ACT 0 | S01–S14 | 14 | 42 |
+| ACT 1 | S15–S37 | 23 | 64 |
+| ACT 2 | S38–S59 | 22 | 90 |
+| ACT 3 | S60–S87 | 28 | 96 |
+| ACT 4 | S88–S107 | 20 | 85 |
+| ACT 5 | S108–S122 | 15 | 40 |
+| Total | S01–S122 | 122 | 417 |
+
+## 보존된 이전 기획·판본 기록
+
 ## 현재 Context 구간 순서 — DEC-0125 (2026-11-02)
 
 현재 S45 연구 → S46 주의 사례 → S47 정보 분류 → S48 문서 배치 기준 → S49 실제 문서 분리 →

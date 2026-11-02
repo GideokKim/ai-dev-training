@@ -1,5 +1,12 @@
 # ACT 2 — Speaker Notes
 
+Current: DEC-0130 /122slides/417minutes. ACT2: S38–S59, 22slides/90minutes.19fields per slide.
+
+<details>
+<summary>이전 Notes 표지·제작 기준 보존</summary>
+
+# ACT 2 — Speaker Notes
+
 Current: DEC-0114 /120slides/417minutes. ACT2: S38–S59, 22slides/90minutes.19fields per slide. Historical paths and actual source quotations retain their editions.
 
 <details>
@@ -70,6 +77,8 @@ Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historic
 
 </details>
 
+
+</details>
 
 </details>
 
@@ -546,7 +555,6 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S45 또는 producti
 
 Validation Status: DEC-0125 — 이전 S46의 내용·배정·근거 유형을 현재 S45로 이동한다.19필드와 해당 시간/Mode를 유지하고 새 설계 연결을 검토한다. 결과는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
 
-
 ## S46 — 지침을 놓쳐도 답은 그럴듯할 수 있다
 
 Slide ID:
@@ -599,7 +607,6 @@ Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S46 또는 producti
 
 Validation Status: DEC-0125 — 이전 S47의 내용·배정·근거 유형을 현재 S46로 이동한다.19필드와 해당 시간/Mode를 유지하고 새 설계 연결을 검토한다. 결과는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
 
-
 ## S47 — 작업이 달라도 필요한 정보는 같을까?
 
 Slide ID:
@@ -645,7 +652,6 @@ Time Management: 도입40초, 두 작업40초, 공통 정보60초, 작업별 정
 Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S47 또는 production/preview/act2/S47.png. 원래 근거 유형과 실제 관찰/교육용 구분을 유지한다. 현재 재배열 검토는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
 
 Validation Status: DEC-0125 — 이전 S45의 내용·배정·근거 유형을 현재 S47로 이동한다.19필드와 해당 시간/Mode를 유지하고 새 설계 연결을 검토한다. 결과는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
-
 
 ## S48 — AGENTS.md에는 무엇을 남길까?
 
@@ -696,7 +702,6 @@ Time Management: 도입30초, 공통 안내60초, 관련 상세90초, C++ 연결
 Fallback: LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S48 또는 production/preview/act2/S48.png. 원래 근거 유형과 실제 관찰/교육용 구분을 유지한다. 현재 재배열 검토는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md 및 FINAL_HANDOFF.md를 따른다.
 
 Validation Status: DEC-0125 — 이전 S49의 내용·배정·근거 유형을 현재 S48로 이동한다.19필드와 해당 시간/Mode를 유지하고 새 설계 연결을 검토한다. 결과는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md에 기록한다. Windows PowerPoint, presentation PC, room, product/account and timed rehearsal remain UNVERIFIED.
-
 
 ## S49 — 정보를 지우지 않고 위치를 나누기
 

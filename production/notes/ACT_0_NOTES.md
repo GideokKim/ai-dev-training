@@ -1,5 +1,12 @@
 # ACT 0 — Speaker Notes
 
+Current: DEC-0130 /122slides/417minutes. ACT0: S01–S14, 14slides/42minutes.19fields per slide.
+
+<details>
+<summary>이전 Notes 표지·제작 기준 보존</summary>
+
+# ACT 0 — Speaker Notes
+
 Current: DEC-0114 /120slides/417minutes. ACT0: S01–S14, 14slides/42minutes.19fields per slide. Historical paths and actual source quotations retain their editions.
 
 <details>
@@ -75,6 +82,8 @@ Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historic
 
 </details>
 
+
+</details>
 
 </details>
 

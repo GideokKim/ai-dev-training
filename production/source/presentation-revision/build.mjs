@@ -21,10 +21,11 @@ import {applyAudienceFooter} from './audience-footers.mjs';
 import {applyAct0Terminology} from './act0-terminology.mjs';
 import {afterAct0Removal,beforeAct0Removal,applyCurrent119} from './act0-handoff-119.mjs';
 import {afterVerificationSplit,beforeVerificationSplit,applyCurrent121,verificationRequestFactories} from './verification-request-121.mjs';
-import {CURRENT_SLIDE_COUNT,afterVerificationDesign,beforeVerificationDesign,applyCurrent120,verificationDesignFactories} from './verification-request-design.mjs';
+import {afterVerificationDesign,beforeVerificationDesign,applyCurrent120,verificationDesignFactories} from './verification-request-design.mjs';
 import {contextHandoffFactories} from './act1-context-handoff.mjs';
 import {migrate99Factories,practicalTipIndexFactories,addPracticalTipBadge} from './practical-tips.mjs';
 import {beforeContextSequence,reorderContextFactories,applyContextSequence} from './context-sequence-120.mjs';
+import {CURRENT_SLIDE_COUNT,isSkillEvidenceSlide,beforeSkillEvidenceSplit,migrateSkillEvidenceFactories,applySkillEvidenceSplit} from './skill-evidence-split-122.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
 const ROOT=process.env.TRAINING_REPO??path.resolve(here,'../../..');
@@ -46,7 +47,7 @@ const map={};
 for(const m of mapText.matchAll(/^#### (S\d{2,3}) — ([\s\S]*?)(?=^#### S\d{2,3}|^## |$(?![\s\S]))/gm)){
  map[m[1]]=Object.fromEntries([...m[2].matchAll(/^- \*\*([^*]+):\*\* (.*)$/gm)].map(x=>[x[1],x[2]]));
 }
-if(Object.keys(map).length!==CURRENT_SLIDE_COUNT)throw new Error('Expected 120 source records.');
+if(Object.keys(map).length!==CURRENT_SLIDE_COUNT)throw new Error('Expected 122 source records.');
 const factories={};
 for(const name of ['act01','act23','act45','pilot']){
  const file=path.join(here,name+'.mjs');
@@ -132,6 +133,10 @@ Object.assign(factories,factories120,verificationDesignFactories(H));
 const reordered120=reorderContextFactories(factories);
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,reordered120);
+// DEC-0130 adds one final120-to122 boundary without changing retained inputs.
+const split122=migrateSkillEvidenceFactories(factories,H);
+for(const id of Object.keys(factories))delete factories[id];
+Object.assign(factories,split122);
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -153,10 +158,11 @@ const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const id of deck.ids){
-  const sourceId=beforeContextSequence(id);
-  const id121=beforeVerificationDesign(sourceId);
-  const isCurrentSource=['S26','S27','S37','S38'].includes(id121);
-  const id119=beforeVerificationSplit(id121);
+  const isSplitSource=isSkillEvidenceSlide(id);
+  const sourceId=isSplitSource?null:beforeContextSequence(beforeSkillEvidenceSplit(id));
+  const id121=isSplitSource?null:beforeVerificationDesign(sourceId);
+  const isCurrentSource=isSplitSource||['S26','S27','S37','S38'].includes(id121);
+  const id119=isSplitSource?null:beforeVerificationSplit(id121);
   const id120=isCurrentSource?null:beforeAct0Removal(id119);
   const before=p.slides.items.length;const s=factories[id](p,H);
   if(p.slides.items.length!==before+1)throw new Error('Each factory must add exactly one slide: '+id);
@@ -168,8 +174,11 @@ for(const deck of decks){
    applyCurrent119(s);
    applyCurrent121(s);
   }
-  applyCurrent120(s);
-  applyContextSequence(s);
+  if(!isSplitSource){
+   applyCurrent120(s);
+   applyContextSequence(s);
+   applySkillEvidenceSplit(s);
+  }
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
  }
@@ -177,15 +186,15 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>['S70','S97'].includes(id)?i+1:0).filter(Boolean);
-  const tableOwners=deck.ids.map((id,i)=>['S54','S66'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>['S72','S99'].includes(id)?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>['S54','S68'].includes(id)?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,
    integrityValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_package_integrity.py'),
    layoutValidatorPath:path.join(SKILL,'container_tools/inspect_presentation_layout_geometry.py'),
    layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit',...tableOwners.flatMap(owner=>['--require-native-table-slide',String(owner)])],
-   explicitTotalSlideCount:deck.ids.length,requiredNativeChartOwnerSlides:chartOwners,requiredNativeTableOwnerSlides:tableOwners,materializeLiteralChartWorkbooks:false,
+   explicitTotalSlideCount:deck.ids.length,requiredNativeChartOwnerSlides:chartOwners,requiredNativeTableOwnerSlides:tableOwners,materializeLiteralChartWorkbooks:true,
    fontPolicy:{basis:'reference',families:[H.FONT,H.CODE],referencePath:baseline,referenceSha256:createHash('sha256').update(await fs.readFile(baseline)).digest('hex')},
    verifyArtifactToolImport:true,receiptPath:path.join(buildDir,deck.name+'.validation.json')
   });
