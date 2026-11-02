@@ -1,5 +1,12 @@
 # STEP 08 — Slide Template Architecture
 
+## 현재 S64의 T05-A 적용 — DEC-0128
+
+기존 Workflow 재사용 그림에서 A/B 두 성능 요청에만 같은 Skill을 연결하고,
+C README 영어 수정에는 연결하지 않는다. 같은3px 선과 native 화살촉을 유지한다.
+특정 작업별 적용/비적용 비교를 위한 기존 T05-A 사용이며 새 Template/Variant를 추가하지 않는다.
+12Templates/28Variants를 유지한다. [현재 설계](S64_SELECTIVE_SKILL.md)를 따른다.
+
 ## 현재 S59의 T04-A 적용 — DEC-0127
 
 기존2대상 비교를 같은 성능 요청의 프로젝트 기준/안내와 수행 순서에 적용한다.

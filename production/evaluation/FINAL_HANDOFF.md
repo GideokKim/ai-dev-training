@@ -1,5 +1,33 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S64 필요한 작업에만 Skill 선택 — DEC-0128 (2026-11-02)
+
+성능 조사 A/B에 같은 Skill을 연결하고 C README 영어 수정에는 연결하지 않는다.
+프로젝트 공통 지침은 세 작업 모두 참고하며, AGENTS.md에도 절차를 쓸 수 있다.
+S64 4분=Lecture4분, S63→S64→S65 연결과120장·417분을 유지한다.
+[수정 S64](../preview/full/S64.png), [통합 PPT](../AI_Dev_Training_Full.pptx),
+[ACT3 PPT](../ACT_3.pptx), [현재 검토](S64_SELECTIVE_SKILL_REVISION.md).
+146개 최종 렌더/내장 Notes를 대조했다. 다른119장 화면·Notes와5개 ACT PPT는 같다.
+A/B는 기존 Task 요약, C는 비교용 요청이며 실제 호출/미호출 실험·준수/효율 성과가 아니다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. 아래 기록은 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `a17963d8bad61e3841ee4b31b9dd2d70a4f115c287a5e0f5bc44f4cb24505442` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `71b3caffee5bab5e3dc5963a2c7f0b6c073136beaa3019a4a5b0c9db24e2f21f` |
+| `production/ACT_3.pptx` | `05eb5f8d172ea784e093223f8a2fbd822c1fedbb2b6353304240363833e54883` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `4a689778ec9715b120fdf469ba52bb6eb88973a7b907db4fe933e3a298377b73` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `c308fe5af3ffeb5ab2bbd9f3378599d9413be59628b997c5b34b57fa2e489533` |
+| `production/notes/ACT_3_NOTES.md` | `5595fd9bef4c8ef2b1b2de92f167a3b05e61371fc5de7b00a85f8cda22c5ae07` |
+| `production/preview/full/montage.png` | `a502cf8d9382068267baadf95c3943907ea02f37b839ba30e787edf1750a14b8` |
+| `production/preview/act3/montage.png` | `c51a3858a5e30e6302ce8cff0ed9cb0b4d13f3314db96be91b52bea94c8467b4` |
+| `production/preview/full/S64.png` | `33db10887ff7aaa0ecc51243368f14afc1b0f58632588bc9e518d8edf0d90a4f` |
+
+## 보존된 이전 전달 기록
+
 ## S59 Context·Workflow 역할 비교 — DEC-0127 (2026-11-02)
 
 같은 normalize 요청 아래 AGENTS.md의 프로젝트 기준/안내와3단계 작업 레일을 대비한다.

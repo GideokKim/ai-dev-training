@@ -91,31 +91,37 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S53(p){
-   const s=make(p,'S53','반복 절차를 Skill로 모으는 이유','ACT 3 · 이번 요청과 프로젝트가 유지할 수행 방법',
-    'DEC-0017 · 프로젝트 Skill을 선택한 설계 의도 · 왼쪽 요청은 교육용 요약',
-    '설계 선택이며 성공 증명 아님 · 현재 제품 표면·계정·호출 경로는 별도 확인');
-   text(s,'작업마다 달라지는 요청',64,179,492,42,30,C.ink,true);
+   const s=make(p,'S53','같은 Skill도 필요한 작업에만 쓴다','ACT 3 · 이번 요청과 프로젝트가 유지할 수행 방법',
+    'DEC-0017 · 프로젝트 Skill 선택의 설계 예 · A/B는 요약, C는 비교용 요청',
+    '자동 선택·미호출 관찰 아님 · AGENTS.md에도 절차를 둘 수 있음');
+   text(s,'AGENTS.md의 공통 지침은 세 작업 모두 참고',64,179,1152,42,28,C.ink,true);
    const requests=[
-    [244,'A  resize_nearest 성능 조사'],
-    [399,'B  normalize 성능 조사']
+    [232,'A  resize_nearest 성능 조사'],
+    [338,'B  normalize 성능 조사']
    ];
    requests.forEach(([y,goal])=>{
-    rect(s,64,y,488,121,C.white,C.line,1);
-    text(s,goal,84,y+12,448,42,27,C.teal,true);
-    text(s,'이번 목표 · 허용 범위 · 보존 조건',84,y+71,448,32,24,C.sub);
+    rect(s,64,y,520,82,C.white,C.line,1);
+    text(s,goal,84,y+6,480,36,27,C.teal,true);
+    text(s,'이번 목표 · 허용 범위 · 보존 조건',84,y+47,480,28,23,C.sub);
    });
-   // A single repository-owned method feeds both task-specific requests.
-   rect(s,736,244,480,276,C.pale,C.line,1);
-   text(s,'한 곳에서 관리할 수행 방법',756,254,440,38,27,C.teal,true);
-   text(s,'graypipe-performance / SKILL.md',756,302,440,32,22,C.ink,true,CODE);
-   line(s,756,346,440);
-   ['측정·조사','계획·변경 판단','검증·동일 측정·보고'].forEach((t,i)=>text(s,t,756,361+i*49,440,38,28,C.ink,true));
-   // One stroke weight and native arrowheads keep the shared branch consistent.
-   s.shapes.add({geometry:'line',position:{left:665,top:304,width:0,height:155},fill:'none',line:{fill:C.teal,width:3}});
-   line(s,665,382,71,C.teal,3);
-   [304,459].forEach(y=>s.shapes.add({geometry:'connector',kind:'straight',position:{left:558,top:y,width:107,height:0},line:{fill:C.teal,width:3},head:{type:'triangle',width:'sm',length:'sm'}}));
-   text(s,'재사용',568,367,84,30,23,C.teal,true);
-   text(s,'같은 절차를 매번 다시 쓰지 않고, 한 곳에서 관리한다',64,559,1152,38,30,C.teal,true);
+   // Reuse this performance method for A/B only, not every project task.
+   rect(s,736,232,480,188,C.pale,C.line,1);
+   text(s,'성능 조사 Skill',756,242,440,38,29,C.teal,true);
+   text(s,'graypipe-performance / SKILL.md',756,287,440,32,22,C.ink,true,CODE);
+   line(s,756,329,440);
+   text(s,'측정·조사 · 계획·변경 판단',756,338,440,34,27,C.ink,true);
+   text(s,'검증·동일 측정·보고',756,380,440,32,27,C.ink,true);
+   s.shapes.add({geometry:'line',position:{left:665,top:273,width:0,height:106},fill:'none',line:{fill:C.teal,width:3}});
+   line(s,665,326,71,C.teal,3);
+   [273,379].forEach(y=>s.shapes.add({geometry:'connector',kind:'straight',position:{left:590,top:y,width:75,height:0},line:{fill:C.teal,width:3},head:{type:'triangle',width:'sm',length:'sm'}}));
+   text(s,'재사용',590,307,70,30,22,C.teal,true);
+   // C is a teaching request, not a recorded non-invocation experiment.
+   rect(s,64,454,520,90,C.white,C.line,1);
+   text(s,'C  README를 영어로 수정해줘.',84,460,480,38,27,C.ink,true);
+   text(s,'문서 문구 수정',84,506,480,29,23,C.sub);
+   text(s,'이 성능 조사 Skill은 사용하지 않음',736,459,480,40,27,C.sub,true);
+   text(s,'성능 측정 절차가 필요 없는 작업',736,508,480,31,24,C.sub);
+   text(s,'반복 절차는 한 곳에 두고, 필요한 작업에만 연결한다',64,562,1152,38,30,C.teal,true);
    return s;
   },
   S54(p){

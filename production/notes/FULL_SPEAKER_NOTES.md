@@ -3805,12 +3805,12 @@ LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S63, production/preview/act3/S
 
 Validation Status: ALIGNED — DEC-0064의 교육용 경계·19필드·5분 운영 흐름을 정렬했다. 실제 파일 렌더·Notes 대조는 production/evaluation/S52_TASK_COMPOSITION_REVISION.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
-## S64 — 반복 절차를 Skill로 모으는 이유
+## S64 — 같은 Skill도 필요한 작업에만 쓴다
 
 Slide ID:
 S64
 
-Working Title: 반복 절차를 Skill로 모으는 이유
+Working Title: 같은 Skill도 필요한 작업에만 쓴다
 
 ACT / Section: ACT 3 / 3C
 
@@ -3818,43 +3818,47 @@ Allocated Time: 4 minutes
 
 Mode Split: Lecture 4 minutes
 
-Primary Message: 작업마다 달라지는 목표·허용 범위·보존 조건은 이번 요청에 남기고, 같은 수행 방법은 프로젝트 Skill 한 곳에서 관리해 필요한 작업에 다시 연결하려는 선택이다.
+Primary Message: 이번 목표·허용 범위·보존 조건은 요청마다 정한다. 반복되는 성능 조사 방법은 프로젝트 Skill 한 곳에서 관리해 필요한 A/B에만 연결하고, C의 README 영어 수정에는 이 성능 조사 Skill을 쓰지 않는 설계다. 공통 프로젝트 지침은 세 작업 모두 참고한다.
 
-Opening Question: “다음 작업에도 같은 방법이 필요하다면, 무엇을 다시 쓰고 무엇을 함께 관리할까?”
+Opening Question: “같은 프로젝트에서 작업한다고, 모든 요청에 같은 성능 조사 Skill이 필요할까요?”
 
 Speaker Flow:
-1. (0:00–0:45) S63의 ‘같은 수행 방법이 다음 작업에도 필요하다면?’을 회수한다. 왼쪽 resize_nearest와 normalize는 서로 다른 성능 조사 목표이며 요청은 교육용 요약임을 밝힌다.
-2. (0:45–1:45) 왼쪽 요청마다 이번 목표·허용 범위·추가 보존 조건을 정함을 짚는다. S63의 기존 프로젝트 기준도 계속 적용된다. 오른쪽은 이 두 작업에 필요한 공통 수행 방법을 프로젝트가 함께 관리할 문서다.
-3. (1:45–3:00) 오른쪽 Skill 문서에서 두 요청으로 갈라지는 연결을 따라간다. 같은 절차를 매번 다시 작성하지 않고 한 곳에서 검토·수정해 필요한 작업에 연결하려는 이유를 설명한다. 단계별 실행 순서는 S62에서 봤으므로 다시 강의하지 않는다. AGENTS.md에도 절차를 둘 수 있고, Skill은 이 사례에서 선택한 구현임을 덧붙인다.
-4. (3:00–4:00) DEC-0017의 프로젝트 소유 Skill 선택과 성공 검증을 구분한다. 현재 제품 표면·계정·호출 경로는 별도 확인이며 자동 준수를 보장하지 않는다. 다음 S65의 Codex CLI0.154.0 발견·명시 호출·본문 포함 기록으로 넘어간다.
+1. (0:00–0:40) S63에서 한 작업에 목표·기준·방법을 결합했음을 회수한다. 이번에는 같은 프로젝트의 세 요청에서 어떤 방법이 필요한지 비교한다. AGENTS.md의 공통 지침은 모두 참고하는 설계다.
+2. (0:40–1:40) A resize_nearest와 B normalize 성능 조사는 서로 다른 목표다. 이번 목표·허용 범위·보존 조건을 각각 정하되, 오른쪽 graypipe-performance의 측정·조사·계획/변경 판단·검증/동일 측정/보고 방법을 두 요청에 연결한다. A/B는 기존 성능 사례를 압축한 교육용 요청이지 두 실행에서 이 Skill을 실제 호출했다는 기록이 아니다.
+3. (1:40–2:40) C “README를 영어로 수정해줘.”는 비교를 위해 추가한 교육용 요청이다. 문서 문구 수정에는 성능 측정 절차가 필요하지 않으므로 이 성능 조사 Skill에는 선을 연결하지 않는다. 이 Skill 없이 진행한다는 뜻이며 프로젝트 지침·변경 검토까지 생략하거나 다른 모든 Skill이 불필요하다는 뜻은 아니다.
+4. (2:40–3:25) 한 곳에서 관리하는 일은 AGENTS.md로도 가능하고 그 파일에 절차를 쓸 수도 있다. 여기서는 특정 작업 종류에 선택해 쓸 재사용 단위로 Skill을 택했다. 공통 지침과 작업별 방법의 적용 범위를 구분하며 짧고 널리 적용되는 절차까지 모두 옮길 필요는 없다. 선택·호출이 자동으로 정확하다는 보장은 하지 않는다.
+5. (3:25–4:00) DEC-0017의 설계 선택과 실제 발견·호출 증거를 구분한다. 다음 S65에서 Codex CLI0.154.0의 목록·명시 호출·본문 포함 기록을 확인한다고 연결한다. 현재 발표 제품 표면·계정은 별도 확인이다.
 
-Evidence / Source: DEC-0017; BEAT-020/021; plan/DEMO_MATRIX.md의 TRIAL-006/007 반복 요청과 TRIAL-008 연결; STATE-04의 .agents/skills/graypipe-performance/SKILL.md. 왼쪽 요청은 실제 Prompt 전문이 아닌 교육용 요약이고 오른쪽 절차도 요약이다. 실제 발견·호출 근거는 S66에서 확인한다.
+Evidence / Source: DEC-0017; BEAT-020/021; plan/DEMO_MATRIX.md의 TRIAL-006/007 반복 요청과 TRIAL-008 연결; STATE-04의 .agents/skills/graypipe-performance/SKILL.md. 왼쪽 요청은 실제 Prompt 전문이 아닌 교육용 요약이고 오른쪽 절차도 요약이다. 실제 발견·호출 근거는 S65에서 확인한다.
 
 보존된 상세 출처: DEC-0017 · 프로젝트 Skill을 선택한 설계 의도 · 왼쪽 요청은 교육용 요약
+
+DEC-0128. C의 README 영어 수정은 사용자가 제안한 비교용 요청이며 실제 Trial이나 미호출 관찰 결과가 아니다. A/B는 기존 TRIAL-006/007의 작업과 반복 절차를 요약한 교육용 구성이다. [OpenAI Build skills](https://learn.chatgpt.com/docs/build-skills), [OpenAI AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md), checked2026-11-02. 공식 가이드는 Skill의 이름/설명에 따른 탐색·명시 선택과 선택 후 본문 로딩, AGENTS.md의 프로젝트 지침 및 실행 요구 예를 설명한다. 화면은 실제 자동 선택 실험이나 UI 캡처가 아니다.
 
 Claim Boundary: TEACHING_MODEL / REQUIRES PRODUCT CHECK를 유지한다. 설계 선택은 ACCEPTED지만 이 화면은 실제 UI·실행 trace·성공 결과나 현재 Desktop 가용성 검증이 아니다. 같은 Skill을 두 작업이 자동 호출했거나 반드시 준수했다고 주장하지 않는다. Skill 우월성·토큰 절감·속도 향상·Harness 단독 인과성을 입증하지 않는다. AGENTS.md에도 절차를 기록할 수 있으며 모든 작업에 같은 Skill이 필수라는 뜻이 아니다.
 
 보존된 상세 범위: 설계 선택이며 성공 증명 아님 · 현재 제품 표면·계정·호출 경로는 별도 확인
 
-Beginner Explanation: 작업마다 원하는 일과 범위는 다시 정하되, 필요한 공통 방법은 같은 문서에서 가져다 쓰도록 설계한다. 절차를 고칠 때도 공통 출처 한 곳에서 검토하려는 것이다.
+A/B 연결과 C 미연결은 필요한 작업에 방법을 선택한다는 교육용 설계다. C에서 실제로 Skill이 호출되지 않았음을 검증한 것이 아니다. 모든 Skill이나 모든 검증이 불필요하다는 주장을 하지 않는다. AGENTS.md의 공통 지침 역시 해당 범위에서 참고하는 것으로, 모든 상황에서 자동 준수된다고 보장하지 않는다. 절차의 저장 위치와 실행 여부·준수·효과는 서로 다른 근거가 필요하다.
 
-Advanced Insight: Task별 적용 조건과 절차의 소유·갱신 책임을 구분한다. Skill 선택 이유는 반복성과 공동 관리 필요이며 기능 수를 늘리는 것이 목적이 아니다. 프로젝트 기준·Task 제약은 공통 절차를 옮겨도 유지한다. 호출·본문 포함과 실제 지침 준수·단독 효과는 별도 근거가 필요하다. 원문에서 가시적 계획은 Task나 작업 interface가 요구할 때라는 조건을 유지하며, 측정 근거가 변경을 정당화하지 않으면 no-change 결론도 허용한다.
+Beginner Explanation: 성능을 조사할 때에는 같은 성능 조사 방법을 다시 쓴다. README의 언어만 바꾸는 작업에는 그 성능 측정 방법을 가져오지 않는다. 프로젝트 공통 기준은 두 종류의 작업 모두에서 참고한다.
+
+Advanced Insight: 절차의 공동 관리만으로 AGENTS.md와 Skill을 구분하지 않는다. 특정 작업 종류에 선택해서 재사용할 단위가 필요해 Skill을 택한 설계다. AGENTS.md에도 절차를 기록할 수 있고, 공통 지침과 Skill의 내용은 상호 배타적인 제품 분류가 아니다. 기존 Task별 적용 조건과 절차의 소유·갱신 책임을 유지한다. 실제 선택·호출·본문 포함·수행·단독 효과를 구분한다. 원문의 가시적 계획은 Task나 interface가 요구할 때라는 조건을 지키며, 측정 근거가 변경을 정당화하지 않으면 no-change 결론도 허용한다.
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: STATIC TEACHING DIAGRAM — 왼쪽 두 요청의 바뀌는 내용, 오른쪽 Skill 한 개, 두 요청으로 갈라지는 재사용 연결, 하단의 공동 관리 이유 순으로 짚는다. 파일·제품을 실행하지 않고 Skill 본문 전체나 성공 기록을 미리 공개하지 않는다.
+Demo Operation: STATIC TEACHING DIAGRAM — 상단 공통 지침, A/B의 요청별 목표/범위/조건, 두 작업에만 연결된 성능 조사 Skill, 선이 없는 C README 요청, 하단의 선택적 연결 순서로 짚는다. A/B에서 실제 Skill을 실행했거나 C에서 미호출을 관찰한 듯 설명하지 않는다. 새 실행·성공 기록·Skill 전문을 공개하지 않는다.
 
-Audience Interaction: ‘같은 검증 절차를 고칠 때 각 요청을 따로 고칠까요, 공통 방법을 함께 검토할까요?’를 짧게 던지고 한 곳에서 관리한다는 문장으로 회수한다. 별도 실습·Q&A 시간을 추가하지 않는다.
+Audience Interaction: “README를 영어로 바꾸는데 성능 기준선 측정까지 필요할까요?”를 짧게 묻고, 성능 조사 Skill은 쓰지 않아도 공통 지침과 필요한 변경 검토는 유지한다고 회수한다. 별도 실습·Q&A 시간을 추가하지 않는다.
 
 Transition: “이제 당시 CLI 기록에서 이 Skill이 어떻게 발견되고, 작업 요청과 함께 호출됐는지 확인하겠습니다.”
 
-Time Management:
-Lecture4분: S63 회수0.75, 요청/기준 구분1, 공통 Skill과 관리 이유1.25, 선택 범위/S61 연결1. 시간이 부족하면 절차 항목 설명을 줄이고 Task별 정보·한 곳의 방법·설계 경계는 유지한다.
+Time Management: Lecture4분: S63 회수/공통 지침0:40, A/B 연결1:00, C 미연결1:00, Skill 선택 이유/AGENTS.md 범위0:45, S65 실제 기록 전환0:35. 시간이 부족하면 절차 항목 낭독을 줄이고 A/B와 C의 적용 차이·근거 경계를 유지한다.
 
-Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx / S64, production/preview/act3/S64.png 및 production/preview/full/S64.png. 실제 실행 캡처가 아닌 교육용 선택·재사용 도식이다. 최종 패키지·PNG·내장 Notes 확인은 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md를 따른다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S64, production/preview/act3/S64.png 및 production/preview/full/S64.png. 교육용 선택·재사용 도식이며 실행 캡처가 아니다. 최종 패키지·PNG·내장 Notes 대조는 production/evaluation/S64_SELECTIVE_SKILL_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표PC 재생은 UNVERIFIED다.
 
-Validation Status: ALIGNED — DEC-0065의19필드·4분 운영·교육용/제품 확인 경계를 유지하고 DEC-0066의 동일 굵기 연결선과 정렬했다. 실제 파일 렌더·Notes 대조는 production/evaluation/S53_S54_SKILL_EVIDENCE_REVISION.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0128에 따라19필드·Lecture4분·기존 Story/Claim ID와 교육용/제품 확인 경계를 유지한다. C는 PLANNED가 아니라 정적 비교 예시이며 실행 검증을 수행하지 않는다. 파일 렌더·Notes/시간/범위 대조는 production/evaluation/S64_SELECTIVE_SKILL_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+
 
 ## S65 — Skill 발견·호출·본문 포함의 근거
 

@@ -12703,3 +12703,74 @@ without equating file placement with execution compliance or benefits.
 
 Render and compare final packages, preserve unrelated artifacts and push
 normally. Keep Windows, room, account and rehearsal gates unverified.
+
+# DEC-0128 — Show selective performance Skill use on S64
+
+## Status
+
+ACCEPTED — explicit user instruction to add a third task without this Skill.
+
+## Date
+
+2026-11-02
+
+## Context
+
+S64 explains one maintained performance procedure for two tasks. The user
+asks why a Skill is preferable to AGENTS.md and approves a README example.
+
+## Problem
+
+Central maintenance alone also works in AGENTS.md. Show task-specific reuse
+without implying that every request needs the same performance procedure.
+
+## Decision
+
+Connect the performance Skill to A resize_nearest and B normalize. Add C,
+a README English-edit request, without a connection to this Skill. Retain
+common project guidance for all three tasks and task-specific constraints.
+Keep Lecture4, existing IDs, T05-A and the 120-slide/417-minute plan.
+Align the source, Notes, Map, packages, previews and delivery records.
+
+## Rationale
+
+The third request makes the selection boundary visible. A Skill packages a
+reusable method for relevant work. AGENTS.md can also contain procedures;
+this is a design choice about applicability, not an exclusive file rule.
+
+## Alternatives
+
+Keep only A/B: explains reuse but leaves irrelevant tasks unaddressed.
+Put the procedure in AGENTS.md: possible, not prohibited by the product.
+Run C as a new Trial: unnecessary for a teaching comparison and out of scope.
+
+## Trade-offs
+
+Three requests use more space. Shorten repeated task detail and preserve the
+method, not the font hierarchy. No connector to C is a designed relation,
+not measured evidence of correct automatic selection or non-invocation.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESEARCH-002,
+INV-RESEARCH-004, INV-DIFFICULTY-001, INV-SOT-001.
+
+## Affected Artifacts
+
+S64 source/footer, Map/template mapping, Notes, Full/ACT3 packages, previews,
+claim/design/transition records and current delivery identities.
+
+## Evidence
+
+User instruction, DEC-0017, preserved TRIAL-006/007/008 and official OpenAI
+Build skills and AGENTS.md guides checked2026-11-02. No new execution.
+
+## Training Relevance
+
+YES — apply the relevant reusable method while retaining common guidance.
+Separate selection design from invocation, compliance and measured effects.
+
+## Follow-up
+
+Render and compare final files. Push normally under the standing Git policy.
+Keep Windows, room, product-account and timed rehearsal unverified.

@@ -1,5 +1,11 @@
 # Current presentation source
 
+S64 selective Skill use: DEC-0128 replaces retained factory `S53` in
+`act3-continuity.mjs`, which reaches current `S64`. Connect the performance
+Skill only to A/B. C is a teaching README request without this method.
+Keep common guidance, current Notes, original source editions and all IDs.
+Only Full and ACT3 packages change; preserve all unrelated package parts.
+
 S59 context/workflow comparison: DEC-0127 replaces retained factory `S49`
 in `act2-continuity.mjs`, which reaches current `S59`. Keep the current
 footer's nonexclusive placement cue and the SKILL.md candidate label.

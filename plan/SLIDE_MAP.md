@@ -1663,30 +1663,30 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0062, DEC-0063, DEC-0064
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S64 — 반복 절차를 Skill로 모으는 이유
+#### S64 — 같은 Skill도 필요한 작업에만 쓴다
 
 - **Slide ID:** S64
 - **ACT:** ACT 3
 - **Section:** 3C Reusable Skill 시작
-- **Working Title:** 반복 절차를 Skill로 모으는 이유
-- **Primary Role:** 작업마다 바뀌는 요청과 한 곳에서 관리할 수행 방법을 연결해 프로젝트 Skill을 선택한 이유를 보여준다.
-- **Audience Question:** “다음 작업에도 같은 방법이 필요하다면, 무엇을 다시 쓰고 무엇을 함께 관리할까?”
-- **Core Message:** 작업마다 달라지는 목표·허용 범위·보존 조건은 이번 요청에 남기고, 같은 수행 방법은 프로젝트 Skill 한 곳에서 관리해 필요한 작업에 다시 연결하려는 선택이다.
+- **Working Title:** 같은 Skill도 필요한 작업에만 쓴다
+- **Primary Role:** 같은 성능 조사 Skill을 A/B에 재사용하고 C에는 쓰지 않는 비교로, 특정 작업에 선택해 쓸 수행 방법이라는 이유를 보여준다.
+- **Audience Question:** “같은 프로젝트에서 작업한다고, 모든 요청에 같은 성능 조사 Skill이 필요할까?”
+- **Core Message:** AGENTS.md의 공통 지침은 세 작업 모두 참고한다. 요청별 목표·허용 범위·보존 조건은 각각 정하고, 반복되는 성능 조사 방법은 Skill 한 곳에서 관리해 A/B에 연결한다. README 영어 수정 C에는 그 성능 조사 방법이 필요하지 않다.
 - **Story Beat:** BEAT-020 → BEAT-021; DEC-0017
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; DEC-0017은 ACCEPTED. 현재 교육 환경에서의 Product availability는 `REQUIRES PRODUCT CHECK`. Skill discovery/invocation Trial 결과는 다음 구간에 둔다.
-- **Visual Concept:** 왼쪽 두 요청은 목표·허용 범위·보존 조건이 달라짐을 보여준다. 오른쪽 Skill 하나에서 동일한 3px 선과 작은 화살촉으로 두 요청에 연결하고, 같은 절차를 한 곳에서 관리한다는 이유를 하단에 둔다. 연결은 교육용 재사용 관계이며 실제 호출 기록이 아니다.
-- **Demo / Case Connection:** 저장소 소유의 재사용 절차를 검토하기로 한 결정까지만 보여준다. 성공 결과나 Skill 전문은 제시하지 않는다.
-- **Beginner Payoff:** 이번 요청에서 정할 내용과 여러 작업에 다시 연결할 방법을 구분하고 반복 절차를 Skill에 모으는 이유를 이해한다.
-- **Advanced Payoff:** Task별 적용 조건과 공동 갱신할 절차의 관리 단위를 분리하며, 설계 선택과 실제 발견·호출 근거를 구분한다.
+- **Visual Concept:** 왼쪽 A resize_nearest, B normalize 성능 조사 요청은 오른쪽 성능 조사 Skill 한 개에 같은3px 선/화살촉으로 연결한다. 아래 C README 영어 수정 요청에는 연결선을 두지 않고 “이 성능 조사 Skill은 사용하지 않음”을 표시한다. 상단은 세 작업 모두 공통 지침을 참고함을, 하단은 필요한 작업에만 방법을 연결함을 회수한다. 실제 호출/미호출 관찰 도식이 아니다.
+- **Demo / Case Connection:** DEC-0017의 프로젝트 소유 성능 조사 Skill 선택 이유를 설명한다. A/B는 기존 성능 Task의 교육용 요약, C는 사용자 제안 비교 요청이다. 성공 결과·Skill 전문·새 Trial을 제시하지 않는다.
+- **Beginner Payoff:** 같은 프로젝트의 공통 기준은 유지하면서 작업 종류에 필요한 수행 방법만 선택한다는 점을 A/B와 C에서 이해한다.
+- **Advanced Payoff:** 공동 관리만으로 AGENTS.md와 Skill을 구분하지 않고 적용 범위와 재사용 단위로 선택한다. 절차를 AGENTS.md에 둘 수도 있으며 실제 선택·호출·수행 근거는 별도로 확인한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S63의 다음 작업 질문을 회수해 두 요청이 같은 방법을 연결하는 모습을 보여준다. 방법의 단계별 실행을 다시 강의하지 않고 매번 재작성과 공동 관리의 차이를 설명한다. Skill은 이 사례의 구현 선택이며 실제 포함 근거는 다음 장에 둔다.
+- **Speaker Intent:** S63의 다음 작업 질문을 받아 공통 지침과 A/B의 같은 방법을 짚고 C의 미연결로 적용 범위를 드러낸다. 절차의 세부를 재강의하지 않고 매번 재작성하는 문제와 필요한 작업에 선택하는 이유를 연결한다. 실제 호출 근거는 다음 S65에서 확인한다.
 - **Transition:** “이제 당시 CLI 기록에서 이 Skill이 어떻게 발견되고, 작업 요청과 함께 호출됐는지 확인하겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-020, BEAT-021, DEC-0017, TRIAL-006, TRIAL-007, TRIAL-008, OQ-005, DEC-0062, DEC-0064, DEC-0065, DEC-0066
-- **Audience Footer:** Skill로 옮기는 설계안
+- **Evidence / Decision References:** BEAT-020, BEAT-021, DEC-0017, TRIAL-006, TRIAL-007, TRIAL-008, OQ-005, DEC-0062, DEC-0064, DEC-0065, DEC-0066, DEC-0128
+- **Audience Footer:** 작업별 Skill 선택을 보여주는 설계 예
 
 #### S65 — Skill 발견·호출·본문 포함의 근거
 

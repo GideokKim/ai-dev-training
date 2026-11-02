@@ -1,6 +1,9 @@
 # Static Fallback Manifest
 
-Current: DEC-0127 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0128 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+S64 connects one performance Skill to A/B but not the teaching README task C.
+Retain common guidance and distinguish designed selection from observed
+invocation, non-invocation or performance. Keep Lecture4 and all44fallback roles.
 S59 compares project guidance and procedure with one task. SKILL.md is a
 reuse candidate, not an observed creation/invocation or exclusive file rule.
 Keep ten minutes and all44fallback roles/classes/paths unchanged.
@@ -25,11 +28,11 @@ in the reports and source history. No Demo repository state is changed.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`3b8c9f32dd54cdefe7e50ed8e39a0c9aedb74e840a61b61b9f352f5b805378a9`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`6e0fcbb5abcb1e1340b88356ac9b1c235265c62de7a901dcc6060d642e4dc6a2`.
-- `production/preview/full/montage.png` SHA-256:`756861bad2990bc2749b8d90d02e0cdc3d31167fcda99eb0ba0a9cbedc5a106a`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`a17963d8bad61e3841ee4b31b9dd2d70a4f115c287a5e0f5bc44f4cb24505442`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`c308fe5af3ffeb5ab2bbd9f3378599d9413be59628b997c5b34b57fa2e489533`.
+- `production/preview/full/montage.png` SHA-256:`a502cf8d9382068267baadf95c3943907ea02f37b839ba30e787edf1750a14b8`.
 
-[Current revision](../../production/evaluation/S59_CONTEXT_WORKFLOW_REVISION.md),
+[Current revision](../../production/evaluation/S64_SELECTIVE_SKILL_REVISION.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
