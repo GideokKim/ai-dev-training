@@ -1,5 +1,33 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S61/S70 지정 문구 삭제 — DEC-0129 (2026-11-02)
+
+S61의 출처 설명3개와 S70의 보조 설명2개를 화면에서 삭제했다.
+측정 수치·차트·배치·Notes·기획 흐름과120장·417분은 유지한다.
+[수정 S61](../preview/full/S61.png), [수정 S70](../preview/full/S70.png),
+[통합 PPT](../AI_Dev_Training_Full.pptx), [ACT3 PPT](../ACT_3.pptx),
+[현재 검토](ACT3_ANNOTATED_LABEL_CLEANUP.md).
+146개 렌더/내장 Notes를 대조했다. 다른118장 화면과 전체120개 Notes는 같다.
+실제 발췌/요약과 측정 범위·인과 한계는 기존 Notes에 보존한다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. 아래 기록은 당시 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `2fc93f87e4ea72fed6cfc61671ead1b1e57e99bf6604765fcbc4d729e0ba0eba` |
+| `production/ACT_0.pptx` | `060300424deb939c07251e1482bbd55d26438e82ef92286f9a152b2b50e558c3` |
+| `production/ACT_1.pptx` | `b932408628a119bbe6714a73cb3543ea73354bf24bd3032f1144e31ffaa5b036` |
+| `production/ACT_2.pptx` | `71b3caffee5bab5e3dc5963a2c7f0b6c073136beaa3019a4a5b0c9db24e2f21f` |
+| `production/ACT_3.pptx` | `fe1d61794c4d2d4c491680c92332fbc3b4862b1aa02f98b7709e4e227a74551b` |
+| `production/ACT_4.pptx` | `3533951f8358ec977e68c93e5959504f83c880b05d0e75e87e376767525c9d50` |
+| `production/ACT_5.pptx` | `4a689778ec9715b120fdf469ba52bb6eb88973a7b907db4fe933e3a298377b73` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `c308fe5af3ffeb5ab2bbd9f3378599d9413be59628b997c5b34b57fa2e489533` |
+| `production/preview/full/montage.png` | `e123543be71971a4b471e60955745d197dc84abdd265d5c4b41b9ae2add5add3` |
+| `production/preview/act3/montage.png` | `38b5eaac0e21186285efe5bfc9a71bff1baa06b7698fd40c94802901c8c87530` |
+| `production/preview/full/S61.png` | `a03016e1fc822cb2c42ddd3e46197fdc8658eb801911449bb40521624ac29fc2` |
+| `production/preview/full/S70.png` | `c049b35eed1643299cc842a70a09363ed5bd5615052a8f1e939a6b478aafef4c` |
+
+## 보존된 이전 전달 기록
+
 ## S64 필요한 작업에만 Skill 선택 — DEC-0128 (2026-11-02)
 
 성능 조사 A/B에 같은 Skill을 연결하고 C README 영어 수정에는 연결하지 않는다.

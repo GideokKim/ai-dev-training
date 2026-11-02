@@ -12774,3 +12774,66 @@ Separate selection design from invocation, compliance and measured effects.
 
 Render and compare final files. Push normally under the standing Git policy.
 Keep Windows, room, product-account and timed rehearsal unverified.
+
+# DEC-0129 — Remove five annotated ACT3 labels
+
+## Status
+
+ACCEPTED — explicit user annotation instructions.
+
+## Date
+
+2026-11-02
+
+## Context
+
+The user marks five explanatory text objects on S61 and S70 for deletion.
+
+## Problem
+
+Remove the selected screen labels while preserving the evidence record.
+
+## Decision
+
+Delete the two S61 column provenance labels and its audience footer.
+Delete the S70 second audience footer and bottom explanatory sentence.
+Preserve all other text, positions, chart values and Notes. Keep the
+120-slide/417-minute plan and both Case5-minute allocations.
+
+## Rationale
+
+Apply the user's presentation cleanup precisely. Detailed provenance,
+translation/summary distinctions and attribution limits remain in Notes.
+
+## Alternatives
+
+Rewrite or reposition labels: unnecessary because the user requests deletion.
+Delete provenance from Notes: rejected because evidence scope must remain.
+
+## Trade-offs
+
+Less provenance is visible on screen. The speaker retains the existing
+source and scope in Notes; observed results do not gain new claim strength.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001, INV-RESEARCH-004, INV-SOT-001.
+
+## Affected Artifacts
+
+Two source factories, footer registry, current Map, Full/ACT3 packages,
+previews, review and delivery identities. No Notes or Demo state change.
+
+## Evidence
+
+Five explicit annotations on the current Full PPT. No new Trial or product
+execution; retain the existing repeated-workflow and benchmark records.
+
+## Training Relevance
+
+YES — keep the audience screen focused while retaining evidence provenance.
+
+## Follow-up
+
+Validate the exact deletions, render the final files and push normally.
+Windows, room, product-account and timed rehearsal remain unverified.

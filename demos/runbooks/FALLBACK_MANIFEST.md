@@ -1,6 +1,8 @@
 # Static Fallback Manifest
 
-Current: DEC-0128 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Current: DEC-0129 /120slides/417minutes. READY — LOCAL STATIC FILES ONLY.
+Remove only five annotated text objects on S61/S70. All Notes and evidence
+values remain. Preserve all44fallback roles, paths and hashes.
 S64 connects one performance Skill to A/B but not the teaching README task C.
 Retain common guidance and distinguish designed selection from observed
 invocation, non-invocation or performance. Keep Lecture4 and all44fallback roles.
@@ -28,11 +30,11 @@ in the reports and source history. No Demo repository state is changed.
 
 ## Current source identities
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`a17963d8bad61e3841ee4b31b9dd2d70a4f115c287a5e0f5bc44f4cb24505442`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`2fc93f87e4ea72fed6cfc61671ead1b1e57e99bf6604765fcbc4d729e0ba0eba`.
 - `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`c308fe5af3ffeb5ab2bbd9f3378599d9413be59628b997c5b34b57fa2e489533`.
-- `production/preview/full/montage.png` SHA-256:`a502cf8d9382068267baadf95c3943907ea02f37b839ba30e787edf1750a14b8`.
+- `production/preview/full/montage.png` SHA-256:`e123543be71971a4b471e60955745d197dc84abdd265d5c4b41b9ae2add5add3`.
 
-[Current revision](../../production/evaluation/S64_SELECTIVE_SKILL_REVISION.md),
+[Current revision](../../production/evaluation/ACT3_ANNOTATED_LABEL_CLEANUP.md),
 [121-to120 migration](../../plan/SLIDE_ID_MIGRATION_120_DEC0114.md).
 
 | Slide | Classification | Path | Dimensions | SHA-256 |

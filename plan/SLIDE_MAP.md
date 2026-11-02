@@ -1610,7 +1610,7 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** BEAT-018, BEAT-020, TRIAL-006, CLM-0006, CLM-0029, CLM-0030, TRIAL-007, DEC-0017, DEC-0060, DEC-0062
-- **Audience Footer:** 실제 요청 발췌·요약
+- **Audience Footer:** 없음 — 상세 출처·발췌/요약 구분은 Notes에 보존
 
 #### S62 — 테스트 명령을 언제 쓰고 무엇을 판단할까?
 
@@ -1837,7 +1837,7 @@ Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Dem
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
 - **Evidence / Decision References:** BEAT-022, BEAT-037, STATE-04-PERF, STATE-04, TRIAL-008, INV-VERIFY-001, STATE-00, DEC-0018, INV-DEMO-003, DEC-0062, DEC-0070
-- **Audience Footer:** 1024×768 합성 입력 · Python 할당 피크(RSS 아님) / 해당 코드 변경의 측정 결과 · Harness/Skill 단독 효과는 미입증
+- **Audience Footer:** 1024×768 합성 입력 · Python 할당 피크(RSS 아님)
 
 #### S71 — 한 Agent 조사와 Subagent 역할 분리
 

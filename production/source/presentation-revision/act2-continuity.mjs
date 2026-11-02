@@ -291,10 +291,9 @@ export async function loadAct2ContinuitySlides(root) {
    text(s,'resize_nearest',148,231,448,30,24,C.sub,false,CODE);
    text(s,'B · 픽셀값 정규화',758,190,458,37,29,C.teal,true);
    text(s,'normalize',758,231,458,30,24,C.sub,false,CODE);
-   const cols=[{x:64,label:'실제 요청의 핵심 발췌·번역',rows:['변경 전에 benchmark를 실행해줘.\n구현·명세·테스트를 조사해줘.','간단한 계획을 먼저 제시하고,\n근거 있는 최소 변경을 해줘.','관련·전체 테스트를 실행하고,\n같은 benchmark로 비교·검토해줘.']},
-    {x:674,label:'보존된 요청 요약의 번역',rows:['수정 전에 측정하고,\n소스·명세·테스트를 확인.','계획을 밝힌 뒤\n최소한의 변경을 수행.','관련·전체 테스트와 동일 측정,\nCLI·diff 확인 및 최종 검토.']}];
+   const cols=[{x:64,rows:['변경 전에 benchmark를 실행해줘.\n구현·명세·테스트를 조사해줘.','간단한 계획을 먼저 제시하고,\n근거 있는 최소 변경을 해줘.','관련·전체 테스트를 실행하고,\n같은 benchmark로 비교·검토해줘.']},
+    {x:674,rows:['수정 전에 측정하고,\n소스·명세·테스트를 확인.','계획을 밝힌 뒤\n최소한의 변경을 수행.','관련·전체 테스트와 동일 측정,\nCLI·diff 확인 및 최종 검토.']}];
    cols.forEach(c=>{
-    text(s,c.label,c.x,274,542,31,24,C.sub,true);
     c.rows.forEach((body,i)=>{
      const y=315+i*80;
      rect(s,c.x,y,542,76,i===1?C.white:C.pale,i===1?C.line:'none',i===1?1:0);

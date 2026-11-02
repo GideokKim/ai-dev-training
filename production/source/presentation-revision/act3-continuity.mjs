@@ -294,7 +294,6 @@ export async function loadAct3ContinuitySlides(root, previous) {
    text(s,'결과 유지',972,358,244,51,38,C.green,true);
    text(s,'출력 6항목 동일',972,411,244,32,25,C.ink);
    text(s,'함수 테스트 1/1\n전체 테스트 11/11\nCLI 샘플 통과',972,462,244,93,24,C.ink);
-   text(s,'후보 비교와 별도로, 실제 제품 변경 전후를 같은 조건에서 확인한 기록',64,575,1152,29,24,C.sub);
    return s;
   },
   S59(p){

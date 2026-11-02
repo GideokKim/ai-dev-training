@@ -515,9 +515,7 @@
       "originalLines": []
     },
     "S61": {
-      "lines": [
-        "실제 요청 발췌·요약"
-      ],
+      "lines": [],
       "originalLines": [
         "TRIAL-006 실제 Prompt 발췌·번역 / TRIAL-007 보존된 Task Prompt 요약 · 그림은 설명용 삽화",
         "Global Harness 영향으로 Prompt-only attribution은 PARTIAL · 성능 전후 그림·현재 제품 화면 아님"
@@ -596,8 +594,7 @@
     },
     "S70": {
       "lines": [
-        "1024×768 합성 입력 · Python 할당 피크(RSS 아님)",
-        "해당 코드 변경의 측정 결과 · Harness/Skill 단독 효과는 미입증"
+        "1024×768 합성 입력 · Python 할당 피크(RSS 아님)"
       ],
       "originalLines": [
         "STATE-04 → STATE-04-PERF · 동일 합성1024×768 · CPython3.9.6 / macOS arm64",

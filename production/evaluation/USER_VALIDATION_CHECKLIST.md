@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+현재 S61/S70의 지정 문구 삭제와 파일 식별자는 [DEC-0129 검토](ACT3_ANNOTATED_LABEL_CLEANUP.md)와 [최종 전달 안내](FINAL_HANDOFF.md)를 따른다. 출처·측정 한계는 Notes에 보존하며 실환경 검증 상태는 유지한다.
+
+## 보존된 이전 체크리스트
+
 현재 S64의 A/B 연결·C 미연결과 파일 식별자는 [DEC-0128 검토](S64_SELECTIVE_SKILL_REVISION.md)와 [최종 전달 안내](FINAL_HANDOFF.md)를 따른다. C는 실제 미호출 관찰이 아닌 비교 예시이며 기존 실환경 검증 상태를 유지한다.
 
 ## 보존된 이전 체크리스트

@@ -1,5 +1,10 @@
 # Current presentation source
 
+DEC-0129 removes only the approved S61 column labels/footer and the S70
+explanatory sentence/second footer. Retained factories are S50 in
+`act2-continuity.mjs` and S58 in `act3-continuity.mjs`. Preserve all Notes,
+positions, evidence values and native chart parts.
+
 S64 selective Skill use: DEC-0128 replaces retained factory `S53` in
 `act3-continuity.mjs`, which reaches current `S64`. Connect the performance
 Skill only to A/B. C is a teaching README request without this method.
