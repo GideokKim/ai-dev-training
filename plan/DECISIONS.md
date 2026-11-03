@@ -14287,7 +14287,7 @@ unverified.
 
 ## Status
 
-ACCEPTED. The user approved the S77 design after reviewing the proposed layout.
+SUPERSEDED by DEC-0148 for the S77 presentation. The original decision and rationale are preserved below.
 
 ## Date
 
@@ -14354,3 +14354,83 @@ to checks before designing the control flow of the next revision.
 Check that the prepared methods dominate the rendered slide and that
 the handoff question is readable. Preserve the 113 slide IDs, individual
 time allocations and evidence types.
+
+# DEC-0148 — Contrast the lunch request with the plan-only reply
+
+## Status
+
+ACCEPTED. The presenter approved the one-slide lunch scene and its two
+highlighted phrases.
+
+## Date
+
+2026-11-03
+
+## Context
+
+At d857323, S77 listed methods for checking brightness results, peak
+allocation and runtime. S81 already teaches those checks as completion
+criteria. The presenter asked for a situation developers recognize when
+they leave a long task running and expect to review it on their return.
+
+## Problem
+
+A second inventory of checks gives the audience little reason to ask
+what keeps an authorized task moving after the first response.
+
+## Decision
+
+Replace the S77 panel with one side-by-side pair of editable chat windows.
+Before lunch, the developer asks for an implementation change and tests.
+After lunch, the agent has written a plan and asks whether to start.
+Emphasize the original instruction and repeated request for authorization
+at equal height. Preserve the shared harness as a small preparedness
+label on the left. End the scene at the right input cursor.
+
+## Rationale
+
+The audience can see the difference between the result the developer
+expected and the reply that awaits them. S79 then shows a distinct handoff
+after implementation, where the developer must pass on a review finding.
+S80 introduces a loop and S81 gives the evidence for ending it.
+
+## Alternatives
+
+The approved DEC-0147 check inventory remains in its historical record.
+Splitting the two moments across slides would hide the initial request
+when the reply appears.
+
+## Trade-offs
+
+The transition now uses one fictional but familiar interaction. Details
+of the three checks remain at S81. A question caused by conflicting
+requirements or missing permission serves a different purpose.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001 and INV-LOOP-001.
+
+## Affected Artifacts
+
+S77 in the ACT3 and integrated presentations, its 19-field notes, the
+adjacent S76 speaking cue, the active slide and template maps, and the
+story and handoff records. Use T04-A for the two-window comparison. Keep
+S77 at two transition minutes and preserve the 113-slide, 389-minute plan.
+
+## Evidence
+
+User direction and the existing brightness-statistics teaching context.
+The quoted lines were written for this lesson. They do not establish
+current product behavior, task duration, a trial result or a failure
+rate.
+
+## Training Relevance
+
+Developers can distinguish an explicit request to implement and test
+from a response that stops at planning and asks to begin.
+
+## Follow-up
+
+Check both highlighted lines at presentation size, the prepared-harness
+label and empty reply field. Keep the scope of the fictional scene clear
+in the slide and speaker notes.

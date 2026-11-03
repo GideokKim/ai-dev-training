@@ -1,10 +1,10 @@
 # AI 개발자 교육
 
-## 발표 자료 · DEC-0147
+## 발표 자료 · DEC-0148
 
 [통합 PPT](production/AI_Dev_Training_Full.pptx) · [ACT3 PPT](production/ACT_3.pptx) · [ACT4 PPT](production/ACT_4.pptx) · [ACT4 발표 Notes](production/notes/ACT_4_NOTES.md)
 
-전체 113장·389분 중 ACT4는 S78–S97, 85분이다. S77에서 팀이 미리 갖춘 검사로 밝기 통계 수정안을 어떻게 확인할지 본다. ACT4에서는 같은 밝기 통계 작업에서 사람이 검토 지적을 다시 요청으로 옮기는 장면과, 지적을 다음 구현에 바로 전달해 다시 검토하는 장면을 비교한다. S88부터는 같은 흐름을 GitLab 이슈·작업 공간·팀 검토에 연결한 사내 운영 사례다. S87은 PairCoder 표 2의 코드 생성 실험, S95는 Goal 요청 예시다. [Slide Map](plan/SLIDE_MAP.md) · [S77 검토](production/evaluation/S77_HARNESS_REVIEW.md) · [ACT4 도입 검토](production/evaluation/ACT4_LOOP_MOTIVATION.md)
+전체 113장·389분 중 ACT4는 S78–S97, 85분이다. S77에서는 점심 전 구현·테스트까지 맡겼던 요청과, 돌아와서 본 구현 시작 여부 질문을 한 화면에서 비교한다. ACT4에서는 같은 밝기 통계 작업에서 사람이 검토 지적을 다시 요청으로 옮기는 장면과, 지적을 다음 구현에 바로 전달해 다시 검토하는 장면을 비교한다. S88부터는 같은 흐름을 GitLab 이슈·작업 공간·팀 검토에 연결한 사내 운영 사례다. S87은 PairCoder 표 2의 코드 생성 실험, S95는 Goal 요청 예시다. [Slide Map](plan/SLIDE_MAP.md) · [S77 검토](production/evaluation/S77_LUNCH_HANDOFF.md) · [ACT4 도입 검토](production/evaluation/ACT4_LOOP_MOTIVATION.md)
 
 ## 이전 판본 기록
 

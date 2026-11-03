@@ -1,8 +1,8 @@
 # STEP 08 — Slide-to-Template Mapping
 
-## 현재 ACT3→ACT4 제작 기준 — DEC-0147 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0148 (2026-11-03)
 
-S77은 T03-B의 공통 Harness 확대도다. S79는 T03-C의 재요청 장면, S80은 목표·검토 지적을 같은 위치에 두고 재수정과 완료 출구를 처음 연결하는 T03-B, S81은 T03-A의 세 검증 질문, S88은 T03-C의 팀 사례 흐름을 사용한다. S87에 기존 T07-B의 편집 가능한 연구 차트를 배치한다. 연구 프레임과 Table 2를 함께 표시한다. S110/S112의 검토·중단·Goal 찾아보기는 현재 S83/S85/S95를 참조한다. 아래 Current113 집계와 113개 행을 기준으로 한다.
+S77은 T04-A 양쪽 대화창에서 점심 전의 실행 요청과 점심 후의 계획 답변을 대비한다. S79는 T03-C의 재요청 장면, S80은 목표·검토 지적을 같은 위치에 두고 재수정과 완료 출구를 처음 연결하는 T03-B, S81은 T03-A의 세 검증 질문, S88은 T03-C의 팀 사례 흐름을 사용한다. S87에 기존 T07-B의 편집 가능한 연구 차트를 배치한다. 연구 프레임과 Table 2를 함께 표시한다. S110/S112의 검토·중단·Goal 찾아보기는 현재 S83/S85/S95를 참조한다. 아래 Current113 집계와 113개 행을 기준으로 한다.
 
 [승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
 
@@ -42,14 +42,14 @@ Demo 저장소·Sites·발표 묶음은 변경하지 않는다. [삭제·연결 
 S66의 DEC-0137 Prompt 창과 근거 경계를 유지한다. S75–S77의 이전 시각 설계는 현재 S74–S76의 같은 역할로 이어진다.
 S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근거 유형을 구분한다.
 
-## Current113 Template Coverage — DEC-0145
+## Current113 Template Coverage — DEC-0148
 
 | Template | Slides |
 |---|---:|
 | T01 | 5 |
 | T02 | 6 |
-| T03 | 55 |
-| T04 | 14 |
+| T03 | 54 |
+| T04 | 15 |
 | T05 | 4 |
 | T06 | 4 |
 | T07 | 13 |
@@ -60,7 +60,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 | T12 | 6 |
 | Total | 113 |
 
-## Current113 Slide-to-Template Mapping — DEC-0146
+## Current113 Slide-to-Template Mapping — DEC-0148
 
 | Slide | Primary Template | Required components | Optional | Evidence | Demo / Case | Operation | C++ | Checks |
 |---|---|---|---|---|---|---|---|---|
@@ -140,7 +140,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 | S74 — 함께 작동하는 작업 환경, Harness | T03-B | CMP-EVIDENCE, CMP-CLAIM, CMP-WORKFLOW | CMP-CPP | P+T; solid observed base and dashed optional Subagent teaching extension; no Subagent in STATE-04-PERF | DEMO-09: Lecture4 model; CAPTURED2 observed single-Agent base only; no new execution | Native input/Agent/verification/environment hierarchy; subordinate amber dashed optional independent investigation returns to the main Agent for review/integration; DEC-0134 | Contextual | V01, V02, V05, V08 |
 | S75 — 만든 Harness를 다음 프로젝트의 기반으로 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; reuse design without portability/execution/benefit results | Lecture2; no extra Demo or Trial | One large common Harness module becomes the same smaller module inside projects A/B/C; native grouped shapes, no audience footer; DEC-0134 | — | V01, V02, V05, V07 |
 | S76 — 누가 작업하더라도 프로젝트 기준은 같게 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; shared project criteria, no measured before/after effect, identical output or automatic compliance | Lecture2 + Q&A5; same comparison view, no extra Demo or Trial | Two grouped systems with three separate developer/AI lanes; preserve project bindings in Notes and answer Harness questions; DEC-0141 | — | V01, V02, V05, V07 |
-| S77 — 첫 수정안이 나오면, 팀은 이미 확인할 방법을 갖고 있다 | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | TEACHING_MODEL — 공통 Harness에 준비된 검토 방법 | Transition 2분 | 왼쪽의 작은 밝기 통계 수정안과 오른쪽의 큰 공통 Harness. 결과·할당·시간을 세 줄의 질문과 방법으로 짝짓고 하단 질문으로 넘긴다. | — | V01, V02, V05, V07 |
+| S77 — 점심 먹고 왔는데, 계획만 와 있었다 | T04-A | CMP-WORKFLOW, CMP-CLAIM | — | TEACHING_MODEL — 점심 전후의 교육용 대화 | Transition 2분 | 같은 높이에 수정·테스트 요청과 구현 시작 여부를 묻는 문장을 둔다. 왼쪽의 작은 준비 배지와 오른쪽의 비어 있는 입력란이 장면을 마무리한다. | — | V01, V02, V05, V07 |
 | S78 — 목표를 이룰 때까지 수정하고 검토하기 | T12-A | CMP-CLAIM | — | TEACHING_MODEL; 기존 ACT 제목 표기 | 전환 1; 정적 교육자료 | 기존 ACT 제목 레이아웃을 유지한다. 부제에서 첫 결과 이후의 멈춤을 예고한다. | — | V01, V02, V06, V07 |
 | S79 — 한 가지 일을 맡겼는데, 왜 계속 내가 “다시”라고 말할까? | T03-C | CMP-CLAIM | — | CONCEPTUAL; 밝기 통계 교육용 재구성 | 강의 2 + 사례 2; 정적 교육자료 | 처음 맡긴 목표와 전체 픽셀 복사가 남았다는 검토 지적을 고정한다. 개발자가 그 복사를 없애고 같은 기준으로 다시 확인해 달라는 장면에서 끝낸다. 처음·다음 사람 요청은 같은 색으로, 재지시의 “다시”는 강조한다. | — | V01, V02, V06, V07 |
 | S80 — 검토 결과가 다음 수정을 시작하게 하자 | T03-B | CMP-CLAIM | — | TEACHING_MODEL; 같은 목표의 재검토·수정·완료 조건 | 강의 3 + 사례 1; 정적 교육자료 | S79의 목표와 검토 지적은 문구·위치·색을 유지한다. 지적에서 행별 집계 수정으로 바로 연결하고 같은 완료 기준의 재검토로 돌아가는 경로와 조건부 완료 출구를 구분한다. | — | V01, V02, V06, V07 |

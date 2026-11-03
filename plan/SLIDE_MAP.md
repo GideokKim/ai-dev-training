@@ -1,8 +1,8 @@
 # Official Slide Map
 
-## 현재 ACT3→ACT4 제작 기준 — DEC-0147 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0148 (2026-11-03)
 
-S77에서 같은 수정안을 검토할 공통 Harness의 세 가지 확인 방법을 짚고, S79에서 사람이 지적을 다시 전달하는 부담을 먼저 본다. S80의 직접 인계·재검토는 DEC-0146, S88부터의 GitLab 사례는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
+S77에서 점심 전 맡긴 작업과 돌아와 받은 계획을 나란히 보여준다. S79에서는 구현 이후에도 검토 지적을 사람이 다시 전달하는 경우를 살펴본다. S80의 직접 인계·재검토는 DEC-0146, S88부터의 GitLab 사례는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
 
 [승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
 
@@ -1988,37 +1988,37 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** 사람마다 같은 프로젝트의 기준을 다시 설명하던 부담을 공통 작업 체계로 옮기는 이유를 이해한다.
 - **Advanced Payoff:** 작업자별 자율적인 접근과 공통 명세·제약·검증 기준을 분리한다. 공통 기준은 프로젝트별 실제 명령·도구·권한·실행 조건과 연결하며, 사람의 검토 책임과 서로 다른 결과물을 유지한다.
 - **C++ Vision Bridge:** N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
-- **Speaker Intent:** S75의 재사용 가치에서 한 프로젝트의 공통 기준으로 이어진다. 왼쪽의 우회 도달·검증 전 중단·기존 동작 훼손 위험을 세 가상 장면으로 짧게 짚고 오른쪽의 공통 기준과 분리된 작업 경로를 비교한다. 실제 사고·비교 실험이나 Harness 부재의 필수 실패, 공통 Harness의 자동 준수로 설명하지 않는다. 기존 2분 설명과 같은 화면에서의 Harness Q&A 5분을 마친 뒤, S77에서 공통 기준을 어떤 확인 방법으로 구현했는지 살펴본다.
-- **Transition:** Harness에 대한 Q&A를 마친 뒤 “밝기 통계 수정안이 나오면, 이 공통 Harness로 무엇을 확인할 수 있을까요?”라고 S77로 넘긴다.
+- **Speaker Intent:** S75의 재사용 가치에서 한 프로젝트의 공통 기준으로 이어진다. 왼쪽의 우회 도달·검증 전 중단·기존 동작 훼손 위험을 세 가상 장면으로 짧게 짚고 오른쪽의 공통 기준과 분리된 작업 경로를 비교한다. 실제 사고·비교 실험이나 Harness 부재의 필수 실패, 공통 Harness의 자동 준수로 설명하지 않는다. 기존 2분 설명과 같은 화면에서의 Harness Q&A 5분을 마친 뒤, S77에서 공통 기준과 도구가 준비된 팀의 점심 전후를 살펴본다.
+- **Transition:** Harness Q&A를 마치고 “점심 먹으러 가기 전에 구현과 테스트를 맡겼다면, 돌아와서 무엇을 보고 싶으세요?”라고 묻는다.
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Lecture 2분 + Q&A 5분 = 7분
 - **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001, DEC-0134, DEC-0135, DEC-0136, DEC-0141; Q&A operation lineage: previous118 S81 / Section3I / BEAT-073
 - **Audience Footer:** 프로젝트 적용 예시
 
-#### S77 — 첫 수정안이 나오면, 팀은 이미 확인할 방법을 갖고 있다
+#### S77 — 점심 먹고 왔는데, 계획만 와 있었다
 
 - **Slide ID:** S77
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 첫 수정안이 나오면, 팀은 이미 확인할 방법을 갖고 있다
-- **Primary Role:** S76의 공통 Harness를 열어, 하나의 수정안을 팀이 이미 준비한 방법으로 검토할 수 있음을 보여준다.
-- **Audience Question:** 밝기 통계 수정안을 받으면 이 팀은 무엇을 어떻게 확인할 수 있을까?
-- **Core Message:** 팀의 Harness에 검토 기준과 확인 방법을 한 쌍으로 준비해 두면 수정안이 올 때마다 무엇을 검사할지 처음부터 정할 필요가 없다.
-- **Story Beat:** BEAT-073 — 공통 Harness에서 얻을 검토 근거를 다음 수정으로 연결하는 질문
+- **Working Title:** 점심 먹고 왔는데, 계획만 와 있었다
+- **Primary Role:** 실행을 맡겼는데 계획 단계에서 일이 멈춘 상황을 한 장에 담아, 청중이 작업의 다음 단계를 누가 시작하는지 생각하게 한다.
+- **Audience Question:** 내가 기대한 수정 결과 대신, 이미 맡긴 구현을 시작하겠느냐는 질문이 남았다면?
+- **Core Message:** 개발자는 수정과 테스트까지 요청하고 자리를 비웠다. 돌아와 보니 계획과 구현 시작 여부를 되묻는 답이 기다리고 있다.
+- **Story Beat:** BEAT-073 — 사람이 이미 요청한 다음 단계를 다시 시작시켜야 하는 상황
 - **Curriculum Trace:** ACT3의 기반 구성·재사용을 마친 뒤 ACT4의 단일 목표 수행으로 전환한다. 기존 Section3G와 BEAT-073을 사용한다. 이전118장판 S77–S81의 lineage이며 이전 S81의 Q&A5분은 S76로 이동하고 Reflection3분은 제거한다.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — 준비된 검토 방법의 쓰임을 설명한다. 예시 수정안의 검사 결과, 성능 수치 또는 보장된 품질을 제시하지 않는다.
-- **Visual Concept:** 왼쪽의 작은 밝기 통계 수정안 카드에서 오른쪽의 큰 공통 Harness 상자로 연결한다. S76의 Harness 색을 유지한다. 오른쪽에는 결과 보존 / 같은 입력의 여섯 출력값 비교, 임시 메모리 / 수정 전후 최대 할당량 비교, 실행시간 / 같은 조건의 시간 측정을 세 줄로 정렬한다. 화면 하단에 전환 질문을 작게 둔다.
-- **Demo / Case Connection:** ACT3의 밝기 통계 작업을 배경으로 삼은 정적 설명. 새 시험 실행·측정 결과를 보고하지 않는다.
-- **Beginner Payoff:** 프로젝트에서 지켜야 할 기준이 실제 검사로 어떻게 이어지는지 한 사례에서 확인한다.
-- **Advanced Payoff:** 여러 수정안에 같은 확인 방법을 재사용하는 책임과, 그 근거로 후속 작업을 정하는 책임을 구분한다.
+- **Claim Status:** TEACHING MODEL — 점심 전후를 가정해 쓴 대화다. 특정 제품의 실제 응답, 실행 기록, 지연 시간 또는 Harness의 실패를 보여주는 근거는 없다.
+- **Visual Concept:** 두 대화창을 좌우에 둔다. 왼쪽은 ‘점심 가기 전’과 “밝기 통계의 임시 메모리를 줄여줘. 수정하고 테스트까지 돌려줘. 돌아와서 결과를 볼게.”다. 오른쪽은 ‘점심 먹고 돌아온 뒤’와 “수정할 위치와 검증 계획을 정리했습니다. 이대로 구현을 시작할까요?”다. “수정하고 테스트까지 돌려줘”와 “이대로 구현을 시작할까요?”를 같은 높이에서 크게 대비한다. ‘공통 Harness · 팀 지침과 검증 도구 준비됨’은 왼쪽에 작게 붙인다. 시선은 오른쪽 빈 입력란의 커서에서 끝난다.
+- **Demo / Case Connection:** 밝기 통계 맥락을 빌린 교육용 대화 예시. 새로운 Trial·제품 캡처나 실행 결과는 없다.
+- **Beginner Payoff:** 돌아와 결과를 확인하려던 개발자가 왜 한 번 더 “시작해”라고 말해야 하는지 이해한다.
+- **Advanced Payoff:** 이미 맡긴 구현을 재확인하는 상황과, 요구 충돌이나 권한 변경 때문에 사람이 새로 판단해야 하는 상황을 구별한다.
 - **C++ Vision Bridge:** N/A — 새 구현 사례나 제품/언어별 조건은 추가하지 않는다.
-- **Speaker Intent:** 작은 수정안에서 큰 Harness 상자로 시선을 옮긴다. 세 줄의 기준과 확인 방법을 짝지은 뒤, 검토 결과의 활용은 ACT4의 질문으로 남긴다. 완료 판정은 S81에서 다룬다.
-- **Transition:** 이렇게 얻은 검토 결과를 다음 수정에도 이어 쓰려면? 이 질문에서 S78의 ACT4 제목으로 넘긴다.
+- **Speaker Intent:** 점심 전 요청에서 수정과 테스트까지 맡긴 범위를 짚는다. 점심 후 답변은 마지막 질문에서 멈춰 읽는다. 별도의 Harness 설명이나 세 검증 항목은 여기서 펼치지 않는다.
+- **Transition:** 오른쪽 입력란이 비어 있는 채로 S78로 넘긴다. S79에서 검토 후에도 사람이 다음 수정을 다시 요청하는 장면을 본다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Transition 2분 = 2분
-- **Evidence / Decision References:** DEC-0147, DEC-0146, DEC-0136; DEC-0023; BEAT-073; INV-LOOP-001; INV-VERIFY-001. Source slide lineage: previous118 S77/S78/S79/S80/S81; prior Section3G/3I operation records retained in history.
-- **Audience Footer:** 없음 — M 연계 표시는 유지
+- **Evidence / Decision References:** DEC-0148, DEC-0147 (이전 S77 배치), DEC-0146, DEC-0136; DEC-0023; BEAT-073; INV-LOOP-001; INV-VERIFY-001. Source slide lineage: previous118 S77/S78/S79/S80/S81; prior Section3G/3I operation records retained in history.
+- **Audience Footer:** 없음 — 상단에 교육용 대화 예시를 표시하고 하단은 M 연계 표기만 유지한다.
 
 ### ACT 4 — 20 slides / 85 minutes
 

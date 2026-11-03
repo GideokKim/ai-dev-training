@@ -1,6 +1,6 @@
 # ACT 3 handoff and ACT 4 loop motivation (DEC-0146)
 
-For the DEC-0147 S77 handoff, build the integrated deck and ACT 3 with
+For the DEC-0148 S77 lunch conversation, build the integrated deck and ACT 3 with
 `--release --release-acts=3`. The ACT 3 handoff is authored in
 `compact-handoff-114.mjs` and migrated to final S77. The ACT 4 source file
 `act4-loop-operations.mjs` owns final S78–S97. Final S87 contains the editable four-condition PairCoder chart.

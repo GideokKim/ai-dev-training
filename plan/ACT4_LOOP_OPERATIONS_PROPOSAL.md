@@ -1,10 +1,10 @@
 # ACT4 개편안 — 한 번 맡긴 목표의 구현·검토·수정
 
-**ACT4 본편 DEC-0146 · ACT3 마무리 S77 DEC-0147 · 2026-11-03**
+**ACT4 본편 DEC-0146 · ACT3 마무리 S77 DEC-0148 · 2026-11-03**
 
-S77에서 밝기 통계 수정안에 쓸 검토 방법이 공통 Harness 안에 이미 준비돼 있음을 확인하고 “이렇게 얻은 검토 결과를 다음 수정에도 이어 쓰려면?”이라고 묻는다. S79의 개발자는 첫 후보를 검토한 뒤 같은 목표로 다시 일을 맡긴다. S80은 같은 목표와 지적을 같은 자리에 놓고 사람이 중간에서 옮겨 적던 지적이 다음 수정으로 바로 이어지도록 바꾼다. S81에서 완료 기준, S84에서 지적 번호와 코드 위치·재검사 근거를 확인한다. S88에서 GitLab 운영 사례를 처음 소개한다.
+S77은 점심 전에 수정·테스트까지 맡긴 개발자와 점심 후 구현 시작을 되묻는 답을 나란히 보여준다. 작은 배지로 S76의 팀 지침·검증 도구를 이어받는다. S79의 개발자는 첫 후보를 검토한 뒤 같은 목표로 다시 일을 맡긴다. S80은 같은 목표와 지적을 같은 자리에 놓고 사람이 중간에서 옮겨 적던 지적이 다음 수정으로 바로 이어지도록 바꾼다. S81에서 완료 기준, S84에서 지적 번호와 코드 위치·재검사 근거를 확인한다. S88에서 GitLab 운영 사례를 처음 소개한다.
 
-[현행 Slide Map](SLIDE_MAP.md) · [Template Map](SLIDE_TEMPLATE_MAP.md) · [승인 결정](DECISIONS.md#dec-0146--show-why-a-review-loop-is-needed)
+[현행 Slide Map](SLIDE_MAP.md) · [Template Map](SLIDE_TEMPLATE_MAP.md) · [ACT3 마무리 결정](DECISIONS.md#dec-0148--contrast-the-lunch-request-with-the-plan-only-reply) · [ACT4 도입 결정](DECISIONS.md#dec-0146--show-why-a-review-loop-is-needed)
 
 ## 두 사례의 역할
 

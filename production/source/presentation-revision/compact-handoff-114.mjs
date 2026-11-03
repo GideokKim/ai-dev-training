@@ -3,7 +3,7 @@ import {addPracticalTipBadge} from './practical-tips.mjs';
 
 export const CURRENT_SLIDE_COUNT=114;
 export const COMPACT_FRESH_IDS=['S78','S111'];
-export const COMPACT_TITLE='첫 수정안이 나오면, 팀은 이미 확인할 방법을 갖고 있다';
+export const COMPACT_TITLE='점심 먹고 왔는데, 계획만 와 있었다';
 const slideId=n=>`S${String(n).padStart(2,'0')}`;
 
 export const afterCompactHandoff=id=>{
@@ -29,29 +29,38 @@ export function applyCompactHandoff(slide){
 
 export function compactBridgeFactory(p,H){
  const {C,text,rect,line,FONT}=H;
- const s=H.frame(p,'S78',COMPACT_TITLE,'ACT 3 · 공통 Harness를 한 작업에 적용');
- const change=rect(s,64,288,262,149,C.white,C.line,1.5);change.borderRadius=8;
- text(s,'검토할 변경',83,301,220,32,22,C.sub,true);
- text(s,'밝기 통계 수정안',83,342,228,44,29,C.ink,true);
- text(s,'기존 구현 / 수정안',83,393,226,30,22,C.sub);
- s.shapes.add({geometry:'connector',kind:'straight',
-  position:{left:331,top:362,width:44,height:0},
-  line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}
- });
- const shared=rect(s,384,203,832,317,C.pale,C.teal,1.5);shared.borderRadius=10;
- text(s,'팀이 준비해 둔 공통 Harness',409,223,782,48,34,C.teal,true);
- const methods=[
-  ['결과가 그대로인가?', '같은 입력의 여섯 출력값 비교'],
-  ['임시 메모리가 줄었는가?', '수정 전후 최대 할당량 비교'],
-  ['더 느려지지 않았나?', '같은 조건에서 실행시간 측정']
- ];
- methods.forEach(([question,method],i)=>{
-  const y=284+i*74;
-  line(s,410,y,780,'#BAD1D4',1);
-  text(s,question,410,y+10,324,52,27,C.ink,true);
-  text(s,method,745,y+10,448,52,27,C.ink);
- });
- text(s,'이렇게 얻은 검토 결과를 다음 수정에도 이어 쓰려면?',64,548,1152,48,29,C.teal,true);
+ const s=H.frame(p,'S78',COMPACT_TITLE,'ACT 3 → ACT 4 · 교육용 대화 예시');
+ const panelWidth=558;
+ function chatWindow(x,when,who){
+  text(s,when,x,178,panelWidth,44,32,C.ink,true);
+  const pane=rect(s,x,237,panelWidth,338,C.white,C.line,1.5);
+  pane.borderRadius=10;
+  for(const [i,color] of ['#FF5F57','#FEBC2E','#28C840'].entries()){
+   s.shapes.add({name:when+' 창 표시 '+(i+1),geometry:'ellipse',
+    position:{left:x+18+i*15,top:255,width:9,height:9},fill:color,line:{fill:'none',width:0}});
+  }
+  text(s,who,x+73,241,panelWidth-94,36,20,C.sub,true);
+  line(s,x+1,283,panelWidth-2);
+ }
+ chatWindow(64,'점심 가기 전','내가 보낸 요청');
+ chatWindow(658,'점심 먹고 돌아온 뒤','AI가 보낸 답변');
+ const badge=rect(s,86,300,356,31,C.pale);
+ badge.borderRadius=5;
+ text(s,'공통 Harness · 팀 지침과 검증 도구 준비됨',94,301,344,29,18,C.teal,true);
+ text(s,'밝기 통계의 임시 메모리를 줄여줘.',88,351,506,44,27,C.sub);
+ text(s,'수정할 위치와 검증 계획을 정리했습니다.',682,351,505,44,26,C.sub);
+ for(const [x,phrase,fill,ink] of [
+  [64,'수정하고 테스트까지 돌려줘.',C.pale,C.teal],
+  [658,'이대로 구현을 시작할까요?',C.amber,C.warn]
+ ]){
+  const emphasis=rect(s,x+18,410,panelWidth-36,70,fill);
+  emphasis.borderRadius=7;
+  text(s,phrase,x+30,414,panelWidth-60,60,36,ink,true);
+ }
+ text(s,'돌아와서 결과를 볼게.',88,499,507,46,27,C.sub);
+ const reply=rect(s,680,509,514,45,C.bg,C.line,1);
+ reply.borderRadius=8;
+ rect(s,695,519,2,25,C.sub);
  text(s,'M 연계 · M6 · M8',996,674,220,23,16,C.sub,false,FONT,'right');
  return s;
 }

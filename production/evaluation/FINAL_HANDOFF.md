@@ -1,24 +1,24 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## S77 공통 Harness · DEC-0147
+## S77 점심 전후 대화 · DEC-0148
 
-[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT3 발표 자료](../ACT_3.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [발표 Notes](../notes/ACT_4_NOTES.md) · [검토 결과](S77_HARNESS_REVIEW.md)
+[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT3 발표 자료](../ACT_3.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [ACT3 발표 Notes](../notes/ACT_3_NOTES.md) · [검토 결과](S77_LUNCH_HANDOFF.md)
 
-113장·389분이다. ACT3의 S77은 밝기 통계 수정안에 팀의 공통 확인 방법을 적용한다. 이어지는 ACT4에서는 이 검토 근거를 다음 수정에 전달하는 방법을 다룬다.
+113장·389분이다. S77의 한 화면에서 점심 전에 보낸 구현·테스트 요청과 복귀 뒤의 구현 확인 질문이 대비된다. ACT4는 같은 작업을 재지시 없이 이어 가는 흐름으로 연결한다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `ba684d642c14ae67fd9fadc1dcd496022ef176dab13cfc079508fc9708afd6da` |
+| `production/AI_Dev_Training_Full.pptx` | `df84b77c8c944ca545b236b457c30e47bcfbb716c4ee8a601f30fd60f89f1200` |
 | `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
 | `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
 | `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
-| `production/ACT_3.pptx` | `e68bdfd817cc98d270a75e06b38ab33b0b640ed253d226a8fe05f3f60b5682f5` |
+| `production/ACT_3.pptx` | `1a22ae4c6e29cea98210e938427ca5dd5a21b7f866dcd45335f85d89aa28d63c` |
 | `production/ACT_4.pptx` | `04d34ecfeef88e2d8e8659ff38f86ff62a9781de4092449b08c0a40b17dbb2c2` |
 | `production/ACT_5.pptx` | `e4efff0182d75de71ee424352d79a8385577a447537ed12d3efcad3a2de8e17f` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `e7e398bb908879df3eda7feae3069aa813ad2086ef2f8cbe2801fd8cb8486453` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `b37b9c9580fe616376f05982643d243bf95abc614e41e4ea8e375cdfd2eb0219` |
 | `production/notes/ACT_4_NOTES.md` | `c3286ac7ddf16190925ac20e4c4f88bc0f8af107870579eaa6238896bbade67c` |
 | `production/notes/ACT_5_NOTES.md` | `db74de72391f36eedc47346919b8a243dbb6f89c0c68bab192522ff2a1c84396` |
-| `production/preview/full/montage.png` | `e8cddf219e4ff5507058d5c04ee412cf85a505b2d61c6c75a8674fa86566c9f0` |
+| `production/preview/full/montage.png` | `028058ad9a44c6db8fb0abfe294bf5886b10d25c9ea4befb310e423aa5bf40a5` |
 | `production/preview/act4/montage.png` | `2285155c0418d661f3f1ffa8430e403ec3e6ed3472a2d7a677594472bb92744a` |
 | `production/preview/act5/montage.png` | `c1573880261293fd064ff46a101136f2a561866b1869b1819a8392affb2dd511` |
 | `production/preview/full/S79.png` | `d8b59e0a3fe4e0c5a690d739b0d4e62316baa1212cefd8205bd21ef962154486` |
@@ -30,9 +30,9 @@
 | `production/preview/full/S95.png` | `da1ae0fbd318fff15e281075513caa8465b1b55079ea4fe96ec1250ec2f98920` |
 | `production/preview/full/S110.png` | `649dc1e3a55de4529d15e33bc71010ece2fab039f31bf0bf6d63703cc29fe859` |
 | `production/preview/full/S112.png` | `fedee878483bfacc895ee02e4951b8ad03553356e372282b1916de6db26f8a2d` |
-| `production/notes/ACT_3_NOTES.md` | `9c82efe840edc6aef8c323283aabc30d396105e1f06ed912f482d9b74bdfb2f7` |
-| `production/preview/act3/montage.png` | `cdabfc201126b2b98cb43e3836cdc80954e16a89529c8f583b35ec4b8c63cd2c` |
-| `production/preview/full/S77.png` | `8ab4ea1bb81010b60be8a7014e31834579a1c2a77210bdf4a225c647f3437555` |
+| `production/notes/ACT_3_NOTES.md` | `35c54cddf07ddbbe47fff476b9a5a41ec00a39999335af08fbf22fcb2489a0fc` |
+| `production/preview/act3/montage.png` | `62fa3c7dc574bffc979bf5040b8431537af33905a98dd4d193292773edf31724` |
+| `production/preview/full/S77.png` | `ec7e4ce1f497a7e2b665c29499bd6e61de0bdde076939e9b41a73bac7369ff7e` |
 
 ## 보존된 이전 전달 기록
 
