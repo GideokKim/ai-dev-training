@@ -1,0 +1,62 @@
+{
+  "status": "RENDER_AND_STRUCTURE_PASS",
+  "baseline": "460b30a4db1a5b8ff6f7cca30d374bdcf37e8026",
+  "slides": 113,
+  "minutes": 389,
+  "actCounts": [
+    14,
+    23,
+    22,
+    18,
+    20,
+    16
+  ],
+  "actMinutes": [
+    42,
+    64,
+    90,
+    64,
+    85,
+    44
+  ],
+  "modes": {
+    "Transition": 23,
+    "Lecture": 169,
+    "Reflection": 19,
+    "Case": 102,
+    "Demo": 44,
+    "Q&A": 32
+  },
+  "changedSlides": [
+    "S76"
+  ],
+  "unchangedScreenCount": 112,
+  "changedRegionOnly": true,
+  "existingEvidenceScopePreserved": true,
+  "renderedPngs": 131,
+  "embeddedNotes": 131,
+  "noteRecords": 113,
+  "noteFields": 19,
+  "fullAct3PixelParity": 18,
+  "otherActPackagesPreserved": 5,
+  "existingImagesAndChartValuesPreserved": true,
+  "existingActorAssetReused": true,
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "count": 113,
+      "sha256": "bf266c7977c266c2041a075bb7074aa09f5d76bb72dca49d4e23fcf9d2dcb0ad"
+    },
+    {
+      "name": "ACT_3",
+      "count": 18,
+      "sha256": "3bf63005ca5f2076cf4ee0c70df8c41f3a822f9fa056491b5a60b317484ddc3c"
+    }
+  ],
+  "windows": "UNVERIFIED",
+  "room": "UNVERIFIED",
+  "productAccount": "UNVERIFIED",
+  "rehearsal": "UNVERIFIED",
+  "ooxmlValidation": "PASS — Full and ACT3 final packages against committed originals",
+  "visualReview": "PASS — S76 comparison and S75-S77 flow;112other slides pixel-identical"
+}

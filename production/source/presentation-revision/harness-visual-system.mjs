@@ -1,4 +1,5 @@
-/** DEC-0134: native Harness relationships, portable modules and assembly. */
+/** DEC-0134/0141: Harness relationships, reuse and shared project criteria. */
+import {readFileSync} from 'node:fs';
 export const HARNESS_VISUAL_IDS=['S75','S76','S77'];
 
 export function harnessVisualFactories(H){
@@ -84,32 +85,53 @@ export function harnessVisualFactories(H){
    footer(s);return s;
   },
   S77(p){
-   const s=H.frame(p,'S77','공통 기반에 프로젝트 기준을 연결한다','ACT 3 · 재사용할 부분과 새로 연결할 부분','프로젝트 적용 예시');
-   text(s,'재사용할 수행 방법',64,200,292,36,28,C.teal,true);
-   text(s,'이 프로젝트의 정보·조건',478,200,292,36,26,blue,true);
-   module(s,64,264,292,258);
-   text(s,'+',382,342,70,74,55,C.teal,true,FONT,'center');
-
-   rect(s,478,264,292,258,C.white,blue,1.5);
-   rect(s,478,244,110,20,bluePale,blue,1.5);
-   rect(s,478,264,292,58,bluePale);
-   text(s,'프로젝트 Context',496,278,256,35,26,blue,true);
-   ['목표·명세','실제 명령·도구','권한·실행 조건'].forEach((label,i)=>{
-    line(s,496,339+i*54,256,C.line,1);
-    text(s,label,496,346+i*54,256,34,26,C.ink,i===0);
+   // CurrentS76: a teaching comparison, not an observed before/after test.
+   const s=H.frame(p,'S77','누가 작업하더라도 프로젝트 기준은 같게','ACT 3 · 같은 프로젝트, 여러 작업자의 공통 기준','프로젝트 적용 예시');
+   const roleIcons=new Uint8Array(readFileSync(new URL('../../../assets/slide-illustrations/human-agent-icons.png',import.meta.url)));
+   const icon=(role,x,y)=>s.images.add({
+    blob:roleIcons,contentType:'image/png',fit:'contain',
+    alt:role==='human'?'Individual developer pictogram':'That developer’s AI pictogram',
+    position:{left:x,top:y,width:48,height:48},
+    crop:{left:role==='human'?0:0.5,right:role==='human'?0.5:0,top:0,bottom:0}
    });
-   connect(s,794,390,96);
+   const route=(name,x1,y1,x2,y2,color)=>s.shapes.add({
+    geometry:'connector',kind:'straight',name,
+    position:{left:Math.min(x1,x2),top:Math.min(y1,y2),width:Math.abs(x2-x1),height:Math.abs(y2-y1),verticalFlip:y2<y1},
+    line:{fill:color,width:3},tail:{type:'triangle',width:'sm',length:'sm'}
+   });
+   const actor=(x,cy,label)=>{
+    text(s,label,x,cy-18,28,36,26,C.ink,true);
+    icon('human',x+32,cy-24);icon('agent',x+106,cy-24);
+    connect(s,x+84,cy,18);
+   };
+   const result=(cx,cy,label,color)=>{
+    s.shapes.add({geometry:'ellipse',name:'Separate work result '+label,position:{left:cx-19,top:cy-19,width:38,height:38},fill:C.white,line:{fill:color,width:2}});
+    text(s,label,cx-18,cy-17,36,34,25,color,true,FONT,'center');
+   };
+   text(s,'같은 프로젝트 · 작업자 A/B/C와 각자의 AI',64,170,1152,34,25,C.sub);
+   text(s,'각자 기준을 전달',64,218,552,40,30,C.ink,true);
+   text(s,'공통 Harness로 기준을 공유',664,218,552,40,30,C.teal,true);
+   line(s,64,266,552);line(s,664,266,552);
+   stem(s,640,218,332,C.line);
+   text(s,'전달하는 조건·절차·확인이 제각각이면',64,281,552,35,25,C.warn);
 
-   rect(s,914,248,302,274,C.white,C.teal,1.5);
-   text(s,'프로젝트에 맞춘\n개발 시스템',930,261,270,70,29,C.ink,true,FONT,'center');
-   rect(s,938,346,254,60,C.pale,C.teal,1.5);
-   text(s,'Harness',954,357,222,37,29,C.teal,true,FONT,'center');
-   rect(s,956,409,218,52,bluePale,blue,1.5);
-   rect(s,1056,400,18,18,bluePale,blue,1);
-   text(s,'프로젝트 기준',968,417,194,35,25,blue,true,FONT,'center');
-   text(s,'실행 · 검증 · 검토',930,480,270,29,24,C.teal,true,FONT,'center');
-   rect(s,1042,522,48,14,C.line);rect(s,1006,536,120,8,C.line);
-   text(s,'기반은 재사용하고, 적용 조건은 프로젝트에 맞춘다',64,565,1152,41,31,C.ink,true);
+   const shared=rect(s,844,280,372,270,C.pale,C.teal,1.5);shared.borderRadius=10;
+   text(s,'공통 Harness',862,289,336,38,31,C.teal,true);
+   ['명세·제약','수행 절차','검증 기준'].forEach((label,i)=>text(s,label,854+i*116,331,126,31,22,C.teal,true,FONT,'center'));
+   // Keep three independent work lanes: no merge and no identical-code claim.
+   const rows=[382,454,526];
+   const leftEnds=[[566,326],[596,430],[548,534]];
+   rows.forEach((cy,i)=>{
+    const label='ABC'[i];actor(64,cy,label);actor(664,cy,label);
+    const [ex,ey]=leftEnds[i];
+    route('Individual criteria route '+label,226,cy,ex-24,ey,i===1?blue:C.warn);
+    result(ex,ey,label,i===1?blue:C.warn);
+    rect(s,854,cy-19,274,38,C.white);
+    route('Shared criteria work lane '+label,826,cy,1158,cy,C.teal);
+    result(1188,cy,label,C.teal);
+   });
+   text(s,'기준이 달라질 수 있음',64,566,552,38,28,C.warn,true);
+   text(s,'작업은 달라도, 판단 기준은 공유',664,566,552,38,28,C.teal,true);
    footer(s);return s;
   }
  };

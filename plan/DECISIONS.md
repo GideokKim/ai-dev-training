@@ -13769,3 +13769,94 @@ Record current render/package checks in
 production/evaluation/S77_LOOP_VISUAL.md. Preserve Windows, room,
 product-account and rehearsal gates; commit/push in the root workflow
 without modifying the Demo repository, Sites or presenter bundles.
+
+# DEC-0141 — Share project criteria across people and their AI work
+
+## Status
+
+ACCEPTED — explicit user approval for current S76 and adjacent cues.
+
+## Date
+
+2026-11-03
+
+## Context
+
+At baseline460b30a, S75 shows reuse across projects and S76 combines a
+portable Harness with project information. The user wants S76 to show
+why people working on the same project should share its criteria.
+S77 already introduces one goal's implementation and review loop.
+
+## Problem
+
+The abstract addition-and-assembly picture does not make the value of
+consistent project criteria immediately visible to a new audience.
+
+## Decision
+
+Title S76 "누가 작업하더라도 프로젝트 기준은 같게". Compare the same
+project's people A/B/C using their own AI requests with a shared Harness
+that exposes common specifications, constraints, reusable procedures and
+verification/report criteria. On the left, show that individually
+communicated criteria can diverge. On the right, keep three separate
+paths and outputs within common criteria, rather than merging them into
+one result. Keep individual approaches distinct; do not imply identical
+code, mandatory compliance, automatic coordination or Subagent execution.
+Retain the existing project-binding knowledge in Notes: actual build,
+test and measurement commands/tools, permissions and execution conditions
+must be checked against this project's goals and specifications.
+Connect S75's reuse value to sharing criteria inside one project, then
+close the existing Harness Q&A before S77's one-task operation bridge.
+Keep113slides/389minutes, all IDs, Section/Beat/Template identities and
+per-slide budgets. S76 remains Lecture2+Q&A5; ACT3 stays18slides/64minutes
+and ACT4 stays20slides/85minutes. Keep both adjacent screens unchanged.
+
+## Rationale
+
+A concrete contrast between separately communicated and shared criteria
+explains why the prepared work system matters to a team. Multiple paths
+preserve the distinction between consistent criteria and identical work.
+
+## Alternatives
+
+Keep the abstract Harness-plus-Context equation: it requires the speaker
+to explain the team value. Merge all right-side paths into one output:
+that could imply coordinated Subagents or a guaranteed uniform result.
+
+## Trade-offs
+
+A before/after picture can look like a measured result. Treat both sides
+as a teaching design model, not a real human or Agent comparison. State
+that differing criteria can cause divergence, rather than claiming all
+work without a shared Harness fails. Preserve verification and human
+review responsibilities. No measured consistency, speed or quality gain.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-HARNESS-001, INV-VERIFY-001, INV-SOT-001.
+
+## Affected Artifacts
+
+S76 Map and layout; minimal S75/S77 transition cues; ACT3/FULL Notes;
+affected ACT/full packages, previews and delivery identities. No slide
+migration, global planning banner or new Template is required.
+
+## Evidence
+
+Explicit user direction; the existing DEC-0091/DEC-0023 Harness model and
+BEAT-035/036; DEC-0134/0136 reuse and Q&A structure. The comparison is a
+teaching model, not a new Trial, measurement or current-product check.
+
+## Training Relevance
+
+YES — distinguish a shared project standard from an individual's work
+path, then move to operating one task within the prepared work system.
+
+## Follow-up
+
+Validate S75 reuse, S76 shared criteria and S77 one-task loop continuity.
+Check separate paths, conditional before-state wording, preserved Notes,
+fixed budgets and final renders. Record current results in
+production/evaluation/S76_SHARED_CRITERIA.md. Keep Windows, room,
+product-account and rehearsal gates unverified; commit/push only in the
+root workflow without changing the Demo repository, Sites or bundles.

@@ -1,3 +1,12 @@
+# Current shared-criteria comparison — DEC-0141 (2026-11-03)
+
+Keep113slides/389minutes. CurrentS76 is the retained S77 factory in
+`harness-visual-system.mjs`. Compare individual instruction choices with
+three separate work lanes under shared project criteria. Reuse existing
+human/AI pictograms; show no merged result, identical code or measured
+benefit. Preserve S75/S77 screens and S76 Lecture2+Q&A5minutes.
+Build Full plus ACT3 with `--release --release-acts=3`.
+
 # Current focused styling — DEC-0140 (2026-11-03)
 
 Keep113slides/389minutes. In `compact-handoff-114.mjs`, currentS77 is
