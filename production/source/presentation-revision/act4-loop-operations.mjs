@@ -381,8 +381,8 @@ export function loopOperationsFactories(H) {
           position:{left:x+(cardWidth-size)/2,top:344-size/2,width:size,height:size}});
         text(s,model,x+12,416,cardWidth-24,54,29,C.ink,true,FONT,'center');
       };
-      role(64,'GPT-5.4','작성자','openai.png','OpenAI 로고',126,blue);
-      role(926,'Claude Sonnet 4.6','검토자','claude.png','Claude 로고',86,C.teal);
+      role(64,'GPT-6 Luna','작성자','openai.png','OpenAI 로고',126,blue);
+      role(926,'Claude Sonnet 5.5','검토자','claude.png','Claude 로고',86,C.teal);
 
       text(s,'행별 집계 변경안',375,211,530,45,32,blue,true,FONT,'center');
       text(s,'출력 6개 비교 결과',375,264,530,40,25,C.ink,false,FONT,'center');

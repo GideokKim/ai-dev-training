@@ -15411,3 +15411,22 @@ evidence necessary to make it, including after requested rework.
 
 Check that both paths and the return to the reviewer are legible, and
 that S96 opens the discussion on decisions to retain in each team.
+
+# DEC-0163 — Update the two model names in the S90 handoff
+
+## Status and Date
+
+ACCEPTED by the presenter on 2026-11-03.
+
+## Decision and Rationale
+
+Show GPT-6 Luna as the author and Claude Sonnet 5.5 as the reviewer in
+the teaching example from DEC-0161. The presenter requested current
+model names. Keep the existing provider marks, messages, verification
+criteria and four-minute allocation.
+
+## Evidence and Scope
+
+The providers confirm the two names. The slide illustrates a role
+assignment and provides no measurement of this pairing or its availability
+in the training environment. [OpenAI model reference](https://developers.openai.com/api/docs/models/gpt-6-luna) · [Anthropic announcement](https://www.anthropic.com/claude-sonnet-5-5)

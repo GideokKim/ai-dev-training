@@ -882,13 +882,13 @@ Lecture 1분 + Case 3분
 “S89의 병합 요청에 기존 출력 6개를 비교한 결과가 있습니다. 이것만으로 임시 메모리도 줄었다고 판단할 수 있을까요?”
 
 **Speaker Flow:**
-0–1분 강의. S89의 병합 요청에 담긴 변경 후보 하나를 따라간다. 이 예시에서는 GPT-5.4가 작성자, Claude Sonnet 4.6이 검토자다.
+0–1분 강의. S89의 병합 요청에 담긴 변경 후보 하나를 따라간다. 이 예시에서는 GPT-6 Luna가 작성자, Claude Sonnet 5.5가 검토자다.
 1–2분 사례. 작성자가 밝기 통계를 행별로 집계하는 변경안과 기존 출력 6개를 비교한 결과를 보낸다. 출력 비교로 어떤 조건을 확인했는지 짚는다.
 2–3분 사례. 검토자는 임시 메모리 감소를 확인할 최대 할당량 기록이 빠졌다고 지적한다. 기준판과 변경안을 같은 입력에서 다시 측정해 달라고 회신한다.
 3–4분 사례. 작성자가 회신을 받아 다음 행동을 재측정으로 정한다. 교육용 도식은 여기까지다. 다음 실행이 이 일을 이어받도록 이미 확인한 항목과 측정할 항목을 나눈다.
 
 **Evidence / Source:**
-DEC-0161, DEC-0160, DEC-0156 · SRC-0246 · CLM-0050. 사용자 제공 PDF 10쪽의 작성·검토 역할 설계를 바탕으로 밝기 통계 작업을 각색했다. 두 모델의 역할과 주고받는 내용은 이번 강의용 배치다. 모델 이름의 공식 페이지와 OpenAI·Claude 이미지 출처는 assets/slide-illustrations/model-handoff/README.md에 정리했다.
+DEC-0163, DEC-0161, DEC-0160, DEC-0156 · SRC-0246 · CLM-0050. 사용자 제공 PDF 10쪽의 작성·검토 역할 설계를 바탕으로 밝기 통계 작업을 각색했다. 두 모델의 역할과 주고받는 내용은 이번 강의용 배치다. 모델 이름의 공식 페이지와 OpenAI·Claude 이미지 출처는 assets/slide-illustrations/model-handoff/README.md에 정리했다.
 
 **Claim Boundary:**
 TEACHING_MODEL. 두 모델을 실제로 연결하거나 실행한 기록은 없다. 모델 조합의 우열·자동 교차 호출, 출력 일치나 할당량 감소의 실측 결과를 제시하지 않는다.
@@ -918,7 +918,7 @@ Lecture 1분 + Case 3분. 1분에 모델 역할 소개를 닫고 보낸 내용, 
 LOCAL STATIC ARTIFACT — production/preview/full/S90.png 또는 production/ACT_4.pptx의 S90. 화면을 사용할 수 없으면 ‘변경안과 출력 비교를 보냄 → 빠진 최대 할당량 근거를 지적 → 같은 입력으로 기준판과 재측정’ 순서로 설명한다.
 
 **Validation Status:**
-DEC-0161. 화면·내장 Notes의 로컬 대조는 production/evaluation/FINAL_HANDOFF.md를 따른다. 발표 환경에서의 모델 접근·연결, Windows PowerPoint, 교육장 및 실측 리허설은 UNVERIFIED.
+DEC-0163. 화면·내장 Notes의 로컬 대조는 production/evaluation/FINAL_HANDOFF.md를 따른다. 발표 환경에서의 모델 접근·연결, Windows PowerPoint, 교육장 및 실측 리허설은 UNVERIFIED.
 
 ## S91 — 다음 실행이 이어받을 상태를 파일에 남긴다
 

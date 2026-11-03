@@ -2343,7 +2343,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156, DEC-0161
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 두 모델 이름은 역할을 구분하는 교육용 배치에 사용한다. 조합의 실행·자동 연동·효과를 확인하지 않았다.
-- **Visual Concept:** 작성자 GPT-5.4와 검토자 Claude Sonnet 4.6 사이에 변경안과 확인 결과가 가는 경로, 빠진 측정 요청이 돌아오는 경로를 구분한다.
+- **Visual Concept:** 작성자 GPT-6 Luna와 검토자 Claude Sonnet 5.5 사이에 변경안과 확인 결과가 가는 경로, 빠진 측정 요청이 돌아오는 경로를 구분한다.
 - **Demo / Case Connection:** S89의 병합 요청을 검토하는 정적 예시. SRC-0246 p.10의 역할 분리를 밝기 통계 사례에 적용한 교육용 재구성이다.
 - **Beginner Payoff:** 출력 일치 여부를 확인한 뒤에도 메모리 사용량을 검증할 일이 남을 수 있음을 설명한다.
 - **Advanced Payoff:** 검토 지적에 비교 대상, 입력, 측정 지표를 명시해 다음 회차에서 재검사할 수 있게 한다.
@@ -2352,7 +2352,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 이번 검토에서 확인한 결과와 남은 지적을 다음 실행은 어디서 이어받을까?
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 3분 = 4분
-- **Evidence / Decision References:** DEC-0161, DEC-0160, DEC-0156, SRC-0246, CLM-0050
+- **Evidence / Decision References:** DEC-0163, DEC-0161, DEC-0160, DEC-0156, SRC-0246, CLM-0050
 - **Audience Footer:** 모델 역할 배치와 주고받는 내용은 교육용 예시로 표시한다.
 
 #### S91 — 다음 실행이 이어받을 상태를 파일에 남긴다
