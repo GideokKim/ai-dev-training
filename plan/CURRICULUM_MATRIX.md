@@ -1,10 +1,10 @@
 # Curriculum Matrix
 
-## 현재 ACT4 제작 기준 — DEC-0145 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0146 (2026-11-03)
 
 | Section | 위치 | 분 | 판단 대상 |
 |---|---|---:|---|
-| 4R1 Goal-loop entry | S78–S80 | 9 | 첫 후보의 남은 복사 → 재지시 없는 수정 → 같은 기준에 재검토 |
+| 4R1 Goal-loop entry | S78–S80 | 9 | 수정 착수를 위한 사람의 재요청 → 지적의 직접 인계 → 같은 기준으로 재검토 |
 | 4R2 One-goal walkthrough | S81–S84 | 19 | 완료 기준, 가상 v1, 검토 R1, v2 요청 |
 | 4R3 Loop control | S85 | 5 | 완료·재시도·미완료 인계 |
 | 4R4 Review research | S86–S87 | 9 | 역할과 모델 조합의 평가 |

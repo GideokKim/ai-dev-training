@@ -14206,3 +14206,79 @@ Check the final reading order and audience-only text, embedded notes, and
 handoffs. Keep all existing per-slide allocations (ACT4 20 slides, 85
 minutes; full course 113 slides, 389 minutes). Windows PowerPoint,
 projection, training account and timed rehearsal remain unverified.
+
+# DEC-0146 — Show why a review loop is needed
+
+## Status
+
+ACCEPTED. The user approved the problem-first ACT4 opening.
+
+## Date
+
+2026-11-03
+
+## Context
+
+At 873f449, S77 already showed the return path and S79 went directly from
+a review finding to the next implementation. Learners saw the mechanism
+before seeing the work it takes to continue a task by hand.
+
+## Problem
+
+The person has already set the goal and criteria. A reviewer identifies
+a remaining full-pixel copy, but the person still has to relay the finding
+and restart the same task. The design needs to make this friction visible.
+
+## Decision
+
+End S77 at the open question of who starts the next change. Use the S78
+subtitle to introduce a task stopped after its first result. On S79, show
+a developer asking again after the review, and end before a second
+candidate appears. Hold the original goal and finding in the same visual
+positions on S80. Feed the finding directly to the next implementation,
+then recheck against the unchanged criteria. An actionable gap returns to
+another revision. Evidence that satisfies every criterion allows exit.
+S81 supplies the existing six-output, allocation and runtime checks.
+
+## Rationale
+
+Changing the handoff while holding the goal and finding fixed lets the
+learner identify why the loop helps. Reading a new requirement or
+choosing an approval policy would answer a different question.
+
+## Alternatives
+
+Keep the automatic return on S77 and the automatic second candidate on
+S79 as in DEC-0145. This leads with a solution to an unseen problem.
+
+## Trade-offs
+
+S79–S80 reuse two visual elements to support direct comparison. The two
+paths and candidates are instructional designs. The contrast supplies no
+measured reduction in human work, runtime, cost or memory usage.
+
+## Related Invariants
+
+INV-LOOP-001, INV-NARRATIVE-001, INV-VERIFY-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+ACT3 and ACT4 slides, integrated deck, active maps, speaker notes,
+curriculum and story traces, release previews and validation records.
+
+## Evidence
+
+User-approved revision, baseline 873f449, DEC-0145 and CASE-LOOP-01.
+DEC-0145 continues to govern the S88 GitLab example and its evidence limits.
+
+## Training Relevance
+
+Use the same review finding to distinguish human goal-setting from the
+manual work of forwarding a valid finding against an unchanged goal.
+
+## Follow-up
+
+Compare S79 and S80 in the final renders. Preserve the 113 slide IDs,
+their modes and minutes, ACT4's 20 slides / 85 minutes and the course's
+389 minutes. Windows PowerPoint, projection and rehearsal remain
+unverified.

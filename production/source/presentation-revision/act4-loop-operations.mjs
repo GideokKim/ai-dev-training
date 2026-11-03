@@ -50,9 +50,19 @@ export function loopOperationsFactories(H) {
     text(s,detail,x,y+140,w,92,26,C.sub);
   }
 
+  // Keep the original request and review finding fixed for the S79/S80 comparison.
+  function brightnessHandoff(s) {
+    const goal=rect(s,64,181,1152,82,bluePale,blue,1.5); goal.borderRadius=9;
+    label(s,'사람이 처음 맡긴 일',86,204,262,blue);
+    text(s,'“밝기 통계 결과를 유지하면서 임시 메모리를 줄여줘.”',350,196,846,54,30,C.ink,true);
+    const finding=rect(s,64,319,310,132,C.amber,C.warn,1.5); finding.borderRadius=8;
+    text(s,'첫 구현의 검토 결과',85,332,270,34,23,C.warn,true);
+    text(s,'전체 픽셀을 복사한\n임시 목록이 남았다',85,377,272,64,28,C.ink,true);
+  }
+
   const cover = actTitleFactories({titleSlides:[{
     act:4, slideId:'S78', displayTitle:'목표를 이룰 때까지\n수정하고 검토하기',
-    subtitle:'Loop Engineering · 한 번 맡기면 목표를 이룰 때까지 구현·검토·수정'
+    subtitle:'Loop Engineering · 한 번 맡긴 일이 첫 결과에서 멈추는 순간'
   }]}, H).S78;
 
   return {
@@ -62,48 +72,39 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S79(p) {
-      const s=common(p,'S79','첫 구현에 문제가 남자, 두 번째 수정이 시작됐다','한 목표 · 첫 번째 수정',reconstruction,caseKind);
-      const goal=rect(s,64,188,1152,88,bluePale,blue,1.5); goal.borderRadius=9;
-      label(s,'사람의 요청 · 한 번',83,214,238,blue);
-      text(s,'“밝기 통계 결과를 유지하면서 임시 메모리를 줄여줘.”',345,203,850,60,30,C.ink,true);
-      const steps=[
-        [64,'01   첫 구현','전체 픽셀을\n임시 목록에 복사',blue,bluePale],
-        [472,'02   검토 지적','줄이려던 큰 목록이\n그대로 남아 있다',C.warn,C.amber],
-        [880,'03   다음 수정','전체 복사를 없애고\n한 행씩 집계',C.teal,C.pale]
-      ];
-      for (const [x,heading,action,accent,fill] of steps) {
-        const card=rect(s,x,324,336,164,fill,accent,1.5); card.borderRadius=8;
-        label(s,heading,x+22,337,291,accent);
-        text(s,action,x+22,389,292,80,30,C.ink,true);
-      }
-      connect(s,404,405,58,0,blue);
-      connect(s,812,405,58,0,C.teal);
-      takeaway(s,'사람이 다시 지시하지 않아도 검토 지적을 받아 구현을 이어간다');
+      const s=common(p,'S79','한 가지 일을 맡겼는데, 왜 계속 내가 “다시”라고 말할까?','사람이 이어주는 다음 수정',reconstruction,caseKind);
+      brightnessHandoff(s);
+      connect(s,379,385,60,0,blue);
+      const instruction=rect(s,447,319,769,132,bluePale,blue,1.5); instruction.borderRadius=8;
+      text(s,'사람이 다시 입력',471,332,715,34,23,blue,true);
+      text(s,'“그 복사를 없애고, 같은 기준으로 다시 확인해줘.”',471,382,727,51,29,C.ink,true);
+      takeaway(s,'목표와 기준은 같은데, 사람이 검토 결과를 받아 다음 수정을 시작시킨다');
       return s;
     },
     S80(p) {
-      const s=common(p,'S80','두 번째로 고쳤다고 끝난 걸까?','한 목표 · 같은 기준으로 재검토',reconstruction);
-      lead(s,'행별 집계로 고친 코드도 처음 정한 기준으로 다시 검토한다');
-      label(s,'수정한 코드',74,255,295,blue);
-      label(s,'다시 검토',480,255,315);
-      label(s,'모두 충족하면',934,255,274);
-      node(s,'행별로 집계',64,308,308,97,bluePale,blue,33);
-      node(s,'출력 · 메모리 · 시간',462,308,372,97,C.white,C.teal,31);
-      node(s,'완료 보고',921,308,295,97,C.pale,C.teal,32);
-      connect(s,375,356,75,0,blue);
-      connect(s,837,356,71,0,C.teal);
-      // A single rounded return path carries the finding from review to the next change.
-      s.shapes.add({name:'Return review finding to implementation',geometry:'custom',
-        position:{left:217,top:408,width:431,height:78},
-        fill:'none',line:{fill:C.warn,width:3},
-        customPaths:[{width:431,height:78,commands:[
-          {moveTo:{x:431,y:0}},{lineTo:{x:431,y:51}},
-          {quadBezTo:{x1:431,y1:77,x:405,y:77}},{lineTo:{x:26,y:77}},
-          {quadBezTo:{x1:0,y1:77,x:0,y:51}},{lineTo:{x:0,y:2}}
+      const s=common(p,'S80','검토 결과가 다음 수정을 시작하게 하자','자동으로 이어지는 수정과 재검토',reconstruction);
+      brightnessHandoff(s);
+      connect(s,379,385,60);
+      const fix=rect(s,447,319,223,132,C.pale,C.teal,1.5); fix.borderRadius=8;
+      text(s,'다음 구현',462,333,193,34,23,C.teal,true,FONT,'center');
+      text(s,'행별로 집계',457,382,203,51,29,C.ink,true,FONT,'center');
+      connect(s,674,385,47);
+      const review=rect(s,729,319,254,132,C.white,C.teal,1.5); review.borderRadius=8;
+      text(s,'같은 기준으로 재검토',740,333,232,34,23,C.teal,true,FONT,'center');
+      text(s,'출력 · 메모리 · 시간',737,382,238,51,25,C.ink,true,FONT,'center');
+      connect(s,988,385,74);
+      text(s,'충족',987,343,76,34,23,C.teal,true,FONT,'center');
+      node(s,'완료',1070,351,146,69,C.pale,C.teal,30);
+      s.shapes.add({name:'Unmet criterion returns to implementation',geometry:'custom',
+        position:{left:559,top:452,width:297,height:52},fill:'none',line:{fill:C.warn,width:3},
+        customPaths:[{width:297,height:52,commands:[
+          {moveTo:{x:297,y:0}},{lineTo:{x:297,y:31}},
+          {quadBezTo:{x1:297,y1:51,x:277,y:51}},{lineTo:{x:20,y:51}},
+          {quadBezTo:{x1:0,y1:51,x:0,y:31}},{lineTo:{x:0,y:2}}
         ]}]});
-      connect(s,217,408,0,26,C.warn,true);
-      text(s,'미달하면 지적을 반영해 수정',239,428,388,44,25,C.warn,true,FONT,'center');
-      takeaway(s,'얼마나 많이 고쳤든, 목표를 달성했다는 근거가 있어야 끝난다');
+      connect(s,559,452,0,22,C.warn,true);
+      text(s,'미달하면 다시 수정',579,458,256,34,23,C.warn,true,FONT,'center');
+      takeaway(s,'사람의 재지시 없이 수정하고, 처음 맡긴 목표를 기준으로 완료를 판단한다');
       return s;
     },
     S81(p) {

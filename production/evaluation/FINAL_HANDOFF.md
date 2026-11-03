@@ -1,27 +1,27 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## ACT4 개편 · DEC-0145
+## ACT4 개편 · DEC-0146
 
-[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [발표 Notes](../notes/ACT_4_NOTES.md) · [검토 결과](ACT4_AUTONOMOUS_LOOP_OPENING.md)
+[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [발표 Notes](../notes/ACT_4_NOTES.md) · [검토 결과](ACT4_LOOP_MOTIVATION.md)
 
-113장·389분이다. ACT4에서는 사람이 한 번 맡긴 목표로 첫 구현을 검토하고 수정안을 다시 검사한다. S88부터 이 흐름을 GitLab 팀 이슈에 연결한다.
+113장·389분이다. ACT4에서는 같은 검토 지적을 사람이 다시 지시하는 장면과, 다음 구현·재검토로 직접 연결하는 장면을 비교한다. S88부터 이 흐름을 GitLab 팀 이슈에 연결한다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `c2b13fc59ad2f62b38b5a965da9ca2d7f1737a3577f3bdbac2742358df92d643` |
+| `production/AI_Dev_Training_Full.pptx` | `b85cc76dc85febdcbddc651984030c26ed0d2021417acf973d7626fddbe2c10f` |
 | `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
 | `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
 | `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
-| `production/ACT_3.pptx` | `34ec576133d5e91643e13780e25813a670cf4ce74d4fd7c049f68062756aae00` |
-| `production/ACT_4.pptx` | `51342e2e02e6990773a51b794f81429c6da027f1261f64640c82f3dd8861f2df` |
+| `production/ACT_3.pptx` | `447a18af1158e478190226283109cc79bbfac5f1caeb6a396381f22c42166a2f` |
+| `production/ACT_4.pptx` | `04d34ecfeef88e2d8e8659ff38f86ff62a9781de4092449b08c0a40b17dbb2c2` |
 | `production/ACT_5.pptx` | `e4efff0182d75de71ee424352d79a8385577a447537ed12d3efcad3a2de8e17f` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `53c6b5aff580bcc5b52ca28fcfef1c65943a4dfa9cb80489c92000adb6a68045` |
-| `production/notes/ACT_4_NOTES.md` | `738a0eb070047ecdf02cbc2f5f60f5678d9754be10b00d9c84c9bf033569a81c` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `05ea12ad8e9427ae61c807888a4ea52d047d0b1d47e9c1205f198528e2a47d41` |
+| `production/notes/ACT_4_NOTES.md` | `c3286ac7ddf16190925ac20e4c4f88bc0f8af107870579eaa6238896bbade67c` |
 | `production/notes/ACT_5_NOTES.md` | `db74de72391f36eedc47346919b8a243dbb6f89c0c68bab192522ff2a1c84396` |
-| `production/preview/full/montage.png` | `0b14dd6ddb419daa5f9b7fff3863b95875b372d2e05f5dc5a000779f580daf38` |
-| `production/preview/act4/montage.png` | `e701cf6d5c62a91312a47a51aa2b811d1bf849c152005edaf1ef4c30b812d755` |
+| `production/preview/full/montage.png` | `aa9bc264f44b6172ee0d7a445eff19fdc47493fd541f27105421c76e099feafd` |
+| `production/preview/act4/montage.png` | `2285155c0418d661f3f1ffa8430e403ec3e6ed3472a2d7a677594472bb92744a` |
 | `production/preview/act5/montage.png` | `c1573880261293fd064ff46a101136f2a561866b1869b1819a8392affb2dd511` |
-| `production/preview/full/S79.png` | `33f39a0b7f2cad4bb96c20f3efb41c49bff0f4f6c6c4707898fec5395b7b5f9c` |
+| `production/preview/full/S79.png` | `d8b59e0a3fe4e0c5a690d739b0d4e62316baa1212cefd8205bd21ef962154486` |
 | `production/preview/full/S84.png` | `1a8af0f1e4cf642a5bc33b3d14c3baedfcaa496ff70b2ca4d97ff0d60126f0af` |
 | `production/preview/full/S87.png` | `2ffd4004727bc494406fa5792226d4c3930d46b083529b2e331f199842f9ad88` |
 | `production/preview/full/S88.png` | `83fc4a3952b1ca26f721d088984235c80bcd211c25822d389c522c9c46c1965f` |

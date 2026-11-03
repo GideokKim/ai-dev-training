@@ -1,6 +1,6 @@
 # ACT 3 — Speaker Notes
 
-Current: DEC-0138 /113slides/389minutes. ACT3: S60–S77, 18slides/64minutes.19fields per slide. Former114-edition S68 and its3Lecture minutes are deleted without absorption. All remaining slide allocations stay unchanged.
+Current: DEC-0146 /113slides/389minutes. ACT3: S60–S77, 18slides/64minutes.19fields per slide. S77 closes with the question of who starts the next edit after review. Former114-edition S68 and its3Lecture minutes are deleted without absorption. All remaining slide allocations stay unchanged.
 
 <details>
 <summary>이전 Notes 표지·제작 기준 보존</summary>
@@ -1032,7 +1032,7 @@ Mode Split: Lecture 2분 + Q&A 5분
 Speaker Flow:
 1. (0:00–0:35 / Lecture) S75에서 여러 프로젝트에 가져온 기반을 이번에는 한 프로젝트 안에서 본다. 왼쪽의 작업자 A/B/C와 각자의 AI를 따라 세 가상 경로를 짚는다. A는 우회해서 검증 기준에 도달하고, B는 검증 전에 멈추며, C는 기존 동작을 훼손할 위험을 나타낸다. 조건·절차·확인이 제각각일 때의 설계상 위험을 구체화한 도식이다. 실제 코드나 프로젝트를 파괴한 기록, 세 사람의 비교 실험, Harness가 없는 모든 작업의 실패를 보여 주는 것이 아니다.
 2. (0:35–1:25 / Lecture) 오른쪽의 공통 Harness와 명세·제약, 수행 절차, 검증·보고 기준을 짚는다. 세 경로는 각자 남겨 두고 같은 판단 기준 안에서 진행하도록 설계한다. 서로 다른 결과물을 하나로 병합하거나 Subagent를 분담한 그림이 아니다. 공통 기준을 적용하려면 이 프로젝트의 목표·명세와 실제 빌드·테스트·측정 명령/도구, 권한·실행 조건을 확인해 연결한다. 재사용하는 수행 방법과 프로젝트 사실을 구분하고 프로젝트 사실 전체를 공통 지침으로 복사하지 않는다.
-3. (1:25–2:00 / Lecture) 사람마다 다시 설명하던 기준을 공통 작업 체계로 만든다는 가치로 묶는다. 접근 방법·코드·결과물이 똑같다는 뜻이 아니며, 검증 근거와 사람의 검토로 준수 여부를 확인한다. 자동 설정·자동 준수·이식 성공이나 편차 감소의 측정 결과를 보여주는 그림이 아니다. 구현·검토 반복의 상세는 S77과 다음 ACT에 남긴다.
+3. (1:25–2:00 / Lecture) 사람마다 다시 설명하던 기준을 공통 작업 체계로 만든다는 가치로 묶는다. 접근 방법·코드·결과물이 똑같다는 뜻이 아니며, 검증 근거와 사람의 검토로 준수 여부를 확인한다. 자동 설정·자동 준수·이식 성공이나 편차 감소의 측정 결과를 보여주는 그림이 아니다. 검토 뒤 어떤 일이 남는지 S77에서 묻고 반복의 구체적인 방식은 ACT4에서 살펴본다.
 4. (2:00–7:00 / Q&A) Harness에 관한 질문을 받는다. 공통 수행 방법과 프로젝트 정보/실행 조건의 역할, 필요한 독립 조사와 주 Agent의 통합 책임 등 지금까지 설명한 범위에서 답한다. 질문이 없으면 “여러 사람이 같은 프로젝트를 맡을 때 무엇을 공통 기준으로 남기고, 무엇을 각자의 판단으로 둘까요?”를 짧게 확인한다. 개인의 검토·수정·완료 요청을 고르게 하는 세 질문이나 별도 Reflection은 운영하지 않는다.6:30에 새 질문을 닫고 S77의 짧은 전환으로 넘긴다.
 
 **Evidence / Source:**
@@ -1057,7 +1057,7 @@ N/A — Lecture2분에는 왼쪽의 우회 도달·검증 전 중단·기존 동
 
 Audience Interaction: 2–7분은 Harness 범위의 자발적인 Q&A다. 프로젝트 명세·수행 절차·검증 기준을 어디에 공통으로 두며 실제 명령·권한·실행 조건과 어떻게 연결할지에 관한 질문을 받는다. 질문이 없으면 공통으로 유지할 기준과 각 작업자가 판단할 부분을 짧게 대조한다. 참여·발표·작성·직접 실습을 요구하지 않으며 Loop Reflection 세 질문을 반복하지 않는다.
 
-Transition: “공통 기준을 사용할 작업 체계는 준비했습니다. 이제 한 작업의 구현 뒤 검토와 수정을 어떻게 이어갈까요?” S77의2분 전환 장으로 이어간다.
+Transition: “공통 기준을 사용할 작업 체계는 준비했습니다. 검토에서 문제가 나오면, 다음 수정은 누가 시작할까요?” S77의2분 전환 장으로 이어간다.
 
 Time Management:
 Lecture2분: 왼쪽 세 가상 경로0:35, 공통 기준을 참조하는 경로0:50, Harness 마무리0:35. Q&A5분:2:00–7:00.6:30에 새 질문을 닫고 남은 질문은 보류한 뒤7분에 전환 장으로 이동한다. Reflection은 추가하지 않고 다음 ACT 상세를 이 Q&A에 미리 강의하지 않는다. 실제 리허설 UNVERIFIED.
@@ -1067,64 +1067,63 @@ LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S76 또는 production/preview
 
 Validation Status: CONTENT ALIGNED — DEC-0143. 기존 근거/Claim·19필드·Lecture2+Harness Q&A5=7분과 오른쪽 공통 기준 비교를 유지하고 왼쪽 세 가상 경로의 화면 cue만 정렬했다. 이전 DEC-0141 검증은 production/evaluation/S76_SHARED_CRITERIA.md에 보존하며 현재 최종 PPT/PNG·내장 Notes와 파일 가용성 검증은 production/evaluation/S76_DYNAMIC_ROUTES.md에 별도 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
 
-## S77 — 준비한 작업 체계로, 한 목표를 끝까지 수행하려면?
+## S77 — 검토에서 문제가 나오면, 다음 수정은 누가 시작할까?
 
-Slide ID:
+**Slide ID:**
 S77
 
-Working Title:
-준비한 작업 체계로, 한 목표를 끝까지 수행하려면?
+**Working Title:**
+검토에서 문제가 나오면, 다음 수정은 누가 시작할까?
 
-ACT / Section:
+**ACT / Section:**
 ACT 3 / 3G Minimum Effective Harness 완성
 
-Allocated Time:
+**Allocated Time:**
 2 minutes
 
-Mode Split:
+**Mode Split:**
 Transition 2분
 
-Primary Message:
-이제는 한 작업의 다음 행동과 완료 판단을 연결한다.
+**Primary Message:**
+공통 기준과 검토 도구가 있어 첫 구현의 문제를 발견했다. 다음 수정을 시작하는 일은 아직 남아 있다.
 
-Opening Question:
-“준비한 작업 체계 위에서, 한 목표의 구현 다음 검토와 필요한 수정을 어떻게 이어갈까요?”
+**Opening Question:**
+“첫 구현에서 문제가 보였습니다. 다음 수정은 누가 시작할까요?”
 
-Speaker Flow:
-1. (0:00–0:30 / Transition) S76의 공통 기준 설명과 Harness Q&A 뒤 하단의 재사용 Harness 기반을 짚는다. 지침·Skill·도구·실행 환경은 이미 설명한 작업 기반이라는 점만 확인하고 정의를 반복하지 않는다.
-2. (0:30–1:10 / Transition) 왼쪽의 간결한 macOS풍 요청창에서 “이번 목표”와 “목표 · 완료 기준”을 짚고 구현 위쪽의 균일한 teal 순환선과 중앙의 작은 오른쪽 방향 화살촉을 따라 검토로 이동한다. 창 장식은 목표가 입력되는 자리를 표현하며 실제 제품 Screenshot이 아니다. 이제 보려는 범위는 여러 프로젝트나 다음 작업의 성과가 아니라 한 목표 안의 다음 행동과 완료 판단이다. 실제 실행 기록이 아닌 교육용 관계도다.
-3. (1:10–1:40 / Transition) 검토에서 문제가 남으면 아래쪽 amber 순환선과 중앙의 작은 왼쪽 방향 화살촉을 따라 구현으로 돌아온다. 기존 “문제가 남으면 수정·재검토”를 짚는다. 앞의 진행 화살표와 연결한 반복 경로를 한 번 따라 읽는다. 상태 항목·모델 역할·연구·중단 세부를 여기서 설명하지 않는다. 항상 완료된다고 보장하는 화살표가 아니다.
-4. (1:40–2:00 / Transition) “이제는 한 작업의 다음 행동과 완료 판단을 연결한다”로 묶고 S78의 ACT4 제목으로 이동한다. 구체적 운영은 다음 ACT에서 살펴본다.
+**Speaker Flow:**
+1. (0:00–0:40 / Transition) S76에서 공유한 명세·수행 방법·도구를 떠올린다. 한 작업을 맡길 때 구현과 검토에 쓸 준비가 되어 있다는 점만 짚는다.
+2. (0:40–1:30 / Transition) 이번 목표와 완료 기준에서 첫 구현을 거쳐 ‘충족하지 못한 기준이 있다’는 검토 결과까지 따라가 멈춘다. 아직 다음 수정이 시작된 장면은 보여주지 않는다.
+3. (1:30–2:00 / Transition) 제목 질문을 읽고 짧게 쉰다. 구체적인 한 작업을 보자며 ACT4로 넘어간다.
 
-Evidence / Source:
-BEAT-073; DEC-0097; DEC-0136; INV-LOOP-001; INV-VERIFY-001. CASE-LOOP-01의 교육용 설계로 이어지는 전환 모델이다. 기존 Harness 기반 위에서 한 목표의 구현·검토·수정 관계만 보여 주며 실제 Trial·새 실행·측정 결과를 추가하지 않는다.
+**Evidence / Source:**
+BEAT-073 · DEC-0097, DEC-0136, DEC-0146 · INV-LOOP-001, INV-VERIFY-001. 앞선 Harness 설계 모델에서 다음 작업의 시작 주체를 묻는 교육용 전환이다.
 
-Claim Boundary:
-TEACHING_MODEL — 같은 목표의 수행과 검토를 연결하는 교육용 관계도다. 실제 구현·검토·수정 실행 기록이나 현재 제품의 자동 동작을 보여 주는 것이 아니다. Harness에 원래 피드백이 없다는 뜻이나 두 체계가 배타적이라는 뜻이 아니다. 목표 달성·자동 완료·보장된 종료를 주장하지 않는다.
+**Claim Boundary:**
+TEACHING_MODEL. 검토를 마친 작업의 다음 행동을 묻는 가정이다. 특정 Harness나 제품이 항상 이 지점에서 멈춘다고 일반화하지 않는다.
 
-Beginner Explanation:
-이미 준비한 작업 기반을 사용하면서, 같은 목표의 구현 뒤 검토와 필요한 수정을 이어가는 관계만 본다. 구체적인 운영 방법은 다음 ACT에서 설명한다.
+**Beginner Explanation:**
+문제를 찾은 것과 그 문제를 고치기 시작한 것은 서로 다른 순간이다.
 
-Advanced Insight:
-재사용할 수행 기반과 한 작업의 다음 행동·완료 판단 연결은 서로 다른 설계 질문이다. 이 전환에서는 관계만 열고 상세한 운영 설계는 앞당기지 않는다.
+**Advanced Insight:**
+공유된 검토 기준이 있어도 검토 이후의 수행 주체와 이어갈 동작은 별도로 설계할 수 있다.
 
-C++ Vision Bridge:
+**C++ Vision Bridge:**
 N/A — 특정 언어·Demo 코드나 새로운 기술 사례를 추가하지 않는 전환이다.
 
-Demo Operation:
-N/A — Transition2분의 정적 교육용 도식이다. 하단 Harness 기반 → 왼쪽 목표 요청창 → 구현/검토를 잇는 둥근 순환선의 상단 오른쪽 진행과 하단 왼쪽 조건부 복귀 순서로 짚는다. 제품·명령·모델을 실행하거나 새 Trial을 만들지 않는다.
+**Demo Operation:**
+N/A — 정적 화면에서 공통 작업 기반, 첫 결과의 검토, 아직 정해지지 않은 다음 행동 순으로 가리킨다.
 
-Audience Interaction:
-N/A — 관찰할 질문만 제시한다. 별도 Reflection·Q&A·작성·공유·실습을 배정하지 않는다.
+**Audience Interaction:**
+N/A — 제목은 생각할 질문으로 남긴다. 여기서 답이나 응답을 받지 않는다.
 
-Transition:
-“한 목표의 다음 행동과 완료 판단을 시스템 안에서 이어가려면 무엇이 필요할까요?” S78 — 목표를 이룰 때까지 수정하고 검토하기로 넘어간다.
+**Transition:**
+“이 질문을 밝기 통계 작업 한 건으로 살펴봅시다.” S78의 ACT4 제목으로 넘어간다.
 
-Time Management:
-Transition2분: Harness 기반0:30, 한 목표의 구현/검토0:40, 수정·재검토 루프0:30, ACT4 제목 연결0:20. 상세 설명을 시작하지 않고2분에 넘긴다. 실제 리허설 UNVERIFIED.
+**Time Management:**
+전환 2분. 공통 기반 40초, 첫 검토 뒤 멈춘 지점 50초, 질문과 ACT 제목 연결 30초.
 
-Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S77, production/preview/act3/S77.png 및 production/preview/full/S77.png를 사용한다. 이전 내용·파일 가용성 검증은 production/evaluation/ACT3_COMPACT_HANDOFF.md와 production/evaluation/S77_LOOP_VISUAL.md에 보존하며 현재 순환선 재디자인의 검증은 production/evaluation/S77_LOOP_REDESIGN.md를 따른다. 교육용 관계도이며 Live 실행·제품/계정 검증을 완료한 근거로 취급하지 않는다.
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S77 또는 production/preview/full/S77.png. 화면을 볼 수 없으면 공통 기준이 준비된 상태를 한 문장으로 짚고 제목의 질문을 읽는다.
 
-Validation Status:
-CONTENT ALIGNED — DEC-0142.19필드·Transition2분·Map의3G Section·기존 문구/근거/Claim 범위를 유지하고 위아래 순환선과 작은 방향 화살촉의 화면 cue만 정렬했다. 이전 DEC-0136/0140 검증은 production/evaluation/ACT3_COMPACT_HANDOFF.md와 production/evaluation/S77_LOOP_VISUAL.md에 보존한다. 현재 최종 PPT/PNG/내장 Notes 및 파일 가용성 검증은 production/evaluation/S77_LOOP_REDESIGN.md에 별도 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+**Validation Status:**
+CONTENT ALIGNED — DEC-0146. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_LOOP_MOTIVATION.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.

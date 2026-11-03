@@ -1,8 +1,8 @@
 # Official Slide Map
 
-## 현재 ACT4 제작 기준 — DEC-0145 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0146 (2026-11-03)
 
-S78–S81의 한 번 맡긴 목표와 자율 재수정, S88에서 시작하는 GitLab 사례의 범위는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
+S77에서 다음 수정의 주체를 묻고, S79에서 사람이 지적을 다시 전달하는 부담을 먼저 본다. S80의 직접 인계·재검토는 DEC-0146, S88부터의 GitLab 사례는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
 
 [승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
 
@@ -1988,36 +1988,36 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** 사람마다 같은 프로젝트의 기준을 다시 설명하던 부담을 공통 작업 체계로 옮기는 이유를 이해한다.
 - **Advanced Payoff:** 작업자별 자율적인 접근과 공통 명세·제약·검증 기준을 분리한다. 공통 기준은 프로젝트별 실제 명령·도구·권한·실행 조건과 연결하며, 사람의 검토 책임과 서로 다른 결과물을 유지한다.
 - **C++ Vision Bridge:** N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
-- **Speaker Intent:** S75의 재사용 가치에서 한 프로젝트의 공통 기준으로 이어진다. 왼쪽의 우회 도달·검증 전 중단·기존 동작 훼손 위험을 세 가상 장면으로 짧게 짚고 오른쪽의 공통 기준과 분리된 작업 경로를 비교한다. 실제 사고·비교 실험이나 Harness 부재의 필수 실패, 공통 Harness의 자동 준수로 설명하지 않는다. 기존2분 설명 뒤 같은 화면에서 Harness Q&A5분을 운영하고 S77의 한 목표 구현·검토 루프로 넘긴다.
-- **Transition:** Harness에 대한 Q&A를 마친 뒤 “공통 기준을 사용할 작업 체계는 준비했습니다. 이제 한 작업의 구현 뒤 검토와 수정을 어떻게 이어갈까요?”라고 S77로 넘긴다.
+- **Speaker Intent:** S75의 재사용 가치에서 한 프로젝트의 공통 기준으로 이어진다. 왼쪽의 우회 도달·검증 전 중단·기존 동작 훼손 위험을 세 가상 장면으로 짧게 짚고 오른쪽의 공통 기준과 분리된 작업 경로를 비교한다. 실제 사고·비교 실험이나 Harness 부재의 필수 실패, 공통 Harness의 자동 준수로 설명하지 않는다. 기존2분 설명 뒤 같은 화면에서 Harness Q&A5분을 운영하고 S77에서 검토 뒤 누가 수정을 시작할지 묻는다.
+- **Transition:** Harness에 대한 Q&A를 마친 뒤 “공통 기준을 사용할 작업 체계는 준비했습니다. 검토에서 문제가 나오면, 다음 수정은 누가 시작할까요?”라고 S77로 넘긴다.
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Lecture 2분 + Q&A 5분 = 7분
 - **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001, DEC-0134, DEC-0135, DEC-0136, DEC-0141; Q&A operation lineage: previous118 S81 / Section3I / BEAT-073
 - **Audience Footer:** 프로젝트 적용 예시
 
-#### S77 — 준비한 작업 체계로, 한 목표를 끝까지 수행하려면?
+#### S77 — 검토에서 문제가 나오면, 다음 수정은 누가 시작할까?
 
 - **Slide ID:** S77
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 준비한 작업 체계로, 한 목표를 끝까지 수행하려면?
-- **Primary Role:** Harness라는 준비된 기반에서 한 작업의 목표를 향한 다음 행동과 완료 판단으로 설명의 초점을 짧게 옮긴다.
-- **Audience Question:** 준비한 작업 체계 안에서, 한 작업의 다음 행동과 완료 판단은 어떻게 연결할까?
-- **Core Message:** 이제는 한 작업의 다음 행동과 완료 판단을 연결한다.
-- **Story Beat:** BEAT-073 — 같은 목표의 수행 Loop로 전환
+- **Working Title:** 검토에서 문제가 나오면, 다음 수정은 누가 시작할까?
+- **Primary Role:** 프로젝트의 공통 지침·도구·검증 기준을 갖춘 다음에도 남는 질문을 던진다.
+- **Audience Question:** 검토에서 문제가 나오면, 다음 수정은 누가 시작할까?
+- **Core Message:** 검토로 문제를 찾을 수 있다. 이제 그 문제를 누가 다음 수정으로 넘기는지 묻는다.
+- **Story Beat:** BEAT-073 — 누가 다음 수정을 시작하는지 묻는 전환
 - **Curriculum Trace:** ACT3의 기반 구성·재사용을 마친 뒤 ACT4의 단일 목표 수행으로 전환한다. 기존 Section3G와 BEAT-073을 사용한다. 이전118장판 S77–S81의 lineage이며 이전 S81의 Q&A5분은 S76로 이동하고 Reflection3분은 제거한다.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 준비된 Harness 안에서 한 목표의 작업을 반복 운영하는 관점을 연결한다. 실제 수행·반복·목표 달성·효과를 관찰한 결과가 아니며 Harness의 실패나 교체가 Loop의 필수 전제라고 주장하지 않는다.
-- **Visual Concept:** 기존 T03-B의 관계도에서 문구·카드·macOS풍 목표창·Harness 기반의 좌표를 유지한다. 구현/검토 위아래의 넓은 채움형 반타원 화살표를 균일한3.5px 선의 둥근 순환 경로로 바꾼다. 상단은 teal 진행선, 하단은 amber 조건부 복귀선이며 수평 구간 중앙의 작은 native 화살촉이 각각 오른쪽과 왼쪽을 향한다. 카드 접점에는 큰 화살촉을 두지 않는다. 기존 “문제가 남으면 수정·재검토”가 복귀 조건을 설명한다. 상세 상태 필드·구현/검토 모델 역할·논문·완료/중단 분기는 다음 ACT에 남기고 성공 체크·실제 실행 상태·새 수치·보장된 종료를 추가하지 않는다.
-- **Demo / Case Connection:** N/A — Transition2분의 교육용 관계도이며 새 Demo/Trial/실행·반복 관찰이 아니다. 기존 실제 성공과 별개의 설명 모델이다.
-- **Beginner Payoff:** 일할 기반을 갖추는 것과 그 기반으로 한 목표를 끝까지 수행하도록 연결하는 관점을 구분한다.
-- **Advanced Payoff:** Loop는 Harness의 지침·수행 방법·도구·환경을 활용한다. 두 관점을 배타적인 제품이나 필수 성숙 단계로 구분하지 않는다.
+- **Visual Concept:** 한 작업의 목표와 준비된 Harness를 보여주고, 첫 검토에서 문제가 남은 지점에서 멈춘다. 다음 수정 담당은 질문으로 열어 둔다.
+- **Demo / Case Connection:** N/A — Harness에서 검토 다음 행동을 묻는 교육용 전환.
+- **Beginner Payoff:** 작업을 검토할 수 있는 것과 검토 뒤에 수정이 실제로 시작되는 일을 따로 생각한다.
+- **Advanced Payoff:** 검증 수단과 검증 뒤의 제어 흐름이 각각 어떤 책임을 맡는지 구별한다.
 - **C++ Vision Bridge:** N/A — 새 구현 사례나 제품/언어별 조건은 추가하지 않는다.
-- **Speaker Intent:** S76의 공통 기준과 Harness Q&A 뒤, 준비한 작업 체계에서 한 목표의 구현·검토가 어떻게 이어지는지 2분 동안 예고한다. S78 표지를 거쳐 밝기 통계 첫 수정안으로 들어간다.
-- **Transition:** “검토에서 문제가 발견되면 누가 다음 수정을 시작할까요?” S78에서 한 번 맡긴 목표를 읽고 S79의 교육용 수정 장면을 본다.
+- **Speaker Intent:** S76 Q&A를 닫고 공통 기준·도구를 회수한다. 검토 지적까지 읽은 후 누가 수정을 시작할지 묻고 기다린다.
+- **Transition:** 첫 검토에서 작업이 멈춘 상황을 떠올리며 S78의 제목을 연다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Transition 2분 = 2분
-- **Evidence / Decision References:** DEC-0136; DEC-0023; BEAT-073; INV-LOOP-001; INV-VERIFY-001. Source slide lineage: previous118 S77/S78/S79/S80/S81; prior Section3G/3I operation records retained in history.
+- **Evidence / Decision References:** DEC-0146, DEC-0136; DEC-0023; BEAT-073; INV-LOOP-001; INV-VERIFY-001. Source slide lineage: previous118 S77/S78/S79/S80/S81; prior Section3G/3I operation records retained in history.
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 ### ACT 4 — 20 slides / 85 minutes
@@ -2028,75 +2028,75 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **ACT:** ACT 4
 - **Section:** 4R1 Goal-loop entry
 - **Working Title:** 목표를 이룰 때까지 수정하고 검토하기
-- **Primary Role:** 사람이 한 번 맡긴 목표를 구현자와 검토자가 계속 이어받는 ACT를 연다.
-- **Audience Question:** 첫 수정안이 기준에 미달하면 누가 다시 시작할까?
-- **Core Message:** 사람은 처음에 목표와 완료 기준을 정한다. 루프는 추가 지시를 기다리지 않고 구현·검토·수정을 이어 간다.
+- **Primary Role:** ACT4의 범위를 밝히고, 한 번 맡긴 일이 첫 결과에서 멈추는 상황을 예고한다.
+- **Audience Question:** 목표와 검토 기준을 정했는데도 왜 일이 첫 결과에서 멈출 수 있을까?
+- **Core Message:** 같은 목표가 여전히 남아 있어도 검토 후의 다음 동작은 따로 시작해야 할 수 있다.
 - **Story Beat:** BEAT-072
-- **Curriculum Trace:** ACT 4 / 4R1 Goal-loop entry · DEC-0145
+- **Curriculum Trace:** ACT 4 / 4R1 Goal-loop entry · DEC-0146
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 같은 목표 안의 수정·검토를 교육의 운영 정의로 제시한다.
-- **Visual Concept:** 기존 ACT 제목과 여백을 살리고 한 번 맡긴 목표와 재지시 없는 재검토를 부제로 읽는다.
-- **Demo / Case Connection:** S77에서 연 목표 기반 수행과 연결
-- **Beginner Payoff:** 목표는 한 번 정하고 결과는 여러 번 검토할 수 있다.
-- **Advanced Payoff:** 각 회차의 변경 후보와 확인 근거를 같은 목표에 대조한다.
+- **Visual Concept:** 기존 ACT 제목 레이아웃을 유지한다. 부제에서 첫 결과 이후의 멈춤을 예고한다.
+- **Demo / Case Connection:** S77의 질문에서 S79의 밝기 통계 수동 인계 장면으로 전환
+- **Beginner Payoff:** 한 작업의 첫 결과와 목표가 달성된 결과의 차이에 주목한다.
+- **Advanced Payoff:** 작업 단위의 완료 여부와 후보 생성 한 번의 종료를 분리해 본다.
 - **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** S77에서 본 큰 도식을 반복 설명하지 않고 첫 구현에 지적이 남은 장면으로 간다.
-- **Transition:** 처음 만든 코드에 줄이려던 복사가 남아 있다. 다음 수정은 어떻게 시작될까?
+- **Speaker Intent:** 표지에서는 답을 제시하지 않는다. 첫 번째 검토에서 지적을 찾은 사람의 다음 행동으로 전환한다.
+- **Transition:** 밝기 통계 코드에 전체 픽셀 복사가 남아 있다면, 다음 수정은 누가 요청할까?
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Transition 1분 = 1분
-- **Evidence / Decision References:** DEC-0145, DEC-0097, BEAT-072, CLM-0021
+- **Evidence / Decision References:** DEC-0146, DEC-0145, DEC-0097, BEAT-072, CLM-0021
 - **Audience Footer:** 기존 ACT 제목 표기
-- **ACT Subtitle:** Loop Engineering · 한 번 맡기면 목표를 이룰 때까지 구현·검토·수정
+- **ACT Subtitle:** Loop Engineering · 한 번 맡긴 일이 첫 결과에서 멈추는 순간
 - **ACT Display Title:** 목표를 이룰 때까지 / 수정하고 검토하기
 
-#### S79 — 첫 구현에 문제가 남자, 두 번째 수정이 시작됐다
+#### S79 — 한 가지 일을 맡겼는데, 왜 계속 내가 “다시”라고 말할까?
 
 - **Slide ID:** S79
 - **ACT:** ACT 4
 - **Section:** 4R1 Goal-loop entry
-- **Working Title:** 첫 구현에 문제가 남자, 두 번째 수정이 시작됐다
-- **Primary Role:** 한 번 맡긴 목표 아래에서 첫 후보의 검토 지적이 두 번째 구현을 시작하는 순간을 보여준다.
-- **Audience Question:** 첫 구현에 전체 픽셀 복사가 남았다면 다음 수정을 누가 시작할까?
-- **Core Message:** 검토에서 찾은 문제가 다음 수정의 입력이 된다. 개발자가 새 명령을 입력하기 전에 같은 목표의 구현이 이어진다.
-- **Story Beat:** BEAT-073, BEAT-077
-- **Curriculum Trace:** ACT 4 / 4R1 Goal-loop entry · DEC-0145
+- **Working Title:** 한 가지 일을 맡겼는데, 왜 계속 내가 “다시”라고 말할까?
+- **Primary Role:** 검토 지적을 사람이 새 요청으로 옮겨 같은 작업을 재시작하는 수고를 보여준다.
+- **Audience Question:** 한 가지 일을 맡겼는데, 왜 계속 내가 “다시”라고 말할까?
+- **Core Message:** 목표와 기준이 그대로여도, 검토에서 끊긴 작업을 개발자가 매번 다시 시작시킬 수 있다.
+- **Story Beat:** BEAT-073
+- **Curriculum Trace:** ACT 4 / 4R1 Goal-loop entry · DEC-0146
 - **Evidence Type:** CONCEPTUAL
-- **Claim Status:** CONCEPTUAL CASE — 밝기 통계 과제를 바탕으로 설계한 자동 인계 장면. 두 번의 실제 에이전트 실행이나 할당 개선을 관찰한 기록으로 제시하지 않는다.
-- **Visual Concept:** 상단 목표는 한 번만 보여준다. 한 줄에 첫 후보의 전체 픽셀 복사, 남은 복사를 짚은 검토 지적, 복사 대신 행별로 집계하는 다음 후보를 배치한다. 지적과 수정 사이에 사람의 입력창을 두지 않는다.
+- **Claim Status:** CONCEPTUAL CASE — 사람이 검토 지적을 옮겨 재요청하는 밝기 통계 예시. 실제 반복 횟수나 소요 시간, 개선 효과는 측정하지 않았다.
+- **Visual Concept:** 처음 맡긴 목표와 전체 픽셀 복사가 남았다는 검토 지적을 고정한다. 개발자가 그 복사를 없애고 같은 기준으로 다시 확인해 달라는 장면에서 끝낸다. 처음·다음 사람 요청은 같은 색으로, 재지시의 “다시”는 강조한다.
 - **Demo / Case Connection:** CASE-LOOP-01 · 밝기 통계 교육용 재구성
-- **Beginner Payoff:** 검토 의견을 다시 프롬프트로 옮겨 적지 않아도 첫 후보에서 두 번째 후보로 넘어가는 장면을 읽는다.
-- **Advanced Payoff:** 복사 코드의 위치를 고친 것과 메모리·시간 기준을 측정으로 확인한 것을 구분한다.
+- **Beginner Payoff:** 개발자가 같은 일을 계속하라는 신호를 보내는 모습을 알아본다.
+- **Advanced Payoff:** 새 요구사항을 정해야 하는 판단과 이미 승인한 목표의 단순 재개를 구분한다.
 - **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** 검토 의견이 코드의 어떤 문제를 가리켰는지, 그 지적이 누구의 추가 지시 없이 어떤 수정을 시작했는지만 짚는다. 상세 R1과 재측정은 S84에 둔다.
-- **Transition:** 두 번째 후보는 행별로 집계한다. 이것만으로 끝났다고 할 수 있을까?
+- **Speaker Intent:** 최초 요청과 재지시를 대조한다. 두 요청 사이에서 목표·제약이 달라졌는지 묻고, 직접 다음 수정을 시작시키는 부담을 드러낸다.
+- **Transition:** 목표와 검토 지적을 화면에 남긴 채, 다음 장에서는 이 지적을 구현자에게 바로 전달한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
-- **Evidence / Decision References:** DEC-0145, DEC-0097, BEAT-073, BEAT-077, CASE-LOOP-01, CLM-0021
+- **Evidence / Decision References:** DEC-0146, DEC-0145, DEC-0097, BEAT-073, CASE-LOOP-01, CLM-0021
 - **Audience Footer:** 밝기 통계 사례 · 교육용 재구성
 
-#### S80 — 두 번째로 고쳤다고 끝난 걸까?
+#### S80 — 검토 결과가 다음 수정을 시작하게 하자
 
 - **Slide ID:** S80
 - **ACT:** ACT 4
 - **Section:** 4R1 Goal-loop entry
-- **Working Title:** 두 번째로 고쳤다고 끝난 걸까?
-- **Primary Role:** 같은 목표와 완료 기준을 매번 적용해 돌아가는 경로와 완료 출구를 설명한다.
-- **Audience Question:** 두 번째 수정안의 어떤 근거가 있어야 루프를 끝낼까?
-- **Core Message:** 후보가 바뀌면 처음의 기준으로 다시 검토한다. 문제가 남으면 다음 수정으로 돌아가고 모든 기준을 충족한 근거가 있으면 작업을 마친다.
-- **Story Beat:** BEAT-078, BEAT-079
-- **Curriculum Trace:** ACT 4 / 4R1 Goal-loop entry · DEC-0145
+- **Working Title:** 검토 결과가 다음 수정을 시작하게 하자
+- **Primary Role:** S79에서 사람이 이어주던 자리를 검토 결과에서 다음 구현으로 가는 연결로 바꾼다.
+- **Audience Question:** 검토 결과가 다음 수정을 시작하게 하자
+- **Core Message:** 근거 있는 지적이 다음 수정을 시작한다. 수정안은 같은 기준으로 다시 검토하고, 충족 근거가 모이면 완료한다.
+- **Story Beat:** BEAT-077, BEAT-078, BEAT-079
+- **Curriculum Trace:** ACT 4 / 4R1 Goal-loop entry · DEC-0146
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 재수정과 완료에 필요한 근거를 설명하는 제어 흐름이다. 그림 속 후보의 기준 충족 여부나 실제 제품의 자율 완수를 관찰한 결과는 없다.
-- **Visual Concept:** S79의 행별 집계 수정안을 처음의 기준과 대조한다. 수정할 문제가 남은 경로는 구현을 거쳐 재검토로 돌아가고, 기준 충족 근거가 확보된 경로만 완료로 빠져나간다.
+- **Visual Concept:** S79의 목표와 검토 지적은 문구·위치·색을 유지한다. 지적에서 행별 집계 수정으로 바로 연결하고 같은 완료 기준의 재검토로 돌아가는 경로와 조건부 완료 출구를 구분한다.
 - **Demo / Case Connection:** CASE-LOOP-01을 이용한 조건부 순환도
-- **Beginner Payoff:** 같은 목표 아래 검사 근거가 다음 수정 또는 완료를 결정한다.
-- **Advanced Payoff:** 횟수와 기준 충족 여부를 분리한다. 근거를 확보할 수 없거나 한도에 도달한 경우의 미완료 인계는 S85에서 다룬다.
+- **Beginner Payoff:** 같은 문제를 보고도 사람이 다시 지시하는 장면과 검토 결과가 수정을 시작하는 장면을 비교한다.
+- **Advanced Payoff:** 수정 횟수와 관계없이 목표와 완료 기준을 유지한다. 근거를 얻을 수 없는 경우의 미완료 인계는 S85에서 다룬다.
 - **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** 처음으로 되돌아가는 대상은 후보이고 기준은 고정된다는 점을 짚는다. 좋은 결과를 미리 붙이지 않는다.
-- **Transition:** 밝기 통계 작업에서는 무엇을 확인해야 완료인가?
+- **Speaker Intent:** 같은 검토 지적에서 S79의 재지시가 사라진 곳을 짚는다. 수정안은 다시 평가하고 충족한 근거가 모여야 완료한다.
+- **Transition:** 밝기 통계의 완료 출구를 열려면 어떤 검사·측정 근거가 필요할까?
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 3분 + Case 1분 = 4분
-- **Evidence / Decision References:** DEC-0145, DEC-0097, BEAT-078, BEAT-079, CASE-LOOP-01, CLM-0021
+- **Evidence / Decision References:** DEC-0146, DEC-0145, DEC-0097, BEAT-077, BEAT-078, BEAT-079, CASE-LOOP-01, CLM-0021
 - **Audience Footer:** 밝기 통계 사례를 이용한 운영 모형
 
 #### S81 — 무엇을 확인해야 이 작업이 끝났다고 할까?

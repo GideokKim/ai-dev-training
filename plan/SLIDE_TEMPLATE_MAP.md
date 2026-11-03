@@ -1,8 +1,8 @@
 # STEP 08 — Slide-to-Template Mapping
 
-## 현재 ACT4 제작 기준 — DEC-0145 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0146 (2026-11-03)
 
-S79는 T03-C의 세 장면, S80은 T03-B의 조건부 순환도, S81은 T03-A의 세 검증 질문, S88은 T03-C의 팀 사례 흐름을 사용한다. S87에 기존 T07-B의 편집 가능한 연구 차트를 배치한다. 연구 프레임과 Table 2를 함께 표시한다. S110/S112의 검토·중단·Goal 찾아보기는 현재 S83/S85/S95를 참조한다. 아래 Current113 집계와 113개 행을 기준으로 한다.
+S79는 T03-C의 재요청 장면, S80은 목표·검토 지적을 같은 위치에 두고 재수정과 완료 출구를 처음 연결하는 T03-B, S81은 T03-A의 세 검증 질문, S88은 T03-C의 팀 사례 흐름을 사용한다. S87에 기존 T07-B의 편집 가능한 연구 차트를 배치한다. 연구 프레임과 Table 2를 함께 표시한다. S110/S112의 검토·중단·Goal 찾아보기는 현재 S83/S85/S95를 참조한다. 아래 Current113 집계와 113개 행을 기준으로 한다.
 
 [승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
 
@@ -60,7 +60,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 | T12 | 6 |
 | Total | 113 |
 
-## Current113 Slide-to-Template Mapping — DEC-0145
+## Current113 Slide-to-Template Mapping — DEC-0146
 
 | Slide | Primary Template | Required components | Optional | Evidence | Demo / Case | Operation | C++ | Checks |
 |---|---|---|---|---|---|---|---|---|
@@ -140,10 +140,10 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 | S74 — 함께 작동하는 작업 환경, Harness | T03-B | CMP-EVIDENCE, CMP-CLAIM, CMP-WORKFLOW | CMP-CPP | P+T; solid observed base and dashed optional Subagent teaching extension; no Subagent in STATE-04-PERF | DEMO-09: Lecture4 model; CAPTURED2 observed single-Agent base only; no new execution | Native input/Agent/verification/environment hierarchy; subordinate amber dashed optional independent investigation returns to the main Agent for review/integration; DEC-0134 | Contextual | V01, V02, V05, V08 |
 | S75 — 만든 Harness를 다음 프로젝트의 기반으로 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; reuse design without portability/execution/benefit results | Lecture2; no extra Demo or Trial | One large common Harness module becomes the same smaller module inside projects A/B/C; native grouped shapes, no audience footer; DEC-0134 | — | V01, V02, V05, V07 |
 | S76 — 누가 작업하더라도 프로젝트 기준은 같게 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; shared project criteria, no measured before/after effect, identical output or automatic compliance | Lecture2 + Q&A5; same comparison view, no extra Demo or Trial | Two grouped systems with three separate developer/AI lanes; preserve project bindings in Notes and answer Harness questions; DEC-0141 | — | V01, V02, V05, V07 |
-| S77 — 준비한 작업 체계로, 한 목표를 끝까지 수행하려면? | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | T; scope transition inside a reusable Harness, no observed Loop or automatic completion | Transition2; no Demo or Trial | Stable Harness base under one goal and implementation/review, with a dashed remaining-issue revision return; defer state fields, roles, research and stop branches; DEC-0136 | — | V01, V02, V05, V07 |
-| S78 — 목표를 이룰 때까지 수정하고 검토하기 | T12-A | CMP-CLAIM | — | TEACHING_MODEL; 기존 ACT 제목 표기 | 전환 1; 정적 교육자료 | S77의 순환도를 반복하지 않고, 한 번 맡긴 목표로 구현·검토·수정을 잇는 ACT를 연다. | — | V01, V02, V06, V07 |
-| S79 — 첫 구현에 문제가 남자, 두 번째 수정이 시작됐다 | T03-C | CMP-CLAIM | — | CONCEPTUAL; 밝기 통계 교육용 재구성 | 강의 2 + 사례 2; 정적 교육자료 | 목표 카드는 하나다. 첫 후보의 전체 픽셀 복사, 검토 지적, 행별 집계 수정안을 하나의 흐름으로 읽는다. | — | V01, V02, V06, V07 |
-| S80 — 두 번째로 고쳤다고 끝난 걸까? | T03-B | CMP-CLAIM | — | TEACHING_MODEL; 같은 목표의 재검토·수정·완료 조건 | 강의 3 + 사례 1; 정적 교육자료 | S79의 두 번째 후보를 재검토한다. 남은 문제는 구현으로 되돌아가고, 충족 근거가 모인 경우만 완료로 빠져나간다. | — | V01, V02, V06, V07 |
+| S77 — 검토에서 문제가 나오면, 다음 수정은 누가 시작할까? | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | TEACHING_MODEL; 검토 뒤의 착수를 묻는 전환 | Transition2; no Demo or Trial | 한 작업의 목표와 준비된 Harness를 보여주고, 첫 검토에서 문제가 남은 지점에서 멈춘다. 다음 수정 담당은 질문으로 열어 둔다. | — | V01, V02, V05, V07 |
+| S78 — 목표를 이룰 때까지 수정하고 검토하기 | T12-A | CMP-CLAIM | — | TEACHING_MODEL; 기존 ACT 제목 표기 | 전환 1; 정적 교육자료 | 기존 ACT 제목 레이아웃을 유지한다. 부제에서 첫 결과 이후의 멈춤을 예고한다. | — | V01, V02, V06, V07 |
+| S79 — 한 가지 일을 맡겼는데, 왜 계속 내가 “다시”라고 말할까? | T03-C | CMP-CLAIM | — | CONCEPTUAL; 밝기 통계 교육용 재구성 | 강의 2 + 사례 2; 정적 교육자료 | 처음 맡긴 목표와 전체 픽셀 복사가 남았다는 검토 지적을 고정한다. 개발자가 그 복사를 없애고 같은 기준으로 다시 확인해 달라는 장면에서 끝낸다. 처음·다음 사람 요청은 같은 색으로, 재지시의 “다시”는 강조한다. | — | V01, V02, V06, V07 |
+| S80 — 검토 결과가 다음 수정을 시작하게 하자 | T03-B | CMP-CLAIM | — | TEACHING_MODEL; 같은 목표의 재검토·수정·완료 조건 | 강의 3 + 사례 1; 정적 교육자료 | S79의 목표와 검토 지적은 문구·위치·색을 유지한다. 지적에서 행별 집계 수정으로 바로 연결하고 같은 완료 기준의 재검토로 돌아가는 경로와 조건부 완료 출구를 구분한다. | — | V01, V02, V06, V07 |
 | S81 — 무엇을 확인해야 이 작업이 끝났다고 할까? | T03-A | CMP-CLAIM | — | CONCEPTUAL; 교육용 재구성 | 강의 2 + 사례 2; 정적 교육자료 | 여섯 출력, 임시 할당, 실행시간의 완료 질문을 동일 입력에서 확인할 근거와 짝짓는다. | — | V01, V02, V06, V07 |
 | S82 — 첫 후보에서 무엇을 확인할까 | T03-C | CMP-CLAIM | — | CONCEPTUAL; 교육용 재구성 | 강의 2 + 사례 3; 정적 교육자료 | 재구성한 목록 복사와 메모리 측정 항목을 대응시킨다. | — | V01, V02, V06, V07 |
 | S83 — Checker가 수정을 요청할 근거 | T04-A | CMP-PRACTICAL-TIP, CMP-CLAIM | — | CONCEPTUAL; 교육용 재구성 | 강의 1 + 사례 4; 정적 교육자료 | 검토자의 말도 원래 명세와 diff에서 확인한다. | — | V01, V02, V06, V07 |

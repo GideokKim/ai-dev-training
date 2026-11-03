@@ -3,7 +3,7 @@ import {addPracticalTipBadge} from './practical-tips.mjs';
 
 export const CURRENT_SLIDE_COUNT=114;
 export const COMPACT_FRESH_IDS=['S78','S111'];
-export const COMPACT_TITLE='준비한 작업 체계로, 한 목표를 끝까지 수행하려면?';
+export const COMPACT_TITLE='검토에서 문제가 나오면, 다음 수정은 누가 시작할까?';
 const slideId=n=>`S${String(n).padStart(2,'0')}`;
 
 export const afterCompactHandoff=id=>{
@@ -30,22 +30,9 @@ export function applyCompactHandoff(slide){
 export function compactBridgeFactory(p,H){
  const {C,text,rect,line,FONT}=H;
  const s=H.frame(p,'S78',COMPACT_TITLE,'ACT 3 → ACT 4 · 작업 체계와 한 작업의 수행');
- const connect=(x,y,w,h=0,color=C.teal,dash='solid',reverse=false)=>s.shapes.add({
-  geometry:'connector',kind:'straight',position:{left:x,top:y,width:w,height:h},
-  line:{fill:color,width:2.5,style:dash},
-  [reverse?'head':'tail']:{type:'triangle',width:'sm',length:'sm'}
- });
- // DEC-0142: uniform rounded tracks and small inline direction markers.
- const loopTrack=(name,left,top,color,commands)=>s.shapes.add({
-  geometry:'custom',name,position:{left,top,width:403,height:40},
-  fill:'none',line:{fill:color,width:3.5},
-  customPaths:[{width:403,height:40,commands}]
- });
- const direction=(name,y,color,reverse=false)=>s.shapes.add({
-  geometry:'connector',kind:'straight',name,
-  position:{left:778,top:y,width:24,height:0},
-  line:{fill:color,width:3.5},
-  [reverse?'head':'tail']:{type:'triangle',width:'sm',length:'sm'}
+ const forward=(x,y,w)=>s.shapes.add({
+  geometry:'connector',kind:'straight',position:{left:x,top:y,width:w,height:0},
+  line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}
  });
  rect(s,64,220,1152,336,C.white,C.line,1);
  text(s,'이번 작업',88,232,1096,32,25,C.teal,true);
@@ -57,30 +44,17 @@ export function compactBridgeFactory(p,H){
  text(s,'이번 목표',146,290,192,25,20,C.teal,true);
  line(s,89,319,266,C.line,1);
  text(s,'목표 · 완료 기준',108,343,228,29,25,C.ink,false,FONT,'center');
- rect(s,460,286,258,104,C.white,C.teal,1.5);
- text(s,'구현',480,314,218,48,36,C.ink,true,FONT,'center');
- rect(s,840,286,304,104,C.white,C.teal,1.5);
- text(s,'검토',860,314,264,48,36,C.ink,true,FONT,'center');
- connect(356,338,104);
- loopTrack('Implementation to review track',589,246,C.teal,[
-  {moveTo:{x:0,y:40}},
-  {quadBezTo:{x1:0,y1:0,x:40,y:0}},
-  {lineTo:{x:363,y:0}},
-  {quadBezTo:{x1:403,y1:0,x:403,y:40}}
- ]);
- loopTrack('Review to implementation track',589,390,C.warn,[
-  {moveTo:{x:403,y:0}},
-  {quadBezTo:{x1:403,y1:40,x:363,y:40}},
-  {lineTo:{x:40,y:40}},
-  {quadBezTo:{x1:0,y1:40,x:0,y:0}}
- ]);
- direction('Forward direction marker',246,C.teal);
- direction('Return direction marker',430,C.warn,true);
- text(s,'문제가 남으면 수정·재검토',638,452,506,31,25,C.warn,true,FONT,'center');
+ rect(s,446,286,228,104,C.white,C.teal,1.5);
+ text(s,'첫 구현',462,314,196,48,34,C.ink,true,FONT,'center');
+ rect(s,776,286,400,104,C.amber,C.warn,1.5);
+ text(s,'검토 결과',796,300,360,32,24,C.warn,true,FONT,'center');
+ text(s,'충족하지 못한 기준이 있다',790,342,372,40,27,C.ink,true,FONT,'center');
+ forward(359,338,76);
+ forward(678,338,87);
  rect(s,64,490,1152,66,C.pale,C.teal,1.5);
  text(s,'Harness',88,505,186,36,32,C.teal,true);
  text(s,'지침 · Skill · 도구 · 실행 환경',320,508,872,32,27,C.ink,true);
- text(s,'이제는 한 작업의 다음 행동과 완료 판단을 연결한다',64,566,1152,40,31,C.teal,true);
+ text(s,'검토는 끝났고, 목표는 아직 남아 있다',64,566,1152,40,31,C.teal,true);
  text(s,'M 연계 · M6 · M8',996,674,220,23,16,C.sub,false,FONT,'right');
  return s;
 }

@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0145
+## Current presentation · DEC-0146
 
 The 43 entries identify local static fallbacks for the 113-slide course. ACT4 uses the author’s GitLab account of operations, a designed brightness case, a published benchmark and a documented Goal example. Classroom playback and account checks are pending.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`c2b13fc59ad2f62b38b5a965da9ca2d7f1737a3577f3bdbac2742358df92d643`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`53c6b5aff580bcc5b52ca28fcfef1c65943a4dfa9cb80489c92000adb6a68045`.
-- `production/preview/full/montage.png` SHA-256:`0b14dd6ddb419daa5f9b7fff3863b95875b372d2e05f5dc5a000779f580daf38`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`b85cc76dc85febdcbddc651984030c26ed0d2021417acf973d7626fddbe2c10f`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`05ea12ad8e9427ae61c807888a4ea52d047d0b1d47e9c1205f198528e2a47d41`.
+- `production/preview/full/montage.png` SHA-256:`aa9bc264f44b6172ee0d7a445eff19fdc47493fd541f27105421c76e099feafd`.
 
-[Current revision](../../production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md)
+[Current revision](../../production/evaluation/ACT4_LOOP_MOTIVATION.md)
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
@@ -33,8 +33,8 @@ The 43 entries identify local static fallbacks for the 113-slide course. ACT4 us
 | S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` | 1920×1080 | `7fa05104badad5a6f49bfe89b1492e0fb3a169fe86330f93abbbe26b5993b013` |
 | S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` | 1920×1080 | `8d257b5e2dfd8e1f6c4908c3e5d48111cf978616c978c2152b40284c23495bfa` |
 | S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` | 1920×1080 | `67b83e594add1c198951ce3bb0907cc1444ab11f2fdc98ede1be60525b0a954a` |
-| S79 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S79.png` | 1920×1080 | `33f39a0b7f2cad4bb96c20f3efb41c49bff0f4f6c6c4707898fec5395b7b5f9c` |
-| S80 | TEACHING_MAP | `production/preview/full/S80.png` | 1920×1080 | `8cd051d6b3a0b80f6c05d6809463aa0f100a2f96294ebe9c6ba6e36028594703` |
+| S79 | CONCEPTUAL_MANUAL_HANDOFF | `production/preview/full/S79.png` | 1920×1080 | `d8b59e0a3fe4e0c5a690d739b0d4e62316baa1212cefd8205bd21ef962154486` |
+| S80 | TEACHING_MAP | `production/preview/full/S80.png` | 1920×1080 | `20d89e78ba847e9ec8b8a8c761376941c0f27959850f2fa9ebf0782daf25e442` |
 | S81 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S81.png` | 1920×1080 | `5a72720b196758dc5b237dfa2175b4b186329ad3c072c9d7d57dfdd124affd6f` |
 | S82 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S82.png` | 1920×1080 | `57a8ee775b88981f5627d58f57dc6e76ef4027640d2ae82545966ab3b9ffc50f` |
 | S83 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S83.png` | 1920×1080 | `d1ba64f22d3016686a7a24c8baa23991081daf676f1902341331ebda6f6e8302` |

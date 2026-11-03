@@ -1,10 +1,10 @@
 # AI 개발자 교육
 
-## 발표 자료 · DEC-0145
+## 발표 자료 · DEC-0146
 
 [통합 PPT](production/AI_Dev_Training_Full.pptx) · [ACT4 PPT](production/ACT_4.pptx) · [ACT4 발표 Notes](production/notes/ACT_4_NOTES.md)
 
-전체 113장·389분 중 ACT4는 S78–S97, 85분이다. 밝기 통계 예시에서 첫 구현의 문제를 발견한 뒤 사람이 다시 지시하지 않아도 다음 수정과 재검토가 이어지는 과정을 살펴본다. S88부터는 같은 흐름을 GitLab 이슈·작업 공간·팀 검토에 연결한 사내 운영 사례다. S87은 PairCoder 표 2의 코드 생성 실험, S95는 Goal 요청 예시다. [Slide Map](plan/SLIDE_MAP.md) · [검증 기록](production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md)
+전체 113장·389분 중 ACT4는 S78–S97, 85분이다. 같은 밝기 통계 작업에서 사람이 검토 지적을 다시 요청으로 옮기는 장면과, 지적을 다음 구현에 바로 전달해 다시 검토하는 장면을 비교한다. S88부터는 같은 흐름을 GitLab 이슈·작업 공간·팀 검토에 연결한 사내 운영 사례다. S87은 PairCoder 표 2의 코드 생성 실험, S95는 Goal 요청 예시다. [Slide Map](plan/SLIDE_MAP.md) · [검증 기록](production/evaluation/ACT4_LOOP_MOTIVATION.md)
 
 ## 이전 판본 기록
 

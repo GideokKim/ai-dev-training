@@ -1,8 +1,8 @@
 # STEP 08 — CLAIM / EVIDENCE FREEZE RESULT
 
-## 현재 ACT4 제작 기준 — DEC-0145 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0146 (2026-11-03)
 
-S79의 재지시 없는 두 번째 수정은 CASE-LOOP-01의 교육용 장면이고 S80의 완료 출구는 조건부다. 코드 형태가 바뀌었다는 사실에서 할당 피크·속도 개선이나 자동 완수 성공을 추론하지 않는다. S88에서 시작하는 글쓴이의 GitLab 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. 새 근거 SRC-0244/0245 및 CLM-0048/0049는 [출처](../references/sources/SOURCES.md)와 [주장 레지스트리](../references/CLAIMS.md)에 등록한다. 과거 ReConcile 수치와 Goal 내부 동작 해석을 현재 사내 업무의 성과로 전이하지 않는다. 기존 S95 제품 계정·Windows·교육장·실측 리허설의 UNVERIFIED 게이트를 유지한다.
+S79에서 사람이 검토 지적을 재요청하는 장면과 S80에서 같은 지적을 직접 전달하는 장면은 CASE-LOOP-01의 교육용 대비다. 시간 절감·개입 횟수를 측정한 비교 실험은 없으며 S80의 완료 출구는 조건부다. 코드 형태가 바뀌었다는 사실에서 할당 피크·속도 개선이나 자동 완수 성공을 추론하지 않는다. S88에서 시작하는 글쓴이의 GitLab 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. 새 근거 SRC-0244/0245 및 CLM-0048/0049는 [출처](../references/sources/SOURCES.md)와 [주장 레지스트리](../references/CLAIMS.md)에 등록한다. 과거 ReConcile 수치와 Goal 내부 동작 해석을 현재 사내 업무의 성과로 전이하지 않는다. 기존 S95 제품 계정·Windows·교육장·실측 리허설의 UNVERIFIED 게이트를 유지한다.
 
 [승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
 

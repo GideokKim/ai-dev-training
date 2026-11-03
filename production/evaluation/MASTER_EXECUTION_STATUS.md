@@ -1,8 +1,8 @@
 # MASTER EXECUTION STATUS
 
-## ACT4 도입 개편 · DEC-0145
+## ACT4 도입 개편 · DEC-0146
 
-통합 113장과 ACT4 20장을 다시 렌더링하고, 장별 시간과 PPT에 포함된 발표 Notes를 확인했다. 발표 PC·투사·교육 계정·실측 리허설은 별도 점검 대상으로 남는다. [현재 검토](ACT4_AUTONOMOUS_LOOP_OPENING.md)
+통합 113장과 ACT3 18장, ACT4 20장을 다시 렌더링하고, 장별 시간과 PPT에 포함된 발표 Notes를 확인했다. 발표 PC·투사·교육 계정·실측 리허설은 별도 점검 대상으로 남는다. [현재 검토](ACT4_LOOP_MOTIVATION.md)
 
 ## 이전 기록
 

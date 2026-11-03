@@ -1,7 +1,8 @@
-# ACT 4 operations case study (DEC-0144)
+# ACT 3 handoff and ACT 4 loop motivation (DEC-0146)
 
-For the DEC-0145 opening, build the integrated deck and ACT 4 with
-`--release --release-acts=4`. The ACT 4 source file
+For the DEC-0146 ACT 3 handoff and ACT 4 opening, build the integrated deck
+and both affected ACTs with `--release --release-acts=3,4`. The ACT 3 handoff is authored in
+`compact-handoff-114.mjs` and migrated to final S77. The ACT 4 source file
 `act4-loop-operations.mjs` owns final S78–S97. Final S87 contains the editable four-condition PairCoder chart.
 S110 and S112 look up the current ACT 4 titles after ID migration.
 
@@ -13,7 +14,7 @@ and a hypothetical risk to existing behavior. Keep the shared Harness
 comparison and all actor positions unchanged. Use no observed failure or
 guaranteed-success claim. Build Full plus ACT3 with `--release --release-acts=3`.
 
-# Current S77 loop redraw — DEC-0142 (2026-11-03)
+# Previous S77 loop redraw — DEC-0142 (2026-11-03)
 
 Keep113slides/389minutes. In `compact-handoff-114.mjs`, replace only the
 currentS77 loop artwork with uniform3.5pxopen rounded tracks and small
