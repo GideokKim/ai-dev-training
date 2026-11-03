@@ -8,18 +8,18 @@
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `cc29515bdaf6f2f7645749c47098832ed617322744b9cb57f5e18a6994e608c5` |
+| `production/AI_Dev_Training_Full.pptx` | `98b6aafeb35ba3bfa8f95728f95007481e5b7e5977fe10a3d8014ff96db1ac2b` |
 | `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
 | `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
 | `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
 | `production/ACT_3.pptx` | `73fa2d32d3a1dcdf893fa8c0329f07c4c1cceea52b4188ec9322317c82502a86` |
-| `production/ACT_4.pptx` | `abd996f3f5d706948011624ad351c5d68ef5f5c4c2b0ddedb87c6bf3d8c0c76f` |
+| `production/ACT_4.pptx` | `783616fac1278fcaf88e7c9c2c701abc31f8db7ceaafa379fb2a6a1ba4a6f5f8` |
 | `production/ACT_5.pptx` | `38575a4a8ecb7fd6825349c57a773dea43db8431bc779bcf49d2951fcbee8f61` |
 | `production/notes/FULL_SPEAKER_NOTES.md` | `94f5a30145a3c7e47d8349c1352691d9ea46ac3a97ea295c3068354e71114a94` |
 | `production/notes/ACT_4_NOTES.md` | `030b9fdc637f101e6ac083bbc2b15dc8ea897cfe9c18e86696f6a2aa47fa6545` |
 | `production/notes/ACT_5_NOTES.md` | `c6ff6ab6ba374ad5e9b897e139529f3b192219599b36e9ffce53ca64aacd56c6` |
-| `production/preview/full/montage.png` | `d741bb3b028c19a31f688c051d3c644b6a47bd527eeced120f9cd02ddc979f4f` |
-| `production/preview/act4/montage.png` | `9c3bfcd9a0637b64f9212fdc86c0ec9dc9aacd27790e52344bc37f5396f991da` |
+| `production/preview/full/montage.png` | `602598c41ec53fc53b90cf570267752ef58ace16637c0604bc865f6275b5104b` |
+| `production/preview/act4/montage.png` | `3bc8b8a8f71d00c578bfd7b24d7ce5af602f089b9d2fa0f1379f86e72869faf5` |
 | `production/preview/act5/montage.png` | `18ce7b80b8e6ee02c8006a4bda9f9ccbd0ff226f111f7f24afeb3f3d0dc131d4` |
 | `production/preview/full/S79.png` | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | `production/preview/full/S84.png` | `aa3ec616518b2866672caf85bc6ebc7148848c4cb0fb8697b01c46f8772f38e4` |

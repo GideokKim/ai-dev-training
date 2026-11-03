@@ -3,19 +3,18 @@
     [
       "AI_Dev_Training_Full",
       113,
-      "cc29515bdaf6f2f7645749c47098832ed617322744b9cb57f5e18a6994e608c5"
+      "98b6aafeb35ba3bfa8f95728f95007481e5b7e5977fe10a3d8014ff96db1ac2b"
     ],
     [
       "ACT_4",
       20,
-      "abd996f3f5d706948011624ad351c5d68ef5f5c4c2b0ddedb87c6bf3d8c0c76f"
+      "783616fac1278fcaf88e7c9c2c701abc31f8db7ceaafa379fb2a6a1ba4a6f5f8"
     ]
   ],
   "minutes": 389,
-  "unchangedScreens": 111,
+  "unchangedScreens": 112,
   "notesCompared": 133,
   "changedScreens": [
-    81,
     82
   ],
   "act4Minutes": 85,
@@ -27,6 +26,14 @@
   "roleCards": {
     "slide": "S82",
     "count": 6,
-    "artwork": "editable PowerPoint pictograms"
+    "artwork": "editable PowerPoint pictograms",
+    "fills": [
+      "D8EFF0",
+      "DEEAFB",
+      "EAF2D7",
+      "FAE8C7",
+      "EEE2F7",
+      "F8E0E8"
+    ]
   }
 }

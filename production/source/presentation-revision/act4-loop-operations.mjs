@@ -143,8 +143,8 @@ export function loopOperationsFactories(H) {
     S82(p) {
       const s=common(p,'S82','루프를 구성하는 여섯 가지 요소','한 목표의 구현·검토·수정을 연결하는 설계','','TEACHING_MODEL','신규 확장');
       // Original pictograms use native shapes so their appearance does not depend on an emoji font.
-      function icon(x,y,ink,tint,draw) {
-        const badge=rect(s,x,y,60,60,tint); badge.borderRadius=12;
+      function icon(x,y,ink,draw) {
+        const badge=rect(s,x,y,60,60,C.white); badge.borderRadius=12;
         const box=(left,top,w,h,fill,stroke='none',width=0)=>rect(s,x+left,y+top,w,h,fill,stroke,width);
         const oval=(left,top,w,h,fill,stroke='none',width=0)=>s.shapes.add({
           geometry:'ellipse',position:{left:x+left,top:y+top,width:w,height:h},fill,line:{fill:stroke,width}
@@ -156,29 +156,29 @@ export function loopOperationsFactories(H) {
         draw({ink,box,oval,stroke});
       }
       const components=[
-        ['오토메이션','시각·이벤트에 맞춰 작업 시작','#176B7C','#DFF2F2',({ink,oval,stroke})=>{
+        ['오토메이션','시각·이벤트에 맞춰 작업 시작','#096975','#D8EFF0',({ink,oval,stroke})=>{
           oval(12,12,36,36,C.white,ink,3); stroke([30,18],[30,30],[39,35]);
         }],
-        ['워크트리','작업별 변경을 별도 폴더로 분리','#41628D','#E4ECF7',({ink,oval,stroke})=>{
+        ['워크트리','작업별 변경을 별도 폴더로 분리','#285A96','#DEEAFB',({ink,oval,stroke})=>{
           stroke([19,16],[19,46]); stroke([19,34],[33,34],[42,25],[42,18]);
           for(const [cx,cy] of [[19,15],[19,46],[42,16]]) oval(cx-4,cy-4,8,8,C.white,ink,3);
         }],
-        ['스킬','반복할 절차를 저장해 재사용','#376955','#E4F2E8',({ink,box,stroke})=>{
+        ['스킬','반복할 절차를 저장해 재사용','#4B6529','#EAF2D7',({ink,box,stroke})=>{
           box(15,12,31,38,C.white,ink,2.5); box(23,9,15,7,ink);
           for(const cy of [25,36]) {stroke([20,cy],[23,cy+3],[28,cy-3]); stroke([32,cy],[40,cy]);}
         }],
-        ['커넥터','외부 이슈를 읽고 결과를 기록','#94601D','#F9EDD8',({ink,box,stroke})=>{
+        ['커넥터','외부 이슈를 읽고 결과를 기록','#875415','#FAE8C7',({ink,box,stroke})=>{
           stroke([24,11],[24,22]); stroke([36,11],[36,22]);
           const plug=box(19,21,22,16,C.white,ink,3); plug.borderRadius=4;
           stroke([30,37],[30,43],[35,48],[44,48]);
         }],
-        ['서브에이전트','검토를 나눠 맡기고 결과를 회수','#795C8F','#F0E8F6',({ink,oval,box})=>{
+        ['서브에이전트','검토를 나눠 맡기고 결과를 회수','#69498E','#EEE2F7',({ink,oval,box})=>{
           for(const [cx,cy] of [[40,19],[21,27]]){
             const body=box(cx-10,cy+8,20,12,ink);body.borderRadius=5;
             oval(cx-7,cy-7,14,14,C.white,ink,2.5);
           }
         }],
-        ['상태/메모리','진행 기록으로 다음 작업 재개','#386B83','#E1EFF5',({ink,box,stroke})=>{
+        ['상태/메모리','진행 기록으로 다음 작업 재개','#90445D','#F8E0E8',({ink,box,stroke})=>{
           const cover=box(15,10,32,40,C.white,ink,3);cover.borderRadius=3;
           stroke([22,11],[22,49]); stroke([28,23],[40,23]); stroke([28,32],[38,32]);
           box(35,12,6,7,ink);
@@ -187,9 +187,9 @@ export function loopOperationsFactories(H) {
       components.forEach(([name,description,ink,tint,draw],i)=>{
         const x=64+(i%3)*391;
         const y=175+Math.floor(i/3)*202;
-        const card=rect(s,x,y,370,175,C.white,C.line,1.3);card.borderRadius=8;
-        icon(x+17,y+20,ink,tint,draw);
-        text(s,name,x+93,y+25,260,50,33,C.teal,true);
+        const card=rect(s,x,y,370,175,tint,ink,1);card.borderRadius=8;
+        icon(x+17,y+20,ink,draw);
+        text(s,name,x+93,y+25,260,50,33,ink,true);
         text(s,description,x+18,y+101,337,48,25,C.ink);
       });
       text(s,'작업에 필요한 역할을 골라 연결한다.',64,571,1152,37,25,C.teal,true);

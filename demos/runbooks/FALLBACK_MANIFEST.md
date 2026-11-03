@@ -4,9 +4,9 @@
 
 The 43 entries identify local static fallbacks for the 113-slide course. ACT4 uses the author’s GitLab account of operations, a designed brightness case, a published benchmark and a documented Goal example. Classroom playback and account checks are pending.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`cc29515bdaf6f2f7645749c47098832ed617322744b9cb57f5e18a6994e608c5`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`98b6aafeb35ba3bfa8f95728f95007481e5b7e5977fe10a3d8014ff96db1ac2b`.
 - `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`94f5a30145a3c7e47d8349c1352691d9ea46ac3a97ea295c3068354e71114a94`.
-- `production/preview/full/montage.png` SHA-256:`d741bb3b028c19a31f688c051d3c644b6a47bd527eeced120f9cd02ddc979f4f`.
+- `production/preview/full/montage.png` SHA-256:`602598c41ec53fc53b90cf570267752ef58ace16637c0604bc865f6275b5104b`.
 
 [Current revision](../../production/evaluation/S82_LOOP_COMPONENTS.md)
 
@@ -36,7 +36,7 @@ The 43 entries identify local static fallbacks for the 113-slide course. ACT4 us
 | S79 | CONCEPTUAL_MANUAL_HANDOFF | `production/preview/full/S79.png` | 1920×1080 | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | S80 | TEACHING_MAP | `production/preview/full/S80.png` | 1920×1080 | `b37994cde3beb9a42c2293b65ca12479400fe7ec26e1f81e34f198a8a154d4c1` |
 | S81 | TEACHING_MODEL_COMPARISON | `production/preview/full/S81.png` | 1920×1080 | `c8317d1f11dafddfac1d394e4b8a7c22546c2c704720e97c8397c1898dd7336b` |
-| S82 | TEACHING_MODEL_COMPONENTS | `production/preview/full/S82.png` | 1920×1080 | `541304091ba90380defbb0426f77524adb3417c0400767469a68ab464054ae7f` |
+| S82 | TEACHING_MODEL_COMPONENTS | `production/preview/full/S82.png` | 1920×1080 | `80ff88a4e3aecc28ede7191bb67c08c428785fb41cdbf440e0a6726c35285547` |
 | S83 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S83.png` | 1920×1080 | `014b3c0d8a4522bd0f478459a53a27b97a0b966d51cf3e65b358c541d427c7a0` |
 | S84 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S84.png` | 1920×1080 | `aa3ec616518b2866672caf85bc6ebc7148848c4cb0fb8697b01c46f8772f38e4` |
 | S85 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S85.png` | 1920×1080 | `9a6f9d2c39c0e0091be44dc298d2a9186ac5d20121c2a6091b57fa9a8dc5b0a1` |
