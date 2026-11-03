@@ -1,5 +1,66 @@
 # Static Fallback Manifest
 
+## Current presentation · DEC-0144
+
+The 43 entries identify local static fallbacks for the 113-slide course. ACT4 uses the author’s GitLab account of operations, a designed brightness case, a published benchmark and a documented Goal example. Classroom playback and account checks are pending.
+
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`934e87470bc1d67dad7ba45dbd25373a1b74e9b573b5beb05cefed1b44088fc4`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`31335308e80538fd4f275a4ff0f04ed38880f11a4740d1f3134397c1bcc210fb`.
+- `production/preview/full/montage.png` SHA-256:`4ff21afbfa7b309b5271c446fd83fc13386c8d1173f500d94fe7c08d6892927e`.
+
+[Current revision](../../production/evaluation/ACT4_LOOP_OPERATIONS.md)
+
+| Slide | Classification | Path | Dimensions | SHA-256 |
+|---|---|---|---|---|
+| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` | 1920×1080 | `05b4545671daef4614211ee778cab969a442f34986bf6376c452081c2427ff68` |
+| S07 | RETAINED_DEMO_STATIC | `production/preview/full/S07.png` | 1920×1080 | `4646cd962fee1b9384ab16059744c87b83fd3d5341a48123d2f5cd6260f579cf` |
+| S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` | 1920×1080 | `b00fde64f9e461e9cfd17f080024c03c592d6854196c7437e0efc0eda7214afa` |
+| S09 | RETAINED_DEMO_STATIC | `production/preview/full/S09.png` | 1920×1080 | `1f938fb1a5b6ea172317856cd4bf7d5d2c9fa1ef6ffca0522d877e5e289dde94` |
+| S10 | RETAINED_DEMO_STATIC | `production/preview/full/S10.png` | 1920×1080 | `c621e5666dfbda359a703d0797ec025bb4915cd17fa498c6f0001a052eb55cc9` |
+| S23 | RETAINED_DEMO_STATIC | `production/preview/full/S23.png` | 1920×1080 | `2006268ff4d96da09bba0d8ed99b8174423fccf4f1ce825888cba100679961a2` |
+| S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` | 1920×1080 | `eee791361290ec1374cc4456ce66ff3bf7a7b27905c9e912b20838a0091d9e1f` |
+| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `3b4e59c948761576b151573de7b5f8e2aa45901acce2072b8793d9cb6348d240` |
+| S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` | 1920×1080 | `052e19918e6be443c8699ae2212f02229dbce3a5c15eb96fbe03794193e70940` |
+| S41 | USER_PROVIDED_DEMO_RESULT | `production/preview/full/S41.png` | 1920×1080 | `03f104ae8ec9a4bef6a183322d889e66f5314bf828705321f3116ebf1c50d712` |
+| S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` | 1920×1080 | `26632e6c07918601f19342180eeac05a0e67051e7bf8e43e8bb1a0d4bedf3295` |
+| S49 | RETAINED_DEMO_STATIC | `production/preview/full/S49.png` | 1920×1080 | `1e6acea140a3d038e3b18572c4cc1ca48e16e8ad6b6dec76c49e376185a17d1e` |
+| S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` | 1920×1080 | `b3ce28aa911e520e04fc38afecb02c7cd0ab34ed55525c083464c7a7ea136f0b` |
+| S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` | 1920×1080 | `bf95495437b7d003c4753295de9b9ef7bfc6f01966a55fe29589204ef23f2793` |
+| S54 | RETAINED_DEMO_STATIC | `production/preview/full/S54.png` | 1920×1080 | `ee3d7a63c8c506b0258f9fac8465ec028be427a012d180de19786fc5f1938755` |
+| S65 | RETAINED_DEMO_STATIC | `production/preview/full/S65.png` | 1920×1080 | `7c6678f47e66a441548a657905f151a9304b6a0d62683a32e38d5ba7b5896fdf` |
+| S66 | RETAINED_DEMO_STATIC | `production/preview/full/S66.png` | 1920×1080 | `482b1c36433538b982da2336354c04a9593f85368086c313149272540cd14880` |
+| S70 | RETAINED_DEMO_STATIC | `production/preview/full/S70.png` | 1920×1080 | `80c253db688c9e96f337ba38ed13b898e5528f941a3b90cde9c1fbe15b29ea0f` |
+| S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` | 1920×1080 | `7fa05104badad5a6f49bfe89b1492e0fb3a169fe86330f93abbbe26b5993b013` |
+| S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` | 1920×1080 | `8d257b5e2dfd8e1f6c4908c3e5d48111cf978616c978c2152b40284c23495bfa` |
+| S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` | 1920×1080 | `67b83e594add1c198951ce3bb0907cc1444ab11f2fdc98ede1be60525b0a954a` |
+| S79 | AUTHOR_REPORTED_CASE | `production/preview/full/S79.png` | 1920×1080 | `cfafdf2ba227440ccc759f7344b4b7a3bb017ee62ea77ea059ec5a8b4913ae99` |
+| S80 | TEACHING_MAP | `production/preview/full/S80.png` | 1920×1080 | `5b1c58ae752866f38d3e979eaf81ef86e738cad2f4f5cd0c53f51a90e8d7cca4` |
+| S81 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S81.png` | 1920×1080 | `52ed6e1457d6ef0ac7aad40ef178cb6e2a33eee564ebc0cf35197ebbd2705195` |
+| S82 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S82.png` | 1920×1080 | `57a8ee775b88981f5627d58f57dc6e76ef4027640d2ae82545966ab3b9ffc50f` |
+| S83 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S83.png` | 1920×1080 | `d1ba64f22d3016686a7a24c8baa23991081daf676f1902341331ebda6f6e8302` |
+| S84 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S84.png` | 1920×1080 | `1a8af0f1e4cf642a5bc33b3d14c3baedfcaa496ff70b2ca4d97ff0d60126f0af` |
+| S85 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S85.png` | 1920×1080 | `c22fc3117c1e19c777008bf0d07bf0d14fcdd30f893177adccb5337d4c3c61c0` |
+| S86 | RESEARCH_GUIDED_DESIGN | `production/preview/full/S86.png` | 1920×1080 | `603f6de1a2fcb49658a464514ba9e86262f67d6f685cc7af5760c196be05b32a` |
+| S87 | PUBLISHED_BENCHMARK | `production/preview/full/S87.png` | 1920×1080 | `2ffd4004727bc494406fa5792226d4c3930d46b083529b2e331f199842f9ad88` |
+| S88 | AUTHOR_REPORTED_CASE | `production/preview/full/S88.png` | 1920×1080 | `9db5617675a39e1f49bdbfff517feef38ac5cd962859d2ce576a0f005501dceb` |
+| S89 | AUTHOR_REPORTED_CASE | `production/preview/full/S89.png` | 1920×1080 | `4edb9283dee58520c7f69c8cf186d2b17c2bbe514397cf11ddb929f876f9ac69` |
+| S90 | AUTHOR_REPORTED_CASE | `production/preview/full/S90.png` | 1920×1080 | `32916acac22a9555efede122791a63c514755b1ed1b263a0fed395da87066dd0` |
+| S91 | AUTHOR_CASE_ADAPTED_STATE | `production/preview/full/S91.png` | 1920×1080 | `a44f6d0030e327371545198fa67e74a0ad7241b3078da9278a9b2def0a449529` |
+| S92 | AUTHOR_CASE_ADAPTED_REVIEW | `production/preview/full/S92.png` | 1920×1080 | `127ccef32fbcd28d626e8e99a6591c35143b23dbd1ac2ab74a96b23ba67bbc22` |
+| S93 | HYPOTHETICAL_FAILURE | `production/preview/full/S93.png` | 1920×1080 | `9c3f656cfb6523b50109e45fe6db3e94d927376d91638e8f93bbeba785e7397f` |
+| S94 | AUTHOR_REPORTED_CASE | `production/preview/full/S94.png` | 1920×1080 | `529aeb6b6650bea0d9042efb91f4f2f0b28b8414c94c5c47ee687d5e379302a8` |
+| S95 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S95.png` | 1920×1080 | `da1ae0fbd318fff15e281075513caa8465b1b55079ea4fe96ec1250ec2f98920` |
+| S96 | TEACHING_SYNTHESIS | `production/preview/full/S96.png` | 1920×1080 | `20d3af7039419f6a736ea1d6ba1d1a49d0f618354d244d812d11d18850f31232` |
+| S97 | TEACHING_SYNTHESIS | `production/preview/full/S97.png` | 1920×1080 | `2420d8783cc300dd3520b639bb4f251e1285b2405404246a3df5c24af1108f7d` |
+| S99 | TEACHING_SYNTHESIS | `production/preview/full/S99.png` | 1920×1080 | `a9ac67cd43994c3e3b6fc1434eb9438ecd6f907fb86113805b7fd8fe36d358ab` |
+| S100 | TEACHING_SYNTHESIS | `production/preview/full/S100.png` | 1920×1080 | `f2777649c70d8518a8f8a7ce5f06bb341560a5f11d3f2a3c19d55bcb6660008d` |
+| S103 | RETAINED_DEMO_STATIC | `production/preview/full/S103.png` | 1920×1080 | `e51f8bd2203ef16196b707eced887327978f75f4a51c7c3f58783292b9bb39ae` |
+
+<details>
+<summary>DEC-0143</summary>
+
+# Static Fallback Manifest
+
 Current: DEC-0143 /113slides/389minutes. READY — LOCAL STATIC FILES ONLY.
 S76 left side illustrates detours, interruption and risk to existing behavior.
 Keep all43roles/classes and IDs, original evidence and the right-side design.
@@ -61,6 +122,8 @@ Demo repository, Sites and presenter bundles are unchanged.
 | S99 | TEACHING_SYNTHESIS | `production/preview/full/S99.png` | 1920×1080 | `a9ac67cd43994c3e3b6fc1434eb9438ecd6f907fb86113805b7fd8fe36d358ab` |
 | S100 | TEACHING_SYNTHESIS | `production/preview/full/S100.png` | 1920×1080 | `f2777649c70d8518a8f8a7ce5f06bb341560a5f11d3f2a3c19d55bcb6660008d` |
 | S103 | RETAINED_DEMO_STATIC | `production/preview/full/S103.png` | 1920×1080 | `e51f8bd2203ef16196b707eced887327978f75f4a51c7c3f58783292b9bb39ae` |
+
+</details>
 
 <details>
 <summary>Previous DEC-0142 manifest — preserved record</summary>

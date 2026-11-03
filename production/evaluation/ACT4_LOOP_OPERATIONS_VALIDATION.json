@@ -1,0 +1,40 @@
+{
+  "verifiedPackages": [
+    [
+      "AI_Dev_Training_Full",
+      113,
+      "934e87470bc1d67dad7ba45dbd25373a1b74e9b573b5beb05cefed1b44088fc4"
+    ],
+    [
+      "ACT_4",
+      20,
+      "d5ed951920cd72680b79f482d64af04029b529e2202af1f0ffdae875bb69f7e0"
+    ],
+    [
+      "ACT_5",
+      16,
+      "e4efff0182d75de71ee424352d79a8385577a447537ed12d3efcad3a2de8e17f"
+    ]
+  ],
+  "minutes": 389,
+  "unchangedScreens": 92,
+  "notesCompared": 149,
+  "slideCount": 113,
+  "evidence": {
+    "R1": "educational reconstruction",
+    "GitLab": "author-reported operating case",
+    "unknownMR": "hypothetical query failure",
+    "PairCoder": "HumanEval Table 2 / initial Driver GPT-3.5-turbo",
+    "passAt1Percent": [
+      69.51,
+      81.16,
+      90.01,
+      48.19
+    ]
+  },
+  "fieldChecks": {
+    "Windows PowerPoint": "UNVERIFIED",
+    "training account": "UNVERIFIED",
+    "projection and rehearsal": "UNVERIFIED"
+  }
+}

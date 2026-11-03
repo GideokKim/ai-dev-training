@@ -14028,3 +14028,97 @@ Record current checks in production/evaluation/S76_DYNAMIC_ROUTES.md.
 Keep prior DEC-0141 validation as history and Windows, room,
 product-account and rehearsal gates unverified. Commit/push only in the
 root workflow without changing the Demo repository, Sites or bundles.
+
+
+# DEC-0144 — Connect a task review loop to the next team run
+
+## Status
+
+ACCEPTED. The user approved the proposed production plan at 8b64e3f.
+
+## Date
+
+2026-11-03
+
+## Context
+
+The 20-page ACT4 had 21 minutes on model review at former S88–S92.
+The actor who needed the next input appeared before its state record.
+The author supplied their own June 16 GitLab/Codex operating account and
+approved its use throughout the new team-operation sequence.
+
+## Problem
+
+A learner should follow a concrete review issue back into implementation
+and tell a revision of the same candidate from admitting a new team task.
+
+## Decision
+
+Produce the approved S78–S97 at 85 minutes. Keep 113 slides and 389
+minutes in total. ACT4 uses Lecture34, Case37, Reflection4, Q&A7 and
+Transition3. Open the 06:00 pending-MR question, trace one conceptual
+brightness correction under fixed criteria, then resolve the team's
+next-run branch. Carry R1 from the candidate diff to the next instruction
+and the requested checks. Return to a pending issue, worktree, API-backed
+MR creation, human acceptance and a later run's first status read.
+
+Use the author's firsthand account for its June workflow and separate
+approval by a teammate for a merge and by the operator for a proposed
+workflow change. Label course-written R1, record fields and lookup-error
+handling as teaching adaptations. Keep the original product Trial evidence
+with the actual graypipe background. Add no Trial or private team logs.
+
+Use a native chart on S87 for PairCoder Table 2, HumanEval pass@1. Hold
+the initial Driver at GPT-3.5-turbo. Show the single-model baseline and
+three initial Navigator choices, including the lower-scoring combination.
+Keep the CriticBench result as support on S86. Retain ReConcile,
+Self-Refine and the intrinsic self-correction work as supplementary
+references. Combine the Goal function and request design at S95. Point
+S110 and S112 to that single page; route checking and stop decisions in
+S112 to S83 and S85. The ACT5 opening follows S97's existing reflection,
+seven-minute Q&A and two-minute handoff.
+
+## Rationale
+
+The candidate and the merge request answer different questions. Keeping
+their state and decision-makers visible lets a developer design the
+feedback path inside a task and the admission policy for the next task.
+
+## Alternatives
+
+The separate late state recap delayed the missing input. The prior
+StrategyQA chart illustrated model composition on a reasoning task. The
+selected code-generation benchmark is closer to the course exercise.
+
+## Trade-offs
+
+The single worked MR flow is bounded to the author's reported deployment.
+PairCoder can swap roles on repeated errors. Its selected results cannot
+estimate improvement, cost, or completion in the team's environment.
+
+## Related Invariants
+
+INV-LOOP-001, INV-VERIFY-001, INV-RESPONSIBILITY-001, INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+Current map, course sections, beats, transitions, template assignments,
+claims, primary-source registry, ACT4/FULL Notes and decks, current tip
+navigation, active handoff and delivery artifacts.
+
+## Evidence
+
+Approved proposal at 8b64e3f, author's source and confirmation of
+authorship, SRC-0244, SRC-0245, CLM-0048, CLM-0049, SRC-0238 and
+official Goal guidance SRC-0240/0241 rechecked on 2026-11-03.
+
+## Training Relevance
+
+One retained review identifier, two possible morning branches and two
+human approval targets give learners decisions to apply to a team.
+
+## Follow-up
+
+Verify 20 mapped presentations, all mode totals, the editable S87 chart,
+19-field Notes, current tip routes and final renders. Windows PowerPoint,
+the classroom PC, target account and timed rehearsal remain UNVERIFIED.

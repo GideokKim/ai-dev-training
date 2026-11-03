@@ -1,6 +1,14 @@
 # STEP 08 — Slide Template Architecture
 
-## 현재 제작 기준 — DEC-0138 (2026-11-03)
+## 현재 ACT4 제작 기준 — DEC-0144 (2026-11-03)
+
+기존 12 templates/28 variants를 재사용한다. S87의 T07-B는 연구 자료를 담는 한정 적용이며 native chart의 단위는 HumanEval pass@1(%), 출처는 PairCoder Table 2이다. 원래 T07-B 데이터 역할을 유지하고 출처 표지는 RESEARCH로 한다. 배정 수는 [현행 분포표](SLIDE_TEMPLATE_MAP.md)에서 관리한다.
+
+[승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
+
+아래 DEC-0138은 이번 개편 전의 기준을 보존한다.
+
+## 이전 제작 기준 — DEC-0138 (2026-11-03)
 
 현재 **113장·389분(6시간29분)**. 이전114장판 S68 “절차는 재사용하고, 답은 근거로 정한다”를 삭제한다.
 삭제한 Lecture3분만 제외하고 다른 장에 시간이나 설명을 재분배하지 않는다. 방법/판단 도식·강의를 다른 Slide나 활성 Notes에 흡수하지 않는다.

@@ -1,5 +1,11 @@
 # 사용자 검증 체크리스트
 
+## ACT4 개편 · DEC-0144
+
+발표 PC에서 S84의 세 행, S87의 네 차트 레이블과 숫자, S91의 상태 카드, S95의 한글 요청을 확인한다. 교육 계정에서 /goal을 점검하고 S97의 성찰·Q&A·전환 11분을 포함해 리허설한다. [현재 검토](ACT4_LOOP_OPERATIONS.md)
+
+## 이전 기록
+
 Current DEC-0143:113slides/389minutes. S76 left hypothetical-risk routes only; preserve113slides/389minutes, original evidence, right panel and S75/S77 screens. Use [current result](S76_DYNAMIC_ROUTES.md) and [handoff](FINAL_HANDOFF.md). Windows, room, product-account and timed rehearsal remain UNVERIFIED.
 
 ## 보존된 이전 기록

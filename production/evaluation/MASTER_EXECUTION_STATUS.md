@@ -1,5 +1,11 @@
 # MASTER EXECUTION STATUS
 
+## ACT4 개편 · DEC-0144
+
+통합·ACT4·ACT5 로컬 렌더 및 내장 Notes 검증을 마쳤다. 현장 점검 항목은 교육 계정, Windows·투사 환경, 실측 시간이다. [현재 검토](ACT4_LOOP_OPERATIONS.md)
+
+## 이전 기록
+
 Current DEC-0143:113slides/389minutes. S76 left hypothetical-risk routes only; preserve113slides/389minutes, original evidence, right panel and S75/S77 screens. Use [current result](S76_DYNAMIC_ROUTES.md) and [handoff](FINAL_HANDOFF.md). Windows, room, product-account and timed rehearsal remain UNVERIFIED.
 
 ## 보존된 이전 기록

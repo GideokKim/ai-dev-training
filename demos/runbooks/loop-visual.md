@@ -1,5 +1,14 @@
 # Historical supporting runbook — LOOP-VISUAL
 
+## ACT4 발표 경로 · DEC-0144
+
+S79에서 열린 MR을 제시하고 다음 작업 여부를 물은 뒤 S80에서 한 이슈의 수정과 팀의 다음 업무 결정을 나란히 그린다. S81–S85는 R1을 따라가는 교육용 재구성, S86–S87은 검토 역할과 논문 비교다. S88에서 도입 질문을 회수한다. 발표자는 S91의 인계 예시와 S93의 조회 실패 변형을 실제 운영기에 기록된 사실과 구분한다. S94의 두 승인권자를 짚고 S95의 Goal 예시를 거쳐 S97에서 질문을 받는다.
+
+발표 근거와 정적 대체 자료는 [ACT4 Notes](../../production/notes/ACT_4_NOTES.md)와 [정적 파일 목록](FALLBACK_MANIFEST.md)에 있다. 목표와 가상 수정 회차를 별도 Demo 시간으로 산정하지 않는다.
+
+## 이전 운영 기록
+
+
 ## Current113 presentation references — DEC-0138
 
 현재113장·389분. 이전114장판 S68과 Lecture3분만 삭제하며 삭제한 내용을 다른 Slide·활성 Notes·새 참고 자료에 옮기지 않는다.

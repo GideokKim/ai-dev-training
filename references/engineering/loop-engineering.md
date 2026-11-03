@@ -1,5 +1,13 @@
 # Loop Engineering
 
+## Current use under DEC-0144
+
+The inner decision updates the candidate for a fixed issue. S81–S85 track a conceptual review item R1 into its next instruction and recheck. The outer decision reads the previous MR before admitting new work. S79 and S88–S94 adapt the author's June operating account. The sample handoff fields and the failed-read branch have teaching provenance.
+
+S86 distinguishes assigning roles from selecting models. S87 uses PairCoder's HumanEval comparison. ReConcile (StrategyQA), Self-Refine and intrinsic self-correction remain supplementary readings for the former research sequence. The registered studies and claims retain their original scopes. [Source registry](../sources/SOURCES.md) · [Approved ACT4 sequence](../../plan/ACT4_LOOP_OPERATIONS_PROPOSAL.md)
+
+## Earlier DEC-0097 teaching sequence
+
 ## Current scope — DEC-0097
 
 The course centers a fixed goal and completion criteria, implementation,

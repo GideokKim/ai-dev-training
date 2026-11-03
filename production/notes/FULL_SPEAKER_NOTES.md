@@ -1,5 +1,12 @@
 # Full Speaker Notes
 
+DEC-0144 · 113장 · 389분. ACT4는 85분, ACT5 찾아보기에서는 S83·S85·S95의 통합된 역할을 따른다.
+
+<details>
+<summary>이전 판본 안내</summary>
+
+# Full Speaker Notes
+
 Current: DEC-0138 /113slides/389minutes. S67 stays a2Lecture-minute creation tip and returns directly to current S68 actual candidate comparison. Former114-edition S68 and its3Lecture minutes are removed, not absorbed.19fields and all remaining allocations stay unchanged. Historical source/report/asset IDs retain their editions.
 
 <details>
@@ -90,6 +97,8 @@ Current: DEC-0101 /117slides/412minutes. Current Notes below include the added S
 
 </details>
 
+
+</details>
 
 </details>
 
@@ -4675,60 +4684,60 @@ S78
 ACT 4 / 4R1 Goal-loop entry
 
 **Allocated Time:**
-1 minutes
+1 minute
 
 **Mode Split:**
 Transition 1분
 
 **Primary Message:**
-Loop Engineering은 같은 목표의 구현·검토·수정을 피드백으로 연결하는 시스템 설계다.
+한 목표를 맡긴 뒤 남은 지적과 확인 근거를 다음 수정에 전달한다.
 
 **Opening Question:**
-다음 수정과 검토까지 작업 시스템이 이어가려면 무엇이 필요할까?
+“검토가 끝나면 다음 요청은 누가 만들까?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Transition) ACT3의 마지막 질문을 받아 제목과 부제만 안내한다. 목표·완료 기준이 반복을 이끈다는 관점을 예고하고 S79으로 넘긴다.
+1. (0:00–1:00 / Transition) S77의 구현·검토 화살표를 받아 ACT4의 제목을 읽는다. 한 건의 수정을 잇는 장면과 다음 날 팀이 그 일을 이어받는 장면을 예고한다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-072; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
+DEC-0097, DEC-0144 · BEAT-072 · CLM-0021.
 
 **Claim Boundary:**
-TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
+TEACHING_MODEL. 발표자가 설계 판단을 설명하는 도식이다.
 
 **Beginner Explanation:**
-Loop Engineering은 같은 목표의 구현·검토·수정을 피드백으로 연결하는 시스템 설계다.
+검토에서 발견한 일을 다음 구현자가 바로 받아 고칠 수 있도록 연결한다.
 
 **Advanced Insight:**
-이번 교육의 운영 정의다. 특정 제품의 기능명이나 보편 표준 분류로 주장하지 않는다.
+작업 한 건의 종료 기준과 팀의 다음 작업 선택은 별도의 질문이다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-N/A — ACT 제목 안내.
+N/A — 정적 자료. 제목과 S77의 목표 카드를 연결한다.
 
 **Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
+N/A — 제목을 짚고 바로 사례를 연다.
 
 **Transition:**
-다음은 다음 수정도 사람이 매번 이어줘야 할까?의 질문으로 이어간다.
+어제 올린 코드 변경 요청이 아직 열려 있는 아침으로 들어간다.
 
 **Time Management:**
-Transition 1분 = 1분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Transition 1분 = 1분. 제목 소개를 1분에 닫는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S78; production/preview/act4/S78.png 및 production/preview/full/S78.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S78.png 또는 production/ACT_4.pptx의 S78. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S79 — 다음 수정도 사람이 매번 이어줘야 할까?
+## S79 — 아침 6시, 어제 올린 MR이 열려 있다
 
 **Slide ID:**
 S79
 
 **Working Title:**
-다음 수정도 사람이 매번 이어줘야 할까?
+아침 6시, 어제 올린 MR이 열려 있다
 
 **ACT / Section:**
 ACT 4 / 4R1 Goal-loop entry
@@ -4740,59 +4749,115 @@ ACT 4 / 4R1 Goal-loop entry
 Lecture 2분 + Case 2분
 
 **Primary Message:**
-한 목표를 마치는 동안 사람이 검토·수정·재확인의 다음 요청을 계속 연결하는 문제를 드러낸다.
+정해진 시각에 자동화가 깨어나면, 먼저 이전 작업의 상태를 읽어야 오늘의 행동을 고를 수 있다.
 
 **Opening Question:**
-작업 방법이 있어도 다음 단계는 매번 사람이 다시 요청해야 할까?
+“오전 6시다. 어제 올린 MR이 아직 열려 있다면 새 이슈를 시작할까?”
 
-Speaker Flow:
-1. (0:00–2:00 / Lecture) S77의 ‘한 작업의 다음 행동과 완료 판단을 연결한다’는 전환 질문을 받는다. 앞 ACT의 Harness는 수행 방법과 도구를 제공한다. 이제 검토 의견을 모아 다음 수정 요청으로 전달하는 기존 교육용 예를 소개한다. 실제 Trial이 아닌 가상 상황이며 같은 목표 안의 연속 단계다.
-2. (2:00–4:00 / Case) 왼쪽 사람이 모아 다시 전달하던 검토 의견과 오른쪽 다음 수정의 입력이라는 두 영역을 짚는다. ACT3에서 세 요청이나 Reflection을 이미 봤다고 전제하지 않는다. 목표는 유지하고 남은 문제를 시스템 안에서 넘길 수 있겠다는 질문으로 S80의 완료 기준을 연다.
+**Speaker Flow:**
+1. (0:00–2:00 / Lecture) GitLab의 MR은 코드 변경을 병합해 달라는 요청이라고 소개한다. 화면에서 시계와 어제의 MR을 차례로 짚는다. 시간은 시작 계기이고 MR 상태는 판단에 쓰이는 자료다.
+2. (2:00–4:00 / Case) 새 이슈 착수와 기존 MR 대기를 선택지로 놓는다. 어느 쪽을 택할 때 무엇을 확인해야 할지만 생각하게 하고, 글쓴이의 실제 분기는 S88에서 회수한다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-073; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §3.
 
 **Claim Boundary:**
-CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 후보·지적·수정은 설명용 설계 · 실제 실행·측정·PASS/FAIL 결과 없음
+운영기 작성자가 게시 시점에 설명한 사내 테스트 운영 범위다. 검토 모델명, 비교 효과, 실제 계정의 현재 상태는 이 자료로 확인할 수 없다.
 
 **Beginner Explanation:**
-한 목표를 마치는 동안 사람이 검토·수정·재확인의 다음 요청을 계속 연결하는 문제를 드러낸다.
+일을 시작할 시간이 와도 팀의 이전 결정이 아직 끝나지 않을 수 있다.
 
 **Advanced Insight:**
-Harness와 Loop를 배타적인 제품 단계로 구분하지 않는다. 여기서는 반복의 상태·피드백·다음 행동 제어라는 추가 설계 책임을 드러낸다.
+대기 중인 MR을 뒤로 두고 일을 계속 만들면 팀의 리뷰 처리량과 자동 생산량이 달라질 수 있다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
+N/A — 정적 자료. 06:00과 열린 MR 상태를 표시한다.
 
 **Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
+선택을 잠깐 생각하게 한다. 정답 발표는 S88에서 한다.
 
 **Transition:**
-다음은 먼저, 무엇이 되면 완료인지 정한다의 질문으로 이어간다.
+지금 고르려는 것이 같은 코드의 다음 수정인지, 다음 이슈인지 먼저 구분해 보자.
 
 **Time Management:**
-Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Lecture 2분 + Case 2분 = 4분. 사례 2분을 MR 용어 설명으로 소진하지 않는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S79; production/preview/act4/S79.png 및 production/preview/full/S79.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S79.png 또는 production/ACT_4.pptx의 S79. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S80 — 먼저, 무엇이 되면 완료인지 정한다
+## S80 — 두 화살표가 돌아가는 곳
 
 **Slide ID:**
 S80
 
 **Working Title:**
-먼저, 무엇이 되면 완료인지 정한다
+두 화살표가 돌아가는 곳
+
+**ACT / Section:**
+ACT 4 / 4R1 Goal-loop entry
+
+**Allocated Time:**
+4 minutes
+
+**Mode Split:**
+Lecture 3분 + Case 1분
+
+**Primary Message:**
+이슈 안에서는 다음 후보를 정하고, 팀 운영에서는 이전 MR 상태에 따라 새 작업 또는 대기를 정한다.
+
+**Opening Question:**
+“어느 화살표를 돌았을 때 목표가 그대로 남을까?”
+
+**Speaker Flow:**
+1. (0:00–3:00 / Lecture) 같은 이슈의 목표 카드를 고정한 채 구현·검토·수정으로 손을 돌린다. 다음 후보로 넘어갈 때 검토 지적과 근거가 전달된다. 바깥쪽에서는 직전 MR의 병합 상태가 새로운 이슈를 열지 결정하는 입력이다.
+2. (3:00–4:00 / Case) 먼저 안쪽 경로를 확대한다. 여기서 사용할 밝기 통계는 앞선 교육 프로젝트의 소재이고, 바깥쪽 GitLab 운영은 강사 개인의 운영기에 나온 별개의 사례임을 짚는다.
+
+**Evidence / Source:**
+SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §3 및 DEC-0097/0144의 CASE-LOOP-01.
+
+**Claim Boundary:**
+운영기와 밝기 통계의 교육용 재구성을 연결한 지도다. 두 사례의 저장소와 실행 이력은 별개다.
+
+**Beginner Explanation:**
+검토 지적을 고치는 일과 다음 일감을 받는 일을 서로 다른 화살표로 본다.
+
+**Advanced Insight:**
+안쪽의 한 회차가 목표를 바꾸지 않도록 하고 바깥쪽은 MR 상태로 착수 조건을 정한다.
+
+**C++ Vision Bridge:**
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+
+**Demo Operation:**
+N/A — 정적 자료. 바깥 분기에서 한 이슈의 안쪽 경로를 확대한다.
+
+**Audience Interaction:**
+두 경로 가운데 지금 확대하는 안쪽을 찾도록 안내한다.
+
+**Transition:**
+한 이슈의 여러 후보를 같은 기준으로 비교하려면 무엇을 먼저 적어야 할까?
+
+**Time Management:**
+Lecture 3분 + Case 1분 = 4분. 이 장에서는 전체 위치만 확인하고 세부 분기는 뒤로 넘긴다.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/preview/full/S80.png 또는 production/ACT_4.pptx의 S80. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
+
+**Validation Status:**
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+
+## S81 — 이번 이슈의 완료 기준
+
+**Slide ID:**
+S81
+
+**Working Title:**
+이번 이슈의 완료 기준
 
 **ACT / Section:**
 ACT 4 / 4R2 One-goal walkthrough
@@ -4804,124 +4869,55 @@ ACT 4 / 4R2 One-goal walkthrough
 Lecture 2분 + Case 2분
 
 **Primary Message:**
-밝기 통계의 출력·동작, 임시 할당, 실행시간 조건을 처음부터 완료 기준으로 두고 반복 중 유지한다.
+후보가 몇 번 바뀌어도 보존할 출력, 줄일 임시 할당, 지킬 실행시간 조건을 같은 카드로 확인한다.
 
 **Opening Question:**
-이 최적화 작업은 무엇을 확인하면 완료라고 할 수 있을까?
+“메모리가 줄었다는 설명만으로 작업을 마칠 수 있을까?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 별도 교육용 최적화 상황임을 먼저 밝힌다. 실제 명세의 여섯 출력은 width, height, pixel_count, minimum, maximum, mean이다. 기능 보존과 자원 조건을 함께 제시한다.
-2. (2:00–4:00 / Case) 반복할 때에도 같은 입력·환경·측정 기준을 사용한다. 수치·대표 입력은 실행 전에 확정해야 하며 현재 TBD다. 과거 측정값을 새 완료 기준이나 새 결과로 가져오지 않는다.
+1. (0:00–2:00 / Lecture) 밝기 통계 함수는 픽셀을 집계한다. 목표 카드 위에서 유지할 여섯 출력, 임시 할당 감소, 실행시간 조건을 읽는다.
+2. (2:00–4:00 / Case) 각 조건에 맞는 증거를 하나씩 연결한다. 고정 입력의 여섯 출력 대조, 같은 환경의 할당 피크 측정, 기준판과 같은 절차의 실행시간 측정이다. 허용 범위와 측정법은 작업 시작 전에 결정한다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-074; CASE-LOOP-01; existing six-field specification in DEMO_MATRIX. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+TRIAL-008 및 STATE-04-PERF의 밝기 통계 작업을 문제 배경으로 삼은 CASE-LOOP-01. 후보와 R1은 DEC-0144의 교육 설계다.
 
 **Claim Boundary:**
-CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 할당량 목표·실행시간 상한·대표 입력은 실행 전에 확정 · 현재 수치는 TBD
+CONCEPTUAL. 밝기 통계의 기존 제품 기록과 구분한 가상 회차다. 모델 대화와 후보는 강의용으로 구성했으며 실제 측정값은 ACT3의 해당 기록에서만 인용한다.
 
 **Beginner Explanation:**
-밝기 통계의 출력·동작, 임시 할당, 실행시간 조건을 처음부터 완료 기준으로 두고 반복 중 유지한다.
+할 일을 정할 때 끝났다고 말할 수 있는 검사도 함께 정한다.
 
 **Advanced Insight:**
-모델의 판단에 따라 목표나 테스트 기대값을 낮추지 않는다. 요구 변경이 필요하면 사람이 명시적으로 승인한다.
+하나의 검사 결과가 다른 품질 조건까지 충족했다고 확대되지 않게 한다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
+N/A — 정적 자료. 세 완료 조건과 각각의 확인 방법을 짝짓는다.
 
 **Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
+세 조건 중 측정이 필요한 항목을 눈으로 골라 보게 한다.
 
 **Transition:**
-다음은 모델 A가 첫 변경 후보를 만든다의 질문으로 이어간다.
+이 카드 옆에 첫 변경 후보를 놓아 보자.
 
 **Time Management:**
-Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Lecture 2분 + Case 2분 = 4분. 구체적인 수치 추정에 들어가기 전에 v1로 이동한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S80; production/preview/act4/S80.png 및 production/preview/full/S80.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S81.png 또는 production/ACT_4.pptx의 S81. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S81 — 모델 A가 첫 변경 후보를 만든다
-
-**Slide ID:**
-S81
-
-**Working Title:**
-모델 A가 첫 변경 후보를 만든다
-
-**ACT / Section:**
-ACT 4 / 4R2 One-goal walkthrough
-
-**Allocated Time:**
-4 minutes
-
-**Mode Split:**
-Case 4분
-
-**Primary Message:**
-첫 구현은 검토할 후보이며 완료가 아니다. 가상 v1은 전체 값 복사가 남아 있는 계산 방식이다.
-
-**Opening Question:**
-코드 초안이 나왔다는 사실만으로 할당량 목표를 이뤘다고 할 수 있을까?
-
-**Speaker Flow:**
-1. (0:00–1:00 / Case) 고정된 목표 띠를 다시 짚고 모델 A가 첫 후보를 만드는 단계임을 보인다. 실제 STATE-04-PERF 이후의 회귀나 새 코드 실행이 아니다.
-2. (1:00–3:00 / Case) 가정한 v1의 전체 값 복사를 짚는다. 통계 결과가 맞아 보이는 것과 임시 할당 감소를 확인하는 것은 별개다. 실제 메모리·시간 수치를 표시하지 않는다.
-3. (3:00–4:00 / Case) 후보가 나온 시점에서 확인할 자료가 필요하다고 닫는다. 다음 장은 검사할 항목이며 실제 PASS/FAIL을 보여주는 장이 아니다.
-
-**Evidence / Source:**
-DEC-0097; BEAT-075; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
-
-**Claim Boundary:**
-CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 후보·지적·수정은 설명용 설계 · 실제 실행·측정·PASS/FAIL 결과 없음
-
-**Beginner Explanation:**
-첫 구현은 검토할 후보이며 완료가 아니다. 가상 v1은 전체 값 복사가 남아 있는 계산 방식이다.
-
-**Advanced Insight:**
-후보 생성·실제 동작·자원 측정을 서로 다른 사건으로 구분한다.
-
-**C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
-
-**Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
-
-**Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
-
-**Transition:**
-다음은 실제 동작과 비용은 도구로 확인한다의 질문으로 이어간다.
-
-**Time Management:**
-Case 4분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
-
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S81; production/preview/act4/S81.png 및 production/preview/full/S81.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
-
-**Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
-
-## S82 — 실제 동작과 비용은 도구로 확인한다
+## S82 — 첫 후보에서 무엇을 확인할까
 
 **Slide ID:**
 S82
 
 **Working Title:**
-실제 동작과 비용은 도구로 확인한다
+첫 후보에서 무엇을 확인할까
 
 **ACT / Section:**
 ACT 4 / 4R2 One-goal walkthrough
@@ -4933,59 +4929,55 @@ ACT 4 / 4R2 One-goal walkthrough
 Lecture 2분 + Case 3분
 
 **Primary Message:**
-모델의 설명을 실제 검사·측정 기록으로 대조하도록 검증을 설계한다.
+첫 후보의 diff와 필요한 검사 항목을 나란히 놓으면, 같은 출력이 나와도 남을 수 있는 문제가 드러난다.
 
 **Opening Question:**
-완료 기준의 각 항목을 어떤 자료로 확인해야 할까?
+“출력 여섯 개가 같다면 할당 목표까지 충족했을까?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 출력과 동작은 명세를 확인하는 테스트, 할당량은 대표 입력의 측정, 시간은 같은 환경에서의 반복 측정으로 확인한다고 연결한다.
-2. (2:00–5:00 / Case) 검사를 계획했다는 것과 실행 결과를 얻었다는 것을 구분한다. 이 장에는 실행 결과가 없다. 실제 운영에서는 입력·환경·명령·결과·미확인을 검토 모델에게 함께 넘긴다.
+1. (0:00–2:00 / Lecture) 가상 후보 v1에서 전체 픽셀을 임시 목록으로 모으는 부분을 짚는다. 최소·최대·평균을 계산하려고 먼저 복사하는 경로다.
+2. (2:00–5:00 / Case) 출력 대조, 할당 피크, 시간 측정으로 시선을 옮긴다. 같은 출력을 내는 후보에도 큰 임시 목록이 남을 수 있다. 어떤 가설을 diff에서 읽고 무엇을 도구로 확인할지 구분한다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-075; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+TRIAL-008 및 STATE-04-PERF의 밝기 통계 작업을 문제 배경으로 삼은 CASE-LOOP-01. 후보와 R1은 DEC-0144의 교육 설계다.
 
 **Claim Boundary:**
-CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 검사할 항목의 설계 · 실제 명령 실행·측정값·통과 결과를 제시하는 장이 아님
+CONCEPTUAL. 밝기 통계의 기존 제품 기록과 구분한 가상 회차다. 모델 대화와 후보는 강의용으로 구성했으며 실제 측정값은 ACT3의 해당 기록에서만 인용한다.
 
 **Beginner Explanation:**
-모델의 설명을 실제 검사·측정 기록으로 대조하도록 검증을 설계한다.
+값이 같은지와 계산에 임시 공간이 얼마나 필요한지는 다른 검사로 확인한다.
 
 **Advanced Insight:**
-테스트 통과도 확인한 범위의 근거다. 모든 결함 부재나 숨은 요구 충족을 보장하지 않는다.
+목록 생성은 할당 가설의 코드 근거다. 그 크기와 실행시간 영향은 정한 방법으로 측정해야 한다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
+N/A — 정적 자료. v1의 전체 픽셀 복사와 남은 측정 항목을 가리킨다.
 
 **Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
+첫 후보에서 checker가 짚을 한 곳을 생각하게 한다.
 
 **Transition:**
-다음은 모델 B는 무엇을 근거로 검토할까?의 질문으로 이어간다.
+검토 담당에게 어떤 자료를 넘겨야 이 가설을 구체적인 지적으로 만들 수 있을까?
 
 **Time Management:**
-Lecture 2분 + Case 3분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Lecture 2분 + Case 3분 = 5분. 코드 전체 파일 설명은 생략하고 복사 지점 한 곳만 짚는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S82; production/preview/act4/S82.png 및 production/preview/full/S82.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S82.png 또는 production/ACT_4.pptx의 S82. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S83 — 모델 B는 무엇을 근거로 검토할까?
+## S83 — Checker가 수정을 요청할 근거
 
 **Slide ID:**
 S83
 
 **Working Title:**
-모델 B는 무엇을 근거로 검토할까?
+Checker가 수정을 요청할 근거
 
 **ACT / Section:**
 ACT 4 / 4R2 One-goal walkthrough
@@ -4994,260 +4986,121 @@ ACT 4 / 4R2 One-goal walkthrough
 5 minutes
 
 **Mode Split:**
-Case 5분
+Lecture 1분 + Case 4분
 
 **Primary Message:**
-다른 모델 B는 목표·명세·diff·검사 기록을 근거로 구체적인 검토 지적을 만든다.
+Checker는 목표·명세·후보 diff와 검사 기록을 대조해 수용할 지적과 추가 확인할 말을 가른다.
 
 **Opening Question:**
-잘 검토해 달라는 말에 무엇을 함께 전달해야 할까?
+“검토 모델이 고치라고 했을 때 어떤 지적을 다음 요청으로 보낼까?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Case) 왼쪽의 명세·완료 기준, 후보 변경, 검사 기록을 짚는다. 모델 A가 잘 됐다고 요약한 말만 넘기는 대신 검토 가능한 원자료를 제공한다.
-2. (2:00–4:00 / Case) 가상 v1에서 임시 목록이 남았다는 지적과 대표 입력의 확인 자료가 없다는 지적을 구분한다. 두 번째는 동작 실패가 관찰됐다는 뜻이 아니다.
-3. (4:00–5:00 / Case) 검토 결과에는 파일·위치, 위반 기준, 근거와 다음에 확인할 것을 담는다. 모델 B는 다른 모델 역할의 설계이며 실제 조합이나 실행 기록은 아직 없다.
+1. (0:00–1:00 / Lecture) 구현 담당이 만든 후보와 근거를 검토 담당에게 넘긴다. R1은 전체 픽셀 복사가 남은 코드 위치를 가리킨다.
+2. (1:00–5:00 / Case) 검토 결과를 세 갈래로 읽는다. diff로 뒷받침되는 R1은 수정을 요청한다. 여섯 출력 보존 조건을 어기는 제안은 기각한다. 시간이 늘었다는 주장에 같은 조건의 측정이 없으면 확인을 요청한다. R1 하나를 다음 화면까지 가져간다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-076; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
+TRIAL-008 및 STATE-04-PERF의 밝기 통계 작업을 문제 배경으로 삼은 CASE-LOOP-01. 후보와 R1은 DEC-0144의 교육 설계다.
 
 **Claim Boundary:**
-CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 후보·지적·수정은 설명용 설계 · 실제 실행·측정·PASS/FAIL 결과 없음
+CONCEPTUAL. 밝기 통계의 기존 제품 기록과 구분한 가상 회차다. 모델 대화와 후보는 강의용으로 구성했으며 실제 측정값은 ACT3의 해당 기록에서만 인용한다.
 
 **Beginner Explanation:**
-다른 모델 B는 목표·명세·diff·검사 기록을 근거로 구체적인 검토 지적을 만든다.
+그럴듯한 의견보다 무엇을 어디서 확인했는지가 다음 수정의 출발점이다.
 
 **Advanced Insight:**
-검토자는 구현 모델의 결론을 반복하는 대신 명세와 변경·검사 기록을 독립적으로 대조하도록 설계한다.
+구현과 검토를 분리해도 검토 의견 채택에는 별도의 증거가 필요하다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
+N/A — 정적 자료. R1을 다음 요청으로 넘길 근거를 검토한다.
 
 **Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
+세 의견 가운데 바로 다음 수정 요청으로 보낼 항목을 찾게 한다.
 
 **Transition:**
-다음은 지적이 다음 수정으로 이어진다의 질문으로 이어간다.
+R1의 번호와 근거를 그대로 가지고 다음 요청을 써 보자.
 
 **Time Management:**
-Case 5분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Lecture 1분 + Case 4분 = 5분. 마지막 30초에는 수용할 R1만 남기고 다음으로 넘긴다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S83; production/preview/act4/S83.png 및 production/preview/full/S83.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S83.png 또는 production/ACT_4.pptx의 S83. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S84 — 지적이 다음 수정으로 이어진다
+## S84 — 같은 지적이 v2의 입력이 된다
 
 **Slide ID:**
 S84
 
 **Working Title:**
-지적이 다음 수정으로 이어진다
+같은 지적이 v2의 입력이 된다
 
 **ACT / Section:**
 ACT 4 / 4R2 One-goal walkthrough
-
-**Allocated Time:**
-4 minutes
-
-**Mode Split:**
-Case 4분
-
-**Primary Message:**
-검토 지적의 번호를 유지해 다음 변경 후보가 무엇을 고치는지 연결한다.
-
-**Opening Question:**
-검토에서 찾은 문제는 다음 변경의 어느 부분으로 이어졌을까?
-
-**Speaker Flow:**
-1. (0:00–1:00 / Case) 앞 장의 지적 ①과 ②를 같은 번호로 이어 받는다. 새 목표를 추가하는 장이 아니다.
-2. (1:00–3:00 / Case) ① 전체 값 복사 제거, ② 같은 결과 검사 추가라는 후보 변경을 각각 연결한다. 실행하지 않은 수정·테스트를 실제 이력으로 말하지 않는다.
-3. (3:00–4:00 / Case) 지적은 검증 후 수용·기각할 수 있다. 지금 그림은 지적이 타당하다고 가정한 설계이며 수정 후에는 같은 기준으로 다시 확인해야 한다고 넘긴다.
-
-**Evidence / Source:**
-DEC-0097; BEAT-077; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
-
-**Claim Boundary:**
-CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 후보·지적·수정은 설명용 설계 · 실제 실행·측정·PASS/FAIL 결과 없음
-
-**Beginner Explanation:**
-검토 지적의 번호를 유지해 다음 변경 후보가 무엇을 고치는지 연결한다.
-
-**Advanced Insight:**
-각 변경의 이유와 검토 항목을 연결하면 다음 검토자가 해결·미해결 여부를 추적할 수 있다.
-
-**C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
-
-**Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
-
-**Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
-
-**Transition:**
-다음은 고쳤다면, 같은 기준으로 다시 본다의 질문으로 이어간다.
-
-**Time Management:**
-Case 4분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
-
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S84; production/preview/act4/S84.png 및 production/preview/full/S84.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
-
-**Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
-
-## S85 — 고쳤다면, 같은 기준으로 다시 본다
-
-**Slide ID:**
-S85
-
-**Working Title:**
-고쳤다면, 같은 기준으로 다시 본다
-
-**ACT / Section:**
-ACT 4 / 4R2 One-goal walkthrough
-
-**Allocated Time:**
-4 minutes
-
-**Mode Split:**
-Case 4분
-
-**Primary Message:**
-후보 v2를 같은 기준으로 재검증·재검토하고 남은 지적은 다음 수정으로 되돌린다.
-
-**Opening Question:**
-지적한 부분을 고쳤다면 바로 끝내도 될까?
-
-**Speaker Flow:**
-1. (0:00–2:00 / Case) 후보 v2와 갱신된 기록을 같은 목표 띠 아래에서 보여준다. 출력·할당량·시간 조건을 다시 대조하며 기존 동작의 회귀도 확인한다.
-2. (2:00–3:00 / Case) 조건을 충족했다는 근거가 있으면 완료 판단으로, 남은 문제가 있으면 다음 후보로 이어지는 분기를 짚는다. 실제 v2 성공·v3 실행은 관찰하지 않았다.
-3. (3:00–4:00 / Case) 완료 기준을 낮춰서 끝내지 않는다고 회수한다. 지금까지 단계별로 본 연결을 다음 장에서 하나의 루프로 묶는다.
-
-**Evidence / Source:**
-DEC-0097; BEAT-078; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: 밝기 통계 최적화의 가상 진행 예 · 실제 Trial 또는 실행 캡처 아님
-
-**Claim Boundary:**
-CONCEPTUAL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 재검증·재검토의 운영 설계 · 후보 v2가 성공했다는 실제 결과는 없음
-
-**Beginner Explanation:**
-후보 v2를 같은 기준으로 재검증·재검토하고 남은 지적은 다음 수정으로 되돌린다.
-
-**Advanced Insight:**
-새 수정이 이전의 유효한 동작을 깨뜨릴 수 있다. 확인된 후보와 시도 이력을 남겨 되돌릴 수 있도록 설계한다.
-
-**C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
-
-**Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
-
-**Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
-
-**Transition:**
-다음은 같은 목표의 구현·검토 루프의 질문으로 이어간다.
-
-**Time Management:**
-Case 4분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
-
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S85; production/preview/act4/S85.png 및 production/preview/full/S85.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
-
-**Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
-
-## S86 — 같은 목표의 구현·검토 루프
-
-**Slide ID:**
-S86
-
-**Working Title:**
-같은 목표의 구현·검토 루프
-
-**ACT / Section:**
-ACT 4 / 4R3 Feedback and control
 
 **Allocated Time:**
 5 minutes
 
 **Mode Split:**
-Lecture 3분 + Case 2분
+Lecture 1분 + Case 4분
 
 **Primary Message:**
-목표·완료 기준 아래 구현, 도구 근거, 다른 모델의 검토와 다음 수정 판단을 하나의 닫힌 경로로 설계한다.
+검토에서 남은 항목·근거·다시 검사할 조건이 다음 구현 요청을 구성한다.
 
 **Opening Question:**
-지금 본 여러 단계가 어떻게 하나의 시스템으로 연결될까?
+“첫 후보에서 남은 R1을 다음 구현자가 받는 문장으로 바꾸면?”
 
 **Speaker Flow:**
-1. (0:00–3:00 / Lecture) 위쪽의 구현·검사·검토를 따라간 뒤 아래쪽의 판단·피드백을 통해 같은 목표의 구현으로 돌아간다. Loop는 Harness의 방법·도구를 활용하며 가중치를 학습한다는 뜻이 아니다.
-2. (3:00–5:00 / Case) 앞의 지적 ①을 한 번만 전체 경로에 대응시킨다. 도구와 모델 검토의 선후·병렬 여부는 작업 의존관계에 따라 정하며 이 그림은 성능·병렬 실행의 실측 기록이 아니다.
+1. (0:00–1:00 / Lecture) R1 카드를 가리킨다. 전체 목록이 남았다는 지적과 해당 diff 위치를 고정하고, 같은 목표·여섯 출력 보존 조건을 옆에 둔다.
+2. (1:00–5:00 / Case) 발표자가 다음 요청을 읽는다. “R1의 임시 목록을 제거하고 여섯 출력은 보존해. 같은 입력에서 할당 피크와 시간도 확인해.” 후보 v2의 ‘전체 복사 줄 삭제 → 행별 min·max·sum 집계’를 짚는다. 같은 R1에서 무엇이 바뀌었고 어떤 검사 항목이 남았는지 연결한다. 목록을 없앴더라도 시간 근거가 비었다면 그 항목이 다음 요청이 된다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-079; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: TEACHING_MODEL · 목표와 근거를 다음 수정에 연결하는 시스템
+TRIAL-008 및 STATE-04-PERF의 밝기 통계 작업을 문제 배경으로 삼은 CASE-LOOP-01. 후보와 R1은 DEC-0144의 교육 설계다.
 
 **Claim Boundary:**
-TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 구체적 제품 기능·자동 실행 이력·모델 학습·완료 성과를 관찰한 결과가 아님
+CONCEPTUAL. 밝기 통계의 기존 제품 기록과 구분한 가상 회차다. 모델 대화와 후보는 강의용으로 구성했으며 실제 측정값은 ACT3의 해당 기록에서만 인용한다.
 
 **Beginner Explanation:**
-목표·완료 기준 아래 구현, 도구 근거, 다른 모델의 검토와 다음 수정 판단을 하나의 닫힌 경로로 설계한다.
+리뷰 의견을 다음 요청에 넣을 때, 지적과 확인 방법을 함께 넘기면 다시 설명할 부분이 줄어든다.
 
 **Advanced Insight:**
-반복의 제어는 반드시 별도 모델이 맡아야 하는 것은 아니다. 목표·상태·피드백 전달·다음 행동을 정하는 운영 로직이 핵심이다.
+후보 식별자와 지적 번호를 함께 보존한다. 이전 후보에서 얻은 수치를 새 후보의 증거로 쓰지 않는다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
+N/A — 정적 자료. R1을 같은 번호로 검토·요청·v2에 이어서 가리킨다.
 
 **Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
+다음 요청에서도 고정된 것과 바뀐 것을 눈으로 구분한다.
 
 **Transition:**
-다음은 언제 계속하고, 언제 끝낼까?의 질문으로 이어간다.
+그렇다면 이 후보는 제출할까, 한 번 더 확인할까, 사람에게 넘길까?
 
 **Time Management:**
-Lecture 3분 + Case 2분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Lecture 1분 + Case 4분 = 5분. v2의 성능 수치를 가정하지 않고 비어 있는 시간 근거에서 닫는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S86; production/preview/act4/S86.png 및 production/preview/full/S86.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S84.png 또는 production/ACT_4.pptx의 S84. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S87 — 언제 계속하고, 언제 끝낼까?
+## S85 — 다음 수정, 완료, 중단
 
 **Slide ID:**
-S87
+S85
 
 **Working Title:**
-언제 계속하고, 언제 끝낼까?
+다음 수정, 완료, 중단
 
 **ACT / Section:**
-ACT 4 / 4R3 Feedback and control
+ACT 4 / 4R3 Loop control
 
 **Allocated Time:**
 5 minutes
@@ -5256,190 +5109,58 @@ ACT 4 / 4R3 Feedback and control
 Lecture 3분 + Reflection 2분
 
 **Primary Message:**
-근거에 따라 완료, 다음 수정, 미완료 중단·사람 확인을 구분한다.
+같은 기준으로 후보를 다시 확인하고 근거에 따라 검토 제출, 다음 수정, 미완료 인계를 구분한다.
 
 **Opening Question:**
-계속 돌리고 있다는 사실과 목표를 달성했다는 사실은 어떻게 구분할까?
+“시간 측정 근거가 아직 없다면 언제 다시 시도하고 언제 멈출까?”
 
 **Speaker Flow:**
-1. (0:00–3:00 / Lecture) 세 갈래를 조건부터 읽는다. 기준 충족은 확인 범위를 보고하고 완료한다. 수정 가능하면 남은 문제를 전달한다. 근거 부족·정체·한도 도달은 미완료 상태를 보존해 사람에게 묻는다.
-2. (3:00–5:00 / Reflection) 우리 작업의 완료 근거와 중단 뒤 사람에게 넘길 질문 하나를 마음속으로 생각하게 한다. 공유·실습은 요구하지 않으며 숫자 한도는 실행 환경에 맞춰 정한다고 닫는다.
+1. (0:00–3:00 / Lecture) 세 갈래를 가리킨다. 모든 기준이 확인되면 검토를 위해 제출한다. 고칠 위반이나 확보 가능한 검사 근거가 남으면 같은 목표로 다시 보낸다. 권한·환경이 막히거나 정한 시간·횟수·비용 한도에 닿으면 현재 후보와 미확인 항목을 사람에게 인계한다.
+2. (3:00–5:00 / Reflection) 조용히 두 상황을 비교하게 한다. 측정 명령을 다시 실행할 수 있는 경우와 측정 권한을 얻지 못한 경우다. 각 상황의 다음 행동과 남길 항목을 마음속으로 한 가지씩 고르게 한다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-079; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: TEACHING_MODEL · 반복의 종료와 다음 행동을 정하는 기준
+TRIAL-008 및 STATE-04-PERF의 밝기 통계 작업을 문제 배경으로 삼은 CASE-LOOP-01. 후보와 R1은 DEC-0144의 교육 설계다.
 
 **Claim Boundary:**
-TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 미완료 중단은 목표 달성과 다름 · 반복·시간·비용 한도 수치는 실행 전에 정함
+CONCEPTUAL. 밝기 통계의 기존 제품 기록과 구분한 가상 회차다. 모델 대화와 후보는 강의용으로 구성했으며 실제 측정값은 ACT3의 해당 기록에서만 인용한다.
 
 **Beginner Explanation:**
-근거에 따라 완료, 다음 수정, 미완료 중단·사람 확인을 구분한다.
+멈출 때에는 완료한 이유 또는 미완료로 인계하는 이유를 적을 수 있어야 한다.
 
 **Advanced Insight:**
-회수 제한이나 예산 소진은 성공 판정이 아니다. 검토 항목의 해결 여부와 명세·검사 결과를 함께 확인한다.
+검토 제출과 조직의 제품 병합 승인은 서로 다른 결정이다. 작업 한도에 닿았다는 사실은 완료 근거가 될 수 없다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
+N/A — 정적 자료. 세 갈래 판단을 읽고 미완료 인계 항목을 확인한다.
 
 **Audience Interaction:**
-Reflection: 계속 돌리고 있다는 사실과 목표를 달성했다는 사실은 어떻게 구분할까? 공유·기록·실습은 요구하지 않는다.
+개인 성찰 2분. 공개 응답·작성은 선택 사항이다.
 
 **Transition:**
-다음은 구현한 모델에게 다시 물으면 충분할까?의 질문으로 이어간다.
+근거를 제출할 사람과 근거를 검토할 모델을 어떻게 정할까?
 
 **Time Management:**
-Lecture 3분 + Reflection 2분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Lecture 3분 + Reflection 2분 = 5분. 강의 3분 뒤 성찰 2분을 확보한다. 마지막 20초에 전환한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S87; production/preview/act4/S87.png 및 production/preview/full/S87.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S85.png 또는 production/ACT_4.pptx의 S85. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S88 — 구현한 모델에게 다시 물으면 충분할까?
-
-**Slide ID:**
-S88
-
-**Working Title:**
-구현한 모델에게 다시 물으면 충분할까?
-
-**ACT / Section:**
-ACT 4 / 4R4 Research and model choice
-
-**Allocated Time:**
-4 minutes
-
-**Mode Split:**
-Lecture 4분
-
-**Primary Message:**
-자기 피드백으로 개선된 연구와 외부 근거 없는 자기 교정의 한계 연구를 조건과 함께 설명한다.
-
-**Opening Question:**
-같은 모델에게 다시 생각해 달라고 하면 언제나 좋아질까?
-
-**Speaker Flow:**
-1. (0:00–2:00 / Lecture) Self-Refine은 같은 LLM이 생성·피드백·수정을 반복하고 여러 과제에서 개선을 보고했다. 다중 모델 비교 연구가 아니라는 점을 명시한다.
-2. (2:00–4:00 / Lecture) Huang 등의 ICLR 2024 연구는 대상 추론 과제에서 외부 피드백 없는 자기 교정의 어려움과 악화 사례를 보고했다. 서로 다른 실험을 모순으로 단순화하지 않고 피드백의 근거·방법을 설계할 필요로 연결한다.
-
-**Evidence / Source:**
-DEC-0097; BEAT-080; SRC-0223; SRC-0239; CLM-0045. Primary sources checked 2026-10-25: https://arxiv.org/abs/2303.17651; https://arxiv.org/abs/2310.01798
-
-보존된 상세 출처: Self-Refine (2023) / Huang et al., ICLR 2024 · 서로 다른 실험 조건의 연구
-
-**Claim Boundary:**
-FROZEN WITH SCOPE — 해당 연구의 모델·과제·방법과 조건에 한정. 현재 Codex의 일반 성능·비용이나 새 코드 루프 성과로 확장하지 않는다.
-
-보존된 상세 범위: 과거 연구 대상의 결과 · 현재 모든 모델의 자기 검토 능력이나 다중 모델 우월성을 뜻하지 않음
-
-**Beginner Explanation:**
-자기 피드백으로 개선된 연구와 외부 근거 없는 자기 교정의 한계 연구를 조건과 함께 설명한다.
-
-**Advanced Insight:**
-2023–2024년의 특정 모델·과제·방법에 관한 결과다. 현재 모든 모델이 자기 교정에 실패한다는 일반화는 하지 않는다.
-
-**C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
-
-**Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
-
-**Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
-
-**Transition:**
-다음은 다른 모델의 관점이 도움이 된 실험의 질문으로 이어간다.
-
-**Time Management:**
-Lecture 4분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
-
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S88; production/preview/act4/S88.png 및 production/preview/full/S88.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
-
-**Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
-
-## S89 — 다른 모델의 관점이 도움이 된 실험
+## S86 — 구현자와 검토자를 어떻게 고를까
 
 **Slide ID:**
-S89
+S86
 
 **Working Title:**
-다른 모델의 관점이 도움이 된 실험
+구현자와 검토자를 어떻게 고를까
 
 **ACT / Section:**
-ACT 4 / 4R4 Research and model choice
-
-**Allocated Time:**
-5 minutes
-
-**Mode Split:**
-Lecture 3분 + Case 2분
-
-**Primary Message:**
-ReConcile의 StrategyQA 실험에서 여러 모델 조합과 같은 ChatGPT 세 Agent 구성을 비교한 결과를 설명한다.
-
-**Opening Question:**
-같은 모델을 여러 번 쓰는 것과 다른 모델을 조합하는 것은 같을까?
-
-**Speaker Flow:**
-1. (0:00–3:00 / Lecture) ReConcile은 여러 모델의 토론과 합의를 평가한 연구다. Table 7에서 StrategyQA 정확도는 여러 모델 구성 79.0±1.6, ChatGPT만 사용하는 세 Agent 구성 72.2±2.1이다. 화면의 막대는 평균이고 ±값은 원문의 함께 보고된 값으로 Notes에서 보존한다.
-2. (3:00–5:00 / Case) 차이는 6.8 percentage points다. 모델 구성 변경에는 모델별 능력 차이도 포함된다. 코딩 반복 작업이나 현재 Codex에서 같은 향상·비용 절감이 입증됐다고 말하지 않는다.
-
-**Evidence / Source:**
-DEC-0097; BEAT-081; SRC-0237; CLM-0043; ReConcile Table 7. Primary sources checked 2026-10-25: https://aclanthology.org/2024.acl-long.381.pdf (Table 7)
-
-보존된 상세 출처: ReConcile · ACL 2024 · Table 7 · StrategyQA의 토론·합의 실험
-
-**Claim Boundary:**
-FROZEN WITH SCOPE — 해당 연구의 모델·과제·방법과 조건에 한정. 현재 Codex의 일반 성능·비용이나 새 코드 루프 성과로 확장하지 않는다.
-
-보존된 상세 범위: 코드 수정 실험이 아님 · 현재 모델의 일반 성능·비용 개선으로 확대하지 않음
-
-**Beginner Explanation:**
-ReConcile의 StrategyQA 실험에서 여러 모델 조합과 같은 ChatGPT 세 Agent 구성을 비교한 결과를 설명한다.
-
-**Advanced Insight:**
-모델 다양성의 가능성을 보여주는 제한된 근거다. 토론·합의 프로토콜 전체와 모델 조합의 영향을 구분한다.
-
-**C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
-
-**Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
-
-**Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
-
-**Transition:**
-다음은 잘 만드는 능력과 잘 검토하는 능력의 질문으로 이어간다.
-
-**Time Management:**
-Lecture 3분 + Case 2분 = 5분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
-
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S89; production/preview/act4/S89.png 및 production/preview/full/S89.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
-
-**Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
-
-## S90 — 잘 만드는 능력과 잘 검토하는 능력
-
-**Slide ID:**
-S90
-
-**Working Title:**
-잘 만드는 능력과 잘 검토하는 능력
-
-**ACT / Section:**
-ACT 4 / 4R4 Research and model choice
+ACT 4 / 4R4 Review research
 
 **Allocated Time:**
 4 minutes
@@ -5448,383 +5169,597 @@ ACT 4 / 4R4 Research and model choice
 Lecture 3분 + Case 1분
 
 **Primary Message:**
-CriticBench의 생성·검토·수정 능력과 교차 모델 검토 결과를 근거로 검토자 선택을 따로 평가할 이유를 설명한다.
+구현·검토의 책임을 먼저 정하고, 각 역할을 맡길 모델은 해당 과제의 검토 능력으로 고른다.
 
 **Opening Question:**
-코드를 잘 생성하는 모델이 그 결과의 가장 좋은 검토자일까?
+“같은 모델의 두 역할과 다른 모델의 두 역할을 어떻게 비교해야 할까?”
 
 **Speaker Flow:**
-1. (0:00–3:00 / Lecture) CriticBench는 수학·상식·기호·코딩·알고리즘의 다섯 영역에서 17개 모델의 생성·검토·수정을 평가했다. 세 능력이 항상 일치하지 않았고 §4.2.5는 일부 다른 모델의 검토가 대상 모델의 자기 검토보다 나은 경우를 보고한다.
-2. (3:00–4:00 / Case) 약한 모델이 언제나 더 좋은 검토자라는 뜻은 아니다. 이 결과로 검토자 역할을 따로 평가할 이유를 설명하고 다음 장의 모델 배치 설계로 연결한다.
+1. (0:00–3:00 / Lecture) 구현 담당은 후보와 근거를 제출하고 검토 담당은 명세 위반과 증거를 확인한다. 같은 모델을 다른 지시로 배치하는 경우와 다른 모델을 배치하는 경우를 차례로 가리킨다.
+2. (3:00–4:00 / Case) CriticBench가 생성·비평·수정 능력을 따로 평가했다는 점을 연결한다. 팀에서는 놓친 회귀, 근거 없는 지적, 수정을 통해 해결된 항목을 대표 이슈에서 비교한다고 설명한다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-081; SRC-0238; CLM-0044; CriticBench section 4.2.5. Primary sources checked 2026-10-25: https://aclanthology.org/2024.findings-acl.91.pdf (section 4.2.5)
-
-보존된 상세 출처: CriticBench · Findings of ACL 2024 · 17개 모델 / §4.2.5 교차 모델 검토
+SRC-0238 · CLM-0044. Lin et al., CriticBench, Findings of ACL 2024, §4.2.5. https://aclanthology.org/2024.findings-acl.91/ 보조 근거. 기존 Self-Refine(SRC-0223)과 외부 근거 없는 자기 교정 연구(SRC-0239)는 참고 자료에서 각 과제 조건과 함께 읽는다.
 
 **Claim Boundary:**
-FROZEN WITH SCOPE — 해당 연구의 모델·과제·방법과 조건에 한정. 현재 Codex의 일반 성능·비용이나 새 코드 루프 성과로 확장하지 않는다.
-
-보존된 상세 범위: 일부 모델·과제에서의 결과 · 이 교육의 코드 루프 완료율·비용 개선을 측정한 연구가 아님
+연구에서 본 생성·검토·수정 능력은 모델·과제별로 다르다. 운영기가 보고한 maker/checker 역할 분리만으로 사용한 모델 조합을 특정할 수 없다.
 
 **Beginner Explanation:**
-CriticBench의 생성·검토·수정 능력과 교차 모델 검토 결과를 근거로 검토자 선택을 따로 평가할 이유를 설명한다.
+같은 제품도 서로 다른 역할 지시를 받을 수 있다. 누가 어떤 책임을 맡는지 먼저 정한다.
 
 **Advanced Insight:**
-검토 정확도와 전체 개발 루프의 완료율·코스트는 다른 평가다. 이 교육의 모델 조합을 검증한 수치로 쓰지 않는다.
+검토자 정확도뿐 아니라 지적 수용 뒤 후보가 실제로 나아졌는지를 같은 기준으로 본다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
+N/A — 정적 자료. 구현·검토의 역할과 모델 배치 선택을 따로 읽는다.
 
 **Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
+청중에게 개별 모델 이름을 고르도록 요구하지 않는다.
 
 **Transition:**
-다음은 구현과 검토에 모델을 어떻게 나눌까?의 질문으로 이어간다.
+초기 구현 담당을 고정한 코드 생성 실험에서는 조합에 따라 어떤 차이가 보였을까?
 
 **Time Management:**
-Lecture 3분 + Case 1분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Lecture 3분 + Case 1분 = 4분. 역할 설명을 3분에 닫고 대표 이슈 평가 관점에 1분을 쓴다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S90; production/preview/act4/S90.png 및 production/preview/full/S90.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S86.png 또는 production/ACT_4.pptx의 S86. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S91 — 구현과 검토에 모델을 어떻게 나눌까?
+## S87 — 코드 생성 실험에서 검토 모델을 바꾸면
+
+**Slide ID:**
+S87
+
+**Working Title:**
+코드 생성 실험에서 검토 모델을 바꾸면
+
+**ACT / Section:**
+ACT 4 / 4R4 Review research
+
+**Allocated Time:**
+5 minutes
+
+**Mode Split:**
+Lecture 3분 + Case 2분
+
+**Primary Message:**
+같은 초기 구현 모델에서도 초기 검토 모델 조합에 따라 HumanEval의 pass@1이 달라졌다.
+
+**Opening Question:**
+“다른 모델을 검토자로 넣으면 어느 조합에서 결과가 좋아졌을까?”
+
+**Speaker Flow:**
+1. (0:00–3:00 / Lecture) HumanEval은 코드 생성 과제이고 pass@1은 첫 후보 하나가 테스트를 통과하는 성능 지표다. 표 2에서 초기 Driver를 GPT-3.5-turbo로 고정한 행을 읽는다. 단독 69.51%, 같은 GPT-3.5-turbo 초기 Navigator 81.16%, GPT-4 90.01%, minimax-abab-chat 48.19%다.
+2. (3:00–5:00 / Case) 높아진 조합과 낮아진 조합을 함께 비교한다. 반복 오류 시 역할을 교대할 수 있어 모델명을 초기 역할 기준으로 읽는다. 팀의 대표 이슈에 적용할 땐 정답성·회귀·비용을 따로 기록하자고 제안한다.
+
+**Evidence / Source:**
+SRC-0245 · CLM-0049. Chen et al., PairCoder, Findings of ACL 2026, §4.6 및 표 2, p.3049. https://aclanthology.org/2026.findings-acl.149.pdf#page=7 참고 연구 ReConcile(SRC-0237)는 StrategyQA 토론·합의, 표 7의 79.0±1.6 대 72.2±2.1 비교다. https://aclanthology.org/2024.acl-long.381/
+
+**Claim Boundary:**
+RESEARCH. 표 2의 과제·평가지표·초기 역할을 함께 인용한다. 우리 팀의 MR 품질·병합 여부, 현재 모델의 일반 순위, 모델 다양성만의 효과는 이 비교의 측정 범위 밖이다.
+
+**Beginner Explanation:**
+같은 구현자에 누구를 짝지었는지에 따라 성공률이 달라진 한 실험으로 읽는다.
+
+**Advanced Insight:**
+단독 추론과 역할 협업, 같은 모델 쌍과 다른 모델 쌍은 서로 다른 비교다. 81.16%와 90.01%의 차이는 8.85%포인트다.
+
+**C++ Vision Bridge:**
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+
+**Demo Operation:**
+N/A — 정적 자료. HumanEval 그래프 네 값과 초기 역할을 왼쪽부터 대조한다.
+
+**Audience Interaction:**
+네 조건에서 가장 낮은 값의 조합까지 함께 읽도록 안내한다.
+
+**Transition:**
+이제 아침 6시로 돌아간다. 실제 팀은 먼저 어느 상태부터 확인했을까?
+
+**Time Management:**
+Lecture 3분 + Case 2분 = 5분. 3분에 그래프 읽기를 닫고 마지막 2분은 적용 범위에 쓴다.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/preview/full/S87.png 또는 production/ACT_4.pptx의 S87. 그래프를 표시하기 어렵다면 표 2의 같은 초기 Driver 행에서 단독·동종·이종 두 조합의 값을 읽는다.
+
+**Validation Status:**
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+
+## S88 — 어제 MR 상태가 오늘의 첫 분기를 정한다
+
+**Slide ID:**
+S88
+
+**Working Title:**
+어제 MR 상태가 오늘의 첫 분기를 정한다
+
+**ACT / Section:**
+ACT 4 / 4R5 Team operations and state
+
+**Allocated Time:**
+5 minutes
+
+**Mode Split:**
+Lecture 2분 + Case 3분
+
+**Primary Message:**
+이전 MR의 병합 여부가 같은 아침 트리거에서 대기와 다음 목표 선정으로 분기되는 근거다.
+
+**Opening Question:**
+“아직 병합되지 않은 MR이 보이면 새 작업을 열까?”
+
+**Speaker Flow:**
+1. (0:00–2:00 / Lecture) S79의 질문을 다시 읽는다. 6시는 자동화가 상태를 읽는 시각이다. 병합 여부를 읽은 뒤에 오늘의 일을 정한다.
+2. (2:00–5:00 / Case) 운영기의 두 가지 아침을 따라간다. 미병합이면 새 이슈 대응을 보류하고 상태를 기록한다. 병합됐으면 미리 정한 개선 단계에서 다음 목표를 고른다. 미병합 상태에서 코드 실패나 리뷰어의 실제 사정을 단정하지 않는다.
+
+**Evidence / Source:**
+SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §3.
+
+**Claim Boundary:**
+운영기 작성자가 게시 시점에 설명한 사내 테스트 운영 범위다. 검토 모델명, 비교 효과, 실제 계정의 현재 상태는 이 자료로 확인할 수 없다.
+
+**Beginner Explanation:**
+알람이 울려도 이전 일이 기다리는 중이면 기록하고 대기할 수 있다.
+
+**Advanced Insight:**
+완료 기준을 충족한 코드 후보와 사람의 병합 결정을 별도 상태로 보관한다.
+
+**C++ Vision Bridge:**
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+
+**Demo Operation:**
+N/A — 정적 자료. 미병합 경로를 기록·대기까지 따라간 뒤 병합 경로로 돌아온다.
+
+**Audience Interaction:**
+S79에서 떠올린 선택을 실제 운영기의 분기와 대조한다.
+
+**Transition:**
+다음 목표가 정해지면 그 이슈의 변경을 어디서 시작할까?
+
+**Time Management:**
+Lecture 2분 + Case 3분 = 5분. 첫 질문을 반복 설명하지 말고 대기 경로와 착수 경로를 한 번씩만 따라간다.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/preview/full/S88.png 또는 production/ACT_4.pptx의 S88. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
+
+**Validation Status:**
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+
+## S89 — 새 이슈에는 별도 작업 공간이 생긴다
+
+**Slide ID:**
+S89
+
+**Working Title:**
+새 이슈에는 별도 작업 공간이 생긴다
+
+**ACT / Section:**
+ACT 4 / 4R5 Team operations and state
+
+**Allocated Time:**
+4 minutes
+
+**Mode Split:**
+Lecture 1분 + Case 3분
+
+**Primary Message:**
+선택한 목표를 이슈에 기록하고 별도 worktree에서 해당 이슈의 변경을 다룬다.
+
+**Opening Question:**
+“두 작업이 같은 파일을 건드린다면 어떻게 각 이슈의 변경을 따라갈까?”
+
+**Speaker Flow:**
+1. (0:00–1:00 / Lecture) worktree는 같은 저장소의 다른 작업 디렉터리로 소개한다. 이슈 한 건과 작업 공간 한 곳을 연결한다.
+2. (1:00–4:00 / Case) 운영기의 선택된 이슈에서 작업 공간, 재사용 수행 방법, 구현 담당과 검토 담당을 차례로 가리킨다. 이슈 식별자가 diff와 검토 근거를 다시 찾을 기준이 된다.
+
+**Evidence / Source:**
+SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §2–3.
+
+**Claim Boundary:**
+운영기 작성자가 게시 시점에 설명한 사내 테스트 운영 범위다. 검토 모델명, 비교 효과, 실제 계정의 현재 상태는 이 자료로 확인할 수 없다. 작업 공간 격리의 설명 도식으로 이해한다.
+
+**Beginner Explanation:**
+작업마다 작업대를 구분하면 어느 이슈의 변경을 보고 있는지 분명해진다.
+
+**Advanced Insight:**
+worktree가 분리하는 것은 checkout의 작업 파일이다. 권한 경계와 검토·병합 정책은 따로 정한다.
+
+**C++ Vision Bridge:**
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+
+**Demo Operation:**
+N/A — 정적 자료. 이슈 식별자부터 worktree와 역할 분담까지 연결한다.
+
+**Audience Interaction:**
+작업 공간과 이슈를 연결하는 표시만 따라 보게 한다.
+
+**Transition:**
+그 공간에서 만든 후보를 팀원이 읽을 수 있는 MR로 어떻게 전달할까?
+
+**Time Management:**
+Lecture 1분 + Case 3분 = 4분. 도구 설치 절차를 열지 않고 이슈와 worktree 연결에 집중한다.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/preview/full/S89.png 또는 production/ACT_4.pptx의 S89. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
+
+**Validation Status:**
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+
+## S90 — 변경 후보가 팀의 MR이 되기까지
+
+**Slide ID:**
+S90
+
+**Working Title:**
+변경 후보가 팀의 MR이 되기까지
+
+**ACT / Section:**
+ACT 4 / 4R5 Team operations and state
+
+**Allocated Time:**
+4 minutes
+
+**Mode Split:**
+Lecture 1분 + Case 3분
+
+**Primary Message:**
+사내 API가 이슈와 MR을 등록해 코드 후보를 팀의 검토 흐름에 연결한다.
+
+**Opening Question:**
+“모델이 검토 의견을 냈을 때 누가 GitLab에 MR을 만들고 누가 읽을까?”
+
+**Speaker Flow:**
+1. (0:00–1:00 / Lecture) maker가 변경을 만들고 checker가 검사 기준으로 살핀 지점과, API가 GitLab에 이슈·MR을 등록하는 지점을 각각 짚는다.
+2. (1:00–4:00 / Case) 팀원이 MR에서 볼 수 있어야 할 자료를 변경 이유·diff·검사 근거로 읽는다. MR 생성은 팀 리뷰의 시작이다. 병합 결정은 사람에게 남아 있다.
+
+**Evidence / Source:**
+SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §2–4.
+
+**Claim Boundary:**
+운영기 작성자가 게시 시점에 설명한 사내 테스트 운영 범위다. 검토 모델명, 비교 효과, 실제 계정의 현재 상태는 이 자료로 확인할 수 없다. 검토 자료 항목은 발표용으로 정리한 예다.
+
+**Beginner Explanation:**
+초안과 검토된 변경을 동료에게 넘길 통로가 MR이다.
+
+**Advanced Insight:**
+이슈 등록이나 MR 작성처럼 외부에 남는 행동은 역할 지시와 별도로 대상·권한·기존 결과를 확인해야 한다.
+
+**C++ Vision Bridge:**
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+
+**Demo Operation:**
+N/A — 정적 자료. API의 MR 작성과 팀원의 병합 결정을 구분한다.
+
+**Audience Interaction:**
+담당자를 세 곳에서 구분한다. 구현, 도구 연결, 병합 결정이다.
+
+**Transition:**
+오늘의 MR 식별자를 다음 실행이 어디서 되찾을까?
+
+**Time Management:**
+Lecture 1분 + Case 3분 = 4분. API 세부 문법 대신 누가 무엇을 남기는지만 짚는다.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/preview/full/S90.png 또는 production/ACT_4.pptx의 S90. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
+
+**Validation Status:**
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+
+## S91 — 내일 다시 읽을 상태는 무엇인가
 
 **Slide ID:**
 S91
 
 **Working Title:**
-구현과 검토에 모델을 어떻게 나눌까?
+내일 다시 읽을 상태는 무엇인가
 
 **ACT / Section:**
-ACT 4 / 4R5 Engineering the loop
+ACT 4 / 4R5 Team operations and state
 
 **Allocated Time:**
 4 minutes
 
 **Mode Split:**
-Lecture 2분 + Case 2분
+Lecture 1분 + Case 3분
 
 **Primary Message:**
-같은 모델의 역할 분리와 다른 모델의 구현·검토 조합을 구분하고 실제 작업에서 효과를 평가한다.
+다음 실행이 이어받을 최소 정보는 대화 밖에 남긴다.
 
 **Opening Question:**
-역할을 두 개 만들면 서로 다른 모델을 사용하는 셈일까?
+“내일 새로운 세션을 열면 무엇부터 읽어야 할까?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 같은 모델의 두 세션·Agent에 다른 역할을 주는 것과 서로 다른 모델을 선택하는 것은 다르다. 오른쪽 A/B 구성이 이번 교육에서 검토하는 다중 모델 설계라고 설명한다.
-2. (2:00–4:00 / Case) 실제로는 역할별 오류 탐지, 최종 동작, 지연·비용을 확인해야 한다. 모델·계정·실행 표면은 TBD이며 자동 연결 기능이나 성능 향상을 이미 확인한 것처럼 말하지 않는다.
+1. (0:00–1:00 / Lecture) 작성자의 루프가 Markdown에 진행 상태를 남겼다는 사실을 소개하고, 화면의 카드 필드는 발표용 예시라고 표시한다.
+2. (1:00–4:00 / Case) 교육용 ISSUE-A, 마지막 후보 v2, 열려 있는 MR-A, 팀원의 병합 결정 대기를 순서대로 읽는다. “MR-A가 병합됐는가?”가 다음 세션의 첫 질문이다. 어제의 MR이 열려 있었다면 오늘 첫 행동은 같은 MR의 현재 상태 조회다. 다음 실행에서 상태가 바뀔 수 있으므로 시점을 함께 남긴다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-082; CLM-0043; CLM-0044; CASE-LOOP-01. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: 연구를 참고한 개발 작업의 역할 배치 제안 · 현재 제품의 자동 배치 기능 설명 아님
+SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §2–3. 카드 필드는 DEC-0144의 교육용 인계 설계다.
 
 **Claim Boundary:**
-TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 같은 모델의 역할 분리와 서로 다른 모델 조합을 구분 · 실제 조합의 효과는 별도 평가
+작성자가 보고한 것은 외부 상태 기록이다. 카드의 필드명·예시 값은 실제 사내 파일의 인용이나 캡처가 아니다.
 
 **Beginner Explanation:**
-같은 모델의 역할 분리와 다른 모델의 구현·검토 조합을 구분하고 실제 작업에서 효과를 평가한다.
+다음 담당자가 같은 대화를 다시 읽지 않아도 시작할 단서를 남긴다.
 
 **Advanced Insight:**
-Reviewer에게 구현 모델의 자신감만 전달하지 않고 독립적으로 대조할 명세·diff·원래 검사 기록을 제공한다.
+이슈·후보·MR을 함께 식별해야 이전 후보의 검토가 새 변경에 잘못 붙는 일을 줄일 수 있다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
+N/A — 정적 자료. 상태 카드의 MR-A를 다음 실행의 첫 조회로 연결한다.
 
 **Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
+다섯 필드 가운데 다음 실행의 첫 행동을 알려 주는 칸을 찾아본다.
 
 **Transition:**
-다음은 검토 모델의 말도 확인해야 한다의 질문으로 이어간다.
+그 기록을 받은 사람은 병합 전에 무엇을 직접 이해해야 할까?
 
 **Time Management:**
-Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Lecture 1분 + Case 3분 = 4분. 파일 형식 소개보다 다음 실행의 첫 조회를 찾는 데 시간을 쓴다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S91; production/preview/act4/S91.png 및 production/preview/full/S91.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S91.png 또는 production/ACT_4.pptx의 S91. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S92 — 검토 모델의 말도 확인해야 한다
+## S92 — 사람이 병합 전에 읽을 것
 
 **Slide ID:**
 S92
 
 **Working Title:**
-검토 모델의 말도 확인해야 한다
+사람이 병합 전에 읽을 것
 
 **ACT / Section:**
-ACT 4 / 4R5 Engineering the loop
+ACT 4 / 4R5 Team operations and state
 
 **Allocated Time:**
-4 minutes
+3 minutes
 
 **Mode Split:**
-Lecture 2분 + Case 2분
+Lecture 1분 + Case 2분
 
 **Primary Message:**
-검토 모델의 지적도 명세와 검사 근거로 대조해 수용·기각·추가 확인을 결정한다.
+병합 권한을 가진 팀원은 변경 이유·검사 근거·남은 위험을 이해하고 승인 여부를 결정한다.
 
 **Opening Question:**
-검토 모델이 고치라고 하면 무조건 따라야 할까?
+“검사가 끝난 MR에서 설명할 수 없는 변경 한 줄을 발견했다면?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 검토 모델도 틀릴 수 있다. 지적의 위치·위반 기준·근거가 실제 변경과 맞는지 대조하고, 동의만으로 완료하지 않는다고 설명한다.
-2. (2:00–4:00 / Case) 지적이 타당하면 수정, 틀리면 기각 이유를 남긴다. 명세가 모호하거나 검증이 불가능하면 사람에게 판단을 요청한다. 모델 다수결을 객관적 정답으로 대체하지 않는다.
+1. (0:00–1:00 / Lecture) 운영기에서 최종 병합 결정은 팀원이 맡았다고 설명한다. 자동화가 만든 후보를 읽지 않은 채 누적하면 시스템을 이해할 사람이 줄어드는 문제를 이해 부채라 부른다.
+2. (1:00–3:00 / Case) 기존 테스트의 assert를 삭제한 가상 diff 한 줄을 가리킨다. 삭제 이유와 보존할 동작을 확인하는 근거가 있어야 한다. 이어 어떤 조건 때문에 바뀌었고 어느 검사로 확인했는지 묻는다. 근거가 없으면 보류하고 확인을 요청하는 장면으로 닫는다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-082; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: TEACHING_MODEL · 검토 지적의 수용·기각과 추가 확인
+SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §3–4. 설명이 어려운 diff는 강의용 질문이다.
 
 **Claim Boundary:**
-TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 모델 동의·다수결만으로 완료하지 않음 · 검토 모델도 틀릴 수 있음
+운영기 작성자가 게시 시점에 설명한 사내 테스트 운영 범위다. 검토 모델명, 비교 효과, 실제 계정의 현재 상태는 이 자료로 확인할 수 없다. 화면의 코드 리뷰 장면은 교육용 각색이다.
 
 **Beginner Explanation:**
-검토 모델의 지적도 명세와 검사 근거로 대조해 수용·기각·추가 확인을 결정한다.
+병합 버튼을 누르는 사람은 왜 바뀌었고 무엇을 확인했는지 설명할 수 있어야 한다.
 
 **Advanced Insight:**
-잘못된 지적을 반복 반영해 정상 동작을 깨뜨리는 회귀와 무한 수정을 막는 제어도 Loop 설계의 일부다.
+checker의 의견과 도구 증거, 팀의 제품 수용 책임을 서로 구분해 기록한다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
+N/A — 정적 자료. assert 삭제 한 줄의 근거가 확인될 때까지 병합을 보류하는 장면을 짚는다.
 
 **Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
+승인 전 마지막으로 어떤 근거를 읽을지 짧게 생각하게 한다.
 
 **Transition:**
-다음은 반복하려면 무엇을 이어받아야 할까?의 질문으로 이어간다.
+병합 여부를 확인하려는데 API가 응답하지 않는다면 무엇을 기록할까?
 
 **Time Management:**
-Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Lecture 1분 + Case 2분 = 3분. 이해 부채 설명 뒤 한 가지 확인 질문으로 3분에 닫는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S92; production/preview/act4/S92.png 및 production/preview/full/S92.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S92.png 또는 production/ACT_4.pptx의 S92. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S93 — 반복하려면 무엇을 이어받아야 할까?
+## S93 — MR 상태를 조회할 수 없다면
 
 **Slide ID:**
 S93
 
 **Working Title:**
-반복하려면 무엇을 이어받아야 할까?
+MR 상태를 조회할 수 없다면
 
 **ACT / Section:**
-ACT 4 / 4R5 Engineering the loop
+ACT 4 / 4R5 Team operations and state
 
 **Allocated Time:**
-4 minutes
+3 minutes
 
 **Mode Split:**
-Lecture 2분 + Case 2분
+Lecture 1분 + Case 2분
 
 **Primary Message:**
-고정 목표, 현재 후보·검토·검사, 남은 문제와 한도를 다음 시도가 이어받도록 설계한다.
+조회할 수 없는 상태는 미확인으로 보존하고, 정한 한도에 따라 재조회하거나 사람에게 넘긴다.
 
 **Opening Question:**
-다음 시도가 처음부터 다시 시작하지 않게 하려면 무엇을 남길까?
+“MR 조회가 실패하면 이미 병합됐다고 보고 다음 이슈를 시작해도 될까?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 목표·완료 기준은 고정하고 후보 버전·지적·검사 결과를 갱신한다. 검토 항목의 수용·기각, 현재 남은 문제와 시도 기록을 보존한다.
-2. (2:00–4:00 / Case) 반복·시간·비용 한도, 같은 실패의 정체, 회귀를 만나면 어떻게 멈추고 재개할지 정한다. 별도 프레임워크가 필수라는 주장이나 숫자 기본값을 만들지 않는다.
+1. (0:00–1:00 / Lecture) 교육용 장애 상황이라는 표시를 짚는다. 마지막으로 확인한 MR 식별자, 마지막 확인 시각, 이번 조회 실패를 구분한다.
+2. (1:00–3:00 / Case) 읽기 재시도가 가능한 동안 같은 MR을 조회한다. 한도에 닿으면 새 이슈 생성을 보류하고 확인을 요청한다. 다음 실행도 같은 MR 상태 읽기에서 재개한다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-082; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: TEACHING_MODEL · 같은 목표의 다음 시도를 위한 최소 기록
+DEC-0144 · 운영기의 MR 상태 분기를 확장해 만든 교육용 장애 설계. SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/
 
 **Claim Boundary:**
-TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 별도 프레임워크가 필수인 것은 아님 · 한도와 중단 후 재개는 별도 운영 기준
+CONCEPTUAL. 원문이 보고한 운영 장애나 특정 재시도 횟수·복구 성공 사례가 아니다.
 
 **Beginner Explanation:**
-고정 목표, 현재 후보·검토·검사, 남은 문제와 한도를 다음 시도가 이어받도록 설계한다.
+모르는 상태는 그대로 남겨야 다음 사람이 무엇을 확인해야 하는지 안다.
 
 **Advanced Insight:**
-목표의 상태와 실행의 상태를 분리한다. 실행이 중단됐다는 이유로 목표가 완료된 것으로 기록하지 않는다.
+조회 재시도와 쓰기 재실행은 다르다. 상태를 모르고 새 이슈나 MR을 만들면 중복될 수 있다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
+N/A — 정적 자료. 조회 실패에서 재개할 MR 식별자와 중단 조건을 확인한다.
 
 **Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
+중단 뒤 다음 담당자가 받아야 할 식별자 하나를 생각하게 한다.
 
 **Transition:**
-다음은 확인한 근거와 아직 실행하지 않은 설계의 질문으로 이어간다.
+이런 문제가 반복될 때 작업 규칙 변경은 누가 승인할까?
 
 **Time Management:**
-Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Lecture 1분 + Case 2분 = 3분. 복구 명령으로 확장하지 말고 보존할 상태와 인계 조건만 짚는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S93; production/preview/act4/S93.png 및 production/preview/full/S93.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S93.png 또는 production/ACT_4.pptx의 S93. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S94 — 확인한 근거와 아직 실행하지 않은 설계
+## S94 — 회고 제안은 누가 적용할까
 
 **Slide ID:**
 S94
 
 **Working Title:**
-확인한 근거와 아직 실행하지 않은 설계
+회고 제안은 누가 적용할까
 
 **ACT / Section:**
-ACT 4 / 4R6 Evidence and transfer
+ACT 4 / 4R5 Team operations and state
 
 **Allocated Time:**
-4 minutes
+3 minutes
 
 **Mode Split:**
-Lecture 2분 + Case 2분
+Lecture 1분 + Case 2분
 
 **Primary Message:**
-기존 제품 Trial, 인용 연구, 이번 루프 설계의 세 근거 범위를 구분한다.
+제품 코드를 병합하는 결정과 다음 세션의 작업 규칙을 바꾸는 결정은 각각 승인 대상을 갖는다.
 
 **Opening Question:**
-우리가 실제로 확인한 것은 어디까지일까?
+“한 번 발견한 운영 문제를 다음 세션의 규칙으로 바로 반영해도 될까?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 실제 밝기 통계의 변경·출력·측정 근거는 기존 코드·입력·환경에 한정한다. 논문은 연구된 모델·과제·방법의 결과다.
-2. (2:00–4:00 / Case) 이번 A/B 루프는 설계이며 새 실행·완료율·시간·비용을 측정하지 않았다. 과거 평가·보고 기준 Meta 기록도 다중 모델 구현·검토의 실측 성과로 바꾸지 않는다. 실제 운영 확인은 별도 검증 대상으로 유지한다.
+1. (0:00–1:00 / Lecture) 코드 변경은 팀원이 MR로 수용하는 대상이다. 작업 방식 변경은 회고에서 제안할 수 있는 별도 대상이다.
+2. (1:00–3:00 / Case) 운영기에서는 세션 마지막의 회고 Skill이 개선점을 제안하고 운영 엔지니어가 승인한 경우에 workflow 관련 파일을 수정한다. 두 승인 경로를 각각 가리키며 누구의 판단이 어디에 남는지 회수한다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-083; STATE-04-PERF; TRIAL-008; SRC-0237; SRC-0238; CASE-LOOP-01. Primary sources checked 2026-10-25: https://aclanthology.org/2024.acl-long.381.pdf (Table 7); https://aclanthology.org/2024.findings-acl.91.pdf (section 4.2.5)
-
-보존된 상세 출처: 기존 Product Trial / 인용한 연구 / CASE-LOOP-01 설계의 근거 경계
+SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §3, §5.
 
 **Claim Boundary:**
-TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 기존 Trial을 다중 모델 루프의 실행 증거로 사용하지 않음 · 새 모델 조합·완료 성과 미검증
+운영기 작성자가 게시 시점에 설명한 사내 테스트 운영 범위다. 검토 모델명, 비교 효과, 실제 계정의 현재 상태는 이 자료로 확인할 수 없다.
 
 **Beginner Explanation:**
-기존 제품 Trial, 인용 연구, 이번 루프 설계의 세 근거 범위를 구분한다.
+방금 만든 제품을 승인하는 일과 앞으로 일할 방법을 바꾸는 일을 따로 판단한다.
 
 **Advanced Insight:**
-설계의 타당성, 실행의 존재, 결과의 품질, 비교 효과를 서로 다른 근거 단계로 평가한다.
+특정 이슈의 우연한 실패를 팀 전체 규칙으로 확대할 때는 반복성·영향 범위·되돌릴 방법을 별도로 검토한다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
+N/A — 정적 자료. 제품 코드와 작업 규칙의 두 승인 대상을 번갈아 가리킨다.
 
 **Audience Interaction:**
-N/A — 필수 응답·실습 없이 관찰할 질문만 제시한다.
+어떤 변경이 제품 MR이고 어떤 변경이 운영 규칙 제안인지 구분한다.
 
 **Transition:**
-설계·논문·실제 기록을 구분했습니다. 이어서 목표를 유지하며 작업을 계속하는 공식 Goal 기능을 실무 팁으로 살펴봅니다.
+먼저 한 작업만 이어가고 싶다면 목표 요청에 어떤 내용을 적을까?
 
 **Time Management:**
-Lecture 2분 + Case 2분 = 4분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Lecture 1분 + Case 2분 = 3분. 팀원과 운영 엔지니어의 승인 대상 차이를 한 번씩 짚고 닫는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S94; production/preview/act4/S94.png 및 production/preview/full/S94.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S94.png 또는 production/ACT_4.pptx의 S94. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S95 — Goal이 목표와 다음 작업을 이어준다
+## S95 — 한 작업에 Goal을 쓴다면
 
 **Slide ID:**
 S95
 
 **Working Title:**
-Goal이 목표와 다음 작업을 이어준다
+한 작업에 Goal을 쓴다면
 
 **ACT / Section:**
 ACT 4 / 4T1 Goal continuation
 
 **Allocated Time:**
-2 minutes
+4 minutes
 
 **Mode Split:**
-Lecture 2분
+Lecture 4분
 
 **Primary Message:**
-Goal은 턴을 넘어 목표·상태를 유지하고 근거 확인 뒤 계속 수행을 연결한다. 완료 기준과 검증·검토 역할은 작업에 맞게 설계한다.
+Goal 요청에 변화·보존 조건·완료 근거·중단 조건을 함께 적으면 다음 턴이 확인할 일을 지정할 수 있다.
 
 **Opening Question:**
-매번 계속하라고 요청하지 않고, 같은 목표를 이어갈 수 있을까?
+“밝기 통계 최적화를 맡길 때 무엇을 만족해야 완료라고 쓸까?”
 
 **Speaker Flow:**
-1. (0:00–0:35 / Lecture) ChatGPT 데스크톱의 /goal 입력 경로를 짚는다. 현재 화면은 사용법을 설명하는 도식이고 실행 캡처가 아님을 확인한다.
-2. (0:35–1:20 / Lecture) 목표가 턴을 넘어 유지되고 작업 뒤 근거를 보아 계속/완료를 판단하는 경로를 읽는다. 실제 제어는 앱의 안전한 작업 경계에서 이루어지며 무한 실행·목표 달성 보장을 뜻하지 않는다.
-3. (1:20–2:00 / Lecture) Goal의 계속 수행 기능과 별도 검증·다른 모델 검토 역할을 구분한다. 교육 계정의 기능 노출과 실행 환경은 후속 확인 대상으로 남긴다.
+1. (0:00–4:00 / Lecture) Goal 요청 예시를 네 덩어리로 읽는다. 여섯 출력 유지, 임시 할당 감소, 같은 입력·환경에서 시간과 할당 측정, 근거 확보가 막히면 미확인 항목 보고다. 명령 표기는 자료에 있는 /goal을 가리킨다. 도구가 계속 수행하는 기능과 팀이 정한 검사·검토 역할을 구분한다.
 
 **Evidence / Source:**
-SRC-0240; SRC-0241; SRC-0242; CLM-0046; DEC-0098. Official pages checked2026-10-25: https://learn.chatgpt.com/docs/long-running-work; https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex; https://learn.chatgpt.com/docs/reference/slash-commands. 교육용 요청·도식이며 실행 캡처나 기존 Trial의 생성 이력이 아니다.
-
-보존된 상세 출처: OpenAI 공식 Goal 안내 · 2026-10-25 확인 · 사용법을 설명하는 도식
+SRC-0240–0242 · CLM-0046. OpenAI, Using goals in Codex. https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex 기존 문서 경로 https://learn.chatgpt.com/docs/long-running-work 및 https://learn.chatgpt.com/docs/reference/slash-commands .
 
 **Claim Boundary:**
-FROZEN WITH SCOPE — 공식 문서로 확인한 기능·안내와 교육용 도식. 사내 계정/버전/설정의 사용 가능 여부는 REQUIRES PRODUCT CHECK. 자동 다중 모델 배정·완료 보장·시간/비용 절감을 주장하지 않는다.
-
-보존된 상세 범위: 실제 화면·실행 결과 아님 · 다른 모델 검토자는 별도 설계 · 사내 환경에서 사용 가능 여부 확인
+DOCUMENTED GUIDANCE / 제품 활용 예시. 교육 계정·앱 버전·권한에서의 노출 및 실제 실행은 REQUIRES PRODUCT CHECK. Goal만으로 외부 검토 모델 배정이나 MR 병합을 증명하지 않는다.
 
 **Beginner Explanation:**
-Goal은 턴을 넘어 목표·상태를 유지하고 근거 확인 뒤 계속 수행을 연결한다. 완료 기준과 검증·검토 역할은 작업에 맞게 설계한다.
+목표에 도달했다는 말을 어떻게 확인할지, 확인할 수 없으면 무엇을 돌려받을지 적는다.
 
 **Advanced Insight:**
-Goal은 대화 범위의 목표·상태와 계속 수행 제어다. 권한을 확대하지 않으며 다른 모델의 코드 검토자를 자동 배정한다는 근거로 쓰지 않는다. 일반 요청 안에서도 수정·테스트가 반복될 수 있다.
+한 작업의 이어서 수행하기, 일정에 따른 다음 실행, GitLab 병합 권한은 각각 별도의 운영 결정이다.
 
 **C++ Vision Bridge:**
-N/A — C++ 명령·새 사례를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-N/A — 정적 제품 안내 도식. 명령을 입력하거나 Goal을 활성화하지 않는다. 사내 환경의 기능 노출·계정·권한·실행 상태는 후속 확인 대상이다.
+N/A — 정적 자료. 정적 Goal 요청의 보존·근거·중단 구절을 읽는다.
 
 **Audience Interaction:**
-필수 응답·실습 없음. 예시에서 완료 근거와 미완료 보고 조건을 눈으로 확인하게 한다.
+입력 실습 없이 요청문에서 중단 조건을 찾아보게 한다.
 
 **Transition:**
-기능이 계속 수행을 연결하더라도, 무엇이 완료인지 요청에 적어야 합니다. 다음은 Goal 작성 예시입니다.
+이 중 우리 팀이 처음부터 운영할 범위는 어디까지일까?
 
 **Time Management:**
-Lecture2분. 제품 설정 강의나 실제 실행으로 확장하지 않는다. 초과 시 부가 설명을 줄이고 기능/검증의 구분과 다음 전환을 유지한다. 실제 리허설 UNVERIFIED.
+Lecture 4분 = 4분. 첫 2분은 요청 내용, 뒤 2분은 근거와 중단 조건을 읽는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S95, production/preview/full/S95.png. 설명용 도식이며 원본 제품 캡처로 표현하지 않는다. 실제 발표 PC 재생은 UNVERIFIED.
+LOCAL STATIC ARTIFACT — production/preview/full/S95.png 또는 production/ACT_4.pptx의 S95. 교육 계정에서 직접 입력하기 어려우면 요청 예시를 그대로 읽고 종료 조건을 짚는다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0098. 문서 근거 확인과 로컬 제작 검토는 별개이며 최종 렌더·Notes 대조 결과는 GOAL_TIPS_AND_ACT5_HANDOFF.md에 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S96 — Goal에는 완료 근거와 멈출 조건을 담는다
+## S96 — 우리 팀의 첫 루프 범위
 
 **Slide ID:**
 S96
 
 **Working Title:**
-Goal에는 완료 근거와 멈출 조건을 담는다
+우리 팀의 첫 루프 범위
 
 **ACT / Section:**
-ACT 4 / 4T2 Goal request
+ACT 4 / 4R6 Evidence and transfer
 
 **Allocated Time:**
 2 minutes
@@ -5833,60 +5768,54 @@ ACT 4 / 4T2 Goal request
 Lecture 2분
 
 **Primary Message:**
-Goal 요청에는 원하는 변화, 보존 조건, 완료를 확인할 근거와 막혔을 때 보고할 조건을 담는다. 같은 기준으로 진행을 판단한다.
+첫 도입의 범위를 이슈 한 건과 검토 가능한 후보·사람 승인으로 좁히고 반복 수요에 따라 확장한다.
 
 **Opening Question:**
-언제 끝내고 언제 미완료를 보고할지, Goal에 무엇을 적을까?
+“우리 팀에서 먼저 한 건만 자동화한다면 어디까지 맡길까?”
 
 **Speaker Flow:**
-1. (0:00–0:25 / Lecture) 막연한 성능 개선 Goal에는 완료 근거가 없음을 짚는다.
-2. (0:25–1:30 / Lecture) 요청창을 위에서 아래로 읽는다. 할당량 감소 목표와 출력 보존, 같은 입력의 테스트·벤치마크, 실행시간 회귀 조건을 대응시킨다. 기준판·대표 입력·측정 방법은 실행 전에 확정하고 승인받을 범위 안에서 사용한다.
-3. (1:30–2:00 / Lecture) 검증 불가·반복 실패는 미완료 사유와 필요한 판단을 보고하도록 요청한다. 다른 모델 검토가 필요한지는 별도로 설계하며 이 예시를 실행하지 않는다.
+1. (0:00–2:00 / Lecture) 이슈 한 건 → 후보 한 개 → 검토 근거 → 사람 승인의 최소 경로를 짚는다. 매일 반복해야 할 일이 생기면 스케줄과 상태 인계를 덧붙인다. 앞서 나온 worktree·Skill·API 연결·Subagent 중 해당 이슈에 필요한 요소를 고른다.
 
 **Evidence / Source:**
-SRC-0240; SRC-0241; CLM-0047; DEC-0098. Official pages checked2026-10-25: https://learn.chatgpt.com/docs/long-running-work; https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex; https://learn.chatgpt.com/docs/reference/slash-commands. 교육용 요청·도식이며 실행 캡처나 기존 Trial의 생성 이력이 아니다.
-
-보존된 상세 출처: OpenAI Goals 작성 안내를 밝기 통계 작업으로 각색 · 실제 실행 요청·결과 아님
+DEC-0144의 첫 적용 설계. 작게 시작하고 범위를 검토하는 운영기 §5. SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/
 
 **Claim Boundary:**
-FROZEN WITH SCOPE — 공식 작성 안내를 각색한 교육용 Goal 예시이며 활성화·명령 실행·측정·완료 결과가 아니다. 기준판·대표 입력·측정 방법을 실제 사용 전에 확정한다. 현재 다중 모델 조합의 성과를 증명하지 않는다.
-
-보존된 상세 범위: 기준판·대표 입력·측정 방법을 먼저 확정 · 완료 보장 없음 · 다중 모델 검토를 자동 구성한다는 뜻 아님
+TEACHING_MODEL. 첫 적용 범위는 교육자가 제시하는 설계안이며 팀별 필수 도구 수나 효과를 측정한 결과가 아니다.
 
 **Beginner Explanation:**
-Goal 요청에는 원하는 변화, 보존 조건, 완료를 확인할 근거와 막혔을 때 보고할 조건을 담는다. 같은 기준으로 진행을 판단한다.
+한 건을 안전하게 설명할 수 있어야 다음 범위를 넓힐지 판단할 자료가 생긴다.
 
 **Advanced Insight:**
-측정값 자체보다 어떤 기준판·대표 입력·환경·측정 방법을 고정할지가 중요하다. 검토 모델의 동의나 Goal의 완료 표시가 도구 근거와 최종 수용을 대신하지 않는다.
+매일 예약할 이유가 있는지, 다음 실행의 상태가 필요한지, 실제 검토 인력이 있는지에 따라 구성요소를 고른다.
 
 **C++ Vision Bridge:**
-N/A — C++ 명령·새 사례를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-N/A — 정적 제품 안내 도식. 명령을 입력하거나 Goal을 활성화하지 않는다. 사내 환경의 기능 노출·계정·권한·실행 상태는 후속 확인 대상이다.
+N/A — 정적 자료. 이슈 한 건의 최소 작업 범위를 가리킨다.
 
 **Audience Interaction:**
-필수 응답·실습 없음. 예시에서 완료 근거와 미완료 보고 조건을 눈으로 확인하게 한다.
+자기 업무에서 가장 작은 후보 하나를 마음속으로 떠올린다.
 
 **Transition:**
-이 기능을 활용하더라도 우리 작업의 목표·검증·검토 판단은 남습니다. S97에서 필요한 루프를 정리한 뒤 ACT5의 조합과 덜어내기로 넘어갑니다.
+그 한 건에서 어떤 판단을 맡기고 언제 사람에게 넘길까?
 
 **Time Management:**
-Lecture2분. 제품 설정 강의나 실제 실행으로 확장하지 않는다. 초과 시 부가 설명을 줄이고 기능/검증의 구분과 다음 전환을 유지한다. 실제 리허설 UNVERIFIED.
+Lecture 2분 = 2분. 2분 안에 최소 구성만 제시하고 질문은 S97로 모은다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S96, production/preview/full/S96.png. 설명용 도식이며 원본 제품 캡처로 표현하지 않는다. 실제 발표 PC 재생은 UNVERIFIED.
+LOCAL STATIC ARTIFACT — production/preview/full/S96.png 또는 production/ACT_4.pptx의 S96. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0098. 문서 근거 확인과 로컬 제작 검토는 별개이며 최종 렌더·Notes 대조 결과는 GOAL_TIPS_AND_ACT5_HANDOFF.md에 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
-## S97 — 우리 작업에는 어떤 루프가 필요할까?
+## S97 — 어떤 판단을 맡기고 어디서 멈출까
 
 **Slide ID:**
 S97
 
 **Working Title:**
-우리 작업에는 어떤 루프가 필요할까?
+어떤 판단을 맡기고 어디서 멈출까
 
 **ACT / Section:**
 ACT 4 / 4R6 Evidence and transfer
@@ -5898,52 +5827,48 @@ ACT 4 / 4R6 Evidence and transfer
 Reflection 2분 + Q&A 7분 + Transition 2분
 
 **Primary Message:**
-Goal의 계속 수행 기능을 활용하되 내 업무에 필요한 목표·근거·검토 역할을 정리하고 ACT5의 조합·통합·제거로 이어간다.
+한 작업의 목표·검사·사람 승인선을 정한 다음, 그 판단에 쓰이는 구성을 고른다.
 
 **Opening Question:**
-내 작업에서 검토 결과가 다음 수정으로 돌아가려면 무엇이 필요할까?
+“우리 팀의 일 한 가지에서 어떤 판단을 맡기고 어디서 멈출까?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Reflection) Goal이 맡는 계속 수행과, 내 업무에서 여전히 정할 목표·검증·검토를 구분해 생각하게 한다. 기존 목표·피드백·운영의 세 질문을 한 번씩 가리킨다.
-2. (2:00–9:00 / Q&A) 질문을 받는다. 무질문이면 두 모델의 동의와 테스트 실패가 충돌할 때의 판단 또는 Goal이 완료를 보고했지만 측정이 빠진 상황을 묻는다. 새 기능 실행이나 정답 발표는 요구하지 않는다.
-3. (9:00–11:00 / Transition) 플랫폼 기능을 활용하되 필요한 기준과 검토를 조합한다는 문장으로 회수한다. S98의 ACT5 제목을 거쳐 S99의 대응 선택으로 넘긴다.
+1. (0:00–2:00 / Reflection) 각자 익숙한 이슈 하나를 떠올리게 한다. 시스템에 맡길 첫 판단, 그 판단의 근거, 미완료라면 사람에게 넘길 조건을 하나씩 생각하게 한다.
+2. (2:00–9:00 / Q&A) 질문을 받는다. 질문이 없으면 “출력은 맞지만 시간 근거가 비어 있다면 무엇을 넘길까요?” 또는 “어제 MR 상태를 읽지 못했다면 어느 상태로 끝낼까요?” 중 하나를 고른다. 근거와 다음 행동을 함께 말하며 끝낸다.
+3. (9:00–11:00 / Transition) 사람이 받아야 할 판단을 남겨 두고 “우리 팀에서 이 판단에 쓰이는 구성은 무엇이고 어떤 구성은 덜어낼 수 있을까요?”라고 묻는다. S98의 ACT5 제목으로 이동한다.
 
 **Evidence / Source:**
-DEC-0097; BEAT-083; CASE-LOOP-01; CLM-0021. CASE-LOOP-01의 교육용 설계. 실제 자료와 설계를 구분한다.
-
-보존된 상세 출처: 개인 성찰과 Q&A · 실습·제출·구현 요구 없음
+DEC-0144 · ACT4의 CASE-LOOP-01, SRC-0244 운영기, SRC-0245 연구, Goal 작성 예시를 바탕으로 한 개인 성찰.
 
 **Claim Boundary:**
-TEACHING_MODEL — 교육용 설계이며 실제 구현·검토·재실행·측정·완료 결과가 없다. 기존 Product/Meta Trial을 이 루프의 실행 증거로 바꾸지 않는다.
-
-보존된 상세 범위: 목표·판단·검증·책임은 유지 · 다음 ACT에서 조합·통합·제거를 검토
+TEACHING_MODEL. 참가자의 답은 각 팀의 도입 가설이다. 실제 업무 효과·계정 검증은 별도로 확인한다.
 
 **Beginner Explanation:**
-내 업무의 목표·피드백·운영 판단을 떠올리고 ACT5의 조합·통합·제거로 이어간다.
+한 업무, 한 목표, 한 번의 확인으로 시작해 무엇을 넘겨받을지 정한다.
 
 **Advanced Insight:**
-ACT5에서 현재 문제와 비용·효과를 보고 필요한 구성을 유지·통합·제거할 수 있게 한다.
+자동화 범위를 넓히는 판단에는 검증 근거와 사람 검토 여력이 함께 필요하다.
 
 **C++ Vision Bridge:**
-N/A — 같은 명세·검사·검토 원리를 적용할 수 있으나 별도 GPU 사례나 미실행 C++ 코드를 추가하지 않는다.
+N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-정적 화면을 위에서 아래, 왼쪽에서 오른쪽으로 짚는다. 교육용 진행 예/논문/실제 과거 기록의 표시를 먼저 확인한다. 새 명령·모델 호출·Live Trial은 실행하지 않는다.
+N/A — 정적 자료. 성찰과 질문 동안 현재 그림을 유지한다.
 
 **Audience Interaction:**
-Reflection2분→Q&A7분→Transition2분. 무질문이면 “Goal은 완료라고 했는데 측정 근거가 없다면?”을 사용한다. 9분에 전환으로 들어가고 11분에 마친다.
+0–2분 개인 성찰, 2–9분 자발적 Q&A, 9–11분 전환. 개인 답변·작성·실습을 요구하지 않는다.
 
 **Transition:**
-Goal의 계속 수행을 활용해도 검증과 역할을 모두 직접 구현할 필요는 없습니다. S98의 ACT5 제목을 거쳐 S99에서 필요한 대응의 조합을 생각합니다.
+어떤 구성은 계속 필요하고 어떤 구성은 합치거나 덜어낼 수 있을까? ACT5에서 내 업무에 대입한다.
 
 **Time Management:**
-Reflection 2분 + Q&A 7분 + Transition 2분 = 11분. 위 Speaker Flow의 Mode 경계를 유지한다. 초과 시 Advanced Insight를 줄이고 핵심 그림·근거 범위·다음 전환은 보존한다. 실제 리허설은 UNVERIFIED다.
+Reflection 2분 + Q&A 7분 + Transition 2분 = 11분. 8분 30초에 마지막 질문을 받고 9분에 전환으로 옮긴다. 추가 질문은 교육 마지막 Q&A로 남긴다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_4.pptx의 S97; production/preview/act4/S97.png 및 production/preview/full/S97.png. 이 구간은 Live 실행을 전제하지 않는다. 실제 발표 PC 재생은 UNVERIFIED다.
+LOCAL STATIC ARTIFACT — production/preview/full/S97.png 또는 production/ACT_4.pptx의 S97. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-REVIEWED — DEC-0097의 내용·근거 정렬. 최종 로컬 구조·렌더·Notes 검사는 production/evaluation/ACT_4_GOAL_LOOP_REVISION.md에 기록. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
 
 ## S98 — 내 업무에 맞게 조합하고 덜어내기
 
@@ -5969,7 +5894,7 @@ Transition 1분
 “제품 기능을 활용하면서, 우리 업무에는 무엇을 조합하고 덜어낼까요?”
 
 **Speaker Flow:**
-1. (0:00–0:20 / Transition) ACT 5의 제목 “내 업무에 맞게 조합하고 덜어내기”을 가리키며 구간을 연다.
+1. (0:00–0:20 / Transition) S97에서 고른 이슈와 사람의 승인선을 떠올리게 한 뒤 ACT 5 제목 “내 업무에 맞게 조합하고 덜어내기”를 짚는다.
 2. (0:20–0:40 / Transition) 부제 “AI-Native Development · 업무 방식의 재설계”는 이번 구간의 관점만 안내한다. 구체적 기능·해결 방법·결과는 앞서 설명하지 않는다.
 3. (0:40–1:00 / Transition) S99의 기존 첫 문제로 이동한다. 본문의 질문·성찰을 이 장에서 대신 진행하지 않는다.
 
@@ -6740,7 +6665,7 @@ Lecture 1분
 **Speaker Flow:**
 새 S56–S58은 “AGENTS.md의 위치와 적용 범위” 한 항목으로 묶어 위치만 짚는다. 전체 팁을 다시 설명하지 않고 기존1분을 유지한다.
 1. (0:00–0:15 / Lecture) 마지막 통합 찾아보기이며 필요할 때 해당 장으로 돌아오는 목록임을 알린다.
-2. (0:15–0:45 / Lecture) S13 개발 프로젝트 조사는 Codex에서 시작한다 / S48 AGENTS.md에는 무엇을 남길까? / S62 테스트 명령을 언제 쓰고 무엇을 판단할까? / S67 대화로 재사용할 Skill 만들기 / S71 대화로 조사 Agent 만들기 / S103 이번에 알아낸 것 중, 다음에도 쓸 것은? / S95 Goal이 목표와 다음 작업을 이어준다. S67/S71을 포함해 제목·위치만 짚고 본문을 다시 강의하지 않는다.
+2. (0:15–0:45 / Lecture) S13 개발 프로젝트 조사는 Codex에서 시작한다 / S48 AGENTS.md에는 무엇을 남길까? / S62 테스트 명령을 언제 쓰고 무엇을 판단할까? / S67 대화로 재사용할 Skill 만들기 / S71 대화로 조사 Agent 만들기 / S103 이번에 알아낸 것 중, 다음에도 쓸 것은? / S95 한 작업에 Goal을 쓴다면. S67/S71을 포함해 제목·위치만 짚고 본문을 다시 강의하지 않는다.
 3. (0:45–1:00 / Lecture) 요청 작성 팁 목록 S111으로 이어간다.
 
 **Evidence / Source:**
@@ -6862,14 +6787,14 @@ ACT 5 / 5B Final Reference Review
 Lecture 1분
 
 **Primary Message:**
-검증과 개선의 팁 위치는 S83, S87, S96, S106, S107이다. Goal 작성 예시와 검토·통합·제거 기준의 근거는 각 원래 장을 따른다.
+검증과 개선의 팁 위치는 S83, S85, S95, S106, S107이다. Goal 작성 예시와 검토·통합·제거 기준의 근거는 각 원래 장을 따른다.
 
 **Opening Question:**
 “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
 
 **Speaker Flow:**
 1. (0:00–0:15 / Lecture) 교육 마지막의 통합 찾아보기임을 알린다.
-2. (0:15–0:45 / Lecture) S83 원인을 고르기 전에 확인할 기록 / S87 지침을 고친 뒤, 무엇을 다시 확인할까? / S106 무엇을 남기고, 무엇을 덜어낼까? / S107 덜어낸 뒤에도 필요한 일을 하는가?. 제목·위치만 짚고 본문을 다시 강의하지 않는다.
+2. (0:15–0:45 / Lecture) S83 Checker가 수정을 요청할 근거 / S85 다음 수정, 완료, 중단 / S95 한 작업에 Goal을 쓴다면 / S106 무엇을 남기고, 무엇을 덜어낼까? / S107 덜어낸 뒤에도 필요한 일을 하는가?. 제목·위치만 짚고 본문을 다시 강의하지 않는다.
 3. (0:45–1:00 / Lecture) S113로 이어간다.
 
 **Evidence / Source:**

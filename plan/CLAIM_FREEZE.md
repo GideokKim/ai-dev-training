@@ -1,6 +1,14 @@
 # STEP 08 — CLAIM / EVIDENCE FREEZE RESULT
 
-## 현재 제작 기준 — DEC-0138 (2026-11-03)
+## 현재 ACT4 제작 기준 — DEC-0144 (2026-11-03)
+
+글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. 새 근거 SRC-0244/0245 및 CLM-0048/0049는 [출처](../references/sources/SOURCES.md)와 [주장 레지스트리](../references/CLAIMS.md)에 등록한다. 과거 ReConcile 수치와 Goal 내부 동작 해석을 현재 사내 업무의 성과로 전이하지 않는다. 기존 S95 제품 계정·Windows·교육장·실측 리허설의 UNVERIFIED 게이트를 유지한다.
+
+[승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
+
+아래 DEC-0138은 이번 개편 전의 기준을 보존한다.
+
+## 이전 제작 기준 — DEC-0138 (2026-11-03)
 
 현재 **113장·389분(6시간29분)**. 이전114장판 S68 “절차는 재사용하고, 답은 근거로 정한다”를 삭제한다.
 삭제한 Lecture3분만 제외하고 다른 장에 시간이나 설명을 재분배하지 않는다. 방법/판단 도식·강의를 다른 Slide나 활성 Notes에 흡수하지 않는다.

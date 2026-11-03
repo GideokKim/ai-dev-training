@@ -6,6 +6,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
 import { createHash } from 'node:crypto';
 import * as H from './helpers.mjs';
+import {loopOperationsFactories} from './act4-loop-operations.mjs';
 import {priorityFactories,addModuleFooter} from './legacy-priority.mjs';
 import {promptTechniqueFactories} from './prompt-techniques.mjs';
 import {actTitleFactories} from './act-titles.mjs';
@@ -166,6 +167,16 @@ Object.assign(factories,compact114);
 const recapRemoved113=migrateProcedureRecapRemovalFactories(factories);
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,recapRemoved113);
+// ACT4 entries use final IDs and already contain their audience-facing labels.
+const operations = loopOperationsFactories(H);
+const lookupChanges = {
+ S110: {'Goal이 목표와 다음 작업을 이어준다': map.S95['Working Title']},
+ S112: {
+  '모델 B는 무엇을 근거로 검토할까?': map.S83['Working Title'],
+  S87: 'S85', '언제 계속하고, 언제 끝낼까?': map.S85['Working Title'],
+  S96: 'S95', 'Goal에는 완료 근거와 멈출 조건을 담는다': map.S95['Working Title']
+ }
+};
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -187,6 +198,12 @@ const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const id of deck.ids){
+  if (operations[id]) {
+   if (!notes[id]) throw new Error('Missing Notes '+id);
+   const slide = operations[id](p);
+   slide.speakerNotes.text = notes[id];
+   continue;
+  }
   const id114=beforeProcedureRecapRemoval(id);
   const freshCompact=COMPACT_FRESH_IDS.includes(id114);
   const id119Memory=beforeS78Removal(beforeCompactHandoff(id114));
@@ -223,6 +240,16 @@ for(const deck of decks){
    applyCompactHandoff(s);
   }
   applyProcedureRecapRemoval(s);
+  if (lookupChanges[id]) {
+   for (const shape of s.shapes.items) {
+    const oldText = String(shape.text);
+    const replacement = lookupChanges[id][oldText];
+    if (replacement) {
+     shape.text.replace(oldText, replacement);
+     shape.name = replacement;
+    }
+   }
+  }
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
  }
@@ -230,7 +257,7 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>['S69','S89'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>['S69','S87'].includes(id)?i+1:0).filter(Boolean);
   const tableOwners=deck.ids.map((id,i)=>id==='S54'?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,

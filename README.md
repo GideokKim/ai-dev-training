@@ -1,6 +1,14 @@
 # AI 개발자 교육
 
-## 현재 제작 기준 — DEC-0138 (2026-11-03)
+## 발표 자료 · DEC-0144
+
+[통합 PPT](production/AI_Dev_Training_Full.pptx) · [ACT4 PPT](production/ACT_4.pptx) · [ACT4 발표 Notes](production/notes/ACT_4_NOTES.md)
+
+전체 113장·389분 중 ACT4는 S78–S97, 85분이다. 밝기 통계의 수정 요청을 두 회차에 걸쳐 따라간 뒤, 김기덕의 사내 GitLab 운영 사례에서 다음 업무·대기·승인을 결정하는 과정을 살펴본다. S87은 PairCoder 표 2의 코드 생성 실험, S95는 Goal 요청 예시다. [Slide Map](plan/SLIDE_MAP.md) · [검증 기록](production/evaluation/ACT4_LOOP_OPERATIONS.md)
+
+## 이전 판본 기록
+
+## DEC-0138 제작 기준 (2026-11-03)
 
 현재 **113장·389분(6시간29분)**. 이전114장판 S68 “절차는 재사용하고, 답은 근거로 정한다”를 삭제한다.
 삭제한 Lecture3분만 제외하고 다른 장에 시간이나 설명을 재분배하지 않는다. 방법/판단 도식·강의를 다른 Slide나 활성 Notes에 흡수하지 않는다.

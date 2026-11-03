@@ -200,3 +200,15 @@ SRC-0243 adds model-specific caution about inherited scaffolding, review
 scope and decision boundaries. The five-core/three-conditional split is a
 teaching choice, not a new efficacy claim. S29 uses fictional team labels;
 no actual company rule, Trial, executed result or measured saving is added.
+
+
+## DEC-0144 — Current ACT4 evidence assignments
+
+| Claim | Supported fact | Source | Display and limits |
+|---|---|---|---|
+| CLM-0048 | The presenter described their 06:00 prior-MR gate, issue/worktree/role workflow, API-written MR, external state and human approvals. | SRC-0244, personal operating account, 2026-06-16 | S79 and S88–S94. Concrete R1 records and the S93 unavailable-status path are designed course material. |
+| CLM-0049 | PairCoder Table 2 reports 69.51, 81.16, 90.01 and 48.19% HumanEval pass@1 for the four selected points with GPT-3.5-turbo as initial Driver. | SRC-0245, Table 2 and §4.6 | S87. Single baseline followed by initial Navigator GPT-3.5-turbo/GPT-4/minimax-abab-chat. Roles may switch. No causal or workplace effect estimate. |
+| CLM-0044 | Generation, critique and correction can differ by evaluated model and task. | SRC-0238, CriticBench | S86, an input to role assignment. |
+| CLM-0046/0047 | An explicit Goal can state outcome, evidence, constraints and blocked conditions. | SRC-0240/0241, rechecked 2026-11-03 | S95. Documented guidance with course-written example; classroom account unverified. |
+
+CLM-0043 (ReConcile), CLM-0045 (self-feedback and intrinsic correction) and their primary sources remain supplementary research. Their earlier screen assignments refer to the former edition. The operational account carries no named model pairing or measured quality gain.

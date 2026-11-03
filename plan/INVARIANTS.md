@@ -54,7 +54,8 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Rule: This is a developer training about ChatGPT and Codex in AI-Native
   Development. The current net duration is389minutes under DEC-0138, within
   the user-authorized720-minute ceiling. Use113slides under DEC-0138, including the approved
-  two Goal tips (now S95/S96), the S04 Copilot IDE tip and three
+  Goal continuation and request content in the combined S95 under DEC-0144,
+  the S04 Copilot IDE tip and three
   scoped-instruction tips S56-S58. ACT2 has22slides/90minutes; ACT3 has18slides/64minutes;
   ACT5 has16slides/44minutes after moving the existing four-minute
   Context/Memory lesson to ACT5 (now S103) under DEC-0133.

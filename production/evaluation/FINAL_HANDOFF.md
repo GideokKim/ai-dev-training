@@ -1,5 +1,38 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## ACT4 개편 · DEC-0144
+
+[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [발표 Notes](../notes/ACT_4_NOTES.md) · [검토 결과](ACT4_LOOP_OPERATIONS.md)
+
+113장·389분이다. ACT4에서 S84는 R1을 다음 요청에 전달하고, S88은 전날 MR을 기준으로 오늘의 작업을 고른다. S87의 수치는 코드 생성 연구 결과다. S95에서 Goal 작성을 설명한다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `934e87470bc1d67dad7ba45dbd25373a1b74e9b573b5beb05cefed1b44088fc4` |
+| `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
+| `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
+| `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
+| `production/ACT_3.pptx` | `34ec576133d5e91643e13780e25813a670cf4ce74d4fd7c049f68062756aae00` |
+| `production/ACT_4.pptx` | `d5ed951920cd72680b79f482d64af04029b529e2202af1f0ffdae875bb69f7e0` |
+| `production/ACT_5.pptx` | `e4efff0182d75de71ee424352d79a8385577a447537ed12d3efcad3a2de8e17f` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `31335308e80538fd4f275a4ff0f04ed38880f11a4740d1f3134397c1bcc210fb` |
+| `production/notes/ACT_4_NOTES.md` | `659b7ec8d5a9ffbede23ecf50e1bb4a166dbdabf75f5a163b96da45390cc9495` |
+| `production/notes/ACT_5_NOTES.md` | `db74de72391f36eedc47346919b8a243dbb6f89c0c68bab192522ff2a1c84396` |
+| `production/preview/full/montage.png` | `4ff21afbfa7b309b5271c446fd83fc13386c8d1173f500d94fe7c08d6892927e` |
+| `production/preview/act4/montage.png` | `cca8b6b23f4ccaa3c11ca5a2ff43d7b437b08cb74cf397312f2211b87a336e79` |
+| `production/preview/act5/montage.png` | `c1573880261293fd064ff46a101136f2a561866b1869b1819a8392affb2dd511` |
+| `production/preview/full/S79.png` | `cfafdf2ba227440ccc759f7344b4b7a3bb017ee62ea77ea059ec5a8b4913ae99` |
+| `production/preview/full/S84.png` | `1a8af0f1e4cf642a5bc33b3d14c3baedfcaa496ff70b2ca4d97ff0d60126f0af` |
+| `production/preview/full/S87.png` | `2ffd4004727bc494406fa5792226d4c3930d46b083529b2e331f199842f9ad88` |
+| `production/preview/full/S88.png` | `9db5617675a39e1f49bdbfff517feef38ac5cd962859d2ce576a0f005501dceb` |
+| `production/preview/full/S91.png` | `a44f6d0030e327371545198fa67e74a0ad7241b3078da9278a9b2def0a449529` |
+| `production/preview/full/S94.png` | `529aeb6b6650bea0d9042efb91f4f2f0b28b8414c94c5c47ee687d5e379302a8` |
+| `production/preview/full/S95.png` | `da1ae0fbd318fff15e281075513caa8465b1b55079ea4fe96ec1250ec2f98920` |
+| `production/preview/full/S110.png` | `649dc1e3a55de4529d15e33bc71010ece2fab039f31bf0bf6d63703cc29fe859` |
+| `production/preview/full/S112.png` | `fedee878483bfacc895ee02e4951b8ad03553356e372282b1916de6db26f8a2d` |
+
+## 보존된 이전 전달 기록
+
 ## S76 왼쪽 위험 경로 — DEC-0143 (2026-11-03)
 
 현재113장·389분, S76 Lecture2+Q&A5=7분은 그대로다.

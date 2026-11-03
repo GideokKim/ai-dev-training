@@ -1462,3 +1462,46 @@ Sections / Selectors: Better skills; Up-to-date AGENTS.md; Decision boundaries; 
 Key Evidence: Revisit inherited recipes and broad checking requirements; define action, completion and stopping bounds for the selected task/model.
 Limitations: Model-specific guidance, not a controlled comparison or universal benefit from shorter prompts. No course result or numeric saving.
 Notes: DEC-0116; S32/S33/S34 interpretation and the prompt-tool design rationale. Five-core/three-conditional labels are editorial choices.
+
+
+## DEC-0144 — Source checks for the task and team loops
+
+### SRC-0244
+
+Title: [Codex] 루프 엔지니어링(Loop Engineering)이란? Codex로 AI 코딩 에이전트 자동화하기
+
+Author: 김기덕, the course presenter and blog author
+
+Source Type: FIRST_PERSON_OPERATING_ACCOUNT
+
+URL: https://gideokkim.github.io/codex/loop-engineering/
+
+Published: 2026-06-16
+
+Checked: 2026-11-03
+
+Sections: §§2–5; morning merge branch, worktree/roles, API, Markdown state, human review and approved retrospective changes.
+
+Scope: The author's account of testing a team workflow at publication. The author confirmed ownership and use in the training. R1, the example field names and the MR-lookup failure are course designs. The article supplies no independent efficacy measurement, active company-account check or heterogeneous model pair.
+
+### SRC-0245
+
+Title: PairCoder: Pair Programming-Inspired Two-Agent Collaboration for Code Generation
+
+Authors: Junhao Chen et al.
+
+Source Type: ACADEMIC_PRIMARY
+
+URL: https://aclanthology.org/2026.findings-acl.149.pdf#page=7
+
+Published: Findings of ACL, July 2026
+
+Checked: 2026-11-03
+
+Selector: Table 2, printed p.3049, §4.6; row initial Driver GPT-3.5-turbo; metric HumanEval pass@1 (%).
+
+Selected cells: single 69.51; initial Navigator GPT-3.5-turbo 81.16, GPT-4 90.01, minimax-abab-chat 48.19. The framework can switch roles after repeated errors. The table compares combinations on this benchmark; it does not isolate model diversity or establish an effect in the reported GitLab environment.
+
+### Goal guidance rechecked 2026-11-03
+
+SRC-0240 describes entering `/goal` in the ChatGPT desktop app, Codex CLI and IDE, retaining existing permissions and naming the outcome, evidence and constraints. SRC-0241 gives criteria and blocked-work reporting examples. S95 adapts the request to the course's brightness task. Account entitlement, target PC and execution in the classroom remain UNVERIFIED. [OpenAI, Long-running work](https://learn.chatgpt.com/docs/long-running-work) · [OpenAI, Using Goals in Codex](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex)

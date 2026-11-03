@@ -1,5 +1,20 @@
 # Legacy Module Connection Map
 
+## 현행 ACT4 화면 표기 · DEC-0144
+
+113장 판본의 통합 PPT와 ACT4 PPT에서 S78–S97의 하단 텍스트를 각각 대조했다. 두 PPT 모두 각 장에 다음 라벨이 하나씩 들어간다.
+
+| 현행 Slide ID | 화면에 보이는 M 연계 | 라벨을 정하는 소스 |
+|---|---|---|
+| S78 | M 연계 · ACT 안내 | [기존 모듈 매핑](../source/presentation-revision/legacy-module-map.json)의 제목 장 레코드를 [빌더](../source/presentation-revision/build.mjs)가 현행 번호로 이행해 적용 |
+| S79–S80 | M 연계 · 신규 확장 | [ACT4 제작 소스](../source/presentation-revision/act4-loop-operations.mjs)의 기본 라벨 |
+| S81–S86 | M 연계 · M5 · M6 | 같은 제작 소스에서 각 장에 지정한 M5·M6 |
+| S87–S97 | M 연계 · 신규 확장 | 같은 제작 소스의 기본 라벨 또는 명시한 신규 확장 라벨 |
+
+## 보존된 DEC-0093 당시의 115장 지도
+
+아래 번호·집계·소스 설명은 해당 판본의 제작 기록이다.
+
 Current table: DEC-0093 /115slide IDs. Preserve all113prior assignments; add S63/S68 as new_extension. Current mapping follows SLIDE_ID_MIGRATION_115.md; prior audit prose retains its dated edition.
 
 
