@@ -1,12 +1,12 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0166
+## Current presentation · DEC-0167
 
 The 43 entries identify local static fallbacks for the 113-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S97.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`ad58ce174c85b6d35b9acf5c480d7f857f00dc889ec17e32751ff18bab6e0661`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`60cbd7c3ecb811ede102206c19ffb0664b78525558bcb63f551e6be5fe3b606a`.
-- `production/preview/full/montage.png` SHA-256:`558a08a0d520bf0750491490d36cc1bf2498e4bbd168d7cbd34ced0d5c31698c`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`59f0e5b315a72294470d36621b0e41cf62a8b74bd25774d26826c205bfa9cacb`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`8e0e54ffe6020006db90b69941d151dc921e26988caf7b246abd482564a1e339`.
+- `production/preview/full/montage.png` SHA-256:`443f6f117dc976e8ae564c4a3958c147f36b8cc930fc65d57bab1e23b35adce1`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
@@ -36,7 +36,7 @@ The 43 entries identify local static fallbacks for the 113-slide course. S90 use
 | S79 | CONCEPTUAL_MANUAL_HANDOFF | `production/preview/full/S79.png` | 1920×1080 | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | S80 | TEACHING_MAP | `production/preview/full/S80.png` | 1920×1080 | `6c7ea4ddf79a9cd81d25463d8a4351f7823c16c8f5024fe9ac9c3eb6e03df034` |
 | S81 | TEACHING_MODEL_COMPARISON | `production/preview/full/S81.png` | 1920×1080 | `6ca6c79ca8604c48d09b205ae331f819a92bc8848c20e2c4ba1e9c455a118e42` |
-| S82 | TEACHING_MODEL_COMPONENTS | `production/preview/full/S82.png` | 1920×1080 | `80ff88a4e3aecc28ede7191bb67c08c428785fb41cdbf440e0a6726c35285547` |
+| S82 | TEACHING_MODEL_COMPONENTS | `production/preview/full/S82.png` | 1920×1080 | `eae91efe89bf9676ac190371225a64c70a29f76a68139f061ee0f97dcf58749b` |
 | S83 | TEACHING_MODEL_WORKFLOW | `production/preview/full/S83.png` | 1920×1080 | `cd50f71f2939dce8438883c30a8b2aebcfd9f0f5fca3bcc691522c27191fd561` |
 | S84 | CONCEPTUAL_GITLAB_WORKFLOW | `production/preview/full/S84.png` | 1920×1080 | `29e8438f364e03432f684abc9745482454430650ee59768536fdedcec709c2a4` |
 | S85 | TEACHING_TOOL_MATRIX | `production/preview/full/S85.png` | 1920×1080 | `4e6ebd98307474d2c620671c6b5429d782af65fd56a76d52ca91e1f83cbb6e63` |

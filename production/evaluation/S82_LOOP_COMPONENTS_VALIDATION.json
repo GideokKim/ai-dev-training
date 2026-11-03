@@ -1,24 +1,26 @@
 {
+  "decision": "DEC-0167",
+  "baseline": "742ce18",
   "verifiedPackages": [
     [
       "AI_Dev_Training_Full",
       113,
-      "98b6aafeb35ba3bfa8f95728f95007481e5b7e5977fe10a3d8014ff96db1ac2b"
+      "59f0e5b315a72294470d36621b0e41cf62a8b74bd25774d26826c205bfa9cacb"
     ],
     [
       "ACT_4",
       20,
-      "783616fac1278fcaf88e7c9c2c701abc31f8db7ceaafa379fb2a6a1ba4a6f5f8"
+      "ed7a65d4199ca8435c403c06827df3c0358853b4ae2e763a8ee08303bbf4d4b3"
     ]
   ],
-  "minutes": 389,
+  "minutes": 386,
+  "act4Minutes": 82,
+  "slideCount": 113,
   "unchangedScreens": 112,
   "notesCompared": 133,
   "changedScreens": [
     82
   ],
-  "act4Minutes": 85,
-  "slideCount": 113,
   "fieldChecks": {
     "Windows PowerPoint": "UNVERIFIED",
     "projection and rehearsal": "UNVERIFIED"
@@ -26,14 +28,6 @@
   "roleCards": {
     "slide": "S82",
     "count": 6,
-    "artwork": "editable PowerPoint pictograms",
-    "fills": [
-      "D8EFF0",
-      "DEEAFB",
-      "EAF2D7",
-      "FAE8C7",
-      "EEE2F7",
-      "F8E0E8"
-    ]
+    "artwork": "six separately embedded Lucide pictures with editable text"
   }
 }

@@ -2138,19 +2138,19 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Audience Question:** 무엇이 작업을 시작하고, 어디서 무엇을 수행하며, 다음 회차는 어떤 기록을 이어받을까?
 - **Core Message:** 오토메이션은 시작 조건을, 워크트리는 작업별 공간을, 스킬은 반복 절차를 맡는다. 커넥터로 외부 자료를 연결하고 서브에이전트에 검토를 맡길 수 있으며 상태/메모리로 다음 실행에 필요한 근거를 남긴다.
 - **Story Beat:** BEAT-051
-- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0154, DEC-0152
+- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0167, DEC-0154, DEC-0152
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 작업에 필요한 역할을 선택하는 교육용 설계다. 여섯 요소의 필수성, graypipe에서 모두 실행된 이력, 특정 제품·계정의 기능 가용성을 주장하지 않는다.
-- **Visual Concept:** 편집 가능한 3열×2행 카드에 오토메이션, 워크트리, 스킬, 커넥터, 서브에이전트, 상태/메모리를 놓는다. 시계, 분기, 체크리스트, 플러그, 역할 분담, 기록장 아이콘으로 역할을 구별한다. 이름 아래에는 기능을 한 줄로 쓴다.
+- **Visual Concept:** 3열×2행에 시계, 브랜치, 체크리스트, 플러그, 사람들, 기록장의 Lucide 아이콘을 한 이미지씩 둔다. 얇은 구분선으로 여섯 역할을 나누고, 역할별 강조색과 이름·한 줄 설명을 유지한다.
 - **Demo / Case Connection:** 정적 설계 예시. CASE-LOOP-01의 검사·검토 인계에 필요한 역할을 구분한다. S88에서 실제 GitLab 사례를 소개한다.
 - **Beginner Payoff:** 언제 시작할지, 어디서 수정할지, 무엇을 기억할지를 구체적인 도구 역할에 연결한다.
 - **Advanced Payoff:** 작업 디렉터리와 위임 범위, 외부 연결 권한, 회차 사이에 남길 정보의 범위를 별도로 정한다.
 - **C++ Vision Bridge:** N/A — 언어와 제품에 독립적인 역할 구성.
-- **Speaker Intent:** 앞쪽 세 카드에서 시각·이벤트, 같은 저장소의 별도 디렉터리, 반복 검사 절차를 읽는다. 뒤쪽 세 카드는 이슈·검토 결과 게시, 위임한 검토의 회수, 마지막 후보·검사·남은 일의 인계로 설명한다.
+- **Speaker Intent:** 윗줄의 세 역할에서 시각·이벤트, 같은 저장소의 별도 디렉터리, 반복 검사 절차를 읽는다. 아랫줄의 세 역할은 이슈·검토 결과 게시, 위임한 검토의 회수, 마지막 후보·검사·남은 일의 인계로 설명한다.
 - **Transition:** 여섯 역할 중 필요한 것을 골랐다면, 한 작업에서 언제 무엇을 하고 어떤 결과를 다음 단계에 넘길까?
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 3분 = 5분
-- **Evidence / Decision References:** DEC-0154, DEC-0152, DEC-0151, BEAT-051, INV-LOOP-001, CLM-0021
+- **Evidence / Decision References:** DEC-0167, DEC-0154, DEC-0152, DEC-0151, BEAT-051, INV-LOOP-001, CLM-0021
 - **Audience Footer:** 별도 근거 문구 없음. M 연계는 신규 확장으로 표시한다.
 
 #### S83 — 목표에서 인계까지, 루프의 8단계

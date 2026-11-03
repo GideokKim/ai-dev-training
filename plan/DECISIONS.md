@@ -15488,3 +15488,22 @@ retain the brightness example's source and conceptual status. Use a noun
 phrase for the first comparison row on S81. Lower the S83 workflow as one
 group to give the title more room, preserving all eight stages, the return
 to implementation, and the handoff exit. Keep all time allocations.
+
+# DEC-0167 — Use one Lucide icon for each loop component on S82
+
+## Status and Date
+
+ACCEPTED on 2026-11-03.
+
+## Decision
+
+Keep S82’s six roles in their original order, three across and two down.
+Use one Lucide image per role: Clock, GitBranch, ListChecks, Plug,
+UsersRound and Notebook. Keep the distinct role colors and editable
+labels and use light dividers. The notes credit the artwork separately
+from the operating account that supplies the six-role teaching model.
+
+## Scope
+
+The change improves recognition of each role and keeps all six descriptions,
+the five-minute allocation, and the optional nature of the components.
