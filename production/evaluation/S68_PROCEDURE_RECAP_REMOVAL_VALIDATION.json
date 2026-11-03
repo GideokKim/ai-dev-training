@@ -1,0 +1,157 @@
+{
+  "status": "RENDER_AND_STRUCTURE_PASS",
+  "baseline": "b3cdfcb7d570678f9d055970bd038c2691bbeeb5",
+  "slides": 113,
+  "minutes": 389,
+  "removedSlide": {
+    "baselineId": "S68",
+    "title": "절차는 재사용하고, 답은 근거로 정한다",
+    "minutes": 3,
+    "mode": "Lecture",
+    "absorbedIntoAnotherSlide": false
+  },
+  "actCounts": [
+    14,
+    23,
+    22,
+    18,
+    20,
+    16
+  ],
+  "actMinutes": [
+    42,
+    64,
+    90,
+    64,
+    85,
+    44
+  ],
+  "modes": {
+    "Transition": 23,
+    "Lecture": 169,
+    "Reflection": 19,
+    "Case": 102,
+    "Demo": 44,
+    "Q&A": 32
+  },
+  "nativeTables": [
+    "S54"
+  ],
+  "nativeCharts": [
+    "S69",
+    "S89"
+  ],
+  "noteFields": 19,
+  "noteRecords": 113,
+  "renderedPngs": 226,
+  "embeddedNotes": 226,
+  "retainedScreenComparison": {
+    "pixelIdentical": 67,
+    "returnToActualCaseEyebrow": 1,
+    "onlyRenumberedReferences": 45
+  },
+  "renumberedScreenIds": [
+    "S68",
+    "S69",
+    "S70",
+    "S71",
+    "S72",
+    "S73",
+    "S74",
+    "S75",
+    "S76",
+    "S77",
+    "S78",
+    "S79",
+    "S80",
+    "S81",
+    "S82",
+    "S83",
+    "S84",
+    "S85",
+    "S86",
+    "S87",
+    "S88",
+    "S89",
+    "S90",
+    "S91",
+    "S92",
+    "S93",
+    "S94",
+    "S95",
+    "S96",
+    "S97",
+    "S98",
+    "S99",
+    "S100",
+    "S101",
+    "S102",
+    "S103",
+    "S104",
+    "S105",
+    "S106",
+    "S107",
+    "S108",
+    "S109",
+    "S110",
+    "S111",
+    "S112",
+    "S113"
+  ],
+  "retainedSlidesCompared": 113,
+  "fullActPixelParity": 113,
+  "preservedImages": true,
+  "preservedChartCaches": true,
+  "firstMemoryLabel": "S103",
+  "preservedS66PromptStyle": true,
+  "actualCandidateEyebrow": "S68",
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "count": 113,
+      "sha256": "31db272bd4b5df6f5da99403a53e5da2030aaf74da296d9927f20596649cdbdc"
+    },
+    {
+      "name": "ACT_0",
+      "count": 14,
+      "sha256": "d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600"
+    },
+    {
+      "name": "ACT_1",
+      "count": 23,
+      "sha256": "56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91"
+    },
+    {
+      "name": "ACT_2",
+      "count": 22,
+      "sha256": "19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05"
+    },
+    {
+      "name": "ACT_3",
+      "count": 18,
+      "sha256": "c6d66984f0a811ad9ac412eefacb7013646f051012a20c67211e38d4b7849c21"
+    },
+    {
+      "name": "ACT_4",
+      "count": 20,
+      "sha256": "52493aab06205745e9d4252221b3527a13cc5bcad887ec7cf6ca0b46cb579426"
+    },
+    {
+      "name": "ACT_5",
+      "count": 16,
+      "sha256": "bb91491e405493fa3531976872bbbfcfce68d1f1467411ba52a15652aca6858f"
+    }
+  ],
+  "windows": "UNVERIFIED",
+  "room": "UNVERIFIED",
+  "productAccount": "UNVERIFIED",
+  "rehearsal": "UNVERIFIED",
+  "prunedSupersededPreviewPaths": [
+    "production/preview/full/S114.png",
+    "production/preview/act3/S78.png",
+    "production/preview/act4/S98.png",
+    "production/preview/act5/S114.png"
+  ],
+  "ooxmlValidation": "PASS — all seven final packages against prior committed originals",
+  "visualReview": "PASS — revised actual-case eyebrow, S66-S70, ACT3/ACT4/ACT5 montages and current tip lookup; retained-screen pixel comparison"
+}

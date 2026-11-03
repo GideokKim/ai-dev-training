@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+현재113장·389분의 기준은 [DEC-0138 검토](S68_PROCEDURE_RECAP_REMOVAL.md), [전달 안내](FINAL_HANDOFF.md), [번호 대응표](../../plan/SLIDE_ID_MIGRATION_113_DEC0138.md)다. S67의 제작 사용 예시에서 실제 후보 비교·별도 제품 측정으로 바로 연결한다. 삭제한3Lecture분만 제외했으며 기존 근거 범위는 유지했다. Windows·발표PC/교육장·제품/계정·실제 리허설은 UNVERIFIED다.
+
+## 보존된 이전 기록
+
 S66 시각 수정은 [DEC-0137 검토](S66_PROMPT_WINDOW.md)와 [전달 안내](FINAL_HANDOFF.md)를 따른다. 114장·392분과 기존 근거 범위는 그대로다. 화면의 출처 문구만 삭제했고 Notes의 CLI 기록·재구성 경계는 유지했다. Windows·교육장·제품/계정·리허설은 UNVERIFIED다.
 
 ## 보존된 이전 기록

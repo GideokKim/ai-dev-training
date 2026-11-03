@@ -1,5 +1,9 @@
 # MASTER EXECUTION STATUS
 
+Current DEC-0138:113slides/389minutes. Delete the prior114-edition S68 procedure recap and its3Lecture minutes without absorption. Close S67 as an authoring usage example, then return to the actual candidate comparison at S68 and separate product measurements at S69. Preserve S66 styling, all retained allocations and evidence scope. Use [result](S68_PROCEDURE_RECAP_REMOVAL.md), [handoff](FINAL_HANDOFF.md), and [crosswalk](../../plan/SLIDE_ID_MIGRATION_113_DEC0138.md). Windows, room, product-account and rehearsal remain UNVERIFIED.
+
+## 보존된 이전 기록
+
 Current refinement DEC-0137: update only S66 prompt chrome and remove its CLI-version audience footer. Preserve114slides/392minutes, exact request text, Notes provenance and all evidence boundaries. Use [result](S66_PROMPT_WINDOW.md) and [handoff](FINAL_HANDOFF.md). The S68 deletion remains unapproved; no change is made to that slide. Windows, room, product-account and rehearsal remain UNVERIFIED.
 
 ## 보존된 이전 기록

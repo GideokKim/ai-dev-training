@@ -1,5 +1,19 @@
 # Current presentation source
 
+Current: DEC-0138 /113slides/389minutes. Apply
+`procedure-recap-removal-113.mjs` once after the retained114-ID compact
+handoff. Remove only its S68 procedure-versus-answer recap and shift
+priorS69-S114 down1. Resolve metadata and fresh-factory checks through
+`beforeProcedureRecapRemoval` first, then remap visible IDs once.
+Keep S67's authoring-tip screen; current Notes return directly to the
+actual candidate comparison at newS68. In retained `act3-continuity.mjs`
+factoryS57, change only the eyebrow to identify that return. Preserve
+S66's Mac-style prompt and all other content, timings and evidence.
+Native table:S54; charts:S69/S89. Rebuild all packages for current IDs.
+[Current design](../../../plan/S68_PROCEDURE_RECAP_REMOVAL.md).
+
+## Preserved source decisions
+
 Current refinement: DEC-0137 /114slides/392minutes. Update only the retained
 S66 factory in `skill-evidence-split-122.mjs`: reuse S41's rounded prompt
 window, traffic lights, header chrome and send control. Remove only S66's

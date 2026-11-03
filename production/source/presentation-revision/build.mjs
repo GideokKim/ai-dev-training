@@ -31,7 +31,8 @@ import {beforeAct3Trim,migrateAct3TrimFactories,applyAct3Trim} from './act3-trim
 import {beforeMemoryMove,migrateMemoryMoveFactories,applyMemoryMove} from './memory-act5-119.mjs';
 import {HARNESS_VISUAL_IDS,harnessVisualFactories} from './harness-visual-system.mjs';
 import {beforeS78Removal,migrateS78RemovalFactories,applyS78Removal} from './s78-removal-118.mjs';
-import {CURRENT_SLIDE_COUNT,COMPACT_FRESH_IDS,beforeCompactHandoff,migrateCompactHandoffFactories,applyCompactHandoff} from './compact-handoff-114.mjs';
+import {COMPACT_FRESH_IDS,beforeCompactHandoff,migrateCompactHandoffFactories,applyCompactHandoff} from './compact-handoff-114.mjs';
+import {CURRENT_SLIDE_COUNT,beforeProcedureRecapRemoval,migrateProcedureRecapRemovalFactories,applyProcedureRecapRemoval} from './procedure-recap-removal-113.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
 const ROOT=process.env.TRAINING_REPO??path.resolve(here,'../../..');
@@ -161,6 +162,10 @@ Object.assign(factories,removed118);
 const compact114=migrateCompactHandoffFactories(factories,H);
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,compact114);
+// DEC-0138 removes the114-ID S68 without transferring its recap elsewhere.
+const recapRemoved113=migrateProcedureRecapRemovalFactories(factories);
+for(const id of Object.keys(factories))delete factories[id];
+Object.assign(factories,recapRemoved113);
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -182,8 +187,9 @@ const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const id of deck.ids){
-  const freshCompact=COMPACT_FRESH_IDS.includes(id);
-  const id119Memory=beforeS78Removal(beforeCompactHandoff(id));
+  const id114=beforeProcedureRecapRemoval(id);
+  const freshCompact=COMPACT_FRESH_IDS.includes(id114);
+  const id119Memory=beforeS78Removal(beforeCompactHandoff(id114));
   const freshCurrent=freshCompact||id119Memory==='S109'||HARNESS_VISUAL_IDS.includes(id119Memory);
   const id122=beforeS68Removal(beforeAct3Trim(beforeMemoryMove(id119Memory)));
   const isSplitSource=isSkillEvidenceSlide(id122);
@@ -216,6 +222,7 @@ for(const deck of decks){
    applyS78Removal(s);
    applyCompactHandoff(s);
   }
+  applyProcedureRecapRemoval(s);
   if(!notes[id])throw new Error('Missing Notes '+id);
   s.speakerNotes.text=notes[id];
  }
@@ -223,7 +230,7 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>['S70','S90'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>['S69','S89'].includes(id)?i+1:0).filter(Boolean);
   const tableOwners=deck.ids.map((id,i)=>id==='S54'?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,

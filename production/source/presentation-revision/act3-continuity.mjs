@@ -233,7 +233,7 @@ export async function loadAct3ContinuitySlides(root, previous) {
    return s;
   },
   S57(p){
-   const s=make(p,'S57','밝기 통계 계산의 성능 개선 후보','ACT 3 · Skill 절차로 조사하고, 기록으로 선택한 구현',
+   const s=make(p,'S57','밝기 통계 계산의 성능 개선 후보','ACT 3 · Skill을 지정했던 실제 밝기 통계 작업',
     'TRIAL-008 기록 요약·구현 도식 · 합성1024×768 · CPython3.9.6 / macOS arm64',
     '임시 메모리: Python 할당 피크 · 다음 장의 제품 상태 측정과 별개 · Skill 단독 효과 미입증','OBSERVED_PRODUCT');
    text(s,'이미지의 최소·최대·평균 밝기를 구하되, 기존 결과는 유지',64,177,1152,40,30,C.teal,true);

@@ -1,5 +1,19 @@
 # DEMO-01 — Repository Exploration
 
+## Current113 presentation references — DEC-0138
+
+현재113장·389분. 이전114장판 S68과 Lecture3분만 삭제하며 삭제한 내용을 다른 Slide·활성 Notes·새 참고 자료에 옮기지 않는다.
+이전 S69–S114는 현재 S68–S113으로 한 칸 당긴다. 나머지 장의 시간·Mode·기존 근거 범위는 유지한다.
+현재 번호/경로/해시는 [결정 기록](../../plan/DECISIONS.md)의 DEC-0138, [현행 Map](../../plan/SLIDE_MAP.md),
+[삭제·연결 기획](../../plan/S68_PROCEDURE_RECAP_REMOVAL.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_113_DEC0138.md),
+[FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. 아래 이전 배치·시간·번호·명령은 당시 이력이다.
+
+DEMO-01의 현재 Map 명시 참조: S06, S07, S08, S09, S10, S11, S12, S13, S14이다. 회수/Case 참조를 모두 Demo 시간으로 세지 않는다.
+
+Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 새 Trial·Demo 저장소·Sites·발표 묶음 변경은 없다.
+
+## Preserved previous operation records
+
 ## Current114 presentation references — DEC-0136
 
 현재114장·392분. 이전118장판 S78–S82의 설명은 하나의 S78 Transition2분으로 연결한다.

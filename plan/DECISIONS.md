@@ -13514,3 +13514,91 @@ Notes and final packages. Record results in
 production/evaluation/S66_PROMPT_WINDOW.md. Preserve unverified Windows,
 room, product-account and rehearsal gates; commit/push in the authorized
 root workflow without changing the Demo repository, Sites or bundles.
+
+# DEC-0138 — Remove the procedure recap and return to the actual task
+
+## Status
+
+ACCEPTED — explicit user approval to delete currentS68, the procedure and
+task-answer recap, and align the adjacent return to the actual task.
+
+## Date
+
+2026-11-03
+
+## Context
+
+The current114-slide S68 is "절차는 재사용하고, 답은 근거로 정한다".
+It is distinct from historical S68 audit pages. S67 is a documented
+Skill-creation example; S69 returns to the actual Skill-named statistics
+task before a separate product-state measurement record.
+
+## Problem
+
+Remove the standalone principle recap while making the example-to-actual
+record transition clear, without relocating the deleted lecture.
+
+## Decision
+
+Delete old114-edition S68 and only its Lecture3minutes. Do not absorb its
+method/decision diagram or lecture into another slide or active Notes.
+Create no new reference copy. Existing claim principles, raw Skill and
+evidence history remain in their existing sources and Git history.
+Keep S66's DEC-0137 prompt-window styling, exact prompt and footer deletion.
+Keep S67's screen and Lecture2minutes. Change only its transition to:
+"지금 본 제작 요청은 사용 예시입니다. 이제 앞서 Skill을 지정했던 실제 밝기 통계 작업에서 어떤 근거로 구현을 선택했는지 보겠습니다."
+Return to the actual task in newS68 with the eyebrow "ACT 3 · Skill을
+지정했던 실제 밝기 통계 작업". Keep its title, body, values and the existing
+goal/original-implementation/candidate comparison sequence. Remove the
+assumption that the deleted principle lesson has just been presented.
+Keep newS69's separate formal product pre/post measurements distinct from
+the candidate comparison. Shift oldS69-S114 down1. Use113slides/389minutes,
+ACT3 18slides/64minutes, ACT4 20slides/85minutes and ACT5 16slides/44minutes.
+Use modes Lecture169/Demo44/Case102/Reflection19/Transition23/Q&A32.
+Remove the T04-A row, leaving T04 13slides; add no Template or variant.
+
+## Rationale
+
+The actual-case return can follow the creation example directly. The
+removed principle does not need to be re-taught for the audience to read
+the existing task, candidate evidence and bounded product measurements.
+
+## Alternatives
+
+Keep the separate recap: adds another lecture before the actual task.
+Copy its diagram into the example or candidate page: outside the approved
+scope and recreates the explanation the user chose to remove.
+
+## Trade-offs
+
+The main deck loses a standalone method/answer distinction. Existing
+request conditions and evidence boundaries remain intact. The creation
+example must not appear to be the recorded creation method of TRIAL-008.
+
+## Related Invariants
+
+INV-IDENTITY-001, INV-NARRATIVE-001, INV-VERIFY-001,
+INV-RESEARCH-004, INV-SOT-001.
+
+## Affected Artifacts
+
+Current Map/template registry, planning routes, Notes, affected ACT/full
+packages, source adapter, previews, tip indexes and delivery identities.
+Keep the Demo repository, Sites and presenter bundle unchanged.
+
+## Evidence
+
+Explicit user approval; existing S66/TRIAL-008 task request, candidate
+comparison and STATE-04-PERF product measurement scope; DEC-0137.
+No new Trial, benchmark, Skill effect or current product fact is introduced.
+
+## Training Relevance
+
+YES — distinguish a teaching example from the actual task record while
+keeping the candidate and product-state measurement evidence separate.
+
+## Follow-up
+
+Validate113IDs/389minutes, the preserved S66 window, S67-to-actual-case
+transition, fixed allocations, Notes and final renders; then commit/push
+normally. Preserve Windows, room, product-account and rehearsal gates.

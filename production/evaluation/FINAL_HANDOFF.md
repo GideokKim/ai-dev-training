@@ -1,5 +1,46 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S68 절차 회수 장 삭제 — DEC-0138 (2026-11-03)
+
+현재 **113장·389분(6시간29분)**. 이전 S68의 절차/답 구분 장을 삭제했다.
+S67 제작 사용 예시에서 실제 후보 선택(현재 S68), 별도 제품 전후 측정(S69)으로 바로 연결한다.
+삭제한 설명을 다른 장이나 활성 Notes에 옮기지 않았다. 새 S68의 상단 안내만 실제 작업 복귀로 정렬했다.
+S66의 최신 Mac 스타일과 요청·출처·근거 범위는 그대로다. 이전 S69–S114는 현재 S68–S113으로 -1이다.
+ACT 장수14/23/22/18/20/16, 시간42/64/90/64/85/44분이며 ACT4의20장·85분은 유지한다.
+Mode는 Lecture169 / Demo44 / Case102 / Reflection19 / Transition23 / Q&A32분이다.
+Native 표S54·차트S69/S89, Memory S103, Goal S95/S96, 찾아보기 S110–S112를 사용한다.
+[검토 결과](S68_PROCEDURE_RECAP_REMOVAL.md), [현행 Map](../../plan/SLIDE_MAP.md),
+[번호 대응표](../../plan/SLIDE_ID_MIGRATION_113_DEC0138.md)를 따른다.
+통합/ACT7개 PPT와226개 렌더·내장 Notes를 대조했다.43개 정적 Fallback 경로·해시를 정렬했다.
+Windows·발표 PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않았다.
+이하 이력은 당시 판본이며 이전 번호·검증을 현재판으로 취급하지 않는다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `31db272bd4b5df6f5da99403a53e5da2030aaf74da296d9927f20596649cdbdc` |
+| `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
+| `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
+| `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
+| `production/ACT_3.pptx` | `c6d66984f0a811ad9ac412eefacb7013646f051012a20c67211e38d4b7849c21` |
+| `production/ACT_4.pptx` | `52493aab06205745e9d4252221b3527a13cc5bcad887ec7cf6ca0b46cb579426` |
+| `production/ACT_5.pptx` | `bb91491e405493fa3531976872bbbfcfce68d1f1467411ba52a15652aca6858f` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `e56f796dd77cdcf31760757aa58fbea7487d7f048968fede3bab278985ab3259` |
+| `production/notes/ACT_3_NOTES.md` | `d7a34e294d1f17b2c85268dba5d49dc296f193fe32844b4b3011baf436406cb2` |
+| `production/preview/full/montage.png` | `0bb0f04bb37cea12bd50145a8d65e95004422fe48cf72ade602c1db061530a6f` |
+| `production/preview/act0/montage.png` | `eb37120330c3892db3b31993c8ae3863e9818f6873f08f987a037a95d5bb9cb6` |
+| `production/preview/act1/montage.png` | `a23d9561b294917588e5e0d8241be709c79883b79366b3470f094a17fca705ab` |
+| `production/preview/act2/montage.png` | `d7e66c468274d0aa80b83000ac284535d12b366fd81ebbfef849e713da0112a1` |
+| `production/preview/act3/montage.png` | `3e1ea946a49df800a5fbe21fb446731fec562055d70c9aeb04e3d60df6a06024` |
+| `production/preview/act4/montage.png` | `73aa7ba6bd8f81c6f176095671ded8236282367440183d16e91a04383d88f1fc` |
+| `production/preview/act5/montage.png` | `94c9b7998e46c7f96ed2a95dcfed99dfc85aa4b1b77cec6896666bd8ae901975` |
+| `production/preview/full/S66.png` | `482b1c36433538b982da2336354c04a9593f85368086c313149272540cd14880` |
+| `production/preview/full/S67.png` | `d0afef596117e2746ef1a453b2357b79cde7c657b88020963298f26aae933899` |
+| `production/preview/full/S68.png` | `4837568f4a3d5efb4b5ac30e416c04d094b9085383df5a6deb97e10bfef4bcf1` |
+| `production/preview/full/S69.png` | `2aea1b6cbc55f44888a832b162ce8ed0a82363f94e53ec70c2fda102ceca62ed` |
+| `production/preview/full/S110.png` | `78a0196d38e6adaa98d26447e51d5659dc9b51920c3973ea6b01ecf724fc47a8` |
+
+## 보존된 이전 전달 기록
+
 ## S66 프롬프트창 정렬 — DEC-0137 (2026-11-03)
 
 현재114장·392분과 모든 장별 배정·근거 범위는 그대로다.
