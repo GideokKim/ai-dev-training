@@ -1,3 +1,7 @@
+# Codex memories tip (DEC-0158)
+
+Use `--release --release-acts=4,5` to rebuild the integrated presentation, ACT 4 and the ACT 5 tip index. S94 follows the state-file example. The earlier 113-slide source factories are renumbered at the final assembly boundary.
+
 # ACT 4 GitLab operating workflow (DEC-0156)
 
 Use `--release --release-acts=4,5` to render the integrated presentation and the two affected ACT decks. S85 has an editable six-by-twelve assignment matrix. Native tables also occur on S54 and S81. S69 owns the only native chart.

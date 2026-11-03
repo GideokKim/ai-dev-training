@@ -33,7 +33,9 @@ import {beforeMemoryMove,migrateMemoryMoveFactories,applyMemoryMove} from './mem
 import {HARNESS_VISUAL_IDS,harnessVisualFactories} from './harness-visual-system.mjs';
 import {beforeS78Removal,migrateS78RemovalFactories,applyS78Removal} from './s78-removal-118.mjs';
 import {COMPACT_FRESH_IDS,beforeCompactHandoff,migrateCompactHandoffFactories,applyCompactHandoff} from './compact-handoff-114.mjs';
-import {CURRENT_SLIDE_COUNT,beforeProcedureRecapRemoval,migrateProcedureRecapRemovalFactories,applyProcedureRecapRemoval} from './procedure-recap-removal-113.mjs';
+import {beforeProcedureRecapRemoval,migrateProcedureRecapRemovalFactories,applyProcedureRecapRemoval} from './procedure-recap-removal-113.mjs';
+
+import {CURRENT_SLIDE_COUNT,MEMORY_TIP_ID,beforeMemoriesTip,applyMemoriesTipNumbers,codexMemoriesTip,workspaceTipIndex} from './codex-memories-tip-114.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
 const ROOT=process.env.TRAINING_REPO??path.resolve(here,'../../..');
@@ -167,14 +169,13 @@ Object.assign(factories,compact114);
 const recapRemoved113=migrateProcedureRecapRemovalFactories(factories);
 for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,recapRemoved113);
-// ACT4 entries use final IDs and already contain their audience-facing labels.
+// Keep the retained ACT4 factories in their 113-slide edition.
 const operations = loopOperationsFactories(H);
 const lookupChanges = {
- S110: {'Goal이 목표와 다음 작업을 이어준다': map.S95['Working Title']},
  S112: {
   '모델 B는 무엇을 근거로 검토할까?': map.S83['Working Title'],
   S87: 'S85', '언제 계속하고, 언제 끝낼까?': map.S85['Working Title'],
-  S96: 'S95', 'Goal에는 완료 근거와 멈출 조건을 담는다': map.S95['Working Title']
+  S96: 'S95', 'Goal에는 완료 근거와 멈출 조건을 담는다': map.S96['Working Title']
  }
 };
 const notes={};
@@ -184,7 +185,7 @@ for(let act=0;act<6;act++){
 }
 const idsArg=process.argv.find(a=>a.startsWith('--ids='))?.slice(6);
 const ids=idsArg?idsArg.split(','):Object.keys(map);
-const missing=ids.filter(id=>!factories[id]);if(missing.length)throw new Error('Missing authoring functions: '+missing.join(','));
+const missing=ids.filter(id=>id!==MEMORY_TIP_ID && !factories[beforeMemoriesTip(id)]);if(missing.length)throw new Error('Missing authoring functions: '+missing.join(','));
 const stamp=process.env.PRESENTATION_BUILD_ID??new Date().toISOString().replace(/[:.]/g,'-');
 const buildDir=path.join(WORK,'build',stamp),outDir=path.join(WORK,'output',stamp);
 await fs.mkdir(buildDir,{recursive:true});await fs.mkdir(outDir,{recursive:true});
@@ -197,11 +198,18 @@ if(process.argv.includes('--release')){
 const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_Dev_Training_Full.pptx');
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
- for(const id of deck.ids){
+ for(const currentId of deck.ids){
+  if (!notes[currentId]) throw new Error('Missing Notes '+currentId);
+  const id=beforeMemoriesTip(currentId);
+  if (currentId===MEMORY_TIP_ID || currentId==='S111') {
+   const slide=currentId===MEMORY_TIP_ID ? codexMemoriesTip(p,H,map[currentId]['Working Title']) : workspaceTipIndex(p,H,map);
+   slide.speakerNotes.text=notes[currentId];
+   continue;
+  }
   if (operations[id]) {
-   if (!notes[id]) throw new Error('Missing Notes '+id);
    const slide = operations[id](p);
-   slide.speakerNotes.text = notes[id];
+   applyMemoriesTipNumbers(slide);
+   slide.speakerNotes.text = notes[currentId];
    continue;
   }
   const id114=beforeProcedureRecapRemoval(id);
@@ -250,8 +258,8 @@ for(const deck of decks){
     }
    }
   }
-  if(!notes[id])throw new Error('Missing Notes '+id);
-  s.speakerNotes.text=notes[id];
+  applyMemoriesTipNumbers(s);
+  s.speakerNotes.text=notes[currentId];
  }
  const candidate=path.join(buildDir,deck.name+'.candidate.pptx');await(await PresentationFile.exportPptx(p)).save(candidate);
  let final=candidate,receipt;

@@ -1,17 +1,13 @@
 # Demo Runbooks and Static Reference Files
 
-## Current113 presentation references — DEC-0138
+## 현행 발표 자료 · DEC-0158
 
-현재113장·389분. 이전114장판 S68과 Lecture3분만 삭제하며 삭제한 내용을 다른 Slide·활성 Notes·새 참고 자료에 옮기지 않는다.
-이전 S69–S114는 현재 S68–S113으로 한 칸 당긴다. 나머지 장의 시간·Mode·기존 근거 범위는 유지한다.
-현재 번호/경로/해시는 [결정 기록](../../plan/DECISIONS.md)의 DEC-0138, [현행 Map](../../plan/SLIDE_MAP.md),
-[삭제·연결 기획](../../plan/S68_PROCEDURE_RECAP_REMOVAL.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_113_DEC0138.md),
-[FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. 아래 이전 배치·시간·번호·명령은 당시 이력이다.
+[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 114장·391분 중 ACT4는 S78–S98, ACT5는 S99–S114다. S94는 Codex 메모리 사용법을 소개하는 강의 2분이다.
 
-ACT3는 S60–S77의18장·64분, ACT4는 S78–S97의20장·85분, ACT5는 S98–S113의16장·44분이다.
-DEMO-03은 S65/S66의3Demo분, DEMO-08은 ACT5 S103의Demo2 VISUAL+Case2분이다.
-DEC-0156의 현행 편집 표는 S54/S81/S85, 차트는 S69다. S85에는 도구 배치, S95에는 권한·예산의 중단 조건이 있다. 마지막 팁 찾아보기는 S110–S112, Closing은 S113이다. [ACT4 운영 순서](loop-visual.md)
-전역 Mode는 Lecture169/Demo44/Case102/Reflection19/Transition23/Q&A32분이다.
+ACT3는 S60–S77의18장·64분, ACT4는 S78–S98의21장·87분, ACT5는 S99–S114의16장·44분이다.
+DEMO-03은 S65/S66의3Demo분, DEMO-08은 ACT5 S104의Demo2 VISUAL+Case2분이다.
+DEC-0156의 현행 편집 표는 S54/S81/S85, 차트는 S69다. S85에는 도구 배치, S96에는 권한·예산의 중단 조건이 있다. 마지막 팁 찾아보기는 S111–S113, Closing은 S114이다. [ACT4 운영 순서](loop-visual.md)
+전역 Mode는 Lecture171/Demo44/Case102/Reflection19/Transition23/Q&A32분이다.
 S67의 Skill 제작 요청은 사용 예시다. 이어지는 S68은 기존 실제 밝기 통계 후보 비교, S69는 별도 제품 상태 전후 측정이다.
 S66의 DEC-0137 프롬프트창 디자인과 Notes의 실제 요청·역사적 CLI·재구성 범위를 유지한다.
 S77은 공통 Harness가 준비된 상황에서 점심 전 구현·테스트를 맡긴 요청과 계획 뒤에 멈춘 응답을 나란히 보여주는 교육용 대화다. S79–S80에서 같은 지적을 사람이 전달하는 경우와 루프로 연결한 경우를 비교한다.

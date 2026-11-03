@@ -15107,3 +15107,57 @@ completion from a handoff that requires a human decision.
 
 Check the labels and branch directions on the presentation PC. Keep
 one lecture minute and four case minutes on S83.
+
+# DEC-0158 — Add a Codex memories tip after the explicit state handoff
+
+## Status
+
+ACCEPTED by the presenter for the practical tip. The production allocation is two lecture minutes.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S93 explains the state file a teammate or a later run can inspect. The presenter requested a practical tip on the Codex product feature at this point and a check of earlier examples for S91.
+
+## Problem
+
+A learner may confuse useful context recalled from prior chats with a current handoff record or a required project rule.
+
+## Decision
+
+Insert S94 immediately after S93 with the existing upper-right practical-tip badge in the Context management category. Show machine-level enablement and chat-level use and contribution. Point to the active state file for the last run and to checked-in documentation for mandatory team rules. List the tip in S111. Preserve the current S91 research slide while checking earlier examples for the presenter.
+
+## Rationale
+
+Learners can choose which information needs a reproducible written record and when it is useful to consult prior work. Showing the controls makes the documented product tip actionable without depending on a classroom account.
+
+## Alternatives
+
+A speaker-only cue would omit the requested visible tip. Adding the controls to the state-file diagram would put the independent handoff and recall mechanisms on the same screen.
+
+## Trade-offs
+
+The two lecture minutes bring ACT four to 21 slides and 87 minutes, and the course to 114 slides and 391 minutes. S01–S93 keep their IDs. The preceding edition’s S94–S113 become S95–S114. Existing durations and modes stay attached to the same content.
+
+## Related Invariants
+
+INV-LOOP-001, INV-VERIFY-001, INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+The integrated deck, ACT four and five decks, corresponding speaker notes, current slide and template maps, course schedule, tip index, preview and handoff.
+
+## Evidence
+
+Presenter annotations, SRC-0113 (OpenAI, *Memories*, checked 2026-11-03), CLM-0008 and CLM-0053. The product feature and example carry no new Trial or measured performance claim.
+
+## Training Relevance
+
+Participants can distinguish local cross-chat recall, governed team guidance, and a task’s explicit handoff evidence.
+
+## Follow-up
+
+Verify the feature and settings on the presentation machine and training account before offering a live demonstration.

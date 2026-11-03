@@ -1,8 +1,8 @@
 # Demo Architecture
 
-## 현재 ACT4 제작 기준 — DEC-0156 (2026-11-03)
+## 현재 ACT4 제작 기준 — DEC-0158 (2026-11-03)
 
-S79–S80의 밝기 통계 장면은 기존 교육용 가정이다. S84 이후에는 제공 PDF 설계와 연구 원문을 정적 자료로 설명한다. ACT4에는 Live Demo 시간이 없다. GitLab 등록·권한·지출·무인 실행·실제 발표 PC와 시간 리허설은 이 자료로 검증하지 않는다.
+S79–S80의 밝기 통계 장면은 기존 교육용 가정이다. GitLab 설계·연구는 제공 PDF와 논문으로 설명한다. S94의 메모리 팁은 OpenAI 공식 안내를 읽는 강의다. ACT4에는 Live Demo 시간이 없다. GitLab 등록·권한·지출·무인 실행·실제 발표 PC와 시간 리허설은 이 자료로 검증하지 않는다.
 
 [ACT4 장별 시간표와 PDF 쪽 대응](ACT4_LOOP_OPERATIONS_PROPOSAL.md) · [현행 Slide Map](SLIDE_MAP.md)
 

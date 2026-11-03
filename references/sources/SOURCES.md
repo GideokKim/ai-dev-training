@@ -245,13 +245,13 @@ Organization / Authors: OpenAI
 Source Type: OFFICIAL_DOC
 URL: https://learn.chatgpt.com/docs/customization/memories
 Published: Not shown
-Checked: 2026-09-25
+Checked: 2026-11-03 (DEC-0158, S94)
 Tier: 1
 Topics: Memory, personalization, context boundary
-Key Evidence: Codex Memory is persisted preference/context separate from current prompt context.
+Key Evidence: Settings > Personalization > Enable Codex memories enables local memories for the selected machine. /memories controls whether the current chat can use memories or contribute to future ones. Eligible earlier conversations can supply useful context through background processing.
 Limitations: 대상 training workspace에서 availability/admin behavior 미확인.
 Volatility: HIGH
-Notes: Memory는 project Source of Truth와 분리해 설명.
+Notes: CLM-0008 / CLM-0053. 팀 필수 지침은 AGENTS.md 등 버전 관리 문서에 둔다. S93의 실행 상태는 팀이 남기는 명시적 기록이다.
 
 ### SRC-0114
 

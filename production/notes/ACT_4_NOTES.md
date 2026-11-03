@@ -1,6 +1,6 @@
 # ACT 4 — Speaker Notes
 
-DEC-0156 · S78–S97 · 20장 · 85분. S77의 점심 뒤 질문과 첫 검토 지적을 출발점으로 삼는다. S83에서 한 작업의 8단계를 본 뒤 S84에서 강사의 GitLab 적용 예시로 들어간다. S91–S92는 자기선호와 오류 귀속을 다룬 두 연구를 원문 범위에서 비교한다. S97에서 자동화할 일과 사람의 판단을 골라 ACT5로 연결한다.
+DEC-0158 · S78–S98 · 21장 · 87분. S77의 점심 뒤 질문과 첫 검토 지적을 출발점으로 삼는다. S83에서 한 작업의 8단계를 본 뒤 S84에서 강사의 GitLab 적용 예시로 들어간다. S91–S92는 자기선호와 오류 귀속을 다룬 두 연구를 원문 범위에서 비교한다. S93 외부 상태에 이어 S94에서 Codex 로컬 메모리를 2분간 소개한다. S98에서 자동화할 일과 사람의 판단을 골라 ACT5로 연결한다.
 
 <details>
 <summary>이전 판본 안내</summary>
@@ -1087,7 +1087,7 @@ N/A — 정적 운영 설계 도식. 시도한 일·검사 근거·남은 문제
 팀의 공통 지침과 오늘 한 작업의 미완료 목록은 각각 어디에 두나요?
 
 **Transition:**
-“상태를 이어받아 무인으로 실행한다면, 어디까지 바꿀 수 있게 할까요?”
+“마지막 검증 상태는 파일에 남겼습니다. 새 대화에서 개인의 보고 방식까지 다시 설명해야 할까요? 다음 실무 팁에서 Codex 메모리를 살펴봅니다.”
 
 **Time Management:**
 Lecture 1분 + Case 2분. 1분부터 이전 실행의 기록으로 다음 할 일을 찾는 사례를 든다.
@@ -1098,10 +1098,71 @@ LOCAL STATIC ARTIFACT — production/preview/full/S93.png 또는 production/ACT_
 **Validation Status:**
 DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S94 — 무인 실행의 범위를 어디까지 허용할까?
+## S94 — Codex 메모리로 이전 대화의 맥락을 이어간다
 
 **Slide ID:**
 S94
+
+**Working Title:**
+Codex 메모리로 이전 대화의 맥락을 이어간다
+
+**ACT / Section:**
+ACT 4 / 4R5 Implementation, review and state
+
+**Allocated Time:**
+2 minutes
+
+**Mode Split:**
+Lecture 2분
+
+**Primary Message:**
+Codex는 이전 대화에서 유용한 맥락을 다음 대화에 참고할 수 있다. 팀이 반드시 지킬 지침은 AGENTS.md, 이번 실행의 검사 결과와 남은 일은 상태 파일에 기록한다.
+
+**Opening Question:**
+“새 대화에서도 어제 선호했던 검토 의견을 읽는 순서가 이어지면 편할까요? 마지막으로 통과한 테스트는 어디서 확인할까요?”
+
+**Speaker Flow:**
+0:00–0:40. 이전 대화에서 “검토 결과는 영향이 큰 순서로 보여줘.”라고 자주 요청했다고 가정한다. 다음 대화에서 그런 선호를 참고할 수 있다는 제품 용도를 설명한다. 실제로 이 선호가 저장되거나 불러와진 결과를 시연하지 않는다.
+0:40–1:20. ChatGPT 데스크톱 앱에서 Settings → Personalization → Enable Codex memories를 확인한다. 이 설정은 선택한 기기에 적용된다. Codex 대화의 /memories에서는 이 대화가 기존 메모리를 참고할지와 이 대화를 향후 메모리 생성에 사용할지를 선택할 수 있다.
+1:20–2:00. 검토 결과를 영향이 큰 순서로 읽는 것은 사용자의 선호다. 필수 검토 절차는 프로젝트의 AGENTS.md를, 어제 어느 검사까지 통과했는지는 S93의 상태 기록을 연다. 다음 장의 실행 권한 질문으로 넘긴다.
+
+**Evidence / Source:**
+DEC-0158 · SRC-0113 · CLM-0008, CLM-0053. OpenAI, Memories, https://learn.chatgpt.com/docs/customization/memories (확인 2026-11-03). 설정 및 대화별 제어는 공식 문서, 검토 결과의 정렬 방식은 교육용 예시다.
+
+**Claim Boundary:**
+공식 제품 안내. 대상 기기에서 기능을 켜면 조건에 맞는 이전 대화로부터 로컬 메모리가 만들어질 수 있다. 처리는 백그라운드에서 이뤄지며 모든 대화를 즉시 저장하거나 매번 같은 기억을 불러오는 것을 보장하지 않는다. 사내 계정·기기에서의 제공 여부와 동작은 미검증이다.
+
+**Beginner Explanation:**
+예전에 자주 요청했던 검토 의견의 순서는 다음 대화를 돕는 단서다. 지금 변경의 테스트 통과 여부는 검증 기록에서 읽는다.
+
+**Advanced Insight:**
+기기 전체의 사용 설정과 현재 대화의 참고·생성 설정을 구분한다. ChatGPT 웹의 메모리와 로컬 Codex 메모리도 별도로 관리된다.
+
+**C++ Vision Bridge:**
+N/A — 기기 설정과 대화 맥락의 용도를 소개한다.
+
+**Demo Operation:**
+N/A — 정적 실무 팁. 설정 경로와 명령만 안내한다.
+
+**Audience Interaction:**
+화면의 검토 의견 정렬 방식과 테스트 결과 중 어느 쪽을 상태 파일에 기록할지 잠시 생각하게 한다.
+
+**Transition:**
+“이전 대화의 맥락을 떠올릴 수 있어도 실행 권한은 따로 정해야 합니다. 사람이 자리를 비운 동안 어디까지 바꾸도록 허용할까요?”
+
+**Time Management:**
+Lecture 2분. 40초에 사용 예시를 마치고 1분 20초까지 제어 방법을 짚는다. 남은 40초는 지침·검증 기록과의 구분에 쓴다.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/preview/full/S94.png, production/preview/act4/S94.png 또는 production/ACT_4.pptx의 S94. 발표 PC에서 설정이 보이지 않으면 이미 준비한 그림으로 진행한다.
+
+**Validation Status:**
+DOCUMENTED — 공식 안내를 확인했다. 발표 PC의 메뉴·계정 제공 여부, Windows 투사와 실측 리허설은 UNVERIFIED.
+
+## S95 — 무인 실행의 범위를 어디까지 허용할까?
+
+**Slide ID:**
+S95
 
 **Working Title:**
 무인 실행의 범위를 어디까지 허용할까?
@@ -1153,15 +1214,15 @@ N/A — 정적 운영 설계 도식. 허용된 작업 공간과 승인받을 외
 Lecture 1분 + Case 2분. 1분부터 테스트 권한과 배포 권한을 비교한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S94.png 또는 production/ACT_4.pptx의 S94. 화면을 쓸 수 없으면 다음 단서로 진행한다. 허용된 작업 공간과 승인받을 외부 동작 한 가지를 대비한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S95.png 또는 production/ACT_4.pptx의 S95. 화면을 쓸 수 없으면 다음 단서로 진행한다. 허용된 작업 공간과 승인받을 외부 동작 한 가지를 대비한다.
 
 **Validation Status:**
 DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S95 — 권한·예산을 넘으면 멈추고 사람에게 넘긴다
+## S96 — 권한·예산을 넘으면 멈추고 사람에게 넘긴다
 
 **Slide ID:**
-S95
+S96
 
 **Working Title:**
 권한·예산을 넘으면 멈추고 사람에게 넘긴다
@@ -1213,15 +1274,15 @@ N/A — 정적 운영 설계 도식. 중단 사유·마지막 근거·미실행 
 Lecture 4분. 2분씩 나눠 중단 조건과 인계 결과를 따라간다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S95.png 또는 production/ACT_4.pptx의 S95. 화면을 쓸 수 없으면 다음 단서로 진행한다. 중단 사유·마지막 근거·미실행 항목·요청할 결정을 읽어 인계 예시를 마친다.
+LOCAL STATIC ARTIFACT — production/preview/full/S96.png 또는 production/ACT_4.pptx의 S96. 화면을 쓸 수 없으면 다음 단서로 진행한다. 중단 사유·마지막 근거·미실행 항목·요청할 결정을 읽어 인계 예시를 마친다.
 
 **Validation Status:**
 DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S96 — 자동화가 만든 변경을 사람이 설명할 수 있나?
+## S97 — 자동화가 만든 변경을 사람이 설명할 수 있나?
 
 **Slide ID:**
-S96
+S97
 
 **Working Title:**
 자동화가 만든 변경을 사람이 설명할 수 있나?
@@ -1273,15 +1334,15 @@ N/A — 정적 운영 설계 도식. 변경 이유·검사 근거·남은 위험
 Lecture 2분. 삭제 예시와 승인자가 물을 질문 한 묶음만 다룬다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S96.png 또는 production/ACT_4.pptx의 S96. 화면을 쓸 수 없으면 다음 단서로 진행한다. 변경 이유·검사 근거·남은 위험 세 질문만 읽는다.
+LOCAL STATIC ARTIFACT — production/preview/full/S97.png 또는 production/ACT_4.pptx의 S97. 화면을 쓸 수 없으면 다음 단서로 진행한다. 변경 이유·검사 근거·남은 위험 세 질문만 읽는다.
 
 **Validation Status:**
 DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S97 — 무엇을 자동화하고, 무엇을 사람이 결정할까?
+## S98 — 무엇을 자동화하고, 무엇을 사람이 결정할까?
 
 **Slide ID:**
-S97
+S98
 
 **Working Title:**
 무엇을 자동화하고, 무엇을 사람이 결정할까?
@@ -1334,7 +1395,7 @@ N/A — 정적 운영 설계 도식. 질문이 없으면 검사·승인 한 쌍�
 Reflection 2분 + Q&A 7분 + Transition 2분. 8분 30초에 마지막 질문을 받고 9분에 전환한다. 추가 질문은 교육 마지막 Q&A로 넘긴다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S97.png 또는 production/ACT_4.pptx의 S97. 화면을 쓸 수 없으면 다음 단서로 진행한다. 질문이 없으면 검사·승인 한 쌍을 예로 들고, 8분 30초에 마지막 질문을 받아 9분부터 전환한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S98.png 또는 production/ACT_4.pptx의 S98. 화면을 쓸 수 없으면 다음 단서로 진행한다. 질문이 없으면 검사·승인 한 쌍을 예로 들고, 8분 30초에 마지막 질문을 받아 9분부터 전환한다.
 
 **Validation Status:**
 DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.

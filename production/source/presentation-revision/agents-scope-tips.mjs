@@ -95,7 +95,7 @@ export function scopeTipFactories(H) {
 /** Keep the original eight entries and add one grouped lookup entry. */
 export function scopeTipIndexFactory(config, H, map116Id) {
  return p => {
-  const { C, text, line, rect } = H;
+  const { C, text } = H;
   const index = config.indexes[0];
   const s = H.frame(p, 'S117', index.title, '마지막 정리 · 찾아보기 1/3', '', '', 'TEACHING_MODEL');
   text(s, '필요한 상황이 생기면, 아래 Slide로 돌아오세요', 64, 174, 1152, 43, 30, C.teal, true);
@@ -104,14 +104,20 @@ export function scopeTipIndexFactory(config, H, map116Id) {
    return { id: map116Id(id), title: entry.title };
   });
   entries.splice(2, 0, { id: 'S56–58', title: 'AGENTS.md의 위치와 적용 범위' });
+  drawWorkspaceTipRows(s, entries, H);
+  return s;
+ };
+}
+
+/** The workspace index has five rows per column, including grouped tips. */
+export function drawWorkspaceTipRows(s, entries, H) {
+ const { C, text, line, rect } = H;
   entries.forEach((entry, i) => {
    const col = i < 5 ? 0 : 1, row = col === 0 ? i : i - 5;
    const x = 64 + col * 600, y = 240 + row * 67;
    line(s, x, y, 552, C.line, 1);
    rect(s, x, y + 11, 120, 44, C.pale);
    text(s, entry.id, x, y + 11, 120, 44, entry.id.includes('–') ? 23 : 28, C.teal, true, H.FONT, 'center');
-   text(s, entry.title, x + 136, y + 11, 416, 44, 24, C.ink, true);
+   text(s, entry.title, x + 136, y + 11, 416, 44, entry.fontSize ?? 24, C.ink, true);
   });
-  return s;
- };
 }

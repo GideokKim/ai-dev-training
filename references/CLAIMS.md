@@ -213,7 +213,7 @@ no actual company rule, Trial, executed result or measured saving is added.
 
 CLM-0043 (ReConcile), CLM-0045 (self-feedback and intrinsic correction) and their primary sources remain supplementary research. Their earlier screen assignments refer to the former edition. The operational account carries no named model pairing or measured quality gain.
 
-## DEC-0156 · 현행 ACT4 후반
+## DEC-0156 · ACT4 후반 교체 당시
 
 | Claim | 확인한 내용 | 적용 및 한계 |
 |---|---|---|
@@ -222,3 +222,11 @@ CLM-0043 (ReConcile), CLM-0045 (self-feedback and intrinsic correction) and thei
 | CLM-0052 | 같은 오류 문장의 출처 역할을 바꾸자 실험 조건에 따라 오류를 지적하는 비율이 달라졌다. | SRC-0248 v2 · S92. 작성·검토 역할을 나눌 때 고려할 결과이며, 서로 다른 코딩 모델 사용의 효과는 별도 질문이다. |
 
 앞 판본의 PairCoder·Goal 항목(CLM-0049, CLM-0046/0047)과 SRC-0244의 운영 이력은 참고 자료로 보존한다. 현행 화면과 연결할 때에는 위 표를 우선한다.
+
+## DEC-0158 · Codex 메모리 사용 팁
+
+| Claim | 확인한 내용 | 근거와 한계 |
+|---|---|---|
+| CLM-0053 | 로컬 Codex 메모리는 대상 대화의 유용한 맥락을 나중 대화에서 참고할 수 있게 한다. 선택한 기기에서 기능을 켜고, 대화별로 기존 기억 참조와 향후 기억 생성 기여를 제어할 수 있다. | SRC-0113 · S94. 공식 문서 기준. 기억은 백그라운드에서 생성될 수 있으며 개별 내용의 즉시 저장·재호출, 팀 공유, 사내 계정에서의 사용 가능성은 확인하지 않았다. |
+
+S93의 상태 기록·검증 근거와 팀 필수 규칙의 정본은 별도로 유지한다(CLM-0008). CLM-0050의 PDF 적용 위치는 S84–S90, S93, S95–S98이다. CLM-0051/0052의 S91·S92 연구는 같은 위치다.

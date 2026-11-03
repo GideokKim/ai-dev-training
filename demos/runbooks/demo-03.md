@@ -1,12 +1,8 @@
 # DEMO-03 — Reusable Verification Workflow
 
-## Current113 presentation references — DEC-0138
+## 현행 발표 자료 · DEC-0158
 
-현재113장·389분. 이전114장판 S68과 Lecture3분만 삭제하며 삭제한 내용을 다른 Slide·활성 Notes·새 참고 자료에 옮기지 않는다.
-이전 S69–S114는 현재 S68–S113으로 한 칸 당긴다. 나머지 장의 시간·Mode·기존 근거 범위는 유지한다.
-현재 번호/경로/해시는 [결정 기록](../../plan/DECISIONS.md)의 DEC-0138, [현행 Map](../../plan/SLIDE_MAP.md),
-[삭제·연결 기획](../../plan/S68_PROCEDURE_RECAP_REMOVAL.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_113_DEC0138.md),
-[FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. 아래 이전 배치·시간·번호·명령은 당시 이력이다.
+[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 114장·391분 중 ACT4는 S78–S98, ACT5는 S99–S114다. S94는 Codex 메모리 사용법을 소개하는 강의 2분이다.
 
 현재 scheduled Demo는 S65 목록1분→S66 명시 요청2분=3분이다. S67 제작 팁으로 바로 연결한다.
 S67 제작 요청은 사용 예시이며 실제 TRIAL-008 Skill 제작 이력이 아니다.

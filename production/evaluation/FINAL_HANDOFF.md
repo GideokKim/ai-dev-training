@@ -1,35 +1,36 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## S83 루프 흐름도와 GitLab 사례 · DEC-0157
+## Codex 메모리 실무 적용 팁 · DEC-0158
 
-[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT4 PPT](../ACT_4.pptx) · [ACT4 Notes](../notes/ACT_4_NOTES.md) · [ACT4 화면](../preview/act4/montage.png) · [ACT5 찾아보기](../ACT_5.pptx) · [S83 검토](S83_EIGHT_STAGE_WORKFLOW.md) · [S84–S97 검토](ACT4_PDF_OPERATING_WORKFLOW.md)
+[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT4 PPT](../ACT_4.pptx) · [ACT4 Notes](../notes/ACT_4_NOTES.md) · [새 S94](../preview/full/S94.png) · [ACT5 찾아보기](../ACT_5.pptx) · [검토 결과](S94_CODEX_MEMORY_TIP.md)
 
-전체 113장·389분. S83의 5분은 준비, 반복, 사람에게 인계하는 경로를 따라간다. S84–S97은 요청된 GitLab 설계, 독립 검토 연구, 상태 인계와 무인 운영 한도, 사람의 결정으로 구성했다. ACT5에는 S98의 구두 전환과 두 팁 찾아보기만 반영했다. 현장 발표 PC와 실측 리허설은 대기 중이다.
+전체 114장·391분. S93의 작업 상태 인계 다음에 S94에서 Codex 메모리 설정과 대화별 선택을 소개한다. S95부터는 기존 흐름을 이어간다. S111 찾아보기에서 메모리 팁으로 돌아갈 수 있다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `4505faacdcdda00aae4be151db2d07555dae5a514d0e7fbe33aeee2730d91a92` |
+| `production/AI_Dev_Training_Full.pptx` | `bb8442020a4b328d8089ecfe051acf8142693d3e2df9afe02d472fd218ff155d` |
 | `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
 | `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
 | `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
 | `production/ACT_3.pptx` | `73fa2d32d3a1dcdf893fa8c0329f07c4c1cceea52b4188ec9322317c82502a86` |
-| `production/ACT_4.pptx` | `2554fd647c76a541bb64496af7b85859511eddcfbd621dd0cf6fee05b3ecb7c6` |
-| `production/ACT_5.pptx` | `eb0ed699798ae38548838c4e7fa024851dd673befda3794d5f62f1ca03271dfb` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `0c10e935c2d465f0b7f4d48efcf0243dec05a17bfdb814ef57d1a6ed5180de07` |
-| `production/notes/ACT_4_NOTES.md` | `d43ef616bf78abbf91b695bd677a4e5b3b7191f168cccdf7537d8ae11d8c31ae` |
-| `production/notes/ACT_5_NOTES.md` | `b13501879d2cf7cbb5862f82ee7a68df84edb3477f3316148f87bd6ed8fe8271` |
-| `production/preview/full/montage.png` | `c64e00d7b21e8f291b1d35788cf6ebe985d871f38d16f8c256530c5cd73fce72` |
-| `production/preview/act4/montage.png` | `00374ff8256163092439751c476dcba1ffe75732b2eecaf264cb796840e581bd` |
-| `production/preview/act5/montage.png` | `e7bdfc8e6138ee4727e39bc7b8e66290d156eebabdbeed2f11f0df6bf997f54d` |
+| `production/ACT_4.pptx` | `1ada65f0f2d3149d369be09cf709059ad20f3ed712e6e492a5e4e138ea93b762` |
+| `production/ACT_5.pptx` | `ec12a6bc8ec189f29538ccfedeec10d26883bb140e64516e5a9e6c9427bc74e0` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `ac9db3613ef2bd68076a48b0f40ff93d94d2a86d7b5a04f9168af6534eaf2294` |
+| `production/notes/ACT_4_NOTES.md` | `8497aaebc5e132fdafa04fab1d97a2b94bf0348a4bb065e47d142261ea4533cf` |
+| `production/notes/ACT_5_NOTES.md` | `7a2ad9b213f64edeeccbf48a33276e5f34e6d40e550a92cc2697f5fd8e9b0883` |
+| `production/preview/full/montage.png` | `cb654908da66259332320ccd13e2b4dc92a6dad1e4b5a4a1d2d917c809d0c2cc` |
+| `production/preview/act4/montage.png` | `eb792041623936196781fa450b7d02166823c4c64db9db3bfbd15d242d54c22c` |
+| `production/preview/act5/montage.png` | `7a2a4cc77c135450c45cd43f8a694de9ed457c33e12fb788a5d0f171e3d5b7f5` |
 | `production/preview/full/S79.png` | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | `production/preview/full/S84.png` | `29e8438f364e03432f684abc9745482454430650ee59768536fdedcec709c2a4` |
 | `production/preview/full/S87.png` | `26c9ea08258e2bb7936d6af2ec5e02fd9345a1ae9d224c688e67284ff69d940f` |
 | `production/preview/full/S88.png` | `a987c9ec8a10458c0d2829d21d4d5effc1557ddab8bdb2140a3f077afd3cebae` |
 | `production/preview/full/S91.png` | `613fc0ee458731a95cfbb2c17af463663519d09e445c5bc69cdef6827d803a32` |
-| `production/preview/full/S94.png` | `645f090c98182593c89af672c6647d66ddbe8f99a33762116eb41df10e7342c6` |
-| `production/preview/full/S95.png` | `45cb994a0233bfa51d3f4f74ad70e94e71250def577a9dd65335cb610ea1b86d` |
-| `production/preview/full/S110.png` | `6a8c6eff0dc6633b75ddee59d2466fd5da3930165d81c7d1e172638df19519cf` |
-| `production/preview/full/S112.png` | `93519a6b730877f13d6ddb5934ac751a0ea1e92053af75bc7c6d9b0e91c9ff4e` |
+| `production/preview/full/S94.png` | `57ab2a9889d1542ecc923acf41a375b97d670cc0f9486410397d8789807a4289` |
+| `production/preview/full/S95.png` | `f9275c8796a06d9eb65c81e69b70432efecb0fa89eae276c9ac54443682c565e` |
+| `production/preview/full/S96.png` | `3bbdd955d7d852ce902afd0dd38ee7709c85e115b06e3a4baefd4be952c51331` |
+| `production/preview/full/S111.png` | `b20ca8e270b05834ce8c78ee56838f00075898c1655fdcd9969e35706aa68b27` |
+| `production/preview/full/S113.png` | `0047fa74ddf45b9b9fd628585acb97689b87af8d239accffcea3de2c020f3192` |
 | `production/notes/ACT_3_NOTES.md` | `65151fdcc5412ade8e9d9ec88ecbb9d1887209b93c7aef41632ce739a1ee7adb` |
 | `production/preview/act3/montage.png` | `c1be5712b6a93d53cecaa5e8790135cf5202cb3e5813a47f3f9db95319b77730` |
 | `production/preview/full/S77.png` | `a09373e411803b59a133ea2cf661414239817e52f9ccb491d704c00e396fa433` |
