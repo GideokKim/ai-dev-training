@@ -1,6 +1,6 @@
 # Curriculum Matrix
 
-## 현재 ACT4 제작 기준 — DEC-0158 (2026-11-03)
+## 현재 ACT4 제작 기준 — DEC-0159 (2026-11-03)
 
 | Section | 위치 | 분 | 판단 대상 |
 |---|---|---:|---|
@@ -10,8 +10,9 @@
 | 4R4 Request and issue preparation | S86–S87 | 9 | 요청 분류·격리, 이슈 문서 작성·검증·등록 |
 | 4R5 Implementation, review and state | S88–S95 | 28 | 구현·검사·MR, 작성·검토 연구, 외부 상태·Codex 메모리와 무인 실행 범위 |
 | 4T1 Unattended stop conditions | S96 | 4 | 권한과 예산 경계에서 중단·인계 |
-| 4R6 Evidence and transfer | S97–S98 | 13 | 사람이 이해한 변경을 승인하고 업무별 판단 경계를 고른 뒤 ACT5로 전환 |
-| 합계 | S78–S98 | 87 | 강의 36 · 사례 37 · 성찰 4 · 질의 7 · 전환 3 |
+| 4R6 Evidence and transfer | S97–S98 | 13 | 사람이 이해한 변경을 승인하고 업무별 판단 경계를 골라 Goal 요청으로 연결 |
+| 4T2 Goal request | S99 | 2 | 목표, 출력 보존·최대 할당량 측정, 측정 불가 시 중단 조건을 Codex 요청으로 쓴다. |
+| 합계 | S78–S99 | 89 | 강의 38 · 사례 37 · 성찰 4 · 질의 7 · 전환 3 |
 
 S84–S98의 개별 시간·Mode는 공식 Slide Map과 같다. S84–S89에서 발표자가 읽는 화면은 정적 GitLab 설계 예시다.
 

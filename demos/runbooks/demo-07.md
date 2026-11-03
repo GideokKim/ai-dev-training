@@ -1,8 +1,8 @@
 # DEMO-07 — Subagent Decision Visual
 
-## 현행 발표 자료 · DEC-0158
+## 현행 발표 자료 · DEC-0159
 
-[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 114장·391분 중 ACT4는 S78–S98, ACT5는 S99–S114다. S94는 Codex 메모리 사용법을 소개하는 강의 2분이다.
+[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 115장·393분 중 ACT4는 S78–S99, ACT5는 S100–S115다. S94 메모리 팁과 S99 Goal 팁은 각각 강의 2분이다.
 
 S70의 독립 조사 가정→S71 제작 팁→S72의 실제 역할 분리 판단을 유지한 뒤 현재 S73 실제 구성으로 바로 연결한다. Memory 선행 소개나 출처 감사 예고를 넣지 않는다.
 

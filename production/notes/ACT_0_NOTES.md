@@ -1,6 +1,13 @@
 # ACT 0 — Speaker Notes
 
+DEC-0159 · 115장·393분. ACT 0 · S01–S14 · 14장 · 42분.
+
+<details>
+<summary>이전 판본 표지</summary>
+
 Current: DEC-0138 /113slides/389minutes. ACT0: S01–S14, 14slides/42minutes.19fields per slide. Former114-edition S68 and its3Lecture minutes are deleted without absorption. All remaining slide allocations stay unchanged.
+
+</details>
 
 <details>
 <summary>이전 Notes 표지·제작 기준 보존</summary>
@@ -194,7 +201,7 @@ N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S02 — AI에게 지금 무엇을 맡기고 있는가?로 이어간다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 0 총42분, 전체389분이다. 제목·부제만 안내하고1분에 S02로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 0 총42분이다. 제목·부제만 안내하고1분에 S02로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S01.png 또는 production/ACT_0.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
@@ -937,7 +944,7 @@ Transition:
 “개발 프로젝트 안을 함께 볼 수 있어도, 어떤 결과를 받아들일지는 누가 정할까요?”라는 질문으로 S14에 간다.
 
 **Time Management:**
-Lecture 1분. 메뉴 위치 15초, Codex 선택 15초, 허용 폴더 15초, 조사 요청·S14 연결 15초다. 이 장의1분은 보존한다. 현재 ACT 0 42분·전체389분·Lecture169분이며 마지막 팁 찾아보기3분은 ACT5의 별도 배정이다. 설정 tutorial을 추가하지 않는다. 제목6장의 Transition6분은 각 ACT의 별도 배정이다.
+Lecture 1분. 메뉴 위치 15초, Codex 선택 15초, 허용 폴더 15초, 조사 요청·S14 연결 15초다. 이 장의1분은 보존한다. ACT 0은 42분이며 마지막 팁 찾아보기3분은 ACT5의 별도 배정이다. 설정 tutorial을 추가하지 않는다. 제목6장의 Transition6분은 각 ACT의 별도 배정이다.
 
 Fallback:
 제작 완료 후 production/preview/act0/S13.png 또는 production/preview/full/S13.png의 정적 재구성 도식을 사용한다. 새 PNG와 PPT의 일치는 production/evaluation/CODEX_ENTRY_INSERTION.md에서 확인하기 전까지 미검증이다. 화면을 열 수 없으면 “이 교육에서는 ChatGPT 메뉴에서 Codex를 선택해 허용된 개발 프로젝트 조사를 시작합니다”라고 말하고 S14로 간다. 즉석 계정 시연으로 대체하지 않는다.
@@ -998,7 +1005,7 @@ Lecture2분의 역할 구분을 관찰한 뒤 ACT0 Q&A3분을 운영한다. 질�
 “이제 원하는 작업을 요청으로 어떻게 전달할지 보겠습니다.”라고 S15의 ACT1 제목을 연 뒤 S16의 기존 모호한 요청 사례로 이어간다.
 
 Time Management:
-Lecture2분 + Q&A3분 = 5분. 기존 S14의 설명2분과 삭제한 이전 S15의 Q&A3분을 합친다. 이전 전환3분을 삭제한 당시 판본은 ACT0 42분·전체417분이었다. DEC-0131은 이전122장판 S68의6분을 삭제해 전체411분으로 조정했다. DEC-0132는 삭제한 두 장의6분을 제외해 전체405분으로 조정했다. DEC-0135는 기존 독립 장의2Lecture분만 삭제해 전체403분으로 조정했다. DEC-0136은 ACT3 전환을 정리해 전체392분으로 조정했다. 현재 DEC-0138은 독립 설명의3Lecture분만 삭제해 전체389분이며 ACT0 42분은 유지한다. 다음 ACT 제목의 Transition1분과 중복 계산하지 않는다. 실측 리허설은 UNVERIFIED.
+Lecture2분 + Q&A3분 = 5분. 기존 S14의 설명2분과 삭제한 이전 S15의 Q&A3분을 합친다. 이전 전환3분을 삭제한 당시 판본은 ACT0 42분·전체417분이었다. DEC-0131은 이전122장판 S68의6분을 삭제해 전체411분으로 조정했다. DEC-0132는 삭제한 두 장의6분을 제외해 전체405분으로 조정했다. DEC-0135는 기존 독립 장의2Lecture분만 삭제해 전체403분으로 조정했다. DEC-0136은 ACT3 전환을 정리해 전체392분으로 조정했다. 당시 DEC-0138 판본은 독립 설명 3분을 빼 전체 389분이 되었고 ACT0의 42분은 보존했다. 다음 ACT 제목의 Transition1분과 중복 계산하지 않는다. 실측 리허설은 UNVERIFIED.
 
 Fallback:
 production/preview/full/S14.png 또는 production/preview/act0/S14.png의 이전 역할 도식을 사용한다. “자료는 함께 살펴보고, 목표·허용 범위·완료 수용은 사람이 최종 정합니다”라고 설명한 뒤 ACT0 Q&A를 마무리하고 S15로 이동한다. Agent의 제안 가능성과 사람의 최종 책임을 유지한다.

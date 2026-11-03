@@ -35,7 +35,7 @@ import {beforeS78Removal,migrateS78RemovalFactories,applyS78Removal} from './s78
 import {COMPACT_FRESH_IDS,beforeCompactHandoff,migrateCompactHandoffFactories,applyCompactHandoff} from './compact-handoff-114.mjs';
 import {beforeProcedureRecapRemoval,migrateProcedureRecapRemovalFactories,applyProcedureRecapRemoval} from './procedure-recap-removal-113.mjs';
 
-import {CURRENT_SLIDE_COUNT,MEMORY_TIP_ID,beforeMemoriesTip,applyMemoriesTipNumbers,codexMemoriesTip,workspaceTipIndex} from './codex-memories-tip-114.mjs';
+import {CURRENT_SLIDE_COUNT,beforeProductTips,applyProductTipNumbers,productTipFactories} from './codex-loop-tips.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
 const ROOT=process.env.TRAINING_REPO??path.resolve(here,'../../..');
@@ -171,13 +171,7 @@ for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,recapRemoved113);
 // Keep the retained ACT4 factories in their 113-slide edition.
 const operations = loopOperationsFactories(H);
-const lookupChanges = {
- S112: {
-  '모델 B는 무엇을 근거로 검토할까?': map.S83['Working Title'],
-  S87: 'S85', '언제 계속하고, 언제 끝낼까?': map.S85['Working Title'],
-  S96: 'S95', 'Goal에는 완료 근거와 멈출 조건을 담는다': map.S96['Working Title']
- }
-};
+const productTips = productTipFactories(H,map);
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -185,7 +179,7 @@ for(let act=0;act<6;act++){
 }
 const idsArg=process.argv.find(a=>a.startsWith('--ids='))?.slice(6);
 const ids=idsArg?idsArg.split(','):Object.keys(map);
-const missing=ids.filter(id=>id!==MEMORY_TIP_ID && !factories[beforeMemoriesTip(id)]);if(missing.length)throw new Error('Missing authoring functions: '+missing.join(','));
+const missing=ids.filter(id=>!productTips[id] && !factories[beforeProductTips(id)]);if(missing.length)throw new Error('Missing authoring functions: '+missing.join(','));
 const stamp=process.env.PRESENTATION_BUILD_ID??new Date().toISOString().replace(/[:.]/g,'-');
 const buildDir=path.join(WORK,'build',stamp),outDir=path.join(WORK,'output',stamp);
 await fs.mkdir(buildDir,{recursive:true});await fs.mkdir(outDir,{recursive:true});
@@ -200,15 +194,15 @@ for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const currentId of deck.ids){
   if (!notes[currentId]) throw new Error('Missing Notes '+currentId);
-  const id=beforeMemoriesTip(currentId);
-  if (currentId===MEMORY_TIP_ID || currentId==='S111') {
-   const slide=currentId===MEMORY_TIP_ID ? codexMemoriesTip(p,H,map[currentId]['Working Title']) : workspaceTipIndex(p,H,map);
+  if (productTips[currentId]) {
+   const slide=productTips[currentId](p);
    slide.speakerNotes.text=notes[currentId];
    continue;
   }
+  const id=beforeProductTips(currentId);
   if (operations[id]) {
    const slide = operations[id](p);
-   applyMemoriesTipNumbers(slide);
+   applyProductTipNumbers(slide);
    slide.speakerNotes.text = notes[currentId];
    continue;
   }
@@ -248,17 +242,7 @@ for(const deck of decks){
    applyCompactHandoff(s);
   }
   applyProcedureRecapRemoval(s);
-  if (lookupChanges[id]) {
-   for (const shape of s.shapes.items) {
-    const oldText = String(shape.text);
-    const replacement = lookupChanges[id][oldText];
-    if (replacement) {
-     shape.text.replace(oldText, replacement);
-     shape.name = replacement;
-    }
-   }
-  }
-  applyMemoriesTipNumbers(s);
+  applyProductTipNumbers(s);
   s.speakerNotes.text=notes[currentId];
  }
  const candidate=path.join(buildDir,deck.name+'.candidate.pptx');await(await PresentationFile.exportPptx(p)).save(candidate);

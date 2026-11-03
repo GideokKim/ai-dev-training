@@ -1,6 +1,13 @@
 # ACT 3 — Speaker Notes
 
+DEC-0159 · 115장·393분. ACT 3 · S60–S77 · 18장 · 64분.
+
+<details>
+<summary>이전 판본 표지</summary>
+
 Current: DEC-0146 /113slides/389minutes. ACT3: S60–S77, 18slides/64minutes.19fields per slide. S77 closes with the question of who starts the next edit after review. Former114-edition S68 and its3Lecture minutes are deleted without absorption. All remaining slide allocations stay unchanged.
+
+</details>
 
 <details>
 <summary>이전 Notes 표지·제작 기준 보존</summary>
@@ -170,7 +177,7 @@ N/A — 본문의 질문·성찰을 이 장에서 중복 운영하지 않는다.
 “이제 이 관점에서 첫 문제를 보겠습니다.”라고 S61 — 두 실제 요청에 같은 절차가 반복됐다로 이어간다.
 
 **Time Management:**
-Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 3 총64분, 전체389분이다. 제목·부제만 안내하고1분에 S61로 넘긴다. 실측 리허설 UNVERIFIED.
+Transition 1분. 기존 본문 시간을 줄이거나 중복 계산하지 않는다. ACT 3 총64분이다. 제목·부제만 안내하고1분에 S61로 넘긴다. 실측 리허설 UNVERIFIED.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S60.png 또는 production/ACT_3.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.

@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0158
+## Current presentation · DEC-0159
 
-The 44 entries identify local static fallbacks for the 114-slide course. S84–S98 use an adapted GitLab workflow, two published preprints, and teaching examples for state, limits and human review. The PNG files do not imply live GitLab execution or account validation.
+The 45 entries identify local static fallbacks for the 115-slide course. S84–S98 use an adapted GitLab workflow, two published preprints, and teaching examples for state, limits and human review. The PNG files do not imply live GitLab execution or account validation.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`bb8442020a4b328d8089ecfe051acf8142693d3e2df9afe02d472fd218ff155d`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`ac9db3613ef2bd68076a48b0f40ff93d94d2a86d7b5a04f9168af6534eaf2294`.
-- `production/preview/full/montage.png` SHA-256:`cb654908da66259332320ccd13e2b4dc92a6dad1e4b5a4a1d2d917c809d0c2cc`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`ed32903dacc2462cbecad5bbd4a04a14aa88001e35c67b0dcd40c062bec17f67`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`37997ae9820e1d9f0e205f42d7c1485a6808f42dd24483be8ee1ee21e76e0347`.
+- `production/preview/full/montage.png` SHA-256:`bab42ea85e5834fa22c7f86e467fba58c9180c182673aa2456fb8cafd6618b3d`.
 
-[S94 product tip](../../production/evaluation/S94_CODEX_MEMORY_TIP.md) · [S83 workflow diagram](../../production/evaluation/S83_EIGHT_STAGE_WORKFLOW.md) · [S84–S98 GitLab workflow](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md)
+[S99 Goal tip](../../production/evaluation/GOAL_TIPS_AND_ACT5_HANDOFF.md) · [S94 product tip](../../production/evaluation/S94_CODEX_MEMORY_TIP.md) · [S83 workflow diagram](../../production/evaluation/S83_EIGHT_STAGE_WORKFLOW.md) · [S84–S98 GitLab workflow](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md)
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
@@ -52,10 +52,11 @@ The 44 entries identify local static fallbacks for the 114-slide course. S84–S
 | S95 | TEACHING_PERMISSION_LIMITS | `production/preview/full/S95.png` | 1920×1080 | `f9275c8796a06d9eb65c81e69b70432efecb0fa89eae276c9ac54443682c565e` |
 | S96 | TEACHING_STOP_AND_HANDOFF | `production/preview/full/S96.png` | 1920×1080 | `3bbdd955d7d852ce902afd0dd38ee7709c85e115b06e3a4baefd4be952c51331` |
 | S97 | TEACHING_HUMAN_REVIEW | `production/preview/full/S97.png` | 1920×1080 | `0accbdc9bc6eccceb1c0b15935aaa2190246f7f378a7d9efe9b19459a0a98ff7` |
-| S98 | TEACHING_TEAM_REFLECTION | `production/preview/full/S98.png` | 1920×1080 | `dc2ea49a6efba7a730d6318090fa50b5ba89d17bc58bf1d6faf59e787d6f1844` |
-| S100 | TEACHING_SYNTHESIS | `production/preview/full/S100.png` | 1920×1080 | `d33aa22082b530473ae23d682f1a70edbba2acb6a295df1304cadcf62dbbed22` |
-| S101 | TEACHING_SYNTHESIS | `production/preview/full/S101.png` | 1920×1080 | `fb48154d7e6b5a03569899ea92940a9b8a9a9e8851e2350271541d05c7c495a6` |
-| S104 | RETAINED_DEMO_STATIC | `production/preview/full/S104.png` | 1920×1080 | `ed80dd4f2a269b79c84ab27f8024d61c89247da1348c73e49625e28cbe3b721f` |
+| S98 | TEACHING_TEAM_REFLECTION | `production/preview/full/S98.png` | 1920×1080 | `f82eb58ca3662a8898592b1c83efb950948423e85f93db19d235b1d1ffa44e46` |
+| S99 | DOCUMENTED_CODEX_GOAL_TIP | `production/preview/full/S99.png` | 1920×1080 | `2c3f9c12852cda2d658545b67ee38e15b5c48e07a22bdc58db556d49dd9735e7` |
+| S101 | TEACHING_SYNTHESIS | `production/preview/full/S101.png` | 1920×1080 | `d8f56e250814a2828863c455777d5a07befbf4d0454b5e80827b7043e2f81d13` |
+| S102 | TEACHING_SYNTHESIS | `production/preview/full/S102.png` | 1920×1080 | `87890d9a939b743c7e82bbfaee9f696f5e34ed22d1a2399163c033509d39ca6b` |
+| S105 | RETAINED_DEMO_STATIC | `production/preview/full/S105.png` | 1920×1080 | `cf1f424beae43e624c554010db39ad282d7b76ed4f0eee1704624d06a5c0642e` |
 
 <details>
 <summary>DEC-0143</summary>

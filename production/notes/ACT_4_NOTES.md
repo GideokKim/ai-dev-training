@@ -1,6 +1,6 @@
 # ACT 4 — Speaker Notes
 
-DEC-0158 · S78–S98 · 21장 · 87분. S77의 점심 뒤 질문과 첫 검토 지적을 출발점으로 삼는다. S83에서 한 작업의 8단계를 본 뒤 S84에서 강사의 GitLab 적용 예시로 들어간다. S91–S92는 자기선호와 오류 귀속을 다룬 두 연구를 원문 범위에서 비교한다. S93 외부 상태에 이어 S94에서 Codex 로컬 메모리를 2분간 소개한다. S98에서 자동화할 일과 사람의 판단을 골라 ACT5로 연결한다.
+DEC-0159 · S78–S99 · 22장 · 89분. S77의 점심 뒤 질문과 첫 검토 지적을 출발점으로 삼는다. S83에서 한 작업의 8단계를 본 뒤 S84에서 강사의 GitLab 적용 예시로 들어간다. S91–S92는 자기선호와 오류 귀속을 다룬 두 연구를 원문 범위에서 비교한다. S93 외부 상태에 이어 S94에서 Codex 로컬 메모리를 2분간 소개한다. S98에서 자동화할 일과 사람의 판단을 고르고, S99에서 완료·중단 기준을 담은 /goal 요청을 읽은 뒤 ACT5로 넘어간다.
 
 <details>
 <summary>이전 판본 안내</summary>
@@ -1365,7 +1365,7 @@ Reflection 2분 + Q&A 7분 + Transition 2분
 **Speaker Flow:**
 0–2분 성찰. 각자 업무 하나를 떠올리고 반복해서 맡길 일과 사람이 결정할 일을 짝지어 본다. 직접 실습이나 결과 제출은 없다.
 2–9분 질의응답. 예를 들면 테스트 실행은 맡기고, 예외 허용과 병합은 근거를 본 사람이 판단한다. 역할·도구·승인선에 관한 질문을 받되 조직별 값은 현장 확인으로 남긴다.
-9–11분 전환. 청중이 고른 개입 지점을 회수한 뒤 “우리 업무에 남길 구성과 덜어낼 구성은 무엇인가?”로 ACT5를 연다.
+9–11분 전환. 청중이 고른 일에서 완료를 입증할 기록과 사람이 개입할 조건을 각각 한 가지 짚는다. 두 조건이 Codex 목표 요청에 어떻게 들어가는지 S99에서 살펴본다.
 
 **Evidence / Source:**
 DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 14쪽의 설계 또는 토의 주제를 강의 맥락에 맞게 재구성했다.
@@ -1389,7 +1389,7 @@ N/A — 정적 운영 설계 도식. 질문이 없으면 검사·승인 한 쌍�
 질문이 없으면 “테스트를 자동화했는데 병합 근거가 비었다면, 다음 판단은 누가 하고 무엇을 더 요청할까요?”로 토의를 연다.
 
 **Transition:**
-“우리 팀이 맡길 일과 사람이 판단할 지점을 정했습니다. 다음 ACT에서는 그 일을 위해 무엇을 조합하고 무엇을 덜어낼지 봅니다.”
+“팀에서 맡길 일과 사람이 결정할 지점을 정했습니다. Codex에 이 일을 맡긴다면, 언제 완료하고 언제 멈출지 어떻게 적을까요?”
 
 **Time Management:**
 Reflection 2분 + Q&A 7분 + Transition 2분. 8분 30초에 마지막 질문을 받고 9분에 전환한다. 추가 질문은 교육 마지막 Q&A로 넘긴다.
@@ -1399,3 +1399,65 @@ LOCAL STATIC ARTIFACT — production/preview/full/S98.png 또는 production/ACT_
 
 **Validation Status:**
 DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
+
+## S99 — Codex에서 /goal로 목표와 완료 기준을 정한다
+
+**Slide ID:**
+S99
+
+**Working Title:**
+Codex에서 /goal로 목표와 완료 기준을 정한다
+
+**ACT / Section:**
+ACT 4 / 4T2 Goal request
+
+**Allocated Time:**
+2 minutes
+
+**Mode Split:**
+Lecture 2분
+
+**Primary Message:**
+한 대화에서 여러 차례 수정이 필요한 일은 /goal에 결과와 확인 기준을 적어 맡길 수 있다. 결과를 측정할 수 없을 때 무엇을 보고할지도 정한다.
+
+**Opening Question:**
+“메모리를 줄이라고 맡겼다면, 무엇을 확인해야 끝났다고 말할 수 있을까요?”
+
+**Speaker Flow:**
+0:00–0:35. S98에서 고른 맡길 일·완료 근거·사람의 개입 지점을 밝기 통계 작업에 대입한다. 화면의 입력 예시를 읽는다.
+/goal 밝기 통계의 임시 메모리 사용량을 줄여줘. 기존 출력 6개가 같고, 같은 입력에서 기준판보다 최대 할당량이 낮으면 완료해. 측정할 수 없으면 중단하고 이유를 알려줘.
+0:35–1:25. “기존 출력 6개가 같다”는 보존 조건, “같은 입력에서 기준판보다 최대 할당량이 낮다”는 판정 기준이다. 필요한 측정이 불가능하면 시도한 일과 중단 사유를 사람에게 넘긴다. 구현 변경이나 실측이 이 화면에서 일어난 적은 없다.
+1:25–2:00. /goal pause로 일시 정지하고 /goal resume으로 재개하는 방법을 짚는다. 완료 보고를 받으면 사람이 실제 검증 기록을 확인한다.
+
+**Evidence / Source:**
+DEC-0159 · SRC-0240, SRC-0241 · CLM-0046, CLM-0047. OpenAI, Using Goals in Codex (https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex), Long-running work (https://learn.chatgpt.com/docs/long-running-work). 명령과 수명 주기는 공식 문서에서 2026-11-03 확인. 밝기 통계 요청은 강의용 예시다.
+
+**Claim Boundary:**
+공식 문서의 목표 지속·일시 정지·재개 안내와 강의용 요청을 구분한다. 이 예시로 새 최적화를 실행하거나 메모리 감소량을 측정하지 않았다. Goal 설정만으로 별도 모델 검토, 권한 확대 또는 완료가 보장된다고 말하지 않는다.
+
+**Beginner Explanation:**
+검증할 조건을 정해 두면 결과를 받을 때 무엇을 살펴볼지 분명해진다. 예시에서는 여섯 출력과 같은 입력에서 측정한 메모리를 확인한다.
+
+**Advanced Insight:**
+보존 조건과 성과 지표를 분리한다. 기존과 다른 입력에서 나온 최대 할당량으로 목표 달성을 인정하지 않는다. 측정이 막히면 근거의 공백을 보고하고 다음 진행 여부를 정한다.
+
+**C++ Vision Bridge:**
+N/A — 앞서 사용한 밝기 통계 예시로 작업 목표의 작성법을 설명한다.
+
+**Demo Operation:**
+N/A — 정적 입력 예시. 실제 명령 입력이나 실환경 시연을 요구하지 않는다.
+
+**Audience Interaction:**
+“출력 6개는 일치하지만 최대 할당량을 측정하지 못했다면 어떤 보고가 필요할까요?”라고 짧게 묻는다.
+
+**Transition:**
+“목표와 완료를 판단할 근거를 적었습니다. ACT5에서는 우리 업무에 어떤 구성과 검토 절차를 남길지 고르겠습니다.”
+
+**Time Management:**
+Lecture 2분. 35초까지 요청을 읽고, 1분 25초까지 보존·검증·중단 조건을 찾는다. 남은 35초에 제어 명령과 ACT5 연결을 짚는다.
+
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/preview/full/S99.png, production/preview/act4/S99.png 또는 production/ACT_4.pptx의 S99. 발표 환경에서 명령이 보이지 않으면 저장한 화면으로 진행한다.
+
+**Validation Status:**
+DOCUMENTED — 공식 안내 기반. 사내 계정·발표 PC에서의 Goal 사용, 실측 실행 및 리허설은 UNVERIFIED.

@@ -32,7 +32,7 @@ export function addPracticalTipBadge(slide, category, H) {
 }
 
 export function practicalTipIndexFactories(config, H) {
- const {C,text,line,rect}=H;
+ const {C,text}=H;
  return Object.fromEntries(config.indexes.map(index=>[index.slideId,p=>{
   const s=H.frame(p,index.slideId,index.title,`마지막 정리 · 찾아보기 ${index.sequence}/3`,
    '기존 팁의 제목·Slide ID를 모은 찾아보기 · DEC-0088',
@@ -41,6 +41,13 @@ export function practicalTipIndexFactories(config, H) {
   addPracticalTipBadge(s,'찾아보기',H);
   text(s,'필요한 상황이 생기면, 아래 Slide로 돌아오세요',64,174,1152,43,30,C.teal,true);
   const entries=index.tipSlideIds.map(id=>config.tips.find(t=>t.slideId===id));
+  drawTipIndexEntries(s,entries,H);
+  return s;
+ }]));
+}
+
+export function drawTipIndexEntries(s,entries,H) {
+ const {C,text,line,rect}=H;
   const columns=entries.length>4?2:1;
   const rows=Math.ceil(entries.length/columns);
   const width=columns===2?552:1152;
@@ -51,8 +58,6 @@ export function practicalTipIndexFactories(config, H) {
    line(s,x,y,width,C.line,1);
    rect(s,x,y+13,94,45,C.pale);
    text(s,entry.slideId,x,y+13,94,45,28,C.teal,true,H.FONT,'center');
-   text(s,entry.title,x+116,y+13,width-116,45,columns===2?25:32,C.ink,true);
+   text(s,entry.title,x+116,y+13,width-116,45,entry.fontSize??(columns===2?25:32),C.ink,true);
   });
-  return s;
- }]));
 }

@@ -15161,3 +15161,57 @@ Participants can distinguish local cross-chat recall, governed team guidance, an
 ## Follow-up
 
 Verify the feature and settings on the presentation machine and training account before offering a live demonstration.
+
+# DEC-0159 — Close ACT four with a Codex Goal request
+
+## Status
+
+ACCEPTED for the requested practical tip. Allocate two lecture minutes.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S98 asks the audience to choose which work can continue automatically, the evidence that would establish completion, and a decision to leave to a person.
+
+## Problem
+
+A presenter needs one concrete request that carries these choices into the next turn of work.
+
+## Decision
+
+Follow S98 with S99 in the existing verification-and-improvement tip category. In a training example, ask Codex to lower peak temporary allocation for the brightness task on the same input and preserve all six outputs. If the task cannot be measured, ask it to stop and report why. List the tip in S114. Keep the memories tip at S94.
+
+## Rationale
+
+The example lets a learner point to the goal, the comparison that would justify completion, and the point at which to stop.
+
+## Alternatives
+
+The earlier Goal pages described more product controls. One final two-minute example leaves room for the transition from the team reflection into ACT five.
+
+## Trade-offs
+
+ACT four covers S78–S99 (22 slides, 89 minutes). The full course covers 115 slides and 393 minutes. The preceding edition’s S99–S114 move to S100–S115 with their own durations and delivery modes intact.
+
+## Related Invariants
+
+INV-VERIFY-001, INV-LOOP-001, INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+ACT four, the ACT five index, the full deck, notes, the slide and template maps, the course schedule and the active delivery records.
+
+## Evidence
+
+OpenAI, *Using Goals in Codex* and *Long-running work* (SRC-0241, SRC-0240). Recheck dated 2026-11-03. CLM-0046/0047 retain their scope. The sample request does not establish an actual Goal run, model pairing, or measured improvement.
+
+## Training Relevance
+
+Participants can state what progress to check on the next turn and what evidence a person should receive when a task cannot be completed.
+
+## Follow-up
+
+Confirm the feature on the training account and presentation machine before showing a live session.

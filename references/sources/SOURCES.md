@@ -1406,12 +1406,12 @@ Title: Long-running work
 Organization / Authors: OpenAI
 Source Type: OFFICIAL_DOC
 URL: https://learn.chatgpt.com/docs/long-running-work
-Checked:2026-10-25
+Checked:2026-11-03 (S99, DEC-0159)
 Tier:1
 Key Evidence: Documents /goal for the desktop app, CLI and IDE; outcome, constraints and verification; existing permissions remain.
 Limitations: Target-account availability and successful execution are unverified.
 Volatility:HIGH
-Notes: DEC-0098; S99/S100; documented guidance adapted, no activation/Trial.
+Notes: Current S99 (DEC-0159), previously S99/S100 in the DEC-0098 edition. Documented usage, no live activation or trial.
 
 ### SRC-0241
 
@@ -1419,12 +1419,12 @@ Title: Using Goals in Codex
 Organization / Authors: OpenAI
 Source Type: OFFICIAL_DOC
 URL: https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex
-Checked:2026-10-25
+Checked:2026-11-03 (S99, DEC-0159)
 Tier:1
 Key Evidence: Describes thread-scoped persistent objectives, evidence-based continuation and lifecycle/budget boundaries.
 Limitations: No automatic heterogeneous code-review assignment or course efficacy result is established.
 Volatility:HIGH
-Notes: DEC-0098; S99/S100; documented guidance adapted, no activation/Trial.
+Notes: Current S99 (DEC-0159), previously S99/S100 in the DEC-0098 edition. Documented usage, no live activation or trial.
 
 ### SRC-0242
 

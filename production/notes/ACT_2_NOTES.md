@@ -1,6 +1,13 @@
 # ACT 2 — Speaker Notes
 
+DEC-0159 · 115장·393분. ACT 2 · S38–S59 · 22장 · 90분.
+
+<details>
+<summary>이전 판본 표지</summary>
+
 Current: DEC-0138 /113slides/389minutes. ACT2: S38–S59, 22slides/90minutes.19fields per slide. Former114-edition S68 and its3Lecture minutes are deleted without absorption. All remaining slide allocations stay unchanged.
+
+</details>
 
 <details>
 <summary>이전 Notes 표지·제작 기준 보존</summary>
@@ -189,7 +196,7 @@ Transition:
 “서로 다른 세 작업에서도 같은 프로젝트 기준이 필요한지 보겠습니다.”라고 S39로 이동한다.
 
 Time Management:
-Transition1분. ACT2 총90분, 전체389분을 유지한다. 제목과 연결만 안내하고1분에 S39로 넘긴다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
+Transition1분. ACT2 총90분을 유지한다. 제목과 연결만 안내하고1분에 S39로 넘긴다. 실제 시간 적합성은 리허설 전까지 UNVERIFIED다.
 
 Fallback:
 LOCAL STATIC ARTIFACT — production/preview/full/S38.png 또는 production/ACT_2.pptx의 같은 제목 장. 실제 제품 실행으로 대체하지 않는다.
