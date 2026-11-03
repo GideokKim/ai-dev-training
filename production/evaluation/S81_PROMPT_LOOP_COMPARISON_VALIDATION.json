@@ -3,30 +3,31 @@
     [
       "AI_Dev_Training_Full",
       113,
-      "366d8765bd9168d83996217d65c46c9dab0b7002c2378088573baedbcc043f40"
+      "cc29515bdaf6f2f7645749c47098832ed617322744b9cb57f5e18a6994e608c5"
     ],
     [
       "ACT_4",
       20,
-      "977aa35164d979b881c16256cd3875f7b7b32a9de060a49582a11e89ca43722d"
+      "abd996f3f5d706948011624ad351c5d68ef5f5c4c2b0ddedb87c6bf3d8c0c76f"
     ]
   ],
   "minutes": 389,
-  "unchangedScreens": 112,
+  "unchangedScreens": 111,
   "notesCompared": 133,
   "changedScreens": [
-    81
+    81,
+    82
   ],
   "act4Minutes": 85,
   "slideCount": 113,
+  "fieldChecks": {
+    "Windows PowerPoint": "UNVERIFIED",
+    "projection and rehearsal": "UNVERIFIED"
+  },
   "nativeTable": {
     "slide": "S81",
     "columns": 3,
     "headerRows": 1,
     "bodyRows": 4
-  },
-  "fieldChecks": {
-    "Windows PowerPoint": "UNVERIFIED",
-    "projection and rehearsal": "UNVERIFIED"
   }
 }

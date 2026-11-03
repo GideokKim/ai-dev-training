@@ -2107,21 +2107,21 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Working Title:** 기존 프롬프팅과 루프 엔지니어링
 - **Primary Role:** S79의 사람 주도 재요청과 S80의 검토 기반 반복을 한 작업의 두 진행 방식으로 비교한다.
 - **Audience Question:** 누가 다음 단계를 시작하고, 어떤 정보와 결과를 넘기는가?
-- **Core Message:** 사람이 답을 보고 다음 요청을 쓰는 방식과, 사람이 정한 목표·기준 안에서 검토 결과가 다음 수정을 이끄는 방식을 구분한다.
+- **Core Message:** 다음 지시를 사람이 이어가는 대화와, 목표에 따라 구현·검증이 서로 점검하고 외부 파일에 기록한 작업 지식을 다시 쓰는 루프를 비교한다.
 - **Story Beat:** BEAT-073, BEAT-077, BEAT-078, BEAT-079
-- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0151
+- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0151, DEC-0153
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — S79–S80의 두 작업 흐름을 비교한다. 실제 제품의 전체 동작, 모든 프롬프팅의 한계, 루프의 성과·완료 보장은 주장하지 않는다.
-- **Visual Concept:** 편집 가능한 3열 표에 항목, 기존 프롬프팅, 루프 엔지니어링을 둔다. 누가 끌고 가나?, 컨텍스트, 오류가 나면, 결과물의 네 행에서 다음 지시·인계할 정보·재검사·제출 또는 중단 기록을 나란히 읽는다.
+- **Claim Status:** TEACHING MODEL — 세션 안에만 둔 맥락과 외부 파일에 명시적으로 남긴 기록의 대비다. 개인 역량에 따른 편차와 독립 작업의 병렬 운용은 설계상 설명이며, 채팅 이력 삭제나 품질·속도의 실측을 뜻하지 않는다.
+- **Visual Concept:** 기존 프롬프팅과 루프 엔지니어링을 짧은 구로 대비하는 편집 가능한 3열 표. 사람이 매번 다음 지시 / 목표와 기준에 따라 루프 진행, 세션 한정 맥락 / 외부 파일에 축적·재사용, 사람의 오류 확인·수정 지시 / 구현·검증의 교차 점검, 개인 역량에 따른 결과 편차 / 작업 지식의 자산화와 독립 작업 병렬 실행을 네 행에 둔다.
 - **Demo / Case Connection:** CASE-LOOP-01 · S79와 S80이 같은 밝기 통계 지적을 전달한 두 방식. 표는 교육용 정리다.
 - **Beginner Payoff:** 검토 뒤 사람이 다시 지시하는 경우와 같은 검사 결과가 다음 회차를 시작하는 경우를 구분한다.
-- **Advanced Payoff:** 프롬프트는 루프에서도 쓰인다. 다음 행동의 시작 조건, 회차 간 인계, 완료·중단 기준을 별도로 설계한다.
+- **Advanced Payoff:** 구현·검증 역할은 서로의 결과를 점검한다. 외부 파일에 누적한 작업 지식을 다시 쓰고, 의존성이 분리된 작업을 병렬로 실행할 수 있다.
 - **C++ Vision Bridge:** N/A — 같은 밝기 통계 예시의 두 작업 방식에 집중한다.
-- **Speaker Intent:** 두 경우 모두 목표와 완료 기준은 사람이 정한다. S79/S80에서 다음 회차에 누가 무엇을 전달했는지 같은 행에서 비교한다.
+- **Speaker Intent:** 양쪽 모두 사람이 목표와 기준을 정한다. 세션에서만 사용한 작업 맥락, 두 역할의 교차 점검, 파일로 남긴 지식의 재사용을 구체적으로 짚는다. 결과 편차는 정성적 예시로 설명한다.
 - **Transition:** 검토 결과로 다음 행동을 이어가려면 어떤 역할을 연결할까?
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
-- **Evidence / Decision References:** DEC-0151, DEC-0149, BEAT-074, BEAT-073, BEAT-077, BEAT-078, BEAT-079, CASE-LOOP-01, CLM-0021
+- **Evidence / Decision References:** DEC-0153, DEC-0151, DEC-0149, BEAT-074, BEAT-073, BEAT-077, BEAT-078, BEAT-079, CASE-LOOP-01, CLM-0021
 - **Audience Footer:** 없음. 비교 범위와 출처는 발표 Notes에 둔다.
 
 #### S82 — 루프를 구성하는 여섯 가지 요소
@@ -2134,10 +2134,10 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Audience Question:** 무엇이 작업을 시작하고, 어디서 무엇을 수행하며, 다음 회차는 어떤 기록을 이어받을까?
 - **Core Message:** 오토메이션은 시작 조건을, 워크트리는 작업별 공간을, 스킬은 반복 절차를 맡는다. 커넥터로 외부 자료를 연결하고 서브에이전트에 검토를 맡길 수 있으며 상태/메모리로 다음 실행에 필요한 근거를 남긴다.
 - **Story Beat:** BEAT-051
-- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0152
+- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0154, DEC-0152
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 작업에 필요한 역할을 선택하는 교육용 설계다. 여섯 요소의 필수성, graypipe에서 모두 실행된 이력, 특정 제품·계정의 기능 가용성을 주장하지 않는다.
-- **Visual Concept:** 편집 가능한 3열×2행 카드에 오토메이션, 워크트리, 스킬, 커넥터, 서브에이전트, 상태/메모리 순으로 이름·질문·역할을 표시한다. 단계 번호 없이 한 화면에서 역할을 골라 읽는다.
+- **Visual Concept:** 편집 가능한 3열×2행 카드에 오토메이션, 워크트리, 스킬, 커넥터, 서브에이전트, 상태/메모리를 놓는다. 시계, 분기, 체크리스트, 플러그, 역할 분담, 기록장 아이콘으로 역할을 구별한다. 이름 아래에는 기능을 한 줄로 쓴다.
 - **Demo / Case Connection:** 정적 설계 예시. CASE-LOOP-01의 검사·검토 인계에 필요한 역할을 구분한다. S88에서 실제 GitLab 사례를 소개한다.
 - **Beginner Payoff:** 언제 시작할지, 어디서 수정할지, 무엇을 기억할지를 구체적인 도구 역할에 연결한다.
 - **Advanced Payoff:** 작업 디렉터리와 위임 범위, 외부 연결 권한, 회차 사이에 남길 정보의 범위를 별도로 정한다.
@@ -2146,7 +2146,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 검토를 맡은 에이전트는 어떤 근거를 다음 구현자에게 넘길까? 밝기 통계 첫 후보의 코드를 S83에서 살펴본다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 3분 = 5분
-- **Evidence / Decision References:** DEC-0152, DEC-0151, BEAT-051, INV-LOOP-001, CLM-0021
+- **Evidence / Decision References:** DEC-0154, DEC-0152, DEC-0151, BEAT-051, INV-LOOP-001, CLM-0021
 - **Audience Footer:** 별도 근거 문구 없음. M 연계는 신규 확장으로 표시한다.
 
 #### S83 — 어떤 지적을 다음 수정에 넘길까?

@@ -121,11 +121,11 @@ export function loopOperationsFactories(H) {
     S81(p) {
       const s=common(p,'S81','기존 프롬프팅과 루프 엔지니어링','같은 밝기 통계 작업을 진행하는 두 방식','','TEACHING_MODEL','M5 · M6');
       const values=[
-        ['항목','기존 프롬프팅 · 사람이 이어가는 대화','루프 엔지니어링 · 검토로 이어가는 작업'],
-        ['누가 끌고 가나?','사람이 답을 보고\n다음 지시를 내린다.','사람이 목표와 기준을 정하면\n루프가 다음 행동을 고른다.'],
-        ['컨텍스트','사람이 필요한 코드와 로그를 골라\n다음 요청에 담는다.','목표와 기준을 유지하고, 최신 수정안과\n검사 결과를 다음 회차에 넘긴다.'],
-        ['오류가 나면','사람이 오류를 확인하고\n수정과 재검사를 요청한다.','검사에서 찾은 오류를 다음 수정에 반영하고\n같은 기준으로 다시 검사한다.'],
-        ['결과물','이번 요청의 답변이나 수정안.\n사람이 완료 여부를 확인한다.','완료 기준을 확인한 수정안과 검사 기록.\n중단하면 사유와 남은 문제를 기록한다.']
+        ['항목','기존 프롬프팅','루프 엔지니어링'],
+        ['누가 끌고 가나?','사람이 매번 다음 단계를 지시','목표와 기준에 따라 루프가 진행'],
+        ['컨텍스트','세션에만 둔 맥락은 종료 시 끊김','외부 파일에 축적해 다음 작업에 재사용'],
+        ['오류가 나면','사람이 확인하고 수정 지시','구현·검증이 서로 점검해 오류를 걸러냄'],
+        ['결과물','개인 역량에 따라 결과 편차가 큼','작업 지식은 자산으로 축적\n독립 작업은 병렬 실행']
       ];
       const table=s.tables.add({rows:values.length,columns:3,left:64,top:172,width:1152,height:428,columnWidths:[191,449,512],values});
       table.styleOptions={headerRow:false,bandedRows:false};
@@ -142,21 +142,55 @@ export function loopOperationsFactories(H) {
     },
     S82(p) {
       const s=common(p,'S82','루프를 구성하는 여섯 가지 요소','한 목표의 구현·검토·수정을 연결하는 설계','','TEACHING_MODEL','신규 확장');
+      // Original pictograms use native shapes so their appearance does not depend on an emoji font.
+      function icon(x,y,ink,tint,draw) {
+        const badge=rect(s,x,y,60,60,tint); badge.borderRadius=12;
+        const box=(left,top,w,h,fill,stroke='none',width=0)=>rect(s,x+left,y+top,w,h,fill,stroke,width);
+        const oval=(left,top,w,h,fill,stroke='none',width=0)=>s.shapes.add({
+          geometry:'ellipse',position:{left:x+left,top:y+top,width:w,height:h},fill,line:{fill:stroke,width}
+        });
+        const stroke=(...points)=>s.shapes.add({
+          geometry:'custom',position:{left:x,top:y,width:60,height:60},fill:'none',line:{fill:ink,width:3},
+          customPaths:[{width:60,height:60,commands:points.map(([px,py],i)=>({[i?'lineTo':'moveTo']:{x:px,y:py}}))}]
+        });
+        draw({ink,box,oval,stroke});
+      }
       const components=[
-        ['오토메이션','언제 시작할까?','정해 둔 시각이나 이벤트에\n맞춰 작업을 시작한다.'],
-        ['워크트리','어디서 수정할까?','같은 저장소에서 작업별로\n별도 디렉터리를 쓴다.'],
-        ['스킬','어떤 절차를 따를까?','테스트·측정처럼 반복하는\n절차를 꺼내 쓴다.'],
-        ['커넥터','무엇과 연결할까?','허용된 이슈 트래커에 연결해\n이슈를 읽고 검토 결과를 남긴다.'],
-        ['서브에이전트','누구에게 맡길까?','별도 에이전트에 검토를 맡기고\n그 지적을 구현에 넘긴다.'],
-        ['상태/메모리','어디서 이어갈까?','수정안·검사 결과·남은 일을\n기록해 다음 실행에 넘긴다.']
+        ['오토메이션','시각·이벤트에 맞춰 작업 시작','#176B7C','#DFF2F2',({ink,oval,stroke})=>{
+          oval(12,12,36,36,C.white,ink,3); stroke([30,18],[30,30],[39,35]);
+        }],
+        ['워크트리','작업별 변경을 별도 폴더로 분리','#41628D','#E4ECF7',({ink,oval,stroke})=>{
+          stroke([19,16],[19,46]); stroke([19,34],[33,34],[42,25],[42,18]);
+          for(const [cx,cy] of [[19,15],[19,46],[42,16]]) oval(cx-4,cy-4,8,8,C.white,ink,3);
+        }],
+        ['스킬','반복할 절차를 저장해 재사용','#376955','#E4F2E8',({ink,box,stroke})=>{
+          box(15,12,31,38,C.white,ink,2.5); box(23,9,15,7,ink);
+          for(const cy of [25,36]) {stroke([20,cy],[23,cy+3],[28,cy-3]); stroke([32,cy],[40,cy]);}
+        }],
+        ['커넥터','외부 이슈를 읽고 결과를 기록','#94601D','#F9EDD8',({ink,box,stroke})=>{
+          stroke([24,11],[24,22]); stroke([36,11],[36,22]);
+          const plug=box(19,21,22,16,C.white,ink,3); plug.borderRadius=4;
+          stroke([30,37],[30,43],[35,48],[44,48]);
+        }],
+        ['서브에이전트','검토를 나눠 맡기고 결과를 회수','#795C8F','#F0E8F6',({ink,oval,box})=>{
+          for(const [cx,cy] of [[40,19],[21,27]]){
+            const body=box(cx-10,cy+8,20,12,ink);body.borderRadius=5;
+            oval(cx-7,cy-7,14,14,C.white,ink,2.5);
+          }
+        }],
+        ['상태/메모리','진행 기록으로 다음 작업 재개','#386B83','#E1EFF5',({ink,box,stroke})=>{
+          const cover=box(15,10,32,40,C.white,ink,3);cover.borderRadius=3;
+          stroke([22,11],[22,49]); stroke([28,23],[40,23]); stroke([28,32],[38,32]);
+          box(35,12,6,7,ink);
+        }]
       ];
-      components.forEach(([name,question,description],i)=>{
+      components.forEach(([name,description,ink,tint,draw],i)=>{
         const x=64+(i%3)*391;
-        const y=169+Math.floor(i/3)*207;
-        const card=rect(s,x,y,370,186,C.white,C.line,1.3);card.borderRadius=8;
-        text(s,name,x+18,y+10,334,43,33,C.teal,true);
-        text(s,question,x+18,y+61,334,31,24,C.ink,true);
-        text(s,description,x+18,y+103,336,66,24,C.sub);
+        const y=175+Math.floor(i/3)*202;
+        const card=rect(s,x,y,370,175,C.white,C.line,1.3);card.borderRadius=8;
+        icon(x+17,y+20,ink,tint,draw);
+        text(s,name,x+93,y+25,260,50,33,C.teal,true);
+        text(s,description,x+18,y+101,337,48,25,C.ink);
       });
       text(s,'작업에 필요한 역할을 골라 연결한다.',64,571,1152,37,25,C.teal,true);
       return s;

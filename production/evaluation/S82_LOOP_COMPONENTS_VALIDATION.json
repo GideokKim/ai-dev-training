@@ -3,18 +3,19 @@
     [
       "AI_Dev_Training_Full",
       113,
-      "89a4603495c3ae49a047e19d23d7477ad2c0c709ff28e754bb40f3087475521d"
+      "cc29515bdaf6f2f7645749c47098832ed617322744b9cb57f5e18a6994e608c5"
     ],
     [
       "ACT_4",
       20,
-      "d1be37eecee3c513d8503a793b814f54ccd504a00e071a00451f1f540864fcd0"
+      "abd996f3f5d706948011624ad351c5d68ef5f5c4c2b0ddedb87c6bf3d8c0c76f"
     ]
   ],
   "minutes": 389,
-  "unchangedScreens": 112,
+  "unchangedScreens": 111,
   "notesCompared": 133,
   "changedScreens": [
+    81,
     82
   ],
   "act4Minutes": 85,
@@ -22,5 +23,10 @@
   "fieldChecks": {
     "Windows PowerPoint": "UNVERIFIED",
     "projection and rehearsal": "UNVERIFIED"
+  },
+  "roleCards": {
+    "slide": "S82",
+    "count": 6,
+    "artwork": "editable PowerPoint pictograms"
   }
 }

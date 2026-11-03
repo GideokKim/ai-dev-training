@@ -14756,3 +14756,144 @@ to reuse a procedure, connect external work, delegate and resume.
 
 Check that each card remains legible on the presentation PC and that
 the transition to S83 makes sense without the retired S82 code panel.
+
+# DEC-0153 — Condense the four workflow comparisons on S81
+
+## Status
+
+ACCEPTED by the presenter in the four S81 table annotations.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S79 and S80 compare two ways to continue the same task after review.
+DEC-0151 put them side by side. The presenter wanted each row to make
+its distinction at a glance while preparing the six roles on S82.
+
+## Problem
+
+The previous context row explained a handoff within one task. It did not
+show what the next session could reuse. The error and output rows focused
+on repeated checks and the final report, leaving out cross-checks, work
+knowledge and reuse across independent tasks.
+
+## Decision
+
+Keep the editable three-column table and shorten its headings and cells.
+Contrast human-issued next steps with a loop acting on the person's goal
+and criteria. Compare session-only working context with external files
+that accumulate state for later tasks. Show implementation and review
+cross-checking their work. Contrast variability with individual skill
+against retained knowledge and the option to run independent tasks in
+parallel.
+
+## Rationale
+
+A short phrase in each cell lets the presenter read across a row rather
+than alternating between two long blocks of prose. The external record
+and division of work lead into the six roles on S82.
+
+## Alternatives
+
+The earlier completion and handoff discussion under DEC-0151 remains
+available in the decision history and in the course's review example.
+
+## Trade-offs
+
+Keep the qualifications in the speaker notes. Session-only state needs
+an explicit handoff for a later session. Parallel work requires separable
+tasks. Cross-checking supplies a way to catch errors; its effectiveness
+and the magnitude of quality variation have not been measured here.
+
+## Related Invariants
+
+INV-LOOP-001, INV-VERIFY-001 and INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+S81 in ACT4 and the full deck, its speaker notes, slide and template map
+records, the claim boundary and the ACT4 timing table.
+
+## Evidence
+
+The presenter's four annotations define the teaching comparison. S79 and
+S80 supply the two workflow examples. S82 introduces roles including
+workspaces, delegation and persistent state. No new Trial is claimed.
+
+## Training Relevance
+
+A developer can explain who carries the next turn, what state survives
+a session and where verification and parallel execution fit.
+
+## Follow-up
+
+Confirm that the compact comparison reads across each row on the
+presentation PC. Keep the four-minute allocation.
+
+# DEC-0154 — Pair each loop role with an icon and a short caption
+
+## Status
+
+ACCEPTED by the presenter in the S82 annotation.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S82 follows the workflow comparison with six roles a team can combine
+in a loop. DEC-0152 establishes the roles and their order.
+
+## Problem
+
+Each card asked a question and then answered it. Reading both lines
+made it harder to compare the six roles during the five-minute segment.
+
+## Decision
+
+Use a clock for automation, a branch for worktrees, a checklist for
+skills, a plug for connectors, a team for delegated roles and a notebook
+for saved state. Put one short action caption under each role name in
+the existing three-column, two-row grid.
+
+## Rationale
+
+The icon and name identify the component, leaving its caption to explain
+the job it does. Speaker notes carry the examples and qualifications.
+
+## Alternatives
+
+Retain the question-and-answer card design in the DEC-0152 history.
+
+## Trade-offs
+
+The shorter captions rely on the presenter notes for details such as
+connector permissions, separate workspaces and the items to persist.
+The role names remain visible alongside their icons.
+
+## Related Invariants
+
+INV-LOOP-001, INV-VERIFY-001 and INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+ACT4 and full-deck S82, the maps, the approved timing table and the
+ACT4 and consolidated speaker notes.
+
+## Evidence
+
+The presenter's S82 visual and copy annotation and the six-role
+teaching model from DEC-0152. The examples carry no new execution claim.
+
+## Training Relevance
+
+Participants can scan the six options and pick the roles a task needs.
+
+## Follow-up
+
+Check the labels and icons on the presentation PC. Retain the two
+lecture minutes and three case minutes.
