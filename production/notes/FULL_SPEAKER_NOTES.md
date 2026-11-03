@@ -1,6 +1,6 @@
 # Full Speaker Notes
 
-DEC-0146 · 113장 · 389분. ACT4는 밝기 통계의 같은 검토 지적을 사람이 다시 전달할 때와 다음 구현이 직접 이어받을 때를 비교한 뒤, S88에서 GitLab 팀 사례를 연다. ACT5 찾아보기에서는 S83·S85·S95를 안내한다.
+DEC-0149 · 113장 · 389분. ACT4는 점심 뒤 받은 구현 질문에서 이어진다. 첫 구현의 같은 검토 지적을 사람의 재지시와 루프 인계로 비교한다. S88은 GitLab 팀 사례를 열고, ACT5 찾아보기에서는 S83·S85·S95를 안내한다.
 
 <details>
 <summary>이전 판본 안내</summary>
@@ -4695,7 +4695,7 @@ Transition 1분
 “맡긴 일의 첫 결과가 나왔습니다. 검토에서 문제를 발견하면 그다음에는 어떤 일이 생길까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Transition) S77의 열린 질문을 받아 제목과 부제 ‘한 번 맡긴 일이 첫 결과에서 멈추는 순간’을 읽는다. 다음 화면에서 개발자가 같은 부탁을 왜 또 하게 되는지 보자고 안내한다.
+1. (0:00–1:00 / Transition) 점심 뒤 받은 “이대로 구현을 시작할까요?”를 떠올리게 하고 제목과 부제를 읽는다. 다음 장은 이 질문에 답하는 순간부터 이어진다.
 
 **Evidence / Source:**
 DEC-0097, DEC-0145, DEC-0146 · BEAT-072 · CLM-0021.
@@ -4719,7 +4719,7 @@ N/A — 정적 제목을 읽고 바로 사례로 이동한다.
 N/A — 제목을 짚고 바로 사례를 연다.
 
 **Transition:**
-“밝기 통계 결과를 유지하면서 임시 메모리를 줄여 달라고 한 번 맡겼습니다. 그런데 왜 같은 사람이 또 말하게 될까요?”
+“점심 전에 수정과 테스트를 맡겼는데 계획에서 멈췄습니다. 이제 그 질문에 답해 볼까요?”
 
 **Time Management:**
 Transition 1분 = 1분. 제목 소개를 1분에 닫는다.
@@ -4728,15 +4728,15 @@ Transition 1분 = 1분. 제목 소개를 1분에 닫는다.
 LOCAL STATIC ARTIFACT — production/preview/full/S78.png 또는 production/ACT_4.pptx의 S78. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0146. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_LOOP_MOTIVATION.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0149. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/S79_S82_LUNCH_CONTINUITY.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
-## S79 — 한 가지 일을 맡겼는데, 왜 계속 내가 “다시”라고 말할까?
+## S79 — 시작하라고 답했다. 그런데 한 번 더 내가 필요했다
 
 **Slide ID:**
 S79
 
 **Working Title:**
-한 가지 일을 맡겼는데, 왜 계속 내가 “다시”라고 말할까?
+시작하라고 답했다. 그런데 한 번 더 내가 필요했다
 
 **ACT / Section:**
 ACT 4 / 4R1 Goal-loop entry
@@ -4748,23 +4748,23 @@ ACT 4 / 4R1 Goal-loop entry
 Lecture 2분 + Case 2분
 
 **Primary Message:**
-목표와 기준이 같은데도, 검토에서 찾은 문제를 다음 수정으로 옮기는 지시는 개발자가 다시 입력한다.
+개발자는 계획 뒤에 구현을 시작시키고, 첫 구현의 검토 뒤에는 지적을 다시 수정 요청으로 전달한다. 두 번 모두 원래 맡긴 일을 이어 간다.
 
 **Opening Question:**
-“처음의 요청과 검토 뒤 사람이 한 말을 비교해 보세요. 새로 정한 목표가 있나요?”
+“점심 뒤 ‘이대로 구현을 시작할까요?’라는 질문을 받았습니다. 여기에 답하면 내 차례는 끝날까요?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 첫 요청에서 밝기 통계 출력을 보존하고 임시 메모리를 줄이겠다는 목표를 짚는다. 첫 구현에는 전체 픽셀을 복사한 임시 목록이 남아 있다. 호박색 검토 결과에서 전체 복사가 남았다는 지적을 읽고 잠시 멈춘다.
-2. (2:00–4:00 / Case) 오른쪽에서 사람이 다시 입력한 문장 “그 복사를 없애고, 같은 기준으로 다시 확인해줘.”를 읽는다. 처음과 같은 사람, 같은 목표인데 이번에는 이미 나온 지적을 다음 작업으로 넘기기 위해 입력했다는 점을 짚는다. 수정 결과는 이 장에서 말하지 않는다.
+1. (0:00–2:00 / Lecture) S77의 마지막 질문과 이어지는 개발자의 답 “응, 시작해.”를 읽는다. 첫 번째 입력으로 계획에서 구현으로 넘어간다. 이어 첫 구현을 검토했더니 전체 픽셀을 복사한 임시 목록이 남았다는 지적이 나왔다.
+2. (2:00–4:00 / Case) 개발자가 다시 입력하는 “그 복사를 없애고, 같은 기준으로 다시 확인해줘.”를 읽는다. 처음에는 계획에서 구현으로, 이번에는 검토에서 수정으로 넘어가게 했다. 점심 전의 메모리 목표는 그대로다.
 
 **Evidence / Source:**
-CASE-LOOP-01 · DEC-0097, DEC-0145, DEC-0146 · BEAT-073/077. 실제 밝기 통계 문제의 배경은 TRIAL-008과 STATE-04-PERF다.
+S77의 교육용 대화, CASE-LOOP-01 · DEC-0148, DEC-0149 · BEAT-073. TRIAL-008과 STATE-04-PERF는 밝기 통계 작업 배경의 출처다.
 
 **Claim Boundary:**
-CONCEPTUAL. 두 요청과 첫 검토는 실제 데모 대화가 아닌 교육용 재구성이다. 재지시 횟수나 소요 시간을 측정하지 않았다.
+CONCEPTUAL. 점심 대화의 “응, 시작해.”와 이어지는 지적·재지시는 교육용으로 구성했다. 실제 제품 로그, 소요 시간, 재지시 빈도에 대한 관찰값은 없다.
 
 **Beginner Explanation:**
-검토 의견은 이미 있다. 이 사례에서는 그 의견을 받아 다음 수정을 시작시키려고 사람이 같은 부탁을 다시 한다.
+방금 “시작해”라고 답한 개발자가 이미 나온 검토 의견을 보고 한 번 더 “고쳐줘”라고 말한다.
 
 **Advanced Insight:**
 새 요구사항을 정하거나 예외를 승인할 때 필요한 사람의 판단과, 고정된 목표에서 검토 의견을 단순히 전달하는 일을 구분한다.
@@ -4773,30 +4773,30 @@ CONCEPTUAL. 두 요청과 첫 검토는 실제 데모 대화가 아닌 교육용
 N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-N/A — 첫 요청과 검토 지적을 먼저 읽고, 사람이 보낸 후속 요청의 ‘다시’를 가리킨다.
+N/A — 상단의 질문·답변을 먼저 읽고 첫 구현의 검토 지적에서 오른쪽 개발자 요청으로 이동한다.
 
 **Audience Interaction:**
-처음 요청과 후속 요청 중 무엇이 달라졌는지 잠시 비교하게 한다. 목표는 같고 복사가 남은 위치만 구체화됐음을 확인한다.
+두 번의 사람 입력에서 달라진 것이 목표인지, 작업 단계인지 짚어 보게 한다.
 
 **Transition:**
-“같은 목표와 같은 검토 의견을 그대로 두겠습니다. 개발자가 한 번 더 입력하던 연결만 바꾸면 어떨까요?”
+“첫 구현에서 같은 지적이 나온 순간을 다시 보겠습니다. 개발자가 직접 옮기지 않아도 이 지적이 다음 수정을 시작할 수 있을까요?”
 
 **Time Management:**
-강의 2분 + 사례 2분. 처음 요청과 남은 복사에 2분, 같은 사람이 다시 요청하는 장면과 다음 장 연결에 2분을 쓴다.
+강의 2분은 점심 뒤의 응답과 첫 구현, 사례 2분은 검토 지적과 두 번째 입력에 배정한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S79.png 또는 production/ACT_4.pptx의 S79. 첫 요청, 남은 전체 복사, 사람의 재지시 순서로 읽는다.
+LOCAL STATIC ARTIFACT — production/preview/full/S79.png 또는 production/ACT_4.pptx의 S79. 질문, “응, 시작해.”, 남은 복사, 개발자의 후속 요청 순으로 읽는다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0146. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_LOOP_MOTIVATION.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0149. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/S79_S82_LUNCH_CONTINUITY.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
-## S80 — 검토 결과가 다음 수정을 시작하게 하자
+## S80 — 같은 검토 결과가 다음 수정을 시작한다
 
 **Slide ID:**
 S80
 
 **Working Title:**
-검토 결과가 다음 수정을 시작하게 하자
+같은 검토 결과가 다음 수정을 시작한다
 
 **ACT / Section:**
 ACT 4 / 4R1 Goal-loop entry
@@ -4808,20 +4808,20 @@ ACT 4 / 4R1 Goal-loop entry
 Lecture 3분 + Case 1분
 
 **Primary Message:**
-검토 지적이 다음 구현의 입력이 되게 연결한다. 수정안은 처음의 완료 기준으로 다시 검토하고, 기준을 충족한 근거가 있을 때 마친다.
+같은 첫 검토 장면에서 개발자가 지적을 다시 입력하던 자리를 루프로 연결한다. 근거가 부족하면 확인하고, 수정할 문제가 남으면 다시 구현한다.
 
 **Opening Question:**
-“같은 전체 복사 문제가 발견됐습니다. 이번에는 누가 다시 요청을 입력하나요?”
+“앞 장과 같은 지적입니다. 이번에는 이 지적을 누가 다음 구현에 넘기나요?”
 
 **Speaker Flow:**
-1. (0:00–3:00 / Lecture) S79와 같은 상단의 파란 목표와 왼쪽의 호박색 검토 지적을 가리킨다. 이번에는 지적이 다음 구현으로 직접 이어진다. 전체 픽셀을 복사하는 지적을 받아 행별 집계로 고치고 처음의 기준으로 돌아간다. 검토 후 개발자가 다시 입력하는 단계가 사라진 지점을 짚는다.
-2. (3:00–4:00 / Case) 수정안이 기준에 미달하면 지적을 반영해 다시 구현하고, 충족 근거가 있으면 완료로 나가는 두 방향을 짚는다. 행별 집계로 고쳤다는 사실로 메모리·시간 목표가 달성됐다고 판정하지 않는다.
+1. (0:00–3:00 / Lecture) “같은 장면을 루프로 연결하면”이라는 관점에서 시작한다. S79와 같은 위치의 “전체 픽셀을 복사한 임시 목록이 남았다”를 가리킨다. 방금 사람의 재지시가 있던 자리를 지적에서 다음 구현으로 직접 잇는다. 행별로 집계하도록 고친 뒤 원래 기준으로 다시 확인한다.
+2. (3:00–4:00 / Case) 출력·메모리·시간 재검토에서 충족 근거가 모이면 완료하고, 수정 가능한 문제가 남으면 다시 구현하는 두 경로를 짚는다. 행별 집계의 성능은 이 도식으로 판정하지 않는다.
 
 **Evidence / Source:**
-CASE-LOOP-01 · DEC-0097, DEC-0145, DEC-0146 · BEAT-078/079. TRIAL-008과 STATE-04-PERF는 밝기 통계 문제의 배경이다.
+CASE-LOOP-01 · DEC-0097, DEC-0146, DEC-0149 · BEAT-077/078/079. TRIAL-008과 STATE-04-PERF는 문제 배경의 기록이다.
 
 **Claim Boundary:**
-TEACHING_MODEL. 검토 결과를 다음 구현으로 넘기고 재검토해 고치거나 끝내는 제어 흐름이다. 밝기 통계 두 회차는 CONCEPTUAL이며 실제 에이전트의 자율 완수나 성능 향상을 측정한 결과가 아니다.
+TEACHING_MODEL. S79의 첫 검토를 다른 인계 방식으로 재생한다. 구현·재검토 경로는 CONCEPTUAL이며 실제 연속 실행, 자율 완수나 성능 향상을 관찰했다는 뜻이 없다.
 
 **Beginner Explanation:**
 사람이 한 번 더 “다시”라고 말하던 자리에 검토 결과를 연결한다. 새 코드도 처음 정한 목표를 기준으로 평가한다.
@@ -4833,30 +4833,30 @@ TEACHING_MODEL. 검토 결과를 다음 구현으로 넘기고 재검토해 고�
 N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-N/A — 두 장에서 같은 목표와 검토 지적을 먼저 짚고, S80의 다음 구현·재검토·수정 복귀와 완료 출구를 따라간다.
+N/A — S79와 같은 검토 카드를 먼저 가리킨 뒤 직접 인계·재검토와 두 갈래의 종료 판단을 따라간다.
 
 **Audience Interaction:**
 두 장의 같은 지적 이후에 바뀐 동작 하나를 눈으로 찾게 한다. 개발자의 재입력이 사라지고 검토 결과가 다음 수정을 시작한다.
 
 **Transition:**
-“완료로 나가려면 어떤 근거가 있어야 할까요? 이번 작업의 기준을 세 줄로 살펴봅시다.”
+“점심 전에 맡긴 일입니다. 무엇을 보면 완료됐다고 말할 수 있을까요?”
 
 **Time Management:**
 강의 3분 + 사례 1분. 수동 재지시와 달라진 연결을 먼저 확인하고 수정·완료 분기를 한 번씩 따른다. 세 기준의 구체적인 검사법은 S81에서 짚는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S80.png 또는 production/ACT_4.pptx의 S80. 전체 복사 지적, 행별 집계 수정, 같은 기준의 재검토, 필요시 재수정 또는 근거로 완료 순서로 읽는다.
+LOCAL STATIC ARTIFACT — production/preview/full/S80.png 또는 production/ACT_4.pptx의 S80. S79와 같은 지적을 가리킨 뒤 직접 인계와 재검토 경로를 읽는다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0146. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_LOOP_MOTIVATION.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0149. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/S79_S82_LUNCH_CONTINUITY.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
-## S81 — 무엇을 확인해야 이 작업이 끝났다고 할까?
+## S81 — 점심 전에 맡긴 일, 무엇을 보면 끝났다고 할까?
 
 **Slide ID:**
 S81
 
 **Working Title:**
-무엇을 확인해야 이 작업이 끝났다고 할까?
+점심 전에 맡긴 일, 무엇을 보면 끝났다고 할까?
 
 **ACT / Section:**
 ACT 4 / 4R2 One-goal walkthrough
@@ -4868,20 +4868,20 @@ ACT 4 / 4R2 One-goal walkthrough
 Lecture 2분 + Case 2분
 
 **Primary Message:**
-후보가 몇 번 바뀌어도 보존할 출력, 줄일 임시 할당, 지킬 실행시간 조건을 같은 카드로 확인한다.
+점심 전 요청은 임시 메모리 감소와 수정·테스트였다. 이 사례에서 완료를 판단할 때는 같은 입력으로 여섯 출력값, 할당 피크, 실행시간을 확인한다.
 
 **Opening Question:**
-“행별 집계 후보가 처음 맡긴 목표를 이뤘다고 말하려면 무엇을 확인해야 할까요?”
+“점심 전에는 무엇을 부탁했고, 끝났다고 판단하려면 어떻게 확인할까요?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) S80에서 완료로 나가는 조건을 실제 작업 기준으로 읽는다. 밝기 통계가 내던 여섯 출력, 줄일 임시 할당, 지킬 실행시간을 각각 짚는다.
-2. (2:00–4:00 / Case) 같은 대표 입력의 여섯 출력 대조, 같은 환경의 할당 피크 비교, 같은 측정 절차의 기준판 실행시간 비교를 맞춰 본다. 이 기준은 첫 후보부터 재검토까지 고정한다. 지금 화면은 확인 계획이며 각 후보의 결과는 별도 근거가 필요하다.
+1. (0:00–2:00 / Lecture) 상단의 ‘점심 전 요청’에서 “밝기 통계의 임시 메모리를 줄여줘. 수정하고 테스트까지 돌려줘.”를 읽는다. 여섯 출력 보존과 실행시간 비악화는 이 사례의 검증 기준이라고 설명한다. 이 두 조건을 점심 전 대사에 덧붙여 인용하지 않는다.
+2. (2:00–4:00 / Case) 세 행을 위에서 아래로 읽는다. 같은 대표 입력에서 여섯 출력값을 대조하고, 계산 중 할당 피크를 기준판과 비교하고, 같은 환경과 측정 절차로 실행시간을 비교한다. 기준은 고정되고 각 후보의 판정에는 별도 근거가 필요하다.
 
 **Evidence / Source:**
-CASE-LOOP-01 · DEC-0097, DEC-0144, DEC-0145. 실제 밝기 통계 문제의 배경은 TRIAL-008과 STATE-04-PERF다. BEAT-074.
+S77의 교육용 요청 · CASE-LOOP-01 · DEC-0097, DEC-0145, DEC-0149 · BEAT-074. TRIAL-008과 STATE-04-PERF는 밝기 통계 문제의 배경이다.
 
 **Claim Boundary:**
-CONCEPTUAL. 밝기 통계의 기존 제품 기록과 구분한 가상 회차다. 모델 대화와 후보는 강의용으로 구성했으며 실제 측정값은 ACT3의 해당 기록에서만 인용한다.
+CONCEPTUAL. 표는 후보를 평가하는 사례 기준이다. 원래 요청에 없던 세부 보존 조건을 사용자 발화로 인용하거나 후보의 검증 결과로 제시하지 않는다.
 
 **Beginner Explanation:**
 할 일을 정할 때 끝났다고 말할 수 있는 검사도 함께 정한다.
@@ -4899,7 +4899,7 @@ N/A — 정적 자료. 세 완료 조건과 각각의 확인 방법을 짝짓는
 세 조건 중 측정이 필요한 항목을 눈으로 골라 보게 한다.
 
 **Transition:**
-이제 첫 구현을 가까이 본다. 코드에서 바로 보이는 점과 도구로 재봐야 하는 점을 구분해 보자.
+“세 가지를 어떻게 확인할지 정했습니다. 아까 첫 수정안의 어느 코드에서 전체 복사를 발견했는지 확대해 보겠습니다.”
 
 **Time Management:**
 Lecture 2분 + Case 2분 = 4분. 구체적인 수치 추정에 들어가기 전에 v1로 이동한다.
@@ -4908,15 +4908,15 @@ Lecture 2분 + Case 2분 = 4분. 구체적인 수치 추정에 들어가기 전�
 LOCAL STATIC ARTIFACT — production/preview/full/S81.png 또는 production/ACT_4.pptx의 S81. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0149. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/S79_S82_LUNCH_CONTINUITY.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
-## S82 — 첫 후보에서 무엇을 확인할까
+## S82 — 첫 수정안을 확대해 보면
 
 **Slide ID:**
 S82
 
 **Working Title:**
-첫 후보에서 무엇을 확인할까
+첫 수정안을 확대해 보면
 
 **ACT / Section:**
 ACT 4 / 4R2 One-goal walkthrough
@@ -4931,17 +4931,17 @@ Lecture 2분 + Case 3분
 첫 후보의 diff와 필요한 검사 항목을 나란히 놓으면, 같은 출력이 나와도 남을 수 있는 문제가 드러난다.
 
 **Opening Question:**
-“출력 여섯 개가 같다면 할당 목표까지 충족했을까?”
+“조금 전 첫 수정안에서 전체 픽셀 복사가 남았다는 지적은 어떤 줄에서 나왔을까요?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 가상 후보 v1에서 전체 픽셀을 임시 목록으로 모으는 부분을 짚는다. 최소·최대·평균을 계산하려고 먼저 복사하는 경로다.
-2. (2:00–5:00 / Case) 출력 대조, 할당 피크, 시간 측정으로 시선을 옮긴다. 같은 출력을 내는 후보에도 큰 임시 목록이 남을 수 있다. 어떤 가설을 diff에서 읽고 무엇을 도구로 확인할지 구분한다.
+1. (0:00–2:00 / Lecture) S79–S80에서 두 가지 경로로 설명한 첫 구현(v1)을 다시 가리킨다. 화면에 펼친 목록 생성식에서 이미지의 모든 픽셀을 한 목록으로 복사하는 부분을 짚는다.
+2. (2:00–5:00 / Case) 지적의 코드 근거와 별도의 검증 항목을 나눈다. 출력 여섯 개가 같아도 임시 목록은 남을 수 있다. 목록이 존재하는지는 코드에서, 실제 할당량은 측정에서 확인한다.
 
 **Evidence / Source:**
-TRIAL-008 및 STATE-04-PERF의 밝기 통계 작업을 문제 배경으로 삼은 CASE-LOOP-01. 후보와 R1은 DEC-0144의 교육 설계다.
+CASE-LOOP-01 · DEC-0144, DEC-0149. TRIAL-008과 STATE-04-PERF는 밝기 통계 작업의 배경 기록이다.
 
 **Claim Boundary:**
-CONCEPTUAL. 밝기 통계의 기존 제품 기록과 구분한 가상 회차다. 모델 대화와 후보는 강의용으로 구성했으며 실제 측정값은 ACT3의 해당 기록에서만 인용한다.
+CONCEPTUAL. 앞에서 본 교육용 v1을 확대하는 장면이다. 새 실행이나 측정 결과는 없으며 실제 제품 수치는 ACT3에 기록된 범위에서 다룬다.
 
 **Beginner Explanation:**
 값이 같은지와 계산에 임시 공간이 얼마나 필요한지는 다른 검사로 확인한다.
@@ -4959,7 +4959,7 @@ N/A — 정적 자료. v1의 전체 픽셀 복사와 남은 측정 항목을 가
 첫 후보에서 checker가 짚을 한 곳을 생각하게 한다.
 
 **Transition:**
-검토 담당에게 어떤 자료를 넘겨야 이 가설을 구체적인 지적으로 만들 수 있을까?
+“이 목록 생성식은 전체 복사가 있다는 근거입니다. 다른 지적도 수정 요청으로 보내려면 어떤 근거가 필요할까요?”
 
 **Time Management:**
 Lecture 2분 + Case 3분 = 5분. 코드 전체 파일 설명은 생략하고 복사 지점 한 곳만 짚는다.
@@ -4968,7 +4968,7 @@ Lecture 2분 + Case 3분 = 5분. 코드 전체 파일 설명은 생략하고 복
 LOCAL STATIC ARTIFACT — production/preview/full/S82.png 또는 production/ACT_4.pptx의 S82. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0149. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/S79_S82_LUNCH_CONTINUITY.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
 ## S83 — Checker가 수정을 요청할 근거
 

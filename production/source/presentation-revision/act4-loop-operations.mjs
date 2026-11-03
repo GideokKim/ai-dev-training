@@ -50,11 +50,8 @@ export function loopOperationsFactories(H) {
     text(s,detail,x,y+140,w,92,26,C.sub);
   }
 
-  // Keep the original request and review finding fixed for the S79/S80 comparison.
-  function brightnessHandoff(s) {
-    const goal=rect(s,64,181,1152,82,bluePale,blue,1.5); goal.borderRadius=9;
-    label(s,'사람이 처음 맡긴 일',86,204,262,blue);
-    text(s,'“밝기 통계 결과를 유지하면서 임시 메모리를 줄여줘.”',350,196,846,54,30,C.ink,true);
+  // Keep this finding in place while the next step changes between the two views.
+  function firstReviewFinding(s) {
     const finding=rect(s,64,319,310,132,C.amber,C.warn,1.5); finding.borderRadius=8;
     text(s,'첫 구현의 검토 결과',85,332,270,34,23,C.warn,true);
     text(s,'전체 픽셀을 복사한\n임시 목록이 남았다',85,377,272,64,28,C.ink,true);
@@ -72,18 +69,25 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S79(p) {
-      const s=common(p,'S79','한 가지 일을 맡겼는데, 왜 계속 내가 “다시”라고 말할까?','사람이 이어주는 다음 수정',reconstruction,caseKind);
-      brightnessHandoff(s);
+      const s=common(p,'S79','시작하라고 답했다. 그런데 한 번 더 내가 필요했다','점심에서 돌아온 뒤 · 같은 밝기 통계 작업',reconstruction,caseKind);
+      const thread=rect(s,64,177,1152,98,C.white,C.line,1.5); thread.borderRadius=9;
+      text(s,'AI의 질문',85,186,535,26,19,C.sub,true);
+      text(s,'“이대로 구현을 시작할까요?”',84,219,522,43,29,C.ink,true);
+      connect(s,600,236,56,0,blue);
+      text(s,'내가 보낸 답',693,186,495,26,19,blue,true);
+      text(s,'“응, 시작해.”',692,219,495,43,32,blue,true);
+      firstReviewFinding(s);
       connect(s,379,385,60,0,blue);
       const instruction=rect(s,447,319,769,132,bluePale,blue,1.5); instruction.borderRadius=8;
-      text(s,'사람이 다시 입력',471,332,715,34,23,blue,true);
+      text(s,'검토 뒤, 내가 다시 보낸 요청',471,332,715,34,23,blue,true);
       text(s,'“그 복사를 없애고, 같은 기준으로 다시 확인해줘.”',471,382,727,51,29,C.ink,true);
-      takeaway(s,'목표와 기준은 같은데, 사람이 검토 결과를 받아 다음 수정을 시작시킨다');
+      takeaway(s,'구현을 시작할 때도, 지적을 반영해 고칠 때도 사람이 다시 지시했다');
       return s;
     },
     S80(p) {
-      const s=common(p,'S80','검토 결과가 다음 수정을 시작하게 하자','자동으로 이어지는 수정과 재검토',reconstruction);
-      brightnessHandoff(s);
+      const s=common(p,'S80','같은 검토 결과가 다음 수정을 시작한다','사람의 재지시 없이 이어지는 수정과 재검토',reconstruction);
+      lead(s,'같은 장면을 루프로 연결하면');
+      firstReviewFinding(s);
       connect(s,379,385,60);
       const fix=rect(s,447,319,223,132,C.pale,C.teal,1.5); fix.borderRadius=8;
       text(s,'다음 구현',462,333,193,34,23,C.teal,true,FONT,'center');
@@ -108,9 +112,11 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S81(p) {
-      const s=common(p,'S81','무엇을 확인해야 이 작업이 끝났다고 할까?','밝기 통계 · 완료를 판단할 근거',reconstruction,caseKind,'M5 · M6');
-      lead(s,'수정 전후를 같은 입력으로 비교한다');
-      label(s,'확인할 조건',70,254,295); label(s,'완료를 판단할 근거',376,254,826);
+      const s=common(p,'S81','점심 전에 맡긴 일, 무엇을 보면 끝났다고 할까?','밝기 통계 · 완료를 판단할 근거',reconstruction,caseKind,'M5 · M6');
+      const request=rect(s,64,174,1152,65,bluePale); request.borderRadius=7;
+      text(s,'점심 전 요청',82,185,170,43,24,blue,true);
+      text(s,'“밝기 통계의 임시 메모리를 줄여줘. 수정하고 테스트까지 돌려줘.”',254,185,943,43,27,C.ink,true);
+      label(s,'이 사례의 완료 조건',70,254,295); label(s,'같은 입력으로 확인할 근거',376,254,826);
       row(s,304,'출력 보존','기존 테스트를 통과하고 여섯 출력값이 기준판과 일치한다');
       row(s,379,'임시 메모리 감소','계산 중 Python 할당 피크가 기준판보다 낮다');
       row(s,454,'실행시간 유지','같은 환경과 측정 방식에서 기준판보다 느려지지 않는다');
@@ -118,8 +124,8 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S82(p) {
-      const s=common(p,'S82','첫 후보에서 무엇을 확인할까','밝기 통계 · 후보 v1',reconstruction,caseKind,'M5 · M6');
-      lead(s,'출력이 같아도 큰 임시 목록이 남아 있을 수 있다');
+      const s=common(p,'S82','첫 수정안을 확대해 보면','밝기 통계 · 후보 v1',reconstruction,caseKind,'M5 · M6');
+      lead(s,'첫 구현은 아래 목록을 만들 때 모든 픽셀을 복사한다');
       label(s,'후보 v1 · 계산 부분 발췌 예시',64,260,570);
       rect(s,64,314,564,128,C.ink);
       text(s,'pixels = [v for row in rows\n            for v in row]',84,331,527,90,28,C.white,false,CODE);

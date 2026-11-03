@@ -1,27 +1,27 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## S77 점심 전후 대화 · DEC-0148
+## S79–S82 점심 전 요청의 후속 장면 · DEC-0149
 
-[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT3 발표 자료](../ACT_3.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [ACT3 발표 Notes](../notes/ACT_3_NOTES.md) · [검토 결과](S77_LUNCH_HANDOFF.md)
+[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT3 발표 자료](../ACT_3.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [ACT4 발표 Notes](../notes/ACT_4_NOTES.md) · [검토 결과](S79_S82_LUNCH_CONTINUITY.md)
 
-113장·389분이다. S77의 한 화면에서 점심 전에 보낸 구현·테스트 요청과 복귀 뒤의 구현 확인 질문이 대비된다. ACT4는 같은 작업을 재지시 없이 이어 가는 흐름으로 연결한다.
+113장·389분이다. 점심시간 장면의 답변을 받은 뒤, S79와 S80이 같은 지적을 처리하는 두 방식을 비교한다. S81은 원래 요청과 사례의 완료 조건을 구분하고 S82는 첫 수정안을 확대한다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `0633852f0a33bfa90f08cb431550b2ce926fd5249f0dcdcf3e8338e17422530d` |
+| `production/AI_Dev_Training_Full.pptx` | `e323fa686d758c39c6d58027cea871e8139a80fd5be4e66eeeca32b5b2a9f927` |
 | `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
 | `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
 | `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
 | `production/ACT_3.pptx` | `73fa2d32d3a1dcdf893fa8c0329f07c4c1cceea52b4188ec9322317c82502a86` |
-| `production/ACT_4.pptx` | `04d34ecfeef88e2d8e8659ff38f86ff62a9781de4092449b08c0a40b17dbb2c2` |
+| `production/ACT_4.pptx` | `bcd3e5f4376b0741287edf82eb8232aecdd8f26bc7e024d8f08f61496c778f85` |
 | `production/ACT_5.pptx` | `e4efff0182d75de71ee424352d79a8385577a447537ed12d3efcad3a2de8e17f` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `0d1152cdcd462f189bb4210e81122e9457fd934118eb0d44a9e9e919d3c64834` |
-| `production/notes/ACT_4_NOTES.md` | `c3286ac7ddf16190925ac20e4c4f88bc0f8af107870579eaa6238896bbade67c` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `5d2612971b62ec96030ddf5e11b8e11dae838f52f0b8bd3f749d89087ae31e11` |
+| `production/notes/ACT_4_NOTES.md` | `f15304403acf66a646117e38c5ca6ffa555b19deddf1b479306455d4375f561b` |
 | `production/notes/ACT_5_NOTES.md` | `db74de72391f36eedc47346919b8a243dbb6f89c0c68bab192522ff2a1c84396` |
-| `production/preview/full/montage.png` | `9c4f60d305fe68e4a08b7d239ae6eb03ea956f85cb4623ddace8d16d15dbfdeb` |
-| `production/preview/act4/montage.png` | `2285155c0418d661f3f1ffa8430e403ec3e6ed3472a2d7a677594472bb92744a` |
+| `production/preview/full/montage.png` | `5bb167ccb0ed45f58230ce4cdb23be4fbaf134a7d8ae2949a4fb845628dff1d0` |
+| `production/preview/act4/montage.png` | `885f6718b4cab93f57eb27a13744f62f7caa659e41d1b7b03555b3a21108fd41` |
 | `production/preview/act5/montage.png` | `c1573880261293fd064ff46a101136f2a561866b1869b1819a8392affb2dd511` |
-| `production/preview/full/S79.png` | `d8b59e0a3fe4e0c5a690d739b0d4e62316baa1212cefd8205bd21ef962154486` |
+| `production/preview/full/S79.png` | `3fe9a9944c1c50e00b1de77aaf42ef1c923f11b97bf051a3d099945ccbee47ad` |
 | `production/preview/full/S84.png` | `1a8af0f1e4cf642a5bc33b3d14c3baedfcaa496ff70b2ca4d97ff0d60126f0af` |
 | `production/preview/full/S87.png` | `2ffd4004727bc494406fa5792226d4c3930d46b083529b2e331f199842f9ad88` |
 | `production/preview/full/S88.png` | `83fc4a3952b1ca26f721d088984235c80bcd211c25822d389c522c9c46c1965f` |

@@ -1,8 +1,8 @@
 # MASTER EXECUTION STATUS
 
-## S77 점심 전후 대화 · DEC-0148
+## S79–S82 사례 연결 · DEC-0149
 
-통합 113장과 ACT3 18장을 다시 렌더링하고 장별 시간과 내장 Notes를 확인했다. 실제 발표 PC·투사 환경·교육 계정·리허설은 별도 확인한다. [현재 검토](S77_LUNCH_HANDOFF.md)
+통합 113장과 ACT4 20장의 렌더·내장 Notes를 검사했다. 현장 발표 PC·투사·교육 계정·리허설은 별도 검증 대상이다. [현재 검토](S79_S82_LUNCH_CONTINUITY.md)
 
 ## 이전 기록
 

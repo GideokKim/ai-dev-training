@@ -14434,3 +14434,86 @@ from a response that stops at planning and asks to begin.
 Check both highlighted lines at presentation size, the prepared-harness
 label and empty reply field. Keep the scope of the fictional scene clear
 in the slide and speaker notes.
+
+# DEC-0149 — Continue the lunch conversation into review and revision
+
+## Status
+
+ACCEPTED. The presenter approved the four-slide continuation.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S77 ends with the agent asking whether to implement an already assigned
+change. The previous S79 skipped the developer’s reply and opened with
+a rewritten goal. The audience had to infer how the first candidate
+appeared and whether the earlier request had changed.
+
+## Problem
+
+The sequence needs to show two different points where the same developer
+signals continuation. It must also establish why a loop can take over the
+second handoff without presenting that alternative as a later event.
+
+## Decision
+
+Open S79 by answering the question from S77 with “응, 시작해.”. After that
+first implementation, the developer relays the finding about the pixel
+copy and asks for another check. In S80, replay the same review moment.
+Keep the finding fixed and connect it directly to row-wise aggregation,
+rechecking the candidate against the original criteria before deciding
+whether to revise or finish.
+
+In S81, attribute memory reduction, implementation and tests to the
+lunch request. Attribute the six preserved outputs and runtime condition
+to the teaching case. Use the same representative input for comparison.
+S82 zooms back into the previously discussed first candidate and locates
+the copy in its code.
+
+## Rationale
+
+Following the lunch exchange establishes why the developer has to act
+twice. A replay makes the changed handoff visible. Separating requested
+work from the case criteria keeps the dialogue faithful to S77.
+
+## Alternatives
+
+Repeating the goal as a new quotation would suggest the user changed the
+request. Placing the two flows in a single timeline would suggest another
+revision happened after the developer had already requested one.
+
+## Trade-offs
+
+Four existing screens carry the chronology, comparison, criteria and
+code detail. S79–S82 retain their four, four, four and five minutes,
+respectively. The role and duration of the subsequent evidence review
+remain intact.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001 and INV-LOOP-001.
+
+## Affected Artifacts
+
+S79–S82 in ACT4 and the integrated deck, their notes, the S78 verbal
+handoff, the slide and template maps, and current ACT4 story records.
+
+## Evidence
+
+User-approved dialogue and CASE-LOOP-01. Existing graypipe evidence
+supplies the problem background. This educational replay and code zoom
+add no product observation, completed autonomous run or measured gain.
+
+## Training Relevance
+
+Developers can see which manual step the review signal replaces and
+explain what evidence the next candidate still needs.
+
+## Follow-up
+
+Compare the position and wording of the finding on S79 and S80. Check
+S81 against the exact lunch request and verify that S82 reads as an
+inspection of v1. Keep all slide IDs, times and evidence categories.
