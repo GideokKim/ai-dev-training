@@ -733,7 +733,7 @@ Codex에 역할·사용 조건·보고 범위를 설명해 프로젝트용 Custo
 
 **Speaker Flow:**
 1. (0:00–0:30 / Lecture) S70의 독립 조사 분담 가정에서 실제 Codex 활용 방법으로 잠시 전환한다. 일회성 분담은 요청만으로 시작할 수 있고 이 장은 같은 역할을 다시 쓰려는 Custom Agent 설정 예시임을 설명한다.
-2. (0:30–1:25 / Lecture) 왼쪽 대화 요청과 오른쪽 .codex/agents/perf_reviewer.toml을 연결한다. 이름·사용 조건·역할 지침을 확인한다. 공식 필수 필드는 name, description, developer_instructions다. 개인 범위는 ~/.codex/agents/지만 화면에서는 프로젝트 범위만 보여준다. 별도 제작 전용 Skill을 가정하지 않는다.
+2. (0:30–1:25 / Lecture) 왼쪽 macOS풍 요청창의 기존4줄과 오른쪽 .codex/agents/perf_reviewer.toml을 연결한다. 신호등·요청 헤더·보내기 control은 도식의 창 표현이며 실제 Codex 화면 캡처로 설명하지 않는다. 이름·사용 조건·역할 지침을 확인한다. 공식 필수 필드는 name, description, developer_instructions다. 개인 범위는 ~/.codex/agents/지만 화면에서는 프로젝트 범위만 보여준다. 별도 제작 전용 Skill을 가정하지 않는다.
 3. (1:25–2:00 / Lecture) 하단 요청에서 이름과 Subagent 분담을 명시하고 주 Agent가 결과를 기다려 근거를 확인·종합한다. 권한은 부모 설정을 따르며 코드 수정 금지 지침 자체가 권한 격리는 아니다. 실제 실행은 하지 않고 S72의 왜 분담하지 않았는지로 돌아온다.
 
 **Evidence / Source:**
@@ -744,7 +744,7 @@ SRC-0112 / CLM-0042; https://learn.chatgpt.com/docs/agent-configuration/subagent
 **Claim Boundary:**
 DOCUMENTED GUIDANCE / TEACHING_MODEL / REQUIRES PRODUCT CHECK — Codex Custom Agent 설정/사용 요청의 교육용 예시이며 실제 생성·로딩·분담 실행·성능 이득을 시험한 결과가 아니다. 별도의 agent-creator Skill이 존재한다고 말하지 않는다. 코드 수정 금지는 역할 지침이며 독립적인 읽기 전용 권한을 만드는 설정이 아니다. 기존 Demo의 NOT JUSTIFIED YET 판단은 유지한다.
 
-보존된 상세 범위: 일회성 분담은 요청만으로 가능 · 반복 역할은 설정으로 재사용 · 실제 생성·실행 결과가 아니며 대상 환경에서 확인
+보존된 상세 범위: 일회성 분담은 요청만으로 가능 · 반복 역할은 설정으로 재사용 · 실제 생성·실행 결과가 아니며 대상 환경에서 확인. 화면에서 뺀 “설정·사용 예시 · 일회성 분담은 요청, 반복 역할은 설정으로 재사용”의 범위는 여기와 기존 설명에 보존한다.
 
 **Beginner Explanation:**
 어떤 조사를 언제 맡기고 무엇을 받으려는지 Codex에 설명하면 재사용할 역할 설정부터 작성하도록 요청할 수 있다.
@@ -771,7 +771,7 @@ Lecture2분. 질문은 생각을 돕기 위한 것이며 실습·파일 생성·
 LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S71 / production/preview/full/S71.png. 제품/계정이 미확인인 경우 이 요청 예시를 설명하며 Live로 전환하지 않는다.
 
 **Validation Status:**
-DOCUMENTED GUIDANCE CHECKED2026-10-25 / LOCAL RESULT: production/evaluation/CODEX_AUTHORING_TIPS.md. 실제 생성/실행·현재 교육 계정·Windows/교육장/실측 리허설 UNVERIFIED.
+DOCUMENTED GUIDANCE CHECKED2026-10-25 / 이전 LOCAL RESULT: production/evaluation/CODEX_AUTHORING_TIPS.md. DEC-0139의 요청창 디자인·Audience footer1 삭제를 Map과 정렬했다. 현재 최종 렌더·패키지 검증은 production/evaluation/S71_PROMPT_WINDOW.md에 별도 기록한다. 실제 생성/실행·현재 교육 계정·Windows/교육장/실측 리허설 UNVERIFIED.
 
 ## S72 — 밝기 통계 작업을 나누지 않은 이유
 
@@ -804,7 +804,7 @@ Evidence / Source: DEC-0018의 STATE-04 저장소/후보 A·B·C 복잡도 감�
 
 Claim Boundary: FROZEN WITH SCOPE / TEACHING MODEL — DEC-0018 현재 Task 감사의 판단이며 실제 Subagent Trial이 아니다. 일반적 불필요성이나 기능 부재를 주장하지 않는다. 도식은 보존된 실제 작업의 의존관계 요약이며 raw trace·시각·동일 세션의 캡처가 아니다. 의존 단계에도 역할을 나누는 설계는 가능하지만 이 범위에서는 별도 조사·Context 분리 이득이 충분히 입증되지 않았다는 판단이다. 시간·품질·토큰 절감 비교를 새로 주장하지 않는다.
 
-보존된 상세 범위: 이 작업의 판단 · 역할 분리의 시간·품질 이득은 비교 실험하지 않음
+보존된 상세 범위: 이 작업의 판단 · 역할 분리의 시간·품질 이득은 비교 실험하지 않음. 화면에서 뺀 “이 작업에서는 역할 분리를 보류”는 이번 범위에 한정한 기존 판단이며 본문과 이 Notes에 보존한다.
 
 Beginner Explanation: 무엇을 고칠지 조사한 결과가 있어야 변경을 고르고, 바뀐 코드가 있어야 그 결과를 검사할 수 있다. 같은 좁은 범위의 자료를 계속 보는 이 작업에서는 한 Agent가 이어서 맡았다. Agent 수가 많아야 완성된 작업 환경이 되는 것은 아니다.
 
@@ -826,7 +826,7 @@ Lecture1분(S70 기준 회수·실제 작업 복귀) → Demo2분(조사/변경0
 Fallback:
 LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S72, production/preview/act3/S72.png 및 production/preview/full/S72.png. 보존된 실제 작업과 판단을 재구성한 정적 도식이며 실행 캡처가 아니다. 현재 파일 대조는 production/evaluation/S60_TASK_DEPENDENCY_REVISION.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 실제 발표 PC 재생은 UNVERIFIED다.
 
-Validation Status: ALIGNED — DEC-0072의19필드·Lecture1+Demo2+Q&A1분·실제 작업 의존관계를 정렬했다. 최종 패키지·렌더·내장 Notes 대조는 production/evaluation/S60_TASK_DEPENDENCY_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: ALIGNED — DEC-0072의19필드·Lecture1+Demo2+Q&A1분·실제 작업 의존관계를 유지한다. 이전 패키지·렌더·내장 Notes 대조는 production/evaluation/S60_TASK_DEPENDENCY_REVISION.md에 보존한다. DEC-0139의 Audience footer1 삭제만 Map과 정렬했으며 현재 최종 렌더·패키지 검증은 production/evaluation/S71_PROMPT_WINDOW.md에 별도 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S73 — 밝기 통계 작업에 쓰인 구성의 역할
 

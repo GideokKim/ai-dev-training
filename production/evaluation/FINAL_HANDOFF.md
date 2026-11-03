@@ -1,5 +1,44 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S71 요청창·S71/S72 하단 정리 — DEC-0139 (2026-11-03)
+
+현재113장·389분을 유지한다. S71의 생성 요청창을 S66과 같은 Mac 스타일로 맞추고
+S71/S72의 지정 Audience footer1만 제거했다. 요청 본문·다른 도식·M 연계·근거 범위는 같다.
+출처·검증 범위는 Notes에 보존했다. 통합/ACT3 두 PPT와131개 렌더를 대조했고 다른111장의 화면은 같다.
+나머지5개 ACT PPT는 이전 판과 같으며43개 정적 Fallback의 역할·분류를 유지했다.
+[수정·검토](S71_PROMPT_WINDOW.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[작업 범위](../../plan/S71_PROMPT_WINDOW.md)를 따른다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않았다.
+아래 이전 기록의 해시는 당시 판본에 한정한다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `8562bade6fb215f58e7ce2d1d5cb63e26366ef48ea21f3e8885e2cb19761c39f` |
+| `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
+| `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
+| `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
+| `production/ACT_3.pptx` | `8eef9fca05bb639d274ecab024d3975537cbea7a6733b3f6d4f72b98b33db600` |
+| `production/ACT_4.pptx` | `52493aab06205745e9d4252221b3527a13cc5bcad887ec7cf6ca0b46cb579426` |
+| `production/ACT_5.pptx` | `bb91491e405493fa3531976872bbbfcfce68d1f1467411ba52a15652aca6858f` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `d1412a4616d48abd60dbace570372881ebb423aaa4bca4cf7d85f688617bb562` |
+| `production/notes/ACT_3_NOTES.md` | `9f17210c053f57144eeb07a3ae9be4ed99b1f70e5d07326bb627a94f0821664f` |
+| `production/preview/full/montage.png` | `e1be5c8f55c7d124392dfe79f6ca2070c3d28678773828ddc6c05dda45fee7cd` |
+| `production/preview/act0/montage.png` | `eb37120330c3892db3b31993c8ae3863e9818f6873f08f987a037a95d5bb9cb6` |
+| `production/preview/act1/montage.png` | `a23d9561b294917588e5e0d8241be709c79883b79366b3470f094a17fca705ab` |
+| `production/preview/act2/montage.png` | `d7e66c468274d0aa80b83000ac284535d12b366fd81ebbfef849e713da0112a1` |
+| `production/preview/act3/montage.png` | `7743f92c79c98c481ada49a97acabd7a237b65f04136ea0778aa4fc8dcb633e4` |
+| `production/preview/act4/montage.png` | `73aa7ba6bd8f81c6f176095671ded8236282367440183d16e91a04383d88f1fc` |
+| `production/preview/act5/montage.png` | `94c9b7998e46c7f96ed2a95dcfed99dfc85aa4b1b77cec6896666bd8ae901975` |
+| `production/preview/full/S66.png` | `482b1c36433538b982da2336354c04a9593f85368086c313149272540cd14880` |
+| `production/preview/full/S67.png` | `d0afef596117e2746ef1a453b2357b79cde7c657b88020963298f26aae933899` |
+| `production/preview/full/S68.png` | `4837568f4a3d5efb4b5ac30e416c04d094b9085383df5a6deb97e10bfef4bcf1` |
+| `production/preview/full/S69.png` | `2aea1b6cbc55f44888a832b162ce8ed0a82363f94e53ec70c2fda102ceca62ed` |
+| `production/preview/full/S110.png` | `78a0196d38e6adaa98d26447e51d5659dc9b51920c3973ea6b01ecf724fc47a8` |
+| `production/preview/full/S71.png` | `6ec5e46a433be1a83c78d8476fd46837c2e8b8c469fe6ff635a7a6a53b1125a6` |
+| `production/preview/full/S72.png` | `7fa05104badad5a6f49bfe89b1492e0fb3a169fe86330f93abbbe26b5993b013` |
+
+## 보존된 이전 전달 기록
+
 ## S68 절차 회수 장 삭제 — DEC-0138 (2026-11-03)
 
 현재 **113장·389분(6시간29분)**. 이전 S68의 절차/답 구분 장을 삭제했다.

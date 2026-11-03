@@ -1,5 +1,9 @@
 # MASTER EXECUTION STATUS
 
+Current DEC-0139:113slides/389minutes. S71 prompt styling and S71/S72 audience-footer deletion only; Notes preserve provenance and claim scope. Use [current result](S71_PROMPT_WINDOW.md) and [handoff](FINAL_HANDOFF.md). Windows, room, product-account and timed rehearsal remain UNVERIFIED.
+
+## 보존된 이전 기록
+
 Current DEC-0138:113slides/389minutes. Delete the prior114-edition S68 procedure recap and its3Lecture minutes without absorption. Close S67 as an authoring usage example, then return to the actual candidate comparison at S68 and separate product measurements at S69. Preserve S66 styling, all retained allocations and evidence scope. Use [result](S68_PROCEDURE_RECAP_REMOVAL.md), [handoff](FINAL_HANDOFF.md), and [crosswalk](../../plan/SLIDE_ID_MIGRATION_113_DEC0138.md). Windows, room, product-account and rehearsal remain UNVERIFIED.
 
 ## 보존된 이전 기록

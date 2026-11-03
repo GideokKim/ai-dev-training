@@ -13602,3 +13602,84 @@ keeping the candidate and product-state measurement evidence separate.
 Validate113IDs/389minutes, the preserved S66 window, S67-to-actual-case
 transition, fixed allocations, Notes and final renders; then commit/push
 normally. Preserve Windows, room, product-account and rehearsal gates.
+# DEC-0139 — Match the Agent request window and remove two screen footers
+
+## Status
+
+ACCEPTED — explicit user annotations for current S71 and S72.
+
+## Date
+
+2026-11-03
+
+## Context
+
+At baseline4651019, S71 shows a reusable investigation-role creation request
+and the resulting Custom Agent file. S72 returns to the actual statistics
+work and its existing decision to keep one Agent.
+
+## Problem
+
+The S71 request box does not match the accepted S66 macOS-style prompt.
+The user also requests removal of each slide's first audience footer.
+
+## Decision
+
+Match only S71's left creation-request window to the current S66 style:
+rounded window, three top-left traffic lights, request header and send
+control. Keep all four request lines verbatim, the right settings-file
+diagram and the lower explicit Subagent-use request unchanged.
+Remove S71's Audience footer1, "설정·사용 예시 · 일회성 분담은 요청, 반복 역할은 설정으로 재사용",
+and S72's Audience footer1, "이 작업에서는 역할 분리를 보류", from the screen.
+Retain M connections and any other footer. Preserve the removed text's
+meaning, detailed provenance and claim boundaries in the existing Notes.
+Keep113slides/389minutes, all IDs, titles, roles, story/section references,
+per-slide times, Modes, evidence and claims unchanged. S71 stays Lecture2;
+S72 stays Lecture1+Demo2+Q&A1. Make no new execution or product assertion.
+
+## Rationale
+
+The existing prompt-window visual language makes the creation request
+recognizable without changing its content. Removing the two requested
+footers reduces screen distraction while Notes retain the scope.
+
+## Alternatives
+
+Keep the plain request box or replace the removed footers with another
+screen disclaimer. Neither follows the requested visual-only cleanup.
+
+## Trade-offs
+
+The screen carries less explanatory metadata. The Notes retain that S71
+is an educational settings/request diagram, not an actual captured UI or
+observed Agent creation. S72 remains a bounded choice for this task, not
+a general claim against Subagents or a measured comparison of their value.
+
+## Related Invariants
+
+INV-VERIFY-001, INV-RESEARCH-004, INV-SOT-001.
+
+## Affected Artifacts
+
+S71/S72 Map records, ACT3/FULL Notes, the S71 layout and targeted footer
+policy, affected ACT/full packages and previews, and delivery identities.
+No slide migration, global planning banner or Template change is needed.
+
+## Evidence
+
+Explicit user annotations; current S66 prompt styling under DEC-0137;
+existing S71 guidance under DEC-0093 and S72 evidence under DEC-0018.
+No new Trial, measurement, product feature check or actual execution.
+
+## Training Relevance
+
+YES — distinguish a reusable-role request example from the actual task's
+choice while retaining the existing sequence and evidence boundaries.
+
+## Follow-up
+
+Render S71/S72 and compare exact request text, preserved settings/use
+request, removed footers, Notes and final packages. Record current results
+in production/evaluation/S71_PROMPT_WINDOW.md. Preserve Windows, room,
+product-account and rehearsal gates; commit/push in the authorized root
+workflow without changing the Demo repository, Sites or presenter bundles.

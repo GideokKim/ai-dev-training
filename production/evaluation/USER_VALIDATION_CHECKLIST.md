@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+Current DEC-0139:113slides/389minutes. S71 prompt styling and S71/S72 audience-footer deletion only; Notes preserve provenance and claim scope. Use [current result](S71_PROMPT_WINDOW.md) and [handoff](FINAL_HANDOFF.md). Windows, room, product-account and timed rehearsal remain UNVERIFIED.
+
+## 보존된 이전 기록
+
 현재113장·389분의 기준은 [DEC-0138 검토](S68_PROCEDURE_RECAP_REMOVAL.md), [전달 안내](FINAL_HANDOFF.md), [번호 대응표](../../plan/SLIDE_ID_MIGRATION_113_DEC0138.md)다. S67의 제작 사용 예시에서 실제 후보 비교·별도 제품 측정으로 바로 연결한다. 삭제한3Lecture분만 제외했으며 기존 근거 범위는 유지했다. Windows·발표PC/교육장·제품/계정·실제 리허설은 UNVERIFIED다.
 
 ## 보존된 이전 기록

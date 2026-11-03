@@ -1,3 +1,12 @@
+# Current focused styling — DEC-0139 (2026-11-03)
+
+Keep113slides/389minutes. In `codex-authoring-tips.mjs`, style only the
+retained S68factory (currentS71) request area as the S66-style macOS window.
+Keep the four request lines and all other panels unchanged. In the retained
+120-ID `audience-footers.json`, clear only S72/S73 lines (currentS71/S72);
+preserve originalLines, Notes provenance and Mlabels. No new product evidence.
+Build Full plus ACT3 with `--release --release-acts=3`.
+
 # Current presentation source
 
 Current: DEC-0138 /113slides/389minutes. Apply

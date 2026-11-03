@@ -1849,7 +1849,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 3 — short current-product authoring tip inserted by DEC-0093; not a Trial or a replacement for the existing evidence/candidate/conditional-decision sequence.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL
 - **Claim Status:** DOCUMENTED GUIDANCE / TEACHING_MODEL / REQUIRES PRODUCT CHECK — Codex Custom Agent 설정/사용 요청의 교육용 예시이며 실제 생성·로딩·분담 실행·성능 이득을 시험한 결과가 아니다. 별도의 agent-creator Skill이 존재한다고 말하지 않는다. 코드 수정 금지는 역할 지침이며 독립적인 읽기 전용 권한을 만드는 설정이 아니다. 기존 Demo의 NOT JUSTIFIED YET 판단은 유지한다.
-- **Visual Concept:** 왼쪽 Codex 요청창은 perf_reviewer 역할 생성, 병목 후보 조사, 파일/함수/근거/미확인 보고, 코드 수정 금지 지침을 설명한다. 오른쪽 문서 도식은 .codex/agents/perf_reviewer.toml과 이름/사용 조건/역할을 보여준다. 하단에는 해당 이름의 Subagent로 조사하고 기다린 뒤 근거를 확인해 종합하라는 사용 요청 예시를 둔다.
+- **Visual Concept:** 왼쪽 요청창은 S66과 같은 macOS풍 둥근 창·상단 신호등3개·요청 헤더·보내기 control을 사용하고 기존4줄을 그대로 둔다. perf_reviewer 역할 생성, 병목 후보 조사, 파일/함수/근거/미확인 보고, 코드 수정 금지 지침을 설명한다. 오른쪽 문서 도식은 .codex/agents/perf_reviewer.toml과 이름/사용 조건/역할을 보여준다. 하단에는 해당 이름의 Subagent로 조사하고 기다린 뒤 근거를 확인해 종합하라는 사용 요청 예시를 둔다.
 - **Demo / Case Connection:** 새 Demo 시간·Trial 없음. Lecture2분의 공식 안내 각색이며 과거 관찰/가상 사례/실제 구성 선택과 구분한다.
 - **Beginner Payoff:** 어떤 조사를 언제 맡기고 무엇을 받으려는지 Codex에 설명하면 재사용할 역할 설정부터 작성하도록 요청할 수 있다.
 - **Advanced Payoff:** 임시 분담과 재사용 가능한 역할 정의를 구분한다. 설정 파일의 필수 필드·역할 범위와 부모 권한의 상속, 주 Agent의 근거 검토·통합 책임을 분리한다.
@@ -1860,7 +1860,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** SRC-0112, CLM-0042, DEC-0093
 - **Practical Tip Classification:** 수행 방법
-- **Audience Footer:** 설정·사용 예시 · 일회성 분담은 요청, 반복 역할은 설정으로 재사용
+- **Audience Footer:** N/A — DEC-0139로 기존 Audience footer1만 화면에서 삭제한다. 설정·사용 예시, 일회성/반복 역할의 구분과 출처·검증 범위는 Notes에 보존한다. M 연계는 유지한다.
 
 #### S72 — 밝기 통계 작업을 나누지 않은 이유
 
@@ -1885,7 +1885,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Demo 2분 (VISUAL) + Q&A 1분 = 4분
 - **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0072
-- **Audience Footer:** 이 작업에서는 역할 분리를 보류
+- **Audience Footer:** N/A — DEC-0139로 기존 Audience footer1만 화면에서 삭제한다. 이번 작업의 선택이라는 범위와 근거는 본문·Notes에 유지하고 M 연계는 보존한다.
 
 #### S73 — 밝기 통계 작업에 쓰인 구성의 역할
 

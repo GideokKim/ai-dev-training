@@ -25,7 +25,20 @@ export function migrate113Factories(previous) {
 export function codexAuthoringTipFactories() {
  const {C,text,rect,line,CODE}=H;
  const arrow=(s,x,y,w)=>s.shapes.add({geometry:'connector',kind:'straight',position:{left:x,top:y,width:w,height:0},line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}});
- const prompt=(s,x,y,w,h)=>{
+ const prompt=(s,x,y,w,h,macWindow=false)=>{
+  if(macWindow){
+   // DEC-0139: reuse S66's window language without changing this request.
+   const window=rect(s,x,y,w,h,C.white,C.line,1.5);window.borderRadius=12;
+   const chrome=rect(s,x+1,y+1,w-2,43,'#EDF1F5');chrome.borderRadius=11;
+   ['#FF5F57','#FEBC2E','#28C840'].forEach((fill,i)=>{
+    s.shapes.add({geometry:'ellipse',name:'Window control '+(i+1),position:{left:x+18+i*20,top:y+16,width:12,height:12},fill,line:{fill:'none',width:0}});
+   });
+   text(s,'Codex · 요청 예시',x+91,y+8,w-115,29,20,C.sub,true);
+   line(s,x+1,y+46,w-2,C.line,1);
+   s.shapes.add({geometry:'ellipse',name:'Prompt send control',position:{left:x+w-44,top:y+h-38,width:28,height:28},fill:C.teal,line:{fill:'none',width:0}});
+   s.shapes.add({geometry:'upArrow',name:'Prompt send arrow',position:{left:x+w-36,top:y+h-30,width:12,height:12},fill:C.white,line:{fill:'none',width:0}});
+   return;
+  }
   rect(s,x,y,w,h,C.white,C.line,1.5);
   text(s,'Codex · 요청 예시',x+22,y+9,w-44,28,20,C.sub);
   line(s,x+20,y+49,w-40,C.line,1);
@@ -54,7 +67,7 @@ export function codexAuthoringTipFactories() {
     '일회성 분담은 요청만으로 가능 · 반복 역할은 설정으로 재사용 · 실제 생성·실행 결과가 아니며 대상 환경에서 확인','RESEARCH / TEACHING_MODEL');
    text(s,'01  역할을 설명해 생성 요청',64,186,644,44,29,C.teal,true);
    text(s,'02  설정 파일 확인',816,186,400,44,30,C.teal,true);
-   prompt(s,64,244,644,246);
+   prompt(s,64,244,644,246,true);
    text(s,'이 저장소에 perf_reviewer Agent를 만들어줘.\n성능 조사 때 병목 후보를 찾고,\n파일·함수·근거·미확인을 보고하게 해줘.\n코드 수정 없이 조사만 하도록 지침을 써줘.',86,313,600,151,25,C.ink);
    arrow(s,724,366,72);
    rect(s,816,244,400,246,C.white,C.teal,1.5);
