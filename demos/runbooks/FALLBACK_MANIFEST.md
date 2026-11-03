@@ -4,9 +4,9 @@
 
 The 43 entries identify local static fallbacks for the 113-slide course. ACT4 uses the author’s GitLab account of operations, a designed brightness case, a published benchmark and a documented Goal example. Classroom playback and account checks are pending.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`df84b77c8c944ca545b236b457c30e47bcfbb716c4ee8a601f30fd60f89f1200`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`b37b9c9580fe616376f05982643d243bf95abc614e41e4ea8e375cdfd2eb0219`.
-- `production/preview/full/montage.png` SHA-256:`028058ad9a44c6db8fb0abfe294bf5886b10d25c9ea4befb310e423aa5bf40a5`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`0633852f0a33bfa90f08cb431550b2ce926fd5249f0dcdcf3e8338e17422530d`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`0d1152cdcd462f189bb4210e81122e9457fd934118eb0d44a9e9e919d3c64834`.
+- `production/preview/full/montage.png` SHA-256:`9c4f60d305fe68e4a08b7d239ae6eb03ea956f85cb4623ddace8d16d15dbfdeb`.
 
 [Current revision](../../production/evaluation/S77_LUNCH_HANDOFF.md)
 

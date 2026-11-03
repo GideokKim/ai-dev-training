@@ -42,7 +42,7 @@ export function compactBridgeFactory(p,H){
   text(s,who,x+73,241,panelWidth-94,36,20,C.sub,true);
   line(s,x+1,283,panelWidth-2);
  }
- chatWindow(64,'점심 가기 전','내가 보낸 요청');
+ chatWindow(64,'점심 먹으러 가기 전','내가 보낸 요청');
  chatWindow(658,'점심 먹고 돌아온 뒤','AI가 보낸 답변');
  const badge=rect(s,86,300,356,31,C.pale);
  badge.borderRadius=5;
@@ -57,7 +57,6 @@ export function compactBridgeFactory(p,H){
   emphasis.borderRadius=7;
   text(s,phrase,x+30,414,panelWidth-60,60,36,ink,true);
  }
- text(s,'돌아와서 결과를 볼게.',88,499,507,46,27,C.sub);
  const reply=rect(s,680,509,514,45,C.bg,C.line,1);
  reply.borderRadius=8;
  rect(s,695,519,2,25,C.sub);
