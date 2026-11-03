@@ -1,4 +1,5 @@
 /** Approved final-ID ACT4 scenes. Each scene adds exactly one editable slide. */
+import {readFileSync} from 'node:fs';
 import {actTitleFactories} from './act-titles.mjs';
 import {addModuleFooter} from './legacy-priority.mjs';
 import {addPracticalTipBadge} from './practical-tips.mjs';
@@ -370,20 +371,26 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S90(p) {
-      const s=common(p,'S90','작성자와 검토자는 무엇을 주고받을까?','독립 검토 설계 · 역할 사이에 넘기는 근거','');
-      panel(s,64,224,390,247,bluePale,blue);
-      caption(s,'작성자  /  Maker',88,247,342,blue);
-      text(s,'변경 후보를 만든다',88,308,349,57,31,C.ink,true);
-      text(s,'코드 차이와 실행 결과를\n검토자에게 넘긴다.',88,381,345,73,24,C.sub);
-      panel(s,826,224,390,247,C.pale,C.teal);
-      caption(s,'검토자  /  Checker',850,247,342,C.teal);
-      text(s,'근거를 대조한다',850,308,348,57,31,C.ink,true);
-      text(s,'요구사항과 결과를 비교해\n남은 문제를 찾는다.',850,381,347,73,24,C.sub);
-      text(s,'후보 + 검사 근거',475,244,330,45,25,blue,true,FONT,'center');
-      connect(s,464,311,350,0,blue);
-      connect(s,464,388,350,0,C.teal,true);
-      text(s,'구체적 지적 + 재검사 조건',461,412,357,48,23,C.teal,true,FONT,'center');
-      takeaway(s,'작성과 검토에 서로 다른 모델을 쓸 수 있다. 완료는 테스트 근거로 판단한다.');
+      const s=common(p,'S90','작성자와 검토자는 무엇을 주고받을까?','모델 배치 예시 · 밝기 통계의 메모리 개선','');
+      const cardWidth=290;
+      const role=(x,model,job,mark,alt,size,ink)=>{
+        panel(s,x,216,cardWidth,277,C.white,C.line);
+        text(s,job,x+15,234,cardWidth-30,45,29,ink,true,FONT,'center');
+        const logo=readFileSync(new URL('../../../assets/slide-illustrations/model-handoff/'+mark,import.meta.url));
+        s.images.add({blob:new Uint8Array(logo),contentType:'image/png',fit:'contain',alt,
+          position:{left:x+(cardWidth-size)/2,top:344-size/2,width:size,height:size}});
+        text(s,model,x+12,416,cardWidth-24,54,29,C.ink,true,FONT,'center');
+      };
+      role(64,'GPT-5.4','작성자','openai.png','OpenAI 로고',126,blue);
+      role(926,'Claude Sonnet 4.6','검토자','claude.png','Claude 로고',86,C.teal);
+
+      text(s,'행별 집계 변경안',375,211,530,45,32,blue,true,FONT,'center');
+      text(s,'출력 6개 비교 결과',375,264,530,40,25,C.ink,false,FONT,'center');
+      connect(s,367,318,546,0,blue);
+      connect(s,367,384,546,0,C.teal,true);
+      text(s,'최대 할당량 미확인',375,410,530,45,32,C.teal,true,FONT,'center');
+      text(s,'같은 입력으로 기준판과 재측정',375,462,530,40,25,C.ink,false,FONT,'center');
+      takeaway(s,'검토자가 빠진 근거를 짚으면, 작성자는 그 조건으로 다시 측정한다.');
       return s;
     },
     S93(p) {

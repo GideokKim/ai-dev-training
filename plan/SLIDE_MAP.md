@@ -2336,24 +2336,24 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **ACT:** ACT 4
 - **Section:** 4R5 Implementation, review and state
 - **Working Title:** 작성자와 검토자는 무엇을 주고받을까?
-- **Primary Role:** 역할 분리와 모델 선택을 따로 묻는다.
+- **Primary Role:** 두 모델에 작성·검토 역할을 맡긴 예에서 전달물과 회신을 따라간다.
 - **Audience Question:** 작성자와 검토자는 무엇을 주고받을까?
-- **Core Message:** 작성자는 요구사항에 연결된 변경과 근거를 제출한다. 검토자는 누락된 조건이나 재현할 지적을 돌려보내고 작성자는 그 지적을 고친다.
+- **Core Message:** 작성자는 행별 집계 변경안과 출력 6개의 비교 결과를 보낸다. 검토자는 아직 확인하지 못한 최대 할당량을 찾아 같은 입력으로 기준판과 수정안을 다시 측정해 달라고 회신한다.
 - **Story Beat:** BEAT-076, BEAT-077, BEAT-082
-- **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156
+- **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156, DEC-0161
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
-- **Visual Concept:** 두 역할 사이에 변경·검사 기록을 보내는 경로와 지적이 되돌아오는 경로를 나눈다.
-- **Demo / Case Connection:** Loop Engineering Systems p.10에서 각색한 발표용 도식. 정적 사례로 설명한다.
-- **Beginner Payoff:** 검토 의견이 다음 수정의 구체적 입력이 되는 과정을 짚는다.
-- **Advanced Payoff:** 모델을 나눌 때에도 같은 오류를 놓칠 수 있어 외부 검사 근거가 필요하다.
+- **Claim Status:** TEACHING MODEL — 두 모델 이름은 역할을 구분하는 교육용 배치에 사용한다. 조합의 실행·자동 연동·효과를 확인하지 않았다.
+- **Visual Concept:** 작성자 GPT-5.4와 검토자 Claude Sonnet 4.6 사이에 변경안과 확인 결과가 가는 경로, 빠진 측정 요청이 돌아오는 경로를 구분한다.
+- **Demo / Case Connection:** S89의 병합 요청을 검토하는 정적 예시. SRC-0246 p.10의 역할 분리를 밝기 통계 사례에 적용한 교육용 재구성이다.
+- **Beginner Payoff:** 출력 일치 여부를 확인한 뒤에도 메모리 사용량을 검증할 일이 남을 수 있음을 설명한다.
+- **Advanced Payoff:** 검토 지적에 비교 대상, 입력, 측정 지표를 명시해 다음 회차에서 재검사할 수 있게 한다.
 - **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
-- **Speaker Intent:** 역할 분리와 모델 선택을 따로 묻는다. 판단의 근거와 남은 지적을 다음 회차가 읽을 기록에 연결한다.
+- **Speaker Intent:** 1분 동안 두 역할을 짚고, 사례 3분에는 작성자가 넘긴 변경안·출력 6개 비교와 검토자의 최대 할당량 재측정 요청을 따라간다. 아직 실행하지 않은 재측정은 S91의 미해결 항목으로 넘긴다.
 - **Transition:** 이번 검토에서 확인한 결과와 남은 지적을 다음 실행은 어디서 이어받을까?
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 3분 = 4분
-- **Evidence / Decision References:** DEC-0160, DEC-0156, SRC-0246, CLM-0050
-- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
+- **Evidence / Decision References:** DEC-0161, DEC-0160, DEC-0156, SRC-0246, CLM-0050
+- **Audience Footer:** 모델 역할 배치와 주고받는 내용은 교육용 예시로 표시한다.
 
 #### S91 — 다음 실행이 이어받을 상태를 파일에 남긴다
 

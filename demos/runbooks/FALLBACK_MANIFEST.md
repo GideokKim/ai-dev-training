@@ -1,12 +1,12 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0160
+## Current presentation · DEC-0161
 
-The 43 entries identify local static fallbacks for the 113-slide course. S90 covers independent review. S91 records the evidence for the next run. The Codex memories and Goal product tips appear on S92 and S97.
+The 43 entries identify local static fallbacks for the 113-slide course. S90 uses GPT-5.4 and Claude Sonnet 4.6 as an illustrative author/reviewer pairing. S91 records the evidence for the next run. The Codex memories and Goal product tips appear on S92 and S97.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`2251c671d77ce49909abd8dc28b82e22c537f185d0bc2cb7a770477ae4f3341c`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`a7e053a611405f709cab89a03dc6fa83a433ee3b4ec32a7aaf39109cc18715d6`.
-- `production/preview/full/montage.png` SHA-256:`aa65e51f7e1ebfab6288bc9d195504a0f0c8135126c747950a0bbae85935f654`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`1cca8c897a57d032873e18068512dc08edce4752f79a28e20d0605f3ffc6a0a5`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`09930ed69295af8555838a9e777fdf57639690bd29abd2eebfe00e5cbb1fb498`.
+- `production/preview/full/montage.png` SHA-256:`b487a2f469adce7b5a602fc3f84b1807426324971bc43dff58887843d410ac5e`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
@@ -44,7 +44,7 @@ The 43 entries identify local static fallbacks for the 113-slide course. S90 cov
 | S87 | CONCEPTUAL_ISSUE_HANDOFF | `production/preview/full/S87.png` | 1920×1080 | `26c9ea08258e2bb7936d6af2ec5e02fd9345a1ae9d224c688e67284ff69d940f` |
 | S88 | CONCEPTUAL_IMPLEMENTATION_TEST_LOOP | `production/preview/full/S88.png` | 1920×1080 | `a987c9ec8a10458c0d2829d21d4d5effc1557ddab8bdb2140a3f077afd3cebae` |
 | S89 | CONCEPTUAL_MR_HANDOFF | `production/preview/full/S89.png` | 1920×1080 | `2c05befee1bb4fd55baa3cb21cf357504611fdaf80c0fd747f7da5e3ea406fa1` |
-| S90 | TEACHING_REVIEW_ROLES | `production/preview/full/S90.png` | 1920×1080 | `273868b5311ead2a8c51b17bb10e7182d8e30f991094ba999e87260d1b47330b` |
+| S90 | TEACHING_REVIEW_ROLES | `production/preview/full/S90.png` | 1920×1080 | `f459cd6a206148a1ff0e20c15186d51df320665984767613d477fc0181292ab1` |
 | S91 | TEACHING_STATE_HANDOFF | `production/preview/full/S91.png` | 1920×1080 | `cde6e11f8521cbb27e9a5b506b781b4aa8f504c2598639cd77bcf0e249ed7ade` |
 | S92 | DOCUMENTED_CODEX_MEMORY_TIP | `production/preview/full/S92.png` | 1920×1080 | `5ce24f694235e2ddc92ce99395ad93eb394440c2d4f44029ae733ce90a93d38b` |
 | S93 | TEACHING_PERMISSION_LIMITS | `production/preview/full/S93.png` | 1920×1080 | `4d0b3c4a32a80f566dd0f91d97753e701c66d6cdf80c13904f6ec0d38e8c42ca` |

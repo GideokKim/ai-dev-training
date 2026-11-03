@@ -15269,3 +15269,74 @@ The reviewer hands off evidence and specific remaining work. The next run receiv
 ## Follow-up
 
 Check the S90 to S91 transition, the unchanged controls on the memory and Goal tips, and shifted index targets in the presentation files.
+
+# DEC-0161 — Show a concrete two-model review handoff on S90
+
+## Status
+
+ACCEPTED for the requested visual teaching example.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S89 introduces a merge request with its change and supporting evidence.
+S91 shows where the next run can recover outstanding review work.
+
+## Problem
+
+The abstract author and reviewer roles on S90 do not show a first-time
+viewer what either role receives or sends back.
+
+## Decision
+
+Use GPT-5.4 as the author and Claude Sonnet 4.6 as the reviewer in a
+hypothetical brightness-statistics task. The author sends a row-wise
+aggregation change and the comparison of all six outputs. The reviewer
+requests the missing peak-allocation comparison between baseline and
+candidate on the same input. Carry that pending check into S91.
+
+## Rationale
+
+One example separates the change already checked for output compatibility
+from a performance condition that still needs evidence.
+
+## Alternatives
+
+A diagram labeled only with generic roles hides the concrete inputs and
+outputs. A benchmark comparison would answer a different question.
+
+## Trade-offs
+
+The named models make the roles easier to follow. The example supplies no
+measurement of this pairing or automatic integration. The model selection
+is illustrative and carries no recommendation.
+
+## Related Invariants
+
+INV-LOOP-001, INV-VERIFY-001, INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+The visible S90 diagram in ACT four and the integrated deck, the slide and
+template maps, the ACT four workflow plan and the matching speaker notes.
+
+## Evidence
+
+Presenter feedback on S90. SRC-0246, page 10, motivates the separation of
+author and reviewer roles. The course supplies the model assignments,
+messages and requested check as a teaching reconstruction. The provider pages
+confirm the model names used in the diagram. [OpenAI model reference](https://developers.openai.com/api/docs/models/gpt-5.4) · [Anthropic announcement](https://www.anthropic.com/news/claude-sonnet-4-6)
+
+## Training Relevance
+
+Learners can name the difference between verified outputs and an unchecked
+allocation target, and identify what another run needs to measure.
+
+## Follow-up
+
+Keep the slide title and its four minutes (one lecture, three case). Check
+that both transfers are legible and that the model assignments are clearly
+labeled as an example.
