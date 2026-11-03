@@ -8,7 +8,6 @@ export function loopOperationsFactories(H) {
   const {C,FONT,CODE,text,rect,line} = H;
   const blue = '#315C87';
   const bluePale = '#E1EBF6';
-  const reconstruction = '밝기 통계 사례 · 교육용 재구성';
   const caseKind = 'CONCEPTUAL';
   const common = (p,id,title,eyebrow,source,kind='TEACHING_MODEL',modules='신규 확장',tip='') => {
     const slide = H.frame(p,id,title,'ACT 4 · '+eyebrow,source,'',kind);
@@ -97,7 +96,7 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S80(p) {
-      const s=common(p,'S80','같은 검토 결과가 다음 수정을 시작한다','사람의 재지시 없이 이어지는 수정과 재검토',reconstruction);
+      const s=common(p,'S80','같은 검토 결과가 다음 수정을 시작한다','사람의 재지시 없이 이어지는 수정과 재검토','');
       lead(s,'같은 장면을 루프로 연결하면');
       firstReviewFinding(s);
       connect(s,379,385,60);
@@ -127,7 +126,7 @@ export function loopOperationsFactories(H) {
       const s=common(p,'S81','기존 프롬프팅과 루프 엔지니어링','같은 밝기 통계 작업을 진행하는 두 방식','','TEACHING_MODEL','M5 · M6');
       const values=[
         ['항목','기존 프롬프팅','루프 엔지니어링'],
-        ['누가 끌고 가나?','사람이 매번 다음 단계를 지시','목표와 기준에 따라 루프가 진행'],
+        ['진행 주체','사람이 매번 다음 단계를 지시','목표와 기준에 따라 루프가 진행'],
         ['컨텍스트','세션에만 둔 맥락은 종료 시 끊김','외부 파일에 축적해 다음 작업에 재사용'],
         ['오류가 나면','사람이 확인하고 수정 지시','구현·검증이 서로 점검해 오류를 걸러냄'],
         ['결과물','개인 역량에 따라 결과 편차가 큼','작업 지식은 자산으로 축적\n독립 작업은 병렬 실행']
@@ -203,59 +202,59 @@ export function loopOperationsFactories(H) {
     S83(p) {
       const s=common(p,'S83','목표에서 인계까지, 루프의 8단계','이슈 한 건을 수행하는 워크플로우','','TEACHING_MODEL','M5 · M6','검증·개선');
       const loopFill='#E5F1F0';
-      const centerY=365;
-      const trackY=479;
-      const phase=(title,x,w,tone)=>text(s,title,x,186,w,38,26,tone,true);
+      const centerY=413, boxTop=centerY-47, boxBottom=centerY+47;
+      const phase=(title,x,w,tone)=>text(s,title,x,234,w,38,26,tone,true);
       const step=(number,title,x,w)=>{
-        const box=rect(s,x,318,w,94,C.white,C.teal,1.5);box.borderRadius=9;
-        text(s,number,x+4,328,w-8,27,20,C.teal,true,FONT,'center');
-        text(s,title,x+4,359,w-8,43,28,C.ink,true,FONT,'center');
+        const box=rect(s,x,boxTop,w,94,C.white,C.teal,1.5);box.borderRadius=9;
+        text(s,number,x+4,boxTop+10,w-8,27,20,C.teal,true,FONT,'center');
+        text(s,title,x+4,boxTop+41,w-8,43,28,C.ink,true,FONT,'center');
       };
       // Keep setup linear. Only the implementation, checks and decision repeat.
-      const field=rect(s,312,167,668,356,loopFill);field.borderRadius=18;
+      const field=rect(s,312,215,668,356,loopFill);field.borderRadius=18;
       phase('준비',64,229,blue);
       phase('구현·검토 반복',335,600,C.teal);
       phase('사람에게 인계',1023,193,blue);
       const setup=[
-        ['01','목표·범위',239],
-        ['02','현재 상태 조사',302],
-        ['03','계획·환경 준비',365]
+        ['01','목표·범위',centerY-120],
+        ['02','현재 상태 조사',centerY-60],
+        ['03','계획·환경 준비',centerY]
       ];
       setup.forEach(([number,title,y],i)=>{
-        if(i<2) connect(s,85,y+16,0,28,blue);
-        s.shapes.add({name:'준비 단계 '+number,geometry:'ellipse',position:{left:65,top:y-16,width:40,height:32},fill:blue,line:{fill:'none',width:0}});
-        text(s,number,65,y-16,40,32,19,C.white,true,FONT,'center');
-        text(s,title,116,y-22,179,44,27,C.ink,true);
+        const box=rect(s,64,y-20,228,40,C.white,'#A9BDCC',1);box.borderRadius=7;
+        s.shapes.add({name:'준비 단계 '+number,geometry:'ellipse',position:{left:72,top:y-14,width:34,height:28},fill:blue,line:{fill:'none',width:0}});
+        text(s,number,72,y-14,34,28,18,C.white,true,FONT,'center');
+        text(s,title,115,y-20,171,40,25,C.ink,true);
+        if(i<2) connect(s,89,y+20,0,20,blue);
       });
-      connect(s,302,centerY,29,0,blue);
+      connect(s,292,centerY,45,0,blue);
       step('04','구현',337,111);
       step('05','실행 검증',479,126);
       step('06','독립 검토',636,126);
-      connect(s,451,centerY,24,0,C.teal);
-      connect(s,608,centerY,24,0,C.teal);
-      connect(s,765,centerY,28,0,C.teal);
-      s.shapes.add({name:'07 다음 행동 판단',geometry:'diamond',position:{left:797,top:294,width:161,height:142},fill:C.teal,line:{fill:'none',width:0}});
-      text(s,'07',824,326,107,27,20,C.white,true,FONT,'center');
-      text(s,'다음 행동',810,350,135,31,25,C.white,true,FONT,'center');
-      text(s,'판단',824,377,107,30,25,C.white,true,FONT,'center');
+      connect(s,448,centerY,31,0,C.teal);
+      connect(s,605,centerY,31,0,C.teal);
+      connect(s,762,centerY,35,0,C.teal);
+      s.shapes.add({name:'07 다음 행동 판단',geometry:'diamond',position:{left:797,top:centerY-71,width:161,height:142},fill:C.teal,line:{fill:'none',width:0}});
+      text(s,'07',824,centerY-39,107,27,20,C.white,true,FONT,'center');
+      text(s,'다음 행동',810,centerY-15,135,31,25,C.white,true,FONT,'center');
+      text(s,'판단',824,centerY+12,107,30,25,C.white,true,FONT,'center');
 
-      const startX=392,endX=877;
-      const pathWidth=endX-startX, pathHeight=trackY-411;
-      s.shapes.add({name:'보완 경로 · 판단에서 구현으로',geometry:'custom',position:{left:startX,top:411,width:pathWidth,height:pathHeight},fill:'none',line:{fill:C.warn,width:3.5},customPaths:[{width:pathWidth,height:pathHeight,commands:[
-        {moveTo:{x:pathWidth,y:25}},{lineTo:{x:pathWidth,y:pathHeight-12}},
+      const startX=392.5,endX=877.5;
+      const pathWidth=endX-startX, pathHeight=67;
+      s.shapes.add({name:'보완 경로 · 판단에서 구현으로',geometry:'custom',position:{left:startX,top:boxBottom,width:pathWidth,height:pathHeight},fill:'none',line:{fill:C.warn,width:2.5},customPaths:[{width:pathWidth,height:pathHeight,commands:[
+        {moveTo:{x:pathWidth,y:24}},{lineTo:{x:pathWidth,y:pathHeight-12}},
         {quadBezTo:{x1:pathWidth,y1:pathHeight,x:pathWidth-12,y:pathHeight}},
         {lineTo:{x:12,y:pathHeight}},{quadBezTo:{x1:0,y1:pathHeight,x:0,y:pathHeight-12}},
-        {lineTo:{x:0,y:15}}
+        {lineTo:{x:0,y:16}}
       ]}]});
-      connect(s,startX,414,0,20,C.warn,true);
-      text(s,'보완이 필요하면 다시 구현',438,430,370,40,24,C.warn,true,FONT,'center');
+      connect(s,startX,boxBottom,0,16,C.warn,true);
+      text(s,'보완이 필요하면 다시 구현',438,centerY+65,370,40,24,C.warn,true,FONT,'center');
 
-      connect(s,960,centerY,67,0,blue);
-      const handoff=rect(s,1032,318,184,94,bluePale,blue,1.5);handoff.borderRadius=9;
-      text(s,'08',1037,328,174,27,20,blue,true,FONT,'center');
-      text(s,'결과 인계',1037,359,174,43,30,C.ink,true,FONT,'center');
-      text(s,'완료 · 검증 결과',1029,428,190,35,23,blue,true,FONT,'center');
-      text(s,'중단 · 남은 일',1029,465,190,35,23,C.sub,false,FONT,'center');
+      connect(s,958,centerY,74,0,blue);
+      const handoff=rect(s,1032,boxTop,184,94,bluePale,blue,1.5);handoff.borderRadius=9;
+      text(s,'08',1037,boxTop+10,174,27,20,blue,true,FONT,'center');
+      text(s,'결과 인계',1037,boxTop+41,174,43,30,C.ink,true,FONT,'center');
+      text(s,'완료 · 검증 결과',1029,centerY+63,190,35,23,blue,true,FONT,'center');
+      text(s,'중단 · 남은 일',1029,centerY+100,190,35,23,C.sub,false,FONT,'center');
       return s;
     },
     S84(p) {

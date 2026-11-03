@@ -15474,3 +15474,17 @@ The speaker notes retain the six-output check and peak-allocation comparison
 on the same input, and connect the human handoff on S94 to the team question
 on S96. Preserve M5/M6, the two lecture minutes and the teaching-example
 boundary. No execution or performance outcome is added.
+
+# DEC-0166 — Simplify three layout details at the start of ACT four
+
+## Status and Date
+
+ACCEPTED on 2026-11-03.
+
+## Decision and Scope
+
+Remove the reconstruction caption from the S80 audience view. Its Notes
+retain the brightness example's source and conceptual status. Use a noun
+phrase for the first comparison row on S81. Lower the S83 workflow as one
+group to give the title more room, preserving all eight stages, the return
+to implementation, and the handoff exit. Keep all time allocations.
