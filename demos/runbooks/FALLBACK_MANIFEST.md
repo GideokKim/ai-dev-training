@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0149
+## Current presentation · DEC-0150
 
 The 43 entries identify local static fallbacks for the 113-slide course. ACT4 uses the author’s GitLab account of operations, a designed brightness case, a published benchmark and a documented Goal example. Classroom playback and account checks are pending.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`e323fa686d758c39c6d58027cea871e8139a80fd5be4e66eeeca32b5b2a9f927`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`5d2612971b62ec96030ddf5e11b8e11dae838f52f0b8bd3f749d89087ae31e11`.
-- `production/preview/full/montage.png` SHA-256:`5bb167ccb0ed45f58230ce4cdb23be4fbaf134a7d8ae2949a4fb845628dff1d0`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`be32932d634d3c3b5bc6b4ac74ae1d6c4f0528e0953a4cfe8a784ccc290f53c3`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`7e4eb74737e7caf1471cc92024817e770df9093917c3da64eb67647522aa343d`.
+- `production/preview/full/montage.png` SHA-256:`821373fc5f201f78686278411d84f000a7b3ab84907edd26bc2539fa0820c541`.
 
-[Current revision](../../production/evaluation/S79_S82_LUNCH_CONTINUITY.md)
+[Current revision](../../production/evaluation/S83_S85_REVIEW_DECISIONS.md)
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
@@ -37,9 +37,9 @@ The 43 entries identify local static fallbacks for the 113-slide course. ACT4 us
 | S80 | TEACHING_MAP | `production/preview/full/S80.png` | 1920×1080 | `b37994cde3beb9a42c2293b65ca12479400fe7ec26e1f81e34f198a8a154d4c1` |
 | S81 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S81.png` | 1920×1080 | `3d05578c4e969ce1fc7a5f8b5070dffdfc25b7cfb6eb9883be8d6312518fdde7` |
 | S82 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S82.png` | 1920×1080 | `45ba508571a1c6e85dc10abf83e7b9264eb73d186116e96deff818a566d0eb0f` |
-| S83 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S83.png` | 1920×1080 | `d1ba64f22d3016686a7a24c8baa23991081daf676f1902341331ebda6f6e8302` |
-| S84 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S84.png` | 1920×1080 | `1a8af0f1e4cf642a5bc33b3d14c3baedfcaa496ff70b2ca4d97ff0d60126f0af` |
-| S85 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S85.png` | 1920×1080 | `c22fc3117c1e19c777008bf0d07bf0d14fcdd30f893177adccb5337d4c3c61c0` |
+| S83 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S83.png` | 1920×1080 | `014b3c0d8a4522bd0f478459a53a27b97a0b966d51cf3e65b358c541d427c7a0` |
+| S84 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S84.png` | 1920×1080 | `aa3ec616518b2866672caf85bc6ebc7148848c4cb0fb8697b01c46f8772f38e4` |
+| S85 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S85.png` | 1920×1080 | `9a6f9d2c39c0e0091be44dc298d2a9186ac5d20121c2a6091b57fa9a8dc5b0a1` |
 | S86 | RESEARCH_GUIDED_DESIGN | `production/preview/full/S86.png` | 1920×1080 | `603f6de1a2fcb49658a464514ba9e86262f67d6f685cc7af5760c196be05b32a` |
 | S87 | PUBLISHED_BENCHMARK | `production/preview/full/S87.png` | 1920×1080 | `2ffd4004727bc494406fa5792226d4c3930d46b083529b2e331f199842f9ad88` |
 | S88 | AUTHOR_REPORTED_CASE | `production/preview/full/S88.png` | 1920×1080 | `83fc4a3952b1ca26f721d088984235c80bcd211c25822d389c522c9c46c1965f` |

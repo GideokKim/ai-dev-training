@@ -1,8 +1,8 @@
 # MASTER EXECUTION STATUS
 
-## S79–S82 사례 연결 · DEC-0149
+## S83–S85 검토·수정·판단 · DEC-0150
 
-통합 113장과 ACT4 20장의 렌더·내장 Notes를 검사했다. 현장 발표 PC·투사·교육 계정·리허설은 별도 검증 대상이다. [현재 검토](S79_S82_LUNCH_CONTINUITY.md)
+통합본과 ACT4·ACT5 개별본의 렌더와 내장 Notes를 확인했다. 현장 발표 PC·투사·교육 계정·실측 리허설은 별도 점검 대상이다. [현재 검토](S83_S85_REVIEW_DECISIONS.md)
 
 ## 이전 기록
 

@@ -1,14 +1,14 @@
 # 6-Hour Curriculum
 
-## 현재 ACT3→ACT4 제작 기준 — DEC-0146 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0150 (2026-11-03)
 
 목표를 이미 맡겼는데도 사람이 검토 지적을 새 요청으로 전달하는 이유를 묻고, 같은 지적을 다음 구현과 재검토에 연결하는 설계를 설명한다. 이어서 팀원이 같은 이슈의 변경과 검토 근거를 넘겨받는 GitLab 사례를 본다.
 
 | Section | 위치 | 분 | 판단 대상 |
 |---|---|---:|---|
 | 4R1 Goal-loop entry | S78–S80 | 9 | 수정 착수를 위한 사람의 재요청 → 지적의 직접 인계 → 같은 기준으로 재검토 |
-| 4R2 One-goal walkthrough | S81–S84 | 19 | 완료 기준, 가상 v1, 검토 R1, v2 요청 |
-| 4R3 Loop control | S85 | 5 | 완료·재시도·미완료 인계 |
+| 4R2 One-goal walkthrough | S81–S84 | 19 | 완료 기준, v1의 전체 복사 지적, v2의 행별 집계 |
+| 4R3 Loop control | S85 | 5 | 누락 근거 측정 후 완료 보고·재수정·미완료 인계 |
 | 4R4 Review research | S86–S87 | 9 | 역할과 모델 조합의 평가 |
 | 4R5 Team operations and state | S88–S94 | 26 | GitLab 이슈별 작업 공간·구현/검토·팀원의 MR 검토·상태 인계·규칙 변경 승인 |
 | 4T1 Goal continuation | S95 | 4 | 공식 기능과 한 요청 예시, 기존 4T2의 작성 역할 통합 |

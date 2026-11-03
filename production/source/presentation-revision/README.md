@@ -1,5 +1,7 @@
 # ACT 3 handoff and ACT 4 loop motivation (DEC-0146)
 
+For the DEC-0150 review sequence and updated S112 lookup, rebuild the full deck,
+ACT 4 and ACT 5 with `--release --release-acts=4,5`.
 For the DEC-0149 S79–S82 continuation, build the integrated deck and ACT 4
 with `--release --release-acts=4`. For the DEC-0148 S77 lunch conversation,
 build the integrated deck and ACT 3 with

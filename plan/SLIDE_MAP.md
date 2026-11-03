@@ -1,8 +1,8 @@
 # Official Slide Map
 
-## 현재 ACT3→ACT4 제작 기준 — DEC-0149 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0150 (2026-11-03)
 
-S77에서 점심 전 맡긴 작업과 돌아와 받은 계획을 나란히 보여준다. S79는 “응, 시작해.”라는 답에서 첫 구현으로 이어지고, 검토 지적을 사람이 전달하는 두 번째 멈춤을 보여준다. S80은 같은 첫 지적을 루프로 연결한 대안이다. S81은 점심 전 요청과 완료 기준을 구분하고 S82는 같은 첫 후보의 목록 생성식을 확대한다. S88부터의 GitLab 사례는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
+S77에서 점심 전 맡긴 작업과 돌아와 받은 계획을 나란히 보여준다. S79는 “응, 시작해.”라는 답에서 첫 구현으로 이어지고, 검토 지적을 사람이 전달하는 두 번째 멈춤을 보여준다. S80은 같은 첫 지적을 루프로 연결한 대안이다. S81은 점심 전 요청과 완료 기준을 구분하고 S82는 같은 첫 후보의 목록 생성식을 확대한다. S83–S85에서 이 식으로 확인한 지적을 직접 구현에 넘겨 전체 복사를 행별 집계로 바꾼다. 누락된 시간은 같은 후보로 먼저 측정하고 결과와 한도를 보고 다음 행동을 정한다. S88부터의 GitLab 사례는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
 
 [승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
 
@@ -2149,80 +2149,80 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Evidence / Decision References:** DEC-0149, DEC-0144, BEAT-075, CASE-LOOP-01, DEC-0097, CLM-0021
 - **Audience Footer:** 교육용 재구성
 
-#### S83 — Checker가 수정을 요청할 근거
+#### S83 — 어떤 지적을 다음 수정에 넘길까?
 
 - **Slide ID:** S83
 - **ACT:** ACT 4
 - **Section:** 4R2 One-goal walkthrough
-- **Working Title:** Checker가 수정을 요청할 근거
-- **Primary Role:** 명세와 diff, 검사 기록으로 지적을 수용하거나 기각하고 근거가 빠졌으면 추가 확인한다.
-- **Audience Question:** 어떤 검토 지적을 다음 수정에 넘길까?
-- **Core Message:** 명세와 diff, 검사 기록으로 지적을 수용하거나 기각하고 근거가 빠졌으면 추가 확인한다.
+- **Working Title:** 어떤 지적을 다음 수정에 넘길까?
+- **Primary Role:** S82의 목록 생성식에서 근거를 확인하고 다음 구현에 전달할 지적을 고른다.
+- **Audience Question:** 어떤 지적을 다음 수정에 넘길까?
+- **Core Message:** 코드에서 전체 픽셀을 임시 목록으로 복사하는 위치를 짚을 수 있다. 이 지적을 수정에 넘기고 실행시간 변화는 측정으로 확인한다.
 - **Story Beat:** BEAT-076
-- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough; DEC-0144
+- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0150
 - **Evidence Type:** CONCEPTUAL
 - **Claim Status:** CONCEPTUAL CASE — CASE-LOOP-01의 밝기 통계 가상 후보와 검토 과정. 기존 제품 Trial은 함수의 실제 배경만 제공한다.
-- **Visual Concept:** 구현 담당과 다른 검토 담당에게 목표 카드, diff, 검사 근거를 준다. 보존 기준에 어긋나는 지적과 근거가 부족한 지적을 구분해 수용·기각·추가 확인을 보여준다.
+- **Visual Concept:** 첫 구현의 목록 생성식과 ‘전체 픽셀을 복사하는 임시 목록이 남았다’는 지적을 하나로 묶는다. R1은 추적용 표식이다. 출력 항목 축소는 여섯 출력 보존 조건과 충돌해 기각하고, 느려졌다는 주장은 측정 전까지 보류하는 예를 작게 둔다.
 - **Demo / Case Connection:** CASE-LOOP-01 · 밝기 통계 내부 루프의 교육용 설계
-- **Beginner Payoff:** 명세와 diff, 검사 기록으로 지적을 수용하거나 기각하고 근거가 빠졌으면 추가 확인한다.
-- **Advanced Payoff:** 검토자의 말도 원래 명세와 diff에서 확인한다.
+- **Beginner Payoff:** 코드에서 바로 짚을 수 있는 문제와 시간을 재야 알 수 있는 문제를 구분한다.
+- **Advanced Payoff:** 코드 위치·고정된 명세·추가로 필요한 측정이라는 세 종류의 근거로 검토 의견을 선별한다.
 - **C++ Vision Bridge:** 프로젝트 명세·검사·측정 기준으로 전이할 수 있는 설계 원리.
-- **Speaker Intent:** 검토자의 말도 원래 명세와 diff에서 확인한다.
-- **Transition:** R1이 남으면 구현자에게 어떤 자료와 지시를 줄까?
+- **Speaker Intent:** S82의 같은 식을 가리키며 전체 복사 지적을 넘기는 이유를 설명한다. 복사 코드의 존재만으로 성능 차이를 단정하지 않는다.
+- **Transition:** 검토에서 넘긴 이 지적은 다음 후보의 구현을 어떻게 바꿀까?
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 4분 = 5분
-- **Evidence / Decision References:** DEC-0144, BEAT-076, CASE-LOOP-01, DEC-0097, CLM-0021
+- **Evidence / Decision References:** DEC-0150, DEC-0144, BEAT-076, CASE-LOOP-01, DEC-0097, CLM-0021
 - **Audience Footer:** 교육용 재구성
 - **Practical Tip Classification:** 검증·개선
 
-#### S84 — 같은 지적이 v2의 입력이 된다
+#### S84 — 그 지적을 받은 구현은 어디가 달라질까?
 
 - **Slide ID:** S84
 - **ACT:** ACT 4
 - **Section:** 4R2 One-goal walkthrough
-- **Working Title:** 같은 지적이 v2의 입력이 된다
-- **Primary Role:** 검토 지적 R1, 고정된 목표와 검사 항목이 다음 후보 v2의 작업 요청이 된다.
-- **Audience Question:** R1이 남으면 구현자에게 어떤 자료와 지시를 줄까?
-- **Core Message:** 검토 지적 R1, 고정된 목표와 검사 항목이 다음 후보 v2의 작업 요청이 된다.
+- **Working Title:** 그 지적을 받은 구현은 어디가 달라질까?
+- **Primary Role:** 검토자가 넘긴 전체 복사 지적과 구현자가 바꾼 계산 방식을 대응시킨다.
+- **Audience Question:** 그 지적을 받은 구현은 어디가 달라질까?
+- **Core Message:** 루프가 같은 지적을 구현에 직접 넘긴다. 다음 후보는 전체 픽셀 목록을 만드는 방식에서 한 행씩 집계하는 방식으로 바뀐다.
 - **Story Beat:** BEAT-077
-- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough; DEC-0144
+- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0150
 - **Evidence Type:** CONCEPTUAL
 - **Claim Status:** CONCEPTUAL CASE — CASE-LOOP-01의 밝기 통계 가상 후보와 검토 과정. 기존 제품 Trial은 함수의 실제 배경만 제공한다.
-- **Visual Concept:** 아래의 R1 카드를 화면에 고정한다. 지적 → 다음 요청 → 바뀐 코드 위치를 같은 번호로 짚는다. S93의 상태 인계를 이 순간에 먼저 체험시킨다.
+- **Visual Concept:** 앞 장의 지적을 같은 표식으로 짚고 작은 R1을 붙인다. 첫 후보의 전체 임시 목록과 다음 후보의 행별 최솟값·최댓값·합계 집계를 나란히 비교한다. 개발자가 입력하는 프롬프트는 등장하지 않는다.
 - **Demo / Case Connection:** CASE-LOOP-01 · 밝기 통계 내부 루프의 교육용 설계
-- **Beginner Payoff:** 검토 지적 R1, 고정된 목표와 검사 항목이 다음 후보 v2의 작업 요청이 된다.
-- **Advanced Payoff:** 할당을 고쳐도 시간 근거가 빠지면 R1의 다음 검사가 남는다.
+- **Beginner Payoff:** 앞에서 찾은 전체 복사 위치를 다음 후보가 어떻게 바꾸는지 따라간다.
+- **Advanced Payoff:** 두 후보가 놓인 교육용 비교에서 코드 변경 근거와 아직 확보해야 할 성능 측정 근거를 구분한다.
 - **C++ Vision Bridge:** 프로젝트 명세·검사·측정 기준으로 전이할 수 있는 설계 원리.
-- **Speaker Intent:** 할당을 고쳐도 시간 근거가 빠지면 R1의 다음 검사가 남는다.
-- **Transition:** 확인 근거가 부족하면 어느 단계로 갈까?
+- **Speaker Intent:** 같은 검토 지적과 수정 위치를 먼저 짝짓고, 여섯 출력 보존·할당 피크·실행시간은 동일 입력으로 재검토해야 함을 짚는다.
+- **Transition:** 전체 복사는 없앴다. 다음 후보의 실행시간을 아직 재지 않았다면 끝내도 될까?
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 4분 = 5분
-- **Evidence / Decision References:** DEC-0144, BEAT-077, CASE-LOOP-01, DEC-0097, CLM-0021
+- **Evidence / Decision References:** DEC-0150, DEC-0144, BEAT-077, CASE-LOOP-01, DEC-0097, CLM-0021
 - **Audience Footer:** 교육용 재구성
 
-#### S85 — 다음 수정, 완료, 중단
+#### S85 — 고친 뒤, 끝낼까 다시 고칠까?
 
 - **Slide ID:** S85
 - **ACT:** ACT 4
 - **Section:** 4R3 Loop control
-- **Working Title:** 다음 수정, 완료, 중단
-- **Primary Role:** 충족된 기준·고칠 수 있는 위반·근거 부족이나 한도에 따라 제출, 수정, 미완료 인계를 구분한다.
-- **Audience Question:** 확인 근거가 부족하면 어느 단계로 갈까?
-- **Core Message:** 충족된 기준·고칠 수 있는 위반·근거 부족이나 한도에 따라 제출, 수정, 미완료 인계를 구분한다.
+- **Working Title:** 고친 뒤, 끝낼까 다시 고칠까?
+- **Primary Role:** 같은 수정안에서 확보 가능한 근거를 먼저 얻고 그 결과로 완료·재수정·미완료 인계를 결정한다.
+- **Audience Question:** 고친 뒤, 끝낼까 다시 고칠까?
+- **Core Message:** 실행시간 기록이 비어 있다면 같은 후보와 기준판을 같은 입력·측정 조건으로 비교한다. 확인된 결과로 다음 행동을 정한다.
 - **Story Beat:** BEAT-078, BEAT-079
-- **Curriculum Trace:** ACT 4 / 4R3 Loop control; DEC-0144
+- **Curriculum Trace:** ACT 4 / 4R3 Loop control · DEC-0150
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
 - **Claim Status:** CONCEPTUAL CASE — CASE-LOOP-01의 밝기 통계 가상 후보와 검토 과정. 기존 제품 Trial은 함수의 실제 배경만 제공한다.
-- **Visual Concept:** 같은 입력으로 출력·메모리·시간을 다시 본다. 기준 충족이면 검토 제출, 수정 가능한 위반이면 R1 재진입, 근거 확보 불가·한도 도달이면 미완료 상태로 사람에게 인계한다.
+- **Visual Concept:** 실행시간 기록이 없는 예시 조건에서 시작해 같은 수정안을 먼저 측정한다. 여섯 출력 보존·할당 피크 감소·실행시간 유지가 모두 확인되면 후보와 근거를 검토에 제출한다. 확인된 위반은 다음 수정과 재검토로, 측정 불가 또는 한도 도달은 미완료 인계로 연결한다.
 - **Demo / Case Connection:** CASE-LOOP-01 · 밝기 통계 내부 루프의 교육용 설계
-- **Beginner Payoff:** 충족된 기준·고칠 수 있는 위반·근거 부족이나 한도에 따라 제출, 수정, 미완료 인계를 구분한다.
-- **Advanced Payoff:** 반복·시간·비용 한도와 근거 부족을 미완료 상태로 남긴다.
+- **Beginner Payoff:** 아직 재지 않은 시간과 실제 허용 조건을 어긴 시간을 구분해 측정 또는 다음 수정을 선택한다.
+- **Advanced Payoff:** 측정 가능 여부와 한도를 별도로 확인한다. 증거 확보가 막히면 현재 후보와 미확인 항목을 사람이 판단할 수 있게 인계한다.
 - **C++ Vision Bridge:** 프로젝트 명세·검사·측정 기준으로 전이할 수 있는 설계 원리.
-- **Speaker Intent:** 반복·시간·비용 한도와 근거 부족을 미완료 상태로 남긴다.
-- **Transition:** 검토 담당이 제출한 의견을 무엇으로 확인할까?
+- **Speaker Intent:** 성찰 2분에는 ‘실행시간 기록이 없음’과 ‘측정 결과 시간 조건을 넘음’의 첫 행동을 각각 고르게 한다. 실제 통과·위반이나 자동 병합을 가정하지 않는다.
+- **Transition:** 이 후보를 바꾸는 담당과 검토 근거를 대조하는 담당을 어떻게 정할까?
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 3분 + Reflection 2분 = 5분
-- **Evidence / Decision References:** DEC-0144, BEAT-078, BEAT-079, CASE-LOOP-01, DEC-0097, CLM-0021
+- **Evidence / Decision References:** DEC-0150, DEC-0144, BEAT-078, BEAT-079, CASE-LOOP-01, DEC-0097, CLM-0021
 - **Audience Footer:** 교육용 재구성
 - **Practical Tip Classification:** 검증·개선
 
@@ -2898,7 +2898,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 / 최종 회고 뒤, 기존 Q&A·Closing 직전의 통합 찾아보기. 새 Maturity 단계·Demo가 아니다.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능·Trial·성능·검증 결과를 주장하지 않는다.
-- **Visual Concept:** 공통 “실무 적용 팁 · 찾아보기” 배지와 S83 검토 근거·S85 수정/완료/중단·S95 통합 Goal 요청, S106/S107 재평가 팁 목록. 5개 또는8개 항목은 두 열,4개는 한 열로 배치한다. 설명 전문·새 결과·이미지를 반복하지 않는다.
+- **Visual Concept:** 공통 “실무 적용 팁 · 찾아보기” 배지 아래 S83 “어떤 지적을 다음 수정에 넘길까?”, S85 “고친 뒤, 끝낼까 다시 고칠까?”, S95 Goal 요청과 S106/S107 재평가 팁을 현재 표제로 연결한다. 5개 또는8개 항목은 두 열,4개는 한 열로 배치한다. 설명 전문·새 결과·이미지를 반복하지 않는다.
 - **Demo / Case Connection:** N/A — 기존 자료의 위치 안내이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
 - **Advanced Payoff:** 사례의 근거 상태를 유지한 채 재사용할 안내 위치를 구분한다.

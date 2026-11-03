@@ -14517,3 +14517,92 @@ explain what evidence the next candidate still needs.
 Compare the position and wording of the finding on S79 and S80. Check
 S81 against the exact lunch request and verify that S82 reads as an
 inspection of v1. Keep all slide IDs, times and evidence categories.
+
+# DEC-0150 — Follow the pixel-copy finding through revision and measurement
+
+## Status
+
+ACCEPTED. The presenter approved the S83–S85 revision.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S82 shows the list comprehension that copies every pixel in the first
+brightness candidate. The next three slides should let a reader trace
+that specific finding to a change and a decision on the revised candidate.
+
+## Problem
+
+The three review categories on S83 obscured which finding moved forward.
+S84 gave the tracking ID and imperative request more prominence than
+the changed implementation. S84 mentioned missing runtime evidence, but
+S85 did not show the first action when that evidence could be collected.
+
+## Decision
+
+Use the same copy finding throughout the example. On S83, point to the
+list construction as evidence for passing it to the implementer. Keep the
+output-reduction proposal and the unmeasured runtime claim as secondary
+examples of rejection and further checking.
+
+On S84, pass the finding directly from review into implementation.
+Compare the first candidate's full temporary list to the next candidate's
+row-wise aggregation. Keep the six outputs and comparison conditions
+fixed. R1 identifies the finding across the two candidates.
+
+On S85, if runtime evidence is missing, measure the same revised candidate
+against the baseline on the same input and under the same conditions.
+Submit the candidate with evidence when all three conditions hold.
+Revise and recheck a confirmed violation. When measurement is unavailable
+or the agreed limit is reached, hand off the incomplete candidate,
+the missing evidence and the reason to a person.
+
+## Rationale
+
+A single finding connects otherwise familiar concepts to one code
+location. Showing measurement first prevents an unmeasured condition
+from being read as a failed condition requiring another code change.
+
+## Alternatives
+
+Three equally prominent opinions would preserve the taxonomy but lose
+the through line from S82. Sending missing measurements directly to
+revision or stopping would hide a feasible next step for the same
+candidate.
+
+## Trade-offs
+
+S83 and S84 each retain one lecture minute and four case minutes.
+S85 retains three lecture minutes and two reflection minutes.
+Secondary review examples receive less screen space. Existing slide
+numbers and template variants remain in use.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001 and INV-LOOP-001.
+
+## Affected Artifacts
+
+ACT4 slides and notes, the S112 tip index entries, the integrated
+presentation, the slide and template maps, and the current story,
+curriculum and evidence guidance.
+
+## Evidence
+
+The presenter's instruction, CASE-LOOP-01 and its existing DEC-0097 and
+DEC-0144 boundaries. The product trial provides the function context.
+The two candidates, R1 and the measurement branches are educational
+designs. This revision adds no execution or measured performance result.
+
+## Training Relevance
+
+A reviewer can inspect a candidate to find a copy. The team needs
+comparable measurements to decide whether its performance goals hold.
+
+## Follow-up
+
+Check that the tip index resolves to the new titles and that the revised
+slide sequence is legible in the final presentation environment.

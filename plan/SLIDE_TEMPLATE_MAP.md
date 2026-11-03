@@ -1,8 +1,8 @@
 # STEP 08 — Slide-to-Template Mapping
 
-## 현재 ACT3→ACT4 제작 기준 — DEC-0149 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0150 (2026-11-03)
 
-S77은 T04-A 양쪽 대화창에서 점심 전의 실행 요청과 점심 후의 계획 답변을 대비한다. S79는 T03-C에서 점심 뒤 답변과 검토 뒤 재요청을 이어 보여준다. S80은 같은 지적을 고정하고 다른 인계 경로를 그리는 T03-B, S81은 요청과 사례 기준을 구분하는 T03-A, S82는 첫 후보의 코드를 확대하는 T03-C, S88은 T03-C의 팀 사례 흐름을 사용한다. S87에 기존 T07-B의 편집 가능한 연구 차트를 배치한다. 연구 프레임과 Table 2를 함께 표시한다. S110/S112의 검토·중단·Goal 찾아보기는 현재 S83/S85/S95를 참조한다. 아래 Current113 집계와 113개 행을 기준으로 한다.
+S77은 T04-A 양쪽 대화창에서 점심 전의 실행 요청과 점심 후의 계획 답변을 대비한다. S79는 T03-C에서 점심 뒤 답변과 검토 뒤 재요청을 이어 보여준다. S80은 같은 지적을 고정하고 다른 인계 경로를 그리는 T03-B, S81은 요청과 사례 기준을 구분하는 T03-A, S82는 첫 후보의 코드를 확대하는 T03-C, S88은 T03-C의 팀 사례 흐름을 사용한다. S83은 코드 근거와 선별한 지적을 연결하고 S84는 전체 복사와 행별 집계를 T04-A로 대비한다. S85는 T03-A에서 측정이 필요한 상황을 먼저 제시하고 후속 판단을 읽게 한다. S87에 기존 T07-B의 편집 가능한 연구 차트를 배치한다. 연구 프레임과 Table 2를 함께 표시한다. S110/S112의 검토·중단·Goal 찾아보기는 현재 S83/S85/S95를 참조한다. 아래 Current113 집계와 113개 행을 기준으로 한다.
 
 [승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
 
@@ -146,9 +146,9 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 | S80 — 같은 검토 결과가 다음 수정을 시작한다 | T03-B | CMP-CLAIM | — | TEACHING_MODEL; 같은 목표의 재검토·수정·완료 조건 | 강의 3 + 사례 1; 정적 교육자료 | 같은 검토 장면을 루프로 다시 본다는 점을 먼저 밝힌다. S79의 지적 카드는 문구·위치·색을 유지한다. 지적을 행별 집계 수정으로 보내고 수정안을 같은 기준으로 재검토한다. 근거가 충족된 경로와 문제가 남아 다시 수정하는 경로를 표시한다. | — | V01, V02, V06, V07 |
 | S81 — 점심 전에 맡긴 일, 무엇을 보면 끝났다고 할까? | T03-A | CMP-CLAIM | — | CONCEPTUAL; 교육용 재구성 | 강의 2 + 사례 2; 정적 교육자료 | 점심 전 요청에서 임시 메모리 감소와 수정·테스트를 읽는다. 사례의 완료 기준을 별도로 제시하고 같은 대표 입력에서 여섯 출력 보존, 임시 할당 피크 감소, 실행시간 비악화를 확인할 근거를 대응한다. | — | V01, V02, V06, V07 |
 | S82 — 첫 수정안을 확대해 보면 | T03-C | CMP-CLAIM | — | CONCEPTUAL; 교육용 재구성 | 강의 2 + 사례 3; 정적 교육자료 | S79와 S80에서 공통으로 본 첫 후보 v1을 확대한다. 같은 입력의 픽셀 전체를 복사하는 목록 생성식과, 출력 검사와 할당 피크 측정에서 확인할 내용을 나란히 둔다. | — | V01, V02, V06, V07 |
-| S83 — Checker가 수정을 요청할 근거 | T04-A | CMP-PRACTICAL-TIP, CMP-CLAIM | — | CONCEPTUAL; 교육용 재구성 | 강의 1 + 사례 4; 정적 교육자료 | 검토자의 말도 원래 명세와 diff에서 확인한다. | — | V01, V02, V06, V07 |
-| S84 — 같은 지적이 v2의 입력이 된다 | T04-A | CMP-CLAIM | — | CONCEPTUAL; 교육용 재구성 | 강의 1 + 사례 4; 정적 교육자료 | 할당을 고쳐도 시간 근거가 빠지면 R1의 다음 검사가 남는다. | — | V01, V02, V06, V07 |
-| S85 — 다음 수정, 완료, 중단 | T03-A | CMP-PRACTICAL-TIP, CMP-CLAIM | — | CONCEPTUAL / TEACHING_MODEL; 교육용 재구성 | 강의 3 + 성찰 2; 정적 교육자료 | 반복·시간·비용 한도와 근거 부족을 미완료 상태로 남긴다. | — | V01, V02, V06, V07 |
+| S83 — 어떤 지적을 다음 수정에 넘길까? | T04-A | CMP-PRACTICAL-TIP, CMP-CLAIM | — | CONCEPTUAL; 교육용 재구성 | 강의 1 + 사례 4; 정적 교육자료 | R1의 근거인 목록 생성식과 검토 지적을 강조한다. 명세와 충돌하는 제안과 측정이 필요한 주장은 작게 대비한다. | — | V01, V02, V06, V07 |
+| S84 — 그 지적을 받은 구현은 어디가 달라질까? | T04-A | CMP-CLAIM | — | CONCEPTUAL; 교육용 재구성 | 강의 1 + 사례 4; 정적 교육자료 | 동일 지적에서 전체 픽셀 임시 목록과 다음 후보의 행별 집계를 직접 비교한다. | — | V01, V02, V06, V07 |
+| S85 — 고친 뒤, 끝낼까 다시 고칠까? | T03-A | CMP-PRACTICAL-TIP, CMP-CLAIM | — | CONCEPTUAL / TEACHING_MODEL; 교육용 재구성 | 강의 3 + 성찰 2; 정적 교육자료 | 빠진 실행시간은 동일 입력으로 먼저 측정한다. 그 뒤 기준 충족·확인된 위반·측정 불가 또는 한도에 따라 행동을 고른다. | — | V01, V02, V06, V07 |
 | S86 — 구현자와 검토자를 어떻게 고를까 | T09-A | CMP-CLAIM | — | RESEARCH / TEACHING_MODEL; CriticBench · 연구 결과와 역할 설계 | 강의 3 + 사례 1; 정적 교육자료 | 생성·검토 역할의 분리와 서로 다른 모델 사용을 별개의 선택으로 본다. | — | V01, V02, V06, V07 |
 | S87 — 코드 생성 실험에서 검토 모델을 바꾸면 | T07-B | CMP-CLAIM | — | RESEARCH; PairCoder · Table 2 · HumanEval | 강의 3 + 사례 2; 정적 교육자료 | 같은 모델 81.16%, GPT-4 90.01%, minimax-abab-chat 48.19%, 단독 69.51%를 동일 Driver 행에서 읽는다. | — | V01, V02, V06, V07 |
 | S88 — 구현·검토 루프를 팀 이슈에 어떻게 연결했을까? | T03-C | CMP-CLAIM | — | RESEARCH; 김기덕 · 사내 운영 사례 · 2026-06-16 | 강의 2 + 사례 3; 정적 교육자료 | 한 이슈에서 작업 공간, 구현·검토, 팀원의 병합 요청 검토까지를 잇는다. S89에서 작업 공간을 확대한다. | — | V01, V02, V06, V07 |
@@ -175,7 +175,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 | S109 — 고른 문제에서, 다음 행동 하나로 | T01-B | — | CMP-CPP | T | S108 same-letter action includes integration/removal candidates and source/reviewer/updater; private Reflection2; DEC-0083 | Single state | Contextual | V09 |
 | S110 — 실무 적용 팁 · 작업 환경과 기준 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index: 13/48/56–58/62/67/71/103/95; combined Goal request and function at S95 | — | V01, V05 |
 | S111 — 실무 적용 팁 · 요청 작성 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
-| S112 — 실무 적용 팁 · 검증과 개선 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Checker S83, stop S85, integrated Goal S95, simplification S106/S107 | — | V01, V05 |
+| S112 — 실무 적용 팁 · 검증과 개선 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | 현행 S83 지적 선별·S85 측정 후 판단, 통합 Goal S95, 재평가 S106/S107 | — | V01, V05 |
 | S113 — Q&A와 교육 마무리 | T01-C | — | — | T | Q&A4 then Closing Transition2; original five-stage terminology; DEC-0082 | Single state | — | V10 |
 
 ## Current component usage — DEC-0133

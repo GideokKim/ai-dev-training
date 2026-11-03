@@ -57,6 +57,13 @@ export function loopOperationsFactories(H) {
     text(s,'전체 픽셀을 복사한\n임시 목록이 남았다',85,377,272,64,28,C.ink,true);
   }
 
+  function acceptedFinding(slide) {
+    const banner=rect(slide,64,181,1152,78,C.amber,C.warn,1.5);
+    banner.borderRadius=8;
+    text(slide,'검토 지적 · R1',83,198,207,42,23,C.warn,true);
+    text(slide,'전체 픽셀을 복사하는 임시 목록이 남아 있다',307,192,891,55,33,C.ink,true);
+  }
+
   const cover = actTitleFactories({titleSlides:[{
     act:4, slideId:'S78', displayTitle:'목표를 이룰 때까지\n수정하고 검토하기',
     subtitle:'Loop Engineering · 한 번 맡긴 일이 첫 결과에서 멈추는 순간'
@@ -139,54 +146,62 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S83(p) {
-      const s=common(p,'S83','Checker가 수정을 요청할 근거','밝기 통계 · 검토 지적',reconstruction,caseKind,'M5 · M6','검증·개선');
-      lead(s,'검토자는 목표·명세와 후보의 diff, 검사 기록을 함께 읽는다');
-      const decisions=[
-        [260,'수용','R1  전체 픽셀 목록이 남음','목록 생성 위치를 다음 수정에 전달',C.teal],
-        [349,'기각','출력 항목을 줄이자는 제안','여섯 출력을 보존한다는 명세와 충돌',C.sub],
-        [438,'추가 확인','실행시간이 늘었다는 지적','같은 입력의 측정 기록 요청',C.warn]
-      ];
-      for(const [y,key,claim,evidence,color] of decisions) {
-        line(s,64,y,1152);
-        text(s,key,70,y+18,180,48,30,color,true);
-        text(s,claim,270,y+18,456,48,27,C.ink,true);
-        text(s,evidence,746,y+18,463,48,25,C.sub);
-      }
-      takeaway(s,'근거로 확인한 지적만 다음 구현 요청에 넣는다');
+      const s=common(p,'S83','어떤 지적을 다음 수정에 넘길까?','밝기 통계 · 검토 지적의 근거',reconstruction,caseKind,'M5 · M6','검증·개선');
+      acceptedFinding(s);
+      label(s,'수정에 넘길 근거 · 첫 구현',64,294,562);
+      rect(s,64,340,542,118,C.ink);
+      text(s,'pixels = [v for row in rows\n            for v in row]',84,350,500,95,27,C.white,false,CODE);
+      text(s,'목록을 만드는 위치를 구현 담당에게 전달',64,474,555,42,24,C.teal,true);
+      label(s,'다른 지적은 어떻게 할까?',660,294,552,C.sub);
+      line(s,660,340,556);
+      text(s,'출력 항목도 줄이자',661,352,550,35,25,C.ink,true);
+      text(s,'기각 · 여섯 출력을 보존해야 한다',661,389,550,33,23,C.sub);
+      line(s,660,434,556);
+      text(s,'더 느려졌을 수 있다',661,444,550,35,25,C.ink,true);
+      text(s,'추가 확인 · 같은 입력의 시간 기록이 필요하다',661,481,550,34,23,C.sub);
+      takeaway(s,'코드에서 복사를 찾았다. 메모리 사용량의 변화는 측정으로 확인한다');
       return s;
     },
     S84(p) {
-      const s=common(p,'S84','같은 지적이 v2의 입력이 된다','밝기 통계 · 검토에서 다음 요청으로',reconstruction,caseKind,'M5 · M6');
-      rect(s,64,198,101,309,C.pale,C.teal,1.5);
-      text(s,'R1',70,288,90,80,49,C.teal,true,FONT,'center');
-      const rows=[
-        [198,'v1 검토','전체 픽셀을 복사하는 임시 목록이 남아 있다.'],
-        [300,'다음 요청','목록을 없애고 여섯 출력을 보존해.\n같은 입력으로 할당 피크와 실행시간을 다시 확인해.'],
-        [421,'v2 재검토','전체 복사 줄 삭제 → 행별 min·max·sum 집계\n출력·할당 피크·시간 측정을 다시 대조한다.']
-      ];
-      for(const [y,key,body] of rows){
-        line(s,187,y,1029);label(s,key,198,y+16,158);
-        text(s,body,368,y+9,829,key==='다음 요청'?97:73,28,C.ink,key==='다음 요청');
+      const s=common(p,'S84','그 지적을 받은 구현은 어디가 달라질까?','밝기 통계 · 검토자가 구현 담당에게 넘긴 지적',reconstruction,caseKind,'M5 · M6');
+      acceptedFinding(s);
+      label(s,'첫 구현 · v1',64,291,506,blue);
+      label(s,'지적을 반영한 수정안 · v2',694,291,522);
+      const before=rect(s,64,340,516,163,C.white,C.line,1.5); before.borderRadius=8;
+      const after=rect(s,694,340,522,163,C.pale,C.teal,1.5); after.borderRadius=8;
+      text(s,'전체 픽셀을 한 목록에 복사',85,351,478,53,30,C.ink,true);
+      const cells=['1행 픽셀','2행 픽셀','…'];
+      for(const [i,cell] of cells.entries()){
+        const x=86+i*144;
+        rect(s,x,423,144,53,bluePale,blue,1);
+        text(s,cell,x+3,424,138,51,24,blue,true,FONT,'center');
       }
-      takeaway(s,'시간 근거가 빠졌다면 R1에 남겨 두고 다시 확인한다');
+      connect(s,588,420,94);
+      text(s,'한 행씩 읽으며 통계를 집계',715,351,481,53,30,C.ink,true);
+      text(s,'최소·최대는 갱신하고 합은 누적',715,423,480,53,25,C.teal,true);
+      takeaway(s,'전체 복사를 없앴다. 이것만으로 끝났을까?');
       return s;
     },
     S85(p) {
-      const s=common(p,'S85','다음 수정, 완료, 중단','밝기 통계 · 근거로 다음 행동 선택',reconstruction,caseKind,'M5 · M6','검증·개선');
-      lead(s,'다시 검사한 R1을 어디로 보낼까?');
+      const s=common(p,'S85','고친 뒤, 끝낼까 다시 고칠까?','밝기 통계 · 수정안을 같은 기준으로 재검토',reconstruction,'TEACHING_MODEL','M5 · M6','검증·개선');
+      const measure=rect(s,64,177,1152,100,bluePale,blue,1.5); measure.borderRadius=8;
+      text(s,'v2의 실행시간 기록이 없다면?',84,192,494,66,28,C.ink,true);
+      connect(s,563,227,62,0,blue);
+      text(s,'먼저 측정',647,188,550,38,29,blue,true);
+      text(s,'같은 입력·환경에서 기준판과 수정안의 시간 비교',647,230,554,34,23,C.sub);
       const branches=[
-        [256,'모든 기준 충족','완료 보고','후보와 검사 기록을 사람 검토에 제출',C.teal],
-        [348,'수정할 위반이 남음','다음 수정','남은 지적과 근거를 같은 목표로 되돌림',blue],
-        [440,'측정 불가·한도 도달','미완료 중단','막힌 조건을 남기고 사람에게 판단 요청',C.warn]
+        [302,'출력·할당·시간 모두 기준 충족','완료 보고','수정안과 검사 근거를 함께 제출',C.teal],
+        [386,'검사·측정으로 확인된 기준 위반','재수정','예: 더 느려졌다면 고친 뒤 재측정',blue],
+        [470,'측정 불가 또는 한도 도달','미완료 중단','빠진 근거와 막힌 이유를 사람에게 인계',C.warn]
       ];
-      for(const [y,condition,action,detail,color] of branches) {
+      for(const [y,condition,action,details,color] of branches){
         line(s,64,y,1152);
-        text(s,condition,69,y+15,348,53,28,C.ink,true);
-        connect(s,412,y+41,63,0,color);
-        text(s,action,499,y+15,211,53,29,color,true);
-        text(s,detail,736,y+15,470,53,24,C.sub);
+        text(s,condition,70,y+13,439,55,27,C.ink,true);
+        connect(s,511,y+41,60,0,color);
+        text(s,action,592,y+13,181,55,29,color,true);
+        text(s,details,793,y+13,421,55,23,C.sub);
       }
-      takeaway(s,'중단한 작업은 남은 조건을 보존한 채 인계한다');
+      takeaway(s,'측정값이 없으면 먼저 확인하고, 위반이 확인되면 다시 고친다');
       return s;
     },
     S86(p) {
