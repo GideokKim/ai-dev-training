@@ -2457,30 +2457,30 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 - **Practical Tip Classification:** 작업 환경·검증
 
-#### S95 — AI가 만든 변경은 사람이 검증한 뒤 병합한다
+#### S95 — 병합 전, 사람이 검증한다
 
 - **Slide ID:** S95
 - **ACT:** ACT 4
 - **Section:** 4R6 Evidence and transfer
-- **Working Title:** AI가 만든 변경은 사람이 검증한 뒤 병합한다
+- **Working Title:** 병합 전, 사람이 검증한다
 - **Primary Role:** AI가 정상 완료를 보고한 경로에도 사람이 근거를 대조하고 병합 여부를 결정하는 지점(Human in the Loop)을 둔다.
 - **Audience Question:** AI가 작업을 마쳤다고 보고하면, 병합하기 전에 내가 직접 확인할 것은 무엇일까?
-- **Core Message:** AI가 제출한 변경안과 검사 결과를 사람이 원래의 완료 기준에 대조한다. 출력 6개가 보존되고 동일 입력의 최대 할당량이 기준판보다 낮다는 근거가 있으면 사람이 병합을 승인한다. 근거가 부족하면 AI에 재측정·보완을 요청하고 다시 검증한다.
+- **Core Message:** AI가 변경을 제출하면 사람이 검증한다. 근거가 충분하면 병합을 승인하고, 부족하면 AI가 재측정한 결과를 받아 다시 검증한다.
 - **Story Beat:** BEAT-090, BEAT-083
-- **Curriculum Trace:** ACT 4 / 4R6 Evidence and transfer · DEC-0162, DEC-0156
+- **Curriculum Trace:** ACT 4 / 4R6 Evidence and transfer · DEC-0165, DEC-0162, DEC-0156
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 팀의 병합 절차를 설계하는 교육용 예시. 실제 실행·측정 결과나 사내 병합 정책에 관한 주장은 없다.
-- **Visual Concept:** AI가 제출한 변경안·검사 결과를 사람이 확인하는 지점으로 연결한다. 기준 충족은 병합 승인으로, 근거 부족은 AI 재측정·보완 후 사람의 재검증으로 이어진다.
+- **Visual Concept:** 세 역할 픽토그램에 “AI 제출”, “사람 검증”, “병합 승인”만 붙인다. 승인 방향 화살표는 “근거 충분”, AI 제출로 돌아가는 선은 “근거 부족 · 재측정”으로 표시한다. 본문 문장·번호·하단 설명은 생략한다.
 - **Demo / Case Connection:** PDF p.13의 엔지니어 검토 책임을 S90의 밝기 통계 사례로 설명한다. 검토 흐름과 두 결과는 교육용 조건 분기다.
 - **Beginner Payoff:** AI의 완료 보고를 받은 뒤, 자신이 두 기준을 확인해야 하는 시점을 찾는다.
 - **Advanced Payoff:** 기능 보존과 메모리 목표를 각각 검증하고, 비교할 입력이나 기준판 수치가 빠지면 재측정 조건을 지정한다.
 - **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
-- **Speaker Intent:** S94의 한도 도달과 구별해 AI가 완료했다고 보고한 순간부터 시작한다. S90에서 낸 행별 집계 변경과 출력 비교를 짚고 동일 입력·기준판 대비 최대 할당량 근거를 찾는다. 승인과 보완 뒤 재검증, 두 경로의 결정권자를 가리킨다.
+- **Speaker Intent:** Notes에서 S94의 중단 인계와 AI가 정상적으로 완료를 보고한 상황을 구분한다. 사람이 밝기 통계의 기존 출력 6개와 동일 입력·기준판 대비 최대 할당량을 확인하는 예를 구두로 들고, S96의 팀별 승인 책임 질문으로 이어간다.
 - **Transition:** 우리 팀의 반복 업무에서는 어떤 결정을 사람에게 남길까?
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0162, DEC-0156, SRC-0246, CLM-0050; legacy M5·M6 (교육 내용 대응)
-- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
+- **Evidence / Decision References:** DEC-0165, DEC-0162, DEC-0156, SRC-0246, CLM-0050; legacy M5·M6 (교육 내용 대응)
+- **Audience Footer:** 본문 하단 설명 없음. 기존 M5·M6 모듈 연계 표기 유지.
 
 #### S96 — 무엇을 자동화하고, 무엇을 사람이 결정할까?
 

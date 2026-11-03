@@ -15453,3 +15453,24 @@ does not establish an actual trial, automatic persistence, a performance
 gain, or a required filename. Keep durable team guidance in `AGENTS.md`
 and distinguish the task record from the local memory tip on S92.
 Retain the S91 title and its one lecture minute and two case minutes.
+
+# DEC-0165 — Show the S95 human merge gate as a diagram
+
+## Status and Date
+
+ACCEPTED on 2026-11-03.
+
+## Decision and Rationale
+
+Use three pictograms for submission, human verification and merge approval.
+Label the forward branch with sufficient evidence and the return to the
+agent with missing evidence and remeasurement. The audience can trace the
+decision without reading a numbered explanation.
+
+## Evidence and Scope
+
+Keep the merge responsibility from DEC-0162 and SRC-0246, page 13.
+The speaker notes retain the six-output check and peak-allocation comparison
+on the same input, and connect the human handoff on S94 to the team question
+on S96. Preserve M5/M6, the two lecture minutes and the teaching-example
+boundary. No execution or performance outcome is added.

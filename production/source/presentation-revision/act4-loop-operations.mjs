@@ -463,42 +463,37 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S96(p) {
-      const s=common(p,'S96','AI가 만든 변경은 사람이 검증한 뒤 병합한다','Human in the Loop · 병합 전 사람의 판단','','TEACHING_MODEL','M5 · M6');
-      text(s,'AI가 권한과 예산을 지켜 밝기 통계 수정을 마쳤다면, 바로 병합해도 될까?',64,151,1152,39,26,C.sub);
+      const s=common(p,'S96','병합 전, 사람이 검증한다','Human in the Loop','','TEACHING_MODEL','M5 · M6');
       const roles=new Uint8Array(readFileSync(new URL('../../../assets/slide-illustrations/human-agent-icons.png',import.meta.url)));
-      const icon=(human,x,y,size)=>s.images.add({blob:roles,contentType:'image/png',fit:'contain',
+      const actor=(human,x,y,size)=>s.images.add({blob:roles,contentType:'image/png',fit:'contain',
         alt:human?'검증 근거를 확인하는 사람':'변경안과 검사 결과를 제출하는 AI',
         position:{left:x,top:y,width:size,height:size},
         crop:{left:human?0:.5,right:human?.5:0,top:0,bottom:0}});
-      panel(s,64,256,248,196,C.white,C.line);
-      icon(false,85,270,64);
-      text(s,'AI',160,280,132,49,34,blue,true);
-      text(s,'완료 보고',85,352,209,42,31,C.ink,true);
-      text(s,'변경안 · 검사 결과',85,404,209,34,23,C.sub);
+      const circle=(name,cx,diameter,fill,stroke)=>s.shapes.add({name,geometry:'ellipse',
+        position:{left:cx-diameter/2,top:321-diameter/2,width:diameter,height:diameter},
+        fill,line:{fill:stroke,width:2}});
+      circle('AI 제출 노드',220,210,C.white,blue);
+      circle('사람 검증 노드',640,266,C.pale,C.teal);
+      circle('병합 승인 노드',1060,210,C.white,C.teal);
+      actor(false,169,230,102);
+      actor(true,577,208,126);
+      s.shapes.add({name:'병합 승인 체크',geometry:'custom',position:{left:1020,top:251,width:81,height:58},
+        fill:'none',line:{fill:C.teal,width:9},customPaths:[{width:81,height:58,
+          commands:[{moveTo:{x:3,y:31}},{lineTo:{x:29,y:55}},{lineTo:{x:78,y:3}}]}]});
+      text(s,'AI 제출',134,343,172,49,32,blue,true,FONT,'center');
+      text(s,'사람 검증',535,348,210,58,39,C.teal,true,FONT,'center');
+      text(s,'병합 승인',972,343,176,49,32,C.teal,true,FONT,'center');
 
-      connect(s,322,350,58,0,blue);
-      panel(s,390,197,490,258,C.pale,C.teal);
-      icon(true,411,215,82);
-      text(s,'사람이 직접 대조',506,228,353,58,35,C.teal,true);
-      line(s,411,309,446,C.teal,1);
-      text(s,'01',411,330,48,43,23,C.teal,true);
-      text(s,'출력 6개가 이전과 같은가?',462,326,396,49,27,C.ink,true);
-      text(s,'02',411,392,48,43,23,C.teal,true);
-      text(s,'같은 입력에서 최대 할당량이 줄었나?',462,388,406,49,25,C.ink,true);
-
-      text(s,'근거 충분',888,286,95,38,21,C.teal,true,FONT,'center');
-      connect(s,888,350,86,0,C.teal);
-      panel(s,983,291,233,116,C.white,C.teal);
-      text(s,'사람이',997,305,204,35,23,C.teal,true,FONT,'center');
-      text(s,'병합 승인',997,345,204,48,32,C.ink,true,FONT,'center');
-
-      s.shapes.add({geometry:'custom',name:'근거 부족 시 검토자가 AI에 재측정을 요청',position:{left:188,top:455,width:447,height:92},
-        fill:'none',line:{fill:C.warn,width:3},customPaths:[{width:447,height:92,commands:[
-          {moveTo:{x:447,y:0}},{lineTo:{x:447,y:80}},{quadBezTo:{x1:447,y1:92,x:435,y:92}},
-          {lineTo:{x:12,y:92}},{quadBezTo:{x1:0,y1:92,x:0,y:80}},{lineTo:{x:0,y:14}}
+      connect(s,334,321,163,0,blue);
+      text(s,'근거 충분',782,262,162,41,27,C.teal,true,FONT,'center');
+      connect(s,783,321,162,0,C.teal);
+      s.shapes.add({geometry:'custom',name:'근거 부족 시 사람에서 AI로 되돌아가는 경로',position:{left:220,top:432,width:420,height:102},
+        fill:'none',line:{fill:C.warn,width:3},customPaths:[{width:420,height:102,commands:[
+          {moveTo:{x:420,y:23}},{lineTo:{x:420,y:87}},{quadBezTo:{x1:420,y1:102,x:405,y:102}},
+          {lineTo:{x:15,y:102}},{quadBezTo:{x1:0,y1:102,x:0,y:87}},{lineTo:{x:0,y:13}}
         ]}]});
-      connect(s,188,456,0,17,C.warn,true);
-      text(s,'근거 부족 · AI에 재측정 요청',210,482,406,50,26,C.warn,true,FONT,'center');
+      connect(s,220,430,0,18,C.warn,true);
+      text(s,'근거 부족 · 재측정',270,467,320,46,28,C.warn,true,FONT,'center');
       return s;
     },
     S97(p) {
