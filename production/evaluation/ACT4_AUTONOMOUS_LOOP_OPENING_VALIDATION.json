@@ -1,0 +1,32 @@
+{
+  "verifiedPackages": [
+    [
+      "AI_Dev_Training_Full",
+      113,
+      "c2b13fc59ad2f62b38b5a965da9ca2d7f1737a3577f3bdbac2742358df92d643"
+    ],
+    [
+      "ACT_4",
+      20,
+      "51342e2e02e6990773a51b794f81429c6da027f1261f64640c82f3dd8861f2df"
+    ]
+  ],
+  "minutes": 389,
+  "unchangedScreens": 106,
+  "notesCompared": 133,
+  "changedScreens": [
+    78,
+    79,
+    80,
+    81,
+    88,
+    91,
+    93
+  ],
+  "act4Minutes": 85,
+  "slideCount": 113,
+  "fieldChecks": {
+    "Windows PowerPoint": "UNVERIFIED",
+    "projection and rehearsal": "UNVERIFIED"
+  }
+}

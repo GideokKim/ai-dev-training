@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0144
+## Current presentation · DEC-0145
 
 The 43 entries identify local static fallbacks for the 113-slide course. ACT4 uses the author’s GitLab account of operations, a designed brightness case, a published benchmark and a documented Goal example. Classroom playback and account checks are pending.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`934e87470bc1d67dad7ba45dbd25373a1b74e9b573b5beb05cefed1b44088fc4`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`31335308e80538fd4f275a4ff0f04ed38880f11a4740d1f3134397c1bcc210fb`.
-- `production/preview/full/montage.png` SHA-256:`4ff21afbfa7b309b5271c446fd83fc13386c8d1173f500d94fe7c08d6892927e`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`c2b13fc59ad2f62b38b5a965da9ca2d7f1737a3577f3bdbac2742358df92d643`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`53c6b5aff580bcc5b52ca28fcfef1c65943a4dfa9cb80489c92000adb6a68045`.
+- `production/preview/full/montage.png` SHA-256:`0b14dd6ddb419daa5f9b7fff3863b95875b372d2e05f5dc5a000779f580daf38`.
 
-[Current revision](../../production/evaluation/ACT4_LOOP_OPERATIONS.md)
+[Current revision](../../production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md)
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
@@ -33,21 +33,21 @@ The 43 entries identify local static fallbacks for the 113-slide course. ACT4 us
 | S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` | 1920×1080 | `7fa05104badad5a6f49bfe89b1492e0fb3a169fe86330f93abbbe26b5993b013` |
 | S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` | 1920×1080 | `8d257b5e2dfd8e1f6c4908c3e5d48111cf978616c978c2152b40284c23495bfa` |
 | S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` | 1920×1080 | `67b83e594add1c198951ce3bb0907cc1444ab11f2fdc98ede1be60525b0a954a` |
-| S79 | AUTHOR_REPORTED_CASE | `production/preview/full/S79.png` | 1920×1080 | `cfafdf2ba227440ccc759f7344b4b7a3bb017ee62ea77ea059ec5a8b4913ae99` |
-| S80 | TEACHING_MAP | `production/preview/full/S80.png` | 1920×1080 | `5b1c58ae752866f38d3e979eaf81ef86e738cad2f4f5cd0c53f51a90e8d7cca4` |
-| S81 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S81.png` | 1920×1080 | `52ed6e1457d6ef0ac7aad40ef178cb6e2a33eee564ebc0cf35197ebbd2705195` |
+| S79 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S79.png` | 1920×1080 | `33f39a0b7f2cad4bb96c20f3efb41c49bff0f4f6c6c4707898fec5395b7b5f9c` |
+| S80 | TEACHING_MAP | `production/preview/full/S80.png` | 1920×1080 | `8cd051d6b3a0b80f6c05d6809463aa0f100a2f96294ebe9c6ba6e36028594703` |
+| S81 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S81.png` | 1920×1080 | `5a72720b196758dc5b237dfa2175b4b186329ad3c072c9d7d57dfdd124affd6f` |
 | S82 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S82.png` | 1920×1080 | `57a8ee775b88981f5627d58f57dc6e76ef4027640d2ae82545966ab3b9ffc50f` |
 | S83 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S83.png` | 1920×1080 | `d1ba64f22d3016686a7a24c8baa23991081daf676f1902341331ebda6f6e8302` |
 | S84 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S84.png` | 1920×1080 | `1a8af0f1e4cf642a5bc33b3d14c3baedfcaa496ff70b2ca4d97ff0d60126f0af` |
 | S85 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S85.png` | 1920×1080 | `c22fc3117c1e19c777008bf0d07bf0d14fcdd30f893177adccb5337d4c3c61c0` |
 | S86 | RESEARCH_GUIDED_DESIGN | `production/preview/full/S86.png` | 1920×1080 | `603f6de1a2fcb49658a464514ba9e86262f67d6f685cc7af5760c196be05b32a` |
 | S87 | PUBLISHED_BENCHMARK | `production/preview/full/S87.png` | 1920×1080 | `2ffd4004727bc494406fa5792226d4c3930d46b083529b2e331f199842f9ad88` |
-| S88 | AUTHOR_REPORTED_CASE | `production/preview/full/S88.png` | 1920×1080 | `9db5617675a39e1f49bdbfff517feef38ac5cd962859d2ce576a0f005501dceb` |
+| S88 | AUTHOR_REPORTED_CASE | `production/preview/full/S88.png` | 1920×1080 | `83fc4a3952b1ca26f721d088984235c80bcd211c25822d389c522c9c46c1965f` |
 | S89 | AUTHOR_REPORTED_CASE | `production/preview/full/S89.png` | 1920×1080 | `4edb9283dee58520c7f69c8cf186d2b17c2bbe514397cf11ddb929f876f9ac69` |
 | S90 | AUTHOR_REPORTED_CASE | `production/preview/full/S90.png` | 1920×1080 | `32916acac22a9555efede122791a63c514755b1ed1b263a0fed395da87066dd0` |
-| S91 | AUTHOR_CASE_ADAPTED_STATE | `production/preview/full/S91.png` | 1920×1080 | `a44f6d0030e327371545198fa67e74a0ad7241b3078da9278a9b2def0a449529` |
+| S91 | AUTHOR_CASE_ADAPTED_STATE | `production/preview/full/S91.png` | 1920×1080 | `2b5dcc7b316c875ba6432c790ea534926508a4230335c73890679dbe047a3867` |
 | S92 | AUTHOR_CASE_ADAPTED_REVIEW | `production/preview/full/S92.png` | 1920×1080 | `127ccef32fbcd28d626e8e99a6591c35143b23dbd1ac2ab74a96b23ba67bbc22` |
-| S93 | HYPOTHETICAL_FAILURE | `production/preview/full/S93.png` | 1920×1080 | `9c3f656cfb6523b50109e45fe6db3e94d927376d91638e8f93bbeba785e7397f` |
+| S93 | HYPOTHETICAL_FAILURE | `production/preview/full/S93.png` | 1920×1080 | `d1c6791093496005ebc8c2939a7b3bd31e9d6b93ac77bc32cc26b1127b0ae317` |
 | S94 | AUTHOR_REPORTED_CASE | `production/preview/full/S94.png` | 1920×1080 | `529aeb6b6650bea0d9042efb91f4f2f0b28b8414c94c5c47ee687d5e379302a8` |
 | S95 | DOCUMENTED_GOAL_GUIDANCE_ADAPTED | `production/preview/full/S95.png` | 1920×1080 | `da1ae0fbd318fff15e281075513caa8465b1b55079ea4fe96ec1250ec2f98920` |
 | S96 | TEACHING_SYNTHESIS | `production/preview/full/S96.png` | 1920×1080 | `20d3af7039419f6a736ea1d6ba1d1a49d0f618354d244d812d11d18850f31232` |

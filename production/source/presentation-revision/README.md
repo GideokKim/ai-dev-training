@@ -1,8 +1,8 @@
 # ACT 4 operations case study (DEC-0144)
 
-Build the integrated deck and ACT 4/5 with `--release --release-acts=4,5`.
-`act4-loop-operations.mjs` owns final S79–S97. S78 uses the ACT title
-factory. Final S87 contains the editable four-condition PairCoder chart.
+For the DEC-0145 opening, build the integrated deck and ACT 4 with
+`--release --release-acts=4`. The ACT 4 source file
+`act4-loop-operations.mjs` owns final S78–S97. Final S87 contains the editable four-condition PairCoder chart.
 S110 and S112 look up the current ACT 4 titles after ID migration.
 
 # Current S76 risk paths — DEC-0143 (2026-11-03)

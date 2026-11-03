@@ -1,4 +1,6 @@
 /** Approved final-ID ACT4 scenes. Each scene adds exactly one editable slide. */
+import {actTitleFactories} from './act-titles.mjs';
+import {addModuleFooter} from './legacy-priority.mjs';
 import {addPracticalTipBadge} from './practical-tips.mjs';
 
 export function loopOperationsFactories(H) {
@@ -48,50 +50,70 @@ export function loopOperationsFactories(H) {
     text(s,detail,x,y+140,w,92,26,C.sub);
   }
 
+  const cover = actTitleFactories({titleSlides:[{
+    act:4, slideId:'S78', displayTitle:'목표를 이룰 때까지\n수정하고 검토하기',
+    subtitle:'Loop Engineering · 한 번 맡기면 목표를 이룰 때까지 구현·검토·수정'
+  }]}, H).S78;
+
   return {
+    S78(p) {
+      const s=cover(p);
+      addModuleFooter(s,'S78',{slideId:'S78',footerLabel:'M 연계 · ACT 안내'},H);
+      return s;
+    },
     S79(p) {
-      const s=common(p,'S79','아침 6시, 어제 올린 MR이 열려 있다','사내 운영 사례',article);
-      label(s,'어제',64,195,490);
-      rect(s,64,244,474,212,C.white,C.line,1.5);
-      text(s,'GitLab  /  병합 요청',88,259,420,38,24,C.sub);
-      line(s,88,309,426);
-      text(s,'코드 변경 검토 요청',88,324,426,57,35,C.ink,true);
-      text(s,'열림 · 병합 대기',88,384,426,46,29,C.warn,true);
-      connect(s,548,349,86);
-      label(s,'오늘 06:00',664,195,552);
-      text(s,'지금 새 이슈를\n시작해도 될까?',664,256,552,153,49,C.ink,true);
-      takeaway(s,'무엇을 할지 정하려면, 앞선 작업의 상태부터 읽어야 한다');
+      const s=common(p,'S79','첫 구현에 문제가 남자, 두 번째 수정이 시작됐다','한 목표 · 첫 번째 수정',reconstruction,caseKind);
+      const goal=rect(s,64,188,1152,88,bluePale,blue,1.5); goal.borderRadius=9;
+      label(s,'사람의 요청 · 한 번',83,214,238,blue);
+      text(s,'“밝기 통계 결과를 유지하면서 임시 메모리를 줄여줘.”',345,203,850,60,30,C.ink,true);
+      const steps=[
+        [64,'01   첫 구현','전체 픽셀을\n임시 목록에 복사',blue,bluePale],
+        [472,'02   검토 지적','줄이려던 큰 목록이\n그대로 남아 있다',C.warn,C.amber],
+        [880,'03   다음 수정','전체 복사를 없애고\n한 행씩 집계',C.teal,C.pale]
+      ];
+      for (const [x,heading,action,accent,fill] of steps) {
+        const card=rect(s,x,324,336,164,fill,accent,1.5); card.borderRadius=8;
+        label(s,heading,x+22,337,291,accent);
+        text(s,action,x+22,389,292,80,30,C.ink,true);
+      }
+      connect(s,404,405,58,0,blue);
+      connect(s,812,405,58,0,C.teal);
+      takeaway(s,'사람이 다시 지시하지 않아도 검토 지적을 받아 구현을 이어간다');
       return s;
     },
     S80(p) {
-      const s=common(p,'S80','두 화살표가 돌아가는 곳','두 범위의 루프','팀 운영 사례와 한 이슈의 교육용 설계');
-      rect(s,64,205,1152,316,C.white,C.line,1.5);
-      label(s,'팀의 다음 실행',86,216,310,blue);
-      node(s,'이전 MR 상태',88,278,240,77,bluePale,blue,29);
-      connect(s,328,316,57);
-      node(s,'오늘의 작업',385,278,238,77,C.white,blue,29);
-      connect(s,623,316,55);
-      rect(s,678,249,506,180,C.pale,C.teal,1.5);
-      label(s,'한 이슈 · 같은 목표',699,256,465);
-      node(s,'구현',701,309,145,55,C.white,C.teal,26);
-      node(s,'검토',1008,309,145,55,C.white,C.teal,26);
-      connect(s,846,336,162);
-      connect(s,780,392,293,0,C.warn,true);
-      text(s,'남은 지적 → 다음 수정',786,365,293,28,20,C.warn,true,FONT,'center');
-      connect(s,1073,365,0,27,C.warn); connect(s,780,365,0,27,C.warn,true);
-      text(s,'대기 또는 진행',92,378,482,43,27,blue,true);
-      text(s,'작업 기록 저장  →  다음 실행에서 다시 확인',91,457,1066,47,28,blue,true);
-      takeaway(s,'이슈 안에서는 후보를 갱신하고, 다음 실행에서는 업무 상태를 읽는다');
+      const s=common(p,'S80','두 번째로 고쳤다고 끝난 걸까?','한 목표 · 같은 기준으로 재검토',reconstruction);
+      lead(s,'행별 집계로 고친 코드도 처음 정한 기준으로 다시 검토한다');
+      label(s,'수정한 코드',74,255,295,blue);
+      label(s,'다시 검토',480,255,315);
+      label(s,'모두 충족하면',934,255,274);
+      node(s,'행별로 집계',64,308,308,97,bluePale,blue,33);
+      node(s,'출력 · 메모리 · 시간',462,308,372,97,C.white,C.teal,31);
+      node(s,'완료 보고',921,308,295,97,C.pale,C.teal,32);
+      connect(s,375,356,75,0,blue);
+      connect(s,837,356,71,0,C.teal);
+      // A single rounded return path carries the finding from review to the next change.
+      s.shapes.add({name:'Return review finding to implementation',geometry:'custom',
+        position:{left:217,top:408,width:431,height:78},
+        fill:'none',line:{fill:C.warn,width:3},
+        customPaths:[{width:431,height:78,commands:[
+          {moveTo:{x:431,y:0}},{lineTo:{x:431,y:51}},
+          {quadBezTo:{x1:431,y1:77,x:405,y:77}},{lineTo:{x:26,y:77}},
+          {quadBezTo:{x1:0,y1:77,x:0,y:51}},{lineTo:{x:0,y:2}}
+        ]}]});
+      connect(s,217,408,0,26,C.warn,true);
+      text(s,'미달하면 지적을 반영해 수정',239,428,388,44,25,C.warn,true,FONT,'center');
+      takeaway(s,'얼마나 많이 고쳤든, 목표를 달성했다는 근거가 있어야 끝난다');
       return s;
     },
     S81(p) {
-      const s=common(p,'S81','이번 이슈의 완료 기준','밝기 통계 · 고정할 목표',reconstruction,caseKind,'M5 · M6');
-      lead(s,'밝기 통계의 여섯 출력을 보존하면서 임시 메모리를 줄인다');
-      label(s,'고정할 기준',70,254,295); label(s,'같은 대표 입력에서 확인할 근거',376,254,826);
-      row(s,304,'출력과 동작','여섯 출력값과 기존 테스트를 기준판과 대조');
-      row(s,379,'임시 할당','계산 중 Python 할당 피크를 기준판과 비교');
-      row(s,454,'실행시간','같은 입력·환경·측정 방식으로 기준판과 비교');
-      takeaway(s,'후보를 바꿀 때마다 같은 세 기준으로 돌아온다');
+      const s=common(p,'S81','무엇을 확인해야 이 작업이 끝났다고 할까?','밝기 통계 · 완료를 판단할 근거',reconstruction,caseKind,'M5 · M6');
+      lead(s,'수정 전후를 같은 입력으로 비교한다');
+      label(s,'확인할 조건',70,254,295); label(s,'완료를 판단할 근거',376,254,826);
+      row(s,304,'출력 보존','기존 테스트를 통과하고 여섯 출력값이 기준판과 일치한다');
+      row(s,379,'임시 메모리 감소','계산 중 Python 할당 피크가 기준판보다 낮다');
+      row(s,454,'실행시간 유지','같은 환경과 측정 방식에서 기준판보다 느려지지 않는다');
+      takeaway(s,'수정본이 바뀌어도 비교할 기준은 그대로다');
       return s;
     },
     S82(p) {
@@ -189,17 +211,21 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S88(p) {
-      const s=common(p,'S88','어제 MR 상태가 오늘의 첫 분기를 정한다','사내 운영 사례 · 다음 날의 첫 판단',article);
-      label(s,'팀의 다음 실행',64,190,650,blue);
-      node(s,'06:00\n이전 MR 조회',64,294,271,140,bluePale,blue,33);
-      line(s,335,364,90,blue,2.5);
-      rect(s,424,300,2.5,128,blue);
-      connect(s,426,300,51,0,C.warn);connect(s,426,428,51,0,C.teal);
-      node(s,'미병합',490,263,166,74,C.amber,C.warn,28);
-      node(s,'병합됨',490,391,166,74,C.pale,C.teal,28);
-      text(s,'새 이슈 보류 · 상태 기록',701,258,509,82,32,C.ink,true);
-      text(s,'개선 단계에 맞는 다음 목표 선택',701,386,509,82,29,C.ink,true);
-      takeaway(s,'같은 시각에 시작해도, 오늘의 행동은 어제의 상태가 정한다');
+      const s=common(p,'S88','구현·검토 루프를 팀 이슈에 어떻게 연결했을까?','사내 GitLab 운영 사례',article);
+      lead(s,'팀은 이슈 한 건에 목표와 변경 후보, 검토 근거를 연결했다');
+      label(s,'일을 맡긴다',72,250,253,blue);
+      label(s,'한 이슈 안에서 작업한다',412,250,440);
+      label(s,'팀에 전달한다',967,250,239,blue);
+      node(s,'GitLab 이슈\n목표와 범위',64,312,266,132,bluePale,blue,29);
+      connect(s,334,379,63,0,blue);
+      const space=rect(s,401,300,478,156,C.white,C.teal,1.5); space.borderRadius=8;
+      text(s,'이슈 전용 작업 공간',422,311,438,40,27,C.teal,true,FONT,'center');
+      text(s,'구현',432,366,129,55,33,C.ink,true,FONT,'center');
+      connect(s,563,393,101);
+      text(s,'검토',675,366,159,55,33,C.ink,true,FONT,'center');
+      connect(s,883,379,63,0,blue);
+      node(s,'MR · 병합 요청\n팀원이 검토',953,312,263,132,bluePale,blue,29);
+      takeaway(s,'에이전트가 변경안을 만들고, 병합은 팀원이 결정한다');
       return s;
     },
     S89(p) {
@@ -230,15 +256,15 @@ export function loopOperationsFactories(H) {
       rect(s,64,205,640,322,C.white,C.line,1.5);
       label(s,'오늘 남길 인계 기록 · Markdown 예시',85,221,596);
       line(s,85,272,595);
-      const entries=[['이슈 ID','ISSUE-A'],['마지막 후보','v2 · 검토 완료'],['MR 상태','MR-A · 열림'],['남은 일','팀원의 병합 결정 대기']];
+      const entries=[['이슈 ID','ISSUE-A'],['마지막 후보','v2 · 검토 완료'],['검토할 MR','MR-A'],['남은 일','변경 이유·검사 근거 확인']];
       entries.forEach(([k,v],i)=>{
         text(s,k,88,285+i*54,160,42,25,C.sub,true);
         text(s,v,255,285+i*54,420,42,27,C.ink);
       });
       connect(s,719,367,76);
-      label(s,'다음 실행의 첫 확인',826,256,380,blue);
-      text(s,'MR-A가\n병합됐는가?',826,316,384,126,42,C.ink,true);
-      takeaway(s,'다음 실행은 저장된 식별자로 현재 상태를 다시 조회한다');
+      label(s,'다음 실행에서',826,256,380,blue);
+      text(s,'MR-A의 변경과\n검사 근거를 다시 연다',826,316,384,126,34,C.ink,true);
+      takeaway(s,'기록해 둔 식별자로 같은 이슈의 검토를 이어간다');
       return s;
     },
     S92(p) {
@@ -260,7 +286,7 @@ export function loopOperationsFactories(H) {
       row(s,251,'1   식별자 보존','마지막 이슈·MR 식별자와 실패한 조회를 기록');
       row(s,332,'2   재시도 제한','정해 둔 횟수·시간 안에서 같은 MR을 다시 조회');
       row(s,413,'3   한도 도달','미확인 상태와 필요한 확인을 사람에게 인계',C.warn);
-      takeaway(s,'재개할 때는 기존 MR 확인부터 시작해 중복 작업을 피한다');
+      takeaway(s,'같은 이슈를 재개할 때 기존 MR을 찾아 중복 변경을 피한다');
       return s;
     },
     S94(p) {

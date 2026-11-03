@@ -1,8 +1,8 @@
 # Demo Matrix
 
-## 현재 ACT4 제작 기준 — DEC-0144 (2026-11-03)
+## 현재 ACT4 제작 기준 — DEC-0145 (2026-11-03)
 
-기존 graypipe Trial과 상태 기록은 실제 함수 배경의 근거를 제공한다. S81–S85에 배치한 R1·v1/v2는 CASE-LOOP-01의 교육용 워크스루다. S79/S88–S94의 GitLab 운영기와 S87 연구 표는 신규 Demo/Trial로 번호를 부여하지 않는다.
+기존 graypipe Trial과 상태 기록은 실제 함수 배경의 근거를 제공한다. S79–S85에 배치한 가상 수정, 재검토 흐름과 R1·v1/v2는 CASE-LOOP-01을 위한 설명 자료다. S88–S94의 GitLab 운영기·각색과 S87 연구 표는 신규 Demo/Trial로 번호를 부여하지 않는다.
 
 [승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
 

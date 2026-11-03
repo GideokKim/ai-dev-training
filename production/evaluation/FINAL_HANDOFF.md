@@ -1,31 +1,31 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## ACT4 개편 · DEC-0144
+## ACT4 개편 · DEC-0145
 
-[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [발표 Notes](../notes/ACT_4_NOTES.md) · [검토 결과](ACT4_LOOP_OPERATIONS.md)
+[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [발표 Notes](../notes/ACT_4_NOTES.md) · [검토 결과](ACT4_AUTONOMOUS_LOOP_OPENING.md)
 
-113장·389분이다. ACT4에서 S84는 R1을 다음 요청에 전달하고, S88은 전날 MR을 기준으로 오늘의 작업을 고른다. S87의 수치는 코드 생성 연구 결과다. S95에서 Goal 작성을 설명한다.
+113장·389분이다. ACT4에서는 사람이 한 번 맡긴 목표로 첫 구현을 검토하고 수정안을 다시 검사한다. S88부터 이 흐름을 GitLab 팀 이슈에 연결한다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `934e87470bc1d67dad7ba45dbd25373a1b74e9b573b5beb05cefed1b44088fc4` |
+| `production/AI_Dev_Training_Full.pptx` | `c2b13fc59ad2f62b38b5a965da9ca2d7f1737a3577f3bdbac2742358df92d643` |
 | `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
 | `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
 | `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
 | `production/ACT_3.pptx` | `34ec576133d5e91643e13780e25813a670cf4ce74d4fd7c049f68062756aae00` |
-| `production/ACT_4.pptx` | `d5ed951920cd72680b79f482d64af04029b529e2202af1f0ffdae875bb69f7e0` |
+| `production/ACT_4.pptx` | `51342e2e02e6990773a51b794f81429c6da027f1261f64640c82f3dd8861f2df` |
 | `production/ACT_5.pptx` | `e4efff0182d75de71ee424352d79a8385577a447537ed12d3efcad3a2de8e17f` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `31335308e80538fd4f275a4ff0f04ed38880f11a4740d1f3134397c1bcc210fb` |
-| `production/notes/ACT_4_NOTES.md` | `659b7ec8d5a9ffbede23ecf50e1bb4a166dbdabf75f5a163b96da45390cc9495` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `53c6b5aff580bcc5b52ca28fcfef1c65943a4dfa9cb80489c92000adb6a68045` |
+| `production/notes/ACT_4_NOTES.md` | `738a0eb070047ecdf02cbc2f5f60f5678d9754be10b00d9c84c9bf033569a81c` |
 | `production/notes/ACT_5_NOTES.md` | `db74de72391f36eedc47346919b8a243dbb6f89c0c68bab192522ff2a1c84396` |
-| `production/preview/full/montage.png` | `4ff21afbfa7b309b5271c446fd83fc13386c8d1173f500d94fe7c08d6892927e` |
-| `production/preview/act4/montage.png` | `cca8b6b23f4ccaa3c11ca5a2ff43d7b437b08cb74cf397312f2211b87a336e79` |
+| `production/preview/full/montage.png` | `0b14dd6ddb419daa5f9b7fff3863b95875b372d2e05f5dc5a000779f580daf38` |
+| `production/preview/act4/montage.png` | `e701cf6d5c62a91312a47a51aa2b811d1bf849c152005edaf1ef4c30b812d755` |
 | `production/preview/act5/montage.png` | `c1573880261293fd064ff46a101136f2a561866b1869b1819a8392affb2dd511` |
-| `production/preview/full/S79.png` | `cfafdf2ba227440ccc759f7344b4b7a3bb017ee62ea77ea059ec5a8b4913ae99` |
+| `production/preview/full/S79.png` | `33f39a0b7f2cad4bb96c20f3efb41c49bff0f4f6c6c4707898fec5395b7b5f9c` |
 | `production/preview/full/S84.png` | `1a8af0f1e4cf642a5bc33b3d14c3baedfcaa496ff70b2ca4d97ff0d60126f0af` |
 | `production/preview/full/S87.png` | `2ffd4004727bc494406fa5792226d4c3930d46b083529b2e331f199842f9ad88` |
-| `production/preview/full/S88.png` | `9db5617675a39e1f49bdbfff517feef38ac5cd962859d2ce576a0f005501dceb` |
-| `production/preview/full/S91.png` | `a44f6d0030e327371545198fa67e74a0ad7241b3078da9278a9b2def0a449529` |
+| `production/preview/full/S88.png` | `83fc4a3952b1ca26f721d088984235c80bcd211c25822d389c522c9c46c1965f` |
+| `production/preview/full/S91.png` | `2b5dcc7b316c875ba6432c790ea534926508a4230335c73890679dbe047a3867` |
 | `production/preview/full/S94.png` | `529aeb6b6650bea0d9042efb91f4f2f0b28b8414c94c5c47ee687d5e379302a8` |
 | `production/preview/full/S95.png` | `da1ae0fbd318fff15e281075513caa8465b1b55079ea4fe96ec1250ec2f98920` |
 | `production/preview/full/S110.png` | `649dc1e3a55de4529d15e33bc71010ece2fab039f31bf0bf6d63703cc29fe859` |

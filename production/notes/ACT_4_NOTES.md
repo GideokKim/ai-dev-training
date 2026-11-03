@@ -1,6 +1,6 @@
 # ACT 4 — Speaker Notes
 
-DEC-0144 · S78–S97 · 20장 · 85분. 한 목표의 R1 수정·재검토와 강사의 GitLab 운영 사례를 구분해 진행한다. 연구 비교는 PairCoder 표 2의 초기 역할을 기준으로 읽는다.
+DEC-0145 · S78–S97 · 20장 · 85분. 한 번 맡긴 목표에서 검토가 다음 구현을 움직이는 교육용 사례로 시작한다. 강사의 GitLab 운영 사례는 S88에서 연다. 연구 비교는 PairCoder 표 2의 초기 역할을 기준으로 읽는다.
 
 <details>
 <summary>이전 판본 안내</summary>
@@ -144,25 +144,25 @@ ACT 4 / 4R1 Goal-loop entry
 Transition 1분
 
 **Primary Message:**
-한 목표를 맡긴 뒤 남은 지적과 확인 근거를 다음 수정에 전달한다.
+사람이 한 번 맡긴 목표를 기준으로 시스템이 후보를 구현·검토하고, 고칠 점이 남으면 재지시를 기다리지 않고 수정한다.
 
 **Opening Question:**
-“검토가 끝나면 다음 요청은 누가 만들까?”
+“첫 구현에 문제가 남았다면, 사람이 다시 시키기 전에 다음 수정이 시작되도록 할 수 있을까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Transition) S77의 구현·검토 화살표를 받아 ACT4의 제목을 읽는다. 한 건의 수정을 잇는 장면과 다음 날 팀이 그 일을 이어받는 장면을 예고한다.
+1. (0:00–1:00 / Transition) S77에서 본 화살표를 한 목표에 적용한다. 목표는 한 번 맡기고, 검토 결과가 다음 수정을 움직인다는 제목·부제를 짚는다. 첫 후보를 보러 간다.
 
 **Evidence / Source:**
-DEC-0097, DEC-0144 · BEAT-072 · CLM-0021.
+DEC-0097, DEC-0144, DEC-0145 · BEAT-072 · CLM-0021.
 
 **Claim Boundary:**
 TEACHING_MODEL. 발표자가 설계 판단을 설명하는 도식이다.
 
 **Beginner Explanation:**
-검토에서 발견한 일을 다음 구현자가 바로 받아 고칠 수 있도록 연결한다.
+처음 정한 기준을 충족하는지 확인하고, 남은 문제를 다음 시도에서 고친다.
 
 **Advanced Insight:**
-작업 한 건의 종료 기준과 팀의 다음 작업 선택은 별도의 질문이다.
+반복을 잇는 정보는 같은 작업의 목표, 남은 문제와 확인 근거다. 목표 달성과 예외 인계는 구분한다.
 
 **C++ Vision Bridge:**
 N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
@@ -174,7 +174,7 @@ N/A — 정적 자료. 제목과 S77의 목표 카드를 연결한다.
 N/A — 제목을 짚고 바로 사례를 연다.
 
 **Transition:**
-어제 올린 코드 변경 요청이 아직 열려 있는 아침으로 들어간다.
+밝기 통계의 첫 구현과 검토 지적을 나란히 보자. 누가 다시 입력할 필요 없이 어떤 수정이 시작되는가?
 
 **Time Management:**
 Transition 1분 = 1분. 제목 소개를 1분에 닫는다.
@@ -183,15 +183,15 @@ Transition 1분 = 1분. 제목 소개를 1분에 닫는다.
 LOCAL STATIC ARTIFACT — production/preview/full/S78.png 또는 production/ACT_4.pptx의 S78. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
-## S79 — 아침 6시, 어제 올린 MR이 열려 있다
+## S79 — 첫 구현에 문제가 남자, 두 번째 수정이 시작됐다
 
 **Slide ID:**
 S79
 
 **Working Title:**
-아침 6시, 어제 올린 MR이 열려 있다
+첫 구현에 문제가 남자, 두 번째 수정이 시작됐다
 
 **ACT / Section:**
 ACT 4 / 4R1 Goal-loop entry
@@ -203,55 +203,55 @@ ACT 4 / 4R1 Goal-loop entry
 Lecture 2분 + Case 2분
 
 **Primary Message:**
-정해진 시각에 자동화가 깨어나면, 먼저 이전 작업의 상태를 읽어야 오늘의 행동을 고를 수 있다.
+사람은 밝기 통계의 목표를 한 번 맡긴다. 첫 구현에서 발견한 전체 픽셀 복사가 다음 구현의 수정 대상이 된다.
 
 **Opening Question:**
-“오전 6시다. 어제 올린 MR이 아직 열려 있다면 새 이슈를 시작할까?”
+“첫 수정안에도 메모리를 쓰는 큰 복사가 남아 있습니다. 다음 구현은 무엇을 고쳐야 할까요?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) GitLab의 MR은 코드 변경을 병합해 달라는 요청이라고 소개한다. 화면에서 시계와 어제의 MR을 차례로 짚는다. 시간은 시작 계기이고 MR 상태는 판단에 쓰이는 자료다.
-2. (2:00–4:00 / Case) 새 이슈 착수와 기존 MR 대기를 선택지로 놓는다. 어느 쪽을 택할 때 무엇을 확인해야 할지만 생각하게 하고, 글쓴이의 실제 분기는 S88에서 회수한다.
+1. (0:00–2:00 / Lecture) 사람의 목표 한 줄을 읽는다. 기존 밝기 통계 출력을 유지하면서 임시 메모리를 줄이는 일이다. 첫 구현이 모든 픽셀을 별도 목록에 모으는 지점을 짚는다.
+2. (2:00–4:00 / Case) 검토가 찾아낸 전체 복사에서 다음 구현으로 손을 옮긴다. 루프가 그 지적을 전달하자 구현 담당이 행별로 집계하는 수정안을 만든다. 이 사이에 사람이 새 목표나 추가 요청을 입력하는 단계는 없다. 결과 판정은 다음 장으로 넘긴다.
 
 **Evidence / Source:**
-SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §3.
+CASE-LOOP-01 · DEC-0097, DEC-0144, DEC-0145. 실제 밝기 통계 문제의 배경은 TRIAL-008과 STATE-04-PERF다. BEAT-073/077.
 
 **Claim Boundary:**
-운영기 작성자가 게시 시점에 설명한 사내 테스트 운영 범위다. 검토 모델명, 비교 효과, 실제 계정의 현재 상태는 이 자료로 확인할 수 없다.
+CONCEPTUAL. 실제 밝기 통계 문제를 토대로 만든 교육용 구현·검토 회차다. 이 후보의 자율 실행, 성능 향상, 목표 달성은 실측 결과로 제시하지 않는다.
 
 **Beginner Explanation:**
-일을 시작할 시간이 와도 팀의 이전 결정이 아직 끝나지 않을 수 있다.
+목표는 그대로다. 검토에서 가리킨 부분을 다음 구현이 이어받는다.
 
 **Advanced Insight:**
-대기 중인 MR을 뒤로 두고 일을 계속 만들면 팀의 리뷰 처리량과 자동 생산량이 달라질 수 있다.
+전체 픽셀 복사는 코드에서 지목할 수 있다. 그 복사를 제거한 영향은 새 후보의 측정에서 확인한다.
 
 **C++ Vision Bridge:**
 N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 06:00과 열린 MR 상태를 표시한다.
+N/A — 정적 사례. 최초 목표, 첫 구현, 복사 지적, 행별 집계 후보를 차례로 가리킨다.
 
 **Audience Interaction:**
-선택을 잠깐 생각하게 한다. 정답 발표는 S88에서 한다.
+두 구현 사이에서 무엇이 전달됐는지 잠깐 보게 한 뒤 전체 복사라는 지점을 짚는다.
 
 **Transition:**
-지금 고르려는 것이 같은 코드의 다음 수정인지, 다음 이슈인지 먼저 구분해 보자.
+행별로 집계하는 수정안이 나왔다. 두 번째로 고쳤다는 사실만으로 완료일까?
 
 **Time Management:**
-Lecture 2분 + Case 2분 = 4분. 사례 2분을 MR 용어 설명으로 소진하지 않는다.
+Lecture 2분 + Case 2분 = 4분. 코드 세부와 측정 항목은 뒤에 두고, 검토가 곧 다음 구현으로 이어지는 한 장면에 집중한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S79.png 또는 production/ACT_4.pptx의 S79. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
+LOCAL STATIC ARTIFACT — production/preview/full/S79.png 또는 production/ACT_4.pptx의 S79. 목표 한 번, 첫 구현의 전체 복사, 검토 지적, 행별 집계 후보 순서로 읽는다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
-## S80 — 두 화살표가 돌아가는 곳
+## S80 — 두 번째로 고쳤다고 끝난 걸까?
 
 **Slide ID:**
 S80
 
 **Working Title:**
-두 화살표가 돌아가는 곳
+두 번째로 고쳤다고 끝난 걸까?
 
 **ACT / Section:**
 ACT 4 / 4R1 Goal-loop entry
@@ -263,55 +263,55 @@ ACT 4 / 4R1 Goal-loop entry
 Lecture 3분 + Case 1분
 
 **Primary Message:**
-이슈 안에서는 다음 후보를 정하고, 팀 운영에서는 이전 MR 상태에 따라 새 작업 또는 대기를 정한다.
+새 후보를 처음의 완료 기준으로 다시 검토한다. 수정 가능한 문제가 남으면 같은 목표로 다음 구현을 시작하고, 모든 기준을 확인하면 완료한다.
 
 **Opening Question:**
-“어느 화살표를 돌았을 때 목표가 그대로 남을까?”
+“전체 복사를 없앴습니다. 이제 무엇을 근거로 그만 고칠 수 있을까요?”
 
 **Speaker Flow:**
-1. (0:00–3:00 / Lecture) 같은 이슈의 목표 카드를 고정한 채 구현·검토·수정으로 손을 돌린다. 다음 후보로 넘어갈 때 검토 지적과 근거가 전달된다. 바깥쪽에서는 직전 MR의 병합 상태가 새로운 이슈를 열지 결정하는 입력이다.
-2. (3:00–4:00 / Case) 먼저 안쪽 경로를 확대한다. 여기서 사용할 밝기 통계는 앞선 교육 프로젝트의 소재이고, 바깥쪽 GitLab 운영은 강사 개인의 운영기에 나온 별개의 사례임을 짚는다.
+1. (0:00–3:00 / Lecture) 직전 장의 행별 집계 후보에서 시작한다. 고정된 목표와 검사 근거를 맞춰 보고, 기준을 채우면 완료로 나가는 경로를 짚는다. 수정 가능한 위반이 남으면 검토 지적과 해당 후보를 구현으로 되돌려 다시 확인한다.
+2. (3:00–4:00 / Case) 여섯 출력이 보존되는지, 실제 임시 메모리가 줄었는지, 시간 조건을 지켰는지 묻는다. 코드 모양만 보고 성공을 선언하지 않는다. 확인 근거가 비었다면 검사부터 이어간다.
 
 **Evidence / Source:**
-SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §3 및 DEC-0097/0144의 CASE-LOOP-01.
+CASE-LOOP-01 · DEC-0097, DEC-0144, DEC-0145. 실제 밝기 통계 문제의 배경은 TRIAL-008과 STATE-04-PERF다. BEAT-078/079.
 
 **Claim Boundary:**
-운영기와 밝기 통계의 교육용 재구성을 연결한 지도다. 두 사례의 저장소와 실행 이력은 별개다.
+TEACHING_MODEL. 같은 기준으로 재검토해 수정·완료를 결정하는 흐름을 설명한다. 밝기 통계 후보는 CONCEPTUAL 사례이며 이 회차의 실제 자율 실행, 성능 향상, 목표 달성을 입증하지 않는다.
 
 **Beginner Explanation:**
-검토 지적을 고치는 일과 다음 일감을 받는 일을 서로 다른 화살표로 본다.
+두 번째 후보도 첫 번째와 똑같은 기준으로 확인해야 끝낼 수 있다.
 
 **Advanced Insight:**
-안쪽의 한 회차가 목표를 바꾸지 않도록 하고 바깥쪽은 MR 상태로 착수 조건을 정한다.
+검토의 판정은 증거에 묶는다. 수정 가능한 위반은 다음 수정으로 연결하고, 측정 불가나 한도에 도달한 경우의 중단·인계는 S85에서 다룬다.
 
 **C++ Vision Bridge:**
 N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 바깥 분기에서 한 이슈의 안쪽 경로를 확대한다.
+N/A — 정적 사례. 재검토 지점에서 완료 출구와 구현으로 돌아가는 경로를 나누어 가리킨다.
 
 **Audience Interaction:**
-두 경로 가운데 지금 확대하는 안쪽을 찾도록 안내한다.
+검토에서 다시 구현으로 돌아가면 바뀌는 것은 후보인지 목표인지 짧게 생각하게 한다.
 
 **Transition:**
-한 이슈의 여러 후보를 같은 기준으로 비교하려면 무엇을 먼저 적어야 할까?
+그림의 ‘기준 충족’을 이 작업에 적용해 보자. 무엇을 확인해야 끝났다고 할까?
 
 **Time Management:**
-Lecture 3분 + Case 1분 = 4분. 이 장에서는 전체 위치만 확인하고 세부 분기는 뒤로 넘긴다.
+Lecture 3분 + Case 1분 = 4분. 돌아가는 화살표와 완료 출구를 한 번씩 짚고, 실제 기준 세 가지는 다음 장에 둔다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S80.png 또는 production/ACT_4.pptx의 S80. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S80.png 또는 production/ACT_4.pptx의 S80. 같은 목표에서 수정안을 재검토한 뒤, 근거로 완료하거나 남은 문제를 다음 구현으로 전달하는 두 방향을 읽는다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
-## S81 — 이번 이슈의 완료 기준
+## S81 — 무엇을 확인해야 이 작업이 끝났다고 할까?
 
 **Slide ID:**
 S81
 
 **Working Title:**
-이번 이슈의 완료 기준
+무엇을 확인해야 이 작업이 끝났다고 할까?
 
 **ACT / Section:**
 ACT 4 / 4R2 One-goal walkthrough
@@ -326,14 +326,14 @@ Lecture 2분 + Case 2분
 후보가 몇 번 바뀌어도 보존할 출력, 줄일 임시 할당, 지킬 실행시간 조건을 같은 카드로 확인한다.
 
 **Opening Question:**
-“메모리가 줄었다는 설명만으로 작업을 마칠 수 있을까?”
+“행별 집계 후보가 처음 맡긴 목표를 이뤘다고 말하려면 무엇을 확인해야 할까요?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 밝기 통계 함수는 픽셀을 집계한다. 목표 카드 위에서 유지할 여섯 출력, 임시 할당 감소, 실행시간 조건을 읽는다.
-2. (2:00–4:00 / Case) 각 조건에 맞는 증거를 하나씩 연결한다. 고정 입력의 여섯 출력 대조, 같은 환경의 할당 피크 측정, 기준판과 같은 절차의 실행시간 측정이다. 허용 범위와 측정법은 작업 시작 전에 결정한다.
+1. (0:00–2:00 / Lecture) S80에서 완료로 나가는 조건을 실제 작업 기준으로 읽는다. 밝기 통계가 내던 여섯 출력, 줄일 임시 할당, 지킬 실행시간을 각각 짚는다.
+2. (2:00–4:00 / Case) 같은 대표 입력의 여섯 출력 대조, 같은 환경의 할당 피크 비교, 같은 측정 절차의 기준판 실행시간 비교를 맞춰 본다. 이 기준은 첫 후보부터 재검토까지 고정한다. 지금 화면은 확인 계획이며 각 후보의 결과는 별도 근거가 필요하다.
 
 **Evidence / Source:**
-TRIAL-008 및 STATE-04-PERF의 밝기 통계 작업을 문제 배경으로 삼은 CASE-LOOP-01. 후보와 R1은 DEC-0144의 교육 설계다.
+CASE-LOOP-01 · DEC-0097, DEC-0144, DEC-0145. 실제 밝기 통계 문제의 배경은 TRIAL-008과 STATE-04-PERF다. BEAT-074.
 
 **Claim Boundary:**
 CONCEPTUAL. 밝기 통계의 기존 제품 기록과 구분한 가상 회차다. 모델 대화와 후보는 강의용으로 구성했으며 실제 측정값은 ACT3의 해당 기록에서만 인용한다.
@@ -354,7 +354,7 @@ N/A — 정적 자료. 세 완료 조건과 각각의 확인 방법을 짝짓는
 세 조건 중 측정이 필요한 항목을 눈으로 골라 보게 한다.
 
 **Transition:**
-이 카드 옆에 첫 변경 후보를 놓아 보자.
+이제 첫 구현을 가까이 본다. 코드에서 바로 보이는 점과 도구로 재봐야 하는 점을 구분해 보자.
 
 **Time Management:**
 Lecture 2분 + Case 2분 = 4분. 구체적인 수치 추정에 들어가기 전에 v1로 이동한다.
@@ -363,7 +363,7 @@ Lecture 2분 + Case 2분 = 4분. 구체적인 수치 추정에 들어가기 전�
 LOCAL STATIC ARTIFACT — production/preview/full/S81.png 또는 production/ACT_4.pptx의 S81. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
 ## S82 — 첫 후보에서 무엇을 확인할까
 
@@ -474,7 +474,7 @@ N/A — 정적 자료. R1을 다음 요청으로 넘길 근거를 검토한다.
 세 의견 가운데 바로 다음 수정 요청으로 보낼 항목을 찾게 한다.
 
 **Transition:**
-R1의 번호와 근거를 그대로 가지고 다음 요청을 써 보자.
+수용된 R1과 근거가 다음 구현으로 넘어간다. 그 정보가 실제로 어떤 코드 위치의 수정으로 이어지는지 보자.
 
 **Time Management:**
 Lecture 1분 + Case 4분 = 5분. 마지막 30초에는 수용할 R1만 남기고 다음으로 넘긴다.
@@ -483,7 +483,7 @@ Lecture 1분 + Case 4분 = 5분. 마지막 30초에는 수용할 R1만 남기고
 LOCAL STATIC ARTIFACT — production/preview/full/S83.png 또는 production/ACT_4.pptx의 S83. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
 ## S84 — 같은 지적이 v2의 입력이 된다
 
@@ -506,11 +506,11 @@ Lecture 1분 + Case 4분
 검토에서 남은 항목·근거·다시 검사할 조건이 다음 구현 요청을 구성한다.
 
 **Opening Question:**
-“첫 후보에서 남은 R1을 다음 구현자가 받는 문장으로 바꾸면?”
+“첫 후보의 R1과 두 번째 후보의 어떤 변경이 서로 대응할까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) R1 카드를 가리킨다. 전체 목록이 남았다는 지적과 해당 diff 위치를 고정하고, 같은 목표·여섯 출력 보존 조건을 옆에 둔다.
-2. (1:00–5:00 / Case) 발표자가 다음 요청을 읽는다. “R1의 임시 목록을 제거하고 여섯 출력은 보존해. 같은 입력에서 할당 피크와 시간도 확인해.” 후보 v2의 ‘전체 복사 줄 삭제 → 행별 min·max·sum 집계’를 짚는다. 같은 R1에서 무엇이 바뀌었고 어떤 검사 항목이 남았는지 연결한다. 목록을 없앴더라도 시간 근거가 비었다면 그 항목이 다음 요청이 된다.
+1. (0:00–1:00 / Lecture) R1 카드를 가리킨다. 전체 목록이 남았다는 지적과 diff 위치를 고정하고, 같은 목표·여섯 출력 보존 조건을 옆에 둔다.
+2. (1:00–5:00 / Case) 시스템이 다음 구현에 전달한 교육용 요청을 읽는다. “R1의 임시 목록을 제거하고 여섯 출력은 보존해. 같은 입력에서 할당 피크와 시간도 확인해.” v2에서 전체 복사 줄을 없애고 행별 min·max·sum을 집계하는 위치를 짚는다. 남은 시간 측정 항목까지 전달되는지 따라간다.
 
 **Evidence / Source:**
 TRIAL-008 및 STATE-04-PERF의 밝기 통계 작업을 문제 배경으로 삼은 CASE-LOOP-01. 후보와 R1은 DEC-0144의 교육 설계다.
@@ -519,7 +519,7 @@ TRIAL-008 및 STATE-04-PERF의 밝기 통계 작업을 문제 배경으로 삼�
 CONCEPTUAL. 밝기 통계의 기존 제품 기록과 구분한 가상 회차다. 모델 대화와 후보는 강의용으로 구성했으며 실제 측정값은 ACT3의 해당 기록에서만 인용한다.
 
 **Beginner Explanation:**
-리뷰 의견을 다음 요청에 넣을 때, 지적과 확인 방법을 함께 넘기면 다시 설명할 부분이 줄어든다.
+검토에서 찾은 코드 위치와 고친 위치를 맞춰 본다. 새 후보에서 다시 검사할 항목도 함께 이어진다.
 
 **Advanced Insight:**
 후보 식별자와 지적 번호를 함께 보존한다. 이전 후보에서 얻은 수치를 새 후보의 증거로 쓰지 않는다.
@@ -543,7 +543,7 @@ Lecture 1분 + Case 4분 = 5분. v2의 성능 수치를 가정하지 않고 비�
 LOCAL STATIC ARTIFACT — production/preview/full/S84.png 또는 production/ACT_4.pptx의 S84. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
 ## S85 — 다음 수정, 완료, 중단
 
@@ -714,7 +714,7 @@ N/A — 정적 자료. HumanEval 그래프 네 값과 초기 역할을 왼쪽부
 네 조건에서 가장 낮은 값의 조합까지 함께 읽도록 안내한다.
 
 **Transition:**
-이제 아침 6시로 돌아간다. 실제 팀은 먼저 어느 상태부터 확인했을까?
+논문의 모델 비교를 마친다. 이제 한 팀이 구현 담당과 검토 담당을 실제 GitLab 이슈 한 건에 어떻게 연결했는지 보자.
 
 **Time Management:**
 Lecture 3분 + Case 2분 = 5분. 3분에 그래프 읽기를 닫고 마지막 2분은 적용 범위에 쓴다.
@@ -723,15 +723,15 @@ Lecture 3분 + Case 2분 = 5분. 3분에 그래프 읽기를 닫고 마지막 2�
 LOCAL STATIC ARTIFACT — production/preview/full/S87.png 또는 production/ACT_4.pptx의 S87. 그래프를 표시하기 어렵다면 표 2의 같은 초기 Driver 행에서 단독·동종·이종 두 조합의 값을 읽는다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
-## S88 — 어제 MR 상태가 오늘의 첫 분기를 정한다
+## S88 — 구현·검토 루프를 팀 이슈에 어떻게 연결했을까?
 
 **Slide ID:**
 S88
 
 **Working Title:**
-어제 MR 상태가 오늘의 첫 분기를 정한다
+구현·검토 루프를 팀 이슈에 어떻게 연결했을까?
 
 **ACT / Section:**
 ACT 4 / 4R5 Team operations and state
@@ -743,47 +743,47 @@ ACT 4 / 4R5 Team operations and state
 Lecture 2분 + Case 3분
 
 **Primary Message:**
-이전 MR의 병합 여부가 같은 아침 트리거에서 대기와 다음 목표 선정으로 분기되는 근거다.
+운영기 속 한 건의 목표가 GitLab 이슈가 된다. 별도 작업 공간에서 구현과 검토를 거쳐 팀이 읽을 변경과 근거를 병합 요청에 모은다.
 
 **Opening Question:**
-“아직 병합되지 않은 MR이 보이면 새 작업을 열까?”
+“작업 한 건의 목표와 검토 근거를 팀원에게 어디서 함께 보여줄 수 있을까요?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) S79의 질문을 다시 읽는다. 6시는 자동화가 상태를 읽는 시각이다. 병합 여부를 읽은 뒤에 오늘의 일을 정한다.
-2. (2:00–5:00 / Case) 운영기의 두 가지 아침을 따라간다. 미병합이면 새 이슈 대응을 보류하고 상태를 기록한다. 병합됐으면 미리 정한 개선 단계에서 다음 목표를 고른다. 미병합 상태에서 코드 실패나 리뷰어의 실제 사정을 단정하지 않는다.
+1. (0:00–2:00 / Lecture) 강사가 작성한 GitLab 운영 사례로 전환한다. 이슈에는 할 일을, 분리된 작업 공간에는 해당 변경을, 병합 요청(MR)에는 팀원이 읽을 변경과 검토 근거를 둔다.
+2. (2:00–5:00 / Case) 이슈 한 건 → 작업 공간 → 구현·검토 → 팀원의 MR 검토를 한 번 따라간다. 시스템이 한 목표를 처리하는 과정과 팀원이 실제 병합을 결정하는 지점을 따로 짚는다.
 
 **Evidence / Source:**
-SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §3.
+SRC-0244 · CLM-0048 · DEC-0145 · BEAT-087/088. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §2–3.
 
 **Claim Boundary:**
-운영기 작성자가 게시 시점에 설명한 사내 테스트 운영 범위다. 검토 모델명, 비교 효과, 실제 계정의 현재 상태는 이 자료로 확인할 수 없다.
+작성자가 공개한 운영 사례다. 역할별 모델 조합이나 사내 성능 개선의 근거로 PairCoder 연구 결과를 대입하지 않는다.
 
 **Beginner Explanation:**
-알람이 울려도 이전 일이 기다리는 중이면 기록하고 대기할 수 있다.
+이슈에 적힌 일 하나를 따라가면, 팀원이 마지막에 어떤 변경과 근거를 검토할지 알 수 있다.
 
 **Advanced Insight:**
-완료 기준을 충족한 코드 후보와 사람의 병합 결정을 별도 상태로 보관한다.
+발표자 참고. 작성자는 팀원의 리뷰 부담을 줄이려고 이전 MR이 미병합이면 새 이슈 착수를 보류했다. 당시 팀에서 선택한 운영 정책이며 루프의 성립 조건은 아니다.
 
 **C++ Vision Bridge:**
 N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 미병합 경로를 기록·대기까지 따라간 뒤 병합 경로로 돌아온다.
+N/A — 운영기를 바탕으로 그린 정적 사례. 이슈에서 작업 공간을 거쳐 팀원의 MR로 가는 한 건의 경로를 읽는다.
 
 **Audience Interaction:**
-S79에서 떠올린 선택을 실제 운영기의 분기와 대조한다.
+이슈의 목표를 구현·검토하는 구간과 사람이 승인하는 지점을 화면에서 찾아보게 한다.
 
 **Transition:**
-다음 목표가 정해지면 그 이슈의 변경을 어디서 시작할까?
+이슈를 정했다. 여러 변경이 섞이지 않게 이 한 건을 어디에서 시작할까?
 
 **Time Management:**
-Lecture 2분 + Case 3분 = 5분. 첫 질문을 반복 설명하지 말고 대기 경로와 착수 경로를 한 번씩만 따라간다.
+Lecture 2분 + Case 3분 = 5분. 팀의 전체 경로만 짚고 worktree·API의 세부 동작은 S89–S90에서 다룬다.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S88.png 또는 production/ACT_4.pptx의 S88. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
 ## S89 — 새 이슈에는 별도 작업 공간이 생긴다
 
@@ -929,8 +929,8 @@ Lecture 1분 + Case 3분
 “내일 새로운 세션을 열면 무엇부터 읽어야 할까?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) 작성자의 루프가 Markdown에 진행 상태를 남겼다는 사실을 소개하고, 화면의 카드 필드는 발표용 예시라고 표시한다.
-2. (1:00–4:00 / Case) 교육용 ISSUE-A, 마지막 후보 v2, 열려 있는 MR-A, 팀원의 병합 결정 대기를 순서대로 읽는다. “MR-A가 병합됐는가?”가 다음 세션의 첫 질문이다. 어제의 MR이 열려 있었다면 오늘 첫 행동은 같은 MR의 현재 상태 조회다. 다음 실행에서 상태가 바뀔 수 있으므로 시점을 함께 남긴다.
+1. (0:00–1:00 / Lecture) 운영기가 Markdown에 상태를 저장한 사실을 짚는다. 화면의 인계 카드는 발표를 위해 구성한 예시다.
+2. (1:00–4:00 / Case) 교육용 ISSUE-A의 후보 v2에서 검토할 MR-A와 남은 일인 변경 이유·검사 근거 확인을 읽는다. 새 세션이 MR-A를 다시 열고 같은 변경과 근거를 찾는 장면을 가리킨다.
 
 **Evidence / Source:**
 SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §2–3. 카드 필드는 DEC-0144의 교육용 인계 설계다.
@@ -948,22 +948,22 @@ SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI �
 N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 상태 카드의 MR-A를 다음 실행의 첫 조회로 연결한다.
+N/A — 정적 자료. 카드에 적은 MR-A와 다음 실행에서 다시 열 변경·검사 근거를 연결한다.
 
 **Audience Interaction:**
-다섯 필드 가운데 다음 실행의 첫 행동을 알려 주는 칸을 찾아본다.
+이 카드를 받은 다음 담당자가 어떤 MR에서 무엇을 확인할지 한 문장으로 떠올려 보게 한다.
 
 **Transition:**
 그 기록을 받은 사람은 병합 전에 무엇을 직접 이해해야 할까?
 
 **Time Management:**
-Lecture 1분 + Case 3분 = 4분. 파일 형식 소개보다 다음 실행의 첫 조회를 찾는 데 시간을 쓴다.
+Lecture 1분 + Case 3분 = 4분. 카드 필드 이름보다 남은 일을 어느 MR에서 이어갈지 정하는 데 시간을 쓴다.
 
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S91.png 또는 production/ACT_4.pptx의 S91. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
 ## S92 — 사람이 병합 전에 읽을 것
 
@@ -1014,7 +1014,7 @@ N/A — 정적 자료. assert 삭제 한 줄의 근거가 확인될 때까지 �
 승인 전 마지막으로 어떤 근거를 읽을지 짧게 생각하게 한다.
 
 **Transition:**
-병합 여부를 확인하려는데 API가 응답하지 않는다면 무엇을 기록할까?
+같은 MR의 검토를 이어가려는데 상태 조회가 실패한다면 무엇을 기록해야 할까?
 
 **Time Management:**
 Lecture 1분 + Case 2분 = 3분. 이해 부채 설명 뒤 한 가지 확인 질문으로 3분에 닫는다.
@@ -1023,7 +1023,7 @@ Lecture 1분 + Case 2분 = 3분. 이해 부채 설명 뒤 한 가지 확인 질�
 LOCAL STATIC ARTIFACT — production/preview/full/S92.png 또는 production/ACT_4.pptx의 S92. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
 ## S93 — MR 상태를 조회할 수 없다면
 
@@ -1046,14 +1046,14 @@ Lecture 1분 + Case 2분
 조회할 수 없는 상태는 미확인으로 보존하고, 정한 한도에 따라 재조회하거나 사람에게 넘긴다.
 
 **Opening Question:**
-“MR 조회가 실패하면 이미 병합됐다고 보고 다음 이슈를 시작해도 될까?”
+“MR 조회가 실패했을 때 같은 이슈에 새 MR을 다시 만들면 어떤 문제가 생길까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) 교육용 장애 상황이라는 표시를 짚는다. 마지막으로 확인한 MR 식별자, 마지막 확인 시각, 이번 조회 실패를 구분한다.
-2. (1:00–3:00 / Case) 읽기 재시도가 가능한 동안 같은 MR을 조회한다. 한도에 닿으면 새 이슈 생성을 보류하고 확인을 요청한다. 다음 실행도 같은 MR 상태 읽기에서 재개한다.
+1. (0:00–1:00 / Lecture) 교육용 장애 표시를 짚는다. 마지막으로 확인한 MR 식별자, 마지막 확인 시각, 이번 조회 실패를 구분한다.
+2. (1:00–3:00 / Case) 같은 MR 읽기는 정한 한도 내에서 재시도한다. 한도에 닿으면 미확인 상태와 식별자를 남겨 확인을 요청한다. 기존 상태를 모르는 동안 같은 이슈의 쓰기를 다시 실행해 중복 MR을 만들지 않도록 한다.
 
 **Evidence / Source:**
-DEC-0144 · 운영기의 MR 상태 분기를 확장해 만든 교육용 장애 설계. SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/
+DEC-0144/0145 · SRC-0244 · CLM-0048. GitLab 운영기의 MR 연결을 바탕으로 구성한 교육용 조회 실패다. https://gideokkim.github.io/codex/loop-engineering/
 
 **Claim Boundary:**
 CONCEPTUAL. 원문이 보고한 운영 장애나 특정 재시도 횟수·복구 성공 사례가 아니다.
@@ -1062,7 +1062,7 @@ CONCEPTUAL. 원문이 보고한 운영 장애나 특정 재시도 횟수·복구
 모르는 상태는 그대로 남겨야 다음 사람이 무엇을 확인해야 하는지 안다.
 
 **Advanced Insight:**
-조회 재시도와 쓰기 재실행은 다르다. 상태를 모르고 새 이슈나 MR을 만들면 중복될 수 있다.
+읽기 재시도와 쓰기 재실행을 구분한다. 이 분기의 범위는 조회에 실패한 동일 이슈와 MR이다.
 
 **C++ Vision Bridge:**
 N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
@@ -1083,7 +1083,7 @@ Lecture 1분 + Case 2분 = 3분. 복구 명령으로 확장하지 말고 보존�
 LOCAL STATIC ARTIFACT — production/preview/full/S93.png 또는 production/ACT_4.pptx의 S93. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
 ## S94 — 회고 제안은 누가 적용할까
 

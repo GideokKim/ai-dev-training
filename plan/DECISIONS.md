@@ -14034,7 +14034,7 @@ root workflow without changing the Demo repository, Sites or bundles.
 
 ## Status
 
-ACCEPTED. The user approved the proposed production plan at 8b64e3f.
+ACCEPTED. The user approved the proposed production plan at 8b64e3f. DEC-0145 later revises the opening and introduces the GitLab case at S88.
 
 ## Date
 
@@ -14122,3 +14122,87 @@ human approval targets give learners decisions to apply to a team.
 Verify 20 mapped presentations, all mode totals, the editable S87 chart,
 19-field Notes, current tip routes and final renders. Windows PowerPoint,
 the classroom PC, target account and timed rehearsal remain UNVERIFIED.
+
+# DEC-0145 — Open ACT4 with autonomous revision of one goal
+
+## Status
+
+ACCEPTED by the user.
+
+## Date
+
+2026-11-03
+
+## Context
+
+DEC-0144 linked the opening GitLab question to the later team example.
+The author explained that limiting new issues while a merge request was
+open was a local choice made to limit reviewers’ workload.
+
+## Problem
+
+Opening with that local rule made it look necessary to a loop. A
+learner should first see how a missed criterion starts another
+implementation without a new instruction from the developer.
+
+## Decision
+
+S78 introduces one assigned goal. S79 follows an illustrative brightness
+candidate from an unnecessary full-pixel copy, through a review finding,
+to a row-wise revision. S80 returns the revision to the original
+criteria. Remaining actionable findings feed another revision and
+sufficient evidence for all criteria allows completion. S81 states the
+three measurable criteria. S84 retains the detailed R1 evidence and S85
+covers incomplete handoff when verification is not possible.
+
+Introduce the author's GitLab case at S88 as one issue, its worktree,
+maker/checker work and a merge request for a teammate. Keep the local
+review-load policy in S88 speaker notes only. S91 illustrates recovery of
+the same MR and its evidence. S93 limits duplicate-write prevention to the
+same issue. Keep S92's accountable human merge review and S94's separate
+workflow-rule approval. Revise the S77 and S87 handoff cues.
+
+## Rationale
+
+A visible first correction explains what the system does. A subsequent
+test of the same goal explains why a loop repeats or exits. Learners can
+then apply those ideas to the concrete GitLab handoff.
+
+## Alternatives
+
+The earlier opening used a pending MR and returned to its state at S88.
+A manual prompt-entry example would emphasize writing instructions instead
+of the transition the system performs for the same goal.
+
+## Trade-offs
+
+The course's student-facing overview omits the author's intake policy.
+The speaker notes retain its motivation for discussion. The teaching
+reconstruction supplies no observed autonomous run, memory gain, speedup
+or guaranteed completion. The chart at S87 retains its research scope.
+
+## Related Invariants
+
+INV-LOOP-001, INV-VERIFY-001, INV-NARRATIVE-001, INV-RESPONSIBILITY-001.
+
+## Affected Artifacts
+
+Current slide and template maps, approved ACT4 outline, curriculum and
+story traces, case/claim guidance, speaker notes and delivery evidence.
+
+## Evidence
+
+User correction and approval, baseline 376090d, CASE-LOOP-01, DEC-0097,
+DEC-0144, CLM-0021 and the author's GitLab account SRC-0244 / CLM-0048.
+
+## Training Relevance
+
+Keep one fixed goal visible while comparing candidates. Separate a
+criterion that still needs work from a change in team operations.
+
+## Follow-up
+
+Check the final reading order and audience-only text, embedded notes, and
+handoffs. Keep all existing per-slide allocations (ACT4 20 slides, 85
+minutes; full course 113 slides, 389 minutes). Windows PowerPoint,
+projection, training account and timed rehearsal remain unverified.
