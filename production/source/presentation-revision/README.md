@@ -1,3 +1,11 @@
+# Current S76 risk paths — DEC-0143 (2026-11-03)
+
+Keep 113 slides / 389 minutes. In `harness-visual-system.mjs`, change only
+the current S76 left paths: a winding detour, work stopped before checking,
+and a hypothetical risk to existing behavior. Keep the shared Harness
+comparison and all actor positions unchanged. Use no observed failure or
+guaranteed-success claim. Build Full plus ACT3 with `--release --release-acts=3`.
+
 # Current S77 loop redraw — DEC-0142 (2026-11-03)
 
 Keep113slides/389minutes. In `compact-handoff-114.mjs`, replace only the

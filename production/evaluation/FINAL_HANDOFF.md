@@ -1,5 +1,48 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S76 왼쪽 위험 경로 — DEC-0143 (2026-11-03)
+
+현재113장·389분, S76 Lecture2+Q&A5=7분은 그대로다.
+왼쪽을 우회 도달·검증 전 중단·기존 동작 훼손 위험의 세 가상 장면으로 바꿨다.
+실제 실패 기록·측정 결과·코드 훼손이 아니며 Harness의 자동 준수·보호를 보장하지 않는다.
+오른쪽 공통 기준 비교와 사람/AI·제목·footer, S75/S77의 화면과 연결은 유지했다.
+Notes의 가상 위험 cue만 정렬하고 기존 Evidence/Claim·프로젝트 적용 지식을 보존했다.
+통합/ACT3 두 PPT와131개 렌더·내장 Notes를 대조했다. 다른112장의 화면과 나머지5개 ACT PPT는 같다.
+[수정·검토](S76_DYNAMIC_ROUTES.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[작업 범위](../../plan/S76_DYNAMIC_ROUTES.md)를 따른다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않았다.
+아래 이전 기록의 해시는 당시 판본에 한정한다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `d1e4d2ef6420d583d05ab3ec361ac1fbcf23b0b08ca0ee08acf29d79d94ebf4e` |
+| `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
+| `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
+| `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
+| `production/ACT_3.pptx` | `34ec576133d5e91643e13780e25813a670cf4ce74d4fd7c049f68062756aae00` |
+| `production/ACT_4.pptx` | `52493aab06205745e9d4252221b3527a13cc5bcad887ec7cf6ca0b46cb579426` |
+| `production/ACT_5.pptx` | `bb91491e405493fa3531976872bbbfcfce68d1f1467411ba52a15652aca6858f` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `e1298dde5cccf027c9ddfaaeb2ffbb31dc99d4d3b45b4b39a2ba7f42e4b1f737` |
+| `production/notes/ACT_3_NOTES.md` | `eecc85f69bd5272f58b29a66014e8d6bd1634bd1075df37bde7f9569f01d3ecf` |
+| `production/preview/full/montage.png` | `74e72d46451109dc7d45c6ea62b764ccee33e5feab01434ea01f53dadfefbb8b` |
+| `production/preview/act0/montage.png` | `eb37120330c3892db3b31993c8ae3863e9818f6873f08f987a037a95d5bb9cb6` |
+| `production/preview/act1/montage.png` | `a23d9561b294917588e5e0d8241be709c79883b79366b3470f094a17fca705ab` |
+| `production/preview/act2/montage.png` | `d7e66c468274d0aa80b83000ac284535d12b366fd81ebbfef849e713da0112a1` |
+| `production/preview/act3/montage.png` | `2c06affdb6b2e1a7a65433bac9ad998e724d0671e153409e518527ae15348f84` |
+| `production/preview/act4/montage.png` | `73aa7ba6bd8f81c6f176095671ded8236282367440183d16e91a04383d88f1fc` |
+| `production/preview/act5/montage.png` | `94c9b7998e46c7f96ed2a95dcfed99dfc85aa4b1b77cec6896666bd8ae901975` |
+| `production/preview/full/S66.png` | `482b1c36433538b982da2336354c04a9593f85368086c313149272540cd14880` |
+| `production/preview/full/S67.png` | `d0afef596117e2746ef1a453b2357b79cde7c657b88020963298f26aae933899` |
+| `production/preview/full/S68.png` | `4837568f4a3d5efb4b5ac30e416c04d094b9085383df5a6deb97e10bfef4bcf1` |
+| `production/preview/full/S69.png` | `2aea1b6cbc55f44888a832b162ce8ed0a82363f94e53ec70c2fda102ceca62ed` |
+| `production/preview/full/S110.png` | `78a0196d38e6adaa98d26447e51d5659dc9b51920c3973ea6b01ecf724fc47a8` |
+| `production/preview/full/S71.png` | `6ec5e46a433be1a83c78d8476fd46837c2e8b8c469fe6ff635a7a6a53b1125a6` |
+| `production/preview/full/S72.png` | `7fa05104badad5a6f49bfe89b1492e0fb3a169fe86330f93abbbe26b5993b013` |
+| `production/preview/full/S77.png` | `f52de23b57888b85deb659e6a27afaa26b9b2b9e4c2764406eb406321ba62de4` |
+| `production/preview/full/S76.png` | `8b7cf405c5d70d95d2bfb299a347b732a61b35ea631d95ecbfa1c6c040c80613` |
+
+## 보존된 이전 전달 기록
+
 ## S77 루프 재디자인 — DEC-0142 (2026-11-03)
 
 현재113장·389분과 S77 Transition2분은 그대로다.

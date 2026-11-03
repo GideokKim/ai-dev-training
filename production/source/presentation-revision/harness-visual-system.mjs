@@ -1,4 +1,4 @@
-/** DEC-0134/0141: Harness relationships, reuse and shared project criteria. */
+/** DEC-0134/0141/0143: Harness relationships and shared project criteria. */
 import {readFileSync} from 'node:fs';
 export const HARNESS_VISUAL_IDS=['S75','S76','S77'];
 
@@ -120,16 +120,58 @@ export function harnessVisualFactories(H){
    ['명세·제약','수행 절차','검증 기준'].forEach((label,i)=>text(s,label,854+i*116,331,126,31,22,C.teal,true,FONT,'center'));
    // Keep three independent work lanes: no merge and no identical-code claim.
    const rows=[382,454,526];
-   const leftEnds=[[566,326],[596,430],[548,534]];
    rows.forEach((cy,i)=>{
     const label='ABC'[i];actor(64,cy,label);actor(664,cy,label);
-    const [ex,ey]=leftEnds[i];
-    route('Individual criteria route '+label,226,cy,ex-24,ey,i===1?blue:C.warn);
-    result(ex,ey,label,i===1?blue:C.warn);
     rect(s,854,cy-19,274,38,C.white);
     route('Shared criteria work lane '+label,826,cy,1158,cy,C.teal);
     result(1188,cy,label,C.teal);
    });
+   // DEC-0143: three hypothetical risks, never a measured failure trace.
+   const path=(name,x,y,w,h,color,commands)=>s.shapes.add({
+    geometry:'custom',name,position:{left:x,top:y,width:w,height:h},
+    fill:'none',line:{fill:color,width:3},
+    customPaths:[{width:w,height:h,commands}]
+   });
+   s.shapes.add({geometry:'line',name:'Verification destination boundary',position:{left:606,top:352,width:0,height:198},line:{fill:C.sub,width:2,style:'dash'}});
+   text(s,'검증 기준',510,316,106,30,22,C.sub,true,FONT,'center');
+   text(s,'우회해서 도달',238,321,250,31,23,C.warn,true);
+   path('Hypothetical winding detour',226,356,310,52,C.warn,[
+    {moveTo:{x:0,y:26}},
+    {cubicBezTo:{x1:10,y1:26,x2:10,y2:0,x:26,y:0}},
+    {cubicBezTo:{x1:42,y1:0,x2:42,y2:52,x:60,y:52}},
+    {cubicBezTo:{x1:78,y1:52,x2:78,y2:0,x:96,y:0}},
+    {cubicBezTo:{x1:114,y1:0,x2:114,y2:52,x:132,y:52}},
+    {cubicBezTo:{x1:150,y1:52,x2:150,y2:26,x:166,y:26}},
+    {lineTo:{x:310,y:26}}
+   ]);
+   route('Detour reaches criteria',536,382,600,382,C.warn);
+   text(s,'검증 전 중단',238,416,270,30,23,C.red,true);
+   path('Hypothetical incomplete work',226,448,234,12,C.warn,[
+    {moveTo:{x:0,y:6}},
+    {cubicBezTo:{x1:58,y1:0,x2:112,y2:12,x:176,y:6}},
+    {lineTo:{x:234,y:6}}
+   ]);
+   route('Interrupted route end',460,454,478,454,C.warn);
+   path('Stopped before verification',484,445,18,18,C.red,[
+    {moveTo:{x:0,y:0}},{lineTo:{x:18,y:18}},
+    {moveTo:{x:18,y:0}},{lineTo:{x:0,y:18}}
+   ]);
+   line(s,516,454,84,C.line,2,'dash');
+   text(s,'기존 동작 훼손 위험',238,484,340,30,23,C.red,true);
+   path('Hypothetical unsafe change',226,514,190,24,C.red,[
+    {moveTo:{x:0,y:12}},{lineTo:{x:48,y:12}},
+    {lineTo:{x:62,y:0}},{lineTo:{x:76,y:24}},
+    {lineTo:{x:90,y:0}},{lineTo:{x:104,y:24}},
+    {lineTo:{x:118,y:12}},{lineTo:{x:190,y:12}}
+   ]);
+   route('Unsafe change points to existing behavior',416,526,446,526,C.red);
+   rect(s,450,512,128,38,C.redPale,C.red,1.5);
+   text(s,'기존 동작',458,515,98,31,22,C.red,true);
+   path('Existing behavior risk fracture',568,510,16,42,C.red,[
+    {moveTo:{x:8,y:0}},{lineTo:{x:0,y:10}},
+    {lineTo:{x:16,y:20}},{lineTo:{x:0,y:30}},
+    {lineTo:{x:8,y:42}}
+   ]);
    text(s,'기준이 달라질 수 있음',64,566,552,38,28,C.warn,true);
    text(s,'작업은 달라도, 판단 기준은 공유',664,566,552,38,28,C.teal,true);
    footer(s);return s;

@@ -1,5 +1,9 @@
 # MASTER EXECUTION STATUS
 
+Current DEC-0143:113slides/389minutes. S76 left hypothetical-risk routes only; preserve113slides/389minutes, original evidence, right panel and S75/S77 screens. Use [current result](S76_DYNAMIC_ROUTES.md) and [handoff](FINAL_HANDOFF.md). Windows, room, product-account and timed rehearsal remain UNVERIFIED.
+
+## 보존된 이전 기록
+
 Current DEC-0142:113slides/389minutes. S77 loop strokes and inline direction markers only; preserve all text, positions, timing, evidence and S76 comparison. Use [current result](S77_LOOP_REDESIGN.md) and [handoff](FINAL_HANDOFF.md). Windows, room, product-account and timed rehearsal remain UNVERIFIED.
 
 ## 보존된 이전 기록

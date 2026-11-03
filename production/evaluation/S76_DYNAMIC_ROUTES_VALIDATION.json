@@ -1,0 +1,63 @@
+{
+  "status": "RENDER_AND_STRUCTURE_PASS",
+  "baseline": "729d7735e807f03f83b44f9babf4178c8d629e28",
+  "slides": 113,
+  "minutes": 389,
+  "actCounts": [
+    14,
+    23,
+    22,
+    18,
+    20,
+    16
+  ],
+  "actMinutes": [
+    42,
+    64,
+    90,
+    64,
+    85,
+    44
+  ],
+  "modes": {
+    "Transition": 23,
+    "Lecture": 169,
+    "Reflection": 19,
+    "Case": 102,
+    "Demo": 44,
+    "Q&A": 32
+  },
+  "changedSlides": [
+    "S76"
+  ],
+  "unchangedScreenCount": 112,
+  "changedRegionOnly": true,
+  "existingEvidenceScopePreserved": true,
+  "renderedPngs": 131,
+  "embeddedNotes": 131,
+  "noteRecords": 113,
+  "noteFields": 19,
+  "fullAct3PixelParity": 18,
+  "otherActPackagesPreserved": 5,
+  "existingImagesAndChartValuesPreserved": true,
+  "existingActorAssetReused": true,
+  "rightPanelAndActorsPreserved": true,
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "count": 113,
+      "sha256": "d1e4d2ef6420d583d05ab3ec361ac1fbcf23b0b08ca0ee08acf29d79d94ebf4e"
+    },
+    {
+      "name": "ACT_3",
+      "count": 18,
+      "sha256": "34ec576133d5e91643e13780e25813a670cf4ce74d4fd7c049f68062756aae00"
+    }
+  ],
+  "windows": "UNVERIFIED",
+  "room": "UNVERIFIED",
+  "productAccount": "UNVERIFIED",
+  "rehearsal": "UNVERIFIED",
+  "ooxmlValidation": "PASS — Full and ACT3 final packages against committed originals",
+  "visualReview": "PASS — S76 left detour, interruption and existing-behavior risk; right panel and112other slides unchanged"
+}

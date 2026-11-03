@@ -13942,3 +13942,89 @@ production/evaluation/S77_LOOP_REDESIGN.md. Keep prior DEC-0140 validation
 as history and preserve unverified Windows, room, product-account and
 rehearsal gates. Commit/push only in the root workflow without changing
 the Demo repository, Sites or presenter bundles.
+
+
+# DEC-0143 — Show three hypothetical risks in the individual request paths
+
+## Status
+
+ACCEPTED — explicit user annotation for current S76's left-side routes.
+
+## Date
+
+2026-11-03
+
+## Context
+
+At baseline729d773, S76 contrasts individual instructions with shared
+project criteria. The user wants the left routes to show a winding path,
+failure to reach verification, and potential damage to existing work.
+
+## Problem
+
+Three gently divergent arrows do not make the consequences of differing
+conditions, procedures and checks immediately concrete to the audience.
+
+## Decision
+
+Redraw only the left routes as three hypothetical teaching scenes. A winds
+before reaching the verification boundary. B stops before that boundary.
+C points toward an illustrated existing-behavior block marked as damage
+risk. Use the short labels "우회해서 도달", "검증 전 중단", and
+"기존 동작 훼손 위험", with "검증 기준" at the boundary.
+Keep the same developers and their own AI, title, surrounding layout,
+right-side shared Harness, independent outputs and existing captions.
+Preserve113slides/389minutes, all IDs, Templates and per-slide allocations.
+S76 stays Lecture2+Q&A5; ACT3 stays18slides/64minutes and ACT4 stays20/85.
+Keep S75/S77 cues and screens unchanged. Retain project-specific command,
+tool, permission and execution-condition knowledge in the existing Notes.
+
+## Rationale
+
+A detour, an unfinished check and an existing-behavior risk make the left
+teaching situation readable while the shared-criteria comparison remains
+the slide's single message.
+
+## Alternatives
+
+Keep the gently divergent routes: the user requests a more concrete
+contrast. Show actual failing logs or a damaged repository: unsupported
+by evidence and unnecessary for a teaching relationship diagram.
+
+## Trade-offs
+
+The visual risks could be mistaken for observed events. Keep them as
+hypothetical TEACHING_MODEL scenes. No code or project is destroyed, no
+person or Agent comparison is run, and no risk rate or measured effect is
+added. Do not imply all work without a Harness fails or that a shared
+Harness guarantees compliance, verification, identical code or success.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-HARNESS-001, INV-VERIFY-001, INV-SOT-001.
+
+## Affected Artifacts
+
+S76 Map visual and cues, ACT3/FULL Notes, the left-side source geometry,
+affected ACT/full packages, previews and current delivery identities.
+No numbering migration, global planning banner or Template is required.
+
+## Evidence
+
+Explicit user annotation; existing DEC-0141 shared-criteria teaching
+comparison and DEC-0091/DEC-0023 Harness model. No new Trial, experiment,
+observed failure, actual damage, product check or measurement is added.
+
+## Training Relevance
+
+YES — show why preserving specifications, work procedures and verification
+criteria matters without converting illustrative risks into evidence.
+
+## Follow-up
+
+Check clear detour, stop and hypothetical damage-risk cues, preserved
+right-side pixels, S75/S77 continuity, Notes, budgets and final renders.
+Record current checks in production/evaluation/S76_DYNAMIC_ROUTES.md.
+Keep prior DEC-0141 validation as history and Windows, room,
+product-account and rehearsal gates unverified. Commit/push only in the
+root workflow without changing the Demo repository, Sites or bundles.
