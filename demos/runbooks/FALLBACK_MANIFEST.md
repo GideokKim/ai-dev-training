@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0146
+## Current presentation · DEC-0147
 
 The 43 entries identify local static fallbacks for the 113-slide course. ACT4 uses the author’s GitLab account of operations, a designed brightness case, a published benchmark and a documented Goal example. Classroom playback and account checks are pending.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`b85cc76dc85febdcbddc651984030c26ed0d2021417acf973d7626fddbe2c10f`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`05ea12ad8e9427ae61c807888a4ea52d047d0b1d47e9c1205f198528e2a47d41`.
-- `production/preview/full/montage.png` SHA-256:`aa9bc264f44b6172ee0d7a445eff19fdc47493fd541f27105421c76e099feafd`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`ba684d642c14ae67fd9fadc1dcd496022ef176dab13cfc079508fc9708afd6da`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`e7e398bb908879df3eda7feae3069aa813ad2086ef2f8cbe2801fd8cb8486453`.
+- `production/preview/full/montage.png` SHA-256:`e8cddf219e4ff5507058d5c04ee412cf85a505b2d61c6c75a8674fa86566c9f0`.
 
-[Current revision](../../production/evaluation/ACT4_LOOP_MOTIVATION.md)
+[Current revision](../../production/evaluation/S77_HARNESS_REVIEW.md)
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|

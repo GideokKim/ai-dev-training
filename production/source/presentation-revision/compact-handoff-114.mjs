@@ -3,7 +3,7 @@ import {addPracticalTipBadge} from './practical-tips.mjs';
 
 export const CURRENT_SLIDE_COUNT=114;
 export const COMPACT_FRESH_IDS=['S78','S111'];
-export const COMPACT_TITLE='검토에서 문제가 나오면, 다음 수정은 누가 시작할까?';
+export const COMPACT_TITLE='첫 수정안이 나오면, 팀은 이미 확인할 방법을 갖고 있다';
 const slideId=n=>`S${String(n).padStart(2,'0')}`;
 
 export const afterCompactHandoff=id=>{
@@ -29,32 +29,29 @@ export function applyCompactHandoff(slide){
 
 export function compactBridgeFactory(p,H){
  const {C,text,rect,line,FONT}=H;
- const s=H.frame(p,'S78',COMPACT_TITLE,'ACT 3 → ACT 4 · 작업 체계와 한 작업의 수행');
- const forward=(x,y,w)=>s.shapes.add({
-  geometry:'connector',kind:'straight',position:{left:x,top:y,width:w,height:0},
+ const s=H.frame(p,'S78',COMPACT_TITLE,'ACT 3 · 공통 Harness를 한 작업에 적용');
+ const change=rect(s,64,288,262,149,C.white,C.line,1.5);change.borderRadius=8;
+ text(s,'검토할 변경',83,301,220,32,22,C.sub,true);
+ text(s,'밝기 통계 수정안',83,342,228,44,29,C.ink,true);
+ text(s,'기존 구현 / 수정안',83,393,226,30,22,C.sub);
+ s.shapes.add({geometry:'connector',kind:'straight',
+  position:{left:331,top:362,width:44,height:0},
   line:{fill:C.teal,width:2.5},tail:{type:'triangle',width:'sm',length:'sm'}
  });
- rect(s,64,220,1152,336,C.white,C.line,1);
- text(s,'이번 작업',88,232,1096,32,25,C.teal,true);
- const prompt=rect(s,88,286,268,104,C.white,C.line,1.5);prompt.borderRadius=10;
- const chrome=rect(s,89,287,266,31,'#EDF1F5');chrome.borderRadius=9;
- ['#FF5F57','#FEBC2E','#28C840'].forEach((fill,i)=>{
-  s.shapes.add({geometry:'ellipse',name:'Goal window control '+(i+1),position:{left:100+i*14,top:298,width:8,height:8},fill,line:{fill:'none',width:0}});
+ const shared=rect(s,384,203,832,317,C.pale,C.teal,1.5);shared.borderRadius=10;
+ text(s,'팀이 준비해 둔 공통 Harness',409,223,782,48,34,C.teal,true);
+ const methods=[
+  ['결과가 그대로인가?', '같은 입력의 여섯 출력값 비교'],
+  ['임시 메모리가 줄었는가?', '수정 전후 최대 할당량 비교'],
+  ['더 느려지지 않았나?', '같은 조건에서 실행시간 측정']
+ ];
+ methods.forEach(([question,method],i)=>{
+  const y=284+i*74;
+  line(s,410,y,780,'#BAD1D4',1);
+  text(s,question,410,y+10,324,52,27,C.ink,true);
+  text(s,method,745,y+10,448,52,27,C.ink);
  });
- text(s,'이번 목표',146,290,192,25,20,C.teal,true);
- line(s,89,319,266,C.line,1);
- text(s,'목표 · 완료 기준',108,343,228,29,25,C.ink,false,FONT,'center');
- rect(s,446,286,228,104,C.white,C.teal,1.5);
- text(s,'첫 구현',462,314,196,48,34,C.ink,true,FONT,'center');
- rect(s,776,286,400,104,C.amber,C.warn,1.5);
- text(s,'검토 결과',796,300,360,32,24,C.warn,true,FONT,'center');
- text(s,'충족하지 못한 기준이 있다',790,342,372,40,27,C.ink,true,FONT,'center');
- forward(359,338,76);
- forward(678,338,87);
- rect(s,64,490,1152,66,C.pale,C.teal,1.5);
- text(s,'Harness',88,505,186,36,32,C.teal,true);
- text(s,'지침 · Skill · 도구 · 실행 환경',320,508,872,32,27,C.ink,true);
- text(s,'검토는 끝났고, 목표는 아직 남아 있다',64,566,1152,40,31,C.teal,true);
+ text(s,'이렇게 얻은 검토 결과를 다음 수정에도 이어 쓰려면?',64,548,1152,48,29,C.teal,true);
  text(s,'M 연계 · M6 · M8',996,674,220,23,16,C.sub,false,FONT,'right');
  return s;
 }

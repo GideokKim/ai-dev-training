@@ -14282,3 +14282,75 @@ Compare S79 and S80 in the final renders. Preserve the 113 slide IDs,
 their modes and minutes, ACT4's 20 slides / 85 minutes and the course's
 389 minutes. Windows PowerPoint, projection and rehearsal remain
 unverified.
+
+# DEC-0147 — Close the harness chapter with prepared review methods
+
+## Status
+
+ACCEPTED. The user approved the S77 design after reviewing the proposed layout.
+
+## Date
+
+2026-11-03
+
+## Context
+
+At cb57647, S76 shows a team using shared project criteria. S77 then ends
+on an unmet criterion. The harness appears only as a list of components.
+The user wants its practical value to be visible before ACT4 begins.
+
+## Problem
+
+The final ACT3 slide emphasizes the remaining work while leaving the
+team's ability to review a new candidate implicit.
+
+## Decision
+
+Show one small brightness-statistics change beside a large shared
+harness. Pair each question with a prepared check: compare the six
+outputs on identical input, compare peak temporary allocation before
+and after, and measure runtime under the same conditions. End by asking
+how the resulting evidence can feed the next change. Keep S77's two
+transition minutes. DEC-0146 continues to govern S78–S81.
+
+## Rationale
+
+Expanding the same shared harness from S76 makes the team's reusable
+review capability concrete. The later S81 can use these checks to decide
+when one particular task is complete.
+
+## Alternatives
+
+The previous design left the audience with a failed criterion and an
+open question about who starts the correction. S79 already shows that
+manual handoff.
+
+## Trade-offs
+
+The same checks appear in S77 and S81. S77 names the methods that are
+ready to use. S81 specifies the evidence required to accept a candidate.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001 and INV-LOOP-001.
+
+## Affected Artifacts
+
+S77 in ACT3 and the integrated deck, its speaker notes, the S76 handoff
+cue, the active slide map, template map, story and transition records.
+
+## Evidence
+
+User approval, the existing ACT3 brightness-statistics example, and
+DEC-0146. This teaching diagram reports no execution or measurement.
+
+## Training Relevance
+
+Learners can explain what the team gains by connecting shared criteria
+to checks before designing the control flow of the next revision.
+
+## Follow-up
+
+Check that the prepared methods dominate the rendered slide and that
+the handoff question is readable. Preserve the 113 slide IDs, individual
+time allocations and evidence types.

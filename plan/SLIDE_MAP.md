@@ -1,8 +1,8 @@
 # Official Slide Map
 
-## 현재 ACT3→ACT4 제작 기준 — DEC-0146 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0147 (2026-11-03)
 
-S77에서 다음 수정의 주체를 묻고, S79에서 사람이 지적을 다시 전달하는 부담을 먼저 본다. S80의 직접 인계·재검토는 DEC-0146, S88부터의 GitLab 사례는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
+S77에서 같은 수정안을 검토할 공통 Harness의 세 가지 확인 방법을 짚고, S79에서 사람이 지적을 다시 전달하는 부담을 먼저 본다. S80의 직접 인계·재검토는 DEC-0146, S88부터의 GitLab 사례는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
 
 [승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
 
@@ -1988,36 +1988,36 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** 사람마다 같은 프로젝트의 기준을 다시 설명하던 부담을 공통 작업 체계로 옮기는 이유를 이해한다.
 - **Advanced Payoff:** 작업자별 자율적인 접근과 공통 명세·제약·검증 기준을 분리한다. 공통 기준은 프로젝트별 실제 명령·도구·권한·실행 조건과 연결하며, 사람의 검토 책임과 서로 다른 결과물을 유지한다.
 - **C++ Vision Bridge:** N/A — 독립 C++ 전이 장을 삭제했다. 프로젝트별 명세·도구 연결의 일반 원리만 설명한다.
-- **Speaker Intent:** S75의 재사용 가치에서 한 프로젝트의 공통 기준으로 이어진다. 왼쪽의 우회 도달·검증 전 중단·기존 동작 훼손 위험을 세 가상 장면으로 짧게 짚고 오른쪽의 공통 기준과 분리된 작업 경로를 비교한다. 실제 사고·비교 실험이나 Harness 부재의 필수 실패, 공통 Harness의 자동 준수로 설명하지 않는다. 기존2분 설명 뒤 같은 화면에서 Harness Q&A5분을 운영하고 S77에서 검토 뒤 누가 수정을 시작할지 묻는다.
-- **Transition:** Harness에 대한 Q&A를 마친 뒤 “공통 기준을 사용할 작업 체계는 준비했습니다. 검토에서 문제가 나오면, 다음 수정은 누가 시작할까요?”라고 S77로 넘긴다.
+- **Speaker Intent:** S75의 재사용 가치에서 한 프로젝트의 공통 기준으로 이어진다. 왼쪽의 우회 도달·검증 전 중단·기존 동작 훼손 위험을 세 가상 장면으로 짧게 짚고 오른쪽의 공통 기준과 분리된 작업 경로를 비교한다. 실제 사고·비교 실험이나 Harness 부재의 필수 실패, 공통 Harness의 자동 준수로 설명하지 않는다. 기존 2분 설명과 같은 화면에서의 Harness Q&A 5분을 마친 뒤, S77에서 공통 기준을 어떤 확인 방법으로 구현했는지 살펴본다.
+- **Transition:** Harness에 대한 Q&A를 마친 뒤 “밝기 통계 수정안이 나오면, 이 공통 Harness로 무엇을 확인할 수 있을까요?”라고 S77로 넘긴다.
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Lecture 2분 + Q&A 5분 = 7분
 - **Evidence / Decision References:** DEC-0091; DEC-0023, BEAT-035, BEAT-036, INV-NARRATIVE-001, DEC-0134, DEC-0135, DEC-0136, DEC-0141; Q&A operation lineage: previous118 S81 / Section3I / BEAT-073
 - **Audience Footer:** 프로젝트 적용 예시
 
-#### S77 — 검토에서 문제가 나오면, 다음 수정은 누가 시작할까?
+#### S77 — 첫 수정안이 나오면, 팀은 이미 확인할 방법을 갖고 있다
 
 - **Slide ID:** S77
 - **ACT:** ACT 3
 - **Section:** 3G Minimum Effective Harness 완성
-- **Working Title:** 검토에서 문제가 나오면, 다음 수정은 누가 시작할까?
-- **Primary Role:** 프로젝트의 공통 지침·도구·검증 기준을 갖춘 다음에도 남는 질문을 던진다.
-- **Audience Question:** 검토에서 문제가 나오면, 다음 수정은 누가 시작할까?
-- **Core Message:** 검토로 문제를 찾을 수 있다. 이제 그 문제를 누가 다음 수정으로 넘기는지 묻는다.
-- **Story Beat:** BEAT-073 — 누가 다음 수정을 시작하는지 묻는 전환
+- **Working Title:** 첫 수정안이 나오면, 팀은 이미 확인할 방법을 갖고 있다
+- **Primary Role:** S76의 공통 Harness를 열어, 하나의 수정안을 팀이 이미 준비한 방법으로 검토할 수 있음을 보여준다.
+- **Audience Question:** 밝기 통계 수정안을 받으면 이 팀은 무엇을 어떻게 확인할 수 있을까?
+- **Core Message:** 팀의 Harness에 검토 기준과 확인 방법을 한 쌍으로 준비해 두면 수정안이 올 때마다 무엇을 검사할지 처음부터 정할 필요가 없다.
+- **Story Beat:** BEAT-073 — 공통 Harness에서 얻을 검토 근거를 다음 수정으로 연결하는 질문
 - **Curriculum Trace:** ACT3의 기반 구성·재사용을 마친 뒤 ACT4의 단일 목표 수행으로 전환한다. 기존 Section3G와 BEAT-073을 사용한다. 이전118장판 S77–S81의 lineage이며 이전 S81의 Q&A5분은 S76로 이동하고 Reflection3분은 제거한다.
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — 준비된 Harness 안에서 한 목표의 작업을 반복 운영하는 관점을 연결한다. 실제 수행·반복·목표 달성·효과를 관찰한 결과가 아니며 Harness의 실패나 교체가 Loop의 필수 전제라고 주장하지 않는다.
-- **Visual Concept:** 한 작업의 목표와 준비된 Harness를 보여주고, 첫 검토에서 문제가 남은 지점에서 멈춘다. 다음 수정 담당은 질문으로 열어 둔다.
-- **Demo / Case Connection:** N/A — Harness에서 검토 다음 행동을 묻는 교육용 전환.
-- **Beginner Payoff:** 작업을 검토할 수 있는 것과 검토 뒤에 수정이 실제로 시작되는 일을 따로 생각한다.
-- **Advanced Payoff:** 검증 수단과 검증 뒤의 제어 흐름이 각각 어떤 책임을 맡는지 구별한다.
+- **Claim Status:** TEACHING MODEL — 준비된 검토 방법의 쓰임을 설명한다. 예시 수정안의 검사 결과, 성능 수치 또는 보장된 품질을 제시하지 않는다.
+- **Visual Concept:** 왼쪽의 작은 밝기 통계 수정안 카드에서 오른쪽의 큰 공통 Harness 상자로 연결한다. S76의 Harness 색을 유지한다. 오른쪽에는 결과 보존 / 같은 입력의 여섯 출력값 비교, 임시 메모리 / 수정 전후 최대 할당량 비교, 실행시간 / 같은 조건의 시간 측정을 세 줄로 정렬한다. 화면 하단에 전환 질문을 작게 둔다.
+- **Demo / Case Connection:** ACT3의 밝기 통계 작업을 배경으로 삼은 정적 설명. 새 시험 실행·측정 결과를 보고하지 않는다.
+- **Beginner Payoff:** 프로젝트에서 지켜야 할 기준이 실제 검사로 어떻게 이어지는지 한 사례에서 확인한다.
+- **Advanced Payoff:** 여러 수정안에 같은 확인 방법을 재사용하는 책임과, 그 근거로 후속 작업을 정하는 책임을 구분한다.
 - **C++ Vision Bridge:** N/A — 새 구현 사례나 제품/언어별 조건은 추가하지 않는다.
-- **Speaker Intent:** S76 Q&A를 닫고 공통 기준·도구를 회수한다. 검토 지적까지 읽은 후 누가 수정을 시작할지 묻고 기다린다.
-- **Transition:** 첫 검토에서 작업이 멈춘 상황을 떠올리며 S78의 제목을 연다.
+- **Speaker Intent:** 작은 수정안에서 큰 Harness 상자로 시선을 옮긴다. 세 줄의 기준과 확인 방법을 짝지은 뒤, 검토 결과의 활용은 ACT4의 질문으로 남긴다. 완료 판정은 S81에서 다룬다.
+- **Transition:** 이렇게 얻은 검토 결과를 다음 수정에도 이어 쓰려면? 이 질문에서 S78의 ACT4 제목으로 넘긴다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Transition 2분 = 2분
-- **Evidence / Decision References:** DEC-0146, DEC-0136; DEC-0023; BEAT-073; INV-LOOP-001; INV-VERIFY-001. Source slide lineage: previous118 S77/S78/S79/S80/S81; prior Section3G/3I operation records retained in history.
+- **Evidence / Decision References:** DEC-0147, DEC-0146, DEC-0136; DEC-0023; BEAT-073; INV-LOOP-001; INV-VERIFY-001. Source slide lineage: previous118 S77/S78/S79/S80/S81; prior Section3G/3I operation records retained in history.
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 ### ACT 4 — 20 slides / 85 minutes
