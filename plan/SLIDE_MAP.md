@@ -2361,23 +2361,23 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **ACT:** ACT 4
 - **Section:** 4R5 Implementation, review and state
 - **Working Title:** 다음 실행이 이어받을 상태를 파일에 남긴다
-- **Primary Role:** 기록을 직접 읽고 현재 작업과 맞는지 다시 확인한다.
-- **Audience Question:** 내일 같은 일을 재개하려면 어디에서 무엇을 읽을까?
-- **Core Message:** 같은 일을 재개할 사람이 무엇을 시도했는지, 어떤 검사를 했는지, 무엇이 남았는지 외부 파일에서 다시 확인할 수 있게 한다.
+- **Primary Role:** S90의 검토 의견에서 아직 측정하지 않은 항목을 꺼내 다음 실행이 이어받을 파일로 옮긴다.
+- **Audience Question:** 다음 실행은 무엇을 마친 상태에서, 어떤 검사부터 재개할까?
+- **Core Message:** 밝기 통계의 행별 집계 변경에서 출력 6개 비교는 끝났지만 최대 할당량은 아직 측정하지 않았다. 이 구분을 기록하면 다음 실행은 같은 입력에서 기준판과 변경안의 최대 할당량을 비교하는 일부터 시작할 수 있다.
 - **Story Beat:** BEAT-089
-- **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156
+- **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156, DEC-0164
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
-- **Visual Concept:** 세션의 시도·검사·미결 사항을 상태 파일에 적고 다음 실행이 읽는 경로.
-- **Demo / Case Connection:** Loop Engineering Systems p.11에서 각색한 발표용 도식. 정적 사례로 설명한다.
-- **Beginner Payoff:** 다음 작업자가 처음부터 조사하지 않아도 읽을 단서를 고른다.
-- **Advanced Payoff:** 남은 문제와 근거 위치를 보존하고 시간이 지난 실행 상태는 재확인한다.
+- **Claim Status:** TEACHING MODEL — 밝기 통계 사례를 재구성한 파일 예시. 실제 작업 로그, 자동 저장 동작이나 메모리 사용량 개선을 확인한 기록은 없다.
+- **Visual Concept:** S90의 “최대 할당량 근거 없음”에서 가운데 접힌 종이 모양의 state.md로 이어진다. 파일에 “밝기 통계 · 행별 집계”, 완료한 “출력 6개 비교”, 미완료인 “최대 할당량 측정”을 적고 옆에 다음 실행의 첫 비교를 표시한다.
+- **Demo / Case Connection:** SRC-0246 p.11의 외부 상태 개념을 S90 밝기 통계 사례에 적용했다. state.md는 팀이 정할 수 있는 파일명의 예시다.
+- **Beginner Payoff:** 이미 비교한 출력과 아직 측정해야 할 최대 할당량을 구별해 다음 작업을 찾는다.
+- **Advanced Payoff:** 같은 입력·기준판·변경안을 명시해 다음 실행이 같은 조건으로 비교하게 한다. 여러 작업에 적용할 지침은 AGENTS.md에, 이번 작업의 진행 상태는 state.md에 남긴다.
 - **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
-- **Speaker Intent:** 기록을 직접 읽고 현재 작업과 맞는지 다시 확인한다. AGENTS.md에 모든 상태를 쌓아야 한다는 규칙을 만들지 않는다.
+- **Speaker Intent:** 강의 1분에는 S90의 검토 지적을 파일에 잇는다. 사례 2분에는 파일의 완료·미완료를 가리키고, 다음 실행이 첫 측정에서 비교할 입력·기준판·변경안을 짚는다.
 - **Transition:** 실행 상태는 파일로 남겼다. 이전 대화에서 익힌 개인 작업 선호는 다음 대화에서 어떻게 떠올릴까?
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 2분 = 3분
-- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Evidence / Decision References:** DEC-0164, DEC-0156, SRC-0246, CLM-0050
 - **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
 #### S92 — Codex 메모리로 이전 대화의 맥락을 이어간다

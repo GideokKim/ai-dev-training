@@ -1,25 +1,25 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## ACT4 · 작성·검토 모델 예시 · DEC-0163
+## ACT4 · 상태 파일로 작업 인계 · DEC-0164
 
-[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT4](../ACT_4.pptx) · [S90 미리보기](../preview/full/S90.png) · [S95 미리보기](../preview/full/S95.png) · [ACT4 발표 Notes](../notes/ACT_4_NOTES.md) · [ACT5 찾아보기](../ACT_5.pptx) · [ACT4 검토 결과](ACT4_PDF_OPERATING_WORKFLOW.md)
+[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT4](../ACT_4.pptx) · [S91 미리보기](../preview/full/S91.png) · [S95 미리보기](../preview/full/S95.png) · [ACT4 발표 Notes](../notes/ACT_4_NOTES.md) · [ACT5 찾아보기](../ACT_5.pptx) · [ACT4 검토 결과](ACT4_PDF_OPERATING_WORKFLOW.md)
 
-전체 113장·386분. S90은 GPT-6 Luna가 작성하고 Claude Sonnet 5.5가 검토하는 교육용 예시다. 변경안·출력 비교 결과와 최대 할당량 재측정 요청을 서로 주고받고, S91에서 다음 실행에 넘길 근거를 기록한다. S95의 Human in the Loop 사례에서는 사람이 출력과 메모리 측정 근거를 대조한 뒤 병합을 승인하거나 재측정을 요청한다. 메모리 팁은 S92, ACT4 마지막 Goal 팁은 S97이며, ACT5는 S98에서 시작한다.
+전체 113장·386분. S90은 GPT-6 Luna가 작성하고 Claude Sonnet 5.5가 검토하는 교육용 예시다. 변경안·출력 비교 결과와 최대 할당량 재측정 요청을 서로 주고받고, S91의 예시 파일 `state.md`에 완료된 출력 비교와 미완료인 할당량 측정을 구분해 남긴다. S95의 Human in the Loop 사례에서는 사람이 출력과 메모리 측정 근거를 대조한 뒤 병합을 승인하거나 재측정을 요청한다. 메모리 팁은 S92, ACT4 마지막 Goal 팁은 S97이며, ACT5는 S98에서 시작한다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `b910010156231b30f282fec1d53eea9e7f3352839abbfb1394d227aae58a051a` |
+| `production/AI_Dev_Training_Full.pptx` | `72258599f3631870c5d3237a55407bbe6e1982fbff52f3fe10910ca356b0f6cc` |
 | `production/ACT_0.pptx` | `5d5d0f2726df9c88f6bfbbb1fb52d5b221b10b2c9d243638552f013c0dd7378b` |
 | `production/ACT_1.pptx` | `07b8afb890383a0e656814859a052c9d9bdf139aa3bfd3c5eb6b556c0be115d4` |
 | `production/ACT_2.pptx` | `496a76f78a1a83fc66e72f82db5656f4710e7abf82c6747bc2d6f5a7768bd806` |
 | `production/ACT_3.pptx` | `acab05b7a47448cfb525856d52b65bb7dfa1c9d01df51521a68d1b2e6a6e6841` |
-| `production/ACT_4.pptx` | `376b96997a623c025c1e0dea83ac672af9dfe0ecc7e14f43b7bb4fa649caca0d` |
+| `production/ACT_4.pptx` | `188b261f6ef6df0db4df14e3e54fb2bab1e0c94c15d3c2d2334e04893d18a752` |
 | `production/ACT_5.pptx` | `df247af74d1a4cefc06961a6c04b6a3deb6fd577752e55c4bb156b16876287bc` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `974a7db3e20b588c2b42205e3bdb57ec67a7f165b63f7c640e1e847532b902c3` |
-| `production/notes/ACT_4_NOTES.md` | `e6325a25850039de0e7ce17d4c5acca963bbfef9cbdc857e79c8159a15b0ff9f` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `78808c4e369737d4556f19c92a50d70ff0d6509bcdb78ecdf7e12e5c5d795f78` |
+| `production/notes/ACT_4_NOTES.md` | `0246258f4fdd341b66328dc93091aafb598f0a2ca85acce646ca66b582a559c0` |
 | `production/notes/ACT_5_NOTES.md` | `f7c89444bd2744f489ea35e0b0268f830bca3d7b6bd1b4b8118b1190d618fba7` |
-| `production/preview/full/montage.png` | `2b711643b7e13e4db4cddeeae72ea162451776be446d0ef34a54ece0a633969d` |
-| `production/preview/act4/montage.png` | `a05fa0f6834d4104674b28f7a0171eeed9bdc9f9e6eec3a5da5c9420581be008` |
+| `production/preview/full/montage.png` | `100c180eb7664507d9c059da88c05fa5090823514b9ccb139a674b53177416d4` |
+| `production/preview/act4/montage.png` | `929a652b427244821b6cc3cdfaeca54e9d75eb8a59a7090215d2d609b8878985` |
 | `production/preview/act5/montage.png` | `63a31909d42d9a96aff3944a0de6733b0d89275765a128d51c959151ebcd73ee` |
 | `production/preview/full/S79.png` | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | `production/preview/full/S84.png` | `29e8438f364e03432f684abc9745482454430650ee59768536fdedcec709c2a4` |

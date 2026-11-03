@@ -395,18 +395,35 @@ export function loopOperationsFactories(H) {
     },
     S93(p) {
       const s=common(p,'S93','다음 실행이 이어받을 상태를 파일에 남긴다','루프 재개 · 상태 파일의 예시','');
-      panel(s,64,226,300,234,C.white);
-      caption(s,'이전 실행',85,249,255,blue);
-      text(s,'무엇을\n시도했나?',85,315,257,98,36,C.ink,true);
-      connect(s,372,345,60,0,blue);
-      panel(s,443,198,392,294,bluePale,blue);
-      text(s,'state.md',465,214,345,54,29,blue,true,CODE);
-      line(s,466,278,345,blue,1);
-      ['마지막 변경과 버전','검사 결과와 실패 입력','미해결 항목과 다음 단계'].forEach((item,i)=>text(s,item,466,297+i*52,349,44,24,C.ink,true));
-      connect(s,845,345,61);
-      panel(s,916,226,300,234,C.pale,C.teal);
-      caption(s,'다음 실행',937,249,255,C.teal);
-      text(s,'무엇부터\n확인할까?',937,315,257,98,36,C.ink,true);
+      caption(s,'검토자 회신',64,247,204,blue);
+      text(s,'“최대 할당량\n근거가 없어요.”',64,300,221,98,32,C.ink,true);
+      connect(s,293,348,50,0,blue);
+
+      // Native paper and folded corner; the contents remain individually editable.
+      const page=(name,x,y,w,h,points,fill)=>s.shapes.add({
+        name,geometry:'custom',position:{left:x,top:y,width:w,height:h},
+        fill,line:{fill:blue,width:2},customPaths:[{width:w,height:h,
+          commands:points.map(([px,py],i)=>({[i?'lineTo':'moveTo']:{x:px,y:py}}))}]
+      });
+      page('상태 파일',352,168,477,350,[[0,0],[425,0],[477,52],[477,350],[0,350],[0,0]],C.white);
+      page('접힌 문서 모서리',777,168,52,52,[[0,0],[52,52],[0,52],[0,0]],bluePale);
+      text(s,'state.md',379,195,365,60,39,blue,true,CODE);
+      line(s,379,265,424,C.line,1);
+      text(s,'밝기 통계 · 행별 집계',379,279,424,48,28,C.ink,true);
+
+      rect(s,385,359,26,26,C.pale,C.teal,2);
+      s.shapes.add({name:'완료 체크 표시',geometry:'custom',position:{left:389,top:366,width:18,height:12},
+        fill:'none',line:{fill:C.teal,width:2.8},customPaths:[{width:18,height:12,
+          commands:[{moveTo:{x:0,y:6}},{lineTo:{x:6,y:12}},{lineTo:{x:18,y:0}}]}]});
+      text(s,'출력 6개 비교',430,346,357,51,29,C.sub);
+      rect(s,373,409,436,65,C.amber);
+      rect(s,385,429,26,26,C.white,C.warn,2);
+      text(s,'최대 할당량 측정',430,416,360,51,29,C.warn,true);
+
+      connect(s,835,442,61,0,C.warn);
+      caption(s,'다음 실행의 첫 작업',909,288,307,C.warn);
+      text(s,'같은 입력으로\n기준판과 변경안의',909,342,307,84,30,C.ink,true);
+      text(s,'최대 할당량 비교',909,427,307,49,32,C.warn,true);
       takeaway(s,'프로젝트 지침은 AGENTS.md에, 실행마다 변하는 값은 상태 기록에 둔다.');
       return s;
     },

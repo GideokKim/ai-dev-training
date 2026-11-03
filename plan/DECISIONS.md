@@ -15430,3 +15430,26 @@ criteria and four-minute allocation.
 The providers confirm the two names. The slide illustrates a role
 assignment and provides no measurement of this pairing or its availability
 in the training environment. [OpenAI model reference](https://developers.openai.com/api/docs/models/gpt-6-luna) · [Anthropic announcement](https://www.anthropic.com/claude-sonnet-5-5)
+
+# DEC-0164 — Show the reviewer's pending measurement in a state file on S91
+
+## Status and Date
+
+ACCEPTED on 2026-11-03.
+
+## Decision and Rationale
+
+Follow the open item from S90 into an example named `state.md`. On a
+folded-page diagram, identify the row-wise brightness change, the completed
+six-output comparison, and the outstanding peak-allocation measurement.
+Have the next run start by comparing baseline and candidate on the same
+input. A concrete record allows the audience to see what has been checked
+and exactly where the work resumes.
+
+## Evidence and Scope
+
+SRC-0246, page 11, guides the explicit handoff design. The example file
+does not establish an actual trial, automatic persistence, a performance
+gain, or a required filename. Keep durable team guidance in `AGENTS.md`
+and distinguish the task record from the local memory tip on S92.
+Retain the S91 title and its one lecture minute and two case minutes.

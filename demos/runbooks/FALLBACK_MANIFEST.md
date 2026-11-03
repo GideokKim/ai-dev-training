@@ -1,12 +1,12 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0163
+## Current presentation · DEC-0164
 
-The 43 entries identify local static fallbacks for the 113-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 records the evidence for the next run. S95 shows a person checking the evidence before merge. The Codex memories and Goal product tips appear on S92 and S97.
+The 43 entries identify local static fallbacks for the 113-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows a person checking the evidence before merge. The Codex memories and Goal product tips appear on S92 and S97.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`b910010156231b30f282fec1d53eea9e7f3352839abbfb1394d227aae58a051a`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`974a7db3e20b588c2b42205e3bdb57ec67a7f165b63f7c640e1e847532b902c3`.
-- `production/preview/full/montage.png` SHA-256:`2b711643b7e13e4db4cddeeae72ea162451776be446d0ef34a54ece0a633969d`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`72258599f3631870c5d3237a55407bbe6e1982fbff52f3fe10910ca356b0f6cc`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`78808c4e369737d4556f19c92a50d70ff0d6509bcdb78ecdf7e12e5c5d795f78`.
+- `production/preview/full/montage.png` SHA-256:`100c180eb7664507d9c059da88c05fa5090823514b9ccb139a674b53177416d4`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
@@ -45,7 +45,7 @@ The 43 entries identify local static fallbacks for the 113-slide course. S90 use
 | S88 | CONCEPTUAL_IMPLEMENTATION_TEST_LOOP | `production/preview/full/S88.png` | 1920×1080 | `a987c9ec8a10458c0d2829d21d4d5effc1557ddab8bdb2140a3f077afd3cebae` |
 | S89 | CONCEPTUAL_MR_HANDOFF | `production/preview/full/S89.png` | 1920×1080 | `2c05befee1bb4fd55baa3cb21cf357504611fdaf80c0fd747f7da5e3ea406fa1` |
 | S90 | TEACHING_REVIEW_ROLES | `production/preview/full/S90.png` | 1920×1080 | `d436993dbd2348d339b32ccb7936dec4f5672975e36ea8dafc56a16d30640273` |
-| S91 | TEACHING_STATE_HANDOFF | `production/preview/full/S91.png` | 1920×1080 | `cde6e11f8521cbb27e9a5b506b781b4aa8f504c2598639cd77bcf0e249ed7ade` |
+| S91 | TEACHING_STATE_HANDOFF | `production/preview/full/S91.png` | 1920×1080 | `858272b31aeb086dc437f5064d314c1ef7f50588b8c8b5360a3c7192aba6ae14` |
 | S92 | DOCUMENTED_CODEX_MEMORY_TIP | `production/preview/full/S92.png` | 1920×1080 | `5ce24f694235e2ddc92ce99395ad93eb394440c2d4f44029ae733ce90a93d38b` |
 | S93 | TEACHING_PERMISSION_LIMITS | `production/preview/full/S93.png` | 1920×1080 | `4d0b3c4a32a80f566dd0f91d97753e701c66d6cdf80c13904f6ec0d38e8c42ca` |
 | S94 | TEACHING_STOP_AND_HANDOFF | `production/preview/full/S94.png` | 1920×1080 | `cfb8da443a83ca97b7a4f14ac70398a76ffe99b0ae3dab14c67742137d085bb7` |
