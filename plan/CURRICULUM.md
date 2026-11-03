@@ -1,24 +1,21 @@
 # 6-Hour Curriculum
 
-## 현재 ACT3→ACT4 제작 기준 — DEC-0155 (2026-11-03)
-
-목표를 이미 맡겼는데도 사람이 검토 지적을 새 요청으로 전달하는 이유를 묻고, 같은 지적을 다음 구현과 재검토에 연결하는 설계를 설명한다. 이어서 팀원이 같은 이슈의 변경과 검토 근거를 넘겨받는 GitLab 사례를 본다.
+## 현재 ACT4 제작 기준 — DEC-0156 (2026-11-03)
 
 | Section | 위치 | 분 | 판단 대상 |
 |---|---|---:|---|
-| 4R1 Goal-loop entry | S78–S80 | 9 | 수정 착수를 위한 사람의 재요청 → 지적의 직접 인계 → 같은 기준으로 재검토 |
-| 4R2 One-goal walkthrough | S81–S84 | 19 | 사람 주도 대화와 검토 루프 비교, 여섯 구성 역할 선택, 여덟 단계의 일·산출물·보완 분기, 밝기 통계 예시의 행별 집계 |
-| 4R3 Loop control | S85 | 5 | 누락 근거 측정 후 완료 보고·재수정·미완료 인계 |
-| 4R4 Review research | S86–S87 | 9 | 역할과 모델 조합의 평가 |
-| 4R5 Team operations and state | S88–S94 | 26 | GitLab 이슈별 작업 공간·구현/검토·팀원의 MR 검토·상태 인계·규칙 변경 승인 |
-| 4T1 Goal continuation | S95 | 4 | 공식 기능과 한 요청 예시, 기존 4T2의 작성 역할 통합 |
-| 4R6 Evidence and transfer | S96–S97 | 13 | 첫 적용 범위·개인 성찰·질문·ACT5 전환 |
-| 합계 | S78–S97 | 85 | 강의34·사례37·성찰4·질의7·전환3 |
+| 4R1 Goal-loop entry | S78–S80 | 9 | 사람의 재지시와 검토 지적의 직접 인계 |
+| 4R2 One-goal walkthrough / GitLab workflow overview | S81–S84 | 19 | 두 진행 방식, 구성 역할, 여덟 단계와 GitLab 12단계의 대응 |
+| 4R3 Component selection | S85 | 5 | 단계별 도구 선택과 빈 칸의 의미 |
+| 4R4 Request and issue preparation | S86–S87 | 9 | 요청 분류·격리, 이슈 문서 작성·검증·등록 |
+| 4R5 Implementation, review and state | S88–S94 | 26 | 구현·검사·MR, 작성·검토 연구, 외부 상태와 무인 실행 범위 |
+| 4T1 Unattended stop conditions | S95 | 4 | 권한과 예산 경계에서 중단·인계 |
+| 4R6 Evidence and transfer | S96–S97 | 13 | 사람이 이해한 변경을 승인하고 업무별 판단 경계를 고른 뒤 ACT5로 전환 |
+| 합계 | S78–S97 | 85 | 강의 34 · 사례 37 · 성찰 4 · 질의 7 · 전환 3 |
 
+전체 113장·389분의 각 장 배분을 보존한다. S83의 일반 개발 8단계와 S84의 한 팀의 GitLab 12단계를 구분한다.
 
-[승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
-
-아래 DEC-0138은 이번 개편 전의 기준을 보존한다.
+[ACT4 장별 시간표와 PDF 쪽 대응](ACT4_LOOP_OPERATIONS_PROPOSAL.md) · [현행 Slide Map](SLIDE_MAP.md)
 
 ## 이전 제작 기준 — DEC-0138 (2026-11-03)
 

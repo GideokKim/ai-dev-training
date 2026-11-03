@@ -257,8 +257,8 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>['S69','S87'].includes(id)?i+1:0).filter(Boolean);
-  const tableOwners=deck.ids.map((id,i)=>['S54','S81'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>id==='S69'?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>['S54','S81','S85'].includes(id)?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,

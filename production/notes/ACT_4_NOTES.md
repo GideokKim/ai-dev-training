@@ -1,6 +1,6 @@
 # ACT 4 — Speaker Notes
 
-DEC-0149 · S78–S97 · 20장 · 85분. S77의 점심 뒤 질문에 답한 다음, 첫 검토 지적을 사람이 다시 지시하거나 다음 구현에 직접 연결하는 두 경로를 비교한다. 강사의 GitLab 운영 사례는 S88에서 연다. 연구 비교는 PairCoder 표 2의 초기 역할을 기준으로 읽는다.
+DEC-0156 · S78–S97 · 20장 · 85분. S77의 점심 뒤 질문과 첫 검토 지적을 출발점으로 삼는다. S83에서 한 작업의 8단계를 본 뒤 S84에서 강사의 GitLab 적용 예시로 들어간다. S91–S92는 자기선호와 오류 귀속을 다룬 두 연구를 원문 범위에서 비교한다. S97에서 자동화할 일과 사람의 판단을 골라 ACT5로 연결한다.
 
 <details>
 <summary>이전 판본 안내</summary>
@@ -487,7 +487,7 @@ N/A — 정적 워크플로우 그림. 5의 실행 결과와 6의 검토 의견�
 “테스트는 통과했지만 검토자가 빠진 요구사항을 찾았다면 어느 단계로 돌아가나요?”라고 묻고 7에서 4로 향하는 경로를 짚는다. 별도 실습은 없다.
 
 **Transition:**
-“밝기 통계의 첫 후보를 검토하다가 전체 픽셀을 복사하는 임시 목록을 발견했다고 해 봅시다. 이 지적을 7에서 4로 돌려보내면 구현은 어떻게 달라질까요?”
+“여기까지는 한 작업의 흐름을 여덟 단계로 보았습니다. 팀에서 이슈를 등록하고 병합 요청까지 맡기면 어떤 단계가 더 필요할까요? 다음 장에서 강사의 GitLab 적용 예시를 따라가 봅니다.”
 
 **Time Management:**
 Lecture 1분 + Case 4분 = 5분. 준비 단계 1분, 구현·실행 검증·독립 검토 1분 30초, 다음 행동 판단과 인계 1분 30초로 사례를 운영한다. 시간이 부족하면 준비 예시를 한 문장으로 줄여 보완 경로와 중단 인계를 남긴다.
@@ -498,16 +498,16 @@ LOCAL STATIC ARTIFACT — production/preview/full/S83.png 또는 production/ACT_
 **Validation Status:**
 CONTENT ALIGNED — DEC-0155. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/S83_EIGHT_STAGE_WORKFLOW.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
 
-## S84 — 그 지적을 받은 구현은 어디가 달라질까?
+## S84 — 8단계를 GitLab 작업 12단계로 옮기면
 
 **Slide ID:**
 S84
 
 **Working Title:**
-그 지적을 받은 구현은 어디가 달라질까?
+8단계를 GitLab 작업 12단계로 옮기면
 
 **ACT / Section:**
-ACT 4 / 4R2 One-goal walkthrough
+ACT 4 / 4R2 GitLab workflow overview
 
 **Allocated Time:**
 5 minutes
@@ -516,59 +516,58 @@ ACT 4 / 4R2 One-goal walkthrough
 Lecture 1분 + Case 4분
 
 **Primary Message:**
-검토에서 채택된 지적이 다음 구현으로 직접 넘어가면서 전체 픽셀을 복사하던 부분이 행별 집계로 바뀐다.
+강사의 GitLab 사례에서는 준비, 이슈 등록, 구현·테스트, 병합 요청의 네 구간으로 일감을 넘긴다. 구현과 테스트 사이에서 수정이 반복될 수 있다.
 
 **Opening Question:**
-“첫 후보가 전체 픽셀을 임시 목록에 복사한다는 지적을 받았습니다. 이 지적을 구현으로 돌리면 어디가 달라질까요?”
+“이슈를 등록하고 병합 요청까지 남겨야 한다면 여덟 단계 중 어느 일을 더 나눠야 할까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) 이 장에서 밝기 통계의 첫 후보를 예로 든다. 검토자가 찾은 전체 픽셀 복사를 추적하는 표식이 R1이다. S83의 7단계에서 ‘보완’을 골라 4단계로 돌아오는 지점을 짚는다. 검토 담당이 코드 위치와 보존할 조건을 구현 담당에게 넘긴다. 사람이 요청을 다시 입력하는 장면은 없다.
-2. (1:00–4:00 / Case) 두 후보의 계산 방법을 비교한다. 첫 후보는 전체 픽셀을 별도 목록에 모아 계산한다. 다음 후보는 행마다 최솟값과 최댓값을 갱신하고 합을 누적한다. 바뀐 것은 계산 경로이고, 지켜야 할 여섯 출력은 같다.
-3. (4:00–5:00 / Case) 코드에서 복사 제거를 확인한 뒤 출력값·할당 피크·실행시간을 다시 확인할 항목으로 남긴다. 아직 두 번째 후보의 결과를 판정하지 않는다.
+0–1분 강의. S83의 목표→실행→판단→인계를 회수한다. 사례에서는 이슈를 남기고 팀이 검토할 MR을 올리는 일까지 나눠 적었다.
+1–5분 사례. ① 1–3에서 선택한 요청과 작업 공간, ② 4–7에서 등록한 이슈, ③ 8–9에서 변경과 검사 결과, ④ 10–12에서 병합 요청을 차례로 가리킨다. 9에서 미흡한 점을 찾으면 8로 돌아가는 곳에서 멈춘다.
 
 **Evidence / Source:**
-CASE-LOOP-01 · DEC-0144, DEC-0150. TRIAL-008과 STATE-04-PERF는 밝기 통계 작업의 배경이다. 후보 v1·v2와 검토 지적 R1은 교육용으로 구성했다.
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 4쪽. 세부 단계와 도구 배치는 PDF에 제시된 적용 예시다.
 
 **Claim Boundary:**
-CONCEPTUAL. 후보의 코드와 검토 판단을 설명하는 교육용 회차다. 코드 위치로 전체 픽셀 목록의 존재를 확인할 수 있다. 할당량 감소·실행시간·출력 보존 여부에는 같은 후보의 검사 근거가 필요하며 이 장면에 실제 측정값은 없다.
+TEACHING_MODEL — 강사가 소개한 팀의 운영 설계다. 열두 단계 전체를 이 강의에서 재실행하거나 일반적인 GitLab 필수 절차로 검증한 기록은 없다.
 
 **Beginner Explanation:**
-검토자가 가리킨 목록을 따라가면 바뀐 코드가 보인다. 비교할 결과와 기준은 첫 후보와 같다.
+이슈는 무엇을 해야 하는지 적은 일감이고, 병합 요청(MR)은 바꾼 내용을 동료가 검토할 수 있게 올리는 문서다.
 
 **Advanced Insight:**
-전체 목록을 없앤 diff는 구현 변경의 근거다. 출력 보존과 메모리·시간 목표에 대한 근거는 해당 수정안의 검사 및 측정에서 얻는다.
+S83은 작업의 판단을 설명하는 일반 모형이다. 12단계에는 이 팀의 문서 커밋과 외부 등록 절차가 들어가므로 단계별 일대일 대응을 강요하지 않는다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+N/A — 이 장은 화면의 업무 상황에 집중한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 검토 지적에서 출발해 첫 후보의 전체 복사와 다음 후보의 행별 집계를 차례로 가리킨다.
+N/A — 정적 운영 설계 도식. 네 구간을 요청→이슈→검증한 변경→병합 요청으로 말한 뒤 8↔9를 손으로 짚는다.
 
 **Audience Interaction:**
-두 계산 방식에서 바뀐 부분과 그대로 보존해야 하는 출력을 구분하게 한다.
+변경에 부족한 점을 찾으면 어느 두 단계 사이를 다시 도나요?
 
 **Transition:**
-“전체 복사는 없앴습니다. 만약 이 수정안의 실행시간 기록이 아직 없다면, 무엇부터 할까요?”
+“이제 한 단계만 골라 봅시다. 이슈를 등록하는 순간에는 여섯 요소 중 무엇이 필요할까요?”
 
 **Time Management:**
-Lecture 1분 + Case 4분 = 5분. 방법 비교에 사례 3분을 쓰고, 마지막 1분에 완료 여부를 열어 둔다.
+Lecture 1분 + Case 4분. 1분에 네 구간 소개를 마치고 남은 4분을 사례에 쓴다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S84.png 또는 production/ACT_4.pptx의 S84. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S84.png 또는 production/ACT_4.pptx의 S84. 화면을 쓸 수 없으면 다음 단서로 진행한다. 네 구간을 요청→이슈→검증한 변경→병합 요청으로 말한 뒤 8↔9를 손으로 짚는다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0150. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/S83_S85_REVIEW_DECISIONS.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S85 — 고친 뒤, 끝낼까 다시 고칠까?
+## S85 — 어느 단계에 어떤 도구를 연결할까?
 
 **Slide ID:**
 S85
 
 **Working Title:**
-고친 뒤, 끝낼까 다시 고칠까?
+어느 단계에 어떤 도구를 연결할까?
 
 **ACT / Section:**
-ACT 4 / 4R3 Loop control
+ACT 4 / 4R3 Component selection
 
 **Allocated Time:**
 5 minutes
@@ -577,59 +576,58 @@ ACT 4 / 4R3 Loop control
 Lecture 3분 + Reflection 2분
 
 **Primary Message:**
-실행시간 근거가 비었다면 같은 수정안부터 측정한다. 확인한 기준과 남은 제약에 따라 완료 보고·재수정·미완료 인계 중 다음 행동을 고른다.
+단계에서 남겨야 할 결과를 정하면 필요한 도구를 고를 수 있다. 여섯 요소는 작업에 따라 조합한다.
 
 **Opening Question:**
-“수정안의 실행시간 기록만 아직 없다면 측정부터 할까요, 코드부터 또 바꿀까요?”
+“이슈를 올리는 일과 테스트 결과를 검토하는 일에 같은 도구가 필요할까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) 행별 집계 후보를 고정한다. 시간 기록을 얻을 수 있으면 기준판과 동일한 입력·환경·측정 방법으로 이 후보부터 잰다. 측정 전에 코드를 다시 바꾸면 어떤 후보의 결과인지 달라진다.
-2. (1:00–3:00 / Lecture) 같은 후보의 검사 기록을 모은 뒤 조건별로 읽는다. 여섯 출력 보존·할당 피크 감소·시간 조건을 모두 확인하면 후보와 근거를 제출한다. 시간 등 기준 위반이 확인되면 그 지적을 다음 수정으로 보내고 다시 검토한다. 측정이 막혔거나 정한 한도에 닿으면 후보, 미확인 항목, 중단 사유를 사람에게 넘긴다.
-3. (3:00–5:00 / Reflection) “시간 기록이 없음”과 “측정했더니 기준판보다 느림”을 비교하게 한다. 각 상황에서 첫 행동을 고르고, 확인할 권한도 없다면 무엇을 남겨야 하는지 생각하게 한다.
+0–3분 강의. 행에서 도구 하나를 골라 점이 찍힌 열을 따라간다. 커넥터는 이슈와 MR 등록(7·12), 워크트리는 공간 준비와 구현(3·8)에 연결된다. 작성과 검증을 나누는 서브에이전트도 한 곳에서만 쓰이지 않는다.
+3–5분 성찰. 한 단계를 스스로 고르고 “무슨 결과를 어디에 남겨야 해서 그 도구가 필요한가?”를 생각할 시간을 준다. 답 한 가지를 짚고 다음 장으로 간다.
 
 **Evidence / Source:**
-CASE-LOOP-01 · DEC-0144, DEC-0150. TRIAL-008과 STATE-04-PERF는 밝기 통계 작업의 배경이다. 후보 v1·v2와 검토 지적 R1은 교육용으로 구성했다.
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 5쪽. 세부 단계와 도구 배치는 PDF에 제시된 적용 예시다.
 
 **Claim Boundary:**
-CONCEPTUAL. 시간 기록이 없는 경우, 실제 기준 위반이 확인된 경우, 측정이 막힌 경우는 모두 교육용 가정이다. 이 수정안에 대한 실행·통과·실패 결과를 제시하지 않는다.
+TEACHING_MODEL — 단계·도구 배치 예시다. 전부 설치해야 한다거나 이 조합이 더 빠르고 안전하다는 측정 결과는 없다.
 
 **Beginner Explanation:**
-근거가 없으면 먼저 확인한다. 결과가 기준을 벗어나야 그 문제를 고칠 수 있고, 모든 기준을 만족해야 완료라고 보고할 수 있다.
+점 하나는 그 단계에서 해당 도구가 맡은 일이 있다는 뜻이다.
 
 **Advanced Insight:**
-완료 보고는 비교한 후보와 검사 근거를 사람 검토에 제출하는 결정이다. 미완료 인계에는 그 후보로 확인하지 못한 조건과 막힌 이유를 남긴다.
+원본의 연결은 한 사례의 선택이다. 빈칸은 다른 팀에서 쓸 수 없다는 표시가 아니다. 다음 단계가 받을 산출물을 먼저 확인한다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+N/A — 이 장은 화면의 업무 상황에 집중한다.
 
 **Demo Operation:**
-N/A — 정적 분기 도식. 기록 누락에서 같은 후보 측정으로 먼저 이동한 뒤 세 가지 조건부 경로를 짚는다.
+N/A — 정적 운영 설계 도식. 표 전체를 읽는 대신 7·12의 커넥터 한 행만 따라간다.
 
 **Audience Interaction:**
-개인 성찰 2분. 측정 가능·위반 확인·측정 불가 상황의 다음 행동을 스스로 고른다. 공개 답변이나 실습은 요구하지 않는다.
+7단계에서 외부 이슈 번호를 남겨야 한다면 어떤 연결이 필요할까요?
 
 **Transition:**
-“이제 무엇을 보고 끝낼지 정했습니다. 수정안을 만드는 역할과 그 근거를 검토하는 역할에는 어떤 모델을 맡길까요?”
+“첫 구간을 확대해 요청을 받았을 때 무엇부터 결정하는지 보겠습니다.”
 
 **Time Management:**
-Lecture 3분 + Reflection 2분 = 5분. 3분 시점에 성찰로 전환하고, 마지막 20초에 구현·검토 역할 질문을 건넨다.
+Lecture 3분 + Reflection 2분. 3분에 표 설명을 끝내고 2분의 성찰을 보장한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S85.png 또는 production/ACT_4.pptx의 S85. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S85.png 또는 production/ACT_4.pptx의 S85. 화면을 쓸 수 없으면 다음 단서로 진행한다. 표 전체를 읽는 대신 7·12의 커넥터 한 행만 따라간다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0150. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/S83_S85_REVIEW_DECISIONS.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S86 — 구현자와 검토자를 어떻게 고를까
+## S86 — 먼저 요청을 분류하고 작업 공간을 분리한다
 
 **Slide ID:**
 S86
 
 **Working Title:**
-구현자와 검토자를 어떻게 고를까
+먼저 요청을 분류하고 작업 공간을 분리한다
 
 **ACT / Section:**
-ACT 4 / 4R4 Review research
+ACT 4 / 4R4 Request and issue preparation
 
 **Allocated Time:**
 4 minutes
@@ -638,58 +636,58 @@ ACT 4 / 4R4 Review research
 Lecture 3분 + Case 1분
 
 **Primary Message:**
-구현·검토의 책임을 먼저 정하고, 각 역할을 맡길 모델은 해당 과제의 검토 능력으로 고른다.
+1–3단계에서 GitLab으로 추적할 일인지 정하고 관련 코드와 기준을 조사한 뒤, 기준 브랜치에서 해당 일감의 작업 공간을 준비한다.
 
 **Opening Question:**
-“같은 모델의 두 역할과 다른 모델의 두 역할을 어떻게 비교해야 할까?”
+“요청 한 줄이 들어왔습니다. 바로 어느 폴더에서 작업을 시작할까요?”
 
 **Speaker Flow:**
-1. (0:00–3:00 / Lecture) 구현 담당은 후보와 근거를 제출하고 검토 담당은 명세 위반과 증거를 확인한다. 같은 모델을 다른 지시로 배치하는 경우와 다른 모델을 배치하는 경우를 차례로 가리킨다.
-2. (3:00–4:00 / Case) CriticBench가 생성·비평·수정 능력을 따로 평가했다는 점을 연결한다. 팀에서는 놓친 회귀, 근거 없는 지적, 수정을 통해 해결된 항목을 대표 이슈에서 비교한다고 설명한다.
+0–3분 강의. 요청 분류, 사전 조사, 작업용 브랜치·워크트리 순으로 읽는다. 무엇을 바꿀지 모르는 상태에서 먼저 파일을 고치지 않도록 각 단계의 산출물을 짚는다.
+3–4분 사례. 한 사람이 다른 일감을 작업 중일 때 두 번째 변경을 별도 작업 폴더에서 시작하는 상황을 든다. 두 폴더가 같은 파일을 나중에 다르게 고치면 병합 조정은 여전히 필요하다.
 
 **Evidence / Source:**
-SRC-0238 · CLM-0044. Lin et al., CriticBench, Findings of ACL 2024, §4.2.5. https://aclanthology.org/2024.findings-acl.91/ 보조 근거. 기존 Self-Refine(SRC-0223)과 외부 근거 없는 자기 교정 연구(SRC-0239)는 참고 자료에서 각 과제 조건과 함께 읽는다.
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 6쪽. 세부 단계와 도구 배치는 PDF에 제시된 적용 예시다.
 
 **Claim Boundary:**
-연구에서 본 생성·검토·수정 능력은 모델·과제별로 다르다. 운영기가 보고한 maker/checker 역할 분리만으로 사용한 모델 조합을 특정할 수 없다.
+TEACHING_MODEL — 이 운영 사례에 기록된 분류·분리 방식이다. 충돌 예방 효과나 우리 팀 환경의 권한 분리를 측정하지 않았다.
 
 **Beginner Explanation:**
-같은 제품도 서로 다른 역할 지시를 받을 수 있다. 누가 어떤 책임을 맡는지 먼저 정한다.
+워크트리는 같은 프로젝트의 다른 변경을 별도 폴더에서 다루게 해 준다.
 
 **Advanced Insight:**
-검토자 정확도뿐 아니라 지적 수용 뒤 후보가 실제로 나아졌는지를 같은 기준으로 본다.
+기준 브랜치와 변경 범위가 식별되어야 뒤의 검토자가 비교 대상을 정할 수 있다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+검사 모듈의 작업 폴더 두 곳을 분리해도 병합 시에는 공통 헤더의 변경 충돌을 확인한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 구현·검토의 역할과 모델 배치 선택을 따로 읽는다.
+N/A — 정적 운영 설계 도식. 요청, 조사 자료, 분리된 폴더 세 개만 가리킨다.
 
 **Audience Interaction:**
-청중에게 개별 모델 이름을 고르도록 요구하지 않는다.
+나중에 어떤 버전과 비교할지 이 단계에서 무엇을 적어 두면 될까요?
 
 **Transition:**
-초기 구현 담당을 고정한 코드 생성 실험에서는 조합에 따라 어떤 차이가 보였을까?
+“작업 공간을 확보했으면, 그 안에서 해결할 일을 팀이 확인할 수 있는 이슈로 정리합니다.”
 
 **Time Management:**
-Lecture 3분 + Case 1분 = 4분. 역할 설명을 3분에 닫고 대표 이슈 평가 관점에 1분을 쓴다.
+Lecture 3분 + Case 1분. 마지막 1분에 별도 작업 공간을 짚는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S86.png 또는 production/ACT_4.pptx의 S86. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S86.png 또는 production/ACT_4.pptx의 S86. 화면을 쓸 수 없으면 다음 단서로 진행한다. 요청, 조사 자료, 분리된 폴더 세 개만 가리킨다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S87 — 코드 생성 실험에서 검토 모델을 바꾸면
+## S87 — 이슈 문서는 작성과 검증을 나눠 등록한다
 
 **Slide ID:**
 S87
 
 **Working Title:**
-코드 생성 실험에서 검토 모델을 바꾸면
+이슈 문서는 작성과 검증을 나눠 등록한다
 
 **ACT / Section:**
-ACT 4 / 4R4 Review research
+ACT 4 / 4R4 Request and issue preparation
 
 **Allocated Time:**
 5 minutes
@@ -698,58 +696,58 @@ ACT 4 / 4R4 Review research
 Lecture 3분 + Case 2분
 
 **Primary Message:**
-같은 초기 구현 모델에서도 초기 검토 모델 조합에 따라 HumanEval의 pass@1이 달라졌다.
+4–7단계에서 이슈 초안을 쓰고 정해둔 문서 규칙을 검사한 뒤, 문서만 따로 커밋하고 GitLab에 등록한다.
 
 **Opening Question:**
-“다른 모델을 검토자로 넣으면 어느 조합에서 결과가 좋아졌을까?”
+“초안을 만든 순간과 팀에 정식 이슈로 올리는 순간 사이에 무엇을 확인할까요?”
 
 **Speaker Flow:**
-1. (0:00–3:00 / Lecture) HumanEval은 코드 생성 과제이고 pass@1은 첫 후보 하나가 테스트를 통과하는 성능 지표다. 표 2에서 초기 Driver를 GPT-3.5-turbo로 고정한 행을 읽는다. 단독 69.51%, 같은 GPT-3.5-turbo 초기 Navigator 81.16%, GPT-4 90.01%, minimax-abab-chat 48.19%다.
-2. (3:00–5:00 / Case) 높아진 조합과 낮아진 조합을 함께 비교한다. 반복 오류 시 역할을 교대할 수 있어 모델명을 초기 역할 기준으로 읽는다. 팀의 대표 이슈에 적용할 땐 정답성·회귀·비용을 따로 기록하자고 제안한다.
+0–3분 강의. 4의 작성자가 템플릿에 초안을 채우고 5의 검토자가 규칙을 확인하는 지점을 짚는다. 이 사례는 PowerShell로 문서 규칙도 검사한다.
+3–5분 사례. 필수 항목이 빠진 초안이라면 5에서 무엇을 채울지 되돌린다. 확인한 버전을 6에서 문서 단독 커밋하고 7의 등록 연결로 보낸다.
 
 **Evidence / Source:**
-SRC-0245 · CLM-0049. Chen et al., PairCoder, Findings of ACL 2026, §4.6 및 표 2, p.3049. https://aclanthology.org/2026.findings-acl.149.pdf#page=7 참고 연구 ReConcile(SRC-0237)는 StrategyQA 토론·합의, 표 7의 79.0±1.6 대 72.2±2.1 비교다. https://aclanthology.org/2024.acl-long.381/
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 7쪽. 세부 단계와 도구 배치는 PDF에 제시된 적용 예시다.
 
 **Claim Boundary:**
-RESEARCH. 표 2의 과제·평가지표·초기 역할을 함께 인용한다. 우리 팀의 MR 품질·병합 여부, 현재 모델의 일반 순위, 모델 다양성만의 효과는 이 비교의 측정 범위 밖이다.
+TEACHING_MODEL — PowerShell 검사와 등록 도구는 강사 사례의 선택이다. 실제 등록 성공 화면이나 이번 세션의 검사 결과를 보여주는 장이 아니다.
 
 **Beginner Explanation:**
-같은 구현자에 누구를 짝지었는지에 따라 성공률이 달라진 한 실험으로 읽는다.
+문서 파일을 저장한 것과 GitLab에 이슈가 생긴 것은 다른 단계다.
 
 **Advanced Insight:**
-단독 추론과 역할 협업, 같은 모델 쌍과 다른 모델 쌍은 서로 다른 비교다. 81.16%와 90.01%의 차이는 8.85%포인트다.
+문서 단독 커밋은 발생한 변경이 요구사항인지 코드인지 나중에 구분하는 데 쓰인다. 규칙 검사만으로 요구사항의 타당성이 입증되지는 않는다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+N/A — 이 장은 화면의 업무 상황에 집중한다.
 
 **Demo Operation:**
-N/A — 정적 자료. HumanEval 그래프 네 값과 초기 역할을 왼쪽부터 대조한다.
+N/A — 정적 운영 설계 도식. 초안→검사→문서 커밋→이슈 번호의 네 결과를 순서대로 짚는다.
 
 **Audience Interaction:**
-네 조건에서 가장 낮은 값의 조합까지 함께 읽도록 안내한다.
+검토를 끝낸 로컬 문서를 팀이 보는 이슈로 바꾸는 단계는 어디인가요?
 
 **Transition:**
-논문의 모델 비교를 마친다. 이제 한 팀이 구현 담당과 검토 담당을 실제 GitLab 이슈 한 건에 어떻게 연결했는지 보자.
+“등록된 이슈 안에서 실제 코드를 바꾸면, 무엇이 다음 수정의 입력이 될까요?”
 
 **Time Management:**
-Lecture 3분 + Case 2분 = 5분. 3분에 그래프 읽기를 닫고 마지막 2분은 적용 범위에 쓴다.
+Lecture 3분 + Case 2분. 3분부터 확인을 마친 문서가 이슈가 되는 경로를 따라간다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S87.png 또는 production/ACT_4.pptx의 S87. 그래프를 표시하기 어렵다면 표 2의 같은 초기 Driver 행에서 단독·동종·이종 두 조합의 값을 읽는다.
+LOCAL STATIC ARTIFACT — production/preview/full/S87.png 또는 production/ACT_4.pptx의 S87. 화면을 쓸 수 없으면 다음 단서로 진행한다. 초안→검사→문서 커밋→이슈 번호의 네 결과를 순서대로 짚는다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S88 — 구현·검토 루프를 팀 이슈에 어떻게 연결했을까?
+## S88 — 작은 변경마다 구현과 테스트를 반복한다
 
 **Slide ID:**
 S88
 
 **Working Title:**
-구현·검토 루프를 팀 이슈에 어떻게 연결했을까?
+작은 변경마다 구현과 테스트를 반복한다
 
 **ACT / Section:**
-ACT 4 / 4R5 Team operations and state
+ACT 4 / 4R5 Implementation, review and state
 
 **Allocated Time:**
 5 minutes
@@ -758,58 +756,58 @@ ACT 4 / 4R5 Team operations and state
 Lecture 2분 + Case 3분
 
 **Primary Message:**
-운영기 속 한 건의 목표가 GitLab 이슈가 된다. 별도 작업 공간에서 구현과 검토를 거쳐 팀이 읽을 변경과 근거를 병합 요청에 모은다.
+8의 작은 변경을 9에서 요구사항과 테스트로 확인한다. 빠진 조건이나 실패한 입력을 구체적으로 되돌려 같은 목표의 다음 수정을 시작한다.
 
 **Opening Question:**
-“작업 한 건의 목표와 검토 근거를 팀원에게 어디서 함께 보여줄 수 있을까요?”
+“테스트에서 빠진 조건을 찾았다면 다음 구현자는 무엇을 받아야 할까요?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 강사가 작성한 GitLab 운영 사례로 전환한다. 이슈에는 할 일을, 분리된 작업 공간에는 해당 변경을, 병합 요청(MR)에는 팀원이 읽을 변경과 검토 근거를 둔다.
-2. (2:00–5:00 / Case) 이슈 한 건 → 작업 공간 → 구현·검토 → 팀원의 MR 검토를 한 번 따라간다. 시스템이 한 목표를 처리하는 과정과 팀원이 실제 병합을 결정하는 지점을 따로 짚는다.
+0–2분 강의. 구현자에게는 변경 범위, 검증자에게는 확인할 조건을 준다. 화면의 돌아오는 화살표는 새 일감이 아니라 같은 변경을 보완하는 경로다.
+2–5분 사례. 경계 입력 하나가 테스트에서 빠졌다고 가정한다. 입력과 기대 결과를 전달하고 테스트를 추가한 뒤 수정된 변경을 다시 확인한다. 통과 기록을 가정하지 않고 이견과 미확인 사항을 남기는 출구도 짚는다.
 
 **Evidence / Source:**
-SRC-0244 · CLM-0048 · DEC-0145 · BEAT-087/088. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §2–3.
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 8쪽. 세부 단계와 도구 배치는 PDF에 제시된 적용 예시다.
 
 **Claim Boundary:**
-작성자가 공개한 운영 사례다. 역할별 모델 조합이나 사내 성능 개선의 근거로 PairCoder 연구 결과를 대입하지 않는다.
+TEACHING_MODEL — PDF의 구현·테스트 운영 도식이며 경계 입력은 교육용 가정이다. 새 테스트를 돌린 기록이나 자동 완료·속도 개선 측정값은 없다.
 
 **Beginner Explanation:**
-이슈에 적힌 일 하나를 따라가면, 팀원이 마지막에 어떤 변경과 근거를 검토할지 알 수 있다.
+“다시 고쳐” 대신 어떤 입력에서 무엇을 기대했고 어떤 결과였는지를 전달한다.
 
 **Advanced Insight:**
-발표자 참고. 작성자는 팀원의 리뷰 부담을 줄이려고 이전 MR이 미병합이면 새 이슈 착수를 보류했다. 당시 팀에서 선택한 운영 정책이며 루프의 성립 조건은 아니다.
+구현과 테스트가 오갈 때에는 같은 요구사항과 비교 조건을 유지한다. 끝내지 못하면 이후의 중단·인계 기준을 따른다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+검사 알고리즘이면 밝기 경계값과 기대 출력을 짝으로 넘겨 같은 입력으로 재검사한다. 교육용 유추다.
 
 **Demo Operation:**
-N/A — 운영기를 바탕으로 그린 정적 사례. 이슈에서 작업 공간을 거쳐 팀원의 MR로 가는 한 건의 경로를 읽는다.
+N/A — 정적 운영 설계 도식. 8과 9 두 칸만 남겨 입력 하나와 지적 한 가지가 오가는 과정을 설명한다.
 
 **Audience Interaction:**
-이슈의 목표를 구현·검토하는 구간과 사람이 승인하는 지점을 화면에서 찾아보게 한다.
+“테스트 부족”이라는 말에 무엇을 더해야 바로 다음 수정에 쓸 수 있을까요?
 
 **Transition:**
-이슈를 정했다. 여러 변경이 섞이지 않게 이 한 건을 어디에서 시작할까?
+“확인한 변경과 남은 문제를 이제 팀의 병합 요청으로 넘깁니다.”
 
 **Time Management:**
-Lecture 2분 + Case 3분 = 5분. 팀의 전체 경로만 짚고 worktree·API의 세부 동작은 S89–S90에서 다룬다.
+Lecture 2분 + Case 3분. 2분부터 실패 입력을 다음 구현에 되돌리는 사례를 다룬다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S88.png 또는 production/ACT_4.pptx의 S88. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
+LOCAL STATIC ARTIFACT — production/preview/full/S88.png 또는 production/ACT_4.pptx의 S88. 화면을 쓸 수 없으면 다음 단서로 진행한다. 8과 9 두 칸만 남겨 입력 하나와 지적 한 가지가 오가는 과정을 설명한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S89 — 새 이슈에는 별도 작업 공간이 생긴다
+## S89 — 변경과 근거를 묶어 병합 요청을 올린다
 
 **Slide ID:**
 S89
 
 **Working Title:**
-새 이슈에는 별도 작업 공간이 생긴다
+변경과 근거를 묶어 병합 요청을 올린다
 
 **ACT / Section:**
-ACT 4 / 4R5 Team operations and state
+ACT 4 / 4R5 Implementation, review and state
 
 **Allocated Time:**
 4 minutes
@@ -818,58 +816,58 @@ ACT 4 / 4R5 Team operations and state
 Lecture 1분 + Case 3분
 
 **Primary Message:**
-선택한 목표를 이슈에 기록하고 별도 worktree에서 해당 이슈의 변경을 다룬다.
+10–12단계에서는 상태 기록을 읽어 MR 문서를 갱신하고, 그 문서만 커밋한 뒤 병합 요청으로 등록한다. 승인 판단은 그 다음에 남는다.
 
 **Opening Question:**
-“두 작업이 같은 파일을 건드린다면 어떻게 각 이슈의 변경을 따라갈까?”
+“코드는 준비됐습니다. 승인하는 사람이 어떤 근거를 함께 읽을 수 있어야 할까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) worktree는 같은 저장소의 다른 작업 디렉터리로 소개한다. 이슈 한 건과 작업 공간 한 곳을 연결한다.
-2. (1:00–4:00 / Case) 운영기의 선택된 이슈에서 작업 공간, 재사용 수행 방법, 구현 담당과 검토 담당을 차례로 가리킨다. 이슈 식별자가 diff와 검토 근거를 다시 찾을 기준이 된다.
+0–1분 강의. MR mirror는 병합 요청에 넣을 설명을 작업 공간의 파일로 관리하는 이 사례의 이름이다.
+1–4분 사례. 변경 이유와 실행한 검사, 아직 확인하지 못한 항목을 10의 문서에 넣는다. 11에서 문서 변경을 따로 남기고 12에서 등록한다. 등록된 MR 앞에서 멈춰 사람이 무엇을 읽을지 묻는다.
 
 **Evidence / Source:**
-SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §2–3.
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 9쪽. 세부 단계와 도구 배치는 PDF에 제시된 적용 예시다.
 
 **Claim Boundary:**
-운영기 작성자가 게시 시점에 설명한 사내 테스트 운영 범위다. 검토 모델명, 비교 효과, 실제 계정의 현재 상태는 이 자료로 확인할 수 없다. 작업 공간 격리의 설명 도식으로 이해한다.
+TEACHING_MODEL — 강사 자료의 MR 등록 설계다. 특정 MR이 실제로 승인·배포된 증거나 모든 팀의 병합 정책을 제시하지 않는다.
 
 **Beginner Explanation:**
-작업마다 작업대를 구분하면 어느 이슈의 변경을 보고 있는지 분명해진다.
+병합 요청을 올려야 동료가 근거를 읽고 받아들일지 판단할 수 있다.
 
 **Advanced Insight:**
-worktree가 분리하는 것은 checkout의 작업 파일이다. 권한 경계와 검토·병합 정책은 따로 정한다.
+로컬 문서·등록한 MR과 실제 병합 상태를 구분한다. 재개할 때에도 이미 일어난 외부 동작은 다시 확인한다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+N/A — 이 장은 화면의 업무 상황에 집중한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 이슈 식별자부터 worktree와 역할 분담까지 연결한다.
+N/A — 정적 운영 설계 도식. 로컬 MR 설명→문서 커밋→등록된 요청을 읽고 승인 판단을 가리킨다.
 
 **Audience Interaction:**
-작업 공간과 이슈를 연결하는 표시만 따라 보게 한다.
+“MR 등록”만 적힌 기록으로 코드가 병합됐다고 말할 수 있을까요?
 
 **Transition:**
-그 공간에서 만든 후보를 팀원이 읽을 수 있는 MR로 어떻게 전달할까?
+“그 근거를 만든 작성자와 검토자 사이에는 무엇이 오갔을까요?”
 
 **Time Management:**
-Lecture 1분 + Case 3분 = 4분. 도구 설치 절차를 열지 않고 이슈와 worktree 연결에 집중한다.
+Lecture 1분 + Case 3분. 1분부터 MR 등록과 실제 병합 시점을 구분해 읽는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S89.png 또는 production/ACT_4.pptx의 S89. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
+LOCAL STATIC ARTIFACT — production/preview/full/S89.png 또는 production/ACT_4.pptx의 S89. 화면을 쓸 수 없으면 다음 단서로 진행한다. 로컬 MR 설명→문서 커밋→등록된 요청을 읽고 승인 판단을 가리킨다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S90 — 변경 후보가 팀의 MR이 되기까지
+## S90 — 작성자와 검토자는 무엇을 주고받을까?
 
 **Slide ID:**
 S90
 
 **Working Title:**
-변경 후보가 팀의 MR이 되기까지
+작성자와 검토자는 무엇을 주고받을까?
 
 **ACT / Section:**
-ACT 4 / 4R5 Team operations and state
+ACT 4 / 4R5 Implementation, review and state
 
 **Allocated Time:**
 4 minutes
@@ -878,58 +876,58 @@ ACT 4 / 4R5 Team operations and state
 Lecture 1분 + Case 3분
 
 **Primary Message:**
-사내 API가 이슈와 MR을 등록해 코드 후보를 팀의 검토 흐름에 연결한다.
+작성자는 변경 후보와 실행 근거를 넘긴다. 검토자는 기준과 대조해 지적과 재현 단서를 돌려주고, 구현자는 그 내용을 다음 수정에 사용한다.
 
 **Opening Question:**
-“모델이 검토 의견을 냈을 때 누가 GitLab에 MR을 만들고 누가 읽을까?”
+“작성자가 “완료했습니다”라고 하면 검토자는 무엇부터 확인해야 할까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) maker가 변경을 만들고 checker가 검사 기준으로 살핀 지점과, API가 GitLab에 이슈·MR을 등록하는 지점을 각각 짚는다.
-2. (1:00–4:00 / Case) 팀원이 MR에서 볼 수 있어야 할 자료를 변경 이유·diff·검사 근거로 읽는다. MR 생성은 팀 리뷰의 시작이다. 병합 결정은 사람에게 남아 있다.
+0–1분 강의. 서로 다른 두 역할이 주고받는 산출물부터 읽는다. 작성과 검토에 서로 다른 모델을 배정할 수 있고, 완료는 테스트 근거로 판단한다. 역할을 나누는 선택과 서로 다른 모델을 배정하는 선택을 구분한다.
+1–4분 사례. 요구사항 하나가 빠진 후보를 예로 든다. 작성자의 후보→검토자의 지적·근거→같은 목표의 수정 순으로 따라간다. 자기평가가 높아도 어떤 정보를 더 확인할지 묻는다.
 
 **Evidence / Source:**
-SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §2–4.
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 10쪽의 설계 또는 토의 주제를 강의 맥락에 맞게 재구성했다. 보조 자료로 다른 모델의 역할 배분을 묻는 경우에만 PairCoder의 HumanEval 표 2를 참조한다(SRC-0245, CLM-0049). 초기 구현 모델이 같아도 초기 검토 모델 조합에 따라 결과가 달랐다. 이 증거는 아래 두 연구와 구분한다.
 
 **Claim Boundary:**
-운영기 작성자가 게시 시점에 설명한 사내 테스트 운영 범위다. 검토 모델명, 비교 효과, 실제 계정의 현재 상태는 이 자료로 확인할 수 없다. 검토 자료 항목은 발표용으로 정리한 예다.
+TEACHING_MODEL — 역할 분리는 운영 설계다. 검토자가 독립적이라는 이름만으로 판정의 정확성 또는 이종 모델의 우월성이 보장되지 않는다.
 
 **Beginner Explanation:**
-초안과 검토된 변경을 동료에게 넘길 통로가 MR이다.
+두 번째 읽는 사람에게 “잘했나?” 대신 “이 조건을 어디에서 확인할 수 있나?”를 맡긴다.
 
 **Advanced Insight:**
-이슈 등록이나 MR 작성처럼 외부에 남는 행동은 역할 지시와 별도로 대상·권한·기존 결과를 확인해야 한다.
+검토용 입력에는 목표·판정 기준과 확인할 후보를 남긴다. 다른 모델을 쓰더라도 같은 검증 누락을 공유할 수 있다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+N/A — 이 장은 화면의 업무 상황에 집중한다.
 
 **Demo Operation:**
-N/A — 정적 자료. API의 MR 작성과 팀원의 병합 결정을 구분한다.
+N/A — 정적 운영 설계 도식. 변경·검사 결과와 지적·근거가 오가는 두 방향만 설명한다.
 
 **Audience Interaction:**
-담당자를 세 곳에서 구분한다. 구현, 도구 연결, 병합 결정이다.
+검토자가 “이 부분이 틀릴 수 있다”는 말만 돌려주면 무엇을 더 요청할까요?
 
 **Transition:**
-오늘의 MR 식별자를 다음 실행이 어디서 되찾을까?
+“그렇다면 작성 모델이 자기 답에 매긴 점수는 완료의 근거로 얼마나 믿을 수 있을까요?”
 
 **Time Management:**
-Lecture 1분 + Case 3분 = 4분. API 세부 문법 대신 누가 무엇을 남기는지만 짚는다.
+Lecture 1분 + Case 3분. 1분부터 검토 의견 한 건이 다음 수정에 쓰일 때까지 따라간다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S90.png 또는 production/ACT_4.pptx의 S90. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
+LOCAL STATIC ARTIFACT — production/preview/full/S90.png 또는 production/ACT_4.pptx의 S90. 화면을 쓸 수 없으면 다음 단서로 진행한다. 변경·검사 결과와 지적·근거가 오가는 두 방향만 설명한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S91 — 내일 다시 읽을 상태는 무엇인가
+## S91 — 자기평가 점수만으로 완료를 정할 수 있을까?
 
 **Slide ID:**
 S91
 
 **Working Title:**
-내일 다시 읽을 상태는 무엇인가
+자기평가 점수만으로 완료를 정할 수 있을까?
 
 **ACT / Section:**
-ACT 4 / 4R5 Team operations and state
+ACT 4 / 4R5 Implementation, review and state
 
 **Allocated Time:**
 4 minutes
@@ -938,58 +936,58 @@ ACT 4 / 4R5 Team operations and state
 Lecture 1분 + Case 3분
 
 **Primary Message:**
-다음 실행이 이어받을 최소 정보는 대화 밖에 남긴다.
+20개 모델을 평가한 연구에서, 응답 품질을 맞춘 비교에서도 일부 심사 모델이 자기 답을 선호했다. 작업 완료는 점수뿐 아니라 요구사항과 확인 가능한 근거로 판단한다.
 
 **Opening Question:**
-“내일 새로운 세션을 열면 무엇부터 읽어야 할까?”
+“품질을 비슷하게 맞춘 두 답 가운데 심사 모델이 자기 답을 더 고를 수 있을까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) 운영기가 Markdown에 상태를 저장한 사실을 짚는다. 화면의 인계 카드는 발표를 위해 구성한 예시다.
-2. (1:00–4:00 / Case) 교육용 ISSUE-A의 후보 v2에서 검토할 MR-A와 남은 일인 변경 이유·검사 근거 확인을 읽는다. 새 세션이 MR-A를 다시 열고 같은 변경과 근거를 찾는 장면을 가리킨다.
+0–1분 강의. 누가 답을 썼는지와 누가 답을 평가하는지를 분리해 읽는다.
+1–4분 사례. 비슷한 품질의 두 후보 중 하나는 심사자 자신이, 하나는 다른 모델이 썼다고 설명한다. 일부 모델에서 관찰된 선호가 무엇을 뜻하는지 묻는다. 테스트·원자료와 평가 기준을 함께 제시하는 것으로 팀 설계에 연결한다.
 
 **Evidence / Source:**
-SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §2–3. 카드 필드는 DEC-0144의 교육용 인계 설계다.
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 10쪽에서 소개한 원 연구를 확인했다. SRC-0247 · CLM-0051. Yang et al., Quantifying and Mitigating Self-Preference Bias of LLM Judges, https://arxiv.org/abs/2604.22891v4.
 
 **Claim Boundary:**
-작성자가 보고한 것은 외부 상태 기록이다. 카드의 필드명·예시 값은 실제 사내 파일의 인용이나 캡처가 아니다.
+RESEARCH — 연구에서 조사한 평가 조건에 한정한다. 대표값의 근거를 확인할 수 없는 PDF 도표의 숫자를 재현하거나 사내 작업 효과로 환산하지 않는다.
 
 **Beginner Explanation:**
-다음 담당자가 같은 대화를 다시 읽지 않아도 시작할 단서를 남긴다.
+내가 만든 답에 점수를 매기면 좋은 점수가 곧 정답이라는 보장은 없다.
 
 **Advanced Insight:**
-이슈·후보·MR을 함께 식별해야 이전 후보의 검토가 새 변경에 잘못 붙는 일을 줄일 수 있다.
+선호나 점수가 정답성과 같은 척도인지 먼저 본다. 연구 범위를 넘어 실제 작업의 성공률이나 모델 조합에 관한 숫자를 붙이지 않는다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+N/A — 이 장은 화면의 업무 상황에 집중한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 카드에 적은 MR-A와 다음 실행에서 다시 열 변경·검사 근거를 연결한다.
+N/A — 정적 연구 비교 그림. 평가 주체·평가 대상·독립 근거를 구두로 구분하고 수치 비교는 하지 않는다.
 
 **Audience Interaction:**
-이 카드를 받은 다음 담당자가 어떤 MR에서 무엇을 확인할지 한 문장으로 떠올려 보게 한다.
+“점수가 높다”는 보고를 받으면 완료 판단에 쓸 근거 한 가지를 더 요청해 보세요.
 
 **Transition:**
-그 기록을 받은 사람은 병합 전에 무엇을 직접 이해해야 할까?
+“점수 말고 실제 오류를 고치게 하면, 같은 오류도 누구의 답이라고 제시했는지에 영향을 받을까요?”
 
 **Time Management:**
-Lecture 1분 + Case 3분 = 4분. 카드 필드 이름보다 남은 일을 어느 MR에서 이어갈지 정하는 데 시간을 쓴다.
+Lecture 1분 + Case 3분. 실험 설계 소개는 1분에 마치고 남은 시간에 판단 근거의 한계를 대조한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S91.png 또는 production/ACT_4.pptx의 S91. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
+LOCAL STATIC ARTIFACT — production/preview/full/S91.png 또는 production/ACT_4.pptx의 S91. 화면을 쓸 수 없으면 다음 단서로 진행한다. 평가 주체·평가 대상·독립 근거를 구두로 구분하고 수치 비교는 하지 않는다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S92 — 사람이 병합 전에 읽을 것
+## S92 — 같은 오류도 남의 답에서 더 잘 찾을까?
 
 **Slide ID:**
 S92
 
 **Working Title:**
-사람이 병합 전에 읽을 것
+같은 오류도 남의 답에서 더 잘 찾을까?
 
 **ACT / Section:**
-ACT 4 / 4R5 Team operations and state
+ACT 4 / 4R5 Implementation, review and state
 
 **Allocated Time:**
 3 minutes
@@ -998,58 +996,58 @@ ACT 4 / 4R5 Team operations and state
 Lecture 1분 + Case 2분
 
 **Primary Message:**
-병합 권한을 가진 팀원은 변경 이유·검사 근거·남은 위험을 이해하고 승인 여부를 결정한다.
+연구진은 동일한 오류를 자기 답 또는 외부 답에 귀속시켜 오류를 명시적으로 지적·정정하는 행동을 비교했다. 검토 맥락이 오류 수정에 영향을 줄 수 있다는 근거다.
 
 **Opening Question:**
-“검사가 끝난 MR에서 설명할 수 없는 변경 한 줄을 발견했다면?”
+“오류 문장은 그대로 두고 “내 답”과 “외부 답”으로 제시하는 조건만 달라지면 어떻게 될까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) 운영기에서 최종 병합 결정은 팀원이 맡았다고 설명한다. 자동화가 만든 후보를 읽지 않은 채 누적하면 시스템을 이해할 사람이 줄어드는 문제를 이해 부채라 부른다.
-2. (1:00–3:00 / Case) 기존 테스트의 assert를 삭제한 가상 diff 한 줄을 가리킨다. 삭제 이유와 보존할 동작을 확인하는 근거가 있어야 한다. 이어 어떤 조건 때문에 바뀌었고 어느 검사로 확인했는지 묻는다. 근거가 없으면 보류하고 확인을 요청하는 장면으로 닫는다.
+0–1분 강의. 두 입력에서 같은 오류 문장을 짚고 달라지는 귀속 조건을 읽는다.
+1–3분 사례. 외부 답으로 제시했을 때 오류를 명시적으로 지적하는 반응이 증가했고, 12개 모델·도메인 조합 중 10개에서 유의한 차이가 나왔음을 짚는다. 오류를 알아서 모두 고쳤다는 의미로 읽지 않는다. 팀에 적용할 때에는 역할과 기준을 따로 주고 대표 과제에서 재검증한다.
 
 **Evidence / Source:**
-SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §3–4. 설명이 어려운 diff는 강의용 질문이다.
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 10쪽에서 소개한 원 연구의 최신 제목과 범위를 따른다. SRC-0248 · CLM-0052. Chen et al., The Self-Correction Illusion: Role Relabeling Gates Explicit Error Flagging in Large Language Models, https://arxiv.org/abs/2606.05976v2.
 
 **Claim Boundary:**
-운영기 작성자가 게시 시점에 설명한 사내 테스트 운영 범위다. 검토 모델명, 비교 효과, 실제 계정의 현재 상태는 이 자료로 확인할 수 없다. 화면의 코드 리뷰 장면은 교육용 각색이다.
+RESEARCH — 2026년 프리프린트의 명시적 오류 수정 조건으로 한정한다. 사내 프로젝트 재현, 특정 제품 내부 구조 또는 이종 모델 조합의 우월성을 검증하지 않았다.
 
 **Beginner Explanation:**
-병합 버튼을 누르는 사람은 왜 바뀌었고 무엇을 확인했는지 설명할 수 있어야 한다.
+여기서 달라지는 것은 같은 오류가 누구의 답으로 제시됐는지다.
 
 **Advanced Insight:**
-checker의 의견과 도구 증거, 팀의 제품 수용 책임을 서로 구분해 기록한다.
+이 실험이 검증한 것은 답의 귀속과 수정 행동이다. 구현 모델과 검토 모델을 다르게 조합한 코딩 실험은 별도의 질문이다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+N/A — 이 장은 화면의 업무 상황에 집중한다.
 
 **Demo Operation:**
-N/A — 정적 자료. assert 삭제 한 줄의 근거가 확인될 때까지 병합을 보류하는 장면을 짚는다.
+N/A — 정적 연구 비교 그림. 같은 오류·다른 귀속·수정 행동의 세 요소만 짚고 팀의 보편적 결과로 옮기지 않는다.
 
 **Audience Interaction:**
-승인 전 마지막으로 어떤 근거를 읽을지 짧게 생각하게 한다.
+이 연구 하나로 “다른 회사 모델을 붙이면 코드 품질이 오른다”고 말할 수 있을까요?
 
 **Transition:**
-같은 MR의 검토를 이어가려는데 상태 조회가 실패한다면 무엇을 기록해야 할까?
+“검토 과정에서 얻은 지적은 다음 실행이 어디에서 찾아 읽을까요?”
 
 **Time Management:**
-Lecture 1분 + Case 2분 = 3분. 이해 부채 설명 뒤 한 가지 확인 질문으로 3분에 닫는다.
+Lecture 1분 + Case 2분. 1분부터 자기 답과 외부 답이라는 두 조건만 비교한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S92.png 또는 production/ACT_4.pptx의 S92. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
+LOCAL STATIC ARTIFACT — production/preview/full/S92.png 또는 production/ACT_4.pptx의 S92. 화면을 쓸 수 없으면 다음 단서로 진행한다. 같은 오류·다른 귀속·수정 행동의 세 요소만 짚고 팀의 보편적 결과로 옮기지 않는다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S93 — MR 상태를 조회할 수 없다면
+## S93 — 다음 실행이 이어받을 상태를 파일에 남긴다
 
 **Slide ID:**
 S93
 
 **Working Title:**
-MR 상태를 조회할 수 없다면
+다음 실행이 이어받을 상태를 파일에 남긴다
 
 **ACT / Section:**
-ACT 4 / 4R5 Team operations and state
+ACT 4 / 4R5 Implementation, review and state
 
 **Allocated Time:**
 3 minutes
@@ -1058,58 +1056,58 @@ ACT 4 / 4R5 Team operations and state
 Lecture 1분 + Case 2분
 
 **Primary Message:**
-조회할 수 없는 상태는 미확인으로 보존하고, 정한 한도에 따라 재조회하거나 사람에게 넘긴다.
+다음 실행에 필요한 목표·시도·검사 결과·미해결 항목을 대화 밖의 작업 파일에 기록하고 마지막 확인 지점에서 재개한다.
 
 **Opening Question:**
-“MR 조회가 실패했을 때 같은 이슈에 새 MR을 다시 만들면 어떤 문제가 생길까요?”
+“내일 다른 세션이 이 작업을 이어받는다면 무엇을 읽어야 같은 검사를 반복하지 않을까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) 교육용 장애 표시를 짚는다. 마지막으로 확인한 MR 식별자, 마지막 확인 시각, 이번 조회 실패를 구분한다.
-2. (1:00–3:00 / Case) 같은 MR 읽기는 정한 한도 내에서 재시도한다. 한도에 닿으면 미확인 상태와 식별자를 남겨 확인을 요청한다. 기존 상태를 모르는 동안 같은 이슈의 쓰기를 다시 실행해 중복 MR을 만들지 않도록 한다.
+0–1분 강의. 오래 쓰는 프로젝트 지침과 작업마다 바뀌는 진행 상태를 구분한다. 원자료는 디스크의 AGENTS.md를 예로 든다. 이 교육에서는 작업별 기록 위치와 수명을 분리한다.
+1–3분 사례. 검토에서 경계 입력을 요청한 상태라면 이미 실행한 검사와 남은 입력, 다음 행동을 한 묶음으로 읽는다. 다음 담당자는 그 기록을 현재 변경과 대조한다.
 
 **Evidence / Source:**
-DEC-0144/0145 · SRC-0244 · CLM-0048. GitLab 운영기의 MR 연결을 바탕으로 구성한 교육용 조회 실패다. https://gideokkim.github.io/codex/loop-engineering/
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 11쪽의 설계 또는 토의 주제를 강의 맥락에 맞게 재구성했다.
 
 **Claim Boundary:**
-CONCEPTUAL. 원문이 보고한 운영 장애나 특정 재시도 횟수·복구 성공 사례가 아니다.
+TEACHING_MODEL — 외부 상태의 교육용 설계다. 특정 제품의 세션 기억 정책, 자동 복구 성공 또는 영구적 정확성을 주장하지 않는다.
 
 **Beginner Explanation:**
-모르는 상태는 그대로 남겨야 다음 사람이 무엇을 확인해야 하는지 안다.
+인계받은 사람이 바로 움직이려면 “진행 중” 대신 마지막으로 확인한 일과 다음에 확인할 일이 필요하다.
 
 **Advanced Insight:**
-읽기 재시도와 쓰기 재실행을 구분한다. 이 분기의 범위는 조회에 실패한 동일 이슈와 MR이다.
+상태에는 근거가 있는 위치와 기준 버전을 함께 적는다. 구현과 맞지 않는 오래된 기록은 실제 상태를 확인하고 갱신한다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+N/A — 이 장은 화면의 업무 상황에 집중한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 조회 실패에서 재개할 MR 식별자와 중단 조건을 확인한다.
+N/A — 정적 운영 설계 도식. 시도한 일·검사 근거·남은 문제·다음 행동을 순서대로 말한다.
 
 **Audience Interaction:**
-중단 뒤 다음 담당자가 받아야 할 식별자 하나를 생각하게 한다.
+팀의 공통 지침과 오늘 한 작업의 미완료 목록은 각각 어디에 두나요?
 
 **Transition:**
-이런 문제가 반복될 때 작업 규칙 변경은 누가 승인할까?
+“상태를 이어받아 무인으로 실행한다면, 어디까지 바꿀 수 있게 할까요?”
 
 **Time Management:**
-Lecture 1분 + Case 2분 = 3분. 복구 명령으로 확장하지 말고 보존할 상태와 인계 조건만 짚는다.
+Lecture 1분 + Case 2분. 1분부터 이전 실행의 기록으로 다음 할 일을 찾는 사례를 든다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S93.png 또는 production/ACT_4.pptx의 S93. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S93.png 또는 production/ACT_4.pptx의 S93. 화면을 쓸 수 없으면 다음 단서로 진행한다. 시도한 일·검사 근거·남은 문제·다음 행동을 순서대로 말한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0145. 로컬 PPT·렌더·내장 Notes 검토 기록은 production/evaluation/ACT4_AUTONOMOUS_LOOP_OPENING.md를 따른다. Windows·교육장·사내 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S94 — 회고 제안은 누가 적용할까
+## S94 — 무인 실행의 범위를 어디까지 허용할까?
 
 **Slide ID:**
 S94
 
 **Working Title:**
-회고 제안은 누가 적용할까
+무인 실행의 범위를 어디까지 허용할까?
 
 **ACT / Section:**
-ACT 4 / 4R5 Team operations and state
+ACT 4 / 4R5 Implementation, review and state
 
 **Allocated Time:**
 3 minutes
@@ -1118,58 +1116,58 @@ ACT 4 / 4R5 Team operations and state
 Lecture 1분 + Case 2분
 
 **Primary Message:**
-제품 코드를 병합하는 결정과 다음 세션의 작업 규칙을 바꾸는 결정은 각각 승인 대상을 갖는다.
+무인 실행 전에 작업 공간과 허용 작업을 좁히고, 외부 접근과 자격 증명·승인이 필요한 동작의 경계를 정한다.
 
 **Opening Question:**
-“한 번 발견한 운영 문제를 다음 세션의 규칙으로 바로 반영해도 될까?”
+“사람이 자리를 비운 동안 에이전트가 어느 폴더와 외부 시스템까지 바꿔도 될까요?”
 
 **Speaker Flow:**
-1. (0:00–1:00 / Lecture) 코드 변경은 팀원이 MR로 수용하는 대상이다. 작업 방식 변경은 회고에서 제안할 수 있는 별도 대상이다.
-2. (1:00–3:00 / Case) 운영기에서는 세션 마지막의 회고 Skill이 개선점을 제안하고 운영 엔지니어가 승인한 경우에 workflow 관련 파일을 수정한다. 두 승인 경로를 각각 가리키며 누구의 판단이 어디에 남는지 회수한다.
+0–1분 강의. 위험을 파일 변경, 외부 쓰기, 자격 증명 사용으로 나눠 보고 격리된 환경과 최소 권한이 어느 범위에 작용하는지 짚는다.
+1–3분 사례. 이슈 전용 공간에서 테스트할 권한은 주되, 배포처럼 범위 밖인 요청은 중단해 사람에게 넘기는 상황을 든다. 워크트리와 권한 격리를 구분한다.
 
 **Evidence / Source:**
-SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/ §3, §5.
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 12쪽의 설계 또는 토의 주제를 강의 맥락에 맞게 재구성했다.
 
 **Claim Boundary:**
-운영기 작성자가 게시 시점에 설명한 사내 테스트 운영 범위다. 검토 모델명, 비교 효과, 실제 계정의 현재 상태는 이 자료로 확인할 수 없다.
+TEACHING_MODEL — 예방 통제의 설계다. 승인 생략을 권장하거나 제시한 환경에서 공격·유출 방지가 실증됐다고 설명하지 않는다.
 
 **Beginner Explanation:**
-방금 만든 제품을 승인하는 일과 앞으로 일할 방법을 바꾸는 일을 따로 판단한다.
+별도 폴더에서 시작해도 그 프로그램이 읽거나 쓸 수 있는 대상은 실행 권한에 따라 달라진다.
 
 **Advanced Insight:**
-특정 이슈의 우연한 실패를 팀 전체 규칙으로 확대할 때는 반복성·영향 범위·되돌릴 방법을 별도로 검토한다.
+컨테이너를 쓰더라도 연결된 볼륨·자격 증명·네트워크에 따라 바깥으로 미칠 수 있는 영향이 다르다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+N/A — 이 장은 화면의 업무 상황에 집중한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 제품 코드와 작업 규칙의 두 승인 대상을 번갈아 가리킨다.
+N/A — 정적 운영 설계 도식. 허용된 작업 공간과 승인받을 외부 동작 한 가지를 대비한다.
 
 **Audience Interaction:**
-어떤 변경이 제품 MR이고 어떤 변경이 운영 규칙 제안인지 구분한다.
+지금 설명한 일감에 저장소 밖 쓰기 권한도 필요한가요?
 
 **Transition:**
-먼저 한 작업만 이어가고 싶다면 목표 요청에 어떤 내용을 적을까?
+“정해 둔 경계에 실제로 닿으면 무엇을 기록하고 누구에게 넘길까요?”
 
 **Time Management:**
-Lecture 1분 + Case 2분 = 3분. 팀원과 운영 엔지니어의 승인 대상 차이를 한 번씩 짚고 닫는다.
+Lecture 1분 + Case 2분. 1분부터 테스트 권한과 배포 권한을 비교한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S94.png 또는 production/ACT_4.pptx의 S94. 대상 도식에서 강사가 게시한 운영기의 흐름을 따라 읽는다. GitLab 접속과 실제 권한 행사는 필요하지 않다.
+LOCAL STATIC ARTIFACT — production/preview/full/S94.png 또는 production/ACT_4.pptx의 S94. 화면을 쓸 수 없으면 다음 단서로 진행한다. 허용된 작업 공간과 승인받을 외부 동작 한 가지를 대비한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S95 — 한 작업에 Goal을 쓴다면
+## S95 — 권한·예산을 넘으면 멈추고 사람에게 넘긴다
 
 **Slide ID:**
 S95
 
 **Working Title:**
-한 작업에 Goal을 쓴다면
+권한·예산을 넘으면 멈추고 사람에게 넘긴다
 
 **ACT / Section:**
-ACT 4 / 4T1 Goal continuation
+ACT 4 / 4T1 Unattended stop conditions
 
 **Allocated Time:**
 4 minutes
@@ -1178,54 +1176,55 @@ ACT 4 / 4T1 Goal continuation
 Lecture 4분
 
 **Primary Message:**
-Goal 요청에 변화·보존 조건·완료 근거·중단 조건을 함께 적으면 다음 턴이 확인할 일을 지정할 수 있다.
+승인된 권한과 실행 한도를 벗어나는 순간 루프를 멈춘다. 시도한 일, 마지막 근거, 남은 일과 필요한 결정을 함께 인계한다.
 
 **Opening Question:**
-“밝기 통계 최적화를 맡길 때 무엇을 만족해야 완료라고 쓸까?”
+“허용하지 않은 접근이 필요하거나 정한 예산에 닿았다면 무엇을 남겨야 할까요?”
 
 **Speaker Flow:**
-1. (0:00–4:00 / Lecture) Goal 요청 예시를 네 덩어리로 읽는다. 여섯 출력 유지, 임시 할당 감소, 같은 입력·환경에서 시간과 할당 측정, 근거 확보가 막히면 미확인 항목 보고다. 명령 표기는 자료에 있는 /goal을 가리킨다. 도구가 계속 수행하는 기능과 팀이 정한 검사·검토 역할을 구분한다.
+0–2분 강의. 권한 밖 동작과 비용·시도 한도를 따로 짚는다. 권한 확인이 필요할 때 실행을 미루고 한도에 닿으면 재시도를 끝낸다.
+2–4분 강의. 인계 예시로 “테스트는 실행했고 배포 권한은 없어 중단했다. 남은 검토와 승인 담당은 여기에 적었다”를 읽는다. 예산은 팀이 정하는 값으로 둔다.
 
 **Evidence / Source:**
-SRC-0240–0242 · CLM-0046. OpenAI, Using goals in Codex. https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex 기존 문서 경로 https://learn.chatgpt.com/docs/long-running-work 및 https://learn.chatgpt.com/docs/reference/slash-commands .
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 12쪽의 설계 또는 토의 주제를 강의 맥락에 맞게 재구성했다.
 
 **Claim Boundary:**
-DOCUMENTED GUIDANCE / 제품 활용 예시. 교육 계정·앱 버전·권한에서의 노출 및 실제 실행은 REQUIRES PRODUCT CHECK. Goal만으로 외부 검토 모델 배정이나 MR 병합을 증명하지 않는다.
+TEACHING_MODEL — 운영 설계 팁이다. PDF에 나온 비용 예시는 사내 한도나 권장 고정 금액으로 적용하지 않는다. 실제 비용 절감과 통제 성능은 측정하지 않았다.
 
 **Beginner Explanation:**
-목표에 도달했다는 말을 어떻게 확인할지, 확인할 수 없으면 무엇을 돌려받을지 적는다.
+사람에게 넘겨도 이미 한 일을 다시 할 필요가 없도록 기록을 붙인다.
 
 **Advanced Insight:**
-한 작업의 이어서 수행하기, 일정에 따른 다음 실행, GitLab 병합 권한은 각각 별도의 운영 결정이다.
+멈출 조건과 재개를 승인할 사람을 실행 전에 정한다. 권한·비용 값은 조직 정책과 해당 업무를 기준으로 선택한다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+N/A — 이 장은 화면의 업무 상황에 집중한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 정적 Goal 요청의 보존·근거·중단 구절을 읽는다.
+N/A — 정적 운영 설계 도식. 중단 사유·마지막 근거·미실행 항목·요청할 결정을 읽어 인계 예시를 마친다.
 
 **Audience Interaction:**
-입력 실습 없이 요청문에서 중단 조건을 찾아보게 한다.
+다시 시작할 담당자가 볼 마지막 검사 근거는 무엇인가요?
 
 **Transition:**
-이 중 우리 팀이 처음부터 운영할 범위는 어디까지일까?
+“한도를 지키며 실행했어도 결과를 받아들일지는 사람이 무엇을 보고 판단할까요?”
 
 **Time Management:**
-Lecture 4분 = 4분. 첫 2분은 요청 내용, 뒤 2분은 근거와 중단 조건을 읽는다.
+Lecture 4분. 2분씩 나눠 중단 조건과 인계 결과를 따라간다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S95.png 또는 production/ACT_4.pptx의 S95. 교육 계정에서 직접 입력하기 어려우면 요청 예시를 그대로 읽고 종료 조건을 짚는다.
+LOCAL STATIC ARTIFACT — production/preview/full/S95.png 또는 production/ACT_4.pptx의 S95. 화면을 쓸 수 없으면 다음 단서로 진행한다. 중단 사유·마지막 근거·미실행 항목·요청할 결정을 읽어 인계 예시를 마친다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S96 — 우리 팀의 첫 루프 범위
+## S96 — 자동화가 만든 변경을 사람이 설명할 수 있나?
 
 **Slide ID:**
 S96
 
 **Working Title:**
-우리 팀의 첫 루프 범위
+자동화가 만든 변경을 사람이 설명할 수 있나?
 
 **ACT / Section:**
 ACT 4 / 4R6 Evidence and transfer
@@ -1237,54 +1236,55 @@ ACT 4 / 4R6 Evidence and transfer
 Lecture 2분
 
 **Primary Message:**
-첫 도입의 범위를 이슈 한 건과 검토 가능한 후보·사람 승인으로 좁히고 반복 수요에 따라 확장한다.
+최종 검토자는 변경 이유, 확인한 근거, 남은 위험을 자기 말로 설명할 수 있을 때 승인 여부를 정한다.
 
 **Opening Question:**
-“우리 팀에서 먼저 한 건만 자동화한다면 어디까지 맡길까?”
+“검사가 통과됐다는 보고만 받았다면 이 변경을 동료에게 설명하고 승인할 수 있나요?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Lecture) 이슈 한 건 → 후보 한 개 → 검토 근거 → 사람 승인의 최소 경로를 짚는다. 매일 반복해야 할 일이 생기면 스케줄과 상태 인계를 덧붙인다. 앞서 나온 worktree·Skill·API 연결·Subagent 중 해당 이슈에 필요한 요소를 고른다.
+0–1분 강의. 화면의 예시에서 기대값과 비교하던 assert 한 줄이 삭제됐다. 변경 이유는 이슈, 기존 동작을 어디서 확인했는지는 남은 테스트에서 찾게 한다.
+1–2분 강의. 삭제를 정당화할 근거가 비었으면 작성자에게 보존 조건과 검사 근거를 요청하는 예로 마무리한다.
 
 **Evidence / Source:**
-DEC-0144의 첫 적용 설계. 작게 시작하고 범위를 검토하는 운영기 §5. SRC-0244 · CLM-0048. 김기덕, 「루프 엔지니어링이란? Codex로 AI 코딩 에이전트 자동화하기」, 2026-06-16. https://gideokkim.github.io/codex/loop-engineering/
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 13쪽의 설계 또는 토의 주제를 강의 맥락에 맞게 재구성했다.
 
 **Claim Boundary:**
-TEACHING_MODEL. 첫 적용 범위는 교육자가 제시하는 설계안이며 팀별 필수 도구 수나 효과를 측정한 결과가 아니다.
+TEACHING_MODEL — assert 삭제 도식은 교육용 코드 예시다. 자동화에 따른 이해 부족은 점검할 위험이다. 해당 팀에서 인지 능력이나 생산성 저하를 관찰·측정했다는 주장이 아니다.
 
 **Beginner Explanation:**
-한 건을 안전하게 설명할 수 있어야 다음 범위를 넓힐지 판단할 자료가 생긴다.
+자동화가 검사를 끝냈다는 말과 내가 변경을 받아들일 이유를 설명할 수 있다는 말에는 차이가 있다.
 
 **Advanced Insight:**
-매일 예약할 이유가 있는지, 다음 실행의 상태가 필요한지, 실제 검토 인력이 있는지에 따라 구성요소를 고른다.
+반복 승인으로 변경의 전제가 가려질 수 있다. 책임자가 어느 근거에서 무엇을 확인했는지 남겨야 나중에 다시 판단할 수 있다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+검사 모듈이라면 삭제한 경계값 검사를 다른 테스트가 여전히 보장하는지 확인하고 근거를 요청한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 이슈 한 건의 최소 작업 범위를 가리킨다.
+N/A — 정적 운영 설계 도식. 변경 이유·검사 근거·남은 위험 세 질문만 읽는다.
 
 **Audience Interaction:**
-자기 업무에서 가장 작은 후보 하나를 마음속으로 떠올린다.
+변경 이유와 남은 위험 중 하나를 설명하지 못하면 승인 전에 무엇을 물을까요?
 
 **Transition:**
-그 한 건에서 어떤 판단을 맡기고 언제 사람에게 넘길까?
+“우리 업무에서 이 책임의 경계를 어디에 둘지 한 가지씩 골라 보겠습니다.”
 
 **Time Management:**
-Lecture 2분 = 2분. 2분 안에 최소 구성만 제시하고 질문은 S97로 모은다.
+Lecture 2분. 삭제 예시와 승인자가 물을 질문 한 묶음만 다룬다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S96.png 또는 production/ACT_4.pptx의 S96. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S96.png 또는 production/ACT_4.pptx의 S96. 화면을 쓸 수 없으면 다음 단서로 진행한다. 변경 이유·검사 근거·남은 위험 세 질문만 읽는다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S97 — 어떤 판단을 맡기고 어디서 멈출까
+## S97 — 무엇을 자동화하고, 무엇을 사람이 결정할까?
 
 **Slide ID:**
 S97
 
 **Working Title:**
-어떤 판단을 맡기고 어디서 멈출까
+무엇을 자동화하고, 무엇을 사람이 결정할까?
 
 **ACT / Section:**
 ACT 4 / 4R6 Evidence and transfer
@@ -1296,45 +1296,45 @@ ACT 4 / 4R6 Evidence and transfer
 Reflection 2분 + Q&A 7분 + Transition 2분
 
 **Primary Message:**
-한 작업의 목표·검사·사람 승인선을 정한 다음, 그 판단에 쓰이는 구성을 고른다.
+한 업무를 골라 자동화할 단계, 완료를 판정할 근거, 사람이 승인하거나 중단할 지점을 한 쌍으로 정한다.
 
 **Opening Question:**
-“우리 팀의 일 한 가지에서 어떤 판단을 맡기고 어디서 멈출까?”
+“반복하는 업무 하나를 떠올려 보세요. 검사를 맡긴 다음, 사람이 무엇을 보고 마지막 결정을 할까요?”
 
 **Speaker Flow:**
-1. (0:00–2:00 / Reflection) 각자 익숙한 이슈 하나를 떠올리게 한다. 시스템에 맡길 첫 판단, 그 판단의 근거, 미완료라면 사람에게 넘길 조건을 하나씩 생각하게 한다.
-2. (2:00–9:00 / Q&A) 질문을 받는다. 질문이 없으면 “출력은 맞지만 시간 근거가 비어 있다면 무엇을 넘길까요?” 또는 “어제 MR 상태를 읽지 못했다면 어느 상태로 끝낼까요?” 중 하나를 고른다. 근거와 다음 행동을 함께 말하며 끝낸다.
-3. (9:00–11:00 / Transition) 사람이 받아야 할 판단을 남겨 두고 “우리 팀에서 이 판단에 쓰이는 구성은 무엇이고 어떤 구성은 덜어낼 수 있을까요?”라고 묻는다. S98의 ACT5 제목으로 이동한다.
+0–2분 성찰. 각자 업무 하나를 떠올리고 반복해서 맡길 일과 사람이 결정할 일을 짝지어 본다. 직접 실습이나 결과 제출은 없다.
+2–9분 질의응답. 예를 들면 테스트 실행은 맡기고, 예외 허용과 병합은 근거를 본 사람이 판단한다. 역할·도구·승인선에 관한 질문을 받되 조직별 값은 현장 확인으로 남긴다.
+9–11분 전환. 청중이 고른 개입 지점을 회수한 뒤 “우리 업무에 남길 구성과 덜어낼 구성은 무엇인가?”로 ACT5를 연다.
 
 **Evidence / Source:**
-DEC-0144 · ACT4의 CASE-LOOP-01, SRC-0244 운영기, SRC-0245 연구, Goal 작성 예시를 바탕으로 한 개인 성찰.
+DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 14쪽의 설계 또는 토의 주제를 강의 맥락에 맞게 재구성했다.
 
 **Claim Boundary:**
-TEACHING_MODEL. 참가자의 답은 각 팀의 도입 가설이다. 실제 업무 효과·계정 검증은 별도로 확인한다.
+TEACHING_MODEL — 팀 적용을 위한 성찰이다. 실제 조직에서 검증한 자동화 범위나 최종 승인 정책으로 해석하지 않는다.
 
 **Beginner Explanation:**
-한 업무, 한 목표, 한 번의 확인으로 시작해 무엇을 넘겨받을지 정한다.
+한 작업을 통째로 맡기는 대신 반복은 어디까지 맡기고 중요한 판단은 누가 할지 가른다.
 
 **Advanced Insight:**
-자동화 범위를 넓히는 판단에는 검증 근거와 사람 검토 여력이 함께 필요하다.
+승인할 근거가 없다면 필요한 검사나 중단선을 설계에 다시 포함한다. 다른 팀의 12단계를 그대로 가져올 필요는 없다.
 
 **C++ Vision Bridge:**
-N/A — 이번 장의 운영 사례 또는 목표 루프 설계를 사용한다.
+N/A — 이 장은 화면의 업무 상황에 집중한다.
 
 **Demo Operation:**
-N/A — 정적 자료. 성찰과 질문 동안 현재 그림을 유지한다.
+N/A — 정적 운영 설계 도식. 질문이 없으면 검사·승인 한 쌍을 예로 들고, 8분 30초에 마지막 질문을 받아 9분부터 전환한다.
 
 **Audience Interaction:**
-0–2분 개인 성찰, 2–9분 자발적 Q&A, 9–11분 전환. 개인 답변·작성·실습을 요구하지 않는다.
+질문이 없으면 “테스트를 자동화했는데 병합 근거가 비었다면, 다음 판단은 누가 하고 무엇을 더 요청할까요?”로 토의를 연다.
 
 **Transition:**
-어떤 구성은 계속 필요하고 어떤 구성은 합치거나 덜어낼 수 있을까? ACT5에서 내 업무에 대입한다.
+“우리 팀이 맡길 일과 사람이 판단할 지점을 정했습니다. 다음 ACT에서는 그 일을 위해 무엇을 조합하고 무엇을 덜어낼지 봅니다.”
 
 **Time Management:**
-Reflection 2분 + Q&A 7분 + Transition 2분 = 11분. 8분 30초에 마지막 질문을 받고 9분에 전환으로 옮긴다. 추가 질문은 교육 마지막 Q&A로 남긴다.
+Reflection 2분 + Q&A 7분 + Transition 2분. 8분 30초에 마지막 질문을 받고 9분에 전환한다. 추가 질문은 교육 마지막 Q&A로 넘긴다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S97.png 또는 production/ACT_4.pptx의 S97. 화면 대신 Speaker Flow에 있는 질문과 다음 행동을 읽어 진행한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S97.png 또는 production/ACT_4.pptx의 S97. 화면을 쓸 수 없으면 다음 단서로 진행한다. 질문이 없으면 검사·승인 한 쌍을 예로 들고, 8분 30초에 마지막 질문을 받아 9분부터 전환한다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0144. 최종 렌더·내장 Notes 검증 기록은 production/evaluation/ACT4_LOOP_OPERATIONS.md를 따른다. Windows·교육장·사내 제품 계정·실측 리허설 UNVERIFIED.
+DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.

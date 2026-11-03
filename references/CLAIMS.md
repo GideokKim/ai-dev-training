@@ -212,3 +212,13 @@ no actual company rule, Trial, executed result or measured saving is added.
 | CLM-0046/0047 | An explicit Goal can state outcome, evidence, constraints and blocked conditions. | SRC-0240/0241, rechecked 2026-11-03 | S95. Documented guidance with course-written example; classroom account unverified. |
 
 CLM-0043 (ReConcile), CLM-0045 (self-feedback and intrinsic correction) and their primary sources remain supplementary research. Their earlier screen assignments refer to the former edition. The operational account carries no named model pairing or measured quality gain.
+
+## DEC-0156 · 현행 ACT4 후반
+
+| Claim | 확인한 내용 | 적용 및 한계 |
+|---|---|---|
+| CLM-0050 | 제공 PDF에 GitLab 사례의 4국면·12단계와 여섯 요소의 배치, 외부 기록, 권한·비용·사람의 검토 예시가 있다. | SRC-0246 · S84–S90, S93–S97. 강의용 설계. 실제 수행 횟수·성공률·비용 효과를 보고하지 않는다. |
+| CLM-0051 | 품질이 비슷한 응답을 비교한 연구에서 일부 모델은 품질을 잘 구별하면서도 자기 응답을 선호했다. | SRC-0247 v4 · S91. 평가 모델과 응답 쌍의 선택 실험에 한정한다. |
+| CLM-0052 | 같은 오류 문장의 출처 역할을 바꾸자 실험 조건에 따라 오류를 지적하는 비율이 달라졌다. | SRC-0248 v2 · S92. 작성·검토 역할을 나눌 때 고려할 결과이며, 서로 다른 코딩 모델 사용의 효과는 별도 질문이다. |
+
+앞 판본의 PairCoder·Goal 항목(CLM-0049, CLM-0046/0047)과 SRC-0244의 운영 이력은 참고 자료로 보존한다. 현행 화면과 연결할 때에는 위 표를 우선한다.

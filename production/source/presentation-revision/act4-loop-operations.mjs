@@ -7,7 +7,6 @@ export function loopOperationsFactories(H) {
   const {C,FONT,CODE,text,rect,line} = H;
   const blue = '#315C87';
   const bluePale = '#E1EBF6';
-  const article = '김기덕 · 사내 Codex 운영기 (2026.06.16)';
   const reconstruction = '밝기 통계 사례 · 교육용 재구성';
   const caseKind = 'CONCEPTUAL';
   const common = (p,id,title,eyebrow,source,kind='TEACHING_MODEL',modules='신규 확장',tip='') => {
@@ -27,22 +26,6 @@ export function loopOperationsFactories(H) {
     const box = rect(s,x,y,w,h,tint,stroke,1.5); box.borderRadius=8;
     text(s,title,x+10,y+4,w-20,h-8,size,C.ink,true,FONT,'center');
   }
-  function row(s,y,left,right,accent=C.teal) {
-    line(s,64,y,1152);
-    text(s,left,70,y+11,295,48,27,accent,true);
-    text(s,right,376,y+11,826,48,28,C.ink);
-  }
-  function requestWindow(s,x,y,w,h,title) {
-    const body=rect(s,x,y,w,h,C.white,C.line,1.5); body.borderRadius=10;
-    const chrome=rect(s,x+1,y+1,w-2,37,'#EDF1F5'); chrome.borderRadius=9;
-    ['#FF5F57','#FEBC2E','#28C840'].forEach((fill,i)=>s.shapes.add({
-      geometry:'ellipse',name:'Window control '+(i+1),
-      position:{left:x+15+i*17,top:y+13,width:10,height:10},
-      fill,line:{fill:'none',width:0}
-    }));
-    text(s,title,x+78,y+4,w-99,30,20,C.sub,true);
-    line(s,x+1,y+39,w-2);
-  }
   function section(s,x,y,w,kicker,title,detail,tint=C.teal) {
     line(s,x,y,w,tint,2);
     label(s,kicker,x,y+12,w,tint);
@@ -57,11 +40,32 @@ export function loopOperationsFactories(H) {
     text(s,'전체 픽셀을 복사한\n임시 목록이 남았다',85,377,272,64,28,C.ink,true);
   }
 
-  function acceptedFinding(slide) {
-    const banner=rect(slide,64,181,1152,78,C.amber,C.warn,1.5);
-    banner.borderRadius=8;
-    text(slide,'검토 지적 · R1',83,198,207,42,23,C.warn,true);
-    text(slide,'전체 픽셀을 복사하는 임시 목록이 남아 있다',307,192,891,55,33,C.ink,true);
+  const phases=[
+    {title:'기획·준비',color:blue,tint:bluePale,items:['요청 분류','사전 조사','브랜치 준비']},
+    {title:'문서·이슈',color:'#487339',tint:'#E7F0E1',items:['이슈 문서 작성','이슈 문서 검증','문서 단독 커밋','이슈 등록']},
+    {title:'구현·테스트',color:'#875415',tint:'#FAE8C7',items:['작은 단위로 구현','테스트 시도']},
+    {title:'병합 요청',color:'#69498E',tint:'#EEE2F7',items:['MR 초안 작성','문서 단독 커밋','MR 등록']}
+  ];
+  function phaseRail(s,active) {
+    phases.forEach((phase,i)=>{
+      const x=64+i*290,selected=i===active;
+      rect(s,x,163,282,42,selected?phase.color:'#E6EAEE');
+      text(s,(i+1)+'   '+phase.title,x+8,164,266,39,21,selected?C.white:C.sub,selected,FONT,'center');
+    });
+  }
+  function panel(s,x,y,w,h,fill=C.white,color=C.line) {
+    const box=rect(s,x,y,w,h,fill,color,1.3);
+    box.borderRadius=9;
+    return box;
+  }
+  function caption(s,t,x,y,w,color=C.sub,size=22) {
+    return text(s,t,x,y,w,36,size,color,true);
+  }
+  function stage(s,num,heading,detail,x,y,w,phase) {
+    line(s,x,y,w,phase.color,3);
+    caption(s,num,x,y+14,w,phase.color);
+    text(s,heading,x,y+62,w,52,34,C.ink,true);
+    text(s,detail,x,y+129,w,85,25,C.sub);
   }
 
   const cover = actTitleFactories({titleSlides:[{
@@ -246,198 +250,234 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S84(p) {
-      const s=common(p,'S84','그 지적을 받은 구현은 어디가 달라질까?','밝기 통계 · 검토자가 구현 담당에게 넘긴 지적',reconstruction,caseKind,'M5 · M6');
-      acceptedFinding(s);
-      label(s,'첫 구현 · v1',64,291,506,blue);
-      label(s,'지적을 반영한 수정안 · v2',694,291,522);
-      const before=rect(s,64,340,516,163,C.white,C.line,1.5); before.borderRadius=8;
-      const after=rect(s,694,340,522,163,C.pale,C.teal,1.5); after.borderRadius=8;
-      text(s,'전체 픽셀을 한 목록에 복사',85,351,478,53,30,C.ink,true);
-      const cells=['1행 픽셀','2행 픽셀','…'];
-      for(const [i,cell] of cells.entries()){
-        const x=86+i*144;
-        rect(s,x,423,144,53,bluePale,blue,1);
-        text(s,cell,x+3,424,138,51,24,blue,true,FONT,'center');
-      }
-      connect(s,588,420,94);
-      text(s,'한 행씩 읽으며 통계를 집계',715,351,481,53,30,C.ink,true);
-      text(s,'최소·최대는 갱신하고 합은 누적',715,423,480,53,25,C.teal,true);
-      takeaway(s,'전체 복사를 없앴다. 이것만으로 끝났을까?');
+      const s=common(p,'S84','8단계를 GitLab 작업 12단계로 옮기면','GitLab 적용 예시 · 단계별로 남길 결과','','CONCEPTUAL');
+      text(s,'이슈를 등록하고 병합을 요청하는 일까지 네 구간으로 나눈다.',64,168,1152,48,30,C.teal,true);
+      let number=1;
+      phases.forEach((phase,i)=>{
+        const x=64+i*291;
+        panel(s,x,244,277,273,C.white);
+        rect(s,x,244,277,51,phase.color);
+        text(s,phase.title,x+15,245,246,48,27,C.white,true);
+        phase.items.forEach((item,j)=>{
+          const y=309+j*49;
+          text(s,String(number++).padStart(2,'0'),x+16,y,42,40,21,phase.color,true);
+          text(s,item,x+59,y,214,40,24,C.ink,true);
+        });
+      });
+      takeaway(s,'구현과 테스트는 필요할 만큼 반복하고, 마지막에 근거를 인계한다.');
       return s;
     },
     S85(p) {
-      const s=common(p,'S85','고친 뒤, 끝낼까 다시 고칠까?','밝기 통계 · 수정안을 같은 기준으로 재검토',reconstruction,'TEACHING_MODEL','M5 · M6','검증·개선');
-      const measure=rect(s,64,177,1152,100,bluePale,blue,1.5); measure.borderRadius=8;
-      text(s,'v2의 실행시간 기록이 없다면?',84,192,494,66,28,C.ink,true);
-      connect(s,563,227,62,0,blue);
-      text(s,'먼저 측정',647,188,550,38,29,blue,true);
-      text(s,'같은 입력·환경에서 기준판과 수정안의 시간 비교',647,230,554,34,23,C.sub);
-      const branches=[
-        [302,'출력·할당·시간 모두 기준 충족','완료 보고','수정안과 검사 근거를 함께 제출',C.teal],
-        [386,'검사·측정으로 확인된 기준 위반','재수정','예: 더 느려졌다면 고친 뒤 재측정',blue],
-        [470,'측정 불가 또는 한도 도달','미완료 중단','빠진 근거와 막힌 이유를 사람에게 인계',C.warn]
+      const s=common(p,'S85','어느 단계에 어떤 도구를 연결할까?','GitLab 적용 예시 · 12단계와 여섯 요소','','TEACHING_MODEL','신규 확장','검증·개선');
+      const rows=[
+        ['오토메이션',[1,6,11],'#096975'],['워크트리',[3,8],'#285A96'],
+        ['스킬',[1,2,4,5],'#4B6529'],['커넥터',[7,12],'#875415'],
+        ['서브에이전트',[4,5,8,9,10],'#69498E'],['상태/메모리',[2,10],'#90445D']
       ];
-      for(const [y,condition,action,details,color] of branches){
-        line(s,64,y,1152);
-        text(s,condition,70,y+13,439,55,27,C.ink,true);
-        connect(s,511,y+41,60,0,color);
-        text(s,action,592,y+13,181,55,29,color,true);
-        text(s,details,793,y+13,421,55,23,C.sub);
+      const left=64, labelWidth=184, colWidth=80;
+      text(s,'도구',left+9,164,labelWidth-10,36,21,C.sub,true);
+      let phaseX=left+labelWidth;
+      for (const phase of phases) {
+        const width=colWidth*phase.items.length;
+        rect(s,phaseX,163,width-2,41,phase.tint);
+        text(s,phase.title,phaseX,163,width-2,41,21,phase.color,true,FONT,'center');
+        phaseX+=width;
       }
-      takeaway(s,'측정값이 없으면 먼저 확인하고, 위반이 확인되면 다시 고친다');
+      const values=[['단계',...Array.from({length:12},(_,i)=>String(i+1))],
+        ...rows.map(([name,owners])=>[name,...Array.from({length:12},(_,i)=>owners.includes(i+1)?'●':'')])];
+      const table=s.tables.add({rows:7,columns:13,left,top:209,width:labelWidth+12*colWidth,height:316,columnWidths:[labelWidth,...Array(12).fill(colWidth)],values});
+      table.styleOptions={headerRow:false,bandedRows:false};
+      table.borders.assign({fill:C.line,width:0.8,style:'solid'});
+      for(let r=0;r<7;r++){
+        table.rows[r].height=r===0?40:46;
+        for(let c=0;c<13;c++){
+          const cell=table.getCell(r,c);
+          cell.fill=r===0?'#E9EDF1':C.white;
+          cell.text.style={typeface:FONT,fontSize:r===0?19:c?23:21,color:r===0?C.sub:rows[r-1][2],bold:r===0||c===0,alignment:c?'center':'left',verticalAlignment:'middle',autoFit:'none',wrap:'none'};
+        }
+      }
+      text(s,'예를 들어 7단계 이슈 등록과 12단계 MR 등록에는 커넥터를 쓴다.',64,550,1152,50,28,C.ink,true);
       return s;
     },
     S86(p) {
-      const s=common(p,'S86','구현자와 검토자를 어떻게 고를까','모델 역할 배치','CriticBench (ACL Findings 2024) · 생성·검토·수정 능력 평가','RESEARCH','M5 · M6');
-      section(s,64,229,552,'구현 담당  /  Maker','변경 후보를 만든다','명세와 범위에 맞는 diff,\n실행한 검사와 미확인 항목을 전달한다.');
-      section(s,664,229,552,'검토 담당  /  Checker','근거를 대조한다','목표·diff·검사 결과를 읽고\n다음 수정에 쓸 지적을 제시한다.',blue);
-      takeaway(s,'역할을 나눈 뒤, 같은 모델과 다른 모델 조합을 대표 작업에서 비교한다');
+      const s=common(p,'S86','먼저 요청을 분류하고 작업 공간을 분리한다','GitLab 적용 예시 · 작업을 시작하기 전','','CONCEPTUAL');
+      phaseRail(s,0);
+      stage(s,'01','요청 분류','이 요청을 이슈로\n관리할지 결정한다.',64,254,340,phases[0]);
+      stage(s,'02','사전 조사','관련 코드와 프로젝트\n지침을 먼저 읽는다.',466,254,340,phases[0]);
+      stage(s,'03','브랜치 준비','기준 브랜치에서 분기해\n별도 워크트리에서 작업한다.',868,254,348,phases[0]);
+      connect(s,413,347,40,0,blue); connect(s,815,347,40,0,blue);
+      takeaway(s,'기준 코드는 어디에 있고, 이번 변경은 어디에서 할지 정해진다.');
       return s;
     },
     S87(p) {
-      const s=common(p,'S87','코드 생성 실험에서 검토 모델을 바꾸면','연구 · 코드 생성과 검토 모델 배치','Chen 외 · PairCoder (ACL Findings 2026) · 표 2, §4.6 · 반복 오류 시 역할 교대 허용','RESEARCH');
-      lead(s,'HumanEval pass@1 (%)   ·   초기 구현 모델은 GPT-3.5-turbo');
-      s.charts.add('bar',{
-        name:'PairCoder HumanEval pass at one by initial reviewer',
-        position:{left:64,top:244,width:756,height:284},
-        categories:['단독','GPT-3.5-turbo','GPT-4','minimax-abab-chat'],
-        series:[{name:'HumanEval pass@1 (%)',values:[69.51,81.16,90.01,48.19],
-          points:[{idx:0,fill:'#9BA8B5'},{idx:1,fill:blue},{idx:2,fill:C.teal},{idx:3,fill:C.warn}],valuesFormatCode:'0.00'}],
-        barOptions:{direction:'bar',grouping:'clustered',gapWidth:80,varyColors:true},hasLegend:false,
-        xAxis:{visible:true,min:0,max:100,majorUnit:20,numberFormatCode:'0',textStyle:{fontSize:17,typeface:FONT,fill:C.sub},majorGridlines:{fill:C.line,width:1},line:{fill:C.line,width:1}},
-        yAxis:{visible:true,min:0,max:100,majorUnit:20,numberFormatCode:'0',textStyle:{fontSize:20,typeface:FONT,fill:C.ink},line:{fill:'none',width:0},majorGridlines:null},
-        dataLabels:{showValue:true,position:'outEnd',numberFormatCode:'0.00',textStyle:{fontSize:21,typeface:FONT,bold:true,fill:C.ink}},
-        chartFill:C.bg,plotAreaFill:C.bg,chartLine:{fill:'none',width:0},plotAreaLine:{fill:'none',width:0}
+      const s=common(p,'S87','이슈 문서는 작성과 검증을 나눠 등록한다','GitLab 적용 예시 · 구현 전에 합의할 내용','','CONCEPTUAL');
+      phaseRail(s,1);
+      const phase=phases[1];
+      panel(s,64,239,444,286,C.white,phase.color);
+      caption(s,'04   작성 담당',88,259,390,phase.color);
+      text(s,'이슈 문서',88,310,385,52,36,C.ink,true);
+      ['변경할 범위','지켜야 할 조건','완료를 확인할 방법'].forEach((item,i)=>{
+        const y=383+i*39;
+        rect(s,90,y+13,9,9,phase.color);
+        text(s,item,112,y,358,38,23,C.ink);
       });
-      label(s,'pass@1 · 첫 시도 정답률',858,259,352);
-      text(s,'같은 모델 쌍\n81.16%',858,313,352,95,32,C.ink,true);
-      text(s,'다른 모델 쌍은 이보다\n높거나 낮았다.',858,433,352,72,26,C.sub);
-      takeaway(s,'팀의 대표 이슈에서 조합별 정답성·회귀·비용을 확인한다');
+      connect(s,518,278,64,0,phase.color);
+      [['05','별도 검토','빠진 요구사항·필수 항목 확인'],['06','문서 단독 커밋','검토한 문서의 버전을 기록'],['07','GitLab 이슈 등록','커넥터로 팀의 이슈에 게시']].forEach(([num,name,detail],i)=>{
+        const y=240+i*96;
+        line(s,608,y,608);
+        caption(s,num,608,y+21,51,phase.color);
+        text(s,name,662,y+7,550,42,27,C.ink,true);
+        text(s,detail,662,y+47,550,37,22,C.sub);
+      });
+      takeaway(s,'검토에서 빠진 조건을 찾으면 문서를 고친 뒤 등록한다.');
       return s;
     },
     S88(p) {
-      const s=common(p,'S88','구현·검토 루프를 팀 이슈에 어떻게 연결했을까?','사내 GitLab 운영 사례',article);
-      lead(s,'팀은 이슈 한 건에 목표와 변경 후보, 검토 근거를 연결했다');
-      label(s,'일을 맡긴다',72,250,253,blue);
-      label(s,'한 이슈 안에서 작업한다',412,250,440);
-      label(s,'팀에 전달한다',967,250,239,blue);
-      node(s,'GitLab 이슈\n목표와 범위',64,312,266,132,bluePale,blue,29);
-      connect(s,334,379,63,0,blue);
-      const space=rect(s,401,300,478,156,C.white,C.teal,1.5); space.borderRadius=8;
-      text(s,'이슈 전용 작업 공간',422,311,438,40,27,C.teal,true,FONT,'center');
-      text(s,'구현',432,366,129,55,33,C.ink,true,FONT,'center');
-      connect(s,563,393,101);
-      text(s,'검토',675,366,159,55,33,C.ink,true,FONT,'center');
-      connect(s,883,379,63,0,blue);
-      node(s,'MR · 병합 요청\n팀원이 검토',953,312,263,132,bluePale,blue,29);
-      takeaway(s,'에이전트가 변경안을 만들고, 병합은 팀원이 결정한다');
+      const s=common(p,'S88','작은 변경마다 구현과 테스트를 반복한다','GitLab 적용 예시 · 워크트리 한 곳에서','','CONCEPTUAL','M5 · M6');
+      phaseRail(s,2);
+      const phase=phases[2];
+      panel(s,64,240,852,275,C.white,C.line);
+      caption(s,'작업용 워크트리',85,254,765,C.sub);
+      node(s,'08   구현 담당',120,345,270,70,phase.tint,phase.color,27);
+      node(s,'09   테스트 담당',573,345,285,70,C.pale,C.teal,27);
+      connect(s,402,363,152,0,phase.color);
+      text(s,'변경 코드',403,312,146,39,21,phase.color,true,FONT,'center');
+      s.shapes.add({name:'실패 근거를 구현 담당에게 반환',geometry:'custom',position:{left:254,top:416,width:460,height:55},fill:'none',line:{fill:C.teal,width:3},customPaths:[{width:460,height:55,commands:[{moveTo:{x:460,y:0}},{lineTo:{x:460,y:40}},{quadBezTo:{x1:460,y1:54,x:446,y:54}},{lineTo:{x:14,y:54}},{quadBezTo:{x1:0,y1:54,x:0,y:40}},{lineTo:{x:0,y:6}}]}]});
+      connect(s,254,415,0,15,C.teal,true);
+      text(s,'미달 · 실패 입력과 기대값을 돌려준다',275,425,420,37,21,C.teal,true,FONT,'center');
+      connect(s,917,373,45,0,phase.color);
+      caption(s,'기준 충족',981,301,230,phase.color);
+      text(s,'변경 내용과\n테스트 결과 인계',981,351,237,94,28,C.ink,true);
+      takeaway(s,'실행할 수 없는 검사는 따로 기록해 검토자에게 넘긴다.');
       return s;
     },
     S89(p) {
-      const s=common(p,'S89','새 이슈에는 별도 작업 공간이 생긴다','사내 운영 사례 · 작업 격리',article);
-      node(s,'GitLab 이슈',64,305,225,92,bluePale,blue,30);
-      connect(s,289,350,67);
-      rect(s,367,237,849,258,C.white,C.line,1.5);
-      label(s,'이 이슈의 worktree · 분리된 작업 디렉터리',389,251,806);
-      line(s,389,306,804);
-      node(s,'Maker\n변경 초안',394,338,244,100,C.white,C.teal,29);
-      connect(s,638,388,72);
-      node(s,'Checker\n테스트 기준 검토',716,338,255,100,C.white,blue,27);
-      text(s,'Skill에 둔\n수행 절차',990,341,191,96,25,C.sub,true);
-      takeaway(s,'작업 공간과 검토 근거를 같은 이슈에 연결한다');
+      const s=common(p,'S89','변경과 근거를 묶어 병합 요청을 올린다','GitLab 적용 예시 · MR은 병합 요청','','CONCEPTUAL');
+      phaseRail(s,3);
+      stage(s,'10','MR 초안 작성','변경 이유와 테스트 결과를\n로컬 문서에 모은다.',64,254,340,phases[3]);
+      stage(s,'11','문서 단독 커밋','정리한 MR 문서를 코드와\n구분해 기록한다.',466,254,340,phases[3]);
+      stage(s,'12','MR 등록','커넥터로 GitLab에\n병합 요청을 올린다.',868,254,348,phases[3]);
+      connect(s,413,347,40,0,phases[3].color); connect(s,815,347,40,0,phases[3].color);
+      takeaway(s,'팀원은 MR에서 변경과 근거를 검토한 뒤 병합 여부를 결정한다.');
       return s;
     },
     S90(p) {
-      const s=common(p,'S90','변경 후보가 팀의 MR이 되기까지','사내 운영 사례 · 도구 연결',article);
-      section(s,64,242,340,'01  GitLab API','이슈 등록','목표와 작업 범위를\n이슈에 남긴다.');
-      section(s,470,242,340,'02  작업 에이전트','변경·검토','작업 공간에서 후보를 만들고\n검사 근거를 확인한다.',blue);
-      section(s,876,242,340,'03  GitLab API','MR 작성','팀원이 diff와 검토 근거를\n살펴볼 곳이 생긴다.');
-      connect(s,406,348,55);connect(s,812,348,55);
-      takeaway(s,'에이전트의 변경 후보가 MR을 통해 팀의 검토 대상으로 넘어간다');
+      const s=common(p,'S90','작성자와 검토자는 무엇을 주고받을까?','독립 검토 설계 · 역할 사이에 넘기는 근거','');
+      panel(s,64,224,390,247,bluePale,blue);
+      caption(s,'작성자  /  Maker',88,247,342,blue);
+      text(s,'변경 후보를 만든다',88,308,349,57,31,C.ink,true);
+      text(s,'코드 차이와 실행 결과를\n검토자에게 넘긴다.',88,381,345,73,24,C.sub);
+      panel(s,826,224,390,247,C.pale,C.teal);
+      caption(s,'검토자  /  Checker',850,247,342,C.teal);
+      text(s,'근거를 대조한다',850,308,348,57,31,C.ink,true);
+      text(s,'요구사항과 결과를 비교해\n남은 문제를 찾는다.',850,381,347,73,24,C.sub);
+      text(s,'후보 + 검사 근거',475,244,330,45,25,blue,true,FONT,'center');
+      connect(s,464,311,350,0,blue);
+      connect(s,464,388,350,0,C.teal,true);
+      text(s,'구체적 지적 + 재검사 조건',461,412,357,48,23,C.teal,true,FONT,'center');
+      takeaway(s,'작성과 검토에 서로 다른 모델을 쓸 수 있다. 완료는 테스트 근거로 판단한다.');
       return s;
     },
     S91(p) {
-      const s=common(p,'S91','내일 다시 읽을 상태는 무엇인가','사내 운영 사례에서 구성한 인계 예시','운영기의 Markdown 상태 기록을 각색한 필드 예시',caseKind);
-      rect(s,64,205,640,322,C.white,C.line,1.5);
-      label(s,'오늘 남길 인계 기록 · Markdown 예시',85,221,596);
-      line(s,85,272,595);
-      const entries=[['이슈 ID','ISSUE-A'],['마지막 후보','v2 · 검토 완료'],['검토할 MR','MR-A'],['남은 일','변경 이유·검사 근거 확인']];
-      entries.forEach(([k,v],i)=>{
-        text(s,k,88,285+i*54,160,42,25,C.sub,true);
-        text(s,v,255,285+i*54,420,42,27,C.ink);
-      });
-      connect(s,719,367,76);
-      label(s,'다음 실행에서',826,256,380,blue);
-      text(s,'MR-A의 변경과\n검사 근거를 다시 연다',826,316,384,126,34,C.ink,true);
-      takeaway(s,'기록해 둔 식별자로 같은 이슈의 검토를 이어간다');
+      const s=common(p,'S91','자기평가 점수만으로 완료를 정할 수 있을까?','연구 · LLM 심사자의 자기선호','Yang 외, 2026 · arXiv:2604.22891v4 · LLM 심사자의 자기선호 연구','RESEARCH');
+      text(s,'실험 설계 · 20개 모델',64,181,530,36,22,C.teal,true);
+      text(s,'답의 품질을 비슷하게 맞추어도 심사 모델은 자기 답을 더 고를까?',64,222,1152,59,31,C.ink,true);
+      panel(s,64,318,547,161,C.white,blue);
+      caption(s,'비교 대상 A',88,337,487,blue);
+      text(s,'심사 모델이 작성한 답',88,390,482,57,32,C.ink,true);
+      text(s,'vs',614,363,54,49,24,C.sub,true,FONT,'center');
+      panel(s,674,318,542,161,C.white,C.teal);
+      caption(s,'비교 대상 B',698,337,485,C.teal);
+      text(s,'다른 모델이 작성한 답',698,390,482,57,32,C.ink,true);
+      takeaway(s,'응답 품질을 맞춘 비교에서도 자기 답을 선호한 모델이 있었다.');
       return s;
     },
     S92(p) {
-      const s=common(p,'S92','사람이 병합 전에 읽을 것','사내 운영 사례 · 팀원의 병합 결정','병합 승인 주체는 운영기 기준 · diff와 검토 질문은 교육용 예시');
-      lead(s,'검토 완료 보고를 받은 팀원이 diff를 다시 펼친다');
-      section(s,64,266,350,'변경 이유','왜 바꿨나?','이 변경이 이슈의 목표와\n어떻게 연결되는가?');
-      section(s,466,266,350,'검사 근거','무엇을 봤나?','어떤 입력·조건에서\n기존 동작을 확인했는가?',blue);
-      section(s,868,266,348,'남은 위험','설명할 수 있나?','이유가 불분명한 변경은\n확인한 뒤 병합을 결정한다.',C.warn);
-      label(s,'예시 diff · 기존 테스트',64,504,427);
-      rect(s,64,542,427,52,C.ink);
-      text(s,'- assert result == expected',82,549,391,38,22,C.white,false,CODE);
-      connect(s,504,568,67,0,C.warn);
-      text(s,'삭제 이유와 보존 근거를 확인할 때까지\n병합 보류',595,520,621,80,26,C.warn,true);
+      const s=common(p,'S92','같은 오류도 남의 답에서 더 잘 찾을까?','연구 · 자기 답과 남의 답을 고치는 조건','Chen 외, 2026 · arXiv:2606.05976v2 · 오류 수정 연구 (프리프린트)','RESEARCH');
+      panel(s,64,199,1152,92,bluePale,blue);
+      text(s,'같은 오류가 있는 답',87,216,515,56,32,C.ink,true);
+      text(s,'누가 쓴 답으로 제시하는지 바꿔 검토시킨다.',569,221,618,49,25,blue,true);
+      section(s,64,327,554,'조건 A','내 이전 답으로 제시','자기 응답의 오류를 다시 살펴본다.',blue);
+      section(s,671,327,545,'조건 B','외부에서 온 답으로 제시','같은 오류를 외부 답의 문제로 살펴본다.');
+      takeaway(s,'외부 답으로 제시하면 명시적 오류 수정이 늘었다. 12개 조건 중 10개에서 유의했다.');
       return s;
     },
     S93(p) {
-      const s=common(p,'S93','MR 상태를 조회할 수 없다면','교육용 변형 · 조회 실패', '사내 MR 흐름을 바탕으로 설계한 가상 분기',caseKind);
-      lead(s,'조회 응답이 없으면 병합 여부는 아직 미확인이다');
-      row(s,251,'1   식별자 보존','마지막 이슈·MR 식별자와 실패한 조회를 기록');
-      row(s,332,'2   재시도 제한','정해 둔 횟수·시간 안에서 같은 MR을 다시 조회');
-      row(s,413,'3   한도 도달','미확인 상태와 필요한 확인을 사람에게 인계',C.warn);
-      takeaway(s,'같은 이슈를 재개할 때 기존 MR을 찾아 중복 변경을 피한다');
+      const s=common(p,'S93','다음 실행이 이어받을 상태를 파일에 남긴다','루프 재개 · 상태 파일의 예시','');
+      panel(s,64,226,300,234,C.white);
+      caption(s,'이전 실행',85,249,255,blue);
+      text(s,'무엇을\n시도했나?',85,315,257,98,36,C.ink,true);
+      connect(s,372,345,60,0,blue);
+      panel(s,443,198,392,294,bluePale,blue);
+      text(s,'state.md',465,214,345,54,29,blue,true,CODE);
+      line(s,466,278,345,blue,1);
+      ['마지막 변경과 버전','검사 결과와 실패 입력','미해결 항목과 다음 단계'].forEach((item,i)=>text(s,item,466,297+i*52,349,44,24,C.ink,true));
+      connect(s,845,345,61);
+      panel(s,916,226,300,234,C.pale,C.teal);
+      caption(s,'다음 실행',937,249,255,C.teal);
+      text(s,'무엇부터\n확인할까?',937,315,257,98,36,C.ink,true);
+      takeaway(s,'프로젝트 지침은 AGENTS.md에, 실행마다 변하는 값은 상태 기록에 둔다.');
       return s;
     },
     S94(p) {
-      const s=common(p,'S94','회고 제안은 누가 적용할까','사내 운영 사례 · 두 가지 승인',article);
-      section(s,64,235,550,'제품 코드','팀원이 MR 병합 결정','무엇을 바꿨고 어떤 근거가 있는지\n변경 후보를 검토한다.');
-      section(s,666,235,550,'작업 규칙','운영 엔지니어가 승인','세션 회고에서 반복된 문제를 제안하고\n승인한 개선안을 규칙 파일에 반영한다.',blue);
-      takeaway(s,'제품 변경과 다음 작업의 수행 규칙에는 각각 결정할 사람이 있다');
+      const s=common(p,'S94','무인 실행의 범위를 어디까지 허용할까?','실행 경계 설계 · 격리와 최소 권한','');
+      text(s,'자동으로 다시 시도하기 전에, 쓸 수 있는 자원을 정한다.',64,171,1152,46,30,C.teal,true);
+      panel(s,64,243,762,269,C.pale,C.teal);
+      caption(s,'허용된 실행 환경',87,258,690,C.teal);
+      panel(s,90,320,310,132,C.white);
+      text(s,'작업 파일',109,334,267,46,28,C.ink,true);
+      text(s,'지정한 폴더에서 변경',109,392,269,42,22,C.sub);
+      panel(s,426,320,373,132,C.white);
+      text(s,'외부 연결',446,334,328,46,28,C.ink,true);
+      text(s,'승인한 대상·권한만 사용',446,392,332,42,22,C.sub);
+      line(s,866,263,350,C.warn,3);
+      caption(s,'권한 밖',866,281,340,C.warn);
+      text(s,'관련 없는 파일\n비밀 키 · 배포 권한',866,347,350,96,29,C.ink,true);
+      takeaway(s,'워크트리는 파일을 분리한다. 접근 권한은 실행 환경에서 따로 제한한다.');
       return s;
     },
     S95(p) {
-      const s=common(p,'S95','한 작업에 Goal을 쓴다면','제품 적용 · 밝기 통계 요청 예시','Codex Goal 요청 예시 · 교육 계정에서 제공 범위 확인','TEACHING_MODEL','신규 확장','수행 방법 · 검증·개선');
-      requestWindow(s,64,205,790,306,'Codex · 목표 요청 예시');
-      const prompt=[
-        '/goal 밝기 통계의 임시 할당을 기준판보다 줄여줘.',
-        '기존 여섯 출력은 보존해.',
-        '같은 입력으로 출력·할당 피크·실행시간을 확인해.',
-        '시간이 기준판보다 나빠지면 수정해.',
-        '측정이 막히거나 같은 실패가 반복되면 이유를 보고해.'
-      ];
-      prompt.forEach((t,i)=>text(s,t,88,266+i*45,744,38,i===0?27:25,i===0?C.teal:C.ink,i===0));
-      label(s,'목표에 담을 정보',909,244,290);
-      text(s,'보존할 동작\n완료를 판단할 근거\n멈추고 보고할 조건',909,304,301,161,27,C.ink,true);
-      takeaway(s,'턴을 이어갈 목표에 확인할 근거와 멈출 조건을 함께 둔다');
+      const s=common(p,'S95','권한·예산을 넘으면 멈추고 사람에게 넘긴다','실행 중단과 인계 · 운영 예시','','TEACHING_MODEL','신규 확장','수행 방법 · 검증·개선');
+      panel(s,64,210,505,285,C.white);
+      caption(s,'중단할 조건',87,229,462,C.warn);
+      [['권한','승인받지 않은 외부 쓰기'],['예산','호출 비용·시간 한도 도달'],['재시도','정한 횟수에 도달']].forEach(([name,detail],i)=>{
+        const y=286+i*60;
+        line(s,88,y,455);
+        text(s,name,88,y+5,90,44,24,C.warn,true);
+        text(s,detail,179,y+5,365,44,23,C.ink);
+      });
+      connect(s,579,349,89,0,C.warn);
+      panel(s,679,210,537,285,C.amber,C.warn);
+      caption(s,'사람에게 인계',704,229,482,C.warn);
+      text(s,'중단 이유와 마지막 상태',704,309,482,61,31,C.ink,true);
+      text(s,'시도한 일, 남은 일,\n필요한 판단을 함께 전달한다.',704,399,481,73,24,C.sub);
+      takeaway(s,'사람이 범위·예산을 다시 정하거나 작업을 종료한다.');
       return s;
     },
     S96(p) {
-      const s=common(p,'S96','우리 팀의 첫 루프 범위','팀 적용 · 작은 범위에서 시작','운영기에서 가져온 적용 원칙 · 팀 설계 예시',caseKind);
-      lead(s,'처음 맡길 개선 이슈 한 건을 고른다');
-      node(s,'이슈 한 건',64,272,288,99,C.white,blue,32);
-      connect(s,352,322,81);
-      node(s,'수정 후보 한 개',446,272,329,99,C.white,C.teal,30);
-      connect(s,775,322,80);
-      node(s,'검토 후 사람 승인',866,272,350,99,C.pale,C.teal,30);
-      line(s,64,433,1152);
-      label(s,'반복될 때 연결할 것',64,449,350);
-      text(s,'시작 시각  ·  작업 격리  ·  도구 연결  ·  상태 기록',393,444,820,53,28,C.ink,true);
-      takeaway(s,'한 이슈에서 필요한 역할과 도구부터 선택한다');
+      const s=common(p,'S96','자동화가 만든 변경을 사람이 설명할 수 있나?','병합 전 사람의 판단 · 코드 검토 예시','','TEACHING_MODEL','M5 · M6');
+      panel(s,64,210,576,291,C.white,C.line);
+      caption(s,'병합 요청에서 발견한 변경',85,230,523,blue);
+      rect(s,85,301,534,67,C.ink);
+      text(s,'− assert result == expected',97,309,510,50,24,C.white,true,CODE);
+      text(s,'검사는 끝났다. 그런데 왜 이 비교를 지웠을까?',85,398,532,66,24,C.ink,true);
+      caption(s,'검토자가 확인할 것',684,221,528,C.teal);
+      [['01','목표를 위해 이 삭제가 필요한가?'],['02','기존 동작을 어디에서 다시 확인했나?'],['03','확인할 수 없는 영향은 무엇인가?']].forEach(([n,t],i)=>{
+        const y=283+i*69;
+        line(s,684,y,531);
+        text(s,n,684,y+10,50,45,21,C.teal,true);
+        text(s,t,735,y+10,480,45,24,C.ink,true);
+      });
+      takeaway(s,'삭제 이유와 검증 근거를 설명할 수 있을 때 병합을 결정한다.');
       return s;
     },
     S97(p) {
-      const s=common(p,'S97','어떤 판단을 맡기고 어디서 멈출까','ACT 4 마무리 · 개인 성찰과 Q&A','개인 성찰 · 공유는 선택');
-      lead(s,'우리 팀의 이슈 하나를 떠올려 보세요');
-      section(s,64,265,352,'목표','어디까지 맡길까?','바꿀 것과 지킬 조건을\n한 문장으로 정한다.');
-      section(s,464,265,352,'근거','무엇으로 판단할까?','다음 수정을 요청할 때\n함께 전달할 증거를 고른다.',blue);
-      section(s,864,265,352,'사람의 결정','언제 멈출까?','승인·확인·중단할 조건과\n담당자를 정한다.',C.warn);
-      takeaway(s,'이 판단에 필요한 구성은 무엇이고, 무엇을 덜어낼 수 있을까?');
+      const s=common(p,'S97','무엇을 자동화하고, 무엇을 사람이 결정할까?','ACT 4 마무리 · 개인 성찰과 Q&A','');
+      text(s,'우리 팀이 반복해서 맡기는 일 하나를 떠올려 보세요.',64,172,1152,50,31,C.teal,true);
+      section(s,64,256,347,'01   맡길 일','어디까지 맡길까?','구현·테스트·재수정 중\n자동으로 이어갈 일을 고른다.',blue);
+      section(s,463,256,354,'02   완료 근거','무엇으로 판단할까?','결과가 목표와 맞는지\n확인할 근거 하나를 정한다.');
+      section(s,866,256,350,'03   사람의 결정','언제 멈출까?','승인해야 할 변경과\n판단할 사람을 정한다.',C.warn);
+      takeaway(s,'다음 ACT에서는 내 업무에 남길 구성과 덜어낼 구성을 고른다.');
       return s;
     }
   };

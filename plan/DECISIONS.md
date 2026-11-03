@@ -14969,3 +14969,75 @@ verified work or hand over an incomplete case to a human.
 
 Check diagram labels, colors, connectors and role of the last stage on
 the presentation PC. Keep one lecture minute and four case minutes.
+
+# DEC-0156 — Adapt the loop systems case for ACT four
+
+## Status
+
+ACCEPTED by the presenter.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S83 introduces an eight-stage development workflow. The presenter supplied
+a fourteen-page systems deck and approved replacing S84–S97 with its case.
+
+## Problem
+
+An additional workflow overview could repeat the existing introduction.
+The PDF also mixes a team design, research examples and operational advice.
+
+## Decision
+
+Retain S78–S83 and connect the eight-stage overview to the twelve-step
+GitLab example. Adapt pages 4–14 across S84–S97. Allocate separate
+slides to maker/checker design and each research comparison. End with
+operator limits and a human decision that leads into ACT five. Refresh
+the opening cue and tip indexes in ACT five.
+
+## Rationale
+
+A concrete issue, test record and merge request let a learner follow the
+same job across phases. Separating design examples from paper findings
+makes clear what evidence each slide actually supplies.
+
+## Alternatives
+
+Keeping the prior pixel-copy, PairCoder and Goal sequence would leave
+less room for the four workflow phases. Copying PDF pages verbatim would
+keep unreadable labels and the untraced scoring chart.
+
+## Trade-offs
+
+The dedicated Goal tip and prior research chart leave the current deck.
+Their historical sources remain available. The revised case is a proposed
+workflow and does not establish adoption, trial outcomes or productivity.
+
+## Related Invariants
+
+INV-LOOP-001, INV-VERIFY-001, INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+ACT four, its adjoining cues, the two ACT five reference indexes, both
+slide maps, speaker notes, previews, source registry and handoff.
+
+## Evidence
+
+User-supplied PDF, SRC-0246 / CLM-0050; scoped research sources
+SRC-0247 / CLM-0051 and SRC-0248 / CLM-0052. The per-page crosswalk is
+in [the ACT four plan](ACT4_LOOP_OPERATIONS_PROPOSAL.md).
+
+## Training Relevance
+
+Participants can trace the evidence a reviewer receives and identify
+where a person must take over before a change proceeds.
+
+## Follow-up
+
+Keep 113 slides and 389 minutes, including 20 slides and 85 minutes for
+ACT four. Confirm readability, local rendering and Notes separately
+from classroom projection and live operation.

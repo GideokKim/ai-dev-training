@@ -1,0 +1,110 @@
+{
+  "baseline": "0f6b282",
+  "decision": "DEC-0156",
+  "slideCount": 113,
+  "minutes": 389,
+  "actMinutes": [
+    42,
+    64,
+    90,
+    64,
+    85,
+    44
+  ],
+  "modeMinutes": {
+    "Transition": 23,
+    "Lecture": 169,
+    "Reflection": 19,
+    "Case": 102,
+    "Demo": 44,
+    "Q&A": 32
+  },
+  "reviewScope": "S84–S97; ACT5 transition and index",
+  "changedScreens": [
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    110,
+    112
+  ],
+  "unchangedScreens": 97,
+  "renderCount": 149,
+  "renderSize": [
+    1920,
+    1080
+  ],
+  "notesCompared": 149,
+  "notesFields": 19,
+  "nativeTables": [
+    "S54",
+    "S81",
+    "S85"
+  ],
+  "nativeCharts": [
+    "S69"
+  ],
+  "matrixMarks": {
+    "오토메이션": [
+      1,
+      6,
+      11
+    ],
+    "워크트리": [
+      3,
+      8
+    ],
+    "스킬": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "커넥터": [
+      7,
+      12
+    ],
+    "서브에이전트": [
+      4,
+      5,
+      8,
+      9,
+      10
+    ],
+    "상태/메모리": [
+      2,
+      10
+    ]
+  },
+  "verifiedPackages": [
+    [
+      "AI_Dev_Training_Full",
+      113,
+      "50987182790b2ccd3761be1d633c8dc651cf24815c8b1a96ad48f5979ebcb7a7"
+    ],
+    [
+      "ACT_4",
+      20,
+      "e1f4b664815053495a38a74e4de99e35c1d9c367023b7c87509499aaffc3f460"
+    ],
+    [
+      "ACT_5",
+      16,
+      "eb0ed699798ae38548838c4e7fa024851dd673befda3794d5f62f1ca03271dfb"
+    ]
+  ],
+  "packageAndFirstPartyImport": "PASS",
+  "layoutFindings": 0,
+  "windowsRoomRehearsal": "UNVERIFIED",
+  "independentOOXMLValidation": "PASS (full, ACT4, ACT5)"
+}

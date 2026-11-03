@@ -10,7 +10,7 @@
 
 ACT3는 S60–S77의18장·64분, ACT4는 S78–S97의20장·85분, ACT5는 S98–S113의16장·44분이다.
 DEMO-03은 S65/S66의3Demo분, DEMO-08은 ACT5 S103의Demo2 VISUAL+Case2분이다.
-Native 표 S54/S81, 차트 S69/S87, Goal S95, 마지막 팁 찾아보기 S110–S112, Closing S113이다.
+DEC-0156의 현행 편집 표는 S54/S81/S85, 차트는 S69다. S85에는 도구 배치, S95에는 권한·예산의 중단 조건이 있다. 마지막 팁 찾아보기는 S110–S112, Closing은 S113이다. [ACT4 운영 순서](loop-visual.md)
 전역 Mode는 Lecture169/Demo44/Case102/Reflection19/Transition23/Q&A32분이다.
 S67의 Skill 제작 요청은 사용 예시다. 이어지는 S68은 기존 실제 밝기 통계 후보 비교, S69는 별도 제품 상태 전후 측정이다.
 S66의 DEC-0137 프롬프트창 디자인과 Notes의 실제 요청·역사적 CLI·재구성 범위를 유지한다.

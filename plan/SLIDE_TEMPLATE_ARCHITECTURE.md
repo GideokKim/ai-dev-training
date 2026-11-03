@@ -1,12 +1,10 @@
 # STEP 08 — Slide Template Architecture
 
-## 현재 ACT4 제작 기준 — DEC-0155 (2026-11-03)
+## 현재 ACT4 제작 기준 — DEC-0156 (2026-11-03)
 
-기존 12 templates/28 variants를 재사용한다. DEC-0155의 S83에 한해 T03-C의 여덟 단계와 산출물을 한 장에 둔다. 여덟 노드는 사용자 지정 단계이며 7→4 보완 복귀와 8 인계의 방향을 구분한다. S87의 T07-B는 연구 자료를 담는 한정 적용이며 native chart의 단위는 HumanEval pass@1(%), 출처는 PairCoder Table 2이다. 원래 T07-B 데이터 역할을 유지하고 출처 표지는 RESEARCH로 한다. 배정 수는 [현행 분포표](SLIDE_TEMPLATE_MAP.md)에서 관리한다.
+편집 가능한 표는 S54·S81·S85, 차트는 S69에 둔다. S85의 12단계×여섯 역할 표는 PDF p.5의 점 위치를 따른다. 연구 결과는 S91·S92의 비교 조건과 관찰 범위로 설명한다. PDF p.10의 9.04/7.43 막대는 수록하지 않는다. 템플릿 계열이나 Variant를 추가하지 않는다. 장별 배치는 [현행 템플릿 대응표](SLIDE_TEMPLATE_MAP.md)에서 확인한다.
 
-[승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
-
-아래 DEC-0138은 이번 개편 전의 기준을 보존한다.
+[ACT4 장별 시간표와 PDF 쪽 대응](ACT4_LOOP_OPERATIONS_PROPOSAL.md) · [현행 Slide Map](SLIDE_MAP.md)
 
 ## 이전 제작 기준 — DEC-0138 (2026-11-03)
 

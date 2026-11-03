@@ -1505,3 +1505,35 @@ Selected cells: single 69.51; initial Navigator GPT-3.5-turbo 81.16, GPT-4 90.01
 ### Goal guidance rechecked 2026-11-03
 
 SRC-0240 describes entering `/goal` in the ChatGPT desktop app, Codex CLI and IDE, retaining existing permissions and naming the outcome, evidence and constraints. SRC-0241 gives criteria and blocked-work reporting examples. S95 adapts the request to the course's brightness task. Account entitlement, target PC and execution in the classroom remain UNVERIFIED. [OpenAI, Long-running work](https://learn.chatgpt.com/docs/long-running-work) · [OpenAI, Using Goals in Codex](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex)
+
+## DEC-0156 · S84–S97의 운영 설계와 평가 연구
+
+### SRC-0246
+
+Title: Loop Engineering Systems (사용자 제공 슬라이드, 14쪽)
+Source Type: USER_SUPPLIED_DESIGN
+Original file: `Loop_Engineering_Systems_(3).pdf`
+Original SHA-256: `db42fe68e6b41d732cb41df73311ec90949cdf9bdfd7378b8a825b371b3a08b9`
+Checked: 2026-11-03
+Selector: pp.4–9 GitLab 흐름·도구, p.10 독립 검토, p.11 상태, p.12 운영 한도, pp.13–14 사람의 검토 책임.
+Claim: CLM-0050. 제공된 설계를 강의용으로 재구성했다. p.10에 그려진 두 평균 점수의 비교 조건을 아래 두 원 논문으로 확인할 수 없어 수치 그래프를 옮기지 않았다. p.12의 예시 금액이나 특정 환경 설정도 공통 기준으로 사용하지 않는다. SRC-0244는 당시 저자의 운영기다. 교실이나 현재 사내 프로젝트에서의 실행 결과는 별도 확인 대상이다.
+
+### SRC-0247
+
+Title: Quantifying and Mitigating Self-Preference Bias of LLM Judges
+Authors: Jinming Yang, Zheng Hu, Chuxian Qiu, Zhenyu Deng, Xinshan Jiao, Tao Zhou
+Source Type: ACADEMIC_PRIMARY (preprint)
+URL: https://arxiv.org/abs/2604.22891v4
+Published: 2026-06-02 (v4)
+Checked: 2026-11-03
+Claim: CLM-0051 · S91. 20개 모델을 평가하며 품질이 비슷한 응답 쌍에 대한 선호와 품질 판별 능력을 구분했다. 높은 판별 능력과 자기 응답을 선호하는 경향이 함께 나타날 수 있었다. 실무 코드의 정확성이나 이종 모델 팀의 성과는 이 비교에서 측정하지 않았다.
+
+### SRC-0248
+
+Title: The Self-Correction Illusion: Role Relabeling Gates Explicit Error Flagging in Large Language Models
+Authors: Kuan-Yen Chen, Fang-Yi Su, Shih-Yen Lin, Bao Li, Jung-Hsien Chiang
+Source Type: ACADEMIC_PRIMARY (preprint)
+URL: https://arxiv.org/abs/2606.05976v2
+Published: 2026-07-31 (v2)
+Checked: 2026-11-03
+Claim: CLM-0052 · S92. 같은 오류 문장을 그대로 두고 자신의 생각·사용자·도구·외부 메모리 등 메시지 역할만 바꿨다. 외부 역할로 제시했을 때 오류를 명시적으로 짚는 비율의 증가가 12개 모델·과제 조합 중 10개에서 유의했다. 독립 모델 조합의 성능을 비교한 실험으로 확장하지 않는다.

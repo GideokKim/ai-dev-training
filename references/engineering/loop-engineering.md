@@ -1,10 +1,12 @@
 # Loop Engineering
 
-## Current use under DEC-0146
+## 현행 ACT4 · DEC-0156
 
-S79 shows a developer relaying a review finding into another request. S80 shows the same goal and finding carried directly into revision and recheck. S81 compares the workflows. S82 uses the five components and external memory from section 2 of the [presenter’s operating account](https://gideokkim.github.io/codex/loop-engineering/) as a design guide. S83 maps an eight-stage workflow and its handoff decisions. S84–S85 illustrate a revision and the evidence required to finish or stop. The brightness case is a teaching reconstruction. S88 introduces the first-person GitLab operating account. Its example handoff fields and failed-read branch have teaching provenance.
+S83에서 8단계로 그린 한 작업의 루프를 S84–S89에서는 GitLab 이슈 하나로 따라간다. 요청을 분류하고 격리된 공간에서 작업한다. 검토한 이슈 문서를 먼저 등록한 뒤 코드 변경과 테스트를 반복하고, 마지막으로 사람이 검토할 병합 요청을 올린다. 12단계와 구성요소 매핑은 제공 자료의 운영 설계다. 병합 승인과 실제 효과 측정은 별개다. [자료 기록](../sources/SOURCES.md#src-0246)
 
-S86 distinguishes assigning roles from selecting models. S87 uses PairCoder's HumanEval comparison. ReConcile (StrategyQA), Self-Refine and intrinsic self-correction remain supplementary readings for the former research sequence. The registered studies and claims retain their original scopes. [Source registry](../sources/SOURCES.md) · [Approved ACT4 sequence](../../plan/ACT4_LOOP_OPERATIONS_PROPOSAL.md)
+S90의 역할 분리에서 두 질문이 생긴다. S91은 평가자가 품질이 비슷한 두 응답 중 자기 응답을 선호할 수 있는지, S92는 동일한 오류를 어느 출처의 발언으로 제시했을 때 더 자주 지적하는지 다룬다. 두 실험의 조건을 구별해야 어떤 검토를 별도로 맡길지 설명할 수 있다. 코드 변경의 완료 판단에는 테스트와 변경 근거도 필요하다. [Yang 등, 2026](https://arxiv.org/abs/2604.22891v4) · [Chen 등, 2026](https://arxiv.org/abs/2606.05976v2)
+
+S93–S97은 실행 간 인계, 권한·자원 한도, 사람이 직접 설명하고 승인해야 할 결정을 다룬다. 앞 판본의 이종 모델 연구 예시는 참고 자료로 남아 있다. PairCoder의 HumanEval 표는 특정 과제·모델 조합의 비교이며, 저자의 GitLab 사례에서 품질 향상을 측정한 수치로 옮길 수 없다. [PairCoder 원문, 표 2](https://aclanthology.org/2026.findings-acl.149.pdf#page=7) · [사례 운영기](https://gideokkim.github.io/codex/loop-engineering/)
 
 ## Earlier DEC-0097 teaching sequence
 

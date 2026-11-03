@@ -1,12 +1,14 @@
 # Official Slide Map
 
-## 현재 ACT3→ACT4 제작 기준 — DEC-0155 (2026-11-03)
+## 현재 ACT4 제작 기준 — DEC-0156 (2026-11-03)
 
-S77에서 점심 전 맡긴 작업과 돌아와 받은 계획을 나란히 보여준다. S79는 “응, 시작해.”라는 답에서 첫 구현으로 이어지고, 검토 지적을 사람이 전달하는 두 번째 멈춤을 보여준다. S80은 같은 첫 지적을 루프로 연결한 대안이다. S81은 두 진행 방식을 네 항목으로 비교하고 S82는 작업에 맞춰 선택할 여섯 구성 역할을 소개한다. S83에서 한 작업의 여덟 단계와 각 단계의 산출물을 따라간다. S84는 7단계 판단에서 4단계 구현으로 돌아오는 보완 사례로 전체 복사와 행별 집계를 비교한다. 누락된 시간은 같은 후보로 먼저 측정하고 결과와 한도를 보고 다음 행동을 정한다. S88부터의 GitLab 사례는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54/S81, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
+S77의 점심 전후 대화에서 출발해 S79에서 사람이 첫 검토 지적을 다시 전달하는 상황과 S80에서 그 지적이 다음 수정으로 이어지는 상황을 비교한다. S81은 두 진행 방식을 정리하고, S82는 여섯 구성 역할, S83은 목표에서 사람 인계까지 여덟 작업 단계를 제시한다.
 
-[승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
+S84–S89는 GitLab 작업 12단계와 네 구간의 산출물, S90–S92는 작성·검토 분리와 관련 연구 두 편, S93–S95는 외부 상태와 무인 실행의 권한·예산 한계, S96–S97은 병합 판단을 맡을 사람의 책임을 다룬다. S98에서 업무에 맞게 조합하거나 덜어낼 요소를 고른다.
 
-아래 DEC-0138은 이번 개편 전의 기준을 보존한다.
+편집 가능한 표는 S54·S81·S85, 차트는 S69에 둔다. S85의 12단계×여섯 역할 표는 PDF p.5의 점 위치를 따른다. 연구 결과는 S91·S92의 비교 조건과 관찰 범위로 설명한다. PDF p.10의 9.04/7.43 막대는 수록하지 않는다. ACT4 실무 팁은 S83 ‘목표에서 인계까지, 루프의 8단계’, S85 ‘어느 단계에 어떤 도구를 연결할까?’, S95 ‘권한·예산을 넘으면 멈추고 사람에게 넘긴다’다. S110의 작업 환경·기준 찾아보기는 S95를, S112의 검증·개선 찾아보기는 S83/S85/S95/S106/S107을 가리킨다.
+
+[ACT4 장별 시간표와 PDF 쪽 대응](ACT4_LOOP_OPERATIONS_PROPOSAL.md) · [현행 Slide Map](SLIDE_MAP.md)
 
 ## 이전 제작 기준 — DEC-0138 (2026-11-03)
 
@@ -2163,369 +2165,369 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 사용자 제공 개발 워크플로우의 설계도다. 실행된 여덟 단계, 측정 결과, 필수 도구 또는 자동 완료를 뜻하지 않는다.
 - **Visual Concept:** 한 화면에 단계·하는 일·남기는 결과를 정렬한다. 1 목표와 범위 정의, 2 현재 상태 조사, 3 계획과 실행 환경 준비, 4 구현, 5 실행 검증, 6 독립 검토, 7 다음 행동 판단, 8 결과 정리와 인계. 7의 보완 경로는 4로 돌아가 5·6을 다시 거친다. 완료·중단은 8의 사람 인계로 이어진다. 단계별 내용은 승인 시간표의 S83 원문표를 따른다.
-- **Demo / Case Connection:** 사용자가 제공한 정적 작업 절차에 한 변경을 대입해 읽는다. 다음 장에서 CASE-LOOP-01의 전체 복사 지적이 보완 경로의 예가 된다.
+- **Demo / Case Connection:** 사용자가 제공한 정적 작업 절차를 읽는다. 이어 S84에서 이 절차와 GitLab 작업의 네 구간을 연결한다.
 - **Beginner Payoff:** 실행 검증의 산출물은 빌드·테스트·벤치마크 기록이고, 독립 검토의 산출물은 요구사항 누락·회귀 가능성·테스트 부족에 대한 의견임을 구별한다.
 - **Advanced Payoff:** Worktree와 Subagent는 필요할 때 준비한다. 목표와 제약을 유지한 보완 경로와, 확인할 사항을 적어 사람에게 넘기는 중단 경로를 구분한다.
 - **C++ Vision Bridge:** N/A — 언어와 도구에 독립적인 개발 워크플로우.
 - **Speaker Intent:** 작업 한 건을 따라 목표·기준선·계획부터 결과 보고까지 남는 근거를 짚는다. 7에서 보완을 택하면 4·5·6을 재방문한다. 중단할 때도 미실행 항목·남은 문제·후속 확인을 보고한다.
-- **Transition:** 독립 검토에서 전체 픽셀 복사가 지적되어 7단계에서 보완을 골랐다면, 다시 4단계로 간 구현은 어디가 달라질까?
+- **Transition:** 목표·검토·인계의 여덟 단계를 GitLab 이슈 한 건에 적용하면 어떤 팀 작업으로 나뉠까?
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 4분 = 5분
 - **Evidence / Decision References:** DEC-0155, DEC-0152, BEAT-074–079, INV-LOOP-001, INV-VERIFY-001
 - **Audience Footer:** N/A — 정적 교육용 작업 흐름.
 - **Practical Tip Classification:** 검증·개선
 
-#### S84 — 그 지적을 받은 구현은 어디가 달라질까?
+#### S84 — 8단계를 GitLab 작업 12단계로 옮기면
 
 - **Slide ID:** S84
 - **ACT:** ACT 4
-- **Section:** 4R2 One-goal walkthrough
-- **Working Title:** 그 지적을 받은 구현은 어디가 달라질까?
-- **Primary Role:** 검토자가 넘긴 전체 복사 지적과 구현자가 바꾼 계산 방식을 대응시킨다.
-- **Audience Question:** 그 지적을 받은 구현은 어디가 달라질까?
-- **Core Message:** 루프가 같은 지적을 구현에 직접 넘긴다. 다음 후보는 전체 픽셀 목록을 만드는 방식에서 한 행씩 집계하는 방식으로 바뀐다.
-- **Story Beat:** BEAT-077
-- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0150
+- **Section:** 4R2 GitLab workflow overview
+- **Working Title:** 8단계를 GitLab 작업 12단계로 옮기면
+- **Primary Role:** 단계 개수는 팀이 남겨야 할 산출물에 따라 달라진다.
+- **Audience Question:** 한 목표가 GitLab의 어떤 산출물로 이어질까?
+- **Core Message:** 8단계의 목표·검토·인계를 한 팀의 GitLab 흐름에 대입하면 요청 준비, 이슈 등록, 구현·테스트, 병합 요청의 네 구간으로 나눌 수 있다.
+- **Story Beat:** BEAT-074, BEAT-077, BEAT-088
+- **Curriculum Trace:** ACT 4 / 4R2 GitLab workflow overview · DEC-0156
 - **Evidence Type:** CONCEPTUAL
-- **Claim Status:** CONCEPTUAL CASE — CASE-LOOP-01의 밝기 통계 가상 후보와 검토 과정. 기존 제품 Trial은 함수의 실제 배경만 제공한다.
-- **Visual Concept:** 7단계에서 보완을 골라 4단계로 복귀하는 한 사례를 확대한다. 전체 픽셀 복사 지적에 추적 표식 R1을 붙이고, 첫 후보의 전체 임시 목록과 다음 후보의 행별 최솟값·최댓값·합계 집계를 나란히 비교한다.
-- **Demo / Case Connection:** CASE-LOOP-01 · 밝기 통계 내부 루프의 교육용 설계
-- **Beginner Payoff:** 검토·판단에서 되돌아온 전체 복사 지적을 다음 후보에서 어떻게 고쳤는지 비교한다.
-- **Advanced Payoff:** 두 후보가 놓인 교육용 비교에서 코드 변경 근거와 아직 확보해야 할 성능 측정 근거를 구분한다.
-- **C++ Vision Bridge:** 프로젝트 명세·검사·측정 기준으로 전이할 수 있는 설계 원리.
-- **Speaker Intent:** 앞 장의 6단계 독립 검토와 7단계 보완 판단에 밝기 통계 예시를 대입한다. 검토 지적 R1과 두 구현을 짝짓고, 변경 효과는 다음 검사·측정으로 확인해야 함을 짚는다.
-- **Transition:** 전체 복사는 없앴다. 다음 후보의 실행시간을 아직 재지 않았다면 끝내도 될까?
+- **Claim Status:** CONCEPTUAL CASE — 제공 PDF의 GitLab 설계 예시. 팀 운영 표준의 승인, 실제 실행, 자동 병합 또는 개선율은 확인하지 않았다.
+- **Visual Concept:** 12개 작업을 네 구간으로 묶는다. 하단 문구로 구현·테스트 반복을 예고하고 S88에서 복귀선을 그린다.
+- **Demo / Case Connection:** Loop Engineering Systems p.4에서 각색한 발표용 도식. 정적 사례로 설명한다.
+- **Beginner Payoff:** 단계를 지나며 무엇이 생기는지 작업 공간, 이슈, 검증 기록, 병합 요청의 순서로 말할 수 있다.
+- **Advanced Payoff:** GitLab에 등록하는 일과 코드 병합을 승인하는 일을 분리한다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 단계 개수는 팀이 남겨야 할 산출물에 따라 달라진다. S83의 검토와 인계가 어느 위치에 나타나는지 찾는다.
+- **Transition:** 어느 단계에 어떤 도구를 연결할까?
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 4분 = 5분
-- **Evidence / Decision References:** DEC-0150, DEC-0144, BEAT-077, CASE-LOOP-01, DEC-0097, CLM-0021
-- **Audience Footer:** 교육용 재구성
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
-#### S85 — 고친 뒤, 끝낼까 다시 고칠까?
+#### S85 — 어느 단계에 어떤 도구를 연결할까?
 
 - **Slide ID:** S85
 - **ACT:** ACT 4
-- **Section:** 4R3 Loop control
-- **Working Title:** 고친 뒤, 끝낼까 다시 고칠까?
-- **Primary Role:** 같은 수정안에서 확보 가능한 근거를 먼저 얻고 그 결과로 완료·재수정·미완료 인계를 결정한다.
-- **Audience Question:** 고친 뒤, 끝낼까 다시 고칠까?
-- **Core Message:** 실행시간 기록이 비어 있다면 같은 후보와 기준판을 같은 입력·측정 조건으로 비교한다. 확인된 결과로 다음 행동을 정한다.
-- **Story Beat:** BEAT-078, BEAT-079
-- **Curriculum Trace:** ACT 4 / 4R3 Loop control · DEC-0150
-- **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
-- **Claim Status:** CONCEPTUAL CASE — CASE-LOOP-01의 밝기 통계 가상 후보와 검토 과정. 기존 제품 Trial은 함수의 실제 배경만 제공한다.
-- **Visual Concept:** 실행시간 기록이 없는 예시 조건에서 시작해 같은 수정안을 먼저 측정한다. 여섯 출력 보존·할당 피크 감소·실행시간 유지가 모두 확인되면 후보와 근거를 검토에 제출한다. 확인된 위반은 다음 수정과 재검토로, 측정 불가 또는 한도 도달은 미완료 인계로 연결한다.
-- **Demo / Case Connection:** CASE-LOOP-01 · 밝기 통계 내부 루프의 교육용 설계
-- **Beginner Payoff:** 아직 재지 않은 시간과 실제 허용 조건을 어긴 시간을 구분해 측정 또는 다음 수정을 선택한다.
-- **Advanced Payoff:** 측정 가능 여부와 한도를 별도로 확인한다. 증거 확보가 막히면 현재 후보와 미확인 항목을 사람이 판단할 수 있게 인계한다.
-- **C++ Vision Bridge:** 프로젝트 명세·검사·측정 기준으로 전이할 수 있는 설계 원리.
-- **Speaker Intent:** 성찰 2분에는 ‘실행시간 기록이 없음’과 ‘측정 결과 시간 조건을 넘음’의 첫 행동을 각각 고르게 한다. 실제 통과·위반이나 자동 병합을 가정하지 않는다.
-- **Transition:** 이 후보를 바꾸는 담당과 검토 근거를 대조하는 담당을 어떻게 정할까?
+- **Section:** 4R3 Component selection
+- **Working Title:** 어느 단계에 어떤 도구를 연결할까?
+- **Primary Role:** 커넥터 행에서 7단계 이슈 등록과 12단계 MR 등록을 찾는다. 성찰에서는 다른 한 단계에 필요한 역할을 고른다.
+- **Audience Question:** 어느 단계에 어떤 도구를 연결할까?
+- **Core Message:** 이슈 등록(7단계)과 병합 요청 등록(12단계)은 모두 외부 시스템에 결과를 남기므로 커넥터를 쓴다. 다른 단계도 남길 결과를 보고 도구를 고른다.
+- **Story Beat:** BEAT-051, BEAT-087, BEAT-088
+- **Curriculum Trace:** ACT 4 / 4R3 Component selection · DEC-0156
+- **Evidence Type:** TEACHING_MODEL
+- **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
+- **Visual Concept:** 12개 단계와 여섯 역할의 교차표를 읽는다. 예로 커넥터의 점 두 개를 따라 7단계 이슈 등록과 12단계 MR 등록을 짚는다.
+- **Demo / Case Connection:** Loop Engineering Systems p.5에서 각색한 발표용 도식. 정적 사례로 설명한다.
+- **Beginner Payoff:** 빈 칸을 채울 필요 없이 특정 단계에 필요한 역할을 고른다.
+- **Advanced Payoff:** 같은 도구를 여러 단계에 연결하는 근거와 도구를 뺄 조건을 짚는다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 커넥터 행에서 7단계 이슈 등록과 12단계 MR 등록을 찾는다. 성찰에서는 다른 한 단계에 필요한 역할을 고른다.
+- **Transition:** 먼저 요청을 분류하고 작업 공간을 분리한다
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 3분 + Reflection 2분 = 5분
-- **Evidence / Decision References:** DEC-0150, DEC-0144, BEAT-078, BEAT-079, CASE-LOOP-01, DEC-0097, CLM-0021
-- **Audience Footer:** 교육용 재구성
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 - **Practical Tip Classification:** 검증·개선
 
-#### S86 — 구현자와 검토자를 어떻게 고를까
+#### S86 — 먼저 요청을 분류하고 작업 공간을 분리한다
 
 - **Slide ID:** S86
 - **ACT:** ACT 4
-- **Section:** 4R4 Review research
-- **Working Title:** 구현자와 검토자를 어떻게 고를까
-- **Primary Role:** 구현 역할과 검토 역할을 정의한 뒤 대표 과제에서 각각에 배치할 모델을 평가한다.
-- **Audience Question:** 검토 담당이 제출한 의견을 무엇으로 확인할까?
-- **Core Message:** 구현 역할과 검토 역할을 정의한 뒤 대표 과제에서 각각에 배치할 모델을 평가한다.
-- **Story Beat:** BEAT-082
-- **Curriculum Trace:** ACT 4 / 4R4 Review research; DEC-0144
-- **Evidence Type:** RESEARCH / TEACHING_MODEL
-- **Claim Status:** FROZEN WITH SCOPE — CriticBench의 지정된 과제·모델에서 관찰한 비평/교정 능력의 차이를 검토 역할 선택에 응용한다.
-- **Visual Concept:** 역할을 두 칸으로 분리한 뒤 같은 모델 또는 다른 모델을 넣어 본다. 검토의 채택 여부는 명세·diff·검사 자료로 판단한다. CriticBench는 검토 능력도 따로 평가할 이유를 설명하는 보조 근거다.
-- **Demo / Case Connection:** SRC-0238 · CriticBench 결과의 운영 적용
-- **Beginner Payoff:** 구현 역할과 검토 역할을 정의한 뒤 대표 과제에서 각각에 배치할 모델을 평가한다.
-- **Advanced Payoff:** 생성·검토 역할의 분리와 서로 다른 모델 사용을 별개의 선택으로 본다.
-- **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** 생성·검토 역할의 분리와 서로 다른 모델 사용을 별개의 선택으로 본다.
-- **Transition:** 같은 구현 모델에 어떤 검토 모델을 붙이느냐가 결과에 영향을 주었을까?
+- **Section:** 4R4 Request and issue preparation
+- **Working Title:** 먼저 요청을 분류하고 작업 공간을 분리한다
+- **Primary Role:** 접수한 요청, 읽어야 할 근거, 코드 변경을 둘 위치를 차례로 가리킨다.
+- **Audience Question:** 이 요청은 어디에서 조사하고 구현할까?
+- **Core Message:** 요청의 범위와 GitLab 흐름 적용 여부를 판단하고 기존 코드·지침·상태를 확인한 뒤 기준 브랜치에서 이슈 전용 작업 공간을 만든다.
+- **Story Beat:** BEAT-074, BEAT-075, BEAT-087
+- **Curriculum Trace:** ACT 4 / 4R4 Request and issue preparation · DEC-0156
+- **Evidence Type:** CONCEPTUAL
+- **Claim Status:** CONCEPTUAL CASE — 제공 PDF의 GitLab 설계 예시. 팀 운영 표준의 승인, 실제 실행, 자동 병합 또는 개선율은 확인하지 않았다.
+- **Visual Concept:** ① 요청 분류 ② 사전 조사 ③ 브랜치와 워크트리 준비. 공통 기준점에서 분리한 작업 공간을 표시한다.
+- **Demo / Case Connection:** Loop Engineering Systems p.6에서 각색한 발표용 도식. 정적 사례로 설명한다.
+- **Beginner Payoff:** 어느 이슈의 변경인지 작업 공간에서 구분할 수 있다.
+- **Advanced Payoff:** 워크트리 분리로 해결할 범위와 별도로 설정해야 할 실행 권한을 구별한다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 접수한 요청, 읽어야 할 근거, 코드 변경을 둘 위치를 차례로 가리킨다.
+- **Transition:** 이슈 문서는 작성과 검증을 나눠 등록한다
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 3분 + Case 1분 = 4분
-- **Evidence / Decision References:** DEC-0144, BEAT-082, SRC-0238, CLM-0044
-- **Audience Footer:** CriticBench · 연구 결과와 역할 설계
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
-#### S87 — 코드 생성 실험에서 검토 모델을 바꾸면
+#### S87 — 이슈 문서는 작성과 검증을 나눠 등록한다
 
 - **Slide ID:** S87
 - **ACT:** ACT 4
-- **Section:** 4R4 Review research
-- **Working Title:** 코드 생성 실험에서 검토 모델을 바꾸면
-- **Primary Role:** 초기 Driver를 고정한 HumanEval 실험에서 초기 Navigator 조합에 따라 pass@1이 달라졌다.
-- **Audience Question:** 같은 구현 모델에 어떤 검토 모델을 붙이느냐가 결과에 영향을 주었을까?
-- **Core Message:** 초기 Driver를 고정한 HumanEval 실험에서 초기 Navigator 조합에 따라 pass@1이 달라졌다.
-- **Story Beat:** BEAT-081
-- **Curriculum Trace:** ACT 4 / 4R4 Review research; DEC-0144
-- **Evidence Type:** RESEARCH
-- **Claim Status:** FROZEN WITH SCOPE — PairCoder Table 2, HumanEval pass@1, 초기 Driver 고정 및 역할 교대 가능. 해당 모델 조합과 연구 조건의 비교다.
-- **Visual Concept:** PairCoder 표 2의 한 행만 읽는다. 아래의 동일 모델 조합과 서로 다른 두 조합을 비교한다. 우리 팀에서는 대표 이슈로 정답성·회귀·비용을 확인해야 한다는 판단으로 닫는다.
-- **Demo / Case Connection:** SRC-0245 · HumanEval 논문 실험
-- **Beginner Payoff:** 초기 Driver를 고정한 HumanEval 실험에서 초기 Navigator 조합에 따라 pass@1이 달라졌다.
-- **Advanced Payoff:** 같은 모델 81.16%, GPT-4 90.01%, minimax-abab-chat 48.19%, 단독 69.51%를 동일 Driver 행에서 읽는다.
-- **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** 같은 모델 81.16%, GPT-4 90.01%, minimax-abab-chat 48.19%, 단독 69.51%를 동일 Driver 행에서 읽는다.
-- **Transition:** 연구의 모델 조합 비교를 닫는다. 지금부터 한 작업의 구현·검토 루프를 GitLab 이슈에 연결한 팀 사례를 본다.
+- **Section:** 4R4 Request and issue preparation
+- **Working Title:** 이슈 문서는 작성과 검증을 나눠 등록한다
+- **Primary Role:** 누락된 필드가 있으면 등록 전에 작성 단계로 넘긴다.
+- **Audience Question:** 확인되지 않은 초안이 이슈로 등록되는 것을 어떻게 막을까?
+- **Core Message:** 이슈 문서 초안을 별도 관점으로 확인하고 문서만 커밋한 뒤 이슈를 등록한다.
+- **Story Beat:** BEAT-076, BEAT-088
+- **Curriculum Trace:** ACT 4 / 4R4 Request and issue preparation · DEC-0156
+- **Evidence Type:** CONCEPTUAL
+- **Claim Status:** CONCEPTUAL CASE — 제공 PDF의 GitLab 설계 예시. 팀 운영 표준의 승인, 실제 실행, 자동 병합 또는 개선율은 확인하지 않았다.
+- **Visual Concept:** ④ 작성 → ⑤ 검증 → ⑥ 문서 단독 커밋 → ⑦ 이슈 등록. 작성자·검토자와 등록 커넥터를 구분한다.
+- **Demo / Case Connection:** Loop Engineering Systems p.7에서 각색한 발표용 도식. 정적 사례로 설명한다.
+- **Beginner Payoff:** 이슈 등록 전에 검토할 수 있는 문서가 먼저 생긴다는 점을 이해한다.
+- **Advanced Payoff:** 템플릿 형식 확인과 내용의 정확성 검토를 구별한다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 누락된 필드가 있으면 등록 전에 작성 단계로 넘긴다. 등록 후 남는 것은 추적 가능한 이슈다.
+- **Transition:** 작은 변경마다 구현과 테스트를 반복한다
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 3분 + Case 2분 = 5분
-- **Evidence / Decision References:** DEC-0144, BEAT-081, SRC-0245, CLM-0049
-- **Audience Footer:** PairCoder · Table 2 · HumanEval
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
-#### S88 — 구현·검토 루프를 팀 이슈에 어떻게 연결했을까?
+#### S88 — 작은 변경마다 구현과 테스트를 반복한다
 
 - **Slide ID:** S88
 - **ACT:** ACT 4
-- **Section:** 4R5 Team operations and state
-- **Working Title:** 구현·검토 루프를 팀 이슈에 어떻게 연결했을까?
-- **Primary Role:** 팀 사례를 처음 소개하며 한 이슈의 구현·검토 결과가 팀원의 병합 검토로 이동하는 경로를 보여준다.
-- **Audience Question:** 구현·검토 루프를 팀 이슈에 어떻게 연결했을까?
-- **Core Message:** 한 GitLab 이슈의 목표를 분리된 작업 공간에서 구현·검토하고, 결과를 MR에 모아 팀원이 살펴본다.
-- **Story Beat:** BEAT-087, BEAT-088
-- **Curriculum Trace:** ACT 4 / 4R5 Team operations and state · DEC-0145
-- **Evidence Type:** RESEARCH
-- **Claim Status:** FROZEN WITH SCOPE — 김기덕이 2026-06-16 개인 블로그에 공개한 당시 사내 운영 방식. 팀 전체 개선율이나 현재 자동화 가동률은 측정하지 않았다.
-- **Visual Concept:** 왼쪽부터 이슈 한 건, 이슈별 작업 공간, 구현·검토, 팀원이 확인할 병합 요청(MR)을 한 경로에 놓는다.
-- **Demo / Case Connection:** SRC-0244 · 글쓴이 GitLab 사내 운영 사례
-- **Beginner Payoff:** 한 이슈에서 만들어진 수정안과 검사 근거가 팀의 검토 화면에 이르는 순서를 읽는다.
-- **Advanced Payoff:** 이슈 안에서 후보를 다시 고치는 판단과 사람이 제품 변경을 병합하는 결정을 구분한다.
-- **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** MR을 병합 요청으로 풀어 준다. 저자의 특정 팀 운영기를 소개하고 S89의 이슈별 작업 공간으로 확대한다.
-- **Transition:** 변경이 어느 이슈에 속하는지 어떻게 구분할까?
+- **Section:** 4R5 Implementation, review and state
+- **Working Title:** 작은 변경마다 구현과 테스트를 반복한다
+- **Primary Role:** 한 지적과 관련 테스트가 다음 수정으로 이어지는 길을 따라간다.
+- **Audience Question:** 테스트에서 문제가 드러나면 무엇이 다음 수정에 전달될까?
+- **Core Message:** 격리된 작업 공간에서 작은 변경을 구현하고 테스트 결과나 검토 지적을 같은 변경의 다음 수정에 전달한다.
+- **Story Beat:** BEAT-075, BEAT-076, BEAT-077, BEAT-078, BEAT-079
+- **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156
+- **Evidence Type:** CONCEPTUAL
+- **Claim Status:** CONCEPTUAL CASE — 제공 PDF의 GitLab 설계 예시. 팀 운영 표준의 승인, 실제 실행, 자동 병합 또는 개선율은 확인하지 않았다.
+- **Visual Concept:** ⑧ 구현과 ⑨ 테스트를 복귀선으로 연결하고 완료 기준을 갖춘 후보만 밖으로 보낸다.
+- **Demo / Case Connection:** Loop Engineering Systems p.8에서 각색한 발표용 도식. 정적 사례로 설명한다.
+- **Beginner Payoff:** 언제 다시 수정하고 언제 다음 단계로 가는지 설명한다.
+- **Advanced Payoff:** 동작 테스트 통과와 전체 목표 충족을 구분하고 누락된 근거를 확인한다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 한 지적과 관련 테스트가 다음 수정으로 이어지는 길을 따라간다. 한도를 만나면 미완료 사항을 남긴다.
+- **Transition:** 변경과 근거를 묶어 병합 요청을 올린다
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 3분 = 5분
-- **Evidence / Decision References:** DEC-0145, BEAT-087, BEAT-088, SRC-0244, CLM-0048
-- **Audience Footer:** 김기덕 · 사내 운영 사례 · 2026-06-16
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
-#### S89 — 새 이슈에는 별도 작업 공간이 생긴다
+#### S89 — 변경과 근거를 묶어 병합 요청을 올린다
 
 - **Slide ID:** S89
 - **ACT:** ACT 4
-- **Section:** 4R5 Team operations and state
-- **Working Title:** 새 이슈에는 별도 작업 공간이 생긴다
-- **Primary Role:** 대상 이슈와 작업별 worktree를 연결하고 maker와 checker가 맡을 범위를 구분한다.
-- **Audience Question:** 변경이 어느 이슈에 속하는지 어떻게 구분할까?
-- **Core Message:** 대상 이슈와 작업별 worktree를 연결하고 maker와 checker가 맡을 범위를 구분한다.
-- **Story Beat:** BEAT-087
-- **Curriculum Trace:** ACT 4 / 4R5 Team operations and state; DEC-0144
-- **Evidence Type:** RESEARCH
-- **Claim Status:** FROZEN WITH SCOPE — 김기덕이 2026-06-16 개인 블로그에 공개한 당시 사내 운영 방식. 팀 전체 개선율이나 현재 자동화 가동률은 측정하지 않았다.
-- **Visual Concept:** 이슈 식별자에서 worktree로 한 줄을 잇는다. 여기에 이미 배운 수행 Skill과 maker/checker 역할을 배치한다. 하나의 도식에서 어느 일의 변경인지 따라가게 한다.
-- **Demo / Case Connection:** SRC-0244 · 글쓴이 GitLab 사내 운영 사례
-- **Beginner Payoff:** 대상 이슈와 작업별 worktree를 연결하고 maker와 checker가 맡을 범위를 구분한다.
-- **Advanced Payoff:** worktree는 같은 저장소의 변경 공간을 분리한다. 역할 분담의 품질 효과는 별도 판단이다.
-- **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** worktree는 같은 저장소의 변경 공간을 분리한다. 역할 분담의 품질 효과는 별도 판단이다.
-- **Transition:** 후보를 누가 보고 병합할 수 있게 연결할까?
+- **Section:** 4R5 Implementation, review and state
+- **Working Title:** 변경과 근거를 묶어 병합 요청을 올린다
+- **Primary Role:** 문서 커밋과 실제 MR 등록 결과를 구분하고 병합 승인 책임을 확인한다.
+- **Audience Question:** 사람이 어떤 자료를 받아야 병합을 판단할까?
+- **Core Message:** 현재 변경과 검사 근거로 병합 요청 문서(MR mirror)를 갱신하고 문서만 커밋한 뒤 GitLab에 병합 요청을 등록한다.
+- **Story Beat:** BEAT-088, BEAT-090
+- **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156
+- **Evidence Type:** CONCEPTUAL
+- **Claim Status:** CONCEPTUAL CASE — 제공 PDF의 GitLab 설계 예시. 팀 운영 표준의 승인, 실제 실행, 자동 병합 또는 개선율은 확인하지 않았다.
+- **Visual Concept:** ⑩ MR 문서 작성 → ⑪ 문서 단독 커밋 → ⑫ MR 등록. 사람이 검토할 지점에서 멈춘다.
+- **Demo / Case Connection:** Loop Engineering Systems p.9에서 각색한 발표용 도식. 정적 사례로 설명한다.
+- **Beginner Payoff:** MR의 실제 의미가 사람이 후보를 검토할 수 있도록 요청을 올리는 것임을 이해한다.
+- **Advanced Payoff:** 코드·근거·남은 문제를 특정 변경에 매달아 인계한다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 문서 커밋과 실제 MR 등록 결과를 구분하고 병합 승인 책임을 확인한다.
+- **Transition:** 작성자와 검토자는 무엇을 주고받을까?
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 3분 = 4분
-- **Evidence / Decision References:** DEC-0144, BEAT-087, SRC-0244, CLM-0048
-- **Audience Footer:** 김기덕 · 사내 운영 사례 · 2026-06-16
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
-#### S90 — 변경 후보가 팀의 MR이 되기까지
+#### S90 — 작성자와 검토자는 무엇을 주고받을까?
 
 - **Slide ID:** S90
 - **ACT:** ACT 4
-- **Section:** 4R5 Team operations and state
-- **Working Title:** 변경 후보가 팀의 MR이 되기까지
-- **Primary Role:** 사내 API가 이슈와 MR을 연결하면 팀원은 변경 후보와 그 근거를 검토할 수 있다.
-- **Audience Question:** 후보를 누가 보고 병합할 수 있게 연결할까?
-- **Core Message:** 사내 API가 이슈와 MR을 연결하면 팀원은 변경 후보와 그 근거를 검토할 수 있다.
-- **Story Beat:** BEAT-088
-- **Curriculum Trace:** ACT 4 / 4R5 Team operations and state; DEC-0144
-- **Evidence Type:** RESEARCH
-- **Claim Status:** FROZEN WITH SCOPE — 김기덕이 2026-06-16 개인 블로그에 공개한 당시 사내 운영 방식. 팀 전체 개선율이나 현재 자동화 가동률은 측정하지 않았다.
-- **Visual Concept:** 이슈 등록과 MR 작성을 사내 API 연결이 담당하는 경로를 보여준다. MR에는 사람이 변경과 근거를 검토할 접점이 생긴다. GitLab 작업과 모델 검토의 주체를 구분한다.
-- **Demo / Case Connection:** SRC-0244 · 글쓴이 GitLab 사내 운영 사례
-- **Beginner Payoff:** 사내 API가 이슈와 MR을 연결하면 팀원은 변경 후보와 그 근거를 검토할 수 있다.
-- **Advanced Payoff:** MR 생성 단계와 사람이 병합할 권한을 나눈다.
-- **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** MR 생성 단계와 사람이 병합할 권한을 나눈다.
-- **Transition:** 내일 실행이 처음 읽어야 할 기록은 무엇일까?
+- **Section:** 4R5 Implementation, review and state
+- **Working Title:** 작성자와 검토자는 무엇을 주고받을까?
+- **Primary Role:** 역할 분리와 모델 선택을 따로 묻는다.
+- **Audience Question:** 작성자와 검토자는 무엇을 주고받을까?
+- **Core Message:** 작성자는 요구사항에 연결된 변경과 근거를 제출한다. 검토자는 누락된 조건이나 재현할 지적을 돌려보내고 작성자는 그 지적을 고친다.
+- **Story Beat:** BEAT-076, BEAT-077, BEAT-082
+- **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156
+- **Evidence Type:** TEACHING_MODEL
+- **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
+- **Visual Concept:** 두 역할 사이에 변경·검사 기록을 보내는 경로와 지적이 되돌아오는 경로를 나눈다.
+- **Demo / Case Connection:** Loop Engineering Systems p.10에서 각색한 발표용 도식. 정적 사례로 설명한다.
+- **Beginner Payoff:** 검토 의견이 다음 수정의 구체적 입력이 되는 과정을 짚는다.
+- **Advanced Payoff:** 모델을 나눌 때에도 같은 오류를 놓칠 수 있어 외부 검사 근거가 필요하다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 역할 분리와 모델 선택을 따로 묻는다. 같은 역할 배치도 검사 자료에 따라 판단해야 한다.
+- **Transition:** 자기평가 점수만으로 완료를 정할 수 있을까?
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 3분 = 4분
-- **Evidence / Decision References:** DEC-0144, BEAT-088, SRC-0244, CLM-0048
-- **Audience Footer:** 김기덕 · 사내 운영 사례 · 2026-06-16
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
-#### S91 — 내일 다시 읽을 상태는 무엇인가
+#### S91 — 자기평가 점수만으로 완료를 정할 수 있을까?
 
 - **Slide ID:** S91
 - **ACT:** ACT 4
-- **Section:** 4R5 Team operations and state
-- **Working Title:** 내일 다시 읽을 상태는 무엇인가
-- **Primary Role:** 이슈·후보·MR·남은 일·다음 확인을 남기면 다음 실행이 기존 작업 상태에서 재개한다.
-- **Audience Question:** 내일 실행이 처음 읽어야 할 기록은 무엇일까?
-- **Core Message:** 이슈·후보·MR·남은 일·다음 확인을 남기면 다음 실행이 기존 작업 상태에서 재개한다.
-- **Story Beat:** BEAT-089
-- **Curriculum Trace:** ACT 4 / 4R5 Team operations and state; DEC-0144
-- **Evidence Type:** RESEARCH / TEACHING_MODEL
-- **Claim Status:** FROZEN WITH SCOPE / TEACHING MODEL — Markdown 인계와 사람 승인 경계는 글쓴이 사례다. 구체적인 카드 필드, 예시 값, 발표 질문은 교육자가 구성했다.
-- **Visual Concept:** Markdown 인계 카드의 ISSUE-A, 마지막 후보 v2, MR-A를 이어 읽는다. 다음 세션은 같은 MR의 변경 이유와 검사 근거를 다시 확인한다. 구체적인 필드와 값은 교육용 예시다.
-- **Demo / Case Connection:** SRC-0244 + 교육용 필드/검토 장면
-- **Beginner Payoff:** 이슈·후보·MR·남은 일·다음 확인을 남기면 다음 실행이 기존 작업 상태에서 재개한다.
-- **Advanced Payoff:** 같은 이슈·후보·MR을 다시 찾을 수 있는 정보와 이에 연결할 검사 근거를 구분한다.
-- **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** MR-A 식별자에서 해당 diff와 검사 근거로 돌아가는 경로를 따라간다. 운영기에 기록된 Markdown 인계와 각색한 필드를 구분한다.
-- **Transition:** 설명할 수 없는 변경이 있다면 누가 판단해야 할까?
+- **Section:** 4R5 Implementation, review and state
+- **Working Title:** 자기평가 점수만으로 완료를 정할 수 있을까?
+- **Primary Role:** 연구에서 확인한 자기선호의 범위를 짚고, 시험에서 얻은 점수와 우리 코드의 완료 여부를 분리한다.
+- **Audience Question:** 자기평가 점수만으로 완료를 정할 수 있을까?
+- **Core Message:** Yang 등은 품질을 맞춘 답변 쌍으로 20개 모델의 자기선호 편향을 평가했다. 능력이 높은 모델도 자신의 답에 관대할 수 있어, 완료 판단에는 외부 확인 근거가 필요하다.
+- **Story Beat:** BEAT-082, BEAT-090
+- **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156
+- **Evidence Type:** RESEARCH
+- **Claim Status:** FROZEN WITH SCOPE — 자기선호 연구가 평가한 모델·과제·판정 설정에 한정한다. 점수를 우리 팀의 완료 기준이나 제품 성과로 이식하지 않는다.
+- **Visual Concept:** 비슷한 품질의 자기 답과 다른 모델 답을 나란히 보여주고, 20개 모델에서 무엇을 관찰했는지 설명한다. 실무 적용의 한계는 Notes에 둔다.
+- **Demo / Case Connection:** Loop Engineering Systems p.10의 연구 설명. 실험 범위는 연구 원문과 대조한다.
+- **Beginner Payoff:** 자기평가 점수에 더해 무엇을 확인할지 말한다.
+- **Advanced Payoff:** 평가 편향의 측정과 실제 팀의 결함률을 구분한다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 연구에서 확인한 자기선호의 범위를 짚고, 시험에서 얻은 점수와 우리 코드의 완료 여부를 분리한다.
+- **Transition:** 같은 오류도 남의 답에서 더 잘 찾을까?
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 3분 = 4분
-- **Evidence / Decision References:** DEC-0145, BEAT-089, SRC-0244, CLM-0048
-- **Audience Footer:** 운영 사례 · 인계 및 검토 예시
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050, SRC-0247, CLM-0051
+- **Audience Footer:** Yang et al. · arXiv:2604.22891 · 2026 사전 공개 논문.
 
-#### S92 — 사람이 병합 전에 읽을 것
+#### S92 — 같은 오류도 남의 답에서 더 잘 찾을까?
 
 - **Slide ID:** S92
 - **ACT:** ACT 4
-- **Section:** 4R5 Team operations and state
-- **Working Title:** 사람이 병합 전에 읽을 것
-- **Primary Role:** 병합 결정자는 diff의 변경 이유, 검사 근거와 남은 위험을 확인한다.
-- **Audience Question:** 설명할 수 없는 변경이 있다면 누가 판단해야 할까?
-- **Core Message:** 병합 결정자는 diff의 변경 이유, 검사 근거와 남은 위험을 확인한다.
-- **Story Beat:** BEAT-090
-- **Curriculum Trace:** ACT 4 / 4R5 Team operations and state; DEC-0144
-- **Evidence Type:** RESEARCH / TEACHING_MODEL
-- **Claim Status:** FROZEN WITH SCOPE / TEACHING MODEL — Markdown 인계와 사람 승인 경계는 글쓴이 사례다. 구체적인 카드 필드, 예시 값, 발표 질문은 교육자가 구성했다.
-- **Visual Concept:** 팀원의 병합 결정에서 변경 이유·검사 근거·남은 위험을 확인한다. 설명할 수 없는 diff 한 줄을 만났을 때 보류하고 확인하는 장면으로 이해 부채를 다룬다.
-- **Demo / Case Connection:** SRC-0244 + 교육용 필드/검토 장면
-- **Beginner Payoff:** 병합 결정자는 diff의 변경 이유, 검사 근거와 남은 위험을 확인한다.
-- **Advanced Payoff:** 사람이 설명할 수 없는 diff를 질문으로 바꾸어 이해 부채를 다룬다.
-- **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** 사람이 설명할 수 없는 diff를 질문으로 바꾸어 이해 부채를 다룬다.
-- **Transition:** 기존 MR의 상태가 불명확하면 무엇부터 다시 확인할까?
+- **Section:** 4R5 Implementation, review and state
+- **Working Title:** 같은 오류도 남의 답에서 더 잘 찾을까?
+- **Primary Role:** 2026년 사전 공개 연구에서 출처 제시 조건을 비교한 실험임을 밝힌다.
+- **Audience Question:** 같은 오류도 남의 답에서 더 잘 찾을까?
+- **Core Message:** Chen 등의 사전 공개 실험은 같은 오류의 출처를 달리 표시한 12개 모델·도메인 조건 중 10개에서 명시적 오류 지적의 유의한 차이를 보고했다.
+- **Story Beat:** BEAT-082, BEAT-076
+- **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156
+- **Evidence Type:** RESEARCH
+- **Claim Status:** FROZEN WITH SCOPE — 동일 오류의 출처 귀속에 따른 명시적 오류 지적을 비교한 사전 공개 실험이다. 이종 모델 조합의 실무 코드 품질 우위는 측정하지 않았다.
+- **Visual Concept:** 동일 오류를 자기 답과 외부 답으로 제시한 두 조건과 12개 조건 중 10개에서 유의했다는 결과를 보여준다. 실무 적용의 한계는 Notes에 둔다.
+- **Demo / Case Connection:** Loop Engineering Systems p.10의 연구 설명. 실험 범위는 연구 원문과 대조한다.
+- **Beginner Payoff:** 문장을 고칠 기회를 한 번 더 주는 것과 독립적으로 확인하는 것의 차이를 안다.
+- **Advanced Payoff:** 출처 귀속 효과를 검토 모델의 성능 순위나 이종 조합의 일반 우위로 확장하지 않는다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 2026년 사전 공개 연구에서 출처 제시 조건을 비교한 실험임을 밝힌다. 업무에서는 재현·테스트로 검토 의견을 확인한다.
+- **Transition:** 다음 실행이 이어받을 상태를 파일에 남긴다
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 2분 = 3분
-- **Evidence / Decision References:** DEC-0144, BEAT-090, SRC-0244, CLM-0048
-- **Audience Footer:** 운영 사례 · 인계 및 검토 예시
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050, SRC-0248, CLM-0052
+- **Audience Footer:** Chen et al. · arXiv:2606.05976 · 2026 사전 공개 논문.
 
-#### S93 — MR 상태를 조회할 수 없다면
+#### S93 — 다음 실행이 이어받을 상태를 파일에 남긴다
 
 - **Slide ID:** S93
 - **ACT:** ACT 4
-- **Section:** 4R5 Team operations and state
-- **Working Title:** MR 상태를 조회할 수 없다면
-- **Primary Role:** 조회 실패를 분기에서 구별하고 기존 MR 식별자와 미확인 사유를 보존해 사람에게 인계한다.
-- **Audience Question:** 기존 MR의 상태가 불명확하면 무엇부터 다시 확인할까?
-- **Core Message:** 조회 실패를 분기에서 구별하고 기존 MR 식별자와 미확인 사유를 보존해 사람에게 인계한다.
+- **Section:** 4R5 Implementation, review and state
+- **Working Title:** 다음 실행이 이어받을 상태를 파일에 남긴다
+- **Primary Role:** 기록을 직접 읽고 현재 작업과 맞는지 다시 확인한다.
+- **Audience Question:** 내일 같은 일을 재개하려면 어디에서 무엇을 읽을까?
+- **Core Message:** 같은 일을 재개할 사람이 무엇을 시도했는지, 어떤 검사를 했는지, 무엇이 남았는지 외부 파일에서 다시 확인할 수 있게 한다.
 - **Story Beat:** BEAT-089
-- **Curriculum Trace:** ACT 4 / 4R5 Team operations and state; DEC-0144
-- **Evidence Type:** CONCEPTUAL
-- **Claim Status:** CONCEPTUAL CASE — MR 조회 오류와 복구 경로는 교육용 변형이다. 사례 글에서 API 장애가 관찰됐다는 뜻은 아니다.
-- **Visual Concept:** 모의 조회 실패에서는 마지막 이슈·MR 식별자와 오류를 보존한다. 같은 식별자로 제한된 횟수만 재조회하고 실패가 지속되면 미확인으로 남겨 담당자에게 확인을 요청한다.
-- **Demo / Case Connection:** 운영기에 기반한 교육용 장애 분기
-- **Beginner Payoff:** 조회 실패를 분기에서 구별하고 기존 MR 식별자와 미확인 사유를 보존해 사람에게 인계한다.
-- **Advanced Payoff:** 조회 응답이 없을 때는 같은 이슈의 MR을 중복 생성하지 않도록 기존 식별자를 보존한다.
-- **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** 동일 이슈의 중복 쓰기와 제한된 재조회에 집중한다. 다른 이슈를 시작할 수 있는지는 이 오류 사례의 판단 범위를 벗어난다.
-- **Transition:** 코드 병합과 작업 규칙 수정은 누가 각각 승인할까?
+- **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156
+- **Evidence Type:** TEACHING_MODEL
+- **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
+- **Visual Concept:** 세션의 시도·검사·미결 사항을 상태 파일에 적고 다음 실행이 읽는 경로.
+- **Demo / Case Connection:** Loop Engineering Systems p.11에서 각색한 발표용 도식. 정적 사례로 설명한다.
+- **Beginner Payoff:** 다음 작업자가 처음부터 조사하지 않아도 읽을 단서를 고른다.
+- **Advanced Payoff:** 남은 문제와 근거 위치를 보존하고 시간이 지난 실행 상태는 재확인한다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 기록을 직접 읽고 현재 작업과 맞는지 다시 확인한다. AGENTS.md에 모든 상태를 쌓아야 한다는 규칙을 만들지 않는다.
+- **Transition:** 무인 실행의 범위를 어디까지 허용할까?
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 2분 = 3분
-- **Evidence / Decision References:** DEC-0145, DEC-0144 (조회 실패 변형), BEAT-089, SRC-0244 (운영 배경)
-- **Audience Footer:** 교육용 변형
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
-#### S94 — 회고 제안은 누가 적용할까
+#### S94 — 무인 실행의 범위를 어디까지 허용할까?
 
 - **Slide ID:** S94
 - **ACT:** ACT 4
-- **Section:** 4R5 Team operations and state
-- **Working Title:** 회고 제안은 누가 적용할까
-- **Primary Role:** 제품 코드 병합과 회고에서 제안한 업무 규칙 변경은 서로 다른 승인 대상이다.
-- **Audience Question:** 코드 병합과 작업 규칙 수정은 누가 각각 승인할까?
-- **Core Message:** 제품 코드 병합과 회고에서 제안한 업무 규칙 변경은 서로 다른 승인 대상이다.
-- **Story Beat:** BEAT-091
-- **Curriculum Trace:** ACT 4 / 4R5 Team operations and state; DEC-0144
-- **Evidence Type:** RESEARCH
-- **Claim Status:** FROZEN WITH SCOPE — 김기덕이 2026-06-16 개인 블로그에 공개한 당시 사내 운영 방식. 팀 전체 개선율이나 현재 자동화 가동률은 측정하지 않았다.
-- **Visual Concept:** 제품 코드의 병합과 작업 규칙 변경을 두 개의 승인 대상으로 그린다. 세션 회고에서 반복 문제를 제안하고 운영 엔지니어가 확인한 뒤 workflow 파일에 반영하는 원문의 운영 방식을 다룬다.
-- **Demo / Case Connection:** SRC-0244 · 글쓴이 GitLab 사내 운영 사례
-- **Beginner Payoff:** 제품 코드 병합과 회고에서 제안한 업무 규칙 변경은 서로 다른 승인 대상이다.
-- **Advanced Payoff:** 팀원과 운영 엔지니어가 각각 어떤 변경을 승인하는지 확인한다.
-- **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** 팀원과 운영 엔지니어가 각각 어떤 변경을 승인하는지 확인한다.
-- **Transition:** Goal에 어떤 완료 근거와 중단 조건을 담을까?
+- **Section:** 4R5 Implementation, review and state
+- **Working Title:** 무인 실행의 범위를 어디까지 허용할까?
+- **Primary Role:** 작업 폴더 분리가 권한 격리를 보장하는지 물은 뒤 외부 효과와 승인 범위를 확인한다.
+- **Audience Question:** 무인 실행의 범위를 어디까지 허용할까?
+- **Core Message:** 실행 전에 작업 공간과 허용된 동작을 정의하고 파일 변경, 외부 호출, 자격 정보 사용과 비용에 경계를 둔다.
+- **Story Beat:** BEAT-079, BEAT-083
+- **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156
+- **Evidence Type:** TEACHING_MODEL
+- **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
+- **Visual Concept:** 격리 공간 안에서 허용할 작업과 경계를 넘는 작업을 구분한다.
+- **Demo / Case Connection:** Loop Engineering Systems p.12에서 각색한 발표용 도식. 정적 사례로 설명한다.
+- **Beginner Payoff:** 자동화가 실행해도 되는 범위를 작업 전에 표현할 수 있다.
+- **Advanced Payoff:** 최소 권한, 제한된 자격 정보, 격리와 비용 상한을 별도 통제로 다룬다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 작업 폴더 분리가 권한 격리를 보장하는지 물은 뒤 외부 효과와 승인 범위를 확인한다.
+- **Transition:** 권한·예산을 넘으면 멈추고 사람에게 넘긴다
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 2분 = 3분
-- **Evidence / Decision References:** DEC-0144, BEAT-091, SRC-0244, CLM-0048
-- **Audience Footer:** 김기덕 · 사내 운영 사례 · 2026-06-16
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
-#### S95 — 한 작업에 Goal을 쓴다면
+#### S95 — 권한·예산을 넘으면 멈추고 사람에게 넘긴다
 
 - **Slide ID:** S95
 - **ACT:** ACT 4
-- **Section:** 4T1 Goal continuation
-- **Working Title:** 한 작업에 Goal을 쓴다면
-- **Primary Role:** Goal에는 원하는 변화와 보존할 조건, 완료 근거와 막힐 때의 보고 조건을 담는다.
-- **Audience Question:** Goal에 어떤 완료 근거와 중단 조건을 담을까?
-- **Core Message:** Goal에는 원하는 변화와 보존할 조건, 완료 근거와 막힐 때의 보고 조건을 담는다.
-- **Story Beat:** BEAT-084, BEAT-085
-- **Curriculum Trace:** ACT 4 / 4T1 Goal continuation; DEC-0144
-- **Evidence Type:** RESEARCH / TEACHING_MODEL
-- **Claim Status:** DOCUMENTED GUIDANCE / REQUIRES PRODUCT CHECK — 공식 /goal 안내에 따른 요청 예시. 교육 계정·실행 환경은 배포 전 확인한다.
-- **Visual Concept:** 기존 S95·S96을 한 장으로 합친다. 밝기 통계 요청에서 목표·보존 조건·완료 근거·중단 조건을 표시한다. 제품 표기와 교육 계정 제공 범위는 제작 시 공식 안내로 재확인한다.
-- **Demo / Case Connection:** 공식 안내에 기반한 요청 예시
-- **Beginner Payoff:** Goal에는 원하는 변화와 보존할 조건, 완료 근거와 막힐 때의 보고 조건을 담는다.
-- **Advanced Payoff:** 문서화된 Goal 동작, 사용자가 정하는 검증 기준, 계정에서 확인할 항목을 분리한다.
-- **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** 문서화된 Goal 동작, 사용자가 정하는 검증 기준, 계정에서 확인할 항목을 분리한다.
-- **Transition:** 우리 팀이 처음 맡길 만한 작업은 어디까지인가?
+- **Section:** 4T1 Unattended stop conditions
+- **Working Title:** 권한·예산을 넘으면 멈추고 사람에게 넘긴다
+- **Primary Role:** 허용 범위 안에서 보완하는 경우와 권한·예산을 넘어 중단하는 경우를 구분한다.
+- **Audience Question:** 계속 실행할 수 없는 경우 어떤 근거를 넘길까?
+- **Core Message:** 권한이 없거나 예산이 소진되면 추가 실행을 멈추고, 시도·근거·미완료 사항과 필요한 결정을 사람에게 넘긴다.
+- **Story Beat:** BEAT-079, BEAT-083, BEAT-089
+- **Curriculum Trace:** ACT 4 / 4T1 Unattended stop conditions · DEC-0156
+- **Evidence Type:** TEACHING_MODEL
+- **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
+- **Visual Concept:** 권한과 예산의 경계에서 중단 후 인계 카드로 이어지는 분기.
+- **Demo / Case Connection:** Loop Engineering Systems p.12에서 각색한 발표용 도식. 정적 사례로 설명한다.
+- **Beginner Payoff:** 중단할 때 사람에게 무엇을 보고할지 고른다.
+- **Advanced Payoff:** 권한 상승, 추가 비용, 재개 여부의 결정자를 명시한다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 허용 범위 안에서 보완하는 경우와 권한·예산을 넘어 중단하는 경우를 구분한다.
+- **Transition:** 자동화가 만든 변경을 사람이 설명할 수 있나?
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** DEC-0144, BEAT-084, BEAT-085, SRC-0240, SRC-0241, CLM-0046, CLM-0047
-- **Audience Footer:** OpenAI Goal 안내 · 요청 예시
-- **Practical Tip Classification:** 수행 방법
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
+- **Practical Tip Classification:** 작업 환경·검증
 
-#### S96 — 우리 팀의 첫 루프 범위
+#### S96 — 자동화가 만든 변경을 사람이 설명할 수 있나?
 
 - **Slide ID:** S96
 - **ACT:** ACT 4
 - **Section:** 4R6 Evidence and transfer
-- **Working Title:** 우리 팀의 첫 루프 범위
-- **Primary Role:** 한 이슈의 후보와 검토·승인부터 설계하고 반복 필요에 따라 구성 요소를 추가한다.
-- **Audience Question:** 우리 팀이 처음 맡길 만한 작업은 어디까지인가?
-- **Core Message:** 한 이슈의 후보와 검토·승인부터 설계하고 반복 필요에 따라 구성 요소를 추가한다.
-- **Story Beat:** BEAT-083
-- **Curriculum Trace:** ACT 4 / 4R6 Evidence and transfer; DEC-0144
+- **Working Title:** 자동화가 만든 변경을 사람이 설명할 수 있나?
+- **Primary Role:** 이해하지 못한 변경을 승인할 때 생길 수 있는 이해 부채를 한 사례로 설명한다.
+- **Audience Question:** 자동화가 만든 변경을 사람이 설명할 수 있나?
+- **Core Message:** 실패하던 테스트의 assertion을 삭제해 통과했다면, 사람이 무엇을 검증하지 않게 됐는지 설명하고 기존 동작을 다시 확인한 뒤 병합 여부를 정한다.
+- **Story Beat:** BEAT-090, BEAT-083
+- **Curriculum Trace:** ACT 4 / 4R6 Evidence and transfer · DEC-0156
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — 팀의 첫 적용 범위와 사람의 승인 경계를 고르는 설계 질문이다.
-- **Visual Concept:** 첫 적용 예를 '이슈 한 건, 수정 후보 한 개, 검토 후 사람 승인'으로 그린다. 반복 필요가 확인되면 스케줄·상태 인계를 연결한다. 사내 사례의 5가지 부품과 외부 상태 기록 중 해당 팀에 필요한 것을 고르게 한다.
-- **Demo / Case Connection:** 강의/개인 성찰을 위한 정적 설계
-- **Beginner Payoff:** 한 이슈의 후보와 검토·승인부터 설계하고 반복 필요에 따라 구성 요소를 추가한다.
-- **Advanced Payoff:** 처음부터 필요한 구성과 일정·상태 인계를 나중에 붙일 조건을 나눈다.
-- **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** 처음부터 필요한 구성과 일정·상태 인계를 나중에 붙일 조건을 나눈다.
-- **Transition:** 어떤 판단을 자동화하고 어떤 판단은 사람이 맡을까?
+- **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
+- **Visual Concept:** 삭제된 assertion과 녹색 테스트 결과를 나란히 본다. 사람이 확인할 변경 이유·기존 동작·검증 근거로 시선을 옮긴다.
+- **Demo / Case Connection:** 제공 PDF p.13의 이해 부채를 삭제된 assertion으로 설명한 교육용 예시. 사내 실제 사고나 Trial 결과가 아니다.
+- **Beginner Payoff:** 검사가 통과했어도 어떤 조건을 검사했는지 확인하는 이유를 짚는다.
+- **Advanced Payoff:** 변경 전 동작과 검사 범위에 생긴 차이를 검토한 뒤 병합 책임자가 판단한다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 이해하지 못한 변경을 승인할 때 생길 수 있는 이해 부채를 한 사례로 설명한다.
+- **Transition:** 무엇을 자동화하고, 무엇을 사람이 결정할까?
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0144, BEAT-083, DEC-0097
-- **Audience Footer:** 교육용 적용 설계
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050; legacy M5·M6 (교육 내용 대응)
+- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
-#### S97 — 어떤 판단을 맡기고 어디서 멈출까
+#### S97 — 무엇을 자동화하고, 무엇을 사람이 결정할까?
 
 - **Slide ID:** S97
 - **ACT:** ACT 4
 - **Section:** 4R6 Evidence and transfer
-- **Working Title:** 어떤 판단을 맡기고 어디서 멈출까
-- **Primary Role:** 팀이 자동화할 판단과 사람에게 남겨둘 결정을 고르고 ACT5의 업무 재설계로 이어간다.
-- **Audience Question:** 어떤 판단을 자동화하고 어떤 판단은 사람이 맡을까?
-- **Core Message:** 팀이 자동화할 판단과 사람에게 남겨둘 결정을 고르고 ACT5의 업무 재설계로 이어간다.
-- **Story Beat:** BEAT-083
-- **Curriculum Trace:** ACT 4 / 4R6 Evidence and transfer; DEC-0144
+- **Working Title:** 무엇을 자동화하고, 무엇을 사람이 결정할까?
+- **Primary Role:** 2분 성찰, 7분 질의, 2분 전환.
+- **Audience Question:** 무엇을 자동화하고, 무엇을 사람이 결정할까?
+- **Core Message:** 한 업무를 골라 반복 실행할 일, 완료를 뒷받침할 근거, 사람이 승인하거나 중단할 지점을 정한다.
+- **Story Beat:** BEAT-083, BEAT-090
+- **Curriculum Trace:** ACT 4 / 4R6 Evidence and transfer · DEC-0156
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — 팀의 첫 적용 범위와 사람의 승인 경계를 고르는 설계 질문이다.
-- **Visual Concept:** 같은 그림에서 개인 성찰 2분, 질문 7분. 마지막 2분에 ACT5로 “우리 팀에서 이 판단에 쓰이는 구성은 무엇이고, 어떤 구성은 덜어낼 수 있을까요?”를 넘긴다.
-- **Demo / Case Connection:** 강의/개인 성찰을 위한 정적 설계
-- **Beginner Payoff:** 팀이 자동화할 판단과 사람에게 남겨둘 결정을 고르고 ACT5의 업무 재설계로 이어간다.
-- **Advanced Payoff:** 기준·근거·승인 중 어디에 사람이 남는지 고르고 준비한 작업 체계를 재평가한다.
-- **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
-- **Speaker Intent:** 기준·근거·승인 중 어디에 사람이 남는지 고르고 준비한 작업 체계를 재평가한다.
-- **Transition:** 우리 팀에서 이 판단에 쓰이는 구성은 무엇이고, 어떤 구성은 덜어낼 수 있을까요? S98에서 팀에 맞춰 조합할 요소를 살펴본다.
+- **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
+- **Visual Concept:** 반복 작업·판정 근거·사람의 결정 칸을 사용해 성찰과 질의를 진행한다.
+- **Demo / Case Connection:** Loop Engineering Systems p.14에서 각색한 발표용 도식. 정적 사례로 설명한다.
+- **Beginner Payoff:** 반복 실행 한 가지와 사람이 결정할 경계 한 가지를 고른다.
+- **Advanced Payoff:** 비용·권한·검토 책임을 업무별로 결정하고 불필요한 요소는 뺄 수 있다.
+- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
+- **Speaker Intent:** 2분 성찰, 7분 질의, 2분 전환. 사람이 판단할 지점을 남긴 뒤 다음 ACT에서 그 업무에 맞게 구성을 줄이거나 결합한다.
+- **Transition:** S98에서 방금 정한 책임을 기준으로 내 업무에 맞게 구성을 조합하고 덜어낸다.
 - **Estimated Time:** 11분
 - **Delivery Mode Allocation:** Reflection 2분 + Q&A 7분 + Transition 2분 = 11분
-- **Evidence / Decision References:** DEC-0144, BEAT-083, DEC-0097
-- **Audience Footer:** 교육용 적용 설계
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
 ### ACT 5 — 16 slides / 44 minutes
 
@@ -2547,7 +2549,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** 지금부터 살펴볼 주제와 앞 구간과의 경계를 알아본다.
 - **Advanced Payoff:** 해당 ACT가 다루는 설계 책임의 범위를 짧게 확인한다.
 - **C++ Vision Bridge:** N/A — 기존 본문에 있는 C++ 연결을 유지한다.
-- **Speaker Intent:** 승인된 제목·부제를 가리키며 ACT의 방향만 안내한다. 용어 정의·모든 도구의 도입·성과 예고로 확장하지 않고 기존 첫 문제를 연다.
+- **Speaker Intent:** S97에서 정한 자동화와 사람의 결정 경계를 회수한다. 이를 기준으로 내 업무에 필요한 구성과 덜어낼 구성을 고른다는 ACT 방향을 소개한다.
 - **Transition:** S99에서 질문·답변에서 기준에 따른 작업으로 맡기는 범위가 넓어졌음을 회수한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Transition 1분 = 1분
@@ -2841,12 +2843,12 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Working Title:** 실무 적용 팁 · 작업 환경과 기준
 - **Primary Role:** 교육 마지막에 기존 실무 적용 팁의 제목과 현재 Slide ID를 모아, 필요한 상황에서 다시 찾게 하는 안내다.
 - **Audience Question:** “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
-- **Core Message:** 작업 환경과 기준의 팁 위치는 S13, S48, S56–S58, S62, S67, S71, S103, S95의8묶음이다. 공식 안내 각색과 기존 관찰의 근거를 각 장의 범위로 유지하며 삭제한 상태 전달 팁이나 새 전환을 넣지 않는다.
+- **Core Message:** 작업 환경과 기준의 팁은 S13, S48, S56–S58, S62, S67, S71, S103, S95의 여덟 묶음이다.
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 / 최종 회고 뒤, 기존 Q&A·Closing 직전의 통합 찾아보기. 새 Maturity 단계·Demo가 아니다.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능·Trial·성능·검증 결과를 주장하지 않는다.
-- **Visual Concept:** 공통 찾아보기 배지와8개 참조 묶음을 두 열로 배치한다. AGENTS.md 위치/적용 범위 S56–S58은 하나로 묶고, S13/S48/S62/S67/S71/S103과 통합 Goal 팁 S95 “한 작업에 Goal을 쓴다면”을 연결한다. 삭제한 이전 상태 전달 팁은 빼며 전환 장을 새 팁으로 표시하지 않는다.
+- **Visual Concept:** 두 열의 찾아보기에서 S95 “권한·예산을 넘으면 멈추고 사람에게 넘긴다”를 다른 작업 환경 팁과 함께 안내한다.
 - **Demo / Case Connection:** N/A — 기존 자료의 위치 안내이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
 - **Advanced Payoff:** 사례의 근거 상태를 유지한 채 재사용할 안내 위치를 구분한다.
@@ -2855,7 +2857,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “이제 요청 문장을 작성할 때 바로 참고할 팁을 모아 보겠습니다.”라고 S111으로 이어간다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** DEC-0088, DEC-0093, DEC-0104, DEC-0136; Related tip slides: S13, S48, S56–S58, S62, S67, S71, S103, S95
+- **Evidence / Decision References:** DEC-0156, DEC-0088, DEC-0104; S13, S48, S56–S58, S62, S67, S71, S103, S95
 - **Practical Tip Classification:** 찾아보기
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
@@ -2893,12 +2895,12 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Working Title:** 실무 적용 팁 · 검증과 개선
 - **Primary Role:** 교육 마지막에 기존 실무 적용 팁의 제목과 현재 Slide ID를 모아, 필요한 상황에서 다시 찾게 하는 안내다.
 - **Audience Question:** “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
-- **Core Message:** 검증과 개선의 팁 위치는 S83, S85, S95, S106, S107이다. Goal 작성 예시와 검토·통합·제거 기준의 근거는 각 원래 장을 따른다.
+- **Core Message:** 검증과 개선의 팁으로 S83 작업 흐름, S85 도구 선택, S95 중단·인계와 S106/S107의 재평가를 다시 찾는다.
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 / 최종 회고 뒤, 기존 Q&A·Closing 직전의 통합 찾아보기. 새 Maturity 단계·Demo가 아니다.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능·Trial·성능·검증 결과를 주장하지 않는다.
-- **Visual Concept:** 공통 “실무 적용 팁 · 찾아보기” 배지 아래 S83 “목표에서 인계까지, 루프의 8단계”, S85 “고친 뒤, 끝낼까 다시 고칠까?”, S95 Goal 요청과 S106/S107 재평가 팁을 현재 표제로 연결한다. 5개 또는8개 항목은 두 열,4개는 한 열로 배치한다. 설명 전문·새 결과·이미지를 반복하지 않는다.
+- **Visual Concept:** S83, S85 “어느 단계에 어떤 도구를 연결할까?”, S95 “권한·예산을 넘으면 멈추고 사람에게 넘긴다”, S106, S107의 다섯 참조를 기존 찾아보기 배치로 제공한다.
 - **Demo / Case Connection:** N/A — 기존 자료의 위치 안내이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
 - **Advanced Payoff:** 사례의 근거 상태를 유지한 채 재사용할 안내 위치를 구분한다.
@@ -2907,7 +2909,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “생각한 한 가지는 마음속에 두고, 이제 남은 질문을 받겠습니다.”
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** DEC-0088; Related tip slides: S83, S85, S95, S106, S107
+- **Evidence / Decision References:** DEC-0156, DEC-0088; S83, S85, S95, S106, S107
 - **Practical Tip Classification:** 찾아보기
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 

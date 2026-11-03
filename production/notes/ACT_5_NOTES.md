@@ -141,7 +141,7 @@ Transition 1분
 “제품 기능을 활용하면서, 우리 업무에는 무엇을 조합하고 덜어낼까요?”
 
 **Speaker Flow:**
-1. (0:00–0:20 / Transition) S97에서 고른 이슈와 사람의 승인선을 떠올리게 한 뒤 ACT 5 제목 “내 업무에 맞게 조합하고 덜어내기”를 짚는다.
+1. (0:00–0:20 / Transition) S97에서 각자 고른 자동화할 일·완료 근거·사람이 결정할 지점을 떠올리게 한 뒤 ACT 5 제목 “내 업무에 맞게 조합하고 덜어내기”를 짚는다.
 2. (0:20–0:40 / Transition) 부제 “AI-Native Development · 업무 방식의 재설계”는 이번 구간의 관점만 안내한다. 구체적 기능·해결 방법·결과는 앞서 설명하지 않는다.
 3. (0:40–1:00 / Transition) S99의 기존 첫 문제로 이동한다. 본문의 질문·성찰을 이 장에서 대신 진행하지 않는다.
 
@@ -912,7 +912,7 @@ Lecture 1분
 **Speaker Flow:**
 새 S56–S58은 “AGENTS.md의 위치와 적용 범위” 한 항목으로 묶어 위치만 짚는다. 전체 팁을 다시 설명하지 않고 기존1분을 유지한다.
 1. (0:00–0:15 / Lecture) 마지막 통합 찾아보기이며 필요할 때 해당 장으로 돌아오는 목록임을 알린다.
-2. (0:15–0:45 / Lecture) S13 개발 프로젝트 조사는 Codex에서 시작한다 / S48 AGENTS.md에는 무엇을 남길까? / S62 테스트 명령을 언제 쓰고 무엇을 판단할까? / S67 대화로 재사용할 Skill 만들기 / S71 대화로 조사 Agent 만들기 / S103 이번에 알아낸 것 중, 다음에도 쓸 것은? / S95 한 작업에 Goal을 쓴다면. S67/S71을 포함해 제목·위치만 짚고 본문을 다시 강의하지 않는다.
+2. (0:15–0:45 / Lecture) S13 개발 프로젝트 조사는 Codex에서 시작한다 / S48 AGENTS.md에는 무엇을 남길까? / S62 테스트 명령을 언제 쓰고 무엇을 판단할까? / S67 대화로 재사용할 Skill 만들기 / S71 대화로 조사 Agent 만들기 / S103 이번에 알아낸 것 중, 다음에도 쓸 것은? / S95 권한·예산을 넘으면 멈추고 사람에게 넘긴다. S67/S71을 포함해 제목·위치만 짚고 본문을 다시 강의하지 않는다.
 3. (0:45–1:00 / Lecture) 요청 작성 팁 목록 S111으로 이어간다.
 
 **Evidence / Source:**
@@ -949,7 +949,7 @@ Lecture 1분. 세 찾아보기의 합계는3분이다. 기존 본문·Q&A 시간
 **Fallback:**
 LOCAL STATIC ARTIFACT — production/preview/full/S110.png 또는 production/ACT_5.pptx의 같은 장. 실제 제품 실행으로 대신하지 않는다.
 
-Validation Status: DEC-0125 — 현재 Context 구간의 연결/찾아보기 참조만 정렬한다. 내용·시간·Mode·근거 범위를 유지한다. 최종 대조는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md를 따른다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
+Validation Status: DEC-0125 — 현재 Context 구간의 연결과 찾아보기를 정렬했다. DEC-0156에서 S95의 제목과 위치를 대조한다. 내용·시간·Mode·근거 범위를 유지한다. 최종 대조는 production/evaluation/ACT2_CONTEXT_SEQUENCE_REVISION.md를 따른다. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
 
 ## S111 — 실무 적용 팁 · 요청 작성
 
@@ -1034,14 +1034,14 @@ ACT 5 / 5B Final Reference Review
 Lecture 1분
 
 **Primary Message:**
-검증과 개선의 팁 위치는 S83, S85, S95, S106, S107이다. Goal 작성 예시와 검토·통합·제거 기준의 근거는 각 원래 장을 따른다.
+검증과 개선의 팁 위치는 S83, S85, S95, S106, S107이다. 단계별 도구 선택과 중단·인계, 검토·통합·제거 기준의 근거는 해당 장을 따른다.
 
 **Opening Question:**
 “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
 
 **Speaker Flow:**
 1. (0:00–0:15 / Lecture) 교육 마지막의 통합 찾아보기임을 알린다.
-2. (0:15–0:45 / Lecture) S83 목표에서 인계까지, 루프의 8단계 / S85 고친 뒤, 끝낼까 다시 고칠까? / S95 한 작업에 Goal을 쓴다면 / S106 무엇을 남기고, 무엇을 덜어낼까? / S107 덜어낸 뒤에도 필요한 일을 하는가?. 제목·위치만 짚고 본문을 다시 강의하지 않는다.
+2. (0:15–0:45 / Lecture) S83 목표에서 인계까지, 루프의 8단계 / S85 어느 단계에 어떤 도구를 연결할까? / S95 권한·예산을 넘으면 멈추고 사람에게 넘긴다 / S106 무엇을 남기고, 무엇을 덜어낼까? / S107 덜어낸 뒤에도 필요한 일을 하는가?. 제목·위치만 짚고 본문을 다시 강의하지 않는다.
 3. (0:45–1:00 / Lecture) S113로 이어간다.
 
 **Evidence / Source:**
@@ -1079,7 +1079,7 @@ Lecture 1분. 세 찾아보기의 합계는3분이다. 기존 본문·Q&A 시간
 LOCAL STATIC ARTIFACT — production/preview/full/S112.png 또는 production/ACT_5.pptx의 같은 장. 실제 제품 실행으로 대신하지 않는다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0088. 최종 패키지/Notes/렌더 대조는 production/evaluation/FINAL_PRACTICAL_TIPS_CONSOLIDATION.md에 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0088, DEC-0156. 최종 패키지/Notes/렌더 대조는 production/evaluation/FINAL_PRACTICAL_TIPS_CONSOLIDATION.md에 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설 UNVERIFIED.
 
 ## S113 — Q&A와 교육 마무리
 

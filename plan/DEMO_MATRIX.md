@@ -1,12 +1,10 @@
 # Demo Matrix
 
-## 현재 ACT4 제작 기준 — DEC-0145 (2026-11-03)
+## 현재 ACT4 제작 기준 — DEC-0156 (2026-11-03)
 
-기존 graypipe Trial과 상태 기록은 실제 함수 배경의 근거를 제공한다. S79–S85에 배치한 가상 수정, 재검토 흐름과 R1·v1/v2는 CASE-LOOP-01을 위한 설명 자료다. S88–S94의 GitLab 운영기·각색과 S87 연구 표는 신규 Demo/Trial로 번호를 부여하지 않는다.
+S79–S80의 밝기 통계 장면은 기존 교육용 가정이다. S84 이후에는 제공 PDF 설계와 연구 원문을 정적 자료로 설명한다. ACT4에는 Live Demo 시간이 없다. GitLab 등록·권한·지출·무인 실행·실제 발표 PC와 시간 리허설은 이 자료로 검증하지 않는다. S91–S92는 연구 결과이고, 신규 Demo·Trial·State ID를 부여하지 않는다.
 
-[승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
-
-아래 DEC-0138은 이번 개편 전의 기준을 보존한다.
+[ACT4 장별 시간표와 PDF 쪽 대응](ACT4_LOOP_OPERATIONS_PROPOSAL.md) · [현행 Slide Map](SLIDE_MAP.md)
 
 ## 이전 제작 기준 — DEC-0138 (2026-11-03)
 
