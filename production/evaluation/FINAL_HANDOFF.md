@@ -1,5 +1,47 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S77 루프 재디자인 — DEC-0142 (2026-11-03)
+
+현재113장·389분과 S77 Transition2분은 그대로다.
+S77의 채워진 큰 반타원 화살표를 균일한3.5px둥근 순환선과 작은 중앙 방향 화살촉으로 교체했다.
+기존 문구·카드 위치·Mac 목표창·Harness 기반·조건 문구와 S76의 직전 비교 화면은 같다.
+Notes의 시각 cue만 맞췄고 기존 Evidence/Claim을 보존했다.
+통합/ACT3 두 PPT와131개 렌더·내장 Notes를 대조했다. 다른112장의 화면과 나머지5개 ACT PPT는 같다.
+[수정·검토](S77_LOOP_REDESIGN.md), [현재 Map](../../plan/SLIDE_MAP.md),
+[작업 범위](../../plan/S77_LOOP_REDESIGN.md)를 따른다.
+Windows·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·묶음은 변경하지 않았다.
+아래 이전 기록의 해시는 당시 판본에 한정한다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `d938823b0a7b9372dc2e3be405f6e2c22e988db38b06338882fbb1a799e07fe2` |
+| `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
+| `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
+| `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
+| `production/ACT_3.pptx` | `7717f0d1aebb931658f9f4f9aef77481dd1f91f1011c7a458361959cb4619320` |
+| `production/ACT_4.pptx` | `52493aab06205745e9d4252221b3527a13cc5bcad887ec7cf6ca0b46cb579426` |
+| `production/ACT_5.pptx` | `bb91491e405493fa3531976872bbbfcfce68d1f1467411ba52a15652aca6858f` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `02a372e04bdbd0ed0e644bd10a69ab49390db23c5d287b942f749bc927129e98` |
+| `production/notes/ACT_3_NOTES.md` | `6f3da0c4b8c25566197c2a7ed5fc6c88d02f234901d6eb337afbadc7339a5636` |
+| `production/preview/full/montage.png` | `67d56705db31e5c3b2027e68dfef649c32f9f1be62c3404fdee7f0dcf58264df` |
+| `production/preview/act0/montage.png` | `eb37120330c3892db3b31993c8ae3863e9818f6873f08f987a037a95d5bb9cb6` |
+| `production/preview/act1/montage.png` | `a23d9561b294917588e5e0d8241be709c79883b79366b3470f094a17fca705ab` |
+| `production/preview/act2/montage.png` | `d7e66c468274d0aa80b83000ac284535d12b366fd81ebbfef849e713da0112a1` |
+| `production/preview/act3/montage.png` | `3f30b5a1a4f43fa98e13577f26e6f1f4859ab53b2c80764897938bfd140b3a57` |
+| `production/preview/act4/montage.png` | `73aa7ba6bd8f81c6f176095671ded8236282367440183d16e91a04383d88f1fc` |
+| `production/preview/act5/montage.png` | `94c9b7998e46c7f96ed2a95dcfed99dfc85aa4b1b77cec6896666bd8ae901975` |
+| `production/preview/full/S66.png` | `482b1c36433538b982da2336354c04a9593f85368086c313149272540cd14880` |
+| `production/preview/full/S67.png` | `d0afef596117e2746ef1a453b2357b79cde7c657b88020963298f26aae933899` |
+| `production/preview/full/S68.png` | `4837568f4a3d5efb4b5ac30e416c04d094b9085383df5a6deb97e10bfef4bcf1` |
+| `production/preview/full/S69.png` | `2aea1b6cbc55f44888a832b162ce8ed0a82363f94e53ec70c2fda102ceca62ed` |
+| `production/preview/full/S110.png` | `78a0196d38e6adaa98d26447e51d5659dc9b51920c3973ea6b01ecf724fc47a8` |
+| `production/preview/full/S71.png` | `6ec5e46a433be1a83c78d8476fd46837c2e8b8c469fe6ff635a7a6a53b1125a6` |
+| `production/preview/full/S72.png` | `7fa05104badad5a6f49bfe89b1492e0fb3a169fe86330f93abbbe26b5993b013` |
+| `production/preview/full/S77.png` | `f52de23b57888b85deb659e6a27afaa26b9b2b9e4c2764406eb406321ba62de4` |
+| `production/preview/full/S76.png` | `289bf094e8d1d9fd820b31ef7e4ad49548234c72babfe86ba7ce66acdd818c96` |
+
+## 보존된 이전 전달 기록
+
 ## S76 공통 기준의 사용 전후 — DEC-0141 (2026-11-03)
 
 현재113장·389분, S76 Lecture2+Q&A5=7분은 그대로다.

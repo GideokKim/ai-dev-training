@@ -4626,8 +4626,8 @@ Opening Question:
 
 Speaker Flow:
 1. (0:00–0:30 / Transition) S76의 공통 기준 설명과 Harness Q&A 뒤 하단의 재사용 Harness 기반을 짚는다. 지침·Skill·도구·실행 환경은 이미 설명한 작업 기반이라는 점만 확인하고 정의를 반복하지 않는다.
-2. (0:30–1:10 / Transition) 왼쪽의 간결한 macOS풍 요청창에서 “이번 목표”와 “목표 · 완료 기준”을 짚고 구현→검토로 이어지는 곡선 진행 화살표를 따라간다. 창 장식은 목표가 입력되는 자리를 표현하며 실제 제품 Screenshot이 아니다. 이제 보려는 범위는 여러 프로젝트나 다음 작업의 성과가 아니라 한 목표 안의 다음 행동과 완료 판단이다. 실제 실행 기록이 아닌 교육용 관계도다.
-3. (1:10–1:40 / Transition) 검토에서 문제가 남으면 구현으로 되돌아오는 amber 곡선 화살표와 “문제가 남으면 수정·재검토”를 짚는다. 앞의 진행 화살표와 연결한 반복 경로를 한 번 따라 읽는다. 상태 항목·모델 역할·연구·중단 세부를 여기서 설명하지 않는다. 항상 완료된다고 보장하는 화살표가 아니다.
+2. (0:30–1:10 / Transition) 왼쪽의 간결한 macOS풍 요청창에서 “이번 목표”와 “목표 · 완료 기준”을 짚고 구현 위쪽의 균일한 teal 순환선과 중앙의 작은 오른쪽 방향 화살촉을 따라 검토로 이동한다. 창 장식은 목표가 입력되는 자리를 표현하며 실제 제품 Screenshot이 아니다. 이제 보려는 범위는 여러 프로젝트나 다음 작업의 성과가 아니라 한 목표 안의 다음 행동과 완료 판단이다. 실제 실행 기록이 아닌 교육용 관계도다.
+3. (1:10–1:40 / Transition) 검토에서 문제가 남으면 아래쪽 amber 순환선과 중앙의 작은 왼쪽 방향 화살촉을 따라 구현으로 돌아온다. 기존 “문제가 남으면 수정·재검토”를 짚는다. 앞의 진행 화살표와 연결한 반복 경로를 한 번 따라 읽는다. 상태 항목·모델 역할·연구·중단 세부를 여기서 설명하지 않는다. 항상 완료된다고 보장하는 화살표가 아니다.
 4. (1:40–2:00 / Transition) “이제는 한 작업의 다음 행동과 완료 판단을 연결한다”로 묶고 S78의 ACT4 제목으로 이동한다. 구체적 운영은 다음 ACT에서 살펴본다.
 
 Evidence / Source:
@@ -4646,7 +4646,7 @@ C++ Vision Bridge:
 N/A — 특정 언어·Demo 코드나 새로운 기술 사례를 추가하지 않는 전환이다.
 
 Demo Operation:
-N/A — Transition2분의 정적 교육용 도식이다. 하단 Harness 기반 → 왼쪽 목표 요청창 → 구현/검토의 진행과 조건부 복귀가 이어지는 곡선 루프 순서로 짚는다. 제품·명령·모델을 실행하거나 새 Trial을 만들지 않는다.
+N/A — Transition2분의 정적 교육용 도식이다. 하단 Harness 기반 → 왼쪽 목표 요청창 → 구현/검토를 잇는 둥근 순환선의 상단 오른쪽 진행과 하단 왼쪽 조건부 복귀 순서로 짚는다. 제품·명령·모델을 실행하거나 새 Trial을 만들지 않는다.
 
 Audience Interaction:
 N/A — 관찰할 질문만 제시한다. 별도 Reflection·Q&A·작성·공유·실습을 배정하지 않는다.
@@ -4658,10 +4658,11 @@ Time Management:
 Transition2분: Harness 기반0:30, 한 목표의 구현/검토0:40, 수정·재검토 루프0:30, ACT4 제목 연결0:20. 상세 설명을 시작하지 않고2분에 넘긴다. 실제 리허설 UNVERIFIED.
 
 Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S77, production/preview/act3/S77.png 및 production/preview/full/S77.png를 사용한다. 이전 내용·파일 가용성 검증은 production/evaluation/ACT3_COMPACT_HANDOFF.md에 보존하며 현재 요청창·루프 시각 수정의 검증은 production/evaluation/S77_LOOP_VISUAL.md를 따른다. 교육용 관계도이며 Live 실행·제품/계정 검증을 완료한 근거로 취급하지 않는다.
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S77, production/preview/act3/S77.png 및 production/preview/full/S77.png를 사용한다. 이전 내용·파일 가용성 검증은 production/evaluation/ACT3_COMPACT_HANDOFF.md와 production/evaluation/S77_LOOP_VISUAL.md에 보존하며 현재 순환선 재디자인의 검증은 production/evaluation/S77_LOOP_REDESIGN.md를 따른다. 교육용 관계도이며 Live 실행·제품/계정 검증을 완료한 근거로 취급하지 않는다.
 
 Validation Status:
-CONTENT ALIGNED — DEC-0140.19필드·Transition2분·Map의3G Section·기존 근거/Claim 범위를 유지하고 목표 요청창과 구현/검토 반복 경로의 화면 cue만 정렬했다. 이전 DEC-0136의 검증은 production/evaluation/ACT3_COMPACT_HANDOFF.md에 보존한다. 현재 최종 PPT/PNG/내장 Notes 및 파일 가용성 검증은 production/evaluation/S77_LOOP_VISUAL.md에 별도 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+CONTENT ALIGNED — DEC-0142.19필드·Transition2분·Map의3G Section·기존 문구/근거/Claim 범위를 유지하고 위아래 순환선과 작은 방향 화살촉의 화면 cue만 정렬했다. 이전 DEC-0136/0140 검증은 production/evaluation/ACT3_COMPACT_HANDOFF.md와 production/evaluation/S77_LOOP_VISUAL.md에 보존한다. 현재 최종 PPT/PNG/내장 Notes 및 파일 가용성 검증은 production/evaluation/S77_LOOP_REDESIGN.md에 별도 기록한다. Windows/교육장/제품·계정/실측 리허설 UNVERIFIED.
+
 ## S78 — 목표를 이룰 때까지 수정하고 검토하기
 
 **Slide ID:**

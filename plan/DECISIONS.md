@@ -13860,3 +13860,85 @@ fixed budgets and final renders. Record current results in
 production/evaluation/S76_SHARED_CRITERIA.md. Keep Windows, room,
 product-account and rehearsal gates unverified; commit/push only in the
 root workflow without changing the Demo repository, Sites or bundles.
+
+# DEC-0142 — Redesign the implementation-review loop arrows
+
+## Status
+
+ACCEPTED — explicit user annotation for current S77 loop arrows only.
+
+## Date
+
+2026-11-03
+
+## Context
+
+At baselinef298b5f, S77 retains the goal prompt and shows two filled,
+flattened curved arrows between implementation and review. The user
+rejects the arrow design and requests another visual treatment.
+
+## Problem
+
+The wide filled curves and large arrowheads at the card contacts create
+uneven weight and distract from the short goal-driven loop relationship.
+
+## Decision
+
+Replace only the loop geometry with uniform3.5px open strokes and rounded
+corners. Keep the top teal forward path and the bottom amber conditional
+return. Place small native direction arrowheads in the horizontal middle
+sections: right on top and left below. Remove arrowheads from card contacts.
+Keep every screen word, role-card position, macOS goal prompt, Harness
+basis, title, footer and existing return-condition text unchanged.
+Keep113slides/389minutes, all IDs, Templates, allocations and claim scope.
+S77 remains Transition2minutes; ACT4 remains20slides/85minutes. Preserve
+the accepted S76 comparison and every other slide screen unchanged.
+
+## Rationale
+
+Uniform strokes and small inline arrows make the repeated direction
+readable without oversized wedges or changes to the established layout.
+The condition text continues to distinguish revision from an automatic
+or unconditional cycle.
+
+## Alternatives
+
+Keep the filled half-oval arrows: the user rejected their design. Move
+the role cards or add another explanation: unnecessary for this scoped
+arrow correction and outside the accepted content arrangement.
+
+## Trade-offs
+
+A cleaner track still represents a teaching relationship. It does not
+show actual execution, automatic behavior, guaranteed goal attainment
+or a measured result. Keep the existing Evidence and Claim text in Notes.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-LOOP-001, INV-VERIFY-001, INV-SOT-001.
+
+## Affected Artifacts
+
+S77 Map visual, ACT3/FULL Notes cues, the retained bridge source,
+affected ACT/full packages, previews and current delivery identities.
+No slide migration, global planning banner or Template change is needed.
+
+## Evidence
+
+Explicit user annotation; the existing DEC-0136/0140 bridge and BEAT-073.
+No new Trial, product check, actual iteration or measured improvement.
+
+## Training Relevance
+
+YES — preserve the one-task implementation/review relationship while
+making its forward and conditional-return directions easier to follow.
+
+## Follow-up
+
+Compare final S77 against its baseline: uniform track, small directions,
+preserved words, cards, prompt, Harness, Notes, allocations and claims.
+Record current render/package checks in
+production/evaluation/S77_LOOP_REDESIGN.md. Keep prior DEC-0140 validation
+as history and preserve unverified Windows, room, product-account and
+rehearsal gates. Commit/push only in the root workflow without changing
+the Demo repository, Sites or presenter bundles.

@@ -35,11 +35,17 @@ export function compactBridgeFactory(p,H){
   line:{fill:color,width:2.5,style:dash},
   [reverse?'head':'tail']:{type:'triangle',width:'sm',length:'sm'}
  });
- // DEC-0140: continuous native curved arrows make the iteration explicit.
- const loopArrow=(name,left,top,color,commands)=>s.shapes.add({
-  geometry:'custom',name,position:{left,top,width:422,height:60},
-  fill:color,line:{fill:'none',width:0},
-  customPaths:[{width:422,height:60,commands}]
+ // DEC-0142: uniform rounded tracks and small inline direction markers.
+ const loopTrack=(name,left,top,color,commands)=>s.shapes.add({
+  geometry:'custom',name,position:{left,top,width:403,height:40},
+  fill:'none',line:{fill:color,width:3.5},
+  customPaths:[{width:403,height:40,commands}]
+ });
+ const direction=(name,y,color,reverse=false)=>s.shapes.add({
+  geometry:'connector',kind:'straight',name,
+  position:{left:778,top:y,width:24,height:0},
+  line:{fill:color,width:3.5},
+  [reverse?'head':'tail']:{type:'triangle',width:'sm',length:'sm'}
  });
  rect(s,64,220,1152,336,C.white,C.line,1);
  text(s,'이번 작업',88,232,1096,32,25,C.teal,true);
@@ -56,22 +62,20 @@ export function compactBridgeFactory(p,H){
  rect(s,840,286,304,104,C.white,C.teal,1.5);
  text(s,'검토',860,314,264,48,36,C.ink,true,FONT,'center');
  connect(356,338,104);
- loopArrow('Implement to review loop',586,226,C.teal,[
-  {moveTo:{x:0,y:60}},
-  {cubicBezTo:{x1:0,y1:0,x2:409,y2:0,x:409,y:40}},
-  {lineTo:{x:419,y:40}},{lineTo:{x:406,y:60}},
-  {lineTo:{x:393,y:40}},{lineTo:{x:403,y:40}},
-  {cubicBezTo:{x1:403,y1:8,x2:6,y2:8,x:6,y:60}},
-  {close:{}}
+ loopTrack('Implementation to review track',589,246,C.teal,[
+  {moveTo:{x:0,y:40}},
+  {quadBezTo:{x1:0,y1:0,x:40,y:0}},
+  {lineTo:{x:363,y:0}},
+  {quadBezTo:{x1:403,y1:0,x:403,y:40}}
  ]);
- loopArrow('Review back to implement loop',573,390,C.warn,[
-  {moveTo:{x:422,y:0}},
-  {cubicBezTo:{x1:422,y1:60,x2:13,y2:60,x:13,y:20}},
-  {lineTo:{x:3,y:20}},{lineTo:{x:16,y:0}},
-  {lineTo:{x:29,y:20}},{lineTo:{x:19,y:20}},
-  {cubicBezTo:{x1:19,y1:52,x2:416,y2:52,x:416,y:0}},
-  {close:{}}
+ loopTrack('Review to implementation track',589,390,C.warn,[
+  {moveTo:{x:403,y:0}},
+  {quadBezTo:{x1:403,y1:40,x:363,y:40}},
+  {lineTo:{x:40,y:40}},
+  {quadBezTo:{x1:0,y1:40,x:0,y:0}}
  ]);
+ direction('Forward direction marker',246,C.teal);
+ direction('Return direction marker',430,C.warn,true);
  text(s,'문제가 남으면 수정·재검토',638,452,506,31,25,C.warn,true,FONT,'center');
  rect(s,64,490,1152,66,C.pale,C.teal,1.5);
  text(s,'Harness',88,505,186,36,32,C.teal,true);

@@ -1,3 +1,11 @@
+# Current S77 loop redraw — DEC-0142 (2026-11-03)
+
+Keep113slides/389minutes. In `compact-handoff-114.mjs`, replace only the
+currentS77 loop artwork with uniform3.5pxopen rounded tracks and small
+native direction markers midway along the straight sections. Preserve
+all text, node positions, the goal prompt, Harness base and S76 comparison.
+Build Full plus ACT3 with `--release --release-acts=3`.
+
 # Current shared-criteria comparison — DEC-0141 (2026-11-03)
 
 Keep113slides/389minutes. CurrentS76 is the retained S77 factory in
