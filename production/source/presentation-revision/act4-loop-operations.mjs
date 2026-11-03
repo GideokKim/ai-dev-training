@@ -141,18 +141,24 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S82(p) {
-      const s=common(p,'S82','첫 수정안을 확대해 보면','밝기 통계 · 후보 v1',reconstruction,caseKind,'M5 · M6');
-      lead(s,'첫 구현은 아래 목록을 만들 때 모든 픽셀을 복사한다');
-      label(s,'후보 v1 · 계산 부분 발췌 예시',64,260,570);
-      rect(s,64,314,564,128,C.ink);
-      text(s,'pixels = [v for row in rows\n            for v in row]',84,331,527,90,28,C.white,false,CODE);
-      connect(s,644,377,65);
-      label(s,'검토할 근거',736,260,480);
-      text(s,'출력 검사',736,322,448,42,31,C.ink,true);
-      text(s,'여섯 출력은 보존했는가?',736,367,455,34,25,C.sub);
-      text(s,'할당 측정',736,415,448,42,31,C.ink,true);
-      text(s,'전체 픽셀 복사 비용은 얼마인가?',736,460,470,34,25,C.sub);
-      takeaway(s,'동작 검사와 할당 측정은 서로 다른 완료 조건을 확인한다');
+      const s=common(p,'S82','루프를 구성하는 여섯 가지 요소','한 목표의 구현·검토·수정을 연결하는 설계','','TEACHING_MODEL','신규 확장');
+      const components=[
+        ['오토메이션','언제 시작할까?','정해 둔 시각이나 이벤트에\n맞춰 작업을 시작한다.'],
+        ['워크트리','어디서 수정할까?','같은 저장소에서 작업별로\n별도 디렉터리를 쓴다.'],
+        ['스킬','어떤 절차를 따를까?','테스트·측정처럼 반복하는\n절차를 꺼내 쓴다.'],
+        ['커넥터','무엇과 연결할까?','허용된 이슈 트래커에 연결해\n이슈를 읽고 검토 결과를 남긴다.'],
+        ['서브에이전트','누구에게 맡길까?','별도 에이전트에 검토를 맡기고\n그 지적을 구현에 넘긴다.'],
+        ['상태/메모리','어디서 이어갈까?','수정안·검사 결과·남은 일을\n기록해 다음 실행에 넘긴다.']
+      ];
+      components.forEach(([name,question,description],i)=>{
+        const x=64+(i%3)*391;
+        const y=169+Math.floor(i/3)*207;
+        const card=rect(s,x,y,370,186,C.white,C.line,1.3);card.borderRadius=8;
+        text(s,name,x+18,y+10,334,43,33,C.teal,true);
+        text(s,question,x+18,y+61,334,31,24,C.ink,true);
+        text(s,description,x+18,y+103,336,66,24,C.sub);
+      });
+      text(s,'작업에 필요한 역할을 골라 연결한다.',64,571,1152,37,25,C.teal,true);
       return s;
     },
     S83(p) {

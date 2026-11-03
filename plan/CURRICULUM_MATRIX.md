@@ -1,11 +1,11 @@
 # Curriculum Matrix
 
-## 현재 ACT3→ACT4 제작 기준 — DEC-0151 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0152 (2026-11-03)
 
 | Section | 위치 | 분 | 판단 대상 |
 |---|---|---:|---|
 | 4R1 Goal-loop entry | S78–S80 | 9 | 수정 착수를 위한 사람의 재요청 → 지적의 직접 인계 → 같은 기준으로 재검토 |
-| 4R2 One-goal walkthrough | S81–S84 | 19 | 사람 주도 대화와 검토 루프 비교, v1의 전체 복사 지적, v2의 행별 집계 |
+| 4R2 One-goal walkthrough | S81–S84 | 19 | 사람 주도 대화와 검토 루프 비교, 여섯 구성 역할 선택, v1의 전체 복사 지적, v2의 행별 집계 |
 | 4R3 Loop control | S85 | 5 | 누락 근거 측정 후 완료 보고·재수정·미완료 인계 |
 | 4R4 Review research | S86–S87 | 9 | 역할과 모델 조합의 평가 |
 | 4R5 Team operations and state | S88–S94 | 26 | GitLab 이슈별 작업 공간·구현/검토·팀원의 MR 검토·상태 인계·규칙 변경 승인 |

@@ -1,8 +1,8 @@
 # Official Slide Map
 
-## 현재 ACT3→ACT4 제작 기준 — DEC-0151 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0152 (2026-11-03)
 
-S77에서 점심 전 맡긴 작업과 돌아와 받은 계획을 나란히 보여준다. S79는 “응, 시작해.”라는 답에서 첫 구현으로 이어지고, 검토 지적을 사람이 전달하는 두 번째 멈춤을 보여준다. S80은 같은 첫 지적을 루프로 연결한 대안이다. S81은 두 진행 방식을 네 항목으로 비교하고 S82는 같은 첫 후보의 목록 생성식을 확대한다. S83–S85에서 이 식으로 확인한 지적을 직접 구현에 넘겨 전체 복사를 행별 집계로 바꾼다. 누락된 시간은 같은 후보로 먼저 측정하고 결과와 한도를 보고 다음 행동을 정한다. S88부터의 GitLab 사례는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54/S81, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
+S77에서 점심 전 맡긴 작업과 돌아와 받은 계획을 나란히 보여준다. S79는 “응, 시작해.”라는 답에서 첫 구현으로 이어지고, 검토 지적을 사람이 전달하는 두 번째 멈춤을 보여준다. S80은 같은 첫 지적을 루프로 연결한 대안이다. S81은 두 진행 방식을 네 항목으로 비교하고 S82는 작업에 맞춰 선택할 여섯 구성 역할을 소개한다. S83–S85에서 밝기 통계 첫 후보의 목록 생성식을 처음 보여주고 확인한 지적을 직접 구현에 넘겨 전체 복사를 행별 집계로 바꾼다. 누락된 시간은 같은 후보로 먼저 측정하고 결과와 한도를 보고 다음 행동을 정한다. S88부터의 GitLab 사례는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54/S81, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
 
 [승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
 
@@ -2118,36 +2118,36 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Advanced Payoff:** 프롬프트는 루프에서도 쓰인다. 다음 행동의 시작 조건, 회차 간 인계, 완료·중단 기준을 별도로 설계한다.
 - **C++ Vision Bridge:** N/A — 같은 밝기 통계 예시의 두 작업 방식에 집중한다.
 - **Speaker Intent:** 두 경우 모두 목표와 완료 기준은 사람이 정한다. S79/S80에서 다음 회차에 누가 무엇을 전달했는지 같은 행에서 비교한다.
-- **Transition:** 그렇다면 이 예시에서 다음 수정에 넘길 구체적인 근거는 무엇일까? 첫 구현의 목록 생성식을 확대한다.
+- **Transition:** 검토 결과로 다음 행동을 이어가려면 어떤 역할을 연결할까?
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
 - **Evidence / Decision References:** DEC-0151, DEC-0149, BEAT-074, BEAT-073, BEAT-077, BEAT-078, BEAT-079, CASE-LOOP-01, CLM-0021
 - **Audience Footer:** 없음. 비교 범위와 출처는 발표 Notes에 둔다.
 
-#### S82 — 첫 수정안을 확대해 보면
+#### S82 — 루프를 구성하는 여섯 가지 요소
 
 - **Slide ID:** S82
 - **ACT:** ACT 4
 - **Section:** 4R2 One-goal walkthrough
-- **Working Title:** 첫 수정안을 확대해 보면
-- **Primary Role:** S79에서 지적한 첫 후보 v1의 코드 위치를 확대해, 검토 지적과 검사·측정 항목을 연결한다.
-- **Audience Question:** 첫 후보에서 전체 픽셀을 어디에 복사했고, 어떤 근거로 그 비용을 확인할까?
-- **Core Message:** 가상 v1에서 출력 일치와 임시 목록 제거 여부는 서로 다른 확인 항목이다.
-- **Story Beat:** BEAT-075
-- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0149
-- **Evidence Type:** CONCEPTUAL
-- **Claim Status:** CONCEPTUAL CASE — CASE-LOOP-01의 밝기 통계 가상 후보와 검토 과정. 기존 제품 Trial은 함수의 실제 배경만 제공한다.
-- **Visual Concept:** S79와 S80에서 공통으로 본 첫 후보 v1을 확대한다. 같은 입력의 픽셀 전체를 복사하는 목록 생성식과, 출력 검사와 할당 피크 측정에서 확인할 내용을 나란히 둔다.
-- **Demo / Case Connection:** CASE-LOOP-01 · 밝기 통계 내부 루프의 교육용 설계
-- **Beginner Payoff:** 가상 v1에서 출력 일치와 임시 목록 제거 여부는 서로 다른 확인 항목이다.
-- **Advanced Payoff:** 재구성한 목록 복사와 메모리 측정 항목을 대응시킨다.
-- **C++ Vision Bridge:** 프로젝트 명세·검사·측정 기준으로 전이할 수 있는 설계 원리.
-- **Speaker Intent:** 시간을 첫 수정안으로 되돌려 같은 지적의 코드 근거를 확대한다. 목록 복사 위치를 짚고 출력 검사와 메모리 측정에서 각각 얻을 수 있는 근거를 구분한다.
-- **Transition:** 이 코드와 검사 근거를 받았다면, 어떤 검토 지적을 다음 구현에 넘길까?
+- **Working Title:** 루프를 구성하는 여섯 가지 요소
+- **Primary Role:** 한 목표의 구현·검토·수정을 연결할 때 작업에 맞게 선택할 여섯 역할을 제시한다.
+- **Audience Question:** 무엇이 작업을 시작하고, 어디서 무엇을 수행하며, 다음 회차는 어떤 기록을 이어받을까?
+- **Core Message:** 오토메이션은 시작 조건을, 워크트리는 작업별 공간을, 스킬은 반복 절차를 맡는다. 커넥터로 외부 자료를 연결하고 서브에이전트에 검토를 맡길 수 있으며 상태/메모리로 다음 실행에 필요한 근거를 남긴다.
+- **Story Beat:** BEAT-051
+- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0152
+- **Evidence Type:** TEACHING_MODEL
+- **Claim Status:** TEACHING MODEL — 작업에 필요한 역할을 선택하는 교육용 설계다. 여섯 요소의 필수성, graypipe에서 모두 실행된 이력, 특정 제품·계정의 기능 가용성을 주장하지 않는다.
+- **Visual Concept:** 편집 가능한 3열×2행 카드에 오토메이션, 워크트리, 스킬, 커넥터, 서브에이전트, 상태/메모리 순으로 이름·질문·역할을 표시한다. 단계 번호 없이 한 화면에서 역할을 골라 읽는다.
+- **Demo / Case Connection:** 정적 설계 예시. CASE-LOOP-01의 검사·검토 인계에 필요한 역할을 구분한다. S88에서 실제 GitLab 사례를 소개한다.
+- **Beginner Payoff:** 언제 시작할지, 어디서 수정할지, 무엇을 기억할지를 구체적인 도구 역할에 연결한다.
+- **Advanced Payoff:** 작업 디렉터리와 위임 범위, 외부 연결 권한, 회차 사이에 남길 정보의 범위를 별도로 정한다.
+- **C++ Vision Bridge:** N/A — 언어와 제품에 독립적인 역할 구성.
+- **Speaker Intent:** 앞쪽 세 카드에서 시각·이벤트, 같은 저장소의 별도 디렉터리, 반복 검사 절차를 읽는다. 뒤쪽 세 카드는 이슈·검토 결과 게시, 위임한 검토의 회수, 마지막 후보·검사·남은 일의 인계로 설명한다.
+- **Transition:** 검토를 맡은 에이전트는 어떤 근거를 다음 구현자에게 넘길까? 밝기 통계 첫 후보의 코드를 S83에서 살펴본다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 3분 = 5분
-- **Evidence / Decision References:** DEC-0149, DEC-0144, BEAT-075, CASE-LOOP-01, DEC-0097, CLM-0021
-- **Audience Footer:** 교육용 재구성
+- **Evidence / Decision References:** DEC-0152, DEC-0151, BEAT-051, INV-LOOP-001, CLM-0021
+- **Audience Footer:** 별도 근거 문구 없음. M 연계는 신규 확장으로 표시한다.
 
 #### S83 — 어떤 지적을 다음 수정에 넘길까?
 
@@ -2155,10 +2155,10 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **ACT:** ACT 4
 - **Section:** 4R2 One-goal walkthrough
 - **Working Title:** 어떤 지적을 다음 수정에 넘길까?
-- **Primary Role:** S82의 목록 생성식에서 근거를 확인하고 다음 구현에 전달할 지적을 고른다.
+- **Primary Role:** 밝기 통계 첫 구현의 목록 생성식을 이 화면에서 처음 펼쳐 근거를 확인하고 다음 구현에 전달할 지적을 고른다.
 - **Audience Question:** 어떤 지적을 다음 수정에 넘길까?
 - **Core Message:** 코드에서 전체 픽셀을 임시 목록으로 복사하는 위치를 짚을 수 있다. 이 지적을 수정에 넘기고 실행시간 변화는 측정으로 확인한다.
-- **Story Beat:** BEAT-076
+- **Story Beat:** BEAT-075, BEAT-076
 - **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0150
 - **Evidence Type:** CONCEPTUAL
 - **Claim Status:** CONCEPTUAL CASE — CASE-LOOP-01의 밝기 통계 가상 후보와 검토 과정. 기존 제품 Trial은 함수의 실제 배경만 제공한다.
@@ -2167,11 +2167,11 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** 코드에서 바로 짚을 수 있는 문제와 시간을 재야 알 수 있는 문제를 구분한다.
 - **Advanced Payoff:** 코드 위치·고정된 명세·추가로 필요한 측정이라는 세 종류의 근거로 검토 의견을 선별한다.
 - **C++ Vision Bridge:** 프로젝트 명세·검사·측정 기준으로 전이할 수 있는 설계 원리.
-- **Speaker Intent:** S82의 같은 식을 가리키며 전체 복사 지적을 넘기는 이유를 설명한다. 복사 코드의 존재만으로 성능 차이를 단정하지 않는다.
+- **Speaker Intent:** S82에서 본 검토 역할을 떠올리고 첫 후보의 목록 생성식을 보여주며 전체 복사 지적을 넘기는 이유를 설명한다. 복사 코드의 존재만으로 성능 차이를 단정하지 않는다.
 - **Transition:** 검토에서 넘긴 이 지적은 다음 후보의 구현을 어떻게 바꿀까?
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 4분 = 5분
-- **Evidence / Decision References:** DEC-0150, DEC-0144, BEAT-076, CASE-LOOP-01, DEC-0097, CLM-0021
+- **Evidence / Decision References:** DEC-0152, DEC-0150, DEC-0144, BEAT-075, BEAT-076, CASE-LOOP-01, DEC-0097, CLM-0021
 - **Audience Footer:** 교육용 재구성
 - **Practical Tip Classification:** 검증·개선
 

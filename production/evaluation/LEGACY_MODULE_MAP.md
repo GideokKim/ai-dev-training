@@ -1,6 +1,6 @@
 # Legacy Module Connection Map
 
-## 현행 ACT4 화면 표기 · DEC-0145
+## 현행 ACT4 화면 표기 · DEC-0152
 
 113장 판본의 통합 PPT와 ACT4 PPT에서 S78–S97의 하단 텍스트를 각각 대조했다. 두 PPT 모두 각 장에 다음 라벨이 하나씩 들어간다.
 
@@ -8,7 +8,9 @@
 |---|---|---|
 | S78 | M 연계 · ACT 안내 | [ACT4 제작 소스](../source/presentation-revision/act4-loop-operations.mjs)의 제목 장 |
 | S79–S80 | M 연계 · 신규 확장 | [ACT4 제작 소스](../source/presentation-revision/act4-loop-operations.mjs)의 기본 라벨 |
-| S81–S86 | M 연계 · M5 · M6 | 같은 제작 소스에서 각 장에 지정한 M5·M6 |
+| S81 | M 연계 · M5 · M6 | 같은 제작 소스의 네 항목 비교표 |
+| S82 | M 연계 · 신규 확장 | 루프 설계에서 선택할 여섯 역할 |
+| S83–S86 | M 연계 · M5 · M6 | 같은 제작 소스에서 각 장에 지정한 M5·M6 |
 | S87–S97 | M 연계 · 신규 확장 | 같은 제작 소스의 기본 라벨 또는 명시한 신규 확장 라벨 |
 
 ## 보존된 DEC-0093 당시의 115장 지도

@@ -2,7 +2,7 @@
 
 ## Current use under DEC-0146
 
-S79 shows a developer relaying a review finding into another request. S80 shows the same goal and finding carried directly into revision and recheck. S81–S85 detail the criteria and decisions. The brightness case is a teaching reconstruction. S88 introduces the first-person GitLab operating account. Its example handoff fields and failed-read branch have teaching provenance.
+S79 shows a developer relaying a review finding into another request. S80 shows the same goal and finding carried directly into revision and recheck. S81 compares the workflows. S82 uses the five components and external memory from section 2 of the [presenter’s operating account](https://gideokkim.github.io/codex/loop-engineering/) as a design guide. S83–S85 cover the code evidence and revision decision. The brightness case is a teaching reconstruction. S88 introduces the first-person GitLab operating account. Its example handoff fields and failed-read branch have teaching provenance.
 
 S86 distinguishes assigning roles from selecting models. S87 uses PairCoder's HumanEval comparison. ReConcile (StrategyQA), Self-Refine and intrinsic self-correction remain supplementary readings for the former research sequence. The registered studies and claims retain their original scopes. [Source registry](../sources/SOURCES.md) · [Approved ACT4 sequence](../../plan/ACT4_LOOP_OPERATIONS_PROPOSAL.md)
 

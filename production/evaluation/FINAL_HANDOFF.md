@@ -1,25 +1,25 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## S81 프롬프팅과 루프 비교 · DEC-0151
+## S82 루프 구성요소 · DEC-0152
 
-[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT3 발표 자료](../ACT_3.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [ACT5 찾아보기](../ACT_5.pptx) · [ACT4 발표 Notes](../notes/ACT_4_NOTES.md) · [S81 검토 결과](S81_PROMPT_LOOP_COMPARISON.md)
+[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT3 발표 자료](../ACT_3.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [ACT5 찾아보기](../ACT_5.pptx) · [ACT4 발표 Notes](../notes/ACT_4_NOTES.md) · [S82 검토 결과](S82_LOOP_COMPONENTS.md)
 
-113장·389분이다. S81에서 같은 목표의 두 작업 방식을 네 항목으로 비교하고, S82부터 첫 구현과 재검토 과정을 살펴본다.
+113장·389분이다. S82에서 루프에 쓰는 여섯 역할을 소개하고 S83에서 밝기 통계의 첫 후보를 검토한다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `366d8765bd9168d83996217d65c46c9dab0b7002c2378088573baedbcc043f40` |
+| `production/AI_Dev_Training_Full.pptx` | `89a4603495c3ae49a047e19d23d7477ad2c0c709ff28e754bb40f3087475521d` |
 | `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
 | `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
 | `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
 | `production/ACT_3.pptx` | `73fa2d32d3a1dcdf893fa8c0329f07c4c1cceea52b4188ec9322317c82502a86` |
-| `production/ACT_4.pptx` | `977aa35164d979b881c16256cd3875f7b7b32a9de060a49582a11e89ca43722d` |
+| `production/ACT_4.pptx` | `d1be37eecee3c513d8503a793b814f54ccd504a00e071a00451f1f540864fcd0` |
 | `production/ACT_5.pptx` | `38575a4a8ecb7fd6825349c57a773dea43db8431bc779bcf49d2951fcbee8f61` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `e49a87660f9575ef8a2ceb2920f71c9858676158304772c6e853ff403ad64706` |
-| `production/notes/ACT_4_NOTES.md` | `d756e3e1c9be638c7726d1385f561818032033bf4d06711bdd18ae10daf759dc` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `602c0b75fca64bff65466afdb6964fdfe0dd1c4387c66083a9829188b3a266fd` |
+| `production/notes/ACT_4_NOTES.md` | `bf43d9bea4fc8f276766a1ee6394b1f8383f2e4d050b2ca739d8892461f761c3` |
 | `production/notes/ACT_5_NOTES.md` | `c6ff6ab6ba374ad5e9b897e139529f3b192219599b36e9ffce53ca64aacd56c6` |
-| `production/preview/full/montage.png` | `623171859e8d544187db818fe006f0b32c2f6a1ed48d91374d99e4de86d9c205` |
-| `production/preview/act4/montage.png` | `de4d49e64c10cee2b9921b02e6adfd3db85e52dd3f779c39532133808157bd44` |
+| `production/preview/full/montage.png` | `2e48bb179273576a8e1d59ef7833e4364b2403a481b3d27aa423671bbcbaf92b` |
+| `production/preview/act4/montage.png` | `85d72aa854e830142c3b9e5ba419dabb7e85817975f70fdd2a112f1dd4c29547` |
 | `production/preview/act5/montage.png` | `18ce7b80b8e6ee02c8006a4bda9f9ccbd0ff226f111f7f24afeb3f3d0dc131d4` |
 | `production/preview/full/S79.png` | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | `production/preview/full/S84.png` | `aa3ec616518b2866672caf85bc6ebc7148848c4cb0fb8697b01c46f8772f38e4` |

@@ -14680,3 +14680,79 @@ directs and which part the system connects to the next review.
 
 Confirm that the table's cells remain editable and that both columns can be
 read on the presentation PC.
+
+# DEC-0152 — Map six optional roles in a review loop
+
+## Status
+
+ACCEPTED. The presenter asked for six components to replace S82.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S81 compares human-led prompting with a review loop for the same task.
+S83 already contains the list expression and the review finding about
+the candidate's full pixel copy.
+
+## Problem
+
+The old S82 enlarged that expression before S83 repeated it. The audience
+had not yet seen a compact map of the roles that can connect the rounds.
+
+## Decision
+
+Use six editable cards on S82. Automation starts a run on a schedule or
+event. A worktree provides a task-specific working directory in the same
+repository. A skill holds a reusable procedure. A connector gives the
+task authorized access to an external issue tracker. A subagent can
+review a bounded part of the work and return findings for integration.
+State or memory carries the candidate, checks and open work into the
+next run. Read the cards by the need each one addresses. Introduce the
+candidate's list expression on S83 when the reviewer needs evidence.
+
+## Rationale
+
+The map connects the comparison on S81 to concrete implementation choices.
+Asking what information a reviewer must return leads directly to S83.
+
+## Alternatives
+
+Keeping the former code enlargement would leave less room for the six
+roles. Its code-location lesson is still available on S83.
+
+## Trade-offs
+
+Use T03-A with two rows of three equal cards. This bounded exception
+allows all six requested terms to stay visible; the layout has no step
+numbers or directional connectors. Keep two lecture minutes and three
+case minutes for explaining roles and choosing them for a design example.
+
+## Related Invariants
+
+INV-LOOP-001, INV-VERIFY-001 and INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+S82 in ACT4 and the full deck, the adjoining speaker cues, the official
+slide and template maps, the curriculum and the current claim boundaries.
+
+## Evidence
+
+The presenter's six requested terms and the existing course material on
+skills, review delegation, task workspaces and state handoff. S82 is a
+teaching model. The slide does not claim graypipe ran all six or that a
+specific product account supplies them. S88 introduces the recorded GitLab
+case.
+
+## Training Relevance
+
+The audience can choose where a run starts, where it changes code, how
+to reuse a procedure, connect external work, delegate and resume.
+
+## Follow-up
+
+Check that each card remains legible on the presentation PC and that
+the transition to S83 makes sense without the retired S82 code panel.
