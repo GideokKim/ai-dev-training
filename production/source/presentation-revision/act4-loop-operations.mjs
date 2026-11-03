@@ -76,7 +76,7 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S79(p) {
-      const s=common(p,'S79','시작하라고 답했다. 그런데 한 번 더 내가 필요했다','점심에서 돌아온 뒤 · 같은 밝기 통계 작업',reconstruction,caseKind);
+      const s=common(p,'S79','시작하라고 답했다. 그런데 한 번 더 내가 필요했다','점심에서 돌아온 뒤 · 같은 밝기 통계 작업','',caseKind);
       const thread=rect(s,64,177,1152,98,C.white,C.line,1.5); thread.borderRadius=9;
       text(s,'AI의 질문',85,186,535,26,19,C.sub,true);
       text(s,'“이대로 구현을 시작할까요?”',84,219,522,43,29,C.ink,true);

@@ -6,22 +6,24 @@
 
 113장·389분이다. S83–S85는 같은 지적이 행별 집계 수정으로 이어진 뒤, 근거를 측정하고 다음 행동을 판단하는 흐름이다. S112에서 두 실무 팁을 다시 찾을 수 있다.
 
+S79의 교육용 대화 출처는 [발표 Notes](../notes/ACT_4_NOTES.md)에 기록한다. 기준판 `f10d5e3` 대비 통합 렌더에서 변경된 영역은 S79의 하단 출처 문구뿐이다.
+
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `be32932d634d3c3b5bc6b4ac74ae1d6c4f0528e0953a4cfe8a784ccc290f53c3` |
+| `production/AI_Dev_Training_Full.pptx` | `fde6203dfc82456ff8223480a078dd33309f8d001150c9a870090989262e3476` |
 | `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
 | `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
 | `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
 | `production/ACT_3.pptx` | `73fa2d32d3a1dcdf893fa8c0329f07c4c1cceea52b4188ec9322317c82502a86` |
-| `production/ACT_4.pptx` | `142cb3d94723cd2f5a14e1a873ae63f5c96558d4a26a72d73d39f3fd3e013ea7` |
+| `production/ACT_4.pptx` | `dd629b4cbddb5e59e7ddd4d85169f8df7e8576004610d6c4d16beb64517a188d` |
 | `production/ACT_5.pptx` | `38575a4a8ecb7fd6825349c57a773dea43db8431bc779bcf49d2951fcbee8f61` |
 | `production/notes/FULL_SPEAKER_NOTES.md` | `7e4eb74737e7caf1471cc92024817e770df9093917c3da64eb67647522aa343d` |
 | `production/notes/ACT_4_NOTES.md` | `7ccea6db6eb79f7a34bae85eea7bb6dd9de44369b479a6754aa5c081bdf99291` |
 | `production/notes/ACT_5_NOTES.md` | `c6ff6ab6ba374ad5e9b897e139529f3b192219599b36e9ffce53ca64aacd56c6` |
-| `production/preview/full/montage.png` | `821373fc5f201f78686278411d84f000a7b3ab84907edd26bc2539fa0820c541` |
-| `production/preview/act4/montage.png` | `0f1a9bde7b44596eda006f798e30a82c64086be0be7d8378a9579b642744f486` |
+| `production/preview/full/montage.png` | `89515c0f386ccbc1748687fec9ecf771de6a7e7f1f0411ca35a85a0aed1ced67` |
+| `production/preview/act4/montage.png` | `355a2dfd18aec2bfd2d1093368e9e876e18e3dcf1152ba1fa3128b76e7466dc1` |
 | `production/preview/act5/montage.png` | `18ce7b80b8e6ee02c8006a4bda9f9ccbd0ff226f111f7f24afeb3f3d0dc131d4` |
-| `production/preview/full/S79.png` | `3fe9a9944c1c50e00b1de77aaf42ef1c923f11b97bf051a3d099945ccbee47ad` |
+| `production/preview/full/S79.png` | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | `production/preview/full/S84.png` | `aa3ec616518b2866672caf85bc6ebc7148848c4cb0fb8697b01c46f8772f38e4` |
 | `production/preview/full/S87.png` | `2ffd4004727bc494406fa5792226d4c3930d46b083529b2e331f199842f9ad88` |
 | `production/preview/full/S88.png` | `83fc4a3952b1ca26f721d088984235c80bcd211c25822d389c522c9c46c1965f` |
