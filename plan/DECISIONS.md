@@ -13683,3 +13683,89 @@ request, removed footers, Notes and final packages. Record current results
 in production/evaluation/S71_PROMPT_WINDOW.md. Preserve Windows, room,
 product-account and rehearsal gates; commit/push in the authorized root
 workflow without changing the Demo repository, Sites or presenter bundles.
+
+
+# DEC-0140 — Clarify the goal prompt and implementation-review loop
+
+## Status
+
+ACCEPTED — explicit user annotations for current S77 only.
+
+## Date
+
+2026-11-03
+
+## Context
+
+At baseline39650f0, S77 connects the completed Harness explanation to
+one task's goal-directed operation. Its return path is present but does
+not make repetition visually clear. The user also asks to make the goal
+area read as a compact macOS-style prompt window.
+
+## Problem
+
+Clarify the repeated implementation-review relationship while retaining
+the short ACT3-to-ACT4 transition, the existing words and the Harness basis.
+
+## Decision
+
+Change only S77's visual arrangement. Show the fixed goal in a compact
+macOS-style request window with traffic lights, the existing goal header
+and its completion-criteria text. Connect implementation and review with
+curved forward and return arrows that read together as one repeated path.
+Use teal for progress and amber for the conditional return, retaining
+"문제가 남으면 수정·재검토". Keep all existing slide wording, title, roles,
+Harness components, M connections and conceptual claim boundaries.
+Keep113slides/389minutes, every ID, Template and time/Mode unchanged.
+S77 remains Transition2minutes; ACT4 remains20slides/85minutes.
+Do not add detailed states, model roles, research, success checks,
+completion/stop branches or new execution claims to this bridge.
+
+## Rationale
+
+The recognizable input window identifies the task goal. The continuous
+curved path makes repeated review and revision readable without requiring
+extra explanation or moving the next ACT's detailed design forward.
+
+## Alternatives
+
+Keep the angular return line: it is already present but did not communicate
+repetition clearly to the user. Add another explanatory slide: unnecessary
+for this scoped visual correction and outside the requested arrangement.
+
+## Trade-offs
+
+A more prominent loop must not imply unconditional execution, guaranteed
+goal attainment or a recorded product behavior. Keep the return condition
+visible and preserve those limits in Notes. The prompt is a teaching
+diagram, not an actual product screenshot.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-LOOP-001, INV-VERIFY-001, INV-SOT-001.
+
+## Affected Artifacts
+
+S77 Map visual, ACT3/FULL Notes cues, the retained bridge source,
+affected ACT/full packages and previews, and delivery identities.
+No slide migration, global planning banner or Template change is needed.
+
+## Evidence
+
+Explicit user annotations; the existing DEC-0136 bridge, BEAT-073,
+and the approved macOS-style request language. No new Trial, product
+feature check, actual iteration or measured improvement is introduced.
+
+## Training Relevance
+
+YES — distinguish the reusable work basis from repeating one task's
+implementation and review toward its fixed goal.
+
+## Follow-up
+
+Compare final S77 with its baseline: existing wording, clear loop direction,
+conditional return, compact prompt, Harness basis, Notes and fixed budgets.
+Record current render/package checks in
+production/evaluation/S77_LOOP_VISUAL.md. Preserve Windows, room,
+product-account and rehearsal gates; commit/push in the root workflow
+without modifying the Demo repository, Sites or presenter bundles.

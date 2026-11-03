@@ -1,3 +1,11 @@
+# Current focused styling — DEC-0140 (2026-11-03)
+
+Keep113slides/389minutes. In `compact-handoff-114.mjs`, currentS77 is
+the retained S78 bridge factory. Style its goal as a compact macOS prompt
+and show implementation/review as two continuous native curved arrows.
+Preserve every existing word, the Harness basis and Transition2minutes.
+Build Full plus ACT3 with `--release --release-acts=3`.
+
 # Current focused styling — DEC-0139 (2026-11-03)
 
 Keep113slides/389minutes. In `codex-authoring-tips.mjs`, style only the

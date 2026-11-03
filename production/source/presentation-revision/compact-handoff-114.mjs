@@ -35,22 +35,43 @@ export function compactBridgeFactory(p,H){
   line:{fill:color,width:2.5,style:dash},
   [reverse?'head':'tail']:{type:'triangle',width:'sm',length:'sm'}
  });
- const stem=(x,y,h,color,dash)=>s.shapes.add({
-  geometry:'line',position:{left:x,top:y,width:0,height:h},line:{fill:color,width:2.5,style:dash}
+ // DEC-0140: continuous native curved arrows make the iteration explicit.
+ const loopArrow=(name,left,top,color,commands)=>s.shapes.add({
+  geometry:'custom',name,position:{left,top,width:422,height:60},
+  fill:color,line:{fill:'none',width:0},
+  customPaths:[{width:422,height:60,commands}]
  });
  rect(s,64,220,1152,336,C.white,C.line,1);
  text(s,'이번 작업',88,232,1096,32,25,C.teal,true);
- rect(s,88,286,268,104,C.pale,C.teal,1.5);
- text(s,'이번 목표',108,297,228,36,29,C.teal,true,FONT,'center');
+ const prompt=rect(s,88,286,268,104,C.white,C.line,1.5);prompt.borderRadius=10;
+ const chrome=rect(s,89,287,266,31,'#EDF1F5');chrome.borderRadius=9;
+ ['#FF5F57','#FEBC2E','#28C840'].forEach((fill,i)=>{
+  s.shapes.add({geometry:'ellipse',name:'Goal window control '+(i+1),position:{left:100+i*14,top:298,width:8,height:8},fill,line:{fill:'none',width:0}});
+ });
+ text(s,'이번 목표',146,290,192,25,20,C.teal,true);
+ line(s,89,319,266,C.line,1);
  text(s,'목표 · 완료 기준',108,343,228,29,25,C.ink,false,FONT,'center');
  rect(s,460,286,258,104,C.white,C.teal,1.5);
  text(s,'구현',480,314,218,48,36,C.ink,true,FONT,'center');
  rect(s,840,286,304,104,C.white,C.teal,1.5);
  text(s,'검토',860,314,264,48,36,C.ink,true,FONT,'center');
- connect(356,338,104);connect(718,338,122);
- stem(992,390,58,C.warn,'dash');
- line(s,589,448,403,C.warn,2.5,'dash');
- connect(589,390,0,58,C.warn,'dash',true);
+ connect(356,338,104);
+ loopArrow('Implement to review loop',586,226,C.teal,[
+  {moveTo:{x:0,y:60}},
+  {cubicBezTo:{x1:0,y1:0,x2:409,y2:0,x:409,y:40}},
+  {lineTo:{x:419,y:40}},{lineTo:{x:406,y:60}},
+  {lineTo:{x:393,y:40}},{lineTo:{x:403,y:40}},
+  {cubicBezTo:{x1:403,y1:8,x2:6,y2:8,x:6,y:60}},
+  {close:{}}
+ ]);
+ loopArrow('Review back to implement loop',573,390,C.warn,[
+  {moveTo:{x:422,y:0}},
+  {cubicBezTo:{x1:422,y1:60,x2:13,y2:60,x:13,y:20}},
+  {lineTo:{x:3,y:20}},{lineTo:{x:16,y:0}},
+  {lineTo:{x:29,y:20}},{lineTo:{x:19,y:20}},
+  {cubicBezTo:{x1:19,y1:52,x2:416,y2:52,x:416,y:0}},
+  {close:{}}
+ ]);
  text(s,'문제가 남으면 수정·재검토',638,452,506,31,25,C.warn,true,FONT,'center');
  rect(s,64,490,1152,66,C.pale,C.teal,1.5);
  text(s,'Harness',88,505,186,36,32,C.teal,true);

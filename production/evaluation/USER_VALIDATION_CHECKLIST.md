@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+Current DEC-0140:113slides/389minutes. S77 goal-prompt styling and implementation/review curved loop only; preserve all text, timing and claim scope. Use [current result](S77_LOOP_VISUAL.md) and [handoff](FINAL_HANDOFF.md). Windows, room, product-account and timed rehearsal remain UNVERIFIED.
+
+## 보존된 이전 기록
+
 Current DEC-0139:113slides/389minutes. S71 prompt styling and S71/S72 audience-footer deletion only; Notes preserve provenance and claim scope. Use [current result](S71_PROMPT_WINDOW.md) and [handoff](FINAL_HANDOFF.md). Windows, room, product-account and timed rehearsal remain UNVERIFIED.
 
 ## 보존된 이전 기록
