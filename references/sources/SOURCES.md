@@ -245,7 +245,7 @@ Organization / Authors: OpenAI
 Source Type: OFFICIAL_DOC
 URL: https://learn.chatgpt.com/docs/customization/memories
 Published: Not shown
-Checked: 2026-11-03 (DEC-0158, S94)
+Checked: 2026-11-03 (DEC-0158; current S92 under DEC-0160)
 Tier: 1
 Topics: Memory, personalization, context boundary
 Key Evidence: Settings > Personalization > Enable Codex memories enables local memories for the selected machine. /memories controls whether the current chat can use memories or contribute to future ones. Eligible earlier conversations can supply useful context through background processing.
@@ -1406,12 +1406,12 @@ Title: Long-running work
 Organization / Authors: OpenAI
 Source Type: OFFICIAL_DOC
 URL: https://learn.chatgpt.com/docs/long-running-work
-Checked:2026-11-03 (S99, DEC-0159)
+Checked:2026-11-03 (DEC-0159; current S97 under DEC-0160)
 Tier:1
 Key Evidence: Documents /goal for the desktop app, CLI and IDE; outcome, constraints and verification; existing permissions remain.
 Limitations: Target-account availability and successful execution are unverified.
 Volatility:HIGH
-Notes: Current S99 (DEC-0159), previously S99/S100 in the DEC-0098 edition. Documented usage, no live activation or trial.
+Notes: Current S97 (DEC-0160), introduced as S99 in DEC-0159 and previously S99/S100 in the DEC-0098 edition. Documented usage, no live activation or trial.
 
 ### SRC-0241
 
@@ -1419,12 +1419,12 @@ Title: Using Goals in Codex
 Organization / Authors: OpenAI
 Source Type: OFFICIAL_DOC
 URL: https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex
-Checked:2026-11-03 (S99, DEC-0159)
+Checked:2026-11-03 (DEC-0159; current S97 under DEC-0160)
 Tier:1
 Key Evidence: Describes thread-scoped persistent objectives, evidence-based continuation and lifecycle/budget boundaries.
 Limitations: No automatic heterogeneous code-review assignment or course efficacy result is established.
 Volatility:HIGH
-Notes: Current S99 (DEC-0159), previously S99/S100 in the DEC-0098 edition. Documented usage, no live activation or trial.
+Notes: Current S97 (DEC-0160), introduced as S99 in DEC-0159 and previously S99/S100 in the DEC-0098 edition. Documented usage, no live activation or trial.
 
 ### SRC-0242
 
@@ -1526,7 +1526,7 @@ Source Type: ACADEMIC_PRIMARY (preprint)
 URL: https://arxiv.org/abs/2604.22891v4
 Published: 2026-06-02 (v4)
 Checked: 2026-11-03
-Claim: CLM-0051 · S91. 20개 모델을 평가하며 품질이 비슷한 응답 쌍에 대한 선호와 품질 판별 능력을 구분했다. 높은 판별 능력과 자기 응답을 선호하는 경향이 함께 나타날 수 있었다. 실무 코드의 정확성이나 이종 모델 팀의 성과는 이 비교에서 측정하지 않았다.
+Claim: CLM-0051 · 이전 판본 S91, DEC-0160 이후 참고 문헌. 20개 모델을 평가하며 품질이 비슷한 응답 쌍에 대한 선호와 품질 판별 능력을 구분했다. 높은 판별 능력과 자기 응답을 선호하는 경향이 함께 나타날 수 있었다. 실무 코드의 정확성이나 이종 모델 팀의 성과는 이 비교에서 측정하지 않았다.
 
 ### SRC-0248
 
@@ -1536,4 +1536,4 @@ Source Type: ACADEMIC_PRIMARY (preprint)
 URL: https://arxiv.org/abs/2606.05976v2
 Published: 2026-07-31 (v2)
 Checked: 2026-11-03
-Claim: CLM-0052 · S92. 같은 오류 문장을 그대로 두고 자신의 생각·사용자·도구·외부 메모리 등 메시지 역할만 바꿨다. 외부 역할로 제시했을 때 오류를 명시적으로 짚는 비율의 증가가 12개 모델·과제 조합 중 10개에서 유의했다. 독립 모델 조합의 성능을 비교한 실험으로 확장하지 않는다.
+Claim: CLM-0052 · 이전 판본 S92, DEC-0160 이후 참고 문헌. 같은 오류 문장을 그대로 두고 자신의 생각·사용자·도구·외부 메모리 등 메시지 역할만 바꿨다. 외부 역할로 제시했을 때 오류를 명시적으로 짚는 비율의 증가가 12개 모델·과제 조합 중 10개에서 유의했다. 독립 모델 조합의 성능을 비교한 실험으로 확장하지 않는다.

@@ -1,8 +1,8 @@
 # DEMO-03 — Reusable Verification Workflow
 
-## 현행 발표 자료 · DEC-0159
+## 현행 발표 자료 · DEC-0160
 
-[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 115장·393분 중 ACT4는 S78–S99, ACT5는 S100–S115다. S94 메모리 팁과 S99 Goal 팁은 각각 강의 2분이다.
+[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 113장·386분 중 ACT4는 S78–S97, ACT5는 S98–S113다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
 
 현재 scheduled Demo는 S65 목록1분→S66 명시 요청2분=3분이다. S67 제작 팁으로 바로 연결한다.
 S67 제작 요청은 사용 예시이며 실제 TRIAL-008 Skill 제작 이력이 아니다.

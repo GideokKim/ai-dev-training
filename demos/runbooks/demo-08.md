@@ -1,16 +1,16 @@
 # DEMO-08 — Durable Knowledge Decision Visual
 
-## 현행 발표 자료 · DEC-0159
+## 현행 발표 자료 · DEC-0160
 
-[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 115장·393분 중 ACT4는 S78–S99, ACT5는 S100–S115다. S94 메모리 팁과 S99 Goal 팁은 각각 강의 2분이다.
+[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 113장·386분 중 ACT4는 S78–S97, ACT5는 S98–S113다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
 
-현재 ACT5 S105 “이번에 알아낸 것 중, 다음에도 쓸 것은?”이 원 Section3F/BEAT-026–028/DEMO-08의 배치다.
+현재 ACT5 S103 “이번에 알아낸 것 중, 다음에도 쓸 것은?”이 원 Section3F/BEAT-026–028/DEMO-08의 배치다.
 기존 Demo2분(VISUAL)+Case2분=4분을 유지하며 실제 Memory 실행 시간이 아니다.
 C++ 프로젝트의 성능 비교 조건을 확인했다는 가정: “Release 빌드·동일 입력으로 비교”.
 이번 로그·측정값은 날짜가 있는 기록, 재사용할 조건은 출처·적용 범위·갱신 조건과 함께 남긴다.
-다음 작업의 현재 조건과 대조해 Context로 쓴다. S104 결과 수용→S105 지식 재사용→S106 전체 조건 설계로 잇는다.
-S107–S109의 실행 구조 통합/제거와 구분한다. 새 측정·Trial·실제 Memory 저장/회수·자동 기억의 관찰이 아니다.
-기본 정적 파일은 `production/preview/full/S105.png`, `production/preview/act5/S105.png`다.
+다음 작업의 현재 조건과 대조해 Context로 쓴다. S102 결과 수용→S103 지식 재사용→S104 전체 조건 설계로 잇는다.
+S105–S107의 실행 구조 통합/제거와 구분한다. 새 측정·Trial·실제 Memory 저장/회수·자동 기억의 관찰이 아니다.
+기본 정적 파일은 `production/preview/full/S103.png`, `production/preview/act5/S103.png`다.
 삭제한 이전121장판 S67/S76의 본문 확인·출처 감사나 결론을 복구하지 않는다.
 
 Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 새 Trial·Demo 저장소·Sites·발표 묶음 변경은 없다.

@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0159
+## Current presentation · DEC-0160
 
-The 45 entries identify local static fallbacks for the 115-slide course. S84–S98 use an adapted GitLab workflow, two published preprints, and teaching examples for state, limits and human review. The PNG files do not imply live GitLab execution or account validation.
+The 43 entries identify local static fallbacks for the 113-slide course. S90 covers independent review. S91 records the evidence for the next run. The Codex memories and Goal product tips appear on S92 and S97.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`ed32903dacc2462cbecad5bbd4a04a14aa88001e35c67b0dcd40c062bec17f67`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`37997ae9820e1d9f0e205f42d7c1485a6808f42dd24483be8ee1ee21e76e0347`.
-- `production/preview/full/montage.png` SHA-256:`bab42ea85e5834fa22c7f86e467fba58c9180c182673aa2456fb8cafd6618b3d`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`2251c671d77ce49909abd8dc28b82e22c537f185d0bc2cb7a770477ae4f3341c`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`a7e053a611405f709cab89a03dc6fa83a433ee3b4ec32a7aaf39109cc18715d6`.
+- `production/preview/full/montage.png` SHA-256:`aa65e51f7e1ebfab6288bc9d195504a0f0c8135126c747950a0bbae85935f654`.
 
-[S99 Goal tip](../../production/evaluation/GOAL_TIPS_AND_ACT5_HANDOFF.md) · [S94 product tip](../../production/evaluation/S94_CODEX_MEMORY_TIP.md) · [S83 workflow diagram](../../production/evaluation/S83_EIGHT_STAGE_WORKFLOW.md) · [S84–S98 GitLab workflow](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md)
+[ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
@@ -45,18 +45,16 @@ The 45 entries identify local static fallbacks for the 115-slide course. S84–S
 | S88 | CONCEPTUAL_IMPLEMENTATION_TEST_LOOP | `production/preview/full/S88.png` | 1920×1080 | `a987c9ec8a10458c0d2829d21d4d5effc1557ddab8bdb2140a3f077afd3cebae` |
 | S89 | CONCEPTUAL_MR_HANDOFF | `production/preview/full/S89.png` | 1920×1080 | `2c05befee1bb4fd55baa3cb21cf357504611fdaf80c0fd747f7da5e3ea406fa1` |
 | S90 | TEACHING_REVIEW_ROLES | `production/preview/full/S90.png` | 1920×1080 | `273868b5311ead2a8c51b17bb10e7182d8e30f991094ba999e87260d1b47330b` |
-| S91 | RESEARCH_SELF_PREFERENCE | `production/preview/full/S91.png` | 1920×1080 | `613fc0ee458731a95cfbb2c17af463663519d09e445c5bc69cdef6827d803a32` |
-| S92 | RESEARCH_ROLE_RELABELING | `production/preview/full/S92.png` | 1920×1080 | `f32fb84073ba82facbf3f3c6103f98f7b56b3d1b3afe13ad04af9216bd263c5d` |
-| S93 | TEACHING_STATE_HANDOFF | `production/preview/full/S93.png` | 1920×1080 | `bd87c6024c23afada3caffc9ebe57faaff1d0779682c98659ecfde7f4bc44f9e` |
-| S94 | DOCUMENTED_CODEX_MEMORY_TIP | `production/preview/full/S94.png` | 1920×1080 | `57ab2a9889d1542ecc923acf41a375b97d670cc0f9486410397d8789807a4289` |
-| S95 | TEACHING_PERMISSION_LIMITS | `production/preview/full/S95.png` | 1920×1080 | `f9275c8796a06d9eb65c81e69b70432efecb0fa89eae276c9ac54443682c565e` |
-| S96 | TEACHING_STOP_AND_HANDOFF | `production/preview/full/S96.png` | 1920×1080 | `3bbdd955d7d852ce902afd0dd38ee7709c85e115b06e3a4baefd4be952c51331` |
-| S97 | TEACHING_HUMAN_REVIEW | `production/preview/full/S97.png` | 1920×1080 | `0accbdc9bc6eccceb1c0b15935aaa2190246f7f378a7d9efe9b19459a0a98ff7` |
-| S98 | TEACHING_TEAM_REFLECTION | `production/preview/full/S98.png` | 1920×1080 | `f82eb58ca3662a8898592b1c83efb950948423e85f93db19d235b1d1ffa44e46` |
-| S99 | DOCUMENTED_CODEX_GOAL_TIP | `production/preview/full/S99.png` | 1920×1080 | `2c3f9c12852cda2d658545b67ee38e15b5c48e07a22bdc58db556d49dd9735e7` |
-| S101 | TEACHING_SYNTHESIS | `production/preview/full/S101.png` | 1920×1080 | `d8f56e250814a2828863c455777d5a07befbf4d0454b5e80827b7043e2f81d13` |
-| S102 | TEACHING_SYNTHESIS | `production/preview/full/S102.png` | 1920×1080 | `87890d9a939b743c7e82bbfaee9f696f5e34ed22d1a2399163c033509d39ca6b` |
-| S105 | RETAINED_DEMO_STATIC | `production/preview/full/S105.png` | 1920×1080 | `cf1f424beae43e624c554010db39ad282d7b76ed4f0eee1704624d06a5c0642e` |
+| S91 | TEACHING_STATE_HANDOFF | `production/preview/full/S91.png` | 1920×1080 | `cde6e11f8521cbb27e9a5b506b781b4aa8f504c2598639cd77bcf0e249ed7ade` |
+| S92 | DOCUMENTED_CODEX_MEMORY_TIP | `production/preview/full/S92.png` | 1920×1080 | `5ce24f694235e2ddc92ce99395ad93eb394440c2d4f44029ae733ce90a93d38b` |
+| S93 | TEACHING_PERMISSION_LIMITS | `production/preview/full/S93.png` | 1920×1080 | `4d0b3c4a32a80f566dd0f91d97753e701c66d6cdf80c13904f6ec0d38e8c42ca` |
+| S94 | TEACHING_STOP_AND_HANDOFF | `production/preview/full/S94.png` | 1920×1080 | `cfb8da443a83ca97b7a4f14ac70398a76ffe99b0ae3dab14c67742137d085bb7` |
+| S95 | TEACHING_HUMAN_REVIEW | `production/preview/full/S95.png` | 1920×1080 | `0d95b02095e75f948fc70f955080c57baedc499af1b5ee13912c61d265b1a8cc` |
+| S96 | TEACHING_TEAM_REFLECTION | `production/preview/full/S96.png` | 1920×1080 | `284929ebb96d0daabd4047ef73dfd9b2f1fbaf67336d239992bdcc49d9aa3a2c` |
+| S97 | DOCUMENTED_CODEX_GOAL_TIP | `production/preview/full/S97.png` | 1920×1080 | `8b1e1206df58453134c0ba6f7d1b3a3a020e790319c3ebc4cdf871d07ea52c6e` |
+| S99 | TEACHING_SYNTHESIS | `production/preview/full/S99.png` | 1920×1080 | `a9ac67cd43994c3e3b6fc1434eb9438ecd6f907fb86113805b7fd8fe36d358ab` |
+| S100 | TEACHING_SYNTHESIS | `production/preview/full/S100.png` | 1920×1080 | `f2777649c70d8518a8f8a7ce5f06bb341560a5f11d3f2a3c19d55bcb6660008d` |
+| S103 | RETAINED_DEMO_STATIC | `production/preview/full/S103.png` | 1920×1080 | `e51f8bd2203ef16196b707eced887327978f75f4a51c7c3f58783292b9bb39ae` |
 
 <details>
 <summary>DEC-0143</summary>

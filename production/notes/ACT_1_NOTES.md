@@ -1,6 +1,6 @@
 # ACT 1 — Speaker Notes
 
-DEC-0159 · 115장·393분. ACT 1 · S15–S37 · 23장 · 64분.
+DEC-0160 · 113장·386분. ACT 1 · S15–S37 · 23장 · 64분.
 
 <details>
 <summary>이전 판본 표지</summary>

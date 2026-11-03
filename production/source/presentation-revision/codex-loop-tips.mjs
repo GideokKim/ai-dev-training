@@ -1,20 +1,25 @@
-/** Product tips added to the retained 113-slide course by DEC-0158/0159. */
+/** DEC-0160 removes two research slides while retaining the two product tips. */
 import {addPracticalTipBadge,drawTipIndexEntries} from './practical-tips.mjs';
 import {drawWorkspaceTipRows} from './agents-scope-tips.mjs';
 
-export const CURRENT_SLIDE_COUNT=115;
-export const MEMORY_TIP_ID='S94';
-export const GOAL_TIP_ID='S99';
+export const CURRENT_SLIDE_COUNT=113;
+export const MEMORY_TIP_ID='S92';
+export const GOAL_TIP_ID='S97';
 const slideId=n=>'S'+String(n).padStart(2,'0');
 
 export function beforeProductTips(id) {
   const n=Number(id.slice(1));
   if (id===MEMORY_TIP_ID || id===GOAL_TIP_ID) return null;
-  return slideId(n - Number(n>94) - Number(n>99));
+  // In the retained source sequence S91/S92 were research slides.
+  return slideId(n + 2*Number(n>=91) - Number(n>92) - Number(n>97));
 }
 
 function shiftReferences(value) {
-  const shift=n=>String(Number(n)+Number(n>=94)+Number(n>=98)).padStart(2,'0');
+  const shift=n=>{
+    const source=Number(n);
+    if (source===91 || source===92) throw new Error('Retired research slide reference: S'+n);
+    return String(source - 2*Number(source>=93) + Number(source>=94) + Number(source>=98)).padStart(2,'0');
+  };
   return String(value).replace(
     /(?<![A-Za-z0-9_./-])S(\d{2,3})(?:([–~])(S?)(\d{2,3}))?(?![A-Za-z0-9_./-])/g,
     (_,n,sep,s,end)=>'S'+shift(n)+(end?sep+s+shift(end):'')
@@ -53,10 +58,10 @@ export function codexMemoriesTip(p,H,title) {
 
 export function workspaceTipIndex(p,H,map) {
   const {C,FONT,text}=H;
-  const s=H.frame(p,'S112',map.S112['Working Title'],'마지막 정리 · 찾아보기 1/3');
+  const s=H.frame(p,'S110',map.S110['Working Title'],'마지막 정리 · 찾아보기 1/3');
   addPracticalTipBadge(s,'찾아보기',H);
   text(s,'필요한 상황이 생기면, 아래 Slide로 돌아오세요',64,174,1152,43,30,C.teal,true);
-  const ids=['S13','S48','S56–58','S62','S67','S71',MEMORY_TIP_ID,'S96','S105'];
+  const ids=['S13','S48','S56–58','S62','S67','S71',MEMORY_TIP_ID,'S94','S103'];
   const entries=ids.map(id=>({id,fontSize:id===MEMORY_TIP_ID?21.5:24,title:id==='S56–58'?'AGENTS.md의 위치와 적용 범위':map[id]['Working Title']}));
   drawWorkspaceTipRows(s,entries,H);
   text(s,'M 연계 · 찾아보기',996,674,220,23,16,C.sub,false,FONT,'right');
@@ -93,11 +98,11 @@ function codexGoalTip(p,H,title) {
 }
 
 function verificationTipIndex(p,H,map) {
-  const id='S114';
+  const id='S112';
   const s=H.frame(p,id,map[id]['Working Title'],'마지막 정리 · 찾아보기 3/3');
   addPracticalTipBadge(s,'찾아보기',H);
   H.text(s,'필요한 상황이 생기면, 아래 Slide로 돌아오세요',64,174,1152,43,30,H.C.teal,true);
-  const entries=['S83','S85','S96',GOAL_TIP_ID,'S108','S109'].map(slideId=>({
+  const entries=['S83','S85','S94',GOAL_TIP_ID,'S106','S107'].map(slideId=>({
     slideId,title:map[slideId]['Working Title'],fontSize:slideId===GOAL_TIP_ID?22:25
   }));
   drawTipIndexEntries(s,entries,H);
@@ -109,7 +114,7 @@ export function productTipFactories(H,map) {
   return {
     [MEMORY_TIP_ID]:p=>codexMemoriesTip(p,H,map[MEMORY_TIP_ID]['Working Title']),
     [GOAL_TIP_ID]:p=>codexGoalTip(p,H,map[GOAL_TIP_ID]['Working Title']),
-    S112:p=>workspaceTipIndex(p,H,map),
-    S114:p=>verificationTipIndex(p,H,map)
+    S110:p=>workspaceTipIndex(p,H,map),
+    S112:p=>verificationTipIndex(p,H,map)
   };
 }

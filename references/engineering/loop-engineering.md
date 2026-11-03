@@ -1,16 +1,20 @@
 # Loop Engineering
 
-## 현행 ACT4 · DEC-0159
+## 현행 ACT4 · DEC-0160
 
 S83에서 8단계로 그린 한 작업의 루프를 S84–S89에서는 GitLab 이슈 하나로 따라간다. 요청을 분류하고 격리된 공간에서 작업한다. 검토한 이슈 문서를 먼저 등록한 뒤 코드 변경과 테스트를 반복하고, 마지막으로 사람이 검토할 병합 요청을 올린다. 12단계와 구성요소 매핑은 제공 자료의 운영 설계다. 병합 승인과 실제 효과 측정은 별개다. [자료 기록](../sources/SOURCES.md#src-0246)
 
-S90의 역할 분리에서 두 질문이 생긴다. S91은 평가자가 품질이 비슷한 두 응답 중 자기 응답을 선호할 수 있는지, S92는 동일한 오류를 어느 출처의 발언으로 제시했을 때 더 자주 지적하는지 다룬다. 두 실험의 조건을 구별해야 어떤 검토를 별도로 맡길지 설명할 수 있다. 코드 변경의 완료 판단에는 테스트와 변경 근거도 필요하다. [Yang 등, 2026](https://arxiv.org/abs/2604.22891v4) · [Chen 등, 2026](https://arxiv.org/abs/2606.05976v2)
+S90의 작성자는 변경 후보와 테스트 근거를 넘기고, 검토자는 아직 해결하지 못한 문제와 재검사 조건을 돌려준다. S91에서 다음 실행이 이 기록을 어디서 읽을지 정한다.
 
-S93의 상태 파일은 다음 실행에 인계할 근거를 남긴다. S94의 Codex 메모리는 지난 대화의 유용한 맥락을 나중 대화가 참고하게 해 준다. 기기 설정과 대화 선택에 따라 기능이 적용된다. [OpenAI Memories](https://learn.chatgpt.com/docs/customization/memories)
+S92의 Codex 메모리는 지난 대화의 유용한 맥락을 나중 대화가 참고하게 해 준다. 기기 설정과 대화 선택에 따라 기능이 적용된다. [OpenAI Memories](https://learn.chatgpt.com/docs/customization/memories)
 
-S95–S98은 권한·자원 한도와 사람이 직접 설명하고 승인해야 할 결정을 다룬다. S99에서 그 경계를 /goal의 완료·중단 조건으로 표현한다. 지원되는 Codex에서 턴이 끝나면 스레드의 목표와 근거를 보고 다음 행동을 정할 수 있다. 슬라이드의 밝기 통계 요청은 교육용 예시다. [Using Goals in Codex](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex)
+S93–S96은 권한·자원 한도와 사람이 직접 설명하고 승인해야 할 결정을 다룬다. S97에서 그 경계를 /goal의 완료·중단 조건으로 표현한다. 지원되는 Codex에서 턴이 끝나면 스레드의 목표와 근거를 보고 다음 행동을 정할 수 있다. 슬라이드의 밝기 통계 요청은 교육용 예시다. [Using Goals in Codex](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex)
 
 앞 판본의 이종 모델 연구 예시는 참고 자료로 남아 있다. PairCoder의 HumanEval 표는 특정 과제·모델 조합의 비교이며, 저자의 GitLab 사례에서 품질 향상을 측정한 수치로 옮길 수 없다. [PairCoder 원문, 표 2](https://aclanthology.org/2026.findings-acl.149.pdf#page=7) · [사례 운영기](https://gideokkim.github.io/codex/loop-engineering/)
+
+## 보충 읽기 · 이전 판본의 평가 연구
+
+이전 판본의 S91은 평가자가 품질이 비슷한 두 응답 중 자기 응답을 선호할 수 있는지, 당시 S92는 동일한 오류를 어느 출처의 발언으로 제시했을 때 더 자주 지적하는지 다룬다. 두 실험의 조건을 구별해야 어떤 검토를 별도로 맡길지 설명할 수 있다. 코드 변경의 완료 판단에는 테스트와 변경 근거도 필요하다. [Yang 등, 2026](https://arxiv.org/abs/2604.22891v4) · [Chen 등, 2026](https://arxiv.org/abs/2606.05976v2) 두 연구는 현행 발표 범위에서 제외했다.
 
 ## Earlier DEC-0097 teaching sequence
 

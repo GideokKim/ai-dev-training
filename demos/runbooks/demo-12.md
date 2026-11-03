@@ -1,8 +1,8 @@
 # DEMO-12 — Historical Product evolution reference
 
-## 현행 발표 자료 · DEC-0159
+## 현행 발표 자료 · DEC-0160
 
-[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 115장·393분 중 ACT4는 S78–S99, ACT5는 S100–S115다. S94 메모리 팁과 S99 Goal 팁은 각각 강의 2분이다.
+[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 113장·386분 중 ACT4는 S78–S97, ACT5는 S98–S113다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
 
 DEMO-12의 현재 Map 명시 참조: 현행 Map/Notes의 기존 역할 유지; 새 독립 Demo 배정 없음이다. 회수/Case 참조를 모두 Demo 시간으로 세지 않는다.
 

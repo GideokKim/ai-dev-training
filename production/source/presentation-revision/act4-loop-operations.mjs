@@ -386,30 +386,6 @@ export function loopOperationsFactories(H) {
       takeaway(s,'작성과 검토에 서로 다른 모델을 쓸 수 있다. 완료는 테스트 근거로 판단한다.');
       return s;
     },
-    S91(p) {
-      const s=common(p,'S91','자기평가 점수만으로 완료를 정할 수 있을까?','연구 · LLM 심사자의 자기선호','Yang 외, 2026 · arXiv:2604.22891v4 · LLM 심사자의 자기선호 연구','RESEARCH');
-      text(s,'실험 설계 · 20개 모델',64,181,530,36,22,C.teal,true);
-      text(s,'답의 품질을 비슷하게 맞추어도 심사 모델은 자기 답을 더 고를까?',64,222,1152,59,31,C.ink,true);
-      panel(s,64,318,547,161,C.white,blue);
-      caption(s,'비교 대상 A',88,337,487,blue);
-      text(s,'심사 모델이 작성한 답',88,390,482,57,32,C.ink,true);
-      text(s,'vs',614,363,54,49,24,C.sub,true,FONT,'center');
-      panel(s,674,318,542,161,C.white,C.teal);
-      caption(s,'비교 대상 B',698,337,485,C.teal);
-      text(s,'다른 모델이 작성한 답',698,390,482,57,32,C.ink,true);
-      takeaway(s,'응답 품질을 맞춘 비교에서도 자기 답을 선호한 모델이 있었다.');
-      return s;
-    },
-    S92(p) {
-      const s=common(p,'S92','같은 오류도 남의 답에서 더 잘 찾을까?','연구 · 자기 답과 남의 답을 고치는 조건','Chen 외, 2026 · arXiv:2606.05976v2 · 오류 수정 연구 (프리프린트)','RESEARCH');
-      panel(s,64,199,1152,92,bluePale,blue);
-      text(s,'같은 오류가 있는 답',87,216,515,56,32,C.ink,true);
-      text(s,'누가 쓴 답으로 제시하는지 바꿔 검토시킨다.',569,221,618,49,25,blue,true);
-      section(s,64,327,554,'조건 A','내 이전 답으로 제시','자기 응답의 오류를 다시 살펴본다.',blue);
-      section(s,671,327,545,'조건 B','외부에서 온 답으로 제시','같은 오류를 외부 답의 문제로 살펴본다.');
-      takeaway(s,'외부 답으로 제시하면 명시적 오류 수정이 늘었다. 12개 조건 중 10개에서 유의했다.');
-      return s;
-    },
     S93(p) {
       const s=common(p,'S93','다음 실행이 이어받을 상태를 파일에 남긴다','루프 재개 · 상태 파일의 예시','');
       panel(s,64,226,300,234,C.white);

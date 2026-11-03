@@ -15215,3 +15215,57 @@ Participants can state what progress to check on the next turn and what evidence
 ## Follow-up
 
 Confirm the feature on the training account and presentation machine before showing a live session.
+
+# DEC-0160 — Remove the two judge research slides from ACT four
+
+## Status
+
+ACCEPTED by the presenter.
+
+## Date
+
+2026-11-03
+
+## Context
+
+In the preceding 115-slide edition, the role handoff led into two studies on self-preference and role labeling before showing what the next run should read.
+
+## Problem
+
+The two research explanations interrupt the example of one reviewer returning findings and the next run continuing the same task.
+
+## Decision
+
+Remove former S91 and S92. Move directly from S90 to its verification records and outstanding findings in the new S91 state file. Keep the original studies, selectors and claim limits in the research references. Do not transfer either lesson or its duration to another slide.
+
+## Rationale
+
+A participant can follow the same change, review evidence and unresolved items across the handoff without starting a separate research discussion.
+
+## Alternatives
+
+A condensed comparison or a restored historical benchmark would introduce a different lesson in the same position. The presenter requested deletion.
+
+## Trade-offs
+
+Remove two lecture minutes and five case minutes. ACT four becomes S78–S97 (20 slides, 82 minutes). The full course is 113 slides and 386 minutes. Former S93–S115 become S91–S113. The memories tip is S92, the Goal tip S97, and the applicable final indexes S110 and S112.
+
+## Related Invariants
+
+INV-LOOP-001, INV-VERIFY-001, INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+ACT four and ACT five, the integrated deck, speaker notes, planning maps, source references, previews, tip references and the current delivery records.
+
+## Evidence
+
+Presenter instruction to remove the two pages. Preserve SRC-0247/CLM-0051 and SRC-0248/CLM-0052 as supplementary sources. No new trial or research claim is introduced.
+
+## Training Relevance
+
+The reviewer hands off evidence and specific remaining work. The next run receives an explicit record that can be inspected and checked.
+
+## Follow-up
+
+Check the S90 to S91 transition, the unchanged controls on the memory and Goal tips, and shifted index targets in the presentation files.

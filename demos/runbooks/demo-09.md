@@ -1,12 +1,12 @@
 # DEMO-09 — Verification and System Map
 
-## 현행 발표 자료 · DEC-0159
+## 현행 발표 자료 · DEC-0160
 
-[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 115장·393분 중 ACT4는 S78–S99, ACT5는 S100–S115다. S94 메모리 팁과 S99 Goal 팁은 각각 강의 2분이다.
+[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 113장·386분 중 ACT4는 S78–S97, ACT5는 S98–S113다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
 
 현재 S73의 실제 작업 역할은 CAPTURED Demo3분이며 S74의 Harness 관계(Lecture4+Demo2분)로 이어진다.
 S72 역할 분리 판단→S73 실제 구성→S74 Harness의 기존 실제 사례를 연결한다.
-Memory의 일반 개념은 ACT5 S105에서 다루며 이 구간에서 미리 설명하거나 필수 구성으로 넣지 않는다.
+Memory의 일반 개념은 ACT5 S103에서 다루며 이 구간에서 미리 설명하거나 필수 구성으로 넣지 않는다.
 삭제한 지식 출처 감사나 본문 포함 확인을 다시 넣지 않는다.
 
 Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 새 Trial·Demo 저장소·Sites·발표 묶음 변경은 없다.

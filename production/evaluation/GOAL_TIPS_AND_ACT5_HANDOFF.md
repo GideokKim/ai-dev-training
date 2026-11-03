@@ -1,6 +1,8 @@
 # Goal 실무 적용 팁과 ACT4→ACT5 연결 검토 결과
 
-## 현재 판본 · DEC-0159
+현행 DEC-0160 판본에서는 [S97](../preview/full/S97.png)에서 Goal 팁을 소개하고 [S112](../preview/full/S112.png)에서 찾아본다.
+
+## 이전 판본 · DEC-0159
 
 S98의 세 질문을 받아 밝기 통계 한 건의 목표를 S99의 편집 가능한 요청창에 넣었다. 같은 입력에서 출력 6개를 보존하고 최대 할당량이 기준판보다 낮아지면 완료한다. 측정할 수 없으면 이유를 보고하고 중단한다. 요청을 보낸 뒤 사람이 쓸 수 있는 `/goal pause`와 `/goal resume`을 함께 표시했다. 우측 상단의 ‘실무 적용 팁 · 검증·개선’ 배지는 S83·S85와 같은 구성이다. 입력은 발표용 예시이며 실제 최적화 실행이나 계정별 명령 지원 여부를 입증하지 않는다. [OpenAI 공식 문서](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex)
 
@@ -8,7 +10,7 @@ S98의 세 질문을 받아 밝기 통계 한 건의 목표를 S99의 편집 가
 
 기준판 `b6ed5fc`와 대조해 통합본과 6개 ACT의 230개 렌더 및 내장 Notes를 확인했다. S01–S97 화면은 같은 픽셀을 유지했다. S98에서는 마지막 질문을 바꿨다. 이전 ACT들의 활성 Notes에 남아 있던 예전 전체 강의시간 표기를 정리해 각 ACT의 시간과 일치시켰다. 새 팁·전환·색인의 글자와 여백을 확인했고, 배포 파일 일곱 개 모두 구조 검사를 통과했다. 현장 발표 PC·교육 계정·실측 리허설은 미검증이다.
 
-[현재 S99 화면](../preview/full/S99.png) · [ACT4 PPT](../ACT_4.pptx) · [통합 PPT](../AI_Dev_Training_Full.pptx) · [발표 Notes](../notes/ACT_4_NOTES.md)
+[당시 S99 화면](https://github.com/GideokKim/ai-dev-training/blob/00f7d3ed01c11b9a9723c8ea0d895331363cc1d9/production/preview/full/S99.png) · [ACT4 PPT](../ACT_4.pptx) · [통합 PPT](../AI_Dev_Training_Full.pptx) · [발표 Notes](../notes/ACT_4_NOTES.md)
 
 ## 이전 판본 · DEC-0098
 

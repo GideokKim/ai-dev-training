@@ -1,6 +1,10 @@
-# S94 · Codex 메모리 사용 팁
+# Codex 메모리 사용 팁
 
-S93에서 실행 근거와 미해결 사항을 상태 파일로 넘긴 뒤, S94에서는 지난 대화에서 말한 개인 선호를 나중 코드 리뷰에서 참고하는 방법을 안내한다. 설정 경로와 대화별 명령을 분리하고, 실제 작업의 검증 결과는 상태 파일에 남긴다. 우측 상단에 기존 ‘실무 적용 팁 · Context 관리’ 배지를 사용했다. [OpenAI · Memories](https://learn.chatgpt.com/docs/customization/memories) · [현재 화면](../preview/full/S94.png)
+현행 DEC-0160 판본에서는 [S92](../preview/full/S92.png)에 있다.
+
+## 이전 판본 · S94
+
+S93에서 실행 근거와 미해결 사항을 상태 파일로 넘긴 뒤, S94에서는 지난 대화에서 말한 개인 선호를 나중 코드 리뷰에서 참고하는 방법을 안내한다. 설정 경로와 대화별 명령을 분리하고, 실제 작업의 검증 결과는 상태 파일에 남긴다. 우측 상단에 기존 ‘실무 적용 팁 · Context 관리’ 배지를 사용했다. [OpenAI · Memories](https://learn.chatgpt.com/docs/customization/memories) · [당시 화면](https://github.com/GideokKim/ai-dev-training/blob/b6ed5fc13605d1db1d866f0dbfe9d41234b2b1dd/production/preview/full/S94.png)
 
 ## 이전 연구 사례 확인
 

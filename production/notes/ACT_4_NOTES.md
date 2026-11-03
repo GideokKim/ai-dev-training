@@ -1,6 +1,6 @@
 # ACT 4 — Speaker Notes
 
-DEC-0159 · S78–S99 · 22장 · 89분. S77의 점심 뒤 질문과 첫 검토 지적을 출발점으로 삼는다. S83에서 한 작업의 8단계를 본 뒤 S84에서 강사의 GitLab 적용 예시로 들어간다. S91–S92는 자기선호와 오류 귀속을 다룬 두 연구를 원문 범위에서 비교한다. S93 외부 상태에 이어 S94에서 Codex 로컬 메모리를 2분간 소개한다. S98에서 자동화할 일과 사람의 판단을 고르고, S99에서 완료·중단 기준을 담은 /goal 요청을 읽은 뒤 ACT5로 넘어간다.
+DEC-0160 · S78–S97 · 20장 · 82분. 점심 뒤의 질문과 첫 검토 지적에서 출발해 GitLab 이슈 하나의 수행 절차를 살펴본다. S90의 검토 의견과 실행 결과를 S91에서 다음 실행을 위한 상태로 기록한다. S92는 Codex 메모리, S97은 목표와 완료 기준을 적는 /goal 팁이다.
 
 <details>
 <summary>이전 판본 안내</summary>
@@ -879,14 +879,14 @@ Lecture 1분 + Case 3분
 작성자는 변경 후보와 실행 근거를 넘긴다. 검토자는 기준과 대조해 지적과 재현 단서를 돌려주고, 구현자는 그 내용을 다음 수정에 사용한다.
 
 **Opening Question:**
-“작성자가 “완료했습니다”라고 하면 검토자는 무엇부터 확인해야 할까요?”
+“작성자가 완료했다고 보고하면 검토자는 무엇부터 확인해야 할까요?”
 
 **Speaker Flow:**
 0–1분 강의. 서로 다른 두 역할이 주고받는 산출물부터 읽는다. 작성과 검토에 서로 다른 모델을 배정할 수 있고, 완료는 테스트 근거로 판단한다. 역할을 나누는 선택과 서로 다른 모델을 배정하는 선택을 구분한다.
-1–4분 사례. 요구사항 하나가 빠진 후보를 예로 든다. 작성자의 후보→검토자의 지적·근거→같은 목표의 수정 순으로 따라간다. 자기평가가 높아도 어떤 정보를 더 확인할지 묻는다.
+1–4분 사례. 요구사항 하나가 빠진 후보를 예로 든다. 작성자의 후보→검토자의 지적·근거→같은 목표의 수정 순으로 따라간다. 해당 문제를 다시 확인할 입력과 기대값을 검토 의견에 함께 적는다.
 
 **Evidence / Source:**
-DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 10쪽의 설계 또는 토의 주제를 강의 맥락에 맞게 재구성했다. 보조 자료로 다른 모델의 역할 배분을 묻는 경우에만 PairCoder의 HumanEval 표 2를 참조한다(SRC-0245, CLM-0049). 초기 구현 모델이 같아도 초기 검토 모델 조합에 따라 결과가 달랐다. 이 증거는 아래 두 연구와 구분한다.
+DEC-0156, DEC-0160 · SRC-0246 · CLM-0050. 사용자 제공 PDF 10쪽의 역할 설계를 각색했다. 모델 조합 질문에 대한 참고 문헌은 PairCoder 표 2(SRC-0245, CLM-0049)다.
 
 **Claim Boundary:**
 TEACHING_MODEL — 역할 분리는 운영 설계다. 검토자가 독립적이라는 이름만으로 판정의 정확성 또는 이종 모델의 우월성이 보장되지 않는다.
@@ -907,7 +907,7 @@ N/A — 정적 운영 설계 도식. 변경·검사 결과와 지적·근거가 
 검토자가 “이 부분이 틀릴 수 있다”는 말만 돌려주면 무엇을 더 요청할까요?
 
 **Transition:**
-“그렇다면 작성 모델이 자기 답에 매긴 점수는 완료의 근거로 얼마나 믿을 수 있을까요?”
+“검토 의견과 검사 결과가 나왔습니다. 다음 실행이 이를 이어받으려면 무엇을 어디에 남겨야 할까요?”
 
 **Time Management:**
 Lecture 1분 + Case 3분. 1분부터 검토 의견 한 건이 다음 수정에 쓰일 때까지 따라간다.
@@ -918,130 +918,10 @@ LOCAL STATIC ARTIFACT — production/preview/full/S90.png 또는 production/ACT_
 **Validation Status:**
 DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S91 — 자기평가 점수만으로 완료를 정할 수 있을까?
+## S91 — 다음 실행이 이어받을 상태를 파일에 남긴다
 
 **Slide ID:**
 S91
-
-**Working Title:**
-자기평가 점수만으로 완료를 정할 수 있을까?
-
-**ACT / Section:**
-ACT 4 / 4R5 Implementation, review and state
-
-**Allocated Time:**
-4 minutes
-
-**Mode Split:**
-Lecture 1분 + Case 3분
-
-**Primary Message:**
-20개 모델을 평가한 연구에서, 응답 품질을 맞춘 비교에서도 일부 심사 모델이 자기 답을 선호했다. 작업 완료는 점수뿐 아니라 요구사항과 확인 가능한 근거로 판단한다.
-
-**Opening Question:**
-“품질을 비슷하게 맞춘 두 답 가운데 심사 모델이 자기 답을 더 고를 수 있을까요?”
-
-**Speaker Flow:**
-0–1분 강의. 누가 답을 썼는지와 누가 답을 평가하는지를 분리해 읽는다.
-1–4분 사례. 비슷한 품질의 두 후보 중 하나는 심사자 자신이, 하나는 다른 모델이 썼다고 설명한다. 일부 모델에서 관찰된 선호가 무엇을 뜻하는지 묻는다. 테스트·원자료와 평가 기준을 함께 제시하는 것으로 팀 설계에 연결한다.
-
-**Evidence / Source:**
-DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 10쪽에서 소개한 원 연구를 확인했다. SRC-0247 · CLM-0051. Yang et al., Quantifying and Mitigating Self-Preference Bias of LLM Judges, https://arxiv.org/abs/2604.22891v4.
-
-**Claim Boundary:**
-RESEARCH — 연구에서 조사한 평가 조건에 한정한다. 대표값의 근거를 확인할 수 없는 PDF 도표의 숫자를 재현하거나 사내 작업 효과로 환산하지 않는다.
-
-**Beginner Explanation:**
-내가 만든 답에 점수를 매기면 좋은 점수가 곧 정답이라는 보장은 없다.
-
-**Advanced Insight:**
-선호나 점수가 정답성과 같은 척도인지 먼저 본다. 연구 범위를 넘어 실제 작업의 성공률이나 모델 조합에 관한 숫자를 붙이지 않는다.
-
-**C++ Vision Bridge:**
-N/A — 이 장은 화면의 업무 상황에 집중한다.
-
-**Demo Operation:**
-N/A — 정적 연구 비교 그림. 평가 주체·평가 대상·독립 근거를 구두로 구분하고 수치 비교는 하지 않는다.
-
-**Audience Interaction:**
-“점수가 높다”는 보고를 받으면 완료 판단에 쓸 근거 한 가지를 더 요청해 보세요.
-
-**Transition:**
-“점수 말고 실제 오류를 고치게 하면, 같은 오류도 누구의 답이라고 제시했는지에 영향을 받을까요?”
-
-**Time Management:**
-Lecture 1분 + Case 3분. 실험 설계 소개는 1분에 마치고 남은 시간에 판단 근거의 한계를 대조한다.
-
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S91.png 또는 production/ACT_4.pptx의 S91. 화면을 쓸 수 없으면 다음 단서로 진행한다. 평가 주체·평가 대상·독립 근거를 구두로 구분하고 수치 비교는 하지 않는다.
-
-**Validation Status:**
-DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
-
-## S92 — 같은 오류도 남의 답에서 더 잘 찾을까?
-
-**Slide ID:**
-S92
-
-**Working Title:**
-같은 오류도 남의 답에서 더 잘 찾을까?
-
-**ACT / Section:**
-ACT 4 / 4R5 Implementation, review and state
-
-**Allocated Time:**
-3 minutes
-
-**Mode Split:**
-Lecture 1분 + Case 2분
-
-**Primary Message:**
-연구진은 동일한 오류를 자기 답 또는 외부 답에 귀속시켜 오류를 명시적으로 지적·정정하는 행동을 비교했다. 검토 맥락이 오류 수정에 영향을 줄 수 있다는 근거다.
-
-**Opening Question:**
-“오류 문장은 그대로 두고 “내 답”과 “외부 답”으로 제시하는 조건만 달라지면 어떻게 될까요?”
-
-**Speaker Flow:**
-0–1분 강의. 두 입력에서 같은 오류 문장을 짚고 달라지는 귀속 조건을 읽는다.
-1–3분 사례. 외부 답으로 제시했을 때 오류를 명시적으로 지적하는 반응이 증가했고, 12개 모델·도메인 조합 중 10개에서 유의한 차이가 나왔음을 짚는다. 오류를 알아서 모두 고쳤다는 의미로 읽지 않는다. 팀에 적용할 때에는 역할과 기준을 따로 주고 대표 과제에서 재검증한다.
-
-**Evidence / Source:**
-DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 10쪽에서 소개한 원 연구의 최신 제목과 범위를 따른다. SRC-0248 · CLM-0052. Chen et al., The Self-Correction Illusion: Role Relabeling Gates Explicit Error Flagging in Large Language Models, https://arxiv.org/abs/2606.05976v2.
-
-**Claim Boundary:**
-RESEARCH — 2026년 프리프린트의 명시적 오류 수정 조건으로 한정한다. 사내 프로젝트 재현, 특정 제품 내부 구조 또는 이종 모델 조합의 우월성을 검증하지 않았다.
-
-**Beginner Explanation:**
-여기서 달라지는 것은 같은 오류가 누구의 답으로 제시됐는지다.
-
-**Advanced Insight:**
-이 실험이 검증한 것은 답의 귀속과 수정 행동이다. 구현 모델과 검토 모델을 다르게 조합한 코딩 실험은 별도의 질문이다.
-
-**C++ Vision Bridge:**
-N/A — 이 장은 화면의 업무 상황에 집중한다.
-
-**Demo Operation:**
-N/A — 정적 연구 비교 그림. 같은 오류·다른 귀속·수정 행동의 세 요소만 짚고 팀의 보편적 결과로 옮기지 않는다.
-
-**Audience Interaction:**
-이 연구 하나로 “다른 회사 모델을 붙이면 코드 품질이 오른다”고 말할 수 있을까요?
-
-**Transition:**
-“검토 과정에서 얻은 지적은 다음 실행이 어디에서 찾아 읽을까요?”
-
-**Time Management:**
-Lecture 1분 + Case 2분. 1분부터 자기 답과 외부 답이라는 두 조건만 비교한다.
-
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S92.png 또는 production/ACT_4.pptx의 S92. 화면을 쓸 수 없으면 다음 단서로 진행한다. 같은 오류·다른 귀속·수정 행동의 세 요소만 짚고 팀의 보편적 결과로 옮기지 않는다.
-
-**Validation Status:**
-DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
-
-## S93 — 다음 실행이 이어받을 상태를 파일에 남긴다
-
-**Slide ID:**
-S93
 
 **Working Title:**
 다음 실행이 이어받을 상태를 파일에 남긴다
@@ -1059,10 +939,10 @@ Lecture 1분 + Case 2분
 다음 실행에 필요한 목표·시도·검사 결과·미해결 항목을 대화 밖의 작업 파일에 기록하고 마지막 확인 지점에서 재개한다.
 
 **Opening Question:**
-“내일 다른 세션이 이 작업을 이어받는다면 무엇을 읽어야 같은 검사를 반복하지 않을까요?”
+“방금 받은 검토 의견과 검사 결과 중, 다음 실행이 어디서 다시 시작할지 알려주는 것은 무엇일까요?”
 
 **Speaker Flow:**
-0–1분 강의. 오래 쓰는 프로젝트 지침과 작업마다 바뀌는 진행 상태를 구분한다. 원자료는 디스크의 AGENTS.md를 예로 든다. 이 교육에서는 작업별 기록 위치와 수명을 분리한다.
+0–1분 강의. S90에서 주고받은 검토 의견·검사 결과로 시작한다. 오래 쓰는 프로젝트 지침과 작업마다 바뀌는 진행 상태를 구분한다. 원자료는 디스크의 AGENTS.md를 예로 든다. 이 교육에서는 작업별 기록 위치와 수명을 분리한다.
 1–3분 사례. 검토에서 경계 입력을 요청한 상태라면 이미 실행한 검사와 남은 입력, 다음 행동을 한 묶음으로 읽는다. 다음 담당자는 그 기록을 현재 변경과 대조한다.
 
 **Evidence / Source:**
@@ -1093,15 +973,15 @@ N/A — 정적 운영 설계 도식. 시도한 일·검사 근거·남은 문제
 Lecture 1분 + Case 2분. 1분부터 이전 실행의 기록으로 다음 할 일을 찾는 사례를 든다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S93.png 또는 production/ACT_4.pptx의 S93. 화면을 쓸 수 없으면 다음 단서로 진행한다. 시도한 일·검사 근거·남은 문제·다음 행동을 순서대로 말한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S91.png 또는 production/ACT_4.pptx의 S91. 화면을 쓸 수 없으면 다음 단서로 진행한다. 시도한 일·검사 근거·남은 문제·다음 행동을 순서대로 말한다.
 
 **Validation Status:**
 DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S94 — Codex 메모리로 이전 대화의 맥락을 이어간다
+## S92 — Codex 메모리로 이전 대화의 맥락을 이어간다
 
 **Slide ID:**
-S94
+S92
 
 **Working Title:**
 Codex 메모리로 이전 대화의 맥락을 이어간다
@@ -1124,7 +1004,7 @@ Codex는 이전 대화에서 유용한 맥락을 다음 대화에 참고할 수 
 **Speaker Flow:**
 0:00–0:40. 이전 대화에서 “검토 결과는 영향이 큰 순서로 보여줘.”라고 자주 요청했다고 가정한다. 다음 대화에서 그런 선호를 참고할 수 있다는 제품 용도를 설명한다. 실제로 이 선호가 저장되거나 불러와진 결과를 시연하지 않는다.
 0:40–1:20. ChatGPT 데스크톱 앱에서 Settings → Personalization → Enable Codex memories를 확인한다. 이 설정은 선택한 기기에 적용된다. Codex 대화의 /memories에서는 이 대화가 기존 메모리를 참고할지와 이 대화를 향후 메모리 생성에 사용할지를 선택할 수 있다.
-1:20–2:00. 검토 결과를 영향이 큰 순서로 읽는 것은 사용자의 선호다. 필수 검토 절차는 프로젝트의 AGENTS.md를, 어제 어느 검사까지 통과했는지는 S93의 상태 기록을 연다. 다음 장의 실행 권한 질문으로 넘긴다.
+1:20–2:00. 검토 결과를 영향이 큰 순서로 읽는 것은 사용자의 선호다. 필수 검토 절차는 프로젝트의 AGENTS.md를, 어제 어느 검사까지 통과했는지는 S91의 상태 기록을 연다. 다음 장의 실행 권한 질문으로 넘긴다.
 
 **Evidence / Source:**
 DEC-0158 · SRC-0113 · CLM-0008, CLM-0053. OpenAI, Memories, https://learn.chatgpt.com/docs/customization/memories (확인 2026-11-03). 설정 및 대화별 제어는 공식 문서, 검토 결과의 정렬 방식은 교육용 예시다.
@@ -1154,15 +1034,15 @@ N/A — 정적 실무 팁. 설정 경로와 명령만 안내한다.
 Lecture 2분. 40초에 사용 예시를 마치고 1분 20초까지 제어 방법을 짚는다. 남은 40초는 지침·검증 기록과의 구분에 쓴다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S94.png, production/preview/act4/S94.png 또는 production/ACT_4.pptx의 S94. 발표 PC에서 설정이 보이지 않으면 이미 준비한 그림으로 진행한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S92.png, production/preview/act4/S92.png 또는 production/ACT_4.pptx의 S92. 발표 PC에서 설정이 보이지 않으면 이미 준비한 그림으로 진행한다.
 
 **Validation Status:**
 DOCUMENTED — 공식 안내를 확인했다. 발표 PC의 메뉴·계정 제공 여부, Windows 투사와 실측 리허설은 UNVERIFIED.
 
-## S95 — 무인 실행의 범위를 어디까지 허용할까?
+## S93 — 무인 실행의 범위를 어디까지 허용할까?
 
 **Slide ID:**
-S95
+S93
 
 **Working Title:**
 무인 실행의 범위를 어디까지 허용할까?
@@ -1214,15 +1094,15 @@ N/A — 정적 운영 설계 도식. 허용된 작업 공간과 승인받을 외
 Lecture 1분 + Case 2분. 1분부터 테스트 권한과 배포 권한을 비교한다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S95.png 또는 production/ACT_4.pptx의 S95. 화면을 쓸 수 없으면 다음 단서로 진행한다. 허용된 작업 공간과 승인받을 외부 동작 한 가지를 대비한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S93.png 또는 production/ACT_4.pptx의 S93. 화면을 쓸 수 없으면 다음 단서로 진행한다. 허용된 작업 공간과 승인받을 외부 동작 한 가지를 대비한다.
 
 **Validation Status:**
 DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S96 — 권한·예산을 넘으면 멈추고 사람에게 넘긴다
+## S94 — 권한·예산을 넘으면 멈추고 사람에게 넘긴다
 
 **Slide ID:**
-S96
+S94
 
 **Working Title:**
 권한·예산을 넘으면 멈추고 사람에게 넘긴다
@@ -1274,15 +1154,15 @@ N/A — 정적 운영 설계 도식. 중단 사유·마지막 근거·미실행 
 Lecture 4분. 2분씩 나눠 중단 조건과 인계 결과를 따라간다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S96.png 또는 production/ACT_4.pptx의 S96. 화면을 쓸 수 없으면 다음 단서로 진행한다. 중단 사유·마지막 근거·미실행 항목·요청할 결정을 읽어 인계 예시를 마친다.
+LOCAL STATIC ARTIFACT — production/preview/full/S94.png 또는 production/ACT_4.pptx의 S94. 화면을 쓸 수 없으면 다음 단서로 진행한다. 중단 사유·마지막 근거·미실행 항목·요청할 결정을 읽어 인계 예시를 마친다.
 
 **Validation Status:**
 DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S97 — 자동화가 만든 변경을 사람이 설명할 수 있나?
+## S95 — 자동화가 만든 변경을 사람이 설명할 수 있나?
 
 **Slide ID:**
-S97
+S95
 
 **Working Title:**
 자동화가 만든 변경을 사람이 설명할 수 있나?
@@ -1334,15 +1214,15 @@ N/A — 정적 운영 설계 도식. 변경 이유·검사 근거·남은 위험
 Lecture 2분. 삭제 예시와 승인자가 물을 질문 한 묶음만 다룬다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S97.png 또는 production/ACT_4.pptx의 S97. 화면을 쓸 수 없으면 다음 단서로 진행한다. 변경 이유·검사 근거·남은 위험 세 질문만 읽는다.
+LOCAL STATIC ARTIFACT — production/preview/full/S95.png 또는 production/ACT_4.pptx의 S95. 화면을 쓸 수 없으면 다음 단서로 진행한다. 변경 이유·검사 근거·남은 위험 세 질문만 읽는다.
 
 **Validation Status:**
 DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S98 — 무엇을 자동화하고, 무엇을 사람이 결정할까?
+## S96 — 무엇을 자동화하고, 무엇을 사람이 결정할까?
 
 **Slide ID:**
-S98
+S96
 
 **Working Title:**
 무엇을 자동화하고, 무엇을 사람이 결정할까?
@@ -1365,7 +1245,7 @@ Reflection 2분 + Q&A 7분 + Transition 2분
 **Speaker Flow:**
 0–2분 성찰. 각자 업무 하나를 떠올리고 반복해서 맡길 일과 사람이 결정할 일을 짝지어 본다. 직접 실습이나 결과 제출은 없다.
 2–9분 질의응답. 예를 들면 테스트 실행은 맡기고, 예외 허용과 병합은 근거를 본 사람이 판단한다. 역할·도구·승인선에 관한 질문을 받되 조직별 값은 현장 확인으로 남긴다.
-9–11분 전환. 청중이 고른 일에서 완료를 입증할 기록과 사람이 개입할 조건을 각각 한 가지 짚는다. 두 조건이 Codex 목표 요청에 어떻게 들어가는지 S99에서 살펴본다.
+9–11분 전환. 청중이 고른 일에서 완료를 입증할 기록과 사람이 개입할 조건을 각각 한 가지 짚는다. 두 조건이 Codex 목표 요청에 어떻게 들어가는지 S97에서 살펴본다.
 
 **Evidence / Source:**
 DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 14쪽의 설계 또는 토의 주제를 강의 맥락에 맞게 재구성했다.
@@ -1395,15 +1275,15 @@ N/A — 정적 운영 설계 도식. 질문이 없으면 검사·승인 한 쌍�
 Reflection 2분 + Q&A 7분 + Transition 2분. 8분 30초에 마지막 질문을 받고 9분에 전환한다. 추가 질문은 교육 마지막 Q&A로 넘긴다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S98.png 또는 production/ACT_4.pptx의 S98. 화면을 쓸 수 없으면 다음 단서로 진행한다. 질문이 없으면 검사·승인 한 쌍을 예로 들고, 8분 30초에 마지막 질문을 받아 9분부터 전환한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S96.png 또는 production/ACT_4.pptx의 S96. 화면을 쓸 수 없으면 다음 단서로 진행한다. 질문이 없으면 검사·승인 한 쌍을 예로 들고, 8분 30초에 마지막 질문을 받아 9분부터 전환한다.
 
 **Validation Status:**
 DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
 
-## S99 — Codex에서 /goal로 목표와 완료 기준을 정한다
+## S97 — Codex에서 /goal로 목표와 완료 기준을 정한다
 
 **Slide ID:**
-S99
+S97
 
 **Working Title:**
 Codex에서 /goal로 목표와 완료 기준을 정한다
@@ -1424,7 +1304,7 @@ Lecture 2분
 “메모리를 줄이라고 맡겼다면, 무엇을 확인해야 끝났다고 말할 수 있을까요?”
 
 **Speaker Flow:**
-0:00–0:35. S98에서 고른 맡길 일·완료 근거·사람의 개입 지점을 밝기 통계 작업에 대입한다. 화면의 입력 예시를 읽는다.
+0:00–0:35. S96에서 고른 맡길 일·완료 근거·사람의 개입 지점을 밝기 통계 작업에 대입한다. 화면의 입력 예시를 읽는다.
 /goal 밝기 통계의 임시 메모리 사용량을 줄여줘. 기존 출력 6개가 같고, 같은 입력에서 기준판보다 최대 할당량이 낮으면 완료해. 측정할 수 없으면 중단하고 이유를 알려줘.
 0:35–1:25. “기존 출력 6개가 같다”는 보존 조건, “같은 입력에서 기준판보다 최대 할당량이 낮다”는 판정 기준이다. 필요한 측정이 불가능하면 시도한 일과 중단 사유를 사람에게 넘긴다. 구현 변경이나 실측이 이 화면에서 일어난 적은 없다.
 1:25–2:00. /goal pause로 일시 정지하고 /goal resume으로 재개하는 방법을 짚는다. 완료 보고를 받으면 사람이 실제 검증 기록을 확인한다.
@@ -1457,7 +1337,7 @@ N/A — 정적 입력 예시. 실제 명령 입력이나 실환경 시연을 요
 Lecture 2분. 35초까지 요청을 읽고, 1분 25초까지 보존·검증·중단 조건을 찾는다. 남은 35초에 제어 명령과 ACT5 연결을 짚는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S99.png, production/preview/act4/S99.png 또는 production/ACT_4.pptx의 S99. 발표 환경에서 명령이 보이지 않으면 저장한 화면으로 진행한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S97.png, production/preview/act4/S97.png 또는 production/ACT_4.pptx의 S97. 발표 환경에서 명령이 보이지 않으면 저장한 화면으로 진행한다.
 
 **Validation Status:**
 DOCUMENTED — 공식 안내 기반. 사내 계정·발표 PC에서의 Goal 사용, 실측 실행 및 리허설은 UNVERIFIED.

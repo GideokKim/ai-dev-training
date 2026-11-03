@@ -1,8 +1,8 @@
 # DEMO-05 — Task Specification and Crop Boundary
 
-## 현행 발표 자료 · DEC-0159
+## 현행 발표 자료 · DEC-0160
 
-[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 115장·393분 중 ACT4는 S78–S99, ACT5는 S100–S115다. S94 메모리 팁과 S99 Goal 팁은 각각 강의 2분이다.
+[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 113장·386분 중 ACT4는 S78–S97, ACT5는 S98–S113다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
 
 S22는 도입, S23–S24는 기존 CAPTURED Demo4+4분이다. 이번 이동으로 내용·배정은 바꾸지 않는다.
 

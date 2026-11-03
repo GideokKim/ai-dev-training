@@ -1,6 +1,6 @@
-# Codex memories and Goal tips (DEC-0158/0159)
+# ACT 4 product tips (DEC-0160)
 
-Use `--release --release-acts=4,5` to rebuild the integrated presentation, ACT 4 and the ACT 5 tip index. S94 follows the state-file example. S99 closes ACT 4 with a single copyable Goal prompt. The earlier 113-slide source factories are renumbered at the final assembly boundary.
+Use `--release --release-acts=4,5` to rebuild the integrated presentation, ACT 4 and the ACT 5 tip index. S92 follows the state-file example on S91. S97 closes ACT 4 with a single copyable Goal prompt. The earlier 113-slide source factories are renumbered at the final assembly boundary.
 
 # ACT 4 GitLab operating workflow (DEC-0156)
 

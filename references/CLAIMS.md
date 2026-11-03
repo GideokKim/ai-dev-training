@@ -223,7 +223,7 @@ CLM-0043 (ReConcile), CLM-0045 (self-feedback and intrinsic correction) and thei
 
 앞 판본의 PairCoder·Goal 항목(CLM-0049, CLM-0046/0047)과 SRC-0244의 운영 이력은 참고 자료로 보존한다. 현행 화면과 연결할 때에는 위 표를 우선한다.
 
-## DEC-0158 · Codex 메모리 사용 팁
+## DEC-0158 · Codex 메모리 팁 추가 당시
 
 | Claim | 확인한 내용 | 근거와 한계 |
 |---|---|---|
@@ -231,6 +231,12 @@ CLM-0043 (ReConcile), CLM-0045 (self-feedback and intrinsic correction) and thei
 
 S93의 상태 기록·검증 근거와 팀 필수 규칙의 정본은 별도로 유지한다(CLM-0008). CLM-0050의 PDF 적용 위치는 S84–S90, S93, S95–S98이다. CLM-0051/0052의 S91·S92 연구는 같은 위치다.
 
-## DEC-0159 · S99 Codex Goal 사용 팁
+## DEC-0159 · S99 Codex Goal 팁 추가 당시
 
 S99는 CLM-0046/0047의 기존 범위를 따른다. 지원되는 Codex에서 `/goal`로 스레드의 목표를 설정하면 턴이 끝난 뒤 모인 근거를 확인하고, 활성 상태와 허용 범위 안에서 계속할 수 있다. 완료·중단 조건에 측정 기준과 필요한 보고를 지정한다. 교육용 밝기 통계 예시로 모델 분리 효과·자동 완료·성능 개선이 측정되었다고 주장하지 않는다. 대상 계정·발표 기기에서의 실행은 미검증이다. [SRC-0241 · Using Goals in Codex](https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex)
+
+## DEC-0160 · 현행 ACT4 적용 위치
+
+- CLM-0050의 운영 설계는 S84–S91, S93–S96에서 다룬다.
+- S92 Codex 메모리와 S97 Goal은 각각 CLM-0053/SRC-0113, CLM-0046·0047/SRC-0240·0241의 공식 안내다. 사내 계정에서 실행 검증한 단계는 없다.
+- CLM-0051/SRC-0247과 CLM-0052/SRC-0248은 보충 읽기다. 두 연구를 본문이나 시간 배정에 포함하지 않는다. 이전 판본의 번호와 수치는 해당 결정의 이력이다.

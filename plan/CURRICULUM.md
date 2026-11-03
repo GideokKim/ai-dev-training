@@ -1,6 +1,6 @@
 # 6-Hour Curriculum
 
-## 현재 ACT4 제작 기준 — DEC-0159 (2026-11-03)
+## 현재 ACT4 제작 기준 — DEC-0160 (2026-11-03)
 
 | Section | 위치 | 분 | 판단 대상 |
 |---|---|---:|---|
@@ -8,13 +8,13 @@
 | 4R2 One-goal walkthrough / GitLab workflow overview | S81–S84 | 19 | 두 진행 방식, 구성 역할, 여덟 단계와 GitLab 12단계의 대응 |
 | 4R3 Component selection | S85 | 5 | 단계별 도구 선택과 빈 칸의 의미 |
 | 4R4 Request and issue preparation | S86–S87 | 9 | 요청 분류·격리, 이슈 문서 작성·검증·등록 |
-| 4R5 Implementation, review and state | S88–S95 | 28 | 구현·검사·MR, 작성·검토 연구, 외부 상태·Codex 메모리와 무인 실행 범위 |
-| 4T1 Unattended stop conditions | S96 | 4 | 권한과 예산 경계에서 중단·인계 |
-| 4R6 Evidence and transfer | S97–S98 | 13 | 사람이 이해한 변경을 승인하고 업무별 판단 경계를 골라 Goal 요청으로 연결 |
-| 4T2 Goal request | S99 | 2 | 목표, 출력 보존·최대 할당량 측정, 측정 불가 시 중단 조건을 Codex 요청으로 쓴다. |
-| 합계 | S78–S99 | 89 | 강의 38 · 사례 37 · 성찰 4 · 질의 7 · 전환 3 |
+| 4R5 Implementation, review and state | S88–S93 | 21 | 구현·검사·MR, 작성자와 검토자의 인계, 외부 상태·Codex 메모리와 무인 실행 범위 |
+| 4T1 Unattended stop conditions | S94 | 4 | 권한과 예산 경계에서 중단·인계 |
+| 4R6 Evidence and transfer | S95–S96 | 13 | 사람이 이해한 변경을 승인하고 업무별 판단 경계를 골라 Goal 요청으로 연결 |
+| 4T2 Goal request | S97 | 2 | 목표, 출력 보존·최대 할당량 측정, 측정 불가 시 중단 조건을 Codex 요청으로 쓴다. |
+| 합계 | S78–S97 | 82 | 강의 36 · 사례 32 · 성찰 4 · 질의 7 · 전환 3 |
 
-기존 114장의 배정을 보존하고 S99의 강의 2분을 더해 전체 115장·393분으로 진행한다. S83의 일반 개발 8단계와 S84의 한 팀의 GitLab 12단계를 구분한다.
+연구 두 장의 강의 2분·사례 5분을 빼고 남은 장별 배정을 보존한다. S83의 일반 개발 8단계와 S84의 한 팀의 GitLab 12단계를 구분한다.
 
 [ACT4 장별 시간표와 PDF 쪽 대응](ACT4_LOOP_OPERATIONS_PROPOSAL.md) · [현행 Slide Map](SLIDE_MAP.md)
 
