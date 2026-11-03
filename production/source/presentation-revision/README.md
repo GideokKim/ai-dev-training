@@ -1,3 +1,7 @@
+# S83 workflow and S112 lookup (DEC-0155)
+
+Run `--release --release-acts=4,5` to refresh the integrated deck, ACT 4 and the ACT 5 tip index.
+
 # ACT 4 comparison table (DEC-0151)
 
 Rebuild the integrated deck and ACT 4 with `--release --release-acts=4`.

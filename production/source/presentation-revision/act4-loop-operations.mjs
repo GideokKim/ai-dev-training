@@ -196,20 +196,53 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S83(p) {
-      const s=common(p,'S83','어떤 지적을 다음 수정에 넘길까?','밝기 통계 · 검토 지적의 근거',reconstruction,caseKind,'M5 · M6','검증·개선');
-      acceptedFinding(s);
-      label(s,'수정에 넘길 근거 · 첫 구현',64,294,562);
-      rect(s,64,340,542,118,C.ink);
-      text(s,'pixels = [v for row in rows\n            for v in row]',84,350,500,95,27,C.white,false,CODE);
-      text(s,'목록을 만드는 위치를 구현 담당에게 전달',64,474,555,42,24,C.teal,true);
-      label(s,'다른 지적은 어떻게 할까?',660,294,552,C.sub);
-      line(s,660,340,556);
-      text(s,'출력 항목도 줄이자',661,352,550,35,25,C.ink,true);
-      text(s,'기각 · 여섯 출력을 보존해야 한다',661,389,550,33,23,C.sub);
-      line(s,660,434,556);
-      text(s,'더 느려졌을 수 있다',661,444,550,35,25,C.ink,true);
-      text(s,'추가 확인 · 같은 입력의 시간 기록이 필요하다',661,481,550,34,23,C.sub);
-      takeaway(s,'코드에서 복사를 찾았다. 메모리 사용량의 변화는 측정으로 확인한다');
+      const s=common(p,'S83','목표에서 인계까지, 루프의 8단계','이슈 한 건을 수행하는 워크플로우','','TEACHING_MODEL','M5 · M6','검증·개선');
+      const stages=[
+        ['목표와 범위 정의','바꿀 것·지킬 것과 완료 기준 결정','목표·제약·완료 기준'],
+        ['현재 상태 조사','코드·명세·기존 변경을 읽고 문제·성능 확인','조사 결과·재현 결과·기준선'],
+        ['계획과 실행 환경 준비','변경 순서와 검증 방법 결정\n필요 시 워크트리·서브에이전트 준비','작업 계획·역할·실행 조건'],
+        ['구현','정한 범위에서 코드 변경','변경 코드·테스트'],
+        ['실행 검증','빌드·테스트·벤치마크 실행 후 기준선과 비교','실행 결과와 근거'],
+        ['독립 검토','별도 관점에서 요구사항 누락·회귀·테스트 부족 검토','검토 의견·남은 문제'],
+        ['다음 행동 판단','보완할지, 완료할지, 중단해 사람에게 물을지 판단','계속·완료·중단 판단'],
+        ['결과 정리와 인계','최종 변경·검증 결과·미실행 항목·후속 작업 정리','사람이 확인할 결과 보고']
+      ];
+      const y0=203,step=49,railX=127;
+      rect(s,103,158,1113,40,C.pale);
+      text(s,'단계',154,160,220,36,24,C.teal,true);
+      text(s,'하는 일',408,160,509,36,24,C.teal,true);
+      text(s,'남기는 결과',933,160,269,36,24,C.teal,true);
+      const center=i=>y0+step*i+step/2;
+      rect(s,railX-1,center(0),2,center(7)-center(0),'#A7BBC5');
+      connect(s,railX,center(6)+16,0,15,C.teal);
+      const returnY=center(3),returnHeight=center(6)-returnY;
+      s.shapes.add({name:'보완: 7단계 판단에서 4단계 구현으로 복귀',geometry:'custom',
+        position:{left:74,top:returnY,width:36,height:returnHeight},
+        fill:'none',line:{fill:C.warn,width:2.5},
+        customPaths:[{width:36,height:returnHeight,commands:[
+          {moveTo:{x:36,y:returnHeight}},{lineTo:{x:11,y:returnHeight}},
+          {quadBezTo:{x1:0,y1:returnHeight,x:0,y:returnHeight-11}},
+          {lineTo:{x:0,y:11}},{quadBezTo:{x1:0,y1:0,x:11,y:0}},
+          {lineTo:{x:27,y:0}}
+        ]}]});
+      connect(s,96,returnY,15,0,C.warn);
+      rect(s,54,returnY+returnHeight/2-14,42,28,C.bg);
+      text(s,'보완',51,returnY+returnHeight/2-14,48,28,18,C.warn,true,FONT,'center');
+      stages.forEach(([name,action,output],i)=>{
+        const y=y0+step*i,cy=center(i);
+        const color=i<3?blue:C.teal;
+        s.shapes.add({name:'단계 '+(i+1),geometry:'ellipse',
+          position:{left:railX-15,top:cy-15,width:30,height:30},
+          fill:color,line:{fill:'none',width:0}});
+        text(s,String(i+1),railX-15,cy-15,30,30,19,C.white,true,FONT,'center');
+        text(s,name,154,y,248,step,23,C.ink,true);
+        text(s,action,408,y,517,step,i===2?19:21,C.ink);
+        text(s,output,933,y,278,step,21,C.sub);
+        if(i<stages.length-1) line(s,153,y+step,1063,C.line,0.7);
+      });
+      text(s,'보완은 4단계로',66,625,270,43,27,C.warn,true);
+      text(s,'완료는 8단계에서 보고',365,625,340,43,27,C.teal,true);
+      text(s,'중단도 8단계에서 남은 일을 인계',730,625,490,43,27,C.ink,true);
       return s;
     },
     S84(p) {

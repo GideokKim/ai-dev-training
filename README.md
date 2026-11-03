@@ -1,10 +1,10 @@
 # AI 개발자 교육
 
-## 발표 자료 · DEC-0152
+## 발표 자료 · DEC-0155
 
 [통합 PPT](production/AI_Dev_Training_Full.pptx) · [ACT3 PPT](production/ACT_3.pptx) · [ACT4 PPT](production/ACT_4.pptx) · [ACT4 발표 Notes](production/notes/ACT_4_NOTES.md)
 
-전체 113장·389분 중 ACT4는 S78–S97, 85분이다. S77에서는 점심 전 구현·테스트까지 맡겼던 요청과, 돌아와서 본 구현 시작 여부 질문을 한 화면에서 비교한다. S79는 그 질문에 “응, 시작해.”라고 답한 뒤 첫 구현의 지적을 사람이 다시 전달하는 장면이다. S80에서는 같은 상황을 루프로 다시 본다. S81은 기존 프롬프팅과 루프 엔지니어링의 진행 주체·컨텍스트·오류 처리·결과물을 비교한다. S82는 루프 구성에 쓸 여섯 요소의 역할을 보여준다. S83–S85에서는 전체 픽셀 복사를 행별 집계로 바꾼 뒤, 빠진 실행시간을 측정하고 다음 행동을 정한다. S88부터는 같은 흐름을 GitLab 이슈·작업 공간·팀 검토에 연결한 사내 운영 사례다. S87은 PairCoder 표 2의 코드 생성 실험, S95는 Goal 요청 예시다. [Slide Map](plan/SLIDE_MAP.md) · [S77 검토](production/evaluation/S77_LUNCH_HANDOFF.md) · [S79–S82 검토](production/evaluation/S79_S82_LUNCH_CONTINUITY.md) · [S83–S85 검토](production/evaluation/S83_S85_REVIEW_DECISIONS.md) · [S81 비교표](production/evaluation/S81_PROMPT_LOOP_COMPARISON.md) · [S82 구성요소](production/evaluation/S82_LOOP_COMPONENTS.md)
+전체 113장·389분 중 ACT4는 S78–S97, 85분이다. S77에서는 점심 전 구현·테스트까지 맡겼던 요청과, 돌아와서 본 구현 시작 여부 질문을 한 화면에서 비교한다. S79는 그 질문에 “응, 시작해.”라고 답한 뒤 첫 구현의 지적을 사람이 다시 전달하는 장면이다. S80에서는 같은 상황을 루프로 다시 본다. S81은 기존 프롬프팅과 루프 엔지니어링의 진행 주체·컨텍스트·오류 처리·결과물을 비교한다. S82는 루프 구성에 쓸 여섯 요소의 역할을 보여준다. S83에서 목표 설정부터 인계까지의 8단계와 보완 경로를 본다. S84–S85는 전체 픽셀 복사를 행별 집계로 바꾼 뒤, 빠진 실행시간을 측정하고 다음 행동을 정하는 예시다. S88부터는 같은 흐름을 GitLab 이슈·작업 공간·팀 검토에 연결한 사내 운영 사례다. S87은 PairCoder 표 2의 코드 생성 실험, S95는 Goal 요청 예시다. [Slide Map](plan/SLIDE_MAP.md) · [S77 검토](production/evaluation/S77_LUNCH_HANDOFF.md) · [S79–S82 검토](production/evaluation/S79_S82_LUNCH_CONTINUITY.md) · [S83 워크플로우](production/evaluation/S83_EIGHT_STAGE_WORKFLOW.md) · [S81 비교표](production/evaluation/S81_PROMPT_LOOP_COMPARISON.md) · [S82 구성요소](production/evaluation/S82_LOOP_COMPONENTS.md)
 
 ## 이전 판본 기록
 

@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0153 / DEC-0154
+## Current presentation · DEC-0155
 
 The 43 entries identify local static fallbacks for the 113-slide course. ACT4 uses the author’s GitLab account of operations, a designed brightness case, a published benchmark and a documented Goal example. Classroom playback and account checks are pending.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`98b6aafeb35ba3bfa8f95728f95007481e5b7e5977fe10a3d8014ff96db1ac2b`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`94f5a30145a3c7e47d8349c1352691d9ea46ac3a97ea295c3068354e71114a94`.
-- `production/preview/full/montage.png` SHA-256:`602598c41ec53fc53b90cf570267752ef58ace16637c0604bc865f6275b5104b`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`ac29b82ed0eaa9dd5d1a32513249c2bbf7d9df63e77a9880daa3d5040eba4bb6`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`048477e94c0a4508eb21747e703c07e0ee494946b7531ee71d6c8484cebc4a8b`.
+- `production/preview/full/montage.png` SHA-256:`4a29a78656da293ef8f0b196b1dfce7a993d1106fc67f121ca1b1045ad9bcab5`.
 
-[Current revision](../../production/evaluation/S82_LOOP_COMPONENTS.md)
+[Current revision](../../production/evaluation/S83_EIGHT_STAGE_WORKFLOW.md)
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
@@ -37,7 +37,7 @@ The 43 entries identify local static fallbacks for the 113-slide course. ACT4 us
 | S80 | TEACHING_MAP | `production/preview/full/S80.png` | 1920×1080 | `b37994cde3beb9a42c2293b65ca12479400fe7ec26e1f81e34f198a8a154d4c1` |
 | S81 | TEACHING_MODEL_COMPARISON | `production/preview/full/S81.png` | 1920×1080 | `c8317d1f11dafddfac1d394e4b8a7c22546c2c704720e97c8397c1898dd7336b` |
 | S82 | TEACHING_MODEL_COMPONENTS | `production/preview/full/S82.png` | 1920×1080 | `80ff88a4e3aecc28ede7191bb67c08c428785fb41cdbf440e0a6726c35285547` |
-| S83 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S83.png` | 1920×1080 | `014b3c0d8a4522bd0f478459a53a27b97a0b966d51cf3e65b358c541d427c7a0` |
+| S83 | TEACHING_MODEL_WORKFLOW | `production/preview/full/S83.png` | 1920×1080 | `2216590ba9535baebe98e868f74bdf67f16ecd04183d97d3c87158d68f8830aa` |
 | S84 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S84.png` | 1920×1080 | `aa3ec616518b2866672caf85bc6ebc7148848c4cb0fb8697b01c46f8772f38e4` |
 | S85 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S85.png` | 1920×1080 | `9a6f9d2c39c0e0091be44dc298d2a9186ac5d20121c2a6091b57fa9a8dc5b0a1` |
 | S86 | RESEARCH_GUIDED_DESIGN | `production/preview/full/S86.png` | 1920×1080 | `603f6de1a2fcb49658a464514ba9e86262f67d6f685cc7af5760c196be05b32a` |

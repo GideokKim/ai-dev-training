@@ -1,8 +1,8 @@
 # MASTER EXECUTION STATUS
 
-## S83–S85 검토·수정·판단 · DEC-0150
+## S83 워크플로우 · DEC-0155
 
-통합본과 ACT4·ACT5 개별본의 렌더와 내장 Notes를 확인했다. 현장 발표 PC·투사·교육 계정·실측 리허설은 별도 점검 대상이다. [현재 검토](S83_S85_REVIEW_DECISIONS.md)
+통합본과 ACT4·ACT5 개별본의 렌더와 내장 Notes를 확인했다. 현장 발표 PC·투사·교육 계정·실측 리허설은 별도 점검 대상이다. [현재 검토](S83_EIGHT_STAGE_WORKFLOW.md)
 
 ## 이전 기록
 

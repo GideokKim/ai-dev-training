@@ -1,26 +1,26 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## S81 비교표·S82 역할 아이콘 · DEC-0153 / DEC-0154
+## S83 8단계 워크플로우 · DEC-0155
 
-[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT3 발표 자료](../ACT_3.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [ACT5 찾아보기](../ACT_5.pptx) · [ACT4 발표 Notes](../notes/ACT_4_NOTES.md) · [S81 검토 결과](S81_PROMPT_LOOP_COMPARISON.md) · [S82 검토 결과](S82_LOOP_COMPONENTS.md)
+[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT3 발표 자료](../ACT_3.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [ACT5 찾아보기](../ACT_5.pptx) · [ACT4 발표 Notes](../notes/ACT_4_NOTES.md) · [S81 검토 결과](S81_PROMPT_LOOP_COMPARISON.md) · [S82 검토 결과](S82_LOOP_COMPONENTS.md) · [S83 검토 결과](S83_EIGHT_STAGE_WORKFLOW.md)
 
-113장·389분이다. S82에서 루프에 쓰는 여섯 역할을 소개하고 S83에서 밝기 통계의 첫 후보를 검토한다.
+113장·389분이다. S83에서 목표부터 인계까지 단계마다 남길 결과를 읽고, 보완 경로와 완료·중단 경로를 구분한다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `98b6aafeb35ba3bfa8f95728f95007481e5b7e5977fe10a3d8014ff96db1ac2b` |
+| `production/AI_Dev_Training_Full.pptx` | `ac29b82ed0eaa9dd5d1a32513249c2bbf7d9df63e77a9880daa3d5040eba4bb6` |
 | `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
 | `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
 | `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
 | `production/ACT_3.pptx` | `73fa2d32d3a1dcdf893fa8c0329f07c4c1cceea52b4188ec9322317c82502a86` |
-| `production/ACT_4.pptx` | `783616fac1278fcaf88e7c9c2c701abc31f8db7ceaafa379fb2a6a1ba4a6f5f8` |
-| `production/ACT_5.pptx` | `38575a4a8ecb7fd6825349c57a773dea43db8431bc779bcf49d2951fcbee8f61` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `94f5a30145a3c7e47d8349c1352691d9ea46ac3a97ea295c3068354e71114a94` |
-| `production/notes/ACT_4_NOTES.md` | `030b9fdc637f101e6ac083bbc2b15dc8ea897cfe9c18e86696f6a2aa47fa6545` |
-| `production/notes/ACT_5_NOTES.md` | `c6ff6ab6ba374ad5e9b897e139529f3b192219599b36e9ffce53ca64aacd56c6` |
-| `production/preview/full/montage.png` | `602598c41ec53fc53b90cf570267752ef58ace16637c0604bc865f6275b5104b` |
-| `production/preview/act4/montage.png` | `3bc8b8a8f71d00c578bfd7b24d7ce5af602f089b9d2fa0f1379f86e72869faf5` |
-| `production/preview/act5/montage.png` | `18ce7b80b8e6ee02c8006a4bda9f9ccbd0ff226f111f7f24afeb3f3d0dc131d4` |
+| `production/ACT_4.pptx` | `320067168ebc0a136114ec6198f4a43408510f0f78209c97993ce1b359713ec4` |
+| `production/ACT_5.pptx` | `7d429ab5bb0cbca7b6de18c7ef3c082866318259ebeae656f5db81e2f75103d9` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `048477e94c0a4508eb21747e703c07e0ee494946b7531ee71d6c8484cebc4a8b` |
+| `production/notes/ACT_4_NOTES.md` | `a76766636c39367d9f544c0222b7df6792da2aa63f6723c032caf9e24c3b74e9` |
+| `production/notes/ACT_5_NOTES.md` | `393a66daec1554712daac356f6cecf232ce08d800515ce79ec327c34739b0ab2` |
+| `production/preview/full/montage.png` | `4a29a78656da293ef8f0b196b1dfce7a993d1106fc67f121ca1b1045ad9bcab5` |
+| `production/preview/act4/montage.png` | `c4cd497d8f409a289d9810aec9554121253c9c98690966001400764dfa5e8209` |
+| `production/preview/act5/montage.png` | `f73cc4770bc333ae96480303a9e4ccd99432fd234d6554b8f27b64050e41db39` |
 | `production/preview/full/S79.png` | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | `production/preview/full/S84.png` | `aa3ec616518b2866672caf85bc6ebc7148848c4cb0fb8697b01c46f8772f38e4` |
 | `production/preview/full/S87.png` | `2ffd4004727bc494406fa5792226d4c3930d46b083529b2e331f199842f9ad88` |
@@ -29,7 +29,7 @@
 | `production/preview/full/S94.png` | `529aeb6b6650bea0d9042efb91f4f2f0b28b8414c94c5c47ee687d5e379302a8` |
 | `production/preview/full/S95.png` | `da1ae0fbd318fff15e281075513caa8465b1b55079ea4fe96ec1250ec2f98920` |
 | `production/preview/full/S110.png` | `649dc1e3a55de4529d15e33bc71010ece2fab039f31bf0bf6d63703cc29fe859` |
-| `production/preview/full/S112.png` | `981d28e6c46196ac9ff01a022d7b6824255d8141342f1b27581bd0be4ced58be` |
+| `production/preview/full/S112.png` | `d20e7156282b39d2b7a18aa9a1e0d3714d4de4a49ab8267a674369b6cf897924` |
 | `production/notes/ACT_3_NOTES.md` | `65151fdcc5412ade8e9d9ec88ecbb9d1887209b93c7aef41632ce739a1ee7adb` |
 | `production/preview/act3/montage.png` | `c1be5712b6a93d53cecaa5e8790135cf5202cb3e5813a47f3f9db95319b77730` |
 | `production/preview/full/S77.png` | `a09373e411803b59a133ea2cf661414239817e52f9ccb491d704c00e396fa433` |

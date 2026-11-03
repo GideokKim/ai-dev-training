@@ -14897,3 +14897,75 @@ Participants can scan the six options and pick the roles a task needs.
 
 Check the labels and icons on the presentation PC. Retain the two
 lecture minutes and three case minutes.
+
+# DEC-0155 — Trace eight development stages and their handoffs
+
+## Status
+
+ACCEPTED by the presenter in the S83 workflow request.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S82 introduces six optional components of a development loop. The next
+slide needs to show where work happens and what each step passes on.
+
+## Problem
+
+The prior S83 focused on selecting one pixel-copy finding. That example
+does not describe the complete workflow from setting a goal to reporting
+the work, including what happens if more implementation is needed.
+
+## Decision
+
+Use the presenter's eight stages, actions and deliverables in one S83.
+Preserve the supplied table in ACT4_LOOP_OPERATIONS_PROPOSAL.md. Distinguish
+running checks and benchmarks from independently reviewing omissions,
+regressions and test gaps. At stage seven, a repair returns to stage
+four and repeats execution checks and review. Complete or stop at stage
+eight with a handoff to a person. Report unfinished actions and follow-up
+when the work is blocked. Select worktrees or subagents when useful.
+
+## Rationale
+
+Each next action receives identifiable evidence. Showing the return path
+lets a developer follow both the first pass and a subsequent revision.
+
+## Alternatives
+
+Retain the former S83 review-finding screen from DEC-0150 in history.
+Use S84 for the educational example of a repair after review.
+
+## Trade-offs
+
+Eight stages on one slide require short labels and an explicit return
+path. Retain the full text for the presenter and keep one slide covering
+five minutes.
+
+## Related Invariants
+
+INV-LOOP-001, INV-VERIFY-001 and INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+ACT4 S83, its S112 title lookup in ACT5, both maps, timing proposal,
+claim and narrative records, and adjoining presenter transitions.
+
+## Evidence
+
+The user supplied the eight-stage teaching workflow. The diagram adds
+no observed execution, product availability or measured result. The
+existing case on S84 illustrates the return to implementation.
+
+## Training Relevance
+
+Developers can name each output and decide whether to revise, submit
+verified work or hand over an incomplete case to a human.
+
+## Follow-up
+
+Check diagram labels, colors, connectors and role of the last stage on
+the presentation PC. Keep one lecture minute and four case minutes.
