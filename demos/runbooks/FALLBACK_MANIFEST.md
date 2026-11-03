@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0156
+## Current presentation · DEC-0157
 
 The 43 entries identify local static fallbacks for the 113-slide course. S84–S97 use an adapted GitLab workflow, two published preprints, and teaching examples for state, limits and human review. The PNG files do not imply live GitLab execution or account validation.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`50987182790b2ccd3761be1d633c8dc651cf24815c8b1a96ad48f5979ebcb7a7`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`9cc871db76a80ce262885de258eb904a4d8e644740031dbc17e6f2c32f3f57a6`.
-- `production/preview/full/montage.png` SHA-256:`66bdeaaf1370e671769addc73eb036d2753267bda8ae4a641a0b14b199b78e72`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`4505faacdcdda00aae4be151db2d07555dae5a514d0e7fbe33aeee2730d91a92`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`0c10e935c2d465f0b7f4d48efcf0243dec05a17bfdb814ef57d1a6ed5180de07`.
+- `production/preview/full/montage.png` SHA-256:`c64e00d7b21e8f291b1d35788cf6ebe985d871f38d16f8c256530c5cd73fce72`.
 
-[Current revision](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md)
+[S83 workflow diagram](../../production/evaluation/S83_EIGHT_STAGE_WORKFLOW.md) · [S84–S97 GitLab workflow](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md)
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
@@ -37,7 +37,7 @@ The 43 entries identify local static fallbacks for the 113-slide course. S84–S
 | S80 | TEACHING_MAP | `production/preview/full/S80.png` | 1920×1080 | `b37994cde3beb9a42c2293b65ca12479400fe7ec26e1f81e34f198a8a154d4c1` |
 | S81 | TEACHING_MODEL_COMPARISON | `production/preview/full/S81.png` | 1920×1080 | `c8317d1f11dafddfac1d394e4b8a7c22546c2c704720e97c8397c1898dd7336b` |
 | S82 | TEACHING_MODEL_COMPONENTS | `production/preview/full/S82.png` | 1920×1080 | `80ff88a4e3aecc28ede7191bb67c08c428785fb41cdbf440e0a6726c35285547` |
-| S83 | TEACHING_MODEL_WORKFLOW | `production/preview/full/S83.png` | 1920×1080 | `2216590ba9535baebe98e868f74bdf67f16ecd04183d97d3c87158d68f8830aa` |
+| S83 | TEACHING_MODEL_WORKFLOW | `production/preview/full/S83.png` | 1920×1080 | `8bd90ad90a3c853587b93ad641b938ed404963d952c99a422f8cd5bad7ce4fa3` |
 | S84 | CONCEPTUAL_GITLAB_WORKFLOW | `production/preview/full/S84.png` | 1920×1080 | `29e8438f364e03432f684abc9745482454430650ee59768536fdedcec709c2a4` |
 | S85 | TEACHING_TOOL_MATRIX | `production/preview/full/S85.png` | 1920×1080 | `4e6ebd98307474d2c620671c6b5429d782af65fd56a76d52ca91e1f83cbb6e63` |
 | S86 | CONCEPTUAL_GITLAB_PREPARATION | `production/preview/full/S86.png` | 1920×1080 | `ca66368efbc1b6781e9814ed0eaef7fadb6e4edbe3c1d2e0cf6d5858d5c043b9` |

@@ -2157,23 +2157,23 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **ACT:** ACT 4
 - **Section:** 4R2 One-goal walkthrough
 - **Working Title:** 목표에서 인계까지, 루프의 8단계
-- **Primary Role:** 한 목표의 수행을 여덟 단계로 펼쳐 각 단계의 일, 남길 결과와 판단 이후 경로를 연결한다.
-- **Audience Question:** 각 단계에서 무엇을 남겨야 다음 사람이 보완·완료·중단 판단을 할 수 있을까?
+- **Primary Role:** 여덟 단계를 한 작업의 경로로 읽고 다시 구현하는 지점과 결과를 넘기는 지점을 찾는다.
+- **Audience Question:** 검토에서 문제가 남으면 어디로 돌아가고, 완료하거나 막히면 어디로 갈까?
 - **Core Message:** 목표·현황·계획을 정한 뒤 구현, 실행 검증, 독립 검토의 근거로 다음 행동을 고른다. 보완이면 구현부터 다시 수행한다. 완료하거나 막히면 결과와 미실행 사항을 정리해 사람에게 넘긴다.
 - **Story Beat:** BEAT-074, BEAT-075, BEAT-076, BEAT-077, BEAT-078, BEAT-079
-- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0155
+- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0155, DEC-0157
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 사용자 제공 개발 워크플로우의 설계도다. 실행된 여덟 단계, 측정 결과, 필수 도구 또는 자동 완료를 뜻하지 않는다.
-- **Visual Concept:** 한 화면에 단계·하는 일·남기는 결과를 정렬한다. 1 목표와 범위 정의, 2 현재 상태 조사, 3 계획과 실행 환경 준비, 4 구현, 5 실행 검증, 6 독립 검토, 7 다음 행동 판단, 8 결과 정리와 인계. 7의 보완 경로는 4로 돌아가 5·6을 다시 거친다. 완료·중단은 8의 사람 인계로 이어진다. 단계별 내용은 승인 시간표의 S83 원문표를 따른다.
+- **Visual Concept:** 1–3에서 목표와 범위, 현재 상태, 계획과 환경을 준비한다. 4–7의 구현 → 실행 검증 → 독립 검토 → 다음 행동 판단을 중앙에 놓고 보완 화살표를 7에서 4로 되돌린다. 완료·중단은 8의 결과 인계로 연결한다. 화면에는 단계 이름과 경로를 표시하고, 단계별 활동과 산출물은 발표 Notes와 기획 원문표에 둔다.
 - **Demo / Case Connection:** 사용자가 제공한 정적 작업 절차를 읽는다. 이어 S84에서 이 절차와 GitLab 작업의 네 구간을 연결한다.
 - **Beginner Payoff:** 실행 검증의 산출물은 빌드·테스트·벤치마크 기록이고, 독립 검토의 산출물은 요구사항 누락·회귀 가능성·테스트 부족에 대한 의견임을 구별한다.
 - **Advanced Payoff:** Worktree와 Subagent는 필요할 때 준비한다. 목표와 제약을 유지한 보완 경로와, 확인할 사항을 적어 사람에게 넘기는 중단 경로를 구분한다.
 - **C++ Vision Bridge:** N/A — 언어와 도구에 독립적인 개발 워크플로우.
-- **Speaker Intent:** 작업 한 건을 따라 목표·기준선·계획부터 결과 보고까지 남는 근거를 짚는다. 7에서 보완을 택하면 4·5·6을 재방문한다. 중단할 때도 미실행 항목·남은 문제·후속 확인을 보고한다.
+- **Speaker Intent:** 준비 구간을 한 번 짚고 검토 지적 하나를 7→4→5→6→7로 따라간다. 8에서 완료 근거를 건네는 경우와 중단 사유·미실행 항목·후속 작업을 건네는 경우를 말로 구분한다.
 - **Transition:** 목표·검토·인계의 여덟 단계를 GitLab 이슈 한 건에 적용하면 어떤 팀 작업으로 나뉠까?
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 4분 = 5분
-- **Evidence / Decision References:** DEC-0155, DEC-0152, BEAT-074–079, INV-LOOP-001, INV-VERIFY-001
+- **Evidence / Decision References:** DEC-0155, DEC-0157, DEC-0152, BEAT-074–079, INV-LOOP-001, INV-VERIFY-001
 - **Audience Footer:** N/A — 정적 교육용 작업 흐름.
 - **Practical Tip Classification:** 검증·개선
 

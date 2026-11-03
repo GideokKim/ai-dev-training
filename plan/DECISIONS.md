@@ -15041,3 +15041,69 @@ where a person must take over before a change proceeds.
 Keep 113 slides and 389 minutes, including 20 slides and 85 minutes for
 ACT four. Confirm readability, local rendering and Notes separately
 from classroom projection and live operation.
+
+# DEC-0157 — Draw the eight-stage loop as a workflow on S83
+
+## Status
+
+ACCEPTED by the presenter.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S82 introduces six tools. S83 follows one task from its goal to a handoff.
+S84 then shows how a team adapts the workflow to a GitLab issue.
+
+## Problem
+
+Reading eight rows of activities and outputs draws attention away from
+the point at which review sends an unfinished change back to implementation.
+
+## Decision
+
+Draw preparation (1–3), implementation through next-action judgment (4–7)
+and handoff (8). Label the return from 7 to 4 for rework and the exit from
+7 to 8 for completion or a blocked handoff. Keep the full activities and
+deliverables in the speaker notes and the planning table.
+
+## Rationale
+
+A learner can trace the same finding into a new revision and see where a
+person receives verified work or a report of what is still blocked.
+
+## Alternatives
+
+Splitting the lesson would separate the decision from one of its outcomes.
+Keeping the activity and output columns would preserve the reading burden.
+
+## Trade-offs
+
+The diagram presents shorter stage names. The presenter retains the detailed
+stage outputs and a worked example for the four case minutes.
+
+## Related Invariants
+
+INV-LOOP-001, INV-VERIFY-001, INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+S83 in ACT four and the full deck, the slide and template maps, ACT four's
+workflow plan, and the individual and consolidated speaker notes.
+
+## Evidence
+
+Presenter annotation on S83. DEC-0155 supplies the eight-stage teaching
+model. The GitLab example introduced in DEC-0156 follows on S84.
+
+## Training Relevance
+
+Participants can locate the revision path and distinguish a verified
+completion from a handoff that requires a human decision.
+
+## Follow-up
+
+Check the labels and branch directions on the presentation PC. Keep
+one lecture minute and four case minutes on S83.

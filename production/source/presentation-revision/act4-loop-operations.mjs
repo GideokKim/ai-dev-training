@@ -201,52 +201,60 @@ export function loopOperationsFactories(H) {
     },
     S83(p) {
       const s=common(p,'S83','목표에서 인계까지, 루프의 8단계','이슈 한 건을 수행하는 워크플로우','','TEACHING_MODEL','M5 · M6','검증·개선');
-      const stages=[
-        ['목표와 범위 정의','바꿀 것·지킬 것과 완료 기준 결정','목표·제약·완료 기준'],
-        ['현재 상태 조사','코드·명세·기존 변경을 읽고 문제·성능 확인','조사 결과·재현 결과·기준선'],
-        ['계획과 실행 환경 준비','변경 순서와 검증 방법 결정\n필요 시 워크트리·서브에이전트 준비','작업 계획·역할·실행 조건'],
-        ['구현','정한 범위에서 코드 변경','변경 코드·테스트'],
-        ['실행 검증','빌드·테스트·벤치마크 실행 후 기준선과 비교','실행 결과와 근거'],
-        ['독립 검토','별도 관점에서 요구사항 누락·회귀·테스트 부족 검토','검토 의견·남은 문제'],
-        ['다음 행동 판단','보완할지, 완료할지, 중단해 사람에게 물을지 판단','계속·완료·중단 판단'],
-        ['결과 정리와 인계','최종 변경·검증 결과·미실행 항목·후속 작업 정리','사람이 확인할 결과 보고']
+      const loopFill='#E5F1F0';
+      const centerY=365;
+      const trackY=479;
+      const phase=(title,x,w,tone)=>text(s,title,x,186,w,38,26,tone,true);
+      const step=(number,title,x,w)=>{
+        const box=rect(s,x,318,w,94,C.white,C.teal,1.5);box.borderRadius=9;
+        text(s,number,x+4,328,w-8,27,20,C.teal,true,FONT,'center');
+        text(s,title,x+4,359,w-8,43,28,C.ink,true,FONT,'center');
+      };
+      // Keep setup linear. Only the implementation, checks and decision repeat.
+      const field=rect(s,312,167,668,356,loopFill);field.borderRadius=18;
+      phase('준비',64,229,blue);
+      phase('구현·검토 반복',335,600,C.teal);
+      phase('사람에게 인계',1023,193,blue);
+      const setup=[
+        ['01','목표·범위',239],
+        ['02','현재 상태 조사',302],
+        ['03','계획·환경 준비',365]
       ];
-      const y0=203,step=49,railX=127;
-      rect(s,103,158,1113,40,C.pale);
-      text(s,'단계',154,160,220,36,24,C.teal,true);
-      text(s,'하는 일',408,160,509,36,24,C.teal,true);
-      text(s,'남기는 결과',933,160,269,36,24,C.teal,true);
-      const center=i=>y0+step*i+step/2;
-      rect(s,railX-1,center(0),2,center(7)-center(0),'#A7BBC5');
-      connect(s,railX,center(6)+16,0,15,C.teal);
-      const returnY=center(3),returnHeight=center(6)-returnY;
-      s.shapes.add({name:'보완: 7단계 판단에서 4단계 구현으로 복귀',geometry:'custom',
-        position:{left:74,top:returnY,width:36,height:returnHeight},
-        fill:'none',line:{fill:C.warn,width:2.5},
-        customPaths:[{width:36,height:returnHeight,commands:[
-          {moveTo:{x:36,y:returnHeight}},{lineTo:{x:11,y:returnHeight}},
-          {quadBezTo:{x1:0,y1:returnHeight,x:0,y:returnHeight-11}},
-          {lineTo:{x:0,y:11}},{quadBezTo:{x1:0,y1:0,x:11,y:0}},
-          {lineTo:{x:27,y:0}}
-        ]}]});
-      connect(s,96,returnY,15,0,C.warn);
-      rect(s,54,returnY+returnHeight/2-14,42,28,C.bg);
-      text(s,'보완',51,returnY+returnHeight/2-14,48,28,18,C.warn,true,FONT,'center');
-      stages.forEach(([name,action,output],i)=>{
-        const y=y0+step*i,cy=center(i);
-        const color=i<3?blue:C.teal;
-        s.shapes.add({name:'단계 '+(i+1),geometry:'ellipse',
-          position:{left:railX-15,top:cy-15,width:30,height:30},
-          fill:color,line:{fill:'none',width:0}});
-        text(s,String(i+1),railX-15,cy-15,30,30,19,C.white,true,FONT,'center');
-        text(s,name,154,y,248,step,23,C.ink,true);
-        text(s,action,408,y,517,step,i===2?19:21,C.ink);
-        text(s,output,933,y,278,step,21,C.sub);
-        if(i<stages.length-1) line(s,153,y+step,1063,C.line,0.7);
+      setup.forEach(([number,title,y],i)=>{
+        if(i<2) connect(s,85,y+16,0,28,blue);
+        s.shapes.add({name:'준비 단계 '+number,geometry:'ellipse',position:{left:65,top:y-16,width:40,height:32},fill:blue,line:{fill:'none',width:0}});
+        text(s,number,65,y-16,40,32,19,C.white,true,FONT,'center');
+        text(s,title,116,y-22,179,44,27,C.ink,true);
       });
-      text(s,'보완은 4단계로',66,625,270,43,27,C.warn,true);
-      text(s,'완료는 8단계에서 보고',365,625,340,43,27,C.teal,true);
-      text(s,'중단도 8단계에서 남은 일을 인계',730,625,490,43,27,C.ink,true);
+      connect(s,302,centerY,29,0,blue);
+      step('04','구현',337,111);
+      step('05','실행 검증',479,126);
+      step('06','독립 검토',636,126);
+      connect(s,451,centerY,24,0,C.teal);
+      connect(s,608,centerY,24,0,C.teal);
+      connect(s,765,centerY,28,0,C.teal);
+      s.shapes.add({name:'07 다음 행동 판단',geometry:'diamond',position:{left:797,top:294,width:161,height:142},fill:C.teal,line:{fill:'none',width:0}});
+      text(s,'07',824,326,107,27,20,C.white,true,FONT,'center');
+      text(s,'다음 행동',810,350,135,31,25,C.white,true,FONT,'center');
+      text(s,'판단',824,377,107,30,25,C.white,true,FONT,'center');
+
+      const startX=392,endX=877;
+      const pathWidth=endX-startX, pathHeight=trackY-411;
+      s.shapes.add({name:'보완 경로 · 판단에서 구현으로',geometry:'custom',position:{left:startX,top:411,width:pathWidth,height:pathHeight},fill:'none',line:{fill:C.warn,width:3.5},customPaths:[{width:pathWidth,height:pathHeight,commands:[
+        {moveTo:{x:pathWidth,y:25}},{lineTo:{x:pathWidth,y:pathHeight-12}},
+        {quadBezTo:{x1:pathWidth,y1:pathHeight,x:pathWidth-12,y:pathHeight}},
+        {lineTo:{x:12,y:pathHeight}},{quadBezTo:{x1:0,y1:pathHeight,x:0,y:pathHeight-12}},
+        {lineTo:{x:0,y:15}}
+      ]}]});
+      connect(s,startX,414,0,20,C.warn,true);
+      text(s,'보완이 필요하면 다시 구현',438,430,370,40,24,C.warn,true,FONT,'center');
+
+      connect(s,960,centerY,67,0,blue);
+      const handoff=rect(s,1032,318,184,94,bluePale,blue,1.5);handoff.borderRadius=9;
+      text(s,'08',1037,328,174,27,20,blue,true,FONT,'center');
+      text(s,'결과 인계',1037,359,174,43,30,C.ink,true,FONT,'center');
+      text(s,'완료 · 검증 결과',1029,428,190,35,23,blue,true,FONT,'center');
+      text(s,'중단 · 남은 일',1029,465,190,35,23,C.sub,false,FONT,'center');
       return s;
     },
     S84(p) {
