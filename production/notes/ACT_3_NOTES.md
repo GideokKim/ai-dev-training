@@ -443,7 +443,7 @@ Primary Message: 실제 요청 첫 줄의 $graypipe-performance로 사용할 방
 Opening Question: “찾은 Skill을 이번 작업 요청에 어떻게 지정했을까요?”
 
 Speaker Flow:
-1. (0:00–0:30) 앞 장에서 찾은 같은 이름을 요청 첫 줄에 $graypipe-performance로 적은 실제 문구를 크게 짚는다. 사용자가 명시한 호출이다.
+1. (0:00–0:30) S41과 같은 macOS풍 요청 창의 첫 줄 $graypipe-performance를 크게 짚는다. 신호등·헤더·보내기 control은 요청 영역을 알아보기 위한 재구성 도식이다. 앞 장에서 찾은 이름을 사용자가 명시한 실제 요청 문구이며 현재 제품 UI의 실행 캡처로 설명하지 않는다.
 2. (0:30–1:20) 아래 한글은 실제 요청의 번역 요약이다. 임시 작업 공간, image_statistics의 시간/할당량 개선 가능성, 기존 결과6항목, 허용 코드 범위, trade-off 및 근거에 따른 no-change 허용을 짚는다. Skill에는 방법, 요청에는 이번 목표와 조건이 남는 역할을 회수한다.
 3. (1:20–1:40) 이번 요청에는 재사용할 방법의 이름과 사람이 정한 목표·조건을 함께 적었다는 점을 회수한다. 암묵 호출 성공이나 현재 Desktop 동작으로 확대하지 않는다.
 4. (1:40–2:00) 이처럼 요청에 지정할 Skill을 우리 업무에 맞게 만드는 방법으로 전환한다. 다음 S67의 제작 팁을 열며 실제 수행·성능 결과를 이 화면에서 공개하지 않는다.
@@ -466,7 +466,7 @@ Advanced Insight: 명시 호출과 암묵 호출을 구분한다. 실제 Prompt�
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: LOCAL STATIC RECORD — 큰 요청 영역의 $graypipe-performance와 이번 목표·조건을 구분한다. 실제 요청의 번역 요약4줄을 사용하며 반복 절차 전문은 넣지 않는다. 실제 UI 캡처로 위장하지 않는다. DEMO-03의 정적 기본 경로는 S65 1분과 S66 2분으로 총3Demo분이다. 새 Trial·제품 실행·Live 활성화를 하지 않는다.
+Demo Operation: LOCAL STATIC RECORD — S41과 같은 macOS풍의 큰 Prompt 창에서 $graypipe-performance 호출과 이번 목표·조건을 구분한다. 신호등3개·“작업 요청” 헤더·둥근 테두리·보내기 control은 UI 형태로 재구성한 기록 도식이며 클릭하거나 실제 UI 캡처/현재 Desktop 동작으로 설명하지 않는다. 기존 호출과 번역 요약4줄은 그대로 읽고 반복 절차 전문은 넣지 않는다. 화면에서 CLI footer만 제거했으며 Codex CLI 0.154.0의 실제 기록·번역·재구성/제품 제한은 이 Notes의 Evidence와 Claim Boundary에 보존한다. DEMO-03의 정적 기본 경로는 S65 1분과 S66 2분으로 총3Demo분이다. 새 Trial·제품 실행·Live 활성화를 하지 않는다.
 
 Audience Interaction: “찾은 Skill을 이번 작업 요청에 어떻게 지정했을까요?” 별도 실습·Q&A 시간을 추가하지 않고 다음 근거로 회수한다.
 
@@ -475,9 +475,9 @@ Transition: “우리 업무에서 반복할 절차도 Skill로 만들어 요청
 Time Management:
 Demo2분: 이름0:30, 목표/조건0:50, 요청의 역할 회수0:20, 제작 팁 전환0:20. 원문 절차 전문이나 결과 수치를 추가하지 않는다.
 
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S66, production/preview/act3/S66.png 및 production/preview/full/S66.png. 역사적 CLI 기록의 발췌·번역·재구성이며 raw 실행 캡처가 아니다. 최신 대조는 production/evaluation/S65_SKILL_EVIDENCE_SPLIT.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 현재 Live/Hybrid는 미활성이며 발표PC 재생은 UNVERIFIED다.
+Fallback: LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S66, production/preview/act3/S66.png 및 production/preview/full/S66.png. 역사적 CLI 기록을 UI 형태로 재구성한 발췌·번역 도식이며 raw 실행 캡처가 아니다. 현재 창 디자인/Notes 대조는 production/evaluation/S66_PROMPT_WINDOW.md와 demos/runbooks/FALLBACK_MANIFEST.md를 따른다. 이전 분할의 근거·검토 기록은 production/evaluation/S65_SKILL_EVIDENCE_SPLIT.md에 보존한다. 현재 Live/Hybrid는 미활성이며 발표PC 재생은 UNVERIFIED다.
 
-Validation Status: ALIGNED — DEC-0130에 따라 기존5분의세 부분과19필드·기존 근거 경계를 유지한다. 파일 렌더/Notes/번호·시간 검증은 production/evaluation/S65_SKILL_EVIDENCE_SPLIT.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+Validation Status: CONTENT ALIGNED — DEC-0137. S66의 기존19필드·Demo2분·호출/요약4줄·근거 경계를 유지하며 Prompt 창의 표현과 화면 footer만 정렬한다. 현재114장·392분과 번호는 바꾸지 않는다. 실제 렌더/PPT 내장 Notes·footer 삭제 대조는 production/evaluation/S66_PROMPT_WINDOW.md에 기록한다. 이전 분할 기록은 DEC-0130과 production/evaluation/S65_SKILL_EVIDENCE_SPLIT.md에 보존한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
 
 ## S67 — 대화로 재사용할 Skill 만들기
 

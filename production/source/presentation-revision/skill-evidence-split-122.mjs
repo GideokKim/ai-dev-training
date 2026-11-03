@@ -48,9 +48,17 @@ export function skillEvidenceFactories(H) {
   },
   S66(p) {
    const s=frame(p,'S66','이번 요청에 사용할 Skill을 지정한다');
+   // DEC-0137: match S41's prompt chrome; retain provenance in Notes.
+   s.shapes.items.find(shape=>String(shape.text)==='Codex CLI 0.154.0 기록').delete();
    text(s,'찾은 이름을 이번 작업 요청에 직접 적었다',64,178,1152,44,31,C.ink,true);
-   rect(s,64,239,1152,300,C.white,C.line,1);
-   text(s,'작업 요청',88,248,1104,32,23,C.sub);
+   const promptWindow=rect(s,64,239,1152,300,C.white,C.line,1.5);
+   promptWindow.borderRadius=12;
+   const chrome=rect(s,65,240,1150,43,'#EDF1F5');chrome.borderRadius=11;
+   ['#FF5F57','#FEBC2E','#28C840'].forEach((fill,i)=>{
+    s.shapes.add({geometry:'ellipse',name:'Window control '+(i+1),position:{left:82+i*20,top:255,width:12,height:12},fill,line:{fill:'none',width:0}});
+   });
+   text(s,'작업 요청',155,247,950,29,20,C.sub,true);
+   line(s,65,285,1150);
    text(s,'$graypipe-performance',88,286,1104,50,36,C.teal,true,CODE);
    line(s,88,347,1104);
    const prompt=[
@@ -59,7 +67,9 @@ export function skillEvidenceFactories(H) {
     '기존 결과 6항목 보존 · 해당 코드 범위만 변경.',
     'trade-off와 근거를 보고하고, 변경하지 않는 결론도 허용.'
    ];
-   prompt.forEach((value,i)=>text(s,value,88,361+i*39,1104,36,28,C.ink));
+   prompt.forEach((value,i)=>text(s,value,88,361+i*39,i===3?1040:1104,36,28,C.ink));
+   s.shapes.add({geometry:'ellipse',name:'Prompt send control',position:{left:1168,top:494,width:28,height:28},fill:C.teal,line:{fill:'none',width:0}});
+   s.shapes.add({geometry:'upArrow',name:'Prompt send arrow',position:{left:1176,top:502,width:12,height:12},fill:C.white,line:{fill:'none',width:0}});
    text(s,'재사용할 방법 + 이번 목표·조건을 한 요청에 전달했다',64,551,1152,44,30,C.teal,true);
    return s;
   },

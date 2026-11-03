@@ -13432,3 +13432,85 @@ without treating them as independent products or guaranteed evolution.
 Validate114IDs/392minutes, Q&A relocation, Mode totals, retained ACT4 budgets,
 Notes and final renders, then commit/push normally. Keep Windows, room,
 product-account and timed rehearsal gates unverified.
+
+# DEC-0137 — Style S66 as a prompt window and remove its screen footer
+
+## Status
+
+ACCEPTED — explicit user annotation approval for currentS66 only.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S66 shows the explicitly named Skill and task-specific request. The user
+wants that preserved request to read as a large prompt window, matching
+the existing S41 macOS-style visual language, with less screen metadata.
+
+## Problem
+
+Make the request area immediately recognizable while keeping the exact
+call, four summary lines and historical evidence boundaries intact.
+
+## Decision
+
+Use a rounded prompt window with three top-left traffic-light controls,
+a request header and a send control. Preserve the existing
+$graypipe-performance call and all four prompt-summary lines verbatim.
+Remove only the on-screen "Codex CLI 0.154.0 기록" audience footer; retain
+M references. Preserve CLI0.154.0 provenance, the actual trace, translation
+and reconstruction status, and product limitations in the existing Notes.
+Treat the result as a UI-styled historical-record diagram, not an actual
+product screenshot or a new observation of current Desktop behavior.
+Align the S66 Map fields and ACT3/FULL Notes visual cues and validation
+reference. Keep114slides/392minutes, every ID, title, role, story/section,
+S66's Demo2minutes and the evidence/claim scope unchanged. Do not modify
+other slides or treat the separate S68 review as deletion approval.
+
+## Rationale
+
+The recognizable window focuses attention on what was requested. Moving
+the version label off the screen reduces visual distraction while the
+Notes preserve the provenance needed to interpret the observation.
+
+## Alternatives
+
+Keep the plain request box: less consistent with the approved prompt
+visual language. Replace provenance with a new screen disclaimer: outside
+the requested footer deletion and unnecessary for the visual task.
+
+## Trade-offs
+
+The screen omits a version label, so presenter Notes retain the exact
+historical scope. Window decoration must not imply a real captured UI,
+new execution, implicit invocation, automatic compliance or Skill effects.
+
+## Related Invariants
+
+INV-VERIFY-001, INV-RESEARCH-004, INV-SOT-001.
+
+## Affected Artifacts
+
+S66 Map fields, ACT3/FULL S66 Notes, the S66 source/layout, affected
+ACT/full packages, previews and the focused evaluation record.
+No global planning banner, slide migration or Template change is needed.
+
+## Evidence
+
+Explicit user annotations; the existing S41 prompt-window design and
+S66/TRIAL-008 request evidence. No new product fact, Trial or measurement.
+
+## Training Relevance
+
+YES — separate an explicitly named reusable method from the task goal and
+conditions without making the UI decoration part of the observed evidence.
+
+## Follow-up
+
+Render the revised S66 and compare its unchanged prompt, footer removal,
+Notes and final packages. Record results in
+production/evaluation/S66_PROMPT_WINDOW.md. Preserve unverified Windows,
+room, product-account and rehearsal gates; commit/push in the authorized
+root workflow without changing the Demo repository, Sites or bundles.

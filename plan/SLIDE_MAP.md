@@ -1723,7 +1723,7 @@ S77의 설명을 마친 뒤 같은 화면에서 Harness 질문을 받고 새 S78
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; Codex CLI 0.154.0에서 관찰. Desktop 동작과 암묵적 호출은 검증하지 않음. 현재 제품 표면의 상태는 **REQUIRES PRODUCT CHECK**.
-- **Visual Concept:** 큰 요청 영역의 $graypipe-performance와 이번 목표·조건을 구분한다. 실제 요청의 번역 요약4줄을 사용하며 반복 절차 전문은 넣지 않는다. 실제 UI 캡처로 위장하지 않는다.
+- **Visual Concept:** S41과 같은 macOS풍의 큰 Prompt 창을 사용한다. 좌측 상단 신호등3개, “작업 요청” 헤더, 둥근 테두리와 보내기 control을 두고 기존 $graypipe-performance 호출과 실제 요청 번역 요약4줄을 그대로 유지한다. 창의 장식보다 호출과 이번 목표·조건이 먼저 읽히게 한다. 역사적 CLI 요청을 UI 형태로 재구성한 기록 도식이며 실제 제품 화면 캡처나 현재 Desktop 실행으로 표현하지 않는다. 하단 “Codex CLI 0.154.0 기록” 문구만 화면에서 제거하고 출처·버전·제한은 Notes에 보존한다. 대체 footer는 추가하지 않는다.
 - **Demo / Case Connection:** DEMO-03 / TRIAL-008. 세 번째 성능 조사인 image_statistics의 실행 시간 또는 할당량 조사 요청. 기본은 검증된 정적 기록 도식이며 현재 Live/Hybrid는 미활성이다.
 - **Beginner Payoff:** 반복할 방법은 Skill 이름으로 지정하고, 이번에 원하는 일과 지킬 조건은 요청에 적었다.
 - **Advanced Payoff:** 명시 호출과 암묵 호출을 구분한다. 실제 Prompt의 임시 workspace·범위·결과 보존·trade-off와 no-change 조건을 유지하며 재사용 절차를 다시 복제하지 않는다.
@@ -1732,8 +1732,8 @@ S77의 설명을 마친 뒤 같은 화면에서 Harness 질문을 받고 새 S78
 - **Transition:** “이번 요청에는 재사용할 방법을 지정했습니다. 이제 우리 업무의 Skill을 만드는 시작 방법을 보겠습니다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Demo 2분 (HYBRID) = 2분
-- **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0066, DEC-0130
-- **Audience Footer:** Codex CLI 0.154.0 기록
+- **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0066, DEC-0130, DEC-0137
+- **Audience Footer:** 없음 — CLI 버전·출처·재구성·제품 범위는 Notes에 보존; M 연계 표시는 유지
 
 #### S67 — 대화로 재사용할 Skill 만들기
 

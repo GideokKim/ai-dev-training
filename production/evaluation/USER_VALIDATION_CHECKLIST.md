@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+S66 시각 수정은 [DEC-0137 검토](S66_PROMPT_WINDOW.md)와 [전달 안내](FINAL_HANDOFF.md)를 따른다. 114장·392분과 기존 근거 범위는 그대로다. 화면의 출처 문구만 삭제했고 Notes의 CLI 기록·재구성 경계는 유지했다. Windows·교육장·제품/계정·리허설은 UNVERIFIED다.
+
+## 보존된 이전 기록
+
 현재114장·392분의 기준은 [DEC-0136 검토](ACT3_COMPACT_HANDOFF.md), [전달 안내](FINAL_HANDOFF.md), [번호 대응표](../../plan/SLIDE_ID_MIGRATION_114_DEC0136.md)다. S77에서 Harness Q&A5분을 운영하고 S78 전환2분 뒤 ACT4로 이동한다. ACT4의20장·85분과 기존 근거 범위는 유지했다. Windows·발표PC/교육장·제품/계정·실제 리허설은 UNVERIFIED다.
 
 ## 보존된 이전 기록

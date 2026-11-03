@@ -1,5 +1,14 @@
 # Current presentation source
 
+Current refinement: DEC-0137 /114slides/392minutes. Update only the retained
+S66 factory in `skill-evidence-split-122.mjs`: reuse S41's rounded prompt
+window, traffic lights, header chrome and send control. Remove only S66's
+CLI-version audience footer; keep exact request text and provenance in
+current Notes. Rebuild Full plus ACT3 and preserve the other ACT packages.
+[Current design](../../../plan/S66_PROMPT_WINDOW.md).
+
+## Preserved source decisions
+
 Current: DEC-0136 /114slides/392minutes. Apply `compact-handoff-114.mjs`
 once after the retained118-ID removal stage. Replace prior S78-S82 with
 one currentS78 transition and shift priorS83-S118 down4. Preserve current

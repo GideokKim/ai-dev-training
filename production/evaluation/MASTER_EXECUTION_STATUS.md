@@ -1,5 +1,9 @@
 # MASTER EXECUTION STATUS
 
+Current refinement DEC-0137: update only S66 prompt chrome and remove its CLI-version audience footer. Preserve114slides/392minutes, exact request text, Notes provenance and all evidence boundaries. Use [result](S66_PROMPT_WINDOW.md) and [handoff](FINAL_HANDOFF.md). The S68 deletion remains unapproved; no change is made to that slide. Windows, room, product-account and rehearsal remain UNVERIFIED.
+
+## 보존된 이전 기록
+
 Current DEC-0136:114slides/392minutes. Replace priorS78-S82 with one2-minute transition. Move HarnessQ&A5minutes to S77 and remove the premature3-minute Reflection and8Lecture minutes. Keep all20ACT4 slides and85minutes; align entry Notes only. Use [current result](ACT3_COMPACT_HANDOFF.md), [handoff](FINAL_HANDOFF.md), and [current crosswalk](../../plan/SLIDE_ID_MIGRATION_114_DEC0136.md). Prior results are historical; Windows, room, product-account and rehearsal remain UNVERIFIED.
 
 ## 보존된 이전 기록

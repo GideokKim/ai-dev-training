@@ -1,5 +1,33 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## S66 프롬프트창 정렬 — DEC-0137 (2026-11-03)
+
+현재114장·392분과 모든 장별 배정·근거 범위는 그대로다.
+S66의 요청 영역에 S41과 같은 Mac 스타일 창을 적용하고 화면의 CLI 버전 문구를 삭제했다.
+요청 네 줄과 Skill 이름은 그대로이며 CLI 버전·과거 기록·UI 재구성 경계는 Notes에 유지했다.
+통합/ACT3 두 PPT와133개 렌더·내장 Notes를 검증했다. 다른113장의 화면과 나머지5개 ACT PPT는 같다.
+S68의 삭제는 승인된 작업이 아니므로 수정하지 않았다. Demo 저장소·Sites·묶음도 변경하지 않았다.
+[수정·검토 결과](S66_PROMPT_WINDOW.md), [기획](../../plan/S66_PROMPT_WINDOW.md),
+[현재 Map](../../plan/SLIDE_MAP.md)을 따른다. Windows·교육장·제품/계정·리허설은 UNVERIFIED다.
+아래 이전 기록은 해당 판본의 이력이다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `e05323bf79e53c28742c763de19fc86c6180639a65a6c8f127d190fd1b24118d` |
+| `production/ACT_0.pptx` | `3e7d0384866ad7c97aa30e37785c28cc61ce94bda4e616562345654fb0d7f290` |
+| `production/ACT_1.pptx` | `d6babb6a40becc1721794fc1de7a8a50e35f9f37ada9d920f216661f0f4e507a` |
+| `production/ACT_2.pptx` | `d40b17899fb8a629bf28510bd47d1a777bbc3bd2243d6ab0a31b2cae3006b173` |
+| `production/ACT_3.pptx` | `57e8531a580205380891b37fc0e522b48f78862299a491aac53647f066ec608d` |
+| `production/ACT_4.pptx` | `3a56adaaad26fc78a578a64c6b13cf5561a7b6ddc8833e2f0cd78aff1c147f56` |
+| `production/ACT_5.pptx` | `bb947f46f2b5a391e93692f36229191a9f7881eb550cded43283c841dd02b56f` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `278d8d995cd7985576464bb88a4fd30674bb0181c2099ebc69b051c685993a7e` |
+| `production/notes/ACT_3_NOTES.md` | `79004682d0d6593055d76797d6cc7bda6843e33568a571d1c49d2371500d6c40` |
+| `production/preview/full/montage.png` | `4bd57e10b44718675050da8c435d9af3aa79ff35402779fc4afa971ed17c22de` |
+| `production/preview/act3/montage.png` | `134015ab2a7a8e9408178c22e1e62cedff3eaffaf49ba22467e4caa47f52f68f` |
+| `production/preview/full/S66.png` | `482b1c36433538b982da2336354c04a9593f85368086c313149272540cd14880` |
+
+## 보존된 이전 전달 기록
+
 ## ACT3→ACT4 전환 압축 — DEC-0136 (2026-11-02)
 
 현재 **114장·392분(6시간32분)**. 이전 S78–S82의 상세 전환을 새 S78 한 장으로 교체했다.

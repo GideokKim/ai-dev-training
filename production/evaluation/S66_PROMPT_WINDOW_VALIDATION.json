@@ -1,0 +1,81 @@
+{
+  "status": "RENDER_AND_STRUCTURE_PASS",
+  "baseline": "00e9d54e4b3036bab3fa7563efa7c004a2840620",
+  "slides": 114,
+  "minutes": 392,
+  "changedSlides": [
+    "S66"
+  ],
+  "actCounts": [
+    14,
+    23,
+    22,
+    19,
+    20,
+    16
+  ],
+  "actMinutes": [
+    42,
+    64,
+    90,
+    67,
+    85,
+    44
+  ],
+  "modes": {
+    "Transition": 23,
+    "Lecture": 172,
+    "Reflection": 19,
+    "Case": 102,
+    "Demo": 44,
+    "Q&A": 32
+  },
+  "retainedPixelIdentical": 113,
+  "retainedTextIdentical": 113,
+  "nativeTables": [
+    "S54"
+  ],
+  "nativeCharts": [
+    "S70",
+    "S90"
+  ],
+  "noteFields": 19,
+  "noteRecords": 114,
+  "embeddedNotes": 133,
+  "renderedPngs": 133,
+  "fullActPixelParity": 19,
+  "preservedImages": true,
+  "preservedChartCaches": true,
+  "unchangedActPackages": [
+    0,
+    1,
+    2,
+    4,
+    5
+  ],
+  "unchangedNotesOutsideTarget": true,
+  "requestTextUnchanged": true,
+  "screenFooterRemoved": true,
+  "cliProvenancePreservedInNotes": true,
+  "promptWindowMatchesS41Tokens": true,
+  "editIsNativeDiagram": true,
+  "unchangedS68": true,
+  "artifacts": [
+    {
+      "name": "AI_Dev_Training_Full",
+      "count": 114,
+      "sha256": "e05323bf79e53c28742c763de19fc86c6180639a65a6c8f127d190fd1b24118d"
+    },
+    {
+      "name": "ACT_3",
+      "count": 19,
+      "sha256": "57e8531a580205380891b37fc0e522b48f78862299a491aac53647f066ec608d"
+    }
+  ],
+  "windows": "UNVERIFIED",
+  "room": "UNVERIFIED",
+  "productAccount": "UNVERIFIED",
+  "rehearsal": "UNVERIFIED",
+  "ooxmlValidation": "PASS — both updated packages against prior committed originals",
+  "visualReview": "PASS — S66 final native prompt window and reference S41; ACT3 montage; no new clipping or overlap"
+}
