@@ -1,25 +1,25 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## ACT4 독립 검토와 인계 · DEC-0161
+## ACT4 · 병합 전 사람의 검증 · DEC-0162
 
-[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT4](../ACT_4.pptx) · [S90 미리보기](../preview/full/S90.png) · [ACT4 발표 Notes](../notes/ACT_4_NOTES.md) · [ACT5 찾아보기](../ACT_5.pptx) · [ACT4 검토 결과](ACT4_PDF_OPERATING_WORKFLOW.md)
+[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT4](../ACT_4.pptx) · [S95 미리보기](../preview/full/S95.png) · [ACT4 발표 Notes](../notes/ACT_4_NOTES.md) · [ACT5 찾아보기](../ACT_5.pptx) · [ACT4 검토 결과](ACT4_PDF_OPERATING_WORKFLOW.md)
 
-전체 113장·386분. S90은 GPT-5.4가 작성하고 Claude Sonnet 4.6이 검토하는 교육용 예시다. 변경안·출력 비교 결과와 최대 할당량 재측정 요청을 서로 주고받고, S91에서 다음 실행에 넘길 근거를 기록한다. 메모리 팁은 S92, ACT4 마지막 Goal 팁은 S97이며, ACT5는 S98에서 시작한다.
+전체 113장·386분. S90은 GPT-5.4가 작성하고 Claude Sonnet 4.6이 검토하는 교육용 예시다. 변경안·출력 비교 결과와 최대 할당량 재측정 요청을 서로 주고받고, S91에서 다음 실행에 넘길 근거를 기록한다. S95의 Human in the Loop 사례에서는 사람이 출력과 메모리 측정 근거를 대조한 뒤 병합을 승인하거나 재측정을 요청한다. 메모리 팁은 S92, ACT4 마지막 Goal 팁은 S97이며, ACT5는 S98에서 시작한다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `1cca8c897a57d032873e18068512dc08edce4752f79a28e20d0605f3ffc6a0a5` |
+| `production/AI_Dev_Training_Full.pptx` | `4b619e17ab79d4fbefe0e58a9470b3e67d20a5e3125d9d9c3a83bb0f40757986` |
 | `production/ACT_0.pptx` | `5d5d0f2726df9c88f6bfbbb1fb52d5b221b10b2c9d243638552f013c0dd7378b` |
 | `production/ACT_1.pptx` | `07b8afb890383a0e656814859a052c9d9bdf139aa3bfd3c5eb6b556c0be115d4` |
 | `production/ACT_2.pptx` | `496a76f78a1a83fc66e72f82db5656f4710e7abf82c6747bc2d6f5a7768bd806` |
 | `production/ACT_3.pptx` | `acab05b7a47448cfb525856d52b65bb7dfa1c9d01df51521a68d1b2e6a6e6841` |
-| `production/ACT_4.pptx` | `7db9ca360022fe107540630af8005fdee10cc7e78293c691e2705e9220039100` |
+| `production/ACT_4.pptx` | `26aeb26cd2c1872f913d4ad08c742f2e0004611d8880f7e979c189ac5393e6ca` |
 | `production/ACT_5.pptx` | `df247af74d1a4cefc06961a6c04b6a3deb6fd577752e55c4bb156b16876287bc` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `09930ed69295af8555838a9e777fdf57639690bd29abd2eebfe00e5cbb1fb498` |
-| `production/notes/ACT_4_NOTES.md` | `971a8b05bcb13f0d0037126003022db437d61c1df2b970856ad7596dbdaedb67` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `38df0da47ba83dba99e2f690d0406202af1093358af9fb0a2a00df2721247732` |
+| `production/notes/ACT_4_NOTES.md` | `f53bd94183164539ae9809552aede72160a36fe293f87a34d84aa2acb9d10736` |
 | `production/notes/ACT_5_NOTES.md` | `f7c89444bd2744f489ea35e0b0268f830bca3d7b6bd1b4b8118b1190d618fba7` |
-| `production/preview/full/montage.png` | `b487a2f469adce7b5a602fc3f84b1807426324971bc43dff58887843d410ac5e` |
-| `production/preview/act4/montage.png` | `1fda145238f645fa3c000e74894cc9ed44d014a713a8c01b97f198384c242fc0` |
+| `production/preview/full/montage.png` | `17916c9129ce469ca776c258d8a601480f0d0cd8b6c837c6c06f7b09992c14f4` |
+| `production/preview/act4/montage.png` | `52c77c7914c4b3a285335277e3db5d90018e64ad9fe8322b3e8605a4da64199d` |
 | `production/preview/act5/montage.png` | `63a31909d42d9a96aff3944a0de6733b0d89275765a128d51c959151ebcd73ee` |
 | `production/preview/full/S79.png` | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | `production/preview/full/S84.png` | `29e8438f364e03432f684abc9745482454430650ee59768536fdedcec709c2a4` |

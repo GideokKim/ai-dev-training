@@ -15340,3 +15340,74 @@ allocation target, and identify what another run needs to measure.
 Keep the slide title and its four minutes (one lecture, three case). Check
 that both transfers are legible and that the model assignments are clearly
 labeled as an example.
+
+# DEC-0162 — Put the human merge decision at the center of S95
+
+## Status
+
+ACCEPTED for the requested slide revision.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S94 hands a blocked task back to a person when a limit is reached.
+A task can also reach a routine completion report while evidence needed
+for a merge decision is still missing.
+
+## Problem
+
+The earlier assertion-deletion example addressed a suspicious change.
+It did not show who checks an ordinary completion report before merge.
+
+## Decision
+
+Continue the brightness-statistics example from S90. The agent submits
+a candidate and its check results. A human compares all six outputs and
+peak allocation on the same input against the agreed baseline. Complete
+evidence meeting both criteria allows the human reviewer to approve.
+If evidence is missing, the reviewer requests measurement or revision,
+then checks the updated evidence before deciding again.
+
+## Rationale
+
+Following one change lets learners distinguish an agent reporting work
+complete from a human deciding whether the team should merge it.
+
+## Alternatives
+
+The earlier deleted-assertion example remains available as background
+for a presenter who needs an example of inadequate test coverage.
+
+## Trade-offs
+
+S95 spends its two lecture minutes on the review decision and its two
+possible paths. It does not introduce a different tool or an extra trial.
+
+## Related Invariants
+
+INV-VERIFY-001, INV-LOOP-001, INV-NARRATIVE-001.
+
+## Affected Artifacts
+
+S94's transition, S95's slide and speaker notes, the official slide and
+template maps, the ACT four plan, the integrated and ACT four decks, and
+their current previews and handoff records.
+
+## Evidence
+
+SRC-0246, page 13, motivates the human review responsibility. The
+brightness-statistics scenario supplies the example conditions. Neither
+branch is presented as an observed measurement or company merge policy.
+
+## Training Relevance
+
+Learners can identify the human who owns the merge decision and the
+evidence necessary to make it, including after requested rework.
+
+## Follow-up
+
+Check that both paths and the return to the reviewer are legible, and
+that S96 opens the discussion on decisions to retain in each team.

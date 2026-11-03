@@ -446,20 +446,42 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S96(p) {
-      const s=common(p,'S96','자동화가 만든 변경을 사람이 설명할 수 있나?','병합 전 사람의 판단 · 코드 검토 예시','','TEACHING_MODEL','M5 · M6');
-      panel(s,64,210,576,291,C.white,C.line);
-      caption(s,'병합 요청에서 발견한 변경',85,230,523,blue);
-      rect(s,85,301,534,67,C.ink);
-      text(s,'− assert result == expected',97,309,510,50,24,C.white,true,CODE);
-      text(s,'검사는 끝났다. 그런데 왜 이 비교를 지웠을까?',85,398,532,66,24,C.ink,true);
-      caption(s,'검토자가 확인할 것',684,221,528,C.teal);
-      [['01','목표를 위해 이 삭제가 필요한가?'],['02','기존 동작을 어디에서 다시 확인했나?'],['03','확인할 수 없는 영향은 무엇인가?']].forEach(([n,t],i)=>{
-        const y=283+i*69;
-        line(s,684,y,531);
-        text(s,n,684,y+10,50,45,21,C.teal,true);
-        text(s,t,735,y+10,480,45,24,C.ink,true);
-      });
-      takeaway(s,'삭제 이유와 검증 근거를 설명할 수 있을 때 병합을 결정한다.');
+      const s=common(p,'S96','AI가 만든 변경은 사람이 검증한 뒤 병합한다','Human in the Loop · 병합 전 사람의 판단','','TEACHING_MODEL','M5 · M6');
+      text(s,'AI가 권한과 예산을 지켜 밝기 통계 수정을 마쳤다면, 바로 병합해도 될까?',64,151,1152,39,26,C.sub);
+      const roles=new Uint8Array(readFileSync(new URL('../../../assets/slide-illustrations/human-agent-icons.png',import.meta.url)));
+      const icon=(human,x,y,size)=>s.images.add({blob:roles,contentType:'image/png',fit:'contain',
+        alt:human?'검증 근거를 확인하는 사람':'변경안과 검사 결과를 제출하는 AI',
+        position:{left:x,top:y,width:size,height:size},
+        crop:{left:human?0:.5,right:human?.5:0,top:0,bottom:0}});
+      panel(s,64,256,248,196,C.white,C.line);
+      icon(false,85,270,64);
+      text(s,'AI',160,280,132,49,34,blue,true);
+      text(s,'완료 보고',85,352,209,42,31,C.ink,true);
+      text(s,'변경안 · 검사 결과',85,404,209,34,23,C.sub);
+
+      connect(s,322,350,58,0,blue);
+      panel(s,390,197,490,258,C.pale,C.teal);
+      icon(true,411,215,82);
+      text(s,'사람이 직접 대조',506,228,353,58,35,C.teal,true);
+      line(s,411,309,446,C.teal,1);
+      text(s,'01',411,330,48,43,23,C.teal,true);
+      text(s,'출력 6개가 이전과 같은가?',462,326,396,49,27,C.ink,true);
+      text(s,'02',411,392,48,43,23,C.teal,true);
+      text(s,'같은 입력에서 최대 할당량이 줄었나?',462,388,406,49,25,C.ink,true);
+
+      text(s,'근거 충분',888,286,95,38,21,C.teal,true,FONT,'center');
+      connect(s,888,350,86,0,C.teal);
+      panel(s,983,291,233,116,C.white,C.teal);
+      text(s,'사람이',997,305,204,35,23,C.teal,true,FONT,'center');
+      text(s,'병합 승인',997,345,204,48,32,C.ink,true,FONT,'center');
+
+      s.shapes.add({geometry:'custom',name:'근거 부족 시 검토자가 AI에 재측정을 요청',position:{left:188,top:455,width:447,height:92},
+        fill:'none',line:{fill:C.warn,width:3},customPaths:[{width:447,height:92,commands:[
+          {moveTo:{x:447,y:0}},{lineTo:{x:447,y:80}},{quadBezTo:{x1:447,y1:92,x:435,y:92}},
+          {lineTo:{x:12,y:92}},{quadBezTo:{x1:0,y1:92,x:0,y:80}},{lineTo:{x:0,y:14}}
+        ]}]});
+      connect(s,188,456,0,17,C.warn,true);
+      text(s,'근거 부족 · AI에 재측정 요청',210,482,406,50,26,C.warn,true,FONT,'center');
       return s;
     },
     S97(p) {

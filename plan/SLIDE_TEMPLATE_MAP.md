@@ -158,7 +158,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 | S92 — Codex 메모리로 이전 대화의 맥락을 이어간다 | T03-A | CMP-PRACTICAL-TIP, CMP-CLAIM | — | DOCUMENTED_PRODUCT · SRC-0113, CLM-0053 | 강의 2분 · 정적 안내 | 기기의 설정과 대화별 기억 제어를 소개하고 상태 파일·팀 지침과 구분한다. | — | V01, V02, V07 |
 | S93 — 무인 실행의 범위를 어디까지 허용할까? | T04-A | CMP-CLAIM | — | TEACHING_MODEL · 제공 PDF p.12 각색 | 강의 1 + 사례 2; 정적 교육자료 | 격리 공간 안에서 허용할 작업과 경계를 넘는 작업을 구분한다. | — | V01, V02, V06, V07 |
 | S94 — 권한·예산을 넘으면 멈추고 사람에게 넘긴다 | T03-B | CMP-PRACTICAL-TIP, CMP-CLAIM | — | TEACHING_MODEL · 제공 PDF p.12 각색 | 강의 4; 정적 교육자료 | 권한과 예산의 경계에서 중단 후 인계 카드로 이어지는 분기. | — | V01, V02, V06, V07 |
-| S95 — 자동화가 만든 변경을 사람이 설명할 수 있나? | T03-A | CMP-CLAIM | — | TEACHING_MODEL · 제공 PDF p.13 각색 | 강의 2; 정적 교육자료 | 삭제된 assertion·통과한 검사를 보고, 기존 동작·검증 근거를 사람이 설명할 수 있는지 확인한다. 교육용 M5·M6 연결. | — | V01, V02, V06, V07 |
+| S95 — AI가 만든 변경은 사람이 검증한 뒤 병합한다 | T03-A | CMP-CLAIM | — | TEACHING_MODEL · 제공 PDF p.13 각색 | 강의 2; 정적 교육자료 | AI의 완료 보고 → 사람이 출력 6개·동일 입력의 최대 할당량을 대조 → 기준 충족 시 사람이 병합 승인. 근거 부족 시 AI에 재측정·보완을 요청해 사람이 다시 검증한다. 교육용 M5·M6 연결. | — | V01, V02, V06, V07 |
 | S96 — 무엇을 자동화하고, 무엇을 사람이 결정할까? | T10-A | CMP-CLAIM | — | TEACHING_MODEL · 제공 PDF p.14 각색 | 성찰 2 + 질의 7 + 전환 2; 정적 교육자료 | 반복 작업·판정 근거·사람의 결정 칸을 사용해 성찰과 질의를 진행한다. | — | V01, V02, V06, V07 |
 | S97 — Codex에서 /goal로 목표와 완료 기준을 정한다 | T03-A | CMP-PRACTICAL-TIP, CMP-CLAIM | — | RESEARCH / TEACHING_MODEL · SRC-0240/0241 | 강의 2분 · 정적 입력 예시 | 목표, 같은 입력에서 확인할 완료 근거, 측정할 수 없을 때의 중단 조건을 보여준다. | — | V01, V02, V07 |
 | S98 — 내 업무에 맞게 조합하고 덜어내기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |

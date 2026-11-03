@@ -2450,36 +2450,36 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Advanced Payoff:** 권한 상승, 추가 비용, 재개 여부의 결정자를 명시한다.
 - **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
 - **Speaker Intent:** 허용 범위 안에서 보완하는 경우와 권한·예산을 넘어 중단하는 경우를 구분한다.
-- **Transition:** 자동화가 만든 변경을 사람이 설명할 수 있나?
+- **Transition:** 한도를 넘어 멈춘 경우를 보았다. AI가 완료했다고 보고한 경우, 사람은 병합 전에 무엇을 확인할까?
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
 - **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 - **Practical Tip Classification:** 작업 환경·검증
 
-#### S95 — 자동화가 만든 변경을 사람이 설명할 수 있나?
+#### S95 — AI가 만든 변경은 사람이 검증한 뒤 병합한다
 
 - **Slide ID:** S95
 - **ACT:** ACT 4
 - **Section:** 4R6 Evidence and transfer
-- **Working Title:** 자동화가 만든 변경을 사람이 설명할 수 있나?
-- **Primary Role:** 이해하지 못한 변경을 승인할 때 생길 수 있는 이해 부채를 한 사례로 설명한다.
-- **Audience Question:** 자동화가 만든 변경을 사람이 설명할 수 있나?
-- **Core Message:** 실패하던 테스트의 assertion을 삭제해 통과했다면, 사람이 무엇을 검증하지 않게 됐는지 설명하고 기존 동작을 다시 확인한 뒤 병합 여부를 정한다.
+- **Working Title:** AI가 만든 변경은 사람이 검증한 뒤 병합한다
+- **Primary Role:** AI가 정상 완료를 보고한 경로에도 사람이 근거를 대조하고 병합 여부를 결정하는 지점(Human in the Loop)을 둔다.
+- **Audience Question:** AI가 작업을 마쳤다고 보고하면, 병합하기 전에 내가 직접 확인할 것은 무엇일까?
+- **Core Message:** AI가 제출한 변경안과 검사 결과를 사람이 원래의 완료 기준에 대조한다. 출력 6개가 보존되고 동일 입력의 최대 할당량이 기준판보다 낮다는 근거가 있으면 사람이 병합을 승인한다. 근거가 부족하면 AI에 재측정·보완을 요청하고 다시 검증한다.
 - **Story Beat:** BEAT-090, BEAT-083
-- **Curriculum Trace:** ACT 4 / 4R6 Evidence and transfer · DEC-0156
+- **Curriculum Trace:** ACT 4 / 4R6 Evidence and transfer · DEC-0162, DEC-0156
 - **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
-- **Visual Concept:** 삭제된 assertion과 녹색 테스트 결과를 나란히 본다. 사람이 확인할 변경 이유·기존 동작·검증 근거로 시선을 옮긴다.
-- **Demo / Case Connection:** 제공 PDF p.13의 이해 부채를 삭제된 assertion으로 설명한 교육용 예시. 사내 실제 사고나 Trial 결과가 아니다.
-- **Beginner Payoff:** 검사가 통과했어도 어떤 조건을 검사했는지 확인하는 이유를 짚는다.
-- **Advanced Payoff:** 변경 전 동작과 검사 범위에 생긴 차이를 검토한 뒤 병합 책임자가 판단한다.
+- **Claim Status:** TEACHING MODEL — 팀의 병합 절차를 설계하는 교육용 예시. 실제 실행·측정 결과나 사내 병합 정책에 관한 주장은 없다.
+- **Visual Concept:** AI가 제출한 변경안·검사 결과를 사람이 확인하는 지점으로 연결한다. 기준 충족은 병합 승인으로, 근거 부족은 AI 재측정·보완 후 사람의 재검증으로 이어진다.
+- **Demo / Case Connection:** PDF p.13의 엔지니어 검토 책임을 S90의 밝기 통계 사례로 설명한다. 검토 흐름과 두 결과는 교육용 조건 분기다.
+- **Beginner Payoff:** AI의 완료 보고를 받은 뒤, 자신이 두 기준을 확인해야 하는 시점을 찾는다.
+- **Advanced Payoff:** 기능 보존과 메모리 목표를 각각 검증하고, 비교할 입력이나 기준판 수치가 빠지면 재측정 조건을 지정한다.
 - **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
-- **Speaker Intent:** 이해하지 못한 변경을 승인할 때 생길 수 있는 이해 부채를 한 사례로 설명한다.
-- **Transition:** 무엇을 자동화하고, 무엇을 사람이 결정할까?
+- **Speaker Intent:** S94의 한도 도달과 구별해 AI가 완료했다고 보고한 순간부터 시작한다. S90에서 낸 행별 집계 변경과 출력 비교를 짚고 동일 입력·기준판 대비 최대 할당량 근거를 찾는다. 승인과 보완 뒤 재검증, 두 경로의 결정권자를 가리킨다.
+- **Transition:** 우리 팀의 반복 업무에서는 어떤 결정을 사람에게 남길까?
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050; legacy M5·M6 (교육 내용 대응)
+- **Evidence / Decision References:** DEC-0162, DEC-0156, SRC-0246, CLM-0050; legacy M5·M6 (교육 내용 대응)
 - **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
 #### S96 — 무엇을 자동화하고, 무엇을 사람이 결정할까?
