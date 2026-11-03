@@ -1,8 +1,8 @@
 # Official Slide Map
 
-## 현재 ACT3→ACT4 제작 기준 — DEC-0150 (2026-11-03)
+## 현재 ACT3→ACT4 제작 기준 — DEC-0151 (2026-11-03)
 
-S77에서 점심 전 맡긴 작업과 돌아와 받은 계획을 나란히 보여준다. S79는 “응, 시작해.”라는 답에서 첫 구현으로 이어지고, 검토 지적을 사람이 전달하는 두 번째 멈춤을 보여준다. S80은 같은 첫 지적을 루프로 연결한 대안이다. S81은 점심 전 요청과 완료 기준을 구분하고 S82는 같은 첫 후보의 목록 생성식을 확대한다. S83–S85에서 이 식으로 확인한 지적을 직접 구현에 넘겨 전체 복사를 행별 집계로 바꾼다. 누락된 시간은 같은 후보로 먼저 측정하고 결과와 한도를 보고 다음 행동을 정한다. S88부터의 GitLab 사례는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
+S77에서 점심 전 맡긴 작업과 돌아와 받은 계획을 나란히 보여준다. S79는 “응, 시작해.”라는 답에서 첫 구현으로 이어지고, 검토 지적을 사람이 전달하는 두 번째 멈춤을 보여준다. S80은 같은 첫 지적을 루프로 연결한 대안이다. S81은 두 진행 방식을 네 항목으로 비교하고 S82는 같은 첫 후보의 목록 생성식을 확대한다. S83–S85에서 이 식으로 확인한 지적을 직접 구현에 넘겨 전체 복사를 행별 집계로 바꾼다. 누락된 시간은 같은 후보로 먼저 측정하고 결과와 한도를 보고 다음 행동을 정한다. S88부터의 GitLab 사례는 DEC-0145를 따른다. 글쓴이의 GitLab 운영 사례는 당시 팀 운영에 한정한다. 밝기 통계 R1과 MR 상태 조회 실패는 교육용 설계다. S86은 CriticBench, S87은 PairCoder 표 2의 HumanEval 실험, S95는 통합 Goal 적용 팁이다. Native 표 S54/S81, 차트 S69/S87. S110과 S112는 통합 Goal 팁 S95를 가리킨다.
 
 [승인된 ACT4 화면·시간표](ACT4_LOOP_OPERATIONS_PROPOSAL.md)
 
@@ -2093,36 +2093,36 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Advanced Payoff:** 수정 횟수와 관계없이 목표와 완료 기준을 유지한다. 근거를 얻을 수 없는 경우의 미완료 인계는 S85에서 다룬다.
 - **C++ Vision Bridge:** N/A — 이 장은 별도 C++ 사례를 다루지 않는다.
 - **Speaker Intent:** S79 뒤에 수정이 한 번 더 발생한 것으로 읽히지 않도록 같은 시점의 대안이라고 밝힌다. 지적 카드를 고정하고 사람의 입력 대신 수정과 재검토로 이어지는 선을 따라간다.
-- **Transition:** 점심 전에 맡긴 메모리 절감과 테스트를 완료했다고 하려면 어떤 근거가 있어야 할까?
+- **Transition:** 같은 지적을 사람이 다시 요청할 때와 루프가 이어받을 때, 다음 행동과 전달할 정보는 어떻게 달라질까?
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 3분 + Case 1분 = 4분
 - **Evidence / Decision References:** DEC-0149, DEC-0146, DEC-0145, DEC-0097, BEAT-077, BEAT-078, BEAT-079, CASE-LOOP-01, CLM-0021
 - **Audience Footer:** 밝기 통계 사례를 이용한 운영 모형
 
-#### S81 — 점심 전에 맡긴 일, 무엇을 보면 끝났다고 할까?
+#### S81 — 기존 프롬프팅과 루프 엔지니어링
 
 - **Slide ID:** S81
 - **ACT:** ACT 4
 - **Section:** 4R2 One-goal walkthrough
-- **Working Title:** 점심 전에 맡긴 일, 무엇을 보면 끝났다고 할까?
-- **Primary Role:** 같은 과제의 완료 출구에 필요한 근거를 점심 전 요청과 교육 사례의 보존 조건으로 구분한다.
-- **Audience Question:** 점심 전에 맡긴 일, 무엇을 보면 끝났다고 할까?
-- **Core Message:** 점심 전에는 메모리를 줄이고 수정·테스트해 달라고 했다. 이 사례의 완료 판정에는 여섯 출력 보존과 실행시간 비악화도 포함한다. 세 항목은 같은 대표 입력으로 확인한다.
-- **Story Beat:** BEAT-074
-- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0149
-- **Evidence Type:** CONCEPTUAL
-- **Claim Status:** CONCEPTUAL CASE — CASE-LOOP-01의 밝기 통계 가상 후보와 검토 과정. 기존 제품 Trial은 함수의 실제 배경만 제공한다.
-- **Visual Concept:** 점심 전 요청에서 임시 메모리 감소와 수정·테스트를 읽는다. 사례의 완료 기준을 별도로 제시하고 같은 대표 입력에서 여섯 출력 보존, 임시 할당 피크 감소, 실행시간 비악화를 확인할 근거를 대응한다.
-- **Demo / Case Connection:** CASE-LOOP-01 · 밝기 통계 내부 루프의 교육용 설계
-- **Beginner Payoff:** 여섯 출력과 시간 조건을 보존하고 임시 할당 목표를 같은 입력으로 확인한다.
-- **Advanced Payoff:** 검증할 단위와 같은 환경·입력의 재측정 조건을 먼저 정한다.
-- **C++ Vision Bridge:** 프로젝트 명세·검사·측정 기준으로 전이할 수 있는 설계 원리.
-- **Speaker Intent:** 사람이 실제로 한 요청의 범위를 먼저 짚는다. 출력 보존·시간 조건은 사례의 판정 기준으로 소개하고 실제 실측값이나 실행 성공을 제시하지 않는다.
-- **Transition:** 이제 첫 후보에 남은 임시 복사가 어디에서 생겼는지 목록 생성식을 확대해 보자.
+- **Working Title:** 기존 프롬프팅과 루프 엔지니어링
+- **Primary Role:** S79의 사람 주도 재요청과 S80의 검토 기반 반복을 한 작업의 두 진행 방식으로 비교한다.
+- **Audience Question:** 누가 다음 단계를 시작하고, 어떤 정보와 결과를 넘기는가?
+- **Core Message:** 사람이 답을 보고 다음 요청을 쓰는 방식과, 사람이 정한 목표·기준 안에서 검토 결과가 다음 수정을 이끄는 방식을 구분한다.
+- **Story Beat:** BEAT-073, BEAT-077, BEAT-078, BEAT-079
+- **Curriculum Trace:** ACT 4 / 4R2 One-goal walkthrough · DEC-0151
+- **Evidence Type:** TEACHING_MODEL
+- **Claim Status:** TEACHING MODEL — S79–S80의 두 작업 흐름을 비교한다. 실제 제품의 전체 동작, 모든 프롬프팅의 한계, 루프의 성과·완료 보장은 주장하지 않는다.
+- **Visual Concept:** 편집 가능한 3열 표에 항목, 기존 프롬프팅, 루프 엔지니어링을 둔다. 누가 끌고 가나?, 컨텍스트, 오류가 나면, 결과물의 네 행에서 다음 지시·인계할 정보·재검사·제출 또는 중단 기록을 나란히 읽는다.
+- **Demo / Case Connection:** CASE-LOOP-01 · S79와 S80이 같은 밝기 통계 지적을 전달한 두 방식. 표는 교육용 정리다.
+- **Beginner Payoff:** 검토 뒤 사람이 다시 지시하는 경우와 같은 검사 결과가 다음 회차를 시작하는 경우를 구분한다.
+- **Advanced Payoff:** 프롬프트는 루프에서도 쓰인다. 다음 행동의 시작 조건, 회차 간 인계, 완료·중단 기준을 별도로 설계한다.
+- **C++ Vision Bridge:** N/A — 같은 밝기 통계 예시의 두 작업 방식에 집중한다.
+- **Speaker Intent:** 두 경우 모두 목표와 완료 기준은 사람이 정한다. S79/S80에서 다음 회차에 누가 무엇을 전달했는지 같은 행에서 비교한다.
+- **Transition:** 그렇다면 이 예시에서 다음 수정에 넘길 구체적인 근거는 무엇일까? 첫 구현의 목록 생성식을 확대한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
-- **Evidence / Decision References:** DEC-0149, DEC-0145, DEC-0097, BEAT-074, CASE-LOOP-01, CLM-0021
-- **Audience Footer:** 교육용 재구성
+- **Evidence / Decision References:** DEC-0151, DEC-0149, BEAT-074, BEAT-073, BEAT-077, BEAT-078, BEAT-079, CASE-LOOP-01, CLM-0021
+- **Audience Footer:** 없음. 비교 범위와 출처는 발표 Notes에 둔다.
 
 #### S82 — 첫 수정안을 확대해 보면
 

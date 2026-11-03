@@ -119,15 +119,25 @@ export function loopOperationsFactories(H) {
       return s;
     },
     S81(p) {
-      const s=common(p,'S81','점심 전에 맡긴 일, 무엇을 보면 끝났다고 할까?','밝기 통계 · 완료를 판단할 근거',reconstruction,caseKind,'M5 · M6');
-      const request=rect(s,64,174,1152,65,bluePale); request.borderRadius=7;
-      text(s,'점심 전 요청',82,185,170,43,24,blue,true);
-      text(s,'“밝기 통계의 임시 메모리를 줄여줘. 수정하고 테스트까지 돌려줘.”',254,185,943,43,27,C.ink,true);
-      label(s,'이 사례의 완료 조건',70,254,295); label(s,'같은 입력으로 확인할 근거',376,254,826);
-      row(s,304,'출력 보존','기존 테스트를 통과하고 여섯 출력값이 기준판과 일치한다');
-      row(s,379,'임시 메모리 감소','계산 중 Python 할당 피크가 기준판보다 낮다');
-      row(s,454,'실행시간 유지','같은 환경과 측정 방식에서 기준판보다 느려지지 않는다');
-      takeaway(s,'수정본이 바뀌어도 비교할 기준은 그대로다');
+      const s=common(p,'S81','기존 프롬프팅과 루프 엔지니어링','같은 밝기 통계 작업을 진행하는 두 방식','','TEACHING_MODEL','M5 · M6');
+      const values=[
+        ['항목','기존 프롬프팅 · 사람이 이어가는 대화','루프 엔지니어링 · 검토로 이어가는 작업'],
+        ['누가 끌고 가나?','사람이 답을 보고\n다음 지시를 내린다.','사람이 목표와 기준을 정하면\n루프가 다음 행동을 고른다.'],
+        ['컨텍스트','사람이 필요한 코드와 로그를 골라\n다음 요청에 담는다.','목표와 기준을 유지하고, 최신 수정안과\n검사 결과를 다음 회차에 넘긴다.'],
+        ['오류가 나면','사람이 오류를 확인하고\n수정과 재검사를 요청한다.','검사에서 찾은 오류를 다음 수정에 반영하고\n같은 기준으로 다시 검사한다.'],
+        ['결과물','이번 요청의 답변이나 수정안.\n사람이 완료 여부를 확인한다.','완료 기준을 확인한 수정안과 검사 기록.\n중단하면 사유와 남은 문제를 기록한다.']
+      ];
+      const table=s.tables.add({rows:values.length,columns:3,left:64,top:172,width:1152,height:428,columnWidths:[191,449,512],values});
+      table.styleOptions={headerRow:false,bandedRows:false};
+      table.borders.assign({fill:C.line,width:0.8,style:'solid'});
+      for(let r=0;r<values.length;r++){
+        table.rows[r].height=r===0?56:93;
+        for(let c=0;c<3;c++){
+          const cell=table.getCell(r,c);
+          cell.fill=r===0?(c===2?C.teal:c===1?blue:C.sub):(c===0?C.bg:C.white);
+          cell.text.style={typeface:FONT,fontSize:r===0?23:c===0?25:24,color:r===0?C.white:c===0?C.teal:C.ink,bold:r===0||c===0,alignment:'left',verticalAlignment:'middle',autoFit:'none',wrap:'none'};
+        }
+      }
       return s;
     },
     S82(p) {

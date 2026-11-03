@@ -14606,3 +14606,77 @@ comparable measurements to decide whether its performance goals hold.
 
 Check that the tip index resolves to the new titles and that the revised
 slide sequence is legible in the final presentation environment.
+
+# DEC-0151 — Compare human-led prompting with a review loop
+
+## Status
+
+ACCEPTED. The presenter specified a four-row comparison for S81.
+
+## Date
+
+2026-11-03
+
+## Context
+
+S79 and S80 show two ways to handle the same review finding. The developer
+sends another request on S79. On S80 the finding reaches implementation
+through a loop, and the next candidate returns to review.
+
+## Problem
+
+The former S81 explained how to judge the brightness change. It did not
+bring the two preceding workflows together on a common set of questions.
+
+## Decision
+
+Use one editable PowerPoint table on S81. Compare who initiates the next
+action, which context reaches the next turn, who handles an error, and
+what is returned. Read the left column using the human-led S79 exchange.
+Read the right column using S80's review loop, with the goal and criteria
+set by a person. In the loop column, account for both a verified candidate
+with its checks and an incomplete handoff with the reason and open issues.
+
+## Rationale
+
+Shared row labels let the audience trace where the review evidence goes
+when the developer does or does not need to write the next instruction.
+The context row explains what the loop must carry between attempts.
+
+## Alternatives
+
+The earlier goal-to-evidence checklist is preserved in the decision history.
+The brightness walkthrough on S82–S85 still supplies the code example,
+conditions and measurement decisions.
+
+## Trade-offs
+
+The two columns are teaching designs. Both can use prompts, tools and tests.
+The table does not measure performance or imply that every loop succeeds.
+S81 uses existing comparison variant T04-C and retains two lecture minutes
+plus two case minutes.
+
+## Related Invariants
+
+INV-NARRATIVE-001, INV-VERIFY-001 and INV-LOOP-001.
+
+## Affected Artifacts
+
+S81 in ACT4 and the full presentation, the S80 verbal transition, speaker
+notes, slide and template maps, curriculum, and the native table inventory.
+
+## Evidence
+
+The presenter's four requested comparison axes and the educational
+CASE-LOOP-01 scenes on S79 and S80. No new trial or product behavior is
+introduced.
+
+## Training Relevance
+
+The audience can explain which part of the same correction a person
+directs and which part the system connects to the next review.
+
+## Follow-up
+
+Confirm that the table's cells remain editable and that both columns can be
+read on the presentation PC.

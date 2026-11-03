@@ -1,14 +1,14 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0150
+## Current presentation · DEC-0151
 
 The 43 entries identify local static fallbacks for the 113-slide course. ACT4 uses the author’s GitLab account of operations, a designed brightness case, a published benchmark and a documented Goal example. Classroom playback and account checks are pending.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`fde6203dfc82456ff8223480a078dd33309f8d001150c9a870090989262e3476`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`7e4eb74737e7caf1471cc92024817e770df9093917c3da64eb67647522aa343d`.
-- `production/preview/full/montage.png` SHA-256:`89515c0f386ccbc1748687fec9ecf771de6a7e7f1f0411ca35a85a0aed1ced67`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`366d8765bd9168d83996217d65c46c9dab0b7002c2378088573baedbcc043f40`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`e49a87660f9575ef8a2ceb2920f71c9858676158304772c6e853ff403ad64706`.
+- `production/preview/full/montage.png` SHA-256:`623171859e8d544187db818fe006f0b32c2f6a1ed48d91374d99e4de86d9c205`.
 
-[Current revision](../../production/evaluation/S83_S85_REVIEW_DECISIONS.md)
+[Current revision](../../production/evaluation/S81_PROMPT_LOOP_COMPARISON.md)
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
@@ -35,7 +35,7 @@ The 43 entries identify local static fallbacks for the 113-slide course. ACT4 us
 | S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` | 1920×1080 | `67b83e594add1c198951ce3bb0907cc1444ab11f2fdc98ede1be60525b0a954a` |
 | S79 | CONCEPTUAL_MANUAL_HANDOFF | `production/preview/full/S79.png` | 1920×1080 | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | S80 | TEACHING_MAP | `production/preview/full/S80.png` | 1920×1080 | `b37994cde3beb9a42c2293b65ca12479400fe7ec26e1f81e34f198a8a154d4c1` |
-| S81 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S81.png` | 1920×1080 | `3d05578c4e969ce1fc7a5f8b5070dffdfc25b7cfb6eb9883be8d6312518fdde7` |
+| S81 | TEACHING_MODEL_COMPARISON | `production/preview/full/S81.png` | 1920×1080 | `ac27572c2ed320b315087df8fb96e2a3ce19716810d9ac834556f004f32704f0` |
 | S82 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S82.png` | 1920×1080 | `45ba508571a1c6e85dc10abf83e7b9264eb73d186116e96deff818a566d0eb0f` |
 | S83 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S83.png` | 1920×1080 | `014b3c0d8a4522bd0f478459a53a27b97a0b966d51cf3e65b358c541d427c7a0` |
 | S84 | CONCEPTUAL_INNER_LOOP | `production/preview/full/S84.png` | 1920×1080 | `aa3ec616518b2866672caf85bc6ebc7148848c4cb0fb8697b01c46f8772f38e4` |

@@ -1,27 +1,25 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## S83–S85 검토·수정·판단 · DEC-0150
+## S81 프롬프팅과 루프 비교 · DEC-0151
 
-[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT3 발표 자료](../ACT_3.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [ACT5 찾아보기](../ACT_5.pptx) · [ACT4 발표 Notes](../notes/ACT_4_NOTES.md) · [검토 결과](S83_S85_REVIEW_DECISIONS.md)
+[통합 자료](../AI_Dev_Training_Full.pptx) · [ACT3 발표 자료](../ACT_3.pptx) · [ACT4 발표 자료](../ACT_4.pptx) · [ACT5 찾아보기](../ACT_5.pptx) · [ACT4 발표 Notes](../notes/ACT_4_NOTES.md) · [S81 검토 결과](S81_PROMPT_LOOP_COMPARISON.md)
 
-113장·389분이다. S83–S85는 같은 지적이 행별 집계 수정으로 이어진 뒤, 근거를 측정하고 다음 행동을 판단하는 흐름이다. S112에서 두 실무 팁을 다시 찾을 수 있다.
-
-S79의 교육용 대화 출처는 [발표 Notes](../notes/ACT_4_NOTES.md)에 기록한다. 기준판 `f10d5e3` 대비 통합 렌더에서 변경된 영역은 S79의 하단 출처 문구뿐이다.
+113장·389분이다. S81에서 같은 목표의 두 작업 방식을 네 항목으로 비교하고, S82부터 첫 구현과 재검토 과정을 살펴본다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `fde6203dfc82456ff8223480a078dd33309f8d001150c9a870090989262e3476` |
+| `production/AI_Dev_Training_Full.pptx` | `366d8765bd9168d83996217d65c46c9dab0b7002c2378088573baedbcc043f40` |
 | `production/ACT_0.pptx` | `d92f92bf7838e89ed8450118fac1f2021804266ff5eb44bca45cbcbcc599a600` |
 | `production/ACT_1.pptx` | `56417fc32d9cb7e93687caaba1b10f735b10426e69214e54b813bef105a49f91` |
 | `production/ACT_2.pptx` | `19e0fd064e02a58c3c4e737dd977b0c0c32477fd46f409975956cc2e4a6a5f05` |
 | `production/ACT_3.pptx` | `73fa2d32d3a1dcdf893fa8c0329f07c4c1cceea52b4188ec9322317c82502a86` |
-| `production/ACT_4.pptx` | `dd629b4cbddb5e59e7ddd4d85169f8df7e8576004610d6c4d16beb64517a188d` |
+| `production/ACT_4.pptx` | `977aa35164d979b881c16256cd3875f7b7b32a9de060a49582a11e89ca43722d` |
 | `production/ACT_5.pptx` | `38575a4a8ecb7fd6825349c57a773dea43db8431bc779bcf49d2951fcbee8f61` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `7e4eb74737e7caf1471cc92024817e770df9093917c3da64eb67647522aa343d` |
-| `production/notes/ACT_4_NOTES.md` | `7ccea6db6eb79f7a34bae85eea7bb6dd9de44369b479a6754aa5c081bdf99291` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `e49a87660f9575ef8a2ceb2920f71c9858676158304772c6e853ff403ad64706` |
+| `production/notes/ACT_4_NOTES.md` | `d756e3e1c9be638c7726d1385f561818032033bf4d06711bdd18ae10daf759dc` |
 | `production/notes/ACT_5_NOTES.md` | `c6ff6ab6ba374ad5e9b897e139529f3b192219599b36e9ffce53ca64aacd56c6` |
-| `production/preview/full/montage.png` | `89515c0f386ccbc1748687fec9ecf771de6a7e7f1f0411ca35a85a0aed1ced67` |
-| `production/preview/act4/montage.png` | `355a2dfd18aec2bfd2d1093368e9e876e18e3dcf1152ba1fa3128b76e7466dc1` |
+| `production/preview/full/montage.png` | `623171859e8d544187db818fe006f0b32c2f6a1ed48d91374d99e4de86d9c205` |
+| `production/preview/act4/montage.png` | `de4d49e64c10cee2b9921b02e6adfd3db85e52dd3f779c39532133808157bd44` |
 | `production/preview/act5/montage.png` | `18ce7b80b8e6ee02c8006a4bda9f9ccbd0ff226f111f7f24afeb3f3d0dc131d4` |
 | `production/preview/full/S79.png` | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | `production/preview/full/S84.png` | `aa3ec616518b2866672caf85bc6ebc7148848c4cb0fb8697b01c46f8772f38e4` |

@@ -1,3 +1,8 @@
+# ACT 4 comparison table (DEC-0151)
+
+Rebuild the integrated deck and ACT 4 with `--release --release-acts=4`.
+S54 and S81 use editable PowerPoint tables.
+
 # ACT 3 handoff and ACT 4 loop motivation (DEC-0146)
 
 For the DEC-0150 review sequence and updated S112 lookup, rebuild the full deck,
