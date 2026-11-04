@@ -240,6 +240,8 @@ C++ Vision Bridge: N/A.
 
 Demo Operation: N/A. 교육용 프롬프트 재구성·생성 삽화·개념 비용 표시를 보는 정적 Case다. 새 Agent 실행·Trial·제품 동작을 시연하지 않는다.
 
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+
 Audience Interaction: 오른쪽 세 질문을 따라 어떤 결정이 비어 있는지 생각하게 한다. 공개 답변·실습·요청문 작성을 요구하지 않는다.
 
 Transition:
@@ -288,6 +290,8 @@ Advanced Insight: The paths compare change authority and preservation criteria, 
 C++ Vision Bridge: N/A.
 
 Demo Operation: N/A. 정적 프롬프트·동일 Agent·가능한 세 경로를 설명한다. 새 Trial·반복 호출·병렬 Subagent를 실행하지 않는다.
+
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
 
 Audience Interaction: 같은 요청에서 각 변경이 허용될 조건을 눈으로 비교한다. 세 가지를 똑같이 옳은 선택으로 고르게 하거나 응답·실습을 요구하지 않는다.
 
@@ -339,6 +343,8 @@ Advanced Insight: Explicit intent constrains the acceptable solution space; it d
 C++ Vision Bridge: N/A.
 
 Demo Operation: N/A. 교육용 프롬프트 재구성과 같은 시간선의 강조 전환을 보는 정적 Case다. 실제 Agent 호출·테스트·반복 실험을 수행하지 않는다.
+
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
 
 Audience Interaction: 같은 요청에 더해진 네 문장과 구현 수정 범위의 연결을 확인하게 한다. 직접 작성·공유·실습은 요구하지 않는다.
 
@@ -512,6 +518,8 @@ C++ Vision Bridge: SUPPORTING Notes cue only. 출력·API/ABI 보존 범위와 R
 
 Demo Operation: 실제 TRIAL-002 요청의 정적 읽기다. S22에서 같은 Process01–03의 관찰 요약, S23에서 diff, S24에서 검증 근거를 확인한다. S21의 Lecture6/Case3은 기존 CAPTURED Demo8분에 더해 세지 않는다. 새 제품 실행·Trial·원시 터미널 캡처를 보여주지 않는다.
 
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+
 Audience Interaction: 원문 밖 주석을 따라 다섯 역할이 어디에 드러나는지 확인하게 한다. Case3분에는 명세 해석 예90초와 정보의 위치·같은 요청 연결90초를 사용한다. 작성·공유·실습·공개 답변을 요구하지 않는다.
 
 Transition:
@@ -558,6 +566,8 @@ Advanced Insight: Compare instructions with documented observation summaries. A 
 C++ Vision Bridge: N/A.
 
 Demo Operation: DEMO-05의 정적 도입으로 Lecture2분 유지. S21과 같은 요청의01–03을 왼쪽에서 회수해 오른쪽 관찰과 짝짓는다.04 실제 diff는 S23,05 검증 결과는 S24다. 관찰 요약·실제 대상 코드 식별자와 원시 로그를 구분한다. 새 Trial·현재 제품 실행·가짜 캡처를 보여주지 않는다.
+
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
 
 Audience Interaction: 요청 문장과 오른쪽 근거를 한 행씩 따라오게 한다. 실습·공개 응답을 요구하지 않는다.
 
@@ -845,6 +855,8 @@ vector 동등 비교는 길이·순서별 값을 비교한다. EXPECT_EQ(actual.
 Demo Operation:
 기존 crop을 유지한 두 목표의 교육용 요청 비교다. S21–S24 실제 요청·행동·수정·검증 기록과 구분한다. 새 Trial·Demo 시간·benchmark 결과를 추가하지 않는다. 정적 Lecture/Reflection이며 별도 Demo 배정·Live 실행을 추가하지 않는다.
 
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+
 Audience Interaction:
 마지막1분은 자신이 맡길 작업과 완료를 판단할 근거 하나를 조용히 떠올린다. 작성·공유·실습을 요구하지 않는다.
 
@@ -918,6 +930,8 @@ C++ Vision Bridge:
 
 Demo Operation:
 N/A — 정적 교육용 Prompt 예시. 새 Trial·모델 실행·비교 실험·Live 시연은 하지 않는다.
+
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
 
 Audience Interaction:
 요청 예시의 두세 행을 읽고 자신의 업무에서 사용할 상황을 떠올리게 한다. 직접 실습·공개 답변은 요구하지 않는다.
@@ -993,6 +1007,8 @@ C++ Vision Bridge:
 Demo Operation:
 N/A — 정적 교육용 Prompt 예시. 새 Trial·모델 실행·비교 실험·Live 시연은 하지 않는다.
 
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+
 Audience Interaction:
 요청 예시의 두세 행을 읽고 자신의 업무에서 사용할 상황을 떠올리게 한다. 직접 실습·공개 답변은 요구하지 않는다.
 
@@ -1066,6 +1082,8 @@ C++ Vision Bridge:
 Demo Operation:
 N/A — 정적 교육용 Prompt 예시. 새 Trial·모델 실행·비교 실험·Live 시연은 하지 않는다.
 
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+
 Audience Interaction:
 요청 예시의 두세 행을 읽고 자신의 업무에서 사용할 상황을 떠올리게 한다. 직접 실습·공개 답변은 요구하지 않는다.
 
@@ -1137,6 +1155,8 @@ C++ Vision Bridge:
 
 Demo Operation:
 N/A — 정적 교육용 Prompt 예시. 새 Trial·모델 실행·비교 실험·Live 시연은 하지 않는다.
+
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
 
 Audience Interaction:
 요청 예시의 두세 행을 읽고 자신의 업무에서 사용할 상황을 떠올리게 한다. 직접 실습·공개 답변은 요구하지 않는다.
@@ -1211,6 +1231,8 @@ C++ Vision Bridge:
 Demo Operation:
 N/A — 정적 교육용 Prompt 예시. 새 Trial·모델 실행·비교 실험·Live 시연은 하지 않는다.
 
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+
 Audience Interaction:
 요청 예시의 두세 행을 읽고 자신의 업무에서 사용할 상황을 떠올리게 한다. 직접 실습·공개 답변은 요구하지 않는다.
 
@@ -1283,6 +1305,8 @@ C++ Vision Bridge:
 
 Demo Operation:
 N/A — 정적 교육용 Prompt 예시. 새 Trial·모델 실행·비교 실험·Live 시연은 하지 않는다.
+
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
 
 Audience Interaction:
 요청 예시의 두세 행을 읽고 자신의 업무에서 사용할 상황을 떠올리게 한다. 직접 실습·공개 답변은 요구하지 않는다.
@@ -1357,6 +1381,8 @@ C++ Vision Bridge:
 Demo Operation:
 N/A — 정적 교육용 Prompt 예시. 새 Trial·모델 실행·비교 실험·Live 시연은 하지 않는다.
 
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+
 Audience Interaction:
 요청 예시의 두세 행을 읽고 자신의 업무에서 사용할 상황을 떠올리게 한다. 직접 실습·공개 답변은 요구하지 않는다.
 
@@ -1430,6 +1456,8 @@ C++ Vision Bridge:
 Demo Operation:
 N/A — 정적 교육용 Prompt 예시. 새 Trial·모델 실행·비교 실험·Live 시연은 하지 않는다.
 
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+
 Audience Interaction:
 요청 예시의 두세 행을 읽고 자신의 업무에서 사용할 상황을 떠올리게 한다. 직접 실습·공개 답변은 요구하지 않는다.
 
@@ -1499,6 +1527,8 @@ N/A.
 
 Demo Operation:
 N/A — 정적 교육용 요청과 Reflection/Q&A다. 새 Trial·모델 호출·Demo 시간·테스트 실행·결과 화면을 추가하지 않는다.
+
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
 
 Audience Interaction:
 Reflection1분(안내15초+개인적 생각45초) 후 자발적 Q&A2분이다. 문장 선택·답안 작성·공유·개인 업무 공개를 요구하지 않는다. 답이 없어도 정시에 진행한다.
@@ -1570,6 +1600,8 @@ N/A.
 
 Demo Operation:
 N/A — S36의 동일한 교육용 요청을 범위별로 설명하는 정적 장이다. 새로운 Prompt 입력·Trial·C++/Python 실행·현재 제품 수집 동작·성과를 보여주지 않는다.
+
+DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
 
 Audience Interaction:
 Reflection1분 뒤 Transition3분과 자발적 Q&A2분이다. 공통 기준의 변경·제공을 생각하게 하되 정답 분류·실습·업무 공개를 요구하지 않는다. 질문이 없으면 하단 질문을 회수하고 정시에 다음 ACT로 이동한다.

@@ -157,7 +157,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 0 / 0B — familiar small-code question with a short company IDE tip; no new maturity stage, Demo or Trial.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL
 - **Claim Status:** RESEARCH / TEACHING_MODEL / REQUIRES PRODUCT CHECK — 공식 안내를 각색한 UI 도식과 요청 예시다. 실제 회사 화면·Copilot 응답·선택/첨부/실행 기록이 아니다. 특정 계정의 기능·조직 정책·자동 Context 포함이나 정확성/시간 절감은 검증하지 않았다.
-- **Visual Concept:** VS Code 편집기와 Copilot Chat을 나란히 배치한 native UI 도식. S03의 std::vector<int> a(3, 1); / b{3, 1}; 두 줄을 선택하고 Context 첨부 확인 후 Ask로 설명을 요청한다. 실제 응답·실행 결과는 넣지 않는다. 하단은 코드 선택→Context 첨부·확인→질문하고 답 확인이다.
+- **Visual Concept:** VS Code 편집기와 Copilot Chat을 나란히 배치한 native UI 도식. S03의 std::vector<int> a(3, 1); / b{3, 1}; 두 줄을 선택하고 Context 첨부 확인 후 Ask로 설명을 요청한다. 실제 응답·실행 결과는 넣지 않는다. 하단은 코드 선택→Context 첨부·확인→질문하고 답 확인이다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** N/A — Lecture2분의 정적 활용 안내. 실제 회사 화면·실행·제품 비교 결과가 아니다.
 - **Beginner Payoff:** 회사에서 사용하는 VS Code에서 관련 코드를 골라 Copilot Chat에 설명을 요청할 수 있다.
 - **Advanced Payoff:** IDE 통합과 실제 전달 Context를 구분하고 필요한 코드 첨부 및 응답 확인 책임을 유지한다.
@@ -166,7 +166,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “선택한 코드만으로 설명하기 어려운 문제라면, 어떤 자료가 더 필요할까요?” S05의 기존 Context 수집 문제로 이어간다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0101; GitHub/VS Code official guidance checked2026-10-26; no new execution claim
+- **Evidence / Decision References:** DEC-0101; GitHub/VS Code official guidance checked2026-10-26; no new execution claim; DEC-0179
 - **Practical Tip Classification:** 사용 환경
 - **Audience Footer:** 사용 예시
 
@@ -208,7 +208,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; 현재 Codex Desktop·계정 동작은 **REQUIRES PRODUCT CHECK**. TRIAL-001은 Codex CLI 관찰만 뒷받침한다. 실제 요청 원문을 재구성한 입력창과 우측의 교육용 GoogleTest 가상 UI를 구분한다. 가상 UI의 5개 통과·1개 실패는 실제 Trial 결과가 아니다.
-- **Visual Concept:** 좌측은 TRIAL-001 요청 원문을 일반 프롬프트 입력창 형태로 재구성한다. 우측은 `Read / Resize / Crop / Normalize / Statistics / Write` 중 Crop 하나가 실패하는 교육용 GoogleTest 가상 UI이며 `실제 TRIAL-001 아님`을 명시한다. 좌우를 실행 결과 화살표로 잇지 않는다. 아래에는 실패 테스트·관련 구현·호출 경로라는 세 관찰 항목을 유지하고, 실제 발견 파일과 원인은 S07–S08에서 공개한다. DEC-0034.
+- **Visual Concept:** 좌측은 TRIAL-001 요청 원문을 일반 프롬프트 입력창 형태로 재구성한다. 우측은 `Read / Resize / Crop / Normalize / Statistics / Write` 중 Crop 하나가 실패하는 교육용 GoogleTest 가상 UI이며 `실제 TRIAL-001 아님`을 명시한다. 좌우를 실행 결과 화살표로 잇지 않는다. 아래에는 실패 테스트·관련 구현·호출 경로라는 세 관찰 항목을 유지하고, 실제 발견 파일과 원인은 S07–S08에서 공개한다. DEC-0034. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** DEMO-01 setup. STATE-00 / TRIAL-001; 읽기 전용 질문
 - **Beginner Payoff:** 무엇을 보고 판단하면 되는지 미리 안다.
 - **Advanced Payoff:** 답의 품질만 보지 않고 Context를 찾는 과정도 관찰한다.
@@ -217,7 +217,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 실행 또는 준비된 캡처에서 발견된 파일과 경로를 보여준다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, STATE-00, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005
+- **Evidence / Decision References:** BEAT-003, DEMO-01, STATE-00, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005; DEC-0179
 - **Audience Footer:** Codex CLI 조사 기록 · 읽기 전용 / 우측은 GoogleTest 예시 · 실제 Trial은 Python
 
 #### S07 — Crop은 기대한 폭보다 한 열을 더 포함했다
@@ -333,7 +333,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 실제 Chatbot 비교 실행·성능·불가능성 주장이 아니다. 환경 로그·권한 정보까지 전달하면 원인 분석 단서도 전달된다.
-- **Visual Concept:** 오른쪽 대화창을 ChatGPT 웹 UI 재구성으로 바꾼다. 사람이 골라 둔 코드·테스트·명세와 로그·권한 정보를 첨부하고 crop 오류 설명을 요청하는 모습만 보여 준다. 응답이나 실제 비교 결과를 추가하지 않는다. 왼쪽 다섯 자료·가운데 사람·연결선·우측 상단의 기존 삽화는 유지한다. DEC-0107.
+- **Visual Concept:** 오른쪽 대화창을 ChatGPT 웹 UI 재구성으로 바꾼다. 사람이 골라 둔 코드·테스트·명세와 로그·권한 정보를 첨부하고 crop 오류 설명을 요청하는 모습만 보여 준다. 응답이나 실제 비교 결과를 추가하지 않는다. 왼쪽 다섯 자료·가운데 사람·연결선·우측 상단의 기존 삽화는 유지한다. DEC-0107. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** DEMO-01의 별도 Case/교육용 해석·callback이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 답변 전에도 사람이 관련 자료를 찾아 연결하는 일이 있음을 본다.
 - **Advanced Payoff:** 정보가 전달되지 않은 상태와 도구의 문제 해결 능력을 구분한다.
@@ -342,7 +342,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “방금 본 Agent 조사에서는, 이 자료를 찾고 연결하는 일을 일부 맡겼습니다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086, DEC-0107
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086, DEC-0107; DEC-0179
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S12 — Agent가 자료를 직접 찾아 연결했다
@@ -358,7 +358,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE — 실제 관찰은 과거 Codex CLI0.154.0 한 번; TEACHING MODEL — 그림은 조사 관계의 각색. 현재 Desktop·일반 효율·반복성·권한 확대/해결을 주장하지 않는다.
-- **Visual Concept:** 오른쪽 결과 영역을 프로젝트가 열린 Codex UI 재구성으로 바꾼다. 테스트·관련 코드, Crop 명세와 구현 차이, 실행 중 권한 제한이라는 기존 CLI 조사 요약을 담는다. “화면 재구성 · 근거는 CLI 조사 기록”을 바로 아래 표시한다. 실제 Desktop 실행·새 로그·권한 해결을 뜻하지 않는다. 왼쪽 자료·가운데 Agent·연결선·우측 상단 삽화는 유지한다. DEC-0107.
+- **Visual Concept:** 오른쪽 결과 영역을 프로젝트가 열린 Codex UI 재구성으로 바꾼다. 테스트·관련 코드, Crop 명세와 구현 차이, 실행 중 권한 제한이라는 기존 CLI 조사 요약을 담는다. “화면 재구성 · 근거는 CLI 조사 기록”을 바로 아래 표시한다. 실제 Desktop 실행·새 로그·권한 해결을 뜻하지 않는다. 왼쪽 자료·가운데 Agent·연결선·우측 상단 삽화는 유지한다. DEC-0107. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** DEMO-01의 별도 Case/교육용 해석·callback이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 관련 파일을 모두 직접 복사하기 전에 허용된 개발 프로젝트 조사를 요청할 수 있음을 본다.
 - **Advanced Payoff:** Context 수집 역할의 일부와 목표 설정·권한·수용 판단 책임을 분리한다.
@@ -367,7 +367,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “그렇다면 이 교육에서는 어디에서 개발 프로젝트를 열까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086, DEC-0107
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086, DEC-0107; DEC-0179
 - **Audience Footer:** Codex CLI 조사 기록
 
 #### S13 — 개발 프로젝트 조사는 Codex에서 시작한다
@@ -462,7 +462,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL / CONCEPTUAL. Agent의 실제 실패·정지·반복 실행·토큰/시간 실측·기하급수 법칙을 주장하지 않는다.
-- **Visual Concept:** “crop test 고쳐줘” 입력창, 기존 동일 Agent 삽화, 지킬 기준/수정 범위/완료 근거의 세 질문을 함께 둔다. 토큰·작업 시간 PNG는 기존의 수치 없는 정성 개념도로 유지한다. 명세·기대값 유지 여부, 수정 허용 범위, 확인·보고 근거를 묻고 다음 장에서 같은 요청의 변경 범위를 비교한다. 실제 정지·비용 증가·절감 측정이 아니다. DEC-0110.
+- **Visual Concept:** “crop test 고쳐줘” 입력창, 기존 동일 Agent 삽화, 지킬 기준/수정 범위/완료 근거의 세 질문을 함께 둔다. 토큰·작업 시간 PNG는 기존의 수치 없는 정성 개념도로 유지한다. 명세·기대값 유지 여부, 수정 허용 범위, 확인·보고 근거를 묻고 다음 장에서 같은 요청의 변경 범위를 비교한다. 실제 정지·비용 증가·절감 측정이 아니다. DEC-0110. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** ACT0에서 조사한 crop 실패를 떠올리는 교육용 수정 요청. S17과 같은 요청이며 별도의 filter 성능 사례로 전환하지 않는다. 실제 TRIAL-002 Prompt가 아니다.
 - **Beginner Payoff:** 같은 사례에서 요청에 더할 보존·수정·확인 조건을 찾는다.
 - **Advanced Payoff:** 코드 접근, Task 목표, 제약, 완료 증거를 구분한다.
@@ -471,7 +471,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “같은 crop 요청에서, 어떤 변경을 허용한 것인지 비교해 보겠습니다.”라고 S17로 이동한다.
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Case 7분 = 7분
-- **Evidence / Decision References:** BEAT-004, TRIAL-001 callback only, CLM-0002, DEC-0038, DEC-0040, DEC-0042, DEC-0110
+- **Evidence / Decision References:** BEAT-004, TRIAL-001 callback only, CLM-0002, DEC-0038, DEC-0040, DEC-0042, DEC-0110; DEC-0179
 - **Audience Footer:** 개념도 · 실측 아님
 
 #### S17 — 어디까지 바꾸라는 요청일까?
@@ -487,7 +487,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL / CONCEPTUAL. 평행 시간선은 가능한 해석의 교육용 도식이며 실제 반복 실행 결과가 아니다.
-- **Visual Concept:** S16과 같은 “crop test 고쳐줘” 입력창과 동일 Agent를 유지한다. 세 경로는 테스트 기대값 변경(명세 변경의 정당성·승인 필요), 구현을 명세에 맞춤(기존 명세·기대값 유지), 변경 범위를 먼저 확인(의도·명세·조건 충돌 시 질문)이다. 아래 다섯 항목은 요청에서 더 분명히 할 정보로 표시한다. 실제 반복 실행·동시 Subagent·선택 확률을 나타내지 않는다. DEC-0110.
+- **Visual Concept:** S16과 같은 “crop test 고쳐줘” 입력창과 동일 Agent를 유지한다. 세 경로는 테스트 기대값 변경(명세 변경의 정당성·승인 필요), 구현을 명세에 맞춤(기존 명세·기대값 유지), 변경 범위를 먼저 확인(의도·명세·조건 충돌 시 질문)이다. 아래 다섯 항목은 요청에서 더 분명히 할 정보로 표시한다. 실제 반복 실행·동시 Subagent·선택 확률을 나타내지 않는다. DEC-0110. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** S16과 같은 교육용 crop 요청이다. 실제 TRIAL-002 Prompt 또는 여러 번 실행한 결과가 아니다.
 - **Beginner Payoff:** 아무 테스트나 바꿔 통과시키는 것과 명세에 맞춰 구현을 고치는 것의 조건을 구분한다.
 - **Advanced Payoff:** 저장소에서 추론할 수 있는 명세와 사람이 승인할 변경 범위를 나누어 판단한다.
@@ -496,7 +496,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “이 사례에서는 기존 명세·기대값을 지키고 구현만 고치려 합니다. 그 범위와 확인·보고 조건을 요청에 담아 보겠습니다.”라고 S18로 이동한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
-- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038, DEC-0042, DEC-0110
+- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038, DEC-0042, DEC-0110; DEC-0179
 - **Audience Footer:** 가능한 해석의 예시
 
 #### S18 — 원하는 변경 범위를 요청에 담는다
@@ -512,7 +512,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — underspecified request → explicit intended path; next generalization and Task Specification.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 사용자 승인 교육용 예시. 목표 경로의 시각적 선택은 실제 실행 결과·성공·결정성 보장이 아니다.
-- **Visual Concept:** 입력창에는 “crop test 고쳐줘”와 보존·최소 수정·테스트 확인·결과 보고의 네 문장을 둔다. crop(1,3)의 기대 열1·2/폭2는 입력창 위 작은 참고로 분리한다. 동일 세 경로 중 구현 최소 수정을 사람이 의도한 변경 범위로 강조한다. 다섯 항목의 분류표는 S20/S21의 역할로 남긴다. 실제 실행 또는 PASS 표시가 아니다. DEC-0110.
+- **Visual Concept:** 입력창에는 “crop test 고쳐줘”와 보존·최소 수정·테스트 확인·결과 보고의 네 문장을 둔다. crop(1,3)의 기대 열1·2/폭2는 입력창 위 작은 참고로 분리한다. 동일 세 경로 중 구현 최소 수정을 사람이 의도한 변경 범위로 강조한다. 다섯 항목의 분류표는 S20/S21의 역할로 남긴다. 실제 실행 또는 PASS 표시가 아니다. DEC-0110. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** S16/S17과 같은 교육용 crop 요청을 구체화한다. 끝 좌표 제외 명세는 기존 근거와 일치하지만 실제 TRIAL-002 원문 또는 재실행 결과로 표현하지 않는다.
 - **Beginner Payoff:** 실제로 보낼 수 있는 짧은 요청 문장에서 지킬 조건·수정 범위·확인·보고 내용을 읽는다.
 - **Advanced Payoff:** 의도된 경로의 명시와 실행의 결정성·검증된 결과를 분리한다.
@@ -521,7 +521,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “이제 답을 다시 읽기보다, 다른 요청에서도 개발자가 먼저 결정할 질문을 정리해 보겠습니다.”라고 S19로 연결한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
-- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038; crop 명세는 기존 TRIAL-002와 일치하는 교육용 예시, DEC-0042, DEC-0110
+- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038; crop 명세는 기존 TRIAL-002와 일치하는 교육용 예시, DEC-0042, DEC-0110; DEC-0179
 - **Audience Footer:** 요청 예시 · 의도한 경로
 
 #### S19 — 개발자가 정해야 하는 경계
@@ -587,7 +587,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — Practical Prompt Checklist and Before/After.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE — 실제 입력은 TRIAL-002 보존 기록에 한정한다. 다섯 역할 주석과 명세 해석 예는 TEACHING_MODEL이다. 비교 실행·Prompt 우월성·비용 절감·반복성·현재 제품 검증의 근거가 아니다.
-- **Visual Concept:** 왼쪽 하나의 요청 영역에 실제 Goal/Constraints/Process/Verification 네 제목과 핵심 발췌·번역을 둔다. 오른쪽 다섯 역할 주석을 얇은 선으로 연결한다. Context 주석은 Process의 “관련 구현과 호출 경로”를 짚으며 별도 원문 문단으로 넣지 않는다. 과정 01–03은 S22와 같은 문장이다. 기존 4열 crop 명세 예는 요청 영역 밖 “명세 해석 예”로 구분한다. C++ 적용은 Notes cue로 보존한다. DEC-0111.
+- **Visual Concept:** 왼쪽 하나의 요청 영역에 실제 Goal/Constraints/Process/Verification 네 제목과 핵심 발췌·번역을 둔다. 오른쪽 다섯 역할 주석을 얇은 선으로 연결한다. Context 주석은 Process의 “관련 구현과 호출 경로”를 짚으며 별도 원문 문단으로 넣지 않는다. 과정 01–03은 S22와 같은 문장이다. 기존 4열 crop 명세 예는 요청 영역 밖 “명세 해석 예”로 구분한다. C++ 적용은 Notes cue로 보존한다. DEC-0111. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 실제 TRIAL-002 요청을 읽는 장이며 S22는 같은 요청의 과정 지시, S23은 실제 변경, S24는 검증 결과를 대조한다. S16–S18의 교육용 짧은 요청을 그대로 실행한 결과로 표현하지 않는다.
 - **Beginner Payoff:** 다섯 역할이 반드시 다섯 제목으로 나뉘지 않아도 요청 문장에서 찾을 수 있음을 본다.
 - **Advanced Payoff:** 실제 입력, 해석 주석, 명세 예와 관찰 결과를 구분한다. 하나의 문장은 조사 대상과 진행 방식의 역할을 함께 가질 수 있다.
@@ -596,7 +596,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “이 요청의 과정 지시 01–03이 실제 기록에는 어떻게 남았을까요?”라고 같은 요청과 관찰 기록을 대조하는 S22로 이동한다.
 - **Estimated Time:** 9분
 - **Delivery Mode Allocation:** Lecture 6분 + Case 3분 = 9분
-- **Evidence / Decision References:** BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007, DEC-0042, DEC-0111
+- **Evidence / Decision References:** BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007, DEC-0042, DEC-0111; DEC-0179
 - **Audience Footer:** 실제 요청 발췌·번역 · 다섯 항목은 교육용 주석
 
 #### S22 — 요청한 과정은 기록에도 남았을까?
@@ -612,7 +612,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — Investigation-first workflow and Prompt's value.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; OBSERVED PRODUCT — Codex CLI의 단일 TRIAL-002 실행에 한정한다.
-- **Visual Concept:** S21과 같은 실제 요청의 Process 01–03 발췌·번역을 좌측에 유지하고, 우측 관찰 기록 요약과 같은 번호·행으로 대응시킨다. 좌측 소제목은 “앞 장의 같은 요청 · 과정 지시 01–03”이다. 우측 테스트명·호출 기호는 실제 대상 코드 식별자이며 원시 CLI 로그 인용이 아니다. 04 수정 내용은 S23, 05 검증 결과는 S24로 이어간다. 기존 관찰과 배치는 유지한다.
+- **Visual Concept:** S21과 같은 실제 요청의 Process 01–03 발췌·번역을 좌측에 유지하고, 우측 관찰 기록 요약과 같은 번호·행으로 대응시킨다. 좌측 소제목은 “앞 장의 같은 요청 · 과정 지시 01–03”이다. 우측 테스트명·호출 기호는 실제 대상 코드 식별자이며 원시 CLI 로그 인용이 아니다. 04 수정 내용은 S23, 05 검증 결과는 S24로 이어간다. 기존 관찰과 배치는 유지한다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** DEMO-05의 도입에서 S21에 제시한 실제 TRIAL-002 요청 중 Process를 관찰 요약과 대조한다. S23은 실제 변경, S24는 실제 검증 결과다.
 - **Beginner Payoff:** 요청에 적은 작업 방식을 실제 외부 행동 기록에서 확인할 수 있음을 본다.
 - **Advanced Payoff:** 요청·관찰 요약·대상 코드 식별자와 명령 원문·실행 출력의 근거 수준을 구분한다.
@@ -621,7 +621,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “요청한 과정이 기록에 남은 것을 확인했습니다. 이 조사와 계획 뒤 실제로 무엇을 바꿨는지 04 최소 수정 내용을 보겠습니다.”라고 S23로 이동한다. 05 확인·보고 결과는 S24에서 확인한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-006, TRIAL-002, TRIAL-001, STATE-00, INV-MATURITY-011, DEC-0039, DEC-0042, DEC-0044, DEC-0111
+- **Evidence / Decision References:** BEAT-006, TRIAL-002, TRIAL-001, STATE-00, INV-MATURITY-011, DEC-0039, DEC-0042, DEC-0044, DEC-0111; DEC-0179
 - **Audience Footer:** 같은 요청의 과정 지시와 관찰 기록 · 단일 CLI 실행
 
 #### S23 — 조사에서 한 줄 변경까지
@@ -737,7 +737,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — 완료를 판단할 확인을 선택하고 목표에 맞는 검증 요청으로 작성한다. 요청 문장 도구와 반복 Project Context로 이어간다.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 두 요청은 검증 부분의 교육용 작성 예시다. 실제 TRIAL-002 요청의 인용·새 실행·측정 결과·Prompt 우월성·성능 개선 성과가 아니다. 당시 crop Trial의 성능은 미측정이다.
-- **Visual Concept:** T04-A의 같은 크기 두 영역에 경계 오류 수정/실행시간 단축 목표와 검증 요청을 나란히 둔다. 검증 부분만 보여주고 달라지는 지시를 강조한다. vector·assertion·실제 결과 화면을 다시 넣지 않는다.
+- **Visual Concept:** T04-A의 같은 크기 두 영역에 경계 오류 수정/실행시간 단축 목표와 검증 요청을 나란히 둔다. 검증 부분만 보여주고 달라지는 지시를 강조한다. vector·assertion·실제 결과 화면을 다시 넣지 않는다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 기존 crop을 유지한 두 목표의 교육용 요청 비교다. S21–S24 실제 요청·행동·수정·검증 기록과 구분한다. 새 Trial·Demo 시간·benchmark 결과를 추가하지 않는다.
 - **Beginner Payoff:** 원하는 변화에 맞춰 무엇을 확인하고 보고할지 요청 문장으로 쓸 수 있다.
 - **Advanced Payoff:** 동작 검증과 성능 검증의 근거 범위를 구분한다. 이미 저장소에 있는 명세를 참조하며 모든 기대값을 매번 복사하도록 요구하지 않는다.
@@ -746,7 +746,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “요청에 담을 확인 기준을 정했습니다. 이제 이를 명확하게 전달하는 문장 도구를 보겠습니다.”라고 S28의 실무 적용 팁으로 연결한다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 2분 + Reflection 1분 = 3분
-- **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0041, DEC-0042, DEC-0112, DEC-0114
+- **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0041, DEC-0042, DEC-0112, DEC-0114; DEC-0179
 - **Audience Footer:** 교육용 요청 비교 · 실제 TRIAL-002 원문이나 새 실행 결과가 아님
 
 #### S28 — 지시와 참고 자료의 구분
@@ -762,7 +762,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0032; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Delimiters와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 요청/명세/로그 구획의 강조색을 보고, 오른쪽의 지시/비교 기준/관찰 자료 역할과 연결한다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Delimiters와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 요청/명세/로그 구획의 강조색을 보고, 오른쪽의 지시/비교 기준/관찰 자료 역할과 연결한다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 구획은 해석을 돕는 표시이며, 보안 격리를 보장하지 않는다.
@@ -771,7 +771,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 자료의 구획 다음에는, 모델이 모르는 팀 고유 표기를 예시로 알려주는 S29로 이동한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0032, SRC-0230, SRC-0231, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
+- **Evidence / Decision References:** CLM-0032, SRC-0230, SRC-0231, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md; DEC-0179
 - **Practical Tip Classification:** 요청 작성
 - **Audience Footer:** 출처 · OpenAI, Prompt engineering · Message formatting with Markdown and XML / 구획은 해석을 돕는 표시이며, 보안 격리를 보장하지 않는다.
 - **Prompt Tool Priority:** 조건부 — 명시한 상황이 있을 때만 추가한다.
@@ -791,7 +791,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0033; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Few-shot Prompting와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 세 입력 상태에서 팀 표기로 이어지는 예시 대응을 가리킨다. 오른쪽에서 간단히 요청→팀 기준 전달 여부→필요할 때만 예시 추가를 확인한다. 화살표는 예시의 입력/출력 대응이며 실제 실행 기록이 아니다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Few-shot Prompting와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 세 입력 상태에서 팀 표기로 이어지는 예시 대응을 가리킨다. 오른쪽에서 간단히 요청→팀 기준 전달 여부→필요할 때만 예시 추가를 확인한다. 화살표는 예시의 입력/출력 대응이며 실제 실행 기록이 아니다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 가상 팀 변경 보고 표기를 전달하는 교육용 예시다. 실제 사내 규정·정책·실행 결과 또는 TRIAL-002 원문이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 가상 팀의 보고 기준 · 실제 사내 규정이나 실행 결과가 아님
@@ -800,7 +800,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 예시가 필요한 상황을 확인했다. 다음 S30에서는 보고 전체의 항목과 읽을 순서를 정한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Case 1분 = 1분
-- **Evidence / Decision References:** CLM-0033, SRC-0230, SRC-0231, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
+- **Evidence / Decision References:** CLM-0033, SRC-0230, SRC-0231, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md; DEC-0179
 - **Practical Tip Classification:** 요청 작성
 - **Audience Footer:** 출처 · OpenAI, Reasoning best practices · How to prompt reasoning models effectively / 가상 팀의 보고 기준 · 실제 사내 규정이나 실행 결과가 아님
 - **Prompt Tool Priority:** 조건부 — 명시한 상황이 있을 때만 추가한다.
@@ -820,7 +820,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0034; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Output Format Specification와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 강조한 네 보고 항목을 오른쪽 보고서 구조의01–04와 대응시킨다. 보고 항목을 정하는 것이며 실행한 결과를 새로 보여주지 않는다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Output Format Specification와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 강조한 네 보고 항목을 오른쪽 보고서 구조의01–04와 대응시킨다. 보고 항목을 정하는 것이며 실행한 결과를 새로 보여주지 않는다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 형식과 내용은 별도 확인 · 채팅의 형식 요청은 API Structured Outputs와 다름
@@ -829,7 +829,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 보고 항목이 있어도 설명의 근거는 따로 확인한다. S31에서 중요한 판단을 자료와 연결한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0034, SRC-0233, SRC-0234, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
+- **Evidence / Decision References:** CLM-0034, SRC-0233, SRC-0234, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md; DEC-0179
 - **Practical Tip Classification:** 요청 작성
 - **Audience Footer:** 출처 · OpenAI, Prompting · Make the result ready to use / 형식과 내용은 별도 확인 · 채팅의 형식 요청은 API Structured Outputs와 다름
 - **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
@@ -849,7 +849,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0035; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Grounding와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 강조한 파일·함수 근거와 확인/추정/미확인 구분을 읽고, 오른쪽의 명세·구현·테스트가 결론을 뒷받침하는 관계를 확인한다. 도식은 특정 자료에서 새 결론을 실제 도출했다는 기록이 아니다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Grounding와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 강조한 파일·함수 근거와 확인/추정/미확인 구분을 읽고, 오른쪽의 명세·구현·테스트가 결론을 뒷받침하는 관계를 확인한다. 도식은 특정 자료에서 새 결론을 실제 도출했다는 기록이 아니다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 출처가 있어도 원문과 대조한다 · 인용 자체가 정확성의 보증은 아님
@@ -858,7 +858,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 자료를 찾아도 정책이 없다면 사람이 선택해야 한다. S32에서 질문할 결정의 범위를 본다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0035, SRC-0230, SRC-0234, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
+- **Evidence / Decision References:** CLM-0035, SRC-0230, SRC-0234, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md; DEC-0179
 - **Practical Tip Classification:** 요청 작성
 - **Audience Footer:** 출처 · OpenAI, Prompting · Add useful context / Set boundaries / 출처가 있어도 원문과 대조한다 · 인용 자체가 정확성의 보증은 아님
 - **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
@@ -878,7 +878,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0036; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Clarifying Questions와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 정책이 없을 때의 질문과 독립 조사 계속 문장을 짚고, 오른쪽에서 조사 후 남은 결정의 유무에 따라 진행/질문이 갈리는 구조를 본다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Clarifying Questions와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 정책이 없을 때의 질문과 독립 조사 계속 문장을 짚고, 오른쪽에서 조사 후 남은 결정의 유무에 따라 진행/질문이 갈리는 구조를 본다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 모든 세부를 질문하지 않는다 · 결정과 무관한 허용된 작업은 계속 진행
@@ -887,7 +887,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 사람의 결정이 필요한 변경은 구현 전에 검토할 계획을 받을 수 있다. S33에서 그 사용 조건을 본다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0036, SRC-0234, SRC-0235, SRC-0243, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
+- **Evidence / Decision References:** CLM-0036, SRC-0234, SRC-0235, SRC-0243, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md; DEC-0179
 - **Practical Tip Classification:** 요청 작성
 - **Audience Footer:** 출처 · OpenAI, Using GPT-6 · Initiative and follow-through / 모든 세부를 질문하지 않는다 · 결정과 무관한 허용된 작업은 계속 진행
 - **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
@@ -907,7 +907,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0037; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Task Decomposition와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 조사·선택 지점·수정 없는 계획 문장을 짚는다. 오른쪽01 조사 산출물/02 구현 전 계획/03 범위 선택은 사람이 검토할 결과의 경계다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Task Decomposition와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 조사·선택 지점·수정 없는 계획 문장을 짚는다. 오른쪽01 조사 산출물/02 구현 전 계획/03 범위 선택은 사람이 검토할 결과의 경계다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 작업 계획과 검토 지점을 요청한다 · 내부 사고 과정의 출력을 요구하지 않음
@@ -916,7 +916,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 계획 뒤의 변경안에서 무엇을 중점 검토할지 S34로 연결한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0037, SRC-0231, SRC-0232, SRC-0243, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
+- **Evidence / Decision References:** CLM-0037, SRC-0231, SRC-0232, SRC-0243, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md; DEC-0179
 - **Practical Tip Classification:** 요청 작성
 - **Audience Footer:** 출처 · OpenAI, Best practices · Plan first for difficult tasks / 작업 계획과 검토 지점을 요청한다 · 내부 사고 과정의 출력을 요구하지 않음
 - **Prompt Tool Priority:** 조건부 — 명시한 상황이 있을 때만 추가한다.
@@ -936,7 +936,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0038; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Criteria-based Review와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 명세·공개 API·변경 범위를 강조한 문장을 오른쪽 세 질문과 연결한다. 발견 사항은 위치·실패 조건·영향으로 보고하며 실제 검사와 정적 검토를 구분한다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Criteria-based Review와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 명세·공개 API·변경 범위를 강조한 문장을 오른쪽 세 질문과 연결한다. 발견 사항은 위치·실패 조건·영향으로 보고하며 실제 검사와 정적 검토를 구분한다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 리뷰에도 누락이 있을 수 있다 · 실행 근거와 사람의 완료 판단을 함께 확인
@@ -945,7 +945,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 첫 제안이나 리뷰에서 요구와 다른 지점을 알았다면, S35에서 근거와 수정 범위를 전달한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0038, SRC-0232, SRC-0235, SRC-0243, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
+- **Evidence / Decision References:** CLM-0038, SRC-0232, SRC-0235, SRC-0243, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md; DEC-0179
 - **Practical Tip Classification:** 요청 작성
 - **Audience Footer:** 출처 · OpenAI, Best practices · Improve reliability with testing and review / 리뷰에도 누락이 있을 수 있다 · 실행 근거와 사람의 완료 판단을 함께 확인
 - **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
@@ -965,7 +965,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — practical request expression, before recurring Project Context.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0039; 공식 권고를2026-10-30 재확인했다. 교육용 각색이며 실제 Trial·효과 측정·모든 모델의 성공을 뜻하지 않는다.
-- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Iterative Refinement와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 명세의 폭2와 보존 조건의 강조를 오른쪽 어긋난 지점/판단 근거/유지 조건에 대응시킨다. 가상의 잘못된 제안을 근거로 고치는 요청이며 실제 응답 실패나 개선 성과가 아니다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다.
+- **Visual Concept:** DEC-0117: 기존 T03-A의 폰트·색·배지·M 연계를 유지하며 기법명 Iterative Refinement와 짧은 뜻, 사용 상황을 상단에 둔다. 좌측 native Prompt는 적용 문장을 강조하고 우측은 기법별 관계 도식으로 표시한다. 명세의 폭2와 보존 조건의 강조를 오른쪽 어긋난 지점/판단 근거/유지 조건에 대응시킨다. 가상의 잘못된 제안을 근거로 고치는 요청이며 실제 응답 실패나 개선 성과가 아니다. 하단에 출처 문서·해당 절과 기존 Claim Boundary를 표시한다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 기존 crop 명세/ROI 연결의 교육용 요청이다. 실제 TRIAL-002 원문·새 실행이 아니다.
 - **Beginner Payoff:** 슬라이드만 보고 필요한 상황과 요청 문장을 활용할 수 있다.
 - **Advanced Payoff:** 앞선 제안은 가상 예시 · 반복 요청만으로 품질 향상을 보장하지 않음
@@ -974,7 +974,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 요청을 구체화해도 다음 작업에 다시 적을 조건이 남습니다. S36에서 같은 crop 요청을 보며 찾아봅니다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** CLM-0039, SRC-0234, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md
+- **Evidence / Decision References:** CLM-0039, SRC-0234, DEC-0043, DEC-0087, DEC-0116, references/product/PROMPT_ENGINEERING_2026-10-30.md; DEC-0179
 - **Practical Tip Classification:** 요청 작성
 - **Audience Footer:** 출처 · OpenAI, Prompting · Improve the result with follow-up messages / 앞선 제안은 가상 예시 · 반복 요청만으로 품질 향상을 보장하지 않음
 - **Prompt Tool Priority:** 핵심 — 교육 우선순위이며 매 요청의 필수 항목은 아니다.
@@ -994,7 +994,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.; ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 교육용 요청·Reflection 질문이다. 실제 TRIAL-002 입력·수행·비교·제품 기능·성과·유일한 정답 분류의 근거가 아니다.
-- **Visual Concept:** 기존 T01-B의 큰 질문과 보조 단서3개를 하나의 prompt-shaped 요청 예시로 묶는다. 요청은 “crop 경계 오류를 고쳐줘. / 기존 공개 API는 유지해. / 프로젝트에 정해진 테스트 명령으로 확인해.”다. 세 문장은 같은 색이며 정답을 미리 강조하지 않는다. 빈 두 Bucket을 없애고 하단 질문 하나에 시선을 모은다. Native text/shape와 기존 M2 footer 유지.
+- **Visual Concept:** 기존 T01-B의 큰 질문과 보조 단서3개를 하나의 prompt-shaped 요청 예시로 묶는다. 요청은 “crop 경계 오류를 고쳐줘. / 기존 공개 API는 유지해. / 프로젝트에 정해진 테스트 명령으로 확인해.”다. 세 문장은 같은 색이며 정답을 미리 강조하지 않는다. 빈 두 Bucket을 없애고 하단 질문 하나에 시선을 모은다. Native text/shape와 기존 M2 footer 유지. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 같은 crop 사례의 교육용 짧은 요청이다. 실제 TRIAL-002 원문을 재생하거나 새 실험을 하지 않는다. Reflection1분 뒤 자발적 Q&A2분.
 - **Beginner Payoff:** 구체적인 요청 문장에서 다음에도 다시 말할 내용을 찾는다.
 - **Advanced Payoff:** 반복되는 문장을 저장 방법의 답보다 먼저 검토한다. 반복 자체가 전역 지침의 정당성은 아니다.
@@ -1003,7 +1003,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “같은 요청에서 이번 목표와 계속 참고할 기준을 나눠 보고, 그 기준을 어디에서 관리할지 생각해 보겠습니다.”라고 S37로 이동한다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Reflection 1분 + Q&A 2분 = 3분
-- **Evidence / Decision References:** BEAT-007, BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113, DEC-0115
+- **Evidence / Decision References:** BEAT-007, BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113, DEC-0115; DEC-0179
 - **Audience Footer:** 교육용 요청 예시 · 실제 TRIAL-002 입력이나 수행 결과가 아님
 
 #### S37 — 작업마다 바뀌는 목표, 계속 쓰는 기준
@@ -1019,7 +1019,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.; ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** TEACHING MODEL / CONCEPTUAL — 동일한 교육용 요청을 분리한 예시다. 실제 STATE-01 지침 원문·자동 적용·추가 실행·효과·유일한 분류 결과가 아니다. 계속 적용할지는 프로젝트의 합의와 조건을 확인한다.
-- **Visual Concept:** 왼쪽에 S36과 동일한3문장 요청을 유지한다. crop 목표 한 줄은 이번 작업의 목표로 연결하고, API·정해진 테스트 명령 두 줄은 하나의 강조 영역과 얇은 bracket으로 “계속 쓰는 기준”에 연결한다. 오른쪽 설명은 “이번 작업에만 적용”과 “프로젝트에서 합의해 여러 작업에 적용”이다. README·의존성·다른 Task 예시를 화면에 추가하지 않는다. 마지막 질문은 공통 기준을 프로젝트에서 관리하고 작업할 때 찾아 참고하게 할지다.
+- **Visual Concept:** 왼쪽에 S36과 동일한3문장 요청을 유지한다. crop 목표 한 줄은 이번 작업의 목표로 연결하고, API·정해진 테스트 명령 두 줄은 하나의 강조 영역과 얇은 bracket으로 “계속 쓰는 기준”에 연결한다. 오른쪽 설명은 “이번 작업에만 적용”과 “프로젝트에서 합의해 여러 작업에 적용”이다. README·의존성·다른 Task 예시를 화면에 추가하지 않는다. 마지막 질문은 공통 기준을 프로젝트에서 관리하고 작업할 때 찾아 참고하게 할지다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** S36의 같은 crop 교육용 요청을 분리한 예다. 실제 TRIAL/STATE 원문·관찰 차이가 아니다. AGENTS.md·제품 저장 기능을 답으로 보여주지 않는다.
 - **Beginner Payoff:** 무엇을 바꾸려는 목표와 계속 참고할 기준이 다른 역할임을 같은 문장에서 본다.
 - **Advanced Payoff:** 공통 기준으로 둘지 여부는 반복 횟수만으로 정하지 않고 합의·수명·적용 범위를 확인한다.
@@ -1028,7 +1028,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “이 기준을 프로젝트에서 관리하고 작업할 때 찾아 참고하게 할 수 없을까요? 다음에는 서로 다른 세 작업에서도 같은 기준을 쓰는지 보겠습니다.”라고 S38 제목→S39로 이동한다.
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Reflection 1분 + Transition 3분 + Q&A 2분 = 6분
-- **Evidence / Decision References:** BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113, DEC-0115
+- **Evidence / Decision References:** BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113, DEC-0115; DEC-0179
 - **Audience Footer:** 교육용 분리 예시 · 계속 적용할지는 프로젝트의 합의와 조건을 확인한다
 
 ### ACT 2 — 22 slides / 90 minutes
@@ -1072,7 +1072,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; CONCEPTUAL.
-- **Visual Concept:** Task A/B/C Prompt 아래 반복되는 `test command`, `no runtime dependency`, `local synthetic data`, `preserve public behavior`를 강조한다. 하단에는 “공통 기준이 바뀌면, 세 요청에 어떻게 반영할까?”를 둔다.
+- **Visual Concept:** Task A/B/C Prompt 아래 반복되는 `test command`, `no runtime dependency`, `local synthetic data`, `preserve public behavior`를 강조한다. 하단에는 “공통 기준이 바뀌면, 세 요청에 어떻게 반영할까?”를 둔다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** Bug Fix, Performance, README 작업을 나란히 놓은 구성 사례. 해결책은 아직 보여주지 않는다.
 - **Beginner Payoff:** Task마다 반복되는 Project 정보를 알아차린다.
 - **Advanced Payoff:** 작업별 지시와 지속되는 Project 제약을 분리해서 본다.
@@ -1081,7 +1081,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “반복되던 프로젝트 정보를 실제로 어디에 기록했는지 보겠습니다.”라고 S40로 이동한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 4분 + Case 1분 = 5분
-- **Evidence / Decision References:** BEAT-008, CLM-0003, CLM-0005, DEC-0115
+- **Evidence / Decision References:** BEAT-008, CLM-0003, CLM-0005, DEC-0115; DEC-0179
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S40 — 작은 Project Context의 첫 기록
@@ -1147,7 +1147,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 2 — Context Engineering Turning Point.; ACT 2 — `AGENTS.md`'s first success.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL.
-- **Visual Concept:** 왼쪽의 작업별 요청 예(crop 수정 또는 이번 README-only)를 테두리로 묶어 화살표로 프롬프트창 도식에 연결한다. 오른쪽의 테스트 명령·의존성 정책을 별도 테두리로 묶어 화살표로 AGENTS.md 문서 도식에 연결한다. 하단의 목표 변화/여러 작업 재참고 비교를 유지한다. 두 이미지는 교육용 생성 도식이며 실제 제품 화면이나 실행 캡처가 아니다.
+- **Visual Concept:** 왼쪽의 작업별 요청 예(crop 수정 또는 이번 README-only)를 테두리로 묶어 화살표로 프롬프트창 도식에 연결한다. 오른쪽의 테스트 명령·의존성 정책을 별도 테두리로 묶어 화살표로 AGENTS.md 문서 도식에 연결한다. 하단의 목표 변화/여러 작업 재참고 비교를 유지한다. 두 이미지는 교육용 생성 도식이며 실제 제품 화면이나 실행 캡처가 아니다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** S39의 반복 설명과 S40의 실제 기록·S41의 활용 관찰을 교육 모델로 정리한다.
 - **Beginner Payoff:** 현재 작업의 지시와 반복되는 Project 사실을 구별한다.
 - **Advanced Payoff:** Context를 선택할 때 Scope와 Lifetime도 함께 본다.
@@ -1156,7 +1156,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “정확한 정보를 더 많이 넣으면 언제나 괜찮을까?”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
-- **Evidence / Decision References:** BEAT-009, TRANS-003, CLM-0003, CLM-0005, OQ-003, OQ-005, BEAT-010, DEC-0047, DEC-0115
+- **Evidence / Decision References:** BEAT-009, TRANS-003, CLM-0003, CLM-0005, OQ-003, OQ-005, BEAT-010, DEC-0047, DEC-0115; DEC-0179
 - **Audience Footer:** C++에서도 프로젝트 공통 제약과 이번 변경 조건은 범위가 다를 수 있다
 
 #### S43 — 정확한 정보도 계속 늘어난다
@@ -1197,7 +1197,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 2 — Context growth, relevance, and research caveat.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; OBSERVED PRODUCT. Context 증가가 실패를 일으켰다는 주장을 하지 않는다.
-- **Visual Concept:** 왼쪽 실제 요청 프롬프트창은 유지한다. 오른쪽 제목은 ‘AGENTS.md에 적힌 내용’으로 명시한다. Build / Run의 README 빌드·실행 안내 참조와 Core Constraints의 변경 범위 제한·관련 동작 검증을 청록 실선으로 묶는다. Architecture/Image Contract/Test의 구조 설명/CLI Summary의 이미지 상세는 회색 점선으로 묶는다. README·pyproject.toml 자체나 고정 버전값을 AGENTS.md 내용으로 넣지 않는다. 색 외에도 문구와 선 형태로 구분하고, Agent가 AGENTS.md를 읽었으며 혼란·실패는 관찰되지 않았다는 경계를 유지한다.
+- **Visual Concept:** 왼쪽 실제 요청 프롬프트창은 유지한다. 오른쪽 제목은 ‘AGENTS.md에 적힌 내용’으로 명시한다. Build / Run의 README 빌드·실행 안내 참조와 Core Constraints의 변경 범위 제한·관련 동작 검증을 청록 실선으로 묶는다. Architecture/Image Contract/Test의 구조 설명/CLI Summary의 이미지 상세는 회색 점선으로 묶는다. README·pyproject.toml 자체나 고정 버전값을 AGENTS.md 내용으로 넣지 않는다. 색 외에도 문구와 선 형태로 구분하고, Agent가 AGENTS.md를 읽었으며 혼란·실패는 관찰되지 않았다는 경계를 유지한다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** README Build 안내에서 pinned build tools를 확인한 문서 Task. Agent 혼란 없음, Context 관련 실패 없음.
 - **Beginner Payoff:** 정확한 정보라도 현재 Task와 관련 있는지 따져본다.
 - **Advanced Payoff:** 무관한 Context의 존재와 실제로 관찰된 부정적 결과를 혼동하지 않는다.
@@ -1206,7 +1206,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “이번 기록에서는 혼란이 관찰되지 않았습니다. 그렇다면 정보가 입력에 있다는 것만으로 잘 활용됐다고 볼 수 있을까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 2분 (CAPTURED) + Reflection 2분 = 4분
-- **Evidence / Decision References:** BEAT-012, TRIAL-004, CLM-0014, CLM-0015, DEC-0049, DEC-0050
+- **Evidence / Decision References:** BEAT-012, TRIAL-004, CLM-0014, CLM-0015, DEC-0049, DEC-0050; DEC-0179
 - **Audience Footer:** 이 기록에서는 혼란·실패가 관찰되지 않음
 
 #### S45 — 많이 담아도 같은 근거를 똑같이 쓰는가?
@@ -1247,7 +1247,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 2 — bounded research caution → hypothetical omitted-condition warning → relevance classification.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 기존 crop 명세로 지침 누락을 가정한 오답과 올바른 기준을 구성한다. 실제 Agent 응답·새 Trial·테스트 결과·모델 내부 원인·현재 Codex 실패율이나 지침 누락→할루시네이션 인과를 입증한 결과가 아니다. 지침 위반과 할루시네이션을 동의어로 쓰지 않으며 기존 연구·성능·Routing·토큰 주장 범위를 확대하지 않는다.
-- **Visual Concept:** 왼쪽 명세/요청은 유지하고, 오른쪽에 “그럴듯한 오답 예시”와 “명세대로 해석했습니다”라는 단정을 둔다. 열2·3·4·5 중 제외해야 할5와 잘못된 폭4만 빨간색으로 강조하고 “놓친 조건: 끝 열 제외”를 표시한다. 아래에는 명세 기준 열2·3·4/폭3을 작게 대조한다. 하단은 그럴듯한 답도 지침·근거와 대조한다는 한 문장이다.
+- **Visual Concept:** 왼쪽 명세/요청은 유지하고, 오른쪽에 “그럴듯한 오답 예시”와 “명세대로 해석했습니다”라는 단정을 둔다. 열2·3·4·5 중 제외해야 할5와 잘못된 폭4만 빨간색으로 강조하고 “놓친 조건: 끝 열 제외”를 표시한다. 아래에는 명세 기준 열2·3·4/폭3을 작게 대조한다. 하단은 그럴듯한 답도 지침·근거와 대조한다는 한 문장이다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** STATE-03 docs/image-contracts.md의 시작 포함·끝 제외 명세를 사용한 교육용 오답이다. 너비6/crop 2 5의 정답 기준은 열2·3·4/폭3이고, 화면의 열2·3·4·5/폭4는 의도적으로 잘못 구성했다. 실제 TRIAL-005A/B나 현재 제품 관찰이 아니다. 이전 코드·Trial·RepoQA 참고는 Notes에 보존한다.
 - **Beginner Payoff:** 자연스러운 설명이나 명세 준수 단정 속에서도 빠진 조건을 직접 찾는다.
 - **Advanced Payoff:** 지침 미반영·그럴듯한 거짓 주장·자기 보고·출력의 명세 위반·내부 원인 진단을 구분한다.
@@ -1256,7 +1256,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “이런 근거를 작업에 맞게 관리하려면, 무엇이 공통이고 무엇이 작업마다 달라질까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-013, OQ-006, STATE-03 docs/image-contracts.md Crop, DEC-0052, DEC-0060, DEC-0061, DEC-0105, DEC-0123, DEC-0124; CLM-0014/SRC-0201 study scope retained; terminology reference: OpenAI Why language models hallucinate(2025-09-05), checked2026-11-02; prior code/Trial and RepoQA references remain in Notes; DEC-0125
+- **Evidence / Decision References:** BEAT-013, OQ-006, STATE-03 docs/image-contracts.md Crop, DEC-0052, DEC-0060, DEC-0061, DEC-0105, DEC-0123, DEC-0124; CLM-0014/SRC-0201 study scope retained; terminology reference: OpenAI Why language models hallucinate(2025-09-05), checked2026-11-02; prior code/Trial and RepoQA references remain in Notes; DEC-0125; DEC-0179
 - **Audience Footer:** 없음 — M 연계 유지; 교육용 오답 예시는 본문 라벨로 구분
 
 #### S47 — 작업이 달라도 필요한 정보는 같을까?
@@ -1348,7 +1348,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. Routing으로 성능 향상이나 Token 절약이 입증됐다고 주장하지 않는다.
-- **Visual Concept:** S49에서 확인한 분리 구조를 바탕으로 요청→AGENTS.md 위치 안내→docs/image-contracts.md의 단일 경로를 보여준다. 분리 후의 활용임을 제목에 명시한다. 설계한 경로이며 실제 읽기 순서가 아니라는 표기를 유지하고 S51의 실제 관찰 질문으로 끝낸다.
+- **Visual Concept:** S49에서 확인한 분리 구조를 바탕으로 요청→AGENTS.md 위치 안내→docs/image-contracts.md의 단일 경로를 보여준다. 분리 후의 활용임을 제목에 명시한다. 설계한 경로이며 실제 읽기 순서가 아니라는 표기를 유지하고 S51의 실제 관찰 질문으로 끝낸다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** S49에서 확인한 STATE-03 문서 구조를 바탕으로 관련 명세에 도달하는 경로를 설명한다. 실제 두 작업의 문서 접근 결과는 S51–S54에서 확인한다.
 - **Beginner Payoff:** Project 안내와 Task별 상세 정보가 다른 역할을 할 수 있음을 본다.
 - **Advanced Payoff:** 관련 문서로 연결하는 방식의 발견성·유지 비용을 다음 문제로 본다.
@@ -1357,7 +1357,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “이제 실제 두 작업에서는 어떤 문서를 읽고 답의 근거로 썼는지 관찰하겠습니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
-- **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0053, DEC-0060; DEC-0125
+- **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0053, DEC-0060; DEC-0125; DEC-0179
 - **Audience Footer:** 설계한 탐색 경로 · 실제 읽기 순서가 아님
 
 #### S51 — 서로 다른 두 Task가 무엇을 읽을까?
@@ -1373,7 +1373,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 2 — separation, routing, and progressive disclosure.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; OBSERVED PRODUCT. 결과와 예상 경로를 미리 단정하지 않는다.
-- **Visual Concept:** 동일한 프롬프트창2개에 TRIAL-005A/B의 실제 요청 핵심 발췌·번역을 나란히 둔다. A는 샘플 crop의 원본 열/출력 폭/끝 좌표와 현재 명세·구현 근거, B는 실행 의존성과 빌드/패키징 도구 구분을 묻는다. 파일 변경 금지·읽기 전용·근거 제시 조건은 각 입력창 안에 둔다. 아래는 실제 연 문서, 두 요청의 접근 공통/차이, 답을 뒷받침한 근거라는 관찰 질문3개만 표시한다. 특정 문서로 향하는 화살표·접근 목록·정답·성공 판정은 표시하지 않는다.
+- **Visual Concept:** 동일한 프롬프트창2개에 TRIAL-005A/B의 실제 요청 핵심 발췌·번역을 나란히 둔다. A는 샘플 crop의 원본 열/출력 폭/끝 좌표와 현재 명세·구현 근거, B는 실행 의존성과 빌드/패키징 도구 구분을 묻는다. 파일 변경 금지·읽기 전용·근거 제시 조건은 각 입력창 안에 둔다. 아래는 실제 연 문서, 두 요청의 접근 공통/차이, 답을 뒷받침한 근거라는 관찰 질문3개만 표시한다. 특정 문서로 향하는 화살표·접근 목록·정답·성공 판정은 표시하지 않는다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 두 read-only Trial prompt.
 - **Beginner Payoff:** Task 질문에 따라 필요한 근거가 달라질 수 있음을 생각한다.
 - **Advanced Payoff:** 문서 구조만이 아니라 실제 접근 경로를 평가한다.
@@ -1382,7 +1382,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “먼저 요청 A에서 실제로 읽은 문서와 답변 근거를 확인합니다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-015, BEAT-016, TRIAL-005A, TRIAL-005B, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0056, DEC-0060
+- **Evidence / Decision References:** BEAT-015, BEAT-016, TRIAL-005A, TRIAL-005B, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0056, DEC-0060; DEC-0179
 - **Audience Footer:** 실제 요청 발췌
 
 #### S52 — Crop Task에서 관찰한 접근
@@ -1423,7 +1423,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 2 — separation, routing, and progressive disclosure.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; OBSERVED PRODUCT. 기록된 CLI 실행과 최종 반복 결과에 한정한다.
-- **Visual Concept:** 왼쪽에 AGENTS.md/README/architecture 공통 안내와 pyproject.toml/setup.cfg/소스의 실제 확인을 묶는다. 오른쪽은 Python3.9+표준 라이브러리, third-party runtime 없음, setuptools/wheel 빌드 도구를 두 구역으로 구분한다. image-contracts/testing문서는 읽지 않았음을 비교의 연결로 남긴다.
+- **Visual Concept:** 왼쪽에 AGENTS.md/README/architecture 공통 안내와 pyproject.toml/setup.cfg/소스의 실제 확인을 묶는다. 오른쪽은 Python3.9+표준 라이브러리, third-party runtime 없음, setuptools/wheel 빌드 도구를 두 구역으로 구분한다. image-contracts/testing문서는 읽지 않았음을 비교의 연결로 남긴다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** TRIAL-005B 최종 읽기 전용 실행. third-party dependency 없음은 런타임 요구사항 자체가 없다는 뜻이 아니다. pip는 문서의 빌드 명령에 쓰였으며 runtime dependency로 바꾸지 않는다.
 - **Beginner Payoff:** 결과 주장을 repository 근거와 연결해 본다.
 - **Advanced Payoff:** 선택적 접근이 관찰됐어도 접근 범위가 완벽히 좁지는 않았음을 확인한다.
@@ -1432,7 +1432,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “이제 A와 B의 답이 아니라 실제 문서 접근 목록을 같은 기준으로 비교합니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
-- **Evidence / Decision References:** BEAT-016, TRIAL-005B, STATE-03, CLM-0003, CLM-0005, DEC-0060
+- **Evidence / Decision References:** BEAT-016, TRIAL-005B, STATE-03, CLM-0003, CLM-0005, DEC-0060; DEC-0179
 - **Audience Footer:** 설정·소스에서 확인한 결과
 
 #### S54 — 두 Task에서 상세 문서 접근이 달랐다
@@ -1550,7 +1550,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 2 / Context organization recap → practical scoped guidance → repeated workflow problem.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL / REQUIRES PRODUCT CHECK — 공식 안내 기반 프로젝트 적용 예. 실제 파일 생성·Codex 실행·새 Trial 관찰이 아니다. 지침 적용 범위와 시작 시 수집 경로를 구분하며, 파일 존재·Agent 자기보고만으로 읽기/준수 완료를 입증하지 않는다. 지침은 권한·CI 강제 수단이 아니다.
-- **Visual Concept:** 루트 시작의 개인 기본값→루트와 vision 폴더 시작의 개인 기본값→루트→vision을 나란히 비교. 하단에는 수정 전 적용할 AGENTS.md 경로/핵심 규칙과 공통/모듈 구분을 요청하는 Prompt를 둔다.
+- **Visual Concept:** 루트 시작의 개인 기본값→루트와 vision 폴더 시작의 개인 기본값→루트→vision을 나란히 비교. 하단에는 수정 전 적용할 AGENTS.md 경로/핵심 규칙과 공통/모듈 구분을 요청하는 Prompt를 둔다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** N/A — 공식 안내 기반 정적 적용 예. 기존 State/Trial의 새로운 관찰이 아니다.
 - **Beginner Payoff:** 파일을 두는 것과 실제로 읽히는 것을 구분하고 확인할 요청을 쓸 수 있다.
 - **Advanced Payoff:** 시작 시 instruction chain과 이후 명시적 파일 읽기를 구분하며 경로·내용·필요 시 로그를 대조한다.
@@ -1559,7 +1559,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “지침의 위치와 읽을 범위를 정리해도, 작업마다 같은 수행 절차를 다시 요청하는 문제는 남습니다.” S59의 기존 Harness 질문으로 돌아간다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0104; OpenAI AGENTS.md official guide; OpenAI Projects and chats, checked2026-10-26. Existing BEAT-017 preserved.
+- **Evidence / Decision References:** DEC-0104; OpenAI AGENTS.md official guide; OpenAI Projects and chats, checked2026-10-26. Existing BEAT-017 preserved.; DEC-0179
 - **Practical Tip Classification:** Context 관리
 - **Audience Footer:** 시작 시 자동 수집 기준 · 파일 경로와 본문을 확인
 
@@ -1576,7 +1576,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 2 — Context Engineering success and ACT 3 handoff.; ACT 3 — Context → Harness problem and bottom-up framing.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; Context 정리는 ACT 2의 주제이며, 다음 절차 반복 예시는 ACT 3의 질문이다. Trial Prompt만으로 전체 절차의 원인을 귀속하지 않는다.
-- **Visual Concept:** 상단 normalize 성능 조사 요청 아래, 왼쪽은 기존 이미지 명세·테스트 명령 위치·측정 기준을 담은 AGENTS.md 문서, 오른쪽은 변경 전 측정→조사·계획·변경 판단→테스트·동일 조건 비교의3단계 레일이다. 아래에 기본 안내/재사용할 SKILL.md 후보를 표시한다. 문서와 레일을 대체 관계로 연결하지 않으며 하단에서 다음 요청에도 절차를 매번 적을지 묻는다.
+- **Visual Concept:** 상단 normalize 성능 조사 요청 아래, 왼쪽은 기존 이미지 명세·테스트 명령 위치·측정 기준을 담은 AGENTS.md 문서, 오른쪽은 변경 전 측정→조사·계획·변경 판단→테스트·동일 조건 비교의3단계 레일이다. 아래에 기본 안내/재사용할 SKILL.md 후보를 표시한다. 문서와 레일을 대체 관계로 연결하지 않으며 하단에서 다음 요청에도 절차를 매번 적을지 묻는다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** S54의 관찰된 접근 차이와 미입증 경계를 회수한 뒤, 정보를 어디서 찾을지 나눈 것과 작업 방법을 매번 요청하는 문제를 구분한다. 다음 성능 작업의 공통 절차를 교육용 도식으로 압축하고 S61에서 TRIAL-006/007 기록을 더 살펴본다. 이 장의 Discussion은 실습이나 새 Demo가 아니다.
 - **Beginner Payoff:** Project 정보를 잘 주는 것과 작업 방법을 정하는 것이 다른 문제임을 이해한다.
 - **Advanced Payoff:** Context와 workflow의 역할을 구분하고 다음 설계 문제를 찾는다.
@@ -1585,7 +1585,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “우리 팀은 어떤 절차를 매번 다시 요청합니까? 다음에는 두 성능 Task의 실제 요청 기록에서 반복된 지시를 확인합니다.” 기존 연결 질문을 유지한 채 ACT 3 제목 S60를 거쳐 S61의 첫 문제로 이어간다. 제목의 Transition1분은 다음 ACT에 별도로 배정한다.
 - **Estimated Time:** 10분
 - **Delivery Mode Allocation:** Transition 4분 + Q&A 6분 = 10분
-- **Evidence / Decision References:** BEAT-017, BEAT-018, TRANS-005, TRIAL-006, TRIAL-007, CLM-0003, CLM-0005, CLM-0014, CLM-0006, CLM-0029, CLM-0030, DEC-0059, DEC-0060, DEC-0127; OpenAI AGENTS.md / Build skills official guides, checked2026-11-02
+- **Evidence / Decision References:** BEAT-017, BEAT-018, TRANS-005, TRIAL-006, TRIAL-007, CLM-0003, CLM-0005, CLM-0014, CLM-0006, CLM-0029, CLM-0030, DEC-0059, DEC-0060, DEC-0127; OpenAI AGENTS.md / Build skills official guides, checked2026-11-02; DEC-0179
 - **Audience Footer:** 역할에 따른 배치 예 · AGENTS.md에도 절차를 둘 수 있음
 
 ### ACT 3 — 18 slides / 64 minutes
@@ -1629,7 +1629,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 3 — Context → Harness problem and bottom-up framing.; ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; PARTIAL attribution. 두 Trial의 절차 반복은 관찰됐지만 Prompt만의 효과로 귀속할 수 없다.
-- **Visual Concept:** 기존 기능 삽화와 실제 요청 발췌/보존 요약의 세 행 대응을 유지한다. 상단에 Harness의 짧은 방향 안내만 추가하고 완성 구조는 후반에 둔다.
+- **Visual Concept:** 기존 기능 삽화와 실제 요청 발췌/보존 요약의 세 행 대응을 유지한다. 상단에 Harness의 짧은 방향 안내만 추가하고 완성 구조는 후반에 둔다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 각 Trial의 결과는 해당 코드·입력·환경에 한정한다. 성능 수치를 일반화하지 않는다.
 - **Beginner Payoff:** 작업 방법도 반복되는 요소가 될 수 있음을 본다.
 - **Advanced Payoff:** Task 목표와 재사용 가능한 절차의 경계를 찾는다.
@@ -1638,7 +1638,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “반복된 것은 명령 하나뿐일까요? 그 명령을 언제 쓰고 결과로 무엇을 판단할지도 보겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
-- **Evidence / Decision References:** BEAT-018, BEAT-020, TRIAL-006, CLM-0006, CLM-0029, CLM-0030, TRIAL-007, DEC-0017, DEC-0060, DEC-0062
+- **Evidence / Decision References:** BEAT-018, BEAT-020, TRIAL-006, CLM-0006, CLM-0029, CLM-0030, TRIAL-007, DEC-0017, DEC-0060, DEC-0062; DEC-0179
 - **Audience Footer:** 없음 — 상세 출처·발췌/요약 구분은 Notes에 보존
 
 #### S62 — 테스트 명령을 언제 쓰고 무엇을 판단할까?
@@ -1680,7 +1680,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 3 — Context → Harness problem; repeated workflow.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; CONCEPTUAL.
-- **Visual Concept:** 상단 목표 요청이 아래 작업 영역에 들어온다. 기존 이미지 동작·공개 명세 보존의 테두리가 normalize 구현 조사·변경 판단을 감싸고, 오른쪽 재사용할 수행 방법에서 같은 작업으로 연결한다. S62의 변경 전/후 순서를 다시 나열하지 않는다.
+- **Visual Concept:** 상단 목표 요청이 아래 작업 영역에 들어온다. 기존 이미지 동작·공개 명세 보존의 테두리가 normalize 구현 조사·변경 판단을 감싸고, 오른쪽 재사용할 수행 방법에서 같은 작업으로 연결한다. S62의 변경 전/후 순서를 다시 나열하지 않는다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** TRIAL-006/007의 반복 절차를 개념 예로 연결한다.
 - **Beginner Payoff:** 목표는 할 일, 프로젝트 기준은 지킬 범위, 수행 방법은 그 범위 안에서 일하는 방식임을 한 작업에서 이해한다.
 - **Advanced Payoff:** 목표 달성과 동작 보존, 수행 방법의 적용은 함께 필요하며 저장 위치의 배타적 분류가 아님을 본다.
@@ -1689,7 +1689,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “같은 수행 방법이 다음 작업에도 필요하다면, 어디에서 함께 유지할까요?”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
-- **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0062, DEC-0063, DEC-0064
+- **Evidence / Decision References:** BEAT-019, TRIAL-006, TRIAL-007, CLM-0006, CLM-0029, DEC-0062, DEC-0063, DEC-0064; DEC-0179
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S64 — 같은 Skill도 필요한 작업에만 쓴다
@@ -1705,7 +1705,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; DEC-0017은 ACCEPTED. 현재 교육 환경에서의 Product availability는 `REQUIRES PRODUCT CHECK`. Skill discovery/invocation Trial 결과는 다음 구간에 둔다.
-- **Visual Concept:** 왼쪽 A resize_nearest, B normalize 성능 조사 요청은 오른쪽 성능 조사 Skill 한 개에 같은3px 선/화살촉으로 연결한다. 아래 C README 영어 수정 요청에는 연결선을 두지 않고 “이 성능 조사 Skill은 사용하지 않음”을 표시한다. 상단은 세 작업 모두 공통 지침을 참고함을, 하단은 필요한 작업에만 방법을 연결함을 회수한다. 실제 호출/미호출 관찰 도식이 아니다.
+- **Visual Concept:** 왼쪽 A resize_nearest, B normalize 성능 조사 요청은 오른쪽 성능 조사 Skill 한 개에 같은3px 선/화살촉으로 연결한다. 아래 C README 영어 수정 요청에는 연결선을 두지 않고 “이 성능 조사 Skill은 사용하지 않음”을 표시한다. 상단은 세 작업 모두 공통 지침을 참고함을, 하단은 필요한 작업에만 방법을 연결함을 회수한다. 실제 호출/미호출 관찰 도식이 아니다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** DEC-0017의 프로젝트 소유 성능 조사 Skill 선택 이유를 설명한다. A/B는 기존 성능 Task의 교육용 요약, C는 사용자 제안 비교 요청이다. 성공 결과·Skill 전문·새 Trial을 제시하지 않는다.
 - **Beginner Payoff:** 같은 프로젝트의 공통 기준은 유지하면서 작업 종류에 필요한 수행 방법만 선택한다는 점을 A/B와 C에서 이해한다.
 - **Advanced Payoff:** 공동 관리만으로 AGENTS.md와 Skill을 구분하지 않고 적용 범위와 재사용 단위로 선택한다. 절차를 AGENTS.md에 둘 수도 있으며 실제 선택·호출·수행 근거는 별도로 확인한다.
@@ -1714,7 +1714,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “먼저 당시 CLI 기록에서 재사용할 Skill을 어떻게 찾았는지 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-020, BEAT-021, DEC-0017, TRIAL-006, TRIAL-007, TRIAL-008, OQ-005, DEC-0062, DEC-0064, DEC-0065, DEC-0066, DEC-0128, DEC-0130
+- **Evidence / Decision References:** BEAT-020, BEAT-021, DEC-0017, TRIAL-006, TRIAL-007, TRIAL-008, OQ-005, DEC-0062, DEC-0064, DEC-0065, DEC-0066, DEC-0128, DEC-0130; DEC-0179
 - **Audience Footer:** 작업별 Skill 선택을 보여주는 설계 예
 
 #### S65 — 사용할 Skill을 목록에서 찾는다
@@ -1730,7 +1730,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; Codex CLI 0.154.0에서 관찰. Desktop 동작과 암묵적 호출은 검증하지 않음. 현재 제품 표면의 상태는 **REQUIRES PRODUCT CHECK**.
-- **Visual Concept:** 상단에 밝기 통계 성능 조사라는 한 줄 목표를 둔다. /skills와 목록의 graypipe-performance 이름/잘린 설명을 큰 한 장면으로 보여준다. 경로·전체 Prompt·trace를 같은 장에 넣지 않는다.
+- **Visual Concept:** 상단에 밝기 통계 성능 조사라는 한 줄 목표를 둔다. /skills와 목록의 graypipe-performance 이름/잘린 설명을 큰 한 장면으로 보여준다. 경로·전체 Prompt·trace를 같은 장에 넣지 않는다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** DEMO-03 / TRIAL-008. 세 번째 성능 조사인 image_statistics의 실행 시간 또는 할당량 조사 요청. 기본은 검증된 정적 기록 도식이며 현재 Live/Hybrid는 미활성이다.
 - **Beginner Payoff:** 필요한 방법을 사용 가능한 목록에서 찾았다. 이름이 보였다는 것만으로 이번 작업에 사용됐다고 말하지 않는다.
 - **Advanced Payoff:** 발견 가능성, 명시 선택, 본문 포함과 실제 수행을 구분한다. 목록에 파일 경로는 없었으며 보존된 영문 설명의 잘림을 임의로 복원하지 않는다.
@@ -1739,7 +1739,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “찾은 Skill을 이번 작업 요청에는 어떻게 지정했을까요?”
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Demo 1분 (HYBRID) = 1분
-- **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0066, DEC-0130
+- **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0066, DEC-0130; DEC-0179
 - **Audience Footer:** Codex CLI 0.154.0 기록
 
 #### S66 — 이번 요청에 사용할 Skill을 지정한다
@@ -1780,7 +1780,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 3 — short current-product authoring tip inserted by DEC-0093; not a Trial or a replacement for the existing evidence/candidate/conditional-decision sequence.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL
 - **Claim Status:** DOCUMENTED GUIDANCE / TEACHING_MODEL / REQUIRES PRODUCT CHECK — 공식 제작 경로를 설명한 교육용 예시다. TRIAL-008의 Skill을 이 방식으로 만든 이력이 아니고, 현재 계정에서 생성·호출·동작을 시험한 결과도 아니다. 자연어만으로 제작 도우미가 반드시 자동 호출되거나 생성만으로 좋은 지침이 된다고 보장하지 않는다.
-- **Visual Concept:** 왼쪽 Codex 요청창에 $skill-creator와 성능 조사 절차를 재사용할 Skill로 만들어 달라는 예시를 둔다. 오른쪽은 생성될 SKILL.md의 언제/순서/보고 항목을 의미 재구성한 문서다. 아래는 실제 요청에 사용하고 다듬기의 세 번째 단계다. 실제 Screenshot·생성 완료 결과를 흉내내지 않는다.
+- **Visual Concept:** 왼쪽 Codex 요청창에 $skill-creator와 성능 조사 절차를 재사용할 Skill로 만들어 달라는 예시를 둔다. 오른쪽은 생성될 SKILL.md의 언제/순서/보고 항목을 의미 재구성한 문서다. 아래는 실제 요청에 사용하고 다듬기의 세 번째 단계다. 실제 Screenshot·생성 완료 결과를 흉내내지 않는다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 새 Demo 시간·Trial 없음. Lecture2분의 공식 안내 각색이며 과거 관찰/가상 사례/실제 구성 선택과 구분한다.
 - **Beginner Payoff:** Skill 파일의 문법부터 직접 외울 필요 없이 Codex에 원하는 작업 방법을 설명해 제작을 시작할 수 있다.
 - **Advanced Payoff:** 사용 조건·입출력·수행 방법의 범위를 좁히고 생성 지침의 검토와 대표 요청 평가를 구분한다. 좋은 실행 결과·정확성·효율을 자동 보장하지 않는다.
@@ -1789,7 +1789,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “지금 본 제작 요청은 사용 예시입니다. 이제 앞서 Skill을 지정했던 실제 밝기 통계 작업에서 어떤 근거로 구현을 선택했는지 보겠습니다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** SRC-0111, CLM-0041, DEC-0093
+- **Evidence / Decision References:** SRC-0111, CLM-0041, DEC-0093; DEC-0179
 - **Practical Tip Classification:** 수행 방법
 - **Audience Footer:** 사용 예시 · 생성 지침을 검토하고 실제 요청으로 확인
 
@@ -1881,7 +1881,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 3 — short current-product authoring tip inserted by DEC-0093; not a Trial or a replacement for the existing evidence/candidate/conditional-decision sequence.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL
 - **Claim Status:** DOCUMENTED GUIDANCE / TEACHING_MODEL / REQUIRES PRODUCT CHECK — Codex Custom Agent 설정/사용 요청의 교육용 예시이며 실제 생성·로딩·분담 실행·성능 이득을 시험한 결과가 아니다. 별도의 agent-creator Skill이 존재한다고 말하지 않는다. 코드 수정 금지는 역할 지침이며 독립적인 읽기 전용 권한을 만드는 설정이 아니다. 기존 Demo의 NOT JUSTIFIED YET 판단은 유지한다.
-- **Visual Concept:** 왼쪽 요청창은 S66과 같은 macOS풍 둥근 창·상단 신호등3개·요청 헤더·보내기 control을 사용하고 기존4줄을 그대로 둔다. perf_reviewer 역할 생성, 병목 후보 조사, 파일/함수/근거/미확인 보고, 코드 수정 금지 지침을 설명한다. 오른쪽 문서 도식은 .codex/agents/perf_reviewer.toml과 이름/사용 조건/역할을 보여준다. 하단에는 해당 이름의 Subagent로 조사하고 기다린 뒤 근거를 확인해 종합하라는 사용 요청 예시를 둔다.
+- **Visual Concept:** 왼쪽 요청창은 S66과 같은 macOS풍 둥근 창·상단 신호등3개·요청 헤더·보내기 control을 사용하고 기존4줄을 그대로 둔다. perf_reviewer 역할 생성, 병목 후보 조사, 파일/함수/근거/미확인 보고, 코드 수정 금지 지침을 설명한다. 오른쪽 문서 도식은 .codex/agents/perf_reviewer.toml과 이름/사용 조건/역할을 보여준다. 하단에는 해당 이름의 Subagent로 조사하고 기다린 뒤 근거를 확인해 종합하라는 사용 요청 예시를 둔다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 새 Demo 시간·Trial 없음. Lecture2분의 공식 안내 각색이며 과거 관찰/가상 사례/실제 구성 선택과 구분한다.
 - **Beginner Payoff:** 어떤 조사를 언제 맡기고 무엇을 받으려는지 Codex에 설명하면 재사용할 역할 설정부터 작성하도록 요청할 수 있다.
 - **Advanced Payoff:** 임시 분담과 재사용 가능한 역할 정의를 구분한다. 설정 파일의 필수 필드·역할 범위와 부모 권한의 상속, 주 Agent의 근거 검토·통합 책임을 분리한다.
@@ -1890,7 +1890,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “필요할 때 역할을 만들어 쓸 수 있습니다. 하지만 이 밝기 통계 작업에서도 나눌 필요가 있었을까요?” 이전 S70이 이동한 S72에서 실제 보류 판단을 회수한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** SRC-0112, CLM-0042, DEC-0093
+- **Evidence / Decision References:** SRC-0112, CLM-0042, DEC-0093; DEC-0179
 - **Practical Tip Classification:** 수행 방법
 - **Audience Footer:** N/A — DEC-0139로 기존 Audience footer1만 화면에서 삭제한다. 설정·사용 예시, 일회성/반복 역할의 구분과 출처·검증 범위는 Notes에 보존한다. M 연계는 유지한다.
 
@@ -2086,7 +2086,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 4 / 4R1 Goal-loop entry · DEC-0149
 - **Evidence Type:** CONCEPTUAL
 - **Claim Status:** CONCEPTUAL CASE — 사람이 검토 지적을 옮겨 재요청하는 밝기 통계 예시. 실제 반복 횟수나 소요 시간, 개선 효과는 측정하지 않았다.
-- **Visual Concept:** 상단에 S77의 질문 “이대로 구현을 시작할까요?”와 답 “응, 시작해.”를 이어 붙인다. 아래에서는 전체 픽셀 복사가 남았다는 첫 구현의 검토 지적을 보고 개발자가 복사를 없애고 재확인해 달라고 다시 입력한다.
+- **Visual Concept:** 상단에 S77의 질문 “이대로 구현을 시작할까요?”와 답 “응, 시작해.”를 이어 붙인다. 아래에서는 전체 픽셀 복사가 남았다는 첫 구현의 검토 지적을 보고 개발자가 복사를 없애고 재확인해 달라고 다시 입력한다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** CASE-LOOP-01 · 밝기 통계 교육용 재구성
 - **Beginner Payoff:** 개발자가 같은 일을 계속하라는 신호를 보내는 모습을 알아본다.
 - **Advanced Payoff:** 새 요구사항을 정해야 하는 판단과 이미 승인한 목표의 단순 재개를 구분한다.
@@ -2095,7 +2095,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 이제 같은 첫 검토 순간으로 돌아가서, 개발자가 다시 입력하던 자리에 무엇을 연결할지 본다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Case 2분 = 4분
-- **Evidence / Decision References:** DEC-0149, DEC-0146, DEC-0145, DEC-0097, BEAT-073, CASE-LOOP-01, CLM-0021
+- **Evidence / Decision References:** DEC-0149, DEC-0146, DEC-0145, DEC-0097, BEAT-073, CASE-LOOP-01, CLM-0021; DEC-0179
 - **Audience Footer:** 밝기 통계 사례 · 교육용 재구성
 
 #### S80 — 같은 검토 결과가 다음 수정을 시작한다
@@ -2413,7 +2413,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0158
 - **Evidence Type:** RESEARCH / TEACHING_MODEL
 - **Claim Status:** REQUIRES PRODUCT CHECK — 공식 문서로 확인한 기능과 절차. 발표 기기·교육 계정 UI, 실제 기억 생성·회상 여부는 미검증.
-- **Visual Concept:** 데스크톱 앱의 기기 설정 경로와 /memories 대화별 제어를 한 번에 본다. 우측 상단에 공통 실무 적용 팁 · Context 관리 배지를 둔다.
+- **Visual Concept:** 데스크톱 앱의 기기 설정 경로와 /memories 대화별 제어를 한 번에 본다. 우측 상단에 공통 실무 적용 팁 · Context 관리 배지를 둔다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** 정적 제품 안내와 교육용 선호 예시. S91의 state.md는 작업 인계 기록이다. 메모리의 작동을 재현하는 데모 시간은 없다.
 - **Beginner Payoff:** 작업 선호를 참고할 때와 팀 규칙 또는 실행 상태를 직접 확인할 때를 구분한다.
 - **Advanced Payoff:** 기기 수준 활성화와 대화별 읽기·기여 선택을 구분하고, 선호가 최신인지 현재 요청에서 다시 확인한다.
@@ -2422,7 +2422,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 기억을 참고해도 작업 권한이 넓어지지는 않는다. 무인 실행에서 허용할 파일과 외부 작업 범위를 정해 보자.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0158, SRC-0113, CLM-0008, CLM-0053, BEAT-089
+- **Evidence / Decision References:** DEC-0158, SRC-0113, CLM-0008, CLM-0053, BEAT-089; DEC-0179
 - **Audience Footer:** OpenAI · Memories · 공식 제품 안내.
 - **Practical Tip Classification:** Context 관리
 

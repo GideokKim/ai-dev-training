@@ -1,5 +1,10 @@
 # ACT 5 opening and numbering (DEC-0168)
 
+DEC-0179 applies `mac-prompt-windows.mjs` after all retained ID adapters.
+It styles displayed request areas by current slide ID and leaves source
+editions, request wording, evidence and allocations intact. See
+`plan/MAC_PROMPT_STYLE_AUDIT.md` for the complete 111-slide inventory.
+
 Use `--release --release-acts=5` to rebuild the integrated112-slide deck
 and ACT5. The final `act5-workflow-removal-112.mjs` boundary omits the
 113-edition S100 after all retained source migrations. The retained

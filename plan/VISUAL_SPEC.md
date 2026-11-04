@@ -1,5 +1,9 @@
 # STEP 08 — Visual Specification
 
+## 요청 입력창 공통 외형 — DEC-0179
+
+기존 Mac 스타일(밝은 본문, 회색 제목 막대, 좌측 세 색상 표시, 둥근 테두리)을 직접 입력할 요청에 적용한다. 표준43px 및 좁은 영역30/36px의 제목 막대를 허용한다. 기존 Template/Variant 안의 공통 외형이며 종류를 추가하지 않는다. 지침 문서·코드·로그·응답·결과는 입력창과 구별한다. [111장 전수 조사·37장 수정 목록](MAC_PROMPT_STYLE_AUDIT.md)을 현재 적용 범위로 사용한다. 원문·근거·시간·기획 흐름은 유지한다.
+
 ## 현재 번호 안내 — DEC-0177
 
 현재111장·372분이다. 이전 S96 중복 성찰 장과11분을 제외하고 이전 S97–S112는 현재 S96–S111로 당긴다. Section·Story Beat·Demo·Trial·State·Claim ID와 남은 장의 배정·근거 경계는 유지한다. [현행 번호·시간·수정 범위](ACT45_ANNOTATION_REVISION.md)와 [공식 Slide Map](SLIDE_MAP.md)을 우선하며 아래 과거 판본 번호는 당시 출처로 보존한다.

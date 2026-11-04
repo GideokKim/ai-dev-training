@@ -1,39 +1,39 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0178
+## Current presentation · DEC-0179
 
-Former S96 and its reflection time are removed. Current S96 is the Goal tip. The 43 entries identify local static fallbacks for the 111-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S96. S99 and S100 share one teaching-model work system; S100 shows the person deciding acceptance using its results and evidence.
+Standardize 45 request windows on 37 slides using the existing Mac style. Keep all 43 static fallback classifications, evidence and claim boundaries. The Full and affected ACT0-ACT4 decks are locally rendered; ACT5 is unchanged. Former S96 and its reflection time are removed. Current S96 is the Goal tip. The 43 entries identify local static fallbacks for the 111-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S96. S99 and S100 share one teaching-model work system; S100 shows the person deciding acceptance using its results and evidence.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`5e26f957edb4764afab09bc7c85dd956e4bb0fdacbd4e59ff314c3f9eb6cc7f8`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`a0b25e8f230c22a10f05b4ca680b78f6c18d5cbcf07d88a24a30fcb1b3f6fd68`.
-- `production/preview/full/montage.png` SHA-256:`1771093d23aa46398240eee0db14658856bc90db7d310a12bb4117fa27c37044`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`b44e9acbfac037097011d4f5e1bfdb1ee8f8de958f1e9082fd06fb94e3eee1de`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`58571e9243c9d88c65eab2274906a37f7a949698485f4a50303f444399cdd887`.
+- `production/preview/full/montage.png` SHA-256:`97b956a3de7e735855ee83f2c4f614cce9585adb3e8aa4dab2c79cecd6c759ff`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
-| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` | 1920×1080 | `05b4545671daef4614211ee778cab969a442f34986bf6376c452081c2427ff68` |
+| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` | 1920×1080 | `8361e41c90f2c75fd5b28e4e891ea23ebdf4bc94bbe963e18fbaac200e74f0f3` |
 | S07 | RETAINED_DEMO_STATIC | `production/preview/full/S07.png` | 1920×1080 | `4646cd962fee1b9384ab16059744c87b83fd3d5341a48123d2f5cd6260f579cf` |
 | S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` | 1920×1080 | `b00fde64f9e461e9cfd17f080024c03c592d6854196c7437e0efc0eda7214afa` |
 | S09 | RETAINED_DEMO_STATIC | `production/preview/full/S09.png` | 1920×1080 | `1f938fb1a5b6ea172317856cd4bf7d5d2c9fa1ef6ffca0522d877e5e289dde94` |
 | S10 | RETAINED_DEMO_STATIC | `production/preview/full/S10.png` | 1920×1080 | `c621e5666dfbda359a703d0797ec025bb4915cd17fa498c6f0001a052eb55cc9` |
 | S23 | RETAINED_DEMO_STATIC | `production/preview/full/S23.png` | 1920×1080 | `2006268ff4d96da09bba0d8ed99b8174423fccf4f1ce825888cba100679961a2` |
 | S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` | 1920×1080 | `eee791361290ec1374cc4456ce66ff3bf7a7b27905c9e912b20838a0091d9e1f` |
-| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `3b4e59c948761576b151573de7b5f8e2aa45901acce2072b8793d9cb6348d240` |
+| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `116b078ac9d204051fa23e700b4f86faf0cf9963b9b4bf6ee2d851e72a66c8fa` |
 | S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` | 1920×1080 | `052e19918e6be443c8699ae2212f02229dbce3a5c15eb96fbe03794193e70940` |
 | S41 | USER_PROVIDED_DEMO_RESULT | `production/preview/full/S41.png` | 1920×1080 | `03f104ae8ec9a4bef6a183322d889e66f5314bf828705321f3116ebf1c50d712` |
-| S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` | 1920×1080 | `26632e6c07918601f19342180eeac05a0e67051e7bf8e43e8bb1a0d4bedf3295` |
+| S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` | 1920×1080 | `8a8c9b28205f5d0ea2f90b5480414e9b202105419e145a7e69c6ebaf8ab3a78a` |
 | S49 | RETAINED_DEMO_STATIC | `production/preview/full/S49.png` | 1920×1080 | `1e6acea140a3d038e3b18572c4cc1ca48e16e8ad6b6dec76c49e376185a17d1e` |
 | S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` | 1920×1080 | `b3ce28aa911e520e04fc38afecb02c7cd0ab34ed55525c083464c7a7ea136f0b` |
-| S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` | 1920×1080 | `bf95495437b7d003c4753295de9b9ef7bfc6f01966a55fe29589204ef23f2793` |
+| S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` | 1920×1080 | `ef392313e111ce8a324a79f181d2f78d804aa9c416b1cea33c82f35865af6acd` |
 | S54 | RETAINED_DEMO_STATIC | `production/preview/full/S54.png` | 1920×1080 | `ee3d7a63c8c506b0258f9fac8465ec028be427a012d180de19786fc5f1938755` |
-| S65 | RETAINED_DEMO_STATIC | `production/preview/full/S65.png` | 1920×1080 | `7c6678f47e66a441548a657905f151a9304b6a0d62683a32e38d5ba7b5896fdf` |
+| S65 | RETAINED_DEMO_STATIC | `production/preview/full/S65.png` | 1920×1080 | `7ea013e38b51ec61dc613e9d733d02133ca0153b3eaf020a21770cb5f507b9ee` |
 | S66 | RETAINED_DEMO_STATIC | `production/preview/full/S66.png` | 1920×1080 | `482b1c36433538b982da2336354c04a9593f85368086c313149272540cd14880` |
 | S70 | RETAINED_DEMO_STATIC | `production/preview/full/S70.png` | 1920×1080 | `80c253db688c9e96f337ba38ed13b898e5528f941a3b90cde9c1fbe15b29ea0f` |
 | S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` | 1920×1080 | `7fa05104badad5a6f49bfe89b1492e0fb3a169fe86330f93abbbe26b5993b013` |
 | S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` | 1920×1080 | `8d257b5e2dfd8e1f6c4908c3e5d48111cf978616c978c2152b40284c23495bfa` |
 | S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` | 1920×1080 | `67b83e594add1c198951ce3bb0907cc1444ab11f2fdc98ede1be60525b0a954a` |
-| S79 | CONCEPTUAL_MANUAL_HANDOFF | `production/preview/full/S79.png` | 1920×1080 | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
+| S79 | CONCEPTUAL_MANUAL_HANDOFF | `production/preview/full/S79.png` | 1920×1080 | `a393c38375a5afa39ac8f1c0a2de1e837dc5cf527449f533508e4e7f205c7693` |
 | S80 | TEACHING_MAP | `production/preview/full/S80.png` | 1920×1080 | `6c7ea4ddf79a9cd81d25463d8a4351f7823c16c8f5024fe9ac9c3eb6e03df034` |
 | S81 | TEACHING_MODEL_COMPARISON | `production/preview/full/S81.png` | 1920×1080 | `6ca6c79ca8604c48d09b205ae331f819a92bc8848c20e2c4ba1e9c455a118e42` |
 | S82 | TEACHING_MODEL_COMPONENTS | `production/preview/full/S82.png` | 1920×1080 | `eae91efe89bf9676ac190371225a64c70a29f76a68139f061ee0f97dcf58749b` |
@@ -46,7 +46,7 @@ Former S96 and its reflection time are removed. Current S96 is the Goal tip. The
 | S89 | CONCEPTUAL_MR_HANDOFF | `production/preview/full/S89.png` | 1920×1080 | `2c05befee1bb4fd55baa3cb21cf357504611fdaf80c0fd747f7da5e3ea406fa1` |
 | S90 | TEACHING_REVIEW_ROLES | `production/preview/full/S90.png` | 1920×1080 | `d436993dbd2348d339b32ccb7936dec4f5672975e36ea8dafc56a16d30640273` |
 | S91 | TEACHING_STATE_HANDOFF | `production/preview/full/S91.png` | 1920×1080 | `858272b31aeb086dc437f5064d314c1ef7f50588b8c8b5360a3c7192aba6ae14` |
-| S92 | DOCUMENTED_CODEX_MEMORY_TIP | `production/preview/full/S92.png` | 1920×1080 | `5ce24f694235e2ddc92ce99395ad93eb394440c2d4f44029ae733ce90a93d38b` |
+| S92 | DOCUMENTED_CODEX_MEMORY_TIP | `production/preview/full/S92.png` | 1920×1080 | `46ee0d9a5de5b879aa717e9c013684174ff7e2fa66fb786c4bd6cf6c5a62a281` |
 | S93 | TEACHING_PERMISSION_LIMITS | `production/preview/full/S93.png` | 1920×1080 | `5ff0f2b96940061ee18f3f51c9fee8833bfb5f9d1e45ff3c0360ff124aeba04c` |
 | S94 | TEACHING_STOP_AND_HANDOFF | `production/preview/full/S94.png` | 1920×1080 | `cfb8da443a83ca97b7a4f14ac70398a76ffe99b0ae3dab14c67742137d085bb7` |
 | S95 | TEACHING_HUMAN_REVIEW | `production/preview/full/S95.png` | 1920×1080 | `d5fdf0d5a011efb818f54cb423d1213af2b1f5e6f94f0e8406a5d9ba57cd5bf4` |

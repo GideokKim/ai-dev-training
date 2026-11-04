@@ -1,0 +1,230 @@
+{
+  "baseline": "115fa2f",
+  "slides": 111,
+  "minutes": 372,
+  "actSlides": [
+    14,
+    23,
+    22,
+    18,
+    19,
+    15
+  ],
+  "actMinutes": [
+    42.0,
+    64.0,
+    90.0,
+    64.0,
+    71.0,
+    41.0
+  ],
+  "modeMinutes": {
+    "Transition": 21.0,
+    "Lecture": 170.0,
+    "Reflection": 17.0,
+    "Case": 95.0,
+    "Demo": 44.0,
+    "Q&A": 25.0
+  },
+  "changedSlides": [
+    "S04",
+    "S06",
+    "S11",
+    "S12",
+    "S16",
+    "S17",
+    "S18",
+    "S21",
+    "S22",
+    "S27",
+    "S28",
+    "S29",
+    "S30",
+    "S31",
+    "S32",
+    "S33",
+    "S34",
+    "S35",
+    "S36",
+    "S37",
+    "S39",
+    "S42",
+    "S44",
+    "S46",
+    "S50",
+    "S51",
+    "S53",
+    "S58",
+    "S59",
+    "S61",
+    "S63",
+    "S64",
+    "S65",
+    "S67",
+    "S71",
+    "S79",
+    "S92"
+  ],
+  "changedWindows": 45,
+  "addedWindowControls": 135,
+  "alreadyConsistentSlides": [
+    "S41",
+    "S66",
+    "S77",
+    "S96"
+  ],
+  "renderedSlides": 207,
+  "notesCompared": 207,
+  "notesFields": 19,
+  "unchangedFullSlides": 74,
+  "claimBoundaryUnchanged": true,
+  "originalTextPreserved": true,
+  "pictureBytesAndPositionsPreserved": true,
+  "outsideRequestedAreasUnchanged": true,
+  "actFullPixelParity": true,
+  "act5Untouched": true,
+  "nativeTableOwners": [
+    54,
+    81,
+    85
+  ],
+  "nativeChartOwners": [
+    69
+  ],
+  "decks": {
+    "AI_Dev_Training_Full": {
+      "slides": 111,
+      "sha256": "b44e9acbfac037097011d4f5e1bfdb1ee8f8de958f1e9082fd06fb94e3eee1de",
+      "sourceEdition": "final2",
+      "warnings": [
+        {
+          "connector_id": "25",
+          "connector_z": 24,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "24",
+          "text_z": 23
+        },
+        {
+          "connector_id": "28",
+          "connector_z": 27,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "27",
+          "text_z": 26
+        },
+        {
+          "available_bottom_in": 6.2917,
+          "columns": 3,
+          "declared_bottom_in": 5.7917,
+          "estimated_native_bottom_in": 6.3017,
+          "footer_object_ids": [
+            "4"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 0.01,
+          "rows": 8,
+          "slide": 54,
+          "table_id": "8"
+        },
+        {
+          "connector_id": "11",
+          "connector_z": 12,
+          "kind": "connector_over_text",
+          "slide": 79,
+          "text_object_id": "10",
+          "text_z": 11
+        }
+      ],
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0
+    },
+    "ACT_0": {
+      "slides": 14,
+      "sha256": "5fe6e4f422cb275d1408c11bc9486f91180a643365f04f2e29282cd266c5b8f7",
+      "sourceEdition": "final",
+      "warnings": [
+        {
+          "connector_id": "25",
+          "connector_z": 24,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "24",
+          "text_z": 23
+        },
+        {
+          "connector_id": "28",
+          "connector_z": 27,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "27",
+          "text_z": 26
+        }
+      ],
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0
+    },
+    "ACT_1": {
+      "slides": 23,
+      "sha256": "094e0de7ad6cb0332b35f3661455c0e3387c2ccbe43f5a06f31aadb127fc1245",
+      "sourceEdition": "final",
+      "warnings": [],
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0
+    },
+    "ACT_2": {
+      "slides": 22,
+      "sha256": "70f040c1bf0419260404ba0a590c4e5ac90186a5bd51c785d913792ff60dfc0e",
+      "sourceEdition": "final2",
+      "warnings": [
+        {
+          "available_bottom_in": 6.2917,
+          "columns": 3,
+          "declared_bottom_in": 5.7917,
+          "estimated_native_bottom_in": 6.3017,
+          "footer_object_ids": [
+            "4"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 0.01,
+          "rows": 8,
+          "slide": 17,
+          "table_id": "8"
+        }
+      ],
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0
+    },
+    "ACT_3": {
+      "slides": 18,
+      "sha256": "4e3d2da3520e1cc6f8cb9286238e8cdb07ec681b2c02f7ebfd714e8065d06433",
+      "sourceEdition": "final",
+      "warnings": [],
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0
+    },
+    "ACT_4": {
+      "slides": 19,
+      "sha256": "8bb500f6fa97bfc88eda5eff629785d0b740b51879b5bebbad2e1f609f12ef1e",
+      "sourceEdition": "final",
+      "warnings": [
+        {
+          "connector_id": "11",
+          "connector_z": 12,
+          "kind": "connector_over_text",
+          "slide": 2,
+          "text_object_id": "10",
+          "text_z": 11
+        }
+      ],
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0
+    }
+  }
+}

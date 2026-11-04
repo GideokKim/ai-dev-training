@@ -6,6 +6,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
 import { createHash } from 'node:crypto';
 import * as H from './helpers.mjs';
+import {applyMacPromptStyle} from './mac-prompt-windows.mjs';
 import {loopOperationsFactories} from './act4-loop-operations.mjs';
 import {priorityFactories,addModuleFooter} from './legacy-priority.mjs';
 import {promptTechniqueFactories} from './prompt-techniques.mjs';
@@ -202,6 +203,7 @@ for(const deck of decks){
    const slide=productTips[retainedId](p);
    applyAct5WorkflowNumbers(slide);
    applyAct4ReflectionNumbers(slide);
+   applyMacPromptStyle(slide,currentId,H);
    slide.speakerNotes.text=notes[currentId];
    continue;
   }
@@ -211,6 +213,7 @@ for(const deck of decks){
    applyProductTipNumbers(slide);
    applyAct5WorkflowNumbers(slide);
    applyAct4ReflectionNumbers(slide);
+   applyMacPromptStyle(slide,currentId,H);
    slide.speakerNotes.text = notes[currentId];
    continue;
   }
@@ -253,6 +256,7 @@ for(const deck of decks){
   applyProductTipNumbers(s);
   applyAct5WorkflowNumbers(s);
   applyAct4ReflectionNumbers(s);
+  applyMacPromptStyle(s,currentId,H);
   s.speakerNotes.text=notes[currentId];
  }
  const candidate=path.join(buildDir,deck.name+'.candidate.pptx');await(await PresentationFile.exportPptx(p)).save(candidate);

@@ -15724,3 +15724,25 @@ access-control distinction in Notes.
 Keep 111 slides/372 minutes, every slide ID, allocation and evidence type.
 Align the affected Notes and maps, Full/ACT4/ACT5 decks, previews and
 current delivery hashes. Change no Demo repository, Site or bundle.
+
+# DEC-0179 — Standardize displayed requests with the existing Mac window style
+
+Status: ACCEPTED by explicit user instruction to audit and edit all slides.
+Date: 2026-11-04.
+
+Audit all 111 slides for displayed request inputs, including S36, S37 and
+S44. Apply the existing S41/S66/S71/S77/S96 window language to 45 areas on
+37 slides. Retain the four already-consistent slides and S71's upper pane.
+Use one final-stage adapter so historical source editions remain intact.
+
+Keep prompt wording, annotations, evidence, diagrams and response records.
+Allow only the spacing, typography and line wrapping needed for the frame.
+Preserve product-specific UI content; a Mac frame does not establish a new
+Desktop execution. Keep documents, results, code and audience questions
+visually distinct from input messages. Add no audience disclaimer.
+
+Keep 111 slides/372 minutes, every ID, mode, allocation and claim boundary.
+Align Notes, maps and the existing visual specification. Render and verify
+the Full and affected ACT0-ACT4 decks, then refresh delivery references.
+Record the full inventory and changed IDs in MAC_PROMPT_STYLE_AUDIT.md.
+Change no Demo repository, Site, bundle, Trial or current-product claim.

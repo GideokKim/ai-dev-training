@@ -1,8 +1,10 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## S93·S105 문구 정리 · DEC-0178
+## 요청 입력창 공통 스타일 · DEC-0179
 
-[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT4 PPT](../ACT_4.pptx) · [ACT5 PPT](../ACT_5.pptx) · [전체 Notes](../notes/FULL_SPEAKER_NOTES.md) · [ACT4 미리보기](../preview/act4/montage.png) · [ACT5 미리보기](../preview/act5/montage.png) · [최신 문구 수정 결과](SLIDE_WORDING_REVISION.md) · [번호·삭제 기록](ACT45_ANNOTATION_REVISION.md)
+[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT0](../ACT_0.pptx) · [ACT1](../ACT_1.pptx) · [ACT2](../ACT_2.pptx) · [ACT3](../ACT_3.pptx) · [ACT4](../ACT_4.pptx) · [ACT5](../ACT_5.pptx) · [전체 Notes](../notes/FULL_SPEAKER_NOTES.md) · [전체 미리보기](../preview/full/montage.png) · [요청창 수정 결과](MAC_PROMPT_STYLE_REVISION.md) · [111장 전수 조사](../../plan/MAC_PROMPT_STYLE_AUDIT.md)
+
+37장·45곳의 요청 입력 영역을 기존 Mac 스타일로 통일했다. S36/S37/S44를 포함하며 S41/S66/S77/S96은 기존 외형을 유지한다. 요청 원문·강조·관찰 기록·근거 범위와 시간 배정은 그대로다. 문서·답변·코드·결과는 입력창과 구분한다. ACT5는 변경하지 않았다.
 
 S93 하단은 “허용 범위는 사람이 판단하고, 결과에 대한 책임도 사람이 진다”로 바꿨다. S105 머리말은 “ACT 5 · 재평가 3/3 · 평가 설계”로 정리하고 실행 여부에 관한 설명은 Notes에 유지한다.
 
@@ -10,22 +12,22 @@ S93 하단은 “허용 범위는 사람이 판단하고, 결과에 대한 책�
 
 S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과 접근 금지 대상을 시각적으로 구분한다. 실제 보안 설정·차단 실험의 결과가 아니다. S95 사람 검증 뒤 S96 Goal 팁으로 바로 이어지며 삭제한 성찰을 전제하지 않는다. S105(이전 S106)의 분기·합류는 같은 굵기의 둥근 선으로 연결했고 S106(이전 S107)의 머리말에서 C++ VISION을 제거했다. A–E 선택지와 다음 행동 장의 정렬, 근거 범위는 유지했다. S101의 일반 메모리 설명은 현재 위치와 배지 삭제를 유지한다.
 
-팁 찾아보기는 S108–S110, 마무리는 S111이다. 최종 통합111장·ACT4 19장·ACT5 15장의145개 렌더와 내장 Notes를 대조했다. 각 장19필드, 표 S54/S81/S85와 차트 S69, 팁 목적지·번호가 일치한다. 수정·번호 영역을 제외한 화면은 기준판과 같고 새 레이아웃 경고는 없다. Windows PowerPoint·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo Repository·Sites·발표 묶음은 변경하지 않았다.
+팁 찾아보기는 S108–S110, 마무리는 S111이다. 최종 통합111장과 ACT0–4의96장, 총207개 렌더와 내장 Notes를 대조했다. 각 장19필드, 표 S54/S81/S85와 차트 S69, 팁 목적지·번호가 일치한다. 요청창·관련 배치 영역을 제외한 화면과 나머지74장은 기준판과 같고 새 레이아웃 경고는 없다. Windows PowerPoint·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo Repository·Sites·발표 묶음은 변경하지 않았다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `5e26f957edb4764afab09bc7c85dd956e4bb0fdacbd4e59ff314c3f9eb6cc7f8` |
-| `production/ACT_0.pptx` | `5d5d0f2726df9c88f6bfbbb1fb52d5b221b10b2c9d243638552f013c0dd7378b` |
-| `production/ACT_1.pptx` | `07b8afb890383a0e656814859a052c9d9bdf139aa3bfd3c5eb6b556c0be115d4` |
-| `production/ACT_2.pptx` | `496a76f78a1a83fc66e72f82db5656f4710e7abf82c6747bc2d6f5a7768bd806` |
-| `production/ACT_3.pptx` | `acab05b7a47448cfb525856d52b65bb7dfa1c9d01df51521a68d1b2e6a6e6841` |
-| `production/ACT_4.pptx` | `5c6cfa6b2d78bdb8ca0de7ab4196c86fbcc88f17c12af7a3479559d42cef9297` |
+| `production/AI_Dev_Training_Full.pptx` | `b44e9acbfac037097011d4f5e1bfdb1ee8f8de958f1e9082fd06fb94e3eee1de` |
+| `production/ACT_0.pptx` | `5fe6e4f422cb275d1408c11bc9486f91180a643365f04f2e29282cd266c5b8f7` |
+| `production/ACT_1.pptx` | `094e0de7ad6cb0332b35f3661455c0e3387c2ccbe43f5a06f31aadb127fc1245` |
+| `production/ACT_2.pptx` | `70f040c1bf0419260404ba0a590c4e5ac90186a5bd51c785d913792ff60dfc0e` |
+| `production/ACT_3.pptx` | `4e3d2da3520e1cc6f8cb9286238e8cdb07ec681b2c02f7ebfd714e8065d06433` |
+| `production/ACT_4.pptx` | `8bb500f6fa97bfc88eda5eff629785d0b740b51879b5bebbad2e1f609f12ef1e` |
 | `production/ACT_5.pptx` | `af84add6162adaf83e5d67ec97d6486d45b52516357df8e2fd7e1857711b14b5` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `a0b25e8f230c22a10f05b4ca680b78f6c18d5cbcf07d88a24a30fcb1b3f6fd68` |
-| `production/notes/ACT_4_NOTES.md` | `7904126f23362585c553b11fd57f54033ff96ac11f2245772d94c4936133c15b` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `58571e9243c9d88c65eab2274906a37f7a949698485f4a50303f444399cdd887` |
+| `production/notes/ACT_4_NOTES.md` | `c75e17c300f67971bb792a59fa81be76564943e165c45b11312ad7cb719e6f8e` |
 | `production/notes/ACT_5_NOTES.md` | `2f03e5d4ab10b2a5d0994d9fa946ba4cf7bcecfca146cd7375265504b0661e4b` |
-| `production/preview/full/montage.png` | `1771093d23aa46398240eee0db14658856bc90db7d310a12bb4117fa27c37044` |
-| `production/preview/act4/montage.png` | `8dc0b79802857becf43b839eea16f8f1c24f6d9cd1e8c51419c8e2f19db9c29e` |
+| `production/preview/full/montage.png` | `97b956a3de7e735855ee83f2c4f614cce9585adb3e8aa4dab2c79cecd6c759ff` |
+| `production/preview/act4/montage.png` | `df7ed60b1ffc61925ce51a7d1af1b753617ed26facb075b26c2c6aa6e7f9d280` |
 | `production/preview/act5/montage.png` | `00bca4918faa445e9c27c15e2b62a3a421703b322101ceccfc74ccf80bcf11fc` |
 | `production/preview/full/S93.png` | `5ff0f2b96940061ee18f3f51c9fee8833bfb5f9d1e45ff3c0360ff124aeba04c` |
 | `production/preview/full/S95.png` | `d5fdf0d5a011efb818f54cb423d1213af2b1f5e6f94f0e8406a5d9ba57cd5bf4` |
@@ -39,6 +41,51 @@ S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과
 | `production/preview/full/S109.png` | `e5cf8a3385979be4f76184a9080738133574b7b4f443f6334a0cbe8210b853d4` |
 | `production/preview/full/S110.png` | `d5c1eb9b6adc0a13f88dc7175d8e769d7ebfccd42fdb4ff78d36bea0d5184ad0` |
 | `production/preview/full/S111.png` | `673df470f2c60de0328a344c329906b042171f77a4edaa2aa2ce965808dd34b0` |
+| `production/notes/ACT_0_NOTES.md` | `e2833bea4f7d770d89d84045080f92b08e0fc0aadcda8c0843bf5aea9ce285ce` |
+| `production/notes/ACT_1_NOTES.md` | `6fdc4c8baf9ffbb175a24430cd064b3e17c2b04c217c716f2f9bb9488dd1dc3d` |
+| `production/notes/ACT_2_NOTES.md` | `46c10f7d0adabf92c3865531e58f119cab6ccd1b36b3f8da8a148427cb1678bf` |
+| `production/notes/ACT_3_NOTES.md` | `d33eeb21631f66bd0b00f510c1ce381246b1d1fac8cf0eed18f920e0d8e3fc87` |
+| `production/preview/act0/montage.png` | `d4a2b936e6896f9173062c9a68c5d32f67ea97d979036f29ad381e9095d3f3e8` |
+| `production/preview/act1/montage.png` | `3ff2bb210a9aca2cdbcd42b9b158bb65cd7ce5af9d57cd4e54c2fd096b5feda6` |
+| `production/preview/act2/montage.png` | `5ade5f13f89a25f76a1e68080222b0b8e5758113b5e595ad1489ba201d121702` |
+| `production/preview/act3/montage.png` | `1c3147060de00346cc89835d542a99db51ef1a127d81b96557c2c28ae3e15e93` |
+| `production/preview/full/S04.png` | `87d6523758f603bd16b8546cc54206cba1f938efb709e2ce8b2d2c359d0e031a` |
+| `production/preview/full/S06.png` | `8361e41c90f2c75fd5b28e4e891ea23ebdf4bc94bbe963e18fbaac200e74f0f3` |
+| `production/preview/full/S11.png` | `e83c3429f8f392726f0b6081f2ede2f5fcce1ac839b0e654002b9ac589e32fcb` |
+| `production/preview/full/S12.png` | `c3628a20e8d631b6e0c23d6effb3aa0b823d3d5665caa89ec6d68ed7426b126f` |
+| `production/preview/full/S16.png` | `3a29cfed389cb6bb5448422faa6e8653bd01ee4f6d1b445f7515b82a59222209` |
+| `production/preview/full/S17.png` | `163b25b6b5c23ca874b6be235896be0d1f90e4a581d98501ffa1536e3416c954` |
+| `production/preview/full/S18.png` | `f94092dfcc8ccf6173b90aa305c48a19ffde7485698dc72c1b52802d315871c7` |
+| `production/preview/full/S21.png` | `de3c54ea96a72aa16fd9e432ee74af70dd7370a2327c038f91b8ec4c0488c4b7` |
+| `production/preview/full/S22.png` | `a262e20353cd6a6c323eb7b2742afc56d8cddecec62ac3b67654b557dd6706e1` |
+| `production/preview/full/S27.png` | `ae8266f7c8688233899784f2b1efed34b3c49612a3177caa9af6923fb024dba7` |
+| `production/preview/full/S28.png` | `7044c37b84e9d6a8ff85bf7ddb1c1ef59711bd639391dd59ed28c9b73601dac3` |
+| `production/preview/full/S29.png` | `fa4039262ec7e454ea7b0fbf26ccc4dd7fa9134b8971bacd9f06fedc3caa4a5f` |
+| `production/preview/full/S30.png` | `84d75d0f1aaddf6a91cb9ac7272c994d981f87ca7ee690a66874518c13cee649` |
+| `production/preview/full/S31.png` | `9adcecfcc4ecbdb0cd7461cee4a3b01aa3689793fa6e8047a3940c0b1c633638` |
+| `production/preview/full/S32.png` | `c94dae09df2f8deae047cd7ae898cd26c528d876d423b4a6b7b6a1124eded41e` |
+| `production/preview/full/S33.png` | `036d8ef361a0068726b645bcd7cb0717ab725552e3931cf47ae9fb69bea89e36` |
+| `production/preview/full/S34.png` | `1fcc83fb05e0a73ee4cabd01bdab2d13d25282b1ed1a9aa4096b59946141efb3` |
+| `production/preview/full/S35.png` | `fb141b92a672363efc2fb171bbff80402b2bea8e1f199c4fc94d28b338af02b0` |
+| `production/preview/full/S36.png` | `1fadd18242bfb46c85764e5ac58d91c05ee16f331670cd428491fb7cdfbfc670` |
+| `production/preview/full/S37.png` | `63981efbd12d4b07f757cceaac2021c9c9f5a9c8489219468bafb671379cb703` |
+| `production/preview/full/S39.png` | `116b078ac9d204051fa23e700b4f86faf0cf9963b9b4bf6ee2d851e72a66c8fa` |
+| `production/preview/full/S42.png` | `5f5e8cb0e0885a273a9503c5d09f05e85dadca9069f7d11a32764f22f626ecae` |
+| `production/preview/full/S44.png` | `8a8c9b28205f5d0ea2f90b5480414e9b202105419e145a7e69c6ebaf8ab3a78a` |
+| `production/preview/full/S46.png` | `d3e4e8ee5fb4132cbb24ae7e133bc69e0e0dbd201c8eb2c1b9aedf9c540c6342` |
+| `production/preview/full/S50.png` | `da923523804a6a685ad48814b9efbd3601a967a0876df675d552c77545c7b929` |
+| `production/preview/full/S51.png` | `2a9d9dbc9a7dba1376faa1654be4f6fb10ef81a4bc20f88f2665b73cd0c2da68` |
+| `production/preview/full/S53.png` | `ef392313e111ce8a324a79f181d2f78d804aa9c416b1cea33c82f35865af6acd` |
+| `production/preview/full/S58.png` | `4f388763ab7acfb81b6957f2e6a95ec831ecb31c6c80caec4c405453d74be61e` |
+| `production/preview/full/S59.png` | `41ff52f070cde76509d8f0f9256a77e71f9080b3b3f7476c92d8c7d0f2033ab6` |
+| `production/preview/full/S61.png` | `2b492671f9d71069570411a8613b20c235664aca146380f06eec267c9d955448` |
+| `production/preview/full/S63.png` | `ee0870859831acb86c62ae85650a0b05bb9cfa78b338cf3145b328858c788983` |
+| `production/preview/full/S64.png` | `7b4f970f9b666903f76089a23b6050fba71cc9fe4c8aff292ce65947fac34ab2` |
+| `production/preview/full/S65.png` | `7ea013e38b51ec61dc613e9d733d02133ca0153b3eaf020a21770cb5f507b9ee` |
+| `production/preview/full/S67.png` | `02b4bf7c68b83ad9e9a9d8934a24a71bc752d8732527c72194037b05a7e8b755` |
+| `production/preview/full/S71.png` | `e447fca761d007fa1b7b7948be8617493a9b254ce18f66c0ffe4a5fae3299be3` |
+| `production/preview/full/S79.png` | `a393c38375a5afa39ac8f1c0a2de1e837dc5cf527449f533508e4e7f205c7693` |
+| `production/preview/full/S92.png` | `46ee0d9a5de5b879aa717e9c013684174ff7e2fa66fb786c4bd6cf6c5a62a281` |
 
 ## 보존된 이전 전달 기록
 
