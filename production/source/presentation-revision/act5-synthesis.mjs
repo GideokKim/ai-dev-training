@@ -24,7 +24,7 @@ export function act5SynthesisFactories(){return {
    text(s,words,x,407,208,85,27,C.ink,true);
    if(i<4)arrow(s,x+214,349,16);
   });
-  text(s,'한 번의 답변에서, 근거를 확인하며 일을 맡기는 방식으로',64,551,1152,46,31,C.ink,true);
+  text(s,'이렇게 일을 맡기려면, AI에게 무엇을 연결해야 할까?',64,551,1152,46,31,C.ink,true);
   return s;
  },
  S104(p){

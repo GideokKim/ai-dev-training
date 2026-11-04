@@ -1,12 +1,12 @@
 # Demo Runbooks and Static Reference Files
 
-## 현행 발표 자료 · DEC-0160
+## 현행 발표 자료 · DEC-0168
 
-[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 113장·386분 중 ACT4는 S78–S97, ACT5는 S98–S113다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
+[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 112장·383분 중 ACT4는 S78–S97, ACT5는 S98–S112다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
 
-ACT3는 S60–S77의18장·64분, ACT4는 S78–S97의20장·82분, ACT5는 S98–S113의16장·44분이다.
-DEMO-03은 S65/S66의3Demo분, DEMO-08은 ACT5 S103의Demo2 VISUAL+Case2분이다.
-DEC-0156의 현행 편집 표는 S54/S81/S85, 차트는 S69다. S85에는 도구 배치, S94에는 권한·예산의 중단 조건이 있다. 마지막 팁 찾아보기는 S110–S112, Closing은 S113이다. [ACT4 운영 순서](loop-visual.md)
+ACT3는 S60–S77의18장·64분, ACT4는 S78–S97의20장·82분, ACT5는 S98–S112의16장·44분이다.
+DEMO-03은 S65/S66의3Demo분, DEMO-08은 ACT5 S102의Demo2 VISUAL+Case2분이다.
+DEC-0156의 현행 편집 표는 S54/S81/S85, 차트는 S69다. S85에는 도구 배치, S94에는 권한·예산의 중단 조건이 있다. 마지막 팁 찾아보기는 S109–S111, Closing은 S112이다. [ACT4 운영 순서](loop-visual.md)
 전역 Mode는 Lecture171/Demo44/Case97/Reflection19/Transition23/Q&A32분이다.
 S67의 Skill 제작 요청은 사용 예시다. 이어지는 S68은 기존 실제 밝기 통계 후보 비교, S69는 별도 제품 상태 전후 측정이다.
 S66의 DEC-0137 프롬프트창 디자인과 Notes의 실제 요청·역사적 CLI·재구성 범위를 유지한다.

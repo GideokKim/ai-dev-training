@@ -1,6 +1,6 @@
 # ACT 3 — Speaker Notes
 
-DEC-0160 · 113장·386분. ACT 3 · S60–S77 · 18장 · 64분.
+DEC-0168 · 112장·383분. ACT 3 · S60–S77 · 18장 · 64분.
 
 <details>
 <summary>이전 판본 표지</summary>

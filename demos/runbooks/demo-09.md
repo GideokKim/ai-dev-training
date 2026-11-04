@@ -1,12 +1,12 @@
 # DEMO-09 — Verification and System Map
 
-## 현행 발표 자료 · DEC-0160
+## 현행 발표 자료 · DEC-0168
 
-[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 113장·386분 중 ACT4는 S78–S97, ACT5는 S98–S113다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
+[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 112장·383분 중 ACT4는 S78–S97, ACT5는 S98–S112다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
 
 현재 S73의 실제 작업 역할은 CAPTURED Demo3분이며 S74의 Harness 관계(Lecture4+Demo2분)로 이어진다.
 S72 역할 분리 판단→S73 실제 구성→S74 Harness의 기존 실제 사례를 연결한다.
-Memory의 일반 개념은 ACT5 S103에서 다루며 이 구간에서 미리 설명하거나 필수 구성으로 넣지 않는다.
+Memory의 일반 개념은 ACT5 S102에서 다루며 이 구간에서 미리 설명하거나 필수 구성으로 넣지 않는다.
 삭제한 지식 출처 감사나 본문 포함 확인을 다시 넣지 않는다.
 
 Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 새 Trial·Demo 저장소·Sites·발표 묶음 변경은 없다.
@@ -24,7 +24,7 @@ Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNV
 
 현재 S74의 실제 작업 역할은 CAPTURED Demo3분이며 S75의 Harness 관계(Lecture4+Demo2분)로 이어진다.
 S73 역할 분리 판단→S74 실제 구성→S75 Harness의 기존 실제 사례를 연결한다.
-Memory의 일반 개념은 ACT5 S104에서 다루며 이 구간에서 미리 설명하거나 필수 구성으로 넣지 않는다.
+Memory의 일반 개념은 ACT5 S103에서 다루며 이 구간에서 미리 설명하거나 필수 구성으로 넣지 않는다.
 삭제한 지식 출처 감사나 본문 포함 확인을 다시 넣지 않는다.
 
 Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 새 Trial·Demo 저장소·Sites·발표 묶음 변경은 없다.
@@ -40,7 +40,7 @@ Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNV
 
 현재 S74의 실제 작업 역할은 CAPTURED Demo3분이며 S75의 Harness 관계(Lecture4+Demo2분)로 이어진다.
 S73 역할 분리 판단→S74 실제 구성→S75 Harness의 기존 실제 사례를 연결한다.
-Memory의 일반 개념은 ACT5 S108에서 다루며 이 구간에서 미리 설명하거나 필수 구성으로 넣지 않는다.
+Memory의 일반 개념은 ACT5 S107에서 다루며 이 구간에서 미리 설명하거나 필수 구성으로 넣지 않는다.
 삭제한 지식 출처 감사나 본문 포함 확인을 다시 넣지 않는다.
 
 Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. 새 Trial·Demo 저장소·Sites·발표 묶음 변경은 없다.
@@ -49,13 +49,13 @@ Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNV
 
 ## Current119 presentation references — DEC-0133
 
-현재119장·405분. 이전 S74의 Memory4분을 ACT5 S109로 옮기며 이전 S75–S109는-1한다. 나머지 번호는 같다.
+현재119장·405분. 이전 S74의 Memory4분을 ACT5 S108로 옮기며 이전 S75–S108는-1한다. 나머지 번호는 같다.
 현재 번호/경로/해시는 [현행 Map](../../plan/SLIDE_MAP.md), [번호 이행](../../plan/SLIDE_ID_MIGRATION_MEMORY_ACT5_DEC0133.md),
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. 아래 이전 배치·시간·번호는 당시 이력이다.
 
 현재 S74의 실제 작업 역할은 CAPTURED Demo3분이며 S75의 Harness 관계(Lecture4+Demo2분)로 이어진다.
 S73 역할 분리 판단→S74 실제 구성→S75 Harness의 기존 실제 사례를 연결한다.
-Memory의 일반 개념은 ACT5 S109에서 다루며 이 구간에서 미리 설명하거나 필수 구성으로 넣지 않는다.
+Memory의 일반 개념은 ACT5 S108에서 다루며 이 구간에서 미리 설명하거나 필수 구성으로 넣지 않는다.
 삭제한 지식 출처 감사나 본문 포함 확인을 다시 넣지 않는다.
 
 Live/Hybrid·Windows·발표PC/교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo 저장소·Sites·발표 묶음 변경은 없다.
@@ -118,7 +118,7 @@ S72→S73: S71의 지식 출처를 회수한 뒤 S72에서 목표·Context·Skil
 [FALLBACK_MANIFEST](FALLBACK_MANIFEST.md)를 따른다. Windows/제품/계정/교육장/리허설은 UNVERIFIED다.
 
 
-> Current references: DEC-0093 /115slides/406minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_115.md. Only new S63/S68 add Lecture, no Demo time. ACT4 remains19pages/81minutes; final tip indexes S112-S114. Windows/product/account/room/timed rehearsal UNVERIFIED.
+> Current references: DEC-0093 /115slides/406minutes. Current IDs/static paths follow SLIDE_ID_MIGRATION_115.md. Only new S63/S68 add Lecture, no Demo time. ACT4 remains19pages/81minutes; final tip indexes S111-S114. Windows/product/account/room/timed rehearsal UNVERIFIED.
 
 
 Planning Status: CANDIDATE — supporting visual/captured record

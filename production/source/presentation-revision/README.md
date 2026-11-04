@@ -1,3 +1,13 @@
+# ACT 5 opening and numbering (DEC-0168)
+
+Use `--release --release-acts=5` to rebuild the integrated112-slide deck
+and ACT5. The final `act5-workflow-removal-112.mjs` boundary omits the
+113-edition S100 after all retained source migrations. The retained
+S101-S113 become S100-S112. The source99 question leads directly to the
+information, reusable methods and verification tools on current S100.
+Render112slides/383minutes, with ACT5 at15slides/41minutes.
+Retained earlier factories and input metadata keep their documented IDs.
+
 # ACT 4 product tips (DEC-0160)
 
 Use `--release --release-acts=4,5` to rebuild the integrated presentation, ACT 4 and the ACT 5 tip index. S92 follows the state-file example on S91. S97 closes ACT 4 with a single copyable Goal prompt. The earlier 113-slide source factories are renumbered at the final assembly boundary.

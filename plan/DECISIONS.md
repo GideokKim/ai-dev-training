@@ -15507,3 +15507,33 @@ from the operating account that supplies the six-role teaching model.
 
 The change improves recognition of each role and keeps all six descriptions,
 the five-minute allocation, and the optional nature of the components.
+
+# DEC-0168 — Remove the repeated ACT5 workflow recap
+
+Status: ACCEPTED by explicit user instruction.
+Date: 2026-11-04.
+
+## Context and Decision
+
+S83 already explains the implementation, review and correction workflow.
+Remove the former113-edition S100 and its three minutes from ACT5. End
+S99 with the question about what to connect to the agent, then answer it
+with the retained information, methods and verification tools slide.
+Renumber former S101-S113 as S100-S112 across current slides, Notes,
+planning, navigation and delivery references. Retain earlier records
+under their documented edition numbers.
+
+## Rationale and Impact
+
+The repeated five-stage diagram does not add a new decision after ACT4.
+The scope recap can lead directly to the conditions for doing that work.
+Do not redistribute the removed Lecture1+Case2 minutes. The course now
+has112slides/383minutes and ACT5 has15slides/41minutes. Keep all remaining
+per-slide time, modes, Section/Beat/Trial/Demo IDs and claim boundaries.
+
+Affected artifacts include the builder's final numbering boundary,
+current slide and template maps, curriculum, Notes, the Full/ACT5 decks,
+previews, fallback navigation and the final handoff. No new Trial or
+measured outcome is added. Keep classroom, account and Windows checks
+unverified until performed. Related invariants are INV-NARRATIVE-001,
+INV-RESPONSIBILITY-001 and INV-VERIFY-001.

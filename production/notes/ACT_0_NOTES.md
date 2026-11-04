@@ -1,6 +1,6 @@
 # ACT 0 — Speaker Notes
 
-DEC-0160 · 113장·386분. ACT 0 · S01–S14 · 14장 · 42분.
+DEC-0168 · 112장·383분. ACT 0 · S01–S14 · 14장 · 42분.
 
 <details>
 <summary>이전 판본 표지</summary>

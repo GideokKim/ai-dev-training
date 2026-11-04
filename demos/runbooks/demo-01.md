@@ -1,8 +1,8 @@
 # DEMO-01 — Repository Exploration
 
-## 현행 발표 자료 · DEC-0160
+## 현행 발표 자료 · DEC-0168
 
-[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 113장·386분 중 ACT4는 S78–S97, ACT5는 S98–S113다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
+[Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 112장·383분 중 ACT4는 S78–S97, ACT5는 S98–S112다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
 
 DEMO-01의 현재 Map 명시 참조: S06, S07, S08, S09, S10, S11, S12, S13, S14이다. 회수/Case 참조를 모두 Demo 시간으로 세지 않는다.
 

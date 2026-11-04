@@ -51,16 +51,23 @@ keep them stable when this document is reordered and never reuse a retired ID.
 
 - Category: Training Identity
 - Strength: HARD
-- Rule: This is a developer training about ChatGPT and Codex in AI-Native
-  Development. The current net duration is389minutes under DEC-0138, within
-  the user-authorized720-minute ceiling. Use113slides under DEC-0138, including the approved
-  Goal continuation and request content in the combined S95 under DEC-0144,
-  the S04 Copilot IDE tip and three
-  scoped-instruction tips S56-S58. ACT2 has22slides/90minutes; ACT3 has18slides/64minutes;
-  ACT5 has16slides/44minutes after moving the existing four-minute
-  Context/Memory lesson to ACT5 (now S103) under DEC-0133.
-  Retain the20-slide/85-minute ACT4 and other ACT budgets/evidence.
-  The prior GPU slide remains deleted; retain all other approved tips.
+- Rule: This is developer training about ChatGPT and Codex in AI-Native
+  Development. Use the user-approved112slides/383minutes under DEC-0168,
+  within the720-minute ceiling. ACT allocations are14/23/22/18/20/15slides
+  and42/64/90/64/82/41minutes. Remove former S100 and its Lecture1+Case2
+  minutes. Preserve the remaining evidence boundaries, the six ACTs, the
+  existing tips, and the retained knowledge lesson on current S102.
+- Historical DEC-0138/0144 active text, superseded by DEC-0160/0168:
+  - Rule: This is a developer training about ChatGPT and Codex in AI-Native
+    Development. The current net duration is389minutes under DEC-0138, within
+    the user-authorized720-minute ceiling. Use113slides under DEC-0138, including the approved
+    Goal continuation and request content in the combined S95 under DEC-0144,
+    the S04 Copilot IDE tip and three
+    scoped-instruction tips S56-S58. ACT2 has22slides/90minutes; ACT3 has18slides/64minutes;
+    ACT5 has16slides/44minutes after moving the existing four-minute
+    Context/Memory lesson to ACT5 (now S103) under DEC-0133.
+    Retain the20-slide/85-minute ACT4 and other ACT budgets/evidence.
+    The prior GPU slide remains deleted; retain all other approved tips.
 - Historical DEC-0136/0137 Rule:392minutes/114slides, ACT3 19slides/67minutes.
   DEC-0138 deletes the current procedure-recap S68 and its Lecture3minutes
   without absorption or redistribution; later slides shift down1.
@@ -96,7 +103,7 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Rationale: The audience, subject, and duration define the scope of the
   training.
 - Source: plan/MASTER_PLAN.md §§1.1–1.2
-- Validation: Does the material preserve the developer scope and the current389-minute schedule and720-minute ceiling under DEC-0138?
+- Validation: Does the material preserve the developer scope and the current383-minute schedule and720-minute ceiling under DEC-0168?
 - Change Policy: Require explicit user approval before changing the scope or
   duration.
 
@@ -905,7 +912,7 @@ affected work proceeds.
 
 | Invariant ID | Category | Strength | Validation Question |
 | --- | --- | --- | --- |
-| INV-IDENTITY-001 | Training Identity | HARD | Does the material preserve the developer scope and the current user-approved396-minute schedule and720-minute ceiling under DEC-0090? |
+| INV-IDENTITY-001 | Training Identity | HARD | Does the material preserve the developer scope and the current user-approved383-minute schedule and720-minute ceiling under DEC-0168? |
 | INV-IDENTITY-002 | Training Identity | HARD | Does it teach AI-use evolution into an Engineering System rather than only features, a manual, or Prompt writing? |
 | INV-AUDIENCE-001 | Audience | HARD | Does it account for the broad experience range and limited time for separate study? |
 | INV-OBJECTIVE-001 | Primary Objective | HARD | Does it raise the shared organizational AI-use baseline above feature breadth or one-level optimization? |

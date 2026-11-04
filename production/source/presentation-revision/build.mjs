@@ -35,7 +35,8 @@ import {beforeS78Removal,migrateS78RemovalFactories,applyS78Removal} from './s78
 import {COMPACT_FRESH_IDS,beforeCompactHandoff,migrateCompactHandoffFactories,applyCompactHandoff} from './compact-handoff-114.mjs';
 import {beforeProcedureRecapRemoval,migrateProcedureRecapRemovalFactories,applyProcedureRecapRemoval} from './procedure-recap-removal-113.mjs';
 
-import {CURRENT_SLIDE_COUNT,beforeProductTips,applyProductTipNumbers,productTipFactories} from './codex-loop-tips.mjs';
+import {beforeProductTips,applyProductTipNumbers,productTipFactories} from './codex-loop-tips.mjs';
+import {CURRENT_SLIDE_COUNT,beforeAct5WorkflowRemoval,applyAct5WorkflowNumbers} from './act5-workflow-removal-112.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
 const ROOT=process.env.TRAINING_REPO??path.resolve(here,'../../..');
@@ -171,7 +172,8 @@ for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,recapRemoved113);
 // Keep the retained ACT4 factories in their 113-slide edition.
 const operations = loopOperationsFactories(H);
-const productTips = productTipFactories(H,map);
+const retainedMap=Object.fromEntries(Object.entries(map).map(([id,record])=>[beforeAct5WorkflowRemoval(id),record]));
+const productTips = productTipFactories(H,retainedMap);
 const notes={};
 for(let act=0;act<6;act++){
  const text=await fs.readFile(path.join(ROOT,`production/notes/ACT_${act}_NOTES.md`),'utf8');
@@ -179,7 +181,7 @@ for(let act=0;act<6;act++){
 }
 const idsArg=process.argv.find(a=>a.startsWith('--ids='))?.slice(6);
 const ids=idsArg?idsArg.split(','):Object.keys(map);
-const missing=ids.filter(id=>!productTips[id] && !factories[beforeProductTips(id)]);if(missing.length)throw new Error('Missing authoring functions: '+missing.join(','));
+const missing=ids.filter(id=>!productTips[beforeAct5WorkflowRemoval(id)] && !factories[beforeProductTips(beforeAct5WorkflowRemoval(id))]);if(missing.length)throw new Error('Missing authoring functions: '+missing.join(','));
 const stamp=process.env.PRESENTATION_BUILD_ID??new Date().toISOString().replace(/[:.]/g,'-');
 const buildDir=path.join(WORK,'build',stamp),outDir=path.join(WORK,'output',stamp);
 await fs.mkdir(buildDir,{recursive:true});await fs.mkdir(outDir,{recursive:true});
@@ -194,15 +196,18 @@ for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const currentId of deck.ids){
   if (!notes[currentId]) throw new Error('Missing Notes '+currentId);
-  if (productTips[currentId]) {
-   const slide=productTips[currentId](p);
+  const retainedId=beforeAct5WorkflowRemoval(currentId);
+  if (productTips[retainedId]) {
+   const slide=productTips[retainedId](p);
+   applyAct5WorkflowNumbers(slide);
    slide.speakerNotes.text=notes[currentId];
    continue;
   }
-  const id=beforeProductTips(currentId);
+  const id=beforeProductTips(retainedId);
   if (operations[id]) {
    const slide = operations[id](p);
    applyProductTipNumbers(slide);
+   applyAct5WorkflowNumbers(slide);
    slide.speakerNotes.text = notes[currentId];
    continue;
   }
@@ -243,6 +248,7 @@ for(const deck of decks){
   }
   applyProcedureRecapRemoval(s);
   applyProductTipNumbers(s);
+  applyAct5WorkflowNumbers(s);
   s.speakerNotes.text=notes[currentId];
  }
  const candidate=path.join(buildDir,deck.name+'.candidate.pptx');await(await PresentationFile.exportPptx(p)).save(candidate);

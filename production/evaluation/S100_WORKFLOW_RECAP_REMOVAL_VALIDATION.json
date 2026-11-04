@@ -1,0 +1,388 @@
+{
+  "baseline": "5602164",
+  "slideCount": 112,
+  "minutes": 383,
+  "actCounts": [
+    14,
+    23,
+    22,
+    18,
+    20,
+    15
+  ],
+  "actMinutes": [
+    42,
+    64,
+    90,
+    64,
+    82,
+    41
+  ],
+  "modeMinutes": {
+    "Transition": 23,
+    "Lecture": 170,
+    "Reflection": 19,
+    "Case": 95,
+    "Demo": 44,
+    "Q&A": 32
+  },
+  "renderCount": 127,
+  "notesCompared": 127,
+  "notesFields": 19,
+  "unchangedScreens": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20",
+    "S21",
+    "S22",
+    "S23",
+    "S24",
+    "S25",
+    "S26",
+    "S27",
+    "S28",
+    "S29",
+    "S30",
+    "S31",
+    "S32",
+    "S33",
+    "S34",
+    "S35",
+    "S36",
+    "S37",
+    "S38",
+    "S39",
+    "S40",
+    "S41",
+    "S42",
+    "S43",
+    "S44",
+    "S45",
+    "S46",
+    "S47",
+    "S48",
+    "S49",
+    "S50",
+    "S51",
+    "S52",
+    "S53",
+    "S54",
+    "S55",
+    "S56",
+    "S57",
+    "S58",
+    "S59",
+    "S60",
+    "S61",
+    "S62",
+    "S63",
+    "S64",
+    "S65",
+    "S66",
+    "S67",
+    "S68",
+    "S69",
+    "S70",
+    "S71",
+    "S72",
+    "S73",
+    "S74",
+    "S75",
+    "S76",
+    "S77",
+    "S78",
+    "S79",
+    "S80",
+    "S81",
+    "S82",
+    "S83",
+    "S84",
+    "S85",
+    "S86",
+    "S87",
+    "S88",
+    "S89",
+    "S90",
+    "S91",
+    "S92",
+    "S93",
+    "S94",
+    "S95",
+    "S96",
+    "S97",
+    "S98"
+  ],
+  "onlyRenumberedScreens": [
+    "S100",
+    "S101",
+    "S102",
+    "S103",
+    "S104",
+    "S105",
+    "S106",
+    "S107",
+    "S108",
+    "S109",
+    "S110",
+    "S111",
+    "S112"
+  ],
+  "contentChangedScreens": [
+    "S99"
+  ],
+  "removedPreviousSlide": "S100",
+  "notesChangedAfterMapping": [
+    "S99",
+    "S100",
+    "S101",
+    "S102",
+    "S103",
+    "S104",
+    "S105",
+    "S106",
+    "S107",
+    "S108",
+    "S109",
+    "S110",
+    "S111",
+    "S112"
+  ],
+  "templateCoverage": {
+    "T12": 6,
+    "T01": 4,
+    "T03": 56,
+    "T02": 6,
+    "T05": 4,
+    "T07": 12,
+    "T04": 14,
+    "T06": 4,
+    "T09": 1,
+    "T10": 5
+  },
+  "decks": {
+    "AI_Dev_Training_Full": {
+      "slideCount": 112,
+      "sha256": "4754e027a847cda2ee3ecaec52d45e072c39ae560c4a499163fb0584f47363d7",
+      "OOXMLSchema": {
+        "validatedXmlParts": 476,
+        "baselineXmlParts": 480,
+        "newSchemaErrors": 0,
+        "inheritedErrorCount": 0,
+        "schemaRegression": "PASS"
+      },
+      "warnings": [
+        {
+          "connector_id": "25",
+          "connector_z": 25,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "24",
+          "text_z": 24
+        },
+        {
+          "connector_id": "28",
+          "connector_z": 28,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "27",
+          "text_z": 27
+        },
+        {
+          "available_bottom_in": 6.2917,
+          "columns": 3,
+          "declared_bottom_in": 5.7917,
+          "estimated_native_bottom_in": 6.3017,
+          "footer_object_ids": [
+            "4"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 0.01,
+          "rows": 8,
+          "slide": 54,
+          "table_id": "8"
+        },
+        {
+          "connector_id": "11",
+          "connector_z": 12,
+          "kind": "connector_over_text",
+          "slide": 79,
+          "text_object_id": "10",
+          "text_z": 11
+        }
+      ]
+    },
+    "ACT_5": {
+      "slideCount": 15,
+      "sha256": "b460846d966468ca44d15efdcc5fcde9118f83f78bb1b223ebfbea175ffedf42",
+      "OOXMLSchema": {
+        "validatedXmlParts": 86,
+        "baselineXmlParts": 90,
+        "newSchemaErrors": 0,
+        "inheritedErrorCount": 0,
+        "schemaRegression": "PASS"
+      },
+      "warnings": []
+    }
+  },
+  "pixelDifferences": [
+    {
+      "slide": "S99",
+      "previousSlide": "S99",
+      "changedPixelBounds": [
+        96,
+        841,
+        1125,
+        888
+      ]
+    },
+    {
+      "slide": "S100",
+      "previousSlide": "S101",
+      "changedPixelBounds": [
+        1809,
+        82,
+        1824,
+        104
+      ]
+    },
+    {
+      "slide": "S101",
+      "previousSlide": "S102",
+      "changedPixelBounds": [
+        1809,
+        82,
+        1823,
+        103
+      ]
+    },
+    {
+      "slide": "S102",
+      "previousSlide": "S103",
+      "changedPixelBounds": [
+        1809,
+        82,
+        1824,
+        104
+      ]
+    },
+    {
+      "slide": "S103",
+      "previousSlide": "S104",
+      "changedPixelBounds": [
+        1809,
+        82,
+        1824,
+        104
+      ]
+    },
+    {
+      "slide": "S104",
+      "previousSlide": "S105",
+      "changedPixelBounds": [
+        1809,
+        82,
+        1824,
+        104
+      ]
+    },
+    {
+      "slide": "S105",
+      "previousSlide": "S106",
+      "changedPixelBounds": [
+        1809,
+        82,
+        1824,
+        104
+      ]
+    },
+    {
+      "slide": "S106",
+      "previousSlide": "S107",
+      "changedPixelBounds": [
+        1809,
+        82,
+        1824,
+        104
+      ]
+    },
+    {
+      "slide": "S107",
+      "previousSlide": "S108",
+      "changedPixelBounds": [
+        1809,
+        82,
+        1824,
+        104
+      ]
+    },
+    {
+      "slide": "S108",
+      "previousSlide": "S109",
+      "changedPixelBounds": [
+        1809,
+        82,
+        1824,
+        104
+      ]
+    },
+    {
+      "slide": "S109",
+      "previousSlide": "S110",
+      "changedPixelBounds": [
+        1112,
+        82,
+        1824,
+        729
+      ]
+    },
+    {
+      "slide": "S110",
+      "previousSlide": "S111",
+      "changedPixelBounds": [
+        1809,
+        82,
+        1824,
+        104
+      ]
+    },
+    {
+      "slide": "S111",
+      "previousSlide": "S112",
+      "changedPixelBounds": [
+        1092,
+        82,
+        1823,
+        731
+      ]
+    },
+    {
+      "slide": "S112",
+      "previousSlide": "S113",
+      "changedPixelBounds": [
+        1809,
+        82,
+        1824,
+        104
+      ]
+    }
+  ],
+  "Windows PowerPoint": "UNVERIFIED",
+  "room and timed rehearsal": "UNVERIFIED"
+}

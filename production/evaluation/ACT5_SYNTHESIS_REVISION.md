@@ -1,5 +1,11 @@
 # ACT5 종합 구간 수정 결과
 
+## 현재 ACT5 연결 — DEC-0168
+
+S99의 범위 종합에서 새 S100의 정보·절차·도구로 이어진다. 이전 S100은 삭제했으며 새 S100–S112의 제목은 기존 S101–S113에 해당한다. 전체 112장·383분, ACT5 15장·41분이다. [현재 수정·검토 결과](S100_WORKFLOW_RECAP_REMOVAL.md) · [번호 대응](../../plan/S100_WORKFLOW_RECAP_REMOVAL.md)
+
+## 보존된 이전 종합 결과
+
 Decision: DEC-0099. Baseline:`5e93fae`. Date:2026-10-25.
 Status: LOCAL CONTENT / RENDER / NOTES ALIGNMENT COMPLETE.
 
