@@ -4,9 +4,9 @@
 
 The 43 entries identify local static fallbacks for the 112-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S97.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`9bc243990fbb19344872a6b7f669413dcd95cd03681e23ba66afedcc6598f6d8`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`b9883519ba3f78a4c8cffd43946e811b1434e770e64033183ecef224987b66ad`.
-- `production/preview/full/montage.png` SHA-256:`f9feb79a903bd0ee9f00034573ac2a773c3b88a7f3ab3e9beb776afc84ea5632`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`f57dcb4b89466e53aa80b270828db0af9b7403879c83ed6bc8e721333def4d5b`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`fa606cd7c7c33e7bc03b5a0573721337e3884d1079b3fea7a3e3dd8a630807b7`.
+- `production/preview/full/montage.png` SHA-256:`494e19540a173c52f6d0f1b3e53af7f4826fe3ca3c1b53a3f0d2838fefbbb1e7`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
@@ -53,7 +53,7 @@ The 43 entries identify local static fallbacks for the 112-slide course. S90 use
 | S96 | TEACHING_TEAM_REFLECTION | `production/preview/full/S96.png` | 1920×1080 | `284929ebb96d0daabd4047ef73dfd9b2f1fbaf67336d239992bdcc49d9aa3a2c` |
 | S97 | DOCUMENTED_CODEX_GOAL_TIP | `production/preview/full/S97.png` | 1920×1080 | `8b1e1206df58453134c0ba6f7d1b3a3a020e790319c3ebc4cdf871d07ea52c6e` |
 | S99 | TEACHING_SYNTHESIS | `production/preview/full/S99.png` | 1920×1080 | `2af51fb5d33ac2c5dad65f9678ff7a0a0de919b72de54257e54a2d5bd919809c` |
-| S100 | TEACHING_WORK_CONDITIONS | `production/preview/full/S100.png` | 1920×1080 | `411bf1ea5e7c44aa8180129299feebccdc9fbd47e515009b10088b5388a51919` |
+| S100 | TEACHING_WORK_CONDITIONS | `production/preview/full/S100.png` | 1920×1080 | `5bd932801be179af2e47906163b0dcaa2e2eeceec7093bf747cc7eff56bb2f65` |
 | S102 | RETAINED_DEMO_STATIC | `production/preview/full/S102.png` | 1920×1080 | `bb37d6383146a5c837247e154fd537e00eaa33dc62d613d88b354eb795f794e0` |
 
 <details>

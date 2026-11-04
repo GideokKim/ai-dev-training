@@ -15547,3 +15547,19 @@ Remove the lower caption stating that the course frames the diagram as
 AI-Native Development. Keep the three work-design areas and the question
 about reassessing the current setup. Retain the teaching-model scope in
 speaker notes. Preserve all slide numbers, time allocations and evidence.
+
+# DEC-0170 — Make the work conditions on S100 visible at a glance
+
+Status: ACCEPTED by explicit user instruction.
+Date: 2026-11-04.
+
+Present the information, reusable method and verification tools as three
+input roles on the left. Connect them to one central Agent and show the
+change, verification evidence and unresolved items as a result record on
+the right. Use a consistent Lucide icon set, distinct input colors and
+editable labels and connectors. Match the speaking cues to this reading
+order. Retain the teaching-model scope and the two lecture minutes.
+
+S99 asks what to connect to the Agent. S100 supplies the three work
+conditions. S101 retains the person's decision to accept the result.
+No execution, benchmark or product-availability claim is added.

@@ -267,12 +267,14 @@ Lecture 2분
 “이 작업 흐름은 어떤 정보와 수행 조건에 연결되어 있을까요?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / Lecture) S99의 마지막 질문 “이렇게 일을 맡기려면, AI에게 무엇을 연결해야 할까?”에 답한다. 프로젝트 정보·재사용할 수행 방법·검증 도구 세 입력을 가리킨다.
-2. (0:30–1:30 / Lecture) 프로젝트 정보는 코드·명세·프로젝트 지식, 수행 방법은 조사·변경·검증 순서, 검증 도구는 테스트·측정·결과 비교의 역할임을 짚는다. Skill이나 도구 사용법을 재강의하지 않고 연결 관계만 보여 준다.
-3. (1:30–2:00 / Lecture) 결과에 변경 내용·확인 근거·미해결 항목을 남기는 이유를 회수한다. 구성 요소의 채택·보류나 개인 행동을 선택시키지 않고 S101의 수용 판단으로 넘긴다.
+1. (0:00–0:30 / Lecture) S99의 마지막 질문 “이렇게 일을 맡기려면, AI에게 무엇을 연결해야 할까?”에 답한다. 왼쪽의 프로젝트 정보·재사용할 수행 방법·검증 도구를 위에서 아래로 짚는다.
+2. (0:30–1:30 / Lecture) 프로젝트 정보는 코드·명세·프로젝트 지식, 수행 방법은 조사·변경·검증 순서, 검증 도구는 테스트·측정·결과 비교의 역할임을 짚는다. 세 입력의 선이 가운데 Agent에 모이는 것을 따라가며 조사·변경·검토를 수행할 조건임을 설명한다.
+3. (1:30–2:00 / Lecture) 오른쪽 결과 기록의 변경 내용·확인 근거·미해결 항목을 짚고, 사람이 읽을 자료를 남기는 이유를 회수한다. 구성 요소의 채택·보류나 개인 행동을 선택시키지 않고 S101의 수용 판단으로 넘긴다.
 
 **Evidence / Source:**
 TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
+
+아이콘은 Lucide 1.8.0의 FolderOpen, ListChecks, Wrench, Bot, FileText다. 출처 https://lucide.dev 및 assets/slide-illustrations/work-conditions/LICENSE.
 
 보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
 
@@ -291,7 +293,7 @@ Context의 사실, Workflow의 방법, 도구가 제공하는 근거는 책임�
 개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S107/S108에 남긴다.
 
 **Demo Operation:**
-새 Trial·Live·실행 캡처 없음. 상단 세 입력인 프로젝트 정보·재사용 수행 방법·검증 도구를 가운데 Agent 작업으로 연결한다. 하단에 변경 내용·확인 근거·미해결 항목을 표시한다. 구성요소 채택·보류 메뉴를 만들지 않는다.
+새 Trial·Live·실행 캡처 없음. 왼쪽의 프로젝트 정보·재사용할 수행 방법·검증 도구를 가운데 Agent 작업으로 연결한 뒤 오른쪽 결과 기록으로 이동한다. 아이콘은 역할을 구별하는 그림이다. 구성요소 채택·보류 메뉴를 만들지 않는다.
 
 **Audience Interaction:**
 설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S107/S108에 남긴다.
@@ -303,10 +305,10 @@ Context의 사실, Workflow의 방법, 도구가 제공하는 근거는 책임�
 Lecture2분. 기존 장별 총시간을 유지한다. 상세 기법을 재강의하지 않고 실제 리허설은 UNVERIFIED로 둔다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S100와 production/preview/act5/S100.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/S100_WORKFLOW_RECAP_REMOVAL.md를 따른다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S100와 production/preview/act5/S100.png. 설명용 도식이며 실행 캡처가 아니다. 현재 시각 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md의 DEC-0170 기록을 따른다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0099. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md에 별도 기록한다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
+CONTENT ALIGNED — DEC-0170. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md의 DEC-0170 기록을 따른다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
 ## S101 — 결과를 수용할지는 사람이 판단한다
 

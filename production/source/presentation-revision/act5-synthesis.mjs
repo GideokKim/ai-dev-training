@@ -1,12 +1,10 @@
 /** DEC-0099: explain the course synthesis without Demo history assumptions. */
 import * as H from './helpers.mjs';
+import {readFileSync} from 'node:fs';
 
 const {C,text,rect,line}=H;
 const arrow=(s,x,y,w)=>s.shapes.add({geometry:'connector',kind:'straight',
  position:{left:x,top:y,width:w,height:0},line:{fill:C.teal,width:2.5},
- tail:{type:'triangle',width:'sm',length:'sm'}});
-const down=(s,x,y,h)=>s.shapes.add({geometry:'connector',kind:'straight',
- position:{left:x,top:y,width:0,height:h},line:{fill:C.teal,width:2.5},
  tail:{type:'triangle',width:'sm',length:'sm'}});
 const frame=(p,id,title,eyebrow)=>H.frame(p,id,title,eyebrow,
  '교육에서 배운 관점의 종합 · TEACHING MODEL',
@@ -46,18 +44,39 @@ export function act5SynthesisFactories(){return {
  },
  S105(p){
   const s=frame(p,'S105','작업 흐름에는 정보·절차·도구가 연결된다','ACT 5 · AI가 일하는 조건');
-  text(s,'Agent의 작업은 주어진 명세·수행 방법·확인 도구와 연결된다',64,190,1152,46,30,C.teal,true);
-  const inputs=[['프로젝트 정보','코드 · 명세 · 프로젝트 지식'],['재사용할 수행 방법','조사 · 변경 · 검증 순서'],['검증 도구','테스트 · 측정 · 결과 비교']];
-  inputs.forEach(([a,b],i)=>{
-   const x=64+i*400;line(s,x,273,352,C.teal,3);
-   text(s,a,x,291,352,43,29,C.teal,true);
-   text(s,b,x,346,352,43,24,C.ink);
-   if(i!==1)s.shapes.add({geometry:'line',position:{left:x+176,top:402,width:0,height:26},line:{fill:C.teal,width:2.5}});
+  const icon=(name,x,y,size,description)=>{
+   const bytes=readFileSync(new URL(`../../../assets/slide-illustrations/work-conditions/${name}.png`,import.meta.url));
+   s.images.add({blob:new Uint8Array(bytes),contentType:'image/png',alt:description,fit:'contain',
+    position:{left:x,top:y,width:size,height:size}});
+  };
+  const inputs=[
+   ['프로젝트 정보','코드 · 명세 · 프로젝트 지식','FolderOpen','#285A96'],
+   ['재사용할 수행 방법','조사 · 변경 · 검증 순서','ListChecks','#4B6529'],
+   ['검증 도구','테스트 · 측정 · 결과 비교','Wrench','#875415']
+  ];
+  inputs.forEach(([name,detail,symbol,color],i)=>{
+   const y=203+i*122;
+   icon(symbol,71,y+8,52,name);
+   text(s,name,139,y,300,43,28,color,true);
+   text(s,detail,139,y+46,304,34,23,C.ink);
+   line(s,451,y+40,59,C.teal,2.5);
   });
-  line(s,240,428,800,C.teal,2.5);down(s,640,397,63);
-  rect(s,416,460,448,71,C.pale);
-  text(s,'조사·변경·검토하는 Agent',436,472,408,47,30,C.teal,true,H.FONT,'center');
-  text(s,'결과로 남길 것: 변경 내용 · 확인 근거 · 미해결 항목',64,554,1152,43,29,C.ink,true);
+  s.shapes.add({geometry:'line',position:{left:510,top:243,width:0,height:244},line:{fill:C.teal,width:2.5}});
+  arrow(s,510,365,80);
+  s.shapes.add({name:'Agent work',geometry:'ellipse',position:{left:590,top:255,width:220,height:220},
+   fill:C.pale,line:{fill:C.teal,width:2}});
+  icon('Bot',643,277,114,'Agent');
+  text(s,'Agent',612,398,176,49,38,C.teal,true,H.FONT,'center');
+  text(s,'조사·변경·검토',564,497,272,43,27,C.teal,true,H.FONT,'center');
+  arrow(s,810,365,130);
+
+  rect(s,940,225,276,329,C.white,C.line,1.5);
+  icon('FileText',960,245,35,'작업 결과 기록');
+  text(s,'결과로 남길 것',1006,245,194,43,27,'#315C87',true);
+  line(s,960,306,236,C.line,1);
+  ['변경 내용','확인 근거','미해결 항목'].forEach((label,i)=>{
+   text(s,label,967,326+i*73,229,44,30,C.ink,true);
+  });
   return s;
  },
  S106(p){

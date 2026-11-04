@@ -2603,16 +2603,16 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 3 payoff; ACT 4 Minimum Effective Harness callback; ACT 5 synthesis.; ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S107/S108에 남긴다.
-- **Visual Concept:** 상단 세 입력인 프로젝트 정보·재사용 수행 방법·검증 도구를 가운데 Agent 작업으로 연결한다. 하단에 변경 내용·확인 근거·미해결 항목을 표시한다. 구성요소 채택·보류 메뉴를 만들지 않는다.
+- **Visual Concept:** 왼쪽에 정보·수행 방법·검증 도구를 서로 다른 색의 아이콘과 짧은 설명으로 세로 배치한다. 세 입력을 가운데 Agent에 모으고 오른쪽 결과 기록의 변경 내용·확인 근거·미해결 항목으로 연결한다. 입력→작업→결과의 한 방향 도식이다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
 - **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
 - **Advanced Payoff:** Context의 사실, Workflow의 방법, 도구가 제공하는 근거는 책임이 다르다. 모든 작업의 필수 구현·저장 방식이나 특정 구성이 더 우월하다는 결과를 제시하지 않는다.
 - **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S107/S108에 남긴다.
-- **Speaker Intent:** S99의 마지막 질문에 세 입력으로 답한다. 프로젝트 정보·재사용할 수행 방법·검증 도구의 역할을 짚고, 작업 결과의 변경 내용·확인 근거·미해결 항목을 S101의 사람 수용 판단으로 넘긴다.
+- **Speaker Intent:** S99의 질문을 받아 왼쪽의 세 입력을 짚고 가운데 Agent의 조사·변경·검토로 시선을 옮긴다. 오른쪽에 남은 변경 내용·확인 근거·미해결 항목을 S101의 사람 수용 판단으로 연결한다.
 - **Transition:** 그렇게 얻은 결과를 완료 보고만으로 받아들일 수 있을까요? S101에서 사람의 수용 판단을 봅니다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
+- **Evidence / Decision References:** DEC-0170; DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S101 — 결과를 수용할지는 사람이 판단한다
