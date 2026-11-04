@@ -2434,21 +2434,21 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Working Title:** 무인 실행의 범위를 어디까지 허용할까?
 - **Primary Role:** 작업 폴더 분리가 권한 격리를 보장하는지 물은 뒤 외부 효과와 승인 범위를 확인한다.
 - **Audience Question:** 무인 실행의 범위를 어디까지 허용할까?
-- **Core Message:** 실행 전에 작업 공간과 허용된 동작을 정의하고 파일 변경, 외부 호출, 자격 정보 사용과 비용에 경계를 둔다.
+- **Core Message:** 실행 전에 작업 공간과 허용된 동작을 정의하고 파일 변경, 외부 호출, 자격 정보 사용과 비용에 경계를 둔다. 허용 범위는 사람이 판단하고 결과에 대한 책임도 사람이 진다.
 - **Story Beat:** BEAT-079, BEAT-083
 - **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
-- **Visual Concept:** Agent와 허용 영역 안의 지정 폴더 수정·테스트 및 승인한 외부 연결을 연결한다. 관련 없는 파일·비밀 키·배포 권한은 별도 금지 영역으로 두고 경계에서 연결선을 끊는다. 실제 설정 화면이나 차단 시험 결과가 아닌 권한 설계 도식이다.
+- **Visual Concept:** Agent와 허용 영역 안의 지정 폴더 수정·테스트 및 승인한 외부 연결을 연결한다. 관련 없는 파일·비밀 키·배포 권한은 별도 금지 영역으로 두고 경계에서 연결선을 끊는다. 실제 설정 화면이나 차단 시험 결과가 아닌 권한 설계 도식이다. 하단에는 “허용 범위는 사람이 판단하고, 결과에 대한 책임도 사람이 진다”를 표시한다. 워크트리와 접근 권한 통제의 차이는 Notes에서 보존한다.
 - **Demo / Case Connection:** Loop Engineering Systems p.12에서 각색한 발표용 도식. 정적 사례로 설명한다.
 - **Beginner Payoff:** 자동화가 실행해도 되는 범위를 작업 전에 표현할 수 있다.
 - **Advanced Payoff:** 최소 권한, 제한된 자격 정보, 격리와 비용 상한을 별도 통제로 다룬다.
 - **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
-- **Speaker Intent:** 작업 폴더 분리가 권한 격리를 보장하는지 물은 뒤 외부 효과와 승인 범위를 확인한다.
+- **Speaker Intent:** 허용·금지 도식을 따라 사람이 실행 범위를 판단하며 결과에도 책임을 진다는 하단 문장으로 마무리한다. 워크트리의 파일 분리와 실제 접근 통제의 차이는 Notes에서 설명한다.
 - **Transition:** 권한·예산을 넘으면 멈추고 사람에게 넘긴다
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 2분 = 3분
-- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050; DEC-0177
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050; DEC-0177; DEC-0178
 - **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
 #### S94 — 권한·예산을 넘으면 멈추고 사람에게 넘긴다
@@ -2746,7 +2746,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 — AI-Native operating model and advanced reliability; reassess previously justified structure under changed conditions.
 - **Evidence Type:** TEACHING_MODEL / RESEARCH
 - **Claim Status:** TEACHING MODEL — 비교 평가 설계이며 실제 실행·PASS/FAIL·측정값 없음. FROZEN WITH SCOPE — SRC-0236의 대표 end-to-end 평가 권고와 통합 뒤 회귀 사례가 동기를 뒷받침한다.
-- **Visual Concept:** 같은 대표 작업·입력·판단 기준을 하나의 입력 파일로 표시한다. S103에서 본 기존 다중 역할 구성과 통합·제거 후보를 작은 구조 그림으로 나누고 같은 평가 프레임에 합친다. 분기·합류는 같은 굵기의 둥근 꺾임으로 연결하며 화살촉은 후보 및 평가 프레임 도착부에만 둔다. 먼저 동작·회귀를 크게 강조하고 시간·비용, 남은 위험은 같은 기준으로 대조한다. 아래 기록 파일과 되돌림 아이콘으로 확인한 범위만 채택·악화 시 되돌림과 이유 기록을 대비한다. 평가 설계·실제 실행 결과 아님 표기와 기존 실무 적용 팁 배지를 유지한다.
+- **Visual Concept:** 같은 대표 작업·입력·판단 기준을 하나의 입력 파일로 표시한다. S103에서 본 기존 다중 역할 구성과 통합·제거 후보를 작은 구조 그림으로 나누고 같은 평가 프레임에 합친다. 분기·합류는 같은 굵기의 둥근 꺾임으로 연결하며 화살촉은 후보 및 평가 프레임 도착부에만 둔다. 먼저 동작·회귀를 크게 강조하고 시간·비용, 남은 위험은 같은 기준으로 대조한다. 아래 기록 파일과 되돌림 아이콘으로 확인한 범위만 채택·악화 시 되돌림과 이유 기록을 대비한다. 화면 머리말은 “ACT 5 · 재평가 3/3 · 평가 설계”로만 표기하고 기존 실무 적용 팁 배지는 유지한다. 실제 실행 결과가 아닌 설계 예시라는 근거 경계는 Notes에 보존한다.
 - **Demo / Case Connection:** 새 Demo/Trial/State 없음. 공급사 공개 사례와 교육용 판단 모델이며 우리 제품의 통합·제거 성과가 아니다.
 - **Beginner Payoff:** 간단해졌다는 인상 대신 원래 할 일을 계속 수행하는지 확인한다.
 - **Advanced Payoff:** 평가 범위·품질·회귀·시간/비용·남은 위험과 복구 조건을 분리해 수용 근거를 만든다. 모델/구성 외 조건의 차이도 기록한다.
@@ -2755,7 +2755,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “부족한 것뿐 아니라 겹쳐 쌓인 것도 포함해, 내 업무의 문제 하나를 골라봅시다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083, DEC-0087; DEC-0174; DEC-0176; DEC-0177
+- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083, DEC-0087; DEC-0174; DEC-0176; DEC-0177; DEC-0178
 - **Practical Tip Classification:** 검증·개선
 - **Audience Footer:** 표시하지 않음 — 사용자 지정 하단 문구 삭제. 근거·판단 조건은 본문과 Notes에 유지하며 M 연계 표시는 유지한다.
 

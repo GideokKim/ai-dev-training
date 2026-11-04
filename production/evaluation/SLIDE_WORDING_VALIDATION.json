@@ -1,0 +1,83 @@
+{
+  "baseline": "818bfc8",
+  "slides": 111,
+  "minutes": 372,
+  "act4Slides": 19,
+  "act4Minutes": 71,
+  "act5Slides": 15,
+  "act5Minutes": 41,
+  "changedSlides": [
+    "S93",
+    "S105"
+  ],
+  "renderedSlides": 145,
+  "notesCompared": 145,
+  "notesFields": 19,
+  "unchangedFullSlides": 109,
+  "claimBoundaryUnchanged": true,
+  "decks": {
+    "AI_Dev_Training_Full": {
+      "slides": 111,
+      "sha256": "5e26f957edb4764afab09bc7c85dd956e4bb0fdacbd4e59ff314c3f9eb6cc7f8",
+      "warnings": [
+        {
+          "connector_id": "25",
+          "connector_z": 25,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "24",
+          "text_z": 24
+        },
+        {
+          "connector_id": "28",
+          "connector_z": 28,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "27",
+          "text_z": 27
+        },
+        {
+          "available_bottom_in": 6.2917,
+          "columns": 3,
+          "declared_bottom_in": 5.7917,
+          "estimated_native_bottom_in": 6.3017,
+          "footer_object_ids": [
+            "4"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 0.01,
+          "rows": 8,
+          "slide": 54,
+          "table_id": "8"
+        },
+        {
+          "connector_id": "11",
+          "connector_z": 12,
+          "kind": "connector_over_text",
+          "slide": 79,
+          "text_object_id": "10",
+          "text_z": 11
+        }
+      ]
+    },
+    "ACT_4": {
+      "slides": 19,
+      "sha256": "5c6cfa6b2d78bdb8ca0de7ab4196c86fbcc88f17c12af7a3479559d42cef9297",
+      "warnings": [
+        {
+          "connector_id": "11",
+          "connector_z": 12,
+          "kind": "connector_over_text",
+          "slide": 2,
+          "text_object_id": "10",
+          "text_z": 11
+        }
+      ]
+    },
+    "ACT_5": {
+      "slides": 15,
+      "sha256": "af84add6162adaf83e5d67ec97d6486d45b52516357df8e2fd7e1857711b14b5",
+      "warnings": []
+    }
+  }
+}

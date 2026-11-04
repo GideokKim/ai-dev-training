@@ -428,7 +428,7 @@ export function loopOperationsFactories(H) {
       text(s,'관련 없는 파일',961,340,228,37,24,C.ink,true);
       icon('Unplug',901,428,42);
       text(s,'비밀 키\n배포 권한',961,411,228,77,25,C.ink,true);
-      takeaway(s,'워크트리는 파일을 분리한다. 접근 권한은 실행 환경에서 따로 제한한다.');
+      takeaway(s,'허용 범위는 사람이 판단하고, 결과에 대한 책임도 사람이 진다');
       return s;
     },
     S95(p) {

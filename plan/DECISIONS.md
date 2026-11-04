@@ -15706,3 +15706,21 @@ slides/71 minutes and ACT5's 15 slides/41 minutes. Preserve all retained
 slide allocations and evidence identifiers. Align sources, active planning,
 Notes, Full/ACT4/ACT5 decks, previews, navigation and delivery references.
 Keep historical editions intact. Change no Demo repository, Site or bundle.
+
+# DEC-0178 — Simplify the evaluation label and clarify human responsibility
+
+Status: ACCEPTED by two explicit user annotations.
+Date: 2026-11-04.
+
+Keep only the evaluation-design label in S105's audience header. Remove
+its execution-status disclaimer from the screen while retaining the
+source and claim boundary in Notes. Add no actual evaluation outcome.
+
+Replace S93's bottom takeaway with the person's responsibility for
+judging the permitted scope and accepting the consequences. Preserve
+the approved-versus-blocked diagram and retain the worktree versus
+access-control distinction in Notes.
+
+Keep 111 slides/372 minutes, every slide ID, allocation and evidence type.
+Align the affected Notes and maps, Full/ACT4/ACT5 decks, previews and
+current delivery hashes. Change no Demo repository, Site or bundle.

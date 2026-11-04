@@ -83,7 +83,7 @@ export function loadAct5ReassessmentSlides() {
   },
   S93(p){
    const s=frame(p,'S93','덜어낸 뒤에도 필요한 일을 하는가?',
-    'ACT 5 · 재평가 3/3 · 평가 설계 / 실제 실행 결과 아님',
+    'ACT 5 · 재평가 3/3 · 평가 설계',
     'TEACHING MODEL · SRC-0236의 평가 권고를 각색 · CLM-0040 · DEC-0083',
     '새 비교 실험·측정 결과 없음 · 시간·비용만으로 채택하지 않음');
    text(s,'같은 대표 작업에서, 결과와 회귀부터 확인한다',64,185,1152,44,31,C.teal,true);
