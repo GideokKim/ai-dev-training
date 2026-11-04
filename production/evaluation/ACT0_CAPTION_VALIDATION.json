@@ -1,0 +1,119 @@
+{
+  "baseline": "bc0eaff",
+  "slides": 111,
+  "minutes": 372,
+  "changedSlides": [
+    "S03",
+    "S04",
+    "S06"
+  ],
+  "changedCaptionObjects": 6,
+  "actMinutes": [
+    42.0,
+    64.0,
+    90.0,
+    64.0,
+    71.0,
+    41.0
+  ],
+  "modeMinutes": {
+    "Transition": 21.0,
+    "Lecture": 170.0,
+    "Reflection": 17.0,
+    "Case": 95.0,
+    "Demo": 44.0,
+    "Q&A": 25.0
+  },
+  "renderedSlides": 125,
+  "notesCompared": 125,
+  "notesFields": 19,
+  "unchangedFullSlides": 108,
+  "otherActsUntouched": true,
+  "originalPromptPreserved": true,
+  "claimBoundaryUnchanged": true,
+  "pictureBytesAndPositionsPreserved": true,
+  "outsideApprovedAreasUnchanged": true,
+  "actFullPixelParity": true,
+  "nativeTableOwners": [
+    54,
+    81,
+    85
+  ],
+  "nativeChartOwners": [
+    69
+  ],
+  "decks": {
+    "AI_Dev_Training_Full": {
+      "slides": 111,
+      "sha256": "06442b75c754d1c86f77c408adbf2242171411b4aa60c819adc1dbc6e6ccc3a5",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "warnings": [
+        {
+          "connector_id": "25",
+          "connector_z": 23,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "24",
+          "text_z": 22
+        },
+        {
+          "connector_id": "28",
+          "connector_z": 26,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "27",
+          "text_z": 25
+        },
+        {
+          "available_bottom_in": 6.2917,
+          "columns": 3,
+          "declared_bottom_in": 5.7917,
+          "estimated_native_bottom_in": 6.3017,
+          "footer_object_ids": [
+            "4"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 0.01,
+          "rows": 8,
+          "slide": 54,
+          "table_id": "8"
+        },
+        {
+          "connector_id": "11",
+          "connector_z": 12,
+          "kind": "connector_over_text",
+          "slide": 79,
+          "text_object_id": "10",
+          "text_z": 11
+        }
+      ]
+    },
+    "ACT_0": {
+      "slides": 14,
+      "sha256": "1ad0df43303aa9e13342f2fd5097603f26a6c643688e0ad1a03d1ed0777f6256",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "warnings": [
+        {
+          "connector_id": "25",
+          "connector_z": 23,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "24",
+          "text_z": 22
+        },
+        {
+          "connector_id": "28",
+          "connector_z": 26,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "27",
+          "text_z": 25
+        }
+      ]
+    }
+  }
+}

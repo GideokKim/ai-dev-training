@@ -1,10 +1,12 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## 요청 입력창 공통 스타일 · DEC-0179
+## ACT0 제목·하단 문구 정리 · DEC-0180
 
-[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT0](../ACT_0.pptx) · [ACT1](../ACT_1.pptx) · [ACT2](../ACT_2.pptx) · [ACT3](../ACT_3.pptx) · [ACT4](../ACT_4.pptx) · [ACT5](../ACT_5.pptx) · [전체 Notes](../notes/FULL_SPEAKER_NOTES.md) · [전체 미리보기](../preview/full/montage.png) · [요청창 수정 결과](MAC_PROMPT_STYLE_REVISION.md) · [111장 전수 조사](../../plan/MAC_PROMPT_STYLE_AUDIT.md)
+[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT0](../ACT_0.pptx) · [ACT1](../ACT_1.pptx) · [ACT2](../ACT_2.pptx) · [ACT3](../ACT_3.pptx) · [ACT4](../ACT_4.pptx) · [ACT5](../ACT_5.pptx) · [전체 Notes](../notes/FULL_SPEAKER_NOTES.md) · [전체 미리보기](../preview/full/montage.png) · [ACT0 문구 정리 결과](ACT0_CAPTION_REVISION.md) · [요청창 전수 수정 결과](MAC_PROMPT_STYLE_REVISION.md) · [111장 전수 조사](../../plan/MAC_PROMPT_STYLE_AUDIT.md)
 
-37장·45곳의 요청 입력 영역을 기존 Mac 스타일로 통일했다. S36/S37/S44를 포함하며 S41/S66/S77/S96은 기존 외형을 유지한다. 요청 원문·강조·관찰 기록·근거 범위와 시간 배정은 그대로다. 문서·답변·코드·결과는 입력창과 구분한다. ACT5는 변경하지 않았다.
+S03의 “필요한 코드와 맥락을 사람이 골라 전달한다.”와 S04의 “사용 예시”, S06 하단 출처 두 줄을 삭제했다. S06은 “Agent에게 테스트 실패 원인을 조사하게 한다”와 “실제로 전달한 조사 요청”으로 표시해 S05의 Context 수집 문제에서 S07의 실제 Crop 결과로 이어진다. 실행 환경·실제 Python 기록·가상 C++ 그림의 근거는 Notes에 유지한다.
+
+기존37장·45곳의 Mac 스타일과 요청 원문·강조·근거 범위·시간 배정은 유지한다. 이번 변경은 S03/S04/S06의 지정6개 텍스트뿐이며 ACT1–5 PPT는 변경하지 않았다.
 
 S93 하단은 “허용 범위는 사람이 판단하고, 결과에 대한 책임도 사람이 진다”로 바꿨다. S105 머리말은 “ACT 5 · 재평가 3/3 · 평가 설계”로 정리하고 실행 여부에 관한 설명은 Notes에 유지한다.
 
@@ -12,21 +14,21 @@ S93 하단은 “허용 범위는 사람이 판단하고, 결과에 대한 책�
 
 S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과 접근 금지 대상을 시각적으로 구분한다. 실제 보안 설정·차단 실험의 결과가 아니다. S95 사람 검증 뒤 S96 Goal 팁으로 바로 이어지며 삭제한 성찰을 전제하지 않는다. S105(이전 S106)의 분기·합류는 같은 굵기의 둥근 선으로 연결했고 S106(이전 S107)의 머리말에서 C++ VISION을 제거했다. A–E 선택지와 다음 행동 장의 정렬, 근거 범위는 유지했다. S101의 일반 메모리 설명은 현재 위치와 배지 삭제를 유지한다.
 
-팁 찾아보기는 S108–S110, 마무리는 S111이다. 최종 통합111장과 ACT0–4의96장, 총207개 렌더와 내장 Notes를 대조했다. 각 장19필드, 표 S54/S81/S85와 차트 S69, 팁 목적지·번호가 일치한다. 요청창·관련 배치 영역을 제외한 화면과 나머지74장은 기준판과 같고 새 레이아웃 경고는 없다. Windows PowerPoint·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo Repository·Sites·발표 묶음은 변경하지 않았다.
+팁 찾아보기는 S108–S110, 마무리는 S111이다. 이번 판은 통합111장과 ACT0의14장, 총125개 렌더와 내장 Notes를 대조했다. 각 장19필드, 표 S54/S81/S85와 차트 S69, 팁 목적지·번호가 일치한다. 지정6개 문구 영역 밖 화면과 나머지108장은 기준판과 같고 새 레이아웃 경고는 없다. Windows PowerPoint·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo Repository·Sites·발표 묶음은 변경하지 않았다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `b44e9acbfac037097011d4f5e1bfdb1ee8f8de958f1e9082fd06fb94e3eee1de` |
-| `production/ACT_0.pptx` | `5fe6e4f422cb275d1408c11bc9486f91180a643365f04f2e29282cd266c5b8f7` |
+| `production/AI_Dev_Training_Full.pptx` | `06442b75c754d1c86f77c408adbf2242171411b4aa60c819adc1dbc6e6ccc3a5` |
+| `production/ACT_0.pptx` | `1ad0df43303aa9e13342f2fd5097603f26a6c643688e0ad1a03d1ed0777f6256` |
 | `production/ACT_1.pptx` | `094e0de7ad6cb0332b35f3661455c0e3387c2ccbe43f5a06f31aadb127fc1245` |
 | `production/ACT_2.pptx` | `70f040c1bf0419260404ba0a590c4e5ac90186a5bd51c785d913792ff60dfc0e` |
 | `production/ACT_3.pptx` | `4e3d2da3520e1cc6f8cb9286238e8cdb07ec681b2c02f7ebfd714e8065d06433` |
 | `production/ACT_4.pptx` | `8bb500f6fa97bfc88eda5eff629785d0b740b51879b5bebbad2e1f609f12ef1e` |
 | `production/ACT_5.pptx` | `af84add6162adaf83e5d67ec97d6486d45b52516357df8e2fd7e1857711b14b5` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `58571e9243c9d88c65eab2274906a37f7a949698485f4a50303f444399cdd887` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `a13b853549a69d270417567742dfc6b45399f244563a46936e24b63a01d9adc1` |
 | `production/notes/ACT_4_NOTES.md` | `c75e17c300f67971bb792a59fa81be76564943e165c45b11312ad7cb719e6f8e` |
 | `production/notes/ACT_5_NOTES.md` | `2f03e5d4ab10b2a5d0994d9fa946ba4cf7bcecfca146cd7375265504b0661e4b` |
-| `production/preview/full/montage.png` | `97b956a3de7e735855ee83f2c4f614cce9585adb3e8aa4dab2c79cecd6c759ff` |
+| `production/preview/full/montage.png` | `5292a5526f05c72ebbe759c3419b8ee03a38738a7daef97d9721948d6a3a092c` |
 | `production/preview/act4/montage.png` | `df7ed60b1ffc61925ce51a7d1af1b753617ed26facb075b26c2c6aa6e7f9d280` |
 | `production/preview/act5/montage.png` | `00bca4918faa445e9c27c15e2b62a3a421703b322101ceccfc74ccf80bcf11fc` |
 | `production/preview/full/S93.png` | `5ff0f2b96940061ee18f3f51c9fee8833bfb5f9d1e45ff3c0360ff124aeba04c` |
@@ -41,16 +43,16 @@ S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과
 | `production/preview/full/S109.png` | `e5cf8a3385979be4f76184a9080738133574b7b4f443f6334a0cbe8210b853d4` |
 | `production/preview/full/S110.png` | `d5c1eb9b6adc0a13f88dc7175d8e769d7ebfccd42fdb4ff78d36bea0d5184ad0` |
 | `production/preview/full/S111.png` | `673df470f2c60de0328a344c329906b042171f77a4edaa2aa2ce965808dd34b0` |
-| `production/notes/ACT_0_NOTES.md` | `e2833bea4f7d770d89d84045080f92b08e0fc0aadcda8c0843bf5aea9ce285ce` |
+| `production/notes/ACT_0_NOTES.md` | `a43b337b520be6e865a239eacc9df5092731985e1625dc68d8ee1dfe35eb16d1` |
 | `production/notes/ACT_1_NOTES.md` | `6fdc4c8baf9ffbb175a24430cd064b3e17c2b04c217c716f2f9bb9488dd1dc3d` |
 | `production/notes/ACT_2_NOTES.md` | `46c10f7d0adabf92c3865531e58f119cab6ccd1b36b3f8da8a148427cb1678bf` |
 | `production/notes/ACT_3_NOTES.md` | `d33eeb21631f66bd0b00f510c1ce381246b1d1fac8cf0eed18f920e0d8e3fc87` |
-| `production/preview/act0/montage.png` | `d4a2b936e6896f9173062c9a68c5d32f67ea97d979036f29ad381e9095d3f3e8` |
+| `production/preview/act0/montage.png` | `0109fca938274e14ad4d1b4d59cb1826ae6619d06be45b5247a762c632cf6514` |
 | `production/preview/act1/montage.png` | `3ff2bb210a9aca2cdbcd42b9b158bb65cd7ce5af9d57cd4e54c2fd096b5feda6` |
 | `production/preview/act2/montage.png` | `5ade5f13f89a25f76a1e68080222b0b8e5758113b5e595ad1489ba201d121702` |
 | `production/preview/act3/montage.png` | `1c3147060de00346cc89835d542a99db51ef1a127d81b96557c2c28ae3e15e93` |
-| `production/preview/full/S04.png` | `87d6523758f603bd16b8546cc54206cba1f938efb709e2ce8b2d2c359d0e031a` |
-| `production/preview/full/S06.png` | `8361e41c90f2c75fd5b28e4e891ea23ebdf4bc94bbe963e18fbaac200e74f0f3` |
+| `production/preview/full/S04.png` | `a3044f100c7b646128408740c8649d823c0a25ed5a5b11776c6ec902601412a7` |
+| `production/preview/full/S06.png` | `07f791e60a581a43788a7b266476c172c2d6856aaea90f69bd2f9184bc1f5a34` |
 | `production/preview/full/S11.png` | `e83c3429f8f392726f0b6081f2ede2f5fcce1ac839b0e654002b9ac589e32fcb` |
 | `production/preview/full/S12.png` | `c3628a20e8d631b6e0c23d6effb3aa0b823d3d5665caa89ec6d68ed7426b126f` |
 | `production/preview/full/S16.png` | `3a29cfed389cb6bb5448422faa6e8653bd01ee4f6d1b445f7515b82a59222209` |
@@ -86,6 +88,7 @@ S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과
 | `production/preview/full/S71.png` | `e447fca761d007fa1b7b7948be8617493a9b254ce18f66c0ffe4a5fae3299be3` |
 | `production/preview/full/S79.png` | `a393c38375a5afa39ac8f1c0a2de1e837dc5cf527449f533508e4e7f205c7693` |
 | `production/preview/full/S92.png` | `46ee0d9a5de5b879aa717e9c013684174ff7e2fa66fb786c4bd6cf6c5a62a281` |
+| `production/preview/full/S03.png` | `a452e0d99b5543b7d640cf2ec8430bb8916b683ef821bb29b355af0eb85a79b5` |
 
 ## 보존된 이전 전달 기록
 

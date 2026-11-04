@@ -272,6 +272,8 @@ C++ Vision Bridge: 일반적인 C++ 코드 질문을 출발점으로 사용한�
 
 Demo Operation: N/A. 두 초기화 표현과 원소 도식, IDE → Chatbot → IDE의 연결된 native 흐름을 설명한다. 실제 대화·IDE 자동 연동·컴파일 실행·새 Trial은 없다.
 
+DEC-0180: 화면 하단의 “필요한 코드와 맥락을 사람이 골라 전달한다.” 문장은 제외했다. 코드·원소 비교와 IDE → Chatbot → IDE의 기존 도식으로 설명한다.
+
 Audience Interaction: Opening question은 생각을 여는 질문이다. 코드 작성·실행·손들기·경험 발표나 답변을 요구하지 않는다.
 
 Transition: 질문이 여러 파일·구현 경로로 커지면 무엇을 먼저 찾아야 하는지 S05에서 묻는다.
@@ -333,6 +335,8 @@ S03의 std::vector 초기화 예제를 그대로 사용한다. 실제 컴파일�
 N/A — 정적 교육용 UI 도식. 회사 계정에 로그인하거나 Copilot을 호출·실행하지 않는다. 설치나 조직 정책 변경도 하지 않는다.
 
 DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+
+DEC-0180: 하단 “사용 예시” 표시는 제외했다. 기존 편집기·입력창·3단계와 Source / Claim Boundary는 유지한다.
 
 **Audience Interaction:**
 화면의3단계를 짧게 짚는다. 청중에게 설치·로그인·직접 실습이나 공개 답변을 요구하지 않는다.
@@ -400,13 +404,13 @@ Fallback: `production/preview/full/S05.png` 또는 `production/preview/act0/S05.
 
 Validation Status: ALIGNED — DEC-0034에 따라 원문·Claim 경계와 제작용 화면/운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 실제 렌더링 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
 
-## S06 — 파일명을 주지 않으면 Agent는 어디부터 볼까?
+## S06 — Agent에게 테스트 실패 원인을 조사하게 한다
 
 **Slide ID:**
 S06
 
 **Working Title:**
-파일명을 주지 않으면 Agent는 어디부터 볼까?
+Agent에게 테스트 실패 원인을 조사하게 한다
 
 **ACT / Section:**
 ACT 0 / 0D
@@ -418,13 +422,13 @@ ACT 0 / 0D
 Lecture 2 minutes
 
 **Primary Message:**
-Demo에서는 파일을 직접 지정하지 않았을 때의 Search → Read → Trace를 관찰한다.
+실패 원인을 조사하되 코드는 수정하지 말라는 요청을 전달하고, 실패 테스트·관련 구현·호출 경로를 찾아 설명하는 과정을 관찰한다.
 
 **Opening Question:**
-“Agent가 Test, 구현, 호출 경로를 어떻게 찾는가?”
+“Agent가 실패 원인을 설명하려면 무엇을 확인해야 할까?”
 
 **Speaker Flow:**
-1. **READ THE REQUEST (0:00–0:30):** 좌측 입력창 형태로 재구성한 TRIAL-001 요청 원문을 가리킨다. 파일명을 지정하지 않았고 아직 코드를 수정하지 말라고 했다는 점을 짚는다. 입력창은 실제 현재 제품 screenshot이 아니다.
+1. **READ THE REQUEST (0:00–0:30):** “실제로 전달한 조사 요청” 아래 입력창을 가리킨다. 실패 원인·관련 구현·호출 경로·테스트를 조사하되 아직 코드는 수정하지 말라는 요청임을 짚는다. 내부 기록 ID는 청중에게 소개하지 않는다. 파일명을 지정하지 않은 실제 요청이라는 사실은 보존한다. 입력창은 실제 현재 제품 screenshot이 아니다.
 2. **SEPARATE THE ILLUSTRATION (0:30–1:00):** 우측은 C++ 청중이 익숙한 GoogleTest 형식으로 구성한 가상 UI이며, 여섯 항목 중 다섯 통과·하나 실패는 설명용 설정임을 알린다. TRIAL-001의 실제 runner는 Python `unittest`였고 이 가상 화면과 같은 실행 결과가 아니다. 가상 실패 행에서 실제 원인이나 코드 위치를 설명하지 않는다.
 3. **SET WATCH FOR (1:00–1:45):** 실패 테스트, 관련 구현, 제품 호출 경로의 세 관찰 대상을 차례로 가리킨다. 실제로 발견된 파일명·원인·수정안은 S07–S08에 남긴다. 좌우 패널을 “이 Prompt를 실행해 이 결과가 나왔다”는 인과 화살표로 설명하지 않는다.
 4. **SCOPE (1:45–2:00):** Codex CLI 0.154.0의 과거 읽기 전용 기록을 볼 것이라고 한 문장으로 제한하고 S07–S08로 넘긴다.
@@ -452,6 +456,8 @@ GoogleTest 형식을 C++ 청중을 위한 가상 설명 그림에만 사용한�
 DEMO-01 / WATCH. 기본 경로는 `production/ACT_0.pptx` S06–S09–S10의 정적 발표다. S06에서는 좌측 실제 요청의 재구성, 우측 가상 GoogleTest UI의 경계, 세 관찰 대상을 설명하고 S07–S08로 이동한다. 정적 PNG는 PPT 렌더이며 CLI·현재 Desktop·실제 GoogleTest 캡처가 아니다. 현재 Desktop·교육 계정·Live/HYBRID는 미검증이므로 활성화하지 않는다. 향후 대상 계정·surface, 읽기 전용 조건, runbook, 기대 관찰과 복귀 cue를 발표 환경에서 확인한 뒤에만 검토한다. 기존 관찰 근거8분은 S07/S07에4분씩 나뉘며 S09/S09은 별도 Case다.
 
 DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+
+DEC-0180: 새 제목과 “실제로 전달한 조사 요청”으로 S05의 Context 수집 문제를 받아 S07의 실제 Crop 결과로 넘긴다. 하단 출처 두 줄은 화면에서 제외하며 실행 환경·실제 Python 기록·가상 GoogleTest 구분은 Evidence / Source와 Claim Boundary에 유지한다.
 
 **Audience Interaction:**
 응답을 요구하지 않는다. 세 관찰 항목을 청중이 마음속으로 따라오게 한다.

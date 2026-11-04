@@ -15746,3 +15746,24 @@ Align Notes, maps and the existing visual specification. Render and verify
 the Full and affected ACT0-ACT4 decks, then refresh delivery references.
 Record the full inventory and changed IDs in MAC_PROMPT_STYLE_AUDIT.md.
 Change no Demo repository, Site, bundle, Trial or current-product claim.
+
+# DEC-0180 — Simplify the ACT0 captions and name the investigation task
+
+Status: ACCEPTED by six explicit user annotations.
+Date: 2026-11-04.
+
+Remove the selected S03 takeaway and S04 audience footer. Reframe S06
+around asking the Agent to investigate a failing test, following the
+Context collection problem on S05 and leading to the crop result on S07.
+Replace the internal Trial identifier in its subheading with a plain
+description of the actual request, and remove both selected footer rows.
+
+Keep the actual request, Mac window, GoogleTest illustration, observation
+targets and all source boundaries. Retain CLI environment, Python evidence
+and the separate fictional C++ illustration in Notes. Keep the visible C++
+illustration label and module footer. Add no new execution or product claim.
+
+Preserve 111 slides/372 minutes and every allocation, ID and evidence type.
+Align the three affected Notes and maps, render the Full and ACT0 decks,
+and refresh their previews and delivery hashes. Keep other slides intact.
+Change no Demo repository, Site or presenter bundle.

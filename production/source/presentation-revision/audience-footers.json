@@ -24,9 +24,7 @@
       ]
     },
     "S04": {
-      "lines": [
-        "사용 예시"
-      ],
+      "lines": [],
       "originalLines": [
         "GitHub Docs · VS Code Docs | 사용 방법을 재구성한 교육용 UI 도식",
         "실제 회사 화면·응답 아님 · 전달할 코드를 확인하고, 답을 다시 확인한다."
@@ -40,10 +38,7 @@
       ]
     },
     "S06": {
-      "lines": [
-        "Codex CLI 조사 기록 · 읽기 전용",
-        "우측은 GoogleTest 예시 · 실제 Trial은 Python"
-      ],
+      "lines": [],
       "originalLines": [
         "실제 요청: TRIAL-001 · Codex CLI 0.154.0 · macOS · 읽기 전용",
         "우측은 가상 GoogleTest 예시 · 실제 Trial은 Python unittest · 현재 Desktop은 미검증"

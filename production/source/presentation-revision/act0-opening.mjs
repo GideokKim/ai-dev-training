@@ -51,7 +51,6 @@ export async function loadAct0OpeningSlides(root) {
       }
       arrow(s, 394, 499, 74, 27);
       arrow(s, 812, 499, 74, 27);
-      text(s, '필요한 코드와 맥락을 사람이 골라 전달한다.', 64, 574, 1152, 26, 23, C.sub);
       return s;
     },
     S03(p) {
@@ -80,12 +79,12 @@ export async function loadAct0OpeningSlides(root) {
       return s;
     },
     S04(p) {
-      const s = H.frame(p, 'S04', '파일명을 주지 않으면 Agent는 어디부터 볼까?',
+      const s = H.frame(p, 'S04', 'Agent에게 테스트 실패 원인을 조사하게 한다',
         'ACT 0 · Repository 조사 관찰',
         '실제 요청: TRIAL-001 · Codex CLI 0.154.0 · macOS · 읽기 전용',
         '우측은 가상 GoogleTest 예시 · 실제 Trial은 Python unittest · 현재 Desktop은 미검증',
         'OBSERVED_PRODUCT');
-      text(s, 'TRIAL-001의 실제 조사 요청', 64, 181, 680, 39, 27, C.teal, true);
+      text(s, '실제로 전달한 조사 요청', 64, 181, 680, 39, 27, C.teal, true);
       text(s, '실패 하나가 있는 상황', 796, 181, 420, 39, 27, C.ink, true);
       text(s, 'C++ 설명용 가상 화면', 796, 219, 420, 28, 22, C.warn, true);
       rect(s, 64, 235, 680, 321, C.white, C.line, 2);

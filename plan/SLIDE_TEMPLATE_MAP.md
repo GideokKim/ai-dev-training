@@ -80,10 +80,10 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 |---|---|---|---|---|---|---|---|---|
 | S01 — AI가 개발 프로젝트를 직접 살펴보게 하기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static title/subtitle plus one-line project-folder definition; DEC-0106 | — | V01, V10 |
 | S02 — AI에게 지금 무엇을 맡기고 있는가? | T01-A | — | — | T | — | Single state | — | V10 |
-| S03 — 작은 질문에는 Chatbot이 유용하다 | T03-C | CMP-WORKFLOW | — | C+T; keep the workflow example bounded | — | Single state | — | V09 |
-| S04 — 코드 질문은 VS Code의 Copilot Chat에서 | T03-C | CMP-PRACTICAL-TIP, CMP-WORKFLOW, CMP-CLAIM | — | R+T; official guidance adapted; company-account unverified | Lecture2; no Demo or Trial | Static reconstructed editor/chat diagram Mac 요청창 공통 외형 적용. DEC-0179 | Supporting | V01, V02, V05 |
+| S03 — 작은 질문에는 Chatbot이 유용하다 | T03-C | CMP-WORKFLOW | — | C+T; keep the workflow example bounded | — | Single state 지정 하단 문구 삭제; S06 제목·소제목은 조사 요청 중심. DEC-0180 | — | V09 |
+| S04 — 코드 질문은 VS Code의 Copilot Chat에서 | T03-C | CMP-PRACTICAL-TIP, CMP-WORKFLOW, CMP-CLAIM | — | R+T; official guidance adapted; company-account unverified | Lecture2; no Demo or Trial | Static reconstructed editor/chat diagram Mac 요청창 공통 외형 적용. DEC-0179 지정 하단 문구 삭제; S06 제목·소제목은 조사 요청 중심. DEC-0180 | Supporting | V01, V02, V05 |
 | S05 — 질문이 커지면 Context를 모으는 일이 생긴다 | T02-A | — | CMP-WORKFLOW | C+T | — | Single state | — | V09, V10 |
-| S06 — 파일명을 주지 않으면 Agent는 어디부터 볼까? | T05-A | CMP-TRIAL | CMP-CLAIM | P | DEMO-01 WATCH; setup is Lecture, not extra Demo time | Single state Mac 요청창 공통 외형 적용. DEC-0179 | — | V02 |
+| S06 — Agent에게 테스트 실패 원인을 조사하게 한다 | T05-A | CMP-TRIAL | CMP-CLAIM | P | DEMO-01 WATCH; setup is Lecture, not extra Demo time | Single state Mac 요청창 공통 외형 적용. DEC-0179 지정 하단 문구 삭제; S06 제목·소제목은 조사 요청 중심. DEC-0180 | — | V02 |
 | S07 — Crop은 기대한 폭보다 한 열을 더 포함했다 | T07-A | CMP-EVIDENCE, CMP-CLAIM | — | P; reconstructed first source row | DEMO-01; Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분; DEC-0084 | Single state; one primary question | — | V01, V02, V05 |
 | S08 — 테스트·명세·구현을 연결해 원인을 설명했다 | T07-A | CMP-EVIDENCE, CMP-CLAIM | — | P; evidence relation, not access chronology | DEMO-01; Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분; DEC-0084 | Single state; one primary question | — | V01, V02, V05 |
 | S09 — 다른 테스트 오류는 임시 폴더 생성에서 발생했다 | T07-A | CMP-EVIDENCE, CMP-CLAIM | — | P; execution limitation, separate from crop defect | DEMO-01; Case 3분 = 3분; DEC-0084 | Single state; one primary question | — | V01, V02, V05 |

@@ -36,7 +36,7 @@ MODIFIED37장, ALREADY CONSISTENT4장, NO LITERAL REQUEST70장이다. NO LITERAL
 | S03 | ACT 0 | 작은 질문에는 Chatbot이 유용하다 | NO LITERAL REQUEST | 개념·지침·응답·결과·문서·제목/찾아보기; 직접 입력 예시 없음 |
 | S04 | ACT 0 | 코드 질문은 VS Code의 Copilot Chat에서 | MODIFIED | 앱·브라우저 외형에 Mac 제목 막대 적용; 요청/응답 내용 유지 |
 | S05 | ACT 0 | 질문이 커지면 Context를 모으는 일이 생긴다 | NO LITERAL REQUEST | 개념·지침·응답·결과·문서·제목/찾아보기; 직접 입력 예시 없음 |
-| S06 | ACT 0 | 파일명을 주지 않으면 Agent는 어디부터 볼까? | MODIFIED | 요청 입력 1곳 통일 |
+| S06 | ACT 0 | Agent에게 테스트 실패 원인을 조사하게 한다 | MODIFIED | 요청 입력 1곳 통일 |
 | S07 | ACT 0 | Crop은 기대한 폭보다 한 열을 더 포함했다 | NO LITERAL REQUEST | 개념·지침·응답·결과·문서·제목/찾아보기; 직접 입력 예시 없음 |
 | S08 | ACT 0 | 테스트·명세·구현을 연결해 원인을 설명했다 | NO LITERAL REQUEST | 개념·지침·응답·결과·문서·제목/찾아보기; 직접 입력 예시 없음 |
 | S09 | ACT 0 | 다른 테스트 오류는 임시 폴더 생성에서 발생했다 | NO LITERAL REQUEST | 개념·지침·응답·결과·문서·제목/찾아보기; 직접 입력 예시 없음 |

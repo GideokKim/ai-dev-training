@@ -1,18 +1,18 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0179
+## Current presentation · DEC-0180
 
-Standardize 45 request windows on 37 slides using the existing Mac style. Keep all 43 static fallback classifications, evidence and claim boundaries. The Full and affected ACT0-ACT4 decks are locally rendered; ACT5 is unchanged. Former S96 and its reflection time are removed. Current S96 is the Goal tip. The 43 entries identify local static fallbacks for the 111-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S96. S99 and S100 share one teaching-model work system; S100 shows the person deciding acceptance using its results and evidence.
+Simplify the selected ACT0 captions and S06 investigation title. Keep the actual request and all evidence boundaries in Notes. Standardize 45 request windows on 37 slides using the existing Mac style. Keep all 43 static fallback classifications, evidence and claim boundaries. The Full and affected ACT0-ACT4 decks are locally rendered; ACT5 is unchanged. Former S96 and its reflection time are removed. Current S96 is the Goal tip. The 43 entries identify local static fallbacks for the 111-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S96. S99 and S100 share one teaching-model work system; S100 shows the person deciding acceptance using its results and evidence.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`b44e9acbfac037097011d4f5e1bfdb1ee8f8de958f1e9082fd06fb94e3eee1de`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`58571e9243c9d88c65eab2274906a37f7a949698485f4a50303f444399cdd887`.
-- `production/preview/full/montage.png` SHA-256:`97b956a3de7e735855ee83f2c4f614cce9585adb3e8aa4dab2c79cecd6c759ff`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`06442b75c754d1c86f77c408adbf2242171411b4aa60c819adc1dbc6e6ccc3a5`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`a13b853549a69d270417567742dfc6b45399f244563a46936e24b63a01d9adc1`.
+- `production/preview/full/montage.png` SHA-256:`5292a5526f05c72ebbe759c3419b8ee03a38738a7daef97d9721948d6a3a092c`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
-| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` | 1920×1080 | `8361e41c90f2c75fd5b28e4e891ea23ebdf4bc94bbe963e18fbaac200e74f0f3` |
+| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` | 1920×1080 | `07f791e60a581a43788a7b266476c172c2d6856aaea90f69bd2f9184bc1f5a34` |
 | S07 | RETAINED_DEMO_STATIC | `production/preview/full/S07.png` | 1920×1080 | `4646cd962fee1b9384ab16059744c87b83fd3d5341a48123d2f5cd6260f579cf` |
 | S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` | 1920×1080 | `b00fde64f9e461e9cfd17f080024c03c592d6854196c7437e0efc0eda7214afa` |
 | S09 | RETAINED_DEMO_STATIC | `production/preview/full/S09.png` | 1920×1080 | `1f938fb1a5b6ea172317856cd4bf7d5d2c9fa1ef6ffca0522d877e5e289dde94` |

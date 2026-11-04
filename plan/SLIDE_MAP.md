@@ -132,7 +132,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 0 — familiar chatbot workflow and starting reflection.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; 일반적인 활용 예시이며 제품 우열 주장 없음
-- **Visual Concept:** `std::vector<int> a(3, 1);` → `1, 1, 1`(3개)와 `std::vector<int> b{3, 1};` → `3, 1`(2개)를 비교한다. 아래의 연결된 native 흐름은 `IDE: 코드 선택·복사 → Chatbot: 붙여넣고 질문 → IDE: 답 확인·적용`이다. 원소 도식은 의미 설명이며 실행 로그·실제 ChatGPT 응답이 아니다. DEC-0034.
+- **Visual Concept:** `std::vector<int> a(3, 1);` → `1, 1, 1`(3개)와 `std::vector<int> b{3, 1};` → `3, 1`(2개)를 비교한다. 아래의 연결된 native 흐름은 `IDE: 코드 선택·복사 → Chatbot: 붙여넣고 질문 → IDE: 답 확인·적용`이다. 원소 도식은 의미 설명이며 실행 로그·실제 ChatGPT 응답이 아니다. DEC-0034. 하단 “필요한 코드와 맥락을 사람이 골라 전달한다.” 문장은 삭제하고 초기화 비교·연결된 세 노드·M 연계 표시는 유지한다. DEC-0180.
 - **Demo / Case Connection:** 짧은 오류 질문 사례
 - **Beginner Payoff:** 자신의 익숙한 사용법이 교육의 출발점으로 인정된다.
 - **Advanced Payoff:** 이 흐름에서 사람이 직접 선택하고 전달하는 Context를 알아차린다.
@@ -141,7 +141,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 질문이 여러 파일과 경계를 가로지르는 상황으로 확장한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 5분 = 5분
-- **Evidence / Decision References:** BEAT-001, CLM-0001, CLM-0002
+- **Evidence / Decision References:** BEAT-001, CLM-0001, CLM-0002; DEC-0180
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S04 — 코드 질문은 VS Code의 Copilot Chat에서
@@ -157,7 +157,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 0 / 0B — familiar small-code question with a short company IDE tip; no new maturity stage, Demo or Trial.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL
 - **Claim Status:** RESEARCH / TEACHING_MODEL / REQUIRES PRODUCT CHECK — 공식 안내를 각색한 UI 도식과 요청 예시다. 실제 회사 화면·Copilot 응답·선택/첨부/실행 기록이 아니다. 특정 계정의 기능·조직 정책·자동 Context 포함이나 정확성/시간 절감은 검증하지 않았다.
-- **Visual Concept:** VS Code 편집기와 Copilot Chat을 나란히 배치한 native UI 도식. S03의 std::vector<int> a(3, 1); / b{3, 1}; 두 줄을 선택하고 Context 첨부 확인 후 Ask로 설명을 요청한다. 실제 응답·실행 결과는 넣지 않는다. 하단은 코드 선택→Context 첨부·확인→질문하고 답 확인이다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Visual Concept:** VS Code 편집기와 Copilot Chat을 나란히 배치한 native UI 도식. S03의 std::vector<int> a(3, 1); / b{3, 1}; 두 줄을 선택하고 Context 첨부 확인 후 Ask로 설명을 요청한다. 실제 응답·실행 결과는 넣지 않는다. 하단은 코드 선택→Context 첨부·확인→질문하고 답 확인이다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다. 하단 “사용 예시” 표시는 제외하고 기존 UI·3단계·Mac 외형과 M 연계를 유지한다. DEC-0180.
 - **Demo / Case Connection:** N/A — Lecture2분의 정적 활용 안내. 실제 회사 화면·실행·제품 비교 결과가 아니다.
 - **Beginner Payoff:** 회사에서 사용하는 VS Code에서 관련 코드를 골라 Copilot Chat에 설명을 요청할 수 있다.
 - **Advanced Payoff:** IDE 통합과 실제 전달 Context를 구분하고 필요한 코드 첨부 및 응답 확인 책임을 유지한다.
@@ -166,9 +166,9 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “선택한 코드만으로 설명하기 어려운 문제라면, 어떤 자료가 더 필요할까요?” S05의 기존 Context 수집 문제로 이어간다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0101; GitHub/VS Code official guidance checked2026-10-26; no new execution claim; DEC-0179
+- **Evidence / Decision References:** DEC-0101; GitHub/VS Code official guidance checked2026-10-26; no new execution claim; DEC-0179; DEC-0180
 - **Practical Tip Classification:** 사용 환경
-- **Audience Footer:** 사용 예시
+- **Audience Footer:** 없음 — 사용 예시 문구는 화면에서 제외하고 상세 근거는 Notes에 유지한다. DEC-0180.
 
 #### S05 — 질문이 커지면 Context를 모으는 일이 생긴다
 
@@ -195,20 +195,20 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Evidence / Decision References:** BEAT-002, CLM-0004, CLM-0009
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S06 — 파일명을 주지 않으면 Agent는 어디부터 볼까?
+#### S06 — Agent에게 테스트 실패 원인을 조사하게 한다
 
 - **Slide ID:** S06
 - **ACT:** ACT 0
 - **Section:** 0D
-- **Working Title:** 파일명을 주지 않으면 Agent는 어디부터 볼까?
+- **Working Title:** Agent에게 테스트 실패 원인을 조사하게 한다
 - **Primary Role:** Demo 전 관찰 기준 제시
-- **Audience Question:** “Agent가 Test, 구현, 호출 경로를 어떻게 찾는가?”
-- **Core Message:** Demo에서는 파일을 직접 지정하지 않았을 때의 Search → Read → Trace를 관찰한다.
+- **Audience Question:** “Agent가 실패 원인을 설명하려면 무엇을 확인해야 할까?”
+- **Core Message:** 실패 원인을 조사하되 코드는 수정하지 말라는 요청을 전달하고, 실패 테스트·관련 구현·호출 경로를 찾아 설명하는 과정을 관찰한다.
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; 현재 Codex Desktop·계정 동작은 **REQUIRES PRODUCT CHECK**. TRIAL-001은 Codex CLI 관찰만 뒷받침한다. 실제 요청 원문을 재구성한 입력창과 우측의 교육용 GoogleTest 가상 UI를 구분한다. 가상 UI의 5개 통과·1개 실패는 실제 Trial 결과가 아니다.
-- **Visual Concept:** 좌측은 TRIAL-001 요청 원문을 일반 프롬프트 입력창 형태로 재구성한다. 우측은 `Read / Resize / Crop / Normalize / Statistics / Write` 중 Crop 하나가 실패하는 교육용 GoogleTest 가상 UI이며 `실제 TRIAL-001 아님`을 명시한다. 좌우를 실행 결과 화살표로 잇지 않는다. 아래에는 실패 테스트·관련 구현·호출 경로라는 세 관찰 항목을 유지하고, 실제 발견 파일과 원인은 S07–S08에서 공개한다. DEC-0034. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Visual Concept:** 좌측은 TRIAL-001 요청 원문을 일반 프롬프트 입력창 형태로 재구성한다. 우측은 `Read / Resize / Crop / Normalize / Statistics / Write` 중 Crop 하나가 실패하는 교육용 GoogleTest 가상 UI이며 “C++ 설명용 가상 화면” 표기로 구분한다. 좌우를 실행 결과 화살표로 잇지 않는다. 아래에는 실패 테스트·관련 구현·호출 경로라는 세 관찰 항목을 유지하고, 실제 발견 파일과 원인은 S07–S08에서 공개한다. DEC-0034. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다. 제목은 “Agent에게 테스트 실패 원인을 조사하게 한다”, 좌측 소제목은 “실제로 전달한 조사 요청”으로 표시한다. TRIAL-001 식별자와 두 하단 출처 문구는 화면에서 제외하고 Notes에 유지한다. 우측의 “C++ 설명용 가상 화면” 표시는 유지한다. DEC-0180.
 - **Demo / Case Connection:** DEMO-01 setup. STATE-00 / TRIAL-001; 읽기 전용 질문
 - **Beginner Payoff:** 무엇을 보고 판단하면 되는지 미리 안다.
 - **Advanced Payoff:** 답의 품질만 보지 않고 Context를 찾는 과정도 관찰한다.
@@ -217,8 +217,8 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 실행 또는 준비된 캡처에서 발견된 파일과 경로를 보여준다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, STATE-00, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005; DEC-0179
-- **Audience Footer:** Codex CLI 조사 기록 · 읽기 전용 / 우측은 GoogleTest 예시 · 실제 Trial은 Python
+- **Evidence / Decision References:** BEAT-003, DEMO-01, STATE-00, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005; DEC-0179; DEC-0180
+- **Audience Footer:** 없음 — 실행 환경·Python 실제 기록·GoogleTest 가상 UI의 상세 근거는 Notes에 보존한다. DEC-0180.
 
 #### S07 — Crop은 기대한 폭보다 한 열을 더 포함했다
 
