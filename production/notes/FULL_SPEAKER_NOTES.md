@@ -6153,62 +6153,72 @@ LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S101와 production/preview/ac
 **Validation Status:**
 CONTENT ALIGNED — DEC-0171. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md의 DEC-0171 기록을 따른다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S102 — 이번에 알아낸 것 중, 다음에도 쓸 것은?
+## S102 — Memory: 다음 작업에 다시 쓸 맥락
 
-Slide ID:
+**Slide ID:**
 S102
 
-Working Title: 이번에 알아낸 것 중, 다음에도 쓸 것은?
+**Working Title:**
+Memory: 다음 작업에 다시 쓸 맥락
 
-ACT / Section: ACT 5 / 3F
+**ACT / Section:**
+ACT 5 / 3F Conditional Memory Decision — 원 Section ID 유지
 
-Allocated Time: 4 minutes
+**Allocated Time:**
+4 minutes
 
-Mode Split: Demo 2 minutes (VISUAL) + Case 2 minutes
+**Mode Split:**
+Demo 2 minutes (VISUAL) + Case 2 minutes
 
-Primary Message: 이번 작업의 로그·측정값은 날짜 있는 작업 기록으로 두고, 다음에도 쓸 성능 비교 조건은 출처·적용 범위·갱신 조건과 함께 남긴다. 다음 작업에서는 현재 조건과 대조한 뒤 필요한 지식을 Context로 활용한다.
+**Primary Message:**
+유용한 작업 선호·프로젝트 지식·확인된 주의점을 다음 작업에 참고할 맥락으로 이어간다. 현재 Context와 메모리를 구분하고, 필수 지침은 문서에 두며 기억한 내용도 현재 조건과 대조한다.
 
-Opening Question: “결과를 수용한 뒤, 이번 기록 중 다음 작업에도 다시 쓸 것은 무엇일까요?”
+**Opening Question:**
+“다음 작업에서도 다시 설명할 선호와 프로젝트 지식은 어떻게 이어갈까요?”
 
-Speaker Flow:
-1. (0:00–0:30 / Demo) S101의 사람의 수용 판단을 받아, 작업에서 알아낸 것 중 다음에도 쓸 내용을 고르는 질문을 연다. 가상 C++ 검사 프로젝트에서 성능 비교 조건을 확인했고, 다음 작업에서도 같은 조건을 또 찾게 된다고 가정한다. 재조사 부담까지 교육용 가정이며 실제 Python Demo에서 발견·보존한 사실이 아니다.
-2. (0:30–1:15 / Demo) 왼쪽 이번 작업 Context의 확인한 측정 조건과 이번 로그·측정값을 짚는다. 이번 로그와 수치는 날짜 있는 작업 기록으로 남긴다. 그중 다음 작업에도 필요한 조건으로 ‘Release 빌드·동일 입력으로 비교’를 골라 표시한다. 이는 이 가상 프로젝트의 기준이며 모든 C++ 성능 비교에 적용되는 보편 규칙을 선언하지 않는다.
-3. (1:15–2:00 / Demo) 가운데 남길 지식에 조건만 옮기는 것이 아니라 확인한 명세/설정의 출처, 이 프로젝트의 비교 대상이라는 적용 범위, 빌드·입력 조건이 바뀌면 다시 확인한다는 갱신 조건을 함께 둔다. 이 교육에서 Memory는 이렇게 다음 작업에도 재사용할 지식의 역할이다. 오른쪽 다음 작업에서는 현재 빌드·입력 조건과 대조한 뒤 필요한 내용을 Context로 가져온다. 자동 저장·회수 기능의 시연이 아니다.
-4. (2:00–3:00 / Case) ‘이번 측정값을 다음에도 그대로 믿어도 될까요?’를 짧게 묻고, 수치는 당시 조건의 작업 기록이고 재사용할 것은 근거와 범위를 갖춘 비교 조건이라는 차이로 회수한다. 이미 프로젝트 문서에 있는 기준이면 그 원래 출처를 참조하고 별도 사본을 의무화하지 않는다. 같은 조건을 다시 찾는 부담을 줄이려는 설계 목적이며 절감 효과를 측정한 사례가 아니다.
-5. (3:00–4:00 / Case) 다음 작업에서 빌드 구성·입력·명세가 달라지면 출처를 다시 확인해 수정하거나 더 이상 맞지 않는 지식을 쓰지 않는다. 이번 Context 전체를 보존하거나 모든 로그를 Memory에 복제하는 것이 아니다. 사람의 수용 판단과 지식 선별까지 포함해 AI가 일할 조건과 확인 경로를 설계한다는 S103으로 연결한다.
-운영 표시: ‘실무 적용 팁 · Context 관리’로 다시 찾을 수 있게 하되, 별도 공개 답변·실습·새 실행 시간을 추가하지 않는다.
+**Speaker Flow:**
+1. (0:00–0:30 / Demo) S101의 최종 판단을 받은 뒤 다음 작업에서도 쓸 유용한 맥락을 묻는다. 이 장은 Memory의 일반 역할을 설명하며 S92의 Codex 설정·명령 안내를 반복하지 않는다.
+2. (0:30–1:15 / Demo) 왼쪽 이번 작업 Context에서 가운데 Memory로 이동한다. 현재 목표·자료·작업 기록 중 다시 쓸 선호·프로젝트 지식·확인된 주의점을 선별한다. 전부를 보존하는 규칙이나 별도 Memory 구현을 의무화하지 않는다.
+3. (1:15–2:00 / Demo) 가운데에서 오른쪽 다음 작업 Context로 이동한다. 새 요청과 관련 기억을 함께 참고하되 현재 문서·조건과 대조한다. 출처·적용 범위를 함께 보고 바뀐 내용은 재확인·갱신한다. 필수 팀 지침은 AGENTS.md나 버전 관리 문서가 원본이다.
+4. (2:00–3:00 / Case) 교육용 예로 ‘보고는 변경·검증·미확인 순서가 좋다’는 사용자의 선호를 생각한다. 다음 작업에서도 참고할 수 있는 선호지만 이번 요청이 다른 형식을 지정하면 현재 요청을 확인한다. 실제 저장·조회 결과를 시연하거나 계정에서 동작한다고 주장하지 않는다.
+5. (3:00–4:00 / Case) 프로젝트 정보가 바뀌어 기억과 현재 문서가 다르다면 원본을 확인하고 오래된 내용을 그대로 적용하지 않는 가정으로 설명한다. 필요한 지식과 문서의 역할을 구분한 뒤 S103의 전체 시스템 설계로 이어간다.
 
-Evidence / Source: CONCEPTUAL / TEACHING_MODEL — plan/MASTER_PLAN.md §5.6, plan/INVARIANTS.md INV-MATURITY-008, BEAT-026–028, DEC-0062/0073. plan/DEMO_MATRIX.md STEP07 §§181–190의 Context/유지 지식/문서/Trial 기록 구분과 no-qualifying-candidate 경계를 따른다. 재현 조건과 다음 작업은 교육용 가정이며 실제 재발견·Memory 저장/회수 기록이 아니다.; DEC-0080.
+**Evidence / Source:**
+CONCEPTUAL / TEACHING_MODEL · CLM-0008 · SRC-0113 / SRC-0249 · BEAT-026–028 · INV-MATURITY-008 · DEC-0133 / DEC-0175. OpenAI 공식 Memories와 Personalize ChatGPT를2026-11-04 확인했다. 유용한 맥락·선호·프로젝트 관행의 작업 간 참고와 필수 지침을 문서에 두는 경계를 뒷받침한다.
 
-보존된 상세 출처: CONCEPTUAL · 재현 조건을 다음 작업에도 쓴다는 가정 · 실제 Memory 사용 아님
+공식 문서: https://learn.chatgpt.com/docs/customization/memories 및 https://learn.chatgpt.com/docs/personalize. 제품별 저장소·통제 방식은 다르며 실제 교육 계정의 기능 활성화·가용성을 검증한 근거가 아니다.
 
-DEC-0133: 기존3F·BEAT-026–028의 작업 간 지식 선별 역할을 ACT5로 옮겨 구체화했다. C++ 검사 프로젝트에서 성능 비교 조건을 확인했다는 가정, Release 빌드·동일 입력이라는 이 프로젝트 기준, 출처/적용 범위/갱신 조건은 승인된 지식 재사용 역할을 구체화한 교육용 구성이다. 실제 C++ 실행·측정·저장·회수 기록이나 과거 Python Demo의 새 발견이 아니다. 삭제한 본문 포함 확인/지식 출처 감사 장을 다시 추가하지 않는다.
+그림은 Lucide 1.8.0의 Bot, Notebook 원본을 사용한다. 출처 https://lucide.dev 및 assets/slide-illustrations/work-conditions/LICENSE. Notebook은 역할을 나타내는 삽화이며 실제 저장 파일·제품 화면이 아니다.
 
-Claim Boundary: CONCEPTUAL CASE / TEACHING MODEL — 작업 간 지식 관리 가정이다. 현재 Demo에 Memory를 추가했거나 제품이 자동 기억·회수한다는 주장이 아니다. 구체적인 오류·입력·명령·개선 수치를 새로 만들지 않는다. Context와 보존 지식은 질문·수명·관리 목적이 다르며 서로 배타적인 정보 종류가 아니다. 유지한 지식도 다음 작업의 Context가 될 수 있다. 반복 조사 부담 감소는 설계 목적이며 측정 성과가 아니다.
+**Claim Boundary:**
+CONCEPTUAL CASE / TEACHING MODEL — 작업 간 지식 관리 가정이다. 현재 Demo에 Memory를 추가했거나 제품이 자동 기억·회수한다는 주장이 아니다. 구체적인 오류·입력·명령·개선 수치를 새로 만들지 않는다. Context와 보존 지식은 질문·수명·관리 목적이 다르며 서로 배타적인 정보 종류가 아니다. 유지한 지식도 다음 작업의 Context가 될 수 있다. 반복 조사 부담 감소는 설계 목적이며 측정 성과가 아니다.
 
-보존된 상세 범위: 이미 문서에 있으면 그 출처를 참조 · 제품의 자동 저장·회수를 확인한 사례가 아님
+**Beginner Explanation:**
+Context는 지금 판단에 쓰는 정보다. Memory는 다음 작업에서도 참고할 맥락을 이어주는 역할이다. 필요한 기억이 다음 Context에 들어갈 수 있지만 모든 기억이 항상 읽히거나 현재 문서보다 우선한다는 뜻은 아니다.
 
-이 장의 C++ 사례는 교육용 가정이다. Release 빌드·동일 입력 비교는 이 가상 프로젝트가 정한 기준이며 실제 측정한 성과나 모든 환경의 필수 규칙이 아니다. 특정 Memory 제품·자동 기억·자동 회수·파일 형식을 선택하거나 구현하지 않았다. 과거 TRIAL의 실측값·관찰 결과와 섞지 않는다.
+**Advanced Insight:**
+메모리는 필수 지침·현재 명세·검증 근거를 대체하지 않는다. 출처·적용 범위·신선도·갱신/무효화 조건을 관리한다. 실행 상태와 결과 근거는 명시적 작업 기록으로 남기고 선호·지식의 참고와 구분한다. 이미 원본 문서가 충분하면 중복 보존은 필수가 아니다.
 
-Beginner Explanation: 이번에 측정한 숫자는 이번 날짜와 조건의 기록이다. 다음에도 지킬 비교 조건은 왜 맞는지 확인할 출처와 언제 다시 검토할지까지 함께 남길 수 있다. 다음 작업에서는 그 조건이 지금도 맞는지 확인하고 필요한 것만 참고한다.
+**C++ Vision Bridge:**
+N/A — 기본 화면은 특정 언어·데모 지식에 의존하지 않는다. 이전 ‘Release 빌드·동일 입력’ 성능 비교 조건 사례는 plan/MEMORY_ACT5_RELOCATION.md의 과거 기획과 Git 이력에 보존한다. 이는 가상 C++ 프로젝트의 기준이며 실제 측정·Memory 저장/조회 기록이나 보편 규칙이 아니다.
 
-Advanced Insight: 재사용할 지식에는 신뢰도·출처·적용 범위·신선도·갱신/무효화 조건이 필요하다. Memory는 유지할 지식의 역할이며 현재 Task의 Context와 배타적인 정보 종류가 아니다. 검증·선별한 지식도 다음 Task에서는 현재 조건과 대조해 Context의 일부로 쓴다. 원래 Source of Truth가 충분하면 그 출처를 참조하고 중복 보존의 유지 부담을 피한다.
+**Demo Operation:**
+LOCAL STATIC VISUAL — 이번 작업 Context → 선별 → Memory → 참고 → 다음 작업 Context 순으로 가리킨다. 세 저장 예와 출처·적용 범위, 현재 문서와의 대조를 짚는다. 하단에서 필수 지침의 원본은 문서라는 경계를 회수한다. 제품 UI·실행·새 캡처·Trial은 사용하지 않는다.
 
-C++ Vision Bridge: 가상 C++ 검사 프로젝트에서 성능 비교 조건을 확인한 상황을 사용한다. Release 빌드·동일 입력은 이 사례의 프로젝트 기준이다. 실제 회사 환경·C++ benchmark·Python Demo 관찰로 표현하지 않는다.
+**Audience Interaction:**
+Case2분 안에서 반복하는 선호와 바뀔 수 있는 프로젝트 정보를 설명용 질문으로 대비한다. 실습·기록·공개 답변·새 Q&A를 추가하지 않는다. 실제 기능의 설정·조작은 S92를 참조한다.
 
-Demo Operation:
-LOCAL STATIC VISUAL — 가정 표시 → 왼쪽 이번 작업 Context의 확인한 측정 조건과 이번 로그·측정값 → 가운데 다음에도 쓸 지식(Memory)의 비교 조건·출처·적용 범위·갱신 조건 → 오른쪽 다음 작업의 현재 조건과 대조 → 필요한 Context로 활용. 이번 로그·측정값은 날짜 있는 작업 기록으로 구분한다. 색뿐 아니라 ‘이번 기록’과 ‘다음에도 쓸 조건’ 라벨과 연결선을 함께 읽는다. 제품 Memory·Agent·Demo repository를 실행하거나 새 캡처·측정 기록을 만들지 않는다.
+**Transition:**
+“다음 작업에 남길 맥락까지 포함해, AI가 일할 조건과 확인 경로를 설계해야 합니다.” S103으로 이어간다.
 
-Audience Interaction: Demo2분 뒤 Case2분 안에서 ‘이번 측정값과 다음에도 쓸 비교 조건 중 무엇을 어떤 근거와 남길까요?’를 짧게 묻는다. 이미 문서에 있으면 원래 출처를 참조한다는 답까지 회수한다. 별도 Q&A·실습·공개 답변을 추가하지 않는다.
+**Time Management:**
+Demo2분은 목적0:30 → 선별0:45 → 다음 Context와 문서 경계0:45다. Case2분은 선호 참고1:00 → 바뀐 프로젝트 정보의 확인·S103 연결1:00이다. 지연 시 예를 줄이고 일반 역할·문서 원본·다음 장 연결은 남긴다. 실제 리허설은 UNVERIFIED다.
 
-Transition: “수용할 결과와 다음에도 쓸 지식을 골랐습니다. 이런 판단까지 연결되도록 AI가 일할 조건과 확인 경로를 설계합니다.” S103으로 이어간다.
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S102와 production/preview/act5/S102.png. 일반 역할을 설명하는 도식이며 실제 Memory 실행 화면이 아니다. 현재 범위와 배치는 plan/MEMORY_ACT5_RELOCATION.md, 시각 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md의 DEC-0175 기록을 따른다.
 
-Time Management:
-Demo2분: S101 연결·가정0:30, 이번 Context/작업 기록과 조건 선별0:45, 남길 지식·다음 작업의 Context0:45. Case2분: 기록/조건의 차이·원래 출처1:00, 갱신/무효화·S103 연결1:00. 지연 시 문서/입력 예시를 줄이고 가정 경계·출처·적용 범위·갱신 조건은 유지한다.4분에 다음 장으로 이동한다. 실제 리허설은 UNVERIFIED다.
-
-Fallback: LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S102, production/preview/act5/S102.png 및 production/preview/full/S102.png. C++ 프로젝트의 작업 간 지식 선별을 설명하는 가정 도식이며 실제 실행 캡처가 아니다. 현재 정합성 확인은 production/evaluation/FINAL_HANDOFF.md를 따른다. 실제 제품/계정·Windows·교육장·실측 리허설은 UNVERIFIED다.
-
-Validation Status: CONTENT ALIGNED — DEC-0133.19필드·기존4분(Demo2 VISUAL+Case2)·3F/BEAT-026–028의 역할·가정 범위를 유지하며 ACT5로 이동했다. 실제 파일/Notes/렌더 대조는 production/evaluation/FINAL_HANDOFF.md를 따른다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+**Validation Status:**
+CONTENT ALIGNED — DEC-0175.19필드·기존4분(Demo2 VISUAL+Case2)·3F/BEAT-026–028·ACT5 내 현재 위치를 유지한다. 최종 파일·Notes·렌더 검사는 ACT5_SYNTHESIS_REVISION.md의 DEC-0175 기록을 따른다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
 ## S103 — AI가 일할 조건과 확인 경로를 설계한다
 
@@ -6635,7 +6645,7 @@ Lecture 1분
 **Speaker Flow:**
 새 S56–S58은 “AGENTS.md의 위치와 적용 범위” 한 항목으로 묶어 위치만 짚는다. 전체 팁을 다시 설명하지 않고 기존1분을 유지한다.
 1. (0:00–0:15 / Lecture) 마지막 통합 찾아보기이며 필요할 때 해당 장으로 돌아오는 목록임을 알린다.
-2. (0:15–0:45 / Lecture) S13 개발 프로젝트 조사는 Codex에서 시작한다 / S48 AGENTS.md에는 무엇을 남길까? / S62 테스트 명령을 언제 쓰고 무엇을 판단할까? / S67 대화로 재사용할 Skill 만들기 / S71 대화로 조사 Agent 만들기 / S92 Codex 메모리로 이전 대화의 맥락을 이어간다 / S102 이번에 알아낸 것 중, 다음에도 쓸 것은? / S94 권한·예산을 넘으면 멈추고 사람에게 넘긴다. S67/S71을 포함해 제목·위치만 짚고 본문을 다시 강의하지 않는다.
+2. (0:15–0:45 / Lecture) S13 개발 프로젝트 조사는 Codex에서 시작한다 / S48 AGENTS.md에는 무엇을 남길까? / S62 테스트 명령을 언제 쓰고 무엇을 판단할까? / S67 대화로 재사용할 Skill 만들기 / S71 대화로 조사 Agent 만들기 / S92 Codex 메모리로 이전 대화의 맥락을 이어간다 / S102 Memory: 다음 작업에 다시 쓸 맥락 / S94 권한·예산을 넘으면 멈추고 사람에게 넘긴다. S67/S71을 포함해 제목·위치만 짚고 본문을 다시 강의하지 않는다.
 3. (0:45–1:00 / Lecture) 요청 작성 팁 목록 S110으로 이어간다.
 
 **Evidence / Source:**
@@ -6658,7 +6668,7 @@ TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능�
 N/A — 원래 팁의 적용 범위를 따른다.
 
 **Demo Operation:**
-N/A — 정적 찾아보기. Live·HYBRID·새 Trial은 없다.
+N/A — 정적 찾아보기. Live·HYBRID·새 Trial은 없다. S92는 Codex 설정·조작, S102는 Memory의 일반적인 역할과 문서 경계로 구분해 안내한다.
 
 **Audience Interaction:**
 제목·위치만 안내하며 응답·실습·결과 제출을 요구하지 않는다.

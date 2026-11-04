@@ -240,12 +240,12 @@ Notes: agent delegation은 risk와 task independence에 맞춰야 함.
 
 ### SRC-0113
 
-Title: Codex Memories
+Title: Memories — ChatGPT and Codex
 Organization / Authors: OpenAI
 Source Type: OFFICIAL_DOC
 URL: https://learn.chatgpt.com/docs/customization/memories
 Published: Not shown
-Checked: 2026-11-03 (DEC-0158; current S92 under DEC-0160)
+Checked: 2026-11-04 (DEC-0175 role/boundary recheck; S92 setup checked2026-11-03 under DEC-0158/0160)
 Tier: 1
 Topics: Memory, personalization, context boundary
 Key Evidence: Settings > Personalization > Enable Codex memories enables local memories for the selected machine. /memories controls whether the current chat can use memories or contribute to future ones. Eligible earlier conversations can supply useful context through background processing.
@@ -1537,3 +1537,20 @@ URL: https://arxiv.org/abs/2606.05976v2
 Published: 2026-07-31 (v2)
 Checked: 2026-11-03
 Claim: CLM-0052 · 이전 판본 S92, DEC-0160 이후 참고 문헌. 같은 오류 문장을 그대로 두고 자신의 생각·사용자·도구·외부 메모리 등 메시지 역할만 바꿨다. 외부 역할로 제시했을 때 오류를 명시적으로 짚는 비율의 증가가 12개 모델·과제 조합 중 10개에서 유의했다. 독립 모델 조합의 성능을 비교한 실험으로 확장하지 않는다.
+
+### SRC-0249
+
+Title: Personalize ChatGPT — Carry context forward with memories
+Organization / Authors: OpenAI
+Source Type: OFFICIAL_DOC
+URL: https://learn.chatgpt.com/docs/personalize
+Published: Not shown
+Checked: 2026-11-04
+Tier: 1
+Topics: Memory, stable preferences, project conventions, instruction boundary
+Key Evidence: Memories carry useful context across chats, including stable
+preferences, recurring workflows and project conventions. Required project
+guidance remains in AGENTS.md or checked-in documentation.
+Limitations: Target-account availability and actual retrieval are not tested.
+Volatility: HIGH for product controls; no control details are added on S102.
+Notes: DEC-0175 / S102 general role; background to CLM-0008, not a new Demo.

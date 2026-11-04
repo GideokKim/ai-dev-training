@@ -15645,3 +15645,25 @@ primary vendor account without promoting it to a course or current-Codex
 result. Add no Trial, performance values, PASS/FAIL results or universal
 single-agent recommendation. Align Notes, maps, Full/ACT5 decks, previews
 and delivery hashes. Personal choice remains on S107/S108.
+
+# DEC-0175 — Generalize the memory lesson and retain its ACT5 position
+
+Status: ACCEPTED by explicit user instruction.
+Date: 2026-11-04.
+
+Replace S102's C++ measurement-condition assumption with a general view
+of useful preferences and project knowledge carried into later work.
+Distinguish current Context, reusable memory and required project guidance
+using official sources SRC-0113/0249. Keep product controls on S92.
+
+Retain S102 between result acceptance on S101 and the synthesis on S103.
+This preserves the reuse link in S103 and keeps S104-S106's reassessment
+sequence together before personal application. Reordering is unnecessary.
+
+Keep four minutes as Demo2 VISUAL plus Case2, Section3F, BEAT-026-028,
+DEMO-08, all slide numbers and 112 slides/383 minutes. Update the S109 lookup
+title, Notes, planning and delivery artifacts. Preserve the older C++
+case as a historical plan rather than current audience content. Correct
+S102's mislinked CLM-0007 to CLM-0008; do not renumber either claim.
+Add no memory implementation, new Trial, automatic-recall guarantee or
+measured result. Target-account and Windows/rehearsal gates remain open.

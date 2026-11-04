@@ -1,26 +1,26 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## ACT5 유지·통합·제거의 시각적 판단 · DEC-0174
+## ACT5 일반 메모리 역할과 배치 · DEC-0175
 
-[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT5 PPT](../ACT_5.pptx) · [ACT5 발표 Notes](../notes/ACT_5_NOTES.md) · [ACT5 미리보기](../preview/act5/montage.png) · [S100 화면](../preview/full/S100.png) · [S101 화면](../preview/full/S101.png) · [S108 화면](../preview/full/S108.png) · [S103 화면](../preview/full/S103.png) · [S104](../preview/full/S104.png) · [S105](../preview/full/S105.png) · [S106](../preview/full/S106.png) · [수정·검토 결과](ACT5_SYNTHESIS_REVISION.md)
+[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT5 PPT](../ACT_5.pptx) · [ACT5 발표 Notes](../notes/ACT_5_NOTES.md) · [ACT5 미리보기](../preview/act5/montage.png) · [S100 화면](../preview/full/S100.png) · [S101 화면](../preview/full/S101.png) · [S108 화면](../preview/full/S108.png) · [S103 화면](../preview/full/S103.png) · [S104](../preview/full/S104.png) · [S105](../preview/full/S105.png) · [S106](../preview/full/S106.png) · [S102 Memory](../preview/full/S102.png) · [수정·검토 결과](ACT5_SYNTHESIS_REVISION.md)
 
-S104–S106은 보조 역할의 통합 후보, 보호·통합·경유 절차 제거의 세 판단, 같은 조건에서 평가한 뒤 채택·되돌림을 결정하는 순서로 시각화했다. 기존 공개 사례와 교육용 판단 모델·평가 설계의 범위를 유지하며 각2분이다. S103은 맡길 범위 → 구축한 시스템 → 사람의 최종 판단을 익숙한 아이콘으로 연결하고, 선별한 지식이 다음 작업에서 조건 대조 후 다시 쓰이는 모습을 아래에 표시한다. S104의 구성 재평가 질문은 유지한다. S107과 S108은 A–E 표식의 위치·크기와 행 간격을 공유해, 문제에서 같은 글자의 행동으로 넘길 때 표식이 움직이지 않는다. S108의 정렬만 바꿨고 내용·Notes·시간은 유지했다. S100과 S101은 프로젝트 정보·재사용할 수행 방법·검증 도구와 Agent를 하나로 묶은 동일한 작업 시스템을 사용한다. S100은 변경 내용·확인 근거·미해결 항목을 남기는 결과 기록을, S101은 그 근거를 받아 수용·보완 요청·중단을 최종 결정하는 사람을 보여준다. 사전 목표·제약·권한과 근거 확인 책임은 유지한다. 전체 112장·383분, ACT5는 15장·41분이며 S100 강의2분과 S101 강의3분을 유지했다. S99의 수행 범위 질문에서 S102의 지식 선별로 이어지고, 마지막 실무 팁 찾아보기는 S109–S111, 교육 마무리는 S112다. Windows PowerPoint·교육장·실측 리허설은 미검증이다.
+S102는 “Memory: 다음 작업에 다시 쓸 맥락”으로 일반화했다. S101의 결과 수용과 S103의 전체 시스템 종합 사이에 현재 위치를 유지한다. S92의 Codex 설정·조작과 구분하고 S109 찾아보기의 제목을 맞췄다. 특정 C++ 가정은 과거 기획에 보존했다. S104–S106은 보조 역할의 통합 후보, 보호·통합·경유 절차 제거의 세 판단, 같은 조건에서 평가한 뒤 채택·되돌림을 결정하는 순서로 시각화했다. 기존 공개 사례와 교육용 판단 모델·평가 설계의 범위를 유지하며 각2분이다. S103은 맡길 범위 → 구축한 시스템 → 사람의 최종 판단을 익숙한 아이콘으로 연결하고, 선별한 지식이 다음 작업에서 조건 대조 후 다시 쓰이는 모습을 아래에 표시한다. S104의 구성 재평가 질문은 유지한다. S107과 S108은 A–E 표식의 위치·크기와 행 간격을 공유해, 문제에서 같은 글자의 행동으로 넘길 때 표식이 움직이지 않는다. S108의 정렬만 바꿨고 내용·Notes·시간은 유지했다. S100과 S101은 프로젝트 정보·재사용할 수행 방법·검증 도구와 Agent를 하나로 묶은 동일한 작업 시스템을 사용한다. S100은 변경 내용·확인 근거·미해결 항목을 남기는 결과 기록을, S101은 그 근거를 받아 수용·보완 요청·중단을 최종 결정하는 사람을 보여준다. 사전 목표·제약·권한과 근거 확인 책임은 유지한다. 전체 112장·383분, ACT5는 15장·41분이며 S100 강의2분과 S101 강의3분을 유지했다. S99의 수행 범위 질문에서 S102의 지식 선별로 이어지고, 마지막 실무 팁 찾아보기는 S109–S111, 교육 마무리는 S112다. Windows PowerPoint·교육장·실측 리허설은 미검증이다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `615bfbb68b7ff7dacfa884c1a08db3e5de047b58a4c185cb76789f84b665f646` |
+| `production/AI_Dev_Training_Full.pptx` | `4b70d0c292b8eabb8fe14c60a79e2c0ce8c034537d62f354878d4202e48de2ed` |
 | `production/ACT_0.pptx` | `5d5d0f2726df9c88f6bfbbb1fb52d5b221b10b2c9d243638552f013c0dd7378b` |
 | `production/ACT_1.pptx` | `07b8afb890383a0e656814859a052c9d9bdf139aa3bfd3c5eb6b556c0be115d4` |
 | `production/ACT_2.pptx` | `496a76f78a1a83fc66e72f82db5656f4710e7abf82c6747bc2d6f5a7768bd806` |
 | `production/ACT_3.pptx` | `acab05b7a47448cfb525856d52b65bb7dfa1c9d01df51521a68d1b2e6a6e6841` |
 | `production/ACT_4.pptx` | `ed7a65d4199ca8435c403c06827df3c0358853b4ae2e763a8ee08303bbf4d4b3` |
-| `production/ACT_5.pptx` | `7077951f85b1ff7a75c7a7b14e90ee44321c5c04edee956f6c44b15010fc9a53` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `89513bd2d6d682889318f1de13f29431e5a3e60e684b75eb74642f3699196d5f` |
+| `production/ACT_5.pptx` | `5f1d28200f604bd0be20499dffa48bc798503427bd45190bf70fa5e74c31c45b` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `19c487409d41acb70a050ea5ce4e4e082f2459f6d0cb5ad7c09797914b171f07` |
 | `production/notes/ACT_4_NOTES.md` | `437970fddc34a688f872d55d33fb9e3b1d46917622b4246f19c8df63200be31a` |
-| `production/notes/ACT_5_NOTES.md` | `1edf77cd671a244ea616a24c43c7c8252c0c8008dba250e50aa292ecbf2d0461` |
-| `production/preview/full/montage.png` | `3a1fa26b35cdae536d65ac89e5015d0a43c154691d3fac0bad0f411b21a1a117` |
+| `production/notes/ACT_5_NOTES.md` | `b2a0ac860e4ad02894cfe4364bcaabf8031d90cb9f95d2743f49769faeb3193e` |
+| `production/preview/full/montage.png` | `d9ee10dce596fa12f396c3d65bc767bd6a9a97ae942c55c57ccad135fc4745e3` |
 | `production/preview/act4/montage.png` | `98acbfbfbf0dc98c278888b9c2a1a75eb8b1a97c8b2641f06404dc19bcfa5c1a` |
-| `production/preview/act5/montage.png` | `de1d0ff669cb0d41855a9b848ecb97a66b710642d871c50ce3a2e1133f235c69` |
+| `production/preview/act5/montage.png` | `ad5d02e1a1ee62894e90aedad2476585582788e5e53a2f423daca594b606d1cc` |
 | `production/preview/full/S79.png` | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | `production/preview/full/S84.png` | `29e8438f364e03432f684abc9745482454430650ee59768536fdedcec709c2a4` |
 | `production/preview/full/S87.png` | `26c9ea08258e2bb7936d6af2ec5e02fd9345a1ae9d224c688e67284ff69d940f` |
@@ -29,7 +29,7 @@ S104–S106은 보조 역할의 통합 후보, 보호·통합·경유 절차 제
 | `production/preview/full/S92.png` | `5ce24f694235e2ddc92ce99395ad93eb394440c2d4f44029ae733ce90a93d38b` |
 | `production/preview/full/S93.png` | `4d0b3c4a32a80f566dd0f91d97753e701c66d6cdf80c13904f6ec0d38e8c42ca` |
 | `production/preview/full/S94.png` | `cfb8da443a83ca97b7a4f14ac70398a76ffe99b0ae3dab14c67742137d085bb7` |
-| `production/preview/full/S109.png` | `f085c64005487548184df35b1982a7ff8eb059d7623db589ea032d85f14a934b` |
+| `production/preview/full/S109.png` | `ca1a3553d799fdbedb0a708caf227bf787a37ead130183a86bf40543b009e839` |
 | `production/preview/full/S111.png` | `5095c4c5ac065ecbe4148e5bde3d34af7a2b9545c3eafff89308d42cfd8fb524` |
 | `production/notes/ACT_3_NOTES.md` | `812361557843a5280cdf1e005c12c3e0d024f71695a18d9e2790fe0ad14bc2a7` |
 | `production/preview/act3/montage.png` | `c1be5712b6a93d53cecaa5e8790135cf5202cb3e5813a47f3f9db95319b77730` |
@@ -41,6 +41,7 @@ S104–S106은 보조 역할의 통합 후보, 보호·통합·경유 절차 제
 | `production/preview/full/S104.png` | `a4997739f2eeae1cdea79c88bd0bdeb7f715a1a305495cf63d7a048cdfa62a48` |
 | `production/preview/full/S105.png` | `ac7948599b97c28ebb68c6057a56daf5c8da74bbdcd90ee0dcfe76a73389bb62` |
 | `production/preview/full/S106.png` | `30cfe2cf172b7a34a4557f54b8444dcbea6489509609527351828e3c742f8139` |
+| `production/preview/full/S102.png` | `47e8b60a6081b5f7943ee8963ace41d2e8acbfd70ca76bf4c58d0cf55d1d4071` |
 
 ## 보존된 이전 전달 기록
 

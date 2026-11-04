@@ -2640,31 +2640,31 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Evidence / Decision References:** DEC-0171; DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S102 — 이번에 알아낸 것 중, 다음에도 쓸 것은?
+#### S102 — Memory: 다음 작업에 다시 쓸 맥락
 
 - **Slide ID:** S102
 - **ACT:** ACT 5
 - **Section:** 3F Conditional Memory Decision — ACT5 배치; 원 Section ID 유지
-- **Working Title:** 이번에 알아낸 것 중, 다음에도 쓸 것은?
-- **Primary Role:** 수용한 작업 결과에서 다음에도 쓸 지식을 선별하는 업무 운영 판단을 설명하고 AI가 일할 조건 설계로 연결한다.
-- **Audience Question:** “이번에 알아낸 것 중, 다음 작업에서도 다시 찾게 될 것은 무엇일까요?”
-- **Core Message:** 이번 작업의 로그·측정값은 작업 기록에 남기고, 재사용할 가치가 있는 검증된 조건은 출처·적용 범위·갱신 조건과 함께 남긴다. 기억한 정보도 다음 작업에서는 현재 조건과 대조해 Context로 활용한다.
+- **Working Title:** Memory: 다음 작업에 다시 쓸 맥락
+- **Primary Role:** 유용한 작업 선호·프로젝트 지식·확인된 주의점을 다음 작업에 참고할 맥락으로 이어간다. 현재 Context와 메모리를 구분하고, 필수 지침은 문서에 두며 기억한 내용도 현재 조건과 대조한다.
+- **Audience Question:** 다음 작업에서도 다시 설명할 선호와 프로젝트 지식은 어떻게 이어갈까요?
+- **Core Message:** 유용한 작업 선호·프로젝트 지식·확인된 주의점을 다음 작업에 참고할 맥락으로 이어간다. 현재 Context와 메모리를 구분하고, 필수 지침은 문서에 두며 기억한 내용도 현재 조건과 대조한다.
 - **Story Beat:** BEAT-026–028 — Memory 후보 검토
-- **Curriculum Trace:** ACT5의 결과 수용과 AI가 일할 조건 설계 사이에 지식 재사용 판단을 배치한다. MASTER_PLAN §5.6과 INV-MATURITY-008, 원 Section3F/BEAT-026–028의 목표를 유지한다.
+- **Curriculum Trace:** ACT5의 결과 수용과 전체 작업 방식 종합 사이에서 작업 간 유용한 맥락의 재사용을 설명한다. S101 → S102 → S103의 현재 위치를 유지한다. MASTER_PLAN §5.6과 INV-MATURITY-008, 원 Section3F/BEAT-026–028의 Context/Memory 구분 목표를 유지한다.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
 - **Claim Status:** CONCEPTUAL CASE / TEACHING MODEL — 작업 간 지식 관리 가정이다. 현재 Demo에 Memory를 추가했거나 제품이 자동 기억·회수한다는 주장이 아니다.
-- **Visual Concept:** T03-C 세 단계 관계도. C++ 프로젝트에서 성능 비교 조건을 확인했다는 가정 아래, 이번 작업 Context의 Release 빌드·동일 입력 조건을 강조한다. 이번 로그·측정값은 작업 기록으로 구분하고, 재사용할 성능 비교 조건은 출처·적용 범위/버전·재확인 조건과 남긴다. 오른쪽 다음 작업 Context에서 현재 조건이 같으면 활용하고 달라졌으면 재확인·갱신한다. 제품 UI나 자동 저장·회수 trace로 표현하지 않는다.
-- **Demo / Case Connection:** DEMO-08 CONCEPTUAL VISUAL2 + Case2. 구체적인 C++ 업무 가정이며 실제 Trial 또는 Memory 저장/회수 실행 결과가 아니다. 현재 작업 기록과 재사용할 조건의 선별·관리 판단을 구분한다.
-- **Beginner Payoff:** 작업 로그 전체를 기억시키는 대신 다음에도 쓸 확인된 조건을 골라 남기는 이유를 이해한다.
-- **Advanced Payoff:** 보존 지식의 출처·적용 버전·재확인 조건과 다음 작업 Context로 활용할 때의 신선도 검토를 연결한다.
-- **C++ Vision Bridge:** CONTEXTUAL — C++ 프로젝트의 가상 성능 비교 기준. 실제 Python Trial 조건과 별개이며 특정 도구·측정 성과를 주장하지 않는다.
-- **Speaker Intent:** S101에서 수용한 결과 뒤에 이번 기록과 다음에도 쓸 조건을 구분한다. Release 빌드·동일 입력은 이 가상의 프로젝트에서 확인한 기준이다. 출처·범위·갱신 조건을 남기고 다음 작업에서 현재 조건과 대조하는 흐름으로 설명한다. 기존 Demo의 실제 Memory 사용이나 자동 지식 회수로 확장하지 않고 S103의 업무 설계 관점으로 연결한다.
+- **Visual Concept:** 이번 작업 Context의 Agent → 선별 → Notebook으로 표시한 Memory → 참고 → 다음 작업 Context의 Agent 관계도다. 중앙에는 작업 선호·프로젝트 지식·확인된 주의점을 둔다. 다음 작업은 새 요청과 관련 기억을 함께 참고하되 현재 문서와 대조한다. 필수 지침은 문서에 둔다는 원칙을 아래에 크게 표시한다. 특정 제품 UI·저장 경로·자동 저장/회수 trace나 C++ 데모로 표현하지 않는다.
+- **Demo / Case Connection:** DEMO-08 CONCEPTUAL VISUAL2 + Case2를 유지한다. 일반적인 메모리 역할을 설명하는 정적 시각 자료와 가상 선호/프로젝트 정보 사례이며 실제 Memory 저장·조회·갱신 실행 결과가 아니다. 설정·명령 사용법은 기존 S92에서 설명한다.
+- **Beginner Payoff:** 메모리가 반복해서 필요한 맥락을 다음 작업에 참고하도록 돕는 역할임을 이해한다. 대화 전체를 그대로 복제하거나 필수 지침의 원본을 대체하는 개념과 구분한다.
+- **Advanced Payoff:** 메모리는 다음 작업의 Context 일부가 될 수 있다. 출처·적용 범위·신선도를 확인하고 원본 문서가 충분하면 중복 저장을 의무화하지 않는다. 제품별 저장·조회·통제 방식과 계정 가용성은 별도 확인한다.
+- **C++ Vision Bridge:** N/A — 현재 화면은 특정 언어·프로젝트에 의존하지 않는다. 이전 가상 C++ 성능 비교 조건 사례는 MEMORY_ACT5_RELOCATION.md와 Git 이력에 보존하며 실제 관찰로 승격하지 않는다.
+- **Speaker Intent:** S101에서 수용한 결과 뒤에 다음에도 쓸 맥락을 선별하는 이유를 연다. 설정 화면을 다시 설명하지 않고 메모리의 일반 역할·참고·갱신·문서와의 경계를 설명한다. 같은 위치의 S103이 시스템 전체를 종합하고 S104–S106의 재평가로 이어지도록 한다.
 - **Transition:** “다음 작업에 남길 지식까지 포함해, AI가 일할 조건과 확인 경로를 설계해야 합니다.” S103으로 이어간다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 2분 (VISUAL) + Case 2분 = 4분
-- **Evidence / Decision References:** BEAT-026, CLM-0007, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0073, DEC-0080, DEC-0087, DEC-0133
+- **Evidence / Decision References:** BEAT-026, CLM-0008, SRC-0113, SRC-0249, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0073, DEC-0080, DEC-0087, DEC-0133, DEC-0175
 - **Practical Tip Classification:** Context 관리
-- **Audience Footer:** 재사용할 지식의 예시
+- **Audience Footer:** 필수 지침은 문서에 보존하고 메모리는 현재 조건과 대조
 
 #### S103 — AI가 일할 조건과 확인 경로를 설계한다
 
@@ -2836,11 +2836,11 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
 - **Advanced Payoff:** 사례의 근거 상태를 유지한 채 재사용할 안내 위치를 구분한다.
 - **C++ Vision Bridge:** N/A — 원래 팁의 적용 범위를 따른다.
-- **Speaker Intent:** 제목과 위치만 짧게 짚고, 전문을 다시 설명하지 않는다. 청중에게 실습·작성·공개 답변을 요구하지 않는다.
+- **Speaker Intent:** 제목과 위치만 짧게 짚고, 전문을 다시 설명하지 않는다. 청중에게 실습·작성·공개 답변을 요구하지 않는다. S92의 Codex 설정·조작과 S102의 일반적인 메모리 역할을 구분해 안내한다.
 - **Transition:** “이제 요청 문장을 작성할 때 바로 참고할 팁을 모아 보겠습니다.”라고 S110으로 이어간다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** DEC-0158, DEC-0156, DEC-0088, DEC-0104; S13, S48, S56–S58, S62, S67, S71, S92, S94, S102
+- **Evidence / Decision References:** DEC-0158, DEC-0156, DEC-0088, DEC-0104; S13, S48, S56–S58, S62, S67, S71, S92, S94, S102; DEC-0175
 - **Practical Tip Classification:** 찾아보기
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 

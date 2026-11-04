@@ -1,5 +1,19 @@
 # Memory
 
+## Current teaching scope — DEC-0175
+
+Checked:2026-11-04. Current S102 explains useful preferences, project
+knowledge and confirmed cautions being carried into later work. Context
+is the information used now; useful memories can become part of a later
+Context. Required instructions belong in AGENTS.md or checked-in project
+documentation. Memories do not replace the current source of truth.
+
+SRC-0113 and SRC-0249 support the general role and instruction boundary.
+Actual products have different stores and controls; S92 retains the Codex
+setup tip. S102's diagram is not evidence of automatic storage, retrieval,
+target-account availability or measured benefit. The source-backed role
+and the course's selection/current-document-check guidance are distinct.
+
 ## Research Question
 
 Codex Memory는 현재 Context, repository instruction, Source of Truth와 어떻게 다른가?

@@ -1569,3 +1569,14 @@ material decisions. S33 is a plan/deliverable boundary, not hidden thought
 output. S34 review is not independent proof and checks fit the change.
 S35's prior proposal is fictional and iteration does not prove improvement.
 No new Trial, C++ run, token/time saving or current-account validation.
+
+## DEC-0175 — General memory role on current S102
+
+Retain CONCEPTUAL / TEACHING_MODEL and the existing no-execution boundary.
+S102 explains cross-task reuse of useful context using SRC-0113/0249.
+Required instructions remain in current project documents. Actual product
+controls stay on S92; target-account behavior remains unverified. Remove
+the C++ measurement assumption from the audience view while retaining its
+prior planning record. Correct only S102's claim link from the Subagent
+claim CLM-0007 to the Memory claim CLM-0008. Add no retrieval guarantee,
+measured outcome, new Trial or mandatory memory implementation.

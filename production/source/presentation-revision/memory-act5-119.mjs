@@ -1,5 +1,6 @@
 /** DEC-0133: move cross-task knowledge management after result acceptance. */
 import {addPracticalTipBadge} from './practical-tips.mjs';
+import {readFileSync} from 'node:fs';
 
 const slideId=n=>`S${String(n).padStart(2,'0')}`;
 export const afterMemoryMove=id=>{
@@ -10,7 +11,7 @@ export const beforeMemoryMove=id=>{
  const n=Number(id.slice(1));
  return slideId(n===109?74:n>=74&&n<109?n+1:n);
 };
-export const MEMORY_TITLE='이번에 알아낸 것 중, 다음에도 쓸 것은?';
+export const MEMORY_TITLE='Memory: 다음 작업에 다시 쓸 맥락';
 
 export function renumber119MemoryText(value){
  const shift=n=>Number(n)===74?109:Number(n)>74&&Number(n)<=109?Number(n)-1:Number(n);
@@ -31,33 +32,37 @@ export function applyMemoryMove(slide){
 }
 
 export function memoryAct5Factory(p,H){
- const {C,text,rect,arrow}=H;
- const s=H.frame(p,'S109',MEMORY_TITLE,'ACT 5 · 작업 결과를 다음 업무로 잇기','','','CONCEPTUAL');
+ const {C,text,rect}=H;
+ const s=H.frame(p,'S109',MEMORY_TITLE,'ACT 5 · 작업 간 유용한 맥락을 이어가기','','','CONCEPTUAL');
  addPracticalTipBadge(s,'Context 관리',H);
- text(s,'가정: C++ 성능 비교 조건을 다음 작업에서도 또 찾는다면?',64,171,1152,36,27,C.teal,true);
- const y=250,h=285,w=344;
- for(const x of [64,468,872])rect(s,x,y,w,h,C.white,C.line,1);
- text(s,'이번 작업 Context',84,222,324,30,25,C.teal,true);
- text(s,'다시 쓸 지식 · Memory',488,222,324,30,25,C.warn,true);
- text(s,'다음 작업 Context',892,222,324,30,25,C.teal,true);
+ const icon=(name,x,y,size)=>{
+  const bytes=readFileSync(new URL(`../../../assets/slide-illustrations/work-conditions/${name}.png`,import.meta.url));
+  s.images.add({blob:new Uint8Array(bytes),contentType:'image/png',alt:name,fit:'contain',
+   position:{left:x,top:y,width:size,height:size}});
+ };
+ const arrow=(x,y,width)=>s.shapes.add({geometry:'connector',kind:'straight',
+  position:{left:x,top:y,width,height:0},line:{fill:C.teal,width:2.5},
+  tail:{type:'triangle',width:'sm',length:'sm'}});
+ text(s,'다시 설명할 선호와 프로젝트 지식을 이어간다',64,174,1152,40,29,C.teal,true);
+ text(s,'이번 작업 · Context',64,239,300,38,26,C.teal,true,H.FONT,'center');
+ icon('Bot',176,303,76);
+ text(s,'이번에 확인한 정보\n사용자의 작업 선호',64,414,300,86,26,C.ink,true,H.FONT,'center');
+ text(s,'선별',380,302,62,36,23,C.teal,true,H.FONT,'center');
+ arrow(380,372,62);
 
- text(s,'확인한 측정 조건',88,274,296,35,29,C.ink,true);
- rect(s,88,326,296,83,C.pale);
- text(s,'Release 빌드\n동일 입력으로 비교',102,335,268,66,28,C.teal,true);
- text(s,'이번 로그·측정값은\n작업 기록에 남김',88,438,296,64,25,C.sub);
+ const memory=rect(s,458,237,364,304,'#FBF5E8','#CEAD78',1.5);
+ memory.borderRadius=12;
+ text(s,'Memory',482,250,316,44,34,C.warn,true,H.FONT,'center');
+ icon('Notebook',596,310,88);
+ text(s,'작업 선호\n프로젝트 지식\n확인된 주의점',482,406,316,96,25,C.ink,true,H.FONT,'center');
+ text(s,'출처 · 적용 범위와 함께',482,507,316,30,21,C.sub,false,H.FONT,'center');
 
- arrow(s,420,365,36,18);
- text(s,'성능 비교 조건',492,274,296,35,29,C.ink,true);
- text(s,'출처\n적용 범위·버전\n다시 확인할 조건',492,341,296,123,27,C.sub);
- text(s,'재사용할 기준을 선별',492,482,296,29,24,C.warn,true);
-
- arrow(s,824,365,36,18);
- text(s,'현재 조건과 대조',896,274,296,35,29,C.ink,true);
- rect(s,896,337,296,62,C.pale);
- text(s,'같으면 활용',911,351,266,34,28,C.teal,true);
- text(s,'바뀌었다면\n재확인·갱신',896,432,296,70,27,C.ink,true);
-
- text(s,'기억한 정보도, 다음 작업에서는 현재 조건과 대조한다',64,558,1152,43,31,C.teal,true);
+ text(s,'참고',838,302,62,36,23,C.teal,true,H.FONT,'center');
+ arrow(838,372,62);
+ text(s,'다음 작업 · Context',916,239,300,38,26,C.teal,true,H.FONT,'center');
+ icon('Bot',1028,303,76);
+ text(s,'새 요청 + 관련 기억\n현재 문서와 대조',916,414,300,86,26,C.ink,true,H.FONT,'center');
+ text(s,'지켜야 할 지침은 문서로, 기억한 내용은 다시 확인한다',64,562,1152,43,30,C.teal,true);
  text(s,'M 연계 · 신규 확장',996,674,220,23,16,C.sub,false,H.FONT,'right');
  return s;
 }
