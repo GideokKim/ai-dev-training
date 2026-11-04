@@ -2508,23 +2508,23 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **ACT:** ACT 4
 - **Section:** 4T2 Goal request
 - **Working Title:** Codex에서 /goal로 목표와 완료 기준을 정한다
-- **Primary Role:** S95에서 확인한 완료 근거와 앞선 중단 조건을 밝기 통계 작업의 /goal 입력 예시로 옮긴다.
+- **Primary Role:** S95까지의 완료 근거·중단 조건이라는 원칙을 일반적인 에지 검출 알고리즘 조사·비교 보고서의 /goal 입력 예시로 옮긴다.
 - **Audience Question:** 원하는 변화와 검증 근거를 함께 제시해 다음 턴에서도 같은 목표를 판단하게 하려면 어떻게 요청할까?
 - **Core Message:** /goal로 목표를 지정하면 Codex가 턴이 끝난 뒤 현재 근거로 충족 여부를 판단할 수 있다. 무엇을 보존하고 언제 완료하거나 중단할지 요청에 명시한다.
 - **Story Beat:** BEAT-084, BEAT-085
 - **Curriculum Trace:** ACT 4 / 4T2 Goal request · DEC-0159
 - **Evidence Type:** RESEARCH / TEACHING_MODEL
 - **Claim Status:** REQUIRES PRODUCT CHECK — 공식 문서의 지원 기능과 교육용 입력 예시. 발표 기기·교육 계정의 활성화와 실행은 미검증.
-- **Visual Concept:** 공통 실무 적용 팁 · 검증·개선 배지와 읽기 쉬운 입력 예시. 목표, 출력·할당량으로 판단할 완료 기준, 측정 불가 시 중단 조건을 구분한다.
-- **Demo / Case Connection:** 밝기 통계 작업을 소재로 만든 요청 예시다. 이 요청으로 실행한 Trial이나 벤치마크 결과를 제시하지 않는다.
+- **Visual Concept:** 공통 실무 적용 팁 · 검증·개선 배지와 기존 Mac 스타일 입력창을 유지한다. 에지 검출의 Sobel·Canny·Laplacian 조사 요청, 원리·장단점·적용 상황의 비교 범위, 비교표·선택 기준·참고 출처의 완료 기준, 근거 확인 불가·조사 막힘의 중단 조건을4줄로 보여준다. 일시 정지·재개 명령과 배치는 유지한다.
+- **Demo / Case Connection:** 에지 검출 알고리즘을 조사해 비교 보고서를 만드는 교육용 요청이다. 실제 문헌 조사·보고서·코드 실행·성능 비교 결과를 제시하지 않는다. 기존 밝기 통계 Trial과 별개의 일반적인 활용 예시다.
 - **Beginner Payoff:** 막연히 계속하라고 반복하는 대신 어떤 결과가 나오면 끝낼지, 막히면 무엇을 알려야 할지 적을 수 있다.
 - **Advanced Payoff:** 실행 중 성공 판단이나 중단 보고를 검증 근거와 연결한다. 모델 역할 배분, 허용 권한, 비용 한도는 별도로 관리한다.
 - **C++ Vision Bridge:** N/A — 요청 작성법은 언어에 독립적이다.
-- **Speaker Intent:** 밝기 통계의 임시 메모리 사용량 감소를 목표로 읽고, 기존 출력 6개 보존과 동일 입력에서 기준판보다 낮은 최대 할당량을 함께 확인한다. 측정할 수 없으면 중단 사유를 보고하도록 짚는다.
+- **Speaker Intent:** 보고서라는 산출물과 세 후보의 비교 범위를 먼저 읽고, 비교표·선택 기준·참고 출처가 완료 판단의 근거임을 짚는다. 근거 확인이나 조사가 막히면 이유를 보고하도록 요청했다는 점을 확인한다. 특정 알고리즘 우열·속도·정확도 결과를 주장하지 않는다.
 - **Transition:** 목표·근거·중단을 명시한 예시를 마치고, ACT5에서 내 업무에 필요한 구성과 덜어낼 구성을 고른다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0159, SRC-0240, SRC-0241, CLM-0046, CLM-0047, BEAT-084, BEAT-085; DEC-0177
+- **Evidence / Decision References:** DEC-0159, SRC-0240, SRC-0241, CLM-0046, CLM-0047, BEAT-084, BEAT-085; DEC-0177; DEC-0181
 - **Audience Footer:** OpenAI · Using Goals in Codex · 공식 제품 안내.
 - **Practical Tip Classification:** 검증·개선
 

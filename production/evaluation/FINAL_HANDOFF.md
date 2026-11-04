@@ -1,12 +1,14 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## ACT0 제목·하단 문구 정리 · DEC-0180
+## S96 Goal 조사 보고서 예시 · DEC-0181
 
-[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT0](../ACT_0.pptx) · [ACT1](../ACT_1.pptx) · [ACT2](../ACT_2.pptx) · [ACT3](../ACT_3.pptx) · [ACT4](../ACT_4.pptx) · [ACT5](../ACT_5.pptx) · [전체 Notes](../notes/FULL_SPEAKER_NOTES.md) · [전체 미리보기](../preview/full/montage.png) · [ACT0 문구 정리 결과](ACT0_CAPTION_REVISION.md) · [요청창 전수 수정 결과](MAC_PROMPT_STYLE_REVISION.md) · [111장 전수 조사](../../plan/MAC_PROMPT_STYLE_AUDIT.md)
+[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT0](../ACT_0.pptx) · [ACT1](../ACT_1.pptx) · [ACT2](../ACT_2.pptx) · [ACT3](../ACT_3.pptx) · [ACT4](../ACT_4.pptx) · [ACT5](../ACT_5.pptx) · [전체 Notes](../notes/FULL_SPEAKER_NOTES.md) · [전체 미리보기](../preview/full/montage.png) · [Goal 보고서 예시 수정 결과](S96_GOAL_REPORT_REVISION.md) · [앞선 ACT0 문구 정리](ACT0_CAPTION_REVISION.md) · [요청창 전수 수정 결과](MAC_PROMPT_STYLE_REVISION.md) · [111장 전수 조사](../../plan/MAC_PROMPT_STYLE_AUDIT.md)
 
-S03의 “필요한 코드와 맥락을 사람이 골라 전달한다.”와 S04의 “사용 예시”, S06 하단 출처 두 줄을 삭제했다. S06은 “Agent에게 테스트 실패 원인을 조사하게 한다”와 “실제로 전달한 조사 요청”으로 표시해 S05의 Context 수집 문제에서 S07의 실제 Crop 결과로 이어진다. 실행 환경·실제 Python 기록·가상 C++ 그림의 근거는 Notes에 유지한다.
+S96의 Goal 요청을 에지 검출 알고리즘 조사·비교 보고서로 바꿨다. Sobel·Canny·Laplacian의 원리·장단점·적용 상황을 비교하고, 비교표·선택 기준·참고 출처를 완료 기준으로 둔다. 근거 확인 불가·조사 막힘은 중단 사유로 보고하도록 한다. 실제 조사·보고서·성능 측정 결과는 아니다. 기존 Mac 입력창·Goal 안내·제어 명령은 그대로다.
 
-기존37장·45곳의 Mac 스타일과 요청 원문·강조·근거 범위·시간 배정은 유지한다. 이번 변경은 S03/S04/S06의 지정6개 텍스트뿐이며 ACT1–5 PPT는 변경하지 않았다.
+앞선 ACT0 수정은 유지한다. S03의 “필요한 코드와 맥락을 사람이 골라 전달한다.”와 S04의 “사용 예시”, S06 하단 출처 두 줄을 삭제했다. S06은 “Agent에게 테스트 실패 원인을 조사하게 한다”와 “실제로 전달한 조사 요청”으로 표시해 S05의 Context 수집 문제에서 S07의 실제 Crop 결과로 이어진다. 실행 환경·실제 Python 기록·가상 C++ 그림의 근거는 Notes에 유지한다.
+
+기존37장·45곳의 Mac 스타일과 요청 원문·강조·근거 범위·시간 배정은 유지한다. 이번 변경은 S96의 요청 텍스트1개뿐이며 ACT0–3/5 PPT는 변경하지 않았다.
 
 S93 하단은 “허용 범위는 사람이 판단하고, 결과에 대한 책임도 사람이 진다”로 바꿨다. S105 머리말은 “ACT 5 · 재평가 3/3 · 평가 설계”로 정리하고 실행 여부에 관한 설명은 Notes에 유지한다.
 
@@ -14,26 +16,26 @@ S93 하단은 “허용 범위는 사람이 판단하고, 결과에 대한 책�
 
 S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과 접근 금지 대상을 시각적으로 구분한다. 실제 보안 설정·차단 실험의 결과가 아니다. S95 사람 검증 뒤 S96 Goal 팁으로 바로 이어지며 삭제한 성찰을 전제하지 않는다. S105(이전 S106)의 분기·합류는 같은 굵기의 둥근 선으로 연결했고 S106(이전 S107)의 머리말에서 C++ VISION을 제거했다. A–E 선택지와 다음 행동 장의 정렬, 근거 범위는 유지했다. S101의 일반 메모리 설명은 현재 위치와 배지 삭제를 유지한다.
 
-팁 찾아보기는 S108–S110, 마무리는 S111이다. 이번 판은 통합111장과 ACT0의14장, 총125개 렌더와 내장 Notes를 대조했다. 각 장19필드, 표 S54/S81/S85와 차트 S69, 팁 목적지·번호가 일치한다. 지정6개 문구 영역 밖 화면과 나머지108장은 기준판과 같고 새 레이아웃 경고는 없다. Windows PowerPoint·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo Repository·Sites·발표 묶음은 변경하지 않았다.
+팁 찾아보기는 S108–S110, 마무리는 S111이다. 이번 판은 통합111장과 ACT4의19장, 총130개 렌더와 내장 Notes를 대조했다. 각 장19필드, 표 S54/S81/S85와 차트 S69, 팁 목적지·번호가 일치한다. S96 요청 영역 밖 화면과 나머지110장은 기준판과 같고 새 레이아웃 경고는 없다. Windows PowerPoint·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo Repository·Sites·발표 묶음은 변경하지 않았다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `06442b75c754d1c86f77c408adbf2242171411b4aa60c819adc1dbc6e6ccc3a5` |
+| `production/AI_Dev_Training_Full.pptx` | `0c11a739d71d1b406ddecf0e9002a98c8fd065396396f8a24e1c6e92491f0965` |
 | `production/ACT_0.pptx` | `1ad0df43303aa9e13342f2fd5097603f26a6c643688e0ad1a03d1ed0777f6256` |
 | `production/ACT_1.pptx` | `094e0de7ad6cb0332b35f3661455c0e3387c2ccbe43f5a06f31aadb127fc1245` |
 | `production/ACT_2.pptx` | `70f040c1bf0419260404ba0a590c4e5ac90186a5bd51c785d913792ff60dfc0e` |
 | `production/ACT_3.pptx` | `4e3d2da3520e1cc6f8cb9286238e8cdb07ec681b2c02f7ebfd714e8065d06433` |
-| `production/ACT_4.pptx` | `8bb500f6fa97bfc88eda5eff629785d0b740b51879b5bebbad2e1f609f12ef1e` |
+| `production/ACT_4.pptx` | `bede5386411f9d6f626d60f1d09b2b67beb0a4373f46de3eacb5e59763997509` |
 | `production/ACT_5.pptx` | `af84add6162adaf83e5d67ec97d6486d45b52516357df8e2fd7e1857711b14b5` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `a13b853549a69d270417567742dfc6b45399f244563a46936e24b63a01d9adc1` |
-| `production/notes/ACT_4_NOTES.md` | `c75e17c300f67971bb792a59fa81be76564943e165c45b11312ad7cb719e6f8e` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `f7192f297a1fc43d60d781326df07a7076f4815cb81e529cb47ef9449058f213` |
+| `production/notes/ACT_4_NOTES.md` | `a7660820b4f90480ae753ed44a7b3049a778130c6cfdffa6e4a412c9e95fdba0` |
 | `production/notes/ACT_5_NOTES.md` | `2f03e5d4ab10b2a5d0994d9fa946ba4cf7bcecfca146cd7375265504b0661e4b` |
-| `production/preview/full/montage.png` | `5292a5526f05c72ebbe759c3419b8ee03a38738a7daef97d9721948d6a3a092c` |
-| `production/preview/act4/montage.png` | `df7ed60b1ffc61925ce51a7d1af1b753617ed26facb075b26c2c6aa6e7f9d280` |
+| `production/preview/full/montage.png` | `f910b2f249a3cbc9b5a722bcbbd2b14952b61d8cf22422ee7270da766fd73362` |
+| `production/preview/act4/montage.png` | `c61391c36233f822d129ad32f98a6aaeb6304eb3345e31eaa64ad07bae403746` |
 | `production/preview/act5/montage.png` | `00bca4918faa445e9c27c15e2b62a3a421703b322101ceccfc74ccf80bcf11fc` |
 | `production/preview/full/S93.png` | `5ff0f2b96940061ee18f3f51c9fee8833bfb5f9d1e45ff3c0360ff124aeba04c` |
 | `production/preview/full/S95.png` | `d5fdf0d5a011efb818f54cb423d1213af2b1f5e6f94f0e8406a5d9ba57cd5bf4` |
-| `production/preview/full/S96.png` | `bcb8c592a8179d862c680932614b46d5dd43e3b408a407a114897a4847d6228f` |
+| `production/preview/full/S96.png` | `f26c59a4f07adb390e351ecf1fe3b0f2317783d2165ef9a7b52ee9b08695ea21` |
 | `production/preview/full/S97.png` | `8d62f6884ca4533687d9b756bc50e7137d9f2b501ae3247e5ee8210d58e44d24` |
 | `production/preview/full/S101.png` | `95427929b67e91ebe633ad7674963c383747b608f37ccd4e47b0f7600d500f0c` |
 | `production/preview/full/S105.png` | `55fbb5fa9e3fa321e208a821e8676938706b7497e463ca9944f25caf09452409` |

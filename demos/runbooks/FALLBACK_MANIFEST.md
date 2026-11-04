@@ -1,12 +1,12 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0180
+## Current presentation · DEC-0181
 
-Simplify the selected ACT0 captions and S06 investigation title. Keep the actual request and all evidence boundaries in Notes. Standardize 45 request windows on 37 slides using the existing Mac style. Keep all 43 static fallback classifications, evidence and claim boundaries. The Full and affected ACT0-ACT4 decks are locally rendered; ACT5 is unchanged. Former S96 and its reflection time are removed. Current S96 is the Goal tip. The 43 entries identify local static fallbacks for the 111-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S96. S99 and S100 share one teaching-model work system; S100 shows the person deciding acceptance using its results and evidence.
+Use an edge-detection comparison report for S96 Goal request. Retain its completion and stop criteria, control commands and documented-product scope. No research or performance experiment was run. Simplify the selected ACT0 captions and S06 investigation title. Keep the actual request and all evidence boundaries in Notes. Standardize 45 request windows on 37 slides using the existing Mac style. Keep all 43 static fallback classifications, evidence and claim boundaries. The Full and affected ACT0-ACT4 decks are locally rendered; ACT5 is unchanged. Former S96 and its reflection time are removed. Current S96 is the Goal tip. The 43 entries identify local static fallbacks for the 111-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S96. S99 and S100 share one teaching-model work system; S100 shows the person deciding acceptance using its results and evidence.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`06442b75c754d1c86f77c408adbf2242171411b4aa60c819adc1dbc6e6ccc3a5`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`a13b853549a69d270417567742dfc6b45399f244563a46936e24b63a01d9adc1`.
-- `production/preview/full/montage.png` SHA-256:`5292a5526f05c72ebbe759c3419b8ee03a38738a7daef97d9721948d6a3a092c`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`0c11a739d71d1b406ddecf0e9002a98c8fd065396396f8a24e1c6e92491f0965`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`f7192f297a1fc43d60d781326df07a7076f4815cb81e529cb47ef9449058f213`.
+- `production/preview/full/montage.png` SHA-256:`f910b2f249a3cbc9b5a722bcbbd2b14952b61d8cf22422ee7270da766fd73362`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
@@ -50,7 +50,7 @@ Simplify the selected ACT0 captions and S06 investigation title. Keep the actual
 | S93 | TEACHING_PERMISSION_LIMITS | `production/preview/full/S93.png` | 1920×1080 | `5ff0f2b96940061ee18f3f51c9fee8833bfb5f9d1e45ff3c0360ff124aeba04c` |
 | S94 | TEACHING_STOP_AND_HANDOFF | `production/preview/full/S94.png` | 1920×1080 | `cfb8da443a83ca97b7a4f14ac70398a76ffe99b0ae3dab14c67742137d085bb7` |
 | S95 | TEACHING_HUMAN_REVIEW | `production/preview/full/S95.png` | 1920×1080 | `d5fdf0d5a011efb818f54cb423d1213af2b1f5e6f94f0e8406a5d9ba57cd5bf4` |
-| S96 | DOCUMENTED_CODEX_GOAL_TIP | `production/preview/full/S96.png` | 1920×1080 | `bcb8c592a8179d862c680932614b46d5dd43e3b408a407a114897a4847d6228f` |
+| S96 | DOCUMENTED_CODEX_GOAL_TIP | `production/preview/full/S96.png` | 1920×1080 | `f26c59a4f07adb390e351ecf1fe3b0f2317783d2165ef9a7b52ee9b08695ea21` |
 | S98 | TEACHING_SYNTHESIS | `production/preview/full/S98.png` | 1920×1080 | `e9ea8e4f3c1fba0ac12fc9c5ebe184a05d0e9f3b3d6f5ce7d4b1ab143e50e30b` |
 | S99 | TEACHING_WORK_CONDITIONS | `production/preview/full/S99.png` | 1920×1080 | `7081083d59328f9d8e902fde5671e6014a23ee1f2f5698993328f0513133ed67` |
 | S100 | TEACHING_HUMAN_DECISION | `production/preview/full/S100.png` | 1920×1080 | `495e2157330366e633d5bef98d32e6e943dee12674d3abf801afb149b881e3dd` |

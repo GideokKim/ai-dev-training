@@ -15767,3 +15767,25 @@ Preserve 111 slides/372 minutes and every allocation, ID and evidence type.
 Align the three affected Notes and maps, render the Full and ACT0 decks,
 and refresh their previews and delivery hashes. Keep other slides intact.
 Change no Demo repository, Site or presenter bundle.
+
+# DEC-0181 — Use an edge-detection report as the Goal request example
+
+Status: ACCEPTED by explicit user annotation on the Goal request.
+Date: 2026-11-04.
+
+Replace S96's brightness-statistics optimization request with a general
+edge-detection investigation and comparison report. Use Sobel, Canny and
+Laplacian as candidates and compare principles, trade-offs and use cases.
+Require a comparison table, selection criteria and references for completion.
+Ask for a stop reason when evidence cannot be checked or research is blocked.
+
+Retain the Mac input window, typography, existing Goal explanation and
+pause/resume controls. Preserve the two-minute allocation and the human
+validation principle between S95 and the ACT5 orientation. Change no
+product capability claim or current-account validation status. Treat this
+as a teaching request, with no actual research, report, algorithm ranking,
+execution or new performance measurement.
+
+Keep 111 slides/372 minutes, IDs, templates and evidence boundaries. Align
+S96's source, map, Notes, Full/ACT4 decks, previews and delivery hashes.
+Keep other slides, the Demo repository, Sites and presenter bundles intact.
