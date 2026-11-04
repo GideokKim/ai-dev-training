@@ -396,18 +396,38 @@ export function loopOperationsFactories(H) {
     },
     S94(p) {
       const s=common(p,'S94','무인 실행의 범위를 어디까지 허용할까?','실행 경계 설계 · 격리와 최소 권한','');
-      text(s,'자동으로 다시 시도하기 전에, 쓸 수 있는 자원을 정한다.',64,171,1152,46,30,C.teal,true);
-      panel(s,64,243,762,269,C.pale,C.teal);
-      caption(s,'허용된 실행 환경',87,258,690,C.teal);
-      panel(s,90,320,310,132,C.white);
-      text(s,'작업 파일',109,334,267,46,28,C.ink,true);
-      text(s,'지정한 폴더에서 변경',109,392,269,42,22,C.sub);
-      panel(s,426,320,373,132,C.white);
-      text(s,'외부 연결',446,334,328,46,28,C.ink,true);
-      text(s,'승인한 대상·권한만 사용',446,392,332,42,22,C.sub);
-      line(s,866,263,350,C.warn,3);
-      caption(s,'권한 밖',866,281,340,C.warn);
-      text(s,'관련 없는 파일\n비밀 키 · 배포 권한',866,347,350,96,29,C.ink,true);
+      const icon=(name,x,y,size)=>{
+        const bytes=readFileSync(new URL(`../../../assets/slide-illustrations/work-conditions/${name}.png`,import.meta.url));
+        s.images.add({blob:new Uint8Array(bytes),contentType:'image/png',alt:name,fit:'contain',
+          position:{left:x,top:y,width:size,height:size}});
+      };
+      text(s,'사람이 자리를 비운 동안, 정한 범위 안에서만 실행',64,171,1152,46,30,C.teal,true);
+      panel(s,64,244,738,292,C.pale,C.teal);
+      icon('ShieldCheck',86,259,38);
+      text(s,'추가 승인 없이 허용한 작업',140,257,632,40,27,C.teal,true);
+      icon('Bot',139,350,94);
+      text(s,'AI Agent',110,450,164,38,28,C.teal,true,FONT,'center');
+      s.shapes.add({geometry:'connector',kind:'straight',position:{left:252,top:399,width:58,height:0},line:{fill:C.teal,width:2.5}});
+      s.shapes.add({geometry:'connector',kind:'straight',position:{left:310,top:355,width:0,height:89},line:{fill:C.teal,width:2.5}});
+      connect(s,310,355,39,0); connect(s,310,444,39,0);
+      icon('FolderOpen',365,331,48);
+      text(s,'지정한 폴더',431,326,344,38,27,C.ink,true);
+      text(s,'코드 수정 · 테스트',431,369,344,32,23,C.sub);
+      icon('Unplug',365,419,48);
+      text(s,'승인한 외부 연결',431,415,344,38,27,C.ink,true);
+      text(s,'정한 대상·권한만 사용',431,458,344,32,23,C.sub);
+
+      connect(s,809,399,41,0,C.red);
+      s.shapes.add({name:'Access boundary',geometry:'connector',kind:'straight',
+        position:{left:854,top:360,width:0,height:78},line:{fill:C.red,width:5}});
+      text(s,'차단',810,453,52,32,21,C.red,true,FONT,'center');
+      panel(s,878,244,338,292,C.redPale,C.red);
+      icon('Unplug',901,262,38);
+      text(s,'접근 금지',956,257,232,40,28,C.red,true);
+      icon('FileText',901,338,42);
+      text(s,'관련 없는 파일',961,340,228,37,24,C.ink,true);
+      icon('Unplug',901,428,42);
+      text(s,'비밀 키\n배포 권한',961,411,228,77,25,C.ink,true);
       takeaway(s,'워크트리는 파일을 분리한다. 접근 권한은 실행 환경에서 따로 제한한다.');
       return s;
     },

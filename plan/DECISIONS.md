@@ -15684,3 +15684,25 @@ and Notes. Change no slide number, order, title, time, mode or Notes text.
 Keep 112 slides/383 minutes and ACT5's 15 slides/41 minutes. Regenerate and
 validate the Full and ACT5 decks and previews, then refresh delivery
 references. Add no Demo, Trial, Site or presentation bundle.
+
+# DEC-0177 — Clarify execution boundaries and remove the repeated reflection
+
+Status: ACCEPTED by four explicit user annotations.
+Date: 2026-11-04.
+
+Illustrate S93 with an Agent acting inside the approved folder and
+connection scope, and a blocked route to unrelated files, credentials and
+deployment permissions. Keep the worktree versus access-control boundary
+and the existing teaching-model scope. Add no tested security guarantee.
+
+Smooth the split and merge arrows on former S106 and remove C++ VISION
+from former S107's audience header. Preserve their content and allocations.
+Delete former S96 and its Reflection2, Q&A7 and Transition2 minutes without
+redistributing or absorbing the reflection. Connect S95's human validation
+directly to the retained Goal tip and then the ACT5 orientation.
+
+Shift former S97-S112 down one. Use 111 slides/372 minutes, ACT4's 19
+slides/71 minutes and ACT5's 15 slides/41 minutes. Preserve all retained
+slide allocations and evidence identifiers. Align sources, active planning,
+Notes, Full/ACT4/ACT5 decks, previews, navigation and delivery references.
+Keep historical editions intact. Change no Demo repository, Site or bundle.

@@ -1,0 +1,116 @@
+{
+  "baseline": "724cda4",
+  "slides": 111,
+  "minutes": 372,
+  "act": {
+    "ACT 0": [
+      14,
+      42.0
+    ],
+    "ACT 1": [
+      23,
+      64.0
+    ],
+    "ACT 2": [
+      22,
+      90.0
+    ],
+    "ACT 3": [
+      18,
+      64.0
+    ],
+    "ACT 4": [
+      19,
+      71.0
+    ],
+    "ACT 5": [
+      15,
+      41.0
+    ]
+  },
+  "modes": {
+    "Transition": 21.0,
+    "Lecture": 170.0,
+    "Reflection": 17.0,
+    "Case": 95.0,
+    "Demo": 44.0,
+    "Q&A": 25.0
+  },
+  "renders": 145,
+  "embeddedNotesCompared": 145,
+  "notesFields": 19,
+  "deletedFormerSlide": "S96",
+  "removedMinutes": 11,
+  "mainVisualChanges": [
+    "S93",
+    "S105",
+    "S106"
+  ],
+  "unchangedUnshiftedScreens": 94,
+  "shiftedScreensContentAndPixelBounds": "pass",
+  "decks": {
+    "AI_Dev_Training_Full": {
+      "slides": 111,
+      "sha256": "18b34a30361ad0c2ad7e3c3f84d5eed40bfa82f9abf3b35ded5e3054f6044f75",
+      "warnings": [
+        {
+          "connector_id": "25",
+          "connector_z": 25,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "24",
+          "text_z": 24
+        },
+        {
+          "connector_id": "28",
+          "connector_z": 28,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "27",
+          "text_z": 27
+        },
+        {
+          "available_bottom_in": 6.2917,
+          "columns": 3,
+          "declared_bottom_in": 5.7917,
+          "estimated_native_bottom_in": 6.3017,
+          "footer_object_ids": [
+            "4"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 0.01,
+          "rows": 8,
+          "slide": 54,
+          "table_id": "8"
+        },
+        {
+          "connector_id": "11",
+          "connector_z": 12,
+          "kind": "connector_over_text",
+          "slide": 79,
+          "text_object_id": "10",
+          "text_z": 11
+        }
+      ]
+    },
+    "ACT_4": {
+      "slides": 19,
+      "sha256": "8c6fc85c4503b1d15da91445f5b0ab0dc8f2a9e34a67756c84125f52e77e43b2",
+      "warnings": [
+        {
+          "connector_id": "11",
+          "connector_z": 12,
+          "kind": "connector_over_text",
+          "slide": 2,
+          "text_object_id": "10",
+          "text_z": 11
+        }
+      ]
+    },
+    "ACT_5": {
+      "slides": 15,
+      "sha256": "ccd72f7872fa933a32aa104680d6066249aea5fe91e08c3a3abbcac6b962dd9a",
+      "warnings": []
+    }
+  }
+}

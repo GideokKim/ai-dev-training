@@ -9,6 +9,9 @@ export function loadAct5ReassessmentSlides() {
   tail:{type:'triangle',width:'sm',length:'sm'}});
  const stroke=(s,x,y,w,h,color=C.teal)=>s.shapes.add({geometry:'connector',kind:'straight',
   position:{left:x,top:y,width:w,height:h},line:{fill:color,width:2.5}});
+ const route=(s,name,x,y,w,h,commands)=>s.shapes.add({name,geometry:'custom',
+  position:{left:x,top:y,width:w,height:h},fill:'none',line:{fill:C.teal,width:2.5},
+  customPaths:[{width:w,height:h,commands}]});
  const icon=(s,name,x,y,size)=>{
   const bytes=readFileSync(new URL(`../../../assets/slide-illustrations/work-conditions/${name}.png`,import.meta.url));
   s.images.add({blob:new Uint8Array(bytes),contentType:'image/png',alt:name,fit:'contain',
@@ -87,8 +90,14 @@ export function loadAct5ReassessmentSlides() {
    icon(s,'FileText',132,320,64);
    text(s,'같은 대표 작업·입력',64,405,210,36,23,C.ink,true,H.FONT,'center');
    text(s,'같은 판단 기준',64,448,210,34,22,C.teal,true,H.FONT,'center');
-   arrow(s,274,405,40);stroke(s,314,328,0,156);
-   arrow(s,314,328,46);arrow(s,314,484,46);
+   stroke(s,274,405,40,0);
+   route(s,'Same input to existing structure',314,328,20,77,[
+    {moveTo:{x:0,y:77}},{lineTo:{x:0,y:14}},
+    {quadBezTo:{x1:0,y1:0,x:14,y:0}},{lineTo:{x:20,y:0}}]);
+   route(s,'Same input to candidate structure',314,405,20,79,[
+    {moveTo:{x:0,y:0}},{lineTo:{x:0,y:65}},
+    {quadBezTo:{x1:0,y1:79,x:14,y:79}},{lineTo:{x:20,y:79}}]);
+   arrow(s,334,328,26);arrow(s,334,484,26);
    rect(s,360,270,300,116,C.white,C.line,1.5);
    text(s,'기존 구성',376,280,268,36,26,C.ink,true);
    icon(s,'Bot',386,326,40);
@@ -98,7 +107,15 @@ export function loadAct5ReassessmentSlides() {
    rect(s,360,426,300,116,C.pale,C.line,1.5);
    text(s,'통합·제거 후보',376,436,268,36,26,C.teal,true);
    icon(s,'Bot',398,482,40);text(s,'Skill · Tool',468,482,170,36,23,C.ink,true);
-   arrow(s,660,328,52);arrow(s,660,484,52);stroke(s,712,328,0,156);arrow(s,712,405,74);
+   route(s,'Existing structure to shared evaluation',660,328,82,77,[
+    {moveTo:{x:0,y:0}},{lineTo:{x:38,y:0}},
+    {quadBezTo:{x1:52,y1:0,x:52,y:14}},{lineTo:{x:52,y:63}},
+    {quadBezTo:{x1:52,y1:77,x:66,y:77}},{lineTo:{x:82,y:77}}]);
+   route(s,'Candidate structure to shared evaluation',660,405,82,79,[
+    {moveTo:{x:0,y:79}},{lineTo:{x:38,y:79}},
+    {quadBezTo:{x1:52,y1:79,x:52,y:65}},{lineTo:{x:52,y:14}},
+    {quadBezTo:{x1:52,y1:0,x:66,y:0}},{lineTo:{x:82,y:0}}]);
+   arrow(s,742,405,44);
 
    rect(s,786,257,430,285,C.white,C.line,1.5);
    text(s,'같은 기준으로 비교',810,269,382,40,27,C.teal,true);

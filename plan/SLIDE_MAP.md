@@ -1,5 +1,18 @@
 # Official Slide Map
 
+## 현재 제작 기준 — DEC-0177 (2026-11-04)
+
+전체 **111장·372분(6시간12분)**. ACT별 장수는14/23/22/18/19/15장, 시간은42/64/90/64/71/41분이다. Mode는 Lecture170 / Demo44 / Case95 / Reflection17 / Transition21 / Q&A25분이다.
+
+기준판 `724cda4`의 S96 “무엇을 자동화하고, 무엇을 사람이 결정할까?”를 삭제한다. 배정된11분(Reflection2 + Q&A7 + Transition2)도 제외하고 다른 장으로 옮기지 않는다. 이전 S97–S112는 현재 S96–S111로 한 칸씩 당긴다. ACT4는 S78–S96(19장·71분), ACT5는 S97–S111(15장·41분)이다.
+
+S93은 사람이 자리를 비운 동안 허용할 수정·테스트·외부 연결과 접근 금지 대상을 Agent 중심 도식으로 구분한다. S95 사람 검증 뒤 현재 S96 Goal 요청 팁으로 바로 이어진다. 현재 S105(이전 S106)의 평가 도식은 분기·합류 연결선을 같은 굵기와 곡률로 정리하고, 현재 S106(이전 S107)의 화면 머리말에서 C++ VISION을 삭제한다. 근거·주장 경계·남은 장의 시간은 유지한다.
+
+[수정·삭제·번호 대응](ACT45_ANNOTATION_REVISION.md) · [공식 Slide Map](SLIDE_MAP.md)
+
+<details>
+<summary>이전 제작 기준 안내 — 112장판 및 이전</summary>
+
 ## 현재 제작 기준 — DEC-0168 (2026-11-04)
 
 S100의 중복 작업 흐름 장을 삭제했다. S99는 “이렇게 일을 맡기려면, AI에게 무엇을 연결해야 할까?”로 마무리하고, 새 S100은 필요한 정보·수행 방법·검증 도구를 설명한다. 이전 S101–S113은 새 S100–S112다. 삭제한 3분(강의 1 + 사례 2)을 제외하며 다른 장으로 옮기지 않는다. 전체 112장·383분, ACT5는 S98–S112의 15장·41분이다. ACT별 장수는 14/23/22/18/20/15, 시간은 42/64/90/64/82/41분이며 모드는 강의 170/데모 44/사례 95/성찰 19/전환 23/질의 32분이다.
@@ -44,6 +57,9 @@ Demo 저장소·Sites·발표 묶음은 변경하지 않는다. [삭제·연결 
 | ACT 4 | S78–S97 | 20 | 82 |
 | ACT 5 | S98–S112 | 15 | 41 |
 | Total | S01–S112 | 112 | 383 |
+
+
+</details>
 
 ## 유지할 현행 화면과 연결
 
@@ -1921,7 +1937,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** Harness는 기능을 많이 모으는 일이 아니라 현재 문제에 필요한 구조를 마련하는 일이다.
 - **Advanced Payoff:** 최소 구성은 문제와 검증 요건에 따라 달라진다는 점을 판단 기준으로 삼는다.
 - **C++ Vision Bridge:** N/A — 이전 독립 C++ 전이 장은 DEC-0091에서 삭제했다. 실제 구성 회고와 Harness 재사용 설명으로 연결한다.
-- **Speaker Intent:** 역할 분리 여부를 판단한 앞 장에서 바로 실제 작업 구성의 역할로 넘어온다. 목표·정보·수행 방법·검증 도구의 기존 역할을 회수하고 다음 S74에서 실행 환경과 검토 책임을 연결한다. 지식 보존은 ACT5 S102에서 별도로 다루며 이 장에서 먼저 강의하지 않는다.
+- **Speaker Intent:** 역할 분리 여부를 판단한 앞 장에서 바로 실제 작업 구성의 역할로 넘어온다. 목표·정보·수행 방법·검증 도구의 기존 역할을 회수하고 다음 S74에서 실행 환경과 검토 책임을 연결한다. 지식 보존은 ACT5 S101에서 별도로 다루며 이 장에서 먼저 강의하지 않는다.
 - **Transition:** “이 파일과 도구들이 어떤 관계로 작동하는지 전체 작업 환경으로 묶겠습니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Demo 3분 (CAPTURED) = 3분
@@ -2028,7 +2044,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Evidence / Decision References:** DEC-0148, DEC-0147 (이전 S77 배치), DEC-0146, DEC-0136; DEC-0023; BEAT-073; INV-LOOP-001; INV-VERIFY-001. Source slide lineage: previous118 S77/S78/S79/S80/S81; prior Section3G/3I operation records retained in history.
 - **Audience Footer:** 없음 — 상단에 교육용 대화 예시를 표시하고 하단은 M 연계 표기만 유지한다.
 
-### ACT 4 — 20 slides / 82 minutes
+### ACT 4 — 19 slides / 71 minutes
 
 #### S78 — 목표를 이룰 때까지 수정하고 검토하기
 
@@ -2423,7 +2439,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 4 / 4R5 Implementation, review and state · DEC-0156
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
-- **Visual Concept:** 격리 공간 안에서 허용할 작업과 경계를 넘는 작업을 구분한다.
+- **Visual Concept:** Agent와 허용 영역 안의 지정 폴더 수정·테스트 및 승인한 외부 연결을 연결한다. 관련 없는 파일·비밀 키·배포 권한은 별도 금지 영역으로 두고 경계에서 연결선을 끊는다. 실제 설정 화면이나 차단 시험 결과가 아닌 권한 설계 도식이다.
 - **Demo / Case Connection:** Loop Engineering Systems p.12에서 각색한 발표용 도식. 정적 사례로 설명한다.
 - **Beginner Payoff:** 자동화가 실행해도 되는 범위를 작업 전에 표현할 수 있다.
 - **Advanced Payoff:** 최소 권한, 제한된 자격 정보, 격리와 비용 상한을 별도 통제로 다룬다.
@@ -2432,7 +2448,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 권한·예산을 넘으면 멈추고 사람에게 넘긴다
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 1분 + Case 2분 = 3분
-- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
+- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050; DEC-0177
 - **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
 
 #### S94 — 권한·예산을 넘으면 멈추고 사람에게 넘긴다
@@ -2479,45 +2495,20 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** AI의 완료 보고를 받은 뒤, 자신이 두 기준을 확인해야 하는 시점을 찾는다.
 - **Advanced Payoff:** 기능 보존과 메모리 목표를 각각 검증하고, 비교할 입력이나 기준판 수치가 빠지면 재측정 조건을 지정한다.
 - **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
-- **Speaker Intent:** Notes에서 S94의 중단 인계와 AI가 정상적으로 완료를 보고한 상황을 구분한다. 사람이 밝기 통계의 기존 출력 6개와 동일 입력·기준판 대비 최대 할당량을 확인하는 예를 구두로 들고, S96의 팀별 승인 책임 질문으로 이어간다.
-- **Transition:** 우리 팀의 반복 업무에서는 어떤 결정을 사람에게 남길까?
+- **Speaker Intent:** Notes에서 S94의 중단 인계와 AI가 정상적으로 완료를 보고한 상황을 구분한다. 사람이 밝기 통계의 기존 출력 6개와 동일 입력·기준판 대비 최대 할당량을 확인하는 예를 구두로 들고, 현재 S96의 Goal 요청으로 바로 이어간다. 삭제한 개인 성찰을 전제하지 않는다.
+- **Transition:** 확인한 완료 근거와 중단 조건을 Goal 요청에 어떻게 담을까?
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0165, DEC-0162, DEC-0156, SRC-0246, CLM-0050; legacy M5·M6 (교육 내용 대응)
+- **Evidence / Decision References:** DEC-0165, DEC-0162, DEC-0156, SRC-0246, CLM-0050; legacy M5·M6 (교육 내용 대응); DEC-0177
 - **Audience Footer:** 본문 하단 설명 없음. 기존 M5·M6 모듈 연계 표기 유지.
 
-#### S96 — 무엇을 자동화하고, 무엇을 사람이 결정할까?
+#### S96 — Codex에서 /goal로 목표와 완료 기준을 정한다
 
 - **Slide ID:** S96
 - **ACT:** ACT 4
-- **Section:** 4R6 Evidence and transfer
-- **Working Title:** 무엇을 자동화하고, 무엇을 사람이 결정할까?
-- **Primary Role:** 2분 성찰, 7분 질의, 2분 전환.
-- **Audience Question:** 무엇을 자동화하고, 무엇을 사람이 결정할까?
-- **Core Message:** 한 업무를 골라 반복 실행할 일, 완료를 뒷받침할 근거, 사람이 승인하거나 중단할 지점을 정한다.
-- **Story Beat:** BEAT-083, BEAT-090
-- **Curriculum Trace:** ACT 4 / 4R6 Evidence and transfer · DEC-0156
-- **Evidence Type:** TEACHING_MODEL
-- **Claim Status:** TEACHING MODEL — 제공 자료의 설계 판단을 설명한다. 조직 정책, 실제 실행 사건이나 제품의 통제 기능을 검증한 결과가 아니다.
-- **Visual Concept:** 반복 작업·판정 근거·사람의 결정 칸을 사용해 성찰과 질의를 진행한다.
-- **Demo / Case Connection:** Loop Engineering Systems p.14에서 각색한 발표용 도식. 정적 사례로 설명한다.
-- **Beginner Payoff:** 반복 실행 한 가지와 사람이 결정할 경계 한 가지를 고른다.
-- **Advanced Payoff:** 비용·권한·검토 책임을 업무별로 결정하고 불필요한 요소는 뺄 수 있다.
-- **C++ Vision Bridge:** N/A — 이 장은 언어에 독립적인 작업 운영을 다룬다.
-- **Speaker Intent:** 2분 성찰, 7분 질의, 2분 전환. 한 업무에서 완료로 볼 근거와 사람이 인계받을 경계를 고른 뒤, 그 기준을 Goal 요청에 넣는 장면으로 넘어간다.
-- **Transition:** 방금 정한 완료 근거와 중단 조건을 Codex에 한 번에 맡기려면 어떻게 적을까?
-- **Estimated Time:** 11분
-- **Delivery Mode Allocation:** Reflection 2분 + Q&A 7분 + Transition 2분 = 11분
-- **Evidence / Decision References:** DEC-0156, SRC-0246, CLM-0050
-- **Audience Footer:** N/A — 화면의 맥락에서 사례 또는 설계 유형을 밝힌다.
-
-#### S97 — Codex에서 /goal로 목표와 완료 기준을 정한다
-
-- **Slide ID:** S97
-- **ACT:** ACT 4
 - **Section:** 4T2 Goal request
 - **Working Title:** Codex에서 /goal로 목표와 완료 기준을 정한다
-- **Primary Role:** S96에서 정한 목표·완료 근거·사람에게 넘길 경계를 밝기 통계 작업의 /goal 입력 예시로 옮긴다.
+- **Primary Role:** S95에서 확인한 완료 근거와 앞선 중단 조건을 밝기 통계 작업의 /goal 입력 예시로 옮긴다.
 - **Audience Question:** 원하는 변화와 검증 근거를 함께 제시해 다음 턴에서도 같은 목표를 판단하게 하려면 어떻게 요청할까?
 - **Core Message:** /goal로 목표를 지정하면 Codex가 턴이 끝난 뒤 현재 근거로 충족 여부를 판단할 수 있다. 무엇을 보존하고 언제 완료하거나 중단할지 요청에 명시한다.
 - **Story Beat:** BEAT-084, BEAT-085
@@ -2533,15 +2524,15 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** 목표·근거·중단을 명시한 예시를 마치고, ACT5에서 내 업무에 필요한 구성과 덜어낼 구성을 고른다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0159, SRC-0240, SRC-0241, CLM-0046, CLM-0047, BEAT-084, BEAT-085
+- **Evidence / Decision References:** DEC-0159, SRC-0240, SRC-0241, CLM-0046, CLM-0047, BEAT-084, BEAT-085; DEC-0177
 - **Audience Footer:** OpenAI · Using Goals in Codex · 공식 제품 안내.
 - **Practical Tip Classification:** 검증·개선
 
 ### ACT 5 — 15 slides / 41 minutes
 
-#### S98 — 내 업무에 맞게 조합하고 덜어내기
+#### S97 — 내 업무에 맞게 조합하고 덜어내기
 
-- **Slide ID:** S98
+- **Slide ID:** S97
 - **ACT:** ACT 5
 - **Section:** 5A Full Story Recap
 - **Working Title:** 내 업무에 맞게 조합하고 덜어내기
@@ -2557,17 +2548,17 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** 지금부터 살펴볼 주제와 앞 구간과의 경계를 알아본다.
 - **Advanced Payoff:** 해당 ACT가 다루는 설계 책임의 범위를 짧게 확인한다.
 - **C++ Vision Bridge:** N/A — 기존 본문에 있는 C++ 연결을 유지한다.
-- **Speaker Intent:** S96에서 고른 자동화와 사람의 결정 경계, S97에서 문장으로 정한 완료·중단 기준을 회수한다. 이를 기준으로 내 업무에 필요한 구성과 덜어낼 구성을 고른다는 ACT 방향을 소개한다.
-- **Transition:** S99에서 질문·답변에서 기준에 따른 작업으로 맡기는 범위가 넓어졌음을 회수한다.
+- **Speaker Intent:** S95에서 확인한 사람 검증과 S96에서 문장으로 정한 완료·중단 기준을 회수한다. 이를 기준으로 내 업무에 필요한 구성과 덜어낼 구성을 고른다는 ACT 방향을 소개한다.
+- **Transition:** S98에서 질문·답변에서 기준에 따른 작업으로 맡기는 범위가 넓어졌음을 회수한다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Transition 1분 = 1분
-- **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence
+- **Evidence / Decision References:** DEC-0090; existing ACT/Story focus; no new evidence; DEC-0177
 - **ACT Subtitle:** AI-Native Development · 업무 방식의 재설계
 - **Audience Footer:** 기존 ACT 제목 표기 유지
 
-#### S99 — AI에게 맡기는 범위가 넓어졌다
+#### S98 — AI에게 맡기는 범위가 넓어졌다
 
-- **Slide ID:** S99
+- **Slide ID:** S98
 - **ACT:** ACT 5
 - **Section:** 5A Full Story Recap
 - **Working Title:** AI에게 맡기는 범위가 넓어졌다
@@ -2583,16 +2574,16 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
 - **Advanced Payoff:** 개념의 범위 확대와 모든 구성요소의 도입 의무를 구분한다. 개인 문제 선택과 다음 행동은 S107/S108에서만 진행한다.
 - **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S107/S108에 남긴다.
-- **Speaker Intent:** 질문·답변에서 기준에 따른 작업으로 넓어진 범위를 회수한다. 마지막 질문을 읽고, S100의 정보·수행 방법·검증 도구에 연결한다. 개인 문제 선택은 S107, 다음 행동은 S108에서 진행한다.
-- **Transition:** 이렇게 일을 맡기려면, AI에게 무엇을 연결해야 할까? 필요한 정보·수행 방법·검증 도구를 S100에서 확인한다.
+- **Speaker Intent:** 질문·답변에서 기준에 따른 작업으로 넓어진 범위를 회수한다. 마지막 질문을 읽고, S99의 정보·수행 방법·검증 도구에 연결한다. 개인 문제 선택은 S106, 다음 행동은 S107에서 진행한다.
+- **Transition:** 이렇게 일을 맡기려면, AI에게 무엇을 연결해야 할까? 필요한 정보·수행 방법·검증 도구를 S99에서 확인한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
 - **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S100 — 작업 흐름에는 정보·절차·도구가 연결된다
+#### S99 — 작업 흐름에는 정보·절차·도구가 연결된다
 
-- **Slide ID:** S100
+- **Slide ID:** S99
 - **ACT:** ACT 5
 - **Section:** 5A Work Conditions
 - **Working Title:** 작업 흐름에는 정보·절차·도구가 연결된다
@@ -2603,21 +2594,21 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 3 payoff; ACT 4 Minimum Effective Harness callback; ACT 5 synthesis.; ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S107/S108에 남긴다.
-- **Visual Concept:** 왼쪽의 프로젝트 정보·재사용할 수행 방법·검증 도구와 가운데 Agent를 하나의 작업 시스템 프레임으로 묶는다. 세 입력의 역할별 색과 아이콘을 유지하고 조사·구현·검증·재수정을 거쳐 오른쪽 결과 기록의 변경 내용·확인 근거·미해결 항목으로 연결한다. 이 시스템 그림을 S101에서도 동일하게 사용한다.
+- **Visual Concept:** 왼쪽의 프로젝트 정보·재사용할 수행 방법·검증 도구와 가운데 Agent를 하나의 작업 시스템 프레임으로 묶는다. 세 입력의 역할별 색과 아이콘을 유지하고 조사·구현·검증·재수정을 거쳐 오른쪽 결과 기록의 변경 내용·확인 근거·미해결 항목으로 연결한다. 이 시스템 그림을 S100에서도 동일하게 사용한다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
 - **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
 - **Advanced Payoff:** Context의 사실, Workflow의 방법, 도구가 제공하는 근거는 책임이 다르다. 모든 작업의 필수 구현·저장 방식이나 특정 구성이 더 우월하다는 결과를 제시하지 않는다.
 - **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S107/S108에 남긴다.
-- **Speaker Intent:** S99의 질문에 답하며 왼쪽 프레임 안의 프로젝트 정보·재사용할 수행 방법·검증 도구와 Agent를 하나의 구축한 작업 시스템으로 짚는다. 조사·구현·검증·재수정을 거쳐 오른쪽 결과 기록으로 시선을 옮기고, 같은 시스템을 유지한 S101에서 사람의 최종 결정으로 연결한다.
-- **Transition:** 시스템이 결과와 근거를 준비했다면, 사람에게 남는 최종 결정은 무엇일까요? S101에서 수용·보완 요청·중단의 판단으로 이어간다.
+- **Speaker Intent:** S98의 질문에 답하며 왼쪽 프레임 안의 프로젝트 정보·재사용할 수행 방법·검증 도구와 Agent를 하나의 구축한 작업 시스템으로 짚는다. 조사·구현·검증·재수정을 거쳐 오른쪽 결과 기록으로 시선을 옮기고, 같은 시스템을 유지한 S100에서 사람의 최종 결정으로 연결한다.
+- **Transition:** 시스템이 결과와 근거를 준비했다면, 사람에게 남는 최종 결정은 무엇일까요? S100에서 수용·보완 요청·중단의 판단으로 이어간다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** DEC-0171; DEC-0170; DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S101 — 시스템이 수행하고, 사람이 최종 결정한다
+#### S100 — 시스템이 수행하고, 사람이 최종 결정한다
 
-- **Slide ID:** S101
+- **Slide ID:** S100
 - **ACT:** ACT 5
 - **Section:** 5A Developer Responsibility
 - **Working Title:** 시스템이 수행하고, 사람이 최종 결정한다
@@ -2628,21 +2619,21 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 — beginning/ending comparison and AI-Native Development teaching model.; ACT 5 — Beginning/ending comparison and developer responsibility.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S107/S108에 남긴다.
-- **Visual Concept:** S100과 같은 위치·크기의 작업 시스템 프레임을 유지한다. 내부의 세 입력이 Agent의 조사·구현·검증·재수정으로 모이고, 결과와 근거 화살표가 오른쪽 사람으로 이어진다. 사람이 내리는 최종 결정을 수용·보완 요청·중단 세 가지로 표시한다. 같은 시스템의 역할에서 사람에게 남는 판단으로 초점을 이동한다.
+- **Visual Concept:** S99과 같은 위치·크기의 작업 시스템 프레임을 유지한다. 내부의 세 입력이 Agent의 조사·구현·검증·재수정으로 모이고, 결과와 근거 화살표가 오른쪽 사람으로 이어진다. 사람이 내리는 최종 결정을 수용·보완 요청·중단 세 가지로 표시한다. 같은 시스템의 역할에서 사람에게 남는 판단으로 초점을 이동한다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
 - **Beginner Payoff:** 시스템이 수행하는 일과 사람이 최종 결정하는 일이 한눈에 구분된다.
 - **Advanced Payoff:** 사람이 사전에 정한 목표·제약·권한 안에서 시스템을 활용하고, 결과의 목표 적합성·선택·검증 근거·남은 위험을 확인해 수용한다. 모든 단계의 무인 수행이나 결과 보장을 주장하지 않는다.
 - **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S107/S108에 남긴다.
-- **Speaker Intent:** S100의 시스템을 그대로 따라가며 사람이 모든 단계를 수동으로 다시 수행하지 않고 최종 결정에 집중할 수 있음을 설명한다. 완료 보고 자체를 근거로 취급하지 않는다. 근거를 읽고 수용·보완 요청·중단을 결정한 뒤 S102의 지식 선별로 이어간다. 개인 문제와 다음 행동 선택은 S107/S108에 남긴다.
-- **Transition:** “수용한 결과 중 다음 작업에서도 다시 쓸 지식은 무엇일까요?” 현재 S102의 지식 선별 예로 이어간다.
+- **Speaker Intent:** S99의 시스템을 그대로 따라가며 사람이 모든 단계를 수동으로 다시 수행하지 않고 최종 결정에 집중할 수 있음을 설명한다. 완료 보고 자체를 근거로 취급하지 않는다. 근거를 읽고 수용·보완 요청·중단을 결정한 뒤 S101의 지식 선별로 이어간다. 개인 문제와 다음 행동 선택은 S107/S108에 남긴다.
+- **Transition:** “수용한 결과 중 다음 작업에서도 다시 쓸 지식은 무엇일까요?” 현재 S101의 지식 선별 예로 이어간다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** DEC-0171; DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S102 — Memory: 다음 작업에 다시 쓸 맥락
+#### S101 — Memory: 다음 작업에 다시 쓸 맥락
 
-- **Slide ID:** S102
+- **Slide ID:** S101
 - **ACT:** ACT 5
 - **Section:** 3F Conditional Memory Decision — ACT5 배치; 원 Section ID 유지
 - **Working Title:** Memory: 다음 작업에 다시 쓸 맥락
@@ -2650,7 +2641,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Audience Question:** 다음 작업에서도 다시 설명할 선호와 프로젝트 지식은 어떻게 이어갈까요?
 - **Core Message:** 유용한 작업 선호·프로젝트 지식·확인된 주의점을 다음 작업에 참고할 맥락으로 이어간다. 현재 Context와 메모리를 구분하고, 필수 지침은 문서에 두며 기억한 내용도 현재 조건과 대조한다.
 - **Story Beat:** BEAT-026–028 — Memory 후보 검토
-- **Curriculum Trace:** ACT5의 결과 수용과 전체 작업 방식 종합 사이에서 작업 간 유용한 맥락의 재사용을 설명한다. S101 → S102 → S103의 현재 위치를 유지한다. MASTER_PLAN §5.6과 INV-MATURITY-008, 원 Section3F/BEAT-026–028의 Context/Memory 구분 목표를 유지한다.
+- **Curriculum Trace:** ACT5의 결과 수용과 전체 작업 방식 종합 사이에서 작업 간 유용한 맥락의 재사용을 설명한다. S100 → S101 → S102의 현재 위치를 유지한다. MASTER_PLAN §5.6과 INV-MATURITY-008, 원 Section3F/BEAT-026–028의 Context/Memory 구분 목표를 유지한다.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
 - **Claim Status:** CONCEPTUAL CASE / TEACHING MODEL — 작업 간 지식 관리 가정이다. 현재 Demo에 Memory를 추가했거나 제품이 자동 기억·회수한다는 주장이 아니다.
 - **Visual Concept:** 이번 작업 Context의 Agent → 선별 → Notebook으로 표시한 Memory → 참고 → 다음 작업 Context의 Agent 관계도다. 중앙에는 작업 선호·프로젝트 지식·확인된 주의점을 둔다. 다음 작업은 새 요청과 관련 기억을 함께 참고하되 현재 문서와 대조한다. 필수 지침은 문서에 둔다는 원칙을 아래에 크게 표시한다. 특정 제품 UI·저장 경로·자동 저장/회수 trace나 C++ 데모로 표현하지 않는다. 화면의 실무 적용 팁 배지는 삭제하고 M 연계 표시는 앞뒤 장과 같은 위치(64,654,1152×18)에 맞춘다. 분류와 최종 찾아보기 연결은 유지한다.
@@ -2658,17 +2649,17 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** 메모리가 반복해서 필요한 맥락을 다음 작업에 참고하도록 돕는 역할임을 이해한다. 대화 전체를 그대로 복제하거나 필수 지침의 원본을 대체하는 개념과 구분한다.
 - **Advanced Payoff:** 메모리는 다음 작업의 Context 일부가 될 수 있다. 출처·적용 범위·신선도를 확인하고 원본 문서가 충분하면 중복 저장을 의무화하지 않는다. 제품별 저장·조회·통제 방식과 계정 가용성은 별도 확인한다.
 - **C++ Vision Bridge:** N/A — 현재 화면은 특정 언어·프로젝트에 의존하지 않는다. 이전 가상 C++ 성능 비교 조건 사례는 MEMORY_ACT5_RELOCATION.md와 Git 이력에 보존하며 실제 관찰로 승격하지 않는다.
-- **Speaker Intent:** S101에서 수용한 결과 뒤에 다음에도 쓸 맥락을 선별하는 이유를 연다. 설정 화면을 다시 설명하지 않고 메모리의 일반 역할·참고·갱신·문서와의 경계를 설명한다. 같은 위치의 S103이 시스템 전체를 종합하고 S104–S106의 재평가로 이어지도록 한다.
-- **Transition:** “다음 작업에 남길 지식까지 포함해, AI가 일할 조건과 확인 경로를 설계해야 합니다.” S103으로 이어간다.
+- **Speaker Intent:** S100에서 수용한 결과 뒤에 다음에도 쓸 맥락을 선별하는 이유를 연다. 설정 화면을 다시 설명하지 않고 메모리의 일반 역할·참고·갱신·문서와의 경계를 설명한다. 같은 위치의 S102이 시스템 전체를 종합하고 S103–S105의 재평가로 이어지도록 한다.
+- **Transition:** “다음 작업에 남길 지식까지 포함해, AI가 일할 조건과 확인 경로를 설계해야 합니다.” S102으로 이어간다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 2분 (VISUAL) + Case 2분 = 4분
 - **Evidence / Decision References:** BEAT-026, CLM-0008, SRC-0113, SRC-0249, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0073, DEC-0080, DEC-0087, DEC-0133, DEC-0175; DEC-0176
 - **Practical Tip Classification:** Context 관리
 - **Audience Footer:** 필수 지침은 문서에 보존하고 메모리는 현재 조건과 대조
 
-#### S103 — AI가 일할 조건과 확인 경로를 설계한다
+#### S102 — AI가 일할 조건과 확인 경로를 설계한다
 
-- **Slide ID:** S103
+- **Slide ID:** S102
 - **ACT:** ACT 5
 - **Section:** 5A AI-Native Development
 - **Working Title:** AI가 일할 조건과 확인 경로를 설계한다
@@ -2679,21 +2670,21 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 — beginning/ending comparison and AI-Native Development teaching model.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S107/S108에 남긴다.
-- **Visual Concept:** 목표 아이콘의 맡길 범위 → 프로젝트 정보·수행 방법·도구/검토 역할과 Agent를 묶은 작업 시스템 → 결과와 근거를 받는 사람의 최종 판단을 한 도식으로 연결한다. S100/S101과 동일한 아이콘·색·프레임 문법을 사용한다. 하단의 선별한 지식 파일이 다음 작업에서 조건 대조 후 다시 정보로 들어가는 모습을 S102와 연결한다. 마지막 재평가 질문을 유지하고 삭제 승인된 교육 관점 설명 문장은 복구하지 않는다.
+- **Visual Concept:** 목표 아이콘의 맡길 범위 → 프로젝트 정보·수행 방법·도구/검토 역할과 Agent를 묶은 작업 시스템 → 결과와 근거를 받는 사람의 최종 판단을 한 도식으로 연결한다. S100/S101과 동일한 아이콘·색·프레임 문법을 사용한다. 하단의 선별한 지식 파일이 다음 작업에서 조건 대조 후 다시 정보로 들어가는 모습을 S101와 연결한다. 마지막 재평가 질문을 유지하고 삭제 승인된 교육 관점 설명 문장은 복구하지 않는다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
 - **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
 - **Advanced Payoff:** 특정 제품 기능이나 모든 구성요소를 반드시 도입하는 목록과 개발 방식의 설계 관점을 구분한다. 무엇을 제거할지는 다음 구간에서 근거를 보고 판단한다.
 - **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S107/S108에 남긴다.
-- **Speaker Intent:** S99의 맡길 범위, S100의 시스템 구성, S101의 사람의 최종 판단과 S102의 지식 선별을 익숙한 아이콘으로 회수한다. 목표에서 시스템과 사람으로 읽은 뒤, 선별한 지식이 다음 작업의 정보가 되는 아래 연결을 짚는다. 마지막 질문에서 현재 구조도 재평가할 수 있음을 열고 S104–S106의 유지·통합·제거로 이어간다.
-- **Transition:** 이렇게 설계한 작업 방식도 모델·플랫폼이 달라지면 그대로 필요할까요? S104부터 기존 구조의 통합·제거를 재평가합니다.
+- **Speaker Intent:** S98의 맡길 범위, S99의 시스템 구성, S100의 사람의 최종 판단과 S101의 지식 선별을 익숙한 아이콘으로 회수한다. 목표에서 시스템과 사람으로 읽은 뒤, 선별한 지식이 다음 작업의 정보가 되는 아래 연결을 짚는다. 마지막 질문에서 현재 구조도 재평가할 수 있음을 열고 S103–S105의 유지·통합·제거로 이어간다.
+- **Transition:** 이렇게 설계한 작업 방식도 모델·플랫폼이 달라지면 그대로 필요할까요? S103부터 기존 구조의 통합·제거를 재평가합니다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
 - **Evidence / Decision References:** DEC-0173; DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S104 — 모델·플랫폼이 바뀌면 Harness도 다시 본다
+#### S103 — 모델·플랫폼이 바뀌면 Harness도 다시 본다
 
-- **Slide ID:** S104
+- **Slide ID:** S103
 - **ACT:** ACT 5
 - **Section:** 5A Harness Reassessment
 - **Working Title:** 모델·플랫폼이 바뀌면 Harness도 다시 본다
@@ -2704,21 +2695,21 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 — AI-Native operating model and advanced reliability; reassess previously justified structure under changed conditions.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0040의 공급사 공개 사례 요약; TEACHING MODEL — 비교 구조는 교육용 각색; 현재 Codex의 통합 효과는 미검증.
-- **Visual Concept:** 왼쪽 Agent 아래의 Router·Planner·Subagent를 역할별 아이콘으로 표시하고, 모델·플랫폼 변화 화살표를 거쳐 오른쪽의 주 Agent Loop와 필요한 Skill·Tool 후보로 대비한다. 보조 역할을 다시 배치할 수 있는 공개 사례의 교육용 각색이며 현재 제품의 통합 전후나 우월성 증거가 아니다. 두 Agent의 아이콘·프레임 문법을 S103에서 회수하고 핵심 질문과 공개 출처 표기를 유지한다.
+- **Visual Concept:** 왼쪽 Agent 아래의 Router·Planner·Subagent를 역할별 아이콘으로 표시하고, 모델·플랫폼 변화 화살표를 거쳐 오른쪽의 주 Agent Loop와 필요한 Skill·Tool 후보로 대비한다. 보조 역할을 다시 배치할 수 있는 공개 사례의 교육용 각색이며 현재 제품의 통합 전후나 우월성 증거가 아니다. 두 Agent의 아이콘·프레임 문법을 S102에서 회수하고 핵심 질문과 공개 출처 표기를 유지한다.
 - **Demo / Case Connection:** 새 Demo/Trial/State 없음. 공급사 공개 사례와 교육용 판단 모델이며 우리 제품의 통합·제거 성과가 아니다.
 - **Beginner Payoff:** 처음에는 필요했던 장치도 조건이 달라지면 다시 볼 수 있음을 이해한다.
 - **Advanced Payoff:** 더 강한 모델·플랫폼 기능의 도입을 기존 구조의 자동 유지나 무조건 제거와 분리하고, 현재의 역할·경계를 재평가한다.
 - **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
-- **Speaker Intent:** S103의 재평가 질문을 받아 외부 보조 역할과 통합 후보의 역할 배치를 그림으로 비교한다. 조건 변화가 재평가의 계기이며 무조건 단일 Agent로 바꾸라는 처방이 아님을 설명하고 S105의 유지·통합·제거 기준으로 이어간다.
+- **Speaker Intent:** S102의 재평가 질문을 받아 외부 보조 역할과 통합 후보의 역할 배치를 그림으로 비교한다. 조건 변화가 재평가의 계기이며 무조건 단일 Agent로 바꾸라는 처방이 아님을 설명하고 S104의 유지·통합·제거 기준으로 이어간다.
 - **Transition:** “그렇다면 무엇을 보존하고, 어떤 부분을 합치거나 제거할 후보로 볼까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
 - **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083; DEC-0174
 - **Audience Footer:** Anthropic(2026) · 외부 기업의 통합 사례
 
-#### S105 — 무엇을 남기고, 무엇을 덜어낼까?
+#### S104 — 무엇을 남기고, 무엇을 덜어낼까?
 
-- **Slide ID:** S105
+- **Slide ID:** S104
 - **ACT:** ACT 5
 - **Section:** 5A Harness Reassessment
 - **Working Title:** 무엇을 남기고, 무엇을 덜어낼까?
@@ -2734,7 +2725,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** 중요한 요구를 지우는 것과 중복된 구현·지침을 덜어내는 것을 구분한다.
 - **Advanced Payoff:** 원출처·책임·필요한 격리 경계를 보존하면서 불필요한 조율·우회 구조를 재검토한다.
 - **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
-- **Speaker Intent:** 보호할 기준과 합치거나 덜어낼 보조 구조를 세 그림으로 구분한다. 세 선택지는 같은 수준의 판단이며 필수 순서가 아니다. 유효한 독립 조사·권한 경계는 남길 수 있음을 짚고 후보의 타당성을 S106에서 확인하도록 연결한다.
+- **Speaker Intent:** 보호할 기준과 합치거나 덜어낼 보조 구조를 세 그림으로 구분한다. 세 선택지는 같은 수준의 판단이며 필수 순서가 아니다. 유효한 독립 조사·권한 경계는 남길 수 있음을 짚고 후보의 타당성을 S105에서 확인하도록 연결한다.
 - **Transition:** “후보를 정했다면, 덜어낸 뒤에도 필요한 일을 하는지 무엇으로 확인할까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
@@ -2742,9 +2733,9 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Practical Tip Classification:** 검증·개선
 - **Audience Footer:** 표시하지 않음 — 사용자 지정 하단 문구 삭제. 근거·판단 조건은 본문과 Notes에 유지하며 M 연계 표시는 유지한다.
 
-#### S106 — 덜어낸 뒤에도 필요한 일을 하는가?
+#### S105 — 덜어낸 뒤에도 필요한 일을 하는가?
 
-- **Slide ID:** S106
+- **Slide ID:** S105
 - **ACT:** ACT 5
 - **Section:** 5A Harness Reassessment
 - **Working Title:** 덜어낸 뒤에도 필요한 일을 하는가?
@@ -2755,22 +2746,22 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 — AI-Native operating model and advanced reliability; reassess previously justified structure under changed conditions.
 - **Evidence Type:** TEACHING_MODEL / RESEARCH
 - **Claim Status:** TEACHING MODEL — 비교 평가 설계이며 실제 실행·PASS/FAIL·측정값 없음. FROZEN WITH SCOPE — SRC-0236의 대표 end-to-end 평가 권고와 통합 뒤 회귀 사례가 동기를 뒷받침한다.
-- **Visual Concept:** 같은 대표 작업·입력·판단 기준을 하나의 입력 파일로 표시한다. S104에서 본 기존 다중 역할 구성과 통합·제거 후보를 작은 구조 그림으로 나누고 같은 평가 프레임에 합친다. 먼저 동작·회귀를 크게 강조하고 시간·비용, 남은 위험은 같은 기준으로 대조한다. 아래 기록 파일과 되돌림 아이콘으로 확인한 범위만 채택·악화 시 되돌림과 이유 기록을 대비한다. 평가 설계·실제 실행 결과 아님 표기와 기존 실무 적용 팁 배지를 유지한다.
+- **Visual Concept:** 같은 대표 작업·입력·판단 기준을 하나의 입력 파일로 표시한다. S103에서 본 기존 다중 역할 구성과 통합·제거 후보를 작은 구조 그림으로 나누고 같은 평가 프레임에 합친다. 분기·합류는 같은 굵기의 둥근 꺾임으로 연결하며 화살촉은 후보 및 평가 프레임 도착부에만 둔다. 먼저 동작·회귀를 크게 강조하고 시간·비용, 남은 위험은 같은 기준으로 대조한다. 아래 기록 파일과 되돌림 아이콘으로 확인한 범위만 채택·악화 시 되돌림과 이유 기록을 대비한다. 평가 설계·실제 실행 결과 아님 표기와 기존 실무 적용 팁 배지를 유지한다.
 - **Demo / Case Connection:** 새 Demo/Trial/State 없음. 공급사 공개 사례와 교육용 판단 모델이며 우리 제품의 통합·제거 성과가 아니다.
 - **Beginner Payoff:** 간단해졌다는 인상 대신 원래 할 일을 계속 수행하는지 확인한다.
 - **Advanced Payoff:** 평가 범위·품질·회귀·시간/비용·남은 위험과 복구 조건을 분리해 수용 근거를 만든다. 모델/구성 외 조건의 차이도 기록한다.
 - **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
-- **Speaker Intent:** 같은 입력이 두 후보 구조로 나뉘었다가 동일한 평가 기준으로 모이는 선을 따라간다. 간단해졌다는 인상보다 동작·회귀를 먼저 확인하고 시간·비용·남은 위험을 함께 판단한다. 결과를 꾸며내지 않고 조건부 채택·되돌림·기록에서 S107의 개인 문제 선택으로 이어간다.
+- **Speaker Intent:** 같은 입력이 두 후보 구조로 나뉘었다가 동일한 평가 기준으로 모이는 선을 따라간다. 간단해졌다는 인상보다 동작·회귀를 먼저 확인하고 시간·비용·남은 위험을 함께 판단한다. 결과를 꾸며내지 않고 조건부 채택·되돌림·기록에서 S106의 개인 문제 선택으로 이어간다.
 - **Transition:** “부족한 것뿐 아니라 겹쳐 쌓인 것도 포함해, 내 업무의 문제 하나를 골라봅시다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083, DEC-0087; DEC-0174; DEC-0176
+- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083, DEC-0087; DEC-0174; DEC-0176; DEC-0177
 - **Practical Tip Classification:** 검증·개선
 - **Audience Footer:** 표시하지 않음 — 사용자 지정 하단 문구 삭제. 근거·판단 조건은 본문과 Notes에 유지하며 M 연계 표시는 유지한다.
 
-#### S107 — 내 업무에서는 무엇이 반복해서 막힐까?
+#### S106 — 내 업무에서는 무엇이 반복해서 막힐까?
 
-- **Slide ID:** S107
+- **Slide ID:** S106
 - **ACT:** ACT 5
 - **Section:** 5B C++ Vision / My Repository Transfer
 - **Working Title:** 내 업무에서는 무엇이 반복해서 막힐까?
@@ -2781,7 +2772,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 — tailored audience next steps.; ACT 5 — advanced audience value and seven takeaways.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; 적용 후보를 고르는 교육용 질문이다. 특정 C++ Project의 규칙이나 도구를 보장하지 않는다.
-- **Visual Concept:** 기존 다섯 선택지를 유지하고 E의 문제만 새 수행 루프와 일치시킴. S107/S108은 A–E 표식의 위치·크기와 행 간격을 공유한다. 두 장의 첫 행 기준선은 y253, 행 간격65, 표식38×38, 본문 시작x126이며 보조 문장도 y185에 맞춘다. S108 오른쪽 확인 근거 질문은 유지한다.
+- **Visual Concept:** 화면 머리말은 “ACT 5 · 문제 하나 고르기”이며 C++ VISION 표시는 제거한다. 기존 다섯 선택지를 유지하고 E의 문제만 새 수행 루프와 일치시킴. S107/S108은 A–E 표식의 위치·크기와 행 간격을 공유한다. 두 장의 첫 행 기준선은 y253, 행 간격65, 표식38×38, 본문 시작x126이며 보조 문장도 y185에 맞춘다. S107 오른쪽 확인 근거 질문은 유지한다.
 - **Demo / Case Connection:** C++ Vision 예시: 성능 병목 조사 Task, build mode·algorithm contract·hardware assumption Context, `profile → change → benchmark → regression` Workflow, test와 benchmark Verification, 반복 이슈의 System correction.
 - **Beginner Payoff:** 기존 A–E 문제의 E를 검토 지적이 다음 수정으로 이어지지 않는 문제로 정렬한다.
 - **Advanced Payoff:** 현재 부족한 기준과 과하게 쌓인 구성을 함께 보고 유지·통합·제거 후보를 근거에 연결한다.
@@ -2790,12 +2781,12 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “방금 고른 문제의 같은 글자를 따라, 다음 작업의 작은 행동 하나를 생각해 봅시다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 1분 + Transition 4분 = 5분
-- **Evidence / Decision References:** BEAT-068, INV-AUDIENCE-001, INV-DIFFICULTY-001, INV-LOOP-001, INV-RESPONSIBILITY-001, BEAT-069; DEC-0097; CLM-0021; DEC-0172
+- **Evidence / Decision References:** BEAT-068, INV-AUDIENCE-001, INV-DIFFICULTY-001, INV-LOOP-001, INV-RESPONSIBILITY-001, BEAT-069; DEC-0097; CLM-0021; DEC-0172; DEC-0177
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S108 — 고른 문제에서, 다음 행동 하나로
+#### S107 — 고른 문제에서, 다음 행동 하나로
 
-- **Slide ID:** S108
+- **Slide ID:** S107
 - **ACT:** ACT 5
 - **Section:** 5B Final Reflection
 - **Working Title:** 고른 문제에서, 다음 행동 하나로
@@ -2806,27 +2797,27 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 — seven takeaways and final reflection; `plan/CURRICULUM.md` (Core Takeaways).; ACT 5 — audience next steps, seven takeaways, and final reflection.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; 개인 Reflection이며 응답·공유·실천 약속을 요구하지 않는다.
-- **Visual Concept:** 기존 A–E 대응과 통합·제거 선택을 유지. E의 다음 행동만 새 문제와 정렬. S107/S108은 A–E 표식의 위치·크기와 행 간격을 공유한다. 두 장의 첫 행 기준선은 y253, 행 간격65, 표식38×38, 본문 시작x126이며 보조 문장도 y185에 맞춘다. S108 오른쪽 확인 근거 질문은 유지한다.
-- **Demo / Case Connection:** 새 Demo 없음. S107의 A–E 문제→같은 글자의 작은 행동→확인 근거라는 개인 성찰이다.
+- **Visual Concept:** 기존 A–E 대응과 통합·제거 선택을 유지. E의 다음 행동만 새 문제와 정렬. S107/S108은 A–E 표식의 위치·크기와 행 간격을 공유한다. 두 장의 첫 행 기준선은 y253, 행 간격65, 표식38×38, 본문 시작x126이며 보조 문장도 y185에 맞춘다. S107 오른쪽 확인 근거 질문은 유지한다.
+- **Demo / Case Connection:** 새 Demo 없음. S106의 A–E 문제→같은 글자의 작은 행동→확인 근거라는 개인 성찰이다.
 - **Beginner Payoff:** 선택한 문제의 E에서 검토 지적·다음 수정·완료 기준을 잇는 작은 행동을 고른다.
 - **Advanced Payoff:** 추가·통합·제거 후보를 근거·유지 위치·검토 책임에 연결하고, 검증 결과에 따라 그대로 유지하거나 되돌리는 선택을 남긴다.
 - **C++ Vision Bridge:** 각자의 Vision 업무에 질문을 적용할 수 있다.
 - **Speaker Intent:** 선택한 문제의 E에서 검토 지적·다음 수정·완료 기준을 잇는 작은 행동을 고른다.
-- **Transition:** “마지막 질문을 받기 전에, 실무에서 다시 찾아볼 팁의 위치를 한 번에 정리하겠습니다.”라고 S109의 마지막 찾아보기를 연다.
+- **Transition:** “마지막 질문을 받기 전에, 실무에서 다시 찾아볼 팁의 위치를 한 번에 정리하겠습니다.”라고 S108의 마지막 찾아보기를 연다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Reflection 2분 = 4분
 - **Evidence / Decision References:** BEAT-070, INV-LEARNING-003, INV-DIFFICULTY-001, INV-DELIVERY-001, INV-NARRATIVE-001, BEAT-071; DEC-0097; CLM-0021; DEC-0172
 - **Audience Footer:** 공유는 선택
 
-#### S109 — 실무 적용 팁 · 작업 환경과 기준
+#### S108 — 실무 적용 팁 · 작업 환경과 기준
 
-- **Slide ID:** S109
+- **Slide ID:** S108
 - **ACT:** ACT 5
 - **Section:** 5B Final Reference Review
 - **Working Title:** 실무 적용 팁 · 작업 환경과 기준
 - **Primary Role:** 교육 마지막에 기존 실무 적용 팁의 제목과 현재 Slide ID를 모아, 필요한 상황에서 다시 찾게 하는 안내다.
 - **Audience Question:** “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
-- **Core Message:** 작업 환경과 기준의 팁은 S13, S48, S56–S58, S62, S67, S71, S92, S94, S102의 아홉 묶음이다.
+- **Core Message:** 작업 환경과 기준의 팁은 S13, S48, S56–S58, S62, S67, S71, S92, S94, S101의 아홉 묶음이다.
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 / 최종 회고 뒤, 기존 Q&A·Closing 직전의 통합 찾아보기. 새 Maturity 단계·Demo가 아니다.
 - **Evidence Type:** TEACHING_MODEL
@@ -2836,17 +2827,17 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
 - **Advanced Payoff:** 사례의 근거 상태를 유지한 채 재사용할 안내 위치를 구분한다.
 - **C++ Vision Bridge:** N/A — 원래 팁의 적용 범위를 따른다.
-- **Speaker Intent:** 제목과 위치만 짧게 짚고, 전문을 다시 설명하지 않는다. 청중에게 실습·작성·공개 답변을 요구하지 않는다. S92의 Codex 설정·조작과 S102의 일반적인 메모리 역할을 구분해 안내한다.
-- **Transition:** “이제 요청 문장을 작성할 때 바로 참고할 팁을 모아 보겠습니다.”라고 S110으로 이어간다.
+- **Speaker Intent:** 제목과 위치만 짧게 짚고, 전문을 다시 설명하지 않는다. 청중에게 실습·작성·공개 답변을 요구하지 않는다. S92의 Codex 설정·조작과 S101의 일반적인 메모리 역할을 구분해 안내한다.
+- **Transition:** “이제 요청 문장을 작성할 때 바로 참고할 팁을 모아 보겠습니다.”라고 S109으로 이어간다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** DEC-0158, DEC-0156, DEC-0088, DEC-0104; S13, S48, S56–S58, S62, S67, S71, S92, S94, S102; DEC-0175
+- **Evidence / Decision References:** DEC-0158, DEC-0156, DEC-0088, DEC-0104; S13, S48, S56–S58, S62, S67, S71, S92, S94, S101; DEC-0175
 - **Practical Tip Classification:** 찾아보기
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S110 — 실무 적용 팁 · 요청 작성
+#### S109 — 실무 적용 팁 · 요청 작성
 
-- **Slide ID:** S110
+- **Slide ID:** S109
 - **ACT:** ACT 5
 - **Section:** 5B Final Reference Review
 - **Working Title:** 실무 적용 팁 · 요청 작성
@@ -2863,27 +2854,27 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Advanced Payoff:** 사례의 근거 상태를 유지한 채 재사용할 안내 위치를 구분한다.
 - **C++ Vision Bridge:** N/A — 원래 팁의 적용 범위를 따른다.
 - **Speaker Intent:** 제목과 위치만 짧게 짚고, 전문을 다시 설명하지 않는다. 청중에게 실습·작성·공개 답변을 요구하지 않는다.
-- **Transition:** “요청 뒤에는 근거를 확인하고 기존 구성을 다시 판단할 기준이 필요합니다.”라고 S111으로 이어간다.
+- **Transition:** “요청 뒤에는 근거를 확인하고 기존 구성을 다시 판단할 기준이 필요합니다.”라고 S110으로 이어간다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
 - **Evidence / Decision References:** DEC-0088; Related tip slides: S28, S29, S30, S31, S32, S33, S34, S35
 - **Practical Tip Classification:** 찾아보기
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S111 — 실무 적용 팁 · 검증과 개선
+#### S110 — 실무 적용 팁 · 검증과 개선
 
-- **Slide ID:** S111
+- **Slide ID:** S110
 - **ACT:** ACT 5
 - **Section:** 5B Final Reference Review
 - **Working Title:** 실무 적용 팁 · 검증과 개선
 - **Primary Role:** 교육 마지막에 기존 실무 적용 팁의 제목과 현재 Slide ID를 모아, 필요한 상황에서 다시 찾게 하는 안내다.
 - **Audience Question:** “필요한 상황에서 어떤 실무 적용 팁을 다시 찾아보면 될까요?”
-- **Core Message:** 검증과 개선의 팁으로 S83 작업 흐름, S85 도구 선택, S94 중단·인계, S97 Goal 요청, S105/S106 재평가를 다시 찾는다.
+- **Core Message:** 검증과 개선의 팁으로 S83 작업 흐름, S85 도구 선택, S94 중단·인계, S96 Goal 요청, S105/S106 재평가를 다시 찾는다.
 - **Story Beat:** BEAT-070–071
 - **Curriculum Trace:** ACT 5 / 최종 회고 뒤, 기존 Q&A·Closing 직전의 통합 찾아보기. 새 Maturity 단계·Demo가 아니다.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 기존 제목·위치의 탐색 안내다. 새 제품 기능·Trial·성능·검증 결과를 주장하지 않는다.
-- **Visual Concept:** 두 열의 팁 찾아보기에서 S83, S85, S94, S97, S105, S106의 여섯 제목과 위치를 제공한다.
+- **Visual Concept:** 두 열의 팁 찾아보기에서 S83, S85, S94, S96, S104, S105의 여섯 제목과 위치를 제공한다.
 - **Demo / Case Connection:** N/A — 기존 자료의 위치 안내이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 필요한 상황에서 참고할 슬라이드를 찾을 수 있다.
 - **Advanced Payoff:** 사례의 근거 상태를 유지한 채 재사용할 안내 위치를 구분한다.
@@ -2892,13 +2883,13 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “생각한 한 가지는 마음속에 두고, 이제 남은 질문을 받겠습니다.”
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** DEC-0159, DEC-0156, DEC-0088; S83, S85, S94, S97, S105, S106
+- **Evidence / Decision References:** DEC-0159, DEC-0156, DEC-0088; S83, S85, S94, S96, S104, S105
 - **Practical Tip Classification:** 찾아보기
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S112 — Q&A와 교육 마무리
+#### S111 — Q&A와 교육 마무리
 
-- **Slide ID:** S112
+- **Slide ID:** S111
 - **ACT:** ACT 5
 - **Section:** 5B Final Q&A / Closing
 - **Working Title:** Q&A와 교육 마무리

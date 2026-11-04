@@ -1,5 +1,45 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## ACT4·ACT5 지정 수정과 중복 장 삭제 · DEC-0177
+
+[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT4 PPT](../ACT_4.pptx) · [ACT5 PPT](../ACT_5.pptx) · [전체 Notes](../notes/FULL_SPEAKER_NOTES.md) · [ACT4 미리보기](../preview/act4/montage.png) · [ACT5 미리보기](../preview/act5/montage.png) · [수정·검토 결과](ACT45_ANNOTATION_REVISION.md)
+
+전체111장·372분이다. ACT4는 S78–S96의19장·71분, ACT5는 S97–S111의15장·41분이다. 중복된 이전 S96과 성찰2·Q&A7·전환2분을 제외했다. 남아 있는 장의 시간·Mode는 그대로다.
+
+S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과 접근 금지 대상을 시각적으로 구분한다. 실제 보안 설정·차단 실험의 결과가 아니다. S95 사람 검증 뒤 S96 Goal 팁으로 바로 이어지며 삭제한 성찰을 전제하지 않는다. S105(이전 S106)의 분기·합류는 같은 굵기의 둥근 선으로 연결했고 S106(이전 S107)의 머리말에서 C++ VISION을 제거했다. A–E 선택지와 다음 행동 장의 정렬, 근거 범위는 유지했다. S101의 일반 메모리 설명은 현재 위치와 배지 삭제를 유지한다.
+
+팁 찾아보기는 S108–S110, 마무리는 S111이다. 최종 통합111장·ACT4 19장·ACT5 15장의145개 렌더와 내장 Notes를 대조했다. 각 장19필드, 표 S54/S81/S85와 차트 S69, 팁 목적지·번호가 일치한다. 수정·번호 영역을 제외한 화면은 기준판과 같고 새 레이아웃 경고는 없다. Windows PowerPoint·교육장·제품/계정·실측 리허설은 UNVERIFIED다. Demo Repository·Sites·발표 묶음은 변경하지 않았다.
+
+| Current artifact | SHA-256 |
+|---|---|
+| `production/AI_Dev_Training_Full.pptx` | `18b34a30361ad0c2ad7e3c3f84d5eed40bfa82f9abf3b35ded5e3054f6044f75` |
+| `production/ACT_0.pptx` | `5d5d0f2726df9c88f6bfbbb1fb52d5b221b10b2c9d243638552f013c0dd7378b` |
+| `production/ACT_1.pptx` | `07b8afb890383a0e656814859a052c9d9bdf139aa3bfd3c5eb6b556c0be115d4` |
+| `production/ACT_2.pptx` | `496a76f78a1a83fc66e72f82db5656f4710e7abf82c6747bc2d6f5a7768bd806` |
+| `production/ACT_3.pptx` | `acab05b7a47448cfb525856d52b65bb7dfa1c9d01df51521a68d1b2e6a6e6841` |
+| `production/ACT_4.pptx` | `8c6fc85c4503b1d15da91445f5b0ab0dc8f2a9e34a67756c84125f52e77e43b2` |
+| `production/ACT_5.pptx` | `ccd72f7872fa933a32aa104680d6066249aea5fe91e08c3a3abbcac6b962dd9a` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `a188a4256ae985b8d5e42e24b750a6618fd8ef97306d7679c2ef34f785a7a7f4` |
+| `production/notes/ACT_4_NOTES.md` | `c9feb763abe3ecc036e72908ff402d0a7cc5ea4139ab48b47622528665d68af3` |
+| `production/notes/ACT_5_NOTES.md` | `a23d2baad3d7b2746063e640eff1936a2cf1a557432be3fccaa8e7db406a1419` |
+| `production/preview/full/montage.png` | `01cc32bae04f577049596b99924f11863b57d990e2004af531a6dd927a62cdfb` |
+| `production/preview/act4/montage.png` | `0c07c90e087752cab14c962b22dac7a23f372ab19517a6f742b4cb81d277b9b2` |
+| `production/preview/act5/montage.png` | `4ff2187e68188e055b73ff1fab212345081946c533a7fe16e09582d4d53e666f` |
+| `production/preview/full/S93.png` | `22d360b52ec4f183b10b07b05276860238734a61de9fe224bc1814f4d2791760` |
+| `production/preview/full/S95.png` | `d5fdf0d5a011efb818f54cb423d1213af2b1f5e6f94f0e8406a5d9ba57cd5bf4` |
+| `production/preview/full/S96.png` | `bcb8c592a8179d862c680932614b46d5dd43e3b408a407a114897a4847d6228f` |
+| `production/preview/full/S97.png` | `8d62f6884ca4533687d9b756bc50e7137d9f2b501ae3247e5ee8210d58e44d24` |
+| `production/preview/full/S101.png` | `95427929b67e91ebe633ad7674963c383747b608f37ccd4e47b0f7600d500f0c` |
+| `production/preview/full/S105.png` | `f6196eecca56b2bc507c56e3d830d05398e215ba35a1c5588c24cc51c309d206` |
+| `production/preview/full/S106.png` | `f6bbaa9206d891e99dafc01b70772adbdf3dadcf5132d2c7d949385ef73fdbcf` |
+| `production/preview/full/S107.png` | `fedec4a97cc2b559eafd9117b83975fadfc35a60b5fd32ab9d24696a028c1473` |
+| `production/preview/full/S108.png` | `6bb26afb4de966a6aceefee890cbe84173f7d7b541c967cdbdd9e09b759cd1e1` |
+| `production/preview/full/S109.png` | `e5cf8a3385979be4f76184a9080738133574b7b4f443f6334a0cbe8210b853d4` |
+| `production/preview/full/S110.png` | `d5c1eb9b6adc0a13f88dc7175d8e769d7ebfccd42fdb4ff78d36bea0d5184ad0` |
+| `production/preview/full/S111.png` | `673df470f2c60de0328a344c329906b042171f77a4edaa2aa2ce965808dd34b0` |
+
+## 보존된 이전 전달 기록
+
 ## ACT5 지정 배지·하단 문구 정리 · DEC-0176
 
 [통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT5 PPT](../ACT_5.pptx) · [ACT5 발표 Notes](../notes/ACT_5_NOTES.md) · [ACT5 미리보기](../preview/act5/montage.png) · [S100 화면](../preview/full/S100.png) · [S101 화면](../preview/full/S101.png) · [S108 화면](../preview/full/S108.png) · [S103 화면](../preview/full/S103.png) · [S104](../preview/full/S104.png) · [S105](../preview/full/S105.png) · [S106](../preview/full/S106.png) · [S102 Memory](../preview/full/S102.png) · [수정·검토 결과](ACT5_SYNTHESIS_REVISION.md)

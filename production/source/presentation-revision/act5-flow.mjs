@@ -105,7 +105,7 @@ export function loadAct5FlowSlides() {
    return s;
   },
   S94(p){
-   const s=frame(p,'S94','내 업무에서는 무엇이 반복해서 막힐까?','ACT 5 · C++ VISION / 문제 하나 고르기',
+   const s=frame(p,'S94','내 업무에서는 무엇이 반복해서 막힐까?','ACT 5 · 문제 하나 고르기',
     'BEAT-068–069 · 업무 적용을 위한 교육용 질문',
     'A–E는 같은 수준의 선택지 · 필수 도입 순서나 검증된 C++ 프로젝트 절차가 아님');
    text(s,'부족한 기준과 겹쳐 쌓인 구성 중, 가까운 문제 하나만',64,185,1152,42,29,C.teal,true);

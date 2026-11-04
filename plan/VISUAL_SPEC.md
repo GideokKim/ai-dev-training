@@ -1,5 +1,9 @@
 # STEP 08 — Visual Specification
 
+## 현재 번호 안내 — DEC-0177
+
+현재111장·372분이다. 이전 S96 중복 성찰 장과11분을 제외하고 이전 S97–S112는 현재 S96–S111로 당긴다. Section·Story Beat·Demo·Trial·State·Claim ID와 남은 장의 배정·근거 경계는 유지한다. [현행 번호·시간·수정 범위](ACT45_ANNOTATION_REVISION.md)와 [공식 Slide Map](SLIDE_MAP.md)을 우선하며 아래 과거 판본 번호는 당시 출처로 보존한다.
+
 ## 현재 제작 기준 — DEC-0168 (2026-11-04)
 
 전체 112장·383분, ACT5는 S98–S112의 15장·41분이다. 이전 S100의 작업 흐름 요약을 삭제하고 S99에서 필요한 정보·절차·도구를 설명하는 새 S100으로 이어간다. 다른 Slide의 시간·Template·근거 범위는 유지한다. [번호 대응](S100_WORKFLOW_RECAP_REMOVAL.md).

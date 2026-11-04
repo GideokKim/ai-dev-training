@@ -1,5 +1,9 @@
 # Demo Runbook Specification
 
+## 현재 번호 안내 — DEC-0177
+
+현재111장·372분이다. 이전 S96 중복 성찰 장과11분을 제외하고 이전 S97–S112는 현재 S96–S111로 당긴다. Section·Story Beat·Demo·Trial·State·Claim ID와 남은 장의 배정·근거 경계는 유지한다. [현행 번호·시간·수정 범위](ACT45_ANNOTATION_REVISION.md)와 [공식 Slide Map](SLIDE_MAP.md)을 우선하며 아래 과거 판본 번호는 당시 출처로 보존한다.
+
 ## S102 현행 설명 안내 — DEC-0175
 
 S102는 “Memory: 다음 작업에 다시 쓸 맥락”으로 일반화했다. ACT5의 현재 위치·번호·4분 배정을 유지하며, [설명 범위·위치 검토](MEMORY_ACT5_RELOCATION.md)를 따른다. 아래 이전 판본의 C++ 사례·번호는 당시 기획 기록이다.

@@ -1,6 +1,16 @@
 # STEP 08 — Slide-to-Template Mapping
 
-## 현재 제작 기준 — DEC-0168 (2026-11-04)
+## 현재 제작 기준 — DEC-0177 (2026-11-04)
+
+전체 **111장·372분(6시간12분)**. ACT별 장수는14/23/22/18/19/15장, 시간은42/64/90/64/71/41분이다. Mode는 Lecture170 / Demo44 / Case95 / Reflection17 / Transition21 / Q&A25분이다.
+
+기준판 `724cda4`의 S96 “무엇을 자동화하고, 무엇을 사람이 결정할까?”를 삭제한다. 배정된11분(Reflection2 + Q&A7 + Transition2)도 제외하고 다른 장으로 옮기지 않는다. 이전 S97–S112는 현재 S96–S111로 한 칸씩 당긴다. ACT4는 S78–S96(19장·71분), ACT5는 S97–S111(15장·41분)이다.
+
+S93은 사람이 자리를 비운 동안 허용할 수정·테스트·외부 연결과 접근 금지 대상을 Agent 중심 도식으로 구분한다. S95 사람 검증 뒤 현재 S96 Goal 요청 팁으로 바로 이어진다. 현재 S105(이전 S106)의 평가 도식은 분기·합류 연결선을 같은 굵기와 곡률로 정리하고, 현재 S106(이전 S107)의 화면 머리말에서 C++ VISION을 삭제한다. 근거·주장 경계·남은 장의 시간은 유지한다.
+
+[수정·삭제·번호 대응](ACT45_ANNOTATION_REVISION.md) · [공식 Slide Map](SLIDE_MAP.md)
+
+## 이전 제작 기준 — DEC-0168 (2026-11-04)
 
 S100의 중복 작업 흐름 장을 삭제했다. S99는 “이렇게 일을 맡기려면, AI에게 무엇을 연결해야 할까?”로 마무리하고, 새 S100은 필요한 정보·수행 방법·검증 도구를 설명한다. 이전 S101–S113은 새 S100–S112다. 삭제한 3분(강의 1 + 사례 2)을 제외하며 다른 장으로 옮기지 않는다. 전체 112장·383분, ACT5는 S98–S112의 15장·41분이다. ACT별 장수는 14/23/22/18/20/15, 시간은 42/64/90/64/82/41분이며 모드는 강의 170/데모 44/사례 95/성찰 19/전환 23/질의 32분이다.
 
@@ -46,7 +56,7 @@ Demo 저장소·Sites·발표 묶음은 변경하지 않는다. [삭제·연결 
 S66의 DEC-0137 Prompt 창과 근거 경계를 유지한다. S75–S77의 이전 시각 설계는 현재 S74–S76의 같은 역할로 이어진다.
 S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근거 유형을 구분한다.
 
-## Current112 Template Coverage — DEC-0168
+## Current111 Template Coverage — DEC-0177
 
 | Template | Slides |
 |---|---:|
@@ -59,12 +69,12 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 | T07 | 12 |
 | T08 | 0 |
 | T09 | 1 |
-| T10 | 5 |
+| T10 | 4 |
 | T11 | 0 |
 | T12 | 6 |
-| Total | 112 |
+| Total | 111 |
 
-## Current112 Slide-to-Template Mapping — DEC-0168
+## Current111 Slide-to-Template Mapping — DEC-0177
 
 | Slide | Primary Template | Required components | Optional | Evidence | Demo / Case | Operation | C++ | Checks |
 |---|---|---|---|---|---|---|---|---|
@@ -160,26 +170,27 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 | S90 — 작성자와 검토자는 무엇을 주고받을까? | T03-B | CMP-WORKFLOW | — | TEACHING_MODEL · 제공 PDF p.10 각색 | 강의 1 + 사례 3; 정적 교육자료 | GPT-6 Luna의 행별 집계 변경안·출력 6개 비교를 Claude Sonnet 5.5에 넘기고, 동일 입력으로 최대 할당량 재측정을 요청하는 교육용 왕복 도식. | — | V01, V02, V06, V07 |
 | S91 — 다음 실행이 이어받을 상태를 파일에 남긴다 | T03-C | CMP-WORKFLOW | — | TEACHING_MODEL · 제공 PDF p.11 각색 | 강의 1 + 사례 2; 정적 교육자료 | S90의 지적에서 예시 state.md의 완료(출력 6개 비교)·미완료(최대 할당량 측정)를 거쳐, 다음 실행에서 동일 입력으로 기준판과 변경안을 비교하는 흐름. | — | V01, V02, V06, V07 |
 | S92 — Codex 메모리로 이전 대화의 맥락을 이어간다 | T03-A | CMP-PRACTICAL-TIP, CMP-CLAIM | — | DOCUMENTED_PRODUCT · SRC-0113, CLM-0053 | 강의 2분 · 정적 안내 | 기기의 설정과 대화별 기억 제어를 소개하고 상태 파일·팀 지침과 구분한다. | — | V01, V02, V07 |
-| S93 — 무인 실행의 범위를 어디까지 허용할까? | T04-A | CMP-CLAIM | — | TEACHING_MODEL · 제공 PDF p.12 각색 | 강의 1 + 사례 2; 정적 교육자료 | 격리 공간 안에서 허용할 작업과 경계를 넘는 작업을 구분한다. | — | V01, V02, V06, V07 |
+| S93 — 무인 실행의 범위를 어디까지 허용할까? | T04-A | CMP-CLAIM | — | TEACHING_MODEL · 제공 PDF p.12 각색 | 강의 1 + 사례 2; 정적 교육자료 | Agent가 허용 폴더·연결에서 작업하고 금지 대상은 경계 밖에 둔 도식. Worktree와 권한 통제는 구분. DEC-0177 | — | V01, V02, V06, V07 |
 | S94 — 권한·예산을 넘으면 멈추고 사람에게 넘긴다 | T03-B | CMP-PRACTICAL-TIP, CMP-CLAIM | — | TEACHING_MODEL · 제공 PDF p.12 각색 | 강의 4; 정적 교육자료 | 권한과 예산의 경계에서 중단 후 인계 카드로 이어지는 분기. | — | V01, V02, V06, V07 |
 | S95 — 병합 전, 사람이 검증한다 | T03-A | CMP-CLAIM | — | TEACHING_MODEL · 제공 PDF p.13 각색 | 강의 2; 정적 교육자료 | 역할 픽토그램과 “AI 제출 → 사람 검증 → 병합 승인”. “근거 충분”은 승인으로, “근거 부족 · 재측정”은 AI 제출로 돌아간다. 밝기 통계의 두 기준은 Notes에서 설명한다. | — | V01, V02, V06, V07 |
-| S96 — 무엇을 자동화하고, 무엇을 사람이 결정할까? | T10-A | CMP-CLAIM | — | TEACHING_MODEL · 제공 PDF p.14 각색 | 성찰 2 + 질의 7 + 전환 2; 정적 교육자료 | 반복 작업·판정 근거·사람의 결정 칸을 사용해 성찰과 질의를 진행한다. | — | V01, V02, V06, V07 |
-| S97 — Codex에서 /goal로 목표와 완료 기준을 정한다 | T03-A | CMP-PRACTICAL-TIP, CMP-CLAIM | — | RESEARCH / TEACHING_MODEL · SRC-0240/0241 | 강의 2분 · 정적 입력 예시 | 목표, 같은 입력에서 확인할 완료 근거, 측정할 수 없을 때의 중단 조건을 보여준다. | — | V01, V02, V07 |
-| S98 — 내 업무에 맞게 조합하고 덜어내기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
-| S99 — AI에게 맡기는 범위가 넓어졌다 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S107/S108 retain personal choice | — | V01, V05, V10 |
-| S100 — 작업 흐름에는 정보·절차·도구가 연결된다 | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | 세 입력과 Agent를 하나의 작업 시스템으로 묶고 결과 기록을 오른쪽에 배치. S101과 시스템 그림을 공유. 개인 선택은 S107/S108 | — | V01, V05, V10 |
-| S101 — 시스템이 수행하고, 사람이 최종 결정한다 | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | S100과 동일한 작업 시스템 → 결과와 근거 → 최종 결정하는 사람. 수용·보완 요청·중단. 개인 선택은 S107/S108 | — | V01, V05, V10 |
-| S102 — Memory: 다음 작업에 다시 쓸 맥락 | T03-C | CMP-WORKFLOW, CMP-CLAIM | — | C+T; general memory-role diagram; official background SRC-0113/0249; no Memory execution | DEMO-08; VISUAL2 + Case2; retained4minutes | 이번 Context → 유용한 선호·지식의 Memory → 다음 Context. 문서와 대조. S101/S103 사이 유지. DEC-0175. 팁 배지는 표시하지 않고 분류·찾아보기는 유지. M 연계 footer는 앞뒤 장과 같은 위치. DEC-0176 | — | V01, V02, V05 |
-| S103 — AI가 일할 조건과 확인 경로를 설계한다 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | 목표 → 작업 시스템 → 사람의 최종 판단. 아래 지식 파일 → 다음 작업 정보. S100/S101의 아이콘·프레임과 S102의 선별 지식을 회수. DEC-0173 | — | V01, V05, V10 |
-| S104 — 모델·플랫폼이 바뀌면 Harness도 다시 본다 | T04-A | CMP-CLAIM | — | R+T; vendor-published integration case; architecture adapted for teaching | No new Demo/Trial/State or measured effect | 역할별 아이콘의 외부 보조 구조 → 조건 변화 → 주 Agent Loop 통합 후보. 공개 사례 각색. DEC-0174 | Contextual | V01, V05 |
-| S105 — 무엇을 남기고, 무엇을 덜어낼까? | T10-A | CMP-DECISION, CMP-CLAIM | CMP-PRACTICAL-TIP | T; retain requirements, integrate overlaps, assess obsolete workaround | Three equal options; conditions before action; DEC-0083 | 방패로 기준 보호 / 두 문서를 한 출처로 / 효용이 사라진 경유 절차를 제거 후보로. 세 선택지와 기존 팁 배지. DEC-0174. 지정된 하단 설명 문구만 삭제하고 M 연계·기존 팁 배지는 유지. DEC-0176 | Contextual | V01, V05 |
-| S106 — 덜어낸 뒤에도 필요한 일을 하는가? | T03-C | CMP-CLAIM | CMP-PRACTICAL-TIP | T+R; evaluation design, no actual result | Same representative task/input/criteria; conditional adoption or rollback | 같은 입력 파일 → 두 후보 구조 → 같은 평가 기준. 동작·회귀 우선, 조건부 채택/되돌림·기록. 기존 팁 배지. DEC-0174. 지정된 하단 설명 문구만 삭제하고 M 연계·기존 팁 배지는 유지. DEC-0176 | Contextual | V01, V05 |
-| S107 — 내 업무에서는 무엇이 반복해서 막힐까? | T10-B | CMP-DECISION, CMP-CPP, CMP-CLAIM | — | T; C++ example stays a transfer model, not a verified project procedure | Same-level A–E symptoms include repeated/overlapping guidance and procedures; DEC-0083 | Single state; shared A–E row geometry with S108; DEC-0172 | Primary | V08, V09 |
-| S108 — 고른 문제에서, 다음 행동 하나로 | T01-B | — | CMP-CPP | T | S107 same-letter action includes integration/removal candidates and source/reviewer/updater; private Reflection2; DEC-0083 | Single state; shared A–E row geometry with S107; DEC-0172 | Contextual | V09 |
-| S109 — 실무 적용 팁 · 작업 환경과 기준 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | 작업 환경·기준 9묶음. S92 Codex 메모리. S94 권한·예산 한도와 사람 인계. | — | V01, V05 |
-| S110 — 실무 적용 팁 · 요청 작성 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
-| S111 — 실무 적용 팁 · 검증과 개선 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | S83 작업 단계, S85 단계별 도구, S94 중단·인계, S97 Goal 요청, S105/S106 재평가. | — | V01, V05 |
-| S112 — Q&A와 교육 마무리 | T01-C | — | — | T | Q&A4 then Closing Transition2; original five-stage terminology; DEC-0082 | Single state | — | V10 |
+| S96 — Codex에서 /goal로 목표와 완료 기준을 정한다 | T03-A | CMP-PRACTICAL-TIP, CMP-CLAIM | — | RESEARCH / TEACHING_MODEL · SRC-0240/0241 | 강의 2분 · 정적 입력 예시 | 목표, 같은 입력에서 확인할 완료 근거, 측정할 수 없을 때의 중단 조건을 보여준다. | — | V01, V02, V07 |
+| S97 — 내 업무에 맞게 조합하고 덜어내기 | T12-A | — | — | T; ACT orientation only, no new claim | —; Transition1minute | Static approved title/subtitle | — | V01, V10 |
+| S98 — AI에게 맡기는 범위가 넓어졌다 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | Static explanation; S107/S108 retain personal choice | — | V01, V05, V10 |
+| S99 — 작업 흐름에는 정보·절차·도구가 연결된다 | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | 세 입력과 Agent를 하나의 작업 시스템으로 묶고 결과 기록을 오른쪽에 배치. S100과 시스템 그림을 공유. 개인 선택은 S107/S108 | — | V01, V05, V10 |
+| S100 — 시스템이 수행하고, 사람이 최종 결정한다 | T03-B | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | S99과 동일한 작업 시스템 → 결과와 근거 → 최종 결정하는 사람. 수용·보완 요청·중단. 개인 선택은 S107/S108 | — | V01, V05, V10 |
+| S101 — Memory: 다음 작업에 다시 쓸 맥락 | T03-C | CMP-WORKFLOW, CMP-CLAIM | — | C+T; general memory-role diagram; official background SRC-0113/0249; no Memory execution | DEMO-08; VISUAL2 + Case2; retained4minutes | 이번 Context → 유용한 선호·지식의 Memory → 다음 Context. 문서와 대조. S101/S103 사이 유지. DEC-0175. 팁 배지는 표시하지 않고 분류·찾아보기는 유지. M 연계 footer는 앞뒤 장과 같은 위치. DEC-0176 | — | V01, V02, V05 |
+| S102 — AI가 일할 조건과 확인 경로를 설계한다 | T03-A | CMP-WORKFLOW, CMP-CLAIM | — | T; course synthesis, no observed execution or personal selection | Teaching structure; DEC-0099 | 목표 → 작업 시스템 → 사람의 최종 판단. 아래 지식 파일 → 다음 작업 정보. S100/S101의 아이콘·프레임과 S101의 선별 지식을 회수. DEC-0173 | — | V01, V05, V10 |
+| S103 — 모델·플랫폼이 바뀌면 Harness도 다시 본다 | T04-A | CMP-CLAIM | — | R+T; vendor-published integration case; architecture adapted for teaching | No new Demo/Trial/State or measured effect | 역할별 아이콘의 외부 보조 구조 → 조건 변화 → 주 Agent Loop 통합 후보. 공개 사례 각색. DEC-0174 | Contextual | V01, V05 |
+| S104 — 무엇을 남기고, 무엇을 덜어낼까? | T10-A | CMP-DECISION, CMP-CLAIM | CMP-PRACTICAL-TIP | T; retain requirements, integrate overlaps, assess obsolete workaround | Three equal options; conditions before action; DEC-0083 | 방패로 기준 보호 / 두 문서를 한 출처로 / 효용이 사라진 경유 절차를 제거 후보로. 세 선택지와 기존 팁 배지. DEC-0174. 지정된 하단 설명 문구만 삭제하고 M 연계·기존 팁 배지는 유지. DEC-0176 | Contextual | V01, V05 |
+| S105 — 덜어낸 뒤에도 필요한 일을 하는가? | T03-C | CMP-CLAIM | CMP-PRACTICAL-TIP | T+R; evaluation design, no actual result | Same representative task/input/criteria; conditional adoption or rollback | 같은 입력 파일 → 두 후보 구조 → 같은 평가 기준. 동작·회귀 우선, 조건부 채택/되돌림·기록. 기존 팁 배지. DEC-0174. 지정된 하단 설명 문구만 삭제하고 M 연계·기존 팁 배지는 유지. DEC-0176. 분기·합류를 둥근 선으로 연결하고 도착부에만 화살촉. DEC-0177 | Contextual | V01, V05 |
+| S106 — 내 업무에서는 무엇이 반복해서 막힐까? | T10-B | CMP-DECISION, CMP-CPP, CMP-CLAIM | — | T; C++ example stays a transfer model, not a verified project procedure | Same-level A–E symptoms include repeated/overlapping guidance and procedures; DEC-0083 | Single state; shared A–E row geometry with S107; DEC-0172. 머리말 C++ VISION 제거. DEC-0177 | Primary | V08, V09 |
+| S107 — 고른 문제에서, 다음 행동 하나로 | T01-B | — | CMP-CPP | T | S106 same-letter action includes integration/removal candidates and source/reviewer/updater; private Reflection2; DEC-0083 | Single state; shared A–E row geometry with S106; DEC-0172 | Contextual | V09 |
+| S108 — 실무 적용 팁 · 작업 환경과 기준 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | 작업 환경·기준 9묶음. S92 Codex 메모리. S94 권한·예산 한도와 사람 인계. | — | V01, V05 |
+| S109 — 실무 적용 팁 · 요청 작성 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | Grouped final index, max8references | — | V01, V05 |
+| S110 — 실무 적용 팁 · 검증과 개선 | T03-A | CMP-PRACTICAL-TIP | — | T; final navigation only, original evidence stays on referenced slides | —; Lecture1minute, no Demo time | S83 작업 단계, S85 단계별 도구, S94 중단·인계, S96 Goal 요청, S105/S106 재평가. | — | V01, V05 |
+| S111 — Q&A와 교육 마무리 | T01-C | — | — | T | Q&A4 then Closing Transition2; original five-stage terminology; DEC-0082 | Single state | — | V10 |
+
+
 
 ## Historical component usage — DEC-0133
 

@@ -1,5 +1,10 @@
 # ACT 4 — Speaker Notes
 
+DEC-0177 · S78–S96 · 19장·71분. S95 사람 검증 뒤 S96 Goal 요청으로 바로 이어진다. 중복 성찰·Q&A11분은 제외한다.
+
+<details>
+<summary>이전 Notes 표지 안내 — 112장판</summary>
+
 DEC-0168 · S78–S97 · 20장 · 82분. 점심 뒤의 질문과 첫 검토 지적에서 출발해 GitLab 이슈 하나의 수행 절차를 살펴본다. S90의 검토 의견과 실행 결과를 S91에서 다음 실행을 위한 상태로 기록한다. S92는 Codex 메모리, S97은 목표와 완료 기준을 적는 /goal 팁이다.
 
 <details>
@@ -123,6 +128,9 @@ Windows/room/product-account/timed rehearsal UNVERIFIED.
 </details>
 
 </details>
+
+</details>
+
 
 </details>
 
@@ -1068,8 +1076,8 @@ Lecture 1분 + Case 2분
 “사람이 자리를 비운 동안 에이전트가 어느 폴더와 외부 시스템까지 바꿔도 될까요?”
 
 **Speaker Flow:**
-0–1분 강의. 위험을 파일 변경, 외부 쓰기, 자격 증명 사용으로 나눠 보고 격리된 환경과 최소 권한이 어느 범위에 작용하는지 짚는다.
-1–3분 사례. 이슈 전용 공간에서 테스트할 권한은 주되, 배포처럼 범위 밖인 요청은 중단해 사람에게 넘기는 상황을 든다. 워크트리와 권한 격리를 구분한다.
+0–1분 강의. 왼쪽 Agent와 허용 영역을 짚는다. 사람이 자리를 비우기 전에 지정 폴더의 코드 수정·테스트와 승인한 외부 연결만 허용한 설계 예시임을 설명한다.
+1–3분 사례. 오른쪽 금지 영역의 관련 없는 파일·비밀 키·배포 권한을 짚고, 연결선이 경계에서 멈추는 이유를 설명한다. 실제 차단 시험 결과가 아니다. 워크트리는 파일을 나누며 접근 제한은 실행 환경에서 별도로 설정해야 한다. 경계에 닿은 뒤의 인계는 다음 장에서 다룬다.
 
 **Evidence / Source:**
 DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 12쪽의 설계 또는 토의 주제를 강의 맥락에 맞게 재구성했다.
@@ -1214,7 +1222,7 @@ N/A — 정적 교육용 도식. AI 제출 → 사람 검증 → 병합 승인 �
 “출력 6개는 같지만 최대 할당량 측정의 입력이 다르다면, AI에 무엇을 다시 요청하겠습니까?”
 
 **Transition:**
-“이제 우리 팀의 업무 한 가지를 떠올려 보세요. 반복 실행은 어디까지 맡기고, 어느 결정은 사람이 근거를 직접 확인해야 할까요?”
+“확인한 완료 근거와 중단 조건을 실제 Goal 요청에는 어떻게 담을까요?”
 
 **Time Management:**
 Lecture 2분. 30초에 제출 상황 설명을 마치고 1분 15초까지 두 근거를 대조한다. 마지막 45초에는 재측정과 재검증을 한 번만 따라간다.
@@ -1225,71 +1233,10 @@ LOCAL STATIC ARTIFACT — production/preview/full/S95.png 또는 production/ACT_
 **Validation Status:**
 DEC-0165. 화면·내장 Notes의 로컬 대조는 production/evaluation/FINAL_HANDOFF.md를 따른다. 실제 업무 병합·발표 PC·교육장·실측 리허설은 UNVERIFIED.
 
-## S96 — 무엇을 자동화하고, 무엇을 사람이 결정할까?
+## S96 — Codex에서 /goal로 목표와 완료 기준을 정한다
 
 **Slide ID:**
 S96
-
-**Working Title:**
-무엇을 자동화하고, 무엇을 사람이 결정할까?
-
-**ACT / Section:**
-ACT 4 / 4R6 Evidence and transfer
-
-**Allocated Time:**
-11 minutes
-
-**Mode Split:**
-Reflection 2분 + Q&A 7분 + Transition 2분
-
-**Primary Message:**
-한 업무를 골라 자동화할 단계, 완료를 판정할 근거, 사람이 승인하거나 중단할 지점을 한 쌍으로 정한다.
-
-**Opening Question:**
-“반복하는 업무 하나를 떠올려 보세요. 검사를 맡긴 다음, 사람이 무엇을 보고 마지막 결정을 할까요?”
-
-**Speaker Flow:**
-0–2분 성찰. 각자 업무 하나를 떠올리고 반복해서 맡길 일과 사람이 결정할 일을 짝지어 본다. 직접 실습이나 결과 제출은 없다.
-2–9분 질의응답. 예를 들면 테스트 실행은 맡기고, 예외 허용과 병합은 근거를 본 사람이 판단한다. 역할·도구·승인선에 관한 질문을 받되 조직별 값은 현장 확인으로 남긴다.
-9–11분 전환. 청중이 고른 일에서 완료를 입증할 기록과 사람이 개입할 조건을 각각 한 가지 짚는다. 두 조건이 Codex 목표 요청에 어떻게 들어가는지 S97에서 살펴본다.
-
-**Evidence / Source:**
-DEC-0156 · SRC-0246 · CLM-0050. 강사가 제공한 Loop_Engineering_Systems_(3).pdf 14쪽의 설계 또는 토의 주제를 강의 맥락에 맞게 재구성했다.
-
-**Claim Boundary:**
-TEACHING_MODEL — 팀 적용을 위한 성찰이다. 실제 조직에서 검증한 자동화 범위나 최종 승인 정책으로 해석하지 않는다.
-
-**Beginner Explanation:**
-한 작업을 통째로 맡기는 대신 반복은 어디까지 맡기고 중요한 판단은 누가 할지 가른다.
-
-**Advanced Insight:**
-승인할 근거가 없다면 필요한 검사나 중단선을 설계에 다시 포함한다. 다른 팀의 12단계를 그대로 가져올 필요는 없다.
-
-**C++ Vision Bridge:**
-N/A — 이 장은 화면의 업무 상황에 집중한다.
-
-**Demo Operation:**
-N/A — 정적 운영 설계 도식. 질문이 없으면 검사·승인 한 쌍을 예로 들고, 8분 30초에 마지막 질문을 받아 9분부터 전환한다.
-
-**Audience Interaction:**
-질문이 없으면 “테스트를 자동화했는데 병합 근거가 비었다면, 다음 판단은 누가 하고 무엇을 더 요청할까요?”로 토의를 연다.
-
-**Transition:**
-“팀에서 맡길 일과 사람이 결정할 지점을 정했습니다. Codex에 이 일을 맡긴다면, 언제 완료하고 언제 멈출지 어떻게 적을까요?”
-
-**Time Management:**
-Reflection 2분 + Q&A 7분 + Transition 2분. 8분 30초에 마지막 질문을 받고 9분에 전환한다. 추가 질문은 교육 마지막 Q&A로 넘긴다.
-
-**Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S96.png 또는 production/ACT_4.pptx의 S96. 화면을 쓸 수 없으면 다음 단서로 진행한다. 질문이 없으면 검사·승인 한 쌍을 예로 들고, 8분 30초에 마지막 질문을 받아 9분부터 전환한다.
-
-**Validation Status:**
-DEC-0156. 로컬 PPT·렌더링·내장 Notes 대조 결과는 production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md를 따른다. Windows PowerPoint, 발표 PC 글꼴, 교육장, 제품·계정 및 실측 리허설은 UNVERIFIED.
-
-## S97 — Codex에서 /goal로 목표와 완료 기준을 정한다
-
-**Slide ID:**
-S97
 
 **Working Title:**
 Codex에서 /goal로 목표와 완료 기준을 정한다
@@ -1310,7 +1257,7 @@ Lecture 2분
 “메모리를 줄이라고 맡겼다면, 무엇을 확인해야 끝났다고 말할 수 있을까요?”
 
 **Speaker Flow:**
-0:00–0:35. S96에서 고른 맡길 일·완료 근거·사람의 개입 지점을 밝기 통계 작업에 대입한다. 화면의 입력 예시를 읽는다.
+0:00–0:35. 앞선 중단 조건과 S95에서 확인한 완료 근거를 밝기 통계 작업에 대입한다. 화면의 입력 예시를 읽는다.
 /goal 밝기 통계의 임시 메모리 사용량을 줄여줘. 기존 출력 6개가 같고, 같은 입력에서 기준판보다 최대 할당량이 낮으면 완료해. 측정할 수 없으면 중단하고 이유를 알려줘.
 0:35–1:25. “기존 출력 6개가 같다”는 보존 조건, “같은 입력에서 기준판보다 최대 할당량이 낮다”는 판정 기준이다. 필요한 측정이 불가능하면 시도한 일과 중단 사유를 사람에게 넘긴다. 구현 변경이나 실측이 이 화면에서 일어난 적은 없다.
 1:25–2:00. /goal pause로 일시 정지하고 /goal resume으로 재개하는 방법을 짚는다. 완료 보고를 받으면 사람이 실제 검증 기록을 확인한다.
@@ -1343,7 +1290,7 @@ N/A — 정적 입력 예시. 실제 명령 입력이나 실환경 시연을 요
 Lecture 2분. 35초까지 요청을 읽고, 1분 25초까지 보존·검증·중단 조건을 찾는다. 남은 35초에 제어 명령과 ACT5 연결을 짚는다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/preview/full/S97.png, production/preview/act4/S97.png 또는 production/ACT_4.pptx의 S97. 발표 환경에서 명령이 보이지 않으면 저장한 화면으로 진행한다.
+LOCAL STATIC ARTIFACT — production/preview/full/S96.png, production/preview/act4/S96.png 또는 production/ACT_4.pptx의 S96. 발표 환경에서 명령이 보이지 않으면 저장한 화면으로 진행한다.
 
 **Validation Status:**
 DOCUMENTED — 공식 안내 기반. 사내 계정·발표 PC에서의 Goal 사용, 실측 실행 및 리허설은 UNVERIFIED.

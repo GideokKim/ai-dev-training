@@ -52,11 +52,13 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Category: Training Identity
 - Strength: HARD
 - Rule: This is developer training about ChatGPT and Codex in AI-Native
-  Development. Use the user-approved112slides/383minutes under DEC-0168,
-  within the720-minute ceiling. ACT allocations are14/23/22/18/20/15slides
-  and42/64/90/64/82/41minutes. Remove former S100 and its Lecture1+Case2
-  minutes. Preserve the remaining evidence boundaries, the six ACTs, the
-  existing tips, and the retained knowledge lesson on current S102.
+  Development. Use the user-approved111slides/372minutes under DEC-0177,
+  within the720-minute ceiling. ACT allocations are14/23/22/18/19/15slides
+  and42/64/90/64/71/41minutes. Remove former S96 and its Reflection2,
+  Q&A7 and Transition2 minutes without redistribution. Preserve the
+  remaining evidence boundaries, six ACTs, tips and current S101 knowledge
+  lesson. Former S97-S112 move down one.
+- Historical DEC-0168 Rule:112slides/383minutes; ACT4 20slides/82minutes.
 - Historical DEC-0138/0144 active text, superseded by DEC-0160/0168:
   - Rule: This is a developer training about ChatGPT and Codex in AI-Native
     Development. The current net duration is389minutes under DEC-0138, within
@@ -103,7 +105,7 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Rationale: The audience, subject, and duration define the scope of the
   training.
 - Source: plan/MASTER_PLAN.md §§1.1–1.2
-- Validation: Does the material preserve the developer scope and the current383-minute schedule and720-minute ceiling under DEC-0168?
+- Validation: Does the material preserve the developer scope and the current372-minute schedule and720-minute ceiling under DEC-0177?
 - Change Policy: Require explicit user approval before changing the scope or
   duration.
 

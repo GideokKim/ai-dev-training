@@ -1,12 +1,12 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0176
+## Current presentation · DEC-0177
 
-The 44 entries identify local static fallbacks for the 112-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S97. S100 and S101 share one teaching-model work system; S101 shows the person deciding acceptance using its results and evidence.
+Former S96 and its reflection time are removed. Current S96 is the Goal tip. The 43 entries identify local static fallbacks for the 111-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S96. S99 and S100 share one teaching-model work system; S100 shows the person deciding acceptance using its results and evidence.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`352ebf20adac8811eb6d224d766481cd6f25160f446b7c3e05af3158ba563732`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`19c487409d41acb70a050ea5ce4e4e082f2459f6d0cb5ad7c09797914b171f07`.
-- `production/preview/full/montage.png` SHA-256:`0b0c715f4191fd88f08d13cf90b3d7ff564327d19be00e8b3865031a7c00a8d0`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`18b34a30361ad0c2ad7e3c3f84d5eed40bfa82f9abf3b35ded5e3054f6044f75`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`a188a4256ae985b8d5e42e24b750a6618fd8ef97306d7679c2ef34f785a7a7f4`.
+- `production/preview/full/montage.png` SHA-256:`01cc32bae04f577049596b99924f11863b57d990e2004af531a6dd927a62cdfb`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
@@ -47,15 +47,15 @@ The 44 entries identify local static fallbacks for the 112-slide course. S90 use
 | S90 | TEACHING_REVIEW_ROLES | `production/preview/full/S90.png` | 1920×1080 | `d436993dbd2348d339b32ccb7936dec4f5672975e36ea8dafc56a16d30640273` |
 | S91 | TEACHING_STATE_HANDOFF | `production/preview/full/S91.png` | 1920×1080 | `858272b31aeb086dc437f5064d314c1ef7f50588b8c8b5360a3c7192aba6ae14` |
 | S92 | DOCUMENTED_CODEX_MEMORY_TIP | `production/preview/full/S92.png` | 1920×1080 | `5ce24f694235e2ddc92ce99395ad93eb394440c2d4f44029ae733ce90a93d38b` |
-| S93 | TEACHING_PERMISSION_LIMITS | `production/preview/full/S93.png` | 1920×1080 | `4d0b3c4a32a80f566dd0f91d97753e701c66d6cdf80c13904f6ec0d38e8c42ca` |
+| S93 | TEACHING_PERMISSION_LIMITS | `production/preview/full/S93.png` | 1920×1080 | `22d360b52ec4f183b10b07b05276860238734a61de9fe224bc1814f4d2791760` |
 | S94 | TEACHING_STOP_AND_HANDOFF | `production/preview/full/S94.png` | 1920×1080 | `cfb8da443a83ca97b7a4f14ac70398a76ffe99b0ae3dab14c67742137d085bb7` |
 | S95 | TEACHING_HUMAN_REVIEW | `production/preview/full/S95.png` | 1920×1080 | `d5fdf0d5a011efb818f54cb423d1213af2b1f5e6f94f0e8406a5d9ba57cd5bf4` |
-| S96 | TEACHING_TEAM_REFLECTION | `production/preview/full/S96.png` | 1920×1080 | `284929ebb96d0daabd4047ef73dfd9b2f1fbaf67336d239992bdcc49d9aa3a2c` |
-| S97 | DOCUMENTED_CODEX_GOAL_TIP | `production/preview/full/S97.png` | 1920×1080 | `8b1e1206df58453134c0ba6f7d1b3a3a020e790319c3ebc4cdf871d07ea52c6e` |
-| S99 | TEACHING_SYNTHESIS | `production/preview/full/S99.png` | 1920×1080 | `2af51fb5d33ac2c5dad65f9678ff7a0a0de919b72de54257e54a2d5bd919809c` |
-| S100 | TEACHING_WORK_CONDITIONS | `production/preview/full/S100.png` | 1920×1080 | `1b4dc4616a70dbdd1a7b8d5751cc8493e2c364d719b1780ba134a14a636e41a3` |
-| S101 | TEACHING_HUMAN_DECISION | `production/preview/full/S101.png` | 1920×1080 | `6ad545e0092bd2b9d4da32b03af971f6a124383c3a1c4718e1ea0e7aad3aa631` |
-| S102 | CONCEPTUAL_MEMORY_ROLE | `production/preview/full/S102.png` | 1920×1080 | `5387dceeab463e339d5d769baf28b12acd973f86750c5d3c97faf9d201fff185` |
+| S96 | DOCUMENTED_CODEX_GOAL_TIP | `production/preview/full/S96.png` | 1920×1080 | `bcb8c592a8179d862c680932614b46d5dd43e3b408a407a114897a4847d6228f` |
+| S98 | TEACHING_SYNTHESIS | `production/preview/full/S98.png` | 1920×1080 | `e9ea8e4f3c1fba0ac12fc9c5ebe184a05d0e9f3b3d6f5ce7d4b1ab143e50e30b` |
+| S99 | TEACHING_WORK_CONDITIONS | `production/preview/full/S99.png` | 1920×1080 | `7081083d59328f9d8e902fde5671e6014a23ee1f2f5698993328f0513133ed67` |
+| S100 | TEACHING_HUMAN_DECISION | `production/preview/full/S100.png` | 1920×1080 | `495e2157330366e633d5bef98d32e6e943dee12674d3abf801afb149b881e3dd` |
+| S101 | CONCEPTUAL_MEMORY_ROLE | `production/preview/full/S101.png` | 1920×1080 | `95427929b67e91ebe633ad7674963c383747b608f37ccd4e47b0f7600d500f0c` |
+
 
 
 <details>

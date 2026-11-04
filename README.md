@@ -1,12 +1,14 @@
 # AI 개발자 교육
 
-## 발표 자료 · DEC-0168
+현재 제작본은111장·372분이다. ACT4 중복 성찰 장 삭제와 번호 정렬은 DEC-0177 및 [현재 제작 기준](plan/ACT45_ANNOTATION_REVISION.md)을 따른다.
+
+## 발표 자료 · DEC-0177
 
 [통합 PPT](production/AI_Dev_Training_Full.pptx) · [ACT5 PPT](production/ACT_5.pptx) · [ACT4 PPT](production/ACT_4.pptx) · [ACT4 발표 Notes](production/notes/ACT_4_NOTES.md) · [ACT4 미리보기](production/preview/act4/montage.png)
 
-전체 112장·383분 중 ACT4는 S78–S97, 82분이다. S79–S83은 점심 뒤에도 개발자가 다시 수정을 지시해야 했던 장면에서 출발해, 한 작업의 목표부터 인계까지 검토 결과로 다음 행동을 정하는 과정을 보여준다. S84–S89는 이 흐름을 GitLab 이슈 하나에 적용한다. 요청 분류부터 병합 요청까지, 어떤 단계가 코드를 바꾸고 어떤 단계가 그 결과를 확인하는지 따라간다.
+전체111장·372분 중 ACT4는 S78–S96, 71분이다. S79–S83은 점심 뒤에도 개발자가 다시 수정을 지시해야 했던 장면에서 출발해, 한 작업의 목표부터 인계까지 검토 결과로 다음 행동을 정하는 과정을 보여준다. S84–S89는 이 흐름을 GitLab 이슈 하나에 적용한다. 요청 분류부터 병합 요청까지, 어떤 단계가 코드를 바꾸고 어떤 단계가 그 결과를 확인하는지 따라간다.
 
-S90의 검토자가 남긴 지적과 실행 근거를 S91의 상태 파일에 기록해 다음 작업자가 이어받는다. S92에서 이전 대화의 맥락을 참고하는 Codex 메모리 팁을 소개하고, S93–S96은 무인 실행의 한도와 사람이 검토할 근거로 마무리한다. S97에는 밝기 통계의 출력과 최대 할당량으로 완료를 판단하는 /goal 입력 예시가 있다. S98에서 같은 질문을 청중의 업무로 옮긴다. [Slide Map](plan/SLIDE_MAP.md) · [연구와 출처](references/engineering/loop-engineering.md) · [교체 구간 검토](production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md)
+S90의 검토자가 남긴 지적과 실행 근거를 S91의 상태 파일에 기록해 다음 작업자가 이어받는다. S92에서 이전 대화의 맥락을 참고하는 Codex 메모리 팁을 소개하고, S93–S95는 무인 실행의 한도와 사람이 검토할 근거를 설명한다. S96에는 밝기 통계의 출력과 최대 할당량으로 완료를 판단하는 /goal 입력 예시가 있다. S97에서 같은 질문을 청중의 업무로 옮긴다. [Slide Map](plan/SLIDE_MAP.md) · [연구와 출처](references/engineering/loop-engineering.md) · [교체 구간 검토](production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md)
 
 S99의 범위 종합에서 새 S100의 정보·수행 방법·검증 도구로 바로 이어진다. ACT5는 15장·41분이다. [삭제·번호 대응](plan/S100_WORKFLOW_RECAP_REMOVAL.md).
 
