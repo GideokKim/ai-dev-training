@@ -12,6 +12,12 @@ export function loadAct5FlowSlides() {
   position:{left:x,top:y,width:w,height:0},line:{fill:C.teal,width:2.5},
   tail:{type:'triangle',width:'sm',length:'sm'}});
  const journey=['Chatbot','Prompt','Context','Harness','Loop'];
+ const choiceRow=(s,id,index,width)=>{
+  const y=253+index*65;
+  line(s,64,y,width,C.line,1);rect(s,64,y+13,38,38,C.pale);
+  text(s,id,64,y+14,38,35,23,C.teal,true,FONT,'center');
+  return y;
+ };
  return {
   S86(p){
    const s=frame(p,'S86','문제에 맞춰, 일하는 방식을 넓혔다','ACT 5 · 전체 여정 회수',
@@ -111,8 +117,7 @@ export function loadAct5FlowSlides() {
     ['E','같은 실패 뒤에도 원인·기준을 다시 안 본다','개선 · Feedback Loop']
    ];
    problems.forEach(([id,problem,kind],i)=>{
-    const y=253+i*65;line(s,64,y,1152,C.line,1);rect(s,64,y+13,38,38,C.pale);
-    text(s,id,64,y+14,38,35,23,C.teal,true,FONT,'center');
+    const y=choiceRow(s,id,i,1152);
     text(s,problem,126,y+10,730,48,27,C.ink,true);text(s,kind,882,y+10,334,48,24,C.teal);
    });
    return s;
@@ -121,7 +126,7 @@ export function loadAct5FlowSlides() {
    const s=frame(p,'S95','고른 문제에서, 다음 행동 하나로','ACT 5 · 개인 성찰 / 같은 글자로 이어 보기',
     'BEAT-070–071 · 다음 행동과 확인 근거를 떠올리는 개인 성찰',
     '마음속으로 떠올리는 시간 · 기록·발표·제출·실천 약속은 요구하지 않음');
-   text(s,'방금 고른 A–E에서, 다음 작업의 작은 행동 하나만',64,184,1152,42,29,C.teal,true);
+   text(s,'방금 고른 A–E에서, 다음 작업의 작은 행동 하나만',64,185,1152,42,29,C.teal,true);
    const actions=[
     ['A','목표·변경 범위를 요청에 적어 본다'],
     ['B','출처·검토자를 정하고 중복 지침을 합친다'],
@@ -130,8 +135,8 @@ export function loadAct5FlowSlides() {
     ['E','반복 실패의 기록·원인부터 대조한다']
    ];
    actions.forEach(([id,action],i)=>{
-    const y=268+i*59;line(s,64,y,750,C.line,1);rect(s,64,y+11,36,36,C.pale);
-    text(s,id,64,y+11,36,36,23,C.teal,true,FONT,'center');text(s,action,123,y+5,691,49,26,C.ink,true);
+    const y=choiceRow(s,id,i,750);
+    text(s,action,126,y+10,688,48,26,C.ink,true);
    });
    text(s,'그리고,\n확인할 근거 하나',858,301,358,77,28,C.teal,true);
    text(s,'무엇이 달라졌는지\n어떤 기록으로 볼까?',858,409,358,99,29,C.ink,true);

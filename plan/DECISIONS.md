@@ -15589,3 +15589,19 @@ S101's three lecture minutes, all 112 slides/383 minutes, and all other
 slide IDs, modes, sources and evidence boundaries. Align Notes, maps,
 editable Full/ACT5 decks, previews and delivery hashes. No Trial, Demo
 repository change, bundle or Sites update is included.
+
+# DEC-0172 — Align the problem and action rows on S107 and S108
+
+Status: ACCEPTED by explicit user instruction.
+Date: 2026-11-04.
+
+Share one row-layout helper for both slides. Use the S107 starting row,
+65-unit row spacing and 38-unit A-E badges on S108, and align the body
+text's left edge and row inset. Place both supporting sentences at the
+same height. Preserve the S108 evidence question on the right.
+
+This keeps the selected letter in the same position when advancing
+from a problem to its corresponding action. Change no text, Notes,
+source, claim, slide number, duration or delivery mode. Keep all
+112 slides/383 minutes and ACT5's 15 slides/41 minutes. Update the
+editable Full/ACT5 decks, rendered previews, maps and delivery hashes.
