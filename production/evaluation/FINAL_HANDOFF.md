@@ -1,26 +1,26 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## ACT5 작업 조건 도식 · DEC-0170
+## ACT5 시스템과 사람의 최종 결정 · DEC-0171
 
-[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT5 PPT](../ACT_5.pptx) · [ACT5 발표 Notes](../notes/ACT_5_NOTES.md) · [ACT5 미리보기](../preview/act5/montage.png) · [S100 화면](../preview/full/S100.png) · [수정·검토 결과](S100_WORKFLOW_RECAP_REMOVAL.md)
+[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT5 PPT](../ACT_5.pptx) · [ACT5 발표 Notes](../notes/ACT_5_NOTES.md) · [ACT5 미리보기](../preview/act5/montage.png) · [S100 화면](../preview/full/S100.png) · [S101 화면](../preview/full/S101.png) · [수정·검토 결과](ACT5_SYNTHESIS_REVISION.md)
 
-S100은 왼쪽의 세 입력에서 가운데 Agent를 거쳐 오른쪽 결과 기록으로 이어진다. S103의 하단 관점 설명 문장 삭제도 유지한다. 전체 112장·383분, ACT5는 15장·41분이다. 이전 S100의 작업 흐름 요약을 삭제했다. S99의 “이렇게 일을 맡기려면, AI에게 무엇을 연결해야 할까?”에 새 S100이 프로젝트 정보·재사용할 수행 방법·검증 도구로 답한다. 뒤 장은 결과 수용, 지식 선별, 유지·통합·제거, 개인의 다음 행동으로 이어진다. 실무 팁 찾아보기는 S109–S111, 교육 마무리는 S112다. 기존 근거 유형과 장별 시간은 삭제한 3분 외에 유지했다. Windows PowerPoint·교육장·실측 리허설은 미검증이다.
+S100과 S101은 프로젝트 정보·재사용할 수행 방법·검증 도구와 Agent를 하나로 묶은 동일한 작업 시스템을 사용한다. S100은 변경 내용·확인 근거·미해결 항목을 남기는 결과 기록을, S101은 그 근거를 받아 수용·보완 요청·중단을 최종 결정하는 사람을 보여준다. 사전 목표·제약·권한과 근거 확인 책임은 유지한다. 전체 112장·383분, ACT5는 15장·41분이며 S100 강의2분과 S101 강의3분을 유지했다. S99의 수행 범위 질문에서 S102의 지식 선별로 이어지고, 마지막 실무 팁 찾아보기는 S109–S111, 교육 마무리는 S112다. Windows PowerPoint·교육장·실측 리허설은 미검증이다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `f57dcb4b89466e53aa80b270828db0af9b7403879c83ed6bc8e721333def4d5b` |
+| `production/AI_Dev_Training_Full.pptx` | `2e09438a78073a7755b5b09ff3121f638a468ebc38f6b92061ad5dbdb4f70912` |
 | `production/ACT_0.pptx` | `5d5d0f2726df9c88f6bfbbb1fb52d5b221b10b2c9d243638552f013c0dd7378b` |
 | `production/ACT_1.pptx` | `07b8afb890383a0e656814859a052c9d9bdf139aa3bfd3c5eb6b556c0be115d4` |
 | `production/ACT_2.pptx` | `496a76f78a1a83fc66e72f82db5656f4710e7abf82c6747bc2d6f5a7768bd806` |
 | `production/ACT_3.pptx` | `acab05b7a47448cfb525856d52b65bb7dfa1c9d01df51521a68d1b2e6a6e6841` |
 | `production/ACT_4.pptx` | `ed7a65d4199ca8435c403c06827df3c0358853b4ae2e763a8ee08303bbf4d4b3` |
-| `production/ACT_5.pptx` | `129d88750c29a7f54dc6008345567b1d70d9410a6913d746e4c5be2844b3f64b` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `fa606cd7c7c33e7bc03b5a0573721337e3884d1079b3fea7a3e3dd8a630807b7` |
+| `production/ACT_5.pptx` | `0441241823920bf7cdb93d437ba8d6a435a12f22a9a94d09861845ec603e2efe` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `5469f37307037b02b50a4b5367484d7821e78c974b9439ba9725a5d43c010b63` |
 | `production/notes/ACT_4_NOTES.md` | `437970fddc34a688f872d55d33fb9e3b1d46917622b4246f19c8df63200be31a` |
-| `production/notes/ACT_5_NOTES.md` | `e6d092f681429717ace53efdba9f4aabc5a4560741ea7bdb5d32de20045ae17b` |
-| `production/preview/full/montage.png` | `494e19540a173c52f6d0f1b3e53af7f4826fe3ca3c1b53a3f0d2838fefbbb1e7` |
+| `production/notes/ACT_5_NOTES.md` | `1039a80932acd40e06232ea6f9bf887f4e5d1b8f3c333ba1241fcc41f68c4e6d` |
+| `production/preview/full/montage.png` | `5ef9c8c4f2a7f15ca6751eb360c6ddb25c3f11586b9244bdb054cb668ac2f38a` |
 | `production/preview/act4/montage.png` | `98acbfbfbf0dc98c278888b9c2a1a75eb8b1a97c8b2641f06404dc19bcfa5c1a` |
-| `production/preview/act5/montage.png` | `584b6d2592c82bc548cf3d4332a417d93bf463768c1339dac8bdcd448cc97358` |
+| `production/preview/act5/montage.png` | `fdacca1e7a873f9eb44db9bb053828de88dd6fdf1622b787c02a7062541c2499` |
 | `production/preview/full/S79.png` | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | `production/preview/full/S84.png` | `29e8438f364e03432f684abc9745482454430650ee59768536fdedcec709c2a4` |
 | `production/preview/full/S87.png` | `26c9ea08258e2bb7936d6af2ec5e02fd9345a1ae9d224c688e67284ff69d940f` |
@@ -34,6 +34,9 @@ S100은 왼쪽의 세 입력에서 가운데 Agent를 거쳐 오른쪽 결과 �
 | `production/notes/ACT_3_NOTES.md` | `812361557843a5280cdf1e005c12c3e0d024f71695a18d9e2790fe0ad14bc2a7` |
 | `production/preview/act3/montage.png` | `c1be5712b6a93d53cecaa5e8790135cf5202cb3e5813a47f3f9db95319b77730` |
 | `production/preview/full/S77.png` | `a09373e411803b59a133ea2cf661414239817e52f9ccb491d704c00e396fa433` |
+| `production/preview/full/S100.png` | `1b4dc4616a70dbdd1a7b8d5751cc8493e2c364d719b1780ba134a14a636e41a3` |
+| `production/preview/full/S101.png` | `6ad545e0092bd2b9d4da32b03af971f6a124383c3a1c4718e1ea0e7aad3aa631` |
+
 
 ## 보존된 이전 전달 기록
 

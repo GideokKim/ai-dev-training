@@ -2603,41 +2603,41 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 3 payoff; ACT 4 Minimum Effective Harness callback; ACT 5 synthesis.; ACT 5 — complete journey and seven takeaways.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S107/S108에 남긴다.
-- **Visual Concept:** 왼쪽에 정보·수행 방법·검증 도구를 서로 다른 색의 아이콘과 짧은 설명으로 세로 배치한다. 세 입력을 가운데 Agent에 모으고 오른쪽 결과 기록의 변경 내용·확인 근거·미해결 항목으로 연결한다. 입력→작업→결과의 한 방향 도식이다.
+- **Visual Concept:** 왼쪽의 프로젝트 정보·재사용할 수행 방법·검증 도구와 가운데 Agent를 하나의 작업 시스템 프레임으로 묶는다. 세 입력의 역할별 색과 아이콘을 유지하고 조사·구현·검증·재수정을 거쳐 오른쪽 결과 기록의 변경 내용·확인 근거·미해결 항목으로 연결한다. 이 시스템 그림을 S101에서도 동일하게 사용한다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
 - **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
 - **Advanced Payoff:** Context의 사실, Workflow의 방법, 도구가 제공하는 근거는 책임이 다르다. 모든 작업의 필수 구현·저장 방식이나 특정 구성이 더 우월하다는 결과를 제시하지 않는다.
 - **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S107/S108에 남긴다.
-- **Speaker Intent:** S99의 질문을 받아 왼쪽의 세 입력을 짚고 가운데 Agent의 조사·변경·검토로 시선을 옮긴다. 오른쪽에 남은 변경 내용·확인 근거·미해결 항목을 S101의 사람 수용 판단으로 연결한다.
-- **Transition:** 그렇게 얻은 결과를 완료 보고만으로 받아들일 수 있을까요? S101에서 사람의 수용 판단을 봅니다.
+- **Speaker Intent:** S99의 질문에 답하며 왼쪽 프레임 안의 프로젝트 정보·재사용할 수행 방법·검증 도구와 Agent를 하나의 구축한 작업 시스템으로 짚는다. 조사·구현·검증·재수정을 거쳐 오른쪽 결과 기록으로 시선을 옮기고, 같은 시스템을 유지한 S101에서 사람의 최종 결정으로 연결한다.
+- **Transition:** 시스템이 결과와 근거를 준비했다면, 사람에게 남는 최종 결정은 무엇일까요? S101에서 수용·보완 요청·중단의 판단으로 이어간다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** DEC-0170; DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
+- **Evidence / Decision References:** DEC-0171; DEC-0170; DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S101 — 결과를 수용할지는 사람이 판단한다
+#### S101 — 시스템이 수행하고, 사람이 최종 결정한다
 
 - **Slide ID:** S101
 - **ACT:** ACT 5
 - **Section:** 5A Developer Responsibility
-- **Working Title:** 결과를 수용할지는 사람이 판단한다
-- **Primary Role:** 작업 완료 보고 뒤에도 사람은 목표·선택·검증 근거·남은 위험을 확인해 결과를 수용한다.
-- **Audience Question:** “작업 완료 보고 뒤에 사람이 확인할 것은 무엇일까요?”
-- **Core Message:** 작업 완료 보고 뒤에도 사람은 목표·선택·검증 근거·남은 위험을 확인해 결과를 수용한다.
+- **Working Title:** 시스템이 수행하고, 사람이 최종 결정한다
+- **Primary Role:** 구축한 시스템이 조사·구현·검증·재수정을 수행하고 결과와 근거를 남기므로, 사람은 그 근거를 확인해 수용·보완 요청·중단의 최종 결정에 집중한다.
+- **Audience Question:** 이 시스템이 작업과 검증 근거를 준비하면, 사람에게 남는 결정은 무엇일까요?
+- **Core Message:** 구축한 시스템이 조사·구현·검증·재수정을 수행하고 결과와 근거를 남기므로, 사람은 그 근거를 확인해 수용·보완 요청·중단의 최종 결정에 집중한다.
 - **Story Beat:** BEAT-061–062
 - **Curriculum Trace:** ACT 5 — beginning/ending comparison and AI-Native Development teaching model.; ACT 5 — Beginning/ending comparison and developer responsibility.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S107/S108에 남긴다.
-- **Visual Concept:** AI의 변경·실행·검사·비교 기록과 사람이 확인할 목표·판단·검증·책임의 네 질문을 연결한다. Goal 한 기능에 한정하지 않는다.
+- **Visual Concept:** S100과 같은 위치·크기의 작업 시스템 프레임을 유지한다. 내부의 세 입력이 Agent의 조사·구현·검증·재수정으로 모이고, 결과와 근거 화살표가 오른쪽 사람으로 이어진다. 사람이 내리는 최종 결정을 수용·보완 요청·중단 세 가지로 표시한다. 같은 시스템의 역할에서 사람에게 남는 판단으로 초점을 이동한다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
-- **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
-- **Advanced Payoff:** 위임한 작업과 사람이 보유할 목표·중요 판단·위험 수용 책임을 구분한다. 현재 제품의 완료 오류율이나 검토 성과를 관찰한 주장이 아니다.
+- **Beginner Payoff:** 시스템이 수행하는 일과 사람이 최종 결정하는 일이 한눈에 구분된다.
+- **Advanced Payoff:** 사람이 사전에 정한 목표·제약·권한 안에서 시스템을 활용하고, 결과의 목표 적합성·선택·검증 근거·남은 위험을 확인해 수용한다. 모든 단계의 무인 수행이나 결과 보장을 주장하지 않는다.
 - **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S107/S108에 남긴다.
-- **Speaker Intent:** 전체 관점과 연결을 설명한다. 청중에게 개인 문제·구성요소·다음 행동을 선택시키지 않는다.
+- **Speaker Intent:** S100의 시스템을 그대로 따라가며 사람이 모든 단계를 수동으로 다시 수행하지 않고 최종 결정에 집중할 수 있음을 설명한다. 완료 보고 자체를 근거로 취급하지 않는다. 근거를 읽고 수용·보완 요청·중단을 결정한 뒤 S102의 지식 선별로 이어간다. 개인 문제와 다음 행동 선택은 S107/S108에 남긴다.
 - **Transition:** “수용한 결과 중 다음 작업에서도 다시 쓸 지식은 무엇일까요?” 현재 S102의 지식 선별 예로 이어간다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
-- **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
+- **Evidence / Decision References:** DEC-0171; DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S102 — 이번에 알아낸 것 중, 다음에도 쓸 것은?

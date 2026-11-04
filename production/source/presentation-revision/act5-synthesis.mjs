@@ -10,6 +10,38 @@ const frame=(p,id,title,eyebrow)=>H.frame(p,id,title,eyebrow,
  '교육에서 배운 관점의 종합 · TEACHING MODEL',
  '설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님');
 
+
+function workIcon(s,name,x,y,size,description) {
+ const bytes=readFileSync(new URL(`../../../assets/slide-illustrations/work-conditions/${name}.png`,import.meta.url));
+ s.images.add({blob:new Uint8Array(bytes),contentType:'image/png',alt:description,fit:'contain',
+  position:{left:x,top:y,width:size,height:size}});
+}
+
+function workSystem(s) {
+ const boundary=rect(s,64,185,810,395,'#EDF4F5','#B7CDD1',1.5);
+ boundary.borderRadius=12;
+ text(s,'구축한 작업 시스템',88,199,732,40,28,C.teal,true);
+ const inputs=[
+  ['프로젝트 정보','코드 · 명세 · 프로젝트 지식','FolderOpen','#285A96'],
+  ['재사용할 수행 방법','조사 · 변경 · 검증 순서','ListChecks','#4B6529'],
+  ['검증 도구','테스트 · 측정 · 결과 비교','Wrench','#875415']
+ ];
+ inputs.forEach(([name,detail,symbol,color],i)=>{
+  const y=259+i*99;
+  workIcon(s,symbol,87,y+7,42,name);
+  text(s,name,143,y,296,38,25,color,true);
+  text(s,detail,143,y+44,292,32,23,C.ink);
+  line(s,451,y+40,37,C.teal,2.5);
+ });
+ s.shapes.add({geometry:'line',position:{left:488,top:299,width:0,height:198},line:{fill:C.teal,width:2.5}});
+ arrow(s,488,398,78);
+ s.shapes.add({name:'Agent work',geometry:'ellipse',position:{left:566,top:294,width:208,height:208},
+  fill:C.pale,line:{fill:C.teal,width:2}});
+ workIcon(s,'Bot',618,314,104,'Agent');
+ text(s,'Agent',592,436,156,42,34,C.teal,true,H.FONT,'center');
+ text(s,'조사·구현·검증·재수정',532,532,300,36,24,C.teal,true,H.FONT,'center');
+}
+
 export function act5SynthesisFactories(){return {
  S103(p){
   const s=frame(p,'S103','AI에게 맡기는 범위가 넓어졌다','ACT 5 · 전체 여정의 의미');
@@ -44,51 +76,28 @@ export function act5SynthesisFactories(){return {
  },
  S105(p){
   const s=frame(p,'S105','작업 흐름에는 정보·절차·도구가 연결된다','ACT 5 · AI가 일하는 조건');
-  const icon=(name,x,y,size,description)=>{
-   const bytes=readFileSync(new URL(`../../../assets/slide-illustrations/work-conditions/${name}.png`,import.meta.url));
-   s.images.add({blob:new Uint8Array(bytes),contentType:'image/png',alt:description,fit:'contain',
-    position:{left:x,top:y,width:size,height:size}});
-  };
-  const inputs=[
-   ['프로젝트 정보','코드 · 명세 · 프로젝트 지식','FolderOpen','#285A96'],
-   ['재사용할 수행 방법','조사 · 변경 · 검증 순서','ListChecks','#4B6529'],
-   ['검증 도구','테스트 · 측정 · 결과 비교','Wrench','#875415']
-  ];
-  inputs.forEach(([name,detail,symbol,color],i)=>{
-   const y=203+i*122;
-   icon(symbol,71,y+8,52,name);
-   text(s,name,139,y,300,43,28,color,true);
-   text(s,detail,139,y+46,304,34,23,C.ink);
-   line(s,451,y+40,59,C.teal,2.5);
-  });
-  s.shapes.add({geometry:'line',position:{left:510,top:243,width:0,height:244},line:{fill:C.teal,width:2.5}});
-  arrow(s,510,365,80);
-  s.shapes.add({name:'Agent work',geometry:'ellipse',position:{left:590,top:255,width:220,height:220},
-   fill:C.pale,line:{fill:C.teal,width:2}});
-  icon('Bot',643,277,114,'Agent');
-  text(s,'Agent',612,398,176,49,38,C.teal,true,H.FONT,'center');
-  text(s,'조사·변경·검토',564,497,272,43,27,C.teal,true,H.FONT,'center');
-  arrow(s,810,365,130);
-
-  rect(s,940,225,276,329,C.white,C.line,1.5);
-  icon('FileText',960,245,35,'작업 결과 기록');
-  text(s,'결과로 남길 것',1006,245,194,43,27,'#315C87',true);
-  line(s,960,306,236,C.line,1);
+  workSystem(s);
+  arrow(s,774,398,166);
+  rect(s,940,240,276,309,C.white,C.line,1.5);
+  workIcon(s,'FileText',960,259,35,'작업 결과 기록');
+  text(s,'결과로 남길 것',1006,257,194,43,27,'#315C87',true);
+  line(s,960,315,236,C.line,1);
   ['변경 내용','확인 근거','미해결 항목'].forEach((label,i)=>{
-   text(s,label,967,326+i*73,229,44,30,C.ink,true);
+   text(s,label,967,335+i*66,229,44,28,C.ink,true);
   });
   return s;
  },
  S106(p){
-  const s=frame(p,'S106','결과를 수용할지는 사람이 판단한다','ACT 5 · 완료 보고와 수용 판단');
-  text(s,'작업 완료 보고 뒤에도, 목표·근거·남은 위험을 확인한다',64,194,1152,43,30,C.teal,true);
-  text(s,'AI의 작업 결과',64,302,310,42,30,C.teal,true);
-  rect(s,64,363,310,133,C.pale);
-  text(s,'변경 내용\n실행·검사·비교 기록',82,384,274,89,27,C.ink,true);
-  arrow(s,397,430,70);text(s,'사람의 수용 판단',510,270,706,39,28,C.teal,true);
-  for(const[x,y,label,q]of [[510,330,'목표','목표·제약에 맞나?'],[902,330,'판단','선택이 적절한가?'],[510,458,'검증','근거로 확인했나?'],[902,458,'책임','남은 위험을 수용할까?']]){
-   line(s,x,y,314,C.teal,2);text(s,label,x,y+12,314,35,27,C.teal,true);text(s,q,x,y+57,314,46,27,C.ink,true);
-  }
+  const s=frame(p,'S106','시스템이 수행하고, 사람이 최종 결정한다','ACT 5 · 시스템의 수행과 사람의 최종 결정');
+  workSystem(s);
+  text(s,'결과와 근거',806,350,170,38,24,'#315C87',true,H.FONT,'center');
+  arrow(s,774,398,212);
+  text(s,'최종 결정',940,244,276,44,30,C.teal,true,H.FONT,'center');
+  s.shapes.add({name:'Human acceptance',geometry:'ellipse',position:{left:986,top:306,width:184,height:184},
+   fill:C.white,line:{fill:C.teal,width:2}});
+  workIcon(s,'UserRound',1028,322,100,'최종 결정을 하는 사람');
+  text(s,'사람',1010,436,136,43,29,C.ink,true,H.FONT,'center');
+  text(s,'수용 · 보완 요청 · 중단',940,528,276,38,22,C.ink,true,H.FONT,'center');
   return s;
  },
  S107(p){

@@ -267,12 +267,12 @@ Lecture 2분
 “이 작업 흐름은 어떤 정보와 수행 조건에 연결되어 있을까요?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / Lecture) S99의 마지막 질문 “이렇게 일을 맡기려면, AI에게 무엇을 연결해야 할까?”에 답한다. 왼쪽의 프로젝트 정보·재사용할 수행 방법·검증 도구를 위에서 아래로 짚는다.
-2. (0:30–1:30 / Lecture) 프로젝트 정보는 코드·명세·프로젝트 지식, 수행 방법은 조사·변경·검증 순서, 검증 도구는 테스트·측정·결과 비교의 역할임을 짚는다. 세 입력의 선이 가운데 Agent에 모이는 것을 따라가며 조사·변경·검토를 수행할 조건임을 설명한다.
-3. (1:30–2:00 / Lecture) 오른쪽 결과 기록의 변경 내용·확인 근거·미해결 항목을 짚고, 사람이 읽을 자료를 남기는 이유를 회수한다. 구성 요소의 채택·보류나 개인 행동을 선택시키지 않고 S101의 수용 판단으로 넘긴다.
+1. (0:00–0:30 / Lecture) S99의 마지막 질문에 답한다. 왼쪽 프레임을 하나의 구축한 작업 시스템으로 가리키고 프로젝트 정보·재사용할 수행 방법·검증 도구를 위에서 아래로 짚는다.
+2. (0:30–1:30 / Lecture) 코드·명세·프로젝트 지식, 조사·변경·검증 순서, 테스트·측정·결과 비교가 각각 맡은 역할을 확인한다. 세 입력의 선을 따라 가운데 Agent의 조사·구현·검증·재수정으로 이동한다. 앞서 배운 체계를 다시 구축하거나 새 절차를 추가하는 장이 아니다.
+3. (1:30–2:00 / Lecture) 오른쪽 결과 기록의 변경 내용·확인 근거·미해결 항목을 짚는다. 시스템이 사람이 읽을 근거를 준비하므로, 다음 장은 같은 시스템 그림을 유지하고 사람에게 남는 최종 결정에 초점을 맞춘다.
 
 **Evidence / Source:**
-TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
+TEACHING_MODEL · DEC-0171 · DEC-0170 · DEC-0099. 기존 교육의 관점과 연결을 종합한다. BEAT-057, BEAT-060. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
 
 아이콘은 Lucide 1.8.0의 FolderOpen, ListChecks, Wrench, Bot, FileText다. 출처 https://lucide.dev 및 assets/slide-illustrations/work-conditions/LICENSE.
 
@@ -293,30 +293,30 @@ Context의 사실, Workflow의 방법, 도구가 제공하는 근거는 책임�
 개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S107/S108에 남긴다.
 
 **Demo Operation:**
-새 Trial·Live·실행 캡처 없음. 왼쪽의 프로젝트 정보·재사용할 수행 방법·검증 도구를 가운데 Agent 작업으로 연결한 뒤 오른쪽 결과 기록으로 이동한다. 아이콘은 역할을 구별하는 그림이다. 구성요소 채택·보류 메뉴를 만들지 않는다.
+새 Trial·Live·실행 캡처 없음. 왼쪽 시스템 프레임 안의 세 입력에서 Agent 작업으로 이동한 뒤 오른쪽 결과 기록을 짚는다. 다음 장에서도 시스템의 배치와 모양은 같다. 아이콘은 역할을 구별하는 그림이다. 구성요소 채택·보류 메뉴를 만들지 않는다.
 
 **Audience Interaction:**
 설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S107/S108에 남긴다.
 
 **Transition:**
-그렇게 얻은 결과를 완료 보고만으로 받아들일 수 있을까요? S101에서 사람의 수용 판단을 봅니다.
+시스템이 결과와 근거를 준비했다면, 사람에게 남는 최종 결정은 무엇일까요? S101에서 수용·보완 요청·중단의 판단으로 이어간다.
 
 **Time Management:**
-Lecture2분. 기존 장별 총시간을 유지한다. 상세 기법을 재강의하지 않고 실제 리허설은 UNVERIFIED로 둔다.
+Lecture2분. 입력0:30 → 시스템의 수행1:00 → 결과 기록과 다음 장 연결0:30. 지연 시 세 입력의 상세 예를 줄이고 결과 기록과 사람의 최종 결정 연결은 남긴다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S100와 production/preview/act5/S100.png. 설명용 도식이며 실행 캡처가 아니다. 현재 시각 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md의 DEC-0170 기록을 따른다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S100와 production/preview/act5/S100.png. 설명용 도식이며 실행 캡처가 아니다. 현재 시각 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md의 DEC-0171 기록을 따른다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0170. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md의 DEC-0170 기록을 따른다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
+CONTENT ALIGNED — DEC-0171. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md의 DEC-0171 기록을 따른다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S101 — 결과를 수용할지는 사람이 판단한다
+## S101 — 시스템이 수행하고, 사람이 최종 결정한다
 
 **Slide ID:**
 S101
 
 **Working Title:**
-결과를 수용할지는 사람이 판단한다
+시스템이 수행하고, 사람이 최종 결정한다
 
 **ACT / Section:**
 ACT 5 / 5A Developer Responsibility
@@ -328,18 +328,20 @@ ACT 5 / 5A Developer Responsibility
 Lecture 3분
 
 **Primary Message:**
-작업 완료 보고 뒤에도 사람은 목표·선택·검증 근거·남은 위험을 확인해 결과를 수용한다.
+구축한 시스템이 조사·구현·검증·재수정을 수행하고 결과와 근거를 남기므로, 사람은 그 근거를 확인해 수용·보완 요청·중단의 최종 결정에 집중한다.
 
 **Opening Question:**
-“작업 완료 보고 뒤에 사람이 확인할 것은 무엇일까요?”
+“이 시스템이 작업과 검증 근거를 준비하면, 사람에게 남는 결정은 무엇일까요?”
 
 **Speaker Flow:**
-1. (0:00–0:35 / Lecture) S100에서 남긴 변경 내용·확인 근거·미해결 항목을 사람의 수용 판단에 연결한다. Agent나 Goal의 완료 보고 자체를 검증 결과로 취급하지 않는다.
-2. (0:35–2:30 / Lecture) 목표·제약에 맞는지, 선택이 적절한지, 근거로 확인했는지, 남은 위험을 수용할지의 네 질문을 한 번씩 설명한다. 새 실패 사례나 실제 PASS/FAIL을 추가하지 않는다.
-3. (2:30–3:00 / Lecture) 사람이 직접 모든 단계를 수행한다는 뜻이 아니라 중요한 기준과 최종 수용 책임을 유지한다는 의미를 남긴다. 결과를 수용한 뒤에도 이번에 알아낸 것 중 다음 작업에 쓸 내용을 고르는 질문으로 S102에 연결한다.
+1. (0:00–0:45 / Lecture) S100과 같은 시스템 그림임을 짚는다. 정보·수행 방법·검증 도구가 Agent의 조사·구현·검증·재수정에 연결돼 있다. 사람은 각 단계를 직접 반복 지시하는 대신 시스템이 준비한 결과와 근거를 받는다.
+2. (0:45–2:20 / Lecture) 결과와 근거 화살표를 따라 오른쪽 사람으로 이동한다. 목표·제약에 맞는지, 선택과 검증 근거가 충분한지, 남은 위험을 받아들일 수 있는지 읽고 수용·보완 요청·중단을 결정한다. 사전 목표·제약·권한 설정은 여전히 사람의 일이다. 이 장은 결과를 받아들이는 시점을 설명하며 완료 보고만으로 자동 승인하지 않는다.
+3. (2:20–3:00 / Lecture) 구축한 체계 덕분에 수행과 근거 수집을 맡기고 최종 결정에 집중한다는 이점을 회수한다. 모든 작업이 무인으로 끝나거나 검증 도구가 오류를 전부 잡는다고 주장하지 않는다. 수용한 결과 중 다음에도 쓸 지식을 고르는 S102로 이어간다.
 
 **Evidence / Source:**
-TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
+TEACHING_MODEL · DEC-0171 · DEC-0099. 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
+
+아이콘은 Lucide 1.8.0의 FolderOpen, ListChecks, Wrench, Bot, UserRound다. 출처 https://lucide.dev 및 assets/slide-illustrations/work-conditions/LICENSE.
 
 보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
 
@@ -349,30 +351,31 @@ TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행�
 보존된 상세 범위: 설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님
 
 **Beginner Explanation:**
-저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
+왼쪽은 작업하고 확인 근거를 남기는 시스템, 오른쪽은 그 근거를 읽고 최종 결정하는 사람이다. 사람이 모든 단계를 수동으로 다시 수행할 필요 없이 중요한 판단에 집중하도록 역할을 나눈다.
 
 **Advanced Insight:**
-위임한 작업과 사람이 보유할 목표·중요 판단·위험 수용 책임을 구분한다. 현재 제품의 완료 오류율이나 검토 성과를 관찰한 주장이 아니다.
+사전에 정한 목표·제약·권한 안에서 위임한 수행과 최종 수용 책임을 구분한다. 시스템의 근거를 읽는 검토는 최종 결정에 포함한다. 현재 제품의 무인 완료율·오류율이나 사람의 검토 시간 절감을 관찰한 주장이 아니다.
 
 **C++ Vision Bridge:**
 개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S107/S108에 남긴다.
 
 **Demo Operation:**
-새 Trial·Live·실행 캡처 없음. AI의 변경·실행·검사·비교 기록과 사람이 확인할 목표·판단·검증·책임의 네 질문을 연결한다. Goal 한 기능에 한정하지 않는다.
+새 Trial·Live·실행 캡처 없음. S100과 동일한 시스템의 세 입력과 Agent를 짧게 회수한 뒤, 결과와 근거 화살표를 따라 사람의 최종 결정으로 이동한다. 수용·보완 요청·중단을 한 번씩 짚는다. 네 가지 검토 질문을 새 화면이나 실제 평가 결과로 만들지 않는다.
 
 **Audience Interaction:**
 설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S107/S108에 남긴다.
 
-Transition: “결과를 수용했다면, 이번에 알아낸 것 중 다음 작업에도 쓸 것은 무엇일까요?” S102의 지식 선별 예로 이어간다.
+**Transition:**
+결과를 수용했다면, 이번에 알아낸 것 중 다음 작업에도 쓸 것은 무엇일까요? S102의 지식 선별 예로 이어간다.
 
 **Time Management:**
-Lecture3분. 기존 장별 총시간을 유지한다. 상세 기법을 재강의하지 않고 실제 리허설은 UNVERIFIED로 둔다.
+Lecture3분. 같은 시스템 회수0:45 → 근거와 최종 결정1:35 → 역할 분담의 이점과 S102 연결0:40. 지연 시 검토 질문의 상세 예를 줄이고 근거 확인·최종 수용 책임은 유지한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S101와 production/preview/act5/S101.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/S100_WORKFLOW_RECAP_REMOVAL.md를 따른다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S101와 production/preview/act5/S101.png. 설명용 도식이며 실행 캡처가 아니다. 현재 시각 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md의 DEC-0171 기록을 따른다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0099. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md에 별도 기록한다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
+CONTENT ALIGNED — DEC-0171. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md의 DEC-0171 기록을 따른다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
 ## S102 — 이번에 알아낸 것 중, 다음에도 쓸 것은?
 

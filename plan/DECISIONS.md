@@ -15563,3 +15563,29 @@ order. Retain the teaching-model scope and the two lecture minutes.
 S99 asks what to connect to the Agent. S100 supplies the three work
 conditions. S101 retains the person's decision to accept the result.
 No execution, benchmark or product-availability claim is added.
+
+# DEC-0171 — Connect the work system to the human's final decision
+
+Status: ACCEPTED by explicit user instruction.
+Date: 2026-11-04.
+
+## Decision and Rationale
+
+Use the same work-system diagram on S100 and S101. Enclose the project
+information, reusable method, verification tools and Agent in one shared
+system frame. S100 connects this system to a record of changes, evidence
+and unresolved items. S101 connects it to the person who makes the final
+accept, request-rework or stop decision. This makes the benefit of the
+earlier system visible: people can focus on final decisions using the
+evidence prepared by the system rather than direct each execution step.
+
+## Scope and Boundaries
+
+Keep the prior goal, constraints and permission setting with the person.
+Reading the evidence remains part of the final acceptance decision.
+The diagram is a teaching model, not an observed unattended-completion
+rate or a guarantee that all errors are detected. Keep S100's two and
+S101's three lecture minutes, all 112 slides/383 minutes, and all other
+slide IDs, modes, sources and evidence boundaries. Align Notes, maps,
+editable Full/ACT5 decks, previews and delivery hashes. No Trial, Demo
+repository change, bundle or Sites update is included.
