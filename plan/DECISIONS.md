@@ -15667,3 +15667,20 @@ case as a historical plan rather than current audience content. Correct
 S102's mislinked CLM-0007 to CLM-0008; do not renumber either claim.
 Add no memory implementation, new Trial, automatic-recall guarantee or
 measured result. Target-account and Windows/rehearsal gates remain open.
+
+# DEC-0176 — Remove selected ACT5 labels and align the memory footer
+
+Status: ACCEPTED by four explicit user annotations.
+Date: 2026-11-04.
+
+Remove the practical application tip badge from S102 and align its legacy
+module label with the adjacent slides at 64,654 with a 1152 by 18 frame.
+Retain its classification and the final navigation reference. Remove only
+the selected audience footer sentence on S105 and S106. Keep their tip
+badges, legacy module labels and body diagrams.
+
+Preserve all lesson content, evidence and claim boundaries in the body
+and Notes. Change no slide number, order, title, time, mode or Notes text.
+Keep 112 slides/383 minutes and ACT5's 15 slides/41 minutes. Regenerate and
+validate the Full and ACT5 decks and previews, then refresh delivery
+references. Add no Demo, Trial, Site or presentation bundle.

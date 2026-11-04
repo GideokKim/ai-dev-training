@@ -1,5 +1,4 @@
 /** DEC-0133: move cross-task knowledge management after result acceptance. */
-import {addPracticalTipBadge} from './practical-tips.mjs';
 import {readFileSync} from 'node:fs';
 
 const slideId=n=>`S${String(n).padStart(2,'0')}`;
@@ -34,7 +33,6 @@ export function applyMemoryMove(slide){
 export function memoryAct5Factory(p,H){
  const {C,text,rect}=H;
  const s=H.frame(p,'S109',MEMORY_TITLE,'ACT 5 · 작업 간 유용한 맥락을 이어가기','','','CONCEPTUAL');
- addPracticalTipBadge(s,'Context 관리',H);
  const icon=(name,x,y,size)=>{
   const bytes=readFileSync(new URL(`../../../assets/slide-illustrations/work-conditions/${name}.png`,import.meta.url));
   s.images.add({blob:new Uint8Array(bytes),contentType:'image/png',alt:name,fit:'contain',
@@ -63,7 +61,8 @@ export function memoryAct5Factory(p,H){
  icon('Bot',1028,303,76);
  text(s,'새 요청 + 관련 기억\n현재 문서와 대조',916,414,300,86,26,C.ink,true,H.FONT,'center');
  text(s,'지켜야 할 지침은 문서로, 기억한 내용은 다시 확인한다',64,562,1152,43,30,C.teal,true);
- text(s,'M 연계 · 신규 확장',996,674,220,23,16,C.sub,false,H.FONT,'right');
+ const footer=text(s,'M 연계 · 신규 확장',64,654,1152,18,16,C.sub,false,H.FONT,'right');
+ footer.name='Legacy module connection';
  return s;
 }
 

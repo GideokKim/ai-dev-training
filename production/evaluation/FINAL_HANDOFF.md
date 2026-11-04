@@ -1,26 +1,26 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## ACT5 일반 메모리 역할과 배치 · DEC-0175
+## ACT5 지정 배지·하단 문구 정리 · DEC-0176
 
 [통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT5 PPT](../ACT_5.pptx) · [ACT5 발표 Notes](../notes/ACT_5_NOTES.md) · [ACT5 미리보기](../preview/act5/montage.png) · [S100 화면](../preview/full/S100.png) · [S101 화면](../preview/full/S101.png) · [S108 화면](../preview/full/S108.png) · [S103 화면](../preview/full/S103.png) · [S104](../preview/full/S104.png) · [S105](../preview/full/S105.png) · [S106](../preview/full/S106.png) · [S102 Memory](../preview/full/S102.png) · [수정·검토 결과](ACT5_SYNTHESIS_REVISION.md)
 
-S102는 “Memory: 다음 작업에 다시 쓸 맥락”으로 일반화했다. S101의 결과 수용과 S103의 전체 시스템 종합 사이에 현재 위치를 유지한다. S92의 Codex 설정·조작과 구분하고 S109 찾아보기의 제목을 맞췄다. 특정 C++ 가정은 과거 기획에 보존했다. S104–S106은 보조 역할의 통합 후보, 보호·통합·경유 절차 제거의 세 판단, 같은 조건에서 평가한 뒤 채택·되돌림을 결정하는 순서로 시각화했다. 기존 공개 사례와 교육용 판단 모델·평가 설계의 범위를 유지하며 각2분이다. S103은 맡길 범위 → 구축한 시스템 → 사람의 최종 판단을 익숙한 아이콘으로 연결하고, 선별한 지식이 다음 작업에서 조건 대조 후 다시 쓰이는 모습을 아래에 표시한다. S104의 구성 재평가 질문은 유지한다. S107과 S108은 A–E 표식의 위치·크기와 행 간격을 공유해, 문제에서 같은 글자의 행동으로 넘길 때 표식이 움직이지 않는다. S108의 정렬만 바꿨고 내용·Notes·시간은 유지했다. S100과 S101은 프로젝트 정보·재사용할 수행 방법·검증 도구와 Agent를 하나로 묶은 동일한 작업 시스템을 사용한다. S100은 변경 내용·확인 근거·미해결 항목을 남기는 결과 기록을, S101은 그 근거를 받아 수용·보완 요청·중단을 최종 결정하는 사람을 보여준다. 사전 목표·제약·권한과 근거 확인 책임은 유지한다. 전체 112장·383분, ACT5는 15장·41분이며 S100 강의2분과 S101 강의3분을 유지했다. S99의 수행 범위 질문에서 S102의 지식 선별로 이어지고, 마지막 실무 팁 찾아보기는 S109–S111, 교육 마무리는 S112다. Windows PowerPoint·교육장·실측 리허설은 미검증이다.
+S102의 화면 팁 배지를 삭제하고 M 연계 표시를 앞뒤 장과 같은 위치로 맞췄다. S105·S106의 지정 하단 문구를 삭제했다. 본문과 모든 Notes·근거·시간·순서는 유지한다. S102는 “Memory: 다음 작업에 다시 쓸 맥락”으로 일반화했다. S101의 결과 수용과 S103의 전체 시스템 종합 사이에 현재 위치를 유지한다. S92의 Codex 설정·조작과 구분하고 S109 찾아보기의 제목을 맞췄다. 특정 C++ 가정은 과거 기획에 보존했다. S104–S106은 보조 역할의 통합 후보, 보호·통합·경유 절차 제거의 세 판단, 같은 조건에서 평가한 뒤 채택·되돌림을 결정하는 순서로 시각화했다. 기존 공개 사례와 교육용 판단 모델·평가 설계의 범위를 유지하며 각2분이다. S103은 맡길 범위 → 구축한 시스템 → 사람의 최종 판단을 익숙한 아이콘으로 연결하고, 선별한 지식이 다음 작업에서 조건 대조 후 다시 쓰이는 모습을 아래에 표시한다. S104의 구성 재평가 질문은 유지한다. S107과 S108은 A–E 표식의 위치·크기와 행 간격을 공유해, 문제에서 같은 글자의 행동으로 넘길 때 표식이 움직이지 않는다. S108의 정렬만 바꿨고 내용·Notes·시간은 유지했다. S100과 S101은 프로젝트 정보·재사용할 수행 방법·검증 도구와 Agent를 하나로 묶은 동일한 작업 시스템을 사용한다. S100은 변경 내용·확인 근거·미해결 항목을 남기는 결과 기록을, S101은 그 근거를 받아 수용·보완 요청·중단을 최종 결정하는 사람을 보여준다. 사전 목표·제약·권한과 근거 확인 책임은 유지한다. 전체 112장·383분, ACT5는 15장·41분이며 S100 강의2분과 S101 강의3분을 유지했다. S99의 수행 범위 질문에서 S102의 지식 선별로 이어지고, 마지막 실무 팁 찾아보기는 S109–S111, 교육 마무리는 S112다. Windows PowerPoint·교육장·실측 리허설은 미검증이다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `4b70d0c292b8eabb8fe14c60a79e2c0ce8c034537d62f354878d4202e48de2ed` |
+| `production/AI_Dev_Training_Full.pptx` | `352ebf20adac8811eb6d224d766481cd6f25160f446b7c3e05af3158ba563732` |
 | `production/ACT_0.pptx` | `5d5d0f2726df9c88f6bfbbb1fb52d5b221b10b2c9d243638552f013c0dd7378b` |
 | `production/ACT_1.pptx` | `07b8afb890383a0e656814859a052c9d9bdf139aa3bfd3c5eb6b556c0be115d4` |
 | `production/ACT_2.pptx` | `496a76f78a1a83fc66e72f82db5656f4710e7abf82c6747bc2d6f5a7768bd806` |
 | `production/ACT_3.pptx` | `acab05b7a47448cfb525856d52b65bb7dfa1c9d01df51521a68d1b2e6a6e6841` |
 | `production/ACT_4.pptx` | `ed7a65d4199ca8435c403c06827df3c0358853b4ae2e763a8ee08303bbf4d4b3` |
-| `production/ACT_5.pptx` | `5f1d28200f604bd0be20499dffa48bc798503427bd45190bf70fa5e74c31c45b` |
+| `production/ACT_5.pptx` | `1cd946364c22b6663c931e149d6d04e55e103b39e2245eea75644ceec9b55782` |
 | `production/notes/FULL_SPEAKER_NOTES.md` | `19c487409d41acb70a050ea5ce4e4e082f2459f6d0cb5ad7c09797914b171f07` |
 | `production/notes/ACT_4_NOTES.md` | `437970fddc34a688f872d55d33fb9e3b1d46917622b4246f19c8df63200be31a` |
 | `production/notes/ACT_5_NOTES.md` | `b2a0ac860e4ad02894cfe4364bcaabf8031d90cb9f95d2743f49769faeb3193e` |
-| `production/preview/full/montage.png` | `d9ee10dce596fa12f396c3d65bc767bd6a9a97ae942c55c57ccad135fc4745e3` |
+| `production/preview/full/montage.png` | `0b0c715f4191fd88f08d13cf90b3d7ff564327d19be00e8b3865031a7c00a8d0` |
 | `production/preview/act4/montage.png` | `98acbfbfbf0dc98c278888b9c2a1a75eb8b1a97c8b2641f06404dc19bcfa5c1a` |
-| `production/preview/act5/montage.png` | `ad5d02e1a1ee62894e90aedad2476585582788e5e53a2f423daca594b606d1cc` |
+| `production/preview/act5/montage.png` | `c18352f8e9ce3eb4cecb3871468da62421cefd08ad83ac19170c3b66731c5e25` |
 | `production/preview/full/S79.png` | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | `production/preview/full/S84.png` | `29e8438f364e03432f684abc9745482454430650ee59768536fdedcec709c2a4` |
 | `production/preview/full/S87.png` | `26c9ea08258e2bb7936d6af2ec5e02fd9345a1ae9d224c688e67284ff69d940f` |
@@ -39,9 +39,9 @@ S102는 “Memory: 다음 작업에 다시 쓸 맥락”으로 일반화했다. 
 | `production/preview/full/S108.png` | `72ba5c05772f08494d55b32f30faf39691bdcf2af5f9ef0584bbe2d84adb8a5b` |
 | `production/preview/full/S103.png` | `0dcf4e2472aa585b47068907c5e633b72a1fc0db942303ce9bd3fe09cf94198f` |
 | `production/preview/full/S104.png` | `a4997739f2eeae1cdea79c88bd0bdeb7f715a1a305495cf63d7a048cdfa62a48` |
-| `production/preview/full/S105.png` | `ac7948599b97c28ebb68c6057a56daf5c8da74bbdcd90ee0dcfe76a73389bb62` |
-| `production/preview/full/S106.png` | `30cfe2cf172b7a34a4557f54b8444dcbea6489509609527351828e3c742f8139` |
-| `production/preview/full/S102.png` | `47e8b60a6081b5f7943ee8963ace41d2e8acbfd70ca76bf4c58d0cf55d1d4071` |
+| `production/preview/full/S105.png` | `523642869f85feb79e6180a43773c54bc2a6c74b7c12c96cd10bd66cb2ad32be` |
+| `production/preview/full/S106.png` | `4bd1f6dff37758d0ba8228f0c5a3c2aeaf260d09a2e59d45c2d65464c249fd67` |
+| `production/preview/full/S102.png` | `5387dceeab463e339d5d769baf28b12acd973f86750c5d3c97faf9d201fff185` |
 
 ## 보존된 이전 전달 기록
 

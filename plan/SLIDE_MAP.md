@@ -2653,7 +2653,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT5의 결과 수용과 전체 작업 방식 종합 사이에서 작업 간 유용한 맥락의 재사용을 설명한다. S101 → S102 → S103의 현재 위치를 유지한다. MASTER_PLAN §5.6과 INV-MATURITY-008, 원 Section3F/BEAT-026–028의 Context/Memory 구분 목표를 유지한다.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
 - **Claim Status:** CONCEPTUAL CASE / TEACHING MODEL — 작업 간 지식 관리 가정이다. 현재 Demo에 Memory를 추가했거나 제품이 자동 기억·회수한다는 주장이 아니다.
-- **Visual Concept:** 이번 작업 Context의 Agent → 선별 → Notebook으로 표시한 Memory → 참고 → 다음 작업 Context의 Agent 관계도다. 중앙에는 작업 선호·프로젝트 지식·확인된 주의점을 둔다. 다음 작업은 새 요청과 관련 기억을 함께 참고하되 현재 문서와 대조한다. 필수 지침은 문서에 둔다는 원칙을 아래에 크게 표시한다. 특정 제품 UI·저장 경로·자동 저장/회수 trace나 C++ 데모로 표현하지 않는다.
+- **Visual Concept:** 이번 작업 Context의 Agent → 선별 → Notebook으로 표시한 Memory → 참고 → 다음 작업 Context의 Agent 관계도다. 중앙에는 작업 선호·프로젝트 지식·확인된 주의점을 둔다. 다음 작업은 새 요청과 관련 기억을 함께 참고하되 현재 문서와 대조한다. 필수 지침은 문서에 둔다는 원칙을 아래에 크게 표시한다. 특정 제품 UI·저장 경로·자동 저장/회수 trace나 C++ 데모로 표현하지 않는다. 화면의 실무 적용 팁 배지는 삭제하고 M 연계 표시는 앞뒤 장과 같은 위치(64,654,1152×18)에 맞춘다. 분류와 최종 찾아보기 연결은 유지한다.
 - **Demo / Case Connection:** DEMO-08 CONCEPTUAL VISUAL2 + Case2를 유지한다. 일반적인 메모리 역할을 설명하는 정적 시각 자료와 가상 선호/프로젝트 정보 사례이며 실제 Memory 저장·조회·갱신 실행 결과가 아니다. 설정·명령 사용법은 기존 S92에서 설명한다.
 - **Beginner Payoff:** 메모리가 반복해서 필요한 맥락을 다음 작업에 참고하도록 돕는 역할임을 이해한다. 대화 전체를 그대로 복제하거나 필수 지침의 원본을 대체하는 개념과 구분한다.
 - **Advanced Payoff:** 메모리는 다음 작업의 Context 일부가 될 수 있다. 출처·적용 범위·신선도를 확인하고 원본 문서가 충분하면 중복 저장을 의무화하지 않는다. 제품별 저장·조회·통제 방식과 계정 가용성은 별도 확인한다.
@@ -2662,7 +2662,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “다음 작업에 남길 지식까지 포함해, AI가 일할 조건과 확인 경로를 설계해야 합니다.” S103으로 이어간다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 2분 (VISUAL) + Case 2분 = 4분
-- **Evidence / Decision References:** BEAT-026, CLM-0008, SRC-0113, SRC-0249, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0073, DEC-0080, DEC-0087, DEC-0133, DEC-0175
+- **Evidence / Decision References:** BEAT-026, CLM-0008, SRC-0113, SRC-0249, INV-DEMO-003, DEC-0018, OQ-013, BEAT-027, BEAT-028, DEC-0062, DEC-0073, DEC-0080, DEC-0087, DEC-0133, DEC-0175; DEC-0176
 - **Practical Tip Classification:** Context 관리
 - **Audience Footer:** 필수 지침은 문서에 보존하고 메모리는 현재 조건과 대조
 
@@ -2738,9 +2738,9 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “후보를 정했다면, 덜어낸 뒤에도 필요한 일을 하는지 무엇으로 확인할까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** CLM-0022, CLM-0030, SRC-0236, BEAT-057, BEAT-061, BEAT-069, DEC-0083, DEC-0087; DEC-0174
+- **Evidence / Decision References:** CLM-0022, CLM-0030, SRC-0236, BEAT-057, BEAT-061, BEAT-069, DEC-0083, DEC-0087; DEC-0174; DEC-0176
 - **Practical Tip Classification:** 검증·개선
-- **Audience Footer:** 구조를 덜어내도 명세·권한·검증 요구는 유지
+- **Audience Footer:** 표시하지 않음 — 사용자 지정 하단 문구 삭제. 근거·판단 조건은 본문과 Notes에 유지하며 M 연계 표시는 유지한다.
 
 #### S106 — 덜어낸 뒤에도 필요한 일을 하는가?
 
@@ -2764,9 +2764,9 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Transition:** “부족한 것뿐 아니라 겹쳐 쌓인 것도 포함해, 내 업무의 문제 하나를 골라봅시다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083, DEC-0087; DEC-0174
+- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083, DEC-0087; DEC-0174; DEC-0176
 - **Practical Tip Classification:** 검증·개선
-- **Audience Footer:** 평가 설계 예시 · 시간·비용만으로 채택하지 않음
+- **Audience Footer:** 표시하지 않음 — 사용자 지정 하단 문구 삭제. 근거·판단 조건은 본문과 Notes에 유지하며 M 연계 표시는 유지한다.
 
 #### S107 — 내 업무에서는 무엇이 반복해서 막힐까?
 

@@ -1,12 +1,12 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0175
+## Current presentation · DEC-0176
 
 The 44 entries identify local static fallbacks for the 112-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S97. S100 and S101 share one teaching-model work system; S101 shows the person deciding acceptance using its results and evidence.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`4b70d0c292b8eabb8fe14c60a79e2c0ce8c034537d62f354878d4202e48de2ed`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`352ebf20adac8811eb6d224d766481cd6f25160f446b7c3e05af3158ba563732`.
 - `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`19c487409d41acb70a050ea5ce4e4e082f2459f6d0cb5ad7c09797914b171f07`.
-- `production/preview/full/montage.png` SHA-256:`d9ee10dce596fa12f396c3d65bc767bd6a9a97ae942c55c57ccad135fc4745e3`.
+- `production/preview/full/montage.png` SHA-256:`0b0c715f4191fd88f08d13cf90b3d7ff564327d19be00e8b3865031a7c00a8d0`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
@@ -55,7 +55,7 @@ The 44 entries identify local static fallbacks for the 112-slide course. S90 use
 | S99 | TEACHING_SYNTHESIS | `production/preview/full/S99.png` | 1920×1080 | `2af51fb5d33ac2c5dad65f9678ff7a0a0de919b72de54257e54a2d5bd919809c` |
 | S100 | TEACHING_WORK_CONDITIONS | `production/preview/full/S100.png` | 1920×1080 | `1b4dc4616a70dbdd1a7b8d5751cc8493e2c364d719b1780ba134a14a636e41a3` |
 | S101 | TEACHING_HUMAN_DECISION | `production/preview/full/S101.png` | 1920×1080 | `6ad545e0092bd2b9d4da32b03af971f6a124383c3a1c4718e1ea0e7aad3aa631` |
-| S102 | CONCEPTUAL_MEMORY_ROLE | `production/preview/full/S102.png` | 1920×1080 | `47e8b60a6081b5f7943ee8963ace41d2e8acbfd70ca76bf4c58d0cf55d1d4071` |
+| S102 | CONCEPTUAL_MEMORY_ROLE | `production/preview/full/S102.png` | 1920×1080 | `5387dceeab463e339d5d769baf28b12acd973f86750c5d3c97faf9d201fff185` |
 
 
 <details>
