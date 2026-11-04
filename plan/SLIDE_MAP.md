@@ -2679,7 +2679,7 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 — beginning/ending comparison and AI-Native Development teaching model.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S107/S108에 남긴다.
-- **Visual Concept:** 맡길 범위·일할 조건·확인과 책임의 세 영역을 연결한다. 이 교육의 AI-Native Development 관점임을 밝히고 모델·플랫폼 변화 시 현재 구성의 필요성을 묻는다.
+- **Visual Concept:** 맡길 범위·일할 조건·확인과 책임의 세 영역을 연결하고 모델·플랫폼 변화 시 현재 구성의 필요성을 묻는다. 하단의 교육 관점을 설명하는 문장은 표시하지 않는다. 해당 관점의 범위는 Notes에 남긴다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
 - **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
 - **Advanced Payoff:** 특정 제품 기능이나 모든 구성요소를 반드시 도입하는 목록과 개발 방식의 설계 관점을 구분한다. 무엇을 제거할지는 다음 구간에서 근거를 보고 판단한다.

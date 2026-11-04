@@ -4,9 +4,9 @@
 
 The 43 entries identify local static fallbacks for the 112-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S97.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`4754e027a847cda2ee3ecaec52d45e072c39ae560c4a499163fb0584f47363d7`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`9bc243990fbb19344872a6b7f669413dcd95cd03681e23ba66afedcc6598f6d8`.
 - `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`b9883519ba3f78a4c8cffd43946e811b1434e770e64033183ecef224987b66ad`.
-- `production/preview/full/montage.png` SHA-256:`b4e592d54ce5acef4f67aea6e98740e2f6e09bd0fdc9ed8a2a7f95678a50ca2e`.
+- `production/preview/full/montage.png` SHA-256:`f9feb79a903bd0ee9f00034573ac2a773c3b88a7f3ab3e9beb776afc84ea5632`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 

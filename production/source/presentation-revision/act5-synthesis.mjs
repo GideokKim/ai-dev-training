@@ -80,7 +80,6 @@ export function act5SynthesisFactories(){return {
    const x=64+i*400;line(s,x,286,352,C.teal,3);text(s,a,x,308,352,45,31,C.teal,true);
    text(s,b,x,380,352,95,29,C.ink,true);if(i<2)arrow(s,x+361,420,30);
   });
-  text(s,'이 교육에서는 이를 AI-Native Development의 관점으로 본다',64,510,1152,39,27,C.sub);
   text(s,'모델·플랫폼이 달라져도, 지금의 구성이 모두 필요할까?',64,562,1152,38,30,C.teal,true);
   return s;
  }

@@ -15537,3 +15537,13 @@ previews, fallback navigation and the final handoff. No new Trial or
 measured outcome is added. Keep classroom, account and Windows checks
 unverified until performed. Related invariants are INV-NARRATIVE-001,
 INV-RESPONSIBILITY-001 and INV-VERIFY-001.
+
+# DEC-0169 — Remove the explanatory caption from S103
+
+Status: ACCEPTED by explicit user annotation.
+Date: 2026-11-04.
+
+Remove the lower caption stating that the course frames the diagram as
+AI-Native Development. Keep the three work-design areas and the question
+about reassessing the current setup. Retain the teaching-model scope in
+speaker notes. Preserve all slide numbers, time allocations and evidence.
