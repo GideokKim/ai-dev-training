@@ -1,26 +1,26 @@
 # 최종 전달 안내 — AI 개발자 교육
 
-## ACT5 문제와 행동의 행 정렬 · DEC-0172
+## ACT5 개발 방식의 시각적 종합 · DEC-0173
 
-[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT5 PPT](../ACT_5.pptx) · [ACT5 발표 Notes](../notes/ACT_5_NOTES.md) · [ACT5 미리보기](../preview/act5/montage.png) · [S100 화면](../preview/full/S100.png) · [S101 화면](../preview/full/S101.png) · [S108 화면](../preview/full/S108.png) · [수정·검토 결과](ACT5_SYNTHESIS_REVISION.md)
+[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT5 PPT](../ACT_5.pptx) · [ACT5 발표 Notes](../notes/ACT_5_NOTES.md) · [ACT5 미리보기](../preview/act5/montage.png) · [S100 화면](../preview/full/S100.png) · [S101 화면](../preview/full/S101.png) · [S108 화면](../preview/full/S108.png) · [S103 화면](../preview/full/S103.png) · [수정·검토 결과](ACT5_SYNTHESIS_REVISION.md)
 
-S107과 S108은 A–E 표식의 위치·크기와 행 간격을 공유해, 문제에서 같은 글자의 행동으로 넘길 때 표식이 움직이지 않는다. S108의 정렬만 바꿨고 내용·Notes·시간은 유지했다. S100과 S101은 프로젝트 정보·재사용할 수행 방법·검증 도구와 Agent를 하나로 묶은 동일한 작업 시스템을 사용한다. S100은 변경 내용·확인 근거·미해결 항목을 남기는 결과 기록을, S101은 그 근거를 받아 수용·보완 요청·중단을 최종 결정하는 사람을 보여준다. 사전 목표·제약·권한과 근거 확인 책임은 유지한다. 전체 112장·383분, ACT5는 15장·41분이며 S100 강의2분과 S101 강의3분을 유지했다. S99의 수행 범위 질문에서 S102의 지식 선별로 이어지고, 마지막 실무 팁 찾아보기는 S109–S111, 교육 마무리는 S112다. Windows PowerPoint·교육장·실측 리허설은 미검증이다.
+S103은 맡길 범위 → 구축한 시스템 → 사람의 최종 판단을 익숙한 아이콘으로 연결하고, 선별한 지식이 다음 작업에서 조건 대조 후 다시 쓰이는 모습을 아래에 표시한다. S104의 구성 재평가 질문은 유지한다. S107과 S108은 A–E 표식의 위치·크기와 행 간격을 공유해, 문제에서 같은 글자의 행동으로 넘길 때 표식이 움직이지 않는다. S108의 정렬만 바꿨고 내용·Notes·시간은 유지했다. S100과 S101은 프로젝트 정보·재사용할 수행 방법·검증 도구와 Agent를 하나로 묶은 동일한 작업 시스템을 사용한다. S100은 변경 내용·확인 근거·미해결 항목을 남기는 결과 기록을, S101은 그 근거를 받아 수용·보완 요청·중단을 최종 결정하는 사람을 보여준다. 사전 목표·제약·권한과 근거 확인 책임은 유지한다. 전체 112장·383분, ACT5는 15장·41분이며 S100 강의2분과 S101 강의3분을 유지했다. S99의 수행 범위 질문에서 S102의 지식 선별로 이어지고, 마지막 실무 팁 찾아보기는 S109–S111, 교육 마무리는 S112다. Windows PowerPoint·교육장·실측 리허설은 미검증이다.
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `24040cf1b3d5ea2ba2a5126d3152df388d07b308f89b5c5476c4b78b1adc5e9f` |
+| `production/AI_Dev_Training_Full.pptx` | `5e2fe32a4c94a57c6c784329fcf28cb560e57ad4238f5592cc7615dabdb72c9d` |
 | `production/ACT_0.pptx` | `5d5d0f2726df9c88f6bfbbb1fb52d5b221b10b2c9d243638552f013c0dd7378b` |
 | `production/ACT_1.pptx` | `07b8afb890383a0e656814859a052c9d9bdf139aa3bfd3c5eb6b556c0be115d4` |
 | `production/ACT_2.pptx` | `496a76f78a1a83fc66e72f82db5656f4710e7abf82c6747bc2d6f5a7768bd806` |
 | `production/ACT_3.pptx` | `acab05b7a47448cfb525856d52b65bb7dfa1c9d01df51521a68d1b2e6a6e6841` |
 | `production/ACT_4.pptx` | `ed7a65d4199ca8435c403c06827df3c0358853b4ae2e763a8ee08303bbf4d4b3` |
-| `production/ACT_5.pptx` | `f5786223ae597c19f2ad322041a405b8deb2da1c92afdebd0ebc2e6b5665fd26` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `5469f37307037b02b50a4b5367484d7821e78c974b9439ba9725a5d43c010b63` |
+| `production/ACT_5.pptx` | `d9e27a18293634d6fd9163450b7cda4e1558f28258c542d331d6297a9007511c` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `b0acda83d03b54a5d3487b975b216166a40ef1d9c997ece11851e7ddca1bc800` |
 | `production/notes/ACT_4_NOTES.md` | `437970fddc34a688f872d55d33fb9e3b1d46917622b4246f19c8df63200be31a` |
-| `production/notes/ACT_5_NOTES.md` | `1039a80932acd40e06232ea6f9bf887f4e5d1b8f3c333ba1241fcc41f68c4e6d` |
-| `production/preview/full/montage.png` | `be244549946ed35e954b11634a6b30b7e8d993e8710f9e1fc2320d65048b4757` |
+| `production/notes/ACT_5_NOTES.md` | `f4dc4ac8703498d34ede113527e4a4cf6c73a1bb9a1c5b66c792443b0813bc47` |
+| `production/preview/full/montage.png` | `663159ee1b01a0a0644911ab5c2b4200910e53722b5c73edca440188cc043836` |
 | `production/preview/act4/montage.png` | `98acbfbfbf0dc98c278888b9c2a1a75eb8b1a97c8b2641f06404dc19bcfa5c1a` |
-| `production/preview/act5/montage.png` | `35a5749ed874317d89560d485076ac7d8c859a0df992a4f9750251f1bf4a90bd` |
+| `production/preview/act5/montage.png` | `56ec8e5449ce9dfc2d3be7133092a6e8fbb4d0b2989c2d72c6c81512dbbd4bfd` |
 | `production/preview/full/S79.png` | `a6164e48080aea1c542f6765e36de577fc4b6e8a0e7524b7a58475ba9fac5199` |
 | `production/preview/full/S84.png` | `29e8438f364e03432f684abc9745482454430650ee59768536fdedcec709c2a4` |
 | `production/preview/full/S87.png` | `26c9ea08258e2bb7936d6af2ec5e02fd9345a1ae9d224c688e67284ff69d940f` |
@@ -37,6 +37,7 @@ S107과 S108은 A–E 표식의 위치·크기와 행 간격을 공유해, 문�
 | `production/preview/full/S100.png` | `1b4dc4616a70dbdd1a7b8d5751cc8493e2c364d719b1780ba134a14a636e41a3` |
 | `production/preview/full/S101.png` | `6ad545e0092bd2b9d4da32b03af971f6a124383c3a1c4718e1ea0e7aad3aa631` |
 | `production/preview/full/S108.png` | `72ba5c05772f08494d55b32f30faf39691bdcf2af5f9ef0584bbe2d84adb8a5b` |
+| `production/preview/full/S103.png` | `0dcf4e2472aa585b47068907c5e633b72a1fc0db942303ce9bd3fe09cf94198f` |
 
 ## 보존된 이전 전달 기록
 

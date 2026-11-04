@@ -2679,16 +2679,16 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 — beginning/ending comparison and AI-Native Development teaching model.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — DEC-0099에서 승인한 교육 내용의 종합. 실제 Product/Meta 이력·새 실행·비교 성과가 아니며 개인 선택은 S107/S108에 남긴다.
-- **Visual Concept:** 맡길 범위·일할 조건·확인과 책임의 세 영역을 연결하고 모델·플랫폼 변화 시 현재 구성의 필요성을 묻는다. 하단의 교육 관점을 설명하는 문장은 표시하지 않는다. 해당 관점의 범위는 Notes에 남긴다.
+- **Visual Concept:** 목표 아이콘의 맡길 범위 → 프로젝트 정보·수행 방법·도구/검토 역할과 Agent를 묶은 작업 시스템 → 결과와 근거를 받는 사람의 최종 판단을 한 도식으로 연결한다. S100/S101과 동일한 아이콘·색·프레임 문법을 사용한다. 하단의 선별한 지식 파일이 다음 작업에서 조건 대조 후 다시 정보로 들어가는 모습을 S102와 연결한다. 마지막 재평가 질문을 유지하고 삭제 승인된 교육 관점 설명 문장은 복구하지 않는다.
 - **Demo / Case Connection:** 기존 교육 내용의 설명용 구조다. 실제 이력은 참고 기록으로 보존하며 새 실행·결과를 제시하지 않는다.
 - **Beginner Payoff:** Demo 저장소의 State·Trial을 몰라도 작업과 판단의 관계를 이해한다.
 - **Advanced Payoff:** 특정 제품 기능이나 모든 구성요소를 반드시 도입하는 목록과 개발 방식의 설계 관점을 구분한다. 무엇을 제거할지는 다음 구간에서 근거를 보고 판단한다.
 - **C++ Vision Bridge:** 별도 구현·성과를 추가하지 않는다. 개인 업무 적용은 S107/S108에 남긴다.
-- **Speaker Intent:** S99의 범위 확대, S100의 수행 조건, S101의 수용 판단과 S102의 지식 선별을 기존 AI-Native Development 관점으로 회수한다. S104–S106에서 구성요소의 유지·통합·제거를 다룬다.
+- **Speaker Intent:** S99의 맡길 범위, S100의 시스템 구성, S101의 사람의 최종 판단과 S102의 지식 선별을 익숙한 아이콘으로 회수한다. 목표에서 시스템과 사람으로 읽은 뒤, 선별한 지식이 다음 작업의 정보가 되는 아래 연결을 짚는다. 마지막 질문에서 현재 구조도 재평가할 수 있음을 열고 S104–S106의 유지·통합·제거로 이어간다.
 - **Transition:** 이렇게 설계한 작업 방식도 모델·플랫폼이 달라지면 그대로 필요할까요? S104부터 기존 구조의 통합·제거를 재평가합니다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 3분 = 3분
-- **Evidence / Decision References:** DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
+- **Evidence / Decision References:** DEC-0173; DEC-0099; INV-NARRATIVE-001; INV-RESPONSIBILITY-001; CLM-0021; CLM-0023; CLM-0024
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S104 — 모델·플랫폼이 바뀌면 Harness도 다시 본다

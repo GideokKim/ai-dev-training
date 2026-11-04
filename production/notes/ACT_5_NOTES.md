@@ -458,12 +458,15 @@ Lecture 3분
 “우리가 설계한 것은 어떤 개발 방식이었을까요?”
 
 **Speaker Flow:**
-1. (0:00–0:35 / Lecture) S99의 범위 확대, S100의 수행 조건, S101의 수용 판단과 S102의 지식 선별을 하나의 개발 방식으로 회수한다.
-2. (0:35–2:10 / Lecture) 맡길 범위는 목표·제약·완료 기준, 일할 조건은 정보·수행 방법·도구·검토 역할, 확인과 책임은 검증·수정·재검토와 사람의 수용이다. 이 과정에서 사용하는 AI-Native Development의 관점이며 보편 공식 정의가 아니다.
-3. (2:10–3:00 / Lecture) 모델·플랫폼이 달라져도 지금의 구성이 모두 필요할지 질문한다. 통합·제거의 상세 기준은 S104–S106에, 개인 문제와 다음 행동은 S107–S108에 남긴다.
+1. (0:00–0:40 / Lecture) 왼쪽 목표 아이콘을 짚고 사람이 정하는 목표·제약·완료 기준을 회수한다. S99에서 넓어진 위임 범위를 먼저 정한다는 의미다.
+2. (0:40–1:45 / Lecture) 가운데 시스템의 프로젝트 정보·수행 방법·도구와 검토 역할, 아래 Agent의 구현·검증·재수정을 짚는다. 결과·근거 화살표를 따라 오른쪽 사람으로 이동해 수용·보완 요청·중단을 최종 결정함을 회수한다. S100/S101에서 배운 역할을 하나로 묶으며 수행 절차를 다시 강의하지 않는다.
+3. (1:45–2:20 / Lecture) 아래 선별한 지식 파일에서 다음 작업의 정보로 들어가는 선을 짚는다. S102처럼 출처·적용 조건을 확인한 지식을 골라 현재 조건과 대조한 뒤 다시 쓴다. 자동 저장·회수나 실제 Memory 실행을 뜻하지 않는다.
+4. (2:20–3:00 / Lecture) 이 교육에서 사용하는 AI-Native Development의 관점이며 보편 공식 정의가 아님을 설명한다. 마지막 모델·플랫폼 변화 질문으로 지금의 구성도 재평가할 수 있음을 연다. 유지·통합·제거의 기준은 S104–S106, 개인 선택은 S107/S108에 남긴다.
 
 **Evidence / Source:**
-TEACHING_MODEL · DEC-0099 · 기존 교육의 관점과 연결을 종합한다. BEAT-061–062. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다.
+TEACHING_MODEL · DEC-0173 · DEC-0099. S99–S102에서 설명한 역할과 연결을 종합한다. 실제 Product 이력과 DEC-0018은 당시 관찰·판단으로 보존하며 이 도식의 실행 근거로 쓰지 않는다. BEAT-061.
+
+아이콘은 Lucide 1.8.0의 Target, FolderOpen, ListChecks, Wrench, Bot, UserRound, FileText다. 출처 https://lucide.dev 및 assets/slide-illustrations/work-conditions/LICENSE.
 
 보존된 상세 출처: 교육에서 배운 관점의 종합 · TEACHING MODEL
 
@@ -473,7 +476,7 @@ TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행�
 보존된 상세 범위: 설명용 도식 · 실제 실행·측정 결과나 모든 작업의 필수 구성표가 아님
 
 **Beginner Explanation:**
-저장소 이름·State·Trial을 몰라도 화면의 역할과 연결을 따라간다.
+사람이 맡길 범위를 정하고, 구성한 시스템이 작업과 확인 근거를 준비하면 사람이 최종 결정한다. 다음에도 쓸 지식은 골라 두었다가 조건을 다시 확인해 활용한다.
 
 **Advanced Insight:**
 특정 제품 기능이나 모든 구성요소를 반드시 도입하는 목록과 개발 방식의 설계 관점을 구분한다. 무엇을 제거할지는 다음 구간에서 근거를 보고 판단한다.
@@ -482,7 +485,7 @@ TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행�
 개별 기술 사례·성과를 새로 넣지 않는다. 개인 업무 적용은 S107/S108에 남긴다.
 
 **Demo Operation:**
-새 Trial·Live·실행 캡처 없음. 맡길 범위·일할 조건·확인과 책임의 세 영역을 연결한다. 이 교육의 AI-Native Development 관점임을 밝히고 모델·플랫폼 변화 시 현재 구성의 필요성을 묻는다.
+새 Trial·Live·실행 캡처 없음. 목표 아이콘 → 가운데 시스템 → 결과·근거 → 사람 순으로 가리킨 뒤, 아래 선별한 지식 파일에서 다음 작업 정보로 들어가는 연결을 짚는다. 자동 실행 이력이나 제품 화면으로 표현하지 않는다. 마지막 질문을 읽고 S104로 넘어간다.
 
 **Audience Interaction:**
 설명을 위한 질문이며 개인 문제·도구·다음 행동을 고르게 하지 않는다. 개인 선택과 성찰은 S107/S108에 남긴다.
@@ -491,13 +494,13 @@ TEACHING_MODEL — 기존 교육 내용의 설명용 종합이며 실제 실행�
 이렇게 설계한 작업 방식도 모델·플랫폼이 달라지면 그대로 필요할까요? S104부터 기존 구조의 통합·제거를 재평가합니다.
 
 **Time Management:**
-Lecture3분. 기존 장별 총시간을 유지한다. 상세 기법을 재강의하지 않고 실제 리허설은 UNVERIFIED로 둔다.
+Lecture3분. 맡길 범위0:40 → 시스템과 최종 판단1:05 → 지식 재사용0:35 → 재평가 질문0:40. 지연 시 이미 배운 시스템 구성의 설명을 줄이고, 사람의 최종 판단·지식의 조건 대조·S104 연결은 유지한다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S103와 production/preview/act5/S103.png. 설명용 도식이며 실행 캡처가 아니다. 현재 검토는 production/evaluation/S100_WORKFLOW_RECAP_REMOVAL.md를 따른다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S103와 production/preview/act5/S103.png. 설명용 도식이며 실행 캡처가 아니다. 현재 시각 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md의 DEC-0173 기록을 따른다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0099. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md에 별도 기록한다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
+CONTENT ALIGNED — DEC-0173. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md의 DEC-0173 기록을 따른다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
 ## S104 — 모델·플랫폼이 바뀌면 Harness도 다시 본다
 

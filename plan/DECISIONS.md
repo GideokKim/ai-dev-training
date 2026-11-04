@@ -15605,3 +15605,22 @@ from a problem to its corresponding action. Change no text, Notes,
 source, claim, slide number, duration or delivery mode. Keep all
 112 slides/383 minutes and ACT5's 15 slides/41 minutes. Update the
 editable Full/ACT5 decks, rendered previews, maps and delivery hashes.
+
+# DEC-0173 — Show the development model as one connected system on S103
+
+Status: ACCEPTED by explicit user instruction.
+Date: 2026-11-04.
+
+Replace the text-only three-column recap with a native editable diagram:
+defined goals and constraints feed the prepared work system, which sends
+results and evidence to the person making the final acceptance decision.
+Reuse the system, Agent and person visual grammar from S100 and S101.
+Show selected knowledge from S102 entering the next task's information
+after checking its current conditions. Retain the question that opens
+S104's reassessment of existing structure.
+
+Keep the title, three lecture minutes, prior narrative and teaching-model
+scope. Add no observed outcome, universal component requirement, automatic
+knowledge retrieval or current-product claim. Do not restore the removed
+explanatory caption. Align S103 Notes, maps, Full/ACT5 decks, previews and
+delivery hashes. All 112 slides/383 minutes remain unchanged.

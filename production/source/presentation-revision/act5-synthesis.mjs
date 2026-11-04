@@ -102,12 +102,39 @@ export function act5SynthesisFactories(){return {
  },
  S107(p){
   const s=frame(p,'S107','AI가 일할 조건과 확인 경로를 설계한다','ACT 5 · AI-Native Development / 이 교육의 관점');
-  text(s,'작업을 맡기는 범위와, 수행·검토·수용의 연결을 설계한다',64,190,1152,46,30,C.teal,true);
-  const nodes=[['맡길 범위','목표·제약\n완료 기준'],['일할 조건','정보·수행 방법\n도구·검토 역할'],['확인과 책임','검증·수정·재검토\n사람의 수용 판단']];
-  nodes.forEach(([a,b],i)=>{
-   const x=64+i*400;line(s,x,286,352,C.teal,3);text(s,a,x,308,352,45,31,C.teal,true);
-   text(s,b,x,380,352,95,29,C.ink,true);if(i<2)arrow(s,x+361,420,30);
+  text(s,'맡길 범위',64,201,230,42,28,C.teal,true,H.FONT,'center');
+  workIcon(s,'Target',133,270,92,'목표와 완료 기준');
+  text(s,'목표 · 제약\n완료 기준',64,381,230,72,26,C.ink,true,H.FONT,'center');
+  arrow(s,294,358,60);
+
+  const system=rect(s,354,185,536,305,'#EDF4F5','#B7CDD1',1.5);
+  system.borderRadius=12;
+  text(s,'구축한 작업 시스템',376,198,492,43,28,C.teal,true);
+  [['프로젝트 정보','FolderOpen'],['수행 방법','ListChecks'],['도구·검토 역할','Wrench']].forEach(([label,icon],i)=>{
+   const x=372+i*164;
+   workIcon(s,icon,x+62,258,32,label);
+   text(s,label,x,299,156,36,22,C.ink,true,H.FONT,'center');
   });
+  line(s,378,354,488,'#B7CDD1',1);
+  workIcon(s,'Bot',418,386,64,'작업을 수행하는 Agent');
+  text(s,'Agent',502,383,366,43,29,C.teal,true);
+  text(s,'구현 · 검증 · 재수정',502,430,366,36,25,C.ink,true);
+
+  text(s,'결과·근거',890,304,112,34,21,'#315C87',true,H.FONT,'center');
+  arrow(s,890,358,112);
+  text(s,'확인과 책임',940,201,276,42,28,C.teal,true,H.FONT,'center');
+  s.shapes.add({name:'Human acceptance',geometry:'ellipse',position:{left:1002,top:282,width:152,height:152},
+   fill:C.white,line:{fill:C.teal,width:2}});
+  workIcon(s,'UserRound',1030,295,96,'결과와 근거로 최종 결정하는 사람');
+  text(s,'사람',1010,392,136,40,26,C.ink,true,H.FONT,'center');
+  text(s,'수용 · 보완 요청 · 중단',940,449,276,34,22,C.ink,true,H.FONT,'center');
+
+  workIcon(s,'FileText',354,510,36,'다음 작업에 다시 쓸 지식');
+  text(s,'선별한 지식',402,508,182,36,23,'#875415',true);
+  line(s,585,526,49,C.teal,2.5);
+  s.shapes.add({geometry:'connector',kind:'straight',position:{left:634,top:490,width:0,height:36},
+   line:{fill:C.teal,width:2.5},head:{type:'triangle',width:'sm',length:'sm'}});
+  text(s,'다음 작업에서\n조건 대조 후 재사용',664,498,306,54,22,C.teal,true);
   text(s,'모델·플랫폼이 달라져도, 지금의 구성이 모두 필요할까?',64,562,1152,38,30,C.teal,true);
   return s;
  }

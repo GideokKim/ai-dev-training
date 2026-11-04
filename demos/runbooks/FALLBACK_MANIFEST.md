@@ -1,12 +1,12 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0172
+## Current presentation · DEC-0173
 
 The 44 entries identify local static fallbacks for the 112-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S97. S100 and S101 share one teaching-model work system; S101 shows the person deciding acceptance using its results and evidence.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`24040cf1b3d5ea2ba2a5126d3152df388d07b308f89b5c5476c4b78b1adc5e9f`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`5469f37307037b02b50a4b5367484d7821e78c974b9439ba9725a5d43c010b63`.
-- `production/preview/full/montage.png` SHA-256:`be244549946ed35e954b11634a6b30b7e8d993e8710f9e1fc2320d65048b4757`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`5e2fe32a4c94a57c6c784329fcf28cb560e57ad4238f5592cc7615dabdb72c9d`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`b0acda83d03b54a5d3487b975b216166a40ef1d9c997ece11851e7ddca1bc800`.
+- `production/preview/full/montage.png` SHA-256:`663159ee1b01a0a0644911ab5c2b4200910e53722b5c73edca440188cc043836`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
