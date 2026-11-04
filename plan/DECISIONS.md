@@ -15624,3 +15624,24 @@ scope. Add no observed outcome, universal component requirement, automatic
 knowledge retrieval or current-product claim. Do not restore the removed
 explanatory caption. Align S103 Notes, maps, Full/ACT5 decks, previews and
 delivery hashes. All 112 slides/383 minutes remain unchanged.
+
+# DEC-0174 — Make the reassessment sequence visible on S104-S106
+
+Status: ACCEPTED by explicit user instruction.
+Date: 2026-11-04.
+
+Make these three important slides read as one decision sequence. S104
+contrasts external helper roles with a main-loop integration candidate
+when conditions change. S105 illustrates protected requirements, merging
+duplicate instructions and roles, and a bypassed obsolete workaround.
+S106 sends the same input through two candidate structures into the same
+evaluation frame, emphasizing behavior and regression before time, cost
+and remaining risk. Show bounded adoption and rollback with a record.
+
+Reuse the prior Agent visual grammar and licensed Lucide icons. Preserve
+all titles, two lecture minutes per slide, the existing tip badges,
+112 slides/383 minutes and all source and claim boundaries. Recheck the
+primary vendor account without promoting it to a course or current-Codex
+result. Add no Trial, performance values, PASS/FAIL results or universal
+single-agent recommendation. Align Notes, maps, Full/ACT5 decks, previews
+and delivery hashes. Personal choice remains on S107/S108.

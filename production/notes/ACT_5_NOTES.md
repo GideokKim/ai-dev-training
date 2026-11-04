@@ -523,17 +523,19 @@ Lecture 2분
 모델이 맡을 수 있는 범위나 플랫폼 제공 기능이 달라졌다면, 기존 Router·Planner·담당 Subagent의 필요성을 재평가할 수 있다. 일부 기업 Agent의 통합 공개 사례는 재평가의 동기이며 보편적 우월성·현재 Codex 효과의 근거가 아니다.
 
 **Opening Question:**
-“Goal처럼 플랫폼이 일부 역할을 제공한다면, 이전에 만든 보조 장치도 계속 필요할까요?”
+“그때 필요했던 보조 장치가, 지금도 필요할까요?”
 
 **Speaker Flow:**
-1. (0:00–0:25 / Lecture) S103의 설계 관점에서 “그때 필요했던 보조 장치가 지금도 필요한가?”를 묻는다. 앞 구간은 작업 체계의 구조를 설명했고, 여기서는 과거 필요했던 구성의 후속 재평가를 다룬다.
-2. (0:25–1:25 / Lecture) 왼쪽 조율 Agent와 Router/Planner/담당 Subagent, 오른쪽 하나의 주 Loop와 필요한 Skill·Tool 후보를 읽는다. Anthropic이 공개한 일부 기업 Agent의 통합 사례를 각색한 교육용 도식이다. 그 사례에서 현재 불필요한 역할을 합치는 선택이 있었으며 독립 조사·권한 경계의 필요성은 남는다고 설명한다. Model capability·플랫폼 제공 기능·업무 조건이 실제로 달라졌는지 먼저 확인한다.
-3. (1:25–2:00 / Lecture) 새 모델이나 플랫폼이면 무조건 합치라는 뜻이 아니며 우리 Demo의 통합·비용·품질 비교 실험도 아니라고 한정한다. 외부 수치나 모델명 성능을 추가하지 않고 S105의 판단 기준으로 넘긴다.
+1. (0:00–0:20 / Lecture) S103의 마지막 질문을 받아 그때 필요했던 보조 장치가 지금도 필요한지 묻는다. 모델이 맡는 범위·플랫폼 제공 기능·업무 조건이 실제로 달라졌는지가 출발점이다.
+2. (0:20–1:20 / Lecture) 왼쪽 Agent와 Router·Planner·Subagent의 역할 아이콘을 읽고, 가운데 조건 변화 화살표를 거쳐 오른쪽 주 Agent Loop와 필요한 Skill·Tool 후보를 본다. Anthropic의 일부 기업 사례를 각색한 그림이며 우리 Demo나 현재 Codex의 변경 전후가 아니다.
+3. (1:20–2:00 / Lecture) 통합은 현재 역할을 다시 확인할 후보라고 한정한다. 보편적 단일 Agent 우월성·비용 절감이나 자동 대체를 주장하지 않는다. 무엇을 지키고 무엇을 합치거나 덜어낼지 S105로 넘긴다.
 
 **Evidence / Source:**
 RESEARCH / TEACHING_MODEL · SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083. references/engineering/harness-reassessment.md에 출처·해석·한계를 분리한다.
 
 보존된 상세 출처: SRC-0236 · Anthropic, 2026-10-22 · 일부 기업 Agent의 통합 사례를 각색
+
+DEC-0174. Lucide 1.8.0 아이콘: Bot, Route, ListTree, UsersRound, ListChecks, Wrench. 출처 https://lucide.dev 및 assets/slide-illustrations/work-conditions/LICENSE. SRC-0236 공식 원문을2026-11-04 재확인했으며 기존 주장 범위는 변경하지 않았다.
 
 **Claim Boundary:**
 FROZEN WITH SCOPE — CLM-0040의 공급사 공개 사례 요약; TEACHING MODEL — 비교 구조는 교육용 각색; 현재 Codex의 통합 효과는 미검증. 새 Demo Trial이나 실제 통합·제거 효과를 관찰하지 않았다. 현재 Codex UI/모델·계정 동작으로 일반화하지 않는다.
@@ -550,22 +552,22 @@ Goal은 앞 ACT의 OpenAI 공식 기능 안내다. 이 화면의 Anthropic 기�
 Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
 
 **Demo Operation:**
-왼쪽은 요청을 조율하는 Agent와 Router/Planner/담당 Subagent, 오른쪽은 하나의 Agent Loop와 필요한 Skill·Tool을 둔 후보 도식이다. 공개 사례를 각색한 구조이며 실제 실행 Screenshot이나 우리 Demo 변경 전후가 아니다. 발표자는 도식의 순서만 짚는다. 새 Live Demo는 없다.
+왼쪽 Agent 아래의 Router·Planner·Subagent를 역할별 아이콘으로 표시하고, 모델·플랫폼 변화 화살표를 거쳐 오른쪽의 주 Agent Loop와 필요한 Skill·Tool 후보로 대비한다. 보조 역할을 다시 배치할 수 있는 공개 사례의 교육용 각색이며 현재 제품의 통합 전후나 우월성 증거가 아니다. 두 Agent의 아이콘·프레임 문법을 S103에서 회수하고 핵심 질문과 공개 출처 표기를 유지한다. 새 Trial·Live·실행 캡처를 추가하지 않는다.
 
 **Audience Interaction:**
-질문은 설명을 여는 수사적 질문이다. 응답·실습·기록·제출을 요구하지 않는다. 개인 선택은 S106/S105에 남긴다.
+설명을 위한 질문이며 응답·실습·기록·제출을 요구하지 않는다. 개인 문제 선택과 성찰은 S107/S108에 남긴다.
 
 **Transition:**
 “그렇다면 무엇을 보존하고, 어떤 부분을 합치거나 제거할 후보로 볼까요?”
 
 **Time Management:**
-Lecture2분. 0:00–0:25 연결 질문,0:25–1:25 도식·범위 설명,1:25–2:00 판단 경계와 다음 장 연결. 외부 사례의 수치·상세 아키텍처 설명을 확장하지 않는다. 초과하면 예시 설명을 줄이고 근거 경계를 유지한다.
+Lecture2분. 화면 읽기 순서는 Speaker Flow를 따른다. 지연 시 이미 배운 구성의 설명을 줄이고 판단 기준·주장 한계·다음 장 연결은 남긴다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S104와 production/preview/act5/S104.png. Native 도식은 공개 사례 각색/교육용 판단 모델이며 실행 Screenshot이 아니다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S104와 production/preview/act5/S104.png. Native 도식은 공개 사례 각색/교육용 판단 모델이며 실행 Screenshot이 아니다. 현재 시각 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md의 DEC-0174 기록을 따른다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0083. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 별도 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설은 UNVERIFIED.
+CONTENT ALIGNED — DEC-0174. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md의 DEC-0174 기록을 따른다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
 ## S105 — 무엇을 남기고, 무엇을 덜어낼까?
 
@@ -591,15 +593,16 @@ Lecture 2분
 “이 요소가 맡은 이유는 현재도 유효한가요?”
 
 **Speaker Flow:**
-1. (0:00–0:25 / Lecture) S104의 조건 변화가 기존 요소의 존재 이유를 재확인하는 계기라고 연결한다. 이 장은 공급사 결과표가 아니라 이 교육의 판단 기준이다.
-2. (0:25–1:25 / Lecture) 세 열을 읽는다. 유지: 목표·업무 명세·검증 요구. 통합: 겹치는 지침·역할을 한 출처와 명확한 책임으로. 제거 후보: 효용이 사라진 우회 절차. 예를 들어 같은 프로젝트 규칙을 여러 문서에서 중복 유지하면 원출처로 모을 수 있으나 현재 권한·안전 요구까지 없애는 것은 아니다. 독립 병렬 조사·권한 분리가 필요하면 Subagent를 유지할 수 있다.
-3. (1:25–2:00 / Lecture) 통합·제거는 후보이며 아직 품질이 유지됐다는 결과가 없다고 짚는다. 원래 요구를 보존한 채 실제 작업에서 무엇을 확인할지 S106으로 연결한다.
-운영 표시: “실무 적용 팁 · 검증·개선” 배지로 다시 찾아 쓸 기준임을 짚는다. 기존 설명·근거 범위와 배정 시간 안에서 진행하며 요청·예시를 새로 실행하지 않는다.
+1. (0:00–0:20 / Lecture) 같은 높이의 유지·통합·제거 후보 세 선택지를 가리킨다. 없애는 양보다 각 요소가 맡은 이유가 기준이다.
+2. (0:20–1:20 / Lecture) 방패는 목표·명세·권한·검증 기준의 보존, 두 문서가 하나로 모이는 그림은 중복 지침·역할의 원출처와 책임 정리, 경유 상자를 지나지 않는 경로는 효용이 사라진 우회 절차의 제거 후보를 뜻한다. 이미 실행한 변경이나 효과가 아니다.
+3. (1:20–2:00 / Lecture) 독립 병렬 조사·권한 분리 같은 유효한 이유가 있으면 Subagent를 유지할 수 있음을 짚는다. 원래 요구를 보호한 채 후보를 평가하는 S106으로 이어간다. 기존 실무 적용 팁 배지는 재사용할 판단 기준이라는 뜻이며 응답·과제를 요구하지 않는다.
 
 **Evidence / Source:**
 TEACHING_MODEL · CLM-0022, CLM-0030, SRC-0236, BEAT-057, BEAT-061, BEAT-069, DEC-0083. references/engineering/harness-reassessment.md에 출처·해석·한계를 분리한다.
 
 보존된 상세 출처: TEACHING MODEL · BEAT-057 / 061 / 069 · CLM-0022 · DEC-0083
+
+DEC-0174. Lucide 1.8.0 아이콘: ShieldCheck, FileText, Unplug. 출처 https://lucide.dev 및 assets/slide-illustrations/work-conditions/LICENSE. SRC-0236 공식 원문을2026-11-04 재확인했으며 기존 주장 범위는 변경하지 않았다.
 
 **Claim Boundary:**
 TEACHING MODEL — CLM-0022의 bounded heuristic을 기존 구성 재평가에 적용. 적을수록 좋다는 보편 법칙이나 성과가 아니다. 새 Demo Trial이나 실제 통합·제거 효과를 관찰하지 않았다. 현재 Codex UI/모델·계정 동작으로 일반화하지 않는다.
@@ -616,22 +619,22 @@ TEACHING MODEL — CLM-0022의 bounded heuristic을 기존 구성 재평가에 �
 Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
 
 **Demo Operation:**
-같은 높이의 유지/통합/제거 후보 세 열이다. 목표·명세·검증 기준, 겹치는 지침·역할, 효용이 사라진 우회 절차를 대비한다. 하단은 독립 조사·권한 분리가 필요할 때 Subagent를 유지할 수 있는 조건이다. 발표자는 도식의 순서만 짚는다. 새 Live Demo는 없다.
+같은 높이의 세 선택지를 보호 방패(유지), 두 문서가 하나로 모이는 그림(통합), 효용이 사라진 경유 절차를 우회하는 경로(제거 후보)로 구분한다. 목표·명세·권한·검증 기준은 보호하고 겹치는 지침·역할은 원출처·명확한 책임으로 정리한다. 독립 병렬 조사·권한 분리가 필요하면 Subagent를 유지할 수 있다는 조건과 기존 실무 적용 팁 배지를 유지한다. 그림은 후보 판단이며 실행·성공 결과가 아니다. 새 Trial·Live·실행 캡처를 추가하지 않는다.
 
 **Audience Interaction:**
-질문은 설명을 여는 수사적 질문이다. 응답·실습·기록·제출을 요구하지 않는다. 개인 선택은 S106/S105에 남긴다.
+설명을 위한 질문이며 응답·실습·기록·제출을 요구하지 않는다. 개인 문제 선택과 성찰은 S107/S108에 남긴다.
 
 **Transition:**
 “후보를 정했다면, 덜어낸 뒤에도 필요한 일을 하는지 무엇으로 확인할까요?”
 
 **Time Management:**
-Lecture2분. 0:00–0:25 연결 질문,0:25–1:25 도식·범위 설명,1:25–2:00 판단 경계와 다음 장 연결. 외부 사례의 수치·상세 아키텍처 설명을 확장하지 않는다. 초과하면 예시 설명을 줄이고 근거 경계를 유지한다.
+Lecture2분. 화면 읽기 순서는 Speaker Flow를 따른다. 지연 시 이미 배운 구성의 설명을 줄이고 판단 기준·주장 한계·다음 장 연결은 남긴다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S105와 production/preview/act5/S105.png. Native 도식은 공개 사례 각색/교육용 판단 모델이며 실행 Screenshot이 아니다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S105와 production/preview/act5/S105.png. Native 도식은 공개 사례 각색/교육용 판단 모델이며 실행 Screenshot이 아니다. 현재 시각 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md의 DEC-0174 기록을 따른다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0083. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 별도 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설은 UNVERIFIED.
+CONTENT ALIGNED — DEC-0174. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md의 DEC-0174 기록을 따른다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
 ## S106 — 덜어낸 뒤에도 필요한 일을 하는가?
 
@@ -657,15 +660,16 @@ Lecture 2분
 “같은 대표 작업에서 무엇을 대조해야 덜어낸 구성을 수용할 수 있나요?”
 
 **Speaker Flow:**
-1. (0:00–0:25 / Lecture) S105에서 고른 후보가 간단해졌다는 인상만으로 채택되지 않는다고 연결한다. 화면은 평가 설계이며 우리 프로젝트의 새 실행·점수·PASS 결과가 아니다.
-2. (0:25–1:20 / Lecture) 같은 대표 작업·입력에서 기존 구성과 통합·제거 후보를 비교하는 두 갈래를 읽는다. 현재 명세·기존 동작과 회귀를 먼저 보고 시간·비용·남은 위험을 함께 본다. 모델·권한·도구 조건 등 비교 조건도 기록한다. SRC-0236은 end-to-end 평가와 통합 뒤 회귀 확인의 필요성을 설명하는 공개 사례이지 모든 환경의 결과가 아니다.
-3. (1:20–2:00 / Lecture) 확인한 범위만 채택하고 나빠지면 기존 구성으로 되돌리며 이유를 남긴다고 닫는다. 검증 기준을 통과했다는 새 주장을 하지 않는다. S107에서 자신의 부족한 기준과 중복 구성을 포함한 문제 하나를 고른다.
-운영 표시: “실무 적용 팁 · 검증·개선” 배지로 다시 찾아 쓸 기준임을 짚는다. 기존 설명·근거 범위와 배정 시간 안에서 진행하며 요청·예시를 새로 실행하지 않는다.
+1. (0:00–0:25 / Lecture) 왼쪽 파일은 같은 대표 작업·입력·판단 기준을 뜻한다. 두 후보를 공정하게 비교하도록 설계한 것이며 실행한 결과표가 아니다.
+2. (0:25–1:25 / Lecture) 위 기존 구성과 아래 통합·제거 후보가 오른쪽의 같은 평가 프레임으로 모이는 선을 따른다. 먼저 동작·회귀와 명세 보존을 확인하고, 시간·비용을 기록으로 대조하며, 놓친 작업·권한 조건 등 남은 위험도 본다. 더 단순하거나 빠르다는 이유만으로 채택하지 않는다.
+3. (1:25–2:00 / Lecture) 아래 파일과 되돌림 아이콘을 짚으며 확인한 범위만 채택하고 나빠지면 되돌려 이유를 남기는 원칙을 회수한다. 통합 성공·점수·PASS/FAIL·측정값은 제시하지 않는다. S107의 내 업무에서 부족하거나 겹쳐 쌓인 문제 하나 고르기로 이어간다.
 
 **Evidence / Source:**
 TEACHING_MODEL / RESEARCH · SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083. references/engineering/harness-reassessment.md에 출처·해석·한계를 분리한다.
 
 보존된 상세 출처: TEACHING MODEL · SRC-0236의 평가 권고를 각색 · CLM-0040 · DEC-0083
+
+DEC-0174. Lucide 1.8.0 아이콘: FileText, Bot, Route, ListTree, UsersRound, Undo2. 출처 https://lucide.dev 및 assets/slide-illustrations/work-conditions/LICENSE. SRC-0236 공식 원문을2026-11-04 재확인했으며 기존 주장 범위는 변경하지 않았다.
 
 **Claim Boundary:**
 TEACHING MODEL — 비교 평가 설계이며 실제 실행·PASS/FAIL·측정값 없음. FROZEN WITH SCOPE — SRC-0236의 대표 end-to-end 평가 권고와 통합 뒤 회귀 사례가 동기를 뒷받침한다. 새 Demo Trial이나 실제 통합·제거 효과를 관찰하지 않았다. 현재 Codex UI/모델·계정 동작으로 일반화하지 않는다.
@@ -682,22 +686,22 @@ TEACHING MODEL — 비교 평가 설계이며 실제 실행·PASS/FAIL·측정�
 Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
 
 **Demo Operation:**
-같은 대표 작업·입력에서 기존 구성과 통합·제거 후보로 갈라졌다가 같은 결과·회귀/시간·비용/남은 위험 기준으로 모이는 도식이다. 하단은 조건부 채택과 되돌림이다. 실행 결과·점수·수치·PASS 배지를 표시하지 않는다. 발표자는 도식의 순서만 짚는다. 새 Live Demo는 없다.
+같은 대표 작업·입력·판단 기준을 하나의 입력 파일로 표시한다. S104에서 본 기존 다중 역할 구성과 통합·제거 후보를 작은 구조 그림으로 나누고 같은 평가 프레임에 합친다. 먼저 동작·회귀를 크게 강조하고 시간·비용, 남은 위험은 같은 기준으로 대조한다. 아래 기록 파일과 되돌림 아이콘으로 확인한 범위만 채택·악화 시 되돌림과 이유 기록을 대비한다. 평가 설계·실제 실행 결과 아님 표기와 기존 실무 적용 팁 배지를 유지한다. 새 Trial·Live·실행 캡처를 추가하지 않는다.
 
 **Audience Interaction:**
-질문은 설명을 여는 수사적 질문이다. 응답·실습·기록·제출을 요구하지 않는다. 개인 선택은 S106/S105에 남긴다.
+설명을 위한 질문이며 응답·실습·기록·제출을 요구하지 않는다. 개인 문제 선택과 성찰은 S107/S108에 남긴다.
 
 **Transition:**
 “부족한 것뿐 아니라 겹쳐 쌓인 것도 포함해, 내 업무의 문제 하나를 골라봅시다.”
 
 **Time Management:**
-Lecture2분. 0:00–0:25 연결 질문,0:25–1:25 도식·범위 설명,1:25–2:00 판단 경계와 다음 장 연결. 외부 사례의 수치·상세 아키텍처 설명을 확장하지 않는다. 초과하면 예시 설명을 줄이고 근거 경계를 유지한다.
+Lecture2분. 화면 읽기 순서는 Speaker Flow를 따른다. 지연 시 이미 배운 구성의 설명을 줄이고 판단 기준·주장 한계·다음 장 연결은 남긴다. 실제 리허설은 UNVERIFIED다.
 
 **Fallback:**
-LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S106와 production/preview/act5/S106.png. Native 도식은 공개 사례 각색/교육용 판단 모델이며 실행 Screenshot이 아니다.
+LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S106와 production/preview/act5/S106.png. Native 도식은 공개 사례 각색/교육용 판단 모델이며 실행 Screenshot이 아니다. 현재 시각 검토는 production/evaluation/ACT5_SYNTHESIS_REVISION.md의 DEC-0174 기록을 따른다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0083. 최종 패키지/PNG/내장 Notes 대조는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 별도 기록한다. Windows/발표 PC 글꼴/제품·계정/교육장/실측 리허설은 UNVERIFIED.
+CONTENT ALIGNED — DEC-0174. 최종 파일·Notes·렌더링 검사는 ACT5_SYNTHESIS_REVISION.md의 DEC-0174 기록을 따른다. Windows PowerPoint·제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
 ## S107 — 내 업무에서는 무엇이 반복해서 막힐까?
 

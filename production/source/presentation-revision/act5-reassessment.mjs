@@ -1,13 +1,25 @@
 /** Apply DEC-0083: reassess previously justified scaffolding as conditions change. */
 import * as H from './helpers.mjs';
+import {readFileSync} from 'node:fs';
 
 export function loadAct5ReassessmentSlides() {
  const {C,text,line,rect}=H;
- const arrow=(s,x,y,w=32,h=0)=>s.shapes.add({geometry:'connector',kind:'straight',
-  position:{left:x,top:y,width:w,height:h},line:{fill:C.teal,width:2.5},
+ const arrow=(s,x,y,w=32,h=0,color=C.teal)=>s.shapes.add({geometry:'connector',kind:'straight',
+  position:{left:x,top:y,width:w,height:h},line:{fill:color,width:2.5},
   tail:{type:'triangle',width:'sm',length:'sm'}});
- const stroke=(s,x,y,w,h)=>s.shapes.add({geometry:'connector',kind:'straight',
-  position:{left:x,top:y,width:w,height:h},line:{fill:C.teal,width:2.5}});
+ const stroke=(s,x,y,w,h,color=C.teal)=>s.shapes.add({geometry:'connector',kind:'straight',
+  position:{left:x,top:y,width:w,height:h},line:{fill:color,width:2.5}});
+ const icon=(s,name,x,y,size)=>{
+  const bytes=readFileSync(new URL(`../../../assets/slide-illustrations/work-conditions/${name}.png`,import.meta.url));
+  s.images.add({blob:new Uint8Array(bytes),contentType:'image/png',alt:name,fit:'contain',
+   position:{left:x,top:y,width:size,height:size}});
+ };
+ const agent=(s,x,y,label)=>{
+  s.shapes.add({geometry:'ellipse',position:{left:x-12,top:y-12,width:168,height:168},
+   fill:C.pale,line:{fill:C.teal,width:2}});
+  icon(s,'Bot',x+36,y+9,72);
+  text(s,label,x-12,y+85,168,36,label==='Agent'?26:22,C.teal,true,H.FONT,'center');
+ };
  const frame=(p,id,title,eyebrow,source,boundary)=>H.frame(p,id,title,eyebrow,source,boundary);
  return {
   S91(p){
@@ -16,23 +28,25 @@ export function loadAct5ReassessmentSlides() {
     'SRC-0236 · Anthropic, 2026-10-22 · 일부 기업 Agent의 통합 사례를 각색',
     '우리 Demo의 관찰·효과 측정이 아님 · 새 모델이면 무조건 통합한다는 뜻은 아님');
    text(s,'그때 필요했던 보조 장치가, 지금도 필요할까?',64,185,1152,44,31,C.teal,true);
-   const lx=64,rx=716;
-   line(s,lx,271,500,C.line,2);line(s,rx,271,500,C.teal,3);
-   text(s,'이전 구성',lx,289,500,42,29,C.sub,true);
-   text(s,'통합을 검토할 후보',rx,289,500,42,29,C.teal,true);
-   rect(s,80,365,468,65,C.white,C.line,1);
-   text(s,'요청을 조율하는 Agent',96,376,436,42,29,C.ink,true,H.FONT,'center');
-   stroke(s,314,433,0,24);stroke(s,140,457,348,0);
-   ['Router','Planner','담당 Subagent'].forEach((v,i)=>{
-    const x=64+i*174;arrow(s,x+76,457,0,17);
-    rect(s,x,479,152,67,C.white,C.line,1);text(s,v,x+5,490,142,43,22,C.ink,true,H.FONT,'center');
+   text(s,'이전에 나눠 맡긴 역할',64,237,500,38,27,C.sub,true,H.FONT,'center');
+   text(s,'통합을 검토할 후보',716,237,500,38,27,C.teal,true,H.FONT,'center');
+   agent(s,242,287,'Agent');
+   stroke(s,314,443,0,7,C.sub);stroke(s,140,450,348,0,C.sub);
+   [['Router','Route'],['Planner','ListTree'],['Subagent','UsersRound']].forEach(([label,symbol],i)=>{
+    const x=64+i*174;arrow(s,x+76,450,0,21,C.sub);
+    rect(s,x,471,152,76,C.white,C.line,1);
+    icon(s,symbol,x+60,476,32);
+    text(s,label,x,511,152,32,22,C.ink,true,H.FONT,'center');
    });
-   arrow(s,597,419,71);
-   rect(s,736,356,460,94,C.pale);
-   text(s,'하나의 Agent Loop',752,380,428,47,33,C.teal,true,H.FONT,'center');
-   arrow(s,966,454,0,27);
-   text(s,'필요한 Skill · Tool을 사용',736,499,460,48,28,C.ink,true,H.FONT,'center');
-   text(s,'모델이 맡을 수 있는 범위·플랫폼 제공 기능이 달라졌다면, 기존 역할을 재평가한다',64,563,1152,37,26,C.ink,true);
+   text(s,'모델·플랫폼\n변화',568,286,148,60,23,C.teal,true,H.FONT,'center');
+   arrow(s,577,359,139);
+   agent(s,894,287,'Agent Loop');
+   stroke(s,966,443,0,7);stroke(s,832,450,268,0);
+   arrow(s,832,450,0,24);arrow(s,1100,450,0,24);
+   icon(s,'ListChecks',812,474,40);icon(s,'Wrench',1080,474,40);
+   text(s,'Skill',790,519,84,32,23,C.teal,true,H.FONT,'center');
+   text(s,'Tool',1050,519,100,32,23,C.teal,true,H.FONT,'center');
+   text(s,'모델·플랫폼이 맡을 수 있는 일이 달라지면, 기존 보조 구조도 재평가한다',64,563,1152,37,27,C.ink,true);
    return s;
   },
   S92(p){
@@ -41,17 +55,26 @@ export function loadAct5ReassessmentSlides() {
     'TEACHING MODEL · BEAT-057 / 061 / 069 · CLM-0022 · DEC-0083',
     '통합·제거는 후보 판단 · 안전·권한·명세·검증 요구를 없애는 처방이 아님');
    text(s,'없애기 전에, 각 요소가 맡은 이유부터 확인한다',64,185,1152,44,31,C.teal,true);
-   const columns=[
-    ['유지','목표 · 명세\n검증 기준','필요한 요구는 계속 보존',C.teal],
-    ['통합','겹치는 지침 · 역할','한 출처 · 명확한 책임으로',C.teal],
-    ['제거 후보','효용이 사라진\n우회 절차','현재도 필요한지 근거 확인',C.warn]
-   ];
-   columns.forEach(([name,body,caption,color],i)=>{
-    const x=64+i*400;line(s,x,277,352,color,3);
-    text(s,name,x,298,352,52,36,color,true);
-    text(s,body,x,382,352,96,29,C.ink,true);
-    text(s,caption,x,510,352,38,25,C.sub);
+   [['유지',C.teal],['통합',C.teal],['제거 후보',C.warn]].forEach(([label,color],i)=>{
+    const x=64+i*400;line(s,x,246,352,color,3);
+    text(s,label,x,259,352,48,32,color,true);
    });
+   icon(s,'ShieldCheck',192,332,96);
+   text(s,'목표·명세\n권한·검증 기준',64,450,352,78,27,C.ink,true,H.FONT,'center');
+
+   icon(s,'FileText',492,329,56);icon(s,'FileText',532,359,56);
+   arrow(s,604,382,84);icon(s,'FileText',688,340,80);
+   text(s,'겹치는 지침·역할\n한 출처 · 명확한 책임',464,450,352,78,26,C.ink,true,H.FONT,'center');
+
+   s.shapes.add({geometry:'ellipse',position:{left:886,top:408,width:20,height:20},fill:C.warn,line:{fill:C.warn,width:1}});
+   s.shapes.add({geometry:'ellipse',position:{left:1174,top:408,width:20,height:20},fill:C.warn,line:{fill:C.warn,width:1}});
+   stroke(s,896,353,0,65,C.line);arrow(s,896,353,88,0,C.line);
+   rect(s,984,318,112,74,C.white,C.line,1);
+   icon(s,'Unplug',1024,324,32);
+   text(s,'우회 절차',984,361,112,28,20,C.sub,true,H.FONT,'center');
+   stroke(s,1096,353,88,0,C.line);stroke(s,1184,353,0,65,C.line);
+   arrow(s,906,418,268,0,C.warn);
+   text(s,'효용이 사라진\n우회 절차를 후보로',864,450,352,78,26,C.ink,true,H.FONT,'center');
    text(s,'독립 병렬 조사·권한 분리가 필요하다면, Subagent를 유지할 수 있다',64,565,1152,33,26,C.ink,true);
    return s;
   },
@@ -61,23 +84,37 @@ export function loadAct5ReassessmentSlides() {
     'TEACHING MODEL · SRC-0236의 평가 권고를 각색 · CLM-0040 · DEC-0083',
     '새 비교 실험·측정 결과 없음 · 시간·비용만으로 채택하지 않음');
    text(s,'같은 대표 작업에서, 결과와 회귀부터 확인한다',64,185,1152,44,31,C.teal,true);
-   rect(s,64,352,240,104,C.white,C.line,1);
-   text(s,'같은 대표\n작업·입력',80,366,208,76,28,C.ink,true,H.FONT,'center');
-   arrow(s,304,404,48);stroke(s,352,328,0,152);stroke(s,768,328,0,152);
-   arrow(s,768,404,64);
-   const branches=[['기존 구성',288,C.white],['통합·제거 후보',440,C.pale]];
-   branches.forEach(([label,y,color])=>{
-    arrow(s,352,y+40,48);rect(s,400,y,320,80,color,C.line,1);
-    text(s,label,416,y+14,288,52,30,C.ink,true,H.FONT,'center');
-    arrow(s,720,y+40,48);
+   icon(s,'FileText',132,320,64);
+   text(s,'같은 대표 작업·입력',64,405,210,36,23,C.ink,true,H.FONT,'center');
+   text(s,'같은 판단 기준',64,448,210,34,22,C.teal,true,H.FONT,'center');
+   arrow(s,274,405,40);stroke(s,314,328,0,156);
+   arrow(s,314,328,46);arrow(s,314,484,46);
+   rect(s,360,270,300,116,C.white,C.line,1.5);
+   text(s,'기존 구성',376,280,268,36,26,C.ink,true);
+   icon(s,'Bot',386,326,40);
+   ['Route','ListTree','UsersRound'].forEach((symbol,i)=>{
+    const x=450+i*58;rect(s,x,326,42,38,C.bg,C.line,1);icon(s,symbol,x+6,330,30);
    });
-   text(s,'같은 기준으로 비교',832,272,384,40,27,C.teal,true);
-   [['결과 · 회귀','명세와 기존 동작을 지키나?'],['시간 · 비용','기록으로 달라진 점을 보나?'],['남은 위험','놓친 작업·권한 조건은 없나?']].forEach(([label,q],i)=>{
-    const y=327+i*70;line(s,832,y,384,C.line,1);
-    text(s,label,832,y+5,384,31,25,C.teal,true);text(s,q,832,y+37,384,31,23,C.ink);
-   });
-   text(s,'확인한 범위만 채택한다',64,563,548,38,29,C.teal,true);
-   text(s,'나빠지면 되돌리고, 이유를 남긴다',665,563,551,38,28,C.ink,true);
+   rect(s,360,426,300,116,C.pale,C.line,1.5);
+   text(s,'통합·제거 후보',376,436,268,36,26,C.teal,true);
+   icon(s,'Bot',398,482,40);text(s,'Skill · Tool',468,482,170,36,23,C.ink,true);
+   arrow(s,660,328,52);arrow(s,660,484,52);stroke(s,712,328,0,156);arrow(s,712,405,74);
+
+   rect(s,786,257,430,285,C.white,C.line,1.5);
+   text(s,'같은 기준으로 비교',810,269,382,40,27,C.teal,true);
+   rect(s,802,319,398,71,C.pale);
+   text(s,'먼저, 동작·회귀',818,322,366,35,27,C.teal,true);
+   text(s,'명세·기존 동작 유지?',818,359,366,28,22,C.ink);
+   line(s,802,404,398,C.line,1);
+   text(s,'시간 · 비용',818,407,180,35,24,C.teal,true);
+   text(s,'기록으로 대조',1008,408,190,34,22,C.ink);
+   line(s,802,470,398,C.line,1);
+   text(s,'남은 위험',818,477,180,35,24,C.teal,true);
+   text(s,'작업·권한 누락?',1008,478,190,34,22,C.ink);
+   icon(s,'FileText',64,566,32);
+   text(s,'확인한 범위만 채택',111,563,500,38,27,C.teal,true);
+   icon(s,'Undo2',653,566,32);
+   text(s,'나빠지면 되돌리고, 이유 기록',700,563,516,38,26,C.ink,true);
    return s;
   }
  };

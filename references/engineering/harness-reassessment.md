@@ -1,6 +1,10 @@
 # Harness reassessment — public case and course interpretation
 
-Checked:2026-10-25. Decision:DEC-0083. Slides:S91–S93.
+Checked:2026-10-25. Decision:DEC-0083. Original slides:S91–S93.
+
+Source rechecked:2026-11-04 for DEC-0174. Current slides:S104–S106 in the
+112-slide edition. The original claim scope is unchanged; the diagrams
+remain instructional adaptations rather than a course execution record.
 
 ## 공개 출처가 뒷받침하는 범위
 

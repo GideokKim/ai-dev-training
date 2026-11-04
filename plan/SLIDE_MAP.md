@@ -2704,16 +2704,16 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 — AI-Native operating model and advanced reliability; reassess previously justified structure under changed conditions.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0040의 공급사 공개 사례 요약; TEACHING MODEL — 비교 구조는 교육용 각색; 현재 Codex의 통합 효과는 미검증.
-- **Visual Concept:** 왼쪽은 요청을 조율하는 Agent와 Router/Planner/담당 Subagent, 오른쪽은 하나의 Agent Loop와 필요한 Skill·Tool을 둔 후보 도식이다. 공개 사례를 각색한 구조이며 실제 실행 Screenshot이나 우리 Demo 변경 전후가 아니다.
+- **Visual Concept:** 왼쪽 Agent 아래의 Router·Planner·Subagent를 역할별 아이콘으로 표시하고, 모델·플랫폼 변화 화살표를 거쳐 오른쪽의 주 Agent Loop와 필요한 Skill·Tool 후보로 대비한다. 보조 역할을 다시 배치할 수 있는 공개 사례의 교육용 각색이며 현재 제품의 통합 전후나 우월성 증거가 아니다. 두 Agent의 아이콘·프레임 문법을 S103에서 회수하고 핵심 질문과 공개 출처 표기를 유지한다.
 - **Demo / Case Connection:** 새 Demo/Trial/State 없음. 공급사 공개 사례와 교육용 판단 모델이며 우리 제품의 통합·제거 성과가 아니다.
 - **Beginner Payoff:** 처음에는 필요했던 장치도 조건이 달라지면 다시 볼 수 있음을 이해한다.
 - **Advanced Payoff:** 더 강한 모델·플랫폼 기능의 도입을 기존 구조의 자동 유지나 무조건 제거와 분리하고, 현재의 역할·경계를 재평가한다.
 - **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
-- **Speaker Intent:** 이전에 필요했던 보조 구조도 모델·플랫폼·업무 조건 변화 뒤에는 다시 평가할 대상으로 전환한다. 앞서 연결한 수행 조건을 바탕으로, 이미 쓰던 구조도 현재의 효용과 근거로 재평가한다.
+- **Speaker Intent:** S103의 재평가 질문을 받아 외부 보조 역할과 통합 후보의 역할 배치를 그림으로 비교한다. 조건 변화가 재평가의 계기이며 무조건 단일 Agent로 바꾸라는 처방이 아님을 설명하고 S105의 유지·통합·제거 기준으로 이어간다.
 - **Transition:** “그렇다면 무엇을 보존하고, 어떤 부분을 합치거나 제거할 후보로 볼까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083
+- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083; DEC-0174
 - **Audience Footer:** Anthropic(2026) · 외부 기업의 통합 사례
 
 #### S105 — 무엇을 남기고, 무엇을 덜어낼까?
@@ -2729,16 +2729,16 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 — AI-Native operating model and advanced reliability; reassess previously justified structure under changed conditions.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — CLM-0022의 bounded heuristic을 기존 구성 재평가에 적용. 적을수록 좋다는 보편 법칙이나 성과가 아니다.
-- **Visual Concept:** 같은 높이의 유지/통합/제거 후보 세 열이다. 목표·명세·검증 기준, 겹치는 지침·역할, 효용이 사라진 우회 절차를 대비한다. 하단은 독립 조사·권한 분리가 필요할 때 Subagent를 유지할 수 있는 조건이다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 검증·개선”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
+- **Visual Concept:** 같은 높이의 세 선택지를 보호 방패(유지), 두 문서가 하나로 모이는 그림(통합), 효용이 사라진 경유 절차를 우회하는 경로(제거 후보)로 구분한다. 목표·명세·권한·검증 기준은 보호하고 겹치는 지침·역할은 원출처·명확한 책임으로 정리한다. 독립 병렬 조사·권한 분리가 필요하면 Subagent를 유지할 수 있다는 조건과 기존 실무 적용 팁 배지를 유지한다. 그림은 후보 판단이며 실행·성공 결과가 아니다.
 - **Demo / Case Connection:** 새 Demo/Trial/State 없음. 공급사 공개 사례와 교육용 판단 모델이며 우리 제품의 통합·제거 성과가 아니다.
 - **Beginner Payoff:** 중요한 요구를 지우는 것과 중복된 구현·지침을 덜어내는 것을 구분한다.
 - **Advanced Payoff:** 원출처·책임·필요한 격리 경계를 보존하면서 불필요한 조율·우회 구조를 재검토한다.
 - **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
-- **Speaker Intent:** 기존 구성의 존재 이유에 따라 유지·통합·제거 후보를 구분한다. 앞서 연결한 수행 조건을 바탕으로, 이미 쓰던 구조도 현재의 효용과 근거로 재평가한다.
+- **Speaker Intent:** 보호할 기준과 합치거나 덜어낼 보조 구조를 세 그림으로 구분한다. 세 선택지는 같은 수준의 판단이며 필수 순서가 아니다. 유효한 독립 조사·권한 경계는 남길 수 있음을 짚고 후보의 타당성을 S106에서 확인하도록 연결한다.
 - **Transition:** “후보를 정했다면, 덜어낸 뒤에도 필요한 일을 하는지 무엇으로 확인할까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** CLM-0022, CLM-0030, SRC-0236, BEAT-057, BEAT-061, BEAT-069, DEC-0083, DEC-0087
+- **Evidence / Decision References:** CLM-0022, CLM-0030, SRC-0236, BEAT-057, BEAT-061, BEAT-069, DEC-0083, DEC-0087; DEC-0174
 - **Practical Tip Classification:** 검증·개선
 - **Audience Footer:** 구조를 덜어내도 명세·권한·검증 요구는 유지
 
@@ -2755,16 +2755,16 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 5 — AI-Native operating model and advanced reliability; reassess previously justified structure under changed conditions.
 - **Evidence Type:** TEACHING_MODEL / RESEARCH
 - **Claim Status:** TEACHING MODEL — 비교 평가 설계이며 실제 실행·PASS/FAIL·측정값 없음. FROZEN WITH SCOPE — SRC-0236의 대표 end-to-end 평가 권고와 통합 뒤 회귀 사례가 동기를 뒷받침한다.
-- **Visual Concept:** 같은 대표 작업·입력에서 기존 구성과 통합·제거 후보로 갈라졌다가 같은 결과·회귀/시간·비용/남은 위험 기준으로 모이는 도식이다. 하단은 조건부 채택과 되돌림이다. 실행 결과·점수·수치·PASS 배지를 표시하지 않는다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · 검증·개선”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다. DEC-0095: 입력 상자를 넓히고 두 후보 상자를 같은 폭으로 줄여, 분기/합류의 중심과 좌우 연결 간격을 맞춘다. 동일 굵기 Native connector가 각 상자 경계까지 연결된다. 내용·시간·근거는 바꾸지 않는다.
+- **Visual Concept:** 같은 대표 작업·입력·판단 기준을 하나의 입력 파일로 표시한다. S104에서 본 기존 다중 역할 구성과 통합·제거 후보를 작은 구조 그림으로 나누고 같은 평가 프레임에 합친다. 먼저 동작·회귀를 크게 강조하고 시간·비용, 남은 위험은 같은 기준으로 대조한다. 아래 기록 파일과 되돌림 아이콘으로 확인한 범위만 채택·악화 시 되돌림과 이유 기록을 대비한다. 평가 설계·실제 실행 결과 아님 표기와 기존 실무 적용 팁 배지를 유지한다.
 - **Demo / Case Connection:** 새 Demo/Trial/State 없음. 공급사 공개 사례와 교육용 판단 모델이며 우리 제품의 통합·제거 성과가 아니다.
 - **Beginner Payoff:** 간단해졌다는 인상 대신 원래 할 일을 계속 수행하는지 확인한다.
 - **Advanced Payoff:** 평가 범위·품질·회귀·시간/비용·남은 위험과 복구 조건을 분리해 수용 근거를 만든다. 모델/구성 외 조건의 차이도 기록한다.
 - **C++ Vision Bridge:** Contextual — 실제 C++ 구조·도구·성과를 새로 제시하지 않는다.
-- **Speaker Intent:** 통합·제거 후보의 채택을 대표 작업과 회귀·비용·위험 근거에 연결한다. 앞서 연결한 수행 조건을 바탕으로, 이미 쓰던 구조도 현재의 효용과 근거로 재평가한다.
+- **Speaker Intent:** 같은 입력이 두 후보 구조로 나뉘었다가 동일한 평가 기준으로 모이는 선을 따라간다. 간단해졌다는 인상보다 동작·회귀를 먼저 확인하고 시간·비용·남은 위험을 함께 판단한다. 결과를 꾸며내지 않고 조건부 채택·되돌림·기록에서 S107의 개인 문제 선택으로 이어간다.
 - **Transition:** “부족한 것뿐 아니라 겹쳐 쌓인 것도 포함해, 내 업무의 문제 하나를 골라봅시다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083, DEC-0087
+- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, INV-VERIFY-001, DEC-0083, DEC-0087; DEC-0174
 - **Practical Tip Classification:** 검증·개선
 - **Audience Footer:** 평가 설계 예시 · 시간·비용만으로 채택하지 않음
 
