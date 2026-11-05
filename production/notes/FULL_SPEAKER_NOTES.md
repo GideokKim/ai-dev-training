@@ -1,6 +1,6 @@
 # Full Speaker Notes
 
-DEC-0188 ·109slides/367minutes ·19fields. Individual ACT records and embedded Notes must match. Original source quotations retain their evidence scope. Current render/embedded-Notes evidence: production/evaluation/ANNOTATION_REVISION_109.md.
+DEC-0188 ·109slides/367minutes ·19fields. Individual ACT records and embedded Notes must match. Original source quotations retain their evidence scope. Current S08 render/embedded-Notes evidence: production/evaluation/S08_CROP_CONDITION_REVISION.md; retained sequence evidence: production/evaluation/ANNOTATION_REVISION_109.md.
 
 ## S01 — AI가 개발 프로젝트를 직접 살펴보게 하기
 
@@ -427,14 +427,14 @@ ACT 0 / 0D
 Demo 4분 (CAPTURED / RECONSTRUCTED)
 
 **Primary Message:**
-C++의 Crop 테스트·반개구간 명세·std::vector 범위 생성식을 연결해 폭2/폭3 차이를 설명한다. 필요한 자료는 테스트·README·구현 파일에 나뉘어 있어 찾아 연결해야 한다. 실제 과거 조사는 Python이며 이 화면은 같은 의미의 C++ 대응 예시다.
+C++의 Crop 테스트·반개구간 명세·반복 조건 `x <= x_end && x < row.size()`를 연결해 폭2/폭3 차이를 설명한다. 필요한 자료는 테스트·README·구현 파일에 나뉘어 있어 찾아 연결해야 한다. 실제 과거 조사는 Python이며 C++ 구현 조건은 사용자가 제공한 표현으로 맞춘다.
 
 **Opening Question:**
 “폭2와 폭3의 차이를 설명하는 근거는 프로젝트의 어디에 있었나요?”
 
 **Speaker Flow:**
 1. (0:00–0:40 / Demo) S07의4원소 입력에서 시작1/끝3이면 기대 폭2라는 차이를 회수한다. 세 자료를 찾아 연결해야 한다는 같은 구조를 C++ 표현으로 읽는다.
-2. (0:40–2:40 / Demo) 왼쪽 tests/crop_test.cpp의 Crop.EndExcluded와 EXPECT_EQ(width, 2), 가운데 README의 [x_start, x_end) 명세, 오른쪽 src/transform.cpp의 std::vector<int>(row.begin() + x_start, row.begin() + x_end + 1)을 대조한다. 마지막 iterator를 한 칸 더 보내면 이 입력에서는 값4까지 복사해 폭3이 된다. 코드·파일명은 역할을 대응시킨 예시이며 실제 Demo 파일 경로가 아니다.
+2. (0:40–2:40 / Demo) 왼쪽 tests/crop_test.cpp의 Crop.EndExcluded와 EXPECT_EQ(width, 2), 가운데 README의 [x_start, x_end) 명세, 오른쪽 사용자가 제공한 구현 조건 `x <= x_end && x < row.size()`를 대조한다. x_start=1, x_end=3이고 행에 4개 원소가 있으면 `<=` 때문에 끝 좌표3의 값4까지 포함해 폭3이 된다. `x < row.size()`는 행의 범위를 넘지 않게 하지만 끝 좌표 제외 명세와의 차이를 없애지는 않는다. 화면은 조건식 발췌이며 초기화·증가·복사 본문을 새로 구성하지 않는다. 파일명은 역할을 대응시킨 예시이며 실제 Demo 파일 경로가 아니다.
 3. (2:40–3:30 / Demo) 아래 main()→process_image()→crop()은 같은 제품 호출 관계를 C++ 함수 이름으로 나타낸다. Agent의 파일 접근 시간순이나 실제 C++ 추적 결과가 아니다. 원래 Python README에 결함 안내도 있었던 사실과 실제 언어·원문은 Evidence / Source에 유지한다.
 4. (3:30–4:00 / Demo) 테스트·명세·구현을 찾아 연결해야 한다고 회수한다. 다음 S09의 쓰기 권한 오류는 원래 Python 전체 테스트의 별도 관찰이며 C++ 실행을 새로 수행한 결과가 아니다.
 
@@ -443,14 +443,14 @@ TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-0
 
 보존된 상세 출처: TRIAL-001 · 발견한 테스트·명세·구현의 관계를 재구성 · Codex CLI 0.154.0 DEC-0185: 2026-11-05 STATE-00의 README.md, tests/test_transform.py, src/graypipe/transform.py를 읽기 전용으로 대조해 표시 위치를 확인했다. 새 Trial·테스트 실행은 하지 않았다.
 
-DEC-0187(2026-11-05): 화면의 C++ 파일명 tests/crop_test.cpp / src/transform.cpp, GoogleTest 확인 구문 EXPECT_EQ(width, 2), std::vector 범위 생성식과 main()→process_image()→crop()은 원래 Python의 테스트·명세·구현·호출 역할을 옮긴 설명용 대응이다. 실제 저장소에 이 파일을 추가하거나 C++ Crop을 실행한 기록이 아니다. 원래 결함은 row[x_start : x_end + 1], 실제 호출 관계는 cli.main→pipeline.process_image→transform.crop이다. 별도 EXP-CPP-STATS-001 밝기 통계 실험도 이 Crop 예시의 실행 근거로 사용하지 않는다.
+DEC-0187의 C++ 파일명 tests/crop_test.cpp / src/transform.cpp, GoogleTest 확인 구문 EXPECT_EQ(width, 2)와 main()→process_image()→crop()은 원래 Python의 테스트·명세·구현·호출 역할을 옮긴 설명용 대응이다. DEC-0189(2026-11-05): 구현 부분은 사용자가 실제 조건이라고 제공한 `x <= x_end && x < row.size()`로 정정한다. 사용자의 코드 설명을 반영한 것이며 새 C++ Crop 실행이나 저장소 파일 검증 기록은 아니다. 원래 Python 결함은 row[x_start : x_end + 1], 실제 호출 관계는 cli.main→pipeline.process_image→transform.crop이다. 별도 EXP-CPP-STATS-001 밝기 통계 실험도 이 Crop 예시의 실행 근거로 사용하지 않는다.
 
 **Claim Boundary:**
 FROZEN WITH SCOPE — TRIAL-001 단일 CLI 조사. 관계도는 Agent의 실제 접근 시간순 로그가 아니며 README의 기존 결함 안내도 있었다. 코드 수정·반복성·현재 Desktop 동작을 주장하지 않는다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
 
 보존된 상세 범위: 자료 관계도이며 Agent의 시간순 접근 로그가 아님 · README에도 결함 안내가 있었음 · 코드 수정 없음
 
-DEC-0187: 현재 화면은 TEACHING_MODEL인 C++ 의미 대응이다. OBSERVED_PRODUCT는 위 Python TRIAL-001 원자료에만 적용한다. C++ 테스트 실행·실패 결과·파일 발견·컴파일·수정·복구를 새로 관찰했다고 말하지 않는다. 코드는 S07의4원소 행과 x_start=1/x_end=3을 설명하는 핵심 생성식이며 전체 유효성 검사를 갖춘 crop 함수가 아니다. 기대 assertion은 확인할 조건이며 실제 PASS/FAIL 출력을 만들지 않는다.
+DEC-0187/0189: 현재 화면의 세 파일 관계는 TEACHING_MODEL인 C++ 의미 대응이다. 구현 조건은 사용자 제공 코드로 맞추되 OBSERVED_PRODUCT는 위 Python TRIAL-001 원자료에만 적용한다. C++ 테스트 실행·실패 결과·파일 발견·컴파일·수정·복구를 새로 관찰했다고 말하지 않는다. 코드는 S07의4원소 행과 x_start=1/x_end=3을 설명하는 조건식 발췌이며 전체 crop 함수가 아니다. 명세와 차이가 나는 구현을 보여주는 것이며 수정 완료를 뜻하지 않는다. 기대 assertion은 확인할 조건이며 실제 PASS/FAIL 출력을 만들지 않는다.
 
 **Beginner Explanation:**
 답만 듣는 대신 테스트·명세·구현이 어떻게 원인 설명을 뒷받침하는지 본다.
@@ -459,10 +459,10 @@ DEC-0187: 현재 화면은 TEACHING_MODEL인 C++ 의미 대응이다. OBSERVED_P
 코드 호출 관계·근거 연결·Agent 접근 시간순과 독립 발견 주장을 구분한다.
 
 **C++ Vision Bridge:**
-기존 세 자료의 연결 구조를 C++ 파일·GoogleTest 확인 구문·std::vector iterator 범위 생성식으로 대응시킨다. 실제 Python 관찰의 언어·원문을 보존하며 C++ 실행·측정이나 Demo Repository 전환으로 해석하지 않는다.
+기존 세 자료의 연결 구조를 C++ 파일·GoogleTest 확인 구문·사용자가 제공한 반복 조건으로 대응시킨다. 실제 Python 관찰의 언어·원문을 보존하며 C++ 실행·측정이나 Demo Repository 전환으로 해석하지 않는다.
 
 **Demo Operation:**
-Demo4분의 정적 대응 설명이다. 세 파일 역할→기대 폭2·반개구간 명세·마지막 iterator의 +1 대조→제품 호출 관계→자료 수집 필요 순서다. 화면의 “발견한 근거의 관계도” footer를 제거하되 관계도·원자료 경계는 Notes에 유지한다. C++ 또는 GoogleTest를 새로 실행하지 않는다.
+Demo4분의 정적 대응 설명이다. 세 파일 역할→기대 폭2·반개구간 명세·끝 좌표를 포함하는 `<=` 조건 대조→제품 호출 관계→자료 수집 필요 순서다. `x < row.size()`는 크기 경계 확인이며 끝 좌표 제외와는 다른 조건임을 구분한다. 화면의 “발견한 근거의 관계도” footer는 제거한 상태를 유지하며 원자료 경계는 Notes에 보존한다. C++ 또는 GoogleTest를 새로 실행하지 않는다.
 
 **Audience Interaction:**
 한 장의 질문을 따라 관찰·해석하게 한다. 응답·실습·새 실행·공개 제출을 요구하지 않는다.
@@ -477,7 +477,7 @@ Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분. 위 Speaker Flow의 구간대로 �
 LOCAL STATIC ARTIFACT — production/preview/full/S08.png 또는 ACT_0.pptx의 같은 Slide. 원자료/과거 CLI/교육용 가정 구분을 유지한다. 현재 Live/HYBRID는 발표 환경 검증 전 비활성이다.
 
 **Validation Status:**
-ALIGNED — DEC-0187. 현재 PPT/PNG·내장 Notes 대조는 production/evaluation/ACT0_CPP_ENVIRONMENT_REVISION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0189. 현재 PPT/PNG·내장 Notes 대조는 production/evaluation/S08_CROP_CONDITION_REVISION.md에 기록한다. 이전 C++ 대응 검토 기록은 production/evaluation/ACT0_CPP_ENVIRONMENT_REVISION.md에 보존한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
 ## S09 — 코드만으로 설명되지 않는 오류도 있었다
 

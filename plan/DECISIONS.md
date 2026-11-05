@@ -15958,3 +15958,20 @@ Align the complete slide map, Notes, templates, production references,
 preview names and delivery hashes. Keep Trial/State/Claim identifiers
 and Demo repository content unchanged. Render Full and all six ACTs,
 then follow the existing commit/push policy without force pushing.
+
+# DEC-0189 — Match S08 to the supplied C++ crop condition
+
+Status: ACCEPTED by the user's implementation annotation.
+Date: 2026-11-05.
+
+Replace S08's reconstructed vector range constructor with the user-supplied
+condition `x <= x_end && x < row.size()`. Preserve the existing code region,
+test/specification relationship, title, four Demo minutes and surrounding
+story. Explain that `<=` includes the end coordinate while the size check
+limits access to the row. Do not present the condition as a defect repair.
+
+Keep the original Python Trial and its source expression in Notes. The
+user's C++ implementation clarification is not a new observed execution,
+GoogleTest result or benchmark. Keep 109 slides/367 minutes and change no
+Demo repository, Trial, experiment, Site or presenter bundle. Align source,
+Notes and plans, render Full/ACT0, and follow the existing commit/push policy.

@@ -1,18 +1,20 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0188
+## Current presentation · DEC-0188/0189
 
 Use the109-slide/367-minute sequence. Former111-ID S27 and S58 are retired; every retained slide maps once through the current crosswalk. Current S55-S56 are the two scoped-instruction tips. S61 shows Request/Context/Workflow applied to one task. Preserve original observed, reconstructed and conceptual evidence boundaries in Notes. Deleting screen captions does not establish a new product execution or measurement. Full and all six ACTs have218 local renders and matching Notes. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`a153e827f0dd1e25c89a4a12e514d9c2793603574aa7e8607429cc2de62ced2c`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`c1191d473053ad07610adda5444a86fecca0bfafa7aae64a1c75f698fc53eeeb`.
-- `production/preview/full/montage.png` SHA-256:`41e9b689fafd013f601ad8eb0031753dd5bf109a106e4c2e905bd5d415bce153`.
+Latest S08 correction (DEC-0189): use the user-supplied `x <= x_end && x < row.size()` condition. The original Python Trial remains the observed source; no new C++ crop execution is claimed. Full/ACT0 have123 validated renders and matching embedded Notes; the other108 Full screens are unchanged.
+
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`a4a6293581d12041c346384154f7b76043b3f5b19c0a6fd40d7fe0e56458b407`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`1a219d780520ca72448b68b296295279b74afc2ca324ac2f59e52e1ce1333665`.
+- `production/preview/full/montage.png` SHA-256:`a6ecb4aba61c2823cfd11706ae58eb9166c304518b095854595f58c4841cd48a`.
 
 | Slide | Classification | Path | Dimensions | SHA-256 |
 |---|---|---|---|---|
 | S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` | 1920×1080 | `56ba85d53d60fa4dd9f5bb825e066a24f682a7305868e3bd215ca27cc202f5c0` |
 | S07 | RETAINED_DEMO_STATIC | `production/preview/full/S07.png` | 1920×1080 | `b9cb0b1bd6a9e8561e3796337e35ac7020814fd6134d38f02770648227814c95` |
-| S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` | 1920×1080 | `425ba76b0c5dd1f8a1fb9bb5379f25b16d93b51e29b15f9e6a702266458fd4b1` |
+| S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` | 1920×1080 | `baf32cea70b7a354ca4e58607ebf109e239f44e82b51f2409766e41c566c8c17` |
 | S09 | RETAINED_DEMO_STATIC | `production/preview/full/S09.png` | 1920×1080 | `de09de22bd56d564d5a8150b039e1bcf5bef0ab84c7fcdc51ab7c760d8c59a4f` |
 | S10 | RETAINED_DEMO_STATIC | `production/preview/full/S10.png` | 1920×1080 | `142e724e29c07355d6b0b0080fd63453fea29f19a3a6579773247b59bdb39673` |
 | S23 | RETAINED_DEMO_STATIC | `production/preview/full/S23.png` | 1920×1080 | `2006268ff4d96da09bba0d8ed99b8174423fccf4f1ce825888cba100679961a2` |

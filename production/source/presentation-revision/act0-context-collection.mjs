@@ -81,7 +81,7 @@ export async function loadAct0ContextCollectionSlides(root,H){
    text(s,'EXPECT_EQ(width, 2);',64,464,368,36,24,C.ink,true,CODE);
    text(s,'[x_start, x_end)',456,420,368,38,29,C.ink,true,CODE);
    text(s,'끝 좌표 제외',456,464,368,36,27,C.ink,true);
-   text(s,'std::vector<int>(\n  row.begin() + x_start,\n  row.begin() + x_end + 1)',848,414,368,104,24,C.red,true,CODE);
+   text(s,'x <= x_end &&\nx < row.size()',848,414,368,104,24,C.red,true,CODE);
    connect(s,436,443,16);connect(s,828,443,16);
    text(s,'이 근거를 찾아 연결해야, 원인을 설명할 수 있다',64,530,1152,38,32,C.teal,true);
    text(s,'관련 호출 관계  main() → process_image() → crop()',64,576,1152,24,23,C.sub);

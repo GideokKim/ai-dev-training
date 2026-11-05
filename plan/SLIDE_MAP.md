@@ -207,21 +207,21 @@ Mode: Lecture166 / Demo44 / Case95 / Reflection16 / Transition21 / Q&A25분. Nat
 - **Working Title:** 원인을 설명하려면 테스트·명세·구현을 연결해야 한다
 - **Primary Role:** Crop 현상을 설명할 세 근거가 프로젝트의 어디에 있는지 보여주고 자료 수집의 필요를 드러낸다.
 - **Audience Question:** “폭2와 폭3의 차이를 설명하는 근거는 프로젝트의 어디에 있었나요?”
-- **Core Message:** C++의 Crop 테스트·반개구간 명세·std::vector 범위 생성식을 연결해 폭2/폭3 차이를 설명한다. 필요한 자료는 테스트·README·구현 파일에 나뉘어 있어 찾아 연결해야 한다. 실제 과거 조사는 Python이며 이 화면은 같은 의미의 C++ 대응 예시다.
+- **Core Message:** C++의 Crop 테스트·반개구간 명세·반복 조건 `x <= x_end && x < row.size()`를 연결해 폭2/폭3 차이를 설명한다. 필요한 자료는 테스트·README·구현 파일에 나뉘어 있어 찾아 연결해야 한다. 실제 과거 조사는 Python이며 C++ 구현 조건은 사용자가 제공한 표현으로 맞춘다.
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** TEACHING_MODEL / OBSERVED_PRODUCT (underlying Python record)
 - **Claim Status:** FROZEN WITH SCOPE — C++ 의미 대응은 교육 모델이다. 실제 TRIAL-001은 Python CLI 기록이며 C++ Crop 실행·파일 발견·테스트 결과로 바꾸지 않는다. 관계/호출 도식은 Agent의 실제 접근 시간순이 아니고 원래 README 결함 안내도 보존한다.
-- **Visual Concept:** 세 파일 아이콘과 테스트·명세·구현의 동일 구조를 유지한다. tests/crop_test.cpp의 Crop.EndExcluded/EXPECT_EQ(width, 2), README의 [x_start, x_end), src/transform.cpp의 std::vector 범위 생성식(+1)을 대응시킨다. 하단 호출은 main()→process_image()→crop()이다. 파일명은 C++ 역할 예시이며 원래 실제 파일과 원문은 Notes에 보존한다. 지정 footer는 제거한다.
+- **Visual Concept:** 세 파일 아이콘과 테스트·명세·구현의 동일 구조를 유지한다. tests/crop_test.cpp의 Crop.EndExcluded/EXPECT_EQ(width, 2), README의 [x_start, x_end), src/transform.cpp의 `x <= x_end && x < row.size()`를 대응시킨다. 구현 조건은 && 뒤에서 두 줄로 나눠 기존 코드 영역에 표시한다. `<=`가 끝 좌표를 포함하고 `x < row.size()`는 행의 범위를 넘지 않게 하는 조건임을 Notes에서 설명한다. 하단 호출은 main()→process_image()→crop()이다. 파일명은 C++ 역할 예시이며 원래 실제 파일과 원문은 Notes에 보존한다. 지정 footer는 제거한다. DEC-0189.
 - **Demo / Case Connection:** DEMO-01의 기존4Demo분 안에서 같은 Crop 결함을 C++ 의미로 설명한다. 원래 관찰은 Python TRIAL-001이며 새 C++ 실행이나 실제 캡처가 아니다.
 - **Beginner Payoff:** 답만 듣는 대신 테스트·명세·구현이 어떻게 원인 설명을 뒷받침하는지 본다.
 - **Advanced Payoff:** 코드 호출 관계·근거 연결·Agent 접근 시간순과 독립 발견 주장을 구분한다.
-- **C++ Vision Bridge:** 기존 세 자료의 연결 구조를 C++ 파일·GoogleTest 확인 구문·std::vector iterator 범위 생성식으로 대응시킨다. 실제 Python 관찰의 언어·원문을 보존하며 C++ 실행·측정이나 Demo Repository 전환으로 해석하지 않는다.
+- **C++ Vision Bridge:** 기존 세 자료의 연결 구조를 C++ 파일·GoogleTest 확인 구문·사용자가 제공한 반복 조건으로 대응시킨다. 실제 Python 관찰의 언어·원문을 보존하며 C++ 실행·측정이나 Demo Repository 전환으로 해석하지 않는다.
 - **Speaker Intent:** 코드 정답 설명보다 원인을 설명하기 위해 테스트·명세·구현을 찾아 연결해야 함을 읽게 한다. README에도 결함 안내가 있었으며 독립 발견·Chatbot 비교 결과로 바꾸지 않는다.
 - **Transition:** “그런데 같은 전체 테스트에는 코드 결함과 원인이 다른 오류도 있었습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084; DEC-0185; DEC-0187
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084; DEC-0185; DEC-0187; DEC-0189
 - **Audience Footer:** 없음 — 원래 근거 관계·언어·원문은 Notes에 보존, M 연계 유지
 
 #### S09 — 코드만으로 설명되지 않는 오류도 있었다

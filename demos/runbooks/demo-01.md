@@ -6,6 +6,8 @@
 
 S12은 자료→Agent 단방향 연결을 쓰며 화면에서 지운 CLI/UI 보조 문구의 근거는 Notes에 유지한다. 원래 Python 조사와 C++ 의미 대응·별도 권한 제한의 범위는 그대로다.
 
+S08의 구현 조건은 DEC-0189 사용자 제공 `x <= x_end && x < row.size()`를 사용한다. 원래 Python 조사 근거와 별도 환경 오류의 범위는 유지하며 새 C++ 실행이 아니다. 현재 정적 파일/해시는 위 Manifest를 따른다.
+
 <details>
 <summary>이전 판본 Runbook — literal 번호/명령/원자료를 보존</summary>
 

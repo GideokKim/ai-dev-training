@@ -1,0 +1,58 @@
+{
+  "baseline": "bea4a22a443eee1cf1590a1cf657f74f34fc664a",
+  "decision": "DEC-0189",
+  "slides": 109,
+  "minutes": 367.0,
+  "changedSlide": "S08",
+  "userSuppliedCondition": "x <= x_end && x < row.size()",
+  "changedNativeShapeId": 30,
+  "otherFullSlidesUnchanged": 108,
+  "otherAct0SlidesUnchanged": 13,
+  "renderedSlides": 123,
+  "embeddedNotesCompared": 123,
+  "notesFields": 19,
+  "shapePositionAndStylePreserved": true,
+  "allExistingImagesAndNativeChartsPreserved": true,
+  "decks": {
+    "AI_Dev_Training_Full": {
+      "slides": 109,
+      "sha256": "a4a6293581d12041c346384154f7b76043b3f5b19c0a6fd40d7fe0e56458b407",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "inheritedWarnings": 4,
+      "notesCompared": 109
+    },
+    "ACT_0": {
+      "slides": 14,
+      "sha256": "8db18c2eac643ca6190c4745543b3f0fc929ec30cd9912c0acb2a7994bee4d16",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "inheritedWarnings": 2,
+      "notesCompared": 14
+    }
+  },
+  "demoHead": "afef3e0c66d3f7a29790c37034d5aad274ac5ce8",
+  "demoWorkingTree": "clean",
+  "noNewCppExecution": true,
+  "unverified": [
+    "Windows PowerPoint",
+    "Classroom",
+    "Timed rehearsal",
+    "Current product/account",
+    "C++ crop execution"
+  ],
+  "visualReview": {
+    "slide": "S08",
+    "status": "PASS",
+    "codeClippingOrOverlapFound": false,
+    "unchangedScreenComparison": "All 108 other Full screens and 13 other ACT0 screens exactly match the baseline; the changed screen differs only inside the original implementation text region."
+  },
+  "baselineArtifacts": {
+    "production/AI_Dev_Training_Full.pptx": "a153e827f0dd1e25c89a4a12e514d9c2793603574aa7e8607429cc2de62ced2c",
+    "production/ACT_0.pptx": "bd3e9ee82abe061650f28108104cea4fe0aa06215efeefd5ff28d89935c5a128",
+    "production/notes/ACT_0_NOTES.md": "b93b4c840629017b45c6458a07f92164144c14e9cabeba13a44628d568f4fb38",
+    "production/notes/FULL_SPEAKER_NOTES.md": "c1191d473053ad07610adda5444a86fecca0bfafa7aae64a1c75f698fc53eeeb"
+  }
+}

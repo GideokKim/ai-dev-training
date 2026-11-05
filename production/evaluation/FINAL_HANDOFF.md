@@ -1,5 +1,9 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 최신 S08 구현 조건 — DEC-0189
+
+S08 오른쪽을 사용자 제공 `x <= x_end && x < row.size()`로 정정했다. 통합본과 ACT0의123개 렌더/내장 Notes를 대조하고 다른108장 화면을 보존했다.109장/367분과 근거 범위는 유지한다. [수정 결과](S08_CROP_CONDITION_REVISION.md)와 [S08](../preview/full/S08.png)을 따른다. 이전 번호 정리 결과는 아래 DEC-0188 기록이다.
+
 ## 현재109장·367분 — DEC-0188
 
 [통합 PPT](../AI_Dev_Training_Full.pptx) · [전체 Notes](../notes/FULL_SPEAKER_NOTES.md) · [전체 미리보기](../preview/full/montage.png) · [수정/삭제/검증 결과](ANNOTATION_REVISION_109.md) · [번호 대응](../../plan/SLIDE_ID_MIGRATION_109_DEC0188.md)
@@ -10,17 +14,17 @@ ACT0 S01–14/42분, ACT1 S15–36/61분, ACT2 S37–57/88분, ACT3 S58–75/64�
 
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `a153e827f0dd1e25c89a4a12e514d9c2793603574aa7e8607429cc2de62ced2c` |
-| `production/ACT_0.pptx` | `bd3e9ee82abe061650f28108104cea4fe0aa06215efeefd5ff28d89935c5a128` |
+| `production/AI_Dev_Training_Full.pptx` | `a4a6293581d12041c346384154f7b76043b3f5b19c0a6fd40d7fe0e56458b407` |
+| `production/ACT_0.pptx` | `8db18c2eac643ca6190c4745543b3f0fc929ec30cd9912c0acb2a7994bee4d16` |
 | `production/ACT_1.pptx` | `cc4c1f3ef406cce0eccaca7e33ab9df674ee33f3fc4f16c7086b55909bd08651` |
 | `production/ACT_2.pptx` | `eb8717acca6f61496f0a9e475033243e6ed4eba2b6b0823eb4f7aa853470958a` |
 | `production/ACT_3.pptx` | `a7ca64f0922cfbe27a55fb6b9940ff3de3c07e2528456395fd7f166e27ea5e2e` |
 | `production/ACT_4.pptx` | `8d9df6f7e05016f377f768dab19fd43457d57df2412e5ecb4b1702e6a5d44444` |
 | `production/ACT_5.pptx` | `8b29bafce1726c7d8db52db2f445a82cc8adf53251a978951ae238b21ed36a0c` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `c1191d473053ad07610adda5444a86fecca0bfafa7aae64a1c75f698fc53eeeb` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `1a219d780520ca72448b68b296295279b74afc2ca324ac2f59e52e1ce1333665` |
 | `production/notes/ACT_4_NOTES.md` | `dfd6e50880ad276b23998597ffff074537bc0ea8219471af7a05e8eeaf94506f` |
 | `production/notes/ACT_5_NOTES.md` | `3e7b251b5d37b8fd595ec497260d251b78d4186cd5bf03269fa075dca544c311` |
-| `production/preview/full/montage.png` | `41e9b689fafd013f601ad8eb0031753dd5bf109a106e4c2e905bd5d415bce153` |
+| `production/preview/full/montage.png` | `a6ecb4aba61c2823cfd11706ae58eb9166c304518b095854595f58c4841cd48a` |
 | `production/preview/act4/montage.png` | `168a389b64423dcd02cb03d39ae5a1fd1a2470794a80dcf404fc79886f9d413c` |
 | `production/preview/act5/montage.png` | `a47234c93d99cdebc9a760a8ff09e0b7bddec58bb8348884f7f7ad4db2ef4cf7` |
 | `production/preview/full/S91.png` | `39c5ee7739a1aeccfb9cefb72e2d186019c386c1923770bf6ea17c957e7f890a` |
@@ -35,11 +39,11 @@ ACT0 S01–14/42분, ACT1 S15–36/61분, ACT2 S37–57/88분, ACT3 S58–75/64�
 | `production/preview/full/S107.png` | `e70b8cce56beeafbb858bd94550bfb60b73ea9ab699f9821634c4a4db418344d` |
 | `production/preview/full/S108.png` | `e49e125617aaa4e937776d8217897a87bdef02061f5c1758a639c8b26b26d066` |
 | `production/preview/full/S109.png` | `7f89a538f83ea2ecb07eb5f0c3445a71666103492dadccfb37d94c8ec203828d` |
-| `production/notes/ACT_0_NOTES.md` | `b93b4c840629017b45c6458a07f92164144c14e9cabeba13a44628d568f4fb38` |
+| `production/notes/ACT_0_NOTES.md` | `6bf92be077afdf2aebd26fd9764d2d74309fa8c4808ce1602680dce78ec478b7` |
 | `production/notes/ACT_1_NOTES.md` | `b879e66e76329f777bf3ae56a4eb7b3441c20e8a78186a21a69e2c23d46a1ded` |
 | `production/notes/ACT_2_NOTES.md` | `0200b503f49d0b30fde79aa58e44b3f3fd08e2e83dbd518469d3446fb7b52a18` |
 | `production/notes/ACT_3_NOTES.md` | `2c372b7ba7fab144141f7056a1fe202d3d3f54146b8a23b3be24dc3dcd6eafa2` |
-| `production/preview/act0/montage.png` | `8598296781a363cb34cd249413cee7520fc0e8d03a47e8c338f449a04e0bcfca` |
+| `production/preview/act0/montage.png` | `01c925afd0fdc059384d5964e292b039cdb6cf6f37565321f678da340ae353c4` |
 | `production/preview/act1/montage.png` | `8f205004e43a8acfedbd4a0a7dbd22908242a92e03768a2b5d30797e74d3be01` |
 | `production/preview/act2/montage.png` | `86ec068f38ca95c79e3706602d43b5f79d26230a33c8b8d3ef2df8324e8ec7b0` |
 | `production/preview/act3/montage.png` | `932126f543576cd047766c0cc548196e2c313c24c703bd88348d874bd4da630b` |
@@ -86,7 +90,7 @@ ACT0 S01–14/42분, ACT1 S15–36/61분, ACT2 S37–57/88분, ACT3 S58–75/64�
 | `production/preview/full/S75.png` | `d7e5bebc27c88d05208d9ce918f2f143986a475ced53eb22b784c9210c9acf0f` |
 | `production/preview/full/S101.png` | `717c6cf254e86830465a8ced14667bb22cc8c78c4d706d59b9349cef3cb57b92` |
 | `production/preview/full/S07.png` | `b9cb0b1bd6a9e8561e3796337e35ac7020814fd6134d38f02770648227814c95` |
-| `production/preview/full/S08.png` | `425ba76b0c5dd1f8a1fb9bb5379f25b16d93b51e29b15f9e6a702266458fd4b1` |
+| `production/preview/full/S08.png` | `baf32cea70b7a354ca4e58607ebf109e239f44e82b51f2409766e41c566c8c17` |
 | `production/preview/full/S09.png` | `de09de22bd56d564d5a8150b039e1bcf5bef0ab84c7fcdc51ab7c760d8c59a4f` |
 | `production/preview/full/S10.png` | `142e724e29c07355d6b0b0080fd63453fea29f19a3a6579773247b59bdb39673` |
 | `production/preview/full/S39.png` | `895b7d90581f4a911c0f2b75a1f785533634430e24ece111f58abd65dcf3ee01` |
