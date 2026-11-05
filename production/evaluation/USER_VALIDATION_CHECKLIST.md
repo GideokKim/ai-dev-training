@@ -1,5 +1,9 @@
 # 사용자 검증 체크리스트
 
+## 보조 문구 정리 · DEC-0184
+
+S36/S37의 간략한 창 제목과 본문 질문이 실제 발표 화면에서도 자연스럽게 읽히는지 확인한다. 화면의 교육용 제작 설명12곳은 삭제·간략화했지만 Notes의 출처·가정·Claim Boundary는 그대로다. 전체111장·372분,167개 로컬 렌더·Notes 대조를 통과했다. Windows·교육장·실측 리허설은 미검증이다. [수정 결과](AUDIENCE_EXAMPLE_LABEL_CLEANUP.md)를 따른다.
+
 ## S68–S69 C++ 비교 · DEC-0183
 
 S67의 제작 팁에서 별도 C++ 실험으로 넘어가고 S72에서 원래 Python Demo로 돌아가는 전환이 실제 발표에서도 구별되는지 확인한다. S68의 후보 비교, S69의0.071/1.216ms 차트 축·출처와 “추가 픽셀 버퍼0B”의 범위가 뒷자리에서 읽히는지 확인한다. Mac/Clang 결과를 Windows/MSVC 성능이나 새 Skill 실행으로 설명하지 않는다. 로컬129개 렌더·Notes 대조는 통과했으며 Windows·교육장·실측 리허설은 UNVERIFIED다. [수정 결과](CPP_STATISTICS_SLIDE_REVISION.md)를 따른다.

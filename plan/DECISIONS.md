@@ -15841,3 +15841,24 @@ Keep 111 slides/372 minutes, every ID, allocation, template and module
 footer. Align maps, Claim Freeze, Demo scope, Notes and current delivery
 references. Render the Full and ACT3 decks and push normal artifacts.
 Change no Demo repository, measured experiment source/result, Site or bundle.
+
+# DEC-0184 — Remove educational-production captions from audience slides
+
+Status: ACCEPTED by the user's annotated cleanup request.
+Date: 2026-11-05.
+
+Audit all 111 displayed slides for educational-example captions and remove
+production wording that distracts from the lesson. Shorten eight request
+headers or section labels and delete four explanatory footer rows across
+S16/S17/S18/S21/S27/S36/S37/S70/S77/S103. Preserve each request's actual
+words, body diagrams, sources, evidence scope and all Notes verbatim.
+
+Keep teaching constructions distinct from observed records through the
+existing Notes and claim registry. Removing a visible caption does not
+turn the example into an actual execution or a measured comparison.
+Preserve 111 slides/372 minutes, every ID, allocation, template, image and
+module footer. Rebuild Full and ACT1/3/5, review the changed regions and
+record the full-deck text audit, pixel comparison and delivery hashes.
+
+Do not apply the separately proposed ACT0 storyline/title changes in this
+cleanup. Change no Demo repository, experiment, Site or presenter bundle.

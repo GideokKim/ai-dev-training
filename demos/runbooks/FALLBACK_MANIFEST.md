@@ -1,6 +1,10 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0183
+## Current presentation · DEC-0184
+
+Remove educational-production captions on ten slides without changing the request text, body diagrams or evidence. All Notes remain unchanged. Full/ACT1/ACT3/ACT5 have 167 locally rendered slides and matching embedded Notes. Keep 111 slides/372 minutes and the same 43 existing Demo fallback classifications. Windows, room, account and timed rehearsal remain UNVERIFIED.
+
+Previous delivery context (DEC-0183):
 
 Use S68/S69's retained EXP-CPP-STATS-001 C++ comparison as a static case. The 0 B figure is tracked temporary pixel-buffer requests only. Do not attribute these measurements to the original Python Skill or product state. S72 explicitly returns to that Python role decision. No benchmark was rerun in this revision. Keep 111 slides/372 minutes and all 43 existing fallback classifications. The Full/ACT3 decks and 129 slide renders/Notes are checked locally; Windows, MSVC, room, account and timed rehearsal remain UNVERIFIED.
 
@@ -8,9 +12,9 @@ Previous delivery context (DEC-0181; its unexecuted research example is S96):
 
 Use an edge-detection comparison report for S96 Goal request. Retain its completion and stop criteria, control commands and documented-product scope. No research or performance experiment was run. Simplify the selected ACT0 captions and S06 investigation title. Keep the actual request and all evidence boundaries in Notes. Standardize 45 request windows on 37 slides using the existing Mac style. Keep all 43 static fallback classifications, evidence and claim boundaries. The Full and affected ACT0-ACT4 decks are locally rendered; ACT5 is unchanged. Former S96 and its reflection time are removed. Current S96 is the Goal tip. The 43 entries identify local static fallbacks for the 111-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S96. S99 and S100 share one teaching-model work system; S100 shows the person deciding acceptance using its results and evidence.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`b8e634ba2895c1277b4c2136782546995fc13776df4051de3b4873edfd64a9f4`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`66201e5853957e244c0b9fe2c5c5af6ca52bdbff6af21dbea399b14731956cf4`.
 - `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`cfc2ce60f275ea222d1915e103b3aa8c0fc7317cf5199cadcce3c7340f1ed435`.
-- `production/preview/full/montage.png` SHA-256:`e5fa68b09fe26e0876d38e49667ec042ea4985d281495534276de622fa1de63a`.
+- `production/preview/full/montage.png` SHA-256:`4cf56e9c58dbb27df976dc0e71091793134aa9a9d90bfbf547f654f87053b4e4`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
@@ -33,7 +37,7 @@ Use an edge-detection comparison report for S96 Goal request. Retain its complet
 | S54 | RETAINED_DEMO_STATIC | `production/preview/full/S54.png` | 1920×1080 | `ee3d7a63c8c506b0258f9fac8465ec028be427a012d180de19786fc5f1938755` |
 | S65 | RETAINED_DEMO_STATIC | `production/preview/full/S65.png` | 1920×1080 | `7ea013e38b51ec61dc613e9d733d02133ca0153b3eaf020a21770cb5f507b9ee` |
 | S66 | RETAINED_DEMO_STATIC | `production/preview/full/S66.png` | 1920×1080 | `482b1c36433538b982da2336354c04a9593f85368086c313149272540cd14880` |
-| S70 | RETAINED_DEMO_STATIC | `production/preview/full/S70.png` | 1920×1080 | `80c253db688c9e96f337ba38ed13b898e5528f941a3b90cde9c1fbe15b29ea0f` |
+| S70 | RETAINED_DEMO_STATIC | `production/preview/full/S70.png` | 1920×1080 | `ec426741663c2786fb3169687510d8e5f24dab2c5442e41770378943715dbf58` |
 | S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` | 1920×1080 | `2e9d19fecd6f3a2bedfb27c63e79bebb29f6e5fdd9ea12c7d8d68d920667a57f` |
 | S73 | RETAINED_DEMO_STATIC | `production/preview/full/S73.png` | 1920×1080 | `8d257b5e2dfd8e1f6c4908c3e5d48111cf978616c978c2152b40284c23495bfa` |
 | S74 | RETAINED_DEMO_STATIC | `production/preview/full/S74.png` | 1920×1080 | `67b83e594add1c198951ce3bb0907cc1444ab11f2fdc98ede1be60525b0a954a` |

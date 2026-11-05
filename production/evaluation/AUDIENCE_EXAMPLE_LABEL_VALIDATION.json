@@ -1,0 +1,219 @@
+{
+  "baseline": "fbc2c08",
+  "decision": "DEC-0184",
+  "slides": 111,
+  "minutes": 372,
+  "changedSlides": [
+    "S16",
+    "S17",
+    "S18",
+    "S21",
+    "S27",
+    "S36",
+    "S37",
+    "S70",
+    "S77",
+    "S103"
+  ],
+  "changedObjects": 12,
+  "deletedFooterRows": 4,
+  "shortenedLabels": 8,
+  "visibleEducationalCaptionsRemaining": 0,
+  "scannedSlideMasterAndLayoutText": true,
+  "actSlideCounts": [
+    14,
+    23,
+    22,
+    18,
+    19,
+    15
+  ],
+  "actMinutes": [
+    42.0,
+    64.0,
+    90.0,
+    64.0,
+    71.0,
+    41.0
+  ],
+  "modeMinutes": {
+    "Transition": 21.0,
+    "Lecture": 170.0,
+    "Reflection": 17.0,
+    "Case": 95.0,
+    "Demo": 44.0,
+    "Q&A": 25.0
+  },
+  "renderedSlides": 167,
+  "notesCompared": 167,
+  "notesFields": 19,
+  "allMarkdownNotesUnchanged": true,
+  "evidenceAndClaimFieldsPreserved": true,
+  "slideTimesModesIdsAndTemplatesPreserved": true,
+  "unchangedFullSlides": 101,
+  "outsideEditedLabelRegionsUnchanged": true,
+  "allPictureBytesAndPositionsPreserved": true,
+  "allModuleFootersPreserved": true,
+  "nativeTablesAndCppChartPreserved": true,
+  "actFullPixelParity": true,
+  "otherActsUntouched": true,
+  "demoHead": "afef3e0c66d3f7a29790c37034d5aad274ac5ce8",
+  "demoWorkingTree": "clean",
+  "decks": {
+    "AI_Dev_Training_Full": {
+      "slides": 111,
+      "sha256": "66201e5853957e244c0b9fe2c5c5af6ca52bdbff6af21dbea399b14731956cf4",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "warnings": [
+        {
+          "connector_id": "25",
+          "connector_z": 23,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "24",
+          "text_z": 22
+        },
+        {
+          "connector_id": "28",
+          "connector_z": 26,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "27",
+          "text_z": 25
+        },
+        {
+          "available_bottom_in": 6.2917,
+          "columns": 3,
+          "declared_bottom_in": 5.7917,
+          "estimated_native_bottom_in": 6.3017,
+          "footer_object_ids": [
+            "4"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 0.01,
+          "rows": 8,
+          "slide": 54,
+          "table_id": "8"
+        },
+        {
+          "connector_id": "11",
+          "connector_z": 12,
+          "kind": "connector_over_text",
+          "slide": 79,
+          "text_object_id": "10",
+          "text_z": 11
+        }
+      ]
+    },
+    "ACT_1": {
+      "slides": 23,
+      "sha256": "6b747ddfba0675e47c1e9de42fb758c7a9232971de8920d3d17eed46fcb220f0",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "warnings": []
+    },
+    "ACT_3": {
+      "slides": 18,
+      "sha256": "5f22eb9b3d6801e2f5521f9dcd4a37fdb80e4f6f2cadaf6144061452442c36b8",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "warnings": []
+    },
+    "ACT_5": {
+      "slides": 15,
+      "sha256": "363b64c965ab9d5ecda798cd652c43e30a7f4880764227617ee3b111991c3713",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "warnings": []
+    }
+  },
+  "edits": [
+    {
+      "id": "S16",
+      "before": "요청 입력 · 교육용 재구성",
+      "after": "요청 입력"
+    },
+    {
+      "id": "S17",
+      "before": "요청 입력 · 교육용 재구성",
+      "after": "요청 입력"
+    },
+    {
+      "id": "S18",
+      "before": "요청 입력 · 교육용 재구성",
+      "after": "요청 입력"
+    },
+    {
+      "id": "S21",
+      "before": "실제 요청 발췌·번역 · 다섯 항목은 교육용 주석",
+      "after": null
+    },
+    {
+      "id": "S27",
+      "before": "교육용 요청 비교 · 실제 TRIAL-002 원문이나 새 실행 결과가 아님",
+      "after": null
+    },
+    {
+      "id": "S36",
+      "before": "작업 요청 · 교육용 예시",
+      "after": "작업 요청"
+    },
+    {
+      "id": "S36",
+      "before": "교육용 요청 예시 · 실제 TRIAL-002 입력이나 수행 결과가 아님",
+      "after": null
+    },
+    {
+      "id": "S37",
+      "before": "앞 장과 같은 요청 · 교육용 예시",
+      "after": "앞 장과 같은 요청"
+    },
+    {
+      "id": "S37",
+      "before": "교육용 분리 예시 · 계속 적용할지는 프로젝트의 합의와 조건을 확인한다",
+      "after": null
+    },
+    {
+      "id": "S70",
+      "before": "ACT 3 · 교육용 가정: 독립 조사와 결과 통합",
+      "after": "ACT 3 · 독립 조사와 결과 통합"
+    },
+    {
+      "id": "S77",
+      "before": "ACT 3 → ACT 4 · 교육용 대화 예시",
+      "after": "ACT 3 → ACT 4 · 점심 전후의 대화"
+    },
+    {
+      "id": "S103",
+      "before": "ACT 5 · 재평가 1/3 · 공개 사례 + 교육용 구조 도식",
+      "after": "ACT 5 · 재평가 1/3 · 공개 사례와 구조 변화"
+    }
+  ],
+  "unverified": [
+    "Windows PowerPoint",
+    "Classroom projection",
+    "Current product/account",
+    "Timed rehearsal"
+  ],
+  "visualReview": {
+    "method": "inspect all ten changed full-size renders; compare every slide and all unchanged image regions pixel-for-pixel",
+    "slides": {
+      "S16": "PASS",
+      "S17": "PASS",
+      "S18": "PASS",
+      "S21": "PASS",
+      "S27": "PASS",
+      "S36": "PASS",
+      "S37": "PASS",
+      "S70": "PASS",
+      "S77": "PASS",
+      "S103": "PASS"
+    },
+    "newClippingOrOverlapFound": false
+  }
+}

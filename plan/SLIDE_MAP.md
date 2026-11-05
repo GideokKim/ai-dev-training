@@ -462,7 +462,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL / CONCEPTUAL. Agent의 실제 실패·정지·반복 실행·토큰/시간 실측·기하급수 법칙을 주장하지 않는다.
-- **Visual Concept:** “crop test 고쳐줘” 입력창, 기존 동일 Agent 삽화, 지킬 기준/수정 범위/완료 근거의 세 질문을 함께 둔다. 토큰·작업 시간 PNG는 기존의 수치 없는 정성 개념도로 유지한다. 명세·기대값 유지 여부, 수정 허용 범위, 확인·보고 근거를 묻고 다음 장에서 같은 요청의 변경 범위를 비교한다. 실제 정지·비용 증가·절감 측정이 아니다. DEC-0110. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Visual Concept:** “crop test 고쳐줘” 입력창, 기존 동일 Agent 삽화, 지킬 기준/수정 범위/완료 근거의 세 질문을 함께 둔다. 토큰·작업 시간 PNG는 기존의 수치 없는 정성 개념도로 유지한다. 명세·기대값 유지 여부, 수정 허용 범위, 확인·보고 근거를 묻고 다음 장에서 같은 요청의 변경 범위를 비교한다. 실제 정지·비용 증가·절감 측정이 아니다. DEC-0110. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다. DEC-0184: “요청 입력 · 교육용 재구성”를 “요청 입력”로 간략화한다. 본문·도식·수치·시간·근거 범위와 Notes는 유지한다.
 - **Demo / Case Connection:** ACT0에서 조사한 crop 실패를 떠올리는 교육용 수정 요청. S17과 같은 요청이며 별도의 filter 성능 사례로 전환하지 않는다. 실제 TRIAL-002 Prompt가 아니다.
 - **Beginner Payoff:** 같은 사례에서 요청에 더할 보존·수정·확인 조건을 찾는다.
 - **Advanced Payoff:** 코드 접근, Task 목표, 제약, 완료 증거를 구분한다.
@@ -471,7 +471,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “같은 crop 요청에서, 어떤 변경을 허용한 것인지 비교해 보겠습니다.”라고 S17로 이동한다.
 - **Estimated Time:** 7분
 - **Delivery Mode Allocation:** Case 7분 = 7분
-- **Evidence / Decision References:** BEAT-004, TRIAL-001 callback only, CLM-0002, DEC-0038, DEC-0040, DEC-0042, DEC-0110; DEC-0179
+- **Evidence / Decision References:** BEAT-004, TRIAL-001 callback only, CLM-0002, DEC-0038, DEC-0040, DEC-0042, DEC-0110; DEC-0179; DEC-0184
 - **Audience Footer:** 개념도 · 실측 아님
 
 #### S17 — 어디까지 바꾸라는 요청일까?
@@ -487,7 +487,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 1 — same model, underspecified request.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL / CONCEPTUAL. 평행 시간선은 가능한 해석의 교육용 도식이며 실제 반복 실행 결과가 아니다.
-- **Visual Concept:** S16과 같은 “crop test 고쳐줘” 입력창과 동일 Agent를 유지한다. 세 경로는 테스트 기대값 변경(명세 변경의 정당성·승인 필요), 구현을 명세에 맞춤(기존 명세·기대값 유지), 변경 범위를 먼저 확인(의도·명세·조건 충돌 시 질문)이다. 아래 다섯 항목은 요청에서 더 분명히 할 정보로 표시한다. 실제 반복 실행·동시 Subagent·선택 확률을 나타내지 않는다. DEC-0110. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Visual Concept:** S16과 같은 “crop test 고쳐줘” 입력창과 동일 Agent를 유지한다. 세 경로는 테스트 기대값 변경(명세 변경의 정당성·승인 필요), 구현을 명세에 맞춤(기존 명세·기대값 유지), 변경 범위를 먼저 확인(의도·명세·조건 충돌 시 질문)이다. 아래 다섯 항목은 요청에서 더 분명히 할 정보로 표시한다. 실제 반복 실행·동시 Subagent·선택 확률을 나타내지 않는다. DEC-0110. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다. DEC-0184: “요청 입력 · 교육용 재구성”를 “요청 입력”로 간략화한다. 본문·도식·수치·시간·근거 범위와 Notes는 유지한다.
 - **Demo / Case Connection:** S16과 같은 교육용 crop 요청이다. 실제 TRIAL-002 Prompt 또는 여러 번 실행한 결과가 아니다.
 - **Beginner Payoff:** 아무 테스트나 바꿔 통과시키는 것과 명세에 맞춰 구현을 고치는 것의 조건을 구분한다.
 - **Advanced Payoff:** 저장소에서 추론할 수 있는 명세와 사람이 승인할 변경 범위를 나누어 판단한다.
@@ -496,7 +496,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “이 사례에서는 기존 명세·기대값을 지키고 구현만 고치려 합니다. 그 범위와 확인·보고 조건을 요청에 담아 보겠습니다.”라고 S18로 이동한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
-- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038, DEC-0042, DEC-0110; DEC-0179
+- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038, DEC-0042, DEC-0110; DEC-0179; DEC-0184
 - **Audience Footer:** 가능한 해석의 예시
 
 #### S18 — 원하는 변경 범위를 요청에 담는다
@@ -512,7 +512,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 1 — underspecified request → explicit intended path; next generalization and Task Specification.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** FROZEN — 사용자 승인 교육용 예시. 목표 경로의 시각적 선택은 실제 실행 결과·성공·결정성 보장이 아니다.
-- **Visual Concept:** 입력창에는 “crop test 고쳐줘”와 보존·최소 수정·테스트 확인·결과 보고의 네 문장을 둔다. crop(1,3)의 기대 열1·2/폭2는 입력창 위 작은 참고로 분리한다. 동일 세 경로 중 구현 최소 수정을 사람이 의도한 변경 범위로 강조한다. 다섯 항목의 분류표는 S20/S21의 역할로 남긴다. 실제 실행 또는 PASS 표시가 아니다. DEC-0110. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Visual Concept:** 입력창에는 “crop test 고쳐줘”와 보존·최소 수정·테스트 확인·결과 보고의 네 문장을 둔다. crop(1,3)의 기대 열1·2/폭2는 입력창 위 작은 참고로 분리한다. 동일 세 경로 중 구현 최소 수정을 사람이 의도한 변경 범위로 강조한다. 다섯 항목의 분류표는 S20/S21의 역할로 남긴다. 실제 실행 또는 PASS 표시가 아니다. DEC-0110. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다. DEC-0184: “요청 입력 · 교육용 재구성”를 “요청 입력”로 간략화한다. 본문·도식·수치·시간·근거 범위와 Notes는 유지한다.
 - **Demo / Case Connection:** S16/S17과 같은 교육용 crop 요청을 구체화한다. 끝 좌표 제외 명세는 기존 근거와 일치하지만 실제 TRIAL-002 원문 또는 재실행 결과로 표현하지 않는다.
 - **Beginner Payoff:** 실제로 보낼 수 있는 짧은 요청 문장에서 지킬 조건·수정 범위·확인·보고 내용을 읽는다.
 - **Advanced Payoff:** 의도된 경로의 명시와 실행의 결정성·검증된 결과를 분리한다.
@@ -521,7 +521,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “이제 답을 다시 읽기보다, 다른 요청에서도 개발자가 먼저 결정할 질문을 정리해 보겠습니다.”라고 S19로 연결한다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
-- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038; crop 명세는 기존 TRIAL-002와 일치하는 교육용 예시, DEC-0042, DEC-0110; DEC-0179
+- **Evidence / Decision References:** BEAT-004, CLM-0002, DEC-0038; crop 명세는 기존 TRIAL-002와 일치하는 교육용 예시, DEC-0042, DEC-0110; DEC-0179; DEC-0184
 - **Audience Footer:** 요청 예시 · 의도한 경로
 
 #### S19 — 개발자가 정해야 하는 경계
@@ -587,7 +587,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 1 — Practical Prompt Checklist and Before/After.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE — 실제 입력은 TRIAL-002 보존 기록에 한정한다. 다섯 역할 주석과 명세 해석 예는 TEACHING_MODEL이다. 비교 실행·Prompt 우월성·비용 절감·반복성·현재 제품 검증의 근거가 아니다.
-- **Visual Concept:** 왼쪽 하나의 요청 영역에 실제 Goal/Constraints/Process/Verification 네 제목과 핵심 발췌·번역을 둔다. 오른쪽 다섯 역할 주석을 얇은 선으로 연결한다. Context 주석은 Process의 “관련 구현과 호출 경로”를 짚으며 별도 원문 문단으로 넣지 않는다. 과정 01–03은 S22와 같은 문장이다. 기존 4열 crop 명세 예는 요청 영역 밖 “명세 해석 예”로 구분한다. C++ 적용은 Notes cue로 보존한다. DEC-0111. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Visual Concept:** 왼쪽 하나의 요청 영역에 실제 Goal/Constraints/Process/Verification 네 제목과 핵심 발췌·번역을 둔다. 오른쪽 다섯 역할 주석을 얇은 선으로 연결한다. Context 주석은 Process의 “관련 구현과 호출 경로”를 짚으며 별도 원문 문단으로 넣지 않는다. 과정 01–03은 S22와 같은 문장이다. 기존 4열 crop 명세 예는 요청 영역 밖 “명세 해석 예”로 구분한다. C++ 적용은 Notes cue로 보존한다. DEC-0111. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다. DEC-0184: “실제 요청 발췌·번역 · 다섯 항목은 교육용 주석”를 화면에서 삭제한다. 본문·도식·수치·시간·근거 범위와 Notes는 유지한다.
 - **Demo / Case Connection:** 실제 TRIAL-002 요청을 읽는 장이며 S22는 같은 요청의 과정 지시, S23은 실제 변경, S24는 검증 결과를 대조한다. S16–S18의 교육용 짧은 요청을 그대로 실행한 결과로 표현하지 않는다.
 - **Beginner Payoff:** 다섯 역할이 반드시 다섯 제목으로 나뉘지 않아도 요청 문장에서 찾을 수 있음을 본다.
 - **Advanced Payoff:** 실제 입력, 해석 주석, 명세 예와 관찰 결과를 구분한다. 하나의 문장은 조사 대상과 진행 방식의 역할을 함께 가질 수 있다.
@@ -596,8 +596,8 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “이 요청의 과정 지시 01–03이 실제 기록에는 어떻게 남았을까요?”라고 같은 요청과 관찰 기록을 대조하는 S22로 이동한다.
 - **Estimated Time:** 9분
 - **Delivery Mode Allocation:** Lecture 6분 + Case 3분 = 9분
-- **Evidence / Decision References:** BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007, DEC-0042, DEC-0111; DEC-0179
-- **Audience Footer:** 실제 요청 발췌·번역 · 다섯 항목은 교육용 주석
+- **Evidence / Decision References:** BEAT-005, TRIAL-002, CLM-0029, OQ-001, OQ-007, DEC-0042, DEC-0111; DEC-0179; DEC-0184
+- **Audience Footer:** N/A — DEC-0184로 보조 설명 문구를 화면에서 삭제한다. 원래 출처·가정·Claim Boundary는 Notes에 보존하고 M 연계는 유지한다.
 
 #### S22 — 요청한 과정은 기록에도 남았을까?
 
@@ -737,7 +737,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 1 — 완료를 판단할 확인을 선택하고 목표에 맞는 검증 요청으로 작성한다. 요청 문장 도구와 반복 Project Context로 이어간다.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 두 요청은 검증 부분의 교육용 작성 예시다. 실제 TRIAL-002 요청의 인용·새 실행·측정 결과·Prompt 우월성·성능 개선 성과가 아니다. 당시 crop Trial의 성능은 미측정이다.
-- **Visual Concept:** T04-A의 같은 크기 두 영역에 경계 오류 수정/실행시간 단축 목표와 검증 요청을 나란히 둔다. 검증 부분만 보여주고 달라지는 지시를 강조한다. vector·assertion·실제 결과 화면을 다시 넣지 않는다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Visual Concept:** T04-A의 같은 크기 두 영역에 경계 오류 수정/실행시간 단축 목표와 검증 요청을 나란히 둔다. 검증 부분만 보여주고 달라지는 지시를 강조한다. vector·assertion·실제 결과 화면을 다시 넣지 않는다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다. DEC-0184: “교육용 요청 비교 · 실제 TRIAL-002 원문이나 새 실행 결과가 아님”를 화면에서 삭제한다. 본문·도식·수치·시간·근거 범위와 Notes는 유지한다.
 - **Demo / Case Connection:** 기존 crop을 유지한 두 목표의 교육용 요청 비교다. S21–S24 실제 요청·행동·수정·검증 기록과 구분한다. 새 Trial·Demo 시간·benchmark 결과를 추가하지 않는다.
 - **Beginner Payoff:** 원하는 변화에 맞춰 무엇을 확인하고 보고할지 요청 문장으로 쓸 수 있다.
 - **Advanced Payoff:** 동작 검증과 성능 검증의 근거 범위를 구분한다. 이미 저장소에 있는 명세를 참조하며 모든 기대값을 매번 복사하도록 요구하지 않는다.
@@ -746,8 +746,8 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “요청에 담을 확인 기준을 정했습니다. 이제 이를 명확하게 전달하는 문장 도구를 보겠습니다.”라고 S28의 실무 적용 팁으로 연결한다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Lecture 2분 + Reflection 1분 = 3분
-- **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0041, DEC-0042, DEC-0112, DEC-0114; DEC-0179
-- **Audience Footer:** 교육용 요청 비교 · 실제 TRIAL-002 원문이나 새 실행 결과가 아님
+- **Evidence / Decision References:** BEAT-007, INV-VERIFY-001, TRIAL-002, CLM-0029, CLM-0027, DEC-0041, DEC-0042, DEC-0112, DEC-0114; DEC-0179; DEC-0184
+- **Audience Footer:** N/A — DEC-0184로 보조 설명 문구를 화면에서 삭제한다. 원래 출처·가정·Claim Boundary는 Notes에 보존하고 M 연계는 유지한다.
 
 #### S28 — 지시와 참고 자료의 구분
 
@@ -994,7 +994,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.; ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 교육용 요청·Reflection 질문이다. 실제 TRIAL-002 입력·수행·비교·제품 기능·성과·유일한 정답 분류의 근거가 아니다.
-- **Visual Concept:** 기존 T01-B의 큰 질문과 보조 단서3개를 하나의 prompt-shaped 요청 예시로 묶는다. 요청은 “crop 경계 오류를 고쳐줘. / 기존 공개 API는 유지해. / 프로젝트에 정해진 테스트 명령으로 확인해.”다. 세 문장은 같은 색이며 정답을 미리 강조하지 않는다. 빈 두 Bucket을 없애고 하단 질문 하나에 시선을 모은다. Native text/shape와 기존 M2 footer 유지. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Visual Concept:** 기존 T01-B의 큰 질문과 보조 단서3개를 하나의 prompt-shaped 요청 예시로 묶는다. 요청은 “crop 경계 오류를 고쳐줘. / 기존 공개 API는 유지해. / 프로젝트에 정해진 테스트 명령으로 확인해.”다. 세 문장은 같은 색이며 정답을 미리 강조하지 않는다. 빈 두 Bucket을 없애고 하단 질문 하나에 시선을 모은다. Native text/shape와 기존 M2 footer 유지. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다. DEC-0184: “작업 요청 · 교육용 예시”를 “작업 요청”로 간략화한다. “교육용 요청 예시 · 실제 TRIAL-002 입력이나 수행 결과가 아님”를 화면에서 삭제한다. 본문·도식·수치·시간·근거 범위와 Notes는 유지한다.
 - **Demo / Case Connection:** 같은 crop 사례의 교육용 짧은 요청이다. 실제 TRIAL-002 원문을 재생하거나 새 실험을 하지 않는다. Reflection1분 뒤 자발적 Q&A2분.
 - **Beginner Payoff:** 구체적인 요청 문장에서 다음에도 다시 말할 내용을 찾는다.
 - **Advanced Payoff:** 반복되는 문장을 저장 방법의 답보다 먼저 검토한다. 반복 자체가 전역 지침의 정당성은 아니다.
@@ -1003,8 +1003,8 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “같은 요청에서 이번 목표와 계속 참고할 기준을 나눠 보고, 그 기준을 어디에서 관리할지 생각해 보겠습니다.”라고 S37로 이동한다.
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Reflection 1분 + Q&A 2분 = 3분
-- **Evidence / Decision References:** BEAT-007, BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113, DEC-0115; DEC-0179
-- **Audience Footer:** 교육용 요청 예시 · 실제 TRIAL-002 입력이나 수행 결과가 아님
+- **Evidence / Decision References:** BEAT-007, BEAT-008, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113, DEC-0115; DEC-0179; DEC-0184
+- **Audience Footer:** N/A — DEC-0184로 보조 설명 문구를 화면에서 삭제한다. 원래 출처·가정·Claim Boundary는 Notes에 보존하고 M 연계는 유지한다.
 
 #### S37 — 작업마다 바뀌는 목표, 계속 쓰는 기준
 
@@ -1019,7 +1019,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 1 — Prompt Engineering Success and its transition to recurring project context.; ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
 - **Claim Status:** TEACHING MODEL / CONCEPTUAL — 동일한 교육용 요청을 분리한 예시다. 실제 STATE-01 지침 원문·자동 적용·추가 실행·효과·유일한 분류 결과가 아니다. 계속 적용할지는 프로젝트의 합의와 조건을 확인한다.
-- **Visual Concept:** 왼쪽에 S36과 동일한3문장 요청을 유지한다. crop 목표 한 줄은 이번 작업의 목표로 연결하고, API·정해진 테스트 명령 두 줄은 하나의 강조 영역과 얇은 bracket으로 “계속 쓰는 기준”에 연결한다. 오른쪽 설명은 “이번 작업에만 적용”과 “프로젝트에서 합의해 여러 작업에 적용”이다. README·의존성·다른 Task 예시를 화면에 추가하지 않는다. 마지막 질문은 공통 기준을 프로젝트에서 관리하고 작업할 때 찾아 참고하게 할지다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Visual Concept:** 왼쪽에 S36과 동일한3문장 요청을 유지한다. crop 목표 한 줄은 이번 작업의 목표로 연결하고, API·정해진 테스트 명령 두 줄은 하나의 강조 영역과 얇은 bracket으로 “계속 쓰는 기준”에 연결한다. 오른쪽 설명은 “이번 작업에만 적용”과 “프로젝트에서 합의해 여러 작업에 적용”이다. README·의존성·다른 Task 예시를 화면에 추가하지 않는다. 마지막 질문은 공통 기준을 프로젝트에서 관리하고 작업할 때 찾아 참고하게 할지다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다. DEC-0184: “앞 장과 같은 요청 · 교육용 예시”를 “앞 장과 같은 요청”로 간략화한다. “교육용 분리 예시 · 계속 적용할지는 프로젝트의 합의와 조건을 확인한다”를 화면에서 삭제한다. 본문·도식·수치·시간·근거 범위와 Notes는 유지한다.
 - **Demo / Case Connection:** S36의 같은 crop 교육용 요청을 분리한 예다. 실제 TRIAL/STATE 원문·관찰 차이가 아니다. AGENTS.md·제품 저장 기능을 답으로 보여주지 않는다.
 - **Beginner Payoff:** 무엇을 바꾸려는 목표와 계속 참고할 기준이 다른 역할임을 같은 문장에서 본다.
 - **Advanced Payoff:** 공통 기준으로 둘지 여부는 반복 횟수만으로 정하지 않고 합의·수명·적용 범위를 확인한다.
@@ -1028,8 +1028,8 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “이 기준을 프로젝트에서 관리하고 작업할 때 찾아 참고하게 할 수 없을까요? 다음에는 서로 다른 세 작업에서도 같은 기준을 쓰는지 보겠습니다.”라고 S38 제목→S39로 이동한다.
 - **Estimated Time:** 6분
 - **Delivery Mode Allocation:** Reflection 1분 + Transition 3분 + Q&A 2분 = 6분
-- **Evidence / Decision References:** BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113, DEC-0115; DEC-0179
-- **Audience Footer:** 교육용 분리 예시 · 계속 적용할지는 프로젝트의 합의와 조건을 확인한다
+- **Evidence / Decision References:** BEAT-007, BEAT-008, TRANS-003, CLM-0029, CLM-0027, CLM-0003, CLM-0005, DEC-0042, DEC-0113, DEC-0115; DEC-0179; DEC-0184
+- **Audience Footer:** N/A — DEC-0184로 보조 설명 문구를 화면에서 삭제한다. 원래 출처·가정·Claim Boundary는 Notes에 보존하고 M 연계는 유지한다.
 
 ### ACT 2 — 22 slides / 90 minutes
 
@@ -1856,7 +1856,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 3 — conditional role/context separation.; ACT 3 — role/context complexity and Subagents.; ACT 3 — conditional Subagent decision.
 - **Evidence Type:** CONCEPTUAL / TEACHING_MODEL
 - **Claim Status:** CONCEPTUAL CASE / TEACHING MODEL — 기존 C++ 역할 분리 가정을 먼저 설명한다. 실제 Subagent 실행·이득·현재 제품 기능의 관찰이 아니다.
-- **Visual Concept:** 같은 성능·빌드·테스트 조사를 좌우에 놓는다. 왼쪽은 한 Agent가 세 조사와 종합을 맡고, 오른쪽은 주 Agent가 범위·결과 형식을 지정해 세 Subagent에 분담한 뒤 같은 주 Agent가 근거를 확인·통합한다. 역할별 소스·측정/환경·설정/테스트·명세를 병기한다. CONCEPTUAL 가정, 비용과 미측정 이득을 명시하며 시간축·승자 표시를 쓰지 않는다.
+- **Visual Concept:** 같은 성능·빌드·테스트 조사를 좌우에 놓는다. 왼쪽은 한 Agent가 세 조사와 종합을 맡고, 오른쪽은 주 Agent가 범위·결과 형식을 지정해 세 Subagent에 분담한 뒤 같은 주 Agent가 근거를 확인·통합한다. 역할별 소스·측정/환경·설정/테스트·명세를 병기한다. 본문의 조건부 질문과 비용 설명은 유지하고 시간축·승자 표시를 쓰지 않는다. 가정의 성격과 미측정 범위는 Notes에 보존한다. DEC-0184: “ACT 3 · 교육용 가정: 독립 조사와 결과 통합”를 “ACT 3 · 독립 조사와 결과 통합”로 간략화한다. 본문·도식·수치·시간·근거 범위와 Notes는 유지한다.
 - **Demo / Case Connection:** DEMO-07: 기존 C++ 독립 조사 가정을 먼저 설명. 실제 Subagent 실행 없음. Demo3분 VISUAL, Q&A1분.
 - **Beginner Payoff:** 역할별로 필요한 정보로 조사하고 주 Agent가 합치는 관계를 이해한다.
 - **Advanced Payoff:** 독립성·Context 분리의 가치와 조정·중복·전달·통합 비용을 함께 판단한다.
@@ -1865,7 +1865,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “독립 조사 역할을 나눌 수 있다면, 그 역할은 Codex에서 어떻게 만들어 다시 쓸까요?” S71 제작 팁을 거친 뒤 S72의 실제 밝기 통계 판단으로 돌아온다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 3분 (VISUAL) + Q&A 1분 = 4분
-- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0071, DEC-0080; EXP-CPP-STATS-001; DEC-0183; demos/experiments/cpp-statistics/results/summary.json
+- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0071, DEC-0080; EXP-CPP-STATS-001; DEC-0183; demos/experiments/cpp-statistics/results/summary.json; DEC-0184
 - **Audience Footer:** 역할 분리 예시 · 분담·조정 비용도 고려
 
 #### S71 — 대화로 조사 Agent 만들기
@@ -2032,7 +2032,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT3의 기반 구성·재사용을 마친 뒤 ACT4의 단일 목표 수행으로 전환한다. 기존 Section3G와 BEAT-073을 사용한다. 이전118장판 S77–S81의 lineage이며 이전 S81의 Q&A5분은 S76로 이동하고 Reflection3분은 제거한다.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 점심 전후를 가정해 쓴 대화다. 특정 제품의 실제 응답, 실행 기록, 지연 시간 또는 Harness의 실패를 보여주는 근거는 없다.
-- **Visual Concept:** 두 대화창을 좌우에 둔다. 왼쪽은 ‘점심 먹으러 가기 전’과 “밝기 통계의 임시 메모리를 줄여줘. 수정하고 테스트까지 돌려줘.”다. 오른쪽은 ‘점심 먹고 돌아온 뒤’와 “수정할 위치와 검증 계획을 정리했습니다. 이대로 구현을 시작할까요?”다. “수정하고 테스트까지 돌려줘”와 “이대로 구현을 시작할까요?”를 같은 높이에서 크게 대비한다. ‘공통 Harness · 팀 지침과 검증 도구 준비됨’은 왼쪽에 작게 붙인다. 시선은 오른쪽 빈 입력란의 커서에서 끝난다.
+- **Visual Concept:** 두 대화창을 좌우에 둔다. 왼쪽은 ‘점심 먹으러 가기 전’과 “밝기 통계의 임시 메모리를 줄여줘. 수정하고 테스트까지 돌려줘.”다. 오른쪽은 ‘점심 먹고 돌아온 뒤’와 “수정할 위치와 검증 계획을 정리했습니다. 이대로 구현을 시작할까요?”다. “수정하고 테스트까지 돌려줘”와 “이대로 구현을 시작할까요?”를 같은 높이에서 크게 대비한다. ‘공통 Harness · 팀 지침과 검증 도구 준비됨’은 왼쪽에 작게 붙인다. 시선은 오른쪽 빈 입력란의 커서에서 끝난다. DEC-0184: “ACT 3 → ACT 4 · 교육용 대화 예시”를 “ACT 3 → ACT 4 · 점심 전후의 대화”로 간략화한다. 본문·도식·수치·시간·근거 범위와 Notes는 유지한다.
 - **Demo / Case Connection:** 밝기 통계 맥락을 빌린 교육용 대화 예시. 새로운 Trial·제품 캡처나 실행 결과는 없다.
 - **Beginner Payoff:** 돌아와 결과를 확인하려던 개발자가 왜 한 번 더 “시작해”라고 말해야 하는지 이해한다.
 - **Advanced Payoff:** 이미 맡긴 구현을 재확인하는 상황과, 요구 충돌이나 권한 변경 때문에 사람이 새로 판단해야 하는 상황을 구별한다.
@@ -2041,8 +2041,8 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** 오른쪽 입력란이 비어 있는 채로 S78로 넘긴다. S79에서 검토 후에도 사람이 다음 수정을 다시 요청하는 장면을 본다.
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Transition 2분 = 2분
-- **Evidence / Decision References:** DEC-0148, DEC-0147 (이전 S77 배치), DEC-0146, DEC-0136; DEC-0023; BEAT-073; INV-LOOP-001; INV-VERIFY-001. Source slide lineage: previous118 S77/S78/S79/S80/S81; prior Section3G/3I operation records retained in history.
-- **Audience Footer:** 없음 — 상단에 교육용 대화 예시를 표시하고 하단은 M 연계 표기만 유지한다.
+- **Evidence / Decision References:** DEC-0148, DEC-0147 (이전 S77 배치), DEC-0146, DEC-0136; DEC-0023; BEAT-073; INV-LOOP-001; INV-VERIFY-001. Source slide lineage: previous118 S77/S78/S79/S80/S81; prior Section3G/3I operation records retained in history.; DEC-0184
+- **Audience Footer:** 없음 — 상단은 점심 전후의 대화로 표시하고 하단은 M 연계만 유지한다. 교육용 가정·실제 실행과의 구분은 Notes에 보존한다. DEC-0184.
 
 ### ACT 4 — 19 slides / 71 minutes
 
@@ -2695,7 +2695,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 5 — AI-Native operating model and advanced reliability; reassess previously justified structure under changed conditions.
 - **Evidence Type:** RESEARCH / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE — CLM-0040의 공급사 공개 사례 요약; TEACHING MODEL — 비교 구조는 교육용 각색; 현재 Codex의 통합 효과는 미검증.
-- **Visual Concept:** 왼쪽 Agent 아래의 Router·Planner·Subagent를 역할별 아이콘으로 표시하고, 모델·플랫폼 변화 화살표를 거쳐 오른쪽의 주 Agent Loop와 필요한 Skill·Tool 후보로 대비한다. 보조 역할을 다시 배치할 수 있는 공개 사례의 교육용 각색이며 현재 제품의 통합 전후나 우월성 증거가 아니다. 두 Agent의 아이콘·프레임 문법을 S102에서 회수하고 핵심 질문과 공개 출처 표기를 유지한다.
+- **Visual Concept:** 왼쪽 Agent 아래의 Router·Planner·Subagent를 역할별 아이콘으로 표시하고, 모델·플랫폼 변화 화살표를 거쳐 오른쪽의 주 Agent Loop와 필요한 Skill·Tool 후보로 대비한다. 보조 역할을 다시 배치할 수 있는 공개 사례의 교육용 각색이며 현재 제품의 통합 전후나 우월성 증거가 아니다. 두 Agent의 아이콘·프레임 문법을 S102에서 회수하고 핵심 질문과 공개 출처 표기를 유지한다. DEC-0184: “ACT 5 · 재평가 1/3 · 공개 사례 + 교육용 구조 도식”를 “ACT 5 · 재평가 1/3 · 공개 사례와 구조 변화”로 간략화한다. 본문·도식·수치·시간·근거 범위와 Notes는 유지한다.
 - **Demo / Case Connection:** 새 Demo/Trial/State 없음. 공급사 공개 사례와 교육용 판단 모델이며 우리 제품의 통합·제거 성과가 아니다.
 - **Beginner Payoff:** 처음에는 필요했던 장치도 조건이 달라지면 다시 볼 수 있음을 이해한다.
 - **Advanced Payoff:** 더 강한 모델·플랫폼 기능의 도입을 기존 구조의 자동 유지나 무조건 제거와 분리하고, 현재의 역할·경계를 재평가한다.
@@ -2704,7 +2704,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “그렇다면 무엇을 보존하고, 어떤 부분을 합치거나 제거할 후보로 볼까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083; DEC-0174
+- **Evidence / Decision References:** SRC-0236, CLM-0040, BEAT-061, BEAT-069, DEC-0083; DEC-0174; DEC-0184
 - **Audience Footer:** Anthropic(2026) · 외부 기업의 통합 사례
 
 #### S104 — 무엇을 남기고, 무엇을 덜어낼까?
