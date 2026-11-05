@@ -6,6 +6,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
 import { createHash } from 'node:crypto';
 import * as H from './helpers.mjs';
+import {contextInstructionFactory,applyContextSkillAnnotations} from './context-skill-annotations.mjs';
 import {loadAct0ContextCollectionSlides,applyAct0ContextCollection} from './act0-context-collection.mjs';
 import {applyAudienceExampleCleanup} from './audience-example-labels.mjs';
 import {loadCppStatisticsSlides,applyCppStatisticsBoundary} from './cpp-statistics-slides.mjs';
@@ -199,15 +200,22 @@ if(process.argv.includes('--release')){
 const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_Dev_Training_Full.pptx');
 const cppStatistics=await loadCppStatisticsSlides(ROOT,H);
 const contextCollection=await loadAct0ContextCollectionSlides(ROOT,H);
+const sharedInstructions=contextInstructionFactory(H);
 const finishSlide=(slide,id)=>{
  applyAct0ContextCollection(slide,id);
  applyAudienceExampleCleanup(slide,id);
+ applyContextSkillAnnotations(slide,id);
  slide.speakerNotes.text=notes[id];
 };
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const currentId of deck.ids){
   if (!notes[currentId]) throw new Error('Missing Notes '+currentId);
+  if(currentId==='S40'){
+   const slide=sharedInstructions(p);
+   finishSlide(slide,currentId);
+   continue;
+  }
   if(contextCollection[currentId]){
    const slide=contextCollection[currentId](p);
    finishSlide(slide,currentId);

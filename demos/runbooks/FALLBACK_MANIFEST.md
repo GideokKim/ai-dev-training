@@ -1,6 +1,10 @@
 # Static Fallback Manifest
 
-## Current presentation · DEC-0185
+## Current presentation · DEC-0186
+
+Use S39's repetition question and S40's shared AGENTS.md rule summary. Keep the actual command and original state evidence in Notes; Korean labels are summaries, not verbatim file text. S65 displays /skill as typing in progress; /skills remains the documented command and historical input in Notes. Keep all 43 existing static fallback classifications and the original Trial evidence. The six revised screens and Full/ACT2/ACT3 have 151 local renders and matching Notes. Preserve 111 slides/372 minutes. Product/autocomplete, Windows, room and timed rehearsal remain UNVERIFIED.
+
+Previous delivery context (DEC-0185):
 
 Use the revised S06-S12 context-collection flow. S06 is a manual-attachment teaching setup, not a Chatbot execution; S07-S09 retain the original CLI facts, and S12 reconnects the actual Agent request and bounded investigation. Keep the existing 43 static Demo classifications: they identify presentation artifacts, not proof of observed executions. Full/ACT0/ACT5 have 140 locally rendered slides and matching Notes. Preserve 111 slides/372 minutes and the original eight Demo minutes. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
 
@@ -16,9 +20,9 @@ Previous delivery context (DEC-0181; its unexecuted research example is S96):
 
 Use an edge-detection comparison report for S96 Goal request. Retain its completion and stop criteria, control commands and documented-product scope. No research or performance experiment was run. Simplify the selected ACT0 captions and S06 investigation title. Keep the actual request and all evidence boundaries in Notes. Standardize 45 request windows on 37 slides using the existing Mac style. Keep all 43 static fallback classifications, evidence and claim boundaries. The Full and affected ACT0-ACT4 decks are locally rendered; ACT5 is unchanged. Former S96 and its reflection time are removed. Current S96 is the Goal tip. The 43 entries identify local static fallbacks for the 111-slide course. S90 uses GPT-6 Luna and Claude Sonnet 5.5 as an illustrative author/reviewer pairing. S91 shows a state.md checklist with the completed output comparison and the allocation measurement still pending. S95 shows human review branching to merge approval or back to the AI for remeasurement. The Codex memories and Goal product tips appear on S92 and S96. S99 and S100 share one teaching-model work system; S100 shows the person deciding acceptance using its results and evidence.
 
-- `production/AI_Dev_Training_Full.pptx` SHA-256:`e352d59b9f39c1ea9dc0291a6e765413b2b2bd5e68a23d3fd92094fb7e4e8a5d`.
-- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`5aeb83812c844ca0a44d69c58cfe7c0f07e329a089e274d4fd010458cee415e5`.
-- `production/preview/full/montage.png` SHA-256:`7e553bce6bcb5a91f76e1a97c5971be5683b3a4395279faefaca9bbc6d69bb24`.
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`2169a8d67563f41368a5df8f11ec0e38ac794a1f101e0e5d87bae33eb8d91497`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`4d5441600ab82c46cfe0381f0a75931547f207375154c490f44b329c935d6125`.
+- `production/preview/full/montage.png` SHA-256:`ee929f2be02a3896cc8f45369d2433fbfa9e1af1de99cbaa8728c8b3b3a17d09`.
 
 [ACT4 review](../../production/evaluation/ACT4_PDF_OPERATING_WORKFLOW.md) · [Current handoff](../../production/evaluation/FINAL_HANDOFF.md)
 
@@ -31,15 +35,15 @@ Use an edge-detection comparison report for S96 Goal request. Retain its complet
 | S10 | RETAINED_DEMO_STATIC | `production/preview/full/S10.png` | 1920×1080 | `142e724e29c07355d6b0b0080fd63453fea29f19a3a6579773247b59bdb39673` |
 | S23 | RETAINED_DEMO_STATIC | `production/preview/full/S23.png` | 1920×1080 | `2006268ff4d96da09bba0d8ed99b8174423fccf4f1ce825888cba100679961a2` |
 | S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` | 1920×1080 | `eee791361290ec1374cc4456ce66ff3bf7a7b27905c9e912b20838a0091d9e1f` |
-| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `116b078ac9d204051fa23e700b4f86faf0cf9963b9b4bf6ee2d851e72a66c8fa` |
-| S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` | 1920×1080 | `052e19918e6be443c8699ae2212f02229dbce3a5c15eb96fbe03794193e70940` |
+| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `3e60ca8bc1ad4323f11c814cb08af7e184cee00c995c4bc3e18bdf57b0535f11` |
+| S40 | RETAINED_DEMO_STATIC | `production/preview/full/S40.png` | 1920×1080 | `8c4daf09a92273dbb0fea0439e9421b003eb74705a0d07a05f0b7348ab161871` |
 | S41 | USER_PROVIDED_DEMO_RESULT | `production/preview/full/S41.png` | 1920×1080 | `03f104ae8ec9a4bef6a183322d889e66f5314bf828705321f3116ebf1c50d712` |
 | S44 | RETAINED_DEMO_STATIC | `production/preview/full/S44.png` | 1920×1080 | `8a8c9b28205f5d0ea2f90b5480414e9b202105419e145a7e69c6ebaf8ab3a78a` |
 | S49 | RETAINED_DEMO_STATIC | `production/preview/full/S49.png` | 1920×1080 | `1e6acea140a3d038e3b18572c4cc1ca48e16e8ad6b6dec76c49e376185a17d1e` |
-| S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` | 1920×1080 | `b3ce28aa911e520e04fc38afecb02c7cd0ab34ed55525c083464c7a7ea136f0b` |
+| S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` | 1920×1080 | `d054caff4fe062b4c8772d137bf8dc4e6d3e05b2d981587c307b8a6744f258bf` |
 | S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` | 1920×1080 | `ef392313e111ce8a324a79f181d2f78d804aa9c416b1cea33c82f35865af6acd` |
 | S54 | RETAINED_DEMO_STATIC | `production/preview/full/S54.png` | 1920×1080 | `ee3d7a63c8c506b0258f9fac8465ec028be427a012d180de19786fc5f1938755` |
-| S65 | RETAINED_DEMO_STATIC | `production/preview/full/S65.png` | 1920×1080 | `7ea013e38b51ec61dc613e9d733d02133ca0153b3eaf020a21770cb5f507b9ee` |
+| S65 | RETAINED_DEMO_STATIC | `production/preview/full/S65.png` | 1920×1080 | `021236f27ca8dec6981f347c004e133ba002a52e095e401ef43ba44191bb76d1` |
 | S66 | RETAINED_DEMO_STATIC | `production/preview/full/S66.png` | 1920×1080 | `482b1c36433538b982da2336354c04a9593f85368086c313149272540cd14880` |
 | S70 | RETAINED_DEMO_STATIC | `production/preview/full/S70.png` | 1920×1080 | `ec426741663c2786fb3169687510d8e5f24dab2c5442e41770378943715dbf58` |
 | S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` | 1920×1080 | `2e9d19fecd6f3a2bedfb27c63e79bebb29f6e5fdd9ea12c7d8d68d920667a57f` |

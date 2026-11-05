@@ -15886,3 +15886,29 @@ footer and S107's two supplementary captions, and retain voluntary
 reflection, A-E actions, evidence and review responsibilities in Notes.
 Render Full and ACT0/5; record normal artifacts with the existing Git policy.
 Change no Demo repository, experiment, product state, Site or bundle.
+
+# DEC-0186 — Connect repeated context to shared instructions
+
+Status: ACCEPTED by the user's eleven slide annotations.
+Date: 2026-11-05.
+
+Replace S39's closing question with a direct question about reducing
+repetition. Show the same four shared rules in S40's AGENTS.md document
+instead of the longer purpose/build excerpts. Retain the real test
+command, original source excerpts and state lineage in Notes. Treat the
+Korean rule labels as faithful summaries rather than verbatim file text.
+
+Remove the selected labels and footers from S40/S48/S52/S65/S67.
+Retain S52's final-run scope and unproven efficiency claims in Notes;
+remove its dangling testing.md asterisk with the deleted footer.
+
+Use the requested /skill string in S65's command input, clearly labeled
+as typing in progress. Preserve /skills as the official command and the
+actual historical input in Notes. Current official documentation still
+specifies /skills; do not invent a successful /skill execution or alter
+raw evidence. The Skill name and truncated description remain unchanged.
+
+Preserve 111 slides/372 minutes, every allocation, story beat, template,
+evidence boundary, image and module footer. Align the six Notes records,
+planning and Full/ACT2/ACT3 decks and previews. Run no new Trial and
+change no Demo repository, Site, experiment or presenter bundle.

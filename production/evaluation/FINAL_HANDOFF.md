@@ -1,5 +1,16 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## 공통 지침 연결·보조 문구 정리 — DEC-0186
+
+[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT2](../ACT_2.pptx) · [ACT3](../ACT_3.pptx) · [수정·검증 결과](CONTEXT_SKILL_ANNOTATIONS.md)
+
+S39에서 반복을 줄일 방법을 묻고 S40에서 같은 네 공통 기준을 AGENTS.md에 모았다. 원문 명령·출처는 Notes에 보존하고 한국어 의미 요약을 실제 인용과 구분한다. S48/S52/S65/S67의 지정 보조 문구를 정리했다. S65의 /skill은 입력 중인 문자열이고 정식 명령·과거 관찰 /skills는 Notes에 유지한다.
+
+Full111장+ACT2/3의151개 렌더·Notes를 대조했다. 다른105장과 지정 영역 밖 화면·이미지를 보존한다. 전체111장·372분, 장별 배정/근거 범위를 유지한다. Windows·교육장·제품/계정/자동완성·실측 리허설은 UNVERIFIED다. Demo Repository·실험·Sites·묶음은 변경하지 않았다.
+
+<details>
+<summary>앞선 ACT0 수정과 이전 전달 맥락</summary>
+
 ## ACT0 자료 수집 방식 연결 · DEC-0185
 
 [통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT0](../ACT_0.pptx) · [ACT5](../ACT_5.pptx) · [ACT0 Notes](../notes/ACT_0_NOTES.md) · [ACT0 미리보기](../preview/act0/montage.png) · [수정·근거·대조 결과](ACT0_CONTEXT_COLLECTION_FLOW.md)
@@ -59,19 +70,21 @@ S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과
 
 </details>
 
+</details>
+
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `e352d59b9f39c1ea9dc0291a6e765413b2b2bd5e68a23d3fd92094fb7e4e8a5d` |
+| `production/AI_Dev_Training_Full.pptx` | `2169a8d67563f41368a5df8f11ec0e38ac794a1f101e0e5d87bae33eb8d91497` |
 | `production/ACT_0.pptx` | `c2e6534ce0c64ebd183d3a5e35ed929d76fd7e2b260426a7516d0abe0e81aad9` |
 | `production/ACT_1.pptx` | `6b747ddfba0675e47c1e9de42fb758c7a9232971de8920d3d17eed46fcb220f0` |
-| `production/ACT_2.pptx` | `70f040c1bf0419260404ba0a590c4e5ac90186a5bd51c785d913792ff60dfc0e` |
-| `production/ACT_3.pptx` | `5f22eb9b3d6801e2f5521f9dcd4a37fdb80e4f6f2cadaf6144061452442c36b8` |
+| `production/ACT_2.pptx` | `c6a7a3c3eb19f518d01ba4be8f001429a11d4d69ecec32d5a387cc40585c8469` |
+| `production/ACT_3.pptx` | `10e51f8b34ac243a5ab2e5e41e810b7f7ce0e36801a781c452c734d9b341c0a0` |
 | `production/ACT_4.pptx` | `bede5386411f9d6f626d60f1d09b2b67beb0a4373f46de3eacb5e59763997509` |
 | `production/ACT_5.pptx` | `c825b9a75d0073e9aaf9e56c5b05f18b84e1a872f5d9f186d88187df2d3b9b36` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `5aeb83812c844ca0a44d69c58cfe7c0f07e329a089e274d4fd010458cee415e5` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `4d5441600ab82c46cfe0381f0a75931547f207375154c490f44b329c935d6125` |
 | `production/notes/ACT_4_NOTES.md` | `a7660820b4f90480ae753ed44a7b3049a778130c6cfdffa6e4a412c9e95fdba0` |
 | `production/notes/ACT_5_NOTES.md` | `d5c650571f748e5def3bf1a0549c4e23e7c49ceb370c76624279c73e313f1264` |
-| `production/preview/full/montage.png` | `7e553bce6bcb5a91f76e1a97c5971be5683b3a4395279faefaca9bbc6d69bb24` |
+| `production/preview/full/montage.png` | `ee929f2be02a3896cc8f45369d2433fbfa9e1af1de99cbaa8728c8b3b3a17d09` |
 | `production/preview/act4/montage.png` | `c61391c36233f822d129ad32f98a6aaeb6304eb3345e31eaa64ad07bae403746` |
 | `production/preview/act5/montage.png` | `8d25496326190c45c048cb46245497e5fc75e19dceef4c88b04b4def0f30b8f5` |
 | `production/preview/full/S93.png` | `5ff0f2b96940061ee18f3f51c9fee8833bfb5f9d1e45ff3c0360ff124aeba04c` |
@@ -88,12 +101,12 @@ S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과
 | `production/preview/full/S111.png` | `673df470f2c60de0328a344c329906b042171f77a4edaa2aa2ce965808dd34b0` |
 | `production/notes/ACT_0_NOTES.md` | `4f19e3aaea20c60da897d1a6b0b38d8f48765bb8b9b8cf0d868fa80058722a9c` |
 | `production/notes/ACT_1_NOTES.md` | `6fdc4c8baf9ffbb175a24430cd064b3e17c2b04c217c716f2f9bb9488dd1dc3d` |
-| `production/notes/ACT_2_NOTES.md` | `46c10f7d0adabf92c3865531e58f119cab6ccd1b36b3f8da8a148427cb1678bf` |
-| `production/notes/ACT_3_NOTES.md` | `ccddfe3328375b104795308cc825d885e6cecb6417c2c4fabaaecd7b0fd26ceb` |
+| `production/notes/ACT_2_NOTES.md` | `178aa6a10ef23b56a1fac7bd6246c9f42fe1c859ee248c33958beb3488eefe85` |
+| `production/notes/ACT_3_NOTES.md` | `e54f1acd253f4463fb3fcf444426a74978e8276400bec75edda7431edbda9d73` |
 | `production/preview/act0/montage.png` | `c38ac327b8261bbc04db03235ef91cdae0c1c867fb94caccb0ae3d5f023b1246` |
 | `production/preview/act1/montage.png` | `e447754cd57e021f871837494e4793f4ef7d79e97c6dfd929b638a1fa92fda89` |
-| `production/preview/act2/montage.png` | `5ade5f13f89a25f76a1e68080222b0b8e5758113b5e595ad1489ba201d121702` |
-| `production/preview/act3/montage.png` | `3a2dd312f175b14a554d3f22bcfd5f82b8edd4c8f83b4d513bc0fcec0d464ece` |
+| `production/preview/act2/montage.png` | `4d216c5e380a2c06075b5ab32e3628cf6fefc0308b48de23e3d74edd69f4cbcf` |
+| `production/preview/act3/montage.png` | `e4b6b887bc0d4eb7d62f8be0c399683c9d922c18b48712bcc15dce9af85f70e6` |
 | `production/preview/full/S04.png` | `a3044f100c7b646128408740c8649d823c0a25ed5a5b11776c6ec902601412a7` |
 | `production/preview/full/S06.png` | `56ba85d53d60fa4dd9f5bb825e066a24f682a7305868e3bd215ca27cc202f5c0` |
 | `production/preview/full/S11.png` | `9ce06ab132311cc6ecd62307baf98aaa536b1b49c0d50088389da856286f430b` |
@@ -114,7 +127,7 @@ S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과
 | `production/preview/full/S35.png` | `fb141b92a672363efc2fb171bbff80402b2bea8e1f199c4fc94d28b338af02b0` |
 | `production/preview/full/S36.png` | `6d0c0e99bf6b656d53f4c58d2578da194035f1e0245958aa4e24ea52170a02aa` |
 | `production/preview/full/S37.png` | `6341fc29c6fc545b276740a3476f2ba3b3cb14f62820ccbb9a88fa4d756752f8` |
-| `production/preview/full/S39.png` | `116b078ac9d204051fa23e700b4f86faf0cf9963b9b4bf6ee2d851e72a66c8fa` |
+| `production/preview/full/S39.png` | `3e60ca8bc1ad4323f11c814cb08af7e184cee00c995c4bc3e18bdf57b0535f11` |
 | `production/preview/full/S42.png` | `5f5e8cb0e0885a273a9503c5d09f05e85dadca9069f7d11a32764f22f626ecae` |
 | `production/preview/full/S44.png` | `8a8c9b28205f5d0ea2f90b5480414e9b202105419e145a7e69c6ebaf8ab3a78a` |
 | `production/preview/full/S46.png` | `d3e4e8ee5fb4132cbb24ae7e133bc69e0e0dbd201c8eb2c1b9aedf9c540c6342` |
@@ -126,8 +139,8 @@ S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과
 | `production/preview/full/S61.png` | `2b492671f9d71069570411a8613b20c235664aca146380f06eec267c9d955448` |
 | `production/preview/full/S63.png` | `ee0870859831acb86c62ae85650a0b05bb9cfa78b338cf3145b328858c788983` |
 | `production/preview/full/S64.png` | `7b4f970f9b666903f76089a23b6050fba71cc9fe4c8aff292ce65947fac34ab2` |
-| `production/preview/full/S65.png` | `7ea013e38b51ec61dc613e9d733d02133ca0153b3eaf020a21770cb5f507b9ee` |
-| `production/preview/full/S67.png` | `02b4bf7c68b83ad9e9a9d8934a24a71bc752d8732527c72194037b05a7e8b755` |
+| `production/preview/full/S65.png` | `021236f27ca8dec6981f347c004e133ba002a52e095e401ef43ba44191bb76d1` |
+| `production/preview/full/S67.png` | `b2be475c7d7f6cf7d8f165701aa679e02185974bebf3b0c134c89ffa165efa3e` |
 | `production/preview/full/S71.png` | `e447fca761d007fa1b7b7948be8617493a9b254ce18f66c0ffe4a5fae3299be3` |
 | `production/preview/full/S79.png` | `a393c38375a5afa39ac8f1c0a2de1e837dc5cf527449f533508e4e7f205c7693` |
 | `production/preview/full/S92.png` | `46ee0d9a5de5b879aa717e9c013684174ff7e2fa66fb786c4bd6cf6c5a62a281` |
@@ -142,6 +155,9 @@ S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과
 | `production/preview/full/S08.png` | `28aaebc980b4064e72b6311cc82102d5d29f6070926bf5839edf1aaa9193757a` |
 | `production/preview/full/S09.png` | `9058103ec4c605649c0b4c0372beceadd315d55859d05f5ac383c93226f5564d` |
 | `production/preview/full/S10.png` | `142e724e29c07355d6b0b0080fd63453fea29f19a3a6579773247b59bdb39673` |
+| `production/preview/full/S40.png` | `8c4daf09a92273dbb0fea0439e9421b003eb74705a0d07a05f0b7348ab161871` |
+| `production/preview/full/S48.png` | `b0c72ad7a1f4e65abd1bdbd024864107586823782b240994183bbcbe1ce46c19` |
+| `production/preview/full/S52.png` | `d054caff4fe062b4c8772d137bf8dc4e6d3e05b2d981587c307b8a6744f258bf` |
 
 ## 보존된 이전 전달 기록
 

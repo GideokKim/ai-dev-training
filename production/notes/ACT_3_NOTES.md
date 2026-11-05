@@ -415,20 +415,26 @@ Opening Question: “이번 성능 조사에 재사용할 방법을 어디서 �
 
 Speaker Flow:
 1. (0:00–0:20) S64의 필요한 작업에만 Skill을 쓴다는 선택을 회수한다. 이번에는 이미지의 밝기 통계를 계산하는 image_statistics의 실행 시간 또는 할당량을 조사할 작업이다. 알고리즘이나 결과6항목의 세부를 앞당겨 설명하지 않는다.
-2. (0:20–0:50) /skills 목록에서 graypipe-performance라는 이름과 설명 일부를 확인한 당시 기록을 짚는다. 설명은 보존된 것처럼 잘린 상태로 두며 경로가 목록에 보였다고 말하지 않는다. 화면은 실제 제품 캡처가 아닌 기록 재구성이다.
+2. (0:20–0:50) 왼쪽 /skill은 “명령 입력 중”인 화면 표현이고 실행 완료 명령이나 과거 입력 원문이 아님을 구분한다. 정식 명령과 당시 기록은 /skills다. 오른쪽은 당시 /skills 목록에서 graypipe-performance라는 이름과 설명 일부를 확인한 당시 기록을 짚는다. 설명은 보존된 것처럼 잘린 상태로 두며 경로가 목록에 보였다고 말하지 않는다. 화면은 실제 제품 캡처가 아닌 기록 재구성이다.
 3. (0:50–1:00) 사용할 수 있는 방법을 찾았다는 사실까지만 회수한다. 실제 사용을 지정한 근거는 다음 요청에서 확인한다고 이동한다.
 
-Evidence / Source: plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt, Skill Discovery, Skill Invocation, Skill Load Evidence; DEC-0017; BEAT-021. 보존 세션 01a0f22c-e6a8-7e50-a4e1-4a581d62266c의 성공한 요청과 <skill> 본문을 재대조했다. /skills는 이름과 설명 일부만 표시했고 경로는 trace에서 확인됐다. 원본의 절대 경로는 해당 disposable workspace이며 화면에는 .agents/skills/graypipe-performance/SKILL.md로 줄였다. 전체 본문은 STATE-04의 SKILL.md와 대조했다.
+Evidence / Source:
+plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt, Skill Discovery, Skill Invocation, Skill Load Evidence; DEC-0017; BEAT-021. 보존 세션 01a0f22c-e6a8-7e50-a4e1-4a581d62266c의 성공한 요청과 <skill> 본문을 재대조했다. /skills는 이름과 설명 일부만 표시했고 경로는 trace에서 확인됐다. 원본의 절대 경로는 해당 disposable workspace이며 화면에는 .agents/skills/graypipe-performance/SKILL.md로 줄였다. 전체 본문은 STATE-04의 SKILL.md와 대조했다.
 
 보존된 상세 출처: TRIAL-008 · Codex CLI 0.154.0 · 기록 발췌·번역·재구성 (실제 UI 캡처 아님)
 
 DEC-0130의 이전120장판 S65 분할에서 이어진 목록·명시 호출 기록이다. 두 장은 같은 TRIAL-008 성공한 실행의 서로 다른 근거를 보여준다. 실제 요청 원문은 plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt와 같다.
 
-Claim Boundary: OBSERVED_PRODUCT / FROZEN WITH SCOPE / REQUIRES PRODUCT CHECK를 유지한다. 이 화면은 실제 UI 캡처나 새 실행이 아닌 기록의 발췌·번역·재구성이다. 성공한 실행은 Codex CLI0.154.0, gpt-5.6-sol high이며 앞선 계정의 gpt-6.1-sol 거절과 구분한다. 별도 load UI 이벤트, 암묵 호출, 현재 Desktop 동작, 모든 지침 준수·Skill 단독 효과·우월성·토큰 절감은 입증하지 않는다. Global Harness의 동시 영향도 배제하지 않는다.
+DEC-0186 제품 표기 확인(2026-11-05): OpenAI Build skills, https://learn.chatgpt.com/docs/build-skills 의 explicit invocation 절과 Developer commands, https://learn.chatgpt.com/docs/developer-commands?surface=cli 의 “Use skills with /skills” 절은 정식 명령을 /skills로 안내한다. 사용자 요청에 따라 화면의 입력 문자열은 /skill로 바꾸고 제목 막대는 “명령 입력 중”으로 둔다. 입력 접두어를 보여주는 설명용 구성이지 /skill이 독립 실행 명령으로 동작했다고 검증한 결과가 아니다. 원래 기록의 /skills·Skill 이름·잘린 설명을 보존한다.
+
+Claim Boundary:
+OBSERVED_PRODUCT / FROZEN WITH SCOPE / REQUIRES PRODUCT CHECK를 유지한다. 이 화면은 실제 UI 캡처나 새 실행이 아닌 기록의 발췌·번역·재구성이다. 성공한 실행은 Codex CLI0.154.0, gpt-5.6-sol high이며 앞선 계정의 gpt-6.1-sol 거절과 구분한다. 별도 load UI 이벤트, 암묵 호출, 현재 Desktop 동작, 모든 지침 준수·Skill 단독 효과·우월성·토큰 절감은 입증하지 않는다. Global Harness의 동시 영향도 배제하지 않는다.
 
 보존된 상세 범위: 별도 load 이벤트 없음 · 지침 준수의 보장은 아님 · 현재 Desktop·암묵 호출 미검증
 
 목록에서 발견한 사실과 사용자가 요청에 명시한 사실을 구분한다. 이것만으로 자동 준수·전체 지침 수행·Skill의 단독 효과를 입증하지 않는다. 새 관찰이나 실행을 추가하지 않는다.
+
+DEC-0186: OBSERVED_PRODUCT 근거는 오른쪽의 실제 발견 기록과 원래 /skills 입력이다. 화면의 /skill은 TEACHING_MODEL인 입력 중 표현이며 현재 계정에서 자동완성·실행을 시험하지 않았다. /skills를 /skill로 바꾼 원시 로그나 새로운 실행을 만들지 않는다.
 
 Beginner Explanation: 필요한 방법을 사용 가능한 목록에서 찾았다. 이름이 보였다는 것만으로 이번 작업에 사용됐다고 말하지 않는다.
 
@@ -436,7 +442,8 @@ Advanced Insight: 발견 가능성, 명시 선택, 본문 포함과 실제 수�
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: LOCAL STATIC RECORD — 상단에 밝기 통계 성능 조사라는 한 줄 목표를 둔다. /skills와 목록의 graypipe-performance 이름/잘린 설명을 큰 한 장면으로 보여준다. 경로·전체 Prompt·trace를 같은 장에 넣지 않는다. DEMO-03의 정적 기본 경로는 S65 1분과 S66 2분으로 총3Demo분이다. 새 Trial·제품 실행·Live 활성화를 하지 않는다.
+Demo Operation:
+LOCAL STATIC RECORD — 상단에 밝기 통계 성능 조사라는 한 줄 목표를 둔다. 왼쪽 “명령 입력 중” 창의 /skill 문자열과 오른쪽 과거 목록의 graypipe-performance 이름/잘린 설명을 큰 한 장면으로 보여준다. 경로·전체 Prompt·trace를 같은 장에 넣지 않는다. DEMO-03의 정적 기본 경로는 S65 1분과 S66 2분으로 총3Demo분이다. 새 Trial·제품 실행·Live 활성화를 하지 않는다.
 
 DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
 
@@ -554,6 +561,8 @@ Skill 파일의 문법부터 직접 외울 필요 없이 Codex에 원하는 작�
 N/A — 정적 교육용 요청/문서 도식. 실제 Skill/Agent를 만들거나 호출하지 않는다. 현재 로컬 사용자 환경·Demo 저장소의 설정도 바꾸지 않는다.
 
 DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+
+DEC-0186: 사용 예시·생성 지침 검토를 설명하던 하단 footer만 화면에서 삭제했다. 요청은 실제 TRIAL-008 제작 기록이 아닌 사용 예시이고 생성 지침을 검토하고 대표 요청에 사용해 다듬는다는 운영은 본문·Notes에 유지한다.
 
 **Audience Interaction:**
 Lecture2분. 질문은 생각을 돕기 위한 것이며 실습·파일 생성·공개 답변을 요구하지 않는다.

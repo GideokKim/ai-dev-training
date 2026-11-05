@@ -2548,16 +2548,16 @@ Mode Split:
 Lecture 4 minutes + Case 1 minute
 
 Primary Message:
-버그 수정·성능 조사·README 수정의 목표는 달라도 같은 프로젝트 기준을 참고할 수 있다. 공통 기준의 변경을 여러 요청에 어떻게 반영할지가 다음 관리 질문이다.
+버그 수정·성능 조사·README 수정의 목표는 달라도 같은 프로젝트 기준이 반복된다. 이 반복을 어떻게 줄일지 묻고 S40의 공통 지침 문서로 이어진다.
 
 Opening Question:
-“공통 기준이 바뀌면, 세 요청에 어떻게 반영할까?”
+“불필요한 반복을 어떻게 줄일까?”
 
 Speaker Flow:
 1. (0:00–1:30 / Lecture) S36/S37의 한 crop 요청에서 범위를 넓혀 버그 수정·성능 조사·README 수정이라는 서로 다른 세 목표를 가리킨다. 다시 문장 분류를 시험하지 않는다.
 2. (1:30–3:30 / Lecture) 아래에 반복된 테스트 실행, 근거가 있을 때 의존성 추가, 로컬 합성 데이터, 기존 동작 보존의 공통 기준을 비교한다. 세 요청은 교육용 구성이고 실제 Trial 원문이 아니다.
-3. (3:30–4:00 / Lecture) 복사 입력의 수고에서 공통 정보의 관리 문제로 연결한다. 기준이 바뀐 경우를 가정한 하단 질문이며 실제 프로젝트에서 잘못된 기준을 실행한 관찰이 아니다.
-4. (4:00–5:00 / Case) 세 요청에 같은 기준을 어떻게 제공할지 조용히 생각하게 한다. 저장 파일이나 자동 적용 결과를 답으로 먼저 보여주지 않고 S40의 실제 기록 위치로 넘긴다.
+3. (3:30–4:00 / Lecture) 서로 다른 목표 아래 같은 네 문장이 반복됨을 회수하고 “불필요한 반복을 어떻게 줄일까?”라고 묻는다. 실제 반복 비용이나 잘못된 실행을 측정한 결과가 아니다.
+4. (4:00–5:00 / Case) 세 요청에 같은 기준을 어떻게 제공할지 조용히 생각하게 한다. 저장 파일이나 자동 적용 결과를 답으로 먼저 보여주지 않고 S40에서 같은 네 기준을 AGENTS.md에 모은 문서 표현으로 넘긴다.
 
 Evidence / Source:
 BEAT-008, CLM-0003, CLM-0005. TEACHING_MODEL / CONCEPTUAL; the three cards are a constructed example, not a Trial.
@@ -2587,7 +2587,7 @@ Audience Interaction:
 마지막1분은 세 요청에 공통 기준을 어떻게 제공할지 생각하는 Case 시간이다. 실습·답안·공개 응답은 요구하지 않는다.
 
 Transition:
-“반복되던 프로젝트 정보를 실제로 어디에 기록했는지 보겠습니다.”라고 S40로 이동한다.
+“세 요청에 반복되던 공통 기준을 AGENTS.md에 모아 보겠습니다.”라고 S40로 이동한다.
 
 Time Management:
 Spend four minutes on the repeated facts and one minute on the question. Do not preview the solution.
@@ -2616,19 +2616,25 @@ Mode Split:
 Demo 4 minutes (HYBRID planned; activation unverified)
 
 Primary Message:
-STATE-01의 실제 AGENTS.md에 프로젝트 목적·실행 방법·테스트 명령·기본 제약을 기록했다. 이 장은 기록 위치와 내용을 보여주고, 실제 사용 기록은 S41에서 확인한다.
+S39에서 반복되던 테스트 실행·의존성 추가 조건·로컬 합성 데이터·기존 동작 보존을 AGENTS.md 한 곳에 모아 보여준다. 실제 STATE-01의 지침을 한국어 의미로 정리한 문서 도식이며, 기록과 실제 적용 관찰은 구분한다.
 
 Opening Question:
-“반복되던 프로젝트 정보를 실제로 어디에 기록했을까?”
+“반복되는 공통 기준을 AGENTS.md에 남기면, 요청마다 다시 적지 않아도 될까?”
 
 Speaker Flow:
-1. (0:00–1:00) STATE-00-FIXED에서 STATE-01로 바뀐 것은 root AGENTS.md 한 파일 추가임을 설명한다.
-2. (1:00–3:00) 네 발췌를 순서대로 가리킨다. 목적: 로컬 grayscale CLI. 실행: README의 준비된 명령. 테스트: 원문 명령. 제약: 범위를 지키고 관련 동작을 검증. 영어 문장을 모두 낭독하지 않는다.
-3. (3:00–4:00) Task마다 반복 설명하던 사실을 저장소에 둔 설계 의도를 정리하고, 실제 활용 관찰은 S41로 넘긴다.
-
-화면 진행: 한국어 의미를 먼저 읽고 바로 위의 실제 AGENTS.md 발췌와 대조한다. 강조한 CLI 목적·README·범위/검증 문구만 짚고 테스트 명령은 입력 실습이나 CLI 설명으로 확장하지 않는다.
+1. (0:00–1:00) S39의 버그 수정·성능 조사·README 수정이라는 세 작업을 다시 가리킨다. 목표가 아니라 네 공통 기준이 반복되고 있었다는 점을 회수한다.
+2. (1:00–3:00) AGENTS.md 문서 안에서 앞 장과 같은 네 문장을 짚는다. 지정된 테스트의 실제 명령은 그대로 두되 옵션별로 해설하지 않는다. 의존성 추가에는 작업상 근거가 필요하고, 로컬 합성 데이터와 기존 동작 보존은 공통 조건으로 남긴다. 실제 파일의 모든 줄을 그대로 찍은 화면이 아니라 의미를 정리한 문서 도식이다.
+3. (3:00–4:00) 각 작업의 목표는 요청에 남고 공통 지침은 프로젝트 쪽에 둔다는 역할을 확인한다. 파일에 기록한 것만으로 지침이 항상 읽히거나 강제로 준수됐다고 결론내리지 않고 S41의 실행 근거로 넘긴다.
 
 Evidence / Source:
+STATE-01 / DEMO-02 / OBSERVED_PRODUCT + TEACHING_MODEL. Demo tag `14baf81746a981d7cd96b7a014ea06f28c3dd6b4`의 root AGENTS.md를 읽기 전용으로 재확인했다. 화면은 S39와 동일한 네 한국어 의미를 한 문서에 배치한 요약이다. 실제 파일에 이 한국어 네 줄이 그대로 있었거나 전체 문서가 이 네 항목뿐이었다는 뜻이 아니다.
+
+실제 명령: `PYTHONPATH=src python3 -m unittest discover -s tests -v`.
+실제 의존성 지침: `Add a runtime dependency only when the task justifies it.`
+실제 보존 지침: `Preserve existing CLI and image-operation behavior unless the task changes it.`
+“로컬 합성 데이터 사용”은 프로젝트의 synthetic ASCII PGM 목적과 `Keep input and output data local.`을 합쳐 요약한 의미다. 기본 범위·검증 지침은 `Keep changes scoped and verify relevant behavior.`다.
+
+이전 화면의 목적·실행·테스트·기본 제약 네 발췌와 메타데이터 보존:
 STATE-01 / DEMO-02 / OBSERVED_PRODUCT. Demo tag `14baf81746a981d7cd96b7a014ea06f28c3dd6b4`, root `AGENTS.md` 2, 5, 9, 15행 발췌. 15줄/567bytes는 원문 메타데이터이며 화면의 중심 메시지로 쓰지 않는다. 테스트 명령은 `Run`과 구두점을 제외한 원문 명령 문자열이다. Source: `plan/DEMO_MATRIX.md` STATE-01 기록.
 
 보존된 상세 출처: OBSERVED PRODUCT  |  STATE-01 · AGENTS.md 실제 원문 발췌
@@ -2637,6 +2643,8 @@ Claim Boundary:
 실제 파일이 그 상태에 존재했다는 근거다. 성능, 정확도, 토큰 절감 또는 AGENTS.md 단독 인과효과를 주장하지 않는다. 제품 코드·테스트·README는 그 상태 전환에서 바뀌지 않았다. S41의 지침 활용 관찰을 이 장의 결과로 앞당기지 않는다. 현재 Desktop 자동 로딩이나 교육 환경을 검증한 것이 아니다.
 
 보존된 상세 범위: 파일의 내용과 기록 위치를 보여주는 장 · Agent의 활용 관찰은 다음 장에서 확인
+
+DEC-0186: 같은 네 기준을 반복 요청에서 문서로 모으는 시각 연결이다. 한국어 의미 요약과 실제 파일 원문을 구분한다. STATE 이름·발췌 footer를 화면에서 지워도 실제 파일의 존재 범위를 확대하거나 자동 로딩·강제 준수·토큰 절감의 근거로 바꾸지 않는다.
 
 Beginner Explanation:
 A small set of facts that applies across Project Tasks can be written down once in the repository.
@@ -2648,7 +2656,7 @@ C++ Vision Bridge:
 N/A.
 
 Demo Operation:
-`production/ACT_2.pptx`의 S40 및 `production/preview/act2/S40.png`에 있는 실제 AGENTS.md 원문 발췌를 가리킨다. 편집기 screenshot이 아니다. Live/HYBRID는 발표 환경 검증 전까지 비활성이다.
+LOCAL STATIC ARTIFACT — production/ACT_2.pptx의 S40 및 production/preview/act2/S40.png를 기본 경로로 사용한다. 세 작업이 AGENTS.md의 네 공통 지침을 공유하는 도식이며 실제 편집기 캡처가 아니다. 실제 명령만 원문을 유지했다. Live/HYBRID는 발표 환경 검증 전까지 비활성이다.
 
 Audience Interaction:
 Point out the recurring facts without asking the audience to inspect a repository.
@@ -2657,7 +2665,7 @@ Transition:
 “기록해 둔 것과 실제로 참고한 것은 각각 확인해야 합니다. 다음에는 이 지침을 사용한 실행 기록을 보겠습니다.”라고 S41로 이동한다.
 
 Time Management:
-Demo 4분 유지. 1분 상태 전환, 2분 네 발췌, 1분 의미와 S41 handoff. 명령어 옵션별 설명은 생략한다.
+Demo4분 유지: 세 작업/반복1분, 공통 지침 네 항목2분, 기록과 적용의 구분/S41 연결1분. 상태 번호·용량·명령 옵션을 새 강의로 확장하지 않는다.
 
 Fallback:
 LOCAL STATIC ARTIFACT — 발표 기본 경로는 `production/ACT_2.pptx`의 S40 또는 `production/preview/act2/S40.png`다. 수정 초안 정적 화면은 존재하며 최종 release 경로·내용 일치는 통합 검토에서 확인한다. 실제 Trial 캡처나 현재 제품 실행으로 표현하지 않는다.
@@ -3071,6 +3079,8 @@ Speaker Flow:
 3. (1:30–3:00) 관련 상세는 필요할 때 확인할 깊은 명세·구조·테스트 구성·장비 조건이라고 설명한다. 지침의 적용 범위와 실제 읽기를 동일시하거나 분리로 성능이 개선됐다고 말하지 않는다.
 4. (3:00–4:00) C++의 공통 빌드/검증 진입점과 장비별 조건을 짧게 연결하고, S49에서 이 기준을 실제 프로젝트 문서에 적용한 전후를 보겠다고 넘긴다.
 
+DEC-0186: 화면 하단의 “C++에 적용하면” 보조 제목만 삭제했다. 공통 빌드·검증 진입점과 장비별 하드웨어 조건의 대응 예시는 그대로 가리킨다.
+
 Evidence / Source: TEACHING_MODEL / CONCEPTUAL. BEAT-014, CLM-0003/0005/0014/0015, DEC-0054. Historical Demo STATE-03 at f3e2e37b1454e28c5de4c44682ebd49378ebae4b의 AGENTS.md3–20은 목적·로컬 파일·기존 동작 보존·README/검증 진입 안내·주제별 문서 위치를 기록한다. docs/architecture.md는 처리 순서·모듈 역할, docs/image-contracts.md는 crop/resize 명세, docs/testing.md는 테스트 위치·검증 범위를 담는다. 파일명과 내용의 예는 이 보존 기록에 근거한 요약이며 전체 지침의 재현이나 제품 실행 결과가 아니다. 실제 STATE-03 구조 변화와 TRIAL-005A/B 접근 관찰은 S51 이후에 구분한다.
 
 보존된 상세 출처: 교육용 배치 기준 · 명령·검증 규칙도 Project 안내에 포함될 수 있음
@@ -3287,6 +3297,8 @@ C++ Vision Bridge: N/A.
 
 Demo Operation:
 RECONSTRUCTED RECORD — 실제 접근 기록과 명세·답의 요약을 S52 정적 화면으로 보여준다. 입력창 Screenshot이나 실행 로그처럼 꾸미지 않는다. 현재 제품에서 명령을 실행하지 않고 전체 접근 로그를 읽지 않는다. Task B의 접근 차이는 S54에서 확인한다.
+
+DEC-0186: 화면에서 “해석의 한계” 행과 CLI footer를 제거하고 testing.md의 연결 각주 표시(*)도 제거했다. testing.md는 최종 실행에서 관찰됐다는 사실과 더 넓은 문서 접근·최소 문서 선택/효율 미입증의 한계는 Evidence / Source·Claim Boundary에 유지한다. 문서 접근과 명세에 맞는 답을 관찰한 사실까지만 설명한다.
 
 Audience Interaction: 가운데 명세와 오른쪽 열 번호를 보고 ‘끝 좌표3은 포함될까?’를 짧게 확인한 뒤 기록된 답으로 회수한다. 별도 실습·공유·비교 실험은 없다.
 
@@ -4011,20 +4023,26 @@ Opening Question: “이번 성능 조사에 재사용할 방법을 어디서 �
 
 Speaker Flow:
 1. (0:00–0:20) S64의 필요한 작업에만 Skill을 쓴다는 선택을 회수한다. 이번에는 이미지의 밝기 통계를 계산하는 image_statistics의 실행 시간 또는 할당량을 조사할 작업이다. 알고리즘이나 결과6항목의 세부를 앞당겨 설명하지 않는다.
-2. (0:20–0:50) /skills 목록에서 graypipe-performance라는 이름과 설명 일부를 확인한 당시 기록을 짚는다. 설명은 보존된 것처럼 잘린 상태로 두며 경로가 목록에 보였다고 말하지 않는다. 화면은 실제 제품 캡처가 아닌 기록 재구성이다.
+2. (0:20–0:50) 왼쪽 /skill은 “명령 입력 중”인 화면 표현이고 실행 완료 명령이나 과거 입력 원문이 아님을 구분한다. 정식 명령과 당시 기록은 /skills다. 오른쪽은 당시 /skills 목록에서 graypipe-performance라는 이름과 설명 일부를 확인한 당시 기록을 짚는다. 설명은 보존된 것처럼 잘린 상태로 두며 경로가 목록에 보였다고 말하지 않는다. 화면은 실제 제품 캡처가 아닌 기록 재구성이다.
 3. (0:50–1:00) 사용할 수 있는 방법을 찾았다는 사실까지만 회수한다. 실제 사용을 지정한 근거는 다음 요청에서 확인한다고 이동한다.
 
-Evidence / Source: plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt, Skill Discovery, Skill Invocation, Skill Load Evidence; DEC-0017; BEAT-021. 보존 세션 01a0f22c-e6a8-7e50-a4e1-4a581d62266c의 성공한 요청과 <skill> 본문을 재대조했다. /skills는 이름과 설명 일부만 표시했고 경로는 trace에서 확인됐다. 원본의 절대 경로는 해당 disposable workspace이며 화면에는 .agents/skills/graypipe-performance/SKILL.md로 줄였다. 전체 본문은 STATE-04의 SKILL.md와 대조했다.
+Evidence / Source:
+plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt, Skill Discovery, Skill Invocation, Skill Load Evidence; DEC-0017; BEAT-021. 보존 세션 01a0f22c-e6a8-7e50-a4e1-4a581d62266c의 성공한 요청과 <skill> 본문을 재대조했다. /skills는 이름과 설명 일부만 표시했고 경로는 trace에서 확인됐다. 원본의 절대 경로는 해당 disposable workspace이며 화면에는 .agents/skills/graypipe-performance/SKILL.md로 줄였다. 전체 본문은 STATE-04의 SKILL.md와 대조했다.
 
 보존된 상세 출처: TRIAL-008 · Codex CLI 0.154.0 · 기록 발췌·번역·재구성 (실제 UI 캡처 아님)
 
 DEC-0130의 이전120장판 S65 분할에서 이어진 목록·명시 호출 기록이다. 두 장은 같은 TRIAL-008 성공한 실행의 서로 다른 근거를 보여준다. 실제 요청 원문은 plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt와 같다.
 
-Claim Boundary: OBSERVED_PRODUCT / FROZEN WITH SCOPE / REQUIRES PRODUCT CHECK를 유지한다. 이 화면은 실제 UI 캡처나 새 실행이 아닌 기록의 발췌·번역·재구성이다. 성공한 실행은 Codex CLI0.154.0, gpt-5.6-sol high이며 앞선 계정의 gpt-6.1-sol 거절과 구분한다. 별도 load UI 이벤트, 암묵 호출, 현재 Desktop 동작, 모든 지침 준수·Skill 단독 효과·우월성·토큰 절감은 입증하지 않는다. Global Harness의 동시 영향도 배제하지 않는다.
+DEC-0186 제품 표기 확인(2026-11-05): OpenAI Build skills, https://learn.chatgpt.com/docs/build-skills 의 explicit invocation 절과 Developer commands, https://learn.chatgpt.com/docs/developer-commands?surface=cli 의 “Use skills with /skills” 절은 정식 명령을 /skills로 안내한다. 사용자 요청에 따라 화면의 입력 문자열은 /skill로 바꾸고 제목 막대는 “명령 입력 중”으로 둔다. 입력 접두어를 보여주는 설명용 구성이지 /skill이 독립 실행 명령으로 동작했다고 검증한 결과가 아니다. 원래 기록의 /skills·Skill 이름·잘린 설명을 보존한다.
+
+Claim Boundary:
+OBSERVED_PRODUCT / FROZEN WITH SCOPE / REQUIRES PRODUCT CHECK를 유지한다. 이 화면은 실제 UI 캡처나 새 실행이 아닌 기록의 발췌·번역·재구성이다. 성공한 실행은 Codex CLI0.154.0, gpt-5.6-sol high이며 앞선 계정의 gpt-6.1-sol 거절과 구분한다. 별도 load UI 이벤트, 암묵 호출, 현재 Desktop 동작, 모든 지침 준수·Skill 단독 효과·우월성·토큰 절감은 입증하지 않는다. Global Harness의 동시 영향도 배제하지 않는다.
 
 보존된 상세 범위: 별도 load 이벤트 없음 · 지침 준수의 보장은 아님 · 현재 Desktop·암묵 호출 미검증
 
 목록에서 발견한 사실과 사용자가 요청에 명시한 사실을 구분한다. 이것만으로 자동 준수·전체 지침 수행·Skill의 단독 효과를 입증하지 않는다. 새 관찰이나 실행을 추가하지 않는다.
+
+DEC-0186: OBSERVED_PRODUCT 근거는 오른쪽의 실제 발견 기록과 원래 /skills 입력이다. 화면의 /skill은 TEACHING_MODEL인 입력 중 표현이며 현재 계정에서 자동완성·실행을 시험하지 않았다. /skills를 /skill로 바꾼 원시 로그나 새로운 실행을 만들지 않는다.
 
 Beginner Explanation: 필요한 방법을 사용 가능한 목록에서 찾았다. 이름이 보였다는 것만으로 이번 작업에 사용됐다고 말하지 않는다.
 
@@ -4032,7 +4050,8 @@ Advanced Insight: 발견 가능성, 명시 선택, 본문 포함과 실제 수�
 
 C++ Vision Bridge: N/A.
 
-Demo Operation: LOCAL STATIC RECORD — 상단에 밝기 통계 성능 조사라는 한 줄 목표를 둔다. /skills와 목록의 graypipe-performance 이름/잘린 설명을 큰 한 장면으로 보여준다. 경로·전체 Prompt·trace를 같은 장에 넣지 않는다. DEMO-03의 정적 기본 경로는 S65 1분과 S66 2분으로 총3Demo분이다. 새 Trial·제품 실행·Live 활성화를 하지 않는다.
+Demo Operation:
+LOCAL STATIC RECORD — 상단에 밝기 통계 성능 조사라는 한 줄 목표를 둔다. 왼쪽 “명령 입력 중” 창의 /skill 문자열과 오른쪽 과거 목록의 graypipe-performance 이름/잘린 설명을 큰 한 장면으로 보여준다. 경로·전체 Prompt·trace를 같은 장에 넣지 않는다. DEMO-03의 정적 기본 경로는 S65 1분과 S66 2분으로 총3Demo분이다. 새 Trial·제품 실행·Live 활성화를 하지 않는다.
 
 DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
 
@@ -4150,6 +4169,8 @@ Skill 파일의 문법부터 직접 외울 필요 없이 Codex에 원하는 작�
 N/A — 정적 교육용 요청/문서 도식. 실제 Skill/Agent를 만들거나 호출하지 않는다. 현재 로컬 사용자 환경·Demo 저장소의 설정도 바꾸지 않는다.
 
 DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+
+DEC-0186: 사용 예시·생성 지침 검토를 설명하던 하단 footer만 화면에서 삭제했다. 요청은 실제 TRIAL-008 제작 기록이 아닌 사용 예시이고 생성 지침을 검토하고 대표 요청에 사용해 다듬는다는 운영은 본문·Notes에 유지한다.
 
 **Audience Interaction:**
 Lecture2분. 질문은 생각을 돕기 위한 것이며 실습·파일 생성·공개 답변을 요구하지 않는다.

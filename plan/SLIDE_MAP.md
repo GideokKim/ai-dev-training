@@ -1066,22 +1066,22 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Section:** 2A
 - **Working Title:** 다른 Task에 같은 설명이 반복된다
 - **Primary Role:** 같은 프로젝트 기준이 서로 다른 세 작업의 요청에도 반복됨을 확인하고 관리 질문을 구체화한다.
-- **Audience Question:** “공통 기준이 바뀌면, 세 요청에 어떻게 반영할까?”
-- **Core Message:** 버그 수정·성능 조사·README 수정의 목표는 달라도 같은 프로젝트 기준을 참고할 수 있다. 공통 기준의 변경을 여러 요청에 어떻게 반영할지가 다음 관리 질문이다.
+- **Audience Question:** “불필요한 반복을 어떻게 줄일까?”
+- **Core Message:** 버그 수정·성능 조사·README 수정의 목표는 달라도 같은 프로젝트 기준이 반복된다. 이 반복을 어떻게 줄일지 묻고 S40의 공통 지침 문서로 이어진다.
 - **Story Beat:** BEAT-008 — Good Project instructions are repeated in each Prompt
 - **Curriculum Trace:** ACT 2 — repeated project context.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; CONCEPTUAL.
-- **Visual Concept:** Task A/B/C Prompt 아래 반복되는 `test command`, `no runtime dependency`, `local synthetic data`, `preserve public behavior`를 강조한다. 하단에는 “공통 기준이 바뀌면, 세 요청에 어떻게 반영할까?”를 둔다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Visual Concept:** Task A/B/C Prompt 아래 반복되는 `test command`, `no runtime dependency`, `local synthetic data`, `preserve public behavior`를 강조한다. 하단에는 “불필요한 반복을 어떻게 줄일까?”를 둔다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
 - **Demo / Case Connection:** Bug Fix, Performance, README 작업을 나란히 놓은 구성 사례. 해결책은 아직 보여주지 않는다.
 - **Beginner Payoff:** Task마다 반복되는 Project 정보를 알아차린다.
 - **Advanced Payoff:** 작업별 지시와 지속되는 Project 제약을 분리해서 본다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S36/S37의 한 요청에서 세 작업으로 범위를 넓힌다. 기준이 바뀌면 여러 요청에 어떻게 반영할지 묻고, 실제 기록 위치는 S40에 남긴다. 질문은 교육용 가정이며 실제 실패 기록이 아니다.
-- **Transition:** “반복되던 프로젝트 정보를 실제로 어디에 기록했는지 보겠습니다.”라고 S40로 이동한다.
+- **Speaker Intent:** S36/S37의 한 요청에서 서로 다른 세 작업으로 넓혀 네 공통 기준의 반복을 확인한다. “불필요한 반복을 어떻게 줄일까?”라고 묻고 S40에서 같은 기준을 AGENTS.md에 모은다. 실제 반복 비용·절감 성과를 측정한 결과가 아니다.
+- **Transition:** “세 요청에 반복되던 공통 기준을 AGENTS.md에 모아 보겠습니다.”라고 S40로 이동한다.
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Lecture 4분 + Case 1분 = 5분
-- **Evidence / Decision References:** BEAT-008, CLM-0003, CLM-0005, DEC-0115; DEC-0179
+- **Evidence / Decision References:** BEAT-008, CLM-0003, CLM-0005, DEC-0115; DEC-0179; DEC-0186
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S40 — 작은 Project Context의 첫 기록
@@ -1091,23 +1091,23 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Section:** 2B
 - **Working Title:** 작은 Project Context의 첫 기록
 - **Primary Role:** 반복되는 프로젝트 정보의 실제 기록 위치와 내용을 확인한다.
-- **Audience Question:** “반복되던 프로젝트 정보를 실제로 어디에 기록했을까?”
-- **Core Message:** STATE-01의 실제 AGENTS.md에 프로젝트 목적·실행 방법·테스트 명령·기본 제약을 기록했다. 이 장은 기록 위치와 내용을 보여주고, 실제 사용 기록은 S41에서 확인한다.
+- **Audience Question:** “반복되는 공통 기준을 AGENTS.md에 남기면, 요청마다 다시 적지 않아도 될까?”
+- **Core Message:** S39에서 반복되던 테스트 실행·의존성 추가 조건·로컬 합성 데이터·기존 동작 보존을 AGENTS.md 한 곳에 모아 보여준다. 실제 STATE-01의 지침을 한국어 의미로 정리한 문서 도식이며, 기록과 실제 적용 관찰은 구분한다.
 - **Story Beat:** BEAT-009 — Project context moves into `AGENTS.md`
 - **Curriculum Trace:** ACT 2 — Context Engineering Turning Point.
-- **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; OBSERVED PRODUCT STATE. 파일 크기와 내용은 기록된 STATE-01에 한정한다.
-- **Visual Concept:** 실제 STATE-00-FIXED→STATE-01과 root AGENTS.md의 목적·실행 방법·테스트 명령·기본 제약 네 발췌를 한국어 의미와 함께 보여준다. 원본 줄 수·byte metadata는 Notes에 보존한다. 기록 자체와 실제 사용 관찰을 구분한다.
-- **Demo / Case Connection:** 프로젝트 설명, Build/Run 안내, Test 명령, 핵심 제약이 담긴 실제 State를 보여준다.
+- **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
+- **Claim Status:** FROZEN WITH SCOPE — 실제 STATE-01의 공통 지침을 S39와 같은 한국어 의미로 재구성했다. 네 줄의 원문 인용·전체 파일 캡처가 아니며 자동 로딩·강제 준수·효율 향상 주장이 아니다. 현재 제품/계정 REQUIRES PRODUCT CHECK.
+- **Visual Concept:** 왼쪽에 S39의 버그 수정·성능 조사·README 수정이라는 세 작업을 두고 오른쪽 하나의 AGENTS.md 문서로 연결한다. 문서에는 지정된 테스트 실행·의존성 추가에는 근거 필요·로컬 합성 데이터 사용·기존 동작 보존을 앞 장과 같은 표현으로 둔다. 원문 테스트 명령은 첫 기준 아래 유지한다. 목적/Build 안내 전체는 Notes에 보존하고 화면의 STATE 전환·AGENTS.md 발췌 footer는 삭제한다.
+- **Demo / Case Connection:** STATE-01의 실제 지침이 근거이며 같은 네 한국어 표현을 공유 문서로 모으는 설명용 배치다. 파일이 존재했다는 관찰과 S41의 실제 활용 기록은 구분한다.
 - **Beginner Payoff:** 자주 반복되는 내용을 어디에 둘 수 있는지 본다.
 - **Advanced Payoff:** Context를 task prompt와 repository 안내 사이에서 어떻게 나눌지 생각한다.
 - **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** 파일 기능보다 반복 설명을 repository 쪽으로 옮긴 설계 의도에 집중한다.
+- **Speaker Intent:** S39의 반복 질문에 문서 한 곳이라는 배치로 답한다. 원문 전체를 읽거나 영어/한국어를 중복 낭독하지 않는다. 기록 자체로 자동 적용 결과를 결론내리지 않는다.
 - **Transition:** “기록해 둔 것과 실제로 참고한 것은 각각 확인해야 합니다. 다음에는 이 지침을 사용한 실행 기록을 보겠습니다.”라고 S41로 이동한다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (HYBRID) = 4분
-- **Evidence / Decision References:** BEAT-009, STATE-01, CLM-0003, CLM-0005, OQ-003, OQ-005, DEC-0115
-- **Audience Footer:** AGENTS.md 발췌
+- **Evidence / Decision References:** BEAT-009, STATE-01, CLM-0003, CLM-0005, OQ-003, OQ-005, DEC-0115; DEC-0186
+- **Audience Footer:** 없음 — 원문·상태 근거는 Notes에 보존, M 연계 유지
 
 #### S41 — AGENTS.md의 지침대로 검증했다
 
@@ -1297,7 +1297,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 2 — Separation, routing, and progressive disclosure; ACT 3 handoff.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; TEACHING_MODEL; REQUIRES PRODUCT CHECK — 구체적 Windows·shell·IDE·hardware 지시를 추가하는 경우; CONCEPTUAL. 이 설계만으로 정보 검색 성능이 향상된다고 주장하지 않는다.
-- **Visual Concept:** 정확한 최종 디렉터리 목록 대신 적용 범위·읽는 시점·유지할 내용이라는 같은 기준으로 기본 안내와 작업 상세를 비교한다. C++에서는 공통 빌드 진입점과 장비별 하드웨어 조건을 짧게 대조한다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · Context 관리”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다.
+- **Visual Concept:** 정확한 최종 디렉터리 목록 대신 적용 범위·읽는 시점·유지할 내용이라는 같은 기준으로 기본 안내와 작업 상세를 비교한다. C++에서는 공통 빌드 진입점과 장비별 하드웨어 조건을 짧게 대조한다. DEC-0087: 상단에 공통 배지 “실무 적용 팁 · Context 관리”를 붙인다. 활용 목적 표시이며 기존 근거 유형·Claim Boundary는 유지한다. “C++에 적용하면” 보조 제목은 제거하며 두 적용 예시는 유지한다.
 - **Demo / Case Connection:** STATE-03 구조를 설명하기 전 일반적인 Routing mental model을 보여준다.
 - **Beginner Payoff:** 기본 안내와 상세 정보를 다른 역할로 볼 수 있다.
 - **Advanced Payoff:** 항상 필요한 정보와 작업별 세부 정보의 위치를 설계한다.
@@ -1306,7 +1306,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “이 배치 기준을 실제 프로젝트 문서에 적용하면 무엇이 달라질까요?”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 4분 = 4분
-- **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0054, DEC-0060, DEC-0087
+- **Evidence / Decision References:** BEAT-014, STATE-03, CLM-0003, CLM-0005, CLM-0014, CLM-0015, DEC-0054, DEC-0060, DEC-0087; DEC-0186
 - **Practical Tip Classification:** Context 관리
 - **Audience Footer:** 명령·검증 기준도 기본 안내에 둘 수 있음
 
@@ -1398,7 +1398,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 2 — separation, routing, and progressive disclosure.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; OBSERVED PRODUCT. 기록된 CLI 실행과 최종 반복 결과에 한정한다.
-- **Visual Concept:** 요청 A의 `--crop 1 3` 질문을 회수한다. 최종 실행에서 읽은 Markdown 문서5개(`AGENTS.md`, `docs/architecture.md`, `docs/image-contracts.md`, `docs/testing.md`, `README.md`)를 접근 요약으로 나열하고 명세 문서를 강조한다. 해당 문서의 `[x_start, x_end)`와 원본 열0–3 중1·2 강조/출력 폭2/끝 좌표3 제외를 대조한다. 문서 목록은 읽기 순서가 아니며, 화살표는 문서 내용과 답의 대조 관계다. 하단은 관찰된 사실과 해석의 한계를 구분한다.
+- **Visual Concept:** 요청 A의 `--crop 1 3` 질문을 회수한다. 최종 실행에서 읽은 Markdown 문서5개(`AGENTS.md`, `docs/architecture.md`, `docs/image-contracts.md`, `docs/testing.md`, `README.md`)를 접근 요약으로 나열하고 명세 문서를 강조한다. 해당 문서의 `[x_start, x_end)`와 원본 열0–3 중1·2 강조/출력 폭2/끝 좌표3 제외를 대조한다. 문서 목록은 읽기 순서가 아니며, 화살표는 문서 내용과 답의 대조 관계다. 하단에는 관찰된 사실 한 행만 둔다. 해석의 한계·최종 CLI footer는 화면에서 제거하고 Notes에 유지한다. testing.md의 연결 각주(*)도 제거한다.
 - **Demo / Case Connection:** TRIAL-005A 최종 CLI 실행의 문서 접근과 답을 요약·재구성한다. 명세 외에 architecture·README·소스·관련 테스트도 확인했다. `testing.md`와 관련 테스트 접근은 최종 실행에서 관찰했고 이전 실행과 달랐다. 관련 문서 접근과 명세에 맞는 답을 관찰한 범위로 한정한다.
 - **Beginner Payoff:** 결과 주장을 repository 근거와 연결해 본다.
 - **Advanced Payoff:** 선택적 접근이 관찰됐어도 접근 범위가 완벽히 좁지는 않았음을 확인한다.
@@ -1407,8 +1407,8 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “다른 질문인 실행 의존성 요청에서는 어떤 근거로 어떤 답을 얻었을까요?”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
-- **Evidence / Decision References:** BEAT-016, TRIAL-005A, CLM-0014, CLM-0015, DEC-0057, DEC-0060
-- **Audience Footer:** 최종 CLI 기록 · testing.md는 최종 실행에서 관찰
+- **Evidence / Decision References:** BEAT-016, TRIAL-005A, CLM-0014, CLM-0015, DEC-0057, DEC-0060; DEC-0186
+- **Audience Footer:** 없음 — 최종 실행 범위와 해석의 한계는 Notes에 보존
 
 #### S53 — 의존성 질문은 설정과 소스로 답했다
 
@@ -1728,9 +1728,9 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Core Message:** 밝기 통계 계산의 성능 조사에 재사용할 graypipe-performance를 당시 CLI의 /skills 목록에서 이름과 설명 일부로 확인했다. 목록 발견과 실제 요청 지정은 구분한다.
 - **Story Beat:** BEAT-021 — Repository Skill의 발견과 호출
 - **Curriculum Trace:** ACT 3 — observed workflow and repository-owned Performance Skill.
-- **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; Codex CLI 0.154.0에서 관찰. Desktop 동작과 암묵적 호출은 검증하지 않음. 현재 제품 표면의 상태는 **REQUIRES PRODUCT CHECK**.
-- **Visual Concept:** 상단에 밝기 통계 성능 조사라는 한 줄 목표를 둔다. /skills와 목록의 graypipe-performance 이름/잘린 설명을 큰 한 장면으로 보여준다. 경로·전체 Prompt·trace를 같은 장에 넣지 않는다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL / RESEARCH
+- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 대상 Skills 표면·계정·호출 경로; Codex CLI 0.154.0에서 관찰. Desktop 동작과 암묵적 호출은 검증하지 않음. 현재 제품 표면의 상태는 **REQUIRES PRODUCT CHECK**. DEC-0186: /skill은 입력 중인 문자열의 교육용 표시이며 정식 명령이나 실제 입력 원문으로 주장하지 않는다. 공식 안내의 명령은 /skills다.
+- **Visual Concept:** 상단에 밝기 통계 성능 조사라는 한 줄 목표를 둔다. 왼쪽 “명령 입력 중” 창의 /skill 문자열과 오른쪽 실제 과거 목록의 graypipe-performance 이름/잘린 설명을 큰 한 장면으로 보여준다. 경로·전체 Prompt·trace를 같은 장에 넣지 않는다. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다. 화면의 /skill은 입력 접두어 표현이며 정식 명령 /skills와 원래 실행 기록은 Notes에 구분한다. CLI 기록 footer는 제거한다.
 - **Demo / Case Connection:** DEMO-03 / TRIAL-008. 세 번째 성능 조사인 image_statistics의 실행 시간 또는 할당량 조사 요청. 기본은 검증된 정적 기록 도식이며 현재 Live/Hybrid는 미활성이다.
 - **Beginner Payoff:** 필요한 방법을 사용 가능한 목록에서 찾았다. 이름이 보였다는 것만으로 이번 작업에 사용됐다고 말하지 않는다.
 - **Advanced Payoff:** 발견 가능성, 명시 선택, 본문 포함과 실제 수행을 구분한다. 목록에 파일 경로는 없었으며 보존된 영문 설명의 잘림을 임의로 복원하지 않는다.
@@ -1739,8 +1739,8 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “찾은 Skill을 이번 작업 요청에는 어떻게 지정했을까요?”
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Demo 1분 (HYBRID) = 1분
-- **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0066, DEC-0130; DEC-0179
-- **Audience Footer:** Codex CLI 0.154.0 기록
+- **Evidence / Decision References:** BEAT-021, TRIAL-008, DEC-0017, OQ-005, DEC-0062, DEC-0066, DEC-0130; DEC-0179; DEC-0186
+- **Audience Footer:** 없음 — 실제 CLI 버전·/skills 입력 원문은 Notes에 보존
 
 #### S66 — 이번 요청에 사용할 Skill을 지정한다
 
@@ -1789,9 +1789,9 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “지금 본 제작 요청은 사용 예시입니다. 같은 밝기 통계 작업을 C++로 옮기면 어떤 구현을 고를지, 별도 비교 실험을 보겠습니다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** SRC-0111, CLM-0041, DEC-0093; DEC-0179; EXP-CPP-STATS-001; DEC-0183; demos/experiments/cpp-statistics/results/summary.json
+- **Evidence / Decision References:** SRC-0111, CLM-0041, DEC-0093; DEC-0179; EXP-CPP-STATS-001; DEC-0183; demos/experiments/cpp-statistics/results/summary.json; DEC-0186
 - **Practical Tip Classification:** 수행 방법
-- **Audience Footer:** 사용 예시 · 생성 지침을 검토하고 실제 요청으로 확인
+- **Audience Footer:** 없음 — 사용 예시와 지침 검토 범위는 Notes·본문에 유지
 
 #### S68 — 밝기 통계 계산의 성능 개선 후보
 
