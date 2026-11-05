@@ -189,36 +189,36 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Advanced Payoff:** 반복되는 수고가 코드 생성보다 Context 수집에서 발생할 수 있음을 본다.
 - **C++ Vision Bridge:** C++/Visual Studio 사용자에게 익숙한 디버깅 정보 범주를 활용한다. 특정 메뉴·제품 버전·빌드·장비 조작이나 실제 C++ 실행을 입증하는 예시는 아니다.
 - **Speaker Intent:** 익숙한 Chatbot 방식의 가치를 유지하면서, 이미 살펴보는 테스트·코드·런타임 값·명세서가 각각 Context가 됨을 드러낸다. 필요한 정보를 골라 모으는 Friction을 설명하며 여섯 범주를 모두 요구하거나 Agent 해결책을 먼저 공개하지 않는다.
-- **Transition:** “파일명을 알려주지 않아도 Agent가 필요한 경로를 찾을까?”라는 Demo 질문으로 넘어간다.
+- **Transition:** “먼저 사람이 자료를 직접 첨부해 질문하는 방식을 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Case 4분 = 4분
-- **Evidence / Decision References:** BEAT-002, CLM-0004, CLM-0009
+- **Evidence / Decision References:** BEAT-002, CLM-0004, CLM-0009; DEC-0185
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S06 — Agent에게 테스트 실패 원인을 조사하게 한다
+#### S06 — Chatbot은 주어진 Context만을 활용해서 조사한다
 
 - **Slide ID:** S06
 - **ACT:** ACT 0
 - **Section:** 0D
-- **Working Title:** Agent에게 테스트 실패 원인을 조사하게 한다
-- **Primary Role:** Demo 전 관찰 기준 제시
-- **Audience Question:** “Agent가 실패 원인을 설명하려면 무엇을 확인해야 할까?”
-- **Core Message:** 실패 원인을 조사하되 코드는 수정하지 말라는 요청을 전달하고, 실패 테스트·관련 구현·호출 경로를 찾아 설명하는 과정을 관찰한다.
+- **Working Title:** Chatbot은 주어진 Context만을 활용해서 조사한다
+- **Primary Role:** 프로젝트 자료를 사람이 선택·첨부하는 방식의 출발점을 보여준다.
+- **Audience Question:** “Chatbot은 이 대화에 어떤 프로젝트 자료를 받았나요?”
+- **Core Message:** 사람이 프로젝트 자료를 직접 첨부하는 대화 방식에서는 선택·전달한 정보가 조사의 출발점이다. 프로젝트 폴더의 나머지 파일이 자동으로 포함된 것으로 가정하지 않는다.
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — ChatGPT → Codex repository exploration.
-- **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; REQUIRES PRODUCT CHECK — 현재 Live/Hybrid 제품 경로를 선택하는 경우; 현재 Codex Desktop·계정 동작은 **REQUIRES PRODUCT CHECK**. TRIAL-001은 Codex CLI 관찰만 뒷받침한다. 실제 요청 원문을 재구성한 입력창과 우측의 교육용 GoogleTest 가상 UI를 구분한다. 가상 UI의 5개 통과·1개 실패는 실제 Trial 결과가 아니다.
-- **Visual Concept:** 좌측은 TRIAL-001 요청 원문을 일반 프롬프트 입력창 형태로 재구성한다. 우측은 `Read / Resize / Crop / Normalize / Statistics / Write` 중 Crop 하나가 실패하는 교육용 GoogleTest 가상 UI이며 “C++ 설명용 가상 화면” 표기로 구분한다. 좌우를 실행 결과 화살표로 잇지 않는다. 아래에는 실패 테스트·관련 구현·호출 경로라는 세 관찰 항목을 유지하고, 실제 발견 파일과 원인은 S07–S08에서 공개한다. DEC-0034. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다. 제목은 “Agent에게 테스트 실패 원인을 조사하게 한다”, 좌측 소제목은 “실제로 전달한 조사 요청”으로 표시한다. TRIAL-001 식별자와 두 하단 출처 문구는 화면에서 제외하고 Notes에 유지한다. 우측의 “C++ 설명용 가상 화면” 표시는 유지한다. DEC-0180.
-- **Demo / Case Connection:** DEMO-01 setup. STATE-00 / TRIAL-001; 읽기 전용 질문
-- **Beginner Payoff:** 무엇을 보고 판단하면 되는지 미리 안다.
-- **Advanced Payoff:** 답의 품질만 보지 않고 Context를 찾는 과정도 관찰한다.
-- **C++ Vision Bridge:** GoogleTest 형식은 C++ 청중을 위한 가상 설명 그림에만 사용한다. 실제 TRIAL-001은 Python unittest였으며 C++ 제품 State·실행·측정으로 전환하지 않는다.
-- **Speaker Intent:** 먼저 실제 요청의 조건과 관찰 기준을 정한다. 입력창은 원문 재구성, GoogleTest는 별도 가상 UI임을 알리고, 실제 Trial의 결과·원인과 현재 제품 동작을 미리 단정하지 않는다.
-- **Transition:** 실행 또는 준비된 캡처에서 발견된 파일과 경로를 보여준다.
+- **Evidence Type:** TEACHING_MODEL / CONCEPTUAL
+- **Claim Status:** TEACHING MODEL — 직접 자료를 선택·첨부하는 대화 방식을 설명한다. 실제 Chatbot 입력·응답·품질·시간 비교가 아니며 Chatbot의 모든 기능·사전 지식·도구 접근을 정의하지 않는다. 과거 Agent 요청과 실제 조사 근거는 S12 Notes와 원자료에 보존한다.
+- **Visual Concept:** 프로젝트 폴더의 테스트·명세·관련 코드가 사람의 선택·첨부를 거쳐 Mac 스타일 “조사 요청” 창으로 들어간다. 그 밖의 소스·문서는 창 밖에 남는다. 요청은 첨부 자료의 Crop 원인 설명과 코드 미수정을 요구하는 각색이다. 이전 실제 Agent 요청·GoogleTest 가상 UI를 Chatbot 실행처럼 보여주지 않는다.
+- **Demo / Case Connection:** DEMO-01의 Lecture2분 도입. 자료 첨부 방식의 가정이며 S07/S08의 원래 CLI 관찰 근거 Demo8분과 구분한다.
+- **Beginner Payoff:** 질문 문장 외에도 이 프로젝트의 어떤 자료를 전달했는지가 필요하다. 이 방식에서는 자료를 찾아 골라 넣는 사람이 출발점을 만든다.
+- **Advanced Payoff:** 정보를 수집하는 주체와 AI의 분석 능력을 구분한다. 전달하지 않은 프로젝트 정보와 제품의 해결 능력 부족을 같은 것으로 취급하지 않는다.
+- **C++ Vision Bridge:** N/A — 언어와 무관한 자료 전달 방식이다. 이전 GoogleTest 가상 목록은 이번 화면에서 제외하고 원래 Python CLI 근거는 보존한다.
+- **Speaker Intent:** S05에서 살펴본 정보를 대화에 넣을 때 사람이 선택한다는 문제를 연다. 실제 Agent의 성공을 먼저 제시하지 않고 S07의 현상·S08의 필요한 근거로 이어간다.
+- **Transition:** “먼저 같은 Crop 문제에서 어떤 결과 차이가 있었는지 보겠습니다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, STATE-00, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005; DEC-0179; DEC-0180
-- **Audience Footer:** 없음 — 실행 환경·Python 실제 기록·GoogleTest 가상 UI의 상세 근거는 Notes에 보존한다. DEC-0180.
+- **Evidence / Decision References:** BEAT-003, DEMO-01, STATE-00, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005; DEC-0179; DEC-0180; DEC-0185
+- **Audience Footer:** 없음 — 실제 실행을 뜻하는 보조 문구 없이 자료 첨부 관계를 보여준다. 근거·범위는 Notes에 보존한다.
 
 #### S07 — Crop은 기대한 폭보다 한 열을 더 포함했다
 
@@ -233,141 +233,141 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN WITH SCOPE — TRIAL-001·STATE-00의 Python Crop 한 건. 첫 행 발췌 재구성이며 코드 수정·C++ 할당/오버런·현재 Desktop 검증이 아니다.
-- **Visual Concept:** 첫 행 입력1·2·3·4와 열index0–3, 기대2·3/폭2와 구현2·3·4/폭3을 크게 대비한다. 원본 두 행 중 첫 행만 발췌한 도식임을 표시한다.
-- **Demo / Case Connection:** DEMO-01의8분 정적 관찰 근거 구간을 S07/S07에4분씩 배분한다.
+- **Visual Concept:** 기존 첫 행1/2/3/4, 열index0–3, 기대2/3·폭2와 구현2/3/4·폭3 도식을 보존한다. 하단 “조사 기록 요약 · 코드 수정 없음”만 삭제하고 미수정 사실은 Notes에 유지한다.
+- **Demo / Case Connection:** DEMO-01의 원래 CLI 관찰 근거8분을 S07/S08에4분씩 유지한다. 새 Chatbot 비교 실행은 없다.
 - **Beginner Payoff:** 끝 좌표를 하나 더 포함하면 기대한 폭과 값이 달라지는 현상을 본다.
 - **Advanced Payoff:** 의도한 범위와 실제 결과를 명세에 대조하고 메모리 할당·capacity 문제로 일반화하지 않는다.
 - **C++ Vision Bridge:** S03의 원소 수 확인 질문만 회수한다. 실제 사례는 Python Crop이며 C++ 실행·할당 오류가 아니다.
-- **Speaker Intent:** Crop 실패의 현상을 기대한 폭과 실제 포함 값으로 먼저 이해시킨다. DEC-0084의 한 장 한 질문과 화면에 표시한 근거 경계를 따른다.
-- **Transition:** “이 차이를 무엇을 근거로 설명했는지, 테스트·명세·구현을 함께 보겠습니다.”
+- **Speaker Intent:** 기존 기대 폭2·실제 폭3과 값2/3/4를 그대로 보여준다. S06의 Chatbot 실행 결과로 귀속하지 않고 필요한 근거를 살펴볼 사례 현상으로 설명한다.
+- **Transition:** “왜 다른지 설명하려면 어떤 테스트·명세·구현을 연결해야 하는지 보겠습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
-- **Audience Footer:** 조사 기록 요약 · 코드 수정 없음
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084; DEC-0185
+- **Audience Footer:** 없음 — 지정 footer 삭제. 코드 미수정 사실과 원래 Python CLI 근거는 Notes에 보존한다.
 
-#### S08 — 테스트·명세·구현을 연결해 원인을 설명했다
+#### S08 — 원인을 설명하려면 테스트·명세·구현을 연결해야 한다
 
 - **Slide ID:** S08
 - **ACT:** ACT 0
 - **Section:** 0D
-- **Working Title:** 테스트·명세·구현을 연결해 원인을 설명했다
-- **Primary Role:** 앞 장의 결과 차이를 설명한 근거와 관련 코드 호출 관계를 분리해 보여준다.
-- **Audience Question:** “어떤 자료를 연결했기에 Crop 실패 원인을 설명할 수 있었나요?”
-- **Core Message:** 실패 테스트와 끝 좌표 제외 명세, 끝 좌표까지 포함한 row[x_start : x_end + 1] 구현을 대조해 실패를 설명했다. 관련 코드는 cli.main→pipeline.process_image→transform.crop 호출 관계로 연결됐다.
+- **Working Title:** 원인을 설명하려면 테스트·명세·구현을 연결해야 한다
+- **Primary Role:** Crop 현상을 설명할 세 근거가 프로젝트의 어디에 있는지 보여주고 자료 수집의 필요를 드러낸다.
+- **Audience Question:** “폭2와 폭3의 차이를 설명하는 근거는 프로젝트의 어디에 있었나요?”
+- **Core Message:** 실패 테스트와 끝 좌표 제외 명세, 끝 좌표까지 포함한 row[x_start : x_end + 1] 구현을 대조해 실패를 설명했다. 관련 코드는 cli.main→pipeline.process_image→transform.crop 호출 관계로 연결됐다. 이 자료는 프로젝트의 테스트 파일·README·구현 파일에 나뉘어 있었다. 원인을 설명하려면 필요한 자료를 찾아 연결해야 한다.
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN WITH SCOPE — TRIAL-001 단일 CLI 조사. 관계도는 Agent의 실제 접근 시간순 로그가 아니며 README의 기존 결함 안내도 있었다. 코드 수정·반복성·현재 Desktop 동작을 주장하지 않는다.
-- **Visual Concept:** 실패 테스트/명세/구현 세 근거를 가로로 연결하고, 하단에 관련 코드 호출 관계를 별도로 둔다. 본문의 연결은 설명 관계이며 실제 탐색 순서가 아니다.
-- **Demo / Case Connection:** DEMO-01의8분 정적 관찰 근거 구간을 S07/S07에4분씩 배분한다.
+- **Visual Concept:** 프로젝트 폴더의 세 자료를 파일 아이콘과 실제 위치로 보여준다. tests/test_transform.py의 테스트, README.md의 끝 좌표 제외 설명, src/graypipe/transform.py의 구현을 연결한다. 하단 제품 호출 관계는 보존한다. 근거 관계도이며 실제 파일 접근 시간순이 아니다.
+- **Demo / Case Connection:** DEMO-01의 원래 CLI 관찰 근거8분을 S07/S08에4분씩 유지한다. 자료 위치 대조는 읽기 전용 확인이며 새 Trial이 아니다.
 - **Beginner Payoff:** 답만 듣는 대신 테스트·명세·구현이 어떻게 원인 설명을 뒷받침하는지 본다.
 - **Advanced Payoff:** 코드 호출 관계·근거 연결·Agent 접근 시간순과 독립 발견 주장을 구분한다.
 - **C++ Vision Bridge:** N/A. 실제 Python 조사 근거를 C++ Trial로 바꾸지 않는다.
-- **Speaker Intent:** 앞 장의 결과 차이를 설명한 근거와 관련 코드 호출 관계를 분리해 보여준다. DEC-0084의 한 장 한 질문과 화면에 표시한 근거 경계를 따른다.
-- **Transition:** “같은 전체 테스트 실행에서 나온 다른 오류는, 이 Crop 결함과 원인이 달랐습니다.”
+- **Speaker Intent:** 코드 정답 설명보다 원인을 설명하기 위해 테스트·명세·구현을 찾아 연결해야 함을 읽게 한다. README에도 결함 안내가 있었으며 독립 발견·Chatbot 비교 결과로 바꾸지 않는다.
+- **Transition:** “그런데 같은 전체 테스트에는 코드 결함과 원인이 다른 오류도 있었습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084; DEC-0185
 - **Audience Footer:** 발견한 근거의 관계도
 
-#### S09 — 다른 테스트 오류는 임시 폴더 생성에서 발생했다
+#### S09 — 코드만으로 설명되지 않는 오류도 있었다
 
 - **Slide ID:** S09
 - **ACT:** ACT 0
 - **Section:** 0D
-- **Working Title:** 다른 테스트 오류는 임시 폴더 생성에서 발생했다
+- **Working Title:** 코드만으로 설명되지 않는 오류도 있었다
 - **Primary Role:** Crop 실패와 별개인 전체 테스트의 실행 환경 오류를 한 사건으로 설명한다.
-- **Audience Question:** “테스트가 임시 폴더를 만들려는데 쓰기 권한이 없으면 어떻게 될까요?”
+- **Audience Question:** “코드만 보냈다면 이 오류의 원인까지 설명할 수 있을까요?”
 - **Core Message:** TRIAL-001 전체 테스트의 환경 오류3건은 읽기 전용 실행 조건이 임시 디렉터리 생성을 막아 발생했다. Crop 결함과 별개이며 Agent도 그 권한 제한을 해제하지 않았다.
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN WITH SCOPE — TRIAL-001 실행 환경 제한의 관찰. Product/Crop 결함이나 성공한 환경 복구, 현재 Desktop 동작의 근거가 아니다.
-- **Visual Concept:** 테스트 실행→임시 폴더 생성 요청→읽기 전용 권한으로 생성 불가를 한 가로 도식으로 보여준다. Crop 실패와 별개임과 제한 미해결을 화면에서 읽게 한다. 가짜 로그·권한 해제 화면은 만들지 않는다.
+- **Visual Concept:** 기존 테스트 실행→임시 폴더 요청→읽기 전용 권한으로 생성 불가 도식을 유지한다. 마지막은 실행 로그·권한 정보도 필요하다는 문장으로 연결한다. 실제 오류3건은 Crop 결함과 별개이며 권한 해결·Agent 성능의 증거로 사용하지 않는다.
 - **Demo / Case Connection:** DEMO-01의 별도 Case/교육용 해석·callback이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 테스트가 실패하는 이유에는 코드 결함 외 실행 조건도 있음을 이해한다.
 - **Advanced Payoff:** 제품 결함과 실행 제한을 분리하고, 제한 관찰과 권한 변경·해결을 구분한다.
 - **C++ Vision Bridge:** N/A. 제조 현장/Windows에서 같은 오류가 관찰된 것으로 바꾸지 않는다.
-- **Speaker Intent:** Crop 실패와 별개인 전체 테스트의 실행 환경 오류를 한 사건으로 설명한다. DEC-0084의 한 장 한 질문과 화면에 표시한 근거 경계를 따른다.
-- **Transition:** “두 원인을 판단할 때 필요했던 정보들을 한곳에 모아보겠습니다.”
+- **Speaker Intent:** 코드 밖의 실행 자료도 조사에 필요하다는 역할만 맡긴다. 환경 문제를 Repository 접근의 해결 대상으로 제시하지 않는다.
+- **Transition:** “지금까지 필요한 자료를 모으면, 프로젝트 파일과 실행 환경의 두 곳에 나뉩니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Case 3분 = 3분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084; DEC-0185
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S10 — 원인 판단에는 코드와 실행 환경 정보가 필요했다
+#### S10 — 이 자료를 매번 사람이 찾아 전달해야 할까?
 
 - **Slide ID:** S10
 - **ACT:** ACT 0
 - **Section:** 0D
-- **Working Title:** 원인 판단에는 코드와 실행 환경 정보가 필요했다
-- **Primary Role:** 앞선 두 사건에서 사용한 자료를 묶어 이번 조사에 필요한 Context로 이름 붙인다.
-- **Audience Question:** “이번 조사에서는 파일 외에 어떤 정보까지 필요했나요?”
-- **Core Message:** 개발 프로젝트의 테스트·명세·구현/호출 관계와 실행 환경의 로그·권한 정보를 함께 보아 원인을 구분한다. 이번 원인 판단에 쓰는 정보를 Context로 묶는 교육용 도식이다.
+- **Working Title:** 이 자료를 매번 사람이 찾아 전달해야 할까?
+- **Primary Role:** 필요한 자료를 모아 누가 찾고 연결해 전달할지 묻는다.
+- **Audience Question:** “답변 전에 이 자료를 찾고 연결하는 일은 누가 할까요?”
+- **Core Message:** Crop 원인을 설명한 테스트·명세·구현/호출 관계와 별도 실행 오류를 설명한 로그·권한 정보가 필요했다. 이 자료를 답변 전에 누가 찾고 연결해 전달할지 묻는다.
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — TRIAL-001에서 살펴본 정보를 묶은 해석이며 새 실행·제품 우열이 아니다. 개발 프로젝트 접근은 실행 권한 확장을 뜻하지 않는다.
-- **Visual Concept:** 왼쪽 프로젝트 파일 자료3개와 오른쪽 실행 환경 자료2개를 구분해 모으고, 원인을 판단하는 데 쓰는 정보=Context라는 한 결론으로 연결한다. 환경 오류 원인을 재강의하거나 ACT2의 Routing 설계를 먼저 설명하지 않는다.
+- **Visual Concept:** 프로젝트 폴더의 테스트·명세·구현/호출과 실행 환경의 로그·권한을 두 프레임으로 묶는다. 파일은 문서 아이콘, 권한은 자물쇠로 구분한다. 같은 조사에서 필요한 다섯 자료이며 마지막은 답변 전 수집·연결 작업으로 이어진다.
 - **Demo / Case Connection:** DEMO-01의 별도 Case/교육용 해석·callback이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** Context가 단지 복사한 코드 조각만을 의미하지 않음을 이번 사건으로 이해한다.
 - **Advanced Payoff:** 저장소에 있는 사실과 도구·권한이 제공하는 실행 조건의 출처를 구분한다.
 - **C++ Vision Bridge:** N/A. 일반화된 새 C++ 규칙·장비 사례는 추가하지 않는다.
-- **Speaker Intent:** 앞선 두 사건에서 사용한 자료를 묶어 이번 조사에 필요한 Context로 이름 붙인다. DEC-0084의 한 장 한 질문과 화면에 표시한 근거 경계를 따른다.
-- **Transition:** “이 자료를 사람이 직접 골라 대화창에 넣는다면, 답을 받기 전에 어떤 일을 해야 할까요?”
+- **Speaker Intent:** Context 정의를 재강의하지 않고 필요한 자료의 출처를 모은 뒤 사람과 Agent의 수집 방식 비교를 연다.
+- **Transition:** “먼저 이 자료를 사람이 직접 골라 Chatbot에 전달하는 방식입니다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Case 2분 = 2분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084; DEC-0185
 - **Audience Footer:** 프로젝트 파일 접근과 실행 권한은 별개
 
-#### S11 — Chatbot에 이 자료를 직접 전달한다면?
+#### S11 — Chatbot에 줄 자료는 사람이 모은다
 
 - **Slide ID:** S11
 - **ACT:** ACT 0
 - **Section:** 0E
-- **Working Title:** Chatbot에 이 자료를 직접 전달한다면?
+- **Working Title:** Chatbot에 줄 자료는 사람이 모은다
 - **Primary Role:** 동일한 조사 자료를 사람이 직접 선택·첨부하는 대화 방식의 준비 작업을 보여준다.
-- **Audience Question:** “답을 받기 전에 누가 필요한 자료를 찾아 골라 전달하나요?”
+- **Audience Question:** “이 자료를 Chatbot에 넘기기 전에 누가 찾고 연결하나요?”
 - **Core Message:** 자료를 직접 선택·첨부하는 대화 방식에서는 사람이 테스트·명세·구현·실행 로그·권한 정보를 찾아 연결해 전달한다. 이는 수집 주체를 설명하는 가정이며 모든 Chatbot 사용 방식이나 능력의 한계를 정하는 주장이 아니다.
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** TEACHING MODEL — 실제 Chatbot 비교 실행·성능·불가능성 주장이 아니다. 환경 로그·권한 정보까지 전달하면 원인 분석 단서도 전달된다.
-- **Visual Concept:** 오른쪽 대화창을 ChatGPT 웹 UI 재구성으로 바꾼다. 사람이 골라 둔 코드·테스트·명세와 로그·권한 정보를 첨부하고 crop 오류 설명을 요청하는 모습만 보여 준다. 응답이나 실제 비교 결과를 추가하지 않는다. 왼쪽 다섯 자료·가운데 사람·연결선·우측 상단의 기존 삽화는 유지한다. DEC-0107. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Visual Concept:** 기존 다섯 자료·사람·연결선·ChatGPT UI·우측 상단 삽화의 위치를 보존한다. 가운데는 “찾기 → 연결 → 첨부”, 마지막은 사람의 자료 수집을 명확히 한다. 제목은 삽화와 겹치지 않도록 짧게 표현한다. 실제 답변·비교 결과를 추가하지 않는다.
 - **Demo / Case Connection:** DEMO-01의 별도 Case/교육용 해석·callback이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 답변 전에도 사람이 관련 자료를 찾아 연결하는 일이 있음을 본다.
 - **Advanced Payoff:** 정보가 전달되지 않은 상태와 도구의 문제 해결 능력을 구분한다.
 - **C++ Vision Bridge:** Contextual cue — 큰 저장소에서 필요한 자료를 찾는 상황에만 연결한다.
-- **Speaker Intent:** 동일한 조사 자료를 사람이 직접 선택·첨부하는 대화 방식의 준비 작업을 보여준다. DEC-0084의 한 장 한 질문과 화면에 표시한 근거 경계를 따른다.
-- **Transition:** “방금 본 Agent 조사에서는, 이 자료를 찾고 연결하는 일을 일부 맡겼습니다.”
+- **Speaker Intent:** S10에서 모은 같은 자료를 사람이 찾아 연결해 첨부하는 과정을 보여주고 S12의 Agent와 비교한다.
+- **Transition:** “같은 자료를 허용된 프로젝트에서 Agent가 직접 조사하게 하면 어떨까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086, DEC-0107; DEC-0179
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086, DEC-0107; DEC-0179; DEC-0185
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
-#### S12 — Agent가 자료를 직접 찾아 연결했다
+#### S12 — Agent는 프로젝트 폴더에서 직접 조사한다
 
 - **Slide ID:** S12
 - **ACT:** ACT 0
 - **Section:** 0E
-- **Working Title:** Agent가 자료를 직접 찾아 연결했다
+- **Working Title:** Agent는 프로젝트 폴더에서 직접 조사한다
 - **Primary Role:** 같은 자료를 Agent가 허용된 범위에서 조사한 관계로 바꿔 보여주고 Codex 진입 안내로 연결한다.
-- **Audience Question:** “방금 Agent는 허용된 환경에서 어떤 자료를 직접 찾아 연결했나요?”
-- **Core Message:** TRIAL-001에서 Agent가 허용된 파일·도구 범위의 테스트·코드·명세·실행 결과를 조사하고 Crop 원인과 실행 제한을 구분했다. 목표·검토 책임은 사람에게 남으며 접근 전 승인된 도구·계정·자료·권한 범위를 확인한다.
+- **Audience Question:** “같은 자료를 사람이 모두 복사하는 대신, Agent가 허용된 프로젝트에서 조사하게 할 수 있을까요?”
+- **Core Message:** TRIAL-001에서 Agent가 허용된 파일·도구 범위의 테스트·코드·명세·실행 결과를 조사하고 Crop 원인과 실행 제한을 구분했다. 목표·검토 책임은 사람에게 남으며 접근 전 승인된 도구·계정·자료·권한 범위를 확인한다. S11과 달라지는 것은 자료 수집·연결의 일부를 맡기는 주체다. 더 좋은 답·시간 절감·권한 해결을 비교 입증한 것은 아니다.
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE — 실제 관찰은 과거 Codex CLI0.154.0 한 번; TEACHING MODEL — 그림은 조사 관계의 각색. 현재 Desktop·일반 효율·반복성·권한 확대/해결을 주장하지 않는다.
-- **Visual Concept:** 오른쪽 결과 영역을 프로젝트가 열린 Codex UI 재구성으로 바꾼다. 테스트·관련 코드, Crop 명세와 구현 차이, 실행 중 권한 제한이라는 기존 CLI 조사 요약을 담는다. “화면 재구성 · 근거는 CLI 조사 기록”을 바로 아래 표시한다. 실제 Desktop 실행·새 로그·권한 해결을 뜻하지 않는다. 왼쪽 자료·가운데 Agent·연결선·우측 상단 삽화는 유지한다. DEC-0107. 요청 입력 부분은 기존 Mac 스타일의 제목 막대·세 색상 표시·밝은 본문·둥근 테두리로 통일한다. 문장·강조·앞뒤 관계는 보존하며 [공통 적용 범위](MAC_PROMPT_STYLE_AUDIT.md)를 따른다.
+- **Visual Concept:** S11과 같은 다섯 자료·배치를 유지하면서 주체가 Agent로 바뀐다. 기존 Codex UI와 삽화·CLI 출처 표기를 보존한다. 마지막은 자료 수집·연결 일부를 허용 범위에서 맡기는 이점이다. 긴 제목은 삽화와 겹치지 않도록 짧게 표현한다.
 - **Demo / Case Connection:** DEMO-01의 별도 Case/교육용 해석·callback이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 관련 파일을 모두 직접 복사하기 전에 허용된 개발 프로젝트 조사를 요청할 수 있음을 본다.
 - **Advanced Payoff:** Context 수집 역할의 일부와 목표 설정·권한·수용 판단 책임을 분리한다.
 - **C++ Vision Bridge:** Contextual cue — 저장소의 모듈·테스트·명세 조사에만 연결한다.
-- **Speaker Intent:** 같은 자료를 Agent가 허용된 범위에서 조사한 관계로 바꿔 보여주고 Codex 진입 안내로 연결한다. DEC-0084의 한 장 한 질문과 화면에 표시한 근거 경계를 따른다.
-- **Transition:** “그렇다면 이 교육에서는 어디에서 개발 프로젝트를 열까요?”
+- **Speaker Intent:** 과거 단일 CLI 조사에서 확인한 직접 조사 범위로 이점을 회수한다. 현재 Desktop 검증·권한 해결·품질/시간 우월성으로 확대하지 않는다. 원래 실제 Agent 요청은 이 장의 Notes와 원자료로 연결한다.
+- **Transition:** “이 교육에서는 이 프로젝트 조사를 어디에서 시작할까요?”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086, DEC-0107; DEC-0179
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084, DEC-0085, DEC-0086, DEC-0107; DEC-0179; DEC-0185
 - **Audience Footer:** Codex CLI 조사 기록
 
 #### S13 — 개발 프로젝트 조사는 Codex에서 시작한다
@@ -388,11 +388,11 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Beginner Payoff:** Chatbot 대화에서 개발 프로젝트 개발 작업으로 이동할 때 선택할 입구를 안다.
 - **Advanced Payoff:** 기능 설명 문서와 계정·제품 표면에서 실제 확인해야 하는 진입 동작을 구분한다.
 - **C++ Vision Bridge:** 없음 — 특정 IDE·CMake·컴파일러 조작으로 확장하지 않음.
-- **Speaker Intent:** 1분 안에 ChatGPT 메뉴의 Codex 선택과 프로젝트 폴더 연결을 짚고 조사 요청으로 끝낸다. 공식 문서 확인과 실제 화면 확인을 구분하고, “개발 프로젝트 접근은 오직 Codex만 가능하다”는 보편 단정을 하지 않는다. ChatGPT Work도 파일 접근을 제공할 수 있으나 이 장의 경로는 Codex다.
+- **Speaker Intent:** S12에서 실제 Agent 조사 범위를 회수한 뒤 기존 Codex 진입 안내로 연결한다. 화면·공식 근거·제품 미검증 범위는 유지한다.
 - **Transition:** “이제 사람과 Agent가 같은 개발 프로젝트를 볼 수 있습니다. 그중 무엇을 함께 보고, 무엇을 사람이 최종 결정해야 할까요?”라고 S14를 연다.
 - **Estimated Time:** 1분
 - **Delivery Mode Allocation:** Lecture 1분 = 1분
-- **Evidence / Decision References:** BEAT-003, DEC-0036, CLM-0031, SRC-0228, SRC-0229; OpenAI [Quickstart](https://learn.chatgpt.com/docs/quickstart?setup=app), [App](https://learn.chatgpt.com/docs/app), 2026-10-21 확인. 현재 제품·계정·Windows 재확인 Gate 유지., DEC-0087
+- **Evidence / Decision References:** BEAT-003, DEC-0036, CLM-0031, SRC-0228, SRC-0229; OpenAI [Quickstart](https://learn.chatgpt.com/docs/quickstart?setup=app), [App](https://learn.chatgpt.com/docs/app), 2026-10-21 확인. 현재 제품·계정·Windows 재확인 Gate 유지., DEC-0087; DEC-0185
 - **Practical Tip Classification:** 사용 환경
 - **Audience Footer:** 메뉴 예시
 
@@ -2797,7 +2797,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 5 — seven takeaways and final reflection; `plan/CURRICULUM.md` (Core Takeaways).; ACT 5 — audience next steps, seven takeaways, and final reflection.
 - **Evidence Type:** TEACHING_MODEL
 - **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; TEACHING_MODEL; 개인 Reflection이며 응답·공유·실천 약속을 요구하지 않는다.
-- **Visual Concept:** 기존 A–E 대응과 통합·제거 선택을 유지. E의 다음 행동만 새 문제와 정렬. S107/S108은 A–E 표식의 위치·크기와 행 간격을 공유한다. 두 장의 첫 행 기준선은 y253, 행 간격65, 표식38×38, 본문 시작x126이며 보조 문장도 y185에 맞춘다. S107 오른쪽 확인 근거 질문은 유지한다.
+- **Visual Concept:** 기존 A–E 행동·확인 근거·표식 정렬을 유지한다. 하단 “공유는 선택”과 오른쪽 보조 문구 “출처·검토·갱신 책임도 함께”를 삭제한다. 자발성과 관련 책임은 Notes에 보존한다.
 - **Demo / Case Connection:** 새 Demo 없음. S106의 A–E 문제→같은 글자의 작은 행동→확인 근거라는 개인 성찰이다.
 - **Beginner Payoff:** 선택한 문제의 E에서 검토 지적·다음 수정·완료 기준을 잇는 작은 행동을 고른다.
 - **Advanced Payoff:** 추가·통합·제거 후보를 근거·유지 위치·검토 책임에 연결하고, 검증 결과에 따라 그대로 유지하거나 되돌리는 선택을 남긴다.
@@ -2806,8 +2806,8 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “마지막 질문을 받기 전에, 실무에서 다시 찾아볼 팁의 위치를 한 번에 정리하겠습니다.”라고 S108의 마지막 찾아보기를 연다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 2분 + Reflection 2분 = 4분
-- **Evidence / Decision References:** BEAT-070, INV-LEARNING-003, INV-DIFFICULTY-001, INV-DELIVERY-001, INV-NARRATIVE-001, BEAT-071; DEC-0097; CLM-0021; DEC-0172
-- **Audience Footer:** 공유는 선택
+- **Evidence / Decision References:** BEAT-070, INV-LEARNING-003, INV-DIFFICULTY-001, INV-DELIVERY-001, INV-NARRATIVE-001, BEAT-071; DEC-0097; CLM-0021; DEC-0172; DEC-0185
+- **Audience Footer:** 없음 — 지정 보조 문구 두 개는 화면에서 제외하고 M 연계를 유지한다.
 
 #### S108 — 실무 적용 팁 · 작업 환경과 기준
 

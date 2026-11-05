@@ -371,11 +371,10 @@ Primary Message:
 Opening Question: “디버깅할 때 우리는 어떤 정보를 살펴보고 있었을까?” 익숙한 Visual Studio 사용 상황을 떠올리게 한다.
 
 Speaker Flow:
-
 1. **OPEN (0:00–0:30):** 결과가 기대와 다를 때 여러 파일과 정보를 살펴보는 익숙한 상황으로 질문의 범위를 넓힌다. 실제 장애나 Trial 실패를 재현하는 화면이 아니다.
 2. **SHOW IN PARALLEL (0:30–2:30):** 2×3 병렬 도식의 “테스트 탐색기 / 호출 스택 / 소스·참조 / 지역 변수·조사식 / 출력·로그 / 명세서”를 각각 약 20초씩 가리킨다. 실패 조건·기대값/실제값, 여기까지 온 함수, 구현/호출부, 멈춘 시점의 값, 빌드/실행 메시지, 원래 기대한 동작과 조건이라는 서로 다른 정보를 짚는다. 명세서는 외부 문서도 포함하며 IDE 내부 창이라고 설명하지 않는다. 여섯 영역은 실제 조사 순서나 모든 업무의 필수 체크리스트가 아니다.
 3. **INTERPRET (2:30–3:30):** “이 정보 하나하나가 Context다”라는 핵심 메시지를 묶는다. 사람이 질문에 필요한 정보와 파일을 골라 대화로 옮기는 일이 생길 수 있음을 설명한다. Agent가 이를 대신한다는 해결책은 아직 공개하지 않는다.
-4. **TRANSITION (3:30–4:00):** “파일명을 알려주지 않아도 Agent가 필요한 경로를 찾을까?”라는 S06의 관찰 질문으로 이동한다.
+4. **TRANSITION (3:30–4:00):** “이 자료를 대화에 직접 첨부하는 방식부터 보겠습니다”라며 S06으로 이동한다.
 
 Evidence / Source: BEAT-002, CLM-0004, CLM-0009. TEACHING_MODEL / CONCEPTUAL. Visual Studio 사용자가 디버깅 때 참고하는 정보 범주를 병렬로 재구성한 교육용 native 도식이다. 실제 IDE screenshot·특정 제품 버전의 UI·특정 Trial의 파일 접근 또는 실행 기록이 아니다. 종이 문서를 든 인물 삽화는 이 수정본에서 사용하지 않는다.
 
@@ -396,7 +395,7 @@ Demo Operation: N/A — 다음 장에서 관찰 기준을 제시한다.
 
 Audience Interaction: 수사 질문이다. 응답이나 직접 파일 탐색을 요구하지 않는다.
 
-Transition: “파일명을 알려주지 않아도 Agent가 필요한 경로를 찾을까?”라고 질문하며 S06의 관찰 기준으로 넘어간다.
+Transition: “먼저 사람이 자료를 직접 첨부해 질문하는 방식을 보겠습니다.”
 
 Time Management: Case 4분 유지. 문제 질문 30초, 병렬 정보 여섯 범주 2분, Context로 묶는 의미 1분, S06 연결 30초로 운영한다. 각 범주의 도구 사용법을 강의하거나 Agent 해결책을 미리 공개하지 않는다.
 
@@ -404,13 +403,13 @@ Fallback: `production/preview/full/S05.png` 또는 `production/preview/act0/S05.
 
 Validation Status: ALIGNED — DEC-0034에 따라 원문·Claim 경계와 제작용 화면/운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 실제 렌더링 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
 
-## S06 — Agent에게 테스트 실패 원인을 조사하게 한다
+## S06 — Chatbot은 주어진 Context만을 활용해서 조사한다
 
 **Slide ID:**
 S06
 
 **Working Title:**
-Agent에게 테스트 실패 원인을 조사하게 한다
+Chatbot은 주어진 Context만을 활용해서 조사한다
 
 **ACT / Section:**
 ACT 0 / 0D
@@ -422,57 +421,49 @@ ACT 0 / 0D
 Lecture 2 minutes
 
 **Primary Message:**
-실패 원인을 조사하되 코드는 수정하지 말라는 요청을 전달하고, 실패 테스트·관련 구현·호출 경로를 찾아 설명하는 과정을 관찰한다.
+사람이 프로젝트 자료를 직접 첨부하는 대화 방식에서는 선택·전달한 정보가 조사의 출발점이다. 프로젝트 폴더의 나머지 파일이 자동으로 포함된 것으로 가정하지 않는다.
 
 **Opening Question:**
-“Agent가 실패 원인을 설명하려면 무엇을 확인해야 할까?”
+“Chatbot은 이 대화에 어떤 프로젝트 자료를 받았나요?”
 
 **Speaker Flow:**
-1. **READ THE REQUEST (0:00–0:30):** “실제로 전달한 조사 요청” 아래 입력창을 가리킨다. 실패 원인·관련 구현·호출 경로·테스트를 조사하되 아직 코드는 수정하지 말라는 요청임을 짚는다. 내부 기록 ID는 청중에게 소개하지 않는다. 파일명을 지정하지 않은 실제 요청이라는 사실은 보존한다. 입력창은 실제 현재 제품 screenshot이 아니다.
-2. **SEPARATE THE ILLUSTRATION (0:30–1:00):** 우측은 C++ 청중이 익숙한 GoogleTest 형식으로 구성한 가상 UI이며, 여섯 항목 중 다섯 통과·하나 실패는 설명용 설정임을 알린다. TRIAL-001의 실제 runner는 Python `unittest`였고 이 가상 화면과 같은 실행 결과가 아니다. 가상 실패 행에서 실제 원인이나 코드 위치를 설명하지 않는다.
-3. **SET WATCH FOR (1:00–1:45):** 실패 테스트, 관련 구현, 제품 호출 경로의 세 관찰 대상을 차례로 가리킨다. 실제로 발견된 파일명·원인·수정안은 S07–S08에 남긴다. 좌우 패널을 “이 Prompt를 실행해 이 결과가 나왔다”는 인과 화살표로 설명하지 않는다.
-4. **SCOPE (1:45–2:00):** Codex CLI 0.154.0의 과거 읽기 전용 기록을 볼 것이라고 한 문장으로 제한하고 S07–S08로 넘긴다.
+1. (0:00–0:30 / Lecture) 상단의 “직접 자료를 첨부하는 대화 방식”을 먼저 읽어 제목의 범위를 한정한다. Chatbot의 모든 기능·사전 지식·도구 접근을 정의하는 장이 아니다.
+2. (0:30–1:10 / Lecture) 왼쪽 프로젝트 폴더의 테스트·명세·관련 코드가 사람의 선택·첨부를 거쳐 오른쪽 요청창으로 들어간 모습을 따른다. 그 밖의 파일은 창 밖에 남는다.
+3. (1:10–1:45 / Lecture) “첨부한 테스트·명세·코드를 보고 Crop 실패 원인을 설명해줘. 아직 코드는 수정하지 마.”를 읽는다. 설명을 위한 새 요청 구성이지 TRIAL-001을 Chatbot으로 실행한 기록이 아니다. 답변·비교 결과는 보여주지 않는다.
+4. (1:45–2:00 / Lecture) S07에서는 Crop 현상 자체를 본다. S07–S09의 원래 CLI 관찰을 이 입력창의 실행 결과로 연결하지 않는다.
 
 **Evidence / Source:**
-DEMO-01, STATE-00, TRIAL-001, BEAT-003, OQ-003, OQ-005. `plan/DEMO_MATRIX.md` TRIAL-001의 요청 원문을 일반 입력창 형태로 재구성한다. 우측 GoogleTest 가상 UI(5개 통과·1개 실패)는 별도의 교육용 그림이며 실제 제품·실행·Trial 캡처가 아니다. 자산: `assets/slide-illustrations/S04-google-test-mock.png`; 생성 프롬프트: `assets/slide-illustrations/S04_PROMPT.md`. Read / Resize / Crop / Normalize / Statistics / Write의 여섯 항목과 Crop 실패는 가상 설정이다. TRIAL-001의 실제 Python `unittest` 전체 실행은 7개 통과·crop 실패 1건·읽기 전용 임시 디렉터리 환경 오류 3건이었다. 이 장은 setup이며 실제 발견 파일·원인·조사 결과는 S07–S08에서 연다.
-
-보존된 상세 출처: 실제 요청: TRIAL-001 · Codex CLI 0.154.0 · macOS · 읽기 전용
+TEACHING_MODEL / CONCEPTUAL · DEC-0185의 승인된 자료 첨부 방식. 세 자료·그 밖의 파일·사람·요청창의 관계를 재구성했다. 실제 Chatbot 입력·응답·제품 화면·비교 실험은 없다. 사람 아이콘은 assets/slide-illustrations/human-agent-icons.png의 기존 자산을 재사용했다. 이전 S06의 실제 Agent 요청·GoogleTest 가상 UI 설명은 plan/ACT0_CONTEXT_COLLECTION_FLOW.md의 보존 기록, 원자료는 plan/DEMO_MATRIX.md TRIAL-001과 S12 Notes에서 확인한다.
 
 **Claim Boundary:**
-기록된 Trial은 격리된 비대화형 Codex CLI 0.154.0, macOS, `--sandbox read-only`, `--ignore-user-config` 조건에서 수행됐다. Codex Desktop·교육 계정·현재 제품 동작을 입증하지 않는다. 좌측 입력창은 실제 요청 원문의 재구성이고 우측 GoogleTest는 가상 UI다. 이 그림의 5 PASS/1 FAIL을 TRIAL-001의 실제 결과로 말하지 않으며, 실제 unittest의 환경 오류를 숨기거나 제품 결함으로 바꾸지 않는다. 실제 screenshot·새 Trial·C++ 실행은 없다.
-
-보존된 상세 범위: 우측은 가상 GoogleTest 예시 · 실제 Trial은 Python unittest · 현재 Desktop은 미검증
+제목의 “주어진 Context”는 사람이 직접 선택·첨부하는 이 대화 방식의 프로젝트 자료를 뜻한다. Chatbot이 어떤 조건에서도 외부 자료를 찾지 못한다거나 환경 문제를 이해하지 못한다는 보편적 제품 주장이 아니다. 사전 학습 지식을 사용하지 않는다는 뜻도 아니다. 실제 Chatbot 비교·응답 품질·시간·토큰 효과를 관찰하지 않았다. 과거 Agent CLI 요청을 Chatbot 실행 기록으로 바꾸지 않는다.
 
 **Beginner Explanation:**
-익숙한 테스트 목록에서 실패 하나를 보는 문제 상황을 떠올리고, 실제 기록에서는 Agent가 무엇을 찾아냈는지 다음 장에서 확인한다. 그림의 가상 목록과 실제 Trial 근거를 구분한다.
+질문 문장 외에도 이 프로젝트의 어떤 자료를 전달했는지가 필요하다. 이 방식에서는 자료를 찾아 골라 넣는 사람이 출발점을 만든다.
 
 **Advanced Insight:**
-답변뿐 아니라 파일 발견과 호출 경로 추적을 관찰 대상으로 둔다.
+정보를 수집하는 주체와 AI의 분석 능력을 구분한다. 전달하지 않은 프로젝트 정보와 제품의 해결 능력 부족을 같은 것으로 취급하지 않는다.
 
 **C++ Vision Bridge:**
-GoogleTest 형식을 C++ 청중을 위한 가상 설명 그림에만 사용한다. 실제 Demo repository는 Python unittest이며 C++ 제품 State·실행·측정으로 전환하지 않는다.
+N/A — 언어와 무관한 자료 전달 방식이다. 이전 GoogleTest 가상 목록은 이번 화면에서 제외하고 원래 Python CLI 근거는 보존한다.
 
 **Demo Operation:**
-DEMO-01 / WATCH. 기본 경로는 `production/ACT_0.pptx` S06–S09–S10의 정적 발표다. S06에서는 좌측 실제 요청의 재구성, 우측 가상 GoogleTest UI의 경계, 세 관찰 대상을 설명하고 S07–S08로 이동한다. 정적 PNG는 PPT 렌더이며 CLI·현재 Desktop·실제 GoogleTest 캡처가 아니다. 현재 Desktop·교육 계정·Live/HYBRID는 미검증이므로 활성화하지 않는다. 향후 대상 계정·surface, 읽기 전용 조건, runbook, 기대 관찰과 복귀 cue를 발표 환경에서 확인한 뒤에만 검토한다. 기존 관찰 근거8분은 S07/S07에4분씩 나뉘며 S09/S09은 별도 Case다.
-
-DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
-
-DEC-0180: 새 제목과 “실제로 전달한 조사 요청”으로 S05의 Context 수집 문제를 받아 S07의 실제 Crop 결과로 넘긴다. 하단 출처 두 줄은 화면에서 제외하며 실행 환경·실제 Python 기록·가상 GoogleTest 구분은 Evidence / Source와 Claim Boundary에 유지한다.
+DEMO-01의 Lecture2분 도입이다. 프로젝트 폴더→사람의 선택·첨부→Mac 스타일 조사 요청창을 가리킨다. 제목 막대는 “조사 요청”만 남긴다. 실제 Chatbot·Codex를 열거나 요청을 실행하지 않는다. S07/S08의 Demo4분씩과 구분한다.
 
 **Audience Interaction:**
-응답을 요구하지 않는다. 세 관찰 항목을 청중이 마음속으로 따라오게 한다.
+“무엇을 전달했는가?”를 수사 질문으로 던진다. 파일 첨부·실습·응답을 요구하지 않는다.
 
 **Transition:**
-“먼저 Crop 결과를 보고, 이어서 그 원인을 설명한 근거를 확인하겠습니다.”
+“먼저 같은 Crop 문제에서 어떤 결과 차이가 있었는지 보겠습니다.”
 
 **Time Management:**
-Lecture 2분 유지. 요청 30초, 실제/가상 화면 구분 30초, 세 Watch For 45초, 과거 CLI 범위와 S07–S08 전환 15초로 운영한다. 테스트 framework 설명이나 실제 실패 원인 공개를 이 장에 추가하지 않는다.
+Lecture2분: 사용 방식의 범위0.5, 자료 선택·첨부0.67, 요청 읽기0.58, S07 연결0.25. Chatbot 기능 목록이나 답변 결과를 추가하지 않는다.
 
 **Fallback:**
-정적 기본 경로 — `production/ACT_0.pptx` S06 또는 `production/preview/act0/S06.png`. 이번 수정본과 PNG의 일치 여부는 제작 단계에서 확인한다. 화면 사용이 불가능하면 실제 요청의 조건과 세 관찰 항목을 말로 제시하고 S07–S08 기록 설명으로 이동한다. 가상 GoogleTest 설정을 실제 Trial 결과로 대신 말하거나 Live CLI/Desktop을 즉석에서 열지 않는다. Windows·발표 PC·교육장 표시는 UNVERIFIED.
+LOCAL STATIC ARTIFACT — production/ACT_0.pptx S06 또는 production/preview/act0/S06.png. 자료 선택·첨부 관계만 설명한다. 과거 GoogleTest 가상 화면이나 실제 Agent 요청을 현재 Chatbot 실행 결과로 대신하지 않는다.
 
 **Validation Status:**
-ALIGNED — DEC-0034에 따라 원문·Claim 경계와 제작용 화면/운영 지침을 정렬했다. 이번 수정본의 PPT 내장 Notes·최종 PNG 대조와 실제 렌더링 검토 결과는 `production/evaluation/ACT_0_OPENING_REVISION.md`에서 별도로 기록한다. 문서 정렬은 새 제작본의 렌더링 PASS나 실환경 검증을 뜻하지 않는다. Windows PowerPoint·실제 발표 PC 글꼴·교육장 투사·제품/계정·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0185. 현재 PPT/PNG·내장 Notes 대조는 production/evaluation/ACT0_CONTEXT_COLLECTION_FLOW.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
 ## S07 — Crop은 기대한 폭보다 한 열을 더 포함했다
 
@@ -498,7 +489,7 @@ crop(image,1,3)의 끝 좌표 제외 명세는 원본 열1·2, 값2·3과 폭2�
 “끝 좌표3을 제외해야 한다면 어떤 값이 남아야 하나요?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / Demo) S06에서 관찰할 질문을 이어 받고, 이번에는 먼저 발견한 결과만 본다고 안내한다. 기존 두 Vector 초기화와 공통인 질문은 의도한 개수/범위와 실제 결과의 대조다. C++ 메모리 할당 사건으로 바꾸지 않는다.
+1. (0:00–0:30 / Demo) S06의 Crop 질문에서 현상 자체로 넘어온다. 이 도식은 원래 CLI 기록의 근거를 설명하며 앞 장 Chatbot 요청을 실행한 결과가 아니다. 기존 두 Vector 초기화와 공통인 질문은 의도한 개수/범위와 실제 결과의 대조다. C++ 메모리 할당 사건으로 바꾸지 않는다.
 2. (0:30–2:00 / Demo) 원본 ((1,2,3,4),(5,6,7,8)) 중 첫 행만 발췌했음을 밝힌다. 열index1·2의 값2·3과 폭2가 끝 좌표 제외 명세의 기대다. 구현은 값4까지 포함해 폭3이다. 색은 선택 범위를 나타내며 숫자는 픽셀 값이다.
 3. (2:00–3:30 / Demo) 기대2·3과 구현2·3·4에서 추가된4만 가리킨다. 구현의 끝 좌표 포함이 현상이라는 결론만 회수하고 상세 Test·호출 경로는 다음 장으로 남긴다.
 4. (3:30–4:00 / Demo) 새 실행이나 수정이 아닌 TRIAL-001·STATE-00의 재구성이라고 닫고 이 설명을 뒷받침한 자료를 S08에서 본다.
@@ -523,13 +514,13 @@ FROZEN WITH SCOPE — TRIAL-001·STATE-00의 Python Crop 한 건. 첫 행 발췌
 S03의 원소 수 확인 질문만 회수한다. 실제 사례는 Python Crop이며 C++ 실행·할당 오류가 아니다.
 
 **Demo Operation:**
-첫 행 입력1·2·3·4와 열index0–3, 기대2·3/폭2와 구현2·3·4/폭3을 크게 대비한다. 원본 두 행 중 첫 행만 발췌한 도식임을 표시한다. 정적 경로 production/ACT_0.pptx의 S07 / production/preview/act0/S07.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S07/S07만 Demo 각4분이며 S09/S09은 Case, S11/S11은 Lecture다.
+DEMO-01의 기존 CAPTURED / RECONSTRUCTED 관찰 근거4분이다. 기대 폭2·값2/3과 구현 폭3·값2/3/4를 대조한다. 화면의 보조 footer만 삭제했다. 원래 Python Crop 관찰이고 코드 수정·C++ 할당 문제·Chatbot 비교 실행이 아니다.
 
 **Audience Interaction:**
 한 장의 질문을 따라 관찰·해석하게 한다. 응답·실습·새 실행·공개 제출을 요구하지 않는다.
 
 **Transition:**
-“이 차이를 무엇을 근거로 설명했는지, 테스트·명세·구현을 함께 보겠습니다.”
+“왜 다른지 설명하려면 어떤 테스트·명세·구현을 연결해야 하는지 보겠습니다.”
 
 **Time Management:**
 Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분. 위 Speaker Flow의 구간대로 운영하며 한 장의 역할만 설명한다. 초과하면 다음 장 내용을 미리 설명하는 부분을 줄이고 근거 경계를 유지한다. 실측 리허설은 UNVERIFIED.
@@ -538,15 +529,15 @@ Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분. 위 Speaker Flow의 구간대로 �
 LOCAL STATIC ARTIFACT — production/preview/full/S07.png 또는 ACT_0.pptx의 같은 Slide. 원자료/과거 CLI/교육용 가정 구분을 유지한다. 현재 Live/HYBRID는 발표 환경 검증 전 비활성이다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0185. 현재 PPT/PNG·내장 Notes 대조는 production/evaluation/ACT0_CONTEXT_COLLECTION_FLOW.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S08 — 테스트·명세·구현을 연결해 원인을 설명했다
+## S08 — 원인을 설명하려면 테스트·명세·구현을 연결해야 한다
 
 **Slide ID:**
 S08
 
 **Working Title:**
-테스트·명세·구현을 연결해 원인을 설명했다
+원인을 설명하려면 테스트·명세·구현을 연결해야 한다
 
 **ACT / Section:**
 ACT 0 / 0D
@@ -558,21 +549,21 @@ ACT 0 / 0D
 Demo 4분 (CAPTURED / RECONSTRUCTED)
 
 **Primary Message:**
-실패 테스트와 끝 좌표 제외 명세, 끝 좌표까지 포함한 row[x_start : x_end + 1] 구현을 대조해 실패를 설명했다. 관련 코드는 cli.main→pipeline.process_image→transform.crop 호출 관계로 연결됐다.
+실패 테스트와 끝 좌표 제외 명세, 끝 좌표까지 포함한 row[x_start : x_end + 1] 구현을 대조해 실패를 설명했다. 관련 코드는 cli.main→pipeline.process_image→transform.crop 호출 관계로 연결됐다. 이 자료는 프로젝트의 테스트 파일·README·구현 파일에 나뉘어 있었다. 원인을 설명하려면 필요한 자료를 찾아 연결해야 한다.
 
 **Opening Question:**
-“어떤 자료를 연결했기에 Crop 실패 원인을 설명할 수 있었나요?”
+“폭2와 폭3의 차이를 설명하는 근거는 프로젝트의 어디에 있었나요?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / Demo) S07의 폭 차이를 설명한 근거를 확인하는 장임을 밝힌다. 세 열의 화살표는 설명을 위한 관계이며 실제 파일 접근 시간순이 아니다.
-2. (0:30–2:30 / Demo) 실패 테스트 test_crop_excludes_end_coordinate, 끝 좌표 제외 명세[x_start,x_end), row[x_start : x_end + 1]을 차례로 비교한다. 기대 범위와 구현 범위가 다른 점이 실패를 설명한다. 소스에 없던 함수나 수정 후 코드는 추가하지 않는다.
-3. (2:30–3:30 / Demo) 관련 구현은 cli.main→pipeline.process_image→transform.crop 호출 관계에 있었다. 이는 Product 코드의 호출 관계이며 Agent의 실제 접근 순서가 아니다. README에도 기존 결함 안내가 있었으므로 아무 힌트 없이 독자 발견했다고 말하지 않는다.
-4. (3:30–4:00 / Demo) 실패·관련 구현·명세·호출 관계를 연결해 설명했으며 코드 수정은 없었다고 닫는다. 같은 전체 테스트의 다른 오류는 원인이 달랐다는 S09로 이동한다.
+1. (0:00–0:40 / Demo) S07의 폭 차이를 회수하고, 답보다 근거가 어디에 있는지 본다. 상단의 “프로젝트 폴더 안에 있는 서로 다른 자료”를 짚는다.
+2. (0:40–2:40 / Demo) tests/test_transform.py의 실패 테스트, README.md의 끝 좌표 제외 명세, src/graypipe/transform.py의 row[x_start : x_end + 1]을 대조한다. README에는 이미 결함 안내도 있었으므로 아무 힌트 없는 독자 발견으로 말하지 않는다.
+3. (2:40–3:30 / Demo) 기대 범위와 실제 포함 범위가 다르다는 관계를 확인한다. 아래 cli.main→pipeline.process_image→transform.crop은 제품 호출 관계이며 Agent의 파일 접근 시간순 로그가 아니다.
+4. (3:30–4:00 / Demo) 이 근거들을 찾아 연결하는 일이 필요하다고 회수한다. 다음 S09는 같은 전체 테스트의 별도 환경 오류이며 Crop 결함의 연장이 아니다.
 
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성.
 
-보존된 상세 출처: TRIAL-001 · 발견한 테스트·명세·구현의 관계를 재구성 · Codex CLI 0.154.0
+보존된 상세 출처: TRIAL-001 · 발견한 테스트·명세·구현의 관계를 재구성 · Codex CLI 0.154.0 DEC-0185: 2026-11-05 STATE-00의 README.md, tests/test_transform.py, src/graypipe/transform.py를 읽기 전용으로 대조해 표시 위치를 확인했다. 새 Trial·테스트 실행은 하지 않았다.
 
 **Claim Boundary:**
 FROZEN WITH SCOPE — TRIAL-001 단일 CLI 조사. 관계도는 Agent의 실제 접근 시간순 로그가 아니며 README의 기존 결함 안내도 있었다. 코드 수정·반복성·현재 Desktop 동작을 주장하지 않는다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
@@ -589,13 +580,13 @@ FROZEN WITH SCOPE — TRIAL-001 단일 CLI 조사. 관계도는 Agent의 실제 
 N/A. 실제 Python 조사 근거를 C++ Trial로 바꾸지 않는다.
 
 **Demo Operation:**
-실패 테스트/명세/구현 세 근거를 가로로 연결하고, 하단에 관련 코드 호출 관계를 별도로 둔다. 본문의 연결은 설명 관계이며 실제 탐색 순서가 아니다. 정적 경로 production/ACT_0.pptx의 S08 / production/preview/act0/S08.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S07/S07만 Demo 각4분이며 S09/S09은 Case, S11/S11은 Lecture다.
+기존 Demo4분의 정적 근거 설명이다. 세 파일 위치→실패 테스트·명세·구현의 대조→제품 호출 관계→자료 수집의 필요 순으로 가리킨다. 실제 파일 접근 순서를 재생하는 화면이 아니다.
 
 **Audience Interaction:**
 한 장의 질문을 따라 관찰·해석하게 한다. 응답·실습·새 실행·공개 제출을 요구하지 않는다.
 
 **Transition:**
-“같은 전체 테스트 실행에서 나온 다른 오류는, 이 Crop 결함과 원인이 달랐습니다.”
+“그런데 같은 전체 테스트에는 코드 결함과 원인이 다른 오류도 있었습니다.”
 
 **Time Management:**
 Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분. 위 Speaker Flow의 구간대로 운영하며 한 장의 역할만 설명한다. 초과하면 다음 장 내용을 미리 설명하는 부분을 줄이고 근거 경계를 유지한다. 실측 리허설은 UNVERIFIED.
@@ -604,15 +595,15 @@ Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분. 위 Speaker Flow의 구간대로 �
 LOCAL STATIC ARTIFACT — production/preview/full/S08.png 또는 ACT_0.pptx의 같은 Slide. 원자료/과거 CLI/교육용 가정 구분을 유지한다. 현재 Live/HYBRID는 발표 환경 검증 전 비활성이다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0185. 현재 PPT/PNG·내장 Notes 대조는 production/evaluation/ACT0_CONTEXT_COLLECTION_FLOW.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S09 — 다른 테스트 오류는 임시 폴더 생성에서 발생했다
+## S09 — 코드만으로 설명되지 않는 오류도 있었다
 
 **Slide ID:**
 S09
 
 **Working Title:**
-다른 테스트 오류는 임시 폴더 생성에서 발생했다
+코드만으로 설명되지 않는 오류도 있었다
 
 **ACT / Section:**
 ACT 0 / 0D
@@ -627,12 +618,12 @@ Case 3분
 TRIAL-001 전체 테스트의 환경 오류3건은 읽기 전용 실행 조건이 임시 디렉터리 생성을 막아 발생했다. Crop 결함과 별개이며 Agent도 그 권한 제한을 해제하지 않았다.
 
 **Opening Question:**
-“테스트가 임시 폴더를 만들려는데 쓰기 권한이 없으면 어떻게 될까요?”
+“코드만 보냈다면 이 오류의 원인까지 설명할 수 있을까요?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / Case) 같은 전체 테스트 실행 중 나온 환경 오류3건을 별도 사건으로 연다. Crop 실패1건의 추가 증거도 Product 결함3건도 아니라고 화면의 별도 표시로 구분한다.
-2. (0:30–2:00 / Case) 테스트 실행→임시 폴더 생성 요청→생성 불가를 읽는다. TRIAL-001은 읽기 전용 sandbox로 실행됐고 임시 디렉터리를 만들 수 없어 일부 테스트에서 오류가 났다. 실제 로그에 없던 테스트 이름·파일 경로·예외 원문을 만들어 표시하지 않는다. 권한 해제법을 가르치는 장으로 확장하지 않는다.
-3. (2:00–3:00 / Case) Agent는 원인을 구분했지만 권한 제한을 해제하거나 코드를 수정하지 않았다고 닫는다. 전체 기록은7개 통과+Crop 실패1건+환경 오류3건, crop 관련 명령은2개 통과+같은 Crop 실패다. 집계는 이 Notes에서 보존하고 현재 화면은 별도 오류의 인과관계에 집중한다.
+1. (0:00–0:30 / Case) 같은 전체 테스트의 환경 오류3건은 Crop 실패와 별개의 사건임을 읽는다. Chatbot 실행 기록이나 새로운 결함 수가 아니다.
+2. (0:30–2:00 / Case) 기존 테스트 실행→임시 폴더 생성 요청→읽기 전용 권한으로 생성 불가 도식을 따른다. 이 오류를 해석하려면 코드 외에 실행 로그·권한 정보가 필요하다고 회수한다.
+3. (2:00–3:00 / Case) 원인을 구분했지만 권한을 해제하거나 코드를 수정하지 않았다고 Notes의 범위를 유지한다. 전체 기록은7개 통과+Crop 실패1건+환경 오류3건, 관련 명령은2개 통과+같은 Crop 실패다. 이 환경 오류 자체를 Agent 우월성·저장소 탐색 성공의 증거로 쓰지 않는다.
 
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성.
@@ -654,13 +645,13 @@ FROZEN WITH SCOPE — TRIAL-001 실행 환경 제한의 관찰. Product/Crop 결
 N/A. 제조 현장/Windows에서 같은 오류가 관찰된 것으로 바꾸지 않는다.
 
 **Demo Operation:**
-테스트 실행→임시 폴더 생성 요청→읽기 전용 권한으로 생성 불가를 한 가로 도식으로 보여준다. Crop 실패와 별개임과 제한 미해결을 화면에서 읽게 한다. 가짜 로그·권한 해제 화면은 만들지 않는다. 정적 경로 production/ACT_0.pptx의 S09 / production/preview/act0/S09.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S07/S07만 Demo 각4분이며 S09/S09은 Case, S11/S11은 Lecture다.
+별도 Case3분이다. 기존 권한 오류 도식을 유지하고 마지막 문장으로 실행 로그·권한도 필요했음을 연결한다. 가짜 로그·오류명·파일 경로·환경 복구 결과를 만들지 않는다.
 
 **Audience Interaction:**
 한 장의 질문을 따라 관찰·해석하게 한다. 응답·실습·새 실행·공개 제출을 요구하지 않는다.
 
 **Transition:**
-“두 원인을 판단할 때 필요했던 정보들을 한곳에 모아보겠습니다.”
+“지금까지 필요한 자료를 모으면, 프로젝트 파일과 실행 환경의 두 곳에 나뉩니다.”
 
 **Time Management:**
 Case 3분 = 3분. 위 Speaker Flow의 구간대로 운영하며 한 장의 역할만 설명한다. 초과하면 다음 장 내용을 미리 설명하는 부분을 줄이고 근거 경계를 유지한다. 실측 리허설은 UNVERIFIED.
@@ -669,15 +660,15 @@ Case 3분 = 3분. 위 Speaker Flow의 구간대로 운영하며 한 장의 역�
 LOCAL STATIC ARTIFACT — production/preview/full/S09.png 또는 ACT_0.pptx의 같은 Slide. 원자료/과거 CLI/교육용 가정 구분을 유지한다. 현재 Live/HYBRID는 발표 환경 검증 전 비활성이다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0185. 현재 PPT/PNG·내장 Notes 대조는 production/evaluation/ACT0_CONTEXT_COLLECTION_FLOW.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S10 — 원인 판단에는 코드와 실행 환경 정보가 필요했다
+## S10 — 이 자료를 매번 사람이 찾아 전달해야 할까?
 
 **Slide ID:**
 S10
 
 **Working Title:**
-원인 판단에는 코드와 실행 환경 정보가 필요했다
+이 자료를 매번 사람이 찾아 전달해야 할까?
 
 **ACT / Section:**
 ACT 0 / 0D
@@ -689,15 +680,15 @@ ACT 0 / 0D
 Case 2분
 
 **Primary Message:**
-개발 프로젝트의 테스트·명세·구현/호출 관계와 실행 환경의 로그·권한 정보를 함께 보아 원인을 구분한다. 이번 원인 판단에 쓰는 정보를 Context로 묶는 교육용 도식이다.
+Crop 원인을 설명한 테스트·명세·구현/호출 관계와 별도 실행 오류를 설명한 로그·권한 정보가 필요했다. 이 자료를 답변 전에 누가 찾고 연결해 전달할지 묻는다.
 
 **Opening Question:**
-“이번 조사에서는 파일 외에 어떤 정보까지 필요했나요?”
+“답변 전에 이 자료를 찾고 연결하는 일은 누가 할까요?”
 
 **Speaker Flow:**
-1. (0:00–0:25 / Case) 앞의 두 문제에서 실제로 살펴본 자료를 한 장으로 모은다고 안내한다. 환경 오류의 원인은 재설명하지 않는다.
-2. (0:25–1:25 / Case) 개발 프로젝트의 실패 테스트·Crop 명세·구현/호출 관계와 실행 환경의 로그·읽기/쓰기 권한을 구분해 읽는다. 파일과 실행 조건은 서로 다른 출처지만 이번 원인 판단에는 함께 쓰였다. 권한 자체가 개발 프로젝트 안에 있거나 저장소를 열면 확대되는 그림으로 읽지 않는다.
-3. (1:25–2:00 / Case) 원인을 판단하는 데 쓰는 정보를 이번 장에서 Context로 묶는다. ACT2의 저장 범위·Routing·항상 읽을 정보 설계를 여기서 미리 강의하지 않는다. 이제 같은 자료를 누가 찾고 전달하는지 S11로 넘긴다.
+1. (0:00–0:45 / Case) 왼쪽 프로젝트 폴더의 실패 테스트·Crop 명세·구현/호출과 오른쪽 실행 환경의 로그·읽기/쓰기 권한을 모아 읽는다. 권한을 저장소의 문서 파일처럼 표현하지 않는다.
+2. (0:45–1:30 / Case) 두 원인을 판단하는 데 쓰인 서로 다른 출처의 자료라는 점을 확인한다. Context 정의를 다시 강의하거나 ACT2의 저장 범위·Routing을 먼저 설명하지 않는다.
+3. (1:30–2:00 / Case) 답변 전에 찾고 연결하는 일이 남는다는 마지막 문장을 읽고 S11에서 그 수집 주체가 사람인 경우를 본다.
 
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성.
@@ -719,13 +710,13 @@ Context가 단지 복사한 코드 조각만을 의미하지 않음을 이번 �
 N/A. 일반화된 새 C++ 규칙·장비 사례는 추가하지 않는다.
 
 **Demo Operation:**
-왼쪽 개발 프로젝트 자료3개와 오른쪽 실행 환경 자료2개를 구분해 모으고, 원인을 판단하는 데 쓰는 정보=Context라는 한 결론으로 연결한다. 환경 오류 원인을 재강의하거나 ACT2의 Routing 설계를 먼저 설명하지 않는다. 정적 경로 production/ACT_0.pptx의 S10 / production/preview/act0/S10.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S07/S07만 Demo 각4분이며 S09/S09은 Case, S11/S11은 Lecture다.
+별도 Case2분의 정적 자료 모음이다. 프로젝트 파일3개/실행 환경2개를 서로 다른 프레임에 보여주며 파일·로그·권한의 출처를 구분한다. 마지막은 수집 주체에 대한 질문이고 새 제품 기능·실행을 보여주지 않는다.
 
 **Audience Interaction:**
 한 장의 질문을 따라 관찰·해석하게 한다. 응답·실습·새 실행·공개 제출을 요구하지 않는다.
 
 **Transition:**
-“이 자료를 사람이 직접 골라 대화창에 넣는다면, 답을 받기 전에 어떤 일을 해야 할까요?”
+“먼저 이 자료를 사람이 직접 골라 Chatbot에 전달하는 방식입니다.”
 
 **Time Management:**
 Case 2분 = 2분. 위 Speaker Flow의 구간대로 운영하며 한 장의 역할만 설명한다. 초과하면 다음 장 내용을 미리 설명하는 부분을 줄이고 근거 경계를 유지한다. 실측 리허설은 UNVERIFIED.
@@ -734,15 +725,15 @@ Case 2분 = 2분. 위 Speaker Flow의 구간대로 운영하며 한 장의 역�
 LOCAL STATIC ARTIFACT — production/preview/full/S10.png 또는 ACT_0.pptx의 같은 Slide. 원자료/과거 CLI/교육용 가정 구분을 유지한다. 현재 Live/HYBRID는 발표 환경 검증 전 비활성이다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0185. 현재 PPT/PNG·내장 Notes 대조는 production/evaluation/ACT0_CONTEXT_COLLECTION_FLOW.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S11 — Chatbot에 이 자료를 직접 전달한다면?
+## S11 — Chatbot에 줄 자료는 사람이 모은다
 
 **Slide ID:**
 S11
 
 **Working Title:**
-Chatbot에 이 자료를 직접 전달한다면?
+Chatbot에 줄 자료는 사람이 모은다
 
 **ACT / Section:**
 ACT 0 / 0E
@@ -760,9 +751,9 @@ Lecture 2분
 “답을 받기 전에 누가 필요한 자료를 찾아 골라 전달하나요?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / Lecture) S10의 같은 다섯 자료를 유지하되, 사람이 직접 골라 대화창에 첨부하는 방식이라는 가정을 읽는다. 모든 Chatbot 기능을 정의하거나 실제 비교한 결과가 아니다.
-2. (0:30–1:30 / Lecture) 왼쪽 자료→가운데 사람의 찾기·선택·전달→오른쪽 ChatGPT 웹 첨부/요청창을 따라간다. UI는 자료 전달 방식을 재구성했으며 실제 Chatbot 응답은 보여 주지 않는다. 코드·테스트·명세만 고르면 실행 로그·권한 단서가 빠질 수 있고, 그것도 전달하면 분석 단서가 생긴다. 정보 미전달을 Chatbot의 해결 불가능성으로 바꾸지 않는다. 시간·토큰 비용을 측정했다는 주장을 하지 않는다.
-3. (1:30–2:00 / Lecture) 답을 받기 전 관련 자료를 찾아 연결하는 일이 있다는 메시지만 회수한다. 같은 위치·자료 카드를 유지한 다음 S12에서 수집 주체가 달라지는 것을 본다.
+1. (0:00–0:30 / Lecture) S10의 같은 다섯 자료 이름과 색을 읽는다. 이번에는 그 자료를 찾고 연결하는 주체가 사람이라고 명확히 한다.
+2. (0:30–1:30 / Lecture) 왼쪽 자료→가운데 사람의 찾기/연결/첨부→오른쪽 기존 ChatGPT 입력창을 따른다. UI와 삽화는 전달 방식을 설명하며 실제 Chatbot 답변·비교 실행은 없다. 로그·권한도 전달하면 분석 단서가 생기며, 미전달을 제품의 해결 불가능성으로 바꾸지 않는다.
+3. (1:30–2:00 / Lecture) 답변 전 사람의 수집 작업을 회수한다. S12에서는 같은 자료·배치를 유지하고 허용된 조사의 주체를 Agent로 바꾼다.
 
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성. DEC-0086: prototype/image-illustration-pilot/assets/S07.png의 왼쪽 장면을 우측 상단 여백에 가로·세로1.8배로 확대해 재사용한다. 생성 지시는 prototype/image-illustration-pilot/PROMPTS.md의 S09에 보존한다. AI 생성 설명용 삽화이며 실제 실행 캡처·새 Trial 근거가 아니다.
@@ -776,7 +767,7 @@ TEACHING MODEL — 실제 Chatbot 비교 실행·성능·불가능성 주장이 
 
 보존된 상세 범위: 실제 Chatbot 비교 실행 아님 · 자료 전달 방식의 차이이며 제품 능력·효율 우위를 입증하지 않음
 
-오른쪽 UI의 요청 문구·첨부·배치는 이 관계를 설명하는 재구성이다. 실제 TRIAL-001 요청 원문은 S06과 원자료를 따른다. UI 이미지가 새 ChatGPT 비교 실행이나 현재 Codex Desktop 동작의 증거를 추가하지 않는다.
+오른쪽 UI의 요청 문구·첨부·배치는 이 관계를 설명하는 재구성이다. 실제 TRIAL-001 요청 원문은 S12 Notes와 원자료를 따른다. UI 이미지가 새 ChatGPT 비교 실행이나 현재 Codex Desktop 동작의 증거를 추가하지 않는다.
 
 **Beginner Explanation:**
 답변 전에도 사람이 관련 자료를 찾아 연결하는 일이 있음을 본다.
@@ -788,17 +779,13 @@ TEACHING MODEL — 실제 Chatbot 비교 실행·성능·불가능성 주장이 
 Contextual cue — 큰 저장소에서 필요한 자료를 찾는 상황에만 연결한다.
 
 **Demo Operation:**
-S10의 같은 다섯 자료 이름·색을 왼쪽에 유지하고 사람의 찾기/선택/전달을 거쳐 교육용 대화창으로 들어가는 흐름으로 보여준다. 누락된 자료를 도구 능력 부족으로 표현하지 않는다. 정적 경로 production/ACT_0.pptx의 S11 / production/preview/act0/S11.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S07/S07만 Demo 각4분이며 S09/S09은 Case, S11/S11은 Lecture다. 기존 도식을 먼저 따라가며, 우측 상단의 왼쪽 장면 삽화는 같은 역할을 보충하는 교육용 그림으로만 짚는다.
-
-DEC-0107: 오른쪽 대화창을 ChatGPT 웹 UI 재구성으로 바꾼다. 사람이 골라 둔 코드·테스트·명세와 로그·권한 정보를 첨부하고 crop 오류 설명을 요청하는 모습만 보여 준다. 응답이나 실제 비교 결과를 추가하지 않는다. 왼쪽 다섯 자료·가운데 사람·연결선·우측 상단의 기존 삽화는 유지한다. 오른쪽 UI 안의 문장은 새 결과를 읽는 절차가 아니라 앞서 정리한 자료/관찰을 제품에 익숙한 모습으로 보이는 예다. 새 클릭·Live 실행을 하지 않는다.
-
-DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+기존 삽화와 ChatGPT UI·다섯 자료·배치·연결선을 보존한다. 가운데 찾기→연결→첨부와 마지막 문장을 따라 수집 주체에 집중한다. 실제 Chatbot 응답·시간·토큰·품질 비교를 추가하지 않는다.
 
 **Audience Interaction:**
 한 장의 질문을 따라 관찰·해석하게 한다. 응답·실습·새 실행·공개 제출을 요구하지 않는다.
 
 **Transition:**
-“방금 본 Agent 조사에서는, 이 자료를 찾고 연결하는 일을 일부 맡겼습니다.”
+“같은 자료를 허용된 프로젝트에서 Agent가 직접 조사하게 하면 어떨까요?”
 
 **Time Management:**
 Lecture 2분 = 2분. 위 Speaker Flow의 구간대로 운영하며 한 장의 역할만 설명한다. 초과하면 다음 장 내용을 미리 설명하는 부분을 줄이고 근거 경계를 유지한다. 실측 리허설은 UNVERIFIED.
@@ -807,15 +794,15 @@ Lecture 2분 = 2분. 위 Speaker Flow의 구간대로 운영하며 한 장의 �
 LOCAL STATIC ARTIFACT — production/preview/full/S11.png 또는 ACT_0.pptx의 같은 Slide. 원자료/과거 CLI/교육용 가정 구분을 유지한다. 현재 Live/HYBRID는 발표 환경 검증 전 비활성이다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0185. 현재 PPT/PNG·내장 Notes 대조는 production/evaluation/ACT0_CONTEXT_COLLECTION_FLOW.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
-## S12 — Agent가 자료를 직접 찾아 연결했다
+## S12 — Agent는 프로젝트 폴더에서 직접 조사한다
 
 **Slide ID:**
 S12
 
 **Working Title:**
-Agent가 자료를 직접 찾아 연결했다
+Agent는 프로젝트 폴더에서 직접 조사한다
 
 **ACT / Section:**
 ACT 0 / 0E
@@ -827,16 +814,16 @@ ACT 0 / 0E
 Lecture 2분
 
 **Primary Message:**
-TRIAL-001에서 Agent가 허용된 파일·도구 범위의 테스트·코드·명세·실행 결과를 조사하고 Crop 원인과 실행 제한을 구분했다. 목표·검토 책임은 사람에게 남으며 접근 전 승인된 도구·계정·자료·권한 범위를 확인한다.
+TRIAL-001에서 Agent가 허용된 파일·도구 범위의 테스트·코드·명세·실행 결과를 조사하고 Crop 원인과 실행 제한을 구분했다. 목표·검토 책임은 사람에게 남으며 접근 전 승인된 도구·계정·자료·권한 범위를 확인한다. S11과 달라지는 것은 자료 수집·연결의 일부를 맡기는 주체다. 더 좋은 답·시간 절감·권한 해결을 비교 입증한 것은 아니다.
 
 **Opening Question:**
-“방금 Agent는 허용된 환경에서 어떤 자료를 직접 찾아 연결했나요?”
+“같은 자료를 사람이 모두 복사하는 대신, Agent가 허용된 프로젝트에서 조사하게 할 수 있을까요?”
 
 **Speaker Flow:**
-1. (0:00–0:30 / Lecture) S11의 같은 다섯 자료와 배치를 가리킨다. 가운데 주체가 사람의 선택·전달에서 Agent의 허용된 조사로 바뀌고 오른쪽 Codex UI는 과거 CLI에서 관찰한 조사 내용을 담은 재구성이다. 실제 Desktop 실행 화면이 아니다.
-2. (0:30–1:10 / Lecture) 실제 근거는 TRIAL-001의 단일 과거 CLI 조사다. Agent가 실패 테스트·관련 코드·명세·호출 경로를 조사하고 실행 제한을 구분했다. 모든 정보의 자동 발견·우월한 답변·권한 해결·현재 Desktop 재현으로 일반화하지 않는다. 목표 설정과 근거 검토 책임은 사람에게 남는다.
-3. (1:10–1:50 / Lecture) 화면 하단의 접근 전 승인된 도구·계정·자료·권한 확인을 짚는다. 개발 프로젝트 접근과 실제 도구/실행 권한은 별개다. 조직의 실제 허용·금지 목록이나 제품 보안 보장을 새로 확정하지 않는다.
-4. (1:50–2:00 / Lecture) “이 교육에서는 어디에서 개발 프로젝트를 열까요?”로 S13의 기존 Codex 진입 안내를 연다. Task 의도와 접근의 차이는 S14에 남긴다.
+1. (0:00–0:30 / Lecture) S11과 같은 다섯 자료·배치를 가리킨다. 가운데 주체가 사람에서 Agent로 바뀌며 자료 수집·연결의 일부를 허용된 범위 안에서 맡긴다는 마지막 문장을 읽는다.
+2. (0:30–1:10 / Lecture) 실제 근거는 TRIAL-001 단일 Codex CLI0.154.0 조사다. 실패 테스트·관련 코드·명세·호출 관계와 실행 제한을 확인했다. 오른쪽 Codex UI는 그 관계를 재구성한 화면이며 현재 Desktop 실행 기록이 아니다. S06의 Chatbot 입력을 실행해 이 결과를 얻은 것이 아니다.
+3. (1:10–1:45 / Lecture) 승인된 도구·계정·자료·권한 범위 안의 조사임을 확인한다. Agent가 권한 제한을 해결하지 않았고 목표·결과 검토 책임은 사람에게 남는다. 환경 오류는 별도 제한 관찰이지 Agent 성능의 증거가 아니다.
+4. (1:45–2:00 / Lecture) 이 교육에서는 어디에서 프로젝트 조사를 시작할지 S13의 기존 Codex 진입 안내로 넘어간다.
 
 **Evidence / Source:**
 TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-09-28 Codex CLI0.154.0기록. STATE-00 22e7e2f806de2419b0df649107bbae14dea082eb; tests/test_transform.py:9–14 and src/graypipe/transform.py:7–13. 원자료에 근거한 재구성. DEC-0086: prototype/image-illustration-pilot/assets/S07.png의 오른쪽 장면을 우측 상단 여백에 가로·세로1.8배로 확대해 재사용한다. 생성 지시는 prototype/image-illustration-pilot/PROMPTS.md의 S09에 보존한다. AI 생성 설명용 삽화이며 실제 실행 캡처·새 Trial 근거가 아니다.
@@ -845,12 +832,20 @@ TRIAL-001 · DEMO-01 · BEAT-003 · CLM-0002/0009. plan/DEMO_MATRIX.md의 2026-0
 
 DEC-0107의 오른쪽 UI: assets/product-ui/S12-codex-project.png. built-in image_gen으로 만든 UI 재구성이며 실제 실행 Screenshot이 아니다. 전체 생성 지시는 assets/product-ui/PROMPTS.md, 시각 참고 범위는 assets/product-ui/README.md에 보존한다. 공식 참고: https://learn.chatgpt.com/docs/quickstart ; https://learn.chatgpt.com/docs/use-chatgpt ; https://learn.chatgpt.com/docs/app (2026-10-27 확인). 자료 첨부·제품 선택·프로젝트 대화의 개념을 참고했으며 계정 화면이나 픽셀 단위의 일치를 검증한 자료가 아니다.
 
+DEC-0185: S06에서 옮겨 보존한 TRIAL-001 실제 Agent 조사 요청 원문은 다음과 같다. 앞 장의 직접 첨부 방식과 실제 Chatbot 비교를 수행한 것이 아니다.
+
+> 현재 이 저장소에서 테스트 하나가 실패하고 있다. 실패 원인을 조사해줘.
+> 관련 구현과 호출 경로, 실패하는 테스트를 확인해서 왜 실패하는지
+> 설명해줘. 아직 코드는 수정하지 마.
+
+원래 전체 결과는7개 통과·Crop 실패1건·읽기 전용 임시 폴더 환경 오류3건, 관련 테스트는2개 통과·같은 실패1건이며 코드 변경은 없었다. 파일·명세·호출 관계의 사실은 원자료를 따르고 그림을 실제 시간순 접근 trace로 읽지 않는다.
+
 **Claim Boundary:**
 FROZEN WITH SCOPE — 실제 관찰은 과거 Codex CLI0.154.0 한 번; TEACHING MODEL — 그림은 조사 관계의 각색. 현재 Desktop·일반 효율·반복성·권한 확대/해결을 주장하지 않는다. 새 Trial·Chatbot 비교·환경 복구·성능/비용 효과를 만들지 않는다.
 
 보존된 상세 범위: 권한 제한을 해제하지 않음 · 목표·검토 책임은 개발자에게 남음 · 현재 Desktop 미검증
 
-오른쪽 UI의 요청 문구·첨부·배치는 이 관계를 설명하는 재구성이다. 실제 TRIAL-001 요청 원문은 S06과 원자료를 따른다. UI 이미지가 새 ChatGPT 비교 실행이나 현재 Codex Desktop 동작의 증거를 추가하지 않는다.
+오른쪽 UI의 요청 문구·첨부·배치는 이 관계를 설명하는 재구성이다. 실제 TRIAL-001 요청 원문은 S12 Notes와 원자료를 따른다. UI 이미지가 새 ChatGPT 비교 실행이나 현재 Codex Desktop 동작의 증거를 추가하지 않는다.
 
 **Beginner Explanation:**
 관련 파일을 모두 직접 복사하기 전에 허용된 개발 프로젝트 조사를 요청할 수 있음을 본다.
@@ -862,17 +857,13 @@ Context 수집 역할의 일부와 목표 설정·권한·수용 판단 책임�
 Contextual cue — 저장소의 모듈·테스트·명세 조사에만 연결한다.
 
 **Demo Operation:**
-S11와 같은 다섯 자료·수집 주체·출력의 위치를 유지하되, 주체를 Agent와 허용된 조사로 바꾸고 오른쪽에 관찰된 조사 내용을 둔다. 개발 프로젝트 자료와 실행 권한이 별개이며 사람의 목표·검토 책임을 유지한다. 정적 경로 production/ACT_0.pptx의 S12 / production/preview/act0/S12.png. 실제 실행 Screenshot이나 새 Live 결과로 표시하지 않는다. S07/S07만 Demo 각4분이며 S09/S09은 Case, S11/S11은 Lecture다. 기존 도식을 먼저 따라가며, 우측 상단의 오른쪽 장면 삽화는 같은 역할을 보충하는 교육용 그림으로만 짚는다.
-
-DEC-0107: 오른쪽 결과 영역을 프로젝트가 열린 Codex UI 재구성으로 바꾼다. 테스트·관련 코드, Crop 명세와 구현 차이, 실행 중 권한 제한이라는 기존 CLI 조사 요약을 담는다. “화면 재구성 · 근거는 CLI 조사 기록”을 바로 아래 표시한다. 실제 Desktop 실행·새 로그·권한 해결을 뜻하지 않는다. 왼쪽 자료·가운데 Agent·연결선·우측 상단 삽화는 유지한다. 오른쪽 UI 안의 문장은 새 결과를 읽는 절차가 아니라 앞서 정리한 자료/관찰을 제품에 익숙한 모습으로 보이는 예다. 새 클릭·Live 실행을 하지 않는다.
-
-DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시를 사용한다. 원문과 강조, 지침·응답·근거의 구분은 유지하며 공통 창 외형을 실제 제품 실행의 증거로 해석하지 않는다.
+기존 삽화·Codex UI·자료 이름·색·배치를 보존하고 S11에서 수집 주체만 Agent로 바뀐 것을 비교한다. 실제 근거는 Notes의 과거 CLI 조사이며 새 Desktop 캡처나 현재 계정 검증이 아니다. 현재 Live/HYBRID를 활성화하지 않는다.
 
 **Audience Interaction:**
 한 장의 질문을 따라 관찰·해석하게 한다. 응답·실습·새 실행·공개 제출을 요구하지 않는다.
 
 **Transition:**
-“그렇다면 이 교육에서는 어디에서 개발 프로젝트를 열까요?”
+“이 교육에서는 이 프로젝트 조사를 어디에서 시작할까요?”
 
 **Time Management:**
 Lecture 2분 = 2분. 위 Speaker Flow의 구간대로 운영하며 한 장의 역할만 설명한다. 초과하면 다음 장 내용을 미리 설명하는 부분을 줄이고 근거 경계를 유지한다. 실측 리허설은 UNVERIFIED.
@@ -881,7 +872,7 @@ Lecture 2분 = 2분. 위 Speaker Flow의 구간대로 운영하며 한 장의 �
 LOCAL STATIC ARTIFACT — production/preview/full/S12.png 또는 ACT_0.pptx의 같은 Slide. 원자료/과거 CLI/교육용 가정 구분을 유지한다. 현재 Live/HYBRID는 발표 환경 검증 전 비활성이다.
 
 **Validation Status:**
-CONTENT ALIGNED — DEC-0084. 로컬 패키지·렌더·Notes 대조는 production/evaluation/ACT_0_CONTEXT_EXPANSION.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0185. 현재 PPT/PNG·내장 Notes 대조는 production/evaluation/ACT0_CONTEXT_COLLECTION_FLOW.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
 ## S13 — 개발 프로젝트 조사는 Codex에서 시작한다
 
@@ -906,7 +897,7 @@ Opening Question:
 1. **LOCATE (0:00–0:15):** 재구성 UI의 좌측 상단 ChatGPT 메뉴를 가리킨다. 사용자 지정 위치를 보여 주는 교육용 도식이며 실제 계정의 실행 캡처가 아님을 짧게 밝힌다.
 2. **SELECT (0:15–0:30):** 메뉴의 Codex를 가리킨다. 이 교육에서 코드베이스 조사와 개발 작업을 시작하는 표면을 연결한다.
 3. **프로젝트 폴더 (0:30–0:45):** 허용된 프로젝트 폴더를 선택하는 흐름을 가리킨다. 앞 장에서 확인한 도구·계정·자료·권한 범위 안의 폴더만 대상이며 실제 선택이나 Live 실행을 하지 않는다.
-4. **ASK (0:45–1:00):** “먼저 조사해줘”라는 요청으로 S06의 조사 태도를 회수한다. “들어가는 곳을 알았으니, 무엇을 볼 수 있고 누가 최종 결정할지 나눠 보겠습니다”라며 S14로 간다.
+4. **ASK (0:45–1:00):** “먼저 조사해줘”라는 요청으로 S12에서 회수한 실제 Agent 조사 태도를 이어간다. “들어가는 곳을 알았으니, 무엇을 볼 수 있고 누가 최종 결정할지 나눠 보겠습니다”라며 S14로 간다.
 운영 표시: “실무 적용 팁 · 사용 환경” 배지로 다시 찾아 쓸 기준임을 짚는다. 기존 설명·근거 범위와 배정 시간 안에서 진행하며 요청·예시를 새로 실행하지 않는다.
 
 Evidence / Source: BEAT-003에 연결한 사용자 승인 진입 가교; DEC-0036; SRC-0228 (Quickstart), SRC-0229 (App), CLM-0031 (공식 문서의 전환 경로, 대상 UI·계정 UNVERIFIED). 공식 자료 [ChatGPT quickstart](https://learn.chatgpt.com/docs/quickstart?setup=app), [ChatGPT app](https://learn.chatgpt.com/docs/app), 확인 2026-10-21. Quickstart는 코드베이스 Context·개발 도구가 필요한 소프트웨어 개발에서 ChatGPT dropdown의 Codex 선택을 안내한다. 좌측 상단 위치는 사용자의 명시적 UI 요구다. 화면 구성은 공식 자료 기반 UI 재구성이며 실제 Screenshot이 아니다. 로컬 앱 직접 확인은 도구 안전 제약으로 수행하지 못해 UNVERIFIED다.
@@ -6635,7 +6626,7 @@ Lecture 2분 + Reflection 2분
 **Evidence / Source:**
 TEACHING_MODEL · 승인된 private reflection prompt. 개인 업무에 대한 새 관찰 근거는 수집하지 않는다.
 
-보존된 상세 출처: BEAT-070–071 · 다음 행동과 확인 근거를 떠올리는 개인 성찰
+보존된 상세 출처: BEAT-070–071 · 다음 행동과 확인 근거를 떠올리는 개인 성찰 화면에서 제외한 보조 문구는 “공유는 선택”, “출처·검토·갱신 책임도 함께”다. 원래의 자발성·검토 책임은 이 Notes와 기존 B/C 행동의 배경에 보존한다.
 
 **Claim Boundary:**
 개인 Reflection이며 응답, 공유, written commitment 또는 실제 업무 변경을 요구하지 않는다. 통합·제거의 성공·비용 절감·품질 유지 결과는 관찰하지 않았다.
@@ -6652,7 +6643,7 @@ DEC-0097: Loop는 같은 목표의 구현·검토·수정 반복이다. 새로�
 자신의 Vision 또는 개발 Repository에 같은 질문을 개인적으로 적용할 수 있다.
 
 **Demo Operation:**
-왼쪽 A–E 행동은 S106과 같은 글자로 대응한다. 오른쪽은 모든 선택에 공통인 확인 근거 질문이다. 새 Trial이나 실행 결과·성공 판정은 없다. 선택은 마음속으로 하며 화면상 특정 항목을 강제로 선택하지 않는다. B의 중복 지침 통합, C의 절차·역할 통합·제거는 하나의 선택 가능한 후보이며 실행 명령이나 과제가 아니다. 공통 질문 아래의 출처·검토·갱신 책임도 짚는다.
+왼쪽 A–E 행동은 S106과 같은 글자로 대응한다. 오른쪽은 모든 선택에 공통인 확인 근거 질문이다. 새 Trial이나 실행 결과·성공 판정은 없다. 선택은 마음속으로 하며 화면상 특정 항목을 강제로 선택하지 않는다. B의 중복 지침 통합, C의 절차·역할 통합·제거는 하나의 선택 가능한 후보이며 실행 명령이나 과제가 아니다.
 
 **Audience Interaction:**
 개인 성찰2분. 하나의 행동과 확인 근거를 마음속으로 고르게 하고 공유나 실천 약속을 받지 않는다. 침묵을 허용하며 응답을 기다리지 않고 정해진 시점에 Q&A로 넘긴다.
@@ -6667,7 +6658,7 @@ Lecture2분+Reflection2분=4분. S106의 증상을 다시 읽거나 다섯 기�
 LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S107와 production/preview/act5/S107.png를 사용한다. 새 실행·원본 실행 캡처로 표현하지 않는다. 현재 화면과 Notes 검토는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 기록한다.
 
 **Validation Status:**
-LOCAL CONTENT REVIEW COMPLETE — DEC-0083. 최종 패키지/PNG/내장 Notes 대조 결과는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md와 ACT_5_HARNESS_REASSESSMENT_VALIDATION.json에 별도 기록한다. Windows PowerPoint, 발표 PC 글꼴, 제품·계정·교육장·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0185. 현재 PPT/PNG·내장 Notes 대조는 production/evaluation/ACT0_CONTEXT_COLLECTION_FLOW.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
 ## S108 — 실무 적용 팁 · 작업 환경과 기준
 

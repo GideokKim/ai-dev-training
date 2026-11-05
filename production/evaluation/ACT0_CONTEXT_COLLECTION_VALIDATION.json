@@ -1,0 +1,187 @@
+{
+  "baseline": "455f261",
+  "decision": "DEC-0185",
+  "slides": 111,
+  "minutes": 372,
+  "changedSlides": [
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S107"
+  ],
+  "changedNotesSlides": [
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S107"
+  ],
+  "changedMapSlides": [
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S107"
+  ],
+  "actSlideCounts": [
+    14,
+    23,
+    22,
+    18,
+    19,
+    15
+  ],
+  "actMinutes": [
+    42.0,
+    64.0,
+    90.0,
+    64.0,
+    71.0,
+    41.0
+  ],
+  "modeMinutes": {
+    "Transition": 21.0,
+    "Lecture": 170.0,
+    "Reflection": 17.0,
+    "Case": 95.0,
+    "Demo": 44.0,
+    "Q&A": 25.0
+  },
+  "renderedSlides": 140,
+  "notesCompared": 140,
+  "notesFields": 19,
+  "unchangedFullSlides": 103,
+  "S07OutsideFooterUnchanged": true,
+  "S107OutsideTwoDeletedCaptionsUnchanged": true,
+  "S11S12IllustrationAndUiBytesPositionsPreserved": true,
+  "allOtherImageBytesPositionsPreservedExceptS06": true,
+  "S06ExistingHumanIconReused": true,
+  "allModuleFootersPreserved": true,
+  "nativeTablesAndCppChartPreserved": true,
+  "actFullPixelParity": true,
+  "otherActPptxUnchanged": true,
+  "perSlideTimeModeBeatSectionAndTemplatePreserved": true,
+  "S06EvidenceReclassifiedAsScopedTeachingModel": true,
+  "originalAgentPromptAndCliEvidenceRetained": true,
+  "noChatbotComparisonOrNewTrial": true,
+  "decks": {
+    "AI_Dev_Training_Full": {
+      "slides": 111,
+      "sha256": "e352d59b9f39c1ea9dc0291a6e765413b2b2bd5e68a23d3fd92094fb7e4e8a5d",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "warnings": [
+        {
+          "connector_id": "25",
+          "connector_z": 23,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "24",
+          "text_z": 22
+        },
+        {
+          "connector_id": "28",
+          "connector_z": 26,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "27",
+          "text_z": 25
+        },
+        {
+          "available_bottom_in": 6.2917,
+          "columns": 3,
+          "declared_bottom_in": 5.7917,
+          "estimated_native_bottom_in": 6.3017,
+          "footer_object_ids": [
+            "4"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 0.01,
+          "rows": 8,
+          "slide": 54,
+          "table_id": "8"
+        },
+        {
+          "connector_id": "11",
+          "connector_z": 12,
+          "kind": "connector_over_text",
+          "slide": 79,
+          "text_object_id": "10",
+          "text_z": 11
+        }
+      ]
+    },
+    "ACT_0": {
+      "slides": 14,
+      "sha256": "c2e6534ce0c64ebd183d3a5e35ed929d76fd7e2b260426a7516d0abe0e81aad9",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "warnings": [
+        {
+          "connector_id": "25",
+          "connector_z": 23,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "24",
+          "text_z": 22
+        },
+        {
+          "connector_id": "28",
+          "connector_z": 26,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "27",
+          "text_z": 25
+        }
+      ]
+    },
+    "ACT_5": {
+      "slides": 15,
+      "sha256": "c825b9a75d0073e9aaf9e56c5b05f18b84e1a872f5d9f186d88187df2d3b9b36",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "warnings": []
+    }
+  },
+  "demoHead": "afef3e0c66d3f7a29790c37034d5aad274ac5ce8",
+  "demoWorkingTree": "clean",
+  "unverified": [
+    "Windows PowerPoint",
+    "Classroom projection",
+    "Current product/account",
+    "Timed rehearsal"
+  ],
+  "visualReview": {
+    "method": "inspect all eight final changed slides at full size; inspect ACT0 montage for S05-S14 flow; compare all other screens pixel-for-pixel",
+    "slides": {
+      "S06": "PASS",
+      "S07": "PASS",
+      "S08": "PASS",
+      "S09": "PASS",
+      "S10": "PASS",
+      "S11": "PASS",
+      "S12": "PASS",
+      "S107": "PASS"
+    },
+    "S11S12TitleIllustrationOverlapFixed": true,
+    "newClippingOrOverlapFound": false,
+    "note": "Local font substitution/rendering only; no Windows or timed rehearsal claim"
+  }
+}

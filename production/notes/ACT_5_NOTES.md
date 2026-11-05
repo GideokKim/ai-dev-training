@@ -817,7 +817,7 @@ Lecture 2분 + Reflection 2분
 **Evidence / Source:**
 TEACHING_MODEL · 승인된 private reflection prompt. 개인 업무에 대한 새 관찰 근거는 수집하지 않는다.
 
-보존된 상세 출처: BEAT-070–071 · 다음 행동과 확인 근거를 떠올리는 개인 성찰
+보존된 상세 출처: BEAT-070–071 · 다음 행동과 확인 근거를 떠올리는 개인 성찰 화면에서 제외한 보조 문구는 “공유는 선택”, “출처·검토·갱신 책임도 함께”다. 원래의 자발성·검토 책임은 이 Notes와 기존 B/C 행동의 배경에 보존한다.
 
 **Claim Boundary:**
 개인 Reflection이며 응답, 공유, written commitment 또는 실제 업무 변경을 요구하지 않는다. 통합·제거의 성공·비용 절감·품질 유지 결과는 관찰하지 않았다.
@@ -834,7 +834,7 @@ DEC-0097: Loop는 같은 목표의 구현·검토·수정 반복이다. 새로�
 자신의 Vision 또는 개발 Repository에 같은 질문을 개인적으로 적용할 수 있다.
 
 **Demo Operation:**
-왼쪽 A–E 행동은 S106과 같은 글자로 대응한다. 오른쪽은 모든 선택에 공통인 확인 근거 질문이다. 새 Trial이나 실행 결과·성공 판정은 없다. 선택은 마음속으로 하며 화면상 특정 항목을 강제로 선택하지 않는다. B의 중복 지침 통합, C의 절차·역할 통합·제거는 하나의 선택 가능한 후보이며 실행 명령이나 과제가 아니다. 공통 질문 아래의 출처·검토·갱신 책임도 짚는다.
+왼쪽 A–E 행동은 S106과 같은 글자로 대응한다. 오른쪽은 모든 선택에 공통인 확인 근거 질문이다. 새 Trial이나 실행 결과·성공 판정은 없다. 선택은 마음속으로 하며 화면상 특정 항목을 강제로 선택하지 않는다. B의 중복 지침 통합, C의 절차·역할 통합·제거는 하나의 선택 가능한 후보이며 실행 명령이나 과제가 아니다.
 
 **Audience Interaction:**
 개인 성찰2분. 하나의 행동과 확인 근거를 마음속으로 고르게 하고 공유나 실천 약속을 받지 않는다. 침묵을 허용하며 응답을 기다리지 않고 정해진 시점에 Q&A로 넘긴다.
@@ -849,7 +849,7 @@ Lecture2분+Reflection2분=4분. S106의 증상을 다시 읽거나 다섯 기�
 LOCAL STATIC ARTIFACT — production/ACT_5.pptx의 S107와 production/preview/act5/S107.png를 사용한다. 새 실행·원본 실행 캡처로 표현하지 않는다. 현재 화면과 Notes 검토는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md에 기록한다.
 
 **Validation Status:**
-LOCAL CONTENT REVIEW COMPLETE — DEC-0083. 최종 패키지/PNG/내장 Notes 대조 결과는 production/evaluation/ACT_5_HARNESS_REASSESSMENT.md와 ACT_5_HARNESS_REASSESSMENT_VALIDATION.json에 별도 기록한다. Windows PowerPoint, 발표 PC 글꼴, 제품·계정·교육장·실측 리허설은 UNVERIFIED.
+ALIGNED — DEC-0185. 현재 PPT/PNG·내장 Notes 대조는 production/evaluation/ACT0_CONTEXT_COLLECTION_FLOW.md에 기록한다. Windows PowerPoint·발표 PC 글꼴·현재 제품/계정·교육장·실측 리허설은 UNVERIFIED.
 
 ## S108 — 실무 적용 팁 · 작업 환경과 기준
 

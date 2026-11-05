@@ -1,6 +1,26 @@
 # DEMO-01 — Repository Exploration
 
-## 현행 발표 자료 · DEC-0168
+## 현재 자료 수집 방식 연결 — DEC-0185
+
+전체111장·372분, ACT0 14장·42분이다. S06의 자료 첨부 방식은 정적 설명용
+구성이며 Chatbot 실행이 아니다. S07/S08의 원래 CLI 관찰 근거는 Demo4분씩,
+S09 환경 제한은 Case3분으로 유지한다. S10에서 두 출처의 자료를 모은 뒤
+S11 사람의 찾기·연결·첨부와 S12 Agent의 허용된 직접 조사를 비교한다.
+S12의 원문 요청·실제 관찰은 Codex CLI0.154.0의 과거 단일 기록이다.
+
+기본 경로는 Full/ACT0 또는 production/preview/full/S06.png–S12.png의
+정적 화면이다. 시작 cue는 S06의 직접 첨부 방식, 실제 근거 확인은 S07/S08,
+별도 환경 제한은 S09, 수집 주체 전환은 S11/S12다. S12 뒤 기존 S13 Codex
+진입 안내로 이동한다. Live가 막히면 기다리거나 새 Trial을 실행하지 않고 같은
+정적 화면에서 자료 수집 관계를 설명한다. 발표자 전환 문구는 각 장 Notes를
+따른다. [현행 기획](../../plan/ACT0_CONTEXT_COLLECTION_FLOW.md)과
+[파일·해시](FALLBACK_MANIFEST.md)를 확인한다.
+
+실제 Chatbot 응답·모델 우열·시간·토큰 절감·권한 해결을 주장하지 않는다.
+자료 첨부 UI와 Codex 그림은 실제 실행 캡처가 아니다. Windows·교육장·현재
+제품/계정·실측 리허설은 UNVERIFIED이며 현재 Live/HYBRID는 비활성이다.
+
+## 이전 발표 자료 · DEC-0168
 
 [Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 112장·383분 중 ACT4는 S78–S97, ACT5는 S98–S112다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
 

@@ -1,5 +1,16 @@
 # 최종 전달 안내 — AI 개발자 교육
 
+## ACT0 자료 수집 방식 연결 · DEC-0185
+
+[통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT0](../ACT_0.pptx) · [ACT5](../ACT_5.pptx) · [ACT0 Notes](../notes/ACT_0_NOTES.md) · [ACT0 미리보기](../preview/act0/montage.png) · [수정·근거·대조 결과](ACT0_CONTEXT_COLLECTION_FLOW.md)
+
+S06–S12를 자료 첨부 방식→Crop 현상과 필요한 근거→사람의 자료 수집→Agent의 허용된 직접 조사로 연결했다. S06은 실제 Chatbot 실행이 아닌 직접 첨부 방식이며, S07–S09의 원래 CLI 근거를 이 입력의 결과로 바꾸지 않는다. 실제 Agent 요청·관찰·코드 미수정·권한 제한은 S12 Notes와 기존 원자료에 보존했다. S11/S12 기존 UI·삽화는 유지하고 제목만 간결하게 해 겹침을 피했다.
+
+S06 창 제목은 “조사 요청”만 남기고 S07 footer와 S107의 지정 보조 문구 두 개를 삭제했다. S05/S13의 Notes 연결도 정렬했다. 전체111장·372분, 모든 장별 배정·근거 범위를 유지한다. Full+ACT0/5의140개 렌더·Notes를 대조했고 다른103장 화면은 같다. Windows·교육장·현재 제품/계정·실측 리허설은 UNVERIFIED다. Demo Repository·실험·Sites·묶음은 변경하지 않았다.
+
+<details>
+<summary>앞선 제작 문구 정리·C++ 비교 및 이전 전달 맥락</summary>
+
 ## 발표 화면 보조 문구 정리 · DEC-0184
 
 [통합 PPT](../AI_Dev_Training_Full.pptx) · [ACT1](../ACT_1.pptx) · [ACT3](../ACT_3.pptx) · [ACT5](../ACT_5.pptx) · [수정·전수 검사 결과](AUDIENCE_EXAMPLE_LABEL_CLEANUP.md) · [전체 Notes](../notes/FULL_SPEAKER_NOTES.md) · [전체 미리보기](../preview/full/montage.png)
@@ -46,21 +57,23 @@ S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과
 
 </details>
 
+</details>
+
 | Current artifact | SHA-256 |
 |---|---|
-| `production/AI_Dev_Training_Full.pptx` | `66201e5853957e244c0b9fe2c5c5af6ca52bdbff6af21dbea399b14731956cf4` |
-| `production/ACT_0.pptx` | `1ad0df43303aa9e13342f2fd5097603f26a6c643688e0ad1a03d1ed0777f6256` |
+| `production/AI_Dev_Training_Full.pptx` | `e352d59b9f39c1ea9dc0291a6e765413b2b2bd5e68a23d3fd92094fb7e4e8a5d` |
+| `production/ACT_0.pptx` | `c2e6534ce0c64ebd183d3a5e35ed929d76fd7e2b260426a7516d0abe0e81aad9` |
 | `production/ACT_1.pptx` | `6b747ddfba0675e47c1e9de42fb758c7a9232971de8920d3d17eed46fcb220f0` |
 | `production/ACT_2.pptx` | `70f040c1bf0419260404ba0a590c4e5ac90186a5bd51c785d913792ff60dfc0e` |
 | `production/ACT_3.pptx` | `5f22eb9b3d6801e2f5521f9dcd4a37fdb80e4f6f2cadaf6144061452442c36b8` |
 | `production/ACT_4.pptx` | `bede5386411f9d6f626d60f1d09b2b67beb0a4373f46de3eacb5e59763997509` |
-| `production/ACT_5.pptx` | `363b64c965ab9d5ecda798cd652c43e30a7f4880764227617ee3b111991c3713` |
-| `production/notes/FULL_SPEAKER_NOTES.md` | `cfc2ce60f275ea222d1915e103b3aa8c0fc7317cf5199cadcce3c7340f1ed435` |
+| `production/ACT_5.pptx` | `c825b9a75d0073e9aaf9e56c5b05f18b84e1a872f5d9f186d88187df2d3b9b36` |
+| `production/notes/FULL_SPEAKER_NOTES.md` | `5aeb83812c844ca0a44d69c58cfe7c0f07e329a089e274d4fd010458cee415e5` |
 | `production/notes/ACT_4_NOTES.md` | `a7660820b4f90480ae753ed44a7b3049a778130c6cfdffa6e4a412c9e95fdba0` |
-| `production/notes/ACT_5_NOTES.md` | `2f03e5d4ab10b2a5d0994d9fa946ba4cf7bcecfca146cd7375265504b0661e4b` |
-| `production/preview/full/montage.png` | `4cf56e9c58dbb27df976dc0e71091793134aa9a9d90bfbf547f654f87053b4e4` |
+| `production/notes/ACT_5_NOTES.md` | `d5c650571f748e5def3bf1a0549c4e23e7c49ceb370c76624279c73e313f1264` |
+| `production/preview/full/montage.png` | `7e553bce6bcb5a91f76e1a97c5971be5683b3a4395279faefaca9bbc6d69bb24` |
 | `production/preview/act4/montage.png` | `c61391c36233f822d129ad32f98a6aaeb6304eb3345e31eaa64ad07bae403746` |
-| `production/preview/act5/montage.png` | `82ab310d7b746afbc786151590886237bd87a8f75470262ceb396f47c5a51e74` |
+| `production/preview/act5/montage.png` | `8d25496326190c45c048cb46245497e5fc75e19dceef4c88b04b4def0f30b8f5` |
 | `production/preview/full/S93.png` | `5ff0f2b96940061ee18f3f51c9fee8833bfb5f9d1e45ff3c0360ff124aeba04c` |
 | `production/preview/full/S95.png` | `d5fdf0d5a011efb818f54cb423d1213af2b1f5e6f94f0e8406a5d9ba57cd5bf4` |
 | `production/preview/full/S96.png` | `f26c59a4f07adb390e351ecf1fe3b0f2317783d2165ef9a7b52ee9b08695ea21` |
@@ -68,23 +81,23 @@ S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과
 | `production/preview/full/S101.png` | `95427929b67e91ebe633ad7674963c383747b608f37ccd4e47b0f7600d500f0c` |
 | `production/preview/full/S105.png` | `55fbb5fa9e3fa321e208a821e8676938706b7497e463ca9944f25caf09452409` |
 | `production/preview/full/S106.png` | `f6bbaa9206d891e99dafc01b70772adbdf3dadcf5132d2c7d949385ef73fdbcf` |
-| `production/preview/full/S107.png` | `fedec4a97cc2b559eafd9117b83975fadfc35a60b5fd32ab9d24696a028c1473` |
+| `production/preview/full/S107.png` | `a5c937e7c48e6d29378684f8c31cd532d619738382a985c1652d16a32ee57b56` |
 | `production/preview/full/S108.png` | `6bb26afb4de966a6aceefee890cbe84173f7d7b541c967cdbdd9e09b759cd1e1` |
 | `production/preview/full/S109.png` | `e5cf8a3385979be4f76184a9080738133574b7b4f443f6334a0cbe8210b853d4` |
 | `production/preview/full/S110.png` | `d5c1eb9b6adc0a13f88dc7175d8e769d7ebfccd42fdb4ff78d36bea0d5184ad0` |
 | `production/preview/full/S111.png` | `673df470f2c60de0328a344c329906b042171f77a4edaa2aa2ce965808dd34b0` |
-| `production/notes/ACT_0_NOTES.md` | `a43b337b520be6e865a239eacc9df5092731985e1625dc68d8ee1dfe35eb16d1` |
+| `production/notes/ACT_0_NOTES.md` | `4f19e3aaea20c60da897d1a6b0b38d8f48765bb8b9b8cf0d868fa80058722a9c` |
 | `production/notes/ACT_1_NOTES.md` | `6fdc4c8baf9ffbb175a24430cd064b3e17c2b04c217c716f2f9bb9488dd1dc3d` |
 | `production/notes/ACT_2_NOTES.md` | `46c10f7d0adabf92c3865531e58f119cab6ccd1b36b3f8da8a148427cb1678bf` |
 | `production/notes/ACT_3_NOTES.md` | `ccddfe3328375b104795308cc825d885e6cecb6417c2c4fabaaecd7b0fd26ceb` |
-| `production/preview/act0/montage.png` | `0109fca938274e14ad4d1b4d59cb1826ae6619d06be45b5247a762c632cf6514` |
+| `production/preview/act0/montage.png` | `c38ac327b8261bbc04db03235ef91cdae0c1c867fb94caccb0ae3d5f023b1246` |
 | `production/preview/act1/montage.png` | `e447754cd57e021f871837494e4793f4ef7d79e97c6dfd929b638a1fa92fda89` |
 | `production/preview/act2/montage.png` | `5ade5f13f89a25f76a1e68080222b0b8e5758113b5e595ad1489ba201d121702` |
 | `production/preview/act3/montage.png` | `3a2dd312f175b14a554d3f22bcfd5f82b8edd4c8f83b4d513bc0fcec0d464ece` |
 | `production/preview/full/S04.png` | `a3044f100c7b646128408740c8649d823c0a25ed5a5b11776c6ec902601412a7` |
-| `production/preview/full/S06.png` | `07f791e60a581a43788a7b266476c172c2d6856aaea90f69bd2f9184bc1f5a34` |
-| `production/preview/full/S11.png` | `e83c3429f8f392726f0b6081f2ede2f5fcce1ac839b0e654002b9ac589e32fcb` |
-| `production/preview/full/S12.png` | `c3628a20e8d631b6e0c23d6effb3aa0b823d3d5665caa89ec6d68ed7426b126f` |
+| `production/preview/full/S06.png` | `56ba85d53d60fa4dd9f5bb825e066a24f682a7305868e3bd215ca27cc202f5c0` |
+| `production/preview/full/S11.png` | `9ce06ab132311cc6ecd62307baf98aaa536b1b49c0d50088389da856286f430b` |
+| `production/preview/full/S12.png` | `fb6ef11acc9c0f8b3c86378201c5cf25bab716ec950b10ae39bfc2ec313c1bff` |
 | `production/preview/full/S16.png` | `ee471284b121c4732abd95b0585d34859094d309bc64f535a1175afce7bbf04f` |
 | `production/preview/full/S17.png` | `950a654b83b265a80387ede483a7ae56cce1086a2214e83f2c5b9cab01679791` |
 | `production/preview/full/S18.png` | `a94602eff8945a17c4480022fdc19c04027b2d3e150172d7836242636f9fcf89` |
@@ -125,6 +138,10 @@ S93은 사람이 자리를 비운 동안 Agent에게 허용한 폴더·연결과
 | `production/preview/full/S70.png` | `ec426741663c2786fb3169687510d8e5f24dab2c5442e41770378943715dbf58` |
 | `production/preview/full/S77.png` | `59af754120a4c3869c5e694eca381e45d866f9046ae5c839c8a615938ae1e4c6` |
 | `production/preview/full/S103.png` | `045ca110e70445809fda7908352e99aed5a9f0bea17899ba23cf118749deaae9` |
+| `production/preview/full/S07.png` | `b9cb0b1bd6a9e8561e3796337e35ac7020814fd6134d38f02770648227814c95` |
+| `production/preview/full/S08.png` | `28aaebc980b4064e72b6311cc82102d5d29f6070926bf5839edf1aaa9193757a` |
+| `production/preview/full/S09.png` | `9058103ec4c605649c0b4c0372beceadd315d55859d05f5ac383c93226f5564d` |
+| `production/preview/full/S10.png` | `142e724e29c07355d6b0b0080fd63453fea29f19a3a6579773247b59bdb39673` |
 
 ## 보존된 이전 전달 기록
 

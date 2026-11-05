@@ -15862,3 +15862,27 @@ record the full-deck text audit, pixel comparison and delivery hashes.
 
 Do not apply the separately proposed ACT0 storyline/title changes in this
 cleanup. Change no Demo repository, experiment, Site or presenter bundle.
+
+# DEC-0185 — Establish context collection before the Agent payoff
+
+Status: ACCEPTED by the user's approval of the proposed ACT0 flow.
+Date: 2026-11-05.
+
+Revise S06-S12 to move from the crop finding and its required evidence to
+manual context collection, then the bounded Agent investigation. Use S06
+for a manual-attachment scenario rather than presenting the actual Agent
+request as a Chatbot execution. Retain the original request and CLI
+observations in S12 Notes, the Demo matrix and the prior setup record.
+
+Keep the crop width, specification, implementation, call relationship and
+separate permission-error facts. Do not attribute these CLI observations
+to the S06 Chatbot scenario or claim better answers, time or token savings.
+Keep permission limits distinct from project-file access. Reuse S11/S12's
+existing illustrations and UI; shorten their titles to avoid image overlap.
+
+Keep 111 slides/372 minutes, IDs, beats, sections, per-slide allocations
+and templates. Align S05/S13's Notes handoff, remove the specified S07
+footer and S107's two supplementary captions, and retain voluntary
+reflection, A-E actions, evidence and review responsibilities in Notes.
+Render Full and ACT0/5; record normal artifacts with the existing Git policy.
+Change no Demo repository, experiment, product state, Site or bundle.
