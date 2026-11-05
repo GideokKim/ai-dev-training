@@ -15814,3 +15814,30 @@ Do not modify the deck, Notes, Slide Map or existing Trial records.
 Decide any C++ teaching adoption separately after reviewing the evidence.
 Commit retained experiment sources, tests and records with the existing
 Git policy; keep executables and generated image fixtures outside Git.
+
+# DEC-0183 — Adopt the bounded C++ statistics comparison on S68-S69
+
+Status: ACCEPTED by the user's request to update the slides from the experiment.
+Date: 2026-11-05.
+
+Replace only S68-S69's displayed Python candidate choice and measurements
+with EXP-CPP-STATS-001's C++ comparison. Keep the same brightness task,
+six output fields, two-slide structure and Case5 minutes per slide.
+Select the measured fused pass rather than importing the Python winner.
+
+Use the retained JSON for the native chart and labels. Show the copied
+baseline and fused-pass medians, tracked temporary pixel-buffer peak and
+external correctness checks with the local compiler/host/input scope.
+Do not describe zero tracked buffer bytes as zero total memory or RSS.
+OBSERVED_PRODUCT refers only to the isolated C++ test code; teaching
+diagrams and original Python product/Skill history remain distinct.
+
+Align S67's entry, S70's conceptual handoff, S72's visible return to the
+original Python role decision and S73's source references. Retain the
+Python Trial and State records without rewriting them or creating a new
+Skill execution, product state, Windows/MSVC result or causal claim.
+
+Keep 111 slides/372 minutes, every ID, allocation, template and module
+footer. Align maps, Claim Freeze, Demo scope, Notes and current delivery
+references. Render the Full and ACT3 decks and push normal artifacts.
+Change no Demo repository, measured experiment source/result, Site or bundle.

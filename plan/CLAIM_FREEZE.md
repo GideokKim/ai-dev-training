@@ -1,5 +1,26 @@
 # STEP 08 — CLAIM / EVIDENCE FREEZE RESULT
 
+## S68–S69 C++ 비교 실험 채택 — DEC-0183 (2026-11-05)
+
+전체111장·372분과 각 장의 시간·Mode·Story Beat·Template은 유지한다.
+S68/S69는 같은 밝기 통계의 별도 C++ 실험 `EXP-CPP-STATS-001`로 설명한다.
+실제 시험 코드의 직접 관찰은 OBSERVED_PRODUCT, 구조 도식은 TEACHING_MODEL로
+분류하며 원래 Python Demo State·Skill 호출·제품 반영 이력과 구분한다.
+
+S68은 row_reductions1.138ms와 fused_pass0.071ms를 비교해 후자를 선택한다.
+S69는 같은 실험의 copied_buffer1.216ms→fused_pass0.071ms와 계측한 임시
+픽셀 버퍼1572864→0B를 보여준다. 후보별63묶음 표본의 호출당 환산 중앙값이며
+Apple M5 Max/Clang21 Release, 동일1024×768 입력에 한정한다.56개 입력에서
+세 후보의6항목이 기존 Python 정답과 일치했고 계약20개·ASan/UBSan을 통과했다.
+0B는 입력 영상·스택·전체 힙·RSS가 아니다. Windows/MSVC·새 Skill 호출은
+검증하지 않았다. [실험 원자료](../demos/experiments/cpp-statistics/README.md).
+
+S67에서 별도 C++ 비교로 들어가고 S70/S71의 역할 분리 가정·제작 팁 뒤 S72는
+상단에 “원래 Python Demo의 역할 판단”을 표시한다. S72–S74의 원래 판단·구성은
+보존한다. 기존 TRIAL-008·STATE-04-PERF의 Python 후보·15.468/10.769ms·
+6675804/380B·테스트 기록은 아래 원자료와 Git 이력에 보존하며 현재 S68/S69의
+C++ 값과 섞지 않는다. 새 Trial이나 C++ 제품 State를 소급 생성하지 않는다.
+
 ## 현재 제작 기준 — DEC-0177 (2026-11-04)
 
 전체 **111장·372분(6시간12분)**. ACT별 장수는14/23/22/18/19/15장, 시간은42/64/90/64/71/41분이다. Mode는 Lecture170 / Demo44 / Case95 / Reflection17 / Transition21 / Q&A25분이다.

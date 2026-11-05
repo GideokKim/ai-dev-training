@@ -64,7 +64,7 @@ Demo 저장소·Sites·발표 묶음은 변경하지 않는다. [삭제·연결 
 ## 유지할 현행 화면과 연결
 
 S66의 DEC-0137 Prompt 창과 근거 경계를 유지한다. S75–S77의 이전 시각 설계는 현재 S74–S76의 같은 역할로 이어진다.
-S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근거 유형을 구분한다.
+S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측정·검증으로 연결한다(DEC-0183). S72에서는 원래 Python Demo의 역할 판단으로 돌아가며, 과거 Python 후보·제품 측정은 원자료에 보존한다.
 
 ### ACT 0 — 14 slides / 42 minutes
 
@@ -1786,10 +1786,10 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Advanced Payoff:** 사용 조건·입출력·수행 방법의 범위를 좁히고 생성 지침의 검토와 대표 요청 평가를 구분한다. 좋은 실행 결과·정확성·효율을 자동 보장하지 않는다.
 - **C++ Vision Bridge:** 없음. 제작 경로와 역할 범위를 설명하며 C++ 도구 목록을 추가하지 않는다.
 - **Speaker Intent:** 한 장에서 제작 요청→생성 지침 확인→대표 요청 사용의 경로를 읽게 한다. 실제 제작·호출 Demo나 설정 문법 강의로 확장하지 않는다.
-- **Transition:** “지금 본 제작 요청은 사용 예시입니다. 이제 앞서 Skill을 지정했던 실제 밝기 통계 작업에서 어떤 근거로 구현을 선택했는지 보겠습니다.”
+- **Transition:** “지금 본 제작 요청은 사용 예시입니다. 같은 밝기 통계 작업을 C++로 옮기면 어떤 구현을 고를지, 별도 비교 실험을 보겠습니다.”
 - **Estimated Time:** 2분
 - **Delivery Mode Allocation:** Lecture 2분 = 2분
-- **Evidence / Decision References:** SRC-0111, CLM-0041, DEC-0093; DEC-0179
+- **Evidence / Decision References:** SRC-0111, CLM-0041, DEC-0093; DEC-0179; EXP-CPP-STATS-001; DEC-0183; demos/experiments/cpp-statistics/results/summary.json
 - **Practical Tip Classification:** 수행 방법
 - **Audience Footer:** 사용 예시 · 생성 지침을 검토하고 실제 요청으로 확인
 
@@ -1800,23 +1800,23 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Section:** 3D Working Harness
 - **Working Title:** 밝기 통계 계산의 성능 개선 후보
 - **Primary Role:** 최적화 기법 강의 대신 근거에 따른 후보 선택을 보여준다.
-- **Audience Question:** “밝기 통계의 결과를 유지하면서, 어떤 계산 방식을 선택했을까요?”
-- **Core Message:** TRIAL-008에서는 결과 6항목을 보존한 후보들의 실행시간과 traced allocation을 함께 봤다. 느린 수동 순회는 제외하고 낮은 할당량과 더 나은 실행시간의 행 단위 reduction을 선택했다.
+- **Audience Question:** “같은 밝기 통계를 C++로 계산한다면, 두 후보 중 무엇을 고를까요?”
+- **Core Message:** 같은 밝기 통계 기능을 C++로 옮긴 EXP-CPP-STATS-001에서 행별 표준 연산1.138ms와 한 번 집계0.071ms를 비교했다. 결과6항목을 유지했고 두 후보의 계측한 추가 픽셀 버퍼는0B였다. 이 Mac/Release 조건에서 한 번 집계를 선택한다.
 - **Story Beat:** BEAT-022 — 측정과 비교를 거친 후보 선택
 - **Curriculum Trace:** ACT 3 — observed workflow, verification, and Minimum Effective Harness.
-- **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; 해당 Trial의 후보 간 비교 결과. Skill이 후보를 발견하거나 그 결과를 일으켰다는 인과 주장은 하지 않는다.
-- **Visual Concept:** eyebrow를 “ACT 3 · Skill을 지정했던 실제 밝기 통계 작업”으로 표시해 실제 기록으로의 복귀를 알린다. 상단에서 이미지의 최소·최대·평균을 구하는 작업과 기존 구현(행별 픽셀→전체 임시 리스트→통계)을 native 도식으로 설명한다. 하단은 임시 리스트 없이 계산한 두 후보의 시간 방향과 제외/선택을 비교한다. 결과6항목 보존·기존보다 낮은 Python 할당 피크를 명시하며 정확한 후보 수치는 표시하지 않는다. 칸은 실제 픽셀 값이나 측정량이 아니다.
-- **Demo / Case Connection:** TRIAL-008의 image_statistics 후보 비교 요약. 수동 단일 순회와 행 단위 내장 min/max/sum을 정성적으로 비교한다. 기존 평탄화 구현은 할당량 비교 기준이며 S69의 formal 제품 상태 측정과 구분한다.
+- **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
+- **Claim Status:** FROZEN WITH SCOPE — 격리된 C++ 시험 코드의 동작·측정과 구조 재구성이다. 기존 Python TRIAL-008의 실행·결과·Skill 이력이나 정식 Demo 제품 State가 아니다. 후보 순위는 이 입력·호스트·컴파일 조건에 한정한다.
+- **Visual Concept:** 상단에 같은 밝기 통계의 C++ 구현 비교라고 표시한다. 비교 기준의 입력 이미지→임시 vector 복사→최소·최대·평균 계산을 native 도식으로 보여준다. 하단에서 행별 min/max/sum1.138ms와 한 번 순회0.071ms를 비교하고 후자를 선택한다. 양쪽 결과6항목 동일·추가 픽셀 버퍼0B를 표시한다. 도식 셀 수는 실제 데이터나 성능 비율이 아니다.
+- **Demo / Case Connection:** 기존 Python Skill 기록과 구분한 C++ 확장 실험의 후보 비교다. EXP-CPP-STATS-001의 같은 주 입력 결과를 S69에서 복사 기준선과 비교해 회수한다. Case5분은 기존 DEMO-03의 CLI 관찰 시간에 더하지 않는다.
 - **Beginner Payoff:** 성능 개선은 아이디어가 아니라 같은 조건의 비교로 판단한다.
 - **Advanced Payoff:** 시간·메모리 trade-off를 따로 보고 후보를 선택한다.
-- **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S67의 교육용 제작 팁에서 앞서 S66에서 Skill을 지정했던 실제 밝기 통계 작업으로 돌아온다. 작업 목적, 기존 임시 리스트, 두 대안, 기록에 따른 선택 순으로 읽는다. 삭제한 방법/판단 도식을 이미 봤다고 전제하지 않는다. 처음 듣는 청중에게 후보 이름만 제시하지 않으며 알고리즘 최적화 강의로 확대하지 않는다.
-- **Transition:** “선택한 행 단위 계산을 제품 코드에 반영한 뒤, 실행시간·임시 메모리·동작을 다시 확인한 기록을 보겠습니다.”
+- **C++ Vision Bridge:** C++ 원생 비교 예제다. 입력은uint16_t 저장형, 주 측정 픽셀값0–255이며16비트 범위·행 여백도 별도로 확인했다. Windows/MSVC 실측은 아니다.
+- **Speaker Intent:** S67의 제작 팁에서 동일 작업을 C++로 옮긴 별도 비교로 넘어온다. 기준 구현의 복사, 두 후보의 동일 출력, 시간과 버퍼를 보고 선택한 순서로 설명한다. Python 후보 순위를 가져오거나 Skill이 알고리즘을 제공·개선했다고 해석하지 않는다.
+- **Transition:** “선택한 C++ 구현을 복사 기준과 비교해, 시간·추가 버퍼·동작을 함께 확인하겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
-- **Evidence / Decision References:** BEAT-022, TRIAL-008, STATE-04-PERF, INV-VERIFY-001, DEC-0062, DEC-0069, DEC-0070
-- **Audience Footer:** 후보 비교 기록 · Python 할당 피크 / 다음 장의 제품 상태 측정과는 별도
+- **Evidence / Decision References:** BEAT-022, TRIAL-008, STATE-04-PERF, INV-VERIFY-001, DEC-0062, DEC-0069, DEC-0070; EXP-CPP-STATS-001; DEC-0183; demos/experiments/cpp-statistics/results/summary.json
+- **Audience Footer:** 동일1024×768·Apple M5 Max·Clang21 Release의 C++ 비교 실험. 내부 실험 ID는 화면에 표시하지 않는다.
 
 #### S69 — 선택한 변경의 시간·메모리·동작 확인
 
@@ -1824,24 +1824,24 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **ACT:** ACT 3
 - **Section:** 3D Working Harness
 - **Working Title:** 선택한 변경의 시간·메모리·동작 확인
-- **Primary Role:** 재사용 절차 사례의 결과를 동작 확인과 동일 조건 측정으로 회수한다.
-- **Audience Question:** “선택한 변경을 제품에 반영한 뒤, 시간·메모리·동작은 각각 어떻게 확인됐을까요?”
-- **Core Message:** STATE-04→STATE-04-PERF 밝기 통계 변경은 기록된 입력·환경에서 동작 검사와 같은 조건의 측정을 거쳤다. 기존 수치와 검사 결과를 유지하고 Harness/Skill의 단독 인과효과와 구분한다.
+- **Primary Role:** 선택한 C++ 구현의 같은 실험 결과를 실행시간·추가 픽셀 버퍼·동작 확인의 세 기준으로 회수한다.
+- **Audience Question:** “빠르기만 한 것이 아니라, 추가 버퍼와 결과도 함께 확인됐을까요?”
+- **Core Message:** EXP-CPP-STATS-001의 같은 입력에서 복사 기준1.216ms와 한 번 집계0.071ms를 비교했다. 계측한 임시 픽셀 버퍼는1,572,864→0B이고,56개 입력에서 세 후보의6항목이 Python 기준과 일치했다. 계약 검사20개와 메모리 오류 검사도 통과했다.
 - **Story Beat:** BEAT-022, BEAT-037 — bounded change와 Working Harness Success
 - **Curriculum Trace:** ACT 3 — observed workflow, verification, and Minimum Effective Harness.; ACT 3 — Tools, Verification, Harness reveal, and Working Harness Success; ACT 3 → ACT 4 handoff.
-- **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN — 기존99장의 Story·배정·Demo 범위를 보존한 현행115장 구조; FROZEN WITH SCOPE; 해당 프로젝트와 입력·환경에서 관찰된 값이다. Harness가 성능 향상을 일으켰다고 말하지 않는다.
-- **Visual Concept:** 선택한 변경을 한 문장으로 회수하고, 실행시간 native chart / Python 할당 피크 전후 / 결과6항목·테스트·CLI 확인을 세 영역으로 구분한다. 기존15.468→10.769ms/call과6,675,804→380B, 검증 결과를 그대로 표시한다. 시간축은0에서 시작한다.
-- **Demo / Case Connection:** STATE-04-PERF에 반영된 row-reduction 변경과 해당 상태의 검증 결과.
+- **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
+- **Claim Status:** FROZEN WITH SCOPE — 새 C++ 실험의 코드·입력·호스트·컴파일 조건으로 한정한다. 메모리는 계측한 임시 픽셀 버퍼이며 전체 힙·스택·입력 영상·RSS가 아니다. Python 제품 변경·Skill 호출·Windows/MSVC 성과를 입증하지 않는다.
+- **Visual Concept:** 상단에서 임시 복사 없이 한 번에 최소·최대·합계를 계산한 선택을 회수한다. 왼쪽 native chart는 복사 기준1.216ms와 한 번 집계0.071ms이며 수치 축은0–1.5, 간격0.5다. 가운데는 계측한 임시 픽셀 버퍼1,572,864→0B, 오른쪽은6항목 동일·56개 입력 대조·계약20개·메모리 오류 검사를 표시한다. 같은 실험의 세 측면이며 별도 제품 반영 전후 기록이라고 말하지 않는다.
+- **Demo / Case Connection:** EXP-CPP-STATS-001의 copied_buffer와 fused_pass 및 외부 정답 대조를 사용한다. 기존 STATE-04→STATE-04-PERF Python 제품 측정은 원자료에 보존하고 현재 화면의 수치로 섞지 않는다.
 - **Beginner Payoff:** AI의 제안은 테스트와 측정으로 확인한 뒤 결과물로 반영한다.
 - **Advanced Payoff:** 원인에 대한 주장과 시스템을 사용해 검증한 관찰 결과를 분리한다.
-- **C++ Vision Bridge:** 없음.
-- **Speaker Intent:** S68의 후보 선택과 별도인 formal 제품 변경 전후 기록을 보여준다. 구현 회수, 시간, 임시 메모리, 동작 검증 순으로 한 영역씩 짚으며 결과 유지와 측정 범위를 함께 설명한다. 결과를 Harness/Skill의 단독 효과로 해석하지 않는다.
-- **Transition:** “이 작업에 더 필요했던 구조도 있었을까요? 역할을 나누는 선택부터 검토하겠습니다.”
+- **C++ Vision Bridge:** 동일한 밝기 통계 기능의 실제 C++ 실험이다. 정식 C++ 제품·Windows/MSVC·실제 검사 장비에서의 결과가 아니다.
+- **Speaker Intent:** 같은 C++ 실험의 결과를 시간·추가 버퍼·동작 순으로 읽는다.63개 묶음 표본을 호출당 시간으로 환산한 중앙값임을 Notes에 남기고 기존 Python7회 측정과 구분한다.0B를 전체 메모리로 해석하지 않으며 S70의 역할 분리 가정으로 넘긴다.
+- **Transition:** “측정으로 구현을 골랐습니다. 이번에는 독립 조사를 여러 역할로 나눌 필요가 있는지 살펴보겠습니다.”
 - **Estimated Time:** 5분
 - **Delivery Mode Allocation:** Case 5분 = 5분
-- **Evidence / Decision References:** BEAT-022, BEAT-037, STATE-04-PERF, STATE-04, TRIAL-008, INV-VERIFY-001, STATE-00, DEC-0018, INV-DEMO-003, DEC-0062, DEC-0070
-- **Audience Footer:** 1024×768 합성 입력 · Python 할당 피크(RSS 아님)
+- **Evidence / Decision References:** BEAT-022, BEAT-037, STATE-04-PERF, STATE-04, TRIAL-008, INV-VERIFY-001, STATE-00, DEC-0018, INV-DEMO-003, DEC-0062, DEC-0070; EXP-CPP-STATS-001; DEC-0183; demos/experiments/cpp-statistics/results/summary.json
+- **Audience Footer:** 추가 픽셀 버퍼만 계측·입력 영상과 전체 메모리 제외. 실행 환경은1024×768·Apple M5 Max·Clang21 Release.
 
 #### S70 — 한 Agent 조사와 Subagent 역할 분리
 
@@ -1861,11 +1861,11 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** 역할별로 필요한 정보로 조사하고 주 Agent가 합치는 관계를 이해한다.
 - **Advanced Payoff:** 독립성·Context 분리의 가치와 조정·중복·전달·통합 비용을 함께 판단한다.
 - **C++ Vision Bridge:** CONTEXTUAL — 기존 C++ 독립 조사 가정. 실제 Subagent 실행이나 병렬 이득이 아니다.
-- **Speaker Intent:** S69의 실제 검증 결과에서 C++ 독립 조사 가정으로 전환함을 먼저 밝힌다. 단일 Agent와 역할 분리를 같은 조사 항목으로 비교하고, 독립성·필요한 정보·주 Agent의 통합 책임 순으로 읽는다. S72에서 실제 작업의 분리 필요성을 판단하도록 연결한다. 독립 조사 역할은 필요성을 판단할 가정으로 한정하고 실제 선택은 S72에서 회수한다.
+- **Speaker Intent:** S69의 별도 C++ 비교 결과에서 독립 조사 역할의 교육용 가정으로 전환한다. 단일 Agent와 역할 분리를 같은 조사 항목으로 비교하고 독립성·필요 정보·통합 책임을 설명한다. S71 제작 팁 뒤 S72는 원래 Python Demo의 실제 역할 판단으로 복귀한다. 새 C++ 실험을 Subagent 실행 기록으로 설명하지 않는다.
 - **Transition:** “독립 조사 역할을 나눌 수 있다면, 그 역할은 Codex에서 어떻게 만들어 다시 쓸까요?” S71 제작 팁을 거친 뒤 S72의 실제 밝기 통계 판단으로 돌아온다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 3분 (VISUAL) + Q&A 1분 = 4분
-- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0071, DEC-0080
+- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0071, DEC-0080; EXP-CPP-STATS-001; DEC-0183; demos/experiments/cpp-statistics/results/summary.json
 - **Audience Footer:** 역할 분리 예시 · 분담·조정 비용도 고려
 
 #### S71 — 대화로 조사 Agent 만들기
@@ -1907,16 +1907,16 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Curriculum Trace:** ACT 3 — conditional role/context separation.; ACT 3 — role/context complexity and Subagents.; ACT 3 — conditional Subagent decision.
 - **Evidence Type:** OBSERVED_PRODUCT / TEACHING_MODEL
 - **Claim Status:** FROZEN WITH SCOPE / TEACHING MODEL — DEC-0018 현재 Task 감사의 판단이며 실제 Subagent Trial이 아니다. 일반적 불필요성이나 기능 부재를 주장하지 않는다.
-- **Visual Concept:** 같은 밝기 통계 함수와 출력 명세를 상단에 두고 조사·변경·검증을 연결한다. 조사 결과가 코드 변경으로, 바뀐 코드가 출력/테스트/시간/할당량 확인으로 전달됨을 라벨 있는 native 화살표로 보여준다. 한 Agent 유지 판단과 자료 전달·통합 비용을 아래 두 줄로 표시하며 실제 Subagent 실행이나 비교 이득은 주장하지 않는다.
+- **Visual Concept:** 상단을 “ACT 3 · 원래 Python Demo의 역할 판단”으로 표시한다. 기존 조사→변경→검증 의존관계·한 Agent 유지·통합 비용 도식과 문구는 보존한다. S68–S69의 C++ 확장 실험과 원래 Python 저장소의 역할 판단을 구분한다.
 - **Demo / Case Connection:** DEMO-07: DEC-0018 현재 작업 판단을 회수. Lecture1분, Demo2분 VISUAL, Q&A1분.
 - **Beginner Payoff:** 현재 Task의 앞뒤 의존성에 따라 역할 분리 여부를 판단한다.
 - **Advanced Payoff:** NOT JUSTIFIED YET는 현재 감사의 선택이며 일반적 기능 가치와 다르다.
 - **C++ Vision Bridge:** S70의 가정을 현재 Python Task와 구분해 회수한다.
-- **Speaker Intent:** 실제 밝기 통계 작업의 조사→변경→검증 의존성을 읽고, 이번 범위에서 역할 분리를 보류한 기존 판단을 회수한다. 다음 S73에서 실제 사용한 구성의 역할을 모아 본다.
+- **Speaker Intent:** S70 가정과 S71 제작 팁 뒤 원래 Python Demo의 조사→변경→검증 의존성으로 돌아온다. 기존 DEC-0018 판단을 회수하며 새 C++ 실험의 역할 선택으로 바꾸지 않는다. 다음 S73의 원래 실제 구성으로 이어간다.
 - **Transition:** “이번 작업에서 실제로 사용한 구성은 각각 어떤 역할을 맡았을까요?” 현재 S73로 이어간다.
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Lecture 1분 + Demo 2분 (VISUAL) + Q&A 1분 = 4분
-- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0072
+- **Evidence / Decision References:** BEAT-023, DEC-0018, CLM-0007, BEAT-024, BEAT-025, DEC-0062, DEC-0072; EXP-CPP-STATS-001; DEC-0183; demos/experiments/cpp-statistics/results/summary.json
 - **Audience Footer:** N/A — DEC-0139로 기존 Audience footer1만 화면에서 삭제한다. 이번 작업의 선택이라는 범위와 근거는 본문·Notes에 유지하고 M 연계는 보존한다.
 
 #### S73 — 밝기 통계 작업에 쓰인 구성의 역할
@@ -1937,11 +1937,11 @@ S67 제작 예시→S68 실제 후보 선택→S69 별도 제품 측정의 근�
 - **Beginner Payoff:** Harness는 기능을 많이 모으는 일이 아니라 현재 문제에 필요한 구조를 마련하는 일이다.
 - **Advanced Payoff:** 최소 구성은 문제와 검증 요건에 따라 달라진다는 점을 판단 기준으로 삼는다.
 - **C++ Vision Bridge:** N/A — 이전 독립 C++ 전이 장은 DEC-0091에서 삭제했다. 실제 구성 회고와 Harness 재사용 설명으로 연결한다.
-- **Speaker Intent:** 역할 분리 여부를 판단한 앞 장에서 바로 실제 작업 구성의 역할로 넘어온다. 목표·정보·수행 방법·검증 도구의 기존 역할을 회수하고 다음 S74에서 실행 환경과 검토 책임을 연결한다. 지식 보존은 ACT5 S101에서 별도로 다루며 이 장에서 먼저 강의하지 않는다.
+- **Speaker Intent:** S72에서 복귀한 원래 Python 작업의 목표·정보·방법·검증 도구 역할을 회수한다. S68–S69의 C++ 측정값을 이 구성의 성과로 사용하지 않는다. Python 수치의 원자료는 보존하며 화면에서 반복하지 않는다. 다음 S74에서 실행 환경과 검토 책임을 연결한다.
 - **Transition:** “이 파일과 도구들이 어떤 관계로 작동하는지 전체 작업 환경으로 묶겠습니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Demo 3분 (CAPTURED) = 3분
-- **Evidence / Decision References:** BEAT-035, BEAT-037, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0062, DEC-0075, DEC-0080
+- **Evidence / Decision References:** BEAT-035, BEAT-037, STATE-04-PERF, CLM-0016, CLM-0017, CLM-0030, OQ-011, STATE-00, DEC-0018, INV-DEMO-003, INV-VERIFY-001, DEC-0062, DEC-0075, DEC-0080; EXP-CPP-STATS-001; DEC-0183; demos/experiments/cpp-statistics/results/summary.json
 - **Audience Footer:** 실제 구성과 기록의 요약
 
 #### S74 — 함께 작동하는 작업 환경, Harness

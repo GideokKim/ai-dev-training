@@ -6,6 +6,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
 import { createHash } from 'node:crypto';
 import * as H from './helpers.mjs';
+import {loadCppStatisticsSlides,applyCppStatisticsBoundary} from './cpp-statistics-slides.mjs';
 import {applyMacPromptStyle} from './mac-prompt-windows.mjs';
 import {loopOperationsFactories} from './act4-loop-operations.mjs';
 import {priorityFactories,addModuleFooter} from './legacy-priority.mjs';
@@ -194,10 +195,16 @@ if(process.argv.includes('--release')){
  for(const act of selectedActs)decks.push({name:`ACT_${act}`,ids:ids.filter(id=>map[id].ACT===`ACT ${act}`)});
 }
 const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_Dev_Training_Full.pptx');
+const cppStatistics=await loadCppStatisticsSlides(ROOT,H);
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
  for(const currentId of deck.ids){
   if (!notes[currentId]) throw new Error('Missing Notes '+currentId);
+  if(cppStatistics[currentId]){
+   const slide=cppStatistics[currentId](p);
+   slide.speakerNotes.text=notes[currentId];
+   continue;
+  }
   const retainedId=beforeAct5WorkflowRemoval(beforeAct4ReflectionRemoval(currentId));
   if (productTips[retainedId]) {
    const slide=productTips[retainedId](p);
@@ -257,6 +264,7 @@ for(const deck of decks){
   applyAct5WorkflowNumbers(s);
   applyAct4ReflectionNumbers(s);
   applyMacPromptStyle(s,currentId,H);
+  applyCppStatisticsBoundary(s,currentId);
   s.speakerNotes.text=notes[currentId];
  }
  const candidate=path.join(buildDir,deck.name+'.candidate.pptx');await(await PresentationFile.exportPptx(p)).save(candidate);

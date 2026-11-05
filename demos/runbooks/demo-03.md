@@ -1,6 +1,17 @@
 # DEMO-03 — Reusable Verification Workflow
 
-## 현행 발표 자료 · DEC-0168
+## 현재 C++ 비교 사례 연결 — DEC-0183
+
+전체111장·372분, ACT3 S60–S77·18장·64분이다. 아래 DEC-0168과 이후 기록은 당시 판본의 이력이다.
+
+S65/S66의 과거 Python CLI Skill 발견·호출 근거는 유지한다. S67 제작 팁 뒤
+S68/S69의 Case5분씩은 별도 C++ 실험의 정적 그림·native chart로 설명한다.
+해당 실험으로 새 Skill 호출이나 Python 제품 변경을 했다고 말하지 않는다.
+Fallback은 `production/preview/full/S68.png`, `S69.png`와 ACT3/Full PPT다.
+S70/S71 뒤 S72는 원래 Python Demo로 복귀하고 S73/S74의 구성 감사를 유지한다.
+새 Live·계정·Windows/MSVC 실행은 없으며 기존 시연 시간은 늘리지 않는다.
+
+## 이전 발표 자료 · DEC-0168 — 원래 Python 범위
 
 [Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 112장·383분 중 ACT4는 S78–S97, ACT5는 S98–S112다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
 

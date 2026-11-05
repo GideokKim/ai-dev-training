@@ -4134,7 +4134,7 @@ Codex의 $skill-creator에 반복할 작업과 사용 조건을 대화로 설명
 **Speaker Flow:**
 1. (0:00–0:30 / Lecture) 앞 S66에서 Skill 이름과 이번 목표·조건을 한 요청에 적는 방법을 봤다. 이제 우리 업무에서 반복할 절차를 Skill로 만드는 짧은 실무 팁으로 전환한다. 새 Trial이나 기존 Skill 제작 과정을 재현하는 Demo가 아니다.
 2. (0:30–1:25 / Lecture) 요청창의 $skill-creator를 짚고 원하는 반복 작업·사용 조건·보고 항목을 대화로 설명하는 예시를 읽는다. 제작 도우미가 필요한 세부 사항을 물을 수 있으며 실제 표면의 호출 경로는 별도로 확인한다.
-3. (1:25–2:00 / Lecture) 오른쪽 생성 문서의 지침을 검토하고 대표 요청에 사용해 다듬는다는 점을 확인한다. 방금 본 제작 요청은 사용 예시임을 짚고, Transition 문구로 앞서 Skill을 지정했던 실제 밝기 통계 기록에 복귀한다. 이 팁이 TRIAL-008의 Skill 제작 이력인 것처럼 연결하지 않는다.
+3. (1:25–2:00 / Lecture) 오른쪽 생성 문서의 지침을 검토하고 대표 요청에 사용해 다듬는다는 점을 확인한다. 방금 본 제작 요청은 사용 예시임을 짚고, Transition 문구로 같은 작업의 별도 C++ 비교 실험으로 이어간다. 이 팁이 TRIAL-008의 Skill 제작 이력인 것처럼 연결하지 않는다.
 
 **Evidence / Source:**
 SRC-0111 / CLM-0041; https://learn.chatgpt.com/docs/build-skills; 2026-10-25 재확인; DEC-0093. 명시 호출과 초안 제작 안내를 바탕으로 각색한 요청·문서 도식이다.
@@ -4163,7 +4163,7 @@ DEC-0179: 요청 입력 부분의 Mac 스타일 제목 막대·세 색상 표시
 **Audience Interaction:**
 Lecture2분. 질문은 생각을 돕기 위한 것이며 실습·파일 생성·공개 답변을 요구하지 않는다.
 
-Transition: “지금 본 제작 요청은 사용 예시입니다. 이제 앞서 Skill을 지정했던 실제 밝기 통계 작업에서 어떤 근거로 구현을 선택했는지 보겠습니다.” 다음 S68의 실제 작업 기록으로 돌아간다.
+Transition: “지금 본 제작 요청은 사용 예시입니다. 같은 밝기 통계 작업을 C++로 옮기면 어떤 구현을 고를지, 별도 비교 실험을 보겠습니다.” 새 Skill 호출 결과로 연결하지 않는다.
 
 **Time Management:**
 0–0:30 제작 질문,0:30–1:25 요청/생성 문서,1:25–2:00 검토·사용/실제 작업 기록으로 복귀.2분에 다음 장으로 넘기며 긴 설치·환경·TOML/Markdown 문법 강의는 하지 않는다. 실제 리허설 UNVERIFIED.
@@ -4176,106 +4176,129 @@ DOCUMENTED GUIDANCE CHECKED2026-10-25 / LOCAL RESULT: production/evaluation/CODE
 
 ## S68 — 밝기 통계 계산의 성능 개선 후보
 
-Slide ID:
+**Slide ID:**
 S68
 
-Working Title: 밝기 통계 계산의 성능 개선 후보
+**Working Title:**
+밝기 통계 계산의 성능 개선 후보
 
-ACT / Section: ACT 3 / 3D
+**ACT / Section:**
+ACT 3 / 3D
 
-Allocated Time: 5 minutes
+**Allocated Time:**
+5 minutes
 
-Mode Split: Case 5 minutes
+**Mode Split:**
+Case 5 minutes
 
-Primary Message: TRIAL-008에서는 결과 6항목을 보존한 후보들의 실행시간과 traced allocation을 함께 봤다. 느린 수동 순회는 제외하고 낮은 할당량과 더 나은 실행시간의 행 단위 reduction을 선택했다.
+**Primary Message:**
+같은 밝기 통계 기능을 C++로 옮긴 EXP-CPP-STATS-001에서 행별 표준 연산1.138ms와 한 번 집계0.071ms를 비교했다. 결과6항목을 유지했고 두 후보의 계측한 추가 픽셀 버퍼는0B였다. 이 Mac/Release 조건에서 한 번 집계를 선택한다.
 
-Opening Question: “밝기 통계의 결과를 유지하면서, 어떤 계산 방식을 선택했을까요?”
+**Opening Question:**
+“같은 밝기 통계를 C++로 계산한다면, 두 후보 중 무엇을 고를까요?”
 
-Speaker Flow:
-1. (0:00–0:45) S66에서 Skill을 명시했던 실제 밝기 통계 작업으로 돌아온다. 대상은 이미지의 최소·최대·평균 밝기 등을 구하는 image_statistics다. 결과는 그대로 두고 실행시간 또는 할당량 개선 가능성을 조사한 당시 요청의 목표를 확인한 뒤 기존 구현과 후보 비교로 이어간다. 앞의 제작 요청 예시를 실행해 이 Trial의 Skill을 만든 결과가 아니다.
-2. (0:45–1:45) 기존 구현 도식을 왼쪽부터 가리킨다. 행으로 저장된 픽셀을 모두 새 임시 리스트로 모은 뒤 통계를 계산했다. 입력 이미지 외에 픽셀 수에 비례하는 임시 리스트 공간이 필요했다. 이 도식의 색·칸은 구조를 설명하며 실제 입력 픽셀이나 실행 화면은 아니다.
-3. (1:45–2:45) 큰 임시 리스트 없이 계산하는 두 변경 후보를 읽는다. 한 후보는 Python 코드로 픽셀을 하나씩 직접 계산하고, 다른 후보는 각 행에 내장 min/max/sum을 사용한다. 이들 모두 결과 6항목을 보존했고 기존 평탄화 구현보다 Python 할당 피크가 낮았다.
-4. (2:45–4:15) 후보 간 실행시간을 비교한 오른쪽을 짚는다. 수동 반복보다 행 단위 내장 연산이 빨라 후자를 선택했다. 내장 연산 후보는 세 차례 행 순회를 유지하면서 전체 임시 리스트를 피한 선택이다. 한 번 순회한다는 아이디어나 낮은 메모리만으로 답을 정하지 않았다.
-5. (4:15–5:00) Skill에 정답 알고리즘을 미리 넣은 사례가 아니다. 절차를 따라 얻은 조사·측정·검증 기록으로 구현을 선택했다. 다음 S69은 이 후보 비교와 별도로 실제 제품 상태에 반영한 변경을 확인한 기록이다.
+**Speaker Flow:**
+1. (0:00–0:45) 앞선 Skill 사용 기록은 Python Demo였다. 이 장은 같은 밝기 통계 기능을 C++로 옮긴 별도 실험이라고 구분한다.
+2. (0:45–1:45) 비교 기준은 Python의 평탄화 전략을 옮겨 만든 코드다. 입력의 모든 픽셀을 임시 vector로 복사한 뒤 최소·최대·평균을 구한다. 실제 C++ 제품의 기존 결함을 발견한 사례가 아니다.
+3. (1:45–3:15) 복사 없는 두 후보를 비교한다. row_reductions는 행마다 표준 min/max/sum을 구했고1.138ms, fused_pass는 한 순회에서 세 값을 함께 구했고0.071ms였다. 두 후보 모두 출력6항목과 계측한 추가 픽셀 버퍼0B를 확인했다.
+4. (3:15–4:15) 이 조건에서 한 번 집계를 선택한다. Python의 수동 반복이 느렸다는 과거 결론을 C++에 적용하지 않는다. 결과는 Apple M5 Max·Clang21 Release와 이 입력으로 한정한다.
+5. (4:15–5:00) 핵심은 정답 알고리즘을 Skill에 적는 것이 아니라 실제 근거로 선택하는 일이다. 다음 장은 같은 C++ 실험을 복사 기준과 비교해 세 기준으로 읽는다.
 
-Evidence / Source: `plan/DEMO_MATRIX.md` TRIAL-008 Investigation, Plan, Decision, Implementation, Verification 및 `plan/CLAIM_FREEZE.md`의 정성 후보 비교 범위. 대상은 image_statistics, deterministic synthetic 1024×768 (786,432 pixels, max255), CPython3.9.6 / macOS26.6.2 arm64. 보존한 여섯 결과는 width, height, pixel_count, minimum, maximum, mean이다. 원자료의 기존 flattening, row reductions, manual Python single pass 비교와 구현 내용을 요약했다. 정확한 후보 수치와 원기록은 원자료에 보존한다.
+**Evidence / Source:**
+EXP-CPP-STATS-001, DEC-0182/0183. demos/experiments/cpp-statistics/README.md 및 results/summary.json, fixtures.json, correctness.json, samples.csv, environment.json. main_1024x768, 입력SHA26df8e7b296672840d97cf5d9273e6660003afd680c62c7751d382c2d067fec9. uint16_t 저장·픽셀0–255, Apple M5 Max/arm64/macOS26.6.2, Apple clang21.0.0, C++20 -O3 -DNDEBUG -fno-lto. 후보별63묶음 표본(21순환 라운드×3개 독립 프로세스)의 호출당 환산 시간 중앙값. 원시 row_reductions1138.1500625μs, fused_pass70.8815078125μs를 ms3자리로 표시한다. 기존 TRIAL-008 및 STATE-04-PERF의 Python 근거는 plan/DEMO_MATRIX.md에 보존한다.
 
-보존된 상세 출처: TRIAL-008 기록 요약·구현 도식 · 합성1024×768 · CPython3.9.6 / macOS arm64
+**Claim Boundary:**
+OBSERVED_PRODUCT는 이 격리된 C++ 시험 코드의 직접 관찰만 뜻한다. 도식은 TEACHING_MODEL이며 실제 픽셀·코드 화면이 아니다. 기준선은 Python 전략의 C++ 포팅이고 현재 C++ 제품에서 발견한 문제나 기존 Skill의 새 호출·성과가 아니다. 후보 순위·개선 효과는 이 입력·컴파일러·호스트로 한정한다. 임시 버퍼 계측은 PMR 요청 경로만 관찰하며 입력 영상·전체 힙·스택·RSS를 포함하지 않는다. Windows/MSVC·실제 장비는 미검증이다.
 
-Claim Boundary:
-S68에는 정확한 후보 수치를 표시하지 않는다. ‘더 느림/더 빠름’은 화면의 두 변경 후보 사이 비교이고 ‘기존보다 낮은 임시 메모리’는 기존 평탄화 구현 대비 traced Python allocation peak다. 임시 공간 도식은 리스트 구조 재구성이며 실제 이미지·값·측정 캡처가 아니다. 할당 피크를 RSS나 시스템 전체 메모리로 일반화하지 않는다. TRIAL-008 후보 비교를 S69의 formal STATE-04/STATE-04-PERF 측정과 섞지 않는다. Skill 단독 인과성·알고리즘 제공·현재 Desktop 재현·일반 성능 보장은 주장하지 않는다.
+**Beginner Explanation:**
+같은 밝기 값을 구해도 전체 픽셀을 복사하거나 원본에서 바로 계산할 수 있다. 같은 답인지 먼저 확인하고, 복사 없는 두 방법도 측정으로 비교해 골랐다.
 
-보존된 상세 범위: 임시 메모리: Python 할당 피크 · 다음 장의 제품 상태 측정과 별개 · Skill 단독 효과 미입증
+**Advanced Insight:**
+fused_pass의 반복문은 컴파일러 remark에서 벡터화됐고 이 libc++의 min_element/max_element 반복문은 벡터화되지 않았다. 전체 차이의 단독 원인을 분리한 실험은 아니다. 기준선 첫 프로세스와 이후 값에 차이가 있으며 OS 배치·주파수·온도를 고정하지 않았다. 원시 표본과 세션별 중앙값을 보존한다.
 
-Beginner Explanation: 같은 통계를 구해도 계산 중에 큰 임시 리스트를 만들 수 있다. 이 리스트 없이 계산한 두 방법 모두 결과와 메모리를 확인했고, 두 방법의 실행시간도 비교해서 골랐다.
+**C++ Vision Bridge:**
+C++ 원생 비교 예제다. 입력은uint16_t 저장형, 주 측정 픽셀값0–255이며16비트 범위·행 여백도 별도로 확인했다. Windows/MSVC 실측은 아니다.
 
-Advanced Insight: 데이터 구조의 할당과 Python 수준 반복의 실행시간을 별도로 판단한 사례다. 세 차례 행 순회와 full-list allocation 제거의 trade-off는 이 입력·runtime의 기록으로 한정한다. 과목의 핵심은 최적화 기법 목록이 아니라 재사용 절차로 얻은 근거에 따른 판단이다.
+**Demo Operation:**
+LOCAL STATIC RECORD — 입력 이미지→복사 기준→두 후보의 동일 출력→실행시간→선택 순으로 가리킨다. 화면의1.138/0.071은 후보 간 C++ 비교다. 도식 칸을 실제 데이터 수나 속도 비율로 읽지 않는다. Case5분이며 CLI Demo 시간을 늘리지 않는다. 새 실행은 하지 않는다.
 
-C++ Vision Bridge: N/A.
+**Audience Interaction:**
+“추가 버퍼가 둘 다 없다면 무엇을 더 봐야 할까요?”라고 실행시간 비교 전에 짧게 묻는다. 실습이나 추가 답변 시간을 만들지 않는다.
 
-Demo Operation: LOCAL STATIC RECORD — 작업 목적, 기존 구현의 픽셀/임시 리스트/통계 도식, 두 후보, 제외/선택 순으로 가리킨다. 색상뿐 아니라 라벨로 판단을 구분한다. 화면의 셀 수나 선 길이를 실제 입력 크기 또는 성능 비율로 읽지 않는다. 구현 파일·새 실행·정확한 후보 숫자를 추가하지 않는다. Case5분은 DEMO-03의3 Demo분과 별도다.
+**Transition:**
+“선택한 C++ 구현을 복사 기준과 비교해, 시간·추가 버퍼·동작을 함께 확인하겠습니다.”
 
-Audience Interaction: Opening Question으로 이번 실제 밝기 통계 작업의 목표를 회수한다. 두 후보를 읽을 때 ‘메모리가 줄었다면 충분할까?’를 짧게 덧붙일 수 있다. 답이 이미 보이는 화면이므로 결과를 숨긴 퀴즈나 실습으로 운영하지 않는다.
+**Time Management:**
+Case5분: C++ 실험 구분0.75, 기준 구현1, 두 후보1.5, 선택과 범위1, S69 전환0.75. 지연 시 함수명과 환경 낭독을 줄이고 동일 결과·측정으로 선택한다는 연결은 유지한다.
 
-Transition: “선택한 행 단위 계산을 제품 코드에 반영한 뒤, 실행시간·임시 메모리·동작을 다시 확인한 기록을 보겠습니다.”
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx S68 또는 production/preview/act3/S68.png. 입력창이나 CLI를 열지 않는다. 화면이 없으면 “복사 없이 행별 계산과 한 번 집계를 같은 답으로 비교했다”라고 설명한다. 원자료는 demos/experiments/cpp-statistics/results에 있다.
 
-Time Management: Case5분: 작업 회수0.75, 기존 구현1, 두 후보1, 비교·선택1.5, 범위·전환0.75. 지연 시 함수명·여섯 필드·세 차례 순회 설명을 줄인다. 작업 목적, 임시 리스트, 후보 선택과 별도 제품 검증이라는 연결은 유지하고5분에 이동한다.
-
-Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S68, production/preview/act3/S68.png 및 production/preview/full/S68.png. 보존된 후보 비교와 구현 구조를 재구성한 도식이다. 현재 제품이나 Demo repository를 실행하지 않는다. 최신 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md를 따른다.
-
-Validation Status: ALIGNED — DEC-0070의19필드·Case5분·정성 후보 비교 범위를 정렬했다. 로컬 렌더·내장 Notes 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+**Validation Status:**
+ALIGNED — DEC-0183. 로컬 PPT/PNG·내장 Notes 대조는 production/evaluation/CPP_STATISTICS_SLIDE_REVISION.md에 기록한다. C++ Windows/MSVC·발표 PC·교육장·실측 리허설·현재 Codex 제품/계정은 UNVERIFIED.
 
 ## S69 — 선택한 변경의 시간·메모리·동작 확인
 
-Slide ID:
+**Slide ID:**
 S69
 
-Working Title: 선택한 변경의 시간·메모리·동작 확인
+**Working Title:**
+선택한 변경의 시간·메모리·동작 확인
 
-ACT / Section: ACT 3 / 3D
+**ACT / Section:**
+ACT 3 / 3D
 
-Allocated Time: 5 minutes
+**Allocated Time:**
+5 minutes
 
-Mode Split: Case 5 minutes
+**Mode Split:**
+Case 5 minutes
 
-Primary Message: STATE-04→STATE-04-PERF 밝기 통계 변경은 기록된 입력·환경에서 동작 검사와 같은 조건의 측정을 거쳤다. 기존 수치와 검사 결과를 유지하고 Harness/Skill의 단독 인과효과와 구분한다.
+**Primary Message:**
+EXP-CPP-STATS-001의 같은 입력에서 복사 기준1.216ms와 한 번 집계0.071ms를 비교했다. 계측한 임시 픽셀 버퍼는1,572,864→0B이고,56개 입력에서 세 후보의6항목이 Python 기준과 일치했다. 계약 검사20개와 메모리 오류 검사도 통과했다.
 
-Opening Question: “선택한 변경을 제품에 반영한 뒤, 시간·메모리·동작은 각각 어떻게 확인됐을까요?”
+**Opening Question:**
+“빠르기만 한 것이 아니라, 추가 버퍼와 결과도 함께 확인됐을까요?”
 
-Speaker Flow:
-1. (0:00–0:45) S68에서 선택한 ‘큰 임시 리스트 없이 행마다 내장 min/max/sum 계산’을 위쪽 문장으로 회수한다. 이제 후보 비교가 아니라 정식 제품 코드 변경 전후의 별도 측정 기록이다.
-2. (0:45–2:00) 왼쪽 실행시간을 짚는다. 같은 합성 이미지와 설정에서 상태별7회 실행한 중앙값은 변경 전15.468, 변경 후10.769ms/call이다. 0부터 시작하는 막대와 수치가 같은 방향을 나타낸다. 다른 입력·기기나 전체 제품 속도로 일반화하지 않는다.
-3. (2:00–3:00) 가운데 임시 메모리는 별도 tracemalloc 호출의 Python allocation peak다. 6,675,804에서380bytes로 바뀌었다. 전체 픽셀 임시 리스트를 없앤 코드 변경과 연결하되, 입력 이미지 자체나 전체 프로세스 메모리가380bytes라는 뜻은 아니다.
-4. (3:00–4:15) 오른쪽 동작 검증은 반환값6항목 동일, 함수 테스트1/1, 프로젝트 전체 테스트11/11, CLI 샘플 통과라는 기록이다. 실행시간만 짧아진 것을 성공 근거로 삼지 않는다. 이 검사들이 모든 입력의 정확성을 보증하는 것은 아니다.
-5. (4:15–5:00) 재사용 절차 안에서 변경과 검증을 마친 사례로 회수한다. Harness/Skill이 단독으로 개선을 일으켰다는 실험은 아니다. 다음에는 이 작업에 독립 조사를 나누는 구조까지 필요했는지 질문한다.
+**Speaker Flow:**
+1. (0:00–0:45) 앞 장에서 고른 복사 없는 한 번 집계를 회수한다. 여기의 세 영역은 같은 C++ 실험의 결과이며, Python 제품 State 변경 전후의 별도 기록이 아니다.
+2. (0:45–2:00) 같은1024×768 입력에서 copied_buffer1.2156298828125ms와 fused_pass0.0708815078125ms를1.216/0.071로 표시한다. 후보별63개 묶음 표본의 호출당 환산 시간 중앙값이며 기존 Python7회 단일 호출 측정과 다르다. 차트 축은0에서1.5까지0.5간격이다.
+3. (2:00–3:00) 별도 PMR 계측의 임시 픽셀 버퍼는1,572,864→0B다. C++ 저장형은16비트다. 입력 이미지·반환 구조·스택·다른 힙·프로세스 RSS가0이라는 뜻이 아니다.
+4. (3:00–4:15) Python 원래 구현과56개 입력에서 세 후보의168개 반환 결과를6항목 모두 대조했다. 계약20개와 AddressSanitizer/UndefinedBehaviorSanitizer 검사도 통과했다. 모든 입력을 수학적으로 증명하거나 실제 C++ 장비에서 검증한 결과는 아니다.
+5. (4:15–5:00) 시간뿐 아니라 추가 버퍼·같은 답을 함께 확인했다고 회수한다. 새 Skill 호출이나 Harness 단독 효과를 주장하지 않고 S70의 역할 분리 가정으로 넘어간다.
 
-Evidence / Source: `plan/DEMO_MATRIX.md` STEP07 §§191–200, STATE-04 → STATE-04-PERF; `plan/CLAIM_FREEZE.md` §8; DEC-0019. Baseline 822f1c12c5f602d934a2fd29e48f05bf498b4bfa, result 6153b81c0187dd7d82c88bd1817fb683c98eb431. image_statistics, deterministic synthetic1024×768, 786,432pixels, max255, CPython3.9.6/macOS26.6.2 arm64. Same input fingerprint, seven one-call samples per state. Median15.468→10.769ms/call, separate tracemalloc peak6,675,804→380bytes. Six fields(width, height, pixel_count, minimum, maximum, mean), focused1/1, full11/11, CLI smoke PASS. CLI checked crop2×3, six pixels, min51/max255/mean136.0 and matching PGM output. TRIAL-008 supplies candidate history, not these formal-state samples.
+**Evidence / Source:**
+EXP-CPP-STATS-001, DEC-0182/0183. demos/experiments/cpp-statistics/results/summary.json, samples.csv, sessions.json, correctness.json, contract-tests.txt, environment.json 및 원본 C++ 코드. main_1024x768의 copied_buffer1215.6298828125μs와 fused_pass70.8815078125μs, 임시 버퍼1572864/0B. 후보별63표본,3개 프로세스, 동일 입력SHA. fixture56개=수동3+측정5+고정 코드 뒤 생성한 무작위48; 후보 결과168개. 계약 검사20개 Release 및ASan/UBSan 통과. 기존 Python15.468→10.769ms와6675804→380B는 plan/DEMO_MATRIX.md의 과거 제품 측정으로 보존하며 이 화면에 사용하지 않는다.
 
-보존된 상세 출처: STATE-04 → STATE-04-PERF · 동일 합성1024×768 · CPython3.9.6 / macOS arm64
+**Claim Boundary:**
+FROZEN WITH SCOPE — 새 C++ 실험의 코드·입력·호스트·컴파일 조건으로 한정한다. 메모리는 계측한 임시 픽셀 버퍼이며 전체 힙·스택·입력 영상·RSS가 아니다. Python 제품 변경·Skill 호출·Windows/MSVC 성과를 입증하지 않는다. 현재 측정은63개 묶음 표본의 중앙값이며 개별 호출 지연 분포가 아니다. 실제 제품 반영·새 Skill 선택·본문 주입·Windows/MSVC·사내 장비 검증의 근거가 아니다. 해당 구현의 C++ 합계 범위는uint64_t 안이며 테스트가 모든 거대 입력을 증명하지 않는다.
 
-Claim Boundary: 원자료의 수치·단위·기준을 그대로 사용한다. 모든 관찰은 이 입력·코드 경로·host·runtime·측정 조건에 한정한다. tracemalloc은 Python allocation peak이며 RSS나 전체 메모리가 아니다. 검사 통과는 기록된 범위의 동작 확인이다. Harness/Skill 단독 인과성·현재 Desktop 재현·새 Trial·일반 성능 보장은 주장하지 않는다.
+**Beginner Explanation:**
+빨라졌다는 숫자만 확인하지 않았다. 계산 중 추가 버퍼가 필요했는지, 원래와 같은 결과를 내는지도 함께 확인했다.
 
-보존된 상세 범위: 이 입력·환경의 코드 변경 결과 · Python 할당 피크는 RSS 아님 · Harness/Skill 단독 효과 미입증
+**Advanced Insight:**
+기준선과 후보를 같은 컴파일 옵션·입력으로 비교했다. 시간 측정에는 메모리 계측을 넣지 않았다. 기반 CPU·컴파일러가 바뀌면 구현 순위도 다시 확인해야 한다. Python 대비 배수나 “Harness가17배 빠르게 만들었다”로 해석하지 않는다.
 
-Beginner Explanation: 바뀐 코드가 빨라졌는지만 보지 않았다. 같은 입력에서 걸린 시간, 계산 중 임시로 할당한 메모리, 같은 답과 테스트 결과를 함께 확인했다.
+**C++ Vision Bridge:**
+동일한 밝기 통계 기능의 실제 C++ 실험이다. 정식 C++ 제품·Windows/MSVC·실제 검사 장비에서의 결과가 아니다.
 
-Advanced Insight: Candidate comparison과 formal product-state verification의 기준선을 구분한다. Runtime과 allocation은 별도 호출로 측정했고 동일 입력 지문과6필드 결과 guard를 유지했다. 이 관찰로 시스템 구성요소의 독립적 효과를 추론하지 않는다.
+**Demo Operation:**
+LOCAL STATIC RECORD — 선택 문장→시간 native chart→추가 버퍼→동작 검증 순으로 가리킨다. 막대·수치·워크북은 편집 가능한 native chart다.1.216/0.071은 같은 C++ 기준선과 후보이고0B는 계측한 추가 픽셀 버퍼다. Case5분이며 실시간 benchmark나 새 Trial을 실행하지 않는다.
 
-C++ Vision Bridge: N/A.
+**Audience Interaction:**
+“시간이 짧아졌지만 같은 답인지 확인하지 않았다면 완료라고 할 수 있을까요?”라고 세 영역의 관계를 짚는다.
 
-Demo Operation: LOCAL STATIC RECORD — 위쪽 선택한 변경을 회수하고 왼쪽 시간 막대, 가운데 할당량 전후, 오른쪽 동작 검증 순으로 가리킨다. 측정값은 native chart/text이며 편집 가능하다. 이 장의 Case5분을 추가 Demo 시간으로 계산하지 않는다. 현재 제품·Demo repository·benchmark를 실행하지 않는다.
+**Transition:**
+“측정으로 구현을 골랐습니다. 이번에는 독립 조사를 여러 역할로 나눌 필요가 있는지 살펴보겠습니다.”
 
-Audience Interaction: 세 영역을 가리키며 Opening Question을 짧게 던진다. 결과가 공개된 정적 기록으로 설명하고 추가 실습이나 공개 답변 시간을 요구하지 않는다.
+**Time Management:**
+Case5분: 선택과 같은 실험 구분0.75, 시간1.25, 추가 버퍼1, 동작1.25, 역할 분리 질문0.75. 긴 환경·해시·검사명 낭독은 생략하며 세 검증 기준과 측정 범위는 유지한다.
 
-Transition: “이 작업에 더 필요했던 구조도 있었을까요? 역할을 나누는 선택부터 검토하겠습니다.”
+**Fallback:**
+LOCAL STATIC ARTIFACT — production/ACT_3.pptx S69 또는 production/preview/act3/S69.png. 화면이 없으면1.216→0.071ms, 추가 픽셀 버퍼1572864→0B,6항목 대조를 구두로 짚는다. 원시 수치는 demos/experiments/cpp-statistics/results에 있다. Python 수치로 대신 말하지 않는다.
 
-Time Management: Case5분: 선택한 변경·측정 기준0.75, 실행시간1.25, 임시 메모리1, 동작 검증1.25, 범위·다음 질문0.75. 지연 시 정확한 여섯 필드와 CLI 샘플 값 낭독을 생략한다. 세 결과와 측정 범위를 남기고5분에 이동한다.
-
-Fallback:
-LOCAL STATIC ARTIFACT — production/ACT_3.pptx의 S69, production/preview/act3/S69.png 및 production/preview/full/S69.png. 보존된 제품 전후 측정·검증 기록의 재구성이다. 현재 실행 캡처가 아니다. 최신 파일 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md를 따른다.
-
-Validation Status: ALIGNED — DEC-0070의19필드·Case5분·제품 전후 측정 범위를 정렬했다. 로컬 렌더·내장 Notes 대조는 production/evaluation/S57_S58_TASK_RESULT_REVISION.md에 기록한다. Windows / room / product-account / timed rehearsal: UNVERIFIED.
+**Validation Status:**
+ALIGNED — DEC-0183. 로컬 PPT/PNG·차트·내장 Notes 대조는 production/evaluation/CPP_STATISTICS_SLIDE_REVISION.md에 기록한다. Windows/MSVC·발표 PC·교육장·실측 리허설·현재 Codex 제품/계정은 UNVERIFIED.
 
 ## S70 — 한 Agent 조사와 Subagent 역할 분리
 
@@ -4295,7 +4318,7 @@ Primary Message: 독립 조사와 별도 Context의 가치가 있고 결과 형�
 Opening Question: “성능·빌드·테스트 조사가 서로 기다리지 않아도 된다면?”
 
 Speaker Flow:
-1. (0:00–0:30 / Demo) S69의 실제 밝기 통계 변경·검증을 마쳤다는 점을 회수한다. 필요한 구조만 고르는 첫 질문으로 역할 분리를 본다. 판단 기준을 보기 위해, C++ 검사 프로젝트에 성능·빌드·테스트 독립 조사가 필요하다고 가정한다. 실제 Trial을 계속 실행한 장면은 아니다.
+1. (0:00–0:30 / Demo) S69에서 같은 밝기 통계의 별도 C++ 비교를 확인했다는 점을 회수한다. 필요한 구조만 고르는 첫 질문으로 역할 분리를 본다. 판단 기준을 보기 위해, C++ 검사 프로젝트에 성능·빌드·테스트 독립 조사가 필요하다고 가정한다. 실제 Trial을 계속 실행한 장면은 아니다.
 2. (0:30–1:15 / Demo) 왼쪽 한 Agent가 세 조사와 결과 종합을 모두 맡는 모습을 짚는다. 성능은 소스·측정, 빌드는 환경·설정, 테스트는 테스트·명세를 본다. 단일 Agent 방식이 실패하거나 느리다는 뜻은 아니다.
 3. (1:15–2:15 / Demo) 오른쪽 위 주 Agent가 범위와 결과 형식을 정하고, 세 Subagent가 각각 필요한 정보로 조사하는 분기를 따른다. 각각 조사한 내용·근거·미확인 사항을 주 Agent에게 돌려준다고 설명한다. 다른 조사 결과를 기다리지 않아도 되는지 먼저 판단해야 한다.
 4. (2:15–3:00 / Demo) 아래로 합쳐지는 선과 ‘같은 주 Agent’를 짚는다. 결과를 단순히 붙이는 것으로 끝내지 않고 근거·중복·충돌을 확인해 한 결과로 통합할 책임이 남는다. 필요한 정보를 역할별로 나눌 수 있는 가치와 조정·전달·통합 비용을 함께 본다. 시간·품질 이득을 측정한 사례는 아니다.
@@ -4313,7 +4336,7 @@ Beginner Explanation: 한 사람이 조사하고 정리할 일을 나눠 맡기�
 
 Advanced Insight: 독립 조사 가능성과 역할별 정보 범위의 가치를 먼저 확인한다. 요청할 결과 형식과 전달 지점을 정하고 주 Agent가 충돌·누락을 점검할 책임을 갖는다. 조정·중복·Context 전달·통합 비용이 있어 현재 작업에 분리가 필요한지 별도로 판단한다.
 
-C++ Vision Bridge: CONTEXTUAL — 기존 C++ 검사 프로젝트의 성능 경로·빌드 환경·테스트 구조 조사 가정이다. 실제 C++ 구현이나 Subagent 실행이 아니다.
+C++ Vision Bridge: CONTEXTUAL — 기존 C++ 검사 프로젝트의 성능 경로·빌드 환경·테스트 구조 조사 가정이다. 이 역할 분리 그림 자체는 실제 C++ 구현·Subagent 실행이 아니다. 직전 C++ 비교 실험의 측정과 구분한다.
 
 Demo Operation: 정적 VISUAL 기본 경로 — 상단 독립성 질문 → 왼쪽 한 Agent의 세 조사와 종합 → 오른쪽 주 Agent의 분담 → 역할별 조사 → 같은 주 Agent의 근거 확인·통합. 같은 세 조사와 자료를 양쪽에 놓아 조직 방식의 차이만 설명한다. 현재 UI·제품·Demo repository를 실행하지 않고 새 Trial·비교 측정·속도 표시를 추가하지 않는다.
 
@@ -4416,9 +4439,10 @@ Opening Question:
 “S70의 독립 조사 기준을 이 밝기 통계 작업에도 적용할 수 있었을까요?”
 
 Speaker Flow:
-1. (0:00–1:00 / Lecture) S70에서는 성능·빌드·테스트 조사가 서로 기다리지 않아도 된다고 가정했다. 이제 S68–S69에서 살펴본 실제 밝기 통계 작업으로 돌아온다. 화면 위 ‘같은 함수·같은 출력 명세’를 짚는다. 여기서는 무엇을 나눌지보다 각 단계가 앞의 어떤 결과를 받아야 하는지 먼저 본다.
-2. (1:00–1:40 / Demo) 왼쪽 조사는 기존 계산과 보존할 출력 명세, 변경 후보를 확인한 단계다. 기존 전체 픽셀 임시 리스트와 후보 비교는 S68에서 봤다. 가운데로 가는 ‘조사 결과’ 화살표를 따라, 조사한 후보를 근거로 계산 코드를 변경했음을 설명한다.
-3. (1:40–2:20 / Demo) 가운데 변경에서 오른쪽 검증으로 전달하는 것은 ‘바뀐 코드’다. 그 코드의 출력·테스트와 같은 조건의 시간·Python 할당량을 확인했다. 실제 수치와 검사 결과는 S69에 보존돼 있으므로 다시 낭독하지 않는다. 단계를 이름만 바꿔 독립 조사라고 부를 수는 없다.
+먼저 상단의 “원래 Python Demo의 역할 판단”을 짚고 원래 작업으로 복귀한다.
+1. (0:00–1:00 / Lecture) S70에서는 성능·빌드·테스트 조사가 서로 기다리지 않아도 된다고 가정했다. 이제 원래 Python Demo의 밝기 통계 작업으로 돌아온다. S68–S69의 C++ 비교와는 별도의 실제 기록이다. 화면 위 ‘같은 함수·같은 출력 명세’를 짚는다. 여기서는 무엇을 나눌지보다 각 단계가 앞의 어떤 결과를 받아야 하는지 먼저 본다.
+2. (1:00–1:40 / Demo) 왼쪽 조사는 기존 계산과 보존할 출력 명세, 변경 후보를 확인한 단계다. 원래 Python 기록에서도 전체 픽셀 임시 리스트와 후보를 비교했다. 이 근거는 plan/DEMO_MATRIX.md에 보존하며 S68의 새 C++ 후보 선택과 구분한다. 가운데로 가는 ‘조사 결과’ 화살표를 따라, 조사한 후보를 근거로 계산 코드를 변경했음을 설명한다.
+3. (1:40–2:20 / Demo) 가운데 변경에서 오른쪽 검증으로 전달하는 것은 ‘바뀐 코드’다. 그 코드의 출력·테스트와 같은 조건의 시간·Python 할당량을 확인했다. 이 원래 Python 작업의 수치·검사 결과는 plan/DEMO_MATRIX.md에 보존돼 있다. S68–S69의 새 C++ 수치와 섞거나 다시 낭독하지 않는다. 단계를 이름만 바꿔 독립 조사라고 부를 수는 없다.
 4. (2:20–3:00 / Demo) 아래 ‘한 Agent가 끝까지 수행’을 읽는다. 이 작은 작업은 같은 코드·명세를 공유했고 별도 Context 분리의 필요성이 충분하지 않았다. 나누면 해당 자료와 중간 결과를 전달하고 결과를 통합할 책임도 생긴다. DEC-0018의 기존 판단과 후속 실제 작업 기록에 따라 추가하지 않았다. 의존관계만으로 역할 분리가 불가능하다고 결론내리지는 않는다.
 5. (3:00–4:00 / Q&A) “조사 범위가 넓어지고 서로 기다리지 않는 근거 검토가 생기면 이 판단도 바뀔까요?”를 받는다. 무질문이면 발표자가 독립 조사 범위·필요한 정보·통합 비용을 다시 판단한다고 회수한다. 3:45에 질문을 닫고 실제 작업의 구성 요소들이 맡은 역할로 이동한다.
 
@@ -4472,7 +4496,7 @@ Opening Question: “실제 밝기 통계 작업에서 목표·Context·Skill·�
 Speaker Flow:
 1. (0:00–0:30 / Demo) S72의 독립 조사 역할 판단에서 실제 밝기 통계 작업의 구성을 회수한다. 이번 장은 각 자료가 이 한 작업에서 맡은 역할의 회수다. 재구성 도식이며 시간순 실행 trace가 아니다.
 2. (0:30–1:30 / Demo) 왼쪽 목표·Context·Skill을 한 번에 짚는다. 근거 있는 실행시간/할당량 개선 조사, 출력6항목과 허용 범위 보존이 요청의 경계다. AGENTS.md·상세 문서·코드·테스트는 사실과 명세를, Repository Skill은 재사용 방법을 제공했다. S65–S66에서 확인한 목록 발견·명시 호출을 다시 강의하지 않는다. 여기서는 한 작업에서 각 요소가 맡은 역할을 짚는다.
-3. (1:30–2:30 / Demo) 가운데 실제 조사·변경에서 오른쪽 테스트·benchmark로 이동한다. 같은 입력·환경의 동작·실행시간·Python 할당량 근거를 사람이 검토했다. TRIAL-008 후보 비교와 정식 STATE-04-PERF 재조사·검증은 별도 기록이다. 수치와 테스트 결과를 S69처럼 다시 읽지 않는다. 모든 동작의 정확성이나 각 요소의 단독 효과가 입증된 것은 아니다.
+3. (1:30–2:30 / Demo) 가운데 실제 조사·변경에서 오른쪽 테스트·benchmark로 이동한다. 같은 입력·환경의 동작·실행시간·Python 할당량 근거를 사람이 검토했다. TRIAL-008 후보 비교와 정식 STATE-04-PERF 재조사·검증은 별도 기록이다. 수치와 테스트 결과는 원래 Python 자료에 보존하며 다시 읽지 않는다. S68–S69의 C++ 수치가 이 구성의 관찰 결과라는 뜻은 아니다. 모든 동작의 정확성이나 각 요소의 단독 효과가 입증된 것은 아니다.
 4. (2:30–3:00 / Demo) 이번 작업에서 사용한 목표·Context·Skill·검증 도구의 역할을 회수한다. 다음 장은 요소 목록을 반복하는 대신 실행 조건과 사람의 검토 책임까지 연결한 Harness 모델로 확장한다.
 
 Evidence / Source: STATE-00 → STATE-04-PERF; plan/DEMO_MATRIX.md의 TRIAL-008 Task Prompt, Current Harness 및 §§191–200 Working Harness Success; DEC-0018/0062/0075; INV-VERIFY-001; DEMO-09. OBSERVED_PRODUCT / TEACHING_MODEL. STATE-04-PERF의 AGENTS.md, docs/, .agents/skills/graypipe-performance/SKILL.md, tests/test_statistics.py, benchmarks/benchmark_statistics.py를 읽기 전용으로 대조한다. 과거 Codex CLI 0.154.0 기록이며 현재 Desktop 실행 검증이 아니다.; DEC-0080.
