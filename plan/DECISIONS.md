@@ -15912,3 +15912,26 @@ Preserve 111 slides/372 minutes, every allocation, story beat, template,
 evidence boundary, image and module footer. Align the six Notes records,
 planning and Full/ACT2/ACT3 decks and previews. Run no new Trial and
 change no Demo repository, Site, experiment or presenter bundle.
+
+# DEC-0187 — Adapt crop evidence to C++ and visualize execution limits
+
+Status: ACCEPTED by the user's three ACT0 annotations.
+Date: 2026-11-05.
+
+Keep S08's test/specification/implementation relationship and express
+its roles with C++ file names, a GoogleTest check, a vector iterator
+range and C++ call labels. Remove the selected relationship footer.
+Retain the actual Python Trial, file paths, defect and call relationship
+in Notes. The C++ screen is a semantic illustration, not new observed
+code, compilation or test evidence. Keep the width2/width3 input scope.
+
+Replace S09's text-heavy boxes with a test-file, temporary-folder and
+read-only-permission diagram. Show the write attempt stopping at the
+permission boundary and connect logs/permissions to S10. Preserve the
+three historical environment errors and the absence of permission
+recovery in Notes, separate from the Crop defect.
+
+Keep 111 slides/372 minutes, every ID, title, allocation, beat, template
+and evidence limit. Align Notes and plans, render Full and ACT0, and
+use the existing commit/push policy. Change no Demo repository, Trial,
+experiment, current product environment, Site or presenter bundle.

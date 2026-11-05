@@ -253,22 +253,22 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Working Title:** 원인을 설명하려면 테스트·명세·구현을 연결해야 한다
 - **Primary Role:** Crop 현상을 설명할 세 근거가 프로젝트의 어디에 있는지 보여주고 자료 수집의 필요를 드러낸다.
 - **Audience Question:** “폭2와 폭3의 차이를 설명하는 근거는 프로젝트의 어디에 있었나요?”
-- **Core Message:** 실패 테스트와 끝 좌표 제외 명세, 끝 좌표까지 포함한 row[x_start : x_end + 1] 구현을 대조해 실패를 설명했다. 관련 코드는 cli.main→pipeline.process_image→transform.crop 호출 관계로 연결됐다. 이 자료는 프로젝트의 테스트 파일·README·구현 파일에 나뉘어 있었다. 원인을 설명하려면 필요한 자료를 찾아 연결해야 한다.
+- **Core Message:** C++의 Crop 테스트·반개구간 명세·std::vector 범위 생성식을 연결해 폭2/폭3 차이를 설명한다. 필요한 자료는 테스트·README·구현 파일에 나뉘어 있어 찾아 연결해야 한다. 실제 과거 조사는 Python이며 이 화면은 같은 의미의 C++ 대응 예시다.
 - **Story Beat:** BEAT-003
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
-- **Evidence Type:** OBSERVED_PRODUCT
-- **Claim Status:** FROZEN WITH SCOPE — TRIAL-001 단일 CLI 조사. 관계도는 Agent의 실제 접근 시간순 로그가 아니며 README의 기존 결함 안내도 있었다. 코드 수정·반복성·현재 Desktop 동작을 주장하지 않는다.
-- **Visual Concept:** 프로젝트 폴더의 세 자료를 파일 아이콘과 실제 위치로 보여준다. tests/test_transform.py의 테스트, README.md의 끝 좌표 제외 설명, src/graypipe/transform.py의 구현을 연결한다. 하단 제품 호출 관계는 보존한다. 근거 관계도이며 실제 파일 접근 시간순이 아니다.
-- **Demo / Case Connection:** DEMO-01의 원래 CLI 관찰 근거8분을 S07/S08에4분씩 유지한다. 자료 위치 대조는 읽기 전용 확인이며 새 Trial이 아니다.
+- **Evidence Type:** TEACHING_MODEL / OBSERVED_PRODUCT (underlying Python record)
+- **Claim Status:** FROZEN WITH SCOPE — C++ 의미 대응은 교육 모델이다. 실제 TRIAL-001은 Python CLI 기록이며 C++ Crop 실행·파일 발견·테스트 결과로 바꾸지 않는다. 관계/호출 도식은 Agent의 실제 접근 시간순이 아니고 원래 README 결함 안내도 보존한다.
+- **Visual Concept:** 세 파일 아이콘과 테스트·명세·구현의 동일 구조를 유지한다. tests/crop_test.cpp의 Crop.EndExcluded/EXPECT_EQ(width, 2), README의 [x_start, x_end), src/transform.cpp의 std::vector 범위 생성식(+1)을 대응시킨다. 하단 호출은 main()→process_image()→crop()이다. 파일명은 C++ 역할 예시이며 원래 실제 파일과 원문은 Notes에 보존한다. 지정 footer는 제거한다.
+- **Demo / Case Connection:** DEMO-01의 기존4Demo분 안에서 같은 Crop 결함을 C++ 의미로 설명한다. 원래 관찰은 Python TRIAL-001이며 새 C++ 실행이나 실제 캡처가 아니다.
 - **Beginner Payoff:** 답만 듣는 대신 테스트·명세·구현이 어떻게 원인 설명을 뒷받침하는지 본다.
 - **Advanced Payoff:** 코드 호출 관계·근거 연결·Agent 접근 시간순과 독립 발견 주장을 구분한다.
-- **C++ Vision Bridge:** N/A. 실제 Python 조사 근거를 C++ Trial로 바꾸지 않는다.
+- **C++ Vision Bridge:** 기존 세 자료의 연결 구조를 C++ 파일·GoogleTest 확인 구문·std::vector iterator 범위 생성식으로 대응시킨다. 실제 Python 관찰의 언어·원문을 보존하며 C++ 실행·측정이나 Demo Repository 전환으로 해석하지 않는다.
 - **Speaker Intent:** 코드 정답 설명보다 원인을 설명하기 위해 테스트·명세·구현을 찾아 연결해야 함을 읽게 한다. README에도 결함 안내가 있었으며 독립 발견·Chatbot 비교 결과로 바꾸지 않는다.
 - **Transition:** “그런데 같은 전체 테스트에는 코드 결함과 원인이 다른 오류도 있었습니다.”
 - **Estimated Time:** 4분
 - **Delivery Mode Allocation:** Demo 4분 (CAPTURED / RECONSTRUCTED) = 4분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084; DEC-0185
-- **Audience Footer:** 발견한 근거의 관계도
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084; DEC-0185; DEC-0187
+- **Audience Footer:** 없음 — 원래 근거 관계·언어·원문은 Notes에 보존, M 연계 유지
 
 #### S09 — 코드만으로 설명되지 않는 오류도 있었다
 
@@ -283,7 +283,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Curriculum Trace:** ACT 0 — repository investigation, bounded findings and the collection-role mental shift.
 - **Evidence Type:** OBSERVED_PRODUCT
 - **Claim Status:** FROZEN WITH SCOPE — TRIAL-001 실행 환경 제한의 관찰. Product/Crop 결함이나 성공한 환경 복구, 현재 Desktop 동작의 근거가 아니다.
-- **Visual Concept:** 기존 테스트 실행→임시 폴더 요청→읽기 전용 권한으로 생성 불가 도식을 유지한다. 마지막은 실행 로그·권한 정보도 필요하다는 문장으로 연결한다. 실제 오류3건은 Crop 결함과 별개이며 권한 해결·Agent 성능의 증거로 사용하지 않는다.
+- **Visual Concept:** 왼쪽 테스트 파일→가운데 임시 폴더 생성 시도→오른쪽 읽기 전용 환경의 잠금/권한 경계로 연결한다. 앞 Crop 구현 문제와 별개라는 한 문장과 생성 불가 상태를 보이고 마지막은 실행 로그+권한 확인으로 S10에 연결한다. 파일·폴더·권한 아이콘은 앞뒤와 같은 시각 언어다. 실제 오류3건 집계·권한 미해결·원래 Python 환경은 Notes에 유지한다.
 - **Demo / Case Connection:** DEMO-01의 별도 Case/교육용 해석·callback이며 Demo 시간을 추가하지 않는다.
 - **Beginner Payoff:** 테스트가 실패하는 이유에는 코드 결함 외 실행 조건도 있음을 이해한다.
 - **Advanced Payoff:** 제품 결함과 실행 제한을 분리하고, 제한 관찰과 권한 변경·해결을 구분한다.
@@ -292,7 +292,7 @@ S67 제작 예시→S68 별도 C++ 후보 비교→S69 같은 C++ 실험의 측�
 - **Transition:** “지금까지 필요한 자료를 모으면, 프로젝트 파일과 실행 환경의 두 곳에 나뉩니다.”
 - **Estimated Time:** 3분
 - **Delivery Mode Allocation:** Case 3분 = 3분
-- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084; DEC-0185
+- **Evidence / Decision References:** BEAT-003, DEMO-01, TRIAL-001, CLM-0002, CLM-0009, OQ-003, OQ-005, DEC-0084; DEC-0185; DEC-0187
 - **Audience Footer:** 없음 — M 연계 표시는 유지
 
 #### S10 — 이 자료를 매번 사람이 찾아 전달해야 할까?

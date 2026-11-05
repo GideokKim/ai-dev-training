@@ -1,0 +1,149 @@
+{
+  "baseline": "6432cc6",
+  "decision": "DEC-0187",
+  "slides": 111,
+  "minutes": 372,
+  "changedSlides": [
+    "S08",
+    "S09"
+  ],
+  "changedNotesSlides": [
+    "S08",
+    "S09"
+  ],
+  "changedMapSlides": [
+    "S08",
+    "S09"
+  ],
+  "actSlideCounts": [
+    14,
+    23,
+    22,
+    18,
+    19,
+    15
+  ],
+  "actMinutes": [
+    42.0,
+    64.0,
+    90.0,
+    64.0,
+    71.0,
+    41.0
+  ],
+  "modeMinutes": {
+    "Transition": 21.0,
+    "Lecture": 170.0,
+    "Reflection": 17.0,
+    "Case": 95.0,
+    "Demo": 44.0,
+    "Q&A": 25.0
+  },
+  "renderedSlides": 125,
+  "notesCompared": 125,
+  "notesFields": 19,
+  "unchangedFullSlides": 109,
+  "allImageBytesPositionsPreserved": true,
+  "allModuleFootersPreserved": true,
+  "nativeTablesAndCppChartPreserved": true,
+  "actFullPixelParity": true,
+  "otherActPptxUnchanged": true,
+  "perSlideTitleTimeModeBeatSectionAndTemplatePreserved": true,
+  "S08CppTeachingMappingOnly": true,
+  "originalPythonTrialAndSourceRetained": true,
+  "S09SeparateEnvironmentErrorAndNoRecoveryPreserved": true,
+  "noNewCppTrialOrProductExecution": true,
+  "decks": {
+    "AI_Dev_Training_Full": {
+      "slides": 111,
+      "sha256": "11a2a48e60f4ca9b6b06ac903a98c44c5ae5f12201e343810e01724ff16f5a18",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "warnings": [
+        {
+          "connector_id": "25",
+          "connector_z": 23,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "24",
+          "text_z": 22
+        },
+        {
+          "connector_id": "28",
+          "connector_z": 26,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "27",
+          "text_z": 25
+        },
+        {
+          "available_bottom_in": 6.2917,
+          "columns": 3,
+          "declared_bottom_in": 5.7917,
+          "estimated_native_bottom_in": 6.3017,
+          "footer_object_ids": [
+            "4"
+          ],
+          "kind": "native_table_overflow",
+          "overflow_in": 0.01,
+          "rows": 8,
+          "slide": 54,
+          "table_id": "8"
+        },
+        {
+          "connector_id": "11",
+          "connector_z": 12,
+          "kind": "connector_over_text",
+          "slide": 79,
+          "text_object_id": "10",
+          "text_z": 11
+        }
+      ]
+    },
+    "ACT_0": {
+      "slides": 14,
+      "sha256": "ea12e5cda24d3e5a7b08483f9482948098951d626dfd026afd532e0bd741f600",
+      "package": "PASS",
+      "import": "PASS",
+      "layoutFindings": 0,
+      "warnings": [
+        {
+          "connector_id": "25",
+          "connector_z": 23,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "24",
+          "text_z": 22
+        },
+        {
+          "connector_id": "28",
+          "connector_z": 26,
+          "kind": "connector_over_text",
+          "slide": 4,
+          "text_object_id": "27",
+          "text_z": 25
+        }
+      ]
+    }
+  },
+  "demoHead": "afef3e0c66d3f7a29790c37034d5aad274ac5ce8",
+  "demoWorkingTree": "clean",
+  "unverified": [
+    "C++ crop execution",
+    "Windows PowerPoint",
+    "Classroom projection",
+    "Current product/account",
+    "Timed rehearsal"
+  ],
+  "visualReview": {
+    "method": "inspect S08/S09 final full-size renders and S07/S10 adjacent screens; compare all other109 screens pixel-for-pixel",
+    "slides": {
+      "S08": "PASS",
+      "S09": "PASS"
+    },
+    "newClippingOrOverlapFound": false,
+    "codeSizeCssPixels": 24,
+    "scope": "Local rendering only; no C++ execution, Windows or rehearsal validation"
+  }
+}

@@ -68,22 +68,49 @@ export async function loadAct0ContextCollectionSlides(root,H){
   },
   S08(p){
    const s=make(p,'S08','원인을 설명하려면 테스트·명세·구현을 연결해야 한다',
-    '원인을 설명하는 데 필요한 근거','M 연계 · M5 · M6','발견한 근거의 관계도');
+    '원인을 설명하는 데 필요한 근거','M 연계 · M5 · M6');
    text(s,'앞의 폭 2 / 폭 3 차이를 설명한 자료는 어디에 있었을까?',64,180,1152,43,30,C.teal,true);
    rect(s,64,251,1152,51,C.pale);
    text(s,'프로젝트 폴더 안에 있는 서로 다른 자료',84,258,1112,37,27,C.teal,true);
-   const xs=[64,456,848],names=['실패 테스트','Crop 명세','실제 구현'];
+   const xs=[64,456,848],names=['Crop 테스트','Crop 명세','Crop 구현'];
    xs.forEach((x,i)=>{page(s,x,325);text(s,names[i],x+44,326,324,37,28,C.teal,true);});
-   text(s,'tests/test_transform.py',64,374,368,30,20,C.sub,false,CODE);
+   text(s,'tests/crop_test.cpp',64,374,368,30,20,C.sub,false,CODE);
    text(s,'README.md · crop 설명',456,374,368,30,21,C.sub);
-   text(s,'src/graypipe/transform.py',848,374,368,30,20,C.sub,false,CODE);
-   text(s,'test_crop_excludes_\nend_coordinate',64,420,368,65,24,C.ink,true,CODE);
+   text(s,'src/transform.cpp',848,374,368,30,20,C.sub,false,CODE);
+   text(s,'Crop.EndExcluded',64,420,368,38,26,C.ink,true,CODE);
+   text(s,'EXPECT_EQ(width, 2);',64,464,368,36,24,C.ink,true,CODE);
    text(s,'[x_start, x_end)',456,420,368,38,29,C.ink,true,CODE);
    text(s,'끝 좌표 제외',456,464,368,36,27,C.ink,true);
-   text(s,'row[x_start :\n    x_end + 1]',848,420,368,77,28,C.red,true,CODE);
+   text(s,'std::vector<int>(\n  row.begin() + x_start,\n  row.begin() + x_end + 1)',848,414,368,104,24,C.red,true,CODE);
    connect(s,436,443,16);connect(s,828,443,16);
-   text(s,'이 근거를 찾아 연결해야, 원인을 설명할 수 있다',64,515,1152,43,32,C.teal,true);
-   text(s,'관련 호출 관계  cli.main → pipeline.process_image → transform.crop',64,570,1152,30,23,C.sub);
+   text(s,'이 근거를 찾아 연결해야, 원인을 설명할 수 있다',64,530,1152,38,32,C.teal,true);
+   text(s,'관련 호출 관계  main() → process_image() → crop()',64,576,1152,24,23,C.sub);
+   return s;
+  },
+  S09(p){
+   const s=make(p,'S09','코드만으로 설명되지 않는 오류도 있었다',
+    '별도 실행 환경 오류','M 연계 · M6');
+   text(s,'앞의 Crop 구현 문제와는 별개',64,180,1152,43,30,C.warn,true);
+   // Keep the same file/folder/permission vocabulary as S08 and S10.
+   text(s,'테스트 실행',64,265,240,42,30,C.teal,true,FONT,'center');
+   page(s,150,327,C.teal,C.pale,2.5);
+   text(s,'임시 파일을 쓰려 함',64,455,240,43,26,C.ink,true,FONT,'center');
+   connect(s,322,373,68);
+   text(s,'임시 폴더 생성',408,265,330,42,30,C.ink,true,FONT,'center');
+   rect(s,464,342,228,105,C.white,C.line,2);
+   rect(s,464,325,89,22,C.pale,C.line,2);
+   text(s,'＋',544,362,70,62,45,C.teal,true,FONT,'center');
+   text(s,'쓰기 권한 필요',408,455,330,43,26,C.sub,true,FONT,'center');
+   connect(s,708,373,76,C.warn);
+   const barrier=rect(s,810,310,8,160,C.redPale,C.red,1);
+   barrier.name='Write permission boundary';
+   rect(s,832,246,384,260,C.amber);
+   text(s,'읽기 전용 환경',848,265,352,42,30,C.warn,true,FONT,'center');
+   const shackle=rect(s,993,326,54,67,C.amber,C.warn,3);shackle.borderRadius=27;
+   rect(s,974,365,92,66,C.amber,C.warn,3);
+   s.shapes.add({geometry:'ellipse',position:{left:1014,top:387,width:12,height:12},fill:C.warn,line:{fill:'none',width:0}});
+   text(s,'폴더 생성 불가',848,455,352,43,30,C.red,true,FONT,'center');
+   text(s,'실행 로그 + 권한 정보도 확인해야 원인을 구분할 수 있다',64,552,1152,43,31,C.teal,true);
    return s;
   },
   S10(p){
@@ -120,10 +147,6 @@ export function applyAct0ContextCollection(slide,id){
   if(found[0].name===before)found[0].name=after.slice(0,60);
  };
  if(id==='S07')replace('조사 기록 요약 · 코드 수정 없음',null);
- if(id==='S09'){
-  replace('다른 테스트 오류는 임시 폴더 생성에서 발생했다','코드만으로 설명되지 않는 오류도 있었다');
-  replace('원인은 구분했다. 권한 제한을 해결한 것은 아니다','이 오류를 판단하려면 실행 로그·권한 정보도 필요하다');
- }
  if(id==='S11'){
   replace('Chatbot에 이 자료를 직접 전달한다면?','Chatbot에 줄 자료는 사람이 모은다');
   replace('답을 받기 전, 사람이 관련 자료를 찾아 전달하는 방식','같은 Crop 질문 · 필요한 자료를 직접 첨부하는 방식');
