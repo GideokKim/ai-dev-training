@@ -1,0 +1,2 @@
+PASS 20 contract checks
+PASS 20 contract checks (AddressSanitizer + UndefinedBehaviorSanitizer)

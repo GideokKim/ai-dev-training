@@ -1,0 +1,3 @@
+Before the implementation, a temporary stub returned empty Statistics.
+The compiled contract test exited1 with the following expected failure:
+FAIL: 2x2 six-field contract

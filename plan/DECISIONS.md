@@ -15789,3 +15789,28 @@ execution or new performance measurement.
 Keep 111 slides/372 minutes, IDs, templates and evidence boundaries. Align
 S96's source, map, Notes, Full/ACT4 decks, previews and delivery hashes.
 Keep other slides, the Demo repository, Sites and presenter bundles intact.
+
+# DEC-0182 — Run an isolated C++ statistics portability experiment
+
+Status: ACCEPTED by the user's request to run a new experiment first.
+Date: 2026-11-05.
+
+Investigate whether S68-S69's brightness-statistics example can be ported
+with the same six-field behavior and independently measured C++ evidence.
+Retain code, the pre-measurement protocol and raw evidence under
+`demos/experiments/cpp-statistics/` as EXP-CPP-STATS-001.
+
+Compare a literal C++ port of the flattened-copy strategy with row-level
+standard reductions and a fused pass. Do not prescribe a winner. Reuse
+the deterministic input and fingerprint, verify against the unchanged
+Python implementation and hand-derived cases, then measure equal-output
+candidates under the same local Release build. Measure temporary-buffer
+allocation separately and preserve its scope instead of calling it RSS.
+
+Keep the Python Demo repository and all State tags unchanged. This is a
+local code experiment, not a new observed Skill discovery/invocation,
+current-product validation, Windows/MSVC result or slide acceptance.
+Do not modify the deck, Notes, Slide Map or existing Trial records.
+Decide any C++ teaching adoption separately after reviewing the evidence.
+Commit retained experiment sources, tests and records with the existing
+Git policy; keep executables and generated image fixtures outside Git.

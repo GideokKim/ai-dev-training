@@ -1,0 +1,2522 @@
+[
+  {
+    "fixture": "literal_2x2",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 2,
+          "height": 2,
+          "pixel_count": 4,
+          "minimum": 0,
+          "maximum": 30,
+          "mean": 15
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 8
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 2,
+          "height": 2,
+          "pixel_count": 4,
+          "minimum": 0,
+          "maximum": 30,
+          "mean": 15
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 2,
+          "height": 2,
+          "pixel_count": 4,
+          "minimum": 0,
+          "maximum": 30,
+          "mean": 15
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "literal_16bit",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 3,
+          "height": 1,
+          "pixel_count": 3,
+          "minimum": 0,
+          "maximum": 65535,
+          "mean": 32767.666666666668
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 6
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 3,
+          "height": 1,
+          "pixel_count": 3,
+          "minimum": 0,
+          "maximum": 65535,
+          "mean": 32767.666666666668
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 3,
+          "height": 1,
+          "pixel_count": 3,
+          "minimum": 0,
+          "maximum": 65535,
+          "mean": 32767.666666666668
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "literal_padded",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 2,
+          "height": 2,
+          "pixel_count": 4,
+          "minimum": 1,
+          "maximum": 4,
+          "mean": 2.5
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 8
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 2,
+          "height": 2,
+          "pixel_count": 4,
+          "minimum": 1,
+          "maximum": 4,
+          "mean": 2.5
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 2,
+          "height": 2,
+          "pixel_count": 4,
+          "minimum": 1,
+          "maximum": 4,
+          "mean": 2.5
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "main_1024x768",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 1024,
+          "height": 768,
+          "pixel_count": 786432,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.48498407999675
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 1572864
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 1024,
+          "height": 768,
+          "pixel_count": 786432,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.48498407999675
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 1024,
+          "height": 768,
+          "pixel_count": 786432,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.48498407999675
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "small_64x48",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 64,
+          "height": 48,
+          "pixel_count": 3072,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.58170572916667
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 6144
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 64,
+          "height": 48,
+          "pixel_count": 3072,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.58170572916667
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 64,
+          "height": 48,
+          "pixel_count": 3072,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.58170572916667
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "large_2048x1536",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 2048,
+          "height": 1536,
+          "pixel_count": 3145728,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.48371028900146
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 6291456
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 2048,
+          "height": 1536,
+          "pixel_count": 3145728,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.48371028900146
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 2048,
+          "height": 1536,
+          "pixel_count": 3145728,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.48371028900146
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "padded_1024x768",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 1024,
+          "height": 768,
+          "pixel_count": 786432,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.48498407999675
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 1572864
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 1024,
+          "height": 768,
+          "pixel_count": 786432,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.48498407999675
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 1024,
+          "height": 768,
+          "pixel_count": 786432,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.48498407999675
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "wide16_1024x768",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 1024,
+          "height": 768,
+          "pixel_count": 786432,
+          "minimum": 0,
+          "maximum": 41384,
+          "mean": 20708.219033559162
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 1572864
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 1024,
+          "height": 768,
+          "pixel_count": 786432,
+          "minimum": 0,
+          "maximum": 41384,
+          "mean": 20708.219033559162
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 1024,
+          "height": 768,
+          "pixel_count": 786432,
+          "minimum": 0,
+          "maximum": 41384,
+          "mean": 20708.219033559162
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_00",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 93,
+          "height": 66,
+          "pixel_count": 6138,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.4973932877158684
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 12276
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 93,
+          "height": 66,
+          "pixel_count": 6138,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.4973932877158684
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 93,
+          "height": 66,
+          "pixel_count": 6138,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.4973932877158684
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_01",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 64,
+          "height": 33,
+          "pixel_count": 2112,
+          "minimum": 3,
+          "maximum": 4090,
+          "mean": 2070.358428030303
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 4224
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 64,
+          "height": 33,
+          "pixel_count": 2112,
+          "minimum": 3,
+          "maximum": 4090,
+          "mean": 2070.358428030303
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 64,
+          "height": 33,
+          "pixel_count": 2112,
+          "minimum": 3,
+          "maximum": 4090,
+          "mean": 2070.358428030303
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_02",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 80,
+          "height": 59,
+          "pixel_count": 4720,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.58135593220339
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 9440
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 80,
+          "height": 59,
+          "pixel_count": 4720,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.58135593220339
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 80,
+          "height": 59,
+          "pixel_count": 4720,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.58135593220339
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_03",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 58,
+          "height": 61,
+          "pixel_count": 3538,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 125.71876766534766
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 7076
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 58,
+          "height": 61,
+          "pixel_count": 3538,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 125.71876766534766
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 58,
+          "height": 61,
+          "pixel_count": 3538,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 125.71876766534766
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_04",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 76,
+          "height": 2,
+          "pixel_count": 152,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.5
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 304
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 76,
+          "height": 2,
+          "pixel_count": 152,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.5
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 76,
+          "height": 2,
+          "pixel_count": 152,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.5
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_05",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 18,
+          "height": 5,
+          "pixel_count": 90,
+          "minimum": 18,
+          "maximum": 4087,
+          "mean": 1895.6666666666667
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 180
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 18,
+          "height": 5,
+          "pixel_count": 90,
+          "minimum": 18,
+          "maximum": 4087,
+          "mean": 1895.6666666666667
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 18,
+          "height": 5,
+          "pixel_count": 90,
+          "minimum": 18,
+          "maximum": 4087,
+          "mean": 1895.6666666666667
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_06",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 67,
+          "height": 11,
+          "pixel_count": 737,
+          "minimum": 4,
+          "maximum": 4094,
+          "mean": 1970.8168249660787
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 1474
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 67,
+          "height": 11,
+          "pixel_count": 737,
+          "minimum": 4,
+          "maximum": 4094,
+          "mean": 1970.8168249660787
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 67,
+          "height": 11,
+          "pixel_count": 737,
+          "minimum": 4,
+          "maximum": 4094,
+          "mean": 1970.8168249660787
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_07",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 47,
+          "height": 3,
+          "pixel_count": 141,
+          "minimum": 3,
+          "maximum": 252,
+          "mean": 129.45390070921985
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 282
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 47,
+          "height": 3,
+          "pixel_count": 141,
+          "minimum": 3,
+          "maximum": 252,
+          "mean": 129.45390070921985
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 47,
+          "height": 3,
+          "pixel_count": 141,
+          "minimum": 3,
+          "maximum": 252,
+          "mean": 129.45390070921985
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_08",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 34,
+          "height": 78,
+          "pixel_count": 2652,
+          "minimum": 0,
+          "maximum": 4092,
+          "mean": 2044.9939668174961
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 5304
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 34,
+          "height": 78,
+          "pixel_count": 2652,
+          "minimum": 0,
+          "maximum": 4092,
+          "mean": 2044.9939668174961
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 34,
+          "height": 78,
+          "pixel_count": 2652,
+          "minimum": 0,
+          "maximum": 4092,
+          "mean": 2044.9939668174961
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_09",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 81,
+          "height": 36,
+          "pixel_count": 2916,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.4993141289437586
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 5832
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 81,
+          "height": 36,
+          "pixel_count": 2916,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.4993141289437586
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 81,
+          "height": 36,
+          "pixel_count": 2916,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.4993141289437586
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_10",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 88,
+          "height": 58,
+          "pixel_count": 5104,
+          "minimum": 1,
+          "maximum": 4095,
+          "mean": 2022.9135971786834
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 10208
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 88,
+          "height": 58,
+          "pixel_count": 5104,
+          "minimum": 1,
+          "maximum": 4095,
+          "mean": 2022.9135971786834
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 88,
+          "height": 58,
+          "pixel_count": 5104,
+          "minimum": 1,
+          "maximum": 4095,
+          "mean": 2022.9135971786834
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_11",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 42,
+          "height": 9,
+          "pixel_count": 378,
+          "minimum": 3,
+          "maximum": 4091,
+          "mean": 1942.095238095238
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 756
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 42,
+          "height": 9,
+          "pixel_count": 378,
+          "minimum": 3,
+          "maximum": 4091,
+          "mean": 1942.095238095238
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 42,
+          "height": 9,
+          "pixel_count": 378,
+          "minimum": 3,
+          "maximum": 4091,
+          "mean": 1942.095238095238
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_12",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 65,
+          "height": 55,
+          "pixel_count": 3575,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.4853146853146853
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 7150
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 65,
+          "height": 55,
+          "pixel_count": 3575,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.4853146853146853
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 65,
+          "height": 55,
+          "pixel_count": 3575,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.4853146853146853
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_13",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 27,
+          "height": 73,
+          "pixel_count": 1971,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.4972095383054287
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 3942
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 27,
+          "height": 73,
+          "pixel_count": 1971,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.4972095383054287
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 27,
+          "height": 73,
+          "pixel_count": 1971,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.4972095383054287
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_14",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 50,
+          "height": 40,
+          "pixel_count": 2000,
+          "minimum": 25,
+          "maximum": 65528,
+          "mean": 32858.0505
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 4000
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 50,
+          "height": 40,
+          "pixel_count": 2000,
+          "minimum": 25,
+          "maximum": 65528,
+          "mean": 32858.0505
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 50,
+          "height": 40,
+          "pixel_count": 2000,
+          "minimum": 25,
+          "maximum": 65528,
+          "mean": 32858.0505
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_15",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 32,
+          "height": 7,
+          "pixel_count": 224,
+          "minimum": 388,
+          "maximum": 65534,
+          "mean": 32876.28125
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 448
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 32,
+          "height": 7,
+          "pixel_count": 224,
+          "minimum": 388,
+          "maximum": 65534,
+          "mean": 32876.28125
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 32,
+          "height": 7,
+          "pixel_count": 224,
+          "minimum": 388,
+          "maximum": 65534,
+          "mean": 32876.28125
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_16",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 53,
+          "height": 4,
+          "pixel_count": 212,
+          "minimum": 10,
+          "maximum": 4089,
+          "mean": 2032.5094339622642
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 424
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 53,
+          "height": 4,
+          "pixel_count": 212,
+          "minimum": 10,
+          "maximum": 4089,
+          "mean": 2032.5094339622642
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 53,
+          "height": 4,
+          "pixel_count": 212,
+          "minimum": 10,
+          "maximum": 4089,
+          "mean": 2032.5094339622642
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_17",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 81,
+          "height": 29,
+          "pixel_count": 2349,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 126.38229033631332
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 4698
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 81,
+          "height": 29,
+          "pixel_count": 2349,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 126.38229033631332
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 81,
+          "height": 29,
+          "pixel_count": 2349,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 126.38229033631332
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_18",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 68,
+          "height": 21,
+          "pixel_count": 1428,
+          "minimum": 2,
+          "maximum": 4094,
+          "mean": 2046.18837535014
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 2856
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 68,
+          "height": 21,
+          "pixel_count": 1428,
+          "minimum": 2,
+          "maximum": 4094,
+          "mean": 2046.18837535014
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 68,
+          "height": 21,
+          "pixel_count": 1428,
+          "minimum": 2,
+          "maximum": 4094,
+          "mean": 2046.18837535014
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_19",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 4,
+          "height": 64,
+          "pixel_count": 256,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.88671875
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 512
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 4,
+          "height": 64,
+          "pixel_count": 256,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.88671875
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 4,
+          "height": 64,
+          "pixel_count": 256,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.88671875
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_20",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 53,
+          "height": 13,
+          "pixel_count": 689,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.27866473149492
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 1378
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 53,
+          "height": 13,
+          "pixel_count": 689,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.27866473149492
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 53,
+          "height": 13,
+          "pixel_count": 689,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.27866473149492
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_21",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 62,
+          "height": 45,
+          "pixel_count": 2790,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.353046594982079
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 5580
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 62,
+          "height": 45,
+          "pixel_count": 2790,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.353046594982079
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 62,
+          "height": 45,
+          "pixel_count": 2790,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.353046594982079
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_22",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 72,
+          "height": 64,
+          "pixel_count": 4608,
+          "minimum": 5,
+          "maximum": 65534,
+          "mean": 32807.524522569445
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 9216
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 72,
+          "height": 64,
+          "pixel_count": 4608,
+          "minimum": 5,
+          "maximum": 65534,
+          "mean": 32807.524522569445
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 72,
+          "height": 64,
+          "pixel_count": 4608,
+          "minimum": 5,
+          "maximum": 65534,
+          "mean": 32807.524522569445
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_23",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 5,
+          "height": 61,
+          "pixel_count": 305,
+          "minimum": 0,
+          "maximum": 254,
+          "mean": 130.81639344262294
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 610
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 5,
+          "height": 61,
+          "pixel_count": 305,
+          "minimum": 0,
+          "maximum": 254,
+          "mean": 130.81639344262294
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 5,
+          "height": 61,
+          "pixel_count": 305,
+          "minimum": 0,
+          "maximum": 254,
+          "mean": 130.81639344262294
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_24",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 45,
+          "height": 53,
+          "pixel_count": 2385,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.5039832285115304
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 4770
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 45,
+          "height": 53,
+          "pixel_count": 2385,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.5039832285115304
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 45,
+          "height": 53,
+          "pixel_count": 2385,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.5039832285115304
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_25",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 66,
+          "height": 69,
+          "pixel_count": 4554,
+          "minimum": 18,
+          "maximum": 65518,
+          "mean": 33125.55028546333
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 9108
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 66,
+          "height": 69,
+          "pixel_count": 4554,
+          "minimum": 18,
+          "maximum": 65518,
+          "mean": 33125.55028546333
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 66,
+          "height": 69,
+          "pixel_count": 4554,
+          "minimum": 18,
+          "maximum": 65518,
+          "mean": 33125.55028546333
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_26",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 36,
+          "height": 63,
+          "pixel_count": 2268,
+          "minimum": 3,
+          "maximum": 4095,
+          "mean": 2021.834656084656
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 4536
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 36,
+          "height": 63,
+          "pixel_count": 2268,
+          "minimum": 3,
+          "maximum": 4095,
+          "mean": 2021.834656084656
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 36,
+          "height": 63,
+          "pixel_count": 2268,
+          "minimum": 3,
+          "maximum": 4095,
+          "mean": 2021.834656084656
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_27",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 30,
+          "height": 69,
+          "pixel_count": 2070,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.332850241545893
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 4140
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 30,
+          "height": 69,
+          "pixel_count": 2070,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.332850241545893
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 30,
+          "height": 69,
+          "pixel_count": 2070,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.332850241545893
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_28",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 64,
+          "height": 64,
+          "pixel_count": 4096,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.114501953125
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 8192
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 64,
+          "height": 64,
+          "pixel_count": 4096,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.114501953125
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 64,
+          "height": 64,
+          "pixel_count": 4096,
+          "minimum": 0,
+          "maximum": 255,
+          "mean": 127.114501953125
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_29",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 59,
+          "height": 31,
+          "pixel_count": 1829,
+          "minimum": 0,
+          "maximum": 4094,
+          "mean": 2104.1776927282667
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 3658
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 59,
+          "height": 31,
+          "pixel_count": 1829,
+          "minimum": 0,
+          "maximum": 4094,
+          "mean": 2104.1776927282667
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 59,
+          "height": 31,
+          "pixel_count": 1829,
+          "minimum": 0,
+          "maximum": 4094,
+          "mean": 2104.1776927282667
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_30",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 10,
+          "height": 71,
+          "pixel_count": 710,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.67887323943662
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 1420
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 10,
+          "height": 71,
+          "pixel_count": 710,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.67887323943662
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 10,
+          "height": 71,
+          "pixel_count": 710,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.67887323943662
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_31",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 15,
+          "height": 5,
+          "pixel_count": 75,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 7.786666666666667
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 150
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 15,
+          "height": 5,
+          "pixel_count": 75,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 7.786666666666667
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 15,
+          "height": 5,
+          "pixel_count": 75,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 7.786666666666667
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_32",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 45,
+          "height": 32,
+          "pixel_count": 1440,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.5131944444444444
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 2880
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 45,
+          "height": 32,
+          "pixel_count": 1440,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.5131944444444444
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 45,
+          "height": 32,
+          "pixel_count": 1440,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.5131944444444444
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_33",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 5,
+          "height": 67,
+          "pixel_count": 335,
+          "minimum": 122,
+          "maximum": 64695,
+          "mean": 30224.080597014927
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 670
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 5,
+          "height": 67,
+          "pixel_count": 335,
+          "minimum": 122,
+          "maximum": 64695,
+          "mean": 30224.080597014927
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 5,
+          "height": 67,
+          "pixel_count": 335,
+          "minimum": 122,
+          "maximum": 64695,
+          "mean": 30224.080597014927
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_34",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 48,
+          "height": 36,
+          "pixel_count": 1728,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.49363425925925924
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 3456
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 48,
+          "height": 36,
+          "pixel_count": 1728,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.49363425925925924
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 48,
+          "height": 36,
+          "pixel_count": 1728,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.49363425925925924
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_35",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 97,
+          "height": 41,
+          "pixel_count": 3977,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.401307518229821
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 7954
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 97,
+          "height": 41,
+          "pixel_count": 3977,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.401307518229821
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 97,
+          "height": 41,
+          "pixel_count": 3977,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.401307518229821
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_36",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 90,
+          "height": 57,
+          "pixel_count": 5130,
+          "minimum": 0,
+          "maximum": 65527,
+          "mean": 32387.173684210527
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 10260
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 90,
+          "height": 57,
+          "pixel_count": 5130,
+          "minimum": 0,
+          "maximum": 65527,
+          "mean": 32387.173684210527
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 90,
+          "height": 57,
+          "pixel_count": 5130,
+          "minimum": 0,
+          "maximum": 65527,
+          "mean": 32387.173684210527
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_37",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 93,
+          "height": 56,
+          "pixel_count": 5208,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.49980798771121354
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 10416
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 93,
+          "height": 56,
+          "pixel_count": 5208,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.49980798771121354
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 93,
+          "height": 56,
+          "pixel_count": 5208,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.49980798771121354
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_38",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 9,
+          "height": 37,
+          "pixel_count": 333,
+          "minimum": 14,
+          "maximum": 4085,
+          "mean": 2098.7897897897897
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 666
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 9,
+          "height": 37,
+          "pixel_count": 333,
+          "minimum": 14,
+          "maximum": 4085,
+          "mean": 2098.7897897897897
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 9,
+          "height": 37,
+          "pixel_count": 333,
+          "minimum": 14,
+          "maximum": 4085,
+          "mean": 2098.7897897897897
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_39",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 85,
+          "height": 2,
+          "pixel_count": 170,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 9
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 340
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 85,
+          "height": 2,
+          "pixel_count": 170,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 9
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 85,
+          "height": 2,
+          "pixel_count": 170,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 9
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_40",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 13,
+          "height": 20,
+          "pixel_count": 260,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.823076923076924
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 520
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 13,
+          "height": 20,
+          "pixel_count": 260,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.823076923076924
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 13,
+          "height": 20,
+          "pixel_count": 260,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.823076923076924
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_41",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 71,
+          "height": 74,
+          "pixel_count": 5254,
+          "minimum": 11,
+          "maximum": 65535,
+          "mean": 32725.616673011038
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 10508
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 71,
+          "height": 74,
+          "pixel_count": 5254,
+          "minimum": 11,
+          "maximum": 65535,
+          "mean": 32725.616673011038
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 71,
+          "height": 74,
+          "pixel_count": 5254,
+          "minimum": 11,
+          "maximum": 65535,
+          "mean": 32725.616673011038
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_42",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 22,
+          "height": 35,
+          "pixel_count": 770,
+          "minimum": 6,
+          "maximum": 4090,
+          "mean": 2005.877922077922
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 1540
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 22,
+          "height": 35,
+          "pixel_count": 770,
+          "minimum": 6,
+          "maximum": 4090,
+          "mean": 2005.877922077922
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 22,
+          "height": 35,
+          "pixel_count": 770,
+          "minimum": 6,
+          "maximum": 4090,
+          "mean": 2005.877922077922
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_43",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 34,
+          "height": 24,
+          "pixel_count": 816,
+          "minimum": 9,
+          "maximum": 4088,
+          "mean": 2063.606617647059
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 1632
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 34,
+          "height": 24,
+          "pixel_count": 816,
+          "minimum": 9,
+          "maximum": 4088,
+          "mean": 2063.606617647059
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 34,
+          "height": 24,
+          "pixel_count": 816,
+          "minimum": 9,
+          "maximum": 4088,
+          "mean": 2063.606617647059
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_44",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 54,
+          "height": 68,
+          "pixel_count": 3672,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.568899782135077
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 7344
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 54,
+          "height": 68,
+          "pixel_count": 3672,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.568899782135077
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 54,
+          "height": 68,
+          "pixel_count": 3672,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.568899782135077
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_45",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 32,
+          "height": 7,
+          "pixel_count": 224,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.799107142857142
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 448
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 32,
+          "height": 7,
+          "pixel_count": 224,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.799107142857142
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 32,
+          "height": 7,
+          "pixel_count": 224,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.799107142857142
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_46",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 30,
+          "height": 77,
+          "pixel_count": 2310,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.5099567099567099
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 4620
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 30,
+          "height": 77,
+          "pixel_count": 2310,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.5099567099567099
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 30,
+          "height": 77,
+          "pixel_count": 2310,
+          "minimum": 0,
+          "maximum": 1,
+          "mean": 0.5099567099567099
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  },
+  {
+    "fixture": "holdout_47",
+    "status": "PASS",
+    "results": [
+      {
+        "variant": "copied_buffer",
+        "statistics": {
+          "width": 28,
+          "height": 31,
+          "pixel_count": 868,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.7073732718894
+        },
+        "temporary_buffer_allocations": 1,
+        "temporary_buffer_peak_bytes": 1736
+      },
+      {
+        "variant": "row_reductions",
+        "statistics": {
+          "width": 28,
+          "height": 31,
+          "pixel_count": 868,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.7073732718894
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      },
+      {
+        "variant": "fused_pass",
+        "statistics": {
+          "width": 28,
+          "height": 31,
+          "pixel_count": 868,
+          "minimum": 0,
+          "maximum": 17,
+          "mean": 8.7073732718894
+        },
+        "temporary_buffer_allocations": 0,
+        "temporary_buffer_peak_bytes": 0
+      }
+    ]
+  }
+]

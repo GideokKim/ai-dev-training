@@ -1,0 +1,237 @@
+{
+  "experiment_id": "EXP-CPP-STATS-001",
+  "contract_checks": "PASS 20 contract checks",
+  "sanitizers": "PASS 20 contract checks",
+  "oracle_fixtures": 56,
+  "oracle_candidate_results": 168,
+  "raw_timing_samples": 945,
+  "main_input_matches_python_sha256": true,
+  "demo_working_tree_unchanged": true,
+  "results": [
+    {
+      "workload": "main_1024x768",
+      "variant": "copied_buffer",
+      "samples": 63,
+      "median_us": 1215.6298828125,
+      "min_us": 1134.960609375,
+      "max_us": 1483.372390625,
+      "session_medians_us": [
+        1479.31478125,
+        1214.169921875,
+        1214.0852890625
+      ],
+      "temporary_buffer_allocations": 1,
+      "temporary_buffer_peak_bytes": 1572864
+    },
+    {
+      "workload": "main_1024x768",
+      "variant": "row_reductions",
+      "samples": 63,
+      "median_us": 1138.1500625,
+      "min_us": 910.0670546875,
+      "max_us": 1165.4381484375,
+      "session_medians_us": [
+        1138.1500625,
+        1137.1888046875,
+        1138.8606796875
+      ],
+      "temporary_buffer_allocations": 0,
+      "temporary_buffer_peak_bytes": 0
+    },
+    {
+      "workload": "main_1024x768",
+      "variant": "fused_pass",
+      "samples": 63,
+      "median_us": 70.8815078125,
+      "min_us": 69.6796875,
+      "max_us": 71.611328125,
+      "session_medians_us": [
+        70.56021875,
+        70.9420546875,
+        71.0859375
+      ],
+      "temporary_buffer_allocations": 0,
+      "temporary_buffer_peak_bytes": 0
+    },
+    {
+      "workload": "small_64x48",
+      "variant": "copied_buffer",
+      "samples": 63,
+      "median_us": 4.828862487792969,
+      "min_us": 3.8939641723632814,
+      "max_us": 5.852719604492187,
+      "session_medians_us": [
+        4.822703063964844,
+        4.84161376953125,
+        4.830596923828125
+      ],
+      "temporary_buffer_allocations": 1,
+      "temporary_buffer_peak_bytes": 6144
+    },
+    {
+      "workload": "small_64x48",
+      "variant": "row_reductions",
+      "samples": 63,
+      "median_us": 3.779825866699219,
+      "min_us": 3.3813680419921877,
+      "max_us": 4.231053649902344,
+      "session_medians_us": [
+        3.76838427734375,
+        3.788480163574219,
+        3.800882995605469
+      ],
+      "temporary_buffer_allocations": 0,
+      "temporary_buffer_peak_bytes": 0
+    },
+    {
+      "workload": "small_64x48",
+      "variant": "fused_pass",
+      "samples": 63,
+      "median_us": 0.4469578857421875,
+      "min_us": 0.4438374633789062,
+      "max_us": 0.45601141357421876,
+      "session_medians_us": [
+        0.44614410400390625,
+        0.447148681640625,
+        0.4468358154296875
+      ],
+      "temporary_buffer_allocations": 0,
+      "temporary_buffer_peak_bytes": 0
+    },
+    {
+      "workload": "large_2048x1536",
+      "variant": "copied_buffer",
+      "samples": 63,
+      "median_us": 5491.81903125,
+      "min_us": 4814.95053125,
+      "max_us": 5949.109375,
+      "session_medians_us": [
+        5918.734375,
+        5578.6419375,
+        4935.49478125
+      ],
+      "temporary_buffer_allocations": 1,
+      "temporary_buffer_peak_bytes": 6291456
+    },
+    {
+      "workload": "large_2048x1536",
+      "variant": "row_reductions",
+      "samples": 63,
+      "median_us": 4621.5325625,
+      "min_us": 3748.34634375,
+      "max_us": 4872.94403125,
+      "session_medians_us": [
+        4593.51171875,
+        4672.62890625,
+        4626.28125
+      ],
+      "temporary_buffer_allocations": 0,
+      "temporary_buffer_peak_bytes": 0
+    },
+    {
+      "workload": "large_2048x1536",
+      "variant": "fused_pass",
+      "samples": 63,
+      "median_us": 279.09246875,
+      "min_us": 257.227875,
+      "max_us": 288.9479375,
+      "session_medians_us": [
+        279.446625,
+        279.0234375,
+        278.5611875
+      ],
+      "temporary_buffer_allocations": 0,
+      "temporary_buffer_peak_bytes": 0
+    },
+    {
+      "workload": "padded_1024x768",
+      "variant": "copied_buffer",
+      "samples": 63,
+      "median_us": 1239.2291640625,
+      "min_us": 1128.76009375,
+      "max_us": 1485.2529296875,
+      "session_medians_us": [
+        1443.092125,
+        1217.9892578125,
+        1215.67415625
+      ],
+      "temporary_buffer_allocations": 1,
+      "temporary_buffer_peak_bytes": 1572864
+    },
+    {
+      "workload": "padded_1024x768",
+      "variant": "row_reductions",
+      "samples": 63,
+      "median_us": 1136.0006484375,
+      "min_us": 977.4873046875,
+      "max_us": 1272.5094453125,
+      "session_medians_us": [
+        1140.5859375,
+        1135.58365625,
+        1135.673828125
+      ],
+      "temporary_buffer_allocations": 0,
+      "temporary_buffer_peak_bytes": 0
+    },
+    {
+      "workload": "padded_1024x768",
+      "variant": "fused_pass",
+      "samples": 63,
+      "median_us": 70.9947890625,
+      "min_us": 61.9173125,
+      "max_us": 75.3818359375,
+      "session_medians_us": [
+        71.042640625,
+        71.2044296875,
+        70.5442734375
+      ],
+      "temporary_buffer_allocations": 0,
+      "temporary_buffer_peak_bytes": 0
+    },
+    {
+      "workload": "wide16_1024x768",
+      "variant": "copied_buffer",
+      "samples": 63,
+      "median_us": 1213.8076171875,
+      "min_us": 1179.836265625,
+      "max_us": 1649.8675078125,
+      "session_medians_us": [
+        1216.1435546875,
+        1213.5374296875,
+        1212.8271484375
+      ],
+      "temporary_buffer_allocations": 1,
+      "temporary_buffer_peak_bytes": 1572864
+    },
+    {
+      "workload": "wide16_1024x768",
+      "variant": "row_reductions",
+      "samples": 63,
+      "median_us": 888.25228125,
+      "min_us": 853.81640625,
+      "max_us": 969.27278125,
+      "session_medians_us": [
+        889.21940625,
+        888.5302734375,
+        887.53125
+      ],
+      "temporary_buffer_allocations": 0,
+      "temporary_buffer_peak_bytes": 0
+    },
+    {
+      "workload": "wide16_1024x768",
+      "variant": "fused_pass",
+      "samples": 63,
+      "median_us": 70.6865234375,
+      "min_us": 69.6158828125,
+      "max_us": 71.4573515625,
+      "session_medians_us": [
+        70.5341796875,
+        70.9788359375,
+        70.5348359375
+      ],
+      "temporary_buffer_allocations": 0,
+      "temporary_buffer_peak_bytes": 0
+    }
+  ]
+}
