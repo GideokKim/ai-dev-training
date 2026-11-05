@@ -1,5 +1,29 @@
 # STEP 08 — Visual Specification
 
+## 현재 제작 기준 — DEC-0188 (2026-11-05)
+
+전체 **109장·367분(6시간7분)**. 기준판316419a의 S27(강의2+성찰1분)과 S58(강의2분)을 삭제하고5분을 재배분하지 않는다. 남은 장의 시간/Mode·Beat/Section·근거 범위는 유지한다.
+
+| ACT | Current slides | Count | Minutes |
+|---|---|---:|---:|
+| ACT 0 | S01–S14 | 14 | 42 |
+| ACT 1 | S15–S36 | 22 | 61 |
+| ACT 2 | S37–S57 | 21 | 88 |
+| ACT 3 | S58–S75 | 18 | 64 |
+| ACT 4 | S76–S94 | 19 | 71 |
+| ACT 5 | S95–S109 | 15 | 41 |
+| Total | S01–S109 | 109 | 367 |
+
+Mode: Lecture166 / Demo44 / Case95 / Reflection16 / Transition21 / Q&A25분. Native 표 S53/S79/S83, C++ 차트 S67.19필드 Notes·12Templates/28Variants 구조를 유지한다.
+
+현재 S61은 REQUEST·CONTEXT·WORKFLOW를 같은 작업에 적용하는 도식이다. AGENTS.md 위치/결합 팁은 S55–S56의두 장(1/2·2/2)이며 이후 S57의기존 Context→Workflow 전환으로 이어진다. Source는 기존111-ID 단계로 유지하고 마지막 경계에서 한 번만 번호를 변환한다. [삭제·수정 범위](ANNOTATION_REVISION_109.md)와 [전체 번호 대응](SLIDE_ID_MIGRATION_109_DEC0188.md)을 따른다. Windows·교육장·제품/계정·실측 리허설 Gate와 Demo Repository·실험·Sites·묶음은 변경하지 않는다.
+
+## 이전 판본의 설계·근거 기록
+
+<details>
+<summary>Original content; historical slide numbers and verification dates retained</summary>
+
+
 ## 요청 입력창 공통 외형 — DEC-0179
 
 기존 Mac 스타일(밝은 본문, 회색 제목 막대, 좌측 세 색상 표시, 둥근 테두리)을 직접 입력할 요청에 적용한다. 표준43px 및 좁은 영역30/36px의 제목 막대를 허용한다. 기존 Template/Variant 안의 공통 외형이며 종류를 추가하지 않는다. 지침 문서·코드·로그·응답·결과는 입력창과 구별한다. [111장 전수 조사·37장 수정 목록](MAC_PROMPT_STYLE_AUDIT.md)을 현재 적용 범위로 사용한다. 원문·근거·시간·기획 흐름은 유지한다.
@@ -825,3 +849,5 @@ application badge and M footer. Keep T03-A / existing variant count.
 
 Keep all slide times/modes and120slides/417minutes. Other templates and
 slides keep their current design. Windows/room/rehearsal remain unverified.
+
+</details>

@@ -52,12 +52,20 @@ keep them stable when this document is reordered and never reuse a retired ID.
 - Category: Training Identity
 - Strength: HARD
 - Rule: This is developer training about ChatGPT and Codex in AI-Native
-  Development. Use the user-approved111slides/372minutes under DEC-0177,
-  within the720-minute ceiling. ACT allocations are14/23/22/18/19/15slides
-  and42/64/90/64/71/41minutes. Remove former S96 and its Reflection2,
-  Q&A7 and Transition2 minutes without redistribution. Preserve the
-  remaining evidence boundaries, six ACTs, tips and current S101 knowledge
-  lesson. Former S97-S112 move down one.
+  Development. Use the user-approved109slides/367minutes under DEC-0188,
+  within the720-minute ceiling. ACT allocations are14/22/21/18/19/15slides
+  and42/61/88/64/71/41minutes. Remove former111-ID S27 and S58 without
+  redistribution. Preserve every retained slide allocation, evidence limit,
+  beat and section. The scoped-instruction tip is now two pages; current
+  source-to-delivery mapping is in SLIDE_ID_MIGRATION_109_DEC0188.md.
+- Historical DEC-0177 Rule (superseded by explicit deletion approval):
+  - Rule: This is developer training about ChatGPT and Codex in AI-Native
+    Development. Use the user-approved111slides/372minutes under DEC-0177,
+    within the720-minute ceiling. ACT allocations are14/23/22/18/19/15slides
+    and42/64/90/64/71/41minutes. Remove former S96 and its Reflection2,
+    Q&A7 and Transition2 minutes without redistribution. Preserve the
+    remaining evidence boundaries, six ACTs, tips and current S101 knowledge
+    lesson. Former S97-S112 move down one.
 - Historical DEC-0168 Rule:112slides/383minutes; ACT4 20slides/82minutes.
 - Historical DEC-0138/0144 active text, superseded by DEC-0160/0168:
   - Rule: This is a developer training about ChatGPT and Codex in AI-Native

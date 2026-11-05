@@ -1,5 +1,29 @@
 # STEP 08 — Speaker Notes Architecture
 
+## 현재 제작 기준 — DEC-0188 (2026-11-05)
+
+전체 **109장·367분(6시간7분)**. 기준판316419a의 S27(강의2+성찰1분)과 S58(강의2분)을 삭제하고5분을 재배분하지 않는다. 남은 장의 시간/Mode·Beat/Section·근거 범위는 유지한다.
+
+| ACT | Current slides | Count | Minutes |
+|---|---|---:|---:|
+| ACT 0 | S01–S14 | 14 | 42 |
+| ACT 1 | S15–S36 | 22 | 61 |
+| ACT 2 | S37–S57 | 21 | 88 |
+| ACT 3 | S58–S75 | 18 | 64 |
+| ACT 4 | S76–S94 | 19 | 71 |
+| ACT 5 | S95–S109 | 15 | 41 |
+| Total | S01–S109 | 109 | 367 |
+
+Mode: Lecture166 / Demo44 / Case95 / Reflection16 / Transition21 / Q&A25분. Native 표 S53/S79/S83, C++ 차트 S67.19필드 Notes·12Templates/28Variants 구조를 유지한다.
+
+현재 S61은 REQUEST·CONTEXT·WORKFLOW를 같은 작업에 적용하는 도식이다. AGENTS.md 위치/결합 팁은 S55–S56의두 장(1/2·2/2)이며 이후 S57의기존 Context→Workflow 전환으로 이어진다. Source는 기존111-ID 단계로 유지하고 마지막 경계에서 한 번만 번호를 변환한다. [삭제·수정 범위](ANNOTATION_REVISION_109.md)와 [전체 번호 대응](SLIDE_ID_MIGRATION_109_DEC0188.md)을 따른다. Windows·교육장·제품/계정·실측 리허설 Gate와 Demo Repository·실험·Sites·묶음은 변경하지 않는다.
+
+## 이전 판본의 설계·근거 기록
+
+<details>
+<summary>Original content; historical slide numbers and verification dates retained</summary>
+
+
 ## 현재 번호 안내 — DEC-0177
 
 현재111장·372분이다. 이전 S96 중복 성찰 장과11분을 제외하고 이전 S97–S112는 현재 S96–S111로 당긴다. Section·Story Beat·Demo·Trial·State·Claim ID와 남은 장의 배정·근거 경계는 유지한다. [현행 번호·시간·수정 범위](ACT45_ANNOTATION_REVISION.md)와 [공식 Slide Map](SLIDE_MAP.md)을 우선하며 아래 과거 판본 번호는 당시 출처로 보존한다.
@@ -911,3 +935,5 @@ S14은 Case7분을 유지한다. 요청 입력창과 우측 세 질문을 보존
 
 19개 Notes 필드와 전체 ACT/Mode/Section 시간은 변하지 않는다. 가상의 시간선을
 실제 실행·Subagent·확률로 설명하거나 토큰/시간의 지수 증가를 측정 사실로 표현하지 않는다.
+
+</details>

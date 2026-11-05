@@ -1,5 +1,12 @@
 # ACT 0 — Speaker Notes
 
+DEC-0188 · 14 slides / 42 minutes · current S01–S14.19fields. Current render/embedded-Notes evidence: production/evaluation/ANNOTATION_REVISION_109.md.
+
+<details>
+<summary>Earlier introductory metadata; source citations retain their editions</summary>
+
+# ACT 0 — Speaker Notes
+
 DEC-0168 · 112장·383분. ACT 0 · S01–S14 · 14장 · 42분.
 
 <details>
@@ -145,6 +152,9 @@ Historical continuity revision: DEC-0032 (2026-10-20), 당시 80장판. Historic
 </details>
 
 </details>
+
+</details>
+
 
 </details>
 
@@ -886,6 +896,8 @@ Contextual cue — 저장소의 모듈·테스트·명세 조사에만 연결한
 
 **Demo Operation:**
 기존 삽화·Codex UI·자료 이름·색·배치를 보존하고 S11에서 수집 주체만 Agent로 바뀐 것을 비교한다. 실제 근거는 Notes의 과거 CLI 조사이며 새 Desktop 캡처나 현재 계정 검증이 아니다. 현재 Live/HYBRID를 활성화하지 않는다.
+
+DEC-0188: 자료 묶음에서 Agent로 향하는 연결을 같은 굵기의 단방향 화살표로 정리했다. 하단 CLI 기록/화면 재구성 문구는 화면에서 제거하고 실제 과거 CLI·UI 재구성·권한 한계는 Evidence / Source와 Claim Boundary에 유지한다.
 
 **Audience Interaction:**
 한 장의 질문을 따라 관찰·해석하게 한다. 응답·실습·새 실행·공개 제출을 요구하지 않는다.

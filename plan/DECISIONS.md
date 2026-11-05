@@ -15935,3 +15935,26 @@ Keep 111 slides/372 minutes, every ID, title, allocation, beat, template
 and evidence limit. Align Notes and plans, render Full and ACT0, and
 use the existing commit/push policy. Change no Demo repository, Trial,
 experiment, current product environment, Site or presenter bundle.
+
+# DEC-0188 — Simplify selected visuals and remove two redundant slides
+
+Status: ACCEPTED by the user's ten presentation annotations.
+Date: 2026-11-05.
+
+Delete former111-ID S27 and S58. Remove their five minutes rather than
+redistributing or absorbing the retired comparison and retrieval lesson.
+Deliver 109 slides/367 minutes; retain every surviving allocation, beat,
+section and evidence boundary. Shift former S28-S57 down one and former
+S59-S111 down two. Keep historical source editions and evidence intact.
+
+Redraw former S63 as parallel Request, Context and Workflow inputs to
+one task. Correct S12's collection arrow and S18's selected-path arrow,
+and remove the selected footers on S12/S16/S18 plus S12's UI caption.
+Preserve source and illustrative/observed boundaries in Notes.
+
+Reduce the AGENTS.md tip series from three pages to two, update its
+1/2 and 2/2 labels, its closing transition and all active index entries.
+Align the complete slide map, Notes, templates, production references,
+preview names and delivery hashes. Keep Trial/State/Claim identifiers
+and Demo repository content unchanged. Render Full and all six ACTs,
+then follow the existing commit/push policy without force pushing.

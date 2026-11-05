@@ -1,5 +1,13 @@
 # DEMO-02 — Reusable Project Context
 
+## 현재 번호·경로 — DEC-0188
+
+109장/367분. 현재 번호는 [전체 대응](../../plan/SLIDE_ID_MIGRATION_109_DEC0188.md), 장별 배정은 [Slide Map](../../plan/SLIDE_MAP.md), 검증된 정적 경로/해시는 [Fallback manifest](FALLBACK_MANIFEST.md)를 따른다. 이전111판본의 S27/S58은 삭제했고 남은 배정·Trial/State 근거와 Live 미활성 조건은 유지한다.
+
+<details>
+<summary>이전 판본 Runbook — literal 번호/명령/원자료를 보존</summary>
+
+
 ## 공통 기준의 기록과 활용 — DEC-0186
 
 S39는 세 요청의 반복을, S40은 같은 네 지침의 AGENTS.md 배치를 보여준다. 기존 원문 테스트 명령을 유지하고 한국어 의미 요약과 전체 파일 원문을 구분한다. S40에 지침을 기록했다는 사실과 S41에서 실제 참고·검증한 관찰은 별개로 설명한다. 기록만으로 자동 준수/효율을 주장하지 않는다. S40의 기존4Demo분과 발표 정적 기본 경로를 유지한다. 이후 문서의 이전 STATE 표기/발췌는 당시 기록이며 최신 화면은 [주석 반영 기준](../../plan/CONTEXT_SKILL_ANNOTATIONS.md)을 따른다.
@@ -231,3 +239,5 @@ The outside annotation states that no test command was supplied; it is not
 a task instruction. Verification evidence was requested. Emphasize observed
 use of the AGENTS.md test instruction, preserving11/11 and4 Demo minutes.
 Do not claim guaranteed enforcement or isolated AGENTS.md causality.
+
+</details>

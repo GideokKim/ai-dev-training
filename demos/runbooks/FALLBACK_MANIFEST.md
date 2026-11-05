@@ -1,5 +1,64 @@
 # Static Fallback Manifest
 
+## Current presentation · DEC-0188
+
+Use the109-slide/367-minute sequence. Former111-ID S27 and S58 are retired; every retained slide maps once through the current crosswalk. Current S55-S56 are the two scoped-instruction tips. S61 shows Request/Context/Workflow applied to one task. Preserve original observed, reconstructed and conceptual evidence boundaries in Notes. Deleting screen captions does not establish a new product execution or measurement. Full and all six ACTs have218 local renders and matching Notes. Windows, room, product/account and timed rehearsal remain UNVERIFIED.
+
+- `production/AI_Dev_Training_Full.pptx` SHA-256:`a153e827f0dd1e25c89a4a12e514d9c2793603574aa7e8607429cc2de62ced2c`.
+- `production/notes/FULL_SPEAKER_NOTES.md` SHA-256:`c1191d473053ad07610adda5444a86fecca0bfafa7aae64a1c75f698fc53eeeb`.
+- `production/preview/full/montage.png` SHA-256:`41e9b689fafd013f601ad8eb0031753dd5bf109a106e4c2e905bd5d415bce153`.
+
+| Slide | Classification | Path | Dimensions | SHA-256 |
+|---|---|---|---|---|
+| S06 | RETAINED_DEMO_STATIC | `production/preview/full/S06.png` | 1920×1080 | `56ba85d53d60fa4dd9f5bb825e066a24f682a7305868e3bd215ca27cc202f5c0` |
+| S07 | RETAINED_DEMO_STATIC | `production/preview/full/S07.png` | 1920×1080 | `b9cb0b1bd6a9e8561e3796337e35ac7020814fd6134d38f02770648227814c95` |
+| S08 | RETAINED_DEMO_STATIC | `production/preview/full/S08.png` | 1920×1080 | `425ba76b0c5dd1f8a1fb9bb5379f25b16d93b51e29b15f9e6a702266458fd4b1` |
+| S09 | RETAINED_DEMO_STATIC | `production/preview/full/S09.png` | 1920×1080 | `de09de22bd56d564d5a8150b039e1bcf5bef0ab84c7fcdc51ab7c760d8c59a4f` |
+| S10 | RETAINED_DEMO_STATIC | `production/preview/full/S10.png` | 1920×1080 | `142e724e29c07355d6b0b0080fd63453fea29f19a3a6579773247b59bdb39673` |
+| S23 | RETAINED_DEMO_STATIC | `production/preview/full/S23.png` | 1920×1080 | `2006268ff4d96da09bba0d8ed99b8174423fccf4f1ce825888cba100679961a2` |
+| S24 | RETAINED_DEMO_STATIC | `production/preview/full/S24.png` | 1920×1080 | `eee791361290ec1374cc4456ce66ff3bf7a7b27905c9e912b20838a0091d9e1f` |
+| S38 | RETAINED_DEMO_STATIC | `production/preview/full/S38.png` | 1920×1080 | `4534798f5f522aca199adb64310953620100c91d506e4331c8c0dcc9f14be1f5` |
+| S39 | RETAINED_DEMO_STATIC | `production/preview/full/S39.png` | 1920×1080 | `895b7d90581f4a911c0f2b75a1f785533634430e24ece111f58abd65dcf3ee01` |
+| S40 | USER_PROVIDED_DEMO_RESULT | `production/preview/full/S40.png` | 1920×1080 | `38ab755c0fb3d76ce68979392dd0f738532c7a2ca6cd34b4998173aec6962f12` |
+| S43 | RETAINED_DEMO_STATIC | `production/preview/full/S43.png` | 1920×1080 | `54507634a856791c87b5652babc5bff359837cb9275511295d7d54ed65201aee` |
+| S48 | RETAINED_DEMO_STATIC | `production/preview/full/S48.png` | 1920×1080 | `f05c4cefa6428a5d117d15ffc36dcfe66ab17f42d51112ea3b034c5ef7847271` |
+| S51 | RETAINED_DEMO_STATIC | `production/preview/full/S51.png` | 1920×1080 | `4a544a55c310e684e605748bb0852f61a6076ddb18b9bf9709f8ed8a2c7160b8` |
+| S52 | RETAINED_DEMO_STATIC | `production/preview/full/S52.png` | 1920×1080 | `46a2d8720c5044945f0aea150d877e4498ff991bb0ded3bf454bd1dda2cc4f65` |
+| S53 | RETAINED_DEMO_STATIC | `production/preview/full/S53.png` | 1920×1080 | `1ebff4d41cec928f536016b872ba8543bbec0bec3c3613897f6268998ed06319` |
+| S63 | RETAINED_DEMO_STATIC | `production/preview/full/S63.png` | 1920×1080 | `4341010e491436ee74d907a73761f624a6f129f49455a85ed425ed704b227d47` |
+| S64 | RETAINED_DEMO_STATIC | `production/preview/full/S64.png` | 1920×1080 | `00b34b5ba1f7d1a8b1610d0090667bb8da5ee145678ada6fecb0827ef71ed59c` |
+| S68 | RETAINED_DEMO_STATIC | `production/preview/full/S68.png` | 1920×1080 | `7072e5b559368930ec79a68c9906f53bb51cbe6390417b533f89af246775e9f9` |
+| S70 | RETAINED_DEMO_STATIC | `production/preview/full/S70.png` | 1920×1080 | `2053ed31295774e0c680ea86d27c7815942c03d8703134f8a15c48fa151bb1ae` |
+| S71 | RETAINED_DEMO_STATIC | `production/preview/full/S71.png` | 1920×1080 | `0dfcd7e49523bf40e8e1789d1ce05c4b10bec8fb7d31bc5d4f9fb58d6f2c1387` |
+| S72 | RETAINED_DEMO_STATIC | `production/preview/full/S72.png` | 1920×1080 | `bbf3c9524006e779f2c91dee5accccb420fff3cd0ae9b9391da24577562331a9` |
+| S77 | CONCEPTUAL_MANUAL_HANDOFF | `production/preview/full/S77.png` | 1920×1080 | `065a415a1989e20050525afd3f628f561824b75e77056968b6920e2c93428257` |
+| S78 | TEACHING_MAP | `production/preview/full/S78.png` | 1920×1080 | `6de5a85f457d497b0965996969fa2ba8ee2063d0340c15a46df9c58754fa8bab` |
+| S79 | TEACHING_MODEL_COMPARISON | `production/preview/full/S79.png` | 1920×1080 | `9a3fe71899f8cacd79328b92fae5f8895e73a6d5c2d22710c3393ee38339c80b` |
+| S80 | TEACHING_MODEL_COMPONENTS | `production/preview/full/S80.png` | 1920×1080 | `cc95cf6932b3a996ee9943cfbf4cbebc4c294a945c2c83ea5783adaaf616face` |
+| S81 | TEACHING_MODEL_WORKFLOW | `production/preview/full/S81.png` | 1920×1080 | `bf5d223278469b8d75ce3a01aeef7c14f786fdb84da9bbdf44d5e29fcfe2f923` |
+| S82 | CONCEPTUAL_GITLAB_WORKFLOW | `production/preview/full/S82.png` | 1920×1080 | `38354b595dd0c516c056fa9473f6bd08a363a25f8e8eee1faaf2bb2d5967cf4e` |
+| S83 | TEACHING_TOOL_MATRIX | `production/preview/full/S83.png` | 1920×1080 | `5d5e096a9e59df45fd2b7a28c5b16f30e68e3110984d2ad2c9d31519d18f112c` |
+| S84 | CONCEPTUAL_GITLAB_PREPARATION | `production/preview/full/S84.png` | 1920×1080 | `ef80cb7c1a023e3a705b6351c178da1f6e16eff90892d6173738fb34cce1ea42` |
+| S85 | CONCEPTUAL_ISSUE_HANDOFF | `production/preview/full/S85.png` | 1920×1080 | `4102d7413088976c0c670da2b0c352e48c5c02aaace39225929f9b2cd00ef333` |
+| S86 | CONCEPTUAL_IMPLEMENTATION_TEST_LOOP | `production/preview/full/S86.png` | 1920×1080 | `8f430c5b11056683036f390e31001a67b485debcc790dc400a792a3601325cd7` |
+| S87 | CONCEPTUAL_MR_HANDOFF | `production/preview/full/S87.png` | 1920×1080 | `3c4e9ea192e1d7f974939ef3524663cd633ea28485739cc47461606440aff736` |
+| S88 | TEACHING_REVIEW_ROLES | `production/preview/full/S88.png` | 1920×1080 | `a5a55539ea4b5c90b4917f0c23d5a2d330760ff8292b4b67494e45195c0a8a03` |
+| S89 | TEACHING_STATE_HANDOFF | `production/preview/full/S89.png` | 1920×1080 | `decbf52faafece3e6cd89efe08b7fe2018fafc5784beab45a746b3a29268707b` |
+| S90 | DOCUMENTED_CODEX_MEMORY_TIP | `production/preview/full/S90.png` | 1920×1080 | `46220081c81c597b34f69127c88a34f50e424f1e02649f502f4ab197f6f1a524` |
+| S91 | TEACHING_PERMISSION_LIMITS | `production/preview/full/S91.png` | 1920×1080 | `39c5ee7739a1aeccfb9cefb72e2d186019c386c1923770bf6ea17c957e7f890a` |
+| S92 | TEACHING_STOP_AND_HANDOFF | `production/preview/full/S92.png` | 1920×1080 | `e54a45a3a8d7ee10dae39d99562637cc5872d4f4421b79bc1f87fc19091c1b15` |
+| S93 | TEACHING_HUMAN_REVIEW | `production/preview/full/S93.png` | 1920×1080 | `398c57c3f676bccb8175e19c00259f11ad51c9e750c7f1475dd68ef274ddf7a3` |
+| S94 | DOCUMENTED_CODEX_GOAL_TIP | `production/preview/full/S94.png` | 1920×1080 | `e1ebcccdb1ecfc614286f259894ab08370bbee6c8d4db0f4642343fbbb0c8262` |
+| S96 | TEACHING_SYNTHESIS | `production/preview/full/S96.png` | 1920×1080 | `aebe1cb32f4c8d151b933859718125a6b6638d88ad658d5e6feca56770013aa1` |
+| S97 | TEACHING_WORK_CONDITIONS | `production/preview/full/S97.png` | 1920×1080 | `4af07198b4cfe8e7e22830fdc25ca6078a26be5a310117d32217634814059f46` |
+| S98 | TEACHING_HUMAN_DECISION | `production/preview/full/S98.png` | 1920×1080 | `89baf8dafbbc8d84aa49656111c11363a38fd21b464dc959dcedd0dcd3882f32` |
+| S99 | CONCEPTUAL_MEMORY_ROLE | `production/preview/full/S99.png` | 1920×1080 | `9cb4d3eb6149f440f71df9f75badfaef4b8a72a712d4220593261afc7be02c81` |
+
+<details>
+<summary>Previous316419a current fallback context — historical IDs and hashes</summary>
+
+# Static Fallback Manifest
+
 ## Current presentation · DEC-0187
 
 Use S08 as a C++ semantic mapping of the test/specification/implementation relationship. Preserve the actual Python Trial, file paths and defect in Notes. The C++ file names, assertion and iterator expression are teaching examples, not new execution evidence. S09 depicts the separate temporary-folder write attempt blocked by read-only permissions; no environment recovery is claimed. Full/ACT0 have 125 local renders and matching Notes, with the other109 screens unchanged. Keep 111 slides/372 minutes and the existing 43 static fallback entries. Windows, room, product/account, C++ crop execution and timed rehearsal remain UNVERIFIED.
@@ -83,6 +142,9 @@ Additional C++ case previews (separate from the existing 43 Demo classifications
 
 - `production/preview/full/S68.png` SHA-256:`5530b56d0fb960a0333450f5510fbca72a43a8b5de90ede3b83245a6c6f22975`.
 - `production/preview/full/S69.png` SHA-256:`bf181d52013f6d326673cadf51bc8270fa06f0c161e0fbfc18fd16d95cc5f056`.
+
+
+</details>
 
 <details>
 <summary>DEC-0143</summary>

@@ -1,5 +1,13 @@
 # DEMO-05 — Task Specification and Crop Boundary
 
+## 현재 번호·경로 — DEC-0188
+
+109장/367분. 현재 번호는 [전체 대응](../../plan/SLIDE_ID_MIGRATION_109_DEC0188.md), 장별 배정은 [Slide Map](../../plan/SLIDE_MAP.md), 검증된 정적 경로/해시는 [Fallback manifest](FALLBACK_MANIFEST.md)를 따른다. 이전111판본의 S27/S58은 삭제했고 남은 배정·Trial/State 근거와 Live 미활성 조건은 유지한다.
+
+<details>
+<summary>이전 판본 Runbook — literal 번호/명령/원자료를 보존</summary>
+
+
 ## 현행 발표 자료 · DEC-0168
 
 [Slide Map](../../plan/SLIDE_MAP.md)과 [정적 파일 목록](FALLBACK_MANIFEST.md)이 현행 발표 기준이다. 전체 112장·383분 중 ACT4는 S78–S97, ACT5는 S98–S112다. S92 메모리 팁과 S97 Goal 팁은 각각 강의 2분이다.
@@ -235,3 +243,5 @@ test and call symbols are code-checked identifiers, not raw CLI excerpts.
 The initial reproduction command/output and plan utterance are unverified;
 do not invent them or reuse post-edit verification commands as reproduction.
 S18 owns the actual edit/width change; S19 owns check results.
+
+</details>

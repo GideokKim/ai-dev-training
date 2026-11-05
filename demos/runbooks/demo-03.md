@@ -1,5 +1,15 @@
 # DEMO-03 — Reusable Verification Workflow
 
+## 현재 번호·경로 — DEC-0188
+
+109장/367분. 현재 번호는 [전체 대응](../../plan/SLIDE_ID_MIGRATION_109_DEC0188.md), 장별 배정은 [Slide Map](../../plan/SLIDE_MAP.md), 검증된 정적 경로/해시는 [Fallback manifest](FALLBACK_MANIFEST.md)를 따른다. 이전111판본의 S27/S58은 삭제했고 남은 배정·Trial/State 근거와 Live 미활성 조건은 유지한다.
+
+현재 S63 목록1분→S64 명시 요청2분의3Demo분을 유지한다. S65 제작 팁 뒤 별도 C++ 비교S66/S67로 이어지고 S70에서 원래 Python 역할 판단으로 돌아온다. 새 Trial이나 제품 실행이 아니다.
+
+<details>
+<summary>이전 판본 Runbook — literal 번호/명령/원자료를 보존</summary>
+
+
 ## 현재 화면 입력과 기록 구분 — DEC-0186
 
 S65의 /skill은 “명령 입력 중” 창의 설명용 문자열이다. 정식 명령과 TRIAL-008 원래 입력은 /skills다. 오른쪽 Skill 이름·보존된 설명 잘림과 S66의 실제 명시 요청은 유지한다. 새 실행·자동완성 검증·원시 로그 교체가 아니다. S65 1분/S66 2분의 정적 기본 경로, S67 2분 제작 팁과 이후 별도 C++ 비교를 유지한다. [표시 수정](../../plan/CONTEXT_SKILL_ANNOTATIONS.md)을 따른다.
@@ -275,3 +285,5 @@ records below retain their original edition references.
 No new Trial or product execution was performed for this runbook. DEC-0070 aligns the S57/S58 support pages and current package/Notes identities. DEC-0069 remains the previous S57 comparison revision. DEC-0068 remains the S56 procedure/judgment revision. DEC-0067 remains the S55 instruction/action revision. DEC-0066 remains the S54 evidence-location revision. DEC-0062 and DEC-0038 checks remain historical. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.
+
+</details>

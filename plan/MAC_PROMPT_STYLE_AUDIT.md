@@ -1,5 +1,31 @@
 # 요청 입력창 전수 조사와 공통 Mac 스타일
 
+## 현재 제작 기준 — DEC-0188 (2026-11-05)
+
+전체 **109장·367분(6시간7분)**. 기준판316419a의 S27(강의2+성찰1분)과 S58(강의2분)을 삭제하고5분을 재배분하지 않는다. 남은 장의 시간/Mode·Beat/Section·근거 범위는 유지한다.
+
+| ACT | Current slides | Count | Minutes |
+|---|---|---:|---:|
+| ACT 0 | S01–S14 | 14 | 42 |
+| ACT 1 | S15–S36 | 22 | 61 |
+| ACT 2 | S37–S57 | 21 | 88 |
+| ACT 3 | S58–S75 | 18 | 64 |
+| ACT 4 | S76–S94 | 19 | 71 |
+| ACT 5 | S95–S109 | 15 | 41 |
+| Total | S01–S109 | 109 | 367 |
+
+Mode: Lecture166 / Demo44 / Case95 / Reflection16 / Transition21 / Q&A25분. Native 표 S53/S79/S83, C++ 차트 S67.19필드 Notes·12Templates/28Variants 구조를 유지한다.
+
+현재 S61은 REQUEST·CONTEXT·WORKFLOW를 같은 작업에 적용하는 도식이다. AGENTS.md 위치/결합 팁은 S55–S56의두 장(1/2·2/2)이며 이후 S57의기존 Context→Workflow 전환으로 이어진다. Source는 기존111-ID 단계로 유지하고 마지막 경계에서 한 번만 번호를 변환한다. [삭제·수정 범위](ANNOTATION_REVISION_109.md)와 [전체 번호 대응](SLIDE_ID_MIGRATION_109_DEC0188.md)을 따른다. Windows·교육장·제품/계정·실측 리허설 Gate와 Demo Repository·실험·Sites·묶음은 변경하지 않는다.
+
+현재 S61의 요청창은 세 입력 중 REQUEST를 나타낸다. 이전 S27/S58의 요청창은 본편에서 제외되고 나머지 요청창의 의미·형식을 유지한다. 기존 표의 번호는 아래 보존된 판본 기준이며 현재 번호는 대응표를 따른다.
+
+## 이전 판본의 설계·근거 기록
+
+<details>
+<summary>Original content; historical slide numbers and verification dates retained</summary>
+
+
 ## S65 표시 정리 — DEC-0186
 
 기존 창 위치·크기·세 색상 표시는 유지한다. 입력창 문자열은 /skill, 창 제목은 “명령 입력 중”이다. 공식 명령과 실제 과거 입력 /skills는 Notes에서 구분한다. S40의 세 작업은 분류 라벨이며 입력 프롬프트가 아니다. 전체 요청창 수·분류는 유지한다.
@@ -153,3 +179,5 @@ MODIFIED37장, ALREADY CONSISTENT4장, NO LITERAL REQUEST70장이다. NO LITERAL
 | S109 | ACT 5 | 실무 적용 팁 · 요청 작성 | NO LITERAL REQUEST | 개념·지침·응답·결과·문서·제목/찾아보기; 직접 입력 예시 없음 |
 | S110 | ACT 5 | 실무 적용 팁 · 검증과 개선 | NO LITERAL REQUEST | 개념·지침·응답·결과·문서·제목/찾아보기; 직접 입력 예시 없음 |
 | S111 | ACT 5 | Q&A와 교육 마무리 | NO LITERAL REQUEST | 개념·지침·응답·결과·문서·제목/찾아보기; 직접 입력 예시 없음 |
+
+</details>

@@ -1,5 +1,15 @@
 # DEMO-01 — Repository Exploration
 
+## 현재 번호·경로 — DEC-0188
+
+109장/367분. 현재 번호는 [전체 대응](../../plan/SLIDE_ID_MIGRATION_109_DEC0188.md), 장별 배정은 [Slide Map](../../plan/SLIDE_MAP.md), 검증된 정적 경로/해시는 [Fallback manifest](FALLBACK_MANIFEST.md)를 따른다. 이전111판본의 S27/S58은 삭제했고 남은 배정·Trial/State 근거와 Live 미활성 조건은 유지한다.
+
+S12은 자료→Agent 단방향 연결을 쓰며 화면에서 지운 CLI/UI 보조 문구의 근거는 Notes에 유지한다. 원래 Python 조사와 C++ 의미 대응·별도 권한 제한의 범위는 그대로다.
+
+<details>
+<summary>이전 판본 Runbook — literal 번호/명령/원자료를 보존</summary>
+
+
 ## C++ 대응 설명·별도 환경 오류 — DEC-0187
 
 S07의 폭2/폭3에서 S08의 C++ 테스트·명세·구현 역할 대응으로 이동한다. S08은 C++ Crop을 실행한 기록이 아니며 실제 원래 Python 파일/결함/호출 근거를 Notes에 보존한다. S07/S08의 기존8Demo분(각4분)을 유지하고 새 C++ 실행·GoogleTest PASS/FAIL을 만들지 않는다. S09 Case3분의 파일/폴더/권한 경계는 별도 읽기 전용 환경에서 임시 폴더 생성이 막힌 원래 관찰을 설명한다. 오류3건·권한 미해결 사실은 Notes를 따르고 S10의 로그+권한 정보로 연결한다. [최신 화면/범위](../../plan/ACT0_CPP_ENVIRONMENT_REVISION.md)를 따른다.
@@ -255,3 +265,5 @@ records below retain their original edition references.
 No new Trial or product execution was performed for this runbook. Current migration aligns the static plan; the DEC-0038 local file/path/hash checks are complete. Earlier static checks remain historical evidence, and the current READY scope covers local static files only. The recorded source remains the authority for historical dates, exact prompts, and environment details; unspecified fields are not reconstructed here.
 
 Windows PowerPoint, target account/product behavior, timed instructor operation, and room projection remain UNVERIFIED.
+
+</details>

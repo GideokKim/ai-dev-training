@@ -6,6 +6,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
 import { createHash } from 'node:crypto';
 import * as H from './helpers.mjs';
+import {CURRENT_SLIDE_COUNT,beforeAnnotationRemoval,afterAnnotationRemoval,applyAnnotationRevision,requestContextWorkflowFactory} from './annotation-revision-109.mjs';
 import {contextInstructionFactory,applyContextSkillAnnotations} from './context-skill-annotations.mjs';
 import {loadAct0ContextCollectionSlides,applyAct0ContextCollection} from './act0-context-collection.mjs';
 import {applyAudienceExampleCleanup} from './audience-example-labels.mjs';
@@ -42,7 +43,7 @@ import {beforeProcedureRecapRemoval,migrateProcedureRecapRemovalFactories,applyP
 
 import {beforeProductTips,applyProductTipNumbers,productTipFactories} from './codex-loop-tips.mjs';
 import {beforeAct5WorkflowRemoval,applyAct5WorkflowNumbers} from './act5-workflow-removal-112.mjs';
-import {CURRENT_SLIDE_COUNT,beforeAct4ReflectionRemoval,applyAct4ReflectionNumbers} from './act4-reflection-removal-111.mjs';
+import {beforeAct4ReflectionRemoval,applyAct4ReflectionNumbers} from './act4-reflection-removal-111.mjs';
 
 const here=path.dirname(fileURLToPath(import.meta.url));
 const ROOT=process.env.TRAINING_REPO??path.resolve(here,'../../..');
@@ -178,7 +179,7 @@ for(const id of Object.keys(factories))delete factories[id];
 Object.assign(factories,recapRemoved113);
 // Keep the retained ACT4 factories in their 113-slide edition.
 const operations = loopOperationsFactories(H);
-const retainedMap=Object.fromEntries(Object.entries(map).map(([id,record])=>[beforeAct5WorkflowRemoval(beforeAct4ReflectionRemoval(id)),record]));
+const retainedMap=Object.fromEntries(Object.entries(map).map(([id,record])=>[beforeAct5WorkflowRemoval(beforeAct4ReflectionRemoval(beforeAnnotationRemoval(id))),record]));
 const productTips = productTipFactories(H,retainedMap);
 const notes={};
 for(let act=0;act<6;act++){
@@ -187,7 +188,7 @@ for(let act=0;act<6;act++){
 }
 const idsArg=process.argv.find(a=>a.startsWith('--ids='))?.slice(6);
 const ids=idsArg?idsArg.split(','):Object.keys(map);
-const missing=ids.filter(id=>!productTips[beforeAct5WorkflowRemoval(beforeAct4ReflectionRemoval(id))] && !factories[beforeProductTips(beforeAct5WorkflowRemoval(beforeAct4ReflectionRemoval(id)))]);if(missing.length)throw new Error('Missing authoring functions: '+missing.join(','));
+const missing=ids.filter(outputId=>{const id=beforeAnnotationRemoval(outputId);return !productTips[beforeAct5WorkflowRemoval(beforeAct4ReflectionRemoval(id))] && !factories[beforeProductTips(beforeAct5WorkflowRemoval(beforeAct4ReflectionRemoval(id)))];});if(missing.length)throw new Error('Missing authoring functions: '+missing.join(','));
 const stamp=process.env.PRESENTATION_BUILD_ID??new Date().toISOString().replace(/[:.]/g,'-');
 const buildDir=path.join(WORK,'build',stamp),outDir=path.join(WORK,'output',stamp);
 await fs.mkdir(buildDir,{recursive:true});await fs.mkdir(outDir,{recursive:true});
@@ -201,16 +202,24 @@ const baseline=process.env.PRESENTATION_BASELINE??path.join(ROOT,'production/AI_
 const cppStatistics=await loadCppStatisticsSlides(ROOT,H);
 const contextCollection=await loadAct0ContextCollectionSlides(ROOT,H);
 const sharedInstructions=contextInstructionFactory(H);
+const requestContextWorkflow=requestContextWorkflowFactory(H);
 const finishSlide=(slide,id)=>{
  applyAct0ContextCollection(slide,id);
  applyAudienceExampleCleanup(slide,id);
  applyContextSkillAnnotations(slide,id);
- slide.speakerNotes.text=notes[id];
+ applyAnnotationRevision(slide,id,H);
+ slide.speakerNotes.text=notes[afterAnnotationRemoval(id)];
 };
 for(const deck of decks){
  const p=Presentation.create({slideSize:{width:1280,height:720}});p.theme.defaultFont=H.FONT;
- for(const currentId of deck.ids){
-  if (!notes[currentId]) throw new Error('Missing Notes '+currentId);
+ for(const outputId of deck.ids){
+  const currentId=beforeAnnotationRemoval(outputId);
+  if (!notes[outputId]) throw new Error('Missing Notes '+outputId);
+  if(currentId==='S63'){
+   const slide=requestContextWorkflow(p);
+   finishSlide(slide,currentId);
+   continue;
+  }
   if(currentId==='S40'){
    const slide=sharedInstructions(p);
    finishSlide(slide,currentId);
@@ -292,8 +301,8 @@ for(const deck of decks){
  let final=candidate,receipt;
  if(process.argv.includes('--release')){
   final=path.join(outDir,deck.name+'.pptx');
-  const chartOwners=deck.ids.map((id,i)=>id==='S69'?i+1:0).filter(Boolean);
-  const tableOwners=deck.ids.map((id,i)=>['S54','S81','S85'].includes(id)?i+1:0).filter(Boolean);
+  const chartOwners=deck.ids.map((id,i)=>beforeAnnotationRemoval(id)==='S69'?i+1:0).filter(Boolean);
+  const tableOwners=deck.ids.map((id,i)=>['S54','S81','S85'].includes(beforeAnnotationRemoval(id))?i+1:0).filter(Boolean);
   receipt=await finalizePresentation({
    workspaceDir:WORK,candidatePath:candidate,finalPath:final,
    pythonExecutable:process.env.RUNTIME_PYTHON,
